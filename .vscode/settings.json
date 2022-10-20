@@ -1,0 +1,4 @@
+{
+	"cSpell.words": ["bitflags", "byteorder", "cdrom", "seeked", "thiserror"],
+	"python.formatting.provider": "yapf"
+}

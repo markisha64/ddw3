@@ -1,0 +1,113 @@
+---
+alias:
+  # External tools
+  # prettier-ignore
+  mkpsxiso : mkpsxiso
+  cargo    : cargo
+  sha256sum: sha256sum
+
+  # Other tools
+  generate_iso_deps     : tools/generate_iso_deps.py
+  generate_compare_deps : tools/generate_compare_deps.py
+
+  # Cargo tools
+  
+
+  # Directories
+  build_dir : build
+  tools_dir : $(build_dir)/tools
+  misc_dir  : $(build_dir)/misc
+
+  # Files
+  checksums            : checksums.sha256
+  dw3_bin_xml          : dw3-bin.xml
+  asm_src              : dw3-asm/dw3.s
+  linker_script        : psx.ld
+  license_iso          : license.dat
+  license_psexe        : license-psexe.dat
+
+  # Built files
+  compare_deps         : $(build_dir)/compare.d
+  dw3_bin              : $(build_dir)/dw3.bin
+  dw3_bin_deps         : $(build_dir)/dw3.bin.d
+  dummy_buffer         : $(misc_dir)/dw3/DUMMY
+
+# By default built the final binary
+default:
+  - $(dw3_bin)
+
+rules:
+  # Compare
+  compare:
+    deps: [$(checksums), deps_file: $(compare_deps)]
+    exec:
+      - [$(sha256sum), --check, --quiet, $(checksums)]
+
+  # Compare dependencies
+  compare-deps:
+    out: [$(compare_deps)]
+    deps:
+      - $(checksums)
+      - $(generate_compare_deps)
+      - static: $(compare_deps::dir_name)/
+
+    exec:
+      - [bash, -c, '$(generate_compare_deps) > $(compare_deps)']
+
+  # Clean
+  clean:
+    exec:
+      - [rm, -rf, $(build_dir)/]
+      - [rm, -rf, tools/target/]
+
+  # Directories
+  mkdir:
+    alias:
+      dir: $(build_dir)^(path)/
+    out: [$(dir)]
+    exec:
+      - [mkdir, -p, $(dir)]
+
+  # Iso
+  mkpsxiso:
+    out: [$(dw3_bin)]
+    deps: [$(dw3_bin_xml), $(license_iso), deps_file: $(dw3_bin_deps)]
+    exec:
+      - [$(mkpsxiso), $(dw3_bin_xml), -q, -y]
+
+  # Iso dependencies
+  mkpsxiso-deps:
+    out: [$(dw3_bin_deps)]
+    deps: [$(dw3_bin_xml), static: $(dw3_bin_deps::dir_name)/]
+    exec:
+      - [bash, -c, '$(generate_iso_deps) > $(dw3_bin_deps)']
+
+  # Cargo tools
+  cargo-tool:
+    alias:
+      tool: $(tools_dir)/^(name::non_empty)
+    out: [$(tool), deps_file: $(tool).d]
+    deps: [static: $(tool::dir_name)/]
+    exec:
+      cwd: tools/
+      cmds:
+        - - $(cargo)
+          - build
+          - --release
+          - --package=^(name)
+          - -Z=unstable-options
+          - --out-dir=../$(tools_dir)
+        - [cp, target/release/^(name).d, ../$(tool).d]
+        - - sed
+          - -i
+          - -e
+          - 's,tools/target/release/,$(tools_dir)/,g'
+          - ../$(tool).d
+
+  # Buffer
+  dummy_buffer:
+    out: [$(dummy_buffer)]
+    deps: [static: $(dummy_buffer::dir_name)/]
+    exec:
+      - [touch, $(dummy_buffer)]
+      - [truncate, --size=35283682, $(dummy_buffer)]

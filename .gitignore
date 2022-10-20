@@ -1,0 +1,11 @@
+# Rust
+target/
+
+# Build
+build/
+
+# Resources
+resources/
+
+# Licenses
+/license.dat

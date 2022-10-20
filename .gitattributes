@@ -1,0 +1,9 @@
+# Manage some `/dw3` files with lfs
+/dw3/**/*.STR filter=lfs diff=lfs merge=lfs -text
+/dw3/**/*.PRO filter=lfs diff=lfs merge=lfs -text
+/dw3/**/*.BIN filter=lfs diff=lfs merge=lfs -text
+/dw3/SLES_039.36 filter=lfs diff=lfs merge=lfs -text
+/dw3/DUMMY filter=lfs diff=lfs merge=lfs -text
+
+# Keep crlfs in all files in `/dw3`
+/dw3/**/* -crlf

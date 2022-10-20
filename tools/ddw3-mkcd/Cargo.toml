@@ -1,0 +1,20 @@
+[package]
+authors = ["Filipe Rodrigues <filipejacintorodrigues1@gmail.com>"]
+edition = "2021"
+name = "ddw3-mkcd"
+version = "0.1.0"
+
+[dependencies]
+
+# Ddw3
+ddw3-cdrom-xa = { path = "../ddw3-cdrom-xa" }
+ddw3-logger = { path = "../ddw3-logger" }
+
+# Cmd
+clap = { version = "4.0.11", features = ["derive"] }
+
+# Logging
+tracing = "0.1.37"
+
+# Error handling
+anyhow = "1.0.65"

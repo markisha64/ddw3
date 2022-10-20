@@ -1,0 +1,18 @@
+[package]
+edition = "2021"
+name = "ddw3-util"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+# Serde
+serde = "1.0.145"
+
+# Error handling
+thiserror = "1.0.37"
+
+# Util
+ascii = "1.1.0"
+ref-cast = "1.0.12"

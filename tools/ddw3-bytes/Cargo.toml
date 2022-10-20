@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "ddw3-bytes"
+version = "0.1.0"
+
+[dependencies]
+
+# Bytes
+arrayref = "0.3.6"
+byteorder = "1.4.3"
+
+# Error handling
+thiserror = "1.0.37"
