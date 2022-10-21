@@ -7,34 +7,39 @@ alias:
   sha256sum: sha256sum
 
   # Other tools
-  generate_iso_deps     : tools/generate_iso_deps.py
-  generate_compare_deps : tools/generate_compare_deps.py
+  generate_psx_iso_deps: tools/generate_psx_iso_deps.py
+  generate_compare_deps: tools/generate_compare_deps.py
 
   # Cargo tools
   
 
   # Directories
-  build_dir : build
-  tools_dir : $(build_dir)/tools
-  misc_dir  : $(build_dir)/misc
+  build_dir  : build
+  tools_dir  : $(build_dir)/tools
+  misc_dir   : $(build_dir)/misc
+  psx_iso_dir: $(build_dir)/iso
 
   # Files
-  checksums            : checksums.sha256
-  dw2003_bin_xml       : dw2003-bin.xml
-  asm_src              : dw2003-asm/dw2003.s
-  linker_script        : psx.ld
-  license_iso          : license.dat
-  license_psexe        : license-psexe.dat
+  checksums      : checksums.sha256
+  linker_script  : psx.ld
+  license_psx_iso: license-psx-bin.dat
+  license_psexe  : license-psexe.dat
 
   # Built files
-  compare_deps         : $(build_dir)/compare.d
-  dw2003_bin           : $(build_dir)/dw2003.bin
-  dw2003_bin_deps      : $(build_dir)/dw2003.bin.d
-  dummy_buffer         : $(misc_dir)/dw2003/DUMMY
+  compare_deps  : $(build_dir)/compare.d
+  dummy_buffer  : $(misc_dir)/DUMMY
+  dw2003_psx_iso: $(psx_iso_dir)/dw2003.bin
+  dw3_psx_iso   : $(psx_iso_dir)/dw3.bin
 
-# By default built the final binary
+  # Psx iso
+  psx_iso     : $(psx_iso_dir)/^(path).bin
+  psx_iso_deps: $(psx_iso_dir)/^(path).d
+  psx_iso_xml : ^(path).xml
+
+# By default built the final `iso`s
 default:
-  - $(dw2003_bin)
+  - $(dw3_psx_iso)
+  - $(dw2003_psx_iso)
 
 rules:
   # Compare
@@ -68,19 +73,31 @@ rules:
     exec:
       - [mkdir, -p, $(dir)]
 
-  # Iso
+  # Psx iso
   mkpsxiso:
-    out: [$(dw2003_bin)]
-    deps: [$(dw2003_bin_xml), $(license_iso), deps_file: $(dw2003_bin_deps)]
+    out: [$(psx_iso)]
+    deps:
+      [
+        $(psx_iso_xml),
+        $(license_psx_iso),
+        deps_file: $(psx_iso_deps),
+        static: $(psx_iso::dir_name)/,
+      ]
     exec:
-      - [$(mkpsxiso), $(dw2003_bin_xml), -q, -y]
+      - [$(mkpsxiso), $(psx_iso_xml), -q, -y]
 
-  # Iso dependencies
+  # Pxs iso dependencies
   mkpsxiso-deps:
-    out: [$(dw2003_bin_deps)]
-    deps: [$(dw2003_bin_xml), static: $(dw2003_bin_deps::dir_name)/]
+    out: [$(psx_iso_deps)]
+    deps: [$(psx_iso_xml), static: $(psx_iso_deps::dir_name)/]
     exec:
-      - [bash, -c, '$(generate_iso_deps) > $(dw2003_bin_deps)']
+      - - $(generate_psx_iso_deps)
+        - --iso
+        - $(psx_iso)
+        - --xml
+        - $(psx_iso_xml)
+        - --deps-file
+        - $(psx_iso_deps)
 
   # Cargo tools
   cargo-tool:
