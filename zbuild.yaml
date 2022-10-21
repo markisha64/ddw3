@@ -20,21 +20,21 @@ alias:
 
   # Files
   checksums            : checksums.sha256
-  dw3_bin_xml          : dw3-bin.xml
-  asm_src              : dw3-asm/dw3.s
+  dw2003_bin_xml       : dw2003-bin.xml
+  asm_src              : dw2003-asm/dw2003.s
   linker_script        : psx.ld
   license_iso          : license.dat
   license_psexe        : license-psexe.dat
 
   # Built files
   compare_deps         : $(build_dir)/compare.d
-  dw3_bin              : $(build_dir)/dw3.bin
-  dw3_bin_deps         : $(build_dir)/dw3.bin.d
-  dummy_buffer         : $(misc_dir)/dw3/DUMMY
+  dw2003_bin           : $(build_dir)/dw2003.bin
+  dw2003_bin_deps      : $(build_dir)/dw2003.bin.d
+  dummy_buffer         : $(misc_dir)/dw2003/DUMMY
 
 # By default built the final binary
 default:
-  - $(dw3_bin)
+  - $(dw2003_bin)
 
 rules:
   # Compare
@@ -70,17 +70,17 @@ rules:
 
   # Iso
   mkpsxiso:
-    out: [$(dw3_bin)]
-    deps: [$(dw3_bin_xml), $(license_iso), deps_file: $(dw3_bin_deps)]
+    out: [$(dw2003_bin)]
+    deps: [$(dw2003_bin_xml), $(license_iso), deps_file: $(dw2003_bin_deps)]
     exec:
-      - [$(mkpsxiso), $(dw3_bin_xml), -q, -y]
+      - [$(mkpsxiso), $(dw2003_bin_xml), -q, -y]
 
   # Iso dependencies
   mkpsxiso-deps:
-    out: [$(dw3_bin_deps)]
-    deps: [$(dw3_bin_xml), static: $(dw3_bin_deps::dir_name)/]
+    out: [$(dw2003_bin_deps)]
+    deps: [$(dw2003_bin_xml), static: $(dw2003_bin_deps::dir_name)/]
     exec:
-      - [bash, -c, '$(generate_iso_deps) > $(dw3_bin_deps)']
+      - [bash, -c, '$(generate_iso_deps) > $(dw2003_bin_deps)']
 
   # Cargo tools
   cargo-tool:
