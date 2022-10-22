@@ -11,14 +11,7 @@ use {
 	anyhow::Context,
 	args::Args,
 	clap::Parser,
-	ddw3_bytes::Bytes,
-	ddw3_iso9660::{
-		date_time::DecDateTime,
-		path_table::PathTableReader,
-		string::FileStrWithoutVersion,
-		Dir,
-		FilesystemReader,
-	},
+	ddw3_iso9660::{path_table::PathTableReader, string::FileStrWithoutVersion, Dir, FilesystemReader},
 	ddw3_util::IoSlice,
 	std::{
 		collections::HashMap,
@@ -76,10 +69,6 @@ fn main() -> Result<(), anyhow::Error> {
 			.context("Unable to extract path table")?
 		},
 	}
-
-	// Create the header and output it
-	let header_file_path = output_dir.join("iso.header");
-	self::extract_header(&header_file_path, &fs_reader).context("Unable to extract header")?;
 
 	Ok(())
 }
@@ -180,95 +169,4 @@ fn extract_dir<R: io::Read + io::Seek>(
 	}
 
 	Ok(())
-}
-
-/// Extracts the header
-fn extract_header(path: &Path, fs_reader: &FilesystemReader) -> Result<(), anyhow::Error> {
-	// Create the header
-	let primary_volume = fs_reader.primary_volume_descriptor();
-	tracing::trace!(?primary_volume);
-	let date_time_to_string = |date_time: DecDateTime| {
-		let bytes = date_time.to_bytes().into_ok();
-		std::str::from_utf8(&bytes)
-			.expect("Date time was invalid utf8")
-			.to_owned()
-	};
-	let header = Header {
-		system_id:                     primary_volume.system_id.as_lossy_str().to_string(),
-		volume_id:                     primary_volume.volume_id.as_lossy_str().to_string(),
-		volume_space_size:             primary_volume.volume_space_size,
-		volume_sequence_number:        primary_volume.volume_sequence_number,
-		logical_block_size:            primary_volume.logical_block_size,
-		volume_set_id:                 primary_volume.volume_set_id.as_lossy_str().to_string(),
-		publisher_id:                  primary_volume.publisher_id.as_lossy_str().to_string(),
-		data_preparer_id:              primary_volume.data_preparer_id.as_lossy_str().to_string(),
-		application_id:                primary_volume.application_id.as_lossy_str().to_string(),
-		copyright_file_id:             primary_volume.copyright_file_id.as_lossy_str().to_string(),
-		abstract_file_id:              primary_volume.abstract_file_id.as_lossy_str().to_string(),
-		bibliographic_file_id:         primary_volume.bibliographic_file_id.as_lossy_str().to_string(),
-		volume_creation_date_time:     date_time_to_string(primary_volume.volume_creation_date_time),
-		volume_modification_date_time: date_time_to_string(primary_volume.volume_modification_date_time),
-		volume_expiration_date_time:   date_time_to_string(primary_volume.volume_expiration_date_time),
-		volume_effective_date_time:    date_time_to_string(primary_volume.volume_effective_date_time),
-	};
-	tracing::trace!(?header);
-
-	// Then create and write to the output file
-	let mut header_file = fs::File::create(path).context("Unable to create output header file")?;
-	serde_yaml::to_writer(&mut header_file, &header).context("Unable to write header")?;
-
-	Ok(())
-}
-
-/// Header
-#[derive(PartialEq, Eq, Clone, Debug)]
-#[derive(serde::Deserialize, serde::Serialize)]
-pub struct Header {
-	/// System Id
-	pub system_id: String,
-
-	/// Volume Id
-	pub volume_id: String,
-
-	/// Volume space size
-	pub volume_space_size: u32,
-
-	/// Volume sequence_number
-	pub volume_sequence_number: u16,
-
-	/// Logical block size
-	pub logical_block_size: u16,
-
-	/// Volume set identifier
-	pub volume_set_id: String,
-
-	/// Publisher identifier
-	pub publisher_id: String,
-
-	/// Data preparer identifier
-	pub data_preparer_id: String,
-
-	/// Application identifier
-	pub application_id: String,
-
-	/// Copyright file identifier
-	pub copyright_file_id: String,
-
-	/// Abstract file identifier
-	pub abstract_file_id: String,
-
-	/// Bibliographic file identifier
-	pub bibliographic_file_id: String,
-
-	/// Volume creation date time
-	pub volume_creation_date_time: String,
-
-	/// Volume modification date time
-	pub volume_modification_date_time: String,
-
-	/// Volume expiration date time
-	pub volume_expiration_date_time: String,
-
-	/// Volume effective date time
-	pub volume_effective_date_time: String,
 }

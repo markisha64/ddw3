@@ -3,7 +3,6 @@
 members = [
 	# Cdrom
 	"ddw3-cdrom-xa",
-	"ddw3-mkcd",
 	"ddw3-uncd",
 
 	# ISO

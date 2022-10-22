@@ -144,17 +144,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "ddw3-mkcd"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "ddw3-cdrom-xa",
- "ddw3-logger",
- "tracing",
-]
-
-[[package]]
 name = "ddw3-uncd"
 version = "0.1.0"
 dependencies = [
