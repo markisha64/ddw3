@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<iso_project image_name="build/iso/dw3.bin" no_xa="0">
+<iso_project>
 	<track type="data">
 		<identifiers system="PLAYSTATION" application="PLAYSTATION" volume="DMW3" volume_set="" publisher="BANDAI" data_preparer="BANDAI" copyright="BANDAI" />
 

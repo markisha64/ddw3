@@ -3,6 +3,7 @@
 		"bitflags",
 		"byteorder",
 		"cdrom",
+		"mkpsxiso",
 		"psexe",
 		"seeked",
 		"thiserror"

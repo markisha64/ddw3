@@ -38,6 +38,7 @@ alias:
 
   # Psx iso
   psx_iso     : $(psx_iso_dir)/^(path).bin
+  psx_iso_cue : $(psx_iso_dir)/^(path).cue
   psx_iso_deps: $(psx_iso_dir)/^(path).d
   psx_iso_xml : ^(path).xml
 
@@ -96,16 +97,23 @@ rules:
 
   # Psx iso
   mkpsxiso:
-    out: [$(psx_iso)]
+    out: [$(psx_iso), $(psx_iso_cue)]
     deps:
-      [
-        $(psx_iso_xml),
-        $(license_psx_iso),
-        deps_file: $(psx_iso_deps),
-        static: $(psx_iso::dir_name)/,
-      ]
+      - $(psx_iso_xml)
+      - $(license_psx_iso)
+      - deps_file: $(psx_iso_deps)
+      - static: $(psx_iso::dir_name)/
     exec:
-      - [$(mkpsxiso), $(psx_iso_xml), -q, -y]
+      - - $(mkpsxiso)
+        - $(psx_iso_xml)
+        - -nolimit
+        - -noxa
+        - -y
+        - --quiet
+        - --output
+        - $(psx_iso)
+        - --cuefile
+        - $(psx_iso_cue)
 
   # Pxs iso dependencies
   mkpsxiso-deps:
