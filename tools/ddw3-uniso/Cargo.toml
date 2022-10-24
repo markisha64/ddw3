@@ -34,3 +34,6 @@ derive_more = "0.99.17"
 # Serde
 serde = { version = "1.0.0", features = ["derive"] }
 serde_yaml = "0.9.13"
+
+# Xml
+xml-rs = "0.8.4"

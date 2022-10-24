@@ -26,4 +26,13 @@ pub struct Args {
 	/// might yield additional entries not reached through the path table.
 	#[clap(long = "path-table-recurse", requires = "use_path_table")]
 	pub path_table_recurse: bool,
+
+	/// Don't actually create any files
+	#[clap(long = "dry-run")]
+	pub dry_run: bool,
+
+	/// Creates a `mkpsxiso`-compatible `xml` file that allows rebuilding the
+	/// extracted iso.
+	#[clap(long = "mkpsxiso-xml")]
+	pub create_mkpsxiso_xml: Option<PathBuf>,
 }
