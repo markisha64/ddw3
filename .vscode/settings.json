@@ -1,4 +1,13 @@
 {
-	"cSpell.words": ["bitflags", "byteorder", "cdrom", "seeked", "thiserror"],
-	"python.formatting.provider": "yapf"
+	"cSpell.words": [
+		"bitflags",
+		"byteorder",
+		"cdrom",
+		"psexe",
+		"seeked",
+		"thiserror"
+	],
+	"python.formatting.provider": "yapf",
+	"rust-analyzer.checkOnSave.allTargets": false,
+	"rust-analyzer.linkedProjects": ["tools/Cargo.toml"]
 }

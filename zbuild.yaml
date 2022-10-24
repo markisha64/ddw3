@@ -2,6 +2,8 @@
 alias:
   # External tools
   # prettier-ignore
+  as       : mips-elf-as
+  ld       : mips-elf-ld
   mkpsxiso : mkpsxiso
   cargo    : cargo
   sha256sum: sha256sum
@@ -11,13 +13,16 @@ alias:
   generate_compare_deps: tools/generate_compare_deps.py
 
   # Cargo tools
-  
+  mkpsexe: $(tools_dir)/ddw3-mkpsexe
 
   # Directories
   build_dir  : build
   tools_dir  : $(build_dir)/tools
   misc_dir   : $(build_dir)/misc
   psx_iso_dir: $(build_dir)/iso
+  asm_dir    : $(build_dir)/asm
+  elf_dir    : $(build_dir)/elf
+  psexe_dir  : $(build_dir)/psexe
 
   # Files
   checksums       : checksums.sha256
@@ -35,6 +40,22 @@ alias:
   psx_iso     : $(psx_iso_dir)/^(path).bin
   psx_iso_deps: $(psx_iso_dir)/^(path).d
   psx_iso_xml : ^(path).xml
+
+  # Assembly
+  asm_obj     : $(asm_dir)/^(path).o
+  asm_obj_deps: $(asm_dir)/^(path).d
+  asm_src     : ^(path).s
+
+  # Elf
+  # TODO: Not hardcode where the object files come from
+  elf    : $(elf_dir)/^(path).elf
+  elf_obj: $(asm_dir)/^(path).o
+  elf_ld : ^(path).ld
+
+  # Elf
+  # TODO: Not hardcode where the elf or license come from
+  psexe    : $(psexe_dir)/^(path)
+  psexe_elf: $(elf_dir)/^(path).elf
 
 # By default built the final `iso`s
 default:
@@ -128,3 +149,52 @@ rules:
     exec:
       - [touch, $(dummy_buffer)]
       - [truncate, --size=35283682, $(dummy_buffer)]
+
+  # Psexe
+  # TODO: Hardcode less
+  psexe:
+    out: [$(psexe)]
+    deps:
+      - $(psexe_elf)
+      - $(license_psexe_eu)
+      - $(mkpsexe)
+      - static: $(psexe::dir_name)/
+    exec:
+      - - $(mkpsexe)
+        - $(psexe_elf)
+        - -o
+        - $(psexe)
+        - --license
+        - $(license_psexe_eu)
+
+  # Elf
+  # TODO: Hardcode les
+  elf:
+    out: [$(elf)]
+    deps: [$(elf_obj), $(elf_ld), static: $(elf::dir_name)/]
+    exec:
+      - - $(ld)
+        - $(elf_obj)
+        - -o
+        - $(elf)
+        - -EL
+        - --script
+        - $(elf_ld)
+        - --warn-section-align
+
+  # Assembly
+  asm:
+    out: [$(asm_obj), deps_file: $(asm_obj_deps)]
+    deps: [$(asm_src), static: $(asm_obj::dir_name)/]
+    exec:
+      - - $(as)
+        - -MD
+        - $(asm_obj_deps)
+        - $(asm_src)
+        - -o
+        - $(asm_obj)
+        - -EL
+        - -mips1
+        - -march=r3000
+        - -msoft-float
+        - -O2
