@@ -198,3 +198,11 @@ rules:
         - -march=r3000
         - -msoft-float
         - -O2
+        - -I$(asm_src::dir_name)
+      # Zbuild doesn't support `\\\n` yet
+      - - sed
+        - -z
+        - -i
+        - -e
+        - 's/\\\n/ /g'
+        - $(asm_obj_deps)
