@@ -8,7 +8,7 @@
 
 		<directory_tree>
 			<file name="SYSTEM.CNF" type="data" source="dw2003/SYSTEM.CNF" />
-			<file name="SLES_039.36" type="data" source="build/psexe/dw2003/SLES_039.36" />
+			<file name="SLES_039.36" type="data" source="build/psexe/dw2003/SLES_039.36.psexe" />
 
 			<dir name="AAA">
 				<dir name="PRO">

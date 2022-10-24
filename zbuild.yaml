@@ -54,7 +54,7 @@ alias:
 
   # Elf
   # TODO: Not hardcode where the elf or license come from
-  psexe    : $(psexe_dir)/^(path)
+  psexe    : $(psexe_dir)/^(path).psexe
   psexe_elf: $(elf_dir)/^(path).elf
 
 # By default built the final `iso`s
