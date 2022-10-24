@@ -20,10 +20,10 @@ alias:
   psx_iso_dir: $(build_dir)/iso
 
   # Files
-  checksums      : checksums.sha256
-  linker_script  : psx.ld
-  license_psx_iso: license-psx-bin.dat
-  license_psexe  : license-psexe.dat
+  checksums       : checksums.sha256
+  license_psx_iso : licenses/psx-bin.dat
+  license_psexe_eu: licenses/psexe-eu.dat
+  license_psexe_na: licenses/psexe-na.dat
 
   # Built files
   compare_deps  : $(build_dir)/compare.d

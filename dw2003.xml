@@ -4,7 +4,7 @@
 	<track type="data">
 		<identifiers system="PLAYSTATION" application="PLAYSTATION" volume="DMW3" volume_set="" publisher="BANDAI" data_preparer="BANDAI" copyright="BANDAI" />
 
-		<license file="license-psx-bin.dat" />
+		<license file="licenses/psx-bin.dat" />
 
 		<directory_tree>
 			<file name="SYSTEM.CNF" type="data" source="dw2003/SYSTEM.CNF" />
