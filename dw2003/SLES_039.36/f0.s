@@ -1,19 +1,28 @@
-# Loads the digimon stats
-.L800134e8: addiu $sp, -24
-.L800134ec: sw $ra, 16($sp)
-.L800134f0: jal .L800134ac
-.L800134f4: nop
-.L800134f8: move_ $v1, $v0
-.L800134fc: bltz $v1, .L80013524
-.L80013500: move_ $v0, $zr
-.L80013504: sll $v0, $v1, 0x1
-.L80013508: addu $v0, $v1
-.L8001350c: sll $v0, 0x2
-.L80013510: subu $v0, $v1
-.L80013514: sll $v0, 0x3
-.L80013518: la_ $v1, .L8003ef5c # Digimon stats
-.L80013520: addu $v0, $v1
-.L80013524: lw $ra, 16($sp)
-.L80013528: nop
-.L8001352c: jr $ra
-.L80013530: addiu $sp, 24
+# Returns the pointer to the current digimon stat
+# `fn f0(u32 value) -> *u32`
+f0:
+	addiu $sp, -24
+	sw $ra, 16($sp)
+
+# If the return from `u32 idx = f1()` is negative, return 0
+	jal f1
+	nop
+	move_ $v1, $v0
+	bltz $v1, .Lexit$
+	move_ $v0, $zr
+
+# Else return `digimon_stats + idx * 0x58`, the `idx`th digimon stat pointer
+	sll $v0, $v1, 0x1
+	addu $v0, $v1
+	sll $v0, 0x2
+	subu $v0, $v1
+	sll $v0, 0x3
+	la_ $v1, digimon_stats # Digimon stats
+	addu $v0, $v1
+
+.Lexit$:
+	lw $ra, 16($sp)
+	nop
+	jr $ra
+	addiu $sp, 24
+f0_end:
