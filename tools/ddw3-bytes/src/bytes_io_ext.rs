@@ -3,7 +3,7 @@
 // Imports
 use {
 	crate::{ByteArray, Bytes},
-	std::{error, fmt, io},
+	std::io,
 };
 
 /// Bytes read extension trait
@@ -32,7 +32,7 @@ impl<W: io::Write> BytesWriteExt for W {}
 
 /// Read bytes error
 #[derive(Debug, thiserror::Error)]
-pub enum ReadDeserializeError<E: fmt::Debug + error::Error + 'static> {
+pub enum ReadDeserializeError<E> {
 	/// Unable to read bytes
 	#[error("Unable to read bytes")]
 	Read(#[source] io::Error),
@@ -44,7 +44,7 @@ pub enum ReadDeserializeError<E: fmt::Debug + error::Error + 'static> {
 
 /// Write bytes error
 #[derive(Debug, thiserror::Error)]
-pub enum WriteSerializeError<E: fmt::Debug + error::Error + 'static> {
+pub enum WriteSerializeError<E> {
 	/// Unable to serialize value
 	#[error("Unable to serialize value")]
 	Serialize(#[source] E),

@@ -150,7 +150,20 @@ dependencies = [
  "anyhow",
  "byteorder",
  "clap",
+ "ddw3-bytes",
  "ddw3-logger",
+ "ddw3-psexe",
+ "goblin",
+ "tracing",
+]
+
+[[package]]
+name = "ddw3-psexe"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "byteorder",
+ "ddw3-bytes",
  "goblin",
  "tracing",
 ]

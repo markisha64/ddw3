@@ -1,8 +1,5 @@
 //! `Bytes` trait.
 
-// Imports
-use std::error::Error;
-
 /// Conversion from and to bytes
 pub trait Bytes
 where
@@ -12,10 +9,10 @@ where
 	type ByteArray: ByteArray;
 
 	/// The error type used for the operation
-	type DeserializeError: Error;
+	type DeserializeError;
 
 	/// The error type used for the operation
-	type SerializeError: Error;
+	type SerializeError;
 
 	/// Deserializes this from `bytes`
 	fn deserialize_bytes(bytes: &Self::ByteArray) -> Result<Self, Self::DeserializeError>;

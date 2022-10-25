@@ -1,7 +1,7 @@
 //! `.psexe` packer
 
 // Features
-#![feature(seek_stream_len)]
+#![feature(seek_stream_len, generic_arg_infer)]
 
 // Modules
 mod args;
@@ -10,8 +10,8 @@ mod args;
 use {
 	anyhow::Context,
 	args::Args,
-	byteorder::{ByteOrder, LittleEndian},
 	clap::Parser,
+	ddw3_bytes::BytesWriteExt,
 	goblin::Object,
 	std::{
 		fs,
@@ -98,36 +98,26 @@ fn main() -> Result<(), anyhow::Error> {
 
 	// Then go back and write the header
 	output_file.rewind().context("Unable to rewind output file")?;
-	let license = fs::read(args.license_file).context("Unable to read license file")?;
-	self::write_header(&mut output_file, pc0, text_base, file_size, &license)
+	let license_file = fs::read(args.license_file).context("Unable to read license file")?;
+	let header = ddw3_psexe::Header {
+		pc0,
+		text_base,
+		text_size: file_size,
+		// TODO: Not hardcode these?
+		sp: 0x801ffff0,
+		license: match license_file.len() {
+			len if len > ddw3_psexe::Header::LICENSE_SIZE =>
+				anyhow::bail!("License file was too big: {len}/{}", ddw3_psexe::Header::LICENSE_SIZE),
+			len => {
+				let mut license_bytes = [0; _];
+				license_bytes[..len].copy_from_slice(&license_file);
+				license_bytes
+			},
+		},
+	};
+	output_file
+		.write_serialize(&header)
 		.context("Unable to write output file header")?;
 
-	Ok(())
-}
-
-/// Writes the output file header
-fn write_header(
-	output_file: &mut fs::File,
-	pc0: u32,
-	text_base: u32,
-	file_size: u32,
-	license_text: &[u8],
-) -> Result<(), anyhow::Error> {
-	let mut header = [0; 0x800];
-	header[0x0..0x8].copy_from_slice(b"PS-X EXE");
-	LittleEndian::write_u32(&mut header[0x10..0x14], pc0);
-	LittleEndian::write_u32(&mut header[0x18..0x1c], text_base);
-	LittleEndian::write_u32(&mut header[0x1c..0x20], file_size);
-
-	// TODO: Hard hardcode these?
-	LittleEndian::write_u32(&mut header[0x30..0x34], 0x801ffff0);
-	LittleEndian::write_u32(&mut header[0x34..0x38], 0x0);
-
-	anyhow::ensure!(license_text.len() <= 0x800 - 0x4c, "License text is too big");
-	header[0x4c..0x4c + license_text.len()].copy_from_slice(license_text);
-
-	output_file
-		.write_all(&header)
-		.context("Unable to write to output file")?;
 	Ok(())
 }

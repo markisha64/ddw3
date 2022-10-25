@@ -10,6 +10,7 @@ members = [
 	"ddw3-uniso",
 
 	# Psexe
+	"ddw3-psexe",
 	"ddw3-mkpsexe",
 
 	# Util
