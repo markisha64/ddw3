@@ -1,0 +1,9 @@
+[build]
+dep-info-basedir = ".."
+target = "mipsel-sony-psx.json"
+
+[target."mipsel-sony-psx.json"]
+linker = "mips-elf-ld"
+
+[unstable]
+build-std = ["core"]

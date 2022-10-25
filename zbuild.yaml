@@ -23,6 +23,7 @@ alias:
   asm_dir    : $(build_dir)/asm
   elf_dir    : $(build_dir)/elf
   psexe_dir  : $(build_dir)/psexe
+  rs_dir     : $(build_dir)/rs
 
   # Files
   checksums       : checksums.sha256
@@ -53,10 +54,16 @@ alias:
   elf_obj: $(asm_dir)/^(path).o
   elf_ld : ^(path).ld
 
-  # Elf
+  # Psexe
   # TODO: Not hardcode where the elf or license come from
   psexe    : $(psexe_dir)/^(path).psexe
   psexe_elf: $(elf_dir)/^(path).elf
+
+  # Rust library
+  # TODO: Allow dashes in name?
+  rs_lib    : $(rs_dir)/lib^(name).a
+  rs_lib_dep: $(rs_dir)/lib^(name).d
+  rs_src_dir: ^(name)
 
 # By default built the final `iso`s
 default:
@@ -214,3 +221,28 @@ rules:
         - -e
         - 's/\\\n/ /g'
         - $(asm_obj_deps)
+
+  # Rust library
+  rs_lib:
+    alias:
+      target_dir: target/mipsel-sony-psx/release
+    out:
+      - $(rs_lib)
+      - deps_file: $(rs_lib_dep)
+    deps:
+      - static: $(rs_lib::dir_name)/
+    exec:
+      cwd: $(rs_src_dir)/
+      cmds:
+        - - $(cargo)
+          - build
+          - --release
+          - --package=^(name)
+          - -Z=unstable-options
+          - --out-dir=../$(rs_dir)/
+        - [cp, $(target_dir)/lib^(name).d, ../$(rs_dir)]
+        - - sed
+          - -i
+          - -e
+          - 's,$(rs_src_dir)/$(target_dir)/,$(rs_dir)/,g'
+          - ../$(rs_lib_dep)
