@@ -8,7 +8,7 @@ version = "0.1.0"
 [dependencies]
 
 # Serde
-serde = "1.0.145"
+serde = "1.0.147"
 
 # Error handling
 thiserror = "1.0.37"

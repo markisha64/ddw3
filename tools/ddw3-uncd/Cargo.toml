@@ -11,10 +11,10 @@ ddw3-cdrom-xa = { path = "../ddw3-cdrom-xa" }
 ddw3-logger = { path = "../ddw3-logger" }
 
 # Cmd
-clap = { version = "4.0.15", features = ["derive"] }
+clap = { version = "4.0.18", features = ["derive"] }
 
 # Logging
 tracing = "0.1.37"
 
 # Error handling
-anyhow = "1.0.65"
+anyhow = "1.0.66"
