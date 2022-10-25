@@ -183,10 +183,14 @@ rules:
         - $(license_psexe_eu)
 
   # Elf
-  # TODO: Hardcode les
+  # TODO: Hardcode less
   elf:
     out: [$(elf)]
-    deps: [$(elf_obj), $(elf_ld), static: $(elf::dir_name)/]
+    deps:
+      - $(elf_obj)
+      - $(elf_ld)
+      - $(rs_dir)/libdw2003_exe_data.a
+      - static: $(elf::dir_name)/
     exec:
       - - $(ld)
         - $(elf_obj)
@@ -196,6 +200,8 @@ rules:
         - --script
         - $(elf_ld)
         - --warn-section-align
+        - -L$(rs_dir)
+        - -ldw2003_exe_data
 
   # Assembly
   asm:

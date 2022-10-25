@@ -5,6 +5,7 @@
 #![no_std]
 
 // Modules
+mod data;
 mod util;
 
 // Dummy panic handler

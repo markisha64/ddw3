@@ -1,13 +1,14 @@
 # Returns the digimon stat index of the first digimon with `value0 = value`
 # `fn f1(u32 value) -> u32`
+.global f1
 f1:
 cur_idx=$v1
 digimon_stats_ptr=$a1
 
 	# Setup the digimon stats pointer and the current index
 	move_ cur_idx, $zr
-	lui $v0, %hi(digimon_stats)
-	addiu digimon_stats_ptr, $v0, %lo(digimon_stats)
+	lui $v0, %hi(DIGIMON_STATS)
+	addiu digimon_stats_ptr, $v0, %lo(DIGIMON_STATS)
 
 # Then loop through all stats
 .Lloop$:
