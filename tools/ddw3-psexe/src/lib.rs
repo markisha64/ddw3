@@ -7,10 +7,11 @@
 use {
 	byteorder::{ByteOrder, LittleEndian},
 	ddw3_bytes::Bytes,
+	std::fmt,
 };
 
 /// Psx header
-#[derive(PartialEq, Eq, Clone, Copy, Debug)]
+#[derive(PartialEq, Eq, Clone, Copy)]
 pub struct Header {
 	/// Start address
 	pub pc0: u32,
@@ -26,6 +27,20 @@ pub struct Header {
 
 	/// License
 	pub license: [u8; Self::LICENSE_SIZE],
+}
+
+impl fmt::Debug for Header {
+	fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+		let license_end_idx = self.license.iter().position(|&b| b == 0).unwrap_or(self.license.len());
+
+		f.debug_struct("Header")
+			.field("pc0", &format_args!("{:#010x}", self.pc0))
+			.field("text_base", &format_args!("{:#010x}", self.text_base))
+			.field("text_size", &format_args!("{:#010x}", self.text_size))
+			.field("sp", &format_args!("{:#010x}", self.sp))
+			.field("license", &String::from_utf8(self.license[..license_end_idx].to_vec()))
+			.finish()
+	}
 }
 
 impl Header {

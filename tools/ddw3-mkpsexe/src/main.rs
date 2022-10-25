@@ -116,6 +116,7 @@ fn main() -> Result<(), anyhow::Error> {
 			},
 		},
 	};
+	tracing::trace!(?header);
 	output_file
 		.write_serialize::<_, Result<_, anyhow::Error>>(&header)
 		.context("Unable to write output file header")?;
