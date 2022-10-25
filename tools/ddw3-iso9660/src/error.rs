@@ -15,6 +15,10 @@ pub enum NewError {
 	MissingPrimaryVolumeBeforeSetTerminator,
 
 	/// Read volume descriptor
+	#[error("Unable to read sector")]
+	ReadVolumeDescriptor(#[from] ReadDeserializeError),
+
+	/// Pare volume descriptor
 	#[error("Unable to parse sector")]
-	ReadVolumeDescriptor(#[source] ReadDeserializeError<volume_descriptor::DeserializeBytesError>),
+	ParseVolumeDescriptor(#[from] volume_descriptor::DeserializeBytesError),
 }

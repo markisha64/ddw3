@@ -35,6 +35,7 @@ fn main() -> Result<(), anyhow::Error> {
 		Object::Elf(elf) => elf,
 		object => anyhow::bail!("Expected elf input file, found {object:?}"),
 	};
+	tracing::trace!(?elf.header);
 
 	// Find the `.text` section
 	let text_header = elf
@@ -116,7 +117,7 @@ fn main() -> Result<(), anyhow::Error> {
 		},
 	};
 	output_file
-		.write_serialize(&header)
+		.write_serialize::<_, Result<_, anyhow::Error>>(&header)
 		.context("Unable to write output file header")?;
 
 	Ok(())

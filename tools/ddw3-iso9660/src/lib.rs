@@ -47,9 +47,7 @@ impl FilesystemReader {
 
 		// Then keep reading until we get our primary volume descriptor
 		let primary_volume_descriptor = loop {
-			let volume = reader
-				.read_deserialize::<VolumeDescriptor>()
-				.map_err(NewError::ReadVolumeDescriptor)?;
+			let volume = reader.read_deserialize::<VolumeDescriptor, Result<_, NewError>>()?;
 			match volume {
 				VolumeDescriptor::Primary(primary) => break primary,
 				VolumeDescriptor::SetTerminator => return Err(NewError::MissingPrimaryVolumeBeforeSetTerminator),
