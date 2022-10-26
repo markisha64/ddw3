@@ -6,7 +6,11 @@
 
 // Modules
 mod data;
+mod digimon_profile;
 mod util;
+
+// Exports
+use digimon_profile::DigimonProfile;
 
 // Dummy panic handler
 #[panic_handler]
