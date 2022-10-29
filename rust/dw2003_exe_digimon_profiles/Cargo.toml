@@ -4,7 +4,7 @@ name = "dw2003_exe_digimon_profiles"
 version = "0.1.0"
 
 [lib]
-crate-type = ["lib"]
+crate-type = ["staticlib"]
 
 [dependencies]
 

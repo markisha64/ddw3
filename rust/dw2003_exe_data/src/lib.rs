@@ -6,3 +6,6 @@
 
 // Modules
 mod data;
+
+// Export
+pub use util::panic_handler;
