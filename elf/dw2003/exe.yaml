@@ -4,10 +4,12 @@ objs:
   - /build/asm/dw2003/exe/fns.o
   - /build/asm/dw2003/exe/f0.o
   - /build/asm/dw2003/exe/f1.o
+  - /build/asm/dw2003/exe/f2.o
   - /build/rust/dw2003_exe_data.a
   - /build/rust/dw2003_exe_digimon_profiles.a
 sections:
   - fns0
+  - section_f2
   - section_f1
   - section_f0
   - fns1
