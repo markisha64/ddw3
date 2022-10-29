@@ -12,7 +12,7 @@ f0:
 	jal f1
 	nop
 	move_ $v1, $v0
-	bltz $v1, .Lexit$
+	bltz $v1, .Lexit
 	move_ $v0, $zr
 
 # Else return `DIGIMON_PROFILES + idx * 0x58`, the `idx`th digimon stat pointer
@@ -24,7 +24,7 @@ f0:
 	la_ $v1, DIGIMON_PROFILES
 	addu $v0, $v1
 
-.Lexit$:
+.Lexit:
 	lw $ra, 16($sp)
 	nop
 	jr $ra
