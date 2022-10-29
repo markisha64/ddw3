@@ -1,0 +1,3 @@
+[workspace]
+
+members = ["dw2003_exe_data"]

@@ -3,15 +3,14 @@
 		"bitflags",
 		"byteorder",
 		"cdrom",
+		"mkpsexe",
 		"mkpsxiso",
+		"objs",
 		"psexe",
 		"seeked",
 		"thiserror"
 	],
 	"python.formatting.provider": "yapf",
 	"rust-analyzer.checkOnSave.allTargets": false,
-	"rust-analyzer.linkedProjects": [
-		"tools/Cargo.toml",
-		"dw2003_exe_data/Cargo.toml"
-	]
+	"rust-analyzer.linkedProjects": ["tools/Cargo.toml"]
 }

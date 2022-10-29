@@ -9,13 +9,18 @@ alias:
   sha256sum: sha256sum
 
   # Other tools
-  generate_psx_iso_deps: tools/generate_psx_iso_deps.py
-  generate_compare_deps: tools/generate_compare_deps.py
+  generate_psx_iso_deps : tools/generate_psx_iso_deps.py
+  generate_compare_deps : tools/generate_compare_deps.py
+  mkpsexe_from_yaml     : tools/mkpsexe_from_yaml.py
+  mkpsexe_from_yaml_deps: tools/mkpsexe_from_yaml_deps.py
+  ld_from_yaml_deps     : tools/ld_from_yaml_deps.py
+  ld_from_yaml          : tools/ld_from_yaml.py
 
   # Cargo tools
   mkpsexe: $(tools_dir)/ddw3-mkpsexe
 
   # Directories
+  # TODO: Rename these to `build_*_dir`
   build_dir  : build
   tools_dir  : $(build_dir)/tools
   misc_dir   : $(build_dir)/misc
@@ -23,7 +28,7 @@ alias:
   asm_dir    : $(build_dir)/asm
   elf_dir    : $(build_dir)/elf
   psexe_dir  : $(build_dir)/psexe
-  rs_dir     : $(build_dir)/rs
+  rust_dir   : $(build_dir)/rust
 
   # Files
   checksums       : checksums.sha256
@@ -46,24 +51,22 @@ alias:
   # Assembly
   asm_obj     : $(asm_dir)/^(path).o
   asm_obj_deps: $(asm_dir)/^(path).d
-  asm_src     : ^(path).s
+  asm_src     : asm/^(path).s
 
   # Elf
-  # TODO: Not hardcode where the object files come from
-  elf    : $(elf_dir)/^(path).elf
-  elf_obj: $(asm_dir)/^(path).o
-  elf_ld : ^(path).ld
+  elf              : $(elf_dir)/^(path).elf
+  elf_deps         : $(elf_dir)/^(path).d
+  elf_linker_script: $(elf_dir)/^(path).ld
+  elf_yaml         : elf/^(path).yaml
 
   # Psexe
-  # TODO: Not hardcode where the elf or license come from
-  psexe    : $(psexe_dir)/^(path).psexe
-  psexe_elf: $(elf_dir)/^(path).elf
+  psexe     : $(psexe_dir)/^(path).psexe
+  psexe_deps: $(psexe_dir)/^(path).d
+  psexe_yaml: psexe/^(path).yaml
 
   # Rust library
-  # TODO: Allow dashes in name?
-  rs_lib    : $(rs_dir)/lib^(name).a
-  rs_lib_dep: $(rs_dir)/lib^(name).d
-  rs_src_dir: ^(name)
+  rust_lib     : $(rust_dir)/^(name).a
+  rust_lib_deps: $(rust_dir)/^(name).d
 
 # By default built the final `iso`s
 default:
@@ -166,42 +169,69 @@ rules:
       - [truncate, --size=35283682, $(dummy_buffer)]
 
   # Psexe
-  # TODO: Hardcode less
   psexe:
     out: [$(psexe)]
     deps:
-      - $(psexe_elf)
-      - $(license_psexe_eu)
+      - $(psexe_yaml)
+      - $(mkpsexe_from_yaml)
       - $(mkpsexe)
+      - deps_file: $(psexe_deps)
       - static: $(psexe::dir_name)/
     exec:
-      - - $(mkpsexe)
-        - $(psexe_elf)
+      - - $(mkpsexe_from_yaml)
+        - $(psexe_yaml)
         - -o
         - $(psexe)
-        - --license
-        - $(license_psexe_eu)
+        - --mkpsexe-bin
+        - $(mkpsexe)
+
+  # Psexe dependencies
+  psexe_deps:
+    out: [$(psexe_deps)]
+    deps:
+      - $(psexe_yaml)
+      - $(mkpsexe_from_yaml_deps)
+      - static: $(psexe_deps::dir_name)/
+    exec:
+      - - $(mkpsexe_from_yaml_deps)
+        - $(psexe_yaml)
+        - -o
+        - $(psexe)
+        - --deps
+        - $(psexe_deps)
 
   # Elf
-  # TODO: Hardcode less
   elf:
     out: [$(elf)]
     deps:
-      - $(elf_obj)
-      - $(elf_ld)
-      - $(rs_dir)/libdw2003_exe_data.a
+      - $(elf_yaml)
+      - $(ld_from_yaml)
+      - deps_file: $(elf_deps)
       - static: $(elf::dir_name)/
     exec:
-      - - $(ld)
-        - $(elf_obj)
+      - - $(ld_from_yaml)
+        - $(elf_yaml)
         - -o
         - $(elf)
-        - -EL
-        - --script
-        - $(elf_ld)
-        - --warn-section-align
-        - -L$(rs_dir)
-        - -ldw2003_exe_data
+        - --linker-script-output
+        - $(elf_linker_script)
+        - --ld-bin
+        - $(ld)
+
+  # Elf dependencies
+  elf_deps:
+    out: [$(elf_deps)]
+    deps:
+      - $(elf_yaml)
+      - $(ld_from_yaml_deps)
+      - static: $(elf_deps::dir_name)/
+    exec:
+      - - $(ld_from_yaml_deps)
+        - $(elf_yaml)
+        - -o
+        - $(elf)
+        - --deps
+        - $(elf_deps)
 
   # Assembly
   asm:
@@ -219,6 +249,7 @@ rules:
         - -march=r3000
         - -msoft-float
         - -O2
+        - -Iasm/
         - -I$(asm_src::dir_name)
       # Zbuild doesn't support `\\\n` yet
       - - sed
@@ -229,26 +260,26 @@ rules:
         - $(asm_obj_deps)
 
   # Rust library
-  rs_lib:
+  rust_lib:
     alias:
       target_dir: target/mipsel-sony-psx/release
     out:
-      - $(rs_lib)
-      - deps_file: $(rs_lib_dep)
+      - $(rust_lib)
+      - deps_file: $(rust_lib_deps)
     deps:
-      - static: $(rs_lib::dir_name)/
+      - static: $(rust_lib::dir_name)/
     exec:
-      cwd: $(rs_src_dir)/
+      cwd: rust/
       cmds:
         - - $(cargo)
           - build
           - --release
           - --package=^(name)
           - -Z=unstable-options
-          - --out-dir=../$(rs_dir)/
-        - [cp, $(target_dir)/lib^(name).d, ../$(rs_dir)]
+        - [cp, $(target_dir)/lib^(name).a, ../$(rust_lib)]
+        - [cp, $(target_dir)/lib^(name).d, ../$(rust_lib_deps)]
         - - sed
           - -i
           - -e
-          - 's,$(rs_src_dir)/$(target_dir)/,$(rs_dir)/,g'
-          - ../$(rs_lib_dep)
+          - 's,rust/$(target_dir)/lib^(name).a,$(rust_dir)/^(name).a,g'
+          - ../$(rust_lib_deps)

@@ -1,0 +1,13 @@
+---
+entry: start
+objs:
+  - /build/asm/dw2003/exe/fns.o
+  - /build/asm/dw2003/exe/f0.o
+  - /build/asm/dw2003/exe/f1.o
+  - /build/rust/dw2003_exe_data.a
+sections:
+  - fns0
+  - section_f1
+  - section_f0
+  - fns1
+  - dw2003_exe_data
