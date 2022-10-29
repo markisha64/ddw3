@@ -252,6 +252,7 @@ rules:
         - -msoft-float
         - -O2
         - -Iasm/
+        - -I./
         - -I$(asm_src::dir_name)
       # Zbuild doesn't support `\\\n` yet
       - - sed
