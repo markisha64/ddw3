@@ -4,6 +4,8 @@ name = "dw2003_exe_data"
 version = "0.1.0"
 
 [lib]
-crate-type = ["staticlib"]
+crate-type = ["lib"]
 
 [dependencies]
+
+util = { path = "../util" }
