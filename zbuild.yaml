@@ -17,18 +17,17 @@ alias:
   ld_from_yaml          : tools/ld_from_yaml.py
 
   # Cargo tools
-  mkpsexe: $(tools_dir)/ddw3-mkpsexe
+  mkpsexe: $(build_rust_tool_dir)/ddw3-mkpsexe
 
   # Directories
-  # TODO: Rename these to `build_*_dir`
   build_dir  : build
-  tools_dir  : $(build_dir)/tools
-  misc_dir   : $(build_dir)/misc
-  psx_iso_dir: $(build_dir)/iso
-  asm_dir    : $(build_dir)/asm
-  elf_dir    : $(build_dir)/elf
-  psexe_dir  : $(build_dir)/psexe
-  rust_dir   : $(build_dir)/rust
+  build_rust_tool_dir: $(build_dir)/tools
+  build_misc_dir     : $(build_dir)/misc
+  build_psx_iso_dir  : $(build_dir)/iso
+  build_asm_dir      : $(build_dir)/asm
+  build_elf_dir      : $(build_dir)/elf
+  build_psexe_dir    : $(build_dir)/psexe
+  build_rust_dir     : $(build_dir)/rust
 
   # Files
   checksums       : checksums.sha256
@@ -38,35 +37,40 @@ alias:
 
   # Built files
   compare_deps  : $(build_dir)/compare.d
-  dummy_buffer  : $(misc_dir)/DUMMY
-  dw2003_psx_iso: $(psx_iso_dir)/dw2003.bin
-  dw3_psx_iso   : $(psx_iso_dir)/dw3.bin
+  dummy_buffer  : $(build_misc_dir)/DUMMY
+  dw2003_psx_iso: $(build_psx_iso_dir)/dw2003.bin
+  dw3_psx_iso   : $(build_psx_iso_dir)/dw3.bin
+
+  # Rust tool
+  rust_tool     : $(build_rust_tool_dir)/^(name::non_empty)
+  rust_tool_deps: $(build_rust_tool_dir)/^(name).d
+  rust_tool_src : tools/^(name)
 
   # Psx iso
-  psx_iso     : $(psx_iso_dir)/^(path).bin
-  psx_iso_cue : $(psx_iso_dir)/^(path).cue
-  psx_iso_deps: $(psx_iso_dir)/^(path).d
+  psx_iso     : $(build_psx_iso_dir)/^(path).bin
+  psx_iso_cue : $(build_psx_iso_dir)/^(path).cue
+  psx_iso_deps: $(build_psx_iso_dir)/^(path).d
   psx_iso_xml : ^(path).xml
 
   # Assembly
-  asm_obj     : $(asm_dir)/^(path).o
-  asm_obj_deps: $(asm_dir)/^(path).d
+  asm_obj     : $(build_asm_dir)/^(path).o
+  asm_obj_deps: $(build_asm_dir)/^(path).d
   asm_src     : asm/^(path).s
 
   # Elf
-  elf              : $(elf_dir)/^(path).elf
-  elf_deps         : $(elf_dir)/^(path).d
-  elf_linker_script: $(elf_dir)/^(path).ld
+  elf              : $(build_elf_dir)/^(path).elf
+  elf_deps         : $(build_elf_dir)/^(path).d
+  elf_linker_script: $(build_elf_dir)/^(path).ld
   elf_yaml         : elf/^(path).yaml
 
   # Psexe
-  psexe     : $(psexe_dir)/^(path).psexe
-  psexe_deps: $(psexe_dir)/^(path).d
+  psexe     : $(build_psexe_dir)/^(path).psexe
+  psexe_deps: $(build_psexe_dir)/^(path).d
   psexe_yaml: psexe/^(path).yaml
 
   # Rust library
-  rust_lib     : $(rust_dir)/^(name).a
-  rust_lib_deps: $(rust_dir)/^(name).d
+  rust_lib     : $(build_rust_dir)/^(name).a
+  rust_lib_deps: $(build_rust_dir)/^(name).d
 
 # By default built the final `iso`s
 default:
@@ -140,10 +144,8 @@ rules:
 
   # Cargo tools
   cargo-tool:
-    alias:
-      tool: $(tools_dir)/^(name::non_empty)
-    out: [$(tool), deps_file: $(tool).d]
-    deps: [static: $(tool::dir_name)/]
+    out: [$(rust_tool), deps_file: $(rust_tool_deps)]
+    deps: [static: $(rust_tool::dir_name)/]
     exec:
       cwd: tools/
       cmds:
@@ -152,13 +154,13 @@ rules:
           - --release
           - --package=^(name)
           - -Z=unstable-options
-          - --out-dir=../$(tools_dir)
-        - [cp, target/release/^(name).d, ../$(tool).d]
+          - --out-dir=../$(build_rust_tool_dir)
+        - [cp, target/release/^(name).d, ../$(rust_tool_deps)]
         - - sed
           - -i
           - -e
-          - 's,tools/target/release/,$(tools_dir)/,g'
-          - ../$(tool).d
+          - 's,tools/target/release/,$(build_rust_tool_dir)/,g'
+          - ../$(rust_tool_deps)
 
   # Buffer
   dummy_buffer:
@@ -262,7 +264,7 @@ rules:
   # Rust library
   rust_lib:
     alias:
-      target_dir: target/mipsel-sony-psx/release
+      build_target_dir: target/mipsel-sony-psx/release
     out:
       - $(rust_lib)
       - deps_file: $(rust_lib_deps)
@@ -276,10 +278,10 @@ rules:
           - --release
           - --package=^(name)
           - -Z=unstable-options
-        - [cp, $(target_dir)/lib^(name).a, ../$(rust_lib)]
-        - [cp, $(target_dir)/lib^(name).d, ../$(rust_lib_deps)]
+        - [cp, $(build_target_dir)/lib^(name).a, ../$(rust_lib)]
+        - [cp, $(build_target_dir)/lib^(name).d, ../$(rust_lib_deps)]
         - - sed
           - -i
           - -e
-          - 's,rust/$(target_dir)/lib^(name).a,$(rust_dir)/^(name).a,g'
+          - 's,rust/$(build_target_dir)/lib^(name).a,$(build_rust_dir)/^(name).a,g'
           - ../$(rust_lib_deps)
