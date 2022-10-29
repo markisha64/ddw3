@@ -5,3 +5,7 @@ version = 3
 [[package]]
 name = "dw2003_exe_data"
 version = "0.1.0"
+
+[[package]]
+name = "dw2003_exe_digimon_profiles"
+version = "0.1.0"
