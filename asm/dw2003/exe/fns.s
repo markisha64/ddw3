@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "fns0"
+.section "fns00"
 .L80010000: .word .L80011134
 .L80010004: .word .L8001114c
 .L80010008: .word .L80011224
@@ -50,7 +50,7 @@
 .L800100b8: .word .L80013258
 .L800100bc: .word .L800132e0
 .L800100c0: .word .L80013350
-.L800100c4: .word D0x80082cb0
+.L800100c4: .word HEAP
 .L800100c8: .word D0x800a5de0
 .L800100cc: .word 0x4c534942
 .L800100d0: .word 0x302d5350
@@ -1033,50 +1033,8 @@ D0x80010c06:
 .L80010e84: .word 0x0000000a
 .L80010e88: jr $ra
 .L80010e8c: nop
-.global start
-start:
-.L80010e90: la_ $v0, D0x8005cce8
-.L80010e98: la_ $v1, D0x80082cb0
-.L80010ea0: sw $zr, 0($v0)
-.L80010ea4: addiu $v0, 4
-.L80010ea8: sltu $at, $v0, $v1
-.L80010eac: bnez $at, .L80010ea0
-.L80010eb0: nop
-.L80010eb4: li $v0, 4
-.L80010eb8: nop
-.L80010ebc: nop
-.L80010ec0: nop
-.L80010ec4: nop
-.L80010ec8: la_ $a0, .L80010f3c
-.L80010ed0: addu $a0, $v0
-.L80010ed4: lw $v0, 0($a0)
-.L80010ed8: lui $t0, 0x8000
-.L80010edc: or $sp, $v0, $t0
-.L80010ee0: la_ $a0, D0x80082cb0
-.L80010ee8: sll $a0, 0x3
-.L80010eec: srl $a0, 0x3
-.L80010ef0: lui $v1, 0x8006
-.L80010ef4: lw $v1, -16280($v1)
-.L80010ef8: nop
-.L80010efc: subu $a1, $v0, $v1
-.L80010f00: subu $a1, $a0
-.L80010f04: or $a0, $t0
-.L80010f08: lui $at, 0x8006
-.L80010f0c: sw $ra, -13080($at)
-.L80010f10: la_ $gp, D0x8005cb50
-.L80010f18: move_ $s8, $sp
-.L80010f1c: jal .L8002507c
-.L80010f20: addi $a0, 4
-.L80010f24: lui $ra, 0x8006
-.L80010f28: lw $ra, -13080($ra)
-.L80010f2c: nop
-.L80010f30: jal .L80014524
-.L80010f34: nop
-.L80010f38: break 0x0, 0x1
-.L80010f3c: .word 0x200000
-.L80010f40: .word 0x200000
-.L80010f44: .word 0x200000
-.L80010f48: .word 0x200000
+
+.section "fns01"
 .L80010f4c: addiu $sp, -24
 .L80010f50: sw $s0, 16($sp)
 .L80010f54: move_ $s0, $a0
@@ -4503,6 +4461,8 @@ F0x80014238:
 .L80014518: nop
 .L8001451c: jr $ra
 .L80014520: addiu $sp, 24
+
+.global .L80014524
 .L80014524: addiu $sp, -88
 .L80014528: sw $ra, 84($sp)
 .L8001452c: sw $s2, 80($sp)
@@ -21719,10 +21679,16 @@ F0x80024a80:
 .L80025070: addiu $sp, 48
 .L80025074: nop
 .L80025078: nop
-.L8002507c: li $t2, 160
-.L80025080: jr $t2
-.L80025084: li $t1, 57
-.L80025088: nop
+
+# fn(addr: *u32, size: u32)
+# Calls `A(0x39)`
+.global InitHeap
+InitHeap:
+	li $t2, 0xa0
+	jr $t2
+	li $t1, 0x39
+	nop
+
 .L8002508c: li $a0, 1
 .L80025090: syscall
 .L80025094: jr $ra

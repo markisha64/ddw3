@@ -1,6 +1,7 @@
 ---
 entry: start
 objs:
+  - /build/asm/dw2003/exe/start.o
   - /build/asm/dw2003/exe/fns.o
   - /build/asm/dw2003/exe/f0.o
   - /build/asm/dw2003/exe/f1.o
@@ -9,7 +10,9 @@ objs:
   - /build/rust/dw2003_exe_data.a
   - /build/rust/dw2003_exe_digimon_profiles.a
 sections:
-  - fns0
+  - fns00
+  - section_start
+  - fns01
   - section_f2
   - section_f1
   - section_f0
