@@ -46,13 +46,16 @@ SECTIONS {{
 ENTRY({entry})""")
 
 	args = [
-	    args.ld_bin,
+	    args.ld_bin,  #
 	    "-o",
 	    args.output,
 	    "-EL",
 	    "--script",
 	    args.linker_script_output,
 	    "--warn-section-align",
+	    "--no-warn-mismatch",  # TODO: Might be worth considering some mismatches?
+	    "--warn-common",
+	    "--warn-constructors"
 	] + objs
 	subprocess.run(args)
 

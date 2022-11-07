@@ -1,8 +1,9 @@
 [build]
 dep-info-basedir = ".."
-target = "mipsel-sony-psx.json"
+target = "mipsel-sony-psx"
+rustflags = ["-Crelocation-model=static", "-Cdefault-linker-libraries=no"]
 
-[target."mipsel-sony-psx.json"]
+[target."mipsel-sony-psx"]
 linker = "mips-elf-ld"
 
 [unstable]
