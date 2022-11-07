@@ -1,13 +1,6 @@
 #![doc = include_str!("lib.md")]
 // Features
-#![feature(
-	never_type,
-	unwrap_infallible,
-	array_methods,
-	str_internals,
-	mixed_integer_ops,
-	try_blocks
-)]
+#![feature(never_type, unwrap_infallible, array_methods, str_internals, try_blocks)]
 
 // Modules
 pub mod date_time;
