@@ -54,7 +54,7 @@ util::decl_static! { "dw2003_exe_data0",
 		0x00000013, // 0x8003ee84
 	];
 
-	pub static mut D0x8003ee88: [u32; 30] = [
+	pub static mut D0x8003ee88: [u32; 15] = [
 		0x00000001, // 0x8003ee88
 		0x00000010, // 0x8003ee8c
 		0x0000001c, // 0x8003ee90
@@ -70,6 +70,9 @@ util::decl_static! { "dw2003_exe_data0",
 		0x00000004, // 0x8003eeb8
 		0x0000003d, // 0x8003eebc
 		0x0000002e, // 0x8003eec0
+	];
+
+	pub static mut D0x8003eec4: [u32; 15] = [
 		0x0000000d, // 0x8003eec4
 		0x0000002c, // 0x8003eec8
 		0x0000001c, // 0x8003eecc
@@ -87,12 +90,15 @@ util::decl_static! { "dw2003_exe_data0",
 		0x0000002e, // 0x8003eefc
 	];
 
-	pub static mut D0x8003ef00: [u32; 23] = [
+	pub static mut D0x8003ef00: [u32; 5] = [
 		0x00000000, // 0x8003ef00
 		0x00000002, // 0x8003ef04
 		0x00000003, // 0x8003ef08
 		0x00000004, // 0x8003ef0c
 		0x00000005, // 0x8003ef10
+	];
+
+	pub static mut D0x8003ef14: [u32; 12] = [
 		0x00000006, // 0x8003ef14
 		0x00000007, // 0x8003ef18
 		0x00000008, // 0x8003ef1c
@@ -105,6 +111,9 @@ util::decl_static! { "dw2003_exe_data0",
 		0x00000009, // 0x8003ef38
 		0x0000000a, // 0x8003ef3c
 		0x0000000b, // 0x8003ef40
+	];
+
+	pub static mut D0x8003ef44: [u32; 6] = [
 		0x0000001d, // 0x8003ef44
 		0x0000001e, // 0x8003ef48
 		0x0000001f, // 0x8003ef4c
@@ -3804,7 +3813,9 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x800450b0: u32 = 0x00000a63;
 	pub static mut D0x800450b4: u32 = 0x00000d08;
 	pub static mut D0x800450b8: u32 = 0x00000bbc;
-	pub static mut D0x800450bc: u32 = 0x00000f49;
+	pub static mut D0x800450bc: u8  = 0x49;
+	pub static mut D0x800450bd: u8  = 0x0f;
+	pub static mut D0x800450be: u16 = 0x0000;
 	pub static mut D0x800450c0: u32 = 0x00000e83;
 	pub static mut D0x800450c4: u32 = 0x000010e7;
 	pub static mut D0x800450c8: u32 = 0x0000096c;
@@ -3836,7 +3847,8 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x80045130: u32 = 0x00000e8d;
 	pub static mut D0x80045134: u32 = 0x000010f5;
 	pub static mut D0x80045138: u32 = 0x0000097a;
-	pub static mut D0x8004513c: u32 = 0x00000ad1;
+	pub static mut D0x8004513c: u16 = 0x0ad1;
+	pub static mut D0x8004513e: u16 = 0x0000;
 	pub static mut D0x80045140: u32 = 0x00000d69;
 	pub static mut D0x80045144: u32 = 0x00000c26;
 	pub static mut D0x80045148: u32 = 0x00000fb1;
@@ -7817,7 +7829,8 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x80048f34: u32 = 0x00000000;
 	pub static mut D0x80048f38: u32 = 0x00000000;
 	pub static mut D0x80048f3c: u32 = 0x00000000;
-	pub static mut D0x80048f40: u32 = 0x00000000;
+	pub static mut D0x80048f40: u16 = 0x0000;
+	pub static mut D0x80048f42: u16 = 0x0000;
 	pub static mut D0x80048f44: u32 = 0x00000000;
 	pub static mut D0x80048f48: u32 = 0x00000000;
 	pub static mut D0x80048f4c: u32 = 0x00000000;
