@@ -787,7 +787,7 @@ util::decl_static! { "dw2003_exe_data1",
 		0x0000,
 	];
 
-	pub static mut D0x800417b8: [u16; 64] = [
+	pub static mut D0x800417b8: [u16; 69] = [
 		0x0124,
 		0x0125,
 		0x0126,
@@ -852,138 +852,16 @@ util::decl_static! { "dw2003_exe_data1",
 		0x0161,
 		0x0162,
 		0x0163,
+		0x0164,
+		0x0165,
+		0x0166,
+		0x0167,
+		0x0000,
 	];
 
-	//
-	pub static mut D0x80041838: u32 = 0x01650164;
-	pub static mut D0x8004183c: u32 = 0x01670166;
-	pub static mut D0x80041840: u32 = 0x00000000;
-	pub static mut D0x80041844: u32 = 0x00000000;
-	pub static mut D0x80041848: u32 = 0x00000000;
-	pub static mut D0x8004184c: u32 = 0x00001d01;
-	pub static mut D0x80041850: u32 = 0x00000000;
-	pub static mut D0x80041854: u32 = 0x00000000;
-	pub static mut D0x80041858: u32 = 0x00001d01;
-	pub static mut D0x8004185c: u32 = 0x00000000;
-	pub static mut D0x80041860: u32 = 0x00000000;
-	pub static mut D0x80041864: u32 = 0x00001d01;
-	pub static mut D0x80041868: u32 = 0x00000000;
-	pub static mut D0x8004186c: u32 = 0x00000000;
-	pub static mut D0x80041870: u32 = 0x00001d01;
-	pub static mut D0x80041874: u32 = 0x00000000;
-	pub static mut D0x80041878: u32 = 0x00000000;
-	pub static mut D0x8004187c: u32 = 0x00001d01;
-	pub static mut D0x80041880: u32 = 0x00000000;
-	pub static mut D0x80041884: u32 = 0x00000000;
-	pub static mut D0x80041888: u32 = 0x00001d01;
-	pub static mut D0x8004188c: u32 = 0x00000000;
-	pub static mut D0x80041890: u32 = 0x00000000;
-	pub static mut D0x80041894: u32 = 0x00001d01;
-	pub static mut D0x80041898: u32 = 0x00000000;
-	pub static mut D0x8004189c: u32 = 0x00000000;
-	pub static mut D0x800418a0: u32 = 0x00001d01;
-	pub static mut D0x800418a4: u32 = 0x00000000;
-	pub static mut D0x800418a8: u32 = 0x00000000;
-	pub static mut D0x800418ac: u32 = 0x00001d01;
-	pub static mut D0x800418b0: u32 = 0x00000000;
-	pub static mut D0x800418b4: u32 = 0x00000000;
-	pub static mut D0x800418b8: u32 = 0x00001d01;
-	pub static mut D0x800418bc: u32 = 0x00000000;
-	pub static mut D0x800418c0: u32 = 0x00000000;
-	pub static mut D0x800418c4: u32 = 0x00001d01;
-	pub static mut D0x800418c8: u32 = 0x00000000;
-	pub static mut D0x800418cc: u32 = 0x00000000;
-	pub static mut D0x800418d0: u32 = 0x00001d01;
-	pub static mut D0x800418d4: u32 = 0x00000000;
-	pub static mut D0x800418d8: u32 = 0x00000000;
-	pub static mut D0x800418dc: u32 = 0x00001d01;
-	pub static mut D0x800418e0: u32 = 0x00000000;
-	pub static mut D0x800418e4: u32 = 0x00000000;
-	pub static mut D0x800418e8: u32 = 0x00001d01;
-	pub static mut D0x800418ec: u32 = 0x00000000;
-	pub static mut D0x800418f0: u32 = 0x00000000;
-	pub static mut D0x800418f4: u32 = 0x00001d01;
-	pub static mut D0x800418f8: u32 = 0x00000000;
-	pub static mut D0x800418fc: u32 = 0x00000000;
-	pub static mut D0x80041900: u32 = 0x00001d01;
-	pub static mut D0x80041904: u32 = 0x00000000;
-	pub static mut D0x80041908: u32 = 0x00000000;
-	pub static mut D0x8004190c: u32 = 0x00001d01;
-	pub static mut D0x80041910: u32 = 0x00000000;
-	pub static mut D0x80041914: u32 = 0x00000000;
-	pub static mut D0x80041918: u32 = 0x00001d01;
-	pub static mut D0x8004191c: u32 = 0x00000000;
-	pub static mut D0x80041920: u32 = 0x00000000;
-	pub static mut D0x80041924: u32 = 0x00001d01;
-	pub static mut D0x80041928: u32 = 0x00000000;
-	pub static mut D0x8004192c: u32 = 0x00000000;
-	pub static mut D0x80041930: u32 = 0x00001d01;
-	pub static mut D0x80041934: u32 = 0x00000000;
-	pub static mut D0x80041938: u32 = 0x00000000;
-	pub static mut D0x8004193c: u32 = 0x00001d01;
-	pub static mut D0x80041940: u32 = 0x00000000;
-	pub static mut D0x80041944: u32 = 0x00000000;
-	pub static mut D0x80041948: u32 = 0x00001d01;
-	pub static mut D0x8004194c: u32 = 0x00000000;
-	pub static mut D0x80041950: u32 = 0x00000000;
-	pub static mut D0x80041954: u32 = 0x00001d01;
-	pub static mut D0x80041958: u32 = 0x00000000;
-	pub static mut D0x8004195c: u32 = 0x00000000;
-	pub static mut D0x80041960: u32 = 0x00001d01;
-	pub static mut D0x80041964: u32 = 0x00000000;
-	pub static mut D0x80041968: u32 = 0x00000000;
-	pub static mut D0x8004196c: u32 = 0x00001d01;
-	pub static mut D0x80041970: u32 = 0x00000000;
-	pub static mut D0x80041974: u32 = 0x00000000;
-	pub static mut D0x80041978: u32 = 0x00001d01;
-	pub static mut D0x8004197c: u32 = 0x00000000;
-	pub static mut D0x80041980: u32 = 0x00000000;
-	pub static mut D0x80041984: u32 = 0x00001d01;
-	pub static mut D0x80041988: u32 = 0x00000000;
-	pub static mut D0x8004198c: u32 = 0x00000000;
-	pub static mut D0x80041990: u32 = 0x00001d01;
-	pub static mut D0x80041994: u32 = 0x00000000;
-	pub static mut D0x80041998: u32 = 0x00000000;
-	pub static mut D0x8004199c: u32 = 0x00001d01;
-	pub static mut D0x800419a0: u32 = 0x00000000;
-	pub static mut D0x800419a4: u32 = 0x00000000;
-	pub static mut D0x800419a8: u32 = 0x00001d01;
-	pub static mut D0x800419ac: u32 = 0x00000000;
-	pub static mut D0x800419b0: u32 = 0x00000000;
-	pub static mut D0x800419b4: u32 = 0x00001d01;
-	pub static mut D0x800419b8: u32 = 0x00000000;
-	pub static mut D0x800419bc: u32 = 0x00000000;
-	pub static mut D0x800419c0: u32 = 0x00001d01;
-	pub static mut D0x800419c4: u32 = 0x00000000;
-	pub static mut D0x800419c8: u32 = 0x00000000;
-	pub static mut D0x800419cc: u32 = 0x00001d01;
-	pub static mut D0x800419d0: u32 = 0x00000000;
-	pub static mut D0x800419d4: u32 = 0x00000000;
-	pub static mut D0x800419d8: u32 = 0x00001d01;
-	pub static mut D0x800419dc: u32 = 0x00000000;
-	pub static mut D0x800419e0: u32 = 0x00000000;
-	pub static mut D0x800419e4: u32 = 0x00001d01;
-	pub static mut D0x800419e8: u32 = 0x00000000;
-	pub static mut D0x800419ec: u32 = 0x00000000;
-	pub static mut D0x800419f0: u32 = 0x00001d01;
-	pub static mut D0x800419f4: u32 = 0x00000000;
-	pub static mut D0x800419f8: u32 = 0x00000000;
-	pub static mut D0x800419fc: u32 = 0x00001d01;
-	pub static mut D0x80041a00: u32 = 0x00000000;
-	pub static mut D0x80041a04: u32 = 0x00000000;
-	pub static mut D0x80041a08: u32 = 0x00001d01;
-	pub static mut D0x80041a0c: u32 = 0x00000000;
-	pub static mut D0x80041a10: u32 = 0x00000000;
-	pub static mut D0x80041a14: u32 = 0x00001d01;
-	pub static mut D0x80041a18: u32 = 0x00000000;
-	pub static mut D0x80041a1c: u32 = 0x00000000;
-	pub static mut D0x80041a20: u32 = 0x00001d01;
-	pub static mut D0x80041a24: u32 = 0x00000000;
-	pub static mut D0x80041a28: u32 = 0x00000000;
-	pub static mut D0x80041a2c: u32 = 0x00001d01;
-	pub static mut D0x80041a30: u32 = 0x00000000;
-	pub static mut D0x80041a34: u32 = 0x00000000;
-	pub static mut D0x80041a38: u32 = 0x00001d01;
+	pub static mut D0x80041844: [[u32; 3]; 42] = [
+		[0x00000000, 0x00000000, 0x00001d01]; 42
+	];
 
 	pub static mut D0x80041a3c: [Unknown3; 49] = unsafe { [
 		Unknown3 { f0: &D0x8005cb54[0x00], f1: 0x0006000c, f2: 0x00001902 },
