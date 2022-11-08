@@ -6,6 +6,7 @@ objs:
   - /build/asm/dw2003/exe/f0.o
   - /build/asm/dw2003/exe/f1.o
   - /build/asm/dw2003/exe/f2.o
+  - /build/asm/dw2003/exe/f3.o
   - /build/asm/dw2003/exe/loading.o
   - /build/rust/dw2003_exe_data.a
   - /build/rust/dw2003_exe_digimon_profiles.a
@@ -17,6 +18,8 @@ sections:
   - section_f1
   - section_f0
   - fns1
+  - section_f3
+  - fns2
   - dw2003_exe_data0
   - dw2003_exe_digimon_profiles
   - dw2003_exe_data1
