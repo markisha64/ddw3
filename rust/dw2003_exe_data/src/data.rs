@@ -1285,11 +1285,18 @@ util::decl_static! { "dw2003_exe_data1",
 		Unknown1 { f0: core::ptr::null(), f1: 0x0000, f2: 0x0000, f3: 0x00001d01 },
 	] };
 
-	//
-	pub static mut D0x80042b1c: u32 = 0x00000001;
-	pub static mut D0x80042b20: u32 = 0xffffffff;
-	pub static mut D0x80042b24: u32 = 0xffffffff;
-	pub static mut D0x80042b28: u32 = 0x00000000;
+	// Acts as a "base" for edits to D0x80042b74
+	pub static mut D0x80042b1c: [u16; 8] = [
+		0x0001,
+		0x0000,
+		0xffff,
+		0xffff,
+		0xffff,
+		0xffff,
+		0x0000,
+		0x0000,
+	];
+
 	pub static mut D0x80042b2c: u32 = 0x00000000;
 	pub static mut D0x80042b30: u32 = 0x00000000;
 	pub static mut D0x80042b34: u32 = 0x00000000;
@@ -1307,11 +1314,11 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x80042b64: u32 = 0x00000000;
 	pub static mut D0x80042b68: u32 = 0x00000000;
 	pub static mut D0x80042b6c: u32 = 0x00000000;
-	pub static mut D0x80042b70: *const u32 = unsafe { &F0x80013534 };
-	pub static mut D0x80042b74: u32 = 0x00000000;
-	pub static mut D0x80042b78: u32 = 0x00000000;
-	pub static mut D0x80042b7c: u32 = 0x00000000;
-	pub static mut D0x80042b80: u32 = 0x00000000;
+	pub static mut D0x80042b70: *const u32 = unsafe { &f4 };
+
+	// Edited by `f4`
+	pub static mut D0x80042b74: [u16; 8] = [0x0; 8];
+
 	pub static mut D0x80042b84: u32 = 0x00000000;
 	pub static mut D0x80042b88: u32 = 0x00000000;
 	pub static mut D0x80042b8c: u32 = 0x00000000;
@@ -27887,6 +27894,7 @@ util::decl_static! { "dw2003_exe_data1",
 extern "C" {
 	static mut f0: u32;
 	static mut f3: u32;
+	static mut f4: u32;
 	static mut D0x800102d8: u32;
 	static mut D0x80010808: u32;
 	static mut D0x80010814: u32;
@@ -27920,7 +27928,6 @@ extern "C" {
 	static mut D0x80010a00: u32;
 	static mut D0x80010a88: u32;
 	static mut D0x80010c06: u32;
-	static mut F0x80013534: u32;
 	static mut F0x8001355c: u32;
 	static mut F0x80013584: u32;
 	static mut F0x800135b8: u32;
