@@ -5,11 +5,11 @@
 .global start
 start:
 
-# Zero out `D0x8005cce8..HEAP`
+# Zero out `D0x8005cce8..D0x80082cb0`
 cur_ptr=$v0
 end_ptr=$v1
 	la_ cur_ptr, D0x8005cce8
-	la_ end_ptr, HEAP
+	la_ end_ptr, D0x80082cb0
 .Lzero_loop:
 	sw $zr, (cur_ptr)
 	addiu cur_ptr, 4
@@ -29,8 +29,9 @@ stack_ptr_kuseg=$v0
 	lui $t0, 0x8000
 	or $sp, stack_ptr_kuseg, $t0
 
-# Initialize the heap at `HEAP` until `$sp - HEAP_END_RESERVED`
-	la_ $a0, HEAP
+# Initialize the heap at `D0x80082cb0 + 4` until `$sp - HEAP_END_RESERVED`
+# 0x80082cb4..(0x80200004 - 0x8000) (size 0x175350)
+	la_ $a0, D0x80082cb0
 	sll $a0, 0x3
 	srl $a0, 0x3
 	lw $v1, HEAP_END_RESERVED
