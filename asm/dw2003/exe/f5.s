@@ -1,6 +1,7 @@
 .include "macros.s"
 
-# `fn f5(idx: i32) -> *u32`
+# Returns `&D0x80041844[idx + 1]`
+# `fn f5(idx: i32) -> *Unknown1`
 .section section_f5
 .global f5
 f5:
