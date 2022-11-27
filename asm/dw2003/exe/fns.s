@@ -3396,23 +3396,6 @@ D0x80010c06:
 .L80013458: addiu $sp, 368
 
 .section "fns1"
-
-.global F0x800135b8
-F0x800135b8:
-.L800135b8: addiu $sp, -24
-.L800135bc: sw $s0, 16($sp)
-.L800135c0: sw $ra, 20($sp)
-.L800135c4: jal f5
-.L800135c8: move_ $s0, $a1
-.L800135cc: lbu $v0, 8($v0)
-.L800135d0: lw $ra, 20($sp)
-.L800135d4: xor $v0, $s0
-.L800135d8: lw $s0, 16($sp)
-.L800135dc: sltiu $v0, 1
-.L800135e0: jr $ra
-.L800135e4: addiu $sp, 24
-
-.section "fns2"
 .L80013694: addiu $sp, -24
 .L80013698: sw $s0, 16($sp)
 .L8001369c: la_ $s0, D0x8005cd28
