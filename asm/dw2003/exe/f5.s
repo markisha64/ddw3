@@ -1,6 +1,6 @@
 .include "macros.s"
 
-# `fn f1(idx: i32) -> *u32`
+# `fn f5(idx: i32) -> *u32`
 .section section_f5
 .global f5
 f5:

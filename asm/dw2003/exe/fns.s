@@ -3397,22 +3397,6 @@ D0x80010c06:
 
 .section "fns1"
 
-.global F0x80013584
-F0x80013584:
-.L80013584: addiu $sp, -24
-.L80013588: sw $s0, 16($sp)
-.L8001358c: lui $s0, %hi(D0x80042ba8)
-.L80013590: sw $ra, 20($sp)
-.L80013594: jal f5
-.L80013598: addiu $s0, %lo(D0x80042ba8)
-.L8001359c: lbu $v0, 9($v0)
-.L800135a0: lw $ra, 20($sp)
-.L800135a4: addu $v0, $s0
-.L800135a8: lbu $v0, 0($v0)
-.L800135ac: lw $s0, 16($sp)
-.L800135b0: jr $ra
-.L800135b4: addiu $sp, 24
-
 .global F0x800135b8
 F0x800135b8:
 .L800135b8: addiu $sp, -24
