@@ -1340,12 +1340,12 @@ D0x80010c06:
 .L8001140c: lw $v0, 92($s1)
 .L80011410: nop
 .L80011414: beq $s4, $v0, .L80011458
-.L80011418: lui $a0, %hi(D0x8004513e)
+.L80011418: lui $a0, %hi(D0x80044f6c + 0x1d2)
 .L8001141c: lui $v0, %hi(D0x80055c48)
 .L80011420: lw $v0, %lo(D0x80055c48)($v0)
 .L80011424: nop
 .L80011428: jalr $v0
-.L8001142c: ori $a0, %lo(D0x8004513e)
+.L8001142c: ori $a0, %lo(D0x80044f6c + 0x1d2)
 .L80011430: li $a1, 184
 .L80011434: lw $a2, 92($s1)
 .L80011438: lw $a0, 28($s3)
@@ -1371,12 +1371,12 @@ D0x80010c06:
 .L80011488: srav $s0, $s0, $v0
 .L8001148c: andi $s0, 0x1
 .L80011490: beqz $s0, .L80011510
-.L80011494: lui $a0, %hi(D0x8004503c)
+.L80011494: lui $a0, %hi(D0x80044f6c + 0xd0)
 .L80011498: lui $v0, %hi(D0x80055c48)
 .L8001149c: lw $v0, %lo(D0x80055c48)($v0)
 .L800114a0: nop
 .L800114a4: jalr $v0
-.L800114a8: ori $a0, %lo(D0x8004503c)
+.L800114a8: ori $a0, %lo(D0x80044f6c + 0xd0)
 .L800114ac: lw $v0, 92($s1)
 .L800114b0: nop
 .L800114b4: bnez $v0, .L80011984
@@ -1415,12 +1415,12 @@ D0x80010c06:
 .L80011538: srav $s0, $s0, $v0
 .L8001153c: andi $s0, 0x1
 .L80011540: beqz $s0, .L80011988
-.L80011544: lui $a0, %hi(D0x800450bd)
+.L80011544: lui $a0, %hi(D0x80044f6c + 0x151)
 .L80011548: lui $v0, %hi(D0x80055c48)
 .L8001154c: lw $v0, %lo(D0x80055c48)($v0)
 .L80011550: nop
 .L80011554: jalr $v0
-.L80011558: ori $a0, %lo(D0x800450bd)
+.L80011558: ori $a0, %lo(D0x80044f6c + 0x151)
 .L8001155c: j .L80011984
 .L80011560: li $v0, 10
 .L80011564: addiu $a0, $s1, 124
@@ -2826,12 +2826,12 @@ D0x80010c06:
 .L80012b6c: lw $v0, 88($s1)
 .L80012b70: nop
 .L80012b74: beq $s3, $v0, .L80012bc0
-.L80012b78: lui $a0, %hi(D0x8004513e)
+.L80012b78: lui $a0, %hi(D0x80044f6c + 0x1d2)
 .L80012b7c: lui $v0, %hi(D0x80055c48)
 .L80012b80: lw $v0, %lo(D0x80055c48)($v0)
 .L80012b84: nop
 .L80012b88: jalr $v0
-.L80012b8c: ori $a0, %lo(D0x8004513e)
+.L80012b8c: ori $a0, %lo(D0x80044f6c + 0x1d2)
 .L80012b90: li $a1, 176
 .L80012b94: lw $v0, 88($s1)
 .L80012b98: lw $a0, 36($s4)
@@ -2860,12 +2860,12 @@ D0x80010c06:
 .L80012bf4: srav $s0, $s0, $v0
 .L80012bf8: andi $s0, 0x1
 .L80012bfc: beqz $s0, .L80012c74
-.L80012c00: lui $a0, %hi(D0x8004503c)
+.L80012c00: lui $a0, %hi(D0x80044f6c + 0xd0)
 .L80012c04: lui $v0, %hi(D0x80055c48)
 .L80012c08: lw $v0, %lo(D0x80055c48)($v0)
 .L80012c0c: nop
 .L80012c10: jalr $v0
-.L80012c14: ori $a0, %lo(D0x8004503c)
+.L80012c14: ori $a0, %lo(D0x80044f6c + 0xd0)
 .L80012c18: lw $v0, 100($s1)
 .L80012c1c: nop
 .L80012c20: bnez $v0, .L80012c38
@@ -2902,12 +2902,12 @@ D0x80010c06:
 .L80012c9c: srav $s0, $s0, $v0
 .L80012ca0: andi $s0, 0x1
 .L80012ca4: beqz $s0, .L80012cec
-.L80012ca8: lui $a0, %hi(D0x800450bd)
+.L80012ca8: lui $a0, %hi(D0x80044f6c + 0x151)
 .L80012cac: lui $v0, %hi(D0x80055c48)
 .L80012cb0: lw $v0, %lo(D0x80055c48)($v0)
 .L80012cb4: nop
 .L80012cb8: jalr $v0
-.L80012cbc: ori $a0, %lo(D0x800450bd)
+.L80012cbc: ori $a0, %lo(D0x80044f6c + 0x151)
 .L80012cc0: lui $v0, %hi(D0x8004b438)
 .L80012cc4: lw $v0, %lo(D0x8004b438)($v0)
 .L80012cc8: nop
