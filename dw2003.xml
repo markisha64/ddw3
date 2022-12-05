@@ -19,7 +19,7 @@
 					<file name="SDIGIEDT.PRO" type="data" source="build/raw_exe/dw2003/pro/SDIGIEDT.bin" />
 					<file name="SFSTDATA.PRO" type="data" source="dw2003/AAA/PRO/SFSTDATA.PRO" />
 					<file name="SHOCKTST.PRO" type="data" source="dw2003/AAA/PRO/SHOCKTST.PRO" />
-					<file name="SMDLDATA.PRO" type="data" source="dw2003/AAA/PRO/SMDLDATA.PRO" />
+					<file name="SMDLDATA.PRO" type="data" source="build/raw_exe/dw2003/pro/SMDLDATA.bin" />
 					<file name="SOUNDTST.PRO" type="data" source="dw2003/AAA/PRO/SOUNDTST.PRO" />
 					<file name="STAGSLCT.PRO" type="data" source="dw2003/AAA/PRO/STAGSLCT.PRO" />
 					<file name="STCRDABM.PRO" type="data" source="dw2003/AAA/PRO/STCRDABM.PRO" />
