@@ -1808,7 +1808,7 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x80044b20: u32 = 0x00000000;
 	pub static mut D0x80044b24: u32 = 0x00000000;
 	pub static mut D0x80044b28: u32 = 0x00000000;
-	pub static mut D0x80044b2c: u32 = 0x00000000;
+	pub static mut D0x80044b2c: u32 = 0x00000000; // Loaded by f8
 	pub static mut D0x80044b30: *const u32 = unsafe { &F0x800138a8 };
 	pub static mut D0x80044b34: *const u32 = unsafe { &F0x80013914 };
 	//
