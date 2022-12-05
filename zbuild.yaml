@@ -9,15 +9,18 @@ alias:
   sha256sum: sha256sum
 
   # Other tools
-  generate_psx_iso_deps : tools/generate_psx_iso_deps.py
-  generate_compare_deps : tools/generate_compare_deps.py
-  mkpsexe_from_yaml     : tools/mkpsexe_from_yaml.py
-  mkpsexe_from_yaml_deps: tools/mkpsexe_from_yaml_deps.py
-  ld_from_yaml_deps     : tools/ld_from_yaml_deps.py
-  ld_from_yaml          : tools/ld_from_yaml.py
+  generate_psx_iso_deps   : tools/generate_psx_iso_deps.py
+  generate_compare_deps   : tools/generate_compare_deps.py
+  mkpsexe_from_yaml       : tools/mkpsexe_from_yaml.py
+  mkpsexe_from_yaml_deps  : tools/mkpsexe_from_yaml_deps.py
+  mkraw_exe_from_yaml     : tools/mkraw_exe_from_yaml.py
+  mkraw_exe_from_yaml_deps: tools/mkraw_exe_from_yaml_deps.py
+  ld_from_yaml_deps       : tools/ld_from_yaml_deps.py
+  ld_from_yaml            : tools/ld_from_yaml.py
 
   # Cargo tools
-  mkpsexe: $(build_rust_tool_dir)/ddw3-mkpsexe
+  mkpsexe  : $(build_rust_tool_dir)/ddw3-mkpsexe
+  mkraw_exe: $(build_rust_tool_dir)/ddw3-mkraw_exe
 
   # Directories
   build_dir  : build
@@ -28,6 +31,7 @@ alias:
   build_elf_dir      : $(build_dir)/elf
   build_psexe_dir    : $(build_dir)/psexe
   build_rust_dir     : $(build_dir)/rust
+  build_raw_exe_dir  : $(build_dir)/raw_exe
 
   # Files
   checksums       : checksums.sha256
@@ -67,6 +71,11 @@ alias:
   psexe     : $(build_psexe_dir)/^(path).psexe
   psexe_deps: $(build_psexe_dir)/^(path).d
   psexe_yaml: psexe/^(path).yaml
+
+  # Raw exe
+  raw_exe     : $(build_raw_exe_dir)/^(path).bin
+  raw_exe_deps: $(build_raw_exe_dir)/^(path).d
+  raw_exe_yaml: raw_exe/^(path).yaml
 
   # Rust library
   rust_lib     : $(build_rust_dir)/^(name).a
@@ -202,6 +211,38 @@ rules:
         - $(psexe)
         - --deps
         - $(psexe_deps)
+
+  # Raw exe
+  raw_exe:
+    out: [$(raw_exe)]
+    deps:
+      - $(raw_exe_yaml)
+      - $(mkraw_exe_from_yaml)
+      - $(mkraw_exe)
+      - deps_file: $(raw_exe_deps)
+      - static: $(raw_exe::dir_name)/
+    exec:
+      - - $(mkraw_exe_from_yaml)
+        - $(raw_exe_yaml)
+        - -o
+        - $(raw_exe)
+        - --mkraw_exe-bin
+        - $(mkraw_exe)
+
+  # Raw exe dependencies
+  raw_exe_deps:
+    out: [$(raw_exe_deps)]
+    deps:
+      - $(raw_exe_yaml)
+      - $(mkraw_exe_from_yaml_deps)
+      - static: $(raw_exe_deps::dir_name)/
+    exec:
+      - - $(mkraw_exe_from_yaml_deps)
+        - $(raw_exe_yaml)
+        - -o
+        - $(raw_exe)
+        - --deps
+        - $(raw_exe_deps)
 
   # Elf
   elf:

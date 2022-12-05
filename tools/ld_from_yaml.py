@@ -20,7 +20,7 @@ def main(args):
 	config = yaml.safe_load(open(args.input_yaml))
 	input_dir = Path(args.input_yaml).parent
 
-	entry = config["entry"]
+	entry = config.get("entry")
 	objs = config["objs"]
 	objs = list(map(lambda obj_path: str(process_path(obj_path, input_dir)), objs))
 
@@ -41,7 +41,11 @@ SECTIONS {{
 
 SECTIONS {{
 	/DISCARD/ : {{ *(*) }}
-}}
+}}""")
+
+		if entry != None:
+			linker_script_file.write(f"""\
+
 
 ENTRY({entry})""")
 

@@ -13,6 +13,9 @@ members = [
 	"ddw3-psexe",
 	"ddw3-mkpsexe",
 
+	# Raw exe
+	"ddw3-mkraw_exe",
+
 	# Util
 	"ddw3-bytes",
 	"ddw3-util",

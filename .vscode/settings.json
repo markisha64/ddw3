@@ -5,6 +5,7 @@
 		"cdrom",
 		"mkpsexe",
 		"mkpsxiso",
+		"mkraw",
 		"objs",
 		"psexe",
 		"seeked",

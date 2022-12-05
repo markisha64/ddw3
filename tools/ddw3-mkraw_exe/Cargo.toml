@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "ddw3-mkraw_exe"
+version = "0.1.0"
+
+[dependencies]
+
+# Ddw3
+ddw3-bytes = { path = "../ddw3-bytes" }
+ddw3-logger = { path = "../ddw3-logger" }
+
+# Cmd
+clap = { version = "4.0.18", features = ["derive"] }
+
+# Logging
+tracing = "0.1.37"
+
+# Error handling
+anyhow = "1.0.66"
+
+# Elf
+goblin = "0.6.0"
+
+# Util
+byteorder = "1.4.3"

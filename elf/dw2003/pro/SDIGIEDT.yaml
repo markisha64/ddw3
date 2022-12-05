@@ -1,0 +1,5 @@
+---
+objs:
+  - /build/asm/dw2003/pro/SDIGIEDT.PRO.o
+sections:
+  - section_SDIGIEDT
