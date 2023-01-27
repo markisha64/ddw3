@@ -12,7 +12,7 @@ ddw3-bytes = { path = "../ddw3-bytes" }
 tracing = "0.1.37"
 
 # Error handling
-anyhow = "1.0.66"
+anyhow = "1.0.68"
 
 # Elf
 goblin = "0.6.0"

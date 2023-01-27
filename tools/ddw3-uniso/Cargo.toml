@@ -20,20 +20,20 @@ byteorder = "1.4.3"
 int-conv = "0.1.4"
 
 # Cmd
-clap = { version = "4.0.18", features = ["derive"] }
+clap = { version = "4.1.4", features = ["derive"] }
 
 # Logging
 tracing = "0.1.37"
 
 # Error handling
-anyhow = "1.0.66"
+anyhow = "1.0.68"
 
 # Derives
 derive_more = "0.99.17"
 
 # Serde
-serde = { version = "1.0.147", features = ["derive"] }
-serde_yaml = "0.9.14"
+serde = { version = "1.0.152", features = ["derive"] }
+serde_yaml = "0.9.17"
 
 # Xml
 xml-rs = "0.8.4"

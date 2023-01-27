@@ -19,8 +19,8 @@ byteorder = "1.4.3"
 
 # Derives
 extend = "1.1.2"
-ref-cast = "1.0.12"
+ref-cast = "1.0.14"
 
 # Error handling
-anyhow = "1.0.66"
-thiserror = "1.0.37"
+anyhow = "1.0.68"
+thiserror = "1.0.38"

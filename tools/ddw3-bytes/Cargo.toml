@@ -10,4 +10,4 @@ arrayref = "0.3.6"
 byteorder = "1.4.3"
 
 # Error handling
-thiserror = "1.0.37"
+thiserror = "1.0.38"
