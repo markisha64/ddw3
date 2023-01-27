@@ -1,8 +1,10 @@
 //! String
 
 // Imports
-use super::{Alphabet, StrAlphabet};
-use std::{fmt, marker::PhantomData, ops::Deref};
+use {
+	super::{Alphabet, StrAlphabet},
+	std::{fmt, marker::PhantomData, ops::Deref},
+};
 
 /// An alphabetic owned string
 #[derive(PartialEq, Eq, PartialOrd, Ord, Clone)]
@@ -35,13 +37,13 @@ impl<A: Alphabet> Deref for StringAlphabet<A> {
 impl<A: Alphabet> fmt::Debug for StringAlphabet<A> {
 	fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
 		let s: &StrAlphabet<A> = self;
-		write!(f, "{:?}", s)
+		write!(f, "{s:?}")
 	}
 }
 
 impl<A: Alphabet> fmt::Display for StringAlphabet<A> {
 	fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
 		let s: &StrAlphabet<A> = self;
-		write!(f, "{}", s)
+		write!(f, "{s}")
 	}
 }

@@ -7,10 +7,7 @@ pub mod owned;
 pub mod slice;
 
 // Exports
-pub use arr::StrArrAlphabet;
-pub use error::InvalidCharError;
-pub use owned::StringAlphabet;
-pub use slice::StrAlphabet;
+pub use {arr::StrArrAlphabet, error::InvalidCharError, owned::StringAlphabet, slice::StrAlphabet};
 
 /// A string alphabet
 ///

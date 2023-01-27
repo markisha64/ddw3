@@ -1,8 +1,10 @@
 //! String array
 
 // Imports
-use super::{Alphabet, StrAlphabet};
-use std::{fmt, marker::PhantomData, ops::Deref};
+use {
+	super::{Alphabet, StrAlphabet},
+	std::{fmt, marker::PhantomData, ops::Deref},
+};
 
 /// An alphabetic string array
 #[derive(PartialEq, Eq, PartialOrd, Ord, Clone, Copy)]
@@ -57,14 +59,14 @@ impl<A: Alphabet, const N: usize> Deref for StrArrAlphabet<A, N> {
 impl<A: Alphabet, const N: usize> fmt::Debug for StrArrAlphabet<A, N> {
 	fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
 		let s: &StrAlphabet<A> = self;
-		write!(f, "{:?}", s)
+		write!(f, "{s:?}")
 	}
 }
 
 impl<A: Alphabet, const N: usize> fmt::Display for StrArrAlphabet<A, N> {
 	fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
 		let s: &StrAlphabet<A> = self;
-		write!(f, "{}", s)
+		write!(f, "{s}")
 	}
 }
 

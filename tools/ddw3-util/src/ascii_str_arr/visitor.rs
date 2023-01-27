@@ -15,7 +15,7 @@ impl<'de, const N: usize> serde::de::Visitor<'de> for DeserializerVisitor<N> {
 
 	fn expecting(&self, f: &mut fmt::Formatter) -> fmt::Result {
 		// TODO: Maybe get the full string at compile time and use `write_str`
-		f.write_fmt(format_args!("An ascii string of length {} or less", N))
+		f.write_fmt(format_args!("An ascii string of length {N} or less"))
 	}
 
 	fn visit_str<E: serde::de::Error>(self, value: &str) -> Result<Self::Value, E> {
