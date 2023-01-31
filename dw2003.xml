@@ -27,7 +27,7 @@
 					<file name="STCRDSHP.PRO" type="data" source="dw2003/AAA/PRO/STCRDSHP.PRO" />
 					<file name="STDGNAME.PRO" type="data" source="dw2003/AAA/PRO/STDGNAME.PRO" />
 					<file name="STDWTITL.PRO" type="data" source="dw2003/AAA/PRO/STDWTITL.PRO" />
-					<file name="STFGTREP.PRO" type="data" source="dw2003/AAA/PRO/STFGTREP.PRO" />
+					<file name="STFGTREP.PRO" type="data" source="build/raw_exe/dw2003/pro/STFGTREP.bin" />
 					<file name="STGDGLAB.PRO" type="data" source="dw2003/AAA/PRO/STGDGLAB.PRO" />
 					<file name="STGMCARD.PRO" type="data" source="dw2003/AAA/PRO/STGMCARD.PRO" />
 					<file name="STGTRAIN.PRO" type="data" source="dw2003/AAA/PRO/STGTRAIN.PRO" />
