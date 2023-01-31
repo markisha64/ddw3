@@ -28,6 +28,9 @@ def main(args):
 	sections = map(lambda section: f"KEEP(*({section}));", sections)
 	sections = '\n\t\t'.join(sections)
 
+	link_with = config.get("link_with") or []
+	link_with = list(map(lambda file: f"--just-symbols={file}", link_with))
+
 	# Create the linker script
 	with open(args.linker_script_output, "w") as linker_script_file:
 
@@ -59,8 +62,7 @@ ENTRY({entry})""")
 	    "--warn-section-align",
 	    "--no-warn-mismatch",  # TODO: Might be worth considering some mismatches?
 	    "--warn-common",
-	    "--warn-constructors"
-	] + objs
+	] + link_with + objs
 	subprocess.run(args)
 
 
