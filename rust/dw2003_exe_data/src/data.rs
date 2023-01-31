@@ -9259,7 +9259,7 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8004de08: *const u32 = unsafe { &F0x8001d1e4 };
 	pub static mut D0x8004de0c: *const u32 = unsafe { &F0x8001d264 };
 
-	//
+	// Used by `STFGTREP_f0`
 	pub static mut D0x8004de10: u32 = 0x00000000;
 	pub static mut D0x8004de14: u32 = 0x00000000;
 	pub static mut D0x8004de18: u32 = 0x00000000;
@@ -9347,7 +9347,7 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8004df58: u32 = 0x00000000;
 	pub static mut D0x8004df5c: u32 = 0x00000000;
 
-	// Loaded by `CNTY_SEL.PRO` and `STITSHOP.PRO`
+	// Loaded by `CNTY_SEL.PRO`, `STITSHOP.PRO` and `STFGTREP_f0`
 	pub static mut D0x8004df60: *const u32 = unsafe { &F0x8001d714 };
 	pub static mut D0x8004df64: *const u32 = unsafe { &F0x8001d7c4 };
 	pub static mut D0x8004df68: *const u32 = unsafe { &F0x8001d844 };

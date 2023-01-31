@@ -1,8 +1,8 @@
 .include "macros.s"
 
-.section section_STFGTREP
-.global STFGTREP
-STFGTREP:
+.section "section_STFGTREP_0"
+.global STFGTREP_0
+STFGTREP_0:
 .L0x00000000: .word 0x8008488c
 .L0x00000004: .word 0x80083ec8
 .L0x00000008: .word 0x80083ee8
@@ -115,69 +115,11 @@ STFGTREP:
 .L0x000001b4: .word 0x800856e8
 .L0x000001b8: .word 0x80085754
 .L0x000001bc: .word 0x800857b4
-.L0x000001c0: addiu $sp, -0x28
-.L0x000001c4: sw $s1, 0x1c($sp)
-.L0x000001c8: move_ $s1, $a0
-.L0x000001cc: sw $ra, 0x24($sp)
-.L0x000001d0: sw $s2, 0x20($sp)
-.L0x000001d4: sw $s0, 0x18($sp)
-.L0x000001d8: lw $v0, 0xc($s1)
-.L0x000001dc: nop
-.L0x000001e0: beqz $v0, .L0x000001f8
-.L0x000001e4: move_ $s2, $a1
-.L0x000001e8: bltz $v0, .L0x000001f8
-.L0x000001ec: slti $v0, 0x4
-.L0x000001f0: bnez $v0, .L0x000002a4
-.L0x000001f4: nop
-.L0x000001f8: lui $s0, 0x8005
-.L0x000001fc: addiu $s0, -0x21f0
-.L0x00000200: lw $v0, 0x150($s0)
-.L0x00000204: nop
-.L0x00000208: jalr $v0
-.L0x0000020c: nop
-.L0x00000210: lui $a0, 0x1
-.L0x00000214: lw $v0, 0x154($s0)
-.L0x00000218: nop
-.L0x0000021c: jalr $v0
-.L0x00000220: ori $a0, 0x4000
-.L0x00000224: li $a0, 0x140
-.L0x00000228: li $a1, 0xf0
-.L0x0000022c: move_ $a2, $zr
-.L0x00000230: lw $v0, 0x174($s0)
-.L0x00000234: nop
-.L0x00000238: jalr $v0
-.L0x0000023c: move_ $a3, $a2
-.L0x00000240: addiu $a0, $sp, 0x10
-.L0x00000244: li $a1, 0x3
-.L0x00000248: li $a2, 0x1000
-.L0x0000024c: li $v0, 0x140
-.L0x00000250: sh $zr, 0x10($sp)
-.L0x00000254: sh $zr, 0x12($sp)
-.L0x00000258: sh $v0, 0x14($sp)
-.L0x0000025c: lw $v0, 0x16c($s0)
-.L0x00000260: li $v1, 0xf0
-.L0x00000264: jalr $v0
-.L0x00000268: sh $v1, 0x16($sp)
-.L0x0000026c: move_ $a0, $v0
-.L0x00000270: move_ $a1, $zr
-.L0x00000274: move_ $a2, $a1
-.L0x00000278: lw $v0, 0x12c($a0)
-.L0x0000027c: nop
-.L0x00000280: jalr $v0
-.L0x00000284: move_ $a3, $a1
-.L0x00000288: jal 0x80085b24
-.L0x0000028c: nop
-.L0x00000290: sw $v0, 0x0($s2)
-.L0x00000294: lw $v0, 0x38($s1)
-.L0x00000298: nop
-.L0x0000029c: jalr $v0
-.L0x000002a0: move_ $a0, $s1
-.L0x000002a4: lw $ra, 0x24($sp)
-.L0x000002a8: lw $s2, 0x20($sp)
-.L0x000002ac: lw $s1, 0x1c($sp)
-.L0x000002b0: lw $s0, 0x18($sp)
-.L0x000002b4: jr $ra
-.L0x000002b8: addiu $sp, 0x28
+
+
+.section "section_STFGTREP_1"
+.global STFGTREP_1
+STFGTREP_1:
 .L0x000002bc: addiu $sp, -0x18
 .L0x000002c0: lui $a0, 0x8008
 .L0x000002c4: addiu $a0, 0x2e70
