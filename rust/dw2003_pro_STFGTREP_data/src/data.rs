@@ -1,7 +1,163 @@
 //! Data;
 
+// Digimon ids
+// TODO: Move to where they're defined
+#[repr(u16)]
+pub enum DigimonId {
+	None             = 0x0,
+	Kotemon          = 0x1,
+	Kumamon          = 0x2,
+	Monmon           = 0x3,
+	Agumon           = 0x4,
+	Veemon           = 0x5,
+	Guilmon          = 0x6,
+	Renamon          = 0x7,
+	Patamon          = 0x8,
+	Dinohumon        = 0x9,
+	Hookmon          = 0xa,
+	Grizzmon         = 0xb,
+	Greymon          = 0xc,
+	ExVeemon         = 0xd,
+	Growlmon         = 0xe,
+	Kyubimon         = 0xf,
+	Angemon          = 0x10,
+	Devimon          = 0x11,
+	Stingmon         = 0x12,
+	Angewomon        = 0x13,
+	Kyukimon         = 0x14,
+	Armormon         = 0x15,
+	GrapLeomon       = 0x16,
+	MetalGreymon     = 0x17,
+	SkullGreymon     = 0x18,
+	Paildramon       = 0x19,
+	WarGrowlmon      = 0x1a,
+	Taomon           = 0x1b,
+	MagnaAngemon     = 0x1c,
+	Myotismon        = 0x1d,
+	MetalMamemon     = 0x1e,
+	Kabuterimon      = 0x1f,
+	Digitamamon      = 0x20,
+	GuardiAngemon    = 0x21,
+	Cannondramon     = 0x22,
+	Marsmon          = 0x23,
+	WarGreymon       = 0x24,
+	Imperialdramon   = 0x25,
+	Gallantmon       = 0x26,
+	Sakuyamon        = 0x27,
+	Seraphimon       = 0x28,
+	MetalGarurumon   = 0x29,
+	Rosemon          = 0x2a,
+	BKWarGreymon     = 0x2b,
+	ImperialdramonFM = 0x2c,
+	MaloMyotismon    = 0x2d,
+	MegaGargomon     = 0x2e,
+	GranKuwagamon    = 0x2f,
+	Phoenixmon       = 0x30,
+	Omnimon          = 0x31,
+	ImperialdramonPM = 0x32,
+	Beelzemon        = 0x33,
+	Diaboromon       = 0x34,
+}
+
+/// Evolution level requirement
+#[repr(C)]
+pub struct EvoLevelReq {
+	evo:   DigimonId,
+	level: u16,
+}
+
+impl EvoLevelReq {
+	const NONE: Self = Self {
+		evo:   DigimonId::None,
+		level: 0x0001,
+	};
+}
+
+/// Other evolution requirement
+#[repr(u16)]
+pub enum EvoReqExtra {
+	None(u16)   = 0x00,
+
+	StatWisdom(u16) = 0x04,
+	StatSpeed(u16) = 0x05,
+
+	RookieLevel(u16) = 0x07,
+
+	StatFire(u16) = 0x08,
+	StatWater(u16) = 0x09,
+	StatWind(u16) = 0x0b,
+	StatMachine(u16) = 0x0d,
+	StatDark(u16) = 0x0e,
+}
+
+impl EvoReqExtra {
+	const NONE: Self = Self::None(0x0001);
+}
+
+/// Evolution
+#[repr(C)]
+pub struct Evolution {
+	to:  DigimonId,
+	un0: u16,
+
+	/// Requirements
+	req_level: [EvoLevelReq; 2],
+	req_extra: EvoReqExtra,
+}
+
+impl Evolution {
+	/// Rookie evolution
+	pub const fn rookie(to: DigimonId, level: u16) -> Self {
+		Self {
+			to,
+			un0: 0x0000,
+			req_level: [EvoLevelReq::NONE, EvoLevelReq::NONE],
+			req_extra: EvoReqExtra::RookieLevel(level),
+		}
+	}
+
+	/// Standard evolution
+	pub const fn standard(from: DigimonId, level: u16, to: DigimonId) -> Self {
+		Self {
+			to,
+			un0: 0x0000,
+			req_level: [EvoLevelReq { evo: from, level }, EvoLevelReq::NONE],
+			req_extra: EvoReqExtra::NONE,
+		}
+	}
+
+	/// Standard evolution with extra requirement
+	pub const fn standard_extra(from: DigimonId, level: u16, to: DigimonId, extra: EvoReqExtra) -> Self {
+		Self {
+			to,
+			un0: 0x0000,
+			req_level: [EvoLevelReq { evo: from, level }, EvoLevelReq::NONE],
+			req_extra: extra,
+		}
+	}
+
+	/// Dna-evolution
+	pub const fn dna(lhs_from: DigimonId, lhs_level: u16, rhs_from: DigimonId, rhs_level: u16, to: DigimonId) -> Self {
+		Self {
+			to,
+			un0: 0x0000,
+			req_level: [
+				EvoLevelReq {
+					evo:   lhs_from,
+					level: lhs_level,
+				},
+				EvoLevelReq {
+					evo:   rhs_from,
+					level: rhs_level,
+				},
+			],
+			req_extra: EvoReqExtra::NONE,
+		}
+	}
+}
+
 util::decl_static! { "dw2003_pro_STFGTREP_data",
-	pub static mut STFGTREP_D0x00000000: [u32; 2568] = [
+	pub static mut STFGTREP_D0x00000000: [u32; 1005] = [
 		0x00000000, // 0x00003dd8
 		0x00000000, // 0x00003ddc
 		0x00000000, // 0x00003de0
@@ -1007,182 +1163,57 @@ util::decl_static! { "dw2003_pro_STFGTREP_data",
 		0x0000002f, // 0x00004d80
 		0x000000eb, // 0x00004d84
 		0x000001d6, // 0x00004d88
-		0x00000009, // 0x00004d8c
-		0x00010000, // 0x00004d90
-		0x00010000, // 0x00004d94
-		0x00050007, // 0x00004d98
-		0x0000000a, // 0x00004d9c
-		0x0014000e, // 0x00004da0
-		0x00010000, // 0x00004da4
-		0x00010000, // 0x00004da8
-		0x0000000b, // 0x00004dac
-		0x001e000e, // 0x00004db0
-		0x00010000, // 0x00004db4
-		0x01180005, // 0x00004db8
-		0x0000000c, // 0x00004dbc
-		0x00140009, // 0x00004dc0
-		0x00010000, // 0x00004dc4
-		0x00010000, // 0x00004dc8
-		0x0000000d, // 0x00004dcc
-		0x000a000c, // 0x00004dd0
-		0x00010000, // 0x00004dd4
-		0x00010000, // 0x00004dd8
-		0x0000000e, // 0x00004ddc
-		0x0032001b, // 0x00004de0
-		0x00010000, // 0x00004de4
-		0x00c80008, // 0x00004de8
-		0x0000000f, // 0x00004dec
-		0x00140021, // 0x00004df0
-		0x00010000, // 0x00004df4
-		0x00010000, // 0x00004df8
-		0x00000010, // 0x00004dfc
-		0x001e001b, // 0x00004e00
-		0x00010000, // 0x00004e04
-		0x00c8000b, // 0x00004e08
-		0x00000011, // 0x00004e0c
-		0x00140020, // 0x00004e10
-		0x00010000, // 0x00004e14
-		0x00010000, // 0x00004e18
-		0x00000012, // 0x00004e1c
-		0x000a0021, // 0x00004e20
-		0x00010000, // 0x00004e24
-		0x00010000, // 0x00004e28
-		0x00000013, // 0x00004e2c
-		0x0014001b, // 0x00004e30
-		0x00010000, // 0x00004e34
-		0x01680009, // 0x00004e38
-		0x00000014, // 0x00004e3c
-		0x00010000, // 0x00004e40
-		0x00010000, // 0x00004e44
-		0x00140007, // 0x00004e48
-		0x00000015, // 0x00004e4c
-		0x0032000a, // 0x00004e50
-		0x00010000, // 0x00004e54
-		0x00010000, // 0x00004e58
-		0x00000016, // 0x00004e5c
-		0x0032000b, // 0x00004e60
-		0x00010000, // 0x00004e64
-		0x00010000, // 0x00004e68
-		0x00000017, // 0x00004e6c
-		0x0028000c, // 0x00004e70
-		0x00010000, // 0x00004e74
-		0x000f0007, // 0x00004e78
-		0x00000018, // 0x00004e7c
-		0x0032000c, // 0x00004e80
-		0x00010000, // 0x00004e84
-		0x008c000e, // 0x00004e88
-		0x00000019, // 0x00004e8c
-		0x0005000d, // 0x00004e90
-		0x00050012, // 0x00004e94
-		0x00010000, // 0x00004e98
-		0x0000001a, // 0x00004e9c
-		0x0032000e, // 0x00004ea0
-		0x00010000, // 0x00004ea4
-		0x00010000, // 0x00004ea8
-		0x0000001b, // 0x00004eac
-		0x0028000f, // 0x00004eb0
-		0x00010000, // 0x00004eb4
-		0x00010000, // 0x00004eb8
-		0x0000001c, // 0x00004ebc
-		0x00320010, // 0x00004ec0
-		0x00010000, // 0x00004ec4
-		0x00010000, // 0x00004ec8
-		0x0000001d, // 0x00004ecc
-		0x00280011, // 0x00004ed0
-		0x00010000, // 0x00004ed4
-		0x00010000, // 0x00004ed8
-		0x0000001e, // 0x00004edc
-		0x00140014, // 0x00004ee0
-		0x00010000, // 0x00004ee4
-		0x008c000d, // 0x00004ee8
-		0x0000001f, // 0x00004eec
-		0x00280012, // 0x00004ef0
-		0x00010000, // 0x00004ef4
-		0x00010000, // 0x00004ef8
-		0x00000020, // 0x00004efc
-		0x0028001b, // 0x00004f00
-		0x00010000, // 0x00004f04
-		0x01180004, // 0x00004f08
-		0x00000021, // 0x00004f0c
-		0x00010000, // 0x00004f10
-		0x00010000, // 0x00004f14
-		0x00280007, // 0x00004f18
-		0x00000022, // 0x00004f1c
-		0x00630015, // 0x00004f20
-		0x00010000, // 0x00004f24
-		0x00010000, // 0x00004f28
-		0x00000023, // 0x00004f2c
-		0x00630016, // 0x00004f30
-		0x00010000, // 0x00004f34
-		0x00010000, // 0x00004f38
-		0x00000024, // 0x00004f3c
-		0x00630017, // 0x00004f40
-		0x00010000, // 0x00004f44
-		0x00010000, // 0x00004f48
-		0x00000025, // 0x00004f4c
-		0x00320019, // 0x00004f50
-		0x00010000, // 0x00004f54
-		0x00010000, // 0x00004f58
-		0x00000026, // 0x00004f5c
-		0x0063001a, // 0x00004f60
-		0x00010000, // 0x00004f64
-		0x00010000, // 0x00004f68
-		0x00000027, // 0x00004f6c
-		0x0063001b, // 0x00004f70
-		0x00010000, // 0x00004f74
-		0x00010000, // 0x00004f78
-		0x00000028, // 0x00004f7c
-		0x0063001c, // 0x00004f80
-		0x00010000, // 0x00004f84
-		0x00010000, // 0x00004f88
-		0x00000029, // 0x00004f8c
-		0x0028001e, // 0x00004f90
-		0x00010000, // 0x00004f94
-		0x00c8000d, // 0x00004f98
-		0x0000002a, // 0x00004f9c
-		0x00280013, // 0x00004fa0
-		0x00010000, // 0x00004fa4
-		0x00010000, // 0x00004fa8
-		0x0000002b, // 0x00004fac
-		0x00630018, // 0x00004fb0
-		0x00010000, // 0x00004fb4
-		0x00010000, // 0x00004fb8
-		0x0000002c, // 0x00004fbc
-		0x00630025, // 0x00004fc0
-		0x00010000, // 0x00004fc4
-		0x00010000, // 0x00004fc8
-		0x0000002d, // 0x00004fcc
-		0x0063001d, // 0x00004fd0
-		0x00010000, // 0x00004fd4
-		0x00010000, // 0x00004fd8
-		0x0000002e, // 0x00004fdc
-		0x00630029, // 0x00004fe0
-		0x00010000, // 0x00004fe4
-		0x00010000, // 0x00004fe8
-		0x0000002f, // 0x00004fec
-		0x00280025, // 0x00004ff0
-		0x0028001f, // 0x00004ff4
-		0x00010000, // 0x00004ff8
-		0x00000030, // 0x00004ffc
-		0x0063002a, // 0x00005000
-		0x00010000, // 0x00005004
-		0x00010000, // 0x00005008
-		0x00000031, // 0x0000500c
-		0x00280024, // 0x00005010
-		0x00280029, // 0x00005014
-		0x00010000, // 0x00005018
-		0x00000032, // 0x0000501c
-		0x0028002c, // 0x00005020
-		0x00280031, // 0x00005024
-		0x00010000, // 0x00005028
-		0x00000033, // 0x0000502c
-		0x0028002d, // 0x00005030
-		0x00280026, // 0x00005034
-		0x00010000, // 0x00005038
-		0x00000034, // 0x0000503c
-		0x0063002f, // 0x00005040
-		0x0063002b, // 0x00005044
-		0x00010000, // 0x00005048
+	];
+
+	pub static mut STFGTREP_EVOS: [Evolution; 44] = [
+		// Kotemon
+		Evolution::rookie(DigimonId::Dinohumon, 5),
+		Evolution::standard(DigimonId::Growlmon, 20, DigimonId::Hookmon),
+		Evolution::standard_extra(DigimonId::Growlmon, 30, DigimonId::Grizzmon, EvoReqExtra::StatSpeed(280)),
+		Evolution::standard(DigimonId::Dinohumon, 20, DigimonId::Greymon),
+		Evolution::standard(DigimonId::Greymon, 10, DigimonId::ExVeemon),
+		Evolution::standard_extra(DigimonId::Taomon, 50, DigimonId::Growlmon, EvoReqExtra::StatFire(200)),
+		Evolution::standard(DigimonId::GuardiAngemon, 20, DigimonId::Kyubimon),
+		Evolution::standard_extra(DigimonId::Taomon, 30, DigimonId::Angemon, EvoReqExtra::StatWind(200)),
+		Evolution::standard(DigimonId::Digitamamon, 20, DigimonId::Devimon),
+		Evolution::standard(DigimonId::GuardiAngemon, 10, DigimonId::Stingmon),
+		Evolution::standard_extra(DigimonId::Taomon, 20, DigimonId::Angewomon, EvoReqExtra::StatWater(360)),
+		Evolution::rookie(DigimonId::Kyukimon, 20),
+		Evolution::standard(DigimonId::Hookmon, 50, DigimonId::Armormon),
+		Evolution::standard(DigimonId::Grizzmon, 50, DigimonId::GrapLeomon),
+		Evolution::standard_extra(DigimonId::Greymon, 40, DigimonId::MetalGreymon, EvoReqExtra::RookieLevel(15)),
+		Evolution::standard_extra(DigimonId::Greymon, 50, DigimonId::SkullGreymon, EvoReqExtra::StatDark(140)),
+		Evolution::dna(DigimonId::ExVeemon, 5, DigimonId::Stingmon, 5, DigimonId::Paildramon),
+		Evolution::standard(DigimonId::Growlmon, 50, DigimonId::WarGrowlmon),
+		Evolution::standard(DigimonId::Kyubimon, 40, DigimonId::Taomon),
+		Evolution::standard(DigimonId::Angemon, 50, DigimonId::MagnaAngemon),
+		Evolution::standard(DigimonId::Devimon, 40, DigimonId::Myotismon),
+		Evolution::standard_extra(DigimonId::Kyukimon, 20, DigimonId::MetalMamemon, EvoReqExtra::StatMachine(140)),
+		Evolution::standard(DigimonId::Stingmon, 40, DigimonId::Kabuterimon),
+		Evolution::standard_extra(DigimonId::Taomon, 40, DigimonId::Digitamamon, EvoReqExtra::StatWisdom(280)),
+		Evolution::rookie(DigimonId::GuardiAngemon, 40),
+		Evolution::standard(DigimonId::Armormon, 99, DigimonId::Cannondramon),
+		Evolution::standard(DigimonId::GrapLeomon, 99, DigimonId::Marsmon),
+		Evolution::standard(DigimonId::MetalGreymon, 99, DigimonId::WarGreymon),
+		Evolution::standard(DigimonId::Paildramon, 50, DigimonId::Imperialdramon),
+		Evolution::standard(DigimonId::WarGrowlmon, 99, DigimonId::Gallantmon),
+		Evolution::standard(DigimonId::Taomon, 99, DigimonId::Sakuyamon),
+		Evolution::standard(DigimonId::MagnaAngemon, 99, DigimonId::Seraphimon),
+		Evolution::standard_extra(DigimonId::MetalMamemon, 40, DigimonId::MetalGarurumon, EvoReqExtra::StatMachine(200)),
+		Evolution::standard(DigimonId::Angewomon, 40, DigimonId::Rosemon),
+		Evolution::standard(DigimonId::SkullGreymon, 99, DigimonId::BKWarGreymon),
+		Evolution::standard(DigimonId::Imperialdramon, 99, DigimonId::ImperialdramonFM),
+		Evolution::standard(DigimonId::Myotismon, 99, DigimonId::MaloMyotismon),
+		Evolution::standard(DigimonId::MetalGarurumon, 99, DigimonId::MegaGargomon),
+		Evolution::dna(DigimonId::Imperialdramon, 40, DigimonId::Kabuterimon, 40, DigimonId::GranKuwagamon),
+		Evolution::standard(DigimonId::Rosemon, 99, DigimonId::Phoenixmon),
+		Evolution::dna(DigimonId::WarGreymon, 40, DigimonId::MetalGarurumon, 40, DigimonId::Omnimon),
+		Evolution::dna(DigimonId::ImperialdramonFM, 40, DigimonId::Omnimon, 40, DigimonId::ImperialdramonPM),
+		Evolution::dna(DigimonId::MaloMyotismon, 40, DigimonId::Gallantmon, 40, DigimonId::Beelzemon),
+		Evolution::dna(DigimonId::GranKuwagamon, 99, DigimonId::BKWarGreymon, 99, DigimonId::Diaboromon),
+	];
+
+	pub static mut STFGTREP_EVOS2: [u32; 1387] = [
 		0x00000009, // 0x0000504c
 		0x001e0017, // 0x00005050
 		0x00010000, // 0x00005054
@@ -2415,6 +2446,9 @@ util::decl_static! { "dw2003_pro_STFGTREP_data",
 		0x0063002f, // 0x00006380
 		0x0063002b, // 0x00006384
 		0x00010000, // 0x00006388
+
+
+
 		0x80087a3c, // 0x0000638c
 		0x80087cfc, // 0x00006390
 		0x80087fbc, // 0x00006394
