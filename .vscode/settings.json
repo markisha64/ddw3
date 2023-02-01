@@ -9,6 +9,7 @@
 		"objs",
 		"psexe",
 		"seeked",
+		"STFGTREP",
 		"thiserror"
 	],
 	"python.formatting.provider": "yapf",

@@ -1,3 +1,8 @@
 [workspace]
 
-members = ["dw2003_exe_data", "dw2003_exe_digimon_profiles", "util"]
+members = [
+	"dw2003_exe_data",
+	"dw2003_exe_digimon_profiles",
+	"dw2003_pro_STFGTREP_data",
+	"util",
+]

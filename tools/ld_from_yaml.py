@@ -21,6 +21,7 @@ def main(args):
 	input_dir = Path(args.input_yaml).parent
 
 	entry = config.get("entry")
+	start_addr = config["start_addr"]
 	objs = config["objs"]
 	objs = list(map(lambda obj_path: str(process_path(obj_path, input_dir)), objs))
 
@@ -36,7 +37,7 @@ def main(args):
 
 		linker_script_file.write(f"""\
 SECTIONS {{
-	_.text = 0x80010000;
+	_.text = {hex(start_addr)};
 	.text _.text : {{
 		{sections}
 	}}
@@ -57,6 +58,7 @@ ENTRY({entry})""")
 	    "-o",
 	    args.output,
 	    "-EL",
+	    "--omagic",
 	    "--script",
 	    args.linker_script_output,
 	    "--warn-section-align",
