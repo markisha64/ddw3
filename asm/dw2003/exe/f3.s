@@ -13,12 +13,12 @@ idx_is_neg=$t0 # bool
 	ori $v0, 0xffff
 	and $v1, $a0, $v0
 	slti $v0, $v1, 5
-	bnez $v0, .idx_valid
+	bnez $v0, .Lidx_valid
 	slti idx_is_neg, $a0, 0
 	jr $ra
 	move_ $v0, $zr
 
-.idx_valid:
+.Lidx_valid:
 cur_ptr=$v1 # *const i16
 cur_idx=$a3 # u32
 ptr2=$t1    # *mut i8
@@ -33,7 +33,7 @@ ptr2=$t1    # *mut i8
 	# Return `0` if `*cur_ptr == 0`
 	lhu $v0, ($v1)
 	nop
-	beqz $v0, .exit
+	beqz $v0, .Lexit
 	move_ cur_idx, $zr
 
 	# Setup `ptr2`
@@ -74,6 +74,6 @@ cur_value=$a2 # i16
 	bnez $v0, .Lloop
 	nop
 
-.exit:
+.Lexit:
 	jr $ra
 	move_ $v0, $a3
