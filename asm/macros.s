@@ -17,9 +17,20 @@ addu \lhs, \rhs, $zr
 
 # Jumps to a bios function
 # Clobbers `$t1` and `$t2`
+# No delay slot
 .macro bios_jump family, idx
 	li $t2, \family
 	jr $t2
 	li $t1, \idx
+	nop
+.endm
+
+# Calls a bios function
+# Clobbers `$t1` and `$t2`
+# No delay slot
+.macro bios_call family, idx
+	li $t1, \idx
+	li $t2, \family
+	jalr $t2
 	nop
 .endm

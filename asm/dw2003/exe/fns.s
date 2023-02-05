@@ -29555,10 +29555,7 @@ F0x8002b85c:
 .L8002b860: sw $ra, 5176($at)
 .L8002b864: jal F0x8002508c
 .L8002b868: nop
-.L8002b86c: li $t1, 86
-.L8002b870: li $t2, 176
-.L8002b874: jalr $t2
-.L8002b878: nop
+.L8002b86c: bios_call 0xb0, 0x56 # GetC0Table
 .L8002b87c: lw $v0, 24($v0)
 .L8002b880: nop
 .L8002b884: addiu $v0, 40
@@ -46627,10 +46624,7 @@ F0x8003b9b4:
 .L8003b9b8: sw $ra, 10336($at)
 .L8003b9bc: jal F0x8002508c
 .L8003b9c0: nop
-.L8003b9c4: li $t1, 87
-.L8003b9c8: li $t2, 176
-.L8003b9cc: jalr $t2
-.L8003b9d0: nop
+.L8003b9c4: bios_call 0xb0, 0x57 # GetB0Table
 .L8003b9d4: lw $v0, 364($v0)
 .L8003b9d8: li $t1, 11
 .L8003b9dc: addi $v1, $v0, 2180
@@ -46660,10 +46654,7 @@ F0x8003ba2c:
 .L8003ba30: sw $ra, 10352($at)
 .L8003ba34: jal F0x8002508c
 .L8003ba38: nop
-.L8003ba3c: li $t1, 87
-.L8003ba40: li $t2, 176
-.L8003ba44: jalr $t2
-.L8003ba48: nop
+.L8003ba3c: bios_call 0xb0, 0x57 # GetB0Table
 .L8003ba4c: li $t2, 9
 .L8003ba50: lw $v0, 364($v0)
 .L8003ba54: nop
@@ -46701,10 +46692,7 @@ StopCard:
 F0x8003bacc:
 .L8003bacc: lui $at, 0x8008
 .L8003bad0: sw $ra, 10368($at)
-.L8003bad4: li $t1, 87
-.L8003bad8: li $t2, 176
-.L8003badc: jalr $t2
-.L8003bae0: nop
+.L8003bad4: bios_call 0xb0, 0x57 # GetB0Table
 .L8003bae4: li $t2, 9
 .L8003bae8: lw $v0, 364($v0)
 .L8003baec: nop
@@ -46768,10 +46756,7 @@ F0x8003bba8:
 .L8003bbac: sw $ra, 10368($at)
 .L8003bbb0: jal F0x8002508c
 .L8003bbb4: nop
-.L8003bbb8: li $t1, 86
-.L8003bbbc: li $t2, 176
-.L8003bbc0: jalr $t2
-.L8003bbc4: nop
+.L8003bbb8: bios_call 0xb0, 0x56 # GetC0Table
 .L8003bbc8: lw $v0, 24($v0)
 .L8003bbcc: nop
 .L8003bbd0: lw $v1, 112($v0)
@@ -46806,10 +46791,7 @@ F0x8003bc3c:
 .L8003bc40: sw $ra, 10368($at)
 .L8003bc44: jal F0x8002508c
 .L8003bc48: nop
-.L8003bc4c: li $t1, 87
-.L8003bc50: li $t2, 176
-.L8003bc54: jalr $t2
-.L8003bc58: nop
+.L8003bc4c: bios_call 0xb0, 0x57 # GetB0Table
 .L8003bc5c: lw $v0, 364($v0)
 .L8003bc60: nop
 .L8003bc64: lw $v1, 2504($v0)
@@ -46852,10 +46834,7 @@ F0x8003bcec:
 .L8003bcf0: sw $ra, 10384($at)
 .L8003bcf4: jal F0x8002508c
 .L8003bcf8: nop
-.L8003bcfc: li $t1, 86
-.L8003bd00: li $t2, 176
-.L8003bd04: jalr $t2
-.L8003bd08: nop
+.L8003bcfc: bios_call 0xb0, 0x56 # GetC0Table
 .L8003bd0c: lw $v0, 24($v0)
 .L8003bd10: la_ $t2, F0x8003bd5c
 .L8003bd18: la_ $t1, F0x8003bd68
