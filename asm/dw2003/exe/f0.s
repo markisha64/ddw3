@@ -1,14 +1,14 @@
 .include "macros.s"
 
 # Returns the pointer to the current digimon stat
-# `fn f0(u32 value) -> *u32`
+# `fn f0(value: u32) -> *u32`
 .section "section_f0"
 .global f0
 f0:
 	addiu $sp, -24
 	sw $ra, 16($sp)
 
-# If the return from `u32 idx = f1()` is negative, return 0
+# If the return from `idx = f1()` is negative, return 0
 	jal f1
 	nop
 	move_ $v1, $v0

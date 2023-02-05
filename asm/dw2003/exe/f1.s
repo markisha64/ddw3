@@ -1,7 +1,7 @@
 .include "macros.s"
 
 # Returns the digimon stat index of the first digimon with `value0 = value`
-# `fn f1(u32 value) -> u32`
+# `fn f1(value: u32) -> i32`
 .section "section_f1"
 .global f1
 f1:
