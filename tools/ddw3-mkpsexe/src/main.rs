@@ -78,24 +78,14 @@ fn main() -> Result<(), anyhow::Error> {
 
 	// Write all content and pad to `0x800`
 	output_file.write_all(text).context("Unable to write all data")?;
-	let file_size = output_file
-		.stream_len()
-		.context("Unable to get output file length")?
-		.checked_sub(0x800)
-		.context("Reported output file size was less than `0x800` after writing header & data")?;
-	let file_size = match file_size % 0x800 == 0 {
-		true => file_size,
-		false => {
-			let new_file_size = (file_size + 0x7ff) / 0x800 * 0x800;
-			tracing::debug!("Padding output file of length {file_size:#x} to {new_file_size:#x}");
-			output_file
-				.set_len(new_file_size)
-				.context("Unable to pad output file")?;
-			new_file_size
-		},
+	let file_size = output_file.stream_len().context("Unable to get output file length")?;
+	if file_size % 0x800 != 0 {
+		let new_file_size = (file_size + 0x7ff) / 0x800 * 0x800;
+		tracing::debug!("Padding output file of length {file_size:#x} to {new_file_size:#x}");
+		output_file
+			.set_len(new_file_size)
+			.context("Unable to pad output file")?;
 	};
-	let file_size = file_size.try_into().context("File size didn't fit into a `u32`")?;
-	tracing::trace!(file_size = format!("{file_size:#x}"));
 
 	// Then go back and write the header
 	output_file.rewind().context("Unable to rewind output file")?;
@@ -103,7 +93,7 @@ fn main() -> Result<(), anyhow::Error> {
 	let header = ddw3_psexe::Header {
 		pc0,
 		text_base,
-		text_size: file_size,
+		text_size: text.len().try_into().context("Text size didn't fit into a `u32`")?,
 		// TODO: Not hardcode these?
 		sp: 0x801ffff0,
 		license: match license_file.len() {
