@@ -22667,52 +22667,31 @@ F0x8002509c:
 
 .global F0x800250ac
 F0x800250ac:
-.L800250ac: li $t2, 176
-.L800250b0: jr $t2
-.L800250b4: li $t1, 50
-.L800250b8: nop
+bios_jump 0xb0, 0x32
 
 .global F0x800250bc
 F0x800250bc:
-.L800250bc: li $t2, 176
-.L800250c0: jr $t2
-.L800250c4: li $t1, 52
-.L800250c8: nop
+bios_jump 0xb0, 0x34
 
 .global F0x800250cc
 F0x800250cc:
-.L800250cc: li $t2, 176
-.L800250d0: jr $t2
-.L800250d4: li $t1, 53
-.L800250d8: nop
+bios_jump 0xb0, 0x35
 
 .global F0x800250dc
 F0x800250dc:
-.L800250dc: li $t2, 176
-.L800250e0: jr $t2
-.L800250e4: li $t1, 54
-.L800250e8: nop
+bios_jump 0xb0, 0x36
 
 .global F0x800250ec
 F0x800250ec:
-.L800250ec: li $t2, 192
-.L800250f0: jr $t2
-.L800250f4: li $t1, 2
-.L800250f8: nop
+bios_jump 0xc0, 0x02
 
 .global F0x800250fc
 F0x800250fc:
-.L800250fc: li $t2, 192
-.L80025100: jr $t2
-.L80025104: li $t1, 3
-.L80025108: nop
+bios_jump 0xc0, 0x03
 
 .global F0x8002510c
 F0x8002510c:
-.L8002510c: li $t2, 192
-.L80025110: jr $t2
-.L80025114: li $t1, 10
-.L80025118: nop
+bios_jump 0xc0, 0x0a
 
 .global F0x8002511c
 F0x8002511c:
@@ -26044,10 +26023,7 @@ F0x800283c4:
 
 .global F0x800283ec
 F0x800283ec:
-.L800283ec: li $t2, 160
-.L800283f0: jr $t2
-.L800283f4: li $t1, 73
-.L800283f8: nop
+bios_jump 0xa0, 0x49
 
 .global F0x800283fc
 F0x800283fc:
@@ -29643,10 +29619,8 @@ F0x8002b938:
 
 .global F0x8002b93c
 F0x8002b93c:
-.L8002b93c: li $t2, 160
-.L8002b940: jr $t2
-.L8002b944: li $t1, 68
-.L8002b948: nop
+bios_jump 0xa0, 0x44
+
 .L8002b94c: addiu $sp, -24
 .L8002b950: sw $ra, 16($sp)
 .L8002b954: lui $at, 0x8008
@@ -29758,10 +29732,7 @@ F0x8002ba98:
 
 .global F0x8002bacc
 F0x8002bacc:
-.L8002bacc: li $t2, 176
-.L8002bad0: jr $t2
-.L8002bad4: li $t1, 7
-.L8002bad8: nop
+bios_jump 0xb0, 0x07
 
 .global F0x8002badc
 F0x8002badc:
@@ -32847,10 +32818,7 @@ F0x8002e974:
 
 .global F0x8002ea0c
 F0x8002ea0c:
-.L8002ea0c: li $t2, 176
-.L8002ea10: jr $t2
-.L8002ea14: li $t1, 91
-.L8002ea18: nop
+bios_jump 0xb0, 0x5b
 
 .global F0x8002ea1c
 F0x8002ea1c:
@@ -33319,33 +33287,21 @@ F0x8002f0b8:
 
 .global F0x8002f0e4
 F0x8002f0e4:
-.L8002f0e4: li $t2, 160
-.L8002f0e8: jr $t2
-.L8002f0ec: li $t1, 114
-.L8002f0f0: nop
+bios_jump 0xa0, 0x72
 .L8002f0f4: nop
 .L8002f0f8: nop
 
 .global F0x8002f0fc
 F0x8002f0fc:
-.L8002f0fc: li $t2, 176
-.L8002f100: jr $t2
-.L8002f104: li $t1, 23
-.L8002f108: nop
+bios_jump 0xb0, 0x17
 
 .global F0x8002f10c
 F0x8002f10c:
-.L8002f10c: li $t2, 176
-.L8002f110: jr $t2
-.L8002f114: li $t1, 24
-.L8002f118: nop
+bios_jump 0xb0, 0x18
 
 .global F0x8002f11c
 F0x8002f11c:
-.L8002f11c: li $t2, 176
-.L8002f120: jr $t2
-.L8002f124: li $t1, 25
-.L8002f128: nop
+bios_jump 0xb0, 0x19
 
 .global F0x8002f12c
 F0x8002f12c:
@@ -43118,17 +43074,11 @@ F0x800384d4:
 
 .global F0x8003854c
 F0x8003854c:
-.L8003854c: li $t2, 176
-.L80038550: jr $t2
-.L80038554: li $t1, 8
-.L80038558: nop
+bios_jump 0xb0, 0x08
 
 .global F0x8003855c
 F0x8003855c:
-.L8003855c: li $t2, 176
-.L80038560: jr $t2
-.L80038564: li $t1, 12
-.L80038568: nop
+bios_jump 0xb0, 0x0c
 
 .global F0x8003856c
 F0x8003856c:
@@ -45277,10 +45227,7 @@ F0x8003a46c:
 
 .global F0x8003a60c
 F0x8003a60c:
-.L8003a60c: li $t2, 176
-.L8003a610: jr $t2
-.L8003a614: li $t1, 10
-.L8003a618: nop
+bios_jump 0xb0, 0x0a
 
 .global F0x8003a61c
 F0x8003a61c:
@@ -45513,10 +45460,7 @@ F0x8003a8cc:
 
 .global F0x8003a97c
 F0x8003a97c:
-.L8003a97c: li $t2, 176
-.L8003a980: jr $t2
-.L8003a984: li $t1, 11
-.L8003a988: nop
+bios_jump 0xb0, 0x0b
 
 .global F0x8003a98c
 F0x8003a98c:
@@ -46408,10 +46352,7 @@ F0x8003b56c:
 
 .global F0x8003b5bc
 F0x8003b5bc:
-.L8003b5bc: li $t2, 160
-.L8003b5c0: jr $t2
-.L8003b5c4: li $t1, 112
-.L8003b5c8: nop
+bios_jump 0xa0, 0x70
 
 .global F0x8003b5cc
 F0x8003b5cc:
@@ -46661,24 +46602,15 @@ F0x8003b918:
 
 .global F0x8003b95c
 F0x8003b95c:
-.L8003b95c: li $t2, 176
-.L8003b960: jr $t2
-.L8003b964: li $t1, 18
-.L8003b968: nop
+bios_jump 0xb0, 0x12
 
 .global F0x8003b96c
 F0x8003b96c:
-.L8003b96c: li $t2, 176
-.L8003b970: jr $t2
-.L8003b974: li $t1, 19
-.L8003b978: nop
+bios_jump 0xb0, 0x13
 
 .global F0x8003b97c
 F0x8003b97c:
-.L8003b97c: li $t2, 176
-.L8003b980: jr $t2
-.L8003b984: li $t1, 21
-.L8003b988: nop
+bios_jump 0xb0, 0x15
 
 .global F0x8003b98c
 F0x8003b98c:
@@ -46759,24 +46691,15 @@ F0x8003ba2c:
 
 .global F0x8003ba9c
 F0x8003ba9c:
-.L8003ba9c: li $t2, 176
-.L8003baa0: jr $t2
-.L8003baa4: li $t1, 74
-.L8003baa8: nop
+bios_jump 0xb0, 0x4a
 
 .global F0x8003baac
 F0x8003baac:
-.L8003baac: li $t2, 176
-.L8003bab0: jr $t2
-.L8003bab4: li $t1, 75
-.L8003bab8: nop
+bios_jump 0xb0, 0x4b
 
 .global F0x8003babc
 F0x8003babc:
-.L8003babc: li $t2, 176
-.L8003bac0: jr $t2
-.L8003bac4: li $t1, 76
-.L8003bac8: nop
+bios_jump 0xb0, 0x4c
 
 .global F0x8003bacc
 F0x8003bacc:
@@ -48579,17 +48502,11 @@ F0x8003d5e0:
 
 .global F0x8003d63c
 F0x8003d63c:
-.L8003d63c: li $t2, 176
-.L8003d640: jr $t2
-.L8003d644: li $t1, 51
-.L8003d648: nop
+bios_jump 0xb0, 0x33
 
 .global F0x8003d64c
 F0x8003d64c:
-.L8003d64c: li $t2, 176
-.L8003d650: jr $t2
-.L8003d654: li $t1, 67
-.L8003d658: nop
+bios_jump 0xb0, 0x43
 
 .global F0x8003d65c
 F0x8003d65c:
@@ -48765,10 +48682,7 @@ F0x8003d7f8:
 
 .global F0x8003d8fc
 F0x8003d8fc:
-.L8003d8fc: li $t2, 176
-.L8003d900: jr $t2
-.L8003d904: li $t1, 66
-.L8003d908: nop
+bios_jump 0xb0, 0x42
 
 .global F0x8003d90c
 F0x8003d90c:
@@ -48850,17 +48764,11 @@ F0x8003d9bc:
 
 .global F0x8003da2c
 F0x8003da2c:
-.L8003da2c: li $t2, 160
-.L8003da30: jr $t2
-.L8003da34: li $t1, 171
-.L8003da38: nop
+bios_jump 0xa0, 0xab
 
 .global F0x8003da3c
 F0x8003da3c:
-.L8003da3c: li $t2, 160
-.L8003da40: jr $t2
-.L8003da44: li $t1, 172
-.L8003da48: nop
+bios_jump 0xa0, 0xac
 
 .global F0x8003da4c
 F0x8003da4c:
@@ -48883,17 +48791,11 @@ F0x8003da4c:
 
 .global F0x8003da8c
 F0x8003da8c:
-.L8003da8c: li $t2, 176
-.L8003da90: jr $t2
-.L8003da94: li $t1, 78
-.L8003da98: nop
+bios_jump 0xb0, 0x4e
 
 .global F0x8003da9c
 F0x8003da9c:
-.L8003da9c: li $t2, 176
-.L8003daa0: jr $t2
-.L8003daa4: li $t1, 80
-.L8003daa8: nop
+bios_jump 0xb0, 0x50
 
 .global F0x8003daac
 F0x8003daac:
@@ -49440,10 +49342,7 @@ F0x8003e230:
 
 .global F0x8003e26c
 F0x8003e26c:
-.L8003e26c: li $t2, 176
-.L8003e270: jr $t2
-.L8003e274: li $t1, 9
-.L8003e278: nop
+bios_jump 0xb0, 0x09
 
 .global F0x8003e27c
 F0x8003e27c:
@@ -50108,10 +50007,7 @@ F0x8003e64c:
 
 .global F0x8003ed0c
 F0x8003ed0c:
-.L8003ed0c: li $t2, 176
-.L8003ed10: jr $t2
-.L8003ed14: li $t1, 79
-.L8003ed18: nop
+bios_jump 0xb0, 0x4f
 
 .global F0x8003ed1c
 F0x8003ed1c:
