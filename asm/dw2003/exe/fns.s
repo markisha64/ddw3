@@ -18614,10 +18614,10 @@ F0x8002134c:
 .L80021360: sw $zr, 23976($at)
 .L80021364: li $a0, 2
 .L80021368: la_ $s0, D0x80055dd0
-.L80021370: jal F0x800250fc
+.L80021370: jal SysDeqIntRP
 .L80021374: move_ $a1, $s0
 .L80021378: li $a0, 2
-.L8002137c: jal F0x800250ec
+.L8002137c: jal SysEnqIntRP
 .L80021380: move_ $a1, $s0
 .L80021384: li $a0, 3
 .L80021388: lui $v1, 0x8005
@@ -18627,7 +18627,7 @@ F0x8002134c:
 .L80021398: lw $v0, 4($v1)
 .L8002139c: move_ $a1, $zr
 .L800213a0: ori $v0, 0x1
-.L800213a4: jal F0x8002510c
+.L800213a4: jal ChangeClearRCnt
 .L800213a8: sw $v0, 4($v1)
 .L800213ac: jal F0x8002509c
 .L800213b0: nop
@@ -18663,10 +18663,10 @@ F0x80021418:
 .L80021420: jal F0x8002508c
 .L80021424: nop
 .L80021428: li $a0, 3
-.L8002142c: jal F0x8002510c
+.L8002142c: jal ChangeClearRCnt
 .L80021430: li $a1, 1
 .L80021434: la_ $a1, D0x80055dd0
-.L8002143c: jal F0x800250fc
+.L8002143c: jal SysDeqIntRP
 .L80021440: li $a0, 2
 .L80021444: jal F0x8002509c
 .L80021448: nop
@@ -22645,11 +22645,7 @@ F0x80024a80:
 # Calls `A(0x39)`
 .global InitHeap
 InitHeap:
-	li $t2, 0xa0
-	jr $t2
-	li $t1, 0x39
-	nop
-
+	bios_jump 0xa0, 0x39
 
 .global F0x8002508c
 F0x8002508c:
@@ -22665,33 +22661,33 @@ F0x8002509c:
 .L800250a4: jr $ra
 .L800250a8: nop
 
-.global F0x800250ac
-F0x800250ac:
-bios_jump 0xb0, 0x32
+.global fopen
+fopen:
+	bios_jump 0xb0, 0x32
 
-.global F0x800250bc
-F0x800250bc:
-bios_jump 0xb0, 0x34
+.global fread
+fread:
+	bios_jump 0xb0, 0x34
 
-.global F0x800250cc
-F0x800250cc:
-bios_jump 0xb0, 0x35
+.global fwrite
+fwrite:
+	bios_jump 0xb0, 0x35
 
-.global F0x800250dc
-F0x800250dc:
-bios_jump 0xb0, 0x36
+.global fclose
+fclose:
+	bios_jump 0xb0, 0x36
 
-.global F0x800250ec
-F0x800250ec:
-bios_jump 0xc0, 0x02
+.global SysEnqIntRP
+SysEnqIntRP:
+	bios_jump 0xc0, 0x02
 
-.global F0x800250fc
-F0x800250fc:
-bios_jump 0xc0, 0x03
+.global SysDeqIntRP
+SysDeqIntRP:
+	bios_jump 0xc0, 0x03
 
-.global F0x8002510c
-F0x8002510c:
-bios_jump 0xc0, 0x0a
+.global ChangeClearRCnt
+ChangeClearRCnt:
+	bios_jump 0xc0, 0x0a
 
 .global F0x8002511c
 F0x8002511c:
@@ -22995,7 +22991,7 @@ F0x800254ec:
 .L80025578: lui $a0, 0x8005
 .L8002557c: lw $a0, 24304($a0)
 .L80025580: ori $v0, 0xffff
-.L80025584: jal F0x800283ec
+.L80025584: jal GPU_cw
 .L80025588: and $a0, $v0
 .L8002558c: jal F0x80027af4
 .L80025590: move_ $a0, $s1
@@ -26021,9 +26017,9 @@ F0x800283c4:
 .L800283e4: nop
 .L800283e8: nop
 
-.global F0x800283ec
-F0x800283ec:
-bios_jump 0xa0, 0x49
+.global GPU_cw
+GPU_cw:
+	bios_jump 0xa0, 0x49
 
 .global F0x800283fc
 F0x800283fc:
@@ -26613,7 +26609,7 @@ F0x80028b2c:
 .L80028bd8: bnez $v0, .L80028bf8
 .L80028bdc: nop
 .L80028be0: la_ $a1, D0x80081200
-.L80028be8: jal F0x800250cc
+.L80028be8: jal fwrite
 .L80028bec: li $a0, 1
 .L80028bf0: lui $at, 0x8005
 .L80028bf4: sw $zr, 24652($at)
@@ -26637,7 +26633,7 @@ F0x80028c28:
 .L80028c34: blez $a2, .L80028c54
 .L80028c38: sw $ra, 16($sp)
 .L80028c3c: la_ $a1, D0x80081200
-.L80028c44: jal F0x800250cc
+.L80028c44: jal fwrite
 .L80028c48: li $a0, 1
 .L80028c4c: lui $at, 0x8005
 .L80028c50: sw $zr, 24652($at)
@@ -26691,7 +26687,7 @@ F0x80028c28:
 .L80028d10: bnez $v0, .L80028d30
 .L80028d14: nop
 .L80028d18: la_ $a1, D0x80081200
-.L80028d20: jal F0x800250cc
+.L80028d20: jal fwrite
 .L80028d24: li $a0, 1
 .L80028d28: lui $at, 0x8005
 .L80028d2c: sw $zr, 24652($at)
@@ -26709,7 +26705,7 @@ F0x80028c28:
 .L80028d5c: blez $a2, .L80028d7c
 .L80028d60: nop
 .L80028d64: la_ $a1, D0x80081200
-.L80028d6c: jal F0x800250cc
+.L80028d6c: jal fwrite
 .L80028d70: li $a0, 1
 .L80028d74: lui $at, 0x8005
 .L80028d78: sw $zr, 24652($at)
@@ -29585,7 +29581,7 @@ F0x8002b85c:
 .L8002b8d8: addiu $t2, 4
 .L8002b8dc: bne $t2, $t1, .L8002b8cc
 .L8002b8e0: addiu $v0, 4
-.L8002b8e4: jal F0x8002b93c
+.L8002b8e4: jal FlushCache
 .L8002b8e8: nop
 .L8002b8ec: jal F0x8002509c
 .L8002b8f0: nop
@@ -29617,9 +29613,9 @@ F0x8002b920:
 F0x8002b938:
 .L8002b938: nop
 
-.global F0x8002b93c
-F0x8002b93c:
-bios_jump 0xa0, 0x44
+.global FlushCache
+FlushCache:
+	bios_jump 0xa0, 0x44
 
 .L8002b94c: addiu $sp, -24
 .L8002b950: sw $ra, 16($sp)
@@ -29694,7 +29690,7 @@ F0x8002ba48:
 .L8002ba4c: sw $ra, 16($sp)
 .L8002ba50: lui $a0, 0xf000
 .L8002ba54: ori $a0, 0x3
-.L8002ba58: jal F0x8002bacc
+.L8002ba58: jal DeliverEvent
 .L8002ba5c: li $a1, 32
 .L8002ba60: lw $ra, 16($sp)
 .L8002ba64: addiu $sp, 24
@@ -29707,7 +29703,7 @@ F0x8002ba70:
 .L8002ba74: sw $ra, 16($sp)
 .L8002ba78: lui $a0, 0xf000
 .L8002ba7c: ori $a0, 0x3
-.L8002ba80: jal F0x8002bacc
+.L8002ba80: jal DeliverEvent
 .L8002ba84: li $a1, 64
 .L8002ba88: lw $ra, 16($sp)
 .L8002ba8c: addiu $sp, 24
@@ -29720,7 +29716,7 @@ F0x8002ba98:
 .L8002ba9c: sw $ra, 16($sp)
 .L8002baa0: lui $a0, 0xf000
 .L8002baa4: ori $a0, 0x3
-.L8002baa8: jal F0x8002bacc
+.L8002baa8: jal DeliverEvent
 .L8002baac: li $a1, 64
 .L8002bab0: lw $ra, 16($sp)
 .L8002bab4: addiu $sp, 24
@@ -29730,9 +29726,9 @@ F0x8002ba98:
 .L8002bac4: nop
 .L8002bac8: nop
 
-.global F0x8002bacc
-F0x8002bacc:
-bios_jump 0xb0, 0x07
+.global DeliverEvent
+DeliverEvent:
+	bios_jump 0xb0, 0x07
 
 .global F0x8002badc
 F0x8002badc:
@@ -32798,10 +32794,10 @@ F0x8002e974:
 .L8002e9bc: lui $a0, 0x8001
 .L8002e9c0: jal F0x8002e0ac
 .L8002e9c4: addiu $a0, 2680
-.L8002e9c8: jal F0x8002ea0c
+.L8002e9c8: jal ChangeClearPad
 .L8002e9cc: move_ $a0, $zr
 .L8002e9d0: li $a0, 3
-.L8002e9d4: jal F0x8002510c
+.L8002e9d4: jal ChangeClearRCnt
 .L8002e9d8: move_ $a1, $zr
 .L8002e9dc: j .L8002e9fc
 .L8002e9e0: nop
@@ -32816,9 +32812,9 @@ F0x8002e974:
 .L8002ea04: jr $ra
 .L8002ea08: nop
 
-.global F0x8002ea0c
-F0x8002ea0c:
-bios_jump 0xb0, 0x5b
+.global ChangeClearPad
+ChangeClearPad:
+	bios_jump 0xb0, 0x5b
 
 .global F0x8002ea1c
 F0x8002ea1c:
@@ -32976,7 +32972,7 @@ F0x8002ebb0:
 .L8002ec28: la_ $s0, D0x8005af8c
 .L8002ec30: addiu $a0, $s0, -4
 .L8002ec34: addiu $v0, $s0, 4060
-.L8002ec38: jal F0x8002f11c
+.L8002ec38: jal SetCustomExitFromException
 .L8002ec3c: sw $v0, 0($s0)
 .L8002ec40: li $v0, 1
 .L8002ec44: jal F0x8002f1ac
@@ -32987,7 +32983,7 @@ F0x8002ebb0:
 .L8002ec58: sw $v0, 20($v1)
 .L8002ec5c: lui $a0, 0x8006
 .L8002ec60: lw $a0, -16424($a0)
-.L8002ec64: jal F0x8002f0e4
+.L8002ec64: jal CdRemove
 .L8002ec68: sw $v0, 4($a0)
 .L8002ec6c: jal F0x8002509c
 .L8002ec70: addiu $s0, -60
@@ -33018,7 +33014,7 @@ F0x8002ec88:
 .L8002eccc: lui $a0, 0x8001
 .L8002ecd0: jal F0x800283fc
 .L8002ecd4: addiu $a0, 2748
-.L8002ecd8: jal F0x8002f0fc
+.L8002ecd8: jal ReturnFromException
 .L8002ecdc: nop
 .L8002ece0: lui $a0, 0x8006
 .L8002ece4: lw $a0, -16420($a0)
@@ -33102,7 +33098,7 @@ F0x8002ec88:
 .L8002ee24: lui $at, 0x8006
 .L8002ee28: sw $zr, -16408($at)
 .L8002ee2c: lui $at, 0x8006
-.L8002ee30: jal F0x8002f0fc
+.L8002ee30: jal ReturnFromException
 .L8002ee34: sh $zr, -20654($at)
 .L8002ee38: lw $ra, 36($sp)
 .L8002ee3c: lw $s4, 32($sp)
@@ -33161,27 +33157,27 @@ F0x8002ee58:
 .L8002ef08: bnez $s1, .L8002ef2c
 .L8002ef0c: li $v0, 4
 .L8002ef10: sltiu $s0, $s2, 1
-.L8002ef14: jal F0x8002ea0c
+.L8002ef14: jal ChangeClearPad
 .L8002ef18: move_ $a0, $s0
 .L8002ef1c: li $a0, 3
-.L8002ef20: jal F0x8002510c
+.L8002ef20: jal ChangeClearRCnt
 .L8002ef24: move_ $a1, $s0
 .L8002ef28: li $v0, 4
 .L8002ef2c: bne $s1, $v0, .L8002ef44
 .L8002ef30: li $v0, 5
 .L8002ef34: move_ $a0, $zr
-.L8002ef38: jal F0x8002510c
+.L8002ef38: jal ChangeClearRCnt
 .L8002ef3c: sltiu $a1, $s2, 1
 .L8002ef40: li $v0, 5
 .L8002ef44: bne $s1, $v0, .L8002ef5c
 .L8002ef48: li $v0, 6
 .L8002ef4c: li $a0, 1
-.L8002ef50: jal F0x8002510c
+.L8002ef50: jal ChangeClearRCnt
 .L8002ef54: sltiu $a1, $s2, 1
 .L8002ef58: li $v0, 6
 .L8002ef5c: bne $s1, $v0, .L8002ef6c
 .L8002ef60: li $a0, 2
-.L8002ef64: jal F0x8002510c
+.L8002ef64: jal ChangeClearRCnt
 .L8002ef68: sltiu $a1, $s2, 1
 .L8002ef6c: lui $v0, 0x8006
 .L8002ef70: lw $v0, -16416($v0)
@@ -33230,7 +33226,7 @@ F0x8002efa0:
 .L8002f014: lw $v0, 0($a0)
 .L8002f018: ori $v1, 0x7777
 .L8002f01c: and $v0, $v1
-.L8002f020: jal F0x8002f10c
+.L8002f020: jal SetDefaultExitFromException
 .L8002f024: sw $v0, 0($a0)
 .L8002f028: move_ $v0, $s0
 .L8002f02c: sh $zr, 0($v0)
@@ -33249,7 +33245,7 @@ F0x8002f040:
 .L8002f058: nop
 .L8002f05c: bnez $v0, .L8002f0a4
 .L8002f060: nop
-.L8002f064: jal F0x8002f11c
+.L8002f064: jal SetCustomExitFromException
 .L8002f068: addiu $a0, $s0, 56
 .L8002f06c: lui $a0, 0x8006
 .L8002f070: lw $a0, -16416($a0)
@@ -33285,23 +33281,23 @@ F0x8002f0b8:
 .L8002f0dc: .word 0x7350
 .L8002f0e0: .word 0x470000
 
-.global F0x8002f0e4
-F0x8002f0e4:
-bios_jump 0xa0, 0x72
-.L8002f0f4: nop
-.L8002f0f8: nop
+.global CdRemove
+CdRemove:
+	bios_jump 0xa0, 0x72
+	nop
+	nop
 
-.global F0x8002f0fc
-F0x8002f0fc:
-bios_jump 0xb0, 0x17
+.global ReturnFromException
+ReturnFromException:
+	bios_jump 0xb0, 0x17
 
-.global F0x8002f10c
-F0x8002f10c:
-bios_jump 0xb0, 0x18
+.global SetDefaultExitFromException
+SetDefaultExitFromException:
+	bios_jump 0xb0, 0x18
 
-.global F0x8002f11c
-F0x8002f11c:
-bios_jump 0xb0, 0x19
+.global SetCustomExitFromException
+SetCustomExitFromException:
+	bios_jump 0xb0, 0x19
 
 .global F0x8002f12c
 F0x8002f12c:
@@ -43057,11 +43053,11 @@ F0x800384d4:
 .L80038508: ori $a0, 0x9
 .L8003850c: li $a1, 32
 .L80038510: li $a2, 8192
-.L80038514: jal F0x8003854c
+.L80038514: jal OpenEvent
 .L80038518: move_ $a3, $zr
 .L8003851c: move_ $a0, $v0
 .L80038520: lui $at, 0x8006
-.L80038524: jal F0x8003855c
+.L80038524: jal EnableEvent
 .L80038528: sw $a0, -15864($at)
 .L8003852c: jal F0x8002509c
 .L80038530: nop
@@ -43072,13 +43068,13 @@ F0x800384d4:
 .L80038544: nop
 .L80038548: nop
 
-.global F0x8003854c
-F0x8003854c:
-bios_jump 0xb0, 0x08
+.global OpenEvent
+OpenEvent:
+	bios_jump 0xb0, 0x08
 
-.global F0x8003855c
-F0x8003855c:
-bios_jump 0xb0, 0x0c
+.global EnableEvent
+EnableEvent:
+	bios_jump 0xb0, 0x0c
 
 .global F0x8003856c
 F0x8003856c:
@@ -43393,7 +43389,7 @@ F0x800387ec:
 .L80038a44: j .L80038a58
 .L80038a48: nop
 .L80038a4c: ori $a0, 0x9
-.L80038a50: jal F0x8002bacc
+.L80038a50: jal DeliverEvent
 .L80038a54: li $a1, 32
 .L80038a58: lw $ra, 16($sp)
 .L80038a5c: addiu $sp, 24
@@ -45196,7 +45192,7 @@ F0x8003a46c:
 .L8003a590: lui $a0, 0x8006
 .L8003a594: lw $a0, -15864($a0)
 .L8003a598: addiu $s1, -1024
-.L8003a59c: jal F0x8003a60c
+.L8003a59c: jal WaitEvent
 .L8003a5a0: addiu $s2, 1024
 .L8003a5a4: bnez $s3, .L8003a558
 .L8003a5a8: sltiu $v0, $s1, 1025
@@ -45225,9 +45221,9 @@ F0x8003a46c:
 .L8003a604: nop
 .L8003a608: nop
 
-.global F0x8003a60c
-F0x8003a60c:
-bios_jump 0xb0, 0x0a
+.global WaitEvent
+WaitEvent:
+	bios_jump 0xb0, 0x0a
 
 .global F0x8003a61c
 F0x8003a61c:
@@ -45431,7 +45427,7 @@ F0x8003a8cc:
 .L8003a908: li $v0, 1
 .L8003a90c: lui $a0, 0x8006
 .L8003a910: lw $a0, -15864($a0)
-.L8003a914: jal F0x8003a97c
+.L8003a914: jal TestEvent
 .L8003a918: nop
 .L8003a91c: bne $s1, $s0, .L8003a94c
 .L8003a920: nop
@@ -45439,7 +45435,7 @@ F0x8003a8cc:
 .L8003a928: li $v0, 1
 .L8003a92c: lui $a0, 0x8006
 .L8003a930: lw $a0, -15864($a0)
-.L8003a934: jal F0x8003a97c
+.L8003a934: jal TestEvent
 .L8003a938: nop
 .L8003a93c: beqz $v0, .L8003a92c
 .L8003a940: li $v0, 1
@@ -45458,9 +45454,9 @@ F0x8003a8cc:
 .L8003a974: nop
 .L8003a978: nop
 
-.global F0x8003a97c
-F0x8003a97c:
-bios_jump 0xb0, 0x0b
+.global TestEvent
+TestEvent:
+	bios_jump 0xb0, 0x0b
 
 .global F0x8003a98c
 F0x8003a98c:
@@ -46335,7 +46331,7 @@ F0x8003b56c:
 .L8003b578: nop
 .L8003b57c: jal F0x8003b65c
 .L8003b580: nop
-.L8003b584: jal F0x8003b5bc
+.L8003b584: jal _bu_init
 .L8003b588: nop
 .L8003b58c: lw $ra, 16($sp)
 .L8003b590: addiu $sp, 24
@@ -46350,9 +46346,9 @@ F0x8003b56c:
 .L8003b5b4: jr $ra
 .L8003b5b8: nop
 
-.global F0x8003b5bc
-F0x8003b5bc:
-bios_jump 0xa0, 0x70
+.global _bu_init
+_bu_init:
+	bios_jump 0xa0, 0x70
 
 .global F0x8003b5cc
 F0x8003b5cc:
@@ -46361,7 +46357,7 @@ F0x8003b5cc:
 .L8003b5d4: move_ $s0, $a0
 .L8003b5d8: move_ $a0, $zr
 .L8003b5dc: sw $ra, 24($sp)
-.L8003b5e0: jal F0x8002ea0c
+.L8003b5e0: jal ChangeClearPad
 .L8003b5e4: sw $s1, 20($sp)
 .L8003b5e8: jal F0x8002e7fc
 .L8003b5ec: move_ $a0, $zr
@@ -46372,7 +46368,7 @@ F0x8003b5cc:
 .L8003b600: bnez $v0, .L8003b60c
 .L8003b604: nop
 .L8003b608: move_ $s0, $zr
-.L8003b60c: jal F0x8003ba9c
+.L8003b60c: jal InitCard
 .L8003b610: move_ $a0, $s0
 .L8003b614: jal F0x8003bcac
 .L8003b618: nop
@@ -46399,9 +46395,9 @@ F0x8003b65c:
 .L8003b660: sw $ra, 20($sp)
 .L8003b664: jal F0x8002508c
 .L8003b668: sw $s0, 16($sp)
-.L8003b66c: jal F0x8003baac
+.L8003b66c: jal StartCard
 .L8003b670: move_ $s0, $v0
-.L8003b674: jal F0x8002ea0c
+.L8003b674: jal ChangeClearPad
 .L8003b678: move_ $a0, $zr
 .L8003b67c: li $v0, 1
 .L8003b680: bne $s0, $v0, .L8003b694
@@ -46418,7 +46414,7 @@ F0x8003b65c:
 F0x8003b6a4:
 .L8003b6a4: addiu $sp, -24
 .L8003b6a8: sw $ra, 16($sp)
-.L8003b6ac: jal F0x8003babc
+.L8003b6ac: jal StopCard
 .L8003b6b0: nop
 .L8003b6b4: jal F0x8003bcec
 .L8003b6b8: nop
@@ -46453,14 +46449,14 @@ F0x8003b6d8:
 .L8003b720: nop
 .L8003b724: jal F0x8002509c
 .L8003b728: nop
-.L8003b72c: jal F0x8002ea0c
+.L8003b72c: jal ChangeClearPad
 .L8003b730: move_ $a0, $zr
 .L8003b734: jal F0x8003b838
 .L8003b738: nop
 .L8003b73c: move_ $a0, $s0
 .L8003b740: move_ $a1, $s1
 .L8003b744: move_ $a2, $s2
-.L8003b748: jal F0x8003b97c
+.L8003b748: jal OutdatedPadInitAndStart
 .L8003b74c: move_ $a3, $s3
 .L8003b750: li $v0, 1
 .L8003b754: lui $at, 0x8006
@@ -46489,14 +46485,14 @@ F0x8003b6d8:
 .L8003b7b0: nop
 .L8003b7b4: jal F0x8002509c
 .L8003b7b8: nop
-.L8003b7bc: jal F0x8002ea0c
+.L8003b7bc: jal ChangeClearPad
 .L8003b7c0: move_ $a0, $zr
 .L8003b7c4: jal F0x8003b838
 .L8003b7c8: nop
 .L8003b7cc: move_ $a0, $s0
 .L8003b7d0: move_ $a1, $s1
 .L8003b7d4: move_ $a2, $s2
-.L8003b7d8: jal F0x8003b95c
+.L8003b7d8: jal InitPad
 .L8003b7dc: move_ $a3, $s3
 .L8003b7e0: li $v0, 1
 .L8003b7e4: lui $at, 0x8006
@@ -46510,9 +46506,9 @@ F0x8003b6d8:
 .L8003b804: addiu $sp, 40
 .L8003b808: addiu $sp, -24
 .L8003b80c: sw $ra, 16($sp)
-.L8003b810: jal F0x8003b96c
+.L8003b810: jal StartPad
 .L8003b814: nop
-.L8003b818: jal F0x8002ea0c
+.L8003b818: jal ChangeClearPad
 .L8003b81c: move_ $a0, $zr
 .L8003b820: jal F0x8003b98c
 .L8003b824: nop
@@ -46538,10 +46534,10 @@ F0x8003b838:
 .L8003b874: sw $zr, 10320($at)
 .L8003b878: lui $at, 0x8008
 .L8003b87c: sw $zr, 10332($at)
-.L8003b880: jal F0x800250fc
+.L8003b880: jal SysDeqIntRP
 .L8003b884: move_ $a1, $s0
 .L8003b888: li $a0, 1
-.L8003b88c: jal F0x800250ec
+.L8003b88c: jal SysEnqIntRP
 .L8003b890: move_ $a1, $s0
 .L8003b894: jal F0x8002509c
 .L8003b898: nop
@@ -46600,17 +46596,17 @@ F0x8003b918:
 .L8003b954: nop
 .L8003b958: nop
 
-.global F0x8003b95c
-F0x8003b95c:
-bios_jump 0xb0, 0x12
+.global InitPad
+InitPad:
+	bios_jump 0xb0, 0x12
 
-.global F0x8003b96c
-F0x8003b96c:
-bios_jump 0xb0, 0x13
+.global StartPad
+StartPad:
+	bios_jump 0xb0, 0x13
 
-.global F0x8003b97c
-F0x8003b97c:
-bios_jump 0xb0, 0x15
+.global OutdatedPadInitAndStart
+OutdatedPadInitAndStart:
+	bios_jump 0xb0, 0x15
 
 .global F0x8003b98c
 F0x8003b98c:
@@ -46648,7 +46644,7 @@ F0x8003b9b4:
 .L8003b9fc: addiu $t1, -1
 .L8003ba00: bnez $t1, .L8003b9f4
 .L8003ba04: nop
-.L8003ba08: jal F0x8002b93c
+.L8003ba08: jal FlushCache
 .L8003ba0c: nop
 .L8003ba10: lui $ra, 0x8008
 .L8003ba14: lw $ra, 10336($ra)
@@ -46677,7 +46673,7 @@ F0x8003ba2c:
 .L8003ba64: addiu $t2, -1
 .L8003ba68: bnez $t2, .L8003ba5c
 .L8003ba6c: nop
-.L8003ba70: jal F0x8002b93c
+.L8003ba70: jal FlushCache
 .L8003ba74: nop
 .L8003ba78: jal F0x8002509c
 .L8003ba7c: nop
@@ -46689,17 +46685,17 @@ F0x8003ba2c:
 .L8003ba94: nop
 .L8003ba98: nop
 
-.global F0x8003ba9c
-F0x8003ba9c:
-bios_jump 0xb0, 0x4a
+.global InitCard
+InitCard:
+	bios_jump 0xb0, 0x4a
 
-.global F0x8003baac
-F0x8003baac:
-bios_jump 0xb0, 0x4b
+.global StartCard
+StartCard:
+	bios_jump 0xb0, 0x4b
 
-.global F0x8003babc
-F0x8003babc:
-bios_jump 0xb0, 0x4c
+.global StopCard
+StopCard:
+	bios_jump 0xb0, 0x4c
 
 .global F0x8003bacc
 F0x8003bacc:
@@ -46713,7 +46709,7 @@ F0x8003bacc:
 .L8003bae8: lw $v0, 364($v0)
 .L8003baec: nop
 .L8003baf0: addi $v1, $v0, 6536
-.L8003baf4: jal F0x8002b93c
+.L8003baf4: jal FlushCache
 .L8003baf8: sw $zr, 0($v1)
 .L8003bafc: lui $ra, 0x8008
 .L8003bb00: lw $ra, 10368($ra)
@@ -46796,7 +46792,7 @@ F0x8003bba8:
 .L8003bc14: bne $t2, $t1, .L8003bc04
 .L8003bc18: addiu $v0, 4
 .L8003bc1c: lui $at, 0x1
-.L8003bc20: jal F0x8002b93c
+.L8003bc20: jal FlushCache
 .L8003bc24: sw $v0, -8196($at)
 .L8003bc28: lui $ra, 0x8008
 .L8003bc2c: lw $ra, 10368($ra)
@@ -46825,7 +46821,7 @@ F0x8003bc3c:
 .L8003bc84: addiu $t2, 4
 .L8003bc88: bne $t2, $t1, .L8003bc78
 .L8003bc8c: addiu $v0, 4
-.L8003bc90: jal F0x8002b93c
+.L8003bc90: jal FlushCache
 .L8003bc94: nop
 .L8003bc98: lui $ra, 0x8008
 .L8003bc9c: lw $ra, 10368($ra)
@@ -46869,7 +46865,7 @@ F0x8003bcec:
 .L8003bd2c: addiu $t2, 4
 .L8003bd30: bne $t2, $t1, .L8003bd20
 .L8003bd34: addiu $v0, 4
-.L8003bd38: jal F0x8002b93c
+.L8003bd38: jal FlushCache
 .L8003bd3c: nop
 .L8003bd40: jal F0x8002509c
 .L8003bd44: nop
@@ -47030,7 +47026,7 @@ F0x8003bee0:
 .L8003bf80: nop
 .L8003bf84: lui $a0, 0x8008
 .L8003bf88: lw $a0, 10464($a0)
-.L8003bf8c: jal F0x8003da2c
+.L8003bf8c: jal _card_info
 .L8003bf90: nop
 .L8003bf94: lw $v0, 0($s0)
 .L8003bf98: nop
@@ -47304,7 +47300,7 @@ F0x8003c388:
 .L8003c38c: nop
 .L8003c390: lui $a0, 0x8008
 .L8003c394: lw $a0, 10464($a0)
-.L8003c398: jal F0x8003da3c
+.L8003c398: jal _card_async_load_directory
 .L8003c39c: nop
 .L8003c3a0: lw $v0, 0($s0)
 .L8003c3a4: j .L8003c4f0
@@ -47350,7 +47346,7 @@ F0x8003c3ac:
 .L8003c43c: nop
 .L8003c440: lui $a0, 0x8008
 .L8003c444: lw $a0, 10464($a0)
-.L8003c448: jal F0x8003da2c
+.L8003c448: jal _card_info
 .L8003c44c: nop
 .L8003c450: j .L8003c4f0
 .L8003c454: li $v0, 50
@@ -47435,7 +47431,7 @@ F0x8003c4f4:
 .L8003c584: addiu $s4, $s1, -20
 .L8003c588: li $s1, 2
 .L8003c58c: move_ $a0, $s0
-.L8003c590: jal F0x800250ac
+.L8003c590: jal fopen
 .L8003c594: li $a1, 1
 .L8003c598: bgez $v0, .L8003c64c
 .L8003c59c: nop
@@ -47481,12 +47477,12 @@ F0x8003c4f4:
 .L8003c640: lw $v0, 16($sp)
 .L8003c644: j .L8003c670
 .L8003c648: nop
-.L8003c64c: jal F0x800250dc
+.L8003c64c: jal fclose
 .L8003c650: move_ $a0, $v0
 .L8003c654: jal F0x8003df3c
 .L8003c658: nop
 .L8003c65c: move_ $a0, $s0
-.L8003c660: jal F0x800250ac
+.L8003c660: jal fopen
 .L8003c664: ori $a1, $s5, 0x8000
 .L8003c668: sw $v0, -16($s0)
 .L8003c66c: move_ $v0, $zr
@@ -47507,7 +47503,7 @@ F0x8003c4f4:
 .L8003c6ac: nop
 .L8003c6b0: bltz $a0, .L8003c6c8
 .L8003c6b4: nop
-.L8003c6b8: jal F0x800250dc
+.L8003c6b8: jal fclose
 .L8003c6bc: nop
 .L8003c6c0: li $v0, -1
 .L8003c6c4: sw $v0, 0($s0)
@@ -47597,7 +47593,7 @@ F0x8003c790:
 .L8003c81c: addiu $s0, $a0, 16
 .L8003c820: lw $a0, 0($s0)
 .L8003c824: lw $a1, 4($s0)
-.L8003c828: jal F0x8003d63c
+.L8003c828: jal fseek
 .L8003c82c: move_ $a2, $zr
 .L8003c830: lw $v1, 4($s0)
 .L8003c834: nop
@@ -47609,7 +47605,7 @@ F0x8003c790:
 .L8003c850: lw $a0, 0($s0)
 .L8003c854: lw $a1, 12($s0)
 .L8003c858: lw $a2, 8($s0)
-.L8003c85c: jal F0x800250bc
+.L8003c85c: jal fread
 .L8003c860: nop
 .L8003c864: bnez $v0, .L8003c850
 .L8003c868: li $v0, 30
@@ -47746,7 +47742,7 @@ F0x8003c9f8:
 .L8003ca80: addiu $s0, $a0, 16
 .L8003ca84: lw $a0, 0($s0)
 .L8003ca88: lw $a1, 4($s0)
-.L8003ca8c: jal F0x8003d63c
+.L8003ca8c: jal fseek
 .L8003ca90: move_ $a2, $zr
 .L8003ca94: lw $v1, 4($s0)
 .L8003ca98: nop
@@ -47758,7 +47754,7 @@ F0x8003c9f8:
 .L8003cab4: lw $a0, 0($s0)
 .L8003cab8: lw $a1, 12($s0)
 .L8003cabc: lw $a2, 8($s0)
-.L8003cac0: jal F0x800250cc
+.L8003cac0: jal fwrite
 .L8003cac4: nop
 .L8003cac8: bnez $v0, .L8003cab4
 .L8003cacc: li $v0, 30
@@ -47920,7 +47916,7 @@ F0x8003ccbc:
 .L8003cd3c: bnez $v0, .L8003cdb0
 .L8003cd40: li $v0, 1
 .L8003cd44: addiu $a0, $s0, 32
-.L8003cd48: jal F0x800250ac
+.L8003cd48: jal fopen
 .L8003cd4c: li $a1, 0x8001
 .L8003cd50: bgez $v0, .L8003cd6c
 .L8003cd54: sw $v0, 16($s0)
@@ -47937,7 +47933,7 @@ F0x8003ccbc:
 .L8003cd84: move_ $v0, $zr
 .L8003cd88: la_ $s0, D0x800828e4
 .L8003cd90: lw $a0, 0($s0)
-.L8003cd94: jal F0x800250dc
+.L8003cd94: jal fclose
 .L8003cd98: nop
 .L8003cd9c: li $v0, 1
 .L8003cda0: li $v1, -1
@@ -48055,7 +48051,7 @@ F0x8003cedc:
 .L8003cf5c: bnez $v0, .L8003cfd0
 .L8003cf60: li $v0, 1
 .L8003cf64: addiu $a0, $s0, 32
-.L8003cf68: jal F0x800250ac
+.L8003cf68: jal fopen
 .L8003cf6c: li $a1, 0x8001
 .L8003cf70: bgez $v0, .L8003cf8c
 .L8003cf74: sw $v0, 16($s0)
@@ -48072,7 +48068,7 @@ F0x8003cedc:
 .L8003cfa4: move_ $v0, $zr
 .L8003cfa8: la_ $s0, D0x800828e4
 .L8003cfb0: lw $a0, 0($s0)
-.L8003cfb4: jal F0x800250dc
+.L8003cfb4: jal fclose
 .L8003cfb8: nop
 .L8003cfbc: li $v0, 1
 .L8003cfc0: li $v1, -1
@@ -48184,7 +48180,7 @@ F0x8003cfe4:
 .L8003d164: lw $v0, 88($sp)
 .L8003d168: j .L8003d210
 .L8003d16c: nop
-.L8003d170: jal F0x8003d64c
+.L8003d170: jal nextfile
 .L8003d174: addiu $a0, $sp, 48
 .L8003d178: move_ $s0, $v0
 .L8003d17c: beqz $s0, .L8003d1fc
@@ -48500,13 +48496,13 @@ F0x8003d5e0:
 .L8003d634: jr $ra
 .L8003d638: sb $v0, 3($a3)
 
-.global F0x8003d63c
-F0x8003d63c:
-bios_jump 0xb0, 0x33
+.global fseek
+fseek:
+	bios_jump 0xb0, 0x33
 
-.global F0x8003d64c
-F0x8003d64c:
-bios_jump 0xb0, 0x43
+.global nextfile
+nextfile:
+	bios_jump 0xb0, 0x43
 
 .global F0x8003d65c
 F0x8003d65c:
@@ -48602,7 +48598,7 @@ F0x8003d65c:
 .L8003d7c8: bnez $v0, .L8003d79c
 .L8003d7cc: nop
 .L8003d7d0: move_ $a0, $s2
-.L8003d7d4: jal F0x8003d8fc
+.L8003d7d4: jal firstfile
 .L8003d7d8: move_ $a1, $s3
 .L8003d7dc: lw $ra, 32($sp)
 .L8003d7e0: lw $s3, 28($sp)
@@ -48680,9 +48676,9 @@ F0x8003d7f8:
 .L8003d8f4: addiu $sp, 48
 .L8003d8f8: nop
 
-.global F0x8003d8fc
-F0x8003d8fc:
-bios_jump 0xb0, 0x42
+.global firstfile
+firstfile:
+	bios_jump 0xb0, 0x42
 
 .global F0x8003d90c
 F0x8003d90c:
@@ -48762,24 +48758,24 @@ F0x8003d9bc:
 .L8003da24: nop
 .L8003da28: nop
 
-.global F0x8003da2c
-F0x8003da2c:
-bios_jump 0xa0, 0xab
+.global _card_info
+_card_info:
+	bios_jump 0xa0, 0xab
 
-.global F0x8003da3c
-F0x8003da3c:
-bios_jump 0xa0, 0xac
+.global _card_async_load_directory
+_card_async_load_directory:
+	bios_jump 0xa0, 0xac
 
 .global F0x8003da4c
 F0x8003da4c:
 .L8003da4c: addiu $sp, -24
 .L8003da50: sw $s0, 16($sp)
 .L8003da54: sw $ra, 20($sp)
-.L8003da58: jal F0x8003da9c
+.L8003da58: jal allow_new_card
 .L8003da5c: move_ $s0, $a0
 .L8003da60: move_ $a0, $s0
 .L8003da64: li $a1, 63
-.L8003da68: jal F0x8003da8c
+.L8003da68: jal write_card_sector
 .L8003da6c: move_ $a2, $zr
 .L8003da70: lw $ra, 20($sp)
 .L8003da74: lw $s0, 16($sp)
@@ -48789,13 +48785,13 @@ F0x8003da4c:
 .L8003da84: nop
 .L8003da88: nop
 
-.global F0x8003da8c
-F0x8003da8c:
-bios_jump 0xb0, 0x4e
+.global write_card_sector
+write_card_sector:
+	bios_jump 0xb0, 0x4e
 
-.global F0x8003da9c
-F0x8003da9c:
-bios_jump 0xb0, 0x50
+.global allow_new_card
+allow_new_card:
+	bios_jump 0xb0, 0x50
 
 .global F0x8003daac
 F0x8003daac:
@@ -48944,7 +48940,7 @@ F0x8003dc48:
 .L8003dc68: nop
 .L8003dc6c: jal F0x8003b65c
 .L8003dc70: nop
-.L8003dc74: jal F0x8003b5bc
+.L8003dc74: jal _bu_init
 .L8003dc78: nop
 .L8003dc7c: lw $ra, 16($sp)
 .L8003dc80: addiu $sp, 24
@@ -48962,7 +48958,7 @@ F0x8003dc8c:
 .L8003dca4: li $a1, 4
 .L8003dca8: li $a2, 4096
 .L8003dcac: la_ $a3, F0x8003dbbc
-.L8003dcb4: jal F0x8003854c
+.L8003dcb4: jal OpenEvent
 .L8003dcb8: move_ $s0, $v0
 .L8003dcbc: lui $a0, 0xf400
 .L8003dcc0: ori $a0, 0x1
@@ -48970,7 +48966,7 @@ F0x8003dc8c:
 .L8003dcc8: la_ $a3, F0x8003dbd0
 .L8003dcd0: lui $at, 0x8008
 .L8003dcd4: sw $v0, 10672($at)
-.L8003dcd8: jal F0x8003854c
+.L8003dcd8: jal OpenEvent
 .L8003dcdc: li $a2, 4096
 .L8003dce0: lui $a0, 0xf400
 .L8003dce4: ori $a0, 0x1
@@ -48978,7 +48974,7 @@ F0x8003dc8c:
 .L8003dcec: la_ $a3, F0x8003dbe4
 .L8003dcf4: lui $at, 0x8008
 .L8003dcf8: sw $v0, 10676($at)
-.L8003dcfc: jal F0x8003854c
+.L8003dcfc: jal OpenEvent
 .L8003dd00: li $a2, 4096
 .L8003dd04: lui $a0, 0xf400
 .L8003dd08: ori $a0, 0x1
@@ -48986,7 +48982,7 @@ F0x8003dc8c:
 .L8003dd10: la_ $a3, F0x8003dbf8
 .L8003dd18: lui $at, 0x8008
 .L8003dd1c: sw $v0, 10680($at)
-.L8003dd20: jal F0x8003854c
+.L8003dd20: jal OpenEvent
 .L8003dd24: li $a2, 4096
 .L8003dd28: lui $a0, 0xf000
 .L8003dd2c: ori $a0, 0x11
@@ -48994,7 +48990,7 @@ F0x8003dc8c:
 .L8003dd34: la_ $a3, F0x8003dc0c
 .L8003dd3c: lui $at, 0x8008
 .L8003dd40: sw $v0, 10684($at)
-.L8003dd44: jal F0x8003854c
+.L8003dd44: jal OpenEvent
 .L8003dd48: li $a2, 4096
 .L8003dd4c: lui $a0, 0xf000
 .L8003dd50: ori $a0, 0x11
@@ -49002,7 +48998,7 @@ F0x8003dc8c:
 .L8003dd58: la_ $a3, F0x8003dc20
 .L8003dd60: lui $at, 0x8008
 .L8003dd64: sw $v0, 10688($at)
-.L8003dd68: jal F0x8003854c
+.L8003dd68: jal OpenEvent
 .L8003dd6c: li $a2, 4096
 .L8003dd70: lui $a0, 0xf000
 .L8003dd74: ori $a0, 0x11
@@ -49010,7 +49006,7 @@ F0x8003dc8c:
 .L8003dd7c: la_ $a3, F0x8003dc34
 .L8003dd84: lui $at, 0x8008
 .L8003dd88: sw $v0, 10692($at)
-.L8003dd8c: jal F0x8003854c
+.L8003dd8c: jal OpenEvent
 .L8003dd90: li $a2, 4096
 .L8003dd94: lui $a0, 0xf000
 .L8003dd98: ori $a0, 0x11
@@ -49018,40 +49014,40 @@ F0x8003dc8c:
 .L8003dda0: la_ $a3, F0x8003dc48
 .L8003dda8: lui $at, 0x8008
 .L8003ddac: sw $v0, 10696($at)
-.L8003ddb0: jal F0x8003854c
+.L8003ddb0: jal OpenEvent
 .L8003ddb4: li $a2, 4096
 .L8003ddb8: lui $a0, 0x8008
 .L8003ddbc: lw $a0, 10672($a0)
 .L8003ddc0: lui $at, 0x8008
-.L8003ddc4: jal F0x8003855c
+.L8003ddc4: jal EnableEvent
 .L8003ddc8: sw $v0, 10700($at)
 .L8003ddcc: lui $a0, 0x8008
 .L8003ddd0: lw $a0, 10676($a0)
-.L8003ddd4: jal F0x8003855c
+.L8003ddd4: jal EnableEvent
 .L8003ddd8: nop
 .L8003dddc: lui $a0, 0x8008
 .L8003dde0: lw $a0, 10680($a0)
-.L8003dde4: jal F0x8003855c
+.L8003dde4: jal EnableEvent
 .L8003dde8: nop
 .L8003ddec: lui $a0, 0x8008
 .L8003ddf0: lw $a0, 10684($a0)
-.L8003ddf4: jal F0x8003855c
+.L8003ddf4: jal EnableEvent
 .L8003ddf8: nop
 .L8003ddfc: lui $a0, 0x8008
 .L8003de00: lw $a0, 10688($a0)
-.L8003de04: jal F0x8003855c
+.L8003de04: jal EnableEvent
 .L8003de08: nop
 .L8003de0c: lui $a0, 0x8008
 .L8003de10: lw $a0, 10692($a0)
-.L8003de14: jal F0x8003855c
+.L8003de14: jal EnableEvent
 .L8003de18: nop
 .L8003de1c: lui $a0, 0x8008
 .L8003de20: lw $a0, 10696($a0)
-.L8003de24: jal F0x8003855c
+.L8003de24: jal EnableEvent
 .L8003de28: nop
 .L8003de2c: lui $a0, 0x8008
 .L8003de30: lw $a0, 10700($a0)
-.L8003de34: jal F0x8003855c
+.L8003de34: jal EnableEvent
 .L8003de38: nop
 .L8003de3c: jal F0x8003df3c
 .L8003de40: nop
@@ -49081,35 +49077,35 @@ F0x8003de88:
 .L8003de94: sw $s0, 16($sp)
 .L8003de98: lui $a0, 0x8008
 .L8003de9c: lw $a0, 10672($a0)
-.L8003dea0: jal F0x8003e26c
+.L8003dea0: jal CloseEvent
 .L8003dea4: move_ $s0, $v0
 .L8003dea8: lui $a0, 0x8008
 .L8003deac: lw $a0, 10676($a0)
-.L8003deb0: jal F0x8003e26c
+.L8003deb0: jal CloseEvent
 .L8003deb4: nop
 .L8003deb8: lui $a0, 0x8008
 .L8003debc: lw $a0, 10680($a0)
-.L8003dec0: jal F0x8003e26c
+.L8003dec0: jal CloseEvent
 .L8003dec4: nop
 .L8003dec8: lui $a0, 0x8008
 .L8003decc: lw $a0, 10684($a0)
-.L8003ded0: jal F0x8003e26c
+.L8003ded0: jal CloseEvent
 .L8003ded4: nop
 .L8003ded8: lui $a0, 0x8008
 .L8003dedc: lw $a0, 10688($a0)
-.L8003dee0: jal F0x8003e26c
+.L8003dee0: jal CloseEvent
 .L8003dee4: nop
 .L8003dee8: lui $a0, 0x8008
 .L8003deec: lw $a0, 10692($a0)
-.L8003def0: jal F0x8003e26c
+.L8003def0: jal CloseEvent
 .L8003def4: nop
 .L8003def8: lui $a0, 0x8008
 .L8003defc: lw $a0, 10696($a0)
-.L8003df00: jal F0x8003e26c
+.L8003df00: jal CloseEvent
 .L8003df04: nop
 .L8003df08: lui $a0, 0x8008
 .L8003df0c: lw $a0, 10700($a0)
-.L8003df10: jal F0x8003e26c
+.L8003df10: jal CloseEvent
 .L8003df14: nop
 .L8003df18: li $v0, 1
 .L8003df1c: bne $s0, $v0, .L8003df2c
@@ -49127,35 +49123,35 @@ F0x8003df3c:
 .L8003df40: lw $a0, 10672($a0)
 .L8003df44: addiu $sp, -24
 .L8003df48: sw $ra, 16($sp)
-.L8003df4c: jal F0x8003a97c
+.L8003df4c: jal TestEvent
 .L8003df50: nop
 .L8003df54: lui $a0, 0x8008
 .L8003df58: lw $a0, 10676($a0)
-.L8003df5c: jal F0x8003a97c
+.L8003df5c: jal TestEvent
 .L8003df60: nop
 .L8003df64: lui $a0, 0x8008
 .L8003df68: lw $a0, 10680($a0)
-.L8003df6c: jal F0x8003a97c
+.L8003df6c: jal TestEvent
 .L8003df70: nop
 .L8003df74: lui $a0, 0x8008
 .L8003df78: lw $a0, 10684($a0)
-.L8003df7c: jal F0x8003a97c
+.L8003df7c: jal TestEvent
 .L8003df80: nop
 .L8003df84: lui $a0, 0x8008
 .L8003df88: lw $a0, 10688($a0)
-.L8003df8c: jal F0x8003a97c
+.L8003df8c: jal TestEvent
 .L8003df90: nop
 .L8003df94: lui $a0, 0x8008
 .L8003df98: lw $a0, 10692($a0)
-.L8003df9c: jal F0x8003a97c
+.L8003df9c: jal TestEvent
 .L8003dfa0: nop
 .L8003dfa4: lui $a0, 0x8008
 .L8003dfa8: lw $a0, 10696($a0)
-.L8003dfac: jal F0x8003a97c
+.L8003dfac: jal TestEvent
 .L8003dfb0: nop
 .L8003dfb4: lui $a0, 0x8008
 .L8003dfb8: lw $a0, 10700($a0)
-.L8003dfbc: jal F0x8003a97c
+.L8003dfbc: jal TestEvent
 .L8003dfc0: nop
 .L8003dfc4: lui $at, 0x8008
 .L8003dfc8: sw $zr, 10716($at)
@@ -49213,19 +49209,19 @@ F0x8003e044:
 .L8003e08c: nop
 .L8003e090: lui $a0, 0x8008
 .L8003e094: lw $a0, 10688($a0)
-.L8003e098: jal F0x8003a97c
+.L8003e098: jal TestEvent
 .L8003e09c: nop
 .L8003e0a0: lui $a0, 0x8008
 .L8003e0a4: lw $a0, 10692($a0)
-.L8003e0a8: jal F0x8003a97c
+.L8003e0a8: jal TestEvent
 .L8003e0ac: nop
 .L8003e0b0: lui $a0, 0x8008
 .L8003e0b4: lw $a0, 10696($a0)
-.L8003e0b8: jal F0x8003a97c
+.L8003e0b8: jal TestEvent
 .L8003e0bc: nop
 .L8003e0c0: lui $a0, 0x8008
 .L8003e0c4: lw $a0, 10700($a0)
-.L8003e0c8: jal F0x8003a97c
+.L8003e0c8: jal TestEvent
 .L8003e0cc: nop
 .L8003e0d0: lui $at, 0x8008
 .L8003e0d4: sw $zr, 10716($at)
@@ -49270,19 +49266,19 @@ F0x8003e11c:
 .L8003e164: nop
 .L8003e168: lui $a0, 0x8008
 .L8003e16c: lw $a0, 10672($a0)
-.L8003e170: jal F0x8003a97c
+.L8003e170: jal TestEvent
 .L8003e174: nop
 .L8003e178: lui $a0, 0x8008
 .L8003e17c: lw $a0, 10676($a0)
-.L8003e180: jal F0x8003a97c
+.L8003e180: jal TestEvent
 .L8003e184: nop
 .L8003e188: lui $a0, 0x8008
 .L8003e18c: lw $a0, 10680($a0)
-.L8003e190: jal F0x8003a97c
+.L8003e190: jal TestEvent
 .L8003e194: nop
 .L8003e198: lui $a0, 0x8008
 .L8003e19c: lw $a0, 10684($a0)
-.L8003e1a0: jal F0x8003a97c
+.L8003e1a0: jal TestEvent
 .L8003e1a4: nop
 .L8003e1a8: lui $at, 0x8008
 .L8003e1ac: sw $zr, 10732($at)
@@ -49340,9 +49336,9 @@ F0x8003e230:
 .L8003e264: jr $ra
 .L8003e268: addu $v0, $a0, $v0
 
-.global F0x8003e26c
-F0x8003e26c:
-bios_jump 0xb0, 0x09
+.global CloseEvent
+CloseEvent:
+	bios_jump 0xb0, 0x09
 
 .global F0x8003e27c
 F0x8003e27c:
@@ -49429,7 +49425,7 @@ F0x8003e27c:
 .L8003e3c4: nop
 .L8003e3c8: move_ $a0, $s4
 .L8003e3cc: la_ $a2, D0x80082c30
-.L8003e3d4: jal F0x8003da8c
+.L8003e3d4: jal write_card_sector
 .L8003e3d8: move_ $a1, $s5
 .L8003e3dc: jal F0x8003e11c
 .L8003e3e0: nop
@@ -49483,7 +49479,7 @@ F0x8003e27c:
 .L8003e4a8: nop
 .L8003e4ac: move_ $a0, $s4
 .L8003e4b0: la_ $a2, D0x80082c30
-.L8003e4b8: jal F0x8003da8c
+.L8003e4b8: jal write_card_sector
 .L8003e4bc: move_ $a1, $s5
 .L8003e4c0: jal F0x8003e11c
 .L8003e4c4: nop
@@ -49530,7 +49526,7 @@ F0x8003e27c:
 .L8003e56c: nop
 .L8003e570: move_ $a0, $s4
 .L8003e574: la_ $a2, D0x80082c30
-.L8003e57c: jal F0x8003da8c
+.L8003e57c: jal write_card_sector
 .L8003e580: move_ $a1, $zr
 .L8003e584: jal F0x8003e11c
 .L8003e588: nop
@@ -49553,7 +49549,7 @@ F0x8003e27c:
 .L8003e5cc: move_ $v0, $s0
 .L8003e5d0: jal F0x8003df3c
 .L8003e5d4: nop
-.L8003e5d8: jal F0x8003da3c
+.L8003e5d8: jal _card_async_load_directory
 .L8003e5dc: move_ $a0, $s4
 .L8003e5e0: jal F0x8003e044
 .L8003e5e4: nop
@@ -49614,7 +49610,7 @@ F0x8003e64c:
 .L8003e6b8: nop
 .L8003e6bc: move_ $a0, $s6
 .L8003e6c0: la_ $a2, D0x80082c30
-.L8003e6c8: jal F0x8003ed0c
+.L8003e6c8: jal read_card_sector
 .L8003e6cc: move_ $a1, $zr
 .L8003e6d0: jal F0x8003e11c
 .L8003e6d4: nop
@@ -49663,7 +49659,7 @@ F0x8003e64c:
 .L8003e788: nop
 .L8003e78c: move_ $a0, $s6
 .L8003e790: la_ $a2, D0x80082c30
-.L8003e798: jal F0x8003ed0c
+.L8003e798: jal read_card_sector
 .L8003e79c: move_ $a1, $s3
 .L8003e7a0: jal F0x8003e11c
 .L8003e7a4: nop
@@ -49943,7 +49939,7 @@ F0x8003e64c:
 .L8003ec08: nop
 .L8003ec0c: move_ $a0, $s6
 .L8003ec10: la_ $a2, D0x80082c30
-.L8003ec18: jal F0x8003da8c
+.L8003ec18: jal write_card_sector
 .L8003ec1c: move_ $a1, $s3
 .L8003ec20: jal F0x8003e11c
 .L8003ec24: nop
@@ -49969,7 +49965,7 @@ F0x8003e64c:
 .L8003ec74: addiu $s4, -32
 .L8003ec78: jal F0x8003df3c
 .L8003ec7c: nop
-.L8003ec80: jal F0x8003da3c
+.L8003ec80: jal _card_async_load_directory
 .L8003ec84: move_ $a0, $s6
 .L8003ec88: jal F0x8003e044
 .L8003ec8c: nop
@@ -50005,9 +50001,9 @@ F0x8003e64c:
 .L8003ed04: nop
 .L8003ed08: nop
 
-.global F0x8003ed0c
-F0x8003ed0c:
-bios_jump 0xb0, 0x4f
+.global read_card_sector
+read_card_sector:
+	bios_jump 0xb0, 0x4f
 
 .global F0x8003ed1c
 F0x8003ed1c:
@@ -50037,11 +50033,11 @@ F0x8003ed1c:
 .L8003ed78: move_ $s0, $zr
 .L8003ed7c: jal F0x8003df3c
 .L8003ed80: nop
-.L8003ed84: jal F0x8003da9c
+.L8003ed84: jal allow_new_card
 .L8003ed88: nop
 .L8003ed8c: move_ $a0, $s1
 .L8003ed90: move_ $a1, $s0
-.L8003ed94: jal F0x8003da8c
+.L8003ed94: jal write_card_sector
 .L8003ed98: addiu $a2, $sp, 16
 .L8003ed9c: jal F0x8003e11c
 .L8003eda0: nop
