@@ -5895,8 +5895,8 @@ F0x80015754:
 
 .global F0x800157a0
 F0x800157a0:
-.L800157a0: lui $v0, %hi(D0x8004b374)
-.L800157a4: lw $v0, %lo(D0x8004b374)($v0)
+.L800157a0: lui $v0, %hi(DIGIMON_CUR_STATS + 0x3dc * 8 - 8)
+.L800157a4: lw $v0, %lo(DIGIMON_CUR_STATS + 0x3dc * 8 - 8)($v0)
 .L800157a8: nop
 .L800157ac: bne $v0, $s2, .L80015a8c
 .L800157b0: move_ $v0, $s4
@@ -6560,7 +6560,7 @@ F0x80016124:
 .L80016138: sll $v0, 0x3
 .L8001613c: subu $v0, $a0
 .L80016140: sll $v0, 0x2
-.L80016144: la_ $v1, D0x8004949c
+.L80016144: la_ $v1, DIGIMON_CUR_STATS
 .L8001614c: sw $s0, 16($sp)
 .L80016150: addu $s0, $v0, $v1
 .L80016154: lui $v0, 0x8004
@@ -6872,7 +6872,7 @@ F0x800165ac:
 .L800165f0: li $v0, 2
 .L800165f4: bne $s1, $v0, .L80016614
 .L800165f8: li $v0, 4
-.L800165fc: la_ $a0, D0x8004b378
+.L800165fc: la_ $a0, DIGIMON_CUR_STATS + 0x3dc * 8 - 4
 .L80016604: move_ $a1, $s0
 .L80016608: jal F0x800155d4
 .L8001660c: move_ $a2, $s2
@@ -7562,7 +7562,7 @@ F0x80017028:
 .L80017030: sll $v0, 0x3
 .L80017034: subu $v0, $a0
 .L80017038: sll $v0, 0x2
-.L8001703c: la_ $v1, D0x8004949c
+.L8001703c: la_ $v1, DIGIMON_CUR_STATS
 .L80017044: addu $v0, $v1
 .L80017048: addiu $a0, $v0, 28
 .L8001704c: sltiu $v0, $a1, 19
@@ -7604,7 +7604,7 @@ F0x800170c8:
 .L800170d0: sll $v0, 0x3
 .L800170d4: subu $v0, $a0
 .L800170d8: sll $v0, 0x2
-.L800170dc: la_ $v1, D0x8004949c
+.L800170dc: la_ $v1, DIGIMON_CUR_STATS
 .L800170e4: addu $v0, $v1
 .L800170e8: addiu $a0, $v0, 28
 .L800170ec: sltiu $v0, $a1, 19
@@ -7721,7 +7721,7 @@ F0x80017174:
 .L800172a0: sll $v0, 0x3
 .L800172a4: subu $v0, $s7
 .L800172a8: sll $v0, 0x2
-.L800172ac: la_ $v1, D0x8004949c
+.L800172ac: la_ $v1, DIGIMON_CUR_STATS
 .L800172b4: addu $v0, $v1
 .L800172b8: addiu $s6, $v0, 960
 .L800172bc: move_ $s5, $s6
@@ -8301,7 +8301,7 @@ F0x80017b4c:
 .L80017b54: sll $v0, 0x3
 .L80017b58: subu $v0, $a0
 .L80017b5c: sll $v0, 0x2
-.L80017b60: la_ $v1, D0x8004949c
+.L80017b60: la_ $v1, DIGIMON_CUR_STATS
 .L80017b68: jr $ra
 .L80017b6c: addu $v0, $v1
 
