@@ -5,20 +5,21 @@
 .global f10
 f10:
 offset=$a0
-offset_bytes=$v0
+item_idx=$s1
 
 	addiu $sp, -32
 	sw $s1, 20($sp)
 	move_ $s1, $a1
 
 	# `offset_bytes = offset * 0x3dc`
+offset_bytes=$v0
 	sll  offset_bytes, offset, 0x5
 	subu offset_bytes, offset
 	sll  offset_bytes, 0x3
 	subu offset_bytes, offset
 	sll  offset_bytes, 0x2
 
-	# `$s0 = &DIGIMON_CUR_STATS[offset]`
+	# `stats = &DIGIMON_CUR_STATS[offset]`
 stats=$s0
 	la_ $v1, DIGIMON_CUR_STATS
 	sw $s0, 16($sp)
@@ -29,7 +30,7 @@ stats=$s0
 	lw $v0, %lo(D0x80042b98)($v0)
 	sw $ra, 24($sp)
 	jalr $v0
-	move_ $a0, $s1
+	move_ $a0, item_idx
 
 	# `$v1 = &stats.items`
 cur_item=$v1

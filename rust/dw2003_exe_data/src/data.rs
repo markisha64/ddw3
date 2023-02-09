@@ -197,28 +197,7 @@ pub struct Unknown4 {
 
 	exp: u32,  // 0x18
 
-	un1: u32, // 0x1c
-
-	cur_hp: u16, // 0x20
-	max_hp: u16, // 0x22
-
-	cur_mp: u16, // 0x24
-	max_mp: u16, // 0x26
-
-	stat_str: u16, // 0x28
-	stat_def: u16, // 0x2a
-	stat_spt: u16, // 0x2c
-	stat_wis: u16, // 0x2e
-	stat_spd: u16, // 0x30
-	stat_chr: u16, // 0x32
-
-	stat_fire:    u16, // 0x34
-	stat_water:   u16, // 0x36
-	stat_ice:     u16, // 0x38
-	stat_wind:    u16, // 0x3a
-	stat_thunder: u16, // 0x3c
-	stat_machine: u16, // 0x3e
-	stat_dark:    u16, // 0x40
+	stats: Unknown4Stats, // 0x1c
 
 	un2: u16,         // 0x42
 	un3: [u32; 0xdf], // 0x44
@@ -229,40 +208,71 @@ pub struct Unknown4 {
 }
 
 #[repr(C)]
+pub struct Unknown4Stats {
+	level: u16, // 0x1c
+	tp   : u16, // 0x1e
+
+	cur_hp: u16, // 0x20
+	max_hp: u16, // 0x22
+
+	cur_mp: u16, // 0x24
+	max_mp: u16, // 0x26
+
+	cur_str: u16, // 0x28
+	cur_def: u16, // 0x2a
+	cur_spt: u16, // 0x2c
+	cur_wis: u16, // 0x2e
+	cur_spd: u16, // 0x30
+	cur_chr: u16, // 0x32
+
+	cur_fire:    u16, // 0x34
+	cur_water:   u16, // 0x36
+	cur_ice:     u16, // 0x38
+	cur_wind:    u16, // 0x3a
+	cur_thunder: u16, // 0x3c
+	cur_machine: u16, // 0x3e
+	cur_dark:    u16, // 0x40
+}
+
+#[repr(C)]
 pub struct Unknown4Items {
-	head : u16, // 0x0
-	body : u16, // 0x2
-	right: u16, // 0x4
-	left : u16, // 0x6
-	acc0 : u16, // 0x8
-	acc1 : u16, // 0xa
+	head : u16, // 0x3c0
+	body : u16, // 0x3c2
+	right: u16, // 0x3c4
+	left : u16, // 0x3c6
+	acc0 : u16, // 0x3c8
+	acc1 : u16, // 0x3ca
 }
 
 impl Unknown4 {
 	pub const ZERO: Self = Self {
 		un0: [0; 6],
 		exp: 0,
-		un1: 0,
 
-		cur_hp: 0,
-		max_hp: 0,
-		cur_mp: 0,
-		max_mp: 0,
+		stats: Unknown4Stats {
+			level: 0,
+			tp: 0,
 
-		stat_str: 0,
-		stat_def: 0,
-		stat_spt: 0,
-		stat_wis: 0,
-		stat_spd: 0,
-		stat_chr: 0,
+			cur_hp: 0,
+			max_hp: 0,
+			cur_mp: 0,
+			max_mp: 0,
 
-		stat_fire:    0,
-		stat_water:   0,
-		stat_ice:     0,
-		stat_wind:    0,
-		stat_thunder: 0,
-		stat_machine: 0,
-		stat_dark:    0,
+			cur_str: 0,
+			cur_def: 0,
+			cur_spt: 0,
+			cur_wis: 0,
+			cur_spd: 0,
+			cur_chr: 0,
+
+			cur_fire:    0,
+			cur_water:   0,
+			cur_ice:     0,
+			cur_wind:    0,
+			cur_thunder: 0,
+			cur_machine: 0,
+			cur_dark:    0,
+		},
 
 		un2: 0,
 		un3: [0; 0xdf],
@@ -4696,7 +4706,7 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8004b454: *const u32 = unsafe { &F0x80016e2c };
 	pub static mut D0x8004b458: *const u32 = unsafe { &F0x80016e6c };
 	pub static mut D0x8004b45c: *const u32 = unsafe { &F0x80016fd8 };
-	pub static mut D0x8004b460: *const u32 = unsafe { &F0x80017028 };
+	pub static mut D0x8004b460: *const u32 = unsafe { &f11 };
 	pub static mut D0x8004b464: *const u32 = unsafe { &F0x800170c8 };
 	pub static mut D0x8004b468: *const u32 = unsafe { &F0x80017174 };
 	pub static mut D0x8004b46c: *const u32 = unsafe { &F0x800176ac };
@@ -22550,7 +22560,7 @@ extern "C" {
 	static mut F0x80016f0c: u32;
 	static mut F0x80016f2c: u32;
 	static mut F0x80016fd8: u32;
-	static mut F0x80017028: u32;
+	static mut f11: u32;
 	static mut F0x800170c8: u32;
 	static mut F0x80017174: u32;
 	static mut F0x800176ac: u32;
