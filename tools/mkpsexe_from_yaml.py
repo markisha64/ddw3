@@ -22,8 +22,11 @@ def main(args):
 
 	elf_path = process_path(config["elf"], input_dir)
 	license_path = process_path(config["license"], input_dir)
+	resize_text = config.get("resize_text")
+	resize_args = ["--resize-text", str(resize_text)] if resize_text is not None else []
 
-	subprocess.run([args.mkpsexe_bin, elf_path, "-o", args.output, "--license", license_path])
+	args = [args.mkpsexe_bin, elf_path, "-o", args.output, "--license", license_path] + resize_args
+	subprocess.run(args)
 
 
 if __name__ == "__main__":

@@ -14,6 +14,8 @@ use {
 	ddw3_bytes::BytesWriteExt,
 	goblin::Object,
 	std::{
+		borrow::Cow,
+		cmp::Ordering,
 		fs,
 		io::{Seek, SeekFrom, Write},
 	},
@@ -56,10 +58,28 @@ fn main() -> Result<(), anyhow::Error> {
 	tracing::trace!(?text_header);
 
 	// Get the contents
-	let text_range = text_header
-		.file_range()
-		.context("Unable to get `.text` section's span")?;
-	let text = &input_contents[text_range];
+	let text = {
+		let text_range = text_header
+			.file_range()
+			.context("Unable to get `.text` section's span")?;
+		let text = &input_contents[text_range];
+
+		match args.resize_text {
+			// If we do, truncate / extend the text
+			Some(size) => match size.cmp(&text.len()) {
+				Ordering::Less => Cow::Borrowed(&text[..size]),
+				Ordering::Equal => Cow::Borrowed(text),
+				Ordering::Greater => {
+					let mut text = text.to_vec();
+					text.resize(size, 0);
+					Cow::Owned(text)
+				},
+			},
+
+			// If we don't have an exact size, just use `text`
+			None => Cow::Borrowed(text),
+		}
+	};
 
 	let pc0 = elf.entry.try_into().context("Start address didn't fit into a `u32`")?;
 	let text_base = text_header
@@ -77,7 +97,7 @@ fn main() -> Result<(), anyhow::Error> {
 		.context("Unable to seek past header")?;
 
 	// Write all content and pad to `0x800`
-	output_file.write_all(text).context("Unable to write all data")?;
+	output_file.write_all(&text).context("Unable to write all data")?;
 	let file_size = output_file.stream_len().context("Unable to get output file length")?;
 	if file_size % 0x800 != 0 {
 		let new_file_size = (file_size + 0x7ff) / 0x800 * 0x800;
