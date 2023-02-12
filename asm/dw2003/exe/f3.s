@@ -9,8 +9,7 @@ idx_is_neg=$t0 # bool
 
 	# Return `0x0` if `(idx = 0x7fff_ffff) >= 0x5`
 	# Note: This means `idx` must be within `0x0..0x5` (or `i32::MIN..i32::MIN+0x5`, for some reason)
-	lui $v0, 0x7fff
-	ori $v0, 0xffff
+	li $v0, 0x7fffffff
 	and $v1, $a0, $v0
 	slti $v0, $v1, 0x5
 	bnez $v0, .Lidx_valid

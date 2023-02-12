@@ -9820,7 +9820,8 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x800503c8: u32 = 0x01080600;
 	pub static mut D0x800503cc: u32 = 0xd030a8c0;
 	pub static mut D0x800503d0: u32 = 0x00010808;
-	pub static mut D0x800503d4: u32 = 0xf4010806;
+	pub static mut D0x800503d4: u16 = 0x0806;
+	pub static mut D0x800503d6: u16 = 0xf401;
 	pub static mut D0x800503d8: u32 = 0x08d03047;
 	pub static mut D0x800503dc: u32 = 0x06000108;
 	pub static mut D0x800503e0: u32 = 0xb0e80108;
@@ -10938,7 +10939,7 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x80055cb0: *const [u32; 0x11b ] = unsafe { &D0x80083654 };
 	pub static mut D0x80055cb4: u32 = 0x00000000;
 	pub static mut D0x80055cb8: *const [u32; 0x210 ] = unsafe { &D0x80083bd0 };
-	pub static mut D0x80055cbc: *const [u32; 0xea7 ] = unsafe { &D0x80087cd4 };
+	pub static mut D0x80055cbc: *const [u32; 0x52e ] = unsafe { &D0x80087cd4 };
 	pub static mut D0x80055cc0: *const [u32; 0x2f  ] = unsafe { &D0x80082f6c };
 	pub static mut D0x80055cc4: *const [u32; 0x9cc ] = unsafe { &D0x80084a30 };
 	pub static mut D0x80055cc8: *const [u32; 0x3   ] = unsafe { &D0x80082e8c };
@@ -22392,7 +22393,10 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x80084a30: [u32; 0x9cc ] = [0x00000000; 0x9cc ];
 	pub static mut D0x80087160: [u32; 0x108 ] = [0x00000000; 0x108 ];
 	pub static mut D0x80087580: [u32; 0x1d5 ] = [0x00000000; 0x1d5 ];
-	pub static mut D0x80087cd4: [u32; 0xea7 ] = [0x00000000; 0xea7 ];
+	pub static mut D0x80087cd4: [u32; 0x52e ] = [0x00000000; 0x52e ];
+	pub static mut D0x8008918c: [u32; 0x9   ] = [0x00000000; 0x9   ];
+	pub static mut D0x800891b0: [u32; 0x36  ] = [0x00000000; 0x36  ];
+	pub static mut D0x80089288: [u32; 0x93a ] = [0x00000000; 0x93a ];
 	pub static mut D0x8008b770: [u32; 0x20d ] = [0x00000000; 0x20d ];
 	pub static mut D0x8008bfa4: [u32; 0x17  ] = [0x00000000; 0x17  ];
 	pub static mut D0x8008c000: [u32; 0x278b] = [0x00000000; 0x278b];

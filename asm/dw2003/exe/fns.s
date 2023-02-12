@@ -7221,7 +7221,7 @@ F0x80016bac:
 .L80016bd4: move_ $s1, $zr
 .L80016bd8: la_ $v0, D0x80044b38
 .L80016be0: move_ $s3, $v0
-.L80016be4: lui $a0, 0x8006
+.L80016be4: lui $a0, %hi(D0x8005cca8)
 .L80016be8: lw $a0, %lo(D0x8005cca8)($a0)
 .L80016bec: lw $v0, 0x414($s3)
 .L80016bf0: nop
@@ -7242,7 +7242,7 @@ F0x80016bac:
 .L80016c30: sw $v0, 0x70($s0)
 .L80016c34: sw $v0, 0x74($s0)
 .L80016c38: sw $v0, 0x78($s0)
-.L80016c3c: lui $a0, 0x8006
+.L80016c3c: lui $a0, %hi(D0x8005cca8)
 .L80016c40: lw $a0, %lo(D0x8005cca8)($a0)
 .L80016c44: lw $v0, 0x414($s3)
 .L80016c48: nop
@@ -7267,12 +7267,12 @@ F0x80016bac:
 .L80016c98: nop
 .L80016c9c: jalr $v0
 .L80016ca0: addiu $s3, $s0, 0x768
-.L80016ca4: lui $v0, 0x8004
+.L80016ca4: lui $v0, %hi(D0x80044b38)
 .L80016ca8: addiu $s5, $v0, %lo(D0x80044b38)
-.L80016cac: lui $v0, 0x8004
-.L80016cb0: addiu $s2, $v0, -0x10a4
+.L80016cac: lui $v0, %hi(DIGIMON_PROFILES)
+.L80016cb0: addiu $s2, $v0, %lo(DIGIMON_PROFILES)
 .L80016cb4: move_ $s1, $zr
-.L80016cb8: lui $a0, 0x8006
+.L80016cb8: lui $a0, %hi(D0x8005cca8)
 .L80016cbc: lw $a0, %lo(D0x8005cca8)($a0)
 .L80016cc0: lw $v0, 0x414($s5)
 .L80016cc4: nop
@@ -7344,11 +7344,11 @@ F0x80016d94:
 .global F0x80016dc0
 F0x80016dc0:
 .L80016dc0: move_ $a2, $zr
-.L80016dc4: lui $v0, 0x8005
-.L80016dc8: addiu $t1, $v0, -0x4b70
+.L80016dc4: lui $v0, %hi(D0x8004b490)
+.L80016dc8: addiu $t1, $v0, %lo(D0x8004b490)
 .L80016dcc: sll $v0, $a0, 0x1
 .L80016dd0: addu $a3, $v0, $a0
-.L80016dd4: lui $v0, 0x8005
+.L80016dd4: lui $v0, %hi(D0x80048d34)
 .L80016dd8: addiu $a1, $v0, %lo(D0x80048d34)
 .L80016ddc: move_ $t0, $a1
 .L80016de0: addu $v0, $a2, $a3
@@ -7367,9 +7367,9 @@ F0x80016dc0:
 .L80016e14: slti $v0, $a2, 0x3
 .L80016e18: bnez $v0, .L80016de0
 .L80016e1c: addiu $a1, 0x4
-.L80016e20: lui $v0, 0x8005
+.L80016e20: lui $v0, %hi(DIGIMON_CUR_STATS + 0x3dc * 0x8 - 0x8)
 .L80016e24: jr $ra
-.L80016e28: sw $a0, -0x4c8c($v0)
+.L80016e28: sw $a0, %lo(DIGIMON_CUR_STATS + 0x3dc * 0x8 - 0x8)($v0)
 
 .global F0x80016e2c
 F0x80016e2c:
@@ -7394,9 +7394,9 @@ F0x80016e6c:
 .L80016e6c: addiu $sp, -0x20
 .L80016e70: sw $s0, 0x10($sp)
 .L80016e74: move_ $s0, $zr
-.L80016e78: lui $v0, 0x8005
+.L80016e78: lui $v0, %hi(D0x8004b49c)
 .L80016e7c: sw $s1, 0x14($sp)
-.L80016e80: addiu $s1, $v0, -0x4b64
+.L80016e80: addiu $s1, $v0, %lo(D0x8004b49c)
 .L80016e84: sw $ra, 0x18($sp)
 .L80016e88: lw $a0, ($s1)
 .L80016e8c: addiu $s1, 0x4
@@ -7406,10 +7406,10 @@ F0x80016e6c:
 .L80016e9c: slti $v0, $s0, 0x28
 .L80016ea0: bnez $v0, .L80016e88
 .L80016ea4: move_ $a3, $zr
-.L80016ea8: lui $v0, 0x8005
+.L80016ea8: lui $v0, %hi(D0x80048d34)
 .L80016eac: addiu $t0, $v0, %lo(D0x80048d34)
-.L80016eb0: lui $v0, 0x8005
-.L80016eb4: addiu $t1, $v0, -0x4b64
+.L80016eb0: lui $v0, %hi(D0x8004b49c)
+.L80016eb4: addiu $t1, $v0, %lo(D0x8004b49c)
 .L80016eb8: move_ $a2, $a3
 .L80016ebc: move_ $s0, $zr
 .L80016ec0: move_ $a1, $t1
@@ -7444,7 +7444,7 @@ F0x80016f0c:
 
 .global F0x80016f2c
 F0x80016f2c:
-.L80016f2c: lui $v0, 0x8005
+.L80016f2c: lui $v0, %hi(D0x80048d34)
 .L80016f30: addiu $a0, $v0, %lo(D0x80048d34)
 .L80016f34: lw $v1, 0x48($a0)
 .L80016f38: nop
@@ -7645,8 +7645,8 @@ F0x80017174:
 .L800172c0: lh $a0, ($s5)
 .L800172c4: nop
 .L800172c8: blez $a0, .L80017430
-.L800172cc: lui $v0, 0x8004
-.L800172d0: lw $v0, 0x2b98($v0)
+.L800172cc: lui $v0, %hi(D0x80042b98)
+.L800172d0: lw $v0, %lo(D0x80042b98)($v0)
 .L800172d4: nop
 .L800172d8: jalr $v0
 .L800172dc: nop
@@ -7763,9 +7763,9 @@ F0x80017174:
 .L80017498: sh $v0, 0x14($s3)
 .L8001749c: sll $v0, 0x10
 .L800174a0: bgez $v0, .L800174ac
-.L800174a4: lui $v0, 0x8005
+.L800174a4: lui $v0, %hi(D0x8004b53c)
 .L800174a8: sh $zr, 0x14($s3)
-.L800174ac: addiu $v0, -0x4ac4
+.L800174ac: addiu $v0, %lo(D0x8004b53c)
 .L800174b0: sll $v1, $s7, 0x3
 .L800174b4: addu $a0, $v1, $v0
 .L800174b8: lh $v1, ($s6)
@@ -7788,8 +7788,8 @@ F0x80017174:
 .L800174fc: nop
 .L80017500: bne $v1, $v0, .L80017548
 .L80017504: move_ $s4, $zr
-.L80017508: lui $v0, 0x8005
-.L8001750c: addiu $a2, $v0, -0x4a84
+.L80017508: lui $v0, %hi(D0x8004b57c)
+.L8001750c: addiu $a2, $v0, %lo(D0x8004b57c)
 .L80017510: sll $v0, $s7, 0x1
 .L80017514: addu $v0, $s7
 .L80017518: sll $a1, $v0, 0x2
@@ -7876,7 +7876,7 @@ F0x80017578:
 .global F0x8001764c
 F0x8001764c:
 .L8001764c: move_ $a2, $zr
-.L80017650: lui $v0, 0x8005
+.L80017650: lui $v0, %hi(D0x80048d34)
 .L80017654: addiu $a3, $v0, %lo(D0x80048d34)
 .L80017658: sll $v0, $a0, 0x5
 .L8001765c: subu $v0, $a0
@@ -7911,7 +7911,7 @@ F0x800176ac:
 .L800176c4: move_ $s0, $zr
 .L800176c8: sw $s2, 0x18($sp)
 .L800176cc: move_ $s2, $s0
-.L800176d0: lui $v0, 0x8005
+.L800176d0: lui $v0, %hi(D0x80048d34)
 .L800176d4: sw $s5, 0x24($sp)
 .L800176d8: addiu $s5, $v0, %lo(D0x80048d34)
 .L800176dc: sll $v0, $s4, 0x5
@@ -7983,7 +7983,7 @@ F0x800177d0:
 .L800177d8: move_ $s4, $a0
 .L800177dc: sw $s2, 0x18($sp)
 .L800177e0: move_ $s2, $zr
-.L800177e4: lui $v0, 0x8005
+.L800177e4: lui $v0, %hi(D0x80048d34)
 .L800177e8: sw $s3, 0x1c($sp)
 .L800177ec: addiu $s3, $v0, %lo(D0x80048d34)
 .L800177f0: sll $v0, $s4, 0x5
@@ -8033,7 +8033,7 @@ F0x800177d0:
 F0x80017898:
 .L80017898: move_ $t0, $zr
 .L8001789c: move_ $a2, $t0
-.L800178a0: lui $v0, 0x8005
+.L800178a0: lui $v0, %hi(D0x80048d34)
 .L800178a4: addiu $t1, $v0, %lo(D0x80048d34)
 .L800178a8: sll $v0, $a0, 0x5
 .L800178ac: subu $v0, $a0
@@ -8086,7 +8086,7 @@ F0x80017924:
 .L8001795c: move_ $s0, $a0
 .L80017960: move_ $a0, $zr
 .L80017964: li $s0, -0x1
-.L80017968: lui $v0, 0x8005
+.L80017968: lui $v0, %hi(D0x80048d34)
 .L8001796c: addiu $a1, $v0, %lo(D0x80048d34)
 .L80017970: sll $v0, $s1, 0x5
 .L80017974: subu $v0, $s1
@@ -8105,8 +8105,8 @@ F0x80017924:
 .L800179a8: li $v0, -0x1
 .L800179ac: beq $s0, $v0, .L80017a04
 .L800179b0: move_ $v0, $zr
-.L800179b4: lui $v0, 0x8006
-.L800179b8: lw $v0, -0x3360($v0)
+.L800179b4: lui $v0, %hi(D0x8005cca0)
+.L800179b8: lw $v0, %lo(D0x8005cca0)($v0)
 .L800179bc: nop
 .L800179c0: jalr $v0
 .L800179c4: move_ $a0, $s2
@@ -8260,9 +8260,9 @@ F0x80017bdc:
 .global F0x80017be4
 F0x80017be4:
 .L80017be4: addiu $sp, -0x20
-.L80017be8: lui $v0, 0x8005
+.L80017be8: lui $v0, %hi(D0x8004b5e0)
 .L80017bec: sw $s0, 0x10($sp)
-.L80017bf0: lw $s0, -0x4a20($v0)
+.L80017bf0: lw $s0, %lo(D0x8004b5e0)($v0)
 .L80017bf4: sw $s2, 0x18($sp)
 .L80017bf8: sw $ra, 0x1c($sp)
 .L80017bfc: sw $s1, 0x14($sp)
@@ -8292,13 +8292,11 @@ F0x80017be4:
 
 .global F0x80017c5c
 F0x80017c5c:
-.L80017c5c: lui $v1, 0x801f
-.L80017c60: ori $v1, 0xf000
-.L80017c64: lui $a1, 0x801f
-.L80017c68: ori $a1, 0xeff4
-.L80017c6c: lui $a2, 0x8005
-.L80017c70: lui $v0, 0x8006
-.L80017c74: lw $v0, -0x34b0($v0)
+.L80017c5c: li $v1, 0x801ff000
+.L80017c64: li $a1, 0x801feff4
+.L80017c6c: lui $a2, %hi(D0x8004b5dc)
+.L80017c70: lui $v0, %hi(D0x8005cb50)
+.L80017c74: lw $v0, %lo(D0x8005cb50)($v0)
 .L80017c78: addiu $a0, $a2, %lo(D0x8004b5dc)
 .L80017c7c: sw $v1, 0x8($a0)
 .L80017c80: subu $v1, $v0
@@ -8353,11 +8351,11 @@ F0x80017d08:
 
 .global F0x80017d2c
 F0x80017d2c:
-.L80017d2c: lui $v0, 0x8005
+.L80017d2c: lui $v0, %hi(D0x8004b5e0)
 .L80017d30: addiu $a0, 0x3
 .L80017d34: srl $a0, 0x2
 .L80017d38: sll $a0, 0x2
-.L80017d3c: lw $a2, -0x4a20($v0)
+.L80017d3c: lw $a2, %lo(D0x8004b5e0)($v0)
 .L80017d40: nop
 .L80017d44: lw $v1, 0x8($a2)
 .L80017d48: li $v0, 0x1
@@ -8400,7 +8398,7 @@ F0x80017d2c:
 
 .global F0x80017ddc
 F0x80017ddc:
-.L80017ddc: lui $v0, 0x8005
+.L80017ddc: lui $v0, %hi(D0x8004b5dc)
 .L80017de0: addiu $v1, $v0, %lo(D0x8004b5dc)
 .L80017de4: addiu $a0, 0x3
 .L80017de8: srl $a0, 0x2
@@ -8450,7 +8448,7 @@ F0x80017e84:
 .L80017e8c: move_ $s1, $a0
 .L80017e90: sw $s2, 0x18($sp)
 .L80017e94: move_ $s2, $a1
-.L80017e98: lui $v0, 0x8004
+.L80017e98: lui $v0, %hi(D0x80044b38)
 .L80017e9c: sw $s0, 0x10($sp)
 .L80017ea0: addiu $s0, $v0, %lo(D0x80044b38)
 .L80017ea4: sw $ra, 0x1c($sp)
@@ -8479,7 +8477,7 @@ F0x80017eec:
 .L80017ef4: move_ $s1, $a0
 .L80017ef8: sw $s2, 0x18($sp)
 .L80017efc: move_ $s2, $a1
-.L80017f00: lui $v0, 0x8004
+.L80017f00: lui $v0, %hi(D0x80044b38)
 .L80017f04: sw $s0, 0x10($sp)
 .L80017f08: addiu $s0, $v0, %lo(D0x80044b38)
 .L80017f0c: sw $ra, 0x1c($sp)
@@ -8546,7 +8544,7 @@ F0x80017fb4:
 .global F0x80017fdc
 F0x80017fdc:
 .L80017fdc: move_ $a1, $zr
-.L80017fe0: lui $v0, 0x8005
+.L80017fe0: lui $v0, %hi(D0x8004b610)
 .L80017fe4: addiu $v1, $v0, %lo(D0x8004b610)
 .L80017fe8: lw $v0, ($v1)
 .L80017fec: nop
@@ -8563,7 +8561,7 @@ F0x80017fdc:
 .global F0x80018014
 F0x80018014:
 .L80018014: move_ $a1, $zr
-.L80018018: lui $v0, 0x8005
+.L80018018: lui $v0, %hi(D0x8004b610)
 .L8001801c: addiu $v1, $v0, %lo(D0x8004b610)
 .L80018020: lw $v0, ($v1)
 .L80018024: nop
@@ -8579,7 +8577,7 @@ F0x80018014:
 
 .global F0x8001804c
 F0x8001804c:
-.L8001804c: lui $v0, 0x8005
+.L8001804c: lui $v0, %hi(D0x8004b610)
 .L80018050: addiu $v1, $v0, %lo(D0x8004b610)
 .L80018054: lw $a1, 0x19c($v1)
 .L80018058: nop
@@ -8682,13 +8680,13 @@ F0x80018140:
 .L800181c8: lw $v1, 0xc($s0)
 .L800181cc: nop
 .L800181d0: bne $v1, $v0, .L800181ec
-.L800181d4: lui $v0, 0x8005
+.L800181d4: lui $v0, %hi(D0x8004b7c4)
 .L800181d8: lw $v0, 0x1c($s0)
 .L800181dc: nop
 .L800181e0: bnez $v0, .L8001821c
 .L800181e4: move_ $v0, $s0
-.L800181e8: lui $v0, 0x8005
-.L800181ec: lw $v0, -0x483c($v0)
+.L800181e8: lui $v0, %hi(D0x8004b7c4)
+.L800181ec: lw $v0, %lo(D0x8004b7c4)($v0)
 .L800181f0: nop
 .L800181f4: jalr $v0
 .L800181f8: move_ $a0, $s0
@@ -8761,8 +8759,8 @@ F0x800182c8:
 .L800182e0: nop
 .L800182e4: jalr $v0
 .L800182e8: li $a1, 0x3
-.L800182ec: lui $v0, 0x8005
-.L800182f0: lw $v0, -0x4838($v0)
+.L800182ec: lui $v0, %hi(D0x8004b7c8)
+.L800182f0: lw $v0, %lo(D0x8004b7c8)($v0)
 .L800182f4: nop
 .L800182f8: jalr $v0
 .L800182fc: move_ $a0, $s0
@@ -8823,7 +8821,7 @@ F0x80018310:
 .L800183dc: jal F0x8002147c
 .L800183e0: addiu $a1, $a0, 0x22
 .L800183e4: andi $s3, 0x7f
-.L800183e8: lui $a0, 0x8005
+.L800183e8: lui $a0, %hi(D0x8004b7d0)
 .L800183ec: addiu $a2, $a0, %lo(D0x8004b7d0)
 .L800183f0: andi $a1, $s3, 0xff
 .L800183f4: sh $a1, 0x3d4($a2)
@@ -8852,7 +8850,7 @@ F0x8001843c:
 .L80018444: jal F0x800184d0
 .L80018448: nop
 .L8001844c: lw $ra, 0x10($sp)
-.L80018450: lui $v0, 0x8005
+.L80018450: lui $v0, %hi(D0x8004b7d0)
 .L80018454: sw $zr, %lo(D0x8004b7d0)($v0)
 .L80018458: jr $ra
 .L8001845c: addiu $sp, 0x18
@@ -8861,7 +8859,7 @@ F0x8001843c:
 F0x80018460:
 .L80018460: addiu $sp, -0x20
 .L80018464: sw $s0, 0x10($sp)
-.L80018468: lui $s0, 0x8005
+.L80018468: lui $s0, %hi(D0x8004b7d0)
 .L8001846c: lw $v0, %lo(D0x8004b7d0)($s0)
 .L80018470: lui $v1, 0x4000
 .L80018474: sw $ra, 0x18($sp)
@@ -8892,7 +8890,7 @@ F0x80018460:
 F0x800184d0:
 .L800184d0: addiu $sp, -0x18
 .L800184d4: sw $s0, 0x10($sp)
-.L800184d8: lui $s0, 0x8005
+.L800184d8: lui $s0, %hi(D0x8004b7d0)
 .L800184dc: lw $v0, %lo(D0x8004b7d0)($s0)
 .L800184e0: lui $v1, 0x2000
 .L800184e4: and $v0, $v1
@@ -8900,8 +8898,7 @@ F0x800184d0:
 .L800184ec: sw $ra, 0x14($sp)
 .L800184f0: jal F0x80021418
 .L800184f4: nop
-.L800184f8: lui $v1, 0xdfff
-.L800184fc: ori $v1, 0xffff
+.L800184f8: li $v1, 0xdfffffff
 .L80018500: lw $v0, %lo(D0x8004b7d0)($s0)
 .L80018504: lw $ra, 0x14($sp)
 .L80018508: and $v0, $v1
@@ -8913,7 +8910,7 @@ F0x800184d0:
 .global F0x8001851c
 F0x8001851c:
 .L8001851c: addiu $sp, -0x40
-.L80018520: lui $v0, 0x8005
+.L80018520: lui $v0, %hi(D0x8004b7d0)
 .L80018524: sw $s0, 0x18($sp)
 .L80018528: addiu $s0, $v0, %lo(D0x8004b7d0)
 .L8001852c: sw $ra, 0x3c($sp)
@@ -8946,12 +8943,12 @@ F0x8001851c:
 .L80018598: sra $v0, 0x10
 .L8001859c: slti $v0, 0x707
 .L800185a0: bnez $v0, .L800185cc
-.L800185a4: lui $a3, 0x8005
-.L800185a8: lh $a0, 0x3d6($s0)
+.L800185a4: lui $a3, %hi(D0x800503d6)
+.L800185a8: lh $a0, %lo(D0x800503d6)($s0)
 .L800185ac: jal F0x800189b8
 .L800185b0: nop
 .L800185b4: bne $v0, $s1, .L800185cc
-.L800185b8: lui $a3, 0x8005
+.L800185b8: lui $a3, %hi(D0x8004b7d0)
 .L800185bc: jal F0x800189b0
 .L800185c0: nop
 .L800185c4: j .L800186b0
@@ -8968,7 +8965,7 @@ F0x8001851c:
 .L800185f0: move_ $s1, $zr
 .L800185f4: move_ $s0, $s7
 .L800185f8: li $s2, 0x2
-.L800185fc: lui $a3, 0x8005
+.L800185fc: lui $a3, %hi(D0x8004b7d0)
 .L80018600: lw $v0, %lo(D0x8004b7d0)($a3)
 .L80018604: lui $v1, 0x40
 .L80018608: and $v0, $v1
@@ -8991,7 +8988,7 @@ F0x8001851c:
 .L8001864c: addiu $s2, 0x8
 .L80018650: j .L80018698
 .L80018654: addiu $s7, 0x22
-.L80018658: lui $a3, 0x8005
+.L80018658: lui $a3, %hi(D0x8004b7d0)
 .L8001865c: lw $v0, %lo(D0x8004b7d0)($a3)
 .L80018660: lui $v1, 0x40
 .L80018664: and $v0, $v1
@@ -9157,7 +9154,7 @@ F0x8001889c:
 .global F0x800188c0
 F0x800188c0:
 .L800188c0: move_ $a1, $zr
-.L800188c4: lui $v0, 0x8005
+.L800188c4: lui $v0, %hi(D0x8004b7d0)
 .L800188c8: addiu $t0, $v0, %lo(D0x8004b7d0)
 .L800188cc: andi $v1, $a0, 0x3
 .L800188d0: sll $v0, $v1, 0x3
@@ -9168,8 +9165,8 @@ F0x800188c0:
 .L800188e4: sll $v0, $a0, 0x3
 .L800188e8: subu $v0, $a0
 .L800188ec: sll $a0, $v0, 0x6
-.L800188f0: lui $v0, 0x8005
-.L800188f4: addiu $a3, $v0, -0x440c
+.L800188f0: lui $v0, %hi(D0x8004bbf4)
+.L800188f4: addiu $a3, $v0, %lo(D0x8004bbf4)
 .L800188f8: addu $v0, $a1, $a2
 .L800188fc: addu $v1, $a1, $a3
 .L80018900: addiu $a1, 0x1
@@ -9231,7 +9228,7 @@ F0x800189b0:
 
 .global F0x800189b8
 F0x800189b8:
-.L800189b8: lui $v0, 0x8005
+.L800189b8: lui $v0, %hi(D0x8004b7d0)
 .L800189bc: addiu $a1, $v0, %lo(D0x8004b7d0)
 .L800189c0: lw $v0, %lo(D0x8004b7d0)($v0)
 .L800189c4: lui $v1, 0x80
@@ -9249,7 +9246,7 @@ F0x800189b8:
 .global F0x800189f0
 F0x800189f0:
 .L800189f0: addiu $sp, -0x18
-.L800189f4: lui $a3, 0x8005
+.L800189f4: lui $a3, %hi(D0x8004b7d0)
 .L800189f8: addiu $t0, $a3, %lo(D0x8004b7d0)
 .L800189fc: lw $a2, %lo(D0x8004b7d0)($a3)
 .L80018a00: lui $v0, 0xc0
@@ -9280,14 +9277,13 @@ F0x800189f0:
 
 .global F0x80018a64
 F0x80018a64:
-.L80018a64: lui $a0, 0x8005
+.L80018a64: lui $a0, %hi(D0x8004b7d0)
 .L80018a68: lw $v1, %lo(D0x8004b7d0)($a0)
 .L80018a6c: lui $v0, 0x40
 .L80018a70: and $v0, $v1, $v0
 .L80018a74: beqz $v0, .L80018a98
 .L80018a78: addiu $a1, $a0, %lo(D0x8004b7d0)
-.L80018a7c: lui $v0, 0xffbf
-.L80018a80: ori $v0, 0xffff
+.L80018a7c: li $v0, 0xffbfffff
 .L80018a84: and $v0, $v1, $v0
 .L80018a88: sw $v0, %lo(D0x8004b7d0)($a0)
 .L80018a8c: sw $zr, 0x3d8($a1)
@@ -9298,7 +9294,7 @@ F0x80018a64:
 
 .global F0x80018aa0
 F0x80018aa0:
-.L80018aa0: lui $v0, 0x8005
+.L80018aa0: lui $v0, %hi(D0x8004b7d0)
 .L80018aa4: addiu $a1, $v0, %lo(D0x8004b7d0)
 .L80018aa8: lw $v0, %lo(D0x8004b7d0)($v0)
 .L80018aac: lui $v1, 0x40
@@ -9337,13 +9333,12 @@ F0x80018ad8:
 
 .global F0x80018b28
 F0x80018b28:
-.L80018b28: lui $a3, 0xf3ff
-.L80018b2c: ori $a3, 0xffff
+.L80018b28: li $a3, 0xf3ffffff
 .L80018b30: move_ $v0, $zr
 .L80018b34: srl $a1, $s0, 0x2
 .L80018b38: andi $a1, 0x3c
 .L80018b3c: andi $a0, $s0, 0x3
-.L80018b40: lui $a2, 0x8005
+.L80018b40: lui $a2, %hi(D0x8004b7d0)
 .L80018b44: lw $v1, %lo(D0x8004b7d0)($a2)
 .L80018b48: nor $a0, $a1
 .L80018b4c: and $v1, $a0
@@ -9353,7 +9348,7 @@ F0x80018b28:
 
 .global F0x80018b5c
 F0x80018b5c:
-.L80018b5c: lui $s2, 0x8005
+.L80018b5c: lui $s2, %hi(D0x8004b7d0)
 .L80018b60: lw $v1, %lo(D0x8004b7d0)($s2)
 .L80018b64: lui $a0, 0x800
 .L80018b68: and $v0, $v1, $a0
@@ -9460,7 +9455,7 @@ F0x80018bcc:
 .L80018cdc: lhu $v0, 0x2($s5)
 .L80018ce0: nop
 .L80018ce4: nor $a0, $zr, $v0
-.L80018ce8: lui $v0, 0x8006
+.L80018ce8: lui $v0, %hi(D0x8005cca8)
 .L80018cec: lw $v0, %lo(D0x8005cca8)($v0)
 .L80018cf0: nop
 .L80018cf4: beqz $v0, .L80018d48
@@ -9526,9 +9521,9 @@ F0x80018bcc:
 .L80018de4: sh $zr, 0x2($s4)
 .L80018de8: sll $v0, $s3, 0x10
 .L80018dec: sra $s8, $v0, 0x10
-.L80018df0: lui $v0, 0x8005
+.L80018df0: lui $v0, %hi(D0x8004b7d0)
 .L80018df4: addiu $s7, $v0, %lo(D0x8004b7d0)
-.L80018df8: lui $v0, 0x8005
+.L80018df8: lui $v0, %hi(D0x8004de10)
 .L80018dfc: addiu $s6, $v0, %lo(D0x8004de10)
 .L80018e00: sll $v0, $s1, 0x10
 .L80018e04: sra $v0, 0x10
@@ -9730,9 +9725,8 @@ F0x8001902c:
 .L80019100: li $a2, 0x2
 .L80019104: jal F0x80020f3c
 .L80019108: nop
-.L8001910c: lui $a1, 0xf3ff
-.L80019110: ori $a1, 0xffff
-.L80019114: lui $a0, 0x8005
+.L8001910c: li $a1, 0xf3ffffff
+.L80019114: lui $a0, %hi(D0x8004b7d0)
 .L80019118: lw $v1, %lo(D0x8004b7d0)($a0)
 .L8001911c: li $v0, 0x1
 .L80019120: and $v1, $a1
@@ -9765,7 +9759,7 @@ F0x80019148:
 .L80019180: move_ $s1, $v0
 .L80019184: blez $s1, .L800191dc
 .L80019188: move_ $s0, $zr
-.L8001918c: lui $v0, 0x8005
+.L8001918c: lui $v0, %hi(D0x8004b7d0)
 .L80019190: addiu $s5, $v0, %lo(D0x8004b7d0)
 .L80019194: srl $v1, $s2, 0x4
 .L80019198: sll $v0, $v1, 0x1
@@ -9922,7 +9916,7 @@ F0x80019370:
 .L800193d0: nop
 .L800193d4: slt $v0, $v1
 .L800193d8: bnez $v0, .L800193f8
-.L800193dc: lui $v0, 0x8005
+.L800193dc: lui $v0, %hi(D0x8004b5ec)
 .L800193e0: lw $v0, %lo(D0x8004b5ec)($v0)
 .L800193e4: nop
 .L800193e8: jalr $v0
@@ -9944,7 +9938,7 @@ F0x80019370:
 .L80019428: sll $a0, $v0, 0x10
 .L8001942c: sra $a0, 0x10
 .L80019430: sh $v0, 0x4($s0)
-.L80019434: lui $v0, 0x8005
+.L80019434: lui $v0, %hi(D0x8004b5f4)
 .L80019438: lw $v0, %lo(D0x8004b5f4)($v0)
 .L8001943c: nop
 .L80019440: jalr $v0
@@ -10732,8 +10726,8 @@ F0x80019fb0:
 .L80019fe8: lh $s0, 0xa6($s2)
 .L80019fec: move_ $s4, $s5
 .L80019ff0: move_ $s1, $v0
-.L80019ff4: lui $v0, 0x8005
-.L80019ff8: addiu $s3, $v0, -0x2200
+.L80019ff4: lui $v0, %hi(D0x8004de00)
+.L80019ff8: addiu $s3, $v0, %lo(D0x8004de00)
 .L80019ffc: li $s6, 0x1
 .L8001a000: lw $a0, 0x5c($s2)
 .L8001a004: lw $v0, 0xc($s3)
@@ -10950,8 +10944,8 @@ F0x8001a2ac:
 .L8001a2e4: nop
 .L8001a2e8: blez $v0, F0x8001a3f4
 .L8001a2ec: move_ $s1, $zr
-.L8001a2f0: lui $v0, 0x8005
-.L8001a2f4: addiu $s4, $v0, -0x2200
+.L8001a2f0: lui $v0, %hi(D0x8004de00)
+.L8001a2f4: addiu $s4, $v0, %lo(D0x8004de00)
 .L8001a2f8: lui $v0, 0x8001
 .L8001a2fc: addiu $s5, $v0, 0x274
 .L8001a300: lbu $a1, 0xa($s2)
@@ -11171,8 +11165,7 @@ F0x8001a48c:
 .L8001a5b0: nop
 .L8001a5b4: addu $v1, $v0
 .L8001a5b8: sh $v1, ($s0)
-.L8001a5bc: lui $v0, 0xffff
-.L8001a5c0: ori $v0, 0x7fff
+.L8001a5bc: li $v0, 0xffff7fff
 .L8001a5c4: j .L8001a6d4
 .L8001a5c8: and $v0, $a0, $v0
 .L8001a5cc: lh $v1, 0x14($a2)
@@ -11394,8 +11387,8 @@ F0x8001a8b4:
 .L8001a8fc: lhu $a0, 0x8($s0)
 .L8001a900: slt $v0, $v1
 .L8001a904: beqz $v0, .L8001a9ec
-.L8001a908: lui $v0, 0x8005
-.L8001a90c: addiu $s2, $v0, -0x2200
+.L8001a908: lui $v0, %hi(D0x8004de00)
+.L8001a90c: addiu $s2, $v0, %lo(D0x8004de00)
 .L8001a910: sll $a0, 0x10
 .L8001a914: sra $a0, 0x10
 .L8001a918: lw $v1, ($s0)
@@ -11653,7 +11646,7 @@ F0x8001ac14:
 .L8001acd0: addiu $v0, 0x1
 .L8001acd4: beqz $a0, .L8001add0
 .L8001acd8: sh $v0, 0xa4($s2)
-.L8001acdc: lui $v0, 0x8005
+.L8001acdc: lui $v0, %hi(D0x80055c48)
 .L8001ace0: lw $v0, %lo(D0x80055c48)($v0)
 .L8001ace4: nop
 .L8001ace8: jalr $v0
@@ -11718,7 +11711,7 @@ F0x8001ac14:
 .L8001add4: move_ $a0, $s2
 .L8001add8: j .L8001ae1c
 .L8001addc: nop
-.L8001ade0: lui $v0, 0x8005
+.L8001ade0: lui $v0, %hi(D0x8004b5dc)
 .L8001ade4: addiu $s3, $v0, %lo(D0x8004b5dc)
 .L8001ade8: move_ $s0, $s2
 .L8001adec: lw $a0, 0x5c($s0)
@@ -11942,7 +11935,7 @@ F0x8001b0a4:
 .L8001b15c: nop
 .L8001b160: jalr $v0
 .L8001b164: nop
-.L8001b168: lui $v0, 0x8005
+.L8001b168: lui $v0, %hi(D0x8004df98)
 .L8001b16c: lw $v0, %lo(D0x8004df98)($v0)
 .L8001b170: nop
 .L8001b174: jalr $v0
@@ -11997,7 +11990,7 @@ F0x8001b0a4:
 .L8001b238: lw $v0, 0x10($s0)
 .L8001b23c: nop
 .L8001b240: bnez $v0, .L8001b2b8
-.L8001b244: lui $v0, 0x8005
+.L8001b244: lui $v0, %hi(D0x8004de10)
 .L8001b248: addiu $s3, $v0, %lo(D0x8004de10)
 .L8001b24c: lw $v0, 0x188($s3)
 .L8001b250: nop
@@ -12131,7 +12124,7 @@ F0x8001b444:
 .L8001b454: lw $a0, 0x64($s0)
 .L8001b458: nop
 .L8001b45c: beqz $a0, .L8001b474
-.L8001b460: lui $v0, 0x8005
+.L8001b460: lui $v0, %hi(D0x8004b5ec)
 .L8001b464: lw $v0, %lo(D0x8004b5ec)($v0)
 .L8001b468: nop
 .L8001b46c: jalr $v0
@@ -12177,7 +12170,7 @@ F0x8001b4cc:
 .L8001b4f4: lw $a0, 0x64($s0)
 .L8001b4f8: nop
 .L8001b4fc: beqz $a0, .L8001b514
-.L8001b500: lui $v0, 0x8005
+.L8001b500: lui $v0, %hi(D0x8004b5ec)
 .L8001b504: lw $v0, %lo(D0x8004b5ec)($v0)
 .L8001b508: nop
 .L8001b50c: jalr $v0
@@ -12357,7 +12350,7 @@ F0x8001b724:
 .L8001b788: lw $a0, 0x64($a0)
 .L8001b78c: nop
 .L8001b790: beqz $a0, .L8001b7a8
-.L8001b794: lui $v0, 0x8005
+.L8001b794: lui $v0, %hi(D0x8004b5ec)
 .L8001b798: lw $v0, %lo(D0x8004b5ec)($v0)
 .L8001b79c: nop
 .L8001b7a0: jalr $v0
@@ -12478,7 +12471,7 @@ F0x8001b930:
 .L8001b968: nop
 .L8001b96c: jalr $v0
 .L8001b970: move_ $a1, $zr
-.L8001b974: lui $v0, 0x8005
+.L8001b974: lui $v0, %hi(D0x8004de10)
 .L8001b978: addiu $s1, $v0, %lo(D0x8004de10)
 .L8001b97c: lw $v0, 0x188($s1)
 .L8001b980: nop
@@ -12507,7 +12500,7 @@ F0x8001b930:
 .L8001b9dc: nop
 .L8001b9e0: jalr $v0
 .L8001b9e4: nop
-.L8001b9e8: lui $v0, 0x8004
+.L8001b9e8: lui $v0, %hi(D0x80044f5c)
 .L8001b9ec: lw $v0, %lo(D0x80044f5c)($v0)
 .L8001b9f0: nop
 .L8001b9f4: jalr $v0
@@ -12719,7 +12712,7 @@ F0x8001bbe8:
 .L8001bd0c: lui $a0, 0x4
 .L8001bd10: addiu $v0, 0x1
 .L8001bd14: sw $v0, 0x10($s2)
-.L8001bd18: lui $v0, 0x8005
+.L8001bd18: lui $v0, %hi(D0x80055c48)
 .L8001bd1c: lw $v0, %lo(D0x80055c48)($v0)
 .L8001bd20: nop
 .L8001bd24: jalr $v0
@@ -12875,7 +12868,7 @@ F0x8001beec:
 .L8001bf78: nop
 .L8001bf7c: jalr $v0
 .L8001bf80: move_ $a1, $zr
-.L8001bf84: lui $v0, 0x8005
+.L8001bf84: lui $v0, %hi(D0x8004de10)
 .L8001bf88: addiu $s1, $v0, %lo(D0x8004de10)
 .L8001bf8c: lw $v0, 0x188($s1)
 .L8001bf90: nop
@@ -12904,7 +12897,7 @@ F0x8001beec:
 .L8001bfec: nop
 .L8001bff0: jalr $v0
 .L8001bff4: nop
-.L8001bff8: lui $v0, 0x8004
+.L8001bff8: lui $v0, %hi(D0x80044f5c)
 .L8001bffc: lw $v0, %lo(D0x80044f5c)($v0)
 .L8001c000: nop
 .L8001c004: jalr $v0
@@ -12967,7 +12960,7 @@ F0x8001c050:
 .L8001c0e0: nop
 .L8001c0e4: jalr $v0
 .L8001c0e8: move_ $a1, $zr
-.L8001c0ec: lui $v0, 0x8004
+.L8001c0ec: lui $v0, %hi(D0x80044b38)
 .L8001c0f0: addiu $s6, $v0, %lo(D0x80044b38)
 .L8001c0f4: addiu $s0, -0x4
 .L8001c0f8: addu $s1, $s0
@@ -13936,7 +13929,7 @@ F0x8001cab0:
 .L8001cfe0: addiu $s0, 0x1
 .L8001cfe4: addiu $s3, $sp, 0x20
 .L8001cfe8: move_ $a0, $s3
-.L8001cfec: lui $v0, 0x8005
+.L8001cfec: lui $v0, %hi(D0x8004b600)
 .L8001cff0: lw $v0, %lo(D0x8004b600)($v0)
 .L8001cff4: nop
 .L8001cff8: jalr $v0
@@ -14278,7 +14271,7 @@ F0x8001d504:
 .L8001d514: beqz $a0, .L8001d598
 .L8001d518: sw $s0, 0x10($sp)
 .L8001d51c: move_ $s2, $zr
-.L8001d520: lui $v0, 0x8005
+.L8001d520: lui $v0, %hi(D0x8004de10)
 .L8001d524: addiu $s1, $v0, %lo(D0x8004de10)
 .L8001d528: lw $s0, 0x60($s1)
 .L8001d52c: nop
@@ -14315,7 +14308,7 @@ F0x8001d504:
 .L8001d5a8: lw $v0, 0x1b0($gp)
 .L8001d5ac: nop
 .L8001d5b0: bnez $v0, .L8001d5a8
-.L8001d5b4: lui $v0, 0x8005
+.L8001d5b4: lui $v0, %hi(D0x8004de10)
 .L8001d5b8: addiu $v1, $v0, %lo(D0x8004de10)
 .L8001d5bc: lw $v0, 0x20($v1)
 .L8001d5c0: nop
@@ -14334,7 +14327,7 @@ F0x8001d504:
 .L8001d5f4: slti $v0, $s1, 0x1e
 .L8001d5f8: bnez $v0, .L8001d5d0
 .L8001d5fc: addiu $s0, 0x4
-.L8001d600: lui $v0, 0x8005
+.L8001d600: lui $v0, %hi(D0x8004de10)
 .L8001d604: addiu $a0, $v0, %lo(D0x8004de10)
 .L8001d608: lw $v0, 0x34($a0)
 .L8001d60c: lui $v1, 0x8006
@@ -14421,7 +14414,7 @@ F0x8001d714:
 .L8001d724: beqz $v0, .L8001d798
 .L8001d728: sw $s0, 0x10($sp)
 .L8001d72c: move_ $s0, $zr
-.L8001d730: lui $v0, 0x8005
+.L8001d730: lui $v0, %hi(D0x8004de10)
 .L8001d734: addiu $s1, $v0, %lo(D0x8004de10)
 .L8001d738: sll $v0, $s0, 0x2
 .L8001d73c: addu $v1, $v0, $s1
@@ -14439,7 +14432,7 @@ F0x8001d714:
 .L8001d76c: bnez $v0, .L8001d73c
 .L8001d770: sll $v0, $s0, 0x2
 .L8001d774: la_ $a0, D0x8004de30
-.L8001d77c: lui $v0, 0x8005
+.L8001d77c: lui $v0, %hi(D0x8004b600)
 .L8001d780: lw $v0, %lo(D0x8004b600)($v0)
 .L8001d784: nop
 .L8001d788: jalr $v0
@@ -14514,7 +14507,7 @@ F0x8001d860:
 .L8001d874: lw $a0, 0x24($s0)
 .L8001d878: nop
 .L8001d87c: beqz $a0, .L8001d894
-.L8001d880: lui $v0, 0x8005
+.L8001d880: lui $v0, %hi(D0x8004b5ec)
 .L8001d884: lw $v0, %lo(D0x8004b5ec)($v0)
 .L8001d888: nop
 .L8001d88c: jalr $v0
@@ -14522,7 +14515,7 @@ F0x8001d860:
 .L8001d894: lw $a0, 0x28($s0)
 .L8001d898: nop
 .L8001d89c: beqz $a0, .L8001d8b4
-.L8001d8a0: lui $v0, 0x8005
+.L8001d8a0: lui $v0, %hi(D0x8004b5ec)
 .L8001d8a4: lw $v0, %lo(D0x8004b5ec)($v0)
 .L8001d8a8: nop
 .L8001d8ac: jalr $v0
@@ -14649,7 +14642,7 @@ F0x8001da00:
 .global F0x8001da84
 F0x8001da84:
 .L8001da84: move_ $a2, $zr
-.L8001da88: lui $v0, 0x8005
+.L8001da88: lui $v0, %hi(D0x8004de10)
 .L8001da8c: addiu $v1, $v0, %lo(D0x8004de10)
 .L8001da90: lw $a1, 0x60($v1)
 .L8001da94: nop
@@ -14671,7 +14664,7 @@ F0x8001da84:
 .global F0x8001dad0
 F0x8001dad0:
 .L8001dad0: move_ $a1, $zr
-.L8001dad4: lui $v0, 0x8005
+.L8001dad4: lui $v0, %hi(D0x8004de10)
 .L8001dad8: addiu $v1, $v0, %lo(D0x8004de10)
 .L8001dadc: beqz $a0, .L8001db0c
 .L8001dae0: nop
@@ -14701,7 +14694,7 @@ F0x8001db34:
 .L8001db34: move_ $a1, $a0
 .L8001db38: slti $v0, $a1, 0x1d
 .L8001db3c: beqz $v0, .L8001db7c
-.L8001db40: lui $v0, 0x8005
+.L8001db40: lui $v0, %hi(D0x8004de10)
 .L8001db44: addiu $a2, $v0, %lo(D0x8004de10)
 .L8001db48: sll $a0, $a1, 0x2
 .L8001db4c: addiu $a1, 0x1
@@ -14725,7 +14718,7 @@ F0x8001db84:
 .L8001db88: move_ $t1, $a1
 .L8001db8c: li $a1, 0x1d
 .L8001db90: beq $t0, $a1, .L8001dbc4
-.L8001db94: lui $v0, 0x8005
+.L8001db94: lui $v0, %hi(D0x8004de10)
 .L8001db98: addiu $a3, $v0, %lo(D0x8004de10)
 .L8001db9c: sll $a0, $a1, 0x2
 .L8001dba0: addiu $a1, -0x1
@@ -14955,7 +14948,7 @@ F0x8001de68:
 .L8001dee4: move_ $a0, $s1
 .L8001dee8: jal F0x8001dddc
 .L8001deec: sh $v0, 0x1a($sp)
-.L8001def0: lui $v0, 0x8005
+.L8001def0: lui $v0, %hi(D0x8004de10)
 .L8001def4: addiu $s3, $v0, %lo(D0x8004de10)
 .L8001def8: lw $a0, 0x34($s3)
 .L8001defc: lw $s0, 0x20($s3)
@@ -15139,7 +15132,7 @@ F0x8001e118:
 .L8001e128: sw $ra, 0x18($sp)
 .L8001e12c: jal F0x80025868
 .L8001e130: sw $s0, 0x10($sp)
-.L8001e134: lui $v0, 0x8005
+.L8001e134: lui $v0, %hi(D0x8004b5dc)
 .L8001e138: addiu $s0, $v0, %lo(D0x8004b5dc)
 .L8001e13c: lw $a0, 0x5c($s1)
 .L8001e140: lw $v0, 0x10($s0)
@@ -15198,7 +15191,7 @@ F0x8001e1e8:
 .L8001e1fc: sll $a0, $s0, 0x2
 .L8001e200: addu $a0, $s0
 .L8001e204: sll $a0, 0x2
-.L8001e208: lui $v0, 0x8005
+.L8001e208: lui $v0, %hi(D0x8004b5f4)
 .L8001e20c: lw $v0, %lo(D0x8004b5f4)($v0)
 .L8001e210: sw $ra, 0x18($sp)
 .L8001e214: jalr $v0
@@ -15869,7 +15862,7 @@ F0x8001ebcc:
 .L8001ebf8: addiu $sp, -0x18
 .L8001ebfc: sw $s0, 0x10($sp)
 .L8001ec00: move_ $s0, $a0
-.L8001ec04: lui $v0, 0x8005
+.L8001ec04: lui $v0, %hi(D0x8004b600)
 .L8001ec08: lw $v0, %lo(D0x8004b600)($v0)
 .L8001ec0c: sw $ra, 0x14($sp)
 .L8001ec10: jalr $v0
@@ -16558,7 +16551,7 @@ F0x8001f648:
 .L8001f648: addiu $sp, -0x18
 .L8001f64c: sw $s0, 0x10($sp)
 .L8001f650: move_ $s0, $a0
-.L8001f654: lui $v0, 0x8005
+.L8001f654: lui $v0, %hi(D0x8004b600)
 .L8001f658: lw $v0, %lo(D0x8004b600)($v0)
 .L8001f65c: sw $ra, 0x14($sp)
 .L8001f660: jalr $v0
@@ -16650,8 +16643,8 @@ F0x8001f770:
 .L8001f7c4: nop
 .L8001f7c8: blez $v0, F0x8001f9dc
 .L8001f7cc: move_ $s4, $s2
-.L8001f7d0: lui $v0, 0x8005
-.L8001f7d4: addiu $s8, $v0, -0x2200
+.L8001f7d0: lui $v0, %hi(D0x8004de00)
+.L8001f7d4: addiu $s8, $v0, %lo(D0x8004de00)
 .L8001f7d8: sll $s7, $a2, 0x10
 .L8001f7dc: sra $s3, $s7, 0x10
 .L8001f7e0: move_ $a2, $s6
@@ -16829,11 +16822,11 @@ F0x8001fa20:
 .L8001fa4c: move_ $t5, $v0
 .L8001fa50: blez $t5, .L8001fca8
 .L8001fa54: move_ $t3, $zr
-.L8001fa58: lui $v0, 0x8005
-.L8001fa5c: addiu $t4, $v0, -0x1ff0
+.L8001fa58: lui $v0, %hi(D0x8004e010)
+.L8001fa5c: addiu $t4, $v0, %lo(D0x8004e010)
 .L8001fa60: li $t2, 0xffff
-.L8001fa64: lui $v0, 0x8005
-.L8001fa68: addiu $t1, $v0, -0x1c44
+.L8001fa64: lui $v0, %hi(D0x8004e3bc)
+.L8001fa68: addiu $t1, $v0, %lo(D0x8004e3bc)
 .L8001fa6c: move_ $a1, $s0
 .L8001fa70: move_ $a0, $s2
 .L8001fa74: lbu $v1, ($a1)
@@ -16908,11 +16901,11 @@ F0x8001fa20:
 .L8001fb88: move_ $t2, $zr
 .L8001fb8c: blez $t5, .L8001fca8
 .L8001fb90: move_ $t3, $t2
-.L8001fb94: lui $v0, 0x8005
-.L8001fb98: addiu $t7, $v0, -0x1ff0
+.L8001fb94: lui $v0, %hi(D0x8004e010)
+.L8001fb98: addiu $t7, $v0, %lo(D0x8004e010)
 .L8001fb9c: li $t6, 0xffff
-.L8001fba0: lui $v0, 0x8005
-.L8001fba4: addiu $s1, $v0, -0x1c44
+.L8001fba0: lui $v0, %hi(D0x8004e3bc)
+.L8001fba4: addiu $s1, $v0, %lo(D0x8004e3bc)
 .L8001fba8: li $t8, 0x1
 .L8001fbac: move_ $a1, $s0
 .L8001fbb0: move_ $t1, $s2
@@ -16989,7 +16982,7 @@ F0x8001fcc0:
 .L8001fcc0: addiu $sp, -0x18
 .L8001fcc4: sw $s0, 0x10($sp)
 .L8001fcc8: move_ $s0, $a0
-.L8001fccc: lui $v0, 0x8005
+.L8001fccc: lui $v0, %hi(D0x8004b600)
 .L8001fcd0: lw $v0, %lo(D0x8004b600)($v0)
 .L8001fcd4: sw $ra, 0x14($sp)
 .L8001fcd8: jalr $v0
@@ -17102,13 +17095,13 @@ F0x8001fe38:
 .L8001fe54: sw $s1, 0x14($sp)
 .L8001fe58: sw $s0, 0x10($sp)
 .L8001fe5c: lw $a0, 0x18($v0)
-.L8001fe60: lui $v0, 0x8005
+.L8001fe60: lui $v0, %hi(D0x8004b5f4)
 .L8001fe64: lw $v0, %lo(D0x8004b5f4)($v0)
 .L8001fe68: nop
 .L8001fe6c: jalr $v0
 .L8001fe70: move_ $s0, $zr
 .L8001fe74: move_ $s1, $v0
-.L8001fe78: lui $v0, 0x8004
+.L8001fe78: lui $v0, %hi(D0x80044b38)
 .L8001fe7c: addiu $s3, $v0, %lo(D0x80044b38)
 .L8001fe80: move_ $a0, $s0
 .L8001fe84: lw $v0, 0x428($s3)
@@ -17117,8 +17110,7 @@ F0x8001fe38:
 .L8001fe90: move_ $a1, $s2
 .L8001fe94: beq $v0, $s2, .L8001ff6c
 .L8001fe98: move_ $a1, $v0
-.L8001fe9c: lui $v1, 0x4e45
-.L8001fea0: ori $v1, 0x4c52
+.L8001fe9c: li $v1, 0x4e454c52
 .L8001fea4: lw $v0, ($a1)
 .L8001fea8: nop
 .L8001feac: bne $v0, $v1, .L8001ff40
@@ -17169,7 +17161,7 @@ F0x8001fe38:
 .L8001ff60: addiu $v0, 0x40
 .L8001ff64: j .L8001fe80
 .L8001ff68: sw $v0, 0x8($v1)
-.L8001ff6c: lui $v0, 0x8005
+.L8001ff6c: lui $v0, %hi(D0x8004b5ec)
 .L8001ff70: lw $v0, %lo(D0x8004b5ec)($v0)
 .L8001ff74: nop
 .L8001ff78: jalr $v0
@@ -17193,7 +17185,7 @@ F0x8001ffa8:
 .L8001ffa8: addiu $sp, -0x18
 .L8001ffac: sw $s0, 0x10($sp)
 .L8001ffb0: move_ $s0, $a0
-.L8001ffb4: lui $v0, 0x8005
+.L8001ffb4: lui $v0, %hi(D0x8004b600)
 .L8001ffb8: lw $v0, %lo(D0x8004b600)($v0)
 .L8001ffbc: sw $ra, 0x14($sp)
 .L8001ffc0: jalr $v0
@@ -17222,8 +17214,8 @@ F0x8001ffa8:
 .global F0x80020030
 F0x80020030:
 .L80020030: move_ $v1, $zr
-.L80020034: lui $v0, 0x8005
-.L80020038: addiu $a1, $v0, 0x19ec
+.L80020034: lui $v0, %hi(D0x800519ec)
+.L80020038: addiu $a1, $v0, %lo(D0x800519ec)
 .L8002003c: lw $v0, 0x4200($a1)
 .L80020040: nop
 .L80020044: beq $v0, $a0, .L80020064
@@ -17274,8 +17266,8 @@ F0x8002006c:
 .L800200ec: lui $v0, 0x8005
 .L800200f0: sw $s1, 0x5c38($v0)
 .L800200f4: beqz $s2, .L8002012c
-.L800200f8: lui $v0, 0x8005
-.L800200fc: addiu $s2, $v0, 0x19ec
+.L800200f8: lui $v0, %hi(D0x800519ec)
+.L800200fc: addiu $s2, $v0, %lo(D0x800519ec)
 .L80020100: lw $a0, 0x4248($s2)
 .L80020104: nop
 .L80020108: beq $a0, $s0, .L800201d4
@@ -17416,8 +17408,8 @@ F0x800202d4:
 .L80020314: beq $a0, $v0, .L80020360
 .L80020318: nop
 .L8002031c: bnez $s0, .L80020360
-.L80020320: lui $v0, 0x8005
-.L80020324: addiu $s0, $v0, 0x19ec
+.L80020320: lui $v0, %hi(D0x800519ec)
+.L80020324: addiu $s0, $v0, %lo(D0x800519ec)
 .L80020328: sll $v1, $s2, 0x1
 .L8002032c: sll $v0, $a0, 0x1
 .L80020330: addu $v0, $a0
@@ -17462,8 +17454,8 @@ F0x8002037c:
 .L800203c0: nop
 .L800203c4: bnez $s0, .L80020420
 .L800203c8: li $a3, 0x32
-.L800203cc: lui $v0, 0x8005
-.L800203d0: addiu $s0, $v0, 0x19ec
+.L800203cc: lui $v0, %hi(D0x800519ec)
+.L800203d0: addiu $s0, $v0, %lo(D0x800519ec)
 .L800203d4: sll $v1, $s2, 0x1
 .L800203d8: sll $v0, $a0, 0x1
 .L800203dc: addu $v0, $a0
@@ -17640,7 +17632,7 @@ F0x800205f0:
 .L80020660: lw $v0, 0x5c3c($s1)
 .L80020664: nop
 .L80020668: lw $a0, 0x4($v0)
-.L8002066c: lui $v0, 0x8004
+.L8002066c: lui $v0, %hi(D0x80044b38)
 .L80020670: addiu $s0, $v0, %lo(D0x80044b38)
 .L80020674: lw $v0, 0x404($s0)
 .L80020678: nop
@@ -17657,7 +17649,7 @@ F0x800205f0:
 .L800206a4: nop
 .L800206a8: lw $v1, 0x5c3c($s1)
 .L800206ac: move_ $s1, $v0
-.L800206b0: lui $v0, 0x8005
+.L800206b0: lui $v0, %hi(D0x80048744)
 .L800206b4: lw $v0, %lo(D0x80048744)($v0)
 .L800206b8: lw $a0, 0x4($v1)
 .L800206bc: lw $s0, 0x10($s3)
@@ -17707,7 +17699,7 @@ F0x800205f0:
 .L8002076c: lw $v0, ($s4)
 .L80020770: nop
 .L80020774: lw $a0, ($v0)
-.L80020778: lui $v0, 0x8004
+.L80020778: lui $v0, %hi(D0x80044b38)
 .L8002077c: addiu $s0, $v0, %lo(D0x80044b38)
 .L80020780: lw $v0, 0x404($s0)
 .L80020784: nop
@@ -17751,7 +17743,7 @@ F0x800205f0:
 .L8002081c: lw $v0, ($s4)
 .L80020820: nop
 .L80020824: lw $a0, ($v0)
-.L80020828: lui $v0, 0x8004
+.L80020828: lui $v0, %hi(D0x80044b38)
 .L8002082c: addiu $s0, $v0, %lo(D0x80044b38)
 .L80020830: lw $v0, 0x414($s0)
 .L80020834: nop
@@ -17917,12 +17909,12 @@ F0x80020a10:
 .L80020a9c: nop
 .L80020aa0: move_ $a2, $zr
 .L80020aa4: li $a3, -0x1
-.L80020aa8: lui $v0, 0x8005
-.L80020aac: addiu $a1, $v0, 0x19e0
-.L80020ab0: lui $v0, 0x8005
-.L80020ab4: addiu $a0, $v0, 0x19d4
-.L80020ab8: lui $v0, 0x8005
-.L80020abc: addiu $v1, $v0, 0x19ec
+.L80020aa8: lui $v0, %hi(D0x800519e0)
+.L80020aac: addiu $a1, $v0, %lo(D0x800519e0)
+.L80020ab0: lui $v0, %hi(D0x800519d4)
+.L80020ab4: addiu $a0, $v0, %lo(D0x800519d4)
+.L80020ab8: lui $v0, %hi(D0x800519ec)
+.L80020abc: addiu $v1, $v0, %lo(D0x800519ec)
 .L80020ac0: sh $a3, 0x4204($v1)
 .L80020ac4: sh $zr, 0x4206($v1)
 .L80020ac8: lw $v0, ($a0)
@@ -17942,7 +17934,7 @@ F0x80020a10:
 .L80020b04: sh $zr, 0x4254($v0)
 .L80020b08: jal F0x8002044c
 .L80020b0c: sw $zr, 0x4250($v0)
-.L80020b10: lui $v0, 0x8004
+.L80020b10: lui $v0, %hi(D0x80044b38)
 .L80020b14: addiu $s0, $v0, %lo(D0x80044b38)
 .L80020b18: jal F0x8002043c
 .L80020b1c: nop
@@ -17983,7 +17975,7 @@ F0x80020b58:
 .L80020b9c: nop
 .L80020ba0: jalr $v0
 .L80020ba4: lui $s0, 0x8005
-.L80020ba8: lui $v0, 0x8005
+.L80020ba8: lui $v0, %hi(D0x8004b438)
 .L80020bac: lw $v0, %lo(D0x8004b438)($v0)
 .L80020bb0: nop
 .L80020bb4: jalr $v0
@@ -18035,7 +18027,7 @@ F0x80020c38:
 
 .global F0x80020c64
 F0x80020c64:
-.L80020c64: lui $v0, 0x8005
+.L80020c64: lui $v0, %hi(D0x8004b438)
 .L80020c68: lw $v0, %lo(D0x8004b438)($v0)
 .L80020c6c: addiu $sp, -0x20
 .L80020c70: sw $ra, 0x18($sp)
@@ -18081,8 +18073,8 @@ F0x80020c64:
 .global F0x80020d10
 F0x80020d10:
 .L80020d10: addiu $sp, -0x20
-.L80020d14: lui $v0, 0x8005
-.L80020d18: addiu $v1, $v0, 0x5d28
+.L80020d14: lui $v0, %hi(D0x80055d28)
+.L80020d18: addiu $v1, $v0, %lo(D0x80055d28)
 .L80020d1c: sw $ra, 0x18($sp)
 .L80020d20: sw $s1, 0x14($sp)
 .L80020d24: sw $s0, 0x10($sp)
@@ -18096,7 +18088,7 @@ F0x80020d10:
 .L80020d44: sw $s0, 0x4($v1)
 .L80020d48: move_ $a0, $s0
 .L80020d4c: move_ $s1, $v0
-.L80020d50: lui $v0, 0x8005
+.L80020d50: lui $v0, %hi(D0x80048744)
 .L80020d54: lw $v0, %lo(D0x80048744)($v0)
 .L80020d58: lui $s0, 0x8001
 .L80020d5c: lw $s0, 0xc8($s0)
@@ -20992,8 +20984,7 @@ F0x80023828:
 .L80023900: li $s2, 0x22
 .L80023904: lui $v0, 0x1f80
 .L80023908: ori $v0, 0x1120
-.L8002390c: lui $v1, 0x1f80
-.L80023910: ori $v1, 0x1124
+.L8002390c: li $v1, 0x1f801124
 .L80023914: lhu $a1, ($v0)
 .L80023918: lui $a2, 0x8005
 .L8002391c: lw $a2, 0x5de8($a2)
@@ -21130,12 +21121,9 @@ F0x80023a4c:
 .L80023b1c: andi $v0, 0x80
 .L80023b20: bnez $v0, .L80023be0
 .L80023b24: nop
-.L80023b28: lui $a3, 0x1f80
-.L80023b2c: ori $a3, 0x1124
-.L80023b30: lui $t1, 0x1f80
-.L80023b34: ori $t1, 0x1120
-.L80023b38: lui $a2, 0x1f80
-.L80023b3c: ori $a2, 0x1128
+.L80023b28: li $a3, 0x1f801124
+.L80023b30: li $t1, 0x1f801120
+.L80023b38: li $a2, 0x1f801128
 .L80023b40: lui $t2, 0x1
 .L80023b44: move_ $t0, $v1
 .L80023b48: lui $a0, 0x8008
@@ -21923,8 +21911,7 @@ F0x800246c4:
 
 .global F0x800246d8
 F0x800246d8:
-.L800246d8: lui $v0, 0x1f80
-.L800246dc: ori $v0, 0x1120
+.L800246d8: li $v0, 0x1f801120
 .L800246e0: lhu $v0, ($v0)
 .L800246e4: lui $at, 0x8008
 .L800246e8: sw $a0, -0x660($at)
@@ -21934,8 +21921,7 @@ F0x800246d8:
 
 .global F0x800246f8
 F0x800246f8:
-.L800246f8: lui $v0, 0x1f80
-.L800246fc: ori $v0, 0x1120
+.L800246f8: li $v0, 0x1f801120
 .L80024700: lhu $v1, ($v0)
 .L80024704: lui $v0, 0x8008
 .L80024708: lw $v0, -0x664($v0)
@@ -21952,8 +21938,7 @@ F0x800246f8:
 .L80024734: j .L80024740
 .L80024738: addu $a0, $v0
 .L8002473c: addu $a0, $v0
-.L80024740: lui $v0, 0x1f80
-.L80024744: ori $v0, 0x1124
+.L80024740: li $v0, 0x1f801124
 .L80024748: lhu $v0, ($v0)
 .L8002474c: nop
 .L80024750: andi $v0, 0x200
@@ -22272,8 +22257,7 @@ F0x80024a80:
 .L80024bf8: andi $a1, $v0, 0xff
 .L80024bfc: bltz $v0, .L8002504c
 .L80024c00: nop
-.L80024c04: lui $v0, 0x1f80
-.L80024c08: ori $v0, 0x1120
+.L80024c04: li $v0, 0x1f801120
 .L80024c0c: lhu $a1, ($v0)
 .L80024c10: lui $v1, 0x8005
 .L80024c14: lw $v1, 0x5de4($v1)
@@ -22401,8 +22385,7 @@ F0x80024a80:
 .L80024e00: andi $a1, $v0, 0xff
 .L80024e04: bltz $v0, .L8002504c
 .L80024e08: nop
-.L80024e0c: lui $v0, 0x1f80
-.L80024e10: ori $v0, 0x1120
+.L80024e0c: li $v0, 0x1f801120
 .L80024e14: lhu $a1, ($v0)
 .L80024e18: lui $v1, 0x8005
 .L80024e1c: lw $v1, 0x5de4($v1)
@@ -22458,8 +22441,7 @@ F0x80024a80:
 .L80024ee4: move_ $a0, $s1
 .L80024ee8: li $s3, 0x22
 .L80024eec: li $s2, 0x3c
-.L80024ef0: lui $s0, 0x1f80
-.L80024ef4: ori $s0, 0x1120
+.L80024ef0: li $s0, 0x1f801120
 .L80024ef8: lui $v0, 0x8005
 .L80024efc: lw $v0, 0x5d78($v0)
 .L80024f00: nop
@@ -24550,8 +24532,7 @@ F0x80026e00:
 .L80026ebc: lui $v0, 0x5ff
 .L80026ec0: lui $a2, 0xff
 .L80026ec4: ori $a2, 0xffff
-.L80026ec8: lui $a0, 0xe4ff
-.L80026ecc: ori $a0, 0xffff
+.L80026ec8: li $a0, 0xe4ffffff
 .L80026ed0: lui $a3, 0x3ff
 .L80026ed4: la_ $a1, D0x8007f9b0
 .L80026edc: la_ $s0, D0x8007f9d8
@@ -27140,8 +27121,7 @@ F0x800293e4:
 .L80029550: lw $a1, 0x1c($v0)
 .L80029554: sw $v1, 0x18($t0)
 .L80029558: sw $a1, 0x1c($t0)
-.L8002955c: lui $v1, 0x5555
-.L80029560: ori $v1, 0x5556
+.L8002955c: li $v1, 0x55555556
 .L80029564: la_ $v0, D0x80081248
 .L8002956c: sh $zr, ($v0)
 .L80029570: sh $zr, 0x2($v0)
@@ -27596,8 +27576,7 @@ F0x8002998c:
 .L80029c70: nop
 .L80029c74: break 0x6
 .L80029c78: mflo $a2
-.L80029c7c: lui $a1, 0x8080
-.L80029c80: ori $a1, 0x8081
+.L80029c7c: li $a1, 0x80808081
 .L80029c84: sll $v0, $s2, 0xc
 .L80029c88: mult $v0, $a1
 .L80029c8c: mfhi $t1
@@ -28358,8 +28337,7 @@ F0x8002a7cc:
 .L8002a7cc: addiu $sp, -0x40
 .L8002a7d0: sw $s1, 0x34($sp)
 .L8002a7d4: move_ $s1, $a1
-.L8002a7d8: lui $v0, 0xb60b
-.L8002a7dc: ori $v0, 0x60b7
+.L8002a7d8: li $v0, 0xb60b60b7
 .L8002a7e0: mult $s1, $v0
 .L8002a7e4: sw $s2, 0x38($sp)
 .L8002a7e8: move_ $s2, $a0
@@ -29879,8 +29857,7 @@ F0x8002bcec:
 .L8002be60: nop
 .L8002be64: nop
 .L8002be68: nop
-.L8002be6c: lui $a1, 0x8208
-.L8002be70: ori $a1, 0x2083
+.L8002be6c: li $a1, 0x82082083
 .L8002be74: lui $v0, 0x8008
 .L8002be78: lw $v0, 0x148c($v0)
 .L8002be7c: lui $v1, 0x8008
@@ -30669,8 +30646,7 @@ F0x8002c984:
 .L8002ca7c: addiu $a2, 0x3
 .L8002ca80: li $v1, 0x1
 .L8002ca84: sllv $v1, $v1, $a2
-.L8002ca88: lui $a1, 0x1f80
-.L8002ca8c: ori $a1, 0x1080
+.L8002ca88: li $a1, 0x1f801080
 .L8002ca90: sll $v0, $s0, 0x4
 .L8002ca94: addu $a1, $v0, $a1
 .L8002ca98: lui $a0, 0x8006
@@ -32111,20 +32087,17 @@ F0x8002e0ac:
 
 .global F0x8002e10c
 F0x8002e10c:
-.L8002e10c: lui $v1, 0x1b4e
-.L8002e110: ori $v1, 0x81b5
+.L8002e10c: li $v1, 0x1b4e81b5
 .L8002e114: addiu $a0, 0x96
 .L8002e118: mult $a0, $v1
 .L8002e11c: move_ $v0, $a1
-.L8002e120: lui $a1, 0x8888
-.L8002e124: ori $a1, 0x8889
+.L8002e120: li $a1, 0x88888889
 .L8002e128: mfhi $v1
 .L8002e12c: sra $a3, $v1, 0x3
 .L8002e130: sra $v1, $a0, 0x1f
 .L8002e134: subu $a3, $v1
 .L8002e138: mult $a3, $a1
-.L8002e13c: lui $t1, 0x6666
-.L8002e140: ori $t1, 0x6667
+.L8002e13c: li $t1, 0x66666667
 .L8002e144: sll $a1, $a3, 0x2
 .L8002e148: addu $a1, $a3
 .L8002e14c: sll $v1, $a1, 0x4
@@ -34698,8 +34671,7 @@ F0x800306e0:
 F0x8003078c:
 .L8003078c: addiu $sp, -0x18
 .L80030790: sw $ra, 0x10($sp)
-.L80030794: lui $a1, 0x1f80
-.L80030798: ori $a1, 0x1d80
+.L80030794: li $a1, 0x1f801d80
 .L8003079c: move_ $v1, $zr
 .L800307a0: la_ $a0, D0x8005c07c
 .L800307a8: lhu $v0, ($a0)
@@ -40597,8 +40569,7 @@ F0x80036070:
 .L800360cc: addiu $v0, 0x7f
 .L800360d0: sra $v0, 0x7
 .L800360d4: addu $a1, $a0, $v0
-.L800360d8: lui $v1, 0x2aaa
-.L800360dc: ori $v1, 0xaaab
+.L800360d8: li $v1, 0x2aaaaaab
 .L800360e0: sll $v0, $a1, 0x10
 .L800360e4: sra $a0, $v0, 0x10
 .L800360e8: mult $a0, $v1
@@ -40665,8 +40636,7 @@ F0x8003619c:
 .L800361d4: subu $v0, $a0
 .L800361d8: mult $v1, $v0
 .L800361dc: mflo $v1
-.L800361e0: lui $v0, 0x8206
-.L800361e4: ori $v0, 0x1029
+.L800361e0: li $v0, 0x82061029
 .L800361e8: mult $v1, $v0
 .L800361ec: lb $a0, -0xa($t0)
 .L800361f0: mfhi $a1
@@ -41077,8 +41047,7 @@ F0x8003680c:
 .L80036828: subu $v0, $a0
 .L8003682c: mult $v1, $v0
 .L80036830: mflo $v1
-.L80036834: lui $v0, 0x8206
-.L80036838: ori $v0, 0x1029
+.L80036834: li $v0, 0x82061029
 .L8003683c: mult $v1, $v0
 .L80036840: lb $a0, -0xe($t0)
 .L80036844: mfhi $v0
@@ -41431,8 +41400,7 @@ F0x80036cdc:
 .L80036da8: nop
 .L80036dac: mult $a1, $a0
 .L80036db0: mflo $a0
-.L80036db4: lui $v0, 0x8208
-.L80036db8: ori $v0, 0x2083
+.L80036db4: li $v0, 0x82082083
 .L80036dbc: mult $a0, $v0
 .L80036dc0: sra $v1, $a0, 0x1f
 .L80036dc4: mfhi $t2
@@ -41639,8 +41607,7 @@ F0x8003701c:
 .L800370c8: lui $s5, 0x204
 .L800370cc: ori $s5, 0x811
 .L800370d0: li $s7, 0x7f
-.L800370d4: lui $s3, 0x8208
-.L800370d8: ori $s3, 0x2083
+.L800370d4: li $s3, 0x82082083
 .L800370dc: lui $s4, 0x8002
 .L800370e0: ori $s4, 0x9
 .L800370e4: la_ $s8, D0x80082398
@@ -41702,8 +41669,7 @@ F0x8003701c:
 .L800371c8: subu $v0, $a0
 .L800371cc: mult $v1, $v0
 .L800371d0: mflo $v1
-.L800371d4: lui $v0, 0x8206
-.L800371d8: ori $v0, 0x1029
+.L800371d4: li $v0, 0x82061029
 .L800371dc: mult $v1, $v0
 .L800371e0: lui $v0, 0x8008
 .L800371e4: addu $v0, $s0
@@ -42125,8 +42091,7 @@ F0x8003776c:
 .L80037840: andi $a3, $s1, 0xffff
 .L80037844: lui $s5, 0x8102
 .L80037848: ori $s5, 0x409
-.L8003784c: lui $s2, 0x8206
-.L80037850: ori $s2, 0x1029
+.L8003784c: li $s2, 0x82061029
 .L80037854: move_ $t5, $s3
 .L80037858: sll $s1, $t5, 0x4
 .L8003785c: lui $t4, 0x204
@@ -43817,8 +43782,7 @@ F0x800391bc:
 .L800391c8: bltz $v0, .L80039298
 .L800391cc: move_ $t1, $zr
 .L800391d0: lui $t4, 0x8000
-.L800391d4: lui $t2, 0x2fff
-.L800391d8: ori $t2, 0xffff
+.L800391d4: li $t2, 0x2fffffff
 .L800391dc: lui $t3, 0xfff
 .L800391e0: ori $t3, 0xffff
 .L800391e4: lui $t0, 0x8006
@@ -43868,8 +43832,7 @@ F0x800391bc:
 .L80039294: nop
 .L80039298: bltz $v0, .L800392dc
 .L8003929c: move_ $t1, $zr
-.L800392a0: lui $a1, 0x2fff
-.L800392a4: ori $a1, 0xffff
+.L800392a0: li $a1, 0x2fffffff
 .L800392a8: move_ $a0, $v0
 .L800392ac: lui $v1, 0x8006
 .L800392b0: lw $v1, -0x3d18($v1)
@@ -45825,8 +45788,7 @@ F0x8003ac18:
 .global F0x8003afcc
 F0x8003afcc:
 .L8003afcc: addu $a3, $a1
-.L8003afd0: lui $a1, 0x2aaa
-.L8003afd4: ori $a1, 0xaaab
+.L8003afd0: li $a1, 0x2aaaaaab
 .L8003afd8: andi $v1, $a3, 0xffff
 .L8003afdc: srl $v0, $v1, 0x7
 .L8003afe0: addu $a2, $v0
@@ -48425,8 +48387,7 @@ F0x8003d65c:
 .L8003d6b0: addiu $a0, 0x1
 .L8003d6b4: sb $zr, ($a0)
 .L8003d6b8: lw $v1, 0x154($zr)
-.L8003d6bc: lui $v0, 0xcccc
-.L8003d6c0: ori $v0, 0xcccd
+.L8003d6bc: li $v0, 0xcccccccd
 .L8003d6c4: multu $v1, $v0
 .L8003d6c8: lw $s0, 0x150($zr)
 .L8003d6cc: mfhi $a2
@@ -48466,8 +48427,7 @@ F0x8003d65c:
 .L8003d758: j .L8003d7d0
 .L8003d75c: sw $v0, 0x34($s0)
 .L8003d760: lw $v1, 0x154($zr)
-.L8003d764: lui $v0, 0xcccc
-.L8003d768: ori $v0, 0xcccd
+.L8003d764: li $v0, 0xcccccccd
 .L8003d76c: multu $v1, $v0
 .L8003d770: lw $s0, 0x150($zr)
 .L8003d774: mfhi $a2
@@ -48523,8 +48483,7 @@ F0x8003d7f8:
 .L8003d830: li $v0, 0x1
 .L8003d834: sw $v0, ($s2)
 .L8003d838: lw $v1, 0x154($zr)
-.L8003d83c: lui $v0, 0xcccc
-.L8003d840: ori $v0, 0xcccd
+.L8003d83c: li $v0, 0xcccccccd
 .L8003d844: multu $v1, $v0
 .L8003d848: lw $s0, 0x150($zr)
 .L8003d84c: lui $s3, 0x8008
