@@ -22,10 +22,10 @@ stats=$v0
 	addu stats, offset_bytes, $v1
 
 cur_stat=$a0
-	addiu cur_stat, stats, 28
+	addiu cur_stat, stats, 0x1c
 
-	# `if stat_idx >= 19 { return; }`
-	sltiu $v0, stat_idx, 19
+	# `if stat_idx >= 0x13 { return; }`
+	sltiu $v0, stat_idx, 0x13
 	beqz $v0, .Lexit
 
 	# `cur_stat = &stats.stats[stat_idx]`
@@ -34,7 +34,7 @@ cur_stat=$a0
 
 	# `*cur_stat = value;`
 	# `value_i16 = value = 0xffff`
-	# `if value_i16 < 0 { *cur_stat = 0; return; }`
+	# `if value_i16 < 0x0 { *cur_stat = 0x0; return; }`
 	sll $v0, value, 0x10
 	sra $v1, $v0, 0x10
 value_i16=$v1
@@ -45,32 +45,32 @@ value_i16=$v1
 	sh $zr, (cur_stat)
 
 
-# `if stat_idx < 2 { if value >= 100 { *cur_stat = 99; } }`
+# `if stat_idx < 0x2 { if value >= 0x64 { *cur_stat = 0x63; } }`
 .Lcheck99:
-	sltiu $v0, stat_idx, 2
+	sltiu $v0, stat_idx, 0x2
 	beqz $v0, .Lcheck9999
-	slti $v0, value_i16, 100
+	slti $v0, value_i16, 0x64
 	bnez $v0, .Lexit
-	li $v0, 99
+	li $v0, 0x63
 	jr $ra
 	sh $v0, (cur_stat)
 
-# `else if stat_idx - 2 < 4 { if value >= 10000 { *cur_stat = 9999; } }`
+# `else if stat_idx - 0x2 < 0x4 { if value >= 0x2710 { *cur_stat = 0x270f; } }`
 .Lcheck9999:
-	addiu $v0, stat_idx, -2
-	sltiu $v0, 4
+	addiu $v0, stat_idx, -0x2
+	sltiu $v0, 0x4
 	beqz $v0, .Lcheck999
-	slti $v0, value_i16, 10000
+	slti $v0, value_i16, 0x2710
 	bnez $v0, .Lexit
-	li $v0, 9999
+	li $v0, 0x270f
 	jr $ra
 	sh $v0, (cur_stat)
 
-# `else { if value >= 1000 { *cur_stat = 999; } }`
+# `else { if value >= 0x3e8 { *cur_stat = 0x3e7; } }`
 .Lcheck999:
-	slti $v0, value_i16, 1000
+	slti $v0, value_i16, 0x3e8
 	bnez $v0, .Lexit
-	li $v0, 999
+	li $v0, 0x3e7
 	sh $v0, (cur_stat)
 
 .Lexit:

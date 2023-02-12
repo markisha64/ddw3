@@ -1,12 +1,12 @@
 .include "macros.s"
 
-# Returns `&D0x80041844[idx + 1]`
+# Returns `&D0x80041844[idx + 0x1]`
 # `fn f5(idx: i32) -> *Unknown1`
 .section section_f5
 .global f5
 f5:
 idx=$a0
-	# If `idx <= 0`, return NULL
+	# If `idx <= 0x0`, return NULL
 	blez idx, .Lexit_0
 
 	# Else calculate `offset = idx * 0xc`

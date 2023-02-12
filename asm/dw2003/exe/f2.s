@@ -6,26 +6,26 @@ f2:
 var_a=$s0
 var_b=$s1
 
-	addiu $sp, -32
-	sw $s0, 16($sp)
+	addiu $sp, -0x20
+	sw $s0, 0x10($sp)
 	move_ $s0, $a0
-	sw $s1, 20($sp)
+	sw $s1, 0x14($sp)
 	move_ $s1, $a1
 
-	# `F0x80014504(&F0x8001270c, 160, 172)`
+	# `F0x80014504(&F0x8001270c, 0xa0, 0xac)`
 	la_ $a0, F0x8001270c
-	li $a1, 160
-	sw $ra, 24($sp)
+	li $a1, 0xa0
+	sw $ra, 0x18($sp)
 	jal F0x80014504
-	li $a2, 172
+	li $a2, 0xac
 
-	li $v1, 1
-	sw var_a, 80($v0)
-	sw $v1, 84($v0)
-	sw var_b, 88($v0)
+	li $v1, 0x1
+	sw var_a, 0x50($v0)
+	sw $v1, 0x54($v0)
+	sw var_b, 0x58($v0)
 
-	lw $ra, 24($sp)
-	lw $s1, 20($sp)
-	lw $s0, 16($sp)
+	lw $ra, 0x18($sp)
+	lw $s1, 0x14($sp)
+	lw $s0, 0x10($sp)
 	jr $ra
-	addiu $sp, 32
+	addiu $sp, 0x20

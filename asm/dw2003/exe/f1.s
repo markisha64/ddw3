@@ -22,15 +22,15 @@ cur_ptr=$a1
 	move_ $v0, cur_idx
 
 	# Else try the next one
-	addiu cur_idx, 1
-	slti $v0, cur_idx, 52
+	addiu cur_idx, 0x1
+	slti $v0, cur_idx, 0x34
 	bnez $v0, .Lloop
-	addiu cur_ptr, 88
+	addiu cur_ptr, 0x58
 
-# Return -1 if we didn't find it
+# Return -0x1 if we didn't find it
 .Lnot_found:
 	jr $ra
-	li $v0, -1
+	li $v0, -0x1
 
 .Lfound:
 	jr $ra

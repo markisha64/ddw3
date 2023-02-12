@@ -11,16 +11,16 @@ STFGTREP_f0:
 	sw $s2, 0x20($sp)
 	sw $s0, 0x18($sp)
 
-	lw $v0, 0xc($s1)  # $v0 = src[3]
+	lw $v0, 0xc($s1)  # $v0 = src[0x3]
 	nop
 
-	beqz $v0, .L0  # $v0 == 0
+	beqz $v0, .L0  # $v0 == 0x0
 	move_ $s2, $a1 # $s2 = dst
 
-	bltz $v0, .L0  # $v0 < 0
+	bltz $v0, .L0  # $v0 < 0x0
 	slti $v0, 0x4
 
-	bnez $v0, .Lexit # $v0 != 0
+	bnez $v0, .Lexit # $v0 != 0x0
 	nop
 
 .L0:
@@ -49,7 +49,7 @@ STFGTREP_f0:
 	jalr $v0
 	move_ $a3, $a2
 
-	# args: (&sp[0x10], 0x3, 0x1000, 0, 0, 0x140, 0xf0)
+	# args: (&sp[0x10], 0x3, 0x1000, 0x0, 0x0, 0x140, 0xf0)
 	addiu $a0, $sp, 0x10
 	li $a1, 0x3
 	li $a2, 0x1000
@@ -62,7 +62,7 @@ STFGTREP_f0:
 	jalr $v0
 	sh $v1, 0x16($sp)
 
-	# args: (prev_fn_ret, 0, 0, 0)
+	# args: (prev_fn_ret, 0x0, 0x0, 0x0)
 	move_ $a0, $v0
 	move_ $a1, $zr
 	move_ $a2, $a1

@@ -7,8 +7,8 @@ f10:
 offset=$a0
 item_idx=$s1
 
-	addiu $sp, -32
-	sw $s1, 20($sp)
+	addiu $sp, -0x20
+	sw $s1, 0x14($sp)
 	move_ $s1, $a1
 
 	# `offset_bytes = offset * 0x3dc`
@@ -22,21 +22,21 @@ offset_bytes=$v0
 	# `stats = &DIGIMON_CUR_STATS[offset]`
 stats=$s0
 	la_ $v1, DIGIMON_CUR_STATS
-	sw $s0, 16($sp)
+	sw $s0, 0x10($sp)
 	addu stats, offset_bytes, $v1
 
 	# `f5_ret: *Unknown1 = f5(item_idx)`
 	lui $v0, %hi(D0x80042b98)
 	lw $v0, %lo(D0x80042b98)($v0)
-	sw $ra, 24($sp)
+	sw $ra, 0x18($sp)
 	jalr $v0
 	move_ $a0, item_idx
 
 	# `$v1 = &stats.items`
 cur_item=$v1
 	move_ $a0, $zr
-	li $a2, 7
-	addiu cur_item, stats, 960
+	li $a2, 0x7
+	addiu cur_item, stats, 0x3c0
 
 	# `$a1: *const () = f5_ret.f0`
 	lw $a1, ($v0)
@@ -49,38 +49,38 @@ cur_item=$v1
 	bne $v0, $s1, .Lcontinue
 	nop
 
-	# `if $a1.f1 != 7 { *cur_item = 0; return 1; }`
+	# `if $a1.f1 != 0x7 { *cur_item = 0x0; return 0x1; }`
 	# TODO: If `f5_ret.f0` points to `D0x8005cb54`, this doesn't make as much sense, check why
-	lbu $v0, 2($a1)
+	lbu $v0, 0x2($a1)
 	nop
 	bne $v0, $a2, .Lunequip_cur_return_1
 	nop
 
-	# Else unequip left and right items and return 1
-	sh $zr, 964(stats) # `stats.items.right`
+	# Else unequip left and right items and return 0x1
+	sh $zr, 0x3c4(stats) # `stats.items.right`
 	j .Lreturn_1
-	sh $zr, 966(stats) # `stats.items.left`
+	sh $zr, 0x3c6(stats) # `stats.items.left`
 
 # Unequips the current items and exits
 .Lunequip_cur_return_1:
 	sh $zr, (cur_item)
 
-# Exits with 1
+# Exits with 0x1
 .Lreturn_1:
 	j .Lexit
-	li $v0, 1
+	li $v0, 0x1
 
-# Continues to the next loop, or exits with 0
+# Continues to the next loop, or exits with 0x0
 .Lcontinue:
-	addiu $a0, 1
-	slti $v0, $a0, 6
+	addiu $a0, 0x1
+	slti $v0, $a0, 0x6
 	bnez $v0, .Lloop
-	addiu cur_item, 2
+	addiu cur_item, 0x2
 	move_ $v0, $zr
 
 .Lexit:
-	lw $ra, 24($sp)
-	lw $s1, 20($sp)
-	lw $s0, 16($sp)
+	lw $ra, 0x18($sp)
+	lw $s1, 0x14($sp)
+	lw $s0, 0x10($sp)
 	jr $ra
-	addiu $sp, 32
+	addiu $sp, 0x20

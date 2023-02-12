@@ -12,12 +12,12 @@ end_ptr=$v1
 	la_ end_ptr, D0x80082cb0
 .Lzero_loop:
 	sw $zr, (cur_ptr)
-	addiu cur_ptr, 4
+	addiu cur_ptr, 0x4
 	bltu cur_ptr, end_ptr, .Lzero_loop
 	nop
 
-# Setup the stack pointer from `data[1]` adjusted to `KSEG0`
-	li $v0, 4
+# Setup the stack pointer from `data[0x1]` adjusted to `KSEG0`
+	li $v0, 0x4
 	nop
 	nop
 	nop
@@ -29,7 +29,7 @@ stack_ptr_kuseg=$v0
 	lui $t0, 0x8000
 	or $sp, stack_ptr_kuseg, $t0
 
-# Initialize the heap at `D0x80082cb0 + 4` until `$sp - HEAP_END_RESERVED`
+# Initialize the heap at `D0x80082cb0 + 0x4` until `$sp - HEAP_END_RESERVED`
 # 0x80082cb4..(0x80200004 - 0x8000) (size 0x175350)
 	la_ $a0, D0x80082cb0
 	sll $a0, 0x3
@@ -43,7 +43,7 @@ stack_ptr_kuseg=$v0
 	la_ $gp, D0x8005cb50
 	move_ $s8, $sp
 	jal InitHeap
-	addi $a0, 4
+	addi $a0, 0x4
 	lw $ra, 0x8005cce8
 	nop
 
@@ -54,7 +54,7 @@ stack_ptr_kuseg=$v0
 # Then break if we get back from it
 	break 0x0, 0x1
 
-# [u32; 4]
+# [u32; 0x4]
 .Ldata:
 	.word 0x200000
 	.word 0x200000 # Stack pointer (in KUSEG)

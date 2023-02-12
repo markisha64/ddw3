@@ -5,10 +5,10 @@
 .section "section_f0"
 .global f0
 f0:
-	addiu $sp, -24
-	sw $ra, 16($sp)
+	addiu $sp, -0x18
+	sw $ra, 0x10($sp)
 
-# If the return from `idx = f1()` is negative, return 0
+# If the return from `idx = f1()` is negative, return 0x0
 	jal f1
 	nop
 	move_ $v1, $v0
@@ -25,7 +25,7 @@ f0:
 	addu $v0, $v1
 
 .Lexit:
-	lw $ra, 16($sp)
+	lw $ra, 0x10($sp)
 	nop
 	jr $ra
-	addiu $sp, 24
+	addiu $sp, 0x18
