@@ -48,7 +48,7 @@ stack_ptr_kuseg=$v0
 	nop
 
 # Enter the main loop
-	jal F0x80014524
+	jal f12
 	nop
 
 # Then break if we get back from it

@@ -7389,111 +7389,112 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8004de08: *const u32 = unsafe { &F0x8001d1e4 };
 	pub static mut D0x8004de0c: *const u32 = unsafe { &F0x8001d264 };
 
+	// Function pointer array
 	// Used by `STFGTREP_f0`
-	pub static mut D0x8004de10: u32 = 0x00000000;
-	pub static mut D0x8004de14: u32 = 0x00000000;
-	pub static mut D0x8004de18: u32 = 0x00000000;
-	pub static mut D0x8004de1c: u32 = 0x00000000;
-	pub static mut D0x8004de20: u32 = 0x00000000;
-	pub static mut D0x8004de24: u32 = 0x00000000;
-	pub static mut D0x8004de28: u32 = 0x00000000;
-	pub static mut D0x8004de2c: u32 = 0x00000000;
-	//
-	pub static mut D0x8004de30: u32 = 0x00000000;
-	pub static mut D0x8004de34: u32 = 0x00000000;
-	pub static mut D0x8004de38: u32 = 0x00000000;
-	pub static mut D0x8004de3c: u32 = 0x00000000;
-	pub static mut D0x8004de40: u32 = 0x00000000;
-	pub static mut D0x8004de44: u32 = 0x00000000;
-	//
-	pub static mut D0x8004de48: u32 = 0x00000000;
-	pub static mut D0x8004de4c: u32 = 0x00000000;
-	pub static mut D0x8004de50: u32 = 0x00000000;
-	pub static mut D0x8004de54: u32 = 0x00000000;
-	pub static mut D0x8004de58: u32 = 0x00000000;
-	pub static mut D0x8004de5c: u32 = 0x00000000;
-	pub static mut D0x8004de60: u32 = 0x00000000;
-	pub static mut D0x8004de64: u32 = 0x00000000;
-	pub static mut D0x8004de68: u32 = 0x00000000;
-	pub static mut D0x8004de6c: u32 = 0x00000000;
-	pub static mut D0x8004de70: u32 = 0x00000000;
-	pub static mut D0x8004de74: u32 = 0x00000000;
-	pub static mut D0x8004de78: u32 = 0x00000000;
-	pub static mut D0x8004de7c: u32 = 0x00000000;
-	pub static mut D0x8004de80: u32 = 0x00000000;
-	pub static mut D0x8004de84: u32 = 0x00000000;
-	pub static mut D0x8004de88: u32 = 0x00000000;
-	pub static mut D0x8004de8c: u32 = 0x00000000;
-	pub static mut D0x8004de90: u32 = 0x00000000;
-	pub static mut D0x8004de94: u32 = 0x00000000;
-	pub static mut D0x8004de98: u32 = 0x00000000;
-	pub static mut D0x8004de9c: u32 = 0x00000000;
-	pub static mut D0x8004dea0: u32 = 0x00000000;
-	pub static mut D0x8004dea4: u32 = 0x00000000;
-	pub static mut D0x8004dea8: u32 = 0x00000000;
-	pub static mut D0x8004deac: u32 = 0x00000000;
-	pub static mut D0x8004deb0: u32 = 0x00000000;
-	pub static mut D0x8004deb4: u32 = 0x00000000;
-	pub static mut D0x8004deb8: u32 = 0x00000000;
-	pub static mut D0x8004debc: u32 = 0x00000000;
-	pub static mut D0x8004dec0: u32 = 0x00000000;
-	pub static mut D0x8004dec4: u32 = 0x00000000;
-	pub static mut D0x8004dec8: u32 = 0x00000000;
-	pub static mut D0x8004decc: u32 = 0x00000000;
-	pub static mut D0x8004ded0: u32 = 0x00000000;
-	pub static mut D0x8004ded4: u32 = 0x00000000;
-	pub static mut D0x8004ded8: u32 = 0x00000000;
-	pub static mut D0x8004dedc: u32 = 0x00000000;
-	pub static mut D0x8004dee0: u32 = 0x00000000;
-	pub static mut D0x8004dee4: u32 = 0x00000000;
-	pub static mut D0x8004dee8: u32 = 0x00000000;
-	pub static mut D0x8004deec: u32 = 0x00000000;
-	pub static mut D0x8004def0: u32 = 0x00000000;
-	pub static mut D0x8004def4: u32 = 0x00000000;
-	pub static mut D0x8004def8: u32 = 0x00000000;
-	pub static mut D0x8004defc: u32 = 0x00000000;
-	pub static mut D0x8004df00: u32 = 0x00000000;
-	pub static mut D0x8004df04: u32 = 0x00000000;
-	pub static mut D0x8004df08: u32 = 0x00000000;
-	pub static mut D0x8004df0c: u32 = 0x00000000;
-	pub static mut D0x8004df10: u32 = 0x00000000;
-	pub static mut D0x8004df14: u32 = 0x00000000;
-	pub static mut D0x8004df18: u32 = 0x00000000;
-	pub static mut D0x8004df1c: u32 = 0x00000000;
-	pub static mut D0x8004df20: u32 = 0x00000000;
-	pub static mut D0x8004df24: u32 = 0x00000000;
-	pub static mut D0x8004df28: u32 = 0x00000000;
-	pub static mut D0x8004df2c: u32 = 0x00000000;
-	pub static mut D0x8004df30: u32 = 0x00000000;
-	pub static mut D0x8004df34: u32 = 0x00000000;
-	pub static mut D0x8004df38: u32 = 0x00000000;
-	pub static mut D0x8004df3c: u32 = 0x00000000;
-	pub static mut D0x8004df40: u32 = 0x00000000;
-	pub static mut D0x8004df44: u32 = 0x00000000;
-	pub static mut D0x8004df48: u32 = 0x00000000;
-	pub static mut D0x8004df4c: u32 = 0x00000000;
-	pub static mut D0x8004df50: u32 = 0x00000000;
-	pub static mut D0x8004df54: u32 = 0x00000000;
-	pub static mut D0x8004df58: u32 = 0x00000000;
-	pub static mut D0x8004df5c: u32 = 0x00000000;
+	pub static mut D0x8004de10: [*const u32; 100] = unsafe { [
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		core::ptr::null(),
+		// Loaded by `CNTY_SEL.PRO`, `STITSHOP.PRO` and `STFGTREP_f0`
+		&F0x8001d714,
+		&F0x8001d7c4,
+		&F0x8001d844,
+		&F0x8001d854,
+		&F0x8001d860,
+		&F0x8001d4e0,
+		&F0x8001d504,
+		&F0x8001dbe0,
+		&F0x8001dc7c,
+		&F0x8001d8cc,
+		&F0x8001da00,
+		&F0x8001da84,
+		&F0x8001dd04,
+		&F0x8001d6e4,
+		&F0x8001d6f4,
+		&F0x8001d704,
+	] };
 
-	// Loaded by `CNTY_SEL.PRO`, `STITSHOP.PRO` and `STFGTREP_f0`
-	pub static mut D0x8004df60: *const u32 = unsafe { &F0x8001d714 };
-	pub static mut D0x8004df64: *const u32 = unsafe { &F0x8001d7c4 };
-	pub static mut D0x8004df68: *const u32 = unsafe { &F0x8001d844 };
-	pub static mut D0x8004df6c: *const u32 = unsafe { &F0x8001d854 };
-	pub static mut D0x8004df70: *const u32 = unsafe { &F0x8001d860 };
-	pub static mut D0x8004df74: *const u32 = unsafe { &F0x8001d4e0 };
-	pub static mut D0x8004df78: *const u32 = unsafe { &F0x8001d504 };
-	pub static mut D0x8004df7c: *const u32 = unsafe { &F0x8001dbe0 };
-	pub static mut D0x8004df80: *const u32 = unsafe { &F0x8001dc7c };
-	pub static mut D0x8004df84: *const u32 = unsafe { &F0x8001d8cc };
-	pub static mut D0x8004df88: *const u32 = unsafe { &F0x8001da00 };
-	pub static mut D0x8004df8c: *const u32 = unsafe { &F0x8001da84 };
-	pub static mut D0x8004df90: *const u32 = unsafe { &F0x8001dd04 };
-	pub static mut D0x8004df94: *const u32 = unsafe { &F0x8001d6e4 };
-	pub static mut D0x8004df98: *const u32 = unsafe { &F0x8001d6f4 };
-	pub static mut D0x8004df9c: *const u32 = unsafe { &F0x8001d704 };
 	//
 	pub static mut D0x8004dfa0: u32 = 0x00040002;
 	pub static mut D0x8004dfa4: u32 = 0x00100008;
@@ -16229,8 +16230,10 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8005aed4: u32 = 0x1f8010b4;
 	pub static mut D0x8005aed8: u32 = 0x00067350;
 	pub static mut D0x8005aedc: u32 = 0x00470000;
-	pub static mut D0x8005aee0: u32 = 0x1f801814;
-	pub static mut D0x8005aee4: u32 = 0x1f801110;
+
+	pub static mut D0x8005aee0: *const u32 = 0x1f801814 as *const _;
+	pub static mut D0x8005aee4: *const u32 = 0x1f801110 as *const _;
+
 	pub static mut D0x8005aee8: u32 = 0x00000000;
 	pub static mut D0x8005aeec: u32 = 0x00000000;
 	pub static mut D0x8005aef0: u32 = 0x00000000;
@@ -17311,15 +17314,19 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8005bfb0: u32 = 0x00000000;
 	pub static mut D0x8005bfb4: u32 = 0x00000000;
 	//
-	pub static mut D0x8005bfb8: *const u32 = unsafe { &D0x80010a88 };
-	pub static mut D0x8005bfbc: u32 = 0x00000000;
-	pub static mut D0x8005bfc0: *const u32 = unsafe { &F0x8002ee58 };
-	pub static mut D0x8005bfc4: *const u32 = unsafe { &F0x8002ebb0 };
-	pub static mut D0x8005bfc8: *const u32 = unsafe { &F0x8002efa0 };
-	pub static mut D0x8005bfcc: u32 = 0x00000000;
-	pub static mut D0x8005bfd0: *const u32 = unsafe { &F0x8002f040 };
-	pub static mut D0x8005bfd4: *const u32 = unsafe { &D0x8005af50 };
-	pub static mut D0x8005bfd8: *const *const u32 = unsafe { &D0x8005bfb8 };
+	pub static mut D0x8005bfb8: [*const u32; 8] = unsafe { [
+		&D0x80010a88,
+		core::ptr::null(),
+		&F0x8002ee58,
+		&F0x8002ebb0,
+		&F0x8002efa0,
+		core::ptr::null(),
+		&F0x8002f040,
+		&D0x8005af50,
+	] };
+
+	pub static mut D0x8005bfd8: *const [*const u32; 8] = unsafe { &D0x8005bfb8 };
+
 	pub static mut D0x8005bfdc: u32 = 0x1f801070;
 	pub static mut D0x8005bfe0: u32 = 0x1f801074;
 	pub static mut D0x8005bfe4: u32 = 0x1f8010f0;
@@ -17354,7 +17361,9 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8005c04c: u32 = 0x1f801080;
 	pub static mut D0x8005c050: u32 = 0x00000000;
 	pub static mut D0x8005c054: u32 = 0x00000000;
-	pub static mut D0x8005c058: u32 = 0x00000000;
+
+	pub static mut D0x8005c058: u32 = 0x00000000; // Touched by `{set, get}_D0x8005c058`
+
 	pub static mut D0x8005c05c: u32 = 0x00000000;
 	pub static mut D0x8005c060: u32 = 0x00000000;
 	pub static mut D0x8005c064: u32 = 0x00000000;
@@ -18169,7 +18178,14 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8005cca0: *const u32 = unsafe { &f0 };
 	pub static mut D0x8005cca4: u32 = 0x0000094e;
 	pub static mut D0x8005cca8: u32 = 0x00000002;
+
+
+	// Used by `f12`.
+	// `0x0` makes the game screen large
+	// `0x1` makes it slighly smaller
 	pub static mut D0x8005ccac: u32 = 0x00000000;
+
+
 	pub static mut D0x8005ccb0: u32 = 0x00000001;
 	pub static mut D0x8005ccb4: u32 = 0x00000000;
 	pub static mut D0x8005ccb8: u32 = 0x01e00140;
