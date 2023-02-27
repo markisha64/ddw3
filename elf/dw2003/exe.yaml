@@ -17,12 +17,14 @@ objs:
   - /build/asm/dw2003/exe/f10.o
   - /build/asm/dw2003/exe/f11.o
   - /build/asm/dw2003/exe/f12.o
+  - /build/asm/dw2003/exe/f13.o
   - /build/asm/dw2003/exe/loading.o
   - /build/rust/dw2003_exe_data.a
   - /build/rust/dw2003_exe_digimon_profiles.a
 sections:
   - fns00
   - section_start
+  - section_f13
   - fns01
   - section_f2
   - section_f1
