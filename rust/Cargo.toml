@@ -8,3 +8,11 @@ members = [
 	"dw2003_pro_STFGTREP_data",
 	"util",
 ]
+
+[workspace.dependencies]
+
+# Workspace
+dw2003_exe_data = { path = "dw2003_exe_data" }
+dw2003_exe_digimon_profiles = { path = "dw2003_exe_digimon_profiles" }
+dw2003_pro_STFGTREP_data = { path = "dw2003_pro_STFGTREP_data" }
+util = { path = "util" }

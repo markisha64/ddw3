@@ -5,9 +5,6 @@ version = "0.1.0"
 
 [dependencies]
 
-# Logging
-tracing = "0.1.37"
-tracing-subscriber = { version = "0.3.16", features = ["env-filter"] }
-
-# Error handling
-anyhow = "1.0.68"
+anyhow = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }

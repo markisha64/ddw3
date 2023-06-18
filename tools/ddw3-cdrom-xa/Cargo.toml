@@ -6,16 +6,9 @@ version = "0.1.0"
 
 [dependencies]
 
-# Ddw3
-ddw3-bytes = { path = "../ddw3-bytes" }
-ddw3-util = { path = "../ddw3-util" }
-
-# Log
-tracing = "0.1.37"
-
-# Util
-bitflags = "1.3.2"
-byteorder = "1.4.3"
-
-# Derives
-thiserror = "1.0.38"
+bitflags = { workspace = true }
+byteorder = { workspace = true }
+ddw3-bytes = { workspace = true }
+ddw3-util = { workspace = true }
+thiserror = { workspace = true }
+tracing = { workspace = true }

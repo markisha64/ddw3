@@ -7,12 +7,7 @@ version = "0.1.0"
 
 [dependencies]
 
-# Serde
-serde = "1.0.152"
-
-# Error handling
-thiserror = "1.0.38"
-
-# Util
-ascii = "1.1.0"
-ref-cast = "1.0.14"
+ascii = { workspace = true }
+ref-cast = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }

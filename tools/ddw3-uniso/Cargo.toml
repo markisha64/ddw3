@@ -6,34 +6,17 @@ version = "0.1.0"
 
 [dependencies]
 
-# Ddw3
-ddw3-bytes = { path = "../ddw3-bytes" }
-ddw3-iso9660 = { path = "../ddw3-iso9660" }
-ddw3-logger = { path = "../ddw3-logger" }
-ddw3-util = { path = "../ddw3-util" }
-
-# Text
-ascii = "1.1.0"
-
-# Helpers
-byteorder = "1.4.3"
-int-conv = "0.1.4"
-
-# Cmd
-clap = { version = "4.1.4", features = ["derive"] }
-
-# Logging
-tracing = "0.1.37"
-
-# Error handling
-anyhow = "1.0.68"
-
-# Derives
-derive_more = "0.99.17"
-
-# Serde
-serde = { version = "1.0.152", features = ["derive"] }
-serde_yaml = "0.9.17"
-
-# Xml
-xml-rs = "0.8.4"
+anyhow = { workspace = true }
+ascii = { workspace = true }
+byteorder = { workspace = true }
+clap = { workspace = true }
+ddw3-bytes = { workspace = true }
+ddw3-iso9660 = { workspace = true }
+ddw3-logger = { workspace = true }
+ddw3-util = { workspace = true }
+derive_more = { workspace = true }
+int-conv = { workspace = true }
+serde = { workspace = true }
+serde_yaml = { workspace = true }
+tracing = { workspace = true }
+xml-rs = { workspace = true }

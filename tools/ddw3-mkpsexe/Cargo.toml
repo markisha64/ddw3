@@ -5,22 +5,11 @@ version = "0.1.0"
 
 [dependencies]
 
-# Ddw3
-ddw3-psexe = { path = "../ddw3-psexe" }
-ddw3-bytes = { path = "../ddw3-bytes" }
-ddw3-logger = { path = "../ddw3-logger" }
-
-# Cmd
-clap = { version = "4.1.4", features = ["derive"] }
-
-# Logging
-tracing = "0.1.37"
-
-# Error handling
-anyhow = "1.0.68"
-
-# Elf
-goblin = "0.6.0"
-
-# Util
-byteorder = "1.4.3"
+anyhow = { workspace = true }
+byteorder = { workspace = true }
+clap = { workspace = true }
+ddw3-bytes = { workspace = true }
+ddw3-logger = { workspace = true }
+ddw3-psexe = { workspace = true }
+goblin = { workspace = true }
+tracing = { workspace = true }

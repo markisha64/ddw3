@@ -5,17 +5,8 @@ version = "0.1.0"
 
 [dependencies]
 
-# Ddw3
-ddw3-bytes = { path = "../ddw3-bytes" }
-
-# Logging
-tracing = "0.1.37"
-
-# Error handling
-anyhow = "1.0.68"
-
-# Elf
-goblin = "0.6.0"
-
-# Util
-byteorder = "1.4.3"
+anyhow = { workspace = true }
+byteorder = { workspace = true }
+ddw3-bytes = { workspace = true }
+goblin = { workspace = true }
+tracing = { workspace = true }
