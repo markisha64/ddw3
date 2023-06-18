@@ -7,7 +7,15 @@ alias:
   ld       : mips-elf-ld # GNU assembler (GNU Binutils) 2.39
   mkpsxiso : mkpsxiso    # MKPSXISO 2.02
   cargo    : cargo       # cargo 1.72.0-nightly (f7b95e316 2023-05-30)
+  bash     : bash        # GNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu)
+  sed      : sed         # sed (GNU sed) 4.9
   sha256sum: sha256sum   # sha256sum (GNU coreutils) 9.3
+  rm       : rm          # rm        (GNU coreutils) 9.3
+  mkdir    : mkdir       # mkdir     (GNU coreutils) 9.3
+  cp       : cp          # cp        (GNU coreutils) 9.3
+  touch    : touch       # touch     (GNU coreutils) 9.3
+  truncate : truncate    # truncate  (GNU coreutils) 9.3
+
 
   # Other tools
   generate_psx_iso_deps   : tools/generate_psx_iso_deps.py
@@ -104,14 +112,14 @@ rules:
       - static: $(compare_deps::dir_name)/
 
     exec:
-      - [bash, -c, '$(generate_compare_deps) > $(compare_deps)']
+      - [$(bash), -c, '$(generate_compare_deps) > $(compare_deps)']
 
   # Clean
   clean:
     exec:
-      - [rm, -rf, $(build_dir)/]
-      - [rm, -rf, tools/target/]
-      - [rm, -rf, rust/target/]
+      - [$(rm), -rf, $(build_dir)/]
+      - [$(rm), -rf, tools/target/]
+      - [$(rm), -rf, rust/target/]
 
   # Directories
   mkdir:
@@ -119,7 +127,7 @@ rules:
       dir: $(build_dir)^(path)/
     out: [$(dir)]
     exec:
-      - [mkdir, -p, $(dir)]
+      - [$(mkdir), -p, $(dir)]
 
   # Psx iso
   mkpsxiso:
@@ -167,8 +175,8 @@ rules:
           - --package=^(name)
           - -Z=unstable-options
           - --out-dir=../$(build_rust_tool_dir)
-        - [cp, target/release/^(name).d, ../$(rust_tool_deps)]
-        - - sed
+        - [$(cp), target/release/^(name).d, ../$(rust_tool_deps)]
+        - - $(sed)
           - -i
           - -e
           - 's,tools/target/release/,$(build_rust_tool_dir)/,g'
@@ -179,8 +187,8 @@ rules:
     out: [$(dummy_buffer)]
     deps: [static: $(dummy_buffer::dir_name)/]
     exec:
-      - [touch, $(dummy_buffer)]
-      - [truncate, --size=35283682, $(dummy_buffer)]
+      - [$(touch), $(dummy_buffer)]
+      - [$(truncate), --size=35283682, $(dummy_buffer)]
 
   # Psexe
   psexe:
@@ -301,7 +309,7 @@ rules:
         - -I$(asm_src::dir_name)
         - --strip-local-absolute
       # Zbuild doesn't support `\\\n` yet
-      - - sed
+      - - $(sed)
         - -z
         - -i
         - -e
@@ -327,7 +335,7 @@ rules:
           - --release
           - --package=^(name)
           - -Z=unstable-options
-        - [cp, $(build_target_dir)/lib^(name).a, ../$(rust_lib)]
+        - [$(cp), $(build_target_dir)/lib^(name).a, ../$(rust_lib)]
 
         # Extract the `.a` and turn it into a `.o`
         # Note: Sometimes the linker doesn't like object files being
@@ -337,7 +345,7 @@ rules:
         #       the crate itself and not any of it's dependencies. This is
         #       *currently* all we need, but in the future we might need to
         #       use the dependencies.
-        - [mkdir, -p, ../$(rust_lib).extracted]
+        - [$(mkdir), -p, ../$(rust_lib).extracted]
         - [$(ar), x, ../$(rust_lib), --output, ../$(rust_lib).extracted]
         - [
             find,
@@ -354,7 +362,7 @@ rules:
           ]
 
         # Then copy the dependency file and adjust the references
-        - [cp, $(build_target_dir)/lib^(name).d, ../$(rust_lib_deps)]
+        - [$(cp), $(build_target_dir)/lib^(name).d, ../$(rust_lib_deps)]
         - - sed
           - -i
           - -e
