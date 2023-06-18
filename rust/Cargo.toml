@@ -1,5 +1,7 @@
 [workspace]
 
+resolver = "2"
+
 members = [
 	"dw2003_exe_data",
 	"dw2003_exe_digimon_profiles",
