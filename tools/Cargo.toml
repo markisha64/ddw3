@@ -26,23 +26,23 @@ members = [
 
 [workspace.dependencies]
 
-anyhow = "1.0.68"
-arrayref = "0.3.6"
+anyhow = "1.0.71"
+arrayref = "0.3.7"
 ascii = "1.1.0"
-bitflags = "1.3.2"
+bitflags = "2.3.2"
 byteorder = "1.4.3"
-clap = { version = "4.1.4", features = ["derive"] }
+clap = { version = "4.3.4", features = ["derive"] }
 derive_more = "0.99.17"
-extend = "1.1.2"
-goblin = "0.6.0"
+extend = "1.2.0"
+goblin = "0.7.1"
 int-conv = "0.1.4"
-ref-cast = "1.0.14"
-serde = { version = "1.0.152", features = ["derive"] }
-serde_yaml = "0.9.17"
-thiserror = "1.0.38"
+ref-cast = "1.0.16"
+serde = { version = "1.0.164", features = ["derive"] }
+serde_yaml = "0.9.21"
+thiserror = "1.0.40"
 tracing = "0.1.37"
-tracing-subscriber = { version = "0.3.16", features = ["env-filter"] }
-xml-rs = "0.8.4"
+tracing-subscriber = { version = "0.3.17", features = ["env-filter"] }
+xml-rs = "0.8.14"
 
 # Workspace
 ddw3-cdrom-xa = { path = "ddw3-cdrom-xa" }

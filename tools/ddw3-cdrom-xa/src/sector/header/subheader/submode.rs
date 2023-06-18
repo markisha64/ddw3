@@ -19,14 +19,13 @@
 // Modules
 mod error;
 
-use std::ops::BitAnd;
-
 // Exports
 pub use error::BytesError;
 
 bitflags::bitflags! {
 	/// Sector submode
 	// TODO: Maybe refactor by having an enum `Video` | `Audio` | `Data` | `Empty` | `Msg` or alike?
+	#[derive(PartialEq, Eq, Clone, Copy, Debug)]
 	pub struct SubMode: u8 {
 		/// This bit must be set for the last sector
 		/// of a logical record.
@@ -78,14 +77,7 @@ impl SubMode {
 	/// Validates this submode
 	fn validate(self) -> Result<(), BytesError> {
 		// If more than 1 of `Audio`, `Video` or `Data` are set, return Err
-		if self
-			.bitand(Self::AUDIO)
-			.bitand(Self::VIDEO)
-			.bitand(Self::DATA)
-			.bits()
-			.count_ones() >
-			1
-		{
+		if (self & Self::AUDIO & Self::VIDEO & Self::DATA).bits().count_ones() > 1 {
 			return Err(BytesError::MoreThan1VideoAudioDataSet);
 		}
 

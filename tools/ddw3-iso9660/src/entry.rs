@@ -35,6 +35,7 @@ pub struct DirEntry {
 }
 
 bitflags::bitflags! {
+	#[derive(PartialEq, Eq, Clone, Copy, Debug)]
 	pub struct Flags: u8 {
 		const HIDDEN     = 0b0000_0001;
 		const DIR        = 0b0000_0010;
