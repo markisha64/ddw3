@@ -7267,7 +7267,7 @@ F0x80016fd8:
 .L80017020: jr $ra
 .L80017024: li $v0, -0x1
 
-.section "fns3"
+.section "fns30"
 
 
 
@@ -32460,7 +32460,7 @@ F0x8002e974:
 ChangeClearPad:
 	bios_jump 0xb0, 0x5b
 
-# Calls `D0x8005bfd8[3]` (i.e. `F0x8002ebb0`)
+# Calls `D0x8005bfd8[3]` (i.e. `f14`)
 .global F0x8002ea1c
 F0x8002ea1c:
 .L8002ea1c: lui $v0, %hi(D0x8005bfd8)
@@ -32469,7 +32469,7 @@ F0x8002ea1c:
 .L8002ea28: sw $ra, 0x10($sp)
 .L8002ea2c: lw $v0, 0xc($v0) # D0x8005bfc4
 .L8002ea30: nop
-.L8002ea34: jalr $v0 # F0x8002ebb0
+.L8002ea34: jalr $v0 # f14
 .L8002ea38: nop
 .L8002ea3c: lw $ra, 0x10($sp)
 .L8002ea40: addiu $sp, 0x18
@@ -32583,60 +32583,7 @@ F0x8002eb98:
 .L8002eba8: jr $ra
 .L8002ebac: sh $a0, ($v1)
 
-.global F0x8002ebb0
-F0x8002ebb0:
-.L8002ebb0: addiu $sp, -0x18
-.L8002ebb4: sw $s0, 0x10($sp)
-.L8002ebb8: la_ $s0, D0x8005af50
-.L8002ebc0: sw $ra, 0x14($sp)
-.L8002ebc4: lhu $v0, ($s0)
-.L8002ebc8: nop
-.L8002ebcc: bnez $v0, .L8002ec78
-.L8002ebd0: move_ $v0, $zr
-.L8002ebd4: lui $v1, 0x8006
-.L8002ebd8: lw $v1, -0x4024($v1)
-.L8002ebdc: lui $v0, 0x8006
-.L8002ebe0: lw $v0, -0x4020($v0)
-.L8002ebe4: lui $a1, 0x3333
-.L8002ebe8: sh $zr, ($v0)
-.L8002ebec: lhu $v0, ($v0)
-.L8002ebf0: ori $a1, 0x3333
-.L8002ebf4: sh $v0, ($v1)
-.L8002ebf8: lui $v0, 0x8006
-.L8002ebfc: lw $v0, -0x401c($v0)
-.L8002ec00: move_ $a0, $s0
-.L8002ec04: sw $a1, ($v0)
-.L8002ec08: jal F0x8002f0b8
-.L8002ec0c: li $a1, 0x41a
-.L8002ec10: jal F0x8002f12c
-.L8002ec14: addiu $a0, $s0, 0x38
-.L8002ec18: beqz $v0, .L8002ec28
-.L8002ec1c: nop
-.L8002ec20: jal F0x8002ec88
-.L8002ec24: nop
-.L8002ec28: la_ $s0, D0x8005af8c
-.L8002ec30: addiu $a0, $s0, -0x4
-.L8002ec34: addiu $v0, $s0, 0xfdc
-.L8002ec38: jal SetCustomExitFromException
-.L8002ec3c: sw $v0, ($s0)
-.L8002ec40: li $v0, 0x1
-.L8002ec44: jal F0x8002f1ac
-.L8002ec48: sh $v0, -0x3c($s0)
-.L8002ec4c: lui $v1, %hi(D0x8005bfd8)
-.L8002ec50: lw $v1, %lo(D0x8005bfd8)($v1)
-.L8002ec54: jal F0x8002f2cc
-.L8002ec58: sw $v0, 0x14($v1)
-.L8002ec5c: lui $a0, %hi(D0x8005bfd8)
-.L8002ec60: lw $a0, %lo(D0x8005bfd8)($a0)
-.L8002ec64: jal CdRemove
-.L8002ec68: sw $v0, 0x4($a0)
-.L8002ec6c: jal ExitCriticalSection
-.L8002ec70: addiu $s0, -0x3c
-.L8002ec74: move_ $v0, $s0
-.L8002ec78: lw $ra, 0x14($sp)
-.L8002ec7c: lw $s0, 0x10($sp)
-.L8002ec80: jr $ra
-.L8002ec84: addiu $sp, 0x18
+.section "fns31"
 
 .global F0x8002ec88
 F0x8002ec88:
@@ -32979,6 +32926,7 @@ F0x8002f12c:
 .L8002f1a4: nop
 .L8002f1a8: nop
 
+# Returns `F0x8002f270`
 .global F0x8002f1ac
 F0x8002f1ac:
 .L8002f1ac: addiu $sp, -0x18
@@ -33058,6 +33006,7 @@ F0x8002f29c:
 .L8002f2c4: nop
 .L8002f2c8: nop
 
+# Returns `F0x8002f498`?
 .global F0x8002f2cc
 F0x8002f2cc:
 .L8002f2cc: addiu $sp, -0x18

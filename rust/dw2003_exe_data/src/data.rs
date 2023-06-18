@@ -292,6 +292,18 @@ impl Unknown4 {
 
 const _ASSERT_DIGIMON_PROFILE_SIZE: [u8; 0x3dc] = [0; core::mem::size_of::<Unknown4>()];
 
+#[repr(C)]
+pub struct Unknown5 {
+	ra: u32,
+	sp: u32,
+	fp: u32,
+	// `$s0..=$s7`
+	sx: [u32; 8],
+	gp: u32,
+}
+const _ASSERT_UNKNOWN5_SIZE: [u8; 0x30] = [0; core::mem::size_of::<Unknown5>()];
+
+
 util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x80040244: [Unknown0; 200] = [
 		Unknown0 { f0: 15, f1: 3, f2: 0, f3: 1  , f4:  0 , f5:  0, f6: 14 , f7: [0 , 0], f8: [10, 1 ], f9: [0 , 0 ], f10: 1  },
@@ -16261,7 +16273,8 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8005af48: u32 = 0x64657672;
 	pub static mut D0x8005af4c: u32 = 0x0000002e;
 	//
-	pub static mut D0x8005af50: u32 = 0x00000000;
+	pub static mut D0x8005af50: u32 = 0x00000000; // Set to `1` by `f14`.
+
 	//
 	pub static mut D0x8005af54: u32 = 0x00000000;
 	pub static mut D0x8005af58: u32 = 0x00000000;
@@ -16276,19 +16289,13 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8005af7c: u32 = 0x00000000;
 	pub static mut D0x8005af80: u32 = 0x00000000;
 	pub static mut D0x8005af84: u32 = 0x00000000;
-	pub static mut D0x8005af88: u32 = 0x00000000;
-	//
-	pub static mut D0x8005af8c: u32 = 0x00000000;
-	pub static mut D0x8005af90: u32 = 0x00000000;
-	pub static mut D0x8005af94: u32 = 0x00000000;
-	pub static mut D0x8005af98: u32 = 0x00000000;
-	pub static mut D0x8005af9c: u32 = 0x00000000;
-	pub static mut D0x8005afa0: u32 = 0x00000000;
-	pub static mut D0x8005afa4: u32 = 0x00000000;
-	pub static mut D0x8005afa8: u32 = 0x00000000;
-	pub static mut D0x8005afac: u32 = 0x00000000;
-	pub static mut D0x8005afb0: u32 = 0x00000000;
-	pub static mut D0x8005afb4: u32 = 0x00000000;
+	pub static mut D0x8005af88: Unknown5 = Unknown5 {
+		ra: 0x00000000,
+		sp: 0x00000000,
+		fp: 0x00000000,
+		sx: [0x00000000; 8],
+		gp: 0x00000000,
+	};
 	pub static mut D0x8005afb8: u32 = 0x00000000;
 	pub static mut D0x8005afbc: u32 = 0x00000000;
 	pub static mut D0x8005afc0: u32 = 0x00000000;
@@ -17293,7 +17300,7 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8005bf5c: u32 = 0x00000000;
 	pub static mut D0x8005bf60: u32 = 0x00000000;
 	pub static mut D0x8005bf64: u32 = 0x00000000;
-	pub static mut D0x8005bf68: u32 = 0x00000000;
+	pub static mut D0x8005bf68: u32 = 0x00000000; // Address used by `f14`
 	pub static mut D0x8005bf6c: u32 = 0x00000000;
 	pub static mut D0x8005bf70: u32 = 0x00000000;
 	pub static mut D0x8005bf74: u32 = 0x00000000;
@@ -17316,20 +17323,23 @@ util::decl_static! { "dw2003_exe_data1",
 	//
 	pub static mut D0x8005bfb8: [*const u32; 8] = unsafe { [
 		&D0x80010a88,
-		core::ptr::null(),
+		core::ptr::null(), // Set by `f14` to `F0x8002f2cc()`
 		&F0x8002ee58,
-		&F0x8002ebb0,
+		&f14,
 		&F0x8002efa0,
-		core::ptr::null(),
+		core::ptr::null(), // Set by `f14` to `F0x8002f1ac()`?
 		&F0x8002f040,
 		&D0x8005af50,
 	] };
 
 	pub static mut D0x8005bfd8: *const [*const u32; 8] = unsafe { &D0x8005bfb8 };
 
-	pub static mut D0x8005bfdc: u32 = 0x1f801070;
-	pub static mut D0x8005bfe0: u32 = 0x1f801074;
-	pub static mut D0x8005bfe4: u32 = 0x1f8010f0;
+	// Used by `f14`
+	pub static mut f14_I_STAT_PTR: *mut u16 = core::ptr::invalid_mut(0x1f801070);
+	pub static mut f14_I_MASK_PTR: *mut u32 = core::ptr::invalid_mut(0x1f801074);
+	pub static mut f14_DPCR_PTR  : *mut u32 = core::ptr::invalid_mut(0x1f8010f0);
+
+
 	//
 	pub static mut D0x8005bfe8: u32 = 0x00000000;
 	pub static mut D0x8005bfec: u32 = 0x00000000;
@@ -22427,6 +22437,7 @@ extern "C" {
 	static mut f5: u32;
 	static mut f6: u32;
 	static mut f7: u32;
+	static mut f14: u32;
 	static mut D0x800102d8: u32;
 	static mut D0x80010808: u32;
 	static mut D0x80010814: u32;
@@ -22619,7 +22630,6 @@ extern "C" {
 	static mut F0x80027af4: u32;
 	static mut F0x80027c30: u32;
 	static mut F0x800283fc: u32;
-	static mut F0x8002ebb0: u32;
 	static mut F0x8002ee58: u32;
 	static mut F0x8002efa0: u32;
 	static mut F0x8002f040: u32;
