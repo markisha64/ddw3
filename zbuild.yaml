@@ -2,12 +2,12 @@
 alias:
   # External tools
   # prettier-ignore
-  as       : mips-elf-as
-  ar       : mips-elf-ar
-  ld       : mips-elf-ld
-  mkpsxiso : mkpsxiso
-  cargo    : cargo
-  sha256sum: sha256sum
+  as       : mips-elf-as # GNU assembler (GNU Binutils) 2.39
+  ar       : mips-elf-ar # GNU assembler (GNU Binutils) 2.39
+  ld       : mips-elf-ld # GNU assembler (GNU Binutils) 2.39
+  mkpsxiso : mkpsxiso    # MKPSXISO 2.02
+  cargo    : cargo       # cargo 1.72.0-nightly (f7b95e316 2023-05-30)
+  sha256sum: sha256sum   # sha256sum (GNU coreutils) 9.3
 
   # Other tools
   generate_psx_iso_deps   : tools/generate_psx_iso_deps.py
