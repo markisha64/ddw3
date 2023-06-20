@@ -7403,20 +7403,37 @@ util::decl_static! { "dw2003_exe_data1",
 
 	// Function pointer array
 	// Used by `STFGTREP_f0`
-	pub static mut D0x8004de10: [*const u32; 100] = unsafe { [
+	// TODO: Investigate if this splitting is fine, or if they should be
+	//       bundled and just use offsets to the main variable.
+	pub static mut D0x8004de10: [*const u32; 2] = [
+		core::ptr::null(),
+		core::ptr::null(),
+	];
+
+	pub static mut D0x8004de18: [*const u32; 2] = [
+		core::ptr::null(),
+		core::ptr::null(),
+	];
+
+	pub static mut D0x8004de20: [*const u32; 2] = [
+		core::ptr::null(),
+		core::ptr::null(),
+	];
+
+	pub static mut D0x8004de28: [*const u32; 2] = [
+		core::ptr::null(),
+		core::ptr::null(),
+	];
+
+	pub static mut D0x8004de30: [*const u32; 5] = [
 		core::ptr::null(),
 		core::ptr::null(),
 		core::ptr::null(),
 		core::ptr::null(),
 		core::ptr::null(),
-		core::ptr::null(),
-		core::ptr::null(),
-		core::ptr::null(),
-		core::ptr::null(),
-		core::ptr::null(),
-		core::ptr::null(),
-		core::ptr::null(),
-		core::ptr::null(),
+	];
+
+	pub static mut D0x8004de44: [*const u32; 73] = unsafe { [
 		core::ptr::null(),
 		core::ptr::null(),
 		core::ptr::null(),
@@ -7491,7 +7508,13 @@ util::decl_static! { "dw2003_exe_data1",
 		// Loaded by `CNTY_SEL.PRO`, `STITSHOP.PRO` and `STFGTREP_f0`
 		&F0x8001d714,
 		&F0x8001d7c4,
+	] };
+
+	pub static mut D0x8004df68: [*const u32; 1] = unsafe { [
 		&F0x8001d844,
+	] };
+
+	pub static mut D0x8004df6c: [*const u32; 8] = unsafe { [
 		&F0x8001d854,
 		&F0x8001d860,
 		&F0x8001d4e0,
@@ -7500,6 +7523,9 @@ util::decl_static! { "dw2003_exe_data1",
 		&F0x8001dc7c,
 		&F0x8001d8cc,
 		&F0x8001da00,
+	] };
+
+	pub static mut D0x8004df8c: [*const u32; 5] = unsafe { [
 		&F0x8001da84,
 		&F0x8001dd04,
 		&F0x8001d6e4,
