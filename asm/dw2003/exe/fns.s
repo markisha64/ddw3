@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "fns00"
+.section "fns0_0"
 
 .global D0x80010000
 D0x80010000:
@@ -1211,7 +1211,7 @@ F0x80010e88:
 .L80010e88: jr $ra
 .L80010e8c: nop
 
-.section "fns01"
+.section "fns0_1"
 
 .global F0x80010fe0
 F0x80010fe0:
@@ -3647,7 +3647,7 @@ F0x80013350:
 .L80013454: jr $ra
 .L80013458: addiu $sp, 0x170
 
-.section "fns10"
+.section "fns1_0"
 
 
 .global F0x80013780
@@ -4611,7 +4611,7 @@ F0x80014504:
 .L8001451c: jr $ra
 .L80014520: addiu $sp, 0x18
 
-.section "fns11"
+.section "fns1_1"
 
 
 .global F0x80014854
@@ -7288,7 +7288,7 @@ F0x80016fd8:
 .L80017020: jr $ra
 .L80017024: li $v0, -0x1
 
-.section "fns30"
+.section "fns3_0"
 
 
 
@@ -32610,7 +32610,7 @@ F0x8002eb98:
 .L8002eba8: jr $ra
 .L8002ebac: sh $a0, ($v1)
 
-.section "fns31"
+.section "fns3_1"
 
 .global F0x8002ec88
 F0x8002ec88:

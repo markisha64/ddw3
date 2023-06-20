@@ -23,10 +23,10 @@ objs:
   - /build/rust/dw2003_exe_data.a
   - /build/rust/dw2003_exe_digimon_profiles.a
 sections:
-  - fns00
+  - fns0_0
   - section_start
   - section_f13
-  - fns01
+  - fns0_1
   - section_f2
   - section_f1
   - section_f0
@@ -37,15 +37,15 @@ sections:
   - section_f3
   - section_f8
   - section_f9
-  - fns10
+  - fns1_0
   - section_f12
-  - fns11
+  - fns1_1
   - section_f10
   - fns2
   - section_f11
-  - fns30
+  - fns3_0
   - section_f14
-  - fns31
+  - fns3_1
   - dw2003_exe_data0
   - dw2003_exe_digimon_profiles
   - dw2003_exe_data1
