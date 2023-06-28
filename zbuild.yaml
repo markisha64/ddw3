@@ -62,6 +62,7 @@ alias:
   # Psx iso
   psx_iso     : $(build_psx_iso_dir)/^(path).bin
   psx_iso_cue : $(build_psx_iso_dir)/^(path).cue
+  psx_iso_lba : $(build_psx_iso_dir)/^(path).lba
   psx_iso_deps: $(build_psx_iso_dir)/^(path).d
   psx_iso_xml : ^(path).xml
 
@@ -131,7 +132,7 @@ rules:
 
   # Psx iso
   mkpsxiso:
-    out: [$(psx_iso), $(psx_iso_cue)]
+    out: [$(psx_iso), $(psx_iso_cue), $(psx_iso_lba)]
     deps:
       - $(psx_iso_xml)
       - $(license_psx_iso)
@@ -148,6 +149,8 @@ rules:
         - $(psx_iso)
         - --cuefile
         - $(psx_iso_cue)
+        - -lba
+        - $(psx_iso_lba)
 
   # Pxs iso dependencies
   mkpsxiso-deps:
