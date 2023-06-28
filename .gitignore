@@ -9,3 +9,7 @@ resources/
 
 # Licenses
 /licenses/
+
+# Logs
+*.log
+logs/
