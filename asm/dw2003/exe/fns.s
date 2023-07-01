@@ -32600,8 +32600,8 @@ F0x8002eb70:
 .L8002eb74: lhu $v0, %lo(D0x8005af52)($v0)
 .L8002eb78: jr $ra
 .L8002eb7c: nop
-.L8002eb80: lui $v0, %hi(f14_I_MASK_PTR)
-.L8002eb84: lw $v0, %lo(f14_I_MASK_PTR)($v0)
+.L8002eb80: lui $v0, %hi(I_MASK_PTR_ADDR)
+.L8002eb84: lw $v0, %lo(I_MASK_PTR_ADDR)($v0)
 .L8002eb88: nop
 .L8002eb8c: lhu $v0, ($v0)
 .L8002eb90: jr $ra
@@ -32609,8 +32609,8 @@ F0x8002eb70:
 
 .global F0x8002eb98
 F0x8002eb98:
-.L8002eb98: lui $v1, %hi(f14_I_MASK_PTR)
-.L8002eb9c: lw $v1, %lo(f14_I_MASK_PTR)($v1)
+.L8002eb98: lui $v1, %hi(I_MASK_PTR_ADDR)
+.L8002eb9c: lw $v1, %lo(I_MASK_PTR_ADDR)($v1)
 .L8002eba0: nop
 .L8002eba4: lhu $v0, ($v1)
 .L8002eba8: jr $ra
@@ -32632,8 +32632,8 @@ F0x8002ec88:
 .L8002ecb0: nop
 .L8002ecb4: bnez $v0, .L8002ece0
 .L8002ecb8: nop
-.L8002ecbc: lui $v0, %hi(f14_I_STAT_PTR)
-.L8002ecc0: lw $v0, %lo(f14_I_STAT_PTR)($v0)
+.L8002ecbc: lui $v0, %hi(I_STAT_PTR_ADDR)
+.L8002ecc0: lw $v0, %lo(I_STAT_PTR_ADDR)($v0)
 .L8002ecc4: nop
 .L8002ecc8: lhu $a1, ($v0)
 .L8002eccc: lui $a0, 0x8001
@@ -32641,13 +32641,13 @@ F0x8002ec88:
 .L8002ecd4: addiu $a0, 0xabc
 .L8002ecd8: jal ReturnFromException
 .L8002ecdc: nop
-.L8002ece0: lui $a0, %hi(f14_I_STAT_PTR)
-.L8002ece4: lw $a0, %lo(f14_I_STAT_PTR)($a0)
+.L8002ece0: lui $a0, %hi(I_STAT_PTR_ADDR)
+.L8002ece4: lw $a0, %lo(I_STAT_PTR_ADDR)($a0)
 .L8002ece8: lhu $v1, 0x30($s1)
 .L8002ecec: li $v0, 0x1
 .L8002ecf0: sh $v0, 0x2($s1)
-.L8002ecf4: lui $v0, %hi(f14_I_MASK_PTR)
-.L8002ecf8: lw $v0, %lo(f14_I_MASK_PTR)($v0)
+.L8002ecf4: lui $v0, %hi(I_MASK_PTR_ADDR)
+.L8002ecf8: lw $v0, %lo(I_MASK_PTR_ADDR)($v0)
 .L8002ecfc: lhu $a0, ($a0)
 .L8002ed00: lhu $v0, ($v0)
 .L8002ed04: and $v1, $a0
@@ -32664,8 +32664,8 @@ F0x8002ec88:
 .L8002ed30: andi $v0, $s0, 0x1
 .L8002ed34: beqz $v0, .L8002ed64
 .L8002ed38: sllv $v0, $s3, $s1
-.L8002ed3c: lui $v1, %hi(f14_I_STAT_PTR)
-.L8002ed40: lw $v1, %lo(f14_I_STAT_PTR)($v1)
+.L8002ed3c: lui $v1, %hi(I_STAT_PTR_ADDR)
+.L8002ed40: lw $v1, %lo(I_STAT_PTR_ADDR)($v1)
 .L8002ed44: nor $v0, $zr, $v0
 .L8002ed48: sh $v0, ($v1)
 .L8002ed4c: lw $v0, ($s2)
@@ -32679,22 +32679,22 @@ F0x8002ec88:
 .L8002ed6c: andi $v0, $s0, 0xffff
 .L8002ed70: bnez $v0, .L8002ed28
 .L8002ed74: addiu $s1, 0x1
-.L8002ed78: lui $a0, %hi(f14_I_STAT_PTR)
-.L8002ed7c: lw $a0, %lo(f14_I_STAT_PTR)($a0)
+.L8002ed78: lui $a0, %hi(I_STAT_PTR_ADDR)
+.L8002ed7c: lw $a0, %lo(I_STAT_PTR_ADDR)($a0)
 .L8002ed80: lui $v1, %hi(D0x8005af80)
 .L8002ed84: lhu $v1, %lo(D0x8005af80)($v1)
-.L8002ed88: lui $v0, %hi(f14_I_MASK_PTR)
-.L8002ed8c: lw $v0, %lo(f14_I_MASK_PTR)($v0)
+.L8002ed88: lui $v0, %hi(I_MASK_PTR_ADDR)
+.L8002ed8c: lw $v0, %lo(I_MASK_PTR_ADDR)($v0)
 .L8002ed90: lhu $a0, ($a0)
 .L8002ed94: lhu $v0, ($v0)
 .L8002ed98: and $v1, $a0
 .L8002ed9c: and $v0, $v1
 .L8002eda0: bnez $v0, .L8002ed1c
 .L8002eda4: move_ $s0, $v0
-.L8002eda8: lui $a1, %hi(f14_I_STAT_PTR)
-.L8002edac: lw $a1, %lo(f14_I_STAT_PTR)($a1)
-.L8002edb0: lui $a2, %hi(f14_I_MASK_PTR)
-.L8002edb4: lw $a2, %lo(f14_I_MASK_PTR)($a2)
+.L8002eda8: lui $a1, %hi(I_STAT_PTR_ADDR)
+.L8002edac: lw $a1, %lo(I_STAT_PTR_ADDR)($a1)
+.L8002edb0: lui $a2, %hi(I_MASK_PTR_ADDR)
+.L8002edb4: lw $a2, %lo(I_MASK_PTR_ADDR)($a2)
 .L8002edb8: lhu $v0, ($a1)
 .L8002edbc: lhu $v1, ($a2)
 .L8002edc0: nop
@@ -32714,8 +32714,8 @@ F0x8002ec88:
 .L8002ee00: lhu $a2, ($a2)
 .L8002ee04: jal F0x800283fc
 .L8002ee08: nop
-.L8002ee0c: lui $v0, %hi(f14_I_STAT_PTR)
-.L8002ee10: lw $v0, %lo(f14_I_STAT_PTR)($v0)
+.L8002ee0c: lui $v0, %hi(I_STAT_PTR_ADDR)
+.L8002ee10: lw $v0, %lo(I_STAT_PTR_ADDR)($v0)
 .L8002ee14: lui $at, %hi(D0x8005bfe8)
 .L8002ee18: sw $zr, %lo(D0x8005bfe8)($at)
 .L8002ee1c: j .L8002ee2c
@@ -32756,8 +32756,8 @@ F0x8002ee58:
 .L8002eea0: nop
 .L8002eea4: beqz $v0, .L8002ef7c
 .L8002eea8: addiu $a2, $a1, -0x4
-.L8002eeac: lui $v0, %hi(f14_I_MASK_PTR)
-.L8002eeb0: lw $v0, %lo(f14_I_MASK_PTR)($v0)
+.L8002eeac: lui $v0, %hi(I_MASK_PTR_ADDR)
+.L8002eeb0: lw $v0, %lo(I_MASK_PTR_ADDR)($v0)
 .L8002eeb4: nop
 .L8002eeb8: lhu $v1, ($v0)
 .L8002eebc: sh $zr, ($v0)
@@ -32804,8 +32804,8 @@ F0x8002ee58:
 .L8002ef60: li $a0, 0x2
 .L8002ef64: jal ChangeClearRCnt
 .L8002ef68: sltiu $a1, $s2, 0x1
-.L8002ef6c: lui $v0, %hi(f14_I_MASK_PTR)
-.L8002ef70: lw $v0, %lo(f14_I_MASK_PTR)($v0)
+.L8002ef6c: lui $v0, %hi(I_MASK_PTR_ADDR)
+.L8002ef70: lw $v0, %lo(I_MASK_PTR_ADDR)($v0)
 .L8002ef74: nop
 .L8002ef78: sh $s3, ($v0)
 .L8002ef7c: move_ $v0, $s4
@@ -32830,23 +32830,23 @@ F0x8002efa0:
 .L8002efc0: move_ $v0, $zr
 .L8002efc4: jal EnterCriticalSection
 .L8002efc8: nop
-.L8002efcc: lui $v0, %hi(f14_I_MASK_PTR)
-.L8002efd0: lw $v0, %lo(f14_I_MASK_PTR)($v0)
-.L8002efd4: lui $a0, %hi(f14_DPCR_PTR)
-.L8002efd8: lw $a0, %lo(f14_DPCR_PTR)($a0)
+.L8002efcc: lui $v0, %hi(I_MASK_PTR_ADDR)
+.L8002efd0: lw $v0, %lo(I_MASK_PTR_ADDR)($v0)
+.L8002efd4: lui $a0, %hi(DPCR_PTR_ADDR)
+.L8002efd8: lw $a0, %lo(DPCR_PTR_ADDR)($a0)
 .L8002efdc: lhu $v1, ($v0)
 .L8002efe0: nop
 .L8002efe4: sh $v1, 0x32($s0)
 .L8002efe8: lw $v1, ($a0)
-.L8002efec: lui $a0, %hi(f14_I_STAT_PTR)
-.L8002eff0: lw $a0, %lo(f14_I_STAT_PTR)($a0)
+.L8002efec: lui $a0, %hi(I_STAT_PTR_ADDR)
+.L8002eff0: lw $a0, %lo(I_STAT_PTR_ADDR)($a0)
 .L8002eff4: sw $v1, 0x34($s0)
 .L8002eff8: sh $zr, ($v0)
 .L8002effc: lhu $v0, ($v0)
 .L8002f000: nop
 .L8002f004: sh $v0, ($a0)
-.L8002f008: lui $a0, %hi(f14_DPCR_PTR)
-.L8002f00c: lw $a0, %lo(f14_DPCR_PTR)($a0)
+.L8002f008: lui $a0, %hi(DPCR_PTR_ADDR)
+.L8002f00c: lw $a0, %lo(DPCR_PTR_ADDR)($a0)
 .L8002f010: lui $v1, 0x7777
 .L8002f014: lw $v0, ($a0)
 .L8002f018: ori $v1, 0x7777
@@ -32872,14 +32872,14 @@ F0x8002f040:
 .L8002f060: nop
 .L8002f064: jal SetCustomExitFromException
 .L8002f068: addiu $a0, $s0, 0x38
-.L8002f06c: lui $a0, %hi(f14_I_MASK_PTR)
-.L8002f070: lw $a0, %lo(f14_I_MASK_PTR)($a0)
+.L8002f06c: lui $a0, %hi(I_MASK_PTR_ADDR)
+.L8002f070: lw $a0, %lo(I_MASK_PTR_ADDR)($a0)
 .L8002f074: lhu $v1, 0x32($s0)
 .L8002f078: li $v0, 0x1
 .L8002f07c: sh $v0, ($s0)
 .L8002f080: sh $v1, ($a0)
-.L8002f084: lui $v1, %hi(f14_DPCR_PTR)
-.L8002f088: lw $v1, %lo(f14_DPCR_PTR)($v1)
+.L8002f084: lui $v1, %hi(DPCR_PTR_ADDR)
+.L8002f088: lw $v1, %lo(DPCR_PTR_ADDR)($v1)
 .L8002f08c: lw $v0, 0x34($s0)
 .L8002f090: nop
 .L8002f094: jal ExitCriticalSection

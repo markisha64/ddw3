@@ -15,10 +15,10 @@ f14:
 	bnez $v0, .Lexit
 	move_ $v0, $zr
 
-	lui $v1, %hi(f14_I_STAT_PTR)
-	lw $v1, %lo(f14_I_STAT_PTR)($v1)
-	lui $v0, %hi(f14_I_MASK_PTR)
-	lw $v0, %lo(f14_I_MASK_PTR)($v0)
+	lui $v1, %hi(I_STAT_PTR_ADDR)
+	lw $v1, %lo(I_STAT_PTR_ADDR)($v1)
+	lui $v0, %hi(I_MASK_PTR_ADDR)
+	lw $v0, %lo(I_MASK_PTR_ADDR)($v0)
 I_STAT_PTR=$v1
 I_MASK_PTR=$v0
 
@@ -30,8 +30,8 @@ I_MASK_PTR=$v0
 	ori $a1, 0x3333
 	sh $v0, (I_STAT_PTR)
 
-	lui $v0, %hi(f14_DPCR_PTR)
-	lw $v0, %lo(f14_DPCR_PTR)($v0)
+	lui $v0, %hi(DPCR_PTR_ADDR)
+	lw $v0, %lo(DPCR_PTR_ADDR)($v0)
 DPCR_PTR=$v0
 
 	# `*DPCR_PTR = 0x33333333`
@@ -43,7 +43,7 @@ DPCR_PTR=$v0
 	addiu $a0, $s0, 0x38
 
 	# If `DPCR_PTR != NULL`, call `F0x8002ec88`
-	# TODO: Why would `f14_DPCR_PTR` ever be defined as null?
+	# TODO: Why would `DPCR_PTR_ADDR` ever be defined as null?
 	beqz DPCR_PTR, .0
 	nop
 	jal F0x8002ec88
