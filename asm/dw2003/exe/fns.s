@@ -288,6 +288,9 @@ D0x80010330:
 .L80010338: .word 0x25286870
 .L8001033c: .word 0x2e2e2964
 .L80010340: .word 0x00000a2e
+
+.global D0x80010344
+D0x80010344:
 .L80010344: .word 0x47746553
 .L80010348: .word 0x68706172
 .L8001034c: .word 0x75626544
@@ -333,6 +336,9 @@ D0x800103b4:
 .L800103bc: .word 0x29642528
 .L800103c0: .word 0x0a2e2e2e
 .L800103c4: .word 0x00000000
+
+.global D0x800103c8
+D0x800103c8:
 .L800103c8: .word 0x623a7325
 .L800103cc: .word 0x52206461
 .L800103d0: .word 0x00544345
@@ -599,6 +605,9 @@ D0x80010514:
 .L8001070c: .word 0x00000000
 .L80010710: .word 0x00000000
 .L80010714: .word 0x00000000
+
+.global D0x80010718
+D0x80010718:
 .L80010718: .word 0x20746f6e
 .L8001071c: .word 0x70707573
 .L80010720: .word 0x6574726f
@@ -643,6 +652,9 @@ D0x80010514:
 .L800107bc: .word F0x8002a170
 .L800107c0: .word F0x8002a188
 .L800107c4: .word 0x00000000
+
+.global D0x800107c8
+D0x800107c8:
 .L800107c8: .word 0x6e496443
 .L800107cc: .word 0x203a7469
 .L800107d0: .word 0x74696e49
@@ -651,6 +663,9 @@ D0x80010514:
 .L800107dc: .word 0x00000000
 .L800107e0: .word 0x00000000
 .L800107e4: .word 0x00000000
+
+.global D0x800107e8
+D0x800107e8:
 .L800107e8: .word 0x20414d44
 .L800107ec: .word 0x54415453
 .L800107f0: .word 0x45205355
@@ -825,10 +840,16 @@ D0x80010930:
 D0x8001093c:
 .L8001093c: .word 0x6e496f4e
 .L80010940: .word 0x00007274
+
+.global D0x80010944
+D0x80010944:
 .L80010944: .word 0x74204443
 .L80010948: .word 0x6f656d69
 .L8001094c: .word 0x203a7475
 .L80010950: .word 0x00000000
+
+.global D0x80010954
+D0x80010954:
 .L80010954: .word 0x283a7325
 .L80010958: .word 0x20297325
 .L8001095c: .word 0x636e7953
@@ -836,9 +857,15 @@ D0x8001093c:
 .L80010964: .word 0x61655220
 .L80010968: .word 0x253d7964
 .L8001096c: .word 0x00000a73
+
+.global D0x80010970
+D0x80010970:
 .L80010970: .word 0x6b736944
 .L80010974: .word 0x6f727245
 .L80010978: .word 0x00203a72
+
+.global D0x8001097c
+D0x8001097c:
 .L8001097c: .word 0x3d6d6f63
 .L80010980: .word 0x632c7325
 .L80010984: .word 0x3d65646f
@@ -846,11 +873,17 @@ D0x8001093c:
 .L8001098c: .word 0x30253a78
 .L80010990: .word 0x0a297832
 .L80010994: .word 0x00000000
+
+.global D0x80010998
+D0x80010998:
 .L80010998: .word 0x4f524443
 .L8001099c: .word 0x75203a4d
 .L800109a0: .word 0x6f6e6b6e
 .L800109a4: .word 0x69206e77
 .L800109a8: .word 0x0072746e
+
+.global D0x800109ac
+D0x800109ac:
 .L800109ac: .word 0x29642528
 .L800109b0: .word 0x0000000a
 .L800109b4: .word 0x00000000
@@ -870,8 +903,14 @@ D0x800109d4:
 .L800109d4: .word 0x725f4443
 .L800109d8: .word 0x79646165
 .L800109dc: .word 0x00000000
+
+.global D0x800109e0
+D0x800109e0:
 .L800109e0: .word 0x2e2e7325
 .L800109e4: .word 0x00000a2e
+
+.global D0x800109e8
+D0x800109e8:
 .L800109e8: .word 0x203a7325
 .L800109ec: .word 0x70206f6e
 .L800109f0: .word 0x6d617261
@@ -919,10 +958,16 @@ D0x80010a50:
 .L80010a5c: .word 0x00000000
 .L80010a60: .word 0x00000000
 .L80010a64: .word 0x00000000
+
+.global D0x80010a68
+D0x80010a68:
 .L80010a68: .word 0x4c554e3c
 .L80010a6c: .word 0x00003e4c
 .L80010a70: .word 0x00000000
 .L80010a74: .word 0x00000000
+
+.global D0x80010a78
+D0x80010a78:
 .L80010a78: .word 0x6e795356
 .L80010a7c: .word 0x74203a63
 .L80010a80: .word 0x6f656d69
@@ -943,6 +988,9 @@ D0x80010a88:
 .L80010ab0: .word 0x746f6b61
 .L80010ab4: .word 0x7845206f
 .L80010ab8: .word 0x00242070
+
+.global D0x80010abc
+D0x80010abc:
 .L80010abc: .word 0x78656e75
 .L80010ac0: .word 0x74636570
 .L80010ac4: .word 0x69206465
@@ -979,6 +1027,9 @@ D0x80010b14:
 .L80010b1c: .word 0x3830253d
 .L80010b20: .word 0x00000a78
 .L80010b24: .word 0x00000000
+
+.global D0x80010b28
+D0x80010b28:
 .L80010b28: .word 0x276e6143
 .L80010b2c: .word 0x704f2074
 .L80010b30: .word 0x53206e65
@@ -991,6 +1042,9 @@ D0x80010b14:
 .L80010b4c: .word 0x00000000
 .L80010b50: .word 0x00000000
 .L80010b54: .word 0x00000000
+
+.global D0x80010b58
+D0x80010b58:
 .L80010b58: .word 0x73696854
 .L80010b5c: .word 0x20736920
 .L80010b60: .word 0x20746f6e
@@ -1014,15 +1068,24 @@ D0x80010b98:
 .L80010b9c: .word 0x204f2f54
 .L80010ba0: .word 0x5d73255b
 .L80010ba4: .word 0x0000000a
+
+.global D0x80010ba8
+D0x80010ba8:
 .L80010ba8: .word 0x74696177
 .L80010bac: .word 0x65722820
 .L80010bb0: .word 0x29746573
 .L80010bb4: .word 0x00000000
+
+.global D0x80010bb8
+D0x80010bb8:
 .L80010bb8: .word 0x74696177
 .L80010bbc: .word 0x72772820
 .L80010bc0: .word 0x48207964
 .L80010bc4: .word 0x203e2d20
 .L80010bc8: .word 0x0000294c
+
+.global D0x80010bcc
+D0x80010bcc:
 .L80010bcc: .word 0x74696177
 .L80010bd0: .word 0x6d642820
 .L80010bd4: .word 0x63206661
@@ -1066,6 +1129,9 @@ D0x80010c06:
 .L80010c5c: .word F0x8003b324
 .L80010c60: .word F0x8003b32c
 .L80010c64: .word F0x8003b334
+
+.global D0x80010c68
+D0x80010c68:
 .L80010c68: .word 0x65636341
 .L80010c6c: .word 0x44207373
 .L80010c70: .word 0x65696e65
@@ -1076,6 +1142,9 @@ D0x80010c06:
 .L80010c84: .word 0x20656c70
 .L80010c88: .word 0x6e65706f
 .L80010c8c: .word 0x0000000a
+
+.global D0x80010c90
+D0x80010c90:
 .L80010c90: .word 0x6f727265
 .L80010c94: .word 0x00000072
 .L80010c98: .word F0x8003c2a4
@@ -1129,6 +1198,9 @@ D0x80010c06:
 .L80010d58: .word F0x8003c4f4
 .L80010d5c: .word F0x8003c4f4
 .L80010d60: .word F0x8003c4ac
+
+.global D0x80010d64
+D0x80010d64:
 .L80010d64: .word 0x65636341
 .L80010d68: .word 0x44207373
 .L80010d6c: .word 0x65696e65
@@ -1139,6 +1211,9 @@ D0x80010c06:
 .L80010d80: .word 0x706f2079
 .L80010d84: .word 0x0a2e6e65
 .L80010d88: .word 0x00000000
+
+.global D0x80010d8c
+D0x80010d8c:
 .L80010d8c: .word 0x65636341
 .L80010d90: .word 0x44207373
 .L80010d94: .word 0x65696e65
@@ -1148,6 +1223,9 @@ D0x80010c06:
 .L80010da4: .word 0x706f2074
 .L80010da8: .word 0x0a2e6e65
 .L80010dac: .word 0x00000000
+
+.global D0x80010db0
+D0x80010db0:
 .L80010db0: .word 0x65636341
 .L80010db4: .word 0x44207373
 .L80010db8: .word 0x65696e65
@@ -1174,6 +1252,9 @@ D0x80010ddc:
 .L80010e00: .word 0x6c612065
 .L80010e04: .word 0x0a6e6769
 .L80010e08: .word 0x00000000
+
+.global D0x80010e0c
+D0x80010e0c:
 .L80010e0c: .word 0x65636341
 .L80010e10: .word 0x44207373
 .L80010e14: .word 0x65696e65
@@ -1188,6 +1269,9 @@ D0x80010e2c:
 .L80010e2c: .word 0x30307562
 .L80010e30: .word 0x0000003a
 .L80010e34: .word 0x00000000
+
+.global D0x80010e38
+D0x80010e38:
 .L80010e38: .word 0x6d62696c
 .L80010e3c: .word 0x3a647263
 .L80010e40: .word 0x65766520
@@ -1203,6 +1287,9 @@ D0x80010e58:
 .L80010e5c: .word 0x73255b20
 .L80010e60: .word 0x00000a5d
 .L80010e64: .word 0x00000000
+
+.global D0x80010e68
+D0x80010e68:
 .L80010e68: .word 0x65636341
 .L80010e6c: .word 0x44207373
 .L80010e70: .word 0x65696e65
@@ -22751,9 +22838,9 @@ F0x80025660:
 .L80025690: lbu $a1, ($v1)
 .L80025694: lbu $a2, -0x2($v1)
 .L80025698: lbu $a3, 0x1($v1)
-.L8002569c: lui $a0, 0x8001
+.L8002569c: lui $a0, %hi(D0x80010344)
 .L800256a0: jalr $v0
-.L800256a4: addiu $a0, 0x344
+.L800256a4: addiu $a0, %lo(D0x80010344)
 .L800256a8: move_ $v0, $s0
 .L800256ac: lw $ra, 0x14($sp)
 .L800256b0: lw $s0, 0x10($sp)
@@ -22940,9 +23027,9 @@ F0x800258d0:
 .L80025980: nop
 .L80025984: bgtz $a2, .L800259dc
 .L80025988: nop
-.L8002598c: lui $a0, 0x8001
+.L8002598c: lui $a0, %hi(D0x800103c8)
 .L80025990: j .L800259a0
-.L80025994: addiu $a0, 0x3c8
+.L80025994: addiu $a0, %lo(D0x800103c8)
 .L80025998: la_ $a0, D0x800103e8
 .L800259a0: lui $v0, %hi(D0x80055ef4)
 .L800259a4: lw $v0, %lo(D0x80055ef4)($v0)
@@ -27560,9 +27647,9 @@ F0x80029ec8:
 .L80029f70: lui $at, %hi(D0x800812ec)
 .L80029f74: j .L80029f88
 .L80029f78: sw $a1, %lo(D0x800812ec)($at)
-.L80029f7c: lui $a0, 0x8001
+.L80029f7c: lui $a0, %hi(D0x80010718)
 .L80029f80: jal F0x800283fc
-.L80029f84: addiu $a0, 0x718
+.L80029f84: addiu $a0, %lo(D0x80010718)
 .L80029f88: lw $ra, 0x10($sp)
 .L80029f8c: addiu $sp, 0x18
 .L80029f90: jr $ra
@@ -29339,9 +29426,9 @@ F0x8002b97c:
 .L8002b9e0: li $v0, -0x1
 .L8002b9e4: bne $s0, $v0, .L8002b98c
 .L8002b9e8: nop
-.L8002b9ec: lui $a0, 0x8001
+.L8002b9ec: lui $a0, %hi(D0x800107c8)
 .L8002b9f0: jal F0x800283fc
-.L8002b9f4: addiu $a0, 0x7c8
+.L8002b9f4: addiu $a0, %lo(D0x800107c8)
 .L8002b9f8: move_ $v0, $zr
 .L8002b9fc: lw $ra, 0x14($sp)
 .L8002ba00: lw $s0, 0x10($sp)
@@ -30417,9 +30504,9 @@ F0x8002c984:
 .L8002ca24: lui $at, 0x1f80
 .L8002ca28: addu $at, $a1
 .L8002ca2c: lw $a1, 0x1088($at)
-.L8002ca30: lui $a0, 0x8001
+.L8002ca30: lui $a0, %hi(D0x800107e8)
 .L8002ca34: jal F0x800283fc
-.L8002ca38: addiu $a0, 0x7e8
+.L8002ca38: addiu $a0, %lo(D0x800107e8)
 .L8002ca3c: j .L8002ca00
 .L8002ca40: li $v0, 0x1
 .L8002ca44: lui $v1, %hi(D0x8005aae4)
@@ -30601,9 +30688,9 @@ F0x8002cb2c:
 .L8002ccfc: slti $v0, 0x3
 .L8002cd00: bnez $v0, .L8002cd60
 .L8002cd04: nop
-.L8002cd08: lui $a0, 0x8001
+.L8002cd08: lui $a0, %hi(D0x80010970)
 .L8002cd0c: jal F0x800283fc
-.L8002cd10: addiu $a0, 0x970
+.L8002cd10: addiu $a0, %lo(D0x80010970)
 .L8002cd14: lui $v0, %hi(D0x8005ab28)
 .L8002cd18: lw $v0, %lo(D0x8005ab28)($v0)
 .L8002cd1c: nop
@@ -30620,9 +30707,9 @@ F0x8002cb2c:
 .L8002cd48: lui $a1, %hi(D0x8005ab44)
 .L8002cd4c: addu $a1, $v0
 .L8002cd50: lw $a1, %lo(D0x8005ab44)($a1)
-.L8002cd54: lui $a0, 0x8001
+.L8002cd54: lui $a0, %hi(D0x8001097c)
 .L8002cd58: jal F0x800283fc
-.L8002cd5c: addiu $a0, 0x97c
+.L8002cd5c: addiu $a0, %lo(D0x8001097c)
 .L8002cd60: lbu $v0, 0x10($sp)
 .L8002cd64: nop
 .L8002cd68: addiu $v1, $v0, -0x1
@@ -30814,13 +30901,13 @@ F0x8002cfdc:
 .L8002d050: addiu $v1, 0x1
 .L8002d054: j .L8002d07c
 .L8002d058: li $v0, 0x6
-.L8002d05c: lui $a0, 0x8001
+.L8002d05c: lui $a0, %hi(D0x80010998)
 .L8002d060: jal F0x8002e0ac
-.L8002d064: addiu $a0, 0x998
+.L8002d064: addiu $a0, %lo(D0x80010998)
 .L8002d068: lbu $a1, 0x10($sp)
-.L8002d06c: lui $a0, 0x8001
+.L8002d06c: lui $a0, %hi(D0x800109ac)
 .L8002d070: jal F0x800283fc
-.L8002d074: addiu $a0, 0x9ac
+.L8002d074: addiu $a0, %lo(D0x800109ac)
 .L8002d078: move_ $v0, $zr
 .L8002d07c: lw $ra, 0x28($sp)
 .L8002d080: lw $s1, 0x24($sp)
@@ -30877,9 +30964,9 @@ F0x8002d090:
 .L8002d150: slt $v0, $v1
 .L8002d154: beqz $v0, .L8002d1c4
 .L8002d158: nop
-.L8002d15c: lui $a0, 0x8001
+.L8002d15c: lui $a0, %hi(D0x80010944)
 .L8002d160: jal F0x8002e0ac
-.L8002d164: addiu $a0, 0x944
+.L8002d164: addiu $a0, %lo(D0x80010944)
 .L8002d168: lbu $a0, ($s2)
 .L8002d16c: lbu $v0, 0x1($s2)
 .L8002d170: lui $a1, %hi(D0x800814d8)
@@ -30896,9 +30983,9 @@ F0x8002d090:
 .L8002d19c: sw $v1, 0x10($sp)
 .L8002d1a0: lw $a2, ($v0)
 .L8002d1a4: lw $a3, ($a0)
-.L8002d1a8: lui $a0, 0x8001
+.L8002d1a8: lui $a0, %hi(D0x80010954)
 .L8002d1ac: jal F0x800283fc
-.L8002d1b0: addiu $a0, 0x954
+.L8002d1b0: addiu $a0, %lo(D0x80010954)
 .L8002d1b4: jal F0x8002da6c
 .L8002d1b8: nop
 .L8002d1bc: j .L8002d1c8
@@ -31035,9 +31122,9 @@ F0x8002d310:
 .L8002d3d0: slt $v0, $v1
 .L8002d3d4: beqz $v0, .L8002d444
 .L8002d3d8: nop
-.L8002d3dc: lui $a0, 0x8001
+.L8002d3dc: lui $a0, %hi(D0x80010944)
 .L8002d3e0: jal F0x8002e0ac
-.L8002d3e4: addiu $a0, 0x944
+.L8002d3e4: addiu $a0, %lo(D0x80010944)
 .L8002d3e8: lbu $a0, ($s2)
 .L8002d3ec: lbu $v0, 0x1($s2)
 .L8002d3f0: lui $a1, %hi(D0x800814d8)
@@ -31054,9 +31141,9 @@ F0x8002d310:
 .L8002d41c: sw $v1, 0x10($sp)
 .L8002d420: lw $a2, ($v0)
 .L8002d424: lw $a3, ($a0)
-.L8002d428: lui $a0, 0x8001
+.L8002d428: lui $a0, %hi(D0x80010954)
 .L8002d42c: jal F0x800283fc
-.L8002d430: addiu $a0, 0x954
+.L8002d430: addiu $a0, %lo(D0x80010954)
 .L8002d434: jal F0x8002da6c
 .L8002d438: nop
 .L8002d43c: j .L8002d448
@@ -31185,9 +31272,9 @@ F0x8002d5d8:
 .L8002d624: lui $a1, %hi(D0x8005ab44)
 .L8002d628: addu $a1, $v0
 .L8002d62c: lw $a1, %lo(D0x8005ab44)($a1)
-.L8002d630: lui $a0, 0x8001
+.L8002d630: lui $a0, %hi(D0x800109e0)
 .L8002d634: jal F0x800283fc
-.L8002d638: addiu $a0, 0x9e0
+.L8002d638: addiu $a0, %lo(D0x800109e0)
 .L8002d63c: andi $v0, $s1, 0xff
 .L8002d640: sll $v1, $v0, 0x2
 .L8002d644: lui $v0, %hi(D0x8005ad64)
@@ -31206,9 +31293,9 @@ F0x8002d5d8:
 .L8002d678: lui $a1, %hi(D0x8005ab44)
 .L8002d67c: addu $a1, $v1
 .L8002d680: lw $a1, %lo(D0x8005ab44)($a1)
-.L8002d684: lui $a0, 0x8001
+.L8002d684: lui $a0, %hi(D0x800109e8)
 .L8002d688: jal F0x800283fc
-.L8002d68c: addiu $a0, 0x9e8
+.L8002d68c: addiu $a0, %lo(D0x800109e8)
 .L8002d690: j .L8002d9bc
 .L8002d694: li $v0, -0x2
 .L8002d698: jal F0x8002d090
@@ -31310,9 +31397,9 @@ F0x8002d5d8:
 .L8002d82c: slt $v0, $v1
 .L8002d830: beqz $v0, .L8002d8a0
 .L8002d834: nop
-.L8002d838: lui $a0, 0x8001
+.L8002d838: lui $a0, %hi(D0x80010944)
 .L8002d83c: jal F0x8002e0ac
-.L8002d840: addiu $a0, 0x944
+.L8002d840: addiu $a0, %lo(D0x80010944)
 .L8002d844: lbu $a0, ($s2)
 .L8002d848: lbu $v0, 0x1($s2)
 .L8002d84c: lui $a1, %hi(D0x800814d8)
@@ -31329,9 +31416,9 @@ F0x8002d5d8:
 .L8002d878: sw $v1, 0x10($sp)
 .L8002d87c: lw $a2, ($v0)
 .L8002d880: lw $a3, ($a0)
-.L8002d884: lui $a0, 0x8001
+.L8002d884: lui $a0, %hi(D0x80010954)
 .L8002d888: jal F0x800283fc
-.L8002d88c: addiu $a0, 0x954
+.L8002d88c: addiu $a0, %lo(D0x80010954)
 .L8002d890: jal F0x8002da6c
 .L8002d894: nop
 .L8002d898: j .L8002d8a4
@@ -31743,9 +31830,9 @@ F0x8002dc7c:
 .L8002defc: lui $at, %hi(D0x800814d4)
 .L8002df00: beqz $v1, .L8002df70
 .L8002df04: sw $v0, %lo(D0x800814d4)($at)
-.L8002df08: lui $a0, 0x8001
+.L8002df08: lui $a0, %hi(D0x80010944)
 .L8002df0c: jal F0x8002e0ac
-.L8002df10: addiu $a0, 0x944
+.L8002df10: addiu $a0, %lo(D0x80010944)
 .L8002df14: lbu $a0, ($s1)
 .L8002df18: lbu $v0, 0x1($s1)
 .L8002df1c: lui $a1, %hi(D0x800814d8)
@@ -31762,9 +31849,9 @@ F0x8002dc7c:
 .L8002df48: sw $v1, 0x10($sp)
 .L8002df4c: lw $a2, ($v0)
 .L8002df50: lw $a3, ($a0)
-.L8002df54: lui $a0, 0x8001
+.L8002df54: lui $a0, %hi(D0x80010954)
 .L8002df58: jal F0x800283fc
-.L8002df5c: addiu $a0, 0x954
+.L8002df5c: addiu $a0, %lo(D0x80010954)
 .L8002df60: jal F0x8002da6c
 .L8002df64: nop
 .L8002df68: j .L8002df74
@@ -31858,9 +31945,9 @@ F0x8002e0ac:
 .L8002e0b4: move_ $s0, $a0
 .L8002e0b8: bnez $s0, .L8002e0d4
 .L8002e0bc: sw $ra, 0x14($sp)
-.L8002e0c0: lui $s0, 0x8001
+.L8002e0c0: lui $s0, %hi(D0x80010a68)
 .L8002e0c4: j .L8002e0d4
-.L8002e0c8: addiu $s0, 0xa68
+.L8002e0c8: addiu $s0, %lo(D0x80010a68)
 .L8002e0cc: jal F0x80028b2c
 .L8002e0d0: sra $a0, 0x18
 .L8002e0d4: lbu $a0, ($s0)
@@ -32471,9 +32558,9 @@ F0x8002e974:
 .L8002e9b0: nop
 .L8002e9b4: bne $v0, $v1, .L8002e9e4
 .L8002e9b8: nop
-.L8002e9bc: lui $a0, 0x8001
+.L8002e9bc: lui $a0, %hi(D0x80010a78)
 .L8002e9c0: jal F0x8002e0ac
-.L8002e9c4: addiu $a0, 0xa78
+.L8002e9c4: addiu $a0, %lo(D0x80010a78)
 .L8002e9c8: jal ChangeClearPad
 .L8002e9cc: move_ $a0, $zr
 .L8002e9d0: li $a0, 0x3
@@ -32639,9 +32726,9 @@ F0x8002ec88:
 .L8002ecc0: lw $v0, %lo(I_STAT_PTR_ADDR)($v0)
 .L8002ecc4: nop
 .L8002ecc8: lhu $a1, ($v0)
-.L8002eccc: lui $a0, 0x8001
+.L8002eccc: lui $a0, %hi(D0x80010abc)
 .L8002ecd0: jal F0x800283fc
-.L8002ecd4: addiu $a0, 0xabc
+.L8002ecd4: addiu $a0, %lo(D0x80010abc)
 .L8002ecd8: jal ReturnFromException
 .L8002ecdc: nop
 .L8002ece0: lui $a0, %hi(I_STAT_PTR_ADDR)
@@ -34490,9 +34577,9 @@ F0x8003086c:
 .L8003089c: sw $s1, 0x14($sp)
 .L800308a0: bne $v1, $v0, .L800308c4
 .L800308a4: sw $s0, 0x10($sp)
-.L800308a8: lui $a0, 0x8001
+.L800308a8: lui $a0, %hi(D0x80010b28)
 .L800308ac: jal F0x800283fc
-.L800308b0: addiu $a0, 0xb28
+.L800308b0: addiu $a0, %lo(D0x80010b28)
 .L800308b4: j .L80030b3c
 .L800308b8: li $v0, -0x1
 .L800308bc: j .L80030ab4
@@ -36731,9 +36818,9 @@ F0x8003293c:
 .L80032a5c: addiu $v0, $a3, 0x6
 .L80032a60: beqz $v1, .L80032a7c
 .L80032a64: sw $v0, ($s0)
-.L80032a68: lui $a0, 0x8001
+.L80032a68: lui $a0, %hi(D0x80010b58)
 .L80032a6c: jal F0x800283fc
-.L80032a70: addiu $a0, 0xb58
+.L80032a70: addiu $a0, %lo(D0x80010b58)
 .L80032a74: j .L80032d00
 .L80032a78: li $v0, -0x1
 .L80032a7c: addiu $v0, $a3, 0x8
@@ -42745,9 +42832,9 @@ F0x8003856c:
 .L800385f8: bnez $v0, .L8003861c
 .L800385fc: nop
 .L80038600: la_ $a0, D0x80010b98
-.L80038608: lui $a1, 0x8001
+.L80038608: lui $a1, %hi(D0x80010ba8)
 .L8003860c: jal F0x800283fc
-.L80038610: addiu $a1, 0xba8
+.L80038610: addiu $a1, %lo(D0x80010ba8)
 .L80038614: j .L80038640
 .L80038618: move_ $a0, $zr
 .L8003861c: lui $v0, %hi(D0x8005c280)
@@ -42921,9 +43008,9 @@ F0x800387ec:
 .L800388b8: bnez $v0, .L800388dc
 .L800388bc: nop
 .L800388c0: la_ $a0, D0x80010b98
-.L800388c8: lui $a1, 0x8001
+.L800388c8: lui $a1, %hi(D0x80010bb8)
 .L800388cc: jal F0x800283fc
-.L800388d0: addiu $a1, 0xbb8
+.L800388d0: addiu $a1, %lo(D0x80010bb8)
 .L800388d4: j .L800388fc
 .L800388d8: nop
 .L800388dc: lui $v0, %hi(D0x8005c280)
@@ -42957,9 +43044,9 @@ F0x800387ec:
 .L8003894c: bnez $v0, .L80038970
 .L80038950: nop
 .L80038954: la_ $a0, D0x80010b98
-.L8003895c: lui $a1, 0x8001
+.L8003895c: lui $a1, %hi(D0x80010bcc)
 .L80038960: jal F0x800283fc
-.L80038964: addiu $a1, 0xbcc
+.L80038964: addiu $a1, %lo(D0x80010bcc)
 .L80038968: j .L80038990
 .L8003896c: nop
 .L80038970: lui $v0, %hi(D0x8005c280)
@@ -46584,9 +46671,9 @@ F0x8003be78:
 .L8003beb4: sw $a1, 0x10($v1)
 .L8003beb8: j .L8003bed0
 .L8003bebc: li $v0, 0x1
-.L8003bec0: lui $a0, 0x8001
+.L8003bec0: lui $a0, %hi(D0x80010c68)
 .L8003bec4: jal F0x800283fc
-.L8003bec8: addiu $a0, 0xc68
+.L8003bec8: addiu $a0, %lo(D0x80010c68)
 .L8003becc: move_ $v0, $zr
 .L8003bed0: lw $ra, 0x10($sp)
 .L8003bed4: addiu $sp, 0x18
@@ -46779,9 +46866,9 @@ F0x8003bee0:
 .L8003c1c4: nop
 .L8003c1c8: j .L8003c1dc
 .L8003c1cc: sw $zr, ($s0)
-.L8003c1d0: lui $a0, 0x8001
+.L8003c1d0: lui $a0, %hi(D0x80010c90)
 .L8003c1d4: jal F0x800283fc
-.L8003c1d8: addiu $a0, 0xc90
+.L8003c1d8: addiu $a0, %lo(D0x80010c90)
 .L8003c1dc: move_ $v0, $zr
 .L8003c1e0: lw $ra, 0x20($sp)
 .L8003c1e4: lw $s3, 0x1c($sp)
@@ -46809,9 +46896,9 @@ F0x8003c1fc:
 .L8003c238: sw $a1, 0x10($v1)
 .L8003c23c: j .L8003c254
 .L8003c240: li $v0, 0x1
-.L8003c244: lui $a0, 0x8001
+.L8003c244: lui $a0, %hi(D0x80010c68)
 .L8003c248: jal F0x800283fc
-.L8003c24c: addiu $a0, 0xc68
+.L8003c24c: addiu $a0, %lo(D0x80010c68)
 .L8003c250: move_ $v0, $zr
 .L8003c254: lw $ra, 0x10($sp)
 .L8003c258: addiu $sp, 0x18
@@ -47026,9 +47113,9 @@ F0x8003c4f4:
 .L8003c544: nop
 .L8003c548: bltz $v0, .L8003c564
 .L8003c54c: move_ $s2, $zr
-.L8003c550: lui $a0, 0x8001
+.L8003c550: lui $a0, %hi(D0x80010d64)
 .L8003c554: jal F0x800283fc
-.L8003c558: addiu $a0, 0xd64
+.L8003c558: addiu $a0, %lo(D0x80010d64)
 .L8003c55c: j .L8003c670
 .L8003c560: li $v0, -0x1
 .L8003c564: move_ $a0, $s3
@@ -47052,9 +47139,9 @@ F0x8003c4f4:
 .L8003c5ac: lui $at, %hi(D0x80082928)
 .L8003c5b0: blez $v1, .L8003c5cc
 .L8003c5b4: sw $v0, %lo(D0x80082928)($at)
-.L8003c5b8: lui $a0, 0x8001
+.L8003c5b8: lui $a0, %hi(D0x80010c68)
 .L8003c5bc: jal F0x800283fc
-.L8003c5c0: addiu $a0, 0xc68
+.L8003c5c0: addiu $a0, %lo(D0x80010c68)
 .L8003c5c4: j .L8003c5f0
 .L8003c5c8: move_ $a0, $zr
 .L8003c5cc: la_ $a0, F0x8003c264
@@ -47129,22 +47216,22 @@ F0x8003c4f4:
 .L8003c6ec: nop
 .L8003c6f0: bgez $v0, .L8003c704
 .L8003c6f4: move_ $t0, $a0
-.L8003c6f8: lui $a0, 0x8001
+.L8003c6f8: lui $a0, %hi(D0x80010d8c)
 .L8003c6fc: j .L8003c774
-.L8003c700: addiu $a0, 0xd8c
+.L8003c700: addiu $a0, %lo(D0x80010d8c)
 .L8003c704: lw $v0, -0x14($a3)
 .L8003c708: nop
 .L8003c70c: blez $v0, .L8003c720
 .L8003c710: addiu $v1, $a3, -0x14
-.L8003c714: lui $a0, 0x8001
+.L8003c714: lui $a0, %hi(D0x80010c68)
 .L8003c718: j .L8003c774
-.L8003c71c: addiu $a0, 0xc68
+.L8003c71c: addiu $a0, %lo(D0x80010c68)
 .L8003c720: andi $v0, $a2, 0x7f
 .L8003c724: beqz $v0, .L8003c738
 .L8003c728: andi $v0, $a1, 0x7f
-.L8003c72c: lui $a0, 0x8001
+.L8003c72c: lui $a0, %hi(D0x80010db0)
 .L8003c730: j .L8003c774
-.L8003c734: addiu $a0, 0xdb0
+.L8003c734: addiu $a0, %lo(D0x80010db0)
 .L8003c738: bnez $v0, .L8003c76c
 .L8003c73c: li $v0, 0x5
 .L8003c740: la_ $a0, F0x8003c790
@@ -47279,22 +47366,22 @@ F0x8003c790:
 .L8003c954: nop
 .L8003c958: bgez $v0, .L8003c96c
 .L8003c95c: move_ $t0, $a0
-.L8003c960: lui $a0, 0x8001
+.L8003c960: lui $a0, %hi(D0x80010d8c)
 .L8003c964: j .L8003c9dc
-.L8003c968: addiu $a0, 0xd8c
+.L8003c968: addiu $a0, %lo(D0x80010d8c)
 .L8003c96c: lw $v0, -0x14($a3)
 .L8003c970: nop
 .L8003c974: blez $v0, .L8003c988
 .L8003c978: addiu $v1, $a3, -0x14
-.L8003c97c: lui $a0, 0x8001
+.L8003c97c: lui $a0, %hi(D0x80010c68)
 .L8003c980: j .L8003c9dc
-.L8003c984: addiu $a0, 0xc68
+.L8003c984: addiu $a0, %lo(D0x80010c68)
 .L8003c988: andi $v0, $a2, 0x7f
 .L8003c98c: beqz $v0, .L8003c9a0
 .L8003c990: andi $v0, $a1, 0x7f
-.L8003c994: lui $a0, 0x8001
+.L8003c994: lui $a0, %hi(D0x80010db0)
 .L8003c998: j .L8003c9dc
-.L8003c99c: addiu $a0, 0xdb0
+.L8003c99c: addiu $a0, %lo(D0x80010db0)
 .L8003c9a0: bnez $v0, .L8003c9d4
 .L8003c9a4: li $v0, 0x6
 .L8003c9a8: la_ $a0, F0x8003c9f8
@@ -47442,21 +47529,21 @@ F0x8003cba4:
 .L8003cbe4: lw $s6, 0x40($sp)
 .L8003cbe8: blez $v0, .L8003cbfc
 .L8003cbec: nop
-.L8003cbf0: lui $a0, 0x8001
+.L8003cbf0: lui $a0, %hi(D0x80010e0c)
 .L8003cbf4: j .L8003cc88
-.L8003cbf8: addiu $a0, 0xe0c
+.L8003cbf8: addiu $a0, %lo(D0x80010e0c)
 .L8003cbfc: lw $v0, 0x14($s1)
 .L8003cc00: nop
 .L8003cc04: bltz $v0, .L8003cc18
 .L8003cc08: andi $v0, $s6, 0x7f
-.L8003cc0c: lui $a0, 0x8001
+.L8003cc0c: lui $a0, %hi(D0x80010d64)
 .L8003cc10: j .L8003cc88
-.L8003cc14: addiu $a0, 0xd64
+.L8003cc14: addiu $a0, %lo(D0x80010d64)
 .L8003cc18: beqz $v0, .L8003cc2c
 .L8003cc1c: andi $v0, $s2, 0x7f
-.L8003cc20: lui $a0, 0x8001
+.L8003cc20: lui $a0, %hi(D0x80010db0)
 .L8003cc24: j .L8003cc88
-.L8003cc28: addiu $a0, 0xdb0
+.L8003cc28: addiu $a0, %lo(D0x80010db0)
 .L8003cc2c: bnez $v0, .L8003cc80
 .L8003cc30: move_ $a0, $s4
 .L8003cc34: addiu $s0, $s1, 0x24
@@ -47577,21 +47664,21 @@ F0x8003cdc4:
 .L8003ce04: lw $s6, 0x40($sp)
 .L8003ce08: blez $v0, .L8003ce1c
 .L8003ce0c: nop
-.L8003ce10: lui $a0, 0x8001
+.L8003ce10: lui $a0, %hi(D0x80010e0c)
 .L8003ce14: j .L8003cea8
-.L8003ce18: addiu $a0, 0xe0c
+.L8003ce18: addiu $a0, %lo(D0x80010e0c)
 .L8003ce1c: lw $v0, 0x14($s1)
 .L8003ce20: nop
 .L8003ce24: bltz $v0, .L8003ce38
 .L8003ce28: andi $v0, $s6, 0x7f
-.L8003ce2c: lui $a0, 0x8001
+.L8003ce2c: lui $a0, %hi(D0x80010d64)
 .L8003ce30: j .L8003cea8
-.L8003ce34: addiu $a0, 0xd64
+.L8003ce34: addiu $a0, %lo(D0x80010d64)
 .L8003ce38: beqz $v0, .L8003ce4c
 .L8003ce3c: andi $v0, $s2, 0x7f
-.L8003ce40: lui $a0, 0x8001
+.L8003ce40: lui $a0, %hi(D0x80010db0)
 .L8003ce44: j .L8003cea8
-.L8003ce48: addiu $a0, 0xdb0
+.L8003ce48: addiu $a0, %lo(D0x80010db0)
 .L8003ce4c: bnez $v0, .L8003cea0
 .L8003ce50: move_ $a0, $s4
 .L8003ce54: addiu $s0, $s1, 0x24
@@ -47714,9 +47801,9 @@ F0x8003cfe4:
 .L8003d02c: lw $s8, 0xa0($sp)
 .L8003d030: beqz $v0, .L8003d04c
 .L8003d034: move_ $a0, $s6
-.L8003d038: lui $a0, 0x8001
+.L8003d038: lui $a0, %hi(D0x80010e0c)
 .L8003d03c: jal F0x800283fc
-.L8003d040: addiu $a0, 0xe0c
+.L8003d040: addiu $a0, %lo(D0x80010e0c)
 .L8003d044: j .L8003d210
 .L8003d048: li $v0, -0x1
 .L8003d04c: jal F0x8003d5e0
@@ -47768,9 +47855,9 @@ F0x8003cfe4:
 .L8003d104: sw $v0, %lo(D0x80082928)($at)
 .L8003d108: blez $v1, .L8003d124
 .L8003d10c: li $t0, 0x2
-.L8003d110: lui $a0, 0x8001
+.L8003d110: lui $a0, %hi(D0x80010c68)
 .L8003d114: jal F0x800283fc
-.L8003d118: addiu $a0, 0xc68
+.L8003d118: addiu $a0, %lo(D0x80010c68)
 .L8003d11c: j .L8003d148
 .L8003d120: move_ $a0, $zr
 .L8003d124: la_ $a0, F0x8003c264
@@ -47934,9 +48021,9 @@ F0x8003d370:
 .L8003d39c: nop
 .L8003d3a0: beqz $v0, .L8003d3d4
 .L8003d3a4: move_ $s3, $a2
-.L8003d3a8: lui $a0, 0x8001
+.L8003d3a8: lui $a0, %hi(D0x80010e0c)
 .L8003d3ac: jal F0x800283fc
-.L8003d3b0: addiu $a0, 0xe0c
+.L8003d3b0: addiu $a0, %lo(D0x80010e0c)
 .L8003d3b4: j .L8003d450
 .L8003d3b8: li $v0, -0x1
 .L8003d3bc: j .L8003d450
@@ -47993,9 +48080,9 @@ F0x8003d46c:
 .L8003d480: nop
 .L8003d484: beqz $v0, .L8003d4a0
 .L8003d488: nop
-.L8003d48c: lui $a0, 0x8001
+.L8003d48c: lui $a0, %hi(D0x80010e0c)
 .L8003d490: jal F0x800283fc
-.L8003d494: addiu $a0, 0xe0c
+.L8003d494: addiu $a0, %lo(D0x80010e0c)
 .L8003d498: j .L8003d4d0
 .L8003d49c: li $v0, -0x1
 .L8003d4a0: jal F0x8003e27c
@@ -48417,9 +48504,9 @@ F0x8003dabc:
 .L8003dacc: slti $v0, $a2, 0x4
 .L8003dad0: bnez $v0, .L8003daec
 .L8003dad4: sw $ra, 0x10($sp)
-.L8003dad8: lui $a0, 0x8001
+.L8003dad8: lui $a0, %hi(D0x80010e38)
 .L8003dadc: jal F0x800283fc
-.L8003dae0: addiu $a0, 0xe38
+.L8003dae0: addiu $a0, %lo(D0x80010e38)
 .L8003dae4: j .L8003db28
 .L8003dae8: nop
 .L8003daec: li $a1, 0x3
@@ -49625,9 +49712,9 @@ F0x8003ed1c:
 .L8003ed38: nop
 .L8003ed3c: beqz $v0, .L8003ed60
 .L8003ed40: li $v1, -0x1
-.L8003ed44: lui $a0, 0x8001
+.L8003ed44: lui $a0, %hi(D0x80010e68)
 .L8003ed48: jal F0x800283fc
-.L8003ed4c: addiu $a0, 0xe68
+.L8003ed4c: addiu $a0, %lo(D0x80010e68)
 .L8003ed50: j .L8003edb8
 .L8003ed54: li $v0, -0x1
 .L8003ed58: j .L8003edb8
