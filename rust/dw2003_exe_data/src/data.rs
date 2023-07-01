@@ -16307,7 +16307,8 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8005af48: u32 = 0x64657672;
 	pub static mut D0x8005af4c: u32 = 0x0000002e;
 	//
-	pub static mut D0x8005af50: u32 = 0x00000000; // Set to `1` by `f14`.
+	pub static mut D0x8005af50: u16 = 0x0000; // Set to `1` by `f14`.
+	pub static mut D0x8005af52: u16 = 0x0000;
 
 	//
 	pub static mut D0x8005af54: u32 = 0x00000000;
@@ -17363,12 +17364,14 @@ util::decl_static! { "dw2003_exe_data1",
 		&F0x8002efa0,
 		core::ptr::null(), // Set by `f14` to `F0x8002f1ac()`?
 		&F0x8002f040,
-		&D0x8005af50,
+		// TODO: Is this correct?
+		(&D0x8005af50 as *const u16).cast::<u32>(),
 	] };
 
 	pub static mut D0x8005bfd8: *const [*const u32; 8] = unsafe { &D0x8005bfb8 };
 
 	// Used by `f14`
+	// TODO: Doesn't seem like it's *just* used by `f14`, maybe rename?
 	pub static mut f14_I_STAT_PTR: *mut u16 = core::ptr::invalid_mut(0x1f801070);
 	pub static mut f14_I_MASK_PTR: *mut u32 = core::ptr::invalid_mut(0x1f801074);
 	pub static mut f14_DPCR_PTR  : *mut u32 = core::ptr::invalid_mut(0x1f8010f0);
@@ -17529,7 +17532,8 @@ util::decl_static! { "dw2003_exe_data1",
 	//
 	pub static mut D0x8005c224: u32 = 0x00000000;
 	//
-	pub static mut D0x8005c228: u32 = 0x00000000;
+	pub static mut D0x8005c228: u16 = 0x0000;
+	pub static mut D0x8005c22a: u16 = 0x0000;
 	pub static mut D0x8005c22c: u32 = 0x00000000;
 	//
 	pub static mut D0x8005c230: u32 = 0x00000000;
