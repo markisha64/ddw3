@@ -42,17 +42,18 @@ alias:
   build_rust_dir     : $(build_dir)/rust
   build_raw_exe_dir  : $(build_dir)/raw_exe
 
-  # Files
-  checksums       : checksums.sha256
+  # Licenses
   license_psx_iso : licenses/psx-bin.dat
   license_psexe_eu: licenses/psexe-eu.dat
   license_psexe_na: licenses/psexe-na.dat
 
-  # Built files
-  compare_deps  : $(build_dir)/compare.d
+  # Misc
   dummy_buffer  : $(build_misc_dir)/DUMMY
-  dw2003_psx_iso: $(build_psx_iso_dir)/dw2003.bin
-  dw3_psx_iso   : $(build_psx_iso_dir)/dw3.bin
+
+  # Compare
+  compare_checksums: checksums.sha256
+  compare_ok       : $(build_dir)/compare.ok
+  compare_deps     : $(build_dir)/compare.d
 
   # Rust tool
   rust_tool     : $(build_rust_tool_dir)/^(name::non_empty)
@@ -60,11 +61,13 @@ alias:
   rust_tool_src : tools/^(name)
 
   # Psx iso
-  psx_iso     : $(build_psx_iso_dir)/^(path).bin
-  psx_iso_cue : $(build_psx_iso_dir)/^(path).cue
-  psx_iso_lba : $(build_psx_iso_dir)/^(path).lba
-  psx_iso_deps: $(build_psx_iso_dir)/^(path).d
-  psx_iso_xml : ^(path).xml
+  dw2003_psx_iso: $(build_psx_iso_dir)/dw2003.bin
+  dw3_psx_iso   : $(build_psx_iso_dir)/dw3.bin
+  psx_iso       : $(build_psx_iso_dir)/^(path).bin
+  psx_iso_cue   : $(build_psx_iso_dir)/^(path).cue
+  psx_iso_lba   : $(build_psx_iso_dir)/^(path).lba
+  psx_iso_deps  : $(build_psx_iso_dir)/^(path).d
+  psx_iso_xml   : ^(path).xml
 
   # Assembly
   asm_obj     : $(build_asm_dir)/^(path).o
@@ -100,15 +103,17 @@ default:
 rules:
   # Compare
   compare:
-    deps: [$(checksums), deps_file: $(compare_deps)]
+    out: [$(compare_ok)]
+    deps: [$(compare_checksums), deps_file: $(compare_deps)]
     exec:
-      - [$(sha256sum), --check, --quiet, $(checksums)]
+      - [$(sha256sum), --check, --quiet, $(compare_checksums)]
+      - [$(touch), $(compare_ok)]
 
   # Compare dependencies
   compare-deps:
     out: [$(compare_deps)]
     deps:
-      - $(checksums)
+      - $(compare_checksums)
       - $(generate_compare_deps)
       - static: $(compare_deps::dir_name)/
 

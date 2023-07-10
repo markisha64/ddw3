@@ -8,4 +8,4 @@ with open("checksums.sha256") as f:
 		deps.append(dep_path)
 
 deps = ' '.join(deps)
-print(f"compare: {deps}")
+print(f"build/compare.ok: {deps}")
