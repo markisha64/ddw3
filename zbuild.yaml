@@ -7,7 +7,6 @@ alias:
   ld       : mips-elf-ld # GNU assembler (GNU Binutils) 2.39
   mkpsxiso : mkpsxiso    # MKPSXISO 2.02
   cargo    : cargo       # cargo 1.72.0-nightly (f7b95e316 2023-05-30)
-  bash     : bash        # GNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu)
   sed      : sed         # sed (GNU sed) 4.9
   sha256sum: sha256sum   # sha256sum (GNU coreutils) 9.3
   rm       : rm          # rm        (GNU coreutils) 9.3
@@ -116,9 +115,15 @@ rules:
       - $(compare_checksums)
       - $(generate_compare_deps)
       - static: $(compare_deps::dir_name)/
-
     exec:
-      - [$(bash), -c, '$(python3) $(generate_compare_deps) > $(compare_deps)']
+      - - $(python3)
+        - $(generate_compare_deps)
+        - --checksums
+        - $(compare_checksums)
+        - --compare-output
+        - $(compare_ok)
+        - --deps-file
+        - $(compare_deps)
 
   # Clean
   clean:
