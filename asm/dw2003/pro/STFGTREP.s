@@ -3848,6 +3848,7 @@ STFGTREP_1:
 .L0x00003cfc: move_ $s0, $a0
 .L0x00003d00: li $v0, 0x2
 .L0x00003d04: bne $s1, $v0, .L0x00003d34
+# TODO: This is a 2+ instruction pseudo instruction after a branch delay slot
 .L0x00003d08: li $v1, 0x66666667
 .L0x00003d10: sll $v0, $a0, 0x1
 .L0x00003d14: addu $v0, $a0
