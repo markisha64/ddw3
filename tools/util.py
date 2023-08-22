@@ -19,3 +19,14 @@ def process_path(path: str | Path, input_dir: Path):
 		return path.relative_to("/")
 	else:
 		return input_dir.joinpath(path)
+
+
+def find_index(predicate, it) -> int | None:
+	"""
+	Finds the first index in `it` where `predicate` returns `True`.
+	"""
+	for idx, value in enumerate(it):
+		if predicate(value):
+			return idx
+
+	return None

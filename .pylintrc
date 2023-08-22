@@ -3,7 +3,8 @@ indent-string='\t'
 max-line-length=120
 
 # `f`: Callbacks
-good-names=f
+# `it`: Iterators
+good-names=f,it
 
 [MESSAGES CONTROL]
 
