@@ -261,7 +261,7 @@ where
 }
 
 /// Creates a `IoSlice<&mut &T>` from `&mut & IoSlice<T>` and runs `f` with it
-fn exec_as_ref_ref_mut<'a, 'b, T, O>(slice: &'b mut &'a IoSlice<T>, f: impl FnOnce(IoSlice<&'_ mut &'a T>) -> O) -> O {
+fn exec_as_ref_ref_mut<'a, 'b, T, O>(slice: &'b &'a IoSlice<T>, f: impl FnOnce(IoSlice<&'_ mut &'a T>) -> O) -> O {
 	let slice = IoSlice {
 		inner:     &mut &slice.inner,
 		start_pos: slice.start_pos,

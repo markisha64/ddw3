@@ -306,7 +306,7 @@ impl<const N: usize> PartialEq<str> for AsciiStrArr<N> {
 
 impl<const N: usize> PartialOrd for AsciiStrArr<N> {
 	fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
-		AsciiStr::partial_cmp(self.as_ascii(), other.as_ascii())
+		Some(self.cmp(other))
 	}
 }
 
