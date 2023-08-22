@@ -211,31 +211,31 @@ STFGTREP_1:
 .L0x0000041c: sb $a0, 0x6($v0)
 .L0x00000420: sb $a0, 0x5($v0)
 .L0x00000424: sb $a0, 0x4($v0)
-.L0x00000428: lw $a0, 0x0($v0)
-.L0x0000042c: lw $v1, 0x0($s1)
+.L0x00000428: lw $a0, ($v0)
+.L0x0000042c: lw $v1, ($s1)
 .L0x00000430: and $a0, $a2
 .L0x00000434: and $v1, $a3
 .L0x00000438: or $a0, $v1
-.L0x0000043c: sw $a0, 0x0($v0)
-.L0x00000440: lw $v1, 0x0($s1)
+.L0x0000043c: sw $a0, ($v0)
+.L0x00000440: lw $v1, ($s1)
 .L0x00000444: and $a0, $v0, $a3
 .L0x00000448: and $v1, $a2
 .L0x0000044c: or $v1, $a0
-.L0x00000450: sw $v1, 0x0($s1)
+.L0x00000450: sw $v1, ($s1)
 .L0x00000454: li $v1, 0x1
 .L0x00000458: sb $v1, 0x3($a1)
 .L0x0000045c: sw $t0, 0x4($a1)
 .L0x00000460: lw $a0, 0x18($v0)
-.L0x00000464: lw $v1, 0x0($s1)
+.L0x00000464: lw $v1, ($s1)
 .L0x00000468: and $a0, $a2
 .L0x0000046c: and $v1, $a3
 .L0x00000470: or $a0, $v1
 .L0x00000474: sw $a0, 0x18($v0)
-.L0x00000478: lw $v1, 0x0($s1)
+.L0x00000478: lw $v1, ($s1)
 .L0x0000047c: and $a1, $a3
 .L0x00000480: and $v1, $a2
 .L0x00000484: or $v1, $a1
-.L0x00000488: sw $v1, 0x0($s1)
+.L0x00000488: sw $v1, ($s1)
 .L0x0000048c: lw $v1, 0x15c($s2)
 .L0x00000490: nop
 .L0x00000494: jalr $v1
@@ -339,7 +339,7 @@ STFGTREP_1:
 .L0x0000061c: addiu $s0, $s1, 0x38
 .L0x00000620: sll $s0, 0x10
 .L0x00000624: sra $s0, 0x10
-.L0x00000628: sw $v0, 0x0($s5)
+.L0x00000628: sw $v0, ($s5)
 .L0x0000062c: lh $a0, 0x54($s2)
 .L0x00000630: jal 0x8001ae38
 .L0x00000634: move_ $a3, $s0
@@ -441,7 +441,7 @@ STFGTREP_1:
 .L0x000007b4: jalr $v0
 .L0x000007b8: move_ $a0, $s5
 .L0x000007bc: move_ $s0, $v0
-.L0x000007c0: lw $a0, 0x0($s1)
+.L0x000007c0: lw $a0, ($s1)
 .L0x000007c4: move_ $a1, $s0
 .L0x000007c8: lw $v0, 0x114($a0)
 .L0x000007cc: nop
@@ -565,7 +565,7 @@ STFGTREP_1:
 .L0x000009a4: addiu $s2, 0x2
 .L0x000009a8: j 0x80083718
 .L0x000009ac: nop
-.L0x000009b0: lw $a0, 0x0($s1)
+.L0x000009b0: lw $a0, ($s1)
 .L0x000009b4: move_ $a1, $zr
 .L0x000009b8: lw $v0, 0x144($a0)
 .L0x000009bc: nop
@@ -917,7 +917,7 @@ STFGTREP_1:
 .L0x00000f24: addu $v0, $a0
 .L0x00000f28: sll $v0, 0x2
 .L0x00000f2c: addu $v0, $v1
-.L0x00000f30: lw $v1, 0x0($v0)
+.L0x00000f30: lw $v1, ($v0)
 .L0x00000f34: li $v0, -0x1
 .L0x00000f38: bne $v1, $v0, .L0x00000f48
 .L0x00000f3c: lui $v0, 0x8004
@@ -938,7 +938,7 @@ STFGTREP_1:
 .L0x00000f78: addu $v0, $a1
 .L0x00000f7c: sll $v0, 0x2
 .L0x00000f80: addu $v0, $v1
-.L0x00000f84: lw $a1, 0x0($v0)
+.L0x00000f84: lw $a1, ($v0)
 .L0x00000f88: lw $v0, 0x94($sp)
 .L0x00000f8c: nop
 .L0x00000f90: jalr $v0
@@ -1099,7 +1099,7 @@ STFGTREP_1:
 .L0x000011fc: addiu $v0, 0x2cb0
 .L0x00001200: sll $v1, 0x2
 .L0x00001204: addu $v1, $v0
-.L0x00001208: lw $v0, 0x0($v1)
+.L0x00001208: lw $v0, ($v1)
 .L0x0000120c: nop
 .L0x00001210: jr $v0
 .L0x00001214: nop
@@ -1185,7 +1185,7 @@ STFGTREP_1:
 .L0x00001354: sll $v0, 0x2
 .L0x00001358: addu $v0, $v1
 .L0x0000135c: lw $v1, 0x50($s3)
-.L0x00001360: lw $a2, 0x0($v0)
+.L0x00001360: lw $a2, ($v0)
 .L0x00001364: lw $v0, 0x2c($s0)
 .L0x00001368: lw $a3, 0x70($v1)
 .L0x0000136c: jalr $v0
@@ -1430,7 +1430,7 @@ STFGTREP_1:
 .L0x00001728: addiu $v0, 0x2d80
 .L0x0000172c: sll $v1, 0x2
 .L0x00001730: addu $v1, $v0
-.L0x00001734: lw $v0, 0x0($v1)
+.L0x00001734: lw $v0, ($v1)
 .L0x00001738: nop
 .L0x0000173c: jr $v0
 .L0x00001740: nop
@@ -1936,7 +1936,7 @@ STFGTREP_1:
 .L0x00001f10: li $a3, 0x17
 .L0x00001f14: li $a1, 0x3
 .L0x00001f18: li $a2, 0x45
-.L0x00001f1c: sw $v0, 0x0($s1)
+.L0x00001f1c: sw $v0, ($s1)
 .L0x00001f20: lh $a0, 0x50($s0)
 .L0x00001f24: jal 0x8001ae38
 .L0x00001f28: li $a3, 0x17
@@ -2143,7 +2143,7 @@ STFGTREP_1:
 .L0x0000224c: addiu $v0, 0x2d98
 .L0x00002250: sll $v1, 0x2
 .L0x00002254: addu $v1, $v0
-.L0x00002258: lw $v0, 0x0($v1)
+.L0x00002258: lw $v0, ($v1)
 .L0x0000225c: nop
 .L0x00002260: jr $v0
 .L0x00002264: nop
@@ -2276,7 +2276,7 @@ STFGTREP_1:
 .L0x00002460: jalr $v0
 .L0x00002464: li $a1, 0x6
 .L0x00002468: lw $v0, 0x14($s2)
-.L0x0000246c: lw $a0, 0x0($s3)
+.L0x0000246c: lw $a0, ($s3)
 .L0x00002470: sll $v0, 0x2
 .L0x00002474: addu $v0, $s2, $v0
 .L0x00002478: lw $a2, 0x64($v0)
@@ -2284,7 +2284,7 @@ STFGTREP_1:
 .L0x00002480: nop
 .L0x00002484: jalr $v0
 .L0x00002488: move_ $a1, $zr
-.L0x0000248c: lw $a0, 0x0($s3)
+.L0x0000248c: lw $a0, ($s3)
 .L0x00002490: nop
 .L0x00002494: lw $v0, 0x148($a0)
 .L0x00002498: nop
@@ -2374,7 +2374,7 @@ STFGTREP_1:
 .L0x000025e8: nop
 .L0x000025ec: jalr $v0
 .L0x000025f0: move_ $a1, $zr
-.L0x000025f4: lw $a0, 0x0($s3)
+.L0x000025f4: lw $a0, ($s3)
 .L0x000025f8: nop
 .L0x000025fc: lw $v0, 0x144($a0)
 .L0x00002600: nop
@@ -3022,7 +3022,7 @@ STFGTREP_1:
 .L0x00003008: nop
 .L0x0000300c: jalr $v0
 .L0x00003010: ori $a0, 0x19
-.L0x00003014: lw $v1, 0x0($s0)
+.L0x00003014: lw $v1, ($s0)
 .L0x00003018: li $v0, 0x1000
 .L0x0000301c: div $zr, $v0, $v1
 .L0x00003020: mflo $v0
@@ -3034,7 +3034,7 @@ STFGTREP_1:
 .L0x00003038: nop
 .L0x0000303c: jalr $v0
 .L0x00003040: ori $a0, 0x1a
-.L0x00003044: lw $v0, 0x0($s0)
+.L0x00003044: lw $v0, ($s0)
 .L0x00003048: li $v1, 0x1000
 .L0x0000304c: div $zr, $v1, $v0
 .L0x00003050: mflo $v0
@@ -3075,7 +3075,7 @@ STFGTREP_1:
 .L0x000030dc: nop
 .L0x000030e0: beq $a1, $a2, .L0x00003118
 .L0x000030e4: subu $v1, $a2, $a1
-.L0x000030e8: sw $a3, 0x0($a0)
+.L0x000030e8: sw $a3, ($a0)
 .L0x000030ec: move_ $v0, $a3
 .L0x000030f0: sll $v1, 0x8
 .L0x000030f4: div $zr, $v1, $v0
@@ -3165,7 +3165,7 @@ STFGTREP_1:
 .L0x00003244: addu $s0, $a0, $v1
 .L0x00003248: lui $v1, %hi(D0x8008918c)
 .L0x0000324c: addiu $s7, $v1, %lo(D0x8008918c)
-.L0x00003250: lw $a1, 0x0($s0)
+.L0x00003250: lw $a1, ($s0)
 .L0x00003254: sra $v1, $v0, 0x1f
 .L0x00003258: subu $a1, $s2, $a1
 .L0x0000325c: mfhi $a2
@@ -3176,7 +3176,7 @@ STFGTREP_1:
 .L0x00003270: subu $v0, $v1
 .L0x00003274: sll $v0, 0x2
 .L0x00003278: addu $v0, $s7
-.L0x0000327c: lw $v1, 0x0($v0)
+.L0x0000327c: lw $v1, ($v0)
 .L0x00003280: lhu $v0, 0x22($s1)
 .L0x00003284: addu $a1, $v1
 .L0x00003288: addu $v0, $a1
@@ -3192,7 +3192,7 @@ STFGTREP_1:
 .L0x000032b0: jalr $v0
 .L0x000032b4: nop
 .L0x000032b8: mult $v0, $s4
-.L0x000032bc: lw $a1, 0x0($s0)
+.L0x000032bc: lw $a1, ($s0)
 .L0x000032c0: sra $v1, $v0, 0x1f
 .L0x000032c4: subu $a1, $s2, $a1
 .L0x000032c8: mfhi $a2
@@ -3203,7 +3203,7 @@ STFGTREP_1:
 .L0x000032dc: subu $v0, $v1
 .L0x000032e0: sll $v0, 0x2
 .L0x000032e4: addu $v0, $s7
-.L0x000032e8: lw $v1, 0x0($v0)
+.L0x000032e8: lw $v1, ($v0)
 .L0x000032ec: lhu $v0, 0x26($s1)
 .L0x000032f0: addu $a1, $v1
 .L0x000032f4: addu $v0, $a1
@@ -3260,7 +3260,7 @@ STFGTREP_1:
 .L0x000033c4: sll $v0, 0x2
 .L0x000033c8: addu $v0, $s4
 .L0x000033cc: addu $v0, $s8
-.L0x000033d0: lw $a1, 0x0($v0)
+.L0x000033d0: lw $a1, ($v0)
 .L0x000033d4: lhu $v0, 0xc($s0)
 .L0x000033d8: nop
 .L0x000033dc: addu $v0, $a1
@@ -3298,7 +3298,7 @@ STFGTREP_1:
 .L0x0000345c: addu $v0, $s2, $v0
 .L0x00003460: sll $v0, 0x2
 .L0x00003464: addu $v0, $s4
-.L0x00003468: lw $a1, 0x0($v0)
+.L0x00003468: lw $a1, ($v0)
 .L0x0000346c: lhu $v0, 0x18($s0)
 .L0x00003470: nop
 .L0x00003474: addu $v0, $a1
@@ -3395,7 +3395,7 @@ STFGTREP_1:
 .L0x000035e4: subu $v1, $v0
 .L0x000035e8: sll $v0, $a0, 0x2
 .L0x000035ec: addu $v0, $s5
-.L0x000035f0: lw $v0, 0x0($v0)
+.L0x000035f0: lw $v0, ($v0)
 .L0x000035f4: lw $a0, 0x18($s1)
 .L0x000035f8: addu $v1, $v0
 .L0x000035fc: slt $v1, $a0
@@ -3458,11 +3458,11 @@ STFGTREP_1:
 .L0x000036e0: sw $s2, 0x38($sp)
 .L0x000036e4: sw $s1, 0x34($sp)
 .L0x000036e8: sw $s0, 0x30($sp)
-.L0x000036ec: lw $s7, 0x0($v0)
+.L0x000036ec: lw $s7, ($v0)
 .L0x000036f0: addiu $s6, $sp, 0x28
 .L0x000036f4: move_ $s3, $s7
 .L0x000036f8: move_ $a0, $s4
-.L0x000036fc: lw $v0, 0x0($s3)
+.L0x000036fc: lw $v0, ($s3)
 .L0x00003700: addiu $a2, $sp, 0x10
 .L0x00003704: addiu $v0, -0x1
 .L0x00003708: sll $v1, $v0, 0x1
@@ -3471,7 +3471,7 @@ STFGTREP_1:
 .L0x00003714: subu $v1, $v0
 .L0x00003718: sll $v1, 0x3
 .L0x0000371c: addu $v1, $s8
-.L0x00003720: lhu $s1, 0x0($v1)
+.L0x00003720: lhu $s1, ($v1)
 .L0x00003724: lw $v0, 0x2748($s5)
 .L0x00003728: nop
 .L0x0000372c: jalr $v0
@@ -3492,7 +3492,7 @@ STFGTREP_1:
 .L0x00003768: subu $v0, $v1
 .L0x0000376c: sll $v0, 0x3
 .L0x00003770: addu $v0, $s8
-.L0x00003774: lhu $a1, 0x0($v0)
+.L0x00003774: lhu $a1, ($v0)
 .L0x00003778: lw $v0, 0x2748($s5)
 .L0x0000377c: nop
 .L0x00003780: jalr $v0
@@ -3537,7 +3537,7 @@ STFGTREP_1:
 .L0x0000381c: j 0x80086504
 .L0x00003820: nop
 .L0x00003824: move_ $a0, $s4
-.L0x00003828: sh $s1, 0x0($v1)
+.L0x00003828: sh $s1, ($v1)
 .L0x0000382c: lw $v0, 0x273c($s5)
 .L0x00003830: nop
 .L0x00003834: jalr $v0
@@ -3567,7 +3567,7 @@ STFGTREP_1:
 .L0x00003894: addiu $a1, $sp, 0x28
 .L0x00003898: move_ $a0, $zr
 .L0x0000389c: move_ $v1, $s6
-.L0x000038a0: lh $v0, 0x0($v1)
+.L0x000038a0: lh $v0, ($v1)
 .L0x000038a4: nop
 .L0x000038a8: slti $v0, 0x3
 .L0x000038ac: bnez $v0, .L0x00003824
