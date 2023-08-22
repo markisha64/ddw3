@@ -1,15 +1,2 @@
-# Rust
-target/
-
-# Build
+# Build directory
 build/
-
-# Resources
-resources/
-
-# Licenses
-/licenses/
-
-# Logs
-*.log
-logs/
