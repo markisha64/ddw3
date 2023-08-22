@@ -16,10 +16,10 @@
 					<file name="CNTY_SEL.PRO" type="data" source="dw2003/AAA/PRO/CNTY_SEL.PRO" />
 					<file name="FIELDSTG.PRO" type="data" source="dw2003/AAA/PRO/FIELDSTG.PRO" />
 					<file name="FIGHTSTG.PRO" type="data" source="dw2003/AAA/PRO/FIGHTSTG.PRO" />
-					<file name="SDIGIEDT.PRO" type="data" source="build/raw_exe/dw2003/pro/SDIGIEDT.bin" />
+					<file name="SDIGIEDT.PRO" type="data" source="dw2003/AAA/PRO/SDIGIEDT.PRO" />
 					<file name="SFSTDATA.PRO" type="data" source="dw2003/AAA/PRO/SFSTDATA.PRO" />
 					<file name="SHOCKTST.PRO" type="data" source="dw2003/AAA/PRO/SHOCKTST.PRO" />
-					<file name="SMDLDATA.PRO" type="data" source="build/raw_exe/dw2003/pro/SMDLDATA.bin" />
+					<file name="SMDLDATA.PRO" type="data" source="dw2003/AAA/PRO/SMDLDATA.PRO" />
 					<file name="SOUNDTST.PRO" type="data" source="dw2003/AAA/PRO/SOUNDTST.PRO" />
 					<file name="STAGSLCT.PRO" type="data" source="dw2003/AAA/PRO/STAGSLCT.PRO" />
 					<file name="STCRDABM.PRO" type="data" source="dw2003/AAA/PRO/STCRDABM.PRO" />
