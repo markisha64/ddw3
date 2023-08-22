@@ -15,6 +15,16 @@ addiu \reg, \reg, %lo(\addr)
 addu \lhs, \rhs, $zr
 .endm
 
+# `b` but using `bgez $zero`
+.macro b_ addr
+bgez $zero, \addr
+.endm
+
+# `jarl $zr`, but proper (assembler misassembles it as `jr $zr`)
+.macro jalr_zr
+.word 0x00000009
+.endm
+
 # Jumps to a bios function
 # Clobbers `$t1` and `$t2`
 # No delay slot

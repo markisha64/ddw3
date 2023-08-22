@@ -2,12 +2,5 @@
 start_addr: 0x0
 objs:
   - /build/asm/dw2003/pro/STFGTREP.o
-  - /build/asm/dw2003/pro/STFGTREP/f0.o
-  - /build/rust/dw2003_pro_STFGTREP_data.o # TODO: Change to `.a` once it doesn't ignore the data
 sections:
-  - section_STFGTREP_0
-  - section_STFGTREP_f0
-  - section_STFGTREP_1
-  - dw2003_pro_STFGTREP_data
-link_with:
-  - build/elf/dw2003/exe.elf
+  - section_STFGTREP

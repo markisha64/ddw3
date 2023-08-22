@@ -1,0 +1,6 @@
+---
+start_addr: 0x0
+objs:
+  - /build/asm/dw2003/pro/WFIGHTMN.o
+sections:
+  - section_WFIGHTMN

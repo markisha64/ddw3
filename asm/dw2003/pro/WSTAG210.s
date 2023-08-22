@@ -1,0 +1,4347 @@
+.include "macros.s"
+
+.section "section_WSTAG210"
+.global WSTAG210
+WSTAG210:
+.L0x00000000: .word 0x800a5fc0 # lb $t2, 0x5fc0($zr)
+.L0x00000004: .word 0x800a5fd4 # lb $t2, 0x5fd4($zr)
+.L0x00000008: .word 0x800a6074 # lb $t2, 0x6074($zr)
+.L0x0000000c: .word 0x800a62b8 # lb $t2, 0x62b8($zr)
+.L0x00000010: .word 0x800a62fc # lb $t2, 0x62fc($zr)
+.L0x00000014: .word 0x800a6368 # lb $t2, 0x6368($zr)
+.L0x00000018: .word 0x800a6470 # lb $t2, 0x6470($zr)
+.L0x0000001c: .word 0x800a649c # lb $t2, 0x649c($zr)
+.L0x00000020: .word 0x800a5fc0 # lb $t2, 0x5fc0($zr)
+.L0x00000024: .word 0x800a5fc0 # lb $t2, 0x5fc0($zr)
+.L0x00000028: .word 0x800a64f4 # lb $t2, 0x64f4($zr)
+.L0x0000002c: .word 0x800a6578 # lb $t2, 0x6578($zr)
+.L0x00000030: .word 0x800a6938 # lb $t2, 0x6938($zr)
+.L0x00000034: .word 0x800a694c # lb $t2, 0x694c($zr)
+.L0x00000038: .word 0x800a6a14 # lb $t2, 0x6a14($zr)
+.L0x0000003c: .word 0x800a6bf4 # lb $t2, 0x6bf4($zr)
+.L0x00000040: .word 0x800a6c18 # lb $t2, 0x6c18($zr)
+.L0x00000044: .word 0x800a6938 # lb $t2, 0x6938($zr)
+.L0x00000048: .word 0x800a6938 # lb $t2, 0x6938($zr)
+.L0x0000004c: .word 0x800a6938 # lb $t2, 0x6938($zr)
+.L0x00000050: .word 0x800a6938 # lb $t2, 0x6938($zr)
+.L0x00000054: .word 0x800a6938 # lb $t2, 0x6938($zr)
+.L0x00000058: .word 0x800a6c30 # lb $t2, 0x6c30($zr)
+.L0x0000005c: .word 0x800a6cbc # lb $t2, 0x6cbc($zr)
+.L0x00000060: .word 0x800a6f20 # lb $t2, 0x6f20($zr)
+.L0x00000064: .word 0x800a6f34 # lb $t2, 0x6f34($zr)
+.L0x00000068: .word 0x800a6ffc # lb $t2, 0x6ffc($zr)
+.L0x0000006c: .word 0x800a71dc # lb $t2, 0x71dc($zr)
+.L0x00000070: .word 0x800a7200 # lb $t2, 0x7200($zr)
+.L0x00000074: .word 0x800a6f20 # lb $t2, 0x6f20($zr)
+.L0x00000078: .word 0x800a6f20 # lb $t2, 0x6f20($zr)
+.L0x0000007c: .word 0x800a6f20 # lb $t2, 0x6f20($zr)
+.L0x00000080: .word 0x800a6f20 # lb $t2, 0x6f20($zr)
+.L0x00000084: .word 0x800a6f20 # lb $t2, 0x6f20($zr)
+.L0x00000088: .word 0x800a7218 # lb $t2, 0x7218($zr)
+.L0x0000008c: .word 0x800a72a4 # lb $t2, 0x72a4($zr)
+.L0x00000090: .word 0x00966754 # 0x966754
+# Start of code
+.L0x00000094: addiu $sp, -0xc8                    # .word 0x27bdff38
+.L0x00000098: sw $s3, 0xbc($sp)                   # .word 0xafb300bc
+.L0x0000009c: move_ $s3, $a0                      # .word 0x00809821
+.L0x000000a0: sw $s4, 0xc0($sp)                   # .word 0xafb400c0
+.L0x000000a4: sw $ra, 0xc4($sp)                   # .word 0xafbf00c4
+.L0x000000a8: sw $s2, 0xb8($sp)                   # .word 0xafb200b8
+.L0x000000ac: sw $s1, 0xb4($sp)                   # .word 0xafb100b4
+.L0x000000b0: sw $s0, 0xb0($sp)                   # .word 0xafb000b0
+.L0x000000b4: lw $v1, 0xc($s3)                    # .word 0x8e63000c
+.L0x000000b8: li $v0, 0x1                         # .word 0x24020001
+.L0x000000bc: beq $v1, $v0, .L0x000001b0          # .word 0x1062003c
+.L0x000000c0: move_ $s4, $a1                      # .word 0x00a0a021
+.L0x000000c4: slti $v0, $v1, 0x2                  # .word 0x28620002
+.L0x000000c8: bnez $v0, .L0x000000e0              # .word 0x14400005
+.L0x000000cc: li $v0, 0x2                         # .word 0x24020002
+.L0x000000d0: beq $v1, $v0, .L0x000009b0          # .word 0x10620237
+.L0x000000d4: li $v0, 0x3                         # .word 0x24020003
+.L0x000000d8: beq $v1, $v0, .L0x000009e0          # .word 0x10620241
+.L0x000000dc: nop                                 # .word 0x00000000
+.L0x000000e0: move_ $a0, $s3                      # .word 0x02602021
+.L0x000000e4: move_ $s2, $zr                      # .word 0x00009021
+.L0x000000e8: lw $v0, 0x38($s3)                   # .word 0x8e620038
+.L0x000000ec: nop                                 # .word 0x00000000
+.L0x000000f0: jalr $v0                            # .word 0x0040f809
+.L0x000000f4: lui $s1, 0x21                       # .word 0x3c110021
+.L0x000000f8: move_ $s0, $s4                      # .word 0x02808021
+.L0x000000fc: li $v0, 0xa                         # .word 0x2402000a
+.L0x00000100: sw $v0, 0x64($s3)                   # .word 0xae620064
+.L0x00000104: sw $v0, 0x74($s3)                   # .word 0xae620074
+.L0x00000108: li $a0, 0x1002                      # .word 0x24041002
+.L0x0000010c: li $a1, 0x1                         # .word 0x24050001
+.L0x00000110: li $a2, 0xbd                        # .word 0x240600bd
+.L0x00000114: jal 0x8001ae38                      # .word 0x0c006b8e
+.L0x00000118: sra $a3, $s1, 0x10                  # .word 0x00113c03
+.L0x0000011c: move_ $a0, $v0                      # .word 0x00402021
+.L0x00000120: li $a1, 0x1                         # .word 0x24050001
+.L0x00000124: sw $a0, ($s0)                       # .word 0xae040000
+.L0x00000128: addiu $s0, 0x4                      # .word 0x26100004
+.L0x0000012c: lw $v0, 0x15c($a0)                  # .word 0x8c82015c
+.L0x00000130: nop                                 # .word 0x00000000
+.L0x00000134: jalr $v0                            # .word 0x0040f809
+.L0x00000138: addu $s2, $a1                       # .word 0x02459021
+.L0x0000013c: lui $v0, 0xe                        # .word 0x3c02000e
+.L0x00000140: addu $s1, $v0                       # .word 0x02228821
+.L0x00000144: slti $v0, $s2, 0x8                  # .word 0x2a420008
+.L0x00000148: bnez $v0, .L0x0000010c              # .word 0x1440fff0
+.L0x0000014c: li $a0, 0x1002                      # .word 0x24041002
+.L0x00000150: li $a1, 0x1                         # .word 0x24050001
+.L0x00000154: li $a2, 0xaf                        # .word 0x240600af
+.L0x00000158: jal 0x8001b364                      # .word 0x0c006cd9
+.L0x0000015c: li $a3, 0x21                        # .word 0x24070021
+.L0x00000160: move_ $a0, $v0                      # .word 0x00402021
+.L0x00000164: sw $a0, 0x20($s4)                   # .word 0xae840020
+.L0x00000168: lw $v0, 0x80($a0)                   # .word 0x8c820080
+.L0x0000016c: nop                                 # .word 0x00000000
+.L0x00000170: jalr $v0                            # .word 0x0040f809
+.L0x00000174: move_ $a1, $zr                      # .word 0x00002821
+.L0x00000178: li $a0, 0x1002                      # .word 0x24041002
+.L0x0000017c: li $a1, 0x1                         # .word 0x24050001
+.L0x00000180: li $a2, 0x12                        # .word 0x24060012
+.L0x00000184: jal 0x8001ae38                      # .word 0x0c006b8e
+.L0x00000188: li $a3, 0xb0                        # .word 0x240700b0
+.L0x0000018c: move_ $a0, $v0                      # .word 0x00402021
+.L0x00000190: sw $a0, 0x24($s4)                   # .word 0xae840024
+.L0x00000194: lw $v0, 0x160($a0)                  # .word 0x8c820160
+.L0x00000198: nop                                 # .word 0x00000000
+.L0x0000019c: jalr $v0                            # .word 0x0040f809
+.L0x000001a0: li $a1, 0x3                         # .word 0x24050003
+.L0x000001a4: li $v0, 0x8                         # .word 0x24020008
+.L0x000001a8: j 0x800a67c0                        # .word 0x080299f0
+.L0x000001ac: sw $v0, 0x50($s3)                   # .word 0xae620050
+.L0x000001b0: lw $v1, 0x10($s3)                   # .word 0x8e630010
+.L0x000001b4: nop                                 # .word 0x00000000
+.L0x000001b8: sltiu $v0, $v1, 0xc                 # .word 0x2c62000c
+.L0x000001bc: beqz $v0, .L0x000001e0              # .word 0x10400008
+.L0x000001c0: lui $v0, 0x800a                     # .word 0x3c02800a
+.L0x000001c4: addiu $v0, 0x5de0                   # .word 0x24425de0
+.L0x000001c8: sll $v1, 0x2                        # .word 0x00031880
+.L0x000001cc: addu $v1, $v0                       # .word 0x00621821
+.L0x000001d0: lw $v0, ($v1)                       # .word 0x8c620000
+.L0x000001d4: nop                                 # .word 0x00000000
+.L0x000001d8: jr $v0                              # .word 0x00400008
+.L0x000001dc: nop                                 # .word 0x00000000
+.L0x000001e0: addiu $a0, $s3, 0x64                # .word 0x26640064
+.L0x000001e4: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x000001e8: lw $v0, -0x5f70($v0)                # .word 0x8c42a090
+.L0x000001ec: j 0x800a655c                        # .word 0x08029957
+.L0x000001f0: li $a1, 0x1                         # .word 0x24050001
+.L0x000001f4: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x000001f8: lw $v0, -0x5f6c($v0)                # .word 0x8c42a094
+.L0x000001fc: nop                                 # .word 0x00000000
+.L0x00000200: jalr $v0                            # .word 0x0040f809
+.L0x00000204: addiu $a0, $s3, 0x64                # .word 0x26640064
+.L0x00000208: beqz $v0, .L0x000007b8              # .word 0x1040016b
+.L0x0000020c: nop                                 # .word 0x00000000
+.L0x00000210: lw $v0, 0x50($s3)                   # .word 0x8e620050
+.L0x00000214: nop                                 # .word 0x00000000
+.L0x00000218: blez $v0, .L0x00000280              # .word 0x18400019
+.L0x0000021c: move_ $s0, $zr                      # .word 0x00008021
+.L0x00000220: lui $v0, 0x8004                     # .word 0x3c028004
+.L0x00000224: addiu $s1, $v0, 0x4b38              # .word 0x24514b38
+.L0x00000228: lui $v1, 0x112                      # .word 0x3c030112
+.L0x0000022c: lui $v0, 0x8006                     # .word 0x3c028006
+.L0x00000230: ori $v1, 0x1                        # .word 0x34630001
+.L0x00000234: lw $a0, -0x3358($v0)                # .word 0x8c44cca8
+.L0x00000238: lw $v0, 0x424($s1)                  # .word 0x8e220424
+.L0x0000023c: sll $a0, 0x10                       # .word 0x00042400
+.L0x00000240: jalr $v0                            # .word 0x0040f809
+.L0x00000244: addu $a0, $v1                       # .word 0x00832021
+.L0x00000248: move_ $a1, $v0                      # .word 0x00402821
+.L0x0000024c: sll $v0, $s0, 0x2                   # .word 0x00101080
+.L0x00000250: addu $v0, $s4, $v0                  # .word 0x02821021
+.L0x00000254: lw $a0, ($v0)                       # .word 0x8c440000
+.L0x00000258: addiu $s0, 0x1                      # .word 0x26100001
+.L0x0000025c: lw $v0, 0x114($a0)                  # .word 0x8c820114
+.L0x00000260: nop                                 # .word 0x00000000
+.L0x00000264: jalr $v0                            # .word 0x0040f809
+.L0x00000268: move_ $a2, $s0                      # .word 0x02003021
+.L0x0000026c: lw $v0, 0x50($s3)                   # .word 0x8e620050
+.L0x00000270: nop                                 # .word 0x00000000
+.L0x00000274: slt $v0, $s0, $v0                   # .word 0x0202102a
+.L0x00000278: bnez $v0, .L0x0000022c              # .word 0x1440ffec
+.L0x0000027c: lui $v1, 0x112                      # .word 0x3c030112
+.L0x00000280: lw $a0, 0x20($s4)                   # .word 0x8e840020
+.L0x00000284: nop                                 # .word 0x00000000
+.L0x00000288: lw $v0, 0x80($a0)                   # .word 0x8c820080
+.L0x0000028c: j 0x800a655c                        # .word 0x08029957
+.L0x00000290: li $a1, 0x1                         # .word 0x24050001
+.L0x00000294: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x00000298: addiu $s1, $v0, -0x4830             # .word 0x2451b7d0
+.L0x0000029c: lw $v0, 0x3f4($s1)                  # .word 0x8e2203f4
+.L0x000002a0: lw $s2, 0x54($s3)                   # .word 0x8e720054
+.L0x000002a4: jalr $v0                            # .word 0x0040f809
+.L0x000002a8: move_ $a0, $zr                      # .word 0x00002021
+.L0x000002ac: move_ $a0, $zr                      # .word 0x00002021
+.L0x000002b0: li $a1, 0x4                         # .word 0x24050004
+.L0x000002b4: lw $v1, 0x408($s1)                  # .word 0x8e230408
+.L0x000002b8: nop                                 # .word 0x00000000
+.L0x000002bc: jalr $v1                            # .word 0x0060f809
+.L0x000002c0: move_ $s0, $v0                      # .word 0x00408021
+.L0x000002c4: srav $s0, $s0, $v0                  # .word 0x00508007
+.L0x000002c8: andi $s0, 0x1                       # .word 0x32100001
+.L0x000002cc: bnez $s0, .L0x0000030c              # .word 0x1600000f
+.L0x000002d0: nop                                 # .word 0x00000000
+.L0x000002d4: lw $v0, 0x3fc($s1)                  # .word 0x8e2203fc
+.L0x000002d8: nop                                 # .word 0x00000000
+.L0x000002dc: jalr $v0                            # .word 0x0040f809
+.L0x000002e0: move_ $a0, $zr                      # .word 0x00002021
+.L0x000002e4: move_ $a0, $zr                      # .word 0x00002021
+.L0x000002e8: li $a1, 0x4                         # .word 0x24050004
+.L0x000002ec: lw $v1, 0x408($s1)                  # .word 0x8e230408
+.L0x000002f0: nop                                 # .word 0x00000000
+.L0x000002f4: jalr $v1                            # .word 0x0060f809
+.L0x000002f8: move_ $s0, $v0                      # .word 0x00408021
+.L0x000002fc: srav $s0, $s0, $v0                  # .word 0x00508007
+.L0x00000300: andi $s0, 0x1                       # .word 0x32100001
+.L0x00000304: beqz $s0, .L0x00000328              # .word 0x12000008
+.L0x00000308: nop                                 # .word 0x00000000
+.L0x0000030c: lw $v0, 0x54($s3)                   # .word 0x8e620054
+.L0x00000310: nop                                 # .word 0x00000000
+.L0x00000314: addiu $v0, -0x1                     # .word 0x2442ffff
+.L0x00000318: bgez $v0, .L0x000003bc              # .word 0x04410028
+.L0x0000031c: sw $v0, 0x54($s3)                   # .word 0xae620054
+.L0x00000320: j 0x800a619c                        # .word 0x08029867
+.L0x00000324: sw $zr, 0x54($s3)                   # .word 0xae600054
+.L0x00000328: lw $v0, 0x3f4($s1)                  # .word 0x8e2203f4
+.L0x0000032c: nop                                 # .word 0x00000000
+.L0x00000330: jalr $v0                            # .word 0x0040f809
+.L0x00000334: move_ $a0, $zr                      # .word 0x00002021
+.L0x00000338: move_ $a0, $zr                      # .word 0x00002021
+.L0x0000033c: li $a1, 0x6                         # .word 0x24050006
+.L0x00000340: lw $v1, 0x408($s1)                  # .word 0x8e230408
+.L0x00000344: nop                                 # .word 0x00000000
+.L0x00000348: jalr $v1                            # .word 0x0060f809
+.L0x0000034c: move_ $s0, $v0                      # .word 0x00408021
+.L0x00000350: srav $s0, $s0, $v0                  # .word 0x00508007
+.L0x00000354: andi $s0, 0x1                       # .word 0x32100001
+.L0x00000358: bnez $s0, .L0x00000398              # .word 0x1600000f
+.L0x0000035c: nop                                 # .word 0x00000000
+.L0x00000360: lw $v0, 0x3fc($s1)                  # .word 0x8e2203fc
+.L0x00000364: nop                                 # .word 0x00000000
+.L0x00000368: jalr $v0                            # .word 0x0040f809
+.L0x0000036c: move_ $a0, $zr                      # .word 0x00002021
+.L0x00000370: move_ $a0, $zr                      # .word 0x00002021
+.L0x00000374: li $a1, 0x6                         # .word 0x24050006
+.L0x00000378: lw $v1, 0x408($s1)                  # .word 0x8e230408
+.L0x0000037c: nop                                 # .word 0x00000000
+.L0x00000380: jalr $v1                            # .word 0x0060f809
+.L0x00000384: move_ $s0, $v0                      # .word 0x00408021
+.L0x00000388: srav $s0, $s0, $v0                  # .word 0x00508007
+.L0x0000038c: andi $s0, 0x1                       # .word 0x32100001
+.L0x00000390: beqz $s0, .L0x000003bc              # .word 0x1200000a
+.L0x00000394: nop                                 # .word 0x00000000
+.L0x00000398: lw $v0, 0x54($s3)                   # .word 0x8e620054
+.L0x0000039c: lw $v1, 0x50($s3)                   # .word 0x8e630050
+.L0x000003a0: addiu $v0, 0x1                      # .word 0x24420001
+.L0x000003a4: addiu $v1, -0x1                     # .word 0x2463ffff
+.L0x000003a8: sw $v0, 0x54($s3)                   # .word 0xae620054
+.L0x000003ac: slt $v0, $v1, $v0                   # .word 0x0062102a
+.L0x000003b0: beqz $v0, .L0x000003bc              # .word 0x10400002
+.L0x000003b4: nop                                 # .word 0x00000000
+.L0x000003b8: sw $v1, 0x54($s3)                   # .word 0xae630054
+.L0x000003bc: lw $v0, 0x54($s3)                   # .word 0x8e620054
+.L0x000003c0: nop                                 # .word 0x00000000
+.L0x000003c4: beq $s2, $v0, .L0x00000410          # .word 0x12420012
+.L0x000003c8: lui $a0, 0x8004                     # .word 0x3c048004
+.L0x000003cc: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x000003d0: lw $v0, 0x5c48($v0)                 # .word 0x8c425c48
+.L0x000003d4: nop                                 # .word 0x00000000
+.L0x000003d8: jalr $v0                            # .word 0x0040f809
+.L0x000003dc: ori $a0, 0x513e                     # .word 0x3484513e
+.L0x000003e0: li $a1, 0xaf                        # .word 0x240500af
+.L0x000003e4: lw $v0, 0x54($s3)                   # .word 0x8e620054
+.L0x000003e8: lw $a0, 0x20($s4)                   # .word 0x8e840020
+.L0x000003ec: sll $a2, $v0, 0x3                   # .word 0x000230c0
+.L0x000003f0: subu $a2, $v0                       # .word 0x00c23023
+.L0x000003f4: sll $a2, 0x1                        # .word 0x00063040
+.L0x000003f8: lw $v0, 0x84($a0)                   # .word 0x8c820084
+.L0x000003fc: nop                                 # .word 0x00000000
+.L0x00000400: jalr $v0                            # .word 0x0040f809
+.L0x00000404: addiu $a2, 0x21                     # .word 0x24c60021
+.L0x00000408: j 0x800a6598                        # .word 0x08029966
+.L0x0000040c: nop                                 # .word 0x00000000
+.L0x00000410: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x00000414: addiu $s1, $v0, -0x4830             # .word 0x2451b7d0
+.L0x00000418: lw $v0, 0x3f4($s1)                  # .word 0x8e2203f4
+.L0x0000041c: nop                                 # .word 0x00000000
+.L0x00000420: jalr $v0                            # .word 0x0040f809
+.L0x00000424: move_ $a0, $zr                      # .word 0x00002021
+.L0x00000428: move_ $a0, $zr                      # .word 0x00002021
+.L0x0000042c: li $a1, 0xd                         # .word 0x2405000d
+.L0x00000430: lw $v1, 0x408($s1)                  # .word 0x8e230408
+.L0x00000434: nop                                 # .word 0x00000000
+.L0x00000438: jalr $v1                            # .word 0x0060f809
+.L0x0000043c: move_ $s0, $v0                      # .word 0x00408021
+.L0x00000440: srav $s0, $s0, $v0                  # .word 0x00508007
+.L0x00000444: andi $s0, 0x1                       # .word 0x32100001
+.L0x00000448: beqz $s0, .L0x00000480              # .word 0x1200000d
+.L0x0000044c: lui $a0, 0x8004                     # .word 0x3c048004
+.L0x00000450: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x00000454: lw $v0, 0x5c48($v0)                 # .word 0x8c425c48
+.L0x00000458: nop                                 # .word 0x00000000
+.L0x0000045c: jalr $v0                            # .word 0x0040f809
+.L0x00000460: ori $a0, 0x503c                     # .word 0x3484503c
+.L0x00000464: lw $v0, 0x50($s3)                   # .word 0x8e620050
+.L0x00000468: lw $v1, 0x54($s3)                   # .word 0x8e630054
+.L0x0000046c: addiu $v0, -0x1                     # .word 0x2442ffff
+.L0x00000470: beq $v1, $v0, .L0x000004d0          # .word 0x10620017
+.L0x00000474: li $v0, 0xa                         # .word 0x2402000a
+.L0x00000478: j 0x800a6564                        # .word 0x08029959
+.L0x0000047c: nop                                 # .word 0x00000000
+.L0x00000480: lw $v0, 0x3f4($s1)                  # .word 0x8e2203f4
+.L0x00000484: nop                                 # .word 0x00000000
+.L0x00000488: jalr $v0                            # .word 0x0040f809
+.L0x0000048c: move_ $a0, $zr                      # .word 0x00002021
+.L0x00000490: move_ $a0, $zr                      # .word 0x00002021
+.L0x00000494: li $a1, 0xe                         # .word 0x2405000e
+.L0x00000498: lw $v1, 0x408($s1)                  # .word 0x8e230408
+.L0x0000049c: nop                                 # .word 0x00000000
+.L0x000004a0: jalr $v1                            # .word 0x0060f809
+.L0x000004a4: move_ $s0, $v0                      # .word 0x00408021
+.L0x000004a8: srav $s0, $s0, $v0                  # .word 0x00508007
+.L0x000004ac: andi $s0, 0x1                       # .word 0x32100001
+.L0x000004b0: beqz $s0, .L0x000007b8              # .word 0x120000c1
+.L0x000004b4: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x000004b8: lui $a0, 0x8004                     # .word 0x3c048004
+.L0x000004bc: lw $v0, 0x5c48($v0)                 # .word 0x8c425c48
+.L0x000004c0: nop                                 # .word 0x00000000
+.L0x000004c4: jalr $v0                            # .word 0x0040f809
+.L0x000004c8: ori $a0, 0x50bd                     # .word 0x348450bd
+.L0x000004cc: li $v0, 0xa                         # .word 0x2402000a
+.L0x000004d0: j 0x800a6598                        # .word 0x08029966
+.L0x000004d4: sw $v0, 0x10($s3)                   # .word 0xae620010
+.L0x000004d8: lw $a0, 0x20($s4)                   # .word 0x8e840020
+.L0x000004dc: nop                                 # .word 0x00000000
+.L0x000004e0: lw $v0, 0x94($a0)                   # .word 0x8c820094
+.L0x000004e4: nop                                 # .word 0x00000000
+.L0x000004e8: jalr $v0                            # .word 0x0040f809
+.L0x000004ec: li $a1, 0x1                         # .word 0x24050001
+.L0x000004f0: lw $a0, 0x20($s4)                   # .word 0x8e840020
+.L0x000004f4: nop                                 # .word 0x00000000
+.L0x000004f8: lw $v0, 0x88($a0)                   # .word 0x8c820088
+.L0x000004fc: nop                                 # .word 0x00000000
+.L0x00000500: jalr $v0                            # .word 0x0040f809
+.L0x00000504: li $a1, 0x7                         # .word 0x24050007
+.L0x00000508: addiu $a0, $s3, 0x74                # .word 0x26640074
+.L0x0000050c: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x00000510: lw $v0, -0x5f70($v0)                # .word 0x8c42a090
+.L0x00000514: j 0x800a655c                        # .word 0x08029957
+.L0x00000518: li $a1, 0x1                         # .word 0x24050001
+.L0x0000051c: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x00000520: lw $v0, -0x5f6c($v0)                # .word 0x8c42a094
+.L0x00000524: nop                                 # .word 0x00000000
+.L0x00000528: jalr $v0                            # .word 0x0040f809
+.L0x0000052c: addiu $a0, $s3, 0x74                # .word 0x26640074
+.L0x00000530: beqz $v0, .L0x000007b8              # .word 0x104000a1
+.L0x00000534: lui $v1, 0x112                      # .word 0x3c030112
+.L0x00000538: ori $v1, 0x1                        # .word 0x34630001
+.L0x0000053c: lui $v0, 0x8006                     # .word 0x3c028006
+.L0x00000540: lw $a0, -0x3358($v0)                # .word 0x8c44cca8
+.L0x00000544: lui $v0, 0x8004                     # .word 0x3c028004
+.L0x00000548: lw $v0, 0x4f5c($v0)                 # .word 0x8c424f5c
+.L0x0000054c: sll $a0, 0x10                       # .word 0x00042400
+.L0x00000550: jalr $v0                            # .word 0x0040f809
+.L0x00000554: addu $a0, $v1                       # .word 0x00832021
+.L0x00000558: move_ $a1, $v0                      # .word 0x00402821
+.L0x0000055c: lw $a0, 0x24($s4)                   # .word 0x8e840024
+.L0x00000560: lw $a2, 0x54($s3)                   # .word 0x8e660054
+.L0x00000564: lw $v0, 0x114($a0)                  # .word 0x8c820114
+.L0x00000568: nop                                 # .word 0x00000000
+.L0x0000056c: jalr $v0                            # .word 0x0040f809
+.L0x00000570: addiu $a2, 0x9                      # .word 0x24c60009
+.L0x00000574: lw $a0, 0x24($s4)                   # .word 0x8e840024
+.L0x00000578: nop                                 # .word 0x00000000
+.L0x0000057c: lw $v0, 0x130($a0)                  # .word 0x8c820130
+.L0x00000580: j 0x800a655c                        # .word 0x08029957
+.L0x00000584: li $a1, 0x6                         # .word 0x24050006
+.L0x00000588: lw $a0, 0x24($s4)                   # .word 0x8e840024
+.L0x0000058c: nop                                 # .word 0x00000000
+.L0x00000590: lw $v0, 0x168($a0)                  # .word 0x8c820168
+.L0x00000594: nop                                 # .word 0x00000000
+.L0x00000598: jalr $v0                            # .word 0x0040f809
+.L0x0000059c: nop                                 # .word 0x00000000
+.L0x000005a0: bnez $v0, .L0x00000784              # .word 0x14400078
+.L0x000005a4: nop                                 # .word 0x00000000
+.L0x000005a8: lw $a0, 0x24($s4)                   # .word 0x8e840024
+.L0x000005ac: nop                                 # .word 0x00000000
+.L0x000005b0: lw $v0, 0x170($a0)                  # .word 0x8c820170
+.L0x000005b4: nop                                 # .word 0x00000000
+.L0x000005b8: jalr $v0                            # .word 0x0040f809
+.L0x000005bc: nop                                 # .word 0x00000000
+.L0x000005c0: beqz $v0, .L0x00000630              # .word 0x1040001b
+.L0x000005c4: nop                                 # .word 0x00000000
+.L0x000005c8: lui $s0, 0x8005                     # .word 0x3c108005
+.L0x000005cc: addiu $s0, -0x4830                  # .word 0x2610b7d0
+.L0x000005d0: lw $v0, 0x3f4($s0)                  # .word 0x8e0203f4
+.L0x000005d4: nop                                 # .word 0x00000000
+.L0x000005d8: jalr $v0                            # .word 0x0040f809
+.L0x000005dc: move_ $a0, $zr                      # .word 0x00002021
+.L0x000005e0: move_ $a0, $zr                      # .word 0x00002021
+.L0x000005e4: li $a1, 0xd                         # .word 0x2405000d
+.L0x000005e8: lw $v1, 0x408($s0)                  # .word 0x8e030408
+.L0x000005ec: nop                                 # .word 0x00000000
+.L0x000005f0: jalr $v1                            # .word 0x0060f809
+.L0x000005f4: move_ $s0, $v0                      # .word 0x00408021
+.L0x000005f8: srav $s0, $s0, $v0                  # .word 0x00508007
+.L0x000005fc: andi $s0, 0x1                       # .word 0x32100001
+.L0x00000600: beqz $s0, .L0x00000624              # .word 0x12000008
+.L0x00000604: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x00000608: lui $a0, 0x4                        # .word 0x3c040004
+.L0x0000060c: lw $v0, 0x5c48($v0)                 # .word 0x8c425c48
+.L0x00000610: nop                                 # .word 0x00000000
+.L0x00000614: jalr $v0                            # .word 0x0040f809
+.L0x00000618: ori $a0, 0x1c                       # .word 0x3484001c
+.L0x0000061c: j 0x800a6598                        # .word 0x08029966
+.L0x00000620: sw $zr, 0x58($s3)                   # .word 0xae600058
+.L0x00000624: li $v0, 0x1                         # .word 0x24020001
+.L0x00000628: j 0x800a6598                        # .word 0x08029966
+.L0x0000062c: sw $v0, 0x58($s3)                   # .word 0xae620058
+.L0x00000630: lui $s0, 0x8005                     # .word 0x3c108005
+.L0x00000634: addiu $s0, -0x4830                  # .word 0x2610b7d0
+.L0x00000638: lw $v0, 0x3f4($s0)                  # .word 0x8e0203f4
+.L0x0000063c: nop                                 # .word 0x00000000
+.L0x00000640: jalr $v0                            # .word 0x0040f809
+.L0x00000644: move_ $a0, $zr                      # .word 0x00002021
+.L0x00000648: move_ $a0, $zr                      # .word 0x00002021
+.L0x0000064c: li $a1, 0xd                         # .word 0x2405000d
+.L0x00000650: lw $v1, 0x408($s0)                  # .word 0x8e030408
+.L0x00000654: nop                                 # .word 0x00000000
+.L0x00000658: jalr $v1                            # .word 0x0060f809
+.L0x0000065c: move_ $s0, $v0                      # .word 0x00408021
+.L0x00000660: srav $s0, $s0, $v0                  # .word 0x00508007
+.L0x00000664: andi $s0, 0x1                       # .word 0x32100001
+.L0x00000668: beqz $s0, .L0x000007b8              # .word 0x12000053
+.L0x0000066c: nop                                 # .word 0x00000000
+.L0x00000670: lw $a0, 0x24($s4)                   # .word 0x8e840024
+.L0x00000674: nop                                 # .word 0x00000000
+.L0x00000678: lw $v0, 0x128($a0)                  # .word 0x8c820128
+.L0x0000067c: nop                                 # .word 0x00000000
+.L0x00000680: jalr $v0                            # .word 0x0040f809
+.L0x00000684: nop                                 # .word 0x00000000
+.L0x00000688: j 0x800a6598                        # .word 0x08029966
+.L0x0000068c: nop                                 # .word 0x00000000
+.L0x00000690: addiu $a0, $s3, 0x74                # .word 0x26640074
+.L0x00000694: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x00000698: lw $v0, -0x5f70($v0)                # .word 0x8c42a090
+.L0x0000069c: nop                                 # .word 0x00000000
+.L0x000006a0: jalr $v0                            # .word 0x0040f809
+.L0x000006a4: move_ $a1, $zr                      # .word 0x00002821
+.L0x000006a8: lw $a0, 0x24($s4)                   # .word 0x8e840024
+.L0x000006ac: nop                                 # .word 0x00000000
+.L0x000006b0: lw $v0, 0x144($a0)                  # .word 0x8c820144
+.L0x000006b4: j 0x800a655c                        # .word 0x08029957
+.L0x000006b8: move_ $a1, $zr                      # .word 0x00002821
+.L0x000006bc: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x000006c0: lw $v0, -0x5f6c($v0)                # .word 0x8c42a094
+.L0x000006c4: nop                                 # .word 0x00000000
+.L0x000006c8: jalr $v0                            # .word 0x0040f809
+.L0x000006cc: addiu $a0, $s3, 0x74                # .word 0x26640074
+.L0x000006d0: beqz $v0, .L0x000007b8              # .word 0x10400039
+.L0x000006d4: nop                                 # .word 0x00000000
+.L0x000006d8: lw $a0, 0x20($s4)                   # .word 0x8e840020
+.L0x000006dc: nop                                 # .word 0x00000000
+.L0x000006e0: lw $v0, 0x94($a0)                   # .word 0x8c820094
+.L0x000006e4: nop                                 # .word 0x00000000
+.L0x000006e8: jalr $v0                            # .word 0x0040f809
+.L0x000006ec: move_ $a1, $zr                      # .word 0x00002821
+.L0x000006f0: lw $a0, 0x20($s4)                   # .word 0x8e840020
+.L0x000006f4: nop                                 # .word 0x00000000
+.L0x000006f8: lw $v0, 0x88($a0)                   # .word 0x8c820088
+.L0x000006fc: nop                                 # .word 0x00000000
+.L0x00000700: jalr $v0                            # .word 0x0040f809
+.L0x00000704: move_ $a1, $zr                      # .word 0x00002821
+.L0x00000708: li $v0, 0x2                         # .word 0x24020002
+.L0x0000070c: j 0x800a6598                        # .word 0x08029966
+.L0x00000710: sw $v0, 0x10($s3)                   # .word 0xae620010
+.L0x00000714: lw $v0, 0x50($s3)                   # .word 0x8e620050
+.L0x00000718: nop                                 # .word 0x00000000
+.L0x0000071c: blez $v0, .L0x00000754              # .word 0x1840000d
+.L0x00000720: move_ $s0, $zr                      # .word 0x00008021
+.L0x00000724: move_ $s1, $s4                      # .word 0x02808821
+.L0x00000728: lw $a0, ($s1)                       # .word 0x8e240000
+.L0x0000072c: move_ $a1, $zr                      # .word 0x00002821
+.L0x00000730: lw $v0, 0x144($a0)                  # .word 0x8c820144
+.L0x00000734: nop                                 # .word 0x00000000
+.L0x00000738: jalr $v0                            # .word 0x0040f809
+.L0x0000073c: addiu $s1, 0x4                      # .word 0x26310004
+.L0x00000740: lw $v0, 0x50($s3)                   # .word 0x8e620050
+.L0x00000744: addiu $s0, 0x1                      # .word 0x26100001
+.L0x00000748: slt $v0, $s0, $v0                   # .word 0x0202102a
+.L0x0000074c: bnez $v0, .L0x00000728              # .word 0x1440fff6
+.L0x00000750: nop                                 # .word 0x00000000
+.L0x00000754: lw $a0, 0x20($s4)                   # .word 0x8e840020
+.L0x00000758: nop                                 # .word 0x00000000
+.L0x0000075c: lw $v0, 0x80($a0)                   # .word 0x8c820080
+.L0x00000760: nop                                 # .word 0x00000000
+.L0x00000764: jalr $v0                            # .word 0x0040f809
+.L0x00000768: move_ $a1, $zr                      # .word 0x00002821
+.L0x0000076c: addiu $a0, $s3, 0x64                # .word 0x26640064
+.L0x00000770: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x00000774: lw $v0, -0x5f70($v0)                # .word 0x8c42a090
+.L0x00000778: move_ $a1, $zr                      # .word 0x00002821
+.L0x0000077c: jalr $v0                            # .word 0x0040f809
+.L0x00000780: nop                                 # .word 0x00000000
+.L0x00000784: lw $v0, 0x10($s3)                   # .word 0x8e620010
+.L0x00000788: nop                                 # .word 0x00000000
+.L0x0000078c: addiu $v0, 0x1                      # .word 0x24420001
+.L0x00000790: j 0x800a6598                        # .word 0x08029966
+.L0x00000794: sw $v0, 0x10($s3)                   # .word 0xae620010
+.L0x00000798: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x0000079c: lw $v0, -0x5f6c($v0)                # .word 0x8c42a094
+.L0x000007a0: nop                                 # .word 0x00000000
+.L0x000007a4: jalr $v0                            # .word 0x0040f809
+.L0x000007a8: addiu $a0, $s3, 0x64                # .word 0x26640064
+.L0x000007ac: beqz $v0, .L0x000007b8              # .word 0x10400002
+.L0x000007b0: li $v0, 0x3                         # .word 0x24020003
+.L0x000007b4: sw $v0, 0xc($s3)                    # .word 0xae62000c
+.L0x000007b8: jal 0x8001f648                      # .word 0x0c007d92
+.L0x000007bc: addiu $a0, $sp, 0x10                # .word 0x27a40010
+.L0x000007c0: li $a0, 0x1002                      # .word 0x24041002
+.L0x000007c4: lw $v0, 0x8c($sp)                   # .word 0x8fa2008c
+.L0x000007c8: nop                                 # .word 0x00000000
+.L0x000007cc: jalr $v0                            # .word 0x0040f809
+.L0x000007d0: li $a1, 0x2                         # .word 0x24050002
+.L0x000007d4: li $a0, 0x140                       # .word 0x24040140
+.L0x000007d8: lw $v0, 0x84($sp)                   # .word 0x8fa20084
+.L0x000007dc: nop                                 # .word 0x00000000
+.L0x000007e0: jalr $v0                            # .word 0x0040f809
+.L0x000007e4: move_ $a1, $zr                      # .word 0x00002821
+.L0x000007e8: lw $v0, 0xa8($sp)                   # .word 0x8fa200a8
+.L0x000007ec: nop                                 # .word 0x00000000
+.L0x000007f0: jalr $v0                            # .word 0x0040f809
+.L0x000007f4: move_ $a0, $zr                      # .word 0x00002021
+.L0x000007f8: lw $v0, 0x58($s3)                   # .word 0x8e620058
+.L0x000007fc: nop                                 # .word 0x00000000
+.L0x00000800: beqz $v0, .L0x000008b8              # .word 0x1040002d
+.L0x00000804: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x00000808: addiu $s0, $v0, -0x21f0             # .word 0x2450de10
+.L0x0000080c: lw $v0, 0x188($s0)                  # .word 0x8e020188
+.L0x00000810: nop                                 # .word 0x00000000
+.L0x00000814: jalr $v0                            # .word 0x0040f809
+.L0x00000818: nop                                 # .word 0x00000000
+.L0x0000081c: lw $v1, 0x60($s3)                   # .word 0x8e630060
+.L0x00000820: nop                                 # .word 0x00000000
+.L0x00000824: subu $v0, $v1                       # .word 0x00431023
+.L0x00000828: slti $v0, 0x4                       # .word 0x28420004
+.L0x0000082c: bnez $v0, .L0x00000864              # .word 0x1440000d
+.L0x00000830: nop                                 # .word 0x00000000
+.L0x00000834: lw $v0, 0x188($s0)                  # .word 0x8e020188
+.L0x00000838: nop                                 # .word 0x00000000
+.L0x0000083c: jalr $v0                            # .word 0x0040f809
+.L0x00000840: nop                                 # .word 0x00000000
+.L0x00000844: lw $v1, 0x5c($s3)                   # .word 0x8e63005c
+.L0x00000848: sw $v0, 0x60($s3)                   # .word 0xae620060
+.L0x0000084c: addiu $v1, 0x1                      # .word 0x24630001
+.L0x00000850: sw $v1, 0x5c($s3)                   # .word 0xae63005c
+.L0x00000854: slti $v1, 0x5                       # .word 0x28630005
+.L0x00000858: bnez $v1, .L0x00000864              # .word 0x14600002
+.L0x0000085c: nop                                 # .word 0x00000000
+.L0x00000860: sw $zr, 0x5c($s3)                   # .word 0xae60005c
+.L0x00000864: lw $a0, 0x5c($s3)                   # .word 0x8e64005c
+.L0x00000868: lw $v0, 0x98($sp)                   # .word 0x8fa20098
+.L0x0000086c: nop                                 # .word 0x00000000
+.L0x00000870: jalr $v0                            # .word 0x0040f809
+.L0x00000874: nop                                 # .word 0x00000000
+.L0x00000878: lui $v0, 0x8004                     # .word 0x3c028004
+.L0x0000087c: lw $v0, 0x4f5c($v0)                 # .word 0x8c424f5c
+.L0x00000880: nop                                 # .word 0x00000000
+.L0x00000884: jalr $v0                            # .word 0x0040f809
+.L0x00000888: lui $a0, 0x286                      # .word 0x3c040286
+.L0x0000088c: move_ $a0, $v0                      # .word 0x00402021
+.L0x00000890: li $a1, 0xa                         # .word 0x2405000a
+.L0x00000894: li $a2, 0x124                       # .word 0x24060124
+.L0x00000898: lw $v0, 0x94($sp)                   # .word 0x8fa20094
+.L0x0000089c: nop                                 # .word 0x00000000
+.L0x000008a0: jalr $v0                            # .word 0x0040f809
+.L0x000008a4: li $a3, 0xcd                        # .word 0x240700cd
+.L0x000008a8: lw $v0, 0x98($sp)                   # .word 0x8fa20098
+.L0x000008ac: nop                                 # .word 0x00000000
+.L0x000008b0: jalr $v0                            # .word 0x0040f809
+.L0x000008b4: move_ $a0, $zr                      # .word 0x00002021
+.L0x000008b8: lw $a0, 0x6c($s3)                   # .word 0x8e64006c
+.L0x000008bc: nop                                 # .word 0x00000000
+.L0x000008c0: beqz $a0, .L0x0000093c              # .word 0x1080001e
+.L0x000008c4: li $v0, 0x1000                      # .word 0x24021000
+.L0x000008c8: beq $a0, $v0, .L0x000008f4          # .word 0x1082000a
+.L0x000008cc: move_ $a1, $v0                      # .word 0x00402821
+.L0x000008d0: lw $v0, 0x9c($sp)                   # .word 0x8fa2009c
+.L0x000008d4: nop                                 # .word 0x00000000
+.L0x000008d8: jalr $v0                            # .word 0x0040f809
+.L0x000008dc: li $a2, 0x1000                      # .word 0x24061000
+.L0x000008e0: li $a0, 0x140                       # .word 0x24040140
+.L0x000008e4: lw $v0, 0xa4($sp)                   # .word 0x8fa200a4
+.L0x000008e8: nop                                 # .word 0x00000000
+.L0x000008ec: jalr $v0                            # .word 0x0040f809
+.L0x000008f0: li $a1, 0x56                        # .word 0x24050056
+.L0x000008f4: lui $v0, 0x8004                     # .word 0x3c028004
+.L0x000008f8: lw $v0, 0x4f5c($v0)                 # .word 0x8c424f5c
+.L0x000008fc: nop                                 # .word 0x00000000
+.L0x00000900: jalr $v0                            # .word 0x0040f809
+.L0x00000904: lui $a0, 0x286                      # .word 0x3c040286
+.L0x00000908: move_ $a0, $v0                      # .word 0x00402021
+.L0x0000090c: li $a2, 0xa8                        # .word 0x240600a8
+.L0x00000910: lui $v1, 0x800a                     # .word 0x3c03800a
+.L0x00000914: lw $v0, 0x50($s3)                   # .word 0x8e620050
+.L0x00000918: addiu $v1, 0x7f84                   # .word 0x24637f84
+.L0x0000091c: addiu $v0, -0x5                     # .word 0x2442fffb
+.L0x00000920: sll $v0, 0x2                        # .word 0x00021080
+.L0x00000924: addu $v0, $v1                       # .word 0x00431021
+.L0x00000928: lw $a1, ($v0)                       # .word 0x8c450000
+.L0x0000092c: lw $v0, 0x94($sp)                   # .word 0x8fa20094
+.L0x00000930: nop                                 # .word 0x00000000
+.L0x00000934: jalr $v0                            # .word 0x0040f809
+.L0x00000938: li $a3, 0x18                        # .word 0x24070018
+.L0x0000093c: lw $a0, 0x7c($s3)                   # .word 0x8e64007c
+.L0x00000940: nop                                 # .word 0x00000000
+.L0x00000944: beqz $a0, .L0x000009e0              # .word 0x10800026
+.L0x00000948: li $v0, 0x1000                      # .word 0x24021000
+.L0x0000094c: beq $a0, $v0, .L0x00000978          # .word 0x1082000a
+.L0x00000950: move_ $a1, $v0                      # .word 0x00402821
+.L0x00000954: lw $v0, 0x9c($sp)                   # .word 0x8fa2009c
+.L0x00000958: nop                                 # .word 0x00000000
+.L0x0000095c: jalr $v0                            # .word 0x0040f809
+.L0x00000960: li $a2, 0x1000                      # .word 0x24061000
+.L0x00000964: li $a0, 0x140                       # .word 0x24040140
+.L0x00000968: lw $v0, 0xa4($sp)                   # .word 0x8fa200a4
+.L0x0000096c: nop                                 # .word 0x00000000
+.L0x00000970: jalr $v0                            # .word 0x0040f809
+.L0x00000974: li $a1, 0x56                        # .word 0x24050056
+.L0x00000978: lui $v0, 0x8004                     # .word 0x3c028004
+.L0x0000097c: lw $v0, 0x4f5c($v0)                 # .word 0x8c424f5c
+.L0x00000980: nop                                 # .word 0x00000000
+.L0x00000984: jalr $v0                            # .word 0x0040f809
+.L0x00000988: lui $a0, 0x286                      # .word 0x3c040286
+.L0x0000098c: move_ $a0, $v0                      # .word 0x00402021
+.L0x00000990: li $a1, 0x45                        # .word 0x24050045
+.L0x00000994: move_ $a2, $zr                      # .word 0x00003021
+.L0x00000998: lw $v0, 0x94($sp)                   # .word 0x8fa20094
+.L0x0000099c: nop                                 # .word 0x00000000
+.L0x000009a0: jalr $v0                            # .word 0x0040f809
+.L0x000009a4: li $a3, 0xac                        # .word 0x240700ac
+.L0x000009a8: j 0x800a67c0                        # .word 0x080299f0
+.L0x000009ac: nop                                 # .word 0x00000000
+.L0x000009b0: addiu $s1, $s3, 0x64                # .word 0x26710064
+.L0x000009b4: move_ $a0, $s1                      # .word 0x02202021
+.L0x000009b8: lui $s0, 0x800b                     # .word 0x3c10800b
+.L0x000009bc: addiu $s0, -0x5f74                  # .word 0x2610a08c
+.L0x000009c0: lw $v0, 0x4($s0)                    # .word 0x8e020004
+.L0x000009c4: nop                                 # .word 0x00000000
+.L0x000009c8: jalr $v0                            # .word 0x0040f809
+.L0x000009cc: li $a1, 0x1                         # .word 0x24050001
+.L0x000009d0: lw $v0, 0x8($s0)                    # .word 0x8e020008
+.L0x000009d4: nop                                 # .word 0x00000000
+.L0x000009d8: jalr $v0                            # .word 0x0040f809
+.L0x000009dc: move_ $a0, $s1                      # .word 0x02202021
+.L0x000009e0: lw $ra, 0xc4($sp)                   # .word 0x8fbf00c4
+.L0x000009e4: lw $s4, 0xc0($sp)                   # .word 0x8fb400c0
+.L0x000009e8: lw $s3, 0xbc($sp)                   # .word 0x8fb300bc
+.L0x000009ec: lw $s2, 0xb8($sp)                   # .word 0x8fb200b8
+.L0x000009f0: lw $s1, 0xb4($sp)                   # .word 0x8fb100b4
+.L0x000009f4: lw $s0, 0xb0($sp)                   # .word 0x8fb000b0
+.L0x000009f8: jr $ra                              # .word 0x03e00008
+.L0x000009fc: addiu $sp, 0xc8                     # .word 0x27bd00c8
+.L0x00000a00: addiu $sp, -0x18                    # .word 0x27bdffe8
+.L0x00000a04: lui $a0, 0x800a                     # .word 0x3c04800a
+.L0x00000a08: addiu $a0, 0x5e74                   # .word 0x24845e74
+.L0x00000a0c: li $a1, 0x84                        # .word 0x24050084
+.L0x00000a10: sw $ra, 0x10($sp)                   # .word 0xafbf0010
+.L0x00000a14: jal 0x80014504                      # .word 0x0c005141
+.L0x00000a18: li $a2, 0x28                        # .word 0x24060028
+.L0x00000a1c: lw $ra, 0x10($sp)                   # .word 0x8fbf0010
+.L0x00000a20: nop                                 # .word 0x00000000
+.L0x00000a24: jr $ra                              # .word 0x03e00008
+.L0x00000a28: addiu $sp, 0x18                     # .word 0x27bd0018
+.L0x00000a2c: addiu $sp, -0xd0                    # .word 0x27bdff30
+.L0x00000a30: sw $s3, 0xbc($sp)                   # .word 0xafb300bc
+.L0x00000a34: move_ $s3, $a0                      # .word 0x00809821
+.L0x00000a38: sw $s4, 0xc0($sp)                   # .word 0xafb400c0
+.L0x00000a3c: sw $ra, 0xcc($sp)                   # .word 0xafbf00cc
+.L0x00000a40: sw $s6, 0xc8($sp)                   # .word 0xafb600c8
+.L0x00000a44: sw $s5, 0xc4($sp)                   # .word 0xafb500c4
+.L0x00000a48: sw $s2, 0xb8($sp)                   # .word 0xafb200b8
+.L0x00000a4c: sw $s1, 0xb4($sp)                   # .word 0xafb100b4
+.L0x00000a50: sw $s0, 0xb0($sp)                   # .word 0xafb000b0
+.L0x00000a54: lw $v1, 0xc($s3)                    # .word 0x8e63000c
+.L0x00000a58: li $v0, 0x1                         # .word 0x24020001
+.L0x00000a5c: beq $v1, $v0, .L0x00000b28          # .word 0x10620032
+.L0x00000a60: move_ $s4, $a1                      # .word 0x00a0a021
+.L0x00000a64: slti $v0, $v1, 0x2                  # .word 0x28620002
+.L0x00000a68: bnez $v0, .L0x00000a7c              # .word 0x14400004
+.L0x00000a6c: move_ $a0, $s3                      # .word 0x02602021
+.L0x00000a70: slti $v0, $v1, 0x4                  # .word 0x28620004
+.L0x00000a74: bnez $v0, .L0x00000fc0              # .word 0x14400152
+.L0x00000a78: nop                                 # .word 0x00000000
+.L0x00000a7c: move_ $s2, $zr                      # .word 0x00009021
+.L0x00000a80: lw $v0, 0x38($s3)                   # .word 0x8e620038
+.L0x00000a84: nop                                 # .word 0x00000000
+.L0x00000a88: jalr $v0                            # .word 0x0040f809
+.L0x00000a8c: lui $s1, 0xbe                       # .word 0x3c1100be
+.L0x00000a90: move_ $s0, $s4                      # .word 0x02808021
+.L0x00000a94: li $v0, 0xa                         # .word 0x2402000a
+.L0x00000a98: sw $v0, 0x54($s3)                   # .word 0xae620054
+.L0x00000a9c: li $a0, 0x1002                      # .word 0x24041002
+.L0x00000aa0: li $a1, 0x1                         # .word 0x24050001
+.L0x00000aa4: li $a2, 0x1c                        # .word 0x2406001c
+.L0x00000aa8: jal 0x8001ae38                      # .word 0x0c006b8e
+.L0x00000aac: sra $a3, $s1, 0x10                  # .word 0x00113c03
+.L0x00000ab0: move_ $a0, $v0                      # .word 0x00402021
+.L0x00000ab4: li $a1, 0x1                         # .word 0x24050001
+.L0x00000ab8: sw $a0, 0x4($s0)                    # .word 0xae040004
+.L0x00000abc: addiu $s0, 0x4                      # .word 0x26100004
+.L0x00000ac0: lw $v0, 0x15c($a0)                  # .word 0x8c82015c
+.L0x00000ac4: nop                                 # .word 0x00000000
+.L0x00000ac8: jalr $v0                            # .word 0x0040f809
+.L0x00000acc: addu $s2, $a1                       # .word 0x02459021
+.L0x00000ad0: lui $v0, 0xe                        # .word 0x3c02000e
+.L0x00000ad4: addu $s1, $v0                       # .word 0x02228821
+.L0x00000ad8: slti $v0, $s2, 0x2                  # .word 0x2a420002
+.L0x00000adc: bnez $v0, .L0x00000aa0              # .word 0x1440fff0
+.L0x00000ae0: li $a0, 0x1002                      # .word 0x24041002
+.L0x00000ae4: li $a1, 0x1                         # .word 0x24050001
+.L0x00000ae8: li $a2, 0x12                        # .word 0x24060012
+.L0x00000aec: jal 0x8001b364                      # .word 0x0c006cd9
+.L0x00000af0: li $a3, 0xbe                        # .word 0x240700be
+.L0x00000af4: move_ $a0, $v0                      # .word 0x00402021
+.L0x00000af8: sw $a0, 0xc($s4)                    # .word 0xae84000c
+.L0x00000afc: lw $v0, 0x80($a0)                   # .word 0x8c820080
+.L0x00000b00: nop                                 # .word 0x00000000
+.L0x00000b04: jalr $v0                            # .word 0x0040f809
+.L0x00000b08: move_ $a1, $zr                      # .word 0x00002821
+.L0x00000b0c: li $a0, 0x1002                      # .word 0x24041002
+.L0x00000b10: li $a1, 0x1                         # .word 0x24050001
+.L0x00000b14: li $a2, 0x12                        # .word 0x24060012
+.L0x00000b18: jal 0x8001ae38                      # .word 0x0c006b8e
+.L0x00000b1c: li $a3, 0xb0                        # .word 0x240700b0
+.L0x00000b20: j 0x800a6da0                        # .word 0x08029b68
+.L0x00000b24: sw $v0, ($s4)                       # .word 0xae820000
+.L0x00000b28: lw $v1, 0x10($s3)                   # .word 0x8e630010
+.L0x00000b2c: nop                                 # .word 0x00000000
+.L0x00000b30: sltiu $v0, $v1, 0xc                 # .word 0x2c62000c
+.L0x00000b34: beqz $v0, .L0x00000b58              # .word 0x10400008
+.L0x00000b38: lui $v0, 0x800a                     # .word 0x3c02800a
+.L0x00000b3c: addiu $v0, 0x5e10                   # .word 0x24425e10
+.L0x00000b40: sll $v1, 0x2                        # .word 0x00031880
+.L0x00000b44: addu $v1, $v0                       # .word 0x00621821
+.L0x00000b48: lw $v0, ($v1)                       # .word 0x8c620000
+.L0x00000b4c: nop                                 # .word 0x00000000
+.L0x00000b50: jr $v0                              # .word 0x00400008
+.L0x00000b54: nop                                 # .word 0x00000000
+.L0x00000b58: addiu $a0, $s3, 0x54                # .word 0x26640054
+.L0x00000b5c: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x00000b60: lw $v0, -0x5f70($v0)                # .word 0x8c42a090
+.L0x00000b64: j 0x800a6ca0                        # .word 0x08029b28
+.L0x00000b68: li $a1, 0x1                         # .word 0x24050001
+.L0x00000b6c: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x00000b70: lw $v0, -0x5f6c($v0)                # .word 0x8c42a094
+.L0x00000b74: nop                                 # .word 0x00000000
+.L0x00000b78: jalr $v0                            # .word 0x0040f809
+.L0x00000b7c: addiu $a0, $s3, 0x54                # .word 0x26640054
+.L0x00000b80: beqz $v0, .L0x00000f14              # .word 0x104000e4
+.L0x00000b84: move_ $s0, $zr                      # .word 0x00008021
+.L0x00000b88: lui $v0, 0x8004                     # .word 0x3c028004
+.L0x00000b8c: addiu $s6, $v0, 0x4b38              # .word 0x24564b38
+.L0x00000b90: lui $s5, 0x8006                     # .word 0x3c158006
+.L0x00000b94: move_ $s1, $s4                      # .word 0x02808821
+.L0x00000b98: lui $s2, 0x112                      # .word 0x3c120112
+.L0x00000b9c: ori $s2, 0x2                        # .word 0x36520002
+.L0x00000ba0: lw $a0, -0x3358($s5)                # .word 0x8ea4cca8
+.L0x00000ba4: lw $v0, 0x424($s6)                  # .word 0x8ec20424
+.L0x00000ba8: sll $a0, 0x10                       # .word 0x00042400
+.L0x00000bac: jalr $v0                            # .word 0x0040f809
+.L0x00000bb0: addu $a0, $s2                       # .word 0x00922021
+.L0x00000bb4: move_ $a1, $v0                      # .word 0x00402821
+.L0x00000bb8: addiu $a2, $s0, 0x2                 # .word 0x26060002
+.L0x00000bbc: lw $a0, 0x4($s1)                    # .word 0x8e240004
+.L0x00000bc0: addiu $s1, 0x4                      # .word 0x26310004
+.L0x00000bc4: lw $v0, 0x114($a0)                  # .word 0x8c820114
+.L0x00000bc8: nop                                 # .word 0x00000000
+.L0x00000bcc: jalr $v0                            # .word 0x0040f809
+.L0x00000bd0: addiu $s0, 0x1                      # .word 0x26100001
+.L0x00000bd4: slti $v0, $s0, 0x2                  # .word 0x2a020002
+.L0x00000bd8: bnez $v0, .L0x00000b98              # .word 0x1440ffef
+.L0x00000bdc: nop                                 # .word 0x00000000
+.L0x00000be0: lw $a0, 0xc($s4)                    # .word 0x8e84000c
+.L0x00000be4: nop                                 # .word 0x00000000
+.L0x00000be8: lw $v0, 0x80($a0)                   # .word 0x8c820080
+.L0x00000bec: nop                                 # .word 0x00000000
+.L0x00000bf0: jalr $v0                            # .word 0x0040f809
+.L0x00000bf4: li $a1, 0x1                         # .word 0x24050001
+.L0x00000bf8: lui $v0, 0x8006                     # .word 0x3c028006
+.L0x00000bfc: lw $a0, -0x3358($v0)                # .word 0x8c44cca8
+.L0x00000c00: lui $v0, 0x8004                     # .word 0x3c028004
+.L0x00000c04: lw $v0, 0x4f5c($v0)                 # .word 0x8c424f5c
+.L0x00000c08: sll $a0, 0x10                       # .word 0x00042400
+.L0x00000c0c: jalr $v0                            # .word 0x0040f809
+.L0x00000c10: addu $a0, $s2                       # .word 0x00922021
+.L0x00000c14: lw $a0, ($s4)                       # .word 0x8e840000
+.L0x00000c18: move_ $a1, $v0                      # .word 0x00402821
+.L0x00000c1c: lw $v0, 0x114($a0)                  # .word 0x8c820114
+.L0x00000c20: nop                                 # .word 0x00000000
+.L0x00000c24: jalr $v0                            # .word 0x0040f809
+.L0x00000c28: li $a2, 0x1                         # .word 0x24060001
+.L0x00000c2c: j 0x800a6ca8                        # .word 0x08029b2a
+.L0x00000c30: nop                                 # .word 0x00000000
+.L0x00000c34: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x00000c38: addiu $s1, $v0, -0x4830             # .word 0x2451b7d0
+.L0x00000c3c: lw $v0, 0x3f4($s1)                  # .word 0x8e2203f4
+.L0x00000c40: lw $s2, 0x50($s3)                   # .word 0x8e720050
+.L0x00000c44: jalr $v0                            # .word 0x0040f809
+.L0x00000c48: move_ $a0, $zr                      # .word 0x00002021
+.L0x00000c4c: move_ $a0, $zr                      # .word 0x00002021
+.L0x00000c50: li $a1, 0x4                         # .word 0x24050004
+.L0x00000c54: lw $v1, 0x408($s1)                  # .word 0x8e230408
+.L0x00000c58: nop                                 # .word 0x00000000
+.L0x00000c5c: jalr $v1                            # .word 0x0060f809
+.L0x00000c60: move_ $s0, $v0                      # .word 0x00408021
+.L0x00000c64: srav $s0, $s0, $v0                  # .word 0x00508007
+.L0x00000c68: andi $s0, 0x1                       # .word 0x32100001
+.L0x00000c6c: bnez $s0, .L0x00000cac              # .word 0x1600000f
+.L0x00000c70: nop                                 # .word 0x00000000
+.L0x00000c74: lw $v0, 0x3fc($s1)                  # .word 0x8e2203fc
+.L0x00000c78: nop                                 # .word 0x00000000
+.L0x00000c7c: jalr $v0                            # .word 0x0040f809
+.L0x00000c80: move_ $a0, $zr                      # .word 0x00002021
+.L0x00000c84: move_ $a0, $zr                      # .word 0x00002021
+.L0x00000c88: li $a1, 0x4                         # .word 0x24050004
+.L0x00000c8c: lw $v1, 0x408($s1)                  # .word 0x8e230408
+.L0x00000c90: nop                                 # .word 0x00000000
+.L0x00000c94: jalr $v1                            # .word 0x0060f809
+.L0x00000c98: move_ $s0, $v0                      # .word 0x00408021
+.L0x00000c9c: srav $s0, $s0, $v0                  # .word 0x00508007
+.L0x00000ca0: andi $s0, 0x1                       # .word 0x32100001
+.L0x00000ca4: beqz $s0, .L0x00000cc8              # .word 0x12000008
+.L0x00000ca8: nop                                 # .word 0x00000000
+.L0x00000cac: lw $v0, 0x50($s3)                   # .word 0x8e620050
+.L0x00000cb0: nop                                 # .word 0x00000000
+.L0x00000cb4: addiu $v0, -0x1                     # .word 0x2442ffff
+.L0x00000cb8: bgez $v0, .L0x00000d58              # .word 0x04410027
+.L0x00000cbc: sw $v0, 0x50($s3)                   # .word 0xae620050
+.L0x00000cc0: j 0x800a6b38                        # .word 0x08029ace
+.L0x00000cc4: sw $zr, 0x50($s3)                   # .word 0xae600050
+.L0x00000cc8: lw $v0, 0x3f4($s1)                  # .word 0x8e2203f4
+.L0x00000ccc: nop                                 # .word 0x00000000
+.L0x00000cd0: jalr $v0                            # .word 0x0040f809
+.L0x00000cd4: move_ $a0, $zr                      # .word 0x00002021
+.L0x00000cd8: move_ $a0, $zr                      # .word 0x00002021
+.L0x00000cdc: li $a1, 0x6                         # .word 0x24050006
+.L0x00000ce0: lw $v1, 0x408($s1)                  # .word 0x8e230408
+.L0x00000ce4: nop                                 # .word 0x00000000
+.L0x00000ce8: jalr $v1                            # .word 0x0060f809
+.L0x00000cec: move_ $s0, $v0                      # .word 0x00408021
+.L0x00000cf0: srav $s0, $s0, $v0                  # .word 0x00508007
+.L0x00000cf4: andi $s0, 0x1                       # .word 0x32100001
+.L0x00000cf8: bnez $s0, .L0x00000d38              # .word 0x1600000f
+.L0x00000cfc: nop                                 # .word 0x00000000
+.L0x00000d00: lw $v0, 0x3fc($s1)                  # .word 0x8e2203fc
+.L0x00000d04: nop                                 # .word 0x00000000
+.L0x00000d08: jalr $v0                            # .word 0x0040f809
+.L0x00000d0c: move_ $a0, $zr                      # .word 0x00002021
+.L0x00000d10: move_ $a0, $zr                      # .word 0x00002021
+.L0x00000d14: li $a1, 0x6                         # .word 0x24050006
+.L0x00000d18: lw $v1, 0x408($s1)                  # .word 0x8e230408
+.L0x00000d1c: nop                                 # .word 0x00000000
+.L0x00000d20: jalr $v1                            # .word 0x0060f809
+.L0x00000d24: move_ $s0, $v0                      # .word 0x00408021
+.L0x00000d28: srav $s0, $s0, $v0                  # .word 0x00508007
+.L0x00000d2c: andi $s0, 0x1                       # .word 0x32100001
+.L0x00000d30: beqz $s0, .L0x00000d58              # .word 0x12000009
+.L0x00000d34: nop                                 # .word 0x00000000
+.L0x00000d38: lw $v0, 0x50($s3)                   # .word 0x8e620050
+.L0x00000d3c: nop                                 # .word 0x00000000
+.L0x00000d40: addiu $v0, 0x1                      # .word 0x24420001
+.L0x00000d44: sw $v0, 0x50($s3)                   # .word 0xae620050
+.L0x00000d48: slti $v0, 0x2                       # .word 0x28420002
+.L0x00000d4c: bnez $v0, .L0x00000d58              # .word 0x14400002
+.L0x00000d50: li $v0, 0x1                         # .word 0x24020001
+.L0x00000d54: sw $v0, 0x50($s3)                   # .word 0xae620050
+.L0x00000d58: lw $v0, 0x50($s3)                   # .word 0x8e620050
+.L0x00000d5c: nop                                 # .word 0x00000000
+.L0x00000d60: beq $s2, $v0, .L0x00000dac          # .word 0x12420012
+.L0x00000d64: lui $a0, 0x8004                     # .word 0x3c048004
+.L0x00000d68: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x00000d6c: lw $v0, 0x5c48($v0)                 # .word 0x8c425c48
+.L0x00000d70: nop                                 # .word 0x00000000
+.L0x00000d74: jalr $v0                            # .word 0x0040f809
+.L0x00000d78: ori $a0, 0x513e                     # .word 0x3484513e
+.L0x00000d7c: li $a1, 0x12                        # .word 0x24050012
+.L0x00000d80: lw $v0, 0x50($s3)                   # .word 0x8e620050
+.L0x00000d84: lw $a0, 0xc($s4)                    # .word 0x8e84000c
+.L0x00000d88: sll $a2, $v0, 0x3                   # .word 0x000230c0
+.L0x00000d8c: subu $a2, $v0                       # .word 0x00c23023
+.L0x00000d90: sll $a2, 0x1                        # .word 0x00063040
+.L0x00000d94: lw $v0, 0x84($a0)                   # .word 0x8c820084
+.L0x00000d98: nop                                 # .word 0x00000000
+.L0x00000d9c: jalr $v0                            # .word 0x0040f809
+.L0x00000da0: addiu $a2, 0xbe                     # .word 0x24c600be
+.L0x00000da4: j 0x800a6cf4                        # .word 0x08029b3d
+.L0x00000da8: nop                                 # .word 0x00000000
+.L0x00000dac: lui $s0, 0x8005                     # .word 0x3c108005
+.L0x00000db0: addiu $s0, -0x4830                  # .word 0x2610b7d0
+.L0x00000db4: lw $v0, 0x3f4($s0)                  # .word 0x8e0203f4
+.L0x00000db8: nop                                 # .word 0x00000000
+.L0x00000dbc: jalr $v0                            # .word 0x0040f809
+.L0x00000dc0: move_ $a0, $zr                      # .word 0x00002021
+.L0x00000dc4: move_ $a0, $zr                      # .word 0x00002021
+.L0x00000dc8: li $a1, 0xd                         # .word 0x2405000d
+.L0x00000dcc: lw $v1, 0x408($s0)                  # .word 0x8e030408
+.L0x00000dd0: nop                                 # .word 0x00000000
+.L0x00000dd4: jalr $v1                            # .word 0x0060f809
+.L0x00000dd8: move_ $s0, $v0                      # .word 0x00408021
+.L0x00000ddc: srav $s0, $s0, $v0                  # .word 0x00508007
+.L0x00000de0: andi $s0, 0x1                       # .word 0x32100001
+.L0x00000de4: beqz $s0, .L0x00000f14              # .word 0x1200004b
+.L0x00000de8: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x00000dec: lui $a0, 0x8004                     # .word 0x3c048004
+.L0x00000df0: lw $v0, 0x5c48($v0)                 # .word 0x8c425c48
+.L0x00000df4: nop                                 # .word 0x00000000
+.L0x00000df8: jalr $v0                            # .word 0x0040f809
+.L0x00000dfc: ori $a0, 0x503c                     # .word 0x3484503c
+.L0x00000e00: li $v0, 0xa                         # .word 0x2402000a
+.L0x00000e04: sw $v0, 0x10($s3)                   # .word 0xae620010
+.L0x00000e08: li $v0, 0x1                         # .word 0x24020001
+.L0x00000e0c: j 0x800a6cf4                        # .word 0x08029b3d
+.L0x00000e10: sw $v0, 0x14($s3)                   # .word 0xae620014
+.L0x00000e14: lw $v0, 0x50($s3)                   # .word 0x8e620050
+.L0x00000e18: nop                                 # .word 0x00000000
+.L0x00000e1c: bnez $v0, .L0x00000e28              # .word 0x14400002
+.L0x00000e20: li $a0, 0xe                         # .word 0x2404000e
+.L0x00000e24: li $a0, 0xd                         # .word 0x2404000d
+.L0x00000e28: jal 0x800853f8                      # .word 0x0c0214fe
+.L0x00000e2c: nop                                 # .word 0x00000000
+.L0x00000e30: j 0x800a6ca8                        # .word 0x08029b2a
+.L0x00000e34: sw $v0, 0x10($s4)                   # .word 0xae820010
+.L0x00000e38: lw $v0, 0x10($s4)                   # .word 0x8e820010
+.L0x00000e3c: nop                                 # .word 0x00000000
+.L0x00000e40: bnez $v0, .L0x00000f14              # .word 0x14400034
+.L0x00000e44: li $v0, 0x3                         # .word 0x24020003
+.L0x00000e48: j 0x800a6cf4                        # .word 0x08029b3d
+.L0x00000e4c: sw $v0, 0xc($s3)                    # .word 0xae62000c
+.L0x00000e50: move_ $s1, $zr                      # .word 0x00008821
+.L0x00000e54: move_ $s0, $s4                      # .word 0x02808021
+.L0x00000e58: move_ $a1, $zr                      # .word 0x00002821
+.L0x00000e5c: lw $a0, 0x4($s0)                    # .word 0x8e040004
+.L0x00000e60: addiu $s0, 0x4                      # .word 0x26100004
+.L0x00000e64: lw $v0, 0x144($a0)                  # .word 0x8c820144
+.L0x00000e68: nop                                 # .word 0x00000000
+.L0x00000e6c: jalr $v0                            # .word 0x0040f809
+.L0x00000e70: addiu $s1, 0x1                      # .word 0x26310001
+.L0x00000e74: slti $v0, $s1, 0x2                  # .word 0x2a220002
+.L0x00000e78: bnez $v0, .L0x00000e5c              # .word 0x1440fff8
+.L0x00000e7c: move_ $a1, $zr                      # .word 0x00002821
+.L0x00000e80: lw $a0, 0xc($s4)                    # .word 0x8e84000c
+.L0x00000e84: nop                                 # .word 0x00000000
+.L0x00000e88: lw $v0, 0x80($a0)                   # .word 0x8c820080
+.L0x00000e8c: nop                                 # .word 0x00000000
+.L0x00000e90: jalr $v0                            # .word 0x0040f809
+.L0x00000e94: move_ $a1, $zr                      # .word 0x00002821
+.L0x00000e98: lw $a0, ($s4)                       # .word 0x8e840000
+.L0x00000e9c: nop                                 # .word 0x00000000
+.L0x00000ea0: lw $v0, 0x144($a0)                  # .word 0x8c820144
+.L0x00000ea4: nop                                 # .word 0x00000000
+.L0x00000ea8: jalr $v0                            # .word 0x0040f809
+.L0x00000eac: move_ $a1, $zr                      # .word 0x00002821
+.L0x00000eb0: addiu $a0, $s3, 0x54                # .word 0x26640054
+.L0x00000eb4: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x00000eb8: lw $v0, -0x5f70($v0)                # .word 0x8c42a090
+.L0x00000ebc: move_ $a1, $zr                      # .word 0x00002821
+.L0x00000ec0: jalr $v0                            # .word 0x0040f809
+.L0x00000ec4: nop                                 # .word 0x00000000
+.L0x00000ec8: lw $v0, 0x10($s3)                   # .word 0x8e620010
+.L0x00000ecc: nop                                 # .word 0x00000000
+.L0x00000ed0: addiu $v0, 0x1                      # .word 0x24420001
+.L0x00000ed4: j 0x800a6cf4                        # .word 0x08029b3d
+.L0x00000ed8: sw $v0, 0x10($s3)                   # .word 0xae620010
+.L0x00000edc: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x00000ee0: lw $v0, -0x5f6c($v0)                # .word 0x8c42a094
+.L0x00000ee4: nop                                 # .word 0x00000000
+.L0x00000ee8: jalr $v0                            # .word 0x0040f809
+.L0x00000eec: addiu $a0, $s3, 0x54                # .word 0x26640054
+.L0x00000ef0: beqz $v0, .L0x00000f14              # .word 0x10400008
+.L0x00000ef4: li $v0, 0x1                         # .word 0x24020001
+.L0x00000ef8: lw $v1, 0x14($s3)                   # .word 0x8e630014
+.L0x00000efc: nop                                 # .word 0x00000000
+.L0x00000f00: bne $v1, $v0, .L0x00000f10          # .word 0x14620003
+.L0x00000f04: li $v0, 0x3                         # .word 0x24020003
+.L0x00000f08: j 0x800a6cf4                        # .word 0x08029b3d
+.L0x00000f0c: sw $v0, 0x10($s3)                   # .word 0xae620010
+.L0x00000f10: sw $v0, 0xc($s3)                    # .word 0xae62000c
+.L0x00000f14: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00000f18: addiu $a0, $sp, 0x10                # .word 0x27a40010
+.L0x00000f1c: li $a0, 0x1002                      # .word 0x24041002
+.L0x00000f20: lw $v0, 0x8c($sp)                   # .word 0x8fa2008c
+.L0x00000f24: nop                                 # .word 0x00000000
+.L0x00000f28: jalr $v0                            # .word 0x0040f809
+.L0x00000f2c: li $a1, 0x2                         # .word 0x24050002
+.L0x00000f30: li $a0, 0x140                       # .word 0x24040140
+.L0x00000f34: lw $v0, 0x84($sp)                   # .word 0x8fa20084
+.L0x00000f38: nop                                 # .word 0x00000000
+.L0x00000f3c: jalr $v0                            # .word 0x0040f809
+.L0x00000f40: move_ $a1, $zr                      # .word 0x00002821
+.L0x00000f44: lw $v0, 0xa8($sp)                   # .word 0x8fa200a8
+.L0x00000f48: nop                                 # .word 0x00000000
+.L0x00000f4c: jalr $v0                            # .word 0x0040f809
+.L0x00000f50: move_ $a0, $zr                      # .word 0x00002021
+.L0x00000f54: lw $a0, 0x5c($s3)                   # .word 0x8e64005c
+.L0x00000f58: nop                                 # .word 0x00000000
+.L0x00000f5c: beqz $a0, .L0x00000fc0              # .word 0x10800018
+.L0x00000f60: li $v0, 0x1000                      # .word 0x24021000
+.L0x00000f64: beq $a0, $v0, .L0x00000f90          # .word 0x1082000a
+.L0x00000f68: move_ $a1, $v0                      # .word 0x00402821
+.L0x00000f6c: lw $v0, 0x9c($sp)                   # .word 0x8fa2009c
+.L0x00000f70: nop                                 # .word 0x00000000
+.L0x00000f74: jalr $v0                            # .word 0x0040f809
+.L0x00000f78: li $a2, 0x1000                      # .word 0x24061000
+.L0x00000f7c: move_ $a0, $zr                      # .word 0x00002021
+.L0x00000f80: lw $v0, 0xa4($sp)                   # .word 0x8fa200a4
+.L0x00000f84: nop                                 # .word 0x00000000
+.L0x00000f88: jalr $v0                            # .word 0x0040f809
+.L0x00000f8c: li $a1, 0xc3                        # .word 0x240500c3
+.L0x00000f90: lui $v0, 0x8004                     # .word 0x3c028004
+.L0x00000f94: lw $v0, 0x4f5c($v0)                 # .word 0x8c424f5c
+.L0x00000f98: nop                                 # .word 0x00000000
+.L0x00000f9c: jalr $v0                            # .word 0x0040f809
+.L0x00000fa0: lui $a0, 0x286                      # .word 0x3c040286
+.L0x00000fa4: move_ $a0, $v0                      # .word 0x00402021
+.L0x00000fa8: li $a1, 0x45                        # .word 0x24050045
+.L0x00000fac: move_ $a2, $zr                      # .word 0x00003021
+.L0x00000fb0: lw $v0, 0x94($sp)                   # .word 0x8fa20094
+.L0x00000fb4: nop                                 # .word 0x00000000
+.L0x00000fb8: jalr $v0                            # .word 0x0040f809
+.L0x00000fbc: li $a3, 0xac                        # .word 0x240700ac
+.L0x00000fc0: lw $ra, 0xcc($sp)                   # .word 0x8fbf00cc
+.L0x00000fc4: lw $s6, 0xc8($sp)                   # .word 0x8fb600c8
+.L0x00000fc8: lw $s5, 0xc4($sp)                   # .word 0x8fb500c4
+.L0x00000fcc: lw $s4, 0xc0($sp)                   # .word 0x8fb400c0
+.L0x00000fd0: lw $s3, 0xbc($sp)                   # .word 0x8fb300bc
+.L0x00000fd4: lw $s2, 0xb8($sp)                   # .word 0x8fb200b8
+.L0x00000fd8: lw $s1, 0xb4($sp)                   # .word 0x8fb100b4
+.L0x00000fdc: lw $s0, 0xb0($sp)                   # .word 0x8fb000b0
+.L0x00000fe0: jr $ra                              # .word 0x03e00008
+.L0x00000fe4: addiu $sp, 0xd0                     # .word 0x27bd00d0
+.L0x00000fe8: addiu $sp, -0x18                    # .word 0x27bdffe8
+.L0x00000fec: lui $a0, 0x800a                     # .word 0x3c04800a
+.L0x00000ff0: addiu $a0, 0x680c                   # .word 0x2484680c
+.L0x00000ff4: li $a1, 0x64                        # .word 0x24050064
+.L0x00000ff8: sw $ra, 0x10($sp)                   # .word 0xafbf0010
+.L0x00000ffc: jal 0x80014504                      # .word 0x0c005141
+.L0x00001000: li $a2, 0x14                        # .word 0x24060014
+.L0x00001004: lw $ra, 0x10($sp)                   # .word 0x8fbf0010
+.L0x00001008: nop                                 # .word 0x00000000
+.L0x0000100c: jr $ra                              # .word 0x03e00008
+.L0x00001010: addiu $sp, 0x18                     # .word 0x27bd0018
+.L0x00001014: addiu $sp, -0xd0                    # .word 0x27bdff30
+.L0x00001018: sw $s3, 0xbc($sp)                   # .word 0xafb300bc
+.L0x0000101c: move_ $s3, $a0                      # .word 0x00809821
+.L0x00001020: sw $s4, 0xc0($sp)                   # .word 0xafb400c0
+.L0x00001024: sw $ra, 0xcc($sp)                   # .word 0xafbf00cc
+.L0x00001028: sw $s6, 0xc8($sp)                   # .word 0xafb600c8
+.L0x0000102c: sw $s5, 0xc4($sp)                   # .word 0xafb500c4
+.L0x00001030: sw $s2, 0xb8($sp)                   # .word 0xafb200b8
+.L0x00001034: sw $s1, 0xb4($sp)                   # .word 0xafb100b4
+.L0x00001038: sw $s0, 0xb0($sp)                   # .word 0xafb000b0
+.L0x0000103c: lw $v1, 0xc($s3)                    # .word 0x8e63000c
+.L0x00001040: li $v0, 0x1                         # .word 0x24020001
+.L0x00001044: beq $v1, $v0, .L0x00001110          # .word 0x10620032
+.L0x00001048: move_ $s4, $a1                      # .word 0x00a0a021
+.L0x0000104c: slti $v0, $v1, 0x2                  # .word 0x28620002
+.L0x00001050: bnez $v0, .L0x00001064              # .word 0x14400004
+.L0x00001054: move_ $a0, $s3                      # .word 0x02602021
+.L0x00001058: slti $v0, $v1, 0x4                  # .word 0x28620004
+.L0x0000105c: bnez $v0, .L0x000015a8              # .word 0x14400152
+.L0x00001060: nop                                 # .word 0x00000000
+.L0x00001064: move_ $s2, $zr                      # .word 0x00009021
+.L0x00001068: lw $v0, 0x38($s3)                   # .word 0x8e620038
+.L0x0000106c: nop                                 # .word 0x00000000
+.L0x00001070: jalr $v0                            # .word 0x0040f809
+.L0x00001074: lui $s1, 0xbe                       # .word 0x3c1100be
+.L0x00001078: move_ $s0, $s4                      # .word 0x02808021
+.L0x0000107c: li $v0, 0xa                         # .word 0x2402000a
+.L0x00001080: sw $v0, 0x54($s3)                   # .word 0xae620054
+.L0x00001084: li $a0, 0x1002                      # .word 0x24041002
+.L0x00001088: li $a1, 0x1                         # .word 0x24050001
+.L0x0000108c: li $a2, 0x1c                        # .word 0x2406001c
+.L0x00001090: jal 0x8001ae38                      # .word 0x0c006b8e
+.L0x00001094: sra $a3, $s1, 0x10                  # .word 0x00113c03
+.L0x00001098: move_ $a0, $v0                      # .word 0x00402021
+.L0x0000109c: li $a1, 0x1                         # .word 0x24050001
+.L0x000010a0: sw $a0, 0x4($s0)                    # .word 0xae040004
+.L0x000010a4: addiu $s0, 0x4                      # .word 0x26100004
+.L0x000010a8: lw $v0, 0x15c($a0)                  # .word 0x8c82015c
+.L0x000010ac: nop                                 # .word 0x00000000
+.L0x000010b0: jalr $v0                            # .word 0x0040f809
+.L0x000010b4: addu $s2, $a1                       # .word 0x02459021
+.L0x000010b8: lui $v0, 0xe                        # .word 0x3c02000e
+.L0x000010bc: addu $s1, $v0                       # .word 0x02228821
+.L0x000010c0: slti $v0, $s2, 0x2                  # .word 0x2a420002
+.L0x000010c4: bnez $v0, .L0x00001088              # .word 0x1440fff0
+.L0x000010c8: li $a0, 0x1002                      # .word 0x24041002
+.L0x000010cc: li $a1, 0x1                         # .word 0x24050001
+.L0x000010d0: li $a2, 0x12                        # .word 0x24060012
+.L0x000010d4: jal 0x8001b364                      # .word 0x0c006cd9
+.L0x000010d8: li $a3, 0xbe                        # .word 0x240700be
+.L0x000010dc: move_ $a0, $v0                      # .word 0x00402021
+.L0x000010e0: sw $a0, 0xc($s4)                    # .word 0xae84000c
+.L0x000010e4: lw $v0, 0x80($a0)                   # .word 0x8c820080
+.L0x000010e8: nop                                 # .word 0x00000000
+.L0x000010ec: jalr $v0                            # .word 0x0040f809
+.L0x000010f0: move_ $a1, $zr                      # .word 0x00002821
+.L0x000010f4: li $a0, 0x1002                      # .word 0x24041002
+.L0x000010f8: li $a1, 0x1                         # .word 0x24050001
+.L0x000010fc: li $a2, 0x12                        # .word 0x24060012
+.L0x00001100: jal 0x8001ae38                      # .word 0x0c006b8e
+.L0x00001104: li $a3, 0xb0                        # .word 0x240700b0
+.L0x00001108: j 0x800a7388                        # .word 0x08029ce2
+.L0x0000110c: sw $v0, ($s4)                       # .word 0xae820000
+.L0x00001110: lw $v1, 0x10($s3)                   # .word 0x8e630010
+.L0x00001114: nop                                 # .word 0x00000000
+.L0x00001118: sltiu $v0, $v1, 0xc                 # .word 0x2c62000c
+.L0x0000111c: beqz $v0, .L0x00001140              # .word 0x10400008
+.L0x00001120: lui $v0, 0x800a                     # .word 0x3c02800a
+.L0x00001124: addiu $v0, 0x5e40                   # .word 0x24425e40
+.L0x00001128: sll $v1, 0x2                        # .word 0x00031880
+.L0x0000112c: addu $v1, $v0                       # .word 0x00621821
+.L0x00001130: lw $v0, ($v1)                       # .word 0x8c620000
+.L0x00001134: nop                                 # .word 0x00000000
+.L0x00001138: jr $v0                              # .word 0x00400008
+.L0x0000113c: nop                                 # .word 0x00000000
+.L0x00001140: addiu $a0, $s3, 0x54                # .word 0x26640054
+.L0x00001144: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x00001148: lw $v0, -0x5f70($v0)                # .word 0x8c42a090
+.L0x0000114c: j 0x800a7288                        # .word 0x08029ca2
+.L0x00001150: li $a1, 0x1                         # .word 0x24050001
+.L0x00001154: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x00001158: lw $v0, -0x5f6c($v0)                # .word 0x8c42a094
+.L0x0000115c: nop                                 # .word 0x00000000
+.L0x00001160: jalr $v0                            # .word 0x0040f809
+.L0x00001164: addiu $a0, $s3, 0x54                # .word 0x26640054
+.L0x00001168: beqz $v0, .L0x000014fc              # .word 0x104000e4
+.L0x0000116c: move_ $s0, $zr                      # .word 0x00008021
+.L0x00001170: lui $v0, 0x8004                     # .word 0x3c028004
+.L0x00001174: addiu $s6, $v0, 0x4b38              # .word 0x24564b38
+.L0x00001178: lui $s5, 0x8006                     # .word 0x3c158006
+.L0x0000117c: move_ $s1, $s4                      # .word 0x02808821
+.L0x00001180: lui $s2, 0x112                      # .word 0x3c120112
+.L0x00001184: ori $s2, 0x35                       # .word 0x36520035
+.L0x00001188: lw $a0, -0x3358($s5)                # .word 0x8ea4cca8
+.L0x0000118c: lw $v0, 0x424($s6)                  # .word 0x8ec20424
+.L0x00001190: sll $a0, 0x10                       # .word 0x00042400
+.L0x00001194: jalr $v0                            # .word 0x0040f809
+.L0x00001198: addu $a0, $s2                       # .word 0x00922021
+.L0x0000119c: move_ $a1, $v0                      # .word 0x00402821
+.L0x000011a0: addiu $a2, $s0, 0x2                 # .word 0x26060002
+.L0x000011a4: lw $a0, 0x4($s1)                    # .word 0x8e240004
+.L0x000011a8: addiu $s1, 0x4                      # .word 0x26310004
+.L0x000011ac: lw $v0, 0x114($a0)                  # .word 0x8c820114
+.L0x000011b0: nop                                 # .word 0x00000000
+.L0x000011b4: jalr $v0                            # .word 0x0040f809
+.L0x000011b8: addiu $s0, 0x1                      # .word 0x26100001
+.L0x000011bc: slti $v0, $s0, 0x2                  # .word 0x2a020002
+.L0x000011c0: bnez $v0, .L0x00001180              # .word 0x1440ffef
+.L0x000011c4: nop                                 # .word 0x00000000
+.L0x000011c8: lw $a0, 0xc($s4)                    # .word 0x8e84000c
+.L0x000011cc: nop                                 # .word 0x00000000
+.L0x000011d0: lw $v0, 0x80($a0)                   # .word 0x8c820080
+.L0x000011d4: nop                                 # .word 0x00000000
+.L0x000011d8: jalr $v0                            # .word 0x0040f809
+.L0x000011dc: li $a1, 0x1                         # .word 0x24050001
+.L0x000011e0: lui $v0, 0x8006                     # .word 0x3c028006
+.L0x000011e4: lw $a0, -0x3358($v0)                # .word 0x8c44cca8
+.L0x000011e8: lui $v0, 0x8004                     # .word 0x3c028004
+.L0x000011ec: lw $v0, 0x4f5c($v0)                 # .word 0x8c424f5c
+.L0x000011f0: sll $a0, 0x10                       # .word 0x00042400
+.L0x000011f4: jalr $v0                            # .word 0x0040f809
+.L0x000011f8: addu $a0, $s2                       # .word 0x00922021
+.L0x000011fc: lw $a0, ($s4)                       # .word 0x8e840000
+.L0x00001200: move_ $a1, $v0                      # .word 0x00402821
+.L0x00001204: lw $v0, 0x114($a0)                  # .word 0x8c820114
+.L0x00001208: nop                                 # .word 0x00000000
+.L0x0000120c: jalr $v0                            # .word 0x0040f809
+.L0x00001210: li $a2, 0x1                         # .word 0x24060001
+.L0x00001214: j 0x800a7290                        # .word 0x08029ca4
+.L0x00001218: nop                                 # .word 0x00000000
+.L0x0000121c: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x00001220: addiu $s1, $v0, -0x4830             # .word 0x2451b7d0
+.L0x00001224: lw $v0, 0x3f4($s1)                  # .word 0x8e2203f4
+.L0x00001228: lw $s2, 0x50($s3)                   # .word 0x8e720050
+.L0x0000122c: jalr $v0                            # .word 0x0040f809
+.L0x00001230: move_ $a0, $zr                      # .word 0x00002021
+.L0x00001234: move_ $a0, $zr                      # .word 0x00002021
+.L0x00001238: li $a1, 0x4                         # .word 0x24050004
+.L0x0000123c: lw $v1, 0x408($s1)                  # .word 0x8e230408
+.L0x00001240: nop                                 # .word 0x00000000
+.L0x00001244: jalr $v1                            # .word 0x0060f809
+.L0x00001248: move_ $s0, $v0                      # .word 0x00408021
+.L0x0000124c: srav $s0, $s0, $v0                  # .word 0x00508007
+.L0x00001250: andi $s0, 0x1                       # .word 0x32100001
+.L0x00001254: bnez $s0, .L0x00001294              # .word 0x1600000f
+.L0x00001258: nop                                 # .word 0x00000000
+.L0x0000125c: lw $v0, 0x3fc($s1)                  # .word 0x8e2203fc
+.L0x00001260: nop                                 # .word 0x00000000
+.L0x00001264: jalr $v0                            # .word 0x0040f809
+.L0x00001268: move_ $a0, $zr                      # .word 0x00002021
+.L0x0000126c: move_ $a0, $zr                      # .word 0x00002021
+.L0x00001270: li $a1, 0x4                         # .word 0x24050004
+.L0x00001274: lw $v1, 0x408($s1)                  # .word 0x8e230408
+.L0x00001278: nop                                 # .word 0x00000000
+.L0x0000127c: jalr $v1                            # .word 0x0060f809
+.L0x00001280: move_ $s0, $v0                      # .word 0x00408021
+.L0x00001284: srav $s0, $s0, $v0                  # .word 0x00508007
+.L0x00001288: andi $s0, 0x1                       # .word 0x32100001
+.L0x0000128c: beqz $s0, .L0x000012b0              # .word 0x12000008
+.L0x00001290: nop                                 # .word 0x00000000
+.L0x00001294: lw $v0, 0x50($s3)                   # .word 0x8e620050
+.L0x00001298: nop                                 # .word 0x00000000
+.L0x0000129c: addiu $v0, -0x1                     # .word 0x2442ffff
+.L0x000012a0: bgez $v0, .L0x00001340              # .word 0x04410027
+.L0x000012a4: sw $v0, 0x50($s3)                   # .word 0xae620050
+.L0x000012a8: j 0x800a7120                        # .word 0x08029c48
+.L0x000012ac: sw $zr, 0x50($s3)                   # .word 0xae600050
+.L0x000012b0: lw $v0, 0x3f4($s1)                  # .word 0x8e2203f4
+.L0x000012b4: nop                                 # .word 0x00000000
+.L0x000012b8: jalr $v0                            # .word 0x0040f809
+.L0x000012bc: move_ $a0, $zr                      # .word 0x00002021
+.L0x000012c0: move_ $a0, $zr                      # .word 0x00002021
+.L0x000012c4: li $a1, 0x6                         # .word 0x24050006
+.L0x000012c8: lw $v1, 0x408($s1)                  # .word 0x8e230408
+.L0x000012cc: nop                                 # .word 0x00000000
+.L0x000012d0: jalr $v1                            # .word 0x0060f809
+.L0x000012d4: move_ $s0, $v0                      # .word 0x00408021
+.L0x000012d8: srav $s0, $s0, $v0                  # .word 0x00508007
+.L0x000012dc: andi $s0, 0x1                       # .word 0x32100001
+.L0x000012e0: bnez $s0, .L0x00001320              # .word 0x1600000f
+.L0x000012e4: nop                                 # .word 0x00000000
+.L0x000012e8: lw $v0, 0x3fc($s1)                  # .word 0x8e2203fc
+.L0x000012ec: nop                                 # .word 0x00000000
+.L0x000012f0: jalr $v0                            # .word 0x0040f809
+.L0x000012f4: move_ $a0, $zr                      # .word 0x00002021
+.L0x000012f8: move_ $a0, $zr                      # .word 0x00002021
+.L0x000012fc: li $a1, 0x6                         # .word 0x24050006
+.L0x00001300: lw $v1, 0x408($s1)                  # .word 0x8e230408
+.L0x00001304: nop                                 # .word 0x00000000
+.L0x00001308: jalr $v1                            # .word 0x0060f809
+.L0x0000130c: move_ $s0, $v0                      # .word 0x00408021
+.L0x00001310: srav $s0, $s0, $v0                  # .word 0x00508007
+.L0x00001314: andi $s0, 0x1                       # .word 0x32100001
+.L0x00001318: beqz $s0, .L0x00001340              # .word 0x12000009
+.L0x0000131c: nop                                 # .word 0x00000000
+.L0x00001320: lw $v0, 0x50($s3)                   # .word 0x8e620050
+.L0x00001324: nop                                 # .word 0x00000000
+.L0x00001328: addiu $v0, 0x1                      # .word 0x24420001
+.L0x0000132c: sw $v0, 0x50($s3)                   # .word 0xae620050
+.L0x00001330: slti $v0, 0x2                       # .word 0x28420002
+.L0x00001334: bnez $v0, .L0x00001340              # .word 0x14400002
+.L0x00001338: li $v0, 0x1                         # .word 0x24020001
+.L0x0000133c: sw $v0, 0x50($s3)                   # .word 0xae620050
+.L0x00001340: lw $v0, 0x50($s3)                   # .word 0x8e620050
+.L0x00001344: nop                                 # .word 0x00000000
+.L0x00001348: beq $s2, $v0, .L0x00001394          # .word 0x12420012
+.L0x0000134c: lui $a0, 0x8004                     # .word 0x3c048004
+.L0x00001350: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x00001354: lw $v0, 0x5c48($v0)                 # .word 0x8c425c48
+.L0x00001358: nop                                 # .word 0x00000000
+.L0x0000135c: jalr $v0                            # .word 0x0040f809
+.L0x00001360: ori $a0, 0x513e                     # .word 0x3484513e
+.L0x00001364: li $a1, 0x12                        # .word 0x24050012
+.L0x00001368: lw $v0, 0x50($s3)                   # .word 0x8e620050
+.L0x0000136c: lw $a0, 0xc($s4)                    # .word 0x8e84000c
+.L0x00001370: sll $a2, $v0, 0x3                   # .word 0x000230c0
+.L0x00001374: subu $a2, $v0                       # .word 0x00c23023
+.L0x00001378: sll $a2, 0x1                        # .word 0x00063040
+.L0x0000137c: lw $v0, 0x84($a0)                   # .word 0x8c820084
+.L0x00001380: nop                                 # .word 0x00000000
+.L0x00001384: jalr $v0                            # .word 0x0040f809
+.L0x00001388: addiu $a2, 0xbe                     # .word 0x24c600be
+.L0x0000138c: j 0x800a72dc                        # .word 0x08029cb7
+.L0x00001390: nop                                 # .word 0x00000000
+.L0x00001394: lui $s0, 0x8005                     # .word 0x3c108005
+.L0x00001398: addiu $s0, -0x4830                  # .word 0x2610b7d0
+.L0x0000139c: lw $v0, 0x3f4($s0)                  # .word 0x8e0203f4
+.L0x000013a0: nop                                 # .word 0x00000000
+.L0x000013a4: jalr $v0                            # .word 0x0040f809
+.L0x000013a8: move_ $a0, $zr                      # .word 0x00002021
+.L0x000013ac: move_ $a0, $zr                      # .word 0x00002021
+.L0x000013b0: li $a1, 0xd                         # .word 0x2405000d
+.L0x000013b4: lw $v1, 0x408($s0)                  # .word 0x8e030408
+.L0x000013b8: nop                                 # .word 0x00000000
+.L0x000013bc: jalr $v1                            # .word 0x0060f809
+.L0x000013c0: move_ $s0, $v0                      # .word 0x00408021
+.L0x000013c4: srav $s0, $s0, $v0                  # .word 0x00508007
+.L0x000013c8: andi $s0, 0x1                       # .word 0x32100001
+.L0x000013cc: beqz $s0, .L0x000014fc              # .word 0x1200004b
+.L0x000013d0: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x000013d4: lui $a0, 0x8004                     # .word 0x3c048004
+.L0x000013d8: lw $v0, 0x5c48($v0)                 # .word 0x8c425c48
+.L0x000013dc: nop                                 # .word 0x00000000
+.L0x000013e0: jalr $v0                            # .word 0x0040f809
+.L0x000013e4: ori $a0, 0x503c                     # .word 0x3484503c
+.L0x000013e8: li $v0, 0xa                         # .word 0x2402000a
+.L0x000013ec: sw $v0, 0x10($s3)                   # .word 0xae620010
+.L0x000013f0: li $v0, 0x1                         # .word 0x24020001
+.L0x000013f4: j 0x800a72dc                        # .word 0x08029cb7
+.L0x000013f8: sw $v0, 0x14($s3)                   # .word 0xae620014
+.L0x000013fc: lw $v0, 0x50($s3)                   # .word 0x8e620050
+.L0x00001400: nop                                 # .word 0x00000000
+.L0x00001404: bnez $v0, .L0x00001410              # .word 0x14400002
+.L0x00001408: li $a0, 0x5e7                       # .word 0x240405e7
+.L0x0000140c: li $a0, 0x3a                        # .word 0x2404003a
+.L0x00001410: jal 0x800853f8                      # .word 0x0c0214fe
+.L0x00001414: nop                                 # .word 0x00000000
+.L0x00001418: j 0x800a7290                        # .word 0x08029ca4
+.L0x0000141c: sw $v0, 0x10($s4)                   # .word 0xae820010
+.L0x00001420: lw $v0, 0x10($s4)                   # .word 0x8e820010
+.L0x00001424: nop                                 # .word 0x00000000
+.L0x00001428: bnez $v0, .L0x000014fc              # .word 0x14400034
+.L0x0000142c: li $v0, 0x3                         # .word 0x24020003
+.L0x00001430: j 0x800a72dc                        # .word 0x08029cb7
+.L0x00001434: sw $v0, 0xc($s3)                    # .word 0xae62000c
+.L0x00001438: move_ $s1, $zr                      # .word 0x00008821
+.L0x0000143c: move_ $s0, $s4                      # .word 0x02808021
+.L0x00001440: move_ $a1, $zr                      # .word 0x00002821
+.L0x00001444: lw $a0, 0x4($s0)                    # .word 0x8e040004
+.L0x00001448: addiu $s0, 0x4                      # .word 0x26100004
+.L0x0000144c: lw $v0, 0x144($a0)                  # .word 0x8c820144
+.L0x00001450: nop                                 # .word 0x00000000
+.L0x00001454: jalr $v0                            # .word 0x0040f809
+.L0x00001458: addiu $s1, 0x1                      # .word 0x26310001
+.L0x0000145c: slti $v0, $s1, 0x2                  # .word 0x2a220002
+.L0x00001460: bnez $v0, .L0x00001444              # .word 0x1440fff8
+.L0x00001464: move_ $a1, $zr                      # .word 0x00002821
+.L0x00001468: lw $a0, 0xc($s4)                    # .word 0x8e84000c
+.L0x0000146c: nop                                 # .word 0x00000000
+.L0x00001470: lw $v0, 0x80($a0)                   # .word 0x8c820080
+.L0x00001474: nop                                 # .word 0x00000000
+.L0x00001478: jalr $v0                            # .word 0x0040f809
+.L0x0000147c: move_ $a1, $zr                      # .word 0x00002821
+.L0x00001480: lw $a0, ($s4)                       # .word 0x8e840000
+.L0x00001484: nop                                 # .word 0x00000000
+.L0x00001488: lw $v0, 0x144($a0)                  # .word 0x8c820144
+.L0x0000148c: nop                                 # .word 0x00000000
+.L0x00001490: jalr $v0                            # .word 0x0040f809
+.L0x00001494: move_ $a1, $zr                      # .word 0x00002821
+.L0x00001498: addiu $a0, $s3, 0x54                # .word 0x26640054
+.L0x0000149c: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x000014a0: lw $v0, -0x5f70($v0)                # .word 0x8c42a090
+.L0x000014a4: move_ $a1, $zr                      # .word 0x00002821
+.L0x000014a8: jalr $v0                            # .word 0x0040f809
+.L0x000014ac: nop                                 # .word 0x00000000
+.L0x000014b0: lw $v0, 0x10($s3)                   # .word 0x8e620010
+.L0x000014b4: nop                                 # .word 0x00000000
+.L0x000014b8: addiu $v0, 0x1                      # .word 0x24420001
+.L0x000014bc: j 0x800a72dc                        # .word 0x08029cb7
+.L0x000014c0: sw $v0, 0x10($s3)                   # .word 0xae620010
+.L0x000014c4: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x000014c8: lw $v0, -0x5f6c($v0)                # .word 0x8c42a094
+.L0x000014cc: nop                                 # .word 0x00000000
+.L0x000014d0: jalr $v0                            # .word 0x0040f809
+.L0x000014d4: addiu $a0, $s3, 0x54                # .word 0x26640054
+.L0x000014d8: beqz $v0, .L0x000014fc              # .word 0x10400008
+.L0x000014dc: li $v0, 0x1                         # .word 0x24020001
+.L0x000014e0: lw $v1, 0x14($s3)                   # .word 0x8e630014
+.L0x000014e4: nop                                 # .word 0x00000000
+.L0x000014e8: bne $v1, $v0, .L0x000014f8          # .word 0x14620003
+.L0x000014ec: li $v0, 0x3                         # .word 0x24020003
+.L0x000014f0: j 0x800a72dc                        # .word 0x08029cb7
+.L0x000014f4: sw $v0, 0x10($s3)                   # .word 0xae620010
+.L0x000014f8: sw $v0, 0xc($s3)                    # .word 0xae62000c
+.L0x000014fc: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00001500: addiu $a0, $sp, 0x10                # .word 0x27a40010
+.L0x00001504: li $a0, 0x1002                      # .word 0x24041002
+.L0x00001508: lw $v0, 0x8c($sp)                   # .word 0x8fa2008c
+.L0x0000150c: nop                                 # .word 0x00000000
+.L0x00001510: jalr $v0                            # .word 0x0040f809
+.L0x00001514: li $a1, 0x2                         # .word 0x24050002
+.L0x00001518: li $a0, 0x140                       # .word 0x24040140
+.L0x0000151c: lw $v0, 0x84($sp)                   # .word 0x8fa20084
+.L0x00001520: nop                                 # .word 0x00000000
+.L0x00001524: jalr $v0                            # .word 0x0040f809
+.L0x00001528: move_ $a1, $zr                      # .word 0x00002821
+.L0x0000152c: lw $v0, 0xa8($sp)                   # .word 0x8fa200a8
+.L0x00001530: nop                                 # .word 0x00000000
+.L0x00001534: jalr $v0                            # .word 0x0040f809
+.L0x00001538: move_ $a0, $zr                      # .word 0x00002021
+.L0x0000153c: lw $a0, 0x5c($s3)                   # .word 0x8e64005c
+.L0x00001540: nop                                 # .word 0x00000000
+.L0x00001544: beqz $a0, .L0x000015a8              # .word 0x10800018
+.L0x00001548: li $v0, 0x1000                      # .word 0x24021000
+.L0x0000154c: beq $a0, $v0, .L0x00001578          # .word 0x1082000a
+.L0x00001550: move_ $a1, $v0                      # .word 0x00402821
+.L0x00001554: lw $v0, 0x9c($sp)                   # .word 0x8fa2009c
+.L0x00001558: nop                                 # .word 0x00000000
+.L0x0000155c: jalr $v0                            # .word 0x0040f809
+.L0x00001560: li $a2, 0x1000                      # .word 0x24061000
+.L0x00001564: move_ $a0, $zr                      # .word 0x00002021
+.L0x00001568: lw $v0, 0xa4($sp)                   # .word 0x8fa200a4
+.L0x0000156c: nop                                 # .word 0x00000000
+.L0x00001570: jalr $v0                            # .word 0x0040f809
+.L0x00001574: li $a1, 0xc3                        # .word 0x240500c3
+.L0x00001578: lui $v0, 0x8004                     # .word 0x3c028004
+.L0x0000157c: lw $v0, 0x4f5c($v0)                 # .word 0x8c424f5c
+.L0x00001580: nop                                 # .word 0x00000000
+.L0x00001584: jalr $v0                            # .word 0x0040f809
+.L0x00001588: lui $a0, 0x286                      # .word 0x3c040286
+.L0x0000158c: move_ $a0, $v0                      # .word 0x00402021
+.L0x00001590: li $a1, 0x45                        # .word 0x24050045
+.L0x00001594: move_ $a2, $zr                      # .word 0x00003021
+.L0x00001598: lw $v0, 0x94($sp)                   # .word 0x8fa20094
+.L0x0000159c: nop                                 # .word 0x00000000
+.L0x000015a0: jalr $v0                            # .word 0x0040f809
+.L0x000015a4: li $a3, 0xac                        # .word 0x240700ac
+.L0x000015a8: lw $ra, 0xcc($sp)                   # .word 0x8fbf00cc
+.L0x000015ac: lw $s6, 0xc8($sp)                   # .word 0x8fb600c8
+.L0x000015b0: lw $s5, 0xc4($sp)                   # .word 0x8fb500c4
+.L0x000015b4: lw $s4, 0xc0($sp)                   # .word 0x8fb400c0
+.L0x000015b8: lw $s3, 0xbc($sp)                   # .word 0x8fb300bc
+.L0x000015bc: lw $s2, 0xb8($sp)                   # .word 0x8fb200b8
+.L0x000015c0: lw $s1, 0xb4($sp)                   # .word 0x8fb100b4
+.L0x000015c4: lw $s0, 0xb0($sp)                   # .word 0x8fb000b0
+.L0x000015c8: jr $ra                              # .word 0x03e00008
+.L0x000015cc: addiu $sp, 0xd0                     # .word 0x27bd00d0
+.L0x000015d0: addiu $sp, -0x18                    # .word 0x27bdffe8
+.L0x000015d4: lui $a0, 0x800a                     # .word 0x3c04800a
+.L0x000015d8: addiu $a0, 0x6df4                   # .word 0x24846df4
+.L0x000015dc: li $a1, 0x64                        # .word 0x24050064
+.L0x000015e0: sw $ra, 0x10($sp)                   # .word 0xafbf0010
+.L0x000015e4: jal 0x80014504                      # .word 0x0c005141
+.L0x000015e8: li $a2, 0x14                        # .word 0x24060014
+.L0x000015ec: lw $ra, 0x10($sp)                   # .word 0x8fbf0010
+.L0x000015f0: nop                                 # .word 0x00000000
+.L0x000015f4: jr $ra                              # .word 0x03e00008
+.L0x000015f8: addiu $sp, 0x18                     # .word 0x27bd0018
+.L0x000015fc: addiu $sp, -0x20                    # .word 0x27bdffe0
+.L0x00001600: sw $s1, 0x14($sp)                   # .word 0xafb10014
+.L0x00001604: move_ $s1, $a0                      # .word 0x00808821
+.L0x00001608: sw $ra, 0x18($sp)                   # .word 0xafbf0018
+.L0x0000160c: sw $s0, 0x10($sp)                   # .word 0xafb00010
+.L0x00001610: lw $v0, 0xc($s1)                    # .word 0x8e22000c
+.L0x00001614: nop                                 # .word 0x00000000
+.L0x00001618: beqz $v0, .L0x00001630              # .word 0x10400005
+.L0x0000161c: move_ $s0, $a1                      # .word 0x00a08021
+.L0x00001620: bltz $v0, .L0x00001630              # .word 0x04400003
+.L0x00001624: slti $v0, 0x4                       # .word 0x28420004
+.L0x00001628: bnez $v0, .L0x000016b0              # .word 0x14400021
+.L0x0000162c: nop                                 # .word 0x00000000
+.L0x00001630: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x00001634: lw $v1, -0x4c90($v0)                # .word 0x8c43b370
+.L0x00001638: li $v0, 0xd                         # .word 0x2402000d
+.L0x0000163c: bne $v1, $v0, .L0x00001668          # .word 0x1462000a
+.L0x00001640: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x00001644: li $a0, 0x1c0b                      # .word 0x24041c0b
+.L0x00001648: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x0000164c: lw $v0, -0x7534($v0)                # .word 0x8c428acc
+.L0x00001650: nop                                 # .word 0x00000000
+.L0x00001654: jalr $v0                            # .word 0x0040f809
+.L0x00001658: move_ $a1, $zr                      # .word 0x00002821
+.L0x0000165c: bnez $v0, .L0x00001694              # .word 0x1440000d
+.L0x00001660: li $a0, 0x136                       # .word 0x24040136
+.L0x00001664: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x00001668: lw $v1, -0x4c90($v0)                # .word 0x8c43b370
+.L0x0000166c: li $v0, 0x17                        # .word 0x24020017
+.L0x00001670: bne $v1, $v0, .L0x000016a0          # .word 0x1462000b
+.L0x00001674: li $a0, 0x4050                      # .word 0x24044050
+.L0x00001678: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x0000167c: lw $v0, -0x7534($v0)                # .word 0x8c428acc
+.L0x00001680: nop                                 # .word 0x00000000
+.L0x00001684: jalr $v0                            # .word 0x0040f809
+.L0x00001688: li $a1, 0x1                         # .word 0x24050001
+.L0x0000168c: beqz $v0, .L0x000016a0              # .word 0x10400004
+.L0x00001690: li $a0, 0x2ad                       # .word 0x240402ad
+.L0x00001694: jal 0x800853f8                      # .word 0x0c0214fe
+.L0x00001698: nop                                 # .word 0x00000000
+.L0x0000169c: sw $v0, ($s0)                       # .word 0xae020000
+.L0x000016a0: lw $v0, 0x38($s1)                   # .word 0x8e220038
+.L0x000016a4: nop                                 # .word 0x00000000
+.L0x000016a8: jalr $v0                            # .word 0x0040f809
+.L0x000016ac: move_ $a0, $s1                      # .word 0x02202021
+.L0x000016b0: lw $ra, 0x18($sp)                   # .word 0x8fbf0018
+.L0x000016b4: lw $s1, 0x14($sp)                   # .word 0x8fb10014
+.L0x000016b8: lw $s0, 0x10($sp)                   # .word 0x8fb00010
+.L0x000016bc: jr $ra                              # .word 0x03e00008
+.L0x000016c0: addiu $sp, 0x20                     # .word 0x27bd0020
+.L0x000016c4: addiu $sp, -0x20                    # .word 0x27bdffe0
+.L0x000016c8: sw $s1, 0x14($sp)                   # .word 0xafb10014
+.L0x000016cc: move_ $s1, $a0                      # .word 0x00808821
+.L0x000016d0: lui $a0, 0x800a                     # .word 0x3c04800a
+.L0x000016d4: addiu $a0, 0x73dc                   # .word 0x248473dc
+.L0x000016d8: li $a1, 0x54                        # .word 0x24050054
+.L0x000016dc: li $a2, 0x4                         # .word 0x24060004
+.L0x000016e0: sw $ra, 0x18($sp)                   # .word 0xafbf0018
+.L0x000016e4: jal 0x80014504                      # .word 0x0c005141
+.L0x000016e8: sw $s0, 0x10($sp)                   # .word 0xafb00010
+.L0x000016ec: move_ $s0, $v0                      # .word 0x00408021
+.L0x000016f0: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x000016f4: sw $s1, 0x50($s0)                   # .word 0xae110050
+.L0x000016f8: lw $v0, -0x5f74($v0)                # .word 0x8c42a08c
+.L0x000016fc: nop                                 # .word 0x00000000
+.L0x00001700: jalr $v0                            # .word 0x0040f809
+.L0x00001704: nop                                 # .word 0x00000000
+.L0x00001708: move_ $v0, $s0                      # .word 0x02001021
+.L0x0000170c: lw $ra, 0x18($sp)                   # .word 0x8fbf0018
+.L0x00001710: lw $s1, 0x14($sp)                   # .word 0x8fb10014
+.L0x00001714: lw $s0, 0x10($sp)                   # .word 0x8fb00010
+.L0x00001718: jr $ra                              # .word 0x03e00008
+.L0x0000171c: addiu $sp, 0x20                     # .word 0x27bd0020
+.L0x00001720: addiu $sp, -0x18                    # .word 0x27bdffe8
+.L0x00001724: li $a0, 0x4005                      # .word 0x24044005
+.L0x00001728: sw $s0, 0x10($sp)                   # .word 0xafb00010
+.L0x0000172c: lui $s0, 0x8005                     # .word 0x3c108005
+.L0x00001730: addiu $s0, -0x7544                  # .word 0x26108abc
+.L0x00001734: sw $ra, 0x14($sp)                   # .word 0xafbf0014
+.L0x00001738: lw $v0, 0xc($s0)                    # .word 0x8e02000c
+.L0x0000173c: nop                                 # .word 0x00000000
+.L0x00001740: jalr $v0                            # .word 0x0040f809
+.L0x00001744: li $a1, 0x1                         # .word 0x24050001
+.L0x00001748: li $a0, 0x1c0b                      # .word 0x24041c0b
+.L0x0000174c: lw $v0, 0xc($s0)                    # .word 0x8e02000c
+.L0x00001750: nop                                 # .word 0x00000000
+.L0x00001754: jalr $v0                            # .word 0x0040f809
+.L0x00001758: li $a1, 0x1                         # .word 0x24050001
+.L0x0000175c: lw $ra, 0x14($sp)                   # .word 0x8fbf0014
+.L0x00001760: lw $s0, 0x10($sp)                   # .word 0x8fb00010
+.L0x00001764: jr $ra                              # .word 0x03e00008
+.L0x00001768: addiu $sp, 0x18                     # .word 0x27bd0018
+.L0x0000176c: addiu $sp, -0x18                    # .word 0x27bdffe8
+.L0x00001770: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x00001774: li $a0, 0x1c26                      # .word 0x24041c26
+.L0x00001778: lw $v0, -0x7538($v0)                # .word 0x8c428ac8
+.L0x0000177c: sw $ra, 0x10($sp)                   # .word 0xafbf0010
+.L0x00001780: jalr $v0                            # .word 0x0040f809
+.L0x00001784: move_ $a1, $zr                      # .word 0x00002821
+.L0x00001788: lui $v1, 0x8005                     # .word 0x3c038005
+.L0x0000178c: lw $ra, 0x10($sp)                   # .word 0x8fbf0010
+.L0x00001790: li $v0, 0x18                        # .word 0x24020018
+.L0x00001794: sw $v0, -0x4c90($v1)                # .word 0xac62b370
+.L0x00001798: jr $ra                              # .word 0x03e00008
+.L0x0000179c: addiu $sp, 0x18                     # .word 0x27bd0018
+.L0x000017a0: addiu $sp, -0x20                    # .word 0x27bdffe0
+.L0x000017a4: lui $a3, 0x1                        # .word 0x3c070001
+.L0x000017a8: ori $a3, 0x1c00                     # .word 0x34e71c00
+.L0x000017ac: lui $a2, 0x1                        # .word 0x3c060001
+.L0x000017b0: ori $a2, 0x3400                     # .word 0x34c63400
+.L0x000017b4: move_ $a0, $zr                      # .word 0x00002021
+.L0x000017b8: lui $a1, 0x19b                      # .word 0x3c05019b
+.L0x000017bc: ori $a1, 0x1                        # .word 0x34a50001
+.L0x000017c0: lui $v0, 0x800a                     # .word 0x3c02800a
+.L0x000017c4: sw $s1, 0x14($sp)                   # .word 0xafb10014
+.L0x000017c8: addiu $s1, $v0, -0x6280             # .word 0x24519d80
+.L0x000017cc: li $v0, 0x19a                       # .word 0x2402019a
+.L0x000017d0: sw $ra, 0x18($sp)                   # .word 0xafbf0018
+.L0x000017d4: sw $s0, 0x10($sp)                   # .word 0xafb00010
+.L0x000017d8: sw $v0, 0x8($s1)                    # .word 0xae220008
+.L0x000017dc: lui $v0, 0x19b                      # .word 0x3c02019b
+.L0x000017e0: sw $v0, 0xc($s1)                    # .word 0xae22000c
+.L0x000017e4: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x000017e8: addiu $v0, -0x67e0                  # .word 0x24429820
+.L0x000017ec: sw $v0, 0x10($s1)                   # .word 0xae220010
+.L0x000017f0: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x000017f4: addiu $v0, -0x607c                  # .word 0x24429f84
+.L0x000017f8: sw $v0, 0x14($s1)                   # .word 0xae220014
+.L0x000017fc: lui $v0, 0x8006                     # .word 0x3c028006
+.L0x00001800: li $v1, 0x322                       # .word 0x24030322
+.L0x00001804: lui $s0, 0x800a                     # .word 0x3c10800a
+.L0x00001808: lw $v0, -0x3358($v0)                # .word 0x8c42cca8
+.L0x0000180c: addiu $s0, -0x493c                  # .word 0x2610b6c4
+.L0x00001810: sw $v1, 0x1c($s1)                   # .word 0xae23001c
+.L0x00001814: addiu $v0, 0xc5                     # .word 0x244200c5
+.L0x00001818: sw $v0, 0x44($s1)                   # .word 0xae220044
+.L0x0000181c: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x00001820: addiu $v0, -0x7e40                  # .word 0x244281c0
+.L0x00001824: sw $v0, 0x28($s1)                   # .word 0xae220028
+.L0x00001828: li $v0, 0x5                         # .word 0x24020005
+.L0x0000182c: sw $v0, 0x3c($s1)                   # .word 0xae22003c
+.L0x00001830: lui $v0, 0x6014                     # .word 0x3c026014
+.L0x00001834: sw $v0, 0x40($s1)                   # .word 0xae220040
+.L0x00001838: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x0000183c: addiu $v0, -0x6964                  # .word 0x2442969c
+.L0x00001840: sw $v0, 0x4c($s1)                   # .word 0xae22004c
+.L0x00001844: lui $v0, 0x800a                     # .word 0x3c02800a
+.L0x00001848: sw $a3, 0x2c($s1)                   # .word 0xae27002c
+.L0x0000184c: sw $a2, 0x30($s1)                   # .word 0xae260030
+.L0x00001850: sw $zr, 0x34($s1)                   # .word 0xae200034
+.L0x00001854: addiu $t3, $v0, 0x5e70              # .word 0x244b5e70
+.L0x00001858: lwl $t0, 0x3($t3)                   # .word 0x89680003
+.L0x0000185c: lwr $t0, ($t3)                      # .word 0x99680000
+.L0x00001860: nop                                 # .word 0x00000000
+.L0x00001864: swl $t0, 0x3b($s1)                  # .word 0xaa28003b
+.L0x00001868: swr $t0, 0x38($s1)                  # .word 0xba280038
+.L0x0000186c: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x00001870: addiu $v0, -0x5f68                  # .word 0x2442a098
+.L0x00001874: sw $v0, 0x24($s1)                   # .word 0xae220024
+.L0x00001878: lui $v0, 0x800b                     # .word 0x3c02800b
+.L0x0000187c: lw $v1, 0x40($s0)                   # .word 0x8e030040
+.L0x00001880: addiu $v0, -0x7e5c                  # .word 0x244281a4
+.L0x00001884: jalr $v1                            # .word 0x0060f809
+.L0x00001888: sw $v0, 0x20($s1)                   # .word 0xae220020
+.L0x0000188c: li $a0, 0x7                         # .word 0x24040007
+.L0x00001890: lui $a1, 0x19b                      # .word 0x3c05019b
+.L0x00001894: lw $v0, 0x40($s0)                   # .word 0x8e020040
+.L0x00001898: nop                                 # .word 0x00000000
+.L0x0000189c: jalr $v0                            # .word 0x0040f809
+.L0x000018a0: ori $a1, 0x2                        # .word 0x34a50002
+.L0x000018a4: lw $v0, 0x50($s0)                   # .word 0x8e020050
+.L0x000018a8: nop                                 # .word 0x00000000
+.L0x000018ac: jalr $v0                            # .word 0x0040f809
+.L0x000018b0: move_ $a0, $zr                      # .word 0x00002021
+.L0x000018b4: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x000018b8: lw $v1, -0x4c90($v0)                # .word 0x8c43b370
+.L0x000018bc: nop                                 # .word 0x00000000
+.L0x000018c0: addiu $v0, $v1, -0x14               # .word 0x2462ffec
+.L0x000018c4: sltiu $v0, 0x4                      # .word 0x2c420004
+.L0x000018c8: beqz $v0, .L0x000018dc              # .word 0x10400004
+.L0x000018cc: li $v0, 0x1f                        # .word 0x2402001f
+.L0x000018d0: sw $v0, 0x3c($s1)                   # .word 0xae22003c
+.L0x000018d4: lui $v0, 0x607c                     # .word 0x3c02607c
+.L0x000018d8: sw $v0, 0x40($s1)                   # .word 0xae220040
+.L0x000018dc: addiu $v0, $v1, -0x27               # .word 0x2462ffd9
+.L0x000018e0: sltiu $v0, 0x2                      # .word 0x2c420002
+.L0x000018e4: beqz $v0, .L0x000018f8              # .word 0x10400004
+.L0x000018e8: li $v0, 0x1f                        # .word 0x2402001f
+.L0x000018ec: sw $v0, 0x3c($s1)                   # .word 0xae22003c
+.L0x000018f0: lui $v0, 0x607c                     # .word 0x3c02607c
+.L0x000018f4: sw $v0, 0x40($s1)                   # .word 0xae220040
+.L0x000018f8: lw $ra, 0x18($sp)                   # .word 0x8fbf0018
+.L0x000018fc: lw $s1, 0x14($sp)                   # .word 0x8fb10014
+.L0x00001900: lw $s0, 0x10($sp)                   # .word 0x8fb00010
+.L0x00001904: jr $ra                              # .word 0x03e00008
+.L0x00001908: addiu $sp, 0x20                     # .word 0x27bd0020
+.L0x0000190c: addiu $sp, -0x18                    # .word 0x27bdffe8
+.L0x00001910: sw $s0, 0x10($sp)                   # .word 0xafb00010
+.L0x00001914: move_ $s0, $a0                      # .word 0x00808021
+.L0x00001918: li $v0, 0x1                         # .word 0x24020001
+.L0x0000191c: sw $ra, 0x14($sp)                   # .word 0xafbf0014
+.L0x00001920: beqz $a1, .L0x00001958              # .word 0x10a0000d
+.L0x00001924: sw $v0, 0xc($s0)                    # .word 0xae02000c
+.L0x00001928: lui $a0, 0x4                        # .word 0x3c040004
+.L0x0000192c: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x00001930: lw $v0, 0x5c48($v0)                 # .word 0x8c425c48
+.L0x00001934: nop                                 # .word 0x00000000
+.L0x00001938: jalr $v0                            # .word 0x0040f809
+.L0x0000193c: ori $a0, 0x19                       # .word 0x34840019
+.L0x00001940: lw $v1, ($s0)                       # .word 0x8e030000
+.L0x00001944: li $v0, 0x1000                      # .word 0x24021000
+.L0x00001948: div $zr, $v0, $v1                   # .word 0x0043001a
+.L0x0000194c: mflo $v0                            # .word 0x00001012
+.L0x00001950: j 0x800a776c                        # .word 0x08029ddb
+.L0x00001954: sw $zr, 0x8($s0)                    # .word 0xae000008
+.L0x00001958: lui $a0, 0x4                        # .word 0x3c040004
+.L0x0000195c: lui $v0, 0x8005                     # .word 0x3c028005
+.L0x00001960: lw $v0, 0x5c48($v0)                 # .word 0x8c425c48
+.L0x00001964: nop                                 # .word 0x00000000
+.L0x00001968: jalr $v0                            # .word 0x0040f809
+.L0x0000196c: ori $a0, 0x1a                       # .word 0x3484001a
+.L0x00001970: lw $v0, ($s0)                       # .word 0x8e020000
+.L0x00001974: li $v1, 0x1000                      # .word 0x24031000
+.L0x00001978: div $zr, $v1, $v0                   # .word 0x0062001a
+.L0x0000197c: mflo $v0                            # .word 0x00001012
+.L0x00001980: sw $v1, 0x8($s0)                    # .word 0xae030008
+.L0x00001984: sll $v0, 0x1                        # .word 0x00021040
+.L0x00001988: negu $v0                            # .word 0x00021023
+.L0x0000198c: sw $v0, 0x4($s0)                    # .word 0xae020004
+.L0x00001990: lw $ra, 0x14($sp)                   # .word 0x8fbf0014
+.L0x00001994: lw $s0, 0x10($sp)                   # .word 0x8fb00010
+.L0x00001998: jr $ra                              # .word 0x03e00008
+.L0x0000199c: addiu $sp, 0x18                     # .word 0x27bd0018
+.L0x000019a0: move_ $a1, $a0                      # .word 0x00802821
+.L0x000019a4: lw $v0, 0xc($a1)                    # .word 0x8ca2000c
+.L0x000019a8: nop                                 # .word 0x00000000
+.L0x000019ac: beqz $v0, .L0x00001a04              # .word 0x10400015
+.L0x000019b0: li $v0, 0x1                         # .word 0x24020001
+.L0x000019b4: lw $v1, 0x4($a1)                    # .word 0x8ca30004
+.L0x000019b8: lw $v0, 0x8($a1)                    # .word 0x8ca20008
+.L0x000019bc: move_ $a0, $v1                      # .word 0x00602021
+.L0x000019c0: addu $v0, $v1                       # .word 0x00431021
+.L0x000019c4: blez $a0, .L0x000019e8              # .word 0x18800008
+.L0x000019c8: sw $v0, 0x8($a1)                    # .word 0xaca20008
+.L0x000019cc: slti $v0, 0x1001                    # .word 0x28421001
+.L0x000019d0: bnez $v0, .L0x000019fc              # .word 0x1440000a
+.L0x000019d4: li $v0, 0x1                         # .word 0x24020001
+.L0x000019d8: li $v1, 0x1000                      # .word 0x24031000
+.L0x000019dc: sw $v1, 0x8($a1)                    # .word 0xaca30008
+.L0x000019e0: jr $ra                              # .word 0x03e00008
+.L0x000019e4: sw $zr, 0xc($a1)                    # .word 0xaca0000c
+.L0x000019e8: bgez $v0, .L0x000019fc              # .word 0x04410004
+.L0x000019ec: li $v0, 0x1                         # .word 0x24020001
+.L0x000019f0: sw $zr, 0x8($a1)                    # .word 0xaca00008
+.L0x000019f4: jr $ra                              # .word 0x03e00008
+.L0x000019f8: sw $zr, 0xc($a1)                    # .word 0xaca0000c
+.L0x000019fc: jr $ra                              # .word 0x03e00008
+.L0x00001a00: move_ $v0, $zr                      # .word 0x00001021
+.L0x00001a04: jr $ra                              # .word 0x03e00008
+.L0x00001a08: nop                                 # .word 0x00000000
+.L0x00001a0c: sll $zr, $at, 0x18                  # .word 0x00010600
+# End of code
+.L0x00001a10: .word 0x01020002 # 0x1020002
+.L0x00001a14: .word 0x01600002 # 0x1600002
+.L0x00001a18: .word 0x00050110 # 0x50110
+.L0x00001a1c: .word 0x00200100 # 0x200100
+.L0x00001a20: .word 0x00ff0180 # 0xff0180
+.L0x00001a24: .word 0x00200101 # 0x200101
+.L0x00001a28: .word 0x00010001 # 0x10001
+.L0x00001a2c: .word 0x00240100 # 0x240100
+.L0x00001a30: .word 0x00f701b2 # 0xf701b2
+.L0x00001a34: .word 0x00240101 # 0x240101
+.L0x00001a38: .word 0x00070001 # 0x70001
+.L0x00001a3c: .word 0x00020302 # srl $zr, $v0, 0xc
+.L0x00001a40: .word 0x00020101 # 0x20101
+.L0x00001a44: .word 0x00050001 # 0x50001
+.L0x00001a48: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001a4c: .word 0x00000200 # sll $zr, 0x8
+.L0x00001a50: .word 0x00200001 # 0x200001
+.L0x00001a54: .word 0x03010000 # 0x3010000
+.L0x00001a58: .word 0x02040304 # 0x2040304
+.L0x00001a5c: .word 0x01100160 # 0x1100160
+.L0x00001a60: .word 0x00000005 # 0x5
+.L0x00001a64: .word 0x00010600 # sll $zr, $at, 0x18
+.L0x00001a68: .word 0x01020002 # 0x1020002
+.L0x00001a6c: .word 0x01600002 # 0x1600002
+.L0x00001a70: .word 0x00050110 # 0x50110
+.L0x00001a74: .word 0x00200100 # 0x200100
+.L0x00001a78: .word 0x00ff0180 # 0xff0180
+.L0x00001a7c: .word 0x00200101 # 0x200101
+.L0x00001a80: .word 0x00010001 # 0x10001
+.L0x00001a84: .word 0x00240100 # 0x240100
+.L0x00001a88: .word 0x00f701b2 # 0xf701b2
+.L0x00001a8c: .word 0x00240101 # 0x240101
+.L0x00001a90: .word 0x00070001 # 0x70001
+.L0x00001a94: .word 0x00020302 # srl $zr, $v0, 0xc
+.L0x00001a98: .word 0x00020101 # 0x20101
+.L0x00001a9c: .word 0x00050001 # 0x50001
+.L0x00001aa0: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001aa4: .word 0x00000200 # sll $zr, 0x8
+.L0x00001aa8: .word 0x00200001 # 0x200001
+.L0x00001aac: .word 0x03010000 # 0x3010000
+.L0x00001ab0: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001ab4: .word 0x00020101 # 0x20101
+.L0x00001ab8: .word 0x00010001 # 0x10001
+.L0x00001abc: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001ac0: .word 0x00000200 # sll $zr, 0x8
+.L0x00001ac4: .word 0x00020002 # srl $zr, $v0, 0x0
+.L0x00001ac8: .word 0x03010003 # 0x3010003
+.L0x00001acc: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001ad0: .word 0x00020102 # srl $zr, $v0, 0x4
+.L0x00001ad4: .word 0x01180150 # 0x1180150
+.L0x00001ad8: .word 0x03020001 # 0x3020001
+.L0x00001adc: .word 0x00000002 # srl $zr, 0x0
+.L0x00001ae0: .word 0x00010600 # sll $zr, $at, 0x18
+.L0x00001ae4: .word 0x01010002 # 0x1010002
+.L0x00001ae8: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x00001aec: .word 0x01010001 # 0x1010001
+.L0x00001af0: .word 0x03250323 # 0x3250323
+.L0x00001af4: .word 0x01010002 # 0x1010002
+.L0x00001af8: .word 0x0337032d # 0x337032d
+.L0x00001afc: .word 0x03000002 # 0x3000002
+.L0x00001b00: .word 0x0101003c # 0x101003c
+.L0x00001b04: .word 0x03260323 # 0x3260323
+.L0x00001b08: .word 0x03000002 # 0x3000002
+.L0x00001b0c: .word 0x0102001e # 0x102001e
+.L0x00001b10: .word 0x00b20002 # 0xb20002
+.L0x00001b14: .word 0x00050167 # 0x50167
+.L0x00001b18: .word 0x00020302 # srl $zr, $v0, 0xc
+.L0x00001b1c: .word 0x00020101 # 0x20101
+.L0x00001b20: .word 0x00050001 # 0x50001
+.L0x00001b24: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001b28: .word 0x00000200 # sll $zr, 0x8
+.L0x00001b2c: .word 0x00020001 # 0x20001
+.L0x00001b30: .word 0x03010002 # 0x3010002
+.L0x00001b34: .word 0x00020101 # 0x20101
+.L0x00001b38: .word 0x00050001 # 0x50001
+.L0x00001b3c: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001b40: .word 0x5de00000 # 0x5de00000
+.L0x00001b44: .word 0x00010600 # sll $zr, $at, 0x18
+.L0x00001b48: .word 0x01010002 # 0x1010002
+.L0x00001b4c: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x00001b50: .word 0x01010007 # srav $zr, $at, $t0
+.L0x00001b54: .word 0x03250323 # 0x3250323
+.L0x00001b58: .word 0x01010002 # 0x1010002
+.L0x00001b5c: .word 0x0337032d # 0x337032d
+.L0x00001b60: .word 0x03000002 # 0x3000002
+.L0x00001b64: .word 0x0101003c # 0x101003c
+.L0x00001b68: .word 0x03260323 # 0x3260323
+.L0x00001b6c: .word 0x03000002 # 0x3000002
+.L0x00001b70: .word 0x0102001e # 0x102001e
+.L0x00001b74: .word 0x027f0002 # 0x27f0002
+.L0x00001b78: .word 0x0003022d # 0x3022d
+.L0x00001b7c: .word 0x00020302 # srl $zr, $v0, 0xc
+.L0x00001b80: .word 0x00020101 # 0x20101
+.L0x00001b84: .word 0x00030001 # 0x30001
+.L0x00001b88: .word 0x03230101 # 0x3230101
+.L0x00001b8c: .word 0x00020326 # 0x20326
+.L0x00001b90: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001b94: .word 0x00000200 # sll $zr, 0x8
+.L0x00001b98: .word 0x00020001 # 0x20001
+.L0x00001b9c: .word 0x03010002 # 0x3010002
+.L0x00001ba0: .word 0x00020101 # 0x20101
+.L0x00001ba4: .word 0x00030001 # 0x30001
+.L0x00001ba8: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001bac: .word 0x4a5f0000 # c2 0x5f0000
+.L0x00001bb0: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001bb4: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001bb8: .word 0x00000200 # sll $zr, 0x8
+.L0x00001bbc: .word 0x00200001 # 0x200001
+.L0x00001bc0: .word 0x03010002 # 0x3010002
+.L0x00001bc4: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001bc8: .word 0x032d0101 # 0x32d0101
+.L0x00001bcc: .word 0x00020338 # 0x20338
+.L0x00001bd0: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001bd4: .word 0x00000200 # sll $zr, 0x8
+.L0x00001bd8: .word 0x00020002 # srl $zr, $v0, 0x0
+.L0x00001bdc: .word 0x03010004 # sllv $zr, $at, $t8
+.L0x00001be0: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001be4: .word 0x00000200 # sll $zr, 0x8
+.L0x00001be8: .word 0x00200003 # 0x200003
+.L0x00001bec: .word 0x03010004 # sllv $zr, $at, $t8
+.L0x00001bf0: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001bf4: .word 0x00000200 # sll $zr, 0x8
+.L0x00001bf8: .word 0x00020004 # sllv $zr, $v0, $zr
+.L0x00001bfc: .word 0x03010004 # sllv $zr, $at, $t8
+.L0x00001c00: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001c04: .word 0x032d0101 # 0x32d0101
+.L0x00001c08: .word 0x00020339 # 0x20339
+.L0x00001c0c: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001c10: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001c14: .word 0x00000200 # sll $zr, 0x8
+.L0x00001c18: .word 0x00200005 # 0x200005
+.L0x00001c1c: .word 0x03010002 # 0x3010002
+.L0x00001c20: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001c24: .word 0x00000000 # nop
+.L0x00001c28: .word 0x00010600 # sll $zr, $at, 0x18
+.L0x00001c2c: .word 0x0100006a # 0x100006a
+.L0x00001c30: .word 0x01800020 # add $zr, $t4, $zr
+.L0x00001c34: .word 0x010100ff # 0x10100ff
+.L0x00001c38: .word 0x00010020 # add $zr, $at
+.L0x00001c3c: .word 0x01000001 # 0x1000001
+.L0x00001c40: .word 0x01b20024 # and $zr, $t5, $s2
+.L0x00001c44: .word 0x010100f7 # 0x10100f7
+.L0x00001c48: .word 0x00010024 # and $zr, $at
+.L0x00001c4c: .word 0x01000007 # srav $zr, $zr, $t0
+.L0x00001c50: .word 0x029f002d # 0x29f002d
+.L0x00001c54: .word 0x01010178 # 0x1010178
+.L0x00001c58: .word 0x0001002d # 0x1002d
+.L0x00001c5c: .word 0x01000007 # srav $zr, $zr, $t0
+.L0x00001c60: .word 0x01780031 # 0x1780031
+.L0x00001c64: .word 0x010100d5 # 0x10100d5
+.L0x00001c68: .word 0x00010031 # 0x10031
+.L0x00001c6c: .word 0x01000007 # srav $zr, $zr, $t0
+.L0x00001c70: .word 0x02170036 # 0x2170036
+.L0x00001c74: .word 0x01010133 # 0x1010133
+.L0x00001c78: .word 0x00010036 # 0x10036
+.L0x00001c7c: .word 0x01000001 # 0x1000001
+.L0x00001c80: .word 0x01480037 # 0x1480037
+.L0x00001c84: .word 0x01010104 # 0x1010104
+.L0x00001c88: .word 0x00010037 # 0x10037
+.L0x00001c8c: .word 0x01000006 # srlv $zr, $zr, $t0
+.L0x00001c90: .word 0x01220041 # 0x1220041
+.L0x00001c94: .word 0x01010159 # 0x1010159
+.L0x00001c98: .word 0x00010041 # 0x10041
+.L0x00001c9c: .word 0x01000005 # 0x1000005
+.L0x00001ca0: .word 0x013d006a # 0x13d006a
+.L0x00001ca4: .word 0x01010137 # 0x1010137
+.L0x00001ca8: .word 0x0001006a # 0x1006a
+.L0x00001cac: .word 0x01000003 # 0x1000003
+.L0x00001cb0: .word 0x011d006b # 0x11d006b
+.L0x00001cb4: .word 0x01010127 # 0x1010127
+.L0x00001cb8: .word 0x0001006b # 0x1006b
+.L0x00001cbc: .word 0x03000007 # srav $zr, $zr, $t8
+.L0x00001cc0: .word 0x02000078 # 0x2000078
+.L0x00001cc4: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00001cc8: .word 0x0003006a # 0x3006a
+.L0x00001ccc: .word 0x03000301 # 0x3000301
+.L0x00001cd0: .word 0x0200001e # 0x200001e
+.L0x00001cd4: .word 0x00020000 # sll $zr, $v0, 0x0
+.L0x00001cd8: .word 0x0000006b # 0x6b
+.L0x00001cdc: .word 0x03000301 # 0x3000301
+.L0x00001ce0: .word 0x0200001e # 0x200001e
+.L0x00001ce4: .word 0x00030000 # sll $zr, $v1, 0x0
+.L0x00001ce8: .word 0x0003006a # 0x3006a
+.L0x00001cec: .word 0x03000301 # 0x3000301
+.L0x00001cf0: .word 0x0200001e # 0x200001e
+.L0x00001cf4: .word 0x00040000 # sll $zr, $a0, 0x0
+.L0x00001cf8: .word 0x0000006b # 0x6b
+.L0x00001cfc: .word 0x03000301 # 0x3000301
+.L0x00001d00: .word 0x0200001e # 0x200001e
+.L0x00001d04: .word 0x00050000 # sll $zr, $a1, 0x0
+.L0x00001d08: .word 0x0003006a # 0x3006a
+.L0x00001d0c: .word 0x03000301 # 0x3000301
+.L0x00001d10: .word 0x0200001e # 0x200001e
+.L0x00001d14: .word 0x00060000 # sll $zr, $a2, 0x0
+.L0x00001d18: .word 0x0000006b # 0x6b
+.L0x00001d1c: .word 0x06000301 # bltz $s0, .L0x00002924
+.L0x00001d20: .word 0x006b0000 # 0x6b0000
+.L0x00001d24: .word 0x006b0101 # 0x6b0101
+.L0x00001d28: .word 0x00030001 # 0x30001
+.L0x00001d2c: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001d30: .word 0x006a0101 # 0x6a0101
+.L0x00001d34: .word 0x00040001 # 0x40001
+.L0x00001d38: .word 0x006b0102 # 0x6b0102
+.L0x00001d3c: .word 0x00d8011d # 0xd8011d
+.L0x00001d40: .word 0x03020004 # sllv $zr, $v0, $t8
+.L0x00001d44: .word 0x0102006b # 0x102006b
+.L0x00001d48: .word 0x014a006b # 0x14a006b
+.L0x00001d4c: .word 0x000500c4 # 0x500c4
+.L0x00001d50: .word 0x006b0302 # 0x6b0302
+.L0x00001d54: .word 0x032d0101 # 0x32d0101
+.L0x00001d58: .word 0x006b034f # 0x6b034f
+.L0x00001d5c: .word 0x000c0300 # sll $zr, $t4, 0xc
+.L0x00001d60: .word 0x006b0102 # 0x6b0102
+.L0x00001d64: .word 0x00a4018a # 0xa4018a
+.L0x00001d68: .word 0x03020005 # 0x3020005
+.L0x00001d6c: .word 0x0101006b # 0x101006b
+.L0x00001d70: .word 0x0355032d # 0x355032d
+.L0x00001d74: .word 0x0300006b # 0x300006b
+.L0x00001d78: .word 0x0600001e # bltz $s0, .L0x00001df4
+.L0x00001d7c: .word 0x006a0000 # 0x6a0000
+.L0x00001d80: .word 0x006b0100 # 0x6b0100
+.L0x00001d84: .word 0x00000000 # nop
+.L0x00001d88: .word 0x006b0101 # 0x6b0101
+.L0x00001d8c: .word 0x00000001 # 0x1
+.L0x00001d90: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001d94: .word 0x00000200 # sll $zr, 0x8
+.L0x00001d98: .word 0x006a0007 # srav $zr, $t2, $v1
+.L0x00001d9c: .word 0x03010000 # 0x3010000
+.L0x00001da0: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001da4: .word 0x00000000 # nop
+.L0x00001da8: .word 0x00010600 # sll $zr, $at, 0x18
+.L0x00001dac: .word 0x0101006a # 0x101006a
+.L0x00001db0: .word 0x0001006a # 0x1006a
+.L0x00001db4: .word 0x01010001 # 0x1010001
+.L0x00001db8: .word 0x03250323 # 0x3250323
+.L0x00001dbc: .word 0x0300006a # 0x300006a
+.L0x00001dc0: .word 0x0101003c # 0x101003c
+.L0x00001dc4: .word 0x03260323 # 0x3260323
+.L0x00001dc8: .word 0x0300006a # 0x300006a
+.L0x00001dcc: .word 0x0102001e # 0x102001e
+.L0x00001dd0: .word 0x00e8006a # 0xe8006a
+.L0x00001dd4: .word 0x0005014c # syscall 0x1405
+.L0x00001dd8: .word 0x006a0302 # 0x6a0302
+.L0x00001ddc: .word 0x006a0101 # 0x6a0101
+.L0x00001de0: .word 0x00050001 # 0x50001
+.L0x00001de4: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001de8: .word 0x00000200 # sll $zr, 0x8
+.L0x00001dec: .word 0x006a0001 # 0x6a0001
+.L0x00001df0: .word 0x03010003 # 0x3010003
+.L0x00001df4: .word 0x006a0101 # 0x6a0101
+.L0x00001df8: .word 0x00050001 # 0x50001
+.L0x00001dfc: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001e00: .word 0x00000000 # nop
+.L0x00001e04: .word 0x00010600 # sll $zr, $at, 0x18
+.L0x00001e08: .word 0x0101006a # 0x101006a
+.L0x00001e0c: .word 0x0001006a # 0x1006a
+.L0x00001e10: .word 0x01010007 # srav $zr, $at, $t0
+.L0x00001e14: .word 0x03250323 # 0x3250323
+.L0x00001e18: .word 0x0300006a # 0x300006a
+.L0x00001e1c: .word 0x0101003c # 0x101003c
+.L0x00001e20: .word 0x03260323 # 0x3260323
+.L0x00001e24: .word 0x0300006a # 0x300006a
+.L0x00001e28: .word 0x0102001e # 0x102001e
+.L0x00001e2c: .word 0x0268006a # 0x268006a
+.L0x00001e30: .word 0x0003021c # 0x3021c
+.L0x00001e34: .word 0x006a0302 # 0x6a0302
+.L0x00001e38: .word 0x006a0101 # 0x6a0101
+.L0x00001e3c: .word 0x00030001 # 0x30001
+.L0x00001e40: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001e44: .word 0x00000200 # sll $zr, 0x8
+.L0x00001e48: .word 0x006a0001 # 0x6a0001
+.L0x00001e4c: .word 0x03010001 # 0x3010001
+.L0x00001e50: .word 0x006a0101 # 0x6a0101
+.L0x00001e54: .word 0x00030001 # 0x30001
+.L0x00001e58: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001e5c: .word 0x00000000 # nop
+.L0x00001e60: .word 0x00020100 # sll $zr, $v0, 0x4
+.L0x00001e64: .word 0x00a4018a # 0xa4018a
+.L0x00001e68: .word 0x00020101 # 0x20101
+.L0x00001e6c: .word 0x00010001 # 0x10001
+.L0x00001e70: .word 0x032d0101 # 0x32d0101
+.L0x00001e74: .word 0x0002034f # 0x2034f
+.L0x00001e78: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x00001e7c: .word 0x00020102 # srl $zr, $v0, 0x4
+.L0x00001e80: .word 0x00c4014a # 0xc4014a
+.L0x00001e84: .word 0x01000001 # 0x1000001
+.L0x00001e88: .word 0x018a00b3 # 0x18a00b3
+.L0x00001e8c: .word 0x010100a4 # 0x10100a4
+.L0x00001e90: .word 0x000100b3 # 0x100b3
+.L0x00001e94: .word 0x03020001 # 0x3020001
+.L0x00001e98: .word 0x01020002 # 0x1020002
+.L0x00001e9c: .word 0x012a0002 # 0x12a0002
+.L0x00001ea0: .word 0x000500d4 # 0x500d4
+.L0x00001ea4: .word 0x00b30102 # 0xb30102
+.L0x00001ea8: .word 0x00c4014a # 0xc4014a
+.L0x00001eac: .word 0x03020001 # 0x3020001
+.L0x00001eb0: .word 0x010100b3 # 0x10100b3
+.L0x00001eb4: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x00001eb8: .word 0x01010005 # 0x1010005
+.L0x00001ebc: .word 0x000100b3 # 0x100b3
+.L0x00001ec0: .word 0x01010001 # 0x1010001
+.L0x00001ec4: .word 0x0355032d # 0x355032d
+.L0x00001ec8: .word 0x03000002 # 0x3000002
+.L0x00001ecc: .word 0x01020006 # srlv $zr, $v0, $t0
+.L0x00001ed0: .word 0x011a0002 # 0x11a0002
+.L0x00001ed4: .word 0x000100dc # 0x100dc
+.L0x00001ed8: .word 0x00b30102 # 0xb30102
+.L0x00001edc: .word 0x00cc013a # 0xcc013a
+.L0x00001ee0: .word 0x03020001 # 0x3020001
+.L0x00001ee4: .word 0x01010002 # 0x1010002
+.L0x00001ee8: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x00001eec: .word 0x01010005 # 0x1010005
+.L0x00001ef0: .word 0x000100b3 # 0x100b3
+.L0x00001ef4: .word 0x03000001 # 0x3000001
+.L0x00001ef8: .word 0x0200001e # 0x200001e
+.L0x00001efc: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00001f00: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x00001f04: .word 0x00020101 # 0x20101
+.L0x00001f08: .word 0x00050007 # srav $zr, $a1, $zr
+.L0x00001f0c: .word 0x01020301 # 0x1020301
+.L0x00001f10: .word 0x011a0002 # 0x11a0002
+.L0x00001f14: .word 0x000400fc # 0x400fc
+.L0x00001f18: .word 0x000c0300 # sll $zr, $t4, 0xc
+.L0x00001f1c: .word 0x00000200 # sll $zr, 0x8
+.L0x00001f20: .word 0x00b30002 # 0xb30002
+.L0x00001f24: .word 0x01020002 # 0x1020002
+.L0x00001f28: .word 0x011a00b3 # 0x11a00b3
+.L0x00001f2c: .word 0x000000dc # 0xdc
+.L0x00001f30: .word 0x01010301 # 0x1010301
+.L0x00001f34: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x00001f38: .word 0x01010004 # sllv $zr, $at, $t0
+.L0x00001f3c: .word 0x03250323 # 0x3250323
+.L0x00001f40: .word 0x03000002 # 0x3000002
+.L0x00001f44: .word 0x0101003c # 0x101003c
+.L0x00001f48: .word 0x03260323 # 0x3260323
+.L0x00001f4c: .word 0x03000002 # 0x3000002
+.L0x00001f50: .word 0x0200001e # 0x200001e
+.L0x00001f54: .word 0x00030000 # sll $zr, $v1, 0x0
+.L0x00001f58: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x00001f5c: .word 0x00020101 # 0x20101
+.L0x00001f60: .word 0x00040007 # srav $zr, $a0, $zr
+.L0x00001f64: .word 0x01010301 # 0x1010301
+.L0x00001f68: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x00001f6c: .word 0x03000004 # sllv $zr, $zr, $t8
+.L0x00001f70: .word 0x0101001e # 0x101001e
+.L0x00001f74: .word 0x03270323 # 0x3270323
+.L0x00001f78: .word 0x03000002 # 0x3000002
+.L0x00001f7c: .word 0x0101003c # 0x101003c
+.L0x00001f80: .word 0x03260323 # 0x3260323
+.L0x00001f84: .word 0x03000002 # 0x3000002
+.L0x00001f88: .word 0x0200001e # 0x200001e
+.L0x00001f8c: .word 0x00040000 # sll $zr, $a0, 0x0
+.L0x00001f90: .word 0x000200b3 # 0x200b3
+.L0x00001f94: .word 0x03000301 # 0x3000301
+.L0x00001f98: .word 0x0200001e # 0x200001e
+.L0x00001f9c: .word 0x00050000 # sll $zr, $a1, 0x0
+.L0x00001fa0: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x00001fa4: .word 0x00020101 # 0x20101
+.L0x00001fa8: .word 0x00040007 # srav $zr, $a0, $zr
+.L0x00001fac: .word 0x01010301 # 0x1010301
+.L0x00001fb0: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x00001fb4: .word 0x03000004 # sllv $zr, $zr, $t8
+.L0x00001fb8: .word 0x0200001e # 0x200001e
+.L0x00001fbc: .word 0x00060000 # sll $zr, $a2, 0x0
+.L0x00001fc0: .word 0x000200b3 # 0x200b3
+.L0x00001fc4: .word 0x03000301 # 0x3000301
+.L0x00001fc8: .word 0x0200001e # 0x200001e
+.L0x00001fcc: .word 0x00070000 # sll $zr, $a3, 0x0
+.L0x00001fd0: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x00001fd4: .word 0x00020101 # 0x20101
+.L0x00001fd8: .word 0x00040007 # srav $zr, $a0, $zr
+.L0x00001fdc: .word 0x01010301 # 0x1010301
+.L0x00001fe0: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x00001fe4: .word 0x03000004 # sllv $zr, $zr, $t8
+.L0x00001fe8: .word 0x0200001e # 0x200001e
+.L0x00001fec: .word 0x00080000 # sll $zr, $t0, 0x0
+.L0x00001ff0: .word 0x000200b3 # 0x200b3
+.L0x00001ff4: .word 0x03000301 # 0x3000301
+.L0x00001ff8: .word 0x0200001e # 0x200001e
+.L0x00001ffc: .word 0x00090000 # sll $zr, $t1, 0x0
+.L0x00002000: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x00002004: .word 0x01010301 # 0x1010301
+.L0x00002008: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x0000200c: .word 0x03000004 # sllv $zr, $zr, $t8
+.L0x00002010: .word 0x0101001e # 0x101001e
+.L0x00002014: .word 0x03270323 # 0x3270323
+.L0x00002018: .word 0x03000002 # 0x3000002
+.L0x0000201c: .word 0x0101003c # 0x101003c
+.L0x00002020: .word 0x03260323 # 0x3260323
+.L0x00002024: .word 0x03000002 # 0x3000002
+.L0x00002028: .word 0x0101003c # 0x101003c
+.L0x0000202c: .word 0x03250323 # 0x3250323
+.L0x00002030: .word 0x03000002 # 0x3000002
+.L0x00002034: .word 0x0101003c # 0x101003c
+.L0x00002038: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x0000203c: .word 0x01010004 # sllv $zr, $at, $t0
+.L0x00002040: .word 0x03260323 # 0x3260323
+.L0x00002044: .word 0x03000002 # 0x3000002
+.L0x00002048: .word 0x0200001e # 0x200001e
+.L0x0000204c: .word 0x000a0000 # sll $zr, $t2, 0x0
+.L0x00002050: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x00002054: .word 0x00020101 # 0x20101
+.L0x00002058: .word 0x00040007 # srav $zr, $a0, $zr
+.L0x0000205c: .word 0x01010301 # 0x1010301
+.L0x00002060: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x00002064: .word 0x03000004 # sllv $zr, $zr, $t8
+.L0x00002068: .word 0x0101001e # 0x101001e
+.L0x0000206c: .word 0x03250323 # 0x3250323
+.L0x00002070: .word 0x030000b3 # 0x30000b3
+.L0x00002074: .word 0x0101003c # 0x101003c
+.L0x00002078: .word 0x03260323 # 0x3260323
+.L0x0000207c: .word 0x030000b3 # 0x30000b3
+.L0x00002080: .word 0x0101001e # 0x101001e
+.L0x00002084: .word 0x000100b3 # 0x100b3
+.L0x00002088: .word 0x03020000 # 0x3020000
+.L0x0000208c: .word 0x030000b3 # 0x30000b3
+.L0x00002090: .word 0x0200001e # 0x200001e
+.L0x00002094: .word 0x000b0000 # sll $zr, $t3, 0x0
+.L0x00002098: .word 0x000200b3 # 0x200b3
+.L0x0000209c: .word 0x03000301 # 0x3000301
+.L0x000020a0: .word 0x0200001e # 0x200001e
+.L0x000020a4: .word 0x000c0000 # sll $zr, $t4, 0x0
+.L0x000020a8: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x000020ac: .word 0x00020101 # 0x20101
+.L0x000020b0: .word 0x00040007 # srav $zr, $a0, $zr
+.L0x000020b4: .word 0x01010301 # 0x1010301
+.L0x000020b8: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x000020bc: .word 0x03000004 # sllv $zr, $zr, $t8
+.L0x000020c0: .word 0x0200001e # 0x200001e
+.L0x000020c4: .word 0x000d0000 # sll $zr, $t5, 0x0
+.L0x000020c8: .word 0x000200b3 # 0x200b3
+.L0x000020cc: .word 0x03000301 # 0x3000301
+.L0x000020d0: .word 0x0200001e # 0x200001e
+.L0x000020d4: .word 0x000e0000 # sll $zr, $t6, 0x0
+.L0x000020d8: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x000020dc: .word 0x00020101 # 0x20101
+.L0x000020e0: .word 0x00040007 # srav $zr, $a0, $zr
+.L0x000020e4: .word 0x01010301 # 0x1010301
+.L0x000020e8: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x000020ec: .word 0x03000004 # sllv $zr, $zr, $t8
+.L0x000020f0: .word 0x0200001e # 0x200001e
+.L0x000020f4: .word 0x000f0000 # sll $zr, $t7, 0x0
+.L0x000020f8: .word 0x000200b3 # 0x200b3
+.L0x000020fc: .word 0x03000301 # 0x3000301
+.L0x00002100: .word 0x0200001e # 0x200001e
+.L0x00002104: .word 0x00100000 # sll $zr, $s0, 0x0
+.L0x00002108: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x0000210c: .word 0x00020101 # 0x20101
+.L0x00002110: .word 0x00040007 # srav $zr, $a0, $zr
+.L0x00002114: .word 0x01010301 # 0x1010301
+.L0x00002118: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x0000211c: .word 0x03000004 # sllv $zr, $zr, $t8
+.L0x00002120: .word 0x0200001e # 0x200001e
+.L0x00002124: .word 0x00110000 # sll $zr, $s1, 0x0
+.L0x00002128: .word 0x000200b3 # 0x200b3
+.L0x0000212c: .word 0x03000301 # 0x3000301
+.L0x00002130: .word 0x0101001e # 0x101001e
+.L0x00002134: .word 0x00010002 # srl $zr, $at, 0x0
+.L0x00002138: .word 0x01010000 # 0x1010000
+.L0x0000213c: .word 0x000100b3 # 0x100b3
+.L0x00002140: .word 0x03000005 # 0x3000005
+.L0x00002144: .word 0x0102001e # 0x102001e
+.L0x00002148: .word 0x011a0002 # 0x11a0002
+.L0x0000214c: .word 0x00000130 # 0x130
+.L0x00002150: .word 0x00b30102 # 0xb30102
+.L0x00002154: .word 0x00c4014a # 0xc4014a
+.L0x00002158: .word 0x03020005 # 0x3020005
+.L0x0000215c: .word 0x01020002 # 0x1020002
+.L0x00002160: .word 0x009a0002 # 0x9a0002
+.L0x00002164: .word 0x00010170 # 0x10170
+.L0x00002168: .word 0x00b30102 # 0xb30102
+.L0x0000216c: .word 0x00a4018a # 0xa4018a
+.L0x00002170: .word 0x01010005 # 0x1010005
+.L0x00002174: .word 0x034f032d # 0x34f032d
+.L0x00002178: .word 0x03000002 # 0x3000002
+.L0x0000217c: .word 0x0304000c # syscall 0xc1000
+.L0x00002180: .word 0x03e80200 # 0x3e80200
+.L0x00002184: .word 0x000100ec # 0x100ec
+.L0x00002188: .word 0x00000000 # nop
+.L0x0000218c: .word 0x003c0300 # 0x3c0300
+.L0x00002190: .word 0x00000200 # sll $zr, 0x8
+.L0x00002194: .word 0x00200001 # 0x200001
+.L0x00002198: .word 0x03010002 # 0x3010002
+.L0x0000219c: .word 0x001e0300 # sll $zr, $s8, 0xc
+.L0x000021a0: .word 0x00000000 # nop
+.L0x000021a4: .word 0x0000001c # 0x1c
+.L0x000021a8: .word 0x0000001b # divu $zr, $zr, $zr
+.L0x000021ac: .word 0x00000019 # multu $zr, $zr
+.L0x000021b0: .word 0x00000024 # and $zr, $zr
+.L0x000021b4: .word 0x00000000 # nop
+.L0x000021b8: .word 0x00000000 # nop
+.L0x000021bc: .word 0x60040000 # 0x60040000
+.L0x000021c0: .word 0x00000000 # nop
+.L0x000021c4: .word 0x00000000 # nop
+.L0x000021c8: .word 0x60040000 # 0x60040000
+.L0x000021cc: .word 0x00000000 # nop
+.L0x000021d0: .word 0x00000000 # nop
+.L0x000021d4: .word 0x60040000 # 0x60040000
+.L0x000021d8: .word 0x00000000 # nop
+.L0x000021dc: .word 0x00000000 # nop
+.L0x000021e0: .word 0x60040000 # 0x60040000
+.L0x000021e4: .word 0x00000000 # nop
+.L0x000021e8: .word 0x00000000 # nop
+.L0x000021ec: .word 0x60040000 # 0x60040000
+.L0x000021f0: .word 0x00000000 # nop
+.L0x000021f4: .word 0x00000000 # nop
+.L0x000021f8: .word 0x60040000 # 0x60040000
+.L0x000021fc: .word 0x00000000 # nop
+.L0x00002200: .word 0x00000000 # nop
+.L0x00002204: .word 0x60040000 # 0x60040000
+.L0x00002208: .word 0x00000000 # nop
+.L0x0000220c: .word 0x00000000 # nop
+.L0x00002210: .word 0x60040000 # 0x60040000
+.L0x00002214: .word 0x00000000 # nop
+.L0x00002218: .word 0x800a7f94 # lb $t2, 0x7f94($zr)
+.L0x0000221c: .word 0x800a7fa0 # lb $t2, 0x7fa0($zr)
+.L0x00002220: .word 0x800a7fac # lb $t2, 0x7fac($zr)
+.L0x00002224: .word 0x800a7fb8 # lb $t2, 0x7fb8($zr)
+.L0x00002228: .word 0x800a7fc4 # lb $t2, 0x7fc4($zr)
+.L0x0000222c: .word 0x800a7fd0 # lb $t2, 0x7fd0($zr)
+.L0x00002230: .word 0x800a7fdc # lb $t2, 0x7fdc($zr)
+.L0x00002234: .word 0x800a7fe8 # lb $t2, 0x7fe8($zr)
+.L0x00002238: .word 0x00000000 # nop
+.L0x0000223c: .word 0x00000000 # nop
+.L0x00002240: .word 0x60040000 # 0x60040000
+.L0x00002244: .word 0x00000000 # nop
+.L0x00002248: .word 0x00000000 # nop
+.L0x0000224c: .word 0x60040000 # 0x60040000
+.L0x00002250: .word 0x00000000 # nop
+.L0x00002254: .word 0x00000000 # nop
+.L0x00002258: .word 0x60040000 # 0x60040000
+.L0x0000225c: .word 0x00000000 # nop
+.L0x00002260: .word 0x00000000 # nop
+.L0x00002264: .word 0x60040000 # 0x60040000
+.L0x00002268: .word 0x00000000 # nop
+.L0x0000226c: .word 0x00000000 # nop
+.L0x00002270: .word 0x60040000 # 0x60040000
+.L0x00002274: .word 0x00000000 # nop
+.L0x00002278: .word 0x00000000 # nop
+.L0x0000227c: .word 0x60040000 # 0x60040000
+.L0x00002280: .word 0x00000000 # nop
+.L0x00002284: .word 0x00000000 # nop
+.L0x00002288: .word 0x60040000 # 0x60040000
+.L0x0000228c: .word 0x00000000 # nop
+.L0x00002290: .word 0x00000000 # nop
+.L0x00002294: .word 0x60040000 # 0x60040000
+.L0x00002298: .word 0x00000000 # nop
+.L0x0000229c: .word 0x800a8018 # lb $t2, -0x7fe8($zr)
+.L0x000022a0: .word 0x800a8024 # lb $t2, -0x7fdc($zr)
+.L0x000022a4: .word 0x800a8030 # lb $t2, -0x7fd0($zr)
+.L0x000022a8: .word 0x800a803c # lb $t2, -0x7fc4($zr)
+.L0x000022ac: .word 0x800a8048 # lb $t2, -0x7fb8($zr)
+.L0x000022b0: .word 0x800a8054 # lb $t2, -0x7fac($zr)
+.L0x000022b4: .word 0x800a8060 # lb $t2, -0x7fa0($zr)
+.L0x000022b8: .word 0x800a806c # lb $t2, -0x7f94($zr)
+.L0x000022bc: .word 0x00000000 # nop
+.L0x000022c0: .word 0x00000000 # nop
+.L0x000022c4: .word 0x60040000 # 0x60040000
+.L0x000022c8: .word 0x00000000 # nop
+.L0x000022cc: .word 0x00000000 # nop
+.L0x000022d0: .word 0x60040000 # 0x60040000
+.L0x000022d4: .word 0x00000000 # nop
+.L0x000022d8: .word 0x00000000 # nop
+.L0x000022dc: .word 0x60040000 # 0x60040000
+.L0x000022e0: .word 0x00000000 # nop
+.L0x000022e4: .word 0x00000000 # nop
+.L0x000022e8: .word 0x60040000 # 0x60040000
+.L0x000022ec: .word 0x00000000 # nop
+.L0x000022f0: .word 0x00000000 # nop
+.L0x000022f4: .word 0x60040000 # 0x60040000
+.L0x000022f8: .word 0x00000000 # nop
+.L0x000022fc: .word 0x00000000 # nop
+.L0x00002300: .word 0x60040000 # 0x60040000
+.L0x00002304: .word 0x00000000 # nop
+.L0x00002308: .word 0x00000000 # nop
+.L0x0000230c: .word 0x60040000 # 0x60040000
+.L0x00002310: .word 0x00000000 # nop
+.L0x00002314: .word 0x00000000 # nop
+.L0x00002318: .word 0x60040000 # 0x60040000
+.L0x0000231c: .word 0x00000000 # nop
+.L0x00002320: .word 0x800a809c # lb $t2, -0x7f64($zr)
+.L0x00002324: .word 0x800a80a8 # lb $t2, -0x7f58($zr)
+.L0x00002328: .word 0x800a80b4 # lb $t2, -0x7f4c($zr)
+.L0x0000232c: .word 0x800a80c0 # lb $t2, -0x7f40($zr)
+.L0x00002330: .word 0x800a80cc # lb $t2, -0x7f34($zr)
+.L0x00002334: .word 0x800a80d8 # lb $t2, -0x7f28($zr)
+.L0x00002338: .word 0x800a80e4 # lb $t2, -0x7f1c($zr)
+.L0x0000233c: .word 0x800a80f0 # lb $t2, -0x7f10($zr)
+.L0x00002340: .word 0x000000bc # 0xbc
+.L0x00002344: .word 0x0000000f # 0xf
+.L0x00002348: .word 0x60080000 # 0x60080000
+.L0x0000234c: .word 0x00000000 # nop
+.L0x00002350: .word 0x00000000 # nop
+.L0x00002354: .word 0x60040000 # 0x60040000
+.L0x00002358: .word 0x00000000 # nop
+.L0x0000235c: .word 0x00000000 # nop
+.L0x00002360: .word 0x60040000 # 0x60040000
+.L0x00002364: .word 0x00000000 # nop
+.L0x00002368: .word 0x00000000 # nop
+.L0x0000236c: .word 0x60040000 # 0x60040000
+.L0x00002370: .word 0x00000000 # nop
+.L0x00002374: .word 0x00000000 # nop
+.L0x00002378: .word 0x60040000 # 0x60040000
+.L0x0000237c: .word 0x00000000 # nop
+.L0x00002380: .word 0x00000000 # nop
+.L0x00002384: .word 0x60040000 # 0x60040000
+.L0x00002388: .word 0x00000000 # nop
+.L0x0000238c: .word 0x00000000 # nop
+.L0x00002390: .word 0x60040000 # 0x60040000
+.L0x00002394: .word 0x00000000 # nop
+.L0x00002398: .word 0x00000000 # nop
+.L0x0000239c: .word 0x60040000 # 0x60040000
+.L0x000023a0: .word 0x00000000 # nop
+.L0x000023a4: .word 0x800a8120 # lb $t2, -0x7ee0($zr)
+.L0x000023a8: .word 0x800a812c # lb $t2, -0x7ed4($zr)
+.L0x000023ac: .word 0x800a8138 # lb $t2, -0x7ec8($zr)
+.L0x000023b0: .word 0x800a8144 # lb $t2, -0x7ebc($zr)
+.L0x000023b4: .word 0x800a8150 # lb $t2, -0x7eb0($zr)
+.L0x000023b8: .word 0x800a815c # lb $t2, -0x7ea4($zr)
+.L0x000023bc: .word 0x800a8168 # lb $t2, -0x7e98($zr)
+.L0x000023c0: .word 0x800a8174 # lb $t2, -0x7e8c($zr)
+.L0x000023c4: .word 0x00000084 # 0x84
+.L0x000023c8: .word 0x00000000 # nop
+.L0x000023cc: .word 0x00000000 # nop
+.L0x000023d0: .word 0x800a7ff4 # lb $t2, 0x7ff4($zr)
+.L0x000023d4: .word 0x800a8078 # lb $t2, -0x7f88($zr)
+.L0x000023d8: .word 0x800a80fc # lb $t2, -0x7f04($zr)
+.L0x000023dc: .word 0x800a8180 # lb $t2, -0x7e80($zr)
+.L0x000023e0: .word 0x01000200 # 0x1000200
+.L0x000023e4: .word 0x01a6021c # 0x1a6021c
+.L0x000023e8: .word 0x00a60070 # 0xa60070
+.L0x000023ec: .word 0x01fe0230 # 0x1fe0230
+.L0x000023f0: .word 0x01000200 # 0x1000200
+.L0x000023f4: .word 0x01000200 # 0x1000200
+.L0x000023f8: .word 0x00000000 # nop
+.L0x000023fc: .word 0x01fe0220 # 0x1fe0220
+.L0x00002400: .word 0x01000200 # 0x1000200
+.L0x00002404: .word 0x01380216 # 0x1380216
+.L0x00002408: .word 0x00380058 # 0x380058
+.L0x0000240c: .word 0x01fd0200 # 0x1fd0200
+.L0x00002410: .word 0x01000200 # 0x1000200
+.L0x00002414: .word 0x01bc0208 # 0x1bc0208
+.L0x00002418: .word 0x00bc0020 # add $zr, $a1, $gp
+.L0x0000241c: .word 0x01fd0210 # 0x1fd0210
+.L0x00002420: .word 0x01000200 # 0x1000200
+.L0x00002424: .word 0x01bc0210 # 0x1bc0210
+.L0x00002428: .word 0x00bc0040 # 0xbc0040
+.L0x0000242c: .word 0x01fd0220 # 0x1fd0220
+.L0x00002430: .word 0x01000200 # 0x1000200
+.L0x00002434: .word 0x01bc0200 # 0x1bc0200
+.L0x00002438: .word 0x00bc0000 # 0xbc0000
+.L0x0000243c: .word 0x01fd0230 # 0x1fd0230
+.L0x00002440: .word 0x01000180 # 0x1000180
+.L0x00002444: .word 0x010001b4 # 0x10001b4
+.L0x00002448: .word 0x000001d0 # 0x1d0
+.L0x0000244c: .word 0x01f80170 # 0x1f80170
+.L0x00002450: .word 0x010001c0 # 0x10001c0
+.L0x00002454: .word 0x016e01e8 # 0x16e01e8
+.L0x00002458: .word 0x006e02a0 # 0x6e02a0
+.L0x0000245c: .word 0x01f70140 # 0x1f70140
+.L0x00002460: .word 0x01000140 # 0x1000140
+.L0x00002464: .word 0x01390178 # 0x1390178
+.L0x00002468: .word 0x003900e0 # 0x3900e0
+.L0x0000246c: .word 0x01f70150 # 0x1f70150
+.L0x00002470: .word 0x01000180 # 0x1000180
+.L0x00002474: .word 0x01b901b6 # 0x1b901b6
+.L0x00002478: .word 0x00b901d8 # 0xb901d8
+.L0x0000247c: .word 0x01f70160 # 0x1f70160
+.L0x00002480: .word 0x010001c0 # 0x10001c0
+.L0x00002484: .word 0x016e01e0 # 0x16e01e0
+.L0x00002488: .word 0x006e0280 # 0x6e0280
+.L0x0000248c: .word 0x01f70170 # 0x1f70170
+.L0x00002490: .word 0x010001c0 # 0x10001c0
+.L0x00002494: .word 0x016e01c0 # 0x16e01c0
+.L0x00002498: .word 0x006e0200 # 0x6e0200
+.L0x0000249c: .word 0x01f60140 # 0x1f60140
+.L0x000024a0: .word 0x01000180 # 0x1000180
+.L0x000024a4: .word 0x01a001a0 # 0x1a001a0
+.L0x000024a8: .word 0x00a00180 # 0xa00180
+.L0x000024ac: .word 0x01f60150 # 0x1f60150
+.L0x000024b0: .word 0x01000180 # 0x1000180
+.L0x000024b4: .word 0x01c801a0 # 0x1c801a0
+.L0x000024b8: .word 0x00c80180 # 0xc80180
+.L0x000024bc: .word 0x01f60160 # 0x1f60160
+.L0x000024c0: .word 0x010001c0 # 0x10001c0
+.L0x000024c4: .word 0x016e01d8 # 0x16e01d8
+.L0x000024c8: .word 0x006e0260 # 0x6e0260
+.L0x000024cc: .word 0x01f60170 # 0x1f60170
+.L0x000024d0: .word 0x010001c0 # 0x10001c0
+.L0x000024d4: .word 0x016e01c8 # 0x16e01c8
+.L0x000024d8: .word 0x006e0220 # 0x6e0220
+.L0x000024dc: .word 0x01f50140 # 0x1f50140
+.L0x000024e0: .word 0x010001c0 # 0x10001c0
+.L0x000024e4: .word 0x019601c8 # 0x19601c8
+.L0x000024e8: .word 0x00960220 # 0x960220
+.L0x000024ec: .word 0x01f50160 # 0x1f50160
+.L0x000024f0: .word 0x010001c0 # 0x10001c0
+.L0x000024f4: .word 0x01b601e8 # 0x1b601e8
+.L0x000024f8: .word 0x00b602a0 # 0xb602a0
+.L0x000024fc: .word 0x01f50170 # 0x1f50170
+.L0x00002500: .word 0x00000000 # nop
+.L0x00002504: .word 0x00000000 # nop
+.L0x00002508: .word 0x00000000 # nop
+.L0x0000250c: .word 0x00000000 # nop
+.L0x00002510: .word 0x00000000 # nop
+.L0x00002514: .word 0x00000000 # nop
+.L0x00002518: .word 0x00000000 # nop
+.L0x0000251c: .word 0x00000000 # nop
+.L0x00002520: .word 0x010001c0 # 0x10001c0
+.L0x00002524: .word 0x019601d0 # 0x19601d0
+.L0x00002528: .word 0x00960240 # 0x960240
+.L0x0000252c: .word 0x01f40140 # 0x1f40140
+.L0x00002530: .word 0x010001c0 # 0x10001c0
+.L0x00002534: .word 0x019601d8 # 0x19601d8
+.L0x00002538: .word 0x00960260 # 0x960260
+.L0x0000253c: .word 0x01f40150 # 0x1f40150
+.L0x00002540: .word 0x010001c0 # 0x10001c0
+.L0x00002544: .word 0x019601e0 # 0x19601e0
+.L0x00002548: .word 0x00960280 # 0x960280
+.L0x0000254c: .word 0x01f40160 # 0x1f40160
+.L0x00002550: .word 0x01000140 # 0x1000140
+.L0x00002554: .word 0x01390170 # 0x1390170
+.L0x00002558: .word 0x003900c0 # 0x3900c0
+.L0x0000255c: .word 0x01f40170 # 0x1f40170
+.L0x00002560: .word 0x010001c0 # 0x10001c0
+.L0x00002564: .word 0x01b601c0 # 0x1b601c0
+.L0x00002568: .word 0x00b60200 # 0xb60200
+.L0x0000256c: .word 0x01f30150 # 0x1f30150
+.L0x00002570: .word 0x010001c0 # 0x10001c0
+.L0x00002574: .word 0x01b601c8 # 0x1b601c8
+.L0x00002578: .word 0x00b60220 # 0xb60220
+.L0x0000257c: .word 0x01f30160 # 0x1f30160
+.L0x00002580: .word 0x010001c0 # 0x10001c0
+.L0x00002584: .word 0x01b601d0 # 0x1b601d0
+.L0x00002588: .word 0x00b60240 # 0xb60240
+.L0x0000258c: .word 0x01f30170 # 0x1f30170
+.L0x00002590: .word 0x010001c0 # 0x10001c0
+.L0x00002594: .word 0x01b601d8 # 0x1b601d8
+.L0x00002598: .word 0x00b60260 # 0xb60260
+.L0x0000259c: .word 0x01f20140 # 0x1f20140
+.L0x000025a0: .word 0x00000000 # nop
+.L0x000025a4: .word 0x00000000 # nop
+.L0x000025a8: .word 0x00000000 # nop
+.L0x000025ac: .word 0x00000000 # nop
+.L0x000025b0: .word 0x00000000 # nop
+.L0x000025b4: .word 0x00000000 # nop
+.L0x000025b8: .word 0x00000000 # nop
+.L0x000025bc: .word 0x00000000 # nop
+.L0x000025c0: .word 0x01000140 # 0x1000140
+.L0x000025c4: .word 0x01390168 # 0x1390168
+.L0x000025c8: .word 0x003900a0 # 0x3900a0
+.L0x000025cc: .word 0x01f20150 # 0x1f20150
+.L0x000025d0: .word 0x00001a00 # sll $v1, $zr, 0x8
+.L0x000025d4: .word 0x0000ffff # 0xffff
+.L0x000025d8: .word 0x00011a00 # sll $v1, $at, 0x8
+.L0x000025dc: .word 0x0000ffff # 0xffff
+.L0x000025e0: .word 0x00011a00 # sll $v1, $at, 0x8
+.L0x000025e4: .word 0x0000ffff # 0xffff
+.L0x000025e8: .word 0x00019004 # sllv $s2, $at, $zr
+.L0x000025ec: .word 0x0000ffff # 0xffff
+.L0x000025f0: .word 0x0001901a # 0x1901a
+.L0x000025f4: .word 0x0000ffff # 0xffff
+.L0x000025f8: .word 0x0001901a # 0x1901a
+.L0x000025fc: .word 0x0000ffff # 0xffff
+.L0x00002600: .word 0x0001901a # 0x1901a
+.L0x00002604: .word 0x0000ffff # 0xffff
+.L0x00002608: .word 0x00001a00 # sll $v1, $zr, 0x8
+.L0x0000260c: .word 0x0000ffff # 0xffff
+.L0x00002610: .word 0x00011a00 # sll $v1, $at, 0x8
+.L0x00002614: .word 0x0000ffff # 0xffff
+.L0x00002618: .word 0x00011a00 # sll $v1, $at, 0x8
+.L0x0000261c: .word 0x0000ffff # 0xffff
+.L0x00002620: .word 0x00019003 # sra $s2, $at, 0x0
+.L0x00002624: .word 0x0000ffff # 0xffff
+.L0x00002628: .word 0x00019003 # sra $s2, $at, 0x0
+.L0x0000262c: .word 0x0000ffff # 0xffff
+.L0x00002630: .word 0x00019003 # sra $s2, $at, 0x0
+.L0x00002634: .word 0x0000ffff # 0xffff
+.L0x00002638: .word 0x00009003 # sra $s2, $zr, 0x0
+.L0x0000263c: .word 0x0000ffff # 0xffff
+.L0x00002640: .word 0x00001a16 # 0x1a16
+.L0x00002644: .word 0x0000ffff # 0xffff
+.L0x00002648: .word 0x00011a16 # 0x11a16
+.L0x0000264c: .word 0x0000ffff # 0xffff
+.L0x00002650: .word 0x00011a16 # 0x11a16
+.L0x00002654: .word 0x0000ffff # 0xffff
+.L0x00002658: .word 0x800a83b0 # lb $t2, -0x7c50($zr)
+.L0x0000265c: .word 0x800a83b8 # lb $t2, -0x7c48($zr)
+.L0x00002660: .word 0x00000067 # 0x67
+.L0x00002664: .word 0x800a83c0 # lb $t2, -0x7c40($zr)
+.L0x00002668: .word 0x800a83c8 # lb $t2, -0x7c38($zr)
+.L0x0000266c: .word 0x00000486 # 0x486
+.L0x00002670: .word 0x00000000 # nop
+.L0x00002674: .word 0x00000000 # nop
+.L0x00002678: .word 0x00000000 # nop
+.L0x0000267c: .word 0x00000000 # nop
+.L0x00002680: .word 0x800a83d0 # lb $t2, -0x7c30($zr)
+.L0x00002684: .word 0x00000067 # 0x67
+.L0x00002688: .word 0x00000000 # nop
+.L0x0000268c: .word 0x00000000 # nop
+.L0x00002690: .word 0x00000000 # nop
+.L0x00002694: .word 0x00000000 # nop
+.L0x00002698: .word 0x800a83d8 # lb $t2, -0x7c28($zr)
+.L0x0000269c: .word 0x00000429 # 0x429
+.L0x000026a0: .word 0x00000000 # nop
+.L0x000026a4: .word 0x00000000 # nop
+.L0x000026a8: .word 0x00000000 # nop
+.L0x000026ac: .word 0x00000000 # nop
+.L0x000026b0: .word 0x800a83e0 # lb $t2, -0x7c20($zr)
+.L0x000026b4: .word 0x0000042b # 0x42b
+.L0x000026b8: .word 0x00000000 # nop
+.L0x000026bc: .word 0x00000000 # nop
+.L0x000026c0: .word 0x00000000 # nop
+.L0x000026c4: .word 0x800a83e8 # lb $t2, -0x7c18($zr)
+.L0x000026c8: .word 0x800a83f0 # lb $t2, -0x7c10($zr)
+.L0x000026cc: .word 0x00000066 # 0x66
+.L0x000026d0: .word 0x800a83f8 # lb $t2, -0x7c08($zr)
+.L0x000026d4: .word 0x800a8400 # lb $t2, -0x7c00($zr)
+.L0x000026d8: .word 0x00000034 # 0x34
+.L0x000026dc: .word 0x00000000 # nop
+.L0x000026e0: .word 0x00000000 # nop
+.L0x000026e4: .word 0x00000000 # nop
+.L0x000026e8: .word 0x00000000 # nop
+.L0x000026ec: .word 0x800a8408 # lb $t2, -0x7bf8($zr)
+.L0x000026f0: .word 0x00000034 # 0x34
+.L0x000026f4: .word 0x00000000 # nop
+.L0x000026f8: .word 0x00000000 # nop
+.L0x000026fc: .word 0x00000000 # nop
+.L0x00002700: .word 0x00000000 # nop
+.L0x00002704: .word 0x800a8410 # lb $t2, -0x7bf0($zr)
+.L0x00002708: .word 0x00000035 # 0x35
+.L0x0000270c: .word 0x00000000 # nop
+.L0x00002710: .word 0x00000000 # nop
+.L0x00002714: .word 0x00000000 # nop
+.L0x00002718: .word 0x00000000 # nop
+.L0x0000271c: .word 0x800a8418 # lb $t2, -0x7be8($zr)
+.L0x00002720: .word 0x00000037 # 0x37
+.L0x00002724: .word 0x00000000 # nop
+.L0x00002728: .word 0x00000000 # nop
+.L0x0000272c: .word 0x00000000 # nop
+.L0x00002730: .word 0x00000000 # nop
+.L0x00002734: .word 0x00000000 # nop
+.L0x00002738: .word 0x00000011 # mthi $zr
+.L0x0000273c: .word 0x00000000 # nop
+.L0x00002740: .word 0x00000000 # nop
+.L0x00002744: .word 0x00000000 # nop
+.L0x00002748: .word 0x00000000 # nop
+.L0x0000274c: .word 0x00000000 # nop
+.L0x00002750: .word 0x00000149 # 0x149
+.L0x00002754: .word 0x00000000 # nop
+.L0x00002758: .word 0x00000000 # nop
+.L0x0000275c: .word 0x00000000 # nop
+.L0x00002760: .word 0x00000000 # nop
+.L0x00002764: .word 0x00000000 # nop
+.L0x00002768: .word 0x000001a4 # 0x1a4
+.L0x0000276c: .word 0x00000000 # nop
+.L0x00002770: .word 0x00000000 # nop
+.L0x00002774: .word 0x00000000 # nop
+.L0x00002778: .word 0x00000000 # nop
+.L0x0000277c: .word 0x00000000 # nop
+.L0x00002780: .word 0x000001a6 # 0x1a6
+.L0x00002784: .word 0x00000000 # nop
+.L0x00002788: .word 0x00000000 # nop
+.L0x0000278c: .word 0x00000000 # nop
+.L0x00002790: .word 0x00000000 # nop
+.L0x00002794: .word 0x00000000 # nop
+.L0x00002798: .word 0x000001a5 # 0x1a5
+.L0x0000279c: .word 0x00000000 # nop
+.L0x000027a0: .word 0x00000000 # nop
+.L0x000027a4: .word 0x00000000 # nop
+.L0x000027a8: .word 0x00000000 # nop
+.L0x000027ac: .word 0x00000000 # nop
+.L0x000027b0: .word 0x000001a7 # 0x1a7
+.L0x000027b4: .word 0x00000000 # nop
+.L0x000027b8: .word 0x00000000 # nop
+.L0x000027bc: .word 0x00000000 # nop
+.L0x000027c0: .word 0x00000000 # nop
+.L0x000027c4: .word 0x00000000 # nop
+.L0x000027c8: .word 0x000001a8 # 0x1a8
+.L0x000027cc: .word 0x00000000 # nop
+.L0x000027d0: .word 0x00000000 # nop
+.L0x000027d4: .word 0x00000000 # nop
+.L0x000027d8: .word 0x00000000 # nop
+.L0x000027dc: .word 0x00000000 # nop
+.L0x000027e0: .word 0x000001a9 # 0x1a9
+.L0x000027e4: .word 0x00000000 # nop
+.L0x000027e8: .word 0x00000000 # nop
+.L0x000027ec: .word 0x00000000 # nop
+.L0x000027f0: .word 0x00000000 # nop
+.L0x000027f4: .word 0x00000000 # nop
+.L0x000027f8: .word 0x000001ae # 0x1ae
+.L0x000027fc: .word 0x00000000 # nop
+.L0x00002800: .word 0x00000000 # nop
+.L0x00002804: .word 0x00000000 # nop
+.L0x00002808: .word 0x00000000 # nop
+.L0x0000280c: .word 0x00000000 # nop
+.L0x00002810: .word 0x000001aa # 0x1aa
+.L0x00002814: .word 0x00000000 # nop
+.L0x00002818: .word 0x00000000 # nop
+.L0x0000281c: .word 0x00000000 # nop
+.L0x00002820: .word 0x00000000 # nop
+.L0x00002824: .word 0x00000000 # nop
+.L0x00002828: .word 0x000001ab # 0x1ab
+.L0x0000282c: .word 0x00000000 # nop
+.L0x00002830: .word 0x00000000 # nop
+.L0x00002834: .word 0x00000000 # nop
+.L0x00002838: .word 0x00000000 # nop
+.L0x0000283c: .word 0x00000000 # nop
+.L0x00002840: .word 0x000001ac # 0x1ac
+.L0x00002844: .word 0x00000000 # nop
+.L0x00002848: .word 0x00000000 # nop
+.L0x0000284c: .word 0x00000000 # nop
+.L0x00002850: .word 0x00000000 # nop
+.L0x00002854: .word 0x00000000 # nop
+.L0x00002858: .word 0x0000000e # 0xe
+.L0x0000285c: .word 0x00000000 # nop
+.L0x00002860: .word 0x00000000 # nop
+.L0x00002864: .word 0x00000000 # nop
+.L0x00002868: .word 0x00000000 # nop
+.L0x0000286c: .word 0x00000000 # nop
+.L0x00002870: .word 0x00000148 # 0x148
+.L0x00002874: .word 0x00000000 # nop
+.L0x00002878: .word 0x00000000 # nop
+.L0x0000287c: .word 0x00000000 # nop
+.L0x00002880: .word 0x00000000 # nop
+.L0x00002884: .word 0x00000000 # nop
+.L0x00002888: .word 0x00000199 # 0x199
+.L0x0000288c: .word 0x00000000 # nop
+.L0x00002890: .word 0x00000000 # nop
+.L0x00002894: .word 0x00000000 # nop
+.L0x00002898: .word 0x00000000 # nop
+.L0x0000289c: .word 0x00000000 # nop
+.L0x000028a0: .word 0x00000010 # mfhi $zr
+.L0x000028a4: .word 0x00000000 # nop
+.L0x000028a8: .word 0x00000000 # nop
+.L0x000028ac: .word 0x00000000 # nop
+.L0x000028b0: .word 0x00000000 # nop
+.L0x000028b4: .word 0x00000000 # nop
+.L0x000028b8: .word 0x00000147 # 0x147
+.L0x000028bc: .word 0x00000000 # nop
+.L0x000028c0: .word 0x00000000 # nop
+.L0x000028c4: .word 0x00000000 # nop
+.L0x000028c8: .word 0x00000000 # nop
+.L0x000028cc: .word 0x00000000 # nop
+.L0x000028d0: .word 0x0000018e # 0x18e
+.L0x000028d4: .word 0x00000000 # nop
+.L0x000028d8: .word 0x00000000 # nop
+.L0x000028dc: .word 0x00000000 # nop
+.L0x000028e0: .word 0x00000000 # nop
+.L0x000028e4: .word 0x00000000 # nop
+.L0x000028e8: .word 0x0000000d # break
+.L0x000028ec: .word 0x00000000 # nop
+.L0x000028f0: .word 0x00000000 # nop
+.L0x000028f4: .word 0x00000000 # nop
+.L0x000028f8: .word 0x00000000 # nop
+.L0x000028fc: .word 0x00000000 # nop
+.L0x00002900: .word 0x0000014b # 0x14b
+.L0x00002904: .word 0x00000000 # nop
+.L0x00002908: .word 0x00000000 # nop
+.L0x0000290c: .word 0x00000000 # nop
+.L0x00002910: .word 0x00000000 # nop
+.L0x00002914: .word 0x00000000 # nop
+.L0x00002918: .word 0x000001ba # 0x1ba
+.L0x0000291c: .word 0x00000000 # nop
+.L0x00002920: .word 0x00000000 # nop
+.L0x00002924: .word 0x00000000 # nop
+.L0x00002928: .word 0x00000000 # nop
+.L0x0000292c: .word 0x00000000 # nop
+.L0x00002930: .word 0x000001bc # 0x1bc
+.L0x00002934: .word 0x00000000 # nop
+.L0x00002938: .word 0x00000000 # nop
+.L0x0000293c: .word 0x00000000 # nop
+.L0x00002940: .word 0x00000000 # nop
+.L0x00002944: .word 0x00000000 # nop
+.L0x00002948: .word 0x000001bb # 0x1bb
+.L0x0000294c: .word 0x00000000 # nop
+.L0x00002950: .word 0x00000000 # nop
+.L0x00002954: .word 0x00000000 # nop
+.L0x00002958: .word 0x00000000 # nop
+.L0x0000295c: .word 0x00000000 # nop
+.L0x00002960: .word 0x000001bd # 0x1bd
+.L0x00002964: .word 0x00000000 # nop
+.L0x00002968: .word 0x00000000 # nop
+.L0x0000296c: .word 0x00000000 # nop
+.L0x00002970: .word 0x00000000 # nop
+.L0x00002974: .word 0x00000000 # nop
+.L0x00002978: .word 0x000001be # 0x1be
+.L0x0000297c: .word 0x00000000 # nop
+.L0x00002980: .word 0x00000000 # nop
+.L0x00002984: .word 0x00000000 # nop
+.L0x00002988: .word 0x00000000 # nop
+.L0x0000298c: .word 0x00000000 # nop
+.L0x00002990: .word 0x000001bf # 0x1bf
+.L0x00002994: .word 0x00000000 # nop
+.L0x00002998: .word 0x00000000 # nop
+.L0x0000299c: .word 0x00000000 # nop
+.L0x000029a0: .word 0x00000000 # nop
+.L0x000029a4: .word 0x00000000 # nop
+.L0x000029a8: .word 0x000001c4 # 0x1c4
+.L0x000029ac: .word 0x00000000 # nop
+.L0x000029b0: .word 0x00000000 # nop
+.L0x000029b4: .word 0x00000000 # nop
+.L0x000029b8: .word 0x00000000 # nop
+.L0x000029bc: .word 0x00000000 # nop
+.L0x000029c0: .word 0x000001c0 # sll $zr, 0x7
+.L0x000029c4: .word 0x00000000 # nop
+.L0x000029c8: .word 0x00000000 # nop
+.L0x000029cc: .word 0x00000000 # nop
+.L0x000029d0: .word 0x00000000 # nop
+.L0x000029d4: .word 0x00000000 # nop
+.L0x000029d8: .word 0x000001c1 # 0x1c1
+.L0x000029dc: .word 0x00000000 # nop
+.L0x000029e0: .word 0x00000000 # nop
+.L0x000029e4: .word 0x00000000 # nop
+.L0x000029e8: .word 0x00000000 # nop
+.L0x000029ec: .word 0x00000000 # nop
+.L0x000029f0: .word 0x000001c2 # srl $zr, 0x7
+.L0x000029f4: .word 0x00000000 # nop
+.L0x000029f8: .word 0x00000000 # nop
+.L0x000029fc: .word 0x00000000 # nop
+.L0x00002a00: .word 0x00000000 # nop
+.L0x00002a04: .word 0x00000000 # nop
+.L0x00002a08: .word 0x000000f0 # 0xf0
+.L0x00002a0c: .word 0x00000000 # nop
+.L0x00002a10: .word 0x00000000 # nop
+.L0x00002a14: .word 0x00000000 # nop
+.L0x00002a18: .word 0x00000000 # nop
+.L0x00002a1c: .word 0x00000000 # nop
+.L0x00002a20: .word 0x0000014c # syscall 0x5
+.L0x00002a24: .word 0x00000000 # nop
+.L0x00002a28: .word 0x00000000 # nop
+.L0x00002a2c: .word 0x00000000 # nop
+.L0x00002a30: .word 0x00000000 # nop
+.L0x00002a34: .word 0x00000000 # nop
+.L0x00002a38: .word 0x000001c5 # 0x1c5
+.L0x00002a3c: .word 0x00000000 # nop
+.L0x00002a40: .word 0x00000000 # nop
+.L0x00002a44: .word 0x00000000 # nop
+.L0x00002a48: .word 0x00000000 # nop
+.L0x00002a4c: .word 0x00000000 # nop
+.L0x00002a50: .word 0x000000ef # 0xef
+.L0x00002a54: .word 0x00000000 # nop
+.L0x00002a58: .word 0x00000000 # nop
+.L0x00002a5c: .word 0x00000000 # nop
+.L0x00002a60: .word 0x00000000 # nop
+.L0x00002a64: .word 0x00000000 # nop
+.L0x00002a68: .word 0x0000014a # 0x14a
+.L0x00002a6c: .word 0x00000000 # nop
+.L0x00002a70: .word 0x00000000 # nop
+.L0x00002a74: .word 0x00000000 # nop
+.L0x00002a78: .word 0x00000000 # nop
+.L0x00002a7c: .word 0x00000000 # nop
+.L0x00002a80: .word 0x000001af # 0x1af
+.L0x00002a84: .word 0x00000000 # nop
+.L0x00002a88: .word 0x00000000 # nop
+.L0x00002a8c: .word 0x00000000 # nop
+.L0x00002a90: .word 0x00000000 # nop
+.L0x00002a94: .word 0x00000000 # nop
+.L0x00002a98: .word 0x000001d1 # 0x1d1
+.L0x00002a9c: .word 0x00000000 # nop
+.L0x00002aa0: .word 0x00000000 # nop
+.L0x00002aa4: .word 0x00000000 # nop
+.L0x00002aa8: .word 0x00000000 # nop
+.L0x00002aac: .word 0x00000000 # nop
+.L0x00002ab0: .word 0x000001d3 # 0x1d3
+.L0x00002ab4: .word 0x00000000 # nop
+.L0x00002ab8: .word 0x00000000 # nop
+.L0x00002abc: .word 0x00000000 # nop
+.L0x00002ac0: .word 0x00000000 # nop
+.L0x00002ac4: .word 0x00000000 # nop
+.L0x00002ac8: .word 0x000001d4 # 0x1d4
+.L0x00002acc: .word 0x00000000 # nop
+.L0x00002ad0: .word 0x00000000 # nop
+.L0x00002ad4: .word 0x00000000 # nop
+.L0x00002ad8: .word 0x00000000 # nop
+.L0x00002adc: .word 0x00000000 # nop
+.L0x00002ae0: .word 0x000001d2 # 0x1d2
+.L0x00002ae4: .word 0x00000000 # nop
+.L0x00002ae8: .word 0x00000000 # nop
+.L0x00002aec: .word 0x00000000 # nop
+.L0x00002af0: .word 0x00000000 # nop
+.L0x00002af4: .word 0x00000000 # nop
+.L0x00002af8: .word 0x000001d5 # 0x1d5
+.L0x00002afc: .word 0x00000000 # nop
+.L0x00002b00: .word 0x00000000 # nop
+.L0x00002b04: .word 0x00000000 # nop
+.L0x00002b08: .word 0x00000000 # nop
+.L0x00002b0c: .word 0x00000000 # nop
+.L0x00002b10: .word 0x000001da # 0x1da
+.L0x00002b14: .word 0x00000000 # nop
+.L0x00002b18: .word 0x00000000 # nop
+.L0x00002b1c: .word 0x00000000 # nop
+.L0x00002b20: .word 0x00000000 # nop
+.L0x00002b24: .word 0x00000000 # nop
+.L0x00002b28: .word 0x000001d6 # 0x1d6
+.L0x00002b2c: .word 0x00000000 # nop
+.L0x00002b30: .word 0x00000000 # nop
+.L0x00002b34: .word 0x00000000 # nop
+.L0x00002b38: .word 0x00000000 # nop
+.L0x00002b3c: .word 0x00000000 # nop
+.L0x00002b40: .word 0x000001d7 # 0x1d7
+.L0x00002b44: .word 0x00000000 # nop
+.L0x00002b48: .word 0x00000000 # nop
+.L0x00002b4c: .word 0x00000000 # nop
+.L0x00002b50: .word 0x00000000 # nop
+.L0x00002b54: .word 0x00000000 # nop
+.L0x00002b58: .word 0x000001d8 # 0x1d8
+.L0x00002b5c: .word 0x00000000 # nop
+.L0x00002b60: .word 0x00000000 # nop
+.L0x00002b64: .word 0x00000000 # nop
+.L0x00002b68: .word 0x00000000 # nop
+.L0x00002b6c: .word 0x00000000 # nop
+.L0x00002b70: .word 0x000001de # 0x1de
+.L0x00002b74: .word 0x00000000 # nop
+.L0x00002b78: .word 0x00000000 # nop
+.L0x00002b7c: .word 0x00000000 # nop
+.L0x00002b80: .word 0x00000000 # nop
+.L0x00002b84: .word 0x00000000 # nop
+.L0x00002b88: .word 0x000001df # 0x1df
+.L0x00002b8c: .word 0x00000000 # nop
+.L0x00002b90: .word 0x00000000 # nop
+.L0x00002b94: .word 0x00000000 # nop
+.L0x00002b98: .word 0x00000000 # nop
+.L0x00002b9c: .word 0x00000000 # nop
+.L0x00002ba0: .word 0x000001dd # 0x1dd
+.L0x00002ba4: .word 0x00000000 # nop
+.L0x00002ba8: .word 0x00000000 # nop
+.L0x00002bac: .word 0x00000000 # nop
+.L0x00002bb0: .word 0x00000000 # nop
+.L0x00002bb4: .word 0x00000000 # nop
+.L0x00002bb8: .word 0x000001dc # 0x1dc
+.L0x00002bbc: .word 0x00000000 # nop
+.L0x00002bc0: .word 0x00000000 # nop
+.L0x00002bc4: .word 0x00000000 # nop
+.L0x00002bc8: .word 0x00000000 # nop
+.L0x00002bcc: .word 0x00000000 # nop
+.L0x00002bd0: .word 0x000001e0 # 0x1e0
+.L0x00002bd4: .word 0x00000000 # nop
+.L0x00002bd8: .word 0x00000000 # nop
+.L0x00002bdc: .word 0x00000000 # nop
+.L0x00002be0: .word 0x00000000 # nop
+.L0x00002be4: .word 0x00000000 # nop
+.L0x00002be8: .word 0x000001e5 # 0x1e5
+.L0x00002bec: .word 0x00000000 # nop
+.L0x00002bf0: .word 0x00000000 # nop
+.L0x00002bf4: .word 0x00000000 # nop
+.L0x00002bf8: .word 0x00000000 # nop
+.L0x00002bfc: .word 0x00000000 # nop
+.L0x00002c00: .word 0x000001e1 # 0x1e1
+.L0x00002c04: .word 0x00000000 # nop
+.L0x00002c08: .word 0x00000000 # nop
+.L0x00002c0c: .word 0x00000000 # nop
+.L0x00002c10: .word 0x00000000 # nop
+.L0x00002c14: .word 0x00000000 # nop
+.L0x00002c18: .word 0x000001e2 # 0x1e2
+.L0x00002c1c: .word 0x00000000 # nop
+.L0x00002c20: .word 0x00000000 # nop
+.L0x00002c24: .word 0x00000000 # nop
+.L0x00002c28: .word 0x00000000 # nop
+.L0x00002c2c: .word 0x00000000 # nop
+.L0x00002c30: .word 0x000001e3 # 0x1e3
+.L0x00002c34: .word 0x00000000 # nop
+.L0x00002c38: .word 0x00000000 # nop
+.L0x00002c3c: .word 0x00000000 # nop
+.L0x00002c40: .word 0x00000000 # nop
+.L0x00002c44: .word 0x00000000 # nop
+.L0x00002c48: .word 0x0000042a # 0x42a
+.L0x00002c4c: .word 0x00000000 # nop
+.L0x00002c50: .word 0x00000000 # nop
+.L0x00002c54: .word 0x00000000 # nop
+.L0x00002c58: .word 0x00000000 # nop
+.L0x00002c5c: .word 0x00000000 # nop
+.L0x00002c60: .word 0x00000036 # 0x36
+.L0x00002c64: .word 0x00000000 # nop
+.L0x00002c68: .word 0x00000000 # nop
+.L0x00002c6c: .word 0x00000000 # nop
+.L0x00002c70: .word 0x00000000 # nop
+.L0x00002c74: .word 0x00000000 # nop
+.L0x00002c78: .word 0x000001ad # 0x1ad
+.L0x00002c7c: .word 0x00000000 # nop
+.L0x00002c80: .word 0x00000000 # nop
+.L0x00002c84: .word 0x00000000 # nop
+.L0x00002c88: .word 0x00000000 # nop
+.L0x00002c8c: .word 0x00000000 # nop
+.L0x00002c90: .word 0x000001c3 # sra $zr, 0x7
+.L0x00002c94: .word 0x00000000 # nop
+.L0x00002c98: .word 0x00000000 # nop
+.L0x00002c9c: .word 0x00000000 # nop
+.L0x00002ca0: .word 0x00000000 # nop
+.L0x00002ca4: .word 0x00000000 # nop
+.L0x00002ca8: .word 0x000001d9 # 0x1d9
+.L0x00002cac: .word 0x00000000 # nop
+.L0x00002cb0: .word 0x00000000 # nop
+.L0x00002cb4: .word 0x00000000 # nop
+.L0x00002cb8: .word 0x00000000 # nop
+.L0x00002cbc: .word 0x00000000 # nop
+.L0x00002cc0: .word 0x000001e4 # 0x1e4
+.L0x00002cc4: .word 0x00000000 # nop
+.L0x00002cc8: .word 0x00000000 # nop
+.L0x00002ccc: .word 0x00000000 # nop
+.L0x00002cd0: .word 0x800a8420 # lb $t2, -0x7be0($zr)
+.L0x00002cd4: .word 0x800a8428 # lb $t2, -0x7bd8($zr)
+.L0x00002cd8: .word 0x0000004f # 0x4f
+.L0x00002cdc: .word 0x800a8430 # lb $t2, -0x7bd0($zr)
+.L0x00002ce0: .word 0x00000000 # nop
+.L0x00002ce4: .word 0x00000488 # 0x488
+.L0x00002ce8: .word 0x00000000 # nop
+.L0x00002cec: .word 0x00000000 # nop
+.L0x00002cf0: .word 0x00000000 # nop
+.L0x00002cf4: .word 0x00000000 # nop
+.L0x00002cf8: .word 0x00000000 # nop
+.L0x00002cfc: .word 0x000002a4 # 0x2a4
+.L0x00002d00: .word 0x00000000 # nop
+.L0x00002d04: .word 0x00000000 # nop
+.L0x00002d08: .word 0x00000000 # nop
+.L0x00002d0c: .word 0x00000000 # nop
+.L0x00002d10: .word 0x00000000 # nop
+.L0x00002d14: .word 0x000002a3 # 0x2a3
+.L0x00002d18: .word 0x00000000 # nop
+.L0x00002d1c: .word 0x00000000 # nop
+.L0x00002d20: .word 0x00000000 # nop
+.L0x00002d24: .word 0x00000000 # nop
+.L0x00002d28: .word 0x00000000 # nop
+.L0x00002d2c: .word 0x00000038 # 0x38
+.L0x00002d30: .word 0x00000000 # nop
+.L0x00002d34: .word 0x00000000 # nop
+.L0x00002d38: .word 0x00000000 # nop
+.L0x00002d3c: .word 0x00000000 # nop
+.L0x00002d40: .word 0x00000000 # nop
+.L0x00002d44: .word 0x0000003a # 0x3a
+.L0x00002d48: .word 0x00000000 # nop
+.L0x00002d4c: .word 0x00000000 # nop
+.L0x00002d50: .word 0x00000000 # nop
+.L0x00002d54: .word 0x00000000 # nop
+.L0x00002d58: .word 0x00000000 # nop
+.L0x00002d5c: .word 0x0000003b # 0x3b
+.L0x00002d60: .word 0x00000000 # nop
+.L0x00002d64: .word 0x00000000 # nop
+.L0x00002d68: .word 0x00000000 # nop
+.L0x00002d6c: .word 0x00000000 # nop
+.L0x00002d70: .word 0x00000000 # nop
+.L0x00002d74: .word 0x00000039 # 0x39
+.L0x00002d78: .word 0x00000000 # nop
+.L0x00002d7c: .word 0x00000000 # nop
+.L0x00002d80: .word 0x00000000 # nop
+.L0x00002d84: .word 0x00000000 # nop
+.L0x00002d88: .word 0x00000000 # nop
+.L0x00002d8c: .word 0x0000003c # 0x3c
+.L0x00002d90: .word 0x00000000 # nop
+.L0x00002d94: .word 0x00000000 # nop
+.L0x00002d98: .word 0x00000000 # nop
+.L0x00002d9c: .word 0x00000000 # nop
+.L0x00002da0: .word 0x00000000 # nop
+.L0x00002da4: .word 0x0000003d # 0x3d
+.L0x00002da8: .word 0x00000000 # nop
+.L0x00002dac: .word 0x00000000 # nop
+.L0x00002db0: .word 0x00000000 # nop
+.L0x00002db4: .word 0x00000000 # nop
+.L0x00002db8: .word 0x00000000 # nop
+.L0x00002dbc: .word 0x00000041 # 0x41
+.L0x00002dc0: .word 0x00000000 # nop
+.L0x00002dc4: .word 0x00000000 # nop
+.L0x00002dc8: .word 0x00000000 # nop
+.L0x00002dcc: .word 0x00000000 # nop
+.L0x00002dd0: .word 0x00000000 # nop
+.L0x00002dd4: .word 0x0000003e # 0x3e
+.L0x00002dd8: .word 0x00000000 # nop
+.L0x00002ddc: .word 0x00000000 # nop
+.L0x00002de0: .word 0x00000000 # nop
+.L0x00002de4: .word 0x00000000 # nop
+.L0x00002de8: .word 0x00000000 # nop
+.L0x00002dec: .word 0x0000003f # 0x3f
+.L0x00002df0: .word 0x00000000 # nop
+.L0x00002df4: .word 0x00000000 # nop
+.L0x00002df8: .word 0x00000000 # nop
+.L0x00002dfc: .word 0x00000000 # nop
+.L0x00002e00: .word 0x00000000 # nop
+.L0x00002e04: .word 0x00000040 # ssnop
+.L0x00002e08: .word 0x00000000 # nop
+.L0x00002e0c: .word 0x00000000 # nop
+.L0x00002e10: .word 0x00000000 # nop
+.L0x00002e14: .word 0x00016002 # srl $t4, $at, 0x0
+.L0x00002e18: .word 0x0000ffff # 0xffff
+.L0x00002e1c: .word 0x00017022 # neg $t6, $at
+.L0x00002e20: .word 0x00006016 # 0x6016
+.L0x00002e24: .word 0x0000ffff # 0xffff
+.L0x00002e28: .word 0x00016016 # 0x16016
+.L0x00002e2c: .word 0x0000ffff # 0xffff
+.L0x00002e30: .word 0x0001602b # sltu $t4, $zr, $at
+.L0x00002e34: .word 0x0000ffff # 0xffff
+.L0x00002e38: .word 0x00016002 # srl $t4, $at, 0x0
+.L0x00002e3c: .word 0x0000ffff # 0xffff
+.L0x00002e40: .word 0x00017022 # neg $t6, $at
+.L0x00002e44: .word 0x00006016 # 0x6016
+.L0x00002e48: .word 0x0000ffff # 0xffff
+.L0x00002e4c: .word 0x00016016 # 0x16016
+.L0x00002e50: .word 0x0000ffff # 0xffff
+.L0x00002e54: .word 0x0001602b # sltu $t4, $zr, $at
+.L0x00002e58: .word 0x0000ffff # 0xffff
+.L0x00002e5c: .word 0x00016002 # srl $t4, $at, 0x0
+.L0x00002e60: .word 0x0000ffff # 0xffff
+.L0x00002e64: .word 0x00016004 # sllv $t4, $at, $zr
+.L0x00002e68: .word 0x0000ffff # 0xffff
+.L0x00002e6c: .word 0x00017015 # 0x17015
+.L0x00002e70: .word 0x0000ffff # 0xffff
+.L0x00002e74: .word 0x0001600d # break 0x1, 0x180
+.L0x00002e78: .word 0x0000ffff # 0xffff
+.L0x00002e7c: .word 0x0001600c # syscall 0x580
+.L0x00002e80: .word 0x0000ffff # 0xffff
+.L0x00002e84: .word 0x0001600e # 0x1600e
+.L0x00002e88: .word 0x0000ffff # 0xffff
+.L0x00002e8c: .word 0x00017016 # 0x17016
+.L0x00002e90: .word 0x0000ffff # 0xffff
+.L0x00002e94: .word 0x00016016 # 0x16016
+.L0x00002e98: .word 0x0000ffff # 0xffff
+.L0x00002e9c: .word 0x0001602b # sltu $t4, $zr, $at
+.L0x00002ea0: .word 0x0000ffff # 0xffff
+.L0x00002ea4: .word 0x00017018 # 0x17018
+.L0x00002ea8: .word 0x0000ffff # 0xffff
+.L0x00002eac: .word 0x00017019 # 0x17019
+.L0x00002eb0: .word 0x0000ffff # 0xffff
+.L0x00002eb4: .word 0x00016026 # xor $t4, $zr, $at
+.L0x00002eb8: .word 0x0000ffff # 0xffff
+.L0x00002ebc: .word 0x00016017 # 0x16017
+.L0x00002ec0: .word 0x0000ffff # 0xffff
+.L0x00002ec4: .word 0x00016002 # srl $t4, $at, 0x0
+.L0x00002ec8: .word 0x0000ffff # 0xffff
+.L0x00002ecc: .word 0x00016004 # sllv $t4, $at, $zr
+.L0x00002ed0: .word 0x0000ffff # 0xffff
+.L0x00002ed4: .word 0x00017015 # 0x17015
+.L0x00002ed8: .word 0x0000ffff # 0xffff
+.L0x00002edc: .word 0x00016002 # srl $t4, $at, 0x0
+.L0x00002ee0: .word 0x00008000 # sll $s0, $zr, 0x0
+.L0x00002ee4: .word 0x0000ffff # 0xffff
+.L0x00002ee8: .word 0x00016004 # sllv $t4, $at, $zr
+.L0x00002eec: .word 0x0000ffff # 0xffff
+.L0x00002ef0: .word 0x00017015 # 0x17015
+.L0x00002ef4: .word 0x0000ffff # 0xffff
+.L0x00002ef8: .word 0x00016002 # srl $t4, $at, 0x0
+.L0x00002efc: .word 0x0000ffff # 0xffff
+.L0x00002f00: .word 0x00016004 # sllv $t4, $at, $zr
+.L0x00002f04: .word 0x0000ffff # 0xffff
+.L0x00002f08: .word 0x00017015 # 0x17015
+.L0x00002f0c: .word 0x0000ffff # 0xffff
+.L0x00002f10: .word 0x0001600d # break 0x1, 0x180
+.L0x00002f14: .word 0x0000ffff # 0xffff
+.L0x00002f18: .word 0x0001600c # syscall 0x580
+.L0x00002f1c: .word 0x0000ffff # 0xffff
+.L0x00002f20: .word 0x0001600e # 0x1600e
+.L0x00002f24: .word 0x0000ffff # 0xffff
+.L0x00002f28: .word 0x00017016 # 0x17016
+.L0x00002f2c: .word 0x0000ffff # 0xffff
+.L0x00002f30: .word 0x00016016 # 0x16016
+.L0x00002f34: .word 0x0000ffff # 0xffff
+.L0x00002f38: .word 0x0001602b # sltu $t4, $zr, $at
+.L0x00002f3c: .word 0x0000ffff # 0xffff
+.L0x00002f40: .word 0x00017018 # 0x17018
+.L0x00002f44: .word 0x0000ffff # 0xffff
+.L0x00002f48: .word 0x00017019 # 0x17019
+.L0x00002f4c: .word 0x0000ffff # 0xffff
+.L0x00002f50: .word 0x00016026 # xor $t4, $zr, $at
+.L0x00002f54: .word 0x0000ffff # 0xffff
+.L0x00002f58: .word 0x00016017 # 0x16017
+.L0x00002f5c: .word 0x0000ffff # 0xffff
+.L0x00002f60: .word 0x00016002 # srl $t4, $at, 0x0
+.L0x00002f64: .word 0x0000ffff # 0xffff
+.L0x00002f68: .word 0x00016004 # sllv $t4, $at, $zr
+.L0x00002f6c: .word 0x0000ffff # 0xffff
+.L0x00002f70: .word 0x00017015 # 0x17015
+.L0x00002f74: .word 0x0000ffff # 0xffff
+.L0x00002f78: .word 0x00016002 # srl $t4, $at, 0x0
+.L0x00002f7c: .word 0x0000ffff # 0xffff
+.L0x00002f80: .word 0x00016004 # sllv $t4, $at, $zr
+.L0x00002f84: .word 0x0000ffff # 0xffff
+.L0x00002f88: .word 0x00017015 # 0x17015
+.L0x00002f8c: .word 0x0000ffff # 0xffff
+.L0x00002f90: .word 0x0001600c # syscall 0x580
+.L0x00002f94: .word 0x0000ffff # 0xffff
+.L0x00002f98: .word 0x0001600e # 0x1600e
+.L0x00002f9c: .word 0x0000ffff # 0xffff
+.L0x00002fa0: .word 0x00017016 # 0x17016
+.L0x00002fa4: .word 0x0000ffff # 0xffff
+.L0x00002fa8: .word 0x0001600d # break 0x1, 0x180
+.L0x00002fac: .word 0x0000ffff # 0xffff
+.L0x00002fb0: .word 0x00016016 # 0x16016
+.L0x00002fb4: .word 0x0000ffff # 0xffff
+.L0x00002fb8: .word 0x0001602b # sltu $t4, $zr, $at
+.L0x00002fbc: .word 0x0000ffff # 0xffff
+.L0x00002fc0: .word 0x00017018 # 0x17018
+.L0x00002fc4: .word 0x0000ffff # 0xffff
+.L0x00002fc8: .word 0x00017019 # 0x17019
+.L0x00002fcc: .word 0x0000ffff # 0xffff
+.L0x00002fd0: .word 0x00016026 # xor $t4, $zr, $at
+.L0x00002fd4: .word 0x0000ffff # 0xffff
+.L0x00002fd8: .word 0x00016017 # 0x16017
+.L0x00002fdc: .word 0x0000ffff # 0xffff
+.L0x00002fe0: .word 0x0001600e # 0x1600e
+.L0x00002fe4: .word 0x0000ffff # 0xffff
+.L0x00002fe8: .word 0x00017016 # 0x17016
+.L0x00002fec: .word 0x0000ffff # 0xffff
+.L0x00002ff0: .word 0x0001600d # break 0x1, 0x180
+.L0x00002ff4: .word 0x0000ffff # 0xffff
+.L0x00002ff8: .word 0x0001600c # syscall 0x580
+.L0x00002ffc: .word 0x0000ffff # 0xffff
+.L0x00003000: .word 0x00016016 # 0x16016
+.L0x00003004: .word 0x0000ffff # 0xffff
+.L0x00003008: .word 0x0001602b # sltu $t4, $zr, $at
+.L0x0000300c: .word 0x0000ffff # 0xffff
+.L0x00003010: .word 0x00017018 # 0x17018
+.L0x00003014: .word 0x0000ffff # 0xffff
+.L0x00003018: .word 0x00017019 # 0x17019
+.L0x0000301c: .word 0x0000ffff # 0xffff
+.L0x00003020: .word 0x00016026 # xor $t4, $zr, $at
+.L0x00003024: .word 0x0000ffff # 0xffff
+.L0x00003028: .word 0x00016017 # 0x16017
+.L0x0000302c: .word 0x0000ffff # 0xffff
+.L0x00003030: .word 0x0001600d # break 0x1, 0x180
+.L0x00003034: .word 0x00001c0d # break 0x0, 0x70
+.L0x00003038: .word 0x0000ffff # 0xffff
+.L0x0000303c: .word 0x0001600d # break 0x1, 0x180
+.L0x00003040: .word 0x00001c0d # break 0x0, 0x70
+.L0x00003044: .word 0x0000ffff # 0xffff
+.L0x00003048: .word 0x00017009 # 0x17009
+.L0x0000304c: .word 0x0000701a # 0x701a
+.L0x00003050: .word 0x0000ffff # 0xffff
+.L0x00003054: .word 0x00016002 # srl $t4, $at, 0x0
+.L0x00003058: .word 0x0000ffff # 0xffff
+.L0x0000305c: .word 0x00017009 # 0x17009
+.L0x00003060: .word 0x0000701a # 0x701a
+.L0x00003064: .word 0x0000ffff # 0xffff
+.L0x00003068: .word 0x00016002 # srl $t4, $at, 0x0
+.L0x0000306c: .word 0x0000ffff # 0xffff
+.L0x00003070: .word 0x0001701a # 0x1701a
+.L0x00003074: .word 0x0000ffff # 0xffff
+.L0x00003078: .word 0x0001701a # 0x1701a
+.L0x0000307c: .word 0x0000ffff # 0xffff
+.L0x00003080: .word 0x0001701a # 0x1701a
+.L0x00003084: .word 0x0000ffff # 0xffff
+.L0x00003088: .word 0x0001701a # 0x1701a
+.L0x0000308c: .word 0x0000ffff # 0xffff
+.L0x00003090: .word 0x0001701a # 0x1701a
+.L0x00003094: .word 0x0000ffff # 0xffff
+.L0x00003098: .word 0x0001701a # 0x1701a
+.L0x0000309c: .word 0x0000ffff # 0xffff
+.L0x000030a0: .word 0x00011a15 # 0x11a15
+.L0x000030a4: .word 0x0001600c # syscall 0x580
+.L0x000030a8: .word 0x0000800f # 0x800f
+.L0x000030ac: .word 0x0000ffff # 0xffff
+.L0x000030b0: .word 0x0001600d # break 0x1, 0x180
+.L0x000030b4: .word 0x00011c0d # break 0x1, 0x70
+.L0x000030b8: .word 0x0000ffff # 0xffff
+.L0x000030bc: .word 0x00016004 # sllv $t4, $at, $zr
+.L0x000030c0: .word 0x0000ffff # 0xffff
+.L0x000030c4: .word 0x00016004 # sllv $t4, $at, $zr
+.L0x000030c8: .word 0x0000ffff # 0xffff
+.L0x000030cc: .word 0x00016017 # 0x16017
+.L0x000030d0: .word 0x0000ffff # 0xffff
+.L0x000030d4: .word 0x0001701a # 0x1701a
+.L0x000030d8: .word 0x0000ffff # 0xffff
+.L0x000030dc: .word 0x0001701a # 0x1701a
+.L0x000030e0: .word 0x0000ffff # 0xffff
+.L0x000030e4: .word 0x0001600c # syscall 0x580
+.L0x000030e8: .word 0x0000ffff # 0xffff
+.L0x000030ec: .word 0x0001600e # 0x1600e
+.L0x000030f0: .word 0x0000ffff # 0xffff
+.L0x000030f4: .word 0x00017016 # 0x17016
+.L0x000030f8: .word 0x0000ffff # 0xffff
+.L0x000030fc: .word 0x0001600d # break 0x1, 0x180
+.L0x00003100: .word 0x0000ffff # 0xffff
+.L0x00003104: .word 0x00016016 # 0x16016
+.L0x00003108: .word 0x0000ffff # 0xffff
+.L0x0000310c: .word 0x00017018 # 0x17018
+.L0x00003110: .word 0x0000ffff # 0xffff
+.L0x00003114: .word 0x0001602b # sltu $t4, $zr, $at
+.L0x00003118: .word 0x0000ffff # 0xffff
+.L0x0000311c: .word 0x00017019 # 0x17019
+.L0x00003120: .word 0x0000ffff # 0xffff
+.L0x00003124: .word 0x00016026 # xor $t4, $zr, $at
+.L0x00003128: .word 0x0000ffff # 0xffff
+.L0x0000312c: .word 0x0001701a # 0x1701a
+.L0x00003130: .word 0x0000ffff # 0xffff
+.L0x00003134: .word 0x00016017 # 0x16017
+.L0x00003138: .word 0x0000ffff # 0xffff
+.L0x0000313c: .word 0x800a8bf4 # lb $t2, -0x740c($zr)
+.L0x00003140: .word 0x800a8438 # lb $t2, -0x7bc8($zr)
+.L0x00003144: .word 0x00040020 # add $zr, $a0
+.L0x00003148: .word 0x00ff0180 # 0xff0180
+.L0x0000314c: .word 0x00000001 # 0x1
+.L0x00003150: .word 0x800a8bfc # lb $t2, -0x7404($zr)
+.L0x00003154: .word 0x800a845c # lb $t2, -0x7ba4($zr)
+.L0x00003158: .word 0x00040020 # add $zr, $a0
+.L0x0000315c: .word 0x00ff0180 # 0xff0180
+.L0x00003160: .word 0x00000001 # 0x1
+.L0x00003164: .word 0x800a8c08 # lb $t2, -0x73f8($zr)
+.L0x00003168: .word 0x800a8474 # lb $t2, -0x7b8c($zr)
+.L0x0000316c: .word 0x00040020 # add $zr, $a0
+.L0x00003170: .word 0x00ff0180 # 0xff0180
+.L0x00003174: .word 0x00000001 # 0x1
+.L0x00003178: .word 0x800a8c10 # lb $t2, -0x73f0($zr)
+.L0x0000317c: .word 0x800a848c # lb $t2, -0x7b74($zr)
+.L0x00003180: .word 0x00040020 # add $zr, $a0
+.L0x00003184: .word 0x00ff0180 # 0xff0180
+.L0x00003188: .word 0x00000001 # 0x1
+.L0x0000318c: .word 0x800a8c18 # lb $t2, -0x73e8($zr)
+.L0x00003190: .word 0x800a84a4 # lb $t2, -0x7b5c($zr)
+.L0x00003194: .word 0x00050024 # and $zr, $a1
+.L0x00003198: .word 0x00f701b2 # 0xf701b2
+.L0x0000319c: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x000031a0: .word 0x800a8c20 # lb $t2, -0x73e0($zr)
+.L0x000031a4: .word 0x800a84c8 # lb $t2, -0x7b38($zr)
+.L0x000031a8: .word 0x00050024 # and $zr, $a1
+.L0x000031ac: .word 0x00f701b2 # 0xf701b2
+.L0x000031b0: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x000031b4: .word 0x800a8c2c # lb $t2, -0x73d4($zr)
+.L0x000031b8: .word 0x800a84e0 # lb $t2, -0x7b20($zr)
+.L0x000031bc: .word 0x00050024 # and $zr, $a1
+.L0x000031c0: .word 0x00f701b2 # 0xf701b2
+.L0x000031c4: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x000031c8: .word 0x800a8c34 # lb $t2, -0x73cc($zr)
+.L0x000031cc: .word 0x800a84f8 # lb $t2, -0x7b08($zr)
+.L0x000031d0: .word 0x00050024 # and $zr, $a1
+.L0x000031d4: .word 0x00f701b2 # 0xf701b2
+.L0x000031d8: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x000031dc: .word 0x800a8c3c # lb $t2, -0x73c4($zr)
+.L0x000031e0: .word 0x800a8510 # lb $t2, -0x7af0($zr)
+.L0x000031e4: .word 0x0006002d # 0x6002d
+.L0x000031e8: .word 0x016b02ac # 0x16b02ac
+.L0x000031ec: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x000031f0: .word 0x800a8c44 # lb $t2, -0x73bc($zr)
+.L0x000031f4: .word 0x800a8528 # lb $t2, -0x7ad8($zr)
+.L0x000031f8: .word 0x0006002d # 0x6002d
+.L0x000031fc: .word 0x016b02ac # 0x16b02ac
+.L0x00003200: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x00003204: .word 0x800a8c4c # lb $t2, -0x73b4($zr)
+.L0x00003208: .word 0x800a8540 # lb $t2, -0x7ac0($zr)
+.L0x0000320c: .word 0x0006002d # 0x6002d
+.L0x00003210: .word 0x016b02ac # 0x16b02ac
+.L0x00003214: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x00003218: .word 0x800a8c54 # lb $t2, -0x73ac($zr)
+.L0x0000321c: .word 0x800a8558 # lb $t2, -0x7aa8($zr)
+.L0x00003220: .word 0x0006002d # 0x6002d
+.L0x00003224: .word 0x016b02ac # 0x16b02ac
+.L0x00003228: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x0000322c: .word 0x800a8c5c # lb $t2, -0x73a4($zr)
+.L0x00003230: .word 0x800a8570 # lb $t2, -0x7a90($zr)
+.L0x00003234: .word 0x0006002d # 0x6002d
+.L0x00003238: .word 0x01f90211 # 0x1f90211
+.L0x0000323c: .word 0x00000005 # 0x5
+.L0x00003240: .word 0x800a8c64 # lb $t2, -0x739c($zr)
+.L0x00003244: .word 0x800a8588 # lb $t2, -0x7a78($zr)
+.L0x00003248: .word 0x0006002d # 0x6002d
+.L0x0000324c: .word 0x01f90211 # 0x1f90211
+.L0x00003250: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x00003254: .word 0x800a8c6c # lb $t2, -0x7394($zr)
+.L0x00003258: .word 0x800a85a0 # lb $t2, -0x7a60($zr)
+.L0x0000325c: .word 0x0006002d # 0x6002d
+.L0x00003260: .word 0x01f90211 # 0x1f90211
+.L0x00003264: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x00003268: .word 0x800a8c74 # lb $t2, -0x738c($zr)
+.L0x0000326c: .word 0x800a85b8 # lb $t2, -0x7a48($zr)
+.L0x00003270: .word 0x0006002d # 0x6002d
+.L0x00003274: .word 0x01f90211 # 0x1f90211
+.L0x00003278: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x0000327c: .word 0x800a8c7c # lb $t2, -0x7384($zr)
+.L0x00003280: .word 0x800a85d0 # lb $t2, -0x7a30($zr)
+.L0x00003284: .word 0x0006002d # 0x6002d
+.L0x00003288: .word 0x01610131 # 0x1610131
+.L0x0000328c: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x00003290: .word 0x800a8c84 # lb $t2, -0x737c($zr)
+.L0x00003294: .word 0x800a85e8 # lb $t2, -0x7a18($zr)
+.L0x00003298: .word 0x0006002d # 0x6002d
+.L0x0000329c: .word 0x01f90211 # 0x1f90211
+.L0x000032a0: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x000032a4: .word 0x800a8c8c # lb $t2, -0x7374($zr)
+.L0x000032a8: .word 0x800a8600 # lb $t2, -0x7a00($zr)
+.L0x000032ac: .word 0x0006002d # 0x6002d
+.L0x000032b0: .word 0x01f90211 # 0x1f90211
+.L0x000032b4: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x000032b8: .word 0x800a8c94 # lb $t2, -0x736c($zr)
+.L0x000032bc: .word 0x800a8618 # lb $t2, -0x79e8($zr)
+.L0x000032c0: .word 0x0006002d # 0x6002d
+.L0x000032c4: .word 0x01f90211 # 0x1f90211
+.L0x000032c8: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x000032cc: .word 0x800a8c9c # lb $t2, -0x7364($zr)
+.L0x000032d0: .word 0x00000000 # nop
+.L0x000032d4: .word 0x0006002d # 0x6002d
+.L0x000032d8: .word 0x01f90211 # 0x1f90211
+.L0x000032dc: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x000032e0: .word 0x800a8ca4 # lb $t2, -0x735c($zr)
+.L0x000032e4: .word 0x800a8630 # lb $t2, -0x79d0($zr)
+.L0x000032e8: .word 0x0007002e # 0x7002e
+.L0x000032ec: .word 0x01670187 # 0x1670187
+.L0x000032f0: .word 0x00000001 # 0x1
+.L0x000032f4: .word 0x800a8cac # lb $t2, -0x7354($zr)
+.L0x000032f8: .word 0x800a8648 # lb $t2, -0x79b8($zr)
+.L0x000032fc: .word 0x0007002e # 0x7002e
+.L0x00003300: .word 0x01670187 # 0x1670187
+.L0x00003304: .word 0x00000001 # 0x1
+.L0x00003308: .word 0x800a8cb4 # lb $t2, -0x734c($zr)
+.L0x0000330c: .word 0x800a8660 # lb $t2, -0x79a0($zr)
+.L0x00003310: .word 0x0007002e # 0x7002e
+.L0x00003314: .word 0x01670187 # 0x1670187
+.L0x00003318: .word 0x00000001 # 0x1
+.L0x0000331c: .word 0x800a8cbc # lb $t2, -0x7344($zr)
+.L0x00003320: .word 0x800a8678 # lb $t2, -0x7988($zr)
+.L0x00003324: .word 0x0008002f # 0x8002f
+.L0x00003328: .word 0x01f50269 # 0x1f50269
+.L0x0000332c: .word 0x00000001 # 0x1
+.L0x00003330: .word 0x800a8cc8 # lb $t2, -0x7338($zr)
+.L0x00003334: .word 0x800a8690 # lb $t2, -0x7970($zr)
+.L0x00003338: .word 0x0008002f # 0x8002f
+.L0x0000333c: .word 0x01f50269 # 0x1f50269
+.L0x00003340: .word 0x00000001 # 0x1
+.L0x00003344: .word 0x800a8cd0 # lb $t2, -0x7330($zr)
+.L0x00003348: .word 0x800a86a8 # lb $t2, -0x7958($zr)
+.L0x0000334c: .word 0x0008002f # 0x8002f
+.L0x00003350: .word 0x01f50269 # 0x1f50269
+.L0x00003354: .word 0x00000001 # 0x1
+.L0x00003358: .word 0x800a8cd8 # lb $t2, -0x7328($zr)
+.L0x0000335c: .word 0x800a86c0 # lb $t2, -0x7940($zr)
+.L0x00003360: .word 0x00090031 # 0x90031
+.L0x00003364: .word 0x00dd0169 # 0xdd0169
+.L0x00003368: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x0000336c: .word 0x800a8ce0 # lb $t2, -0x7320($zr)
+.L0x00003370: .word 0x800a86d8 # lb $t2, -0x7928($zr)
+.L0x00003374: .word 0x00090031 # 0x90031
+.L0x00003378: .word 0x00dd0169 # 0xdd0169
+.L0x0000337c: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x00003380: .word 0x800a8ce8 # lb $t2, -0x7318($zr)
+.L0x00003384: .word 0x800a86f0 # lb $t2, -0x7910($zr)
+.L0x00003388: .word 0x00090031 # 0x90031
+.L0x0000338c: .word 0x00dd0169 # 0xdd0169
+.L0x00003390: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x00003394: .word 0x800a8cf0 # lb $t2, -0x7310($zr)
+.L0x00003398: .word 0x800a8708 # lb $t2, -0x78f8($zr)
+.L0x0000339c: .word 0x00090031 # 0x90031
+.L0x000033a0: .word 0x00dd0169 # 0xdd0169
+.L0x000033a4: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x000033a8: .word 0x800a8cf8 # lb $t2, -0x7308($zr)
+.L0x000033ac: .word 0x800a8720 # lb $t2, -0x78e0($zr)
+.L0x000033b0: .word 0x00090031 # 0x90031
+.L0x000033b4: .word 0x010100c1 # 0x10100c1
+.L0x000033b8: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x000033bc: .word 0x800a8d00 # lb $t2, -0x7300($zr)
+.L0x000033c0: .word 0x800a8738 # lb $t2, -0x78c8($zr)
+.L0x000033c4: .word 0x00090031 # 0x90031
+.L0x000033c8: .word 0x010100c1 # 0x10100c1
+.L0x000033cc: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x000033d0: .word 0x800a8d08 # lb $t2, -0x72f8($zr)
+.L0x000033d4: .word 0x800a8750 # lb $t2, -0x78b0($zr)
+.L0x000033d8: .word 0x00090031 # 0x90031
+.L0x000033dc: .word 0x010100c1 # 0x10100c1
+.L0x000033e0: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x000033e4: .word 0x800a8d10 # lb $t2, -0x72f0($zr)
+.L0x000033e8: .word 0x800a8768 # lb $t2, -0x7898($zr)
+.L0x000033ec: .word 0x00090031 # 0x90031
+.L0x000033f0: .word 0x010100c1 # 0x10100c1
+.L0x000033f4: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x000033f8: .word 0x800a8d18 # lb $t2, -0x72e8($zr)
+.L0x000033fc: .word 0x800a8780 # lb $t2, -0x7880($zr)
+.L0x00003400: .word 0x00090031 # 0x90031
+.L0x00003404: .word 0x01670187 # 0x1670187
+.L0x00003408: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x0000340c: .word 0x800a8d20 # lb $t2, -0x72e0($zr)
+.L0x00003410: .word 0x800a8798 # lb $t2, -0x7868($zr)
+.L0x00003414: .word 0x00090031 # 0x90031
+.L0x00003418: .word 0x010100c1 # 0x10100c1
+.L0x0000341c: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x00003420: .word 0x800a8d28 # lb $t2, -0x72d8($zr)
+.L0x00003424: .word 0x800a87b0 # lb $t2, -0x7850($zr)
+.L0x00003428: .word 0x00090031 # 0x90031
+.L0x0000342c: .word 0x010100c1 # 0x10100c1
+.L0x00003430: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x00003434: .word 0x800a8d30 # lb $t2, -0x72d0($zr)
+.L0x00003438: .word 0x800a87c8 # lb $t2, -0x7838($zr)
+.L0x0000343c: .word 0x00090031 # 0x90031
+.L0x00003440: .word 0x010100c1 # 0x10100c1
+.L0x00003444: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x00003448: .word 0x800a8d38 # lb $t2, -0x72c8($zr)
+.L0x0000344c: .word 0x00000000 # nop
+.L0x00003450: .word 0x00090031 # 0x90031
+.L0x00003454: .word 0x010100c1 # 0x10100c1
+.L0x00003458: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x0000345c: .word 0x800a8d40 # lb $t2, -0x72c0($zr)
+.L0x00003460: .word 0x800a87e0 # lb $t2, -0x7820($zr)
+.L0x00003464: .word 0x000a0033 # 0xa0033
+.L0x00003468: .word 0x01f90211 # 0x1f90211
+.L0x0000346c: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x00003470: .word 0x800a8d48 # lb $t2, -0x72b8($zr)
+.L0x00003474: .word 0x800a87f8 # lb $t2, -0x7808($zr)
+.L0x00003478: .word 0x000a0033 # 0xa0033
+.L0x0000347c: .word 0x01f90211 # 0x1f90211
+.L0x00003480: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x00003484: .word 0x800a8d50 # lb $t2, -0x72b0($zr)
+.L0x00003488: .word 0x800a8810 # lb $t2, -0x77f0($zr)
+.L0x0000348c: .word 0x000a0033 # 0xa0033
+.L0x00003490: .word 0x01f90211 # 0x1f90211
+.L0x00003494: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x00003498: .word 0x800a8d58 # lb $t2, -0x72a8($zr)
+.L0x0000349c: .word 0x800a8828 # lb $t2, -0x77d8($zr)
+.L0x000034a0: .word 0x000b0034 # 0xb0034
+.L0x000034a4: .word 0x010100c1 # 0x10100c1
+.L0x000034a8: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x000034ac: .word 0x800a8d60 # lb $t2, -0x72a0($zr)
+.L0x000034b0: .word 0x800a8840 # lb $t2, -0x77c0($zr)
+.L0x000034b4: .word 0x000b0034 # 0xb0034
+.L0x000034b8: .word 0x010100c1 # 0x10100c1
+.L0x000034bc: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x000034c0: .word 0x800a8d68 # lb $t2, -0x7298($zr)
+.L0x000034c4: .word 0x800a8858 # lb $t2, -0x77a8($zr)
+.L0x000034c8: .word 0x000b0034 # 0xb0034
+.L0x000034cc: .word 0x010100c1 # 0x10100c1
+.L0x000034d0: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x000034d4: .word 0x800a8d70 # lb $t2, -0x7290($zr)
+.L0x000034d8: .word 0x800a8870 # lb $t2, -0x7790($zr)
+.L0x000034dc: .word 0x000c0036 # 0xc0036
+.L0x000034e0: .word 0x01330217 # 0x1330217
+.L0x000034e4: .word 0x00000001 # 0x1
+.L0x000034e8: .word 0x800a8d78 # lb $t2, -0x7288($zr)
+.L0x000034ec: .word 0x800a8888 # lb $t2, -0x7778($zr)
+.L0x000034f0: .word 0x000c0036 # 0xc0036
+.L0x000034f4: .word 0x01330217 # 0x1330217
+.L0x000034f8: .word 0x00000001 # 0x1
+.L0x000034fc: .word 0x800a8d80 # lb $t2, -0x7280($zr)
+.L0x00003500: .word 0x800a88a0 # lb $t2, -0x7760($zr)
+.L0x00003504: .word 0x000c0036 # 0xc0036
+.L0x00003508: .word 0x01330217 # 0x1330217
+.L0x0000350c: .word 0x00000001 # 0x1
+.L0x00003510: .word 0x800a8d88 # lb $t2, -0x7278($zr)
+.L0x00003514: .word 0x800a88b8 # lb $t2, -0x7748($zr)
+.L0x00003518: .word 0x000c0036 # 0xc0036
+.L0x0000351c: .word 0x01330217 # 0x1330217
+.L0x00003520: .word 0x00000001 # 0x1
+.L0x00003524: .word 0x800a8d90 # lb $t2, -0x7270($zr)
+.L0x00003528: .word 0x800a88d0 # lb $t2, -0x7730($zr)
+.L0x0000352c: .word 0x000c0036 # 0xc0036
+.L0x00003530: .word 0x01330217 # 0x1330217
+.L0x00003534: .word 0x00000001 # 0x1
+.L0x00003538: .word 0x800a8d98 # lb $t2, -0x7268($zr)
+.L0x0000353c: .word 0x800a88e8 # lb $t2, -0x7718($zr)
+.L0x00003540: .word 0x000c0036 # 0xc0036
+.L0x00003544: .word 0x010100c1 # 0x10100c1
+.L0x00003548: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x0000354c: .word 0x800a8da0 # lb $t2, -0x7260($zr)
+.L0x00003550: .word 0x800a8900 # lb $t2, -0x7700($zr)
+.L0x00003554: .word 0x000c0036 # 0xc0036
+.L0x00003558: .word 0x01330217 # 0x1330217
+.L0x0000355c: .word 0x00000001 # 0x1
+.L0x00003560: .word 0x800a8da8 # lb $t2, -0x7258($zr)
+.L0x00003564: .word 0x800a8918 # lb $t2, -0x76e8($zr)
+.L0x00003568: .word 0x000c0036 # 0xc0036
+.L0x0000356c: .word 0x01330217 # 0x1330217
+.L0x00003570: .word 0x00000001 # 0x1
+.L0x00003574: .word 0x800a8db0 # lb $t2, -0x7250($zr)
+.L0x00003578: .word 0x800a8930 # lb $t2, -0x76d0($zr)
+.L0x0000357c: .word 0x000c0036 # 0xc0036
+.L0x00003580: .word 0x01330217 # 0x1330217
+.L0x00003584: .word 0x00000001 # 0x1
+.L0x00003588: .word 0x800a8db8 # lb $t2, -0x7248($zr)
+.L0x0000358c: .word 0x00000000 # nop
+.L0x00003590: .word 0x000c0036 # 0xc0036
+.L0x00003594: .word 0x01330217 # 0x1330217
+.L0x00003598: .word 0x00000001 # 0x1
+.L0x0000359c: .word 0x800a8dc0 # lb $t2, -0x7240($zr)
+.L0x000035a0: .word 0x800a8948 # lb $t2, -0x76b8($zr)
+.L0x000035a4: .word 0x000d0037 # 0xd0037
+.L0x000035a8: .word 0x01040148 # 0x1040148
+.L0x000035ac: .word 0x00000006 # srlv $zr, $zr, $zr
+.L0x000035b0: .word 0x800a8dc8 # lb $t2, -0x7238($zr)
+.L0x000035b4: .word 0x800a8960 # lb $t2, -0x76a0($zr)
+.L0x000035b8: .word 0x000d0037 # 0xd0037
+.L0x000035bc: .word 0x01040148 # 0x1040148
+.L0x000035c0: .word 0x00000006 # srlv $zr, $zr, $zr
+.L0x000035c4: .word 0x800a8dd0 # lb $t2, -0x7230($zr)
+.L0x000035c8: .word 0x800a8978 # lb $t2, -0x7688($zr)
+.L0x000035cc: .word 0x000d0037 # 0xd0037
+.L0x000035d0: .word 0x01040148 # 0x1040148
+.L0x000035d4: .word 0x00000006 # srlv $zr, $zr, $zr
+.L0x000035d8: .word 0x800a8dd8 # lb $t2, -0x7228($zr)
+.L0x000035dc: .word 0x800a8990 # lb $t2, -0x7670($zr)
+.L0x000035e0: .word 0x000d0037 # 0xd0037
+.L0x000035e4: .word 0x01040148 # 0x1040148
+.L0x000035e8: .word 0x00000006 # srlv $zr, $zr, $zr
+.L0x000035ec: .word 0x800a8de0 # lb $t2, -0x7220($zr)
+.L0x000035f0: .word 0x800a89a8 # lb $t2, -0x7658($zr)
+.L0x000035f4: .word 0x000d0037 # 0xd0037
+.L0x000035f8: .word 0x01040148 # 0x1040148
+.L0x000035fc: .word 0x00000006 # srlv $zr, $zr, $zr
+.L0x00003600: .word 0x800a8de8 # lb $t2, -0x7218($zr)
+.L0x00003604: .word 0x800a89c0 # lb $t2, -0x7640($zr)
+.L0x00003608: .word 0x000d0037 # 0xd0037
+.L0x0000360c: .word 0x016b02ac # 0x16b02ac
+.L0x00003610: .word 0x00000003 # sra $zr, 0x0
+.L0x00003614: .word 0x800a8df0 # lb $t2, -0x7210($zr)
+.L0x00003618: .word 0x800a89d8 # lb $t2, -0x7628($zr)
+.L0x0000361c: .word 0x000d0037 # 0xd0037
+.L0x00003620: .word 0x01040148 # 0x1040148
+.L0x00003624: .word 0x00000006 # srlv $zr, $zr, $zr
+.L0x00003628: .word 0x800a8df8 # lb $t2, -0x7208($zr)
+.L0x0000362c: .word 0x800a89f0 # lb $t2, -0x7610($zr)
+.L0x00003630: .word 0x000d0037 # 0xd0037
+.L0x00003634: .word 0x01040148 # 0x1040148
+.L0x00003638: .word 0x00000006 # srlv $zr, $zr, $zr
+.L0x0000363c: .word 0x800a8e00 # lb $t2, -0x7200($zr)
+.L0x00003640: .word 0x800a8a08 # lb $t2, -0x75f8($zr)
+.L0x00003644: .word 0x000d0037 # 0xd0037
+.L0x00003648: .word 0x01040148 # 0x1040148
+.L0x0000364c: .word 0x00000006 # srlv $zr, $zr, $zr
+.L0x00003650: .word 0x800a8e08 # lb $t2, -0x71f8($zr)
+.L0x00003654: .word 0x00000000 # nop
+.L0x00003658: .word 0x000d0037 # 0xd0037
+.L0x0000365c: .word 0x01040148 # 0x1040148
+.L0x00003660: .word 0x00000006 # srlv $zr, $zr, $zr
+.L0x00003664: .word 0x800a8e10 # lb $t2, -0x71f0($zr)
+.L0x00003668: .word 0x00000000 # nop
+.L0x0000366c: .word 0x000e006a # 0xe006a
+.L0x00003670: .word 0x00000000 # nop
+.L0x00003674: .word 0x00000001 # 0x1
+.L0x00003678: .word 0x800a8e1c # lb $t2, -0x71e4($zr)
+.L0x0000367c: .word 0x00000000 # nop
+.L0x00003680: .word 0x000f006b # 0xf006b
+.L0x00003684: .word 0x00000000 # nop
+.L0x00003688: .word 0x00000001 # 0x1
+.L0x0000368c: .word 0x800a8e28 # lb $t2, -0x71d8($zr)
+.L0x00003690: .word 0x00000000 # nop
+.L0x00003694: .word 0x00100070 # 0x100070
+.L0x00003698: .word 0x010c0168 # 0x10c0168
+.L0x0000369c: .word 0x00000001 # 0x1
+.L0x000036a0: .word 0x800a8e34 # lb $t2, -0x71cc($zr)
+.L0x000036a4: .word 0x00000000 # nop
+.L0x000036a8: .word 0x00100070 # 0x100070
+.L0x000036ac: .word 0x010c0168 # 0x10c0168
+.L0x000036b0: .word 0x00000001 # 0x1
+.L0x000036b4: .word 0x800a8e3c # lb $t2, -0x71c4($zr)
+.L0x000036b8: .word 0x00000000 # nop
+.L0x000036bc: .word 0x00110071 # 0x110071
+.L0x000036c0: .word 0x00fe01c2 # 0xfe01c2
+.L0x000036c4: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x000036c8: .word 0x800a8e48 # lb $t2, -0x71b8($zr)
+.L0x000036cc: .word 0x00000000 # nop
+.L0x000036d0: .word 0x00110071 # 0x110071
+.L0x000036d4: .word 0x00fe01c2 # 0xfe01c2
+.L0x000036d8: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x000036dc: .word 0x800a8e50 # lb $t2, -0x71b0($zr)
+.L0x000036e0: .word 0x800a8a20 # lb $t2, -0x75e0($zr)
+.L0x000036e4: .word 0x0012009d # 0x12009d
+.L0x000036e8: .word 0x00ff0180 # 0xff0180
+.L0x000036ec: .word 0x00000001 # 0x1
+.L0x000036f0: .word 0x800a8e58 # lb $t2, -0x71a8($zr)
+.L0x000036f4: .word 0x800a8a38 # lb $t2, -0x75c8($zr)
+.L0x000036f8: .word 0x0013009e # 0x13009e
+.L0x000036fc: .word 0x00f701b2 # 0xf701b2
+.L0x00003700: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x00003704: .word 0x800a8e60 # lb $t2, -0x71a0($zr)
+.L0x00003708: .word 0x800a8a50 # lb $t2, -0x75b0($zr)
+.L0x0000370c: .word 0x0014009f # 0x14009f
+.L0x00003710: .word 0x01f90211 # 0x1f90211
+.L0x00003714: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x00003718: .word 0x800a8e68 # lb $t2, -0x7198($zr)
+.L0x0000371c: .word 0x800a8a68 # lb $t2, -0x7598($zr)
+.L0x00003720: .word 0x001500a0 # 0x1500a0
+.L0x00003724: .word 0x010100c1 # 0x10100c1
+.L0x00003728: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x0000372c: .word 0x800a8e70 # lb $t2, -0x7190($zr)
+.L0x00003730: .word 0x800a8a80 # lb $t2, -0x7580($zr)
+.L0x00003734: .word 0x001600a2 # 0x1600a2
+.L0x00003738: .word 0x01330217 # 0x1330217
+.L0x0000373c: .word 0x00000001 # 0x1
+.L0x00003740: .word 0x800a8e78 # lb $t2, -0x7188($zr)
+.L0x00003744: .word 0x800a8a98 # lb $t2, -0x7568($zr)
+.L0x00003748: .word 0x001700ae # 0x1700ae
+.L0x0000374c: .word 0x01040148 # 0x1040148
+.L0x00003750: .word 0x00000006 # srlv $zr, $zr, $zr
+.L0x00003754: .word 0x800a8e80 # lb $t2, -0x7180($zr)
+.L0x00003758: .word 0x800a8ab0 # lb $t2, -0x7550($zr)
+.L0x0000375c: .word 0x001800b2 # 0x1800b2
+.L0x00003760: .word 0x0127011d # 0x127011d
+.L0x00003764: .word 0x00000005 # 0x5
+.L0x00003768: .word 0x800a8e90 # lb $t2, -0x7170($zr)
+.L0x0000376c: .word 0x00000000 # nop
+.L0x00003770: .word 0x001800b2 # 0x1800b2
+.L0x00003774: .word 0x00000000 # nop
+.L0x00003778: .word 0x00000001 # 0x1
+.L0x0000377c: .word 0x800a8e9c # lb $t2, -0x7164($zr)
+.L0x00003780: .word 0x800a8ad4 # lb $t2, -0x752c($zr)
+.L0x00003784: .word 0x001800b2 # 0x1800b2
+.L0x00003788: .word 0x0127011d # 0x127011d
+.L0x0000378c: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x00003790: .word 0x800a8ea4 # lb $t2, -0x715c($zr)
+.L0x00003794: .word 0x800a8aec # lb $t2, -0x7514($zr)
+.L0x00003798: .word 0x001900b3 # 0x1900b3
+.L0x0000379c: .word 0x01310134 # 0x1310134
+.L0x000037a0: .word 0x00000003 # sra $zr, 0x0
+.L0x000037a4: .word 0x800a8eac # lb $t2, -0x7154($zr)
+.L0x000037a8: .word 0x00000000 # nop
+.L0x000037ac: .word 0x001900b3 # 0x1900b3
+.L0x000037b0: .word 0x00000000 # nop
+.L0x000037b4: .word 0x00000001 # 0x1
+.L0x000037b8: .word 0x800a8eb4 # lb $t2, -0x714c($zr)
+.L0x000037bc: .word 0x00000000 # nop
+.L0x000037c0: .word 0x001a010e # 0x1a010e
+.L0x000037c4: .word 0x010c0168 # 0x10c0168
+.L0x000037c8: .word 0x00000001 # 0x1
+.L0x000037cc: .word 0x800a8ebc # lb $t2, -0x7144($zr)
+.L0x000037d0: .word 0x00000000 # nop
+.L0x000037d4: .word 0x001b010f # 0x1b010f
+.L0x000037d8: .word 0x00fe01c2 # 0xfe01c2
+.L0x000037dc: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x000037e0: .word 0x800a8ec4 # lb $t2, -0x713c($zr)
+.L0x000037e4: .word 0x800a8b04 # lb $t2, -0x74fc($zr)
+.L0x000037e8: .word 0x001c0175 # 0x1c0175
+.L0x000037ec: .word 0x01610131 # 0x1610131
+.L0x000037f0: .word 0x00000005 # 0x5
+.L0x000037f4: .word 0x800a8ecc # lb $t2, -0x7134($zr)
+.L0x000037f8: .word 0x800a8b1c # lb $t2, -0x74e4($zr)
+.L0x000037fc: .word 0x001c0175 # 0x1c0175
+.L0x00003800: .word 0x01610131 # 0x1610131
+.L0x00003804: .word 0x00000005 # 0x5
+.L0x00003808: .word 0x800a8ed4 # lb $t2, -0x712c($zr)
+.L0x0000380c: .word 0x800a8b34 # lb $t2, -0x74cc($zr)
+.L0x00003810: .word 0x001c0175 # 0x1c0175
+.L0x00003814: .word 0x01610131 # 0x1610131
+.L0x00003818: .word 0x00000005 # 0x5
+.L0x0000381c: .word 0x800a8edc # lb $t2, -0x7124($zr)
+.L0x00003820: .word 0x800a8b4c # lb $t2, -0x74b4($zr)
+.L0x00003824: .word 0x001c0175 # 0x1c0175
+.L0x00003828: .word 0x01610131 # 0x1610131
+.L0x0000382c: .word 0x00000005 # 0x5
+.L0x00003830: .word 0x800a8ee4 # lb $t2, -0x711c($zr)
+.L0x00003834: .word 0x800a8b64 # lb $t2, -0x749c($zr)
+.L0x00003838: .word 0x001c0175 # 0x1c0175
+.L0x0000383c: .word 0x01610131 # 0x1610131
+.L0x00003840: .word 0x00000005 # 0x5
+.L0x00003844: .word 0x800a8eec # lb $t2, -0x7114($zr)
+.L0x00003848: .word 0x800a8b7c # lb $t2, -0x7484($zr)
+.L0x0000384c: .word 0x001c0175 # 0x1c0175
+.L0x00003850: .word 0x01610131 # 0x1610131
+.L0x00003854: .word 0x00000005 # 0x5
+.L0x00003858: .word 0x800a8ef4 # lb $t2, -0x710c($zr)
+.L0x0000385c: .word 0x800a8b94 # lb $t2, -0x746c($zr)
+.L0x00003860: .word 0x001c0175 # 0x1c0175
+.L0x00003864: .word 0x01f50269 # 0x1f50269
+.L0x00003868: .word 0x00000005 # 0x5
+.L0x0000386c: .word 0x800a8efc # lb $t2, -0x7104($zr)
+.L0x00003870: .word 0x800a8bac # lb $t2, -0x7454($zr)
+.L0x00003874: .word 0x001c0175 # 0x1c0175
+.L0x00003878: .word 0x01610131 # 0x1610131
+.L0x0000387c: .word 0x00000005 # 0x5
+.L0x00003880: .word 0x800a8f04 # lb $t2, -0x70fc($zr)
+.L0x00003884: .word 0x800a8bc4 # lb $t2, -0x743c($zr)
+.L0x00003888: .word 0x001c0175 # 0x1c0175
+.L0x0000388c: .word 0x01610131 # 0x1610131
+.L0x00003890: .word 0x00000005 # 0x5
+.L0x00003894: .word 0x800a8f0c # lb $t2, -0x70f4($zr)
+.L0x00003898: .word 0x800a8bdc # lb $t2, -0x7424($zr)
+.L0x0000389c: .word 0x001c0175 # 0x1c0175
+.L0x000038a0: .word 0x01610131 # 0x1610131
+.L0x000038a4: .word 0x00000005 # 0x5
+.L0x000038a8: .word 0x800a8f14 # lb $t2, -0x70ec($zr)
+.L0x000038ac: .word 0x00000000 # nop
+.L0x000038b0: .word 0x001c0175 # 0x1c0175
+.L0x000038b4: .word 0x01610131 # 0x1610131
+.L0x000038b8: .word 0x00000005 # 0x5
+.L0x000038bc: .word 0x800a8f1c # lb $t2, -0x70e4($zr)
+.L0x000038c0: .word 0x800a8f30 # lb $t2, -0x70d0($zr)
+.L0x000038c4: .word 0x800a8f44 # lb $t2, -0x70bc($zr)
+.L0x000038c8: .word 0x800a8f58 # lb $t2, -0x70a8($zr)
+.L0x000038cc: .word 0x800a8f6c # lb $t2, -0x7094($zr)
+.L0x000038d0: .word 0x800a8f80 # lb $t2, -0x7080($zr)
+.L0x000038d4: .word 0x800a8f94 # lb $t2, -0x706c($zr)
+.L0x000038d8: .word 0x800a8fa8 # lb $t2, -0x7058($zr)
+.L0x000038dc: .word 0x800a8fbc # lb $t2, -0x7044($zr)
+.L0x000038e0: .word 0x800a8fd0 # lb $t2, -0x7030($zr)
+.L0x000038e4: .word 0x800a8fe4 # lb $t2, -0x701c($zr)
+.L0x000038e8: .word 0x800a8ff8 # lb $t2, -0x7008($zr)
+.L0x000038ec: .word 0x800a900c # lb $t2, -0x6ff4($zr)
+.L0x000038f0: .word 0x800a9020 # lb $t2, -0x6fe0($zr)
+.L0x000038f4: .word 0x800a9034 # lb $t2, -0x6fcc($zr)
+.L0x000038f8: .word 0x800a9048 # lb $t2, -0x6fb8($zr)
+.L0x000038fc: .word 0x800a905c # lb $t2, -0x6fa4($zr)
+.L0x00003900: .word 0x800a9070 # lb $t2, -0x6f90($zr)
+.L0x00003904: .word 0x800a9084 # lb $t2, -0x6f7c($zr)
+.L0x00003908: .word 0x800a9098 # lb $t2, -0x6f68($zr)
+.L0x0000390c: .word 0x800a90ac # lb $t2, -0x6f54($zr)
+.L0x00003910: .word 0x800a90c0 # lb $t2, -0x6f40($zr)
+.L0x00003914: .word 0x800a90d4 # lb $t2, -0x6f2c($zr)
+.L0x00003918: .word 0x800a90e8 # lb $t2, -0x6f18($zr)
+.L0x0000391c: .word 0x800a90fc # lb $t2, -0x6f04($zr)
+.L0x00003920: .word 0x800a9110 # lb $t2, -0x6ef0($zr)
+.L0x00003924: .word 0x800a9124 # lb $t2, -0x6edc($zr)
+.L0x00003928: .word 0x800a9138 # lb $t2, -0x6ec8($zr)
+.L0x0000392c: .word 0x800a914c # lb $t2, -0x6eb4($zr)
+.L0x00003930: .word 0x800a9160 # lb $t2, -0x6ea0($zr)
+.L0x00003934: .word 0x800a9174 # lb $t2, -0x6e8c($zr)
+.L0x00003938: .word 0x800a9188 # lb $t2, -0x6e78($zr)
+.L0x0000393c: .word 0x800a919c # lb $t2, -0x6e64($zr)
+.L0x00003940: .word 0x800a91b0 # lb $t2, -0x6e50($zr)
+.L0x00003944: .word 0x800a91c4 # lb $t2, -0x6e3c($zr)
+.L0x00003948: .word 0x800a91d8 # lb $t2, -0x6e28($zr)
+.L0x0000394c: .word 0x800a91ec # lb $t2, -0x6e14($zr)
+.L0x00003950: .word 0x800a9200 # lb $t2, -0x6e00($zr)
+.L0x00003954: .word 0x800a9214 # lb $t2, -0x6dec($zr)
+.L0x00003958: .word 0x800a9228 # lb $t2, -0x6dd8($zr)
+.L0x0000395c: .word 0x800a923c # lb $t2, -0x6dc4($zr)
+.L0x00003960: .word 0x800a9250 # lb $t2, -0x6db0($zr)
+.L0x00003964: .word 0x800a9264 # lb $t2, -0x6d9c($zr)
+.L0x00003968: .word 0x800a9278 # lb $t2, -0x6d88($zr)
+.L0x0000396c: .word 0x800a928c # lb $t2, -0x6d74($zr)
+.L0x00003970: .word 0x800a92a0 # lb $t2, -0x6d60($zr)
+.L0x00003974: .word 0x800a92b4 # lb $t2, -0x6d4c($zr)
+.L0x00003978: .word 0x800a92c8 # lb $t2, -0x6d38($zr)
+.L0x0000397c: .word 0x800a92dc # lb $t2, -0x6d24($zr)
+.L0x00003980: .word 0x800a92f0 # lb $t2, -0x6d10($zr)
+.L0x00003984: .word 0x800a9304 # lb $t2, -0x6cfc($zr)
+.L0x00003988: .word 0x800a9318 # lb $t2, -0x6ce8($zr)
+.L0x0000398c: .word 0x800a932c # lb $t2, -0x6cd4($zr)
+.L0x00003990: .word 0x800a9340 # lb $t2, -0x6cc0($zr)
+.L0x00003994: .word 0x800a9354 # lb $t2, -0x6cac($zr)
+.L0x00003998: .word 0x800a9368 # lb $t2, -0x6c98($zr)
+.L0x0000399c: .word 0x800a937c # lb $t2, -0x6c84($zr)
+.L0x000039a0: .word 0x800a9390 # lb $t2, -0x6c70($zr)
+.L0x000039a4: .word 0x800a93a4 # lb $t2, -0x6c5c($zr)
+.L0x000039a8: .word 0x800a93b8 # lb $t2, -0x6c48($zr)
+.L0x000039ac: .word 0x800a93cc # lb $t2, -0x6c34($zr)
+.L0x000039b0: .word 0x800a93e0 # lb $t2, -0x6c20($zr)
+.L0x000039b4: .word 0x800a93f4 # lb $t2, -0x6c0c($zr)
+.L0x000039b8: .word 0x800a9408 # lb $t2, -0x6bf8($zr)
+.L0x000039bc: .word 0x800a941c # lb $t2, -0x6be4($zr)
+.L0x000039c0: .word 0x800a9430 # lb $t2, -0x6bd0($zr)
+.L0x000039c4: .word 0x800a9444 # lb $t2, -0x6bbc($zr)
+.L0x000039c8: .word 0x800a9458 # lb $t2, -0x6ba8($zr)
+.L0x000039cc: .word 0x800a946c # lb $t2, -0x6b94($zr)
+.L0x000039d0: .word 0x800a9480 # lb $t2, -0x6b80($zr)
+.L0x000039d4: .word 0x800a9494 # lb $t2, -0x6b6c($zr)
+.L0x000039d8: .word 0x800a94a8 # lb $t2, -0x6b58($zr)
+.L0x000039dc: .word 0x800a94bc # lb $t2, -0x6b44($zr)
+.L0x000039e0: .word 0x800a94d0 # lb $t2, -0x6b30($zr)
+.L0x000039e4: .word 0x800a94e4 # lb $t2, -0x6b1c($zr)
+.L0x000039e8: .word 0x800a94f8 # lb $t2, -0x6b08($zr)
+.L0x000039ec: .word 0x800a950c # lb $t2, -0x6af4($zr)
+.L0x000039f0: .word 0x800a9520 # lb $t2, -0x6ae0($zr)
+.L0x000039f4: .word 0x800a9534 # lb $t2, -0x6acc($zr)
+.L0x000039f8: .word 0x800a9548 # lb $t2, -0x6ab8($zr)
+.L0x000039fc: .word 0x800a955c # lb $t2, -0x6aa4($zr)
+.L0x00003a00: .word 0x800a9570 # lb $t2, -0x6a90($zr)
+.L0x00003a04: .word 0x800a9584 # lb $t2, -0x6a7c($zr)
+.L0x00003a08: .word 0x800a9598 # lb $t2, -0x6a68($zr)
+.L0x00003a0c: .word 0x800a95ac # lb $t2, -0x6a54($zr)
+.L0x00003a10: .word 0x800a95c0 # lb $t2, -0x6a40($zr)
+.L0x00003a14: .word 0x800a95d4 # lb $t2, -0x6a2c($zr)
+.L0x00003a18: .word 0x800a95e8 # lb $t2, -0x6a18($zr)
+.L0x00003a1c: .word 0x800a95fc # lb $t2, -0x6a04($zr)
+.L0x00003a20: .word 0x800a9610 # lb $t2, -0x69f0($zr)
+.L0x00003a24: .word 0x800a9624 # lb $t2, -0x69dc($zr)
+.L0x00003a28: .word 0x800a9638 # lb $t2, -0x69c8($zr)
+.L0x00003a2c: .word 0x800a964c # lb $t2, -0x69b4($zr)
+.L0x00003a30: .word 0x800a9660 # lb $t2, -0x69a0($zr)
+.L0x00003a34: .word 0x800a9674 # lb $t2, -0x698c($zr)
+.L0x00003a38: .word 0x800a9688 # lb $t2, -0x6978($zr)
+.L0x00003a3c: .word 0x00000000 # nop
+.L0x00003a40: .word 0x02400001 # 0x2400001
+.L0x00003a44: .word 0x01000236 # 0x1000236
+.L0x00003a48: .word 0x00f30004 # sllv $zr, $s3, $a3
+.L0x00003a4c: .word 0x00000045 # 0x45
+.L0x00003a50: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003a54: .word 0x02370240 # 0x2370240
+.L0x00003a58: .word 0x00040100 # sll $zr, $a0, 0x4
+.L0x00003a5c: .word 0x01160322 # 0x1160322
+.L0x00003a60: .word 0x00000000 # nop
+.L0x00003a64: .word 0x02400001 # 0x2400001
+.L0x00003a68: .word 0x01000233 # 0x1000233
+.L0x00003a6c: .word 0x01c90004 # sllv $zr, $t1, $t6
+.L0x00003a70: .word 0x00000081 # 0x81
+.L0x00003a74: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003a78: .word 0x02320240 # 0x2320240
+.L0x00003a7c: .word 0x00160300 # sll $zr, $s6, 0xc
+.L0x00003a80: .word 0x00d40153 # 0xd40153
+.L0x00003a84: .word 0x00000000 # nop
+.L0x00003a88: .word 0x02400001 # 0x2400001
+.L0x00003a8c: .word 0x03000232 # 0x3000232
+.L0x00003a90: .word 0x01740016 # 0x1740016
+.L0x00003a94: .word 0x000000c4 # 0xc4
+.L0x00003a98: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003a9c: .word 0x02320240 # 0x2320240
+.L0x00003aa0: .word 0x00160300 # sll $zr, $s6, 0xc
+.L0x00003aa4: .word 0x00f40193 # 0xf40193
+.L0x00003aa8: .word 0x00000000 # nop
+.L0x00003aac: .word 0x02400001 # 0x2400001
+.L0x00003ab0: .word 0x03000232 # 0x3000232
+.L0x00003ab4: .word 0x01b30016 # 0x1b30016
+.L0x00003ab8: .word 0x000000e4 # 0xe4
+.L0x00003abc: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003ac0: .word 0x02550240 # 0x2550240
+.L0x00003ac4: .word 0x00120700 # sll $zr, $s2, 0x1c
+.L0x00003ac8: .word 0x00750182 # 0x750182
+.L0x00003acc: .word 0x00000000 # nop
+.L0x00003ad0: .word 0x02400001 # 0x2400001
+.L0x00003ad4: .word 0x07000255 # bltz $t8, .L0x0000442c
+.L0x00003ad8: .word 0x02220012 # 0x2220012
+.L0x00003adc: .word 0x000000c5 # 0xc5
+.L0x00003ae0: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003ae4: .word 0x02550240 # 0x2550240
+.L0x00003ae8: .word 0x00120700 # sll $zr, $s2, 0x1c
+.L0x00003aec: .word 0x00c502a2 # 0xc502a2
+.L0x00003af0: .word 0x00000000 # nop
+.L0x00003af4: .word 0x02400001 # 0x2400001
+.L0x00003af8: .word 0x07000256 # bltz $t8, .L0x00004454
+.L0x00003afc: .word 0x023d0012 # 0x23d0012
+.L0x00003b00: .word 0x000000d1 # 0xd1
+.L0x00003b04: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003b08: .word 0x02560240 # 0x2560240
+.L0x00003b0c: .word 0x00120700 # sll $zr, $s2, 0x1c
+.L0x00003b10: .word 0x00d10265 # 0xd10265
+.L0x00003b14: .word 0x00000000 # nop
+.L0x00003b18: .word 0x02400001 # 0x2400001
+.L0x00003b1c: .word 0x07000257 # bltz $t8, .L0x0000447c
+.L0x00003b20: .word 0x00970012 # 0x970012
+.L0x00003b24: .word 0x00000081 # 0x81
+.L0x00003b28: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003b2c: .word 0x02570240 # 0x2570240
+.L0x00003b30: .word 0x00120700 # sll $zr, $s2, 0x1c
+.L0x00003b34: .word 0x006f019b # 0x6f019b
+.L0x00003b38: .word 0x00000000 # nop
+.L0x00003b3c: .word 0x02400001 # 0x2400001
+.L0x00003b40: .word 0x07000257 # bltz $t8, .L0x000044a0
+.L0x00003b44: .word 0x02890012 # 0x2890012
+.L0x00003b48: .word 0x000000c8 # 0xc8
+.L0x00003b4c: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003b50: .word 0x02550640 # 0x2550640
+.L0x00003b54: .word 0x00120700 # sll $zr, $s2, 0x1c
+.L0x00003b58: .word 0x0069000a # 0x69000a
+.L0x00003b5c: .word 0x00000000 # nop
+.L0x00003b60: .word 0x06400001 # bltz $s2, .L0x00003b68
+.L0x00003b64: .word 0x07000255 # bltz $t8, .L0x000044bc
+.L0x00003b68: .word 0x002a0012 # 0x2a0012
+.L0x00003b6c: .word 0x00000079 # 0x79
+.L0x00003b70: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003b74: .word 0x02550640 # 0x2550640
+.L0x00003b78: .word 0x00120700 # sll $zr, $s2, 0x1c
+.L0x00003b7c: .word 0x0089004a # 0x89004a
+.L0x00003b80: .word 0x00000000 # nop
+.L0x00003b84: .word 0x06400001 # bltz $s2, .L0x00003b8c
+.L0x00003b88: .word 0x07000255 # bltz $t8, .L0x000044e0
+.L0x00003b8c: .word 0x01220012 # 0x1220012
+.L0x00003b90: .word 0x00000045 # 0x45
+.L0x00003b94: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003b98: .word 0x02550640 # 0x2550640
+.L0x00003b9c: .word 0x00120700 # sll $zr, $s2, 0x1c
+.L0x00003ba0: .word 0x00550142 # 0x550142
+.L0x00003ba4: .word 0x00000000 # nop
+.L0x00003ba8: .word 0x06400001 # bltz $s2, .L0x00003bb0
+.L0x00003bac: .word 0x07000255 # bltz $t8, .L0x00004504
+.L0x00003bb0: .word 0x01620012 # 0x1620012
+.L0x00003bb4: .word 0x00000065 # 0x65
+.L0x00003bb8: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003bbc: .word 0x02550640 # 0x2550640
+.L0x00003bc0: .word 0x00120700 # sll $zr, $s2, 0x1c
+.L0x00003bc4: .word 0x00a501e2 # 0xa501e2
+.L0x00003bc8: .word 0x00000000 # nop
+.L0x00003bcc: .word 0x06400001 # bltz $s2, .L0x00003bd4
+.L0x00003bd0: .word 0x07000255 # bltz $t8, .L0x00004528
+.L0x00003bd4: .word 0x02020012 # 0x2020012
+.L0x00003bd8: .word 0x000000b5 # 0xb5
+.L0x00003bdc: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003be0: .word 0x02550640 # 0x2550640
+.L0x00003be4: .word 0x00120700 # sll $zr, $s2, 0x1c
+.L0x00003be8: .word 0x00d502c2 # 0xd502c2
+.L0x00003bec: .word 0x00000000 # nop
+.L0x00003bf0: .word 0x06400001 # bltz $s2, .L0x00003bf8
+.L0x00003bf4: .word 0x07000255 # bltz $t8, .L0x0000454c
+.L0x00003bf8: .word 0x02e20012 # 0x2e20012
+.L0x00003bfc: .word 0x000000e5 # 0xe5
+.L0x00003c00: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003c04: .word 0x02550640 # 0x2550640
+.L0x00003c08: .word 0x00120700 # sll $zr, $s2, 0x1c
+.L0x00003c0c: .word 0x00f50302 # 0xf50302
+.L0x00003c10: .word 0x00000000 # nop
+.L0x00003c14: .word 0x06400001 # bltz $s2, .L0x00003c1c
+.L0x00003c18: .word 0x07000257 # bltz $t8, .L0x00004578
+.L0x00003c1c: .word 0x00770012 # 0x770012
+.L0x00003c20: .word 0x00000091 # 0x91
+.L0x00003c24: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003c28: .word 0x02580640 # 0x2580640
+.L0x00003c2c: .word 0x00120700 # sll $zr, $s2, 0x1c
+.L0x00003c30: .word 0x00e80087 # 0xe80087
+.L0x00003c34: .word 0x00000000 # nop
+.L0x00003c38: .word 0x06400001 # bltz $s2, .L0x00003c40
+.L0x00003c3c: .word 0x07000258 # bltz $t8, .L0x000045a0
+.L0x00003c40: .word 0x009b0012 # 0x9b0012
+.L0x00003c44: .word 0x000000de # 0xde
+.L0x00003c48: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003c4c: .word 0x02580640 # 0x2580640
+.L0x00003c50: .word 0x00120700 # sll $zr, $s2, 0x1c
+.L0x00003c54: .word 0x00d400af # 0xd400af
+.L0x00003c58: .word 0x00000000 # nop
+.L0x00003c5c: .word 0x06400001 # bltz $s2, .L0x00003c64
+.L0x00003c60: .word 0x07000258 # bltz $t8, .L0x000045c4
+.L0x00003c64: .word 0x00c30012 # 0xc30012
+.L0x00003c68: .word 0x000000ca # 0xca
+.L0x00003c6c: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003c70: .word 0x02580640 # 0x2580640
+.L0x00003c74: .word 0x00120700 # sll $zr, $s2, 0x1c
+.L0x00003c78: .word 0x00c000d7 # 0xc000d7
+.L0x00003c7c: .word 0x00000000 # nop
+.L0x00003c80: .word 0x06400001 # bltz $s2, .L0x00003c88
+.L0x00003c84: .word 0x07000258 # bltz $t8, .L0x000045e8
+.L0x00003c88: .word 0x00eb0012 # 0xeb0012
+.L0x00003c8c: .word 0x000000b6 # 0xb6
+.L0x00003c90: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003c94: .word 0x02580640 # 0x2580640
+.L0x00003c98: .word 0x00120700 # sll $zr, $s2, 0x1c
+.L0x00003c9c: .word 0x00ac00ff # 0xac00ff
+.L0x00003ca0: .word 0x00000000 # nop
+.L0x00003ca4: .word 0x06400001 # bltz $s2, .L0x00003cac
+.L0x00003ca8: .word 0x07000258 # bltz $t8, .L0x0000460c
+.L0x00003cac: .word 0x01130012 # 0x1130012
+.L0x00003cb0: .word 0x000000a2 # 0xa2
+.L0x00003cb4: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003cb8: .word 0x02580640 # 0x2580640
+.L0x00003cbc: .word 0x00120700 # sll $zr, $s2, 0x1c
+.L0x00003cc0: .word 0x00980127 # 0x980127
+.L0x00003cc4: .word 0x00000000 # nop
+.L0x00003cc8: .word 0x06406601 # bltz $s2, .L0x0001d4d0
+.L0x00003ccc: .word 0x00000004 # sllv $zr, $zr, $zr
+.L0x00003cd0: .word 0x014f0000 # 0x14f0000
+.L0x00003cd4: .word 0x0000008d # break 0x0, 0x2
+.L0x00003cd8: .word 0x65010000 # 0x65010000
+.L0x00003cdc: .word 0x00050640 # sll $zr, $a1, 0x19
+.L0x00003ce0: .word 0x00000000 # nop
+.L0x00003ce4: .word 0x00e501ff # 0xe501ff
+.L0x00003ce8: .word 0x00000000 # nop
+.L0x00003cec: .word 0x06406401 # bltz $s2, .L0x0001ccf4
+.L0x00003cf0: .word 0x00000006 # srlv $zr, $zr, $zr
+.L0x00003cf4: .word 0x02e00000 # 0x2e00000
+.L0x00003cf8: .word 0x00000146 # 0x146
+.L0x00003cfc: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003d00: .word 0x02340640 # 0x2340640
+.L0x00003d04: .word 0x00040300 # sll $zr, $a0, 0xc
+.L0x00003d08: .word 0x00b30072 # 0xb30072
+.L0x00003d0c: .word 0x00000000 # nop
+.L0x00003d10: .word 0x06400001 # bltz $s2, .L0x00003d18
+.L0x00003d14: .word 0x03000235 # 0x3000235
+.L0x00003d18: .word 0x01080004 # sllv $zr, $t0, $t0
+.L0x00003d1c: .word 0x00000082 # srl $zr, 0x2
+.L0x00003d20: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003d24: .word 0x02590640 # 0x2590640
+.L0x00003d28: .word 0x00040300 # sll $zr, $a0, 0xc
+.L0x00003d2c: .word 0x00b001ad # 0xb001ad
+.L0x00003d30: .word 0x00000000 # nop
+.L0x00003d34: .word 0x06400001 # bltz $s2, .L0x00003d3c
+.L0x00003d38: .word 0x54510151 # 0x54510151
+.L0x00003d3c: .word 0x02490008 # 0x2490008
+.L0x00003d40: .word 0x0000014f # 0x14f
+.L0x00003d44: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003d48: .word 0x014d0640 # 0x14d0640
+.L0x00003d4c: .word 0x0008504d # break 0x8, 0x141
+.L0x00003d50: .word 0x014f0249 # 0x14f0249
+.L0x00003d54: .word 0x00000000 # nop
+.L0x00003d58: .word 0x0a400001 # j 0x89000004
+.L0x00003d5c: .word 0x3a380138 # xori $t8, $s1, 0x138
+.L0x00003d60: .word 0x001c000a # 0x1c000a
+.L0x00003d64: .word 0x00000207 # 0x207
+.L0x00003d68: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003d6c: .word 0x01380a40 # 0x1380a40
+.L0x00003d70: .word 0x000a3a38 # 0xa3a38
+.L0x00003d74: .word 0x01ec0051 # 0x1ec0051
+.L0x00003d78: .word 0x00000000 # nop
+.L0x00003d7c: .word 0x0a400001 # j 0x89000004
+.L0x00003d80: .word 0x3a380138 # xori $t8, $s1, 0x138
+.L0x00003d84: .word 0x00b7000a # 0xb7000a
+.L0x00003d88: .word 0x000001ba # 0x1ba
+.L0x00003d8c: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003d90: .word 0x01380a40 # 0x1380a40
+.L0x00003d94: .word 0x000a3a38 # 0xa3a38
+.L0x00003d98: .word 0x01a800ed # 0x1a800ed
+.L0x00003d9c: .word 0x00000000 # nop
+.L0x00003da0: .word 0x0a400001 # j 0x89000004
+.L0x00003da4: .word 0x3a380138 # xori $t8, $s1, 0x138
+.L0x00003da8: .word 0x0290000a # 0x290000a
+.L0x00003dac: .word 0x000001ec # 0x1ec
+.L0x00003db0: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003db4: .word 0x01380a40 # 0x1380a40
+.L0x00003db8: .word 0x000a3a38 # 0xa3a38
+.L0x00003dbc: .word 0x01af02f0 # 0x1af02f0
+.L0x00003dc0: .word 0x00000000 # nop
+.L0x00003dc4: .word 0x0a400001 # j 0x89000004
+.L0x00003dc8: .word 0x3d3b013b # 0x3d3b013b
+.L0x00003dcc: .word 0x0037000a # 0x37000a
+.L0x00003dd0: .word 0x000001fa # 0x1fa
+.L0x00003dd4: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003dd8: .word 0x013b0a40 # 0x13b0a40
+.L0x00003ddc: .word 0x000a3d3b # 0xa3d3b
+.L0x00003de0: .word 0x01ed0064 # 0x1ed0064
+.L0x00003de4: .word 0x00000000 # nop
+.L0x00003de8: .word 0x0a400001 # j 0x89000004
+.L0x00003dec: .word 0x3d3b013b # 0x3d3b013b
+.L0x00003df0: .word 0x0097000a # 0x97000a
+.L0x00003df4: .word 0x000001cd # break 0x0, 0x7
+.L0x00003df8: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003dfc: .word 0x013b0a40 # 0x13b0a40
+.L0x00003e00: .word 0x000a3d3b # 0xa3d3b
+.L0x00003e04: .word 0x01bd00ca # 0x1bd00ca
+.L0x00003e08: .word 0x00000000 # nop
+.L0x00003e0c: .word 0x0a400001 # j 0x89000004
+.L0x00003e10: .word 0x3d3b013b # 0x3d3b013b
+.L0x00003e14: .word 0x0128000a # 0x128000a
+.L0x00003e18: .word 0x000001a8 # 0x1a8
+.L0x00003e1c: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003e20: .word 0x013b0a40 # 0x13b0a40
+.L0x00003e24: .word 0x000a3d3b # 0xa3d3b
+.L0x00003e28: .word 0x01f80291 # 0x1f80291
+.L0x00003e2c: .word 0x00000000 # nop
+.L0x00003e30: .word 0x0a400001 # j 0x89000004
+.L0x00003e34: .word 0x403e013e # 0x403e013e
+.L0x00003e38: .word 0x0103000a # 0x103000a
+.L0x00003e3c: .word 0x000001ac # 0x1ac
+.L0x00003e40: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003e44: .word 0x013e0a40 # 0x13e0a40
+.L0x00003e48: .word 0x000a403e # 0xa403e
+.L0x00003e4c: .word 0x01b1016e # 0x1b1016e
+.L0x00003e50: .word 0x00000000 # nop
+.L0x00003e54: .word 0x0a400001 # j 0x89000004
+.L0x00003e58: .word 0x403e013e # 0x403e013e
+.L0x00003e5c: .word 0x0246000a # 0x246000a
+.L0x00003e60: .word 0x0000019b # 0x19b
+.L0x00003e64: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003e68: .word 0x013e0a40 # 0x13e0a40
+.L0x00003e6c: .word 0x000a403e # 0xa403e
+.L0x00003e70: .word 0x01ba0295 # 0x1ba0295
+.L0x00003e74: .word 0x00000000 # nop
+.L0x00003e78: .word 0x0a400001 # j 0x89000004
+.L0x00003e7c: .word 0x403e013e # 0x403e013e
+.L0x00003e80: .word 0x02a2000a # 0x2a2000a
+.L0x00003e84: .word 0x00000219 # 0x219
+.L0x00003e88: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003e8c: .word 0x013e0a40 # 0x13e0a40
+.L0x00003e90: .word 0x000a403e # 0xa403e
+.L0x00003e94: .word 0x021a02b6 # 0x21a02b6
+.L0x00003e98: .word 0x00000000 # nop
+.L0x00003e9c: .word 0x0a400001 # j 0x89000004
+.L0x00003ea0: .word 0x403e013e # 0x403e013e
+.L0x00003ea4: .word 0x030a000a # 0x30a000a
+.L0x00003ea8: .word 0x000001a1 # 0x1a1
+.L0x00003eac: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003eb0: .word 0x01410a40 # 0x1410a40
+.L0x00003eb4: .word 0x000a4341 # 0xa4341
+.L0x00003eb8: .word 0x020501c1 # 0x20501c1
+.L0x00003ebc: .word 0x00000000 # nop
+.L0x00003ec0: .word 0x0a400001 # j 0x89000004
+.L0x00003ec4: .word 0x43410141 # c0 0x1410141
+.L0x00003ec8: .word 0x01f5000a # 0x1f5000a
+.L0x00003ecc: .word 0x00000220 # 0x220
+.L0x00003ed0: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003ed4: .word 0x01410a40 # 0x1410a40
+.L0x00003ed8: .word 0x000a4341 # 0xa4341
+.L0x00003edc: .word 0x01630212 # 0x1630212
+.L0x00003ee0: .word 0x00000000 # nop
+.L0x00003ee4: .word 0x0a400001 # j 0x89000004
+.L0x00003ee8: .word 0x43410141 # c0 0x1410141
+.L0x00003eec: .word 0x0222000a # 0x222000a
+.L0x00003ef0: .word 0x00000162 # 0x162
+.L0x00003ef4: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003ef8: .word 0x01410a40 # 0x1410a40
+.L0x00003efc: .word 0x000a4341 # 0xa4341
+.L0x00003f00: .word 0x0250027c # 0x250027c
+.L0x00003f04: .word 0x00000000 # nop
+.L0x00003f08: .word 0x0a400001 # j 0x89000004
+.L0x00003f0c: .word 0x43410141 # c0 0x1410141
+.L0x00003f10: .word 0x0293000a # 0x293000a
+.L0x00003f14: .word 0x00000258 # 0x258
+.L0x00003f18: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003f1c: .word 0x01440a40 # 0x1440a40
+.L0x00003f20: .word 0x000a4644 # 0xa4644
+.L0x00003f24: .word 0x012f0057 # 0x12f0057
+.L0x00003f28: .word 0x00000000 # nop
+.L0x00003f2c: .word 0x0a400001 # j 0x89000004
+.L0x00003f30: .word 0x46440144 # c1 0x440144
+.L0x00003f34: .word 0x0082000a # 0x82000a
+.L0x00003f38: .word 0x00000142 # srl $zr, 0x5
+.L0x00003f3c: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003f40: .word 0x01440a40 # 0x1440a40
+.L0x00003f44: .word 0x000a4644 # 0xa4644
+.L0x00003f48: .word 0x026602aa # 0x26602aa
+.L0x00003f4c: .word 0x00000000 # nop
+.L0x00003f50: .word 0x0a400001 # j 0x89000004
+.L0x00003f54: .word 0x49470147 # 0x49470147
+.L0x00003f58: .word 0x003d000a # 0x3d000a
+.L0x00003f5c: .word 0x00000124 # 0x124
+.L0x00003f60: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003f64: .word 0x01470a40 # 0x1470a40
+.L0x00003f68: .word 0x000a4947 # 0xa4947
+.L0x00003f6c: .word 0x01480071 # 0x1480071
+.L0x00003f70: .word 0x00000000 # nop
+.L0x00003f74: .word 0x0a400001 # j 0x89000004
+.L0x00003f78: .word 0x49470147 # 0x49470147
+.L0x00003f7c: .word 0x01da000a # 0x1da000a
+.L0x00003f80: .word 0x00000213 # 0x213
+.L0x00003f84: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003f88: .word 0x01470a40 # 0x1470a40
+.L0x00003f8c: .word 0x000a4947 # 0xa4947
+.L0x00003f90: .word 0x022a0211 # 0x22a0211
+.L0x00003f94: .word 0x00000000 # nop
+.L0x00003f98: .word 0x0a400001 # j 0x89000004
+.L0x00003f9c: .word 0x4c4a014a # 0x4c4a014a
+.L0x00003fa0: .word 0x01b5000a # 0x1b5000a
+.L0x00003fa4: .word 0x000001ab # 0x1ab
+.L0x00003fa8: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003fac: .word 0x014a0a40 # 0x14a0a40
+.L0x00003fb0: .word 0x000a4c4a # 0xa4c4a
+.L0x00003fb4: .word 0x01a501c7 # 0x1a501c7
+.L0x00003fb8: .word 0x00000000 # nop
+.L0x00003fbc: .word 0x0a400001 # j 0x89000004
+.L0x00003fc0: .word 0x4c4a014a # 0x4c4a014a
+.L0x00003fc4: .word 0x0260000a # 0x260000a
+.L0x00003fc8: .word 0x00000195 # 0x195
+.L0x00003fcc: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003fd0: .word 0x014a0a40 # 0x14a0a40
+.L0x00003fd4: .word 0x000a4c4a # 0xa4c4a
+.L0x00003fd8: .word 0x018c0272 # 0x18c0272
+.L0x00003fdc: .word 0x00000000 # nop
+.L0x00003fe0: .word 0x0a400001 # j 0x89000004
+.L0x00003fe4: .word 0x4c4a014a # 0x4c4a014a
+.L0x00003fe8: .word 0x028e000a # 0x28e000a
+.L0x00003fec: .word 0x0000020d # break 0x0, 0x8
+.L0x00003ff0: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00003ff4: .word 0x014a0a40 # 0x14a0a40
+.L0x00003ff8: .word 0x000a4c4a # 0xa4c4a
+.L0x00003ffc: .word 0x01a802b3 # 0x1a802b3
+.L0x00004000: .word 0x00000000 # nop
+.L0x00004004: .word 0x04400001 # bltz $v0, .L0x0000400c
+.L0x00004008: .word 0x00000000 # nop
+.L0x0000400c: .word 0x00900000 # 0x900000
+.L0x00004010: .word 0x00a0006e # 0xa0006e
+.L0x00004014: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00004018: .word 0x00010440 # sll $zr, $at, 0x11
+.L0x0000401c: .word 0x00000000 # nop
+.L0x00004020: .word 0x00940167 # 0x940167
+.L0x00004024: .word 0x000000c1 # 0xc1
+.L0x00004028: .word 0x04400001 # bltz $v0, .L0x00004030
+.L0x0000402c: .word 0x00000002 # srl $zr, 0x0
+.L0x00004030: .word 0x02170000 # 0x2170000
+.L0x00004034: .word 0x011900ec # 0x11900ec
+.L0x00004038: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x0000403c: .word 0x00030440 # sll $zr, $v1, 0x11
+.L0x00004040: .word 0x00000000 # nop
+.L0x00004044: .word 0x014c02f7 # 0x14c02f7
+.L0x00004048: .word 0x00000178 # 0x178
+.L0x0000404c: .word 0x04500001 # bltzal $v0, .L0x00004054
+.L0x00004050: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x00004054: .word 0x01b90000 # 0x1b90000
+.L0x00004058: .word 0x01c20159 # 0x1c20159
+.L0x0000405c: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00004060: .word 0x00080440 # sll $zr, $t0, 0x11
+.L0x00004064: .word 0x00000000 # nop
+.L0x00004068: .word 0x01bc01d0 # 0x1bc01d0
+.L0x0000406c: .word 0x000001f0 # 0x1f0
+.L0x00004070: .word 0x04400001 # bltz $v0, .L0x00004078
+.L0x00004074: .word 0x00000009 # jalr_zr
+.L0x00004078: .word 0x02530000 # 0x2530000
+.L0x0000407c: .word 0x01de01ba # 0x1de01ba
+.L0x00004080: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00004084: .word 0x000a0440 # sll $zr, $t2, 0x11
+.L0x00004088: .word 0x00000000 # nop
+.L0x0000408c: .word 0x01030180 # 0x1030180
+.L0x00004090: .word 0x00000117 # 0x117
+.L0x00004094: .word 0x04400001 # bltz $v0, .L0x0000409c
+.L0x00004098: .word 0x0000000b # 0xb
+.L0x0000409c: .word 0x01910000 # 0x1910000
+.L0x000040a0: .word 0x010f00fa # 0x10f00fa
+.L0x000040a4: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x000040a8: .word 0x000c0440 # sll $zr, $t4, 0x11
+.L0x000040ac: .word 0x00000000 # nop
+.L0x000040b0: .word 0x00fb0170 # 0xfb0170
+.L0x000040b4: .word 0x0000010e # 0x10e
+.L0x000040b8: .word 0x04400001 # bltz $v0, .L0x000040c0
+.L0x000040bc: .word 0x0000000d # break
+.L0x000040c0: .word 0x01a10000 # 0x1a10000
+.L0x000040c4: .word 0x010800f3 # 0x10800f3
+.L0x000040c8: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x000040cc: .word 0x000e0440 # sll $zr, $t6, 0x11
+.L0x000040d0: .word 0x00000000 # nop
+.L0x000040d4: .word 0x00f20160 # 0xf20160
+.L0x000040d8: .word 0x00000106 # 0x106
+.L0x000040dc: .word 0x04400001 # bltz $v0, .L0x000040e4
+.L0x000040e0: .word 0x0000000f # 0xf
+.L0x000040e4: .word 0x01b10000 # 0x1b10000
+.L0x000040e8: .word 0x00ff00e9 # 0xff00e9
+.L0x000040ec: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x000040f0: .word 0x00100440 # sll $zr, $s0, 0x11
+.L0x000040f4: .word 0x00000000 # nop
+.L0x000040f8: .word 0x00e50150 # 0xe50150
+.L0x000040fc: .word 0x000000ff # 0xff
+.L0x00004100: .word 0x04400001 # bltz $v0, .L0x00004108
+.L0x00004104: .word 0x00000011 # mthi $zr
+.L0x00004108: .word 0x01c10000 # 0x1c10000
+.L0x0000410c: .word 0x00f700e3 # 0xf700e3
+.L0x00004110: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00004114: .word 0x00120440 # sll $zr, $s2, 0x11
+.L0x00004118: .word 0x00000000 # nop
+.L0x0000411c: .word 0x00e30140 # 0xe30140
+.L0x00004120: .word 0x000000f7 # 0xf7
+.L0x00004124: .word 0x04400001 # bltz $v0, .L0x0000412c
+.L0x00004128: .word 0x00000013 # mtlo $zr
+.L0x0000412c: .word 0x01510000 # 0x1510000
+.L0x00004130: .word 0x00f000db # 0xf000db
+.L0x00004134: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00004138: .word 0x00140440 # sll $zr, $s4, 0x11
+.L0x0000413c: .word 0x00000000 # nop
+.L0x00004140: .word 0x00d00161 # 0xd00161
+.L0x00004144: .word 0x000000e7 # 0xe7
+.L0x00004148: .word 0x04400001 # bltz $v0, .L0x00004150
+.L0x0000414c: .word 0x00000015 # 0x15
+.L0x00004150: .word 0x01710000 # 0x1710000
+.L0x00004154: .word 0x00df00cb # 0xdf00cb
+.L0x00004158: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x0000415c: .word 0x00160440 # sll $zr, $s6, 0x11
+.L0x00004160: .word 0x00000000 # nop
+.L0x00004164: .word 0x00c00181 # 0xc00181
+.L0x00004168: .word 0x000000d7 # 0xd7
+.L0x0000416c: .word 0x04400001 # bltz $v0, .L0x00004174
+.L0x00004170: .word 0x00000017 # 0x17
+.L0x00004174: .word 0x01910000 # 0x1910000
+.L0x00004178: .word 0x00cf00bb # 0xcf00bb
+.L0x0000417c: .word 0x00010000 # sll $zr, $at, 0x0
+.L0x00004180: .word 0x00180440 # sll $zr, $t8, 0x11
+.L0x00004184: .word 0x00000000 # nop
+.L0x00004188: .word 0x013d01f3 # 0x13d01f3
+.L0x0000418c: .word 0x0000014e # 0x14e
+.L0x00004190: .word 0x00000000 # nop
+.L0x00004194: .word 0x00000000 # nop
+.L0x00004198: .word 0x00000000 # nop
+.L0x0000419c: .word 0x00000000 # nop
+.L0x000041a0: .word 0x00000000 # nop
+.L0x000041a4: .word 0x0000ffff # 0xffff
+.L0x000041a8: .word 0x0000ffff # 0xffff
+.L0x000041ac: .word 0x02000001 # 0x2000001
+.L0x000041b0: .word 0x00ec03e8 # 0xec03e8
+.L0x000041b4: .word 0x00000001 # 0x1
+.L0x000041b8: .word 0x00000000 # nop
+.L0x000041bc: .word 0x0000ffff # 0xffff
+.L0x000041c0: .word 0x0000ffff # 0xffff
+.L0x000041c4: .word 0x02060001 # 0x2060001
+.L0x000041c8: .word 0x00f00070 # 0xf00070
+.L0x000041cc: .word 0x00000007 # srav $zr, $zr, $zr
+.L0x000041d0: .word 0x00000000 # nop
+.L0x000041d4: .word 0x0000ffff # 0xffff
+.L0x000041d8: .word 0x0000ffff # 0xffff
+.L0x000041dc: .word 0x02070001 # 0x2070001
+.L0x000041e0: .word 0x01cc0058 # 0x1cc0058
+.L0x000041e4: .word 0x00640005 # 0x640005
+.L0x000041e8: .word 0x00000000 # nop
+.L0x000041ec: .word 0x0000ffff # 0xffff
+.L0x000041f0: .word 0x0000ffff # 0xffff
+.L0x000041f4: .word 0x02080001 # 0x2080001
+.L0x000041f8: .word 0x01340069 # 0x1340069
+.L0x000041fc: .word 0x00650005 # 0x650005
+.L0x00004200: .word 0x00000000 # nop
+.L0x00004204: .word 0x0000ffff # 0xffff
+.L0x00004208: .word 0x0000ffff # 0xffff
+.L0x0000420c: .word 0x02140001 # 0x2140001
+.L0x00004210: .word 0x02bc01f8 # 0x2bc01f8
+.L0x00004214: .word 0x00660005 # 0x660005
+.L0x00004218: .word 0x00000000 # nop
+.L0x0000421c: .word 0x0000ffff # 0xffff
+.L0x00004220: .word 0x0000ffff # 0xffff
+.L0x00004224: .word 0x02170001 # 0x2170001
+.L0x00004228: .word 0x01d401d8 # 0x1d401d8
+.L0x0000422c: .word 0x00000003 # sra $zr, 0x0
+.L0x00004230: .word 0x00000000 # nop
+.L0x00004234: .word 0x00016002 # srl $t4, $at, 0x0
+.L0x00004238: .word 0x0000ffff # 0xffff
+.L0x0000423c: .word 0x00140008 # 0x140008
+.L0x00004240: .word 0x00000000 # nop
+.L0x00004244: .word 0x00000000 # nop
+.L0x00004248: .word 0x00000000 # nop
+.L0x0000424c: .word 0x00016002 # srl $t4, $at, 0x0
+.L0x00004250: .word 0x0000ffff # 0xffff
+.L0x00004254: .word 0x001e0008 # 0x1e0008
+.L0x00004258: .word 0x00000000 # nop
+.L0x0000425c: .word 0x00000000 # nop
+.L0x00004260: .word 0x00000000 # nop
+.L0x00004264: .word 0x0001600d # break 0x1, 0x180
+.L0x00004268: .word 0x0000ffff # 0xffff
+.L0x0000426c: .word 0x01400008 # jr $t2
+.L0x00004270: .word 0x00000000 # nop
+.L0x00004274: .word 0x00000000 # nop
+.L0x00004278: .word 0x00000000 # nop
+.L0x0000427c: .word 0x0001600d # break 0x1, 0x180
+.L0x00004280: .word 0x0000ffff # 0xffff
+.L0x00004284: .word 0x014a0008 # 0x14a0008
+.L0x00004288: .word 0x00000000 # nop
+.L0x0000428c: .word 0x00000000 # nop
+.L0x00004290: .word 0x00000000 # nop
+.L0x00004294: .word 0x0000ffff # 0xffff
+.L0x00004298: .word 0x0000ffff # 0xffff
+.L0x0000429c: .word 0x00000000 # nop
+.L0x000042a0: .word 0x00000000 # nop
+.L0x000042a4: .word 0x00000000 # nop
+.L0x000042a8: .word 0x00000000 # nop
+.L0x000042ac: .word 0x800a7580 # lb $t2, 0x7580($zr)
+.L0x000042b0: .word 0x800a76ec # lb $t2, 0x76ec($zr)
+.L0x000042b4: .word 0x800a7780 # lb $t2, 0x7780($zr)
+.L0x000042b8: .word 0x00000008 # jr $zr
+.L0x000042bc: .word 0x00000000 # nop
+.L0x000042c0: .word 0x01120001 # 0x1120001
+.L0x000042c4: .word 0x800a67e0 # lb $t2, 0x67e0($zr)
+.L0x000042c8: .word 0x00000000 # nop
+.L0x000042cc: .word 0x00000009 # jalr_zr
+.L0x000042d0: .word 0x00000000 # nop
+.L0x000042d4: .word 0x01120002 # 0x1120002
+.L0x000042d8: .word 0x800a6dc8 # lb $t2, 0x6dc8($zr)
+.L0x000042dc: .word 0x00000000 # nop
+.L0x000042e0: .word 0x0000000d # break
+.L0x000042e4: .word 0x800a77ec # lb $t2, 0x77ec($zr)
+.L0x000042e8: .word 0x01120006 # srlv $zr, $s2, $t0
+.L0x000042ec: .word 0x00000000 # nop
+.L0x000042f0: .word 0x00000000 # nop
+.L0x000042f4: .word 0x0000000e # 0xe
+.L0x000042f8: .word 0x800a7844 # lb $t2, 0x7844($zr)
+.L0x000042fc: .word 0x01120007 # srav $zr, $s2, $t0
+.L0x00004300: .word 0x00000000 # nop
+.L0x00004304: .word 0x00000000 # nop
+.L0x00004308: .word 0x00000014 # 0x14
+.L0x0000430c: .word 0x800a78c0 # lb $t2, 0x78c0($zr)
+.L0x00004310: .word 0x01120008 # 0x1120008
+.L0x00004314: .word 0x00000000 # nop
+.L0x00004318: .word 0x00000000 # nop
+.L0x0000431c: .word 0x0000001e # 0x1e
+.L0x00004320: .word 0x800a7924 # lb $t2, 0x7924($zr)
+.L0x00004324: .word 0x01120009 # 0x1120009
+.L0x00004328: .word 0x00000000 # nop
+.L0x0000432c: .word 0x00000000 # nop
+.L0x00004330: .word 0x0000003a # 0x3a
+.L0x00004334: .word 0x800a7990 # lb $t2, 0x7990($zr)
+.L0x00004338: .word 0x01120012 # 0x1120012
+.L0x0000433c: .word 0x00000000 # nop
+.L0x00004340: .word 0x00000000 # nop
+.L0x00004344: .word 0x00000136 # 0x136
+.L0x00004348: .word 0x800a7a08 # lb $t2, 0x7a08($zr)
+.L0x0000434c: .word 0x0112001c # 0x112001c
+.L0x00004350: .word 0x00000000 # nop
+.L0x00004354: .word 0x800a7500 # lb $t2, 0x7500($zr)
+.L0x00004358: .word 0x00000140 # sll $zr, 0x5
+.L0x0000435c: .word 0x800a7b88 # lb $t2, 0x7b88($zr)
+.L0x00004360: .word 0x0112001d # 0x112001d
+.L0x00004364: .word 0x00000000 # nop
+.L0x00004368: .word 0x00000000 # nop
+.L0x0000436c: .word 0x0000014a # 0x14a
+.L0x00004370: .word 0x800a7be4 # lb $t2, 0x7be4($zr)
+.L0x00004374: .word 0x0112001e # 0x112001e
+.L0x00004378: .word 0x00000000 # nop
+.L0x0000437c: .word 0x00000000 # nop
+.L0x00004380: .word 0x000002ad # 0x2ad
+.L0x00004384: .word 0x800a7c40 # lb $t2, 0x7c40($zr)
+.L0x00004388: .word 0x01120022 # sub $zr, $t0, $s2
+.L0x0000438c: .word 0x00000000 # nop
+.L0x00004390: .word 0x800a754c # lb $t2, 0x754c($zr)
+.L0x00004394: .word 0x000005e6 # 0x5e6
+.L0x00004398: .word 0x00000000 # nop
+.L0x0000439c: .word 0x01120035 # 0x1120035
+.L0x000043a0: .word 0x800a73b0 # lb $t2, 0x73b0($zr)
+.L0x000043a4: .word 0x00000000 # nop
+.L0x000043a8: .word 0x000005e7 # 0x5e7
+.L0x000043ac: .word 0x800a7f6c # lb $t2, 0x7f6c($zr)
+.L0x000043b0: .word 0x01120030 # 0x1120030
+.L0x000043b4: .word 0x00000000 # nop
+.L0x000043b8: .word 0x00000000 # nop
+.L0x000043bc: .word 0xffffffff # 0xffffffff
+.L0x000043c0: .word 0x00000000 # nop
+.L0x000043c4: .word 0x00000000 # nop
+.L0x000043c8: .word 0x00000000 # nop
+.L0x000043cc: .word 0x00000000 # nop

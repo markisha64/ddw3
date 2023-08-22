@@ -1,0 +1,6 @@
+---
+start_addr: 0x0
+objs:
+  - /build/asm/dw2003/pro/WSTAG953.o
+sections:
+  - section_WSTAG953
