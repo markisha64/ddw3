@@ -1,28 +1,26 @@
 #!/bin/env python3
+"""
+Calls the `raw_exe` linker using a `yaml` manifest
+"""
 
 # Import
-import yaml
 import argparse
 from pathlib import Path
 import subprocess
-
-
-def process_path(path: str | Path, input_dir: Path):
-	path = Path(path)
-	if path.is_absolute():
-		# TODO: Make this work on windows?
-		return path.relative_to("/")
-	else:
-		return input_dir.joinpath(path)
+import yaml
+import util
 
 
 def main(args):
-	config = yaml.safe_load(open(args.input_yaml))
+	"""
+	Main function
+	"""
+	config = yaml.safe_load(open(args.input_yaml, encoding="utf-8"))
 	input_dir = Path(args.input_yaml).parent
 
-	elf_path = process_path(config["elf"], input_dir)
+	elf_path = util.process_path(config["elf"], input_dir)
 
-	subprocess.run([args.mkraw_exe_bin, elf_path, "-o", args.output])
+	subprocess.run([args.mkraw_exe_bin, elf_path, "-o", args.output], check=True)
 
 
 if __name__ == "__main__":

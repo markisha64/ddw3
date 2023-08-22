@@ -1,2 +1,5 @@
 # Rust output
 target/
+
+# Python
+__pycache__/

@@ -1,4 +1,0 @@
-[style]
-based_on_style = yapf
-use_tabs = true
-column_limit = 120

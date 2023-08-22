@@ -1,29 +1,27 @@
 #!/bin/env python3
+"""
+Calls the `ld` linker using a `yaml` manifest
+"""
 
 # Import
-import yaml
 import argparse
 from pathlib import Path
 import subprocess
-
-
-def process_path(path: str | Path, input_dir: Path) -> Path:
-	path = Path(path)
-	if path.is_absolute():
-		# TODO: Make this work on windows?
-		return path.relative_to("/")
-	else:
-		return input_dir.joinpath(path)
+import yaml
+import util
 
 
 def main(args):
-	config = yaml.safe_load(open(args.input_yaml))
+	"""
+	Main function
+	"""
+	config = yaml.safe_load(open(args.input_yaml, encoding="utf-8"))
 	input_dir = Path(args.input_yaml).parent
 
 	entry = config.get("entry")
 	start_addr = config["start_addr"]
 	objs = config["objs"]
-	objs = list(map(lambda obj_path: str(process_path(obj_path, input_dir)), objs))
+	objs = list(map(lambda obj_path: str(util.process_path(obj_path, input_dir)), objs))
 
 	sections = config["sections"]
 	sections = map(lambda section: f"KEEP(*({section}));", sections)
@@ -33,7 +31,7 @@ def main(args):
 	link_with = list(map(lambda file: f"--just-symbols={file}", link_with))
 
 	# Create the linker script
-	with open(args.linker_script_output, "w") as linker_script_file:
+	with open(args.linker_script_output, "w", encoding="utf-8") as linker_script_file:
 
 		linker_script_file.write(f"""\
 SECTIONS {{
@@ -47,7 +45,7 @@ SECTIONS {{
 	/DISCARD/ : {{ *(*) }}
 }}""")
 
-		if entry != None:
+		if entry is not None:
 			linker_script_file.write(f"""\
 
 
@@ -65,7 +63,7 @@ ENTRY({entry})""")
 	    "--no-warn-mismatch",  # TODO: Might be worth considering some mismatches?
 	    "--warn-common",
 	] + link_with + objs
-	subprocess.run(args)
+	subprocess.run(args, check=True)
 
 
 if __name__ == "__main__":

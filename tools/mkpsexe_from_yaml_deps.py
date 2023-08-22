@@ -1,31 +1,29 @@
 #!/bin/env python3
+"""
+Generates dependencies for creating a `psexe` from a `yaml` manifest.
+"""
 
 # Import
-import yaml
 import argparse
 from pathlib import Path
-
-
-def process_path(path: str | Path, input_dir: Path):
-	path = Path(path)
-	if path.is_absolute():
-		# TODO: Make this work on windows?
-		return path.relative_to("/")
-	else:
-		return input_dir.joinpath(path)
+import yaml
+import util
 
 
 def main(args):
-	config = yaml.safe_load(open(args.input_yaml))
+	"""
+	Main function
+	"""
+	config = yaml.safe_load(open(args.input_yaml, encoding="utf-8"))
 	input_dir = Path(args.input_yaml).parent
 
-	deps_file = open(args.deps_file, "w")
+	deps_file = open(args.deps_file, "w", encoding="utf-8")
 	deps_file.write(f"{args.output}: ")
 
-	elf_path = process_path(config["elf"], input_dir)
+	elf_path = util.process_path(config["elf"], input_dir)
 	deps_file.write(f"{elf_path} ")
 
-	license_path = process_path(config["license"], input_dir)
+	license_path = util.process_path(config["license"], input_dir)
 	deps_file.write(f"{license_path} ")
 
 

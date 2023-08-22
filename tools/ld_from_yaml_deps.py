@@ -1,33 +1,31 @@
 #!/bin/env python3
+"""
+Generates dependencies for creating an `elf` from a `yaml` manifest.
+"""
 
 # Import
-import yaml
 import argparse
 from pathlib import Path
-
-
-def process_path(path: str | Path, input_dir: Path):
-	path = Path(path)
-	if path.is_absolute():
-		# TODO: Make this work on windows?
-		return path.relative_to("/")
-	else:
-		return input_dir.joinpath(path)
+import yaml
+import util
 
 
 def main(args):
-	config = yaml.safe_load(open(args.input_yaml))
+	"""
+	Main function
+	"""
+	config = yaml.safe_load(open(args.input_yaml, encoding="utf-8"))
 	input_dir = Path(args.input_yaml).parent
 
-	deps_file = open(args.deps_file, "w")
+	deps_file = open(args.deps_file, "w", encoding="utf-8")
 	deps_file.write(f"{args.output}: ")
 
 	for obj_path in config["objs"]:
-		obj_path = process_path(obj_path, input_dir)
+		obj_path = util.process_path(obj_path, input_dir)
 		deps_file.write(f"{obj_path} ")
 
 	for link_path in (config.get("link_with") or []):
-		obj_path = process_path(link_path, input_dir)
+		obj_path = util.process_path(link_path, input_dir)
 		deps_file.write(f"{link_path} ")
 
 

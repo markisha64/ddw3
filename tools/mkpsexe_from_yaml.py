@@ -1,32 +1,30 @@
 #!/bin/env python3
+"""
+Calls the `mkpsexe` linker using a `yaml` manifest
+"""
 
 # Import
-import yaml
 import argparse
 from pathlib import Path
 import subprocess
-
-
-def process_path(path: str | Path, input_dir: Path):
-	path = Path(path)
-	if path.is_absolute():
-		# TODO: Make this work on windows?
-		return path.relative_to("/")
-	else:
-		return input_dir.joinpath(path)
+import yaml
+import util
 
 
 def main(args):
-	config = yaml.safe_load(open(args.input_yaml))
+	"""
+	Main function
+	"""
+	config = yaml.safe_load(open(args.input_yaml, encoding="utf-8"))
 	input_dir = Path(args.input_yaml).parent
 
-	elf_path = process_path(config["elf"], input_dir)
-	license_path = process_path(config["license"], input_dir)
+	elf_path = util.process_path(config["elf"], input_dir)
+	license_path = util.process_path(config["license"], input_dir)
 	resize_text = config.get("resize_text")
 	resize_args = ["--resize-text", str(resize_text)] if resize_text is not None else []
 
 	args = [args.mkpsexe_bin, elf_path, "-o", args.output, "--license", license_path] + resize_args
-	subprocess.run(args)
+	subprocess.run(args, check=True)
 
 
 if __name__ == "__main__":

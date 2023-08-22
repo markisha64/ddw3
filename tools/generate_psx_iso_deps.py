@@ -1,10 +1,17 @@
 #!/bin/env python3
+"""
+Generates dependencies for a `psx` `ISO` file.
+"""
 
+# Imports
 import xml.etree.ElementTree as ET
 import argparse
 
 
 def main(args):
+	"""
+	Main function
+	"""
 	# Parse the xml file
 	tree = ET.parse(args.xml)
 	root = tree.getroot()
@@ -12,7 +19,7 @@ def main(args):
 	files = map(lambda file: file.get("source"), files)
 	files = ' '.join(files)
 
-	with open(args.deps_file, "w") as deps_file:
+	with open(args.deps_file, "w", encoding="utf-8") as deps_file:
 		deps_file.write(f"{args.iso}: {files}")
 
 

@@ -1,12 +1,19 @@
 #!/bin/env python3
+"""
+Generates dependencies for the compare rule.
+"""
 
+# Imports
 import argparse
 
 
 def main(args):
+	"""
+	Main function
+	"""
 	# Build the dependencies
 	deps = []
-	with open(args.checksums) as f:
+	with open(args.checksums, encoding="utf-8") as f:
 		for line in f:
 			[_, dep_path] = line.split('  ')
 			dep_path = dep_path.rstrip('\n')
@@ -14,7 +21,7 @@ def main(args):
 	deps = ' '.join(deps)
 
 	# Then write them
-	with open(args.deps_file, "w") as deps_file:
+	with open(args.deps_file, "w", encoding="utf-8") as deps_file:
 		deps_file.write(f"{args.compare_output}: {deps}")
 
 

@@ -1,0 +1,12 @@
+[FORMAT]
+indent-string='\t'
+max-line-length=120
+
+# `f`: Callbacks
+good-names=f
+
+[MESSAGES CONTROL]
+
+# W0621: Due to variables defined in `if __name__ == "__main__"`.
+# W0511: This shouldn't be a warning
+disable=W0621,W0511
