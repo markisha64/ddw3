@@ -16,16 +16,17 @@ alias:
   touch    : touch            # touch     (GNU coreutils) 9.3
   truncate : truncate         # truncate  (GNU coreutils) 9.3
   python3  : python3          # Python 3.11.3
+  yq       : yq               # yq 3.2.2
 
   # Other tools
   generate_psx_iso_deps   : tools/generate_psx_iso_deps.py
   generate_compare_deps   : tools/generate_compare_deps.py
   mkpsexe_from_yaml       : tools/mkpsexe_from_yaml.py
   mkpsexe_from_yaml_deps  : tools/mkpsexe_from_yaml_deps.py
-  mkraw_exe_from_yaml     : tools/mkraw_exe_from_yaml.py
   mkraw_exe_from_yaml_deps: tools/mkraw_exe_from_yaml_deps.py
   ld_from_yaml            : tools/ld_from_yaml.py
   ld_from_yaml_deps       : tools/ld_from_yaml_deps.py
+  process_path            : tools/process_path.py
 
   # Cargo tools
   mkpsexe  : $(build_rust_tool_dir)/ddw3-mkpsexe
@@ -181,20 +182,20 @@ rules:
     out: [$(rust_tool), deps_file: $(rust_tool_deps)]
     deps: [static: $(rust_tool::dir_name)/]
     exec:
-      cwd: tools/
-      cmds:
-        - - $(cargo)
+      - cwd: tools/
+        args:
+          - $(cargo)
           - build
           - --release
           - --package=^(name)
           - -Z=unstable-options
           - --out-dir=../$(build_rust_tool_dir)
-        - [$(cp), target/release/^(name).d, ../$(rust_tool_deps)]
-        - - $(sed)
-          - -i
-          - -e
-          - 's,tools/target/release/,$(build_rust_tool_dir)/,g'
-          - ../$(rust_tool_deps)
+      - [$(cp), tools/target/release/^(name).d, $(rust_tool_deps)]
+      - - $(sed)
+        - -i
+        - -e
+        - 's,tools/target/release/,$(build_rust_tool_dir)/,g'
+        - $(rust_tool_deps)
 
   # Buffer
   dummy_buffer:
@@ -243,17 +244,15 @@ rules:
     out: [$(raw_exe)]
     deps:
       - $(raw_exe_yaml)
-      - $(mkraw_exe_from_yaml)
       - deps_file: $(raw_exe_deps)
       - static: $(raw_exe::dir_name)/
     exec:
-      - - $(python3)
-        - $(mkraw_exe_from_yaml)
-        - $(raw_exe_yaml)
-        - -o
-        - $(raw_exe)
-        - --objcopy-bin
-        - $(objcopy)
+      - - $(objcopy)
+        - - $(python3)
+          - $(process_path)
+          - --input-dir=$(raw_exe_yaml::dir_name)/
+          - [$(yq), -rj, .elf, $(raw_exe_yaml)]
+        - '--dump-section=.text=$(raw_exe)'
 
   # Raw exe dependencies
   raw_exe_deps:
@@ -346,44 +345,44 @@ rules:
     deps:
       - static: $(rust_lib::dir_name)/
     exec:
-      cwd: rust/
-      cmds:
-        # Build the crate and copy the finished library
-        - - $(cargo)
+      # Build the crate and copy the finished library
+      - cwd: rust/
+        args:
+          - $(cargo)
           - build
           - --release
           - --package=^(name)
           - -Z=unstable-options
-        - [$(cp), $(build_target_dir)/lib^(name).a, ../$(rust_lib)]
+      - [$(cp), rust/$(build_target_dir)/lib^(name).a, $(rust_lib)]
 
-        # Extract the `.a` and turn it into a `.o`
-        # Note: Sometimes the linker doesn't like object files being
-        #       within an archive and will ignore them unless they're
-        #       extracted.
-        # TODO: Fix the linker and remove this. Currently this only extracts
-        #       the crate itself and not any of it's dependencies. This is
-        #       *currently* all we need, but in the future we might need to
-        #       use the dependencies.
-        - [$(mkdir), -p, ../$(rust_lib).extracted]
-        - [$(ar), x, ../$(rust_lib), --output, ../$(rust_lib).extracted]
-        - [
-            find,
-            ../$(rust_lib).extracted,
-            -type,
-            f,
-            -name,
-            '*^(name)*',
-            -exec,
-            mv,
-            '{}',
-            ../$(rust_lib_obj),
-            ';',
-          ]
+      # Extract the `.a` and turn it into a `.o`
+      # Note: Sometimes the linker doesn't like object files being
+      #       within an archive and will ignore them unless they're
+      #       extracted.
+      # TODO: Fix the linker and remove this. Currently this only extracts
+      #       the crate itself and not any of it's dependencies. This is
+      #       *currently* all we need, but in the future we might need to
+      #       use the dependencies.
+      - [$(mkdir), -p, $(rust_lib).extracted]
+      - [$(ar), x, $(rust_lib), --output, $(rust_lib).extracted]
+      - [
+          find,
+          $(rust_lib).extracted,
+          -type,
+          f,
+          -name,
+          '*^(name)*',
+          -exec,
+          mv,
+          '{}',
+          $(rust_lib_obj),
+          ';',
+        ]
 
-        # Then copy the dependency file and adjust the references
-        - [$(cp), $(build_target_dir)/lib^(name).d, ../$(rust_lib_deps)]
-        - - sed
-          - -i
-          - -e
-          - 's,rust/$(build_target_dir)/lib^(name).a,$(build_rust_dir)/^(name).a,g'
-          - ../$(rust_lib_deps)
+      # Then copy the dependency file and adjust the references
+      - [$(cp), rust/$(build_target_dir)/lib^(name).d, $(rust_lib_deps)]
+      - - sed
+        - -i
+        - -e
+        - 's,rust/$(build_target_dir)/lib^(name).a,$(build_rust_dir)/^(name).a,g'
+        - $(rust_lib_deps)
