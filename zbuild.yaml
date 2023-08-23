@@ -2,19 +2,20 @@
 alias:
   # External tools
   # prettier-ignore
-  as       : mips-elf-as # GNU assembler (GNU Binutils) 2.39
-  ar       : mips-elf-ar # GNU assembler (GNU Binutils) 2.39
-  ld       : mips-elf-ld # GNU assembler (GNU Binutils) 2.39
-  mkpsxiso : mkpsxiso    # MKPSXISO 2.02
-  cargo    : cargo       # cargo 1.72.0-nightly (f7b95e316 2023-05-30)
-  sed      : sed         # sed (GNU sed) 4.9
-  sha256sum: sha256sum   # sha256sum (GNU coreutils) 9.3
-  rm       : rm          # rm        (GNU coreutils) 9.3
-  mkdir    : mkdir       # mkdir     (GNU coreutils) 9.3
-  cp       : cp          # cp        (GNU coreutils) 9.3
-  touch    : touch       # touch     (GNU coreutils) 9.3
-  truncate : truncate    # truncate  (GNU coreutils) 9.3
-  python3  : python3     # Python 3.11.3
+  as       : mips-elf-as      # GNU assembler (GNU Binutils) 2.39
+  ar       : mips-elf-ar      # GNU assembler (GNU Binutils) 2.39
+  ld       : mips-elf-ld      # GNU assembler (GNU Binutils) 2.39
+  objcopy  : mips-elf-objcopy # GNU assembler (GNU Binutils) 2.39
+  mkpsxiso : mkpsxiso         # MKPSXISO 2.02
+  cargo    : cargo            # cargo 1.72.0-nightly (f7b95e316 2023-05-30)
+  sed      : sed              # sed (GNU sed) 4.9
+  sha256sum: sha256sum        # sha256sum (GNU coreutils) 9.3
+  rm       : rm               # rm        (GNU coreutils) 9.3
+  mkdir    : mkdir            # mkdir     (GNU coreutils) 9.3
+  cp       : cp               # cp        (GNU coreutils) 9.3
+  touch    : touch            # touch     (GNU coreutils) 9.3
+  truncate : truncate         # truncate  (GNU coreutils) 9.3
+  python3  : python3          # Python 3.11.3
 
   # Other tools
   generate_psx_iso_deps   : tools/generate_psx_iso_deps.py
@@ -28,7 +29,6 @@ alias:
 
   # Cargo tools
   mkpsexe  : $(build_rust_tool_dir)/ddw3-mkpsexe
-  mkraw_exe: $(build_rust_tool_dir)/ddw3-mkraw_exe
 
   # Directories
   build_dir  : build
@@ -244,7 +244,6 @@ rules:
     deps:
       - $(raw_exe_yaml)
       - $(mkraw_exe_from_yaml)
-      - $(mkraw_exe)
       - deps_file: $(raw_exe_deps)
       - static: $(raw_exe::dir_name)/
     exec:
@@ -253,8 +252,8 @@ rules:
         - $(raw_exe_yaml)
         - -o
         - $(raw_exe)
-        - --mkraw_exe-bin
-        - $(mkraw_exe)
+        - --objcopy-bin
+        - $(objcopy)
 
   # Raw exe dependencies
   raw_exe_deps:

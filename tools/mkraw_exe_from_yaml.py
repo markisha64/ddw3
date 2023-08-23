@@ -20,14 +20,14 @@ def main(args):
 
 	elf_path = util.process_path(config["elf"], input_dir)
 
-	subprocess.run([args.mkraw_exe_bin, elf_path, "-o", args.output], check=True)
+	subprocess.run([args.objcopy_bin, elf_path, f"--dump-section=.text={args.output}"], check=True)
 
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description="`mkraw_exe` wrapper")
 	parser.add_argument("input_yaml", type=str)
 	parser.add_argument("-o", dest="output", type=str, required=True)
-	parser.add_argument("--mkraw_exe-bin", dest="mkraw_exe_bin", type=str, required=True)
+	parser.add_argument("--objcopy-bin", dest="objcopy_bin", type=str, required=True)
 
 	args = parser.parse_args()
 	main(args)
