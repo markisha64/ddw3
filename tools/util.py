@@ -7,13 +7,14 @@ from pathlib import Path
 
 
 # TODO: Rename this to something better
-def process_path(path: str | Path, input_dir: Path):
+def process_path(path: str | Path, input_dir: str | Path):
 	"""
 	Joins `path` to `input_dir`, if `path` is relative.
 	Else returns `path` relative to the current working directory
 	"""
 
 	path = Path(path)
+	input_dir = Path(path)
 	if path.is_absolute():
 		# TODO: Make this work on windows?
 		return path.relative_to("/")
