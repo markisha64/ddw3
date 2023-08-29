@@ -3,13 +3,11 @@ edition = "2021"
 name = "ddw3-util"
 version = "0.1.0"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
 
+anyhow = { workspace = true }
 ascii = { workspace = true }
+either = { workspace = true }
 ref-cast = { workspace = true }
 serde = { workspace = true }
-anyhow = { workspace = true }
 thiserror = { workspace = true }
-either = "1.9.0"

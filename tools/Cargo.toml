@@ -28,34 +28,37 @@ members = [
 
 [workspace.dependencies]
 
-anyhow = "1.0.71"
+anyhow = "1.0.75"
 arrayref = "0.3.7"
 ascii = "1.1.0"
-bitflags = "2.3.2"
+bitflags = "2.4.0"
 byteorder = "1.4.3"
-clap = { version = "4.3.4", features = ["derive"] }
+clap = { version = "4.4.1", features = ["derive"] }
 derive_more = "0.99.17"
+either = "1.9.0"
 extend = "1.2.0"
 goblin = "0.7.1"
 int-conv = "0.1.4"
-ref-cast = "1.0.16"
-serde = { version = "1.0.164", features = ["derive"] }
-serde_yaml = "0.9.21"
-thiserror = "1.0.40"
+itertools = "0.11.0"
+ref-cast = "1.0.20"
+serde = { version = "1.0.188", features = ["derive"] }
+serde_with = "3.3.0"
+serde_yaml = "0.9.25"
+thiserror = "1.0.47"
 tracing = "0.1.37"
 tracing-subscriber = { version = "0.3.17", features = ["env-filter"] }
-xml-rs = "0.8.14"
+xml-rs = "0.8.16"
 
 # Workspace
-ddw3-cdrom-xa = { path = "ddw3-cdrom-xa" }
-ddw3-uncd = { path = "ddw3-uncd" }
-ddw3-iso9660 = { path = "ddw3-iso9660" }
-ddw3-uniso = { path = "ddw3-uniso" }
-ddw3-psexe = { path = "ddw3-psexe" }
-ddw3-mkpsexe = { path = "ddw3-mkpsexe" }
-ddw3-lang-file = { path = "ddw3-lang-file" }
-ddw3-unlang-file = { path = "ddw3-unlang-file" }
-ddw3-mklang-file = { path = "ddw3-mklang-file" }
 ddw3-bytes = { path = "ddw3-bytes" }
-ddw3-util = { path = "ddw3-util" }
+ddw3-cdrom-xa = { path = "ddw3-cdrom-xa" }
+ddw3-iso9660 = { path = "ddw3-iso9660" }
+ddw3-lang-file = { path = "ddw3-lang-file" }
 ddw3-logger = { path = "ddw3-logger" }
+ddw3-mklang-file = { path = "ddw3-mklang-file" }
+ddw3-mkpsexe = { path = "ddw3-mkpsexe" }
+ddw3-psexe = { path = "ddw3-psexe" }
+ddw3-uncd = { path = "ddw3-uncd" }
+ddw3-uniso = { path = "ddw3-uniso" }
+ddw3-unlang-file = { path = "ddw3-unlang-file" }
+ddw3-util = { path = "ddw3-util" }
