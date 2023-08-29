@@ -10,4 +10,6 @@ version = "0.1.0"
 ascii = { workspace = true }
 ref-cast = { workspace = true }
 serde = { workspace = true }
+anyhow = { workspace = true }
 thiserror = { workspace = true }
+either = "1.9.0"

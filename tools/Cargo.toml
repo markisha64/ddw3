@@ -15,6 +15,11 @@ members = [
 	"ddw3-psexe",
 	"ddw3-mkpsexe",
 
+	# Lang file
+	"ddw3-lang-file",
+	"ddw3-unlang-file",
+	"ddw3-mklang-file",
+
 	# Util
 	"ddw3-bytes",
 	"ddw3-util",
@@ -48,6 +53,9 @@ ddw3-iso9660 = { path = "ddw3-iso9660" }
 ddw3-uniso = { path = "ddw3-uniso" }
 ddw3-psexe = { path = "ddw3-psexe" }
 ddw3-mkpsexe = { path = "ddw3-mkpsexe" }
+ddw3-lang-file = { path = "ddw3-lang-file" }
+ddw3-unlang-file = { path = "ddw3-unlang-file" }
+ddw3-mklang-file = { path = "ddw3-mklang-file" }
 ddw3-bytes = { path = "ddw3-bytes" }
 ddw3-util = { path = "ddw3-util" }
 ddw3-logger = { path = "ddw3-logger" }

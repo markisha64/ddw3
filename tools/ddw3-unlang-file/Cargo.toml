@@ -1,0 +1,27 @@
+[package]
+authors = ["Filipe Rodrigues <filipejacintorodrigues1@gmail.com>"]
+edition = "2021"
+name = "ddw3-unlang-file"
+version = "0.1.0"
+
+[dependencies]
+
+# Ddw3
+ddw3-lang-file = { path = "../ddw3-lang-file" }
+ddw3-logger = { path = "../ddw3-logger" }
+ddw3-util = { path = "../ddw3-util" }
+
+# Cmd
+clap = { version = "4.0.15", features = ["derive"] }
+
+# Logging
+tracing = "0.1.37"
+
+# Error handling
+anyhow = "1.0.65"
+
+# Util
+byteorder = "1.4.3"
+itertools = "0.10.5"
+either = "1.9.0"
+serde_yaml = "0.9.25"

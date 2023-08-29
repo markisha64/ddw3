@@ -21,6 +21,14 @@ pub use {
 	write_take::{WriteTake, WriteTakeExt},
 };
 
+// Imports
+use {
+	anyhow::Context,
+	either::Either,
+	std::{fs, io, path::Path},
+};
+
+
 /// Helper to read an array of bytes from a reader
 pub trait ReadByteArray {
 	/// Reads a byte array, `[u8; N]` from this reader
@@ -33,4 +41,32 @@ impl<R: ?Sized + std::io::Read> ReadByteArray for R {
 		self.read_exact(&mut bytes)?;
 		Ok(bytes)
 	}
+}
+
+/// Opens an input file, or uses stdin if `None` or `Some("-")`
+pub fn open_input_file(input_file: Option<&Path>) -> Result<impl io::Read, anyhow::Error> {
+	let output = match input_file {
+		// If none, or `-`, use stdin
+		None => Either::Left(io::stdin().lock()),
+		Some(output) if output.to_str() == Some("-") => Either::Left(io::stdin().lock()),
+
+		// Else create the output file
+		Some(output_file) => Either::Right(fs::File::open(output_file).context("Unable to open input file")?),
+	};
+
+	Ok(output)
+}
+
+/// Creates an output file, or uses stdout if `None` or `Some("-")`
+pub fn create_output_file(output_file: Option<&Path>) -> Result<impl io::Write, anyhow::Error> {
+	let output = match output_file {
+		// If none, or `-`, use stdout
+		None => Either::Left(io::stdout().lock()),
+		Some(output) if output.to_str() == Some("-") => Either::Left(io::stdout().lock()),
+
+		// Else create the output file
+		Some(output_file) => Either::Right(fs::File::create(output_file).context("Unable to create output file")?),
+	};
+
+	Ok(output)
 }
