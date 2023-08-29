@@ -1,0 +1,147 @@
+type: simple
+strings:
+  - ''
+  - Lotta
+  - Tecnol.
+  - DV
+  - Segna
+  - Oggetto
+  - Corri
+  - Agguato!
+  - Attacca!
+  - '[\x020501]!'
+  - Contratt.! [\x020501]!
+  - '[\x020501] danni!'
+  - X
+  - PM
+  - PF
+  - '[-4][-4][-4]'
+  - /
+  - L1
+  - R1
+  - Non hai imparato nulla.
+  - Nessuna riserva
+  - Nessun oggetto.
+  - '[\x020501]'
+  - '[\x020501]・[\x020502]'
+  - '[\x020501]・[\x020502]・[\x020503]'
+  - Liv.
+  - '[-4][-4]'
+  - Cambia
+  - DNA DV
+  - Sfuggito!
+  - Avvelenato!
+  - Congelato!
+  - Confuso!
+  - Addormentato!
+  - '[\x020501] PF curati!'
+  - '[\x020501] X [\x020502] = [\x020503]!'
+  - '[-4]'
+  - Contrattacco!
+  - Rubato
+  - I PF aumentano gradualmente.
+  - Curato!
+  - Scongelato!
+  - Cosciente!
+  - Sveglio!
+  - Tutti i problemi curati!
+  - Ripristinato!
+  - In ottima forma!
+  - Nessun effetto!
+  - Forza [arrow-up]!
+  - Difesa [arrow-up]!
+  - Velocità [arrow-up]!
+  - Forza [arrow-down]!
+  - Difesa [arrow-down]!
+  - Velocità [arrow-down]!
+  - Risparmia Chi!
+  - Digivoluz.! [\x020501]!
+  - Indietro!
+  - Vai!
+  - DNA DV!
+  - PF e PM recuperati!
+  - Pensa all'attacco
+  - Pensa alla difesa
+  - L'effetto speciale aumenta!
+  - L'indicatore potenza sale!
+  - Eccitato!
+  - Corri!
+  - Non puoi correre
+  - Fuggi!
+  - Non puoi fuggire
+  - Niente (Nessun suggerimento)
+  - Generazione
+  - Digivoluzione!
+  - In fuga!
+  - Forza maledetta!
+  - Difesa maledetta!
+  - Velocità maledetta!
+  - Forza, difesa, velocità maledette!
+  - Eliminazione Digimon!
+  - Prossimo Digimon fuori!
+  - '[\x020501]!'
+  - KO!
+  - Sconfitto!
+  - Battaglia vinta!
+  - Annientato.
+  - Niente PM.
+  - 'Avvelenato: [\x020501]'
+  - Congelato e immobilizzato
+  - Non puoi fuggire
+  - Niente (Nessun suggerimento)
+  - Riduzione effetto speciale!
+  - Niente più recupero automatico!
+  - Forza normale!
+  - Difesa normale!
+  - Velocità normale!
+  - Tentativo fuga.
+  - In fuga!
+  - Non è fuggito.
+  - Colpito!
+  - Alla normalità!
+  - Campo di fuoco!
+  - Campo d'acqua!
+  - Campo di ghiaccio!
+  - Campo di vento!
+  - Campo di tuono!
+  - Campo di macchine!
+  - Campo di tenebre!
+  - Il campo è svanito!
+  - Ride
+  - Confessa
+  - Danza
+  - Esce
+  - Vanta
+  - Seduce
+  - Impazzito
+  - Piange
+  - Ghigna!
+  - Denti bianchi lucidi!
+  - Sta confessando!
+  - '"Amo le cose dolci"'
+  - Sta danzando!
+  - '"Mi sento strano!"'
+  - Sta partendo!
+  - '"Lascio questa casa!"'
+  - Si sta vantando!
+  - '"Sono il migliore!"'
+  - Si atteggia!
+  - '"Ehi, salve!"'
+  - Si arrabbia!
+  - '"Me ne vado!"'
+  - Piange a dirotto!
+  - Le lacrime sono salate!
+  - Ride fragorosamente!
+  - Guarda da questa parte!
+  - Sta danzando!
+  - '"Io sono il numero uno!"'
+  - Vuole andare a casa!
+  - Sta riordinando!
+  - Sta cantando!
+  - Sta servendo la cena!
+  - Cosa? Il corpo?
+  - Galactimon ha imparato una tecnica
+  - Niente MP!
+  - Cambio fallito!
+  - '[\x020501] PM assorbiti!'
+  - Addormentato!

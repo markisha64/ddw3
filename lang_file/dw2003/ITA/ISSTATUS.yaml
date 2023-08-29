@@ -1,0 +1,114 @@
+type: simple
+strings:
+  - ''
+  - LV
+  - PF
+  - PM
+  - /
+  - BIT
+  - OGGETTI
+  - ORDINA
+  - MAPPA
+  - TECNICHE
+  - STATO
+  - CARTELLE CARTE
+  - '[-4][-4][-4][-4][-4]'
+  - '[-4][-4]'
+  - '[-4][-4][-4][-4]'
+  - |-
+    Cambia formazione Digimon
+    Tasto [triangle]: torna al menu
+  - |-
+    Imposs. cambiare formaz. Digimon
+    Tasto [triangle]: torna al menu
+  - Chi cambi?
+  - Con chi lo cambi?
+  - 'Tasto [triangle]: chiudi lo stato'
+  - Quale?
+  - 'Tasto [triangle]: torna al menu'
+  - Oggetti
+  - Armi
+  - Corazze
+  - Accessori
+  - Ogg. import.
+  - Usa oggetto
+  - Tutte le armi
+  - Tutte le corazze
+  - Tutti gli accessori
+  - Tutti ogg. import.
+  - Equip
+  - 'Tasto [square]: ordina oggetti'
+  - L1
+  - R1
+  - Ordina oggetti
+  - Per forza
+  - Per nome
+  - Scegli il Digimon
+  - Usa tecnica Digimon.
+  - Non ha imparato tecniche.
+  - Scegli una tecnica
+  - Su chi la usi?
+  - Cosa fai?
+  - Vedi digivol.
+  - Vedi equipag.
+  - Opzioni demo
+  - Digivoluzione ed equip. Digimon
+  - Vedere le carte?
+  - Sì
+  - No
+  - Digivol.
+  - ESP
+  - '[-4][-4][-4][-4][-4][-4][-4][-4]'
+  - Scegli digivoluzione
+  - Livello
+  - Digivol. battaglia sì
+  - Digivol. battaglia no
+  - Spiegazione tecniche
+  - Digivol. battaglia attivata
+  - Digivol. battaglia disattiv.
+  - Nessuna tecnica.
+  - Quale cambi?
+  - X
+  - Testa
+  - Corpo
+  - Destra
+  - Access.
+  - Riponi
+  - Demo digivoluz.
+  - SÌ
+  - NO
+  - Configura demo digiv. batt.
+  - Album carte
+  - Modifica cartella
+  - Modifica carta
+  - Sinist.
+  - PA
+  - Sx o dx
+  - Due mani
+  - Ripone equipaggiam. attuale
+  - PF riportati al massimo.
+  - '[\x020501] PF curati.'
+  - I PF max aumentano di [\x020501].
+  - I PM max aumentano di [\x020501].
+  - La forza aumenta di [\x020501].
+  - La difesa aumenta di [\x020501].
+  - Lo spirito aumenta di [\x020501].
+  - La saggezza aumenta di [\x020501].
+  - La velocità aumenta di [\x020501].
+  - Il carisma aumenta di [\x020501].
+  - Resist. al fuoco aumenta di [\x020501].
+  - Resist. all'acqua aumenta di [\x020501].
+  - Resist. al ghiaccio aumenta di [\x020501].
+  - Resist. al vento aumenta di [\x020501].
+  - Resist. al tuono aumenta di [\x020501].
+  - Resist. macchine aumenta di [\x020501].
+  - Resist. tenebre aumenta di [\x020501].
+  - I PA aumentano di [\x020501].
+  - Nessun oggetto.
+  - Nessun'arma.
+  - Nessuna corazza.
+  - Nessun accessorio.
+  - Nessun ogg. importante.
+  - PM insufficienti.
+  - Nessun effetto.
+  - '[-4]'

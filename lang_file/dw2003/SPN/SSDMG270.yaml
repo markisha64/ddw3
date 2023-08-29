@@ -1,0 +1,125 @@
+type: extended
+files:
+  - strings:
+      - ''
+      - "[\\x0207]Maes. Car. Ken[\\x0207]Mostraré la \ninformación en \ntu satélite.[pause]"
+      - |-
+        "Batalla de Cartas"
+        Esta lucha se realiza como un
+        juego de cartas.[pause][\x0203]Crea tu mazo con cartas de
+        300 a elegir y lucha con otros
+        domadores.[pause][\x0203]"Cartas"
+        Hay 314 cartas en total.
+        Puedes tener hasta nueve de cada.[pause][\x0203]Hay dos tipos de cartas:
+        Cartas de Programa y de Digimon.[pause]
+      - "\"Carta de Digimon\"\nCartas para invocar Digimon.[pause][\\x0203]En esta carta hay dos números:\nPA y PV.[pause][\\x0203]PA es la pot. ataque y PV son\npuntos de vida. Cuando PV llegue\na cero, el Digimon va a la papel.[pause][\\x0203]5/3 significa 5 PA y 3 PV.[pause][\\x0203]\"Tarjeta de Programa\"\nAtacan a la mano de tu oponente o\nrefuerzan la tuya.[pause][\\x0203]Existen varios efectos para cada \ncarta. Lee las cartas para \nobtener información.[pause]"
+      - |-
+        "Carpetas"
+        Antes de la batalla, crea una Carpeta
+        con 40 Cartas.[pause][\x0203]Las Carp. son necesarias para luchar.
+        Puedes poner hasta 4 iguales en una.[pause][\x0203]"Conf. Carta para Batalla"
+        Quien gana primero dos tiempos,
+        ganará la batalla.[pause][\x0203]Escoge la Carpeta que será tu mazo.
+        Una vez seleccionada, la batalla
+        comienza[pause][\x0203]Un tiempo está formado por
+        6 fases que explicaré ahora.[pause]
+      - "\"Fase Inicial\"\nDecide el primer jugador. Quien \nsaque Calumon, es el primero.[pause][\\x0203]\"Fase de Extracción\"\nSe deben extraer seis cartas del\nmazo para tu mano.[pause][\\x0203]Si no puedes extraer seis cartas en\nesta fase, pierdes. En batalla,\nel máximo es 10 cartas.[pause]"
+      - "\"Fase de Carga\"\nSeleccione un programa para\npreparar la fase de Invocación.[pause][\\x0203]Continuar cambiando turnos hasta \nque ambos jugad. pasen. Aquí hay  \nCartas PG que no pueden usarse.[pause][\\x0203]\"Fase de Invocación\"\nSeleccione una Carta Digimon \npara invocarlo.[pause][\\x0203]Se puede invocar 6 para el campo.\nHace falta S[-4]Energía\npara invocarlos.[pause]"
+      - "\"Fase de Compilado\"\nUtiliza tu Carta PG para\ndiferentes efectos.[pause][\\x0203]Continuar cambiando turnos hasta \nque ambos jug. pasen. Pueden \nusarse todas las Cartas PG.[pause][\\x0203]\"Fase de Batalla\"\nLucha de Digimon para decidir el\nganador.[pause][\\x0203]El ganador se decide comparando\nlos puntos de PA y PV. El que \nalcance cero, pierde.[pause][\\x0203]Es el final de un tiempo. El\nganador de dos, gana la batalla.\nObtiene un sobre de expansión.[pause]"
+      - |-
+        [\x0207]Maes. Car. Ken[\x0207]Eso es todo en cuanto
+        a las reglas.[pause][\x0203]Si quieres saber más,
+        pregunta a Luke.
+        ¡Diviértete![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Luke el Coleccionista[\x0207]Estoy enviando datos
+        a tu satélite.[pause]
+      - "\"S[-4]Energía\"\nLas Cartas son: Blancas, Azules,\nVerdes, Rojas, Negras y Marrones.[pause][\\x0203]La S[-4]Energía crece al\nextraer del mazo una carta de \nese color.[pause][\\x0203]La S[-4]Energía se usa para\ninvocar Digimon sobre nivel Novato.[pause][\\x0203]\"S[-4]Energía para invocar\"\nPara invocar un Digimon, hace falta\nS[-4]Energía del mismo color.[pause][\\x0203]Digimon campeón: un punto.\nDigimon definitivo: dos puntos.\nMega Digimon: tres puntos.[pause][\\x0203]Los Digimon novatos pueden \ninvocarse sin S[-4]Energía.[pause]"
+      - "\"Combinaciones\"\nMás de tres cartas iguales\nen el campo.[pause][\\x0203]Se suma el total de las cartas y si\nhay más de 4, hay una bonificación.[pause][\\x0203]\"Recogida de Cartas\"\nAl ganar una batalla, obtienes una \nexpansión que contiene cartas.[pause][\\x0203]Recibes expansiones si ganas\ncontra domadores.[pause][\\x0203]Hay un rumor sobre un Digimon\nque las tiene.[pause][\\x0203]\"Cardmon\"\nHay un Digimon llamado Cardmon\noculto en este mundo.[pause][\\x0203]Si le ganas, obtendrás \nexpansiones. Puede ocultarse en los\nárboles o el agua.[pause]"
+      - "\"Congelar Prog.\"\nEsta es una Carta de programa Azul.[pause][\\x0203]Cuando se usa tras una Carta PG \ndel oponente, la \ndetendrá antes de ejecutarse.[pause][\\x0203]Es una carta poderosa, si ganas una\nguárdala en tu Carpeta.[pause][\\x0203]\"Rumores de Cartas Especiales\"\nHay rumores de Cartas fuera de\nlas expansiones.[pause][\\x0203]El rumor dice que algún \ndomador la tiene. ¡Búscala![pause]"
+      - "[\\x0207]Luke el Coleccionista[\\x0207]No lo memorices ahora,\napréndelo con la \nexperiencia.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Divermon[\\x0207]Te daré una\nBolsa de Carp.[pause][\\x0203]Puedes usarla \ncon tres Carpetas\npropias.[pause]"
+      - |-
+        [\x0207][\x020902]3¿Carpeta?
+        ¿Qué es
+        eso?[pause]
+      - "[\\x0207]Divermon[\\x0207]Una Carpeta es un \njuego de 40 cartas\npuestas juntas.[pause][\\x0203]Puedes poner hasta\n4 iguales en un\njuego.[pause]"
+      - |-
+        [\x0207][\x020902]3¿Jue. de Cartas?
+        ¿Qué haces con
+        eso?[pause]
+      - "[\\x0207]Divermon[\\x0207]!!\n¡Eres imposible![pause][\\x0203]Para Bat. de Cart.\ntienes que luchar con\notros jugadores.[pause][\\x0203]Sacas cartas, pones\nun Digimon en el \ncampo y ¡lucha![pause][\\x0203]¡Mira aquí!\nHay alguien en \nel fragor de la bat.[pause]"
+      - "[\\x0207]Domadora Nacky[\\x0207]Saqué a Calumon,\nvoy primero.[pause][\\x0203]Es la Fase Extrac.,\nextraeré seis\nde mi mazo...[pause][\\x0203]¡Bien! ¡Tengo \nbuenas cartas![pause]"
+      - "[\\x0207]Domadora Nacky[\\x0207]Ahora es fase de \ncarga. Sacaré una\nCarta de programa.[pause][\\x0203]...¿Oh?\nPaso...[pause]"
+      - |-
+        [\x0207]Domador Steve[\x0207]Umm...
+        Paso también.[pause]
+      - "[\\x0207]Domadora Kacky[\\x0207]Pasamos ambos,\nfin de la Fase de \nCarga.[pause][\\x0203]¡Ahora, Fase de\nInvocación! ¡Vamos\na ver las Cartas![pause]"
+      - "[\\x0207]Domador Steve[\\x0207]De acuerdo.\n¡Al mismo \ntiempo![pause]"
+      - |-
+        [\x0207]Domadora Nacky[\x0207]¡Tengo dos Hawkmon
+        dos Agumon y dos
+        Meramon![pause]
+      - |-
+        [\x0207]Domador Steve[\x0207]¡Yo tengo un
+        Candlemon![pause]
+      - |-
+        [\x0207]Domadora Nacky[\x0207]¿Qué?
+        ¿Te ríes de
+        mi?[pause]
+      - "[\\x0207]Domador Steve[\\x0207]No...\nTengo un plan.[pause][\\x0203]Un verdadero \ndomador lucha con\nel mazo completo.[pause]"
+      - "[\\x0207]Domadora Gloria[\\x0207]Anulo tu Cañón \nde Fuego \ncontra Renamon.[pause][\\x0203]Con el programa \nde hielo. \n¿Siguiente?[pause]"
+      - "[\\x0207]Domador Wong[\\x0207]Umm, tenías \nCongelar \nBicho...[pause][\\x0203]No puedo \nhacer nada.\nPaso...[pause]"
+      - |-
+        [\x0207]Domadora Gloria[\x0207]Es una Carpeta Azul
+        así que tengo
+        4 Congelar Bicho.[pause][\x0203]También paso.
+        Fin de la Fase de
+        compilado.[pause]
+      - "[\\x0207]Domador Wong[\\x0207]Umm, Fase de\nBatalla...[pause][\\x0203]Sumemos los PA y \nPV de nuestros \nDigimon.[pause][\\x0203]Tengo un Growlmon.\n18 PA, 20 PV...[pause]"
+      - |-
+        [\x0207]Domadora Gloria[\x0207]Tengo tres Renamon
+        con 4 PA y 4 PV.
+        En total 12 PA y PV.[pause][\x0203]Pero son tres cartas
+        así que 12PA y 12PV,
+        invoco a Taomon.[pause]
+      - "[\\x0207]Domador Wong[\\x0207].....\nAhhh, correcto.[pause][\\x0203]Tu PA y PV son \nahora 24 y 24...\nGanas...[pause]"
+      - |-
+        [\x0207]Domadora Gloria[\x0207]¡Sí, gané![pause][\x0203]Pero una batalla es
+        al mejor de tres.
+        ¡No se ha acabado![pause]
+      - "[\\x0207]Divermon[\\x0207]¿Ves?\nEs emocionante...[pause][\\x0203]No creo que llegues\ntan rápido, pero...[pause][\\x0203]Aquí tienes una Bolsa\nde Carpetas adecuada \npara tres.[pause][\\x0203]Te daré mi\nCarpeta de Prácticas\nPersonalizada.[pause]"
+      - "[\\x0207][\\x020902]3¡Bien! \n¡Gracias!\n¡Lo intentaré![pause][\\x0203]Pero no tengo ni\nidea de qué \nestaban hablando...[pause]"
+      - "[\\x0207]Divermon[\\x0207]Ve con Ken o Luke.\nEllos te enseñarán.[pause][\\x0203]Cuando mejore tu\ncompañero, podrás\nluchar con todos.[pause][\\x0203]Un buen jugador es \ntambién buen domador.[pause][\\x0203]Los domadores con \ncompañeros fuertes,\nluchan mucho.[pause]"
+      - |-
+        [\x0207][\x020902]3¡Gracias por
+        todo, Divermon![pause]
+      - |-
+        [\x0207]Divermon[\x0207]Suerte.
+        Hasta luego[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Maes. Car. Ken[\x0207]Habla conmigo
+        cuando
+        quieras escuchar.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Luke el coleccio.[\x0207]Si quieres saber
+        más, ven a
+        hablar conmigo.[pause]
+  - strings:
+      - ''
+      - ¿Oír las regl.bás. de crt?
+      - ¡Me encantaría!
+      - No, áun no.
+  - strings:
+      - ''
+      - ¿Oír reglas de cartas?
+      - ¡Me encantaría!
+      - No, áun no.

@@ -1,0 +1,41 @@
+type: simple
+strings:
+  - ''
+  - "Bienvenue à Digimon Online[pause]\n\nNous allons enregistrer \nton compte en ligne et  \nton Digimon partenaire.[pause]\n\n\nTon nom de compte sera\ncelui que tu porteras dans \nle Digimonde.[pause]\n\n\nChoisis ton Digimon\npartenaire dans l'un des trois\njeux de départ.[pause]\n\n\nCommençons la procédure.[pause]"
+  - _
+  - '1'
+  - '2'
+  - '3'
+  - Choisir un Jeu de Départ
+  - A
+  - B
+  - C
+  - Jeu Equilibré
+  - Jeu Puissant
+  - Jeu Dément
+  - |-
+    Epéiste équilibré.
+    Apprends à guérir.
+  - |-
+    Expert art martial,
+    puissant et rapide.
+  - "Possède des armes à \nfeu. Tireur d'élite."
+  - "Aime cracher du feu. \nTrès agressif."
+  - Veemon
+  - "Digimon mauvais. Aime \n techniques bizarres."
+  - "Attaque l'ennemi avec \n foudre et glace."
+  - |-
+    Spécialiste guérison,
+    très attachant.
+  - Ecran de confirmation
+  - Enregistrer compte ?
+  - OUI
+  - NON
+  - '[\x020501]%'
+  - "Combine armes, magie et guérison. \nIdéal pour le travail en équipe."
+  - |-
+    Pour les sans[-4]peur qui pensent que
+     l'attaque est la meilleure défense.
+  - "Tous bizarres et compliqués. \nPatamon est la seule valeur sûre."
+  - ENTRE
+  - Enregistré

@@ -1,0 +1,447 @@
+type: extended
+files:
+  - strings:
+      - ''
+      - |-
+        [\x0207]Kail[\x0207]Gamemaster!
+        Verstecken![pause]
+      - "[\\x0207]Gamemaster[\\x0207]Um Himmels wil[-4]\nlen, was macht \nihr denn hier?![pause][\\x0203]Wir können nicht\nweitermachen![pause]"
+      - "[\\x0207]???[\\x0207]...Verzeihung.\nWir intensivieren \nunsere Suche.[pause]"
+      - |-
+        [\x0207]DO[-4]Wache[\x0207]Wir werden ihn finden.
+        Es ist nur eine Frage
+        der Zeit.[pause]
+      - |-
+        [\x0207][\x020902]3Hmmm, worüber
+        reden die wohl?[pause]
+      - |-
+        [\x0207]DO[-4]Wache[\x0207]Hey, warum laufen
+        hier Digimon herum?[pause]
+      - |-
+        [\x0207]DO[-4]Wache[\x0207]Sieht ver[-4]
+        dächtig aus.
+        Fang ihn![pause]
+      - |-
+        [\x0207]DO[-4]Wache[\x0207]Dich kriegen
+        wir![pause]
+      - |-
+        [\x0207][\x020902]3Sie haben
+        uns gefunden![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Gamemaster[\x0207]...was macht ihr
+        beiden denn hier?[pause]
+      - "[\\x0207][\\x020902]3Äh...äh... wir \nsuchen unseren\nFreund Teddy.[pause]"
+      - "[\\x0207]Gamemaster[\\x0207]Tut mir leid, wenn\nich euch erschreckte.[pause][\\x0203]Ich sorge m. auch um\ne. Freund. L. Mouse \nhat ihn wohl als Geisel.[pause]"
+      - |-
+        [\x0207][\x020902]3Lucky
+        Mouse?![pause]
+      - |-
+        [\x0207]Gamemaster[\x0207]Er ist schrecklich.
+        Er versucht, Digimon[-4]
+        Online zu zerstören![pause][\x0203]Er ist die Ursache für
+        die Probleme, die wir
+        mit dem System haben![pause]
+      - |-
+        [\x0207][\x020902]3Aber alle haben so
+        viel Spaβ mit Digimon[-4]
+        Online...[pause]
+      - "[\\x0207][\\x020902]3Ich kann's nicht \nglauben, L. Mou.![pause]"
+      - '[\x0207]Kail[\x0207]...[pause]'
+      - "[\\x0207]Gamemaster[\\x0207]Jeder Mitarbeiter \nsucht momentan nach \nLucky Mouse.[pause][\\x0203]Da fällt mir ein...\nKönnt ihr uns helfen?[pause]"
+      - |-
+        [\x0207][\x020902]3Natürlich!
+        Das machen wir![pause]
+      - "[\\x0207]Gamemaster[\\x0207]Danke. Ich\nverlasse mich\nauf euch.[pause][\\x0203]Wir hörten, \ner wolle\nz. Westsek.![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Hä?
+        War das die fal[-4]
+        sche Reihenfolge?[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Cool! Tatsächlich
+        eine Geheimtür![pause][\x0203]Gamemaster
+        müsste direkt da
+        vorne sein![pause]
+  - strings:
+      - ''
+      - "[\\x0207]Lisa[\\x0207]Rede![pause][\\x0203]Was hatten \ndie A.o.A \ngeplant?[pause]"
+      - "[\\x0207]Gamemaster[\\x0207]Heh...heh...heh!\nIhr seid zu spät![pause][\\x0203]Der Plan wurde ni.\nvereitelt. Er hat \ngerade begonnen![pause]"
+      - |-
+        [\x0207]Teddy[\x0207]Oh, nein...!
+        Sie haben das optische
+        Netz übernommen.[pause]
+      - '[\x0207]Nick[\x0207]Wie bitte!?[pause]'
+      - |-
+        [\x0207]Gamemaster[\x0207]Heh...heh...
+        Genau wie ich
+        gesagt habe.[pause]
+      - |-
+        [\x0207][\x020902]3Vemmon...
+        Dieses
+        Digimon![pause]
+      - |-
+        [\x0207]Gamemaster[\x0207]Über das optische Netz
+        kann er mit jeder
+        Maschine fusionieren![pause][\x0203]Lucky Mouse hat das
+        Digitama gestohlen u.
+        fast zerstört, aber...[pause]
+      - |-
+        [\x0207]Nick[\x0207]Was sollen wir tun?
+        Die A.o.A. haben
+        die Oberhand![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Zuerst sollten wir der
+        echten Welt berichten![pause]
+      - |-
+        [\x0207][\x020902]3Aber wie kommen
+        wir mit ihnen in
+        Kontakt...?[pause]
+      - |-
+        [\x0207]Lisa[\x0207]Ich habe mal
+        gehört...[pause][\x0203]Irgendwo im Nord[-4]
+        sektor gibt es eine
+        Notfallkammer...[pause]
+      - |-
+        [\x0207]Nick[\x0207]Dann können
+        wir damit
+        vielleicht...[pause]
+      - |-
+        [\x0207]Lisa[\x0207]Hm...
+        Na klar![pause]
+      - |-
+        [\x0207]Gamemaster[\x0207]Heh...heh...
+        Funktioniert nie![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Es ist einen Ver[-4]
+        such wert, oder
+        [\x020801][\x020501]?[pause]
+      - |-
+        [\x0207][\x020902]3Genau! Das
+        meine ich auch![pause][\x0203]Den A.o.A. wer[-4]
+        den wir es schon
+        zeigen![pause]
+      - |-
+        [\x0207][\x020902]3Den A.o.A. wer[-4]
+        den wir es schon
+        zeigen![pause]
+      - |-
+        [\x0207]Lisa[\x0207]OK, dann suchen
+        wir jetzt alle
+        nach der Kammer![pause]
+      - |-
+        [\x0207]Nick[\x0207]Hier geht's
+        lang![pause]
+      - |-
+        [\x0207]Teddy[\x0207]So lang[-4]
+        sam wird's
+        ernst![pause]
+      - |-
+        [\x0207][\x020902]3Keine Sorge.
+        Alles wird
+        gut![pause]
+      - |-
+        [\x0207]Kail[\x0207]Das hoffe
+        ich...[pause]
+      - a
+      - |-
+        [\x0207]Kurt[\x0207]Oioi!
+        Oioink![pause]
+      - |-
+        [\x0207]Gamemaster[\x0207]Alle Computernetze
+        werden den A.o.A.
+        gehören![pause]
+      - |-
+        [\x0207]Gamemaster[\x0207]Und unsere Vemmon
+        werden die Welt
+        zerstören![pause]
+      - |-
+        [\x0207]Gamemaster[\x0207]Und ihr seid
+        dann auch
+        erledigt![pause][\x0203]Der Sieg ist
+        uns gewiss![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Wenn wir das optische
+        Netz zerstören können,
+        ist ihr Plan hinfällig![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Wartet erst
+        einmal hier.[pause]
+      - |-
+        [\x0207]Kail[\x0207]Was geht wohl
+        in der echten
+        Welt vor?[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Lisa! A.o.A. haben
+        Juggernaut![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Ja.
+        Sieht so aus...[pause][\x0203]Teddy hat's bemerkt
+        u. uns erzählt![pause]
+      - |-
+        [\x0207]Teddy[\x0207]Die A.o.A. be[-4]
+        wegen sich mit
+        diesem Computer![pause]
+      - |-
+        [\x0207]Keith[\x0207]Und jetzt?
+        Juggernaut hat
+        so viel Power![pause]
+      - |-
+        [\x0207][\x020902]3Können wir es
+        nicht stoppen?![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Hmm..mal sehen...[pause][\x0203]OK, wir sollten
+        sie fragen...[pause]
+      - '[\x0207][\x020902]3... Hä? Sie?[pause]'
+      - '[\x0207]Keith[\x0207]Was?[pause]'
+      - |-
+        [\x0207]Lisa[\x0207]OK, gehn wir
+        [\x020801][\x020501]![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Keith u. Nick,
+        ihr bleibt hier
+        bei Teddy.[pause]
+      - "[\\x0207]Nick[\\x0207]Das ist die welt[-4]\nbeste Waffe![pause][\\x0203]Sie ist verschlossen,\ndamit sie nicht in \nfalsche Hände gerät.[pause]"
+      - '[\x0207]Nick[\x0207]?!?[pause]'
+  - strings:
+      - ''
+      - |-
+        [\x0207]Lisa[\x0207]Aber wie kommen
+        wir in Amaterasu
+        City rein?[pause][\x0203]Es ist das A.o.A.[-4]
+        Hauptq., also hohe
+        Sicherheitsstufe.[pause]
+      - |-
+        [\x0207]Nick[\x0207]Es gibt ein Notfall[-4]
+        Knightmon[-4]Wach[-4]
+        system.[pause][\x0203]Sicher benutzen sie
+        das![pause]
+      - |-
+        [\x0207][\x020902]3Der Leader des
+        Widerstands sagte
+        etwas...[pause][\x0203]Man braucht 4 Code[-4]
+        Pässe, um Knightmon
+        aufzuhalten![pause]
+      - |-
+        [\x0207]Keith[\x0207]...Code[-4]
+        Pässe?
+        ...was?![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Oh, ich weiβ, was
+        das ist. Es ist der
+        ID[-4]Pass mit Farben.[pause]
+      - |-
+        [\x0207][\x020902]3...ID[-4]Pass
+        mit Farben?[pause][\x0203]Also die rote
+        ID und die
+        blaue ID?[pause]
+      - |-
+        [\x0207]Lisa[\x0207]Yeah, das ist es!
+        Warum hast du den?[pause]
+      - "[\\x0207][\\x020902]3Von A.o.A. City \nChiefs, die ich \nbesiegt habe![pause]"
+      - |-
+        [\x0207]Nick[\x0207]Wenn du noch zwei
+        kriegst, können wir
+        Knightmon besiegen![pause]
+      - |-
+        [\x0207]Keith[\x0207]Yeah! Die anderen
+        City Chiefs haben
+        also auch welche![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Ja, das
+        sollte klappen![pause]
+      - |-
+        [\x0207][\x020902]3Oh, warte![pause][\x0203]Wir müssen was
+        wg. Bai Hu Ci[-4]
+        ty unternehmen.[pause][\x0203]Die Sicherheits[-4]
+        stufe ist echt
+        hoch![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Oh, wirklich?
+        ...Hmmm...
+        Was tun...[pause]
+      - |-
+        [\x0207]Lisa[\x0207]Ja, die Wider[-4]
+        ständler könnten
+        uns helfen![pause][\x0203]Sie sind im
+        Mirage[-4]Turm,
+        nicht wahr?[pause]
+      - '[\x0207][\x020902]3Ja![pause]'
+      - |-
+        [\x0207]Lisa[\x0207]OK, ich werde
+        sie fragen.[pause]
+      - |-
+        [\x0207]Keith[\x0207]Gut,
+        überlasst
+        es uns![pause]
+      - '[\x0207]Nick[\x0207]In Ordnung.[pause]'
+      - |-
+        [\x0207][\x020902]3OK, dann geh
+        ich zurück nach
+        Bai Hu![pause]
+      - |-
+        [\x0207]Teddy[\x0207]Viel Glück,
+        [\x020801][\x020501]![pause]
+      - |-
+        [\x0207][\x020902]3OK, über[-4]
+        lasst es mir![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Keith,
+        komm.[pause]
+      - |-
+        [\x0207]Lisa[\x0207]Nick, du
+        bleibst hier![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Lisa[\x0207]Aber wie kommen
+        wir in Amaterasu
+        City rein?[pause][\x0203]Es ist das A.o.A.[-4]
+        Hauptq., also hohe
+        Sicherheitsstufe.[pause]
+      - |-
+        [\x0207]Nick[\x0207]Das stimmt...
+        Jemand muss uns
+        helfen...[pause]
+      - |-
+        [\x0207]Keith[\x0207]Das ist unmöglich!
+        Alle sind in
+        Oinkmon verwandelt![pause]
+      - |-
+        [\x0207]Keith[\x0207]Schau dich doch
+        nur mal um![pause]
+      - |-
+        [\x0207][\x020902]3Hmmm...
+        Hilfe...[pause]
+      - |-
+        [\x0207][\x020902]3In Ordnung!
+        Ich schau nochmal im
+        Amater.[-4]Serv. nach![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Danke.
+        Ich zähle auf
+        dich.[pause]
+      - |-
+        [\x0207][\x020902]3Ach ja, Kenny
+        sagte was über[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Lisa[\x0207]Hey, [\x020801][\x020501]!
+        Und! Jmd gefunden?[pause]
+      - |-
+        [\x0207][\x020902]3Ja. Ich habe mich
+        mit einigen Wider[-4]
+        ständlern getroffen![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Gute Arbeit!
+        Du bist groβartig
+        [\x020801][\x020501]![pause]
+      - |-
+        [\x0207][\x020902]3Aber um in Amatera[-4]
+        su City reinzukommen[pause][\x0203]brauchen wir die vier
+        Code[-4]Pässe, um
+        Knightmon zu stoppen.[pause]
+      - |-
+        [\x0207]Keith[\x0207]Code[-4]Pass?
+        ...was ist
+        das?![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Oh, ich weiβ, was
+        das ist. Es ist der
+        ID[-4]Pass mit Farben.[pause]
+      - |-
+        [\x0207][\x020902]3...ID[-4]Pass
+        mit Farben?[pause][\x0203]Also die rote
+        ID und die
+        blaue ID?[pause]
+      - |-
+        [\x0207]Lisa[\x0207]Ja, genau! Warum
+        hast du einen?[pause]
+      - |-
+        [\x0207][\x020902]3Der gehörte dem
+        besiegten A.o.A.
+        City Chief.[pause]
+      - |-
+        [\x0207]Nick[\x0207]Wenn du noch zwei
+        kriegst, können wir
+        Knightmon besiegen![pause]
+      - |-
+        [\x0207]Keith[\x0207]Yeah! Der andere
+        City Chief hat also
+        auch einen![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Yeah, das
+        ist es![pause]
+      - "[\\x0207][\\x020902]3Wartet![pause][\\x0203]Wir müssen was\nwegen Bai Hu \nCity machen...[pause][\\x0203]Die Sicherheits[-4]\nstufe dort ist\necht hoch![pause]"
+      - |-
+        [\x0207]Lisa[\x0207]Ach, ja?
+        ...Hmmm...
+        Was tun...[pause]
+      - |-
+        [\x0207]Lisa[\x0207]Ja, die Wider[-4]
+        ständler könnten
+        uns helfen![pause][\x0203]Sie sind im
+        Mirage[-4]Turm,
+        nicht wahr?[pause]
+      - '[\x0207][\x020902]3J[-4]Ja![pause]'
+      - |-
+        [\x0207]Lisa[\x0207]OK, ich werde
+        sie fragen.[pause]
+      - |-
+        [\x0207]Keith[\x0207]Überlass
+        es uns![pause]
+      - '[\x0207]Nick[\x0207]...OK.[pause]'
+      - |-
+        [\x0207][\x020902]3OK, ich gehe also
+        zurück nach
+        Bai Hu![pause]
+      - |-
+        [\x0207]Teddy[\x0207]Viel Glück,
+        [\x020801][\x020501]![pause]
+      - |-
+        [\x0207][\x020902]3Ja, über[-4]
+        lasst es mir![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Keith,
+        komm.[pause]
+      - |-
+        [\x0207]Lisa[\x0207]Nick, du
+        bleibst hier![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Asukas Gamemaster
+        schickte Vemmon
+        irgendwohin...[pause][\x0203]Vielleicht gibt
+        es dort einen Hinweis!
+        Lasst uns hineingehen![pause]
+      - '[\x0207][\x020902]3Was!?[pause]'
+      - |-
+        [\x0207][\x020902]3Was?
+        Warum ist Oinkmon
+        im Asuka[-4]Server?[pause]
+      - |-
+        [\x0207]Oinkmon[\x0207]Oioionk?
+        Oioinoink!
+        Oioinoink??[pause]
+      - |-
+        [\x0207]Oinkmon[\x0207]Oioin, oinnk?
+        Oioionoinkn!
+        Oin, oinoiknk![pause]
+      - |-
+        [\x0207]Oinkmon[\x0207]Oooin, oioink!
+        Oinoink, oink!
+        Oioin, oinnk![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3OK!
+        Wir machen
+        weiter![pause]

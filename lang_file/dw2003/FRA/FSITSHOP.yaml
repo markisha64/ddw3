@@ -1,0 +1,45 @@
+type: simple
+strings:
+  - ''
+  - N'a pas [\x020501].
+  - BIT
+  - ACHETER
+  - VENDRE
+  - '[triangle] : Retour'
+  - Munir
+  - Objets
+  - X
+  - Equipé.
+  - 'Touche [circle] : Effets'
+  - 'Touche [circle] : Détails'
+  - '[arrow-right]'
+  - Trier objets
+  - Par Force
+  - Par Nom
+  - Equiper qui ?
+  - Combien ?
+  - '[\x020501] BIT'
+  - Ach
+  - Non
+  - Equiper ?
+  - Oui
+  - Non
+  - /
+  - L1
+  - R1
+  - BIT insuffisants
+  - Trop d'objets
+  - Objets
+  - Armes
+  - Armure
+  - Accessoires
+  - Combien ?
+  - Vnd
+  - Main D
+  - Main G
+  - D ou G
+  - Tête
+  - Corps
+  - Access.
+  - Deux mains
+  - Access.

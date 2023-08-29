@@ -1,0 +1,1423 @@
+type: simple
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got an Armor
+    Chip![pause]
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got an Ice
+    Chip![pause]
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got a Mind
+    Chip![pause]
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got a Wind
+    Chip![pause]
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got a
+    Thunder Chip![pause]
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got a Saber
+    Fang![pause]
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got a Cluster
+    Cannon![pause]
+  - "[\\x0207][\\x020902]3Alright! \nI got a\nKhakkhara[pause]"
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got an
+    Onimaru![pause]
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got a Kaiser
+    Fist![pause]
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got a Wisdom
+    Chip![pause]
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got a Venom
+    Fang![pause]
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got a Laser
+    Cannon![pause]
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got a Crystal
+    Rod![pause]
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got a
+    Tenjinmaru![pause]
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got a Tempest
+    Arm![pause]
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got a Gold
+    Ticket![pause]
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got a Platinum
+    Ticket![pause]
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got a Rusty
+    Katana![pause]
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got an Old
+    Wand![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Well look here! If
+    it isn't [\x020801][\x020501]![pause][\x0203]I'm so thrilled we
+    have the chance to
+    play again![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Since we have
+    this chance, how
+    about a card[pause][\x0203]battle? You're a
+    worthy opponent![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Oh my,
+    I won!
+    Thank you![pause][\x0203]I'll be here anytime
+    you want to play
+    again.[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Oh my,
+    I lost!
+    You really are amazing,[pause][\x0203][\x020801][\x020501]. I don't
+    have a chance against
+    you![pause]
+  - |-
+    [\x0207]Tamer Peter[\x0207]So you're the one
+    who defeated
+    A.o.A.[pause][\x0203]Hmph! You don't
+    look so special to
+    me.[pause]
+  - |-
+    [\x0207]Tamer Peter[\x0207]Well then, let's
+    see what you
+    got.[pause][\x0203]Get ready for a
+    bout of cards![pause]
+  - |-
+    [\x0207]Tamer Peter[\x0207]Hmph! So that's
+    all you got,
+    huh?[pause][\x0203]Are you really
+    the one who beat
+    A.o.A.?[pause]
+  - |-
+    [\x0207]Tamer Peter[\x0207]I give up. You're
+    everything the rumors
+    say.[pause][\x0203]But watch out. There
+    are stronger guys in
+    this place.[pause]
+  - |-
+    [\x0207]Tamer Mitsuko[\x0207]No, it isn't!
+    You're [\x020801][\x020501],
+    right?[pause][\x0203]I'm you're biggest
+    fan! Oh, I feel
+    faint![pause]
+  - |-
+    [\x0207]Tamer Mitsuko[\x0207]Since we have this
+    moment, won't you
+    play cards with me?[pause]
+  - |-
+    [\x0207]Tamer Mitsuko[\x0207]That's just like
+    you, [\x020801][\x020501]![pause][\x0203]Letting an old
+    lady like me win.
+    You're such a[pause][\x0203]gentleman! I adore
+    you all the more![pause]
+  - |-
+    [\x0207]Tamer Mitsuko[\x0207]That's just like
+    you, [\x020801][\x020501]!
+    You're so[pause][\x0203]strong! I adore
+    you all the
+    more![pause]
+  - |-
+    [\x0207]Tamer Mitsuko[\x0207]I'm glad Digimon
+    Online's back again!
+    Now I can play[pause][\x0203]without having to
+    worry about
+    anything at all![pause]
+  - |-
+    [\x0207]Tamer Mai[\x0207]Since we've got a
+    moment now, how
+    about a battle?[pause][\x0203]I didn't have time
+    to play cards
+    before![pause]
+  - |-
+    [\x0207]Tamer Mai[\x0207]Well? It's amazing
+    right? My skill!
+    Actually, I've[pause][\x0203]been secretly
+    training since last
+    time![pause]
+  - |-
+    [\x0207]Tamer Mai[\x0207]My you're strong
+    for a child![pause][\x0203]I can't take this!
+    I've got to get
+    tougher![pause]
+  - |-
+    [\x0207]Tamer George[\x0207]Man, this is busted.
+    Where're all the REAL
+    tamers? Ever since I[pause][\x0203]logged in I've been
+    bored out of my mind![pause]
+  - |-
+    [\x0207]Tamer George[\x0207]What're you lookin
+    at? Oh you wanna
+    play me?![pause][\x0203]Ha! Alright then,
+    let's see what
+    you got, kid![pause]
+  - |-
+    [\x0207]Tamer George[\x0207]Is that all you
+    got? Pff! Get
+    outta my face. [pause][\x0203]Go back to
+    kindergarten where
+    you belong![pause]
+  - |-
+    [\x0207]Tamer George[\x0207]Yes! Now THAT was a
+    battle! I lost, but
+    I'm not bored![pause][\x0203]Hey, we gotta play
+    again sometime,
+    a'right?[pause]
+  - |-
+    [\x0207]Tamer Masato[\x0207]Tomomi and I
+    logged in together
+    today![pause][\x0203]Now we're having a
+    competition with
+    each other![pause]
+  - |-
+    [\x0207]Tamer Masato[\x0207]We're competing to see
+    who can beat the most
+    tamers![pause][\x0203]So don't take it
+    personally when I beat
+    you![pause]
+  - |-
+    [\x0207]Tamer Masato[\x0207]Oh yeah! I might not
+    be able to beat
+    Tomomi yet![pause][\x0203]She's stronger than
+    I am, which is
+    embarrassing...[pause][\x0203]because I'm a man![pause]
+  - |-
+    [\x0207]Tamer Masato[\x0207]Oh no! I...
+    I lost![pause][\x0203]This is awful!
+    Tomomi's going
+    to dump me![pause]
+  - |-
+    [\x0207]Tamer Alexei[\x0207]When I was turned
+    into an Oinkmon, I
+    swore to the gods[pause][\x0203]that if I became
+    human again, I'd
+    quit drinking![pause]
+  - |-
+    [\x0207]Tamer Alexei[\x0207]Heh heh heh. Alright
+    boy, prepare to
+    witness the power of[pause][\x0203]me [-4] sober![pause]
+  - |-
+    [\x0207]Tamer Alexei[\x0207]Ha ha ha! Have you
+    had enough?[pause][\x0203]No one's going to call
+    me Alcoholic Alexei
+    anymore![pause]
+  - |-
+    [\x0207]Tamer Alexei[\x0207]Arrrgh! I can't take
+    it! I need just one
+    little sip...[pause][\x0203]No, I can't! I
+    swore I'd never
+    drink again![pause]
+  - |-
+    [\x0207]Tamer Tomomi[\x0207]I logged in today with
+    Masato! We're
+    competing to see who[pause][\x0203]can defeat the most
+    tamers![pause]
+  - |-
+    [\x0207]Tamer Tomomi[\x0207]So come help me
+    out. A game of
+    cards is fine![pause]
+  - |-
+    [\x0207]Tamer Tomomi[\x0207]Yes!
+    Thank you![pause][\x0203]Now I can brag
+    about this to
+    Masato![pause]
+  - |-
+    [\x0207]Tamer Tomomi[\x0207]Oh well, I lost. To
+    be honest, I don't
+    really care about[pause][\x0203]this competition. I
+    just wanted to play
+    by myself![pause]
+  - |-
+    [\x0207]Tamer Akiba[\x0207]La la[-4]la la la[-4][-4]la!
+    I'm the merry tamer
+    Akiba![pause][\x0203]I've come back to
+    Digimon Online.
+    La la[-4]la la la[-4][-4]la![pause]
+  - |-
+    [\x0207]Tamer Akiba[\x0207]It would be
+    wonderful if I
+    could play a[pause][\x0203]game of cards.
+    What do you
+    say?[pause]
+  - |-
+    [\x0207]Tamer Akiba[\x0207]Yes I am amazing.
+    I felled you, I did.
+    La la[-4]la la la[-4][-4]la![pause][\x0203]This is why I can
+    never quit Digimon
+    Online.[pause]
+  - |-
+    [\x0207]Tamer Akiba[\x0207]This is horrible!
+    I... I lost!
+    I think I'm in[pause][\x0203]shock. I can't
+    bear to sing
+    anymore today![pause]
+  - |-
+    [\x0207]Tamer Gon[\x0207]Aaaah! Just when I
+    hid myself, someone
+    found me![pause][\x0203]Woops! Some habits
+    are hard to stop![pause]
+  - |-
+    [\x0207]Tamer Gon[\x0207]Indeed, that was
+    quite
+    embarrassing.[pause][\x0203]How about I
+    make it up with
+    a card game?[pause]
+  - |-
+    [\x0207]Tamer Gon[\x0207]Indeed, I won.
+    I'm sorry!
+    Wait a minute.[pause][\x0203]You're the one at
+    fault for not
+    training enough![pause]
+  - |-
+    [\x0207]Tamer Gon[\x0207]Indeed, you are quite
+    powerful. I'm feel so
+    safe knowing there[pause][\x0203]are strong tamers like
+    you around![pause]
+  - |-
+    [\x0207]Tamer Wan[\x0207]I knew Digimon Online
+    would be running
+    again! I'm glad the[pause][\x0203]Lucky Mouse, er,
+    Kurt brought it back![pause]
+  - |-
+    [\x0207]Tamer Wan[\x0207]So how about a game
+    of cards? I won't
+    hold back![pause]
+  - |-
+    [\x0207]Tamer Wan[\x0207]Pardon me for
+    winning.[pause][\x0203]What happened?
+    Are you feeling
+    well today?[pause]
+  - |-
+    [\x0207]Tamer Wan[\x0207]Incredible! You're
+    as strong as they
+    say![pause][\x0203]Fighting with you
+    is truly an
+    education.[pause]
+  - |-
+    [\x0207]Tamer Kenny[\x0207]Hey, [\x020801][\x020501]!
+    It's me, Kenny!
+    How've you been?[pause][\x0203]You were really
+    something awhile
+    back![pause]
+  - |-
+    [\x0207]Tamer Kenny[\x0207]It's been too
+    long. How about
+    some cards?[pause]
+  - |-
+    [\x0207]Tamer Kenny[\x0207]Alright!
+    I beat [\x020801][\x020501]![pause][\x0203]Oh yes! I'm going to
+    tell everyone about
+    this![pause]
+  - |-
+    [\x0207]Tamer Kenny[\x0207]You're as
+    amazing as ever
+    [\x020801][\x020501]![pause][\x0203]Someday I want
+    to be strong
+    like you![pause]
+  - |-
+    [\x0207]Tamer Jessica[\x0207]Really this is
+    such a fun
+    world.[pause][\x0203]I could stay
+    here forever![pause]
+  - |-
+    [\x0207]Tamer Jessica[\x0207]So how bout it?
+    Play some cards,
+    sonny?[pause][\x0203]Don't hold back on
+    me because I'm old!
+    Eeeheheheheh![pause]
+  - |-
+    [\x0207]Tamer Jessica[\x0207]Oh I feel bad
+    beating you.
+    But you don't nearly[pause][\x0203]have as much
+    experience as I do
+    at cards.[pause]
+  - |-
+    [\x0207]Tamer Jessica[\x0207]Heavens me, you
+    really are good at
+    this! I look forward[pause][\x0203]to seeing how strong
+    you'll become!
+    Eeeheheheheh![pause]
+  - |-
+    [\x0207]Tamer Haruko[\x0207]Hm? Hey, you're
+    the one who beat
+    A.o.A., right?[pause][\x0203]Wow! One tamer
+    saved the entire
+    world![pause]
+  - |-
+    [\x0207]Tamer Haruko[\x0207]I've always wanted
+    to battle with you.[pause][\x0203]How about
+    granting this old
+    lady her dream![pause]
+  - |-
+    [\x0207]Tamer Haruko[\x0207]Oh my! I beat you
+    now didn't I?
+    Tamers nowadays[pause][\x0203]just aren't what
+    they used to be.[pause]
+  - |-
+    [\x0207]Tamer Haruko[\x0207]Oh my, I lost![pause][\x0203]I guess my days as
+    "Gal Gamer Haruko"
+    are over.[pause]
+  - |-
+    [\x0207]Tamer Catherine[\x0207]My name's Catherine!
+    I'm so happy I can
+    play today![pause]
+  - |-
+    [\x0207]Tamer Catherine[\x0207]I love cards. If
+    you want, we can
+    play a game![pause]
+  - |-
+    [\x0207]Tamer Catherine[\x0207]Yes!
+    I won! I won![pause][\x0203]Thank you!
+    Let's play
+    again, OK?[pause]
+  - |-
+    [\x0207]Tamer Catherine[\x0207]Ooh, I lost!
+    Oh well.
+    Next time I[pause][\x0203]want to play
+    with better
+    cards![pause]
+  - |-
+    [\x0207]Keith[\x0207]My main man [\x020801][\x020501]!
+    What is up! You've come
+    far, but I'm afraid your[pause][\x0203]luck ends here! Let me
+    explain it to you. You
+    see, the Card King[-4]that[pause][\x0203]would be me[-4]is perfect!
+    I'm simply too cool to
+    lose, capiche?[pause]
+  - |-
+    [\x0207]Keith[\x0207]You got it?
+    Alright then,
+    let's go![pause]
+  - |-
+    [\x0207]Keith[\x0207]Hahahaha!
+    You see? It's like I
+    was saying. I am the[pause][\x0203]Card King! You just
+    don't have what it
+    takes to defeat ME![pause]
+  - |-
+    [\x0207]Keith[\x0207]No! This cannot be
+    happening![pause][\x0203]You are inextricably
+    unbelievable! Here,
+    take this. It's the [pause][\x0203]KoC Trophy. It's
+    proof that you beat
+    the Card King![pause][\x0203]But the real battle's
+    only just begun!
+    Good luck![pause]
+  - "[\\x0207]Keith[\\x0207]You're really \nsomething to beat me!\nBut there are a lot[pause][\\x0203]more ruthless\ndesperados out there,\nso watch your back![pause]"
+  - "[\\x0207]Tamer Alice[\\x0207]You've...come... \nfar. Yes...you...\nare...strong.[pause]"
+  - |-
+    [\x0207]Tamer Alice[\x0207]You...want...
+    passage. No! [pause][\x0203]You...must...defeat
+    me...at...cards...
+    to...pass.[pause]
+  - |-
+    [\x0207]Tamer Alice[\x0207]I...win.
+    Passage...
+    denied.[pause]
+  - |-
+    [\x0207]Tamer Alice[\x0207]I...lose.
+    Very...well.[pause]
+  - |-
+    [\x0207]Tamer Alice[\x0207]Indeed...you...are...
+    powerful. I...
+    admire...that.[pause]
+  - |-
+    [\x0207]Tamer Bomujii[\x0207]Tell me, what are
+    cards to us?[pause][\x0203]I have thought long
+    and hard on this, but
+    to no avail.[pause]
+  - |-
+    [\x0207]Tamer Bomujii[\x0207]I'm sorry, but I
+    cannot allow you to
+    pass here yet.[pause][\x0203]If you must, you
+    will have to defeat
+    me.[pause]
+  - |-
+    [\x0207]Tamer Bomujii[\x0207]Yes I won at cards,
+    but what is the point?[pause][\x0203]This feeling is
+    arousing all sorts of
+    doubts in me.[pause]
+  - "[\\x0207]Tamer Bomujii[\\x0207]Hmm. Perhaps the\nanswer I seek lies \nwithin you.[pause][\\x0203]Very well. \nYou may proceed![pause]"
+  - |-
+    [\x0207]Tamer Bomujii[\x0207]So, you're off.
+    Master the way
+    of the cards![pause]
+  - |-
+    [\x0207]Tamer Pierre[\x0207]Bonjour Monsieur. I'm
+    having tres bien fun!
+    But if you want to[pause][\x0203]pass here...
+    oh non non![pause]
+  - |-
+    [\x0207]Tamer Pierre[\x0207]If you absolument
+    insist, you must
+    defeat moi![pause][\x0203]One match,
+    s'il vous plait![pause]
+  - |-
+    [\x0207]Tamer Pierre[\x0207]Sacre Bleu! I'm so
+    terribly sorry.[pause][\x0203]I'll be here if you
+    wish to play again.
+    Au revoir![pause]
+  - |-
+    [\x0207]Tamer Pierre[\x0207]Tres Bien! You have
+    defeated me soundly![pause][\x0203]Very well, you may
+    pass.[pause]
+  - |-
+    [\x0207]Tamer Pierre[\x0207]Monsieur's power is
+    incroyable![pause][\x0203]I will also strive
+    hard not to lose.[pause]
+  - |-
+    [\x0207]Tamer Poemy[\x0207]Most venerable
+    hero! Danger lies
+    beyond here.[pause][\x0203]Please cease and
+    desist your
+    progression![pause]
+  - |-
+    [\x0207]Tamer Poemy[\x0207]You insist on passing?
+    I, however, cannot
+    withdraw from my[pause][\x0203]position. Oh, the
+    tragedy! This is truly
+    a love story of[pause][\x0203]romantic proportions![pause]
+  - |-
+    [\x0207]Tamer Poemy[\x0207]What was that?
+    Where's this Hero?
+    What a let[-4]down![pause][\x0203]Why'd you have to
+    ruin the mood like
+    that? I hate you![pause]
+  - |-
+    [\x0207]Tamer Poemy[\x0207]Oh how brave,
+    Hero![pause]
+  - |-
+    [\x0207]Tamer Poemy[\x0207]Oh valiant Hero![pause][\x0203]I am always thinking
+    of you![pause]
+  - |-
+    [\x0207]Tamer Haruka[\x0207]Oh ho ho ho! I
+    am an invincible
+    female tamer![pause][\x0203]I will not allow
+    you to proceed![pause]
+  - |-
+    [\x0207]Tamer Haruka[\x0207]You dare challenge
+    me? Not knowing
+    one's limits can be[pause][\x0203]called bravery,
+    I suppose.[pause]
+  - |-
+    [\x0207]Tamer Haruka[\x0207]Oh ho ho ho!
+    Witness my power!
+    Now then, if you've[pause][\x0203]realized how foolish
+    you are, depart
+    from here at once![pause]
+  - |-
+    [\x0207]Tamer Haruka[\x0207]Well, once in awhile
+    one does have to
+    let others win.[pause]
+  - |-
+    [\x0207]Tamer Haruka[\x0207]You do realize I
+    allowed you to win!
+    This is proof of[pause][\x0203]just how incredibly
+    strong I am.
+    Oh ho ho ho![pause]
+  - |-
+    [\x0207]Panjyamon[\x0207]This is a new
+    training gym![pause][\x0203]If you train hard,
+    you'll definitely
+    become powerful![pause]
+  - |-
+    [\x0207]Sign[\x0207]North: Amaterasu Cty
+    East: Qing Long City[pause]
+  - |-
+    [\x0207]Togemon[\x0207]I hope they fix other
+    servers soon too. [pause][\x0203]Then I can be a
+    training gym
+    receptionist again.[pause]
+  - a
+  - |-
+    [\x0207]Aguman[\x0207]If you head
+    directly east,
+    you'll reach the[pause][\x0203]East Sector! But
+    you probably
+    knew that.[pause]
+  - |-
+    [\x0207]Leomon[\x0207]Don't let your guard
+    down just because you
+    beat A.o.A.![pause][\x0203]Master tamers never
+    neglect training no
+    matter what![pause]
+  - |-
+    [\x0207]Tai Kong Wang[\x0207]Ho ho ho. I'm
+    Tai Kong, fisherman
+    extraordinaire. [pause][\x0203]I'm so happy I can
+    fish again like this![pause]
+  - |-
+    [\x0207]Tai Kong Wang[\x0207]Let me share with you
+    some of my joy.
+    Here, have this[pause][\x0203]fishing pole. Take
+    good care of it! Now
+    you can fish like me! [pause][\x0203]Ho ho ho![pause]
+  - |-
+    [\x0207]Tai Kong Wang[\x0207]This is all thanks to
+    you! Ho ho ho![pause]
+  - |-
+    [\x0207]Magnamon[\x0207]The ocean is so
+    serene. It's relaxing
+    just looking at it.[pause][\x0203]Once more,
+    everything is right
+    with the world.[pause]
+  - |-
+    [\x0207]Guilmon[\x0207]Areas other than the
+    Central and East
+    sectors are still off[pause][\x0203]limits. But I hear the
+    Circuit Board has
+    been improved![pause]
+  - |-
+    [\x0207]Soccer Kid Hide[\x0207]He[-4]heh!
+    I beat Cardmon
+    again![pause][\x0203]Tree kicking is
+    such a blast![pause]
+  - |-
+    [\x0207]Soccer Kid Hide[\x0207]What? You still don't
+    have a pair of Tree
+    Boots?[pause][\x0203]Oh what the heck. I
+    got a pair you can
+    have. Now you can[pause][\x0203]kick trees too.
+    Good luck![pause]
+  - |-
+    [\x0207]Soccer Kid Hide[\x0207]Let's try and
+    complete our card
+    collections![pause]
+  - |-
+    [\x0207]Asuramon[\x0207]Well if it isn't
+    [\x020801][\x020501]. I've heard
+    about you. You've[pause][\x0203]still got a long, hard
+    road to travel before
+    becoming a master[pause][\x0203]tamer. To get
+    stronger, you've got
+    to fight![pause]
+  - |-
+    [\x0207]Maniac Masaki[\x0207]Digimon Online's the
+    best! I hope we can
+    go to other areas[pause][\x0203]soon![pause]
+  - |-
+    [\x0207]Sign[\x0207]East: Qing Long City
+    West: Amaterasu City
+    South: Forest Inn[pause]
+  - |-
+    [\x0207]Shakkoumon[\x0207]It feels like a dream
+    having Digimon Online
+    back again.[pause][\x0203]We owe it all to Kurt
+    and his amazing staff![pause]
+  - |-
+    [\x0207]Zhu Que Leader[\x0207]What? You have the
+    nerve to challenge me?
+    Normally I wouldn't[pause][\x0203]give you the time of
+    day, but I'll accept
+    on one condition.[pause][\x0203]First you have to
+    collect the 5 strongest
+    Epic Items! I won't[pause][\x0203]fight you until then.
+    Got it?[pause]
+  - |-
+    [\x0207]Zhu Que Leader[\x0207]What? You have the
+    nerve to challenge
+    me? So, you have[pause][\x0203]the 5 strongest Epic
+    Items. You aren't
+    half bad! Very well.[pause][\x0203]Show me what you've
+    got. I'll fight you
+    now![pause]
+  - |-
+    [\x0207]Zhu Que Leader[\x0207]You're really
+    something to defeat
+    me! But remember,[pause][\x0203]there's always
+    someone better. The
+    moment you let down[pause][\x0203]your guard you'll
+    get into trouble,
+    so be careful![pause]
+  - |-
+    [\x0207]Bai Hu Leader[\x0207]Oh no, not another
+    challenger. No offense
+    but you aren't ready to[pause][\x0203]fight me. If you must
+    insist, first find the 5
+    strongest Epic Items[pause][\x0203]located somewhere in
+    this world. Yes, that
+    should do nicely.[pause]
+  - "[\\x0207]Bai Hu Leader[\\x0207]Oh no, not another\nchallenger. Hm?\nThose aren't the 5[pause][\\x0203]strongest Epic \nItems, are they?\nI never dreamed[pause][\\x0203]a tamer would \nactually be able to\nget them! You may[pause][\\x0203]be able to entertain\nme yet! Very well,\ncome at me then.[pause][\\x0203]And don't let me\ndown![pause]"
+  - |-
+    [\x0207]Bai Hu Leader[\x0207]Just what kind of
+    tamer are you, to
+    defeat me! You've got[pause][\x0203]such potential boy,
+    such potential![pause]
+  - |-
+    [\x0207]Baronmon[\x0207]I am in charge of
+    account changes.
+    If a Digimon wishes[pause][\x0203]to change his name,
+    he must do so here![pause]
+  - |-
+    [\x0207]Leomon[\x0207]This is Card Island [-4]
+    a utopia for
+    cardsters! It's[pause][\x0203]against the rules
+    for people without
+    Folder Bags to[pause][\x0203]enter![pause]
+  - "[\\x0207]Kotemon[\\x0207]That place is full\nof strong \ncardsters![pause][\\x0203]How many tamers\ncan reach the top?[pause]"
+  - "[\\x0207]Veemon[\\x0207]The \n guy at the\npeak is the Card\nKing! But the[pause][\\x0203]current king's kind\nof strange. In fact\nhe's a real weirdo![pause]"
+  - |-
+    [\x0207]Patamon[\x0207]You can't go past
+    here without a
+    Folder Bag![pause]
+  - |-
+    [\x0207]Kumamon[\x0207]Yessiree, nothing
+    unusual to report
+    here. We're also[pause][\x0203]members of the Patrol
+    Force! We're helping
+    to protect the Digital[pause][\x0203]World's peace, so
+    rest at ease![pause]
+  - "[\\x0207]Veemon[\\x0207]I give up. I'm \ntotally lost! There\nare so many trees[pause][\\x0203]here I don't see\nhow anyone can\nfind their way.[pause]"
+  - "[\\x0207]Guilmon[\\x0207]I wonder where that \nVeemon could be? He\npromised he'd come.[pause][\\x0203]He's always late![pause]"
+  - "[\\x0207]Xuan Wu Leader[\\x0207]What's your problem,\nfool? You want to\nfight me? You think[pause][\\x0203]I'd fight someone\nwho doesn't have the\n5 strongest Epic[pause][\\x0203]Items? Hah! Don't \nmake me laugh. \nCome back when you[pause][\\x0203]have the weapons![pause]"
+  - "[\\x0207]Xuan Wu Leader[\\x0207]What's your problem,\nfool? You want to\nfight me? Sorry pal,[pause][\\x0203]but unless you have\nthe 5 Epic Items... \nWhat? You have them?[pause][\\x0203].........Alright,\nI guess I'll have to\nfight you then.[pause][\\x0203]But I ain't going\nto go easy on you,\nso watch out![pause]"
+  - |-
+    [\x0207]Xuan Wu Leader[\x0207]Hey! Just who do
+    you think you are
+    beating me! How'd[pause][\x0203]you get as strong
+    as you are? If
+    you got some kind[pause][\x0203]of secret training
+    program, I want
+    to know![pause]
+  - |-
+    [\x0207]Veteran Shiro[\x0207]Hey, look at me! I
+    came all this way by
+    myself! Now I'm a[pause][\x0203]real tamer too![pause]
+  - |-
+    [\x0207]D.O. Staff[\x0207]The South sector and
+    beyond are still off
+    limits due to[pause][\x0203]construction. I'm
+    sorry, but you must
+    withdraw from here.[pause]
+  - "[\\x0207]Agumon[\\x0207]The South Sector is\nbeing heavily repaired\ndue to the earthquake![pause][\\x0203]However the Circuit \nBoard has been\nimproved. I'd like to go[pause][\\x0203]to it sometime![pause]"
+  - "[\\x0207]Kabukimon[\\x0207]The Kotetsu is the\nsharpest and most\nprestigious blade in[pause][\\x0203]existence. Be sure\nto take extra \nspecial care of it.[pause]"
+  - |-
+    [\x0207]Kabukimon[\x0207]My name is...
+    Oh!
+    Kabukimoooon![pause]
+  - "[\\x0207]Kabukimon[\\x0207]I'm actually a\nstickler for katanas.[pause][\\x0203]If you bring\nOnimaru to me...[pause][\\x0203]I'll fuse it with\nRusty Katana and \nmake it great.[pause]"
+  - |-
+    [\x0207]Kabukimon[\x0207]Oh, you hold
+    in your hand the
+    great Onimaru![pause][\x0203]Then I will fuse
+    Onimaru with
+    Rusty Katana...[pause][\x0203]And create the
+    greatest weapon
+    Kotetsu.[pause][\x0203]All right, wait
+    one moment...
+    ...Aiyaaaaa![pause][\x0203]Hm! There
+    we have
+    Kotetsu![pause][\x0203]I'll give it to you.
+    It's very valuable,
+    so be careful.[pause]
+  - |-
+    [\x0207]Shurimon[\x0207]I am still in
+    training.[pause][\x0203]I am sorry, but
+    I cannot fight
+    with you.[pause]
+  - |-
+    [\x0207]Shurimon[\x0207]I am Shurimon!
+    The path to become
+    a Ninja is long![pause]
+  - |-
+    [\x0207]Shurimon[\x0207]Oh, you have
+    Rusty Rifle![pause][\x0203]Come back
+    here with Cluster
+    Cannon![pause][\x0203]I'll fuse the two
+    weapons to create
+    a more powerful one![pause]
+  - "[\\x0207]Shurimon[\\x0207]You got both Rusty \nRifle and Cluster \nCannon![pause][\\x0203]Will you give them\nto me?[pause][\\x0203]Shurimon[-4]way\nWeapon Evolution!\n...ayeeeeeya![pause][\\x0203]...good! It is now\nCluster Cannon.[pause][\\x0203]I will give this to\nyou, so use it\ncarefully![pause]"
+  - |-
+    [\x0207]Nohemon[\x0207]Isn't Zodiac great?
+    Use it well![pause]
+  - |-
+    [\x0207]Nohemon[\x0207]I'm Nohemon,
+    Not a scarecrow![pause]
+  - |-
+    [\x0207]Nohemon[\x0207]Oh, you have
+    Rusty Glove.[pause][\x0203]Then go get
+    Kaiser Fist.[pause][\x0203]Then I'll make you
+    a cooler weapon![pause]
+  - |-
+    [\x0207]Nohemon[\x0207]Oh, you got both
+    Rusty Glove
+    and Kaiser Fist![pause][\x0203]OK, give them to
+    me. Don't worry, I
+    won't take them.[pause][\x0203]OK, here we go.[pause][\x0203]...look at that [-4]
+    you got Zodiac![pause][\x0203]OK, I'll give this
+    back to you.
+    Use this well![pause]
+  - |-
+    [\x0207]Shadramon[\x0207]Sha sha sha!
+    Don't thank me.[pause][\x0203]I just did what
+    a bad guy would![pause]
+  - |-
+    [\x0207]Shadramon[\x0207]I'm Shadramon!
+    A logical bad guy![pause]
+  - |-
+    [\x0207]Shadramon[\x0207]Oh, you got an
+    Old Claw.[pause][\x0203]Why do you keep it?
+    They're gonna laugh
+    at you![pause][\x0203]Get Saber Fang.
+    I'll turn them into
+    a real weapon![pause]
+  - |-
+    [\x0207]Shadramon[\x0207]You got both Saber
+    Fang and Old Claw.
+    Give them to me![pause][\x0203]Ooooh, this feel...
+    it's great...[pause][\x0203]OK, let's fuse
+    them...[pause][\x0203]And there!
+    Isn't it cool?
+    This is Vanquish![pause][\x0203]Well I got lots of 'em
+    so I'll give you one![pause][\x0203]Just don't let some
+    regular bad guys
+    laugh at you![pause]
+  - |-
+    [\x0207]Ponchomon[\x0207]Not many people
+    have Twinkle![pause][\x0203]Make sure you
+    boast it to your
+    friends, amigo![pause]
+  - |-
+    [\x0207]Ponchomon[\x0207]Hola amigo!
+    How's it going?[pause]
+  - "[\\x0207]Ponchomon[\\x0207]Yo, yo, you can't \nuse no Old Wand![pause][\\x0203]You want me to\nmake you an avant\ngarde weapon?[pause][\\x0203]Bring Khakkhara\nand I'll make it\nanytime![pause]"
+  - "[\\x0207]Ponchomon[\\x0207]Amigo, you got Old \nWand and Khakkhara![pause][\\x0203]Then give them\nto me![pause][\\x0203]...cha, cha, cha!\nCha, cha, cha!\nOoooo mambo![pause][\\x0203]Here you go!\nIt's avant garde\nTwinkle![pause][\\x0203]You can boast about\nit! Good luck amigo![pause]"
+  - "[\\x0207]Yashamon[\\x0207]...only the truly \nstrong can hold \nMasamune...[pause][\\x0203]Do not forget to\nimprove yourself...[pause]"
+  - |-
+    [\x0207]Yashamon[\x0207]...I am Yashamon.
+    I like the strong...[pause]
+  - "[\\x0207]Yashamon[\\x0207]The strong should\nwield suitable \nweapons...[pause][\\x0203]...if you have\nKotetsu, get\nTenjinmaru...[pause][\\x0203]...then I will make \nyou a better \nweapon...[pause]"
+  - |-
+    [\x0207]Yashamon[\x0207]...You have both
+    Kotetsu and
+    Tenjinmaru...[pause][\x0203]...If you have both
+    then I will create a
+    more powerful weapon.[pause][\x0203]...My strong soul,
+    dwell in these
+    two swords![pause][\x0203]...Hold it,
+    Masamune
+    is created...[pause][\x0203]...Farewell. Get
+    strong so that you
+    are fit for this sword...[pause]
+  - |-
+    [\x0207]Sajitarimon[\x0207]You got
+    Judgement
+    by meeting me..[pause][\x0203]You're probably the
+    luckiest tamer on
+    this server![pause]
+  - |-
+    [\x0207]Sajitarimon[\x0207]I am the phantasmal
+    Digimon..
+    Sajitarimon![pause][\x0203]You're so lucky to
+    even catch a
+    glimpse of me![pause]
+  - "[\\x0207]Sajitarimon[\\x0207]Hm? You have\nJustify![pause][\\x0203]Then get Laser\nCannon too, and \nbring them here.[pause][\\x0203]You're about to see\njust how lucky you\nare![pause]"
+  - |-
+    [\x0207]Sajitarimon[\x0207]Wow, you have both
+    Laser Cannon and
+    Justify![pause][\x0203]Alright then, give
+    them to me for a
+    bit..[pause][\x0203]Hmm.. Haa!!
+    Hi[-4]ya..!![pause][\x0203]Now, check this
+    out! This is
+    Judgement![pause][\x0203]You're so lucky to
+    own this!
+    Ha ha ha!![pause]
+  - "[\\x0207]Siihomon[\\x0207]What? You don't\nhave to thank\nme! [pause][\\x0203]Men are so\nsentimental! \nHo ho![pause]"
+  - |-
+    [\x0207]Siihomon[\x0207]..ho ho!
+    Siihomon is my
+    name![pause][\x0203]You have come
+    quite far, buddy![pause]
+  - |-
+    [\x0207]Siihomon[\x0207]Hey, buddy!
+    You have Zodiac,
+    a cool item it is![pause][\x0203]Then get the
+    Tempest Arm and
+    bring them to me![pause][\x0203]I'll make you the
+    coolest of all
+    cool weapons![pause]
+  - "[\\x0207]Siihomon[\\x0207]Hey, buddy! You\nhave both Tempest\nArm and Zodiac![pause][\\x0203]Then give them to\nme for a sec![pause][\\x0203]Ho ho..! Good\nmaterials allow me\nto do good work![pause][\\x0203]..and here it is,\nmeet \nProminence![pause][\\x0203]This isn't an\nordinary weapon!\nDon't forget that![pause]"
+  - |-
+    [\x0207]Depusumon[\x0207]..Aaaahhh.
+    Ain't it nice to
+    be in the water![pause][\x0203]Nothing is more
+    refreshing than
+    this![pause]
+  - |-
+    [\x0207]Depusumon[\x0207]..Aaaahhh.
+    Isn't the ocean
+    bed beautiful?[pause]
+  - "[\\x0207]Depusumon[\\x0207]Oh me oh my!\nYou have\nVanquish![pause][\\x0203]You should get\nVenom Fang\nas well.[pause][\\x0203]I'll make \nsomething special,\njust for you![pause]"
+  - "[\\x0207]Depusumon[\\x0207]You have them,\nVanquish and\nVenom Fang![pause][\\x0203]Give them to me\nand let me work\nwith for a bit..[pause][\\x0203]..hmmm..\nAdd some water\npressure here..[pause][\\x0203]How's this?\nThere you have it,\nDestruction![pause][\\x0203]Here, it's yours. \nBe sure to put it\nto use![pause]"
+  - |-
+    [\x0207]Kongoumon[\x0207]Immaculate
+    is great![pause][\x0203]You're lucky
+    you met me![pause]
+  - "[\\x0207]Kongoumon[\\x0207]Shaka, shaka,\nshaka! I'm \nKongoumon![pause]"
+  - "[\\x0207]Kongoumon[\\x0207]What, you don't\nhave Crystal \nRod?[pause][\\x0203]Too bad, since you\ngot Twinkle![pause][\\x0203]If you get both,\nI'll make\nsomething great![pause]"
+  - |-
+    [\x0207]Kongoumon[\x0207]...Oh? You got
+    Crystal Rod and
+    Twinkle![pause][\x0203]Right on! Then
+    I'll make you
+    something great![pause][\x0203]Wait a sec.
+    Shaka shaka shaka.
+    Shaka shaka shaka![pause][\x0203]Look at here, this is
+    Immaculate![pause][\x0203]You're lucky,
+    I'm envious![pause]
+  - |-
+    [\x0207]Yashamon[\x0207]Muramasa is without
+    a doubt the strongest
+    katana in the world..[pause][\x0203]Even I can't make
+    a weapon that tops
+    Muramasa..[pause][\x0203]Raise mighty warriors
+    worthy of this katana.[pause]
+  - |-
+    [\x0207]Yashamon[\x0207]We meet again,
+    powerful tamer.[pause][\x0203]I'm glad you're
+    alive and still
+    winning..[pause]
+  - |-
+    [\x0207]Yashamon[\x0207]Your strength has
+    surpassed that of
+    Masamune.[pause][\x0203]You should get
+    the Fujin Blade and
+    come back to me.[pause][\x0203]Then I will make you
+    a mightier weapon.[pause]
+  - "[\\x0207]Yashamon[\\x0207]That blade you have,\nthat is the Fujin\nBlade, is it not?[pause][\\x0203]Now, hand over the\nMasamune to me..[pause][\\x0203]...My strong soul,\ndwell in these\ntwo swords![pause][\\x0203]Hold this. This is \nMuramasa, the \nmightiest katana[pause][\\x0203]in the world! Even I \ncan't make a katana\nbetter than this..[pause][\\x0203]Strive to raise mighty\nwarriors worthy of \nthis great katana.[pause]"
+  - |-
+    [\x0207]Sajitarimon[\x0207]You meet me again,
+    and have with you
+    Punishment I see.[pause][\x0203]Punishment is
+    the mightiest gun
+    in the whole world![pause][\x0203]Perhaps you are
+    the luckiest tamer
+    in existance![pause]
+  - |-
+    [\x0207]Sajitarimon[\x0207]Yo! I'm Sajitarimon!
+    We've met once
+    before!![pause][\x0203]You are one
+    lucky person to
+    meet me twice![pause]
+  - "[\\x0207]Sajitarimon[\\x0207]Since we meet again, \nI'll give you a tip\nthat might interest you.[pause][\\x0203]Next time, come back\nwith the Suijin Cannon.[pause][\\x0203]You think you're lucky\nnow, imagine how lucky\nyou'll be then![pause]"
+  - |-
+    [\x0207]Sajitarimon[\x0207]Hey, you have the
+    Suijin Cannon![pause][\x0203]Let me borrow that
+    along with
+    Judgement.[pause][\x0203]..Hm.. Haaaaa!
+    Hi[-4]yaaaa! Ya!![pause][\x0203]Now, observe
+    closely. This is
+    Punishment![pause][\x0203]This is without a
+    doubt the best in the
+    world! Even I can't[pause][\x0203]make anything better!
+    You're lucky to own
+    this! Super lucky![pause][\x0203]Keep up the good
+    work! Ha ha ha![pause]
+  - |-
+    [\x0207]Nohemon[\x0207]How do you like it,
+    isn't the Supernova
+    great?[pause][\x0203]There is no weapon
+    stronger that this for
+    Kumamon.[pause][\x0203]So please take a good
+    care of it, alright?[pause]
+  - |-
+    [\x0207]Nohemon[\x0207]I am Nohemon!
+    And no, I am not
+    a scarcrow![pause]
+  - |-
+    [\x0207]Nohemon[\x0207]Wow, what's this?
+    You're still using
+    Prominence?[pause][\x0203]Why don't you come
+    back here with Raijin
+    Fist?[pause][\x0203]Then I'll make a
+    spiffy weapon you
+    can be proud of![pause]
+  - |-
+    [\x0207]Nohemon[\x0207]Hey, you have both
+    Prominence and
+    Raijin Fist![pause][\x0203]Hand them over to
+    me. Don't worry, I
+    won't steal them.[pause][\x0203]Here I go!
+    This goes there and
+    that goes here..[pause][\x0203]Is this a micracle?
+    See for yourself,
+    the Supernova![pause][\x0203]There is no weapon
+    stronger than this for
+    Kumamon.[pause][\x0203]So take good
+    care of it, alright?[pause]
+  - "[\\x0207]Shadramon[\\x0207]Not even I can make\na weapon better\nthan Invincible.[pause][\\x0203]This is without\na doubt the\nbest in the world![pause][\\x0203]It makes you look like\na gangsta just by \nholding it! He he he![pause]"
+  - |-
+    [\x0207]Shadramon[\x0207]Yo! I remember you..
+    You're the one I made
+    Vaquish for![pause][\x0203]It's nice to know
+    you're still alive
+    and kickin'!![pause]
+  - |-
+    [\x0207]Shadramon[\x0207]Wow, don't tell me
+    you're still using
+    Destruction![pause][\x0203]That ain't right.
+    That doesn't do you
+    any good now![pause][\x0203]Bring me Burial Fang
+    and I'll make a real
+    weapon for you!![pause]
+  - "[\\x0207]Shadramon[\\x0207]You brought both\nDestruction and\nBurial Fang![pause][\\x0203]Let me see..\nLet's put them\ntogether..[pause][\\x0203]Check it out! Looks\ncool, eh? This is\nInvincible![pause][\\x0203]This is the best\nweapon in the world,\nno lies![pause][\\x0203]Even I can't make a\nweapon better than\nInvincible![pause][\\x0203]Now you're the\nbaddest of all bad \nboys! he he he!![pause]"
+  - |-
+    [\x0207]Kongoumon[\x0207]Eternally is
+    really, really good![pause][\x0203]For Patamons and
+    Renamons, this is
+    by far the best![pause]
+  - |-
+    [\x0207]Kongoumon[\x0207]Shaka shaka!
+    I'm Kongoumon.
+    We meet again![pause]
+  - |-
+    [\x0207]Kongoumon[\x0207]You know what, I
+    can make something
+    really good now.[pause][\x0203]But this time I need
+    Millenium Rod. If
+    you can, bring[pause][\x0203]it to me, I'll
+    surprise you with
+    something great![pause]
+  - "[\\x0207]Kongoumon[\\x0207]You...you have the\nMillenium Rod.[pause][\\x0203]Give it to me with\nImmaculacy.\nLet me take a look..[pause][\\x0203]Hold on a minute.\nShaka shaka! \nShaka shaka![pause][\\x0203]Here you go, \nEternally! This is the\nstrongest weapon for[pause][\\x0203]Patamons and \nRenamons.[pause][\\x0203]Man, I am so \njealous of you!\nI mean, really![pause]"
+  - |-
+    [\x0207]MetalGreymon[\x0207]You should visit either
+    Dr. Osomatsu or
+    Piccolomon.[pause][\x0203]You'll find Agumon
+    in the lounge at
+    Digimon Exchange![pause]
+  - |-
+    [\x0207]MetalGreymon[\x0207]You're the
+    [\x020801][\x020501] who
+    defeated A.o.A?[pause][\x0203]Indeed, you do
+    look powerful![pause]
+  - |-
+    [\x0207]MetalGreymon[\x0207]Alright, let's
+    battle![pause][\x0203]I'm curious to see
+    what you're really
+    made of!![pause]
+  - |-
+    [\x0207]MetalGreymon[\x0207]..Hmm, your powers
+    were beyond my
+    expectations![pause][\x0203]Here, take this item
+    as proof that you
+    beat me.[pause][\x0203]This is Agumon DDNA,
+    extracted from my
+    DDNA![pause][\x0203]If you take this to
+    Dr. Osomatsu or
+    Piccolomon..[pause][\x0203]You will find Agumon in
+    the Digimon Exchange
+    in the lounge![pause][\x0203]Please raise him into a
+    powerful Digimon![pause]
+  - |-
+    [\x0207]MegaroGrowlmon[\x0207]Visit Dr. Osomatsu
+    or Piccolomon.[pause][\x0203]You will find Girumon
+    at the Digimon Exchange
+    in the lounge![pause]
+  - "[\\x0207]MegaroGrowlmon[\\x0207]Zzz..!!\nWhy did you \nwake me up!?[pause][\\x0203]I was dreaming\nof a tasty\npastry![pause]"
+  - |-
+    [\x0207]MegaroGrowlmon[\x0207]I will not tolerate
+    anyone who disturbs
+    me in my sleep![pause][\x0203]Now I'm going to
+    teach you a lesson
+    you will never forget![pause]
+  - "[\\x0207]MegaroGrowlmon[\\x0207]..Oucchh!\nI'm sorry! I was wrong!\nPlease forgive me![pause][\\x0203]As a token of my\napology, you can have\nthis Girumon DDNA,[pause][\\x0203]extracted from my own.\nTake this to \nDr. Osomatsu[pause][\\x0203]or Piccolomon..\nYou will find Girumon \nat Digimon Exchange[pause][\\x0203]in the lounge!\nI'm really sorry I got\nmad at you! he he..[pause]"
+  - |-
+    [\x0207]Piledrimon[\x0207]Visit Dr. Osomatsu
+    or Piccolomon.
+    You will find Veemon[pause][\x0203]at the Digimon
+    Exchange in the
+    lounge![pause]
+  - |-
+    [\x0207]Piledrimon[\x0207]Huhhh, how boring..
+    Is there anything
+    interesting around?[pause]
+  - "[\\x0207]Piledrimon[\\x0207]Hey, let's have \na battle since we\nare here together.[pause][\\x0203]If you win, I'll \ngive you a\nvaluable item![pause]"
+  - |-
+    [\x0207]Piledrimon[\x0207]Whew, that was
+    certainly fun!
+    Good battle, hey?[pause][\x0203]As I promised,
+    I will give you an
+    item. Here.[pause][\x0203]It's Veemon DDNA,
+    extracted from my
+    own DDNA![pause][\x0203]If you take this to
+    Dr. Osomatsu or
+    Piccolomon..[pause][\x0203]You will find Veemon at
+    the Digimon Exchange
+    in the lounge![pause][\x0203]Train him hard and
+    raise him into a tough
+    Veemon![pause]
+  - |-
+    [\x0207]Taomon[\x0207]Seek out Dr. Osomatsu
+    or Piccolomon
+    immediately, and you[pause][\x0203]will find Renamon at
+    the Digimon Exchange
+    in the lounge![pause]
+  - "[\\x0207]Taomon[\\x0207]On, Kirikirisowaka,\nOn, Kirikirisowaka.[pause][\\x0203]Do not disturb me,\nI am in the middle \nof my meditations.[pause]"
+  - |-
+    [\x0207]Taomon[\x0207]I told you I was
+    in middle of my
+    meditations.[pause][\x0203]Perhaps you need
+    a beating to get
+    my message..[pause]
+  - |-
+    [\x0207]Taomon[\x0207]Sometimes this type of
+    meditation is good for
+    the soul too.[pause][\x0203]I apologize for
+    my misbehavior.
+    Please take this.[pause][\x0203]It's Renamon DDNA,
+    extracted from my
+    own DDNA.[pause][\x0203]Take this to Piccolomon
+    or Dr. Osomatsu.
+    You will find Renamon[pause][\x0203]at the Digimon
+    Exchange in the
+    lounge.[pause][\x0203]Work hard and raise him
+    into a great Renamon.
+    I wish you the best.[pause]
+  - |-
+    [\x0207]HolyAngemon[\x0207]Now, go and see
+    Dr. Osomastu or
+    Piccolomon. You[pause][\x0203]will find Patamon at
+    the Digimon Exchnge
+    in the lounge.[pause]
+  - |-
+    [\x0207]HolyAnglemon[\x0207]..Oh? You must be
+    [\x020801][\x020501]! I've heard
+    all the stories.[pause][\x0203]I'd like to see just
+    how strong you are.
+    Shall we have a fight?[pause]
+  - |-
+    [\x0207]HolyAngemon[\x0207]Okay, let's begin
+    the battle. Are
+    you ready to go?[pause]
+  - "[\\x0207]HolyAngemon[\\x0207]Whew, the rumors\nabout you are true. \nYou really are tough![pause][\\x0203]As a token of my\nappreciation for \nfighting me, take[pause][\\x0203]this Patamon DDNA,\nextracted from my\nown DDNA. Take it[pause][\\x0203]to Dr. Osomatsu or\nPiccolomon, and you\nwill find Patamon at[pause][\\x0203]the Digimon Exchange\nin the lounge.\nGood luck, I am[pause][\\x0203]rooting for you!\nMay you achieve \ngreat things ahead![pause]"
+  - |-
+    [\x0207]Kyukimon[\x0207]Go to Dr. Osomatsu
+    or Piccolo. You'll be
+    able to use Kotemon[pause][\x0203]at the Digimon
+    Exchange![pause]
+  - |-
+    [\x0207]Kyukimo[\x0207]Oh what a tragedy! The
+    tamers these days are
+    all such wimps![pause][\x0203]be. I can't find a
+    worthy opponent.[pause]
+  - "[\\x0207]Kyukimon[\\x0207]I'll tell you \nwhat. If you\nfight well against[pause][\\x0203]me, I'll reward\nyou with a gift\nsure to delight![pause]"
+  - "[\\x0207]Kyukimon[\\x0207]Ha ha ha, excellent!\nI haven't had a good\nbattle like this in[pause][\\x0203]ages! Now, take\nthis gift as \npromised. [pause][\\x0203]This is Kotemon\nDDNA extracted \nfrom my own DDNA.[pause][\\x0203]Take this to\nDr. Osomatsu or\nPiccolomon.[pause][\\x0203]You will find a Kotemon\nat the Digimon Exchange\nin the lounge.[pause][\\x0203]I'm sure you will raise\nhim into a fine Kotemon.\nI wish you the best![pause]"
+  - "[\\x0207]Armormon[\\x0207]You ought to \nvisit Dr. Osomatsu\nor Piccolomon[pause][\\x0203]You can make Monmon\nyour partner at the \nDigimon Exchange.[pause]"
+  - |-
+    [\x0207]Armormon[\x0207]You're [\x020801][\x020501],
+    the one who
+    beat A.o.A.![pause][\x0203]I'm curious to see
+    how good a tamer
+    you are.[pause]
+  - "[\\x0207]Armormon[\\x0207]How about it? Are\nyou up to a fight\nagainst me? [pause][\\x0203]I want to see just\nhow good you \nreally are.[pause]"
+  - |-
+    [\x0207]Armormon[\x0207]Indeed, the rumors
+    seem to be true about
+    your power![pause][\x0203]As a token of my
+    thanks, please take
+    this with you.[pause][\x0203]It's Monmon DDNA,
+    extracted from my
+    own DDNA.[pause][\x0203]Take this to
+    Dr. Osomatsu or
+    Piccolomon. you can[pause][\x0203]make Kumamon your
+    partner at Digimon
+    Exchange! [pause][\x0203]Farewell for now.
+    Get Monmon, and
+    become stronger![pause]
+  - "[\\x0207]GurappuLeomon[\\x0207]Now, go and \nvisit Dr. Osomatsu\nor Piccolomon.[pause][\\x0203]You'll be able to use\nKumamon at the\nDigimon Exchange![pause]"
+  - "[\\x0207]GurappuLeomon[\\x0207]Hahahaha!\nYou are one heck\nof a tamer to get [pause][\\x0203]to this place! I'd \nreally love to fight\na tamer like you![pause]"
+  - |-
+    [\x0207]GrapLeomon[\x0207]I hope you're
+    ready, 'cause
+    here I come![pause]
+  - "[\\x0207]GrapLeomon[\\x0207]Ha ha ha ha![pause][\\x0203]You're even better a\ntamer than I imagined! I\ncan trust you with[pause][\\x0203]this. It's Kumamon \nDDNA taken from my\nown. Take it. If you [pause][\\x0203]bring this to Piximon or\nDr. Osomatsu, you can\nmake Kumamon your[pause][\\x0203]partner at Digimon\nExchange! If\nanyone can raise a[pause][\\x0203]proper Kumamon, you\ncan. I'm counting on\nyou![pause]"
+  - |-
+    [\x0207]B[-4]Sent Gargoylemon[\x0207]Boing! Boing!
+    I'm a B[-4]Sent
+    Gargoylemon.[pause][\x0203]I'm strong. You're
+    nothing compared
+    to me![pause]
+  - |-
+    [\x0207]B[-4]Sent Gargoylemon[\x0207]What? You want to fight
+    me? Are you out of
+    your mind? Very well. [pause][\x0203]I'm going to beat you
+    into mashed potatoes![pause]
+  - |-
+    [\x0207]B[-4]IP Doramon[\x0207]I am B[-4]IP Doramon!
+    I'm going to burn
+    you to blazes with[pause][\x0203]Mega Death! If you
+    got a problem with
+    that, leave my[pause][\x0203]presence
+    immediately![pause]
+  - |-
+    [\x0207]B[-4]IP Doramon[\x0207]Fool! I gave you
+    a chance to leave
+    and you're still[pause][\x0203]here! You're going
+    to pay for that
+    decision dearly![pause]
+  - "[\\x0207]B Seraphimon[\\x0207]My name is \nB Seraphimon. Only\nthose that have[pause][\\x0203]been chosen may\nenter this area.\nThose without[pause][\\x0203]confidence should\ndepart in peace.[pause]"
+  - |-
+    [\x0207]B Seraphimon[\x0207]To pass this point you
+    must first defeat me.
+    Know, however, that I[pause][\x0203]will not be the one to
+    lose this battle.[pause]
+  - |-
+    [\x0207]B MegaroGrowlmon[\x0207]Garurururu!
+    I am
+    B MegaroGrowlmon![pause][\x0203]No one has ever
+    fought me and lived
+    to tell about it![pause]
+  - |-
+    [\x0207]B MegaroGrowlmon[\x0207]WHAT? You have
+    the audacity to
+    challenge me? Very[pause][\x0203]well. I will teach
+    you just how
+    pathetic you are.[pause]
+  - |-
+    [\x0207]B WarGreymon[\x0207]My name is B
+    WarGreymon! You
+    made it this far,[pause][\x0203]I'll give you
+    that. However,
+    your quest ends[pause][\x0203]here.[pause]
+  - |-
+    [\x0207]B WarGreymon[\x0207]You are gravely
+    mistaken to think
+    you can challenge[pause][\x0203]me at your level.
+    But since you insist I
+    will destroy you. Be[pause][\x0203]grateful for my
+    generosity![pause]
+  - |-
+    [\x0207]B King Numemon[\x0207]NuNuNu! You did well
+    to come this far,
+    NuNuNu! However, I,[pause][\x0203]B King Numemon, am
+    the B Digimon king!
+    Those who challenge[pause][\x0203]me shall never live to
+    see another day!
+    NumeNume![pause]
+  - |-
+    [\x0207]B King Numemon[\x0207]NuNu! You still
+    insist on fighting?
+    Senseless imbecile![pause][\x0203]Very well, I will
+    show you the fires
+    of Hades! I will[pause][\x0203]hear the sound of
+    you crying in
+    agony![pause]
+  - "[\\x0207]BlackAgumon[\\x0207]He he he! I'm the \n\ncardster in all the\nCircuit Board![pause]"
+  - |-
+    [\x0207]BlackAgumon[\x0207]Oh brother, not
+    another weakling
+    tamer![pause]
+  - |-
+    [\x0207]BlackAgumon[\x0207]Do you like
+    cards? I'm
+    hooked on them.[pause]
+  - |-
+    [\x0207]BlackAgumon[\x0207]He he he! I've
+    been waiting for
+    someone like you![pause]
+  - |-
+    [\x0207]BlackAgumon[\x0207]You're
+    [\x020801][\x020501]! I
+    always wanted[pause][\x0203]to meet you![pause]
+  - |-
+    [\x0207]Numemon[\x0207]Numee! You're
+    Numecally
+    strong![pause]
+  - |-
+    [\x0207]Numemon[\x0207]NumeNume! You did
+    well coming this
+    far! It's too bad[pause][\x0203]you ran into this
+    Numemon![pause]
+  - |-
+    [\x0207]Numemon[\x0207]Numemons may not
+    look it, but we're
+    strong cardsters![pause][\x0203]Don't take us
+    lightly! Nume![pause]
+  - |-
+    [\x0207]Numemon[\x0207]They say you
+    beat A.o.A.!
+    But Nume doesn't[pause][\x0203]think you look so
+    tough![pause]
+  - |-
+    [\x0207]Numemon[\x0207]NumeNumee!
+    Numemons are the
+    strongest Digimons![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Whoopee!
+    I'm the greatest! I'm
+    so cool![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Yay! I feel all
+    warm inside.
+    This is great![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Whoopee! You're a
+    sucker! You're
+    going to regret[pause][\x0203]running into me
+    here![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]My gorgeous body
+    gleams in silver!
+    He he he![pause][\x0203]I can take on
+    anyone who comes
+    my way.[pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]I simply cannot lose!
+    Why, you ask? Because
+    MetalEtemons are[pause][\x0203]invincible![pause]
+  - |-
+    [\x0207]BlackAgumon[\x0207]OK buddy, let's
+    play cards. I ain't
+    losing to you.[pause]
+  - "[\\x0207]Numemon[\\x0207]Numeee! Alright, \nLet's play cards\nNume style [-4] [pause][\\x0203]No holds barred![pause]"
+  - |-
+    [\x0207]MetalEtemon[\x0207]Are ready to
+    battle card[-4]style?
+    Let's go![pause]
+  - |-
+    [\x0207]BlackAguman[\x0207]He he he. Did
+    you see my
+    skills? [pause][\x0203]You're nothing
+    but a novice![pause]
+  - |-
+    [\x0207]Numemon[\x0207]Numeee! Numemon!
+    I'm the best Nume!
+    Challenge all you[pause][\x0203]want, Nume will
+    win![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Whoopee!
+    I AM CHAMPION![pause][\x0203]No one's got
+    what it takes to
+    beat me![pause]
+  - |-
+    [\x0207]BlackAguman[\x0207]Ooooh!
+    I lost! I'll show
+    you! Next time I'm[pause][\x0203]going to use the
+    strongest Folder
+    ever![pause]
+  - "[\\x0207]Numemon[\\x0207]Numee...?\nWoops! I lost!\nNumeeeeee![pause][\\x0203]Nume OK. Nume \ngets better. Next \ntime Nume wins![pause]"
+  - |-
+    [\x0207]Metal Eteman[\x0207]Whoah!
+    What happened?
+    I...I lost![pause][\x0203]Hey! Next time we
+    meet I'm going to
+    make you pay![pause]
+  - |-
+    [\x0207]Black Agumon[\x0207]Ooooh.
+    What was that!
+    I lost? [pause][\x0203]Alright, here! The
+    Ultra[-4]strong card,
+    Delete Matrix![pause]
+  - |-
+    [\x0207]Black Agumon[\x0207]Ooooh.
+    What happened?
+    I lost? [pause][\x0203]Alright, here! The
+    Ultra[-4]strong card,
+    Fortune Gate![pause]
+  - |-
+    [\x0207]Black Agumon[\x0207]Ooooh.
+    What happened?
+    I lost? [pause][\x0203]Alright, here! The
+    Ultra[-4]strong card,
+    Misery Gate![pause]
+  - |-
+    [\x0207]Black Agumon[\x0207]Ooooh.
+    What happened?
+    I lost? [pause][\x0203]Alright, here! The
+    Ultra[-4]strong card,
+    Desire Access![pause]
+  - |-
+    [\x0207]Black Agumon[\x0207]Ooooh.
+    What happened?
+    I lost? [pause][\x0203]Alright, here! The
+    Ultra[-4]strong card,
+    Anti Power![pause]
+  - |-
+    [\x0207]Numemon[\x0207]Numeee?!
+    Oh no, I lost!
+    Numeee![pause][\x0203]Fine! Take my
+    Rosemon II.
+    Numeee![pause]
+  - |-
+    [\x0207]Numemon[\x0207]Numeee?!
+    Oh no, I lost!
+    Numeee![pause][\x0203]Fine! Take my
+    MarineAngemon
+    card. Numeee![pause]
+  - |-
+    [\x0207]Numemon[\x0207]Numeee?!
+    Oh no, I lost!
+    Numeee![pause][\x0203]Fine! Take my
+    SaberLeomon
+    card. Numeee![pause]
+  - |-
+    [\x0207]Numemon[\x0207]Numeee?!
+    Oh no, I lost!
+    Numeee![pause][\x0203]Fine! Take my
+    Gryphonmon card.
+    Numeee![pause]
+  - |-
+    [\x0207]Numemon[\x0207]Numeee?!
+    Oh no, I lost!
+    Numeee![pause][\x0203]Fine! Take my
+    Creepymon card.
+    Numeee![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Ooh.
+    Unbelievable.
+    I lost![pause][\x0203]Very well. Take
+    this Sacred Spear
+    and beat it![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Ooh.
+    Unbelievable.
+    I lost![pause][\x0203]Very well. Take
+    this Tidal Wave
+    and beat it![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Ooh.
+    Unbelievable.
+    I lost![pause][\x0203]Very well. Take
+    this Wild Aura
+    and beat it![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Ooh.
+    Unbelievable.
+    I lost![pause][\x0203]Very well. Take
+    this Volcanic Cannon
+    and beat it![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Ooh.
+    Unbelievable.
+    I lost![pause][\x0203]Very well. Take
+    this Darkness Gale
+    and beat it![pause]

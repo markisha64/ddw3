@@ -1,0 +1,30 @@
+type: simple
+strings:
+  - ''
+  - EXP
+  - |-
+    EXP gewonnen
+    [\x020501] EXP[pause]
+  - LV
+  - Level gewonnen![pause]
+  - |-
+    Gelernte Tech.:
+    [\x020501][pause]
+  - |-
+    Kann Tech. laden:
+    [\x020501][pause]
+  - |-
+    [\x020501]
+    Level [\x020502]![pause]
+  - |-
+    Digitieren gelernt:
+    [\x020501][pause]
+  - |-
+    Digitieren[-4]Steckpl. voll.
+    Im Digimon[-4]Lab. speichern.[pause]
+  - |-
+    BIT gewonnen:
+    [\x020501] BIT[pause]
+  - |-
+    Item gewonnen:
+    [\x020501][pause]

@@ -1,0 +1,67 @@
+type: simple
+strings:
+  - ''
+  - SAVE
+  - SAVING
+  - '[\x020501]'
+  - |-
+    Checking MEMORY CARD.
+    Do not touch MEMORY CARD.
+  - |-
+    Checking file.
+    Do not touch MEMORY CARD.
+  - |-
+    Save here?
+    [cross] button:  Save           [triangle] button: Back
+  - |-
+    Writing over previous data.
+    Proceed?
+  - |-
+    Saving.
+    Do not touch MEMORY CARD.
+  - Saved.
+  - MEMORY CARD is not inserted.
+  - MEMORY CARD is not formatted.
+  - File cannot be found.
+  - |-
+    There are not enough blocks.
+    4 blocks are needed to save.
+  - LOAD
+  - LOADING
+  - |-
+    Load which game?
+    [cross] button: Load    [triangle] button: Back
+  - |-
+    LOADING.
+    Do not touch MEMORY CARD.
+  - LOADED.
+  - ':'
+  - LV
+  - BIT
+  - YES
+  - NO
+  - No data here.
+  - |-
+    Format MEMORY CARD?
+    YES / NO
+  - Create new data?
+  - Cannot access MEMORY CARD.
+  - File already exists.
+  - Choose MEMORY CARD slot.
+  - |-
+    Formatting.
+    Do not touch MEMORY CARD.
+  - |-
+    Saving file.
+    Do not touch MEMORY CARD.
+  - '[-4][-4][-4][-4][-4]'
+  - '[-4][-4][-4][-4][-4][-4][-4][-4]'
+  - '[-4][-4][-4][-4][-4][-4][-4]'
+  - '[-4][-4]'
+  - Save failed.
+  - Save Failed.
+  - |-
+    MEMORY CARD error.
+    Please check MEMORY CARD.
+  - Digimon World 2003
+  - Accessing MEMORY CARD slot [\x020501]

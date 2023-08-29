@@ -1,0 +1,30 @@
+type: simple
+strings:
+  - ''
+  - EXP
+  - |-
+    EXP ganada:
+    [\x020501] EXP[pause]
+  - Nv
+  - ¡Nivel ganado![pause]
+  - |-
+    Técnica aprendida:
+    [\x020501][pause]
+  - |-
+    No puede apr. la téc.:
+    [\x020501][pause]
+  - |-
+    [\x020501]
+    ¡Nivel [\x020502]![pause]
+  - |-
+    Digievolución aprendida:
+    [\x020501][pause]
+  - |-
+    Indicador digiev. lleno.
+    Guard. en Lab. Digimon.[pause]
+  - |-
+    BIT ganado:
+    [\x020501] BIT[pause]
+  - |-
+    Artículos ganados:
+    [\x020501][pause]

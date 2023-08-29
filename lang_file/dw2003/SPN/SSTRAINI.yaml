@@ -1,0 +1,132 @@
+type: simple
+strings:
+  - ''
+  - NV
+  - PV
+  - PM
+  - PE
+  - 'Botón [triangle]: Parar entre.'
+  - ¿Qué Digimon entre.?
+  - ¿Qué entrenamiento?
+  - Selec. cant. PE usar
+  - ¿Está bien?
+  - Sí
+  - No
+  - Reto
+  - Fijo
+  - PE 1
+  - PE 5
+  - PE10
+  - ¡Oportunidad Ultra Entre.!
+  - PE insuficiente
+  - Puño
+  - Defensa
+  - Yoga
+  - Estudio
+  - Saltar Cuerda
+  - Super Puño
+  - Super Defensa
+  - Super Yoga
+  - Super Estudio
+  - Super Sal. Cue.
+  - Tolerancia Calor
+  - Tolerancia Agua
+  - Tolerancia Hielo
+  - Tolerancia Viento
+  - Defensa de Rayo
+  - Defensa de Misil
+  - Obsesión
+  - S Tolera. Calor
+  - S Tolera. Agua
+  - S Tolera. Hielo
+  - S Tolera. Vto.
+  - S Defensa Rayo
+  - Super DF Misiles
+  - Super Hechizo
+  - Entrenar fuerza de Digimon.
+  - Entrenar defensa de Digimon.
+  - Entrenar espíritu de Digimon.
+  - Entrenar sabiduría de Digimon.
+  - Entrenar velocidad de Digimon.
+  - ¡Super entre. fuerza Digimon!
+  - ¡Super entre. defensa Digimon!
+  - ¡Super entre. espíritu Digimon!
+  - ¡Super entre. sab. Digimon!
+  - ¡Super entre. veloc. Digimon!
+  - Fortalecer contra fuego.
+  - Fortalecer contra agua.
+  - Fortalecer contra hielo.
+  - Fortalecer contra viento.
+  - Fortalecer contra rayo.
+  - Fortalecer contra máquinas.
+  - Fortalecer contra oscuridad.
+  - ¡Fortalecer más contra fuego!
+  - ¡Fortalecer más contra agua!
+  - ¡Fortalecer más contra hielo!
+  - ¡Fotalecer más contra viento!
+  - ¡Fortalecer más contra rayo!
+  - ¡Fotalecer más contra máquina!
+  - ¡Fotalecer más contra oscuridad!
+  - /
+  - L1
+  - R1
+  - Fallado
+  - Fuerza
+  - Defensa
+  - Espír.
+  - Sabid.
+  - Veloc.
+  - Fuego
+  - Agua
+  - Hielo
+  - Viento
+  - Rayo
+  - Máquina
+  - Oscur.
+  - PV máx.
+  - PM máx.
+  - Defensa Fuego
+  - Defensa Agua
+  - Defensa Hielo
+  - Defensa Viento
+  - Defensa Rayo
+  - Defensa Máquina
+  - Defensa Oscur.
+  - '[\x020501] +[\x020502]'
+  - '[\x020501] [-4][\x020502]'
+  - "Resultado: \n¡Poder + [\\x020501]![pause]"
+  - "Resultado: \n¡Defensa + [\\x020501]![pause]"
+  - "Resultado: \n¡Espiritu + [\\x020501]![pause]"
+  - "Resultado: \n¡Sabiduría + [\\x020501]![pause]"
+  - |-
+    Resultado:
+    ¡Velocidad +[\x020501]![pause]
+  - "Result.: \n¡Def. Fuego +[\\x020501]![pause]"
+  - "Result.: \n¡Def. Agua + [\\x020501]![pause]"
+  - "Result.: \n¡Def. Hielo + [\\x02050b][pause]"
+  - "Result.: \n¡Def. Vien. + [\\x020501]![pause]"
+  - "Result.: \n¡Def. Rayo + [\\x020501]![pause]"
+  - "Result.: \n¡Def. Máquina + [\\x020501]![pause]"
+  - "Result.: \n¡Def. Oscur. + [\\x020501]![pause]"
+  - |-
+    Result.: [pause][\x0203]¡Def. Fuego +[\x020501]!
+    ¡PM máx. + [\x020502]![pause]
+  - |-
+    Result.: [pause][\x0203]¡Def. Agua + [\x020501]!
+    Def. [-4] [\x020502][pause]
+  - |-
+    Result.: [pause][\x0203]¡Def. Hielo + [\x020501]!
+    Vel. [-4] [\x020502][pause]
+  - |-
+    Result.: [pause][\x0203]¡Def. Vien. + [\x020501]!
+    Fuerza [-4] [\x020502][pause]
+  - "Result.: [pause][\\x0203]¡Def. Rayo + [\\x020501]! \nSab. [-4] [\\x020502][pause]"
+  - 'Result.: [pause][\x0203]¡Def. Máquina + [\x020502] tPV máx. + [\x020502]![pause]'
+  - |-
+    Result.: [pause][\x0203]¡Def. Oscur. + [\x020501]!
+    Espíritu [-4] [\x020502][pause]
+  - "Result.: \nNinguna mejora[pause]"
+  - '[-4][-4][-4][-4][-4]'
+  - '[-4][-4]'
+  - '[-4][-4][-4][-4]'
+  - '[-4][-4][-4]'

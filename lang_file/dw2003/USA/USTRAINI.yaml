@@ -1,0 +1,160 @@
+type: simple
+strings:
+  - ''
+  - LV
+  - HP
+  - MP
+  - TP
+  - '[triangle] Button: Stop training'
+  - Train which Digimon?
+  - Which training?
+  - Pick TP amount to use.
+  - Is this ok?
+  - Yes
+  - No
+  - Challenge
+  - As is
+  - TP 1
+  - TP 5
+  - TP10
+  - Ultra Training Chance!
+  - Not enough TP.
+  - Punch
+  - Defense
+  - Yoga
+  - Study
+  - Jump Rope
+  - Super Punch
+  - Super Defense
+  - Super Yoga
+  - Super Study
+  - Super Jump Rope
+  - Heat Tolerance
+  - Water Tolerance
+  - Ice Tolerance
+  - Wind Tolerance
+  - Thunder Defense
+  - Missile Defense
+  - Haunting
+  - S Heat Tolerance
+  - S Water Tolerance
+  - S Ice Tolerance
+  - S Wind Tolerance
+  - S Thunder Defense
+  - Super Missile DF
+  - Super Haunting
+  - Train Digimon's strength.
+  - Train Digimon's defense.
+  - Train Digimon's spirit.
+  - Train Digimon's wisdom.
+  - Train Digimon's speed.
+  - Super train Digimon's strength!
+  - Super train Digimon's defense!
+  - Super train Digimon's spirit !
+  - Super train Digimon's wisdom!
+  - Super train Digimon's speed!
+  - Become strong against fire.
+  - Become strong against water.
+  - Become strong against ice.
+  - Become strong against wind.
+  - Become strong against thunder.
+  - Become strong against machines.
+  - Become strong against dark.
+  - Become stronger against fire!
+  - Become stronger against water!
+  - Become stronger against ice!
+  - Become stronger against wind!
+  - Become stronger against thunder!
+  - Become stronger against machine!
+  - Become stronger against dark!
+  - /
+  - L1
+  - R1
+  - Failed...
+  - Strength
+  - Defense
+  - Spirit
+  - Wisdom
+  - Speed
+  - Fire
+  - Water
+  - Ice
+  - Wind
+  - Thunder
+  - Machine
+  - Dark
+  - Max HP
+  - Max MP
+  - Fire Defense
+  - Water Defense
+  - Ice Defense
+  - Wind Defense
+  - Thunder Defense
+  - Machine Defense
+  - Dark Defense
+  - '[\x020501] +[\x020502]'
+  - '[\x020501] [-4][\x020502]'
+  - |-
+    Results:
+    Power is up by [\x020501]![pause]
+  - |-
+    Results:
+    Defense is up by [\x020501]![pause]
+  - |-
+    Results:
+    Spirit is up by [\x020501]![pause]
+  - |-
+    Results:
+    Wisdom is up by [\x020501]![pause]
+  - |-
+    Results:
+    Speed is up by [\x020501]![pause]
+  - |-
+    Results:
+    Fire Defense is up by [\x020501]![pause]
+  - |-
+    Results:
+    Water Defense is up by [\x020501]![pause]
+  - |-
+    Results:
+    Ice Defense is up by [\x020501]![pause]
+  - |-
+    Results:
+    Wind Defense is up by [\x020501]![pause]
+  - |-
+    Results:
+    Thunder Defense is up by [\x020501]![pause]
+  - |-
+    Results:
+    Machine Defense is up by [\x020501]![pause]
+  - |-
+    Results:
+    Dark Defense is up by [\x020501]![pause]
+  - |-
+    Results:[pause][\x0203]Fire Defense is up by [\x020501]!
+    Maximum MP is up by [\x020502]![pause]
+  - |-
+    Results:[pause][\x0203]Water Defense is up by [\x020501]!
+    Defense is down by [\x020502]...[pause]
+  - |-
+    Results:[pause][\x0203]Ice Defense is up by [\x020501]!
+    Speed is down by [\x020502]...[pause]
+  - |-
+    Results:[pause][\x0203]Wind Defense is up by [\x020501]!
+    Strength is down by [\x020502]...[pause]
+  - |-
+    Results:[pause][\x0203]Thunder Defense is up by [\x020501]!
+    Wisdom is down by [\x020502]...[pause]
+  - |-
+    Results:[pause][\x0203]Machine Defense is up by [\x020501]!
+    Max HP is up by [\x020502]![pause]
+  - |-
+    Results:[pause][\x0203]Dark Defense is up by [\x020501]!
+    Spirit is down by [\x020502]...[pause]
+  - |-
+    Results:
+    Nothing increased...[pause]
+  - '-----'
+  - --
+  - '----'
+  - '---'

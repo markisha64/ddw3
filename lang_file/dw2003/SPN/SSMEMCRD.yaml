@@ -1,0 +1,67 @@
+type: simple
+strings:
+  - ''
+  - GUARDAR
+  - GUARDANDO
+  - '[\x020501]'
+  - |-
+    Comprobando la Tarjeta de Memoria.
+    No toques la Tarjeta de Memoria.
+  - |-
+    Comprobando archivo.
+    No toques la Tarjeta de Memoria.
+  - |-
+    ¿Guardar aquí?
+    Botón [cross]: Guardar Botón [triangle]: Atrás
+  - |-
+    Sobrescribiendo datos
+    anteriores. ¿Continuar?
+  - |-
+    Guardando.
+    No toques la Tarjeta de Memoria.
+  - Guardado.
+  - Tarjeta de Memoria no insertada.
+  - La Tarjeta de Memoria no está formateada.
+  - No se encuentra el archivo.
+  - |-
+    No hay bloques suficientes.
+    Se necesitan [\x020501] bloques para guardar.
+  - CARGAR
+  - CARGANDO
+  - |-
+    ¿Qué juego deseas cargar?
+    Botón [cross]: Cargar    Botón [triangle]: Atrás
+  - |-
+    CARGANDO
+    No toques la Tarjeta de Memoria.
+  - CARGADO.
+  - ':'
+  - NV
+  - BIT
+  - SÍ
+  - NO
+  - No hay datos.
+  - |-
+    ¿Formatear Tarjeta de
+    Memoria? SÍ/NO
+  - |-
+    ¿Quieres crear un archivo
+    nuevo?
+  - Tarjeta de Memoria inaccesible.
+  - Ese archivo ya existe
+  - |-
+    Seleccionar la ranura de
+    Tarjeta de Memoria.
+  - "Formateando. \nNo toques la Tarjeta de Memoria."
+  - |-
+    Guardando archivo.
+    No toques la Tarjeta de Memoria.
+  - '[-4][-4][-4][-4][-4]'
+  - '[-4][-4][-4][-4][-4][-4][-4][-4]'
+  - '[-4][-4][-4][-4][-4][-4][-4]'
+  - '[-4][-4]'
+  - Error al guardar.
+  - Error al guardar.
+  - "Error en la Tarjeta de Memoria. \nComprueba la Tarjeta de Memoria."
+  - DW2003
+  - Accediendo a la ranura de Tarjeta de Memoria [\x020501]

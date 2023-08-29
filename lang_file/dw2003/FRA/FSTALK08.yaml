@@ -1,0 +1,279 @@
+type: simple
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Très bien !\nJ'ai un Chip \nArmure ![pause]"
+  - "[\\x0207][\\x020902]3Très bien !\nJ'ai un Chip \nFeu ![pause]"
+  - "[\\x0207][\\x020902]3Très bien !\nJ'ai un Chip \nEau ![pause]"
+  - "[\\x0207]Dresseur Genji[\\x0207]Ha ha ! J'ai\nentendu parler \nde toi ![pause][\\x0203]Tu as fini par\ndevenir\ndresseur ![pause]"
+  - "[\\x0207]Dresseur Genji[\\x0207]Voyons comment tu \nte débrouilles avec\nun jeu de cartes.[pause]"
+  - "[\\x0207]Dresseur Genji[\\x0207]Quoi ? Tu dois \nencore t'entraîner ?[pause][\\x0203]Tu me déçois !\nTu ferais mieux \nde progresser ![pause]"
+  - "[\\x0207]Dresseur Genji[\\x0207]Ah ha ! On \nm'avait prévenu\nque tu es fort ![pause][\\x0203]Je suis impatient \nde voir quel niveau \ntu peux atteindre ![pause]"
+  - |-
+    [\x0207]Agumon[\x0207]Si Veemon, Guilmon
+    et moi nous affrontions...[pause][\x0203]Je me demande qui
+    l'emporterait...[pause]
+  - "[\\x0207]Guilmon[\\x0207]Mmm ! Comme\nça sent bon ! [pause][\\x0203]Il doit y avoir \ndu hamburger  \nau menu ![pause]"
+  - "[\\x0207]Guilmon[\\x0207]C'est donc toi\n[\\x020801][\\x020501], le\ncélèbre dresseur ?[pause][\\x0203]Nous essayons tous\nde te battre ! Reste \nsur tes gardes ![pause]"
+  - "[\\x0207]Ivy[\\x0207]Hé, [\\x020801][\\x020501], \nce garçon est\nextraordinaire ![pause][\\x0203]Il a tellement fait\npour Digimon Online !\nTu pourrais en[pause][\\x0203]apprendre énormément\nen l'observant ![pause]"
+  - "[\\x0207]Ike Fan d'Agumon[\\x0207]Digimon commence \net finit avec \nAgumon ![pause][\\x0203]C'est mon avis,\nfondé sur 20 ans\nd'histoire Digimon.[pause]"
+  - "[\\x0207]Dresseuse Natsumi[\\x0207]C'est moi Natsumi ! \nJe veux être une \ngrande dresseuse ![pause]"
+  - "[\\x0207]Dresseuse Natsumi[\\x0207]Hé, jouons aux\ncartes ! Je suis \nforte, tu sais ![pause]"
+  - |-
+    [\x0207]Dress. Natsumi[\x0207]J'ai gagné ![pause][\x0203]Je dois vaincre
+    pour devenir une
+    super dresseuse.[pause]
+  - |-
+    [\x0207]Dresseuse Natsumi[\x0207]Attends ! Quoi ?[pause][\x0203]Zut ! Bon... On
+    fait comme si
+    de rien n'était ![pause]
+  - "[\\x0207]Flamedramon[\\x0207]C'est Lucky Mouse, \nou plutôt Kurt, qui\ncontrôle tout ![pause][\\x0203]Même nous, les \nDigimons, sommes \ncontents de jouer.[pause]"
+  - "[\\x0207]Kumamon[\\x0207]Alors c'est toi\nqui a battu\nl'AoA. ?[pause][\\x0203]Ouah ! Tu es\nvraiment \nincroyable ![pause]"
+  - "[\\x0207]Mme Olivia[\\x0207]Je me suis enfui du \nbureau pour me \nconnecter en cachette.[pause][\\x0203]Bien sûr, je me sens\nun peu mal à l'aise, \nmais c'est si chouette![pause][\\x0203]Il ne faut pas que \nje me fasse \nprendre ici ![pause]"
+  - "[\\x0207]Alan la Flemme[\\x0207]Je crois qu'on ne peut\njouer que dans les \nSecteurs Est et Centre[pause][\\x0203]Bon, pour un test\nje pense que\nça ira.[pause]"
+  - "[\\x0207]Satomi Fan de Kumamon[\\x0207]Kumamon est \nsi mignon ![pause][\\x0203]Il a le poil si doux \net touffu qu'on a  \nenvie de le câliner ![pause]"
+  - "[\\x0207]Garde DO[\\x0207]Voici Amaterasu\nCity, le centre du\nserveur d'Amaterasu.[pause][\\x0203]Il abrite le serveur \nsystème qui contrôle \ntout Digimon Online.[pause]"
+  - "[\\x0207]Garde DO[\\x0207]Les Digimons vont \naider les gardes \nà présent.[pause][\\x0203]Il ne devrait plus y\navoir de lutte \npour le pouvoir ![pause]"
+  - "[\\x0207]Service Dressage[\\x0207]Tes données \nactuelles sont \ninchangées.[pause][\\x0203]Continue de lutter \npour être le meilleur \ndresseur possible ![pause]"
+  - "[\\x0207]Guide[\\x0207]Merci de \nparticiper à la\nmanche de test.[pause][\\x0203]Tu peux jouer\nseulement dans les\nSecteurs Est et Centre,[pause][\\x0203]mais nous essayons de\nrelancer le Circuit\nImprimé ![pause]"
+  - "[\\x0207]Aiko Chef de classe[\\x0207]Il paraît qu'il reste \nplein d'objets secrets \ncachés dans le coin,[pause][\\x0203]et qu'on peut même \nrécupérer des choses\nperdues ![pause]"
+  - "[\\x0207]Jake[\\x0207]Hé, hé, hé.\nPas mal l'endroit ![pause][\\x0203]Même si nous ne pouvons \npas être des Digs, nous\nsommes ravis d'être là.[pause]"
+  - "[\\x0207]Mamie Beth[\\x0207]Papi et moi \nattendons ce jour\ndepuis longtemps.[pause][\\x0203]Je suis contente\nque nous y soyons\nfinalement parvenus ![pause]"
+  - "[\\x0207]Shin Fan d'Omegamon[\\x0207]Mes Digimons ne \npeuvent pas digi[-4]\nvolver en Omegamons[pause][\\x0203]Ils ont peut[-4]être \nbesoin de s'en[-4]\ntraîner encore.[pause]"
+  - "[\\x0207]Manager Sasaki[\\x0207]J'ai loupé le travail\naujourd'hui pour\nvenir m'inscrire.[pause][\\x0203]Quel soulagement \nde savoir le directeur\nabsent ![pause]"
+  - "[\\x0207]Garde DO [\\x0207]Navré ! Ce secteur\nest toujours en \nconstruction.[pause]"
+  - "[\\x0207]Patamon[\\x0207]Je suis heureux que \nDigimon Online soit \nen partie réparé ![pause][\\x0203]Nous pouvons tous \njouer de nouveau\nensemble ![pause]"
+  - "[\\x0207]Monmon[\\x0207]Quel bonheur de \nvoir tous ces gens \nici ![pause][\\x0203]J'aime Digimon\nOnline quand il y\na plein de monde ![pause]"
+  - "[\\x0207]Navi Digivolution [\\x0207]Ici, tu peux avoir\ndes infos sur\nla digivolution.[pause][\\x0203]Quel sujet \nt'intéresse ?[pause]"
+  - "[\\x0207]Navi Digimon[\\x0207]Ici, tu trouveras des\ninfos sur les digicom[-4]\nbats et des astuces  [pause][\\x0203]sur l'éducation Digimon. \nQuel sujet t'intéresse?[pause]"
+  - "[\\x0207]Dr. Osomatsu[\\x0207]Bienvenue dans\nmon \nlaboratoire ![pause][\\x0203]Que veux[-4]tu\nfaire avec\ntes Digimons ?[pause]"
+  - "[\\x0207]Kotemon[\\x0207]Hé ! Tu es\n[\\x020801][\\x020501], \nnon ?[pause][\\x0203]Je n'aurais jamais\npensé te rencontrer\nici ![pause]"
+  - |-
+    [\x0207]Login[\x0207]Je suis très heureux
+    de vous revoir tous ! [pause][\x0203]Profitez[-4]en, même
+    s'il ne s'agit
+    que d'un test ![pause]
+  - |-
+    [\x0207]Accueil Arène[\x0207]Dans cette arène, tu
+    peux affronter les
+    meilleurs dresseurs.[pause][\x0203]Si tu veux combattre,
+    va provoquer les 4
+    chefs qui s'y trouvent.[pause][\x0203]Reviens ici quand
+    tu les auras tous
+    vaincus.[pause]
+  - "[\\x0207]Accueil Arène[\\x0207]Bienvenue, \n[\\x020801][\\x020501] ! Je\nt'attendais ![pause]"
+  - |-
+    [\x0207]Accueil Arène[\x0207]Si tu a battu Kurt,
+    c'est que tu es
+    plutôt fort ![pause][\x0203]Mais tu commences
+    à peine ton entraîne[-4]
+    ment de dresseur.[pause][\x0203]Bonne chance à toi
+    et à tous les
+    Digimons ![pause]
+  - "[\\x0207]Renamon[\\x0207]J'ai hâte de voir\nles dresseurs qui\nse présentent ![pause][\\x0203]Je regarderai tous\nvos combats avec \nattention.[pause]"
+  - "[\\x0207]Gatomon[\\x0207]Bienvenue dans \nmon hôtel ![pause][\\x0203]Détends[-4]toi et \nprends du repos.[pause]"
+  - "[\\x0207]Guardromon[\\x0207]Tu veux \nsauvegarder ? \nUn moment...[pause]"
+  - "[\\x0207]Kotemon[\\x0207]Nous tous, Digimons,\nprotègerons ce \nserveur.[pause][\\x0203]Je suis le garde\nresponsable de\nce lieu.[pause]"
+  - "[\\x0207][\\x020902]3Tout a été nettoyé !\nEst[-4]ce qu'on a aussi \nfait ma chambre ?[pause]"
+  - |-
+    [\x0207][\x020902]3Hé ! Il y a
+    quelque chose
+    ici ! [pause][\x0203]Ouais ! J'ai
+    8500 BIT !![pause]
+  - "[\\x0207][\\x020902]3Y[-4]a[-4]t'il quelque \nchose par là ?\nOn dirait que non.[pause]"
+  - "[\\x0207][\\x020902]3Non. On \ndirait qu'il \nn'y a rien.[pause]"
+  - "[\\x0207]Gargoylemon[\\x0207]Un Magasin\nd'armes ! Tu \nveux entrer?[pause]"
+  - "[\\x0207]Wizermon[\\x0207]Bienvenue au \nMagasin d'objets ![pause]"
+  - "[\\x0207]Gomamon[\\x0207]C'est une\nbijouterie ! \nVous désirez ?[pause]"
+  - "[\\x0207]Wizermon[\\x0207]Bienvenue au \nMagasin d'objets ![pause]"
+  - "[\\x0207]Gargoylemon[\\x0207]Un Magasin\nd'armes ! \nTu entres ?[pause]"
+  - "[\\x0207]Bruce le Riche[\\x0207]Zut ! Ils n'ont\npas de Bras\nTempétueux ![pause][\\x0203]Il paraît pourtant  \nque je devrais en \nen trouver un ici.[pause]"
+  - |-
+    [\x0207]Melle Ripley [\x0207]Vous avez une arme
+    pour tuer les fantô[-4]
+    mes d'un seul coup ?[pause][\x0203]J'en ai assez de
+    devoir m'enfuir
+    tout le temps ![pause]
+  - |-
+    [\x0207]Maître Paul[\x0207]John d'Asuka City
+    et moi allons jouer
+    sur Digimon Online[pause][\x0203]restauré !
+    Je suis impatiente ![pause]
+  - "[\\x0207]Serveuse Linda[\\x0207]Quel bonheur que\ntous les clients\nsoient revenus ![pause][\\x0203]Avec toute cette\nagitation, j'ai hâte \nque ça commence ![pause]"
+  - |-
+    [\x0207]Oncle Carlos[\x0207]Tu es le héros du
+    moment depuis que
+    tu as battu l'AoA ![pause][\x0203]Bien joué ! Je te
+    tire mon chapeau ![pause]
+  - "[\\x0207]Sepikmon[\\x0207]Aujourd'hui est jour \nde fête parce que\nDigimon Online a[pause][\\x0203]rouvert ! Mais même\nsaoul, je garderai\nmon masque ![pause]"
+  - |-
+    [\x0207]Veemon[\x0207]Oh ! Qu'y
+    avait[-4]il dans
+    cette eau ?[pause][\x0203]Je me sens bien
+    mais j'ai un peu
+    le vertige ![pause]
+  - "[\\x0207]Nick[\\x0207]Hu, Huuuu,\nIci, aussi\ntout est OK ![pause][\\x0203]Ha ha ! J'ai \nretrouvé mes \nvieilles habitudes ![pause]"
+  - "[\\x0207]Nick[\\x0207]Oh oui, Kurt\nm'a donné ça \npour tenir le coup.[pause][\\x0203]Voilà, c'est ta \nsacoche. Tu ne l'avais\npas encore eue, non ?[pause][\\x0203]Tu dois adorer\nces cartes et tous les\ntrucs de dressage ![pause]"
+  - "[\\x0207]Nick[\\x0207]Kurt m'a invité\nà jouer aujourd'hui.[pause][\\x0203]Mais, où \nsont[-4]ils tous ?[pause]"
+  - "[\\x0207]Smith Junior[\\x0207]Il n'y a pas de\nvente aujourd'hui ![pause][\\x0203]Cela fera une \ncachette provisoire\nidéale ![pause]"
+  - "[\\x0207]Divermon[\\x0207]Bienvenue au Croiseur\nJaune, paradis   \ndes fans des cartes ![pause]"
+  - |-
+    [\x0207]Leia Collectionneuse[\x0207]Je t'apprendrai
+    à jouer ![pause]
+  - "[\\x0207]Ken Joueur de Cartes[\\x0207]Quoi ? Tu veux\nconnaître les \nrègles de base ?[pause]"
+  - "[\\x0207]Dresseur Nacky[\\x0207]Puisque Digimon\nOnline a été\nrestauré,[pause][\\x0203]j'espère pouvoir \nme rattraper ![pause]"
+  - "[\\x0207]Dresseur Nacky[\\x0207]Affronte[-4]moi \ndans un Com[-4]\nbat de cartes![pause][\\x0203]Prêt à me voir \ngagner ?[pause]"
+  - "[\\x0207]Dresseur Nacky[\\x0207]Oui ! je savais \nque je pouvais\nte battre ![pause][\\x0203]Attention !\nJ'ai de la veine\nen ce moment ![pause]"
+  - |-
+    [\x0207]Dresseur Nacky[\x0207]Nonnnnnnn !!!
+    Perdu !![pause][\x0203]La malchance
+    me poursuit ![pause]
+  - "[\\x0207]Dresseur Harami[\\x0207]Aujourd'hui,\nmon bébé m'a \nautorisé à [pause][\\x0203]venir ![pause]"
+  - "[\\x0207]Dresseur Harami[\\x0207]Parfois, il faut\nrester cool et\ns'amuser ![pause][\\x0203]Bon, \njouons aux\ncartes ![pause]"
+  - |-
+    [\x0207]Dresseur Harami[\x0207]Ouais ! Gagné ![pause][\x0203]Voilà qui devrait
+    réjouir ma
+    petite poupée ![pause]
+  - "[\\x0207]Dresseur Harami[\\x0207]Hé ! Qu'est[-4]ce \nqui s'est passé?[pause][\\x0203]Désolé Yoko, \npapa n'a pas\nassuré ![pause]"
+  - "[\\x0207]Dresseur Mei Lin[\\x0207]Nihao! Tu es [\\x020801][\\x020501]\nnon ? Content de  \nte rencontrer ![pause][\\x0203]Grâce à toi Digimon\nOnline fonctionne ![pause]"
+  - "[\\x0207]Dresseur Mei Lin[\\x0207]Hé, tant qu'on y\nest, jouons aux\ncartes ![pause][\\x0203]Je n'aurais jamais\nimaginé jouer aux \ncartes avec toi ![pause]"
+  - |-
+    [\x0207]Dresseur Mei Lin[\x0207]Youpi !
+    J'ai gagné !![pause][\x0203]Tu es bon au
+    combat, mais pas
+    aux cartes ![pause]
+  - "[\\x0207]Dresseur Mei Lin[\\x0207]Ohhh nooon ! \nTu es trop \nfort ![pause][\\x0203]Je vais m'entraîner\njusqu'à ce que je\nte batte ![pause]"
+  - |-
+    [\x0207]Dresseur Mitch[\x0207]Ouais, c'est génial
+    qu'on puisse rejouer
+    sur Digimon Online.[pause]
+  - "[\\x0207]Dresseur Mitch[\\x0207]OK, petit, \njouons aux \ncartes ![pause][\\x0203]Cela devrait\nêtre une\nbonne partie ![pause]"
+  - |-
+    [\x0207]Dresseur Mitch[\x0207]Ouiii ! J'adore
+    gagner ![pause][\x0203]C'est pour ça
+    que je raffole de
+    Digimon Online![pause]
+  - "[\\x0207]Dresseur Mitch[\\x0207]Tu es doué ! Enfin,\nje crois, puisque tu\nas battu l'AoA ![pause][\\x0203]Tu seras sans doute \nle meilleur dresseur \nde tous les temps ![pause]"
+  - "[\\x0207][\\x020902]3Qu'est[-4]ce que \nc'était ? Un \néclair, non ?[pause][\\x0203]J'ai rêvé ?\nJe devrais\njeter un oeil.[pause]"
+  - |-
+    [\x0207][\x020902]3Non, il n'y
+    avait rien,
+    apparemment.[pause]
+  - "[\\x0207][\\x020902]3Quelque chose \nest tombé\ndans cette fente ![pause][\\x0203]Hé ! Regarde !\nUne \"carte Membre\nP\" ![pause][\\x0203]Une carte Membre\nPlatine ! Hum... \nComment l'utiliser ?[pause]"
+  - |-
+    [\x0207][\x020902]3Non. Je crois
+    qu'il n'y a rien
+    par là.[pause]
+  - "[\\x0207]Ponchomon[\\x0207]Hé, amigo ! \nBienvenue à\nEl Dorado![pause][\\x0203]Des bonnes \ninfos sur les \nobjets, amigo?[pause]"
+  - |-
+    [\x0207]Teddy[\x0207]Hé ! [\x020801][\x020501] !
+    Comment
+    ça va ?[pause][\x0203]Moi, bien sûr,
+    je suis au top !
+    Hé hé hé.[pause]
+  - |-
+    [\x0207]Teddy[\x0207]Très bien !
+    Jouons aux
+    cartes ![pause][\x0203]Bon, es[-4]tu
+    prêt à
+    PERDRE ?[pause]
+  - "[\\x0207]Teddy[\\x0207]Ha ha ha !\nQu'est[-4]ce que\nje disais, hein ?![pause][\\x0203]Je connais \ntoutes tes\ntechniques ![pause]"
+  - "[\\x0207]Teddy[\\x0207]Hé ! D'où\ntu sors ça ?[pause][\\x0203]Oh ! Je ferais\nmieux d'aller \nm'entraîner ![pause]"
+  - "[\\x0207]Dresseur Andy[\\x0207]C'est moi Andy, \ndresseur génial\ndu serveur 1 ![pause][\\x0203]Crois[-4]moi,\ntu ne m'arrives\npas à la cheville ![pause]"
+  - "[\\x0207]Dresseur Andy[\\x0207]Je vais te le\nprouver aux\ncartes ![pause][\\x0203]Peux tu battre le\ndossier mega[-4]fort \nque j'ai fait ?[pause]"
+  - "[\\x0207]Dresseur Andy[\\x0207]Ha ha ha ! Tu\nsavais que tu\nallais perdre ![pause][\\x0203]Personne ne bat\nle dresseur \nAndy !![pause]"
+  - |-
+    [\x0207]Dresseur Andy[\x0207]Quoi ! J'avais
+    pourtant le plus
+    fort dossier !![pause][\x0203]Tiens[-4]toi prêt :
+    la prochaine fois,
+    je vais gagner ![pause]
+  - "[\\x0207]Tomoyo le Voyageur[\\x0207]Salut, tu complètes \ntes partenaires\nDigimon ?[pause][\\x0203]Si tu ne trouves pas\ntout ce qu'il faut, va \nvoir au Circuit Imprimé ![pause]"
+  - "[\\x0207]Abel le Négociant[\\x0207]Dommage que la\nvente n'ait pas \nlieu.[pause][\\x0203]Bon, ça ira puisque\nj'ai tout ce qu'il\nme faut.[pause]"
+  - "[\\x0207]Mike le Rappeur[\\x0207]Ouais ! Super !\nDigimon Online \nmarche de nouveau ![pause][\\x0203]Tout ça grâce\nà [\\x020801][\\x020501], il est\nsuper ce dresseur ![pause]"
+  - "[\\x0207]Sakura[\\x0207]Il paraît que si tu\nregardes partout, tu\ntrouves tous les objets![pause][\\x0203]Si je m'y mettais, \nje devrais y arriver,\nmoi aussi ![pause]"
+  - "[\\x0207]Yuka la Flemme[\\x0207]Je me demande \njusqu'à quel point un\nDig peut digivolver.[pause][\\x0203]Il faut sans doute\nessayer pour\nle savoir.[pause]"
+  - "[\\x0207]Garde DO[\\x0207]Après le passage\nde l'AoA, il faut \ntoujours nettoyer[pause][\\x0203]Il y a des\nproblèmes \nmême quand ils[pause][\\x0203]ne sont plus là ![pause]"
+  - "[\\x0207]Garde DO[\\x0207]Désolé ! Ce \nsecteur est \nen construction.[pause]"
+  - |-
+    [\x0207]Freda Tatillonne[\x0207]C'est sale ! Faut
+    encore nettoyer ![pause][\x0203]Tout doit être
+    impeccable pour le
+    lancement officiel![pause]
+  - |-
+    [\x0207]Kurt[\x0207]Hé ! [\x020801][\x020501] !
+    Tu as réussi ![pause][\x0203]Grâce à toi
+    Digimon Online
+    va rouvrir ![pause][\x0203]Mille mercis !
+    Allez, amuse[-4]
+    toi bien ![pause]
+  - "[\\x0207]Kurt[\\x0207]Ouah ! On dirait\nvraiment que tu \nas progressé ![pause][\\x0203]Pourquoi ne pas\njeter un oeil sur \nl'arène ?[pause]"
+  - |-
+    [\x0207]Kurt[\x0207]Quelle maîtrise ![pause][\x0203]Tu es sûr de
+    devenir le prochain
+    Champion du monde ![pause]
+  - |-
+    [\x0207]Opérateur DO[\x0207][\x020801][\x020501], tes
+    données sont
+    phénoménales ![pause][\x0203]Je les utiliserai
+    pour équilibrer
+    le jeu.[pause]
+  - |-
+    [\x0207]Opérateur D.O [\x0207]Je vais utiliser mon
+    savoir pour rendre
+    le monde meilleur.[pause][\x0203]Je fonde de grands
+    espoirs sur
+    Digimon Online ![pause]
+  - "[\\x0207]Emmie Fan de Digimons[\\x0207]On dit que certains \nDigs peuvent fabriquer\nl'arme de ton choix ![pause][\\x0203]J'aimerais en trouver\nun, ne serait[-4]ce \nqu'une seule fois ![pause]"
+  - "[\\x0207]Midori Bagarreur[\\x0207]Oui ! Un autre\ncombat Digimon !\nFantastique ![pause][\\x0203]Bonne chance et \nbattez[-4]vous bien ![pause]"
+  - |-
+    [\x0207]Guilmon[\x0207]Oh, un tunnel ?
+    Il n'était pas là
+    avant ![pause][\x0203]Il devait être
+    comblé pendant
+    les travaux.[pause]
+  - "[\\x0207]Chef de Chinron[\\x0207]Quoi ? Tu\nveux te battre\ncontre MOI !?[pause][\\x0203]Alors, tu dois trouver\nles 5 meilleurs\nobjets Epiques[pause][\\x0203]cachés dans ce monde\net les ramener. Mais, \ntu ne les trouveras[pause][\\x0203]pas aussi facilement\nque tu le penses ![pause]"
+  - "[\\x0207]Chef de Chinron[\\x0207]Quoi ? Tu\nveux te battre\ncontre MOI !?[pause][\\x0203]Ah, je vois, tu as\nles 5 meilleurs\nobjets Epiques ![pause][\\x0203]Dans ce cas, je vais\nt'affronter ! \nEn garde ![pause]"
+  - "[\\x0207]Chef de Chinron[\\x0207]Je n'en attendais pas\nmoins de celui qui a\nrecueilli tous les[pause][\\x0203]objets Epiques ! \nContinue comme ça, \ntu iras au sommet ![pause]"
+  - |-
+    [\x0207]William l'Ecrivain[\x0207]As[-4]tu lu mon
+    livre, "Oinkio &
+    Floriette"?[pause][\x0203]Une histoire d'amour
+    sur un Oinkmon et
+    Floramon ![pause][\x0203]Le prochain livre a pour
+     titre "Numemette" !
+    Ne le manque pas ![pause]
+  - "[\\x0207]La Groupie d'Andy [\\x0207]Ouah ! Andy !\nSuper ![pause][\\x0203]Je serais \ntoujours fan de\ntoi, Andy![pause]"
+  - a
+  - "[\\x0207]Renamon[\\x0207]Ainsi, tu es\n [\\x020801][\\x020501], tu as \nl'air plutôt fort ![pause][\\x0203]J'ai toujours voulu\nvoir un dresseur\nde ton niveau ![pause]"
+  - |-
+    [\x0207]Guardromon[\x0207]Me voilà transformé
+    en garde de
+    patrouille Digimon ![pause][\x0203]Je ferais de mon mieux
+    pour protéger
+    Digimon Online![pause]
+  - "[\\x0207]Monmon[\\x0207]Je m'ennuie !\nIl n'y a que\ndes Digimon.[pause][\\x0203]Voilà pourquoi \nje suis ravi \nde te voir ![pause]"
+  - "[\\x0207]Piccolomon[\\x0207]Je suis le chef\nDigimon ! Que \nvoulez[-4]vous ?[pause]"
+  - "[\\x0207]Sarah[\\x0207]Le Chef de \nChinron est si\nviril et séduisant ![pause][\\x0203]Mais le chef de\nSeiryu n'est pas\nmal non plus ![pause]"
+  - "[\\x0207]Emily la Photographe[\\x0207]Hé, une seconde !\nVous ne seriez pas\n[\\x020801][\\x020501] ?[pause][\\x0203]Je suis une de \nvos fans ! Je peux\nprendre une photo ?[pause]"
+  - "[\\x0207]Papi Brown[\\x0207]Eh bien, à présent\nje suis un dresseur \nà la retraite .[pause][\\x0203]Mais je vais\nveiller sur vous,\nles enfants ![pause]"
+  - |-
+    [\x0207]Airdramon[\x0207]Zzzzzzz.
+    Zzzzzzz.[pause][\x0203]Hé ! Qu'est[-4]ce
+    c'est que ce
+    vacarme ![pause]
+  - |-
+    [\x0207]Biyomon[\x0207]Youhou !
+    C'est super : Digimon
+    Online rouvre ![pause]
+  - "[\\x0207]Terriermon[\\x0207]Brmrprchr...\nBrmrprchr... \nZzzzzzz..[pause]"
+  - |-
+    [\x0207]Gabumon[\x0207]Aaaah !
+    Je suis fatigué
+    aujourd'hui ![pause]
+  - "[\\x0207]M. Wedge[\\x0207]Merci d'avoir \nchoisi le Magasin\nWedge ![pause][\\x0203]J'ai plein de\nbons objets : \nviens voir ![pause]"
+  - "[\\x0207]M. Wedge[\\x0207]Ah, je vois que \ntu as une Carte\nPlatine ![pause]"
+  - "[\\x0207]M. Wedge[\\x0207]J'ai aussi plein \nde bons trucs \nderrière ![pause]"
+  - "[\\x0207]Hanako l'Ecrivain[\\x0207]M. Wedge est\nsi viril ![pause][\\x0203]Ouah ! J'en ai \nles jambes en\ncoton ![pause]"
+  - "[\\x0207]Divermon[\\x0207]Hmm. Pourquoi\nje n'ouvrirais pas\nles boosters ?[pause][\\x0203]OK ! Une \nseconde ![pause]"
+  - "[\\x0207]Ponchomon[\\x0207]Amigo, parlons de\ncertains de mes ob[-4]\njets hauts de gamme[pause][\\x0203]Là, ce sont les \nobjets Epiques, les \nmeilleurs au monde ![pause][\\x0203]Ils sont faits par le\nCorps Armure, dans \nle Circuit Imprimé.[pause][\\x0203]Mais seuls les \ndresseurs forts\npeuvent les utiliser.[pause][\\x0203]Ils ne fonctionnent \npas avec les faibles\namigo ![pause]"
+  - "[\\x0207]Divermon[\\x0207]Hein ? Tu n'as pas\nde sacoche ?[pause][\\x0203]Dans ce cas, je ne \npeux rien pour toi !\nVa[-4]t[-4]en ![pause]"

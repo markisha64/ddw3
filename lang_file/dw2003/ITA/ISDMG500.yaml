@@ -1,0 +1,677 @@
+type: extended
+files:
+  - strings:
+      - ''
+      - |-
+        [\x0207]Donna[\x0207]Ehi tu!
+        Proprio
+        tu, laggiù![pause]
+      - |-
+        [\x0207][\x020902]3Uhmmmm...
+        Chi, io?[pause]
+      - |-
+        [\x0207]Donna[\x0207]Sono Lisa.
+        Piacere![pause][\x0203]E il tuo
+        nome?[pause]
+      - |-
+        [\x0207][\x020902]3Oh, sono
+        [\x020801][\x020501].[pause]
+      - |-
+        [\x0207]Lisa[\x0207][\x020801][\x020501], OK, lo
+        ricorderò.[pause][\x0203][\x020802][\x020502], per caso hai
+        visto un piccolo
+        Digimon verde?[pause]
+      - |-
+        [\x0207][\x020902]3Um, ah, parli
+        di Monmon, o di
+        Terriermon?[pause]
+      - |-
+        [\x0207]Lisa[\x0207]Beh, ecco,
+        non lo so.[pause][\x0203]Quale credi
+        che sia,
+        [\x020801][\x020501]?[pause]
+      - |-
+        [\x0207][\x020902]3Beh, mah,
+        boh?[pause]
+      - |-
+        [\x0207]Lisa[\x0207]Oh, lo so, è
+        Ogremon!
+        Per forza![pause][\x0203]Devo andare
+        subito a
+        cercarlo![pause]
+      - '[\x0207][\x020902]3Ma che ha quella?[pause]'
+      - |-
+        [\x0207]Lisa[\x0207][\x020801][\x020501], è stato
+        un piacere.
+        Ciao![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Gov. Suzaku[\x0207]Sei pronto
+        a entrare
+        nell'arena?[pause]
+      - |-
+        [\x0207][\x020902]3Si,
+        certo![pause]
+      - |-
+        [\x0207]Gov. di Suzaku[\x0207]Mmm, sembri
+        molto fiducioso![pause][\x0203]Ma non mi
+        sottovalutare,
+        capito?[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Gov. di Suzaku[\x0207]Oh no, ho
+        perso![pause][\x0203]Bene, come ti
+        chiami?[pause]
+      - '[\x0207][\x020902]3[\x020801][\x020501]![pause]'
+      - |-
+        [\x0207]Gov. di Suzaku[\x0207]È un bel
+        nome![pause][\x0203]OK, ti darò
+        questo.[pause]
+      - |-
+        [\x0207][\x020902]3Ora ho lo
+        stemma di
+        Suzaku![pause][\x0203]Devo prendere
+        quello di
+        Byakko, ora.[pause]
+      - |-
+        [\x0207]Gov. di Suzaku[\x0207]Il Settore Ovest
+        è oltre l'oceano.
+        È duro arrivarci.[pause][\x0203]L'unico modo è
+        farsi portare da
+        Submarimon.[pause][\x0203]Per chiamarli serve
+        il digi[-4]uovo della
+        fiducia.[pause][\x0203]Chiedi sue notizie in giro
+        per questo settore.[pause][\x0203]È l'unico consiglio
+        che posso darti.
+        Buona fortuna![pause]
+  - strings:
+      - ''
+      - "[\\x0207]Kail[\\x0207]Ehi, [\\x020801][\\x020501]!\nBentornato![pause][\\x0203]È da un po' che \nsiamo qui. Torniamo\nindietro?[pause]"
+      - |-
+        [\x0207][\x020902]3Si, ho battuto i
+        governatori di Seiryu
+        e Suzaku, non è male![pause][\x0203]E Teddy? Dobbiamo
+        trovare Teddy![pause]
+      - |-
+        [\x0207]Kail[\x0207]Teddy sta bene. È al
+        centro amministrativo
+        di Asuka.[pause][\x0203]L'ultima volta che
+        l'ho visto stava
+        andando là.[pause]
+      - |-
+        [\x0207][\x020902]3Oh, OK. Allora
+        torniamo subito ad
+        Asuka![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Numemon[\x0207]Vai alla città
+        di Byakko?[pause]
+      - |-
+        [\x0207][\x020902]3Proprio
+        così.[pause]
+      - '[\x0207]Numemon[\x0207]Ripensaci.[pause]'
+      - |-
+        [\x0207][\x020902]3Cosa?
+        Perché?[pause]
+      - |-
+        [\x0207]Numemon[\x0207]Cerca di
+        tornare
+        intero, OK?[pause]
+      - '[\x0207][\x020902]3Aspetta![pause]'
+      - |-
+        [\x0207][\x020902]3È andato.[pause][\x0203]Ma che cosa
+        starà succedendo
+        a Byakko?[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Numemon[\x0207]Qui saremo
+        al sicuro.[pause]
+      - |-
+        [\x0207][\x020902]3Ehi, grazie![pause][\x0203]Ma cosa hanno
+        gli abitanti
+        di Byakko?[pause][\x0203]Il governatore mi
+        ha fatto cadere
+        nel sotterraneo.[pause]
+      - |-
+        [\x0207]Numemon[\x0207]Il governatore
+        e tutti gli altri
+        sono dei falsi![pause]
+      - |-
+        [\x0207][\x020902]3Cosa? Allora
+        chi erano
+        quei tizi?[pause]
+      - |-
+        [\x0207]Numemon[\x0207]Questo non ti
+        riguarda![pause][\x0203]Il vero governatore
+        è nel deserto di
+        Moebius.[pause][\x0203]Si trova nella Torre
+        miraggio.[pause]
+      - |-
+        [\x0207][\x020902]3Ehi!
+        Aspetta!
+        Che storia è?[pause]
+      - "[\\x0207]Numemon[\\x0207]Non posso dirti\naltro![pause][\\x0203]Non venire\npiù qui a \nByakko![pause]"
+      - |-
+        [\x0207][\x020902]3E va bene!
+        Ciao![pause]
+      - |-
+        [\x0207][\x020902]3Bene. Troviamo
+        il vero governatore
+        e parliamoci![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Ehi,
+        Numemon![pause]
+      - |-
+        [\x0207]Numemon[\x0207]Sei tu.
+        Perché sei
+        tornato?[pause]
+      - |-
+        [\x0207][\x020902]3Vorrei chiederti
+        una cosa.
+        Posso?[pause]
+      - |-
+        [\x0207]Numemon[\x0207]Non ho nulla
+        da dirti![pause]
+      - '[\x0207][\x020902]3Aspetta![pause]'
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Uh, strano.[pause][\x0203]Numemon non è
+        qui.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PRONTO A
+        SALVARE[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PRONTO A
+        SALVARE[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PRONTO A
+        SALVARE[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PRONTO A
+        SALVARE[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Si, bene.
+        Avanti,
+        combatti![pause]
+      - |-
+        [\x0207]Zanbamon[\x0207]Non vali
+        nulla![pause]
+      - |-
+        [\x0207][\x020902]3Hai paura di
+        perdere?[pause]
+      - |-
+        [\x0207]Zanbamon[\x0207]Co[-4]cosa?!
+        Non è vero![pause][\x0203]Va bene!
+        Se insisti,
+        battiamoci![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Zanbamon[\x0207]Co[-4]cosa?
+        Ho perso.[pause]
+      - |-
+        [\x0207][\x020902]3Strano, eh?
+        Sono molto forte,
+        vero?[pause]
+      - |-
+        [\x0207]Zanbamon[\x0207]Hai ragione
+        Ti darò questa,
+        perdonami![pause]
+      - "[\\x0207][\\x020902]3Una Katana\nusata? Oh, \nbeh...[pause]"
+      - |-
+        [\x0207]Zanbamon[\x0207]Vivrò in pace,
+        qui.[pause][\x0203]Lasciami
+        solo![pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3MagnaAngemon, devo\nchiederti un favore.[pause][\\x0203]Mi dai il DDNA di \nPatamon dal tuo?[pause]"
+      - |-
+        [\x0207]MagnaAngemon[\x0207]Mi dispiace, ma non
+        te lo darò così
+        facilmente.[pause][\x0203]Se riesci a
+        battermi, lo
+        avrai.[pause]
+  - strings:
+      - ''
+      - '[\x0207][\x020902]3Ho vinto![pause]'
+      - |-
+        [\x0207]MagnaAngemon[\x0207]Va bene,
+        prendilo.[pause]
+      - |-
+        [\x0207][\x020902]3Il DDNA di
+        Patamon,
+        wow![pause][\x0203]Grazie,
+        MagnaAngemon![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Taomon, mi
+        faresti un favore?[pause][\x0203]Posso prendere il
+        DDNA di Renamon
+        dal tuo?[pause]
+      - |-
+        [\x0207]Taomon[\x0207]Si, ma non per
+        nulla.[pause][\x0203]Vediamo se te lo
+        meriti.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Ho
+        battuto
+        Taomon![pause]
+      - "[\\x0207]Taomon[\\x0207]Ebbene,\nnon ti credevo\ncosì forte.[pause][\\x0203]Ecco, \nprendi.[pause]"
+      - |-
+        [\x0207][\x020902]3Ho il DDNA
+        di Renamon,
+        wow![pause][\x0203]Grazie Taomon![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Kyukimon, mi
+        fai un favore?[pause][\x0203]Posso prendere il
+        DDNA di Kotemon
+        dal tuo?[pause]
+      - |-
+        [\x0207]Kyukimon[\x0207]Mmmm, va
+        bene, ma a una
+        condizione.[pause][\x0203]Devi lottare
+        e battermi.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Ho vinto
+        contro
+        Kyukimon![pause]
+      - |-
+        [\x0207]Kyukimon[\x0207]Hai dei Digimon
+        molto forti: mi
+        hai battuto.[pause][\x0203]Non mi divertivo
+        così da tanto.
+        Ecco, prendi![pause]
+      - |-
+        [\x0207][\x020902]3HO il DDNA
+        di Kotemon.
+        Wow![pause][\x0203]Grazie,
+        Kyukimon![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Cosa
+        vuoi
+        dire?[pause]
+      - |-
+        [\x0207]Seraphimon N[\x0207]Che dovrai
+        lottare con me![pause][\x0203]Se vincerai,
+        passerai.[pause][\x0203]Ma se perderai
+        sarà la fine![pause]
+      - |-
+        [\x0207][\x020902]3Ho capito.
+        Lottiamo,
+        avanti![pause]
+      - |-
+        [\x0207]Seraphimon N[\x0207]Non potrai
+        parlare ancora a
+        lungo[pause][\x0203]Farai meglio
+        a stare
+        attento![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Seraphimon N[\x0207]So della tua
+        forza e
+        del tuo coraggio.[pause][\x0203]Ho testato il tuo
+        coraggio...[pause]
+      - |-
+        [\x0207][\x020902]3Nessuno può
+        battermi nel
+        coraggio![pause]
+      - |-
+        [\x0207]Seraphimon N[\x0207]Bravo! Ben detto![pause][\x0203]Sei passato.
+        Questa ne sarà
+        la prova![pause]
+      - |-
+        [\x0207][\x020902]3La tuta da
+        cecchino![pause]
+      - |-
+        [\x0207]Seraphimon N[\x0207]Il passaggio
+        è rivelato dal
+        coraggio.[pause][\x0203]Non arrenderti
+        a nessun
+        nemico![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3OK, è quella
+        stanza laggiù![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3OK, eccoti
+        qui![pause][\x0203]Non ti lascerò
+        scappare,
+        questa volta![pause]
+      - |-
+        [\x0207]Numemon[\x0207]Dovresti
+        rinunciare![pause]
+  - strings:
+      - ''
+      - '[\x0207][\x020902]3Eccolo![pause]'
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Ehi, Numemon
+        è molto
+        veloce![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3È di sopra.[pause][\x0203]Sono venuto fin
+        qui e lo prenderò![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Oh, adesso è
+        qui dentro.[pause][\x0203]Allora non farò
+        altro che
+        seguirlo![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Ehi!
+        Sono Nick
+        e Keith.[pause]
+      - |-
+        [\x0207]Nick[\x0207]Insomma, per
+        una volta ti
+        darai da fare?[pause][\x0203]Stai giocando
+        da quando siamo
+        arrivati![pause]
+      - a
+      - a
+      - |-
+        [\x0207]Keith[\x0207]Ha ha ha ha, hai
+        ragione! Ma è un
+        buon piano![pause][\x0203]Probabilmente
+        contatteranno i
+        giocatori migliori![pause]
+      - |-
+        [\x0207]Nick[\x0207]Non mi prendere
+        in giro![pause][\x0203]D'ora in poi
+        seguiremo
+        il piano![pause]
+      - |-
+        [\x0207]Keith[\x0207]No!
+        Mi piace quello
+        che faccio![pause][\x0203]Ho deciso così.
+        Libertà![pause]
+      - '[\x0207]Nick[\x0207]Keith![pause]'
+      - '[\x0207][\x020902]3Scusatemi.[pause]'
+      - |-
+        [\x0207]Nick[\x0207]Ehi, tu
+        sei...?[pause]
+      - |-
+        [\x0207]Keith[\x0207]Ehi, ragazzo,
+        vuoi combattere?[pause]
+      - |-
+        [\x0207][\x020902]3Ah, no. Lisa mi
+        ha chiesto di...[pause][\x0203]...trovare Keith
+        e Nick.[pause]
+      - |-
+        [\x0207]Keith[\x0207]Ah, te lo
+        ha chiesto?[pause]
+      - |-
+        [\x0207]Nick[\x0207]Sarà meglio
+        andare o
+        s'arrabbierà![pause]
+      - |-
+        [\x0207][\x020902]3Ehi, un
+        momento![pause]
+      - |-
+        [\x0207]Keith[\x0207]Non c'è
+        tempo!
+        Andiamo![pause]
+      - |-
+        [\x0207]Nick[\x0207]Si, portaci
+        da lei,
+        ora![pause]
+      - |-
+        [\x0207][\x020902]3Cosa?
+        Va bene![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Gov. di Suzaku[\x0207]Oh, no, no!
+        Tu di qui
+        non passi.[pause][\x0203]Guarda, vedi
+        quello?[pause]
+      - |-
+        [\x0207][\x020902]3E che
+        cos'è?[pause]
+      - |-
+        [\x0207]Governat. di Suzaku[\x0207]Buco di sicurezza!
+        Come un buco
+        nella rete.[pause][\x0203]Dev'essere
+        la causa del
+        terremoto.[pause]
+      - |-
+        [\x0207][\x020902]3Quella voce viene
+        dalla gondola.[pause][\x0203]Ci sono! È
+        Bulbmon![pause]
+      - |-
+        [\x0207]Governat. di Suzaku[\x0207]Ti ripeto: non puoi
+        andare![pause][\x0203]Non sai cosa
+        succederà. È
+        pericoloso![pause][\x0203]Come governatrice del
+        Settore Sud, devo
+        proteggerti![pause]
+      - |-
+        [\x0207][\x020902]3Oh, avanti! Ci
+        devo proprio
+        andare![pause][\x0203]Hai sentito
+        dell'A.o.A?[pause][\x0203]Qualcuno deve
+        andare, o sarà
+        sempre peggio![pause]
+      - |-
+        [\x0207]Gov. Suzaku[\x0207]Se la metti
+        così...[pause]
+      - |-
+        [\x0207]Gov. di Suzaku[\x0207]Oh, va bene![pause][\x0203]Ma se è troppo
+        pericoloso,
+        torna! OK?[pause]
+      - |-
+        [\x0207][\x020902]3Quattro stemmi
+        dei governatori?[pause][\x0203]Grazie mille,
+        governatrice
+        di Suzaku![pause]
+      - |-
+        [\x0207][\x020902]3Forse se entro
+        nel buco troverò il
+        server Amaterasu?[pause]
+      - |-
+        [\x0207][\x020902]3Ehi, governatrice,
+        ho una domanda![pause][\x0203]Sai dove si trova
+        la camera d'emergenza
+        nel Settore Nord?[pause]
+      - |-
+        [\x0207]Gov. di Suzaku[\x0207]Intendi la camera di
+        emergenza della
+        Matrice?[pause][\x0203]Si trova in fondo
+        alla Miniera Kulon.[pause][\x0203]Ma devi avere
+        i quattro stemmi
+        per usarlo.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Ho battuto
+        il capo di Zhu
+        Que.[pause]
+      - |-
+        [\x0207][\x020902]3Eh? C'è di
+        nuovo qualcosa
+        a terra.[pause]
+      - "[\\x0207][\\x020902]3È il pass\nrosso![pause][\\x0203]Ma ancora non so\ndov'è il digi[-4]uovo![pause][\\x0203]Mi serve per \nfermare la\nJuggernaut![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Si!
+        Ho battuto
+        Bulbmon![pause]
+      - |-
+        [\x0207][\x020902]3Cosa?!
+        Il buco va
+        ancora avanti![pause][\x0203]Forse arriva al
+        Server di
+        Amaterasu.[pause][\x0203]Beh, lo vedremo![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Ma dove?
+        Dove?[pause]
+      - |-
+        [\x0207]Patamon[\x0207]Io non lo so.[pause][\x0203]Ma ho udito uno
+        strano suono venire
+        dalla giungla.[pause]
+      - |-
+        [\x0207][\x020902]3Strano
+        suono?[pause]
+      - |-
+        [\x0207]Patamon[\x0207]Si, come un Digimon
+        o una macchina! Uno
+        strano suono![pause][\x0203]La governatrice l'ha
+        udito ed è scappata.[pause][\x0203]Forse anche lei
+        è andata verso
+        la giungla![pause]
+      - |-
+        [\x0207][\x020902]3Capisco.
+        Beh, grazie![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Un
+        terremoto!
+        Ancora?[pause]
+      - |-
+        [\x0207][\x020902]3Lo sapevo!
+        È Bulbmon![pause]
+      - |-
+        [\x0207][\x020902]3Il terremoto era
+        causato dal
+        suo scavare![pause][\x0203]Osserva.
+        Questa volta lo
+        batterò![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Capo di Zhu Que[\x0207]Possono entrare
+        solo i membri
+        dell'A.o.A![pause]
+      - |-
+        [\x0207][\x020902]3Capo di Zhu Que,
+        dov'è il digi[-4]uovo
+        della sapienza?[pause]
+      - |-
+        [\x0207]Capo di Zhu Que[\x0207]Ciò che è accaduto
+        al server Asuka è
+        colpa tua, allora![pause][\x0203]Ma non importa!
+        Ormai è troppo
+        tardi![pause]
+      - |-
+        [\x0207][\x020902]3Cosa?
+        Che vuoi
+        dire?[pause]
+      - |-
+        [\x0207]Capo di Zhu Que[\x0207]Ha ha ha,
+        te lo dirò![pause][\x0203]Abbiamo preso la
+        base sottomarina
+        di Magasta![pause]
+      - |-
+        [\x0207]Capo di Zhu Que[\x0207]E ora stiamo...[pause][\x0203]lanciando la fortezza
+        mobile Juggernaut![pause][\x0203]Il mondo si
+        prostrerà davanti
+        all'A.o.A![pause]
+      - |-
+        [\x0207][\x020902]3Non credo.
+        Non finché ci
+        sono io![pause][\x0203]Fermerò il
+        lancio della
+        Juggernaut![pause]
+      - |-
+        [\x0207]Capo di Zhu Que[\x0207]Ha ha ha!
+        Provaci pure![pause][\x0203]Ma prima cerca
+        di battermi![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Ehi, cosa
+        abbiamo qui?[pause]
+      - |-
+        [\x0207][\x020902]3Il digi[-4]uovo
+        della sapienza,
+        evviva![pause]
+      - |-
+        [\x0207][\x020902]3Ora posso chiamare
+        Digmon![pause][\x0203]Torniamo al
+        server Asuka e da
+        lì al Settore Nord![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Si, bene.
+        Avanti,
+        combatti![pause]
+      - |-
+        [\x0207]Zanbamon[\x0207]Non vali
+        nulla![pause]
+      - |-
+        [\x0207][\x020902]3Hai paura di
+        perdere?[pause]
+      - |-
+        [\x0207]Zanbamon[\x0207]Co[-4]cosa?!
+        Non è vero![pause][\x0203]Va bene!
+        Se insisti, te
+        la farò vedere![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Zanbamon[\x0207]Co[-4]cosa?
+        Ho perso![pause]
+      - |-
+        [\x0207][\x020902]3Strano, eh?
+        Sono molto forte,
+        vero?[pause]
+      - |-
+        [\x0207]Zanbamon[\x0207]Hai ragione
+        Ti darò questa,
+        perdonami![pause]
+      - "[\\x0207][\\x020902]3Una Katana\nusata? Oh, \nbeh...[pause]"
+      - |-
+        [\x0207]Zanbamon[\x0207]Vivrò in pace,
+        qui...[pause][\x0203]Lasciami
+        solo![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PRONTO A
+        SALVARE[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PRONTO A
+        SALVARE[pause]

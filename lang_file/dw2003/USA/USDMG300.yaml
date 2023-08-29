@@ -1,0 +1,557 @@
+type: extended
+files:
+  - strings:
+      - ''
+      - "[\\x0207]Teddy[\\x0207]Hey, [\\x020801][\\x020501]!\nThis is big! \nReally big![pause]"
+      - |-
+        [\x0207][\x020902]3What's up?
+        Why are you in
+        such a hurry?[pause]
+      - |-
+        [\x0207]Teddy[\x0207]Lucky Mouse!
+        Lucky Mouse
+        appeared![pause]
+      - |-
+        [\x0207][\x020902]3What?
+        Lucky Mouse?[pause]
+      - "[\\x0207]Teddy[\\x0207]Don't you know? \nHe's a genius\nhacker![pause][\\x0203]He can hack into\nany program![pause]"
+      - '[\x0207][\x020902]3Oh, OK.[pause]'
+      - |-
+        [\x0207]Teddy[\x0207]I'm a big fan of his.
+        I really want to meet
+        him![pause]
+      - "...This is an announcement\nto everyone playing Digimon Online. [pause][\\x0203]We will be undergoing emergency\nmaintenance at this time.[pause][\\x0203]Because of this, you won't be able to\nreturn to the Real World, but you\nwon't be charged during this time.[pause][\\x0203]...I repeat. \nEveryone will be playing for free![pause]"
+      - "[\\x0207]Teddy[\\x0207]Hey did you hear\nthat?![pause][\\x0203]I'm sure Lucky Mouse \nhad something to do\nwith that![pause][\\x0203]Man, I can't stand it.\nI'm gonna go find\nLuckly Mouse.[pause]"
+      - |-
+        [\x0207][\x020902]3Heh, hey...
+        Teddy![pause]
+      - |-
+        [\x0207][\x020902]3He left.
+        ..............[pause][\x0203]He's always like
+        that when he gets
+        excited.[pause]
+  - strings:
+      - ''
+      - "[\\x0207]Man[\\x0207]Woah [-4] hey, who\nare you?![pause][\\x0203]Don't sneak up on \nme like that!\nYou scared me...[pause]"
+      - "[\\x0207][\\x020902]3Ah, ah...\nI'm sorry \nmister...[pause]"
+      - "[\\x0207]Man[\\x0207]...I'm not an \nold man![pause][\\x0203]I'm Nick. I'm \nonly 21![pause]"
+      - |-
+        [\x0207][\x020902]3Oh, ah,
+        yeah, sorry![pause]
+      - "[\\x0207]Nick[\\x0207]Are there only rude \npeople on this \nserver?[pause][\\x0203]First Etemon, and\nnow you...[pause]"
+      - "[\\x0207][\\x020902]3...Etemon?\nDid something \nhappen?[pause]"
+      - "[\\x0207]Nick[\\x0207]I found this huge\ngaudy shield.[pause][\\x0203]Then Etemon came and \nsaid that it was his...[pause][\\x0203]...And took it from me \nwithout even saying \nthank you.[pause]"
+      - "[\\x0207][\\x020902]3...Etemon?\nA gaudy \nshield?[pause][\\x0203]...I wonder \nwhat that \nis...[pause]"
+      - "[\\x0207]Nick[\\x0207]Hey, I'm \npretty busy\nso...[pause]"
+      - "[\\x0207]Nick[\\x0207]Why aren't they doing \ntheir jobs?[pause][\\x0203]I wish they'd look at me \nas an example...[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Mischievous Mat[\\x0207]I told you the Etemon \nyou're looking for isn't \nhere.[pause]"
+      - |-
+        [\x0207][\x020902]3Well, of course
+        not, because you
+        are the Etemon.[pause]
+      - '[\x0207]Mischievous Mat[\x0207]...What?![pause]'
+      - "[\\x0207][\\x020902]3I know your game.\nYou were wearing the \nEtemon Suit back there![pause]"
+      - "[\\x0207]Mischievous Mat[\\x0207].........[pause][\\x0203]Ah, you found \nout? That\nsucks![pause][\\x0203]Hey, just don't \ntell anyone, OK?[pause][\\x0203]I'll give you\nthis in return![pause]"
+      - "[\\x0207][\\x020902]3Right on! It's the \nAgumon Suits.[pause]"
+      - "[\\x0207]Mischievous Mat[\\x0207]This is a secret,\nbetween you and \nme, all right?![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Kail[\x0207]Hey [\x020801][\x020501]!
+        You're late![pause]
+      - "[\\x0207][\\x020902]3Huh? Hey\nKail, are \nyou done?[pause]"
+      - "[\\x0207]Kail[\\x0207]Uh, Um... yeah.\nSo did you find \nTeddy?[pause]"
+      - "[\\x0207][\\x020902]3No, I couldn't \nfind him \nanywhere.[pause]"
+      - "[\\x0207]Kail[\\x0207]...me too.\nI looked everywhere...[pause][\\x0203]He did say he was \ngoing to the Admin\nCenter...[pause]"
+      - |-
+        [\x0207][\x020902]3...I wonder how far
+        inside Teddy is...[pause]
+      - '[\x0207]Kail[\x0207].....[pause]'
+      - "[\\x0207]Kail[\\x0207]...don't you have \na feeling that \nhe's inside here?[pause]"
+      - "[\\x0207][\\x020902]3Hmm....won't \nknow 'til we \nlook.[pause]"
+      - |-
+        [\x0207]Kail[\x0207]Gee thanks!
+        All right, let's go
+        in then![pause]
+  - strings:
+      - ''
+      - a
+      - "[\\x0207]Datamon[\\x0207]You came all the \nway here to \nbattle me?[pause][\\x0203]I'm good to go \nanytime!\nLet's battle![pause]"
+      - "[\\x0207][\\x020902]3All right! \nLet's battle![pause]"
+      - "[\\x0207]Datamon[\\x0207]...beep! You \ncan't copy me![pause][\\x0203]You have to \ncome up with \nyour own line![pause]"
+      - |-
+        [\x0207][\x020902]3What? Umm... OK.
+        Let's get it on![pause]
+  - strings:
+      - ''
+      - "[\\x0207]Datamon[\\x0207]You're pretty good if\nyou can win against \nme. Here's a reward![pause][\\x0203]It's Rusty Gloves! It's \nan ultra rare item, so \ncherish it.[pause]"
+      - "[\\x0207][\\x020902]3Huh?! Ah, OK, \nI'll keep it...\nThanks...[pause][\\x0203]I got Rusty \nGloves...\nGreat, I think?[pause]"
+      - "[\\x0207]Datamon[\\x0207]There're secrets to old \narmors and weapons in \nthe Digital World.[pause][\\x0203]Find armor digivolved \nDigimon that know \nthese secrets.[pause]"
+      - "[\\x0207][\\x020902]3Oh, OK!\nI'll find those armor \ndigivolved Digimon![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Datamon[\\x0207]Oh, you do have a\nStaff Pass. I\napologize...[pause][\\x0203]OK, I'm opening the \ngate, please enter.[pause]"
+      - "[\\x0207][\\x020902]3Ah, \nthanks![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Soldier[\\x0207]You're not \ngoing to \npass here![pause][\\x0203]You can't \ndefeat me![pause]"
+      - "[\\x0207][\\x020902]3Oh yeah? Come on![pause][\\x0203]You guys always\nthink you're gonna \nwin![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]???[\x0207]GUBIIIII![pause][\x0203]Digimon response,
+        Digimon response![pause]
+      - "[\\x0207][\\x020902]3What is this?\nIt's a Digimon I've \nnever seen before.[pause]"
+      - '[\x0207]???[\x0207]GUBI?[pause]'
+      - "[\\x0207][\\x020902]3...It doesn't \nlook like a bad \nDigimon...[pause]"
+      - "[\\x0207][\\x020902]3...hey, open up.[pause][\\x0203]I'm going to go \ndefeat the bad \nguys![pause]"
+      - "[\\x0207]???[\\x0207]...bad? \nWhat's  \nbad?[pause]"
+      - "[\\x0207][\\x020902]3Umm, ah, to \nput it simply...[pause]"
+      - "[\\x0207]???[\\x0207]I eat Digimon! \nAnd get \nstronger![pause][\\x0203]GUBIIIII![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3...phew, that\nscared me. \nWhat was it?[pause]"
+      - '[\x0207]???[\x0207]GUBIII![pause]'
+      - "[\\x0207][\\x020902]3It looks like a Rookie\nDigimon...[pause][\\x0203]It probably isn't \nA.o.A's Digimon if it\ndoesn't disappear...[pause]"
+      - |-
+        [\x0207][\x020902]3Hey, wait!
+        Where are you
+        going?[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Woah, what is \nthis room!?[pause]"
+      - "[\\x0207][\\x020902]3Hey,\nwho's that \nover there?[pause]"
+      - "[\\x0207][\\x020902]3It's the Game \nMaster! I'm\ngonna get her![pause]"
+      - "[\\x0207]Guard A[\\x0207]You're... that \nkid![pause]"
+      - "[\\x0207]Guard B[\\x0207]You're not \ngetting through\nhere![pause]"
+      - "[\\x0207]Guard C[\\x0207]Just give up and \ncome with us![pause]"
+  - strings:
+      - ''
+      - "Ha ha ha ha! Success! \nThe fusion experiment \nis a success![pause]"
+      - |-
+        [\x0207]Game Master[\x0207]Congratulations!
+        Now it's...?[pause]
+      - "Yes! Even though our \nplans were a bit altered \ndue to Lucky Mouse...[pause][\\x0203]We will now commence\nOperation Sigma![pause]"
+      - '[\x0207]Game Master[\x0207]Yes sir![pause]'
+      - "Now Vemmon, come \nto me![pause]"
+      - |-
+        [\x0207][\x020902]3Hey, Game Master!
+        Who're you talking
+        to? A.o.A's boss?[pause]
+      - "[\\x0207]Game Master[\\x0207]Oh, you're\nthat boy \nfrom...[pause][\\x0203]What are you \ndoing here?[pause]"
+      - "[\\x0207][\\x020902]3I'm here to\nkick your butt![pause][\\x0203]And you better talk \nfast about what the \nA.o.A is planning![pause]"
+      - "[\\x0207]Game Master[\\x0207]You think you can \ndefeat me? Silly boy![pause][\\x0203]Come out my precious \nDigimon![pause]"
+      - "[\\x0207][\\x020902]3All right, I've\ndefeated the \nguards![pause][\\x0203]Now it's Game \nMaster's turn![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Game Master[\\x0207]No, noo![pause][\\x0203]My Persiamon \ncan't lose...[pause]"
+      - "[\\x0207]Lisa[\\x0207]Oops, I guess \nwe're a little late.[pause]"
+      - |-
+        [\x0207]Teddy[\x0207][\x020801][\x020501]!
+        I'm so glad
+        you're OK![pause]
+      - "[\\x0207]Nick[\\x0207]Now we've got proof. \nGive yourself up, \nGame Master![pause][\\x0203]You're under arrest\nby the International \nPolice, S.A.P![pause]"
+      - "[\\x0207][\\x020902]3What? Lisa and \nNick are investigators \nfor the S.A.P?[pause]"
+      - "[\\x0207]Nick[\\x0207]That's right, and \nKeith as well.[pause]"
+      - "[\\x0207]Lisa[\\x0207]Sorry we didn't tell\nyou before.[pause][\\x0203]But because of \nyou the case is \nsolved![pause]"
+      - "[\\x0207]Lisa[\\x0207]Let's interrogate \nGame Master and \nchange Kurt back![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Boy[\\x0207]What the?!\nAre you the \nA.o.A?[pause][\\x0203]I'm not going \nto surrender![pause][\\x0203]I'm gonna beat \nyou guys with \nmy Digimon...[pause]"
+      - |-
+        [\x0207][\x020902]3He[-4]hey wait!
+        I'm not the
+        A.o.A![pause][\x0203]I'm [\x020801][\x020501]!
+        I came from the
+        Asuka Server![pause]
+      - "[\\x0207]Boy[\\x0207]...Oh, you did?\nSorry, I thought you \nwere with them...[pause][\\x0203]I'm Kenny.[pause][\\x0203]But how did you get\nto Amaterasu?![pause]"
+      - "[\\x0207][\\x020902]3I came through the\nSecurity Hole that\nBulbmon dug.[pause][\\x0203]Kenny, do you know \nwhere the Digi[-4]Egg \nof Knowledge is?[pause]"
+      - "[\\x0207]Courageous Kenny[\\x0207]Um, no...I really\ndon't know. Sorry.[pause][\\x0203]But even if I knew, \nit's impossible to look \nfor it![pause][\\x0203]This Amaterasu Server\nhas been taken over \nby the A.o.A![pause]"
+      - "[\\x0207][\\x020902]3You don't know \nthat unless\nyou try![pause][\\x0203]What happened \nto the other \ntamers?[pause]"
+      - "[\\x0207]Courageous Kenny[\\x0207]They captured us \nand forced us to \nraise Digimon for war.[pause][\\x0203]And then, they \nturned them all into\nOinkmon![pause]"
+      - "[\\x0207][\\x020902]3Oinkmon again.\nOh, man![pause][\\x0203]I'm not going to \nlet them get away\nwith that![pause]"
+      - "[\\x0207]Courageous Kenny[\\x0207]Well that's what we \nthink too![pause][\\x0203]Actually the people who \ndidn't get caught are...[pause][\\x0203]forming a resistance to\noverthrow the A.o.A.[pause][\\x0203]I want to join them so\nI've been searching for\nthem.[pause]"
+      - "[\\x0207][\\x020902]3A resistance...\nI want to help too, \nbut I can't right now.[pause][\\x0203]I need the Digi[-4]Egg \nof Knowledge to get\nto the Real World![pause]"
+      - "[\\x0207]Courageous Kenny[\\x0207]...I see.\nThat's too bad...[pause][\\x0203]Well I'm going.\nWatch your \nback, [\\x020801][\\x020501].[pause]"
+      - |-
+        [\x0207][\x020902]3Yeah,
+        you too![pause]
+      - "[\\x0207]Courageous Kenny[\\x0207]...Oh yeah![pause][\\x0203]You'll need this to \nwalk around the\nAmaterasu Server![pause]"
+      - "[\\x0207][\\x020902]3I got the \nCrony ID! \nCool![pause]"
+      - "[\\x0207]Courageous Kenny[\\x0207]If you have that, \nthey think you're an \nA.o.A member![pause][\\x0203]Just don't be stupid\nand you won't get\ncaught![pause]"
+      - |-
+        [\x0207][\x020902]3Thanks,
+        I owe
+        you one.[pause]
+      - "[\\x0207]Courageous Kenny[\\x0207]Well, I'm going.\nBe careful \n[\\x020801][\\x020501]![pause]"
+      - |-
+        [\x0207][\x020902]3Yeah, let's
+        kick their
+        sorry butts![pause]
+      - "[\\x0207][\\x020902]3Let's look for the \nDigi[-4]Egg of Knowledge![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3OK, we're going \ninto Amaterasu \nCity![pause]"
+      - |-
+        [\x0207]Teddy[\x0207]Hey [\x020801][\x020501]!
+        Wait a sec![pause]
+      - "[\\x0207][\\x020902]3...Teddy!\nYou came \nover here!?[pause]"
+      - "[\\x0207]Teddy[\\x0207]Yeah, I came with \nLisa and the others.[pause][\\x0203]Hey [\\x020801][\\x020501], can \nyou wait a moment \nbefore you go in!?[pause][\\x0203]Lisa is bringing \neveryone from the \nResistance![pause]"
+      - "[\\x0207][\\x020902]3Then, what \nabout the\nA.o.A...?[pause]"
+      - "[\\x0207]Teddy[\\x0207]They've been routed \nby the Resistance![pause][\\x0203]Once we get the four \ncities, we only have \nAmaterasu City left![pause]"
+      - |-
+        [\x0207][\x020902]3I see!
+        So now...[pause]
+      - "[\\x0207]Teddy[\\x0207]Yeah, it's our \nfinal battle![pause][\\x0203]We're going to \ndefeat the \nA.o.A![pause]"
+      - "[\\x0207][\\x020902]3Yeah, right on![pause][\\x0203]If we fight \ntogether, the \nA.o.A is nothing![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3This is weird. \nThere's no one\nhere![pause]"
+      - "[\\x0207][\\x020902]3I see! It's the same \nas Asuka's Game \nMaster Room![pause][\\x0203]It's a secret door![pause][\\x0203]...then what's the\ncode?[pause][\\x0203]Asuka was MONSTER\nso maybe it's DIGITAL\nhere...?[pause]"
+      - "[\\x0207][\\x020902]3!!\nIt opened by \nitself! Why?[pause][\\x0203].......?!\nMaybe it wants me \nto come in...[pause][\\x0203]All right then!\nI'm coming in\nwhoever you are![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Royal Guard[\x0207]We've been waiting!
+        You defeated our
+        Chiefs![pause]
+      - "[\\x0207][\\x020902]3Come on. I'll \ntake you on![pause]"
+      - "[\\x0207]Royal Guard[\\x0207]We are stronger \nthan the anything\nyou've faced yet.[pause]"
+      - "[\\x0207]Royal Guard[\\x0207]With the pride of \nthe Royal Guard, \nI'll defeat you![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]???[\\x0207]...they are so \nuseless...[pause][\\x0203]But I'm rather\nimpressed by your\nstrength![pause]"
+      - "[\\x0207][\\x020902]3...are you the \nPresident of \nMAGAMI?![pause]"
+      - "[\\x0207]???[\\x0207]...President?\nOh, yes.[pause][\\x0203]But can you call me \nChief Officer? \nIt sounds cooler![pause]"
+      - |-
+        [\x0207][\x020902]3Stop kidding around!
+        Terminate Destromon
+        right now![pause]
+      - "[\\x0207]Chief Officer[\\x0207]Hey, chill out. \nWhy don't you join\nus?[pause][\\x0203]If you say yes, I'll \nmake you No.2 after \nme![pause]"
+      - "[\\x0207][\\x020902]3...no way! You\nuse Digimon for evil...[pause][\\x0203]Even if I'm destroyed, \nI'll never be one of \nyou![pause]"
+      - "[\\x0207]Chief Officer[\\x0207]You just blew your \nchance. You really \nare a stupid boy.[pause][\\x0203]By the way, it's \nalready too late to \nchange your mind![pause]"
+      - "[\\x0207][\\x020902]3They said they \nwere the Royal \nGuard...[pause][\\x0203]Then the guy at \nthe top is up\nahead![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Chief Officer[\\x0207]...hey wait, I'll\nturn myself in![pause][\\x0203]You're really\nstrong...[pause][\\x0203]I wonder who would \nwin... you or him...[pause]"
+      - '[\x0207][\x020902]3...what?[pause]'
+      - "[\\x0207]Nick[\\x0207]...President of \nMAGAMI, I'm putting\nyou under arrest![pause]"
+      - |-
+        [\x0207]Chief Officer[\x0207]...alright.
+        I think I've
+        had enough.[pause][\x0203]Next time,
+        I'll play for
+        myself.[pause]
+      - |-
+        [\x0207]Lisa[\x0207]Oh, he's rather
+        obedient.[pause][\x0203]But there's one
+        more thing...[pause]
+      - "[\\x0207]Chief Officer[\\x0207]Destromon?\nYou can stop it \nwith that machine.[pause]"
+      - "[\\x0207]Lisa[\\x0207]OK, then!\nI'll interrogate him...[pause][\\x0203]And you guys go \nstop Destromon![pause]"
+      - '[\x0207]Teddy[\x0207]Yes sir![pause]'
+      - "[\\x0207]Nick[\\x0207]Ro[-4]roger \nthat![pause]"
+      - "[\\x0207][\\x020902]3...Teddy, you \nknow how?[pause]"
+      - "[\\x0207]Teddy[\\x0207]Heh heh!\nWell most of it...[pause][\\x0203]The system is the same \nas Asuka Server's\ncomputer![pause]"
+      - "[\\x0207]Nick[\\x0207]Hey, Teddy\nhurry up![pause][\\x0203]Destromon's \ngonna land on a\ncity![pause]"
+      - |-
+        [\x0207]Teddy[\x0207]Hold your
+        horses![pause]
+      - "[\\x0207][\\x020902]3...Come on, \nplease be \nin time![pause]"
+      - "[\\x0207][\\x020902]3...hey, \neveryone![pause]"
+      - "[\\x0207]Nick[\\x0207]Teddy, \nless talk,\nmore work.[pause]"
+      - "[\\x0207]Lisa[\\x0207]Just give \nyourself up.[pause][\\x0203]We got every one \nof the A.o.A \nexcept you.[pause]"
+      - '[\x0207]Teddy[\x0207]Yes![pause]'
+  - strings:
+      - ''
+      - "[\\x0207]Teddy[\\x0207]...Yeah! \nWe did it,\n[\\x020801][\\x020501]![pause]"
+      - |-
+        [\x0207][\x020902]3Yeah, we did
+        it Teddy![pause]
+      - "[\\x0207]Nick[\\x0207]Hey, everything went \ngreat you two![pause][\\x0203]I have to go\ntell this to the \nothers![pause]"
+      - "[\\x0207]Teddy[\\x0207]Man, I'm \nbeat...[pause][\\x0203]Today just \nsucked...[pause]"
+      - |-
+        [\x0207][\x020902]3...really?
+        I had fun![pause]
+      - "[\\x0207]Teddy[\\x0207]Hey, let's go to the \nLogin Room![pause][\\x0203]I'm sure everyone and \nthe Matrix Chamber\nare back to normal![pause]"
+      - |-
+        [\x0207][\x020902]3...Yeah!
+        Let's go back to
+        the Real World![pause]
+      - "[\\x0207]Teddy[\\x0207]Destromon \nstopped and \nbroke down![pause][\\x0203]We won against \nthe A.o.A![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Hmmm...the Matrix \nSystem should be \naround here...[pause][\\x0203]But I don't know how \nto get the system\nto work...[pause][\\x0203]But Game Master sent\nVemmon from here...[pause]"
+      - '[\x0207][\x020902]3What?![pause]'
+      - "[\\x0207][\\x020902]3Wh[-4]why is \nVemmon here?![pause][\\x0203]...can it be...\nWell, I gotta \nfollow it![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3OK!\nLet's go on \nahead![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Kail[\x0207][\x020801][\x020501]!
+        Thank heavens!
+        You're all right![pause]
+      - "[\\x0207][\\x020902]3...Kail!\nWhat happened?[pause][\\x0203]Why have they \nall turned into \nOinkmon?[pause]"
+      - |-
+        [\x0207]Kail[\x0207]It's Vemmon!
+        They did this![pause]
+      - |-
+        [\x0207][\x020902]3...what?!
+        What did you
+        say...?[pause]
+      - "[\\x0207]Kail[\\x0207]A lot of Vemmon came \nout of Amaterasu's\nAdministration Center![pause][\\x0203]Then they launched \nbeams and...[pause][\\x0203]Turned everyone into\nOinkmon![pause]"
+      - "[\\x0207][\\x020902]3But wait [-4] Vemmon \ndoesn't have that \nkind of power...[pause][\\x0203]Have they been...\nreprogrammed?[pause]"
+      - "[\\x0207]Kail[\\x0207]I[-4]I don't know...[pause][\\x0203]But I hid with \nthe others in\nthe basement.[pause][\\x0203]But I was the \nonly one who \nwasn't changed.[pause][\\x0203]Teddy and Lisa\nwere all turned \ninto Oinkmon.[pause]"
+      - "[\\x0207][\\x020902]3What is going on...[pause][\\x0203]...and where did \nthe Vemmon go?[pause]"
+      - "[\\x0207][\\x020902]3...and where did \nthe Vemmon go?[pause]"
+      - "[\\x0207]Kail[\\x0207]They all went \nstraight to the \nMaster Room![pause]"
+      - "[\\x0207][\\x020902]3Then there's some \nsecret in the Master \nRoom![pause][\\x0203]Well, let's go![pause][\\x0203]Kail you go hide\nsomewhere safe![pause]"
+      - "[\\x0207]Kail[\\x0207]What?!\nBu, but, \n[\\x020801][\\x020501]...[pause]"
+      - "[\\x0207][\\x020902]3I'm the only one who \ncan fight against them\nin this world![pause][\\x0203]Don't worry!\nJust leave it to me![pause]"
+      - "[\\x0207]Kail[\\x0207]...All right.\nI'll believe in you\n[\\x020801][\\x020501].[pause][\\x0203]But I'll kick \nyour butt\nif you lose![pause]"
+      - "[\\x0207][\\x020902]3All right!\nThen I'm \noff![pause]"
+      - |-
+        [\x0207]Kail[\x0207]Be careful...
+        [\x020801][\x020501]...[pause]
+      - "[\\x0207]Kail[\\x0207]...But the A.o.A \nisn't defeated yet...[pause]"
+      - "[\\x0207][\\x020902]3...then \neveryone \nelse...?[pause]"
+      - "[\\x0207]Kail[\\x0207]Yea[-4]yeah. Teddy, \nLisa and the others \nare Oinkmon now.[pause]"
+      - '[\x0207][\x020902]3Hey, Kail?![pause]'
+      - |-
+        [\x0207]Kurt[\x0207]Oink!
+        Oin, ooink![pause]
+      - |-
+        [\x0207]Kurt[\x0207]Ooink!
+        Ooi, oink![pause]
+      - "[\\x0207]Kail[\\x0207]I wonder what's \nhappening in the \nReal World...[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Teddy[\x0207]Oi!
+        Oi, oi, oin!
+        Oi, ooin, oooink![pause]
+      - |-
+        [\x0207]Lisa[\x0207]!
+        Oi, oi, oi, oi
+        ooiink, ooi![pause]
+      - |-
+        [\x0207]Nick[\x0207]Onk!
+        Oooink, oin, onkk!
+        Oi, ooinoinkoink![pause]
+      - |-
+        [\x0207]Keith [\x0207]Oin?
+        Oin, oi, oin??
+        Oooin, oioink![pause]
+      - |-
+        [\x0207][\x020902]3Te[-4]Teddy?!
+        What?! Lisa, Nick, and
+        Keith as well...[pause]
+      - "[\\x0207]Teddy[\\x0207]Oi, oionk, oink!\nOi, oioooin, oink\noioink, oionnk![pause][\\x0203]Oion, ooin, oink!\nOiin, oink ooin!\nOionknoink, oink?[pause][\\x0203]Oooinkninon?\nOinok, onnknon?\nOin, oinknkoin??[pause][\\x0203]Oin, oinok, oioninoo!\nOin, oooin, ooin\noinonk, oink, ooin![pause][\\x0203]Oin oinoink \noioin oino ioni oino\noinoin, oinoinokon oink![pause][\\x0203]Ooinoin, oinoinoik!\nOoinoino, oinoinok\noioioinonoino oihoinonk![pause]"
+      - "[\\x0207][\\x020902]3Teddy. I have \nno idea what \nyou're saying.[pause][\\x0203]Just wait here\nwith Lisa and\nthe others![pause][\\x0203]I'll do something\nabout this![pause]"
+      - "[\\x0207][\\x020902]3OK, \nI'm gonna go!\nJust wait here![pause]"
+      - |-
+        [\x0207]Teddy[\x0207]Oin, oin ooink!
+        Oion, oioinoink!
+        Oion, oin, ooooink![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Ooin, oioinoin
+        oioino oioi oin
+        oooinkooink![pause]
+      - |-
+        [\x0207]Nick[\x0207]Oio, oioin
+        oioink, oioink!
+        Oion, oinno oinoink![pause]
+      - |-
+        [\x0207]Keith[\x0207]Ooionk oink
+        oionoon oioin
+        oooinkko![pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Huh? \nThere's no\none here...[pause]"
+      - "I am Lord Megadeath, the \ndestroyer of both the Real \nWorld and the Digital World.[pause][\\x0203]And the being who shall be\ngod in the new world after\nall is destroyed...[pause][\\x0203]Now come to me, the\nstrongest tamer...[pause][\\x0203]I await for your arrival at\nthe military satellite,\nGunslinger![pause]"
+      - |-
+        [\x0207][\x020902]3...what?!
+        Gunslinger?![pause]
+      - "Yes. I will show you the \nmagnificent glorious figure \nfloating in space...[pause]"
+      - |-
+        [\x0207][\x020902]3...wha[-4]
+        what?![pause]
+  - strings:
+      - ''
+      - "My real goal was to obtain \nGunslinger! The Juggernaut was \nonly a decoy![pause][\\x0203]The A.o.A's Operation Sigma\nis entering its final stages...[pause]"
+      - "[\\x0207][\\x020902]3...final stages?\nWhat are they \ndoing?![pause]"
+      - |-
+        We will launch the Digitize Wave from the
+        Ragnarok Cannon on Gunslinger and turn
+        all life forms on Earth into Oinkmon![pause]
+      - "[\\x0207][\\x020902]3Wha[-4]what?!\nI won't let them \ndo that![pause]"
+      - "Then come to Gunslinger and\ndefeat me![pause][\\x0203]...There is nothing to fear. \nGo through the Warp Gate, \nand you'll be at Gun Slinger![pause][\\x0203]And let's have our final battle.[pause][\\x0203]With the fate of all of mankind\non the balance...[pause]"
+      - "[\\x0207][\\x020902]3...all right, \nLord Megadeath,\nhere I come![pause][\\x0203]I'm going to\ndefeat you![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARE TO
+        SAVE.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Then I'll \nchallenge you![pause]"
+      - "[\\x0207]Pharaohmon[\\x0207]You show no \nfear![pause][\\x0203]I must warn\nyou. I am\npowerful![pause]"
+      - |-
+        [\x0207][\x020902]3We won't
+        know until
+        we do it![pause]
+      - "[\\x0207]Pharaohmon[\\x0207]...Good, \nyou're ready.[pause][\\x0203]Then I'll go \nfull force![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Pharaohmon[\\x0207]I lose! You're \nbetter than \nyou look![pause]"
+      - "[\\x0207][\\x020902]3Yeah, of \ncourse![pause]"
+      - "[\\x0207]Pharaohmon[\\x0207]As praise to \nyou, I'll give \nyou this.[pause]"
+      - |-
+        [\x0207][\x020902]3Yeah! I got
+        the Old Wand![pause]
+      - "[\\x0207]Pharaohmon[\\x0207]You're strong. Our \ngods will be with \nyou![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Soccer Kid Hide[\\x0207]Man, Cardmon \nisn't coming out...[pause][\\x0203]And why did I lose \nGabumon...[pause]"
+      - "[\\x0207][\\x020902]3Huh?? Why \nare you kicking \nthe trees?[pause]"
+      - |-
+        [\x0207]Soccer Kid Hide[\x0207]Huh? Did you ask
+        why am I kicking
+        the trees?[pause][\x0203]To find a Cardmon
+        of course![pause]
+      - |-
+        [\x0207][\x020902]3Cardmon?
+        What's that?
+        A Digimon?[pause]
+      - "[\\x0207]Soccer Kid Hide[\\x0207]Cardmon is a Digimon \nthat drops Boosters\nwith extra cards in it.[pause][\\x0203]Only Divermon in the \ncity can open the\nboosters.[pause]"
+      - "[\\x0207][\\x020902]3Cardmon drops\nBoosters?![pause][\\x0203]...let me \nkick 'um too...[pause]"
+      - "[\\x0207]Soccer Kid Hide[\\x0207]Heh heh heh. You\nneed Tree Boots to \nkick them.[pause][\\x0203]So, you probably\nwant to get the \nboots. Well then...[pause][\\x0203]I lost my Gabumon\ncard, will you \nfind it?[pause][\\x0203]If you find it I'll tell \nyou how to get the \nboots.[pause]"
+      - "[\\x0207][\\x020902]3Gabumon card?\nOK, I'll find it and \ncome back![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3...Hey Armormon,\ncan I ask you a \nfavor?[pause][\\x0203]Can I get Monmon \nDDNA from your \nDDNA?[pause]"
+      - "[\\x0207]Armormon[\\x0207]...I refuse!\nIt is too important to \ngive away.[pause][\\x0203]If you really want \nit, you must take it \nfrom me.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3I won \nagainst \nArmormon![pause]"
+      - |-
+        [\x0207]Armormon[\x0207]...How could I lose...[pause][\x0203]But you did win.
+        Here take this.[pause]
+      - "[\\x0207][\\x020902]3Yeah! I got \nthe Monmon \nDDNA![pause][\\x0203]Thanks, \nArmormon![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Sure, I'll \nfight you![pause]"
+      - "[\\x0207]BK WarGreymon[\\x0207]You seem to \nhave guts![pause]"
+      - "[\\x0207][\\x020902]3Come on.\nI'll show you \nmy powers![pause]"
+      - |-
+        [\x0207]BK WarGreymon[\x0207]Very well.
+        Let's begin![pause]
+  - strings:
+      - ''
+      - "[\\x0207]BK WarGreymon[\\x0207]I guess you're \nnot all talk.[pause]"
+      - "[\\x0207][\\x020902]3Of course! I've gotten \nthrough all kinds of \ntrouble like this![pause]"
+      - "[\\x0207]BK WarGreymon[\\x0207]Ha ha ha, I like \nyou! Take this\nwith you![pause]"
+      - "[\\x0207][\\x020902]3Yeah! I got\nthe Platinum \nID ![pause]"
+      - "[\\x0207]BK WarGreymon[\\x0207]Aim to be the \nstrongest! [pause][\\x0203]That is the \nsecret to becoming\na great tamer![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3All right,\nI'll fight \nyou![pause]"
+      - "[\\x0207]BK MegaGargomon[\\x0207]Great! I was bored \nbecause no one \ncomes here.[pause]"
+      - "[\\x0207][\\x020902]3OK, let's \nbegin![pause]"
+      - "[\\x0207]BK MegaGargomon[\\x0207]It won't \nbe that easy \nto beat me![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]BK MegaGargomon[\x0207]Wow, you won!
+        You're strong![pause]
+      - "[\\x0207][\\x020902]3Of course!\nI've been battling \neveryone![pause]"
+      - "[\\x0207]BK MegaGargomon[\\x0207]Wow, that's \namazing! I'll\ngive you this![pause]"
+      - "[\\x0207][\\x020902]3Yeah! I got\nthe Wild \nHelmet![pause]"
+      - "[\\x0207]BK MegaGargomon[\\x0207]Well, good luck.\nI'll be cheering \nfor you![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Veemon[\\x0207]Then what should we \nplay?\nHmmmmm...[pause]"
+      - "[\\x0207][\\x020902]3Woah, Veemon! I \nwant the Tree Boots.[pause]"
+      - "[\\x0207]Veemon[\\x0207]Tree Boots?\nOh, the boots for\nkicking trees...[pause][\\x0203]Yeah, sure, but \nonly if you play \nwith me![pause]"
+      - "[\\x0207][\\x020902]3Sure thing!\nWhat're we \ngoing to play?![pause]"
+      - "[\\x0207]Veemon[\\x0207]I'll go hide in the \nKicking Forest, and \nyou have to find me.[pause][\\x0203]If you can find me,\nI'll give you the\nTree Boots![pause][\\x0203]You lose if you\nleave the forest \nwithout finding me![pause][\\x0203]And if you leave the\nKicking Forest, I'm \ngonna go home to eat![pause]"
+      - |-
+        [\x0207][\x020902]3OK!
+        I'm gonna find
+        you![pause]
+      - "[\\x0207]Veemon[\\x0207]Heh heh heh.\nIt won't be that \neasy![pause][\\x0203]Count to 10 and \ncome to the \nforest![pause]"
+      - "[\\x0207][\\x020902]3OK, counting to 10!\n1, 2, 3, 4, 5, \n6, 7, 8, 9, 10![pause][\\x0203].......\n.........\nWas that too fast?[pause]"
+      - "[\\x0207][\\x020902]3Oh, well!\nOK, let's go \nfind him![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Veemon[\\x0207]Hey, you're all right.\nI'm a bit impressed![pause][\\x0203]Here, take the Tree \nBoots![pause]"
+      - "[\\x0207][\\x020902]3Cool! Thanks, \nVeemon.[pause][\\x0203]Yeah! I got the\nTree Boots![pause]"
+      - "[\\x0207]Veemon[\\x0207]Good for you! \nOK, I'm going home\nto eat![pause][\\x0203]Let's play again \nsometime.\nLater![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Tai Kong Wang[\\x0207]I think I can make \nthe best fishing\npole ever...[pause][\\x0203]Of course, it's only \na matter of opinion![pause][\\x0203]Use this fishing pole\nI made, and you'll \ncatch big fishes!.[pause][\\x0203]Good luck catching \nthe big fishs! OK,\nhere you go, boy![pause]"
+      - |-
+        [\x0207][\x020902]3Huh?!
+        Thanks, Pops![pause][\x0203]Yeah!
+        I got the Fishing
+        Pole![pause]
+      - |-
+        [\x0207]Tai Kong Wang[\x0207]Ho ho ho ho ho
+        Well, good luck.[pause]
+  - strings:
+      - ''
+      - "[\\x0207]Divermon[\\x0207]I lost so easily![pause][\\x0203]I'll stop putting \njust my favorite \ncards in a folder![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Divermon[\\x0207]Tell me what's \nwrong with my\nfolder![pause][\\x0203]Ooh?\nI see!\nNow I can win![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Divermon[\\x0207]Oh, I tried too \nhard to get a \nlaugh![pause][\\x0203]I need to choose my \ncards better.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Divermon[\\x0207]I'm stupid for letting\nmy guard down![pause][\\x0203]I'll think about how to \nget my cards out \nnext time![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Divermon[\\x0207]I didn't go easy and \nI lost![pause][\\x0203]Ooh?!\nI got an idea for a \nFolder to defeat you![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Etemon[\\x0207]How unlucky!\nI lost![pause][\\x0203]Well I just need \nto change some \ncards in my folder![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Etemon[\\x0207]I've lost with \nthis Folder\nbefore![pause][\\x0203]But I'll beat you \nup with my Real\nFolder![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Etemon[\\x0207]Aaaah!\nI lost![pause][\\x0203]I shouldn't put play \ncards in my Folders![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Etemon[\\x0207]You're something![pause][\\x0203]Now I gotta \nrebuild my folder![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]MetalEtemon[\\x0207]You, got skills \nto win against \nme![pause][\\x0203]Of course once I get \na stronger Folder, \nit'll be different![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]KingDivermon[\\x0207]Then I'll give \nyou this Asuka \nTrophy![pause]"
+      - "[\\x0207][\\x020902]3Really?! Thanks,\nKingDivermon![pause][\\x0203]Yeah! I got the \nAsuka Trophy![pause]"
+      - "[\\x0207]KingDivermon[\\x0207]I'm the only one\nwho can produce \nit...[pause][\\x0203]It's a symbol for \nAsuka's Card \nKing![pause]"
+      - "[\\x0207][\\x020902]3Wow! Cool!\nIt's a symbol for \nCard King![pause]"
+      - "[\\x0207]KingDivermon[\\x0207]Fofofo, but \ndon't let your\nguard down![pause]"
+      - "[\\x0207][\\x020902]3Yeah! I'm gonna \nget a lot \nstronger![pause][\\x0203]OK, let's go look \nfor a stronger \ncard player![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]KingEtemon[\\x0207]I like you, so \nI'll give you \nSun Trophy![pause]"
+      - "[\\x0207][\\x020902]3Thanks,\nKingEtemon![pause][\\x0203]Yeah! I got \nthe Sun \nTrophy![pause]"
+      - "[\\x0207]KingEtemon[\\x0207]That is the symbol \nfor Amaterasu's \nCard King![pause]"
+      - "[\\x0207][\\x020902]3Great! Now I'm the \nnumber one cardster \nin Amaterasu![pause]"
+      - "[\\x0207]KingEtemon[\\x0207]?!?\nNoooo!\nI'm number one![pause][\\x0203]You just \nhappen to be\nlucky![pause]"
+      - |-
+        [\x0207][\x020902]3Heh heh heh.
+        Well, I'm out of
+        here![pause][\x0203]Later KingEtemon![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARE TO
+        SAVE.[pause]

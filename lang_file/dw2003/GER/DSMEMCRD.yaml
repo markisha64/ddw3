@@ -1,0 +1,69 @@
+type: simple
+strings:
+  - ''
+  - SPEICHERN
+  - Spieldaten werden gespeichert.
+  - '[\x020501]'
+  - |-
+    MEMORY CARD wird überprüft.
+    Berühre nicht die MEMORY CARD.
+  - |-
+    Datei wird überprüft.
+    Berühre nicht die MEMORY CARD.
+  - |-
+    Hier speichern?
+    [cross][-4]Taste: Speichern [triangle][-4]Taste: Zurück
+  - |-
+    Vorherige Daten werden
+    überschrieben. Weiter?
+  - |-
+    Speichern
+    Berühre nicht die MEMORY CARD.
+  - Gespeichert.
+  - MEMORY CARD ist nicht eingeschoben.
+  - MEMORY CARD ist nicht formatiert.
+  - Datei kann nicht gefunden werden.
+  - |-
+    Es sind nicht genügend Blöcke vorhanden.
+    4 Blöcke sind zum Speichern notwendig.
+  - LADEN
+  - Ladevorgang
+  - |-
+    Welches Spiel laden?
+    [cross][-4]Taste: Laden [triangle][-4]Taste: Zurück
+  - |-
+    Wird geladen
+    Berühre nicht die MEMORY CARD.
+  - GELADEN.
+  - ':'
+  - LV
+  - BIT
+  - JA
+  - NEIN
+  - Keine Daten vorhanden.
+  - |-
+    MEMORY CARD formatieren?
+    JA/NEIN
+  - Neue Datei erstellen?
+  - Kein Zugriff auf MEMORY CARD.
+  - Dateï existiert schon
+  - |-
+    Wähle
+    MEMORY CARD Steckplatz.
+  - |-
+    Formatieren
+    Berühre nicht die MEMORY CARD.
+  - |-
+    Datei wird gespeichert.
+    Berühre nicht die MEMORY CARD.
+  - '[-4][-4][-4][-4][-4]'
+  - '[-4][-4][-4][-4][-4][-4][-4][-4]'
+  - '[-4][-4][-4][-4][-4][-4][-4]'
+  - '[-4][-4]'
+  - Speichern fehlgeschlagen.
+  - Speichern fehlgeschlagen.
+  - |-
+    MEMORY CARD Fehler.
+    Bitte überprüfe MEMORY CARD.
+  - Digimon World 2003
+  - 'Zugriff auf MEMORY CARD Steckplatz [\x020501]:'

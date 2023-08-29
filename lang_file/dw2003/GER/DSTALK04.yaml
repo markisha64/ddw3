@@ -1,0 +1,1651 @@
+type: simple
+strings:
+  - ''
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]SCHILD[\x0207]Nord: Amaterasu City
+    Ost: Qing Long City[pause]
+  - |-
+    [\x0207]Opa Butler[\x0207]Oiink, oink,
+    oinkoinok oink![pause]
+  - |-
+    [\x0207]Opa Butler[\x0207]Du bist ein gut
+    aussehender Junge[pause][\x0203]Die siehst genau
+    so aus wie ich,
+    als ich jung war![pause]
+  - |-
+    [\x0207]Opa Butler[\x0207]Oiink, oink,
+    oinkoinok oink![pause]
+  - |-
+    [\x0207]Oma O'Hara[\x0207]...oink, ooiink!
+    Oioionk, oink![pause]
+  - |-
+    [\x0207]Oma O'Hara[\x0207]Das Leben ist un[-4]
+    vorhersehbar wie
+    der Wind.[pause][\x0203]Aber ein starkes
+    Herz kann die
+    Richtung ändern.[pause]
+  - |-
+    [\x0207]Oma O'Hara[\x0207]...oink, ooiink!
+    Oioionk, oink![pause]
+  - |-
+    [\x0207]Nero[\x0207]...Oiiiiink,
+    oink, oink,
+    ooooink![pause]
+  - |-
+    [\x0207]Nero[\x0207]Ich mache doch nie
+    Ärger![pause][\x0203]Verwandle mich bitte
+    nicht wieder in Oink[-4]
+    mon! Bitte bitte![pause]
+  - |-
+    [\x0207]Nero[\x0207]...Oiiiiink,
+    oink, oink,
+    ooooink![pause]
+  - |-
+    [\x0207]Süβe Aurora[\x0207]Oink, oink, oin!
+    Oink, oioioink![pause]
+  - |-
+    [\x0207]Süβe Aurora[\x0207]Du hast die A.o.A
+    besiegt![pause][\x0203]Cool! Jemanden wie
+    dich möchte ich
+    heiraten![pause]
+  - |-
+    [\x0207]Süβe Aurora[\x0207]Oink, oink, oin!
+    Oink, oioioink![pause]
+  - |-
+    [\x0207]DO Wache[\x0207]Oioioioionk!
+    Oink, oiinkk![pause]
+  - |-
+    [\x0207]DO Wache[\x0207]Die A.o.A sind
+    nicht mehr da![pause][\x0203]So gut waren
+    die auch nicht![pause]
+  - |-
+    [\x0207]DO Wache[\x0207]Oioioioionk!
+    Oink, oiinkk![pause]
+  - |-
+    [\x0207]DO Wache[\x0207]..Oink, oink.
+    O[-4]o[-4]oiiiink.[pause]
+  - |-
+    [\x0207]DO Wache[\x0207]Diese Erfahrung
+    hat mich enorm
+    bereichert![pause][\x0203]Es lohnt sich,
+    dein Leben für
+    andere einzusetzen![pause]
+  - |-
+    [\x0207]DO Wache[\x0207]..Oink, oink.
+    O, o, oiiiink.[pause]
+  - '43'
+  - '43'
+  - '43'
+  - '43'
+  - '43'
+  - |-
+    [\x0207]Steakfan Haj[\x0207]Oin, oink, oink,
+    oiooink, oooink![pause]
+  - |-
+    [\x0207]Steakfan Haj[\x0207]Ich sollte
+    gerade ge[-4]
+    fressen werden![pause][\x0203]Mann, hab' ich
+    Hunger! Ich will
+    ein Knobi[-4]Steak![pause]
+  - |-
+    [\x0207]Steakfan Haj[\x0207]Oin, oink, oink,
+    oiooink, oooink![pause]
+  - |-
+    [\x0207]Möchtegern Yui[\x0207]Oink,
+    Oi, oioionk,
+    oink![pause]
+  - |-
+    [\x0207]Möchtegern Yui[\x0207]Eine Schande, in
+    Oinkmon verwandelt
+    zu werden![pause][\x0203]Wenn die Leute das
+    merken? Was mach'
+    ich dann?[pause]
+  - |-
+    [\x0207]Möchtegern Yui[\x0207]Oink,
+    Oi, oioionk,
+    oink![pause]
+  - |-
+    [\x0207]Oma Grace[\x0207]......Oink,
+    oioioink, oinoink![pause]
+  - |-
+    [\x0207]Oma Grace[\x0207]Ich dachte schon,
+    es ginge zu Ende.[pause][\x0203]Nur die Hoffnung
+    nicht verlieren,
+    dann klappt es.[pause]
+  - |-
+    [\x0207]Oma Grace[\x0207]......Oink,
+    oioioink, oinoink![pause]
+  - |-
+    [\x0207]Opa Galey[\x0207]Oioioink, oink,
+    ooiiiink![pause]
+  - |-
+    [\x0207]Opa Galey[\x0207]Als Oinkmon ging
+    es mir gut.[pause][\x0203]Solange ich mit Oma
+    Grace zusammen war.
+    Ha ha ha ha.[pause]
+  - |-
+    [\x0207]Opa Galey[\x0207]Oioioink, oink,
+    ooiiiink![pause]
+  - |-
+    [\x0207]Mami auf Urlaub[\x0207]Oink?
+    Oioionk,
+    oioioik, oinkkk![pause]
+  - "[\\x0207]Mami auf Urlaub[\\x0207]Ich war gar nicht\nschwimmen![pause][\\x0203]Und dabei hatte \nich so einen tollen\nBadeanzug dabei![pause]"
+  - |-
+    [\x0207]Mami auf Urlaub[\x0207]Oink?
+    Oioionk,
+    oioioik, oinkkk![pause]
+  - '43'
+  - '43'
+  - '43'
+  - |-
+    [\x0207]Comic[-4]Fan Kevin[\x0207]Oink!
+    Oink, oinkoink![pause]
+  - "[\\x0207]Comic[-4]Fan Kevin[\\x0207]Ich mag keine\nOinkmon.[pause][\\x0203]Ich wünschte, ich \nsähe besser aus,\nwie ein Held.[pause]"
+  - |-
+    [\x0207]Comic[-4]Fan Kevin[\x0207]Oink!
+    Oink, oinkoink![pause]
+  - |-
+    [\x0207]Oma Audrie[\x0207]Oink, oink
+    ......Oiiink.[pause]
+  - |-
+    [\x0207]Oma Audrie[\x0207]Ob Schweine
+    wohl wirklich
+    so empfinden...[pause][\x0203]Meine Meinung zu
+    Schweinen hat
+    sich geändert.[pause]
+  - |-
+    [\x0207]Oma Audrie[\x0207]Oink, oink
+    ......Oiiink.[pause]
+  - |-
+    [\x0207]Schulschluss[-4]Min[\x0207]Oink, ooiink,
+    oioioink,
+    ooink![pause]
+  - "[\\x0207]Schulschluss[-4]Min[\\x0207]Ich hätte direkt\nnach Hause\ngehen sollen![pause][\\x0203]Morgen gibt's \nsicher Ärger mit\ndem Lehrer![pause]"
+  - |-
+    [\x0207]Schulschluss[-4]Min[\x0207]Oink, ooiink,
+    oioioink,
+    ooink![pause]
+  - '43'
+  - '43'
+  - '43'
+  - |-
+    [\x0207]BK MagnaGargo.[\x0207]Ich mag die
+    A.o.A nicht.[pause][\x0203]Hoffentlich sind
+    die bald weg![pause]
+  - |-
+    [\x0207]BK MagnaGargo.[\x0207]Ich mag die
+    A.o.A nicht.[pause][\x0203]Hoffentlich sind
+    die bald weg![pause]
+  - "[\\x0207]BK MagnaGargomon[\\x0207]Oinkmon sind bald \nout und alle kommen \nwieder spielen![pause][\\x0203]Das macht richtig\nSpaβ![pause]"
+  - |-
+    [\x0207]BK MagnaGargomon[\x0207]Die A.o.A machen
+    nur Ärger![pause][\x0203]Man könnte einfach
+    nur reinschlagen![pause]
+  - '43'
+  - |-
+    [\x0207]Künstler Trowa[\x0207]Oink, oink,
+    Oooink, oooo![pause]
+  - |-
+    [\x0207]Künstler Trowa[\x0207]Ich liebe Digimon[-4]
+    Online![pause][\x0203]Daran wird sich
+    nie etwas
+    ändern.[pause]
+  - |-
+    [\x0207]Künstler Trowa[\x0207]Oink, oink,
+    Oooink, oooo![pause]
+  - |-
+    [\x0207]Popstar Lin[\x0207]..oink, oi, oink.
+    Ooink, oink, oink![pause]
+  - |-
+    [\x0207]Popstar Lin[\x0207]Oinkmon sein
+    war toll![pause][\x0203]Das hat mich
+    zu einem Song
+    inspiriert![pause]
+  - |-
+    [\x0207]Popstar Lin[\x0207]..oink, oi, oink.
+    Ooink, oink, oink![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]SCHILD[\x0207]Ost:Qing Long City
+    West:Amaterasu City
+    Süd:Forest Inn[pause]
+  - |-
+    [\x0207]Captain Ichiro[\x0207]Oiink, oinkoink,
+    ooiink, oooink![pause]
+  - "[\\x0207]Captain Ichiro[\\x0207]Endlich habe ich\nden Manager\nabgehängt.[pause][\\x0203]Wäre ich noch \nOinkmon, fände\ner mich nie...[pause]"
+  - |-
+    [\x0207]Captain Ichiro[\x0207]Oiink, oinkoink,
+    ooiink, oooink![pause]
+  - |-
+    [\x0207]Manager Yumiko[\x0207]Oink, oink,
+    oooink, ooink,
+    Oooinnnnnnk![pause]
+  - |-
+    [\x0207]Manager Yumiko[\x0207]Hast du Captain
+    Ichiro gesehen?[pause][\x0203]Er macht sich
+    ständig dünne.[pause]
+  - |-
+    [\x0207]Manager Yumiko[\x0207]Oink, oink,
+    oooink, ooink,
+    Oooinnnnnnk![pause]
+  - |-
+    [\x0207]Romeo[\x0207]Oioioio...
+    Oink, oink.[pause]
+  - "[\\x0207]Romeo[\\x0207]Jetzt kann ich\nOma Juliet treffen.[pause][\\x0203]Irgendwas kommt \nuns immer \ndazwischen.[pause]"
+  - |-
+    [\x0207]Romeo[\x0207]Oioioio...
+    Oink, oink.[pause]
+  - |-
+    [\x0207]Oma Juliet[\x0207]Oink, oink,
+    oiooioink...[pause]
+  - "[\\x0207]Oma Juliet[\\x0207]Ich habe Opa \nRomeo schon \nwieder verpasst...[pause][\\x0203]Das scheint wohl\nunser Schicksal\nzu sein...[pause]"
+  - |-
+    [\x0207]Oma Juliet[\x0207]Oink, oink,
+    oiooioink...[pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]BK Imperialdramon[\x0207]Die A.o.A sind
+    stark, also sei
+    auf der Hut![pause]
+  - |-
+    [\x0207]BK Imperialdramon[\x0207]Die A.o.A sind
+    stark, also sei
+    auf der Hut![pause]
+  - |-
+    [\x0207]BK Imper.dramon[\x0207]Du hast die
+    A.o.A besiegt!
+    Du bis gut![pause][\x0203]Aber das hab'
+    ich natürlich
+    gewusst![pause]
+  - |-
+    [\x0207]BK Imp.dramon[\x0207]Nur du kannst
+    die A.o.A
+    zerschlagen![pause][\x0203]Wir zählen
+    alle auf
+    dich![pause]
+  - '43'
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207][\x020902]3Yeah! Ich habe
+    ein Ritterschild[pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Ich habe
+    'ne Superladung![pause]
+  - a
+  - a
+  - |-
+    [\x0207][\x020902]3Yeah! Ich hab
+    1600 BIT![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Ich hab's
+    Gold[-4]Ticket![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - "[\\x0207]Soldat[\\x0207]Ich hasse meinen \nMist[-4]Job![pause]"
+  - |-
+    [\x0207]Soldat[\x0207]..oh, nur
+    ein Kind.
+    Wie doof![pause]
+  - |-
+    [\x0207]Soldat[\x0207]Willst du
+    einen
+    Kampf?[pause]
+  - |-
+    [\x0207]Soldat[\x0207]He du, willst
+    du Digimon mit
+    mir kämpfen?[pause]
+  - |-
+    [\x0207]Soldat[\x0207]Du schon
+    wieder. Ist
+    das blöd![pause]
+  - |-
+    [\x0207]Soldat[\x0207]Hahaha! Ich
+    hab gewonnen!
+    Cool![pause]
+  - |-
+    [\x0207]Soldat[\x0207]Verloren..
+    Das ist nicht
+    mein Tag![pause]
+  - |-
+    [\x0207]Soldat[\x0207]Aus dem Weg da!
+    Ich hab' keine
+    Zeit für dich![pause]
+  - |-
+    [\x0207]Soldat[\x0207]Ich hatte Ärger
+    wegen Spielen![pause]
+  - |-
+    [\x0207]Soldat[\x0207]Oh, du bist
+    dieser Tamer!
+    Auf in den Kampf![pause]
+  - |-
+    [\x0207]Soldat[\x0207]..oh, ein Kind.
+    Mach mir keine
+    Angst![pause]
+  - |-
+    [\x0207]Soldat[\x0207]Oh, du bist
+    dieser Gegner!
+    Auf in's Duell![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Soldat[\x0207]He du da!
+    Wer bist
+    du?[pause]
+  - |-
+    [\x0207]Soldat[\x0207]Oh, nur ein
+    Kind.
+    Hau ab![pause]
+  - |-
+    [\x0207]Soldat[\x0207]Du bist
+    verdächtig.[pause][\x0203]Ein Kampf
+    wird zeigen,
+    wer du bist![pause]
+  - |-
+    [\x0207]Soldat[\x0207]Du bist
+    verdächtig.[pause][\x0203]Ein Dig.[-4]Kampf
+    wird. zeigen,
+    wer du bist![pause]
+  - |-
+    [\x0207]Soldat[\x0207]Oh, du schon
+    wieder!
+    Hau doch ab![pause]
+  - |-
+    [\x0207]Soldat[\x0207]Hahaha!
+    Gewonnen!
+    Da hast du's[pause]
+  - |-
+    [\x0207]Soldat[\x0207]Verloren..
+    Ich lass dich laufen
+    hau einfach ab![pause]
+  - |-
+    [\x0207]Soldat[\x0207]Aus dem Weg da!
+    Ich hab' keine
+    Zeit für dich![pause]
+  - |-
+    [\x0207]Soldat[\x0207]Wo willst
+    du
+    hin?[pause]
+  - |-
+    [\x0207]Soldat[\x0207]Du bist dieser
+    Tamer! Gleich
+    bist du dran![pause]
+  - |-
+    [\x0207]Soldat[\x0207]...ich hatte
+    wohl Unrecht.
+    Hau ab![pause]
+  - |-
+    [\x0207]Soldat[\x0207]Du bist dieser
+    Gegner! Gleich
+    bist du dran![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - "[\\x0207]Gatomon[\\x0207]Willkommen in \nmeinem Inn![pause][\\x0203]Fühl dich wie zu\nHause.[pause]"
+  - |-
+    [\x0207]Guadromon[\x0207]ZUGRIFF AUF
+    MATRIX[-4]DRIVE.[pause]
+  - a
+  - a
+  - |-
+    [\x0207]BK MagnaGargomon[\x0207]Bumm, bumm!
+    Ich bin Schwarzer
+    MagnaGargomon.[pause][\x0203]Willst du mit
+    mir kämpfen?[pause]
+  - "[\\x0207]BK Im.dramon[\\x0207]Ich bin BK \nImperialdramon\nder Boss![pause][\\x0203]Du musst\nmich \nbekämpfen![pause]"
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Panjamon[\x0207]Dies ist die Trainings[-4]
+    halle! Ich wird's dir
+    nicht leicht machen![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Shadramon[\x0207]Ach was! Bedank
+    dich nicht.[pause][\x0203]Ich hab halt wie
+    ein Fiesling
+    gehandelt![pause]
+  - |-
+    [\x0207]Shadramon[\x0207]Ich bin Shadramon!
+    Ein logischer Fiesling![pause]
+  - |-
+    [\x0207]Shadramon[\x0207]Oh, du hast eine
+    alte Klaue.[pause][\x0203]Warum behältst du
+    die? Sie werden dich
+    auslachen![pause][\x0203]Besorg dir Säbelzahn.
+    Ich mach' daraus
+    'ne richtige Waffe![pause]
+  - "[\\x0207]Shadramon[\\x0207]Du hast Säbelzahn\nund alte Klaue.\nGib sie mir![pause][\\x0203]Aahh, dieses Gefühl.\ngenial....[pause][\\x0203]OK, ich führ' \nsie zusammen...[pause][\\x0203]Da! Ist die \nnicht cool?\nDas ist Bezwingen![pause][\\x0203]Ich hab' genug davon\nund geb' dir eine ab![pause][\\x0203]Lass dich nicht von\nechten Fieslingen\nauslachen![pause]"
+  - |-
+    [\x0207]Shadramon[\x0207]Ach was! Bedank
+    dich nicht.[pause][\x0203]Ich hab halt wie
+    ein Fiesling
+    gehandelt![pause]
+  - |-
+    [\x0207]Shadramon[\x0207]Ich bin Shadramon!
+    Ein logischer Fiesling![pause]
+  - |-
+    [\x0207]Shadramon[\x0207]Oh, du hast eine
+    alte Klaue.[pause][\x0203]Warum behältst du
+    die? Sie werden dich
+    auslachen![pause][\x0203]Besorg dir Säbelzahn.
+    Ich mach' daraus
+    'ne richtige Waffe![pause]
+  - "[\\x0207]Shadramon[\\x0207]Du hast Säbelzahn\nund alte Klaue.\nGib sie mir![pause][\\x0203]Aahh, dieses Gefühl.\ngenial....[pause][\\x0203]OK, ich führ' \nsie zusammen...[pause][\\x0203]Da! Ist die \nnicht cool?\nDas ist Bezwingen![pause][\\x0203]Ich hab' genug davon\nund geb' dir eine ab![pause][\\x0203]Lass dich nicht von\nechten Fieslingen\nauslachen![pause]"
+  - |-
+    [\x0207]Shadramon[\x0207]Ich bin Shadra[-4]
+    mon! Ein digita[-4]
+    ler  Fiesling![pause]
+  - |-
+    [\x0207]Ponchomon[\x0207]Hola Amigo,
+    wie geht's?[pause]
+  - |-
+    [\x0207]Ponchomon[\x0207]Halt, du kannst
+    keinen alten Stab
+    verwenden![pause][\x0203]Soll ich dir eine
+    Avant[-4]Garde[-4]Waffe
+    machen?[pause][\x0203]Bring mir Khakkhara
+    und ich mach
+    sie dir![pause]
+  - |-
+    [\x0207]Ponchomon[\x0207]Amigo, du hast alten
+    Stab und Khakkhara![pause][\x0203]Gib sie mir![pause][\x0203]...Cha cha cha!
+    Cha cha cha!
+    Ooooo Mambo![pause][\x0203]Hier! Das ist
+    Avant[-4]Garde[-4]
+    Glitzer![pause][\x0203]Damit kannst du
+    angeben! Viel Glück
+    Amigo![pause]
+  - "[\\x0207]Ponchomon[\\x0207]Nur wenige \nhaben Glitzer![pause][\\x0203]Zeig sie unbe[-4]\ndingt deinem \nFreund, Amigo![pause]"
+  - |-
+    [\x0207]Ponchomon[\x0207]Hola Amigo,
+    wie geht's?[pause]
+  - |-
+    [\x0207]Ponchomon[\x0207]Halt, du kannst
+    keinen alten Stab
+    verwenden![pause][\x0203]Soll ich dir eine
+    Avant[-4]Garde[-4]Waffe
+    machen?[pause][\x0203]Bring mir Khakkhara
+    und ich mach
+    sie dir![pause]
+  - |-
+    [\x0207]Ponchomon[\x0207]Amigo, du hast alten
+    Stab und Khakkhara![pause][\x0203]Gib sie mir![pause][\x0203]...Cha cha cha!
+    Cha cha cha!
+    Ooooo Mambo![pause][\x0203]Hier! Das ist
+    Avant[-4]Garde[-4]
+    Glitzer![pause][\x0203]Damit kannst du
+    angeben! Viel Glück
+    Amigo![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Etemon[\x0207]Gewonnen!
+    Hahaha![pause]
+  - |-
+    [\x0207]Etemon[\x0207]Hm?! Was?!
+    Du willst mit
+    mir kämpfen?![pause]
+  - |-
+    [\x0207]Etemon[\x0207]Mensch, ein
+    klasse Kampf!
+    Noch mal![pause]
+  - a
+  - |-
+    [\x0207]Etemon[\x0207]Schwarzer Agumon
+    hat mein Mikro...[pause][\x0203]Wenn ich das nicht
+    habe, hab' ich keine
+    Lust zum Spielen...[pause]
+  - |-
+    [\x0207]Etemon[\x0207]Hallo?!
+    Da, das ist es!
+    Das ist mein Mikro![pause][\x0203]Na ja, schon gut.
+    Ich hab mir schon
+    ein neues gemacht.[pause][\x0203]Trotzdem danke!
+    Lass uns
+    kämpfen![pause]
+  - |-
+    [\x0207]Etemon[\x0207]Willst du noch
+    mal kämpfen? Dann
+    los, bis bereit![pause]
+  - |-
+    [\x0207]Etemon[\x0207]Du hast gute
+    Sinne![pause]
+  - |-
+    [\x0207]KingEtemon[\x0207]Erstaunlich, dass ein
+    Kind wie du es bis
+    hierhin geschafft hat![pause][\x0203]Aber jetzt verlässt dich
+    das Glück! Jetzt ist es
+    aus mit dir![pause]
+  - |-
+    [\x0207]KingEtemon[\x0207]Ho ho ho ho ho ho
+    ho ho ho ho ho ho
+    Du bist schrecklich![pause]
+  - |-
+    [\x0207]KingEtemon[\x0207]Was?! Der per[-4]
+    fekte KingEtemon
+    ...verlieren?![pause][\x0203]Du hast Glück..
+    Sieg gegen mich![pause][\x0203]Dafür erhält du
+    von mir den
+    Sun[-4]Pokal![pause][\x0203]Der ist für den
+    König des Amate[-4]
+    rasu[-4]Kampfes![pause]
+  - "[\\x0207]KingEtemon[\\x0207]Warte mal! Mir ist\ngerade der tollste \nOrdner eingefallen![pause][\\x0203]Also warte kurz\nhier![pause]"
+  - |-
+    [\x0207]KingEtemon[\x0207]Soweit hast du's ge[-4]
+    schafft! Jetzt verliere
+    ich aber nicht. Kämpfe![pause]
+  - |-
+    [\x0207]KingEtemon[\x0207]Ho ho ho ho ho ho
+    ho ho ho ho ho ho
+    Ich bin der Gröβte![pause]
+  - |-
+    [\x0207]KingEtemon[\x0207]Was?! Warum
+    hab' ich verloren?!
+    Bist du...[pause][\x0203]Du bis der gröβte
+    Glücksjunge der Welt?!
+    Musst du sein![pause]
+  - |-
+    [\x0207]KingEtemon[\x0207]Ich kämpfe nicht mit
+    bösen Jungs wie dir[pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Oh ho ho ho ho! Du
+    musst mich schlagen,
+    wenn du weiter willst[pause]
+  - "[\\x0207]MetalEtemon[\\x0207]Oh ho ho ho ho! \nDu warst kein\nGegner für mich![pause]"
+  - "[\\x0207]MetalEtemon[\\x0207]...Verloren! \nHätte auf[-4]\npassen sollen[pause]"
+  - "[\\x0207]MetalEtemon[\\x0207]Nächstes Mal \nkommst du nicht\nso leicht davon.[pause]"
+  - a
+  - a
+  - a
+  - a
+  - "[\\x0207]Kail[\\x0207]Veemon ist zum \nMeisterraum...[pause][\\x0203]Das hat uns aber\nwohl gerettet.\nAlso keine Sorge![pause]"
+  - |-
+    [\x0207]Kurt[\x0207]Ooioi,
+    oink! Oooi,
+    oooink![pause]
+  - a
+  - "[\\x0207]Etemon[\\x0207]Wir Etemon sind im\nKampf viel besser \nals Divermon.[pause][\\x0203]Wir sind\nintelligenter![pause]"
+  - |-
+    [\x0207]Etemon[\x0207]Nur die Starken
+    überleben im Kampf![pause][\x0203]Auch als König musst
+    du immer auf der
+    Hut sein![pause]
+  - "[\\x0207]Divermon[\\x0207]Ich bin als \neinziger Divermon\nnoch übrig...[pause][\\x0203]Leider kann ich\nes mit Etemon \nnicht aufnehmen.[pause]"
+  - "[\\x0207]Etemon[\\x0207]Hier geht's nur\nfür echte Gegner\nnoch weiter![pause][\\x0203]Jemand wie du, sogar \nohne Aktentasche, \nschafft es nicht![pause]"
+  - a
+  - |-
+    [\x0207][\x020902]3Yeah! Ich habe
+    einen Charisma[-4]Chip![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Ich hab 'nen
+    TP[-4]Chip 3![pause]
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Veemon[\x0207]Diese Straβe
+    ist endlos.[pause]
+  - |-
+    [\x0207]Guilmon[\x0207]Dieser Tunnel führt
+    nach Asuka[-4] und
+    Amaterasu[-4]Server.[pause][\x0203]Im Norden liegt das
+    Amaterasu[-4]
+    Dschungelgrab.[pause]
+  - "[\\x0207]Guilmon[\\x0207]Dieser Tunnel ist nur\nmit dem Amaterasu[-4]\nServer verbunden.[pause][\\x0203]Wenn du nach Norden \ngehst, kommst du\nin den Nordsektor.[pause]"
+  - |-
+    [\x0207]Monmon[\x0207]Dieser Tunnel führt
+    nach Asuka[-4] und
+    Amaterasu[-4]Server.[pause][\x0203]Im Norden ist Ama[-4]
+    terasu[-4], im Süden
+    Asuka[-4]Server.[pause]
+  - "[\\x0207]Monmon[\\x0207]Dieser Tunnel führt\nnach Asuka[-4] und\nAmaterasu[-4]Server.[pause][\\x0203]Norden ist in der \nNähe von Amaterasus\nXuan Wu City.[pause]"
+  - |-
+    [\x0207]Veemon[\x0207]Dieser Tunnel führt
+    nach Asuka[-4] und
+    Amaterasu[-4]Server.[pause][\x0203]Er verbindet beide
+    Nordsektoren.[pause]
+  - "[\\x0207]Kumamon[\\x0207]Dieser Tunnel führt\nnach Asuka[-4] und\nAmaterasu[-4]Server.[pause][\\x0203]Im Norden liegt \nAmaterasus\nZentralpark.[pause][\\x0203]Im Süden liegen die\nTretwälder beider\nServer.[pause]"
+  - "[\\x0207]Kumamon[\\x0207]Dieser Tunnel führt\nnach Asuka[-4] und\nAmaterasu[-4]Server.[pause][\\x0203]Im Norden liegt \nAsukas südl.\nÖdland.[pause][\\x0203]Im Süden war ich\nnoch nicht, deshalb\nweiβ ich es nicht.[pause]"
+  - "[\\x0207]Renomon[\\x0207]Dieser Tunnel ist\nnur mit dem Asuka[-4]\nServer verbunden.[pause][\\x0203]Wenn du nach Nord \ngehst, kommst du\nin den Nordsektor.[pause]"
+  - |-
+    [\x0207]Renomon[\x0207]Dieser Tunnel ist
+    sehr lang und tief.[pause][\x0203]Wenn du nicht vor[-4]
+    bereitet bist, gehst
+    du besser zurück.[pause]
+  - |-
+    [\x0207]Agumon[\x0207]Dieser Tunnel
+    verbindet Asuka[-4]
+    Zentralsektor...[pause][\x0203]...West[-4] und
+    Ostsektoren.[pause]
+  - "[\\x0207]Agumon[\\x0207]Dieser Tunnel führt\nnach Asuka[-4] und\nAmaterasu[-4]Server.[pause][\\x0203]Er ist mit allen \nOrten auf beiden \nServern verbunden.[pause][\\x0203]Asukas Dschungel[-4]\ngrab liegt im Süden.[pause]"
+  - |-
+    [\x0207]Agumon[\x0207]Dieser Tunnel
+    führt nur nach
+    Amaterasu.[pause]
+  - |-
+    [\x0207]Guilmon[\x0207]Asuka[-4]Server liegt
+    im Osten und Amate[-4]
+    rasu im Westen.[pause]
+  - "[\\x0207]Guilmon[\\x0207]Dieser Tunnel führt\nnur nach \nAsuka[-4]Server.[pause][\\x0203]Im Süden liegt der \nWestsektor, im Nor[-4]\nden der Nordsektor.[pause]"
+  - |-
+    [\x0207]Guilmon[\x0207]Der Tunnel verbindet
+    die Westsektoren von
+    Asuka und Amaterasu.[pause]
+  - "[\\x0207]Kumamon[\\x0207]Dieser Tunnel führt\nan alle Orte in \nAmaterasu.[pause]"
+  - |-
+    [\x0207]Kumamon[\x0207]Südlich von uns
+    liegt der
+    Westsektor.[pause][\x0203]Im Norden ist
+    der Nordsektor.
+    Wusstest du das[pause]
+  - |-
+    [\x0207]Kumamon[\x0207]Dieser Tunnel liegt
+    unter dem Nord[-4]
+    sektor von Asuka.[pause]
+  - |-
+    [\x0207]BK Agumon[\x0207]Hier bist du!
+    Ich hab' auf
+    dich gewartet![pause]
+  - |-
+    [\x0207]BK Agumon[\x0207]...aber im Moment
+    geht es mir nicht
+    so gut...[pause]
+  - |-
+    [\x0207]BK Agumon[\x0207]Heh heh heh,
+    du bist kein
+    Gegner für mich![pause]
+  - "[\\x0207]BK Agumon[\\x0207]Verloren...\nHmmmm...[pause][\\x0203]Hier ist eine sehr\nmächtige Karte [-4] \nTor des Glücks.[pause]"
+  - "[\\x0207]BK Agumon[\\x0207]Verloren...\nHmmmm...[pause][\\x0203]Hier ist eine sehr\nmächtige Karte [-4] \nZugang verlangen.[pause]"
+  - "[\\x0207]BK Agumon[\\x0207]Verloren...\nHmmmm...[pause][\\x0203]Hier ist eine sehr\nmächtige Karte [-4] \nAnti[-4]Kraft.[pause]"
+  - "[\\x0207]BK Agumon[\\x0207]Verloren...\nHmmmm...[pause][\\x0203]Hier ist die\nmächtigste Karte [-4] \nTor des Elends.[pause]"
+  - "[\\x0207]BK Agumon[\\x0207]Verloren...\nHmmmm...[pause][\\x0203]Hier ist eine sehr\nmächtige Karte [-4] \nLösch[-4]Matrix.[pause]"
+  - |-
+    [\x0207]Seehomon[\x0207]...Hey,
+    keine Ursache![pause][\x0203]Jungs müssen
+    mutig sein![pause]
+  - "[\\x0207]Seehomon[\\x0207]Mein Name ist\nSeehomon![pause][\\x0203]Du hast einen \nweiten Weg hinter\ndir![pause]"
+  - |-
+    [\x0207]Seehomon[\x0207]Du hast einen
+    Tierkreis![pause][\x0203]Bring mir auch
+    eine Sturm[-4]Waffe![pause][\x0203]Ich mach' dir daraus
+    eine echt coole Waffe![pause]
+  - "[\\x0207]Seehomon[\\x0207]Du hast eine Sturm[-4]\nWaffe und einen \nTierkreis![pause][\\x0203]Gib sie mir![pause][\\x0203]Jetzt kann ich eine\ntolle Waffe machen![pause][\\x0203]...hier ist eine...\nBeliebtheit![pause][\\x0203]Keine andere Waffe\nist so wie die![pause]"
+  - |-
+    [\x0207]Depthmon[\x0207]...unter dem
+    Meeresspiegel
+    ist es toll.[pause][\x0203]So erfrischend.[pause]
+  - |-
+    [\x0207]Depthmon[\x0207]Ist der Meeres[-4]
+    boden nicht schön[pause]
+  - |-
+    [\x0207]Depthmon[\x0207]Oh, du hast
+    Bezwingen![pause][\x0203]Besorg dir
+    Giftzahl.[pause][\x0203]Dann komm wieder,
+    und ich mach dir
+    was Tolles daraus![pause]
+  - |-
+    [\x0207]Depthmon[\x0207]Oh, Bezwingen
+    und Giftzahn![pause][\x0203]Gib sie mir.[pause][\x0203]Jetzt Wasserdruck
+    anwenden, und...[pause][\x0203]Na, was sagst du?
+    Das ist
+    Zerstörung![pause][\x0203]Ich übergebe sie
+    dir.
+    Nutze sie![pause]
+  - |-
+    [\x0207]Numemon[\x0207]Hmmm?
+    Du bist hier!
+    Lass uns kämpfen![pause]
+  - |-
+    [\x0207]Numemon[\x0207]Du bist ganz schön gut!
+    Aber Numemon wird
+    stärker![pause][\x0203]Nächstes Mal verliere
+    ich nicht mehr![pause]
+  - |-
+    [\x0207]Numemon[\x0207]Numemon ist der
+    Gröβte!
+    Gemial und cool![pause]
+  - |-
+    [\x0207]Numemon[\x0207]Verloren...
+    Mmmmm...[pause][\x0203]Nimm Gryphomon
+    als Beweis für deinen
+    Sieg über Numemon![pause]
+  - |-
+    [\x0207]Numemon[\x0207]Verloren...
+    Mmmmm...[pause][\x0203]Nimm SaberLeomon
+    als Beweis für deinen
+    Sieg über Numemon![pause]
+  - |-
+    [\x0207]Numemon[\x0207]Verloren...
+    Mmmmm...
+    Ich gebe dir...[pause][\x0203]...Rosemon II
+    als Beweis für deinen
+    Sieg über Numemon![pause]
+  - |-
+    [\x0207]Numemon[\x0207]Verloren...
+    Mmmmm...[pause][\x0203]Nimm Demon
+    als Beweis für deinen
+    Sieg über Numemon![pause]
+  - |-
+    [\x0207]Numemon[\x0207]Verloren...
+    Mmmmm...[pause][\x0203]MarineAngemon ist
+    Beweis für deinen
+    Sieg über Numemon![pause]
+  - |-
+    [\x0207]BK Agumon[\x0207]Wer bist du?
+    Etemons Mikro?[pause][\x0203]Wir, die schwarzen
+    Könige, haben es![pause][\x0203]Seine Stärke kommt
+    vom Mikro![pause][\x0203]Wenn du wissen willst
+    wo es ist, kämpf
+    mit mir![pause]
+  - |-
+    [\x0207]BK Agumon[\x0207]Das ist Mist. Welchen
+    Ordner mache ich
+    wohl als Nächstes?[pause]
+  - |-
+    [\x0207]BK Agumon[\x0207]Heh heh heh,
+    wir sind die coolsten
+    schwarzen Könige![pause][\x0203]Gegen dich verlieren
+    wir nicht![pause]
+  - |-
+    [\x0207]BK Agumon[\x0207]Was?! Verloren![pause][\x0203]OK, versprochen ist
+    versprochen.[pause][\x0203]Unser Leader hat
+    Etemons Mikro![pause][\x0203]Schwarze Könige
+    bleiben im Unter[-4]
+    grund, also los![pause]
+  - "[\\x0207]BKZ Leader[\\x0207]Wer bist du?\nIch bin der Leader\nder schwarzen Könige[pause][\\x0203]Etemons Mikro zurück[-4]\ngeben? Dass ich nicht\nlache![pause][\\x0203]Dafür hast du den \nweiten Weg gemacht?[pause][\\x0203]OK, nimm es, es ist\nwertlos![pause][\\x0203]Ich werde ärgerlich!\nKämpf mit mir![pause]"
+  - |-
+    [\x0207]BKZ Leader[\x0207]Mir wird ein noch
+    mächtigerer Ordner
+    einfallen![pause][\x0203]Dann werden mir
+    Etemon und Divermon
+    gehorchen![pause]
+  - |-
+    [\x0207]BKZ Leader[\x0207]Ich bin der Beste!
+    Ich bin der Coolste!
+    Ich bin unbesiegbar![pause][\x0203]..............
+    Jetzt geht es mir
+    besser![pause][\x0203]Sorry, dass ich es an
+    dir ausgelassen habe.
+    Du bist auch ganz gut[pause]
+  - "[\\x0207]BKZ Leader[\\x0207]Was?!\nVerloren [-4] Ich?!\nEcht?![pause][\\x0203]...ich bin noch \nnicht gut genug.\nDanke![pause][\\x0203]Hier nimm!\nEs ist Etemons\nMikro.[pause][\\x0203]Ich werde stärker!\nDann kämpfen wir\nnochmal![pause]"
+  - a
+  - |-
+    [\x0207][\x020902]3Yeah! Ich hab
+    'nen MP[-4]Chip![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Ich hab
+    'n Power[-4]Chip[pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Ich hab'
+    'n Rüst.[-4]Chip![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Ich hab'
+    'n Geist[-4]Chip![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Ich hab'
+    'n Weisheit[-4]Chip[pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Ich hab'
+    'n Boost[-4]Chip![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Ich hab
+    'n HP[-4]Chip![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Ich hab
+    'n Feuer[-4]Chip![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Ich hab
+    'n Wasser[-4]Chip![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Ich hab
+    'n Eis[-4]Chip![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Ich hab
+    'n Wind[-4]Chip![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Ich hab
+    'n Donner[-4]Chip![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Ich hab
+    'n Metall[-4]Chip[pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Ich hab
+    'n Dunkel[-4]Chip[pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Ich hab
+    die wilde Waffe[pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Ich hab
+    den Yin Yan[-4]Wall[pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Ich hab
+    das Ronin[-4]Schild[pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Hab' 'ne
+    heilige Robe[pause]
+  - "[\\x0207]Kail[\\x0207]Vemmon ist zum \nMeisterraum...[pause][\\x0203]Das hat uns aber\nwohl gerettet.\nAlso keine Sorge![pause]"
+  - |-
+    [\x0207]Soldat[\x0207]Ein stärkerer Ordner.
+    Hmm..welche Combo?[pause]
+  - |-
+    [\x0207]Soldat[\x0207]...ich sollte meine
+    Runde machen...[pause][\x0203]Aber mir ist nicht da[-4]
+    ach.. ich werd meine
+    Kartenliste checken.[pause]
+  - |-
+    [\x0207]Soldat[\x0207]...ich sollte meine
+    Runde machen.. oder
+    der Chief rastet aus.[pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Kotemon[\x0207]Das Dschungelgrab
+    von Amaterasu ist
+    dieser Ausgang.[pause][\x0203]Weiter nach Süden
+    geht's zum Asuka[-4]
+    Server.[pause]
+  - |-
+    [\x0207]Patamon[\x0207]Hier geht's raus
+    zum Ätherdschungel
+    von Asuka.[pause][\x0203]Zum Nordsektor
+    kommst du durch den
+    Plug[-4]Kap[-4]Tunnel![pause]
+  - |-
+    [\x0207]Kotemon[\x0207]Der Ätherdschungel
+    von Amaterasu ist
+    hier drüber.[pause][\x0203]Dieser Tunnel ist
+    auch mit Asuka[-4]
+    Server verbunden.[pause]
+  - |-
+    [\x0207]Patamon[\x0207]Hier drüber
+    ist der Zentralpark
+    von Amaterasu.[pause]
+  - |-
+    [\x0207]Kotemon[\x0207]Da vorne ist
+    'ne Sackgasse![pause][\x0203]Zum Nordsektor
+    musst du 'n anderen
+    Tunnel nehmen![pause][\x0203]Ein Tunnel zum
+    Nordsektor liegt im
+    Zentralsektor![pause]
+  - |-
+    [\x0207]Patamon[\x0207]Hier geht's raus
+    zum Ätherdschungel
+    von Asuka.[pause][\x0203]Zum Nordsektor
+    kommst du durch den
+    Plug[-4]Kap[-4]Tunnel![pause]
+  - |-
+    [\x0207]Kotemon[\x0207]Hier geht's raus
+    zum Plug[-4]Kap von
+    Asuka![pause][\x0203]Zum Nordsektor
+    geht's Richtung
+    Norden! Viel Glück![pause]
+  - |-
+    [\x0207]Patamon[\x0207]Ich glaube hier
+    geht's zum nördl.
+    Ödland W.[pause][\x0203]Vielleicht geh' ich
+    nach Norden, zurück
+    zum Asuka[-4]Nordsektor[pause]
+  - "[\\x0207]Kotemon[\\x0207]Hier geht's zum\nAsuka[-4]Dschungelgrab.[pause][\\x0203]Das von Amaterasu\nliegt weiter \nim Norden.[pause]"
+  - "[\\x0207]Kotemon[\\x0207]Der Ätherdschungel\nvon Amaterasu ist\nhier drüber.[pause][\\x0203]Nordsektor? Der Plug[-4]\nKap[-4]Tunnel ist \ndamit verbunden.[pause]"
+  - |-
+    [\x0207]Patamon[\x0207]Hier geht's zum
+    Plug[-4]Kap von
+    Amaterasu.[pause][\x0203]Dieser Tunnel führt
+    zum Nordsektor
+    von Amaterasu.[pause]
+  - |-
+    [\x0207]Veemon[\x0207]Asuka City liegt
+    weiter im
+    Norden.[pause]
+  - |-
+    [\x0207]Veemon[\x0207]Im Norden liegt
+    der Zentralsektor
+    von Amaterasu.[pause][\x0203]Andere Sektoren
+    liegen im Süden.[pause]
+  - |-
+    [\x0207]Veemon[\x0207]Die windige Prärie
+    von Asuka liegt
+    weiter südlich.[pause]
+  - |-
+    [\x0207]Veemon[\x0207]Im Süden liegt
+    das nördl. Ödland W.
+    von Asuka.[pause][\x0203]Den Ätherdschungel
+    findest du im
+    Norden.[pause]
+  - "[\\x0207]Monmon[\\x0207]Die windige Prärie\nvon Amaterasu liegt\ngenau im Süden.[pause][\\x0203]Vom Inn bei der \nPrärie geht's wohl\nnach Asuka.[pause]"
+  - "[\\x0207]Renamon[\\x0207]Der Nordsektor \nliegt im Norden.[pause][\\x0203]Ohne Vorbereitung\ngeh' besser zurück.[pause]"
+  - |-
+    [\x0207]Guilmon[\x0207]Hier ist es. Der Aus[-4]
+    gang ist im Norden![pause]
+  - "[\\x0207]Guilmon[\\x0207]Der Ausgang \nliegt im Süden.[pause]"
+  - "[\\x0207]Renamon[\\x0207]Dieser Tunnel führt\nnirgenwohin. Es ist \neine Sackgasse.[pause][\\x0203]Zum Nordsektor nimm\n'nen anderen Tunnel..[pause][\\x0203]Und geh zum Zentral[-4]\nsektor von Asuka.[pause]"
+  - |-
+    [\x0207]Guilmon[\x0207]Hm, hm, ich
+    rieche die Auβen[-4]
+    welt aus Nord...[pause]
+  - |-
+    [\x0207]Veemon[\x0207]Ein Ausgang liegt
+    weiter nördlich![pause]
+  - |-
+    [\x0207]Renamon[\x0207]Ein Tunnelausgang
+    liegt nördlich.[pause][\x0203]Es ist weit, aber
+    es gibt einen Aus[-4]
+    gang. Viel Glück.[pause]
+  - |-
+    [\x0207]Monmon[\x0207]Der Pfad im
+    Süden führt
+    zum Ausgang[pause]
+  - "[\\x0207]Agumon[\\x0207]Asukas Nordsektor \nliegt im Norden.[pause][\\x0203]Im Nordsektor sind\nmächtige Digimon und\nTamer.[pause][\\x0203]Bisschen Furcht\neinflöβend...[pause]"
+  - |-
+    [\x0207]Kumamon[\x0207]Das Dschungelgrab
+    von Amaterasu
+    liegt im Norden.[pause]
+  - |-
+    [\x0207]Agumon[\x0207]Nimm die Straβe nach
+    Nord, um nahe Asuka
+    City zu gelangen.[pause]
+  - |-
+    [\x0207]Agumon[\x0207]Der Ätherdschungel
+    von Asuka liegt
+    im Norden.[pause][\x0203]Dieser Tunnel ist
+    mit Amaterasu[-4]
+    Server verbunden.[pause]
+  - |-
+    [\x0207]Kumamon[\x0207]Der Asuka[-4]Dschungel
+    liegt im Norden.[pause]
+  - |-
+    [\x0207]Kumamon[\x0207]Der Nordsektor
+    von Amaterasu
+    liegt im Norden.[pause]
+  - |-
+    [\x0207]Guilmon.[\x0207]Hier entlang.
+    Zum Ausgang geh
+    Richtung Süden.[pause]
+  - |-
+    [\x0207]Guilmon.[\x0207]Hier entlang.
+    Zum Ausgang geh
+    Richtung Norden.[pause]
+  - |-
+    [\x0207]Guilmon[\x0207]Ausgang gefunden!
+    Geh nach Norden
+    zum Ausgang![pause]
+  - |-
+    [\x0207]Guilmon[\x0207]Geh nach Norden
+    zum Ausgang.[pause][\x0203]Der Tunnel ist
+    breit und tief,
+    du gehst verloren.[pause]
+  - |-
+    [\x0207]Agumon[\x0207]Nimm die linke
+    Straβe nach Norden
+    zu einem Ausgang.[pause][\x0203]Aber dieser Tunnel,
+    führt er irgenwohin?[pause]
+  - "[\\x0207]Kumamon[\\x0207]Geh weiter nach\nNorden. Da ist \nder Ausgang.[pause]"

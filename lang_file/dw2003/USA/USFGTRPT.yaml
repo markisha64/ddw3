@@ -1,0 +1,28 @@
+type: simple
+strings:
+  - ''
+  - EXP
+  - |-
+    EXP gained:
+    [\x020501] EXP[pause]
+  - LV
+  - Level gained![pause]
+  - |-
+    Learned Tech:
+    [\x020501][pause]
+  - |-
+    Can load Tech:
+    [\x020501][pause]
+  - |-
+    [\x020501]
+    Level [\x020502]![pause]
+  - |-
+    Digivolve learned:
+    [\x020501][pause]
+  - "Digivolve Slot full. \nStoring to Digimon Lab.[pause]"
+  - |-
+    BIT gained:
+    [\x020501] BIT[pause]
+  - |-
+    Item gained:
+    [\x020501][pause]

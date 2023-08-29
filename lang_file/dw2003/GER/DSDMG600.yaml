@@ -1,0 +1,756 @@
+type: extended
+files:
+  - strings:
+      - ''
+      - |-
+        [\x0207]Byakko Leader[\x0207]Willkommen, Heraus[-4]
+        forderer. Auf geht's![pause]
+      - |-
+        [\x0207][\x020902]3Warte eine
+        Sekunde...[pause][\x0203]Zuerst habe
+        ich eine
+        Frage.[pause]
+      - |-
+        [\x0207]Byakko Leader[\x0207]Erst der Kampf![pause][\x0203]Gewinnst du, sage
+        ich dir alles.[pause]
+      - |-
+        [\x0207][\x020902]3OK, ich werde
+        auf keinen Fall
+        verlieren![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Byakko Leader[\x0207]Ha ha ha!
+        Du bist stark.
+        Ich mag dich.[pause]
+      - |-
+        [\x0207][\x020902]3Also gut,...[pause][\x0203]Es geht um diesen
+        Typen namens
+        Lucky Mouse...[pause]
+      - |-
+        [\x0207]Byakko Leader[\x0207]Einen Moment noch
+        Das Byakko[-4]Abzei.
+        ist in dem Raum.[pause][\x0203]Hol es dir, dann
+        höre ich dir zu.[pause]
+      - |-
+        [\x0207][\x020902]3OK, bin so[-4]
+        fort zurück.
+        Warte hier![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Hä? Seltsam.
+        Hier ist gar kein
+        Abzeichen.[pause]
+      - '[\x0207][\x020902]3Was zum?[pause]'
+      - "[\\x0207][\\x020902]3Was ist \ndenn jetzt?![pause]"
+      - '[\x0207][\x020902]3Whaaah![pause]'
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Äh...äh.
+        Wo bin ich?[pause]
+      - |-
+        [\x0207][\x020902]3Aha, ich bin in
+        den Keller gefallen.[pause][\x0203]Wie komme ich denn
+        hier wieder heraus?[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Was liegt vor dem Loch?
+        Ein groβer Stein?[pause]
+      - '[\x0207]???[\x0207]Bin kein Stein![pause]'
+      - |-
+        [\x0207][\x020902]3Was zum..
+        Was?![pause]
+      - |-
+        [\x0207]Numemon[\x0207]Wie gesagt.
+        Byakko City ist
+        gefährlich![pause]
+      - "[\\x0207][\\x020902]3Hey, du bist \ndoch Numemon![pause]"
+      - |-
+        [\x0207]Numemon[\x0207]Richtig. Ich
+        helfe dir.
+        Komm mit![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Lisa[\x0207]Wow! [\x020801][\x020501],
+        du bist toll![pause][\x0203]Bin beeindruckt![pause]
+      - "[\\x0207][\\x020902]3Echt?! \nJa, äm,\nDanke...[pause]"
+      - |-
+        [\x0207][\x020902]3Was machst
+        du eigentlich
+        hier, Lisa?[pause]
+      - |-
+        [\x0207]Lisa[\x0207]Und du?[pause][\x0203]Warum bist
+        du hier?[pause]
+      - |-
+        [\x0207][\x020902]3...ich?
+        Äm, ich...[pause]
+      - "Ihr beide \nwollt mit\nmir reden, od.?[pause]"
+      - |-
+        [\x0207]Lisa[\x0207]Aaaah!
+        Nu[-4]nu[-4]
+        Numemon![pause]
+      - |-
+        [\x0207]Numemon[\x0207]Beruhig dich,
+        Lisa, ich bins[pause]
+      - |-
+        [\x0207][\x020902]3Was?!
+        Numemon
+        ist ein Mensch?[pause]
+      - |-
+        [\x0207]Lisa[\x0207]Aha, verstehe.[pause][\x0203]Erschreck mich
+        doch nicht so,
+        Lucky Mouse![pause]
+      - |-
+        [\x0207][\x020902]3Was?! Er ist
+        Lucky Mouse?[pause][\x0203]Dieser Numemon
+        ist d[-4]d[-4]dann also...[pause]
+      - |-
+        [\x0207]Lucky Mouse[\x0207]Lisa ist etwas anderes,
+        aber dir habe ich ver[-4]
+        boten, herzukommen.[pause][\x0203]Es ist ge[-4]
+        fährlich hier. Wir gehen
+        besser in mein Versteck![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]FERTIG ZUM
+        SPEICHERN[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]FERTIG ZUM
+        SPEICHERN[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Hmm...Ich kann
+        nicht lange spielen[pause]
+      - |-
+        [\x0207]BK WarGrowlmon[\x0207]Ich weiβ.
+        Nur etwas.
+        Ein Kampf![pause]
+      - |-
+        [\x0207][\x020902]3Oh, in Ordnung!
+        Ich mach's dir
+        nicht leicht![pause]
+      - |-
+        [\x0207]BK WarGrowlmon[\x0207]Das gefällt mir![pause][\x0203]Wow, ich hab
+        lange nicht
+        mehr gekämpft![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]BK WarGrowlmon[\x0207]Verloren. Hat
+        aber Spaβ ge[-4]
+        macht. Danke![pause]
+      - |-
+        [\x0207][\x020902]3Ebenso.
+        Ich muss gehen![pause]
+      - |-
+        [\x0207]BK WarGrowlmon[\x0207]Hey, warte.[pause][\x0203]Ich geb dir
+        dies zum
+        Dank![pause]
+      - |-
+        [\x0207][\x020902]3Toll! Die ge[-4]
+        fährl. Rüstung![pause]
+      - |-
+        [\x0207]BK WarGrowlmon[\x0207]Heh heh, ist das
+        nich cool?![pause][\x0203]Es ist mein Schatz,
+        also geh bitte vor[-4]
+        sichtig damit um.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Oh, was zum...?!\nDu bist aber ein \nbuntes Numemon.[pause]"
+      - |-
+        [\x0207]BK KingNumemon[\x0207]Glaube nicht, ich sei
+        wie andere Numemon![pause][\x0203]Ich, BK KingNumemon,
+        stehe weit über den
+        anderen Numemon.[pause]
+      - |-
+        [\x0207][\x020902]3Über den anderen?
+        So siehst du aber
+        nicht aus![pause]
+      - |-
+        [\x0207]BK KingNumemon[\x0207]Dann zeig ich's
+        dir![pause]
+  - strings:
+      - ''
+      - "[\\x0207]BK KingNumemon[\\x0207]Oh, nein...ich \nhabe verloren...[pause]"
+      - |-
+        [\x0207][\x020902]3Aber du warst
+        sehr gut.[pause][\x0203]Du bist wirk[-4]
+        lich ein König![pause]
+      - |-
+        [\x0207]BK KingNumemon[\x0207]...wiwirklich?
+        Ich bin froh, dass
+        du das sagst.[pause][\x0203]Bist ein guter Kerl!
+        Ich gebe dir das.[pause]
+      - |-
+        [\x0207][\x020902]3Yeah! Ich hab
+        den BIT[-4]
+        Adapter![pause]
+      - |-
+        [\x0207]BK KingNumemon[\x0207]Vergiβ mich nie,
+        den KingNumemon![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Bürger von Byakko?[\x0207]Bist wohl der neue
+        Herausforderer.[pause][\x0203]Komm doch herein!
+        By. Leader wartet
+        schon auf dich![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Bürger v. Byakko?[\x0207]Heh heh heh!
+        Wir haben schon
+        auf dich gewartet![pause][\x0203]Schnell, kämpfe
+        m. unser. Leader![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Hey,
+        sie sind..?![pause]
+      - |-
+        [\x0207]Byakko[-4]Bürg.[\x0207]Hä?! Da hat
+        sich was be[-4]
+        wegt, oder?[pause]
+      - "[\\x0207]Byakko[-4]Bürger[\\x0207]Kannst du von \nda aus\netwas sehen?[pause]"
+      - |-
+        [\x0207]Byakko[-4]Bür.[\x0207]Im Westen
+        alles OK![pause]
+      - "[\\x0207]Byakko[-4]Bürger[\\x0207]Nichts im \nSüden![pause]"
+      - |-
+        [\x0207]Byakko[-4]Bürger[\x0207]Auch hier
+        alles OK![pause]
+      - |-
+        [\x0207]Byakko[-4]Bürger[\x0207]Dann sehe ich
+        wohl Gespenst.[pause]
+      - "[\\x0207][\\x020902]3...sie sind \nwachsam...[pause][\\x0203]Byakko City kann\nich eine Weile\nnicht betreten...[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Aha, das Versteck
+        von Lucky Mouse.[pause]
+      - |-
+        [\x0207][\x020902]3Wo ist
+        Teddy? Wo
+        ist er?![pause]
+      - "[\\x0207]Lucky Mouse[\\x0207]Teddy? Ach, der Junge\nder meinen Code fand,\nmich kontaktierte![pause][\\x0203]Nicht ich, die A.o.A \nhat ihn gefangen![pause]"
+      - "[\\x0207][\\x020902]3Was? Was soll\ndas heiβen?[pause][\\x0203]Laut Gamemaster\nvon Asuka hast du \nihn...[pause]"
+      - "[\\x0207][\\x020902]3... Sie gehört zu den\nTop[-4]Agenten d. A.o.A.[pause][\\x0203]Sie ist nicht die \neinzige. MAGAMI selbst\nist die A.o.A![pause][\\x0203]Es gibt viele Mitglieder\nin diesem Asuka[-4]Server![pause]"
+      - |-
+        [\x0207][\x020902]3Dann hat sie mich
+        also angelogen?![pause][\x0203]Ich muss Teddy
+        retten![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Was haben die
+        A.o.A. vor?[pause]
+      - "[\\x0207]Lucky Mouse[\\x0207]Sie wollen\nDigimon[-4]Online\nübernehmen.[pause][\\x0203]Dann können sie sich\nin der ganzen Welt \nin das Netz einhacken.[pause]"
+      - "[\\x0207]Lisa[\\x0207]Na, das sind ja\nnicht gerade tolle\nNeuigkeiten![pause][\\x0203]Dann kontrollieren\nsie alle Computer \nder Welt![pause]"
+      - |-
+        [\x0207]Lucky Mouse[\x0207]Um das zu verhindern,
+        hab ich den Fehler im
+        Programm verursacht.[pause][\x0203]Für eine Weile kann
+        niemand auf diesen
+        Server zugreifen.[pause]
+      - |-
+        [\x0207]Lisa[\x0207]Ach so. Darum konnte
+        niemand in die echte
+        Welt zurückkehren.[pause]
+      - "Ha ha ha ha ha!\nIch habe eine Menge\nProbleme gemacht![pause][\\x0203]Aber dank der Kleinen\nsind wir wieder \nam Start![pause]"
+      - '[\x0207]Lucky Mou.[\x0207]...Kail?![pause]'
+      - '[\x0207][\x020902]3...Kail![pause]'
+      - |-
+        [\x0207]Kail[\x0207][\x020801][\x020501]!
+        ...Kurt![pause]
+      - |-
+        [\x0207][\x020902]3Was?! Also
+        Kails groβer
+        Bruder ist...![pause]
+      - "[\\x0207]Lucky Mouse[\\x0207]Ja, mein wirklicher\nName i. Kurt! Ich bin\nKails älterer Bruder.[pause][\\x0203]Aber woher wissen die \nA.o.A. von diesem \nOrt!?[pause][\\x0203]Warum ist Kail...?[pause]"
+      - |-
+        [\x0207]General[\x0207]Wir haben die Kleine
+        seit Asuka City verfolgt![pause][\x0203]Sie ist ihr auch gefolgt,
+        bis wir sie geschnappt
+        haben![pause]
+      - '[\x0207]Lucky Mouse[\x0207]Lass Kail los![pause]'
+      - "[\\x0207]General[\\x0207]Ha ha ha! Nicht so\nschnell. So einfach \nist es nicht.[pause][\\x0203]Ich lasse sie gehen, \nwenn du mir gibst,\nwas du gestohlen h.[pause]"
+      - |-
+        [\x0207]Lucky Mouse[\x0207]In Ordnung,
+        bitte schön..[pause]
+      - |-
+        [\x0207]General[\x0207]Da ist es,
+        ha ha ha ha![pause][\x0203]OK, ich nehme
+        es zurück![pause]
+      - "[\\x0207]Angreifer[\\x0207]Versprochen ist\nversprochen. Ich \nlasse sie gehen![pause]"
+      - |-
+        [\x0207]Kail[\x0207]Kurt!
+        [\x020801][\x020501]![pause]
+      - |-
+        [\x0207]Angreifer[\x0207]Ha ha, ich gönne
+        euch einen Moment![pause][\x0203]Aber ihr seid alle
+        erledigt![pause]
+      - |-
+        [\x0207]Lucky Mou.[\x0207]Passt auf,
+        Vorsicht![pause]
+      - '[\x0207]Lucky Mouse[\x0207]Aaaaaah![pause]'
+      - '[\x0207]Kail[\x0207]Kurt![pause]'
+      - |-
+        [\x0207][\x020902]3Unmöglich! Er ist
+        Digimon geworden![pause]
+      - |-
+        [\x0207]Angreifer[\x0207]Ihr werdet in Oink[-4]
+        mon verwandelt u.
+        in Käfige gesperrt![pause][\x0203]OK, wer ist dran?[pause]
+      - |-
+        [\x0207]Angreifer[\x0207]!?!?!?!
+        Keine Energie mehr![pause][\x0203]Also gut. Kommt,
+        meine Digimon![pause]
+      - "[\\x0207][\\x020902]3Wenn du kämpfen\nwillst, musst du \nerst an mir vorbei[pause]"
+      - "[\\x0207]Lucky Mouse[\\x0207]Ich habe früher bei\nDigimon[-4]Online \ngearbeitet.[pause][\\x0203]Aber als ich merkte,\nwas dort geschah,\nwar es zu spät...[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Angreifer[\x0207]Nein, neeein...
+        meine Digimon...[pause][\x0203]Dafür wirst du
+        bezahlen![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Danke, [\x020801][\x020501].
+        Du hast mich schon
+        wieder gerettet![pause]
+      - |-
+        [\x0207]Kail[\x0207]Aber Kurt ist...!
+        Ich dachte, ich hätte
+        ihn endlich gefunden.[pause]
+      - '[\x0207]Kurt[\x0207]Oink, oink[pause]'
+      - |-
+        [\x0207][\x020902]3OK, ich habe mich
+        entschieden! Ich gehe
+        nach Asuka City![pause][\x0203]Ich werde Teddy
+        retten u. d. Game[-4]
+        master besiegen![pause]
+      - |-
+        [\x0207]Kail[\x0207]Ja, wir machen die
+        A.o.A. fertig![pause][\x0203]Und verwandeln Kurt
+        zurück![pause]
+      - "[\\x0207]Lisa[\\x0207]Ich bitte dich auch\ndarum![pause][\\x0203]Aber es soll keine\nPanik ausbrechen.[pause][\\x0203]Könnt ihr das über\ndie A.o.A. für \neuch behalten?[pause]"
+      - '[\x0207][\x020902]3Ist klar![pause]'
+      - |-
+        [\x0207][\x020902]3OK, Kail.
+        Ich gehe![pause]
+      - |-
+        [\x0207]Kail[\x0207]Wenn du verlierst,
+        verzeihe ich dir das
+        nie, verstanden?![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Ich drück dir die
+        Daumen! V.Glück![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Byakko Lead.,
+        ich möchte dich
+        etwas fragen.[pause]
+      - "[\\x0207]Byakko Leader[\\x0207]...Du hast mich \nbereits gefunden![pause][\\x0203]Dann muss ich jetzt\nmit dir kämpfen![pause]"
+      - |-
+        [\x0207][\x020902]3Was?
+        Hey, Sekunde!
+        Was ist d...!?[pause]
+      - |-
+        [\x0207]Byakko Leader[\x0207]Ruhe! Ich werde
+        nicht gegen die
+        A.o.A verlieren![pause]
+      - |-
+        [\x0207][\x020902]3Wie bitte?
+        ...A.o.A.?[pause]
+      - |-
+        [\x0207]Byakko Leader[\x0207]Tu doch nicht so!
+        Kommt her, meine
+        Digimon![pause]
+      - |-
+        [\x0207][\x020902]3Ich kann es nicht
+        glauben! Na gut.[pause][\x0203]OK, bringen wir
+        es hinter uns![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Byakko Leader[\x0207]Oh, ver[-4]
+        stehe.[pause][\x0203]Verzeih, dass
+        ich dich für d.
+        A.o.A. hielt.[pause]
+      - "[\\x0207][\\x020902]3Schon in Ordnung...[pause][\\x0203]Aber heiβt das, dass \ndie Leute in Byakko \nCity die ...?[pause]"
+      - |-
+        [\x0207]Byakko Leader[\x0207]Ja. Das sind die
+        A.o.A![pause][\x0203]Sie haben einfach
+        Byakko City besetzt![pause][\x0203]Wir wurden ins Keller[-4]
+        gefängnis gesperrt...[pause][\x0203]Aber Numemon hat
+        uns gerettet.[pause]
+      - |-
+        [\x0207][\x020902]3Verstehe...
+        Aber die A.o.A. und
+        Lucky Mouse...[pause][\x0203]Und was passiert
+        mit Digimon[-4]Online?[pause]
+      - "[\\x0207]Byakko Leader[\\x0207]Das weiβ ich nicht.[pause][\\x0203]Von diesem Numemon \nkannst du mehr \nerfahren.[pause][\\x0203]Du findest ihn in der\nDum Dum[-4]Fabrik.[pause]"
+      - '[\x0207][\x020902]3OK![pause]'
+      - "[\\x0207]Byakko Leader[\\x0207]Warte mal.\nIch habe noch \netwas vergessen![pause]"
+      - |-
+        [\x0207][\x020902]3Klasse! Das
+        Byakko[-4]Abzei.![pause][\x0203]Danke, Byakko
+        Leader![pause]
+      - |-
+        [\x0207]Byakko Leader[\x0207]Schlieβlich hast
+        du mich besiegt![pause][\x0203]Es kann dir später
+        noch nützlich sein![pause]
+      - |-
+        [\x0207]Byakko Leader[\x0207]Es gibt noch mehr
+        A.o.A. Pass auf![pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Hey, weiβt\ndu, wo \nNumemon ist?[pause]"
+      - |-
+        [\x0207]HiAndromon[\x0207]Numemon?
+        Was willst du
+        von ihm?[pause]
+      - |-
+        [\x0207][\x020902]3Ich muss ihn un[-4]
+        bedingt etwas fragen.
+        Bitte, sag schon![pause]
+      - "[\\x0207]HiAndromon[\\x0207]Ich weiβ, wo er ist,\naber das kann ich dir\nnicht einfach sagen.[pause][\\x0203]Ab hier dürfen nur\ndie Starken weiter[-4]\ngehen.[pause][\\x0203]Wenn du ihn trotzdem\nsehen willst, musst \ndu mich besiegen.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]HiAndromon[\\x0207]...ich respektiere\ndeine groβe Stärke.\nGeh durch![pause][\\x0203]Numemon ist in der\nKanalisation hinter\nd. geheimen Treppe.[pause][\\x0203]Ich habe die Tür zur\ngeheimen Treppe\naufgeschlossen.[pause][\\x0203]Geh weiter, aber \nnimm dieses rosti[-4]\nge Gewehr mit.[pause]"
+      - |-
+        [\x0207][\x020902]3Spitze! Das
+        rostige Gewehr![pause][\x0203]Danke HiAndromon!
+        Weiter geht's![pause]
+      - |-
+        [\x0207]HiAndromon[\x0207]Ab hier ist der
+        Feind stärker.
+        Sei vorsichtig![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Seltsam.
+        Numemon ist
+        nicht zu sehen.[pause]
+      - |-
+        Aaaaaaaah![pause][\x0203]Hilfe,
+        hilfe![pause]
+      - |-
+        [\x0207][\x020902]3Was? Was
+        war das?[pause]
+      - |-
+        [\x0207]WaruMonzaemon[\x0207]Du bist sooo süβ!
+        Heirate mich![pause]
+      - "[\\x0207]Lisa[\\x0207]Nein! Ich mag \nkeine Freaks![pause]"
+      - |-
+        [\x0207][\x020902]3Oh, das
+        ist doch...
+        Lisa![pause]
+      - "[\\x0207]Lisa[\\x0207]... Hey hey! Du \nbist doch [\\x020801][\\x020501]![pause][\\x0203]Bitte! Hilf diesem sü[-4]\nβen Wesen in der Not![pause]"
+      - |-
+        [\x0207][\x020902]3OK. Ist
+        doch klar![pause]
+      - |-
+        [\x0207][\x020902]3He, WaruMonzaemon!
+        Vergreif dich nicht
+        an Schwächeren![pause]
+      - "[\\x0207]WaruMonzaemon[\\x0207]......\nWer bist du?[pause][\\x0203]Geh mir aus \ndem Weg![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Kail[\x0207]He [\x020801][\x020501]!
+        Was ist?[pause]
+      - |-
+        [\x0207][\x020902]3Ich komme nicht in
+        Asuka City rein.[pause][\x0203]Vielleicht käme ich
+        mit einem Personal[-4]
+        pass rein...[pause]
+      - |-
+        [\x0207]Kail[\x0207]Ein Perso[-4]
+        nalpass?[pause]
+      - |-
+        [\x0207]Kurt[\x0207]Oink!
+        Oink![pause]
+      - |-
+        [\x0207]Kail[\x0207]Was willst
+        du uns sa[-4]
+        gen, Kurt?[pause]
+      - |-
+        [\x0207][\x020902]3Vielleicht hat
+        Kurt einen.[pause]
+      - |-
+        [\x0207]Kail[\x0207]Genau! Kurt
+        hat doch da
+        gearbeitet![pause]
+      - |-
+        [\x0207][\x020902]3Hä? Lisa,
+        was machst
+        du da?[pause]
+      - |-
+        [\x0207]Lisa[\x0207]Wie du siehst, ist
+        dieses Zimmer ein
+        einziges Chaos.[pause][\x0203]Daher wollte ich es
+        mit Kail aufräumen[pause]
+      - "[\\x0207]Kail[\\x0207]Hey Lisa. War da\nirgendwo ein \nPersonalpass?[pause]"
+      - "[\\x0207]Lisa[\\x0207]Sorry, den habe ich\nnoch nicht gefunden.[pause][\\x0203]Schuld daran ist \nKurt, weil er immer \nso unordentlich ist![pause]"
+      - |-
+        [\x0207]Kurt[\x0207]Oink,
+        oink![pause]
+      - |-
+        [\x0207]Kail[\x0207]Was sollen wir
+        tun? Er muss hier
+        irgendwo sein.[pause]
+      - |-
+        [\x0207]Lisa[\x0207]Ich weiβ! Hol bitte
+        meine Freunde![pause][\x0203]Mit ihnen sind wir
+        in Nullkommanichts
+        fertig.[pause]
+      - '[\x0207][\x020902]3Deine Freunde?[pause]'
+      - |-
+        [\x0207]Lisa[\x0207]Ja. Sie heiβen
+        Keith und Nick.[pause]
+      - |-
+        [\x0207][\x020902]3...Was!?
+        Keith und
+        Nick!?[pause]
+      - "[\\x0207]Lisa[\\x0207]Ach, du kennst\nsie, [\\x020801][\\x020501]?[pause][\\x0203]Dann brauchst\ndu sicherlich\nnicht lang![pause][\\x0203]Übrigens hörte ich\nzuletzt von ihnen \nim Südsektor.[pause]"
+      - "[\\x0207][\\x020902]3Aha, na \ngut...[pause]"
+      - |-
+        [\x0207]Lisa[\x0207]Oh, [\x020801][\x020501]
+        ist etwas
+        passiert?[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Lisa[\x0207]OK, Nick, suche
+        im Computer nach
+        einem Passcode![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Keith, du räumst
+        die Dokumente auf!
+        Los, macht schnell![pause]
+      - '[\x0207]Keith[\x0207]Zu Befehl[pause]'
+      - '[\x0207]Nick[\x0207]Ist klar![pause]'
+      - |-
+        [\x0207]Lisa[\x0207]Seht ihr, so
+        geht es
+        ruck zuck![pause]
+      - |-
+        [\x0207]Kail[\x0207]Sag mal Lisa,
+        wer sind die
+        denn überhaupt?[pause]
+      - |-
+        [\x0207]Lisa[\x0207]Das sind nur
+        meine Freunde.[pause]
+      - '[\x0207]Kail[\x0207]Ach so...[pause]'
+      - |-
+        [\x0207]Kail[\x0207]Wirklich
+        nur Freunde?[pause]
+      - '[\x0207][\x020902]3Und?[pause]'
+  - strings:
+      - ''
+      - |-
+        [\x0207]Keith[\x0207]Wir sind
+        fertig![pause]
+      - '[\x0207]Nick[\x0207]Fertig![pause]'
+      - |-
+        [\x0207]Lisa[\x0207]Hey, gute
+        Arbeit,
+        ihr zwei![pause]
+      - '[\x0207]Keith[\x0207]Personalpass?[pause]'
+      - |-
+        [\x0207]Lisa[\x0207]Ihr taugt
+        echt nichts![pause]
+      - |-
+        [\x0207]Keith[\x0207]Oh, tut
+        mir leid![pause]
+      - |-
+        [\x0207]Nick[\x0207]Sorry!
+        Diesmal
+        find ich ihn![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Tut mir leid.
+        Könnt ihr
+        noch warten?[pause]
+      - |-
+        [\x0207]Nick[\x0207]Ich hab ihn
+        gefunden![pause]
+      - |-
+        [\x0207]Nick[\x0207]Lisa verlangt
+        echt viel...[pause]
+      - |-
+        [\x0207]Nick[\x0207]Aber das weiβt
+        du nicht von mir
+        Bitte schön![pause]
+      - |-
+        [\x0207][\x020902]3Klasse! Der
+        Personalpass![pause]
+      - "[\\x0207]Lisa[\\x0207]Oh, du hast ihn\ngefunden. \nPrima, Nick![pause]"
+      - "[\\x0207]Nick[\\x0207]Danke \nschön![pause]"
+      - |-
+        [\x0207][\x020902]3Kail, Lisa
+        bis dann.[pause]
+      - |-
+        [\x0207]Lisa[\x0207]Viel Glück!
+        Wir verlassen
+        uns auf dich![pause]
+      - |-
+        [\x0207]Kail[\x0207]Sei vorsich[-4]
+        tig, ja?[pause]
+      - '[\x0207]Nick[\x0207]Personalpass?[pause]'
+      - |-
+        [\x0207]Lisa[\x0207]Personalpass
+        gefunden?[pause]
+      - |-
+        [\x0207]Lisa[\x0207]Was macht ihr
+        da eigentlich?[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Bist du der
+        Bai Hu Chief!?[pause]
+      - |-
+        [\x0207]Bai Hu Chief[\x0207]Ja, stimmt...
+        Was willst du?[pause]
+      - |-
+        [\x0207][\x020902]3Gib mir
+        deinen weiβen
+        ID[-4]Pass![pause]
+      - |-
+        [\x0207]Bai Hu Chief[\x0207]Verstehe.
+        Ha ha ha![pause][\x0203]Egal was du
+        versuchst, wir ge[-4]
+        winnen doch![pause][\x0203]Jetzt lernst du
+        deine Lektion![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Wart's ab!
+        Leg dich nicht
+        mit mir an![pause][\x0203]Häh?
+        Ist das...?[pause]
+      - |-
+        [\x0207][\x020902]3Ja! Ich hab den
+        weiβen ID[-4]Pass![pause][\x0203]Wir brauchen nur
+        noch einen. Los![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]General[\x0207]Dich haben wir neulich
+        doch schon gefangen![pause][\x0203]Was willst du?
+        Nochmal geschnappt
+        werden?[pause]
+      - |-
+        [\x0207][\x020902]3Niemals![pause][\x0203]Ich will wissen,
+        wie ihr auf diesen
+        Server gekommen seid![pause]
+      - |-
+        [\x0207]General[\x0207]Heh heh heh...
+        Ich sag's dir, wenn
+        du's wissen willst.[pause][\x0203]Mit dem Transport[-4]
+        Digimon von den
+        A.o.A...[pause][\x0203]Wir sind mit Bulbmon
+        von Amaterasu auf
+        diesen Server gekommen![pause]
+      - '[\x0207][\x020902]3Bulbmon?![pause]'
+      - "[\\x0207]General[\\x0207]Ja, ein tolles Digi[-4]\nmon, das zwischen \nServ. wechs. kann![pause]"
+      - |-
+        [\x0207][\x020902]3Verstehe nur
+        Bahnhof. Was
+        bedeutet das?[pause]
+      - |-
+        [\x0207]General[\x0207]Lucky Mouse hat ein
+        Schutzfeld eingerichtet![pause][\x0203]Bulbmon brach zusam[-4]
+        men u. warf uns raus![pause][\x0203]Darum haben wir
+        schnell Byakko
+        City angegriffen.[pause]
+      - "[\\x0207][\\x020902]3Moment mal.\nWo ist denn \ndann Bulbmon?[pause]"
+      - "[\\x0207]General[\\x0207]Keine Ahnung![pause][\\x0203]Ich schätze, es \ngräbt noch ein \npaar riesige Löcher![pause]"
+      - |-
+        [\x0207][\x020902]3Dann sollte ich
+        wohl nach Bulb[-4]
+        mon suchen...[pause][\x0203]Aber ich glaube,
+        ich habe Bulbmon
+        schon mal gesehen...[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Leader Chuck[\x0207]Kenny hat mir
+        alles erzählt.[pause][\x0203]Viel Glück im
+        Kampf gegen
+        die A.o.A![pause]
+      - |-
+        [\x0207][\x020902]3Ja, dir auch
+        viel Glück![pause]
+      - "[\\x0207]Leader Chuck[\\x0207]Ich möchte dir wirk[-4]\nlich helfen u. mit\ndir kämpfen, aber[pause][\\x0203]wir müssen hier\ndie Stellung im \nFort halten.[pause]"
+      - |-
+        [\x0207][\x020902]3Ist schon OK.
+        Mach dir keine
+        Sorgen um mich![pause]
+      - "[\\x0207]Leader Chuck[\\x0207]Tut mir leid, dass der \nweite Weg umsonst war.[pause][\\x0203]Wenn wir zurück nach\nAmaterasu City kommen,\nkön. wir sicher helfen.[pause][\\x0203]Ich hätte aber nie ge[-4]\ndacht, dass sie Knight[-4]\nmon umprogrammieren.[pause]"
+      - |-
+        [\x0207][\x020902]3Knightmon...
+        Wie kann ich
+        ihn besiegen?[pause]
+      - |-
+        [\x0207]Leader Chuck[\x0207]Wenn er sich in Bewe[-4]
+        gung setzt, kannst du
+        Knightmon stoppen...[pause][\x0203]Du brauchst die vier
+        Code[-4]Pässe der City[-4]
+        Leader.[pause][\x0203]Aber alle Leader wurden
+        gefangen, daher kann
+        ich sie nicht...[pause][\x0203]Die City[-4]Chiefs der
+        A.o.A. müssen sie ge[-4]
+        nommen haben...[pause]
+      - |-
+        [\x0207][\x020902]3Verstehe.
+        Diese A.o.A![pause][\x0203]Ich verzeih ihnen nie
+        dass sie Digim. für
+        Böses missbrauchen![pause]
+      - "[\\x0207]Leader Chuck[\\x0207]Klar, aber noch haben\nwir nicht aufgegeben![pause][\\x0203]Nach Möglichkeit \nleisten wir Widerstand.\nWarte bis dahin![pause][\\x0203]Auf jeden Fall\nviel Glück![pause]"
+      - '[\x0207][\x020902]3Ja, Sir![pause]'
+  - strings:
+      - ''
+      - |-
+        [\x0207]Tamer Heinrich[\x0207]Ohne Kennwort
+        lasse ich dich
+        nicht herein![pause]
+      - |-
+        [\x0207][\x020902]3Was, ein
+        Kennwort?
+        Äh...[pause]
+      - |-
+        [\x0207]???[\x0207]Hey, du bist
+        [\x020801][\x020501]![pause]
+      - |-
+        [\x0207]Kenny[\x0207][\x020801][\x020501],
+        ich bin's,
+        Kenny![pause]
+      - |-
+        [\x0207][\x020902]3Hey, Kenny!
+        Bist du OK?[pause]
+      - |-
+        [\x0207]Kenny[\x0207]Klar! Ich bin jetzt
+        beim Widerstand![pause][\x0203]Die haben hier jetzt
+        einen Stützpunkt![pause]
+      - |-
+        [\x0207][\x020902]3Wow, super,
+        Kenny![pause]
+      - "[\\x0207]Kenny[\\x0207]Ja! Komm, ich stelle \ndich dem Leader vor.[pause][\\x0203]Vielleicht weiβ er \netwas, das dir\nweiterhilft.[pause][\\x0203]Hier lang![pause]"
+      - '[\x0207][\x020902]3Vielen Dank![pause]'
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]FERTIG ZUM
+        SPEICHERN[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]FERTIG ZUM
+        SPEICHERN[pause]

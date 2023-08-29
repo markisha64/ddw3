@@ -1,0 +1,45 @@
+type: simple
+strings:
+  - ''
+  - Don't have [\x020501].
+  - BIT
+  - BUY
+  - SELL
+  - '[triangle] Button: Back'
+  - Equip
+  - Items
+  - X
+  - Equipped.
+  - '[circle] Button: Effects'
+  - '[circle] Button: Details'
+  - '[arrow-right]'
+  - Sort Items
+  - By Strength
+  - By Name
+  - Equip who?
+  - How many?
+  - '[\x020501] BIT'
+  - Buy
+  - No
+  - Equip?
+  - Yes
+  - No
+  - /
+  - L1
+  - R1
+  - Not enough BIT.
+  - Too many items
+  - Items
+  - Weapons
+  - Armor
+  - Accessories
+  - How many?
+  - Sell
+  - Right Hand
+  - Left Hand
+  - Right or Left
+  - Head
+  - Body
+  - Accessory
+  - Both Hands
+  - Accessory

@@ -1,0 +1,34 @@
+type: simple
+strings:
+  - ''
+  - Y
+  - C
+  - BIT
+  - 'Botón [triangle]: At.'
+  - Comprar Cta.
+  - Abrir Expansión
+  - Editar Carpeta
+  - X
+  - /
+  - L1
+  - R1
+  - BIT [\x020501]
+  - C.
+  - NO
+  - ¿Qué Expansión abrir?
+  - Expansión abierta.
+  - PA
+  - PV
+  - BIT insufic.
+  - Demasi. Ctas.
+  - Sin Expansión
+  - Cpta. 1
+  - Cpta. 2
+  - Cpta. 3
+  - Seleccionar una Cpta.
+  - Editar Carpeta
+  - Cambiar nomb.
+  - 'R1: Explicar Carta'
+  - 'R1: No explicar Carta'
+  - "Sólo 4 de la misma \nCarta."
+  - 'Botón [circle]: Or.'

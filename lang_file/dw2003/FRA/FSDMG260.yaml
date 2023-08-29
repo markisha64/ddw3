@@ -1,0 +1,396 @@
+type: extended
+files:
+  - strings:
+      - ''
+      - "[\\x0207]M. Smith[\\x0207]A vous de jouer ! Voici\nle clou de la vente ![pause][\\x0203]La Barrière Divine,\nadmirées par tous ![pause][\\x0203]Le bouclier exclusif de \nPatamon est proposé \nà 400 BIT au départ ![pause]"
+      - '[\x0207]Marchand Abel[\x0207]500 BIT ![pause]'
+      - '[\x0207]Chef Milly[\x0207]600 BIT ![pause]'
+      - '[\x0207]Masao Fan jeu[\x0207]700 BIT ![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm. 800 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Très bien !
+        800 BIT ![pause]
+      - "[\\x0207]M. Smith[\\x0207]Ouah ! \n800 BIT ![pause][\\x0203]Quelqu'un à \nplus de 800 \nBIT ?[pause]"
+      - "[\\x0207]M. Smith[\\x0207]Il semble qu'il\nn'y ait personne.[pause][\\x0203]La Barrière divine\nest vendue 800 \nBIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207][\\x020902]3Oui ! J'ai \nla Barrière  \ndivine ![pause]"
+      - "[\\x0207][\\x020902]3Bien, c'est un \nchouette objet, \nallons[-4]y.[pause]"
+  - strings:
+      - ''
+      - Une offre à 800 BIT?[pause]
+      - Oui.[pause]
+      - Non, je passe.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3C'est trop...\n...et je veux \nd'autres objets.[pause][\\x0203]Je reviendrai quand \nj'aurai plus \nd'argent.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]M. Smith[\\x0207]A vous de jouer ! Voici\nle clou de la vente ![pause][\\x0203]Le Bouclier du Péril, \nconvoité par tous ![pause][\\x0203]Le bouclier exclusif de \nGuilmon est proposé \nà 400 BIT au départ ![pause]"
+      - '[\x0207]Marchand Abel[\x0207]500 BIT ![pause]'
+      - '[\x0207]Chef Milly[\x0207]600 BIT ![pause]'
+      - '[\x0207]Masao Fan jeu[\x0207]700 BIT ![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm. 800 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - "Une offre à 800 \nBIT ?[pause]"
+      - Oui, 800 BIT.[pause]
+      - Non, je passe.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Très bien ! \n800 BIT ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Ouah ! \n800 BIT ![pause][\\x0203]Quelqu'un à \nplus de 800 \nBIT ?[pause]"
+      - "[\\x0207]M. Smith[\\x0207]Il semble qu'il\nn'y ait personne.[pause][\\x0203]Le Bouclier du \nPéril est vendu  \n800 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207][\\x020902]3Oui ! J'ai \nle Bouclier \ndu Péril ![pause]"
+      - "[\\x0207][\\x020902]3Bien, c'est un \nchouette objet, \nje m'en vais.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3C'est trop...\n...et je veux \nd'autres objets.[pause][\\x0203]Je reviendrai quand \nj'aurai plus \nd'argent.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]M. Smith[\\x0207]A vous de jouer ! Voici\nle clou de la vente ![pause][\\x0203]La Garde Sniper, \nadmiré par tous ![pause][\\x0203]Ce bouclier exclusif de \nMonmon est proposé \nà 800 BIT au départ ![pause]"
+      - '[\x0207]Marchand Abel[\x0207]1100 BIT ![pause]'
+      - '[\x0207]Chef Milly[\x0207]1300 BIT.[pause]'
+      - '[\x0207]Masao Fan jeux[\x0207]1500 BIT ![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm. 1600 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Une offre à 1600 BIT?[pause]
+      - Oui, 1600 BIT.[pause]
+      - Non, je passe.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Très bien ! \n1600 BIT ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Ouah ! \n1600 BIT ![pause][\\x0203]Quelqu'un à \nplus de 1600 \nBIT ?[pause]"
+      - "[\\x0207]M. Smith[\\x0207]Une fois, deux \nfois, adjugé ![pause][\\x0203]La Garde \nSniper est vendue\n1600 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207][\\x020902]3Oui ! J'ai \nla Garde \nSniper ![pause]"
+      - "[\\x0207][\\x020902]3Bien, c'est un \nchouette objet, \nje m'en vais.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3C'est trop...\n...et je veux \nd'autres objets.[pause][\\x0203]Je reviendrai quand \nj'aurai plus \nd'argent.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]M. Smith[\\x0207]A vous de jouer ! Voici\nle clou de la vente ![pause][\\x0203]Le Bouclier Dramon, \nconvoité par tous ![pause][\\x0203]Le bouclier exclusif de \nVeemon est proposé \nà 800 BIT au départ ![pause]"
+      - '[\x0207]Marchand Abel[\x0207]1100 BIT ![pause]'
+      - "[\\x0207]Chef Milly[\\x0207]1300 \nBIT ![pause]"
+      - '[\x0207]Masao Fan jeu[\x0207]1500 BIT ![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm. 1600 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Une offre à 1600 BIT?[pause]
+      - Oui, 1600 BIT.[pause]
+      - Non, je passe.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Très bien ! \n1600 BIT ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Ouah ! \n1600 BIT ![pause][\\x0203]Quelqu'un à \nplus de 1600 \nBIT ?[pause]"
+      - "[\\x0207]M. Smith[\\x0207]Allons, allons...[pause][\\x0203]Le Bouclier  \nDramon est vendu  \n1600 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207][\\x020902]3Oui ! J'ai \nle Bouclier \nDramon ![pause]"
+      - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nje vais voir ça.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3C'est trop...\n...et je veux \nd'autres objets.[pause][\\x0203]Je reviendrai quand \nj'aurai plus \nd'argent.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]M. Smith[\\x0207]A vous de jouer ! \nLe clou de la vente ![pause][\\x0203]Le Bâton YinYang, \nconvoité par tous ![pause][\\x0203]Cette arme exclusive de \nRenamon est proposée \nà 1600 BIT au départ ![pause]"
+      - '[\x0207]Marchand Abel[\x0207]2000 BIT ![pause]'
+      - "[\\x0207]Chef Milly[\\x0207]2300 \nBIT ![pause]"
+      - '[\x0207]Masao Fan jeu[\x0207]2600 BIT ![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm. 2700 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Une offre à 2700 BIT?[pause]
+      - Oui, 2700 BIT.[pause]
+      - Non, je passe.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Très bien ! \n2700 BIT ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Ouah ! \n2700 BIT ![pause][\\x0203]Quelqu'un à \nplus de 2700 \nBIT ?[pause]"
+      - "[\\x0207]M. Smith[\\x0207]Personne d'autre,\nsemble[-4]t[-4]il.[pause][\\x0203]Le Bâton YinYang \nest vendu \n2700 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207][\\x020902]3Oui ! J'ai \nle Bâton \nYinYang ![pause]"
+      - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nsortons d'ici.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3C'est trop...\n...et je veux \nd'autres objets.[pause][\\x0203]Je reviendrai quand \nj'aurai plus \nd'argent.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]M. Smith[\\x0207]A vous de jouer ! \nLe clou de la vente ![pause][\\x0203]Le Croc du Péril, \nconvoité par tous ![pause][\\x0203]Cette arme exclusive de \nGuilmon est proposée \nà 1600 BIT au départ ![pause]"
+      - '[\x0207]Marchand Abel[\x0207]2000 BIT ![pause]'
+      - "[\\x0207]Chef Milly[\\x0207]2300 \nBIT ![pause]"
+      - '[\x0207]Masao Fan jeu[\x0207]2600 BIT ![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm. 2700 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Une offre à 2700 BIT?[pause]
+      - Oui, 2700 BIT.[pause]
+      - Non, je passe.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Très bien ! \n2700 BIT ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Ouah ! \n2700 BIT ![pause][\\x0203]Quelqu'un à \nplus de 2700 \nBIT ?[pause]"
+      - "[\\x0207]M. Smith[\\x0207]Une, deux,...\nTrois fois ![pause][\\x0203]Le Croc du Péril \nest vendu  \n2700 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207][\\x020902]3Oui ! J'ai \nle Croc\ndu Péril ![pause]"
+      - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nallons[-4]y.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3C'est trop...\n...et je veux \nd'autres objets.[pause][\\x0203]Je reviendrai quand \nj'aurai plus \nd'argent.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]M. Smith[\\x0207]A vous de jouer ! \nLe clou de la vente ![pause][\\x0203]Le Canon Sniper, \nadmiré par tous ![pause][\\x0203]Cette arme exclusive de \nMonmon est proposée \nà 2700 BIT au départ ![pause]"
+      - '[\x0207]Marchand Abel[\x0207]3100 BIT ![pause]'
+      - "[\\x0207]Chef Milly[\\x0207]3500 \nBIT ![pause]"
+      - '[\x0207]Masao Fan jeu[\x0207]3900 BIT ![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm. 4000 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Une offre à 4000 BIT?[pause]
+      - Oui, 4000 BIT.[pause]
+      - Non, je passe.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Très bien ! \n4000 BIT ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Ouah ! \n4000 BIT ![pause][\\x0203]Quelqu'un à \nplus de 4000 \nBIT ?[pause]"
+      - "[\\x0207]M. Smith[\\x0207]Personne d'autre,\nsemble[-4]t[-4]il.[pause][\\x0203]Le Canon Sniper \nest vendu  \n4000 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207][\\x020902]3Oui ! J'ai \nle Canon\nSniper ![pause]"
+      - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nallons[-4]y.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3C'est trop...\n...et je veux \nd'autres objets.[pause][\\x0203]Je reviendrai quand \nj'aurai plus \nd'argent.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]M. Smith[\\x0207]A vous de jouer ! \nLe clou de la vente ![pause][\\x0203]La Lame de Ronin, \nadmirée par tous ![pause][\\x0203]Cette arme exclusive de \nKotemon est proposée \nà 2700 BIT au départ ![pause]"
+      - '[\x0207]Marchand Abel[\x0207]3100 BIT ![pause]'
+      - "[\\x0207]Chef Milly[\\x0207]3500 \nBIT ![pause]"
+      - '[\x0207]Masao Fan jeu[\x0207]3900 BIT ![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm. 4000 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Une offre à 4000 BIT?[pause]
+      - Oui, 4000 BIT.[pause]
+      - Non, je passe.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Très bien ! \n4000 BIT ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Ouah ! \n4000 BIT ![pause][\\x0203]Quelqu'un à \nplus de 4000 \nBIT ?[pause]"
+      - "[\\x0207]M. Smith[\\x0207]Une fois...,\ndeux fois...[pause][\\x0203]La Lame de Ronin\nest vendue  \n4000 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207][\\x020902]3Oui ! J'ai \nla Lame de\nRonin ![pause]"
+      - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nallons[-4]y.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3C'est trop...\n...et je veux \nd'autres objets.[pause][\\x0203]Je reviendrai quand \nj'aurai plus \nd'argent.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]M. Smith[\\x0207]A vous de jouer ! \nLe clou de la vente ![pause][\\x0203]La Visée Sniper, \nadmirée par tous ![pause][\\x0203]Cet outil exclusif de \nMonmon est proposé \nà 4000 BIT au départ ![pause]"
+      - '[\x0207]Marchand Abel[\x0207]4500 BIT ![pause]'
+      - "[\\x0207]Chef Milly[\\x0207]5500 \nBIT ![pause]"
+      - '[\x0207]Masao Fan jeu[\x0207]5900 BIT ![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm. 6000 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Une offre à 6000 BIT?[pause]
+      - Oui, 6000 BIT.[pause]
+      - Non, je passe.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Très bien ! \n6000 BIT ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Ouah ! \n6000 BIT ![pause][\\x0203]Quelqu'un à \nplus de 6000 \nBIT ?[pause]"
+      - "[\\x0207]M. Smith[\\x0207]Personne...,\nsemble[-4]t[-4]il...[pause][\\x0203]La Visée Sniper\nest vendue  \n6000 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207][\\x020902]3Oui ! J'ai \nla Visée\nSniper ![pause]"
+      - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \non peut y aller.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3C'est trop...\n...et je veux \nd'autres objets.[pause][\\x0203]Je reviendrai quand \nj'aurai plus \nd'argent.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]M. Smith[\\x0207]A vous de jouer ! \nLe clou de la vente ![pause][\\x0203]Le Diadème Divin, \nadmiré par tous ![pause][\\x0203]Ce diadème exclusif de \nPatamon est proposé \nà 4000 BIT au départ ![pause]"
+      - '[\x0207]Marchand Abel[\x0207]4500 BIT ![pause]'
+      - "[\\x0207]Chef Milly[\\x0207]5500 \nBIT ![pause]"
+      - '[\x0207]Masao Fan jeu[\x0207]5900 BIT ![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm. 6000 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Une offre à 6000 BIT?[pause]
+      - Oui, 6000 BIT.[pause]
+      - Non, je passe.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Très bien ! \n6000 BIT ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Ouah ! \n6000 BIT ![pause][\\x0203]Quelqu'un à \nplus de 6000 \nBIT ?[pause]"
+      - "[\\x0207]M. Smith[\\x0207]Personne...,\nsemble[-4]t[-4]il...[pause][\\x0203]Le Diadème Divin\nest vendu  \n6000 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207][\\x020902]3Oui ! J'ai \nle Diadème\nDivin ![pause]"
+      - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \non peut y aller.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3C'est trop...\n...et je veux \nd'autres objets.[pause][\\x0203]Je reviendrai quand \nj'aurai plus \nd'argent.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]M. Smith[\\x0207]A vous de jouer ! \nLe clou de la vente ![pause][\\x0203]Le Heaume Hardi, \nadmiré par tous ![pause][\\x0203]Ce heaume exclusif  \nd'Agumon est proposé \nà 7000 BIT au départ ![pause]"
+      - '[\x0207]Marchand Abel[\x0207]8000 BIT ![pause]'
+      - "[\\x0207]Chef Milly[\\x0207]8300 \nBIT ![pause]"
+      - '[\x0207]Masao Fan jeu[\x0207]8600 BIT ![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm. 8700 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Une offre à 8700 BIT?[pause]
+      - Oui, 8700 BIT.[pause]
+      - Non, je passe.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Très bien ! \n8700 BIT ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Ouah ! \n8700 BIT ![pause][\\x0203]Quelqu'un à \nplus de 8700 \nBIT ?[pause]"
+      - "[\\x0207]M. Smith[\\x0207]Une fois, deux\nfois, ...\nADJUGE ![pause][\\x0203]Le Heaume Hardi\nest vendu  \n8700 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207][\\x020902]3Oui ! J'ai \nle Heaume\nHardi ![pause]"
+      - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \non peut y aller.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3C'est trop...\n...et je veux \nd'autres objets.[pause][\\x0203]Je reviendrai quand \nj'aurai plus \nd'argent.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]M. Smith[\\x0207]A vous de jouer ! \nLe clou de la vente ![pause][\\x0203]Le Heaume de Ronin \nadmiré par tous ![pause][\\x0203]Ce heaume exclusif  \nde Kotemon est proposé \nà 7000 BIT au départ ![pause]"
+      - '[\x0207]Marchand Abel[\x0207]8000 BIT ![pause]'
+      - "[\\x0207]Chef Milly[\\x0207]8300 \nBIT ![pause]"
+      - '[\x0207]Masao Fan jeu[\x0207]8600 BIT ![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm. 8700 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Une offre à 8700 BIT?[pause]
+      - Oui, 8700 BIT.[pause]
+      - Non, je passe.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Très bien ! \n8700 BIT ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Ouah ! \n8700 BIT ![pause][\\x0203]Quelqu'un à \nplus de 8700 \nBIT ?[pause]"
+      - "[\\x0207]M. Smith[\\x0207]Personne, \nsemble[-4]t[-4]il ![pause][\\x0203]Le Heaume de\nRonin est vendu  \n8700 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207][\\x020902]3Oui ! J'ai \nle Heaume\nde Ronin ![pause]"
+      - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nallons l'essayer.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3C'est trop...\n...et je veux \nd'autres objets.[pause][\\x0203]Je reviendrai quand \nj'aurai plus \nd'argent.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]M. Smith[\\x0207]A vous de jouer ! \nLe clou de la vente ![pause][\\x0203]La Tenue YinYang, \nadmirée par tous ![pause][\\x0203]Cet habit exclusif de \nRenamon est proposé à\n10000 BIT au départ ![pause]"
+      - '[\x0207]Marchand Abel[\x0207]10900 BIT ![pause]'
+      - "[\\x0207]Chef Milly[\\x0207]11200 \nBIT ![pause]"
+      - '[\x0207]Masao Fan jeu[\x0207]11400 BIT ![pause]'
+      - "[\\x0207][\\x020902]3Hmm. 11500 \nBIT...hmmm...[pause]"
+  - strings:
+      - ''
+      - Une offre à 11500 BIT?[pause]
+      - Oui, 11500 BIT.[pause]
+      - Non, je passe.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Très bien ! \n11500 BIT ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Ouah ! \n11500 BIT ![pause][\\x0203]Quelqu'un à \nplus de 11500 \nBIT ?[pause]"
+      - "[\\x0207]M. Smith[\\x0207]Dernière chance,\nPersonne...,\nPersonne ?[pause][\\x0203]La Tenue YinYang\nest vendue  \n11500 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207][\\x020902]3Oui ! J'ai \nla Tenue\nYinYang ![pause]"
+      - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \non peut y aller.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3C'est trop...\n...et je veux \nd'autres objets.[pause][\\x0203]Je reviendrai quand \nj'aurai plus \nd'argent.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]M. Smith[\\x0207]A vous de jouer ! \nLe clou de la vente ![pause][\\x0203]L'Armure de Ronin, \nadmirée par tous ![pause][\\x0203]Cet armure exclusive de \nKotemon est proposée à\n16000 BIT au départ ![pause]"
+      - '[\x0207]Marchand Abel[\x0207]16900 BIT ![pause]'
+      - "[\\x0207]Chef Milly[\\x0207]17000 \nBIT ![pause]"
+      - '[\x0207]Masao Fan jeu[\x0207]17400 BIT ![pause]'
+      - "[\\x0207][\\x020902]3Hmm. 17500 \nBIT...hmmm...[pause]"
+  - strings:
+      - ''
+      - Une offre à 17500 BIT?[pause]
+      - Oui, 17500 BIT.[pause]
+      - Non, je passe.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Très bien ! \n17500 BIT ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Ouah ! \n17500 BIT ![pause][\\x0203]Quelqu'un à \nplus de 17500 \nBIT ?[pause]"
+      - "[\\x0207]M. Smith[\\x0207]Personne ne\nveut renchérir ?[pause][\\x0203]L'Armure de Ronin\nest vendue  \n17500 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207][\\x020902]3Oui ! J'ai \nl'Armure\nde Ronin ![pause]"
+      - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nvoyons son effet.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3C'est trop...\n...et je veux \nd'autres objets.[pause][\\x0203]Je reviendrai quand \nj'aurai plus \nd'argent.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]M. Smith[\\x0207]A vous de jouer ! \nLe clou de la vente ![pause][\\x0203]La Tenue Sauvage, \nadmirée par tous ![pause][\\x0203]Cet habit exclusif de \nKunamon est proposé à\n23000 BIT au départ ![pause]"
+      - '[\x0207]Marchand Abel[\x0207]23500 BIT ![pause]'
+      - "[\\x0207]Chef Milly[\\x0207]23800 \nBIT ![pause]"
+      - '[\x0207]Masao Fan jeu[\x0207]23900 BIT ![pause]'
+      - "[\\x0207][\\x020902]3Hmm. 24000 \nBIT...hmmm...[pause]"
+  - strings:
+      - ''
+      - Une offre à 24000 BIT?[pause]
+      - Oui, 24000 BIT.[pause]
+      - Non, je passe.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Très bien ! \n24000 BIT ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Ouah ! \n24000 BIT ![pause][\\x0203]Quelqu'un à \nplus de 24000 \nBIT ?[pause]"
+      - "[\\x0207]M. Smith[\\x0207]Si personne ne\nveut renchérir...[pause][\\x0203]La Tenue Sauvage\nest vendue  \n24000 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207][\\x020902]3Oui ! J'ai \nla Tenue\nSauvage ![pause]"
+      - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nvoyons ça.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3C'est trop...\n...et je veux \nd'autres objets.[pause][\\x0203]Je reviendrai quand \nj'aurai plus \nd'argent.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]M. Smith[\\x0207]Oin oink oooink ![pause][\\x0203]Oink, oin, ooink ![pause][\\x0203]Oin, ooink, ooin oi \noiin oinko ![pause][\\x0203]Oi oinioi oinoink\noinnk oin oinkk oi\n30000 BIT ![pause]"
+      - |-
+        [\x0207]Marchand Abel[\x0207]Oioi !
+        31000 BIT ![pause]
+      - "[\\x0207]Chef Milly[\\x0207]Oioi\n31500 \nBIT ![pause]"
+      - |-
+        [\x0207]Masao Fan jeu[\x0207]Oin oi
+        31900 BIT ![pause]
+      - "[\\x0207][\\x020902]3Hmm. 32000 \nBIT...hmmm...[pause]"
+  - strings:
+      - ''
+      - Une offre à 32000 BIT?[pause]
+      - Oui, 32000 BIT.[pause]
+      - Non, je passe.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Très bien ! \n32000 BIT ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Oink ! \n32000 BIT ![pause][\\x0203]Oinoink, oink \n32000 BIT ?[pause]"
+      - |-
+        [\x0207]M. Smith[\x0207]Oin oink oioink
+        oink oioink oink.[pause][\x0203]Oioi Oink nk
+        oionko 32000 BIT [pause][\x0203]Oinkoinnnk
+        oi oink oi oiii ![pause][\x0203]Oi oinkoo
+        oinoiko oin
+        oioinnnk oink ![pause]
+      - "[\\x0207][\\x020902]3Oui ! J'ai \nl'Oioi Oink ![pause]"
+      - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nvoyons ça.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3C'est trop...\n...et je veux \nd'autres objets.[pause][\\x0203]Je reviendrai quand \nj'aurai plus \nd'argent.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Hé !\nL'ascenseur \nbouge ![pause]"
+  - strings:
+      - ''
+      - '[\x0207][\x020902]3C''est assez drôle.[pause]'

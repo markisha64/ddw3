@@ -1,0 +1,80 @@
+type: extended
+files:
+  - strings:
+      - ''
+      - "[\\x0207]Cardster Ken[\\x0207]I'll display \nthe info on \nyour satellite...[pause]"
+      - "\"Card Battle\"\nThis is fighting by means of a\ncard game.[pause][\\x0203]Create your own deck from over \n300 cards and battle with other\ntamers.[pause][\\x0203]\"Cards\"\nThere are 314 cards in total. \nYou can own up to nine of each.[pause][\\x0203]There are two types of cards: \nProgram Cards and Digimon Cards.[pause]"
+      - "\"Digimon Card\"\nCards to summon Digimon.[pause][\\x0203]There are two numbers on this card: \nAP and HP.[pause][\\x0203]AP is attack power and HP is \nhit points. When HP is zero, that\nDigimon will go to the trash.[pause][\\x0203]5/3 means 5 AP and 3 HP.[pause][\\x0203]\"Program Card\"\nPG cards attack your opponent's\nhand or strengthen your own.[pause][\\x0203]There are different effects for\neach card. Read each card for \ninformation about its effect.[pause]"
+      - "\"Folders\"\nCreate a folder with 40 cards before \na battle.[pause][\\x0203]Folders are required to battle. You \ncan put up to four of the same card\nin a single folder.[pause][\\x0203]\"Setup for Card Battle\"\nWhoever wins two sets first will win\nthe battle.[pause][\\x0203]Select a folder before the battle, \nwhich will be your deck. Once you \nchoose, the battle begins.[pause][\\x0203]One set is comprised of six phases.\nI will now explain each of the phases.[pause]"
+      - "\"Start Phase\"\nDetermine who goes first. Whoever\ndraws Calumon will go first.[pause][\\x0203]\"Draw Phase\"\nSix cards will be drawn from the \ndeck and into your hand.[pause][\\x0203]If you cannot draw six cards in this \nphase, you lose. During the battle \nyour hand can have 10 cards max.[pause]"
+      - "\"Load Phase\"\nSelect a PG Card to prepare\nfor Summon Phase.[pause][\\x0203]Continue switching turns until both \nplayers pass. There are certain\nPG Cards you cannot use here.[pause][\\x0203]\"Summon Phase\"\nSelect a Digimon Card to summon\na Digimon.[pause][\\x0203]You can summon up to six to the \nfield. S[-4]Energy is required to \nsummon Digimon above Rookies.[pause]"
+      - "\"Compile Phase\"\nUse your PG Card for different \neffects.[pause][\\x0203]Continue switching turns until both \nplayers pass. All PG Cards can be \nused here.[pause][\\x0203]\"Battle Phase\"\nDigimon fight to decide the\nvictor.[pause][\\x0203]Winner is decided by comparing AP \nand HP points. The one with zero\nHP is the loser.[pause][\\x0203]That is the end of one set. The\nwinner of two sets wins the battle. \nYou get a booster pack if you win.[pause]"
+      - "[\\x0207]Cardster Ken[\\x0207]That's about all of\nthe rules.[pause][\\x0203]If you wanna know \nmore, ask Luke.\nHave fun![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Collector Luke[\\x0207]OK, I'm sending \ndata to your \nsatellite.[pause]"
+      - "\"S[-4]Energy\"\nThe cards are: White, Blue, Green, \nRed, Black, and Brown.[pause][\\x0203]S[-4]Energy increases when you\ndraw a card from the deck with\nthat color.[pause][\\x0203]S[-4]Energy is used when summoning \nDigimon above Rookie level.[pause][\\x0203]\"S[-4]Energy for Summoning\"\nWhen summoning Digimon, S[-4]Energy\nwith the same color is required.[pause][\\x0203]Champion Digimon: one point.\nUltimate Digimon: two points.\nMega Digimon: three points.[pause][\\x0203]Rookie Digimon can be summoned\nwithout S[-4]Energy.[pause]"
+      - "\"Combos\"\nA combo is when there are more than\nthree of the same card in the field.[pause][\\x0203]The total amount of the combo \ncards will be added. If there are\nmore than four, there is a bonus.[pause][\\x0203]\"Collecting Cards\"\nWhen you win the battle, you get\na booster. Boosters contain cards.[pause][\\x0203]You can receive boosters if you\nwin against tamers.[pause][\\x0203]There is also a rumor that a \nparticular Digimon has them.[pause][\\x0203]\"Cardmon\"\nThere is a Digimon called Cardmon \nhiding in this world.[pause][\\x0203]If you defeat Cardmon you can get \nboosters. It may hide in the trees\nor water.[pause]"
+      - "\"Freeze Bug\"\nFreeze Bug is a Blue PG Card.[pause][\\x0203]When you use it after an opponent's\nPG Card, you can trash that card\nbefore it executes.[pause][\\x0203]It is a powerful card, so if you get \nit, put it in your folder.[pause][\\x0203]\"Rumors of Special Cards\"\nThere is a rumor of special cards \nnot included in the boosters.[pause][\\x0203]The rumor is that some tamer has it.\nLook for it and get it![pause]"
+      - "[\\x0207]Collector Luke[\\x0207]Don't try to memorize \nit all now, but learn it\ngradually by experience.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Divermon[\\x0207]Then I'll give you\na Folder Bag.[pause][\\x0203]You can insert \nthree Folders that\nyou've created.[pause]"
+      - "[\\x0207][\\x020902]3Folder?\nWhat's a \nFolder??[pause]"
+      - "[\\x0207]Divermon[\\x0207]A Folder is a set of \n40 cards that you\nput together.[pause][\\x0203]You can put up to \nfour of the same \ncard in a set.[pause]"
+      - |-
+        [\x0207][\x020902]3Set of cards?
+        What do you do
+        with those??[pause]
+      - "[\\x0207]Divermon[\\x0207]!!\nYou're impossible![pause][\\x0203]To Card Battle!\nYou battle other \nplayers.[pause][\\x0203]You draw cards, put\nDigimon in the \nfield and battle![pause][\\x0203]Look there!\nThere's someone in\nthe heat of battle.[pause]"
+      - "[\\x0207]Tamer Nacky[\\x0207]I drew Calumon, so \nI'm first.[pause][\\x0203]It's Draw Phase, so \nI'll take six from my \nDeck...[pause][\\x0203]Yeah! I've got \ngood cards![pause]"
+      - "[\\x0207]Tamer Nacky[\\x0207]Now it's Load \nPhase, so I can put\nout a Program Card...[pause][\\x0203]...Oh?\nI'll... pass.[pause]"
+      - |-
+        [\x0207]Tamer Steve[\x0207]Hmm...
+        I'll pass too.[pause]
+      - "[\\x0207]Tamer Nacky[\\x0207]We both passed, so \nthat's the end of \nLoad Phase.[pause][\\x0203]Next, Summon Phase!\nLet's show our cards \ntogether![pause]"
+      - "[\\x0207]Tamer Steve[\\x0207]All right, \nat the \nsame time![pause]"
+      - "[\\x0207]Tamer Nacky[\\x0207]I've got two Hawkmon, \ntwo Agumon, and \ntwo Meramon![pause]"
+      - |-
+        [\x0207]Tamer Steve[\x0207]I have one
+        Candlemon![pause]
+      - |-
+        [\x0207]Tamer Nacky[\x0207]What?!
+        Are you making
+        fun of me?![pause]
+      - "[\\x0207]Tamer Steve[\\x0207]No... \nI have a plan.[pause][\\x0203]A true tamer \nalways battles\nwith the full deck.[pause]"
+      - "[\\x0207]Tamer Gloria[\\x0207]I'll make Fire\nCannon, against \nmy Renamon...[pause][\\x0203]...obsolete\nwith Freeze Bug.\nSo what's next?[pause]"
+      - "[\\x0207]Tamer Wong[\\x0207]Hmmm, you \nhad Freeze\nBug...[pause][\\x0203]Can't do \nanything...\nI pass.[pause]"
+      - |-
+        [\x0207]Tamer Gloria[\x0207]It's a Blue Folder,
+        so I have four
+        Freeze Bug.[pause][\x0203]OK, I'll pass too.
+        So that's the end of
+        Compile Phase.[pause]
+      - "[\\x0207]Tamer Wong[\\x0207]Hmmm...\nThen it's \nBattle Phase...[pause][\\x0203]Let's add up the AP \nand HP of our\nDigimon.[pause][\\x0203]I've got 1 Growlmon,\n18 AP, 20 HP...[pause]"
+      - "[\\x0207]Tamer Gloria[\\x0207]I have three Renamon\nat four AP, four HP,\nso 12 AP and HP total.[pause][\\x0203]But it's three cards, \nso at 12 AP, 12 HP,\nTaomon is summoned.[pause]"
+      - "[\\x0207]Tamer Wong[\\x0207]......\nAww, that's right.[pause][\\x0203]So your AP and HP \nis now 24 and 24...\nSo you win...[pause]"
+      - "[\\x0207]Tamer Gloria[\\x0207]Yes, I win![pause][\\x0203]But a battle is \nbest 2 of 3, so \nit's not over yet![pause]"
+      - "[\\x0207]Divermon[\\x0207]See?\nIt's very exciting...[pause][\\x0203]I don't think you'll get \nthere that fast but...[pause][\\x0203]Here's a Folder Bag\nthat'll fit three \nfolders.[pause][\\x0203]I'll give you my \nCustomized Practice\nFolder too.[pause]"
+      - "[\\x0207][\\x020902]3Wow!\nThanks!\nI'll try my best![pause][\\x0203]But I'm clueless \non what they were \ntalking about...[pause]"
+      - "[\\x0207]Divermon[\\x0207]Talk to Ken or Luke. \nThey'll show you.[pause][\\x0203]As your partner\nimproves you can \nbattle everyone.[pause][\\x0203]A good player is also \na good tamer.[pause][\\x0203]So tamers with \nstrong partners \nbattle a lot.[pause]"
+      - "[\\x0207][\\x020902]3OK! Thanks for \neverything \nDivermon![pause]"
+      - |-
+        [\x0207]Divermon[\x0207]Good luck.
+        See ya...[pause]
+  - strings:
+      - ''
+      - "[\\x0207]Cardster Ken[\\x0207]OK, talk to me \nwhen you feel \nlike listening![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Collector Luke[\\x0207]If you want to \nhear about it, \ncome talk to me.[pause]"
+  - strings:
+      - ''
+      - Listen to basic card rules?
+      - Yes, I'd love to!
+      - No, not yet.
+  - strings:
+      - ''
+      - Listen to card rules?
+      - Yes I'd love to!
+      - No, not yet.

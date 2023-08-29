@@ -1,0 +1,362 @@
+type: simple
+strings:
+  - ''
+  - |-
+    Lege alle Digimon, die
+    nicht weiβ sind, ab.
+  - |-
+    Lege in der Sammel[-4]Phase
+    2 Angemon in das Feld.
+  - |-
+    Addiere 10 zu AP & HP
+    des eigenen Digimon hinzu.
+  - |-
+    Erhöhe HP eines Digimon
+    um 30.
+  - |-
+    Nimm 1 Punkt der
+    weiβen S[-4]Energie.
+  - |-
+    Lege in der Sammel[-4]Phase
+    Patamon in das Feld.
+  - |-
+    Nehme die nicht blauen
+    Digimon in jedes Blatt auf.
+  - |-
+    Nimm dir einen Digimon des
+    Gegners vom Feld.
+  - |-
+    Lege eine gerade gezogene
+    Prog.[-4]Karte ab.
+  - |-
+    Nimm 1 Digimon wieder
+    in dein Blatt auf.
+  - |-
+    Nimm 1 Punkt der
+    blauen S[-4]Energie.
+  - |-
+    Lege in der Sammel[-4]Phase
+    Goamom in das Feld.
+  - |-
+    Addiere 50 zu AP & HP
+    der eig. gr. Digi[-4]Karte.
+  - |-
+    Nimm 1 Karte aus der Abl.
+    auf die Hand. Nur einmal.
+  - |-
+    Nimm 2 Punkte der
+    grünen S[-4]Energie.
+  - |-
+    Addiere 20 zu AP & HP
+    eines Digimon.
+  - |-
+    Nimm 1 Punkt der
+    grünen S[-4]Energie.
+  - |-
+    Lege in der Sammel[-4]Phase
+    Palmon in das Feld.
+  - |-
+    60 Schadenspunkte für
+    alle nicht roten Digi.
+  - |-
+    Lege alle braunen
+    Digimon ab.
+  - |-
+    15 Schadenspunkte für
+    alle Digimon.
+  - |-
+    30 Schadenspunkte für
+    ein Gegner[-4]Digimon.
+  - |-
+    Nimm 1 Punkt der
+    roten S[-4]Energie.
+  - |-
+    Lege in der Sammel[-4]Phase
+    Goburimon in das Feld.
+  - "Lege alle nicht schwarzen \nKarten des Gegnerbl. ab."
+  - |-
+    Nimm 1 Karte vom Stapel
+    auf die Hand.
+  - |-
+    Lege eine nicht schwarze
+    Karte ab.
+  - |-
+    Lege eine Karte des
+    Gegnerblatts ab.
+  - |-
+    Nimm 1 Punkt der
+    schwarzen S[-4]Energie.
+  - |-
+    Lege in der Sammel[-4]Phase
+    Devimon in das Feld.
+  - Lege alle Digimon ab.
+  - |-
+    Tausche alle AP & HP
+    der bd. Spieler aus.
+  - |-
+    Lege 3 Karten aus dem
+    Gegnerstapel in die Ablage.
+  - |-
+    Lege das ganze Blatt ab.
+    Ziehe 6 Karten vom Stapel.
+  - Ganze S[-4]Energie auf Null.
+  - |-
+    Lege alle Karten der
+    Ablage auf den Stapel.
+  - |-
+    Beide Spieler haben
+    3 Karten auf der Hand.
+  - |-
+    Lege 5 Karten des Gegner[-4]
+    stapels in die Ablage.
+  - Gegner[-4]AP auf Null.
+  - |-
+    Lege in Sammel[-4]Phase 1
+    Digi. dein. Blatts in Feld.
+  - |-
+    Addiere 30 zu AP & HP
+    eines braunen Digimon.
+  - |-
+    Ziehe 2 Karten vom Stapel.
+    Nimm sie auf die Hand.
+  - |-
+    Wähle 1 Digi. vom Stapel
+    u. nimm ihn auf die Hand.
+  - |-
+    Wähle 1 PG[-4]Karte vom Sta[-4]
+    pel, nimm ihn auf Hand.
+  - |-
+    Ziehe 1 Karte vom Stapel.
+    Lege 1 Karte von Hand ab
+  - |-
+    Lege 2 Karten des Gegner[-4]
+    stapels ab.
+  - |-
+    30 Schadenspunkte für 1
+    braunen Gegner[-4]Digimon.
+  - |-
+    Lege eine gerade gezogene
+    braune PG[-4]Karte ab.
+  - |-
+    Lege 1 braunes Digimon
+    des Gegner[-4]Blatts ab.
+  - |-
+    Lege in der Sammel[-4]Phase
+    2 Hagurumon ins Feld.
+  - |-
+    Ziehe 2 Punkte von weiβer
+    S[-4]Energie des Gegners ab.
+  - |-
+    Ziehe 2 Punkte von blauer
+    S[-4]Energie des Gegners ab.
+  - |-
+    Ziehe 2 Punkte von grüner
+    S[-4]Energie des Gegners ab.
+  - |-
+    Ziehe 2 Punkte von roter
+    S[-4]Energie des Gegners ab.
+  - |-
+    Ziehe 2 Punkte von schw.
+    S[-4]Energie des Gegners.
+  - |-
+    Nimm einen braunen Digimon
+    wieder auf die Hand.
+  - |-
+    Addiere 10 zu AP, subtr.
+    10 von HP für 1 Digimon.
+  - |-
+    Lege 1 braunes Digimon
+    vom Feld in die Ablage.
+  - Add. 10 zu HP für Digi.
+  - Add. 10 zu AP für Digi.
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    Multipl. AP & HP 20 x mit
+    Zahl deines Digi. im Feld.
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    Add. 10fache der Anzahl
+    Blatt[-4]Karten zu AP & HP.
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    Add. 20fache der Anzahl
+    Ablage[-4]Karten zu AP & HP
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    Multipl. AP & HP 10 x mit
+    Zahl aller Digi. im Feld.
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    Add. 10fache der Anzahl
+    Ablage[-4]Karten zu AP & HP

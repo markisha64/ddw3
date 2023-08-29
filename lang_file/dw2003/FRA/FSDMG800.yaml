@@ -1,0 +1,263 @@
+type: extended
+files:
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Tiens ? Voilà
+        un autre bouton.[pause][\x0203]Qu'est[-4]ce que
+        je fais ? Allez,
+        j'appuie ![pause]
+      - |-
+        [\x0207][\x020902]3Hm, rien ne
+        se passe.[pause][\x0203]Bon, je dois aller
+        trouver l'AoA ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Attends ! Je ne te
+        laisserai pas lancer
+        le Juggernaut ![pause]
+      - |-
+        [\x0207]Soldat Robot[\x0207]GGzzz ! GGzzz !
+        Alerte intrus !
+        Alerte intrus ![pause][\x0203]Suppression ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Gagné !
+        Je suis le
+        maître ![pause]
+      - |-
+        [\x0207][\x020902]3Tiens ?! Il y a
+        Quelque chose
+        par terre.[pause][\x0203]Une arme
+        de Veemon ![pause][\x0203]Génial ! J'ai le
+        Dramon Guard ![pause]
+      - |-
+        [\x0207][\x020902]3Oh là ! Je n'ai
+        pas le temps.[pause][\x0203]Je dois empêcher
+        le lancement
+        du Juggernaut ![pause]
+      - |-
+        [\x0207][\x020902]3Hm, quel bouton ?
+        ... ... Là !
+        C'est celui[-4]là ![pause]
+      - |-
+        [\x0207][\x020902]3Tiens ? Rien ne
+        se passe ? Mais si
+        l'AoA était ici... [pause][\x0203]Ceci devrait stopper
+        le lancement du
+        Juggernaut ![pause]
+      - "A TOUT LE PERSONNEL DE MAGASTA\nLE BATIMENT SSS JUGGERNAUT\nEST PRESQUE RECHARGE... [pause][\\x0203]TOUT LE PERSONNEL DE LA BASE\nDOIT S'ABRITER. JE REPETE... \nSSS...  NAUT...  PRESQUE...[pause]"
+      - |-
+        [\x0207][\x020902]3... Qu...quoi ?
+        Pourquoi ça
+        ne s'arrête pas ?[pause][\x0203]C'était un
+        piège ![pause][\x0203]Alors l'AoA
+        n'est pas
+        ici ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Hé, là ! Arrêtez
+        le lancement tout
+        de suite ![pause][\x0203]Je ne vais pas
+        vous laisser faire
+        ça ![pause]
+      - |-
+        [\x0207]Garde Royal[\x0207]Ha ha ha ! Ce
+        gamin nous
+        dit d'arrêter ![pause][\x0203]Qu'est[-4]ce que
+        tu crois ?[pause]
+      - |-
+        [\x0207][\x020902]3Je vous
+        forcerai à
+        arrêter ![pause]
+      - |-
+        [\x0207]Garde Royal[\x0207]Ha ha ha !
+        Tu es
+        sérieux ?[pause][\x0203]Essaie un peu
+        pour voir ![pause]
+      - "[\\x0207]Garde Royal[\\x0207]Système prêt... \nC'est parti ![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3J'ai gagné !
+        Je suis le
+        meilleur ![pause][\x0203]Je dois
+        arrêter le
+        Juggernaut ![pause][\x0203]Tiens ? Il y a
+        quelque chose
+        par terre.[pause]
+      - |-
+        [\x0207][\x020902]3Quoi ? Le champ
+        électromagné[-4]
+        tique est parti ![pause]
+      - |-
+        PRET POUR LE
+        LANCEMENT ![pause][\x0203]JUGGERNAUT
+        LANCE ![pause]
+      - |-
+        [\x0207][\x020902]3Quoi ?![pause][\x0203]Je dois
+        l'arrêter ![pause]
+      - |-
+        [\x0207][\x020902]3Que faire ? Le
+        Juggernaut est en
+        train de partir ![pause]
+      - |-
+        [\x0207][\x020902]3... Hein ?![pause][\x0203]Rien à faire
+        Je n'arrive pas
+        à l'arrêter ![pause]
+      - |-
+        [\x0207][\x020902]3Super ! Un
+        Heaume ailé ![pause]
+  - strings:
+      - ''
+      - |-
+        PRET POUR LE
+        LANCEMENT ![pause][\x0203]JUGGERNAUT
+        LANCE ![pause]
+      - |-
+        [\x0207]Garde Royal[\x0207]Ha ha ha !
+        C'est
+        un succès ![pause]
+      - |-
+        [\x0207]Garde Royal[\x0207]Maintenant, va,
+        Juggernaut ![pause][\x0203]Sème la terreur et
+        la destruction dans
+        ce monde absurde ![pause]
+      - |-
+        [\x0207]Garde Royal[\x0207]La barrière
+        électromagnétique
+        doit être levée ![pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Ce panneau est\nanimé, cela devrait \néliminer le bloc...[pause]"
+      - |-
+        [\x0207][\x020902]3Hmm, le bloc
+        est[-4]il parti,
+        à présent ?[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Ce panneau est\nanimé, cela devrait \néliminer le bloc...[pause]"
+      - |-
+        [\x0207][\x020902]3Hmm, le bloc
+        est[-4]il parti,
+        à présent ?[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Ce panneau est\nanimé, cela devrait \néliminer le bloc...[pause]"
+      - |-
+        [\x0207][\x020902]3Hmm, le bloc
+        est[-4]il parti,
+        à présent ?[pause]
+  - strings:
+      - ''
+      - "[\\x0207]Soldat métallique[\\x0207]Bip, bip ![pause][\\x0203]Alerte intrus !\nAlerte intrus ![pause][\\x0203]Intrus à éliminer des \nlocaux ![pause]"
+      - |-
+        [\x0207][\x020902]3Allons,
+        homme[-4]conserve,
+        viens te battre ![pause]
+  - strings:
+      - ''
+      - "[\\x0207]Soldat métallique[\\x0207]Alerte intrus !\nAlerte intrus ![pause][\\x0203]Intrus à éliminer des \nlocaux ![pause]"
+      - |-
+        [\x0207][\x020902]3Allez, viens !
+        Je vais te botter
+        le derrière ![pause]
+  - strings:
+      - ''
+      - |-
+        HA ha ha ha ha
+        Que peux[-4]tu faire, misérable ![pause][\x0203]Moi, Lord Megadeath, j'ai passé
+        le téléporteur ![pause][\x0203]Viens à présent ! Meilleur dresseur !
+        Viens goûter ma force ![pause]
+      - |-
+        [\x0207][\x020902]3Oui, c'est ça ![pause][\x0203]Beaucoup de blabla
+        et peu d'actes ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Qu...qu'est[-4]ce
+        qu'il se passe ?[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Vite ! Il faut vaincre \nLord Megadeath et \nsauver tout le monde ![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Qu[-4]qu'est \nce que ?[pause]"
+  - strings:
+      - ''
+      - |-
+        Te voilà enfin, le
+        meilleur de tous
+        les dresseurs ![pause]
+      - "[\\x0207][\\x020902]3Lord \nMegadeath !\nQui es[-4]tu ?![pause]"
+      - "Je suis une forme de vie \nnumérique née dans le réseau...[pause][\\x0203]Et je vais devenir le maître de\ntous les mondes, à la place \ndes humains.[pause]"
+      - "[\\x0207][\\x020902]3C'est pour ça \nque tu as créé\nl'A.o.A ?[pause]"
+      - "Oui. Pour créer le plus \npuissant Digimon, le fidèle\nSnatchmon ![pause]"
+      - "[\\x0207][\\x020902]3Snatchmon ? !\nJamais entendu \nparler ![pause]"
+      - "...Snatchmon naît quand Vemmon \nabsorbe beaucoup de données\nmatrix et digivolve.[pause][\\x0203]Tu as bien vu ceux qui ont eu \nleurs données Matrix aspirées \net ont été transformés en Digimon.[pause]"
+      - "[\\x0207][\\x020902]3Quoi...?!\nLes Oinkmons, \nc'est donc ça ?[pause]"
+      - "Quand Gunslinger lancera la \nDigionde...[pause][\\x0203]...les données matrix de toute \nforme vie seront transmises...[pause][\\x0203]... Snatchmon deviendra\nalors le plus puissant Digimon ![pause][\\x0203]...et moi, son dresseur, je  \nferai régner la peur et le \ndésespoir ![pause]"
+      - |-
+        [\x0207][\x020902]3Tu parles !
+        N'y compte pas ![pause]
+      - "C'est bien pour cela \nque tu dois te battre.[pause][\\x0203]Pour que je te montre\nqui est le meilleur ![pause]"
+      - |-
+        [\x0207][\x020902]3Oui, c'est ça.
+        Amène[-4]toi ![pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Alors, Lord \nMegadeath ![pause][\\x0203]Tu penses \nencore\nêtre invincible ?[pause]"
+      - ".. Eh bien... Ce\nn'était qu'un test...[pause][\\x0203]Il me reste le plus \npuissant des Digimons, \nSnatchmon...[pause][\\x0203]Bientôt, tu sauras \nce que signifie le \nmot terreur...[pause]"
+      - |-
+        [\x0207][\x020902]3Hé, tu
+        n'abandonnes
+        pas ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Snatchmon[\x0207]Je suis Snatchmon,
+        à jamais le meilleur
+        des Digimons.[pause]
+      - "Allez, Snatchmon ! \nAnéantis ces humains \nstupides !![pause]"
+      - |-
+        [\x0207][\x020902]3Allez, viens !
+        Je t'attends ![pause]
+      - "[\\x0207]Snatchmon[\\x0207]Qui es tu pour\nme donner \ndes ordres ?[pause]"
+      - |-
+        ...mais que dis[-4]tu ?!
+        Je suis ton dresseur ![pause]
+      - "[\\x0207]Snatchmon[\\x0207]...Dresseur ?\nJe n'en ai pas \nbesoin...[pause][\\x0203]Je suis le meilleur\nDigimon ! Je n'obéis\nà personne ![pause]"
+      - "Qu[-4]quoi !\nPour qui me  \nprends[-4]tu...?![pause]"
+      - |-
+        [\x0207]Snatchmon[\x0207]Peu importe qui m'a
+        créé... Je vais...[pause][\x0203]absorber plus de
+        données et devenir
+        plus puissant ![pause][\x0203]A commencer...
+        par toi ![pause]
+      - Qu[-4]quoi ?![pause]
+      - Aaaaaaaaah ![pause]
+      - "[\\x0207][\\x020902]3Hé, c'est quand\nmême le dresseur\nqui t'a élevé ![pause][\\x0203]Dresseurs et  \nDigimons\nne font qu'un ![pause][\\x0203]Nous travaillons \ntoujours ensemble.[pause]"
+      - "[\\x0207]Snatchmon[\\x0207]C'est donc toi...\nTu m'as vaincu \nen Vemmon.[pause][\\x0203]Mais je suis\nde nouveau là ![pause][\\x0203]Et je te montrerai  \nmes nouveaux \npouvoirs ![pause]"
+      - "[\\x0207][\\x020902]3... Quoi ?!\nQue vas[-4]tu \nfaire ?[pause]"
+      - "[\\x0207]Snatchmon[\\x0207]Fusionner avec \nGunslinger pour  \nêtre Galacticmon ![pause]"
+      - '[\x0207][\x020902]3Galacticmon ?[pause]'
+      - "[\\x0207]Snatchmon[\\x0207]Puis, je ne ferai plus \nqu'un avec la Terre ![pause][\\x0203]Pour digivolver en un \nDigimon plus puissant, \nGaiamon ![pause]"
+      - "[\\x0207][\\x020902]3Gaiamon ? Il ne\ns'agira plus juste \ndes humains ![pause][\\x0203]Tout disparaîtra \nsur Terre ![pause]"
+      - "[\\x0207]Snatchmon[\\x0207]Aucune importance,\ntout ce qui compte, \nc'est moi ![pause]"
+      - "[\\x0207][\\x020902]3Je ne te laisserai \npas faire ![pause]"
+      - "[\\x0207]Snatchmon[\\x0207]Alors, essaye de\nme vaincre en \nGalacticmon ![pause]"
+      - |-
+        [\x0207][\x020902]3Tu peux
+        compter
+        sur moi ![pause]
+      - "[\\x0207]Snatchmon[\\x0207]Bien.\nOn se retrouvera\ndans l'espace ![pause][\\x0203]J'enverrai tes\ndonnées matrix.[pause][\\x0203]Regarde[-4]moi\ndigivolver en \nGalacticmon ![pause]"
+      - "Voici Snatchmon !\nQue le monde se couvre \nde ténèbres ![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Oh, non ! 3
+        minutes ont
+        passé ![pause]

@@ -1,0 +1,45 @@
+type: simple
+strings:
+  - ''
+  - Non hai [\x020501].
+  - BIT
+  - COMPRA
+  - VENDI
+  - 'Tasto [triangle]: ind.'
+  - Equip.
+  - Oggetti
+  - X
+  - Equipagg.
+  - 'Tasto [circle]: effetti'
+  - 'Tasto [circle]: dettagli'
+  - '[arrow-right]'
+  - Ordina og.
+  - Per potenza
+  - Per nome
+  - Equipaggiare chi?
+  - Quantità?
+  - '[\x020501] BIT'
+  - Com
+  - No
+  - Equipagg.?
+  - Sì
+  - No
+  - /
+  - L1
+  - R1
+  - BIT insuffic.
+  - Troppi oggetti
+  - Oggetti
+  - Armi
+  - Corazze
+  - Accessori
+  - Quantità?
+  - Ven
+  - Mano dx
+  - Mano sx
+  - Dx o sx
+  - Testa
+  - Corpo
+  - Access.
+  - Due mani
+  - Access.

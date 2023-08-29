@@ -1,0 +1,36 @@
+type: simple
+strings:
+  - ''
+  - Y
+  - C
+  - BIT
+  - 'Tasto [triangle]: ind.'
+  - Compra 1 carta
+  - Apri pacco
+  - Apri cartella
+  - X
+  - /
+  - L1
+  - R1
+  - '[\x020501] BIT'
+  - COM
+  - NO
+  - Quale pacco apri?
+  - Pacco aperto.
+  - FA
+  - PF
+  - BIT insuffic.
+  - Troppe carte
+  - Nessun pacco
+  - Cart. 1
+  - Cart. 2
+  - Cart. 3
+  - Scegli una cartella.
+  - Modifica cartella
+  - Cambia nome
+  - 'R1: spiega carta'
+  - 'R1: non spieg. carta'
+  - |-
+    Massimo quattro carte
+    uguali in una cartella
+  - Tasto [circle]:ord.

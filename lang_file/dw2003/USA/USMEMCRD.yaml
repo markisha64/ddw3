@@ -1,0 +1,61 @@
+type: simple
+strings:
+  - ''
+  - SAVE
+  - Saving
+  - Slot [\x020501]
+  - |-
+    Checking Memory Card.
+    Do not touch Memory Card.
+  - |-
+    Checking file.
+    Do not touch Memory Card.
+  - |-
+    Save here?
+    X Button: Execute [triangle] Button: Back
+  - "Writing over previous data. \nProceed?"
+  - |-
+    Saving
+    Do not touch Memory Card.
+  - Saved.
+  - Memory Card is not inserted.
+  - Memory Card is not formatted.
+  - File cannot be found.
+  - |-
+    There are not enough blocks.
+    [\x020501] blocks are needed to save.
+  - LOAD
+  - Loading
+  - |-
+    Load which block?
+    X Button: Execute    [triangle] Button: Back
+  - |-
+    Loading
+    Do not touch Memory Card.
+  - Loaded.
+  - ':'
+  - LV
+  - BIT
+  - YES
+  - NO
+  - There is no data.
+  - Format Memory Card?
+  - Create new data?
+  - Cannot access Memory Card.
+  - File already exists.
+  - Choose Memory Card Slot.
+  - |-
+    Formatting
+    Do not touch Memory Card.
+  - |-
+    Creating file.
+    Do not touch Memory Card.
+  - '[-4][-4][-4][-4][-4]'
+  - '[-4][-4][-4][-4][-4][-4][-4][-4]'
+  - '[-4][-4][-4][-4][-4][-4][-4]'
+  - '[-4][-4]'
+  - Failed to save.
+  - Failed to save.
+  - Failed to access.
+  - Digimon World 3 Saved Data
+  - Accessing Memory Card Slot [\x020501]

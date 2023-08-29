@@ -1,0 +1,147 @@
+type: simple
+strings:
+  - ''
+  - Lucha
+  - Técnica
+  - DV
+  - Ficha
+  - Artículo
+  - Correr
+  - ¡Emboscada!
+  - ¡Atacar!
+  - '[\x020501]!'
+  - ¡Contador! ¡[\x020501]!
+  - ¡[\x020501] de daño!
+  - X
+  - PM
+  - PV
+  - '[-4][-4][-4]'
+  - /
+  - L1
+  - R1
+  - Nada aprendido.
+  - Sin reserva
+  - Sin artículos.
+  - '[\x020501]'
+  - '[\x020501]・[\x020502]'
+  - '[\x020501]・[\x020502]・[\x020503]'
+  - Hab.
+  - '[-4][-4]'
+  - Cambiar
+  - DV ADN
+  - ¡Evasión!
+  - ¡Envenenado!
+  - ¡Helado!
+  - ¡Confundido!
+  - ¡Dormido!
+  - ¡[\x020501] PV cur.!
+  - '[\x020501] X [\x020502] = [\x020503]!'
+  - '[-4]'
+  - ¡Contador!
+  - Robado
+  - Los PV se recobran gradualmente.
+  - ¡Curado!
+  - ¡Descongelado!
+  - ¡Consciente!
+  - ¡Despierto!
+  - ¡Todos los estados curados!
+  - ¡Restaurado!
+  - ¡En la mejor condición!
+  - ¡Sin efecto!
+  - ¡Fuerza [arrow-up]!
+  - ¡Defensa [arrow-up]!
+  - ¡Velocidad [arrow-up]!
+  - ¡Fuerza [arrow-down]!
+  - ¡Defensa [arrow-down]!
+  - ¡Velocidad [arrow-down]!
+  - ¡Ahorrando Chi!
+  - ¡Digiev.! ¡[\x020501]!
+  - ¡Atrás!
+  - ¡A por ello!
+  - ¡DV ADN!
+  - ¡PV y PM recuperados!
+  - ¡Concentración en ataque!
+  - ¡Conc. en def.!
+  - ¡Efecto especial arriba!
+  - ¡Medidor de golpe arriba!
+  - ¡Excitado!
+  - ¡Corre!
+  - ¡No pudo correr!
+  - ¡Escapar!
+  - ¡No puede esc.!
+  - ¡No puede digievolucionar!
+  - ¡Generando!
+  - ¡Digievolucionado!
+  - ¡Escapado!
+  - ¡Fuerza maldita!
+  - ¡Defensa maldita!
+  - ¡Velocidad maldita!
+  - ¡Fuerza, defensa y vdad. mdtas.!
+  - ¡Retirando Digimon!
+  - ¡Siguiente Digimon fuera!
+  - '[\x020501]!'
+  - ¡KO!
+  - ¡Vencido!
+  - ¡Batalla ganada!
+  - Aniquilado
+  - Sin PM.
+  - 'Envenenado: [\x020501]'
+  - ¡Helado, sin movimiento!
+  - ¡Puede escapar!
+  - ¡Puede digievolucionar!
+  - ¡Efecto especial recuperado!
+  - ¡Sin autorecuperación!
+  - ¡Fuerza normal!
+  - ¡Defensa normal!
+  - ¡Velocidad normal!
+  - Intentando huir.
+  - ¡Huyendo!
+  - No ha huido.
+  - ¡Explotado!
+  - ¡De nuevo normal!
+  - ¡Campo de fuego!
+  - ¡Campo de agua!
+  - ¡Campo de hielo!
+  - ¡Campo de viento!
+  - ¡Campo de rayo!
+  - ¡Campo de máquina!
+  - ¡Campo de oscuridad!
+  - ¡Campo desvanecido!
+  - Reír
+  - Confesar
+  - Bailar
+  - Abando.
+  - Lucir
+  - Seducir
+  - Loco
+  - Llorar
+  - ¡Sonriendo!
+  - ¡Dientes blancos brillantes!
+  - ¡Confesando!
+  - '"Me gustan las cosas dulces"'
+  - ¡Bailando!
+  - '"¡Uau, estoy perplejo!"'
+  - ¡Empaquetando!
+  - '"¡Me voy de esta casa!"'
+  - ¡Luciéndose!
+  - '"¡Soy el mejor!"'
+  - ¡Posando!
+  - '"Hola"'
+  - ¡Enfadado!
+  - '"¡Te abandono!"'
+  - ¡No puedo dejar de llorar!
+  - ¡Las lágrimas son saladas!
+  - ¡Reírse a carcajadas!
+  - ¡Mirando hacia aquí!
+  - ¡Bailando!
+  - '"¡Soy la estrella!"'
+  - ¡Quiero ir a casa!
+  - ¡Ordenando!
+  - ¡Cantando!
+  - ¡Sirviendo la cena!
+  - ¿Qué? ¿El cuerpo?
+  - ¡Galactimon aprendió una técnica!
+  - ¡Sin PM!
+  - ¡Cambio fallado!
+  - ¡[\x020501] PM absorbidos!
+  - ¡Dormido!

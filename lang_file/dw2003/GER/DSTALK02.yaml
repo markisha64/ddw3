@@ -1,0 +1,2104 @@
+type: simple
+strings:
+  - ''
+  - |-
+    [\x0207]Tamer Haruka[\x0207]Ha ha ha! Ich bin
+    die beste Tamerin![pause][\x0203]Keiner auf diesem
+    Server kann mich
+    besiegen![pause]
+  - |-
+    [\x0207]Tamer Haruka[\x0207]Ha ha ha! Ich bin
+    die beste Tamerin![pause][\x0203]Ich trete jeder[-4]
+    zeit gegen die
+    A.o.A an![pause]
+  - |-
+    [\x0207]Tamer Haruka[\x0207]O[-4]ink, ink!
+    O, o, o, oink![pause]
+  - |-
+    [\x0207]Guilmon[\x0207]Die Möbiuswüste
+    ist ein gefähr[-4]
+    licher Ort.[pause][\x0203]Wenn du dich
+    verirrst, gehe
+    nach Norden.[pause]
+  - |-
+    [\x0207]Tamer Haruka[\x0207]Du kommst nicht
+    gegen mich an![pause][\x0203]Trainiere ein wenig
+    mehr, damit ich et[-4]
+    was Spaβ habe![pause]
+  - |-
+    [\x0207]Tamer Haruka[\x0207]Sei dankbar, dass
+    du überhaupt mit
+    mir kämpfen darfst![pause]
+  - |-
+    [\x0207]Tamer Haruka[\x0207]Letztes Mal habe ich
+    dich gewinnen lassen.[pause][\x0203]Allein schaffst
+    du das nie![pause]
+  - |-
+    [\x0207]Tamer Haruka[\x0207]Deine Digimon
+    besiege ich
+    mit links![pause]
+  - |-
+    [\x0207]Tamer Haruka[\x0207]Schade, dass du
+    nicht besser
+    bist.[pause][\x0203]Lass' es uns später
+    noch mal versuchen!
+    Ha ha ha![pause]
+  - |-
+    [\x0207]Tamer Haruka[\x0207]Selbst schuld, mich
+    herauszufordern![pause][\x0203]Sei dankbar, dass
+    du überhaupt die
+    Gelegenheit hast![pause]
+  - |-
+    [\x0207]Tamer Haruka[\x0207]Ha ha ha! Gegen
+    meine Erfahrung
+    kommst du nicht an.[pause][\x0203]Du bist noch weit
+    von mir entfernt.[pause]
+  - |-
+    [\x0207]Tamer Haruka[\x0207]Man kann andere
+    mal gewinnen lassen.[pause][\x0203]Das macht einen
+    echten Champ aus.
+    Ha ha ha![pause]
+  - |-
+    [\x0207]Tamer Poemy[\x0207]...Ich weiβ es!
+    Du bist mein Held![pause]
+  - |-
+    [\x0207]Tamer Poemy[\x0207]Die A.o.A
+    sind ver[-4]
+    haftet...[pause][\x0203]Und das nur
+    wegen dir,
+    mein Held![pause]
+  - |-
+    [\x0207]Tamer Poemy[\x0207]Oinnk,
+    oooooink![pause]
+  - |-
+    [\x0207]Oma Teresa[\x0207]Ein Mann in Schwarz und
+    ein sarkastischer Mann?[pause][\x0203]Nein, die habe ich hier
+    nirgends gesehen...[pause]
+  - |-
+    [\x0207]Tamer Poemy[\x0207]Mein Held!
+    Rette uns
+    alle![pause]
+  - |-
+    [\x0207]Tamer Poemy[\x0207]Glorreicher
+    Held![pause][\x0203]Zeige mir, wie
+    man mit Karten
+    kämpft![pause]
+  - |-
+    [\x0207]Tamer Poemy[\x0207]Oh, mein Held![pause][\x0203]Gegen dich kann
+    ich nicht kämpfen![pause]
+  - |-
+    [\x0207]Tamer Poemy[\x0207]Glorreicher
+    Held![pause][\x0203]Zeige mir, wie
+    man mit Digimon
+    kämpft![pause]
+  - |-
+    [\x0207]Tamer Poemy[\x0207]Mein Held![pause][\x0203]Welch eine Ehre,
+    dich zu treffen![pause]
+  - |-
+    [\x0207]Tamer Poemy[\x0207]Oh, mein Held![pause][\x0203]Zeige mir deine
+    wahre Stärke![pause]
+  - |-
+    [\x0207]Tamer Poemy[\x0207]Was für ein
+    Held bist du?[pause][\x0203]Oh, wo ist mein
+    wahrer Held...[pause]
+  - |-
+    [\x0207]Tamer Poemy[\x0207]Mein strahlender
+    Held![pause][\x0203]Wenn du die Welt
+    gerettet hast...[pause][\x0203]Bitte nimm mich
+    zur Braut![pause]
+  - |-
+    [\x0207]???[\x0207]Kannst du mich
+    in Ruhe lassen?[pause][\x0203]Ich kann keine
+    Ablenkung
+    gebrauchen.[pause]
+  - |-
+    [\x0207]Tante Teresa[\x0207]Ich habe ein
+    Muffin in das
+    Loch geworfen.[pause][\x0203]Es ist nichts
+    passiert. Ver[-4]
+    schwendung![pause]
+  - |-
+    [\x0207]Leomon[\x0207]Das ist die
+    Trainingshalle.[pause][\x0203]Willst du etwas
+    Sport treiben?[pause]
+  - |-
+    [\x0207]Torwart Hitoshi[\x0207]Oink?
+    ooink, ooink!![pause]
+  - |-
+    [\x0207]Verteidiger Naoki[\x0207]Oink, ooioink!
+    ooink, ooink!![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Operator Remy[\x0207]Ah!
+    Wer bist du?[pause][\x0203]Bist du einer
+    von denen?
+    Wo ist Max?[pause]
+  - |-
+    [\x0207]Klassenspr. Aiko[\x0207]Was ist auf diesem
+    Server los?[pause][\x0203]Bitte, sag' mir was
+    du weiβt![pause]
+  - |-
+    [\x0207]Tamer Mitch[\x0207]Danke! Ich fühl'
+    mich gut![pause]
+  - |-
+    [\x0207]Tamer Mitch[\x0207]Ich kenne kei[-4]
+    nen, der gut
+    ist wie du![pause][\x0203]Du musst der
+    Server[-4]Champ
+    sein![pause]
+  - |-
+    [\x0207]Tamer Mitch[\x0207]Danke! Ich fühl'
+    mich gut![pause]
+  - |-
+    [\x0207]Tamer Mitch[\x0207]Wow, du bist gut!
+    Beeindruckend![pause][\x0203]Ich werde wohl
+    nie Server[-4]Champ![pause][\x0203]Ich gebe dir Aura,
+    also verwende
+    sie mit Bedacht![pause]
+  - |-
+    [\x0207]Tamer Mitch[\x0207]Ich kenne kei[-4]
+    nen, der gut
+    ist wie du![pause][\x0203]Du musst der
+    Server[-4]Champ
+    sein![pause]
+  - |-
+    [\x0207]Tamer Natsumi[\x0207]Ich bin Natsumi,
+    eine fröhliche
+    Schülerin![pause]
+  - a
+  - |-
+    [\x0207]Tamer Natsumi[\x0207]Ich hätte gern
+    einen coolen
+    Tamer als Freund![pause]
+  - |-
+    [\x0207]Tamer Natsu.[\x0207]Oin, oink!
+    Oi, oink![pause]
+  - |-
+    [\x0207]Tamer Natsumi[\x0207]Ich bin Natsumi!
+    Ich wünsche mir
+    jemand zum Spielen![pause]
+  - |-
+    [\x0207]Tamer Natsumi[\x0207]Jüngere Jungs
+    interessieren
+    mich nicht![pause]
+  - |-
+    [\x0207]Tamer Natsumi[\x0207]Lass' uns mit
+    Karten kämpfen![pause][\x0203]Das ist klasse![pause]
+  - |-
+    [\x0207]Tamer Natsumi[\x0207]Lass' uns mit
+    Digimon kämpfen[pause][\x0203]Das ist klasse![pause]
+  - |-
+    [\x0207]Tamer Natsumi[\x0207]Gegen dich
+    verliere ich.[pause][\x0203]Diesmal passe
+    ich![pause]
+  - |-
+    [\x0207]Tamer Natsumi[\x0207]Du bist stark.
+    Ich kann nicht
+    gewinnen.[pause][\x0203]Nächstes Mal
+    vielleicht![pause]
+  - |-
+    [\x0207]Tamer Natsumi[\x0207]Jaaa! Gewonnen![pause][\x0203]Mit dir spiele
+    ich immer gern![pause]
+  - |-
+    [\x0207]Tamer Natsumi[\x0207]Was? Ich habe
+    verloren?[pause][\x0203]Mist! Nächstes
+    Mal gewinne ich
+    aber![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Agumon[\x0207]Du suchst einen Typ in
+    Schwarz und einen
+    sarkastischen Typ?[pause][\x0203]Den sarkastischen Kerl
+    habe ich gesehen...[pause][\x0203]Er sagte, er würde
+    zum Meer gehen.[pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Tamer Natsumi[\x0207]Hey, du
+    siehst aber
+    stark aus![pause][\x0203]Lass' uns ein
+    bisschen mit
+    Karten kämpfen[pause]
+  - a
+  - |-
+    [\x0207]Tamer Mitch[\x0207]Ich bin so
+    in Fahrt![pause]
+  - |-
+    [\x0207]Tamer Mitch[\x0207]Die Starken sollen
+    mit mir kämpfen![pause]
+  - |-
+    [\x0207]Tamer Mitch[\x0207]Mensch, so ein
+    Mist![pause][\x0203]Ich will auch die
+    A.o.A bekämpfen[pause]
+  - |-
+    [\x0207]Tamer Mitch[\x0207]Oioionk!
+    Oin, oinnnk![pause]
+  - |-
+    [\x0207]Tamer Mitch[\x0207]...was?
+    Du willst mit
+    mir kämpfen?[pause][\x0203]Sorry, gegen
+    Kleinere ist unfair![pause]
+  - |-
+    [\x0207]Tamer Mitch[\x0207]Also gut, lass'
+    uns mit Karten
+    kämpfen![pause][\x0203]Mal sehen,
+    wer der Beste
+    der Besten ist.[pause]
+  - |-
+    [\x0207]Agumon[\x0207]Hinter der Möbius[-4]
+    wüste ist ein
+    hoher Turm.[pause][\x0203]Da war ich noch
+    nie, daher weiβ
+    ich nicht viel.[pause]
+  - |-
+    [\x0207]Agumon[\x0207]Hinter der Möbius[-4]
+    wüste ist ein
+    hoher Turm.[pause][\x0203]Da war ich noch
+    nie, daher weiβ
+    ich nicht viel.[pause]
+  - |-
+    [\x0207]Tamer Mitch[\x0207]Nächstes Mal
+    werde ich
+    Server[-4]Champ![pause]
+  - |-
+    [\x0207]Tamer Mitch[\x0207]Du da, lass' uns
+    mit Digimon kämpfen![pause][\x0203]Los jetzt![pause]
+  - |-
+    [\x0207]Tamer Mitch[\x0207]Ich muss mehr
+    über den Digimon[-4]
+    Kampf erfahren![pause][\x0203]Jetzt kann ich
+    leider nicht käm[-4]
+    pfen. Später![pause]
+  - |-
+    [\x0207]Tamer Mitch[\x0207]Dazu gewinne ich
+    gegen dich in
+    einem Duell![pause][\x0203]Ich bin nicht wie
+    anderen Typen![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Tamer Nakano[\x0207]Hmm, nun...
+    Mit dieser Combo...[pause][\x0203]Ich sammle Karten
+    und analysiere sie.[pause]
+  - |-
+    [\x0207]Tamer Nakano[\x0207]Ich sammle und
+    analysiere Karten.[pause][\x0203]Ich schreibe das
+    ultimative Stra[-4]
+    tegiehandbuch![pause]
+  - |-
+    [\x0207]Tamer Nakano[\x0207]Ich sitze arg
+    in der Klemme.[pause][\x0203]Wegen A.o.A
+    konnte ich keine
+    Daten bekommen.[pause]
+  - |-
+    [\x0207]Tamer Nakano[\x0207]Oimm,
+    oinkkk.[pause]
+  - |-
+    [\x0207]Tamer Nakano[\x0207]Na ja, dein Stapel[pause][\x0203]Du bist leider nicht
+    stark genug, um
+    Daten zu kriegen.[pause]
+  - |-
+    [\x0207]Tamer Nakano[\x0207]Kämpfe gegen
+    ich damit ich Da[-4]
+    ten sammeln kann![pause]
+  - |-
+    [\x0207]Tamer Nakano[\x0207]Hmm, ich sehe für
+    Waffe X die
+    Eigenschaften...[pause][\x0203]Ich sammle Daten zu
+    Digimon[-4]Kämpfen und
+    analysiere sie.[pause]
+  - |-
+    [\x0207]Tamer Nakano[\x0207]Deine Digimon
+    sind interessant.[pause][\x0203]Kämpfe mit mir,
+    damit ich Daten
+    sammeln kann![pause]
+  - |-
+    [\x0207]Tamer Nakano[\x0207]Deine Digimon sind
+    sehr stark![pause][\x0203]Deine Daten gehören
+    zu den besten, die
+    ich gesammelt habe.[pause]
+  - |-
+    [\x0207]Tamer Nakano[\x0207]Auch der Zweikampf
+    ist wichtig für
+    die Forschung.[pause][\x0203]Kämpfe mit mir,
+    damit ich Daten
+    sammeln kann.[pause]
+  - |-
+    [\x0207]Tamer Nakano[\x0207]Danke, jetzt
+    habe ich die
+    wichtigen Daten.[pause][\x0203]Hilfst du mir
+    wieder?[pause]
+  - |-
+    [\x0207]Tamer Nakano[\x0207]Vielen Dank!
+    Ich habe wichtige
+    Daten gesammelt.[pause][\x0203]Bitte hilf' mir
+    noch einmal.[pause]
+  - |-
+    [\x0207]Tamer Nakano[\x0207]Du bist stark!
+    Ich habe wichtige
+    Daten gesammelt.[pause][\x0203]Vielen Dank!
+    Bitte hilf' mir
+    noch einmal.[pause]
+  - |-
+    [\x0207]Tamer Nakano[\x0207]Vielen Dank!
+    Ich habe wichtige
+    Daten gesammelt.[pause][\x0203]Ich weiβ! Du bekommst
+    als Dank die Karte
+    Heiliger Speer von mir.[pause][\x0203]Wenn du stärker bist,
+    lass' mich noch einmal
+    deine Daten sammeln.[pause]
+  - |-
+    [\x0207]Tamer Nakano[\x0207]Du bist stark!
+    Ich habe jede
+    Menge Daten.[pause][\x0203]Vielen Dank!
+    Bitte komm'
+    wieder.[pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]SCHILD[\x0207]Nord: Asuka City
+    Ost: Seiryu City[pause]
+  - |-
+    [\x0207]Tante Teresa[\x0207]Huch! Ein ko[-4]
+    misches Loch![pause][\x0203]Zu groβ für
+    einen
+    Maulwurf...[pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Tante Teresa[\x0207]Was, ein Weg ins
+    Administration[-4]
+    Center?[pause][\x0203]Keine Ahnung, durch
+    dieses Loch wird es
+    wohl nicht gehen.[pause]
+  - |-
+    [\x0207]Tante Teresa[\x0207]Das ist echt
+    ein tiefes
+    Loch...[pause][\x0203]Wie weit
+    runter es
+    wohl geht?[pause]
+  - |-
+    [\x0207]Tante Teresa[\x0207]Das ist echt
+    ein tiefes
+    Loch...[pause][\x0203]Wie weit
+    runter es
+    wohl geht?[pause]
+  - a
+  - |-
+    [\x0207]Tante Teresa[\x0207]Auch mit 70
+    erlebt man noch
+    Überraschungen...[pause]
+  - |-
+    [\x0207]Tante Teresa[\x0207]Hab' ich einen
+    Schreck bekommen![pause][\x0203]Digimon sind hier
+    rausgekommen.[pause]
+  - |-
+    [\x0207]Tante Teresa[\x0207]Die A.o.A sind
+    besiegt worden?[pause][\x0203]Wie gut! Jetzt wird
+    alles wieder gut![pause]
+  - |-
+    [\x0207]Tante Teresa[\x0207]Ooooink, oink!
+    Oinnnk, oinnk![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]MetalEtemon[\x0207]Unbesiegbar sein
+    ist toll![pause][\x0203]Jetzt bist du
+    ein guter Tamer[pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Die Zerstörung!
+    Eine tolle
+    Waffe![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Wenn du Zerstörung
+    hast, bring Belial[-4]
+    zahn![pause][\x0203]Dann verwandle ich ihn
+    in eine stärkere Waffe![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Ich mach eine noch
+    stärkere Waffe
+    daraus![pause][\x0203]Gib mir Zerstörung
+    und Belialzahn.[pause][\x0203]OK, hier bitte!
+    Kulon Digizoit[-4]
+    Beschichtung![pause][\x0203]Hier, bitte!
+    Einmal Unbesiegbar![pause][\x0203]Jetzt wirst du ein
+    toller Tamer![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Klassensprecher Aiko[\x0207]Numemon hat uns aus
+    der Höhle befreit![pause][\x0203]...jetzt sind wir
+    hier...[pause][\x0203]Wer hat Byakko City
+    angegriffen?[pause]
+  - |-
+    [\x0207]Klassenspr. Aiko[\x0207]Numemon hat uns
+    gerettet.[pause][\x0203]Ich sage nie
+    mehr, Numemon
+    sei hässlich![pause]
+  - |-
+    [\x0207]Klassensprecher Aiko[\x0207]Wir können hier nicht
+    einfach so rumsitzen.[pause][\x0203]Leader denkt sicher
+    auch schon über
+    einen Plan nach![pause]
+  - |-
+    [\x0207]Operator Remy[\x0207]Leader sollte
+    hinten in der
+    Halle sein...[pause]
+  - |-
+    [\x0207]Operator Remy[\x0207]Was ist mit Byakko
+    City passiert?[pause][\x0203]Ich hoffe, Wache
+    Max geht es gut.[pause]
+  - |-
+    [\x0207]Operator Remy[\x0207]Jetzt bin ich etwas
+    verwirrt...[pause][\x0203]Wie sind die A.o.A
+    in diesen Asuka[-4]
+    Server gelangt?[pause]
+  - |-
+    [\x0207]Byakko Leader[\x0207]Ach, du bist's.
+    Hast du Numemon
+    gefunden?[pause][\x0203]Er ist bestimmt
+    in der Dum Dum[-4]
+    Fabrik.[pause]
+  - |-
+    [\x0207]???[\x0207]Hmm?
+    Wer bist du?[pause][\x0203]Lass' mich bitte
+    in Ruhe...[pause]
+  - |-
+    [\x0207]Byakko Leader[\x0207]Dieses Numemon war
+    Lucky Mouse![pause][\x0203]Er wurde aber auch
+    von den A.o.A
+    besiegt...[pause][\x0203]OK, dann kämpfen
+    wir eben gegen
+    die A.o.A![pause]
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Guardromon[\x0207]ZUGRIFF AUF
+    MATRIX[-4]DRIVE[pause]
+  - a
+  - a
+  - |-
+    [\x0207]Gatomon[\x0207]Willkommen in
+    meinem Inn![pause][\x0203]Fühl' dich wie
+    zu Hause![pause]
+  - a
+  - |-
+    [\x0207][\x020902]3Yeah! Eine
+    Powerladung![pause]
+  - a
+  - a
+  - |-
+    [\x0207]Tamer Shingo[\x0207]Jeder will Welt
+    meister werden.
+    Ich schaffe es![pause]
+  - |-
+    [\x0207]Tamer Shingo[\x0207]Es steht fest!
+    Ich werde Welt[-4]
+    meister![pause]
+  - |-
+    [\x0207]Tamer Shingo[\x0207]Oink oinnk,
+    oink, oink![pause]
+  - a
+  - |-
+    [\x0207]Tamer Shingo[\x0207]Für Leute wie
+    dich habe ich
+    keine Zeit.[pause][\x0203]Ich muss mit
+    stärkeren
+    Gegnern kämpfen![pause]
+  - |-
+    [\x0207]Tamer Shingo[\x0207]Ich besiege dich
+    zuerst im Duell![pause]
+  - |-
+    [\x0207]Tamer Shingo[\x0207]Jetzt trainiere
+    ich noch.[pause][\x0203]Lass' uns ein
+    anderes Mal
+    kämpfen![pause]
+  - |-
+    [\x0207]Tamer Shingo[\x0207]Zuerst besiege
+    ich dich in
+    einem Kampf![pause][\x0203]Halt' dich
+    bereit![pause]
+  - |-
+    [\x0207]Tamer Shingo[\x0207]Dazu muss ich
+    dich besiegen.[pause][\x0203]Aufgepasst!
+    Eines Tages
+    gewinne ich.[pause]
+  - |-
+    [\x0207]Tamer Shingo[\x0207]Auf zum Kampf![pause][\x0203]...aufgepasst!
+    Ich gewinne![pause]
+  - |-
+    [\x0207]Tamer Shingo[\x0207]Ha, ha ha, da
+    staunst du![pause][\x0203]Ich werde Server
+    Champ im Nu![pause]
+  - |-
+    [\x0207]Tamer Shingo[\x0207]Mist, ich
+    habe gegen
+    dich verloren[pause][\x0203]Nächstes
+    Mal gewinne
+    ich bestimmt![pause]
+  - |-
+    [\x0207]Tamer Makoto[\x0207]Ich hab's
+    Kimmy
+    versprochen.[pause][\x0203]Ich werde Server
+    Champ![pause]
+  - |-
+    [\x0207]Tamer Makoto[\x0207]Kimmy hat es
+    mir versprochen![pause][\x0203]Wenn ich Server
+    Champ bin, spielt
+    sie mit mir![pause]
+  - |-
+    [\x0207]Tamer Makoto[\x0207]Oi, oink,
+    oioioioink![pause]
+  - a
+  - |-
+    [\x0207]Tamer Makoto[\x0207]Ich bin besorgt.[pause][\x0203]Kimmy ist viel[-4]
+    leicht in einen
+    anderen verliebt.[pause]
+  - |-
+    [\x0207]Tamer Makoto[\x0207]Kannst du mit
+    mir kämpfen?[pause]
+  - |-
+    [\x0207]Tamer Makoto[\x0207]Ich will nicht
+    mit dir kämpfen.[pause][\x0203]Wenn ich verliere,
+    mag Kimmy mich
+    nicht mehr...[pause]
+  - |-
+    [\x0207]Tamer Makoto[\x0207]Kannst du mit
+    mir kämpfen?[pause]
+  - |-
+    [\x0207]Tamer Makoto[\x0207]...lass' uns ein
+    anderes Mal kämpfen[pause][\x0203]Wenn ich jetzt ver[-4]
+    liere, hasst Kimmy
+    mich...[pause]
+  - |-
+    [\x0207]Tamer Makoto[\x0207]Verlieren?[pause][\x0203]Ich gewinne auf
+    jeden Fall![pause]
+  - |-
+    [\x0207]Tamer Makoto[\x0207]Gewonnen![pause][\x0203]Hätte Kimmy
+    das bloβ
+    gesehen![pause]
+  - |-
+    [\x0207]Tamer Makoto[\x0207]Mist, verloren![pause][\x0203]Bitte, erzählt
+    das ja nicht
+    Kimmy![pause]
+  - |-
+    [\x0207]Tamer Brown[\x0207]Vielleicht bin ich
+    einfach zu alt.[pause][\x0203]Allein der Weg
+    hierhin macht
+    mich fertig.[pause]
+  - |-
+    [\x0207]Tamer Brown[\x0207]Ich werde alt.[pause][\x0203]Ich habe mich lang
+    ausgeruht, und bin
+    immer noch müde.[pause]
+  - |-
+    [\x0207]Tamer Brown[\x0207]Oink, oink
+    oink, oink.[pause]
+  - a
+  - |-
+    [\x0207]Tamer Brown[\x0207]Verlang' nicht
+    zu viel von
+    dir selbst.[pause][\x0203]Sei auch ein
+    wenig vorsichtig[pause]
+  - |-
+    [\x0207]Tamer Brown[\x0207]Ich bin aber
+    immer noch aktiver
+    Tamer, ha, ha.[pause][\x0203]Willst du mit
+    mir kämpfen?[pause]
+  - |-
+    [\x0207]Tamer Brown[\x0207]Sorry, aber
+    jetzt nicht
+    kämpfen.[pause][\x0203]Morgen früh bin
+    ich wieder fit.[pause]
+  - |-
+    [\x0207]Tamer Brown[\x0207]Ich bin aber
+    immer noch aktiver
+    Tamer, ha, ha.[pause][\x0203]Willst du mit
+    mir kämpfen?[pause]
+  - |-
+    [\x0207]Tamer Brown[\x0207]Als junger Tamer
+    war ich auch so
+    flott wie du.[pause][\x0203]Da werden Er[-4]
+    innerungen
+    wach...[pause]
+  - |-
+    [\x0207]Tamer Brown[\x0207]Ihr Frischlinge
+    könnt mich noch
+    nicht besiegen.[pause][\x0203]Erfahrung ist
+    der Schlüssel
+    zum Erfolg![pause]
+  - |-
+    [\x0207]Tamer Brown[\x0207]Ha ha ha. Ich
+    bin immer
+    noch gut, oder?[pause][\x0203]Ich kämpfe jeder[-4]
+    zeit mit euch.[pause]
+  - |-
+    [\x0207]Tamer Brown[\x0207]Ha ha ha. Die
+    Zeiten haben
+    sich geändert.[pause][\x0203]Da werden Er[-4]
+    innerungen
+    wach...[pause]
+  - |-
+    [\x0207]Tamer Pierre[\x0207]Bonjour monsieur.
+    Du bist très bien,
+    bis hier zu kommen.[pause]
+  - |-
+    [\x0207]Tamer Pierre[\x0207]Comment allez[-4]vous
+    monsieur? Alle A.o.A
+    wurden gefangen.[pause][\x0203]Jetzt gibt es Spaβ
+    mit Digimon[-4]Online.[pause]
+  - |-
+    [\x0207]Tamer Pierre[\x0207]Oink, oiooionk!
+    Oink oink![pause]
+  - a
+  - |-
+    [\x0207]Tamer Pierre[\x0207]Non, non, non
+    Du solltest
+    nicht kämpfen![pause][\x0203]Wir sollten
+    Spaβ
+    haben.[pause]
+  - |-
+    [\x0207]Tamer Pierre[\x0207]Karten[-4]Kampf ist
+    für Gentlemen.[pause][\x0203]Duell, s'il vous
+    plait.[pause]
+  - |-
+    [\x0207]Tamer Pierre[\x0207]Monsieur, Ihr
+    Können ist
+    magnifique.[pause][\x0203]Ich muss mir
+    Mühe geben.[pause]
+  - |-
+    [\x0207]Tamer Pierre[\x0207]Monsieur, wie gut
+    sind Ihre Digimon?
+    Darf ich sehen?[pause]
+  - |-
+    [\x0207]Tamer Pierre[\x0207]Monsieur, Ihr
+    Können ist
+    magnifique.[pause][\x0203]Ich muss mehr
+    trainieren, um
+    zu gewinnen.[pause]
+  - |-
+    [\x0207]Tamer Pierre[\x0207]Monsieur, Lust
+    auf einen Kampf
+    mit Karten?[pause][\x0203]Elegant, s'il
+    vous plait.[pause]
+  - |-
+    [\x0207]Tamer Pierre[\x0207]Gewonnen!
+    Merci beaucoup.[pause][\x0203]Freue mich auf
+    ein neues Treffen.
+    Au revoir.[pause]
+  - |-
+    [\x0207]Tamer Pierre[\x0207]Non, non, non.
+    Verloren![pause][\x0203]Kämpfen wir das
+    nächste Mal?
+    Au revoir.[pause]
+  - |-
+    [\x0207]Tamer Mitaka[\x0207]Ta[-4]da! Tamer
+    Mitaka, der
+    Retter, naht![pause][\x0203]Das Böse be[-4]
+    siegt mich nicht[pause]
+  - |-
+    [\x0207]Tamer Mitaka[\x0207]Ta[-4]da! Tamer
+    Mitaka, der
+    Retter, naht![pause][\x0203]Die bösen A.o.A
+    sind kein Gegner
+    für mich![pause]
+  - |-
+    [\x0207]Tamer Mitaka[\x0207]Oiiink!
+    Oink, oink![pause]
+  - |-
+    [\x0207]Tamer Mitaka[\x0207]...nun?
+    Wie war es?[pause][\x0203]Sind Super[-4]
+    helden nicht
+    toll?[pause]
+  - |-
+    [\x0207]Tamer Mitaka[\x0207]Ich geb' dir
+    meine Straf[-4]
+    attacke![pause][\x0203]...und hier![pause]
+  - |-
+    [\x0207]Tamer Mitaka[\x0207]Ta[-4]da! Tamer
+    Mitaka, der
+    Retter, naht![pause][\x0203]Du bist nur
+    Nr. 2 in
+    Asuka![pause]
+  - |-
+    [\x0207]Tamer Mitaka[\x0207]Auch wenn ich
+    sterbe, ich
+    werde siegen![pause]
+  - |-
+    [\x0207]Tamer Mitaka[\x0207]...nun?
+    Wie war das?[pause][\x0203]Ich hab' vorm
+    Spiegel
+    geübt![pause]
+  - |-
+    [\x0207]Tamer Mitaka[\x0207]Ich bin Karten[-4]
+    master Nr. 1![pause][\x0203]Halte dich bereit,
+    böser Tamer![pause]
+  - |-
+    [\x0207]Tamer Mitaka[\x0207]Ha ha! Das Gute
+    siegt immer![pause][\x0203]Eines Tages ist
+    das Böse
+    besiegt![pause]
+  - |-
+    [\x0207]Tamer Mitaka[\x0207]Sorry, das ist
+    alles nur
+    geschwindelt.[pause][\x0203]Ich wollte auch
+    einmal Super[-4]
+    held sein. Ha ha![pause]
+  - |-
+    [\x0207]Tamer Mitaka[\x0207]Ha ha! Das Gute
+    siegt immer![pause][\x0203]Eines Tages ist
+    das Böse
+    besiegt![pause]
+  - |-
+    [\x0207]Tamer Mitaka[\x0207]Sorry, hab' nur
+    so getan![pause][\x0203]Ich gebe dir
+    diesen Dunklen
+    Orkan...[pause][\x0203]Verzeih' mir, OK?
+    ...Ha ha...[pause]
+  - |-
+    [\x0207]Tamer Mitaka[\x0207]Sorry, das ist
+    alles nur
+    geschwindelt.[pause][\x0203]Ich wollte auch
+    einmal Super[-4]
+    held sein. Ha ha![pause]
+  - |-
+    [\x0207]Agumon[\x0207]Was, du bist
+    wirklich zum
+    Turm gegangen?[pause][\x0203]OK, dann gehe
+    ich auch![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Agumon[\x0207]Ich war auf dem
+    halben Weg, aber
+    dann zu müde...[pause][\x0203]Ich versuch' es
+    noch mal, wenn ich
+    keinen Hunger habe![pause]
+  - "[\\x0207]Agumon[\\x0207]Ich hab's bis zum\nTurm geschafft![pause][\\x0203]Es waren nur wenig\nLeute da... \nEtwas einsam.[pause]"
+  - |-
+    [\x0207]Agumon[\x0207]Guilmon ist
+    so gemein![pause][\x0203]Er hat alles
+    aufgegessen![pause]
+  - |-
+    [\x0207]Agumon[\x0207]Guilmon hat verspro[-4]
+    chen, dass wir das
+    Essen teilen![pause][\x0203]Jetzt kämpfe ich nicht
+    mehr![pause]
+  - |-
+    [\x0207]Agumon[\x0207]Guck, was A.o.A
+    gemacht haben! [pause][\x0203]Zeig' es ihnen
+    mal ordentlich![pause]
+  - a
+  - |-
+    [\x0207]Guilmon[\x0207]Ich war in der
+    Möbiuswüste, das
+    ist gefährlich![pause][\x0203]In der Weite
+    verliert man
+    sich leicht.[pause]
+  - |-
+    [\x0207]Guilmon[\x0207]Ich war in der
+    Möbiuswüste, das
+    ist gefährlich![pause][\x0203]In der Weite
+    verliert man
+    sich leicht.[pause]
+  - |-
+    [\x0207]Guilmon[\x0207]Die Dum Dum[-4]
+    Fabrik ist hinter
+    dem Bullet[-4]Tal.[pause]
+  - |-
+    [\x0207]Guilmon[\x0207]Igitt! Sand
+    kann man wohl
+    nicht essen.[pause]
+  - |-
+    [\x0207]Guilmon[\x0207]Viele Leute gehen nach
+    Byakko City![pause][\x0203]Byakko Leader war auch
+    dabei. Was wohl los
+    ist?[pause]
+  - |-
+    [\x0207]Guilmon[\x0207]Tut mir leid,
+    Agumon![pause][\x0203]Ich war sooo
+    hungrig...[pause]
+  - |-
+    [\x0207]Guilmon[\x0207]Ich frage zuerst,
+    bevor ich etwas
+    tue.[pause][\x0203]Agumon ist mein
+    Freund, und so
+    soll es bleiben.[pause]
+  - |-
+    [\x0207]Guilmon[\x0207]Was ist los?[pause][\x0203]Ich habe
+    Angst![pause]
+  - '43'
+  - |-
+    [\x0207]MetalEtemon[\x0207]Ich bin unbe[-4]
+    siegbar...[pause][\x0203]Ein guter Tamer
+    sollte wenigstens
+    Ewig haben![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Hey, ist Ewig
+    nicht toll?[pause][\x0203]Jetzt bist du
+    ein cooler Tamer[pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Hey, das ist
+    Makellos!
+    Die ist gut![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Wenn du Makellos
+    hast, bring
+    Millennium![pause][\x0203]Dann mache ich
+    daraus Ewig![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]OK, ich mache
+    dir Ewig![pause][\x0203]Gib' mir Makellos
+    und Millennium![pause][\x0203]Hier, bitte!
+    Kulon Digizoit[-4]
+    Beschichtung![pause][\x0203]Hier! Einmal
+    Ewig![pause][\x0203]Jetzt bist du
+    ein cooler Tamer![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Ewig ist
+    cool...[pause][\x0203]Jetzt ist aber
+    Super Nova an
+    der Reihe![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Ist Super Nova
+    nicht toll?[pause][\x0203]Jetzt bist du
+    ein toller Tamer[pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Hey, das ist
+    Beliebtheit!
+    Das ist gut![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Wenn du Beliebt[-4]
+    heit hast, bring
+    Raijin[-4]Faust![pause][\x0203]Dann mache ich
+    daraus Super Nova![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]OK, ich mach dir
+    Super Nova![pause][\x0203]Gib mir
+    Beliebtheit
+    und Raijin[-4]Faust![pause][\x0203]Hier, bitte!
+    Kulon Digizoit[-4]
+    Beschichtung.[pause][\x0203]Hier, bitte!
+    Einmal Super Nova![pause][\x0203]Jetzt wirst du ein
+    groβartiger Tamer![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Super Nova ist
+    gut...[pause][\x0203]Ein sehr guter
+    Tamer sollte aber
+    Bestrafung haben![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Hey, ist
+    Bestrafung
+    nicht toll?[pause][\x0203]Jetzt bist du
+    ein Super[-4]Tamer[pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Hey, das ist
+    Urteil.
+    Das ist echt gut![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Wenn du Urteil
+    hast, bring
+    Suijin[-4]Kanone![pause][\x0203]Dann mache ich
+    daraus Bestrafung![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Ok, ich mache
+    dir Bestrafung![pause][\x0203]Gib mir Urteil
+    und Suijin[-4]Kanone![pause][\x0203]Hier, bitte!
+    Kulon Digizoit[-4]
+    Beschichtung.[pause][\x0203]Hier, bitte!
+    Einmal Bestrafung![pause][\x0203]Jetzt wirst du ein
+    Super[-4]Tamer![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Bestrafung ist
+    schon OK...[pause][\x0203]Wenn du Server Champ
+    werden willst, brauchst
+    du Muramasa![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Hey, was ist
+    mit Muramasa?[pause][\x0203]Jetzt bist du
+    der stärkste
+    Tamer![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Hey, du hast
+    Muramasa![pause][\x0203]Das ist das
+    Beste![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Wenn du Masamune
+    hast, bring Fuujin[-4]
+    klinge![pause][\x0203]Dann mache ich
+    daraus Muramasa![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Ok, ich mache
+    Muramasa für dich![pause][\x0203]Gib mir Masamune
+    und Fuujinklinge![pause][\x0203]Hier, bitte!
+    Kulon Digizoit[-4]
+    Beschichtung.[pause][\x0203]Hier, bitte!
+    Einmal Muramasa.[pause][\x0203]Jetzt bist du der
+    stärkste Tamer![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Heh, heh, heh!
+    Wie geht's?[pause][\x0203]Ich kann leider
+    nicht mehr tun.[pause][\x0203]Jetzt musst du
+    dich auf deine
+    Kräfte verlassen![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Leseratte Ruri[\x0207]Das ist ein gefähr[-4]
+    liches Verlies mit
+    vielen Fallen.[pause][\x0203]Es hat drei Ebenen:
+    Eis, Feuer und
+    Dunkel.[pause]
+  - |-
+    [\x0207]Leseratte Ruri[\x0207]Die Ringe auf dem
+    Boden bedeuten
+    etwas anderes.[pause][\x0203]Rot für Ausgang,
+    blau für Eingang und
+    grün für beides.[pause][\x0203]Sie vorsichtig mit
+    dem blauen Ring.[pause][\x0203]Vielleicht kannst
+    du dann nicht
+    zurück![pause]
+  - |-
+    [\x0207]Leseratte Ruri[\x0207]Oi, oinnn.
+    Oink...[pause]
+  - '43'
+  - |-
+    [\x0207]Renamon[\x0207]Dies ist das Eis[-4]
+    verlies. Es ist
+    eine Welt aus Eis.[pause][\x0203]Danach wird es noch
+    ungemütlicher![pause][\x0203]Aber wenn du weiter[-4]
+    gehen willst, ich halte
+    dich nicht auf.[pause]
+  - |-
+    [\x0207]Renamon[\x0207]Du hast die A.o.A
+    also besiegt...[pause][\x0203]Von starken
+    Tamern hört
+    man schnell![pause]
+  - |-
+    [\x0207]Renamon[\x0207]Das war das
+    Ziel der
+    A.o.A.[pause][\x0203]Wir sind alle
+    reingefallen.[pause]
+  - '43'
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Eishexe[\x0207]Du hast mich
+    besiegt! Du
+    bist stark.[pause][\x0203]Aber andere
+    sind stärker.
+    Sei vorsichtig![pause]
+  - |-
+    [\x0207]Eishexe[\x0207]Du hast die
+    A.o.A besiegt![pause][\x0203]Ich wusste, du
+    schaffst es![pause]
+  - |-
+    [\x0207]Eishexe[\x0207]Oooink,
+    oi, oinnnk![pause]
+  - '43'
+  - |-
+    [\x0207]Feuerritter[\x0207]Du bist gut.
+    Gegen dich komme
+    ich nicht an.[pause]
+  - |-
+    [\x0207]Feuerritter[\x0207]Du bist Wahnsinn!
+    Du hast die
+    A.o.A besiegt![pause][\x0203]Gegen dich kann
+    ich nicht ge[-4]
+    winnen![pause]
+  - |-
+    [\x0207]Feuerritter[\x0207]Ooink,
+    oink, oink![pause]
+  - '43'
+  - |-
+    [\x0207]Dunkler Ritter[\x0207]Hey, Kumpel!
+    Was geht ab?[pause][\x0203]Ich hab' dich
+    nicht
+    vergessen![pause]
+  - |-
+    [\x0207]Dunkler Ritter[\x0207]Hey, Kumpel!
+    Krass![pause][\x0203]R[-4]E[-4]S[-4]P[-4]E[-4]K[-4]T![pause]
+  - |-
+    [\x0207]Dunkler Ritter[\x0207]Oooink,
+    oin, oinkk![pause]
+  - '43'
+  - |-
+    [\x0207]Veemon[\x0207]Das hier ist das
+    Notfallzimmer.[pause][\x0203]Das Tor oben rechts
+    führt in die echte
+    Welt,[pause][\x0203]das Tor links zum
+    Eisverlies.[pause][\x0203]Du musst das OK vom
+    Admin[-4]Center haben.[pause][\x0203]Und die vier Leader[-4]
+    Abzeichen, um in die
+    echte Welt zu kommen![pause]
+  - |-
+    [\x0207]Veemon[\x0207]Beim letzten Transfer
+    haben sie die ganze
+    Energie verbraucht.[pause][\x0203]In der echten Welt
+    merkt man das nicht
+    so leicht.[pause]
+  - |-
+    [\x0207]Veemon[\x0207]Du bist der Tamer,
+    der die A.o.A
+    besiegt hat?[pause][\x0203]Ich wusste es! Du
+    bist einzigartig![pause]
+  - |-
+    [\x0207]Veemon[\x0207]Was ist dieses
+    Digimon?![pause][\x0203]Und wo ist das
+    Mädchen hin?[pause]
+  - '43'
+  - |-
+    [\x0207]Kimo aus Hawaii[\x0207]...uaahhh![pause][\x0203]Hier ist es
+    mir zu kalt![pause]
+  - |-
+    [\x0207]Kimo aus Hawaii[\x0207]Die A.o.A sind weg,
+    wir können zurück.[pause][\x0203]Ich will zurück
+    nach Hawaii![pause]
+  - |-
+    [\x0207]Kimo aus Hawaii[\x0207]Ooooooiink!
+    Oionk, ooink![pause]
+  - '43'
+  - |-
+    [\x0207]Sir Perrin[\x0207]Kämpfe sind mir
+    zu grausam.[pause][\x0203]Friedlich wäre
+    es hier viel
+    schöner.[pause]
+  - |-
+    [\x0207]Sir Perrin[\x0207]Ich liebe
+    diese Welt![pause][\x0203]Ich baue mir
+    eine Villa
+    und bleibe hier.[pause]
+  - |-
+    [\x0207]Sir Perrin[\x0207]Oink..., oink.
+    Oi, oink![pause]
+  - '43'
+  - |-
+    [\x0207]Guilmon[\x0207]Jaaa, es ist
+    kalt und schön![pause][\x0203]Und auch noch
+    glitschig.[pause]
+  - |-
+    [\x0207]Guilmon[\x0207]Aaaah! Ich bin
+    ins Wasser gefallen.[pause][\x0203]Es ist kalt!
+    Ich erfriere![pause]
+  - |-
+    [\x0207]Guilmon[\x0207]Wird Guilmon auch
+    so sein?[pause][\x0203]Neiiiin![pause]
+  - '43'
+  - |-
+    [\x0207]Rasende Cecilia[\x0207]Kazuya ist so ein
+    Angsthase![pause][\x0203]Warum kann er nicht
+    alleine Digimon[-4]
+    Online spielen?[pause]
+  - |-
+    [\x0207]Rasende Cecilia[\x0207]Der Tamer, der die
+    A.o.A besiegt hat,
+    ist noch ein Kind![pause][\x0203]Ich wünschte,
+    Kazuya wäre so
+    selbständig![pause]
+  - |-
+    [\x0207]Rasende Cecilia[\x0207]Ooink!
+    Oink, oink,
+    Oooink![pause]
+  - '43'
+  - |-
+    [\x0207]Kazuya[\x0207]Cecilia ist
+    ohne mich
+    gegangen![pause][\x0203]Alleine kann
+    ich nichts
+    machen![pause]
+  - |-
+    [\x0207]Kazuya[\x0207]Also gut!
+    Ich werde stark
+    sein![pause][\x0203]Wie der Tamer,
+    der die A.o.A
+    besiegt hat![pause]
+  - |-
+    [\x0207]Kazuya[\x0207]Oink, oinnk!
+    Oink, ooink![pause]
+  - '43'
+  - |-
+    [\x0207]Kotemon[\x0207]Men, dou, kote![pause][\x0203]Damit du stark bist
+    muss auch deine
+    Seele stark sein.[pause][\x0203]Dies ist ein idealer
+    Trainingsort![pause]
+  - |-
+    [\x0207]Kotemon[\x0207]Du bist der Tamer,
+    der die A.o.A
+    besiegt hat![pause][\x0203]Ich möchte so
+    stark sein wie du.[pause]
+  - |-
+    [\x0207]Kotemon[\x0207]Du sagst, das ist
+    alles nur wegen der
+    A.o.A?![pause][\x0203]Ich kann ihnen nicht
+    verzeihen! Kämpfen
+    wir gemeinsam![pause]
+  - '43'
+  - |-
+    [\x0207]Kumamon[\x0207]Wo ist die
+    legendäre
+    Halle?[pause][\x0203]Es soll in diese
+    Richtung liegen.[pause]
+  - |-
+    [\x0207]Kumamon[\x0207]Schau, sehe ich
+    nicht stärker aus?[pause][\x0203]Ich trainierte in der
+    legendären Halle.[pause]
+  - |-
+    [\x0207]Kumamon[\x0207]Mein Tamer ist
+    auch ein selt[-4]
+    sames Digimon.[pause][\x0203]Wer hat das
+    gemacht?[pause]
+  - '43'
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207][\x020902]3Yeah! Ich habe
+    Nadelhandschuhe![pause]
+  - a
+  - a
+  - |-
+    [\x0207][\x020902]3Yeah! Ein
+    Shamshir![pause]
+  - a
+  - |-
+    [\x0207][\x020902]3Yeah! Ein
+    Ritterschild![pause]
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207][\x020902]3Yeah! Hab'
+    5000 BIT![pause]
+  - |-
+    [\x0207]Tamer Natsumi[\x0207]Ich bin Natsumi,
+    eine fröhliche
+    Schülerin![pause]
+  - |-
+    [\x0207]Tamer Mitch[\x0207]Uff, danke!
+    Fühl' mich gut.[pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]DRI Kazuki[\x0207]Ich bin Kazuki,
+    Forscher für
+    MagnaAngemon![pause]
+  - |-
+    [\x0207]DRI Kazuki[\x0207]Ich habe genug
+    mit meiner For[-4]
+    schung zu tun.[pause][\x0203]Ich rede später
+    mit dir.[pause]
+  - |-
+    [\x0207]DRI Kazuki[\x0207]Hast du die DDNA
+    von Patamon?[pause][\x0203]Ich brauche sie
+    unbedingt für
+    meine Forschung.[pause][\x0203]Bring sie mir, und
+    ich gebe dir Patamon
+    als Partner![pause]
+  - |-
+    [\x0207]DRI Kazuki[\x0207]Hey, das ist DDNA
+    von Patamon, danke![pause][\x0203]Wie versprochen, du
+    bekommst Patamon
+    als Partner![pause][\x0203]Geh zu Piximon oder
+    Dr. Kadomatsu im
+    Labor![pause][\x0203]Patamon sollte unter
+    "Digimon tauschen"
+    in der Liste sein.[pause]
+  - |-
+    [\x0207]DRI Kazuki[\x0207]Ooink?
+    Ooiooiooink?
+    Ooiooinooink![pause]
+  - |-
+    [\x0207]DRI Kazuki[\x0207]Wie geht es
+    Patamon?[pause][\x0203]Wenn du ihn
+    züchtest, wird
+    er stark![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]DRI Kazuki[\x0207]Hoffentlich digi[-4]
+    tiert Patamon zu
+    MagnaAngemon.[pause][\x0203]Viel Glück![pause]
+  - a
+  - |-
+    [\x0207]Tamer Nakano[\x0207]Hmm, also...
+    Mit dieser Combo...[pause][\x0203]Ich sammle Karten[-4]
+    daten und analysiere
+    sie.[pause]
+  - |-
+    [\x0207]DRI Michael[\x0207]Ich bin Mike
+    vom DRI.[pause][\x0203]Wo ist mein
+    wertvoller
+    Taomon?[pause]
+  - |-
+    [\x0207]DRI Michael[\x0207]Ich rede nicht
+    mit Rookie[-4]
+    Tamern.[pause][\x0203]Wenn du besser
+    bist, reden wir
+    miteinander.[pause]
+  - |-
+    [\x0207]DRI Michael[\x0207]Ich suche DDNA
+    von Renamon.[pause][\x0203]Kannst du mir
+    helfen?[pause][\x0203]Dann geben ich dir
+    Renamon als Partner![pause]
+  - |-
+    [\x0207]DRI Michael[\x0207]Du hast sie mir
+    gebracht!
+    Danke.[pause][\x0203]Ich bin so froh!
+    Du bekommst Renamon
+    als Partner.[pause][\x0203]Geh zu Piximon oder
+    Dr. Kadomatsu im
+    Labor.[pause][\x0203]Renamon ist unter
+    "Digimon tauschen"
+    aufgeführt.[pause]
+  - |-
+    [\x0207]DRI Michael[\x0207]Oinkoink?
+    Oinnkoin?
+    Oioinkoink![pause]
+  - |-
+    [\x0207]DRI Michael[\x0207]Wie geht es
+    Renamon?[pause][\x0203]Züchte sie gut,
+    und sie digitiert
+    zu Taomon![pause]
+  - |-
+    [\x0207]DRI Michael[\x0207]Du hast eine
+    gute Renamon.[pause][\x0203]Hoffentlich wird
+    sie zu Taomon.[pause]
+  - |-
+    [\x0207]DRI Kazuki[\x0207]Dein Digimon
+    sieht ganz
+    stark aus![pause][\x0203]Du brauchst
+    MagnaAngemon
+    nicht mal![pause]
+  - |-
+    [\x0207]DRI Michael[\x0207]Du hast tolle
+    Digimon![pause][\x0203]Schade, dass kein
+    Taomon dabei ist![pause]
+  - |-
+    [\x0207]Tai Kong Wang[\x0207]Ich bin Fischer
+    Tai Kong Wang![pause]
+  - |-
+    [\x0207]Tai Kong Wang[\x0207]Wenn du eine
+    Angel auswirfst,
+    wird alles klar.[pause][\x0203]Na ja, aber es
+    mach mich
+    glücklich.[pause]
+  - |-
+    [\x0207]Tai Kong Wang[\x0207]Wie wär's?[pause][\x0203]Zum Angeln brauchst
+    du einen Stock,
+    Leine und Haken.[pause][\x0203]Ich mache dir eine
+    Angel draus.[pause]
+  - |-
+    [\x0207]Tai Kong Wong[\x0207]Ein Bambusspeer,
+    Spinnennetz und
+    roter Schnapper.[pause][\x0203]Warte, ich mache
+    dir eine Angel...[pause]
+  - |-
+    [\x0207]Tai Kong Wong[\x0207]Und? Hast du etwas
+    gefangen?[pause][\x0203]Mach' dir nicht zu[-4]
+    viel draus.
+    Entspann' dich.[pause]
+  - |-
+    [\x0207]Tai Kong Wong[\x0207]Oooink...
+    Oink, oink, oink...[pause]
+  - |-
+    [\x0207]Tamer Haruka[\x0207]Ha ha ha! Ich
+    bin die beste
+    Tamerin![pause][\x0203]Keiner auf diesem
+    Server kann mich
+    besiegen![pause]
+  - |-
+    [\x0207]Tamer Poemy[\x0207]...Ich weiβ es!
+    Du bist mein Held![pause]
+  - |-
+    [\x0207]Tamer Shingo[\x0207]Jeder will Welt[-4]
+    meister werden. Ich
+    schaffe es![pause]
+  - |-
+    [\x0207]Tamer Makoto[\x0207]Ich hab's
+    Kimmy
+    versprochen.[pause][\x0203]Ich werde Server
+    Champ![pause]
+  - |-
+    [\x0207]Tamer Brown[\x0207]Ich werde
+    langsam
+    zu alt dafür...[pause][\x0203]Der Weg hierhin
+    hat mich schon
+    geschafft.[pause]
+  - |-
+    [\x0207]Tamer Pierre[\x0207]Bonjour monsieur.
+    Du bist très bien,
+    bis hier zu kommen.[pause]
+  - |-
+    [\x0207]Tamer Mitaka[\x0207]Ta[-4]da! Tamer
+    Mitaka, der
+    Retter, naht![pause][\x0203]Das Böse be[-4]
+    siegt mich nicht[pause]
+  - |-
+    [\x0207]Fuβballer Hide[\x0207]Hmmm... Im
+    Asuka Inn?
+    Glaube ich...[pause]
+  - |-
+    [\x0207]Fuβballer Hide[\x0207]Vielleicht habe ich es
+    im Asuka Inn verloren[pause][\x0203]Tut mir leid, ich kann
+    mich nicht erinnern![pause]
+  - |-
+    [\x0207]Fuβballer Hide[\x0207]Hey, das ist eine
+    Gabumon[-4]Karte![pause][\x0203]Du hast sie gefun[-4]
+    den! Danke![pause][\x0203]Ok, jetzt erzähle
+    ich dir von den
+    Baumstiefeln.[pause][\x0203]Die kriegst du,
+    wenn du dich mit
+    Veemon anfreundest.[pause][\x0203]Aber Veemon ist nur
+    schwer zu finden.[pause]
+  - |-
+    [\x0207]Fuβballer Hide[\x0207]Ich glaube, ich
+    war im Asuka
+    Inn...[pause]
+  - |-
+    [\x0207]Fuβballer Hide[\x0207]Baumstiefel!
+    Du bist auch ein
+    Freund von Veemon.[pause][\x0203]Du bist gut. Ich
+    werde auch mein
+    bestes geben![pause]
+  - |-
+    [\x0207]Fuβballer Hide[\x0207]Oink, ooioink,
+    ooink, ooink![pause]
+  - |-
+    [\x0207]Fuβballer Hide[\x0207]Ich habe noch
+    eine Karte![pause][\x0203]Bald hab ich den
+    ganzen Stapel![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Agumon[\x0207]Geh' nicht weiter.
+    Das ist ein ge[-4]
+    fährliches Verlies![pause][\x0203]Der Boss da ist viel
+    stärker als andere
+    Bosse![pause]
+  - |-
+    [\x0207]Agumon[\x0207]Die A.o.A sind
+    weg?[pause][\x0203]Agumon wollte sie
+    auch verdreschen![pause]
+  - |-
+    [\x0207]Agumon[\x0207]Oh nein!
+    Alle Leute sind zu
+    Oinkmon geworden![pause]
+  - '43'
+  - |-
+    [\x0207]Monmon[\x0207]Hol' mir Kulon
+    Digizoit[-4]Metall![pause][\x0203]Wenn ich das Metall
+    habe, mache ich
+    eine stärkere Waffe![pause]
+  - |-
+    [\x0207]Monmon[\x0207]Wo ist der Ta[-4]
+    mer, der A.o.A
+    besiegt hat?[pause][\x0203]Er ist stark!
+    Monmon mag
+    starke Tamer.[pause]
+  - |-
+    [\x0207]Monmon[\x0207]Was, was ist
+    los?[pause][\x0203]Die A.o.A sind
+    gefangen! Aber
+    warum?[pause]
+  - '43'
+  - a
+  - a
+  - |-
+    [\x0207]Gargamon[\x0207]Bumm!
+    Dies ist das
+    Zeughaus.[pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Hey, ich bin ein
+    genialer Waffen[-4]
+    schmied![pause][\x0203]Hier Typen habt
+    keinen Geschmack.[pause][\x0203]Kommt wieder, wenn
+    ihr besser gerüstet
+    seid![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Lisa[\x0207]Kurt ist ein
+    wichtiger Freund.[pause][\x0203]Wir wollten die
+    A.o.A zusammen
+    bekämpfen.[pause][\x0203]Bitte [\x020801][\x020501],
+    hilf' Kurt beim
+    Kampf![pause]
+  - |-
+    [\x0207]Kail[\x0207]Kurt war eine Weile
+    nicht zu Hause...[pause][\x0203]Ich dachte, er wäre
+    in der digitalen Welt,
+    also kam ich mit euch.[pause][\x0203]Wie konnte das
+    passieren...?[pause]
+  - |-
+    [\x0207]Kurt[\x0207]Oin, oink!
+    Oioink,
+    oioinoink![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Suche Keith und
+    Nick.[pause][\x0203]Dann finden wir
+    den Personal[-4]
+    pass sofort.[pause][\x0203]Sie waren zuletzt
+    im Südsektor⋯[pause]
+  - |-
+    [\x0207]Kail[\x0207]Bitte,
+    [\x020801][\x020501]!
+    Besiege die A.o.A![pause][\x0203]Und mach Kurt
+    wieder normal![pause]
+  - |-
+    [\x0207]Kurt[\x0207]Oin, oink!
+    Oioink,
+    oioinoink![pause]
+  - |-
+    [\x0207]Kurt[\x0207]Oin, oinnk!
+    Oooin, oink![pause]
+  - |-
+    [\x0207]Keith[\x0207]Hey, Kid, bemüh'
+    dich nicht zu sehr[pause][\x0203]Wir besiegen die
+    A.o.A! Wir ver[-4]
+    suchen es...[pause]
+  - |-
+    [\x0207]Nick[\x0207]Lisa ist ganz
+    schön brutal...[pause][\x0203]Man kommt kaum
+    mit ihr mit.[pause]
+  - |-
+    [\x0207]Kai[\x0207]Viel Glück auch
+    für Kurt,
+    [\x020801][\x020501]![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Jetzt können wir
+    nach Asuka City.[pause][\x0203]Viel Glück, ich
+    zähle auf dich.[pause]
+  - |-
+    [\x0207]Byakko Lead.[\x0207]Wir versteck[-4]
+    en uns hier
+    eine Weile...[pause][\x0203]Sei du auch
+    vorsichtig![pause]
+  - a
+  - |-
+    [\x0207]Flamedramon[\x0207]Willkommen in der
+    legendären Halle![pause][\x0203]Ich werde dich
+    trainieren, also
+    los![pause]
+  - |-
+    [\x0207]Kammer[-4]Clark[\x0207]Dies ist die Notfall[-4]
+    Matrix[-4]Kammer.[pause][\x0203]Wenn du das System
+    verwenden möchtest,
+    wende dich an mich.[pause]
+  - |-
+    [\x0207]Kammer[-4]Clark[\x0207]Du möchtest das
+    Kammer[-4]System
+    verwenden?[pause][\x0203]Zeige mir die 4
+    Leader[-4]Abzeichen.[pause][\x0203]Ach? Du hast noch
+    nicht alle Leader[-4]
+    Abzeichen?[pause][\x0203]Ohne funktioniert
+    das System nicht.[pause]
+  - |-
+    [\x0207]Kammer[-4]Clark[\x0207]Du möchtest das
+    Kammer[-4]System
+    verwenden?[pause][\x0203]Zeige mir die 4
+    Leader[-4]Abzeichen.[pause]
+  - |-
+    [\x0207]Kammer[-4]Clark[\x0207]Aufgrund fehlender
+    Energie...[pause][\x0203]Kann die Matrix[-4]
+    Kammer nicht
+    verwendet werden.[pause][\x0203]Ich bitte um
+    Verständnis.[pause]
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Kammer[-4]Clark[\x0207]Oi,
+    ooink,
+    oooionik![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207][\x020902]3Yeah! Ich hab
+    3000 BIT![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Keith[\x0207]Hey, Kid, triff
+    dich wieder mit mir![pause][\x0203]Mein Digimon ist im
+    Training.[pause][\x0203]Wir kämpfen das
+    nächste Mal![pause]
+  - a
+  - a
+  - '43'
+  - a
+  - '43'
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]DRI Ken[\x0207]Hallo, ich bin
+    DRI Ken.[pause][\x0203]Hab' den schw.
+    Gürtel ![pause][\x0203]Ich bin Sport[-4]
+    forscher![pause]
+  - |-
+    [\x0207]DRI Ken[\x0207]Ich bin erst seit
+    zwei Jahren
+    Forscher.[pause]
+  - |-
+    [\x0207]DRI Ken[\x0207]Ich erforsche ein neu[-4]
+    es Digimon mit Namen
+    Kyukimon![pause][\x0203]Ich muss Kotemon[-4]
+    DDNA von Kyukimon
+    bekommen.[pause][\x0203]Dann weiβ ich, wie
+    Kotemon zu Kyukimon
+    digitiert.[pause]
+  - |-
+    [\x0207]DRI Ken[\x0207]Was, du hast mir
+    Kotemon[-4]DDNA
+    gebracht?[pause][\x0203]Danke! Jetzt be[-4]
+    kommst du Kotemon
+    als Partner.[pause][\x0203]Geh zu Piximon oder
+    Dr. Kadomatsu im
+    Labor.[pause][\x0203]Kotemon sollte bei
+    Digimon tauschen
+    aufgelistet sein.[pause]
+  - |-
+    [\x0207]DRI Ken[\x0207]Oioionk!
+    Oioink, oionk![pause]
+  - |-
+    [\x0207]DRI Ken[\x0207]Kotemon ist toll!
+    Pass' auf es auf![pause]
+  - |-
+    [\x0207]DRI Ken[\x0207]Ich liebe
+    Kotemon![pause][\x0203]Ich beneide
+    dich, es ist
+    dein Partner.[pause]
+  - |-
+    [\x0207]DRI Ken[\x0207]Ich arbeite schwer,
+    um ein guter
+    Forscher zu werden![pause][\x0203]Ich möchte wie
+    Dr. Kadomatsu sein![pause]
+  - |-
+    [\x0207]DRI Yuji[\x0207]Hi! Ich bin Yuji
+    vom DRI, grüβe
+    dich![pause]
+  - |-
+    [\x0207]DRI Yuji[\x0207]Deine Digimon
+    sehen schwach aus.[pause][\x0203]Trainiere sie lieber,
+    statt mit mir zu
+    quatschen.[pause]
+  - |-
+    [\x0207]DRI Yuji[\x0207]Hey, ist GrapLeomon
+    nicht toll?![pause][\x0203]Ich muss Kumamon[-4]
+    DDNA von GrapLeomon
+    bekommen.[pause][\x0203]Dann weiβ ich, wie
+    Kumamon zu GrapLeomon
+    digitiert.[pause]
+  - |-
+    [\x0207]DRI Yuji[\x0207]Was?! Du hast
+    Kumamon[-4]DDNA von
+    GrapLeomon?[pause][\x0203]Klasse! Danke!
+    Ich tue alles
+    für dich...[pause][\x0203]Heh, ich weiβ was!
+    Du bekommst Kumamon
+    als Partner![pause][\x0203]Geh zu Piximon oder
+    Dr. Kadomatsu im
+    Labor.[pause][\x0203]Kumamon sollte unter
+    "Digimon tauschen"
+    aufgelistet sein.[pause]
+  - |-
+    [\x0207]DRI Yuji[\x0207]Ooin, oink!
+    Oooin, oiinink![pause]
+  - |-
+    [\x0207]DRI Yuji[\x0207]Hey, ist Kumamon
+    stärker?[pause][\x0203]Züchte und trainiere
+    es, damit es das
+    stärkste Digimon wird[pause]
+  - |-
+    [\x0207]DRI Yuji[\x0207]Oh, Kumamon ist
+    dein Partner?[pause][\x0203]Du hast's gut. Ich
+    hätte es auch gern.[pause]
+  - |-
+    [\x0207]DRI Yuji[\x0207]Ist GrapLeomon nicht
+    der Beste?[pause][\x0203]Er ist das bestaus[-4]
+    sehende Digimon![pause]
+  - |-
+    [\x0207]DRI Yang[\x0207]Aua, heute ist nicht
+    mein Tag... Knöchel
+    verstaucht![pause][\x0203]Hi, ich bin Yang
+    vom DRI.[pause]
+  - "[\\x0207]DRI Yang[\\x0207]...es ist schon\nOK, mach' dir keine \nSorgen um mich.[pause][\\x0203]Ich verstauche mir\nständig die Knöchel[pause]"
+  - |-
+    [\x0207]DRI Yang[\x0207]Jetzt kann ich
+    Armormon nicht suchen.[pause][\x0203]Kannst du Monmon[-4]
+    DDNA von ihm für
+    mich suchen?[pause][\x0203]Komm schon! Du be[-4]
+    kommst Monmon als
+    Partner.[pause]
+  - |-
+    [\x0207]DRI Yang[\x0207]Danke! Du hast
+    sie bekommen![pause][\x0203]Wie versprochen be[-4]
+    kommst du Monmon als
+    Partner.[pause][\x0203]Geh zu Piximon oder
+    Dr. Kadomatsu im
+    Labor.[pause][\x0203]Monmon sind unter
+    "Digimon tauschen"
+    aufgelistet.[pause]
+  - |-
+    [\x0207]DRI Yang[\x0207]Ooiioinioin!
+    Oioini, onoink![pause]
+  - |-
+    [\x0207]DRI Yang[\x0207]Wie geht's Monmon?[pause][\x0203]Monmon ist toll,
+    pass auf ihn auf.[pause]
+  - |-
+    [\x0207]DRI Yang[\x0207]Zum Erforschen von
+    Digimon muss man
+    stark sein![pause][\x0203]Hätte ich als Kind
+    bloβ mehr trainiert.[pause]
+  - |-
+    [\x0207]DRI Yang[\x0207]Das Erforschen von
+    Digimon ist schwierig.[pause][\x0203]Ich beneide euch
+    Tamer. Aua![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Fuβballer Hide[\x0207]Wo viele Leute
+    sind erfährst du
+    mehr über Veemon![pause][\x0203]Da wir dir sicher
+    jemand helfen.[pause]

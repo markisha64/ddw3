@@ -1,0 +1,1588 @@
+type: simple
+strings:
+  - ''
+  - "[\\x0207]Soldier[\\x0207]Ha ha ha ha ha!\nRejoice you low \nlife![pause][\\x0203]The world will soon \nbe ours![pause]"
+  - a
+  - a
+  - "[\\x0207]Sepikmon[\\x0207]It's getting pretty \nquiet around here.[pause][\\x0203]It's all because \nthe A.o.A took \nover the server.[pause]"
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - "[\\x0207]Tamer Heinrich[\\x0207]Leader must thought\nthat I was weak and\nput me on watch...[pause][\\x0203]I want to fight \nthem too![pause]"
+  - |-
+    [\x0207]Tamer Heinrich[\x0207]See, I can do it
+    too![pause][\x0203]I think my talents
+    are wasted!![pause]
+  - |-
+    [\x0207]Tamer Heinrich[\x0207]...hey, you're
+    strong![pause][\x0203]You weren't lying
+    when you said you
+    came here alone.[pause]
+  - "[\\x0207]Tamer Heinrich[\\x0207]Leader must \nthought that \nI was weak...[pause][\\x0203]If only I was \njust a little \nstronger...[pause]"
+  - |-
+    [\x0207]Tamer Takuya[\x0207]You defeated the
+    A.o.A....[pause][\x0203]You don't look
+    that strong...[pause]
+  - |-
+    [\x0207]Tamer Takuya[\x0207]You're so weak.[pause][\x0203]I guess A.o.A is
+    nothing if they
+    lost to you![pause]
+  - |-
+    [\x0207]Tamer Takuya[\x0207]...Sorry,
+     I shouldn't
+    look down on you.[pause][\x0203]You did defeat the
+    A.o.A!![pause]
+  - |-
+    [\x0207]Tamer Takuya[\x0207]Well, a kid like
+    you should just
+    stay quiet.[pause][\x0203]We, the
+    Resistance will
+    handle it![pause]
+  - |-
+    [\x0207]Tamer Murdock[\x0207]We can't let our guards
+    down, yet.[pause][\x0203]We still haven't caught
+    all A.o.A...[pause]
+  - "[\\x0207]Tamer Murdock[\\x0207]Oh, sorry for letting\nme win...[pause][\\x0203]But the chief offcer \nisn't all that strong if\nyou can defeat him.[pause]"
+  - "[\\x0207]Tamer Murdock[\\x0207]Hmm, you're pretty\nstrong![pause][\\x0203]I can see how you\nhave defeated the \nchief officer![pause]"
+  - |-
+    [\x0207]Tamer Murdock[\x0207]I'm sorry I don't
+    feel like dueling
+    or battling.[pause][\x0203]Let's do it some
+    other time.[pause]
+  - |-
+    [\x0207]Guard Banch[\x0207]I can't believe that
+    you have defeated
+    the A.o.A.[pause][\x0203]Are you a spy of the
+    A.o.A?![pause]
+  - "[\\x0207]Guard Banch[\\x0207]Sorry, it's a joke!\nI'm just egging you\non![pause][\\x0203]But the chief offcer \nisn't all that strong if\nyou can defeat him.[pause]"
+  - |-
+    [\x0207]Guard Banch[\x0207]You fight really well![pause][\x0203]I'm sorry to call a great
+    tamer like you a spy....
+    Forgive me![pause]
+  - |-
+    [\x0207]Guard Banch[\x0207]You defeated the
+    A.o.A![pause][\x0203]I would like to
+    thank you for
+    everyone here!![pause]
+  - |-
+    [\x0207]Tamer Mai[\x0207]I heard that the
+    chief officer has
+    been defeated...[pause][\x0203]But it's still.
+    Dangerous to
+    go outside...[pause]
+  - |-
+    [\x0207]Tamer Mai[\x0207]Oh, I thought you
+    were a stronger
+    tamer...[pause][\x0203]You shouldn't push
+    your luck too far.[pause]
+  - |-
+    [\x0207]Tamer Mai[\x0207]You're strong![pause][\x0203]I guess you can
+    handle any trouble
+    on your own!![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Tamer Mai[\x0207]It's safe here.
+    You can train here.[pause]
+  - "[\\x0207]Tamer Gon[\\x0207]....oh, Don't \nscare me \nlike that! [pause][\\x0203]It's bad for\nmy health.[pause]"
+  - |-
+    [\x0207]Tamer Gon[\x0207]Ho ho ho,
+    I'm not rusty yet![pause][\x0203]What!? The A.o.A.
+    is gone?[pause][\x0203]Don't try to kid an
+    old man with a lie
+    like that![pause]
+  - |-
+    [\x0207]Tamer Gon[\x0207]All right, do your
+    worst![pause][\x0203]What!? The A.o.A.
+    is gone?[pause][\x0203]Don't try to kid an
+    old man with a lie
+    like that![pause]
+  - |-
+    [\x0207]Tamer Gon[\x0207]...oh, you're
+    not the A.o.A![pause][\x0203]You scared the
+    life out of me.[pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Model Marilyn[\x0207]Oink,
+    oi, oinoinoink![pause]
+  - "[\\x0207]Model Marilyn[\\x0207]I hate this![pause][\\x0203]My beauty was ruined\nby turning into \nOinkmon![pause]"
+  - |-
+    [\x0207]Model Marilyn[\x0207]Oink,
+    oi, oinoinoink![pause]
+  - |-
+    [\x0207]Cameraman Capa[\x0207]Oiink,
+    oink, oink![pause]
+  - "[\\x0207]Cameraman Capa[\\x0207]You were cute as \nOinkmon, Marilyn.[pause][\\x0203]I should've taken \na picture of you.[pause]"
+  - |-
+    [\x0207]Cameraman Capa[\x0207]Oiink,
+    oink, oink![pause]
+  - '43'
+  - '43'
+  - |-
+    [\x0207]President Gonzo[\x0207]Oiiink, oink,
+    oinkoinkoink![pause]
+  - "[\\x0207]President Gonzo[\\x0207]I don't want to go \nto today's meeting.[pause][\\x0203]If I was still \nOinkmon I wouldn't\nhave to go![pause]"
+  - |-
+    [\x0207]Miko[\x0207]Ooioioioioi, oi!
+    Oi, oinkk![pause]
+  - "[\\x0207]Miko[\\x0207]I would've preferred \nbeing turned into a \nhamster![pause][\\x0203]Then I could've\ntalked to Hamjiro![pause]"
+  - "[\\x0207]Gatomon[\\x0207]Wow, I woke up and\neveryone was a \nDigimon![pause][\\x0203]Wha[-4]what \nhappened?![pause]"
+  - "[\\x0207]Gatomon[\\x0207]It's all the A.o.A's \nfault![pause][\\x0203]How can they do \nthis?[pause]"
+  - "[\\x0207]Gatomon[\\x0207]I've heard of you!\nThank you very \nmuch![pause][\\x0203]Now we can feel\nbetter doing our \njobs![pause]"
+  - "[\\x0207]Gatomon[\\x0207]Everyone turned into \nDigimon again![pause][\\x0203]I thought you \ndefeated the A.o.A?![pause]"
+  - '43'
+  - |-
+    [\x0207]Miko[\x0207]Ooioioioioi, oi!
+    Oi, oinkk![pause]
+  - |-
+    [\x0207]President Gonzo[\x0207]Oiiink, oink,
+    oinkoinkoink![pause]
+  - |-
+    [\x0207]Trooper[\x0207]...I don't want to
+    patrol here by myself.[pause][\x0203]Does that make
+    me a bad
+    trooper?[pause]
+  - |-
+    [\x0207]Trooper[\x0207]Oink...oink?!
+    Oooink, oink...[pause]
+  - "[\\x0207]Trooper[\\x0207]The A.o.A might\nlose...[pause][\\x0203]What should I do \nthen? Would they\nforgive me?[pause]"
+  - "[\\x0207]Trooper[\\x0207]We lost.[pause][\\x0203]Oh well, it was \na good time \nto get out.[pause][\\x0203]I'm going to live \na good life \nnow...[pause]"
+  - "[\\x0207]BKSeraphimon[\\x0207]Courage is the \nmost powerful \nweapon![pause][\\x0203]Do not forget it![pause]"
+  - "[\\x0207]BKSeraphimon[\\x0207]Courage is the \nmost powerful \nweapon![pause][\\x0203]Do not forget it![pause]"
+  - "[\\x0207]BKSeraphimon[\\x0207]Your courage \ndefeated the \nA.o.A![pause][\\x0203]Remember that \nfeeling![pause]"
+  - "[\\x0207]BKSeraphimon[\\x0207]Always believe \nin yourself and\nhave courage![pause][\\x0203]Then your path \nwill be revealed![pause]"
+  - '43'
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Junk Food Erick[\x0207]Oink, oioioionk!
+    Oink, oink.[pause]
+  - "[\\x0207]Junk Food Erick[\\x0207]I'm happy eating junk \nfood![pause][\\x0203]Here, have one. \nThis candy is great![pause]"
+  - |-
+    [\x0207]Junk Food Erick[\x0207]Oink, oioioionk!
+    Oink, oink.[pause]
+  - '[\x0207]London''s Scott[\x0207]Oink, oink.[pause][\x0203]Oooink, oionk.[pause]'
+  - "[\\x0207]London's Scott[\\x0207]Who defeated the\nA.o.A?![pause][\\x0203]You?! \nYou're kidding me, \nright?![pause]"
+  - '[\x0207]London''s Scott[\x0207]Oink, oink.[pause][\x0203]Oooink, oionk.[pause]'
+  - |-
+    [\x0207]Newlywed Haram[\x0207]Oink,
+    oioioink, oink!
+    Oooink, ooink![pause]
+  - "[\\x0207]Newlywed Haram[\\x0207]It's great to be back \nto normal![pause][\\x0203]I didn't tell my wife I \nwas playing because\nshe'd get mad![pause]"
+  - |-
+    [\x0207]Newlywed Haram[\x0207]Oink,
+    oioioink, oink!
+    Oooink, ooink![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Smart Sherlock[\x0207]Ooink, oink.
+    Oooink, oink...[pause]
+  - "[\\x0207]Smart Sherlock[\\x0207]How did the A.o.A \nturn us into \nOinkmon...[pause][\\x0203]It's an intriguing\nquestion![pause]"
+  - |-
+    [\x0207]Smart Sherlock[\x0207]Ooink, oink.
+    Oooink, oink...[pause]
+  - |-
+    [\x0207]Dr. Watson[\x0207].....oink?!
+    Ooooink, oink,
+    oooooink![pause]
+  - "[\\x0207]Dr. Watson[\\x0207]Um, ah...\nNo problems \ninternally.[pause][\\x0203]I guess the body is \nfine after changing \nback![pause]"
+  - |-
+    [\x0207]Dr. Watson[\x0207].....oink?!
+    Ooooink, oink,
+    oooooink![pause]
+  - |-
+    [\x0207]Grandma Hudson[\x0207]Ooin! Oioioioink,
+    oooink, ooioio...[pause]
+  - |-
+    [\x0207]Grandma Hudson[\x0207]It was God who
+    helped us...[pause][\x0203]I'm so grateful
+    that he watches
+    over us.[pause]
+  - |-
+    [\x0207]Grandma Hudson[\x0207]Ooin! Oioioioink,
+    oooink, ooioio...[pause]
+  - |-
+    [\x0207]Secretary Reika[\x0207]Oink, oink,
+    ooink, ooiiiink![pause]
+  - "[\\x0207]Secretary Reika[\\x0207]I have to get the \npresident![pause][\\x0203]We'll be late for \ntoday's meeting![pause]"
+  - |-
+    [\x0207]Secretary Reika[\x0207]Oink, oink,
+    ooink, ooiiiink![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]SIGN[\x0207]North: Who knows
+    East: Go look
+    West: Whatever[pause]
+  - |-
+    [\x0207]Manager Lain[\x0207]Ooioioioiioi,
+    oionk, oinoionk![pause]
+  - "[\\x0207]Manager Lain[\\x0207]Oh, I have to \ncontact the \nTV station![pause][\\x0203]I can't use my cell \nphone. Where's\na pay phone![pause]"
+  - |-
+    [\x0207]Manager Lain[\x0207]Ooioioioiioi,
+    oionk, oinoionk![pause]
+  - |-
+    [\x0207]Actor Mark[\x0207]Oioin, oink!
+    Oioionnnnkkk![pause]
+  - "[\\x0207]Actor Mark[\\x0207]Lain is late.[pause][\\x0203]She said she was\ngoing to call the \nReal World.[pause]"
+  - |-
+    [\x0207]Actor Mark[\x0207]Oioin, oink!
+    Oioionnnnkkk![pause]
+  - '43'
+  - '43'
+  - |-
+    [\x0207]Senior Yuji[\x0207]Oink, oink.
+    Ooink, oooinnnk![pause]
+  - "[\\x0207]Senior Yuji[\\x0207]I hadn't stopped by \nin a while.[pause][\\x0203]I think I'll just \nstudy at home for \na while...[pause]"
+  - |-
+    [\x0207]Senior Yuji[\x0207]Oink, oink.
+    Ooink, oooinnnk![pause]
+  - |-
+    [\x0207]Slacker Frank[\x0207]Oinkoink!
+    Oioink, oink![pause]
+  - "[\\x0207]Slacker Frank[\\x0207]You shouldn't let \nsomething like this get \nyou down![pause][\\x0203]I've been in worse \nsituations![pause][\\x0203]How? \nHa ha ha! \nThat's a secret![pause]"
+  - |-
+    [\x0207]Slacker Frank[\x0207]Oinkoink!
+    Oioink, oink![pause]
+  - a
+  - |-
+    [\x0207]Miss Ripley[\x0207]Oin, oink, oink!
+    Oiiink, ooioionk![pause]
+  - "[\\x0207]Miss Ripley[\\x0207]I never thought I'd \nbe turned into a \nmonster![pause][\\x0203]I'd prefer fighting \nmonsters alone \nover that.[pause]"
+  - |-
+    [\x0207]Miss Ripley[\x0207]Oin, oink, oink!
+    Oiiink, ooioionk![pause]
+  - |-
+    [\x0207]Grandpa Freud[\x0207]Oiooink...oink?
+    Ooink, oooink.[pause]
+  - "[\\x0207]Grandpa Freud[\\x0207]I had a bad dream...[pause][\\x0203]I wonder what that  \ndream was suppose \nto mean?[pause]"
+  - |-
+    [\x0207]Grandpa Freud[\x0207]Oiooink...oink?
+    Ooink, oooink.[pause]
+  - "[\\x0207]BK WarGrowlmon[\\x0207]No one comes to visit \nbecause of the \nA.o.A! I'm lonely![pause]"
+  - "[\\x0207]BK WarGrowlmon[\\x0207]No one comes to visit \nbecause of the \nA.o.A! I'm lonely![pause]"
+  - "[\\x0207]BK WarGrowlmon[\\x0207]Now people will \nbe able to come![pause][\\x0203]My dream is to \nbecome friends with \nlots of tamers![pause]"
+  - "[\\x0207]BK WarGrowlmon[\\x0207]People stopped coming \nagain because of them![pause][\\x0203]Please help![pause]"
+  - '43'
+  - |-
+    [\x0207]Armor Fan Pippin[\x0207]Oooi!
+    Oink,
+    ooioionk![pause]
+  - "[\\x0207]Armor Fan Pippin[\\x0207]Wow! You defeated \nthe A.o.A![pause][\\x0203]You must have great \narmor.[pause]"
+  - |-
+    [\x0207]Genius Osmond[\x0207]Oink! Oioionk!
+    Ooooi, oinnk![pause]
+  - "[\\x0207]Genius Osmond[\\x0207]...wait one\nmoment...[pause][\\x0203]Einstein's Theory of \nRelativity is...[pause][\\x0203]Good! I haven't \nforgotten anything![pause]"
+  - "[\\x0207]BK KingNumemon[\\x0207]Even the A.o.A \nwon't come here, \nso it's nice.[pause]"
+  - "[\\x0207]BK KingNumemon[\\x0207]Even the A.o.A \nwon't come here, \nso it's nice.[pause]"
+  - "[\\x0207]BK KingNumemon[\\x0207]You're amazing to \ndefeat the A.o.A.[pause][\\x0203]It's OK if you \nget defeated by a \ntamer like that.[pause]"
+  - "[\\x0207]BK KingNumemon[\\x0207]The A.o.A just\ndoesn't give up.[pause][\\x0203]You can just go \nand beat them \nall up![pause]"
+  - '43'
+  - |-
+    [\x0207]Operator Maki[\x0207]Oin? Oioink.
+    Ooooionnn.[pause]
+  - "[\\x0207]Operator Maki[\\x0207]We escaped all the \nway here![pause][\\x0203]But everyone else...[pause][\\x0203]They were all \nturned into \nOinkmon![pause]"
+  - "[\\x0207]Operator Maki[\\x0207]Destromon?!\nYou have to stop \nhim quick![pause]"
+  - |-
+    [\x0207]Operator Kaori[\x0207]Oink, oink.
+    Oooink, oioioink![pause]
+  - "[\\x0207]Operator Kaori[\\x0207]I wanted to contact \nthe other servers.[pause][\\x0203]But then they would've \nfound where we were![pause]"
+  - "[\\x0207]Operator Kaori[\\x0207]Only the Admin\nCenter is left, \nright?[pause][\\x0203]So go over there\nand show them\nwho's da boss![pause]"
+  - |-
+    [\x0207]Operator Yuuko[\x0207]Oink, oinknoink.
+    Oink?! Oooink![pause]
+  - "[\\x0207]Operator Yuuko[\\x0207]The A.o.A captured\ngood tamers...[pause][\\x0203]And are forcing\nthem to train \nDigimon for warfare.[pause][\\x0203]We have to stop them \nbefore they reach the\nother servers.[pause]"
+  - "[\\x0207]Operator Yuuko[\\x0207]Chief Officer must be \nin the Master Room \nof the Admin Center![pause][\\x0203]But he's powerful,\nso please be \ncareful![pause]"
+  - "[\\x0207]Operator Maki[\\x0207]What? You really \ndefeated the \nA.o.A?![pause][\\x0203]You're a great \ntamer! Thank you\nso much![pause]"
+  - "[\\x0207]Operator Kaori[\\x0207]Then Bai Hu City is\nback to normal?[pause][\\x0203]Oh, I have to get \nback to my post.[pause]"
+  - "[\\x0207]Operator Yuuko[\\x0207]You won that easily?\nThat's strange...[pause][\\x0203]I can't believe they'd \nlose that easily![pause]"
+  - "[\\x0207]Tamer Takuya[\\x0207]...You really \ncame here all \nalone?[pause][\\x0203]You don't look \nthat strong...[pause]"
+  - a
+  - "[\\x0207]Tamer Takuya[\\x0207]Well, a kid like \nyou should just \nstay quiet.[pause][\\x0203]We, the \nResistance, will \nhandle it![pause]"
+  - "[\\x0207]Tamer Takuya[\\x0207]Well, let's see \nhow good you \nare in a duel.[pause]"
+  - "[\\x0207]Tamer Takuya[\\x0207]...Sorry, I shouldn't \nlook down on you \nbecause you're a kid.[pause][\\x0203]There's no difference \nwhether you're a kid or\nan adult here![pause]"
+  - "[\\x0207]Tamer Takuya[\\x0207]Well, let's see \nhow good you \nare in a battle.[pause]"
+  - "[\\x0207]Tamer Takuya[\\x0207]Sorry! I'm not \nmaking fun of \nyou![pause][\\x0203]I know how \nstrong you are![pause]"
+  - "[\\x0207]Tamer Takuya[\\x0207]Well, how about \na duel with me?[pause]"
+  - "[\\x0207]Tamer Takuya[\\x0207]You're so weak.[pause][\\x0203]I guess the A.o.A\nis nothing if they \nlost to you![pause]"
+  - "[\\x0207]Tamer Takuya[\\x0207]I give up. You're\ngood! Sorry I made\nfun of you![pause][\\x0203]It'd be great if \nthere're more people \nlike you![pause]"
+  - "[\\x0207]Tamer Takuya[\\x0207]Hey, a kid like \nyou should just \nstay quiet.[pause][\\x0203]We, the \nResistance will \nhandle it![pause]"
+  - "[\\x0207]Tamer Murdock[\\x0207]Only we were saved \nfrom the A.o.A...[pause][\\x0203]Things are really \ngetting out of \nhand...[pause]"
+  - a
+  - "[\\x0207]Tamer Murdock[\\x0207]I'm sorry I don't \nfeel like dueling \nor battling.[pause][\\x0203]Let's do it some \nother time.[pause]"
+  - "[\\x0207]Tamer Murdock[\\x0207]Worrying about it \nhere won't make \na difference.[pause][\\x0203]Let's duel to get \nour minds off of \nit![pause]"
+  - "[\\x0207]Tamer Murdock[\\x0207]Worrying about it \nhere won't make \na difference.[pause][\\x0203]So, why don't \nwe try a digimon \nbattle for fun?[pause]"
+  - "[\\x0207]Tamer Murdock[\\x0207]Worrying about it \nhere won't make \na difference.[pause][\\x0203]We're just going to \nfight with them! \nThat's all for now![pause]"
+  - "[\\x0207]Tamer Murdock[\\x0207]But we can't give \nup here![pause][\\x0203]We must fight and \nsave this world![pause]"
+  - "[\\x0207]Tamer Murdock[\\x0207]We need to be \nrelaxed at a \ntime like this![pause][\\x0203]Let's enjoy a duel![pause]"
+  - "[\\x0207]Tamer Murdock[\\x0207]Oh, sorry for letting \nme win...[pause][\\x0203]If the A.o.A was as \nweak as you, it would \nbe so much easier...[pause]"
+  - "[\\x0207]Tamer Murdock[\\x0207]Hmm, you're pretty \nstrong![pause][\\x0203]If we can get more \ntamers like you, \nmaybe we can win![pause]"
+  - "[\\x0207]Tamer Murdock[\\x0207]I'm sorry I don't \nfeel like dueling \nor battling.[pause][\\x0203]Let's do it some \nother time.[pause]"
+  - |-
+    [\x0207]Tamer Takuya[\x0207]Ooink, oink!
+    Ooooink, onk![pause]
+  - |-
+    [\x0207]Tamer Murdock[\x0207]Oioionk, oin.
+    Oooink, oi![pause]
+  - |-
+    [\x0207]Resistance's Tina[\x0207]Oink, oink!
+    Ooink, oooink![pause]
+  - "[\\x0207]Resistance's Tina[\\x0207]This is the hideout of \nthe Resistance.[pause][\\x0203]We fight from this \ncentral location![pause]"
+  - "[\\x0207]Resistance's Tina[\\x0207]The Leaders went\nto take back their \ncities![pause][\\x0203]We're holding \ndown the fort\nuntil they do![pause]"
+  - "[\\x0207]Resistance's Tina[\\x0207]Yeaaay!\nWe won![pause][\\x0203]There's nothing to \nfear if we work\ntogether![pause]"
+  - '43'
+  - '43'
+  - "[\\x0207]Guard Banch[\\x0207]I can't believe you \ncame from Asuka \nServer.[pause][\\x0203]Are you a spy of the \nA.o.A?![pause]"
+  - "[\\x0207]Guard Banch[\\x0207]Sorry I \nsuspected \nyou...[pause][\\x0203]It's hard to \nbelieve at a \ntime like this...[pause]"
+  - "[\\x0207]Guard Banch[\\x0207]If you're not a \nspy, defeat me \nin duel![pause]"
+  - "[\\x0207]Guard Banch[\\x0207]...No, you're \nnot a spy![pause][\\x0203]I can tell just by \nlooking at your \neyes![pause]"
+  - "[\\x0207]Guard Banch[\\x0207]If you're not a \nspy defeat me \nin battle![pause]"
+  - |-
+    [\x0207]Guard Banch[\x0207]Sorry, it's a joke!
+    I'm just egging you
+    on![pause]
+  - "[\\x0207]Guard Banch[\\x0207]You can't lie to me.\nI'll find out who you \nreally are in a duel![pause]"
+  - "[\\x0207]Guard Banch[\\x0207]...someone weak like\nyou can't be a spy.[pause][\\x0203]Sorry I suspected \nyou![pause]"
+  - |-
+    [\x0207]Guard Banch[\x0207]You fight really well![pause][\x0203]I'm sorry to call a great
+    tamer like you a spy...
+    Forgive me![pause]
+  - "[\\x0207]Guard Banch[\\x0207]I can't believe you \ncame from Asuka \nServer.[pause][\\x0203]Are you a spy of the \nA.o.A?![pause]"
+  - a
+  - "[\\x0207]Courageous Kenny[\\x0207]Our leader is \nChuck![pause][\\x0203]He's really brave \nand everyone \nrespects him![pause]"
+  - "[\\x0207]Courageous Kenny[\\x0207]Chuck...\nThe leader isn't \nhere![pause][\\x0203]The Resistance is \nfinally heading out\nto fight![pause]"
+  - a
+  - |-
+    [\x0207]Courageous Kenny[\x0207]Oin, oinkkk!
+    Oink, oink oink![pause]
+  - "[\\x0207]Operator Mineri[\\x0207]Chuck's soft spoken, \nbut he'll fight \nwhen it's time![pause][\\x0203]He's one of those\nstrong silent types.[pause]"
+  - |-
+    [\x0207]Operator Mineri[\x0207]Oink, oinknoink!
+    Oinoinoink, oink![pause]
+  - "[\\x0207]Grandpa Marlo[\\x0207]We'll take back this\nserver![pause][\\x0203]I know that Chuck \nand the others will \nwin![pause]"
+  - a
+  - |-
+    [\x0207]Grandpa Marlo[\x0207]Oink, oink!
+    Ooink, oink, oink![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207][\x020902]3Yeah! I got a
+    Super Charge![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! I got a
+    Power Charge![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! I got an
+    Evil Fang![pause]
+  - a
+  - a
+  - a
+  - |-
+    [\x0207][\x020902]3Yeah! I got a
+    Life Disk![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! I got an
+    Armor Chip![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! I got a
+    Mind Chip![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! I got a
+    Boost Chip![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! I got a
+    Charisma Chip![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207][\x020902]3Yeah! I got a
+    Hazard Armor![pause]
+  - a
+  - |-
+    [\x0207][\x020902]3Yeah! I got a
+    High Security![pause]
+  - a
+  - "[\\x0207][\\x020902]3...huh? \nIt's empty...[pause]"
+  - a
+  - a
+  - a
+  - a
+  - "[\\x0207]Racer Jan[\\x0207]Oh yeah! This\nis better than\nwinning a race![pause][\\x0203]It'd be great if we \nhad cake to \ncelebrate![pause]"
+  - |-
+    [\x0207]Racer Jan[\x0207]Oooink, oink,
+    oioioinnk![pause]
+  - "[\\x0207]Baseball Shigeo[\\x0207]Well, you see,\nit's, ah...[pause][\\x0203]Just be happy \nto be back. That's \nthe ticket![pause]"
+  - |-
+    [\x0207]Baseball Shigeo[\x0207]Oink, oink,
+    ooinknoink oink![pause]
+  - "[\\x0207]Golfer Woods[\\x0207]Thank goodness![pause][\\x0203]I haven't felt\nthis good since my \nhole in one![pause]"
+  - |-
+    [\x0207]Golfer Woods[\x0207]Ooooooink!
+    Oooinnk, oinknoink![pause]
+  - "[\\x0207]Marathon Fan Naoko[\\x0207]I wonder who helped \nus?[pause][\\x0203]I want to \ncongratulate that \nperson![pause]"
+  - |-
+    [\x0207]Marathon Fan Naoko[\x0207]Oinoinonk, oink.
+    Ooinik, oinkoink![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - "[\\x0207]Miser Reagan[\\x0207]Maybe it's because I've \nbeen so self[-4]centered.[pause][\\x0203]I'll try harder to be \nmore giving...[pause]"
+  - |-
+    [\x0207]Miser Reagan[\x0207]Ooin, ooinik,
+    oooiioinio, oink![pause]
+  - "[\\x0207]Selfish Goldie[\\x0207]No, no, noooo![pause][\\x0203]I'm supposed to be \nMagnaAngemon, not \nOinkmon![pause][\\x0203]Someone change me \nnow![pause]"
+  - |-
+    [\x0207]Selfish Goldie[\x0207]Oooooinki, oink,
+    ooinkkkk![pause]
+  - "[\\x0207]Slacker Tatsu[\\x0207]No one knows that \nI'm here...[pause][\\x0203]I'm just glad we\ngot turned back![pause]"
+  - |-
+    [\x0207]Slacker Tatsu[\x0207]Oink, oinnknoink,
+    oinnk, oin. Oink,
+    ooink, oink![pause]
+  - "[\\x0207]Cake Lover Bianca[\\x0207]I'm just so stressed \nafter being turned \ninto Oinkmon![pause][\\x0203]I'll just have some\ncake when we get\nback home.[pause]"
+  - |-
+    [\x0207]Cake Lover Bianca[\x0207]Oinonkoink!
+    Oioink, oinnk![pause]
+  - |-
+    [\x0207]Stylist Talia[\x0207]Women need to be
+    beautiful even if
+    they're Oinkmon![pause][\x0203]I'm going to develop
+    Oinkmon Fashion
+    now.[pause]
+  - |-
+    [\x0207]Stylist Talia[\x0207]Oinnnnk, oink!
+    Oinnkoink,
+    Oooink, oink![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - "[\\x0207]Courageous Kenny[\\x0207]...hey, are \nyou\n[\\x020801][\\x020501]?![pause]"
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Tamer Heinrich[\x0207]Ooink, oink.
+    Oooo, oink![pause]
+  - "[\\x0207]Tamer Heinrich[\\x0207]It's boring to be \non the look out.[pause][\\x0203]I want to fight \nthem too![pause]"
+  - a
+  - "[\\x0207]Tamer Heinrich[\\x0207]Leader is being\ntoo careful.[pause][\\x0203]I think there's \nonly one option. \nAttack![pause]"
+  - "[\\x0207]Tamer Heinrich[\\x0207]Hey, since we're \nhere, how about \na duel?[pause]"
+  - "[\\x0207]Tamer Heinrich[\\x0207]You seem to be \nhaving fun fighting\nthem![pause]"
+  - "[\\x0207]Tamer Heinrich[\\x0207]Hey, since we're \nhere, how about \na battle?[pause]"
+  - "[\\x0207]Tamer Heinrich[\\x0207]Leader thought \nthat I was weak and \nput me on watch...[pause][\\x0203]If only I was just a \nlittle stronger...[pause]"
+  - |-
+    [\x0207]Tamer Heinrich[\x0207]Hey, come on [-4]
+    duel with me![pause]
+  - "[\\x0207]Tamer Heinrich[\\x0207]See, I can do it\ntoo![pause][\\x0203]I think my talents \nare wasted![pause]"
+  - "[\\x0207]Tamer Heinrich[\\x0207]...hey, you're \nstrong![pause][\\x0203]You weren't lying\nwhen you said you \ncame here alone.[pause]"
+  - "[\\x0207]Tamer Heinrich[\\x0207]Leader is being\ntoo careful.[pause][\\x0203]I think there's \nonly one option. \nAttack![pause]"
+  - "[\\x0207][\\x020902]3Yeah! I got \n300 BIT![pause]"
+  - |-
+    [\x0207][\x020902]3Yeah! I got the
+    Tempest Arm![pause]
+  - "[\\x0207]PTA Thatcher[\\x0207]This game is too \ndangerous for kids! It \nshould be banned![pause][\\x0203]I'll have a meeting \nwhen I return to the\nReal World![pause]"
+  - |-
+    [\x0207]PTA Thatcher[\x0207]Oink!
+    Oiooink, oink,
+    oooink![pause]
+  - "[\\x0207]Maniac McLarlen[\\x0207]If you're a tamer, you \nhave to shoot for \nthe best.[pause][\\x0203]I just need \nApocalypse \nto be complete![pause][\\x0203]And then I'll be the\nnext World Champ![pause]"
+  - |-
+    [\x0207]Maniac McLarlen[\x0207]Oink, oinoinoink!
+    Oink, oink,
+    oioooink![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! I got the
+    Laser Cannon![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! I got the
+    Crystal Rod![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! I got the
+    Venom Fang![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! I got the
+    Grey Sword![pause]
+  - "[\\x0207]Sakura[\\x0207]You're not the A.o.A?! \nThen I'll tell you \nsomething great![pause][\\x0203]There are weapons you \ncan't buy or get in a \ntreasure box.[pause][\\x0203]But if you become friends \nwith certain Digimon you \ncan get it![pause][\\x0203]So you should talk to as \nmany Digimon as you can.[pause]"
+  - "[\\x0207]Sakura[\\x0207]You'll need good\nweapons to fight \nthe A.o.A![pause][\\x0203]It'll be good if you \ncan get weapons \nfrom Digimon...[pause]"
+  - "[\\x0207]Sakura[\\x0207]Yeah!\nThe A.o.A is \ngone![pause][\\x0203]Now it'll be\neasier for me \nto get items![pause]"
+  - |-
+    [\x0207]Sakura[\x0207]...ooink?!
+    Oionk, oinonon,
+    ooink, oonoinok![pause]
+  - "[\\x0207]Gourmet Maggy[\\x0207]A first rate gourmet \nneeds to understand \nthe ingredients![pause][\\x0203]Now I can eat a whole \npig with more zeal![pause]"
+  - |-
+    [\x0207]Gourmet Maggy[\x0207]Ooink!
+    Oinoink, oinoink,
+    ooink, oink.[pause]
+  - "[\\x0207]Boxer Balboa[\\x0207]Hook, body, body \nblow![pause][\\x0203]I'll sock it to him![pause]"
+  - |-
+    [\x0207]Boxer Balboa[\x0207]Ooink, oink, oink
+    ooink, oinonionk![pause]
+  - "[\\x0207]Shy Shaina[\\x0207]Oh, no...\nI feel faint...[pause][\\x0203]I think I'll faint \njust thinking \nabout it.[pause]"
+  - |-
+    [\x0207]Shy Shaina[\x0207]...Oink, oink?
+    Oink, oinoinoink.[pause]
+  - '43'
+  - '43'
+  - |-
+    [\x0207][\x020902]3Yeah! I got
+    the Royal
+    Spear![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! I got a
+    Mega Charge![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! I got
+    the Trihorn![pause]
+  - "[\\x0207]Ice Master[\\x0207]You'll be able to \nfight with them \nfull force![pause][\\x0203]I just know you \ncan.[pause]"
+  - |-
+    [\x0207]Ice Master [\x0207]The A.o.A is trying
+    to take over the
+    Real World right?[pause][\x0203]Shouldn't you be
+    doing something
+    about it?[pause]
+  - "[\\x0207]Ice Master[\\x0207]Just as I thought.\nYou're pretty \ngood![pause]"
+  - |-
+    [\x0207]Ice Master[\x0207]Oooink, oink,
+    ooink,
+    ooinioink![pause]
+  - '43'
+  - "[\\x0207]Hideki[\\x0207]Even the A.o.A \ndidn't come this \nfar![pause][\\x0203]There's too many \ntraps in this \ndungeon![pause]"
+  - "[\\x0207]Hideki[\\x0207]Have you heard of\nDigital Fusion?[pause][\\x0203]It's a technique \nthat fuses Digimon\nwith a weapon![pause][\\x0203]The A.o.A's been \nresearching it for\na while![pause]"
+  - "[\\x0207]Hideki[\\x0207]The A.o.A's going\nto be finally\ngone![pause][\\x0203]I know, you \ndefeated their \nboss![pause]"
+  - |-
+    [\x0207]Hideki[\x0207]Oooink?!
+    Oink, oink,
+    ooink![pause]
+  - '43'
+  - "[\\x0207]Patamon[\\x0207]Be careful from \nhere.[pause][\\x0203]It's dangerous \nbecause it's\nso slippery![pause]"
+  - |-
+    [\x0207]Patamon[\x0207]No one's coming so
+    I'm lonely...
+    It's A.o.A's fault![pause]
+  - "[\\x0207]Patamon[\\x0207]I hope people will\ncome here again![pause][\\x0203]It's so boring being \nhere alone![pause]"
+  - "[\\x0207]Patamon[\\x0207]Wha[-4]what should I\ndo?![pause][\\x0203]A strange Digimon \ncame and Hideki got \nturned into Oinkmon![pause]"
+  - '43'
+  - "[\\x0207]Fire Master[\\x0207]I'm glad you're\nnot the A.o.A![pause][\\x0203]Use that power \nfor good![pause]"
+  - "[\\x0207]Fire Master[\\x0207]The fighting\nis coming to\nan end.[pause][\\x0203]Use your \npowers to help \nothers![pause]"
+  - "[\\x0207]Fire Master[\\x0207]I knew you \ncould do it![pause][\\x0203]Justice is \npreserved! \nThank you![pause]"
+  - |-
+    [\x0207]Fire Master[\x0207]Ooink,
+    oiooioink!
+    Ooi, ooink![pause]
+  - '43'
+  - |-
+    [\x0207]Dark Master[\x0207]You're pretty good.
+    I'm kind of envious.[pause]
+  - "[\\x0207]Dark Master[\\x0207]Even though we're\nsuperior, they're \nthe A.o.A...[pause][\\x0203]Don't let your\nguard down...[pause]"
+  - |-
+    [\x0207]Dark Master [\x0207]I've heard...
+    I wish I could fight
+    too...[pause]
+  - |-
+    [\x0207]Dark Master[\x0207]...oink...
+    ...oink oink...[pause]
+  - '43'
+  - |-
+    [\x0207][\x020902]3Yeah! I got a
+    Beret![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! I got a
+    Royal Crown![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! I got a
+    Matrix Helmet![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! I got a
+    Mirage Robe![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! I got a
+    Misty Armor![pause]
+  - "[\\x0207]Party Girl Mira[\\x0207]We're going to party \nnow! We just have\nto celebrate![pause][\\x0203]You're invited as our \nspecial guest![pause]"
+  - |-
+    [\x0207]Party Girl Mira[\x0207]Ooink, oink!
+    Oooink, oionioink![pause]
+  - "[\\x0207]Gamer Yutaka[\\x0207]Man, I got to a \npretty good place![pause][\\x0203]The A.o.A took\nmy data so I have \nto start over![pause]"
+  - |-
+    [\x0207]Gamer Yutaka[\x0207]Ooink, oink!
+    Ooink, oink![pause]
+  - |-
+    [\x0207]Trooper[\x0207]I hate my job!
+    It sucks![pause]
+  - |-
+    [\x0207]Trooper[\x0207]...oh, just
+    a kid.
+    This sucks![pause]
+  - "[\\x0207]Trooper[\\x0207]Hey, you \nwanna Card\nBattle?[pause]"
+  - "[\\x0207]Trooper[\\x0207]Hey, you \nwanna Digimon \nBattle with me?[pause]"
+  - |-
+    [\x0207]Trooper[\x0207]...oh, it's
+    you again.
+    This sucks![pause]
+  - |-
+    [\x0207]Trooper[\x0207]Heh heh heh!
+    I win!
+    This is fun![pause]
+  - "[\\x0207]Trooper[\\x0207]I lost...\nThings just aren't \ngoing my way![pause]"
+  - |-
+    [\x0207]Trooper[\x0207]Hey, get out of
+    the way! I don't
+    have time for you![pause]
+  - "[\\x0207]Trooper[\\x0207]I got scolded \nfor playing![pause]"
+  - "[\\x0207]Trooper[\\x0207]Oh, you're that \ntamer!\nLet's battle![pause]"
+  - "[\\x0207]Trooper[\\x0207]...oh, a kid. \nDon't scare me![pause]"
+  - |-
+    [\x0207]Trooper[\x0207]Oh, you're that
+    duelist!
+    Let's duel![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - "[\\x0207]Trooper[\\x0207]Hey, you!\nWho are \nyou?![pause]"
+  - "[\\x0207]Trooper[\\x0207]Oh, just a \nkid.\nGo away![pause]"
+  - "[\\x0207]Trooper[\\x0207]You're \nsuspicious.[pause][\\x0203]Let's Card \nBattle to see \nwho you are![pause]"
+  - "[\\x0207]Trooper[\\x0207]You're \nsuspicious.[pause][\\x0203]Let's Digimon \nBattle to see \nwho you are![pause]"
+  - |-
+    [\x0207]Trooper[\x0207]Oh, it's you
+    again!
+    Just go away![pause]
+  - |-
+    [\x0207]Trooper[\x0207]Ha ha ha!
+    I won!
+    Take that![pause]
+  - "[\\x0207]Trooper[\\x0207]I lost...\nI'll let you go, so \njust go away![pause]"
+  - "[\\x0207]Trooper[\\x0207]Get out of the \nway! I don't have \ntime for you![pause]"
+  - "[\\x0207]Trooper[\\x0207]Where \nare you \ngoing?![pause]"
+  - |-
+    [\x0207]Trooper[\x0207]You're that tamer!
+    Prepare yourself![pause]
+  - "[\\x0207]Trooper[\\x0207]...I guess I \nwas wrong.\nGo away![pause]"
+  - |-
+    [\x0207]Trooper [\x0207]You're that duelist!
+    Prepare yourself![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - "[\\x0207]Selfish Louis[\\x0207]Why did everyone \nchange back?![pause][\\x0203]I'm the only one \nthat needed to \nchange back![pause]"
+  - |-
+    [\x0207]Selfish Louis[\x0207]...ooink, oink!
+    Ooink, oink![pause]
+  - "[\\x0207]Amadeus[\\x0207]Why climb?\nBecause the \nmountain is there.[pause][\\x0203]Why return?\nBecause I'm a human\nbeing![pause]"
+  - |-
+    [\x0207]Amadeus[\x0207]Ooink, oink oink!
+    Ooink, oink![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - "[\\x0207]Hal the Bully[\\x0207]When I got turned into \nOinkmon I felt what \nits like to be bullied.[pause][\\x0203]So I'm never going to \nbully anyone again![pause]"
+  - |-
+    [\x0207]Hal the Bully[\x0207]Oooink, oink!
+    Ooink, oinoinonk![pause]
+  - "[\\x0207]Cowardly Kate[\\x0207]...Aaah!\nDon't scare me![pause][\\x0203]I thought you \nwere the A.o.A![pause]"
+  - |-
+    [\x0207]Cowardly Kate[\x0207]...Ooink?!
+    Ooink!
+    Ooooinkoink![pause]
+  - "[\\x0207]Sherwood's Robin[\\x0207]We won't lose now that \nI'm here![pause][\\x0203]...If I wasn't\nalready an\nOinkmon...[pause]"
+  - |-
+    [\x0207]Sherwood's Robin[\x0207]Ooioioinoinoink.
+    Oioioink, oink!
+    Ooinonoink![pause]
+  - '43'
+  - '43'
+  - '43'
+  - "[\\x0207]Bad boy Dennis[\\x0207]Hey, keep what \nhappened today \na secret.[pause][\\x0203]If people found out \nthat I got turned into \nthat cute Oinkmon...[pause][\\x0203]They'd ridicule me\nforever![pause]"
+  - |-
+    [\x0207]Bad boy Dennis[\x0207]...oink,
+    oionioik, oink!
+    Oioink, oinoink![pause]
+  - "[\\x0207]Anime Fan Hayato[\\x0207]Hey can't we change \ninto something else?[pause][\\x0203]I want to be the \nsuperhero, Skamon\nMan![pause]"
+  - |-
+    [\x0207]Anime Fan Hayato[\x0207]Oooink, oink!
+    Oiooink, ooink![pause]
+  - "[\\x0207]Sherry[\\x0207]I was getting \nexcited that a \nghost would come.[pause][\\x0203]But nothing came...[pause]"
+  - |-
+    [\x0207]Sherry[\x0207]Ooi...ooink,
+    oionk, oink![pause]
+  - '43'
+  - '43'
+  - '43'
+  - |-
+    [\x0207]Tamer Mai[\x0207]...Hey, wait.
+    I'm not the A.o.A![pause][\x0203]I ran and came
+    here...[pause]
+  - a
+  - |-
+    [\x0207]Tamer Mai[\x0207]It's safe here.
+    You can train here.[pause]
+  - |-
+    [\x0207]Tamer Mai[\x0207]It's safe here.
+    You can duel here.[pause]
+  - "[\\x0207]Tamer Mai[\\x0207]It's safe here.\nMagnamon will protect \nus.[pause]"
+  - |-
+    [\x0207]Tamer Mai[\x0207]It's safe here.
+    You can battle here.[pause]
+  - "[\\x0207]Tamer Mai[\\x0207]Oh, I thought you \nwere a stronger \ntamer...[pause][\\x0203]Please don't get in \ntheir way when they \nfight.[pause]"
+  - "[\\x0207]Tamer Mai[\\x0207]You're strong![pause][\\x0203]When the A.o.A \ncomes, protect\nus![pause]"
+  - |-
+    [\x0207]Tamer Mai[\x0207]It's safe here.
+    You can train here.[pause]
+  - |-
+    [\x0207]Tamer Mai[\x0207]With tamers like you,
+    this place is safe![pause][\x0203]Now I can rest.[pause]
+  - |-
+    [\x0207]Tamer Mai[\x0207]I want to duel with a
+    regular tamer![pause][\x0203]Come on, let's duel![pause]
+  - "[\\x0207]Tamer Gon[\\x0207]...oh, I was \nhiding and you found\nme out![pause]"
+  - a
+  - "[\\x0207]Tamer Gon[\\x0207]...oh, you're \nnot the A.o.A![pause][\\x0203]You scared the \nlife out of me.[pause]"
+  - "[\\x0207]Tamer Gon[\\x0207]...I guess I'll \nfight as well![pause][\\x0203]Let's duel![pause]"
+  - "[\\x0207]Tamer Gon[\\x0207]...oh, you're \nnot the A.o.A![pause][\\x0203]Don't tell anyone \nabout me![pause]"
+  - "[\\x0207]Tamer Gon[\\x0207]...I guess I'll \nfight as well![pause][\\x0203]I'll defeat you in \na battle![pause]"
+  - "[\\x0207]Tamer Gon[\\x0207]...oh, you're \nnot the A.o.A![pause][\\x0203]Hmm...I was pumped \nup to fight you![pause]"
+  - "[\\x0207]Tamer Gon[\\x0207]...I guess I'll \nfight as well![pause][\\x0203]I was called \"Duel\nGon\" back in the\ndays![pause]"
+  - "[\\x0207]Tamer Gon[\\x0207]Ho ho ho,\nI'm not rusty yet![pause][\\x0203]...oh, you're not \nthe A.o.A!\nHmmm...too bad.[pause]"
+  - "[\\x0207]Tamer Gon[\\x0207]All right, do your \nworst![pause][\\x0203]...oh, you're not\nthe A.o.A!\nPhew, I'm glad...[pause]"
+  - "[\\x0207]Tamer Gon[\\x0207]...oh, you're \nnot the A.o.A![pause][\\x0203]You scared the \nlife out of me.[pause]"
+  - |-
+    [\x0207]Tamer Mai[\x0207]Ooink, oink!
+    Oioink, ooioink![pause]
+  - |-
+    [\x0207]Tamer Gon[\x0207]Oi, oioioin,
+    oi, oioioink![pause]
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - "[\\x0207]Gatomon[\\x0207]Welcome to my Inn![pause][\\x0203]Please relax and \nrest.[pause]"
+  - |-
+    [\x0207]Guardromon[\x0207]ACCESSING
+    MATRIX DRIVE.[pause]
+  - |-
+    [\x0207]Gargomon[\x0207]Ka Boom!
+    This is the
+    Armory![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Hey! I'm actually
+    a genius
+    weapon smith![pause][\x0203]But, you guys got
+    no taste...[pause][\x0203]Come back again
+    when you've got
+    better armors![pause]
+  - a
+  - a
+  - "[\\x0207]BKSeraphimon[\\x0207]I am Black\nSeraphimon![pause][\\x0203]You've come to \nthis divine place, \nnow pay the price.[pause]"
+  - "[\\x0207]BK WarGrowlmon[\\x0207]Wow, a tamer![pause][\\x0203]Hey let's play!\nNo one came so \nI was bored![pause]"
+  - "[\\x0207]BK KingNumemon[\\x0207]...who are you![pause][\\x0203]You're a fool to \nenter Black\nKingNumemon's area![pause]"
+  - "[\\x0207]Gatomon[\\x0207]This is the Oasis \nrest spot.[pause][\\x0203]Tired Digimon will \nrecover if you \nrest here.[pause]"
+  - a
+  - '[\x0207]Shakkoumon[\x0207]This is the gym.[pause][\x0203]No pain, no gain![pause]'
+  - |-
+    [\x0207]Asuramon[\x0207]Training is good.
+    Train well![pause]
+  - |-
+    [\x0207]Magnamon[\x0207]This is the Legendary
+    Gym, Hyper Version![pause][\x0203]It's the hardest in
+    Digimon Online, but
+    do you want to do it?[pause]
+  - |-
+    [\x0207]Guard Banch[\x0207]Oioionk, onk!
+    Oooink, oooiioo![pause]
+  - "[\\x0207]Leader Chuck[\\x0207]You're [\\x020801][\\x020501] \nfrom Asuka\nServer.[pause]"
+  - |-
+    [\x0207]Kabukimon[\x0207]Kotetsu is a
+    great sharp katana.[pause][\x0203]Use it carefully![pause]
+  - |-
+    [\x0207]Kabukimon[\x0207]My name is...
+    ...oh!
+    Kabukimon![pause]
+  - "[\\x0207]Kabukimon[\\x0207]I'm actually a\nstickler for katanas.[pause][\\x0203]If you bring\nOnimaru to me...[pause][\\x0203]I'll fuse it with\nRusty Katana and \nmake it great.[pause]"
+  - |-
+    [\x0207]Kabukimon[\x0207]Oh, you hold
+    in your hand the
+    great Onimaru![pause][\x0203]Then I will fuse
+    Onimaru with
+    Rusty Katana...[pause][\x0203]And create the
+    greatest weapon
+    Kotetsu.[pause][\x0203]All right, wait
+    one moment...
+    ...Aiyaaaaa![pause][\x0203]Hm! There
+    we have
+    Kotetsu![pause][\x0203]I'll give it to you.
+    It's very valuable,
+    so be careful.[pause]
+  - |-
+    [\x0207]Shurimon[\x0207]I am still in
+    training.[pause][\x0203]I am sorry, but
+    I cannot fight
+    with you.[pause]
+  - |-
+    [\x0207]Shurimon[\x0207]I am Shurimon!
+    The path to become
+    a Ninja is long![pause]
+  - |-
+    [\x0207]Shurimon[\x0207]Oh, you have
+    Rusty Rifle![pause][\x0203]Come back
+    here with Cluster
+    Cannon![pause][\x0203]I'll fuse the two
+    weapons to create
+    a more powerful one![pause]
+  - "[\\x0207]Shurimon[\\x0207]You got both Rusty \nRifle and Cluster \nCannon![pause][\\x0203]Will you give them\nto me?[pause][\\x0203]Shurimon[-4]way\nWeapon Evolution!\n...ayeeeeeya![pause][\\x0203]...good! It is now\nCluster Cannon.[pause][\\x0203]I will give this to\nyou, so use it\ncarefully![pause]"
+  - |-
+    [\x0207]Nohemon[\x0207]Isn't Zodiac great?
+    Use it well![pause]
+  - |-
+    [\x0207]Nohemon[\x0207]I'm Nohemon,
+    Not a scarecrow![pause]
+  - |-
+    [\x0207]Nohemon[\x0207]Oh, you have
+    Rusty Glove.[pause][\x0203]Then go get
+    Kaiser Fist.[pause][\x0203]Then I'll make you
+    a cooler weapon![pause]
+  - |-
+    [\x0207]Nohemon[\x0207]Oh, you got both
+    Rusty Glove
+    and Kaiser Fist![pause][\x0203]OK, give them to me.
+    Don't worry, I won't
+    take them.[pause][\x0203]OK, here we go.[pause][\x0203]...look at that [-4]
+    you got Zodiac![pause][\x0203]OK, I'll give this
+    back to you.
+    Use this well![pause]
+  - |-
+    [\x0207]Shadramon[\x0207]Sha sha sha!
+    Don't thank me.[pause][\x0203]I just did what
+    a bad guy would![pause]
+  - |-
+    [\x0207]Shadramon[\x0207]I'm Shadramon!
+    A logical bad guy![pause]
+  - |-
+    [\x0207]Shadramon[\x0207]Oh, you got an
+    Old Claw.[pause][\x0203]Why do you keep it?
+    They're gonna laugh
+    at you![pause][\x0203]Bring Saber Fang.
+    I'll turn them into
+    a real weapon![pause]
+  - "[\\x0207]Shadramon[\\x0207]You got both Saber \nFang and Old Claw.\nGive them to me![pause][\\x0203]Ooooh, this feel...\nit's great...[pause][\\x0203]OK, let's fuse it...[pause][\\x0203]And there!\nIsn't it cool?\nThis is Vanquish![pause][\\x0203]Well I got lots of 'em\nso I'll give you one![pause][\\x0203]Just don't let some\nregular bad guys\nlaugh at you![pause]"
+  - |-
+    [\x0207]Shadramon[\x0207]Sha sha sha!
+    Don't thank me.[pause][\x0203]I just did what
+    a bad guy would![pause]
+  - |-
+    [\x0207]Shadramon[\x0207]I'm Shadramon!
+    A logical bad guy![pause]
+  - |-
+    [\x0207]Shadramon[\x0207]Oh, you got an
+    Old Claw.[pause][\x0203]Why do you keep it?
+    They're gonna laugh
+    at you![pause][\x0203]Get Saber Fang.
+    I'll turn them into
+    a real weapon![pause]
+  - |-
+    [\x0207]Shadramon[\x0207]You got both Saber
+    Fang and Old Claw.
+    Give them to me![pause][\x0203]Ooooh, this feel...
+    it's great...[pause][\x0203]OK, let's fuse it...[pause][\x0203]And there!
+    Isn't it cool?
+    This is Vanquish![pause][\x0203]Well I got lots of 'em
+    so I'll give you one![pause][\x0203]Just don't let some
+    regular bad guys
+    laugh at you![pause]
+  - |-
+    [\x0207]Shadramon[\x0207]Sha sha sha!
+    Don't thank me.[pause][\x0203]I just did what
+    a bad guy would![pause]
+  - |-
+    [\x0207]Shadramon[\x0207]I'm Shadramon!
+    A logical bad guy![pause]
+  - |-
+    [\x0207]Shadramon[\x0207]Oh, you got an
+    Old Claw.[pause][\x0203]Why do you keep it?
+    They're gonna laugh
+    at you![pause][\x0203]Get Saber Fang.
+    I'll turn them into
+    a real weapon![pause]
+  - "[\\x0207]Shadramon[\\x0207]You got both Saber \nFang and Old Claw.\nGive them to me![pause][\\x0203]Ooooh, this feel...\nit's great...[pause][\\x0203]OK, let's fuse it...[pause][\\x0203]And there!\nIsn't it cool?\nThis is Vanquish![pause][\\x0203]Well I got lots of 'em\nso I'll give you one![pause][\\x0203]Just don't let some\nregular bad guys\nlaugh at you![pause]"
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Ponchomon[\x0207]Not many people
+    have Twinkle![pause][\x0203]Make sure you
+    boast it to your
+    friend, amigo![pause]
+  - |-
+    [\x0207]Ponchomon[\x0207]Hola amigo,
+    how's it going?![pause]
+  - "[\\x0207]Ponchomon[\\x0207]Yo, yo, yo.\nYou can't use \nno Old Wand![pause][\\x0203]You want me to\nmake you an avant\ngarde weapon?[pause][\\x0203]Bring Khakkhara\nand I'll make it\nanytime![pause]"
+  - "[\\x0207]Ponchomon[\\x0207]Amigo, you got Old \nWand and Khakkhara![pause][\\x0203]Then give them to\nme![pause][\\x0203]...cha, cha, cha!\nCha, cha, cha!\nOoooo mambo![pause][\\x0203]Here you go!\nIt's avant garde\nTwinkle![pause][\\x0203]You can boast about \nit! Good luck amigo![pause]"
+  - "[\\x0207]Yashamon[\\x0207]...only the truly \nstrong can hold \nMasamune...[pause][\\x0203]Do not forget to\nimprove yourself...[pause]"
+  - |-
+    [\x0207]Yashamon[\x0207]...I am Yashamon.
+    I like the strong...[pause]
+  - "[\\x0207]Yashamon[\\x0207]...strong should \nhold a suitable \nweapon...[pause][\\x0203]...if you have\nKotetsu, get\nTenjinmaru...[pause][\\x0203]...then I will make \nyou a better \nweapon...[pause]"
+  - |-
+    [\x0207]Yashamon[\x0207]...You have both
+    Kotetsu and
+    Tenjinmaru...[pause][\x0203]...If you have both
+    then I will create a
+    more powerful weapon.[pause][\x0203]...My strong soul,
+    dwell in these
+    two swords![pause][\x0203]...Hold it,
+    Masamune
+    is created...[pause][\x0203]...Farewell. Get
+    strong so that you
+    are fit for this sword...[pause]
+  - |-
+    [\x0207]Kongoumon[\x0207]Immaculate
+    is great![pause][\x0203]You're lucky
+    you met me![pause]
+  - "[\\x0207]Kongoumon[\\x0207]Shaka, shaka,\nshaka! I'm \nKongoumon![pause]"
+  - "[\\x0207]Kongoumon[\\x0207]What, you don't\nhave Crystal \nRod?[pause][\\x0203]Too bad, since you\ngot Twinkle![pause][\\x0203]If you get both,\nI'll make\nsomething great![pause]"
+  - |-
+    [\x0207]Kongoumon[\x0207]...Oh? You got
+    Crystal Rod and
+    Twinkle![pause][\x0203]Right on! Then
+    I'll make you
+    something great![pause][\x0203]Wait a sec.
+    Shaka shaka shaka.
+    Shaka shaka shaka![pause][\x0203]Look at here, this is
+    Immaculate![pause][\x0203]You're lucky,
+    I'm envious![pause]
+  - "[\\x0207]Kongoumon[\\x0207]Immaculate\nis great![pause][\\x0203]You're lucky \nyou met me![pause]"
+  - "[\\x0207]Kongoumon[\\x0207]Shaka, shaka,\nshaka! I'm \nKongoumon![pause]"
+  - "[\\x0207]Kongoumon[\\x0207]What, you don't have\nCrystal Rod?[pause][\\x0203]Too bad, since\nyou got Twinkle![pause][\\x0203]If you get both, \nthen bring it. I'll\nmake something great![pause]"
+  - |-
+    [\x0207]Kongoumon[\x0207]...Oh? You got
+    Crystal Rod
+    and Twinkle![pause][\x0203]Right on! Then
+    I'll make you
+    something great![pause][\x0203]Wait a sec.
+    Shaka shaka shaka.
+    Shaka shaka shaka![pause][\x0203]Look at here, this
+    is Immaculate![pause][\x0203]You're lucky,
+    I'm envious![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Isn't Invincible
+    great?[pause][\x0203]You're a good
+    tamer now![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Hey, that's
+    Destruction.
+    You got a nice one![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Bring Belial Fang
+    if you have
+    Destruction![pause][\x0203]Then I'll turn it
+    into a more
+    powerful weapon![pause]
+  - "[\\x0207]MetalEtemon[\\x0207]I'll turn it into\na more powerful\nweapon![pause][\\x0203]Give me Belial\nFang and \nDestruction![pause][\\x0203]...OK, here we go!\nKulon Digizoite\ncoating![pause][\\x0203]Here you go!\nOne Invincible![pause][\\x0203]You're going to\nbe one good\ntamer now![pause]"
+  - |-
+    [\x0207]MetalEtemon[\x0207]Hey, isn't
+    Eternally
+    great?[pause][\x0203]You're a cool
+    tamer now![pause]
+  - "[\\x0207]MetalEtemon[\\x0207]Hey, that's\nImmaculate. \nYou got a good one![pause]"
+  - |-
+    [\x0207]MetalEtemon[\x0207]If you have
+    Immaculate, bring
+    Millennium![pause][\x0203]Then I'll turn them
+    into Eternally![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]OK, I'll create
+    Eternally
+    for ya! [pause][\x0203]Hand me
+    Immaculate
+    and Millennium![pause][\x0203]Here we go!
+    Kulon Digizoite
+    Coating![pause][\x0203]Here you go!
+    One Eternally![pause][\x0203]You're going to
+    be one cool tamer
+    now![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Hey isn't
+    Super Nova
+    great?[pause][\x0203]You're a great
+    tamer now![pause]
+  - "[\\x0207]MetalEtemon[\\x0207]Hey, that's\nProminence. \nThat's good![pause]"
+  - |-
+    [\x0207]MetalEtemon[\x0207]If you have
+    Prominence, bring
+    Rising Fist![pause][\x0203]Then I'll recreate
+    'em into
+    Super Nova![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]OK, I'll create
+    Super Nova
+    for ya! [pause][\x0203]Hand me
+    Prominence and
+    Rising Fist![pause][\x0203]Here we go!
+    Kulon Digizoite
+    Coating![pause][\x0203]Here you go!
+    One Super Nova![pause][\x0203]You're going to
+    be one great
+    tamer now![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Invincible is
+    all right...[pause][\x0203]But a great tamer
+    should at least
+    have Eternally![pause]
+  - "[\\x0207]MetalEtemon[\\x0207]Eternally \nis cool...[pause][\\x0203]But right now \nis the time for\nSuper Nova.[pause]"
+  - |-
+    [\x0207]MetalEtemon[\x0207]Super Nova
+    is nice...[pause][\x0203]But an excellent
+    tamer should have
+    Punishment![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Hey isn't
+    Punishment
+    great?![pause][\x0203]You're one super
+    tamer now![pause]
+  - "[\\x0207]MetalEtemon[\\x0207]Hey, that's\nJudgment. \nYou got a nice one![pause]"
+  - |-
+    [\x0207]MetalEtemon[\x0207]If you have
+    Judgment, bring
+    Suijin Cannon![pause][\x0203]Then I'll recreate
+    'em into
+    Punishment![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]OK, I'll create
+    Punishment
+    for ya! [pause][\x0203]Hand me
+    Judgment and
+    Suijin Cannon![pause][\x0203]Here we go!
+    Kulon Digizoite
+    Coating![pause][\x0203]Here you go!
+    One Punishment![pause][\x0203]You're going to
+    be one super
+    tamer now![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Well Punishment
+    is all right...[pause][\x0203]But if you wanna be
+    Server Champ you
+    should have Muramasa![pause]
+  - "[\\x0207]MetalEtemon[\\x0207]Heh, heh, heh!\nHow's it going?![pause][\\x0203]Sorry, but can't \ndo anything \nany more.[pause][\\x0203]You've gotta rely\non your powers \nnow![pause]"
+  - |-
+    [\x0207]MetalEtemon[\x0207]Hey, how's
+    Muramasa?![pause][\x0203]You're the
+    strongest tamer
+    now![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]Hey you got
+    Muramasa![pause][\x0203]You got the
+    greatest piece![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]If you have
+    Masamune bring
+    Fuujin Blade![pause][\x0203]Then I'll turn it
+    into Muramasa![pause]
+  - |-
+    [\x0207]MetalEtemon[\x0207]OK, I'll create
+    Muramasa
+    for ya! [pause][\x0203]Hand me
+    Masamune and
+    Fuujin Blade![pause][\x0203]Here we go!
+    Kulon Digizoite
+    Coating![pause][\x0203]Here you go!
+    One Masamune![pause][\x0203]You're the strongest
+    tamer now![pause]
+  - "[\\x0207]Leader Chuck[\\x0207]We've got our \nhands full just \ndefending here.[pause][\\x0203]But when we get \nthe chance, we'll \nfight![pause][\\x0203]So until then,\ngood luck.[pause]"
+  - "[\\x0207]Trooper[\\x0207]What? \nYou only have \nthe Crony ID?[pause][\\x0203]Then I can't let you \npass. Orders are \norders.[pause]"
+  - |-
+    [\x0207]Trooper[\x0207]Hey, wait!
+    Who are...[pause]
+  - "[\\x0207]Trooper[\\x0207]Oh, you're Qing \nLong Chief...[pause][\\x0203]Oops, that was \na secret. \nExcuse me![pause]"
+  - "[\\x0207]Trooper[\\x0207]They don't tell us \nanything at the \nbottom.[pause][\\x0203]Of course the plan\nis going well![pause]"
+  - "[\\x0207]Trooper[\\x0207]You can't pass during \nthe operation![pause][\\x0203]Orders from the \nLeader![pause]"
+  - "[\\x0207]Trooper[\\x0207]Sorry, even if \nyou're under another \nLeader...[pause][\\x0203]We can't let you \npass! That's our\norders.[pause]"
+  - "[\\x0207]Trooper[\\x0207]All clear in\nthis area![pause][\\x0203]I'll continue \nscouting![pause]"
+  - "[\\x0207]Trooper[\\x0207]Resistance \nheadquarters was in \nMirage Tower![pause][\\x0203]We're going to attack \nand capture them![pause]"
+  - "[\\x0207]Trooper[\\x0207]Just watch! \nWe'll turn them all\ninto Oinkmon![pause]"
+  - "[\\x0207]Trooper[\\x0207]Once we get the \nResistance, there's\nno stopping us![pause][\\x0203]Our plan to take over \nthe Real World is \nproceeding nicely![pause]"
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207][\x020902]3Yeah! I got
+    3000 BIT![pause]
+  - a
+  - a
+  - "[\\x0207][\\x020902]3I wonder how you can\nget rid of this block...[pause][\\x0203]Looks like it's\ncontrolled from \nsomewhere..[pause]"
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - "[\\x0207]Sagitarimon[\\x0207]You met me and \nreceived Judgment.[pause][\\x0203]You're the luckiest \ntamer in this server![pause]"
+  - "[\\x0207]Sagitarimon[\\x0207]I'm the legendary \nDigimon \nSagitarimon![pause][\\x0203]You're lucky to \neven look at me![pause]"
+  - "[\\x0207]Sagitarimon[\\x0207]Hmm? \nYou got Justify![pause][\\x0203]Then bring Laser \nCannon![pause][\\x0203]Then you'll be \nluckier![pause]"
+  - "[\\x0207]Sagitarimon[\\x0207]Hey, you got Laser \nCannon and \nJustify![pause][\\x0203]Give them to me...[pause][\\x0203]...hmmm...Haaa!\nAiyeaaa![pause][\\x0203]Look, this is \nJudgment![pause][\\x0203]You're lucky to be \nholding this!\nHa ha ha![pause]"
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Trooper[\x0207]A stronger folder...
+    Hmm...which combo?[pause]
+  - "[\\x0207]Trooper[\\x0207]...I should actually \ngo on patrol...[pause][\\x0203]But I don't feel like \nit...I think I'll check \nmy card list...[pause]"
+  - "[\\x0207]Trooper[\\x0207]...I should actually \ngo on patrol...or\nthe Chief'll be mad.[pause]"
+  - '[\x0207][\x0207]DO NOT TRANSLATE[pause]'
+  - '[\x0207][\x0207]DO NOT TRANSLATE[pause]'
+  - '[\x0207][\x0207]DO NOT TRANSLATE[pause]'
+  - '[\x0207][\x0207]DO NOT TRANSLATE[pause]'
+  - '[\x0207][\x0207]DO NOT TRANSLATE[pause]'
+  - '[\x0207][\x0207]DO NOT TRANSLATE[pause]'
+  - '[\x0207][\x0207]DO NOT TRANSLATE[pause]'
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - "[\\x0207]Guilmon[\\x0207]Phew... Finally I\nmanaged to walk \nthis far...[pause][\\x0203]When can I\nget out?[pause][\\x0203]I think the exit is \nsomewhere around\nhere...[pause]"
+  - "[\\x0207]Monmon[\\x0207]I can see \nthe Mirage Tower \nit's so close...[pause][\\x0203]I did it! The \ntower is just \ndown the road![pause]"

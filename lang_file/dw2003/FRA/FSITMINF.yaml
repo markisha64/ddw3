@@ -1,0 +1,405 @@
+type: simple
+strings:
+  - ''
+  - 'Jeu: Kotemon[-4]Renamon[-4]Patamon.'
+  - 'Jeu: Monmon[-4]Agumon[-4]Renamon.'
+  - 'Jeu: Kumamon[-4]Guilmon[-4]Patamon.'
+  - Pour frapper l'Arbre Vivant
+  - Objet pour pêcher.
+  - ADN numérique Agumon
+  - Objet pour canne à pêche
+  - Pour entrer dans 1 magasin précis
+  - Badge du chef Seiryu
+  - Badge du chef Suzaku.
+  - Badge du chef Byakko.
+  - Badge du chef Genbu.
+  - Zanbamon haît cette odeur
+  - Pour détruire le mur du temple.
+  - Se déguiser en Agumon.
+  - Pour appeler Submarinemon.
+  - Pour appeler Digmon.
+  - Symb. Roi du duel serveur Asuka.
+  - ADN numérique Kotemon.
+  - Symb. Roi du duel serv. Amaterasu
+  - Masque perdu par Sepikmon.
+  - Chef A.o.A Qing Long.
+  - Chef A.o.A Zhu Que.
+  - Chef A.o.A Bai Hu.
+  - Chef A.o.A Xuen Wu.
+  - àüÍんよíµ
+  - àüÍんよíµ
+  - àüÍんよíµ
+  - àüÍんよíµ
+  - àüÍんよíµ
+  - àüÍんよíµ
+  - àüÍんよíµ
+  - àüÍんよíµ
+  - ADN numérique de Guilmon
+  - ADN numérique de Veemon
+  - Meilleur symb. Roi des cartes
+  - Carte pour aller au Bric[-4]à[-4]Brac
+  - ADN numérique de Renamon
+  - ADN numérique de Patamon
+  - Ticket d'entraînement rang 2.
+  - Ticket d'entraînement rang 3.
+  - Ticket d'entraînement rang 4.
+  - Restaure 500 PV
+  - Restaure 2000 PV
+  - Restaure 5000 PV
+  - Restaure le maximum de PV.
+  - Augmente un maximum de PV.
+  - Augmente un maximum de MP.
+  - Augmente la force.
+  - Augmente la défense.
+  - Augmente l'esprit.
+  - Augmente la sagesse.
+  - Augmente la vitesse.
+  - Augmente le charisme.
+  - Augmente la puissance feu.
+  - Augmente la puissance eau.
+  - Augmente la puissance glace.
+  - Augmente la puissance vent.
+  - Augmente la puissance tonnerre.
+  - Augmente la puissance machine.
+  - Augmente la puissance ténèbres.
+  - Augmente PE de 1.
+  - Augmente PE de 2.
+  - Augmente PE de 3.
+  - Augmente PE de 5.
+  - Guérit le poison durant le combat
+  - Guérit la paralysie pdt combat.
+  - Guérit la confusion pdt le combat
+  - Guérit de tout durant le combat.
+  - Ressuscite les alliés.
+  - Restaure la moitié des PV et PM.
+  - 'Temp. : vitesse +'
+  - 'Temp. : force +, défense [-4]'
+  - 'Temp. : défense +, force [-4].'
+  - Augm. l'atq des effefts spéciaux.
+  - Augmente jauge puissance
+  - Génère un Champ de Feu.
+  - Génère un Champ d'Eau.
+  - Génère un Champ de Glace.
+  - Génère un Champ de Vent.
+  - Génère un Champ de Tonnerre.
+  - Génère un Champ de Machine.
+  - Génère un Champ des Ténèbres.
+  - Génère un Champ au hasard.
+  - Absorber les PV de l'ennemi.
+  - Trouble parfois un allié.
+  - Défense ennemie [-4], force +.
+  - Diminue la défense/force ennemie.
+  - Toile d'araignée gêne le mvnt.
+  - Dégâts Feu par bloc de poudre.
+  - Paquet de 6 cartes combat.
+  - Katana Court.
+  - Stocker énergie et coups.
+  - Puise les PV de l'ennemi.
+  - Epée affilée 1 tranchant.
+  - Epée de Mushamon.
+  - Epée lame rutilante.
+  - Epée samouraï légendaire.
+  - Doit couper un bras d'ogre.
+  - Katana rang supérieur.
+  - Epée fantôme 1 tranchant.
+  - Rouillé, éclat mystérieux.
+  - Katana forgée par un maître.
+  - Katana légendaire.
+  - Epée fantôle mythique ranimée.
+  - Gant de cuir.
+  - Coup de chat.
+  - Bandage renforcé avec du métal.
+  - Gants renforcés d'épines.
+  - Gants très ravageurs.
+  - Attaque comme un tigre.
+  - Arme de combat légendaire.
+  - Gants meilleur choix.
+  - Coup vitesse[-4]éclair.
+  - Gants mythiques.
+  - Rouillé et inefficace.
+  - Chargé du pouvoir des bêtes.
+  - Gants choisissant l'utilisateur.
+  - Gants fantômes lumineux.
+  - Arme légère maniable
+  - Arme automatique à une main.
+  - Un tir = gros dégâts.
+  - Lance bombes à énergie.
+  - Arme de tir légendaire.
+  - Lance des paquets de bombes.
+  - Tire des rayons thermiques.
+  - Canon mythique.
+  - Inestimable mais inutilisable.
+  - Fusil personnalisé et rénové.
+  - Fusil personnalisé gde précision.
+  - Fusil personnalisé ultime.
+  - Baguette en chêne.
+  - Baguette de magicien.
+  - Baguette en os.
+  - Baguette d'ermite.
+  - Baguette de lumière divine.
+  - Bâton antique de mage.
+  - Doit éloigner le mal.
+  - Baguette magique en cristal.
+  - Pouvoir de diriger un pays.
+  - Magie encore inactive.
+  - Baguette aux lueurs mystérieuses.
+  - Baguette purifiée avc pv. divins.
+  - Baguette mythique, pvr infinis.
+  - Arme en croc de bête.
+  - Arme en croc d'ogre.
+  - Puise PV de la blessure.
+  - Bras équippé atq comme un tigre
+  - Grand croc sauvage
+  - Bras équip. visant le pt faible.
+  - Empoisonne la blessure.
+  - Croc myth perdu par un démon.
+  - Griffe avc ADN de bêtes antiques.
+  - Griffe assommant les adv.
+  - Un seul coup met l'adv. en pièces.
+  - Griffe mythique du Roi des Bêtes.
+  - Couteau court pour débutant.
+  - Epée de Leomon.
+  - Epée longue et légère.
+  - Cimeterre Perse.
+  - Facile à brandir qd atq rapides.
+  - En alliage et puissant.
+  - Blason du signe du courage.
+  - Epée divine, détruit le mal.
+  - Partie d'ADN de Dig. Digivoluée.
+  - Epée démoniaque glaçant l'adv.
+  - Lance de bambou
+  - Maniable, assez puissant.
+  - Lance petite et puissante.
+  - Grande lance, dégâts énormes.
+  - Lance dure en os fossilisé.
+  - Enormes dégâts sous l'eau.
+  - Ote les PV de l'adv.
+  - Lance divine pour Chevaliers Roy.
+  - Lance ayant détruit Orochi.
+  - Large épée à 2 mains.
+  - Brandir à 2 mains, frapper.
+  - Large épée allemande à 2 m.
+  - Belle épée à 2 mains.
+  - Meilleure ép. 2 mains.
+  - A tué le Géant légendaire.
+  - Grand cimeterre de Perse.
+  - Longue poignée efficace.
+  - Arme normale à 2 mains.
+  - Hâche lourde à longue poignée.
+  - Faucille détruisant l'âme.
+  - Détruit l'armure adv, etc.
+  - Peut défendre tout en attaquant
+  - Meilleure pique mythique
+  - Arc bandé à la main.
+  - Arme de jet pour assassins.
+  - Puissante avec mécanisme de tir.
+  - Arc angélique contre Dig. maléf.
+  - Le fléau corbeau trouble l'adv.
+  - Arc puissant, tir rapide.
+  - Meilleur arc divine ange.
+  - Partie d'ADN Dig. digivolvée.
+  - Arme interdite.
+  - Petite arme de défense pr atq.
+  - Arme défensive pour attaquer.
+  - Arme défensive métal. pr atq.
+  - Efficace et bon pour les atq.
+  - Charge forte Dramon légendaire.
+  - Rotations rapides pour attaque.
+  - '"Garde" puissante (arme).'
+  - Bouclier divin, détruit l'adv.
+  - Corne pour coups de tête.
+  - Renforcée d'une foreuse.
+  - Corne pour assommer l'adv.
+  - Corne paralysant le corps.
+  - Corne légendaire, pvr Dramon.
+  - Corne brutale, tranche la chair.
+  - 3 cornes, de front au nez.
+  - Corne mythique d'une bête sacrée.
+  - Entoure la tête pour défendre.
+  - Protège la tête avec le viseur.
+  - Heaume pratique si déplacement.
+  - C'est mieux sur la tête.
+  - Protège la tête du froid.
+  - Casquette de combat.
+  - Antique chapeau de mage.
+  - Légendaires lunettes de visée.
+  - Pour bien voir la nuit.
+  - Chapeau rendant plus malin.
+  - Augmente ta magie naturelle.
+  - Pose[-4]le sur la tête pr défendre.
+  - Jolies oreilles de chat.
+  - Esquive l'attaque adv. avec cran.
+  - Couronne en métal magique.
+  - Magicien utilise pr protg. tête.
+  - Masque de rituel Fléau.
+  - Couronne, émet 1 lumière divine.
+  - Anneau auréole.
+  - Couronne royale historique.
+  - Couronne mythique de déesse.
+  - Casque en cuir.
+  - Casque en métal léger.
+  - Casque robuste en fer.
+  - Casque efficace pour chevaliers.
+  - Léger, permet d'esquiver.
+  - Casque solide et léger.
+  - Casque de combat légendaire.
+  - Casque Ronin légendaire.
+  - Armorié du signe du courage.
+  - Casque légendaire de la nature.
+  - En coquillage Digitama.
+  - Analyse les atq adv., esquive.
+  - En tête de Machinedramon.
+  - Veste en cuir.
+  - Tenue de combat pour déplacement.
+  - Robe de prêtres.
+  - Tenue puissance tonnerre.
+  - Cape aspirant les tenèbres.
+  - Veste contre le froid arctique
+  - Robe qui émet une lumière divine.
+  - Tenue de tir légend.
+  - Antique tenue de mage
+  - Tenue de combat légendaire.
+  - Résiste aux atq machine.
+  - Charme l'adv., évite les atq.
+  - Donne une dignité de roi.
+  - Armure en cuir.
+  - Armure en métal léger.
+  - Solide armure en fer.
+  - Couverte de coquillages Digitama.
+  - Armure aux pouvoirs noirs.
+  - Solide armure en alliage léger.
+  - Armure légendaire avc pvr Dramon.
+  - Armure légendaire Ronin.
+  - Armure légendaire de la nature.
+  - Armoriée du signe du courage.
+  - Armure brillante et décorative.
+  - Porteur + dur à détecter.
+  - Armure rouge flamboyante.
+  - Petit bouclier léger.
+  - Bouc. Léger et maniable.
+  - Solide bouclier en fer.
+  - Bouclier efficace de chevalier.
+  - Large barrière.
+  - Solide bouclier léger.
+  - Barrière avec lumière divine.
+  - Barricade de tir légendaire.
+  - Antique bâton de mage.
+  - Bouclier légendaire Ronin.
+  - Epaulette de combat légendaire.
+  - Armorié du signe du courage.
+  - Bouclier légendaire de la nature.
+  - Bouclier pvr légend. de Dramon.
+  - Bouclier brillant, décoratif.
+  - Bouc. protégeant la vie.
+  - Bouclier légendaire divin.
+  - Augmente le pouvoir d'atq
+  - Augmente ++  le pvr d'atq.
+  - Augmente la défense.
+  - Augmente ++ la défense.
+  - Augmente l'esprit.
+  - Augmente ++ l'esprit.
+  - Augmente la sagesse.
+  - Augmente ++ la sagesse.
+  - Augmente la vitesse.
+  - Augmente ++ la vitesse.
+  - Anneau tendance.
+  - Anneau tendance +.
+  - Résiste au feu.
+  - Résiste à l'eau.
+  - Résiste à la glace.
+  - Résiste au vent.
+  - Résiste au tonnerre.
+  - Résiste à la machine.
+  - Résiste aux ténèbres.
+  - Résistant au poison ++.
+  - Résistant à la paralysie ++.
+  - Résistant au sommeil ++.
+  - Résistant à la confusion ++.
+  - Résistant aux KO ++.
+  - Peut attaquer 2 fois.
+  - Augmente les atq cruciales.
+  - Riposte automatique.
+  - L'adv. s'échappe moins souvent.
+  - Lente restauration PV.
+  - Gagne plus d'EXP au combat.
+  - Gagne + de BIT au combat.
+  - Utilise un peu [-4] de PM pr techn.
+  - Prend [-4] de PM pr techn.
+  - Réduit peu à peu les dégâts.
+  - Réduit les dégâts.
+  - Vol un peu plus facile.
+  - Vol plus facile.
+  - Augmente la jauge +
+  - Augmente la jauge ++
+  - Visée +
+  - Visée ++.
+  - Esquive +.
+  - Esquive ++.
+  - Facilité de fuite +
+  - Facilité de fuite ++
+  - Facilité d'entraînement +
+  - Facilité d'entraînement ++
+  - Ajoute feu faible aux attaques.
+  - Ajoute feu aux attaques.
+  - Ajoute feu fort aux attaques.
+  - Ajoute eau faible aux atq.
+  - Ajoute eau aux attaques.
+  - Ajoute eau fort aux atq.
+  - Ajoute glace faible aux atq.
+  - Ajoute glace aux attaques.
+  - Ajoute glace forte aux attaques.
+  - Ajoute vent faible aux attaques.
+  - Ajoute vent aux attaques.
+  - Ajoute vent fort aux attaques.
+  - Ajoute tonn. faible aux attaques.
+  - Ajoute tonnerre aux atq.
+  - Ajoute tonn. fort aux atq.
+  - Ajoute machine faible aux atq.
+  - Ajoute machine aux attaques.
+  - Ajoute machine forte aux atq.
+  - Ajoute tén. faibles aux atq.
+  - Ajoute ténèbres aux atq.
+  - Ajoute ténèbres fortes aux atq.
+  - ADN numérique de Monmon.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat.
+  - Jeu de 6 cartes combat rares.
+  - Jeu de 6 cartes combat rares.
+  - Jeu de 6 cartes combat rares.
+  - Jeu de 6 cartes combat rares.
+  - Jeu de 6 cartes combat rares.
+  - ADN numérique Kunamon.
+  - Passe ID troupier A.o.A
+  - Micro Mike Amaterasu
+  - Carte pour aller sur la barge.
+  - Carte pour aller sur la barge ?
+  - àüÍんよíµ
+  - Passe Employé DO Asuka .
+  - Sacoche pour 3 dossiers cartes.

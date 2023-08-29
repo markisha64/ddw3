@@ -1,0 +1,287 @@
+type: extended
+files:
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3¿Eh?
+        Ivy y Teddy
+        no están aquí.[pause][\x0203]¡Pff! Conociéndoles
+        se habrán
+        adelantado.[pause]
+      - "[\\x0207]Líder de la gira[\\x0207]Sr. [\\x020801][\\x020501] ¿no?\nBienvenido \na Digimon Online.[pause][\\x0203]Hoy practicaremos\npara que puedas\nempezar.[pause][\\x0203]Sólo puedes ir al\nSector Este y al\nCentral de Amaterasu.[pause][\\x0203]Pero existen más\nPlacas de Circuitos\ny Fondos Marinos.[pause][\\x0203]Los datos de Digimon \nse usan como\nantes.[pause][\\x0203]Las técnicas y las\ndigievoluciones son las\nmismas por supuesto.[pause][\\x0203]Pero desearía\nrealizar una prueba\nde datos por si acaso.[pause][\\x0203]Antes de continuar\nguarda con\nGuardromon.[pause]"
+      - '[\x0207][\x020902]3¡Claro![pause]'
+      - |-
+        [\x0207][\x020902]3¡Bien!
+        Esto será
+        divertido.[pause]
+  - strings:
+      - ''
+      - Kotemon Digievol.
+      - Monmon Digievol.
+      - Kumamon Digievol.
+      - Renamon Digievol.
+      - Patamon Digievol.
+      - Agumon Digievol.
+      - Guilmon Digievol.
+      - Volver
+      - |-
+        Aprender los tipos Greymon y
+        Veemon. Debe aprender Stingmon para
+        mejorar más allá de ExVeemon. Cuando[pause][\x0203]Greymon mejore su Defensa
+        Oscura, aprenderá SkullGreymon.
+        No sé qué hay a continuación de ésa.[pause][\x0203]Cuando mejore la habilidad Kyukimon
+        y su Defensa Máquina, aprenderá
+        MetalMamemon. Luego[pause][\x0203]enlazará con las digievol. Máquina.[pause]
+      - |-
+        Aprende ExVeemon al principio.
+        Aprenderá Máquina, Angemon y
+        otros tipos, después de Armormon.[pause][\x0203]Al mejorar Defensa Máquina,
+        aprenderá el tipo Máquinas. Cuando
+        mejore Defensa Viento, conocerá[pause][\x0203]los tipos Angemon. Al mejorar
+        la habilidad Armormon y su
+        Fuerza, conocerá Digitamamon,[pause][\x0203]que lleva a digievoluciones
+        de técnicas misteriosas.[pause]
+      - |-
+        Al mejorar la habilidad Grizzmon
+        y su Espíritu, conocerá
+        Kyubimon, que lleva a [pause][\x0203]Taomon y otras a partir de esa. Al
+        mejorar la habilidad Grizzmon y la
+        Sabiduría, aprenderá Digitamon, que[pause][\x0203]lleva a digievoluciones de técnicas
+        misteriosas. Al mejorar la habilidad
+        GrapLeomon y la Defensa Máquina[pause][\x0203]podrá alcanzar las digievoluciones
+        de tipo Máquina.[pause]
+      - |-
+        Al mejorar la habilidad Kyubimon y
+        su Fuerza, aprenderá Stingmon.
+        Conectará con Insectoides como[pause][\x0203]Kabuterimon. Al mejorar la habilidad
+        Kyubimon y su Espíritu, aprenderá
+        Angewomon, que lleva hasta[pause][\x0203]Rosemon y otros tipos de
+        Recuperación. Cuando mejore
+        Taomon su habilidad y Defensa[pause][\x0203]Viento, aprenderá ExVeemon. Si
+        mejoras su Defensa Máquina,
+        aprenderá MetalMamemon.[pause]
+      - "Al mejorar la habilidad Angemon y \nsu Fuerza o al mejorar \nDigitamamon y su Sabiduría,[pause][\\x0203]aprenderá Angewomon. Al mejorar\nsu habilidad Angewomon, aprenderán\nRosemon. Cuando mejores la [pause][\\x0203]habilidad Rosemon aprenderá\nHououmon. Cuando mejores la\nhabilidad Holy Angewomon [pause][\\x0203]aprenderá Stingmon si mejoras \nla Defensa Rayo, y Greymon si\nmejoras la Defensa Fuego.[pause]"
+      - "Aprende Growlmon al comienzo.\nAprenderá los tipos Growlmon para\nmejorar su habilidad. Cuando mejores[pause][\\x0203]su Defense Oscura, aprenderá \nSkullGreymon. Ocurre una cosa\nespecial si mejoras la habilidad al[pause][\\x0203]máximo. Al mejorar la habilidad Metal\nGreymon y su Espíritu\naprenderá Kyubimon.[pause]"
+      - "Cuando mejores la Defensa\nal principio, aprenderá\nMetalmon. Luego podrá acceder [pause][\\x0203]a los tipos Metal. Al mejorar la\nhabilidad Growlmon y su Defensa\nRayo, aprenderá Stingmon[pause][\\x0203]que lleva a los Insectoides. \nAprenderá varias digievoluciones de\nMegagroumon mejorando su[pause][\\x0203]Espíritu, Defensa Oscura y \nDefensa Agua.[pause]"
+  - strings:
+      - ''
+      - D'mon no está
+      - Mejora eficaz
+      - Técnicas
+      - Límit. de crec.
+      - Lucha bien
+      - Se sabio
+      - Usa Guilmons
+      - Volver
+      - "Puedes ser compañero de Veemon, \nque no están en ningún grupo.\nDescubre cómo por tus medios.[pause][\\x0203]Veemon aprende ExVeemon, Stingmon\ny Paildramon, y luego aprende muchos\ntipos de digeivolucion. Por[pause][\\x0203]ejemplo, al mejorar la habilidad\nPaildramon y su Defensa Máquina,\naprenderá Metalmamemon. Aprende[pause][\\x0203]Devimon si mejoras Defensa\nOscura.[pause]"
+      - |-
+        Los compañeros de bajo nivel
+        pueden ganar EXP entrando al
+        comienzo de la batalla y luego[pause][\x0203]siendo cambiados. Se pueden
+        conseguir niveles fácilmente con
+        dos compañeros en la batalla. [pause][\x0203]Los Digimon aprenden digievoluciones
+        y técnicas cuando ganan niveles o las
+        habilidades llegan a múltiplo de 5.[pause]
+      - "Los compañeros pueden adquirir\n14 tipos de digievolucion que varían\nsegun la mejoras. Las Digievoluciones [pause][\\x0203]del mismo tipo se muestran en filas\nen la Tabla de digievolucion. Si se \nmejora el nivel de habilidad Digimon[pause][\\x0203]se aprenden nuevas digievoluciones\ndel mismo tipo. También se aprendes\nganando niveles. Algunas [pause][\\x0203]no se pueden conseguir sin\naprender otras digievoluciones.[pause]"
+      - |-
+        Los límites de Nivel y Habilidad
+        son 99. Los Parámetros tiene de
+        límite 999. Si un Digimon alcanza[pause][\x0203]el límite puede seguir mejorando
+        sus Parámetros usando chips. Hay
+        rumores de chips que mejoran los PE[pause][\x0203]pero no se venden en tiendas.
+        Inténtalo pescando o pateando.[pause]
+      - "Usa artículos montables. Incluso\nsin conocer ninguna técnica de \napoyo, los artículos pueden ayudar[pause][\\x0203]en la batalla. Los golpes de digiev.\nse deciden en base al compañero y \nsu nivel. Cuando la barra se llene[pause][\\x0203]espera tu oportunidad para usarla. \nFuera de los hoteles, vigila los\nPM. Si decides retirarte, [pause][\\x0203]¡no te preocupes de \notra cosa![pause]"
+      - "Incluso si mejoras tus Digimon\nde forma desigual, puedes ganar \npuntos EXP encontrando y eligiendo[pause][\\x0203]los enemigos débiles de ciertas áreas. \nUsa ataques Mágicos contra enemigos\nfuertes y ataques Físicos en débiles.[pause][\\x0203]Algunos enemigos son vulnerables ante\nciertos atributos y ataques. Descubre \nsus debilidades y planea los ataques.[pause]"
+      - "Growlmon y los otros tipos Guilmon\nde digievolucion aprenden técnicas\nextrañas como Steal y Counter.[pause][\\x0203]Algunos enemigos tienen artículos\nque no se venden en tiendas. \nSe pueden conseguir con Steal.[pause][\\x0203]La fuerza de los Contraataques depende\nde la cantidad de daño recibida. Intenta\nrecibir daño a propósito.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Recepción Estadio[\x0207][\x020801][\x020501], has
+        derrotado a todos
+        los líderes.[pause][\x0203]¡Por favor ve al
+        estadio![pause]
+      - |-
+        [\x0207][\x020902]3Eh... ¿con quién
+        lucho ahora?[pause]
+      - |-
+        [\x0207]Recepción Estadio[\x0207]¡Je je je!
+        Debes esperar
+        y observar[pause][\x0203]Vamos. Tu
+        oponente te está
+        esperando.[pause]
+      - |-
+        [\x0207][\x020902]3¡Bien! El
+        domador
+        más fuerte.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Así que,\neste es el estadio.[pause][\\x0203]Me pregunto quién\nes mi oponente. \n¡Listo![pause]"
+      - |-
+        [\x0207]Kurt[\x0207]¡Oye
+        [\x020801][\x020501]![pause][\x0203]Sabía que
+        seguirías.[pause]
+      - |-
+        [\x0207][\x020902]3¿Eh?
+        ¿Kurt?[pause][\x0203]¡No me digas
+        que eres el
+        más fuerte![pause]
+      - |-
+        [\x0207]Kurt[\x0207]¡Está bien!
+        Me alegro de que
+        estés aquí. Siempre[pause][\x0203]quise luchar
+        contigo.[pause]
+      - |-
+        [\x0207][\x020902]3¡Opino igual!
+        No hay un oponente
+        más valioso que tú.[pause]
+      - |-
+        [\x0207]Kurt[\x0207]¡Ja ja! Voy a
+        gozar de esto.[pause][\x0203]Que empiece la
+        diversión. No te
+        cortes.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3¡Lo hice!
+        Vencí a Kurt[pause]
+      - |-
+        [\x0207]Kurt[\x0207]¡Enhorabuena,
+        [\x020801][\x020501]! Me
+        ganaste justamente.[pause][\x0203]Eres el domador más
+        fuerte ahora.[pause]
+      - '[\x0207][\x020902]3¡Gracias![pause]'
+      - "[\\x0207]Kurt[\\x0207]Pronto arreglarán\nDigimon Online. Como\nprimer Campeón  [pause][\\x0203]Mundial debes aceptar \na todos los que te \nreten en el mundo.[pause]"
+      - |-
+        [\x0207][\x020902]3¿Yo?
+        ¿Primer Campeón
+        Mundial?[pause][\x0203]Bueno, lo haré
+        lo mejor que
+        pueda.[pause]
+      - "[\\x0207]Kurt[\\x0207]Cuento contigo.\nAunque aún tienes\ntiempo.[pause][\\x0203]Hasta entonces\nlucha y hazte \nmás fuerte.[pause]"
+      - "[\\x0207][\\x020902]3Tranquilo\n¡voy a ser el \nCampeón [pause][\\x0203]Mundial más \nfuerte![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]Ahora accederé a
+        la Unidad Matriz.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Sr. Wedge[\x0207]En ese caso ven
+        por aquí, tengo
+        buenos artículos.[pause]
+  - strings:
+      - ''
+      - Batallas Cartas
+      - Des. Bat. Car.
+      - Fases 1
+      - Fases 2
+      - Fases 3
+      - Fases 4
+      - Fases 5
+      - Volver
+      - "Además de las batallas Digimon, se\npuede competir con las cartas.[pause][\\x0203]Para ello debes coleccionar 314\ntipos de cartas y crear \nMazos personales.[pause]"
+      - "Elige una Carpeta que será el\nMazo antes de la Batalla de Cartas.\nUna vez elegido empezará el juego.[pause][\\x0203]Una batalla se comprende de 3\ntiempos. El primero en ganar 2\nes el vencedor y gana una expan.[pause][\\x0203]Cada tiempo está dividido en 6 fases. \nPara más información, lee la sección\nllamada \"Fases\".[pause]"
+      - |-
+        Fase Inicial
+        Decide el orden de juego. El
+        que robe a Calumon va primero.[pause][\x0203]Fase de Extracción
+        Saca 6 cartas del
+        Mazo que serán tu Mano.[pause][\x0203]Aquí se forma la D[-4]Energía del
+        mismo color que la carta robada.
+        Se usará en la Fase de Invocac.[pause]
+      - "Fase de Carga\nLos domadores usan turnos para \nlas Car. de Prog. y traer Digimon.[pause][\\x0203]La fase acaba al pasar ambos.\nA veces aparecen cartas\nque no se pueden usar aquí.[pause]"
+      - |-
+        Fase invocación
+        Los domadores seleccionan cartas
+        Digimon e invocan Digimon.[pause][\x0203]Se pueden invocar hasta 6 Digimon
+        al campo. Se necesita D[-4]Energía
+        para invocar Digimon campeones[pause][\x0203]o mejores.[pause]
+      - |-
+        Fase de Compilación
+        En esta fase, se usan
+        turnos con las Car. de Prog.[pause][\x0203]para hacer varias acciones.
+        Se acaba al pasar ambos. Se
+        pueden usar todas las cartas.[pause]
+      - "Fase Batalla\nEn esta fase, los Digimon\nluchan entre sí para ganar.[pause][\\x0203]La victoria se decide por los\npuntos totales PA y PV Digimon. \nCuando los PV son 0 se pierde.[pause]"
+  - strings:
+      - ''
+      - Crear Carpeta
+      - Digi Cartas
+      - Carta Prog.
+      - Carta Colores
+      - D[-4]energía
+      - Combinación
+      - Sobre Expan.
+      - Volver
+      - |-
+        Debes crear una Carpeta de
+        40 cartas antes de poder
+        participar en una batalla.[pause][\x0203]Puedes poner hasta cuatro
+        cartas iguales en una Carpeta.[pause]
+      - |-
+        Las Cartas Digimon traen Digimon.
+        Los puntos PA y PV están en
+        las cartas. PA es Poder Ataque[pause][\x0203]y PV los Puntos de Vida.
+        Los Digimon van a la
+        Basura cuando los PV son 0.[pause][\x0203]Por ejemplo, si hay un 5/3,
+        PA es 5 y PV es 3.[pause]
+      - "La Cartas de Prog. pueden \nfortalecer tus Digimon o hacer \nque los oponentes se descarten.[pause][\\x0203]Cada carta tiene un efecto\nconcreto. Debes leerlas\npara saber qué hacen.[pause]"
+      - "Las cartas son de color blanco, \nazul, verde, rojo, negro o marrón.[pause][\\x0203]Al extraer una carta la D[-4]Energía \ndel color de la carta incrementa.[pause][\\x0203]LA D[-4]Energía se usa para invocar\nDigimon Campeones o mejores.[pause]"
+      - "Usa el mismo color de D[-4]Energía \nque la carta Digimon para invocar\nal Digimon. Los Digimon Campeones [pause][\\x0203]cuestan 1 punto, los Definitivos\ncuestan 2 y los Mega Digimon \ncuestan 3 puntos.[pause][\\x0203]Los Digimons Novatos pueden\ninvocarse sin usar D[-4]Energia.[pause]"
+      - |-
+        Si hay 3+ cartas Digimon iguales
+        en el campo durante la Fase Batalla
+        aparecerá una combinación. Los[pause][\x0203]puntos totales de Comb. se suman
+        a los puntos totales. Si hay 4+
+        cartas, recibirás un bono.[pause]
+      - |-
+        Cuando obtienes Ext. y los abres
+        en las tiendas de cartas, puedes
+        recibir cartas. Los domadores [pause][\x0203]ganan Ext. al vencer. Hay
+        algunos Digimon que los llevan.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Domador Haruka[\x0207]Bien. Ten
+        coraje en tu
+        viaje.[pause][\x0203]Y da gracias
+        por mi
+        generosidad.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Domador Poemy[\x0207]Vé entonces poderoso
+        Héroe. ¡Encuentra
+        tu destino![pause][\x0203]Mi espíritu siempre
+        estará contigo.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Domador Pierre[\x0207]Ten valor en
+        tu viaje.
+        Esperaré la[pause][\x0203]batalla con
+        el Rey.
+        ¡Au revoir![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Domador Bomujii[\x0207]Estás acabado.
+        Domina la senda
+        de las cartas.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Domador Alice[\x0207]Bien...Ve...
+        entonces. El...
+        Rey...aguarda.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]Ahora accederé a la
+        Unidad Matriz.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]Ahora accederé a la
+        Unidad Matriz.[pause]

@@ -1,0 +1,405 @@
+type: simple
+strings:
+  - ''
+  - Kit normale
+  - Kit potente
+  - Kit esagerato
+  - Stiv. albero
+  - Canna pesca
+  - DDNA Agumon
+  - Esca rossa
+  - ID El Dorado
+  - Stemma Seiryu
+  - Stemma Suzaku
+  - Stemma Byakko
+  - Stemma Genbu
+  - Erba fetida
+  - Chip TNT
+  - Tuta Agumon
+  - DU fiducia
+  - DU sapienza
+  - Trofeo Asuka
+  - DDNA Kotemon
+  - Trofeo sole
+  - Masch. Sepik
+  - Pass blu
+  - Pass rosso
+  - Pass bianco
+  - Pass nero
+  - セイリュウÁタグ
+  - スザクÁタグ
+  - ビャッコÁタグ
+  - ゲンブÁタグ
+  - チンロンÁタグ
+  - ス-ツェイÁタグ
+  - バイフ-Áタグ
+  - シェンウ-Áタグ
+  - DDNA Guilmon
+  - DDNA Veemon
+  - Trofeo Koc
+  - Carta platino
+  - DDNA Renamon
+  - DDNA Patamon
+  - ID argento
+  - ID oro
+  - ID platino
+  - Carica energ.
+  - Super carica
+  - Ultra carica
+  - Carica max
+  - Chip PF
+  - Chip PM
+  - Chip forza
+  - Chip corazza
+  - Chip mentale
+  - Chip saggezza
+  - Chip velocità
+  - Chip carisma
+  - Chip fuoco
+  - Chip acqua
+  - Chip ghiaccio
+  - Chip vento
+  - Chip tuono
+  - Chip mentale
+  - Chip diavolo
+  - Chip addes. 1
+  - Chip addes. 2
+  - Chip addes. 3
+  - Chip addes. V
+  - Disco antid.
+  - Disco resurr.
+  - Disco sobr.
+  - Disco energia
+  - Disco vita
+  - Spina vita
+  - Spina macch.
+  - Spina forza
+  - Spina guardia
+  - Spina aura
+  - Spina DV
+  - Campo fuoco
+  - Campo acqua
+  - Campo ghiacc.
+  - Campo vento
+  - Campo tuono
+  - Campo macch.
+  - Campo tenebre
+  - Campo ignoto
+  - Cavo cremisi
+  - Onda di caos
+  - Gas fascino
+  - Pup. maled.
+  - Ragnatela
+  - Sfera di TNT
+  - Pacco 01a
+  - Spada corta
+  - Spada Zanden
+  - Lama cremisi
+  - Lama potente
+  - Shiratorimaru
+  - Lama lucente
+  - Lama Ronin
+  - Onimaru
+  - Tenjinmaru
+  - Lama Fuujin
+  - Katana usata
+  - Kotetsu
+  - Masamune
+  - Muramasa
+  - Guanti pelle
+  - Guanti gatto
+  - Guanti ferro
+  - Guanti aghi
+  - Parabraccia
+  - Guanti tigre
+  - Guanti selv.
+  - Pugno Kaiser
+  - Braccio temp.
+  - Pugno Raijin
+  - Guanti arrug.
+  - Zodiaco
+  - Prominenza
+  - Supernova
+  - Pistola
+  - Mitragliatr.
+  - Fucile pompa
+  - Psicopistola
+  - Cann. precis.
+  - Cannone shock
+  - Cannone laser
+  - Cann. Suijin
+  - Vecchio fuc.
+  - Giustizia
+  - Giudizio
+  - Punizione
+  - Asta legno
+  - Asta magica
+  - Asta di osso
+  - Asta nebbia
+  - Asta divina
+  - Asta Yin Yang
+  - Khakkhara
+  - Asta crist.
+  - Millennio
+  - Vecchia asta
+  - Brilla
+  - Immacolata
+  - Eternamente
+  - Zanna di lupo
+  - Zanna fantas.
+  - Zanna Cerbero
+  - Zanna maligna
+  - Zanna peric.
+  - Zanna sciab.
+  - Zanna avvel.
+  - Zanna Belial
+  - Vec. artiglio
+  - Annullamento
+  - Distruzione
+  - Invincibile
+  - Pugnale
+  - Shishioumaru
+  - Spada lunga
+  - Shamshir
+  - Spada alata
+  - Spada Kulon
+  - Spada eroica
+  - Excalibur
+  - Spada grigia
+  - Spada Fenrir
+  - Lancia bambù
+  - Lancia
+  - Lancia corta
+  - Partigiana
+  - Lancia divina
+  - Trent
+  - Lancia vamp.
+  - Lancia reale
+  - Lancia Orochi
+  - Spadone
+  - Motosega
+  - Zweihander
+  - Flamberge
+  - Spaccapietre
+  - Anti[-4]Atlante
+  - Spada Golfo
+  - Alabarda
+  - Naginata
+  - Berdys
+  - Taglia anime
+  - Ryuuzanmaru
+  - Alabarda Gaea
+  - Alab. Omega
+  - Arco lungo
+  - Shuriken
+  - Balestra
+  - Arco angelo
+  - Arco corvo
+  - Arco fulmine
+  - Arco serafino
+  - Cann. Garuru
+  - Cann. positr.
+  - Mini difesa
+  - Difesa impul.
+  - Dif. metallo
+  - Dif. robusta
+  - Dif. Dramon
+  - Dif. macch.
+  - Difesa mega
+  - Difesa divina
+  - Corno metallo
+  - Corno trapano
+  - Cor. Kabuteri
+  - Corno shock
+  - Corno Dramon
+  - Corno forbice
+  - Tricorno
+  - Corno gloria
+  - Bandana
+  - Visiera
+  - Cap. baseball
+  - Capp. Scuola
+  - Capp. Lana
+  - Capp. Kung Fu
+  - Cap. Yin Yang
+  - Mirino prec.
+  - Visore nott.
+  - Berretto
+  - Capp. Rosso
+  - Nastro
+  - Orecch. gatto
+  - Fascia testa
+  - Cor. Mithril
+  - Cor. magica
+  - Masch. sciam.
+  - Corona divina
+  - Aureola
+  - Corona reale
+  - Corona da dea
+  - Elmo di pelle
+  - Elmo di latta
+  - Elmo di ferro
+  - Elmo caval.
+  - Elmo alato
+  - Elmo Kulon
+  - Elmo selvag.
+  - Elmo Ronin
+  - Elmo eroico
+  - Elmo peric.
+  - Elmo D[-4]Tama
+  - Elmo matrice
+  - Elmo Mugen
+  - Giubba cuoio
+  - Tuta ginnast.
+  - Abito talare
+  - Tuta di gomma
+  - Mantello nero
+  - Giacca polare
+  - Abito divino
+  - Tuta cecchino
+  - Tuta Yin Yang
+  - Tuta selvag.
+  - Corazza
+  - Abito miraggi
+  - Mant. Reale
+  - Armat. cuoio
+  - Armat. latta
+  - Armat. ferro
+  - Arm. Digitama
+  - Arm. Tenebre
+  - Armat. Kulon
+  - Armat. Dramon
+  - Armat. Ronin
+  - Armat. peric.
+  - Armat. eroica
+  - Armat. raggi
+  - Armat. nebbie
+  - Arm. cremisi
+  - Scudo
+  - Scudo latta
+  - Scudo ferro
+  - Scudo caval.
+  - Barriera
+  - Scudo Kulon
+  - Barr. divina
+  - Scudo cecch.
+  - Dif. Yin Yang
+  - Scudo Ronin
+  - Scudo selv.
+  - Scudo eroico
+  - Scudo peric.
+  - Scudo Dramon
+  - Scudo raggi
+  - Alta sicurez.
+  - Apocalisse
+  - Gemma forza
+  - Anello forza
+  - Gemma difesa
+  - Anello difesa
+  - Gemma spirito
+  - An. spirito
+  - Gemma sagg.
+  - An. saggezza
+  - Gemma veloc.
+  - Anello veloc.
+  - Gemma carisma
+  - An. carisma
+  - Anello fuoco
+  - Anello acqua
+  - An. ghiaccio
+  - Anello vento
+  - Anello tuono
+  - Anello macch.
+  - An. Tenebre
+  - An. antidoto
+  - An. resurrez.
+  - An. risveglio
+  - An. sobrietà
+  - An. preghiera
+  - Fregio mult.
+  - Fregio ricer.
+  - Fregio contr.
+  - Fregio legame
+  - Fregio recup.
+  - Adattat. ESP
+  - Adattat. BIT
+  - Ridutt. PM
+  - Mega rid. PM
+  - Ridutt. PF
+  - Mega rid. PF
+  - Agevol. furto
+  - Sistema furto
+  - Overclock
+  - Sovraccarico
+  - Occhiali
+  - Maschera
+  - Piuma danz.
+  - Ala danzante
+  - Sandali corsa
+  - Scarpe corsa
+  - Libro addest.
+  - Bracc. forza
+  - Pot. fuoco 1
+  - Pot. fuoco 2
+  - Pot. fuoco S
+  - Pot. acqua 1
+  - Pot. acqua 2
+  - Pot. acqua S
+  - Pot. ghiac. 1
+  - Pot. ghiac. 2
+  - Pot. ghiac. S
+  - Pot. vento 1
+  - Pot. vento 2
+  - Pot. vento S
+  - Pot. tuono 1
+  - Pot. tuono 2
+  - Pot. tuono S
+  - Pot. metal. 1
+  - Pot. metal. 2
+  - Pot. metal. S
+  - Pot. teneb. 1
+  - Pot. teneb. 2
+  - Pot. teneb. S
+  - DDNA Monmon
+  - Pacco 02a
+  - Pacco 03a
+  - Pacco 04a
+  - Pacco 05a
+  - Pacco 06a
+  - Pacco 07a
+  - Pacco 08a
+  - Pacco 09a
+  - Pacco 10a
+  - Pacco 11a
+  - Pacco 12a
+  - Pacco 13a
+  - Pacco 14a
+  - Pacco 15a
+  - Pacco 1b
+  - Pacco 2b
+  - Pacco 3b
+  - Pacco 4b
+  - Pacco 5b
+  - Pacco 6b
+  - Pacco 7b
+  - Pacco 8b
+  - Pacco 9b
+  - Pacco 10b
+  - Pacco 11b
+  - Pacco 12b
+  - Pacco 13b
+  - Pacco 14b
+  - Pacco 15b
+  - Pacco R 01
+  - Pacco R 02
+  - Pacco R 03
+  - Pacco R 04
+  - Pacco R 05
+  - DDNA Kumamon
+  - ID Crony
+  - Mic. Etemon
+  - Carta blu
+  - Carta 8lu
+  - リカバリ-CD3
+  - Scheda pers.
+  - Sacca cartel.

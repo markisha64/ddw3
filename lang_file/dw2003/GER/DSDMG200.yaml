@@ -1,0 +1,1094 @@
+type: extended
+files:
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Wow, so sieht
+        also die Welt von
+        Digimon[-4]Online aus?[pause]
+      - |-
+        [\x0207]Mitarbeiter[\x0207][\x020801][\x020501],
+        willkommen beim
+        Asuka[-4]Server![pause][\x0203]Hol bitte deine
+        Digimon[-4]Daten in
+        der Lobby ab.[pause]
+      - |-
+        [\x0207][\x020902]3Hä? Digimon?[pause][\x0203]Ach, verstehe.
+        Ich geh schon![pause]
+  - strings:
+      - ''
+      - Digimon[-4]On.
+      - Ziel
+      - Stadtfüh.
+      - Feldführer
+      - Kampftipps
+      - Grundtraining
+      - Statusbildsch.
+      - Zurück
+      - |-
+        Digimon[-4]Online wird auf 5 Servern[pause][\x0203]gespielt: Amaterasu, Izumo, Asuka,
+        Yamato und Ikaruga.[pause][\x0203]Auf jedem Server ist eine gleichnamige
+        Stadt (Asuka City), und alle Server
+        sind auf gleiche Weise organisiert.[pause][\x0203]Andere Server sind f. Spieler tabu,[pause][\x0203]doch Server Champs können m. andern
+        um den World Champ[-4]Titel kämpfen.[pause]
+      - "Ziel von Digimon[-4]Online ist, von\nüber 200.000 Spielern der beste\nund damit World Champ zu werden.[pause][\\x0203]Nur Server Champs, Gewinner der\nServer[-4]Turniere, können am World\nChamp[-4]Turnier teilnehmen.[pause][\\x0203]Du musst die Leader der 4 Städte \nbesiegen, um am Server[-4]Turnier\nteilzunehmen. Viel Glück![pause]"
+      - |-
+        Auf d. Server gibt es auβer Asuka
+        City andere Städte. Halte in der
+        nächsten Stadt deiner Reise an.[pause][\x0203]Dort findest du Item[-4]Shops u. Inns
+        zur Erholung d. Digimon. Daten w.
+        v. Guardromon i. d. Inns gespeic.[pause][\x0203]Es gibt in jeder Stadt Sehensw.
+        Asuka City hat das einz. Digimon[-4]
+        Lab., das alle Dompteure besuchen.[pause]
+      - |-
+        Auβerhalb der Stadt kämpfst du
+        gegen wilde Digimon. Sei vor der
+        Abreise gut vorbereitet.[pause][\x0203]Inns gibt es auch fern der Stadt.
+        Wird dein Partner[-4]Digimon im
+        Kampf verletzt, lass es ausruhen.[pause][\x0203]Gegenden mit starken Gegnern soll[-4]
+        test du erst aufsuchen, wenn du
+        dein Partner[-4]Digimon trainiert hast.[pause]
+      - |-
+        Du reist mit 3 Partner[-4]Digimon, von
+        denen jeweils nur eins kämpfen kann.
+        Du kannst sie im Kampf austauschen.[pause][\x0203]Im Kampf steuern Tamer ihre Digimon
+        mit Befehlen. Wähle einen geeigneten
+        Befehl für die Situation aus.[pause][\x0203]Du hast auch spez. Techniken, die
+        MP und sogar Items verwenden. Mehr
+        Infos gibt es im Digimon[-4]Labor.[pause]
+      - "Partner[-4]Digimon sammeln im Kampf\nEXP (Erfahrung). Ihr Level ent[-4]\nspricht der gewonnenen EXP.[pause][\\x0203]Je höh. der Level, desto stärk.\ndas Digi. u. seine Gegner. Je \nstärk. d. Gegner, desto mehr EXP.[pause][\\x0203]Die Digimon[-4]Fähigkeiten können mit\nTraining verbessert werden. Mehr\nInfo zum Training im Digimon[-4]Labor.[pause]"
+      - "Unterwegs kannst du mit der START[-4]\nTaste den Statusbildschirm von \ndeinem Satelliten öffnen.[pause][\\x0203]Im Statusbildschirm kannst du dein\nPartner[-4]Digimon sehen, Items ver[-4]\nwenden u. auf der Karte nachsehen.[pause]"
+  - strings:
+      - ''
+      - Partner[-4]Digimon jetzt herunterladen?
+      - Ja, bitte!
+      - Noch nicht.
+  - strings:
+      - ''
+      - |-
+        [\x0207]Tamer[-4]Service[\x0207]Ich lade jetzt die
+        Digimon[-4]Daten von
+        deinem Satelliten.[pause][\x0203]Bitte warte an der
+        Online[-4]Markierung
+        auf dem Boden.[pause]
+      - |-
+        [\x0207][\x020902]3Wow! Ich kann es
+        kaum erwarten, mein
+        Digimon zu treffen![pause]
+      - |-
+        [\x0207]Teddy[\x0207]...oh!
+        Hey [\x020801][\x020501]![pause]
+      - |-
+        [\x0207][\x020902]3Hey, was macht
+        ihr denn?
+        Ihr seid so lahm![pause]
+      - |-
+        [\x0207]Teddy[\x0207]Was? Quatsch,
+        du bist bloβ
+        zu schnell.[pause]
+      - '[\x0207]Teddy[\x0207]Oder, Ivy?[pause]'
+      - |-
+        [\x0207]Kail[\x0207]Nein, ich heiβe
+        Kail! Vergiss
+        das nicht![pause]
+      - "[\\x0207][\\x020902]3Kail? Das ist\ndein neuer Name?[pause][\\x0203]Komisch. Hört\nsich wie ein \nMännername an![pause]"
+      - |-
+        [\x0207]Kail[\x0207]Den habe ich mir
+        ausgesucht. OK?![pause]
+      - |-
+        [\x0207]Teddy[\x0207]Ich war zu faul und
+        heiβe weiterhin Teddy![pause]
+      - |-
+        [\x0207][\x020902]3Oh, cool! Hier
+        sind meine
+        Digimon![pause]
+      - |-
+        [\x0207]Teddy[\x0207]Wow! Wer hat
+        sich das nur
+        ausgedacht?[pause]
+      - '[\x0207]Kail[\x0207]Gute Frage.[pause]'
+      - |-
+        [\x0207][\x020902]3Hallo zusammen!
+        Ich bin [\x020801][\x020501]!
+        Freut mich sehr.[pause]
+      - |-
+        [\x0207]Kotemon[\x0207]Ich werde mein
+        Bestes geben.
+        Vielen Dank![pause]
+      - |-
+        [\x0207]Renamon[\x0207]Wir wollen alle
+        World Champ
+        werden.[pause]
+      - |-
+        [\x0207]Patamon[\x0207]Hi! Ich werde
+        dich nicht enttäuschen.[pause]
+      - |-
+        [\x0207][\x020902]3OK, ihr drei.
+        Ich verlasse
+        mich auf euch![pause][\x0203]Los geht's![pause]
+      - "[\\x0207][\\x020902]3OK, ich bin \nweg![pause]"
+      - |-
+        [\x0207]Kail[\x0207]In Ordnung.
+        Wir teilen uns
+        jetzt auf.[pause]
+      - '[\x0207]Teddy[\x0207]Bis später.[pause]'
+  - strings:
+      - ''
+      - |-
+        [\x0207]Tamer[-4]Service[\x0207]Ich lade jetzt die
+        Digimon[-4]Daten von
+        deinem Satelliten.[pause][\x0203]Bitte warte an der
+        Online[-4]Markierung
+        auf dem Boden.[pause]
+      - |-
+        [\x0207][\x020902]3Wow! Ich kann es
+        kaum erwarten, mein
+        Digimon zu treffen![pause]
+      - |-
+        [\x0207]Teddy[\x0207]...oh!
+        Hey [\x020801][\x020501]![pause]
+      - |-
+        [\x0207][\x020902]3Hey, was macht
+        ihr denn?
+        Ihr seid so lahm![pause]
+      - |-
+        [\x0207]Teddy[\x0207]Was? Quatsch,
+        du bist bloβ
+        zu schnell.[pause]
+      - '[\x0207]Teddy[\x0207]Oder, Ivy?[pause]'
+      - |-
+        [\x0207]Kail[\x0207]Nein, ich heiβe
+        Kail! Vergiss
+        das nicht![pause]
+      - "[\\x0207][\\x020902]3Kail? Das ist\ndein neuer Name?[pause][\\x0203]Komisch. Hört\nsich wie ein \nMännername an![pause]"
+      - |-
+        [\x0207]Kail[\x0207]Den habe ich mir
+        ausgesucht. OK?![pause]
+      - |-
+        [\x0207]Teddy[\x0207]Ich war zu faul und
+        heiβe weiterhin Teddy![pause]
+      - |-
+        [\x0207][\x020902]3Oh, cool! Hier
+        sind meine
+        Digimon![pause]
+      - |-
+        [\x0207]Teddy[\x0207]Wow! Wer hat
+        sich das nur
+        ausgedacht?[pause]
+      - '[\x0207]Kail[\x0207]Gute Frage.[pause]'
+      - |-
+        [\x0207][\x020902]3Hallo zusammen!
+        Ich bin [\x020801][\x020501]!
+        Freut mich sehr.[pause]
+      - |-
+        [\x0207]Monmon[\x0207]Ich kämpf toll!
+        Alle sind toll!
+        Auf geht's![pause]
+      - |-
+        [\x0207]Agumon[\x0207]Hi [\x020801][\x020501]!
+        Lasst uns alles
+        geben.[pause]
+      - |-
+        [\x0207]Renamon[\x0207]Wir wollen alle
+        World Champ
+        werden.[pause]
+      - |-
+        [\x0207][\x020902]3OK, ihr drei.
+        Ich verlasse
+        mich auf euch![pause][\x0203]Los geht's![pause]
+      - "[\\x0207][\\x020902]3OK, ich bin \nweg![pause]"
+      - |-
+        [\x0207]Kail[\x0207]In Ordnung.
+        Wir teilen uns
+        jetzt auf.[pause]
+      - '[\x0207]Teddy[\x0207]Bis später.[pause]'
+  - strings:
+      - ''
+      - |-
+        [\x0207]Tamer[-4]Service[\x0207]Ich lade jetzt die
+        Digimon[-4]Daten von
+        deinem Satelliten.[pause][\x0203]Bitte warte an der
+        Online[-4]Markierung
+        auf dem Boden.[pause]
+      - |-
+        [\x0207][\x020902]3Wow! Ich kann es
+        kaum erwarten, mein
+        Digimon zu treffen![pause]
+      - |-
+        [\x0207]Teddy[\x0207]...oh!
+        Hey [\x020801][\x020501]![pause]
+      - |-
+        [\x0207][\x020902]3Hey, was macht
+        ihr denn?
+        Ihr seid so lahm![pause]
+      - |-
+        [\x0207]Teddy[\x0207]Was? Quatsch,
+        du bist bloβ
+        zu schnell.[pause]
+      - '[\x0207]Teddy[\x0207]Oder, Ivy?[pause]'
+      - |-
+        [\x0207]Kail[\x0207]Nein, ich heiβe
+        Kail! Vergiss
+        das nicht![pause]
+      - "[\\x0207][\\x020902]3Kail? Das ist\ndein neuer Name?[pause][\\x0203]Komisch. Hört\nsich wie ein \nMännername an![pause]"
+      - |-
+        [\x0207]Kail[\x0207]Den habe ich mir
+        ausgesucht. OK?![pause]
+      - |-
+        [\x0207]Teddy[\x0207]Ich war zu faul und
+        heiβe weiterhin Teddy![pause]
+      - |-
+        [\x0207][\x020902]3Oh, cool! Hier
+        sind meine
+        Digimon![pause]
+      - |-
+        [\x0207]Teddy[\x0207]Wow! Wer hat
+        sich das nur
+        ausgedacht?[pause]
+      - '[\x0207]Kail[\x0207]Gute Frage.[pause]'
+      - |-
+        [\x0207][\x020902]3Hallo zusammen!
+        Ich bin [\x020801][\x020501]!
+        Freut mich sehr.[pause]
+      - |-
+        [\x0207]Kumamon[\x0207]Verstanden!
+        Auf in den Kampf![pause]
+      - |-
+        [\x0207]Guilmon[\x0207]Guilmon macht
+        [\x020801][\x020501] zum
+        Champion![pause]
+      - |-
+        [\x0207]Patamon[\x0207]Hi! Ich tue
+        mein Bestes![pause]
+      - |-
+        [\x0207][\x020902]3OK, ihr drei.
+        Ich verlasse
+        mich auf euch![pause][\x0203]Los geht's![pause]
+      - "[\\x0207][\\x020902]3OK, ich bin \nweg![pause]"
+      - |-
+        [\x0207]Kail[\x0207]In Ordnung.
+        Wir teilen uns
+        jetzt auf.[pause]
+      - '[\x0207]Teddy[\x0207]Bis später.[pause]'
+  - strings:
+      - ''
+      - '[\x0207]Tamer[-4]Service[\x0207]Ich verstehe.[pause]'
+  - strings:
+      - ''
+      - |-
+        [\x0207]Tamer[-4]Service[\x0207]Ich verstehe.[pause][\x0203]Wenn du deine Digimon
+        losschicken möchtest,
+        komm zu mir.[pause]
+      - |-
+        [\x0207][\x020902]3OK, sehen wir
+        uns mal die
+        Lobby an![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Klar! Ich brauche
+        meine Partner[-4]
+        Digimon[-4]Daten.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Klar! Ich brauche
+        meine Partner[-4]
+        Digimon[-4]Daten.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]DO[-4]Wache[\x0207]He du! Ab hier
+        haben nur Mitar[-4]
+        beiter Zutritt![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Tamer Genji[\x0207]Sieh an.
+        Dich kenne ich
+        noch nicht.[pause][\x0203]Bist du neu
+        hier?[pause]
+      - |-
+        [\x0207][\x020902]3Ja! Ich habe
+        mein Digimon
+        gerade bekommen.[pause]
+      - |-
+        [\x0207]Tamer Genji[\x0207]Dann kämpfe ich
+        jetzt mit dir.[pause][\x0203]Macht nichts,
+        wenn du die Re[-4]
+        geln nicht kennst![pause][\x0203]Wichtig ist dabei,
+        Erfahrung zu
+        sammeln![pause]
+  - strings:
+      - ''
+      - '[\x0207][\x020902]3Gewonnen![pause]'
+      - |-
+        [\x0207]Tamer Genji[\x0207]Für einen Anfänger
+        bist du ganz gut.[pause][\x0203]Du hast das Poten[-4]
+        zial, einmal World
+        Champ zu werden![pause]
+      - |-
+        [\x0207][\x020902]3Das ist mein
+        Traum![pause]
+      - |-
+        [\x0207]Tamer Genji[\x0207]Um das zu erreichen,
+        musst du noch viel
+        über Digimon lernen.[pause][\x0203]Vor dem Verlassen der
+        Stadt solltest du ins
+        Digimon[-4]Labor gehen.[pause]
+      - |-
+        [\x0207][\x020902]3Digimon[-4]Labor.
+        Wird gemacht.
+        Vielen Dank![pause]
+      - |-
+        [\x0207]Tamer Genji[\x0207]Hast du über[-4]
+        haupt eine
+        Aktentasche?[pause]
+      - |-
+        [\x0207][\x020902]3Was ist
+        denn das?[pause]
+      - "[\\x0207]Tamer Genji[\\x0207]Aha, dann gehst\ndu am besten zum \nGelben Kreuzer.[pause][\\x0203]Dort lernst du alles \nWichtige über den\nKampf mit Karten.[pause][\\x0203]Geh jetzt. Ich ver[-4]\nlass mich auf dich,\nKleiner. Ha ha ha![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Digimon[-4]Navig.[\\x0207]Hier findest du Hinweise\nzum Digimon[-4]Kampf und \nzum Züchten v. Digimon.[pause][\\x0203]Die Daten werden auf \ndem Satelliten angezeigt.[pause]"
+      - |-
+        "Angriffsarten"
+        Setze physische, magische o. unter[-4]
+        stützende Techniken n. Bedarf ein.[pause][\x0203]"Angriffsattribute"
+        Greife Gegner mit gegnerischen Attri[-4]
+        buten an u. nutze verbündete Attrib.[pause]
+      - "\"Technische Effekte\"\nDie Wirkung von Gift, Lähmung usw.\nist je nach Digimon unterschiedlich.[pause][\\x0203]\"Statusleiden\"\nStatusleiden auβer \"Fluch\" von \nCardmon verschwinden n. dem Kampf.[pause]"
+      - |-
+        "DNA[-4]Digitation"
+        Macht aus zwei Digimon einen. Nach
+        DNA[-4]Digitation tauschen beide.[pause][\x0203]"EXP[-4]Verteilung"
+        Alle Digimon, die gekämpft haben,
+        erhalten EXP.[pause]
+      - |-
+        "Training"
+        Digimon können mit TP (Trainings[-4]
+        punkte) in Hallen trainiert werden.[pause][\x0203]"Digitationsfähigkeiten"
+        Die Digitationsfähigkeiten nehmen
+        mit der EXP zu.[pause]
+      - a
+      - |-
+        [\x0207]Digimon[-4]Navig.[\x0207]Das war schon
+        alles. Viel Glück![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Digimon[-4]Navig.[\x0207]Wir sollten sichergehen,
+        dass du nun alles über
+        Kampf u. Train. weiβt.[pause][\x0203]Daten werden auf dem
+        Satelliten angezeigt.[pause]
+      - "Es gibt zwei Angriffsarten:\nphysisch und magisch.[pause][\\x0203]Stärke und Verteidigung gehören zu\nphysischen Angriffen, Geist und\nWeisheit zu magischen Angriffen.[pause][\\x0203]\"Angriffsattribute\"\nGreife Gegner mit einem gegnerischen\nAttribut an, um Vorteile zu erlangen.[pause][\\x0203]Gegner nutzen auch Attributangriffe. \nSetze daher ein Partner[-4]Digimon ein, \ndas gegen das Attribut stark ist.[pause][\\x0203]\"Technische Effekte\"\nEs gibt Techniken mit Spezial[-4]\neffekten, wie Schaden.[pause][\\x0203]Die Effektivität hängt vom Status des\nGegners ab. Ist sie wirkungslos, pro[-4]\nbiere sie bei e. anderen Gegner aus.[pause][\\x0203]\"Digitation im Kampf\"\nDigitiere zur Anpassung an d. Gegner.\nAuβerdem gibt es \"Stoβ[-4]Digitieren\".[pause][\\x0203]Richten Digimon Schaden an, steigt\nder Stoβmesser. Ist er voll, digitiert \ndas Digimon bis z. Ablauf der Zeit.[pause][\\x0203]\"DNA[-4]Digitation\"\nAus 2 Digimon wird einer. Nach der\nDNA[-4]Digitation tauschen sie Plätze.[pause][\\x0203]Die Möglichk. für DNA[-4]Digitation \nsind vorgegeben. Probiere mehrere\nKombinationen aus.[pause][\\x0203]\"Statusleiden\"\nDurch Spezialeffekte eines Angriffs\nkann ein Digimon \"vergiftet\" werden.[pause][\\x0203]Statusleiden hören auf, wenn du den\nKampf gewinnst. Ein \"Fluch\" von Card[-4]\nmon kann aber nur im Inn geheilt werden.[pause][\\x0203]\"EXP[-4]Verteilung\"\nAlle Digimon, die gekämpft haben, \nerhalten die gleiche Menge EXP.[pause][\\x0203]Fähigkeiten werden gleichmäβig\nunter den digitierten Digimon verteilt.[pause][\\x0203]\"Training\"\nDigimon können mit TP (Trainings[-4]\npunkte) in einer Halle trainiert werden.[pause][\\x0203]TP nehmen bei jedem Level um 5 zu.\nDie Trainingsparameter wirken sich\nauf Kämpfe und Digitation aus.[pause][\\x0203]\"Digitation\"\nPartner[-4]Digimon können das Digitieren\nbei höheren Leveln u. Parametern lernen.[pause][\\x0203]Zum Digitieren im Kampf ist eine bestimmte\nFähigkeit nötig. Digivolve Navi kann dir \nmehr darüber sagen.[pause][\\x0203]\"Techniken\"\nErhöhe den Schwierigkeitsgrad, um andere\nTechnikgen und Digitationstypen zu erlernen.[pause][\\x0203]Du kannst verschiedene Digitationspfade\nim Digimon[-4]Labor laden, aber keine\nendgültigen Techniken.[pause]"
+      - |-
+        [\x0207]Digimon[-4]Navig.[\x0207]Das war schon
+        alles. Viel Glück![pause]
+  - strings:
+      - ''
+      - "[\\x0207]Digitations[-4]Navi.[\\x0207]Ich gebe dir Tipps,\nwie du dein Digimon \nz. Digitieren züchtest.[pause][\\x0203]Daten werd. auf dem\nSatelliten angezeigt.[pause]"
+      - "\"Kotemon\"\nKann Agumon[-4]/Veemon[-4]Typen lernen,\nwenn du Maschinentoleranz trainierst.[pause][\\x0203]\"Monmon\"\nWenn es Ultimativ kann, trainiere \nStärke, Maschinen[-4] und Windtoleranz.[pause][\\x0203]\"Kuanmon\"\nTrainiere Weisheit und Geist, die am\nschwierigsten sind.[pause]"
+      - |-
+        "Renamon"
+        Trainiere Geist o. Stärke u. Abwehr.[pause][\x0203]"Patamon"
+        Trainiere Weisheit oder Stärke.[pause]
+      - "\"Agumon\"\nWenn du Dunkelheittoleranz erhöhst,\nlernt es Dunkelheitsdigitation.[pause][\\x0203]\"Guilmon\"\nDa dies Teilparameter sind, soll[-4] \nten die Schwächen gestärkt werden.[pause]"
+      - |-
+        [\x0207]Digitations[-4]Navi.[\x0207]Das war schon
+        alles. Viel Glück![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Digimon[-4]Navig.[\x0207]Die Daten werden
+        auf deinem Satelli[-4]
+        ten angezeigt.[pause]
+      - "\"Kotemon\"\nKann Agumon[-4]/Veemon[-4]Typen lernen,\nwenn du Maschinentoleranz trainierst.[pause][\\x0203]\"Monmon\"\nWenn es Ultimativ kann, trainiere \nStärke, Maschinen[-4] und Windtoleranz.[pause]"
+      - |-
+        "Kumamon"
+        Trainiere Weisheit und Geist, die
+        am schwierigsten sind.[pause][\x0203]"Renamon"
+        Trainiere Geist o. Stärke u. Abwehr.[pause]
+      - |-
+        "Patamon"
+        Trainiere Geist oder Stärke.[pause][\x0203]"Agumon"
+        Wenn du Dunkelheittol. erhöhst,
+        lernt es Dunkelheitsdigitation.[pause]
+      - "\"Guilmon\"\nDa dies Teilparameter sind, soll[-4] \nten die Schwächen gestärkt werden.[pause][\\x0203]\"Veemon\"\nMuss zunächst wenig lernen, aber\nwenn du einige Param. trainierst...[pause]"
+      - |-
+        [\x0207]Digitations[-4]Navi.[\x0207]Das war schon
+        alles. Viel Glück![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Ponchomon[\x0207]Hola, du kannst dir
+        jederzeit Infos zu
+        diesen Items ansehen![pause][\x0203]Ich zeige sie auf dem
+        Satelliten an, Amigo![pause]
+      - |-
+        "Ausrüstungseffekte"
+        Effekte sind autom. bei Ausrüstung
+        oder werden im Angriff verwendet.[pause][\x0203]Waffeneffekte gelten nur, wenn es
+        keine technischen Effekte gibt.[pause][\x0203]"Beidhändig und einhändig"
+        Beidhändige Waffen sind kraftvol[-4]
+        ler, lassen aber keine Rüstung zu.[pause][\x0203]Eine Ausrüstung mit zwei einhändigen
+        Waffen ist kraftvoller als eine beid[-4]
+        händige, aber auch teurer.[pause]
+      - |-
+        "Zubehörbeschränkung"
+        Höchst 2 Zubehört., aber
+        jed. Zubehört. nur 1 x.[pause][\x0203]"Rüstungsähnliche Waffen"
+        Es gibt Waffen zur Ausrüstung des
+        Kopfs und Schilder, die angreifen.[pause][\x0203]"Spezialwaffen"
+        Die stärksten Waffen können nur von
+        bestimmten Digimon verwendet werden.[pause]
+      - |-
+        "Serienausrüstung"
+        Ausrüst. m. best. Waffen u.
+        Rüstung erhöht Parameter.[pause][\x0203]"Chip"
+        Die ständige Parametererhöhung
+        durch Chip ist Glückssache.[pause]
+      - |-
+        [\x0207]Ponchomon[\x0207]Nicht weitersagen!
+        Adios amigos![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Tamer[-4]Service[\x0207]Suche nach Hin[-4]
+        weisen zu den
+        Spielregeln.[pause][\x0203]Die Daten werden
+        auf deinem Satelli[-4]
+        ten angezeigt.[pause]
+      - "\"Reisevorbereitung\"\nWähle u. entscheide dich für Digi[-4]\nmon u. Digitat. im Digimon[-4]Labor.[pause][\\x0203]Rüste die Digimon mit Waffen u. \nRüstung aus, und stelle sie für\nden Kampf auf.[pause]"
+      - |-
+        "Kampf mit Karten"
+        In Digimon[-4]Online kannst du
+        auch mit Karten kämpfen.[pause][\x0203]Weitere Informationen erhältst du
+        beim gelben Kreuzer.[pause][\x0203]"Speichern"
+        Für alle Fälle solltest du
+        häufig speichern.[pause][\x0203]Guardromon, die für das Speichern
+        zuständig s., stehen b. jed. Inn.
+        Guardromon im Kampf speich. nicht![pause]
+      - |-
+        "Spielende"
+        Wenn alle Partner[-4]Digimon besiegt
+        sind, ist das Spiel zu Ende.[pause][\x0203]Vermeide sinnlose Kämpfe.[pause][\x0203]"Weitere Partner"
+        Du kannst neben den 3 gewählten
+        Partner[-4]Digimon weitere hinzufügen.[pause][\x0203]Mehr kann ich dir nicht sagen.[pause]
+      - |-
+        [\x0207]Tamer[-4]Service[\x0207]Das war schon
+        alles. Viel Glück![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Sammler Ken[\x0207]Dies ist das Eldorado
+        der Sammler![pause][\x0203]Oh? Du bist kein
+        Mitglied, oder?[pause][\x0203]Deine Digimon sehen auch
+        nicht so cool aus. Du
+        kannst kein Mitglied sein.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Rapper Mike[\x0207]Wir sind cool, ihr
+        könnt reinkommen![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Mysteriöser Spieler[\x0207]Hey! Warte mal,
+        Kleiner![pause]
+      - |-
+        [\x0207][\x020902]3Redest
+        du mit
+        mir?[pause]
+      - |-
+        [\x0207]Mysteriöser Spieler[\x0207]Natürlich
+        meine ich dich![pause][\x0203]Du bist [\x020801][\x020501],
+        der Seiryu Leader
+        besiegt hat, oder?[pause]
+      - |-
+        [\x0207][\x020902]3Ja... und wer
+        bist du....?[pause]
+      - "[\\x0207]Keith[\\x0207]Ich bin Keith. Den \nNamen solltest du\ndir merken, Kleiner![pause][\\x0203]Ich werde nämlich\ndas Turnier \ngewinnen![pause]"
+      - |-
+        [\x0207][\x020902]3Tatsächlich? Na,
+        das wollen wir
+        doch mal sehen![pause]
+      - |-
+        [\x0207]Keith[\x0207]Ha ha, verstehe!
+        Du willst wohl mit
+        mir kämpfen?[pause]
+      - '[\x0207][\x020902]3Auf geht''s![pause]'
+      - "[\\x0207]Keith[\\x0207]Leider kann ich \nkeine Rücksicht\nauf dich nehmen![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Sieg! Da
+        staunste![pause]
+      - |-
+        [\x0207]Keith[\x0207]Ha! Ich habe mich
+        zurückgehalten.[pause]
+      - |-
+        [\x0207][\x020902]3Ich dachte, du
+        würdest keine
+        Rücksicht nehmen.[pause]
+      - |-
+        [\x0207]Keith[\x0207]Ich weiβ gar nicht,
+        wovon du sprichst![pause][\x0203]Pass bloβ auf,
+        Kleiner. Nächstes
+        Mal bist du fällig![pause][\x0203]Vergiss mich nicht.
+        Sayonara, Idiot![pause]
+      - "[\\x0207][\\x020902]3Wer hier\nwohl der \nIdiot ist![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Hey, Etemon, \nich will dich\netwas fragen.[pause]"
+      - |-
+        [\x0207]Etemon[\x0207]Klar, was denn?
+        Ich erzähle dir alles,
+        was ich weiβ.[pause]
+      - "[\\x0207][\\x020902]3Du bist doch der, \nder die Maske von \nSepikmon hat, oder?[pause]"
+      - |-
+        [\x0207]Etemon[\x0207]I[-4]Ich weiβ gar
+        nicht, wovon
+        du sprichst![pause]
+      - |-
+        [\x0207][\x020902]3Hey, warte![pause][\x0203]Er versteckt
+        etwas![pause]
+  - strings:
+      - ''
+      - "[\\x0207]Irrer Phillip[\\x0207]He, was geht ab?\nIch warte schon \n'ne ganze Weile.[pause]"
+      - |-
+        [\x0207]Faulpelz Fei[\x0207]Wann können
+        wir zurück?[pause]
+      - |-
+        [\x0207]Tamer[-4]Service[\x0207]Sorry, es gibt
+        immer noch
+        keine Details.[pause]
+      - |-
+        [\x0207]Kail[\x0207]Was geht hier
+        eigentlich vor?[pause]
+      - "[\\x0207]Faulpelz Alan[\\x0207]Gamemaster? \nDas muss eine\nDurchsg. sein![pause]"
+      - "[\\x0207]Arbeiter Jeff[\\x0207]Sie ist eine \nFrau?! Das war\nmir nicht klar![pause]"
+      - "[\\x0207]Miss Misha[\\x0207]Sie ist cool!\nIch will so \nsein wie sie![pause]"
+      - |-
+        [\x0207]Gamemaster[\x0207]Wir entschuldigen uns
+        bei allen Spielern für
+        die Unannehmlichkeiten.[pause][\x0203]Die Wartung der Matrix[-4]
+        Kammer wird noch
+        etwas länger dauern.[pause][\x0203]Wir bitten um Geduld,
+        bis das System repariert
+        ist.[pause]
+      - "[\\x0207]Faulpelz Alan[\\x0207]Was? Mir \nreicht's![pause]"
+      - "[\\x0207]Arbeiter Jeff[\\x0207]Ich schätze, wir\nkönnen nichts \ndaran ändern.[pause]"
+      - "[\\x0207]Energische Yuki[\\x0207]Yeay! Dann \nkann ich noch\nlänger spielen![pause]"
+      - "[\\x0207]Kail[\\x0207]Wie blöd! Sie sind im[-4]\nmer noch nicht fertig.[pause][\\x0203]Wir können nicht in \ndie echte Welt zurück![pause]"
+      - "[\\x0207][\\x020902]3Hmmm, ob wohl\nLucky Mouse daran \nschuld ist?[pause]"
+      - "[\\x0207]Kail[\\x0207]Lucky Mouse!?[pause][\\x0203]...Hey, was\nmeinst du \ndamit?[pause]"
+      - |-
+        [\x0207][\x020902]3I. weiβ nichts Genaues,
+        aber Teddy sagte, Lu.
+        Mouse sei aufgetaucht.[pause]
+      - |-
+        [\x0207]Kail[\x0207]... Sucht Teddy etwas
+        Bestimmtes beim
+        Administration[-4]Center?[pause]
+      - |-
+        [\x0207]Kail[\x0207]...Hey [\x020801][\x020501].
+        Lass uns nach Teddy
+        suchen![pause][\x0203]Ich möchte ihn
+        etwas fragen![pause]
+      - "[\\x0207][\\x020902]3OK, dann lasst uns \nsofort zum Center\naufbrechen![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]DO[-4]Wache[\\x0207]Entschuldigung, ab \nhier haben nur \nMitarbeiter Zutritt![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Kail[\x0207]...wie ärgerlich.
+        Wir kommen nicht rein.[pause]
+      - |-
+        [\x0207][\x020902]3Es muss
+        einen Weg
+        geben...[pause]
+      - |-
+        [\x0207]Kail[\x0207]Tja, Jammern
+        hilft uns auch
+        nicht weiter.[pause][\x0203]Wir sollten uns
+        aufteilen und
+        nachforschen.[pause][\x0203]Red m. Leuten
+        in der Stadt.[pause]
+      - |-
+        [\x0207][\x020902]3OK, mache ich![pause][\x0203]Langsam mache
+        ich mir Sorgen
+        um Teddy.[pause]
+  - strings:
+      - ''
+      - "[\\x0207]Kail[\\x0207]Wie werden\nwir jetzt \nzu Digimon?[pause]"
+      - |-
+        [\x0207][\x020902]3He! Sieh mal,
+        was ich hier
+        habe![pause]
+      - "[\\x0207]Kail[\\x0207]Perfekt. Damit\nwäre das Problem\nwohl gelöst.[pause][\\x0203]Wir ziehen die \nAgumon[-4]Anzüge an\nu. suchen Teddy![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Was meinst du?
+        Jetzt sehe ich aus
+        wie ein Digimon![pause]
+      - "[\\x0207]Kail[\\x0207]Still! Halt doch\nmal die Klappe![pause][\\x0203]Sie sollen doch \nnicht wissen, dass \nwir keine Dig. sind![pause]"
+      - "[\\x0207][\\x020902]3Ach ja, klar. \nStimmt ja.\nVerstehe...[pause]"
+      - "[\\x0207]Kail[\\x0207]Geh schon mal vor.\nIch muss noch etwas\nklären.[pause][\\x0203][\\x020801][\\x020501], vergiss \nn., Teddy zu suchen.[pause][\\x0203]Sobald ich fertig bin,\nkomme ich nach.[pause]"
+      - |-
+        [\x0207][\x020902]3OK, aber
+        sei bloβ
+        vorsichtig.[pause]
+      - |-
+        [\x0207]Kail[\x0207]K. Sorge.
+        Ich bin n.
+        wie du![pause]
+      - |-
+        [\x0207][\x020902]3Was ist mit Kail?
+        Seit wir hier sind,
+        ist sie komisch...[pause][\x0203]Naja, ich muss
+        Teddy finden![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3...Huch![pause][\x0203]Z. Adm.[-4]Cent.
+        gehts da lang.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3...Oh, warte![pause][\x0203]Z. Adm.[-4]Cent.
+        gehts da lang.[pause]
+  - strings:
+      - ''
+      - "[\\x0207]DO[-4]Wache[\\x0207]Entschuldigung,  \nab hier haben nur \nMitarbeiter...[pause][\\x0203]...was, wieder\nein Digimon?![pause]"
+      - |-
+        [\x0207][\x020902]3Umm, ja.
+        ...Ich..bin..ein
+        ..verlor. Digimon![pause]
+      - |-
+        [\x0207]DO[-4]Wache[\x0207]Erst das rosa
+        Agumon und
+        jetzt du...[pause][\x0203]Du kannst durch,
+        aber geh niemandem
+        auf die Nerven.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Ich schnappe
+        mir diesen
+        Lucky Mouse![pause]
+      - |-
+        [\x0207]Kail[\x0207]Sorry. Mir fiel
+        gerade ein, dass
+        ich gehen muss.[pause]
+      - |-
+        [\x0207][\x020902]3Hä?
+        Was ist nur mit Kail?[pause][\x0203]Naja, ich habe ja
+        Digimon, auf die ich
+        mich verlassen kann![pause][\x0203]OK, wir brechen in
+        den Westsektor auf![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Teddy[\x0207]Hey,
+        [\x020801][\x020501]![pause]
+      - |-
+        [\x0207][\x020902]3Teddy, bist
+        du OK?[pause]
+      - |-
+        [\x0207]Teddy[\x0207]Ja, danke![pause][\x0203][\x020801][\x020501], MAGAMI
+        gehört zu A.o.A.[pause]
+      - |-
+        [\x0207][\x020902]3Ja, ich weiβ!
+        Aber wer sind die
+        Mitarbeiter dort?[pause]
+      - |-
+        [\x0207]Dr. Kadomatsu[\x0207]Wir gehören nicht
+        zu den A.o.A.![pause]
+      - "[\\x0207]DO[-4]Operator[\\x0207]Ach, MAGAMI und \nA.o.A. gehören \nzusammen?[pause]"
+      - |-
+        [\x0207]DO[-4]Wache[\x0207]Die Leader der Städte
+        u. die meisten Mit[-4]
+        arbeiter sind wie wir![pause][\x0203]Nicht alle MAGAMI[-4]
+        Mitarbeiter gehören
+        zu den A.o.A![pause]
+      - |-
+        [\x0207][\x020902]3OK. Ich werde
+        euch allen helfen.
+        Haltet durch![pause][\x0203]Ich werde Game[-4]
+        master besiegen![pause]
+      - |-
+        [\x0207]DO[-4]Operator[\x0207]Sei vorsichtig. Man
+        sagt, im Meisterraum
+        sei eine Falle![pause]
+      - |-
+        [\x0207]DO[-4]Wache[\x0207]Das hörte ich auch!
+        Irgendwo gibt es eine
+        Geheimtür.[pause]
+      - "[\\x0207]Dr. Kadomatsu[\\x0207]Ja, auch ich hab\ndavon gehört.[pause][\\x0203]Der Schlüsselcode\nist \"MONSTER\".[pause][\\x0203]Keine Ahnung, \nwas das heiβt.[pause]"
+      - '[\x0207][\x020902]3OK, danke![pause]'
+      - |-
+        [\x0207]Teddy[\x0207]Viel Glück,
+        [\x020801][\x020501]![pause][\x0203]Besieg
+        die A.o.A.![pause]
+      - |-
+        [\x0207][\x020902]3Keine Sorge
+        Überlass
+        das mir![pause]
+      - |-
+        [\x0207][\x020902]3...oh,
+        Teddy![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3OK, dann gehen wir
+        in den Nordsektor![pause]
+      - |-
+        [\x0207]Teddy[\x0207]Warte mal!
+        Wie kommen wir
+        denn dahin?[pause][\x0203]Es gibt keine Straβe
+        und mit Submarimon
+        geht's auch nicht![pause]
+      - |-
+        [\x0207][\x020902]3Ach ja?
+        Stimmt
+        das?[pause]
+      - "[\\x0207]Teddy[\\x0207]Das haben jeden[-4]\nfalls die Wachen im\nGefängnis gesagt.[pause][\\x0203]Du kannst Digimon \nfragen, um z. Nord[-4]\nsektor zu kommen...[pause]"
+      - |-
+        [\x0207][\x020902]3Dann ist es
+        doch einfach![pause]
+      - "[\\x0207]Teddy[\\x0207]Aber du brauchst das\nDigiei des Wissens,\num Digimon zu rufen...[pause][\\x0203]Ich glaube, das ist ein\nseltenes Item, gibt's nur \nin Amaterasu[-4]Server.[pause]"
+      - |-
+        [\x0207][\x020902]3OK, dann machen wir
+        uns auf die Suche
+        nach Amaterasu![pause]
+      - "[\\x0207]Teddy[\\x0207]Aber wie kommen\nwir denn da\nhin?[pause][\\x0203]Da wimmelt es \nsicher nur so von\nA.o.A...[pause]"
+      - |-
+        [\x0207][\x020902]3Hmm...
+        Da sagst du
+        was...[pause]
+      - |-
+        [\x0207][\x020902]3Aber wie sind
+        denn die A.o.A.
+        hergekommen?[pause]
+      - |-
+        [\x0207]Teddy[\x0207]Na klar!
+        Die Soldaten in
+        Byakko City![pause]
+      - |-
+        [\x0207][\x020902]3Vielleicht wissen
+        die etwas![pause]
+      - |-
+        [\x0207]Teddy[\x0207]Ganz sicher,
+        [\x020801][\x020501]![pause]
+      - "[\\x0207][\\x020902]3OK, ich werde \nden Westsektor\nauskundsch.![pause]"
+      - |-
+        [\x0207]Teddy[\x0207]Sei vorsichtig.
+        Ich versuch's mit
+        diesem Computer![pause]
+      - |-
+        [\x0207][\x020902]3OK. Sag Be[-4]
+        scheid, wenn
+        du was weiβt![pause]
+      - |-
+        [\x0207]Teddy[\x0207]Klar!
+        Überlass
+        das mir![pause]
+  - strings:
+      - ''
+      - "[\\x0207]Knightmon[\\x0207]Virus gefunden!\nVirus gefunden![pause][\\x0203]Virus wird jetzt \ngelöscht![pause]"
+      - |-
+        [\x0207][\x020902]3Hey, Moment!
+        Ich bin kein Virus![pause]
+      - "[\\x0207]Knightmon[\\x0207]Virus bestätigt!\nVirus bestätigt![pause][\\x0203]Virus wird jetzt \ngelöscht![pause]"
+      - "[\\x0207][\\x020902]3Sinnlos! Knightmon\nw. von den A.o.A.\numprogrammiert![pause][\\x0203]Hmm... Schätze, ich\nsollte mir jetzt die \nand. Städte ansehen.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3...Lisa, meinst\ndu den \nGamemaster?![pause]"
+      - |-
+        [\x0207]Lisa[\x0207]Stimmt!
+        Du hast's kapiert![pause][\x0203]Sie ist die einzige,
+        zu der wir gehen
+        können, richtig?[pause]
+      - |-
+        [\x0207]Gamemaster[\x0207]...wovon sprecht
+        ihr![pause][\x0203]Ich habe nicht die
+        Absicht, euch zu
+        helfen![pause]
+      - |-
+        [\x0207]Lisa[\x0207]Oh, wirklich?
+        Hmmmm[pause][\x0203]Ich wollte schon
+        aufgeben.[pause]
+      - |-
+        [\x0207][\x020902]3Was sagst du
+        da, Lisa?![pause]
+      - "[\\x0207]Lisa[\\x0207]Sie haben Jugger[-4]\nnaut! Also können \nwir nichts machen![pause][\\x0203]Und ich möchte \nno. nicht sterben.[pause]"
+      - |-
+        [\x0207][\x020902]3...wawas?!
+        Wir haben so
+        viel gekämpft!![pause][\x0203]Ich will nicht.
+        Ich gebe nie[-4]
+        mals auf![pause]
+      - |-
+        [\x0207]Lisa[\x0207][\x020801][\x020501], du
+        bist tapfer.[pause][\x0203]Aber du wirst dein
+        Leben verlieren.[pause]
+      - |-
+        [\x0207]Gamemaster[\x0207]Schlauer, als ihr
+        ausseht. Muss meine
+        Meinung ändern.[pause]
+      - |-
+        [\x0207]Gamemaster[\x0207]Ja, Juggernaut
+        gehört den
+        A.o.A.![pause][\x0203]Nur der Präsident in
+        Amaterasu City kann
+        es stoppen![pause]
+      - |-
+        [\x0207]Lisa[\x0207]...wirklich.[pause][\x0203]Hast du gehört
+        [\x020801][\x020501]?[pause]
+      - |-
+        [\x0207][\x020902]3Jaja Ma'am!
+        ...jetzt versteh
+        ich!![pause]
+      - "[\\x0207]Gamemaster[\\x0207]Oh, was sagte ich?!\nWar ein Geheimnis! \nIch bin eine Idiotin![pause]"
+      - |-
+        [\x0207]Lisa[\x0207]Jetzt hat sie
+        sich verraten![pause][\x0203]Na!
+        Wie hab ich
+        das gemacht?[pause]
+      - |-
+        [\x0207]Teddy[\x0207]...hey, das
+        ist nur Zeit[-4]
+        verschwendung![pause]
+      - |-
+        [\x0207]Teddy[\x0207]Vemmon wurde in
+        Juggernaut um[-4]
+        gewandelt![pause]
+      - '[\x0207]Lisa[\x0207]Wirklich?![pause]'
+      - |-
+        [\x0207][\x020902]3...was,
+        Was ist
+        passiert?![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Gamemaster[\x0207]...dann wird
+        Destromon jetzt
+        geboren...[pause]
+      - |-
+        [\x0207][\x020902]3Was ist
+        Destromon?[pause]
+      - "[\\x0207]Gamemaster[\\x0207]Entstehen von Digi.\nbei Verschmelzen von \nVemmon u. Juggerna.[pause][\\x0203]Destromon ist das\nstärkste Digimon! Keine\nWaffen gegen Destro.![pause]"
+      - |-
+        [\x0207]Lisa[\x0207]...wir haben keine
+        Zeit zu verlieren![pause][\x0203]Der Präsident von
+        MAGAMI muss Destro[-4]
+        mon stoppen![pause]
+      - '[\x0207][\x020902]3Klaro![pause]'
+      - '[\x0207]Teddy[\x0207]...jaja![pause]'
+      - '[\x0207]Nick[\x0207]OK![pause]'
+  - strings:
+      - ''
+      - |-
+        [\x0207]Lisa[\x0207]Wir werden
+        Knightmon
+        besiegen![pause][\x0203]OK, lassen
+        wir die Leute
+        der Stadt frei![pause]
+      - |-
+        [\x0207]Leader Chuck[\x0207]Alle mit[-4]
+        kommen.
+        Attacke![pause]
+      - '[\x0207]Widerständ. Wanda[\x0207]Yeah![pause]'
+      - |-
+        [\x0207]Widerständler Dew[\x0207]Die A.o.A. wer[-4]
+        den uns nicht
+        besiegen![pause]
+      - |-
+        [\x0207]Widerständ. Meech[\x0207]Wir holen
+        uns Amaterasu
+        City zurück![pause]
+      - |-
+        [\x0207]Teddy[\x0207]Wow!
+        Wir werden
+        gewinnen![pause]
+      - |-
+        [\x0207][\x020902]3Yeah! Lisa und
+        die anderen
+        sind auch da![pause]
+      - |-
+        [\x0207]Teddy[\x0207]...aber was
+        passiert in der
+        echten Welt...?[pause][\x0203]Ich hoffe, Des[-4]
+        tromon kämpft
+        noch nicht...[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Mach dir keine
+        Sorgen, Teddy. Da[-4]
+        rum kämpfen wir ja![pause][\x0203]Wir werden die A.o.A
+        schlagen![pause]
+      - "[\\x0207]Teddy[\\x0207]Ja, stimmt. Wir \nhaben's fast ge[-4]\nschafft. Los![pause]"
+      - |-
+        [\x0207]Nick[\x0207]Was, ihr seid
+        noch hier?[pause]
+      - '[\x0207][\x020902]3Oh, Nick![pause]'
+      - "[\\x0207]Teddy[\\x0207]Nick, wie \nsieht's aus?[pause]"
+      - "[\\x0207]Nick[\\x0207]Ha ha ha.\nGut sieht's aus![pause][\\x0203]Die A.o.A. in der \nStadt haben sich \nschnell ergeben![pause]"
+      - |-
+        [\x0207][\x020902]3Und
+        die Stadt?[pause]
+      - "[\\x0207]Nick[\\x0207]Wir haben sie\nzurück![pause][\\x0203]Dann fehlt\nnoch das \nAdmin[-4]Center![pause]"
+      - |-
+        [\x0207][\x020902]3...was?![pause][\x0203]Dann haben wir
+        keine Chance,
+        sie zu schlagen![pause]
+      - |-
+        [\x0207]Nick[\x0207]Ha ha ha.
+        Darum sind wir
+        zu dir gekommen.[pause][\x0203]Du musst beim
+        Angriff auf das
+        Center helfen![pause]
+      - |-
+        [\x0207][\x020902]3OK, über[-4]
+        lasst es mir!
+        Ich gewinne![pause]
+      - |-
+        [\x0207][\x020902]3Teddy, ich
+        gehe vor![pause]
+      - |-
+        [\x0207]Teddy[\x0207]Sei vorsichtig!
+        Ich bin gleich
+        hinter dir![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Angreifer[\x0207]Ich lass' keinen
+        durch! Niemand stellt
+        sich in den Weg![pause][\x0203]Unsere schöne Welt
+        wird bald zum
+        Leben erwachen![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Huch, was?
+        Sie sind noch immer
+        nicht normal...[pause]
+      - |-
+        [\x0207]Teddy[\x0207][\x020801][\x020501], die
+        Kammer arbeitet
+        auch nicht...[pause]
+      - '[\x0207][\x020902]3...Kail![pause]'
+      - '[\x0207]Teddy[\x0207]Kail![pause]'
+      - |-
+        [\x0207]Kail[\x0207]Warum ist Kurt
+        nicht wieder
+        normal?[pause]
+      - '[\x0207]Kurt[\x0207]Ooink, oink![pause]'
+      - |-
+        [\x0207]Kail[\x0207]...Bleiben Kurt
+        und die anderen
+        so...?[pause]
+      - |-
+        [\x0207]Teddy[\x0207]N[-4]nein. Wir können
+        sie bestimmt
+        wiederherstellen![pause]
+      - |-
+        [\x0207]Teddy[\x0207]...nicht wahr,
+        [\x020801][\x020501]?![pause]
+      - |-
+        [\x0207][\x020902]3...jja.
+        Ich bin sicher![pause][\x0203]Ihr wartet hier.
+        Ich seh mir das
+        mal an![pause]
+      - |-
+        [\x0207]Kail[\x0207]...hey,
+        [\x020801][\x020501]
+        Teddy...[pause]
+      - |-
+        [\x0207]Kail[\x0207]Wir besiegten die
+        A.o.A., richtig?[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]FERTIG ZUM
+        SPEICHERN[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]FERTIG ZUM
+        SPEICHERN[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Mr. Smith[\x0207]...Oh? Ist das
+        eine Eldorado[-4]ID?[pause][\x0203]Dann bist du einer
+        von uns! Komm,
+        hier lang![pause]
+  - strings:
+      - ''
+      - "[\\x0207]Smith Junior[\\x0207]Oh, du hast \neine \nEldorado[-4]ID.[pause][\\x0203]Dann geh wei[-4]\nter, du kannst\npassieren.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Hey!
+        Der Lift
+        bewegt sich![pause]
+  - strings:
+      - ''
+      - '[\x0207][\x020902]3Das macht Spaβ.[pause]'
+  - strings:
+      - ''
+      - "[\\x0207]Tamer[-4]Service[\\x0207]In Ordnung.[pause][\\x0203]Wenn du Infos \nhaben willst, sprich\nmit mir.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Digimon[-4]Navig.[\x0207]Ja, verstanden.[pause][\x0203]Sprich mit mir,
+        wenn du Infos haben
+        willst.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Digitations[-4]Navi.[\x0207]Verstehe.[pause][\x0203]Wenn du Infos
+        haben willst, sprich
+        mit mir.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Digimon[-4]Navig.[\x0207]In Ordnung.[pause][\x0203]Wenn du Infos haben
+        willst, sprich
+        mit mir.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Ponchomon[\x0207]Wenn du Infos dazu
+        hören willst, sprich
+        mit mir, Amigo![pause]
+  - strings:
+      - ''
+      - Willst du Tamer[-4]Infos hören?
+      - Ja, gerne!
+      - Nee, nicht jetzt
+  - strings:
+      - ''
+      - Willst du Partner[-4]Digi[-4]Infos hören?
+      - Ja, gerne!
+      - Nee, nicht jetzt
+  - strings:
+      - ''
+      - Willst du Digitations[-4]Infos hören?
+      - Ja, gerne!
+      - Nee, nicht jetzt
+  - strings:
+      - ''
+      - Willst du Digitations[-4]Infos hören?
+      - Ja, gerne!
+      - Nee, nicht jetzt
+  - strings:
+      - ''
+      - Grundinfos über Items?
+      - Ja, gerne!
+      - Nee, nicht jetzt

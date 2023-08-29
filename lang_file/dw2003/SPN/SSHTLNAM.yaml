@@ -1,0 +1,26 @@
+type: simple
+strings:
+  - ''
+  - Posada Asuka
+  - Pos. del Bosq.
+  - Posada Seiryu
+  - Pos. del Ptno.
+  - Pos. de Suzaku
+  - Pos. del Desie.
+  - Hotel Byakko
+  - Pos. Montaña
+  - Posada Genbu
+  - Sala Cámara
+  - Pos. Armaterasu
+  - Pos. Qing Long
+  - Posada Zhu Que
+  - Posada Bai Hu
+  - Posada Xuan Wu
+  - BIT
+  - |-
+    Cada Digimon
+    [\x020501] BIT
+  - Qued. en la Pos.
+  - No en la Pos.
+  - ¡BIT insuficientes!
+  - Oasis Pelche

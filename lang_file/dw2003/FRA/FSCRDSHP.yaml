@@ -1,0 +1,36 @@
+type: simple
+strings:
+  - ''
+  - J
+  - C
+  - BIT
+  - '[triangle] : Retour'
+  - Acheter 1 Carte
+  - Ouvrir Booster
+  - Editer Dossier
+  - X
+  - /
+  - L1
+  - R1
+  - '[\x020501] BIT'
+  - ACH.
+  - NON
+  - Ouvrir quel booster ?
+  - Booster ouvert.
+  - PA
+  - PV
+  - BIT insuffisants.
+  - Trop de cartes
+  - Pas de boosters
+  - Dos. 1
+  - Dos. 2
+  - Dos. 3
+  - Choisir un dossier.
+  - Editer le dossier
+  - Modifier nom
+  - 'R1 : expliquer Carte'
+  - 'R1 : pas expl. Carte'
+  - |-
+    4 cartes identiques maxi
+    dans le même dossier.
+  - '[circle] : Trier'

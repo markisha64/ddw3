@@ -1,0 +1,160 @@
+type: simple
+strings:
+  - ''
+  - LV
+  - HP
+  - MP
+  - TP
+  - '[triangle]: Training abbrechen'
+  - Welches trainieren?
+  - Welches Training?
+  - Wähle TP aus.
+  - Ist das Ok?
+  - Ja
+  - Nein
+  - Duell
+  - Lassen
+  - TP 1
+  - TP 5
+  - TP10
+  - Ultra[-4]Trainingschance!
+  - Nicht gen. TP
+  - Schlag
+  - Verteidigung
+  - Yoga
+  - Studium
+  - Seilspringen
+  - Superschlag
+  - Superverteidigung
+  - Superyoga
+  - Superstudium
+  - Superseilspringen
+  - Hitzetoleranz
+  - Wassertoleranz
+  - Eistoleranz
+  - Windtoleranz
+  - Donnerabwehr
+  - Geschossabwehr
+  - Verfolgen
+  - S[-4]Hitzetoleranz
+  - S[-4]Wassertoleranz
+  - S[-4]Eistoleranz
+  - S[-4]Windtoleranz
+  - S[-4]Donnerabwehr
+  - S[-4]Geschossabwehr
+  - Superverfolgung
+  - Stärke trainieren.
+  - Abwehr trainieren
+  - Geist trainieren.
+  - Weisheit trainieren
+  - Geschwindigkeit trainieren
+  - Supertraining Stärke!
+  - Supertraining Verteidigung!
+  - Supertraining Geist!
+  - Supertraining Weisheit!
+  - Supertraining Geschwindigkeit!
+  - Werde stark gegen Feuer.
+  - Werde stark gegen Wasser.
+  - Werde stark gegen Eis.
+  - Werde stark gegen Wind.
+  - Werde stark gegen Donner.
+  - Werde stark gegen Maschinen.
+  - Werde stark gegen Dunkelheit.
+  - Werde stärker gegen Feuer!
+  - Werde stärker gegen Wasser!
+  - Werde stärker gegen Eis!
+  - Werde stärker gegen Wind!
+  - Werde stärker gegen Donner!
+  - Werde stärker gegen Maschinen!
+  - Werde stärker gegen Dunkelheit!
+  - /
+  - L1
+  - R1
+  - Fehlsch.
+  - Stärke
+  - Verteidg
+  - Geist
+  - Weish.
+  - Geschw
+  - Feuer
+  - Wasser
+  - Eis
+  - Wind
+  - Donner
+  - Masch.
+  - Dunkel.
+  - Max. HP
+  - Max. MP
+  - Feuerabwehr
+  - Wasserabwehr
+  - Eisabwehr
+  - Windabwehr
+  - Donnerabwehr
+  - Maschinenabwehr
+  - Dunkelheitabwehr
+  - '[\x020501] +[\x020502]'
+  - '[\x020501] [-4][\x020502]'
+  - |-
+    Ergebnisse:
+    Kraft ist um [\x020501] erhöht![pause]
+  - |-
+    Ergebnisse:
+    Verteidig. um  [\x020501] erhöht![pause]
+  - |-
+    Ergebnisse:
+    Geist ist um [\x020501] erhöht![pause]
+  - |-
+    Ergebnisse:
+    Weisheit ist um [\x020501] erhöht![pause]
+  - |-
+    Ergebnis:
+    Geschw. um [\x020501] erhöht![pause]
+  - |-
+    Ergebnisse:
+    Feuerabwehr um [\x020501] erhöht![pause]
+  - |-
+    Ergebnisse:
+    Wasserabw. um [\x020501] erhöht![pause]
+  - |-
+    Ergebnisse:
+    Eisabwehr um [\x020501] erhöht![pause]
+  - |-
+    Ergebnisse:
+    Windabw. um [\x020501] erhöht![pause]
+  - |-
+    Ergebnisse:
+    Donnerabwehr um [\x020501] erhöht![pause]
+  - |-
+    Ergebnisse:
+    Maschinenabw. um [\x020501] erhöht![pause]
+  - |-
+    Ergebnisse:
+    Dunkelheitabw. um [\x020501] erhöht![pause]
+  - |-
+    Ergebnisse:[pause][\x0203]Feuerabwehr um [\x020501] erhöht!
+    Max.MP um [\x020502] erhöht![pause]
+  - |-
+    Ergebnisse:[pause][\x0203]Wasserabwehr um [\x020501] erhöht!
+    Verteidig. um [\x020502] gesunken.[pause]
+  - |-
+    Ergebnisse:[pause][\x0203]Eisabwehr um [\x020501] erhöht!
+    Geschw. um [\x020502] gesunken...[pause]
+  - |-
+    Ergebnisse:[pause][\x0203]Windabwehr ist um [\x020501] erhöht!
+    Stärke ist um [\x020502] gesunken.[pause]
+  - |-
+    Ergebnisse:[pause][\x0203]Donnerabwehr um [\x020501] erhöht!
+    Weisheit um [\x020502] gesunken...[pause]
+  - |-
+    Ergebnisse:[pause][\x0203]Maschinenabw. um [\x020501] erhöht!
+    Max. HP um [\x020502] erhöht![pause]
+  - |-
+    Ergebnisse:[pause][\x0203]Dunkelheitabw. um [\x020501] erhöht!
+    Geist um [\x020502] gesunken...[pause]
+  - |-
+    Ergebnisse:
+    Nichts wurde erhöht...[pause]
+  - '-----'
+  - --
+  - '----'
+  - '---'

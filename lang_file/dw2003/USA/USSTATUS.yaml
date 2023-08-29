@@ -1,0 +1,114 @@
+type: simple
+strings:
+  - ''
+  - LV
+  - HP
+  - MP
+  - /
+  - BIT
+  - ITEMS
+  - SORT
+  - MAP
+  - TECHNIQUES
+  - STATUS
+  - CARD FOLDERS
+  - '-----'
+  - --
+  - '----'
+  - |-
+    Change Digimon formation
+    [triangle] Button: Back to Menu
+  - |-
+    Can't change Digimon formation
+    [triangle] Button: Back to Menu
+  - Switch who?
+  - Switch with who?
+  - '[triangle] Button: Close Status'
+  - Which one?
+  - '[triangle] Button: Back to Menu'
+  - Items
+  - Weapons
+  - Armor
+  - Accessories
+  - Important Items
+  - Use Item
+  - All Weapons
+  - All Armors
+  - All Accessories
+  - All Important Items
+  - Equip
+  - '[square]Button: Sort Items'
+  - L1
+  - R1
+  - Sort Items
+  - By Strength
+  - By Name
+  - Choose Digimon
+  - Use Digimon's technique.
+  - Hasn't learned a technique.
+  - Choose a technique
+  - Use it on who?
+  - What to do?
+  - See Digivolve
+  - See Equipment
+  - Demo Setup
+  - Digimon's digivolve and equipment
+  - Look at cards?
+  - Yes
+  - No
+  - Digivolve
+  - EXP
+  - '--------'
+  - Choose digivolve
+  - Skill LV
+  - Battle Digivolve On
+  - Battle Digivolve Off
+  - Techique Explanation
+  - Turned on Battle Digivolve
+  - Turned off Battle Digivolve
+  - No technique.
+  - Change which one?
+  - '[cross]'
+  - Head
+  - Body
+  - Right
+  - Accessory
+  - Unequip
+  - Digivolve Demo
+  - ON
+  - OFF
+  - Setup the Battle Digivolve demo
+  - Card Album
+  - Edit Folder
+  - Edit Card
+  - Left
+  - TP
+  - Left or Right
+  - Two[-4]handed
+  - Unequip current equipment.
+  - HP healed to maximum.
+  - '[\x020501] HP healed.'
+  - Max HP increased by [\x020501].
+  - Max MP increased by [\x020501].
+  - Strength increased by [\x020501].
+  - Defense increased by [\x020501].
+  - Spirit increased by [\x020501].
+  - Wisdom increased by [\x020501].
+  - Speed increased by [\x020501].
+  - Charisma increased by [\x020501].
+  - Fire Tolerance increased by [\x020501].
+  - Water Tolerance increased by [\x020501].
+  - Ice Tolerance increased by [\x020501].
+  - Wind Tolerance increased by [\x020501].
+  - Thunder Tolerance increased by [\x020501].
+  - Machine Tolerance increased by [\x020501].
+  - Dark Tolerance increased by [\x020501].
+  - TP increased by [\x020501].
+  - No Items.
+  - No Weapons.
+  - No Armor.
+  - No Accessories.
+  - No Important Items.
+  - Not enough MP.
+  - No effect.
+  - '-'

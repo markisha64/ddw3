@@ -1,0 +1,49 @@
+type: simple
+strings:
+  - ''
+  - Scegli azione
+  - Cambia Digimon
+  - Digivoluzione
+  - Grafico digivoluzione
+  - 'Tasto [triangle]: ind.'
+  - 'Tasto [triangle]: al menu'
+  - Disattivare il caricamento?
+  - Vuoi caricare?
+  - Carica fino a 3.
+  - Tecnica non caricabile ora
+  - Tecnica non caricabile
+  - Sì
+  - No
+  - PM
+  - OK
+  - /3
+  - Car
+  - '[-4][-4][-4][-4]'
+  - Livello
+  - 'Tasto [circle]: dettagli'
+  - LV
+  - PF
+  - /
+  - Chi cambi?
+  - Digivoluzione di chi?
+  - Il grafico di chi?
+  - '[-4][-4][-4][-4][-4]'
+  - '[-4][-4]'
+  - Con chi lo cambi?
+  - No Digivoluzione
+  - Scegli Digivoluzione
+  - '[-4][-4][-4]'
+  - Cambia Digivoluzione
+  - Carica tecnica
+  - Non fare nulla
+  - Imposs. cambiare Dig.
+  - Imposs. caric. tecnica
+  - Scegli una tecnica
+  - Digivoluzione [\x020501]
+  - /4
+  - L1
+  - R1
+  - |-
+    Digivoluzione in combattimento
+    disattivata. Attivala.
+  - Disatt.

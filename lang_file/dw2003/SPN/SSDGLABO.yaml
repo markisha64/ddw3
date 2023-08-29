@@ -1,0 +1,47 @@
+type: simple
+strings:
+  - ''
+  - Seleccionar acción
+  - Cambiar Digimon
+  - Digievolucionar
+  - Tabla de digievolución
+  - 'Botón [triangle]: Atrás'
+  - 'Botón [triangle]: Volver al Menú'
+  - ¿Terminar la carga?
+  - ¿Cargar?
+  - Cargar hasta 3.
+  - No pue. carg. la técn.
+  - No pue. carg. la técn.
+  - Sí
+  - No
+  - PM
+  - Acept.
+  - /3
+  - Cg.
+  - '[-4][-4][-4][-4]'
+  - NV.Hb.
+  - Botón [circle]:Detalles
+  - NV
+  - PV
+  - /
+  - ¿Cam. quién?
+  - ¿Ver digiev. quién?
+  - ¿Ver tab.?
+  - '[-4][-4][-4][-4][-4]'
+  - '[-4][-4]'
+  - ¿Cb. a quién?
+  - No puede digie.
+  - Eleg. digiev.
+  - '[-4][-4][-4]'
+  - Camb. tipo de digiev.
+  - Cargar tec.
+  - No hacer nada.
+  - No pue. cb. digi.
+  - No pue. cg. técn.
+  - Eleg. una técnica.
+  - '[\x020501] digievolu.'
+  - /4
+  - L1
+  - R1
+  - Dgev. Bat. des. Sl. Dgev. Bat.
+  - No conf.

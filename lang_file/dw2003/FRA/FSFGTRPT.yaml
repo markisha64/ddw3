@@ -1,0 +1,30 @@
+type: simple
+strings:
+  - ''
+  - EXP
+  - |-
+    EXP acquise :
+    [\x020501] EXP[pause]
+  - NV
+  - Niveau gagné ![pause]
+  - |-
+    Techn. Apprise :
+    [\x020501][pause]
+  - |-
+    Peux charger tech. :
+    [\x020501][pause]
+  - |-
+    [\x020501]
+    Niveau [\x020502] ![pause]
+  - |-
+    Digivolve appris :
+    [\x020501][pause]
+  - |-
+    Fente  Digivolve pleine.
+    Stock. dans Labo Digimon.[pause]
+  - |-
+    BIT acquis :
+    [\x020501] BIT[pause]
+  - |-
+    Objet acquis :
+    [\x020501][pause]

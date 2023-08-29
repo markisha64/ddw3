@@ -1,0 +1,114 @@
+type: simple
+strings:
+  - ''
+  - LV
+  - HP
+  - MP
+  - /
+  - BIT
+  - ITEMS
+  - SORTIEREN
+  - KARTE
+  - TECHNIK
+  - STATUS
+  - KARTENORDNER
+  - '-----'
+  - --
+  - '----'
+  - |-
+    Digimon[-4]Formation ändern
+    [triangle]: Zurück zum Menü
+  - |-
+    Digi.[-4]Formation nicht ändern
+    [triangle]: Zurück zum Menü
+  - Welches tauschen?
+  - Mit wem tausch.?
+  - '[triangle]: Status schlieβen'
+  - Welches?
+  - '[triangle]: Zurück zum Menü'
+  - Items
+  - Waffen
+  - Rüstung
+  - Zubehör
+  - Wichtige Items
+  - Item benutzen
+  - Alle Waffen
+  - Alle Rüstungen
+  - Alle Zubehörteile
+  - Alle wicht. Items
+  - Ausr.
+  - '[square]: Item sortieren'
+  - L1
+  - R1
+  - Item sortieren
+  - Nach Stärke
+  - Nach Namen
+  - Digimon auswählen
+  - Digimons Tech. Benutz.
+  - Hat keine Technik gelernt.
+  - Technik auswählen
+  - Für wen ben.?
+  - Wofür ben.
+  - Digitat. ans.
+  - Ausr. ans.
+  - Demo[-4]Setup
+  - Digimons Digitation und Ausr.
+  - Karten ansehen?
+  - Ja
+  - Nein
+  - Digitier.
+  - EXP
+  - '--------'
+  - Digitation wählen
+  - Fähigk.
+  - Kampfdigitation Ein
+  - Kampfdigitation Aus
+  - Technikerläuterung
+  - Kampfdigitation eingesch.
+  - Kampfdigitation ausgesch.
+  - Keine Technik.
+  - Welches ändern?
+  - X
+  - Kopf
+  - Körper
+  - Rechts
+  - Zubehör
+  - Keine Ausrüst.
+  - Digitations[-4]Demo
+  - EIN
+  - AUS
+  - Kampfdigit.[-4]Demo einrichten
+  - Kartenalbum
+  - Ordner bearbeiten
+  - Karte bearb.
+  - Links
+  - TP
+  - Li. oder re.
+  - Beidhändig
+  - Aktuelle Ausr. ablegen.
+  - HP maximal geheilt.
+  - '[\x020501] HP geheilt.'
+  - Max. HP um [\x020501] erhöht.
+  - Max. MP um [\x020501] erhöht.
+  - Stärke um [\x020501] erhöht.
+  - Abwehr um [\x020501] erhöht.
+  - Geist um [\x020501] erhöht.
+  - Weisheit um [\x020501] erhöht.
+  - Geschwindigkeit um [\x020501] erhöht.
+  - Charisma um [\x020501] erhöht.
+  - Feuertoleranz um [\x020501] erhöht.
+  - Wassertoleranz um [\x020501] erhöht.
+  - Eistoleranz um [\x020501] erhöht.
+  - Windtoleranz um [\x020501] erhöht.
+  - Donnertoleranz um [\x020501] erhöht.
+  - Maschinentoleranz um [\x020501] erhöht.
+  - Dunkelheittoleranz um [\x020501] erhöht.
+  - TP um [\x020501] erhöht.
+  - Keine Items.
+  - Keine Waffen.
+  - Keine Rüstung.
+  - Keine Zubehörteile.
+  - Keine wichtigen Items.
+  - Nicht genügend MP.
+  - Kein Effekt.
+  - '-'

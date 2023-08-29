@@ -1,0 +1,339 @@
+type: extended
+files:
+  - strings:
+      - ''
+      - "[\\x0207]Woman[\\x0207]Hey you... \nyou over \nthere![pause]"
+      - |-
+        [\x0207][\x020902]3Uummmm,
+        who...me?[pause]
+      - "[\\x0207]Woman[\\x0207]Hi, I'm Lisa.\nNice to meet \nyou![pause][\\x0203]What's your\nname?[pause]"
+      - |-
+        [\x0207][\x020902]3Oh, um, it's
+        [\x020801][\x020501]...[pause]
+      - "[\\x0207]Lisa[\\x0207][\\x020801][\\x020501], OK, I'll \nremember that.[pause][\\x0203]By the way [\\x020802][\\x020502], \nhave you seen a \ncute green Digimon?[pause]"
+      - "[\\x0207][\\x020902]3Um, ah, is that\nMonmon, or \nTerriermon?[pause]"
+      - "[\\x0207]Lisa[\\x0207]Well...umm, \nI don't know.[pause][\\x0203]What do you \nthink it is\n[\\x020801][\\x020501]?[pause]"
+      - "[\\x0207][\\x020902]3...well...um, \n???[pause]"
+      - "[\\x0207]Lisa[\\x0207]...I know, it's \nOgremon!\nIt has to be![pause][\\x0203]So I just have to go \nlook for Ogremon \nright now![pause]"
+      - |-
+        [\x0207][\x020902]3Huh, what's up with
+        her...?[pause]
+      - "[\\x0207]Lisa[\\x0207]Nice talking \nto you,\n[\\x020801][\\x020501].[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Suzaku Leader[\\x0207]So, what, are you \nready to step into\nmy arena?[pause]"
+      - "[\\x0207][\\x020902]3Yeah, \nof course![pause]"
+      - "[\\x0207]Suzaku Leader[\\x0207]My, you sound \nreally confident![pause][\\x0203]But don't \nunderestimate me \nbecause I'm a girl![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Suzaku Leader[\\x0207]Oh no, my \nDigimon lost![pause][\\x0203]Oh well. What's \nyour name?[pause]"
+      - '[\x0207][\x020902]3It''s [\x020801][\x020501]![pause]'
+      - "[\\x0207]Suzaku Leader[\\x0207]That's a cool \nname![pause][\\x0203]OK, I'll give \nyou this.[pause]"
+      - "[\\x0207][\\x020902]3Yeah! I got\nthe Suzaku \nBadge![pause][\\x0203]Next I need\nto get the\nByakko Badge.[pause]"
+      - "[\\x0207]Suzaku Leader[\\x0207]West Sector is across\nthe ocean, so it's \npretty hard to get to.[pause][\\x0203]There's only one way to \ngo there. You have to \ncall Submarimon.[pause][\\x0203]You need the Digi[-4]Egg of \nSincerity to call \nSubmarimon.[pause][\\x0203]Ask around in this sector \nfor information about it.[pause][\\x0203]That's the only clue I \ncan give you. Well, good \nluck.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Kail[\x0207]Hey [\x020801][\x020501]!
+        Good timing.[pause][\x0203]We've been here
+        a while. Why don't
+        we go back?[pause]
+      - |-
+        [\x0207][\x020902]3Yeah, I've beaten Seiryu
+        and Suzaku Leader, so
+        that's good for now.[pause][\x0203]But what about Teddy?
+        We have to find Teddy![pause]
+      - "[\\x0207]Kail[\\x0207]Teddy is fine. He's in \nAsuka City's \nAdministration Center.[pause][\\x0203]When I saw him last, \nthat's where he said\nhe was going.[pause]"
+      - |-
+        [\x0207][\x020902]3Oh, OK. Then let's
+        hurry back to Asuka
+        City![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Numemon[\x0207]...are you going
+        to Byakko City?[pause]
+      - |-
+        [\x0207][\x020902]3Yeah, that's
+        the plan.[pause]
+      - '[\x0207]Numemon[\x0207]You better not.[pause]'
+      - |-
+        [\x0207][\x020902]3...what?
+        Why not?![pause]
+      - |-
+        [\x0207]Numemon[\x0207]Just go back
+        from here!
+        OK?[pause]
+      - '[\x0207][\x020902]3Hey wait![pause]'
+      - "[\\x0207][\\x020902]3He's gone...[pause][\\x0203]...but what's up \nwith the Byakko\nCity thing?[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Numemon[\x0207]We should be
+        fine here.[pause]
+      - "[\\x0207][\\x020902]3Hey, thanks![pause][\\x0203]But what is with \nthe people of \nByakko City?[pause][\\x0203]Their Leader lied\nand dropped me into\nthe basement.[pause]"
+      - |-
+        [\x0207]Numemon[\x0207]The Leader and
+        everyone else
+        are all fakes![pause]
+      - "[\\x0207][\\x020902]3What!? Then\nwho were \nthose guys?[pause]"
+      - "[\\x0207]Numemon[\\x0207]That doesn't concern\nyou![pause][\\x0203]If you want to meet the \nreal Leader, then go \nto the Mobius Desert.[pause][\\x0203]He's in the Mirage Tower\nbeyond the desert.[pause]"
+      - "[\\x0207][\\x020902]3He[-4]hey \nhold on!\nWhat's going on?[pause]"
+      - "[\\x0207]Numemon[\\x0207]I can't tell you \nanything more![pause][\\x0203]Don't go near \nByakko City \nanymore![pause]"
+      - |-
+        [\x0207][\x020902]3...oh, all right.
+        See ya![pause]
+      - "[\\x0207][\\x020902]3All right then. Let's\nfind the real Leader \nand talk to him![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Hey \nNumemon![pause]"
+      - "[\\x0207]Numemon[\\x0207]It's you.\nWhy did you \nreturn?[pause]"
+      - "[\\x0207][\\x020902]3There's something \nI want to ask \nyou. So...[pause]"
+      - "[\\x0207]Numemon[\\x0207]There's nothing \nto tell you![pause]"
+      - '[\x0207][\x020902]3Hey, wait![pause]'
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Huh, that's \nweird.[pause][\\x0203]Numemon isn't\nhere.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARE TO
+        SAVE.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARE TO
+        SAVE.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARE TO
+        SAVE.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARE TO
+        SAVE.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Yeah, that's \nright. Come on\nlet's fight![pause]"
+      - "[\\x0207]Zanbamon[\\x0207]You're no match \nfor me![pause]"
+      - |-
+        [\x0207][\x020902]3...oh, you afraid
+        you're gonna lose?[pause]
+      - "[\\x0207]Zanbamon[\\x0207]Wha[-4]what?!\nThat's not true![pause][\\x0203]All right! \nIf you want it, \nlet's fight![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Zanbamon[\x0207]Wha[-4]what...
+        I lost...[pause]
+      - "[\\x0207][\\x020902]3How was that?!\nI'm pretty strong \nain't I?[pause]"
+      - |-
+        [\x0207]Zanbamon[\x0207]Oh, all right.
+        I'll give you this,
+        so forgive me![pause]
+      - "[\\x0207][\\x020902]3What, a Rusty \nKatana?! Oh, \nwell...[pause]"
+      - "[\\x0207]Zanbamon[\\x0207]I[-4]I'm going to live\nin peace here...[pause][\\x0203]Please leave me \nalone![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Hey, MagnaAgnemon.\nI have a favor to ask.[pause][\\x0203]Can I get the Patamon \nDDNA from you DDNA?[pause]"
+      - "[\\x0207]MagnaAngemon[\\x0207]I'm sorry, but that is \nnot something so \neasily given.[pause][\\x0203]If you can defeat \nme, then I will \nconsider it.[pause]"
+  - strings:
+      - ''
+      - '[\x0207][\x020902]3Yeah, I won![pause]'
+      - |-
+        [\x0207]MagnaAngemon[\x0207]Oh, all right.
+        Take it with you.[pause]
+      - "[\\x0207][\\x020902]3Yeah! I got \nthe Patamon \nDDNA![pause][\\x0203]Thanks, \nMagnaAngemon![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Hey Taomon,\nI've got a favor to\nask.[pause][\\x0203]Can I get the \nRenamon DDNA within \nyour DDNA?[pause]"
+      - "[\\x0207]Taomon[\\x0207]...Yes, but not \nfor free.[pause][\\x0203]Let's see if you're \nqualified.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3I won \nagainst \nTaomon![pause]"
+      - "[\\x0207]Taomon[\\x0207]...I see,\nyou're better \nthan I thought.[pause][\\x0203]Here, take \nthis with you.[pause]"
+      - "[\\x0207][\\x020902]3Yeah! I got \nthe Renamon \nDDNA![pause][\\x0203]Thanks Taomon![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Hey Kyukimon.\nCan I ask you a\nfavor?[pause][\\x0203]Can I get Kotemon \nDDNA from your \nDDNA?[pause]"
+      - "[\\x0207]Kyukimon[\\x0207]...let's see.\nYes, but on\none condition.[pause][\\x0203]You must first\nfight me and \nwin.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Yeah! I won \nagainst \nKyukimon![pause]"
+      - "[\\x0207]Kyukimon[\\x0207]Your Digimon are \nvery strong to \ndefeat me.[pause][\\x0203]It was the most fun \nI've had in a while. \nHere, take this![pause]"
+      - "[\\x0207][\\x020902]3Yeah! I got\nthe Kotemon \nDDNA![pause][\\x0203]Thanks,\nKyukimon![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3What do you \nmean by \nthat?[pause]"
+      - "[\\x0207]BK Seraphimon[\\x0207]It means, you will \nfight with me![pause][\\x0203]If you win, I will \nlet you go...[pause][\\x0203]But if you lose, \nthis is the end![pause]"
+      - |-
+        [\x0207][\x020902]3OK, I get it.
+        Then let's do
+        this![pause]
+      - "[\\x0207]BK Seraphimon[\\x0207]You will not be \nsaying that for\nlong![pause][\\x0203]You had better\nprepare \nyourself![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]BK Seraphimon[\\x0207]I know of your \nstrength...\nand your courage.[pause][\\x0203]I was testing your \ncourage...[pause]"
+      - |-
+        [\x0207][\x020902]3Yeah! I won't lose
+        to anyone in that
+        category![pause]
+      - |-
+        [\x0207]BK Seraphimon[\x0207]That's the spirit![pause][\x0203]You have passed.
+        I'll give you this
+        as a proof![pause]
+      - |-
+        [\x0207][\x020902]3Yeah! I got the
+        Sniper Suit![pause]
+      - "[\\x0207]BK Seraphimon[\\x0207]The pass will \nbe revealed by\ncourage.[pause][\\x0203]Do not give up \nto any enemy\nand endure![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3OK, it's that room \nover there![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3OK, I found \nyou![pause][\\x0203]I'm not going to\nlet you get \naway this time![pause]"
+      - |-
+        [\x0207]Numemon[\x0207]You should
+        just give up![pause]
+  - strings:
+      - ''
+      - '[\x0207][\x020902]3There he is![pause]'
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3...man,\nNumemon's \npretty fast...[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3He's upstairs.[pause][\x0203]I've come this far.
+        I'm going to catch
+        him![pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Oh man, he's \ninside there now...[pause][\\x0203]OK, I'm just going \nto keep on \nfollowing him![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Hey!
+        It's Nick
+        and Keith.[pause]
+      - "[\\x0207]Nick[\\x0207]Really, will you\ndo your job for\nonce?![pause][\\x0203]You've been playing \nthis game since \nwe got here![pause]"
+      - a
+      - a
+      - "[\\x0207]Keith[\\x0207]Ha ha ha ha, that's \nright! But this is a \nvalid plan![pause][\\x0203]They'll probably try \nto get in contact \nwith strong players![pause]"
+      - |-
+        [\x0207]Nick[\x0207]You're not fooling
+        anyone![pause][\x0203]From now on,
+        we're going
+        as planned![pause]
+      - "[\\x0207]Keith[\\x0207]No way!\nI like doing what \nI'm doing![pause][\\x0203]It's my free will.\nFreedom![pause]"
+      - '[\x0207]Nick[\x0207]Keith![pause]'
+      - '[\x0207][\x020902]3Excuse me...[pause]'
+      - |-
+        [\x0207]Nick[\x0207]Oh, you're
+        that kid from...[pause]
+      - |-
+        [\x0207]Keith[\x0207]Hey kid. You
+        wanna fight me?![pause]
+      - "[\\x0207][\\x020902]3Ah... no. Lisa \nasked me...[pause][\\x0203]...to get Keith \nand Nick.[pause]"
+      - |-
+        [\x0207]Keith[\x0207]...oh she did,
+        did she?[pause]
+      - "[\\x0207]Nick[\\x0207]Oh, we better \nget going or \nshe'll be mad![pause]"
+      - |-
+        [\x0207][\x020902]3Oh... ah,
+        wait![pause]
+      - |-
+        [\x0207]Keith[\x0207]We don't have
+        time to wait.
+        Take us now![pause]
+      - "[\\x0207]Nick[\\x0207]Yeah, take us\nto her right \nnow![pause]"
+      - |-
+        [\x0207][\x020902]3...Huh?
+        Ah, sure![pause]
+  - strings:
+      - ''
+      - "[\\x0207]Suzaku Leader[\\x0207]Oh, no, no.\nYou can't go \npast here.[pause][\\x0203]...see, look \nat that![pause]"
+      - |-
+        [\x0207][\x020902]3Woah, what
+        is that?![pause]
+      - "[\\x0207]Suzaku Leader[\\x0207]...A security hole.\nIt's like a hole \nin the net![pause][\\x0203]That must be \nthe reason behind \nthe earthquake.[pause]"
+      - "[\\x0207][\\x020902]3Tha, that voice is \nfrom the gondola...[pause][\\x0203]...I get it! He's \nBulbmon![pause]"
+      - "[\\x0207]Suzaku Leader[\\x0207]I told you, you can't \ngo![pause][\\x0203]You don't know what's \ngoing to happen. It's \ntoo dangerous![pause][\\x0203]As a leader of the South \nSector, I'm not going \nto let anyone get hurt.[pause]"
+      - "[\\x0207][\\x020902]3Oh, come on, I really \nhave to go to the \nother side![pause][\\x0203]You've heard about \nthe A.o.A right?[pause][\\x0203]Someone has to go\nnow or worse things\nare going to happen![pause]"
+      - "[\\x0207]Suzaku Leader[\\x0207]...If you \nput it that \nway...[pause]"
+      - "[\\x0207]Suzaku Leader[\\x0207]...oh, all right![pause][\\x0203]But if it's too \ndangerous come \nback OK?![pause]"
+      - "[\\x0207][\\x020902]3Four \nleader badges?[pause][\\x0203]I got it!\nThanks \nSuzaku Leader![pause]"
+      - "[\\x0207][\\x020902]3If I go through \nthis hole, maybe I'll\nfind Amaterasu Server?[pause]"
+      - "[\\x0207][\\x020902]3Hey Suzaku Leader,\nI have a question![pause][\\x0203]Do you know where\nthe emergency Chamber \nin the North Sector is?[pause]"
+      - "[\\x0207]Suzaku Leader[\\x0207]Are you talking about \nthe emergency Matrix \nChamber?[pause][\\x0203]It's located in the \nbasement of Kulon\nMine.[pause][\\x0203]But you need the \nfour leader badges \nto use it.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Yeah, I won \nagainst Zhu Que\nChief![pause]"
+      - "[\\x0207][\\x020902]3Huh?! There's\nsomething on the \nground again...[pause]"
+      - "[\\x0207][\\x020902]3Yeah! I got the Red \nID Pass![pause][\\x0203]...But where is the \nDigi[-4]Egg of \nKnowledge?[pause][\\x0203]I've got to find it\nfast to stop the\nJuggernaut![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Yeah! \nI defeated \nBulbmon![pause]"
+      - "[\\x0207][\\x020902]3...Huh?!\nThe hole just\nkeeps on going![pause][\\x0203]Maybe it goes to \nAmaterasu \nServer...[pause][\\x0203]Well, let's find \nout![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Somewhere\n...where's \nthat?[pause]"
+      - "[\\x0207]Patamon[\\x0207]Um...I don't know.[pause][\\x0203]But I heard a weird \nsound from the \njungle...[pause]"
+      - "[\\x0207][\\x020902]3...weird \nsound?[pause]"
+      - "[\\x0207]Patamon[\\x0207]Yeah a sound like a \nmachine or a Digimon!\nA weird sound![pause][\\x0203]Leader heard that\nand took off...[pause][\\x0203]I'm not sure but \nmaybe she headed \ntowards the jungle![pause]"
+      - |-
+        [\x0207][\x020902]3...I see.
+        Well thanks![pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3An \nearthquake\nagain?![pause]"
+      - |-
+        [\x0207][\x020902]3I was right!
+        It's Bulbmon![pause]
+      - "[\\x0207][\\x020902]3That earthquake was \ncaused by it \nmaking holes![pause][\\x0203]Just watch.\nI'm going to defeat\nit this time![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Zhu Que Chief[\\x0207]Only the members \nof the A.o.A can\nenter here![pause]"
+      - "[\\x0207][\\x020902]3Zhu Que Chief, \nwhere is the Digi[-4]\nEgg of Knowledge?[pause]"
+      - "[\\x0207]Zhu Que Chief[\\x0207]Ha ha ha, so you're \nresponsible for the\nAsuka Server![pause][\\x0203]But no matter how \nhard you try, it's \ntoo late![pause]"
+      - "[\\x0207][\\x020902]3What?\nWhat do you \nmean by that![pause]"
+      - "[\\x0207]Zhu Que Chief[\\x0207]Ha ha ha,\nI'll tell you![pause][\\x0203]We succeeded in \ntaking the undersea\nBase Magasta![pause]"
+      - "[\\x0207]Zhu Que Chief[\\x0207]And now we are...[pause][\\x0203]Launching the mobile\nfort Juggernaut![pause][\\x0203]Now the world will \nbow down to the \nA.o.A![pause]"
+      - "[\\x0207][\\x020902]3Yeah, right! \nI'm not going to \nlet you![pause][\\x0203]I'll stop the \nlaunch of the \nJuggernaut![pause]"
+      - "[\\x0207]Zhu Que Chief[\\x0207]Ha ha ha...\nGo ahead and try![pause][\\x0203]That's if you can \nget by me first![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Hey, what do \nwe have here?[pause]"
+      - "[\\x0207][\\x020902]3Yeah! I got the \nDigi[-4]Egg of \nKnowledge![pause]"
+      - "[\\x0207][\\x020902]3Now I can summon\nDigmon![pause][\\x0203]OK, let's go back \nto Asuka Server and \ngo to North Sector![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Yeah, that's \nright. Come on,\nlet's fight![pause]"
+      - "[\\x0207]Zanbamon[\\x0207]You're no match \nfor me![pause]"
+      - |-
+        [\x0207][\x020902]3...oh, you're afraid
+        you're gonna lose![pause]
+      - "[\\x0207]Zanbamon[\\x0207]Wha[-4]what?!\nThat's not true![pause][\\x0203]All right! \nIf you want it, \nI'll show you![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Zanbamon[\x0207]Wha[-4]what...
+        I lost...[pause]
+      - "[\\x0207][\\x020902]3How was that?!\nI'm pretty strong \nain't I?[pause]"
+      - |-
+        [\x0207]Zanbamon[\x0207]Oh, all right.
+        I'll give you this,
+        so forgive me![pause]
+      - "[\\x0207][\\x020902]3What? Rusty \nKatana?!\nOh, well...[pause]"
+      - "[\\x0207]Zanbamon[\\x0207]I[-4]I'm going to live\nin peace here...[pause][\\x0203]Please leave me \nalone![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARE TO
+        SAVE.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARE TO
+        SAVE.[pause]

@@ -1,0 +1,147 @@
+type: simple
+strings:
+  - ''
+  - Attaque !
+  - Tech
+  - DV
+  - Changer
+  - Objet
+  - Fuite
+  - Embuscade !
+  - Attaque !
+  - '[\x020501]!'
+  - Contre ! [\x020501]
+  - '[\x020501] dégâts !'
+  - X
+  - PM
+  - PV
+  - '[-4][-4][-4]'
+  - /
+  - L1
+  - R1
+  - Rien appris.
+  - Pas de réserve.
+  - Pas d'objet.
+  - '[\x020501]'
+  - '[\x020501]・[\x020502]'
+  - '[\x020501]・[\x020502]・[\x020503]'
+  - Apt.
+  - '[-4][-4]'
+  - Changer
+  - DV ADN
+  - Esquive !
+  - Empoisonné !
+  - Gelé !
+  - Troublé !
+  - Endormi !
+  - '[\x020501]PV restauré!'
+  - '[\x020501] X [\x020502] = [\x020503]!'
+  - '[-4]'
+  - Contre !
+  - Vol
+  - Récup. Progressive PV.
+  - Guéri !
+  - Dégelé !
+  - Conscient !
+  - Eveillé !
+  - Tous statuts guéris !
+  - Rétabli !
+  - Condition idéale !
+  - Sans effet !
+  - Force [arrow-up]!
+  - Défense [arrow-up]!
+  - Vitesse [arrow-up]!
+  - Force [arrow-down]!
+  - Défense [arrow-down]!
+  - Vitesse [arrow-down]!
+  - Sauvegarde Chi !
+  - Digivolvé ! [\x020501]!
+  - Retour !
+  - En avant !
+  - DV ADN !
+  - PV et PM rétablis !
+  - Tout sur l'attaque !
+  - Tout sur garde!
+  - Effets spéciaux activés !
+  - Jauge Puiss. activée !
+  - Excitation !
+  - Fuite !
+  - Fuite impossible !
+  - Fuite !
+  - Fuite impossible !
+  - Impossible de digivolver !
+  - Création !
+  - Digivolvé !
+  - Fuite !
+  - Force affectée !
+  - Déf. affectée !
+  - Vitesse affectée !
+  - Force, déf., vit. affectées !
+  - Retire Digimon !
+  - Retrait Digimon suivant !
+  - '[\x020501]!'
+  - KO !
+  - Battu !
+  - Victoire !
+  - Annihilé
+  - Pas de PM.
+  - 'Poison  : [\x020501]'
+  - Gelé, impossible de bouger !
+  - Peut s'échapper !
+  - Peut digivolver !
+  - Effets spéciaux réactivés !
+  - Aucune récupération automatique !
+  - Force normale !
+  - Défense normale !
+  - Vitesse normale !
+  - Veut s'enfuir.
+  - Fuite !
+  - N'a pas fui.
+  - Explosé !
+  - Retour à la normale !
+  - Champ de feu !
+  - Champ d'eau !
+  - Champ de glace !
+  - Champ de vent !
+  - Champ de tonnerre !
+  - Champ de machine !
+  - Champ de ténèbres !
+  - Champ disparu !
+  - Rire
+  - Aveu
+  - Danse
+  - Partir
+  - Vantard
+  - Séduct.
+  - Fou
+  - Pleurs
+  - Sourire
+  - Petite dent brillante !
+  - Avoue !
+  - '"J''aime les bonnes choses"'
+  - Danse !
+  - '"Whoa, étonnant !"'
+  - Rangement !
+  - '"Je quitte cette maison !"'
+  - Vantardise !
+  - '"C''est moi le meilleur !"'
+  - Pose !
+  - '"Bonjour"'
+  - Colère !
+  - '"Je m''en vais !"'
+  - Peux pas arrêter de pleurer !
+  - Les larmes sont salées !
+  - Moquerie à haute voix !
+  - Regarde par là !
+  - Danse !
+  - '"Je suis le plus important !"'
+  - Veux rentrer à la maison !
+  - Rangement !
+  - Chanson !
+  - Le dîner est servi !
+  - Quoi ! Le corps ?!
+  - Galacticmon a appris une technique
+  - Pas de PM.
+  - Changement échoué !
+  - '[\x020501] PM absorbés !'
+  - Endormi !

@@ -1,0 +1,318 @@
+type: simple
+strings:
+  - ''
+  - |-
+    Pon los Digimon no blancos
+    en la papelera.
+  - "Lleva 2 Angemon al \ncampo en Compilar Fase."
+  - |-
+    Añade +10 a los PA y PV
+    de Digimon propios.
+  - "Incrementa el PV de un \nDigimon en +30."
+  - |-
+    Obtiene 1 punto de
+    S[-4]Energía Blanca.
+  - |-
+    Llama a Patamon al
+    campo en Compilar Fase.
+  - |-
+    Devuelve Digim. no azules
+    en cada Mano.
+  - |-
+    Saca 1 Digimon del oponen.
+    del campo.
+  - |-
+    Pon una Carta PG nueva
+    en la papelera.
+  - |-
+    Devuelve 1 Digimon
+    a su Mano.
+  - "Obtiene 1 punto de \nS[-4]Energía Azul."
+  - |-
+    Llama a Gomamon al
+    campo en Compilar Fase.
+  - " +50 a PA y PV de todos \nDigimon verdes propios."
+  - |-
+    Recupera 1 Carta de pape.
+    a la Mano. Sólo un uso.
+  - "Obtiene 2 puntos de \nS[-4]Energía Verde."
+  - |2-
+     +20 a PA y PV de un
+    Digimon.
+  - "Obtiene 1 punto de \nS[-4]Energía Verde."
+  - |-
+    Llama a Palmon al
+    campo en Compilar Fase.
+  - |-
+    60 puntos de daño a todos
+    los Digimon no rojos.
+  - "Pon a todos los Digimon \nmarrones en la papelera."
+  - "15 puntos de daño a \ntodos los Digimon."
+  - |-
+    30 puntos de daño a un
+    Digimon oponente.
+  - "Obtiene 1 punto de \nS[-4]Energía Roja."
+  - |-
+    Llama a Goburimon al
+    campo en Compilar Fase.
+  - |-
+    Todas las Cartas no negras
+    de la Mano opon. a papel.
+  - |-
+    Toma 1 Carta del Mazo,
+    añádela a la Mano.
+  - "Pon un Digimon no negro \nen la papelera."
+  - |-
+    Pon una Carta de Mano de
+    oponente en la papalera.
+  - |-
+    Obtiene 1 punto de
+    S[-4]Energía Negra.
+  - |-
+    Llama a Devimon al
+    campo en Compilar Fase.
+  - "Pon todos los Digimon en \nla papelera."
+  - |-
+    Interc. el total PA y PV
+    de ambos jugadores.
+  - |-
+    Toma 3 Cartas del Mazo de
+    oponente a la papelera.
+  - "Tira toda la Mano y \nsaca 6 Cartas del Mazo."
+  - Reduce la S[-4]Energía a 0.
+  - |-
+    Devuelve la Cartas de la
+    papelera al Mazo.
+  - "Reduce las Manos \na 3 Cartas."
+  - |-
+    Tira 5 Cartas del Mazo del
+    oponente a la papelera.
+  - "Reduce el PA del oponente \na cero."
+  - |-
+    Llama un Digimon de Mano
+    al campo en la Fase Comp.
+  - |2-
+     +30 al PA y PV de un
+    Digimon Marrón.
+  - |-
+    Saca 2 Cartas del Mazo
+    y añádelas a la Mano.
+  - "Elige un Digimon del \nMazo y añádelo a la Mano."
+  - "Elige una Carta PG del \nMazo y añádela a la Mano."
+  - |-
+    Saca una Carta del Mazo y
+    pon 1 de la Mano en pap.
+  - "Pon 2 Cartas del Mazo del \noponente en la papelera."
+  - "30 puntos de daño a 1 \nDigimon Marrón del oponente"
+  - |-
+    Pon la última Carta PG
+    marrón en la papelera.
+  - |-
+    Pon 1 Digimon Marrón de la
+    Mano del opon. en la pap.
+  - "Llama a 2 Hagurumon al \ncampo en Compilar Fase."
+  - "Resta 2 puntos de la \nS[-4]Energía Blanca del opon."
+  - "Resta 2 puntos de la \nS[-4]Energía azul del oponen."
+  - "Resta 2 puntos de la \nS[-4]Energía Verde del opon."
+  - "Resta 2 puntos de la \nS[-4]Energía Roja del oponen."
+  - "Resta 2 puntos de la \nS[-4]Energía Negra del opon."
+  - |-
+    Devuelve un Digimon Marrón
+    a la Mano.
+  - |-
+    PA +10 y PV [-4]10 a
+    1 Digimon.
+  - "Pon un Digimon Marron del \ncampo en la papelera."
+  - PV +10 a un Digimon.
+  - PA +10 un Digimon.
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    PA y HP = 20x número
+    de tu Digimon en el campo.
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    Añade 10x el no. de Cart.
+    de tu Mano al PA y PV.
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    Añade 20 el no. de Cart.
+    de la papelera a PA y PV.
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    PA y PV= a 10x número
+    de Digimon en todos cpos.
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    Añade 10x número de Car.
+    En papelera a PA y PV.

@@ -1,0 +1,455 @@
+type: extended
+files:
+  - strings:
+      - ''
+      - "[\\x0207]Mr. Smith[\\x0207]Now's your chance!\nFinally, our main item![pause][\\x0203]Divine Barrier, admired \nby all members![pause][\\x0203]The Patamon exclusive \nshield will start at\n400 BIT![pause]"
+      - '[\x0207]Dealer Abel[\x0207]500 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]600 BIT![pause]'
+      - '[\x0207]RPG Fan Masao[\x0207]700 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm... 800 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3All right then!
+        I bid 800 BIT![pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Wow! \n800 BIT![pause][\\x0203]Anyone above\n800 BIT?[pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Seems like there's \nno one else.[pause][\\x0203]Divine Barrier is \nsold for 800 BIT![pause][\\x0203]Congratulations\nto you over there![pause][\\x0203]I'm transferring \nthe item to your\nsatellite now![pause]"
+      - "[\\x0207][\\x020902]3Yeah! I got \nthe Divine \nBarrier![pause]"
+      - "[\\x0207][\\x020902]3OK, I got a pretty \ncool item, so let's \ngo somewhere.[pause]"
+  - strings:
+      - ''
+      - Bid at 800 BIT?[pause]
+      - Yes, bid.[pause]
+      - No, I'll pass.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3...it's too much...\n...and I've got \nother stuff I want.[pause][\\x0203]I'll come back when \nI have more money.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Mr. Smith[\\x0207]Now's your chance![pause][\\x0203]Finally, our main item![pause][\\x0203]Hazard Shield, coveted \nby all members![pause][\\x0203]The Guilmon exclusive \nshield will start at\n400 BIT![pause]"
+      - '[\x0207]Dealer Abel[\x0207]500 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]600 BIT![pause]'
+      - '[\x0207]RPG Fan Masao[\x0207]700 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm... 800 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Bid at 800 BIT?[pause]
+      - Yes at 800 BIT.[pause]
+      - No, I'll pass.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3All right then!
+        800 BIT![pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Wow! \n800 BIT![pause][\\x0203]Anyone above\n800 BIT?[pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Seems like there's \nno one else.[pause][\\x0203]Hazard Shield is \nsold at 800 BIT![pause][\\x0203]Congratulations\nto you over there![pause][\\x0203]I'm transferring \nthe item to your\nsatellite now![pause]"
+      - |-
+        [\x0207][\x020902]3Yeah! I got the
+        Hazard Shield![pause]
+      - "[\\x0207][\\x020902]3OK, I got a pretty \ncool item, so I'm \noutta here.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3...it's too much...\n...and I've got \nother stuff I want.[pause][\\x0203]I'll come back when \nI have more money.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Mr. Smith[\\x0207]Now's your chance![pause][\\x0203]Finally, our main item![pause][\\x0203]Sniper Guard, admired \nby all members![pause][\\x0203]This Monmon exclusive \nshield will start at\n800 BIT![pause]"
+      - '[\x0207]Dealer Abel[\x0207]1100 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]1300 BIT![pause]'
+      - '[\x0207]RPG Fan Masao[\x0207]1500 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm... 1600 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Bid at 1600 BIT?[pause]
+      - Yes at 1600 BIT.[pause]
+      - No, I'll pass.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3All right then!
+        1600 BIT![pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Wow! \n1600 BIT![pause][\\x0203]Anyone above\n1600 BIT?[pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Going once, twice,\ngone![pause][\\x0203]Sniper Guard is \nsold at 1600 BIT![pause][\\x0203]Congratulations\nto you over there![pause][\\x0203]I'm transferring \nthe item to your\nsatellite now![pause]"
+      - |-
+        [\x0207][\x020902]3Yeah! I got the
+        Sniper Guard![pause]
+      - "[\\x0207][\\x020902]3OK, I got a pretty \ncool item, it's time \nto leave.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3...it's too much...\n...and I've got \nother stuff I want.[pause][\\x0203]I'll come back when \nI have more money.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Mr. Smith[\\x0207]Now's your chance![pause][\\x0203]Finally, our main item![pause][\\x0203]Dramon Shield, coveted \nby all members![pause][\\x0203]This Veemon exclusive \nshield will start at\n800 BIT![pause]"
+      - '[\x0207]Dealer Abel[\x0207]1100 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]1300 BIT![pause]'
+      - '[\x0207]RPG Fan Masao[\x0207]1500 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm 1600 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Bid at 1600 BIT?[pause]
+      - Yes at 1600 BIT.[pause]
+      - No, I'll pass.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3All right then!
+        1600 BIT![pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Wow! \n1600 BIT![pause][\\x0203]Anyone above\n1600 BIT?[pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Going... Going...\nGONE![pause][\\x0203]Dramon Shield!\nSold at 1600 BIT![pause][\\x0203]Congratulations\nto you over there![pause][\\x0203]I'm transferring \nthe item to your\nsatellite now![pause]"
+      - |-
+        [\x0207][\x020902]3Yeah! I got the
+        Dramon Shield![pause]
+      - "[\\x0207][\\x020902]3OK, I got a pretty \ncool item, I'm gonna\ngo check it out.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3...it's too much...\n...and I've got \nother stuff I want.[pause][\\x0203]I'll come back when \nI have more money.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Mr. Smith[\\x0207]Now's your chance![pause][\\x0203]Finally, our main item![pause][\\x0203]Yin Yang Wand, coveted \nby all members![pause][\\x0203]This Renamon exclusive \nweapon will start at\n1600 BIT![pause]"
+      - '[\x0207]Dealer Abel[\x0207]2000 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]2300 BIT![pause]'
+      - '[\x0207]RPG Fan Masao[\x0207]2600 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm... 2700 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Bid at 2700 BIT?[pause]
+      - Yes at 2700 BIT.[pause]
+      - No, I'll pass.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3All right then!
+        2700 BIT![pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Wow! \n2700 BIT![pause][\\x0203]Anyone above\n2700 BIT?[pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Seems like there's \nno one else.[pause][\\x0203]Yin Yang Wand is \nsold at 2700 BIT![pause][\\x0203]Congratulations\nto you over there![pause][\\x0203]I'm transferring \nthe item to your\nsatellite now![pause]"
+      - |-
+        [\x0207][\x020902]3Yeah! I got the
+        Yin Yang Wand![pause]
+      - "[\\x0207][\\x020902]3OK, I got a pretty \ncool item, so let's \nget out of here.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3...it's too much...\n...and I've got \nother stuff I want.[pause][\\x0203]I'll come back when \nI have more money.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Mr. Smith[\\x0207]Now's your chance!\nFinally, our main item![pause][\\x0203]Hazard Fang, admired \nby all members![pause][\\x0203]This Guilmon exclusive \nweapon will start at\n1600 BIT![pause]"
+      - '[\x0207]Dealer Abel[\x0207]2000 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]2300 BIT![pause]'
+      - '[\x0207]RPG Fan Masao[\x0207]2600 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm... 2700 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Bid at 2700 BIT?[pause]
+      - Yes at 2700 BIT.[pause]
+      - No, I'll pass.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3All right then!
+        2700 BIT![pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Wow! \n2700 BIT![pause][\\x0203]Anyone above\n2700 BIT?[pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Once, twice...\nThree times![pause][\\x0203]Hazard Fang is \nsold at 2700 BIT![pause][\\x0203]Congratulations\nto you over there![pause][\\x0203]I'm transferring \nthe item to your\nsatellite now![pause]"
+      - |-
+        [\x0207][\x020902]3Yeah! I got the
+        Hazard Fang![pause]
+      - "[\\x0207][\\x020902]3OK, I got a pretty \ncool item, so let's \ngo![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3...it's too much...\n...and I've got \nother stuff I want.[pause][\\x0203]I'll come back when \nI have more money.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Mr. Smith[\\x0207]Now's your chance![pause][\\x0203]Finally, our main item![pause][\\x0203]Sniper Cannon, admired \nby all members![pause][\\x0203]This Monmon exclusive \nweapon will start at\n2700 BIT![pause]"
+      - '[\x0207]Dealer Abel[\x0207]3100 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]3500 BIT![pause]'
+      - '[\x0207]RPG Fan Masao[\x0207]3900 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm... 4000 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Bid at 4000 BIT?[pause]
+      - Yes at 4000 BIT.[pause]
+      - No, I'll pass.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3All right then! \n4000 BIT![pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Wow! \n4000 BIT![pause][\\x0203]Anyone above\n4000 BIT?[pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Seems like there's \nno one else.[pause][\\x0203]Sniper Cannon is \nsold at 4000 BIT![pause][\\x0203]Congratulations\nto you over there![pause][\\x0203]I'm transferring \nthe item to your\nsatellite now![pause]"
+      - "[\\x0207][\\x020902]3Yeah! I got the \nSniper Cannon![pause]"
+      - "[\\x0207][\\x020902]3OK, I got a pretty \ncool item, so let's \nhead out.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3...it's too much...\n...and I've got \nother stuff I want.[pause][\\x0203]I'll come back when \nI have more money.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Mr. Smith[\\x0207]Now's your chance![pause][\\x0203]Finally, our main item![pause][\\x0203]Ronin Blade, admired \nby all members![pause][\\x0203]This Kotemon exclusive \nweapon will\nstart at 2700 BIT![pause]"
+      - '[\x0207]Dealer Abel[\x0207]3100 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]3500 BIT![pause]'
+      - '[\x0207]RPG Fan Masao[\x0207]3900 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm 4000 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Bid at 4000 BIT?[pause]
+      - Yes at 4000 BIT.[pause]
+      - No, I'll pass.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3All right then!
+        4000 BIT![pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Wow! \n4000 BIT![pause][\\x0203]Anyone above\n4000 BIT?[pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Going once...\ngoing twice...[pause][\\x0203]Ronin Blade is \nsold at 4000 BIT![pause][\\x0203]Congratulations\nto you over there![pause][\\x0203]I'm transferring \nthe item to your\nsatellite now![pause]"
+      - "[\\x0207][\\x020902]3Yeah! I got the \nRonin Blade![pause]"
+      - "[\\x0207][\\x020902]3OK, I got a pretty \ncool item, so let's \nleave this joint.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3...it's too much...\n...and I've got \nother stuff I want.[pause][\\x0203]I'll come back when \nI have more money.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Mr. Smith[\\x0207]Now's your chance![pause][\\x0203]Finally, our main item![pause][\\x0203]Sniper Goggle, admired \nby all members![pause][\\x0203]This Monmon exclusive \ncap will start at\n4000 BIT![pause]"
+      - '[\x0207]Dealer Abel[\x0207]4500 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]5500 BIT![pause]'
+      - '[\x0207]RPG Fan Masao[\x0207]5900 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm... 6000 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Bid at 6000 BIT?[pause]
+      - Yes at 6000 BIT.[pause]
+      - No, I'll pass.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3All right then!
+        6000 BIT![pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Wow! \n6000 BIT![pause][\\x0203]Anyone above\n6000 BIT?[pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Seems like there's \nno one else.[pause][\\x0203]Sniper Goggle is \nsold at 6000 BIT![pause][\\x0203]Congratulations\nto you over there![pause][\\x0203]I'm transferring \nthe item to your\nsatellite now![pause]"
+      - |-
+        [\x0207][\x020902]3Yeah! I got the
+        Sniper Goggle![pause]
+      - "[\\x0207][\\x020902]3OK, I got a pretty \ncool item, so let's \ntake off![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3...it's too much...\n...and I've got \nother stuff I want.[pause][\\x0203]I'll come back when \nI have more money.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Mr. Smith[\\x0207]Now's your chance![pause][\\x0203]Finally, our main item![pause][\\x0203]Divine Crown, admired by \nall members![pause][\\x0203]This Patamon exclusive \ncrown will start at\n4000 BIT![pause]"
+      - '[\x0207]Dealer Abel[\x0207]4500 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]5500 BIT![pause]'
+      - '[\x0207]RPG Fan Masao[\x0207]5900 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm... 6000 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Bid at 6000 BIT?[pause]
+      - Yes at 6000 BIT.[pause]
+      - No, I'll pass.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3All right then!
+        6000 BIT![pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Wow! \n6000 BIT![pause][\\x0203]Anyone above\n6000 BIT?[pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Going, going,\nGONE![pause][\\x0203]Divine Crown is \nsold at 6000 BIT![pause][\\x0203]Congratulations\nto you over there![pause][\\x0203]I'm transferring \nthe item to your\nsatellite now![pause]"
+      - |-
+        [\x0207][\x020902]3Yeah! I got the
+        Divine Crown![pause]
+      - "[\\x0207][\\x020902]3OK, I got a pretty \ncool item, so let's \ngo![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3...it's too much...\n...and I've got \nother stuff I want.[pause][\\x0203]I'll come back when \nI have more money.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Mr. Smith[\\x0207]Now's your chance![pause][\\x0203]Finally, our main item![pause][\\x0203]Brave Helmet, admired \nby all members![pause][\\x0203]This Agumon exclusive \nhelmet will start at\n7000 BIT![pause]"
+      - '[\x0207]Dealer Abel[\x0207]8000 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]8300 BIT![pause]'
+      - '[\x0207]RPG Fan Masao[\x0207]8600 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm... 8700 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Bid at 8700 BIT?[pause]
+      - Yes at 8700 BIT.[pause]
+      - No, I'll pass.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3All right then!
+        8700 BIT![pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Wow! \n8700 BIT![pause][\\x0203]Anyone above\n8700 BIT?[pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Once, twice, \nSOLD![pause][\\x0203]Brave Helmet is \nsold at 8700 BIT![pause][\\x0203]Congratulations\nto you over there![pause][\\x0203]I'm transferring \nthe item to your\nsatellite now![pause]"
+      - "[\\x0207][\\x020902]3Yeah! I got the \nBrave Helmet![pause]"
+      - "[\\x0207][\\x020902]3OK, I got a pretty \ncool item, so let's \nget out of here.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3...it's too much...\n...and I've got \nother stuff I want.[pause][\\x0203]I'll come back when \nI have more money.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Mr. Smith[\\x0207]Now's your chance!\nFinally, our main item![pause][\\x0203]Ronin Helmet, admired \nby all members![pause][\\x0203]This Kotemon exclusive \nhelmet will start at\n7000 BIT![pause]"
+      - '[\x0207]Dealer Abel[\x0207]8000 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]8300 BIT![pause]'
+      - '[\x0207]RPG Fan Masao[\x0207]8600 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm... 8700 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Bid at 8700 BIT?[pause]
+      - Yes at 8700 BIT.[pause]
+      - No, I'll pass.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3All right then!
+        8700 BIT![pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Wow! \n8700 BIT![pause][\\x0203]Anyone above\n8700 BIT?[pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Seems like there's \nno one else.[pause][\\x0203]Ronin Helmet is \nsold at 8700 BIT![pause][\\x0203]Congratulations\nto you over there![pause][\\x0203]I'm transferring \nthe item to your\nsatellite now![pause]"
+      - "[\\x0207][\\x020902]3Yeah! I got the \nRonin Helmet![pause]"
+      - "[\\x0207][\\x020902]3OK, I got a pretty \ncool item, so let's \ntry it out.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3...it's too much...\n...and I've got \nother stuff I want.[pause][\\x0203]I'll come back when \nI have more money.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Mr. Smith[\\x0207]Now's your chance![pause][\\x0203]Finally, our main item![pause][\\x0203]Yin Yang Suit, admired \nby all members![pause][\\x0203]This Renamon exclusive \nclothe will start at\n10000 BIT![pause]"
+      - '[\x0207]Dealer Abel[\x0207]10900 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]11200 BIT![pause]'
+      - '[\x0207]RPG Fan Masao[\x0207]11400 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm. 11500 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Bid at 11500 BIT?[pause]
+      - Yes at 11500 BIT.[pause]
+      - No, I'll pass.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3All right then!
+        11500 BIT![pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Wow! \n11500 BIT![pause][\\x0203]Anyone above\n11500 BIT?[pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Last chance, \nanyone?\nAnyone?[pause][\\x0203]Yin Yang Suit is \nsold at 11500 BIT![pause][\\x0203]Congratulations\nto you over there![pause][\\x0203]I'm transferring \nthe item to your\nsatellite now![pause]"
+      - "[\\x0207][\\x020902]3Yeah! I got the \nYin Yang Suit![pause]"
+      - "[\\x0207][\\x020902]3OK, I got a pretty \ncool item, so let's \ntry it out.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3...it's too much...\n...and I've got \nother stuff I want.[pause][\\x0203]I'll come back when \nI have more money.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Mr. Smith[\\x0207]Now's your chance![pause][\\x0203]Finally, our main item![pause][\\x0203]Ronin Armor, admired by\nall members![pause][\\x0203]This Kotemon exclusive \narmor will start at\n16000 BIT![pause]"
+      - '[\x0207]Dealer Abel[\x0207]16900 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]17000 BIT![pause]'
+      - '[\x0207]RPG Fan Masao[\x0207]17400 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm. 17500 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Bid at 17500 BIT?[pause]
+      - Yes at 17500 BIT.[pause]
+      - No, I'll pass.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3All right then!
+        17500 BIT![pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Wow! \n17500 BIT![pause][\\x0203]Anyone above\n17500 BIT?[pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Seems like no one\nwants to contend.[pause][\\x0203]Ronin Armor is sold \nat 17500 BIT![pause][\\x0203]Congratulations\nto you over there![pause][\\x0203]I'm transferring \nthe item to your\nsatellite now![pause]"
+      - |-
+        [\x0207][\x020902]3Yeah! I got the
+        Ronin Armor![pause]
+      - "[\\x0207][\\x020902]3OK, I got a pretty \ncool item, so let's \nsee what it does..[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3...it's too much...\n...and I've got \nother stuff I want.[pause][\\x0203]I'll come back when \nI have more money.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Mr. Smith[\\x0207]Now's your chance![pause][\\x0203]Finally, our main item![pause][\\x0203]Wild Suit, admired by \nall members![pause][\\x0203]This Kumamon exclusive \nclothes will start at\n23000 BIT![pause]"
+      - '[\x0207]Dealer Abel[\x0207]23500 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]23800 BIT![pause]'
+      - '[\x0207]RPG Fan Masao[\x0207]23900 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm. 24000 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Bid at 24000 BIT?[pause]
+      - Yes at 24000 BIT.[pause]
+      - No, I'll pass.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3All right then!
+        24000 BIT![pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Wow! \n24000 BIT![pause][\\x0203]Anyone above\n24000 BIT?[pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]If no one will bid,\nthen...[pause][\\x0203]Wild Suit is sold at \n24000 BIT![pause][\\x0203]Congratulations\nto you over there![pause][\\x0203]I'm transferring \nthe item to your\nsatellite now![pause]"
+      - |-
+        [\x0207][\x020902]3Yeah! I got the
+        Wild Suit![pause]
+      - "[\\x0207][\\x020902]3OK, I got a pretty \ncool item, so let's \ncheck it out.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3...it's too much...\n...and I've got \nother stuff I want.[pause][\\x0203]I'll come back when \nI have more money.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Mr. Smith[\\x0207]Oin oink oooink![pause][\\x0203]Oink, oin, ooink![pause][\\x0203]Oin, ooink, ooin oi \noiin oinko![pause][\\x0203]Oi oinioi oinoink\noinnk oin oinkk oi\n30000 BIT![pause]"
+      - |-
+        [\x0207]Dealer Abel[\x0207]Oioi!
+        31000 BIT![pause]
+      - "[\\x0207]Chief Milly[\\x0207]Oioi\n31500 \nBIT![pause]"
+      - |-
+        [\x0207]RPG Fan Masao[\x0207]Oin oi
+        31900 BIT![pause]
+      - |-
+        [\x0207][\x020902]3Hmm. 32000 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Bid at 32000 BIT?[pause]
+      - Yes at 32000 BIT.[pause]
+      - No, I'll pass.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3All right then!
+        32000 BIT![pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Oink!
+        32000 BIT![pause][\x0203]Oinoink, oink
+        32000 BIT?[pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Oin oink oioink
+        oink oioink oink.[pause][\x0203]Oioi Oink nk
+        oionko 32000 BIT![pause][\x0203]Oinkoinnnk
+        oi oink oi oiii![pause][\x0203]Oi oinkoo
+        oinoiko oin
+        oioinnnk oink![pause]
+      - |-
+        [\x0207][\x020902]3Yeah! I got the
+        Oioi Oink![pause]
+      - "[\\x0207][\\x020902]3OK, I got a pretty \ncool item, so let's \nsee what it does.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3...it's too much...\n...and I don't\nknow what it is...[pause][\\x0203]I'll come back when \nI have more money.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Hey!\nThe lift is \nmoving![pause]"
+  - strings:
+      - ''
+      - '[\x0207][\x020902]3This is kinda fun.[pause]'

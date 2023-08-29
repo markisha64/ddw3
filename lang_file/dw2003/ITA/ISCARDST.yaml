@@ -1,0 +1,374 @@
+type: simple
+strings:
+  - ''
+  - |-
+    Mette negli scarti tutti
+    i Digimon non bianchi.
+  - |-
+    Chiama 2 Angemon nella
+    fase di compilazione.
+  - |-
+    Bonus +10 FA e PF per i
+    propri Digimon.
+  - |-
+    Bonus +30 PF per un
+    proprio Digimon.
+  - |-
+    Dà un punto di Energia[-4]S
+    bianca.
+  - |-
+    Chiama Patamon nella
+    fase di compilazione.
+  - |-
+    Riporta in mano tutti i
+    Digimon non blu.
+  - |-
+    Prende dalla tavola un
+    Digimon avversario.
+  - |-
+    Mette fra gli scarti una
+    carta progr. appena presa.
+  - |-
+    Riporta un Digimon
+    nella mano del giocatore.
+  - |-
+    Dà un punto di Energia[-4]S
+    blu.
+  - |-
+    Chiama Gomamon nella
+    fase di compilazione.
+  - |-
+    Bonus +50 FA e PF a
+    tutti i Digimon verdi.
+  - |-
+    Pesca dagli scarti una
+    carta. Si usa 1 volta.
+  - |-
+    Dà 2 punti di Energia[-4]S
+    verde.
+  - |-
+    Bonus +20 FA e PF a
+    un Digimon.
+  - |-
+    Dà un punto di Energia[-4]S
+    verde.
+  - |-
+    Chiama Palmon nella
+    fase di compilazione.
+  - |-
+    60 punti di danni a tutti
+    i Digimon non rossi.
+  - |-
+    Mette negli scarti tutti
+    i Digimon marrone.
+  - |-
+    15 punti di danni a tutti
+    i Digimon.
+  - |-
+    15 punti di danni a un
+    Digimon avversario.
+  - |-
+    Dà un punto di Energia[-4]S
+    rossa.
+  - |-
+    Chiama Goburimon nella
+    fase di compilazione.
+  - |-
+    Mette fra gli scarti le
+    carte avversarie non nere.
+  - |-
+    Pesca una carta dal mazzo
+    e la aggiunge alla mano.
+  - |-
+    Mette negli scarti tutti
+    i Digimon non neri.
+  - |-
+    Mette negli scarti 1 carta
+    della mano avversaria.
+  - |-
+    Dà un punto di Energia[-4]S
+    nera.
+  - |-
+    Chiama Devimon nella
+    fase di compilazione.
+  - |-
+    Mette negli scarti tutti
+    i Digimon.
+  - |-
+    Scambia il totale di FA e
+    PF di entrambi i giocatori.
+  - |-
+    Mette negli scarti 3 carte
+    del mazzo avversario.
+  - |-
+    Mette negli scarti l'intera
+    mano e pesca 6 carte.
+  - |-
+    Riduce a zero tutta
+    l'Energia[-4]S.
+  - |-
+    Riporta nel mazzo tutte le
+    carte scartate.
+  - |-
+    Le mani dei due giocatori
+    hanno entrambe 3 carte.
+  - |-
+    Mette negli scarti 5 carte
+    del mazzo avversario.
+  - |-
+    Riduce a zero la FA
+    dell'avversario.
+  - |-
+    Chiama un Digimon in mano
+    nella fase di compilazione.
+  - |-
+    Bonus +30 FA e PF a uno
+    dei Digimon marrone.
+  - |-
+    Pesca 2 carte dal mazzo
+    e le aggiunge alla mano.
+  - |-
+    Sceglie 1 Digimon in tavola
+    e lo aggiunge alla mano.
+  - |-
+    Sceglie dal mazzo 1 carta
+    prog. che va nella mano.
+  - |-
+    Pesca una carta dal mazzo
+    e ne scarta una in mano.
+  - |-
+    Mette negli scarti 2 carte
+    del mazzo avversario.
+  - |-
+    30 punti di danni a un
+    Digimon marrone avversario.
+  - |-
+    Mette negli scarti 1 carta
+    pr. marrone appena presa.
+  - |-
+    Scarta un Digimon marrone
+    in mano all'avversario.
+  - |-
+    Chiama 2 Hagurumon nella
+    fase di compilazione.
+  - |-
+    Toglie all'avversario 2
+    punti di Energia[-4]S bianca.
+  - |-
+    Toglie all'avversario 2
+    punti di Energia[-4]S blu.
+  - |-
+    Toglie all'avversario 2
+    punti di Energia[-4]S verde.
+  - |-
+    Toglie all'avversario 2
+    punti di Energia[-4]S rossa.
+  - |-
+    Toglie all'avversario 2
+    punti di Energia[-4]S nera.
+  - |-
+    Riporta in mano un Digimon
+    marrone.
+  - |-
+    Bonus +10 FA e PF a un
+    Digimon.
+  - |-
+    Mette negli scarti un
+    Digimon marrone in tavola.
+  - |-
+    Bonus +10 PF a un
+    Digimon.
+  - |-
+    Bonus +10 FA a un
+    Digimon.
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    FA e PF sono pari a 20
+    volte i Digimon in tavola.
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    Bonus FA e PF pari al n.
+    di carte in mano x 10.
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    Bonus FA e PF pari al n.
+    di carte negli scarti x 20.
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    Bonus FA e PF pari al n.
+    totale di Digimon presenti.
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    Bonus FA e PF pari al n.
+    di carte negli scarti x 10.

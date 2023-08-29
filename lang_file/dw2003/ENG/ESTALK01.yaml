@@ -1,0 +1,810 @@
+type: simple
+strings:
+  - ''
+  - |-
+    [\x0207]Divermon[\x0207]...what? You
+    want to open a
+    Booster?[pause][\x0203]OK. Wait one sec.[pause]
+  - |-
+    [\x0207]Guardromon[\x0207]ACCESSING
+    MATRIX DRIVE.[pause]
+  - |-
+    [\x0207]Guardromon[\x0207]I AM SAVE OFFICER
+    GUADROMON.[pause][\x0203]IF YOU WANT TO
+    SAVE THEN TALK
+    TO A GUARDROMON.[pause]
+  - |-
+    [\x0207]Gatomon[\x0207]We Gatomon
+    are managers
+    of the Inn.[pause][\x0203]If you want to stay
+    at the Inn, please
+    talk to one of us.[pause]
+  - |-
+    [\x0207]Gatomon[\x0207]...Welcome
+    to my Inn![pause][\x0203]Please take
+    your time to
+    rest.[pause]
+  - "[\\x0207]Seiryu Leader[\\x0207]The emergency \nChamber in the\nNorth Sector is...[pause][\\x0203]Located in the \nbasement of \n\"Kulon Mine.\"[pause][\\x0203]But you need the \nfour leader badges \nto use it.[pause]"
+  - "[\\x0207]Byakko Leader[\\x0207]The emergency \nChamber in the\nNorth Sector is...[pause][\\x0203]Located in the \nbasement of \n\"Kulon Mine.\"[pause][\\x0203]But you need the \nfour leader badges \nto use it.[pause]"
+  - "[\\x0207]Genbu Leader[\\x0207]The emergency \nChamber to go to the\nReal World is...[pause][\\x0203]Located at the bottom of\nthe dungeon in the \n\"Kulon Mine\" in this Sector.[pause][\\x0203]But you need the \nfour leader badges \nto use it.[pause]"
+  - a
+  - |-
+    [\x0207]Crybaby Maria[\x0207]I got separated
+    from Elle. What
+    should I do?[pause]
+  - "[\\x0207]Sarah[\\x0207]Seiryu Leader is \nsooo handsome![pause][\\x0203]He's sooo cool![pause]"
+  - "[\\x0207]Agumon[\\x0207]I'm done with \ntoday's training.\nI'm beat.[pause]"
+  - |-
+    [\x0207]Guilmon[\x0207]Mmmmmm,
+    oh, it smells
+    good![pause][\x0203]Tonight's
+    dinner is
+    pizza![pause]
+  - "[\\x0207]Agumon[\\x0207]...what, you're \nlooking for Keith\nand Nick?[pause][\\x0203]Nick was here, \nbut went away![pause][\\x0203]He went to either \nSouth Sector or \nWest Sector.[pause]"
+  - |-
+    [\x0207]Agumon[\x0207]Welcome to the
+    city of wind,
+    Seiryu City![pause][\x0203]Please take your
+    time![pause]
+  - "[\\x0207]Crybaby Maria[\\x0207]I can't find \nElle...[pause][\\x0203]We're supposed\nto meet at Gale \nTower.[pause]"
+  - "[\\x0207]Sarah[\\x0207]Seiryu Leader \nlooks like a \nretriever![pause][\\x0203]He's so cute![pause]"
+  - "[\\x0207]Seiryu Leader[\\x0207]Oh, you're \n[\\x020801][\\x020501]. \nHow is it going?[pause][\\x0203]Suzaku Leader is\nstronger than me so\nbe on your guard.[pause]"
+  - "[\\x0207]Guilmon[\\x0207]The wind is \nnice here![pause][\\x0203]I like \nbeing here![pause]"
+  - |-
+    [\x0207]Agumon[\x0207]A way to get in the
+    Administration
+    Center?[pause][\x0203]I didn't know that
+    humans can't go in
+    there.[pause]
+  - "[\\x0207]Crybaby Maria[\\x0207]I can't find \nElle...[pause][\\x0203]We're supposed\nto meet at Gale \nTower.[pause]"
+  - "[\\x0207]Sarah[\\x0207]What, a way \ninside the Admin\nCenter?[pause][\\x0203]You can't usually\ngo in there? I \ndidn't know that.[pause]"
+  - "[\\x0207]Seiryu Leader[\\x0207]What?! \nA way inside the \nAdministration Center?[pause][\\x0203]I've never heard of it.\nGo ask someone\nelse.[pause]"
+  - "[\\x0207]Guilmon[\\x0207]Digimon can enter\nthe Administration\nCenter easily.[pause][\\x0203]But I don't know \nabout humans.[pause]"
+  - "[\\x0207]Agumon[\\x0207]One, and two,\nand one, and\ntwo![pause][\\x0203]I'm going to \nget stronger for\nLeader![pause]"
+  - "[\\x0207]Crybaby Maria[\\x0207]I wonder if Maria\nleft without me.[pause][\\x0203]I'm such a \nslowpoke and a\ncrybaby.[pause]"
+  - "[\\x0207]Sarah[\\x0207]MetalGarurumon is \ncute like a dog![pause][\\x0203]I'll be happy if I \ncan have a \nMetalGarurumon![pause]"
+  - "[\\x0207]Seiryu Leader[\\x0207]Your Digimon seems\nto have grown well.[pause][\\x0203]Good luck on \nbecoming Server\nChamp![pause]"
+  - "[\\x0207]Guilmon[\\x0207]Agumon is so\nserious![pause][\\x0203]I prefer having \nfun.[pause]"
+  - "[\\x0207]Agumon[\\x0207]One, and two,\nand one, and \ntwo![pause][\\x0203]I'm going to \nget stronger for\nLeader![pause]"
+  - "[\\x0207]Crybaby Maria[\\x0207]I wonder if Maria \nleft without me.[pause][\\x0203]I'm such a \nslowpoke and a \ncrybaby.[pause]"
+  - "[\\x0207]Sarah[\\x0207]MetalGarurumon is \ncute like a dog![pause][\\x0203]I'll be happy if I \ncan have a \nMetalGarurumon![pause]"
+  - |-
+    [\x0207]Seiryu Leader[\x0207]Something has
+    been bothering
+    me...[pause][\x0203]Maybe it's just
+    gas...[pause]
+  - "[\\x0207]Guilmon[\\x0207]Agumon is so\nserious![pause][\\x0203]I prefer having \nfun.[pause]"
+  - |-
+    [\x0207]Agumon[\x0207]No one can go inside
+    Asuka City![pause][\x0203]I wonder if the
+    other Agumon are
+    all right.[pause]
+  - "[\\x0207]Crybaby Maria[\\x0207]What should I do if \nElle doesn't come?[pause][\\x0203]I can't go back to \nAsuka City alone![pause]"
+  - "[\\x0207]Sarah[\\x0207]I have to feed my \ndog, Doria.[pause][\\x0203]But I can't go home \nyet! What should I\ndo?![pause]"
+  - "[\\x0207]Seiryu Leader[\\x0207]There is \nsomething wrong\nin Asuka City.[pause][\\x0203]I wonder what\nis going to\nhappen?[pause]"
+  - |-
+    [\x0207]Guilmon[\x0207]I just had
+    pizza!
+    It was good![pause]
+  - "[\\x0207]Agumon[\\x0207]I'm going to \nhold my ground![pause][\\x0203]I won't run away \nfrom anything![pause]"
+  - "[\\x0207]Crybaby Maria[\\x0207]Maybe something \nhappened to Elle.[pause][\\x0203]Then what should I \ndo?![pause]"
+  - "[\\x0207]Sarah[\\x0207]I wonder if Doria is \nhungry. Oh, what \nshould I do?![pause]"
+  - |-
+    [\x0207]Seiryu Leader[\x0207]The A.o.A was
+    inside this server![pause][\x0203]But do not worry, I
+    will protect this city![pause]
+  - "[\\x0207]Guilmon[\\x0207]I'm on \nwatch from \nup here.[pause][\\x0203]If the enemy \ncomes I'll find\nhim![pause]"
+  - "[\\x0207]Agumon[\\x0207]The A.o.A is\nnothing![pause][\\x0203]If they come here \nI will beat them![pause]"
+  - "[\\x0207]Crybaby Maria[\\x0207]Elle, where \nare you?![pause]"
+  - "[\\x0207]Sarah[\\x0207]Is it true the\nA.o.A turns you\ninto a pig?[pause][\\x0203]I wouldn't mind\nbeing a dog, but \nnot pig![pause]"
+  - "[\\x0207]Seiryu Leader[\\x0207][\\x020801][\\x020501], sorry, I \ncannot help.[pause][\\x0203]Protecting this city\nis all I can do.[pause]"
+  - "[\\x0207]Guilmon[\\x0207]Ah, the wind is so\nnice.[pause][\\x0203]Hope nothing \nhappens.[pause]"
+  - |-
+    [\x0207]Agumon[\x0207]You defeated the
+    A.o.A![pause][\x0203]Wow! How did you
+    get that strong?[pause]
+  - "[\\x0207]Crybaby Maria[\\x0207]Elle was at Zephyr \nTower all along![pause][\\x0203]I'm so glad! I don't\nwant to be alone\nanymore![pause]"
+  - "[\\x0207]Sarah[\\x0207]Oh, good! Now we\ncan go back to \nthe Real World![pause][\\x0203]I can't wait to\nsee my Doria![pause]"
+  - "[\\x0207]Seiryu Leader[\\x0207]Thanks to you \n[\\x020801][\\x020501] the world\nis saved![pause][\\x0203]I'm really grateful\nfor what you've\ndone![pause]"
+  - "[\\x0207]Guilmon[\\x0207]We're going to \nhave a party now![pause][\\x0203]I want to eat lots\nof cake![pause]"
+  - "[\\x0207]Agumon[\\x0207]What should I do?\nEveryone turned into \nweird Digimon.[pause]"
+  - |-
+    [\x0207]Crybaby Maria[\x0207]Oink,
+    oink, oink![pause]
+  - |-
+    [\x0207]Sarah[\x0207]Oink, oink!
+    Oooink![pause]
+  - |-
+    [\x0207]Seiryu Leader[\x0207]Oink, oink!
+    Oioioioink![pause]
+  - "[\\x0207]Guilmon[\\x0207]What happened \nto everyone?[pause][\\x0203]Please help \nthem![pause]"
+  - "[\\x0207]Strongman Kyle[\\x0207]...a guy in black and \na sarcastic guy?[pause][\\x0203]Yeah, I saw them in \nthis city.[pause][\\x0203]But I don't know where \nthey went...[pause]"
+  - "[\\x0207]Patamon[\\x0207]...you're looking \nfor someone named \nKeith and Nick?[pause][\\x0203]Keith is right \nhere...[pause][\\x0203]Hey? Where did he \ngo...[pause]"
+  - '43'
+  - '43'
+  - '43'
+  - "[\\x0207]Charming Elle[\\x0207]I wonder where\nMaria is?[pause][\\x0203]I'm worried because \nshe's such a\ncrybaby.[pause]"
+  - |-
+    [\x0207]Charming Elle[\x0207]I wonder where
+    Maria is?[pause][\x0203]I told her I was in
+    Zephyr Tower...[pause]
+  - |-
+    [\x0207]Charming Elle[\x0207]I wonder where
+    Maria is?[pause][\x0203]I told her I was in
+    Zephyr Tower...[pause]
+  - "[\\x0207]Charming Elle[\\x0207]Maybe Maria went \nhome without me.[pause][\\x0203]...no, they're doing\nmaintenance, so \nshe couldn't have.[pause]"
+  - "[\\x0207]Charming Elle[\\x0207]Maybe Maria went \nhome without me.[pause][\\x0203]...no, they're doing\nmaintenance, so \nshe couldn't have.[pause]"
+  - |-
+    [\x0207]Charming Elle[\x0207]Asuka City is
+    in trouble![pause][\x0203]What if Maria is
+    in there...[pause]
+  - |-
+    [\x0207]Charming Elle[\x0207]Where is Maria![pause][\x0203]I totally don't
+    know where
+    she is![pause]
+  - "[\\x0207]Charming Elle[\\x0207]I heard that the\nA.o.A is kidnapping \neveryone![pause][\\x0203]Maria must have\nbeen caught too![pause]"
+  - |-
+    [\x0207]Charming Elle[\x0207]Oh, good! Maria
+    is fine![pause][\x0203]Now we can go
+    back to the
+    Real World![pause]
+  - |-
+    [\x0207]Charming Elle[\x0207]Oink,
+    oin, oink![pause]
+  - '43'
+  - "[\\x0207]Piximon[\\x0207]I'm Digimon Officer\npi! What do you \nwant pi?[pause]"
+  - "[\\x0207]Manager Sasaki[\\x0207]We're from MAGAMI's \nrival company.[pause][\\x0203]Don't tell, but we're \nhere to spy on \nDigimon Online.[pause]"
+  - "[\\x0207]Ms. Olivia[\\x0207]Oh, why is this \nso much fun?[pause][\\x0203]This is so much\nfun, I'm disgusted![pause]"
+  - |-
+    [\x0207]Repeating Tom[\x0207]Seiryu Leader is
+    training at the
+    Protocol Ruins.[pause][\x0203]It's northwest of
+    here.[pause]
+  - "[\\x0207]Repeating Tom[\\x0207]To go to the West \nSector you have to \ncross the ocean.[pause][\\x0203]But I don't know\nhow you can do\nthat.[pause]"
+  - |-
+    [\x0207]Manager Sasaki[\x0207]Apparently Ms. Olivia
+    is getting a little
+    steamed.[pause][\x0203]MAGAMI has so
+    much more to
+    offer than we do.[pause]
+  - "[\\x0207]Ms. Olivia[\\x0207]What, they require\nmaintenance...?[pause][\\x0203]I guess their \ntechnology isn't\nthat good.[pause]"
+  - "[\\x0207]Repeating Tom[\\x0207]A way inside the \nAdministration Center?[pause][\\x0203]No way, they have \nreally tight security.[pause]"
+  - "[\\x0207]Manager Sasaki[\\x0207]Ms. Olivia is envious \nof Game Master.[pause][\\x0203]I think it's because \nshe's a woman.[pause]"
+  - |-
+    [\x0207]Ms. Olivia[\x0207]Who cares about
+    the Game Master![pause][\x0203]It takes more
+    than looks to
+    get a job done![pause]
+  - a
+  - "[\\x0207]Manager Sasaki[\\x0207]Ms. Olivia is envious \nof Game Master.[pause][\\x0203]I think it's because \nshe's a woman.[pause]"
+  - |-
+    [\x0207]Ms. Olivia[\x0207]Who cares about
+    the Game Master![pause][\x0203]It takes more
+    than looks to
+    get it done![pause]
+  - "[\\x0207]Repeating Tom[\\x0207]Rumor is that \nLucky Mouse \nappeared.[pause][\\x0203]But I wonder why \nnow? \nKinda strange.[pause]"
+  - "[\\x0207]Manager Sasaki[\\x0207]Ms. Olivia is starting\nto vent her anger on \neveryone.[pause][\\x0203]Well, can't let that \nget you down if you \nwant to work.[pause]"
+  - |-
+    [\x0207]Ms. Olivia[\x0207]Sasaki! You need to
+    shape up![pause][\x0203]We're losing to
+    MAGAMI. Do you
+    understand that?![pause]
+  - "[\\x0207]Repeating Tom[\\x0207]Those two over\nthere keep\nwhispering.[pause][\\x0203]They look \nsuspicious. Maybe\nthey're spies![pause]"
+  - "[\\x0207]Manager Sasaki[\\x0207]Of course, we want\nto make a good\nproduct too.[pause][\\x0203]If it were that easy,\nwe wouldn't have \nthis many problems.[pause]"
+  - "[\\x0207]Ms. Olivia[\\x0207]OK, Sasaki![pause][\\x0203]Let's develop\nsomething bigger \nthan Digimon Online![pause]"
+  - "[\\x0207]Repeating Tom[\\x0207]Members of the \nA.o.A are inside![pause][\\x0203]Those two must be \nA.o.A as well![pause]"
+  - "[\\x0207]Manager Sasaki[\\x0207]I'm glad the rival \ncompany is gone, \nbut...[pause][\\x0203]I wonder if \neverything is\ngoing to be OK.[pause]"
+  - "[\\x0207]Ms. Olivia[\\x0207]Ooooh, the\nA.o.A was\nbehind them...[pause][\\x0203]That's the end \nfor MAGAMI![pause]"
+  - "[\\x0207]Repeating Tom[\\x0207]I'm keeping \nan eye on \nthose two.[pause][\\x0203]If they're the \nA.o.A, I'll \nbeat them up![pause]"
+  - "[\\x0207]Manager Sasaki[\\x0207]I want to go \nhome as well.[pause][\\x0203]Hey, I wonder if\nI get overtime\nfor this...[pause]"
+  - |-
+    [\x0207]Ms. Olivia[\x0207]Why can't we go
+    back to the
+    Real World![pause][\x0203]It's our big chance
+    to over take
+    MAGAMI![pause]
+  - "[\\x0207]Repeating Tom[\\x0207]Oh, they're from\nthat rival company![pause][\\x0203]But that company's \ngame is so boring.[pause]"
+  - |-
+    [\x0207]Manager Sasaki[\x0207]I'm glad![pause][\x0203]Now we can go
+    back to the Real
+    World![pause]
+  - "[\\x0207]Ms. Olivia[\\x0207]I just had a great \nidea![pause][\\x0203]Cookiemon Online!\nIt'll be a hit![pause]"
+  - |-
+    [\x0207]Repeating Tom[\x0207]Oi, oink,
+    oink, oioioink![pause]
+  - |-
+    [\x0207]Manager Sasaki[\x0207]Oink,
+    oi, oioioink![pause]
+  - |-
+    [\x0207]Ms. Olivia[\x0207]Oink?
+    Ooooink![pause]
+  - '43'
+  - '43'
+  - '43'
+  - |-
+    [\x0207]Airdramon[\x0207]Zzzzzzzzz...
+    Zzzzzzzz...[pause]
+  - "[\\x0207]Teacher Ayumi[\\x0207]Kids shouldn't play \ngames![pause][\\x0203]...just kidding...\nbut don't play too\nmuch.[pause]"
+  - "[\\x0207]Lena[\\x0207]Did you hear?\nLucky Mouse\nis back![pause][\\x0203]It's been a while. I \nwonder why he came \nback?[pause]"
+  - "[\\x0207]Strongman Kyle[\\x0207]If you're here, \nyou defeated\nZanbamon![pause][\\x0203]I guess you're \nbetter than you\nlook.[pause]"
+  - "[\\x0207]Lena[\\x0207]We can't go\nback to the\nReal World.[pause][\\x0203]I wonder if \nLucky Mouse \ncaused it.[pause]"
+  - "[\\x0207]Strongman Kyle[\\x0207]A way inside the \nAdministration \nCenter?[pause][\\x0203]Go in headstrong! \nThat's the only way![pause]"
+  - "[\\x0207]Strongman Kyle[\\x0207]Which are the \nstrong Digimon?[pause][\\x0203]I want to create \nthe strongest \nteam![pause]"
+  - |-
+    [\x0207]Lena[\x0207]I wonder where
+    Lucky Mouse is...[pause][\x0203]He must be within
+    this Asuka Server![pause]
+  - |-
+    [\x0207]Lena[\x0207]I wonder where
+    Lucky Mouse is...[pause][\x0203]He must be within
+    this Asuka Server![pause]
+  - "[\\x0207]Strongman Kyle[\\x0207]Which are the \nstrong Digimon?[pause][\\x0203]I want to create \nthe strongest \nteam![pause]"
+  - "[\\x0207]Lena[\\x0207]Lucky Mouse is a\ngood hacker![pause][\\x0203]He'd never do anything \nto cause problems![pause]"
+  - "[\\x0207]Strongman Kyle[\\x0207]Imperialdramon \nFighter Mode is \nstrong, I guess.[pause][\\x0203]But Marsmon is\nstrong too.[pause]"
+  - "[\\x0207]Lena[\\x0207]The Tamer that beat \nGame Master has to \nbe Lucky Mouse![pause][\\x0203]He's on our side![pause]"
+  - |-
+    [\x0207]Strongman Kyle[\x0207]Game Master's Digimon
+    was Persiamon...[pause][\x0203]The tamer who
+    defeated
+    them is good.[pause]
+  - |-
+    [\x0207]Lena[\x0207]Hey! What was
+    that, an
+    earthquake?![pause][\x0203]That was a 6
+    or more on the
+    Richter scale![pause]
+  - "[\\x0207]Strongman Kyle[\\x0207]That was a huge \nearthquake![pause][\\x0203]I hate earthquakes!\nI thought I was\ngoing to die.[pause]"
+  - "[\\x0207]Lena[\\x0207]I'm sure Lucky \nMouse is fighting \nright now.[pause][\\x0203]I just know that \nLucky Mouse will \nbe victorious![pause]"
+  - |-
+    [\x0207]Strongman Kyle[\x0207]I want to go
+    further, but...[pause][\x0203]Teacher Ayumi
+    said no.
+    Oh well.[pause]
+  - "[\\x0207]Lena[\\x0207]A kid tamer\ndefeated the chief \nofficers![pause][\\x0203]Kinda sad that it\nwasn't Lucky\nMouse...[pause]"
+  - "[\\x0207]Strongman Kyle[\\x0207]You're the tamer \nthat defeated the \nA.o.A?![pause][\\x0203]Wow! I'm not\nworthy! I'm not\nworthy![pause]"
+  - |-
+    [\x0207]Lena[\x0207]Oink?!
+    Oi, oink![pause]
+  - |-
+    [\x0207]Strongman Kyle[\x0207]...oink,
+    oioioink, oink![pause]
+  - '43'
+  - a
+  - "[\\x0207]Teacher Ayumi[\\x0207]Why do you need\nto get inside \nthe Admin Center?[pause][\\x0203]You better not be\ndoing anything bad![pause]"
+  - |-
+    [\x0207]Teacher Ayumi[\x0207]I'm also in charge of
+    the game club at
+    school![pause][\x0203]Although I haven't
+    played many games.[pause]
+  - |-
+    [\x0207]Teacher Ayumi[\x0207]I'm also in charge of
+    the game club at
+    school![pause][\x0203]Although I haven't
+    played many games.[pause]
+  - "[\\x0207]Teacher Ayumi[\\x0207]It's late in the \nReal World...[pause][\\x0203]But we still \ncan't go back.[pause]"
+  - |-
+    [\x0207]Teacher Ayumi[\x0207]Oh, what should I
+    do?[pause][\x0203]I have to take my
+    students back![pause]
+  - "[\\x0207]Teacher Ayumi[\\x0207]What was that \nan earthquake?![pause][\\x0203]I wonder if my \nstudents are all \nright![pause]"
+  - "[\\x0207]Teacher Ayumi[\\x0207]I didn't know it \nwould be this \ndangerous![pause][\\x0203]We should ban \nthem from playing\nDigimon Online![pause]"
+  - |-
+    [\x0207]Teacher Ayumi[\x0207]Digimon Online is fun
+    if you play right![pause][\x0203]I'll come more often
+    with my students![pause]
+  - |-
+    [\x0207]Teacher Ayumi[\x0207]Ooink,
+    oink, oiioionk![pause]
+  - '43'
+  - |-
+    [\x0207]Renamon[\x0207]Sorry, but I can't
+    let you pass...[pause][\x0203]...Not until I know
+    you're worthy to
+    take this passage.[pause]
+  - "[\\x0207]Patamon[\\x0207]La la la la la la.\nFloramon are very good\nat dancing![pause][\\x0203]They're trying to\nbecome the Server \nDancing Queens![pause]"
+  - |-
+    [\x0207]Suzaku Leader[\x0207]Hello, I'm the
+    Suzaku Leader![pause]
+  - "[\\x0207]Renamon[\\x0207]Only the strong \ntamers can pass \nhere.[pause][\\x0203]You should be \nproud of \nyourself.[pause]"
+  - "[\\x0207]Patamon[\\x0207]Isn't the leader \ncute?[pause][\\x0203]I entered the fan\nclub too![pause]"
+  - |-
+    [\x0207]Suzaku Leader[\x0207]What, a way inside the
+    Administration Center?[pause][\x0203]You ask for the
+    impossible [-4] there's
+    no way.[pause]
+  - "[\\x0207]Renamon[\\x0207]What? You \nwant to go \nin further?[pause][\\x0203]All right, \nbut be \ncareful.[pause]"
+  - "[\\x0207]Patamon[\\x0207]Isn't the leader \ncute?[pause][\\x0203]I entered the fan\nclub too![pause]"
+  - "[\\x0207]Suzaku Leader[\\x0207]Lucky Mouse is in \nthis server?[pause][\\x0203]Oh, I just want to\nsee what he looks\nlike![pause]"
+  - "[\\x0207]Renamon[\\x0207]What? You \nwant to go \nin further?[pause][\\x0203]All right,\nbut be \ncareful.[pause]"
+  - "[\\x0207]Patamon[\\x0207]Une, deux, trois,\nune, deux, trois![pause][\\x0203]Floramon is teaching \nme how to dance![pause]"
+  - "[\\x0207]Suzaku Leader[\\x0207]Lucky Mouse is in \nthis server?[pause][\\x0203]Oh, I just want to\nsee what he looks\nlike![pause]"
+  - "[\\x0207]Renamon[\\x0207]It's all right to go \ninside, but be \ncareful.[pause][\\x0203]Some strange \nlooking men just \nwent inside.[pause]"
+  - "[\\x0207]Patamon[\\x0207]The Leader is pretty\nreliable![pause][\\x0203]So no matter what \nhappens, we don't \nhave to worry![pause]"
+  - "[\\x0207]Suzaku Leader[\\x0207]Have you heard? \nSomething is going\non in Asuka City![pause][\\x0203]But it's safe here\nso don't worry![pause]"
+  - "[\\x0207]Renamon[\\x0207]You must be a good\ntamer to have\nbeaten Game Master.[pause][\\x0203]I'm looking forward\nto seeing how \nstrong you get.[pause]"
+  - "[\\x0207]Patamon[\\x0207]Game Master was \nwith the A.o.A![pause][\\x0203]I knew something\nabout her wasn't\nright.[pause]"
+  - "[\\x0207]Suzaku Leader[\\x0207]Hmmm...the A.o.A\ngot into the \nserver...[pause][\\x0203]Now people can't\nenjoy the game![pause]"
+  - |-
+    [\x0207]Renamon[\x0207]Leader went to look
+    at the damage caused
+    by the earthquake.[pause][\x0203]Her sense of
+    responsibility is
+    always so strong.[pause]
+  - "[\\x0207]Patamon[\\x0207]Oh? You're looking\nfor Leader? [pause][\\x0203]She's not here. She\nwent somewhere after \nthe earthquake.[pause]"
+  - a
+  - "[\\x0207]Renamon[\\x0207]I have nothing to\nsay to you now\nthat you're strong.[pause][\\x0203]I will gladly let \nyou pass.[pause]"
+  - "[\\x0207]Patamon[\\x0207]Leader isn't back \nyet.[pause][\\x0203]I wonder where she \nis![pause]"
+  - a
+  - "[\\x0207]Renamon[\\x0207]You guys are \ngetting pretty \ngood.[pause][\\x0203]I look forward to \nthe next Server\nTournament.[pause]"
+  - "[\\x0207]Patamon[\\x0207]Floramon's \ndance is just \nperfect![pause][\\x0203]They'll win\nthe contest\nfor sure.[pause]"
+  - |-
+    [\x0207]Suzaku Leader[\x0207]Wow, you defeated
+    the A.o.A![pause][\x0203]Let's go on a date
+    sometime![pause]
+  - "[\\x0207]Renamon[\\x0207]You're our only \nhope. We're all \ncounting on you![pause]"
+  - |-
+    [\x0207]Patamon[\x0207]Why did everyone turn
+    into Digimon?[pause][\x0203]Oh, no!
+    Floramon's contest
+    will get cancelled![pause]
+  - |-
+    [\x0207]Suzaku Leader[\x0207]Oooink,
+    oink, oink![pause]
+  - '43'
+  - a
+  - '43'
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - |-
+    [\x0207]Byakko Civilian 08[\x0207]There's more players
+    in this city![pause][\x0203]But it's only your
+    imagination that you
+    can't see them![pause]
+  - a
+  - a
+  - "[\\x0207]Byakko Leader[\\x0207]Oh, it's you!\nWe fought and took the \ncity back![pause][\\x0203]Are you looking for a \nway to go to Amaterasu?[pause][\\x0203]I don't know, but you \nshould go to the \nunderground cave.[pause][\\x0203]We locked everyone from \nthe A.o.A down there.[pause]"
+  - |-
+    [\x0207]Operator Remy[\x0207]You defeated Asuka's
+    Game Master![pause][\x0203]Thank you! Because
+    of you, Leader's
+    plan was a success![pause]
+  - "[\\x0207]Guardsman Max[\\x0207]After Asuka's Game\nMaster went down, \nthey just crumbled![pause][\\x0203]I'm glad we got the\ncity back without\nmuch damage![pause]"
+  - |-
+    [\x0207]Student Tony[\x0207]Man, I almost helped
+    them.[pause][\x0203]They kidnapped good
+    tamers...[pause][\x0203]And were going to
+    make them train
+    Digimon for warfare![pause]
+  - |-
+    [\x0207]Class Pres Aiko[\x0207]Leader is a great
+    guy![pause][\x0203]Because of him we
+    were able to get the
+    city back![pause]
+  - "[\\x0207]Byakko Leader[\\x0207]I'm responsible \nfor this city and \nI'm protecting it![pause][\\x0203]So don't worry\nand relax![pause]"
+  - "[\\x0207]Operator Remy[\\x0207]Max is strong and\nvery responsible![pause][\\x0203]We're actually \ngoing out![pause]"
+  - "[\\x0207]Guardsman Max[\\x0207]I'm a Guardsman![pause][\\x0203]I'll protect everyone \nand Remy with my life![pause]"
+  - |-
+    [\x0207]Student Tony[\x0207]Amaterasu Server has
+    been taken over by
+    the A.o.A?[pause][\x0203]I wonder if my friend
+    Tatsuya is all right...[pause]
+  - |-
+    [\x0207]Class Pres Aiko[\x0207]We got the city back,
+    but I'm still worried.[pause][\x0203]I'm still not sure what
+    the A.o.A was trying
+    to do![pause]
+  - |-
+    [\x0207]Byakko Leader[\x0207]Because of you,
+    the A.o.A is
+    gone![pause][\x0203]Once the Matrix
+    System is restored,
+    it's gonna be OK![pause]
+  - "[\\x0207]Operator Remy[\\x0207]Oh, good! Then the \nbattle is over![pause][\\x0203]I don't want Max to\nget hurt![pause]"
+  - "[\\x0207]Guardsman Max[\\x0207]For a kid, \nyou've done a\ngreat job![pause][\\x0203]You're the tamer\neveryone will be\nlooking up to![pause]"
+  - "[\\x0207]Student Tony[\\x0207]This rocks!\nIt really \nrocks![pause][\\x0203]Now I can totally\nenjoy the \nmoment![pause]"
+  - "[\\x0207]Class Pres Aiko[\\x0207]Yes!\nThe A.o.A is \ndefeated![pause][\\x0203]Now we don't \nhave to worry \nanymore![pause]"
+  - |-
+    [\x0207]Byakko Leader[\x0207]...oink?!
+    Oink, oink![pause]
+  - |-
+    [\x0207]Operator Remy[\x0207]...oink,
+    oi, oooink![pause]
+  - |-
+    [\x0207]Guardsman Max[\x0207]...oink,
+    oi, oooink![pause]
+  - |-
+    [\x0207]Student Tony[\x0207]Oooink?!
+    Oink,
+    oioioink![pause]
+  - |-
+    [\x0207]Class Pres Aiko[\x0207]Oiiiiink,
+    oi, oinkkk![pause]
+  - '43'
+  - '43'
+  - '43'
+  - '43'
+  - '43'
+  - a
+  - a
+  - |-
+    [\x0207]Tamer Chris[\x0207]I finally made
+    it to Digimon
+    Online.[pause][\x0203]It would be a
+    waste if I
+    didn't fight![pause]
+  - |-
+    [\x0207]Tamer Chris[\x0207]Now I can
+    play for free![pause][\x0203]It would be a
+    waste if I
+    didn't fight![pause]
+  - |-
+    [\x0207]Tamer Chris[\x0207]You don't have
+    to worry about
+    the A.o.A.[pause][\x0203]So play and
+    enjoy this
+    while it lasts.[pause]
+  - |-
+    [\x0207]Tamer Chris[\x0207]Oiiink,
+    oi, oi, oi![pause]
+  - a
+  - |-
+    [\x0207]Tamer Chris[\x0207]You're so
+    weak. What a
+    waste of time.[pause][\x0203]Next time
+    I'll just pass
+    on you.[pause]
+  - |-
+    [\x0207]Tamer Chris[\x0207]All right then!
+    Card Battle![pause]
+  - |-
+    [\x0207]Tamer Chris[\x0207]All right then!
+    Digimon Battle![pause]
+  - |-
+    [\x0207]Tamer Chris[\x0207]You really
+    are good.[pause][\x0203]How do you get
+    that good?[pause]
+  - "[\\x0207]Tamer Chris[\\x0207]You really are \ngreat.[pause][\\x0203]I'm not worthy\nto shine your\nshoes.[pause]"
+  - "[\\x0207]Tamer Chris[\\x0207]Hey, I just \ngot a new\ncard.[pause][\\x0203]I won't lose\nthis time![pause]"
+  - |-
+    [\x0207]Tamer Chris[\x0207]Oh yeah!
+    It's more fun
+    when you win![pause]
+  - '[\x0207]Tamer Chris[\x0207]Ah man, I lost.[pause][\x0203]Let''s fight again![pause]'
+  - |-
+    [\x0207]Tamer Alice[\x0207]...what...?
+    ...you want to...
+    ...fight with me...?[pause]
+  - |-
+    [\x0207]Tamer Alice[\x0207]...you...
+    ...want to fight...
+    ...with me...?[pause]
+  - |-
+    [\x0207]Tamer Alice[\x0207]...A.o.A is...
+    ...gone...?[pause][\x0203]...so you...
+    ...want to fight...
+    ...with me again...?[pause]
+  - |-
+    [\x0207]Tamer Alice[\x0207]...oink...
+    ...oink, oi...[pause]
+  - a
+  - |-
+    [\x0207]Tamer Alice[\x0207]...I'm sorry...
+    ...I don't want to...
+    ...fight with you...[pause]
+  - |-
+    [\x0207]Tamer Alice[\x0207]...if it's...
+    ...Card Battle...[pause]
+  - |-
+    [\x0207]Tamer Alice[\x0207]...if it's...
+    ...Digimon Battle...[pause]
+  - |-
+    [\x0207]Tamer Alice[\x0207]...I decline...
+    ...I don't want to...
+    lose to you twice...[pause]
+  - |-
+    [\x0207]Tamer Alice[\x0207]...no...
+    ...you are...
+    ...too strong...[pause]
+  - |-
+    [\x0207]Tamer Alice[\x0207]...let's...
+    ...Card Battle...[pause]
+  - |-
+    [\x0207]Tamer Alice[\x0207]...I won...
+    ...you stink...[pause]
+  - |-
+    [\x0207]Tamer Alice[\x0207]...I lost...
+    ...you're good...[pause]
+  - a
+  - a
+  - a
+  - "[\\x0207]Gargomon[\\x0207]Kaboom! This \nis the Armory.[pause]"
+  - |-
+    [\x0207]Wizardmon[\x0207]Welcome, this is
+    the Item Shop![pause]
+  - "[\\x0207]Gomamon[\\x0207]This is the Pawn \nShop! What do \nyou want?[pause]"
+  - a
+  - a
+  - "[\\x0207]DO Guard[\\x0207]Welcome to the \nfort city, Genbu \nCity![pause][\\x0203]Even the A.o.A\nisn't here. You \ncan relax![pause]"
+  - "[\\x0207]DO Guard[\\x0207]I've heard. \nHurry to the\nKulon Mines![pause][\\x0203]And go to the \nChamber Room![pause]"
+  - |-
+    [\x0207]DO Guard[\x0207]What's happening
+    in Amaterasu
+    Server?[pause][\x0203]I'm worried about
+    my friend Chuck...[pause]
+  - "[\\x0207]DO Guard[\\x0207]I'm glad Chuck is \nfine![pause][\\x0203]But I didn't think \nhe was the leader \nof the Resistance![pause]"
+  - |-
+    [\x0207]DO Guard[\x0207]...oiiink,
+    oink, onk![pause]
+  - '43'
+  - "[\\x0207]DO Guard[\\x0207]We tightened \nsecurity because of\nByakko and Asuka![pause][\\x0203]So the A.o.A \nhasn't come here![pause]"
+  - "[\\x0207]DO Guard[\\x0207]I'm rooting for \nyou![pause][\\x0203]I won't let the \nA.o.A have its \nway![pause]"
+  - "[\\x0207]DO Guard[\\x0207]I'm rooting for \nyou![pause][\\x0203]I won't let the \nA.o.A have its \nway![pause]"
+  - "[\\x0207]DO Guard[\\x0207]You guys are heroes\nin the Real World \ntoo.[pause][\\x0203]I wish I were you![pause]"
+  - |-
+    [\x0207]DO Guard[\x0207]Oooioink,
+    ooik, onk![pause]
+  - '43'
+  - "[\\x0207]DO Guard[\\x0207]Genbu Leader is \nalways strong \nand very reliable.[pause][\\x0203]We all love him![pause]"
+  - |-
+    [\x0207]DO Guard[\x0207]You've defeated
+    Leader?[pause][\x0203]Well, then, all our
+    hopes lay with you.[pause]
+  - "[\\x0207]DO Guard[\\x0207]I didn't think they'd\ntake Juggernaut...[pause][\\x0203]There isn't anything\nwe can do about it \nnow, can we?[pause]"
+  - "[\\x0207]DO Guard[\\x0207]Genbu Leader was \nsaying...[pause][\\x0203]...we adults do\nnot protect the\nworld,[pause][\\x0203]...courageous\nchildren like you\ndo![pause]"
+  - |-
+    [\x0207]DO Guard[\x0207]Ooink,
+    ooi, oink![pause]
+  - '43'
+  - "[\\x0207]Grandpa Tor[\\x0207]You must have the\nDigi[-4]Egg of Knowledge \nto come here.[pause][\\x0203]You're exceptional \nfor your age.[pause]"
+  - "[\\x0207]Grandpa Tor[\\x0207]If I was younger, \nI'd give 'em the \nold one[-4]two![pause][\\x0203]I'm envious of you,\nboy![pause]"
+  - "[\\x0207]Grandpa Tor[\\x0207]If you're going \nto fight, get\nstronger![pause][\\x0203]That's all I can\nsay.[pause]"
+  - "[\\x0207]Grandpa Tor[\\x0207]I'm actually a \nfamous author.[pause][\\x0203]Let me write a\nnovel about you.[pause][\\x0203]I'm sure it will be\non the best seller\nlist![pause]"
+  - |-
+    [\x0207]Grandpa Tor[\x0207]Oooink!
+    Ooink, oooink![pause]
+  - '43'
+  - |-
+    [\x0207]Airdramon[\x0207]Zzzzzzzzz
+    Zzzzzzzzz[pause]
+  - |-
+    [\x0207]Airdramon[\x0207]I'm sorry, but there's
+    nothing that I can do.[pause][\x0203]...I'm sorry I can't
+    help you...[pause]
+  - '43'
+  - "[\\x0207][\\x020902]3Yeah! I got a \nRecovery Disk![pause]"
+  - |-
+    [\x0207]Tamer Alice[\x0207]...what...?
+    ...you want to...
+    ...fight with me...?[pause]
+  - "[\\x0207]DRI Jimmy[\\x0207]WarGrowlmon\nisn't here \neither... [pause][\\x0203]Oh, I'm Jimmy. \nI research at \nthe DRI.[pause]"
+  - "[\\x0207]DRI Jimmy[\\x0207]Hey if you have \ntime, can you\nhelp me? It's easy.[pause][\\x0203]Just get a Guilmon \nDDNA from \nWarGrowlmon.[pause][\\x0203]If you do it, I'll add \nGuilmon as your\npartner![pause]"
+  - "[\\x0207]DRI Jimmy[\\x0207]That's Guilmon DDNA!\nThanks![pause][\\x0203]Here, I'll give you \nGuilmon as your partner \nlike I promised![pause][\\x0203]Go see Dr. Kadomatsu \nor Piximon![pause][\\x0203]Guilmon should now\nbe listed under Switch \nDigimon![pause]"
+  - |-
+    [\x0207]DRI Jimmy[\x0207]Oooink, oink!
+    Ooin, oink![pause]
+  - |-
+    [\x0207]Tamer Chris[\x0207]I finally made
+    it to Digimon
+    Online.[pause][\x0203]It would be a
+    waste if I
+    didn't fight![pause]
+  - "[\\x0207]DRI Jimmy[\\x0207]Now I have to go \nfind out what\nGuilmon hates![pause][\\x0203]Dr. Kadomatsu \nworks us like\ndogs you know![pause]"
+  - |-
+    [\x0207]DRI Jimmy[\x0207]Hey, your
+    Guilmon is cool![pause][\x0203]Train him to get
+    him stronger![pause]
+  - "[\\x0207]DRI Jimmy[\\x0207]Dr. Kadomatsu is \npretty strict, so \nit's tough.[pause][\\x0203]I don't have time to\neven play and \nhave fun.[pause]"
+  - |-
+    [\x0207]DRI Jimmy[\x0207]Sorry, I'm in
+    a hurry.[pause][\x0203]Let's talk
+    later![pause]
+  - "[\\x0207]Suzaku Leader[\\x0207]West Sector is \nacross the \nocean.[pause][\\x0203]Submarimon can\ntake you there.[pause][\\x0203]Ask around this\nsector for a way\nto summon him.[pause]"
+  - "[\\x0207]Renamon[\\x0207]Now that you've \ndefeated Suzaku\nLeader...[pause][\\x0203]Go forth strong \ntamer![pause]"
+  - "[\\x0207]Patamon[\\x0207]Wow, you won \nagainst our\nLeader...[pause][\\x0203]Are you some\nkind of genius?[pause]"
+  - "[\\x0207]Lena[\\x0207]You won against \nSuzaku Leader?[pause][\\x0203]You're pretty good.\nI'm no match for you.[pause]"
+  - |-
+    [\x0207]Wizardmon[\x0207]We Wizardmon are
+    in charge of the
+    Item Shop.[pause]
+  - "[\\x0207]Piximon[\\x0207]I'll be in charge of \nDigimon data pi![pause][\\x0203]So if you want to \nswitch Digimon come \ntalk to me pi![pause]"
+  - "[\\x0207]Gargomon[\\x0207]The Armory is run \nby us Gargomon.[pause]"
+  - |-
+    [\x0207]Divermon[\x0207]We're in charge of
+    Booster Packs.[pause][\x0203]If you want to open
+    one, come talk to
+    us.[pause]
+  - a
+  - "[\\x0207]Repeating Tom[\\x0207]The leader here\nis a great tamer.[pause][\\x0203]He never stops\ntraining, no \nmatter what![pause]"
+  - "[\\x0207]Seiryu Leader[\\x0207]Hey, you're \nthe....[pause]"
+  - "[\\x0207]Tricky Guilmon[\\x0207]Hmmm? \nBlue Card?[pause][\\x0203]I have it! You \nwant it?[pause][\\x0203]Then I'll give it \nto you![pause]"
+  - |-
+    [\x0207]Byakko Citizen?[\x0207]Sorry, you can't
+    pass through.[pause][\x0203]We've captured
+    you!
+    Ha ha ha ha ha![pause]
+  - '[\x0207][\x020902]3It''s closed off...[pause]'
+  - "[\\x0207]Trooper[\\x0207]Bulbmon is a Transport\nDigimon created by the\nA.o.A.[pause][\\x0203]It can open holes in the\nnet and go freely\nbetween servers![pause][\\x0203]...though the ride \nisn't that great...[pause]"
+  - |-
+    [\x0207]Trooper[\x0207]Bulbmon turned weird
+    after hitting a Protective
+    Field!.[pause][\x0203]Then it threw us out...[pause][\x0203]And headed towards
+    the South Sector. I
+    wonder what happened.[pause]
+  - "[\\x0207]General[\\x0207]I can't believe we \ngot caught![pause][\\x0203]It's all because \nBulbmon \nmalfunctioned![pause]"
+  - "[\\x0207]Trooper[\\x0207]We haven't lost \nyet![pause][\\x0203]Don't \nunderestimate\nthe A.o.A![pause]"
+  - "[\\x0207]Trooper[\\x0207]There is a \nloophole here...[pause][\\x0203]Why didn't I see it\nbefore? I'm a total \nidiot![pause]"
+  - |-
+    [\x0207]General[\x0207]A.o.A is
+    eternal! We won't
+    lose to you![pause]
+  - "[\\x0207]Trooper[\\x0207]Chief Officer was \ndefeated?[pause][\\x0203]Don't lie to me! \nThat'll never \nhappen![pause]"
+  - "[\\x0207]Trooper[\\x0207]What, Chief \nOfficer was \ndefeated?[pause][\\x0203]Good, now I \ncan quit the \nA.o.A...[pause]"
+  - |-
+    [\x0207]General[\x0207]...what?
+    Chief Officer
+    was defeated?![pause][\x0203]Well good for
+    you.
+    Heh, heh, heh.[pause]
+  - |-
+    [\x0207]Trooper[\x0207]...oink!
+    Oiioioin, oink?![pause]
+  - |-
+    [\x0207]Trooper[\x0207]...oink!?!
+    Oin, oink![pause]
+  - |-
+    [\x0207]General[\x0207]Oinoink,
+    oink, ooink![pause]
+  - '43'
+  - '43'
+  - '43'
+  - "[\\x0207]DO Guard[\\x0207]The A.o.A \nmembers are \nin here.[pause][\\x0203]They don't have \nDigimon, but \nstill, be careful.[pause]"
+  - "[\\x0207]DO Guard[\\x0207]We won't let them\nget away![pause][\\x0203]If anything \nhappens, yell![pause]"
+  - "[\\x0207]DO Guard[\\x0207]It's great the \nA.o.A is defeated.[pause][\\x0203]They're just not\nwilling to admit\ndefeat.[pause]"
+  - "[\\x0207]DO Guard[\\x0207]The A.o.A\nlost, but...[pause][\\x0203]Their attitudes \nworry me...[pause]"
+  - |-
+    [\x0207]DO Guard[\x0207]...ooink!
+    Oink, oioi,
+    oinkkk![pause]
+  - |-
+    [\x0207]DO Guard[\x0207]...oink,
+    oioioink, oink![pause]
+  - |-
+    [\x0207][\x020902]3Huh? It's blocked
+    off by something...[pause]
+  - a
+  - |-
+    [\x0207]Save Officer?[\x0207]I'm sorry, you
+    can't save here.[pause][\x0203]If you want to
+    save, please go
+    elsewhere.[pause]
+  - |-
+    [\x0207]Digimon Officer?[\x0207]Switch Digimon?[pause][\x0203]Sorry, we
+    can't do that
+    right now.[pause]
+  - "[\\x0207]Armory?[\\x0207]We've got no \nweapons to sell \nyou![pause][\\x0203]We're busy right\nnow. \nGo away![pause]"
+  - "[\\x0207]Armory?[\\x0207]We're closed for \ntoday. We're not \nselling anything![pause]"
+  - "[\\x0207]Inn Front Desk?[\\x0207]This is the front \ndesk![pause][\\x0203]But you can't\nstay here!\nGo away![pause]"
+  - |-
+    [\x0207]Maya[\x0207]I'm glad Byakko
+    City is back![pause][\x0203]I don't want to
+    run around the
+    desert again![pause]
+  - "[\\x0207]Maya[\\x0207]I'd love to see \nAsuka Server from \nabove![pause][\\x0203]I'm sure it's quite\nbeautiful![pause]"
+  - "[\\x0207]Maya[\\x0207]Is it true that the\nA.o.A was caught?![pause][\\x0203]That's great! \nNow I feel safe![pause]"
+  - |-
+    [\x0207]Maya[\x0207]Oiink,
+    oink, ooinkk![pause]
+  - '43'
+  - |-
+    [\x0207]Grandma Plum[\x0207]When will we have true
+    peace here?[pause]
+  - |-
+    [\x0207]Grandma Plum[\x0207]I'm scared thinking
+    of when the A.o.A
+    might come again.[pause][\x0203]I can't sleep at
+    night.[pause]
+  - "[\\x0207]Grandma Plum[\\x0207]Oh, thank you\nboy.[pause][\\x0203]Now I can sleep \nat night![pause]"
+  - |-
+    [\x0207]Grandma Plum[\x0207]Oink, oink,
+    oiiiink![pause]
+  - '43'
+  - "[\\x0207]Energetic Ryan[\\x0207]Show me what\nyou got, A.o.A![pause][\\x0203]I'll defend the \npeace of Byakko \nCity![pause]"
+  - |-
+    [\x0207]Energetic Ryan[\x0207]I've decided!
+    I'm going to work
+    for the S.A.P![pause][\x0203]And I'll defend
+    peace on the
+    net![pause]
+  - |-
+    [\x0207]Energetic Ryan[\x0207]...oink, oink,
+    oooink![pause]
+  - '43'
+  - "[\\x0207]Energetic Ryan[\\x0207]If the A.o.A\ncomes again, I'll \nfight too![pause][\\x0203]So I'm going to \ntrain my Digimon\nfrom now on![pause]"
+  - "[\\x0207]Byakko Citizen[\\x0207]Heh heh heh!\nByakko Leader is \nwaiting for you![pause]"
+  - |-
+    [\x0207]Byakko Citizen[\x0207]Heh heh heh, looks
+    like another strong
+    one is here again![pause]
+  - "[\\x0207]Byakko Citizen[\\x0207]Hey kid, you \nchallenging the \nLeader?[pause][\\x0203]I'm going to bet\n100 BIT on\nyou![pause]"
+  - |-
+    [\x0207]Byakko Citizen[\x0207]Go and see the
+    Leader![pause][\x0203]He's been
+    waiting for you![pause]
+  - |-
+    [\x0207]Byakko Citizen[\x0207]Oh, he's
+    just a kid![pause][\x0203]That's no
+    challenge![pause]
+  - "[\\x0207]Byakko Citizen[\\x0207]Sorry, you can't \ngo past here![pause][\\x0203]Just go and see\nthe Leader![pause]"
+  - "[\\x0207]Byakko Citizen?[\\x0207]Go downstairs and stay \nquiet with everyone \nelse![pause][\\x0203]What?! No one's \nthere? Don't lie to me![pause][\\x0203]No one can escape\nfrom this underground\ncave![pause]"
+  - "[\\x0207]Ms. Olivia[\\x0207]This is fun because \nof the Digimon![pause][\\x0203]If they're not here, \nit's only another\nonline game.[pause]"
+  - |-
+    [\x0207]Genbu Leader[\x0207]You have to stop
+    the A.o.A's
+    plans![pause][\x0203]I believe in you. I
+    know you can do
+    it![pause]
+  - "[\\x0207]Genbu Leader[\\x0207]You fought well, \nbelieving in\nyourself![pause][\\x0203]But that's not \nenough![pause][\\x0203]You must become\nthe best of all\ntamers![pause]"
+  - |-
+    [\x0207]Genbu Leader[\x0207]Oooink, oink,
+    oioink, oink![pause]
+  - '43'
+  - |-
+    [\x0207]Renamon[\x0207]Don't be too sure of
+    yourself![pause][\x0203]Good tamers always
+    fight with everything
+    they've got![pause]
+  - |-
+    [\x0207]Renamon[\x0207]Digimon and their
+    tamer saved the
+    world.[pause][\x0203]There's no better
+    news than that![pause]
+  - |-
+    [\x0207]Renamon[\x0207]The A.o.A's Chief
+    Officer was caught.[pause][\x0203]That means a more
+    powerful enemy is
+    still out there.[pause]
+  - '43'
+  - "[\\x0207]Guilmon[\\x0207]Genbu Leader is \nthe one above \nhere![pause][\\x0203]He's the best of \nall the City \nLeaders![pause]"
+  - "[\\x0207]Guilmon[\\x0207]I know that you\ndefeated the A.o.A![pause][\\x0203]You're probably the \nstrongest of all the\ntamers.[pause]"
+  - "[\\x0207]Guilmon[\\x0207]Leader turned \ninto a weird \nDigimon.[pause][\\x0203]Hey, why? Why \ndid he?![pause]"
+  - '43'
+  - "[\\x0207]Guilmon[\\x0207]8lue Card????\n.....?![pause][\\x0203]Oh! It's a fake \nthat Trickster \nGuilmon made.[pause][\\x0203]He just ran out \nof here.[pause][\\x0203]He's probably \nhiding somewhere.[pause][\\x0203]Ask my friend, \nhe might know.[pause]"
+  - |-
+    [\x0207]Guilmon[\x0207]Umm...he likes it
+    underground, so...[pause][\x0203]He's probably hiding
+    in a place like a
+    basement with ghosts...[pause]
+  - |-
+    [\x0207]Tricky Guilmon[\x0207]Why don't you
+    go register your
+    account?[pause][\x0203]....heh heh[pause]
+  - "[\\x0207]Guilmon[\\x0207]You got the \nBlue Card!\nThat's great![pause]"
+  - |-
+    [\x0207]Keith[\x0207]Hey kid! Look, we
+    got Byakko City
+    back![pause][\x0203]With Lisa's plan and
+    my skills, this was a
+    piece of cake![pause]
+  - "[\\x0207]Nick[\\x0207]...oh, it's you.\nWhat do you want?[pause][\\x0203]I'm busy, so leave me \nalone...[pause]"
+  - |-
+    [\x0207]Nick[\x0207]Hey [\x020801][\x020501].
+    You're here about the
+    earthquake as well?[pause][\x0203]There doesn't seem
+    to be any major damage.[pause][\x0203]But an earthquake in
+    the Digital World...?
+    That's weird...[pause]
+  - |-
+    [\x0207]General[\x0207]...Hmm?!
+    Who are you?[pause]
+  - "[\\x0207]Trooper[\\x0207]A.o.A is forever!\nDon't think you've\nwon![pause][\\x0203]We'll win in the \nend...I hope.[pause]"
+  - |-
+    [\x0207]Trooper[\x0207]...there was a hole
+    here?!
+    OH NOOOOOOO![pause]
+  - "[\\x0207]Divermon[\\x0207]Hmm? You don't \nhave a Card \nFolder?[pause][\\x0203]Go get one at \nAsuka City's Yellow \nCruiser.[pause]"
+  - "[\\x0207]Agumon[\\x0207]...Baronmon?!\nHe isn't here.[pause][\\x0203]He likes forests and \nruins, so maybe he's \nthere![pause]"
+  - "[\\x0207]Repeating Tom[\\x0207]Use the gondola at \nEast Station to get to \nSouth Sector.[pause][\\x0203]That gondola is pretty\nfast, so it's kinda \nscary.[pause]"

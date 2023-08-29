@@ -1,0 +1,45 @@
+type: simple
+strings:
+  - ''
+  - Habe keine [\x020501].
+  - BIT
+  - KAUFEN
+  - VERKAUFEN
+  - '[triangle]: Zurück'
+  - Ausr.
+  - Item
+  - X
+  - Ausgerüstet
+  - '[circle]: Effekte'
+  - '[circle]: Details'
+  - '[arrow-right]'
+  - Items sort.
+  - Nach Stärke
+  - Nach Name
+  - Wen ausrüsten?
+  - Wie viele?
+  - '[\x020501] BIT'
+  - Buy
+  - Nein
+  - Ausr.?
+  - Ja
+  - Nein
+  - /
+  - L1
+  - R1
+  - Nicht gen. BIT
+  - Zu viele Items
+  - Items
+  - Waffen
+  - Rüstung
+  - Zubehör
+  - Wie viele?
+  - Sell
+  - Re. Hand
+  - Linke Hand
+  - Re. oder li.
+  - Kopf
+  - Kör.
+  - Zubehör
+  - Beide Hän.
+  - Zubehör

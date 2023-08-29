@@ -1,0 +1,70 @@
+type: simple
+strings:
+  - ''
+  - Introduce nombre
+  - |-
+    AAAAA
+    AAAAA
+    AAAAA
+    AAAAA
+    AAAAA
+    AAAAA
+    AAAAA
+  - |-
+    AAAAA
+    AAAAA
+    AAAAA
+    AAAAA
+    AAAAA
+    AAAAA
+    AAAAA
+  - |-
+    AAAAA
+    AAAAA
+    AAAAA
+  - |-
+    AAAAA
+    AAAAA
+    AAAAA
+    AAAAA
+    AAAAA
+    AAAAA
+    AAAAA
+  - |-
+    AAAAA
+    AAAAA
+    AAAAA
+    AAAAA
+    AAAAA
+    AAAAA
+    AAAAA
+  - |-
+    AAAAA
+    AAAAA
+    AAAAA
+  - |-
+    ABCDE
+    FGHIJ
+    KLMNO
+    PQRST
+    UVWXY
+    Z
+  - |-
+    abcde
+    fghij
+    klmno
+    pqrst
+    uvwxy
+    z
+  - |-
+    01234
+    56789
+    [-4]~・?!
+  - Junior
+  - a
+  - '[arrow-left]'
+  - '[arrow-right]'
+  - a
+  - L1
+  - R1
+  - Nombre no permitido

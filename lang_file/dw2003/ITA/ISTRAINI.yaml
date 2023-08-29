@@ -1,0 +1,160 @@
+type: simple
+strings:
+  - ''
+  - LV
+  - PF
+  - PM
+  - PA
+  - 'Tasto [triangle]: fine addestr.'
+  - Che Digimon addestri?
+  - Che addestramento?
+  - Scegli numero di PA.
+  - Va bene?
+  - Sì
+  - No
+  - Sfida
+  - Uguale
+  - 1 PA
+  - 5 PA
+  - 10PA
+  - Ultra add. possibile!
+  - PA insuff.
+  - Pugno
+  - Difesa
+  - Yoga
+  - Studio
+  - Salto con corda
+  - Super pugno
+  - Super difesa
+  - Super yoga
+  - Super studio
+  - S salto corda
+  - Resistenza caldo
+  - Resistenza acqua
+  - Resist. ghiaccio
+  - Resistenza vento
+  - Difesa dal tuono
+  - Difesa missili
+  - Esorcismo
+  - S resist. caldo
+  - S resist. acqua
+  - S res. ghiaccio
+  - S resist. vento
+  - S difesa tuono
+  - S difesa missili
+  - Super esorcismo
+  - Aumenta la forza del Digimon.
+  - Migliora la difesa del Digimon.
+  - Potenzia lo spirito del Digimon.
+  - Aumenta saggezza del Digimon.
+  - Aumenta velocità del Digimon.
+  - Super addestramento forza!
+  - Super addestramento difesa!
+  - Super addestramento spirito!
+  - Super addestramento saggezza!
+  - Super addestramento velocità!
+  - Aumenta resistenza al fuoco.
+  - Aumenta resistenza all'acqua.
+  - Aumenta resistenza al ghiaccio.
+  - Aumenta resistenza al vento.
+  - Aumenta resistenza al tuono.
+  - Aumenta resist. alle macchine.
+  - Aumenta resist. alle tenebre.
+  - Grande resistenza al fuoco!
+  - Grande resistenza all'acqua!
+  - Grande resistenza al ghiaccio!
+  - Grande resistenza al vento!
+  - Grande resistenza al tuono!
+  - Grande resistenza alle macchine!
+  - Grande resistenza alle tenebre!
+  - /
+  - L1
+  - R1
+  - Fallito!
+  - Forza
+  - Difesa
+  - Spirito
+  - Sagg.
+  - Veloc.
+  - Fuoco
+  - Acqua
+  - Ghiaccio
+  - Vento
+  - Tuono
+  - Macch.
+  - Tenebre
+  - PF max
+  - PM max
+  - Difesa fuoco
+  - Difesa acqua
+  - Difesa ghiaccio
+  - Difesa vento
+  - Difesa tuono
+  - Difesa macchine
+  - Difesa tenebre
+  - '[\x020501] +[\x020502]'
+  - '[\x020501] [-4][\x020502]'
+  - |-
+    Risultato:
+    La forza aumenta di [\x020501]![pause]
+  - |-
+    Risultato:
+    La difesa aumenta di [\x020501]![pause]
+  - |-
+    Risultato:
+    Lo spirito aumenta di [\x020501]![pause]
+  - |-
+    Risultato:
+    Saggezza aumenta di [\x020501]![pause]
+  - |-
+    Risultato:
+    La velocità aumenta di [\x020501]![pause]
+  - |-
+    Risultato:
+    Dif. fuoco aumenta di [\x020501]![pause]
+  - |-
+    Risultato:
+    Dif. acqua aumenta di [\x020501]![pause]
+  - |-
+    Risultato:
+    Dif. ghiac. aumenta di [\x020501]![pause]
+  - |-
+    Risultato:
+    Dif. vento aumenta di [\x020501]![pause]
+  - |-
+    Risultato:
+    Dif. tuono aumenta di [\x020501]![pause]
+  - |-
+    Risultato:
+    Dif. macchine aumenta di [\x020501]![pause]
+  - |-
+    Risultato:
+    Dif. tenebre aumenta di [\x020501]![pause]
+  - |-
+    Ris.:Dif. fuoco aum. di [\x020501]!
+    I PM max aumentano di [\x020502]![pause]
+  - |-
+    Ris.:Dif. acqua aum. di [\x020501]!
+    La difesa si riduce di [\x020502]![pause]
+  - |-
+    Ris:Dif. ghiaccio aum. di [\x020501]
+    La velocità si riduce di [\x020502]![pause]
+  - |-
+    Ris.:Dif. vento aum. di [\x020501]!
+    La forza si riduce di [\x020502]![pause]
+  - |-
+    Ris.:Dif. tuono aum. di [\x020501]!
+    La saggezza si riduce di [\x020502]![pause]
+  - |-
+    Ris:Dif. macch. aum. di [\x020501]
+    I PF max aumentano di [\x020502]![pause]
+  - |-
+    Ris:Dif. tenebre aum. di [\x020501]
+    Lo spirito si riduce di [\x020502]![pause]
+  - |-
+    Risultato:
+    Nessun miglioramento.[pause]
+  - '[-4][-4][-4][-4][-4]'
+  - '[-4][-4]'
+  - '[-4][-4][-4][-4]'
+  - '[-4][-4][-4]'

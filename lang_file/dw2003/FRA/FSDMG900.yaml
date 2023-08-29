@@ -1,0 +1,177 @@
+type: extended
+files:
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Hein ?!\nIvy et Teddy\nne sont pas là.[pause][\\x0203]Pff ! Ils ont \ndû partir  \ndevant.[pause]"
+      - "[\\x0207]Guide[\\x0207]M. [\\x020801][\\x020501] ?\nBienvenue sur\nDigimon Online ![pause][\\x0203]Aujourd'hui : entraî[-4]\nnement afin de pré[-4]\nparer votre départ.[pause][\\x0203]Vous devez rester\ndans les secteurs Est \net Centre d'Amaterasu.[pause][\\x0203]Toutefois, il y a\nplus d'espace Circuit\nImprimé et Fonds marins.[pause][\\x0203]Les digidonnées \ns'utilisent comme \npar le passé.[pause][\\x0203]Les techniques et les \ndigivolutions sont \négalement identiques.[pause][\\x0203]Je vérifierais bien \nles données, \njuste au cas où.[pause][\\x0203]Avant de sortir,\nveillez à sauvegarder\navec Guardromon.[pause]"
+      - '[\x0207][\x020902]3D''accord ![pause]'
+      - |-
+        [\x0207][\x020902]3D'accord !
+        On va bien
+        s'amuser ![pause]
+  - strings:
+      - ''
+      - Digivolution Kotemon
+      - Digivolution Monmon
+      - Digivolution Kumamon
+      - Digivolution Renamon
+      - Digivolution Patamon
+      - Digivolution Agumon
+      - Digivolution Guilmon
+      - Retour
+      - "Apprends les types Greymon et Veemon.\nIl faut apprendre Stingmon pour \ndépasser ExVeemon. [pause][\\x0203]Si tu améliores Greymon et sa Défense \nTénèbres, il apprendra SkullGreymon. \nEnsuite, je ne sais pas.[pause][\\x0203]Si tu fais progresser Kyukimon et \nconstruis sa défense Machine, il \napprendra MetalMamemon. Puis, il  [pause][\\x0203]pourra se connecter à des \ndigivolutions Machine.[pause]"
+      - "Apprends d'abord ExVeemon. Une \nfois Armormon appris il apprendra\nles types Machine, Angemon, etc. .[pause][\\x0203]Il apprendra les types Machine\nen créant sa Défense Machine,[pause][\\x0203]et les types Angemon en\nconstruisant sa Défense Vent. [pause][\\x0203]Si tu fais progresser Armormon et \naméliores sa Force, il apprendra \nDigitamamon, [pause][\\x0203]ce qui l'associera à de mysté[-4]\nrieuses digivolutions de techniques.[pause]"
+      - "Si tu améliores Grizzmon \net renforces son Esprit, il apprendra\nKyubimon. Il pourra ensuite se [pause][\\x0203]connecter à Taomon et autres. Si tu \nfais progresser Grizzmon et renforces\nsa Sagesse, il apprendra Digitamon,[pause][\\x0203]ce qui l'associera à de mystérieuses\ndigivolutions de technniques. Si tu\naméliores GrapLeomon et[pause][\\x0203]sa Défense Machine, il pourra se \nconnecter à de mystérieuses\ndigivolutions de type Machine.[pause]"
+      - "Si tu fais progresser Kyubimon et \naméliores sa Force, elle apprendra\nStingmon. Puis elle se connectera [pause][\\x0203]aux Insectoïdes comme Kabuterimon. \nSi tu améliores Kyubimon et renforces \nson Esprit, elle apprendra Angewomon[pause][\\x0203]ce qui l'associera à Rosemon et d'au[-4]\ntres Récupérations. Si tu améliores\nTaomon et sa Défense Vent, [pause][\\x0203]il apprendra ExVeemon. Si tu\nrenforces sa Défense Machine, il \napprendra MetalMamemon.[pause]"
+      - "Si tu fais progresser Angemon et a[-4]\nméliores sa force ou si tu améliores\nDigitamamon et sa Sagesse,[pause][\\x0203]ils apprendront Angewomon.\nSi tu fais progresser Angewomon,\nelle apprendra Rosemon. Si tu[pause][\\x0203]renforces Rosemon, elle apprendra \nHououmon. Si tu améliores Holy \nAngewomon et sa Défense Foudre, [pause][\\x0203]elle apprendra Stingmon, et Greymon \nsi tu renforces sa Défense Feu.[pause]"
+      - "Apprends Growlmon dès le début.\nIl apprendra les types de Growlmon \npour progresser. Si tu renforces[pause][\\x0203]sa Défense Ténèbres, il \napprendra SkullGreymon. Quelque\nchose de spécial arrivera si tu le[pause][\\x0203]renforces au maximum. Si tu améliores\nMetal Greymon et son Esprit, il\napprendra Kyubimon.[pause]"
+      - "Si tu renforces d'abord sa Défense\nil apprendra Metalmon. Puis, il se\nliera à des types de Metal. Si tu  [pause][\\x0203]fais progresser Growlmon et \nrenforces sa Défense Foudre, il \napprendra Stingmon et se liera aux [pause][\\x0203]Insectoïdes. Il apprendra plusieurs\ndigivolutions à partir de \nMegagroumon en renforçant ses [pause][\\x0203]Défenses Esprit, Ténèbres et\nEau.[pause]"
+  - strings:
+      - ''
+      - D'mon absent du jeu
+      - Dresse bien
+      - Techniques
+      - Limites Croissance
+      - Bats[-4]toi bien
+      - Sois sage
+      - Utilise Guilmons
+      - Retour
+      - "Tu peux devenir partenaire de \nVeemon, qui n'est dans aucun jeu.\nEssaie de deviner comment.[pause][\\x0203]Veemon apprend ExVeemon, Stingmon\net Paildramon, puis plusieurs types \nde digivolution. Par exemple, quand [pause][\\x0203]tu fais progresser Paildramon \net renforces sa Défense Machine,\nil apprend Metalmamemon. Il apprend[pause][\\x0203]Devimon si tu renforces sa\nDéfense Ténèbres.[pause]"
+      - "Les partenaires + faibles gagneront \nfacilement des EXP s'ils entrent dans \nle combat au début et en sortent[pause][\\x0203]peu après. Si 2 partenaires entrent \ndans 1 même combat, ils gagnent vite\ndes niveaux. Les Digimons apprennent[pause][\\x0203]d'autres digivolutions et techniques \nen gagnant des niveaux ou si leurs \naptitudes atteint un multiple de 5.[pause]"
+      - "Tout partenaire peut acquérir 14\ntypes de digivolution selon la forma[-4]\ntion reçue. Les digivolutions du même[pause][\\x0203]type figurent dans les lignes du\nTableau de digivolution. Le Dig \napprend d'autres digivolutions [pause][\\x0203]de même type au fur et à mesure \nque ses aptitudes augmentent.[pause][\\x0203]Il peut aussi apprendre de nou[-4]\nvelles digivolutions en gagnant des[pause][\\x0203]niveaux. Pour acquérir certaines digi[-4]\nvolutions, il est impératif d'avoir de \nnombreuses autres digivolutions.[pause]"
+      - "Les limites de Niveau et d'Apti[-4]\ntude sont fixées à 99. La limite de \nParamètre est de 999. Quand un Dig[pause][\\x0203]a atteint la limite de Niv., il peut \naugmenter ses paramètres avec\nun Chip. Des Chips Entraînement [pause][\\x0203]augmenteraient les PE, mais ils ne \nse vendent pas. Essaie la pêche et\nles shoots dans les arbres.[pause]"
+      - "Utilise les objets enfichables. Même \nsi tu n'as pas appris de tech. de \nsoutien, les objets peuvent t'aider[pause][\\x0203]au combat. Les digivolutions Puis[-4]\nsance dépendent du partenaire et \nde son niveau. Quand la jauge se [pause][\\x0203]remplit, attends pour l'utiliser. Loin \ndes hôtels, vérifie ton niveau de PM. [pause][\\x0203]Si tu choisis la retraite, tu ne dois\nt'occuper de rien d'autre ![pause]"
+      - "Même si tes Dig. n'ont pas la même \nformation, tu gagneras facilement des \nEXP en cherchant des ennemis faibles. [pause][\\x0203]Utilise les attaques magiques\ncontre les ennemis physiquement \nforts et vice versa. Certains ennemis [pause][\\x0203]préfèrent des attaques ou attributs\nprécis. Trouve leurs faiblesses et \ncrée un modèle.[pause]"
+      - "Growlmon et les autres digivolutions\nde type Guilmon apprennent des tech. \ninhabituelles comme Vol ou Contre.[pause][\\x0203]Les ennemis possèdent parfois des\nobjets non vendus en magasin. On les \nobtient facilement avec la tech. Vol.[pause][\\x0203]La force des Contre[-4]attaques dépend \ndu niveau des dégâts subis. Donc, \nessaie d'avoir exprès des dégâts.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Accueil Arène[\x0207][\x020801][\x020501], tu as
+        vaincu les 4
+        chefs ![pause][\x0203]Rends[-4]toi
+        à l'Arène ![pause]
+      - "[\\x0207][\\x020902]3Euh... Contre qui \nje me bats ?[pause]"
+      - "[\\x0207]Accueil Arène[\\x0207]Hé hé hé !\nAttends de \nvoir ![pause][\\x0203]Allez. Ton\nadversaire\nt'attend ![pause]"
+      - |-
+        [\x0207][\x020902]3Bien ! Le
+        plus fort des
+        dresseurs ![pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Alors,\nvoilà l'Arène.[pause][\\x0203]Je me demande où\nest mon adversaire ? \nJe suis prêt ![pause]"
+      - |-
+        [\x0207]Kurt[\x0207]Hé !
+        [\x020801][\x020501] ![pause][\x0203]Je savais que
+        tu viendrais ![pause]
+      - "[\\x0207][\\x020902]3Eh ?\nKurt ? Ne me[pause][\\x0203]dis pas que tu  \nes le plus fort \ndes dresseurs ![pause]"
+      - |-
+        [\x0207]Kurt[\x0207]Et si !
+        Ravi de te retrouver
+        ici. J'ai toujours[pause][\x0203]voulu t'affronter
+        dans les règles ![pause]
+      - |-
+        [\x0207][\x020902]3Moi aussi ! Il n'y
+        a pas de meilleur
+        adversaire que toi ![pause]
+      - |-
+        [\x0207]Kurt[\x0207]Ha ha ! Je vais
+        m'amuser ![pause][\x0203]C'est parti !
+        Ne te retiens
+        pas ![pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Ouais !\nJ'ai battu \nKurt ![pause]"
+      - "[\\x0207]Kurt[\\x0207]Félicitations [\\x020801][\\x020501]\nTu m'a vaincu\nà la régulière ![pause][\\x0203]Maintenant, c'est \ntoi le plus fort\ndresseur ![pause]"
+      - '[\x0207][\x020902]3Merci ![pause]'
+      - "[\\x0207]Kurt[\\x0207]Bientôt Digimon Online \nsera réparé. En tant \nque 1er champion du[pause][\\x0203]Monde, tu affronteras\nceux qui viendront  te\ndéfier du monde entier.[pause]"
+      - "[\\x0207][\\x020902]3Moi ?\n1er champion\ndu Monde ?[pause][\\x0203]Eh bien, \nje ferai de\nmon mieux ![pause]"
+      - "[\\x0207]Kurt[\\x0207]Je compte sur toi !\nMais tu as encore \nle temps. D'ici là,[pause][\\x0203]continue de \nte battre et de \nt'améliorer ![pause]"
+      - "[\\x0207][\\x020902]3T'en fais pas. \nJe serai le \nplus grand [pause][\\x0203]champion de\nl'Histoire ![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]Je vais arriver
+        au Lecteur
+        Matrix.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]M. Wedge[\x0207]Dans ce cas,
+        viens par là. J'ai
+        de beaux objets ![pause]
+  - strings:
+      - ''
+      - Combats de cartes
+      - Flux Combat de cartes
+      - Phases 1
+      - Phases 2
+      - Phases 3
+      - Phases 4
+      - Phases 5
+      - Retour
+      - "En plus des batailles Digimon, \nles dresseurs peuvent disputer\ndes Combats de cartes.[pause][\\x0203]Pour cela, ils doivent réunir 314\ntypes de cartes et créer leurs\ndispositions personnelles.[pause]"
+      - "Choisis un dossier qui te \nservira de jeu pour le combat. La \nbataille peut alors commencer. Un[pause][\\x0203]Combat de cartes est un match \nen 3 manches. Le premier qui rem[-4]\nporte 2 manches gagne un jeu booster.[pause][\\x0203]Chaque partie comprend 6 phases. \nPour plus de détails, lire les explica[-4]\ntions dans la section \"Phases.\"[pause]"
+      - "Phase Initiale\nElle décide l'ordre du jeu. Celui\nqui tire Calumon commence.[pause][\\x0203]Phase de tirage\n6 cartes sont d'abord tirées dans \nle jeu. Elles constituent la main.[pause][\\x0203]Ici se forme l'Energie[-4]D de la cou[-4]\nleur de la carte tirée . Elle est \nutilisée en Phase d'appel.[pause]"
+      - "Phase de chargement\nLes dresseurs utilisent tour à tour\nles CP pour se préparer à appeler.[pause][\\x0203]Cette phase se termine quand tout\nle monde passe. Il arrive que des \ncartes CP inutilisables sortent.[pause]"
+      - "Phase d'appel\nLà, les dresseurs choisissent des \ncartes Digimon et appellent les[pause][\\x0203]Digimons. Jusqu'à 6 Digimons\npeuvent être appelés sur le [pause][\\x0203]champ. L'Energie[-4]D permet \nd'appeler les Digimons \nChampions ou encore meilleurs.[pause]"
+      - "Phase de compilation\nLes joueurs jouent à tour \nde rôle les cartes CP pour[pause][\\x0203]diverses actions. La phase\ns'achève quand tous passent. \nIl faut jouer toutes les CP.[pause]"
+      - "Phase Combat\nDans cette phase, les Digimons\nse battent entre eux pour gagner.[pause][\\x0203]La victoire repose sur le total\nPA et PV de chaque Digimon. Celui \ndont le total PV atteint 0 a perdu.[pause]"
+  - strings:
+      - ''
+      - Créer Dossier
+      - Digicartes
+      - Carte Programme
+      - Couleurs carte
+      - Energie[-4]D
+      - Combos
+      - Jeu booster
+      - Retour
+      - |-
+        Tu dois créer un dossier de 40
+        cartes avant de participer à un
+        Combat de cartes.[pause][\x0203]Tu peux placer jusqu'à 4 cartes
+        identiques dans un même dossier.[pause]
+      - "Les cartes Digimon appellent les \nDigimons. Les PA et PV sont \nindiqués sur les cartes. PA [pause][\\x0203]signifie Pouvoir d'Attaque et PV \nPoints de Vie. Les Dig. vont à  \nla corbeille quand leur PV est [pause][\\x0203]à 0. Par exemple, 5/3 signifie\n5 PA et 3 PV.[pause]"
+      - |-
+        Les cartes CP peuvent renforcer
+        tes Digimons ou obliger tes adv.
+        à jeter certaines cartes.[pause][\x0203]Chaque carte a une valeur d'effet.
+        Lis les cartes pour connaître
+        leur effet.[pause]
+      - "Les cartes sont de couleur blanche,\nbleue, verte, rouge, noire ou \nmarron.[pause][\\x0203]Quand tu tires une carte, l'Energie[-4]D \nde cette couleur de carte augmente.[pause][\\x0203]L'Energie[-4]D sert à appeler les Dig\nchampions ou encore plus forts.[pause]"
+      - "Utilise l'Energie[-4]D de même \ncouleur que la carte Digimon \npour appeler les Digimons. Les [pause][\\x0203]Dig. Champions coûtent 1 point, \nles Dig. Ultimes 2 points et les \nDig. Mégas 3 points. [pause][\\x0203]Les Digimons Disciples sont\nappelés sans Energie[-4]D.[pause]"
+      - "Si + de 3 cartes Digimon identiques\nsont sur ton champ durant la \nPhase Combat, un Combo apparaît. [pause][\\x0203]Le total des pts des cartes Combos\ns'ajoute à ton total. Avec + de 4\n cartes, tu gagnes un bonus.[pause]"
+      - "Si tu as des jeux boosters \nouverts dans les mag. de cartes, \ntu peux gagner des cartes. Les [pause][\\x0203]dresseurs obtiennent des boosters\npour leurs victoires. Certains les\nporteraient sur eux.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Dress. Haruka[\\x0207]Sois courageux \ndurant\nton voyage ![pause][\\x0203]Et remercie[-4]moi\nde ma\ngénérosité ![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Dresseuse Poemy[\\x0207]Allons, vaillant \nHéros ! Va vers \nton destin ![pause][\\x0203]Mes pensées\nt'accompagnent ![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Dresseur Pierre[\x0207]Soyez courageux
+        durant ce périple.
+        Il me tarde [pause][\x0203]d'assister à votre
+        duel contre le Roi.
+        Au Revoir ![pause]
+  - strings:
+      - ''
+      - "[\\x0207]Dresseur Bomujii[\\x0207]Alors tu pars.\nMaîtrise bien \ntes cartes ![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Dresseuse Alice[\x0207]Bien...Vas[-4]y...
+        alors. Le...
+        Roi...t'attend.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]Je vais arriver au
+        Lecteur Matrix.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]Je vais arriver au
+        Lecteur Matrix.[pause]

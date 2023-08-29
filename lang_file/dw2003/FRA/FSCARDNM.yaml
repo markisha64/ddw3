@@ -1,0 +1,319 @@
+type: simple
+strings:
+  - ''
+  - Lance Sacrée
+  - Appel Angemon
+  - Aura Or
+  - Aura Protectrice
+  - Pouvoir Blanc
+  - Appel Patamon
+  - Raz[-4]de[-4]marée
+  - Parties Contrôle
+  - Bogue du Gel
+  - Annuler Eclipse
+  - Pouvoir Bleu
+  - Appel Gomamon
+  - Exerce Aura
+  - Cycle Ecoly
+  - Force Verte
+  - Energie Bestiale
+  - Pouvoir Vert
+  - Appel Palmon
+  - Canon Volcanique
+  - Chaos Fulgurant
+  - Lance[-4]Flammes
+  - Canon de Feu
+  - Pouvoir Rouge
+  - Apl Goburimon
+  - Rafale
+  - Cape Trompeuse
+  - Virus Chaos
+  - Piratage Vicieux
+  - Pouvoir Noir
+  - Appel Devimon
+  - Supp. Matrix
+  - Porte Fortune
+  - Porte Misère
+  - Accès Désir
+  - Anti[-4]Pouvoir
+  - Charge Regain
+  - Balance Chrono
+  - Hall Sécurité
+  - Barrière Absolue
+  - Escalade
+  - S Métal Puiss.
+  - Borne Charge
+  - Charge Digimon
+  - Charge Programme
+  - Charge Echange
+  - Accès interdit
+  - Lanceur
+  - Roue Annulation
+  - Poussière Rousse
+  - Appel Hagurumon
+  - Retirer Blanc
+  - Retirer Bleu
+  - Retirer Vert
+  - Retirer Rouge
+  - Retirer Noir
+  - Annuler Appel
+  - Furinergie
+  - Perturbateur
+  - Armure Protect.
+  - Armure d'Assaut
+  - Imperialdramon[-4]P
+  - GuardiAngemon
+  - WarGreymon
+  - ImperialdramonII
+  - Seraphimon
+  - Magnadramon
+  - Valkrymon
+  - PrinceMamemon
+  - RosemonII
+  - PaildramonII
+  - MagnaAngemon
+  - Angewomon
+  - Kyukimon
+  - Panjyamon
+  - Silphymon
+  - Knightmon
+  - MetalMamemon
+  - Mamemon
+  - Piximon
+  - Dinohumon
+  - Angemon
+  - Stingmon
+  - Gatomon
+  - Piddomon
+  - Apemon
+  - Centarumon
+  - Snimon
+  - Thundermon
+  - Unimon
+  - ShimaUnimon
+  - Ankylomon
+  - Gururumon
+  - Tortomon
+  - Zassomon
+  - Yanmamon
+  - Kotemon
+  - Armadillomon
+  - Psychemon
+  - Elecmon
+  - Patamon
+  - Wormmon
+  - Kunemon
+  - Salamon
+  - Cannondramon
+  - Sakuyamon
+  - Vikemon
+  - MetalSeadramon
+  - Pukumon
+  - SuperStarmon
+  - Preciomon
+  - Babamon
+  - MarineAngemon
+  - Zudomon
+  - MegaSeadramon
+  - Taomon
+  - Armormon
+  - BlueMeramon
+  - ShogunGekomon
+  - Scorpiomon
+  - Brachiomon
+  - WaruSeadramon
+  - Divermon
+  - Whamon
+  - Seadramon
+  - Kyubimon
+  - Hookmon
+  - IceDevimon
+  - Shellmon
+  - Ikkakumon
+  - Frigimon
+  - Ebidramon
+  - Icemon
+  - Mojyamon
+  - Ninjamon
+  - Starmon
+  - Coelamon
+  - Dolphmon
+  - Gekomon
+  - Monmon
+  - Renamon
+  - Gomamon
+  - SnowAgumon
+  - Gizamon
+  - Otamamon
+  - Crabmon
+  - Syakomon
+  - Omnimon II
+  - Marsmon
+  - MetalGarurumon
+  - H[-4]Kabuterimon
+  - GranKuwagamon
+  - RosemonI
+  - KingEtemon
+  - MetalEtemon
+  - SaberLeomon
+  - MegaKabuterimon
+  - WereGarurumon
+  - GrapLeomon
+  - Okuwamon
+  - Lillymon
+  - Etemon
+  - Triceramon
+  - Cherrymon
+  - Blossomon
+  - Deramon
+  - Leomon
+  - Grizzmon
+  - Kabuterimon
+  - Garurumon
+  - Tuskmon
+  - Monochromon
+  - MoriShellmon
+  - Kuwagamon
+  - J[-4]Mojyamon
+  - Togemon
+  - Flymon
+  - Saberdramon
+  - Dokugumon
+  - Kiwimon
+  - Woodmon
+  - Vegiemon
+  - Kumamon
+  - Gabumon
+  - Tentomon
+  - Palmon
+  - Betamon
+  - Kokuwamon
+  - Floramon
+  - Mushroomon
+  - Omnimon I
+  - Gallantmon
+  - Imperialdramon[-4]F
+  - Imperialdramon I
+  - MegaGargomon
+  - Machinedramon
+  - Phoenixmon
+  - SkullMammothmon
+  - Gryphonmon
+  - Paildramon I
+  - MetalGreymon
+  - WarGrowlmon
+  - Garudamon
+  - Kimeramon
+  - MasterTyrannomon
+  - Gigadramon
+  - Megadramon
+  - MetalTyrannomon
+  - Mammothmon
+  - Greymon
+  - Growlmon
+  - ExVeemon
+  - Veedramon
+  - Airdramon
+  - Ogremon
+  - Minotarumon
+  - Fugamon
+  - Tyrannomon
+  - Aquilamon
+  - Meramon
+  - Birdramon
+  - Flarerizamon
+  - RedVegiemon
+  - Akatorimon
+  - SandYanmamon
+  - Agumon
+  - Veemon
+  - Guilmon
+  - Hawkmon
+  - Biyomon
+  - Goburimon
+  - Sharmamon
+  - Penguinmon
+  - Armageddemon
+  - VenomMyotismon
+  - Diaboromon
+  - MaloMyotismon
+  - Beelzemon
+  - Apokarimon
+  - Ghoulmon
+  - Piedmon
+  - Creepymon
+  - Myotismon
+  - Infermon
+  - Dragomon
+  - SkullSatamon
+  - SkullGreymon
+  - Mummymon
+  - Arukenimon
+  - LadyDevimon
+  - SkullMeramon
+  - WaruMonzaemon
+  - Devimon
+  - Kurisarimon
+  - Raremon
+  - MarineDevimon
+  - Musyamon
+  - Wizardmon
+  - DarkTyrannomon
+  - Devidramon
+  - Vilemon
+  - Hyogamon
+  - Darkrizamon
+  - Octomon
+  - Gesomon
+  - Soulmon
+  - Bakemon
+  - Roachmon
+  - DemiDevimon
+  - Gazimon
+  - Aruraumon
+  - Tsukaimon
+  - ModokiBetamon
+  - Tapirmon
+  - Candlemon
+  - Muchomon
+  - BK WarGreymon
+  - BK Imperialdramon
+  - BK MegaGargomon
+  - BK Seraphimon
+  - BK WarGrowlmon
+  - BK KingNumemon
+  - HiAndromon
+  - Boltmon
+  - Puppetmon
+  - Shakkoumon
+  - Andromon
+  - Giromon
+  - Datamon
+  - ExTyrannomon
+  - Monzaemon
+  - Digitamamon
+  - Vademon
+  - Garbagemon
+  - Meteormon
+  - Cyclonemon
+  - Rockmon
+  - Deltamon
+  - Guardromon
+  - Tankmon
+  - Clockmon
+  - MudFrigimon
+  - PlatinumSukamon
+  - BomberNanimon
+  - Drimogemon
+  - NiseDrimogemon
+  - Sukamon
+  - Geremon
+  - Kokatorimon
+  - Numemon
+  - ShellNumemon
+  - ClearAgumon
+  - ToyAgumon
+  - Gotsumon
+  - Hagurumon
+  - Calumon
+  - Impmon

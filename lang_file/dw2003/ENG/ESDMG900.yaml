@@ -1,0 +1,380 @@
+type: extended
+files:
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Huh?!
+        Ivy and Teddy
+        aren't here.[pause][\x0203]Hmph! Knowing them
+        they've gone on
+        ahead.[pause]
+      - |-
+        [\x0207]Tour Leader[\x0207]Mr. [\x020801][\x020501] is it?
+        Welcome,
+        to Digimon Online![pause][\x0203]We'll be practicing
+        today to prepare you
+        for your start.[pause][\x0203]You're restricted to
+        the East Sector and
+        Central Amaterasu.[pause][\x0203]However, there are
+        more Circuit Board
+        and Seabed areas.[pause][\x0203]Digimon data is being
+        used as it was
+        before.[pause][\x0203]Of course techniques
+        and digivolutions will
+        also stay the same.[pause][\x0203]However, I'd like to
+        perform a data check
+        just in case.[pause][\x0203]Before heading out,
+        be sure to save with
+        Guardromon.[pause]
+      - '[\x0207][\x020902]3Sure thing![pause]'
+      - |-
+        [\x0207][\x020902]3Alright!
+        This'll be
+        fun![pause]
+  - strings:
+      - ''
+      - Kotemon Digivolve
+      - Monmon Digivolve
+      - Kumamon Digivolve
+      - Renamon Digivolve
+      - Patamon Digivolve
+      - Agumon Digivolve
+      - Guilmon Digivolve
+      - Return
+      - "Learn Greymon and Veemon\ntypes. He must learn Stingmon to rise\nabove ExVeemon. When you raise[pause][\\x0203]Greymon's skill and build up his Dark\nDefense, he'll learn SkullGreymon. I\ncan't tell you what comes after that.[pause][\\x0203]When you raise Kyukimon's skill and\nbuild up his Machine Defense, he'll \nlearn MetalMamemon. Then he'll[pause][\\x0203]connect to Machine type digivolutions.[pause]"
+      - "Learn ExVeemon in the beginning..\nHe'll learn Machine, Angemon and\nother types after learning Armormon.[pause][\\x0203]When building his Machine Defense,\nhe'll learn Machine types. When\nbuilding his Wind Defense, he'll[pause][\\x0203]learn Angemon types. When you raise\nArmormon's skill and build up his\nStrength, he'll learn Digitamamon,[pause][\\x0203]linking him to mysterious \ntechnique digivolutions.[pause]"
+      - |-
+        When you raise Grizzmon's skill and
+        build up his Spirit, he'll learn
+        Kyubimon. Then he'll connect to[pause][\x0203]Taomon and others from there. When
+        you raise Grizzmon's skill and build
+        his Wisdom, he'll learn Digitamon,[pause][\x0203]linking him to mysterious technique
+        digivolutions. When you raise
+        GrapLeomon's skill and build up his[pause][\x0203]Machine Defense, he'll connect to
+        Machine type digivolutions.[pause]
+      - |-
+        When you raise Kyubimon's skill and
+        build her Strength, she'll learn
+        Stingmon. Then she'll connect to[pause][\x0203]Insectoids like Kabuterimon. When
+        you raise Kyubimon's skill and build
+        her Spirit, she'll learn Angewomon,[pause][\x0203]linking her to Rosemon and other
+        Recovery types. When you raise
+        Taomon's skill and build his Wind[pause][\x0203]Defense, he'll learn ExVeemon. If
+        you build his Machine Defense he'll
+        learn MetalMamemon.[pause]
+      - |-
+        When you raise Angemon's skill and
+        build up his Strength or when you
+        raise Digitamamon and build up his[pause][\x0203]Wisdom, they'll learn Angewomon.
+        When you raise Angewomon's skill,
+        she'll learn Rosemon. When you [pause][\x0203]raise Rosemon's skill she'll learn
+        Hououmon. When you raise Holy
+        Angewomon's skill, she'll learn[pause][\x0203]Stingmon if you build her Lightning
+        Defense, and Greymon if you
+        build up her Fire Defense.[pause]
+      - "Learn Growlmon in the beginning.\nHe'll learn Growlmon types in order as\nyou raise his skill. When you build[pause][\\x0203]his Dark Defense, he'll learn \nSkullGreymon. Something special\nhappens when you raise his skill to[pause][\\x0203]the max. When you raise Metal\nGreymon's skill and build up his Spirit\nhe'll learn Kyubimon.[pause]"
+      - |-
+        When you build up his Defense
+        in the beginning he'll learn
+        Metalmon. Then he'll link to Metal[pause][\x0203]types. When you raise Growlmon's
+        skill and build up his Lightning
+        Defense, he'll learn Stingmon[pause][\x0203]and link to Insectoids. He'll
+        learn various digivolutions from
+        Megagroumon by building up his[pause][\x0203]Spirit, Dark Defense and Water
+        Defense.[pause]
+  - strings:
+      - ''
+      - D'mon not in pack
+      - Raise efficiently
+      - Techniques
+      - Growth limits
+      - Fight well
+      - Be wise
+      - Use Guilmons
+      - Return
+      - |-
+        You can become partners with
+        Veemon, who isn't in any pack.
+        Try to find out how by yourself.[pause][\x0203]Veemon learns ExVeemon, Stingmon
+        and Paildramon, after which he
+        learns many digivolution types. For[pause][\x0203]example when you raise Paildramon's
+        skill and build his Machine Defense
+        he learns Metalmamemon. He learns[pause][\x0203]Devimon if you build his Dark
+        Defense.[pause]
+      - |-
+        Low[-4]level partners can safely gain
+        EXP points by entering into battle at
+        the beginning, then changing out[pause][\x0203]soon afterwards. Levels can be
+        efficiently gained by entering two
+        partners into a single battle. [pause][\x0203]Digimons learn new digivolutions and
+        techniques when they gain levels or
+        their skills reach a multiple of 5.[pause]
+      - |-
+        Any partner is capable of acquiring all
+        14 digivolution types depending on
+        how it is raised. Digivolutions of the[pause][\x0203]same type are listed in rows across
+        the digivolution Chart. As the
+        Digimon's skill level is increased, it[pause][\x0203]learns new digivolutions of the same
+        type. New digivolutions can also be
+        learned by gaining levels. Some[pause][\x0203]digivolutions cannot be acquired without
+        learning multiple other digivolutions.[pause]
+      - |-
+        Level and Skill limits are set at
+        99. The Parameter limit is 999.
+        Even if a Digimon reaches the Level[pause][\x0203]limit it can still raise its Parameters
+        by using a chip. Rumor has it there
+        are Train chips that increase TP,[pause][\x0203]but they aren't sold at shops.
+        Try fishing and Kicking trees.[pause]
+      - "Be sure to use Plug[-4]in items. Even\nif you have not learned any support\ntechniques, items can help you in[pause][\\x0203]battle. Blast digivolutions are\ndecided based on your partner and\nhis level. When the gauge builds up[pause][\\x0203]wait for your chance to use it. \nWhen away from hotels, watch your\nMP level. If you decide to retreat, [pause][\\x0203]don't worry about anything \nelse![pause]"
+      - |-
+        Even if you raise your Digimons
+        unevenly, you can earn EXP points
+        efficiently by finding and choosing[pause][\x0203]enemies weak in certain areas. Use
+        Magical attacks against enemies strong
+        in Physical attacks, and vice versa.[pause][\x0203]Some enemies are prone to certain
+        attributes and attacks. Discover their
+        weaknesses and create a pattern.[pause]
+      - |-
+        Growlmon and other Guilmon[-4]type
+        digivolutions learn unusual techniques
+        such as Steal and Counter.[pause][\x0203]Sometimes enemies possess items not
+        sold in shops. These are easy to obtain
+        using the Steal technique.[pause][\x0203]The strength of Counterattacks depends
+        on the amount of damage received. Try
+        to take damage on purpose.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Arena Reception[\x0207][\x020801][\x020501], you
+        defeated all four
+        leaders![pause][\x0203]Please, proceed to
+        the Arena![pause]
+      - |-
+        [\x0207][\x020902]3Uh... who exactly
+        do I fight now?[pause]
+      - |-
+        [\x0207]Arena Reception[\x0207]Heh heh heh!
+        You'll just have to
+        wait and see![pause][\x0203]Go on. Your
+        opponent is already
+        waiting![pause]
+      - |-
+        [\x0207][\x020902]3Alright! The
+        strongest
+        tamer![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3So,
+        this is the Arena.[pause][\x0203]I wonder which guy's
+        my opponent? I'm
+        ready![pause]
+      - |-
+        [\x0207]Kurt[\x0207]Hey!
+        [\x020801][\x020501]![pause][\x0203]I knew you'd
+        go all the way![pause]
+      - |-
+        [\x0207][\x020902]3Huh?
+        Kurt?[pause][\x0203]Don't tell me
+        you're the
+        strongest tamer![pause]
+      - |-
+        [\x0207]Kurt[\x0207]That's right!
+        I'm glad to be facing
+        you here. I've always[pause][\x0203]wanted to fight you
+        all[-4]out![pause]
+      - |-
+        [\x0207][\x020902]3I've felt the same!
+        There's no worthier
+        opponent than you![pause]
+      - |-
+        [\x0207]Kurt[\x0207]Ha ha! I'm going
+        to enjoy this![pause][\x0203]Let the fun
+        begin! Don't hold
+        back![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3I did it!
+        I beat Kurt![pause]
+      - |-
+        [\x0207]Kurt[\x0207]Congratulations,
+        [\x020801][\x020501]! You beat
+        me fair and square![pause][\x0203]Now you're the new
+        strongest tamer![pause]
+      - '[\x0207][\x020902]3Thank you![pause]'
+      - |-
+        [\x0207]Kurt[\x0207]Soon Digimon Online will
+        be restored. As the
+        first World Champ, you[pause][\x0203]should take on all the
+        challengers that'll come
+        from around the world.[pause]
+      - |-
+        [\x0207][\x020902]3Me?
+        The first World
+        Champ?[pause][\x0203]Well, I'll
+        try to do my
+        best![pause]
+      - |-
+        [\x0207]Kurt[\x0207]I'll be counting on
+        you! You still have
+        some time though.[pause][\x0203]Until then, fight
+        more and get even
+        stronger![pause]
+      - |-
+        [\x0207][\x020902]3Don't worry.
+        I'm going to be
+        the strongest[pause][\x0203]World Champ
+        ever![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]I will now access the
+        Matrix Drive.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Mr. Wedge[\x0207]If that's the case,
+        come this way. I've
+        some fine items![pause]
+  - strings:
+      - ''
+      - Card Battles
+      - Card Battle Flow
+      - Phases 1
+      - Phases 2
+      - Phases 3
+      - Phases 4
+      - Phases 5
+      - Return
+      - |-
+        In addition to Digimon battles, tamers
+        can compete in card battles.[pause][\x0203]To do so, they must collect 314
+        types of cards and create their
+        personal arrangements.[pause]
+      - |-
+        Choose a Folder to use as a deck
+        before the card battle. Once a Folder
+        is chosen, the battle will start.[pause][\x0203]One card battle is comprised of 3 set
+        matches. The first tamer to take 2
+        sets wins and receives a booster pack.[pause][\x0203]Each set is split into 6 phases. For
+        more information read the explanations
+        provided in "Phases."[pause]
+      - |-
+        Initial Phase
+        Decide the order of play. The one
+        who draws Calumon goes first.[pause][\x0203]Draw Phase
+        Draw an initial 6 cards from the
+        deck to use as your hand.[pause][\x0203]Here, D[-4]Energy the same color as
+        the card drawn is formed. This will
+        be used in the Summon Phase.[pause]
+      - |-
+        Load Phase
+        Tamers take turns using PG Cards
+        to prepare to summon Digimons.[pause][\x0203]This phase ends when passes
+        continue. Sometimes unusable PG
+        cards appear here.[pause]
+      - |-
+        Summon Phase
+        In this phase tamers select Digimon
+        cards and summon the Digimons.[pause][\x0203]Up to 6 Digimons can be summoned
+        to the field. D[-4]Energy is required
+        to summon Champion Digimons or[pause][\x0203]greater.[pause]
+      - |-
+        Compile Phase
+        In this phase, tamers take
+        turns using their PG cards for[pause][\x0203]various actions. The phase
+        ends when passes continue. All
+        PG cards may be used.[pause]
+      - "Battle Phase\nIn this phase, Digimons fight with\neach other for victory.[pause][\\x0203]Victory is decided by each Digimon's \ntotal AP and HP points. The one\nwhose total HP reaches 0 loses.[pause]"
+  - strings:
+      - ''
+      - Create Folder
+      - Digi Cards
+      - Program Card
+      - Card Colors
+      - D[-4]Energy
+      - Combos
+      - booster pack
+      - Return
+      - |-
+        You must create a 40[-4]card Folder
+        before you can participate in a card
+        battle.[pause][\x0203]You can place up to four identical
+        cards in a single Folder.[pause]
+      - |-
+        Digimon Cards summon Digimons.
+        AP and HP points are printed on
+        the cards. AP is Attack Power[pause][\x0203]and HP is Hit Points.
+        Digimons are sent to the Trash
+        Can when their HP reaches 0.[pause][\x0203]For example, if 5/3 is shown,
+        the AP is 5 and the HP is 3.[pause]
+      - |-
+        PG cards can strengthen your
+        Digimons or make your opponents
+        discard cards in their hands.[pause][\x0203]Each card has an effect value.
+        Read the cards to see what they
+        can do.[pause]
+      - |-
+        Cards are colored white, blue,
+        green, red, black or brown.[pause][\x0203]When you draw a card, D[-4]Energy of
+        that card's color increases.[pause][\x0203]D[-4]Energy is used to summon Champion
+        Digimons or greater.[pause]
+      - |-
+        Use the same color D[-4]Energy as
+        the Digimon card to summon the
+        Digimon. Champion Digimons cost 1[pause][\x0203]point, Ultimate Digimons cost 2 and
+        Mega Digimons cost 3 points.[pause][\x0203]Rookie Digimons can be summoned
+        without using D[-4]Energy.[pause]
+      - |-
+        If 3+ identical Digimon cards are in
+        your field during the Battle Phase,
+        a Combo appears. The total points[pause][\x0203]of the Combo cards are added to
+        your total points. If there are 4+
+        cards, you receive a bonus.[pause]
+      - |-
+        When you get booster packs and
+        have them opened at card shops,
+        you can receive cards. Tamers get[pause][\x0203]boosters when they win. Rumor has
+        it some Digimon also carry them.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Tamer Haruka[\x0207]Well then.
+        Be brave on
+        your journey![pause][\x0203]And be grateful
+        for my
+        generosity![pause]
+  - strings:
+      - ''
+      - "[\\x0207]Tamer Poemy[\\x0207]Go then, mighty \nHero! Seek out your\ndestiny![pause][\\x0203]I will always be with\nyou in spirit![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Tamer Pierre[\x0207]Be brave now on
+        your journey.
+        I look forward to[pause][\x0203]your battle with
+        the King.
+        Au Revoir![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Tamer Bomujii[\x0207]So, you're off.
+        Master the way
+        of the cards![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Tamer Alice[\x0207]Well...Go...
+        then. The...
+        King...awaits.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]I will now access the
+        Matrix Drive.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]I will now access the
+        Matrix Drive.[pause]

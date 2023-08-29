@@ -1,0 +1,491 @@
+type: simple
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got an Armor
+    Chip![pause]
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got a Fire
+    Chip![pause]
+  - |-
+    [\x0207][\x020902]3Alright!
+    I got a Water
+    Chip![pause]
+  - "[\\x0207]Tamer Genji[\\x0207]Ha ha! I've been\nhearing rumors \nabout you![pause][\\x0203]You've turned\nout to be some\ntamer!![pause]"
+  - |-
+    [\x0207]Tamer Genji[\x0207]Let's see what
+    your ability is with
+    a game of cards.[pause]
+  - "[\\x0207]Tamer Genji[\\x0207]What!? You still\nneed more \ntraining![pause][\\x0203]You disappoint me!\nYou'd better go \nget stronger![pause]"
+  - |-
+    [\x0207]Tamer Genji[\x0207]Ah ha! Just as
+    I had heard! You
+    are powerful![pause][\x0203]I look forward to
+    seeing just how
+    strong you will get![pause]
+  - |-
+    [\x0207]Agumon[\x0207]If Veemon, Guilmon
+    and I fought...[pause][\x0203]I wonder who
+    would turn out to
+    be the strongest?[pause]
+  - "[\\x0207]Guilmon[\\x0207]Mmm! That \nsmells good! [pause][\\x0203]Smells like \nwe're having \nburgers today![pause]"
+  - "[\\x0207]Guilmon[\\x0207]Ah, so you're\n[\\x020801][\\x020501], the\nfamous tamer?[pause][\\x0203]We're all trying to\nbeat you! Don't let \nyour guard down![pause]"
+  - "[\\x0207]Ivy[\\x0207]Hey, [\\x020801][\\x020501], \nthat boy's really\nawesome![pause][\\x0203]He rebuilt so much of\nDigimon Online!\nMaybe you should[pause][\\x0203]learn something by\nwatching him![pause]"
+  - |-
+    [\x0207]Agumon Fan Ike[\x0207]Digimon starts and
+    ends with Agumon![pause][\x0203]That's my thinking
+    built on 20 years
+    of Digimon history.[pause]
+  - "[\\x0207]Tamer Natsumi[\\x0207]I'm Natsumi! I\nwant to be a \nstar Tamer![pause]"
+  - |-
+    [\x0207]Tamer Natsumi[\x0207]Hey, let's play
+    cards! I'm pretty
+    strong, you know![pause]
+  - |-
+    [\x0207]Tamer Natsumi[\x0207]I did it! I won![pause][\x0203]I've got to be
+    strong to become
+    a star Tamer![pause]
+  - "[\\x0207]Tamer Natsumi[\\x0207]Wait! What \nhappened!?[pause][\\x0203]Darn! Uh... Act\nlike you didn't\nhear about this![pause]"
+  - "[\\x0207]Flamedramon[\\x0207]Lucky Mouse, I\nmean Kurt, \ntotally rules![pause][\\x0203]Even we Digimon\nare happy to play.[pause]"
+  - "[\\x0207]Kumamon[\\x0207]So you're the\none who beat\nA.o.A.?[pause][\\x0203]Wow! You're\ntotally \nawesome![pause]"
+  - "[\\x0207]Ms. Olivia[\\x0207]I've escaped the\noffice to get secretly\nonline.[pause][\\x0203]OK, so I feel a \nlittle bad, but it's\nso much fun![pause][\\x0203]But, I need to make\nsure I don't get \ncaught here![pause]"
+  - |-
+    [\x0207]Lazy Alan[\x0207]It seems we can
+    play only in the East
+    and Center sectors.[pause][\x0203]Well, it's only a test
+    round so I guess
+    it's OK.[pause]
+  - "[\\x0207]Kumamon Fan Satomi[\\x0207]Kumamon is \nso cute![pause][\\x0203]He's so soft and \nfurry, like a cuddly\nanimal![pause]"
+  - |-
+    [\x0207]D.O. Guard[\x0207]This is Amaterasu
+    City, the center of
+    Amaterasu server.[pause][\x0203]The system server
+    that controls all of
+    Digimon Online is here.[pause]
+  - |-
+    [\x0207]D.O. Guard[\x0207]The Digimon will be
+    assisting the guards
+    from now on.[pause][\x0203]Now there won't be
+    any more takeovers
+    for sure![pause]
+  - |-
+    [\x0207]Tamer Service[\x0207]Your data is being
+    used as it was
+    before.[pause][\x0203]Keep striving to be
+    the best tamer you
+    can![pause]
+  - "[\\x0207]Guide[\\x0207]Thank you for \ntaking part in the\ntest round.[pause][\\x0203]You can play only\nin the East and\nCenter sectors,[pause][\\x0203]but we are boosting up\nthe Circuit Board for\nyour enjoyment![pause]"
+  - "[\\x0207]Class Pres Aiko[\\x0207]I've heard that there\nare still lots of secret\nitems hidden here, and[pause][\\x0203]that there's a place \nwhere you can even\nget back lost things![pause]"
+  - |-
+    [\x0207]Jake[\x0207]Heh, heh, heh.
+    This place is good![pause][\x0203]Even if we can't be
+    Digimon, we're happy
+    just being here.[pause]
+  - |-
+    [\x0207]Grandma Beth[\x0207]Grandpa and I have
+    been waiting for this
+    day for a long time.[pause][\x0203]I'm just glad that in
+    the end we were able
+    to make it back OK![pause]
+  - "[\\x0207]Omegamon Fan Shin[\\x0207]My Digimon won't\ndigivolve into \nOmegamon yet![pause][\\x0203]Maybe they need\nto keep training\nand get stronger.[pause]"
+  - |-
+    [\x0207]Manager Sasaki[\x0207]I've skipped work
+    today to come and
+    login.[pause][\x0203]It's such a relief
+    knowing the
+    director's not here![pause]
+  - |-
+    [\x0207]D.O. Guard[\x0207]Sorry! This area
+    is still under
+    construction.[pause]
+  - |-
+    [\x0207]Patamon[\x0207]I'm happy Digimon
+    Online is at least
+    partly fixed![pause][\x0203]Now we can all
+    play together again![pause]
+  - |-
+    [\x0207]Monmon[\x0207]I'm happy so many
+    people have come
+    here![pause][\x0203]I love Digimon
+    Online when it's
+    full of people![pause]
+  - |-
+    [\x0207]Digivolve Navi[\x0207]You can get clues
+    to learn about
+    degivolution here.[pause][\x0203]Which topic would
+    you like to view?[pause]
+  - |-
+    [\x0207]Digimon Navi[\x0207]You can learn about
+    Digimon battles and
+    hints on raising[pause][\x0203]Digimon here. Which
+    topic would you like
+    to view?[pause]
+  - |-
+    [\x0207]Dr. Osomatsu[\x0207]Welcome to my
+    laboratory![pause][\x0203]What do you
+    want to do with
+    your Digimon?[pause]
+  - "[\\x0207]Kotemon[\\x0207]Hey! You're\n[\\x020801][\\x020501], \naren't you?[pause][\\x0203]I never imagined\nmeeting you in a\nplace like this![pause]"
+  - "[\\x0207]Account Login[\\x0207]I am so happy to\nsee all of you \nagain![pause][\\x0203]Have fun, even\nthough it is only\na test round![pause]"
+  - |-
+    [\x0207]Arena Reception[\x0207]You can battle the
+    highest level tamers
+    in this arena.[pause][\x0203]If you want to fight,
+    go after the four
+    leaders who are here.[pause][\x0203]Return here once
+    you defeat all of
+    them.[pause]
+  - "[\\x0207]Arena Reception[\\x0207]Welcome, \n[\\x020801][\\x020501]! I've\nbeen waiting![pause]"
+  - "[\\x0207]Arena Reception[\\x0207]You must be pretty\nstrong if you can \nbeat Kurt![pause][\\x0203]But, you have only\njust begun your\ntamer training.[pause][\\x0203]I wish good luck\nto you and all the\nDigimon![pause]"
+  - |-
+    [\x0207]Renamon[\x0207]I can't wait to
+    see what kind of
+    Tamers come along![pause][\x0203]I will be watching
+    all of your battles
+    very carefully.[pause]
+  - |-
+    [\x0207]Gatomon[\x0207]Welcome to
+    my hotel![pause][\x0203]Please relax and
+    get some rest.[pause]
+  - "[\\x0207]Guardromon[\\x0207]You want to \nsave?Just a \nmoment...[pause]"
+  - |-
+    [\x0207]Kotemon[\x0207]All of us Digimon
+    will be protecting
+    this server.[pause][\x0203]I am the guard in
+    charge of this
+    area.[pause]
+  - "[\\x0207][\\x020902]3They've cleaned up!\nI wonder if they'd \nclean my room too![pause]"
+  - |-
+    [\x0207][\x020902]3Hey! There's
+    something here! [pause][\x0203]Yes! I got
+    8500 BIT!![pause]
+  - |-
+    [\x0207][\x020902]3I wonder if there
+    is anything here?
+    Doesn't seem like it.[pause]
+  - |-
+    [\x0207][\x020902]3Nope. Looks
+    like there's
+    nothing here.[pause]
+  - "[\\x0207]Gargoylemon[\\x0207]A Weapon \nShop! Want\nto go in?[pause]"
+  - |-
+    [\x0207]Wizermon[\x0207]Welcome! This is an
+    Item Shop![pause]
+  - |-
+    [\x0207]Gomamon[\x0207]This is a
+    Jewelry Shop!
+    What'll it be?[pause]
+  - |-
+    [\x0207]Wizermon[\x0207]Welcome! This is an
+    Item Shop![pause]
+  - "[\\x0207]Gargoylemon[\\x0207]A Weapon \nShop! Want\nto go in?[pause]"
+  - |-
+    [\x0207]Rich Bruce[\x0207]Darn! They don't
+    sell Tempest
+    Arms here![pause][\x0203]I've heard that
+    I should be able
+    to find one though.[pause]
+  - "[\\x0207]Miss Ripley [\\x0207]Do you have a weapon\nthat will decimate \nghosts in one blow?[pause][\\x0203]I get tired of having\nto run away all the\ntime![pause]"
+  - |-
+    [\x0207]Master Paul[\x0207]John from Asuka City
+    and I are going to play
+    together on Digimon[pause][\x0203]Online Revival Live!
+    I can't wait![pause]
+  - |-
+    [\x0207]Waitress Linda[\x0207]I'm so happy all
+    the customers
+    have come back![pause][\x0203]With all this bustle,
+    I can't wait for
+    the real start![pause]
+  - |-
+    [\x0207]Uncle Carlos[\x0207]You're the hero of
+    the hour now that
+    you've beaten A.o.A![pause][\x0203]Well done! Really
+    well done![pause]
+  - |-
+    [\x0207]Sepikmon[\x0207]Today is a day to
+    celebrate since
+    Digimon Online's[pause][\x0203]back! But, even if I
+    get drunk, I won't
+    drop my mask![pause]
+  - "[\\x0207]Veemon[\\x0207]Whoah! What was\nin that water we\njust had?[pause][\\x0203]I feel good, \nbut I'm getting\ndizzy![pause]"
+  - |-
+    [\x0207]Nick[\x0207]Uh, uhhhh,
+    everything A[-4]OK
+    here, too![pause][\x0203]Ah! I slipped back
+    into that habit!
+    Ha ha ha![pause]
+  - |-
+    [\x0207]Nick[\x0207]Oh yeah, Kurt
+    gave this to me
+    to hang on to.[pause][\x0203]Here you go, it's
+    your Folder Bag. You
+    didn't get it yet right?[pause][\x0203]You gotta love
+    these cards and
+    other tamer stuff![pause]
+  - |-
+    [\x0207]Nick[\x0207]Kurt invited me
+    along to play
+    today.[pause][\x0203]But, where is
+    everybody?[pause]
+  - "[\\x0207]Smith Junior[\\x0207]The auction is\nclosed today![pause][\\x0203]This will make the \nperfect temporary \nhideout![pause]"
+  - "[\\x0207]Divermon[\\x0207]Welcome to Yellow \nCruiser, the card \nmania paradise![pause]"
+  - "[\\x0207]Collector Leia[\\x0207]I'll teach you \nhow to play![pause]"
+  - "[\\x0207]Cardster Ken[\\x0207]What's that? You\nwant to know the \nbasic card rules?[pause]"
+  - |-
+    [\x0207]Tamer Nacky[\x0207]Now that Digimon
+    Online's been
+    rennovated,[pause][\x0203]I hope I can
+    break my losing
+    streak![pause]
+  - |-
+    [\x0207]Tamer Nacky[\x0207]Hey, come
+    take me on in
+    a card battle![pause][\x0203]Alright, ready
+    to see me win?[pause]
+  - |-
+    [\x0207]Tamer Nacky[\x0207]I did it! I
+    knew I could
+    beat you![pause][\x0203]Watch out!
+    I'm on a roll
+    now![pause]
+  - |-
+    [\x0207]Tamer Nacky[\x0207]No wayyyyyyy!!!
+    I lost!![pause][\x0203]Looks like I'm
+    stuck on this
+    losing streak![pause]
+  - "[\\x0207]Tamer Harami[\\x0207]Today I got my\nli'l girl's \npermission to [pause][\\x0203]come![pause]"
+  - "[\\x0207]Tamer Harami[\\x0207]Sometimes you've\ngotta let loose\nand have fun![pause][\\x0203]Alright then, \nlet's play\ncards![pause]"
+  - |-
+    [\x0207]Tamer Harami[\x0207]Sweet! My
+    win!![pause][\x0203]This should
+    sure make my l'il
+    munchkin happy![pause]
+  - "[\\x0207]Tamer Harami[\\x0207]Hey! What was\nthat all about!?[pause][\\x0203]Sorry Yoko, papa\nhas let you \ndown![pause]"
+  - "[\\x0207]Tamer Mei Lin[\\x0207]Nihao! You're [\\x020801][\\x020501] \nright? I'm so happy to \nmeet you![pause][\\x0203]Thanks to you Digimon\nOnline is back![pause]"
+  - "[\\x0207]Tamer Mei Lin[\\x0207]Hey, since we're\nhere let's play\ncards![pause][\\x0203]I never thought I'd\nget to play cards \nwith you![pause]"
+  - |-
+    [\x0207]Tamer Mei Lin[\x0207]Yippee!
+    I win!![pause][\x0203]You may be good at
+    battling, but not at
+    playing cards![pause]
+  - |-
+    [\x0207]Tamer Mei Lin[\x0207]Ohhh nooo! I
+    You really are
+    strong![pause][\x0203]I'm going to keep
+    practicing until I'm able
+    to beat you![pause]
+  - |-
+    [\x0207]Tamer Mitch[\x0207]Yeah I'm psyched
+    that we can play
+    Digimon Online again[pause]
+  - |-
+    [\x0207]Tamer Mitch[\x0207]OK, boy!
+    Let's play
+    cards![pause][\x0203]I think this
+    is gonna be
+    some game![pause]
+  - |-
+    [\x0207]Tamer Mitch[\x0207]Whewy! I just
+    looove the feeling
+    of victory![pause][\x0203]This is why I can't
+    get enough of
+    Digimon Online![pause]
+  - |-
+    [\x0207]Tamer Mitch[\x0207]Whoah! You're good!
+    I guess you must be
+    since you beat A.o.A![pause][\x0203]I bet you're going to
+    become the best tamer
+    of all![pause]
+  - |-
+    [\x0207][\x020902]3What was that?
+    I think I saw
+    something flash.[pause][\x0203]Did I imagine it?
+    Maybe I should
+    have a look.[pause]
+  - |-
+    [\x0207][\x020902]3Nope, looks
+    like it was
+    nothing.[pause]
+  - "[\\x0207][\\x020902]3Looks like \nsomething fell\ninto this crack![pause][\\x0203]Hey! \nCheck it out! A\n\"P Members' Card!\"[pause][\\x0203]A Platinum Members\nCard! Let's see... \nWhat to do with it?[pause]"
+  - |-
+    [\x0207][\x020902]3Nope. Looks
+    like there's
+    nothing here.[pause]
+  - "[\\x0207]Ponchomon[\\x0207]Hey, amigo! \nWelcome to\nEl Dorado![pause][\\x0203]Care for some\nhot item info,\namigo?[pause]"
+  - |-
+    [\x0207]Teddy[\x0207]Hey! [\x020801][\x020501]!
+    How are you
+    feeling?[pause][\x0203]I'm doing just
+    great, of course!
+    He he he.[pause]
+  - |-
+    [\x0207]Teddy[\x0207]Alright then!
+    Let's play
+    some cards![pause][\x0203]OK, are you
+    ready to
+    LOSE!?[pause]
+  - "[\\x0207]Teddy[\\x0207]Ha ha ha!\nJust like\nI said, right?![pause][\\x0203]I know all\nof your \ntechniques![pause]"
+  - "[\\x0207]Teddy[\\x0207]Hey! How did\nyou pull that\none off?[pause][\\x0203]Ugh! I'd better\nkeep working \non my game![pause]"
+  - |-
+    [\x0207]Tamer Andy[\x0207]I am Andy, the
+    genius Tamer of
+    Server 1![pause][\x0203]I'll tell you now,
+    you'll be no
+    match for me![pause]
+  - |-
+    [\x0207]Tamer Andy[\x0207]Let me prove
+    it in a game of
+    cards![pause][\x0203]Can you beat the
+    mega[-4]strong Folder
+    I made?[pause]
+  - |-
+    [\x0207]Tamer Andy[\x0207]Ha ha ha! You
+    knew you'd
+    lose![pause][\x0203]Nobody can beat
+    Tamer Andy!![pause]
+  - |-
+    [\x0207]Tamer Andy[\x0207]What happened! But
+    this was the
+    strongest Folder!![pause][\x0203]Well get ready
+    because next time
+    I won't lose![pause]
+  - "[\\x0207]Tomoyo the Traveler[\\x0207]Hey there, are \nyou completing your \nDigimon partners?[pause][\\x0203]If you can't find all\nyou need, look in\nthe Circuit Board area![pause]"
+  - |-
+    [\x0207]Dealer Abel[\x0207]Too bad the
+    auction won't be
+    happening, huh.[pause][\x0203]Well, I guess that's
+    OK since I have
+    what I need.[pause]
+  - |-
+    [\x0207]Rapper Mike[\x0207]Yeah! How awesome
+    Digimon Online is
+    back again![pause][\x0203]This is all thanks
+    to [\x020801][\x020501], that
+    cool Tamer![pause]
+  - |-
+    [\x0207]Sakura[\x0207]They say that if you
+    look in every corner
+    you'll get all the items![pause][\x0203]I bet that if I try
+    hard enough I can
+    find all of them too![pause]
+  - "[\\x0207]Lazy Yuka[\\x0207]I wonder how far \nDigimon can digivolve.[pause][\\x0203]I guess that's\nsomething we can only\nfind out by trying.[pause]"
+  - "[\\x0207]D.O. Guard[\\x0207]A.o.A. are such\nmonsters to \nclean up after![pause][\\x0203]They're causing\ntrouble even\nafter they're[pause][\\x0203]gone![pause]"
+  - |-
+    [\x0207]D.O. Guard[\x0207]Sorry! This area
+    is still under
+    construction.[pause]
+  - |-
+    [\x0207]Fussy Freda[\x0207]How dirty! Gotta
+    keep cleaning![pause][\x0203]Everything's gotta
+    be spotless for
+    the official start![pause]
+  - |-
+    [\x0207]Kurt[\x0207]Hey! [\x020801][\x020501]!
+    You made it![pause][\x0203]Thanks to you
+    Digimon Online's
+    gonna open again![pause][\x0203]Thanks a lot!
+    OK, go and
+    have fun![pause]
+  - "[\\x0207]Kurt[\\x0207]Man! It looks like\nyou've really \nadvanced in level![pause][\\x0203]Why don't you go\nover and have a \nlook at the arena?[pause]"
+  - "[\\x0207]Kurt[\\x0207]You totally\nrule, man![pause][\\x0203]You're sure to\nbe the next \nWorld Champ!![pause]"
+  - |-
+    [\x0207]D.O. Operator[\x0207][\x020801][\x020501], your
+    data is just
+    amazing![pause][\x0203]I'll definitely use
+    it in setting the
+    game balance.[pause]
+  - |-
+    [\x0207]D.O Operator[\x0207]I want to use what
+    I've learned to make
+    an even better world.[pause][\x0203]I've got big hopes
+    for Digimon Online![pause]
+  - |-
+    [\x0207]Digimon Fan Emmie[\x0207]I've heard there are
+    Digimon that will make
+    any weapon you want![pause][\x0203]Even if only once,
+    I'd love to run into
+    one of those![pause]
+  - "[\\x0207]Fight Fan Midori[\\x0207]Yes! Time to watch\nanother Digimon\nBattle! Awesome![pause][\\x0203]Good luck and \nmake it a good\nfight![pause]"
+  - |-
+    [\x0207]Guilmon[\x0207]Huh? A tunnel?
+    This wasn't here
+    before![pause][\x0203]Maybe it was filled in
+    while under
+    maintenance.[pause]
+  - "[\\x0207]Chinron Leader[\\x0207]What's this? You\nwant to battle it\nout with ME!?[pause][\\x0203]If so, then you \nmust go find the\n5 strongest Epic Items[pause][\\x0203]hidden in this world\nand bring them here.\nBut, they are not[pause][\\x0203]as easy to find as\nyou might think![pause]"
+  - |-
+    [\x0207]Chinron Leader[\x0207]What's this? You
+    want to battle it
+    out with ME!?[pause][\x0203]Ah, I see you have
+    all 5 strongest Epic
+    Items![pause][\x0203]OK then, I will
+    battle you! Bring
+    it on![pause]
+  - |-
+    [\x0207]Chinron Leader[\x0207]I'd expect nothing less
+    from one who gathered
+    all the strongest[pause][\x0203]Epic Items! Keep it up,
+    and you'll go straight
+    to the top![pause]
+  - |-
+    [\x0207]Author William[\x0207]Did you read my
+    book, "Oinkio &
+    Floriette"?[pause][\x0203]It's a love story
+    about Oinkmon
+    and Floramon![pause][\x0203]Next I'm going to
+    write "Numemette"!
+    Keep an eye out for it![pause]
+  - |-
+    [\x0207]Andy's Groupie[\x0207]Wow! Andy!
+    How cool![pause][\x0203]I'll always
+    be your fan,
+    Andy![pause]
+  - a
+  - |-
+    [\x0207]Renamon[\x0207]So you're [\x020801][\x020501],
+    I see. You do look
+    pretty strong![pause][\x0203]I've always wanted
+    to meet a top
+    Tamer like you![pause]
+  - |-
+    [\x0207]Guardromon[\x0207]Now I've turned into
+    a Digimon Patrol
+    guard![pause][\x0203]I'll do my best to
+    protect Digimon
+    Online![pause]
+  - "[\\x0207]Monmon[\\x0207]How boring! \nNothing but\nDigimon here![pause][\\x0203]So I'm happy\nyou've shown\nup![pause]"
+  - "[\\x0207]Piccolomon[\\x0207]I am the Digimon\nChief! What can I \ndo for you?[pause]"
+  - "[\\x0207]Sarah[\\x0207]The Chinron Leader\nis just so manly \nand dreamy![pause][\\x0203]Then again the\nSeiryu leader is\nhandsome too![pause]"
+  - "[\\x0207]Emily the Photographer[\\x0207]Hey, wait a sec!\nAren't you\n[\\x020801][\\x020501]?[pause][\\x0203]Wow! I'm such a \nbig fan of yours!\nCan I take a photo?[pause]"
+  - "[\\x0207]Grandpa Brown[\\x0207]Well, I'm just a \nretired tamer now.[pause][\\x0203]But I'll be sure to\nwatch over you \nkids![pause]"
+  - |-
+    [\x0207]Airdramon[\x0207]Zzzzzzz.
+    Zzzzzzz.[pause][\x0203]Hey! What's
+    all that racket
+    out there![pause]
+  - |-
+    [\x0207]Biyomon[\x0207]Whoohoo!
+    I'm so happy Digimon
+    Online is back![pause]
+  - "[\\x0207]Terriermon[\\x0207]Mumble... \nmumble...\nZzzzzzz..[pause]"
+  - |-
+    [\x0207]Gabumon[\x0207]Ahh, yaaaaawn!
+    I'm so tired
+    today![pause]
+  - "[\\x0207]Mr. Wedge[\\x0207]Hey! Thanks for\ncoming to\nWedge's store![pause][\\x0203]I've got lots of\ngood items so \nhave a look![pause]"
+  - "[\\x0207]Mr. Wedge[\\x0207]Ah, I see you \nhave a Platinum\nCard![pause]"
+  - |-
+    [\x0207]Mr. Wedge[\x0207]I've got lots of
+    good stuff out
+    the back too![pause]
+  - "[\\x0207]Writer Hanako[\\x0207]Mr. Wedge is \njust so manly![pause][\\x0203]Whew! He \nmakes my legs\nturn to jelly![pause]"
+  - "[\\x0207]Divermon[\\x0207]Hmm. Why don't\nI open the \nboosters?[pause][\\x0203]OK! Wait just\na sec![pause]"
+  - "[\\x0207]Ponchomon[\\x0207]Amigo, let's talk\nabout some of my\ntop[-4]line items![pause][\\x0203]These are Epic \nitems, the strongest\nin the world![pause][\\x0203]They're made by the\nArmor Corps, in \nthe Circuit Board.[pause][\\x0203]But, they can only\nbe used by really\nstrong tamers![pause][\\x0203]They don't work for\nweak tamers, amigo![pause]"
+  - |-
+    [\x0207]Divermon[\x0207]Huh? You don't have
+    a Folder Bag?[pause][\x0203]Well in that case,
+    I can't help you!
+    Get outta here![pause]

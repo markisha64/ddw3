@@ -1,0 +1,26 @@
+type: simple
+strings:
+  - ''
+  - Auberge Asuka
+  - Aub. de la Forêt
+  - Auberge Seiryu
+  - Aub. du Marais
+  - Auberge Suzaku
+  - Aub. du Désert
+  - Auberge Byakko
+  - Auberge du Pic
+  - Auberge Genbu
+  - Chambre
+  - Aub. Armaterasu
+  - Aub. Qing Long
+  - Auberge Zhu Que
+  - Auberge Bai Hu
+  - Aub. Xuan Wu
+  - BIT
+  - |-
+    Un Digimon =
+    [\x020501] BIT
+  - Rester
+  - Ne pas rester
+  - Pas assez de BIT !
+  - Oasis Pelche

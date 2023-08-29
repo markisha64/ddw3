@@ -1,0 +1,114 @@
+type: simple
+strings:
+  - ''
+  - NV
+  - PV
+  - PM
+  - /
+  - BIT
+  - ARTÍCULOS
+  - ORDENAR
+  - MAPA
+  - TÉCNICAS
+  - ESTADO
+  - CARP. CARTAS
+  - '[-4][-4][-4][-4][-4]'
+  - '[-4][-4]'
+  - '[-4][-4][-4][-4]'
+  - |-
+    Camb. formaci. Digimon
+    Botón [triangle]: Volver al Menú
+  - |-
+    No puede camb. form. Digimon
+    Botón [triangle]: Volver al Menú
+  - ¿Cambiar a...?
+  - ¿Cambiar con...?
+  - 'Botón [triangle]: Cerrar Estado'
+  - ¿Cuál?
+  - 'Botón [triangle]: Volver al Menú'
+  - Artículos
+  - Armas
+  - Armadura
+  - Accesorios
+  - Artíc. imp.
+  - Usar artículo
+  - Todas las armas
+  - Todas las armad.
+  - Todos los acces.
+  - Tds. artíc. import
+  - Equ.
+  - 'Botón [square]: Orden. Elem.'
+  - L1
+  - R1
+  - Orden. Elem.
+  - Por Fuerza
+  - Por Nombre
+  - Seleccionar Digimon
+  - Usar técnica Digimon.
+  - No ha aprendido la técnica.
+  - Selec. técnica
+  - ¿Usar sobre?
+  - ¿Hacer?
+  - Ver Digievol.
+  - Ver Equipo
+  - Conf. Demo
+  - Digievolución Digimon y equipo
+  - ¿Mirar cartas?
+  - Sí
+  - No
+  - Digievol.
+  - EXP
+  - '[-4][-4][-4][-4][-4][-4][-4][-4]'
+  - Seleccionar digievo.
+  - NV Hb.
+  - Digievol. Bat. act.
+  - Digievol. Bat. des.
+  - Explicación de téc.
+  - Digievol. Bat. act.
+  - Digievol. Bat. des.
+  - Sin técnica
+  - ¿Cambiar cuál?
+  - X
+  - Cabeza
+  - Cuerpo
+  - Derecha
+  - Accesorios
+  - Desequipar
+  - Demo digievol.
+  - Ac.
+  - De.
+  - Configurar demo de digievolución.
+  - Álbum cart.
+  - Editar Carpeta
+  - Editar Carta
+  - Izqu.
+  - PE
+  - Izq. o Dcha.
+  - Dos manos
+  - Quitar equipo actual.
+  - PV curados al máximo.
+  - '[\x020501] PV curados.'
+  - PV máximo +[\x020501].
+  - PM máximo + [\x020501].
+  - Fuerza + [\x020501].
+  - Defensa + [\x020501].
+  - Espíritu + [\x020501].
+  - Sabiduría + [\x020501].
+  - Velocidad + [\x020501].
+  - Carisma + [\x020501].
+  - Tolerancia al Fuego + [\x020501].
+  - Tolerancia al Agua + [\x020501].
+  - Tolerancia al Hielo + [\x020501].
+  - Tolerancia al Viento + [\x020501].
+  - Tolerancia a Rayo + [\x020501].
+  - Tolerancia a Máquina + [\x020501].
+  - Tolerancia a Oscuridad + [\x020501].
+  - PE + [\x020501].
+  - Ningún Artículo.
+  - Ningún Arma.
+  - Ninguna Armadura.
+  - Ningún Accesorio.
+  - Ningún Artículo Import.
+  - PM insuficiente.
+  - Ningún efecto.
+  - '[-4]'

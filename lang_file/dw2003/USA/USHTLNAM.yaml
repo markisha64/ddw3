@@ -1,0 +1,26 @@
+type: simple
+strings:
+  - ''
+  - Asuka Inn
+  - Forest Inn
+  - Seiryu Inn
+  - Swamp Inn
+  - Suzaku Inn
+  - Desert Inn
+  - Byakko Hotel
+  - Mountain Inn
+  - Genbu Inn
+  - Chamber Room
+  - Armaterasu Inn
+  - Qing Long Inn
+  - Zhu Que Inn
+  - Bai Hu Inn
+  - Xuan Wu Inn
+  - BIT
+  - |-
+    Each Digimon
+    [\x020501] BIT
+  - Stay in Inn
+  - Do not stay in Inn
+  - You don't have enough BIT!
+  - Pelche Oasis

@@ -1,0 +1,644 @@
+type: extended
+files:
+  - strings:
+      - ''
+      - |-
+        [\x0207]Mr. Smith[\x0207]Das ist eure Chance!
+        Es geht um's Hauptitem![pause][\x0203]Gottes[-4]Hürde, die alle
+        haben möchten![pause][\x0203]Das Mindestgebot für
+        das Patamon[-4]Schild
+        sind 400 BIT.[pause]
+      - '[\x0207]Händler Abel[\x0207]500 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]600 BIT![pause]'
+      - '[\x0207]RPG[-4]Fan Mas.[\x0207]700 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hm...800 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3In Ordnung! Ich
+        biete 800 BIT![pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Wow!
+        800 BIT![pause][\x0203]Bietet jmd.
+        mehr?[pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Es bietet wohl\nkeiner mehr.[pause][\\x0203]Gottes[-4]Hürde ver[-4]\nkauft für 800 BIT[pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an \ndeinen Satelliten![pause]"
+      - |-
+        [\x0207][\x020902]3Super! Die
+        Gottes[-4]Hürde![pause]
+      - |-
+        [\x0207][\x020902]3Ich hab jetzt ein
+        echt cooles Item,
+        also ziehen wir los.[pause]
+  - strings:
+      - ''
+      - Gebot bei 800 BIT?[pause]
+      - Ja, ich biete.[pause]
+      - Nein, ich passe.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Das ist zu viel...\nIch möchte noch ein\npaar andere Sachen[pause][\\x0203]Ich komme mit \nmehr Geld zurück.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Mr. Smith[\\x0207]Das ist eure Chance![pause][\\x0203]Es geht um's Hauptitem![pause][\\x0203]Das gefährl. Schild.\nVon allen begehrt![pause][\\x0203]Das Mindestgebot für's\nGuilmon[-4]Schild liegt \nbei 400 BIT![pause]"
+      - '[\x0207]Händler Abel[\x0207]500 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]600 BIT![pause]'
+      - '[\x0207]RPG[-4]Fan Mas.[\x0207]700 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm...800 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Gebot bei 800 BIT?[pause]
+      - Ja bei 800 BIT![pause]
+      - Nein, ich passe.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Also
+        800 BIT![pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Wow!
+        800 BIT![pause][\x0203]Bietet jmd.
+        mehr?[pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Es bietet wohl\nkeiner mehr.[pause][\\x0203]Gefährl. Schild \nfür 800 BIT![pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an\ndeinen Satelliten![pause]"
+      - |-
+        [\x0207][\x020902]3Wow! Das
+        gefährl. Schild![pause]
+      - |-
+        [\x0207][\x020902]3Ich hab jetzt ein
+        echt cooles Item,
+        also raus hier.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Das ist zu viel...\nIch möchte noch ein\npaar andere Sachen[pause][\\x0203]Ich komme mit \nmehr Geld zurück.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Mr. Smith[\\x0207]Das ist eure Chance![pause][\\x0203]Es geht um's Hauptitem![pause][\\x0203]Der Sniper[-4]Guard.\nVon allen bewundert![pause][\\x0203]Das Mindestgebot für's\nMonmon[-4]Schild liegt \nbei 800 BIT![pause]"
+      - '[\x0207]Händler Abel[\x0207]1100 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]1300 BIT![pause]'
+      - '[\x0207]RPG[-4]Fan Mas.[\x0207]1500 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm..1600 BIT
+        ...hmm...[pause]
+  - strings:
+      - ''
+      - Gebot bei 1600 BIT?[pause]
+      - Ja bei 1600 BIT.[pause]
+      - Nein, ich passe.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3OK, also dann!
+        1600 BIT![pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Wow!
+        1600 BIT![pause][\x0203]Bietet jmd.
+        mehr?[pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Zum 1., zum 2.
+        und zum 3.![pause][\x0203]Sniper[-4]Guard
+        für 1600 BIT.[pause][\x0203]Gratulation![pause][\x0203]Ich übertrage das
+        Item jetzt an
+        deinen Satelliten![pause]
+      - |-
+        [\x0207][\x020902]3Wow! Der
+        Sniper[-4]Guard![pause]
+      - |-
+        [\x0207][\x020902]3Ich hab jetzt ein
+        echt cooles Item.
+        Zeit, zu gehen.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Das ist zu viel...\nIch möchte noch ein\npaar andere Sachen[pause][\\x0203]Ich komme mit \nmehr Geld zurück.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Mr. Smith[\\x0207]Das ist eure Chance![pause][\\x0203]Es geht um's Hauptitem![pause][\\x0203]Das Dramon[-4]Schild.\nVon allen begehrt![pause][\\x0203]Das Mindestgebot für's\nVeemon[-4]Schild liegt \nbei 800 BIT![pause]"
+      - '[\x0207]Händler Abel[\x0207]1100 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]1300 BIT![pause]'
+      - '[\x0207]RPG[-4]Fan Mas.[\x0207]1500 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm  1600 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Gebot bei 1600 BIT?[pause]
+      - Ja bei 1600 BIT.[pause]
+      - Nein, ich passe.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3In Ordnung! \nAlso 1600 BIT![pause]"
+      - |-
+        [\x0207]Mr. Smith[\x0207]Wow!
+        1600 BIT![pause][\x0203]Bietet jmd.
+        mehr?[pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Zum..., zum...
+        und ZUM...![pause][\x0203]Dramon[-4]Schild
+        für 1600 BIT.[pause][\x0203]Gratulation![pause][\x0203]Ich übertrage das
+        Item jetzt an
+        deinen Satelliten![pause]
+      - |-
+        [\x0207][\x020902]3Super! Das
+        Dramon[-4]Schild![pause]
+      - |-
+        [\x0207][\x020902]3Ich hab jetzt ein
+        echt cooles Item,
+        ich gehe.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Das ist zu viel...\nIch möchte noch ein\npaar andere Sachen[pause][\\x0203]Ich komme mit \nmehr Geld zurück.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Der Yin Yang[-4]Stab.
+        Von allen begehrt![pause][\x0203]Das Mindestgebot für
+        die Renamon[-4]Waffe
+        liegt bei 1600 BIT![pause]
+      - '[\x0207]Händler Abel[\x0207]2000 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]2300 BIT![pause]'
+      - '[\x0207]RPG[-4]Fan Mas.[\x0207]2600 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm..2700 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Gebot bei 2700 BIT?[pause]
+      - Ja bei 2700 BIT.[pause]
+      - Nein, ich passe.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Also
+        2700 BIT![pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Wow!
+        2700 BIT![pause][\x0203]Bietet jmd.
+        mehr?[pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Es bietet wohl\nkeiner mehr.[pause][\\x0203]Yin Yang[-4]Stab \nfür 2700 BIT![pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an\ndeinen Satelliten![pause]"
+      - |-
+        [\x0207][\x020902]3Toll! Der
+        Yin Yang[-4]Stab![pause]
+      - |-
+        [\x0207][\x020902]3Ich hab jetzt ein
+        echt cooles Item,
+        ich gehe.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Das ist zu viel...\nIch möchte noch ein\npaar andere Sachen[pause][\\x0203]Ich komme mit \nmehr Geld zurück.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Mr. Smith[\x0207]Das ist eure Chance!
+        Es geht um's Hauptitem![pause][\x0203]Der gefährl. Zahn.
+        Von allen bewundert![pause][\x0203]Das Mindestgebot für
+        die Guilmon[-4]Waffe
+        liegt bei 1600 BIT![pause]
+      - '[\x0207]Händler Abel[\x0207]2000 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]2300 BIT![pause]'
+      - '[\x0207]RPG[-4]Fan Mas.[\x0207]2600 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm..2700 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Gebot bei 2700 BIT?[pause]
+      - Ja bei 2700 BIT.[pause]
+      - Nein, ich passe.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Also
+        2700 BIT![pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Wow!
+        2700 BIT![pause][\x0203]Bietet jmd.
+        mehr?[pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Zum 1., zum 2.
+        und zum 3..![pause][\x0203]Gefährl. Zahn
+        für 2700 BIT.[pause][\x0203]Gratulation![pause][\x0203]Ich übertrage das
+        Item jetzt an
+        deinen Satelliten![pause]
+      - |-
+        [\x0207][\x020902]3Wow! Der
+        gefährl. Zahn![pause]
+      - |-
+        [\x0207][\x020902]3Ich hab jetzt ein
+        echt cooles Item,
+        ich geh jetzt.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Das ist zu viel...\nIch möchte noch ein\npaar andere Sachen[pause][\\x0203]Ich komme mit \nmehr Geld zurück.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Die Sniper[-4]Kanone.
+        Von allen bewundert![pause][\x0203]Das Mindestgebot für
+        die Monmon[-4]Waffe
+        liegt bei 2700 BIT![pause]
+      - '[\x0207]Händler Abel[\x0207]3100 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]3500 BIT![pause]'
+      - '[\x0207]RPG[-4]Fan Mas.[\x0207]3900 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm..4000 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Gebot bei 4000 BIT?[pause]
+      - Ja bei 4000 BIT![pause]
+      - Nein, ich passe.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Also
+        4000 BIT![pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Wow!
+        4000 BIT![pause][\x0203]Bietet jmd.
+        mehr?[pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Es bietet wohl\nkeiner mehr.[pause][\\x0203]Sniper[-4]Kanone \nfür 4000 BIT![pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an\ndeinen Satelliten![pause]"
+      - |-
+        [\x0207][\x020902]3Klasse! Die
+        Sniper[-4]Kanone![pause]
+      - |-
+        [\x0207][\x020902]3Ich hab jetzt ein
+        echt cooles Item,
+        also raus hier.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Das ist zu viel...\nIch möchte noch ein\npaar andere Sachen[pause][\\x0203]Ich komme mit \nmehr Geld zurück.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Die Ronin[-4]Klinge.
+        Von allen bewundert![pause][\x0203]Das Mindestgebot für
+        die Kotemon[-4]Waffe
+        liegt bei 2700 BIT![pause]
+      - '[\x0207]Händler Abel[\x0207]3100 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]3500 BIT![pause]'
+      - '[\x0207]RPG[-4]Fan Mas.[\x0207]3900 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm 4000 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Gebot bei 4000 BIT?[pause]
+      - Ja bei 4000 BIT![pause]
+      - Nein, ich passe.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Also
+        4000 BIT![pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Wow!
+        4000 BIT![pause][\x0203]Bietet jmd.
+        mehr?[pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Zum 1., zum 2.
+        und zum 3.![pause][\x0203]Ronin[-4]Klinge
+        für 4000 BIT.[pause][\x0203]Gratulation![pause][\x0203]Ich übertrage das
+        Item jetzt an
+        deinen Satelliten![pause]
+      - |-
+        [\x0207][\x020902]3Yeah! Die
+        Ronin[-4]Klinge![pause]
+      - |-
+        [\x0207][\x020902]3Ich hab jetzt ein
+        echt cooles Item,
+        ich gehe jetzt.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Das ist zu viel...\nIch möchte noch ein\npaar andere Sachen[pause][\\x0203]Ich komme mit \nmehr Geld zurück.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Sniper Goggle.
+        Von allen begehrt![pause][\x0203]Das Mindestgebot für
+        die Monmon[-4]Kappe
+        liegt bei 4000 BIT![pause]
+      - '[\x0207]Händler Abel[\x0207]4500 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]5500 BIT![pause]'
+      - '[\x0207]RPG[-4]Fan Mas.[\x0207]5900 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm..6000 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Gebot bei 6000 BIT?[pause]
+      - Ja bei 6000 BIT.[pause]
+      - Nein, ich passe.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Also
+        6000 BIT![pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Wow!
+        6000 BIT![pause][\x0203]Bietet jmd.
+        mehr?[pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Es bietet wohl
+        keiner mehr.[pause][\x0203]Sniper Goggle
+        für 6000 BIT![pause][\x0203]Gratulation![pause][\x0203]Ich übertrage das
+        Item jetzt an
+        deinen Satelliten![pause]
+      - "[\\x0207][\\x020902]3Super! \nSniper Goggle![pause]"
+      - |-
+        [\x0207][\x020902]3Ich hab jetzt ein
+        echt cooles Item.
+        Ich gehe jetzt![pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Das ist zu viel...\nIch möchte noch ein\npaar andere Sachen[pause][\\x0203]Ich komme mit \nmehr Geld zurück.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Die hlg. Krone.
+        Von allen bewundert![pause][\x0203]Das Mindestgebot für
+        die Patamon[-4]Krone
+        liegt bei 4000 BIT![pause]
+      - '[\x0207]Händler Abel[\x0207]4500 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]5500 BIT![pause]'
+      - '[\x0207]RPG[-4]Fan Mas.[\x0207]5900 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm..6000 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Gebot bei 6000 BIT?[pause]
+      - Ja bei 6000 BIT.[pause]
+      - Nein, ich passe.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Also
+        6000 BIT![pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Wow!
+        6000 BIT![pause][\x0203]Bietet jmd.
+        mehr?[pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Zum..., zum...
+        und ZUM...![pause][\x0203]Hlg. Krone
+        für 6000 BIT.[pause][\x0203]Gratulation![pause][\x0203]Ich übertrage das
+        Item jetzt an
+        deinen Satelliten![pause]
+      - |-
+        [\x0207][\x020902]3Toll! Die
+        hlg. Krone![pause]
+      - |-
+        [\x0207][\x020902]3Ich hab jetzt ein
+        echt cooles Item,
+        ich gehe jetzt.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Das ist zu viel...\nIch möchte noch ein\npaar andere Sachen[pause][\\x0203]Ich komme mit \nmehr Geld zurück.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Der kühne Helm.
+        Von allen bewundert![pause][\x0203]Das Mindestgebot für
+        den Agumon[-4]Helm
+        liegt bei 7000 BIT![pause]
+      - '[\x0207]Händler Abel[\x0207]8000 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]8300 BIT![pause]'
+      - '[\x0207]RPG[-4]Fan Mas.[\x0207]8600 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm..8700 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Gebot bei 8700 BIT?[pause]
+      - Ja bei 8700 BIT![pause]
+      - Nein, ich passe.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Also
+        8700 BIT![pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Wow!
+        8700 BIT![pause][\x0203]Bietet jmd.
+        mehr?[pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Zum 1., zum 2.
+        und 3.![pause][\x0203]Kühner Helm
+        für 8700 BIT.[pause][\x0203]Gratulation![pause][\x0203]Ich übertrage das
+        Item jetzt an
+        deinen Satelliten![pause]
+      - |-
+        [\x0207][\x020902]3Yeah! Der
+        kühne Helm![pause]
+      - |-
+        [\x0207][\x020902]3Ich hab jetzt ein
+        echt cooles Item,
+        ich gehe.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Das ist zu viel...\nIch möchte noch ein\npaar andere Sachen[pause][\\x0203]Ich komme mit \nmehr Geld zurück.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Der Ronin[-4]Helm.
+        Von allen bewundert![pause][\x0203]Das Mindestgebot für
+        den Kotemon[-4]Helm
+        liegt bei 7000 BIT![pause]
+      - '[\x0207]Händler Abel[\x0207]8000 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]8300 BIT![pause]'
+      - '[\x0207]RPG[-4]Fan Mas.[\x0207]8600 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hmm..8700 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Gebot bei 8700 BIT?[pause]
+      - Ja bei 8700 BIT![pause]
+      - Nein, ich passe.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Also
+        8700 BIT![pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Wow!
+        8700 BIT![pause][\x0203]Bietet jmd.
+        mehr?[pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Es bietet wohl\nkeiner mehr.[pause][\\x0203]Ronin[-4]Helm \nfür 8700 BIT![pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an\ndeinen Satelliten![pause]"
+      - |-
+        [\x0207][\x020902]3Klasse! Der
+        Ronin[-4]Helm![pause]
+      - |-
+        [\x0207][\x020902]3Ich hab jetzt ein
+        echt cooles Item.
+        Ich probier's aus.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Das ist zu viel...\nIch möchte noch ein\npaar andere Sachen[pause][\\x0203]Ich komme mit \nmehr Geld zurück.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Der Yin Yang[-4]Anzug.
+        Von allen bewundert![pause][\x0203]Das Mindestgebot für
+        den Renamon[-4]Anzug
+        liegt bei 10000 BIT![pause]
+      - '[\x0207]Händler Abel[\x0207]10900 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]11200 BIT[pause]'
+      - '[\x0207]RPG[-4]Fan Mas.[\x0207]11400 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hm. 11500 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Gebot bei 11500 BIT?[pause]
+      - Ja bei 11500 BIT![pause]
+      - Nein, ich passe.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Also
+        11500 BIT![pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Wow!
+        11500 BIT![pause][\x0203]Bietet jmd.
+        mehr?[pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Letzte Chance!\nBietet jemand?[pause][\\x0203]Yin Yang[-4]Anzug \nfür 11500 BIT![pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an\ndeinen Satelliten![pause]"
+      - |-
+        [\x0207][\x020902]3Super! Der
+        Yin Yang[-4]Anzug![pause]
+      - |-
+        [\x0207][\x020902]3Ich hab jetzt ein
+        echt cooles Item.
+        Ich probier's aus.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Das ist zu viel...\nIch möchte noch ein\npaar andere Sachen[pause][\\x0203]Ich komme mit \nmehr Geld zurück.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Die Ronin[-4]Ausrüstung.
+        Von allen bewundert![pause][\x0203]Das Mindestgebot für
+        die Kotemon[-4]Ausrüstung
+        liegt bei 16000 BIT![pause]
+      - '[\x0207]Händler Abel[\x0207]16900 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]17000 BIT[pause]'
+      - '[\x0207]RPG[-4]Fan Mas.[\x0207]17400 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hm. 17500 BIT
+        ...hmm...[pause]
+  - strings:
+      - ''
+      - Gebot bei 17500 BIT?[pause]
+      - Ja bei 17500 BIT.[pause]
+      - Nein, ich passe.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Also
+        17500 BIT![pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Wow!
+        17500 BIT![pause][\x0203]Bietet jmd.
+        mehr?[pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Es bietet wohl\nkeiner mehr.[pause][\\x0203]Ronin[-4]Ausrüstung \nfür 17500 BIT![pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an\ndeinen Satelliten![pause]"
+      - |-
+        [\x0207][\x020902]3Wow! Die
+        Ronin[-4]Ausrüstg.![pause]
+      - |-
+        [\x0207][\x020902]3Das ist ein echt
+        cooles Item. Was
+        mach ich damit...[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Das ist zu viel...\nIch möchte noch ein\npaar andere Sachen[pause][\\x0203]Ich komme mit \nmehr Geld zurück.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Der Wildnisanzug.
+        Von allen bewundert![pause][\x0203]Das Mindestgebot für
+        den Kumamon[-4]Anzug
+        liegt bei 23000 BIT![pause]
+      - '[\x0207]Händler Abel[\x0207]23500 BIT![pause]'
+      - '[\x0207]Chief Milly[\x0207]23800 BIT[pause]'
+      - '[\x0207]RPG[-4]Fan Mas.[\x0207]23900 BIT![pause]'
+      - |-
+        [\x0207][\x020902]3Hm. 24000 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Gebot bei 24000 BIT?[pause]
+      - Ja bei 24000 BIT.[pause]
+      - Nein, ich passe.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Also
+        24000 BIT![pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Wow!
+        24000 BIT![pause][\x0203]Bietet jmd.
+        mehr?[pause]
+      - "[\\x0207]Mr. Smith[\\x0207]Wenn niemand\nmehr bietet.[pause][\\x0203]Wildnisanzug \nfür 24000 BIT![pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an\nIhren Satelliten![pause]"
+      - |-
+        [\x0207][\x020902]3Cool! Der
+        Wildnisanzug![pause]
+      - |-
+        [\x0207][\x020902]3Ich hab jetzt ein
+        echt cooles Item.
+        Ich probier's aus.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Das ist zu viel...\nIch möchte noch ein\npaar andere Sachen[pause][\\x0203]Ich komme mit \nmehr Geld zurück.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Mr. Smith[\\x0207]Oin oink oooink![pause][\\x0203]Oink, oin, ooink![pause][\\x0203]Oin, ooink, ooin oi \noiin oinko![pause][\\x0203]Oi oinioi oinoink\noinnk oin oinkk oi\n30000 BIT![pause]"
+      - |-
+        [\x0207]Händler Abel[\x0207]Oioi!
+        31000 BIT![pause]
+      - "[\\x0207]Chief Milly[\\x0207]Oioi\n31500 \nBIT![pause]"
+      - |-
+        [\x0207]RPG[-4]Fan Mas.[\x0207]Oin oi
+        31900 BIT![pause]
+      - |-
+        [\x0207][\x020902]3Hm. 32000 BIT
+        ...hmmm...[pause]
+  - strings:
+      - ''
+      - Gebot bei 32000 BIT?[pause]
+      - Ja bei 32000 BIT![pause]
+      - Nein, ich passe.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Also
+        32000 BIT![pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Oink!
+        32000 BIT![pause][\x0203]Oinoink, oink
+        32000 BIT?[pause]
+      - |-
+        [\x0207]Mr. Smith[\x0207]Oin oink oioink
+        oink oioink oink.[pause][\x0203]Oioi Oink nk
+        oionko 32000 BIT![pause][\x0203]Oinkoinnnk
+        oi oink oi oiii![pause][\x0203]Oi oinkoo
+        oinoiko oin
+        oioinnnk oink![pause]
+      - "[\\x0207][\\x020902]3Yeah! \nOioi Oink![pause]"
+      - |-
+        [\x0207][\x020902]3Das ist ein echt
+        cooles Item. Was
+        mach ich damit...[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Das ist zu viel...\nIch möchte noch ein\npaar andere Sachen.[pause][\\x0203]Ich komme mit \nmehr Geld zurück.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Hey!
+        Der Lift
+        bewegt sich![pause]
+  - strings:
+      - ''
+      - '[\x0207][\x020902]3Das macht Spaβ.[pause]'

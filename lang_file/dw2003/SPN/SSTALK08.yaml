@@ -1,0 +1,472 @@
+type: simple
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3¡Bien!
+    Tengo un Chip
+    Armadura.[pause]
+  - |-
+    [\x0207][\x020902]3¡Bien!
+    Tengo un Chip
+    Fuego.[pause]
+  - |-
+    [\x0207][\x020902]3¡Bien!
+    Tengo un Chip
+    Agua.[pause]
+  - "[\\x0207]Domador Genji[\\x0207]¡Ja, ja! He \noído rumores \nsobre ti.[pause][\\x0203]Parece que\neres algo así\ncomo un domador.[pause]"
+  - "[\\x0207]Domador Genji[\\x0207]Veamos tu \nhabilidad con un\njuego de cartas.[pause]"
+  - "[\\x0207]Domador Genji[\\x0207]¿Qué? \n¡Necesitas más\nentrenamiento![pause][\\x0203]Me decepcionas.\nMás te vale\nhacerte fuerte.[pause]"
+  - |-
+    [\x0207]Domador Genji[\x0207]¡Ja, ja! He oído
+    que eres
+    poderoso.[pause][\x0203]Observaré
+    lo fuerte
+    que te haces.[pause]
+  - |-
+    [\x0207]Agumon[\x0207]Si Veemon, Guilmon
+    y yo luchásemos...[pause][\x0203]Me pregunto
+    quién sería
+    más fuerte.[pause]
+  - "[\\x0207]Guilmon[\\x0207]¡Mmm! Eso \nhuele bien. [pause][\\x0203]Parece que\nhoy tenemos\nhamburguesas.[pause]"
+  - "[\\x0207]Guilmon[\\x0207]¡Ah! así que ¿eres\n[\\x020801][\\x020501], el \nfamoso domador?[pause][\\x0203]Todos intentamos\nderrotarte. ¡No\nbajes la guardia![pause]"
+  - "[\\x0207]Ivy[\\x0207]Oye, [\\x020801][\\x020501], \nese chico es \nincreible de verdad.[pause][\\x0203]¡Recuperó gran parte de\nDigimon Online!\nQuizás deberías[pause][\\x0203]aprender algo\nfijándote en él.[pause]"
+  - "[\\x0207]Fan Ike Agumon [\\x0207]¡Digimon, inicio\ny fin en Agumon![pause][\\x0203]Eso creo, en \nbase a 20 años\nde historia Digimon.[pause]"
+  - "[\\x0207]Domador Natsumi[\\x0207]¡Soy Natsumi! \n¡Quiero ser un\ndomador estrella![pause]"
+  - |-
+    [\x0207]Domador Natsumi[\x0207]¡Juguemos a las
+    cartas! Soy muy
+    fuerte, ya verás.[pause]
+  - |-
+    [\x0207]Domador Natsumi[\x0207]¡Lo hice!¡Gané![pause][\x0203]¡Debo ser
+    fuerte para ser
+    domador![pause]
+  - |-
+    [\x0207]Domador Natsumi[\x0207]¡Espera! ¿Qué
+    pasó?[pause][\x0203]¡Maldición!
+    Haz como si no
+    oíste nada.[pause]
+  - |-
+    [\x0207]Flamedramon[\x0207]¡Ratón Suerte,
+    digo Kurt,
+    es el amo![pause][\x0203]Incluso a los Digimon
+    nos gusta jugar.[pause]
+  - |-
+    [\x0207]Kumamon[\x0207]¿Eres el que
+    derrotó al
+    A.o.A.?[pause][\x0203]¡Eres
+    totalmente
+    increíble![pause]
+  - |-
+    [\x0207]Srta. Olivia[\x0207]Escapé de la
+    oficina para conectar
+    en secreto.[pause][\x0203]Vale, me siento un
+    poco mal, pero es
+    muy divertido.[pause][\x0203]Tengo que estar
+    segura de que
+    no me pillarán aquí.[pause]
+  - |-
+    [\x0207]Vago Alan[\x0207]Parece que sólo
+    podemos jugar en los
+    sectores Este y Central.[pause][\x0203]Sólo es una ronda
+    de prueba, así que
+    está bien.[pause]
+  - "[\\x0207]Fan Kumamon Satomi[\\x0207]¡Kumamon es \ntan bonito![pause][\\x0203]Es tan blando\ny peludo, como\nun animal mimoso.[pause]"
+  - |-
+    [\x0207]Guarda DO [\x0207]Esta es Ciudad
+    Amaterasu, el centro
+    del Servidor Amaterasu.[pause][\x0203]El sistema que
+    controla Digimon
+    Online está aquí.[pause]
+  - "[\\x0207]Guarda DO [\\x0207]Los Digimon \nayudarán a los \nguardas por ahora.[pause][\\x0203]Ya no habrán\nmás cambios de\npoder, seguro.[pause]"
+  - "[\\x0207]Servicio de Domadores[\\x0207]Tus datos se \nhan usado como\nantes.[pause][\\x0203]Sigue esforzándote\npara ser el mejor\ndomador que puedas.[pause]"
+  - |-
+    [\x0207]Guía[\x0207]Gracias por
+    participar en la
+    ronda de prueba.[pause][\x0203]Sólo puedes jugar
+    en los Sectores
+    Este y Central.[pause][\x0203]Pero estamos montando
+    la Placa de Circuitos
+    para que te diviertas.[pause]
+  - |-
+    [\x0207]Delegado Aiko[\x0207]He oído que hay
+    muchos artículos
+    secretos ocultos aquí.[pause][\x0203]Que hay un lugar en
+    el que se puede hasta
+    obtener cosas perdidas.[pause]
+  - |-
+    [\x0207]Jake[\x0207]¡Je, je, je!
+    Este lugar es bueno.[pause][\x0203]Incluso si no podemos
+    ser Digimon nos
+    alegramos de estar aquí.[pause]
+  - "[\\x0207]Abuela Beth[\\x0207]El abuelo y yo \nesperamos este día\nhace mucho tiempo.[pause][\\x0203]Me alegro de que\nal final pudiésemos\nregresar. ¡Bien![pause]"
+  - |-
+    [\x0207]Fan Shin Omegamon [\x0207]¡Mi Digimon no
+    digievoluciona en
+    Omegamon aún![pause][\x0203]Puede que tenga
+    que entrenar más y
+    ser más fuerte.[pause]
+  - |-
+    [\x0207]Supervisor Sasaki[\x0207]Hoy no fui a trabajar
+    para venir y
+    entrar.[pause][\x0203]Es un alivio saber
+    que el director no
+    se encuentra aquí.[pause]
+  - |-
+    [\x0207]Guarda DO [\x0207]¡Lo siento! Este
+    área sigue en
+    construcción.[pause]
+  - "[\\x0207]Patamon[\\x0207]Me alegro que \nDigimon Online se \narreglase en parte.[pause][\\x0203]Podemos jugar todos\njuntos de nuevo.[pause]"
+  - |-
+    [\x0207]Monmon[\x0207]¡Me alegro de que
+    haya venido tanta
+    gente![pause][\x0203]Me encanta Digimon
+    Online cuando está
+    llena de gente.[pause]
+  - |-
+    [\x0207]Digievolución Navi[\x0207]Puedes conseguir
+    pistas sobre la
+    digievolución aquí.[pause][\x0203]¿Qué téma
+    deseas ver?[pause]
+  - |-
+    [\x0207]Digimon Navi[\x0207]Aquí puedes conseguir
+    trucos de las batallas
+    Digimon y de cómo[pause][\x0203]mejorarlos. ¿Qué
+    tema deseas ver?[pause]
+  - |-
+    [\x0207]Dr. Osomatsu[\x0207]¡Bienvenido a mi
+    Laboratorio![pause][\x0203]¿Qué quieres
+    hacer con
+    tu Digimon?[pause]
+  - "[\\x0207]Kotemon[\\x0207]¡Oye! ¿Tú eres\n[\\x020801][\\x020501], \nno es así?[pause][\\x0203]Nunca imaginé que\nte encontraría en\nun lugar así.[pause]"
+  - "[\\x0207]Cuenta Login[\\x0207]¡Me alegro de \nveros a todos\nde nuevo![pause][\\x0203]Divertíos, aunque\nsólo es una\nronda de prueba.[pause]"
+  - "[\\x0207]Recepción Estadio [\\x0207]Puedes combatir con\nlos mejores domadores \nen este estadio.[pause][\\x0203]Si quieres luchar\nbusca a los cuatro \nLíderes de aquí.[pause][\\x0203]Vuelve aquí\ncuando lo derrotes\na todos.[pause]"
+  - "[\\x0207]Recepción Estd. [\\x0207]Bienvenido \n[\\x020801][\\x020501]! Te\nesperaba.[pause]"
+  - "[\\x0207]Recepción Estadio[\\x0207]¡Debes ser\nmuy fuerte para\nvencer a Kurt![pause][\\x0203]Pero sólo has\ncomenzado tu \nentrenamiento.[pause][\\x0203]Te deseo buena \nsuerte a ti y a \nlos Digimon.[pause]"
+  - "[\\x0207]Renamon[\\x0207]Estoy impaciente \npor conocer a los\ndomadores.[pause][\\x0203]Me fijaré en \ntodas tus batallas\natentamente.[pause]"
+  - |-
+    [\x0207]Gatomon[\x0207]¡Bienvenido a
+    mi hotel![pause][\x0203]Por favor, relájate
+    y descansa.[pause]
+  - |-
+    [\x0207]Guardromon[\x0207]¿Quieres
+    guardar? Un
+    momento...[pause]
+  - |-
+    [\x0207]Kotemon[\x0207]Todos los Digimon
+    protegeremos este
+    servidor.[pause][\x0203]Soy el guarda a
+    cargo de este
+    área.[pause]
+  - |-
+    [\x0207][\x020902]3¡Lo han ordenado!
+    ¡Me pregunto si harán
+    eso en mi habitación![pause]
+  - |-
+    [\x0207][\x020902]3¡Oye, aquí
+    hay algo![pause][\x0203]¡Sí! ¡Tengo
+    8500 BIT!![pause]
+  - |-
+    [\x0207][\x020902]3Me pregunto si
+    hay algo aquí.
+    No lo parece.[pause]
+  - "[\\x0207][\\x020902]3No. Parece\nque no hay \nnada.[pause]"
+  - "[\\x0207]Gargoylemon[\\x0207]Tienda de\nArmas \n¿Entrarás?[pause]"
+  - |-
+    [\x0207]Wizermon[\x0207]¡Bienbenido! Esta es
+    una Tienda de Art.[pause]
+  - "[\\x0207]Gomamon[\\x0207]Tienda de\nJoyas. \n¿Entras?[pause]"
+  - |-
+    [\x0207]Wizermon[\x0207]¡Bienbenido! Esta es
+    una Tienda de Art.[pause]
+  - "[\\x0207]Gargoylemon[\\x0207]Tienda de\nArmas. \n¿Entrarás?[pause]"
+  - |-
+    [\x0207]Rico Bruce[\x0207]¡Maldición! No
+    venden Armas
+    Tempestad aquí.[pause][\x0203]Había oído que
+    podría encontrar
+    una.[pause]
+  - |-
+    [\x0207]Srta. Ripley [\x0207]¿Tienes un arma que
+    diezmará de un golpe
+    a los fantasmas?[pause][\x0203]¡Estoy cansado de
+    huir todo
+    el tiempo![pause]
+  - |-
+    [\x0207]Maestro Paul[\x0207]John de Ciudad Asuka
+    y yo vamos a jugar
+    juntos a Digimon.[pause][\x0203]Revivir Vida Online.
+    ¡No puedo esperar![pause]
+  - |-
+    [\x0207]Camarera Linda[\x0207]Me alegro de que
+    los clientes hayan
+    regresado.[pause][\x0203]Con todo el bullicio
+    no puedo esperar a
+    que empiece.[pause]
+  - "[\\x0207]Tio Carlos[\\x0207]Eres el héroe\ndel momento al \nderrotar a A.o.A.[pause][\\x0203]¡Bien hecho!Bien\nhecho de verdad![pause]"
+  - "[\\x0207]Sepikmon[\\x0207]Hoy es un día de \ncelebración desde\nque Digimon Online[pause][\\x0203]se arregló. Pero\nni borracho me\nquitaré la máscara.[pause]"
+  - "[\\x0207]Veemon[\\x0207]¡Ohh! ¿Qué \ntenía el agua\nque tomamos?[pause][\\x0203]Me siento bien,\npero estoy algo\nmareado.[pause]"
+  - "[\\x0207]Nick[\\x0207]Uh, uhhhh.\nTodo bien por\naquí también.[pause][\\x0203]¡Ah! Volví a \nese hábito.\n¡Ja ja ja![pause]"
+  - "[\\x0207]Nick[\\x0207]Oh sí, Kurt\nme dio esto para\nque lo cuide.[pause][\\x0203]Aquí está, tu Bolsa\nde Carpetas. ¿Aún no\ntienes una, verdad?[pause][\\x0203]Te van a encantar \nestas cartas y las \ncosas de domador.[pause]"
+  - "[\\x0207]Nick[\\x0207]Kurt me invitó\na jugar \nhoy.[pause][\\x0203]Pero, ¿dónde está\ntodo el mundo?[pause]"
+  - |-
+    [\x0207]Herrero Junior[\x0207]¡La subasta se
+    cerró por hoy![pause][\x0203]Esté será un
+    escondrijo momentáneo
+    perfecto.[pause]
+  - |-
+    [\x0207]Divermon[\x0207]Bienvenido al Crucero
+    Amarillo, paraíso de
+    los amantes de cartas.[pause]
+  - "[\\x0207]Colección. Leia[\\x0207]Te mostraré \ncómo se juega.[pause]"
+  - "[\\x0207]Jugador Ken[\\x0207]¿Qué es eso? \n¿Quieres saber las\nreglas básicas?[pause]"
+  - |-
+    [\x0207]Domador Nacky[\x0207]Ahora que se
+    renovó Digimon
+    Online,[pause][\x0203]espero romper
+    mi mala
+    racha.[pause]
+  - |-
+    [\x0207]Domador Nacky[\x0207]Enfréntate a
+    mi en Batalla
+    de Cartas.[pause][\x0203]¿Listo para
+    verme ganar?[pause]
+  - "[\\x0207]Domador Nacky[\\x0207]¡Lo hice!\nSabía que te\nvencería.[pause][\\x0203]¡Cuidado!\n¡Estoy \ncaliente![pause]"
+  - "[\\x0207]Domador Nacky[\\x0207]Nooooo. \n¡Perdí![pause][\\x0203]Estoy inmerso\nen una mala\nracha.[pause]"
+  - |-
+    [\x0207]Domador Harami[\x0207]Hoy tengo
+    permiso de
+    mi chica para [pause][\x0203]venir.[pause]
+  - |-
+    [\x0207]Domador Harami[\x0207]A veces se pierde
+    y te diviertes
+    igual.[pause][\x0203]Vale, juguemos
+    a las
+    cartas.[pause]
+  - "[\\x0207]Domador Harami[\\x0207]¡Mola! \n¡Gané![pause][\\x0203]Mi novia \nestará muy\ncontenta.[pause]"
+  - |-
+    [\x0207]Domador Harami[\x0207]¡Oye! ¿De qué
+    va todo esto?[pause][\x0203]Lo siento Yoko,
+    papá te
+    decepcionó.[pause]
+  - "[\\x0207]Domador Mei Lin[\\x0207]Nihao! Eres [\\x020801][\\x020501] \n¿no? Me alegro de\nconocerte.[pause][\\x0203]Gracias a ti Digimon\nOnline funciona.[pause]"
+  - |-
+    [\x0207]Domador Mei Lin[\x0207]Ya que estamos
+    aquí juguemos
+    a las cartas.[pause][\x0203]Nunca pensé
+    que jugaría
+    contigo.[pause]
+  - |-
+    [\x0207]Domador Mei Lin[\x0207]¡Sííííí!
+    ¡Gané![pause][\x0203]Puedes ser bueno
+    batallando, pero
+    no a las cartas.[pause]
+  - "[\\x0207]Domador Mei Lin[\\x0207]¡Ohhh nooo! \nEres realmente\nfuerte.[pause][\\x0203]Seguiré \nentrenando hasta\nque pueda ganarte.[pause]"
+  - "[\\x0207]Domador Mitch[\\x0207]Estoy ilusionado\npor poder jugar  \na Digimon Online.[pause]"
+  - "[\\x0207]Domador Mitch[\\x0207]Bien chico\n¡Juguemos a \nlas cartas![pause][\\x0203]Creo que\nserá una \nbuena partida.[pause]"
+  - |-
+    [\x0207]Domador Mitch[\x0207]Buff, me
+    encanta sentir
+    la victoria.[pause][\x0203]Por eso no
+    puedo dejar
+    Digimon Online.[pause]
+  - |-
+    [\x0207]Domador Mitch[\x0207]¡Guau! ¡Eres bueno!
+    Creo que podrías ganar
+    hasta a A.o.A.[pause][\x0203]Apuesto a que serás
+    el mejor domador
+    de todos.[pause]
+  - |-
+    [\x0207][\x020902]3¿Qué fue eso?
+    Creo que ví
+    algo iluminarse.[pause][\x0203]¿Lo imaginé?
+    Debería echar
+    un vistazo.[pause]
+  - |-
+    [\x0207][\x020902]3No, parece
+    que no era
+    nada.[pause]
+  - "[\\x0207][\\x020902]3Parece que\nalgo cayó en\nesta grieta.[pause][\\x0203]¡Oye! \n¡Fíjate! Una\nTarjeta miembros P[pause][\\x0203]Tarjeta Platino\nde miembros ¿qué\nharé con ella?[pause]"
+  - |-
+    [\x0207][\x020902]3No, parece
+    que aquí no
+    hay nada.[pause]
+  - "[\\x0207]Ponchomon[\\x0207]¡Oye, amigo! \n¡Bienvenido a\nEl Dorado![pause][\\x0203]¿Quieres saber\nalgo sobre un\nartículo amigo?[pause]"
+  - |-
+    [\x0207]Teddy[\x0207]¡Oye! [\x020801][\x020501]!
+    ¿Cómo te
+    encuentras?[pause][\x0203]Yo estoy genial
+    por supuesto.
+    Je je je.[pause]
+  - "[\\x0207]Teddy[\\x0207]¡Muy bien!\nJuguemos a\nlas cartas.[pause][\\x0203]¿Preparado \npara \nperder?[pause]"
+  - "[\\x0207]Teddy[\\x0207]Ja ja ja\nYa te lo\nadvertí.[pause][\\x0203]¡Conozco \ntodas tus\ntécnicas![pause]"
+  - |-
+    [\x0207]Teddy[\x0207]¡Oye! ¿Cómo
+    lo has
+    hecho?[pause][\x0203]¡Agh! Mejor
+    me esfuerzo
+    en mi juego.[pause]
+  - |-
+    [\x0207]Domador Andy[\x0207]Soy Andy, el
+    domador Genial
+    del Servidor 1.[pause][\x0203]Te lo aviso,
+    no eres rival
+    para mí.[pause]
+  - |-
+    [\x0207]Domador Andy[\x0207]Déjame probarlo
+    con una partida
+    de cartas.[pause][\x0203]¿Puedes vencer
+    la mega Carpeta que
+    hice?[pause]
+  - "[\\x0207]Domador Andy[\\x0207]Ja ja ja sabías\nque ibas a \nperder.[pause][\\x0203]Nadie puede vencer\nal domador Andy.[pause]"
+  - |-
+    [\x0207]Domador Andy[\x0207]¿Qué ocurrió? Esta
+    era la carpeta
+    más fuerte.[pause][\x0203]Prepárate, la
+    próxima vez
+    ¡no perderé![pause]
+  - |-
+    [\x0207]Tomoyo el Viajero[\x0207]¿Has terminado
+    de acabar tus
+    compañeros Digimon?[pause][\x0203]Si no puedes encontrar
+    lo que buscas, mira
+    en la Placa de Circuit.[pause]
+  - |-
+    [\x0207]Vendedor Abel[\x0207]Jo, la subasta
+    no se va a
+    celebrar.[pause][\x0203]No importa, ya
+    tengo lo que
+    necesito.[pause]
+  - |-
+    [\x0207]Rapero Mike[\x0207]¡Sí! Es increíble
+    que Digimon Online
+    funcione otra vez.[pause][\x0203]Es todo gracias
+    a [\x020801][\x020501], ese
+    domador tan bueno.[pause]
+  - "[\\x0207]Sakura[\\x0207]Dicen que si miras en\ntodos lados, obtendrás\ntodos los artículos.[pause][\\x0203]Apuesto a que si \nbusco bien también\nlos conseguiré yo.[pause]"
+  - "[\\x0207]Vago Yuka[\\x0207]Cuánto podrá \ndigievol. un Digimon.[pause][\\x0203]Creo que es algo\nque averiguaremos\nentrenando.[pause]"
+  - "[\\x0207]Guarda DO[\\x0207]¡A.o.A. son los\nmonstruos a \nexterminar![pause][\\x0203]Causan problemas\nincluso después\nde que se[pause][\\x0203]marcharan.[pause]"
+  - |-
+    [\x0207]Guarda DO[\x0207]¡Lo siento! Este
+    área esta en
+    construcción.[pause]
+  - "[\\x0207]Limpia Freda[\\x0207]¡Qué sucio! Voy \na limpiar.[pause][\\x0203]Todo estará\ninmaculado para\nel inicio oficial.[pause]"
+  - |-
+    [\x0207]Kurt[\x0207]¡Oye! ¡[\x020801][\x020501]!
+    ¡Lo lograste![pause][\x0203]Gracias a ti
+    Digimon Online está
+    de nuevo operativo.[pause][\x0203]¡Muchas gracias!
+    Venga,
+    diviértete.[pause]
+  - |-
+    [\x0207]Kurt[\x0207]¡Tío! Parece
+    que avanzaste en
+    este nivel.[pause][\x0203]¿Por qué no sigues
+    y hechas un vistazo
+    al estadio?[pause]
+  - |-
+    [\x0207]Kurt[\x0207]¡Eres el
+    que manda, tío![pause][\x0203]Serás el
+    siguiente Campeón
+    Mundial.[pause]
+  - |-
+    [\x0207]Operador DO [\x0207][\x020801][\x020501], tus
+    datos son
+    sorprendentes.[pause][\x0203]Los usaré para
+    equilibrar el
+    juego.[pause]
+  - |-
+    [\x0207]Operador DO[\x0207]Usaré lo que sé para
+    hacer un mundo
+    aún mejor.[pause][\x0203]Tengo esperanzas
+    en Digimon Online.[pause]
+  - |-
+    [\x0207]Fan Digimon Emmie[\x0207]Oí que los Digimon
+    harán el arma
+    que quieras.[pause][\x0203]Quiero toparme con
+    una de esas aunque
+    sea sólo una vez.[pause]
+  - |-
+    [\x0207]Luchador Midori[\x0207]¡Sí! Hora de ver
+    otra batalla
+    Digimon. ¡Increíble![pause][\x0203]Buena suerte y
+    que sea una
+    buena lucha.[pause]
+  - "[\\x0207]Guilmon[\\x0207]¿Eh? ¿Un túnel?\nEsto no estaba aquí\nantes.[pause][\\x0203]Puede que terminaran \nmientras estaban en\nobras.[pause]"
+  - "[\\x0207]Líder Chinron [\\x0207]¿Qué es esto?\n¿Quieres una \nbatalla conmigo?[pause][\\x0203]Si es así, debes\nencontrar los 5 Art.\nÉpicos más fuertes[pause][\\x0203]ocultos en este mundo\ny traerlos aquí\npero no son fáciles[pause][\\x0203]de encontrar, como\npuedas pensar.[pause]"
+  - "[\\x0207]Líder Chinron [\\x0207]¿Qué es esto?\n¿Quieres una \nbatalla conmigo?[pause][\\x0203]Ah, veo que tienes\nlos 5 Art. Épicos\nmás fuertes.[pause][\\x0203]Entonces \ncombatiré contra\nti, ¡tráelos![pause]"
+  - "[\\x0207]Líder Chinron [\\x0207]No esperaba menos de \nalguien que consiquió\nlos Art. Épicos[pause][\\x0203]más fuertes. Cógelos\ny llegarás a \nlo más alto.[pause]"
+  - |-
+    [\x0207]Autor William[\x0207]¿Leiste mi libro
+    "Oinkio y
+    Floriette"?[pause][\x0203]¡Es una historia de
+    amor sobre Oinkmon
+    y Floramon![pause][\x0203]Ahora escribiré
+    "Numemette". Estate
+    atento cuando salga.[pause]
+  - "[\\x0207]Grupi de Andy[\\x0207]¡Oh! Andy!\n¡Qué guay![pause][\\x0203]¡Siempre \nseré tu fan,\nAndy![pause]"
+  - a
+  - |-
+    [\x0207]Renamon[\x0207]Eres [\x020801][\x020501],
+    ya veo, pareces
+    muy fuerte.[pause][\x0203]Siempre quise
+    conocer un
+    Domador como tú.[pause]
+  - "[\\x0207]Guardromon[\\x0207]Me he transformado\nen un Digimon \nguarda.[pause][\\x0203]Lo haré lo mejor que\npueda para proteger\nDigimon Online.[pause]"
+  - "[\\x0207]Monmon[\\x0207]¡Qué aburrido! \nSólo hay\nDigimon.[pause][\\x0203]¡Me alegro de\nque \naparezcas![pause]"
+  - |-
+    [\x0207]Piccolomon[\x0207]Soy Jefe Digimon
+    ¿Qué puedo
+    hacer por ti?[pause]
+  - |-
+    [\x0207]Sarah[\x0207]El Líder Chinron
+    es tan varonil y
+    maravilloso.[pause][\x0203]¡El Líder Seiryu
+    es también
+    muy guapo![pause]
+  - |-
+    [\x0207]Emily el Fotógrafo[\x0207]¡Oye un segundo!
+    ¿No eres
+    [\x020801][\x020501]?[pause][\x0203]¡Guau! Soy un
+    gran aficionado tuyo.
+    ¿Hago una foto?[pause]
+  - |-
+    [\x0207]Abuelo Brown[\x0207]Ahora soy un
+    domador retirado.[pause][\x0203]Estoy seguro que
+    puedo cuidar de
+    vosotros, chicos.[pause]
+  - |-
+    [\x0207]Airdramon[\x0207]Zzzzzzz.
+    Zzzzzzz.[pause][\x0203]¡Ey! ¿Qué es
+    el alboroto de
+    ahí afuera?[pause]
+  - |-
+    [\x0207]Biyomon[\x0207]¡Ohhhhh!
+    Me alegro que Digimon
+    Online funcione.[pause]
+  - "[\\x0207]Terriermon[\\x0207]Mmm... \nmmm...\nZzzzzzz..[pause]"
+  - |-
+    [\x0207]Gabumon[\x0207]¡Ahh, Oaaaaaa!
+    Hoy estoy muy
+    cansado.[pause]
+  - "[\\x0207]Sr. Wedge[\\x0207]¡Oye! Gracias por\nvenir a la\nTienda de Wedge.[pause][\\x0203]Tengo buenos\nartículos. Hecha \nun vistazo.[pause]"
+  - |-
+    [\x0207]Sr. Wedge[\x0207]Veo que tienes
+    una Tarjeta
+    Platino.[pause]
+  - "[\\x0207]Sr. Wedge[\\x0207]¡Tenemos buen\nmaterial al fondo, \nbuscad![pause]"
+  - |-
+    [\x0207]Escritora Hanako[\x0207]¡El Sr. Wedge
+    es tan varonil![pause][\x0203]¡Buff! Hace que
+    me tiemblen
+    las piernas.[pause]
+  - |-
+    [\x0207]Divermon[\x0207]Mmm. ¿Por qué
+    no abro las
+    expansiones?[pause][\x0203]Vale, espera
+    un segundo.[pause]
+  - "[\\x0207]Ponchomon[\\x0207]Amigo, hablemos de\nalgunos de mis \nmejores artículos.[pause][\\x0203]Los Artículos Épicos\nson los más fuertes\ndel mundo.[pause][\\x0203]Los hicieron los \nArmeros en la\nPlaca de Circuitos.[pause][\\x0203]Pero sólo pueden\nusarlos domadores\nfuertes.[pause][\\x0203]No funcionan con\nlos débiles, amigo.[pause]"
+  - |-
+    [\x0207]Divermon[\x0207]¿Eh? ¿No tienes la
+    Bolsa de Carpetas?[pause][\x0203]Bien, en ese caso
+    no puedo ayudarte
+    ¡Fuera de aquí![pause]

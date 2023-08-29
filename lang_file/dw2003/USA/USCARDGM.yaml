@@ -1,0 +1,88 @@
+type: simple
+strings:
+  - ''
+  - Start Phase
+  - Draw Calumon to go first.
+  - Draw Phase
+  - 6 cards will be drawn.
+  - Load Phase
+  - Select and use a Program Card.
+  - Summon Phase
+  - Select your Digimon
+  - Compile Phase
+  - Select and use a Program Card.
+  - Battle Phase
+  - Start Battle!
+  - Card Battle
+  - Use a Program Card?
+  - Put in Field?
+  - You win!
+  - You lose!
+  - It's a draw so you, the challenger, lose.
+  - Current score
+  - Next set.
+  - You won this battle!
+  - You lost this battle!
+  - No Cards in the Field.
+  - |-
+    Yes
+    No
+  - Your Hand
+  - Your Deck
+  - Your Trash
+  - Opponent Hand
+  - Opponent Deck
+  - Opponent Trash
+  - Card Battle Challenge
+  - |-
+    Hand
+    Field
+    Trash
+    Cancel
+    Surrender
+  - |-
+    You cannot draw 6 cards,
+    so you lose this set.
+  - |-
+    Your opponent can't draw 6 cards,
+    so you win this set.
+  - No cards.
+  - X Select [square] Summon
+  - In[-4]Training
+  - Rookie
+  - Champion
+  - Ultimate
+  - Mega
+  - No cards.
+  - |-
+    Win
+    Loss
+  - Are you sure?
+  - |-
+    The Fortune Gate exchanges
+    the AP and HP.
+  - No Digimon in the Field.
+  - No Digimon affected
+  - That Digimon not here.
+  - No Green Digimon.
+  - No Brown Digimon.
+  - No Cards in Hand.
+  - No Cards in trash.
+  - No Cards in Deck.
+  - No Digimon Cards in Deck.
+  - No Program Cards in Deck.
+  - No Brown Digimon in Hand.
+  - Pick a Card to Trash.
+  - The card has no effect
+  - |-
+    There are too many Digimon cards in
+    field. Select which to throw away.
+  - Begin Load Phase
+  - Begin Compile Phase
+  - LV
+  - Pass
+  - |-
+    AP
+    HP
+  - Choose a folder
+  - Got a Booster Pack

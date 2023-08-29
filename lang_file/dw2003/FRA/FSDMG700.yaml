@@ -1,0 +1,598 @@
+type: extended
+files:
+  - strings:
+      - ''
+      - "[\\x0207]Junior[\\x0207]Ils sont en retard.\nQue font donc \nTeddy et Ivy ?[pause][\\x0203]On ne va pas avoir\nle temps de jouer\nà Digimon Online.[pause]"
+      - |-
+        [\x0207]Junior[\x0207]Je ne voulais pas
+        d'Ivy, mais Teddy lui
+        en a parlé.[pause][\x0203]Ils auraient dû
+        s'enregistrer à
+        l'avance...[pause]
+      - "... Communiqué.[pause][\\x0203]La police internationale S.A.P\na localisé le QG du groupe\ncriminel A.o.A en Europe.[pause][\\x0203]Hier soir à minuit, une\ndescente au QG a été \norganisée avec l'armée...[pause][\\x0203]Les chefs de l'A.o.A ont\nété arrêtés dans le\nbâtiment.[pause][\\x0203]Ces arrestations permettraient\nd'imputer certaines actions\ncyberterroristes à l'A.o.A.[pause]"
+      - |-
+        [\x0207]Junior[\x0207]C'est le groupe qui a
+        commis des délits
+        avec des Digimons.[pause][\x0203]Comment peut[-4]on
+        entraîner des Digimons
+        à faire ça ![pause]
+      - |-
+        [\x0207]Ivy[\x0207]Qu'est[-4]ce que tu as
+        à parler comme ça ?
+        C'est désagréable.[pause]
+      - |-
+        [\x0207]Teddy[\x0207]Merci de nous avoir
+        attendus. Désolé
+        pour le retard ![pause]
+      - |-
+        [\x0207][\x020902]3Pas trop
+        tôt, Teddy ![pause]
+      - "[\\x0207]Junior[\\x0207]Mais qu'est[-4]ce que \nfait Ivy ici,\nd'abord ?[pause][\\x0203]Tu dis toujours que\nles Digimons, c'est\npour les gamins ![pause]"
+      - |-
+        [\x0207]Ivy[\x0207]Digimon Online,
+        ça m'intéresse,
+        OK ?![pause][\x0203]Et je n'ai jamais dit
+        que je détestais
+        les Digimons ![pause]
+      - |-
+        [\x0207]Teddy[\x0207]Junior, Ivy [-4] allez,
+        on va au Centre
+        Online ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Junior :[\x0207]Alors c'est ça, le
+        Centre Online
+        MAGAMI ? Cool ![pause]
+      - "[\\x0207]Teddy[\\x0207]Oui, c'est le\nsystème Matrix ![pause][\\x0203]Il numérise nos idées\net nos pensées et les\nenvoie sur le net.[pause][\\x0203]Je me demande comment \nça marche ? Je veux\nle voir fonctionner.[pause]"
+      - |-
+        [\x0207]Junior :[\x0207]Hé, qu'est[-4]ce que
+        vous faites là[-4]bas ?[pause][\x0203]Allez, enregistrons[-4]
+        nous pour entrer
+        dans le Digimonde ![pause]
+      - "[\\x0207]Responsable Compte :[\\x0207]Bienvenue au \nCentre Online\nMAGAMI.[pause][\\x0203]Ce service s'adresse \nà ceux qui vont \ndans le Digimonde.[pause][\\x0203]C'est la première fois\nque vous jouez à\nDigimon Online ?[pause]"
+      - "[\\x0207]Responsable Compte  :[\\x0207]Avant de créer \nvotre compte...[pause][\\x0203]...vous devez \nchoisir vos\nDigimons partenaires.[pause]"
+      - |-
+        [\x0207]Responsable Compte :[\x0207]Choisissez un jeu de
+        départ : A, B ou C.[pause][\x0203]Chacun comporte trois
+        types de Digimons.[pause]
+      - "[\\x0207]Respons. Compte:[\\x0207]Le A, équilibré,\navec Kotemon,\nRenamon, Patamon.[pause][\\x0203]Le B, puissant, \navec Monmon,\nAgumon, Renamon.[pause][\\x0203]Le C, dément,\navec Kumamon,\nGuilmon, Patamon.[pause][\\x0203]Lequel des trois\npréférez[-4]vous ?[pause]"
+      - "[\\x0207]Ivy :[\\x0207]Allez, Junior,\nQu'est[-4]ce que\ntu attends ?[pause][\\x0203]Prends celui où il\ny a un Digimon \nqui te plaît.[pause]"
+      - |-
+        [\x0207]Junior :[\x0207]Je ne peux pas !
+        Ils ont tous un Digimon
+        qui me plaît ![pause]
+      - |-
+        [\x0207]Ivy :[\x0207]Alors quels Digimons
+        n'aimes[-4]tu pas ?[pause][\x0203]Tu n'as qu'à écarter
+        ceux qui ont un Digimon
+        que tu n'aimes pas ![pause]
+      - |-
+        [\x0207]Junior :[\x0207]Il n'y a pas de
+        Digimon que je
+        n'aime pas ![pause][\x0203]Je les aime tous ![pause]
+      - "[\\x0207]Ivy :[\\x0207]Et bien si tu les\naimes tous, il n'y a\npas de problème ![pause][\\x0203]Allez, choisis et\nentrons dans le \nDigimonde ![pause]"
+      - |-
+        [\x0207]Ivy :[\x0207]Junior ! Tu n'as
+        toujours pas choisi ?[pause][\x0203]Allez, décide[-4]toi
+        ou je ne t'attends
+        pas ![pause]
+      - |-
+        [\x0207]Responsible Compte :[\x0207]Vous êtes[-4]vous
+        tous décidés ?[pause]
+      - |-
+        [\x0207]Ivy :[\x0207]Junior ! J'y
+        vais, tant pis
+        pour toi.[pause]
+      - |-
+        [\x0207]Responsable Compte :[\x0207]Je vous enregistre
+        maintenant avec vos
+        Digimons partenaires.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Responsable Compte[\x0207]Inscription terminée.
+        Vous pouvez aller
+        vers la chambre.[pause]
+      - |-
+        [\x0207]Junior[\x0207]Ok, Teddy, Ivy !
+        Allons découvrir
+        le Digimonde ![pause]
+      - |-
+        [\x0207]Ivy[\x0207]Hé ! Attends[-4]
+        nous, Junior.[pause]
+      - |-
+        [\x0207]Teddy[\x0207]Je n'ai pas
+        terminé ![pause]
+  - strings:
+      - ''
+      - "[\\x0207]Junior[\\x0207]Ouah ! Alors c'est\nça, la chambre ?[pause][\\x0203]Je peux commencer\nà jouer... \nC'est génial ![pause]"
+      - |-
+        [\x0207]Opérateur[\x0207]Quel est votre
+        nom de compte ?[pause]
+      - '[\x0207]Junior[\x0207][\x020801][\x020501] ![pause]'
+      - |-
+        [\x0207]Opérateur[\x0207]...Confirmé.
+        Merci.[pause][\x0203]Entrez dans la
+        capsule de la
+        chambre, là[-4]bas.[pause]
+      - '[\x0207]Junior[\x0207]D''accord ![pause]'
+      - a
+      - |-
+        [\x0207]Ivy[\x0207]Hé ! Tu pars
+        sans nous ou
+        quoi ?[pause]
+      - |-
+        [\x0207]Teddy[\x0207]Attends[-4]
+        nous ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        A SAUVEGARDER[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        A SAUVEGARDER[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        A SAUVEGARDER[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        A SAUVEGARDER[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        A SAUVEGARDER[pause]
+  - strings:
+      - ''
+      - "[\\x0207]Maître des Glaces[\\x0207]Hé attends !\nOn ne peut pas \npasser par ici ![pause][\\x0203]Si tu veux passer,\nil faudra d'abord\nme battre ![pause]"
+      - "[\\x0207][\\x020902]3Bien. Je dois \njuste gagner, \nc'est ça ?[pause]"
+      - "[\\x0207]Maître Glaces[\\x0207]Voilà. \nT'as tout \ncompris ![pause][\\x0203]OK, allons[-4]y ![pause]"
+      - |-
+        [\x0207][\x020902]3Parfait.
+        C'est parti ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Sorcière Glaces[\x0207]Je ne vais pas
+        laisser passer un
+        gamin comme toi ![pause][\x0203]Rentre chez
+        toi ![pause]
+      - |-
+        [\x0207][\x020902]3Tu plaisantes !
+        Je n'ai pas de
+        temps à perdre ![pause]
+      - |-
+        [\x0207]Sorcière des Glaces[\x0207]Je suis la Reine
+        du Donjon de Glace
+        jeune insolent ![pause][\x0203]Tu sera puni pour
+        ton impudence ![pause]
+      - '[\x0207][\x020902]3?!?[pause]'
+  - strings:
+      - ''
+      - |-
+        [\x0207]Sorcière des Glaces[\x0207]Je dois admettre ma
+        défaite. Bravo ![pause][\x0203]Ainsi que le veulent
+        les règles, tu peux
+        passer, maintenant.[pause]
+      - |-
+        [\x0207]Sorcière Glaces[\x0207]Va, je prierai
+        pour que tu
+        réussisses.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Chevalier du Feu[\x0207]Attends ! Tu
+        arrives à point,
+        je m'ennuyais.[pause]
+      - |-
+        [\x0207][\x020902]3S'ennuyer ? Je
+        n'ai pas le temps ![pause]
+      - |-
+        [\x0207]Chevalier du Feu[\x0207]Tu ne t'ennuies
+        pas ? Sans blague ![pause][\x0203]Les dresseurs sont
+        faibles ces temps[-4]ci...[pause][\x0203]Mais tu as l'air en
+        forme. On se bat ?[pause]
+      - '[\x0207][\x020902]3?!?[pause]'
+      - |-
+        [\x0207]Chevalier du Feu[\x0207]Tu vas connaître
+        le pouvoir de mes
+        Digimons. Feeeuuu ![pause]
+  - strings:
+      - ''
+      - "[\\x0207]Chevalier du Feu[\\x0207]Bon, j'ai perdu \npour cette fois.[pause][\\x0203]Cela fait du bien\nde se battre. Tu\nreviendras me voir ?[pause]"
+      - |-
+        [\x0207]Chevalier du Feu[\x0207]Le Donjon des
+        Ténèbres est juste
+        là ! Sois prudent ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Chevalier Ténèbres[\x0207]Voyez[-4]vous ça !
+        Tu as l'air bien
+        hardi ![pause][\x0203]Voici le Donjon des
+        Ténèbres, le + fort
+        du serveur Asuka ![pause][\x0203]Je suis le Che[-4]
+        valier des Ténèbres,
+        le + fort de tous ![pause]
+      - "[\\x0207][\\x020902]3Et moi [\\x020801][\\x020501], \nle meilleur dresseur.\nTu me gênes là...[pause]"
+      - |-
+        [\x0207]Chevalier des Ténèbres[\x0207]Quoi ?! Hé, le
+        môme, ça ne marche
+        pas comme ça ici ![pause][\x0203]Je ne laisse pas
+        passer n'importe qui ![pause][\x0203]Tu dois d'abord
+        me battre
+        pour passer ![pause][\x0203]Tu peux essayer
+        du moins...[pause]
+      - '[\x0207][\x020902]3?!?[pause]'
+  - strings:
+      - ''
+      - |-
+        [\x0207]Chevalier Ténèbres[\x0207]Tu as des
+        mouvements que
+        je n'ai jamais vus.[pause]
+      - |-
+        [\x0207]Chevalier Ténèbres[\x0207]Allez, va !
+        Tu es un grand
+        dresseur ![pause]
+      - |-
+        [\x0207][\x020902]3Super,
+        merci ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Chef de Genbu[\x0207]Un challenger
+        à un moment
+        pareil ?!![pause]
+      - |-
+        [\x0207][\x020902]3Chef de Genbu,
+        j'ai une faveur
+        à te demander :[pause][\x0203]ton badge, pour
+        retourner dans le
+        Monde Réel...[pause]
+      - |-
+        [\x0207]Chef de Genbu[\x0207]Désolé, je ne peux
+        donner mon badge
+        gratuitement.[pause][\x0203]Ce sont les règles.[pause][\x0203]Pour l'obtenir, tu
+        dois me battre ![pause]
+      - |-
+        [\x0207][\x020902]3Très bien. Je
+        me doutais de
+        ta réponse ![pause][\x0203]Finissons[-4]en ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3J'ai aussi
+        vaincu le chef
+        de Genbu ![pause]
+      - |-
+        [\x0207]Chef de Genbu[\x0207]Désolé de t'avoir
+        forcé à te battre.[pause][\x0203]Je voulais vérifier par
+        moi[-4]même que... [pause][\x0203]Tu pouvais vraiment
+        triompher de l'AoA ![pause]
+      - '[\x0207][\x020902]3Oh, je vois.[pause]'
+      - |-
+        [\x0207]Chef de Genbu[\x0207]Maintenant prends
+        ça et déjoue les
+        plans de l'AoA ![pause]
+      - |-
+        [\x0207][\x020902]3Super ! J'ai
+        le badge
+        de Genbu ![pause]
+      - |-
+        [\x0207]Chef de Genbu[\x0207]Tu es assez fort
+        pour lutter
+        contre eux.[pause][\x0203]Mais eux aussi
+        sont forts,
+        sois prudent ![pause]
+      - |-
+        [\x0207][\x020902]3Merci, chef
+        de Genbu ![pause]
+  - strings:
+      - ''
+      - "[\\x0207]Chef de Xuen Wu[\\x0207]Te voilà enfin,\ntoi qui t'opposes\nà nous  ![pause][\\x0203]Je suis là. Et je \nne vais pas fuir ni\nme cacher  ![pause][\\x0203]Viens donc jusqu'à \nmoi si tu l'oses  ![pause]"
+      - |-
+        [\x0207][\x020902]3Regarde bien  !
+        J'arrive tout
+        de suite  ![pause]
+      - "[\\x0207]Chef de Xuen Wu[\\x0207]Hum, tu as donc\nréussi à venir \njusqu'ici ...[pause][\\x0203]J'aurais dû me \nméfier après la \ndéfaite des autres  ![pause]"
+      - |-
+        [\x0207][\x020902]3Chef Xuen Wu  !
+        Tu as le Passe
+        noir  ![pause]
+      - |-
+        [\x0207]Chef Xuen Wu[\x0207]Oui, je l'ai  !
+        Tu le veux ?[pause][\x0203]Tu devras venir
+        le chercher ![pause]
+      - |-
+        [\x0207][\x020902]3Ben tiens  !
+        J'arrive tout
+        de suite  ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Ouais  ! J'ai
+        vaincu le chef
+        de Xuen Wu ![pause]
+      - |-
+        [\x0207][\x020902]3Et en plus, j'ai
+        le Passe noir...[pause][\x0203]Il ne reste plus que
+        Amaterasu City  !
+        En route ![pause]
+  - strings:
+      - ''
+      - "[\\x0207]Maître des Glaces[\\x0207]Tu es bon. \nImpressionnant ![pause][\\x0203]Je t'offre ce \ncadeau. \nPrends[-4]le ![pause]"
+      - |-
+        [\x0207][\x020902]3Oui ! J'ai
+        un Chip PM ![pause]
+      - |-
+        [\x0207]Maître des Glaces[\x0207]Cela se corse à
+        partir d'ici !
+        Tiens[-4]toi prêt ![pause]
+  - strings:
+      - ''
+      - "[\\x0207]Maître du Feu[\\x0207]C'est dangereux par\nici ! Tu ferais mieux \nde faire demi[-4]tour ![pause][\\x0203]Ou préfères[-4]tu \nme vaincre et \ncontinuer ?[pause]"
+      - "[\\x0207][\\x020902]3Ouais, c'est\npour ça que \nje suis ici.[pause]"
+      - "[\\x0207]Maître du Feu[\\x0207]Tu es \nun dresseur\nagaçant... [pause][\\x0203]Si tu me bats, tu\npourras passer.[pause]"
+      - |-
+        [\x0207][\x020902]3OK ! Bats
+        toi ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Maître du Feu[\x0207]Tu es fort !
+        Impressionnant ![pause][\x0203]Prends ça, et
+        utilise[-4]le ![pause]
+      - |-
+        [\x0207][\x020902]3Oui, j'ai un
+        Chip Esprit ![pause]
+      - "[\\x0207]Maître du Feu[\\x0207]Notre chef \nest là[-4]bas !\nIl est fort ![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Maître Ténèbres[\x0207]...Hmm ? !
+        Qui es tu...[pause][\x0203]Tu es venu
+        ici pour me
+        défier ?[pause]
+      - "[\\x0207][\\x020902]3Oui !\nTu vas te battre \navec moi, non ?[pause]"
+      - |-
+        [\x0207]Maître Ténèbres[\x0207]Tu ne sais pas à
+        qui tu as affaire.[pause][\x0203]OK. Je n'ai pas
+        vu de dresseurs
+        depuis longtemps.[pause]
+      - |-
+        [\x0207][\x020902]3Regarde.
+        On va voir qui
+        est mauvais ![pause]
+  - strings:
+      - ''
+      - "[\\x0207]Maître Ténèbres[\\x0207]Tu es assez bon.\nJe te trouve un peu \npénible...[pause][\\x0203]...mais tu m'as \nbattu. Voici mon\ncadeau, c'est à toi.[pause]"
+      - |-
+        [\x0207][\x020902]3Oui ! J'ai
+        un Adaptateur
+        EXP ![pause]
+      - |-
+        [\x0207]Maître Ténèbres[\x0207]Tu deviendras
+        un grand
+        dresseur...[pause][\x0203]Bonne chance.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Responsable Chambre[\x0207]Tout est ok. Le
+        contrôle de [\x020801][\x020501]
+        est terminé.[pause][\x0203]Inversion du
+        Système Matrix.[pause][\x0203]Où veux[-4]tu être
+        "réalisé" dans le
+        Monde Réel ?[pause]
+      - |-
+        [\x0207][\x020902]3La base militaire
+        de Magasta, dans
+        le Monde Réel ![pause][\x0203]Elle est au fond
+        de l'océan ![pause]
+      - |-
+        [\x0207]Responsible Chambre[\x0207]Je comprends.
+        La base militaire
+        de Magasta...[pause]
+      - |-
+        [\x0207]Responsable Chambre[\x0207]Accepté. Elle est
+        dans le champ.[pause][\x0203]Mais le système est
+        instable et... [pause][\x0203]tu n'auras que
+        180 secondes dans
+        le Monde Réel.[pause]
+      - |-
+        [\x0207][\x020902]3Que se passera[-4]
+        t[-4]il si je dépasse
+        ce temps ?[pause]
+      - |-
+        [\x0207]Responsable Chambre[\x0207]La "Réalisation"
+        stoppera et le système
+        te renverra ici.[pause][\x0203]Les données Matrix ne
+        seront pas abîmées,
+        ne t'inquiète pas.[pause][\x0203]Démarrons le
+        Système Matrix,
+        à présent.[pause]
+      - |-
+        [\x0207][\x020902]3Très bien !
+        Que dois[-4]je
+        faire ?[pause]
+      - |-
+        [\x0207]Responsible Chambre[\x0207]Va dans le
+        téléporteur,
+        sur ma gauche.[pause][\x0203]Bonne chance
+        [\x020801][\x020501].[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Oui, c'est vraiment
+        le Monde Réel ![pause][\x0203]Ouah ! Mon corps
+        est bien ici ![pause][\x0203]... Oups ! Pas de
+        temps à perdre ![pause][\x0203]Nous n'avons que
+        180 secondes !
+        Dépêchons[-4]nous ![pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3C'est quoi, ces\ncommandes ?[pause][\\x0203]Voilà un bouton.\nBon, \nj'appuie ![pause]"
+      - |-
+        [\x0207][\x020902]3Je me demande
+        à quoi il
+        sert ? Bon...[pause]
+  - strings:
+      - ''
+      - |-
+        180 SECONDES !
+        180 SECONDES ![pause][\x0203]DELAI DE REALISATION
+        ECOULE...
+        NUMERISATION ENGAGEE ![pause]
+      - |-
+        [\x0207]Responsable Chambre[\x0207]Aucune anomalie
+        dans les données
+        du Système Astral.[pause][\x0203]Numérisation ![pause]
+      - |-
+        [\x0207][\x020902]3Les 3 minutes
+        sont passées !
+        Trop tard ![pause]
+      - |-
+        [\x0207][\x020902]3Que faire ?!
+        Le Juggernaut va
+        partir ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Responsable Chambre[\x0207]Système Astral OK.
+        Aucune anomalie
+        dans les données.[pause]
+      - |-
+        [\x0207][\x020902]3Je me demande ce
+        qui se passe dans
+        le Monde Réel... [pause][\x0203]J'espère que tout
+        va bien...[pause]
+      - |-
+        DELAI ECOULE.
+        NUMERISATION ENGAGEE.[pause]
+      - |-
+        [\x0207][\x020902]3Que faire ? Je
+        n'ai pas arrêté
+        le Juggernaut.[pause][\x0203]J'y étais
+        presque ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Ils ont pris
+        le Juggernaut...[pause]
+      - |-
+        [\x0207][\x020902]3Je me demande ce
+        qui se passe dans
+        le Monde Réel... [pause][\x0203]J'espère que
+        tout va bien...[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3... mais je
+        ne m'avoue
+        pas vaincu ![pause][\x0203]Je suis sûr
+        qu'il y a un
+        autre moyen ![pause]
+      - |-
+        [\x0207][\x020902]3OK, allons
+        retrouver Lisa
+        et les autres ![pause]
+  - strings:
+      - ''
+      - |-
+        ...Communiqué. Le réseau
+        optique est tombé en panne.[pause][\x0203]La SAP pense qu'il s'agit d'un
+        acte de cyberterrorisme.
+        Une enquête a été ouverte.[pause][\x0203]Une interruption prolongée
+        pourrait avoir de nombreuses
+        conséquences...[pause]
+      - |-
+        [\x0207]Seiya l'Informaticien[\x0207]Quoi ?!
+        Digimon Online
+        aussi ![pause][\x0203]J'allais me
+        connecter ! Mais
+        s'il y a une panne...[pause]
+      - |-
+        [\x0207]Hideki le Scientifique[\x0207]Une panne de réseau
+        est un gros problème
+        pour Digimon Online.[pause][\x0203]Le système Matrix
+        n'a plus accès aux
+        serveurs, c'est ça ?[pause][\x0203]Cela signifie que
+        vous ne pouvez
+        pas revenir ?[pause]
+      - |-
+        [\x0207]Kouta le Technicien[\x0207]... mais je me
+        demande qui est
+        derrière ça.[pause][\x0203]Je croyais qu'ils
+        avaient arrêté les
+        chefs de l'AoA.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Seiya Informat.[\x0207]Qu'est[-4]ce qui
+        se passe ?![pause]
+      - |-
+        [\x0207]Saki le Branché[\x0207]Chut ! Je
+        n'entends plus
+        mon portable ![pause]
+      - |-
+        [\x0207]Teruko le Chaland[\x0207]Quoi ?!! Que
+        dois[-4]je faire ?[pause]
+      - |-
+        [\x0207]Teruko le Chaland[\x0207]Où est
+        la police ?[pause]
+  - strings:
+      - ''
+      - "Com....zzzhh... muniqué... \n... aujour... base... marine... \n... zzzh... [pause][\\x0203]... att... par... terrori...\n....Jugger... et... maintenant...\n... ville.... zzzh....[pause][\\x0203]Zzzhh... émerge.....est...\nHabitants... abriter....\n.... et..... fuite.... zzzhh[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Tech Savy Seiya[\\x0207]Oi ? \nOioio......\n.......[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Après ma victoire
+        sur Gallacticmon,
+        tout allait bien...[pause][\x0203]Mais ça fait déjà
+        trois mois... C'est
+        comme dans un rêve.[pause]
+      - "[\\x0207][\\x020902]3Que font Ivy \net Teddy ?[pause][\\x0203]La cérémonie \nd'ouverture va \ndébuter ![pause]"
+      - "Merci de votre patience ! La \ncérémonie d'ouverture de Digimon \nOnline va débuter ![pause][\\x0203]DNB TV est en direct du monde \nnumérique pour la première fois, \ngrâce au réseau optique ! [pause][\\x0203]On va ainsi pouvoir se\nconnecter au monde numérique ![pause]"
+      - "[\\x0207][\\x020902]3Kurt est incroyable !\nIl a créé une \nentreprise...[pause][\\x0203]Et lancé Digimon \nOnline à la place de\nMAGAMI...[pause]"
+      - "[\\x0207]Ivy[\\x0207]Pourquoi tu parles \ndans ta barbe\ncomme ça ?[pause]"
+      - "[\\x0207]Teddy[\\x0207]Hé, [\\x020801][\\x020501]\nT'es déjà \nlà ?[pause]"
+      - "[\\x0207][\\x020902]3Vous êtes  \nen retard ![pause]"
+      - "[\\x0207][\\x020902]3Cela fait bien\ndix minutes \nque j'attends.[pause]"
+      - |-
+        [\x0207]Ivy[\x0207]Que veux[-4]tu que j'y
+        fasse ? Tu es arrivé
+        trop tôt ![pause][\x0203]Si c'était pour être
+        pénible, tu aurais
+        mieux fait de partir ![pause]
+      - |-
+        [\x0207]Teddy[\x0207]Hé, hé...
+        [\x020801][\x020501],
+        Ivy ![pause][\x0203]Du calme.
+        Allons plutôt au
+        Centre Online ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Oh, non ! 3
+        minutes ont
+        passé ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        A SAUVEGARDER[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        A SAUVEGARDER[pause]

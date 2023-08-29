@@ -1,0 +1,446 @@
+type: simple
+strings:
+  - ''
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - Hot Head
+  - Swing Swing
+  - Bear Fist
+  - Pepper Breath
+  - Vee Head Butt
+  - Pyrosphere
+  - Diamond Storm
+  - Boom Bubble
+  - Lizard Dance
+  - Captain Cannon
+  - Maul Attack
+  - Nova Blast
+  - Veelaser
+  - Plasma Blade
+  - Dragon Wheel
+  - Hand of Fate
+  - Touch of Evil
+  - Spiking Strike
+  - Celestial Arrow
+  - Blade Twister
+  - Justice Strike
+  - Cyclone Turbine
+  - Giga Destroyer
+  - Dark Shot
+  - DesperadoBlaster
+  - Atomic Blaster
+  - Bonhitsusen
+  - Gate of Destiny
+  - Grisly Wing
+  - Energetic Bomb
+  - Electro Shocker
+  - NM Syndromer
+  - Golden Ripper
+  - DynamoCannon
+  - Mugenhadou
+  - Terra Force
+  - Mega Crusher
+  - Final Purification
+  - KongouKaimandara
+  - Seven Heavens
+  - Metal Wolf Claw
+  - Thorn Whipping
+  - Terra Destroyer
+  - Giga Crusher
+  - Melting Blood
+  - Giant Missile
+  - Dimension Scissors
+  - Crimson Flame
+  - T[-4]Sword
+  - Omega Blade
+  - Blast Mode
+  - Cable Crusher
+  - Heat Cutter
+  - Burn Slash
+  - Frost Cutter
+  - Cold Slash
+  - Whirlwind
+  - Vacuum Cannon
+  - Lightning Slash
+  - Heaven Hit
+  - Metal Attack
+  - Mechanical Bash
+  - Poison Bites
+  - Venom Stab
+  - Spinal Tap
+  - Brain Freeze
+  - Panic Bites
+  - Confuse Stab
+  - Counter Alert
+  - Counter Strike
+  - Hammer Rush
+  - Impact Rush
+  - Big Shot
+  - Pinpoint Shot
+  - Picking Claw
+  - Snapping Claw
+  - a
+  - a
+  - Bug Buster
+  - Wing Buster
+  - Fish Buster
+  - Dino Buster
+  - Dramon Buster
+  - Devil Buster
+  - Flame Ball
+  - Flame Lance
+  - Flame Breath
+  - Flame Sphere
+  - Triple Fire
+  - Rising Fire
+  - Giga Fire
+  - Inferno
+  - Divine Rain
+  - Hard Rain
+  - Grand Wave
+  - Titanic Wave
+  - Ice Blow
+  - Ice Shower
+  - Snowstorm
+  - Giga Freeze
+  - Air Blast
+  - Mega Tornado
+  - Sylph Storm
+  - Thunder Bolt
+  - Thunder Gemini
+  - Electro Bolt
+  - Lightning Bolt
+  - Magic Missile
+  - Twin Missile
+  - Magical Cannon
+  - God Bombard
+  - Dark Matter
+  - Dark Fear
+  - Dark Elemental
+  - Darkness Chaos
+  - Black Thorn
+  - Black Dart
+  - Crimson Cloud
+  - Black Scewer
+  - Evil Poison
+  - Deadly Poison
+  - Stun Shock
+  - Paralyze Shock
+  - Confuse Gas
+  - Confuse Nebula
+  - Hypno Gas
+  - Hypno Nebula
+  - Soul Snatcher
+  - Soul Plunder
+  - Energy Leech
+  - Energy Drain
+  - Small Heal
+  - Mega Heal
+  - Full Heal
+  - Giga Heal
+  - Final Heal
+  - Auto Recover
+  - Antidote
+  - Erase Poison
+  - Anti[-4]Paralysis
+  - Erase Paralysis
+  - Anti[-4]Confuse
+  - Erase Confuse
+  - Anti[-4]Magic
+  - Erase Magic
+  - Double Power
+  - Mega Strength
+  - Double Guard
+  - Mega Protection
+  - Speed Up
+  - Mega Boost
+  - Lovely Charm
+  - Armor Break
+  - Armor Off
+  - Slow Down
+  - Mega Break
+  - Soul Charge
+  - Misshukikou
+  - Capture Beam
+  - Hold Beam
+  - Fire Field
+  - Water Field
+  - Ice Field
+  - Wind Field
+  - Thunder Field
+  - Metal Field
+  - Dark Field
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - Paildramon
+  - Phoenixmon
+  - MegaGargomon
+  - Omnimon
+  - ImperialdramonPM
+  - Beelzemon
+  - Diabolomon
+  - a
+  - Necro Mist
+  - a
+  - Master Fire
+  - a
+  - Atomic Ray
+  - a
+  - HeartBreakAttack
+  - a
+  - a
+  - Helter Skelter
+  - Vampire Jewel
+  - Cross Slash
+  - Hunting Knife
+  - a
+  - Mad Pump
+  - a
+  - Berserk Sword
+  - a
+  - Gilead Plant
+  - Big Charge Bomb
+  - a
+  - Maltcyclone
+  - a
+  - Electro Ball
+  - Back Storm
+  - Mugen Cannon
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - a
+  - Dark Pupil
+  - a
+  - Agunimon
+  - BladeGarurumon
+  - AncientGreymon
+  - a
+  - Attack
+  - Ragnarok Cannon
+  - a
+  - Counter
+  - ?????
+  - None
+  - None
+  - ?????

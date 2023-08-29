@@ -1,0 +1,49 @@
+type: simple
+strings:
+  - ''
+  - Choisir action
+  - Changer Digimon
+  - Digivolver
+  - Carte Digivolve
+  - '[triangle] : Retour'
+  - '[triangle] : Retour Menu'
+  - Arrêter chargement ?
+  - Charger ?
+  - Charger jusqu'à 3.
+  - Charg. Techn. Impossible
+  - Charg. Techn. Impossible.
+  - Oui
+  - Non
+  - PM
+  - OK
+  - /3
+  - Chrg.
+  - '[-4][-4][-4][-4]'
+  - NV Apt
+  - '[circle] : détails'
+  - NV
+  - PV
+  - /
+  - Echanger qui ?
+  - Voir quel Digivolve ?
+  - Voir carte de qui ?
+  - '[-4][-4][-4][-4][-4]'
+  - '[-4][-4]'
+  - Echanger avec qui ?
+  - Digivolve .
+  - Choisir un Digivolve.
+  - '[-4][-4][-4]'
+  - Changer type Digivolve.
+  - Charger technique.
+  - Ne rien faire.
+  - Imp. changer Digivolve.
+  - Imp. charger techn.
+  - Choisir une technique.
+  - Digivolve [\x020501]
+  - /4
+  - L1
+  - R1
+  - |-
+    Digivolve Combat désactivé,
+    sélectionne un Digivolve Combat.
+  - Attends

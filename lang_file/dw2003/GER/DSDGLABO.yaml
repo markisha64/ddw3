@@ -1,0 +1,49 @@
+type: simple
+strings:
+  - ''
+  - Aktion auswählen
+  - Digimon tauschen
+  - Digitieren
+  - Digitation
+  - '[triangle] :Zurück'
+  - '[triangle] :Zurück zum Menü'
+  - Laden deaktivieren?
+  - Laden?
+  - Max. 3 laden.
+  - T. noch nicht verfügbar.
+  - Kann Technik nicht laden.
+  - Ja
+  - Nein
+  - MP
+  - OK
+  - /3
+  - Lad
+  - '----'
+  - Fähigk.
+  - '[circle] : Details'
+  - LV
+  - HP
+  - /
+  - Welches tauschen?
+  - Wessen Digit. ans.?
+  - Wessen Tabelle ans.?
+  - '-----'
+  - --
+  - Mit wem tausch.?
+  - Kann nicht digit
+  - Digitation auswählen
+  - '---'
+  - Digit.[-4]Typ ändern.
+  - Technik laden.
+  - Nichts tun.
+  - Kann Digit. nicht änd
+  - Kann Tech. nicht lad.
+  - Technik auswählen.
+  - '[\x020501] digitieren'
+  - /4
+  - L1
+  - R1
+  - |-
+    Kampfdigit. ist aus.
+    Wähle eine Kampfdigit.
+  - Nt. einst

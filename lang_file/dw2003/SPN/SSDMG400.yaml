@@ -1,0 +1,502 @@
+type: extended
+files:
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3MasterTyranno
+        ¡Luche conmigo![pause]
+      - |-
+        [\x0207]Maestro Tyranno[\x0207]¡Claro!
+        Acabo de comer,
+        estoy recargado.[pause]
+      - "[\\x0207][\\x020902]3¡Venga! le \nenseñaré \ncomo lucho.[pause]"
+      - |-
+        [\x0207]MasterTyranno[\x0207]Muy optimista,
+        chico.[pause][\x0203]¡Pero hace falta
+        más de eso para
+        ganarme![pause]
+  - strings:
+      - ''
+      - "[\\x0207]MasterTyranno[\\x0207]¡Vaya, chico!\n¡Eres bueno![pause][\\x0203]Te daré esto \npor ganarme.[pause]"
+      - "[\\x0207][\\x020902]3¡Bien! \n¡La Garra \nAntigua![pause]"
+      - |-
+        [\x0207]Maestro Tyranno[\x0207]¡Llévala al Líder
+        Seiryu![pause][\x0203]Y él luchará
+        contigo.[pause]
+      - |-
+        [\x0207][\x020902]3¡Gracias,
+        MasterTyrano![pause]
+      - "[\\x0207]MasterTyranno[\\x0207]El Líder Seiryu \nes muy bueno.\n¡Prepárate![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Líder Seiryu, he\nganado a \nMasterTyranno.[pause][\\x0203]¿Luchará ahora\ncontra mí?[pause]"
+      - |-
+        [\x0207]Líder Seiryu[\x0207]Ya veo, tienes
+        la Garra Antig.[pause][\x0203]¡De acuerdo,
+        empieza![pause]
+  - strings:
+      - ''
+      - "[\\x0207]Líder Seiryu[\\x0207]Eres bueno.\n¿Cómo te \nllamas?[pause]"
+      - |-
+        [\x0207][\x020902]3Soy Junior.
+        ¡Ha sido un
+        combate digno![pause]
+      - |-
+        [\x0207]Líder Seiryu[\x0207]Vale, [\x020801][\x020501],
+        llévate esto
+        contigo.[pause]
+      - "[\\x0207][\\x020902]3¡Tengo el Pin \nSeiryu y el Pase\nde Plata![pause]"
+      - "[\\x0207]Líder Seiryu[\\x0207]Los necesitarás \nen las futuras\nbatallas.[pause][\\x0203]Son importantes, \nno los pierdas.[pause]"
+      - |-
+        [\x0207][\x020902]3¡Gracias, Líder
+        Seiryu![pause]
+      - |-
+        [\x0207]Líder Seiryu[\x0207]Reta al Líder Suzaku
+        en el Sector Sur.[pause][\x0203]Te queda mucho,
+        pero puedes hacerlo.
+        ¡Buena suerte![pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3¿Eh? ¿Qué \nestá pasando?[pause]"
+      - |-
+        ¡Código Rojo!¡Código Rojo!
+        Vamos a parar unos instantes
+        por motivos de seguridad[pause]
+      - '[\x0207][\x020902]3¡Terremoto![pause]'
+      - |-
+        [\x0207][\x020902]3¿Pero qué...?
+        ¿Es eso un
+        Digimon?[pause]
+  - strings:
+      - ''
+      - |-
+        Gracias por esperar.
+        Vamos a continuar el
+        funcionamiento de góndola.[pause]
+      - |-
+        [\x0207][\x020902]3Ah...
+        ¡Eh, espera![pause][\x0203]¡Vaya, se fue![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3¡He llegado al
+        Sector Sur![pause][\x0203]Pero no sé qué
+        Digimon era...[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3¿Eh? Es raro.
+        No hay nadie
+        aquí.[pause]
+      - '[\x0207]Voz[\x0207]Uuhhhh[pause]'
+      - '[\x0207][\x020902]3¿QQ.. Qué?[pause]'
+      - '[\x0207]Voz[\x0207]... ¡Uuuhhh![pause]'
+      - |-
+        [\x0207][\x020902]3¿Qué es eso?
+        ¡Un fantasma![pause]
+  - strings:
+      - ''
+      - "[\\x0207]Zambamon[\\x0207]¡Eh, espera,\nespeeera![pause][\\x0203]¡No te voy a \ndejar pasar por \naquí![pause]"
+      - "[\\x0207][\\x020902]3Tienes que estar \nde broma. ¡Tengo\nque pasar![pause]"
+      - |-
+        [\x0207]Zambamon[\x0207]Entonces intenta
+        ganarme.[pause][\x0203]¡Por supuesto!
+        ¡Yo nunca pierdo!
+        ¡Ja ja ja ja![pause]
+      - |-
+        [\x0207][\x020902]3Sí, claro.[pause][\x0203]¡Siempre hay
+        una primera![pause]
+  - strings:
+      - ''
+      - "[\\x0207]Zambamon[\\x0207]¿Qué? ¿Te vas en\nmitad de la batalla?[pause][\\x0203]¡No eres rival \npara mí![pause]"
+      - "[\\x0207][\\x020902]3¿Qué está \npasando?[pause][\\x0203]Sólo mira, ¡voy \na ganar!\n¡Volveré![pause]"
+      - "[\\x0207]Zanbamon[\\x0207]¡Eres un  \nbocas, niño!\n¡Ja ja ja ja![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Voz[\x0207]Uuhhh...
+        ... Uuhh[pause]
+      - |-
+        [\x0207][\x020902]3Debes ser
+        Sepikmon.[pause]
+      - |-
+        [\x0207]Voz[\x0207]Uuhh...
+        ...cof,
+        cof[pause][\x0203]Sí, ¿qué
+        quieres?[pause]
+      - "[\\x0207][\\x020902]3Eh, ¿me dices cómo \nganar a Zanbamon?[pause]"
+      - |-
+        [\x0207]Sepikmon[\x0207]Puedo, pero primero
+        tengo un encargo.[pause]
+      - "[\\x0207]Sepikmon[\\x0207]He perdido mi \nmáscara en algún sitio.[pause][\\x0203]¡Si no la tengo, nadie\npuede verme![pause][\\x0203]Encuéntrala y te \ndiré lo que quieras\nsaber.[pause]"
+      - "[\\x0207]Sepikmon[\\x0207]La tenía cuando \nestaba con Baronmon...[pause][\\x0203]...¡Así que se me \nhabrá caído después![pause][\\x0203]¡Muchas gracias![pause]"
+      - "[\\x0207]Voz[\\x0207]... Sí, ¡lo \nque quieras![pause]"
+      - "[\\x0207][\\x020902]3Vale, de acuerdo.\nIré a buscar \ntu máscara.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Umm, no hay
+        nadie...[pause]
+      - '[\x0207]Voz[\x0207]Uuhhhhhh[pause]'
+      - |-
+        [\x0207][\x020902]3¡Ahh! ¡Un
+        monstruo![pause]
+  - strings:
+      - ''
+      - "[\\x0207]Sepikmon[\\x0207]Corre y busca\nmi máscara.[pause][\\x0203]La tenía cuando\nestaba con \nBaronmon...[pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Sepikmon[\\x0207]¡Todos dicen que he \nestado gastando bromas  \nen Ciudad Asuka![pause][\\x0203]¡Ese debe tener mi\nmáscara![pause][\\x0203]Encuéntralo y traeme\nla máscara ¡Gracias![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Sepikmon,
+        ¡tengo tu
+        Máscara Sepik![pause]
+      - |-
+        [\x0207]Sepikmon[\x0207]¡Uauuu!
+        ¡Gracias![pause]
+      - '[\x0207]Sepikmon[\x0207]......[pause]'
+      - "[\\x0207][\\x020902]3¿Qué pasa?\nPóntela \ny sal.[pause]"
+      - "[\\x0207]Sepikmon[\\x0207]Ejem... ¿Puedes \ndarte la vuelta?[pause]"
+      - |-
+        [\x0207][\x020902]3Ah, sí
+        claro.[pause]
+      - |-
+        [\x0207]Sepikmon[\x0207]¡Muy bien!
+        ¡Mejor así!
+        ¡Me siento mejor![pause]
+      - "[\\x0207]Sepikmon[\\x0207]¡Te daré \nesto![pause]"
+      - "[\\x0207][\\x020902]3¿Eh? ¿Qué \nes, Hierba\nOlorosa?[pause]"
+      - "[\\x0207]Sepikmon[\\x0207]¡Zanbamon odia la \nHierba Olorosa![pause][\\x0203]Es estupendo. ¡Así\nsaldrá corriendo![pause]"
+      - "[\\x0207][\\x020902]3¿De verdad?\n¡Gracias, me  \nsalvas la vida![pause]"
+      - |-
+        [\x0207]Sepikmon[\x0207]A ti también.
+        ¡Mucha suerte![pause]
+      - "[\\x0207]Sepikmon[\\x0207]¡Esta bolsa de \npapel no lo \ncortó![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3¡Zanbamon!
+        ¡Esta vez voy
+        a pasar![pause]
+      - "[\\x0207]Zanbamon[\\x0207]¡Ja ja ja!\nNunca te cansas,\n¿verdad?[pause][\\x0203]No importa cómo lo\nintentes. ¡Nunca \nganarás![pause]"
+      - |-
+        [\x0207][\x020902]3Eso lo veremos.
+        ¡Mira lo
+        que tengo![pause]
+      - |-
+        [\x0207]Zanbamon[\x0207]¡Ohhh! ¿Es,
+        es eso una
+        Hierba Olor.?[pause]
+      - |-
+        [\x0207][\x020902]3¡Bien!¡Ya
+        puedo ir![pause]
+      - "[\\x0207]Zanbamon[\\x0207]¡No lo soporto!\nEstá bien,\npasa esta vez.[pause][\\x0203]¡Pero no lo \nolvidaré, chico![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARADO PARA
+        GUARDAR.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARADO PARA
+        GUARDAR.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARADO PARA
+        GUARDAR.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Eh, MetalGreymon\nTengo un favor que \npedirte...[pause][\\x0203]¿Puedes darme una \nmuestra de DADN\nde Agumon de DADN?[pause]"
+      - "[\\x0207]MetalGreymon[\\x0207]Umm, perdona pero\nno puedo dártelo\ntan fácilmente.[pause][\\x0203]¡Si de verdad la \nquieres, tendrás\nque ganarme![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3¡Bien!
+        ¡Gané![pause]
+      - |-
+        [\x0207]MetalGreymon[\x0207]Bueno, lo prometido
+        es deuda...
+        ¡Úsala bien![pause]
+      - |-
+        [\x0207][\x020902]3¡Sí!¡Tengo
+        el DADN de
+        Agumon![pause][\x0203]¡Gracias,
+        MetalGreymon![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3WarGrowlmon.Tengo
+        un favor que pedirte.[pause][\x0203]¿Puedes darme una
+        muestra de DADN de
+        Guilmon de tu DADN?[pause]
+      - |-
+        [\x0207]WarGrowlmon[\x0207]¡De eso nada!
+        ¡Si la quieres,
+        tienes que luchar![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3¡Bien!
+        ¡Gané![pause]
+      - |-
+        [\x0207]WarGrowlmon[\x0207]Un combate
+        estupendo.[pause][\x0203]¡Toma esto![pause]
+      - "[\\x0207][\\x020902]3¡Sí!¡Tengo\nel DADN de \nGuilmon![pause][\\x0203]¡Gracias,\nWarGrowlmon![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3GrapLeomon,
+        tengo un favor
+        que pedirte.[pause][\x0203]¿Puedes darme
+        DADN de Kumamon
+        de tu DADN?[pause]
+      - |-
+        [\x0207]GrapLeamon[\x0207]¡Ja ja ja!
+        ¡Qué gracioso, chico![pause][\x0203]¡Si me ganas
+        podrás tenerlo![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3¡Sííí!
+        ¡Gané![pause]
+      - |-
+        [\x0207]GrapLeomon[\x0207]De acuerdo
+        mantendré mi
+        promesa.[pause][\x0203]Es mi código
+        de honor.[pause]
+      - "[\\x0207][\\x020902]3¡Sí! ¡Tengo\nel DADN de \nKumamon![pause][\\x0203]¡Gracias,\nGrapLeomon![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Paildramon,\ntengo un favor que\npedirte.[pause][\\x0203]¿Puedes darme el \nDADN de Veemon de \ntu DADN?[pause]"
+      - "[\\x0207]Paildramon[\\x0207]¡Ni hablar! Te\nclavan una aguja\npara eso.[pause][\\x0203]¡A menos que me \nganes en batalla,\npuedes olvidarte![pause]"
+      - "[\\x0207][\\x020902]3De acuerdo,\nsólo tengo que \nganar, ¿no?[pause]"
+      - |-
+        [\x0207]Paildramon[\x0207]¡Sí, bueno,
+        inténtalo si
+        puedes![pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3¡Sí!¡Gané![pause][\\x0203]¡Venga, \ndámelo![pause]"
+      - |-
+        [\x0207]Paildramon[\x0207]De acuerdo...
+        Aquí tienes.
+        Tómalo. ¡Ahh![pause]
+      - "[\\x0207][\\x020902]3¡Sí! ¡Tengo\nel DADN de \nVeemon![pause][\\x0203]¡Gracias\nPaildramon![pause]"
+      - "[\\x0207]Paildramon[\\x0207]Sí, sí, no voy \na hacer esto \nnunca más.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3¡Claro!
+        ¡Te ganaré
+        cuando sea![pause]
+      - |-
+        [\x0207]BK Imperialdra.[\x0207]¡Tienes valor!
+        Me gustas.[pause]
+      - |-
+        [\x0207][\x020902]3¡Eh, también
+        tengo fuerza![pause]
+      - |-
+        [\x0207]BK Imperialdramon[\x0207]¡Tienes mucha
+        confianza![pause][\x0203]Bien,
+        ¡será un
+        buen combate![pause]
+  - strings:
+      - ''
+      - "[\\x0207]BK Imperialdramon[\\x0207]¡Eh, he perdido!\n¡Tienes \npotencia![pause]"
+      - |-
+        [\x0207][\x020902]3¡Claro!
+        ¡Hasta ahora
+        siempre gano![pause]
+      - |-
+        [\x0207]BK Imperialdramon[\x0207]Ya veo...
+        ¡Eres bueno![pause][\x0203]¡Te daré
+        esto! Toma.[pause]
+      - |-
+        [\x0207][\x020902]3¡Sí!¡Tengo
+        el Casco de
+        peligro![pause]
+      - |-
+        [\x0207]BK Imperialdramon[\x0207]Ha sido divertido
+        ¡Volveré otra
+        vez![pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Um. ¿Quién manda\naquí? ¿Dónde \nestán todos?[pause]"
+      - |-
+        Bip Bip...
+        ENCENDIDO
+        SIST. REINICI.[pause]
+      - |-
+        [\x0207][\x020902]3Uff
+        ¿Qué?[pause]
+      - "SOY EL SISTEMA OPERATIVO DE LA\nGÓNDOLA DE GRIETA PROFUNDA.[pause][\\x0203]PARA GIRAR LA GÓNDOLA\nHACIA EL SECTOR SUR...[pause][\\x0203]ES NECESARIO UN REGISTRO DE \nCUENTA CON UNA CARTA AZUL.[pause][\\x0203]LA TIENE UN DIGIMON NACIDO DE\nUNA CARTA AZUL, OBTÉNLA\nDE ESE DIGIMON.[pause]"
+      - "[\\x0207][\\x020902]3Ya veo, Digimon\nnacido de una\nCarta Azul.[pause][\\x0203]Creo que ese es \nGuilmon...[pause][\\x0203]Le preguntaré\na Guilmon en \nla ciudad.[pause]"
+  - strings:
+      - ''
+      - "Bip Bip.\nESPERE\nCONFIRMANDO DATOS[pause][\\x0203]......\nERROR EN \nLA CARTA AZUL.[pause][\\x0203]FINALIZAR REGISTRO\nDE CUENTA...[pause]"
+      - |-
+        [\x0207][\x020902]3¿Qué? ¿Por qué
+        no puedo entrar?[pause][\x0203]¡Tengo la Carta
+        Azul![pause]
+      - "[\\x0207][\\x020902]3¿Eh? ¿Qué? ¡no \nes la Carta \nAzul![pause][\\x0203]¡La A es un 8!\n¡Es la Carta \n8zul![pause][\\x0203]¡Es falsa!\n¡Me han \nengañado![pause]"
+  - strings:
+      - ''
+      - |-
+        Bip Bip
+        ESPERE
+        CONFIRMANDO DATOS.[pause]
+      - "[\\x0207][\\x020902]3¡Funcionó!\n¡Ya puedo ir \nal Sector Sur![pause]"
+      - "GRACIAS POR ESPERAR.\nERES [\\x020801][\\x020501][pause][\\x0203]EL SISTEMA SE \nINICIARÁ.\nPASE A LA GÓNDOLA[pause]"
+  - strings:
+      - ''
+      - |-
+        ACCESO SATÉLITE.
+        CUENTA CONFIRMADA
+        INICIANDO GÓNDOLA[pause]
+  - strings:
+      - ''
+      - |-
+        ACCESO SATÉLITE.
+        CUENTA CONFIRMADA
+        INICIANDO GÓNDOLA[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3¡Voy a encontrar a\nVeemon y conseguir\nlas Botas Árbol![pause][\\x0203]¡Tengo que tener \ncuidado de no salir \ndel Bosque de Pat.![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Agumon[\x0207]Je je je,
+        perdona, soy
+        Agumon.[pause][\x0203]Veemon está en
+        otro sitio.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Agumon[\x0207]Je je je,
+        perdona, soy
+        Agumon.[pause][\x0203]Veemon está en
+        otro sitio.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Agumon[\x0207]Je je je,
+        perdona, soy
+        Agumon.[pause][\x0203]Veemon está en
+        otro sitio.[pause]
+  - strings:
+      - ''
+      - "[\\x0207]Veemon[\\x0207]¡Oh, Me has\nencontrado![pause][\\x0203]De acuerdo. ¡Las\nlas Botas Árbol tal \ncomo prometí![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3De acuerdo, \ncoloco el Chip \nTNT aquí.[pause]"
+      - "[\\x0207][\\x020902]3¡Hay un \nagujero en\nel muro![pause][\\x0203]¡Ya podemos\nentrar![pause]"
+  - strings:
+      - ''
+      - '[\x0207][\x020902]3¡Eh, eso...![pause]'
+      - |-
+        [\x0207][\x020902]3¡Estupendo! Tengo
+        el Digih. de Seriedad![pause]
+      - "[\\x0207][\\x020902]3¡Ahora puedo llamar a \nSubmarimon y \ncruzar el mar![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Jefe Qing Long[\\x0207]¡Camarada! \n¡Bienvenido![pause]"
+      - "[\\x0207][\\x020902]3Jefe Qing Long.\n¿Dónde está el \nDigihuevo de Sabid.?[pause]"
+      - |-
+        [\x0207]Jefe Qing Long[\x0207]Yo tampoco lo sé,
+        pero ¿por qué?[pause][\x0203]No eres de nosotros.[pause]
+      - "[\\x0207][\\x020902]3Si no lo soy,\n¿qué vais a \nhacer?[pause]"
+      - "[\\x0207]Jefe Qing Lo. [\\x0207]¡Te capturaré\ncomo a los \notros![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3¡Sí! ¡He ganado
+        al Jefe Qing
+        Long![pause]
+      - "[\\x0207][\\x020902]3¿Eh?\nHay algo en el \nsuelo...[pause]"
+      - |-
+        [\x0207][\x020902]3Pero no hay rastro
+        del Digihuevo de
+        Sabiduría...[pause][\x0203]Me gustaría saber
+        qué pasa en el
+        Mundo Real...[pause]
+      - |-
+        [\x0207][\x020902]3¿Eh?
+        ¿Qué es esto?
+        ¿El Pase Azul?[pause][\x0203]¡Podría serme
+        de utilidad,
+        me lo llevaré![pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3No sé qué planea\nla A.o.A, \npero...[pause][\\x0203]¡Pero no voy a dejar\nque la A.o.A se \nsalgan con la suya![pause]"
+  - strings:
+      - ''
+      - "[\\x0207]Soldado[\\x0207]¿Es eso el \nPase ID Azul?[pause][\\x0203]L..Lo siento.\n¡No sabía que era\nJefe Qing Long![pause]"
+      - "[\\x0207][\\x020902]3¿Qué? Oh,\nah, sí...[pause][\\x0203]El uniforme es muy\nobvio. ¡Voy de patrulla\nde incógnito![pause][\\x0203]Vamos a guardar el\nsecreto, \n¿vale?[pause]"
+      - "[\\x0207]Soldado[\\x0207]¡Es usted grande\njefe! ¡Un gran \ntrabajador![pause]"
+      - |-
+        [\x0207][\x020902]3Uff, ha estado
+        cerca...[pause][\x0203]Pero ahora puedo
+        ir a la ciudad
+        Zhu Que.[pause]
+      - |-
+        [\x0207]Soldado[\x0207]¡Por favor,
+        pase![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Airdramon[\x0207]Zzzzzzzzz
+        Zzzzzzzz[pause]
+      - |-
+        [\x0207][\x020902]3Eh, Airdramon.
+        Tengo un favor que
+        pedirte.[pause]
+      - |-
+        [\x0207]Airdramon[\x0207]Zzzzzzzzz
+        Zzzzzzzz[pause]
+      - "[\\x0207][\\x020902]3Airdramon, ¿puedes ir \na Ciudad Qing Long\ny soplar un poco?[pause][\\x0203]No tenemos suficiente\nenergía para\nrecuperar a todos...[pause][\\x0203]Airdramon, ayúdame.\n¡Venga, despierta![pause]"
+      - |-
+        [\x0207]Airdramon[\x0207]Zzzzzzzzz
+        Zzzzzzzz[pause]
+      - |-
+        [\x0207][\x020902]3Pero me imagino
+        que no es posible...[pause][\x0203]Vale, encontraré
+        otra manera...[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Umm, no veo
+        a Veemon.[pause][\x0203]Umm...
+        Qué puedo hacer
+        Ummm.[pause]
+      - "[\\x0207][\\x020902]3Bueno, vámonos\ndel Bosque de \nlas Patadas.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Umm, no veo
+        a Veemon.[pause][\x0203]Umm...
+        Qué puedo hacer.
+        Ummm.[pause]
+      - "[\\x0207][\\x020902]3Bueno, vámonos\ndel Bosque de \nlas Patadas.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Umm, no veo
+        a Veemon.[pause][\x0203]Umm...
+        Qué puedo hacer
+        Ummm.[pause]
+      - "[\\x0207][\\x020902]3Bueno, vámonos\ndel Bosque de \nlas Patadas.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARADO PARA
+        GUARDAR.[pause]
+  - strings:
+      - ''
+      - '[\x0207][\x020902]3¡Temblores![pause]'
+      - |-
+        [\x0207][\x020902]3¿Q..Qué
+        está pasando?[pause]

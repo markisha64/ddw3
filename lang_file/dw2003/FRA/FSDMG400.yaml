@@ -1,0 +1,628 @@
+type: extended
+files:
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3MasterTyranno,
+        affronte[-4]moi ![pause]
+      - |-
+        [\x0207]MasterTyranno[\x0207]Bien sûr ! Je
+        viens de manger,
+        je suis au top ![pause]
+      - |-
+        [\x0207][\x020902]3Tu pourras
+        mesurer ma
+        force alors ![pause]
+      - |-
+        [\x0207]MasterTyranno[\x0207]Je te trouve bien
+        optimiste ![pause][\x0203]...mais on ne me
+        bat pas comme
+        ça ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]MasterTyranno[\x0207]Hé, le môme !
+        Tu t'en tires
+        bien ![pause][\x0203]Je te donne ça
+        pour m'avoir
+        battu.[pause]
+      - |-
+        [\x0207][\x020902]3Oui ! J'ai
+        la Griffe
+        antique ![pause]
+      - |-
+        [\x0207]MasterTyranno[\x0207]Apporte ça au
+        chef de Seiryu ![pause][\x0203]Il acceptera
+        de t'affronter.[pause]
+      - |-
+        [\x0207][\x020902]3Merci,
+        MasterTyranno.[pause]
+      - |-
+        [\x0207]MasterTyranno[\x0207]Ce chef est
+        coriace. Sois
+        sur tes gardes ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Chef de Seiryu,
+        J'ai battu
+        MasterTyranno ![pause][\x0203]Acceptes[-4]tu de
+        m'affronter ?[pause]
+      - |-
+        [\x0207]Chef de Seiryu[\x0207]Ah. Tu as la
+        Griffe Antique.[pause][\x0203]Très bien.
+        Commence ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Chef de Seiryu[\x0207]Tu n'es pas
+        mauvais. Quel
+        est ton nom ?[pause]
+      - |-
+        [\x0207][\x020902]3[\x020801][\x020501]. Tu
+        t'es bien battu ![pause]
+      - "[\\x0207]Chef de Seiryu[\\x0207]Très bien,\n[\\x020801][\\x020501], \nprends ça.[pause]"
+      - |-
+        [\x0207][\x020902]3J'ai le badge de
+        Seiryu et le
+        Ticket d'argent ![pause]
+      - |-
+        [\x0207]Chef de Seiryu[\x0207]Tu en auras
+        besoin lors des
+        prochains combats.[pause][\x0203]Ce sont des
+        objets précieux.
+        Garde les bien.[pause]
+      - |-
+        [\x0207][\x020902]3Merci, chef de
+        Seiryu ![pause]
+      - |-
+        [\x0207]Chef de Seiryu[\x0207]Tu va devoir défier
+        le chef de Suzaku,
+        dans le Secteur Sud.[pause][\x0203]La route est encore
+        longue, mais tu peux
+        réussir. Bonne chance.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Que se passe[-4]
+        t[-4]il ?[pause]
+      - |-
+        Code rouge ! Code rouge !
+        Arrêt momenté pour raisons
+        de sécurité.[pause]
+      - '[\x0207][\x020902]3Un séisme ![pause]'
+      - |-
+        [\x0207][\x020902]3Qu'est[-4]ce...
+        C'est un
+        Digimon, ça ?[pause]
+  - strings:
+      - ''
+      - |-
+        Merci d'avoir attendu.
+        Nous allons reprendre
+        l'opération de la barge.[pause]
+      - |-
+        [\x0207][\x020902]3Ah...
+        Hé, attendez ![pause][\x0203]Mince, ça a
+        disparu.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Je suis arrivé au
+        Secteur Sud ![pause][\x0203]Mais ce Digimon
+        que j'ai vu
+        m'intrigue.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3C'est étrange.
+        Il n'y a
+        personne ici.[pause]
+      - '[\x0207]Voix[\x0207]Hooouuu ![pause]'
+      - '[\x0207][\x020902]3Qu[-4]Quoi ?![pause]'
+      - '[\x0207]Voix[\x0207]Hooouuu ![pause]'
+      - |-
+        [\x0207][\x020902]3C'était quoi ?!
+        Un fantôme ?![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Zanbamon[\x0207]Hé, attends !
+        Atteeeends ![pause][\x0203]Je ne vais pas te
+        laisser passer
+        par ici ![pause]
+      - |-
+        [\x0207][\x020902]3Tu plaisantes,
+        j'espère. Je dois
+        passer par là.[pause]
+      - |-
+        [\x0207]Zanbamon[\x0207]Alors essaie d'abord
+        de me battre.[pause][\x0203]Bien sûr, je ne
+        perds jamais !
+        Ha ha ha ha ![pause]
+      - |-
+        [\x0207][\x020902]3On va voir ![pause][\x0203]Il y a un
+        début à tout.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Zanbamon[\x0207]Quoi, tu t'enfuis
+        au milieu du
+        combat ?[pause][\x0203]Tu ne fais pas
+        le poids ![pause]
+      - |-
+        [\x0207][\x020902]3Hé, qu'est[-4]ce
+        qui se passe ![pause][\x0203]Ecoute un peu,
+        je vais gagner !
+        Je reviendrai ![pause]
+      - |-
+        [\x0207]Zanbamon[\x0207]Tu te vantes
+        beaucoup, le
+        môme. Haha ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Voix[\x0207]Hooouuu
+        hoouu ![pause]
+      - |-
+        [\x0207][\x020902]3Tu es
+        Sepikmon.[pause]
+      - |-
+        [\x0207]Voix[\x0207]Hoouu...
+        (râclement
+        de gorge)[pause][\x0203]...oui,
+        que veux[-4]
+        tu ?[pause]
+      - |-
+        [\x0207][\x020902]3Explique[-4]moi comment
+        battre Zanbamon.[pause]
+      - |-
+        [\x0207]Sepikmon[\x0207]D'accord si tu me
+        rends un service.[pause]
+      - "[\\x0207]Sepikmon[\\x0207]J'ai égaré mon\nmasque précieux ![pause][\\x0203]Sans lui, personne\nne peut me voir ![pause][\\x0203]Si tu le trouves, je \nte dirai ce que tu\nveux savoir.[pause]"
+      - |-
+        [\x0207]Sepikmon[\x0207]Je l'avais quand j'étais
+        avec Baronmon...[pause][\x0203]...j'ai dû le perdre
+        après ça ![pause][\x0203]OK, merci beaucoup ![pause]
+      - |-
+        [\x0207]Voix[\x0207]...Oui, que
+        veux[-4]tu ?[pause]
+      - |-
+        [\x0207][\x020902]3C'est d'accord. Je
+        vais aller chercher
+        ton masque.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Oups. Il n'y
+        a personne.[pause]
+      - '[\x0207]Voix[\x0207]Hou[-4]ou[-4]oouu[pause]'
+      - |-
+        [\x0207][\x020902]3Aah ! Un
+        monstre ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Sepikmon[\x0207]Va chercher
+        mon masque.[pause][\x0203]Je l'avais
+        quand j'étais
+        avec Baronmon.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Sepikmon[\x0207]Tout le monde dit que
+        j'ai fait des blagues à
+        Asuka City ![pause][\x0203]Ce type doit avoir mon
+        masque ![pause][\x0203]Attrape[-4]le et reprends
+        mon masque. Merci ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Sepikmon,
+        J'ai trouvé
+        ton masque.[pause]
+      - |-
+        [\x0207]Sepikmon[\x0207]Ouah !
+        Merci ![pause]
+      - '[\x0207]Sepikmon[\x0207]......[pause][\x0203]...[pause]'
+      - |-
+        [\x0207][\x020902]3Qu'est[-4]ce qu'il
+        y a ? Mets[-4]le
+        et sors.[pause]
+      - |-
+        [\x0207]Sepikmon[\x0207]Euh... Tu
+        peux te
+        retourner ?[pause]
+      - |-
+        [\x0207][\x020902]3Oh... Ah...
+        D'accord.[pause]
+      - |-
+        [\x0207]Sepikmon[\x0207]Ah, enfin ! Je me
+        sens bien mieux
+        comme ça ![pause]
+      - |-
+        [\x0207]Sepikmon[\x0207]Tiens, je te
+        donne ça ![pause]
+      - |-
+        [\x0207][\x020902]3C'est quoi
+        cette Herbe
+        Fétide ?[pause]
+      - "[\\x0207]Sepikmon[\\x0207]Zanbamon déteste \ncette odeur ![pause][\\x0203]Il va s'enfuir à\ntoutes jambes ![pause]"
+      - |-
+        [\x0207][\x020902]3Vraiment ?
+        Merci, tu me
+        sauves la vie ![pause]
+      - |-
+        [\x0207]Sepikmon[\x0207]Merci à toi
+        aussi. Bonne
+        chance ![pause]
+      - |-
+        [\x0207]Sepikmon[\x0207]Ce sac en
+        papier n'a
+        pas suffi ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Hé Zanbamon.
+        Reprenons le
+        combat, OK ?[pause]
+      - |-
+        [\x0207]Zanbamon[\x0207]Ha ha ha ha !
+        Tu reviens à
+        la charge ?[pause][\x0203]Tu n'arriveras
+        jamais à me
+        battre ![pause]
+      - |-
+        [\x0207][\x020902]3On verra bien.
+        Regarde ce que
+        j'ai apporté ![pause]
+      - |-
+        [\x0207]Zanbamon[\x0207]Ahh ! C'est
+        une Herbe
+        Fétide ?!![pause]
+      - |-
+        [\x0207][\x020902]3Oui. Allez
+        on se bat ![pause]
+      - |-
+        [\x0207]Zanbamon[\x0207]Je ne peux
+        pas... Je me
+        rends ![pause][\x0203]... Mais je te
+        revaudrai ça ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        A SAUVEGARDER[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        A SAUVEGARDER[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        A SAUVEGARDER[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Hé, MetalGreymon.\nJ'ai un service à\nte demander.[pause][\\x0203]Tu peux me donner un \nbout d'ADNN Agumon à\npartir de ton ADNN ?[pause]"
+      - "[\\x0207]MetalGreymon[\\x0207]Hum, désolé mais\nce n'est pas si \nsimple.[pause][\\x0203]Si tu le veux \nvraiment, viens\nme le prendre ![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Oui !
+        Victoire ![pause]
+      - "[\\x0207]MetalGreymon[\\x0207]Bien, je l'ai \npromis...\nFais[-4]en bon usage ![pause]"
+      - "[\\x0207][\\x020902]3Super, j'ai\nl'ADNN\nAgumon ![pause][\\x0203]Merci, \nMetalGreymon ![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3WarGrowlmon, rends
+        moi service, OK ?[pause][\x0203]Je peux avoir l'ADNN
+        Guilmon à partir de
+        ton ADNN ?[pause]
+      - "[\\x0207]WarGrowlmon[\\x0207]Pas question ! Si tu \nle veux vraiment, il \nfaudra te battre ![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Oui, \nVictoire ![pause]"
+      - "[\\x0207]WarGrowlmon[\\x0207]C'était un grand \ncombat.[pause][\\x0203]OK, tu peux \nl'emporter ![pause]"
+      - "[\\x0207][\\x020902]3Oui ! J'ai \nl'ADNN  \nGuilmon ![pause][\\x0203]Merci,\nWarGrowlmon ![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3GrapLeomon, j'ai
+        un service à te
+        demander.[pause][\x0203]Je peux avoir l'ADNN
+        Kumamon depuis
+        ton ADNN ?[pause]
+      - "[\\x0207]GrapLeomon[\\x0207]Ha ha ha ha !\nT'es un p'tit\nrigolo, toi ![pause][\\x0203]Si tu peux me battre, \nil est à toi ![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Ouaiais, \nGagné ![pause]"
+      - "[\\x0207]GrapLeomon[\\x0207]Très bien, je \nvais tenir \nma promesse.[pause][\\x0203]Je n'ai qu'une \nparole.[pause]"
+      - "[\\x0207][\\x020902]3Oui ! J'ai \nl'ADNN de \nKumamon ![pause][\\x0203]Merci, \nGrapLeomon ![pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Hé Paildramon,\nJe peux te demander\nun service ?[pause][\\x0203]Tu me donnes l'ADNN\nVeemon depuis ton \nADNN ?[pause]"
+      - "[\\x0207]Paildramon[\\x0207]Pas question ! Ce \nn'est pas le genre \nde choses permises ![pause][\\x0203]Tu n'auras rien, à \nmoins de me \nbattre ![pause]"
+      - |-
+        [\x0207][\x020902]3Bon. J'ai juste
+        à gagner,
+        c'est ça ?[pause]
+      - |-
+        [\x0207]Paildramon[\x0207]Voilà !
+        Tu n'as plus
+        qu'à essayer ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3J'ai gagné ![pause][\x0203]OK, donne
+        le moi ![pause]
+      - |-
+        [\x0207]Paildramon[\x0207]Bon, bon.
+        Prends[-4]le.[pause]
+      - "[\\x0207][\\x020902]3Oui ! J'ai\nl'ADNN\nVeemon ![pause][\\x0203]Merci, \nPaildramon ![pause]"
+      - |-
+        [\x0207]Paildramon[\x0207]Oui, c'est ça, on
+        ne m'y prendra
+        plus. Salut ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3OK ! Je te
+        prends quand
+        quand tu veux.[pause]
+      - |-
+        [\x0207]BK Imperialdram[\x0207]Tu es
+        courageux !
+        J'aime ça ![pause]
+      - |-
+        [\x0207][\x020902]3Mais je suis
+        fort aussi ![pause]
+      - "[\\x0207]BK Imperialdramon[\\x0207]Tu ne manques \npas de culot ![pause][\\x0203]Parfait. Ce \nsera un\nbon combat ![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]BK Imperialdramon[\x0207]Hé, j'ai perdu.
+        Tu es
+        puissant ![pause]
+      - "[\\x0207][\\x020902]3Bien sûr !\nJ'ai tout gagné \njusqu'ici ![pause]"
+      - |-
+        [\x0207]BK Imperialdramon[\x0207]Je vois, tu es
+        formidable ![pause][\x0203]Tiens, je te donne
+        ça. Prends[-4]le.[pause]
+      - "[\\x0207][\\x020902]3Oui ! J'ai le \nHeaume du\nPéril ![pause]"
+      - "[\\x0207]BK Imperialdramon[\\x0207]C'était un bon \ncombat. Reviens\nquand tu veux ![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Hé ?! C'est qui
+        le responsable ?
+        Vous êtes où ?[pause]
+      - |-
+        Bip bip...
+        POWER ON.
+        REAMORCAGE ![pause]
+      - |-
+        [\x0207][\x020902]3Hein,
+        quoi ?![pause]
+      - |-
+        JE SUIS LE SYSTEME D'EXP. DE
+        LA BARGE DE LA GRANDE CREVASSE.[pause][\x0203]POUR ALLUMER LA BARGE PARTIE EN
+        DIRECTION DU SECTEUR SUD...[pause][\x0203]IL FAUT ENREGISTRER UN COMPTE
+        AVEC UNE CARTE BLEUE.[pause][\x0203]LES DIGIMONS NES D'UNE CARTE
+        BLEUE LA POSSEDENT, TU PEUX
+        L'OBTENIR AUPRES D'EUX.[pause]
+      - |-
+        [\x0207][\x020902]3Je vois. Digimons
+        nés d'une carte
+        bleue...[pause][\x0203]Hmm. Cela doit
+        être Guilmon.[pause][\x0203]Je vais essayer
+        de trouver Guilmon
+        dans la ville.[pause]
+  - strings:
+      - ''
+      - "Bip. Bip.\nPATIENTEZ.\nCONTROLE DONNEES.[pause][\\x0203]... ... \nIMPOSSIBLE VALIDER\nCARTE BLEUE.[pause][\\x0203]ENREGISTREMENT\nDU COMPTE ANNULE[pause]"
+      - |-
+        [\x0207][\x020902]3Je ne peux pas
+        m'enregistrer ?[pause][\x0203]J'ai la Carte
+        Bleue pourtant ![pause]
+      - |-
+        [\x0207][\x020902]3Hein ? Quoi ? Ce
+        n'est pas la Carte
+        Bleue ![pause][\x0203]Ce n'est pas un B
+        mais un 8 ! C'est
+        une Carte 8leue ![pause][\x0203]Hé, c'est une
+        fausse ! Je me
+        suis fait avoir ![pause]
+  - strings:
+      - ''
+      - |-
+        Bip Bip...
+        PATIENTEZ.
+        CONTROLE DONNEES.[pause]
+      - |-
+        [\x0207][\x020902]3Ca a marché !
+        Je peux aller dans
+        le Secteur Sud ![pause]
+      - |-
+        MERCI D'AVOIR ATTENDU.
+        TU ES [\x020801][\x020501].[pause][\x0203]DEMARRAGE SYSTEME.
+        A PRESENT VA A
+        LA BARGE.[pause]
+  - strings:
+      - ''
+      - |-
+        ACCES SATELLITE.
+        COMPTE CONFIRME,
+        DEMARRAGE BARGE.[pause]
+  - strings:
+      - ''
+      - |-
+        ACCES SATELLITE.
+        COMPTE CONFIRME,
+        DEMARRAGE BARGE.[pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Bon, je vais trouver  \nVeemon et prendre\nles Arbori[-4]bottes ![pause][\\x0203]Je dois prendre garde\nà ne pas sortir de\nla Forêt Vive ![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Agumon[\x0207]Hé hé hé,
+        désolé, je suis
+        Agumon.[pause][\x0203]Veemon se cache
+        ailleurs.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Agumon[\x0207]Hé hé hé,
+        désolé, je suis
+        Agumon.[pause][\x0203]Veemon se cache
+        ailleurs.[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Agumon[\x0207]Hé hé hé,
+        désolé, je suis
+        Agumon.[pause][\x0203]Veemon se cache
+        ailleurs.[pause]
+  - strings:
+      - ''
+      - "[\\x0207]Veemon[\\x0207]Oups !\nTu m'as trouvé ![pause][\\x0203]OK, je vais te \ndonner les Arbori[-4]\nbottes promises ![pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Bon, plaçons
+        le chip TNT
+        là[-4]dessus.[pause]
+      - |-
+        [\x0207][\x020902]3Il y a un
+        trou dans
+        le mur ![pause][\x0203]On peut
+        entrer ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3...
+        Hé, c'est...[pause]
+      - |-
+        [\x0207][\x020902]3Génial ! J'ai le Digi[-4]
+        Oeuf de la Fiabilité ![pause]
+      - |-
+        [\x0207][\x020902]3Je peux appeler
+        Submarimon et
+        traverser l'océan ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Chef Qing Long[\x0207]Camarade ! Sois
+        le bienvenu ![pause]
+      - "[\\x0207][\\x020902]3Chef de Qing Long,\noù est le Digi[-4]Oeuf \ndu Savoir ?[pause]"
+      - |-
+        [\x0207]Chef de Qing Long[\x0207]Je n'en sais rien,
+        pourquoi ?[pause][\x0203]Tu n'es pas
+        des nôtres ![pause]
+      - |-
+        [\x0207][\x020902]3Si c'est vrai,
+        que vas tu
+        faire ?[pause]
+      - |-
+        [\x0207]Qing Long[\x0207]Je te ferai
+        prisonnier
+        toi aussi ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Oui ! J'ai
+        battu le chef
+        de Qing Long ![pause]
+      - |-
+        [\x0207][\x020902]3Tiens ? Il y a
+        quelque chose
+        par terre...[pause]
+      - |-
+        [\x0207][\x020902]3Mais pas de
+        trace du Digi[-4]
+        Oeuf du Savoir.[pause][\x0203]Je me demande
+        ce qui se passe
+        dans le Monde Réel.[pause]
+      - |-
+        [\x0207][\x020902]3Tiens ? Qu'est[-4]
+        ce que c'est ?
+        Un Passe bleu.[pause][\x0203]Cela pourrait
+        servir, je
+        le prends ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Je ne sais pas
+        ce que projette
+        l'AoA mais... [pause][\x0203]Je ne les
+        laisserai pas
+        faire ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Militaire[\x0207]... c'est bien le
+        Passe bleu ?
+        Désolé ![pause][\x0203]Je ne savais pas
+        que tu étais le chef
+        de Qing Long ![pause]
+      - |-
+        [\x0207][\x020902]3... Quoi ?
+        Ah, oui ![pause][\x0203]Cet uniforme est trop
+        voyant. Je vais en
+        patrouille incognito.[pause][\x0203]Ceci reste entre
+        nous, d'accord ?[pause]
+      - |-
+        [\x0207]Militaire[\x0207]Tu es un grand
+        chef ! Et très
+        consciencieux ![pause]
+      - |-
+        [\x0207][\x020902]3Ouf, j'ai
+        eu chaud... [pause][\x0203]Mais au moins je
+        peux entrer dans
+        Zhu Que City.[pause]
+      - |-
+        [\x0207]Militaire[\x0207]Je t'en prie,
+        passe ![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Airdramon[\x0207]Zzzzzzzzzzz
+        Zzzzzzzzzzz[pause]
+      - |-
+        [\x0207][\x020902]3Hé, Airdramon.
+        J'ai un service à
+        te demander[pause]
+      - |-
+        [\x0207]Airdramon[\x0207]Zzzzzzzzzzz
+        Zzzzzzzzzzz[pause]
+      - "[\\x0207][\\x020902]3Peux[-4]tu aller à\nQing Long City\net faire du vent ?[pause][\\x0203]On n'a pas assez de \npouvoir pour tous les \nretransformer...[pause][\\x0203]Airdramon, aide[-4]les.\nAllez, réveille[-4]toi  ![pause]"
+      - |-
+        [\x0207]Airdramon[\x0207]Zzzzzzzzzzz
+        Zzzzzzzzzzz[pause]
+      - "[\\x0207][\\x020902]3J'imagine que \nce n'est pas\npossible...[pause][\\x0203]OK, je vais trouver\nun autre\nmoyen...[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Hum, Je ne  \ntrouve pas \nVeemon...[pause][\\x0203]Hmm...\nQue faire...\nHmm...[pause]"
+      - "[\\x0207][\\x020902]3Bien, quittons \nsimplement la\nForêt vive.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Hum, Je ne  \ntrouve pas \nVeemon...[pause][\\x0203]Hmm...\nQue faire...\nHmm...[pause]"
+      - "[\\x0207][\\x020902]3Bien, quittons \nsimplement la\nForêt vive.[pause]"
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Hum, Je ne  \ntrouve pas \nVeemon...[pause][\\x0203]Hmm...\nQue faire...\nHmm...[pause]"
+      - "[\\x0207][\\x020902]3Bien, quittons \nsimplement la\nForêt vive.[pause]"
+  - strings:
+      - ''
+      - |-
+        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        A SAUVEGARDER[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Des secousses
+        sismiques ![pause]
+      - "[\\x0207][\\x020902]3Que, qu'est[-4]ce \nqu'il se passe ?![pause]"

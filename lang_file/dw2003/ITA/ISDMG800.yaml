@@ -1,0 +1,361 @@
+type: extended
+files:
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Eh? C'è un
+        altro pulsante.[pause][\x0203]Beh, premerò
+        anche questo,
+        mi sa.[pause]
+      - |-
+        [\x0207][\x020902]3Hmm, niente
+        di fatto.[pause][\x0203]Devo trovare
+        l'A.o.A. Presto![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Ehi!
+        Non ve lo
+        permetterò![pause]
+      - |-
+        [\x0207]Soldato Mech[\x0207]GGzzz! GGzzz!
+        Allarme intruso!
+        allarme intruso![pause][\x0203]Eliminazione rapida![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Si!
+        Vittoria![pause]
+      - |-
+        [\x0207][\x020902]3Eh? C'è
+        qualcosa a
+        terra.[pause][\x0203]Un'arma per il
+        solo Veemon![pause][\x0203]La difesa di
+        Dramon![pause]
+      - |-
+        [\x0207][\x020902]3Aspetta!
+        Non ho tempo da
+        perdere![pause][\x0203]Devo fermare il
+        lancio della
+        Juggernaut![pause]
+      - |-
+        [\x0207][\x020902]3Quale pulsante?
+        Eccolo!
+        È questo![pause]
+      - |-
+        [\x0207][\x020902]3Eh? Nulla di
+        fatto? Ma se
+        l'A.o.A era qui![pause][\x0203]Questo dovrebbe
+        impedire il
+        lancio![pause]
+      - |-
+        A TUTTO IL PERSONALE DELLA
+        MAGASTA. LA JUGGERNAUT
+        È STATA QUASI RICARICATA[pause][\x0203]IL PERSONALE NELLA BASE TROVI
+        RIPARO, RIPETO,
+        JUG...NAUT...ASI...ICATA...[pause]
+      - |-
+        [\x0207][\x020902]3Co[-4]cosa?!
+        Non si
+        ferma?[pause][\x0203]Era una
+        trappola![pause][\x0203]Allora, l'A.o.A
+        dev'essere
+        altrove![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Fermatevi!
+        E fermate il
+        lancio![pause][\x0203]Non ve la farò
+        fare franca,
+        criminali![pause]
+      - |-
+        [\x0207]Guardia reale[\x0207]Ha ha ha ha!
+        Il marmocchio ci
+        minaccia![pause][\x0203]Un poppante
+        non può fermare
+        i nostri piani![pause]
+      - "[\\x0207][\\x020902]3È quello\nche \nvedremo![pause]"
+      - |-
+        [\x0207]Guardia reale[\x0207]...ha ha ha.
+        Ma che cosa
+        dici?[pause][\x0203]Provaci, se
+        hai coraggio![pause]
+      - |-
+        [\x0207]Guardia reale[\x0207]Sistema a punto.
+        Ci siamo![pause]
+  - strings:
+      - ''
+      - "[\\x0207][\\x020902]3Ho vinto!\nSono una\npotenza![pause][\\x0203]Ora devo\nfermare la \nJuggernaut![pause][\\x0203]Eh? C'è\nqualcosa\na terra.[pause]"
+      - |-
+        [\x0207][\x020902]3Il campo
+        elettromagnetico
+        è scomparso![pause]
+      - "PRONTI AL\nLANCIO![pause][\\x0203]JUGGERNAUT \nIN PARTENZA![pause]"
+      - |-
+        [\x0207][\x020902]3Cosa?[pause][\x0203]Devo fare
+        presto![pause]
+      - |-
+        [\x0207][\x020902]3Cosa devo fare?
+        La Juggernaut
+        sta partendo![pause]
+      - |-
+        [\x0207][\x020902]3Eh?[pause][\x0203]Non serve!
+        Non riesco a
+        fermarla![pause]
+      - |-
+        [\x0207][\x020902]3Sì! Ho l'elmo
+        alato![pause]
+  - strings:
+      - ''
+      - "PRONTI AL\nLANCIO![pause][\\x0203]JUGGERNAUT \nIN PARTENZA![pause]"
+      - |-
+        [\x0207]Guardia reale[\x0207]Ha ha ha ha!
+        Il piano è
+        un successo![pause]
+      - |-
+        [\x0207]Guardia reale[\x0207]Ora vai,
+        Juggernaut![pause][\x0203]Porta terrore e
+        distruzione nel
+        mondo![pause]
+      - |-
+        [\x0207]Guardia reale[\x0207]La barriera
+        elettromagnetica
+        è disattivata![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Pannello acceso!
+        Dovrebbe eliminare
+        il blocco...[pause]
+      - |-
+        [\x0207][\x020902]3Il blocco
+        è sparito?[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Pannello acceso!
+        Dovrebbe eliminare
+        il blocco...[pause]
+      - |-
+        [\x0207][\x020902]3Il blocco
+        è sparito?[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Pannello acceso!
+        Dovrebbe eliminare
+        il blocco...[pause]
+      - |-
+        [\x0207][\x020902]3Il blocco
+        è sparito?[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Soldato di metallo[\x0207]Bip, bip![pause][\x0203]Allarme intruso!
+        Allarme intruso![pause][\x0203]Eliminarlo
+        dall'edificio![pause]
+      - |-
+        [\x0207][\x020902]3Uomo di
+        latta,
+        ti sfido![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Soldato di metallo[\x0207]Allarme intruso!
+        Allarme intruso![pause][\x0203]Eliminarlo
+        dall'edificio![pause]
+      - |-
+        [\x0207][\x020902]3Avanti! Te
+        la farò
+        vedere io![pause]
+  - strings:
+      - ''
+      - |-
+        Ha ha ha ha ha
+        Sei solo un piccolo insetto![pause][\x0203]Io, Lord Megamorte, sono oltre
+        il portale.[pause][\x0203]Vieni, grande domatore!
+        Affronta la mia potenza![pause]
+      - |-
+        [\x0207][\x020902]3Si, va bene![pause][\x0203]Parli, parli
+        e non fai![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Co[-4]cosa
+        accade?[pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Presto! Dobbiamo
+        sconfiggere Lord
+        Megamorte![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Ma[-4]ma
+        che?![pause]
+  - strings:
+      - ''
+      - |-
+        Sei arrivato
+        finalmente,
+        grande domatore![pause]
+      - |-
+        [\x0207][\x020902]3Lord
+        Megamorte!
+        Chi sei?[pause]
+      - |-
+        Sono una forma di vita
+        digitale nata nella rete.[pause][\x0203]E sostituirò l'uomo
+        alla guida di tutti
+        i pianeti.[pause]
+      - |-
+        [\x0207][\x020902]3Per questo
+        hai creato
+        l'A.o.A?[pause]
+      - |-
+        Si. Per creare il Digimon
+        più fedele e potente:
+        Snatchmon![pause]
+      - |-
+        [\x0207][\x020902]3Snatchmon?
+        Mai sentito![pause]
+      - |-
+        Snatchmon è nato quando
+        Vemmon ha assorbito i dati
+        della matrice. Si digivolve.[pause][\x0203]L'hai già visto. Ricordi
+        quelli che hanno ricevuto i dati
+        e sono diventati Digimon?[pause]
+      - |-
+        [\x0207][\x020902]3Cosa?!
+        Ecco cosa sono
+        gli Oinkmon![pause]
+      - |-
+        Quando Gunslinger
+        emetterà l'onda...[pause][\x0203]...i dati della Matrice
+        sulle forme di vita...[pause][\x0203]...giungeranno agli
+        Snatchmon, potenziandoli![pause][\x0203]E come loro domatore, io
+        governerò il mondo con
+        il terrore![pause]
+      - |-
+        [\x0207][\x020902]3Ma davvero?
+        Non accadrà![pause]
+      - |-
+        E quindi tu
+        lotterai con me...[pause][\x0203]Per provare la mia
+        superiore potenza![pause]
+      - |-
+        [\x0207][\x020902]3Sì, sì.
+        Smettila![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Lord
+        Megamorte![pause][\x0203]Credi ancora
+        di essere
+        ciò che dici?[pause]
+      - |-
+        Ma certo!
+        Era solo una prova.[pause][\x0203]Ho ancora il Digimon
+        più potente,
+        Snatchmon.[pause][\x0203]Presto imparerai
+        cos'è il vero
+        terrore.[pause]
+      - |-
+        [\x0207][\x020902]3Ehi, non
+        scappare![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207]Snatchmon[\x0207]Sono Snatchmon.
+        Il più forte
+        Digimon in assoluto.[pause]
+      - |-
+        Vai, Snatchmon!
+        Distruggi quei
+        miseri umani![pause]
+      - |-
+        [\x0207][\x020902]3Avanti!
+        Ti batterò![pause]
+      - |-
+        [\x0207]Snatchmon[\x0207]Chi sei?
+        Perché mi dai
+        ordini?[pause]
+      - |-
+        Ma cosa dici? Sono
+        il tuo domatore![pause]
+      - |-
+        [\x0207]Snatchmon[\x0207]Domatore?
+        Non ne ho
+        bisogno.[pause][\x0203]Sono il Digimon
+        più forte e non
+        ubbidisco a nessuno![pause]
+      - |-
+        Co[-4]cosa?!
+        Chi credi che io
+        sia?[pause]
+      - |-
+        [\x0207]Snatchmon[\x0207]Non importa chi mi
+        ha creato.[pause][\x0203]Assorbirò altri
+        dati e diventerò
+        più potente![pause][\x0203]Per cominciare,
+        assorbirò te![pause]
+      - Co[-4]cosa?![pause]
+      - Aaaaaah![pause]
+      - "[\\x0207][\\x020902]3Quello è il tuo\ndomatore, \nSnatchmon![pause][\\x0203]Domatori e Digimon\nsono una cosa\nsola![pause][\\x0203]Agiscono sempre\nassieme![pause]"
+      - |-
+        [\x0207]Snatchmon[\x0207]Tu sei quello
+        che mi batté
+        quando ero Vemmon![pause][\x0203]Ma ora
+        sono rinato![pause][\x0203]Ti mostrerò i
+        miei nuovi poteri.[pause]
+      - |-
+        [\x0207][\x020902]3...ma cosa?!
+        Cosa
+        farai?[pause]
+      - |-
+        [\x0207]Snatchmon[\x0207]Mi fonderò con
+        Gunslinger e sarò
+        Galactimon![pause]
+      - '[\x0207][\x020902]3Galactimon?[pause]'
+      - |-
+        [\x0207]Snatchmon[\x0207]Poi diventerò una cosa
+        sola con la Terra![pause][\x0203]Per digivolvermi in
+        un Digimon più
+        potente, Gaiamon![pause]
+      - |-
+        [\x0207][\x020902]3Gaiamon? Allora
+        non saranno solo
+        gli umani![pause][\x0203]Tutto, sulla
+        Terra, morirà![pause]
+      - |-
+        [\x0207]Snatchmon[\x0207]Irrilevante, l'unica
+        cosa che conta
+        sono io![pause]
+      - '[\x0207][\x020902]3Non vincerai![pause]'
+      - |-
+        [\x0207]Snatchmon[\x0207]Prova a battermi
+        quando sarò
+        Galactimon![pause]
+      - |-
+        [\x0207][\x020902]3Sì!
+        Non
+        vincerai![pause]
+      - |-
+        [\x0207]Snatchmon[\x0207]Bene! Ci
+        incontreremo nello
+        spazio![pause][\x0203]Trasferirò i tuoi
+        dati dalla Matrice![pause][\x0203]Guardami mentre
+        mi digivolvo in
+        Galactimon![pause]
+      - |-
+        Vieni, Snatchmon,
+        e oscura il mondo
+        intero![pause]
+  - strings:
+      - ''
+      - |-
+        [\x0207][\x020902]3Oh, no!
+        Sono passati
+        180 secondi![pause]

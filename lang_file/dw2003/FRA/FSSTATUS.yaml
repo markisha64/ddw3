@@ -1,0 +1,114 @@
+type: simple
+strings:
+  - ''
+  - NV
+  - PV
+  - PM
+  - /
+  - BIT
+  - OBJETS
+  - TRIER
+  - CARTE
+  - TECHNIQUES
+  - STATUT
+  - DOSSIERS CARTE
+  - '[-4][-4]'
+  - '[-4][-4]'
+  - '[-4][-4][-4][-4]'
+  - |-
+    Changer formation Digimon
+    Touche [triangle] : Retour au Menu
+  - |-
+    Impos. changer format. Digimon
+    Touche [triangle] : Retour au Menu
+  - Echanger qui ?
+  - Echanger avec qui ?
+  - '[triangle] : Fermer Statut.'
+  - Lequel ?
+  - 'Touche [triangle] : Retour Menu'
+  - Objets
+  - Armes
+  - Armure
+  - Accessoires
+  - Objets clés
+  - Utiliser objet
+  - Toutes les armes
+  - Toutes les armures
+  - Tous les access.
+  - Tous les obj. clés
+  - Equiper
+  - 'Touche [square] : Trier obj.'
+  - L1
+  - R1
+  - Trier les objets
+  - Par Force
+  - Par Nom
+  - Choisir Digimon
+  - Utiliser techn. Digimon.
+  - N'a pas appris technique.
+  - Choisir technique
+  - Util. sur qui ?
+  - Pourquoi ?
+  - Voir Digivolve
+  - Voir Equip.
+  - Install. Démo
+  - Digivolution et équipement Dig.
+  - Regarder cartes ?
+  - Oui
+  - Non
+  - Digivol.
+  - EXP
+  - '[-4][-4][-4][-4][-4][-4][-4][-4]'
+  - Choisir Digivol.
+  - NV Apt
+  - Digivol. Combat On
+  - Digivol. Combat Off
+  - Explication technique
+  - Activer Digivol. Combat
+  - Désactiver Digivol. Combat
+  - Aucune technique.
+  - Changer lequel ?
+  - X
+  - Tête.
+  - Corps
+  - Droite
+  - Access.
+  - Retirer
+  - Démo Digivol.
+  - ON
+  - OFF
+  - Inst. démo Digivolve Combat
+  - Album Carte
+  - Editer dossier
+  - Editer carte
+  - Gauche
+  - PE
+  - G ou D
+  - A deux mains
+  - Retirer l'équipement actuel.
+  - PV restauré au maximum.
+  - '[\x020501] PV récupérés.'
+  - Max PV augmenté de [\x020501].
+  - Max PM augmenté de [\x020501].
+  - Force augmentée de [\x020501].
+  - Défense augmentée de [\x020501].
+  - Esprit augmenté de [\x020501].
+  - Sagesse augmentée de [\x020501].
+  - Vitesse augmentée de [\x020501].
+  - Charisme augmenté de [\x020501].
+  - Défense Feu augmentée de [\x020501].
+  - Défense Eau augmentée de [\x020501].
+  - Défense Glace augmentée de [\x020501].
+  - Défense Vent augmentée de [\x020501].
+  - Défense Tonnerre augm. de [\x020501].
+  - Défense Machine augmentée de [\x020501].
+  - Défense Ténèbres augm. de [\x020501].
+  - PE augmenté de [\x020501].
+  - Aucun objet.
+  - Aucune arme.
+  - Aucune armure.
+  - Aucun accessoire.
+  - Aucun objet clé.
+  - PM insuffisants
+  - Sans effet.
+  - '[-4]'

@@ -1,0 +1,92 @@
+type: simple
+strings:
+  - ''
+  - Fase Inicial
+  - Extraer Calumon para ir primero.
+  - Fase de Extracción
+  - Se extraerán 6 cartas.
+  - Fase de Carga
+  - Selec. y util. Carta de Progr.
+  - Fase de Invocación
+  - Seleccionar Digimon
+  - Fase de Compilado
+  - Selec. y util. Carta de Progr.
+  - Fase de Batalla
+  - ¡Comenzar batalla!
+  - Bat. Carta
+  - ¿Utilizar Carta de Progr.?
+  - ¿Poner en Campo?
+  - ¡Has ganado!
+  - ¡Has perdido!
+  - Empate, así que tú, el retador, pierdes.
+  - Puntua. actual
+  - Tiempo siguiente.
+  - ¡Has ganado esta batalla!
+  - ¡Has perdido esta batalla!
+  - Ninguna Cta. en Campo.
+  - |-
+    Sí
+    No
+  - Tu Mano
+  - Tu Mazo
+  - Tu Papelera
+  - Mano de opo.
+  - Mazo de opo.
+  - Basura opo.
+  - Reto Ctas. Btlla.
+  - |-
+    Mano
+    Campo
+    Basura
+    Cancelar
+    Rendirse
+  - |-
+    No puedes sacar 6 cartas,
+    así que pierdes este tiempo.
+  - |-
+    Tu opo. no puede sacar 6 ctas.
+    así que ganas este juego.
+  - Sin cartas.
+  - Selec. [cross]  Invoc. [square]
+  - En entre.
+  - Novato
+  - Campeón
+  - Definitivo
+  - Mega
+  - Sin cartas.
+  - |-
+    Ga.
+    Pe.
+  - ¿Estás seguro?
+  - |-
+    La Puerta de fort. cambia
+    los PA y los PV.
+  - Ningún Digi. en Campo.
+  - Ningún Digimon afectado
+  - Digimon no presente.
+  - No hay Digimon Verde.
+  - No hay Digimon Marr.
+  - Sin ctas. en Mano.
+  - Sin cartas en la basu.
+  - Sin cartas en el Mazo.
+  - Sin cartas Digimon en el Mazo.
+  - Sin cartas de progr. en el Mazo
+  - Sin Digimon marrón en la Mano.
+  - Sele. carta para basura
+  - Carta sin efecto
+  - |-
+    Demasiadas cartas Digimon en el
+    campo. Selecciona una para retirar.
+  - Comen. Fase Carga
+  - Comen. Fase Compilado
+  - NV
+  - Ps.
+  - |-
+    PA
+    PV
+  - Selec. Carpeta
+  - Obt. Sobre de Expansión
+  - ¡Tú primero!
+  - Oponente primero.
+  - Sí, usaré una Carta de Progr.
+  - No, paso.

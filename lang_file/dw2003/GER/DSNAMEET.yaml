@@ -1,0 +1,72 @@
+type: simple
+strings:
+  - ''
+  - |-
+    Willkommen bei Digimon[-4]Online.[pause]
+
+
+    Jetzt beginnt die Registrie[-4]
+    rung deines Online[-4]Accounts
+    und Partner[-4]Digimons.[pause]
+
+
+    Der Account[-4]Name ist
+    dein Name in der digitalen
+    Welt.[pause]
+
+
+    Wähle dein Partner[-4]Digimon
+    aus einem der drei Starter[-4]
+    Packs aus.[pause]
+
+
+    Der Vorgang beginnt jetzt.[pause]
+  - _
+  - '1'
+  - '2'
+  - '3'
+  - Wähle ein Starter[-4]Pack
+  - A
+  - B
+  - C
+  - Ausgeglich. Pack
+  - Kraft[-4]Pack
+  - Maniac[-4]Pack
+  - |-
+    Guter Schwertkämpf.
+    Lernt auch zu heilen.
+  - |-
+    Sehr guter Nahkämpf.
+    Er ist sehr schnell.
+  - |-
+    Hat viele Gewehre.
+    Guter Schütze.
+  - |-
+    Spuckt gerne Feuer.
+    Sehr angriffslustig.
+  - Veemon
+  - |-
+    Gerissenes Digimon.
+    Lernt tolle Angriffe.
+  - |-
+    Greift Feinde mit Blitz
+    und Eis an.
+  - |-
+    Heilungsexperte.
+    Sehr freundlich.
+  - Bestätigungsschirm
+  - Account registrieren?
+  - JA
+  - NEIN
+  - '[\x020501]%'
+  - |-
+    Waffe, magische Angriffe und
+    Heilkräfte. Gut für Teamwork.
+  - |-
+    Für Mutige, die Angriff für
+    die beste Verteidigung halten.
+  - |-
+    Sie sind alle etwas eigenwillig.
+    Nur auf Patamon ist Verlass.
+  - WIRD AUFGERUFEN
+  - Registriert
