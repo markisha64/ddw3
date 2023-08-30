@@ -239,53 +239,71 @@ STGTRAIN_0:
 .L0x000003a4: .word 0x8008b710 # lb $t0, -0x48f0($zr)
 # Start of code
 
+# `fn f2(arg0: *mut Unknown0, arg1: u32, arg2: u32)`
+.section "section_STGTRAIN_f2"
+.global STGTRAIN_f2
+STGTRAIN_f2:
+	sw $a1, 0x58($a0) # arg0.a17 = arg1
+	jr $ra
+	sw $a2, 0x5c($a0) # arg0.a16 = arg2
+
+# `fn f3(arg0: *mut Unknown0, arg1: u32, arg2: u32)`
+.section "section_STGTRAIN_f3"
+.global STGTRAIN_f3
+STGTRAIN_f3:
+	sw $a1, 0x60($a0) # arg0.a15 = arg1
+	jr $ra
+	sw $a2, 0x64($a0) # arg0.a14 = arg2
+
+# `fn f4(arg0: *mut Unknown0, arg1: u32, arg2: u32)`
+.section "section_STGTRAIN_f4"
+.global STGTRAIN_f4
+STGTRAIN_f4:
+	sw $a1, 0x68($a0) # arg0.a13 = arg1
+	jr $ra
+	sw $a2, 0x6c($a0) # arg0.a12 = arg2
+
+# `fn f5(arg0: *mut Unknown0, arg1: u32, arg2: u32)`
+.section "section_STGTRAIN_f5"
+.global STGTRAIN_f5
+STGTRAIN_f5:
+	sw $a1, 0x70($a0) # arg0.a11 = arg1
+	jr $ra
+	sw $a2, 0x74($a0) # arg0.a10 = arg2
+
+# `fn f6(arg0: *mut Unknown0, arg1: u32, arg2: u32, arg3: u32)`
+.section "section_STGTRAIN_f6"
+.global STGTRAIN_f6
+STGTRAIN_f6:
+	li $v0, 0x1
+	sw $a1, 0xa8($a0) # arg0.a21 = arg0
+	sw $a2, 0xac($a0) # arg0.a22 = arg1
+	sw $a3, 0xb0($a0) # arg0.a23 = arg2
+	jr $ra
+	sw $v0, 0x9c($a0) # arg0.a18 = 1
+
+# `fn f7(arg0: *mut Unknown0, arg1: u32, arg2: u32)`
+.section "section_STGTRAIN_f7"
+.global STGTRAIN_f7
+STGTRAIN_f7:
+	sw $a1, 0xa0($a0) # arg0.a19 = arg1
+	jr $ra
+	sw $a2, 0xa4($a0) # arg0.a20 = arg2
+
+# `fn f8(arg0: *mut Unknown0, arg1: u16, arg2: u16, arg3: u16)`
+.section "section_STGTRAIN_f8"
+.global STGTRAIN_f8
+STGTRAIN_f8:
+	li $v0, 0x1
+	sh $a1, 0xb8($a0) # arg0.a25 = arg1
+	sh $a2, 0xba($a0) # arg0.a26 = arg2
+	sh $a3, 0xbc($a0) # arg0.a27 = arg3
+	jr $ra
+	sw $v0, 0x9c($a0) # arg0.a18 = 1
+
 .section "section_STGTRAIN_1"
 .global STGTRAIN_1
 STGTRAIN_1:
-.L0x000003f0: sw $a1, 0x58($a0)                   # .word 0xac850058
-.L0x000003f4: jr $ra                              # .word 0x03e00008
-.L0x000003f8: sw $a2, 0x5c($a0)                   # .word 0xac86005c
-.L0x000003fc: sw $a1, 0x60($a0)                   # .word 0xac850060
-.L0x00000400: jr $ra                              # .word 0x03e00008
-.L0x00000404: sw $a2, 0x64($a0)                   # .word 0xac860064
-.L0x00000408: sw $a1, 0x68($a0)                   # .word 0xac850068
-.L0x0000040c: jr $ra                              # .word 0x03e00008
-.L0x00000410: sw $a2, 0x6c($a0)                   # .word 0xac86006c
-.L0x00000414: sw $a1, 0x70($a0)                   # .word 0xac850070
-.L0x00000418: jr $ra                              # .word 0x03e00008
-.L0x0000041c: sw $a2, 0x74($a0)                   # .word 0xac860074
-.L0x00000420: li $v0, 0x1                         # .word 0x24020001
-.L0x00000424: sw $a1, 0xa8($a0)                   # .word 0xac8500a8
-.L0x00000428: sw $a2, 0xac($a0)                   # .word 0xac8600ac
-.L0x0000042c: sw $a3, 0xb0($a0)                   # .word 0xac8700b0
-.L0x00000430: jr $ra                              # .word 0x03e00008
-.L0x00000434: sw $v0, 0x9c($a0)                   # .word 0xac82009c
-.L0x00000438: sw $a1, 0xa0($a0)                   # .word 0xac8500a0
-.L0x0000043c: jr $ra                              # .word 0x03e00008
-.L0x00000440: sw $a2, 0xa4($a0)                   # .word 0xac8600a4
-.L0x00000444: li $v0, 0x1                         # .word 0x24020001
-.L0x00000448: sh $a1, 0xb8($a0)                   # .word 0xa48500b8
-.L0x0000044c: sh $a2, 0xba($a0)                   # .word 0xa48600ba
-.L0x00000450: sh $a3, 0xbc($a0)                   # .word 0xa48700bc
-.L0x00000454: jr $ra                              # .word 0x03e00008
-.L0x00000458: sw $v0, 0x9c($a0)                   # .word 0xac82009c
-.L0x0000045c: lui $v1, 0x7fff                     # .word 0x3c037fff
-.L0x00000460: lw $v0, 0x78($a0)                   # .word 0x8c820078
-.L0x00000464: ori $v1, 0xffff                     # .word 0x3463ffff
-.L0x00000468: jr $ra                              # .word 0x03e00008
-.L0x0000046c: and $v0, $v1                        # .word 0x00431024
-.L0x00000470: beqz $a1, .L0x0000048c              # .word 0x10a00006
-.L0x00000474: lui $v1, 0x7fff                     # .word 0x3c037fff
-.L0x00000478: lw $v0, 0x78($a0)                   # .word 0x8c820078
-.L0x0000047c: lui $v1, 0x8000                     # .word 0x3c038000
-.L0x00000480: or $v0, $v1                         # .word 0x00431025
-.L0x00000484: jr $ra                              # .word 0x03e00008
-.L0x00000488: sw $v0, 0x78($a0)                   # .word 0xac820078
-.L0x0000048c: lw $v0, 0x78($a0)                   # .word 0x8c820078
-.L0x00000490: ori $v1, 0xffff                     # .word 0x3463ffff
-.L0x00000494: and $v0, $v1                        # .word 0x00431024
-.L0x00000498: jr $ra                              # .word 0x03e00008
-.L0x0000049c: sw $v0, 0x78($a0)                   # .word 0xac820078
 .L0x000004a0: addiu $sp, -0xb0                    # .word 0x27bdff50
 .L0x000004a4: sw $s4, 0x98($sp)                   # .word 0xafb40098
 .L0x000004a8: move_ $s4, $a0                      # .word 0x0080a021
