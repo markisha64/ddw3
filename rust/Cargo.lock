@@ -24,5 +24,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "dw2003_pro_STGTRAIN_data"
+version = "0.1.0"
+dependencies = [
+ "util",
+]
+
+[[package]]
 name = "util"
 version = "0.1.0"
