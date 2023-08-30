@@ -166,7 +166,7 @@ impl Evolution {
 }
 
 util::decl_static! { "dw2003_pro_STFGTREP_data",
-	pub static mut STFGTREP_D0x00000000: [u32; 1005] = [
+	pub static mut STFGTREP_D0x00003dd8: [u32; 1005] = [
 		0x00000000, // 0x00003dd8
 		0x00000000, // 0x00003ddc
 		0x00000000, // 0x00003de0
