@@ -242,16 +242,6 @@ STGTRAIN_0:
 .section "section_STGTRAIN_1"
 .global STGTRAIN_1
 STGTRAIN_1:
-.L0x000003c8: beqz $a1, .L0x000003e8              # .word 0x10a00007
-.L0x000003cc: nop                                 # .word 0x00000000
-.L0x000003d0: sw $a1, 0x8c($a0)                   # .word 0xac85008c
-.L0x000003d4: sw $zr, 0x90($a0)                   # .word 0xac800090
-.L0x000003d8: sw $zr, 0x98($a0)                   # .word 0xac800098
-.L0x000003dc: lh $v0, 0x2($a1)                    # .word 0x84a20002
-.L0x000003e0: sw $zr, 0x78($a0)                   # .word 0xac800078
-.L0x000003e4: sw $v0, 0x94($a0)                   # .word 0xac820094
-.L0x000003e8: jr $ra                              # .word 0x03e00008
-.L0x000003ec: nop                                 # .word 0x00000000
 .L0x000003f0: sw $a1, 0x58($a0)                   # .word 0xac850058
 .L0x000003f4: jr $ra                              # .word 0x03e00008
 .L0x000003f8: sw $a2, 0x5c($a0)                   # .word 0xac86005c

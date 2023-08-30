@@ -1,5 +1,21 @@
 //! Data
 
+/// Unknown0
+#[repr(C)]
+struct Unknown0 {
+	pad0: [u8; 0x78], // 0x00
+	a9:   u32,        // 0x78
+	a8:   u32,        // 0x7c
+	a0:   *mut u16,   // 0x80
+	a1:   u16,        // 0x84
+	a2:   u16,        // 0x86
+	a3:   u32,        // 0x88
+	a4:   *mut u16,   // 0x8c
+	a5:   u32,        // 0x90
+	a6:   u32,        // 0x94
+	a7:   u32,        // 0x98
+}
+
 util::decl_static! { "dw2003_pro_STGTRAIN_data",
 	pub static mut STGTRAIN_D0x00009574: [u32; 1081] = [
 		0x00000007, // 0x00009574

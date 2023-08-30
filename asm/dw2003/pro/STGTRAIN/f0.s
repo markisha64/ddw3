@@ -1,14 +1,6 @@
 .include "macros.s"
 
-# struct Arg0 {
-#  _: [u8; 0x80], // 0x0
-#  a0: *u16,      // 0x80
-#  a1: u16,       // 0x84
-#  a2: u16,       // 0x86
-#  a3: u32,       // 0x88
-# }
-
-# `fn f0(arg0: *Arg0, arg1: *u16, arg2: u32) -> u16`
+# `fn f0(arg0: *mut Unknown0, arg1: *u16, arg2: u32) -> u16`
 .section "section_STGTRAIN_f0"
 .global STGTRAIN_f0
 STGTRAIN_f0:
