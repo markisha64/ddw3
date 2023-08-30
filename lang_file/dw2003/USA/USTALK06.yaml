@@ -294,7 +294,7 @@ strings:
     Just scram![pause]
   - "[\\x0207]Tamer George[\\x0207]Fine. I'll show \nwho's the boss\nin Card Battle![pause]"
   - "[\\x0207]Tamer George[\\x0207]I'll show who's \nthe boss in \nDigimon Battle![pause]"
-  - "[\\x0207]Tamer George[\\x0207]...Oh, it's you.\nWhat do you want?\nYou already won.[pause][\\x0203]You're ticking me\noff [-4] go somewhere \nelse! Sheesh![pause]"
+  - "[\\x0207]Tamer George[\\x0207]...Oh, it's you.\nWhat do you want?\nYou already won.[pause][\\x0203]You're ticking me\noff - go somewhere \nelse! Sheesh![pause]"
   - "[\\x0207]Tamer George[\\x0207]Just leave me \nalone will ya...[pause][\\x0203]Please, just\nleave me alone,\nall right?[pause]"
   - |-
     [\x0207]Tamer George[\x0207]...oh, all right.[pause][\x0203]Then I'll show you
@@ -305,7 +305,7 @@ strings:
     get cocky
     cuz you won![pause][\x0203]Just leave me
     alone...You heard
-    me [-4] SCRAM![pause]
+    me - SCRAM![pause]
   - |-
     [\x0207]Tamer Mei Lin[\x0207]Nihao!
     I'm Mei Lin
@@ -323,7 +323,7 @@ strings:
   - a
   - "[\\x0207]Tamer Mei Lin[\\x0207]You should \ncome to Peking \nsome time![pause][\\x0203]The food is \ngreat![pause]"
   - "[\\x0207]Tamer Mei Lin[\\x0207]Then let's\nCard Battle![pause][\\x0203]I'm not losing to\na tamer from \nanother country![pause]"
-  - "[\\x0207]Tamer Mei Lin[\\x0207]Then let's \nDigimon Battle![pause][\\x0203]I'll show you \nmy Digimon\nkung[-4]fu style![pause]"
+  - "[\\x0207]Tamer Mei Lin[\\x0207]Then let's \nDigimon Battle![pause][\\x0203]I'll show you \nmy Digimon\nkung-fu style![pause]"
   - "[\\x0207]Tamer Mei Lin[\\x0207]...I just lost\nto you\nrecently![pause][\\x0203]I don't feel I'm \nready again, so\nmaybe next time![pause]"
   - |-
     [\x0207]Tamer Mei Lin[\x0207]...wow, you're
@@ -378,7 +378,7 @@ strings:
     get you down.[pause][\x0203]There are worse
     things in life to
     worry about.[pause]
-  - "[\\x0207]Tamer Gordon[\\x0207]Wha[-4]what.\nI guess I'm a \nloser even here.[pause][\\x0203]No, that can't be!\nIf I try, tomorrow\nis another day![pause]"
+  - "[\\x0207]Tamer Gordon[\\x0207]Wha-what.\nI guess I'm a \nloser even here.[pause][\\x0203]No, that can't be!\nIf I try, tomorrow\nis another day![pause]"
   - |-
     [\x0207]Tamer Jessica[\x0207]It's good to live a
     long life if I can
@@ -480,7 +480,7 @@ strings:
   - "[\\x0207]Tamer Akiba[\\x0207]I won again.\nLa la la la la[pause][\\x0203]This is why I \ncan't stop playing\nDigimon Online.[pause]"
   - |-
     [\x0207]Tamer Akiba[\x0207]Oh, no!
-    I[-4]I lost...[pause][\x0203]What a shock.
+    I-I lost...[pause][\x0203]What a shock.
     Today is so
     blue...[pause]
   - a
@@ -539,7 +539,7 @@ strings:
   - "[\\x0207]Trooper[\\x0207]What?! The Chief\nOfficers got \ncaught too?![pause][\\x0203]That's a lie! I'm \nnot going to \nbelieve that![pause]"
   - "[\\x0207]Gatomon[\\x0207]Suzaku Leader is \npopular because \nshe's cute.[pause][\\x0203]There's even a fan \nclub![pause]"
   - "[\\x0207]Gatomon[\\x0207]We go to the \nAdministration \nCenter a lot.[pause][\\x0203]But we've never \nseen other people.[pause]"
-  - "[\\x0207]Gatomon[\\x0207]People ask, but I \ndon't know where\nthe Digi[-4]Egg is.[pause][\\x0203]I'm sorry, I can't\nhelp you.[pause]"
+  - "[\\x0207]Gatomon[\\x0207]People ask, but I \ndon't know where\nthe Digi-Egg is.[pause][\\x0203]I'm sorry, I can't\nhelp you.[pause]"
   - "[\\x0207]Gatomon[\\x0207]You're at the Inn \nnow. Please rest![pause]"
   - "[\\x0207]Gatomon[\\x0207]There's trouble\nin Asuka City.[pause][\\x0203]I wonder if the \nother Gatomon \nare all right.[pause]"
   - "[\\x0207]Gatomon[\\x0207]If the Matrix Chamber \nis down, you can't \ngo to other servers.[pause][\\x0203]But that's weird.\nI wonder how the\nA.o.A got here...[pause]"
@@ -787,9 +787,9 @@ strings:
   - a
   - a
   - a
-  - "[\\x0207]Zanbamon[\\x0207]I[-4]I was wrong![pause][\\x0203]I'll stay quietly \nhere, so leave me \nbe![pause]"
-  - "[\\x0207]Zanbamon[\\x0207]I[-4]I was wrong![pause][\\x0203]I'll stay quietly \nhere, so leave me \nbe![pause]"
-  - "[\\x0207]Zanbamon[\\x0207]I[-4]I haven't \ndone anything \nwrong![pause][\\x0203]Please leave me \nalone![pause]"
+  - "[\\x0207]Zanbamon[\\x0207]I-I was wrong![pause][\\x0203]I'll stay quietly \nhere, so leave me \nbe![pause]"
+  - "[\\x0207]Zanbamon[\\x0207]I-I was wrong![pause][\\x0203]I'll stay quietly \nhere, so leave me \nbe![pause]"
+  - "[\\x0207]Zanbamon[\\x0207]I-I haven't \ndone anything \nwrong![pause][\\x0203]Please leave me \nalone![pause]"
   - "[\\x0207]Zanbamon[\\x0207]I had a change of \nheart, and now \nI'm a protector.[pause][\\x0203]It feels good to\ndo good things![pause]"
   - "[\\x0207]Zanbamon[\\x0207]I had a change of \nheart, and now \nI'm a protector.[pause][\\x0203]It feels good to\ndo good things![pause]"
   - "[\\x0207]Zanbamon[\\x0207]Strange...I\nfeel calm here.[pause][\\x0203]So just leave me \nhere.[pause]"
@@ -1068,7 +1068,7 @@ strings:
   - "[\\x0207]DRI Johann[\\x0207]I'm counting on\nyou![pause][\\x0203]Please raise a \nstrong Agumon![pause]"
   - "[\\x0207]DRI Johann[\\x0207]You've got a \ngreat Agumon![pause][\\x0203]Please train him \nwell![pause]"
   - "[\\x0207]DRI Johann[\\x0207]I'm busy right \nnow.[pause][\\x0203]I'll listen to\nyou later.[pause]"
-  - "[\\x0207]Divermon[\\x0207]The pain [-4] there's \nsomething stuck \nin my throat![pause][\\x0203]Please take it\nout![pause][\\x0203].........\n..........[pause][\\x0203]Thanks, that feels\nbetter![pause][\\x0203]Oh, a Red Snapper\nwas stuck.[pause][\\x0203]I don't need it so \nyou can have it.\nLater![pause]"
+  - "[\\x0207]Divermon[\\x0207]The pain - there's \nsomething stuck \nin my throat![pause][\\x0203]Please take it\nout![pause][\\x0203].........\n..........[pause][\\x0203]Thanks, that feels\nbetter![pause][\\x0203]Oh, a Red Snapper\nwas stuck.[pause][\\x0203]I don't need it so \nyou can have it.\nLater![pause]"
   - "[\\x0207]Divermon[\\x0207]Thanks about last time.[pause][\\x0203]Come over to \nDuel Island \nsome time.[pause][\\x0203]My friends will play \nCard Battle with you.[pause]"
   - a
   - "[\\x0207]DRI Johann[\\x0207]I'm busy right \nnow.[pause][\\x0203]I'll listen to\nyou later.[pause]"
@@ -1140,7 +1140,7 @@ strings:
   - "[\\x0207]Pharaohmon[\\x0207]You are strong!\nThe gods are on \nyour side![pause]"
   - "[\\x0207]MasterTyranno[\\x0207]You'll be able to \nenter the Server \nTournament![pause][\\x0203]Keep up the \ngood work![pause]"
   - "[\\x0207][\\x020902]3What is that?\nThere's something \nwritten on the back![pause][\\x0203]I think I saw it \nsomewhere...\nI can't recollect...[pause]"
-  - "[\\x0207][\\x020902]3There it is! The\nSymbol of Sincerity![pause][\\x0203]Then is the Digi[-4]Egg \nof Sincerity in here?[pause][\\x0203]But how am I supposed \nto break down the wall?[pause][\\x0203]Hmm...maybe Sepikmon\ncan help me...[pause]"
+  - "[\\x0207][\\x020902]3There it is! The\nSymbol of Sincerity![pause][\\x0203]Then is the Digi-Egg \nof Sincerity in here?[pause][\\x0203]But how am I supposed \nto break down the wall?[pause][\\x0203]Hmm...maybe Sepikmon\ncan help me...[pause]"
   - "[\\x0207][\\x020902]3...Oh, the hole is \nclosed up.\nI can't go in...[pause]"
   - "[\\x0207]Sepikmon[\\x0207]Ask my friend \nBaronmon about \nbombs![pause][\\x0203]Baronmon is good at \nmaking bombs![pause]"
   - "[\\x0207]Sepikmon[\\x0207]Did you get Baronmon\nto make a bomb?![pause][\\x0203]I'm happy I could \nhelp you![pause]"
@@ -1240,7 +1240,7 @@ strings:
   - a
   - a
   - a
-  - "[\\x0207][\\x020902]3I have to find the \nDigi[-4]Egg of \nSincerity...[pause]"
+  - "[\\x0207][\\x020902]3I have to find the \nDigi-Egg of \nSincerity...[pause]"
   - a
   - "[\\x0207]Divermon[\\x0207]Only true tamers can \ngo beyond here.[pause][\\x0203]You don't even have \na folder bag?[pause][\\x0203]I'll never let anyone \nlike you pass![pause]"
   - a

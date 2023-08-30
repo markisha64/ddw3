@@ -56,10 +56,10 @@ strings:
   - |-
     Salvataggio.
     Non toccare la MEMORY CARD.
-  - '[-4][-4][-4][-4][-4]'
-  - '[-4][-4][-4][-4][-4][-4][-4][-4]'
-  - '[-4][-4][-4][-4][-4][-4][-4]'
-  - '[-4][-4]'
+  - '-----'
+  - '--------'
+  - '-------'
+  - '--'
   - Salvataggio fallito.
   - Salvataggio fallito.
   - |-

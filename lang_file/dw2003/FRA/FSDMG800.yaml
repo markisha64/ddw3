@@ -4,7 +4,7 @@ files:
       - ''
       - |-
         [\x0207][\x020902]3Tiens ? Voilà
-        un autre bouton.[pause][\x0203]Qu'est[-4]ce que
+        un autre bouton.[pause][\x0203]Qu'est-ce que
         je fais ? Allez,
         j'appuie ![pause]
       - |-
@@ -41,7 +41,7 @@ files:
       - |-
         [\x0207][\x020902]3Hm, quel bouton ?
         ... ... Là !
-        C'est celui[-4]là ![pause]
+        C'est celui-là ![pause]
       - |-
         [\x0207][\x020902]3Tiens ? Rien ne
         se passe ? Mais si
@@ -67,7 +67,7 @@ files:
       - |-
         [\x0207]Garde Royal[\x0207]Ha ha ha ! Ce
         gamin nous
-        dit d'arrêter ![pause][\x0203]Qu'est[-4]ce que
+        dit d'arrêter ![pause][\x0203]Qu'est-ce que
         tu crois ?[pause]
       - |-
         [\x0207][\x020902]3Je vous
@@ -91,7 +91,7 @@ files:
         par terre.[pause]
       - |-
         [\x0207][\x020902]3Quoi ? Le champ
-        électromagné[-4]
+        électromagné-
         tique est parti ![pause]
       - |-
         PRET POUR LE
@@ -135,28 +135,28 @@ files:
       - "[\\x0207][\\x020902]3Ce panneau est\nanimé, cela devrait \néliminer le bloc...[pause]"
       - |-
         [\x0207][\x020902]3Hmm, le bloc
-        est[-4]il parti,
+        est-il parti,
         à présent ?[pause]
   - strings:
       - ''
       - "[\\x0207][\\x020902]3Ce panneau est\nanimé, cela devrait \néliminer le bloc...[pause]"
       - |-
         [\x0207][\x020902]3Hmm, le bloc
-        est[-4]il parti,
+        est-il parti,
         à présent ?[pause]
   - strings:
       - ''
       - "[\\x0207][\\x020902]3Ce panneau est\nanimé, cela devrait \néliminer le bloc...[pause]"
       - |-
         [\x0207][\x020902]3Hmm, le bloc
-        est[-4]il parti,
+        est-il parti,
         à présent ?[pause]
   - strings:
       - ''
       - "[\\x0207]Soldat métallique[\\x0207]Bip, bip ![pause][\\x0203]Alerte intrus !\nAlerte intrus ![pause][\\x0203]Intrus à éliminer des \nlocaux ![pause]"
       - |-
         [\x0207][\x020902]3Allons,
-        homme[-4]conserve,
+        homme-conserve,
         viens te battre ![pause]
   - strings:
       - ''
@@ -169,7 +169,7 @@ files:
       - ''
       - |-
         HA ha ha ha ha
-        Que peux[-4]tu faire, misérable ![pause][\x0203]Moi, Lord Megadeath, j'ai passé
+        Que peux-tu faire, misérable ![pause][\x0203]Moi, Lord Megadeath, j'ai passé
         le téléporteur ![pause][\x0203]Viens à présent ! Meilleur dresseur !
         Viens goûter ma force ![pause]
       - |-
@@ -178,21 +178,21 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207][\x020902]3Qu...qu'est[-4]ce
+        [\x0207][\x020902]3Qu...qu'est-ce
         qu'il se passe ?[pause]
   - strings:
       - ''
       - "[\\x0207][\\x020902]3Vite ! Il faut vaincre \nLord Megadeath et \nsauver tout le monde ![pause]"
   - strings:
       - ''
-      - "[\\x0207][\\x020902]3Qu[-4]qu'est \nce que ?[pause]"
+      - "[\\x0207][\\x020902]3Qu-qu'est \nce que ?[pause]"
   - strings:
       - ''
       - |-
         Te voilà enfin, le
         meilleur de tous
         les dresseurs ![pause]
-      - "[\\x0207][\\x020902]3Lord \nMegadeath !\nQui es[-4]tu ?![pause]"
+      - "[\\x0207][\\x020902]3Lord \nMegadeath !\nQui es-tu ?![pause]"
       - "Je suis une forme de vie \nnumérique née dans le réseau...[pause][\\x0203]Et je vais devenir le maître de\ntous les mondes, à la place \ndes humains.[pause]"
       - "[\\x0207][\\x020902]3C'est pour ça \nque tu as créé\nl'A.o.A ?[pause]"
       - "Oui. Pour créer le plus \npuissant Digimon, le fidèle\nSnatchmon ![pause]"
@@ -206,7 +206,7 @@ files:
       - "C'est bien pour cela \nque tu dois te battre.[pause][\\x0203]Pour que je te montre\nqui est le meilleur ![pause]"
       - |-
         [\x0207][\x020902]3Oui, c'est ça.
-        Amène[-4]toi ![pause]
+        Amène-toi ![pause]
   - strings:
       - ''
       - "[\\x0207][\\x020902]3Alors, Lord \nMegadeath ![pause][\\x0203]Tu penses \nencore\nêtre invincible ?[pause]"
@@ -227,21 +227,21 @@ files:
         Je t'attends ![pause]
       - "[\\x0207]Snatchmon[\\x0207]Qui es tu pour\nme donner \ndes ordres ?[pause]"
       - |-
-        ...mais que dis[-4]tu ?!
+        ...mais que dis-tu ?!
         Je suis ton dresseur ![pause]
       - "[\\x0207]Snatchmon[\\x0207]...Dresseur ?\nJe n'en ai pas \nbesoin...[pause][\\x0203]Je suis le meilleur\nDigimon ! Je n'obéis\nà personne ![pause]"
-      - "Qu[-4]quoi !\nPour qui me  \nprends[-4]tu...?![pause]"
+      - "Qu-quoi !\nPour qui me  \nprends-tu...?![pause]"
       - |-
         [\x0207]Snatchmon[\x0207]Peu importe qui m'a
         créé... Je vais...[pause][\x0203]absorber plus de
         données et devenir
         plus puissant ![pause][\x0203]A commencer...
         par toi ![pause]
-      - Qu[-4]quoi ?![pause]
+      - Qu-quoi ?![pause]
       - Aaaaaaaaah ![pause]
       - "[\\x0207][\\x020902]3Hé, c'est quand\nmême le dresseur\nqui t'a élevé ![pause][\\x0203]Dresseurs et  \nDigimons\nne font qu'un ![pause][\\x0203]Nous travaillons \ntoujours ensemble.[pause]"
       - "[\\x0207]Snatchmon[\\x0207]C'est donc toi...\nTu m'as vaincu \nen Vemmon.[pause][\\x0203]Mais je suis\nde nouveau là ![pause][\\x0203]Et je te montrerai  \nmes nouveaux \npouvoirs ![pause]"
-      - "[\\x0207][\\x020902]3... Quoi ?!\nQue vas[-4]tu \nfaire ?[pause]"
+      - "[\\x0207][\\x020902]3... Quoi ?!\nQue vas-tu \nfaire ?[pause]"
       - "[\\x0207]Snatchmon[\\x0207]Fusionner avec \nGunslinger pour  \nêtre Galacticmon ![pause]"
       - '[\x0207][\x020902]3Galacticmon ?[pause]'
       - "[\\x0207]Snatchmon[\\x0207]Puis, je ne ferai plus \nqu'un avec la Terre ![pause][\\x0203]Pour digivolver en un \nDigimon plus puissant, \nGaiamon ![pause]"
@@ -253,7 +253,7 @@ files:
         [\x0207][\x020902]3Tu peux
         compter
         sur moi ![pause]
-      - "[\\x0207]Snatchmon[\\x0207]Bien.\nOn se retrouvera\ndans l'espace ![pause][\\x0203]J'enverrai tes\ndonnées matrix.[pause][\\x0203]Regarde[-4]moi\ndigivolver en \nGalacticmon ![pause]"
+      - "[\\x0207]Snatchmon[\\x0207]Bien.\nOn se retrouvera\ndans l'espace ![pause][\\x0203]J'enverrai tes\ndonnées matrix.[pause][\\x0203]Regarde-moi\ndigivolver en \nGalacticmon ![pause]"
       - "Voici Snatchmon !\nQue le monde se couvre \nde ténèbres ![pause]"
   - strings:
       - ''

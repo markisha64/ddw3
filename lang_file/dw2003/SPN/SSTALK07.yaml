@@ -277,7 +277,7 @@ strings:
     [\x0207]Miko[\x0207]¡Ooioioioioi, oi!
     ¡Oi, oinkk![pause]
   - "[\\x0207]Miko[\\x0207]Hubiera preferido\ntransformarme en \nhamster.[pause][\\x0203]Abría podido\nhablar con Hamjiro.[pause]"
-  - "[\\x0207]Gatomon[\\x0207]¡Buff! Desperté\ny todos eran\nDigimon.[pause][\\x0203]¿Q[-4]Qué ha \nocurrido?[pause]"
+  - "[\\x0207]Gatomon[\\x0207]¡Buff! Desperté\ny todos eran\nDigimon.[pause][\\x0203]¿Q-Qué ha \nocurrido?[pause]"
   - |-
     [\x0207]Gatomon[\x0207]Todo es por culpa
     de A.o.A..[pause][\x0203]¿Cómo pueden hacer
@@ -1172,7 +1172,7 @@ strings:
     Es culpa de A.o.A.[pause]
   - "[\\x0207]Patamon[\\x0207]Espero que la \ngente venga aquí.[pause][\\x0203]¡Es tan aburrido\nestar sólo![pause]"
   - |-
-    [\x0207]Patamon[\x0207]¿Q[-4]Qué debería
+    [\x0207]Patamon[\x0207]¿Q-Qué debería
     hacer?[pause][\x0203]Vino un Digimon raro
     y Hideki se mutó
     en Oinkmon.[pause]

@@ -448,7 +448,7 @@ files:
         seguro.[pause]
       - |-
         [\x0207]Kail[\x0207]¿Qué?
-        Pe[-4]pero...
+        Pe-pero...
         [\x020801][\x020501].[pause]
       - |-
         [\x0207][\x020902]3¡Soy el único que
@@ -504,7 +504,7 @@ files:
         ¿Oin, oi, oin?
         ¡Oooin, oioioink![pause]
       - |-
-        [\x0207][\x020902]3¿Te[-4]Teddy?
+        [\x0207][\x020902]3¿Te-Teddy?
         ¿Qué? Lisa, Nick
         y Keith también...[pause]
       - "[\\x0207]Teddy[\\x0207]Oi, oionk, oink\nOi, oioooin, oink\noioink, oionnk[pause][\\x0203]Oion, ooin, oink\nOiin, oink ooin\nOionknoink, oink[pause][\\x0203]Oooinkninon\nOinok, onnknon\nOin, oinknkoin[pause][\\x0203]Oin, oinok, oioninoo\nOin, oooin, ooin\noinonk, oink, ooin[pause][\\x0203]Oin oinoink \noioin oino ioni oino\noinoin, oinoinokon oink[pause][\\x0203]Ooinoin, oinoinoik\nOoinoino, oinoinok\noioioinonoino oihoinonk[pause]"
@@ -544,7 +544,7 @@ files:
         imponente figura flotando
         en el espacio...[pause]
       - |-
-        [\x0207][\x020902]3¡¿Qu[-4]
+        [\x0207][\x020902]3¡¿Qu-
         Qué?![pause]
   - strings:
       - ''

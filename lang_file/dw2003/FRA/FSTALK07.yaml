@@ -56,7 +56,7 @@ strings:
     l'AoA, ils ne doivent
     pas être si terribles.[pause]
   - |-
-    [\x0207]Dresseur Takuya[\x0207]Excuse[-4]moi,
+    [\x0207]Dresseur Takuya[\x0207]Excuse-moi,
     je ne devrais pas
     te mépriser.[pause][\x0203]Tu as vraiment
     vaincu l'A.o.A !![pause]
@@ -88,7 +88,7 @@ strings:
   - |-
     [\x0207]Banch le Garde[\x0207]Je ne peux pas
     croire que tu aies
-    battu l'A.o.A ![pause][\x0203]Es[-4]tu un de leurs
+    battu l'A.o.A ![pause][\x0203]Es-tu un de leurs
     espions ?[pause]
   - |-
     [\x0207]Banch le Garde[\x0207]Hé, j'rigole ![pause][\x0203]Le Commandant ne
@@ -97,7 +97,7 @@ strings:
   - |-
     [\x0207]Banch le Garde[\x0207]Tu te bats bien ![pause][\x0203]Désolé de t'avoir
     pris pour un espion....
-    Excuse[-4]moi ![pause]
+    Excuse-moi ![pause]
   - |-
     [\x0207]Banch le Garde[\x0207]Tu as vaincu
     l'A.o.A ![pause][\x0203]Je te remercie au
@@ -293,9 +293,9 @@ strings:
   - |-
     [\x0207]Gatomon[\x0207]Il y avait des
     Digimons partout
-    à mon réveil ![pause][\x0203]Qu'est[-4]il
+    à mon réveil ![pause][\x0203]Qu'est-il
     arrivé ?![pause]
-  - "[\\x0207]Gatomon[\\x0207]C'est de la faute\nde l'A.o.A ![pause][\\x0203]Comment \nont[-4]ils fait ?[pause]"
+  - "[\\x0207]Gatomon[\\x0207]C'est de la faute\nde l'A.o.A ![pause][\\x0203]Comment \nont-ils fait ?[pause]"
   - |-
     [\x0207]Gatomon[\x0207]Je te connais !
     Merci
@@ -316,7 +316,7 @@ strings:
     oinkoinkoink ![pause]
   - |-
     [\x0207]Militaire[\x0207]...Je refuse de
-    patrouiller seul ici.[pause][\x0203]Suis[-4]je mauvais
+    patrouiller seul ici.[pause][\x0203]Suis-je mauvais
     militaire pour
     autant ?[pause]
   - |-
@@ -324,9 +324,9 @@ strings:
     Oooink, oink...[pause]
   - |-
     [\x0207]Militaire[\x0207]L'A.o.A peut
-    perdre...[pause][\x0203]Que devrais[-4]je faire
+    perdre...[pause][\x0203]Que devrais-je faire
     alors ? Me
-    pardonneraient[-4]ils ?[pause]
+    pardonneraient-ils ?[pause]
   - |-
     [\x0207]Militaire[\x0207]On a perdu.[pause][\x0203]C'était le
     moment de filer.[pause][\x0203]Je vais bien
@@ -367,12 +367,12 @@ strings:
   - a
   - a
   - "[\\x0207]Erick Grignoteur[\\x0207]Oink, oioioionk! \nOink, oink.[pause]"
-  - "[\\x0207]Erick le Grignoteur[\\x0207]J'adore manger des\ncochonneries ![pause][\\x0203]Tiens, prends[-4]en un. \nSuper ce bonbon ![pause]"
+  - "[\\x0207]Erick le Grignoteur[\\x0207]J'adore manger des\ncochonneries ![pause][\\x0203]Tiens, prends-en un. \nSuper ce bonbon ![pause]"
   - |-
     [\x0207]Erick Grignoteur[\x0207]Oink, oioioionk !
     Oink, oink.[pause]
   - '[\x0207]Scott l''Anglais[\x0207]Oink, oink.[pause][\x0203]Oooink, oionk.[pause]'
-  - "[\\x0207]Scott l'Anglais[\\x0207]Qui a vaincu\nl'A.o.A ?![pause][\\x0203]Toi ?! \nTu plaisantes,\nn'est[-4]ce pas ?![pause]"
+  - "[\\x0207]Scott l'Anglais[\\x0207]Qui a vaincu\nl'A.o.A ?![pause][\\x0203]Toi ?! \nTu plaisantes,\nn'est-ce pas ?![pause]"
   - '[\x0207]Scott l''Anglais[\x0207]Oink, oink.[pause][\x0203]Oooink, oionk.[pause]'
   - |-
     [\x0207]Haram j. Marié[\x0207]Oink,
@@ -538,7 +538,7 @@ strings:
     dresseurs ![pause]
   - |-
     [\x0207]BK WarGrowlmon[\x0207]Les gens ont cessé de
-    venir à cause d'eux ![pause][\x0203]Aide[-4]moi ![pause]
+    venir à cause d'eux ![pause][\x0203]Aide-moi ![pause]
   - '43'
   - |-
     [\x0207]Pippin armures[\x0207]Oooi !
@@ -568,11 +568,11 @@ strings:
     [\x0207]BK KingNumemon[\x0207]C'est quand même
     toi qui as vaincu
     l'A.o.A ![pause][\x0203]C'est pas si
-    grave qu'un dres[-4]
+    grave qu'un dres-
     seur t'ait battu ![pause]
   - |-
     [\x0207]BK KingNumemon[\x0207]L'A.o.A ne
-    renonce jamais ![pause][\x0203]Montre[-4]leur
+    renonce jamais ![pause][\x0203]Montre-leur
     de quoi tu es
     capable !![pause]
   - '43'
@@ -598,8 +598,8 @@ strings:
   - |-
     [\x0207]Kaori l'Opérateur[\x0207]Il ne reste plus
     que le Centre
-    Admin, non ?[pause][\x0203]Alors, vas[-4]y et
-    montre[-4]leur qui
+    Admin, non ?[pause][\x0203]Alors, vas-y et
+    montre-leur qui
     est le chef ![pause]
   - |-
     [\x0207]Yuuko Opérateur[\x0207]Oink, oinknoink.
@@ -658,7 +658,7 @@ strings:
     de toi ![pause][\x0203]Je sais combien
     tu es fort ![pause]
   - |-
-    [\x0207]Dresseur Takuya[\x0207]Que dirais[-4]tu
+    [\x0207]Dresseur Takuya[\x0207]Que dirais-tu
     d'un duel ?[pause]
   - |-
     [\x0207]Dresseur Takuya[\x0207]Tu es si faible.[pause][\x0203]Si toi tu as battu
@@ -757,17 +757,17 @@ strings:
   - |-
     [\x0207]Banch le Garde[\x0207]Je n'arrive pas à
     croire que tu viennes
-    du Serveur Asuka.[pause][\x0203]Es[-4]tu un espion
+    du Serveur Asuka.[pause][\x0203]Es-tu un espion
     de l'A.o.A ?![pause]
   - |-
     [\x0207]Banch le Garde[\x0207]Désolé de
     t'avoir
     soupçonné...[pause][\x0203]Difficile de
     faire confiance
-    ces temps[-4]ci...[pause]
+    ces temps-ci...[pause]
   - |-
     [\x0207]Banch le Garde[\x0207]Si tu n'es pas un
-    espion, affronte[-4]
+    espion, affronte-
     moi en duel ![pause]
   - |-
     [\x0207]Banch le Garde[\x0207]...Non, tu n'es
@@ -776,7 +776,7 @@ strings:
     yeux ![pause]
   - |-
     [\x0207]Banch le Garde[\x0207]Si tu n'es pas un
-    espion, affronte[-4]
+    espion, affronte-
     moi au combat ![pause]
   - |-
     [\x0207]Banch le Garde[\x0207]Hé ! Je rigole !
@@ -792,11 +792,11 @@ strings:
   - |-
     [\x0207]Banch le Garde[\x0207]Tu te bats bien ![pause][\x0203]Désolé de t'avoir pris
     pour un espion...
-    Excuse[-4]moi ![pause]
+    Excuse-moi ![pause]
   - |-
     [\x0207]Banch le Garde[\x0207]Je n'arrive pas à
     croire que tu viennes
-    du Serveur Asuka.[pause][\x0203]Es[-4]tu un espion
+    du Serveur Asuka.[pause][\x0203]Es-tu un espion
     de l'A.o.A ?![pause]
   - a
   - |-
@@ -911,12 +911,12 @@ strings:
     [\x0207]Jan Coureur[\x0207]Oooink, oink,
     oioioinnk ![pause]
   - |-
-    [\x0207]Shigeo j. base[-4]ball[\x0207]Eh bien, tu vois,
+    [\x0207]Shigeo j. base-ball[\x0207]Eh bien, tu vois,
     c'est, ah...[pause][\x0203]Tu es revenu,
     c'est déjà ça !
     Voilà tout ![pause]
   - |-
-    [\x0207]Shigeo j. base[-4]ball[\x0207]Oink, oink,
+    [\x0207]Shigeo j. base-ball[\x0207]Oink, oink,
     ooinknoink oink ![pause]
   - |-
     [\x0207]Woods le Golfeur[\x0207]Dieu merci ![pause][\x0203]Je ne me suis pas
@@ -966,7 +966,7 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Reagan l'Avare[\x0207]J'ai peut[-4]être été
+    [\x0207]Reagan l'Avare[\x0207]J'ai peut-être été
     trop égocentrique.[pause][\x0203]Je vais essayer d'être
     plus généreux...[pause]
   - |-
@@ -1042,7 +1042,7 @@ strings:
   - "[\\x0207]Dresseur Heinrich[\\x0207]Le chef est\ntrop prudent.[pause][\\x0203]Je pense qu'il n'y\na qu'une option. \nAttaquer ![pause]"
   - |-
     [\x0207]Dresseur Heinrich[\x0207]Puisqu'on est ici
-    que dirais[-4]tu
+    que dirais-tu
     d'un duel ?[pause]
   - |-
     [\x0207]Dresseur Heinrich[\x0207]On dirait que tu
@@ -1050,7 +1050,7 @@ strings:
     avec eux ![pause]
   - |-
     [\x0207]Dresseur Heinrich[\x0207]Hé, puisqu'on est
-    ici, que dirais[-4]tu
+    ici, que dirais-tu
     d'un combat ?[pause]
   - |-
     [\x0207]Dresseur Heinrich[\x0207]Le chef m'a jugé
@@ -1131,7 +1131,7 @@ strings:
   - |-
     [\x0207]Maggy la Gastronome[\x0207]Un bon gastronome
     doit savourer
-    chaque ingrédient ![pause][\x0203]Je peux donc ap[-4]
+    chaque ingrédient ![pause][\x0203]Je peux donc ap-
     précier un porc entier.[pause]
   - |-
     [\x0207]Maggy Gastrono.[\x0207]Ooink !
@@ -1171,7 +1171,7 @@ strings:
   - |-
     [\x0207]Maître des Glaces[\x0207]L'A.o.A tente de
     prendre le contrôle
-    du Monde réel ?[pause][\x0203]Ne devrais[-4]tu pas
+    du Monde réel ?[pause][\x0203]Ne devrais-tu pas
     faire quelque
     chose ?[pause]
   - |-
@@ -1221,7 +1221,7 @@ strings:
     gens reviendront ici.[pause][\x0203]Je m'ennuie tout
     seul ici ![pause]
   - |-
-    [\x0207]Patamon[\x0207]Que dois[-4]je
+    [\x0207]Patamon[\x0207]Que dois-je
     faire ?![pause][\x0203]Un étrange Dig est
     venu et Hideki a été
     changé en Oinkmon ![pause]
@@ -1318,7 +1318,7 @@ strings:
     C'est pas de
     chance ![pause]
   - |-
-    [\x0207]Militaire[\x0207]Hé, va[-4]t'en !
+    [\x0207]Militaire[\x0207]Hé, va-t'en !
     Je n'ai pas
     le temps ![pause]
   - |-
@@ -1326,7 +1326,7 @@ strings:
     pour avoir joué.[pause]
   - |-
     [\x0207]Militaire[\x0207]Oh c'est toi !
-    Battons[-4]nous ![pause]
+    Battons-nous ![pause]
   - |-
     [\x0207]Militaire[\x0207]Oh, un enfant.
     J'ai peur ![pause]
@@ -1355,12 +1355,12 @@ strings:
   - a
   - |-
     [\x0207]Militaire[\x0207]Hé, toi !
-    Qui es[-4]
+    Qui es-
     tu ?![pause]
   - |-
     [\x0207]Militaire[\x0207]Oh, un
     enfant.
-    Va[-4]t'en ![pause]
+    Va-t'en ![pause]
   - |-
     [\x0207]Militaire[\x0207]Tu es
     bizarre.[pause][\x0203]Un Combat de
@@ -1374,7 +1374,7 @@ strings:
   - |-
     [\x0207]Militaire[\x0207]Oh, encore
     toi !
-    Va[-4]t'en ![pause]
+    Va-t'en ![pause]
   - |-
     [\x0207]Militaire[\x0207]Ha, ha !
     J'ai gagné !
@@ -1383,22 +1383,22 @@ strings:
     [\x0207]Militaire[\x0207]J'ai perdu...
     Allez, file ![pause]
   - |-
-    [\x0207]Militaire[\x0207]Va[-4]t'en ! Je n'ai
+    [\x0207]Militaire[\x0207]Va-t'en ! Je n'ai
     pas de temps
     à perdre ![pause]
   - |-
     [\x0207]Militaire[\x0207]Où
-    vas[-4]tu ?![pause]
+    vas-tu ?![pause]
   - |-
     [\x0207]Militaire[\x0207]C'est toi !
-    Prépare[-4]toi ![pause]
+    Prépare-toi ![pause]
   - |-
     [\x0207]Militaire[\x0207]Je me suis
     trompé.
-    Va[-4]t'en ![pause]
+    Va-t'en ![pause]
   - |-
     [\x0207]Militaire[\x0207]C'est toi !
-    Prépare[-4]toi ![pause]
+    Prépare-toi ![pause]
   - a
   - a
   - a
@@ -1640,7 +1640,7 @@ strings:
   - a
   - |-
     [\x0207]Gatomon[\x0207]...Bienvenue
-    dans mon auberge ![pause][\x0203]Profites[-4]en pour
+    dans mon auberge ![pause][\x0203]Profites-en pour
     te reposer.[pause]
   - |-
     [\x0207]Guardromon[\x0207]ACCES AU
@@ -1662,13 +1662,13 @@ strings:
     [\x0207]BKSeraphimon[\x0207]Je suis Black
     Seraphimon ![pause][\x0203]Tu es venu dans
     ce lieu divin,
-    paies[-4]en le prix.[pause]
+    paies-en le prix.[pause]
   - |-
     [\x0207]BK WarGrowlmon[\x0207]Un dresseur ![pause][\x0203]Hé, jouons !
     Il n'y avait personne
     et je m'ennuyais ![pause]
   - |-
-    [\x0207]BK KingNumemon[\x0207]... Qui es[-4]tu ![pause][\x0203]T'es fou de pénétrer
+    [\x0207]BK KingNumemon[\x0207]... Qui es-tu ![pause][\x0203]T'es fou de pénétrer
     sur le territoire de
     Black KingNumemon![pause]
   - |-
@@ -1679,7 +1679,7 @@ strings:
   - '[\x0207]Shakkoumon[\x0207]Voici le gymnase.[pause][\x0203]Au boulot ![pause]'
   - |-
     [\x0207]Asuramon[\x0207]L'entraînement,
-    c'est bien ! Vas[-4]y ![pause]
+    c'est bien ! Vas-y ![pause]
   - |-
     [\x0207]Magnamon[\x0207]Voici le Grand
     Gymnase, version hyper.[pause][\x0203]C'est le plus dur de
@@ -1691,7 +1691,7 @@ strings:
   - "[\\x0207]Chef Chuck[\\x0207]Tu es [\\x020801][\\x020501] \ndu Serveur\nAsuka.[pause]"
   - |-
     [\x0207]Kabukimon[\x0207]Kotetsu est un
-    grand katana.[pause][\x0203]Fais[-4]en bon usage.[pause]
+    grand katana.[pause][\x0203]Fais-en bon usage.[pause]
   - |-
     [\x0207]Kabukimon[\x0207]Je m'appelle...
     ... Oh !
@@ -1727,14 +1727,14 @@ strings:
   - |-
     [\x0207]Shurimon[\x0207]Oh, tu as le
     Fusil Rouillé ![pause][\x0203]Reviens avec
-    Fragmo[-4]Canon ![pause][\x0203]Je fusionnerai ces
+    Fragmo-Canon ![pause][\x0203]Je fusionnerai ces
     deux armes pour en
     créer une puissante ![pause]
-  - "[\\x0207]Shurimon[\\x0207]Tu as le Fusil\nRouillé et le \nFragmo[-4]Canon ![pause][\\x0203]Tu me les\ndonnes ?[pause][\\x0203]L'évolution des armes\nselon Shurimon !\n...ayeeeeeya![pause][\\x0203]... Bien ! Voici\nFragmo[-4]Canon.[pause][\\x0203]Je vais te le donner,\nfais[-4]en bon\nusage ![pause]"
+  - "[\\x0207]Shurimon[\\x0207]Tu as le Fusil\nRouillé et le \nFragmo-Canon ![pause][\\x0203]Tu me les\ndonnes ?[pause][\\x0203]L'évolution des armes\nselon Shurimon !\n...ayeeeeeya![pause][\\x0203]... Bien ! Voici\nFragmo-Canon.[pause][\\x0203]Je vais te le donner,\nfais-en bon\nusage ![pause]"
   - |-
     [\x0207]Nohemon[\x0207]Génial ce
     Zodiaque, non ?
-    Fais[-4]en bon usage.[pause]
+    Fais-en bon usage.[pause]
   - |-
     [\x0207]Nohemon[\x0207]Je suis Nohemon,
     pas un épouvantail.[pause]
@@ -1746,11 +1746,11 @@ strings:
   - |-
     [\x0207]Nohemon[\x0207]Oh, un Gant Rouillé
     et le Point
-    du Kaiser ![pause][\x0203]OK, donne[-4]les moi.
+    du Kaiser ![pause][\x0203]OK, donne-les moi.
     T'inquiète ! Je ne
     vais pas les garder ![pause][\x0203]Bon, c'est parti.[pause][\x0203]... Regarde ça !
     Un Zodiaque ![pause][\x0203]OK, je te le
-    rends. Fais[-4]en
+    rends. Fais-en
     bon usage ![pause]
   - |-
     [\x0207]Shadramon[\x0207]Sha sha sha !
@@ -1766,7 +1766,7 @@ strings:
     de toi ![pause][\x0203]Apporte un Croc
     Tranchant. J'en ferai
     une vraie arme ![pause]
-  - "[\\x0207]Shadramon[\\x0207]Un Croc Tranchant\net une Griffe Antique.\nDonne[-4]les moi ![pause][\\x0203]Ooooh, c'est...\nc'est super...[pause][\\x0203]OK, fusionnons[-4]\nles...[pause][\\x0203]Et voilà !\nGénial, non ?\nLe Triomphe ![pause][\\x0203]J'en ai des tas, \nalors voilà ![pause][\\x0203]Ne laisse pas les\nsales types se\nmoquer de toi ![pause]"
+  - "[\\x0207]Shadramon[\\x0207]Un Croc Tranchant\net une Griffe Antique.\nDonne-les moi ![pause][\\x0203]Ooooh, c'est...\nc'est super...[pause][\\x0203]OK, fusionnons-\nles...[pause][\\x0203]Et voilà !\nGénial, non ?\nLe Triomphe ![pause][\\x0203]J'en ai des tas, \nalors voilà ![pause][\\x0203]Ne laisse pas les\nsales types se\nmoquer de toi ![pause]"
   - |-
     [\x0207]Shadramon[\x0207]Sha sha sha !
     Ne me remercie pas.[pause][\x0203]Tout le monde
@@ -1781,7 +1781,7 @@ strings:
     de toi ![pause][\x0203]Apporte un Croc
     Tranchant. J'en ferai
     une vraie arme ![pause]
-  - "[\\x0207]\"Shadramon[\\x0207]Une Dent de zibeline\net une Veille griffe.\nDonne[-4]les moi ![pause][\\x0203]Ooooh, c'est...\nc'est super...[pause][\\x0203]OK, fusionnons[-4]\nles...[pause][\\x0203]Et voilà !\nGénial, non ?\nLe Triomphe ![pause][\\x0203]J'en ai des tas, \nalors voilà ![pause][\\x0203]Ne laisse pas les\nsales types se\nmoquer de toi !\"[pause]"
+  - "[\\x0207]\"Shadramon[\\x0207]Une Dent de zibeline\net une Veille griffe.\nDonne-les moi ![pause][\\x0203]Ooooh, c'est...\nc'est super...[pause][\\x0203]OK, fusionnons-\nles...[pause][\\x0203]Et voilà !\nGénial, non ?\nLe Triomphe ![pause][\\x0203]J'en ai des tas, \nalors voilà ![pause][\\x0203]Ne laisse pas les\nsales types se\nmoquer de toi !\"[pause]"
   - |-
     [\x0207]"Shadramon[\x0207]Sha sha sha !
     Ne me remercie pas.[pause][\x0203]J'ai fait ce que
@@ -1791,12 +1791,12 @@ strings:
     Un mauvais garçon !"[pause]
   - |-
     [\x0207]"Shadramon[\x0207]Oh, tu as une
-    Vieille griffe.[pause][\x0203]Pourquoi la gardes[-4]tu ?
+    Vieille griffe.[pause][\x0203]Pourquoi la gardes-tu ?
     Ils vont se moquer
     de toi ![pause][\x0203]Apporte une Dent de zibeline.
     Je la transformerai
     en arme !"[pause]
-  - "[\\x0207]Shadramon[\\x0207]Un Croc Tranchant\net une Griffe Antique.\nDonne[-4]les moi ![pause][\\x0203]Ooooh, c'est...\nc'est super...[pause][\\x0203]OK, fusionnons[-4]\nles...[pause][\\x0203]Et voilà !\nGénial, non ?\nLe Triomphe ![pause][\\x0203]J'en ai des tas, \nalors voilà ![pause][\\x0203]Ne laisse pas les\nsales types se\nmoquer de toi ![pause]"
+  - "[\\x0207]Shadramon[\\x0207]Un Croc Tranchant\net une Griffe Antique.\nDonne-les moi ![pause][\\x0203]Ooooh, c'est...\nc'est super...[pause][\\x0203]OK, fusionnons-\nles...[pause][\\x0203]Et voilà !\nGénial, non ?\nLe Triomphe ![pause][\\x0203]J'en ai des tas, \nalors voilà ![pause][\\x0203]Ne laisse pas les\nsales types se\nmoquer de toi ![pause]"
   - a
   - a
   - a
@@ -1814,18 +1814,18 @@ strings:
     N'utilise pas
     le Bâton Antique ![pause][\x0203]Tu veux que je te
     fabriques une arme
-    d'avant[-4]garde ?[pause][\x0203]Apporte Khakkhara
+    d'avant-garde ?[pause][\x0203]Apporte Khakkhara
     et je te la
     fabriquerai ![pause]
   - |-
     [\x0207]Ponchomon[\x0207]Amigo, tu as un
     Bâton Antique
-    et Khakkhara![pause][\x0203]Alors, donne[-4]le
+    et Khakkhara![pause][\x0203]Alors, donne-le
     moi ![pause][\x0203]...cha, cha, cha !
     Cha, cha, cha !
     Ooooo mambo ![pause][\x0203]Voilà !
     Un Scintillement
-    d'avant[-4]garde ![pause][\x0203]Tu peux frimer !
+    d'avant-garde ![pause][\x0203]Tu peux frimer !
     Bonne chance amigo ![pause]
   - |-
     [\x0207]Yashamon[\x0207]...Seuls les forts
@@ -1839,7 +1839,7 @@ strings:
     [\x0207]Yashamon[\x0207]Les forts doivent
     avoir une arme
     appropriée...[pause][\x0203]... Si tu as
-    Kotetsu, procure[-4]toi
+    Kotetsu, procure-toi
     Tenjinmaru...[pause][\x0203]Je te fabriquerai
     une meilleure
     arme...[pause]
@@ -1867,7 +1867,7 @@ strings:
     [\x0207]Kongoumon[\x0207]Quoi, tu n'as pas
     la Baguette de
     Cristal ?[pause][\x0203]Dommage, puisque tu
-    as le Scintillement ![pause][\x0203]Apporte[-4]moi les
+    as le Scintillement ![pause][\x0203]Apporte-moi les
     deux, je fabriquerai
     quelque chose ![pause]
   - |-
@@ -1892,7 +1892,7 @@ strings:
     [\x0207]Kongoumon[\x0207]Quoi, tu n'as pas
     la Baguette de
     Cristal ?[pause][\x0203]Dommage, puisque tu
-    as le Scintillement ![pause][\x0203]Apporte[-4]moi les
+    as le Scintillement ![pause][\x0203]Apporte-moi les
     deux, je fabriquerai
     quelque chose ![pause]
   - |-
@@ -1920,7 +1920,7 @@ strings:
     Destruction ![pause][\x0203]J'en ferai une
     arme encore
     plus puissante ![pause]
-  - "[\\x0207]MetalEtemon[\\x0207]J'en ferai une\narme plus\npuissante ![pause][\\x0203]Donne[-4]moi la\nDestruction et\nle Croc de Belial.[pause][\\x0203]OK, ça y est ! Une\ncouche de Digizoïte\nde Kulon ![pause][\\x0203]Voilà !\nUn Invincible ![pause][\\x0203]Tu vas être un\nredoutable \ndresseur avec ça ![pause]"
+  - "[\\x0207]MetalEtemon[\\x0207]J'en ferai une\narme plus\npuissante ![pause][\\x0203]Donne-moi la\nDestruction et\nle Croc de Belial.[pause][\\x0203]OK, ça y est ! Une\ncouche de Digizoïte\nde Kulon ![pause][\\x0203]Voilà !\nUn Invincible ![pause][\\x0203]Tu vas être un\nredoutable \ndresseur avec ça ![pause]"
   - |-
     [\x0207]MetalEtemon[\x0207]Hé, l'Eternité
     est géniale,
@@ -1935,7 +1935,7 @@ strings:
     en Eternité ![pause]
   - |-
     [\x0207]MetalEtemon[\x0207]OK, je te créerai
-    l'Eternité ![pause][\x0203]Passe[-4]moi l'Immaculée
+    l'Eternité ![pause][\x0203]Passe-moi l'Immaculée
     et le Millennium ![pause][\x0203]Ca y est ! Une
     couche de Digizoïte
     de Kulon ![pause][\x0203]Voilà ! Une
@@ -1954,7 +1954,7 @@ strings:
     apporte le Poing
     de Raijin ![pause][\x0203]Je les changerai
     en Super Nova ![pause]
-  - "[\\x0207]MetalEtemon[\\x0207]OK, je vais te\ncréer une\nSuper Nova ! [pause][\\x0203]Passe[-4]moi\nl'Eminence \net le Poing levé ![pause][\\x0203]Ca y est ! Une\ncouche de Digizoïte\nde Kulon ![pause][\\x0203]Voilà !\nUne Super Nova ![pause][\\x0203]Tu vas être un\ngrand dresseur\nmaintenant ![pause]"
+  - "[\\x0207]MetalEtemon[\\x0207]OK, je vais te\ncréer une\nSuper Nova ! [pause][\\x0203]Passe-moi\nl'Eminence \net le Poing levé ![pause][\\x0203]Ca y est ! Une\ncouche de Digizoïte\nde Kulon ![pause][\\x0203]Voilà !\nUne Super Nova ![pause][\\x0203]Tu vas être un\ngrand dresseur\nmaintenant ![pause]"
   - |-
     [\x0207]MetalEtemon[\x0207]L'Invincible, c'est
     bien, mais...[pause][\x0203]Un grand dresseur
@@ -1983,7 +1983,7 @@ strings:
     Châtiment ![pause]
   - |-
     [\x0207]MetalEtemon[\x0207]OK, je vais te créer
-    un Châtiment ![pause][\x0203]Passe[-4]moi le
+    un Châtiment ![pause][\x0203]Passe-moi le
     Jugement et
     le Canon de Suijin ![pause][\x0203]Ca y est ! Une
     couche de Digizoïte
@@ -2020,7 +2020,7 @@ strings:
     Muramasa ![pause]
   - |-
     [\x0207]MetalEtemon[\x0207]OK, je vais te créer
-    un Muramasa ! [pause][\x0203]Passe[-4]moi le
+    un Muramasa ! [pause][\x0203]Passe-moi le
     Masamune et la
     Lame de Fuujin ![pause][\x0203]Ca y est ! Une
     couche de Digizoïte
@@ -2034,7 +2034,7 @@ strings:
     pourra, on se
     battra ![pause][\x0203]D'ici là,
     bonne chance.[pause]
-  - "[\\x0207]Militaire[\\x0207]Quoi ? \nTu n'as que\nle Passe[-4]Partout ?[pause][\\x0203]Alors, tu ne passes\npas. Les ordres\nsont les ordres.[pause]"
+  - "[\\x0207]Militaire[\\x0207]Quoi ? \nTu n'as que\nle Passe-Partout ?[pause][\\x0203]Alors, tu ne passes\npas. Les ordres\nsont les ordres.[pause]"
   - |-
     [\x0207]Militaire[\x0207]Hé, attends !
     Qui es...[pause]
@@ -2059,7 +2059,7 @@ strings:
     ici ![pause][\x0203]Je poursuis la
     reconnaissance ![pause]
   - |-
-    [\x0207]Militaire[\x0207]Le QG de la Ré[-4]
+    [\x0207]Militaire[\x0207]Le QG de la Ré-
     sistance se trouvait
     dans la Tour mirage.[pause][\x0203]On va l'attaquer
     et le prendre ![pause]
@@ -2126,7 +2126,7 @@ strings:
     le Canon
     Laser ![pause][\x0203]Tu auras plus
     de chance ![pause]
-  - "[\\x0207]Sagitarimon[\\x0207]Hé, tu as le Canon\nlaser et la \nJustification ![pause][\\x0203]Donne[-4]les moi...[pause][\\x0203]... Hummm... Haaa !\nAiyeaaa ![pause][\\x0203]Regarde, voilà le\nJugement ![pause][\\x0203]Tu as bien de la\nchance !\nHa, ha, ha ![pause]"
+  - "[\\x0207]Sagitarimon[\\x0207]Hé, tu as le Canon\nlaser et la \nJustification ![pause][\\x0203]Donne-les moi...[pause][\\x0203]... Hummm... Haaa !\nAiyeaaa ![pause][\\x0203]Regarde, voilà le\nJugement ![pause][\\x0203]Tu as bien de la\nchance !\nHa, ha, ha ![pause]"
   - a
   - a
   - a
@@ -2256,7 +2256,7 @@ strings:
   - |-
     [\x0207]Guilmon[\x0207]Pff... J'ai
     réussi à marcher
-    jusqu'ici...[pause][\x0203]Quand pourrai[-4]je
+    jusqu'ici...[pause][\x0203]Quand pourrai-je
     sortir ?[pause][\x0203]Je crois que la
     sortie est quelque
     part par là...[pause]

@@ -288,7 +288,7 @@ files:
         Decide l'ordine di gioco. Inizia
         chi pesca Calumon.[pause][\x0203]Fase di pesca
         Devi pescare dal mazzo 6 carte
-        iniziali, che sono la tua mano.[pause][\x0203]Qui si forma Energia[-4]D dello stesso
+        iniziali, che sono la tua mano.[pause][\x0203]Qui si forma Energia-D dello stesso
         colore della carta pescata. La
         si usa nella fase di chiamata.[pause]
       - |-
@@ -302,7 +302,7 @@ files:
         I domatori scelgono le carte
         Digimon e chiamano i Digimon.[pause][\x0203]Si possono chiamare in campo fino
         a 6 Digimon. Per chiamare Digimon
-        Campioni o più potenti, bisogna[pause][\x0203]usare l'Energia[-4]D.[pause]
+        Campioni o più potenti, bisogna[pause][\x0203]usare l'Energia-D.[pause]
       - |-
         Fase di compilazione
         I domatori usano a turno le
@@ -321,7 +321,7 @@ files:
       - Carte Digi
       - Carte progr.
       - Colori carte
-      - Energia[-4]D
+      - Energia-D
       - Combo
       - Pacco carte
       - Indietro
@@ -346,14 +346,14 @@ files:
       - |-
         Le carte possono essere bianche,
         blu, verdi, rosse, nere o marrone.[pause][\x0203]Pescando una carta, aumenti
-        l'Energia[-4]D del colore della carta.[pause][\x0203]L'Energia[-4]D serve per chiamare i
+        l'Energia-D del colore della carta.[pause][\x0203]L'Energia-D serve per chiamare i
         Digimon Campioni, o più potenti.[pause]
       - |-
-        Usa l'Energia[-4]D dello stesso colore
+        Usa l'Energia-D dello stesso colore
         della carta Digimon per chiamare
         il Digimon. I Digimon Campioni[pause][\x0203]costano 1 punto, i Digimon
         Dominatori ne costano 2, i Digimon[pause][\x0203]Mega ne costano 3, i Digimon
-        Novizi non richiedono Energia[-4]D.[pause]
+        Novizi non richiedono Energia-D.[pause]
       - |-
         Se hai in tavola almeno 3 carte
         Digimon identiche nella fase di

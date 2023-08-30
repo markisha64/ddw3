@@ -14,7 +14,7 @@ strings:
     l'A.o.A quando
     voglio![pause]
   - |-
-    [\x0207]Domatr. Haruka[\x0207]O[-4]ink, ink!
+    [\x0207]Domatr. Haruka[\x0207]O-ink, ink!
     O, o, o, oink![pause]
   - |-
     [\x0207]Guilmon[\x0207]Il deserto Moebius
@@ -850,7 +850,7 @@ strings:
     Sei tres bien se
     sei arrivato fin qui.[pause]
   - |-
-    [\x0207]Domatore Pierre[\x0207]Comment allez[-4]vouz
+    [\x0207]Domatore Pierre[\x0207]Comment allez-vouz
     monsieur? Hanno preso
     quelli dell'A.o.A.[pause][\x0203]Ora possiamo
     divertirci.[pause]
@@ -895,12 +895,12 @@ strings:
     prossima
     sfida, au revoir.[pause]
   - |-
-    [\x0207]Domatore Mitaka[\x0207]Ta[-4]da! Ecco
+    [\x0207]Domatore Mitaka[\x0207]Ta-da! Ecco
     Mitaka in
     arrivo![pause][\x0203]Il male non
     vincerà![pause]
   - |-
-    [\x0207]Domatore Mitaka[\x0207]Ta[-4]da! Ecco
+    [\x0207]Domatore Mitaka[\x0207]Ta-da! Ecco
     Mitaka in
     arrivo![pause][\x0203]Nemmeno l'A.o.A
     mi può stare
@@ -917,7 +917,7 @@ strings:
     [\x0207]Dom. Mitaka[\x0207]Ecco il mio
     attacco
     speciale.[pause][\x0203]Yaa![pause]
-  - "[\\x0207]Domatore Mitaka[\\x0207]Ta[-4]da! Ecco\nMitaka in\narrivo![pause][\\x0203]Mi spiace \nma sei il numero\ndue ad Asuka![pause]"
+  - "[\\x0207]Domatore Mitaka[\\x0207]Ta-da! Ecco\nMitaka in\narrivo![pause][\\x0203]Mi spiace \nma sei il numero\ndue ad Asuka![pause]"
   - |-
     [\x0207]Domatore Mitaka[\x0207]Dovessi
     morire, ti
@@ -1307,7 +1307,7 @@ strings:
     carino.[pause][\x0203]E pure
     scivoloso.[pause]
   - |-
-    [\x0207]Guilmon[\x0207]E[-4]e[-4]etciù!
+    [\x0207]Guilmon[\x0207]E-e-etciù!
     Sono caduto in acqua.[pause][\x0203]Freddo!
     Mi sa che sto per
     congelarmi![pause]
@@ -1617,7 +1617,7 @@ strings:
     Sei tres bien se
     sei arrivato fin qui.[pause]
   - |-
-    [\x0207]Domatore Mitaka[\x0207]Ta[-4]da! Ecco
+    [\x0207]Domatore Mitaka[\x0207]Ta-da! Ecco
     Mitaka in
     arrivo![pause][\x0203]Il male non
     vincerà![pause]

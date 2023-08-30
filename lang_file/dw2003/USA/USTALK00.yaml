@@ -39,7 +39,7 @@ strings:
     net.[pause]
   - |-
     [\x0207]Masahiro[\x0207]Looks like the
-    higher[-4]ups of the
+    higher-ups of the
     A.o.A got caught.[pause][\x0203]I wonder what they
     were up to...[pause]
   - |-
@@ -93,7 +93,7 @@ strings:
   - "[\\x0207]Guide[\\x0207]...I'm scared, but \nthis is my job.[pause][\\x0203]Welcome. I will explain \nthe basics of Digimon \nOnline.[pause][\\x0203]Which topic would you\nlike to learn about?[pause]"
   - |-
     [\x0207]Guide[\x0207]Oinkoink?
-    Oink oi[-4]nk?[pause]
+    Oink oi-nk?[pause]
   - '43'
   - |-
     [\x0207]Renamon[\x0207]How to get into the
@@ -132,7 +132,7 @@ strings:
     good![pause][\x0203]When I get strong
     enough I would
     love to fight you![pause]
-  - "[\\x0207]Renamon[\\x0207]Wha[-4]what\nis this?![pause][\\x0203]I've never heard \nof humans turning\ninto Digimon![pause]"
+  - "[\\x0207]Renamon[\\x0207]Wha-what\nis this?![pause][\\x0203]I've never heard \nof humans turning\ninto Digimon![pause]"
   - '43'
   - a
   - a
@@ -183,7 +183,7 @@ strings:
     bring it here.[pause][\x0203]We Divermon in the
     City open boosters.[pause]
   - |-
-    [\x0207]Part[-4]timer Gau[\x0207]Sorry, you can't go
+    [\x0207]Part-timer Gau[\x0207]Sorry, you can't go
     beyond here...[pause]
   - |-
     [\x0207]Guide[\x0207]This is the Digimon
@@ -412,7 +412,7 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Part[-4]timer Gau[\x0207]Oink,
+    [\x0207]Part-timer Gau[\x0207]Oink,
     oooink, oink![pause]
   - a
   - a
@@ -747,7 +747,7 @@ strings:
   - |-
     [\x0207]Lazy Alan[\x0207]All of the A.o.A have
     been arrested![pause][\x0203]Right on! No more
-    cyber[-4]terrorists![pause]
+    cyber-terrorists![pause]
   - |-
     [\x0207]Lazy Alan[\x0207]Oink,
     oink, oinnk![pause]
@@ -1474,7 +1474,7 @@ strings:
   - a
   - "[\\x0207]Jake[\\x0207]Look at us! We're \nDigimon![pause][\\x0203]My dream has come \ntrue![pause]"
   - "[\\x0207]Grandma Beth[\\x0207]This Agumon Suit is \ngreat! Do you like it?[pause][\\x0203]Etemon gave it to us.[pause]"
-  - "[\\x0207]Tamer Service[\\x0207]E[-4]everyone seems\nall right.[pause][\\x0203]Thank goodness...\nI'm glad...[pause][\\x0203]Welcome. Here you can \nlook at hints on how \nto play the game.[pause][\\x0203]I will display data on\nyour satellite.[pause]"
+  - "[\\x0207]Tamer Service[\\x0207]E-everyone seems\nall right.[pause][\\x0203]Thank goodness...\nI'm glad...[pause][\\x0203]Welcome. Here you can \nlook at hints on how \nto play the game.[pause][\\x0203]I will display data on\nyour satellite.[pause]"
   - |-
     [\x0207]Digimon Officer[\x0207]Ooooioioioioi!
     Oiiiiioink![pause]

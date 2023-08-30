@@ -1213,7 +1213,7 @@ strings:
     posición con
     mi vida![pause]
   - |-
-    [\x0207]Atacante[\x0207]Ellos[-4]ellos
+    [\x0207]Atacante[\x0207]Ellos-ellos
     enloquecerán
     si pierdo...[pause][\x0203]¡Mi única opción
     es ganar![pause]
@@ -1331,7 +1331,7 @@ strings:
     podemos respetar![pause][\x0203]Debe haber algo
     detrás del cierre
     de la ciudad.[pause]
-  - "[\\x0207]Soldado[\\x0207]¡A[-4]A[-4]Achís![pause][\\x0203]¡Hace frío aquí!\nTengo que ir a \nun sitio calentito.[pause]"
+  - "[\\x0207]Soldado[\\x0207]¡A-A-Achís![pause][\\x0203]¡Hace frío aquí!\nTengo que ir a \nun sitio calentito.[pause]"
   - "[\\x0207]Jefe Xuen Wu[\\x0207]...Te he \nestado\nesperando...[pause]"
   - '43'
   - |-

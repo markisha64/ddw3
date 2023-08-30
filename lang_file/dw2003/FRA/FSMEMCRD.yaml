@@ -52,10 +52,10 @@ strings:
   - |-
     Sauvegarde du fichier.
     Ne pas retirer la Carte Mémoire.
-  - '[-4][-4][-4][-4][-4]'
-  - '[-4][-4][-4][-4][-4][-4][-4][-4]'
-  - '[-4][-4][-4][-4][-4][-4][-4]'
-  - '[-4][-4]'
+  - '-----'
+  - '--------'
+  - '-------'
+  - '--'
   - Echec de sauvegarde.
   - Echec de sauvegarde.
   - |-

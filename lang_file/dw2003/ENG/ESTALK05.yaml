@@ -44,13 +44,13 @@ strings:
     Asuka City is
     about![pause]
   - "[\\x0207]Account Login[\\x0207]Oh? You do not have\nyour partner Digimon\nyet.[pause][\\x0203]Go to the Lobby to \nretrieve Digimon data \nfrom your satellite.[pause]"
-  - "[\\x0207]Part[-4]timer Jake[\\x0207]All the auctioned items\nhere are a series of\narmors.[pause][\\x0203]And I think it's \ncheaper than other\nplaces.[pause][\\x0203]And though he doesn't\nlook it, Mr. Smith\nplays hardball.[pause]"
+  - "[\\x0207]Part-timer Jake[\\x0207]All the auctioned items\nhere are a series of\narmors.[pause][\\x0203]And I think it's \ncheaper than other\nplaces.[pause][\\x0203]And though he doesn't\nlook it, Mr. Smith\nplays hardball.[pause]"
   - "[\\x0207]Fussy Freda[\\x0207]Clean and dust \nand...[pause][\\x0203]I just have to\nclean anything\nthat's dirty.[pause]"
   - a
   - |-
     [\x0207]Terriermon[\x0207]...mmmm,
-    Mou[-4]man[-4]tai
-    mou[-4]man[-4]tai.[pause]
+    Mou-man-tai
+    mou-man-tai.[pause]
   - |-
     [\x0207]Gabumon[\x0207]Zzzzz...
     Zzzzzzz[pause]
@@ -146,7 +146,7 @@ strings:
   - a
   - a
   - a
-  - "[\\x0207]Sepikmon[\\x0207]O[-4]oh! Hey look, I \nfound my mask![pause][\\x0203]...a way to defeat \nZanbamon? \nSorry no idea![pause][\\x0203]I'm the one who \nfound my mask, so \nI'm not gonna tell you![pause]"
+  - "[\\x0207]Sepikmon[\\x0207]O-oh! Hey look, I \nfound my mask![pause][\\x0203]...a way to defeat \nZanbamon? \nSorry no idea![pause][\\x0203]I'm the one who \nfound my mask, so \nI'm not gonna tell you![pause]"
   - a
   - a
   - "[\\x0207]Etemon[\\x0207]Heh, heh, heh,\nI'm looking \ngood today![pause]"
@@ -160,7 +160,7 @@ strings:
     OK![pause][\x0203]Here, I handed over
     the Sepik Mask![pause]
   - |-
-    [\x0207]Etemon[\x0207]...wha[-4]what,
+    [\x0207]Etemon[\x0207]...wha-what,
     I haven't done
     anything wrong![pause]
   - '[\x0207]Kail[\x0207]...hey, [\x020801][\x020501]![pause]'
@@ -776,7 +776,7 @@ strings:
     the A.o.A![pause][\x0203]I'd cry if they
     took away my
     items![pause]
-  - "[\\x0207]Item Lover Sandy[\\x0207]Do you know about\nthe Digi[-4]Egg of \nKnowledge?[pause][\\x0203]You can call \nDigmon with it and \ngo underground![pause]"
+  - "[\\x0207]Item Lover Sandy[\\x0207]Do you know about\nthe Digi-Egg of \nKnowledge?[pause][\\x0203]You can call \nDigmon with it and \ngo underground![pause]"
   - "[\\x0207]Item Lover Sandy[\\x0207]There's armors \nwith the same \nname.[pause][\\x0203]If you get them all \nyour Digimon gets \nstronger.[pause]"
   - "[\\x0207]Item Lover Sandy[\\x0207]Who is the tamer \nthat beat the\nA.o.A?[pause][\\x0203]I'm sure he has\nlots of great\nItems.[pause]"
   - |-
@@ -826,7 +826,7 @@ strings:
     haaaa![pause][\x0203]Boy am I
     thirsty![pause]
   - "[\\x0207]Waitress Debbie[\\x0207]Maintenance at \na time like this...[pause][\\x0203]Mr. Alexei will start\ncomplaining again.[pause]"
-  - "[\\x0207]Waitress Debbie[\\x0207]Mr. Alexei isn't very\nupset right now.[pause][\\x0203]He keeps hitting \non me [-4] now\nreally![pause]"
+  - "[\\x0207]Waitress Debbie[\\x0207]Mr. Alexei isn't very\nupset right now.[pause][\\x0203]He keeps hitting \non me - now\nreally![pause]"
   - "[\\x0207]Waitress Debbie[\\x0207]Really! What does \nJohn see in her![pause]"
   - "[\\x0207]Waitress Debbie[\\x0207]Really! What does \nJohn see in her![pause]"
   - "[\\x0207]Waitress Debbie[\\x0207]Everyone here \nhid inside storage.[pause][\\x0203]Carrying Mr. \nAlexei was \ndifficult![pause]"
@@ -1600,7 +1600,7 @@ strings:
   - a
   - a
   - "[\\x0207]Datamon[\\x0207]This is the basement\narea of Asuka City\nthat I'm in charge of![pause][\\x0203]I also administer Asuka \nCity's basement gate, \nno longer in use![pause]"
-  - "[\\x0207]Datamon[\\x0207]Hmm? What do you \nwant? You want to go \ninside Asuka City?[pause][\\x0203]...if I open the \nbasement gate, you \ncan go in.[pause][\\x0203]...do you have a DO \nStaff Pass?[pause][\\x0203]...you don't?! I \ncan't take commands \nfrom non[-4]personnel.[pause]"
+  - "[\\x0207]Datamon[\\x0207]Hmm? What do you \nwant? You want to go \ninside Asuka City?[pause][\\x0203]...if I open the \nbasement gate, you \ncan go in.[pause][\\x0203]...do you have a DO \nStaff Pass?[pause][\\x0203]...you don't?! I \ncan't take commands \nfrom non-personnel.[pause]"
   - "[\\x0207]Datamon[\\x0207]You need a Staff \nPass to open the \nbasement gate![pause]"
   - |-
     [\x0207][\x020902]3Hmmm, I still don't

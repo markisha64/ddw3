@@ -18,7 +18,7 @@ strings:
   - Acept.
   - /3
   - Cg.
-  - '[-4][-4][-4][-4]'
+  - '----'
   - NV.Hb.
   - Botón [circle]:Detalles
   - NV
@@ -27,12 +27,12 @@ strings:
   - ¿Cam. quién?
   - ¿Ver digiev. quién?
   - ¿Ver tab.?
-  - '[-4][-4][-4][-4][-4]'
-  - '[-4][-4]'
+  - '-----'
+  - '--'
   - ¿Cb. a quién?
   - No puede digie.
   - Eleg. digiev.
-  - '[-4][-4][-4]'
+  - '---'
   - Camb. tipo de digiev.
   - Cargar tec.
   - No hacer nada.

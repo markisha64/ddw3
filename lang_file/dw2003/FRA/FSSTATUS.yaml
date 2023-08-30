@@ -12,9 +12,9 @@ strings:
   - TECHNIQUES
   - STATUT
   - DOSSIERS CARTE
-  - '[-4][-4]'
-  - '[-4][-4]'
-  - '[-4][-4][-4][-4]'
+  - '--'
+  - '--'
+  - '----'
   - |-
     Changer formation Digimon
     Touche [triangle] : Retour au Menu
@@ -58,7 +58,7 @@ strings:
   - Non
   - Digivol.
   - EXP
-  - '[-4][-4][-4][-4][-4][-4][-4][-4]'
+  - '--------'
   - Choisir Digivol.
   - NV Apt
   - Digivol. Combat On
@@ -111,4 +111,4 @@ strings:
   - Aucun objet clé.
   - PM insuffisants
   - Sans effet.
-  - '[-4]'
+  - '-'

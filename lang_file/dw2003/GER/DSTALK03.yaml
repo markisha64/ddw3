@@ -52,7 +52,7 @@ strings:
   - |-
     [\x0207]Tamer Hillary[\x0207]Hey, kannst du
     ihm Bescheid
-    sagen?[pause][\x0203]Wenn er weiter[-4]
+    sagen?[pause][\x0203]Wenn er weiter-
     macht, wir er
     wieder Oinkmon![pause]
   - |-
@@ -81,7 +81,7 @@ strings:
   - |-
     [\x0207]Tamer Marina[\x0207]Gut, dass wir
     wieder spielen
-    können![pause][\x0203]Lass' uns kämpf[-4]
+    können![pause][\x0203]Lass' uns kämpf-
     en! Das ist unser
     Schicksal![pause]
   - |-
@@ -109,7 +109,7 @@ strings:
     dir so dankbar![pause]
   - |-
     [\x0207]Tamer Albert[\x0207]Jetzt als Menschen
-    müssen wir käm[-4]
+    müssen wir käm-
     pfen.[pause][\x0203]Auf in die
     erste Runde![pause]
   - |-
@@ -129,14 +129,14 @@ strings:
     das Oinkmon doch
     Auswirkungen?[pause]
   - |-
-    [\x0207]Kartenfan Chako[\x0207]Wahre Spieler kön[-4]
+    [\x0207]Kartenfan Chako[\x0207]Wahre Spieler kön-
     nen nicht aufhören[pause][\x0203]Nur wahre Spieler
     können
     weitermachen![pause]
   - a
   - |-
     [\x0207]Sammlerin Leia[\x0207]Wir haben als
-    Oinkmon tat[-4]
+    Oinkmon tat-
     sächlich gespielt![pause]
   - '43'
   - |-
@@ -215,9 +215,9 @@ strings:
   - '43'
   - |-
     [\x0207]Kazuo[\x0207]Ist schon OK, zu
-    Ramen[-4]Nudeln
+    Ramen-Nudeln
     zu werden![pause][\x0203]Ein tolles Leben
-    für Ramen[-4]Fans![pause]
+    für Ramen-Fans![pause]
   - |-
     [\x0207]Kazuo[\x0207]Ooin, oink, oink
     ooink, oink,
@@ -236,7 +236,7 @@ strings:
     ooooink![pause]
   - |-
     [\x0207]DO Wache[\x0207]Du als Tamer
-    hast den Haupt[-4]
+    hast den Haupt-
     mann besiegt![pause][\x0203]Komm später zum
     Spielen![pause]
   - "[\\x0207]DO Wache[\\x0207]Oooink, \noink, oink![pause]"
@@ -260,39 +260,39 @@ strings:
   - '43'
   - '43'
   - |-
-    [\x0207]Digimon[-4]Navig.[\x0207]Oooiooioi, oink!
+    [\x0207]Digimon-Navig.[\x0207]Oooiooioi, oink!
     Oioioin,
     oooooooo![pause]
   - |-
-    [\x0207]Digitations[-4]Navi.[\x0207]Oin, oioink!
+    [\x0207]Digitations-Navi.[\x0207]Oin, oioink!
     Oioioin, oink![pause]
   - |-
-    [\x0207]Dr. Osomatsu[\x0207]Ich bin Dr. Oso[-4]
+    [\x0207]Dr. Osomatsu[\x0207]Ich bin Dr. Oso-
     matsu, Präsident
     des Labors![pause][\x0203]Ich war auf dem
     Klo, und jetzt
     sieh dir das an![pause]
   - |-
-    [\x0207]Dr. Osomatsu[\x0207]Ich bin Dr. Oso[-4]
+    [\x0207]Dr. Osomatsu[\x0207]Ich bin Dr. Oso-
     matsu, Präsident
     des Labors![pause][\x0203]Nur gut, dass alle
     wieder normal
     sind![pause]
   - |-
-    [\x0207]Digimon[-4]Navig.[\x0207]Alle Forscher sind
-    froh, Oinkmon ge[-4]
+    [\x0207]Digimon-Navig.[\x0207]Alle Forscher sind
+    froh, Oinkmon ge-
     worden zu sein.[pause][\x0203]Sie sind ja so
     dumm...[pause]
   - |-
-    [\x0207]Digitations[-4]Navi.[\x0207]Jetzt weiβ ich, wie
+    [\x0207]Digitations-Navi.[\x0207]Jetzt weiβ ich, wie
     sich Digimon fühlen![pause][\x0203]Ich werde noch
     länger forschen![pause]
   - |-
-    [\x0207]Digimon[-4]Navig.[\x0207]Oooiooioi, oink!
+    [\x0207]Digimon-Navig.[\x0207]Oooiooioi, oink!
     Oioioin,
     oooooooo![pause]
   - |-
-    [\x0207]Digitations[-4]Navi.[\x0207]Oin, oioink!
+    [\x0207]Digitations-Navi.[\x0207]Oin, oioink!
     Oioioin, oink![pause]
   - |-
     [\x0207]Dr. Osomatsu[\x0207]Oi, oiooink!
@@ -302,14 +302,14 @@ strings:
   - '43'
   - '43'
   - |-
-    [\x0207]Account[-4]Anm.[\x0207]Oink,
+    [\x0207]Account-Anm.[\x0207]Oink,
     ooin, oioinoink![pause]
   - |-
-    [\x0207]Account[-4]Anm.[\x0207]Gerettet![pause][\x0203]Jetzt muss nur
-    die Matrix[-4]Kammer
+    [\x0207]Account-Anm.[\x0207]Gerettet![pause][\x0203]Jetzt muss nur
+    die Matrix-Kammer
     funktionieren.[pause]
   - |-
-    [\x0207]Account[-4]Anm.[\x0207]Oink,
+    [\x0207]Account-Anm.[\x0207]Oink,
     oink, oinik![pause]
   - '43'
   - |-
@@ -348,7 +348,7 @@ strings:
   - |-
     [\x0207]Mr. Wedge[\x0207]So fühlt man
     sich, wieder
-    zu leben![pause][\x0203]Ob meine Ange[-4]
+    zu leben![pause][\x0203]Ob meine Ange-
     stellten auch
     gearbeitet haben?[pause]
   - |-
@@ -356,14 +356,14 @@ strings:
     Ooin, oinoink![pause]
   - '43'
   - |-
-    [\x0207]Mode[-4]Barbie[\x0207]Oink,
+    [\x0207]Mode-Barbie[\x0207]Oink,
     oioink, oink, oink[pause]
   - |-
-    [\x0207]Mode[-4]Barbie[\x0207]Oh ja! Ich entwer[-4]
-    fe neue Mode...[pause][\x0203]Oink[-4]Mode!
+    [\x0207]Mode-Barbie[\x0207]Oh ja! Ich entwer-
+    fe neue Mode...[pause][\x0203]Oink-Mode!
     Das wird der Hit![pause]
   - |-
-    [\x0207]Mode[-4]Barbie[\x0207]Oink,
+    [\x0207]Mode-Barbie[\x0207]Oink,
     oioink, oink, oink[pause]
   - '43'
   - |-
@@ -392,7 +392,7 @@ strings:
   - |-
     [\x0207]Master Paul[\x0207]Ich habe mit John
     gestritten und ihn
-    nicht mehr gesehen.[pause][\x0203]Als ich zum Oink[-4]
+    nicht mehr gesehen.[pause][\x0203]Als ich zum Oink-
     mon wurde, fiel es
     mir ein...[pause][\x0203]Vielleicht sollte ich
     ihn besuchen...[pause]
@@ -428,13 +428,13 @@ strings:
     ooinkkk![pause]
   - '43'
   - |-
-    [\x0207]Durst[-4]Bacchus[\x0207]Ooooooink,
+    [\x0207]Durst-Bacchus[\x0207]Ooooooink,
     ooooooink...[pause]
   - |-
-    [\x0207]Durst[-4]Bacchus[\x0207]Mensch, ich bin
+    [\x0207]Durst-Bacchus[\x0207]Mensch, ich bin
     ausgetrocknet![pause]
   - |-
-    [\x0207]Durst[-4]Bacchus[\x0207]Ooooooink,
+    [\x0207]Durst-Bacchus[\x0207]Ooooooink,
     ooooooink...[pause]
   - |-
     [\x0207]Bacchus Frau[\x0207]Ooink, oink,
@@ -442,10 +442,10 @@ strings:
   - |-
     [\x0207]Bacchus Frau[\x0207]Er ist nicht normal
     sieh ihn an.[pause][\x0203]Ob sie ihn wieder
-    in Oinkmon ver[-4]
+    in Oinkmon ver-
     wandeln können?[pause]
   - |-
-    [\x0207]Durst[-4]Bacchus[\x0207]Ooooooink,
+    [\x0207]Durst-Bacchus[\x0207]Ooooooink,
     ooooooink...[pause]
   - '43'
   - '43'
@@ -453,7 +453,7 @@ strings:
     [\x0207]Irrer Masaki[\x0207]Oonik,
     oooink, oink![pause]
   - |-
-    [\x0207]Irrer Masaki[\x0207]Das war ein[-4]
+    [\x0207]Irrer Masaki[\x0207]Das war ein-
     fach falsch.[pause][\x0203]Und es gibt
     keine Auktion![pause]
   - |-
@@ -465,7 +465,7 @@ strings:
     oioink![pause]
   - |-
     [\x0207]Ehrliche Maria[\x0207]Hast du Waffen von
-    Armor[-4]Digimon?[pause][\x0203]Ich war ein Oinkmon,
+    Armor-Digimon?[pause][\x0203]Ich war ein Oinkmon,
     ich konnte nicht![pause]
   - |-
     [\x0207]Ehrliche Maria[\x0207]Oik, oioink!
@@ -477,9 +477,9 @@ strings:
     Oion,
     ooin, ooink![pause]
   - |-
-    [\x0207]Schüler Takeschi[\x0207]Hast du alle Boss[-4]
-    Digimon von Ama[-4]
-    terasu besiegt?[pause][\x0203]Die haben tolle Sach[-4]
+    [\x0207]Schüler Takeschi[\x0207]Hast du alle Boss-
+    Digimon von Ama-
+    terasu besiegt?[pause][\x0203]Die haben tolle Sach-
     en, such nach ihnen![pause]
   - |-
     [\x0207]Schüler Takeshi[\x0207]Oooin, oink!
@@ -503,7 +503,7 @@ strings:
   - |-
     [\x0207]Oma Daisy[\x0207]Menschen in Digimon
     verwandeln...[pause][\x0203]Schau, was die
-    A.o.A sich aus[-4]
+    A.o.A sich aus-
     gedacht haben...[pause]
   - |-
     [\x0207]Oma Daisy[\x0207]Oioink,
@@ -525,7 +525,7 @@ strings:
   - |-
     [\x0207]Keith[\x0207]Im Moment gibt es
     keine Probleme![pause][\x0203]Wenn wir zurück zum
-    Admin[-4]Center kommen,
+    Admin-Center kommen,
     ist das perfekt![pause]
   - |-
     [\x0207]DO Wache[\x0207]Du bist der,
@@ -551,7 +551,7 @@ strings:
     wir gefangen worden.[pause][\x0203]Zum Glück sind wir
     gerettet![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Von einem Kind[-4]
+    [\x0207]DO Wache[\x0207]Von einem Kind-
     Tamer gerettet![pause][\x0203]Ist schon
     peinlich...[pause]
   - |-
@@ -564,7 +564,7 @@ strings:
     [\x0207]DO Wache[\x0207]Ooonink, oink,
     oi, oinkkk![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Das Admin[-4]Center
+    [\x0207]DO Wache[\x0207]Das Admin-Center
     konnten wegen uns
     eingenommen werden[pause][\x0203]Jetzt müssen wir
     die Sicherheit
@@ -596,7 +596,7 @@ strings:
   - '43'
   - |-
     [\x0207]DO Wache[\x0207]Alle A.o.A sind
-    ins Admin[-4]Center
+    ins Admin-Center
     gelaufen![pause]
   - |-
     [\x0207]DO Wache[\x0207]Geschafft!
@@ -620,7 +620,7 @@ strings:
     [\x0207]DO Wache[\x0207]Alles klar in
     der Stadt![pause][\x0203]Jetzt bleibt
     nur noch das
-    Admin[-4]Center.[pause]
+    Admin-Center.[pause]
   - |-
     [\x0207]DO Wache[\x0207]Der Hauptmann ist
     besiegt, aber
@@ -648,7 +648,7 @@ strings:
     Ooink, ooooink![pause]
   - |-
     [\x0207]Lügner Jim[\x0207]Die A.o.A
-    sind hier![pause][\x0203]Ätsch, rein[-4]
+    sind hier![pause][\x0203]Ätsch, rein-
     gelegt![pause]
   - |-
     [\x0207]Lügner Jim[\x0207]Ooink!
@@ -744,7 +744,7 @@ strings:
   - |-
     [\x0207]Knightmon[\x0207]Dies ist Amaterasu
     City, Zentrum des
-    Amaterasu[-4]Servers![pause]
+    Amaterasu-Servers![pause]
   - |-
     [\x0207]Knightmon[\x0207]Kaum zu glauben,
     du hast den
@@ -771,15 +771,15 @@ strings:
   - '43'
   - '43'
   - |-
-    [\x0207]Holland[-4]Michel[\x0207]Oioioin, oink,
+    [\x0207]Holland-Michel[\x0207]Oioioin, oink,
     ...oioinoink?![pause]
   - |-
-    [\x0207]Holland[-4]Michel[\x0207]Das war so
+    [\x0207]Holland-Michel[\x0207]Das war so
     schrecklich![pause][\x0203]Zum Glück wurden
     wir nicht
     gefressen![pause]
   - |-
-    [\x0207]Holland[-4]Michel[\x0207]Oioioin, oink,
+    [\x0207]Holland-Michel[\x0207]Oioioin, oink,
     ...oioinoink?![pause]
   - '43'
   - |-
@@ -812,20 +812,20 @@ strings:
   - |-
     [\x0207]Keith[\x0207]Hab' die Maschine zum
     Zurückverwandeln![pause][\x0203]Es ist aber zu wenig
-    Energie da, sie funk[-4]
+    Energie da, sie funk-
     tioniert nicht richtig![pause][\x0203]Man! Was machen wir
     jetzt bloβ?[pause]
   - |-
-    [\x0207]Karate[-4]Remo[\x0207]Ich besiege die A.o.A!
-    Ai[-4]Jaaa![pause][\x0203]...aua!
+    [\x0207]Karate-Remo[\x0207]Ich besiege die A.o.A!
+    Ai-Jaaa![pause][\x0203]...aua!
     Hab's wieder mal
     im Rücken![pause]
   - |-
-    [\x0207]Karate[-4]Remo[\x0207]Oink,
+    [\x0207]Karate-Remo[\x0207]Oink,
     ooink!
     Oioioionk![pause]
   - |-
-    [\x0207]Operator Anne[\x0207]Wir erzeugen Ener[-4]
+    [\x0207]Operator Anne[\x0207]Wir erzeugen Ener-
     gie mit Windrädern.[pause][\x0203]Wenn der Wind stark
     ist, sollte es
     funktionieren...[pause]
@@ -892,7 +892,7 @@ strings:
     [\x0207]DO Wache[\x0207]Oink, oioioink,
     oooink, oooink![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Bei diesem fried[-4]
+    [\x0207]DO Wache[\x0207]Bei diesem fried-
     lichen Anblick...[pause][\x0203]...erscheint der
     Ärger mit A.o.A
     wie ein Traum.[pause]
@@ -907,7 +907,7 @@ strings:
   - |-
     [\x0207]Keith[\x0207]Das war toll!
     Airdramon war
-    hier![pause][\x0203]Er hat das Wind[-4]
+    hier![pause][\x0203]Er hat das Wind-
     rad gedreht...
     Und ab die Post![pause][\x0203]Wenn wir jetzt
     zurück können, ist
@@ -929,8 +929,8 @@ strings:
     [\x0207]Spielzeugfan Ami[\x0207]Ooooi, oink.
     Oiiooink, oooink.[pause]
   - |-
-    [\x0207]Spielzeugfan Ami[\x0207]Haben die hier Oink[-4]
-    mon[-4]Spielzeug?[pause][\x0203]Ich kaufe eins als
+    [\x0207]Spielzeugfan Ami[\x0207]Haben die hier Oink-
+    mon-Spielzeug?[pause][\x0203]Ich kaufe eins als
     Souvenir.[pause]
   - |-
     [\x0207]Spielzeugfan Ami[\x0207]Ooooi, oink.
@@ -1057,7 +1057,7 @@ strings:
     Ooink, oiion.[pause]
   - |-
     [\x0207]Marco[\x0207]Ich dache, ich werde
-    vielleicht gefressen![pause][\x0203]Ich wäre lieber Garu[-4]
+    vielleicht gefressen![pause][\x0203]Ich wäre lieber Garu-
     rumon gewesen![pause]
   - |-
     [\x0207]Schül. Helena[\x0207]Ooink, oink,
@@ -1075,12 +1075,12 @@ strings:
     ooooink![pause]
   - |-
     [\x0207]Lehrer Sullivan[\x0207]Gut, ich bin
-    wieder normal.[pause][\x0203]Und die ande[-4]
+    wieder normal.[pause][\x0203]Und die ande-
     ren? Sind sie
     OK?[pause]
   - |-
     [\x0207]Schül. Helena[\x0207]Ooink, oink,
-    ooink, oooink![pause][\x0203]Ich habe die Oinkmon[-4]
+    ooink, oooink![pause][\x0203]Ich habe die Oinkmon-
     Sprache gelernt![pause][\x0203]Jetzt kann ich mit
     Porky, dem Schwein
     nebenan, reden.[pause]
@@ -1132,7 +1132,7 @@ strings:
     Ooioi, oioink![pause]
   - '43'
   - |-
-    [\x0207]DO Wache[\x0207]Die Wache ist zurück![pause][\x0203]Helden verlieren viel[-4]
+    [\x0207]DO Wache[\x0207]Die Wache ist zurück![pause][\x0203]Helden verlieren viel-
     leicht, geben aber nie
     auf![pause]
   - "[\\x0207]DO Wache[\\x0207]Schrecklich, dass\nsie Menschen in \nOinkmon verwandeln![pause][\\x0203]Zum Glück haben\nsie nicht die Welt\nerobert![pause]"
@@ -1152,7 +1152,7 @@ strings:
     Oioink, onkk![pause]
   - |-
     [\x0207][\x020902]3Yeah! Hab' ein
-    Kulon[-4]Schild![pause]
+    Kulon-Schild![pause]
   - |-
     [\x0207][\x020902]3Yeah! Hab'
     100 BIT![pause]
@@ -1279,7 +1279,7 @@ strings:
   - |-
     [\x0207]Tamer Hillary[\x0207]Hey, kannst du
     ihm Bescheid
-    sagen?[pause][\x0203]Wenn er weiter[-4]
+    sagen?[pause][\x0203]Wenn er weiter-
     macht, wird er
     wieder Oinkmon![pause]
   - |-
@@ -1293,7 +1293,7 @@ strings:
     dir so dankbar![pause]
   - |-
     [\x0207]Guardromon[\x0207]ZUGRIFF AUF
-    MATRIX[-4]DRIVE[pause]
+    MATRIX-DRIVE[pause]
   - |-
     [\x0207]Gatomon[\x0207]Willkommen in
     meinem Inn![pause][\x0203]Fühl' dich wie
@@ -1303,7 +1303,7 @@ strings:
     ist das
     Zeughaus![pause]
   - |-
-    [\x0207]Piximon[\x0207]Ich bin Digimon[-4]
+    [\x0207]Piximon[\x0207]Ich bin Digimon-
     Offizier pi! Was
     willst du pi?[pause]
   - |-
@@ -1316,21 +1316,21 @@ strings:
     Booster öffnen?[pause][\x0203]Ok, Augenblick![pause]
   - |-
     [\x0207]Wizardmon[\x0207]Willkommen, dies ist
-    der Item[-4]Shop![pause]
+    der Item-Shop![pause]
   - |-
     [\x0207]Wizardmon[\x0207]Willkommen auf
-    dem Schwarz[-4]
+    dem Schwarz-
     markt![pause]
   - |-
     [\x0207]Gargomon[\x0207]Bumm! Das ist
     das Zeughaus.[pause]
   - |-
     [\x0207]BK WarGreymon[\x0207]Ich bin BK
-    WarGreymon![pause][\x0203]Willkommen, muti[-4]
+    WarGreymon![pause][\x0203]Willkommen, muti-
     ger Tamer!
     Kämpfe mit mir![pause]
   - |-
-    [\x0207]Arena[-4]Empfang[\x0207]Zum Glück sind
+    [\x0207]Arena-Empfang[\x0207]Zum Glück sind
     wir wieder
     normal![pause][\x0203]Danke! Das
     schulden wir
@@ -1341,7 +1341,7 @@ strings:
     Grund nicht, darum
     hatte ich Angst![pause]
   - |-
-    [\x0207]Arena[-4]Emp.[\x0207]...Oink,
+    [\x0207]Arena-Emp.[\x0207]...Oink,
     ooink![pause]
   - |-
     [\x0207]DO Wache[\x0207]Oooink, oinink,
@@ -1352,7 +1352,7 @@ strings:
   - '43'
   - |-
     [\x0207]Teddy[\x0207]Wir haben die Stadt
-    zu leicht zurück[-4]
+    zu leicht zurück-
     bekommen.[pause][\x0203]Die A.o.A haben noch
     etwas vor.[pause]
   - |-
@@ -1362,7 +1362,7 @@ strings:
   - |-
     [\x0207]Lisa[\x0207]Zum Glück ist bisher
     alles gut gegangen.[pause][\x0203]Da ist noch das
-    Admin[-4]Center. Viel
+    Admin-Center. Viel
     Glück, [\x020801][\x020501]![pause]
   - |-
     [\x0207]Angreifer[\x0207]Wir haben den
@@ -1376,7 +1376,7 @@ strings:
   - |-
     [\x0207]Angreifer[\x0207]Die Welt gehört
     uns, den
-    A.o.A![pause][\x0203]Uns steht kei[-4]
+    A.o.A![pause][\x0203]Uns steht kei-
     ner im Weg![pause]
   - |-
     [\x0207]Mr. Wedge[\x0207]Puh, ich fühle mich
@@ -1420,7 +1420,7 @@ strings:
     mit Erwachsenen
     an![pause]
   - |-
-    [\x0207]Soldat[\x0207]Gegen dich ver[-4]
+    [\x0207]Soldat[\x0207]Gegen dich ver-
     lieren die A.o.A
     nicht![pause][\x0203]Das werde ich dir
     jetzt beweisen![pause]
@@ -1452,7 +1452,7 @@ strings:
     meins![pause][\x0203]Komm, mein tolles
     Digimon![pause]
   - |-
-    [\x0207]Soldat[\x0207]Wir sind die er[-4]
+    [\x0207]Soldat[\x0207]Wir sind die er-
     wählte Elite![pause][\x0203]Ein Kind wie dich
     machen wir fertig![pause]
   - |-
@@ -1465,7 +1465,7 @@ strings:
     was gefasst,
     Kid![pause]
   - |-
-    [\x0207]Soldat[\x0207]Du hast die Kumpel[-4]
+    [\x0207]Soldat[\x0207]Du hast die Kumpel-
     ID, also bist du
     einer von uns![pause][\x0203]Geh, erhol' dich
     in dieser Stadt![pause]
@@ -1486,7 +1486,7 @@ strings:
     bloβ mit ihnen
     machen?[pause]
   - |-
-    [\x0207]Soldat[\x0207]Mit all den Oink[-4]
+    [\x0207]Soldat[\x0207]Mit all den Oink-
     mon ist es wie
     auf einer Farm![pause][\x0203]Die Gröβe der
     A.o.A ist
@@ -1501,7 +1501,7 @@ strings:
     Kampf der Menschen
     in Ruhe an.[pause]
   - |-
-    [\x0207]Renamon[\x0207]Die A.o.A sind tat[-4]
+    [\x0207]Renamon[\x0207]Die A.o.A sind tat-
     sächlich besiegt...[pause][\x0203]Aber der Krieg hört
     nie auf, Geschichte
     wiederholt sich.[pause]
@@ -1510,8 +1510,8 @@ strings:
     nicht vorbei...[pause][\x0203]Du musst gewinnen!
     Und alle retten![pause]
   - |-
-    [\x0207]Agumon[\x0207]Ich bin fertig![pause][\x0203]Wir wurden gefan[-4]
-    gen und die neh[-4]
+    [\x0207]Agumon[\x0207]Ich bin fertig![pause][\x0203]Wir wurden gefan-
+    gen und die neh-
     men uns hart ran![pause]
   - |-
     [\x0207]Agumon[\x0207]Danke, du hast
@@ -1558,7 +1558,7 @@ strings:
     Stadt wird schon
     einen Grund haben.[pause]
   - |-
-    [\x0207]Soldat[\x0207]Ha[-4], hatschi![pause][\x0203]Hier ist es kalt!
+    [\x0207]Soldat[\x0207]Ha-, hatschi![pause][\x0203]Hier ist es kalt!
     Ich will an einen
     wärmeren Ort.[pause]
   - |-
@@ -1578,8 +1578,8 @@ strings:
   - a
   - |-
     [\x0207]Soldat[\x0207]Wir bewachen
-    diesen Ort.[pause][\x0203]Wenn der Wider[-4]
-    stand kommt, neh[-4]
+    diesen Ort.[pause][\x0203]Wenn der Wider-
+    stand kommt, neh-
     men wir sie fest![pause]
   - |-
     [\x0207]Soldat[\x0207]Ich habe unseren
@@ -1593,12 +1593,12 @@ strings:
     Wache stehen![pause]
   - |-
     [\x0207]Soldat[\x0207]Leader ist wohl zum
-    Mirage[-4]Turm
+    Mirage-Turm
     gegangen.[pause][\x0203]Können nicht mal
     einen schwachen
     Widerstand besiegen![pause]
   - |-
-    [\x0207]Soldat[\x0207]Das war aber ein[-4]
+    [\x0207]Soldat[\x0207]Das war aber ein-
     fach, den Server
     einzunehmen![pause][\x0203]Die echte Welt wird
     in Null komma nix
@@ -1616,11 +1616,11 @@ strings:
   - |-
     [\x0207]Soldat[\x0207]Gut, dass wir den
     Anführer nicht
-    gesehen haben.[pause][\x0203]Das heiβt, er ver[-4]
+    gesehen haben.[pause][\x0203]Das heiβt, er ver-
     traut uns total![pause]
   - |-
     [\x0207]Ponchomon[\x0207]Hola Amigo![pause][\x0203]Hier ist ein
-    Paradies für Item[-4]
+    Paradies für Item-
     Fans, Eldorado![pause]
   - a
   - |-
@@ -1638,9 +1638,9 @@ strings:
     Oiioin,
     ooinkkk![pause]
   - |-
-    [\x0207]Lisa[\x0207]Das Matrix[-4]System
+    [\x0207]Lisa[\x0207]Das Matrix-System
     bewegt sich nicht,
-    warum bloβ?[pause][\x0203]Wurde das Jamming[-4]
+    warum bloβ?[pause][\x0203]Wurde das Jamming-
     Programm von Kurt
     nicht gelöscht?[pause]
   - |-
@@ -1652,28 +1652,28 @@ strings:
   - |-
     [\x0207]Nick[\x0207]Wir können nicht
     auf die echte Welt
-    zugreifen, warum?[pause][\x0203]Die Matrix[-4]Kammer
+    zugreifen, warum?[pause][\x0203]Die Matrix-Kammer
     bewegt sich auch
     nicht. Was ist los?[pause]
   - |-
     [\x0207]Nick[\x0207]Wir können immer noch
-    nicht alle von Oink[-4]
+    nicht alle von Oink-
     mon zurückverwandeln.[pause][\x0203]Keith experimentiert
     in Qing Long City...[pause]
   - |-
-    [\x0207]Digi[-4]Hasser Misa[\x0207]Oooink, oink!
+    [\x0207]Digi-Hasser Misa[\x0207]Oooink, oink!
     Oin, oioionk![pause]
   - |-
     [\x0207]Kurt[\x0207]Danke für alles,
     [\x020801][\x020501].[pause][\x0203]Ich überprüfe gerade
-    die Matrix[-4]Kammer.[pause][\x0203]Etwas stört das System
+    die Matrix-Kammer.[pause][\x0203]Etwas stört das System
     anscheinend von
     auβen.[pause]
   - |-
     [\x0207]Kurt[\x0207]Etwas gelangt in das
     System, das ich
     entworfen habe...[pause][\x0203]Dann muss es auch
-    im Admin[-4]System des
+    im Admin-System des
     optischen Netzes sein.[pause][\x0203]Der Plan der A.o.A
     ist vielleicht doch
     noch nicht vereitelt.[pause]
@@ -1710,7 +1710,7 @@ strings:
     [\x0207]Lisa[\x0207]Zum Glück sind
     alle wieder
     normal.[pause][\x0203]Jetzt muss nur noch
-    die Matrix[-4]Kammer
+    die Matrix-Kammer
     repariert werden.[pause]
   - |-
     [\x0207]Nick[\x0207]Jetzt können wir

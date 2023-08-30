@@ -5,46 +5,46 @@ strings:
   - Pfandleihbüro
   - Que Pfandleihe
   - Suzaku Pfandleihe
-  - Asuka Item[-4]Shop
-  - AS[-4]Schwarzmarkt
-  - AM Item[-4]Shop
-  - AM[-4]Schwarzmarkt
-  - Genbu Item[-4]Shop
-  - Xuan Wu Item[-4]Shop
-  - Zhu Que Item[-4]Shop
-  - Suzaku Item[-4]Shop
-  - Seiryu Item[-4]Shop
-  - Qing Long Item[-4]Shop
-  - Bai Hu Item[-4]Shop
-  - Byakko Item[-4]Shop
-  - Asuka[-4]Zeughaus
+  - Asuka Item-Shop
+  - AS-Schwarzmarkt
+  - AM Item-Shop
+  - AM-Schwarzmarkt
+  - Genbu Item-Shop
+  - Xuan Wu Item-Shop
+  - Zhu Que Item-Shop
+  - Suzaku Item-Shop
+  - Seiryu Item-Shop
+  - Qing Long Item-Shop
+  - Bai Hu Item-Shop
+  - Byakko Item-Shop
+  - Asuka-Zeughaus
   - Asuka Schwere Waffen
-  - Amaterasu[-4]Zeughaus
+  - Amaterasu-Zeughaus
   - Geheim. Zeughausbüro
-  - Genbu[-4]Zeughaus
-  - Xuan Wu[-4]Zeughaus
-  - Zhu Que[-4]Zeughaus
-  - Suzaku[-4]Zeughaus
-  - Seiryu[-4]Zeughaus
-  - Qing Long[-4]Zeughaus
+  - Genbu-Zeughaus
+  - Xuan Wu-Zeughaus
+  - Zhu Que-Zeughaus
+  - Suzaku-Zeughaus
+  - Seiryu-Zeughaus
+  - Qing Long-Zeughaus
   - Bai Hu Wüstenverst.
-  - Bai Hu[-4]Zeughaus
+  - Bai Hu-Zeughaus
   - Byakkko Wüstenverst.
-  - Byakko[-4]Zeughaus
+  - Byakko-Zeughaus
   - AS Gelber Kreuzer
   - AM Gelber Kreuzer
-  - Seiryu[-4]Kartenshop
-  - Qing Long[-4]Kartenshop
-  - Suzaku[-4]Kartenshop
-  - Zhue Que[-4]Kartenshop
-  - Byakko[-4]Kartenshop
-  - Bai Hu[-4]Kartenshop
-  - Genbu[-4]Kartenshop
-  - Xuan Wu[-4]Kartenshop
-  - Spitznamen[-4]Shop
-  - Digimon[-4]Wärter
+  - Seiryu-Kartenshop
+  - Qing Long-Kartenshop
+  - Suzaku-Kartenshop
+  - Zhue Que-Kartenshop
+  - Byakko-Kartenshop
+  - Bai Hu-Kartenshop
+  - Genbu-Kartenshop
+  - Xuan Wu-Kartenshop
+  - Spitznamen-Shop
+  - Digimon-Wärter
   - Asuka Inn
-  - Seiryu[-4]Turm
+  - Seiryu-Turm
   - Asuka Swamp Inn
   - Suzaku Inn
   - AS Südl. Ödland
@@ -54,7 +54,7 @@ strings:
   - Genbu City
   - Amaterasu Inn
   - Amaterasu Forest Inn
-  - Qing Long[-4]Turm
+  - Qing Long-Turm
   - Zhu Que Inn
   - AM Südl. Ödland
   - Bai Hu City

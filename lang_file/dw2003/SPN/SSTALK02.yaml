@@ -14,7 +14,7 @@ strings:
     a A.o.A. cada
     vez![pause]
   - |-
-    [\x0207]Domad Hakura.[\x0207]¡O[-4]ink, ink!
+    [\x0207]Domad Hakura.[\x0207]¡O-ink, ink!
     ¡O, o, o, oink![pause]
   - |-
     [\x0207]Guilmon.[\x0207]El Desier. Mobius
@@ -812,7 +812,7 @@ strings:
     Haces tres bien si
     vienes por esto.[pause]
   - |-
-    [\x0207]Domad. Pierre[\x0207]Comment allez[-4]vous
+    [\x0207]Domad. Pierre[\x0207]Comment allez-vous
     monsieur? Toda la
     A.o.A. capturada.[pause][\x0203]Podemos disfrutar
     Digimon Online.[pause]
@@ -858,12 +858,12 @@ strings:
     otra vez
     au revoir.[pause]
   - |-
-    [\x0207]Domad. Mitaka[\x0207]¡Ta[-4]da! Justicia
+    [\x0207]Domad. Mitaka[\x0207]¡Ta-da! Justicia
     Domad. Mitaka
     al rescate.[pause][\x0203]Ningún mal
     me ganará.[pause]
   - |-
-    [\x0207]Domad. Mitaka[\x0207]¡Ta[-4]da! Justicia
+    [\x0207]Domad. Mitaka[\x0207]¡Ta-da! Justicia
     Domad. Mitaka
     al rescate.[pause][\x0203]El grupo malvado
     A.o.A. no es rival
@@ -873,7 +873,7 @@ strings:
     ¡Oink, oink![pause]
   - "[\\x0207]Domad. Mitaka[\\x0207]¿..bien? \n¿Qué fue?[pause][\\x0203]No son\nsuperhéroes\n¿no?[pause]"
   - "[\\x0207]Dom. Mikata[\\x0207]Toma mi \nDuelo Castigo\n¡Ataque![pause][\\x0203]¡Hiya![pause]"
-  - "[\\x0207]Domad. Mitaka[\\x0207]¡Ta[-4]da! Justicia\nDomad. Mitaka\nal rescate.[pause][\\x0203]¡Eres el \nnúmero dos\nen Asuka![pause]"
+  - "[\\x0207]Domad. Mitaka[\\x0207]¡Ta-da! Justicia\nDomad. Mitaka\nal rescate.[pause][\\x0203]¡Eres el \nnúmero dos\nen Asuka![pause]"
   - |-
     [\x0207]Domad. Mitaka[\x0207]Aunque puedo
     morir, te
@@ -1143,7 +1143,7 @@ strings:
   - |-
     [\x0207]Caball. Negro[\x0207]Eh, tío,
     eres grande.[pause][\x0203]Te
-    R[-4]E[-4]S[-4]P[-4]E[-4]T[-4]O
+    R-E-S-P-E-T-O
     mucho.[pause]
   - |-
     [\x0207]Caball. Negro[\x0207]¡Oooink
@@ -1162,7 +1162,7 @@ strings:
     la chica?[pause]
   - '43'
   - |-
-    [\x0207]Kimo de Hawaii[\x0207]¡...a[-4]a[-4]A[-4]
+    [\x0207]Kimo de Hawaii[\x0207]¡...a-a-A-
     ACHUS![pause][\x0203]Este lugar es
     muy frío para mi.[pause]
   - |-
@@ -1184,7 +1184,7 @@ strings:
     y bonito..[pause][\x0203]Y resbaladizo
     ¿eh?[pause]
   - |-
-    [\x0207]Guilmon[\x0207]¡A[-4]A[-4]achús!
+    [\x0207]Guilmon[\x0207]¡A-A-achús!
     Como pez en el agua[pause][\x0203]¡Qué frío!
     Mi cuerpo se va a
     congelar.[pause]
@@ -1459,7 +1459,7 @@ strings:
     Haces très bien si
     vienes por esto.[pause]
   - |-
-    [\x0207]Domad. Mitaka[\x0207]¡Ta[-4]da! Juicio.
+    [\x0207]Domad. Mitaka[\x0207]¡Ta-da! Juicio.
     Domad. Mitaka
     al rescate.[pause][\x0203]Ningún mal
     me ganará.[pause]

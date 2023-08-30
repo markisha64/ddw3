@@ -17,14 +17,14 @@ strings:
     dans mon Auberge ![pause][\x0203]Prends ton
     temps pour te
     reposer.[pause]
-  - "[\\x0207]Leader Seiryu[\\x0207]La Salle des\nurgences du\nSecteur Nord...[pause][\\x0203]Se trouve dans le\nsous[-4]sol de la\n\"Mine de Kulon\".[pause][\\x0203]Mais il te faut 4\nBadges de chefs \npour l'utiliser.[pause]"
-  - "[\\x0207]Leader Byakko[\\x0207]La Salle des\nurgences du\nSecteur Nord...[pause][\\x0203]Se trouve dans le\nsous[-4]sol de la\n\"Mine de Kulon\".[pause][\\x0203]Mais il te faut 4\nBadges de chefs \npour l'utiliser.[pause]"
+  - "[\\x0207]Leader Seiryu[\\x0207]La Salle des\nurgences du\nSecteur Nord...[pause][\\x0203]Se trouve dans le\nsous-sol de la\n\"Mine de Kulon\".[pause][\\x0203]Mais il te faut 4\nBadges de chefs \npour l'utiliser.[pause]"
+  - "[\\x0207]Leader Byakko[\\x0207]La Salle des\nurgences du\nSecteur Nord...[pause][\\x0203]Se trouve dans le\nsous-sol de la\n\"Mine de Kulon\".[pause][\\x0203]Mais il te faut 4\nBadges de chefs \npour l'utiliser.[pause]"
   - "[\\x0207]Chef de Genbu[\\x0207]La chambre d'urgence\npour se rendre dans\nle Monde Réel est...[pause][\\x0203]située en bas du donjon\ndans la Mine de Kulon,\ndans ce secteur.[pause][\\x0203]Mais il te faut 4\nBadges de chefs \npour l'utiliser.[pause]"
   - a
   - |-
     [\x0207]Maria Pleurnich.[\x0207]J'ai été séparée
     d'Elle. Que
-    dois[-4]je faire ?[pause]
+    dois-je faire ?[pause]
   - |-
     [\x0207]Sarah[\x0207]Le Chef de Seiryu
     est trop craquant![pause][\x0203]Qu'il est cool ![pause]
@@ -59,7 +59,7 @@ strings:
     [\x0207]Sarah[\x0207]Le Chef de Seiryu
     est
     impressionnant ![pause][\x0203]Il est trop mignon[pause]
-  - "[\\x0207]Chef de Seiryu[\\x0207]Oh, tu es\n[\\x020801][\\x020501]. \nComment ça va ?[pause][\\x0203]Le chef de Suzaku\nest plus fort que\nmoi, méfie[-4]toi.[pause]"
+  - "[\\x0207]Chef de Seiryu[\\x0207]Oh, tu es\n[\\x020801][\\x020501]. \nComment ça va ?[pause][\\x0203]Le chef de Suzaku\nest plus fort que\nmoi, méfie-toi.[pause]"
   - |-
     [\x0207]Guilmon[\x0207]Le vent est
     agréable ici ![pause][\x0203]J'adore
@@ -86,11 +86,11 @@ strings:
     plus fort pour
     le Chef ![pause]
   - |-
-    [\x0207]Maria Pleurnich.[\x0207]Maria m'aurait[-4]
+    [\x0207]Maria Pleurnich.[\x0207]Maria m'aurait-
     elle oubliée ?[pause][\x0203]Je ne sais que
     lambiner et
     pleurnicher.[pause]
-  - "[\\x0207]Sarah[\\x0207]Je craque pour \nles MetalGaruru[-4]\nmons ![pause][\\x0203]J'adorerais\nen avoir\nun ![pause]"
+  - "[\\x0207]Sarah[\\x0207]Je craque pour \nles MetalGaruru-\nmons ![pause][\\x0203]J'adorerais\nen avoir\nun ![pause]"
   - "[\\x0207]Chef de Seiryu[\\x0207]Ton Digimon a l'air\nd'avoir bien grandi.[pause][\\x0203]Bonne chance pour\ndevenir Champion \ndu serveur ![pause]"
   - |-
     [\x0207]Guilmon[\x0207]Agumon est trop
@@ -102,14 +102,14 @@ strings:
     deux ![pause][\x0203]Je vais devenir
     plus fort pour
     le Chef ![pause]
-  - "[\\x0207]Maria Pleurnich.[\\x0207]Maria serait[-4]elle \npartie sans moi.[pause][\\x0203]Je ne sais que\nlambiner et \npleurnicher.[pause]"
+  - "[\\x0207]Maria Pleurnich.[\\x0207]Maria serait-elle \npartie sans moi.[pause][\\x0203]Je ne sais que\nlambiner et \npleurnicher.[pause]"
   - |-
-    [\x0207]Sarah[\x0207]Les MetalGaruru[-4]
+    [\x0207]Sarah[\x0207]Les MetalGaruru-
     mons sont mimi
     comme des chiots ![pause][\x0203]J'adorerais
     en avoir
     un ![pause]
-  - "[\\x0207]Chef de Seiryu[\\x0207]Il y a quelque \nchose qui\nme gêne...[pause][\\x0203]Peut[-4]être\ndes gaz...[pause]"
+  - "[\\x0207]Chef de Seiryu[\\x0207]Il y a quelque \nchose qui\nme gêne...[pause][\\x0203]Peut-être\ndes gaz...[pause]"
   - |-
     [\x0207]Guilmon[\x0207]Agumon est trop
     sérieux ![pause][\x0203]Je préfère
@@ -119,30 +119,30 @@ strings:
     Asuka City ![pause][\x0203]J'espère que les
     autres Agumons vont
     bien.[pause]
-  - "[\\x0207]Maria Pleurnicheuse[\\x0207]Que vais[-4]je faire si\nElle ne revient pas?[pause][\\x0203]Je ne peux pas \nrentrer à Asuka City\ntoute seule ![pause]"
+  - "[\\x0207]Maria Pleurnicheuse[\\x0207]Que vais-je faire si\nElle ne revient pas?[pause][\\x0203]Je ne peux pas \nrentrer à Asuka City\ntoute seule ![pause]"
   - |-
     [\x0207]Sarah[\x0207]Je dois nourrir ma
     chienne, Doria.[pause][\x0203]Mais je ne peux pas
     rentrer tout de suite!
     Que faire ?![pause]
-  - "[\\x0207]Chef de Seiryu[\\x0207]Quelque chose \ncloche\nà Asuka City.[pause][\\x0203]Que va[-4]t[-4]il\ndonc se\npasser ?[pause]"
+  - "[\\x0207]Chef de Seiryu[\\x0207]Quelque chose \ncloche\nà Asuka City.[pause][\\x0203]Que va-t-il\ndonc se\npasser ?[pause]"
   - |-
     [\x0207]Guilmon[\x0207]J'ai mangé
     une pizza !
     C'était bon ![pause]
   - "[\\x0207]Agumon[\\x0207]Je vais \ntenir bon ![pause][\\x0203]Pas question\nde fuir ![pause]"
-  - "[\\x0207]Maria Pleurnicheuse[\\x0207]Il est peut[-4]être\narrivé quelque\nchose à Elle.[pause][\\x0203]Que dois[-4]je \nfaire ?![pause]"
-  - "[\\x0207]Sarah[\\x0207]J'espère que Doria n'a\npas faim. Oh, que \ndois[-4]je faire ?![pause]"
+  - "[\\x0207]Maria Pleurnicheuse[\\x0207]Il est peut-être\narrivé quelque\nchose à Elle.[pause][\\x0203]Que dois-je \nfaire ?![pause]"
+  - "[\\x0207]Sarah[\\x0207]J'espère que Doria n'a\npas faim. Oh, que \ndois-je faire ?![pause]"
   - |-
     [\x0207]Chef de Seiryu[\x0207]L'AoA était
     sur ce serveur ![pause][\x0203]Pas de panique, je
     vais protéger la ville[pause]
   - "[\\x0207]Guilmon[\\x0207]Je monte la\ngarde\nici.[pause][\\x0203]Si l'ennemi \nvient, je le\ntrouverai ![pause]"
   - "[\\x0207]Agumon[\\x0207]L'AoA n'est\nrien ![pause][\\x0203]S'il vient ici, \nje m'en occuperai ![pause]"
-  - "[\\x0207]Maria Pleurni.[\\x0207]Elle, où \nes[-4]tu ?![pause]"
+  - "[\\x0207]Maria Pleurni.[\\x0207]Elle, où \nes-tu ?![pause]"
   - |-
     [\x0207]Sarah[\x0207]C'est vrai que le
-    l'AoA nous chan[-4]
+    l'AoA nous chan-
     ge en cochons ?[pause][\x0203]Ca ne me gênerait
     pas d'être un chien,
     mais pas un cochon![pause]
@@ -158,7 +158,7 @@ strings:
   - |-
     [\x0207]Agumon[\x0207]Tu as battu
     l'AoA ![pause][\x0203]Ouah ! Comment
-    es[-4]tu devenu
+    es-tu devenu
     si fort ?[pause]
   - "[\\x0207]Maria Pleurnicheuse[\\x0207]Elle était à la\nTour Zephyr ![pause][\\x0203]Je suis si contente \nJe ne veux plus\nrester toute seule[pause]"
   - |-
@@ -187,9 +187,9 @@ strings:
     [\x0207]Chef de Seiryu[\x0207]Oink, oink !
     Oioioioink ![pause]
   - |-
-    [\x0207]Guilmon[\x0207]Que leur est[-4]il
+    [\x0207]Guilmon[\x0207]Que leur est-il
     arrivé à tous ?[pause][\x0203]S'il te plaît,
-    aide[-4]les ![pause]
+    aide-les ![pause]
   - |-
     [\x0207]Kyle le Costaud[\x0207]... Un type en noir et
     un homme sarcastique ?[pause][\x0203]Ouais, je les ai vus
@@ -198,7 +198,7 @@ strings:
   - |-
     [\x0207]Patamon[\x0207]... Tu cherches
     Keith et Nick ?[pause][\x0203]Keith est
-    ici...[pause][\x0203]Eh ? Où est[-4]il
+    ici...[pause][\x0203]Eh ? Où est-il
     passé... ?[pause]
   - '43'
   - '43'
@@ -213,12 +213,12 @@ strings:
     Maria ?[pause][\x0203]J'ai dit que j'étais
     à la Tour Zephyr.[pause]
   - |-
-    [\x0207]L'Adorable Elle[\x0207]Maria est peut[-4]être
+    [\x0207]L'Adorable Elle[\x0207]Maria est peut-être
     rentrée sans moi.[pause][\x0203]... Non, il y a la
     maintenance, elle
     n'a pas pu partir.[pause]
   - |-
-    [\x0207]L'Adorable Elle[\x0207]Maria est peut[-4]être
+    [\x0207]L'Adorable Elle[\x0207]Maria est peut-être
     rentrée sans moi.[pause][\x0203]... Non, il y a la
     maintenance, elle
     n'a pas pu partir.[pause]
@@ -237,20 +237,20 @@ strings:
     oin, oink ![pause]
   - '43'
   - |-
-    [\x0207]Piximon[\x0207]Je suis le Digi[-4]
+    [\x0207]Piximon[\x0207]Je suis le Digi-
     officier pi ! Que
-    veux[-4]tu ?[pause]
+    veux-tu ?[pause]
   - |-
     [\x0207]Le Manager Sasaki[\x0207]On est de la société
     concurrente de
-    MAGAMI.[pause][\x0203]Garde[-4]le pour toi,
+    MAGAMI.[pause][\x0203]Garde-le pour toi,
     mais on est là pour
     espionner Dig Online.[pause]
   - |-
-    [\x0207]Mme Olivia[\x0207]Oh, pourquoi est[-4]
+    [\x0207]Mme Olivia[\x0207]Oh, pourquoi est-
     ce si amusant ?[pause][\x0203]C'est si amusant
     que ça me dégoûte[pause]
-  - "[\\x0207]Tom le Rapporteur[\\x0207]Le chef de Seiryu \ns'entraîne aux \nRuines du protocole.[pause][\\x0203]C'est au nord[-4]\nouest d'ici.[pause]"
+  - "[\\x0207]Tom le Rapporteur[\\x0207]Le chef de Seiryu \ns'entraîne aux \nRuines du protocole.[pause][\\x0203]C'est au nord-\nouest d'ici.[pause]"
   - "[\\x0207]Tom le Rapporteur[\\x0207]Pour aller dans le\nSecteur Ouest, \ntraverse l'océan.[pause][\\x0203]Mais\nj'ignore\ncomment.[pause]"
   - |-
     [\x0207]Le Manager Sasaki[\x0207]Mme Olivia
@@ -265,7 +265,7 @@ strings:
     fiable que ça ?[pause]
   - |-
     [\x0207]Tom le Rapporteur[\x0207]Un moyen d'entrer
-    dans le Centre adm.?[pause][\x0203]Impossible, la sécu[-4]
+    dans le Centre adm.?[pause][\x0203]Impossible, la sécu-
     rité est très stricte.[pause]
   - |-
     [\x0207]Le Manager Sasaki[\x0207]Mme Olivia est
@@ -308,8 +308,8 @@ strings:
   - |-
     [\x0207]Tom le Rapporteur[\x0207]Ils n'arrêtent pas
     de chuchoter
-    ces deux[-4]là.[pause][\x0203]Bizarre.
-    Ce sont peut[-4]être
+    ces deux-là.[pause][\x0203]Bizarre.
+    Ce sont peut-être
     des espions ![pause]
   - "[\\x0207]Le Manager Sasaki[\\x0207]Bien sûr qu'il\nfaut créer un\nbon produit.[pause][\\x0203]Si c'était si simple, \non n'aurait pas\nautant de problèmes.[pause]"
   - |-
@@ -318,7 +318,7 @@ strings:
     Digimon Online ![pause]
   - |-
     [\x0207]Tom le Rapporteur[\x0207]Les membres de
-    l'AoA sont dedans ![pause][\x0203]Ces deux[-4]là en font
+    l'AoA sont dedans ![pause][\x0203]Ces deux-là en font
     sûrement partie ![pause]
   - |-
     [\x0207]Le Manager Sasaki[\x0207]Ravi que la société
@@ -334,19 +334,19 @@ strings:
   - |-
     [\x0207]Tom Rapporteur[\x0207]Je surveille
     ces
-    deux[-4]là.[pause][\x0203]S'ils sont de
+    deux-là.[pause][\x0203]S'ils sont de
     l'AoA, ça va
     être leur fête[pause]
   - |-
     [\x0207]Manager Sasaki[\x0207]Moi aussi, je
     veux rentrer.[pause][\x0203]Eh, si je faisais
     des heures sup.,
-    est[-4]ce que...[pause]
+    est-ce que...[pause]
   - |-
-    [\x0207]Mme Olivia[\x0207]Pourquoi ne peut[-4]
+    [\x0207]Mme Olivia[\x0207]Pourquoi ne peut-
     on pas rentrer ds
     le Monde Réel ?[pause][\x0203]C'est notre seule
-    chance de devan[-4]
+    chance de devan-
     cer MAGAMI ![pause]
   - |-
     [\x0207]Tom le Rapporteur[\x0207]Oh, ils sont de
@@ -384,7 +384,7 @@ strings:
     [\x0207]Lena[\x0207]Tu as entendu ?
     Lucky Mouse
     est revenu ![pause][\x0203]Ca faisait longtemps.
-    Pourquoi est[-4]il
+    Pourquoi est-il
     revenu ?[pause]
   - |-
     [\x0207]Kyle le Costaud[\x0207]Tu es là ?
@@ -392,7 +392,7 @@ strings:
     Zanbamon ?[pause][\x0203]Tu dois être
     meilleur que tu
     n'en as l'air.[pause]
-  - "[\\x0207]Lena[\\x0207]On ne peut pas\nrentrer dans le\nMonde Réel.[pause][\\x0203]Serait[-4]ce\nà cause de \nLucky Mouse ?[pause]"
+  - "[\\x0207]Lena[\\x0207]On ne peut pas\nrentrer dans le\nMonde Réel.[pause][\\x0203]Serait-ce\nà cause de \nLucky Mouse ?[pause]"
   - |-
     [\x0207]Kyle le Costaud[\x0207]Un moyen d'entrer
     dans le Centre
@@ -419,7 +419,7 @@ strings:
     aussi.[pause]
   - |-
     [\x0207]Lena[\x0207]Lucky Mouse est le
-    seul à pouvoir bat[-4]
+    seul à pouvoir bat-
     tre le Maître de jeu[pause][\x0203]Il est avec nous ![pause]
   - "[\\x0207]Kyle le Costaud[\\x0207]Le Digimon Maître de\njeu était Persiamon...[pause][\\x0203]Le dresseur qui les\na vaincus \nest doué.[pause]"
   - "[\\x0207]Lena[\\x0207]Eh ! C'était\nquoi, un \nséisme ?![pause][\\x0203]D'au moins \n6 sur l'échelle \nde Richter ![pause]"
@@ -455,7 +455,7 @@ strings:
     oioioink, oink ![pause]
   - '43'
   - a
-  - "[\\x0207]Ayumi le Prof[\\x0207]Pourquoi veux[-4]tu\nentrer dans le\nCentre admin. ?[pause][\\x0203]Surtout, \npas de bêtises ![pause]"
+  - "[\\x0207]Ayumi le Prof[\\x0207]Pourquoi veux-tu\nentrer dans le\nCentre admin. ?[pause][\\x0203]Surtout, \npas de bêtises ![pause]"
   - |-
     [\x0207]Ayumi le Prof[\x0207]Je suis aussi
     responsable du club
@@ -471,7 +471,7 @@ strings:
     le Monde Réel...[pause][\x0203]Mais on ne peut
     tjs pas rentrer.[pause]
   - |-
-    [\x0207]Ayumi le Prof[\x0207]Oh, que dois[-4]je
+    [\x0207]Ayumi le Prof[\x0207]Oh, que dois-je
     faire ?[pause][\x0203]Je dois ramener
     mes élèves ![pause]
   - |-
@@ -580,7 +580,7 @@ strings:
     dire maintenant
     que tu es fort.[pause][\x0203]Je t'en prie,
     passe.[pause]
-  - "[\\x0207]Patamon[\\x0207]Le Chef n'est\ntoujours \npas là.[pause][\\x0203]Mais où\nest[-4]elle ?[pause]"
+  - "[\\x0207]Patamon[\\x0207]Le Chef n'est\ntoujours \npas là.[pause][\\x0203]Mais où\nest-elle ?[pause]"
   - a
   - |-
     [\x0207]Renamon[\x0207]Vous devenez
@@ -591,7 +591,7 @@ strings:
   - |-
     [\x0207]Patamon[\x0207]Les Floramons
     dansent super
-    bien ![pause][\x0203]Ils vont sûre[-4]
+    bien ![pause][\x0203]Ils vont sûre-
     ment gagner
     le concours.[pause]
   - |-
@@ -603,7 +603,7 @@ strings:
     espoir. On compte
     tous sur toi ![pause]
   - |-
-    [\x0207]Patamon[\x0207]Pourquoi ont[-4]ils tous
+    [\x0207]Patamon[\x0207]Pourquoi ont-ils tous
     été changés en Dig ?[pause][\x0203]Non ! Le concours
     des Floramons
     va être annulé ![pause]
@@ -725,7 +725,7 @@ strings:
     [\x0207]Dreseur Chris[\x0207]Ne t'inquiète pas
     pour
     l'AoA.[pause][\x0203]Joue et
-    éclate[-4]toi
+    éclate-toi
     tant que ça dure.[pause]
   - |-
     [\x0207]Dresseur Chris[\x0207]Oiiink,
@@ -744,7 +744,7 @@ strings:
   - |-
     [\x0207]Dresseur Chris[\x0207]Bon, d'accord !
     Un Digicombat ![pause]
-  - "[\\x0207]Dresseur Chris[\\x0207]Tu es \ntrès doué.[pause][\\x0203]Comment\nfais[-4]tu ?[pause]"
+  - "[\\x0207]Dresseur Chris[\\x0207]Tu es \ntrès doué.[pause][\\x0203]Comment\nfais-tu ?[pause]"
   - |-
     [\x0207]Dresseur Chris[\x0207]Tu es
     génial.[pause][\x0203]Je ne
@@ -759,7 +759,7 @@ strings:
     [\x0207]Dresseur Chris[\x0207]Oh ouais !
     C'est plus marrant
     de gagner ![pause]
-  - '[\x0207]Dresseur Chris[\x0207]Ah, j''ai perdu.[pause][\x0203]Rebattons[-4]nous ![pause]'
+  - '[\x0207]Dresseur Chris[\x0207]Ah, j''ai perdu.[pause][\x0203]Rebattons-nous ![pause]'
   - "[\\x0207]Dresseuse Alice[\\x0207]... Quoi... ?\n... Tu veux te \nbattre avec moi ?[pause]"
   - "[\\x0207]Dresseuse Alice[\\x0207]... Tu veux \nte battre\navec moi...?[pause]"
   - |-
@@ -810,7 +810,7 @@ strings:
   - |-
     [\x0207]Gomamon[\x0207]Voici le Magasin
     de gages ! Que
-    veux[-4]tu ?[pause]
+    veux-tu ?[pause]
   - a
   - a
   - |-
@@ -825,7 +825,7 @@ strings:
     Mines de Kulon ![pause][\x0203]Et va à la
     Chambre ![pause]
   - |-
-    [\x0207]Garde DO[\x0207]Que se passe[-4]t[-4]il
+    [\x0207]Garde DO[\x0207]Que se passe-t-il
     sur le serveur
     Amaterasu ?[pause][\x0203]Je m'inquiète pour
     mon ami Chuck...[pause]
@@ -870,14 +870,14 @@ strings:
     C'est incroyable...[pause][\x0203]On n'y peut
     plus rien
     maintenant, si ?[pause]
-  - "[\\x0207]Garde DO[\\x0207]Le Chef de Genbu\ndisait...[pause][\\x0203]Que nous, adul[-4]\ntes, ne protégeons \npas le monde[pause][\\x0203] et que le font\nles enfants coura[-4]\ngeux comme vous ![pause]"
+  - "[\\x0207]Garde DO[\\x0207]Le Chef de Genbu\ndisait...[pause][\\x0203]Que nous, adul-\ntes, ne protégeons \npas le monde[pause][\\x0203] et que le font\nles enfants coura-\ngeux comme vous ![pause]"
   - |-
     [\x0207]Garde DO[\x0207]Ooink,
     ooi, oink ![pause]
   - '43'
   - |-
     [\x0207]Papi Tor[\x0207]Tu dois avoir le
-    Digi[-4]Oeuf du Savoir
+    Digi-Oeuf du Savoir
     pour venir ici.[pause][\x0203]Tu es formidable
     pour ton âge.[pause]
   - |-
@@ -890,7 +890,7 @@ strings:
     combattre, sois
     fort ![pause][\x0203]Je n'ai rien
     d'autre à ajouter.[pause]
-  - "[\\x0207]Papi Tor[\\x0207]Je suis un\nécrivain célèbre.[pause][\\x0203]Je vais écrire un \nroman sur toi.[pause][\\x0203]Je suis sûr que\nce sera un\nbest[-4]seller ![pause]"
+  - "[\\x0207]Papi Tor[\\x0207]Je suis un\nécrivain célèbre.[pause][\\x0203]Je vais écrire un \nroman sur toi.[pause][\\x0203]Je suis sûr que\nce sera un\nbest-seller ![pause]"
   - |-
     [\x0207]Papi Tor[\x0207]Oooink !
     Ooink, oooink ![pause]
@@ -919,7 +919,7 @@ strings:
   - |-
     [\x0207]Jimmy de l'IRD[\x0207]Eh, si tu as le temps
     tu peux m'aider ?
-    Ce sera facile.[pause][\x0203]Procure[-4]toi l'ADNN
+    Ce sera facile.[pause][\x0203]Procure-toi l'ADNN
     de Guilmon d'un
     WarGrowlmon.[pause][\x0203]Si tu réussis, tu
     auras Guilmon
@@ -935,7 +935,7 @@ strings:
     Guilmon déteste ![pause][\x0203]Le Dr. Kadomatsu
     nous fait travailler
     comme des forçats ![pause]
-  - "[\\x0207]Jimmy de l'IRD[\\x0207]Eh, ton \nGuilmon est cool ![pause][\\x0203]Entraîne[-4]le à devenir\nplus fort ![pause]"
+  - "[\\x0207]Jimmy de l'IRD[\\x0207]Eh, ton \nGuilmon est cool ![pause][\\x0203]Entraîne-le à devenir\nplus fort ![pause]"
   - |-
     [\x0207]Jimmy de l'IRD[\x0207]Le Dr. Kadomatsu
     est très strict,
@@ -976,11 +976,11 @@ strings:
   - |-
     [\x0207]Divermon[\x0207]On est chargés
     des jeux Booster.[pause][\x0203]Pour en ouvrir
-    un, adresse[-4]toi à
+    un, adresse-toi à
     nous.[pause]
   - a
   - |-
-    [\x0207]Tom Rapporteur[\x0207]Le chef, là[-4]bas
+    [\x0207]Tom Rapporteur[\x0207]Le chef, là-bas
     est un grand
     dresseur.[pause][\x0203]Il n'arrête pas
     de s'entraîner,
@@ -999,18 +999,18 @@ strings:
     capturé !
     Ha ha ha ha ha ![pause]
   - '[\x0207][\x020902]3C''est fermé...[pause]'
-  - "[\\x0207]Militaire[\\x0207]Bulbmon est un\nDig de transport créé\npar l'AoA.[pause][\\x0203]Il crée des brèches \nds le réseau et navi[-4]\ngue entre les serveurs.[pause][\\x0203]... Mais la promenade\nn'est pas géniale...[pause]"
+  - "[\\x0207]Militaire[\\x0207]Bulbmon est un\nDig de transport créé\npar l'AoA.[pause][\\x0203]Il crée des brèches \nds le réseau et navi-\ngue entre les serveurs.[pause][\\x0203]... Mais la promenade\nn'est pas géniale...[pause]"
   - |-
     [\x0207]Militaire[\x0207]Bulbmon est devenu
     bizarre avec le choc
     contre un Champ protect.[pause][\x0203]Il nous a éjectés...[pause][\x0203]Et il s'est dirigé vers
     le Secteur Sud.
-    Que s'est[-4]il passé ?[pause]
+    Que s'est-il passé ?[pause]
   - "[\\x0207]Général[\\x0207]Je n'en reviens\npas qu'on se soit\nfait prendre ![pause][\\x0203]Tout ça à \ncause de Bulbmon.[pause]"
   - |-
     [\x0207]Militaire[\x0207]On n'a pas encore
     perdu ![pause][\x0203]Il ne faut pas
-    sous[-4]estimer
+    sous-estimer
     l'AoA ![pause]
   - |-
     [\x0207]Militaire[\x0207]Il y a une
@@ -1076,7 +1076,7 @@ strings:
     des vies
     ailleurs.[pause]
   - |-
-    [\x0207]Digi[-4]officier?[\x0207]Changer
+    [\x0207]Digi-officier?[\x0207]Changer
     de Digimon ?[pause][\x0203]Désolé, c'est
     impossible
     maintenant.[pause]
@@ -1085,7 +1085,7 @@ strings:
     d'armes à te
     vendre ![pause][\x0203]On est
     occupés.
-    Va[-4]t'en ![pause]
+    Va-t'en ![pause]
   - |-
     [\x0207]Armurerie?[\x0207]C'est fermé
     aujourd'hui. On
@@ -1094,7 +1094,7 @@ strings:
     [\x0207]Récep. Auberge?[\x0207]C'est ici la
     réception ![pause][\x0203]Mais tu ne peux
     pas rester là !
-    Va[-4]t'en ![pause]
+    Va-t'en ![pause]
   - |-
     [\x0207]Maya[\x0207]Contente d'être
     revenue à
@@ -1108,7 +1108,7 @@ strings:
     oink, ooinkk ![pause]
   - '43'
   - |-
-    [\x0207]Mamie Plum[\x0207]Quand serons[-4]nous
+    [\x0207]Mamie Plum[\x0207]Quand serons-nous
     enfin en paix ici ?[pause]
   - |-
     [\x0207]Mamie Plum[\x0207]Je redoute le
@@ -1213,7 +1213,7 @@ strings:
   - |-
     [\x0207]Guilmon[\x0207]Le Chef de Genbu
     est
-    là[-4]bas ![pause][\x0203]C'est le meilleur
+    là-bas ![pause][\x0203]C'est le meilleur
     chef ![pause]
   - |-
     [\x0207]Guilmon[\x0207]Je sais que tu as
@@ -1238,10 +1238,10 @@ strings:
     [\x0207]Guilmon[\x0207]Humm... Il aime
     donc les profondeurs...[pause][\x0203]Il doit se cacher
     dans un endroit tel
-    qu'un sous[-4]sol hanté...[pause]
+    qu'un sous-sol hanté...[pause]
   - |-
     [\x0207]Guilmon le Malin[\x0207]Pourquoi
-    n'enregistres[-4]tu
+    n'enregistres-tu
     pas ton compte?[pause][\x0203].... Eh eh[pause]
   - |-
     [\x0207]Guilmon[\x0207]Tu as la
@@ -1255,8 +1255,8 @@ strings:
     un vrai jeu d'enfant![pause]
   - |-
     [\x0207]Nick[\x0207]... Oh, c'est toi.
-    Que veux[-4]tu ?[pause][\x0203]Je suis occupé,
-    laisse[-4]moi...[pause]
+    Que veux-tu ?[pause][\x0203]Je suis occupé,
+    laisse-moi...[pause]
   - |-
     [\x0207]Nick[\x0207]Eh [\x020801][\x020501].
     Tu es là depuis le
@@ -1266,7 +1266,7 @@ strings:
     C'est bizarre...[pause]
   - |-
     [\x0207]Général[\x0207]...Humm ?!
-    Qui es[-4]tu ?[pause]
+    Qui es-tu ?[pause]
   - "[\\x0207]Militaire[\\x0207]L'AoA pour\ntoujours ! Ne crois\npas avoir gagné ![pause][\\x0203]On finira par\nl'emporter... \nEnfin, j'espère.[pause]"
   - |-
     [\x0207]Militaire[\x0207]... Il y avait un trou
@@ -1275,7 +1275,7 @@ strings:
   - |-
     [\x0207]Divermon[\x0207]Humm ? Tu n'as
     pas de
-    Porte[-4]cartes ?[pause][\x0203]Va en chercher un
+    Porte-cartes ?[pause][\x0203]Va en chercher un
     au Croiseur Jaune
     d'Asuka City.[pause]
   - |-

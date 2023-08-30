@@ -14,7 +14,7 @@ strings:
     Bonus +30 PF per un
     proprio Digimon.
   - |-
-    Dà un punto di Energia[-4]S
+    Dà un punto di Energia-S
     bianca.
   - |-
     Chiama Patamon nella
@@ -32,7 +32,7 @@ strings:
     Riporta un Digimon
     nella mano del giocatore.
   - |-
-    Dà un punto di Energia[-4]S
+    Dà un punto di Energia-S
     blu.
   - |-
     Chiama Gomamon nella
@@ -44,13 +44,13 @@ strings:
     Pesca dagli scarti una
     carta. Si usa 1 volta.
   - |-
-    Dà 2 punti di Energia[-4]S
+    Dà 2 punti di Energia-S
     verde.
   - |-
     Bonus +20 FA e PF a
     un Digimon.
   - |-
-    Dà un punto di Energia[-4]S
+    Dà un punto di Energia-S
     verde.
   - |-
     Chiama Palmon nella
@@ -68,7 +68,7 @@ strings:
     15 punti di danni a un
     Digimon avversario.
   - |-
-    Dà un punto di Energia[-4]S
+    Dà un punto di Energia-S
     rossa.
   - |-
     Chiama Goburimon nella
@@ -86,7 +86,7 @@ strings:
     Mette negli scarti 1 carta
     della mano avversaria.
   - |-
-    Dà un punto di Energia[-4]S
+    Dà un punto di Energia-S
     nera.
   - |-
     Chiama Devimon nella
@@ -105,7 +105,7 @@ strings:
     mano e pesca 6 carte.
   - |-
     Riduce a zero tutta
-    l'Energia[-4]S.
+    l'Energia-S.
   - |-
     Riporta nel mazzo tutte le
     carte scartate.
@@ -153,19 +153,19 @@ strings:
     fase di compilazione.
   - |-
     Toglie all'avversario 2
-    punti di Energia[-4]S bianca.
+    punti di Energia-S bianca.
   - |-
     Toglie all'avversario 2
-    punti di Energia[-4]S blu.
+    punti di Energia-S blu.
   - |-
     Toglie all'avversario 2
-    punti di Energia[-4]S verde.
+    punti di Energia-S verde.
   - |-
     Toglie all'avversario 2
-    punti di Energia[-4]S rossa.
+    punti di Energia-S rossa.
   - |-
     Toglie all'avversario 2
-    punti di Energia[-4]S nera.
+    punti di Energia-S nera.
   - |-
     Riporta in mano un Digimon
     marrone.

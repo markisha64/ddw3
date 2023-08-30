@@ -2,81 +2,81 @@ type: simple
 strings:
   - ''
   - Ausgegl. Pack
-  - Kraft[-4]Pack
+  - Kraft-Pack
   - Irres Pack
   - Baumstiefel
   - Angelrute
-  - Agumon[-4]DDNA
+  - Agumon-DDNA
   - Schnapper
-  - Eldorado[-4]ID
-  - Seiryu[-4]Abz.
-  - Suzaku[-4]Abz.
-  - Byakko[-4]Abz.
-  - Genbu[-4]Abz.
+  - Eldorado-ID
+  - Seiryu-Abz.
+  - Suzaku-Abz.
+  - Byakko-Abz.
+  - Genbu-Abz.
   - Riechkraut
-  - TNT[-4]Chip
-  - Agumon[-4]Anzug
-  - DE[-4]Verlässl.
-  - DE[-4]Wissen
-  - Asuka[-4]Pokal
-  - Kotemon[-4]DDNA
-  - Sun[-4]Pokal
-  - Sepik[-4]Maske
-  - ID[-4]Pass Blau
-  - ID[-4]Pass Rot
-  - ID[-4]Pass Weiβ
-  - ID[-4]Pass Schw.
+  - TNT-Chip
+  - Agumon-Anzug
+  - DE-Verlässl.
+  - DE-Wissen
+  - Asuka-Pokal
+  - Kotemon-DDNA
+  - Sun-Pokal
+  - Sepik-Maske
+  - ID-Pass Blau
+  - ID-Pass Rot
+  - ID-Pass Weiβ
+  - ID-Pass Schw.
   - セイリュウÁタグ
   - スザクÁタグ
   - ビャッコÁタグ
   - ゲンブÁタグ
   - チンロンÁタグ
-  - ス-ツェイÁタグ
-  - バイフ-Áタグ
-  - シェンウ-Áタグ
-  - Guilmon[-4]DDNA
-  - Veemon[-4]DDNA
-  - Koc[-4]Pokal
+  - スーツェイÁタグ
+  - バイフーÁタグ
+  - シェンウーÁタグ
+  - Guilmon-DDNA
+  - Veemon-DDNA
+  - Koc-Pokal
   - Platinkarte
-  - Renamon[-4]DDNA
-  - Patamon[-4]DDNA
-  - Silber[-4]ID
-  - Gold[-4]ID
-  - Platin[-4]ID
+  - Renamon-DDNA
+  - Patamon-DDNA
+  - Silber-ID
+  - Gold-ID
+  - Platin-ID
   - Powerladung
   - Superladung
   - Ultraladung
   - Max. Ladung
-  - HP[-4]Chip
-  - MP[-4]Chip
-  - Power[-4]Chip
-  - Rüst.[-4]Chip
-  - Geist[-4]Chip
-  - Weisheit[-4]Chip
-  - Boost[-4]Chip
-  - Charisma[-4]Chip
-  - Feuer[-4]Chip
-  - Wasser[-4]Chip
-  - Eis[-4]Chip
-  - Wind[-4]Chip
-  - Donner[-4]Chip
-  - Metall[-4]Chip
-  - Teufel[-4]Chip
-  - Train.[-4]Chip 1
-  - Train.[-4]Chip 2
-  - Train.[-4]Chip 3
-  - Train.[-4]Chip V
-  - Antidot[-4]Disk
-  - Wiederb.[-4]Disk
-  - Nüchtern[-4]Disk
-  - Energie[-4]Disk
-  - Leben[-4]Disk
-  - Leben[-4]Plug
-  - Mach[-4]Plug
-  - Power[-4]Plug
-  - Wärter[-4]Plug
-  - Aura[-4]Plug
-  - DV[-4]Plug
+  - HP-Chip
+  - MP-Chip
+  - Power-Chip
+  - Rüst.-Chip
+  - Geist-Chip
+  - Weisheit-Chip
+  - Boost-Chip
+  - Charisma-Chip
+  - Feuer-Chip
+  - Wasser-Chip
+  - Eis-Chip
+  - Wind-Chip
+  - Donner-Chip
+  - Metall-Chip
+  - Teufel-Chip
+  - Train.-Chip 1
+  - Train.-Chip 2
+  - Train.-Chip 3
+  - Train.-Chip V
+  - Antidot-Disk
+  - Wiederb.-Disk
+  - Nüchtern-Disk
+  - Energie-Disk
+  - Leben-Disk
+  - Leben-Plug
+  - Mach-Plug
+  - Power-Plug
+  - Wärter-Plug
+  - Aura-Plug
+  - DV-Plug
   - Flammenfeld
   - Wasserfeld
   - Eisfeld
@@ -90,7 +90,7 @@ strings:
   - Charmgas
   - Verfl. Puppe
   - Spinnennetz
-  - TNT[-4]Ball
+  - TNT-Ball
   - Booster 01a
   - Kurzschwert
   - Zandenschwert
@@ -110,24 +110,24 @@ strings:
   - Katzenhandsch
   - Eisenhandsch.
   - Nadelhandsch.
-  - Power[-4]Waffe
+  - Power-Waffe
   - Tigerhandsch.
   - Wildnishands.
   - Kaiserfaust
-  - Sturm[-4]Waffe
-  - Raijin[-4]Faust
+  - Sturm-Waffe
+  - Raijin-Faust
   - Rosthandsch.
   - Tierkreis
   - Beliebtheit
   - Super Nova
   - Pistole
-  - Masch.[-4]Pist.
+  - Masch.-Pist.
   - Schrotflinte
-  - Psycho[-4]Blast.
-  - Sniper[-4]Kanone
-  - Cluster[-4]Kan.
+  - Psycho-Blast.
+  - Sniper-Kanone
+  - Cluster-Kan.
   - Laserkanone
-  - Suijin[-4]Kanone
+  - Suijin-Kanone
   - Rost. Gewehr
   - Gerechtigkeit
   - Urteil
@@ -137,7 +137,7 @@ strings:
   - Knochenstab
   - Nebelstab
   - Gottesstab
-  - Yin Yang[-4]Stab
+  - Yin Yang-Stab
   - Khakkhara
   - Kristallstab
   - Millennium
@@ -175,21 +175,21 @@ strings:
   - Trent
   - Vampirlanze
   - Königl. Speer
-  - Orochi[-4]Speer
+  - Orochi-Speer
   - Claymore
   - Kettensäge
   - Zweihänder
   - Flamberge
   - Steinbrecher
   - Atlasbuster
-  - Gulf[-4]Schwert
+  - Gulf-Schwert
   - Hellebarde
   - Naginata
   - Berdys
   - Seelenhacker
   - Ryuuzanmaru
-  - Gaea[-4]Spieβ
-  - Omega[-4]Spieβ
+  - Gaea-Spieβ
+  - Omega-Spieβ
   - Langbogen
   - Shuriken
   - Armbrust
@@ -199,19 +199,19 @@ strings:
   - Seraphenbogen
   - Garurukanone
   - Positronenkan.
-  - Mini[-4]Guard
-  - Puls[-4]Guard
-  - Metall[-4]Guard
+  - Mini-Guard
+  - Puls-Guard
+  - Metall-Guard
   - Groβer Guard
-  - Dramon[-4]Guard
-  - Mach[-4]Guard
-  - Mega[-4]Guard
-  - Deus[-4]Guard
+  - Dramon-Guard
+  - Mach-Guard
+  - Mega-Guard
+  - Deus-Guard
   - Metallhorn
   - Drillhorn
-  - Kabuteri[-4]Horn
+  - Kabuteri-Horn
   - Schockhorn
-  - Dramon[-4]Horn
+  - Dramon-Horn
   - Scherenhorn
   - Trihorn
   - Prachthorn
@@ -220,9 +220,9 @@ strings:
   - Baseballkappe
   - Schulmütze
   - Wollmütze
-  - Kung Fu[-4]Kappe
-  - Yin Yang[-4]Hut
-  - Sniper[-4]Brille
+  - Kung Fu-Kappe
+  - Yin Yang-Hut
+  - Sniper-Brille
   - Nachtsicht
   - Baskenmütze
   - Rote Kappe
@@ -241,14 +241,14 @@ strings:
   - Eisenhelm
   - Ritterhelm
   - Flügelhelm
-  - Kulon[-4]Helm
+  - Kulon-Helm
   - Wildnishelm
-  - Ronin[-4]Helm
+  - Ronin-Helm
   - Kühner Helm
   - Gefährl. Helm
-  - D[-4]Tama[-4]Helm
-  - Matrix[-4]Helm
-  - Mugen[-4]Helm
+  - D-Tama-Helm
+  - Matrix-Helm
+  - Mugen-Helm
   - Lederjacke
   - Sportanzug
   - Priesterrobe
@@ -256,8 +256,8 @@ strings:
   - Dunkelmantel
   - Daunenjacke
   - Heilige Robe
-  - Sniper[-4]Anzug
-  - Yin Yang[-4]Anz.
+  - Sniper-Anzug
+  - Yin Yang-Anz.
   - Wildnisanzug
   - Körperrüstung
   - Illusionsrobe
@@ -265,11 +265,11 @@ strings:
   - Lederpanzer
   - Blechpanzer
   - Eisenpanzer
-  - Digitama[-4]Panz
+  - Digitama-Panz
   - Dunkle Rüst.
-  - Kulon[-4]Rüstung
-  - Dramon[-4]Rüst.
-  - Ronin[-4]Rüstung
+  - Kulon-Rüstung
+  - Dramon-Rüst.
+  - Ronin-Rüstung
   - Gefährl. Rüst
   - Kühne Rüstung
   - Strahlrüstung
@@ -279,27 +279,27 @@ strings:
   - Blechschild
   - Eisenschild
   - Ritterschild
-  - Guard[-4]Hürde
-  - Kulon[-4]Schild
-  - Gottes[-4]Hürde
-  - Sniper[-4]Schild
-  - Yin Yang[-4]Wall
-  - Ronin[-4]Schild
+  - Guard-Hürde
+  - Kulon-Schild
+  - Gottes-Hürde
+  - Sniper-Schild
+  - Yin Yang-Wall
+  - Ronin-Schild
   - Wildnisschild
   - Kühnes Schild
   - Gef. Schild
-  - Dramon[-4]Schild
+  - Dramon-Schild
   - Strahlschild
   - Hohe Sicherh.
   - Apokalypse
   - Powerjuwel
   - Powerring
-  - Guard[-4]Juwel
-  - Guard[-4]Ring
-  - Geist[-4]Juwel
-  - Geist[-4]Ring
-  - Weish.[-4]Juw.
-  - Weish.[-4]Ring
+  - Guard-Juwel
+  - Guard-Ring
+  - Geist-Juwel
+  - Geist-Ring
+  - Weish.-Juw.
+  - Weish.-Ring
   - Boostjuwel
   - Boostring
   - Charismajuw.
@@ -311,23 +311,23 @@ strings:
   - Donnerring
   - Maschinenring
   - Dunkler Ring
-  - Antidot[-4]Ring
-  - Wiederb.[-4]Ring
-  - Erwachen[-4]Ring
-  - Nüchtern[-4]Ring
+  - Antidot-Ring
+  - Wiederb.-Ring
+  - Erwachen-Ring
+  - Nüchtern-Ring
   - Gebetsring
-  - Multi[-4]Wappen
-  - Such[-4]Wappen
-  - Counter[-4]Wapp.
-  - Binder[-4]Wappen
-  - Erholen[-4]Wapp.
-  - EXP[-4]Adapter
-  - BIT[-4]Adapter
-  - MP[-4]Proxy
-  - MP Mega[-4]Proxy
-  - HP[-4]Proxy
-  - HP Mega[-4]Proxy
-  - Hack[-4]Sticker
+  - Multi-Wappen
+  - Such-Wappen
+  - Counter-Wapp.
+  - Binder-Wappen
+  - Erholen-Wapp.
+  - EXP-Adapter
+  - BIT-Adapter
+  - MP-Proxy
+  - MP Mega-Proxy
+  - HP-Proxy
+  - HP Mega-Proxy
+  - Hack-Sticker
   - Hacksystem
   - Übertaktet
   - Überladen
@@ -338,28 +338,28 @@ strings:
   - Läufersandale
   - Läuferschuhe
   - Trainingbuch
-  - Power[-4]Klammer
-  - Feuer[-4]Power 1
-  - Feuer[-4]Power 2
-  - Feuer[-4]Power S
-  - Wass.[-4]Pow. 1
-  - Wass.[-4]Pow. 2
-  - Wass.[-4]Pow. S
-  - Eis[-4]Power 1
-  - Eis[-4]Power 2
-  - Eis[-4]Power S
-  - Wind[-4]Power 1
-  - Wind[-4]Power 2
-  - Wind[-4]Power S
-  - Blitz[-4]Power 1
-  - Blitz[-4]Power 2
-  - Blitz[-4]Power S
-  - Met.[-4]Pow. 1
-  - Met.[-4]Pow. 2
-  - Met.[-4]Pow. S
-  - Such[-4]Wappen
-  - Dunk.[-4]Pow. 2
-  - Dunk.[-4]Pow. S
+  - Power-Klammer
+  - Feuer-Power 1
+  - Feuer-Power 2
+  - Feuer-Power S
+  - Wass.-Pow. 1
+  - Wass.-Pow. 2
+  - Wass.-Pow. S
+  - Eis-Power 1
+  - Eis-Power 2
+  - Eis-Power S
+  - Wind-Power 1
+  - Wind-Power 2
+  - Wind-Power S
+  - Blitz-Power 1
+  - Blitz-Power 2
+  - Blitz-Power S
+  - Met.-Pow. 1
+  - Met.-Pow. 2
+  - Met.-Pow. S
+  - Such-Wappen
+  - Dunk.-Pow. 2
+  - Dunk.-Pow. S
   - Monmon DDNA
   - Booster 02a
   - Booster 03a
@@ -390,16 +390,16 @@ strings:
   - Booster 13b
   - Booster 14b
   - Booster 15b
-  - R[-4]Booster 01
-  - R[-4]Booster 02
-  - R[-4]Booster 03
-  - R[-4]Booster 04
-  - R[-4]Booster 05
-  - Kunamon[-4]DDNA
-  - Kumpel[-4]ID
+  - R-Booster 01
+  - R-Booster 02
+  - R-Booster 03
+  - R-Booster 04
+  - R-Booster 05
+  - Kunamon-DDNA
+  - Kumpel-ID
   - Etemons Mikro
   - Blaue Karte
   - 8laue Karte
-  - リカバリ-CD3
+  - リカバリーCD3
   - Personalpass
   - Aktentasche

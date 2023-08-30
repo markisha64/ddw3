@@ -129,7 +129,7 @@ strings:
     imparare?[pause]
   - |-
     [\x0207]Guida[\x0207]Oinkoink?
-    Oink oi[-4]nk?[pause]
+    Oink oi-nk?[pause]
   - '43'
   - |-
     [\x0207]Renamon[\x0207]Come si arriva al
@@ -173,7 +173,7 @@ strings:
     quando sarò
     forte![pause]
   - |-
-    [\x0207]Renamon[\x0207]M[-4]ma che
+    [\x0207]Renamon[\x0207]M-ma che
     roba è?![pause][\x0203]Umani che si
     trasformano in
     Digimon?![pause]
@@ -1809,7 +1809,7 @@ strings:
   - |-
     [\x0207]Nonna Beth[\x0207]Questa tuta di
     Agumon è fantastica.[pause][\x0203]Ce l'ha data Etemon.[pause]
-  - "[\\x0207]Servizio domatori[\\x0207]T[-4]tutti stanno\nbene.[pause][\\x0203]Grazie a Dio...\nSono felice[pause][\\x0203]Salve. Qui puoi \navere consigli\nsul gioco.[pause][\\x0203]Mostrerò i dati\nsul tuo satellite[pause]"
+  - "[\\x0207]Servizio domatori[\\x0207]T-tutti stanno\nbene.[pause][\\x0203]Grazie a Dio...\nSono felice[pause][\\x0203]Salve. Qui puoi \navere consigli\nsul gioco.[pause][\\x0203]Mostrerò i dati\nsul tuo satellite[pause]"
   - |-
     [\x0207]Agente Digimon[\x0207]Ooooioioioioi!
     Oiiiiioink![pause]

@@ -55,7 +55,7 @@ files:
         [\x0207]Teddy[\x0207]...Oh, no!
         The Optical Network is
         being taken over![pause]
-      - '[\x0207]Nick[\x0207]Wha[-4]what!?[pause]'
+      - '[\x0207]Nick[\x0207]Wha-what!?[pause]'
       - |-
         [\x0207]Game Master[\x0207]Heh... heh...
         See, just like I
@@ -139,7 +139,7 @@ files:
         ...Hmmm...
         What to do...[pause]
       - "[\\x0207]Lisa[\\x0207]I know! We can get\nthe Resistance to \nhelp us![pause][\\x0203]They're in the \nMirage Tower, right?[pause]"
-      - '[\x0207][\x020902]3Ye[-4]yes![pause]'
+      - '[\x0207][\x020902]3Ye-yes![pause]'
       - |-
         [\x0207]Lisa[\x0207]OK, I'll go ask
         them.[pause]
@@ -191,7 +191,7 @@ files:
         ...Hmmm...
         What to do...[pause]
       - "[\\x0207]Lisa[\\x0207]I know! We can get\nthe Resistance to \nhelp us![pause][\\x0203]They're in the \nMirage Tower, right?[pause]"
-      - '[\x0207][\x020902]3Ye[-4]yes![pause]'
+      - '[\x0207][\x020902]3Ye-yes![pause]'
       - |-
         [\x0207]Lisa[\x0207]OK, I'll go ask
         them.[pause]

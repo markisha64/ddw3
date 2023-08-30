@@ -12,7 +12,7 @@ strings:
     Berühre nicht die MEMORY CARD.
   - |-
     Hier speichern?
-    [cross][-4]Taste: Speichern [triangle][-4]Taste: Zurück
+    [cross]-Taste: Speichern [triangle]-Taste: Zurück
   - |-
     Vorherige Daten werden
     überschrieben. Weiter?
@@ -30,7 +30,7 @@ strings:
   - Ladevorgang
   - |-
     Welches Spiel laden?
-    [cross][-4]Taste: Laden [triangle][-4]Taste: Zurück
+    [cross]-Taste: Laden [triangle]-Taste: Zurück
   - |-
     Wird geladen
     Berühre nicht die MEMORY CARD.
@@ -56,10 +56,10 @@ strings:
   - |-
     Datei wird gespeichert.
     Berühre nicht die MEMORY CARD.
-  - '[-4][-4][-4][-4][-4]'
-  - '[-4][-4][-4][-4][-4][-4][-4][-4]'
-  - '[-4][-4][-4][-4][-4][-4][-4]'
-  - '[-4][-4]'
+  - '-----'
+  - '--------'
+  - '-------'
+  - '--'
   - Speichern fehlgeschlagen.
   - Speichern fehlgeschlagen.
   - |-

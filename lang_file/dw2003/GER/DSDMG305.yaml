@@ -5,24 +5,24 @@ files:
       - |-
         [\x0207]Kail[\x0207]Gamemaster!
         Verstecken![pause]
-      - "[\\x0207]Gamemaster[\\x0207]Um Himmels wil[-4]\nlen, was macht \nihr denn hier?![pause][\\x0203]Wir können nicht\nweitermachen![pause]"
+      - "[\\x0207]Gamemaster[\\x0207]Um Himmels wil-\nlen, was macht \nihr denn hier?![pause][\\x0203]Wir können nicht\nweitermachen![pause]"
       - "[\\x0207]???[\\x0207]...Verzeihung.\nWir intensivieren \nunsere Suche.[pause]"
       - |-
-        [\x0207]DO[-4]Wache[\x0207]Wir werden ihn finden.
+        [\x0207]DO-Wache[\x0207]Wir werden ihn finden.
         Es ist nur eine Frage
         der Zeit.[pause]
       - |-
         [\x0207][\x020902]3Hmmm, worüber
         reden die wohl?[pause]
       - |-
-        [\x0207]DO[-4]Wache[\x0207]Hey, warum laufen
+        [\x0207]DO-Wache[\x0207]Hey, warum laufen
         hier Digimon herum?[pause]
       - |-
-        [\x0207]DO[-4]Wache[\x0207]Sieht ver[-4]
+        [\x0207]DO-Wache[\x0207]Sieht ver-
         dächtig aus.
         Fang ihn![pause]
       - |-
-        [\x0207]DO[-4]Wache[\x0207]Dich kriegen
+        [\x0207]DO-Wache[\x0207]Dich kriegen
         wir![pause]
       - |-
         [\x0207][\x020902]3Sie haben
@@ -39,13 +39,13 @@ files:
         Mouse?![pause]
       - |-
         [\x0207]Gamemaster[\x0207]Er ist schrecklich.
-        Er versucht, Digimon[-4]
+        Er versucht, Digimon-
         Online zu zerstören![pause][\x0203]Er ist die Ursache für
         die Probleme, die wir
         mit dem System haben![pause]
       - |-
         [\x0207][\x020902]3Aber alle haben so
-        viel Spaβ mit Digimon[-4]
+        viel Spaβ mit Digimon-
         Online...[pause]
       - "[\\x0207][\\x020902]3Ich kann's nicht \nglauben, L. Mou.![pause]"
       - '[\x0207]Kail[\x0207]...[pause]'
@@ -58,7 +58,7 @@ files:
       - ''
       - |-
         [\x0207][\x020902]3Hä?
-        War das die fal[-4]
+        War das die fal-
         sche Reihenfolge?[pause]
   - strings:
       - ''
@@ -103,7 +103,7 @@ files:
         Kontakt...?[pause]
       - |-
         [\x0207]Lisa[\x0207]Ich habe mal
-        gehört...[pause][\x0203]Irgendwo im Nord[-4]
+        gehört...[pause][\x0203]Irgendwo im Nord-
         sektor gibt es eine
         Notfallkammer...[pause]
       - |-
@@ -117,16 +117,16 @@ files:
         [\x0207]Gamemaster[\x0207]Heh...heh...
         Funktioniert nie![pause]
       - |-
-        [\x0207]Lisa[\x0207]Es ist einen Ver[-4]
+        [\x0207]Lisa[\x0207]Es ist einen Ver-
         such wert, oder
         [\x020801][\x020501]?[pause]
       - |-
         [\x0207][\x020902]3Genau! Das
-        meine ich auch![pause][\x0203]Den A.o.A. wer[-4]
+        meine ich auch![pause][\x0203]Den A.o.A. wer-
         den wir es schon
         zeigen![pause]
       - |-
-        [\x0207][\x020902]3Den A.o.A. wer[-4]
+        [\x0207][\x020902]3Den A.o.A. wer-
         den wir es schon
         zeigen![pause]
       - |-
@@ -137,7 +137,7 @@ files:
         [\x0207]Nick[\x0207]Hier geht's
         lang![pause]
       - |-
-        [\x0207]Teddy[\x0207]So lang[-4]
+        [\x0207]Teddy[\x0207]So lang-
         sam wird's
         ernst![pause]
       - |-
@@ -185,7 +185,7 @@ files:
         Sieht so aus...[pause][\x0203]Teddy hat's bemerkt
         u. uns erzählt![pause]
       - |-
-        [\x0207]Teddy[\x0207]Die A.o.A. be[-4]
+        [\x0207]Teddy[\x0207]Die A.o.A. be-
         wegen sich mit
         diesem Computer![pause]
       - |-
@@ -207,37 +207,37 @@ files:
         [\x0207]Lisa[\x0207]Keith u. Nick,
         ihr bleibt hier
         bei Teddy.[pause]
-      - "[\\x0207]Nick[\\x0207]Das ist die welt[-4]\nbeste Waffe![pause][\\x0203]Sie ist verschlossen,\ndamit sie nicht in \nfalsche Hände gerät.[pause]"
+      - "[\\x0207]Nick[\\x0207]Das ist die welt-\nbeste Waffe![pause][\\x0203]Sie ist verschlossen,\ndamit sie nicht in \nfalsche Hände gerät.[pause]"
       - '[\x0207]Nick[\x0207]?!?[pause]'
   - strings:
       - ''
       - |-
         [\x0207]Lisa[\x0207]Aber wie kommen
         wir in Amaterasu
-        City rein?[pause][\x0203]Es ist das A.o.A.[-4]
+        City rein?[pause][\x0203]Es ist das A.o.A.-
         Hauptq., also hohe
         Sicherheitsstufe.[pause]
       - |-
-        [\x0207]Nick[\x0207]Es gibt ein Notfall[-4]
-        Knightmon[-4]Wach[-4]
+        [\x0207]Nick[\x0207]Es gibt ein Notfall-
+        Knightmon-Wach-
         system.[pause][\x0203]Sicher benutzen sie
         das![pause]
       - |-
         [\x0207][\x020902]3Der Leader des
         Widerstands sagte
-        etwas...[pause][\x0203]Man braucht 4 Code[-4]
+        etwas...[pause][\x0203]Man braucht 4 Code-
         Pässe, um Knightmon
         aufzuhalten![pause]
       - |-
-        [\x0207]Keith[\x0207]...Code[-4]
+        [\x0207]Keith[\x0207]...Code-
         Pässe?
         ...was?![pause]
       - |-
         [\x0207]Lisa[\x0207]Oh, ich weiβ, was
         das ist. Es ist der
-        ID[-4]Pass mit Farben.[pause]
+        ID-Pass mit Farben.[pause]
       - |-
-        [\x0207][\x020902]3...ID[-4]Pass
+        [\x0207][\x020902]3...ID-Pass
         mit Farben?[pause][\x0203]Also die rote
         ID und die
         blaue ID?[pause]
@@ -258,8 +258,8 @@ files:
         sollte klappen![pause]
       - |-
         [\x0207][\x020902]3Oh, warte![pause][\x0203]Wir müssen was
-        wg. Bai Hu Ci[-4]
-        ty unternehmen.[pause][\x0203]Die Sicherheits[-4]
+        wg. Bai Hu Ci-
+        ty unternehmen.[pause][\x0203]Die Sicherheits-
         stufe ist echt
         hoch![pause]
       - |-
@@ -267,10 +267,10 @@ files:
         ...Hmmm...
         Was tun...[pause]
       - |-
-        [\x0207]Lisa[\x0207]Ja, die Wider[-4]
+        [\x0207]Lisa[\x0207]Ja, die Wider-
         ständler könnten
         uns helfen![pause][\x0203]Sie sind im
-        Mirage[-4]Turm,
+        Mirage-Turm,
         nicht wahr?[pause]
       - '[\x0207][\x020902]3Ja![pause]'
       - |-
@@ -289,7 +289,7 @@ files:
         [\x0207]Teddy[\x0207]Viel Glück,
         [\x020801][\x020501]![pause]
       - |-
-        [\x0207][\x020902]3OK, über[-4]
+        [\x0207][\x020902]3OK, über-
         lasst es mir![pause]
       - |-
         [\x0207]Lisa[\x0207]Keith,
@@ -302,7 +302,7 @@ files:
       - |-
         [\x0207]Lisa[\x0207]Aber wie kommen
         wir in Amaterasu
-        City rein?[pause][\x0203]Es ist das A.o.A.[-4]
+        City rein?[pause][\x0203]Es ist das A.o.A.-
         Hauptq., also hohe
         Sicherheitsstufe.[pause]
       - |-
@@ -322,7 +322,7 @@ files:
       - |-
         [\x0207][\x020902]3In Ordnung!
         Ich schau nochmal im
-        Amater.[-4]Serv. nach![pause]
+        Amater.-Serv. nach![pause]
       - |-
         [\x0207]Lisa[\x0207]Danke.
         Ich zähle auf
@@ -337,27 +337,27 @@ files:
         Und! Jmd gefunden?[pause]
       - |-
         [\x0207][\x020902]3Ja. Ich habe mich
-        mit einigen Wider[-4]
+        mit einigen Wider-
         ständlern getroffen![pause]
       - |-
         [\x0207]Lisa[\x0207]Gute Arbeit!
         Du bist groβartig
         [\x020801][\x020501]![pause]
       - |-
-        [\x0207][\x020902]3Aber um in Amatera[-4]
+        [\x0207][\x020902]3Aber um in Amatera-
         su City reinzukommen[pause][\x0203]brauchen wir die vier
-        Code[-4]Pässe, um
+        Code-Pässe, um
         Knightmon zu stoppen.[pause]
       - |-
-        [\x0207]Keith[\x0207]Code[-4]Pass?
+        [\x0207]Keith[\x0207]Code-Pass?
         ...was ist
         das?![pause]
       - |-
         [\x0207]Lisa[\x0207]Oh, ich weiβ, was
         das ist. Es ist der
-        ID[-4]Pass mit Farben.[pause]
+        ID-Pass mit Farben.[pause]
       - |-
-        [\x0207][\x020902]3...ID[-4]Pass
+        [\x0207][\x020902]3...ID-Pass
         mit Farben?[pause][\x0203]Also die rote
         ID und die
         blaue ID?[pause]
@@ -379,18 +379,18 @@ files:
       - |-
         [\x0207]Lisa[\x0207]Yeah, das
         ist es![pause]
-      - "[\\x0207][\\x020902]3Wartet![pause][\\x0203]Wir müssen was\nwegen Bai Hu \nCity machen...[pause][\\x0203]Die Sicherheits[-4]\nstufe dort ist\necht hoch![pause]"
+      - "[\\x0207][\\x020902]3Wartet![pause][\\x0203]Wir müssen was\nwegen Bai Hu \nCity machen...[pause][\\x0203]Die Sicherheits-\nstufe dort ist\necht hoch![pause]"
       - |-
         [\x0207]Lisa[\x0207]Ach, ja?
         ...Hmmm...
         Was tun...[pause]
       - |-
-        [\x0207]Lisa[\x0207]Ja, die Wider[-4]
+        [\x0207]Lisa[\x0207]Ja, die Wider-
         ständler könnten
         uns helfen![pause][\x0203]Sie sind im
-        Mirage[-4]Turm,
+        Mirage-Turm,
         nicht wahr?[pause]
-      - '[\x0207][\x020902]3J[-4]Ja![pause]'
+      - '[\x0207][\x020902]3J-Ja![pause]'
       - |-
         [\x0207]Lisa[\x0207]OK, ich werde
         sie fragen.[pause]
@@ -406,7 +406,7 @@ files:
         [\x0207]Teddy[\x0207]Viel Glück,
         [\x020801][\x020501]![pause]
       - |-
-        [\x0207][\x020902]3Ja, über[-4]
+        [\x0207][\x020902]3Ja, über-
         lasst es mir![pause]
       - |-
         [\x0207]Lisa[\x0207]Keith,
@@ -426,7 +426,7 @@ files:
       - |-
         [\x0207][\x020902]3Was?
         Warum ist Oinkmon
-        im Asuka[-4]Server?[pause]
+        im Asuka-Server?[pause]
       - |-
         [\x0207]Oinkmon[\x0207]Oioionk?
         Oioinoink!

@@ -4,15 +4,15 @@ strings:
   - |-
     [\x0207][\x020902]3Super!
     Ich hab' einen
-    Rüstungs[-4]Chip![pause]
+    Rüstungs-Chip![pause]
   - |-
     [\x0207][\x020902]3Super!
     Ich hab' einen
-    Feuer[-4]Chip![pause]
+    Feuer-Chip![pause]
   - |-
     [\x0207][\x020902]3Super!
     Ich hab' einen
-    Wasser[-4]Chip![pause]
+    Wasser-Chip![pause]
   - |-
     [\x0207]Tamer Genji[\x0207]Ha ha! Ich habe
     Gerüchte über
@@ -41,15 +41,15 @@ strings:
     riecht gut![pause][\x0203]Heute gibt
     es Hamburger![pause]
   - "[\\x0207]Guilmon[\\x0207]Ach, du bist\n[\\x020801][\\x020501], der\nberühmte Tamer?[pause][\\x0203]Wir wollen dich alle\nbesiegen! Sei also \nauf der Hut![pause]"
-  - "[\\x0207]Ivy[\\x0207]Hey, [\\x020801][\\x020501], \nder Junge ist\nder Wahnsinn![pause][\\x0203]Er hat Digimon[-4]Online\nwieder aufgebaut!\nVielleicht kannst[pause][\\x0203]du noch was lernen,\nwenn du zuschaust![pause]"
+  - "[\\x0207]Ivy[\\x0207]Hey, [\\x020801][\\x020501], \nder Junge ist\nder Wahnsinn![pause][\\x0203]Er hat Digimon-Online\nwieder aufgebaut!\nVielleicht kannst[pause][\\x0203]du noch was lernen,\nwenn du zuschaust![pause]"
   - |-
-    [\x0207]Agumon[-4]Fan Ike[\x0207]Digimon sind ohne
+    [\x0207]Agumon-Fan Ike[\x0207]Digimon sind ohne
     Agumon nichts![pause][\x0203]Das kann ich dir
     aus 20 Jahren
     Erfahrung sagen![pause]
   - |-
     [\x0207]Tamer Natsumi[\x0207]Ich bin Natsumi!
-    Ich will Tamer[-4]
+    Ich will Tamer-
     Star werden![pause]
   - |-
     [\x0207]Tamer Natsumi[\x0207]Los, lass uns
@@ -57,7 +57,7 @@ strings:
     Ich bin gut![pause]
   - |-
     [\x0207]Tamer Natsumi[\x0207]Gewonnen![pause][\x0203]Ich muss stark
-    sein, um Tamer[-4]
+    sein, um Tamer-
     Star zu werden![pause]
   - "[\\x0207]Tamer Natsumi[\\x0207]Was ist\npassiert?[pause][\\x0203]Mist! Tu so, als \nob du nichts\ndavon gehört hast![pause]"
   - |-
@@ -80,19 +80,19 @@ strings:
     lassen![pause]
   - |-
     [\x0207]Faulpelz Alan[\x0207]Wir können wohl nur
-    im Ost[-4] und Zentral[-4]
+    im Ost- und Zentral-
     sektor spielen.[pause][\x0203]Ist ja nur ein Test,
     also ist das OK.[pause]
   - |-
-    [\x0207]Kumamon[-4]Fan Satomi[\x0207]Kumamon ist
+    [\x0207]Kumamon-Fan Satomi[\x0207]Kumamon ist
     so süβ![pause][\x0203]Er ist so weich und
     flauschig, wie ein
     Stofftier![pause]
   - |-
     [\x0207]DO Wache[\x0207]Das ist Amaterasu
     City, Zentrum des
-    Amaterasu[-4]Servers.[pause][\x0203]Der Systemserver, der
-    Digimon[-4]Online steuert,
+    Amaterasu-Servers.[pause][\x0203]Der Systemserver, der
+    Digimon-Online steuert,
     ist hier.[pause]
   - |-
     [\x0207]DO Wache[\x0207]Die Digimon helfen
@@ -100,7 +100,7 @@ strings:
     nicht mehr einnehmen
     lassen![pause]
   - |-
-    [\x0207]Tamer[-4]Service[\x0207]Deine Daten sind
+    [\x0207]Tamer-Service[\x0207]Deine Daten sind
     gleich und werden
     wie vorher genutzt.[pause][\x0203]Strebe immer danach,
     der beste Tamer
@@ -109,13 +109,13 @@ strings:
     [\x0207]Wache[\x0207]Danke, dass du
     an der Testrunde
     teilgenommen hast.[pause][\x0203]Du kannst nur in
-    den Ost[-4] und Zentral[-4]
+    den Ost- und Zentral-
     sektoren spielen.[pause][\x0203]Die Platine wird aber
     zu deinem Vergnügen
     gebootet![pause]
   - |-
     [\x0207]Klassenspr. Aiko[\x0207]Habe gehört, hier sind
-    noch eine Menge ge[-4]
+    noch eine Menge ge-
     heimer Items versteckt.[pause][\x0203]An einem Ort bekommst
     du auch verlorene
     Sachen wieder![pause]
@@ -130,7 +130,7 @@ strings:
     Tag gewartet.[pause][\x0203]Ich bin froh, dass
     wir am Ende heil
     zurück sind![pause]
-  - "[\\x0207]Omegamon[-4]Fan Shin[\\x0207]Meine Digimon \ndigitieren noch nicht\nzu Omegamon![pause][\\x0203]Vielleicht müssen sie\nweiter trainieren und\nstärker werden.[pause]"
+  - "[\\x0207]Omegamon-Fan Shin[\\x0207]Meine Digimon \ndigitieren noch nicht\nzu Omegamon![pause][\\x0203]Vielleicht müssen sie\nweiter trainieren und\nstärker werden.[pause]"
   - |-
     [\x0207]Manager Sasaki[\x0207]Ich bin heute nicht
     arbeiten, um mich
@@ -142,7 +142,7 @@ strings:
     noch eine
     Baustelle![pause]
   - |-
-    [\x0207]Patamon[\x0207]Gut, dass Digimon[-4]
+    [\x0207]Patamon[\x0207]Gut, dass Digimon-
     Online teilweise
     repariert ist![pause][\x0203]Jetzt können wir
     wieder zusammen
@@ -150,17 +150,17 @@ strings:
   - |-
     [\x0207]Monmon[\x0207]Gut, dass so viele
     Leute hergekommen
-    sind![pause][\x0203]Digimon[-4]Online mit
+    sind![pause][\x0203]Digimon-Online mit
     vielen Leuten ist
     erst richtig Spaβ![pause]
   - |-
-    [\x0207]Digitier[-4]Navi[\x0207]Hier kannst du
+    [\x0207]Digitier-Navi[\x0207]Hier kannst du
     mehr über die
     Digitation lernen.[pause][\x0203]Welches Thema
     interessiert dich?[pause]
   - |-
-    [\x0207]Digimon[-4]Navi[\x0207]Hier kannst du
-    mehr über Digimon[-4]
+    [\x0207]Digimon-Navi[\x0207]Hier kannst du
+    mehr über Digimon-
     Kämpfe und das[pause][\x0203]Züchten von Digimon
     lernen. Welches Thema
     interessiert dich?[pause]
@@ -171,22 +171,22 @@ strings:
     Digimon machen?[pause]
   - "[\\x0207]Kotemon[\\x0207]Hey! Du bist\n[\\x020801][\\x020501], \noder?[pause][\\x0203]Hätte nie gedacht,\ndich an diesem Ort\nzu treffen![pause]"
   - |-
-    [\x0207]Account[-4]Anm.[\x0207]Gut, dass ihr
+    [\x0207]Account-Anm.[\x0207]Gut, dass ihr
     alle wieder
     da seid![pause][\x0203]Viel Spaβ, auch
     wenn es nur eine
     Testrunde ist![pause]
   - |-
-    [\x0207]Arena[-4]Empfang[\x0207]Hier kannst du gegen
+    [\x0207]Arena-Empfang[\x0207]Hier kannst du gegen
     die besten Tamer
     kämpfen.[pause][\x0203]Willst du kämpfen,
     folge den vier
     Leadern.[pause][\x0203]Komm hierher zurück,
     wenn du alle besiegt
     hast.[pause]
-  - "[\\x0207]Arena[-4]Empfang[\\x0207]Willkommen, \n[\\x020801][\\x020501]! Hab\ndich erwartet![pause]"
+  - "[\\x0207]Arena-Empfang[\\x0207]Willkommen, \n[\\x020801][\\x020501]! Hab\ndich erwartet![pause]"
   - |-
-    [\x0207]Arena[-4]Empfang[\x0207]Du musst stark sein,
+    [\x0207]Arena-Empfang[\x0207]Du musst stark sein,
     wenn du Kurt
     besiegen kannst![pause][\x0203]Du hast aber gerade
     erst mit dem Tamer
@@ -225,21 +225,21 @@ strings:
     [\x0207][\x020902]3Nö, sieht so
     aus, als sei
     hier nichts.[pause]
-  - "[\\x0207]Gargoylemon[\\x0207]Ein Waffen[-4] \nladen! Willst\ndu rein?[pause]"
+  - "[\\x0207]Gargoylemon[\\x0207]Ein Waffen- \nladen! Willst\ndu rein?[pause]"
   - |-
     [\x0207]Wizermon[\x0207]Willkommen im
-    Item[-4]Shop![pause]
+    Item-Shop![pause]
   - |-
     [\x0207]Gomamon[\x0207]Dies ist ein
     Schmuckladen!
     Was darf's sein[pause]
   - |-
     [\x0207]Wizermon[\x0207]Willkommen im
-    Item[-4]Shop![pause]
-  - "[\\x0207]Gargoylemon[\\x0207]Ein Waffen[-4] \nladen! Willst\ndu rein?[pause]"
+    Item-Shop![pause]
+  - "[\\x0207]Gargoylemon[\\x0207]Ein Waffen- \nladen! Willst\ndu rein?[pause]"
   - |-
     [\x0207]Reicher Bruce[\x0207]Mist! Hier gibt
-    es keine Sturm[-4]
+    es keine Sturm-
     arme![pause][\x0203]Ich soll jedoch
     einen finden
     können.[pause]
@@ -252,7 +252,7 @@ strings:
   - |-
     [\x0207]Master Paul[\x0207]John aus Asuka City
     und ich werden live
-    bei Digimon[-4]Online[pause][\x0203]Revival Live spielen!
+    bei Digimon-Online[pause][\x0203]Revival Live spielen!
     Ich bin gespannt![pause]
   - |-
     [\x0207]Kellnerin Linda[\x0207]Bin so froh, dass
@@ -268,7 +268,7 @@ strings:
   - |-
     [\x0207]Sepikmon[\x0207]Heute sollten wir
     feiern, denn
-    Digimon[-4]Online ist[pause][\x0203]wieder da! Aber mei[-4]
+    Digimon-Online ist[pause][\x0203]wieder da! Aber mei-
     ne Maske nehme ich
     nicht ab![pause]
   - |-
@@ -279,16 +279,16 @@ strings:
   - |-
     [\x0207]Nick[\x0207]Hier ist auch
     alles erste
-    Sahne![pause][\x0203]Ach, alte Gewohn[-4]
+    Sahne![pause][\x0203]Ach, alte Gewohn-
     heiten wird man
     nicht los...[pause]
   - |-
     [\x0207]Nick[\x0207]Yeah, Kurt hat
     mir das hier
-    anvertraut.[pause][\x0203]Bitte, deine Akten[-4]
+    anvertraut.[pause][\x0203]Bitte, deine Akten-
     tasche. Noch ist es
     nicht richtig, oder?[pause][\x0203]Diese Karten und der
-    andere Tamer[-4]Kram
+    andere Tamer-Kram
     werden dich begeistern![pause]
   - |-
     [\x0207]Nick[\x0207]Kurt hat mich
@@ -308,12 +308,12 @@ strings:
     wie man spielt![pause]
   - |-
     [\x0207]Kartenkenner Ken[\x0207]Was ist das? Du
-    willst die Karten[-4]
+    willst die Karten-
     Spielregeln lernen?[pause]
   - |-
-    [\x0207]Tamer Nacky[\x0207]Jetzt wo Digimon[-4]
+    [\x0207]Tamer Nacky[\x0207]Jetzt wo Digimon-
     Online erneuert
-    wurde,[pause][\x0203]ist meine Pech[-4]
+    wurde,[pause][\x0203]ist meine Pech-
     strähne hoffentlich
     vorbei![pause]
   - |-
@@ -350,7 +350,7 @@ strings:
     das denn?![pause][\x0203]Sorry, Yoko,
     Papi hat dich
     enttäuscht![pause]
-  - "[\\x0207]Tamer Mei Lin[\\x0207]Nihao! Du bist [\\x020801][\\x020501] \noder? Ich bin froh, dich \nzu treffen![pause][\\x0203]Dank dir ist Digimon[-4]\nOnline wieder da![pause]"
+  - "[\\x0207]Tamer Mei Lin[\\x0207]Nihao! Du bist [\\x020801][\\x020501] \noder? Ich bin froh, dich \nzu treffen![pause][\\x0203]Dank dir ist Digimon-\nOnline wieder da![pause]"
   - |-
     [\x0207]Tamer Mei Lin[\x0207]Lass' uns doch
     Karten spielen,
@@ -368,9 +368,9 @@ strings:
     üben, bis ich dich
     schlagen kann![pause]
   - |-
-    [\x0207]Tamer Mitch[\x0207]Yeah, endlich kön[-4]
-    nen wir wieder Digi[-4]
-    mon[-4]Online spielen![pause]
+    [\x0207]Tamer Mitch[\x0207]Yeah, endlich kön-
+    nen wir wieder Digi-
+    mon-Online spielen![pause]
   - |-
     [\x0207]Tamer Mit[\x0207]OK, Junge,
     lass' uns
@@ -381,7 +381,7 @@ strings:
     [\x0207]Tamer Mitch[\x0207]Es geht doch
     nichts über den
     Siegestaumel![pause][\x0203]Darum kann ich
-    von Digimon[-4]Online
+    von Digimon-Online
     nie genug kriegen![pause]
   - |-
     [\x0207]Tamer Mitch[\x0207]Wow, du bist gut!
@@ -399,7 +399,7 @@ strings:
     [\x0207][\x020902]3Nö, sieht
     nach nichts
     aus.[pause]
-  - "[\\x0207][\\x020902]3Sieht aus, als\nob etwas in die\nLücke gefallen ist![pause][\\x0203]Hey! \nSieh an! Eine\nP[-4]Mitgliedskarte![pause][\\x0203]Eine Platin[-4]Mit[-4]\ngliedskarte! Nun, \nwas damit machen?[pause]"
+  - "[\\x0207][\\x020902]3Sieht aus, als\nob etwas in die\nLücke gefallen ist![pause][\\x0203]Hey! \nSieh an! Eine\nP-Mitgliedskarte![pause][\\x0203]Eine Platin-Mit-\ngliedskarte! Nun, \nwas damit machen?[pause]"
   - |-
     [\x0207][\x020902]3Nö, sieht
     nach nichts
@@ -408,12 +408,12 @@ strings:
     [\x0207]Ponchomon[\x0207]Hey, Amigo!
     Willkommen in
     Eldorado![pause][\x0203]Willst du heiβe
-    Item[-4]Infos,
+    Item-Infos,
     Amigo?[pause]
   - |-
     [\x0207]Teddy[\x0207]Hey! [\x020801][\x020501]!
     Wie geht's
-    dir?[pause][\x0203]Mir geht's fan[-4]
+    dir?[pause][\x0203]Mir geht's fan-
     tastisch, klar!
     He he he.[pause]
   - |-
@@ -434,7 +434,7 @@ strings:
     mir arbeiten![pause]
   - |-
     [\x0207]Tamer Andy[\x0207]Ich bin Andy, das
-    Tamer[-4]Genie von
+    Tamer-Genie von
     Server 1![pause][\x0203]Ich sag's dir,
     gegen mich kommst
     du nicht an![pause]
@@ -456,9 +456,9 @@ strings:
     vor, das nächste
     Mal zu verlieren![pause]
   - |-
-    [\x0207]Reisender Tomoyo[\x0207]Hallo du, vervoll[-4]
+    [\x0207]Reisender Tomoyo[\x0207]Hallo du, vervoll-
     ständigst du deine
-    Digimon[-4]Partner?[pause][\x0203]Wenn du etwas
+    Digimon-Partner?[pause][\x0203]Wenn du etwas
     brauchst, guck' im
     Platinenbereich![pause]
   - |-
@@ -469,7 +469,7 @@ strings:
     brauche.[pause]
   - |-
     [\x0207]Rapper Mike[\x0207]Yeah! Stark,
-    Digimon[-4]Online
+    Digimon-Online
     ist wieder da![pause][\x0203]Und das dank
     [\x020801][\x020501], dem
     coolen Tamer![pause]
@@ -486,7 +486,7 @@ strings:
     es ausprobieren.[pause]
   - |-
     [\x0207]DO Wache[\x0207]Nach den A.o.A
-    muss man ordent[-4]
+    muss man ordent-
     lich aufräumen![pause][\x0203]Auch wenn sie
     weg sind, machen
     sie noch Ärger![pause]
@@ -502,7 +502,7 @@ strings:
   - |-
     [\x0207]Kurt[\x0207]Hey! [\x020801][\x020501]!
     Geschafft![pause][\x0203]Dank dir wird
-    Digimon[-4]Online
+    Digimon-Online
     wieder geöffnet![pause][\x0203]Vielen Dank!
     OK dann, viel
     Spaβ![pause]
@@ -515,27 +515,27 @@ strings:
   - |-
     [\x0207]Kurt[\x0207]Du bist der
     King, echt![pause][\x0203]Du wirst bestimmt
-    der nächste Welt[-4]
+    der nächste Welt-
     meister![pause]
   - |-
-    [\x0207]DO[-4]Operator[\x0207][\x020801][\x020501], deine
+    [\x0207]DO-Operator[\x0207][\x020801][\x020501], deine
     Daten sind einfach
     super![pause][\x0203]Die werde ich
-    zum Spiel[-4]
+    zum Spiel-
     ausgleich nehmen.[pause]
   - |-
-    [\x0207]DO[-4]Operator[\x0207]Ich will das Erlern[-4]
+    [\x0207]DO-Operator[\x0207]Ich will das Erlern-
     te einsetzen, um die
     Welt zu verbessern.[pause][\x0203]Ich hoffe auf
-    Digimon[-4]Online![pause]
+    Digimon-Online![pause]
   - |-
-    [\x0207]Digimon[-4]Fan Emmie[\x0207]Es soll Digimon ge[-4]
+    [\x0207]Digimon-Fan Emmie[\x0207]Es soll Digimon ge-
     ben, die dir alle
     Arten Waffen machen![pause][\x0203]Ich möchte so eines
     nur einmal treffen![pause]
   - |-
     [\x0207]Kampffan Midori[\x0207]Ja! Zeit, einen neuen
-    Digimon[-4]Kampf anzu[-4]
+    Digimon-Kampf anzu-
     sehen! Toll![pause][\x0203]Viel Glück und leg'
     einen guten Kampf
     hin![pause]
@@ -549,7 +549,7 @@ strings:
     [\x0207]Chinron Leader[\x0207]Was denn? Du willst
     mit mir kämpfen?[pause][\x0203]Dann musst du erst
     die 5 stärksten
-    Epic[-4]Items finden,[pause][\x0203]die in dieser Welt
+    Epic-Items finden,[pause][\x0203]die in dieser Welt
     versteckt sind.
     Bring sie her![pause][\x0203]Sie sind aber nicht
     so einfach zu finden![pause]
@@ -557,18 +557,18 @@ strings:
     [\x0207]Chinron Leader[\x0207]Was denn? Du willst
     mit mir kämpfen?[pause][\x0203]Du hast also
     die 5 stärksten
-    Epic[-4]Items.[pause][\x0203]OK, dann kämpfe
+    Epic-Items.[pause][\x0203]OK, dann kämpfe
     ich mit dir! Also
     los![pause]
   - |-
     [\x0207]Chinron Leader[\x0207]Ich erwarte das schon
     von einem, der die
-    stärksten Epic[-4]Items[pause][\x0203]gesammelt hat! Weiter
+    stärksten Epic-Items[pause][\x0203]gesammelt hat! Weiter
     so, dann kommst du
     nach oben![pause]
   - |-
     [\x0207]Autor William[\x0207]Hast du mein Werk
-    "Oinkio und Flori[-4]
+    "Oinkio und Flori-
     ette" gelesen?[pause][\x0203]Eine Liebesgeschichte
     über Oinkmon und
     Floramon![pause][\x0203]Als Nächstes schreibe
@@ -588,9 +588,9 @@ strings:
     wie dich treffen![pause]
   - |-
     [\x0207]Guardromon[\x0207]Jetzt bin ich
-    doch eine Digimon[-4]
+    doch eine Digimon-
     Wache geworden![pause][\x0203]Ich gebe mein
-    Bestes, um Digimon[-4]
+    Bestes, um Digimon-
     Online zu schützen![pause]
   - |-
     [\x0207]Monmon[\x0207]Langweilig!
@@ -599,7 +599,7 @@ strings:
     gekommen
     bist![pause]
   - |-
-    [\x0207]Piccolomon[\x0207]Ich bin Digimon[-4]
+    [\x0207]Piccolomon[\x0207]Ich bin Digimon-
     Chief! Was kann
     ich für dich tun?[pause]
   - |-
@@ -626,7 +626,7 @@ strings:
     drauβen![pause]
   - |-
     [\x0207]Biyomon[\x0207]Super! Ich bin
-    froh, dass Digimon[-4]
+    froh, dass Digimon-
     Online wieder da ist![pause]
   - "[\\x0207]Terriermon[\\x0207]Murmel... \nmurmel...\nZzzzzzz..[pause]"
   - |-
@@ -641,7 +641,7 @@ strings:
     schau' dich um![pause]
   - |-
     [\x0207]Mr. Wedge[\x0207]Ach, du hast
-    eine Platin[-4]
+    eine Platin-
     karte![pause]
   - |-
     [\x0207]Mr. Wedge[\x0207]Hinten habe ich
@@ -659,11 +659,11 @@ strings:
     Augenblick![pause]
   - |-
     [\x0207]Ponchomon[\x0207]Amigo, lass' uns
-    mal über die neu[-4]
-    esten Items reden![pause][\x0203]Diese Epic[-4]Items
+    mal über die neu-
+    esten Items reden![pause][\x0203]Diese Epic-Items
     die stärksten der
     Welt![pause][\x0203]Sie werden vom
-    Waffen[-4]Corps in
+    Waffen-Corps in
     der Platine gemacht.[pause][\x0203]Aber nur richtig
     starke Tamer können
     sie verwenden![pause][\x0203]Bei schwachen

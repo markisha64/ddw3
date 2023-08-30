@@ -18,7 +18,7 @@ strings:
   - OK
   - /3
   - Lad
-  - '----'
+  - ーーーー
   - Fähigk.
   - '[circle] : Details'
   - LV
@@ -27,13 +27,13 @@ strings:
   - Welches tauschen?
   - Wessen Digit. ans.?
   - Wessen Tabelle ans.?
-  - '-----'
-  - --
+  - ーーーーー
+  - ーー
   - Mit wem tausch.?
   - Kann nicht digit
   - Digitation auswählen
-  - '---'
-  - Digit.[-4]Typ ändern.
+  - ーーー
+  - Digit.-Typ ändern.
   - Technik laden.
   - Nichts tun.
   - Kann Digit. nicht änd

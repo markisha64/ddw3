@@ -36,10 +36,10 @@ strings:
   - "[\\x0207]Dresseuse Hillary[\\x0207]Bill joue toujours ![pause][\\x0203]Il a intérêt à \ntravailler un peu ou \nj'aurai des ennuis ![pause]"
   - a
   - "[\\x0207]Dresseuse Hillary[\\x0207]Eh, tu peux\nlui parler ?[pause][\\x0203]Si ça continue, \nil va redevenir\nun Oinkmon ![pause]"
-  - "[\\x0207]Dress. Hillary[\\x0207]En quoi les \ncombats sont[-4]\nils amusants ?[pause][\\x0203]Viens te \nbattre ![pause]"
+  - "[\\x0207]Dress. Hillary[\\x0207]En quoi les \ncombats sont-\nils amusants ?[pause][\\x0203]Viens te \nbattre ![pause]"
   - |-
     [\x0207]Dress. Hillary[\x0207]Je ne vais
-    pas bien ![pause][\x0203]Battons[-4]nous,
+    pas bien ![pause][\x0203]Battons-nous,
     ça me changera
     les idées ![pause]
   - |-
@@ -49,7 +49,7 @@ strings:
   - |-
     [\x0207]Dresseuse Hillary[\x0207]Vraiment !
     En quoi ce jeu
-    est[-4]il si drôle ?![pause]
+    est-il si drôle ?![pause]
   - |-
     [\x0207]Dresseuse Marina[\x0207]J'ai cru que c'était
     la fin quand j'ai été
@@ -62,7 +62,7 @@ strings:
   - |-
     [\x0207]Dresseuse Marina[\x0207]Contente
     de pouvoir
-    rejouer ![pause][\x0203]Battons[-4]nous !
+    rejouer ![pause][\x0203]Battons-nous !
     C'est notre
     destin ![pause]
   - "[\\x0207]Dresseuse Marina[\\x0207]Contente de\npouvoir \nrejouer ![pause][\\x0203]Allez,\non y\nva ![pause]"
@@ -74,8 +74,8 @@ strings:
   - "[\\x0207]Dresseur Albert[\\x0207]Je ne savais pas\nquoi faire quand \nj'étais en Oinkmon ![pause]"
   - a
   - "[\\x0207]Dresseur Albert[\\x0207]Tu es le \ndresseur qui \na battu l'AoA ![pause][\\x0203]Merci !\nMerci\ninfiniment ![pause]"
-  - "[\\x0207]Dresseur Albert[\\x0207]Maintenant qu'on \nest humains, il \nfaut combattre.[pause][\\x0203]Battons[-4]nous\ntout de suite ![pause]"
-  - "[\\x0207]Dresseur Albert[\\x0207]A cause de toi,\nje n'ai pas le \ntemps de jouer.[pause][\\x0203]Eh toi, viens\nici. Bats[-4]toi\ncontre moi.[pause]"
+  - "[\\x0207]Dresseur Albert[\\x0207]Maintenant qu'on \nest humains, il \nfaut combattre.[pause][\\x0203]Battons-nous\ntout de suite ![pause]"
+  - "[\\x0207]Dresseur Albert[\\x0207]A cause de toi,\nje n'ai pas le \ntemps de jouer.[pause][\\x0203]Eh toi, viens\nici. Bats-toi\ncontre moi.[pause]"
   - "[\\x0207]Dresseur Albert[\\x0207]Bien, ça ne m'a\npas affecté \nd'être Oinkmon ![pause][\\x0203]Je vais \nrattraper le\ntemps perdu ![pause]"
   - "[\\x0207]Dresseur Albert[\\x0207]J'ai perdu. Humm, \nparce que je suis\ndevenu Oinkmon ?[pause]"
   - |-
@@ -163,10 +163,10 @@ strings:
     oooink ![pause]
   - '43'
   - |-
-    [\x0207]Garde DO[\x0207]Nous poursui[-4]
+    [\x0207]Garde DO[\x0207]Nous poursui-
     vons l'AoA en
     fuite ![pause][\x0203]Si tu en vois,
-    préviens[-4]nous ![pause]
+    préviens-nous ![pause]
   - |-
     [\x0207]Garde DO[\x0207]Ooink, oink,
     ooooink ![pause]
@@ -289,7 +289,7 @@ strings:
   - |-
     [\x0207]Maître Paul[\x0207]Ooink, oin,
     ooooink ![pause]
-  - "[\\x0207]Maître Paul[\\x0207]Je me suis battu \navec John et je ne\nl'ai pas revu depuis ![pause][\\x0203]Quand j'ai été changé\nen Oinkmon,\nj'ai vu que...[pause][\\x0203]Je vais peut[-4]être \naller le voir...[pause]"
+  - "[\\x0207]Maître Paul[\\x0207]Je me suis battu \navec John et je ne\nl'ai pas revu depuis ![pause][\\x0203]Quand j'ai été changé\nen Oinkmon,\nj'ai vu que...[pause][\\x0203]Je vais peut-être \naller le voir...[pause]"
   - |-
     [\x0207]Maître Paul[\x0207]Ooink, oin,
     ooooink ![pause]
@@ -347,14 +347,14 @@ strings:
     [\x0207]Masaki le Dément[\x0207]Oonik,
     oooink, oink ![pause]
   - "[\\x0207]Maria l'Intègre[\\x0207]Oik, oioink !\nOoooin, \noioink ![pause]"
-  - "[\\x0207]Maria l'Intègre[\\x0207]Tu as récupéré des \narmes auprès de \nla Digi[-4]armure ?[pause][\\x0203]Je n'ai pas pu,\nj'étais un Oinkmon ![pause]"
+  - "[\\x0207]Maria l'Intègre[\\x0207]Tu as récupéré des \narmes auprès de \nla Digi-armure ?[pause][\\x0203]Je n'ai pas pu,\nj'étais un Oinkmon ![pause]"
   - "[\\x0207]Maria l'Intègre[\\x0207]Oik, oioink !\nOoooin, \noioink ![pause]"
   - '43'
   - |-
     [\x0207]Takeshi l'Elève[\x0207]Oooin, oink !
     Oion,
     ooin, ooink ![pause]
-  - "[\\x0207]Takeshi l'Elève[\\x0207]Tu as battu tous\nles Digimons du chef\nd'Amaterasu ?[pause][\\x0203]Ils ont des tas de \ntrucs super, alors\ncherche[-4]les ![pause]"
+  - "[\\x0207]Takeshi l'Elève[\\x0207]Tu as battu tous\nles Digimons du chef\nd'Amaterasu ?[pause][\\x0203]Ils ont des tas de \ntrucs super, alors\ncherche-les ![pause]"
   - |-
     [\x0207]Takeshi l'Elève[\x0207]Oooin, oink !
     Oion,
@@ -423,14 +423,14 @@ strings:
   - |-
     [\x0207]Garde DO[\x0207]Oooink, oioionik
     oink ![pause]
-  - "[\\x0207]BK WarGreymon[\\x0207]Un grand dresseur \naffronte tous les \ndangers avec calme ![pause][\\x0203]Allez, vas[-4]y...\nEt bats l'AoA ![pause]"
+  - "[\\x0207]BK WarGreymon[\\x0207]Un grand dresseur \naffronte tous les \ndangers avec calme ![pause][\\x0203]Allez, vas-y...\nEt bats l'AoA ![pause]"
   - |-
     [\x0207]BK WarGreymon[\x0207]Ne te relâche
     pas, même si
-    tu as vaincu l'AoA![pause][\x0203]Entraîne[-4]toi et
+    tu as vaincu l'AoA![pause][\x0203]Entraîne-toi et
     tâche de devenir
     un grand dresseur ![pause]
-  - "[\\x0207]BK WarGreymon[\\x0207]Un grand dresseur \nn'abandonne \njamais ![pause][\\x0203]Allez, vas[-4]y...\nEt sauve ce monde ![pause]"
+  - "[\\x0207]BK WarGreymon[\\x0207]Un grand dresseur \nn'abandonne \njamais ![pause][\\x0203]Allez, vas-y...\nEt sauve ce monde ![pause]"
   - '43'
   - |-
     [\x0207]Garde DO[\x0207]Tous les membres de
@@ -457,7 +457,7 @@ strings:
   - |-
     [\x0207]Garde DO[\x0207]Impressionnant. Tu
     as battu le
-    Commandant.[pause][\x0203]Détends[-4]toi,
+    Commandant.[pause][\x0203]Détends-toi,
     on va prendre
     le relais ![pause]
   - |-
@@ -552,7 +552,7 @@ strings:
     City, centre du
     Serveur Amaterasu ![pause]
   - "[\\x0207]Knightmon[\\x0207]Incroyable, tu\nas battu le\nCommandant ![pause][\\x0203]D'où te vient\ncette \nforce ?[pause]"
-  - "[\\x0207]Knightmon[\\x0207]Qu'est[-4]ce que \nça veut dire ?[pause][\\x0203]Je ne comprends\npas ![pause]"
+  - "[\\x0207]Knightmon[\\x0207]Qu'est-ce que \nça veut dire ?[pause][\\x0203]Je ne comprends\npas ![pause]"
   - |-
     [\x0207]Knightmon[\x0207]Tu peux passer
     maintenant.
@@ -565,7 +565,7 @@ strings:
   - |-
     [\x0207]Knightmon[\x0207]L'AoA n'est
     pas encore
-    vaincu...[pause][\x0203]Vont[-4]ils
+    vaincu...[pause][\x0203]Vont-ils
     nous
     recapturer ?[pause]
   - '43'
@@ -602,7 +602,7 @@ strings:
     [\x0207]Russell le Garde[\x0207]Oink ?
     Oioioioooink,
     oooininnnk ![pause]
-  - "[\\x0207]Keith[\\x0207]J'ai trouvé la machine \npour retransformer \ntout le monde.[pause][\\x0203]Mais il y a un petit\nproblème : l'énergie \nrisque de manquer ![pause][\\x0203]Oh là là ! Qu'allons[-4]\nnous faire ?[pause]"
+  - "[\\x0207]Keith[\\x0207]J'ai trouvé la machine \npour retransformer \ntout le monde.[pause][\\x0203]Mais il y a un petit\nproblème : l'énergie \nrisque de manquer ![pause][\\x0203]Oh là là ! Qu'allons-\nnous faire ?[pause]"
   - |-
     [\x0207]Remo le Karatéka[\x0207]Je vaincrai l'AoA !
     Aiyeeeee ya ![pause][\x0203]... Aïe !
@@ -651,7 +651,7 @@ strings:
     [\x0207]Mayumi l'Egaré[\x0207]Oooink, oink !
     Ooink, ooooink ![pause]
   - |-
-    [\x0207]Mayumi l'Egaré[\x0207]Eh, où suis[-4]je ?
+    [\x0207]Mayumi l'Egaré[\x0207]Eh, où suis-je ?
     Ce n'est pas Xuen
     Wu City ?[pause][\x0203]Quoi ?!
     J'ai fait tout ce
@@ -663,7 +663,7 @@ strings:
     [\x0207]Garde DO[\x0207]Tu es le dresseur
     qui a battu le
     Commandant ![pause][\x0203]Entre !
-    Repose[-4]toi ![pause]
+    Repose-toi ![pause]
   - |-
     [\x0207]Garde DO[\x0207]Oink, oioioink,
     oooink, oooink ![pause]
@@ -693,18 +693,18 @@ strings:
   - |-
     [\x0207]Ami Dingue jouets[\x0207]Ooooi, oink.
     Oiiooink, oooink.[pause]
-  - "[\\x0207]Ami Dingue jouets[\\x0207]Vendent[-4]ils des\njouets Oinkmon ?[pause][\\x0203]J'en achèterai un en \nsouvenir.[pause]"
+  - "[\\x0207]Ami Dingue jouets[\\x0207]Vendent-ils des\njouets Oinkmon ?[pause][\\x0203]J'en achèterai un en \nsouvenir.[pause]"
   - |-
     [\x0207]Ami Dingue jouets[\x0207]Ooooi, oink.
     Oiiooink, oooink.[pause]
   - |-
     [\x0207]Chef Zhu Que[\x0207]... Euh ?!
-    Qui es[-4]tu ?[pause]
+    Qui es-tu ?[pause]
   - |-
     [\x0207]L'Aimable Claudia[\x0207]Oioionk.
     Oink, oiooink.
     Oooin...[pause]
-  - "[\\x0207]L'Aimable Claudia[\\x0207]Papi Lear est\nlà[-4]bas ![pause][\\x0203]Je m'ennuyais, alors \nje suis venue \njouer ici.[pause]"
+  - "[\\x0207]L'Aimable Claudia[\\x0207]Papi Lear est\nlà-bas ![pause][\\x0203]Je m'ennuyais, alors \nje suis venue \njouer ici.[pause]"
   - |-
     [\x0207]L'Aimable Claudia[\x0207]Oioionk.
     Oink, oiooink.
@@ -712,7 +712,7 @@ strings:
   - |-
     [\x0207]Papi Lear[\x0207]Oooink !
     Oooinoin, oink ![pause]
-  - "[\\x0207]Papi Lear[\\x0207]C'est bien.\nTrès bien ![pause][\\x0203]J'aime bien la \nfille de gauche ![pause][\\x0203]Laquelle\npréfères[-4]tu ?\nHa ha ha ha ![pause]"
+  - "[\\x0207]Papi Lear[\\x0207]C'est bien.\nTrès bien ![pause][\\x0203]J'aime bien la \nfille de gauche ![pause][\\x0203]Laquelle\npréfères-tu ?\nHa ha ha ha ![pause]"
   - |-
     [\x0207]Papi Lear[\x0207]Oooink !
     Oooinoin, oink ![pause]
@@ -720,7 +720,7 @@ strings:
     [\x0207]William l'Ecrivain[\x0207]Ooink !
     Oioinoink oink
     oooink, oink ?[pause]
-  - "[\\x0207]William l'Ecrivain[\\x0207]J'ai une\nidée géniale...[pause][\\x0203]Une histoire tragi[-4]\nque entre Oinkmon\net Floramon ![pause][\\x0203]Je l'intitulerai \nOinko et Flora ![pause]"
+  - "[\\x0207]William l'Ecrivain[\\x0207]J'ai une\nidée géniale...[pause][\\x0203]Une histoire tragi-\nque entre Oinkmon\net Floramon ![pause][\\x0203]Je l'intitulerai \nOinko et Flora ![pause]"
   - |-
     [\x0207]William l'Ecrivain[\x0207]Ooink !
     Oioinoink oink
@@ -729,8 +729,8 @@ strings:
   - '43'
   - '43'
   - '43'
-  - "[\\x0207]Militaire[\\x0207]Eh, toi !\nQui \nes[-4]tu ?![pause]"
-  - "[\\x0207]Militaire[\\x0207]Oh, c'est un\nenfant. \nVa[-4]t'en ![pause]"
+  - "[\\x0207]Militaire[\\x0207]Eh, toi !\nQui \nes-tu ?![pause]"
+  - "[\\x0207]Militaire[\\x0207]Oh, c'est un\nenfant. \nVa-t'en ![pause]"
   - "[\\x0207]Militaire[\\x0207]Tu es \nbizarre.[pause][\\x0203]Faisons un\nCombat de \ncartes ![pause]"
   - |-
     [\x0207]Militaire[\x0207]Tu es
@@ -740,7 +740,7 @@ strings:
   - |-
     [\x0207]Militaire[\x0207]Oh, encore
     toi !
-    Va[-4]t'en ![pause]
+    Va-t'en ![pause]
   - |-
     [\x0207]Militaire[\x0207]Ha ha ha !
     J'ai gagné !
@@ -749,12 +749,12 @@ strings:
     [\x0207]Militaire[\x0207]J'ai perdu...
     Je te laisse partir.
     File ![pause]
-  - "[\\x0207]Militaire[\\x0207]Va[-4]t'en ! Je n'ai \npas de temps\nà perdre avec toi ![pause]"
-  - "[\\x0207]Militaire[\\x0207]Où \nvas[-4]tu ?![pause]"
+  - "[\\x0207]Militaire[\\x0207]Va-t'en ! Je n'ai \npas de temps\nà perdre avec toi ![pause]"
+  - "[\\x0207]Militaire[\\x0207]Où \nvas-tu ?![pause]"
   - |-
     [\x0207]Militaire[\x0207]C'est toi ? !
     En garde ![pause]
-  - "[\\x0207]Militaire[\\x0207]... Je crois \nque j'ai eu tort.\nVa[-4]t'en ![pause]"
+  - "[\\x0207]Militaire[\\x0207]... Je crois \nque j'ai eu tort.\nVa-t'en ![pause]"
   - |-
     [\x0207]Militaire [\x0207]C'est toi !
     En garde ![pause]
@@ -815,7 +815,7 @@ strings:
     des Oinkmons ![pause][\x0203]Je vais pouvoir parler
     à Porky, le cochon
     d'à côté.[pause]
-  - "[\\x0207]Chef de Bai Hu[\\x0207]...Humm ?!\nQui es[-4]tu... ?[pause][\\x0203]Je suis \noccupé ![pause]"
+  - "[\\x0207]Chef de Bai Hu[\\x0207]...Humm ?!\nQui es-tu... ?[pause][\\x0203]Je suis \noccupé ![pause]"
   - '43'
   - '43'
   - '43'
@@ -840,7 +840,7 @@ strings:
     [\x0207]Mamie Oly[\x0207]Cet endroit ne me
     plaît pas. L'arrière
     s'est effondré...[pause][\x0203]Il n'y a pas d'issue.
-    Que va[-4]t[-4]on faire ?[pause]
+    Que va-t-on faire ?[pause]
   - "[\\x0207]Mamie Oly[\\x0207]Va combattre\ntoi aussi ![pause][\\x0203]Ne t'en fais pas pour \nnous. Tout ira bien.[pause]"
   - |-
     [\x0207]Mamie Oly[\x0207]On sortira bientôt
@@ -944,21 +944,21 @@ strings:
     [\x0207]Militaire[\x0207]J'ai perdu...
     Je n'ai pas
     de chance ![pause]
-  - "[\\x0207]Militaire[\\x0207]Eh, va[-4]t'en ! Je \nn'ai pas de temps\nà perdre avec toi ![pause]"
+  - "[\\x0207]Militaire[\\x0207]Eh, va-t'en ! Je \nn'ai pas de temps\nà perdre avec toi ![pause]"
   - |-
     [\x0207]Militaire[\x0207]On m'a blâmé
     car je jouais ![pause]
   - |-
     [\x0207]Militaire[\x0207]Oh, tu es ce
-    dresseur[-4]là !
-    Battons[-4]nous ![pause]
+    dresseur-là !
+    Battons-nous ![pause]
   - |-
     [\x0207]Militaire[\x0207]Oh, un enfant.
     J'ai peur ![pause]
   - |-
     [\x0207]Militaire[\x0207]Oh, tu es cet
-    enfant[-4]là !
-    Battons[-4]nous ![pause]
+    enfant-là !
+    Battons-nous ![pause]
   - a
   - a
   - a
@@ -994,15 +994,15 @@ strings:
   - |-
     [\x0207]Guardromon[\x0207]ACCES AU
     LECT. MATRIX.[pause]
-  - "[\\x0207]Gatomon[\\x0207]Bienvenue \ndans mon Auberge ![pause][\\x0203]Détends[-4]toi et \nrepose[-4]toi un peu.[pause]"
+  - "[\\x0207]Gatomon[\\x0207]Bienvenue \ndans mon Auberge ![pause][\\x0203]Détends-toi et \nrepose-toi un peu.[pause]"
   - |-
     [\x0207]Gargomon[\x0207]Ka boom !
     Voici
     l'Armurerie ![pause]
   - |-
     [\x0207]Piximon[\x0207]Je suis le
-    Digi[-4]officier pi !
-    Que veux[-4]tu pi ?[pause]
+    Digi-officier pi !
+    Que veux-tu pi ?[pause]
   - |-
     [\x0207]Gomamon[\x0207]Le Magasin
     de gages! Puis
@@ -1021,11 +1021,11 @@ strings:
   - |-
     [\x0207]Gargomon[\x0207]Ka boom !
     L'Armurerie.[pause]
-  - "[\\x0207]BK WarGreymon[\\x0207]Je suis BK \nWarGreymon ![pause][\\x0203]Bienvenue,\nintrépide dresseur !\nBats[-4]toi ![pause]"
+  - "[\\x0207]BK WarGreymon[\\x0207]Je suis BK \nWarGreymon ![pause][\\x0203]Bienvenue,\nintrépide dresseur !\nBats-toi ![pause]"
   - "[\\x0207]Réception arène[\\x0207]Génial, on a\nretrouvé notre \nforme normale ![pause][\\x0203]Merci ! Tout\nça, c'est \ngrâce à toi ![pause]"
   - |-
     [\x0207]Garde DO[\x0207]Que nous voulait
-    l'AoA ?[pause][\x0203]Que voulaient[-4]ils ?
+    l'AoA ?[pause][\x0203]Que voulaient-ils ?
     J'ai vraiment
     eu peur.[pause]
   - |-
@@ -1038,7 +1038,7 @@ strings:
   - '43'
   - '43'
   - '43'
-  - "[\\x0207]Teddy[\\x0207]Pourquoi a[-4]t[-4]on \nréconquis la ville \nsi facilement ?[pause][\\x0203]L'arbre\ncache la\nforêt.[pause]"
+  - "[\\x0207]Teddy[\\x0207]Pourquoi a-t-on \nréconquis la ville \nsi facilement ?[pause][\\x0203]L'arbre\ncache la\nforêt.[pause]"
   - |-
     [\x0207]Nick[\x0207]...L'AoA !
     Dehors ![pause][\x0203]Attention
@@ -1046,7 +1046,7 @@ strings:
   - "[\\x0207]Lisa[\\x0207]Ravie que tout se \npasse bien. \nPour l'instant...[pause][\\x0203]Il reste le Centre\nadministratif. Bonne\nchance [\\x020801][\\x020501] ![pause]"
   - |-
     [\x0207]Attaquant[\x0207]Je crois qu'on
-    a sous[-4]estimé
+    a sous-estimé
     la Résistance ![pause][\x0203]Mais ça ne
     changera
     rien.[pause]
@@ -1077,7 +1077,7 @@ strings:
     choix, je dois
     gagner ![pause]
   - "[\\x0207]Soldat[\\x0207]Tu es fou\nde nous\ndéfier ![pause][\\x0203]Tu vas\nregretter \nd'être venu ici.[pause]"
-  - "[\\x0207]Soldat[\\x0207]Que fait \nun dresseur ?[pause][\\x0203]Mêle[-4]toi\nde tes\naffaires ![pause]"
+  - "[\\x0207]Soldat[\\x0207]Que fait \nun dresseur ?[pause][\\x0203]Mêle-toi\nde tes\naffaires ![pause]"
   - |-
     [\x0207]Attaquant[\x0207]Je vais te
     battre ![pause][\x0203]Et ensuite, ils
@@ -1092,15 +1092,15 @@ strings:
     t'écraser ![pause][\x0203]Tu vas
     voir ![pause]
   - |-
-    [\x0207]Soldat[\x0207]Rends[-4]toi
-    et tu auras peut[-4]
+    [\x0207]Soldat[\x0207]Rends-toi
+    et tu auras peut-
     être la vie sauve ![pause]
   - |-
     [\x0207]Soldat[\x0207]Inutile de
     résister ![pause][\x0203]Destromon est
     imbattable ![pause]
   - |-
-    [\x0207]Attaquant[\x0207]Rends[-4]toi !
+    [\x0207]Attaquant[\x0207]Rends-toi !
     Tu n'as plus
     aucune chance ![pause]
   - |-
@@ -1128,7 +1128,7 @@ strings:
     [\x0207]Attaquant[\x0207]Tu as intérêt
     à te préparer,
     petit ![pause]
-  - "[\\x0207]Soldat[\\x0207]Si tu as le Passe[-4]\nPartout, c'est que \ntu es des nôtres ![pause][\\x0203]Viens donc te reposer\ndans cette ville ![pause]"
+  - "[\\x0207]Soldat[\\x0207]Si tu as le Passe-\nPartout, c'est que \ntu es des nôtres ![pause][\\x0203]Viens donc te reposer\ndans cette ville ![pause]"
   - "[\\x0207]Soldat[\\x0207]Si on les change \ntous en Oinkmons, \nce sera facile ![pause][\\x0203]L'AoA, c'est\nclasse ![pause]"
   - |-
     [\x0207]Soldat[\x0207]Où est notre
@@ -1177,7 +1177,7 @@ strings:
     parti, hein ?[pause][\x0203]Donc, le vrai
     chef ne va pas
     tarder à revenir ![pause]
-  - "[\\x0207]Veemon[\\x0207]Le chef n'est pas \nrevenu.[pause][\\x0203]Tu es le seul à pouvoir\nnous sauver.\nAide[-4]nous ![pause]"
+  - "[\\x0207]Veemon[\\x0207]Le chef n'est pas \nrevenu.[pause][\\x0203]Tu es le seul à pouvoir\nnous sauver.\nAide-nous ![pause]"
   - '43'
   - "[\\x0207]Soldat[\\x0207]Accès réservé au\npersonnel \nautorisé ![pause][\\x0203]L'accès est même\ninterdit aux chefs\nd'autres villes ![pause]"
   - |-
@@ -1209,7 +1209,7 @@ strings:
     cette zone.[pause][\x0203]Si la Résistance
     arrive, on les
     capturera ![pause]
-  - "[\\x0207]Militaire[\\x0207]Je n'ai pas vu \nnotre chef depuis \nun bon moment...[pause][\\x0203]Que s'est[-4]il\npassé ? Il est\npeut[-4]être occupé.[pause]"
+  - "[\\x0207]Militaire[\\x0207]Je n'ai pas vu \nnotre chef depuis \nun bon moment...[pause][\\x0203]Que s'est-il\npassé ? Il est\npeut-être occupé.[pause]"
   - "[\\x0207]Militaire[\\x0207]Moi aussi je \nvoulais éliminer \nla Résistance ![pause][\\x0203]Mais j'ai dû rester\nà mon poste ![pause]"
   - |-
     [\x0207]Militaire[\x0207]Apparemment, le chef
@@ -1259,8 +1259,8 @@ strings:
     C'est bizarre...[pause][\x0203]On n'aurait pas
     supprimé le Prog. de
     brouillage de Kurt ?[pause]
-  - "[\\x0207]Lisa[\\x0207]Si on retransforme \nKurt, on pourra \nréparer le programme...[pause][\\x0203]Keith cherche un\nmoyen de retransfor[-4]\nmer les Oinkmons.[pause]"
-  - "[\\x0207]Nick[\\x0207]On n'a pas accès\nau Monde Réel.\nC'est curieux.[pause][\\x0203]Et la Chambre Matrix\nne bouge pas. \nQue se passe[-4]t[-4]il ?[pause]"
+  - "[\\x0207]Lisa[\\x0207]Si on retransforme \nKurt, on pourra \nréparer le programme...[pause][\\x0203]Keith cherche un\nmoyen de retransfor-\nmer les Oinkmons.[pause]"
+  - "[\\x0207]Nick[\\x0207]On n'a pas accès\nau Monde Réel.\nC'est curieux.[pause][\\x0203]Et la Chambre Matrix\nne bouge pas. \nQue se passe-t-il ?[pause]"
   - "[\\x0207]Nick[\\x0207]On ignore toujours\ncomment retransformer \nun Oinkmon en humain.[pause][\\x0203]Keith fait des tests\nà Qing Long City...[pause]"
   - |-
     [\x0207]Misa la Digiphobe[\x0207]Oooink, oink !
@@ -1272,7 +1272,7 @@ strings:
     j'ai conçu...[pause][\x0203]Et il doit être dans le
     syst. d'administration
     du réseau optique.[pause][\x0203]... Le plan du
-    l'AoA n'a peut[-4]être
+    l'AoA n'a peut-être
     pas encore échoué.[pause]
   - "[\\x0207][\\x020902]3Un bouton ! \nAppuyons \ndessus.[pause]"
   - |-
@@ -1295,7 +1295,7 @@ strings:
     programme...[pause][\x0203]On va bientôt rentrer
     dans le Monde Réel ![pause]
   - |-
-    [\x0207]Teddy[\x0207]La Digi[-4]onde qui
+    [\x0207]Teddy[\x0207]La Digi-onde qui
     transforme tout le
     monde en Oinkmons...[pause][\x0203]Comment ça
     marche ? Si je
@@ -1306,6 +1306,6 @@ strings:
   - |-
     [\x0207]Divermon[\x0207]Humm ? Tu n'as
     pas de
-    Porte[-4]cartes ?[pause][\x0203]Alors je ne peux
+    Porte-cartes ?[pause][\x0203]Alors je ne peux
     rien pour toi !
-    Va[-4]t[-4]en ![pause]
+    Va-t-en ![pause]

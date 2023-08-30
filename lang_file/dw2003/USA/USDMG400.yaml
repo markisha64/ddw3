@@ -74,7 +74,7 @@ files:
       - ''
       - "[\\x0207][\\x020902]3Huh? That's \nweird. There's \nno one here.[pause]"
       - '[\x0207]Voice[\x0207]...Woooo![pause]'
-      - '[\x0207][\x020902]3Wha[-4]what?![pause]'
+      - '[\x0207][\x020902]3Wha-what?![pause]'
       - '[\x0207]Voice[\x0207]...Wooo![pause]'
       - |-
         [\x0207][\x020902]3What's that?!
@@ -126,7 +126,7 @@ files:
       - |-
         [\x0207][\x020902]3Yup... no
         one here...[pause]
-      - '[\x0207]Voice[\x0207]Woo[-4]ooo[-4]oo[pause]'
+      - '[\x0207]Voice[\x0207]Woo-ooo-oo[pause]'
       - "[\\x0207][\\x020902]3Aah! A \nmonster![pause]"
   - strings:
       - ''
@@ -144,7 +144,7 @@ files:
         [\x0207]Sepikmon[\x0207]......
         ......[pause]
       - "[\\x0207][\\x020902]3What's wrong? \nPut it on and \ncome on out.[pause]"
-      - "[\\x0207]Sepikmon[\\x0207]Uh[-4]uhm...can \nyou look the \nother way?[pause]"
+      - "[\\x0207]Sepikmon[\\x0207]Uh-uhm...can \nyou look the \nother way?[pause]"
       - |-
         [\x0207][\x020902]3Oh... ah...
         all right.[pause]
@@ -168,11 +168,11 @@ files:
       - "[\\x0207][\\x020902]3Hey Zanbamon!\nI'm going to go \nthru this time![pause]"
       - "[\\x0207]Zanbamon[\\x0207]Ha, ha, ha, ha!\nYou just don't\ngive up, do you?[pause][\\x0203]No matter how \nhard you try, you \njust can't win![pause]"
       - "[\\x0207][\\x020902]3We'll see about \nthat. Look at\nwhat I've got![pause]"
-      - "[\\x0207]Zanbamon[\\x0207]Uhhh! Is[-4]is \nthat a Smelly \nHerb!?[pause]"
+      - "[\\x0207]Zanbamon[\\x0207]Uhhh! Is-is \nthat a Smelly \nHerb!?[pause]"
       - |-
         [\x0207][\x020902]3Oh yeah!
         Now I can go![pause]
-      - "[\\x0207]Zanbamon[\\x0207]I[-4]I can't take it!\nAll right, I'll back\ndown this time![pause][\\x0203]...But I won't \nforget this kid![pause]"
+      - "[\\x0207]Zanbamon[\\x0207]I-I can't take it!\nAll right, I'll back\ndown this time![pause][\\x0203]...But I won't \nforget this kid![pause]"
   - strings:
       - ''
       - |-
@@ -321,14 +321,14 @@ files:
       - |-
         [\x0207][\x020902]3....
         Hey that's...![pause]
-      - "[\\x0207][\\x020902]3Awesome! I got the \nDigi[-4]Egg of Sincerity![pause]"
+      - "[\\x0207][\\x020902]3Awesome! I got the \nDigi-Egg of Sincerity![pause]"
       - "[\\x0207][\\x020902]3Now I can call\nSubmarimon and \ncross the ocean![pause]"
   - strings:
       - ''
       - |-
         [\x0207]Qing Long Chief[\x0207]Comrade! Let me
         welcome you![pause]
-      - "[\\x0207][\\x020902]3Qing Long Chief, \nwhere is the Digi[-4]\nEgg of Knowledge?[pause]"
+      - "[\\x0207][\\x020902]3Qing Long Chief, \nwhere is the Digi-\nEgg of Knowledge?[pause]"
       - |-
         [\x0207]Qing Long Chief[\x0207]I don't know that either,
         but why are you asking?[pause][\x0203]You are not one of us![pause]
@@ -344,14 +344,14 @@ files:
         [\x0207][\x020902]3Huh?!
         There's something
         on the ground...[pause]
-      - "[\\x0207][\\x020902]3But no sign of\nthe Digi[-4]Egg of \nKnowledge...[pause][\\x0203]I wonder what's \nhappening in the \nReal World...[pause]"
+      - "[\\x0207][\\x020902]3But no sign of\nthe Digi-Egg of \nKnowledge...[pause][\\x0203]I wonder what's \nhappening in the \nReal World...[pause]"
       - "[\\x0207][\\x020902]3...Huh? \nWhat is this?\nBlue ID Pass?[pause][\\x0203]It might come in \nhandy, so I'll \ntake it with me![pause]"
   - strings:
       - ''
       - "[\\x0207][\\x020902]3I don't know what\nthe A.o.A is\nplanning but...[pause][\\x0203]I'm not going to let \nthe A.o.A have their \nway![pause]"
   - strings:
       - ''
-      - "[\\x0207]Trooper[\\x0207]...is that the Blue \nID Pass?![pause][\\x0203]I[-4]I'm sorry. I \ndidn't know you were \nQing Long Chief![pause]"
+      - "[\\x0207]Trooper[\\x0207]...is that the Blue \nID Pass?![pause][\\x0203]I-I'm sorry. I \ndidn't know you were \nQing Long Chief![pause]"
       - "[\\x0207][\\x020902]3...what?!\nUh, ah, yeah![pause][\\x0203]That uniform is too\nobvious. I'm in disguise \nand on patrol![pause][\\x0203]Let's keep this a secret \nbetween the two of us, \nOK?[pause]"
       - "[\\x0207]Trooper [\\x0207]You're great, \nChief! You're a \nhard worker![pause]"
       - |-

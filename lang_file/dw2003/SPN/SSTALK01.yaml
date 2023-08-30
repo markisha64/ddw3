@@ -331,7 +331,7 @@ strings:
     sentirte
     orgulloso.[pause]
   - "[\\x0207]Patamon[\\x0207]¿No es el Líder\nmono?[pause][\\x0203]¡Entré en el club \nde fans![pause]"
-  - "[\\x0207]Líder Suzaku[\\x0207]¿Qué, una vía dentro \ndel Centro de Admon.?[pause][\\x0203]Pides  algo\nimposible [-4] no hay\nmanera.[pause]"
+  - "[\\x0207]Líder Suzaku[\\x0207]¿Qué, una vía dentro \ndel Centro de Admon.?[pause][\\x0203]Pides  algo\nimposible - no hay\nmanera.[pause]"
   - "[\\x0207]Renamon[\\x0207]¿Qué? \n¿Quieres ir\nmás allá?[pause][\\x0203]Bien,\npero\ncuidado.[pause]"
   - "[\\x0207]Patamon[\\x0207]¿No es el Líder\nmono?[pause][\\x0203]¡Entré en el club \nde fans![pause]"
   - "[\\x0207]Líder Suzaku.[\\x0207]¿El Ratón Suerte \nen el Servidor?[pause][\\x0203]¡Sólo quiero\nver cómo\nes![pause]"
@@ -648,7 +648,7 @@ strings:
     Digihuevo de Sabiduría
     para venir..[pause][\x0203]Eres excepcional
     para tu edad.[pause]
-  - "[\\x0207]Abuelo Tor.[\\x0207]Si fuera joven, \nles haría el\nviejo uno[-4]dos.[pause][\\x0203]¡Te envidio,\nchico![pause]"
+  - "[\\x0207]Abuelo Tor.[\\x0207]Si fuera joven, \nles haría el\nviejo uno-dos.[pause][\\x0203]¡Te envidio,\nchico![pause]"
   - "[\\x0207]Abuelo Tor.[\\x0207]¡Si vas a \nluchar, hazte\nfuerte![pause][\\x0203]Es lo que puedo\ndecir.[pause]"
   - |-
     [\x0207]Abuelo Tor.[\x0207]En realidad soy

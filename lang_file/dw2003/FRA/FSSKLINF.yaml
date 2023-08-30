@@ -90,7 +90,7 @@ strings:
   - Envoie 1 vague pr assommer l'adv
   - Envoie 1 énorme boule d'énergie.
   - Tire une boule énorme.
-  - Contre[-4]attaque rayon de bouclier.
+  - Contre-attaque rayon de bouclier.
   - Atq magique contre les goules.
   - Tire 7 boules sur Digimon maléf.
   - Atq magique, souffle de Glace.
@@ -121,8 +121,8 @@ strings:
   - Paralyse l'ennemi.
   - Dégât Confusion.
   - Gros dégât Confusion.
-  - Contre[-4]attaque en position.
-  - Forte ctre[-4]attaque en position
+  - Contre-attaque en position.
+  - Forte ctre-attaque en position
   - Dégâts dus à des coups rapides.
   - Gros Dégâts dus à des coups rap.
   - Gros dégâts si ça touche.
@@ -147,7 +147,7 @@ strings:
   - Colonnes de Feu en continu.
   - Dégât d'Eau dû à pluie magique.
   - a
-  - Raz[-4]de[-4]marée magique contre l'adv
+  - Raz-de-marée magique contre l'adv
   - a
   - Tire stalact. avc dégât Glace.
   - Tire de nombreuses stalactites.
@@ -213,10 +213,10 @@ strings:
   - Economiser Chi, coup maxi.
   - a
   - a
-  - Feu +, Glace [-4].
-  - Eau +, Feu [-4].
-  - Glace +, Vent [-4].
-  - Vent +, Eau [-4].
-  - Tonn. +, Métal [-4].
-  - Métal +, Tén.[-4].
-  - Tén. +, Tonn. [-4].
+  - Feu +, Glace -.
+  - Eau +, Feu -.
+  - Glace +, Vent -.
+  - Vent +, Eau -.
+  - Tonn. +, Métal -.
+  - Métal +, Tén.-.
+  - Tén. +, Tonn. -.

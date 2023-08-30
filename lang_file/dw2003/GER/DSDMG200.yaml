@@ -5,19 +5,19 @@ files:
       - |-
         [\x0207][\x020902]3Wow, so sieht
         also die Welt von
-        Digimon[-4]Online aus?[pause]
+        Digimon-Online aus?[pause]
       - |-
         [\x0207]Mitarbeiter[\x0207][\x020801][\x020501],
         willkommen beim
-        Asuka[-4]Server![pause][\x0203]Hol bitte deine
-        Digimon[-4]Daten in
+        Asuka-Server![pause][\x0203]Hol bitte deine
+        Digimon-Daten in
         der Lobby ab.[pause]
       - |-
         [\x0207][\x020902]3Hä? Digimon?[pause][\x0203]Ach, verstehe.
         Ich geh schon![pause]
   - strings:
       - ''
-      - Digimon[-4]On.
+      - Digimon-On.
       - Ziel
       - Stadtfüh.
       - Feldführer
@@ -26,50 +26,50 @@ files:
       - Statusbildsch.
       - Zurück
       - |-
-        Digimon[-4]Online wird auf 5 Servern[pause][\x0203]gespielt: Amaterasu, Izumo, Asuka,
+        Digimon-Online wird auf 5 Servern[pause][\x0203]gespielt: Amaterasu, Izumo, Asuka,
         Yamato und Ikaruga.[pause][\x0203]Auf jedem Server ist eine gleichnamige
         Stadt (Asuka City), und alle Server
         sind auf gleiche Weise organisiert.[pause][\x0203]Andere Server sind f. Spieler tabu,[pause][\x0203]doch Server Champs können m. andern
-        um den World Champ[-4]Titel kämpfen.[pause]
-      - "Ziel von Digimon[-4]Online ist, von\nüber 200.000 Spielern der beste\nund damit World Champ zu werden.[pause][\\x0203]Nur Server Champs, Gewinner der\nServer[-4]Turniere, können am World\nChamp[-4]Turnier teilnehmen.[pause][\\x0203]Du musst die Leader der 4 Städte \nbesiegen, um am Server[-4]Turnier\nteilzunehmen. Viel Glück![pause]"
+        um den World Champ-Titel kämpfen.[pause]
+      - "Ziel von Digimon-Online ist, von\nüber 200.000 Spielern der beste\nund damit World Champ zu werden.[pause][\\x0203]Nur Server Champs, Gewinner der\nServer-Turniere, können am World\nChamp-Turnier teilnehmen.[pause][\\x0203]Du musst die Leader der 4 Städte \nbesiegen, um am Server-Turnier\nteilzunehmen. Viel Glück![pause]"
       - |-
         Auf d. Server gibt es auβer Asuka
         City andere Städte. Halte in der
-        nächsten Stadt deiner Reise an.[pause][\x0203]Dort findest du Item[-4]Shops u. Inns
+        nächsten Stadt deiner Reise an.[pause][\x0203]Dort findest du Item-Shops u. Inns
         zur Erholung d. Digimon. Daten w.
         v. Guardromon i. d. Inns gespeic.[pause][\x0203]Es gibt in jeder Stadt Sehensw.
-        Asuka City hat das einz. Digimon[-4]
+        Asuka City hat das einz. Digimon-
         Lab., das alle Dompteure besuchen.[pause]
       - |-
         Auβerhalb der Stadt kämpfst du
         gegen wilde Digimon. Sei vor der
         Abreise gut vorbereitet.[pause][\x0203]Inns gibt es auch fern der Stadt.
-        Wird dein Partner[-4]Digimon im
-        Kampf verletzt, lass es ausruhen.[pause][\x0203]Gegenden mit starken Gegnern soll[-4]
+        Wird dein Partner-Digimon im
+        Kampf verletzt, lass es ausruhen.[pause][\x0203]Gegenden mit starken Gegnern soll-
         test du erst aufsuchen, wenn du
-        dein Partner[-4]Digimon trainiert hast.[pause]
+        dein Partner-Digimon trainiert hast.[pause]
       - |-
-        Du reist mit 3 Partner[-4]Digimon, von
+        Du reist mit 3 Partner-Digimon, von
         denen jeweils nur eins kämpfen kann.
         Du kannst sie im Kampf austauschen.[pause][\x0203]Im Kampf steuern Tamer ihre Digimon
         mit Befehlen. Wähle einen geeigneten
         Befehl für die Situation aus.[pause][\x0203]Du hast auch spez. Techniken, die
         MP und sogar Items verwenden. Mehr
-        Infos gibt es im Digimon[-4]Labor.[pause]
-      - "Partner[-4]Digimon sammeln im Kampf\nEXP (Erfahrung). Ihr Level ent[-4]\nspricht der gewonnenen EXP.[pause][\\x0203]Je höh. der Level, desto stärk.\ndas Digi. u. seine Gegner. Je \nstärk. d. Gegner, desto mehr EXP.[pause][\\x0203]Die Digimon[-4]Fähigkeiten können mit\nTraining verbessert werden. Mehr\nInfo zum Training im Digimon[-4]Labor.[pause]"
-      - "Unterwegs kannst du mit der START[-4]\nTaste den Statusbildschirm von \ndeinem Satelliten öffnen.[pause][\\x0203]Im Statusbildschirm kannst du dein\nPartner[-4]Digimon sehen, Items ver[-4]\nwenden u. auf der Karte nachsehen.[pause]"
+        Infos gibt es im Digimon-Labor.[pause]
+      - "Partner-Digimon sammeln im Kampf\nEXP (Erfahrung). Ihr Level ent-\nspricht der gewonnenen EXP.[pause][\\x0203]Je höh. der Level, desto stärk.\ndas Digi. u. seine Gegner. Je \nstärk. d. Gegner, desto mehr EXP.[pause][\\x0203]Die Digimon-Fähigkeiten können mit\nTraining verbessert werden. Mehr\nInfo zum Training im Digimon-Labor.[pause]"
+      - "Unterwegs kannst du mit der START-\nTaste den Statusbildschirm von \ndeinem Satelliten öffnen.[pause][\\x0203]Im Statusbildschirm kannst du dein\nPartner-Digimon sehen, Items ver-\nwenden u. auf der Karte nachsehen.[pause]"
   - strings:
       - ''
-      - Partner[-4]Digimon jetzt herunterladen?
+      - Partner-Digimon jetzt herunterladen?
       - Ja, bitte!
       - Noch nicht.
   - strings:
       - ''
       - |-
-        [\x0207]Tamer[-4]Service[\x0207]Ich lade jetzt die
-        Digimon[-4]Daten von
+        [\x0207]Tamer-Service[\x0207]Ich lade jetzt die
+        Digimon-Daten von
         deinem Satelliten.[pause][\x0203]Bitte warte an der
-        Online[-4]Markierung
+        Online-Markierung
         auf dem Boden.[pause]
       - |-
         [\x0207][\x020902]3Wow! Ich kann es
@@ -135,10 +135,10 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Tamer[-4]Service[\x0207]Ich lade jetzt die
-        Digimon[-4]Daten von
+        [\x0207]Tamer-Service[\x0207]Ich lade jetzt die
+        Digimon-Daten von
         deinem Satelliten.[pause][\x0203]Bitte warte an der
-        Online[-4]Markierung
+        Online-Markierung
         auf dem Boden.[pause]
       - |-
         [\x0207][\x020902]3Wow! Ich kann es
@@ -205,10 +205,10 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Tamer[-4]Service[\x0207]Ich lade jetzt die
-        Digimon[-4]Daten von
+        [\x0207]Tamer-Service[\x0207]Ich lade jetzt die
+        Digimon-Daten von
         deinem Satelliten.[pause][\x0203]Bitte warte an der
-        Online[-4]Markierung
+        Online-Markierung
         auf dem Boden.[pause]
       - |-
         [\x0207][\x020902]3Wow! Ich kann es
@@ -272,11 +272,11 @@ files:
       - '[\x0207]Teddy[\x0207]Bis später.[pause]'
   - strings:
       - ''
-      - '[\x0207]Tamer[-4]Service[\x0207]Ich verstehe.[pause]'
+      - '[\x0207]Tamer-Service[\x0207]Ich verstehe.[pause]'
   - strings:
       - ''
       - |-
-        [\x0207]Tamer[-4]Service[\x0207]Ich verstehe.[pause][\x0203]Wenn du deine Digimon
+        [\x0207]Tamer-Service[\x0207]Ich verstehe.[pause][\x0203]Wenn du deine Digimon
         losschicken möchtest,
         komm zu mir.[pause]
       - |-
@@ -287,19 +287,19 @@ files:
       - ''
       - |-
         [\x0207][\x020902]3Klar! Ich brauche
-        meine Partner[-4]
-        Digimon[-4]Daten.[pause]
+        meine Partner-
+        Digimon-Daten.[pause]
   - strings:
       - ''
       - |-
         [\x0207][\x020902]3Klar! Ich brauche
-        meine Partner[-4]
-        Digimon[-4]Daten.[pause]
+        meine Partner-
+        Digimon-Daten.[pause]
   - strings:
       - ''
       - |-
-        [\x0207]DO[-4]Wache[\x0207]He du! Ab hier
-        haben nur Mitar[-4]
+        [\x0207]DO-Wache[\x0207]He du! Ab hier
+        haben nur Mitar-
         beiter Zutritt![pause]
   - strings:
       - ''
@@ -315,7 +315,7 @@ files:
       - |-
         [\x0207]Tamer Genji[\x0207]Dann kämpfe ich
         jetzt mit dir.[pause][\x0203]Macht nichts,
-        wenn du die Re[-4]
+        wenn du die Re-
         geln nicht kennst![pause][\x0203]Wichtig ist dabei,
         Erfahrung zu
         sammeln![pause]
@@ -324,7 +324,7 @@ files:
       - '[\x0207][\x020902]3Gewonnen![pause]'
       - |-
         [\x0207]Tamer Genji[\x0207]Für einen Anfänger
-        bist du ganz gut.[pause][\x0203]Du hast das Poten[-4]
+        bist du ganz gut.[pause][\x0203]Du hast das Poten-
         zial, einmal World
         Champ zu werden![pause]
       - |-
@@ -335,75 +335,75 @@ files:
         musst du noch viel
         über Digimon lernen.[pause][\x0203]Vor dem Verlassen der
         Stadt solltest du ins
-        Digimon[-4]Labor gehen.[pause]
+        Digimon-Labor gehen.[pause]
       - |-
-        [\x0207][\x020902]3Digimon[-4]Labor.
+        [\x0207][\x020902]3Digimon-Labor.
         Wird gemacht.
         Vielen Dank![pause]
       - |-
-        [\x0207]Tamer Genji[\x0207]Hast du über[-4]
+        [\x0207]Tamer Genji[\x0207]Hast du über-
         haupt eine
         Aktentasche?[pause]
       - |-
         [\x0207][\x020902]3Was ist
         denn das?[pause]
-      - "[\\x0207]Tamer Genji[\\x0207]Aha, dann gehst\ndu am besten zum \nGelben Kreuzer.[pause][\\x0203]Dort lernst du alles \nWichtige über den\nKampf mit Karten.[pause][\\x0203]Geh jetzt. Ich ver[-4]\nlass mich auf dich,\nKleiner. Ha ha ha![pause]"
+      - "[\\x0207]Tamer Genji[\\x0207]Aha, dann gehst\ndu am besten zum \nGelben Kreuzer.[pause][\\x0203]Dort lernst du alles \nWichtige über den\nKampf mit Karten.[pause][\\x0203]Geh jetzt. Ich ver-\nlass mich auf dich,\nKleiner. Ha ha ha![pause]"
   - strings:
       - ''
-      - "[\\x0207]Digimon[-4]Navig.[\\x0207]Hier findest du Hinweise\nzum Digimon[-4]Kampf und \nzum Züchten v. Digimon.[pause][\\x0203]Die Daten werden auf \ndem Satelliten angezeigt.[pause]"
+      - "[\\x0207]Digimon-Navig.[\\x0207]Hier findest du Hinweise\nzum Digimon-Kampf und \nzum Züchten v. Digimon.[pause][\\x0203]Die Daten werden auf \ndem Satelliten angezeigt.[pause]"
       - |-
         "Angriffsarten"
-        Setze physische, magische o. unter[-4]
+        Setze physische, magische o. unter-
         stützende Techniken n. Bedarf ein.[pause][\x0203]"Angriffsattribute"
-        Greife Gegner mit gegnerischen Attri[-4]
+        Greife Gegner mit gegnerischen Attri-
         buten an u. nutze verbündete Attrib.[pause]
       - "\"Technische Effekte\"\nDie Wirkung von Gift, Lähmung usw.\nist je nach Digimon unterschiedlich.[pause][\\x0203]\"Statusleiden\"\nStatusleiden auβer \"Fluch\" von \nCardmon verschwinden n. dem Kampf.[pause]"
       - |-
-        "DNA[-4]Digitation"
+        "DNA-Digitation"
         Macht aus zwei Digimon einen. Nach
-        DNA[-4]Digitation tauschen beide.[pause][\x0203]"EXP[-4]Verteilung"
+        DNA-Digitation tauschen beide.[pause][\x0203]"EXP-Verteilung"
         Alle Digimon, die gekämpft haben,
         erhalten EXP.[pause]
       - |-
         "Training"
-        Digimon können mit TP (Trainings[-4]
+        Digimon können mit TP (Trainings-
         punkte) in Hallen trainiert werden.[pause][\x0203]"Digitationsfähigkeiten"
         Die Digitationsfähigkeiten nehmen
         mit der EXP zu.[pause]
       - a
       - |-
-        [\x0207]Digimon[-4]Navig.[\x0207]Das war schon
+        [\x0207]Digimon-Navig.[\x0207]Das war schon
         alles. Viel Glück![pause]
   - strings:
       - ''
       - |-
-        [\x0207]Digimon[-4]Navig.[\x0207]Wir sollten sichergehen,
+        [\x0207]Digimon-Navig.[\x0207]Wir sollten sichergehen,
         dass du nun alles über
         Kampf u. Train. weiβt.[pause][\x0203]Daten werden auf dem
         Satelliten angezeigt.[pause]
-      - "Es gibt zwei Angriffsarten:\nphysisch und magisch.[pause][\\x0203]Stärke und Verteidigung gehören zu\nphysischen Angriffen, Geist und\nWeisheit zu magischen Angriffen.[pause][\\x0203]\"Angriffsattribute\"\nGreife Gegner mit einem gegnerischen\nAttribut an, um Vorteile zu erlangen.[pause][\\x0203]Gegner nutzen auch Attributangriffe. \nSetze daher ein Partner[-4]Digimon ein, \ndas gegen das Attribut stark ist.[pause][\\x0203]\"Technische Effekte\"\nEs gibt Techniken mit Spezial[-4]\neffekten, wie Schaden.[pause][\\x0203]Die Effektivität hängt vom Status des\nGegners ab. Ist sie wirkungslos, pro[-4]\nbiere sie bei e. anderen Gegner aus.[pause][\\x0203]\"Digitation im Kampf\"\nDigitiere zur Anpassung an d. Gegner.\nAuβerdem gibt es \"Stoβ[-4]Digitieren\".[pause][\\x0203]Richten Digimon Schaden an, steigt\nder Stoβmesser. Ist er voll, digitiert \ndas Digimon bis z. Ablauf der Zeit.[pause][\\x0203]\"DNA[-4]Digitation\"\nAus 2 Digimon wird einer. Nach der\nDNA[-4]Digitation tauschen sie Plätze.[pause][\\x0203]Die Möglichk. für DNA[-4]Digitation \nsind vorgegeben. Probiere mehrere\nKombinationen aus.[pause][\\x0203]\"Statusleiden\"\nDurch Spezialeffekte eines Angriffs\nkann ein Digimon \"vergiftet\" werden.[pause][\\x0203]Statusleiden hören auf, wenn du den\nKampf gewinnst. Ein \"Fluch\" von Card[-4]\nmon kann aber nur im Inn geheilt werden.[pause][\\x0203]\"EXP[-4]Verteilung\"\nAlle Digimon, die gekämpft haben, \nerhalten die gleiche Menge EXP.[pause][\\x0203]Fähigkeiten werden gleichmäβig\nunter den digitierten Digimon verteilt.[pause][\\x0203]\"Training\"\nDigimon können mit TP (Trainings[-4]\npunkte) in einer Halle trainiert werden.[pause][\\x0203]TP nehmen bei jedem Level um 5 zu.\nDie Trainingsparameter wirken sich\nauf Kämpfe und Digitation aus.[pause][\\x0203]\"Digitation\"\nPartner[-4]Digimon können das Digitieren\nbei höheren Leveln u. Parametern lernen.[pause][\\x0203]Zum Digitieren im Kampf ist eine bestimmte\nFähigkeit nötig. Digivolve Navi kann dir \nmehr darüber sagen.[pause][\\x0203]\"Techniken\"\nErhöhe den Schwierigkeitsgrad, um andere\nTechnikgen und Digitationstypen zu erlernen.[pause][\\x0203]Du kannst verschiedene Digitationspfade\nim Digimon[-4]Labor laden, aber keine\nendgültigen Techniken.[pause]"
+      - "Es gibt zwei Angriffsarten:\nphysisch und magisch.[pause][\\x0203]Stärke und Verteidigung gehören zu\nphysischen Angriffen, Geist und\nWeisheit zu magischen Angriffen.[pause][\\x0203]\"Angriffsattribute\"\nGreife Gegner mit einem gegnerischen\nAttribut an, um Vorteile zu erlangen.[pause][\\x0203]Gegner nutzen auch Attributangriffe. \nSetze daher ein Partner-Digimon ein, \ndas gegen das Attribut stark ist.[pause][\\x0203]\"Technische Effekte\"\nEs gibt Techniken mit Spezial-\neffekten, wie Schaden.[pause][\\x0203]Die Effektivität hängt vom Status des\nGegners ab. Ist sie wirkungslos, pro-\nbiere sie bei e. anderen Gegner aus.[pause][\\x0203]\"Digitation im Kampf\"\nDigitiere zur Anpassung an d. Gegner.\nAuβerdem gibt es \"Stoβ-Digitieren\".[pause][\\x0203]Richten Digimon Schaden an, steigt\nder Stoβmesser. Ist er voll, digitiert \ndas Digimon bis z. Ablauf der Zeit.[pause][\\x0203]\"DNA-Digitation\"\nAus 2 Digimon wird einer. Nach der\nDNA-Digitation tauschen sie Plätze.[pause][\\x0203]Die Möglichk. für DNA-Digitation \nsind vorgegeben. Probiere mehrere\nKombinationen aus.[pause][\\x0203]\"Statusleiden\"\nDurch Spezialeffekte eines Angriffs\nkann ein Digimon \"vergiftet\" werden.[pause][\\x0203]Statusleiden hören auf, wenn du den\nKampf gewinnst. Ein \"Fluch\" von Card-\nmon kann aber nur im Inn geheilt werden.[pause][\\x0203]\"EXP-Verteilung\"\nAlle Digimon, die gekämpft haben, \nerhalten die gleiche Menge EXP.[pause][\\x0203]Fähigkeiten werden gleichmäβig\nunter den digitierten Digimon verteilt.[pause][\\x0203]\"Training\"\nDigimon können mit TP (Trainings-\npunkte) in einer Halle trainiert werden.[pause][\\x0203]TP nehmen bei jedem Level um 5 zu.\nDie Trainingsparameter wirken sich\nauf Kämpfe und Digitation aus.[pause][\\x0203]\"Digitation\"\nPartner-Digimon können das Digitieren\nbei höheren Leveln u. Parametern lernen.[pause][\\x0203]Zum Digitieren im Kampf ist eine bestimmte\nFähigkeit nötig. Digivolve Navi kann dir \nmehr darüber sagen.[pause][\\x0203]\"Techniken\"\nErhöhe den Schwierigkeitsgrad, um andere\nTechnikgen und Digitationstypen zu erlernen.[pause][\\x0203]Du kannst verschiedene Digitationspfade\nim Digimon-Labor laden, aber keine\nendgültigen Techniken.[pause]"
       - |-
-        [\x0207]Digimon[-4]Navig.[\x0207]Das war schon
+        [\x0207]Digimon-Navig.[\x0207]Das war schon
         alles. Viel Glück![pause]
   - strings:
       - ''
-      - "[\\x0207]Digitations[-4]Navi.[\\x0207]Ich gebe dir Tipps,\nwie du dein Digimon \nz. Digitieren züchtest.[pause][\\x0203]Daten werd. auf dem\nSatelliten angezeigt.[pause]"
-      - "\"Kotemon\"\nKann Agumon[-4]/Veemon[-4]Typen lernen,\nwenn du Maschinentoleranz trainierst.[pause][\\x0203]\"Monmon\"\nWenn es Ultimativ kann, trainiere \nStärke, Maschinen[-4] und Windtoleranz.[pause][\\x0203]\"Kuanmon\"\nTrainiere Weisheit und Geist, die am\nschwierigsten sind.[pause]"
+      - "[\\x0207]Digitations-Navi.[\\x0207]Ich gebe dir Tipps,\nwie du dein Digimon \nz. Digitieren züchtest.[pause][\\x0203]Daten werd. auf dem\nSatelliten angezeigt.[pause]"
+      - "\"Kotemon\"\nKann Agumon-/Veemon-Typen lernen,\nwenn du Maschinentoleranz trainierst.[pause][\\x0203]\"Monmon\"\nWenn es Ultimativ kann, trainiere \nStärke, Maschinen- und Windtoleranz.[pause][\\x0203]\"Kuanmon\"\nTrainiere Weisheit und Geist, die am\nschwierigsten sind.[pause]"
       - |-
         "Renamon"
         Trainiere Geist o. Stärke u. Abwehr.[pause][\x0203]"Patamon"
         Trainiere Weisheit oder Stärke.[pause]
-      - "\"Agumon\"\nWenn du Dunkelheittoleranz erhöhst,\nlernt es Dunkelheitsdigitation.[pause][\\x0203]\"Guilmon\"\nDa dies Teilparameter sind, soll[-4] \nten die Schwächen gestärkt werden.[pause]"
+      - "\"Agumon\"\nWenn du Dunkelheittoleranz erhöhst,\nlernt es Dunkelheitsdigitation.[pause][\\x0203]\"Guilmon\"\nDa dies Teilparameter sind, soll- \nten die Schwächen gestärkt werden.[pause]"
       - |-
-        [\x0207]Digitations[-4]Navi.[\x0207]Das war schon
+        [\x0207]Digitations-Navi.[\x0207]Das war schon
         alles. Viel Glück![pause]
   - strings:
       - ''
       - |-
-        [\x0207]Digimon[-4]Navig.[\x0207]Die Daten werden
-        auf deinem Satelli[-4]
+        [\x0207]Digimon-Navig.[\x0207]Die Daten werden
+        auf deinem Satelli-
         ten angezeigt.[pause]
-      - "\"Kotemon\"\nKann Agumon[-4]/Veemon[-4]Typen lernen,\nwenn du Maschinentoleranz trainierst.[pause][\\x0203]\"Monmon\"\nWenn es Ultimativ kann, trainiere \nStärke, Maschinen[-4] und Windtoleranz.[pause]"
+      - "\"Kotemon\"\nKann Agumon-/Veemon-Typen lernen,\nwenn du Maschinentoleranz trainierst.[pause][\\x0203]\"Monmon\"\nWenn es Ultimativ kann, trainiere \nStärke, Maschinen- und Windtoleranz.[pause]"
       - |-
         "Kumamon"
         Trainiere Weisheit und Geist, die
@@ -414,9 +414,9 @@ files:
         Trainiere Geist oder Stärke.[pause][\x0203]"Agumon"
         Wenn du Dunkelheittol. erhöhst,
         lernt es Dunkelheitsdigitation.[pause]
-      - "\"Guilmon\"\nDa dies Teilparameter sind, soll[-4] \nten die Schwächen gestärkt werden.[pause][\\x0203]\"Veemon\"\nMuss zunächst wenig lernen, aber\nwenn du einige Param. trainierst...[pause]"
+      - "\"Guilmon\"\nDa dies Teilparameter sind, soll- \nten die Schwächen gestärkt werden.[pause][\\x0203]\"Veemon\"\nMuss zunächst wenig lernen, aber\nwenn du einige Param. trainierst...[pause]"
       - |-
-        [\x0207]Digitations[-4]Navi.[\x0207]Das war schon
+        [\x0207]Digitations-Navi.[\x0207]Das war schon
         alles. Viel Glück![pause]
   - strings:
       - ''
@@ -430,9 +430,9 @@ files:
         Effekte sind autom. bei Ausrüstung
         oder werden im Angriff verwendet.[pause][\x0203]Waffeneffekte gelten nur, wenn es
         keine technischen Effekte gibt.[pause][\x0203]"Beidhändig und einhändig"
-        Beidhändige Waffen sind kraftvol[-4]
+        Beidhändige Waffen sind kraftvol-
         ler, lassen aber keine Rüstung zu.[pause][\x0203]Eine Ausrüstung mit zwei einhändigen
-        Waffen ist kraftvoller als eine beid[-4]
+        Waffen ist kraftvoller als eine beid-
         händige, aber auch teurer.[pause]
       - |-
         "Zubehörbeschränkung"
@@ -454,15 +454,15 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Tamer[-4]Service[\x0207]Suche nach Hin[-4]
+        [\x0207]Tamer-Service[\x0207]Suche nach Hin-
         weisen zu den
         Spielregeln.[pause][\x0203]Die Daten werden
-        auf deinem Satelli[-4]
+        auf deinem Satelli-
         ten angezeigt.[pause]
-      - "\"Reisevorbereitung\"\nWähle u. entscheide dich für Digi[-4]\nmon u. Digitat. im Digimon[-4]Labor.[pause][\\x0203]Rüste die Digimon mit Waffen u. \nRüstung aus, und stelle sie für\nden Kampf auf.[pause]"
+      - "\"Reisevorbereitung\"\nWähle u. entscheide dich für Digi-\nmon u. Digitat. im Digimon-Labor.[pause][\\x0203]Rüste die Digimon mit Waffen u. \nRüstung aus, und stelle sie für\nden Kampf auf.[pause]"
       - |-
         "Kampf mit Karten"
-        In Digimon[-4]Online kannst du
+        In Digimon-Online kannst du
         auch mit Karten kämpfen.[pause][\x0203]Weitere Informationen erhältst du
         beim gelben Kreuzer.[pause][\x0203]"Speichern"
         Für alle Fälle solltest du
@@ -471,12 +471,12 @@ files:
         Guardromon im Kampf speich. nicht![pause]
       - |-
         "Spielende"
-        Wenn alle Partner[-4]Digimon besiegt
+        Wenn alle Partner-Digimon besiegt
         sind, ist das Spiel zu Ende.[pause][\x0203]Vermeide sinnlose Kämpfe.[pause][\x0203]"Weitere Partner"
         Du kannst neben den 3 gewählten
-        Partner[-4]Digimon weitere hinzufügen.[pause][\x0203]Mehr kann ich dir nicht sagen.[pause]
+        Partner-Digimon weitere hinzufügen.[pause][\x0203]Mehr kann ich dir nicht sagen.[pause]
       - |-
-        [\x0207]Tamer[-4]Service[\x0207]Das war schon
+        [\x0207]Tamer-Service[\x0207]Das war schon
         alles. Viel Glück![pause]
   - strings:
       - ''
@@ -547,7 +547,7 @@ files:
         was ich weiβ.[pause]
       - "[\\x0207][\\x020902]3Du bist doch der, \nder die Maske von \nSepikmon hat, oder?[pause]"
       - |-
-        [\x0207]Etemon[\x0207]I[-4]Ich weiβ gar
+        [\x0207]Etemon[\x0207]I-Ich weiβ gar
         nicht, wovon
         du sprichst![pause]
       - |-
@@ -560,7 +560,7 @@ files:
         [\x0207]Faulpelz Fei[\x0207]Wann können
         wir zurück?[pause]
       - |-
-        [\x0207]Tamer[-4]Service[\x0207]Sorry, es gibt
+        [\x0207]Tamer-Service[\x0207]Sorry, es gibt
         immer noch
         keine Details.[pause]
       - |-
@@ -572,7 +572,7 @@ files:
       - |-
         [\x0207]Gamemaster[\x0207]Wir entschuldigen uns
         bei allen Spielern für
-        die Unannehmlichkeiten.[pause][\x0203]Die Wartung der Matrix[-4]
+        die Unannehmlichkeiten.[pause][\x0203]Die Wartung der Matrix-
         Kammer wird noch
         etwas länger dauern.[pause][\x0203]Wir bitten um Geduld,
         bis das System repariert
@@ -580,7 +580,7 @@ files:
       - "[\\x0207]Faulpelz Alan[\\x0207]Was? Mir \nreicht's![pause]"
       - "[\\x0207]Arbeiter Jeff[\\x0207]Ich schätze, wir\nkönnen nichts \ndaran ändern.[pause]"
       - "[\\x0207]Energische Yuki[\\x0207]Yeay! Dann \nkann ich noch\nlänger spielen![pause]"
-      - "[\\x0207]Kail[\\x0207]Wie blöd! Sie sind im[-4]\nmer noch nicht fertig.[pause][\\x0203]Wir können nicht in \ndie echte Welt zurück![pause]"
+      - "[\\x0207]Kail[\\x0207]Wie blöd! Sie sind im-\nmer noch nicht fertig.[pause][\\x0203]Wir können nicht in \ndie echte Welt zurück![pause]"
       - "[\\x0207][\\x020902]3Hmmm, ob wohl\nLucky Mouse daran \nschuld ist?[pause]"
       - "[\\x0207]Kail[\\x0207]Lucky Mouse!?[pause][\\x0203]...Hey, was\nmeinst du \ndamit?[pause]"
       - |-
@@ -590,7 +590,7 @@ files:
       - |-
         [\x0207]Kail[\x0207]... Sucht Teddy etwas
         Bestimmtes beim
-        Administration[-4]Center?[pause]
+        Administration-Center?[pause]
       - |-
         [\x0207]Kail[\x0207]...Hey [\x020801][\x020501].
         Lass uns nach Teddy
@@ -599,7 +599,7 @@ files:
       - "[\\x0207][\\x020902]3OK, dann lasst uns \nsofort zum Center\naufbrechen![pause]"
   - strings:
       - ''
-      - "[\\x0207]DO[-4]Wache[\\x0207]Entschuldigung, ab \nhier haben nur \nMitarbeiter Zutritt![pause]"
+      - "[\\x0207]DO-Wache[\\x0207]Entschuldigung, ab \nhier haben nur \nMitarbeiter Zutritt![pause]"
   - strings:
       - ''
       - |-
@@ -627,7 +627,7 @@ files:
         [\x0207][\x020902]3He! Sieh mal,
         was ich hier
         habe![pause]
-      - "[\\x0207]Kail[\\x0207]Perfekt. Damit\nwäre das Problem\nwohl gelöst.[pause][\\x0203]Wir ziehen die \nAgumon[-4]Anzüge an\nu. suchen Teddy![pause]"
+      - "[\\x0207]Kail[\\x0207]Perfekt. Damit\nwäre das Problem\nwohl gelöst.[pause][\\x0203]Wir ziehen die \nAgumon-Anzüge an\nu. suchen Teddy![pause]"
   - strings:
       - ''
       - |-
@@ -653,22 +653,22 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207][\x020902]3...Huch![pause][\x0203]Z. Adm.[-4]Cent.
+        [\x0207][\x020902]3...Huch![pause][\x0203]Z. Adm.-Cent.
         gehts da lang.[pause]
   - strings:
       - ''
       - |-
-        [\x0207][\x020902]3...Oh, warte![pause][\x0203]Z. Adm.[-4]Cent.
+        [\x0207][\x020902]3...Oh, warte![pause][\x0203]Z. Adm.-Cent.
         gehts da lang.[pause]
   - strings:
       - ''
-      - "[\\x0207]DO[-4]Wache[\\x0207]Entschuldigung,  \nab hier haben nur \nMitarbeiter...[pause][\\x0203]...was, wieder\nein Digimon?![pause]"
+      - "[\\x0207]DO-Wache[\\x0207]Entschuldigung,  \nab hier haben nur \nMitarbeiter...[pause][\\x0203]...was, wieder\nein Digimon?![pause]"
       - |-
         [\x0207][\x020902]3Umm, ja.
         ...Ich..bin..ein
         ..verlor. Digimon![pause]
       - |-
-        [\x0207]DO[-4]Wache[\x0207]Erst das rosa
+        [\x0207]DO-Wache[\x0207]Erst das rosa
         Agumon und
         jetzt du...[pause][\x0203]Du kannst durch,
         aber geh niemandem
@@ -707,24 +707,24 @@ files:
       - |-
         [\x0207]Dr. Kadomatsu[\x0207]Wir gehören nicht
         zu den A.o.A.![pause]
-      - "[\\x0207]DO[-4]Operator[\\x0207]Ach, MAGAMI und \nA.o.A. gehören \nzusammen?[pause]"
+      - "[\\x0207]DO-Operator[\\x0207]Ach, MAGAMI und \nA.o.A. gehören \nzusammen?[pause]"
       - |-
-        [\x0207]DO[-4]Wache[\x0207]Die Leader der Städte
-        u. die meisten Mit[-4]
-        arbeiter sind wie wir![pause][\x0203]Nicht alle MAGAMI[-4]
+        [\x0207]DO-Wache[\x0207]Die Leader der Städte
+        u. die meisten Mit-
+        arbeiter sind wie wir![pause][\x0203]Nicht alle MAGAMI-
         Mitarbeiter gehören
         zu den A.o.A![pause]
       - |-
         [\x0207][\x020902]3OK. Ich werde
         euch allen helfen.
-        Haltet durch![pause][\x0203]Ich werde Game[-4]
+        Haltet durch![pause][\x0203]Ich werde Game-
         master besiegen![pause]
       - |-
-        [\x0207]DO[-4]Operator[\x0207]Sei vorsichtig. Man
+        [\x0207]DO-Operator[\x0207]Sei vorsichtig. Man
         sagt, im Meisterraum
         sei eine Falle![pause]
       - |-
-        [\x0207]DO[-4]Wache[\x0207]Das hörte ich auch!
+        [\x0207]DO-Wache[\x0207]Das hörte ich auch!
         Irgendwo gibt es eine
         Geheimtür.[pause]
       - "[\\x0207]Dr. Kadomatsu[\\x0207]Ja, auch ich hab\ndavon gehört.[pause][\\x0203]Der Schlüsselcode\nist \"MONSTER\".[pause][\\x0203]Keine Ahnung, \nwas das heiβt.[pause]"
@@ -755,11 +755,11 @@ files:
         [\x0207][\x020902]3Ach ja?
         Stimmt
         das?[pause]
-      - "[\\x0207]Teddy[\\x0207]Das haben jeden[-4]\nfalls die Wachen im\nGefängnis gesagt.[pause][\\x0203]Du kannst Digimon \nfragen, um z. Nord[-4]\nsektor zu kommen...[pause]"
+      - "[\\x0207]Teddy[\\x0207]Das haben jeden-\nfalls die Wachen im\nGefängnis gesagt.[pause][\\x0203]Du kannst Digimon \nfragen, um z. Nord-\nsektor zu kommen...[pause]"
       - |-
         [\x0207][\x020902]3Dann ist es
         doch einfach![pause]
-      - "[\\x0207]Teddy[\\x0207]Aber du brauchst das\nDigiei des Wissens,\num Digimon zu rufen...[pause][\\x0203]Ich glaube, das ist ein\nseltenes Item, gibt's nur \nin Amaterasu[-4]Server.[pause]"
+      - "[\\x0207]Teddy[\\x0207]Aber du brauchst das\nDigiei des Wissens,\num Digimon zu rufen...[pause][\\x0203]Ich glaube, das ist ein\nseltenes Item, gibt's nur \nin Amaterasu-Server.[pause]"
       - |-
         [\x0207][\x020902]3OK, dann machen wir
         uns auf die Suche
@@ -789,7 +789,7 @@ files:
         Ich versuch's mit
         diesem Computer![pause]
       - |-
-        [\x0207][\x020902]3OK. Sag Be[-4]
+        [\x0207][\x020902]3OK. Sag Be-
         scheid, wenn
         du was weiβt![pause]
       - |-
@@ -824,12 +824,12 @@ files:
       - |-
         [\x0207][\x020902]3Was sagst du
         da, Lisa?![pause]
-      - "[\\x0207]Lisa[\\x0207]Sie haben Jugger[-4]\nnaut! Also können \nwir nichts machen![pause][\\x0203]Und ich möchte \nno. nicht sterben.[pause]"
+      - "[\\x0207]Lisa[\\x0207]Sie haben Jugger-\nnaut! Also können \nwir nichts machen![pause][\\x0203]Und ich möchte \nno. nicht sterben.[pause]"
       - |-
         [\x0207][\x020902]3...wawas?!
         Wir haben so
         viel gekämpft!![pause][\x0203]Ich will nicht.
-        Ich gebe nie[-4]
+        Ich gebe nie-
         mals auf![pause]
       - |-
         [\x0207]Lisa[\x0207][\x020801][\x020501], du
@@ -860,11 +860,11 @@ files:
         das gemacht?[pause]
       - |-
         [\x0207]Teddy[\x0207]...hey, das
-        ist nur Zeit[-4]
+        ist nur Zeit-
         verschwendung![pause]
       - |-
         [\x0207]Teddy[\x0207]Vemmon wurde in
-        Juggernaut um[-4]
+        Juggernaut um-
         gewandelt![pause]
       - '[\x0207]Lisa[\x0207]Wirklich?![pause]'
       - |-
@@ -884,7 +884,7 @@ files:
       - |-
         [\x0207]Lisa[\x0207]...wir haben keine
         Zeit zu verlieren![pause][\x0203]Der Präsident von
-        MAGAMI muss Destro[-4]
+        MAGAMI muss Destro-
         mon stoppen![pause]
       - '[\x0207][\x020902]3Klaro![pause]'
       - '[\x0207]Teddy[\x0207]...jaja![pause]'
@@ -898,12 +898,12 @@ files:
         wir die Leute
         der Stadt frei![pause]
       - |-
-        [\x0207]Leader Chuck[\x0207]Alle mit[-4]
+        [\x0207]Leader Chuck[\x0207]Alle mit-
         kommen.
         Attacke![pause]
       - '[\x0207]Widerständ. Wanda[\x0207]Yeah![pause]'
       - |-
-        [\x0207]Widerständler Dew[\x0207]Die A.o.A. wer[-4]
+        [\x0207]Widerständler Dew[\x0207]Die A.o.A. wer-
         den uns nicht
         besiegen![pause]
       - |-
@@ -921,17 +921,17 @@ files:
       - |-
         [\x0207]Teddy[\x0207]...aber was
         passiert in der
-        echten Welt...?[pause][\x0203]Ich hoffe, Des[-4]
+        echten Welt...?[pause][\x0203]Ich hoffe, Des-
         tromon kämpft
         noch nicht...[pause]
   - strings:
       - ''
       - |-
         [\x0207][\x020902]3Mach dir keine
-        Sorgen, Teddy. Da[-4]
+        Sorgen, Teddy. Da-
         rum kämpfen wir ja![pause][\x0203]Wir werden die A.o.A
         schlagen![pause]
-      - "[\\x0207]Teddy[\\x0207]Ja, stimmt. Wir \nhaben's fast ge[-4]\nschafft. Los![pause]"
+      - "[\\x0207]Teddy[\\x0207]Ja, stimmt. Wir \nhaben's fast ge-\nschafft. Los![pause]"
       - |-
         [\x0207]Nick[\x0207]Was, ihr seid
         noch hier?[pause]
@@ -941,7 +941,7 @@ files:
       - |-
         [\x0207][\x020902]3Und
         die Stadt?[pause]
-      - "[\\x0207]Nick[\\x0207]Wir haben sie\nzurück![pause][\\x0203]Dann fehlt\nnoch das \nAdmin[-4]Center![pause]"
+      - "[\\x0207]Nick[\\x0207]Wir haben sie\nzurück![pause][\\x0203]Dann fehlt\nnoch das \nAdmin-Center![pause]"
       - |-
         [\x0207][\x020902]3...was?![pause][\x0203]Dann haben wir
         keine Chance,
@@ -953,7 +953,7 @@ files:
         Angriff auf das
         Center helfen![pause]
       - |-
-        [\x0207][\x020902]3OK, über[-4]
+        [\x0207][\x020902]3OK, über-
         lasst es mir!
         Ich gewinne![pause]
       - |-
@@ -993,7 +993,7 @@ files:
         und die anderen
         so...?[pause]
       - |-
-        [\x0207]Teddy[\x0207]N[-4]nein. Wir können
+        [\x0207]Teddy[\x0207]N-nein. Wir können
         sie bestimmt
         wiederherstellen![pause]
       - |-
@@ -1025,12 +1025,12 @@ files:
       - ''
       - |-
         [\x0207]Mr. Smith[\x0207]...Oh? Ist das
-        eine Eldorado[-4]ID?[pause][\x0203]Dann bist du einer
+        eine Eldorado-ID?[pause][\x0203]Dann bist du einer
         von uns! Komm,
         hier lang![pause]
   - strings:
       - ''
-      - "[\\x0207]Smith Junior[\\x0207]Oh, du hast \neine \nEldorado[-4]ID.[pause][\\x0203]Dann geh wei[-4]\nter, du kannst\npassieren.[pause]"
+      - "[\\x0207]Smith Junior[\\x0207]Oh, du hast \neine \nEldorado-ID.[pause][\\x0203]Dann geh wei-\nter, du kannst\npassieren.[pause]"
   - strings:
       - ''
       - |-
@@ -1042,23 +1042,23 @@ files:
       - '[\x0207][\x020902]3Das macht Spaβ.[pause]'
   - strings:
       - ''
-      - "[\\x0207]Tamer[-4]Service[\\x0207]In Ordnung.[pause][\\x0203]Wenn du Infos \nhaben willst, sprich\nmit mir.[pause]"
+      - "[\\x0207]Tamer-Service[\\x0207]In Ordnung.[pause][\\x0203]Wenn du Infos \nhaben willst, sprich\nmit mir.[pause]"
   - strings:
       - ''
       - |-
-        [\x0207]Digimon[-4]Navig.[\x0207]Ja, verstanden.[pause][\x0203]Sprich mit mir,
+        [\x0207]Digimon-Navig.[\x0207]Ja, verstanden.[pause][\x0203]Sprich mit mir,
         wenn du Infos haben
         willst.[pause]
   - strings:
       - ''
       - |-
-        [\x0207]Digitations[-4]Navi.[\x0207]Verstehe.[pause][\x0203]Wenn du Infos
+        [\x0207]Digitations-Navi.[\x0207]Verstehe.[pause][\x0203]Wenn du Infos
         haben willst, sprich
         mit mir.[pause]
   - strings:
       - ''
       - |-
-        [\x0207]Digimon[-4]Navig.[\x0207]In Ordnung.[pause][\x0203]Wenn du Infos haben
+        [\x0207]Digimon-Navig.[\x0207]In Ordnung.[pause][\x0203]Wenn du Infos haben
         willst, sprich
         mit mir.[pause]
   - strings:
@@ -1069,22 +1069,22 @@ files:
         mit mir, Amigo![pause]
   - strings:
       - ''
-      - Willst du Tamer[-4]Infos hören?
+      - Willst du Tamer-Infos hören?
       - Ja, gerne!
       - Nee, nicht jetzt
   - strings:
       - ''
-      - Willst du Partner[-4]Digi[-4]Infos hören?
+      - Willst du Partner-Digi-Infos hören?
       - Ja, gerne!
       - Nee, nicht jetzt
   - strings:
       - ''
-      - Willst du Digitations[-4]Infos hören?
+      - Willst du Digitations-Infos hören?
       - Ja, gerne!
       - Nee, nicht jetzt
   - strings:
       - ''
-      - Willst du Digitations[-4]Infos hören?
+      - Willst du Digitations-Infos hören?
       - Ja, gerne!
       - Nee, nicht jetzt
   - strings:

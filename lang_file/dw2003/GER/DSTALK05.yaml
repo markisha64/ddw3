@@ -3,24 +3,24 @@ strings:
   - ''
   - |-
     [\x0207]Faulpelz Yuka[\x0207]Hmm...wie soll ich
-    meine Digimon züchten?[pause][\x0203]Die Parameter unter[-4]
+    meine Digimon züchten?[pause][\x0203]Die Parameter unter-
     scheiden sich je
     nach Zuchtmethode.[pause]
   - |-
-    [\x0207]Digitations[-4]Navi.[\x0207]Hier lernst du
+    [\x0207]Digitations-Navi.[\x0207]Hier lernst du
     was über
     Digitation.[pause][\x0203]Du erhältst Daten
     über einige
-    Digimon[-4]Digitationen...[pause][\x0203]Wir können die aber
-    nicht alle Digimon[-4]
+    Digimon-Digitationen...[pause][\x0203]Wir können die aber
+    nicht alle Digimon-
     Digitationen beibringen.[pause]
   - |-
-    [\x0207]Digimon[-4]Navig.[\x0207]Wir bringen dir
-    Digimon[-4]Techniken
+    [\x0207]Digimon-Navig.[\x0207]Wir bringen dir
+    Digimon-Techniken
     bei.[pause][\x0203]Du erhältst Tipps zu
-    Digimon[-4]Kampf und
-    Digimon[-4]Zucht.[pause]
-  - "[\\x0207]Dr. Kadomatsu[\\x0207]Ich bin Dr. Kadomatsu\nder Lehrer für Digi[-4]\nmon[-4]Forschung[pause][\\x0203]Im Digimon[-4]Labor\ntauschst und \ndigitierst du Digimon![pause]"
+    Digimon-Kampf und
+    Digimon-Zucht.[pause]
+  - "[\\x0207]Dr. Kadomatsu[\\x0207]Ich bin Dr. Kadomatsu\nder Lehrer für Digi-\nmon-Forschung[pause][\\x0203]Im Digimon-Labor\ntauschst und \ndigitierst du Digimon![pause]"
   - |-
     [\x0207][\x020902]3Alles aufgeräumt!
     ...ob die wohl auch
@@ -39,8 +39,8 @@ strings:
     [\x020801][\x020501]!
     Ich hab's![pause][\x0203]Das Notfallzimmer
     ist unten im Verlies[pause][\x0203]im Nordsektor
-    dieses Asuka[-4]Servers.[pause][\x0203]Du brauchst aber
-    die vier Leader[-4]
+    dieses Asuka-Servers.[pause][\x0203]Du brauchst aber
+    die vier Leader-
     Abzeichen!![pause]
   - a
   - a
@@ -59,19 +59,19 @@ strings:
   - |-
     [\x0207]DO Wache[\x0207]Das ist Asuka City,
     das Zentrum vom
-    Asuka[-4]Server.[pause]
+    Asuka-Server.[pause]
   - |-
     [\x0207]DO Wache[\x0207]Die Reise aller
     Tamer beginnt und
     endet hier.[pause][\x0203]Darum geht's
     in Asuka City.[pause]
   - |-
-    [\x0207]Account[-4]Anm.[\x0207]Oh? Du hast noch
-    kein Partner[-4]
+    [\x0207]Account-Anm.[\x0207]Oh? Du hast noch
+    kein Partner-
     Digimon.[pause][\x0203]Geh zur Lobby und
-    ruf Digimon[-4]Daten
+    ruf Digimon-Daten
     vom Satelliten ab.[pause]
-  - "[\\x0207]Teilzeit[-4]Jake[\\x0207]Alle Items in \ndieser Auktion\nsind Rüstungen.[pause][\\x0203]Und ich glaube hier\nist es billiger\nals anderswo.[pause][\\x0203]Auch wenn er\nnicht so aussieht,\nMr. Smith ist knallhart[pause]"
+  - "[\\x0207]Teilzeit-Jake[\\x0207]Alle Items in \ndieser Auktion\nsind Rüstungen.[pause][\\x0203]Und ich glaube hier\nist es billiger\nals anderswo.[pause][\\x0203]Auch wenn er\nnicht so aussieht,\nMr. Smith ist knallhart[pause]"
   - |-
     [\x0207]Pingelige Freda[\x0207]Putzen und Staub
     wischen und...[pause][\x0203]Ich muss einfach
@@ -80,8 +80,8 @@ strings:
   - a
   - |-
     [\x0207]Terriermon[\x0207]...mmm,
-    Mou[-4]man[-4]tai
-    mou[-4]man[-4]tai.[pause]
+    Mou-man-tai
+    mou-man-tai.[pause]
   - |-
     [\x0207]Gabum.[\x0207]Zzzzz
     Zzzzzzz[pause]
@@ -89,31 +89,31 @@ strings:
     [\x0207]Biyomon[\x0207]Ich bin müde
     Zzzzzzz...[pause]
   - |-
-    [\x0207]Chicago[-4]Green[\x0207]Irgendwo in der Stadt
+    [\x0207]Chicago-Green[\x0207]Irgendwo in der Stadt
     ist eine Auktion
     mit seltenen Items![pause][\x0203]Aber wie kannst
     du teilnehmen...?[pause]
-  - "[\\x0207]Item[-4]Fan Sandy[\\x0207]Einige Items kann\nman wohl nicht\nim Laden kaufen.[pause][\\x0203]Aber Mr. Smith\nweiβ angeblich \nnichts davon![pause]"
+  - "[\\x0207]Item-Fan Sandy[\\x0207]Einige Items kann\nman wohl nicht\nim Laden kaufen.[pause][\\x0203]Aber Mr. Smith\nweiβ angeblich \nnichts davon![pause]"
   - |-
     [\x0207]Gargomon[\x0207]Bumm! Hier
     das Zeughaus[pause]
   - |-
     [\x0207]Wizardmon[\x0207]Willkommen im
-    Item[-4]Shop![pause]
+    Item-Shop![pause]
   - "[\\x0207]Gomamon[\\x0207]Das ist die \nPfandleihe.\nWorum geht's?[pause]"
   - |-
     [\x0207]Wizardmon[\x0207]Willkommen auf
     dem Schwarzmarkt[pause]
   - |-
     [\x0207]Gargamon[\x0207]Willkommen. Dies
-    sind die schwe[-4]
+    sind die schwe-
     ren Waffen.[pause]
   - |-
     [\x0207]Miss Asami[\x0207]Wow, du musst 'n
     toller Tamer sein![pause][\x0203]Nur Auserwählte
     kommen hierher.[pause]
   - |-
-    [\x0207]Riggs aus LA[\x0207]Was? Gottes[-4]
+    [\x0207]Riggs aus LA[\x0207]Was? Gottes-
     Hürde ist hier
     auch nicht?[pause][\x0203]Das ist komisch...
     Hab' gehört, sie wär'
@@ -151,7 +151,7 @@ strings:
   - a
   - |-
     [\x0207]Wizardmon[\x0207]Wir Wizardmon sind
-    für den Item[-4]Shop
+    für den Item-Shop
     zuständig![pause]
   - |-
     [\x0207]Gargamon[\x0207]Das Zeughaus wird
@@ -191,16 +191,16 @@ strings:
     starken Waffen
     verkauft![pause]
   - |-
-    [\x0207]Master John[\x0207]Nur Personal und ver[-4]
+    [\x0207]Master John[\x0207]Nur Personal und ver-
     lorene Digimon dürfen
-    ins Admin[-4]Center.[pause][\x0203]Du darfst also nicht
+    ins Admin-Center.[pause][\x0203]Du darfst also nicht
     rein, dein Digimon
     schon! Ha ha ha![pause]
   - a
   - a
   - a
   - |-
-    [\x0207]Sepikmon[\x0207]O[-4]oh! Guck mal, ich
+    [\x0207]Sepikmon[\x0207]O-oh! Guck mal, ich
     hab' meine Maske
     gefunden![pause][\x0203]...wie man Zanbamon
     besiegen kann?
@@ -227,10 +227,10 @@ strings:
     'ne Klette.[pause][\x0203]Na gut, ich
     geb's zurück,
     Ok![pause][\x0203]Hier, ich hab
-    dir die Sepik[-4]Maske
+    dir die Sepik-Maske
     gegeben.[pause]
   - |-
-    [\x0207]Etemon[\x0207]Wa[-4]was, ich
+    [\x0207]Etemon[\x0207]Wa-was, ich
     hab' nichts
     Falsches gemacht![pause]
   - '[\x0207]Kail[\x0207]Hallo, [\x020801][\x020501][pause]'
@@ -347,7 +347,7 @@ strings:
     alle unsere
     Pläne![pause]
   - a
-  - "[\\x0207]Nick[\\x0207]Nicht nach[-4]\nlassen! Ist\nnicht vorbei[pause][\\x0203]Gib nicht \nauf, \nkämpfe![pause]"
+  - "[\\x0207]Nick[\\x0207]Nicht nach-\nlassen! Ist\nnicht vorbei[pause][\\x0203]Gib nicht \nauf, \nkämpfe![pause]"
   - a
   - a
   - a
@@ -373,7 +373,7 @@ strings:
   - a
   - |-
     [\x0207]DO Wache[\x0207]?...?
-    Ich vermute, Digi[-4]
+    Ich vermute, Digi-
     mon kann durch.[pause]
   - |-
     [\x0207]DO Wache[\x0207]Eintritt nur
@@ -428,10 +428,10 @@ strings:
     du?[pause]
   - |-
     [\x0207]Datamon[\x0207]Hier kommst du nur mit
-    Personalpass rein.[pause][\x0203]Mitarbeiter von Digimon[-4]
+    Personalpass rein.[pause][\x0203]Mitarbeiter von Digimon-
     Online haben sie.[pause]
   - |-
-    [\x0207][\x020902]3Oh! Es ist Gabumon[-4]
+    [\x0207][\x020902]3Oh! Es ist Gabumon-
     Karte! Hier war sie
     also![pause]
   - |-
@@ -442,7 +442,7 @@ strings:
   - "[\\x0207]Kellnerin Debbie[\\x0207]Ob Veemon noch\nin windiger \nPrärie ist?[pause][\\x0203]Ob er mit mir spielt\nwenn ich ihn das\nnächste Mal sehe?[pause]"
   - |-
     [\x0207]Guilmon[\x0207]Hä? Blaue Karte?
-    Ach, das Gondel[-4]Ding.[pause][\x0203]Ich habe sie leider
+    Ach, das Gondel-Ding.[pause][\x0203]Ich habe sie leider
     nicht, aber mein Cousin.[pause][\x0203]Er hat gesagt, er ging
     nach Seiryu City.[pause][\x0203]Aber hat Hunger, wird
     wohl irgendwo was
@@ -471,7 +471,7 @@ strings:
     Oink,
     oooink![pause]
   - |-
-    [\x0207]RPG[-4]Fan Masao[\x0207]Oin, oioink,
+    [\x0207]RPG-Fan Masao[\x0207]Oin, oioink,
     oooin, ooiink![pause]
   - |-
     [\x0207]Händler Abel[\x0207]Ooink?!
@@ -628,11 +628,11 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Arena[-4]Empfang[\x0207]Dies ist die Anmeldung
-    für das Server Champ[-4]
-    Turnier.[pause][\x0203]Um am Turnier teilzu[-4]
+    [\x0207]Arena-Empfang[\x0207]Dies ist die Anmeldung
+    für das Server Champ-
+    Turnier.[pause][\x0203]Um am Turnier teilzu-
     nehmen, brauchst du
-    die 4 Stadtabzeichen.[pause][\x0203]Besieg die City[-4]Leader
+    die 4 Stadtabzeichen.[pause][\x0203]Besieg die City-Leader
     der einzelnen Städte u.
     hol dir die Abzeichen.[pause]
   - |-
@@ -700,9 +700,9 @@ strings:
   - a
   - |-
     [\x0207]Guardromon[\x0207]ZUGRIFF AUF
-    MATRIX[-4]DRIVE[pause]
+    MATRIX-DRIVE[pause]
   - |-
-    [\x0207]Guardromon[\x0207]ICH BIN SPEICHER[-4]
+    [\x0207]Guardromon[\x0207]ICH BIN SPEICHER-
     OFFIZIER GUARDROMON[pause][\x0203]WENN DU SPEICHERN
     WILLST, WENDE DICH
     AN UNS![pause]
@@ -720,12 +720,12 @@ strings:
   - |-
     [\x0207]Faulpelz Yuka[\x0207]Hmmm, warum können
     wir nicht in die
-    echte Welt zurück?[pause][\x0203]Sie müssen uns aktua[-4]
+    echte Welt zurück?[pause][\x0203]Sie müssen uns aktua-
     lisieren und sagen,
     was wir tun sollen.[pause]
   - |-
     [\x0207]Faulpelz Yuka[\x0207]Hmmm, wie kommt man
-    ins Admin[-4]Center?[pause][\x0203]Hab' nie drüber nach[-4]
+    ins Admin-Center?[pause][\x0203]Hab' nie drüber nach-
     gedacht, deshalb
     weiβ ich's nicht...[pause]
   - |-
@@ -737,7 +737,7 @@ strings:
   - "[\\x0207]Faulpelz Yuka[\\x0207]Hmm, wie soll ich \nmeinen Digimon\ndigitieren?[pause][\\x0203]Der gewählte Digimon\nbestimmt die späteren\nDigitationstechniken...[pause]"
   - |-
     [\x0207]Faulpelz Yuka[\x0207]Hmm, was wohl jetzt
-    mit Digimon[-4]Online
+    mit Digimon-Online
     passiert...[pause][\x0203]Das Spiel selbst ist
     so gut.[pause]
   - "[\\x0207]Faulpelz Yuka[\\x0207]Hmm, was wohl jetzt\nmit uns passiert...[pause][\\x0203]Angeblich sind die \nA.o.A noch nicht\nam Ende...[pause]"
@@ -751,32 +751,32 @@ strings:
   - '43'
   - a
   - |-
-    [\x0207]Anmelde[-4]Manager[\x0207]Das ist der
+    [\x0207]Anmelde-Manager[\x0207]Das ist der
     Anmelderaum.[pause][\x0203]Viel Spaβ bei
-    Digimon[-4]Online![pause]
+    Digimon-Online![pause]
   - |-
-    [\x0207]Anmelde[-4]Manager[\x0207]Der Server ist
+    [\x0207]Anmelde-Manager[\x0207]Der Server ist
     wegen Wartung
     geschlossen.[pause][\x0203]Wir entschuldigen
     uns bei den
     Spielern.[pause]
-  - "[\\x0207]Anmelde[-4]Manager[\\x0207]Die Wartung \ndauert etwas\nlänger.[pause][\\x0203]Hab bitte\netwas\nGeduld.[pause]"
+  - "[\\x0207]Anmelde-Manager[\\x0207]Die Wartung \ndauert etwas\nlänger.[pause][\\x0203]Hab bitte\netwas\nGeduld.[pause]"
   - |-
-    [\x0207]Anmelde[-4]Manager[\x0207]Oh! Du bis ein
+    [\x0207]Anmelde-Manager[\x0207]Oh! Du bis ein
     verloren gegangenes
     Digimon![pause][\x0203]Hilfe bekommst du im
-    Admin[-4]Center.[pause]
-  - "[\\x0207]Anmelde[-4]Manager[\\x0207]Die Wartung \ndauert etwas\nlänger.[pause][\\x0203]Hab bitte\netwas\nGeduld.[pause]"
-  - "[\\x0207]Anmelde[-4]Manager[\\x0207]Sie sind leider \nnoch nicht fertig.[pause][\\x0203]Ich muss mich schon\nwieder entschuldigen.\nSeufz...[pause]"
-  - "[\\x0207]Anmelde[-4]Manager[\\x0207]Hast mich erschreckt, \ndachte, du wärst\ndie A.o.A.[pause][\\x0203]Ich mach mir Sorgen. In\ndiesem Tempo können wir\nkeine Wartung machen.[pause]"
+    Admin-Center.[pause]
+  - "[\\x0207]Anmelde-Manager[\\x0207]Die Wartung \ndauert etwas\nlänger.[pause][\\x0203]Hab bitte\netwas\nGeduld.[pause]"
+  - "[\\x0207]Anmelde-Manager[\\x0207]Sie sind leider \nnoch nicht fertig.[pause][\\x0203]Ich muss mich schon\nwieder entschuldigen.\nSeufz...[pause]"
+  - "[\\x0207]Anmelde-Manager[\\x0207]Hast mich erschreckt, \ndachte, du wärst\ndie A.o.A.[pause][\\x0203]Ich mach mir Sorgen. In\ndiesem Tempo können wir\nkeine Wartung machen.[pause]"
   - |-
-    [\x0207]Anmelde[-4]Manager[\x0207]Als die A.o.A das
+    [\x0207]Anmelde-Manager[\x0207]Als die A.o.A das
     1. Mal kamen, war
     ich ratlos: Was tun[pause][\x0203]So ne Angst will ich
     nie wieder haben![pause]
-  - "[\\x0207]Anmelde[-4]Manager[\\x0207]Tut mir leid, du \nkannst noch nicht in\ndie echte Welt zurück[pause][\\x0203]Schuld sind nur die\nA.o.A![pause]"
+  - "[\\x0207]Anmelde-Manager[\\x0207]Tut mir leid, du \nkannst noch nicht in\ndie echte Welt zurück[pause][\\x0203]Schuld sind nur die\nA.o.A![pause]"
   - |-
-    [\x0207]Anmelde[-4]Manager[\x0207]Hast du gehört?
+    [\x0207]Anmelde-Manager[\x0207]Hast du gehört?
     Die A.o.A wurden
     besiegt![pause][\x0203]Gott sei Dank!
     Jetzt können wir
@@ -794,44 +794,44 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Anmelde[-4]Manger[\x0207]O, oink!
+    [\x0207]Anmelde-Manger[\x0207]O, oink!
     Oi, oinkkk![pause]
   - '43'
   - |-
-    [\x0207]Arena[-4]Empfang[\x0207]Dies ist die Anmeldung
-    für das Server Champ[-4]
-    Turnier.[pause][\x0203]Um am Turnier teilzu[-4]
+    [\x0207]Arena-Empfang[\x0207]Dies ist die Anmeldung
+    für das Server Champ-
+    Turnier.[pause][\x0203]Um am Turnier teilzu-
     nehmen, brauchst du
     die 4 Stadtabzeichen.[pause][\x0203]Besieg die Leader der
     einzelnen Städte und
     hol dir die Abzeichen.[pause]
   - |-
-    [\x0207]Arena[-4]Empfang[\x0207]Wie du ins
-    Admin[-4]Center
+    [\x0207]Arena-Empfang[\x0207]Wie du ins
+    Admin-Center
     kommst?[pause][\x0203]Tut mir Leid, nicht
     als normaler Tamer![pause]
-  - "[\\x0207]Arena[-4]Empfang[\\x0207]Oh, seid ihr verloren\ngegangene Digimon?[pause][\\x0203]Dann geht ins \nAdmin[-4]Center![pause]"
+  - "[\\x0207]Arena-Empfang[\\x0207]Oh, seid ihr verloren\ngegangene Digimon?[pause][\\x0203]Dann geht ins \nAdmin-Center![pause]"
   - |-
-    [\x0207]Arena[-4]Empfang[\x0207]Wegen System[-4]
-    wartung...[pause][\x0203]Wurde die Turnier[-4]
+    [\x0207]Arena-Empfang[\x0207]Wegen System-
+    wartung...[pause][\x0203]Wurde die Turnier-
     anmeldung
     geschlossen.[pause][\x0203]Warte, bis wir die
     Wiedereröffnung
     bekannt geben.[pause]
-  - "[\\x0207]Arena[-4]Empfang[\\x0207]Die Wartung dauert\nlänger als normal.[pause][\\x0203]Es kommen immer \nwieder Tamer und\nnerven mich.[pause]"
+  - "[\\x0207]Arena-Empfang[\\x0207]Die Wartung dauert\nlänger als normal.[pause][\\x0203]Es kommen immer \nwieder Tamer und\nnerven mich.[pause]"
   - |-
-    [\x0207]Arena[-4]Empfang[\x0207]A.o.A haben Daten
+    [\x0207]Arena-Empfang[\x0207]A.o.A haben Daten
     von den stärksten
     Digimon genommen![pause][\x0203]Ich hoffe, sie
     treiben damit
     keinen Missbrauch.[pause]
   - |-
-    [\x0207]Arena[-4]Empfang[\x0207]Gut! Alle A.o.A
-    wurden gefasst.[pause][\x0203]Das mit dem Game[-4]
+    [\x0207]Arena-Empfang[\x0207]Gut! Alle A.o.A
+    wurden gefasst.[pause][\x0203]Das mit dem Game-
     master hat mich
     allerdings geschockt..[pause]
   - |-
-    [\x0207]Arena[-4]Empfang[\x0207]Tut mir leid, die
+    [\x0207]Arena-Empfang[\x0207]Tut mir leid, die
     Anmeldung ist
     geschlossen.[pause][\x0203]Ich hab' eine
     Weile nichts zu
@@ -849,48 +849,48 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Arena[-4]Empfang[\x0207]Oh, das ist toll,
+    [\x0207]Arena-Empfang[\x0207]Oh, das ist toll,
     die A.o.A sind
     weg![pause][\x0203]Das ist ein neuer
     Anfang für MAGAMI[pause]
   - |-
-    [\x0207]Arena[-4]Empf.[\x0207]Oink, oink,
+    [\x0207]Arena-Empf.[\x0207]Oink, oink,
     oink, oi![pause]
   - '43'
-  - "[\\x0207]Arena[-4]Empfang[\\x0207]Dies ist die Anmeldung\nfür das Server\nChamp[-4]Turnier.[pause][\\x0203]Oh? Du hast noch kein\nPartner[-4]Digimon.[pause][\\x0203]Geh zur Lobby und lad\ndie Daten vom \nSatelliten herunter.[pause]"
+  - "[\\x0207]Arena-Empfang[\\x0207]Dies ist die Anmeldung\nfür das Server\nChamp-Turnier.[pause][\\x0203]Oh? Du hast noch kein\nPartner-Digimon.[pause][\\x0203]Geh zur Lobby und lad\ndie Daten vom \nSatelliten herunter.[pause]"
   - |-
-    [\x0207]Kampf[-4]Fan Midori[\x0207]Digimon[-4]Kampf ist
+    [\x0207]Kampf-Fan Midori[\x0207]Digimon-Kampf ist
     das Gröβte![pause][\x0203]Omnimon war echt
     beeindruckend![pause]
   - |-
-    [\x0207]Kampf[-4]Fan Midori[\x0207]Wir können nicht
+    [\x0207]Kampf-Fan Midori[\x0207]Wir können nicht
     in die echte Welt
     zurück? Super![pause][\x0203]Jetzt kann ich
-    weiter Digimon[-4]
+    weiter Digimon-
     Kampf gucken.[pause]
   - |-
-    [\x0207]Kampf[-4]Fan Midori[\x0207]Ich war einmal
-    im Admin[-4]
+    [\x0207]Kampf-Fan Midori[\x0207]Ich war einmal
+    im Admin-
     Center.[pause][\x0203]Aber sie haben
     mich erwischt u.
     rausgeworfen![pause]
   - |-
-    [\x0207]Kampf[-4]Fan Midori[\x0207]...oh, nur ein
+    [\x0207]Kampf-Fan Midori[\x0207]...oh, nur ein
     Agumon.[pause][\x0203]Mich interessieren
     nur starke
     Digimon![pause]
   - |-
-    [\x0207]Kampf[-4]Fan Midori[\x0207]Sakuyamon ist
+    [\x0207]Kampf-Fan Midori[\x0207]Sakuyamon ist
     der Gröβte![pause][\x0203]Das ist das
     schönste
     Digimon![pause]
   - |-
-    [\x0207]Kampf[-4]Fan Midori[\x0207]Charisma ist für
+    [\x0207]Kampf-Fan Midori[\x0207]Charisma ist für
     ein Digimon sehr
     wichtig![pause][\x0203]Du musst auch
     cool sein, nicht
     nur stark![pause]
-  - "[\\x0207]Kampf[-4]Fan Midor[\\x0207]Also wirklich! \nJemand sollte die\nA.o.A schlagen![pause][\\x0203]Dann bin ich\necht beeindruckt.[pause]"
+  - "[\\x0207]Kampf-Fan Midor[\\x0207]Also wirklich! \nJemand sollte die\nA.o.A schlagen![pause][\\x0203]Dann bin ich\necht beeindruckt.[pause]"
   - a
   - a
   - a
@@ -902,7 +902,7 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Kampf[-4]Fan Midori[\x0207]Nein! Das Turnier
+    [\x0207]Kampf-Fan Midori[\x0207]Nein! Das Turnier
     wurde abgesagt![pause][\x0203]Was mache ich denn
     jetzt bloβ![pause]
   - a
@@ -929,21 +929,21 @@ strings:
     [\x0207]Soldat[\x0207]Ich lass dich
     hier nicht
     durch![pause]
-  - "[\\x0207]Kampf[-4]Fan Midori[\\x0207]Mir ist langweilig,\ndeshalb erstell' ich\nein Rangsystem![pause][\\x0203]Gallantmon ist \nwohl die Nummer 1![pause]"
+  - "[\\x0207]Kampf-Fan Midori[\\x0207]Mir ist langweilig,\ndeshalb erstell' ich\nein Rangsystem![pause][\\x0203]Gallantmon ist \nwohl die Nummer 1![pause]"
   - |-
-    [\x0207]Kampf[-4]Fan Midori[\x0207]Du bis super!
+    [\x0207]Kampf-Fan Midori[\x0207]Du bis super!
     Du hast die A.o.A
     geschlagen![pause][\x0203]Deine Digimon sind
     jetzt die Stärksten![pause]
   - |-
-    [\x0207]Kampf[-4]Fan Midori[\x0207]Oiiiiiink!
+    [\x0207]Kampf-Fan Midori[\x0207]Oiiiiiink!
     Oink, oink![pause]
   - '43'
   - |-
     [\x0207]Onkel Carlos[\x0207]Die Teilnahme am
-    Server Champ[-4]
+    Server Champ-
     Turnier ist das..,[pause][\x0203]wovon alle Spieler
-    von Digimon[-4]Online
+    von Digimon-Online
     träumen![pause]
   - |-
     [\x0207]Onkel Carlos[\x0207]Du bist ein Star,
@@ -1028,37 +1028,37 @@ strings:
     oinnk![pause]
   - '43'
   - |-
-    [\x0207]Item[-4]Fan Sandy[\x0207]Es gibt verschied. Items
+    [\x0207]Item-Fan Sandy[\x0207]Es gibt verschied. Items
     für die einzelnen Digimon
     also überleg es dir gut![pause]
   - |-
-    [\x0207]Item[-4]Fan Sandy[\x0207]Du suchst einen
+    [\x0207]Item-Fan Sandy[\x0207]Du suchst einen
     Weg ins Zentrum?[pause][\x0203]Ich hab' nichts
     davon gehört.[pause]
   - |-
-    [\x0207]Item[-4]Fan Sandy[\x0207]Manchmal geht der
+    [\x0207]Item-Fan Sandy[\x0207]Manchmal geht der
     Besitzer weg...[pause][\x0203]Ich frag' mich
-    wohin... Ziem[-4]
+    wohin... Ziem-
     lich verdächtig.[pause]
   - |-
-    [\x0207]Item[-4]Fan Sandy[\x0207]Besieg das Boss[-4]
-    Digimon in ver[-4]
+    [\x0207]Item-Fan Sandy[\x0207]Besieg das Boss-
+    Digimon in ver-
     schiedenen Bereichen.[pause][\x0203]Sie haben immer
     gute Items.[pause]
-  - "[\\x0207]Item[-4]Fan Sandy[\\x0207]Gott sei Dank, die\nA.o.A haben mich\nnicht erwischt![pause][\\x0203]Wär traurig, wenn\ndie mir meine Items \nweggenommen hätten.[pause]"
+  - "[\\x0207]Item-Fan Sandy[\\x0207]Gott sei Dank, die\nA.o.A haben mich\nnicht erwischt![pause][\\x0203]Wär traurig, wenn\ndie mir meine Items \nweggenommen hätten.[pause]"
   - |-
-    [\x0207]Item[-4]Fan Sandy[\x0207]Kennst du das
+    [\x0207]Item-Fan Sandy[\x0207]Kennst du das
     Digiei des Wissens?[pause][\x0203]Damit kannst du
     Digimon rufen und in
     den Untergrund gehen.[pause]
-  - "[\\x0207]Item[-4]Fan Sandy[\\x0207]Es gibt Rüstungen\nmit dem gleichen\nNamen.[pause][\\x0203]Wenn du alle hast, \nwird dein\nDigimon stärker.[pause]"
+  - "[\\x0207]Item-Fan Sandy[\\x0207]Es gibt Rüstungen\nmit dem gleichen\nNamen.[pause][\\x0203]Wenn du alle hast, \nwird dein\nDigimon stärker.[pause]"
   - |-
-    [\x0207]Item[-4]Fan Sandy[\x0207]Welcher Tamer hat
+    [\x0207]Item-Fan Sandy[\x0207]Welcher Tamer hat
     die A.o.A besiegt?[pause][\x0203]Er hat bestimmt
     viele tolle
     Items![pause]
   - |-
-    [\x0207]Item[-4]Fan Sandy[\x0207]Oink,
+    [\x0207]Item-Fan Sandy[\x0207]Oink,
     oi, oioioink![pause]
   - '43'
   - |-
@@ -1152,7 +1152,7 @@ strings:
   - |-
     [\x0207]Kellnerin Debbie[\x0207]Mr. Alexei ist z.Zt.
     nicht sehr aufgebracht.[pause][\x0203]Er lässt es ständig
-    an mir aus [-4] also
+    an mir aus - also
     wirklich![pause]
   - "[\\x0207]Kellnerin Debbie[\\x0207]Ehrlich! Was findet \nJohn bloβ an ihr![pause]"
   - "[\\x0207]Kellnerin Debbie[\\x0207]Ehrlich! Was findet \nJohn bloβ an ihr![pause]"
@@ -1211,7 +1211,7 @@ strings:
     natürlich.[pause]
   - |-
     [\x0207]Master John[\x0207]Nur Personal darf
-    ins Admin[-4]Center.[pause][\x0203]Auβerdem verloren
+    ins Admin-Center.[pause][\x0203]Auβerdem verloren
     gegangene Digimon
     ohne Partner.[pause]
   - |-
@@ -1353,7 +1353,7 @@ strings:
   - a
   - |-
     [\x0207][\x020902]3Yeah! Ich habe
-    eine Power[-4]
+    eine Power-
     ladung![pause]
   - a
   - a
@@ -1393,17 +1393,17 @@ strings:
   - a
   - |-
     [\x0207]DO Wache[\x0207]Das ist Asuka City,
-    hier ist das Admin[-4]
+    hier ist das Admin-
     Center von MAGAMI.[pause]
   - |-
     [\x0207]DO Wache[\x0207]Wir entschuldigen die
     Unannehmlichkeiten.[pause][\x0203]Wir melden uns, wenn
-    die Wartung abge[-4]
+    die Wartung abge-
     schlossen ist.[pause]
   - |-
     [\x0207]DO Wache[\x0207]Wir entschuldigen die
     Unannehmlichkeiten.[pause][\x0203]Wir melden uns, wenn
-    die Wartung abge[-4]
+    die Wartung abge-
     schlossen ist.[pause]
   - "[\\x0207]DO Wache[\\x0207]Ähm, Entschuldigung,\ndie Wartung ist noch\nnicht abgeschlossen.[pause][\\x0203]Warte noch ein \nbisschen.[pause]"
   - |-
@@ -1415,14 +1415,14 @@ strings:
     jetzt mit frischer
     Hoffnung![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Keine ungewöhn[-4]
+    [\x0207]DO Wache[\x0207]Keine ungewöhn-
     lichen Vorkommnisse
     in Asuka City![pause][\x0203]Mr. [\x020801][\x020501],
     besiege sie![pause]
   - |-
     [\x0207]DO Wache[\x0207]Gut gemacht,
     Mr. [\x020801][\x020501]![pause][\x0203]Du bist der Retter
-    von Digimon[-4]Online![pause]
+    von Digimon-Online![pause]
   - |-
     [\x0207]DO Wache[\x0207]Oink!
     Oii, oiiink![pause]
@@ -1431,7 +1431,7 @@ strings:
   - "[\\x0207]DO Wache[\\x0207]Mach dir keine \nSorgen, weil du \nnicht zurück kannst.[pause][\\x0203]Genieβ einfach\nden Augenblick![pause]"
   - |-
     [\x0207]DO Wache[\x0207]Ein Weg ins
-    Admin[-4]
+    Admin-
     Center?[pause][\x0203]Da drin gibt es
     nichts Interessantes.[pause]
   - "[\\x0207]DO Wache[\\x0207]Mach dir keine \nSorgen, weil du \nnicht zurück kannst.[pause][\\x0203]Genieβ einfach\nden Augenblick![pause]"
@@ -1753,18 +1753,18 @@ strings:
   - a
   - |-
     [\x0207]Datamon[\x0207]Nur das Personal
-    von Digimon[-4]Online
-    darf durch.[pause][\x0203]Mit 'nem Personal[-4]
+    von Digimon-Online
+    darf durch.[pause][\x0203]Mit 'nem Personal-
     pass kommst du
     zur anderen Seite.[pause]
   - |-
     [\x0207]Datamon[\x0207]Hinter dem
-    Tor sind ko[-4]
+    Tor sind ko-
     mische Typen.[pause][\x0203]Sei vorsichtig![pause]
   - "[\\x0207]Datamon[\\x0207]Datamon\nhasst die \nA.o.A![pause][\\x0203]Ich lass sie\nnicht durch![pause]"
   - |-
     [\x0207]Datamon[\x0207]Personalpass
-    bestätigt.[pause][\x0203]Du kannst je[-4]
+    bestätigt.[pause][\x0203]Du kannst je-
     derzeit durch[pause]
   - |-
     [\x0207]Datamon[\x0207]Du hast die
@@ -1786,55 +1786,55 @@ strings:
   - a
   - a
   - a
-  - "[\\x0207]Digitations[-4]Navi.[\\x0207]Dies ist das \nDigitations[-4]\nNavigations[-4]Desk[pause][\\x0203]Willst du Infos\nzur Digitation\nhören?[pause]"
-  - "[\\x0207]Digimon[-4]Navig.[\\x0207]Dies ist das \nDigimon[-4]Navi[-4]\ngations[-4]Desk.[pause][\\x0203]Willst du Infos\nzu Partner[-4]Digi[-4]\nmon hören?[pause]"
+  - "[\\x0207]Digitations-Navi.[\\x0207]Dies ist das \nDigitations-\nNavigations-Desk[pause][\\x0203]Willst du Infos\nzur Digitation\nhören?[pause]"
+  - "[\\x0207]Digimon-Navig.[\\x0207]Dies ist das \nDigimon-Navi-\ngations-Desk.[pause][\\x0203]Willst du Infos\nzu Partner-Digi-\nmon hören?[pause]"
   - |-
-    [\x0207]Digimon[-4]Navig.[\x0207]Oioioioioi
+    [\x0207]Digimon-Navig.[\x0207]Oioioioioi
     oioioink![pause]
   - |-
-    [\x0207]Digimon[-4]Navig.[\x0207]Oioioioioi?
+    [\x0207]Digimon-Navig.[\x0207]Oioioioioi?
     Oink?![pause]
   - |-
     [\x0207]Dr. Kadomat.[\x0207]Oink!
     Oink! Oink!
     Oink! Oink![pause]
-  - "[\\x0207]Digitations[-4]Navi[\\x0207]Puh, wusste\ngar nicht, was\npassiert.[pause][\\x0203]Trotzdem, \nwillkommen im\nDigmimon[-4]Labor![pause]"
+  - "[\\x0207]Digitations-Navi[\\x0207]Puh, wusste\ngar nicht, was\npassiert.[pause][\\x0203]Trotzdem, \nwillkommen im\nDigmimon-Labor![pause]"
   - |-
-    [\x0207]Digimon[-4]Navig.[\x0207]Ich bin froh.
-    Dir geht's gut![pause][\x0203]Nun denn... Will[-4]
+    [\x0207]Digimon-Navig.[\x0207]Ich bin froh.
+    Dir geht's gut![pause][\x0203]Nun denn... Will-
     kommen im Digimon
-    Navigations[-4]Zähler![pause]
+    Navigations-Zähler![pause]
   - '43'
   - a
   - a
   - a
   - a
   - a
-  - "[\\x0207]Chicago[-4]Green[\\x0207]Nun, da können\nwir nichts \nmachen.[pause][\\x0203]Ich denke ich mach\nein Nickerchen.[pause]"
+  - "[\\x0207]Chicago-Green[\\x0207]Nun, da können\nwir nichts \nmachen.[pause][\\x0203]Ich denke ich mach\nein Nickerchen.[pause]"
   - |-
-    [\x0207]Chicago[-4]Green[\x0207]Ich wollte
+    [\x0207]Chicago-Green[\x0207]Ich wollte
     schlafen...[pause][\x0203]Aber Gabumon
     schnarcht zu
     laut.[pause]
   - |-
-    [\x0207]Chicago[-4]Green[\x0207]Ich wollte
+    [\x0207]Chicago-Green[\x0207]Ich wollte
     schlafen...[pause][\x0203]Aber Gabumon
     schnarcht zu
     laut.[pause]
   - |-
-    [\x0207]Chicago[-4]Green[\x0207]Eins, zwei,
+    [\x0207]Chicago-Green[\x0207]Eins, zwei,
     drei...[pause][\x0203]Schäfchen zählen
     hilft nicht![pause]
   - "[\\x0207]Chicago[\\x0207]Sehr nur meine\nDigimon![pause][\\x0203]Sie schlafen \nbei diesem\nLärm![pause][\\x0203]Ist mir etwas\npeinlich.[pause]"
-  - "[\\x0207]Chicago[-4]Green[\\x0207]Hallo ihr da,\nwacht auf![pause][\\x0203]Ok, jetzt\nwerde ich \nmüde.[pause]"
+  - "[\\x0207]Chicago-Green[\\x0207]Hallo ihr da,\nwacht auf![pause][\\x0203]Ok, jetzt\nwerde ich \nmüde.[pause]"
   - |-
-    [\x0207]Chicago[-4]Green[\x0207]Ob Digimon wohl
+    [\x0207]Chicago-Green[\x0207]Ob Digimon wohl
     Schlaf brauchen...?[pause][\x0203]Ich werde müde,
     wenn ich nur
     dran denke.[pause]
-  - "[\\x0207]Chicago[-4]Green[\\x0207]Was! Alle \nA.o.A wurden\ngefasst![pause][\\x0203]Wow! Ich hätte\nnicht schlafen\nsollen![pause]"
+  - "[\\x0207]Chicago-Green[\\x0207]Was! Alle \nA.o.A wurden\ngefasst![pause][\\x0203]Wow! Ich hätte\nnicht schlafen\nsollen![pause]"
   - |-
-    [\x0207]Chicago[-4]Green[\x0207]Oooink,
+    [\x0207]Chicago-Green[\x0207]Oooink,
     oink, oink![pause]
   - '43'
   - |-
@@ -1869,19 +1869,19 @@ strings:
     oioinkk oink![pause]
   - a
   - |-
-    [\x0207]Riggs aus LA[\x0207]Was? Gottes[-4]
+    [\x0207]Riggs aus LA[\x0207]Was? Gottes-
     Hürde ist hier
     auch nicht?[pause][\x0203]Das ist komisch...
     Hab' gehört, sie wär'
     in Asuka City![pause]
   - |-
-    [\x0207]Riggs aus LA[\x0207]Was? Sniper[-4]
+    [\x0207]Riggs aus LA[\x0207]Was? Sniper-
     Schild ist hier
     auch nicht?[pause][\x0203]Das ist komisch...
     Hab' gehört, es wär'
     in Asuka City![pause]
   - |-
-    [\x0207]Riggs aus LA[\x0207]Was? Dramon[-4]
+    [\x0207]Riggs aus LA[\x0207]Was? Dramon-
     Schild ist hier
     auch nicht?[pause][\x0203]Das ist komisch...
     Hab' gehört, es wär'
@@ -1893,25 +1893,25 @@ strings:
     Hab' gehört, er wär'
     in Asuka City![pause]
   - |-
-    [\x0207]Riggs aus LA[\x0207]Was? Sniper[-4]
+    [\x0207]Riggs aus LA[\x0207]Was? Sniper-
     Kanone ist hier
     auch nicht?[pause][\x0203]Das ist komisch...
     Hab' gehört, sie wär'
     in Asuka City![pause]
   - |-
-    [\x0207]Riggs aus LA[\x0207]Was? Ronin[-4]
+    [\x0207]Riggs aus LA[\x0207]Was? Ronin-
     klinge ist hier
     auch nicht?[pause][\x0203]Das ist komisch...
     Hab' gehört, sie wär'
     in Asuka City![pause]
   - |-
-    [\x0207]Riggs aus LA[\x0207]Was? Ronin[-4]
+    [\x0207]Riggs aus LA[\x0207]Was? Ronin-
     Rüstung ist hier
     auch nicht?[pause][\x0203]Das ist komisch...
     Hab' gehört, sie wär'
     in Asuka City![pause]
   - |-
-    [\x0207]Riggs aus LA[\x0207]Was? Berserker[-4]
+    [\x0207]Riggs aus LA[\x0207]Was? Berserker-
     Anzug ist hier
     auch nicht?[pause][\x0203]Das ist komisch...
     Hab' gehört, er wär'
@@ -1923,7 +1923,7 @@ strings:
   - a
   - |-
     [\x0207][\x020902]3Yeah!
-    Ich habe Eisen[-4]
+    Ich habe Eisen-
     handschuhe![pause]
   - |-
     [\x0207][\x020902]3Yeah!
@@ -1933,7 +1933,7 @@ strings:
   - a
   - |-
     [\x0207][\x020902]3Yeah! Ich habe
-    eine Wiederher[-4]
+    eine Wiederher-
     stellungsdiskette![pause]
   - a
   - |-
@@ -2017,7 +2017,7 @@ strings:
     Auktionen
     süchtig![pause]
   - |-
-    [\x0207]RPG[-4]Fan Masao[\x0207]Warum sind die alle
+    [\x0207]RPG-Fan Masao[\x0207]Warum sind die alle
     sooo reich?![pause][\x0203]Ich werden einfach
     Feinde besiegen und
     deren Geld nehmen![pause]
@@ -2028,7 +2028,7 @@ strings:
     schon auf die
     nächste.[pause]
   - |-
-    [\x0207]Item[-4]Fan Michiru[\x0207]Diesmal konnte
+    [\x0207]Item-Fan Michiru[\x0207]Diesmal konnte
     ich eins kaufen...[pause][\x0203]...jetzt hab' ich
     kein Geld mehr![pause]
   - a
@@ -2058,8 +2058,8 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Nick[\x0207]Nichts unge[-4]
-    wöhnliches hier[pause][\x0203]Seit sie ge[-4]
+    [\x0207]Nick[\x0207]Nichts unge-
+    wöhnliches hier[pause][\x0203]Seit sie ge-
     fasst wurden,
     sind sie ruhig.[pause]
   - |-
@@ -2067,8 +2067,8 @@ strings:
     hier bleiben?[pause][\x0203]Ich will auch
     kämpfen...[pause]
   - |-
-    [\x0207]Teddy[\x0207]Ich werd' ver[-4]
-    suchen, Jugger[-4]
+    [\x0207]Teddy[\x0207]Ich werd' ver-
+    suchen, Jugger-
     naut zu stoppen![pause][\x0203]Also viel Glück
     [\x020801][\x020501]![pause]
   - a
@@ -2077,7 +2077,7 @@ strings:
     [\x0207]Datamon[\x0207]Dies ist der Keller
     von Asuka City, hier
     bin ich zuständig![pause][\x0203]Ich verwalte auch das
-    ausgediente Keller[-4]
+    ausgediente Keller-
     tor von Asuka City![pause]
   - |-
     [\x0207]Datamon[\x0207]Hmm? Was willst
@@ -2096,7 +2096,7 @@ strings:
     [\x0207][\x020902]3Hmm, ich hab's
     immer noch nicht.
     Kunst ist schwierig...[pause]
-  - "[\\x0207]Teddy[\\x0207]Ich habe Zugriff\naufs opt. Netz.[pause][\\x0203]Aber sehr insta[-4]\nbil, Verbindung \nist schnell weg...[pause]"
+  - "[\\x0207]Teddy[\\x0207]Ich habe Zugriff\naufs opt. Netz.[pause][\\x0203]Aber sehr insta-\nbil, Verbindung \nist schnell weg...[pause]"
   - a
   - a
   - a

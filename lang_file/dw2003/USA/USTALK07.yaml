@@ -249,7 +249,7 @@ strings:
     [\x0207]Miko[\x0207]Ooioioioioi, oi!
     Oi, oinkk![pause]
   - "[\\x0207]Miko[\\x0207]I would've preferred \nbeing turned into a \nhamster![pause][\\x0203]Then I could've\ntalked to Hamjiro![pause]"
-  - "[\\x0207]Gatomon[\\x0207]Wow, I woke up and\neveryone was a \nDigimon![pause][\\x0203]Wha[-4]what \nhappened?![pause]"
+  - "[\\x0207]Gatomon[\\x0207]Wow, I woke up and\neveryone was a \nDigimon![pause][\\x0203]Wha-what \nhappened?![pause]"
   - "[\\x0207]Gatomon[\\x0207]It's all the A.o.A's \nfault![pause][\\x0203]How can they do \nthis?[pause]"
   - "[\\x0207]Gatomon[\\x0207]I've heard of you!\nThank you very \nmuch![pause][\\x0203]Now we can feel\nbetter doing our \njobs![pause]"
   - "[\\x0207]Gatomon[\\x0207]Everyone turned into \nDigimon again![pause][\\x0203]I thought you \ndefeated the A.o.A?![pause]"
@@ -651,7 +651,7 @@ strings:
   - a
   - a
   - a
-  - "[\\x0207]Miser Reagan[\\x0207]Maybe it's because I've \nbeen so self[-4]centered.[pause][\\x0203]I'll try harder to be \nmore giving...[pause]"
+  - "[\\x0207]Miser Reagan[\\x0207]Maybe it's because I've \nbeen so self-centered.[pause][\\x0203]I'll try harder to be \nmore giving...[pause]"
   - |-
     [\x0207]Miser Reagan[\x0207]Ooin, ooinik,
     oooiioinio, oink![pause]
@@ -710,7 +710,7 @@ strings:
   - "[\\x0207]Tamer Heinrich[\\x0207]Hey, since we're \nhere, how about \na battle?[pause]"
   - "[\\x0207]Tamer Heinrich[\\x0207]Leader thought \nthat I was weak and \nput me on watch...[pause][\\x0203]If only I was just a \nlittle stronger...[pause]"
   - |-
-    [\x0207]Tamer Heinrich[\x0207]Hey, come on [-4]
+    [\x0207]Tamer Heinrich[\x0207]Hey, come on -
     duel with me![pause]
   - "[\\x0207]Tamer Heinrich[\\x0207]See, I can do it\ntoo![pause][\\x0203]I think my talents \nare wasted![pause]"
   - "[\\x0207]Tamer Heinrich[\\x0207]...hey, you're \nstrong![pause][\\x0203]You weren't lying\nwhen you said you \ncame here alone.[pause]"
@@ -800,7 +800,7 @@ strings:
     I'm lonely...
     It's A.o.A's fault![pause]
   - "[\\x0207]Patamon[\\x0207]I hope people will\ncome here again![pause][\\x0203]It's so boring being \nhere alone![pause]"
-  - "[\\x0207]Patamon[\\x0207]Wha[-4]what should I\ndo?![pause][\\x0203]A strange Digimon \ncame and Hideki got \nturned into Oinkmon![pause]"
+  - "[\\x0207]Patamon[\\x0207]Wha-what should I\ndo?![pause][\\x0203]A strange Digimon \ncame and Hideki got \nturned into Oinkmon![pause]"
   - '43'
   - "[\\x0207]Fire Master[\\x0207]I'm glad you're\nnot the A.o.A![pause][\\x0203]Use that power \nfor good![pause]"
   - "[\\x0207]Fire Master[\\x0207]The fighting\nis coming to\nan end.[pause][\\x0203]Use your \npowers to help \nothers![pause]"
@@ -1153,7 +1153,7 @@ strings:
     Cannon![pause][\x0203]I'll fuse the two
     weapons to create
     a more powerful one![pause]
-  - "[\\x0207]Shurimon[\\x0207]You got both Rusty \nRifle and Cluster \nCannon![pause][\\x0203]Will you give them\nto me?[pause][\\x0203]Shurimon[-4]way\nWeapon Evolution!\n...ayeeeeeya![pause][\\x0203]...good! It is now\nCluster Cannon.[pause][\\x0203]I will give this to\nyou, so use it\ncarefully![pause]"
+  - "[\\x0207]Shurimon[\\x0207]You got both Rusty \nRifle and Cluster \nCannon![pause][\\x0203]Will you give them\nto me?[pause][\\x0203]Shurimon-way\nWeapon Evolution!\n...ayeeeeeya![pause][\\x0203]...good! It is now\nCluster Cannon.[pause][\\x0203]I will give this to\nyou, so use it\ncarefully![pause]"
   - |-
     [\x0207]Nohemon[\x0207]Isn't Zodiac great?
     Use it well![pause]
@@ -1170,7 +1170,7 @@ strings:
     Rusty Glove
     and Kaiser Fist![pause][\x0203]OK, give them to me.
     Don't worry, I won't
-    take them.[pause][\x0203]OK, here we go.[pause][\x0203]...look at that [-4]
+    take them.[pause][\x0203]OK, here we go.[pause][\x0203]...look at that -
     you got Zodiac![pause][\x0203]OK, I'll give this
     back to you.
     Use this well![pause]

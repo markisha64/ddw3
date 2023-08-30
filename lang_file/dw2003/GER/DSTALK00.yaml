@@ -14,7 +14,7 @@ strings:
   - |-
     [\x0207]Irrer Jack[\x0207]Gib deinem Digimon eine
     Waffe und es bekommt
-    mehr Angriffskraft.[pause][\x0203]Nicht alle Digimon kön[-4]
+    mehr Angriffskraft.[pause][\x0203]Nicht alle Digimon kön-
     nen die gleiche Waffe
     haben.[pause]
   - a
@@ -25,7 +25,7 @@ strings:
     einen, aber den kannst
     du nicht sehen.[pause]
   - |-
-    [\x0207]Energische Yuki[\x0207]Digimon[-4]Online macht
+    [\x0207]Energische Yuki[\x0207]Digimon-Online macht
     viel Spaβ! Ich find's
     echt klasse![pause]
   - |-
@@ -34,11 +34,11 @@ strings:
     den Anführer besiegen.[pause][\x0203]Nach Seiryu City geht
     es östlich von hier.[pause]
   - |-
-    [\x0207]Gamer Takashi[\x0207]Im Digimon[-4]Labor
+    [\x0207]Gamer Takashi[\x0207]Im Digimon-Labor
     da vorne lernen sie
     alles über Digimon.[pause]
   - |-
-    [\x0207]Neuling Shiro[\x0207]Die Matrix[-4]Kammer ist
+    [\x0207]Neuling Shiro[\x0207]Die Matrix-Kammer ist
     einfach unglaublich![pause][\x0203]Wir sind tatsächlich
     im Netz.[pause]
   - |-
@@ -67,13 +67,13 @@ strings:
   - |-
     [\x0207]Oma Beth[\x0207]Wir sind hier, weil
     wir Digimon werden
-    möchten.[pause][\x0203]Es gibt eine Möglich[-4]
+    möchten.[pause][\x0203]Es gibt eine Möglich-
     keit, Digimon zu
     werden. Weiβt du wie?[pause]
   - |-
     [\x0207]Guilmon[\x0207]Auch nach dem Kampf
     verschwinden die
-    Verletzungen nicht.[pause][\x0203]Wenn du Kapseln ver[-4]
+    Verletzungen nicht.[pause][\x0203]Wenn du Kapseln ver-
     wendest oder schläfst,
     geht es uns besser.[pause]
   - a
@@ -101,38 +101,38 @@ strings:
   - |-
     [\x0207]Divermon[\x0207]Willkommen bei Gelber
     Kreuzer, ein Paradies
-    für Karten[-4]Maniacs![pause]
+    für Karten-Maniacs![pause]
   - |-
     [\x0207]Kartenkenner Ken[\x0207]Was? Du willst
     die Spielregeln
     kennen lernen?[pause]
   - |-
     [\x0207]Sammler Luke[\x0207]Ich erkläre
-    dir die Karten[-4]
+    dir die Karten-
     Spielregeln.[pause]
   - |-
     [\x0207]Ponchomon[\x0207]Hola Amigo,
     willkommen![pause][\x0203]Die ist ein Eldorado
-    für Item[-4]Maniacs![pause]
+    für Item-Maniacs![pause]
   - a
   - |-
     [\x0207]Guide[\x0207]Willkommen. Ich erkläre
-    dir, wie Digimon[-4]Online
+    dir, wie Digimon-Online
     funktioniert.[pause][\x0203]Welches Thema
     interessiert dich?[pause]
   - |-
     [\x0207]Guide[\x0207]...Ich hab' Angst,
     aber ich muss ja.[pause][\x0203]Willkommen. Ich erkläre
-    dir, wie Digimon[-4]Online
+    dir, wie Digimon-Online
     funktioniert.[pause][\x0203]Welches Thema
     interessiert dich?[pause]
   - |-
     [\x0207]Guide[\x0207]Oinkoink?
-    Oink oi[-4]nk?[pause]
+    Oink oi-nk?[pause]
   - '43'
   - |-
     [\x0207]Renamon[\x0207]Wie du in das
-    Admin[-4]Center
+    Admin-Center
     kommst? Sorry...[pause]
   - |-
     [\x0207]Renamon[\x0207]Deine Partner
@@ -146,7 +146,7 @@ strings:
     werden und kämpfen.[pause]
   - |-
     [\x0207]Renamon[\x0207]Irgendwo gibt es
-    bestimmt ein un[-4]
+    bestimmt ein un-
     besiegbares Digimon...[pause][\x0203]Ich würde gerne
     einmal gegen dieses
     Digimon kämpfen...[pause]
@@ -167,12 +167,12 @@ strings:
     voran. Ich
     beneide dich.[pause]
   - |-
-    [\x0207]Renamon[\x0207]Du bist ziem[-4]
+    [\x0207]Renamon[\x0207]Du bist ziem-
     lich gut![pause][\x0203]Wenn ich stark
     genug bin, möchte
     ich mit dir kämpfen![pause]
   - |-
-    [\x0207]Renamon[\x0207]Wa[-4]was ist
+    [\x0207]Renamon[\x0207]Wa-was ist
     das denn?![pause][\x0203]Menschen, die
     zu Digimon
     werden?[pause]
@@ -209,7 +209,7 @@ strings:
     Er war als Etemon
     verkleidet![pause][\x0203]Frag' ihn, er
     weiβ viel über
-    Digimon[-4]Anzüge![pause][\x0203]Viel Glück dann. Ich
+    Digimon-Anzüge![pause][\x0203]Viel Glück dann. Ich
     warte am
     Untergrundpfad![pause]
   - a
@@ -218,7 +218,7 @@ strings:
     gehört, er ist zum
     Divermonsee gelaufen![pause][\x0203]...er ist ein böser
     Typ![pause][\x0203]Ich schäme mich, der
-    gleiche Digimon[-4]
+    gleiche Digimon-
     Typ zu sein wie er![pause]
   - a
   - a
@@ -247,13 +247,13 @@ strings:
     her.[pause][\x0203]Wir Divermon in der
     Stadt öffnen sie.[pause]
   - |-
-    [\x0207]Teilzeit[-4]Gau[\x0207]Sorry, weiter
+    [\x0207]Teilzeit-Gau[\x0207]Sorry, weiter
     geht's nicht...[pause]
   - |-
-    [\x0207]Guide[\x0207]Das ist der Digimon[-4]
-    Online Help[-4]Counter.[pause]
+    [\x0207]Guide[\x0207]Das ist der Digimon-
+    Online Help-Counter.[pause]
   - |-
-    [\x0207]Tamer[-4]Service[\x0207]Willkommen. Hier
+    [\x0207]Tamer-Service[\x0207]Willkommen. Hier
     findest du Tipps
     zum Spielen.[pause][\x0203]Diese Daten werden
     auf deinem Satelliten
@@ -295,7 +295,7 @@ strings:
     einfach nicht...[pause]
   - |-
     [\x0207]Tamer Nacky[\x0207]Es klappt nicht,
-    ich mache erst[-4]
+    ich mache erst-
     mal Pause.[pause]
   - |-
     [\x0207]Tamer Nacky[\x0207]Wir wäre es mit
@@ -312,7 +312,7 @@ strings:
     ist toll! Das
     Beste überhaupt.[pause]
   - |-
-    [\x0207]Tamer Wong[\x0207]Karten[-4]Kampf
+    [\x0207]Tamer Wong[\x0207]Karten-Kampf
     ist toll![pause][\x0203]Ich vergesse
     immer ganz
     die Zeit.[pause]
@@ -444,7 +444,7 @@ strings:
     auslachen![pause]
   - |-
     [\x0207]Tamer Gloria[\x0207]...hier!
-    ...und hier![pause][\x0203]Digimon[-4]Online
+    ...und hier![pause][\x0203]Digimon-Online
     ist spitze![pause]
   - |-
     [\x0207]Tamer Gloria[\x0207]...hier!
@@ -452,7 +452,7 @@ strings:
     ist das Beste![pause]
   - |-
     [\x0207]Tamer Gloria[\x0207]...hier!
-    ...und hier![pause][\x0203]Seit A.o.A ge[-4]
+    ...und hier![pause][\x0203]Seit A.o.A ge-
     fangen wurde,
     ist alles cool![pause]
   - |-
@@ -460,7 +460,7 @@ strings:
     ..oink, oink![pause]
   - a
   - |-
-    [\x0207]Tamer Gloria[\x0207]Oh, der näch[-4]
+    [\x0207]Tamer Gloria[\x0207]Oh, der näch-
     ste Kampf
     beginnt![pause][\x0203]Sorry,
     nächstes Mal![pause]
@@ -484,19 +484,19 @@ strings:
   - |-
     [\x0207]Rapper Mike[\x0207]Yo, man!
     Zeig mir deine
-    Eldorado[-4]ID![pause][\x0203]Zutritt nur
+    Eldorado-ID![pause][\x0203]Zutritt nur
     für coole
     Klubmitglieder![pause]
   - |-
     [\x0207]Rapper Mike[\x0207]Yo, man.
-    Nur Klub[-4]
+    Nur Klub-
     Mitglieder kommen rein![pause][\x0203]Typen mit hässlichen
     Digimon bleiben
     drauβen![pause]
   - |-
     [\x0207]Rapper Mike[\x0207]In Eldorado trifft
     sich der coole
-    Haufen.[pause][\x0203]Seltene Sammler[-4]
+    Haufen.[pause][\x0203]Seltene Sammler-
     stücke gibt in der
     Stadt des Goldes![pause]
   - |-
@@ -530,7 +530,7 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Teilzeit[-4]Gau[\x0207]Oink,
+    [\x0207]Teilzeit-Gau[\x0207]Oink,
     oooink, oink![pause]
   - a
   - a
@@ -581,11 +581,11 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Digimon[-4]Fan Mary[\x0207]Mein Digimon soll
+    [\x0207]Digimon-Fan Mary[\x0207]Mein Digimon soll
     zu Gallantmon
     digitieren...[pause]
   - |-
-    [\x0207]Irrer Phillip[\x0207]Auβer Digimon[-4]
+    [\x0207]Irrer Phillip[\x0207]Auβer Digimon-
     Kämpfen...[pause][\x0203]Kannst du mit deinen
     Karten kämpfen![pause][\x0203]Um Weltmeister zu
     werden, musst du
@@ -670,7 +670,7 @@ strings:
   - |-
     [\x0207]Ponchomon[\x0207]Du bist cool.
     Du kriegst eine
-    Eldorado[-4]ID.[pause]
+    Eldorado-ID.[pause]
   - a
   - a
   - a
@@ -686,11 +686,11 @@ strings:
   - a
   - |-
     [\x0207]Gamer Takashi[\x0207]Die Mädels im
-    Digimon[-4]Labor
+    Digimon-Labor
     sind so hübsch.[pause][\x0203]Ich bin ihr
     treuester Fan![pause]
   - |-
-    [\x0207]Energische Yuki[\x0207]Digimon[-4]Online macht
+    [\x0207]Energische Yuki[\x0207]Digimon-Online macht
     so viel Spaβ![pause][\x0203]Ich langweile
     mich hier
     nie![pause]
@@ -700,7 +700,7 @@ strings:
     tut weh![pause][\x0203]Es ist also
     doch kein Traum![pause]
   - |-
-    [\x0207]Digimon[-4]Fan Mary[\x0207]Hmm, wozu soll
+    [\x0207]Digimon-Fan Mary[\x0207]Hmm, wozu soll
     mein Digimon
     digitieren...?[pause][\x0203]Ist Gallantmon
     oder Beelzemon
@@ -711,7 +711,7 @@ strings:
     sollte jedes Attribut
     verstehen.[pause]
   - |-
-    [\x0207]Irrer Phillip[\x0207]Auβer Digimon[-4]
+    [\x0207]Irrer Phillip[\x0207]Auβer Digimon-
     Kämpfen...[pause][\x0203]Kannst du mit
     Karten kämpfen![pause][\x0203]Um Weltmeister zu
     werden, musst bei
@@ -783,7 +783,7 @@ strings:
   - a
   - |-
     [\x0207]Gamer Takashi[\x0207]Die Mädels im
-    Digimon[-4]Labor
+    Digimon-Labor
     sind so hübsch.[pause][\x0203]Da schlägt mir
     das Herz
     höher.[pause]
@@ -800,7 +800,7 @@ strings:
   - |-
     [\x0207]Energische Yuki[\x0207]Woher wusstest
     du das?[pause][\x0203]Digimon, die nicht im
-    Starter[-4]Pack waren,
+    Starter-Pack waren,
     sind auch Partner![pause]
   - a
   - a
@@ -820,7 +820,7 @@ strings:
     können?[pause]
   - |-
     [\x0207]Neuling Shiro[\x0207]Wie bitte? Ins
-    Administration[-4]
+    Administration-
     Center?[pause][\x0203]Keine Ahnung, ich
     bin neu hier.[pause]
   - |-
@@ -862,11 +862,11 @@ strings:
     oiiiink![pause]
   - '43'
   - |-
-    [\x0207]Digimon[-4]Fan Mary[\x0207]Wen magst
+    [\x0207]Digimon-Fan Mary[\x0207]Wen magst
     du, Sukamon oder
     Vegiemon?[pause][\x0203]Ich mag beide! Sonst
     bist du kein echter
-    Digimon[-4]Fan![pause]
+    Digimon-Fan![pause]
   - a
   - a
   - a
@@ -886,7 +886,7 @@ strings:
   - |-
     [\x0207]Faulpelz Alan[\x0207]Normale Tamer
     können nicht ins
-    Administration[-4]Center.[pause][\x0203]Manchmal gehen aber
+    Administration-Center.[pause][\x0203]Manchmal gehen aber
     verlorene Digimon rein.[pause]
   - |-
     [\x0207]Faulpelz Alan[\x0207]Noch ein verlorenes
@@ -905,8 +905,8 @@ strings:
     steckt?[pause]
   - |-
     [\x0207]Faulpelz Alan[\x0207]Oh wie
-    schrecklich![pause][\x0203]A.o.A[-4]Soldaten im
-    Administration[-4]
+    schrecklich![pause][\x0203]A.o.A-Soldaten im
+    Administration-
     Center![pause]
   - |-
     [\x0207]Faulpelz Alan[\x0207]Die A.o.A sind
@@ -923,7 +923,7 @@ strings:
   - |-
     [\x0207]Faulpelz Alan[\x0207]Alle A.o.As wurden
     festgenommen![pause][\x0203]Jetzt gibt es keine
-    Cyber[-4]Terroristen mehr![pause]
+    Cyber-Terroristen mehr![pause]
   - |-
     [\x0207]Faulpelz Alan[\x0207]Oink,
     oink, oinnk![pause]
@@ -959,7 +959,7 @@ strings:
     beeindruckt![pause]
   - |-
     [\x0207]Miss Misha[\x0207]Ich würde jederzeit
-    für MAGAMI arbeiten.[pause][\x0203]Und Game[-4]
+    für MAGAMI arbeiten.[pause][\x0203]Und Game-
     master helfen![pause]
   - |-
     [\x0207]Miss Misha[\x0207]Die
@@ -994,7 +994,7 @@ strings:
     System  werfen...[pause]
   - |-
     [\x0207]Erfinder Tony[\x0207]Du hast mich
-    erschreckt! Ver[-4]
+    erschreckt! Ver-
     lorenes Digimon.[pause][\x0203]Hey, willst
     du mein
     Partner sein?[pause]
@@ -1160,7 +1160,7 @@ strings:
     möglich.[pause]
   - |-
     [\x0207]Agumon[\x0207]Du willst in das
-    Administration[-4]
+    Administration-
     Center?[pause][\x0203]Wir Digimon können
     hinein, aber
     ihr nicht![pause]
@@ -1275,12 +1275,12 @@ strings:
     wir nicht in die
     zurück?[pause][\x0203]Hoffentlich ist
     nichts passiert.[pause]
-  - "[\\x0207]Masahiro[\\x0207]Dank Game[-4] \nmaster fühle ich \nich besser.[pause][\\x0203]Ich habe mir \nbloβ zu viele \nSorgen gemacht[pause]"
+  - "[\\x0207]Masahiro[\\x0207]Dank Game- \nmaster fühle ich \nich besser.[pause][\\x0203]Ich habe mir \nbloβ zu viele \nSorgen gemacht[pause]"
   - "[\\x0207]Masahiro[\\x0207]Es sollte\nalles OK \nsein...[pause][\\x0203]Aber ich habe\nein komisches\nGefühl...[pause]"
   - "[\\x0207]Masahiro[\\x0207]Es sollte\nalles OK \nsein...[pause][\\x0203]Aber ich habe\nein komisches\nGefühl...[pause]"
   - |-
-    [\x0207]Masahiro[\x0207]Die A.o.A ha[-4]
-    en das Admin[-4]
+    [\x0207]Masahiro[\x0207]Die A.o.A ha-
+    en das Admin-
     Center erobert![pause][\x0203]So ein Pech![pause]
   - |-
     [\x0207]Masahiro[\x0207]Ich hatte
@@ -1301,7 +1301,7 @@ strings:
     [\x0207]Jake[\x0207]Mein Traum ist es,
     Digimon zu werden.[pause][\x0203]Wer kann mir diesen
     Traum wohl erfüllen?[pause]
-  - "[\\x0207]Jake[\\x0207]Mein Agumon[-4] \nAnzug ist weg.[pause]"
+  - "[\\x0207]Jake[\\x0207]Mein Agumon- \nAnzug ist weg.[pause]"
   - "[\\x0207]Jake[\\x0207]Beth und ich \nbereuen \nnichts.[pause][\\x0203]Nur, dass \nwir Digimon \ngeworden sind.[pause]"
   - |-
     [\x0207]Jake[\x0207]Diese L.o.L. od.
@@ -1334,7 +1334,7 @@ strings:
     geschrieen.[pause]
   - |-
     [\x0207]Oma[\x0207]Das falsche Agumon
-    ist ins Administration[-4]
+    ist ins Administration-
     Center gegangen.[pause][\x0203]Wir haben auch
     was abbekommen.[pause]
   - |-
@@ -1370,7 +1370,7 @@ strings:
   - "[\\x0207]Masato[\\x0207]Mensch!\nWann können \nwir zurück?[pause][\\x0203]Tomomi macht\nSchluss, wenn\nich zu spät komme![pause]"
   - "[\\x0207]Masato[\\x0207]Mensch!\nWann können \nwir zurück?[pause][\\x0203]Tomomi macht\nSchluss, wenn\nich zu spät komme![pause]"
   - |-
-    [\x0207]Masato[\x0207]Ich habe sie gese[-4]
+    [\x0207]Masato[\x0207]Ich habe sie gese-
     hen! Es sind die
     A.o.A![pause]
   - "[\\x0207]Masato[\\x0207]Die A.o.A\nsind an allem \nschuld![pause][\\x0203]Tomomi wird\ndas schon\nverstehen![pause]"
@@ -1437,7 +1437,7 @@ strings:
   - |-
     [\x0207]Irrer Jack[\x0207]Die A.o.A
     greifen an?
-    Sieh' an![pause][\x0203]Hoffentlich ha[-4]
+    Sieh' an![pause][\x0203]Hoffentlich ha-
     ben sie Guilmon
     nicht gekriegt.[pause]
   - "[\\x0207]Irrer Jack[\\x0207]Oh man!\nGuilmon ist \nimmer noch weg![pause][\\x0203]Wo ist\ner bloβ?![pause]"
@@ -1806,7 +1806,7 @@ strings:
     Tamer überhaupt![pause]
   - |-
     [\x0207]Tamer Gloria[\x0207]...hier!
-    ...und hier![pause][\x0203]Digimon[-4]Online ist
+    ...und hier![pause][\x0203]Digimon-Online ist
     das Beste![pause]
   - a
   - a
@@ -1821,18 +1821,18 @@ strings:
     sind Digimon![pause][\x0203]Ein Traum hat
     sich erfüllt![pause]
   - |-
-    [\x0207]Oma Beth[\x0207]Dieser Agumon[-4]Anzug
+    [\x0207]Oma Beth[\x0207]Dieser Agumon-Anzug
     ist toll! Oder?[pause][\x0203]Haben wir von Etemon.[pause]
   - |-
-    [\x0207]Tamer[-4]Service[\x0207]Alle sind in
+    [\x0207]Tamer-Service[\x0207]Alle sind in
     Ordnung.[pause][\x0203]Gott sei Dank.
     Bin ich froh...[pause][\x0203]Willkommen. Hier
     findest Du Tipps
     zum Spielen.[pause][\x0203]Ich zeige Daten
-    auf deinem Sa[-4]
+    auf deinem Sa-
     telliten an.[pause]
   - |-
-    [\x0207]Digimon[-4]Offizier[\x0207]Ooooioioioioi!
+    [\x0207]Digimon-Offizier[\x0207]Ooooioioioioi!
     Oiiiiioink![pause]
   - '43'
   - a
@@ -1927,7 +1927,7 @@ strings:
   - '43'
   - |-
     [\x0207]Die liebe Kimmy[\x0207]Du hast auch 'ne
-    Eldorado[-4]ID?[pause][\x0203]Dann sind wir
+    Eldorado-ID?[pause][\x0203]Dann sind wir
     schon zwei![pause]
   - |-
     [\x0207]Die liebe Kimmy[\x0207]Von hier aus
@@ -1968,36 +1968,36 @@ strings:
   - '43'
   - |-
     [\x0207]Gamer Hiroshi[\x0207]MAGAMIs Spiel war
-    ziemlich schlecht...[pause][\x0203]Aber Digimon[-4]Online
+    ziemlich schlecht...[pause][\x0203]Aber Digimon-Online
     ist klasse!
     Hat mich überrascht.[pause]
   - |-
     [\x0207]Gamer Hiroshi[\x0207]MAGAMIs Spiel war
-    ziemlich schlecht...[pause][\x0203]Aber Digimon[-4]Online
+    ziemlich schlecht...[pause][\x0203]Aber Digimon-Online
     ist klasse!
     Hat mich überrascht.[pause]
   - |-
     [\x0207]Gamer Hiroshi[\x0207]MAGAMI hat sich
     unter diesem neuen
     Präsidenten verbessert.[pause][\x0203]Keiner weiβ etwas
-    Genaues über ihn.[pause][\x0203]Er empfängt nieman[-4]
+    Genaues über ihn.[pause][\x0203]Er empfängt nieman-
     den, das Ganze ist
     ziemlich mysteriös.[pause]
   - |-
     [\x0207]Gamer Hiroshi[\x0207]MAGAMI hat sich
     unter diesem neuen
     Präsidenten verbessert.[pause][\x0203]Keiner weiβ etwas
-    Genaues über ihn.[pause][\x0203]Er empfängt nieman[-4]
+    Genaues über ihn.[pause][\x0203]Er empfängt nieman-
     den, das Ganze ist
     ziemlich mysteriös.[pause]
   - |-
     [\x0207]Gamer Hiroshi[\x0207]MAGAMI hat sich
     unter diesem neuen
     Präsidenten verbessert.[pause][\x0203]Keiner weiβ etwas
-    Genaues über ihn.[pause][\x0203]Er empfängt nieman[-4]
+    Genaues über ihn.[pause][\x0203]Er empfängt nieman-
     den, das Ganze ist
     ziemlich mysteriös.[pause]
-  - "[\\x0207]Gamer Hiroshi[\\x0207]MAGAMI hat viel \nGeld für Digimon[-4]\nOnline ausgegeben...[pause][\\x0203]Keiner weiβ, wo sie\ndas ganze Geld\nher haben...[pause]"
+  - "[\\x0207]Gamer Hiroshi[\\x0207]MAGAMI hat viel \nGeld für Digimon-\nOnline ausgegeben...[pause][\\x0203]Keiner weiβ, wo sie\ndas ganze Geld\nher haben...[pause]"
   - |-
     [\x0207]Gamer Hiroshi[\x0207]Gamemaster war
     bei den A.o.A![pause][\x0203]MAGAMI war die
@@ -2026,12 +2026,12 @@ strings:
   - a
   - a
   - a
-  - "[\\x0207]Tamer[-4]Service[\\x0207]Soll ich dann\ndein Partner[-4] \nDigimon rufen?[pause]"
+  - "[\\x0207]Tamer-Service[\\x0207]Soll ich dann\ndein Partner- \nDigimon rufen?[pause]"
   - a
   - |-
     [\x0207]Kail[\x0207]...warum bist du
     wieder da?![pause][\x0203]Frag' mal nach den
-    Digimon[-4]Anzügen![pause]
+    Digimon-Anzügen![pause]
   - a
   - a
   - |-

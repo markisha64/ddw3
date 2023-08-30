@@ -7,9 +7,9 @@ strings:
     Booster öffnen?[pause][\x0203]OK, Augenblick.[pause]
   - |-
     [\x0207]Guardromon[\x0207]ZUGREIFEN AUF
-    MATRIX[-4]DRIVE.[pause]
+    MATRIX-DRIVE.[pause]
   - |-
-    [\x0207]Guardromon[\x0207]ICH BIN SPEICHER[-4]
+    [\x0207]Guardromon[\x0207]ICH BIN SPEICHER-
     OFFIZIER GUADROMON.[pause][\x0203]WENN DU SPEICHERN
     WILLST, WENDE DICH
     AN EIN GUARDROMON.[pause]
@@ -23,16 +23,16 @@ strings:
     [\x0207]Gatomon[\x0207]...Willkommen
     in meinem Inn![pause][\x0203]Fühl' dich
     wie zu Hause.[pause]
-  - "[\\x0207]Seiryu[-4]Leader[\\x0207]Das Notfallzimmer\nim Nordsektor\nbefindet sich...[pause][\\x0203]Im Keller von \n\"Kulon[-4]Bergwerk\".[pause][\\x0203]Du brauchst dafür\naber vier\nLeader[-4]Abzeichen.[pause]"
-  - "[\\x0207]Byakko[-4]Leader[\\x0207]Das Notfallzimmer\nim Nordsektor\nbefindet sich...[pause][\\x0203]Im Keller von \n\"Kulon[-4]Bergwerk\".[pause][\\x0203]Du brauchst dafür\naber vier\nLeader[-4]Abzeichen.[pause]"
+  - "[\\x0207]Seiryu-Leader[\\x0207]Das Notfallzimmer\nim Nordsektor\nbefindet sich...[pause][\\x0203]Im Keller von \n\"Kulon-Bergwerk\".[pause][\\x0203]Du brauchst dafür\naber vier\nLeader-Abzeichen.[pause]"
+  - "[\\x0207]Byakko-Leader[\\x0207]Das Notfallzimmer\nim Nordsektor\nbefindet sich...[pause][\\x0203]Im Keller von \n\"Kulon-Bergwerk\".[pause][\\x0203]Du brauchst dafür\naber vier\nLeader-Abzeichen.[pause]"
   - |-
-    [\x0207]Genbu Leader[\x0207]Die Notfall[-4]Kammer,
+    [\x0207]Genbu Leader[\x0207]Die Notfall-Kammer,
     die in die echte Welt
     führt, befindet sich...[pause][\x0203]ganz unten im Verlies
-    des "Kulon[-4]Bergwerks"
+    des "Kulon-Bergwerks"
     in diesem Sektor.[pause][\x0203]Du brauchst dafür
     aber vier
-    Leader[-4]Abzeichen.[pause]
+    Leader-Abzeichen.[pause]
   - a
   - |-
     [\x0207]Heulsuse Maria[\x0207]Ich habe Elle
@@ -72,7 +72,7 @@ strings:
     es hier![pause]
   - |-
     [\x0207]Agumon[\x0207]Ein Weg ins
-    Administration[-4]
+    Administration-
     Center?[pause][\x0203]Ich wusste nicht,
     dass Menschen auch
     hinein können.[pause]
@@ -83,15 +83,15 @@ strings:
     treffen.[pause]
   - |-
     [\x0207]Sarah[\x0207]Was, ein Weg
-    ins Admin[-4]
+    ins Admin-
     Center?[pause][\x0203]Ich dachte, da
     kann man nicht
     rein?[pause]
-  - "[\\x0207]Seiryu Leader[\\x0207]Was?! \nEin weg ins \nAdministration[-4]Center?[pause][\\x0203]Davon weiβ ich nichts.\nFrag' jemand\nanderes.[pause]"
+  - "[\\x0207]Seiryu Leader[\\x0207]Was?! \nEin weg ins \nAdministration-Center?[pause][\\x0203]Davon weiβ ich nichts.\nFrag' jemand\nanderes.[pause]"
   - |-
     [\x0207]Guilmon[\x0207]Digimon kommen
-    leicht ins Admini[-4]
-    stration[-4]Center.[pause][\x0203]Aber Menschen...
+    leicht ins Admini-
+    stration-Center.[pause][\x0203]Aber Menschen...
     Ich weiβ nicht.[pause]
   - "[\\x0207]Agumon[\\x0207]Eins und zwei,\nund eins und\nzwei![pause][\\x0203]Ich mache \nmich stark für\nLeader![pause]"
   - |-
@@ -275,14 +275,14 @@ strings:
     oin, oink![pause]
   - '43'
   - |-
-    [\x0207]Piximon[\x0207]Ich bin Digimon[-4]
+    [\x0207]Piximon[\x0207]Ich bin Digimon-
     Offizier pi! Was
     willst du pi?[pause]
   - |-
     [\x0207]Manager Sasaki[\x0207]Wir sind die
     Konkurrenz von
     MAGAMI.[pause][\x0203]Verrat' uns nicht, wir
-    spionieren Digimon[-4]
+    spionieren Digimon-
     Online aus![pause]
   - |-
     [\x0207]Miss Olivia[\x0207]Warum macht das
@@ -291,7 +291,7 @@ strings:
   - |-
     [\x0207]Doppelter Tom[\x0207]Seiryu Leader
     trainiert in den
-    Protocol[-4]Ruinen.[pause][\x0203]Das liegt nord[-4]
+    Protocol-Ruinen.[pause][\x0203]Das liegt nord-
     westlich von hier.[pause]
   - |-
     [\x0207]Doppelter Tom[\x0207]Um in den Westsektor
@@ -309,13 +309,13 @@ strings:
     wohl nicht so gut
     wie unsere.[pause]
   - |-
-    [\x0207]Doppelter Tom[\x0207]Ein Weg ins Admin[-4]
-    istration[-4]Center?[pause][\x0203]Keine Chance, zu
+    [\x0207]Doppelter Tom[\x0207]Ein Weg ins Admin-
+    istration-Center?[pause][\x0203]Keine Chance, zu
     gut gesichert.[pause]
   - |-
-    [\x0207]Manager Sasaki[\x0207]Miss Olivia ist nei[-4]
+    [\x0207]Manager Sasaki[\x0207]Miss Olivia ist nei-
     disch auf den
-    Gamemaster.[pause][\x0203]Gamemaster ist näm[-4]
+    Gamemaster.[pause][\x0203]Gamemaster ist näm-
     lich eine Frau.[pause]
   - |-
     [\x0207]Miss Olivia[\x0207]Was kümmert mich
@@ -323,9 +323,9 @@ strings:
     nicht alles![pause]
   - a
   - |-
-    [\x0207]Manager Sasaki[\x0207]Miss Olivia ist neid[-4]
+    [\x0207]Manager Sasaki[\x0207]Miss Olivia ist neid-
     isch auf den
-    Gamemaster.[pause][\x0203]Gamemaster ist näm[-4]
+    Gamemaster.[pause][\x0203]Gamemaster ist näm-
     lich eine Frau.[pause]
   - |-
     [\x0207]Miss Olivia[\x0207]Was kümmert mich
@@ -354,14 +354,14 @@ strings:
     Spione?[pause]
   - |-
     [\x0207]Manager Sasaki[\x0207]Wir wollen natürlich
-    auch ein gutes Pro[-4]
+    auch ein gutes Pro-
     dukt herausbringen.[pause][\x0203]Wenn das so einfach
     wäre, gäbe es nicht
     so viele Probleme.[pause]
   - |-
     [\x0207]Miss Olivia[\x0207]Ok, Sasaki![pause][\x0203]Wir müssen was
     Besseres bieten
-    als Digimon[-4]Online.[pause]
+    als Digimon-Online.[pause]
   - |-
     [\x0207]Doppelter Tom[\x0207]Mitglieder der A.o.A
     sind drinnen![pause][\x0203]Die gehören bestimmt
@@ -377,11 +377,11 @@ strings:
     steckte also
     hinter ihnen...[pause][\x0203]Das ist das Ende
     für MAGAMI![pause]
-  - "[\\x0207]Doppelter Tom[\\x0207]Die zwei behal[-4]\nte ich im Auge[pause][\\x0203]Wenn die \nA.o.A sind,\nschlag ich sie![pause]"
+  - "[\\x0207]Doppelter Tom[\\x0207]Die zwei behal-\nte ich im Auge[pause][\\x0203]Wenn die \nA.o.A sind,\nschlag ich sie![pause]"
   - |-
     [\x0207]Manager Sasaki[\x0207]Ich will auch
     nach Hause.[pause][\x0203]Ob ich wohl
-    frei wegen Über[-4]
+    frei wegen Über-
     stunden kriege?[pause]
   - |-
     [\x0207]Miss Olivia[\x0207]Warum können wir
@@ -399,7 +399,7 @@ strings:
     echte Welt![pause]
   - |-
     [\x0207]Miss Olivia[\x0207]Ich hatte gerade
-    eine tolle Idee![pause][\x0203]Cookiemon[-4]Online!
+    eine tolle Idee![pause][\x0203]Cookiemon-Online!
     Das wird ein Hit![pause]
   - |-
     [\x0207]Doppelter Tom[\x0207]Oi, oink,
@@ -440,7 +440,7 @@ strings:
     zu tun hat?[pause]
   - |-
     [\x0207]Starker Kyle[\x0207]Ein Weg ins
-    Administration[-4]
+    Administration-
     Center?[pause][\x0203]Mit dem Kopf voraus!
     Das ist der einzige
     Weg![pause]
@@ -451,11 +451,11 @@ strings:
   - |-
     [\x0207]Lena[\x0207]Wo Lucky Mouse
     wohl ist?[pause][\x0203]Bestimmt in dem
-    Asuka[-4]Server.[pause]
+    Asuka-Server.[pause]
   - |-
     [\x0207]Lena[\x0207]Wo Lucky Mouse
     wohl ist?[pause][\x0203]Bestimmt in dem
-    Asuka[-4]Server.[pause]
+    Asuka-Server.[pause]
   - |-
     [\x0207]Starker Kyle[\x0207]Welche sind die
     starken Digimon?[pause][\x0203]Ich will das
@@ -470,7 +470,7 @@ strings:
     stark.[pause][\x0203]Marsmon ist aber
     auch stark.[pause]
   - |-
-    [\x0207]Lena[\x0207]Der Tamer, der Game[-4]
+    [\x0207]Lena[\x0207]Der Tamer, der Game-
     master geschlagen hat,
     ist Lucky Mouse![pause][\x0203]Er unterstützt uns![pause]
   - |-
@@ -481,7 +481,7 @@ strings:
     hat, ist gut![pause]
   - "[\\x0207]Lena[\\x0207]War das etwa\nein Erdbeben?[pause][\\x0203]Das war wohl \nStärke 6 oder\nmehr![pause]"
   - |-
-    [\x0207]Starker Kyle[\x0207]Das war ein star[-4]
+    [\x0207]Starker Kyle[\x0207]Das war ein star-
     kes Erdbeben.[pause][\x0203]Ich hasse das. Ich
     dachte, das wäre
     das Ende.[pause]
@@ -492,7 +492,7 @@ strings:
     Lucky Mouse
     gewinnen wird![pause]
   - |-
-    [\x0207]Starker Kyle[\x0207]Ich will weiter[-4]
+    [\x0207]Starker Kyle[\x0207]Ich will weiter-
     machen, aber...[pause][\x0203]Lehrer Ayumi hat
     es verboten.
     Schade![pause]
@@ -518,17 +518,17 @@ strings:
   - a
   - |-
     [\x0207]Lehrer Ayumi[\x0207]Warum willst du
-    in das Admin[-4]
+    in das Admin-
     Center?[pause][\x0203]Du hast doch nichts
     Böses vor, oder?[pause]
   - |-
     [\x0207]Lehrer Ayumi[\x0207]Ich leite auch den
-    Game[-4]Club an der
+    Game-Club an der
     Schule.[pause][\x0203]Ich habe aber noch
     nicht so viel gespielt.[pause]
   - |-
     [\x0207]Lehrer Ayumi[\x0207]Ich leite auch den
-    Game[-4]Club an der
+    Game-Club an der
     Schule.[pause][\x0203]Ich habe aber noch
     nicht so viel gespielt.[pause]
   - |-
@@ -547,12 +547,12 @@ strings:
   - |-
     [\x0207]Lehrer Ayumi[\x0207]Ich konnte nicht
     ahnen, dass es so
-    gefährlich wird![pause][\x0203]Digimon[-4]Online
+    gefährlich wird![pause][\x0203]Digimon-Online
     sollte verboten
     werden![pause]
   - |-
     [\x0207]Lehrer Ayumi[\x0207]Wenn man es richtig
-    spielt, ist Digimon[-4]
+    spielt, ist Digimon-
     Online spaβig![pause][\x0203]Ich begeleite meine
     Schüler nun öfter.[pause]
   - |-
@@ -583,7 +583,7 @@ strings:
     im Fanclub![pause]
   - |-
     [\x0207]Suzaku Leader[\x0207]Was, ein Weg ins
-    Administration[-4]Center?[pause][\x0203]Das ist unmöglich, es
+    Administration-Center?[pause][\x0203]Das ist unmöglich, es
     gibt keinen Weg.[pause]
   - |-
     [\x0207]Renamon[\x0207]Was? Du
@@ -641,7 +641,7 @@ strings:
     Spiel verdorben![pause]
   - |-
     [\x0207]Renamon[\x0207]Leader hat sich den
-    Schaden des Erd[-4]
+    Schaden des Erd-
     bebens angesehen.[pause][\x0203]Sie ist immer so
     verantwortungsvoll![pause]
   - |-
@@ -663,7 +663,7 @@ strings:
     [\x0207]Renamon[\x0207]Ihr werdet
     echt gut![pause][\x0203]Ich freue mich
     auf das nächste
-    Server[-4]Turnier![pause]
+    Server-Turnier![pause]
   - |-
     [\x0207]Patamon[\x0207]Der Tanz der
     Floramon ist
@@ -680,7 +680,7 @@ strings:
   - |-
     [\x0207]Patamon[\x0207]Alle haben sich in
     Digimon verwandelt!
-    Warum?[pause][\x0203]Schade, der Wett[-4]
+    Warum?[pause][\x0203]Schade, der Wett-
     kampf der Floramon
     wird abgesagt![pause]
   - |-
@@ -696,7 +696,7 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Byakko[-4]Bürger 08[\x0207]In dieser Stadt sind
+    [\x0207]Byakko-Bürger 08[\x0207]In dieser Stadt sind
     noch mehr Spieler![pause][\x0203]Du bildest dir nur
     ein, dass du sie
     nicht sehen kannst.[pause]
@@ -710,10 +710,10 @@ strings:
     in die Höhle gehen.[pause][\x0203]Alle A.o.As sind dort
     eingeschlossen.[pause]
   - |-
-    [\x0207]Operator Remy[\x0207]Du hast den Game[-4]
+    [\x0207]Operator Remy[\x0207]Du hast den Game-
     master von Asuka
     besiegt![pause][\x0203]Danke, der Plan des
-    Leaders war erfolg[-4]
+    Leaders war erfolg-
     reich![pause]
   - |-
     [\x0207]Wachposten Max[\x0207]Nach dem Sieg gegen
@@ -729,17 +729,17 @@ strings:
     trainieren![pause]
   - |-
     [\x0207]Klassensprecher Aiko[\x0207]Leader ist ein toller
-    Kerl![pause][\x0203]Ihm ist es zu ver[-4]
+    Kerl![pause][\x0203]Ihm ist es zu ver-
     danken, dass wir die
     Stadt zurückhaben.[pause]
   - |-
     [\x0207]Byakko Leader[\x0207]Ich bin für die
-    Stadt verantwort[-4]
+    Stadt verantwort-
     lich![pause][\x0203]Also keine Sorge
     nur die Ruhe![pause]
   - |-
     [\x0207]Operator Remy[\x0207]Max ist stark und
-    verantwortungs[-4]
+    verantwortungs-
     voll![pause][\x0203]Wir haben eine
     Verabredung![pause]
   - |-
@@ -757,7 +757,7 @@ strings:
     die A.o.A vorhatten![pause]
   - |-
     [\x0207]Byakko Leader[\x0207]Wegen dir sind
-    die A.o.A weg![pause][\x0203]Wenn das Matrix[-4]
+    die A.o.A weg![pause][\x0203]Wenn das Matrix-
     System wieder da
     ist, ist alles OK![pause]
   - |-
@@ -804,14 +804,14 @@ strings:
   - a
   - |-
     [\x0207]Tamer Chris[\x0207]Endlich habe ich
-    Digimon[-4]Online
+    Digimon-Online
     erreicht![pause][\x0203]Schade, wenn ich
     nicht kämpfen
     könnte![pause]
   - |-
     [\x0207]Tamer Chris[\x0207]Jetzt kann ich
     umsonst spielen![pause][\x0203]Schade, wenn
-    ich nicht käm[-4]
+    ich nicht käm-
     pfen könnte![pause]
   - |-
     [\x0207]Tamer Chris,[\x0207]Mach' dir keine
@@ -825,7 +825,7 @@ strings:
   - a
   - |-
     [\x0207]Tamer Chris[\x0207]Du bist so
-    schwach. Zeit[-4]
+    schwach. Zeit-
     verschwendung![pause][\x0203]Nächstes Mal
     übergehe ich
     dich einfach.[pause]
@@ -834,7 +834,7 @@ strings:
     mit Karten![pause]
   - |-
     [\x0207]Tamer Chris[\x0207]Also los!
-    Digimon[-4]Kampf![pause]
+    Digimon-Kampf![pause]
   - |-
     [\x0207]Tamer Chris[\x0207]Du bist ja
     wirklich gut.[pause][\x0203]Wie schaffst
@@ -847,7 +847,7 @@ strings:
   - |-
     [\x0207]Tamer Chris[\x0207]Hey, habe grad'
     eine neue
-    Karte gekriegt.[pause][\x0203]Dieses Mal ver[-4]
+    Karte gekriegt.[pause][\x0203]Dieses Mal ver-
     liere ich nicht.[pause]
   - |-
     [\x0207]Tamer Chris[\x0207]Jaaa! Gewinnen
@@ -879,11 +879,11 @@ strings:
     ...dir kämpfen.[pause]
   - |-
     [\x0207]Tamer Alice[\x0207]...wenn es..
-    ...ein Karten[-4]
+    ...ein Karten-
     Kampf ist...[pause]
   - |-
     [\x0207]Tamer Alice[\x0207]...wenn es...
-    ...ein Digimon[-4]
+    ...ein Digimon-
     Kampf ist...[pause]
   - |-
     [\x0207]Tamer Alice[\x0207]...nein, Danke...
@@ -910,7 +910,7 @@ strings:
     das Zeughaus[pause]
   - |-
     [\x0207]Wizardmon[\x0207]Willkommen im
-    Item[-4]Shop![pause]
+    Item-Shop![pause]
   - "[\\x0207]Gomamon[\\x0207]Das ist das\nPfandleihhaus. \nWas willst du?[pause]"
   - a
   - a
@@ -923,16 +923,16 @@ strings:
   - |-
     [\x0207]DO Wache[\x0207]Habe gehört.
     Also schnell zum
-    Kulon[-4]Bergwerk![pause][\x0203]Und geh' in die
+    Kulon-Bergwerk![pause][\x0203]Und geh' in die
     Kammer![pause]
   - |-
     [\x0207]DO Wache[\x0207]Was passiert mit
-    dem Amaterasu[-4]
+    dem Amaterasu-
     Server?[pause][\x0203]Ich bin besorgt
     wegen Chuck...[pause]
   - |-
     [\x0207]DO Wache[\x0207]Ich bin froh, dass
-    Chuck OK ist![pause][\x0203]Habe eh nicht ge[-4]
+    Chuck OK ist![pause][\x0203]Habe eh nicht ge-
     glaubt, er führt
     den Widerstand![pause]
   - |-
@@ -969,13 +969,13 @@ strings:
     Leader besiegt?[pause][\x0203]Dann setzen wir die
     Hoffnung auf dich.[pause]
   - |-
-    [\x0207]DO Wache[\x0207]Sie haben Jugger[-4]
+    [\x0207]DO Wache[\x0207]Sie haben Jugger-
     naut genommen![pause][\x0203]Dagegen können wir
     jetzt nichts mehr
     machen, oder?[pause]
   - |-
     [\x0207]DO Wache[\x0207]Genbu Leader hat
-    gesagt...[pause][\x0203]Erwachsene be[-4]
+    gesagt...[pause][\x0203]Erwachsene be-
     schützen die
     Welt nicht...[pause][\x0203]...ihr mutigen
     Kinder tut dies![pause]
@@ -989,16 +989,16 @@ strings:
     haben.[pause][\x0203]Für dein Alter
     bist du weit.[pause]
   - |-
-    [\x0207]Opa Tor[\x0207]Wäre ich jün[-4]
+    [\x0207]Opa Tor[\x0207]Wäre ich jün-
     ger, würde ich
     es ihnen zeigen.[pause][\x0203]Ich beneide dich,
     mein Junge![pause]
   - |-
-    [\x0207]Opa Tor[\x0207]Willst du kämpf[-4]
+    [\x0207]Opa Tor[\x0207]Willst du kämpf-
     en, musst du
     stärker werden.[pause][\x0203]Hör' auf meinen
     Rat.[pause]
-  - "[\\x0207]Opa Tor[\\x0207]Ich bin ein be[-4]\nrühmter Autor.[pause][\\x0203]Kann ich einen \nRoman über dich\nschreiben?[pause][\\x0203]Das wird bestimmt\nein Bestseller![pause]"
+  - "[\\x0207]Opa Tor[\\x0207]Ich bin ein be-\nrühmter Autor.[pause][\\x0203]Kann ich einen \nRoman über dich\nschreiben?[pause][\\x0203]Das wird bestimmt\nein Bestseller![pause]"
   - |-
     [\x0207]Opa Tor[\x0207]Oooink!
     Ooink, oooink![pause]
@@ -1013,7 +1013,7 @@ strings:
   - '43'
   - |-
     [\x0207][\x020902]3Yeah! Ich hab'
-    Recovery[-4]Disk![pause]
+    Recovery-Disk![pause]
   - |-
     [\x0207]Tamer Alice[\x0207]...was...?
     Du willst mit...
@@ -1027,13 +1027,13 @@ strings:
   - |-
     [\x0207]DRI Jimmy[\x0207]Hast Du Zeit?
     Dann kannst du
-    mir helfen.[pause][\x0203]Bring mir Guilmon[-4]
+    mir helfen.[pause][\x0203]Bring mir Guilmon-
     DDNA von
     WarGrowlmon.[pause][\x0203]Schaffst du das,
     gebe ich dir
     Guilmon als Partner![pause]
   - |-
-    [\x0207]DRI Jimmy[\x0207]Guilmon[-4]DDNA!
+    [\x0207]DRI Jimmy[\x0207]Guilmon-DDNA!
     Danke![pause][\x0203]Hier hast du Guilmon
     als Partner, wie
     versprochen![pause][\x0203]Geh' zu Dr. Kadomatsu
@@ -1045,7 +1045,7 @@ strings:
     Ooin, oink![pause]
   - |-
     [\x0207]Tamer Chris[\x0207]Endlich geschafft
-    nach Digimon[-4]
+    nach Digimon-
     Online![pause][\x0203]Schade, wenn ich
     nicht kämpfen
     könnte![pause]
@@ -1090,18 +1090,18 @@ strings:
   - |-
     [\x0207]Wizardmon[\x0207]Wir Wizardmon kümmern
     uns um den
-    Item[-4]Shop.[pause]
+    Item-Shop.[pause]
   - |-
     [\x0207]Piximon[\x0207]Ich verwalte die
-    Digimon[-4]Daten, pi![pause][\x0203]Wenn du Digimon
+    Digimon-Daten, pi![pause][\x0203]Wenn du Digimon
     tauschen willst,
     komm' zu mir, pi![pause]
   - |-
-    [\x0207]Gargomon[\x0207]Gargomon verwal[-4]
+    [\x0207]Gargomon[\x0207]Gargomon verwal-
     ten das Zeughaus.[pause]
   - |-
     [\x0207]Divermon[\x0207]Wir kümmern uns
-    um Booster[-4]Packs.[pause][\x0203]Wenn du eins öffnen
+    um Booster-Packs.[pause][\x0203]Wenn du eins öffnen
     willst, komm' zu
     uns.[pause]
   - a
@@ -1113,25 +1113,25 @@ strings:
     [\x0207]Seiryu Leader[\x0207]Hey, du bist
     der...[pause]
   - |-
-    [\x0207]Trick[-4]Guilmon[\x0207]Hmmm?
+    [\x0207]Trick-Guilmon[\x0207]Hmmm?
     Blaue Karte?[pause][\x0203]Habe ich! Willst
     du sie?[pause][\x0203]Hier hast du
     sie![pause]
   - |-
-    [\x0207]Byakko[-4]Bürger[\x0207]Sorry, hier geht
+    [\x0207]Byakko-Bürger[\x0207]Sorry, hier geht
     es nicht durch.[pause][\x0203]Wir haben dich!
     Ha ha ha ha ha![pause]
   - '[\x0207][\x020902]3Es ist zu...[pause]'
   - |-
-    [\x0207]Soldat[\x0207]Bulbmon ist ein Trans[-4]
-    port[-4]Digimon der A.o.A.[pause][\x0203]Es kann Löcher im Netz
+    [\x0207]Soldat[\x0207]Bulbmon ist ein Trans-
+    port-Digimon der A.o.A.[pause][\x0203]Es kann Löcher im Netz
     öffnen und zwischen den
     Servern wechseln![pause][\x0203]...macht aber keinen
     besonderen Spaβ...[pause]
   - |-
-    [\x0207]Soldat[\x0207]Bulbmon ist etwas selt[-4]
+    [\x0207]Soldat[\x0207]Bulbmon ist etwas selt-
     sam, nachdem es das
-    Schutzfeld traf![pause][\x0203]Dann hat es uns raus[-4]
+    Schutzfeld traf![pause][\x0203]Dann hat es uns raus-
     geschmissen...[pause][\x0203]Lief Rtg. Südsektor.
     Was ist passiert?[pause]
   - |-
@@ -1161,7 +1161,7 @@ strings:
     ich die A.o.A
     verlassen...[pause]
   - |-
-    [\x0207]General[\x0207]Was?! Haupt[-4]
+    [\x0207]General[\x0207]Was?! Haupt-
     mann besiegt?[pause][\x0203]Da hast du
     Glück gehabt.
     Heh, heh, heh[pause]
@@ -1185,7 +1185,7 @@ strings:
     sei vorsichtig.[pause]
   - |-
     [\x0207]DO Wache[\x0207]Wir lassen Sie
-    nicht entkommen![pause][\x0203]Schrei', wenn et[-4]
+    nicht entkommen![pause][\x0203]Schrei', wenn et-
     was ist.[pause]
   - |-
     [\x0207]DO Wache[\x0207]Toll, dass A.o.A
@@ -1208,26 +1208,26 @@ strings:
     blockiert es...[pause]
   - a
   - |-
-    [\x0207]Speicher[-4]Offizier?[\x0207]Hier kannst du
+    [\x0207]Speicher-Offizier?[\x0207]Hier kannst du
     nicht speichern.[pause][\x0203]Speichere
     woanders.[pause]
   - |-
-    [\x0207]Digimon[-4]Off.?[\x0207]Digimon
+    [\x0207]Digimon-Off.?[\x0207]Digimon
     tauschen?[pause][\x0203]Das ist jetzt
     leider nicht
     möglich.[pause]
   - |-
     [\x0207]Zeughaus?[\x0207]Wir haben keine
     Waffen zum
-    Verkauf![pause][\x0203]Wir sind be[-4]
+    Verkauf![pause][\x0203]Wir sind be-
     schäftigt. Lass'
     uns in Ruhe.[pause]
   - |-
-    [\x0207]Zeughaus?[\x0207]Wir haben geschlos[-4]
+    [\x0207]Zeughaus?[\x0207]Wir haben geschlos-
     sen. Wir verkaufen
     nichts mehr.[pause]
   - |-
-    [\x0207]Inn[-4]Rezeption[\x0207]Dies ist die
+    [\x0207]Inn-Rezeption[\x0207]Dies ist die
     Rezeption![pause][\x0203]Du kannst hier
     nicht bleiben!
     Auf Wiedersehen![pause]
@@ -1240,10 +1240,10 @@ strings:
   - |-
     [\x0207]Maya[\x0207]Ich würde Asuka
     Server so gerne
-    von oben sehen![pause][\x0203]Er muss wunder[-4]
+    von oben sehen![pause][\x0203]Er muss wunder-
     schön sein![pause]
   - |-
-    [\x0207]Maya[\x0207]Die A.o.A gefan[-4]
+    [\x0207]Maya[\x0207]Die A.o.A gefan-
     gen? Stimmt das?[pause][\x0203]Klasse! Jetzt fühle
     ich mich sicher.[pause]
   - |-
@@ -1287,32 +1287,32 @@ strings:
     kämpfe ich auch![pause][\x0203]Ab jetzt trainiere
     ich mein Digimon![pause]
   - |-
-    [\x0207]Byakko[-4]Bürger[\x0207]Heh heh heh!
+    [\x0207]Byakko-Bürger[\x0207]Heh heh heh!
     Byakko Leader
     wartet auf dich![pause]
   - |-
-    [\x0207]Byakko[-4]Bürger[\x0207]Heh heh heh, sieht
+    [\x0207]Byakko-Bürger[\x0207]Heh heh heh, sieht
     nach einem neuen
     starken Leader aus![pause]
   - |-
-    [\x0207]Byakko[-4]Bürger[\x0207]Hey, Kid, du
+    [\x0207]Byakko-Bürger[\x0207]Hey, Kid, du
     forderst den
     Leader heraus?[pause][\x0203]Ich wette 100
     BIT auf dich![pause]
   - |-
-    [\x0207]Byakko[-4]Bürger[\x0207]Geh zum
+    [\x0207]Byakko-Bürger[\x0207]Geh zum
     Leader![pause][\x0203]Er wartet schon
     auf dich![pause]
   - |-
-    [\x0207]Byakko[-4]Bür.[\x0207]Ach, der ist
+    [\x0207]Byakko-Bür.[\x0207]Ach, der ist
     nur ein Kind![pause][\x0203]Der ist keine
     Gefahr![pause]
   - |-
-    [\x0207]Byakko[-4]Bürger[\x0207]Sorry, hier geht
+    [\x0207]Byakko-Bürger[\x0207]Sorry, hier geht
     es nicht durch.[pause][\x0203]Geh' zum
     Leader![pause]
   - |-
-    [\x0207]Byakko[-4]Bürger?[\x0207]Geh' hinunter und
+    [\x0207]Byakko-Bürger?[\x0207]Geh' hinunter und
     verhalte dich ruhig
     wie alle anderen![pause][\x0203]Was? Da ist keiner?
     Lüg' mich nicht an![pause][\x0203]Keiner entkommt aus
@@ -1321,7 +1321,7 @@ strings:
     [\x0207]Miss Olivia[\x0207]Wegen der Digimon
     macht es Spaβ![pause][\x0203]Ohne sie wäre es
     nur ein normales
-    Online[-4]Game.[pause]
+    Online-Game.[pause]
   - |-
     [\x0207]Genbu Leader[\x0207]Du musst die
     Pläne der A.o.A
@@ -1357,7 +1357,7 @@ strings:
   - |-
     [\x0207]Guilmon[\x0207]Genbu Leader ist
     hier der Gröβte![pause][\x0203]Er ist der beste
-    aller City[-4]
+    aller City-
     Leader![pause]
   - |-
     [\x0207]Guilmon[\x0207]Ich weiβ, du hast
@@ -1373,7 +1373,7 @@ strings:
   - |-
     [\x0207]Guilmon[\x0207]8laue Karte???
     ...?![pause][\x0203]Ach, das ist ein
-    Bluff von Trick[-4]
+    Bluff von Trick-
     Guilmon.[pause][\x0203]Er ist gerade
     weggerannt.[pause][\x0203]Er versteckt sich
     bestimmt irgendwo[pause][\x0203]Frag' mal meinen
@@ -1384,7 +1384,7 @@ strings:
     bestimmt irgendwo
     unten...[pause]
   - |-
-    [\x0207]Trick[-4]Guilmon[\x0207]Warum regis[-4]
+    [\x0207]Trick-Guilmon[\x0207]Warum regis-
     trierst du den
     Account nicht?[pause][\x0203]...heh heh[pause]
   - |-
@@ -1412,7 +1412,7 @@ strings:
     [\x0207]General[\x0207]...Hmm?!
     Wer bist du?[pause]
   - |-
-    [\x0207]Soldat[\x0207]A.o.A sind unbe[-4]
+    [\x0207]Soldat[\x0207]A.o.A sind unbe-
     siegbar! Du hast
     nicht gewonnen![pause][\x0203]Wir werden am
     Ende gewinnen.[pause]

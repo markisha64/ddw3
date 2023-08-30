@@ -12,9 +12,9 @@ strings:
   - TECHNIQUES
   - STATUS
   - CARD FOLDERS
-  - '-----'
-  - --
-  - '----'
+  - ーーーーー
+  - ーー
+  - ーーーー
   - |-
     Change Digimon formation
     [triangle] Button: Back to Menu
@@ -58,7 +58,7 @@ strings:
   - No
   - Digivolve
   - EXP
-  - '--------'
+  - ーーーーーーーー
   - Choose digivolve
   - Skill LV
   - Battle Digivolve On
@@ -84,7 +84,7 @@ strings:
   - Left
   - TP
   - Left or Right
-  - Two[-4]handed
+  - Two-handed
   - Unequip current equipment.
   - HP healed to maximum.
   - '[\x020501] HP healed.'
@@ -111,4 +111,4 @@ strings:
   - No Important Items.
   - Not enough MP.
   - No effect.
-  - '-'
+  - ー

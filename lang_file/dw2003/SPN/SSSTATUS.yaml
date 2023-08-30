@@ -12,9 +12,9 @@ strings:
   - TÉCNICAS
   - ESTADO
   - CARP. CARTAS
-  - '[-4][-4][-4][-4][-4]'
-  - '[-4][-4]'
-  - '[-4][-4][-4][-4]'
+  - '-----'
+  - '--'
+  - '----'
   - |-
     Camb. formaci. Digimon
     Botón [triangle]: Volver al Menú
@@ -58,7 +58,7 @@ strings:
   - No
   - Digievol.
   - EXP
-  - '[-4][-4][-4][-4][-4][-4][-4][-4]'
+  - '--------'
   - Seleccionar digievo.
   - NV Hb.
   - Digievol. Bat. act.
@@ -111,4 +111,4 @@ strings:
   - Ningún Artículo Import.
   - PM insuficiente.
   - Ningún efecto.
-  - '[-4]'
+  - '-'

@@ -6,21 +6,21 @@ strings:
   - 'Satz: Kumamon, Guilmon, Patamon.'
   - Item zum Treten des Tretbaums.
   - Item zum Fischen.
-  - Digital[-4]DNA von Agumon.
+  - Digital-DNA von Agumon.
   - Item für Angelrute
   - Zum Betreten eines Geschäfts.
-  - Abzeichen des Seiryu[-4]Meisters.
-  - Abzeichen des Suzaku[-4]Meisters.
-  - Abzeichen des Byakko[-4]Meisters.
-  - Abzeichen des Genbu[-4]Meisters.
+  - Abzeichen des Seiryu-Meisters.
+  - Abzeichen des Suzaku-Meisters.
+  - Abzeichen des Byakko-Meisters.
+  - Abzeichen des Genbu-Meisters.
   - Zanbamon hasst diesen Geruch.
   - Zum Zerstören der Schreinwand.
   - Als Agumon verkleiden.
   - Item Rufen nach Submarinemon.
   - Item Rufen nach Digimon.
-  - Asuka Server Duellkönig[-4]Symbol.
-  - Digital[-4]DNA von Kotemon.
-  - Amaterasu Server Duellkönig[-4]Symb..
+  - Asuka Server Duellkönig-Symbol.
+  - Digital-DNA von Kotemon.
+  - Amaterasu Server Duellkönig-Symb..
   - Verlorene Maske von Sepikmon.
   - A.o.A Qing Long Häuptling.
   - A.o.A Zhu Que  Häuptling.
@@ -34,15 +34,15 @@ strings:
   - àüÍんよíµ
   - àüÍんよíµ
   - àüÍんよíµ
-  - Digital[-4]DNA von Guilmon.
-  - Digital[-4]DNA von Veemon.
-  - Die mächtigste König[-4]Symbol[-4]Karte
+  - Digital-DNA von Guilmon.
+  - Digital-DNA von Veemon.
+  - Die mächtigste König-Symbol-Karte
   - Eintrittskarte zum Trödelladen.
-  - Digital[-4]DNA von Renamon.
-  - Digital[-4]DNA von Patamon.
-  - Rang 2 Training[-4]Ticket.
-  - Rang 3 Training[-4]Ticket.
-  - Rang 4 Training[-4]Ticket.
+  - Digital-DNA von Renamon.
+  - Digital-DNA von Patamon.
+  - Rang 2 Training-Ticket.
+  - Rang 3 Training-Ticket.
+  - Rang 4 Training-Ticket.
   - HP um 500 heilen
   - HP um 2000 heilen
   - HP um 5000 heilen
@@ -85,10 +85,10 @@ strings:
   - Maschinenfeld anlegen.
   - Dunkelfeld anlegen.
   - Zufallsfeld anlegen.
-  - Feind[-4]HP absorbieren.
+  - Feind-HP absorbieren.
   - Verbündeten in die Irre führen.
-  - Fd.[-4]Verteidg. senk., Strk. erhöh.
-  - Fd.[-4]Verteid. u. [-4]Strk. senken.
+  - Fd.-Verteidg. senk., Strk. erhöh.
+  - Fd.-Verteid. u. -Strk. senken.
   - Spinnennetz behindert Bewegung.
   - Feuerschaden durch Schieβpulver.
   - Pack à 6 Kampfkarten.
@@ -100,12 +100,12 @@ strings:
   - Schwert mit glänzender Klinge.
   - Legendäres Samuaraischwert
   - Zum Abhacken von Monsterarm.
-  - Höchster Katana[-4]Rang.
-  - Einschneidiges Phantom[-4]Schwert.
+  - Höchster Katana-Rang.
+  - Einschneidiges Phantom-Schwert.
   - Rost mit geheim. Glanz.
   - Katana vom Meister geschmiedet.
   - Legendäres Katana.
-  - Wiederbelebtes Phantom[-4]Schwert.
+  - Wiederbelebtes Phantom-Schwert.
   - Lederhandschuh.
   - Hauen wie eine Katze.
   - Metallverstärkte Binde.
@@ -117,9 +117,9 @@ strings:
   - Blitzschnell schlagen.
   - Mythische Handschuhe.
   - Verrosted & wirkungslos.
-  - Bestie[-4]Power geladen.
+  - Bestie-Power geladen.
   - Handschuhe, die Träger wählen.
-  - Leuchtende Phantom[-4]Handschuhe.
+  - Leuchtende Phantom-Handschuhe.
   - Kleines einfaches Gewehr.
   - Einhdig zu benutz. autom. Waffe.
   - 1 Schuss verursacht gr. Schaden.
@@ -140,7 +140,7 @@ strings:
   - Alter Wahrsagerstab.
   - Schutz vor dem Bösen.
   - Magischer Kristallstab.
-  - Regierungs[-4]Power.
+  - Regierungs-Power.
   - Magie ruht noch.
   - Stab mit mysteriösen Strahlen.
   - Stab rein durch heilige Kraft.
@@ -153,8 +153,8 @@ strings:
   - Waffe zielt auf Schwachpkt.
   - Vergiftet Wunde.
   - Mystischer Dämonenzahn.
-  - Klaue m. historischer Bestien[-4]DNA
-  - Klaue zum Ko[-4]schlagen des Gegners
+  - Klaue m. historischer Bestien-DNA
+  - Klaue zum Ko-schlagen des Gegners
   - 1 Schlag zerstückelt den Feind.
   - Mythische Klaue v. Bestienkönig.
   - Kurzmesser für Anfänger.
@@ -163,9 +163,9 @@ strings:
   - Persisches Krummschwert.
   - Gut für schnelle Angriffe.
   - Legiert und kraftvoll.
-  - Eingraviertes Mut[-4]Wappen.
+  - Eingraviertes Mut-Wappen.
   - Heiliges Schwert gegen das Böse
-  - Teil von DNA[-4]digitiertes  Digimon
+  - Teil von DNA-digitiertes  Digimon
   - Dämonschw. z. Vereis. d. Feindes.
   - Bambusspeer als Rute.
   - Einfach und kraftvoll.
@@ -173,8 +173,8 @@ strings:
   - Gr. Speerspitze mit gr. Wirkung.
   - Lanze aus versteinertem Knochen.
   - Gr. Schaden für Unterwasserfeind.
-  - Saugt Gegner[-4]HP ab.
-  - Heil. Schw. für Königl.[-4]Ritter.
+  - Saugt Gegner-HP ab.
+  - Heil. Schw. für Königl.-Ritter.
   - Speer für Orochiabwehr.
   - Br. zweihändiges Schwert.
   - Beidh. schwingen u. hacken.
@@ -195,23 +195,23 @@ strings:
   - Mit Schieβmechanismus.
   - Engelbogen gegen böse Digimon.
   - Rabenfluch irritiert Feind.
-  - Power[-4]Bogen mit Schnellfeuer.
+  - Power-Bogen mit Schnellfeuer.
   - Höchster Engelsbogen
-  - Teil von DNA[-4]digitiertes  Digimon
+  - Teil von DNA-digitiertes  Digimon
   - Verbotene Waffen.
-  - Kl. Verteidig.[-4]Waffe für Angriff.
-  - Verteidig.[-4]Waffe für Angriff.
-  - Metall[-4]Verteid.[-4]Waffe für Angriff
+  - Kl. Verteidig.-Waffe für Angriff.
+  - Verteidig.-Waffe für Angriff.
+  - Metall-Verteid.-Waffe für Angriff
   - Effizient u. geschickt f. Angriff
-  - Legendäre Dramon[-4]Powerladung.
+  - Legendäre Dramon-Powerladung.
   - Schnellrotierend für Angriff.
-  - Power[-4]Guard als Waffe.
+  - Power-Guard als Waffe.
   - Göttl. Ladung zerstört Feind.
   - Hörner f. Kopfstöβe.
   - Mit Bohrerform verstärkt.
-  - Horn z. k.o.[-4]Schlagen des Feindes
+  - Horn z. k.o.-Schlagen des Feindes
   - Horn zum Lähmen des Körpers.
-  - Legendäres Horn m. Dramon[-4]Power.
+  - Legendäres Horn m. Dramon-Power.
   - Schneidend, brutales Horn.
   - 3 Hörner von Kopf bis zur Nase.
   - Myth. Horn eines hlg. Tieres.
@@ -243,11 +243,11 @@ strings:
   - Leicht u. einfach zum Ausweichen.
   - Robuster & leichter Helm.
   - Legendärer Kampfhelm.
-  - Legendärer Ronin[-4]Helm.
-  - Eingraviertes Mut[-4]Wappen.
+  - Legendärer Ronin-Helm.
+  - Eingraviertes Mut-Wappen.
   - Legendärer Wildnishelm
-  - Aus Digitama[-4]Muschel.
-  - Angriff[-4]Analyse & Rückzug.
+  - Aus Digitama-Muschel.
+  - Angriff-Analyse & Rückzug.
   - Aus Maschinendramons Kopf.
   - Jacke aus Leder.
   - Leichter Kampfanzug.
@@ -256,7 +256,7 @@ strings:
   - Mantel vertreibt Dunkel.
   - Jacke bei arktischer Kälte.
   - Robe mit heiligem Licht.
-  - Legendärer Sniper[-4]Anzug.
+  - Legendärer Sniper-Anzug.
   - Alter Wahrsageranzug.
   - Legendärer Kampfanzug.
   - Resistent gegen Maschinen.
@@ -265,13 +265,13 @@ strings:
   - Rüstung aus Leder.
   - Rüstung aus leichtem Metall.
   - Robuste Eisenausrüstung.
-  - Mit Digitama[-4]Muscheln.
+  - Mit Digitama-Muscheln.
   - Ausrüstung mit dunkler Kraft.
   - Robuste & leichte Ausrüstung.
-  - Leg. Ausrüstung m. Dramon[-4]Power.
-  - Leg. Ronin[-4]Ausrüstung.
+  - Leg. Ausrüstung m. Dramon-Power.
+  - Leg. Ronin-Ausrüstung.
   - Leg. Wildnisausrüstung.
-  - Eingraviertes Mut[-4]Wappen.
+  - Eingraviertes Mut-Wappen.
   - Glänzende Ausrüstung.
   - Macht Träger schwer erkennbar.
   - Ausrüstung flammendrot.
@@ -282,13 +282,13 @@ strings:
   - Weitreichende Hürde.
   - Robustes & leichtes Schild.
   - Hürde mit heiligem Licht.
-  - Legendäre Sniper[-4]Barrikade.
+  - Legendäre Sniper-Barrikade.
   - Alter Wahrsagerwall.
-  - Legendäres Ronin[-4]Schild.
+  - Legendäres Ronin-Schild.
   - Legendäre Schulterkappe.
-  - Eingraviertes Mut[-4]Wappen.
+  - Eingraviertes Mut-Wappen.
   - Legendäres Wildnisschild.
-  - Legendäres Dramon[-4]Power[-4]Schild.
+  - Legendäres Dramon-Power-Schild.
   - Glänzendes Schild.
   - Schild für Lebensschutz.
   - Legendäres Gottesschild.
@@ -315,7 +315,7 @@ strings:
   - Lähmungsresistenter.
   - Schlafresistenter.
   - Verwirrungsresistenter
-  - KO[-4]resistenter.
+  - KO-resistenter.
   - Kann zweimal angreifen
   - Erhöht wichtig. Angriffe.
   - Autom. Revanche.
@@ -360,7 +360,7 @@ strings:
   - Etwas Dunkelheit bei Angriff.
   - Dunkelheit bei Angriff.
   - Viel Dunkelheit bei Angriff.
-  - Digital[-4]DNA von Monmon.
+  - Digital-DNA von Monmon.
   - Pack à 6 Kampfkarten.
   - Pack à 6 Kampfkarten.
   - Pack à 6 Kampfkarten.
@@ -395,11 +395,11 @@ strings:
   - Pack à 6 seltene Kampfkarten.
   - Pack à 6 seltene Kampfkarten.
   - Pack à 6 seltene Kampfkarten.
-  - Digital[-4]DNA von Kumamon
-  - A.o.A. kurzleb. Soldat[-4]ID.
-  - Amater.[-4]Etemons Mikro
+  - Digital-DNA von Kumamon
+  - A.o.A. kurzleb. Soldat-ID.
+  - Amater.-Etemons Mikro
   - Karte für die Gondel.
   - Karte für die Gondel?
   - àüÍんよíµ
-  - Asuka[-4]DO[-4]Personal[-4]ID.
+  - Asuka-DO-Personal-ID.
   - Tasche für 3 Kartenordner.

@@ -15,7 +15,7 @@ strings:
   - '[cross]'
   - MP
   - HP
-  - '---'
+  - ーーー
   - /
   - L1
   - R1
@@ -26,7 +26,7 @@ strings:
   - '[\x020501]・[\x020502]'
   - '[\x020501]・[\x020502]・[\x020503]'
   - Skill
-  - --
+  - ーー
   - Switch
   - DNA DV
   - Evade!
@@ -36,7 +36,7 @@ strings:
   - Sleep!
   - '[\x020501]HP healed!'
   - '[\x020501] X [\x020502] = [\x020503]!'
-  - '-'
+  - ー
   - Counter!
   - Stole
   - HP gradually recovers.

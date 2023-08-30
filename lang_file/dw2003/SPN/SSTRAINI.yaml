@@ -93,7 +93,7 @@ strings:
   - Defensa Máquina
   - Defensa Oscur.
   - '[\x020501] +[\x020502]'
-  - '[\x020501] [-4][\x020502]'
+  - '[\x020501] -[\x020502]'
   - "Resultado: \n¡Poder + [\\x020501]![pause]"
   - "Resultado: \n¡Defensa + [\\x020501]![pause]"
   - "Resultado: \n¡Espiritu + [\\x020501]![pause]"
@@ -113,20 +113,20 @@ strings:
     ¡PM máx. + [\x020502]![pause]
   - |-
     Result.: [pause][\x0203]¡Def. Agua + [\x020501]!
-    Def. [-4] [\x020502][pause]
+    Def. - [\x020502][pause]
   - |-
     Result.: [pause][\x0203]¡Def. Hielo + [\x020501]!
-    Vel. [-4] [\x020502][pause]
+    Vel. - [\x020502][pause]
   - |-
     Result.: [pause][\x0203]¡Def. Vien. + [\x020501]!
-    Fuerza [-4] [\x020502][pause]
-  - "Result.: [pause][\\x0203]¡Def. Rayo + [\\x020501]! \nSab. [-4] [\\x020502][pause]"
+    Fuerza - [\x020502][pause]
+  - "Result.: [pause][\\x0203]¡Def. Rayo + [\\x020501]! \nSab. - [\\x020502][pause]"
   - 'Result.: [pause][\x0203]¡Def. Máquina + [\x020502] tPV máx. + [\x020502]![pause]'
   - |-
     Result.: [pause][\x0203]¡Def. Oscur. + [\x020501]!
-    Espíritu [-4] [\x020502][pause]
+    Espíritu - [\x020502][pause]
   - "Result.: \nNinguna mejora[pause]"
-  - '[-4][-4][-4][-4][-4]'
-  - '[-4][-4]'
-  - '[-4][-4][-4][-4]'
-  - '[-4][-4][-4]'
+  - '-----'
+  - '--'
+  - '----'
+  - '---'

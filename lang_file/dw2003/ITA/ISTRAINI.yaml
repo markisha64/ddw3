@@ -93,7 +93,7 @@ strings:
   - Difesa macchine
   - Difesa tenebre
   - '[\x020501] +[\x020502]'
-  - '[\x020501] [-4][\x020502]'
+  - '[\x020501] -[\x020502]'
   - |-
     Risultato:
     La forza aumenta di [\x020501]![pause]
@@ -154,7 +154,7 @@ strings:
   - |-
     Risultato:
     Nessun miglioramento.[pause]
-  - '[-4][-4][-4][-4][-4]'
-  - '[-4][-4]'
-  - '[-4][-4][-4][-4]'
-  - '[-4][-4][-4]'
+  - '-----'
+  - '--'
+  - '----'
+  - '---'

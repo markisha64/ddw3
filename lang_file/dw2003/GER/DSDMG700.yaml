@@ -6,15 +6,15 @@ files:
         [\x0207]Junior[\x0207]Sie sind spät dran.
         Was machen Teddy
         und Ivy denn bloβ?[pause][\x0203]Es bleibt keine Zeit
-        mehr, um Digimon[-4]
+        mehr, um Digimon-
         Online zu spielen.[pause]
       - |-
         [\x0207]Junior[\x0207]Ivy soll nicht kommen,
-        aber Teddy hat's na[-4]
+        aber Teddy hat's na-
         türlich herumerzählt.[pause][\x0203]Sie hätten sich schon
         vorher eine Anmeldung
         besorgen sollen...[pause]
-      - "...Neueste Meldung.[pause][\\x0203]Die Europazentrale d. Verbre[-4]\ncherbande A.o.A. wurde v. d.\ninter. Polizei S.A.P. entdeckt.[pause][\\x0203]Die Razzia fand gestern um\nMitternacht mit Unterstütz[-4]\nung der Armee statt...[pause][\\x0203]Die Anführer der A.o.A.\nwurden vor Ort verhaftet.[pause][\\x0203]Man glaubt, damit eine Verbin[-4]\ndung zwischen den A.o.A. und \nInternetterrorismus herzustellen.[pause]"
+      - "...Neueste Meldung.[pause][\\x0203]Die Europazentrale d. Verbre-\ncherbande A.o.A. wurde v. d.\ninter. Polizei S.A.P. entdeckt.[pause][\\x0203]Die Razzia fand gestern um\nMitternacht mit Unterstütz-\nung der Armee statt...[pause][\\x0203]Die Anführer der A.o.A.\nwurden vor Ort verhaftet.[pause][\\x0203]Man glaubt, damit eine Verbin-\ndung zwischen den A.o.A. und \nInternetterrorismus herzustellen.[pause]"
       - |-
         [\x0207]Junior[\x0207]A.o.A... ist doch die
         Gruppe, die Digimon zu
@@ -32,25 +32,25 @@ files:
       - |-
         [\x0207]Junior[\x0207]Warum ist denn
         Ivy überhaupt
-        hier?[pause][\x0203]Du sagst immer, Di[-4]
+        hier?[pause][\x0203]Du sagst immer, Di-
         gimon sind für Kids![pause]
       - |-
-        [\x0207]Ivy[\x0207]Ich will Digimon[-4]
+        [\x0207]Ivy[\x0207]Ich will Digimon-
         Online spielen, OK?![pause][\x0203]Ich habe nie gesagt,
         ich hasse Digimon![pause]
       - |-
-        [\x0207]Teddy[\x0207]Junior, Ivy [-4] los
-        jetzt, auf zum Online[-4]
+        [\x0207]Teddy[\x0207]Junior, Ivy - los
+        jetzt, auf zum Online-
         Center![pause]
   - strings:
       - ''
       - |-
         [\x0207]Junior:[\x0207]Das ist also das
-        MAGAMI[-4]Online[-4]
+        MAGAMI-Online-
         Center? Cool![pause]
       - |-
         [\x0207]Teddy[\x0207]Ja, dies ist das
-        Matrix[-4]System![pause][\x0203]Es digitalisiert unsere
+        Matrix-System![pause][\x0203]Es digitalisiert unsere
         Ideen u. Gedanken u.
         sendet sie ans Netz.[pause][\x0203]Wie geht das wohl?
         Ich will wissen, was
@@ -58,24 +58,24 @@ files:
       - |-
         [\x0207]Junior:[\x0207]Hey, was macht ihr
         beiden denn da?[pause][\x0203]Los, wir richten ein
-        Konto ein u. betre[-4]
+        Konto ein u. betre-
         ten die digitale Welt![pause]
-      - "[\\x0207]Mitarbeiter:[\\x0207]Willkommen im\nMAGAMI[-4]Online[-4]\nCenter.[pause][\\x0203]Dieser Service ist\nfür Reisende in die\ndigitale Welt.[pause][\\x0203]Spielt ihr zum \nersten Mal\nDigimon[-4]Online?[pause]"
+      - "[\\x0207]Mitarbeiter:[\\x0207]Willkommen im\nMAGAMI-Online-\nCenter.[pause][\\x0203]Dieser Service ist\nfür Reisende in die\ndigitale Welt.[pause][\\x0203]Spielt ihr zum \nersten Mal\nDigimon-Online?[pause]"
       - |-
         [\x0207]Mitarbeiter:[\x0207]Bevor wir euer
         Konto einrichten...[pause][\x0203]...müsst ihr euer
-        Partner[-4]Digimon
+        Partner-Digimon
         auswählen.[pause]
       - |-
-        [\x0207]Mitarbeiter:[\x0207]Wählt ein Starter[-4]
+        [\x0207]Mitarbeiter:[\x0207]Wählt ein Starter-
         Pack: A, B oder C.[pause][\x0203]Jedes Pack hat drei
         Arten von Digimon.[pause]
       - |-
-        [\x0207]Mitarbeiter:[\x0207]A ist ausge[-4]
+        [\x0207]Mitarbeiter:[\x0207]A ist ausge-
         glich.: Kotemon,
-        Renamon, Patamon[pause][\x0203]B ist ein Kraft[-4]
+        Renamon, Patamon[pause][\x0203]B ist ein Kraft-
         Pack: Monmon,
-        Agumon, Renamon[pause][\x0203]C ist ein Maniac[-4]
+        Agumon, Renamon[pause][\x0203]C ist ein Maniac-
         Pack: Kumamon,
         Guilmon, Patamon[pause][\x0203]Welches der drei
         hättet ihr gern?[pause]
@@ -87,7 +87,7 @@ files:
         den du magst.[pause]
       - |-
         [\x0207]Junior:[\x0207]Ich weiβ nicht! Alle
-        Packs haben ein Di[-4]
+        Packs haben ein Di-
         gimon, das ich mag![pause]
       - |-
         [\x0207]Ivy:[\x0207]Welches Digimon magst
@@ -102,13 +102,13 @@ files:
         [\x0207]Ivy:[\x0207]Also, wenn du alle
         Digimon magst, gibt
         es doch kein Problem![pause][\x0203]Los, entscheide dich.
-        Dann können wir end[-4]
+        Dann können wir end-
         lich z. digitalen Welt![pause]
       - |-
         [\x0207]Ivy:[\x0207]Junior! Hast du dich
         immer noch nicht
         entschieden?[pause][\x0203]Das solltest du aber,
-        sonst gehe ich näm[-4]
+        sonst gehe ich näm-
         lich schon mal vor![pause]
       - |-
         [\x0207]Mitarbeiter:[\x0207]Habt ihr euch
@@ -120,7 +120,7 @@ files:
       - |-
         [\x0207]Mitarbeiter:[\x0207]OK, dann registriere
         ich jetzt euch und
-        eure Partner[-4]Digimon.[pause]
+        eure Partner-Digimon.[pause]
   - strings:
       - ''
       - |-
@@ -132,7 +132,7 @@ files:
         Auf in die
         digitale Welt![pause]
       - |-
-        [\x0207]Ivy[\x0207]H[-4]hey!
+        [\x0207]Ivy[\x0207]H-hey!
         Warte Junior![pause]
       - |-
         [\x0207]Teddy:[\x0207]Ich bin noch
@@ -213,7 +213,7 @@ files:
       - |-
         [\x0207]Eishexe[\x0207]Ich habe verloren.
         Du bist ziemlich gut[pause][\x0203]Laut Regeln darfst
-        du jetzt weiter[-4]
+        du jetzt weiter-
         gehen.[pause]
       - "[\\x0207]Eishexe[\\x0207]Geh schon. \nIch bete für \ndeinen Erfolg.[pause]"
   - strings:
@@ -224,7 +224,7 @@ files:
         Zeit für so was![pause]
       - |-
         [\x0207]Feuerritter[\x0207]Ist dir n. langweil.?
-        Da muss ich lachen![pause][\x0203]Tamer sind heutzu[-4]
+        Da muss ich lachen![pause][\x0203]Tamer sind heutzu-
         tage schwach...[pause][\x0203]Aber du bist anders!
         Los, wir kämpfen![pause]
       - '[\x0207][\x020902]3?![pause]'
@@ -250,7 +250,7 @@ files:
         Sieht aus, als hast
         du echt Mumm![pause][\x0203]Dies ist das dunkle
         Verlies, das stärkste
-        des Asuka[-4]Servers![pause][\x0203]Ich bin der stärkste
+        des Asuka-Servers![pause][\x0203]Ich bin der stärkste
         Boss, Dunkler Ritter![pause]
       - "[\\x0207][\\x020902]3Ich bin der beste\nTamer, [\\x020801][\\x020501]. \nDu stehst im Weg.[pause]"
       - |-
@@ -258,7 +258,7 @@ files:
         Ein solches Programm
         habe ich nicht![pause][\x0203]Ich kann dich nicht
         einfach gehen lassen![pause][\x0203]Wenn du durch willst,
-        musst du mich be[-4]
+        musst du mich be-
         siegen![pause][\x0203]Wenn du es könntest.[pause]
       - '[\x0207][\x020902]3?![pause]'
   - strings:
@@ -289,7 +289,7 @@ files:
       - |-
         [\x0207]Genbu Leader[\x0207]Tja, leider kann
         ich es dir nicht
-        einfach so geben.[pause][\x0203]Das sind die Regeln.[pause][\x0203]Du musst mich be[-4]
+        einfach so geben.[pause][\x0203]Das sind die Regeln.[pause][\x0203]Du musst mich be-
         siegen, um es zu
         bekommen![pause]
       - |-
@@ -310,7 +310,7 @@ files:
         [\x0207]Genbu Leader[\x0207]Nimm dies, und
         halte die A.o.A.
         von ihrem Plan ab![pause]
-      - "[\\x0207][\\x020902]3Klasse! Ich\nhab das \nGenbu[-4]Abz.![pause]"
+      - "[\\x0207][\\x020902]3Klasse! Ich\nhab das \nGenbu-Abz.![pause]"
       - "[\\x0207]Genbu Leader[\\x0207]Du bist stark \ngenug für den\nKampf![pause][\\x0203]Aber sie sind\nauch stark. Sei\ndaher wachsam![pause]"
       - |-
         [\x0207][\x020902]3Danke,
@@ -335,7 +335,7 @@ files:
       - |-
         [\x0207][\x020902]3Xuen Wu Chief!
         Du hast den
-        schwarzen ID[-4]Pass![pause]
+        schwarzen ID-Pass![pause]
       - |-
         [\x0207]Xuen Wu Chief[\x0207]Ja, habe ich!
         Willst du ihn?[pause][\x0203]Dann kämpfe! Und
@@ -354,19 +354,19 @@ files:
       - |-
         [\x0207][\x020902]3Und ich habe jetzt
         auch den schwarzen
-        ID[-4]Pass...[pause][\x0203]So, jetzt nur noch
+        ID-Pass...[pause][\x0203]So, jetzt nur noch
         nach Amaterasu City!
         Los geht's![pause]
   - strings:
       - ''
       - |-
         [\x0207]Eismaster[\x0207]Du bist gut.
-        Beeindruckend![pause][\x0203]Das ist ein Ge[-4]
+        Beeindruckend![pause][\x0203]Das ist ein Ge-
         schenk von mir.
         Nimm es![pause]
       - |-
         [\x0207][\x020902]3Wow! Ein
-        MP[-4]Chip![pause]
+        MP-Chip![pause]
       - |-
         [\x0207]Eismaster[\x0207]Ab hier wird's
         härter! Sieh
@@ -377,10 +377,10 @@ files:
         [\x0207]Feuermaster[\x0207]Es wird gefährlich!
         Geh besser
         zurück![pause][\x0203]Oder willst du mich
-        besiegen u. weiter[-4]
+        besiegen u. weiter-
         gehen?[pause]
       - "[\\x0207][\\x020902]3Genau, das\nstimmt. Darum \nbin ich hier![pause]"
-      - "[\\x0207]Feuermaster[\\x0207]Du bist ein\nlästiger \nTamer...[pause][\\x0203]Wenn du ge[-4]\nwinnst, kannst\ndu gehen.[pause]"
+      - "[\\x0207]Feuermaster[\\x0207]Du bist ein\nlästiger \nTamer...[pause][\\x0203]Wenn du ge-\nwinnst, kannst\ndu gehen.[pause]"
       - |-
         [\x0207][\x020902]3OK! Los
         kämpfe![pause]
@@ -392,7 +392,7 @@ files:
         Benutze es![pause]
       - |-
         [\x0207][\x020902]3Cool! Ein
-        Geist[-4]Chip![pause]
+        Geist-Chip![pause]
       - |-
         [\x0207]Feuermaster[\x0207]Unser Leader ist
         der Nächste! Er
@@ -402,7 +402,7 @@ files:
       - |-
         [\x0207]Dunkelmaster[\x0207]...Hmm?!
         Wer bist du...[pause][\x0203]...du willst
-        mich heraus[-4]
+        mich heraus-
         fordern...?[pause]
       - |-
         [\x0207][\x020902]3Klar!
@@ -422,36 +422,36 @@ files:
       - "[\\x0207]Dunkelmaster[\\x0207]Du bist sehr gut.\nIch bin etwas\nangeschlagen...[pause][\\x0203]...aber du hast\ngewonnen. Ich \ngebe dir das dafür.[pause]"
       - |-
         [\x0207][\x020902]3Toll! Ein
-        EXP[-4]Adapter![pause]
+        EXP-Adapter![pause]
       - |-
         [\x0207]Dunkelmaster[\x0207]Du kannst ein
-        groβer Ta[-4]
+        groβer Ta-
         mer werden.[pause][\x0203]...viel Glück.[pause]
   - strings:
       - ''
-      - "[\\x0207]Kammer[-4]Offizier[\\x0207]Alles grün.\nWir sind fertig mit\n[\\x020801][\\x020501]s Test.[pause][\\x0203]Matrix[-4]System \nwird umgekehrt.[pause][\\x0203]Wo möchtest du\nin der echten Welt\nrealisiert werden?[pause]"
+      - "[\\x0207]Kammer-Offizier[\\x0207]Alles grün.\nWir sind fertig mit\n[\\x020801][\\x020501]s Test.[pause][\\x0203]Matrix-System \nwird umgekehrt.[pause][\\x0203]Wo möchtest du\nin der echten Welt\nrealisiert werden?[pause]"
       - |-
         [\x0207][\x020902]3Militärstützpunkt
         Magasta in der
         echten Welt![pause][\x0203]Das ist auf der
         Ozeanebene![pause]
       - |-
-        [\x0207]Kammer[-4]Offizier[\x0207]Verstehe.
+        [\x0207]Kammer-Offizier[\x0207]Verstehe.
         Militärstützpunkt
         Magasta...[pause]
-      - "[\\x0207]Kammer[-4]Offizier[\\x0207]Bestätigt. Liegt noch\nim Warp[-4]Bereich.[pause][\\x0203]Aber wegen der \nSysteminstabilität...[pause][\\x0203]existierst du nur \n180 Sek. lang in \nder echten Welt.[pause]"
+      - "[\\x0207]Kammer-Offizier[\\x0207]Bestätigt. Liegt noch\nim Warp-Bereich.[pause][\\x0203]Aber wegen der \nSysteminstabilität...[pause][\\x0203]existierst du nur \n180 Sek. lang in \nder echten Welt.[pause]"
       - |-
         [\x0207][\x020902]3Moment mal.
         Und wenn das
         zu wenig ist?[pause]
-      - "[\\x0207]Kammer[-4]Offizier[\\x0207]Die Realisierung bricht\nab, und die Matrix \nbringt dich zurück.[pause][\\x0203]Keine Sorge, die \nMatrix[-4]Daten werden\nnicht zerstört.[pause][\\x0203]Wir starten jetzt\ndas Matrix[-4]\nSystem.[pause]"
+      - "[\\x0207]Kammer-Offizier[\\x0207]Die Realisierung bricht\nab, und die Matrix \nbringt dich zurück.[pause][\\x0203]Keine Sorge, die \nMatrix-Daten werden\nnicht zerstört.[pause][\\x0203]Wir starten jetzt\ndas Matrix-\nSystem.[pause]"
       - |-
         [\x0207][\x020902]3Also gut.
         Was soll
         ich tun?[pause]
       - |-
-        [\x0207]Kammer[-4]Offizier[\x0207]Begib dich zum
-        Warp[-4]Port
+        [\x0207]Kammer-Offizier[\x0207]Begib dich zum
+        Warp-Port
         links von mir.[pause][\x0203]Viel Glück,
         [\x020801][\x020501].[pause]
   - strings:
@@ -465,7 +465,7 @@ files:
         müssen uns beeilen![pause]
   - strings:
       - ''
-      - "[\\x0207][\\x020902]3Wofür ist diese\nSteuerung?[pause][\\x0203]Ich drücke ein[-4]\nfach mal diese \nTaste![pause]"
+      - "[\\x0207][\\x020902]3Wofür ist diese\nSteuerung?[pause][\\x0203]Ich drücke ein-\nfach mal diese \nTaste![pause]"
       - "[\\x0207][\\x020902]3Wozu die \nwohl gut ist?\nNa ja...[pause]"
   - strings:
       - ''
@@ -475,7 +475,7 @@ files:
         ERREICHT. DIGITATION
         ERZWINGEN![pause]
       - |-
-        [\x0207]Kammer[-4]Offizier[\x0207]...Sternengerät ist
+        [\x0207]Kammer-Offizier[\x0207]...Sternengerät ist
         komplett grün. Keine
         abnormen Daten.[pause][\x0203]Digitation beendet![pause]
       - |-
@@ -489,7 +489,7 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Kammer[-4]Offizier[\x0207]Sternengerät ist
+        [\x0207]Kammer-Offizier[\x0207]Sternengerät ist
         bereit. Keine
         abnormen Daten.[pause]
       - |-
@@ -501,7 +501,7 @@ files:
         DIGITATION ERZWINGEN.[pause]
       - |-
         [\x0207][\x020902]3Was soll ich tun?
-        Ich kann Jugger[-4]
+        Ich kann Jugger-
         naut nicht stoppen.[pause][\x0203]Ich war soooo nah
         dran![pause]
   - strings:
@@ -519,7 +519,7 @@ files:
       - |-
         [\x0207][\x020902]3...ich gebe
         noch nicht
-        auf![pause][\x0203]Es gibt be[-4]
+        auf![pause][\x0203]Es gibt be-
         stimmt einen
         anderen Weg![pause]
       - |-
@@ -530,28 +530,28 @@ files:
       - ''
       - |-
         ...Neueste Meldung. Derzeit
-        ist das optische Netz offline.[pause][\x0203]S.A.P. glaubt an eine Ver[-4]
-        bindung zum Cyberterroris[-4]
+        ist das optische Netz offline.[pause][\x0203]S.A.P. glaubt an eine Ver-
+        bindung zum Cyberterroris-
         mus u. untersucht d. Fall.[pause][\x0203]Ein längerer Ausfall des
         optischen Netzes verursacht
         wahrscheinlich viele Probleme.[pause]
       - |-
-        [\x0207]Computer[-4]Seiya[\x0207]Was?!
-        Digimon[-4]Online
+        [\x0207]Computer-Seiya[\x0207]Was?!
+        Digimon-Online
         auch![pause][\x0203]Wollte mich gerade
         anmelden, aber wenn
         das Netz ausfällt...[pause]
-      - "[\\x0207]Wissenschaftler Hideki[\\x0207]Ein Netzausfall ist \nein echtes Problem \nfür Digimon[-4]Online.[pause][\\x0203]Das Matrix[-4]System hat\nkeinen Zugriff a. die\nServer, oder?[pause]"
+      - "[\\x0207]Wissenschaftler Hideki[\\x0207]Ein Netzausfall ist \nein echtes Problem \nfür Digimon-Online.[pause][\\x0203]Das Matrix-System hat\nkeinen Zugriff a. die\nServer, oder?[pause]"
       - |-
         [\x0207]Arbeiter Kouta[\x0207]Wer mag hinter dem
         Cyberterrorismus
-        stecken?[pause][\x0203]Ich dachte, sie ha[-4]
-        ben alle A.o.A.[-4]
+        stecken?[pause][\x0203]Ich dachte, sie ha-
+        ben alle A.o.A.-
         Leute geschnappt.[pause]
   - strings:
       - ''
       - |-
-        [\x0207]Computer[-4]Seiya[\x0207]...Was?!
+        [\x0207]Computer-Seiya[\x0207]...Was?!
         Was ist denn los?[pause]
       - |-
         [\x0207]Mailfan Saki[\x0207]Ruhe! Ich kann
@@ -574,27 +574,27 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Technik[-4]Seiya[\x0207]Oi?
+        [\x0207]Technik-Seiya[\x0207]Oi?
         Oioio......
         .......[pause]
   - strings:
       - ''
       - |-
-        [\x0207][\x020902]3Als ich Galactic[-4]
+        [\x0207][\x020902]3Als ich Galactic-
         mon besiegte,
         war alles gut...[pause][\x0203]Es ist schon 3
         Monate her...es ist
         wie ein Traum.[pause]
       - |-
         [\x0207][\x020902]3...was machen Ivy
-        und Teddy wohl?[pause][\x0203]Die Eröffnungs[-4]
+        und Teddy wohl?[pause][\x0203]Die Eröffnungs-
         zeremonie
         fängt an![pause]
-      - "Vielen Dank für Ihre Geduld!\nDie Eröffnungszeremonie für\nDigimon[-4]Online beginnt nun![pause][\\x0203]DNB TV sendet zum ersten Mal\nlive mit dem optischen Netz aus \nder digitalen Welt![pause][\\x0203]Wir verbinden nun dieses Relais\nmit der digitalen Welt![pause]"
+      - "Vielen Dank für Ihre Geduld!\nDie Eröffnungszeremonie für\nDigimon-Online beginnt nun![pause][\\x0203]DNB TV sendet zum ersten Mal\nlive mit dem optischen Netz aus \nder digitalen Welt![pause][\\x0203]Wir verbinden nun dieses Relais\nmit der digitalen Welt![pause]"
       - |-
         [\x0207][\x020902]3...Kurt ist groβartig!
         Er hat eine neue Firma
-        gegründet...[pause][\x0203]Nun gibt es Digimon[-4]
+        gegründet...[pause][\x0203]Nun gibt es Digimon-
         Online statt MAGAMI.[pause]
       - |-
         [\x0207]Ivy[\x0207]Wieso sprichst du mit
@@ -619,7 +619,7 @@ files:
         [\x020801][\x020501],
         Ivy![pause][\x0203]Regt euch ab u.
         lasst uns zum
-        Online[-4]Center gehen![pause]
+        Online-Center gehen![pause]
   - strings:
       - ''
       - "[\\x0207][\\x020902]3Oh, nein! \n180 Sek sind \nvergangen![pause]"

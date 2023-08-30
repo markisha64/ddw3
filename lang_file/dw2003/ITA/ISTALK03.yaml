@@ -1377,7 +1377,7 @@ strings:
     posto con la
     vita![pause]
   - |-
-    [\x0207]Attaccante[\x0207]S[-4]Si arrabbiano
+    [\x0207]Attaccante[\x0207]S-Si arrabbiano
     da morire se
     perdo.[pause][\x0203]Quindi
     devo
@@ -1543,7 +1543,7 @@ strings:
     chiusura della città
     era nei piani.[pause]
   - |-
-    [\x0207]Soldato[\x0207]E[-4]E[-4]Etciù![pause][\x0203]Fa freddo qui!
+    [\x0207]Soldato[\x0207]E-E-Etciù![pause][\x0203]Fa freddo qui!
     Voglio andare
     al caldo.[pause]
   - |-

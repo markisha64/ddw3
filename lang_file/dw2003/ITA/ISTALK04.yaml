@@ -80,7 +80,7 @@ strings:
     Oink, oiinkk![pause]
   - |-
     [\x0207]Guardia D.O.[\x0207]..Oink, oink.
-    O[-4]o[-4]oiiiink.[pause]
+    O-o-oiiiink.[pause]
   - |-
     [\x0207]Guardia D.O.[\x0207]Ho imparato tanto
     da questa
@@ -178,12 +178,12 @@ strings:
     [\x0207]Nonna Audrie[\x0207]Oink, oink
     ......Oiiink.[pause]
   - |-
-    [\x0207]Min dopo[-4]scuola[\x0207]Oink, ooiink,
+    [\x0207]Min dopo-scuola[\x0207]Oink, ooiink,
     oioioink,
     ooink![pause]
-  - "[\\x0207]Min dopo[-4]scuola[\\x0207]Sarei dovuta\nandare a \ncasa![pause][\\x0203]Verrò rimproverata\ndalla\nmaestra domani![pause]"
+  - "[\\x0207]Min dopo-scuola[\\x0207]Sarei dovuta\nandare a \ncasa![pause][\\x0203]Verrò rimproverata\ndalla\nmaestra domani![pause]"
   - |-
-    [\x0207]Min dopo[-4]scuola[\x0207]Oink, ooiink,
+    [\x0207]Min dopo-scuola[\x0207]Oink, ooiink,
     oioioink,
     ooink![pause]
   - '43'
@@ -1194,7 +1194,7 @@ strings:
     giocare...[pause]
   - |-
     [\x0207]Etemon[\x0207]Ehi?!
-    È[-4]è[-4]è il
+    È-è-è il
     mio microfono![pause][\x0203]Oh, va bene, ne
     avevo già un
     altro.[pause][\x0203]Ma grazie lo
@@ -1386,7 +1386,7 @@ strings:
     [\x0207]Guilmon[\x0207]Questa galleria
     arriva solo al
     server Asuka.[pause][\x0203]Sud: Settore
-    Ovest [-4] nord:
+    Ovest - nord:
     Settore Nord.[pause]
   - |-
     [\x0207]Guilmon[\x0207]Questa galleria unisce
@@ -1432,7 +1432,7 @@ strings:
     [\x0207]Agumon N[\x0207]Perso...
     Ummmm...[pause][\x0203]Ecco una carta
     potentissima:
-    Anti[-4]potere.[pause]
+    Anti-potere.[pause]
   - |-
     [\x0207]Agumon N[\x0207]Perso...
     Ummmm...[pause][\x0203]Ecco una carta

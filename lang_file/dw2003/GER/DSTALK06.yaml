@@ -1,12 +1,12 @@
 type: simple
 strings:
   - ''
-  - "[\\x0207]Suzuka[-4]Leader[\\x0207]Das Notfallzimmer\nim Nordsektor\nbefindet sich...[pause][\\x0203]Im Keller von \n\"Kulon[-4]Bergwerk\".[pause][\\x0203]Du brauchst dafür\naber vier\nLeader[-4]Abzeichen.[pause]"
+  - "[\\x0207]Suzuka-Leader[\\x0207]Das Notfallzimmer\nim Nordsektor\nbefindet sich...[pause][\\x0203]Im Keller von \n\"Kulon-Bergwerk\".[pause][\\x0203]Du brauchst dafür\naber vier\nLeader-Abzeichen.[pause]"
   - a
   - a
   - |-
     [\x0207]Baronmon[\x0207]Triceramon hat
-    den TNT[-4]Ball.[pause][\x0203]Wenn du ihn be[-4]
+    den TNT-Ball.[pause][\x0203]Wenn du ihn be-
     siegst, bekommst
     du den Ball![pause]
   - a
@@ -37,7 +37,7 @@ strings:
     Ich möchte sein
     Freund sein![pause]
   - |-
-    [\x0207]Bakemon[-4]Fan Cary[\x0207]Ich liebe Bakemon.
+    [\x0207]Bakemon-Fan Cary[\x0207]Ich liebe Bakemon.
     Ich kann ihn
     nirgendwo finden![pause][\x0203]Und ich sehe hier
     Geister... sie sind
@@ -56,7 +56,7 @@ strings:
   - |-
     [\x0207]Gatomon[\x0207]Überrascht von all
     den Gatomon?[pause][\x0203]Wir wollen alle lernen
-    wie man Inn[-4]Manager
+    wie man Inn-Manager
     wird.[pause]
   - |-
     [\x0207]Tierfreund Jen[\x0207]Das Erdbeben war
@@ -94,7 +94,7 @@ strings:
     [\x0207]Laura[\x0207]...Keith
     und Nick?[pause][\x0203]Keith war hier...[pause][\x0203]Er sagte, er wollte
     zu 'nem heiβen
-    Digimon[-4]Tanz...[pause]
+    Digimon-Tanz...[pause]
   - a
   - a
   - a
@@ -117,7 +117,7 @@ strings:
   - '[\x0207]Tamer Catherine[\x0207]Oink, oink![pause]'
   - |-
     [\x0207]Nami[\x0207]...Ein Typ in
-    Schwarz und ein sar[-4]
+    Schwarz und ein sar-
     kastischer Bursche?[pause][\x0203]Der Typ in Schwarz
     ging Richtung
     Suzuka City.[pause]
@@ -131,7 +131,7 @@ strings:
     Ich weiβ jetzt,
     wie's geht![pause]
   - |-
-    [\x0207]Tamer Catherine[\x0207]Jetzt ein Digimon[-4]
+    [\x0207]Tamer Catherine[\x0207]Jetzt ein Digimon-
     Kampf...aber mach's
     mir nicht zu schwer.[pause]
   - |-
@@ -177,7 +177,7 @@ strings:
     [\x0207]Tamer Lucia[\x0207]Ich vertraue
     meinem Können
     im Kampf![pause]
-  - "[\\x0207]Tamer Lucia[\\x0207]Im Digimon[-4]\nKampf bin ich \nimmer noch Profi![pause]"
+  - "[\\x0207]Tamer Lucia[\\x0207]Im Digimon-\nKampf bin ich \nimmer noch Profi![pause]"
   - |-
     [\x0207]Tamer Lucia[\x0207]Viel Glück!
     Du wirst es
@@ -197,7 +197,7 @@ strings:
     Tamer...[pause]
   - |-
     [\x0207]Tamer Robert[\x0207]Dass wir immer
-    noch nicht zu[-4]
+    noch nicht zu-
     rück können...[pause]
   - |-
     [\x0207]Tamer Robert[\x0207]Oink, oiiink!
@@ -212,7 +212,7 @@ strings:
     [\x0207]Tamer Robert[\x0207]Nein, mit dir
     duelliere ich
     mich nicht.[pause][\x0203]Keine Zeit
-    zum Baby[-4]
+    zum Baby-
     sitten.[pause]
   - |-
     [\x0207]Tamer Robert[\x0207]Kid, kannst
@@ -222,7 +222,7 @@ strings:
   - |-
     [\x0207]Tamer Robert[\x0207]Ich hab' nichts vor,
     also auf zum
-    Digimon[-4]Kampf.[pause]
+    Digimon-Kampf.[pause]
   - "[\\x0207]Tamer Robert[\\x0207]Nein, ich \nkämpfe nicht.[pause][\\x0203]Wie demütigend\ngegen ein Kind\nzu verlieren.[pause]"
   - "[\\x0207]Tamer Robert[\\x0207]Nein, ich \nkämpfe nicht.[pause][\\x0203]Kinder spielen\nbesser.[pause]"
   - |-
@@ -351,7 +351,7 @@ strings:
     diesem alten Mann![pause]
   - "[\\x0207]Tamer Bob[\\x0207]Man muss für \ndie Antwort\nwohl kämpfen.[pause][\\x0203]Duellier' dich mit\ndiesem Alten![pause]"
   - |-
-    [\x0207]Tamer Bob[\x0207]Gewinnen, ver[-4]
+    [\x0207]Tamer Bob[\x0207]Gewinnen, ver-
     lieren, Kampf
     bedeutet Verlust[pause][\x0203]Mir ist nicht
     nach Kämpfen.[pause]
@@ -401,7 +401,7 @@ strings:
     Server Champ![pause]
   - |-
     [\x0207]Tamer Andy[\x0207]Ein Tamer
-    hat den Haupt[-4]
+    hat den Haupt-
     mann besiegt.[pause][\x0203]Aber er wird
     nicht Server
     Champ, das werd' ich![pause]
@@ -423,7 +423,7 @@ strings:
   - |-
     [\x0207]Tamer Andy[\x0207]Ich beweis es
     dir mit meinen
-    Kräften.[pause][\x0203]Ist ein Digimon[-4]
+    Kräften.[pause][\x0203]Ist ein Digimon-
     Kampf ok?[pause]
   - |-
     [\x0207]Tamer Andy[\x0207]Schon richtig,
@@ -463,7 +463,7 @@ strings:
     auf die Zwölf?[pause]
   - |-
     [\x0207]Tamer George[\x0207]Dieses ganze
-    A.o.A[-4]Gedöne
+    A.o.A-Gedöne
     nervt mich![pause][\x0203]...was? Kümmer'
     dich um deinen
     eigenen Kram.[pause]
@@ -473,17 +473,17 @@ strings:
   - a
   - "[\\x0207]Tamer George[\\x0207]Ok, dieses Mal lass \nich euch laufen.\nHaut ab![pause]"
   - |-
-    [\x0207]Tamer George[\x0207]Fein. Im Karten[-4]
+    [\x0207]Tamer George[\x0207]Fein. Im Karten-
     kampf zeig' ich,
     wer der Boss ist![pause]
   - |-
-    [\x0207]Tamer George[\x0207]Im Digimon[-4]
+    [\x0207]Tamer George[\x0207]Im Digimon-
     Kampf zeig' ich
     wer Boss ist![pause]
   - |-
     [\x0207]Tamer George![\x0207]...ach du.
     Was willst du?
-    Hast schon gewonnen.[pause][\x0203]Du nervst [-4] hau ab!
+    Hast schon gewonnen.[pause][\x0203]Du nervst - hau ab!
     Scht![pause]
   - |-
     [\x0207]Tamer George[\x0207]Lass mich einfach
@@ -497,7 +497,7 @@ strings:
     [\x0207]Tamer George[\x0207]Und? Jetzt
     weiβt du's.[pause][\x0203]Sprich mich nie
     wieder an![pause]
-  - "[\\x0207]Tamer George[\\x0207]...Hey, spiel\ndich bloβ nicht\nso auf![pause][\\x0203]Lass mich allein...\nHörst du [-4] \nHAU AB![pause]"
+  - "[\\x0207]Tamer George[\\x0207]...Hey, spiel\ndich bloβ nicht\nso auf![pause][\\x0203]Lass mich allein...\nHörst du - \nHAU AB![pause]"
   - |-
     [\x0207]Tamer Mei Lin[\x0207]Nihao!
     Ich bin Mei Lin
@@ -526,9 +526,9 @@ strings:
     'nem anderen Land![pause]
   - |-
     [\x0207]Tamer Mei Lin[\x0207]Auf in den
-    Digimon[-4]Kampf![pause][\x0203]Ich zeig dir
-    meinen Digimon[-4]
-    Kungfu[-4]Stil![pause]
+    Digimon-Kampf![pause][\x0203]Ich zeig dir
+    meinen Digimon-
+    Kungfu-Stil![pause]
   - |-
     [\x0207]Tamer Mei Lin[\x0207]...Ich hab doch
     kürzlich gegen
@@ -565,7 +565,7 @@ strings:
     hier gespielt habe,
     will ich kündigen![pause]
   - |-
-    [\x0207]Tamer Gordon[\x0207]Ich habe mich ent[-4]
+    [\x0207]Tamer Gordon[\x0207]Ich habe mich ent-
     schlossen: Ich
     werde kündigen![pause]
   - |-
@@ -668,8 +668,8 @@ strings:
     Erfahrung.[pause]
   - |-
     [\x0207]Tamer Jessica[\x0207]Du bist echt stark,
-    ich mag dich.[pause][\x0203]Nimm die Vulkan[-4]
-    kanone[-4]Karte
+    ich mag dich.[pause][\x0203]Nimm die Vulkan-
+    kanone-Karte
     als Geschenk.[pause][\x0203]Und werde stark
     für mich![pause]
   - a
@@ -714,7 +714,7 @@ strings:
   - |-
     [\x0207]Tamer Akiba[\x0207]Jetzt einen
     Kartenkampf![pause][\x0203]Kämpfe mit mir![pause]
-  - "[\\x0207]Tamer Akiba[\\x0207]Jetzt einen \nDigimon[-4]Kampf![pause][\\x0203]Kämpfe mit mir![pause]"
+  - "[\\x0207]Tamer Akiba[\\x0207]Jetzt einen \nDigimon-Kampf![pause][\\x0203]Kämpfe mit mir![pause]"
   - |-
     [\x0207]Tamer Akiba[\x0207]Du bist
     so stark![pause][\x0203]Dich schaff'
@@ -732,7 +732,7 @@ strings:
   - |-
     [\x0207]Tamer Akiba[\x0207]Wieder gewonnen.
     La la la la la[pause][\x0203]Darum kann ich mit
-    Digimon[-4]Online
+    Digimon-Online
     nicht aufhören.[pause]
   - |-
     [\x0207]Tamer Akiba[\x0207]Oh nein! Ich
@@ -744,7 +744,7 @@ strings:
   - |-
     [\x0207]Pharaohmon[\x0207]Ich bin Pharaohmon,
     Beschützer dieser
-    Ruine![pause][\x0203]Beim Digimon[-4]Gott,
+    Ruine![pause][\x0203]Beim Digimon-Gott,
     ich werde nicht
     verlieren![pause]
   - |-
@@ -758,7 +758,7 @@ strings:
     zu digitieren![pause]
   - |-
     [\x0207]Guilmon[\x0207]Ich bin ok![pause][\x0203]Im nächsten Kampf
-    werde ich groβ[-4]
+    werde ich groβ-
     artig sein![pause]
   - |-
     [\x0207]Veemon[\x0207]Ich habe Durst
@@ -825,44 +825,44 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Bakemon[-4]Fan Cary[\x0207]Bakemon ist cool![pause][\x0203]Bakemon soll mein
+    [\x0207]Bakemon-Fan Cary[\x0207]Bakemon ist cool![pause][\x0203]Bakemon soll mein
     Partner sein![pause]
   - |-
-    [\x0207]Bakemon[-4]Fan Cary[\x0207]Ich kenne keinen
-    Weg ins Admin[-4]
+    [\x0207]Bakemon-Fan Cary[\x0207]Ich kenne keinen
+    Weg ins Admin-
     Center.[pause][\x0203]Wen kümmert's!
     Ich will Bakemon
     nur einmal sehen.[pause]
   - |-
-    [\x0207]Bakemon[-4]Fan Cary[\x0207]Hey, mach' mir
+    [\x0207]Bakemon-Fan Cary[\x0207]Hey, mach' mir
     keine Angst![pause][\x0203]Ich hasse Geister[pause]
   - |-
-    [\x0207]Bakemon[-4]Fan Cary[\x0207]Bakemon ist kein
+    [\x0207]Bakemon-Fan Cary[\x0207]Bakemon ist kein
     Geist![pause][\x0203]Warum versteht
     das keiner?[pause]
   - |-
-    [\x0207]Bakemon[-4]Fan Cary[\x0207]Bakemon, wo bist
+    [\x0207]Bakemon-Fan Cary[\x0207]Bakemon, wo bist
     du?[pause][\x0203]Er ist wohl
     nicht hier.[pause]
   - |-
-    [\x0207]Bakemon[-4]Fan Cary[\x0207]Ich bleibe hier,
+    [\x0207]Bakemon-Fan Cary[\x0207]Ich bleibe hier,
     bis ich Bakemon
     sehe![pause][\x0203]Ich gehe nicht
     zurück in die
     echte Welt![pause]
   - |-
-    [\x0207]Bakemon[-4]Fan Cary[\x0207]Ich habe Bakemon
+    [\x0207]Bakemon-Fan Cary[\x0207]Ich habe Bakemon
     gesehen![pause][\x0203]Weiβ und schwebend.
     Echt cool![pause]
   - |-
-    [\x0207]Bakemon[-4]Fan Cary[\x0207]Oinnnk, oink!
+    [\x0207]Bakemon-Fan Cary[\x0207]Oinnnk, oink!
     Oioioioink![pause]
   - '43'
   - |-
-    [\x0207]Bakemon[-4]Fan Cary[\x0207]Hey, mach' mir
+    [\x0207]Bakemon-Fan Cary[\x0207]Hey, mach' mir
     keine Angst![pause][\x0203]Ich hasse Geister[pause]
   - |-
-    [\x0207]Soldat[\x0207]Was? Die Haupt[-4]
+    [\x0207]Soldat[\x0207]Was? Die Haupt-
     männer wurden
     auch gefangen?[pause][\x0203]Lüge! Das glaube
     ich nicht![pause]
@@ -870,10 +870,10 @@ strings:
     [\x0207]Gatomon[\x0207]Suzaku Leader ist
     beliebt, weil er
     nett ist.[pause][\x0203]Es gibt sogar einen
-    Fan[-4]Club![pause]
+    Fan-Club![pause]
   - |-
     [\x0207]Gatomon[\x0207]Wir gehen oft
-    ins Administration[-4]
+    ins Administration-
     Center.[pause][\x0203]Aber wir treffen
     nie andere Leute.[pause]
   - |-
@@ -891,7 +891,7 @@ strings:
     es den anderen
     Gatomon gut.[pause]
   - |-
-    [\x0207]Gatomon[\x0207]Die Matrix[-4]Kammer
+    [\x0207]Gatomon[\x0207]Die Matrix-Kammer
     funktioniert nicht.[pause][\x0203]Wie sind die A.o.A
     bloβ hergekommen?[pause]
   - |-
@@ -989,7 +989,7 @@ strings:
   - |-
     [\x0207]Ghostbuster Puck[\x0207]Selbst ein Geist
     kommt nicht ins
-    Admin[-4]Center.[pause][\x0203]Ein Geist?!
+    Admin-Center.[pause][\x0203]Ein Geist?!
     Ich hab' Angst![pause]
   - |-
     [\x0207]Ghostbuster Puck[\x0207]Es gibt keine
@@ -1100,12 +1100,12 @@ strings:
     Gefahr groβ,
     geh' zurück.[pause]
   - |-
-    [\x0207]HiAndromon[\x0207]Warte, Amateur[-4]
+    [\x0207]HiAndromon[\x0207]Warte, Amateur-
     Tamer, warte![pause][\x0203]Ab hier ist die
     Gefahr groβ,
     geh' zurück![pause]
   - |-
-    [\x0207]HiAndromon[\x0207]Warte, Amateur[-4]
+    [\x0207]HiAndromon[\x0207]Warte, Amateur-
     Tamer, warte![pause][\x0203]Ab hier ist die
     Gefahr groβ,
     geh' zurück![pause]
@@ -1173,9 +1173,9 @@ strings:
   - a
   - |-
     [\x0207]Guardromon[\x0207]ZUGRIFF AUF
-    MATRIX[-4]DRIVE[pause]
+    MATRIX-DRIVE[pause]
   - |-
-    [\x0207]Guardromon[\x0207]ICH BIN SPEICHER[-4]
+    [\x0207]Guardromon[\x0207]ICH BIN SPEICHER-
     OFFIZIER GUARDROMON[pause][\x0203]WENN DU SPEICHERN
     WILLST, WENDE DICH
     AN EIN GUARDROMON.[pause]
@@ -1266,7 +1266,7 @@ strings:
   - a
   - |-
     [\x0207]Pharaohmon[\x0207]Du bist stark!
-    Du kannst Server[-4]
+    Du kannst Server-
     Champ werden![pause]
   - |-
     [\x0207]Pharaohmon[\x0207]Du bist stark!
@@ -1496,7 +1496,7 @@ strings:
   - a
   - |-
     [\x0207]Divermon[\x0207]Willkommen auf
-    der Duell[-4]Insel![pause][\x0203]Ein Paradies für
+    der Duell-Insel![pause][\x0203]Ein Paradies für
     Duellanten, speziell
     für den Kartenkampf![pause]
   - a
@@ -1512,7 +1512,7 @@ strings:
     mitgebracht![pause]
   - |-
     [\x0207]Laura[\x0207]Man kann in das
-    Admin[-4]Center von
+    Admin-Center von
     Asuka City?[pause][\x0203]Ob da wohl ein
     paar Veemon drin
     sind...[pause]
@@ -1569,20 +1569,20 @@ strings:
   - a
   - |-
     [\x0207][\x020902]3Yeah! Hab'
-    'ne Energie[-4]Disk[pause]
+    'ne Energie-Disk[pause]
   - a
   - |-
     [\x0207][\x020902]3Yeah! Hab'
-    'nen HP[-4]Chip![pause]
+    'nen HP-Chip![pause]
   - |-
     [\x0207][\x020902]3Yeah! Hab
-    'nen MP[-4]Chip![pause]
+    'nen MP-Chip![pause]
   - |-
     [\x0207][\x020902]3Yeah! Hab'
-    'nen Power[-4]Chip![pause]
+    'nen Power-Chip![pause]
   - |-
     [\x0207][\x020902]3Yeah! Hab'
-    'nen Geist[-4]Chip[pause]
+    'nen Geist-Chip[pause]
   - a
   - a
   - a
@@ -1592,13 +1592,13 @@ strings:
   - a
   - |-
     [\x0207][\x020902]3Yeah! Hab'
-    'nen Gummi[-4]
+    'nen Gummi-
     anzug![pause]
   - a
   - a
   - |-
     [\x0207][\x020902]3Yeah! Hab'
-    Digitama[-4]Panzer![pause]
+    Digitama-Panzer![pause]
   - a
   - a
   - a
@@ -1608,15 +1608,15 @@ strings:
   - a
   - |-
     [\x0207][\x020902]3Yeah! Hab'
-    'ne Kulon[-4]
+    'ne Kulon-
     Rüstung![pause]
   - |-
     [\x0207][\x020902]3Yeah! Hab'
-    'ne Daunen[-4]
+    'ne Daunen-
     Jacke![pause]
   - |-
     [\x0207][\x020902]3Yeah! Hab'
-    'nen Charisma[-4]
+    'nen Charisma-
     Chip![pause]
   - a
   - a
@@ -1626,12 +1626,12 @@ strings:
     Catherine aus
     Sydney![pause]
   - |-
-    [\x0207]Tamer Haruko[\x0207]Hat es dich über[-4]
+    [\x0207]Tamer Haruko[\x0207]Hat es dich über-
     rascht, mich zu
     sehen?[pause][\x0203]Ich hieβ früher
     "Gal Gamer Haruko"[pause]
   - |-
-    [\x0207]Tamer Robert[\x0207]Ach, ein Tamer[-4]
+    [\x0207]Tamer Robert[\x0207]Ach, ein Tamer-
     Kid...[pause]
   - |-
     [\x0207]Tamer Akiba[\x0207]La la la la la
@@ -1656,9 +1656,9 @@ strings:
     uns...?[pause]
   - |-
     [\x0207]Tamer Andy[\x0207]Ich bin Andy,
-    das Tamer[-4]Genie
+    das Tamer-Genie
     aus der Schweiz![pause][\x0203]Natürlich bin ich
-    Server[-4]Champ![pause]
+    Server-Champ![pause]
   - |-
     [\x0207]Tamer George[\x0207]Hey, du, willst
     du dir weh tun?[pause]
@@ -1707,7 +1707,7 @@ strings:
   - a
   - |-
     [\x0207]DRI Bob[\x0207]Ich bin DRI
-    Bob! Ich ver[-4]
+    Bob! Ich ver-
     rate dir was.[pause]
   - |-
     [\x0207]DRI Bob[\x0207]Hast du Paildramon
@@ -1717,7 +1717,7 @@ strings:
     gebe ich dir eine
     Belohnung...[pause]
   - |-
-    [\x0207]DRI Bob[\x0207]Das ist Veemon[-4]
+    [\x0207]DRI Bob[\x0207]Das ist Veemon-
     DDNA![pause][\x0203]Du hast Paildramon
     also gefunden!
     Danke![pause][\x0203]Du bekommst Veemon
@@ -1734,13 +1734,13 @@ strings:
     Ahnung, danke![pause]
   - |-
     [\x0207]DRI Bob[\x0207]Ich bin DRI
-    Bob! Ich ver[-4]
+    Bob! Ich ver-
     rate dir was.[pause]
   - |-
     [\x0207]DRI Bob[\x0207]Um die Wahrheit zu
     sagen, statt alle
     zu trainieren...[pause][\x0203]solltest du dich
-    auf eines konzen[-4]
+    auf eines konzen-
     trieren.[pause][\x0203]Laut Berichten können
     sie dann leichter
     digitieren![pause]
@@ -1771,17 +1771,17 @@ strings:
     dir gerne![pause]
   - |-
     [\x0207]Baronmon[\x0207]Was? Eine Bombe?
-    Oh, ein TNT[-4]Chip![pause][\x0203]Ich habe leider
+    Oh, ein TNT-Chip![pause][\x0203]Ich habe leider
     nicht alle
-    Komponenten.[pause][\x0203]Wenn ich einen TNT[-4]
+    Komponenten.[pause][\x0203]Wenn ich einen TNT-
     Ball hätte, wäre es
     kein Problem.[pause]
   - |-
     [\x0207]Baronmon[\x0207]Oh, du hast einen
-    TNT[-4]Ball!
+    TNT-Ball!
     Augenblick![pause][\x0203]Schnipp, schnipp...
-    Ta[-4]da![pause][\x0203]Ein perfekter Baron[-4]
-    mon TNT[-4]Chip![pause][\x0203]Viel Glück! Drück'
+    Ta-da![pause][\x0203]Ein perfekter Baron-
+    mon TNT-Chip![pause][\x0203]Viel Glück! Drück'
     dir die Daumen![pause]
   - |-
     [\x0207]Baronmon[\x0207]Ich kann in die
@@ -1795,15 +1795,15 @@ strings:
   - |-
     [\x0207]DRI Johann[\x0207]Ich suche
     MetalGreymon...[pause][\x0203]Keine Ahnung, wo
-    er sein könnte.[pause][\x0203]Wenn ich Agumon[-4]
+    er sein könnte.[pause][\x0203]Wenn ich Agumon-
     DDNA habe, kann ich
     weiter forschen.[pause][\x0203]Kannst du mir seine
-    DDNA besorgen?[pause][\x0203]Als Belohnung be[-4]
+    DDNA besorgen?[pause][\x0203]Als Belohnung be-
     kommst du Agumon
     als Partner![pause]
   - |-
-    [\x0207]DRI Johann[\x0207]Ja! Das ist Agumon[-4]
-    DDNA![pause][\x0203]Wie versprochen be[-4]
+    [\x0207]DRI Johann[\x0207]Ja! Das ist Agumon-
+    DDNA![pause][\x0203]Wie versprochen be-
     kommst du Agumon
     als Partner![pause][\x0203]Geh zu Piximon
     oder Dr. Kadomatsu
@@ -1838,7 +1838,7 @@ strings:
     [\x0207]Divermon[\x0207]Danke wegen
     letztem Mal.[pause][\x0203]Komm doch Mal
     auf die
-    Duell[-4]Insel.[pause][\x0203]Dann kannst du
+    Duell-Insel.[pause][\x0203]Dann kannst du
     mit meinen Freunden
     Karten spielen.[pause]
   - a
@@ -1903,7 +1903,7 @@ strings:
     DNA gegeben.[pause][\x0203]Ich halte meine
     Versprechen, jawoll![pause]
   - |-
-    [\x0207]Paildramon[\x0207]Ein schönes Nicker[-4]
+    [\x0207]Paildramon[\x0207]Ein schönes Nicker-
     chen! So was tut
     immer gut![pause]
   - |-
@@ -1939,7 +1939,7 @@ strings:
     Seiryu City.[pause]
   - a
   - |-
-    [\x0207]MasterTyran.[\x0207]Ein Heraus[-4]
+    [\x0207]MasterTyran.[\x0207]Ein Heraus-
     forderer![pause]
   - |-
     [\x0207]MasterTyranno[\x0207]Gut gemacht.
@@ -1977,7 +1977,7 @@ strings:
     Guilmon.[pause][\x0203]Ich glaube, in
     Seiryu City.[pause]
   - |-
-    [\x0207]Trick[-4]Guilmon[\x0207]Upps! Hast
+    [\x0207]Trick-Guilmon[\x0207]Upps! Hast
     mich gefunden.[pause][\x0203]Ok, ich gebe
     dir die echte
     blaue Karte.[pause]
@@ -1987,7 +1987,7 @@ strings:
     auf deiner Seite![pause]
   - |-
     [\x0207]MasterTyranno[\x0207]Du kannst am
-    Server[-4]Turnier
+    Server-Turnier
     teilnehmen![pause][\x0203]Mach' weiter so![pause]
   - |-
     [\x0207][\x020902]3Was ist das?
@@ -1997,7 +1997,7 @@ strings:
     gesehen...[pause]
   - |-
     [\x0207][\x020902]3Da ist es! Das
-    Symbol der Aufrich[-4]
+    Symbol der Aufrich-
     tigkeit![pause][\x0203]Das Digiei der
     Verlässlichkeit ist hier?[pause][\x0203]Muss ich die Wand
     einreiβen?[pause][\x0203]Hmm...vielleicht kann
@@ -2007,7 +2007,7 @@ strings:
     ist zu.
     Ich kann nicht rein...[pause]
   - |-
-    [\x0207]Sepikmon[\x0207]Man Freund Baron[-4]
+    [\x0207]Sepikmon[\x0207]Man Freund Baron-
     mon kennt sich mit
     Bomben aus![pause][\x0203]Baronmon kann gut
     Bomben basteln![pause]
@@ -2017,13 +2017,13 @@ strings:
     helfen konnte![pause]
   - |-
     [\x0207]MasterTyranno[\x0207]Ach, du hast
-    auch das Suz[-4]
-    aku[-4]Abzeichen.[pause][\x0203]Super, Kid!
+    auch das Suz-
+    aku-Abzeichen.[pause][\x0203]Super, Kid!
     Weiter so![pause]
   - |-
     [\x0207]MasterTyranno[\x0207]Ach, du hast
-    auch das Suz[-4]
-    aku[-4]Abzeichen.[pause][\x0203]Super, Kid!
+    auch das Suz-
+    aku-Abzeichen.[pause][\x0203]Super, Kid!
     Weiter so![pause]
   - |-
     [\x0207]MasterTyranno[\x0207]Hab' gehört, ihr könnt
@@ -2085,7 +2085,7 @@ strings:
   - a
   - |-
     [\x0207]Gatomon[\x0207]Hier ist die
-    Pausen[-4]Oase.[pause][\x0203]Müde Digimon
+    Pausen-Oase.[pause][\x0203]Müde Digimon
     erholen sich hier.[pause]
   - a
   - a
@@ -2095,7 +2095,7 @@ strings:
   - |-
     [\x0207]Baronmon[\x0207]Ich kann den
     Account ändern![pause][\x0203]Sag Bescheid, wenn
-    du Digimon[-4]Namen
+    du Digimon-Namen
     ändern willst.[pause][\x0203]Mache ich jederzeit
     für dich![pause]
   - |-
@@ -2148,7 +2148,7 @@ strings:
   - |-
     [\x0207]KingDivermon[\x0207]Fofofo!
     Ich bin der stärkste
-    Duell[-4]König![pause]
+    Duell-König![pause]
   - "[\\x0207]KingDivermon[\\x0207]Du hast gegen \nden ultimativen\nOrdner gewonnen[pause]"
   - a
   - a
@@ -2157,7 +2157,7 @@ strings:
   - |-
     [\x0207]Gatomon[\x0207]Jeder in Dschungelgrab
     ärgert sich über
-    Zanbamon.[pause][\x0203]Sepikmon im Schamanen[-4]
+    Zanbamon.[pause][\x0203]Sepikmon im Schamanen-
     haus sollte etwas
     tun können...[pause][\x0203]Wir haben ihn lange
     nicht gesehen.
@@ -2166,12 +2166,12 @@ strings:
     [\x0207]Guilmon[\x0207]Guilmon mit der Karte
     ist nach Seiryu City.[pause]
   - |-
-    [\x0207]Trick[-4]Guilmon[\x0207]Gehe zur Oststation
+    [\x0207]Trick-Guilmon[\x0207]Gehe zur Oststation
     Heh heh heh...[pause][\x0203]War nur Spaβ!
     Nun funktioniert's.[pause]
   - |-
-    [\x0207]Gatomon[\x0207]Sepikmon im Scha[-4]
-    manen[-4]Haus kann
+    [\x0207]Gatomon[\x0207]Sepikmon im Scha-
+    manen-Haus kann
     etwas tun.[pause][\x0203]Wir haben ihn lang
     nicht gesehen,
     warum bloβ?[pause]
@@ -2200,7 +2200,7 @@ strings:
   - |-
     [\x0207]Kail[\x0207]...hey [\x020801][\x020501]!
     Hör' zu![pause][\x0203]Ein Digimon mit einem
-    Wahnsinns[-4]Gesicht ist
+    Wahnsinns-Gesicht ist
     zum Ostsektor gegangen[pause][\x0203]Ich glaube, es war
     Baronmon.[pause]
   - |-
@@ -2274,5 +2274,5 @@ strings:
   - a
   - |-
     [\x0207]Baronmon[\x0207]Ändere den Namen
-    deines Parter[-4]
+    deines Parter-
     Digimon![pause]

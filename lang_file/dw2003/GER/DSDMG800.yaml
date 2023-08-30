@@ -18,9 +18,9 @@ files:
         lasse Juggernaut
         nicht starten![pause]
       - |-
-        [\x0207]Mech[-4]Soldat[\x0207]GGzzz! GGzzz!
-        EINDRINGLING[-4]ALARM!
-        EINDRINGLING[-4]ALARM![pause][\x0203]Sofort löschen![pause]
+        [\x0207]Mech-Soldat[\x0207]GGzzz! GGzzz!
+        EINDRINGLING-ALARM!
+        EINDRINGLING-ALARM![pause][\x0203]Sofort löschen![pause]
   - strings:
       - ''
       - |-
@@ -31,25 +31,25 @@ files:
         [\x0207][\x020902]3Huch?! Da liegt
         was auf dem
         Boden.[pause][\x0203]Es ist eine
-        Veemon[-4]Waffe![pause][\x0203]Yeah! Der
-        Dramon[-4]Guard![pause]
+        Veemon-Waffe![pause][\x0203]Yeah! Der
+        Dramon-Guard![pause]
       - |-
         [\x0207][\x020902]3Oh, warte!
         Dafür hab ich
         keine Zeit![pause][\x0203]Ich muss den
-        Juggernaut[-4]Start
+        Juggernaut-Start
         verhindern![pause]
       - |-
         [\x0207][\x020902]3Hmmm, welche
         Taste?
         Es ist diese![pause]
       - |-
-        [\x0207][\x020902]3Huch? Nichts pas[-4]
+        [\x0207][\x020902]3Huch? Nichts pas-
         siert? Aber wenn die
         A.o.A. hier wären.[pause][\x0203]Das sollte den
-        Juggernaut[-4]Start
+        Juggernaut-Start
         verhindern![pause]
-      - "NACHRICHT FÜR MAGASTA[-4]MANNSCH.\nSSS CLASS KRIEGSSCHIFF JUGGER[-4]\nNAUT HAT FAST VOLLE ENERGIE...[pause][\\x0203]MANNSCHAFT DER BASIS MUSS SICH \nIN SICHERHEIT BRINGEN...WIEDER[-4]\nHOLE...SSS  C...KRIEG...NAUT.[pause]"
+      - "NACHRICHT FÜR MAGASTA-MANNSCH.\nSSS CLASS KRIEGSSCHIFF JUGGER-\nNAUT HAT FAST VOLLE ENERGIE...[pause][\\x0203]MANNSCHAFT DER BASIS MUSS SICH \nIN SICHERHEIT BRINGEN...WIEDER-\nHOLE...SSS  C...KRIEG...NAUT.[pause]"
       - |-
         [\x0207][\x020902]3...wawas?![pause][\x0203]Warum stoppt
         es nicht?![pause][\x0203]...Das war
@@ -86,7 +86,7 @@ files:
         stoppen![pause][\x0203]Huch?
         Da liegt etwas
         auf dem Boden.[pause]
-      - "[\\x0207][\\x020902]3Was?! Elektro[-4]\nmagnetisches \nFeld ist weg![pause]"
+      - "[\\x0207][\\x020902]3Was?! Elektro-\nmagnetisches \nFeld ist weg![pause]"
       - |-
         ALLES FÜR
         START BEREIT![pause][\x0203]JUGGERNAUT
@@ -117,11 +117,11 @@ files:
         ist super![pause]
       - |-
         [\x0207]Königl. Wache[\x0207]Jetzt los!
-        Juggernaut![pause][\x0203]Bring Terr. u. Zer[-4]
+        Juggernaut![pause][\x0203]Bring Terr. u. Zer-
         störung über diese
         nutzlose Welt![pause]
       - |-
-        [\x0207]Königl. Wache[\x0207]Elektromagne[-4]
+        [\x0207]Königl. Wache[\x0207]Elektromagne-
         tische Sperre
         jetzt aufheben![pause]
   - strings:
@@ -179,7 +179,7 @@ files:
       - |-
         Ha ha ha ha ha
         Du Winzling![pause][\x0203]Ich, Lord Megadeath, stehe über
-        dem Warp[-4]Tor![pause][\x0203]Na komm! Stärkster Tamer!
+        dem Warp-Tor![pause][\x0203]Na komm! Stärkster Tamer!
         Spüre meine Kraft![pause]
       - |-
         [\x0207][\x020902]3Denkste![pause][\x0203]Alles nur
@@ -210,7 +210,7 @@ files:
         Megadeath!
         Wer bist du?![pause]
       - |-
-        ...ich bin eine digitale Lebens[-4]
+        ...ich bin eine digitale Lebens-
         form, geboren im Netzwerk...[pause][\x0203]Und ich werde anstelle der
         Menschen alle Welten
         regieren...[pause]
@@ -228,15 +228,15 @@ files:
         gehört![pause]
       - |-
         ...Snatchmon wird geboren, wenn
-        Vemmon groβe Mengen an Matrix[-4]
+        Vemmon groβe Mengen an Matrix-
         Daten schluckt und digitiert.[pause][\x0203]Du hast sie gesehen...
-        Ihre Matrix[-4]Daten wurden ausgesaugt
+        Ihre Matrix-Daten wurden ausgesaugt
         u. sie verwandelten sich in Digimon.[pause]
       - |-
         [\x0207][\x020902]3Was...?!
         Das sind also
         Oinkmon.[pause]
-      - "Wenn Gunslinger die \nDigitierwelle abschickt...[pause][\\x0203]...werden Matrix[-4]Daten von\nallen Lebensformen gesendet...[pause][\\x0203]...und dann ist Snatchmon\nder Stärkste![pause][\\x0203]...Und als Snatchmons Tamer\nwerde ich die Welt mit Angst und\nSchrecken regieren![pause]"
+      - "Wenn Gunslinger die \nDigitierwelle abschickt...[pause][\\x0203]...werden Matrix-Daten von\nallen Lebensformen gesendet...[pause][\\x0203]...und dann ist Snatchmon\nder Stärkste![pause][\\x0203]...Und als Snatchmons Tamer\nwerde ich die Welt mit Angst und\nSchrecken regieren![pause]"
       - |-
         [\x0207][\x020902]3Das glaubst du!
         Ich halte dich auf![pause]
@@ -311,7 +311,7 @@ files:
         zu digitieren![pause]
       - "[\\x0207][\\x020902]3...Gaiamon?!\nEs geht also nicht \nnur um Menschen![pause][\\x0203]Alles auf der \nErde wird sterben![pause]"
       - |-
-        [\x0207]Snatchmon[\x0207]Das ist alles gleich[-4]
+        [\x0207]Snatchmon[\x0207]Das ist alles gleich-
         gültig, nur ich bin
         wichtig![pause]
       - '[\x0207][\x020902]3Ich halte dich auf![pause]'
@@ -320,7 +320,7 @@ files:
         [\x0207][\x020902]3Klar! Ich
         lasse es
         nicht zu![pause]
-      - "[\\x0207]Snatchmon[\\x0207]Gut.\nWir treffen\nuns im All![pause][\\x0203]Ich übertrage dei[-4]\nne Matrix[-4]Daten![pause][\\x0203]Schau, wie ich in\nGalacticmon \ndigitiere.[pause]"
+      - "[\\x0207]Snatchmon[\\x0207]Gut.\nWir treffen\nuns im All![pause][\\x0203]Ich übertrage dei-\nne Matrix-Daten![pause][\\x0203]Schau, wie ich in\nGalacticmon \ndigitiere.[pause]"
       - |-
         Dann komm Snatchmon!
         Und verdunkle diese Welt![pause]

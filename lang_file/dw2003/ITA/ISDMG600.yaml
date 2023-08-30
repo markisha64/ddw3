@@ -44,7 +44,7 @@ files:
         stemmi.[pause]
       - '[\x0207][\x020902]3Ma...?[pause]'
       - |-
-        [\x0207][\x020902]3Co[-4]cosa
+        [\x0207][\x020902]3Co-cosa
         succede?![pause]
       - '[\x0207][\x020902]3Uaaah![pause]'
   - strings:
@@ -98,7 +98,7 @@ files:
         parlarmi, no?[pause]
       - |-
         [\x0207]Lisa[\x0207]Aaah!
-        Nu[-4]nu[-4]
+        Nu-nu-
         Numemon![pause]
       - |-
         [\x0207]Numemon[\x0207]Calma, Lisa,
@@ -432,7 +432,7 @@ files:
         farò battere
         dall'A.o.A![pause]
       - |-
-        [\x0207][\x020902]3Co[-4]cosa?
+        [\x0207][\x020902]3Co-cosa?
         A.o.A?[pause]
       - |-
         [\x0207]Govern. di Byakko[\x0207]Non scherzare

@@ -17,7 +17,7 @@ strings:
   - TP 1
   - TP 5
   - TP10
-  - Ultra[-4]Trainingschance!
+  - Ultra-Trainingschance!
   - Nicht gen. TP
   - Schlag
   - Verteidigung
@@ -36,12 +36,12 @@ strings:
   - Donnerabwehr
   - Geschossabwehr
   - Verfolgen
-  - S[-4]Hitzetoleranz
-  - S[-4]Wassertoleranz
-  - S[-4]Eistoleranz
-  - S[-4]Windtoleranz
-  - S[-4]Donnerabwehr
-  - S[-4]Geschossabwehr
+  - S-Hitzetoleranz
+  - S-Wassertoleranz
+  - S-Eistoleranz
+  - S-Windtoleranz
+  - S-Donnerabwehr
+  - S-Geschossabwehr
   - Superverfolgung
   - Stärke trainieren.
   - Abwehr trainieren
@@ -93,7 +93,7 @@ strings:
   - Maschinenabwehr
   - Dunkelheitabwehr
   - '[\x020501] +[\x020502]'
-  - '[\x020501] [-4][\x020502]'
+  - '[\x020501] -[\x020502]'
   - |-
     Ergebnisse:
     Kraft ist um [\x020501] erhöht![pause]
@@ -154,7 +154,7 @@ strings:
   - |-
     Ergebnisse:
     Nichts wurde erhöht...[pause]
-  - '-----'
-  - --
-  - '----'
-  - '---'
+  - ーーーーー
+  - ーー
+  - ーーーー
+  - ーーー

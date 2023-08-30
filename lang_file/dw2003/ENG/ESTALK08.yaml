@@ -213,7 +213,7 @@ strings:
   - "[\\x0207]Veemon[\\x0207]Whoah! What was\nin that water we\njust had?[pause][\\x0203]I feel good, \nbut I'm getting\ndizzy![pause]"
   - |-
     [\x0207]Nick[\x0207]Uh, uhhhh,
-    everything A[-4]OK
+    everything A-OK
     here, too![pause][\x0203]Ah! I slipped back
     into that habit!
     Ha ha ha![pause]
@@ -339,7 +339,7 @@ strings:
     [\x0207]Tamer Andy[\x0207]Let me prove
     it in a game of
     cards![pause][\x0203]Can you beat the
-    mega[-4]strong Folder
+    mega-strong Folder
     I made?[pause]
   - |-
     [\x0207]Tamer Andy[\x0207]Ha ha ha! You
@@ -483,7 +483,7 @@ strings:
     the back too![pause]
   - "[\\x0207]Writer Hanako[\\x0207]Mr. Wedge is \njust so manly![pause][\\x0203]Whew! He \nmakes my legs\nturn to jelly![pause]"
   - "[\\x0207]Divermon[\\x0207]Hmm. Why don't\nI open the \nboosters?[pause][\\x0203]OK! Wait just\na sec![pause]"
-  - "[\\x0207]Ponchomon[\\x0207]Amigo, let's talk\nabout some of my\ntop[-4]line items![pause][\\x0203]These are Epic \nitems, the strongest\nin the world![pause][\\x0203]They're made by the\nArmor Corps, in \nthe Circuit Board.[pause][\\x0203]But, they can only\nbe used by really\nstrong tamers![pause][\\x0203]They don't work for\nweak tamers, amigo![pause]"
+  - "[\\x0207]Ponchomon[\\x0207]Amigo, let's talk\nabout some of my\ntop-line items![pause][\\x0203]These are Epic \nitems, the strongest\nin the world![pause][\\x0203]They're made by the\nArmor Corps, in \nthe Circuit Board.[pause][\\x0203]But, they can only\nbe used by really\nstrong tamers![pause][\\x0203]They don't work for\nweak tamers, amigo![pause]"
   - |-
     [\x0207]Divermon[\x0207]Huh? You don't have
     a Folder Bag?[pause][\x0203]Well in that case,

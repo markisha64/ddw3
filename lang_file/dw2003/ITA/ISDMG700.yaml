@@ -77,11 +77,11 @@ files:
         benvenuto: A, B, C.[pause][\x0203]Ogni kit ha tre
         tipi di Digimon.[pause]
       - |-
-        [\x0207]Impieg.[\x0207]A[-4] Normale:
+        [\x0207]Impieg.[\x0207]A- Normale:
         Kotemon, Renamon
-        e Patamon.[pause][\x0203]B[-4] Potente:
+        e Patamon.[pause][\x0203]B- Potente:
         Monmon, Agumon
-        e Renamon.[pause][\x0203]C[-4] Esagerato:
+        e Renamon.[pause][\x0203]C- Esagerato:
         Kumamon, Guilmon
         e Patamon.[pause][\x0203]Quale dei tre kit
         vuoi?[pause]

@@ -1,7 +1,7 @@
 type: simple
 strings:
   - ''
-  - "[\\x0207]Leader Suzaku[\\x0207]La Salle des\nurgences du\nSecteur Nord...[pause][\\x0203]Se trouve dans le\nsous[-4]sol de la\n\"Mine de Kulon\".[pause][\\x0203]Mais il te faut 4\nBadges de chefs \npour l'utiliser.[pause]"
+  - "[\\x0207]Leader Suzaku[\\x0207]La Salle des\nurgences du\nSecteur Nord...[pause][\\x0203]Se trouve dans le\nsous-sol de la\n\"Mine de Kulon\".[pause][\\x0203]Mais il te faut 4\nBadges de chefs \npour l'utiliser.[pause]"
   - a
   - a
   - |-
@@ -36,7 +36,7 @@ strings:
     [\x0207]Laura[\x0207]J'adore Veemon !
     Je veux vraiment
     être son amie ![pause]
-  - "[\\x0207]Cary Fan Bakemon[\\x0207]J'aime Bakemon. \nMais où est[-4]il ?![pause][\\x0203]Et je vois des\nfantômes... Ils \nsont partout...[pause][\\x0203]...Ils agissent\ncomme des Digimons\nC'est terrifiant.[pause]"
+  - "[\\x0207]Cary Fan Bakemon[\\x0207]J'aime Bakemon. \nMais où est-il ?![pause][\\x0203]Et je vois des\nfantômes... Ils \nsont partout...[pause][\\x0203]...Ils agissent\ncomme des Digimons\nC'est terrifiant.[pause]"
   - |-
     [\x0207]La Groupie d'Andy[\x0207]Andy, tu es le
     meilleur ![pause][\x0203]Andy va être
@@ -49,18 +49,18 @@ strings:
     [\x0207]Puck Chasseur fantômes[\x0207]N'entre pas dans
     cette pièce....[pause][\x0203]C'était un fantôme...
     J'en suis sûr ![pause]
-  - "[\\x0207]Gatomon[\\x0207]Tous ces Gatomons\nt'ont[-4]ils surpris ?[pause][\\x0203]Nous sommes tous \nlà pour apprendre à\ntenir des auberges.[pause]"
+  - "[\\x0207]Gatomon[\\x0207]Tous ces Gatomons\nt'ont-ils surpris ?[pause][\\x0203]Nous sommes tous \nlà pour apprendre à\ntenir des auberges.[pause]"
   - "[\\x0207]Jen l'Ami des bêtes[\\x0207]Quel tremblement \nde terre ! J'ai \ncru mourir ![pause][\\x0203]Bizarre, non ?\nUn séisme dans\nle Digimonde...[pause]"
   - "[\\x0207]Garudamon[\\x0207]Bienvenue dans\nmon Gymnase ![pause][\\x0203]Tu veux \nt'entraîner\nun peu ?[pause]"
   - '[\x0207]Togemon[\x0207]Voici le Gymnase.[pause][\x0203]Tu veux t''entraîner?[pause]'
   - |-
     [\x0207]Militaire[\x0207]Hé toi. D'où
-    viens[-4]tu ?!
+    viens-tu ?!
     Où est la sortie ?[pause][\x0203]Je ne sais pas
     où aller...[pause][\x0203]Il y a aussi des
     échelles invisibles.
     Zut ![pause]
-  - "[\\x0207]Militaire[\\x0207]Ouh ouh ?\nOù est la sortie ?[pause][\\x0203]Promis, je ne \nferai plus rien \nde mal, aide[-4]moi ![pause]"
+  - "[\\x0207]Militaire[\\x0207]Ouh ouh ?\nOù est la sortie ?[pause][\\x0203]Promis, je ne \nferai plus rien \nde mal, aide-moi ![pause]"
   - a
   - a
   - a
@@ -100,19 +100,19 @@ strings:
     sarcastique ?[pause][\x0203]Je vu le type en noir
     se diriger vers
     Suzaku City.[pause]
-  - "[\\x0207]Dress. Catherine[\\x0207]... Désolée. \nC'est le déjeuner![pause][\\x0203]Affrontons[-4]nous\nune autre fois.[pause]"
+  - "[\\x0207]Dress. Catherine[\\x0207]... Désolée. \nC'est le déjeuner![pause][\\x0203]Affrontons-nous\nune autre fois.[pause]"
   - "[\\x0207]Dres. Catherine[\\x0207]Un Combat \nde cartes ?\nJ'ai enfin appris.[pause]"
   - |-
     [\x0207]Dresseuse Catherine[\x0207]En garde pour
     un Digicombat...
-    Mais vas[-4]y doucement.[pause]
+    Mais vas-y doucement.[pause]
   - |-
     [\x0207]Dress. Catherine[\x0207]Désolée. Je ne suis
     pas à la hauteur.[pause][\x0203]Je vais m'entraîner.
     On s'affrontera la
     prochaine fois ![pause]
   - |-
-    [\x0207]Dress. Catherine[\x0207]Ouah, je n'ai ja[-4]
+    [\x0207]Dress. Catherine[\x0207]Ouah, je n'ai ja-
     mais vu personne
     avec un trophée ![pause][\x0203]Tu dois être
     super bon ![pause]
@@ -121,7 +121,7 @@ strings:
     prochaine.[pause]
   - |-
     [\x0207]Dress. Catherine[\x0207]Perdu ! Dommage...[pause][\x0203]Tu es bon !
-    Donne[-4]moi une
+    Donne-moi une
     autre chance.[pause]
   - |-
     [\x0207]Dresseuse Lucia[\x0207]... Mon apparence
@@ -131,7 +131,7 @@ strings:
     [\x0207]Dresseuse Lucia[\x0207]Je suis Lucia !
     Vétérinaire depuis
     20 ans ![pause]
-  - "[\\x0207]Dresseuse Lucia[\\x0207]Salut, je suis \nl'ex[-4]génie du jeu,\n\"Lucia Sue\"![pause]"
+  - "[\\x0207]Dresseuse Lucia[\\x0207]Salut, je suis \nl'ex-génie du jeu,\n\"Lucia Sue\"![pause]"
   - '[\x0207]Dresseuse Lucia[\x0207]Oiiink ![pause]'
   - a
   - "[\\x0207]Dresseuse Lucia[\\x0207]J'en sais plus \nque les gosses \ncomme toi.[pause][\\x0203]Ce n'est pas parce\nqu'on est vieux \nqu'on est nul ![pause]"
@@ -144,7 +144,7 @@ strings:
     [\x0207]Dress. Lucia[\x0207]Eh bien, bonne
     chance. Tu en
     auras besoin.[pause]
-  - "[\\x0207]Dresseuse Lucia[\\x0207]Je ne dois pas\nêtre au niveau \naujourd'hui.[pause][\\x0203]Laisse[-4]moi \nm'entraîner\navant le combat![pause]"
+  - "[\\x0207]Dresseuse Lucia[\\x0207]Je ne dois pas\nêtre au niveau \naujourd'hui.[pause][\\x0203]Laisse-moi \nm'entraîner\navant le combat![pause]"
   - "[\\x0207]Dresseuse Lucia[\\x0207]Regarde ! Je ne\nne suis pas si \nnulle que ça ![pause]"
   - |-
     [\x0207]Dress. Lucia[\x0207]Oh, j'ai
@@ -167,7 +167,7 @@ strings:
     je ne vais pas
     t'affronter.[pause][\x0203]Je n'ai pas le
     temps de faire
-    du baby[-4]sitting.[pause]
+    du baby-sitting.[pause]
   - "[\\x0207]Dress. Robert[\\x0207]Un Combat \nde cartes,\nPetit ?[pause][\\x0203]Allez, je vais\njouer un peu\navec toi.[pause]"
   - "[\\x0207]Dresseur Robert[\\x0207]Je n'ai rien à faire,\nd'accord pour \nun Digicombat.[pause]"
   - "[\\x0207]Dress. Robert[\\x0207]Désolé, mais\nje ne vais pas\nme battre.[pause][\\x0203]Perdre contre \nun enfant, \nc'est humiliant.[pause]"
@@ -191,7 +191,7 @@ strings:
     J'ai perdu ?[pause][\x0203]Mince ! Moi qui
     te prenais pour
     un môme.[pause]
-  - "[\\x0207]Dresseuse Tomomi[\\x0207]Que faire ?\nJ'ai un rencard\nmaintenant...[pause][\\x0203]... Mais c'est \nplus drôle de jou[-4]\ner avec un d'autre ![pause]"
+  - "[\\x0207]Dresseuse Tomomi[\\x0207]Que faire ?\nJ'ai un rencard\nmaintenant...[pause][\\x0203]... Mais c'est \nplus drôle de jou-\ner avec un d'autre ![pause]"
   - |-
     [\x0207]Dresseuse Tomomi[\x0207]Que faire ?
     Je suis déjà en retard
@@ -230,7 +230,7 @@ strings:
   - |-
     [\x0207]Dresseuse Tomomi[\x0207]Ouais, j'ai
     gagné ![pause][\x0203]Je vais annuler
-    mon rendez[-4]vous !
+    mon rendez-vous !
     Merci ![pause]
   - |-
     [\x0207]Dress. Tomomi[\x0207]J'ai perdu ?
@@ -240,7 +240,7 @@ strings:
   - a
   - |-
     [\x0207]Dres. Catherine[\x0207]Un Combat de
-    cartes avec moi![pause][\x0203]Je suis meil[-4]
+    cartes avec moi![pause][\x0203]Je suis meil-
     leure après
     l'entraînement ![pause]
   - a
@@ -262,37 +262,37 @@ strings:
     je joue avec toi.[pause][\x0203]Mais ne va pas
     pleurer si tu perds.[pause]
   - |-
-    [\x0207]Dress. Tomomi[\x0207]Hé, toi, aide[-4]
-    moi.[pause][\x0203]Affrontons[-4]nous,
+    [\x0207]Dress. Tomomi[\x0207]Hé, toi, aide-
+    moi.[pause][\x0203]Affrontons-nous,
     je déciderai
     après ![pause]
   - |-
     [\x0207]Dresseur Bob[\x0207]Pourquoi nous
-    battons[-4]nous ?[pause]
+    battons-nous ?[pause]
   - |-
-    [\x0207]Dresseur Bob[\x0207]... Qu'est[-4]ce qu'on
+    [\x0207]Dresseur Bob[\x0207]... Qu'est-ce qu'on
     apprend en se battant ?[pause]
   - |-
     [\x0207]Dresseur Bob[\x0207]... L'AoA a
-    perdu...[pause][\x0203]... Mais était[-4]ce
+    perdu...[pause][\x0203]... Mais était-ce
     vraiment bon
     pour nous...?[pause]
   - |-
     [\x0207]Dresseur Bob[\x0207]Oink.
     Oinkkkk.[pause]
-  - "[\\x0207]Dresseur Bob[\\x0207]\"Combattre...\" \nQu'est[-4]ce que\nça veut dire...?[pause][\\x0203]J'y pense depuis un\nmoment, mais je n'ai\npas encore de réponse.[pause]"
+  - "[\\x0207]Dresseur Bob[\\x0207]\"Combattre...\" \nQu'est-ce que\nça veut dire...?[pause][\\x0203]J'y pense depuis un\nmoment, mais je n'ai\npas encore de réponse.[pause]"
   - "[\\x0207]Dresseur Bob[\\x0207]J'ai beau y réfléchir,\nje ne trouve pas ![pause][\\x0203]Inutile ! Je ne \npeux pas me battre \ntout seul comme ça.[pause]"
-  - "[\\x0207]Dresseur Bob[\\x0207]Un Combat de \ncartes devrait me\ndonner la réponse![pause][\\x0203]Bats[-4]toi avec\nce vieil homme ![pause]"
-  - "[\\x0207]Dresseur Bob[\\x0207]Il doit falloir \nse battre pour\navoir la réponse.[pause][\\x0203]Bats[-4]toi avec\nce vieil homme ![pause]"
+  - "[\\x0207]Dresseur Bob[\\x0207]Un Combat de \ncartes devrait me\ndonner la réponse![pause][\\x0203]Bats-toi avec\nce vieil homme ![pause]"
+  - "[\\x0207]Dresseur Bob[\\x0207]Il doit falloir \nse battre pour\navoir la réponse.[pause][\\x0203]Bats-toi avec\nce vieil homme ![pause]"
   - |-
     [\x0207]Dresseur Bob[\x0207]Tout "combat"
     s'accompagne
-    d'une défaite...[pause][\x0203]Je n'ai pas en[-4]
+    d'une défaite...[pause][\x0203]Je n'ai pas en-
     vie de me battre...[pause]
-  - "[\\x0207]Dresseur Bob[\\x0207]Que dirais[-4]tu d'un \nCombat de\ncartes ?![pause][\\x0203]Peut[-4]être\nque ça m'aidera.[pause]"
+  - "[\\x0207]Dresseur Bob[\\x0207]Que dirais-tu d'un \nCombat de\ncartes ?![pause][\\x0203]Peut-être\nque ça m'aidera.[pause]"
   - "[\\x0207]Dresseur Bob[\\x0207]Victoire ou \ndéfaite... on\nreste sans rien.[pause][\\x0203]Ce sentiment\nme laisse\nsongeur.[pause]"
   - |-
-    [\x0207]Dresseur Bob[\x0207]Profites[-4]en.
+    [\x0207]Dresseur Bob[\x0207]Profites-en.
     Mais tu vas bientôt
     comprendre...[pause][\x0203]...que les combats
     rapportent
@@ -300,12 +300,12 @@ strings:
   - "[\\x0207]Dresseur Bob[\\x0207]J'ai gagné le combat.\nMais j'éprouve un \nsentiment de défaite...[pause][\\x0203]Cela me laisse\nsongeur.[pause]"
   - |-
     [\x0207]Dresseur Bob[\x0207]Hum, tu trouveras
-    peut[-4]être la réponse.[pause][\x0203]Alors, je te donnerai
-    ce Raz[-4]de[-4]marée ![pause][\x0203]Et regarde bien
+    peut-être la réponse.[pause][\x0203]Alors, je te donnerai
+    ce Raz-de-marée ![pause][\x0203]Et regarde bien
     ce qui se passe à
     la fin du combat ![pause]
   - |-
-    [\x0207]Dresseur Bob[\x0207]Profites[-4]en.
+    [\x0207]Dresseur Bob[\x0207]Profites-en.
     Car tu va bientôt
     comprendre...[pause][\x0203]...que les combat
     rapportent
@@ -335,7 +335,7 @@ strings:
   - "[\\x0207]Dresseur Bob[\\x0207]C'est vrai, j'ai \nperdu face à toi \nla dernière fois...[pause][\\x0203]Mais je vais\nfinir par\nl'emporter ![pause]"
   - "[\\x0207]Dresseur Bob[\\x0207]Tu es vraiment\ngénial. Je dois\nle reconnaître.[pause][\\x0203]J'avais besoin \nd'un rival fort\npour repartir ![pause]"
   - "[\\x0207]Dresseur Bob[\\x0207]Je ne t'ai pas rendu\nla monnaie de ta pièce.[pause][\\x0203]Prêt pour un \nCombat de cartes ?[pause]"
-  - "[\\x0207]Dresseur Andy[\\x0207]Regarde, tu com[-4]\nprends maintenant ?[pause][\\x0203]Moi, Andy, je \nserai le Champion\ndu serveur ![pause]"
+  - "[\\x0207]Dresseur Andy[\\x0207]Regarde, tu com-\nprends maintenant ?[pause][\\x0203]Moi, Andy, je \nserai le Champion\ndu serveur ![pause]"
   - "[\\x0207]Dresseur Andy[\\x0207]Eh bien, ce sont\ndes choses \nqui arrivent.[pause][\\x0203]Hum... Je crois\nque ce n'était \npas mon jour.[pause]"
   - |-
     [\x0207]Dresseur George[\x0207]Hé, petit, tu veux
@@ -346,7 +346,7 @@ strings:
     rentrer ![pause][\x0203]...C'est quoi ?
     Tu veux mon
     poing ?[pause]
-  - "[\\x0207]Dresseur George[\\x0207]Cette histoire \nd'AoA m'embête ![pause][\\x0203]... Quoi ? Occupe[-4]\ntoi de tes affaires.[pause]"
+  - "[\\x0207]Dresseur George[\\x0207]Cette histoire \nd'AoA m'embête ![pause][\\x0203]... Quoi ? Occupe-\ntoi de tes affaires.[pause]"
   - |-
     [\x0207]Dress. George[\x0207]Oiiink !
     Oink, oink ![pause]
@@ -359,11 +359,11 @@ strings:
   - "[\\x0207]Dress. George[\\x0207]Tu vas voir qui\nest le maître \nau Digicombat ![pause]"
   - |-
     [\x0207]Dresseur George[\x0207]...Oh, c'est toi.
-    Que veux[-4]tu ?
+    Que veux-tu ?
     Tu as déjà gagné.[pause][\x0203]Tu m'embêtes,
     fiche le champ !
     Ouste ![pause]
-  - "[\\x0207]Dresseur George[\\x0207]Laisse[-4]moi seul,\nd'accord...[pause][\\x0203]Allez quoi,\nlaisse[-4]moi seul, \ns'il te plaît.[pause]"
+  - "[\\x0207]Dresseur George[\\x0207]Laisse-moi seul,\nd'accord...[pause][\\x0203]Allez quoi,\nlaisse-moi seul, \ns'il te plaît.[pause]"
   - |-
     [\x0207]Dresseur George[\x0207]...Oh, très bien.[pause][\x0203]C'est parti pour un
     Combat de cartes ![pause]
@@ -374,7 +374,7 @@ strings:
   - |-
     [\x0207]Dresseur George[\x0207]OK, t'as gagné,
     pas la peine de
-    faire le malin [pause][\x0203]Lâche[-4]moi...
+    faire le malin [pause][\x0203]Lâche-moi...
     Tu entends,
     DU BALAI ![pause]
   - "[\\x0207]Dresseur Mei Lin[\\x0207]Nihao !\nJe suis Mei Lin\nde Pékin ![pause][\\x0203]Il y aussi plein\nde dresseurs \nen Chine ![pause]"
@@ -404,12 +404,12 @@ strings:
   - |-
     [\x0207]Dress. Mei Lin[\x0207]Un Digicombat ![pause][\x0203]Tu vas voir
     mon style
-    kung[-4]fu ![pause]
+    kung-fu ![pause]
   - |-
     [\x0207]Dress. Mei Lin[\x0207]J'ai déjà
     perdu contre
     toi récemment ![pause][\x0203]Je ne suis pas
-    prêt, peut[-4]être
+    prêt, peut-être
     la prochaine fois.[pause]
   - |-
     [\x0207]Dess. Mei Lin[\x0207]... Ouah, tu es
@@ -460,7 +460,7 @@ strings:
     [\x0207]Dresseur Gordon[\x0207]La liberté est
     le bien le plus
     précieux ![pause]
-  - "[\\x0207]Dresseur Gordon[\\x0207]Mais tu es \ntrès fort ![pause][\\x0203]Comment puis[-4]je\ndevenir aussi fort\nque toi ?[pause]"
+  - "[\\x0207]Dresseur Gordon[\\x0207]Mais tu es \ntrès fort ![pause][\\x0203]Comment puis-je\ndevenir aussi fort\nque toi ?[pause]"
   - |-
     [\x0207]Dresseur Gordon[\x0207]Un Combat
     de cartes ![pause][\x0203]Excellente idée !
@@ -586,11 +586,11 @@ strings:
     La la la la la ![pause]
   - |-
     [\x0207]Dresseuse Akiba[\x0207]Un Combat
-    de cartes ![pause][\x0203]Bats[-4]toi
+    de cartes ![pause][\x0203]Bats-toi
     avec moi ![pause]
   - |-
     [\x0207]Dresseuse Akiba[\x0207]J'ai juste besoin
-    d'un Digicombat ![pause][\x0203]Alors, bats[-4]toi ![pause]
+    d'un Digicombat ![pause][\x0203]Alors, bats-toi ![pause]
   - |-
     [\x0207]Dress. Akiba[\x0207]Tu es si
     fort.[pause][\x0203]Je ne suis pas
@@ -625,7 +625,7 @@ strings:
     pas perdre ![pause]
   - |-
     [\x0207]???[\x0207]...Hum ?
-    Qui es[-4]tu ?[pause][\x0203]Je suis occupé.
+    Qui es-tu ?[pause][\x0203]Je suis occupé.
     Ne me dérange pas.[pause]
   - |-
     [\x0207]Agumon[\x0207]Un et deux,
@@ -723,7 +723,7 @@ strings:
     ne comprend ![pause]
   - |-
     [\x0207]Cary Fan Bakemon[\x0207]Bakemon, où
-    es[-4]tu ?[pause][\x0203]Il ne doit pas
+    es-tu ?[pause][\x0203]Il ne doit pas
     être ici.[pause]
   - |-
     [\x0207]Cary Fan Bakemon[\x0207]Je vais attendre
@@ -762,12 +762,12 @@ strings:
   - |-
     [\x0207]Gatomon[\x0207]On me le demande
     mais je ne sais pas
-    où est le Digi[-4]oeuf.[pause][\x0203]Désolé de n'être
+    où est le Digi-oeuf.[pause][\x0203]Désolé de n'être
     d'aucune aide.[pause]
   - |-
     [\x0207]Gatomon[\x0207]Tu es à
     l'auberge.
-    Repose[-4]toi ![pause]
+    Repose-toi ![pause]
   - |-
     [\x0207]Gatomon[\x0207]Il y a des
     problèmes
@@ -830,12 +830,12 @@ strings:
     fort alors ![pause]
   - |-
     [\x0207]Sepikmon[\x0207]Je viens de lire
-    ton avenir... [pause][\x0203]Méfie[-4]toi de
+    ton avenir... [pause][\x0203]Méfie-toi de
     quelqu'un de vert ![pause]
   - |-
     [\x0207]Sepikmon[\x0207]On ne peut pas
     aller à Asuka City.[pause][\x0203]Que se
-    passe[-4]t[-4]il ?[pause]
+    passe-t-il ?[pause]
   - |-
     [\x0207]Sepikmon[\x0207]La libération
     d'Asuka City est
@@ -940,7 +940,7 @@ strings:
   - "[\\x0207]Nami[\\x0207]C'était un\nséisme ? \nJ'ai eu si peur ![pause]"
   - |-
     [\x0207]Nami[\x0207]Miaou, miaou.[pause][\x0203]... Bizarre,
-    n'y a[-4]t[-4]il pas de
+    n'y a-t-il pas de
     chats par là...?[pause]
   - |-
     [\x0207]Nami[\x0207]Super, l'A.o.A
@@ -975,17 +975,17 @@ strings:
   - a
   - a
   - a
-  - "[\\x0207]HiAndromon[\\x0207]Je suis\nHiAndromon, \nl'administrateur.[pause][\\x0203]C'est dangereux\npar là.\nFais demi[-4]tour.[pause]"
+  - "[\\x0207]HiAndromon[\\x0207]Je suis\nHiAndromon, \nl'administrateur.[pause][\\x0203]C'est dangereux\npar là.\nFais demi-tour.[pause]"
   - |-
     [\x0207]HiAndromon[\x0207]Attends !
     Hé, dresseur ![pause][\x0203]C'est dangereux
     par là.
-    Fais demi[-4]tour.[pause]
+    Fais demi-tour.[pause]
   - |-
     [\x0207]HiAndromon[\x0207]Attends !
     Hé, dresseur ![pause][\x0203]C'est dangereux
     par là.
-    Fais demi[-4]tour.[pause]
+    Fais demi-tour.[pause]
   - "[\\x0207]HiAndromon[\\x0207]Même Lucky Mouse \na échoué.[pause][\\x0203]Tu es notre seul\nespoir.\nBonne chance ![pause]"
   - |-
     [\x0207]HiAndromon[\x0207]Tu as vaincu le
@@ -1003,11 +1003,11 @@ strings:
     rejoindre tout
     le monde ![pause]
   - |-
-    [\x0207]HiAndromon[\x0207]Qu'est[-4]ce que
+    [\x0207]HiAndromon[\x0207]Qu'est-ce que
     cela signifie ?[pause][\x0203]L'A.o.A a été
     vaincu...[pause]
   - '43'
-  - "[\\x0207]WaruMonzaemon[\\x0207]...Euh ?\nQui es[-4]tu ?[pause][\\x0203]Je n'ai pas le\ntemps, petit. \nVa[-4]t'en ![pause]"
+  - "[\\x0207]WaruMonzaemon[\\x0207]...Euh ?\nQui es-tu ?[pause][\\x0203]Je n'ai pas le\ntemps, petit. \nVa-t'en ![pause]"
   - |-
     [\x0207]WaruMonzaemon[\x0207]Je ne voulais
     faire de mal...[pause][\x0203]Je voulais une
@@ -1021,7 +1021,7 @@ strings:
     Arukenimon.
     Elle est jolie.[pause]
   - |-
-    [\x0207]WaruMonzaemon[\x0207]Mais qu'y a[-4]t[-4]il
+    [\x0207]WaruMonzaemon[\x0207]Mais qu'y a-t-il
     avec les humains ?[pause][\x0203]Je n'y comprends
     rien ![pause]
   - |-
@@ -1049,16 +1049,16 @@ strings:
     LE RESPONSABLE
     DES SAUVEGARDES.[pause][\x0203]SI TU VEUX
     SAUVEGARDER,
-    VIENS[-4]NOUS VOIR ![pause]
+    VIENS-NOUS VOIR ![pause]
   - |-
     [\x0207]Gatomon[\x0207]Nous, les Gatomons,
     sommes responsables
     de l'auberge.[pause][\x0203]Pour y séjourner,
-    adresse[-4]toi à
+    adresse-toi à
     nous.[pause]
   - |-
     [\x0207]Gatomon[\x0207]...Bienvenue
-    dans mon auberge ![pause][\x0203]Profites[-4]en pour
+    dans mon auberge ![pause][\x0203]Profites-en pour
     te reposer.[pause]
   - |-
     [\x0207][\x020902]3Ouais ! J'ai
@@ -1220,15 +1220,15 @@ strings:
   - |-
     [\x0207]Zanbamon[\x0207]J'ai eu tort ![pause][\x0203]Je vais rester ici,
     au calme, alors
-    laisse[-4]moi ![pause]
+    laisse-moi ![pause]
   - |-
     [\x0207]Zanbamon[\x0207]J'ai eu tort ![pause][\x0203]Je vais rester ici,
     au calme, alors
-    laisse[-4]moi ![pause]
+    laisse-moi ![pause]
   - |-
     [\x0207]Zanbamon[\x0207]Je n'ai rien
     fait de
-    mal ![pause][\x0203]Laisse[-4]moi
+    mal ![pause][\x0203]Laisse-moi
     tranquille ![pause]
   - |-
     [\x0207]Zanbamon[\x0207]J'ai changé :
@@ -1242,11 +1242,11 @@ strings:
     de faire du bien ![pause]
   - |-
     [\x0207]Zanbamon[\x0207]Etrange... Quel
-    calme ici ![pause][\x0203]Alors, laisse[-4]moi
+    calme ici ![pause][\x0203]Alors, laisse-moi
     ici.[pause]
   - |-
     [\x0207]Zanbamon[\x0207]Etrange... Quel
-    calme ici ![pause][\x0203]Alors, laisse[-4]moi
+    calme ici ![pause][\x0203]Alors, laisse-moi
     ici.[pause]
   - |-
     [\x0207]Zanbamon[\x0207]J'ai été surpris
@@ -1271,13 +1271,13 @@ strings:
     alors ?[pause]
   - |-
     [\x0207]Zanbamon[\x0207]On dirait que ça ne
-    va pas là[-4]
+    va pas là-
     bas.[pause][\x0203]Le véritable ennemi
     n'a pas encore été
     vaincu...[pause]
   - '43'
   - |-
-    [\x0207]Zanbamon[\x0207]Là[-4]bas, c'est le
+    [\x0207]Zanbamon[\x0207]Là-bas, c'est le
     serveur Amaterasu.[pause][\x0203]Pourquoi cette
     présence
     maléfique ?[pause]
@@ -1286,7 +1286,7 @@ strings:
     est à l'origine
     du séisme ![pause][\x0203]En cas de danger,
     n'insiste pas...
-    Va[-4]t'en ![pause]
+    Va-t'en ![pause]
   - |-
     [\x0207]Chef de Suzaku[\x0207]Je monte la garde ![pause][\x0203]L'A.o.A peut
     surgir de cette brèche.[pause]
@@ -1509,9 +1509,9 @@ strings:
     si bien ! Tout
     baigne ![pause]
   - |-
-    [\x0207]Dresseur Tomomi[\x0207]Que dois[-4]je
+    [\x0207]Dresseur Tomomi[\x0207]Que dois-je
     faire ? J'ai un
-    rendez[-4]vous.[pause][\x0203]C'est plus amusant
+    rendez-vous.[pause][\x0203]C'est plus amusant
     de jouer avec
     tout le monde ![pause]
   - a
@@ -1653,7 +1653,7 @@ strings:
     [\x0207]Johann de l'IRD[\x0207]Je suis Johann.
     Je cherche
     Agumon.[pause]
-  - "[\\x0207]Johann de l'IRD[\\x0207]Je cherche\nMetalGreymon...[pause][\\x0203]Mais j'ignore où\nil peut être.[pause][\\x0203]Avec l'ADNN d'Agumon,\nje pourrai poursuivre\nmes recherches...[pause][\\x0203]Oh ! Si tu le vois, \npeux[-4]tu lui prendre\nde l'ADDN ?[pause][\\x0203]En récompense, je\nt'ajouterai Agumon\ncomme partenaire ![pause]"
+  - "[\\x0207]Johann de l'IRD[\\x0207]Je cherche\nMetalGreymon...[pause][\\x0203]Mais j'ignore où\nil peut être.[pause][\\x0203]Avec l'ADNN d'Agumon,\nje pourrai poursuivre\nmes recherches...[pause][\\x0203]Oh ! Si tu le vois, \npeux-tu lui prendre\nde l'ADDN ?[pause][\\x0203]En récompense, je\nt'ajouterai Agumon\ncomme partenaire ![pause]"
   - "[\\x0207]Johann de l'IRD[\\x0207]Oui ! Voici l'ADNN\nd'Agumon ![pause][\\x0203]Comme promis, je vais\nt'ajouter Agumon\ncomme partenaire ![pause][\\x0203]Va voir Piximon ou\nle Dr. Kadomatsu au\nlabo ![pause][\\x0203]Agumon doit être\ndans la liste pour\nChanger de Digimon.[pause][\\x0203]Bonne chance \navec Agumon ![pause]"
   - |-
     [\x0207]Johann de l'IRD[\x0207]Oi, oinoionk !
@@ -1664,7 +1664,7 @@ strings:
     fort ![pause]
   - |-
     [\x0207]Johann de l'IRD[\x0207]Tu as un super
-    Agumon ![pause][\x0203]Entraîne[-4]le
+    Agumon ![pause][\x0203]Entraîne-le
     bien ![pause]
   - |-
     [\x0207]Johann l'IRD[\x0207]Je suis
@@ -1674,11 +1674,11 @@ strings:
     [\x0207]Divermon[\x0207]Aïe, quelque chose
     est coincé dans
     ma gorge ![pause][\x0203]Je t'en prie,
-    enlève[-4]le ![pause][\x0203].........
+    enlève-le ![pause][\x0203].........
     ..........[pause][\x0203]Merci, c'est
     mieux ![pause][\x0203]J'avais un Asticot
     rouge de coincé.[pause][\x0203]Je n'en ai pas
-    besoin, prends[-4]le.
+    besoin, prends-le.
     A plus tard ![pause]
   - |-
     [\x0207]Divermon[\x0207]Merci pour
@@ -1695,10 +1695,10 @@ strings:
   - |-
     [\x0207]MetalGreymon[\x0207]L'ADN Numérique
     est très important,
-    alors utilise[-4]le bien ![pause]
+    alors utilise-le bien ![pause]
   - |-
     [\x0207]WarGrowlmon[\x0207]Aaargh !
-    Qu'est[-4]ce que
+    Qu'est-ce que
     tu veux ?[pause][\x0203]Je rêvais que
     je mangeais
     du pain ![pause]
@@ -1710,21 +1710,21 @@ strings:
   - |-
     [\x0207]MagnaAngemon[\x0207]Je ne peux
     donner qu'un
-    ADN Numérique.[pause][\x0203]Fais[-4]en bon
+    ADN Numérique.[pause][\x0203]Fais-en bon
     usage.[pause]
   - |-
     [\x0207]Taomon[\x0207]Kirikirisowaka,
-    Kirikirisowaka...[pause][\x0203]Euh, qui est[-4]ce ?
+    Kirikirisowaka...[pause][\x0203]Euh, qui est-ce ?
     Qui dérange
     mon entraînement ?[pause]
   - |-
     [\x0207]Taomon[\x0207]L'ADN Numérique
     n'est pas facile à
     donner.[pause][\x0203]Ne l'oublie pas.[pause]
-  - "[\\x0207]Kyukimon[\\x0207]Hé, toi... \nQue veux[-4]tu ?[pause]"
+  - "[\\x0207]Kyukimon[\\x0207]Hé, toi... \nQue veux-tu ?[pause]"
   - "[\\x0207]Kyukimon[\\x0207]Tes Digimons \nsont forts.[pause][\\x0203]J'ai hâte de voir\nce qu'ils vont\ndevenir.[pause]"
   - |-
-    [\x0207]Armormon[\x0207]Qui es[-4]tu ?
+    [\x0207]Armormon[\x0207]Qui es-tu ?
     Ne perturbe pas
     mon entraînement ![pause]
   - |-
@@ -1732,7 +1732,7 @@ strings:
     m'entraîner...[pause]
   - |-
     [\x0207]GrapLeomon[\x0207]Euh ?
-    Qui es[-4]tu ?[pause]
+    Qui es-tu ?[pause]
   - |-
     [\x0207]GrapLeomon[\x0207]...Hummm, quoi ?
     Je t'ai donné l'ADN
@@ -1768,7 +1768,7 @@ strings:
     affronté
     MasterTyranno.[pause][\x0203]Désolé, je ne peux
     pas te combattre ![pause][\x0203]La Vallée Tyranno
-    est au nord[-4]est de
+    est au nord-est de
     Seiryu City.[pause]
   - a
   - |-
@@ -1833,7 +1833,7 @@ strings:
     Je ne me souviens pas...[pause]
   - |-
     [\x0207][\x020902]3Ca y est ! Le
-    Symbole de la sincérité.[pause][\x0203]S'agit[-4]il du Digi[-4]oeuf
+    Symbole de la sincérité.[pause][\x0203]S'agit-il du Digi-oeuf
     de la Fiabilité ?[pause][\x0203]Mais comment
     abattre ce mur ?[pause][\x0203]Hum... Sepikmon
     pourra m'aider...[pause]
@@ -1847,7 +1847,7 @@ strings:
     ami Baronmon ![pause][\x0203]Baronmon sait
     les fabriquer.[pause]
   - |-
-    [\x0207]Sepikmon[\x0207]Baronmon t'a[-4]t[-4]il
+    [\x0207]Sepikmon[\x0207]Baronmon t'a-t-il
     fait une bombe ?[pause][\x0203]Ravi d'avoir
     pu t'aider ![pause]
   - "[\\x0207]MasterTyranno[\\x0207]Oh, tu as\nle Badge de\nSuzaku.[pause][\\x0203]Félicitations,\npetit ! \nContinue ![pause]"
@@ -1883,7 +1883,7 @@ strings:
     vous les gars ![pause]
   - a
   - |-
-    [\x0207]HiAndromon[\x0207]Pourquoi es[-4]tu
+    [\x0207]HiAndromon[\x0207]Pourquoi es-tu
     ici ?[pause]
   - |-
     [\x0207]PANNEAU[\x0207]Nord : Suzaku City
@@ -1916,7 +1916,7 @@ strings:
     comment "Changer
     de compte" ![pause][\x0203]Si tu veux changer
     le nom de tes
-    Digimons, dis[-4]le moi.[pause][\x0203]Je m'en charge
+    Digimons, dis-le moi.[pause][\x0203]Je m'en charge
     quand tu veux ![pause]
   - |-
     [\x0207]Numemon[\x0207]Très bien !
@@ -1944,7 +1944,7 @@ strings:
     [\x0207]KingDivermon[\x0207]Hum ! Tu veux
     te battre
     avec moi ?[pause][\x0203]Fofofo...
-    Allons[-4]y ![pause]
+    Allons-y ![pause]
   - |-
     [\x0207]KingDivermon[\x0207]Fofofo !
     Tu n'es pas encore
@@ -1961,7 +1961,7 @@ strings:
   - a
   - a
   - |-
-    [\x0207]KingDivermon[\x0207]Tu es ici ! Peux[-4]tu
+    [\x0207]KingDivermon[\x0207]Tu es ici ! Peux-tu
     gagner contre mon
     meilleur dossier ?![pause]
   - |-
@@ -1998,17 +1998,17 @@ strings:
     [\x0207][\x020902]3Ouais ! J'ai
     1 600 BIT ![pause]
   - a
-  - "[\\x0207]Agumon[\\x0207]Hé, hé, \ndésolé.[pause][\\x0203]Peux[-4]tu trouver\nVeemon ?\nBonne chance.[pause]"
-  - "[\\x0207]Kail[\\x0207]... Hé [\\x020801][\\x020501], \nas[-4]tu vu mon frè...[pause][\\x0203]...Humm, \nnon, rien ![pause]"
+  - "[\\x0207]Agumon[\\x0207]Hé, hé, \ndésolé.[pause][\\x0203]Peux-tu trouver\nVeemon ?\nBonne chance.[pause]"
+  - "[\\x0207]Kail[\\x0207]... Hé [\\x020801][\\x020501], \nas-tu vu mon frè...[pause][\\x0203]...Humm, \nnon, rien ![pause]"
   - |-
     [\x0207]Kail[\x0207]... Hé [\x020801][\x020501]!
     Ecoute ![pause][\x0203]J'ai vu un Digimon avec
     un drôle de visage aller
     au Secteur Est.[pause][\x0203]Je crois que c'était
     Baronmon.[pause]
-  - "[\\x0207]Lisa[\\x0207]Salut [\\x020801][\\x020501] ![pause][\\x0203]Je cherchais un joli\nDigimon vert et j'ai \natterri ici.[pause][\\x0203]Par[-4]delà l'océan, c'est\nle Secteur Ouest. Mais\ncomment y aller...[pause]"
+  - "[\\x0207]Lisa[\\x0207]Salut [\\x020801][\\x020501] ![pause][\\x0203]Je cherchais un joli\nDigimon vert et j'ai \natterri ici.[pause][\\x0203]Par-delà l'océan, c'est\nle Secteur Ouest. Mais\ncomment y aller...[pause]"
   - |-
-    [\x0207]Lisa [\x0207]Salut [\x020801][\x020501] ![pause][\x0203]...Que fais[-4]je ici ?[pause][\x0203]C'est un secret.[pause][\x0203]Les femmes sont
+    [\x0207]Lisa [\x0207]Salut [\x020801][\x020501] ![pause][\x0203]...Que fais-je ici ?[pause][\x0203]C'est un secret.[pause][\x0203]Les femmes sont
     cachotières ![pause]
   - a
   - "[\\x0207]Keith [\\x0207]Hé, petit ! Tu\nconnais le \nGrand Gymnase ?[pause][\\x0203]Si tu y vas, tes\nDigimons seront\ntrès puissants ![pause][\\x0203]Si mes Digimons s'y\nentraînent, ils\nseront invincibles ![pause]"
@@ -2022,7 +2022,7 @@ strings:
   - a
   - |-
     [\x0207][\x020902]3Je dois trouver le
-    Digi[-4]oeuf de la
+    Digi-oeuf de la
     Fiabilité...[pause]
   - a
   - |-

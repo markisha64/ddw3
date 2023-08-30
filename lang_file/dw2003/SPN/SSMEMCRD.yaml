@@ -56,10 +56,10 @@ strings:
   - |-
     Guardando archivo.
     No toques la Tarjeta de Memoria.
-  - '[-4][-4][-4][-4][-4]'
-  - '[-4][-4][-4][-4][-4][-4][-4][-4]'
-  - '[-4][-4][-4][-4][-4][-4][-4]'
-  - '[-4][-4]'
+  - '-----'
+  - '--------'
+  - '-------'
+  - '--'
   - Error al guardar.
   - Error al guardar.
   - "Error en la Tarjeta de Memoria. \nComprueba la Tarjeta de Memoria."

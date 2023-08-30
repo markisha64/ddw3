@@ -4,23 +4,23 @@ strings:
   - |-
     [\x0207][\x020902]3Super!
     Ich hab' 'nen
-    Rüstungs[-4]Chip![pause]
+    Rüstungs-Chip![pause]
   - |-
     [\x0207][\x020902]3Super!
     Ich hab' 'nen
-    Eis[-4]Chip![pause]
+    Eis-Chip![pause]
   - |-
     [\x0207][\x020902]3Super!
     Ich hab' 'nen
-    Geist[-4]Chip![pause]
+    Geist-Chip![pause]
   - |-
     [\x0207][\x020902]3Super!
     Ich hab' 'nen
-    Wind[-4]Chip![pause]
+    Wind-Chip![pause]
   - |-
     [\x0207][\x020902]3Super!
     Ich hab' 'nen
-    Donner[-4]Chip![pause]
+    Donner-Chip![pause]
   - |-
     [\x0207][\x020902]3Super!
     Ich hab' 'nen
@@ -28,7 +28,7 @@ strings:
   - |-
     [\x0207][\x020902]3Super!
     Ich hab' 'ne
-    Cluster[-4]Kanone![pause]
+    Cluster-Kanone![pause]
   - "[\\x0207][\\x020902]3Super! \nIch hab'\nKhakkhara[pause]"
   - |-
     [\x0207][\x020902]3Super!
@@ -41,7 +41,7 @@ strings:
   - |-
     [\x0207][\x020902]3Super!
     Ich hab' 'nen
-    Weisheit[-4]Chip![pause]
+    Weisheit-Chip![pause]
   - |-
     [\x0207][\x020902]3Super!
     Ich hab' 'nen
@@ -49,7 +49,7 @@ strings:
   - |-
     [\x0207][\x020902]3Super!
     Ich hab' 'ne
-    Laser[-4]Kanone![pause]
+    Laser-Kanone![pause]
   - |-
     [\x0207][\x020902]3Super!
     Ich hab' 'nen
@@ -65,11 +65,11 @@ strings:
   - |-
     [\x0207][\x020902]3Super!
     Ich hab' ein
-    Gold[-4]Ticket![pause]
+    Gold-Ticket![pause]
   - |-
     [\x0207][\x020902]3Super!
     Ich hab' ein
-    Platin[-4]Ticket![pause]
+    Platin-Ticket![pause]
   - |-
     [\x0207][\x020902]3Super!
     Ich hab' ein
@@ -86,7 +86,7 @@ strings:
   - |-
     [\x0207]Lisa[\x0207]Wenn wir schon
     die Chance haben,
-    wie wäre es mit[pause][\x0203]einem Karten[-4]
+    wie wäre es mit[pause][\x0203]einem Karten-
     kampf?[pause]
   - |-
     [\x0207]Lisa[\x0207]Hey, ich habe
@@ -119,7 +119,7 @@ strings:
     [\x0207]Tamer Peter[\x0207]Ich geb' auf. Es
     stimmt, was man
     über dich sagt.[pause][\x0203]Aber sei vorsichtig,
-    es gibt auch stärk[-4]
+    es gibt auch stärk-
     ere Typen hier![pause]
   - |-
     [\x0207]Tamer Mitsuko[\x0207]Nicht wahr!
@@ -128,7 +128,7 @@ strings:
     Fan! Mir wird ganz
     schummrig![pause]
   - |-
-    [\x0207]Tamer Mitsuko[\x0207]Sollen wir die Ge[-4]
+    [\x0207]Tamer Mitsuko[\x0207]Sollen wir die Ge-
     legenheit nutzen
     und Karten spielen?[pause]
   - |-
@@ -140,11 +140,11 @@ strings:
   - |-
     [\x0207]Tamer Mitsuko[\x0207]Das sieht dir
     ähnlich, [\x020801][\x020501]!
-    Du bist so[pause][\x0203]stark! Ich be[-4]
+    Du bist so[pause][\x0203]stark! Ich be-
     wundere dich
     noch mehr![pause]
   - |-
-    [\x0207]Tamer Mitsuko[\x0207]Gut, dass Digimon[-4]
+    [\x0207]Tamer Mitsuko[\x0207]Gut, dass Digimon-
     Online wieder da
     ist! Jetzt könne[pause][\x0203]wir spielen, ohne
     uns um irgendwas
@@ -170,7 +170,7 @@ strings:
     [\x0207]Tamer George[\x0207]Mann, das ist doof!
     Wo sind die ECHTEN
     Tamer? Seit ich[pause][\x0203]angemeldet bin ist
-    mir sterbenslang[-4]
+    mir sterbenslang-
     weilig![pause]
   - |-
     [\x0207]Tamer George[\x0207]Was guckst du?
@@ -182,7 +182,7 @@ strings:
     [\x0207]Tamer George[\x0207]Ist das alles?
     Pah! Geh' mir
     aus den Augen![pause][\x0203]Du gehörst zurück
-    in den Kinder[-4]
+    in den Kinder-
     garten![pause]
   - |-
     [\x0207]Tamer George[\x0207]Hey, DAS war ein
@@ -199,7 +199,7 @@ strings:
   - |-
     [\x0207]Tamer Masato[\x0207]Wir wollen sehen,
     wer die meisten
-    Tamer besiegen kann![pause][\x0203]Nimm's nicht per[-4]
+    Tamer besiegen kann![pause][\x0203]Nimm's nicht per-
     sönlich, wenn ich
     dich schlage![pause]
   - |-
@@ -209,20 +209,20 @@ strings:
     ich, das ist peinlich
     ...[pause][\x0203]Ich bin ja ein Mann![pause]
   - |-
-    [\x0207]Tamer Masato[\x0207]Oh nein! Ver[-4]
+    [\x0207]Tamer Masato[\x0207]Oh nein! Ver-
     loren![pause][\x0203]Furchtbar!
     Tomomi macht
     Schluss mit mir![pause]
   - |-
-    [\x0207]Tamer Alexei[\x0207]Als ich zu Oink[-4]
+    [\x0207]Tamer Alexei[\x0207]Als ich zu Oink-
     mon wurde, habe
-    ich geschworen[pause][\x0203]nie mehr zu trin[-4]
+    ich geschworen[pause][\x0203]nie mehr zu trin-
     ken, wenn ich
     wieder Mensch wäre![pause]
   - |-
     [\x0207]Tamer Alexei[\x0207]Ha ha ha, Junge,
     jetzt wirst du selbst
-    sehen, wie stark ich[pause][\x0203]bin [-4] nüchtern![pause]
+    sehen, wie stark ich[pause][\x0203]bin - nüchtern![pause]
   - |-
     [\x0207]Tamer Alexei[\x0207]Ha ha ha! Hast du
     noch nicht genug?[pause][\x0203]Keiner wird mich mehr
@@ -231,18 +231,18 @@ strings:
   - |-
     [\x0207]Tamer Alexei[\x0207]Ich halt's nicht
     aus! Ich brauch'
-    'nen Schluck.[pause][\x0203]Nein, ich habe ge[-4]
+    'nen Schluck.[pause][\x0203]Nein, ich habe ge-
     schworen, nie
     wieder zu trinken![pause]
   - |-
     [\x0207]Tamer Tomomi[\x0207]Ich habe mich heute
-    mit Masato angemel[-4]
+    mit Masato angemel-
     det! Wir machen[pause][\x0203]einen Wettkampf, wer
     die meisten
     Tamer besiegt![pause]
   - |-
     [\x0207]Tamer Tomomi[\x0207]Komm, hilf' mir.
-    Eine Runde Kar[-4]
+    Eine Runde Kar-
     ten wäre nett![pause]
   - |-
     [\x0207]Tamer Tomomi[\x0207]Ja! Vielen
@@ -256,11 +256,11 @@ strings:
     Ich wollte nur
     alleine spielen![pause]
   - |-
-    [\x0207]Tamer Akiba[\x0207]La la[-4]la la la[-4][-4]la!
-    Ich bin der fröh[-4]
+    [\x0207]Tamer Akiba[\x0207]La la-la la la--la!
+    Ich bin der fröh-
     liche Tamer Akiba![pause][\x0203]Ich bin wieder bei
-    Digimon[-4]Online.
-    La la[-4]la la la[-4][-4]la![pause]
+    Digimon-Online.
+    La la-la la la--la![pause]
   - |-
     [\x0207]Tamer Akiba[\x0207]Wäre schön,
     wenn ich eine
@@ -269,8 +269,8 @@ strings:
   - |-
     [\x0207]Tamer Akiba[\x0207]Ich bin toll, hab'
     dich fertig gemacht.
-    La la[-4]la la la[-4][-4]la![pause][\x0203]Darum könnte ich
-    Digimon[-4]Online
+    La la-la la la--la![pause][\x0203]Darum könnte ich
+    Digimon-Online
     ewig spielen.[pause]
   - |-
     [\x0207]Tamer Akiba[\x0207]Schrecklich! Ich
@@ -284,9 +284,9 @@ strings:
     kann's nicht lassen![pause]
   - |-
     [\x0207]Tamer Gon[\x0207]Das war wirklich
-    ziemlich pein[-4]
+    ziemlich pein-
     lich.[pause][\x0203]Kann ich es mit
-    einer Runde Kar[-4]
+    einer Runde Kar-
     ten gut machen?[pause]
   - |-
     [\x0207]Tamer Gon[\x0207]Ich habe wirklich
@@ -301,7 +301,7 @@ strings:
     hier starke Tamer sind[pause]
   - |-
     [\x0207]Tamer Wan[\x0207]Ich wusste, dass
-    Digimon[-4]Online
+    Digimon-Online
     wieder laufen würde![pause][\x0203]Zum Glück hat Lucky
     Mouse, ääh Kurt, es
     wieder repariert![pause]
@@ -410,7 +410,7 @@ strings:
     hast es weit gebracht,[pause][\x0203]aber hier endet deine
     Glücksträhne! Weiβ du,
     der Kartenkönig, meine[pause][\x0203]Wenigkeit, ist perfekt!
-    Es ist uncool, zu ver[-4]
+    Es ist uncool, zu ver-
     lieren, geschnallt?[pause]
   - |-
     [\x0207]Keith[\x0207]Alles klar?
@@ -426,13 +426,13 @@ strings:
     [\x0207]Keith[\x0207]Nein, das ist nicht
     wahr![pause][\x0203]Du bist einfach
     unglaublich! Hier,
-    für dich. Das ist[pause][\x0203]der KdK[-4]Pokal. Nun
-    hast du den Karten[-4]
+    für dich. Das ist[pause][\x0203]der KdK-Pokal. Nun
+    hast du den Karten-
     könig besiegt![pause][\x0203]Der richtige Kampf
     hat erst begonnen!
     Viel Glück![pause]
   - |-
-    [\x0207]Keith[\x0207]Du bist was Be[-4]
+    [\x0207]Keith[\x0207]Du bist was Be-
     sonderes, hast
     mich besiegt![pause][\x0203]Da drauβen sind
     aber noch schlimmere
@@ -444,17 +444,17 @@ strings:
   - |-
     [\x0207]Tamer Alice[\x0207]Du...willst...
     Durch. Nein![pause][\x0203]Du musst mich
-    erst im Karten[-4]
+    erst im Karten-
     kampf schlagen.[pause]
   - |-
     [\x0207]Tamer Alice[\x0207]Ich...gewinne.
-    Kein...Durch[-4]
+    Kein...Durch-
     gang.[pause]
   - |-
     [\x0207]Tamer Alice[\x0207]Ich...verliere.
     Na dann...[pause]
   - |-
-    [\x0207]Tamer Alice[\x0207]Du bist...tat[-4]
+    [\x0207]Tamer Alice[\x0207]Du bist...tat-
     sächlich stark.
     Bewundernswert![pause]
   - |-
@@ -466,10 +466,10 @@ strings:
     [\x0207]Tamer Bomujii[\x0207]Sorry, aber ich
     kann dich nicht
     durchlassen.[pause][\x0203]Dazu musst du
-    mich erst be[-4]
+    mich erst be-
     siegen.[pause]
   - |-
-    [\x0207]Tamer Bomujii[\x0207]Ich hab' das Karten[-4]
+    [\x0207]Tamer Bomujii[\x0207]Ich hab' das Karten-
     spiel gewonnen, und?[pause][\x0203]Das lässt in mir
     alle möglichen
     Zweifel aufkommen.[pause]
@@ -508,7 +508,7 @@ strings:
     nicht zu verlieren.[pause]
   - |-
     [\x0207]Tamer Poemy[\x0207]Ehrwürdiger Held!
-    Dort drüben lau[-4]
+    Dort drüben lau-
     ert die Gefahr.[pause][\x0203]Halte in deinem
     Fortschreiten
     inne![pause]
@@ -527,11 +527,11 @@ strings:
     an dich![pause]
   - |-
     [\x0207]Tamer Haruka[\x0207]Ho ho ho! Ich
-    bin die unbe[-4]
+    bin die unbe-
     siegbare Tamerin![pause][\x0203]Ich werde dich
     nicht durchlassen[pause]
   - |-
-    [\x0207]Tamer Haruka[\x0207]Du wagst die Her[-4]
+    [\x0207]Tamer Haruka[\x0207]Du wagst die Her-
     ausforderung?
     Seine Grenzen nicht[pause][\x0203]zu kennen ist auch
     ein Form von Mut.[pause]
@@ -547,12 +547,12 @@ strings:
     gewinnen lassen.[pause]
   - |-
     [\x0207]Tamer Haruka[\x0207]Du weiβt, ich habe
-    dich gewinnen las[-4]
+    dich gewinnen las-
     sen! Das beweist,[pause][\x0203]wie unglaublich
     stark ich bin.
     Oh ho ho ho![pause]
   - |-
-    [\x0207]Panjyamon[\x0207]Eine neue Train[-4]
+    [\x0207]Panjyamon[\x0207]Eine neue Train-
     ingshalle![pause][\x0203]Wenn du hart
     trainierst, wirst
     du stark![pause]
@@ -563,7 +563,7 @@ strings:
     [\x0207]Togemon[\x0207]Hoffentlich reparieren
     sie die anderen
     Server auch bald.[pause][\x0203]Dann kann ich wieder
-    am Empfang der Trai[-4]
+    am Empfang der Trai-
     ningshalle arbeiten![pause]
   - a
   - |-
@@ -575,7 +575,7 @@ strings:
   - |-
     [\x0207]Leomon[\x0207]Pass' auf, auch wenn
     du die A.o.A besiegt
-    hast![pause][\x0203]Master[-4]Tamer vernach[-4]
+    hast![pause][\x0203]Master-Tamer vernach-
     lässigen das Training
     nie![pause]
   - |-
@@ -598,7 +598,7 @@ strings:
     der Anblick beruhigt.[pause][\x0203]Die Welt ist wieder
     in Ordnung![pause]
   - |-
-    [\x0207]Guilmon[\x0207]Auβer zum Zentral[-4]
+    [\x0207]Guilmon[\x0207]Auβer zum Zentral-
     und Ostsektor ist
     der Zutritt überall[pause][\x0203]verboten. Die Platine
     soll aber verbessert
@@ -610,24 +610,24 @@ strings:
     spitze![pause]
   - |-
     [\x0207]Fuβballer Hide[\x0207]Was, du hast immer
-    noch keine Baum[-4]
+    noch keine Baum-
     stiefel?[pause][\x0203]Ach, egal, ich kann
     dir ein Paar leihen.
     Jetzt kannst du[pause][\x0203]auch Bäume treten.
     Viel Glück![pause]
   - |-
     [\x0207]Fuβballer Hide[\x0207]Komm, wir machen
-    unsere Kartensamm[-4]
+    unsere Kartensamm-
     lung komplett![pause]
   - |-
     [\x0207]Asuramon[\x0207]Sieh an, das ist doch
     [\x020801][\x020501]. Ich habe
     von dir gehört. Du[pause][\x0203]hast noch einen weiten
     Weg vor dir, bevor
-    du Master[-4]Tamer wirst.[pause][\x0203]Du musst kämpfen,
+    du Master-Tamer wirst.[pause][\x0203]Du musst kämpfen,
     um stark zu werden![pause]
   - |-
-    [\x0207]Irrer Masaki[\x0207]Digimon[-4]Online ist
+    [\x0207]Irrer Masaki[\x0207]Digimon-Online ist
     super! Hoffentlich
     können wir bald in[pause][\x0203]andere Bereiche![pause]
   - |-
@@ -636,23 +636,23 @@ strings:
     Süd: Forest Inn[pause]
   - |-
     [\x0207]Shakkoumon[\x0207]Kaum zu glauben,
-    dass Digimon[-4]Online
+    dass Digimon-Online
     wieder da ist.[pause][\x0203]Haben wir Kurt und
     seinen Leuten zu
     verdanken![pause]
   - |-
     [\x0207]Zhu Que Leader[\x0207]Was? Du wagst es,
-    mich herauszufor[-4]
+    mich herauszufor-
     dern? Eigentlich[pause][\x0203]würde ich meine
     Zeit nicht vergeuden,
     aber wenn du[pause][\x0203]zuerst die 5 stärksten
-    Epic[-4]Items sammelst,[pause][\x0203]kämpfe ich mit dir.
+    Epic-Items sammelst,[pause][\x0203]kämpfe ich mit dir.
     Klar?[pause]
   - |-
     [\x0207]Zhu Que Leader[\x0207]Was, du wagst es,
-    mich herauszu[-4]
+    mich herauszu-
     fordern? Du hast[pause][\x0203]also die 5 stärksten
-    Epic[-4]Items. Du bist
+    Epic-Items. Du bist
     ganz gut! Also dann.[pause][\x0203]Zeig' mir, was du
     kannst! Jetzt kämpfe
     ich mit dir![pause]
@@ -661,7 +661,7 @@ strings:
     mich zu besiegen!
     Aber vergiss nicht,[pause][\x0203]es gibt noch einen,
     der besser ist.
-    Wenn du nicht auf[-4][pause][\x0203]passt, kann das
+    Wenn du nicht auf-[pause][\x0203]passt, kann das
     Ärger geben. Sei
     also vorsichtig![pause]
   - |-
@@ -669,10 +669,10 @@ strings:
     Herausforderer. Sei
     nicht beleidigt,[pause][\x0203]aber du bist noch nicht
     so weit. Finde erst
-    die 5 stärksten[pause][\x0203]Epic[-4]Items, die hier
+    die 5 stärksten[pause][\x0203]Epic-Items, die hier
     irgendwo sind, das
     reicht dann.[pause]
-  - "[\\x0207]Bai Hu Leader[\\x0207]Nicht noch ein\nHerausforderer.\nWas? Sind das[pause][\\x0203]etwa die stärksten\nEpic[-4]Items?\nHätte nie gedacht,[pause][\\x0203]dass ein Tamer \nsie kriegen würde!\nVielleicht habe ich[pause][\\x0203]doch Spaβ mit dir!\nAlso gut, los\ndann.[pause][\\x0203]Enttäusch' mich\nnicht![pause]"
+  - "[\\x0207]Bai Hu Leader[\\x0207]Nicht noch ein\nHerausforderer.\nWas? Sind das[pause][\\x0203]etwa die stärksten\nEpic-Items?\nHätte nie gedacht,[pause][\\x0203]dass ein Tamer \nsie kriegen würde!\nVielleicht habe ich[pause][\\x0203]doch Spaβ mit dir!\nAlso gut, los\ndann.[pause][\\x0203]Enttäusch' mich\nnicht![pause]"
   - |-
     [\x0207]Bai Hu Leader[\x0207]Was für ein Tamer
     bist du, mich zu
@@ -680,18 +680,18 @@ strings:
     so ein Potenzial![pause]
   - |-
     [\x0207]Baronmon[\x0207]Ich kümmer mich
-    um Account[-4]Ände[-4]
-    rungen. Hier ist[pause][\x0203]der Ort für Digimon[-4]
+    um Account-Ände-
+    rungen. Hier ist[pause][\x0203]der Ort für Digimon-
     Namensänderungen.[pause]
   - |-
-    [\x0207]Leomon[\x0207]Das ist die Karten[-4]
+    [\x0207]Leomon[\x0207]Das ist die Karten-
     insel, ein Traum
-    für Kartenkenner![pause][\x0203]Leute ohne Akten[-4]
+    für Kartenkenner![pause][\x0203]Leute ohne Akten-
     tasche kommen hier
     nicht rein![pause]
   - |-
     [\x0207]Kotemon[\x0207]Hier sind viele
-    starke Karten[-4]
+    starke Karten-
     kenner![pause][\x0203]Wie viele Tamer
     kommen nach
     oben?[pause]
@@ -707,7 +707,7 @@ strings:
     nicht durch![pause]
   - |-
     [\x0207]Kumamon[\x0207]Yes Sir, keine
-    besonderen Vor[-4]
+    besonderen Vor-
     kommnisse. Wir[pause][\x0203]sind auch von der
     Streife! Wir schützen
     den Frieden der[pause][\x0203]digitalen Welt, also
@@ -727,14 +727,14 @@ strings:
     Dummkopf? Mit mir
     kämpfen? Ich kämpfe[pause][\x0203]nicht mit einem, der
     nicht die 5 stärksten
-    Epic[-4]Items hat![pause][\x0203]Lächerlich! Komm
+    Epic-Items hat![pause][\x0203]Lächerlich! Komm
     wieder, wenn du[pause][\x0203]die Waffen hast![pause]
   - |-
     [\x0207]Xuan Wu Leader[\x0207]Haste ein Problem,
     Dummkopf? Mit mir
     kämpfen? Ich kämpfe[pause][\x0203]nicht mit einem, der
     nicht die 5 stärksten
-    Epic[-4]Items hat![pause][\x0203]Was, du hast sie?
+    Epic-Items hat![pause][\x0203]Was, du hast sie?
     OK, dann kämpfe
     ich mit dir.[pause][\x0203]Aber ich nehme
     keine Rücksicht!
@@ -744,7 +744,7 @@ strings:
     du, wer du bist?
     Mich zu schlagen![pause][\x0203]Wie bist du so
     stark geworden?
-    Hast du ein[pause][\x0203]geheimes Trainings[-4]
+    Hast du ein[pause][\x0203]geheimes Trainings-
     programm? Sag'
     schon![pause]
   - |-
@@ -752,7 +752,7 @@ strings:
     habe ich ganz allein
     geschafft, jetzt bin[pause][\x0203]ich ein echter Tamer[pause]
   - |-
-    [\x0207]DO[-4]Personal[\x0207]Der Zutritt zum
+    [\x0207]DO-Personal[\x0207]Der Zutritt zum
     Südsektor ist wg.
     Bauarbeiten noch[pause][\x0203]verboten. Sorry,
     aber hier musst
@@ -761,7 +761,7 @@ strings:
     [\x0207]Agumon[\x0207]Der Südsektor muss
     wg. des Erdbebens
     noch repariert[pause][\x0203]werden. Die Platine
-    wurde jedoch ver[-4]
+    wurde jedoch ver-
     bessert. Da will[pause][\x0203]ich auch mal hin![pause]
   - |-
     [\x0207]Kabukimon[\x0207]Die Kotetsu ist die
@@ -805,16 +805,16 @@ strings:
   - |-
     [\x0207]Shurimon[\x0207]Du hast ein
     rostiges Gewehr![pause][\x0203]Bring mir die
-    Cluster[-4]Kanone![pause][\x0203]Dann verschmelze
+    Cluster-Kanone![pause][\x0203]Dann verschmelze
     ich beide zu einer
     stärkeren Waffe![pause]
-  - "[\\x0207]Shurimon[\\x0207]Du hast rostiges \nGewehr und Cluster[-4] \nKanone![pause][\\x0203]Gibst du sie mir?[pause][\\x0203]Waffenevolution\nnach Shurimon!\n...ayeeeeeya![pause][\\x0203]...gut! Hier nun die\nRechtfertigung[-4]Waffe.[pause][\\x0203]Ich gebe sie dir, sei\nvorsichtig damit![pause]"
+  - "[\\x0207]Shurimon[\\x0207]Du hast rostiges \nGewehr und Cluster- \nKanone![pause][\\x0203]Gibst du sie mir?[pause][\\x0203]Waffenevolution\nnach Shurimon!\n...ayeeeeeya![pause][\\x0203]...gut! Hier nun die\nRechtfertigung-Waffe.[pause][\\x0203]Ich gebe sie dir, sei\nvorsichtig damit![pause]"
   - |-
     [\x0207]Nohemon[\x0207]Ist Tierkreis nicht
     toll? Sei vorsichtig[pause]
   - |-
     [\x0207]Nohemon[\x0207]Ich bin Nohemon,
-    keine Vogel[-4]
+    keine Vogel-
     scheuche![pause]
   - |-
     [\x0207]Nohemon[\x0207]Du hast also
@@ -826,7 +826,7 @@ strings:
     Rosthandschuh
     und Kaiserfaust![pause][\x0203]OK, gib sie mir.
     Keine Angst, ich
-    nehm' sie nicht weg.[pause][\x0203]OK, hier bitte.[pause][\x0203]...sieh mal [-4] du
+    nehm' sie nicht weg.[pause][\x0203]OK, hier bitte.[pause][\x0203]...sieh mal - du
     hast Tierkreis![pause][\x0203]OK, ich gebe es
     dir zurück. Verwende
     es weise![pause]
@@ -848,7 +848,7 @@ strings:
     [\x0207]Shadramon[\x0207]Du hast Säbelzahn
     und Alte Klaue.
     Gib' sie mir![pause][\x0203]Ooooh, das ist...
-    super...[pause][\x0203]OK, ich ver[-4]
+    super...[pause][\x0203]OK, ich ver-
     schmelze sie.[pause][\x0203]Da! Ist das nicht
     cool? Das ist
     Bezwingen![pause][\x0203]Ich hab' viele davon,
@@ -866,11 +866,11 @@ strings:
   - |-
     [\x0207]Ponchomon[\x0207]Du kannst den alten
     Stab nicht verwenden[pause][\x0203]Soll ich dir eine
-    Avant[-4]Garde[-4]Waffe
+    Avant-Garde-Waffe
     machen?[pause][\x0203]Bring mir Khakkhara,
     dann mache ich sie
     dir![pause]
-  - "[\\x0207]Ponchomon[\\x0207]Amigo, du hast den \nalten Stab und\nKhakkhara![pause][\\x0203]Gib sie mir![pause][\\x0203]...cha, cha, cha!\nCha, cha, cha!\nOoooo Mambo![pause][\\x0203]Hier bitte! Das ist\nAvant[-4]Garde[-4]\nGlitzer![pause][\\x0203]Damit kannst du an[-4]\ngeben! Viel Glück![pause]"
+  - "[\\x0207]Ponchomon[\\x0207]Amigo, du hast den \nalten Stab und\nKhakkhara![pause][\\x0203]Gib sie mir![pause][\\x0203]...cha, cha, cha!\nCha, cha, cha!\nOoooo Mambo![pause][\\x0203]Hier bitte! Das ist\nAvant-Garde-\nGlitzer![pause][\\x0203]Damit kannst du an-\ngeben! Viel Glück![pause]"
   - |-
     [\x0207]Yashamon[\x0207]Nur wer wirklich
     stark ist, kann
@@ -899,13 +899,13 @@ strings:
     stark, damit du des
     Schwertes würdig bist.[pause]
   - |-
-    [\x0207]Sagitarimon[\x0207]Du hast mich ge[-4]
-    troffen und Ur[-4]
+    [\x0207]Sagitarimon[\x0207]Du hast mich ge-
+    troffen und Ur-
     teil bekommen.[pause][\x0203]Du hast am meisten
     Glück von allen
     Tamern des Servers[pause]
   - |-
-    [\x0207]Sagitarimon[\x0207]Ich bin das fantas[-4]
+    [\x0207]Sagitarimon[\x0207]Ich bin das fantas-
     tische Digimon...
     Sagitarimon![pause][\x0203]Du hast Glück,
     mich zu Gesicht
@@ -922,14 +922,14 @@ strings:
     Laserkanone und
     Gerechtigkeit![pause][\x0203]Also dann, gib
     sie mir kurz...[pause][\x0203]Hmm.. Haa!!
-    Hi[-4]ya..!![pause][\x0203]Sieh dir das an!
+    Hi-ya..!![pause][\x0203]Sieh dir das an!
     Das ist Urteil![pause][\x0203]Du hast ein Glück!
     Ha ha ha!![pause]
   - |-
     [\x0207]Seehomon[\x0207]Was? Du musst
     dich nicht
     bedanken![pause][\x0203]Menschen sind
-    immer so senti[-4]
+    immer so senti-
     mental. Ho ho![pause]
   - |-
     [\x0207]Seehomon[\x0207]Ho ho! Ich
@@ -1010,17 +1010,17 @@ strings:
     gewinnst.[pause]
   - |-
     [\x0207]Yashamon[\x0207]Deine Stärke hat die
-    von Masamune über[-4]
-    troffen.[pause][\x0203]Hole die Fujin[-4]Klinge
+    von Masamune über-
+    troffen.[pause][\x0203]Hole die Fujin-Klinge
     und komm zu mir
     zurück.[pause][\x0203]Dann mache ich dir
     eine stärkere Waffe.[pause]
   - |-
     [\x0207]Yashamon[\x0207]Die Klinge da, das
-    ist Fujin[-4]Klinge,
+    ist Fujin-Klinge,
     oder?[pause][\x0203]Gib mir jetzt
     Masamune...[pause][\x0203]Meine starke Seele,
-    gehe in diese Schwer[-4]
+    gehe in diese Schwer-
     ter ein.[pause][\x0203]Halt dies, das ist
     Muramasa, das
     stärkste Katana[pause][\x0203]der Welt! Selbst ich
@@ -1034,7 +1034,7 @@ strings:
     Bestrafung dabei.[pause][\x0203]Bestrafung ist das
     stärkste Gewehr
     der Welt![pause][\x0203]Du bist wahrscheinlich
-    der glücklichste Ta[-4]
+    der glücklichste Ta-
     mer überhaupt![pause]
   - |-
     [\x0207]Sagitarimon[\x0207]Ich bin Sagitarimon!
@@ -1046,10 +1046,10 @@ strings:
     [\x0207]Sagitarimon[\x0207]Da wir uns erneut
     treffen, gebe ich
     dir einen Tipp.[pause][\x0203]Komm nächstes Mal
-    mit der Suijin[-4]Kanone.[pause][\x0203]Dann wirst du noch
+    mit der Suijin-Kanone.[pause][\x0203]Dann wirst du noch
     viel mehr Glück
     haben![pause]
-  - "[\\x0207]Sagitarimon[\\x0207]Hey, du hast die\nSuijin[-4]Kanone![pause][\\x0203]Gib mir die\nzusammen mit\nUrteil.[pause][\\x0203]..Hm.. Haaaaa!\nHi[-4]yaaaa! Ya!![pause][\\x0203]Sieh genau hin.\nDas ist\nBestrafung![pause][\\x0203]Das ist ohne\nZweifel das beste\nder Welt! Auch[pause][\\x0203]ich kann kein besseres\nmachen, du hast \nein Glück![pause][\\x0203]Mach weiter so!\nHa ha ha![pause]"
+  - "[\\x0207]Sagitarimon[\\x0207]Hey, du hast die\nSuijin-Kanone![pause][\\x0203]Gib mir die\nzusammen mit\nUrteil.[pause][\\x0203]..Hm.. Haaaaa!\nHi-yaaaa! Ya!![pause][\\x0203]Sieh genau hin.\nDas ist\nBestrafung![pause][\\x0203]Das ist ohne\nZweifel das beste\nder Welt! Auch[pause][\\x0203]ich kann kein besseres\nmachen, du hast \nein Glück![pause][\\x0203]Mach weiter so!\nHa ha ha![pause]"
   - |-
     [\x0207]Nohemon[\x0207]Wie gefällt's dir,
     ist Supernova
@@ -1059,19 +1059,19 @@ strings:
     auf, ja?[pause]
   - |-
     [\x0207]Nohemon[\x0207]Ich bin Nohemon,
-    und keine Vogel[-4]
+    und keine Vogel-
     scheuche![pause]
   - |-
     [\x0207]Nohemon[\x0207]Wow, was ist das?
     Du verwendest immer
-    noch Beliebtheit?[pause][\x0203]Bring mir Raijin[-4]
+    noch Beliebtheit?[pause][\x0203]Bring mir Raijin-
     Faust,[pause][\x0203]dann mache ich dir
     eine Waffe, auf die
     du stolz sein kannst![pause]
   - |-
     [\x0207]Nohemon[\x0207]Hey, du hast
     Beliebtheit und
-    Raijin[-4]Faust![pause][\x0203]Gib sie mir.
+    Raijin-Faust![pause][\x0203]Gib sie mir.
     Keine Sorge, ich
     klau' sie nicht.[pause][\x0203]Also dann!
     Das hier hin und
@@ -1110,7 +1110,7 @@ strings:
     zusammen..[pause][\x0203]Guck an! Sieht cool
     aus, oder? Das ist
     Unbesiegbar![pause][\x0203]Die beste Waffe
-    der Welt, unge[-4]
+    der Welt, unge-
     logen![pause][\x0203]Selbst ich kann keine
     bessere Waffe als
     Unbesiegbar machen![pause][\x0203]Jetzt bist du der
@@ -1129,16 +1129,16 @@ strings:
     [\x0207]Kongoumon[\x0207]Weiβt du was,
     jetzt kann ich
     was Tolles machen.[pause][\x0203]Diesmal brauche ich
-    Millennium[-4]Stab.
+    Millennium-Stab.
     Bring ihn mir,[pause][\x0203]dann überrasche
     ich dich mit was
     Tollem![pause]
-  - "[\\x0207]Kongoumon[\\x0207]Du hast Millennium[-4]\nStab.[pause][\\x0203]Gib ihn mir mit\nMakellos.\nLass mal sehen...[pause][\\x0203]Augenblick.\nShaka shaka! \nShaka shaka![pause][\\x0203]Hier hast du's, \nEwig! Das ist\ndie stärkste Waffe[pause][\\x0203]für Patamon und \nRenamon.[pause][\\x0203]Mann, ich beneide \ndich![pause]"
+  - "[\\x0207]Kongoumon[\\x0207]Du hast Millennium-\nStab.[pause][\\x0203]Gib ihn mir mit\nMakellos.\nLass mal sehen...[pause][\\x0203]Augenblick.\nShaka shaka! \nShaka shaka![pause][\\x0203]Hier hast du's, \nEwig! Das ist\ndie stärkste Waffe[pause][\\x0203]für Patamon und \nRenamon.[pause][\\x0203]Mann, ich beneide \ndich![pause]"
   - |-
-    [\x0207]MetalGreymon[\x0207]Du solltest Dr. Oso[-4]
-    matsu oder Piccolo[-4]
+    [\x0207]MetalGreymon[\x0207]Du solltest Dr. Oso-
+    matsu oder Piccolo-
     mon besuchen.[pause][\x0203]Du findest Agumon im
-    Salon bei der Digimon[-4]
+    Salon bei der Digimon-
     Tauschstelle.[pause]
   - |-
     [\x0207]MetalGreymon[\x0207]Du bist [\x020801][\x020501]
@@ -1154,32 +1154,32 @@ strings:
     stärker als ich
     dachte![pause][\x0203]Nimm dieses Item
     als Beweis, dass
-    du mich besiegt hast.[pause][\x0203]Das ist Agumon[-4]DDNA,
+    du mich besiegt hast.[pause][\x0203]Das ist Agumon-DDNA,
     aus meiner DDNA
     extrahiert![pause][\x0203]Bringe sie zu
     Dr. Osomatsu oder
     Piccolomon..[pause][\x0203]Du findest Agumon in
-    der Digimon[-4]Tauschst.
+    der Digimon-Tauschst.
     im Salon![pause][\x0203]Mache ihn zu einem
     starken Digimon![pause]
   - |-
     [\x0207]MegaroGrowlmon[\x0207]Besuche Dr. Osomatsu
     oder Piccolomon.[pause][\x0203]Du findest Girumon
-    in der Digimon[-4]
+    in der Digimon-
     Tauschstelle im Salon![pause]
-  - "[\\x0207]MegaroGrowlmon[\\x0207]Zzz..!!\nWarum hast du \nmich geweckt!?[pause][\\x0203]Ich habe von\nleckerem Ku[-4]\nchen geträumt![pause]"
+  - "[\\x0207]MegaroGrowlmon[\\x0207]Zzz..!!\nWarum hast du \nmich geweckt!?[pause][\\x0203]Ich habe von\nleckerem Ku-\nchen geträumt![pause]"
   - |-
     [\x0207]MegaroGrowlmon[\x0207]Ich lasse nicht zu,
     dass jemand meinen
     Schlaf stört![pause][\x0203]Ich werde dir
     eine Lehre
     erteilen![pause]
-  - "[\\x0207]MegaroGrowlmon[\\x0207]..Autsch!\nSorry! Ich hatte\nUnrecht! Verzeih![pause][\\x0203]Nimm zur Entschul[-4]\ndigung diese Girumon[-4]\nDDNA an,[pause][\\x0203]aus meiner eigenen\nextrahiert. Bring sie \nzu Dr. Osomatsu[pause][\\x0203]oder Piccolomon..\nDu findest Girumon \nin der Digimon[-4][pause][\\x0203]Tauschstelle!\nTut mir leid, dass ich\nböse geworden bin...[pause]"
+  - "[\\x0207]MegaroGrowlmon[\\x0207]..Autsch!\nSorry! Ich hatte\nUnrecht! Verzeih![pause][\\x0203]Nimm zur Entschul-\ndigung diese Girumon-\nDDNA an,[pause][\\x0203]aus meiner eigenen\nextrahiert. Bring sie \nzu Dr. Osomatsu[pause][\\x0203]oder Piccolomon..\nDu findest Girumon \nin der Digimon-[pause][\\x0203]Tauschstelle!\nTut mir leid, dass ich\nböse geworden bin...[pause]"
   - |-
-    [\x0207]Piledrimon[\x0207]Besuche Dr. Oso[-4]
-    matsu oder Picco[-4]
-    lomon. Du findest[pause][\x0203]Veemon in der Digi[-4]
-    mon[-4]Tauschstelle
+    [\x0207]Piledrimon[\x0207]Besuche Dr. Oso-
+    matsu oder Picco-
+    lomon. Du findest[pause][\x0203]Veemon in der Digi-
+    mon-Tauschstelle
     im Salon![pause]
   - |-
     [\x0207]Piledrimon[\x0207]Gähn, wie langweilig.
@@ -1196,12 +1196,12 @@ strings:
     gemacht! Guter
     Kampf, oder?[pause][\x0203]Wie versprochen,
     gebe ich dir ein
-    Item. Hier...[pause][\x0203]Veemon[-4]DDNA,
+    Item. Hier...[pause][\x0203]Veemon-DDNA,
     aus meiner eigenen
     DDNA extrahiert![pause][\x0203]Bring sie zu
     Dr. Osomatsu oder
     Piccolomon...[pause][\x0203]Veemon findest du
-    in der Digimon[-4]Tausch[-4]
+    in der Digimon-Tausch-
     stelle im Salon![pause][\x0203]Trainiere ihn gut und
     mache einen starken
     Veemon aus ihm![pause]
@@ -1209,7 +1209,7 @@ strings:
     [\x0207]Taomon[\x0207]Suche sofort nach
     Dr. Osomatsu oder
     Piccolomon und du[pause][\x0203]findest Renamon in
-    der Digimon[-4]Tausch[-4]
+    der Digimon-Tausch-
     stelle im Salon![pause]
   - |-
     [\x0207]Taomon[\x0207]On, Kirikirisowaka,
@@ -1223,15 +1223,15 @@ strings:
     du erst einen auf
     die Nuss...[pause]
   - |-
-    [\x0207]Taomon[\x0207]Meditieren ist manch[-4]
+    [\x0207]Taomon[\x0207]Meditieren ist manch-
     mal auch gut für
     die Seele.[pause][\x0203]Entschuldige mein
     Verhalten, nimm
-    dies hier.[pause][\x0203]Das ist Renamon[-4]
+    dies hier.[pause][\x0203]Das ist Renamon-
     DDNA, aus meiner
     eigenen extrahiert.[pause][\x0203]Bring sie zu Piccolomon
     oder Dr. Osomatsu.
-    Du findest Renamon[pause][\x0203]in der Digimon[-4]Tausch[-4]
+    Du findest Renamon[pause][\x0203]in der Digimon-Tausch-
     stelle im Salon.[pause][\x0203]Arbeite hart und mache
     ihn zu einem groβen
     Renamon. Viel Glück![pause]
@@ -1239,7 +1239,7 @@ strings:
     [\x0207]HolyAnglemon[\x0207]Geh jetzt zu
     Dr. Osomatsu oder
     Piccolomon. Du[pause][\x0203]findest Patamon in
-    der Digimon[-4]Tausch[-4]
+    der Digimon-Tausch-
     stelle im Salon.[pause]
   - |-
     [\x0207]HolyAnglemon[\x0207]..Oh? Du musst
@@ -1256,11 +1256,11 @@ strings:
     man über dich sagt.
     Du bist stark![pause][\x0203]Zum Dank für den
     Kampf mit mir
-    gebe ich dir[pause][\x0203]diese Patamon[-4]DDNA,
+    gebe ich dir[pause][\x0203]diese Patamon-DDNA,
     aus meiner eigenen
     extrahiert. Bring sie[pause][\x0203]zu Dr. Osomatsu oder
     Piccolomon. Du
-    findest Patamon in[pause][\x0203]der Digimon[-4]Tausch[-4]
+    findest Patamon in[pause][\x0203]der Digimon-Tausch-
     stelle im Salon.
     Viel Glück, ich drück'[pause][\x0203]dir die Daumen!
     Mögest du groβe
@@ -1268,7 +1268,7 @@ strings:
   - |-
     [\x0207]Kyukimon[\x0207]Geh zu Dr. Osomatsu
     oder Piccolomon. Du
-    kannst Kotemon in der[pause][\x0203]Digimon[-4]Tauschstelle
+    kannst Kotemon in der[pause][\x0203]Digimon-Tauschstelle
     verwenden![pause]
   - |-
     [\x0207]Kyukimon[\x0207]Eine Tragödie! Die
@@ -1281,11 +1281,11 @@ strings:
     mich kämpfst,[pause][\x0203]kriegst du ein
     tolles Geschenk
     von mir![pause]
-  - "[\\x0207]Kyukimon[\\x0207]Ha ha ha, super!\nSo einen guten Kampf\nhatte ich schon lange[pause][\\x0203]nicht mehr! Nimm\ndieses Geschenk,\nwie versprochen. [pause][\\x0203]Das ist Kotemon\nDDNA, aus meiner \neigenen extrahiert.[pause][\\x0203]Bring sie zu\nDr. Osomatsu oder\nPiccolomon.[pause][\\x0203]Du findest Kotemon\nin der Digimon[-4]Tausch[-4]\nstelle im Salon.[pause][\\x0203]Du machst sicher einen\nguten Kotemon daraus.\nViel Glück![pause]"
+  - "[\\x0207]Kyukimon[\\x0207]Ha ha ha, super!\nSo einen guten Kampf\nhatte ich schon lange[pause][\\x0203]nicht mehr! Nimm\ndieses Geschenk,\nwie versprochen. [pause][\\x0203]Das ist Kotemon\nDDNA, aus meiner \neigenen extrahiert.[pause][\\x0203]Bring sie zu\nDr. Osomatsu oder\nPiccolomon.[pause][\\x0203]Du findest Kotemon\nin der Digimon-Tausch-\nstelle im Salon.[pause][\\x0203]Du machst sicher einen\nguten Kotemon daraus.\nViel Glück![pause]"
   - |-
     [\x0207]Armormon[\x0207]Du solltest Dr.
     Osomatsu oder
-    Piccolomon besuchen.[pause][\x0203]In der Digimon[-4]
+    Piccolomon besuchen.[pause][\x0203]In der Digimon-
     Tauschstelle kriegst
     du Monmon als Part.[pause]
   - |-
@@ -1298,26 +1298,26 @@ strings:
     [\x0207]Armormon[\x0207]Wie steht's? Bist
     du zum Kampf mit
     mir bereit?[pause][\x0203]Ich will wissen,
-    wie gut du wirk[-4]
+    wie gut du wirk-
     lich bist.[pause]
   - |-
     [\x0207]Armormon[\x0207]Es ist war, was
     man über deine
     Stärke sagt![pause][\x0203]Als Zeichen des
     Dankes nimm dies
-    von mir an.[pause][\x0203]Das ist Monmon[-4]DDNA,
+    von mir an.[pause][\x0203]Das ist Monmon-DDNA,
     aus meiner eigenen
     extrahiert.[pause][\x0203]Bringe sie zu
     Dr. Osomatsu oder
     Piccolomon. Du[pause][\x0203]kannst Kumamon in der
-    Digimon[-4]Tauschstelle
+    Digimon-Tauschstelle
     zu deinem Partner machen! [pause][\x0203]Alles Gute dann.
     Hol' dir Monmon und
     werde stärker![pause]
   - |-
     [\x0207]GrapLeomon[\x0207]Besuche jetzt Dr.
     Osomatsu oder
-    Piccolomon.[pause][\x0203]In der Digimon[-4]Tau[-4]
+    Piccolomon.[pause][\x0203]In der Digimon-Tau-
     schstelle kannst du
     Kumamon verwenden![pause]
   - |-
@@ -1330,35 +1330,35 @@ strings:
     [\x0207]GrapLeomon[\x0207]Bist du bereit?
     Hier bin ich
     nämlich![pause]
-  - "[\\x0207]GrapLeomon[\\x0207]Ha ha ha ha![pause][\\x0203]Du bist sogar besser,\nals ich dachte! Das\nhier kann ich dir[pause][\\x0203]anvertrauen. Das ist\nKumamon[-4]DDNA, aus\nmeiner extrahiert. [pause][\\x0203]Bring sie zu Piximon o.\nDr. Osomatsu, dann\nwird Kumamon dein[pause][\\x0203]Partner in der Digimon[-4]\nTauschstelle! Wenn\njemand Kumamon[pause][\\x0203]züchten kann, dann \ndu. Ich zähl' auf\ndich![pause]"
+  - "[\\x0207]GrapLeomon[\\x0207]Ha ha ha ha![pause][\\x0203]Du bist sogar besser,\nals ich dachte! Das\nhier kann ich dir[pause][\\x0203]anvertrauen. Das ist\nKumamon-DDNA, aus\nmeiner extrahiert. [pause][\\x0203]Bring sie zu Piximon o.\nDr. Osomatsu, dann\nwird Kumamon dein[pause][\\x0203]Partner in der Digimon-\nTauschstelle! Wenn\njemand Kumamon[pause][\\x0203]züchten kann, dann \ndu. Ich zähl' auf\ndich![pause]"
   - |-
-    [\x0207]B[-4]Sent Gargoylemon[\x0207]Boing! Boing!
-    Ich bin B[-4]Sent
+    [\x0207]B-Sent Gargoylemon[\x0207]Boing! Boing!
+    Ich bin B-Sent
     Gargoylemon.[pause][\x0203]Ich bin stark.
     Gegen mich bist
     du nichts![pause]
   - |-
-    [\x0207]B[-4]Sent Gargoylemon[\x0207]Was? Du willst mit
+    [\x0207]B-Sent Gargoylemon[\x0207]Was? Du willst mit
     mir kämpfen? Bist
     du verrückt? Ok. [pause][\x0203]Ich mach' Püree
     aus dir![pause]
   - |-
-    [\x0207]B[-4]IP Doramon[\x0207]Ich bin B[-4]IP
+    [\x0207]B-IP Doramon[\x0207]Ich bin B-IP
     Doramon! Ich mach'
-    dich zu Kleinholz[pause][\x0203]mit meinem Mega[-4]
+    dich zu Kleinholz[pause][\x0203]mit meinem Mega-
     Tod! Wenn dich
     das stört, geh' mir[pause][\x0203]besser gleich
     aus den Augen![pause]
-  - "[\\x0207]B[-4]IP Doramon[\\x0207]Dummkopf! Ich hab'\ndir eine Chance\ngegeben, aber du[pause][\\x0203]bist noch hier! \nDas wirst du\nteuer bezahlen![pause]"
+  - "[\\x0207]B-IP Doramon[\\x0207]Dummkopf! Ich hab'\ndir eine Chance\ngegeben, aber du[pause][\\x0203]bist noch hier! \nDas wirst du\nteuer bezahlen![pause]"
   - |-
-    [\x0207]B Seraphimon[\x0207]Ich bin B Sera[-4]
-    phimon. Nur Aus[-4]
+    [\x0207]B Seraphimon[\x0207]Ich bin B Sera-
+    phimon. Nur Aus-
     erwählte dürfen[pause][\x0203]diesen Bereich
     betreten. Wer
     kein Vertrauen[pause][\x0203]hat, sollte in
     Frieden gehen.[pause]
   - |-
-    [\x0207]B Seraphimon[\x0207]Um hier vorbeizu[-4]
+    [\x0207]B Seraphimon[\x0207]Um hier vorbeizu-
     kommen, musst du
     mich erst besiegen.[pause][\x0203]Ich aber werde den
     Kampf nicht verlieren.[pause]
@@ -1370,7 +1370,7 @@ strings:
     überlebt![pause]
   - |-
     [\x0207]B MegaroGrowlmon[\x0207]WAS? Du wagst es,
-    mich herauszu[-4]
+    mich herauszu-
     fordern? Ok,[pause][\x0203]du wirst sehen,
     wie armselig du
     bist.[pause]
@@ -1391,13 +1391,13 @@ strings:
     [\x0207]B King Numemon[\x0207]NuNuNu! Du hast
     es bis hier geschafft
     NuNuNu! Ich jedoch,[pause][\x0203]B King Numemon, bin
-    der B Digimon[-4]König!
+    der B Digimon-König!
     Wer mich fordert,[pause][\x0203]erblickt den nächsten
     Tag nicht!
     NumeNume![pause]
   - |-
     [\x0207]B King Numemon[\x0207]NuNu! Du willst
-    immer noch kämpf[-4]
+    immer noch kämpf-
     en? Armer Irrer![pause][\x0203]Also dann, ich
     zeige dir das
     Feuer des Hades![pause][\x0203]Ich werde mich an
@@ -1409,10 +1409,10 @@ strings:
     auf der Platine![pause]
   - |-
     [\x0207]BlackAgumon[\x0207]Oh nee, nicht
-    noch ein Weichling[-4]
+    noch ein Weichling-
     Tamer![pause]
   - |-
-    [\x0207]BlackAgumon[\x0207]Magst du Kar[-4]
+    [\x0207]BlackAgumon[\x0207]Magst du Kar-
     ten? Ich bin
     süchtig![pause]
   - "[\\x0207]BlackAgumon[\\x0207]He he he! Auf \neinen wie dich\nhabe ich gewartet![pause]"
@@ -1432,7 +1432,7 @@ strings:
     hast![pause]
   - |-
     [\x0207]Numemon[\x0207]Numemon sind
-    gute Karten[-4]
+    gute Karten-
     kenner![pause][\x0203]Nimm uns ernst!
     Nume![pause]
   - |-
@@ -1455,7 +1455,7 @@ strings:
   - |-
     [\x0207]Metal Etemon[\x0207]Wuppie! Du bist
     blöd! Du wirst
-    das noch bereuen,[pause][\x0203]dass du mich ge[-4]
+    das noch bereuen,[pause][\x0203]dass du mich ge-
     troffen hast![pause]
   - |-
     [\x0207]MetalEtemon[\x0207]Mein toller Body
@@ -1470,7 +1470,7 @@ strings:
     [\x0207]BlackAgumon[\x0207]Ok, Kumpel, lass'
     uns Karten spielen
     Ich verliere nicht![pause]
-  - "[\\x0207]Numemon[\\x0207]Numeee! Also, \nspielen wir Karten\nauf Numemon[-4]Art![pause][\\x0203]Geben wir alles![pause]"
+  - "[\\x0207]Numemon[\\x0207]Numeee! Also, \nspielen wir Karten\nauf Numemon-Art![pause][\\x0203]Geben wir alles![pause]"
   - |-
     [\x0207]MetalEtemon[\x0207]Bereit zum
     Kartenkampf?
@@ -1499,67 +1499,67 @@ strings:
   - |-
     [\x0207]MetalEtemon[\x0207]Wow! Was ist
     passiert? Ich
-    hab' verloren![pause][\x0203]Nächstes Mal be[-4]
+    hab' verloren![pause][\x0203]Nächstes Mal be-
     zahlst du dafür![pause]
   - |-
     [\x0207]BlackAgumon[\x0207]Oh, was war das?
-    Ich habe ver[-4]
+    Ich habe ver-
     loren?[pause][\x0203]Na dann, hier, die
     ultrastarke Karte
-    Lösch[-4]Matrix![pause]
+    Lösch-Matrix![pause]
   - |-
     [\x0207]BlackAgumon[\x0207]Oh, was war das?
-    Ich habe ver[-4]
+    Ich habe ver-
     loren?[pause][\x0203]Na dann, hier, die
     ultrastarke Karte
     Tor des Glücks![pause]
   - |-
     [\x0207]BlackAgumon[\x0207]Oh, was war das?
-    Ich habe ver[-4]
+    Ich habe ver-
     loren?[pause][\x0203]Na dann, hier, die
     ultrastarke Karte
     Tor des Elends![pause]
   - |-
     [\x0207]BlackAgumon[\x0207]Oh, was war das?
-    Ich habe ver[-4]
+    Ich habe ver-
     loren?[pause][\x0203]Na dann, hier, die
     ultrastarke Karte
     Zugang verlangen![pause]
   - |-
     [\x0207]BlackAgumon[\x0207]Oh, was war das?
-    Ich habe ver[-4]
+    Ich habe ver-
     loren?[pause][\x0203]Na dann, hier, die
     ultrastarke Karte
-    Anti[-4]Kraft![pause]
+    Anti-Kraft![pause]
   - |-
     [\x0207]Numemon[\x0207]Numeee?!
-    Oh nein, ver[-4]
+    Oh nein, ver-
     loren! Numeee![pause][\x0203]Ok! Nimm mein
     Rosemon II.
     Numeee![pause]
   - |-
     [\x0207]Numemon[\x0207]Numeee?!
-    Oh nein, ver[-4]
+    Oh nein, ver-
     loren! Numeee![pause][\x0203]Ok! Nimm meine
-    MarineAngemon[-4]
+    MarineAngemon-
     Karte. Numeee![pause]
   - |-
     [\x0207]Numemon[\x0207]Numeee?!
-    Oh nein, ver[-4]
+    Oh nein, ver-
     loren! Numeee![pause][\x0203]Ok! Nimm meine
-    SaberLeomon[-4]
+    SaberLeomon-
     Karte. Numeee![pause]
   - |-
     [\x0207]Numemon[\x0207]Numeee?!
-    Oh nein, ver[-4]
+    Oh nein, ver-
     loren! Numeee![pause][\x0203]Ok! Nimm meine
-    Gryphomon[-4]
+    Gryphomon-
     Karte. Numeee![pause]
   - |-
     [\x0207]Numemon[\x0207]Numeee?!
-    Oh nein, ver[-4]
+    Oh nein, ver-
     loren! Numeee![pause][\x0203]Ok! Nimm meine
-    Creepymon[-4]
+    Creepymon-
     Karte. Numeee![pause]
   - |-
     [\x0207]MetalEtemon[\x0207]Oh, unglaublich,

@@ -15,9 +15,9 @@ files:
         [\x0207][\x020902]3Très bien !
         800 BIT ![pause]
       - "[\\x0207]M. Smith[\\x0207]Ouah ! \n800 BIT ![pause][\\x0203]Quelqu'un à \nplus de 800 \nBIT ?[pause]"
-      - "[\\x0207]M. Smith[\\x0207]Il semble qu'il\nn'y ait personne.[pause][\\x0203]La Barrière divine\nest vendue 800 \nBIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Il semble qu'il\nn'y ait personne.[pause][\\x0203]La Barrière divine\nest vendue 800 \nBIT ![pause][\\x0203]Félicitations au\nMonsieur là-bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
       - "[\\x0207][\\x020902]3Oui ! J'ai \nla Barrière  \ndivine ![pause]"
-      - "[\\x0207][\\x020902]3Bien, c'est un \nchouette objet, \nallons[-4]y.[pause]"
+      - "[\\x0207][\\x020902]3Bien, c'est un \nchouette objet, \nallons-y.[pause]"
   - strings:
       - ''
       - Une offre à 800 BIT?[pause]
@@ -44,7 +44,7 @@ files:
       - ''
       - "[\\x0207][\\x020902]3Très bien ! \n800 BIT ![pause]"
       - "[\\x0207]M. Smith[\\x0207]Ouah ! \n800 BIT ![pause][\\x0203]Quelqu'un à \nplus de 800 \nBIT ?[pause]"
-      - "[\\x0207]M. Smith[\\x0207]Il semble qu'il\nn'y ait personne.[pause][\\x0203]Le Bouclier du \nPéril est vendu  \n800 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Il semble qu'il\nn'y ait personne.[pause][\\x0203]Le Bouclier du \nPéril est vendu  \n800 BIT ![pause][\\x0203]Félicitations au\nMonsieur là-bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
       - "[\\x0207][\\x020902]3Oui ! J'ai \nle Bouclier \ndu Péril ![pause]"
       - "[\\x0207][\\x020902]3Bien, c'est un \nchouette objet, \nje m'en vais.[pause]"
   - strings:
@@ -68,7 +68,7 @@ files:
       - ''
       - "[\\x0207][\\x020902]3Très bien ! \n1600 BIT ![pause]"
       - "[\\x0207]M. Smith[\\x0207]Ouah ! \n1600 BIT ![pause][\\x0203]Quelqu'un à \nplus de 1600 \nBIT ?[pause]"
-      - "[\\x0207]M. Smith[\\x0207]Une fois, deux \nfois, adjugé ![pause][\\x0203]La Garde \nSniper est vendue\n1600 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Une fois, deux \nfois, adjugé ![pause][\\x0203]La Garde \nSniper est vendue\n1600 BIT ![pause][\\x0203]Félicitations au\nMonsieur là-bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
       - "[\\x0207][\\x020902]3Oui ! J'ai \nla Garde \nSniper ![pause]"
       - "[\\x0207][\\x020902]3Bien, c'est un \nchouette objet, \nje m'en vais.[pause]"
   - strings:
@@ -92,7 +92,7 @@ files:
       - ''
       - "[\\x0207][\\x020902]3Très bien ! \n1600 BIT ![pause]"
       - "[\\x0207]M. Smith[\\x0207]Ouah ! \n1600 BIT ![pause][\\x0203]Quelqu'un à \nplus de 1600 \nBIT ?[pause]"
-      - "[\\x0207]M. Smith[\\x0207]Allons, allons...[pause][\\x0203]Le Bouclier  \nDramon est vendu  \n1600 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Allons, allons...[pause][\\x0203]Le Bouclier  \nDramon est vendu  \n1600 BIT ![pause][\\x0203]Félicitations au\nMonsieur là-bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
       - "[\\x0207][\\x020902]3Oui ! J'ai \nle Bouclier \nDramon ![pause]"
       - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nje vais voir ça.[pause]"
   - strings:
@@ -116,7 +116,7 @@ files:
       - ''
       - "[\\x0207][\\x020902]3Très bien ! \n2700 BIT ![pause]"
       - "[\\x0207]M. Smith[\\x0207]Ouah ! \n2700 BIT ![pause][\\x0203]Quelqu'un à \nplus de 2700 \nBIT ?[pause]"
-      - "[\\x0207]M. Smith[\\x0207]Personne d'autre,\nsemble[-4]t[-4]il.[pause][\\x0203]Le Bâton YinYang \nest vendu \n2700 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Personne d'autre,\nsemble-t-il.[pause][\\x0203]Le Bâton YinYang \nest vendu \n2700 BIT ![pause][\\x0203]Félicitations au\nMonsieur là-bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
       - "[\\x0207][\\x020902]3Oui ! J'ai \nle Bâton \nYinYang ![pause]"
       - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nsortons d'ici.[pause]"
   - strings:
@@ -140,9 +140,9 @@ files:
       - ''
       - "[\\x0207][\\x020902]3Très bien ! \n2700 BIT ![pause]"
       - "[\\x0207]M. Smith[\\x0207]Ouah ! \n2700 BIT ![pause][\\x0203]Quelqu'un à \nplus de 2700 \nBIT ?[pause]"
-      - "[\\x0207]M. Smith[\\x0207]Une, deux,...\nTrois fois ![pause][\\x0203]Le Croc du Péril \nest vendu  \n2700 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Une, deux,...\nTrois fois ![pause][\\x0203]Le Croc du Péril \nest vendu  \n2700 BIT ![pause][\\x0203]Félicitations au\nMonsieur là-bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
       - "[\\x0207][\\x020902]3Oui ! J'ai \nle Croc\ndu Péril ![pause]"
-      - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nallons[-4]y.[pause]"
+      - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nallons-y.[pause]"
   - strings:
       - ''
       - "[\\x0207][\\x020902]3C'est trop...\n...et je veux \nd'autres objets.[pause][\\x0203]Je reviendrai quand \nj'aurai plus \nd'argent.[pause]"
@@ -164,9 +164,9 @@ files:
       - ''
       - "[\\x0207][\\x020902]3Très bien ! \n4000 BIT ![pause]"
       - "[\\x0207]M. Smith[\\x0207]Ouah ! \n4000 BIT ![pause][\\x0203]Quelqu'un à \nplus de 4000 \nBIT ?[pause]"
-      - "[\\x0207]M. Smith[\\x0207]Personne d'autre,\nsemble[-4]t[-4]il.[pause][\\x0203]Le Canon Sniper \nest vendu  \n4000 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Personne d'autre,\nsemble-t-il.[pause][\\x0203]Le Canon Sniper \nest vendu  \n4000 BIT ![pause][\\x0203]Félicitations au\nMonsieur là-bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
       - "[\\x0207][\\x020902]3Oui ! J'ai \nle Canon\nSniper ![pause]"
-      - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nallons[-4]y.[pause]"
+      - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nallons-y.[pause]"
   - strings:
       - ''
       - "[\\x0207][\\x020902]3C'est trop...\n...et je veux \nd'autres objets.[pause][\\x0203]Je reviendrai quand \nj'aurai plus \nd'argent.[pause]"
@@ -188,9 +188,9 @@ files:
       - ''
       - "[\\x0207][\\x020902]3Très bien ! \n4000 BIT ![pause]"
       - "[\\x0207]M. Smith[\\x0207]Ouah ! \n4000 BIT ![pause][\\x0203]Quelqu'un à \nplus de 4000 \nBIT ?[pause]"
-      - "[\\x0207]M. Smith[\\x0207]Une fois...,\ndeux fois...[pause][\\x0203]La Lame de Ronin\nest vendue  \n4000 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Une fois...,\ndeux fois...[pause][\\x0203]La Lame de Ronin\nest vendue  \n4000 BIT ![pause][\\x0203]Félicitations au\nMonsieur là-bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
       - "[\\x0207][\\x020902]3Oui ! J'ai \nla Lame de\nRonin ![pause]"
-      - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nallons[-4]y.[pause]"
+      - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nallons-y.[pause]"
   - strings:
       - ''
       - "[\\x0207][\\x020902]3C'est trop...\n...et je veux \nd'autres objets.[pause][\\x0203]Je reviendrai quand \nj'aurai plus \nd'argent.[pause]"
@@ -212,7 +212,7 @@ files:
       - ''
       - "[\\x0207][\\x020902]3Très bien ! \n6000 BIT ![pause]"
       - "[\\x0207]M. Smith[\\x0207]Ouah ! \n6000 BIT ![pause][\\x0203]Quelqu'un à \nplus de 6000 \nBIT ?[pause]"
-      - "[\\x0207]M. Smith[\\x0207]Personne...,\nsemble[-4]t[-4]il...[pause][\\x0203]La Visée Sniper\nest vendue  \n6000 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Personne...,\nsemble-t-il...[pause][\\x0203]La Visée Sniper\nest vendue  \n6000 BIT ![pause][\\x0203]Félicitations au\nMonsieur là-bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
       - "[\\x0207][\\x020902]3Oui ! J'ai \nla Visée\nSniper ![pause]"
       - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \non peut y aller.[pause]"
   - strings:
@@ -236,7 +236,7 @@ files:
       - ''
       - "[\\x0207][\\x020902]3Très bien ! \n6000 BIT ![pause]"
       - "[\\x0207]M. Smith[\\x0207]Ouah ! \n6000 BIT ![pause][\\x0203]Quelqu'un à \nplus de 6000 \nBIT ?[pause]"
-      - "[\\x0207]M. Smith[\\x0207]Personne...,\nsemble[-4]t[-4]il...[pause][\\x0203]Le Diadème Divin\nest vendu  \n6000 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Personne...,\nsemble-t-il...[pause][\\x0203]Le Diadème Divin\nest vendu  \n6000 BIT ![pause][\\x0203]Félicitations au\nMonsieur là-bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
       - "[\\x0207][\\x020902]3Oui ! J'ai \nle Diadème\nDivin ![pause]"
       - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \non peut y aller.[pause]"
   - strings:
@@ -260,7 +260,7 @@ files:
       - ''
       - "[\\x0207][\\x020902]3Très bien ! \n8700 BIT ![pause]"
       - "[\\x0207]M. Smith[\\x0207]Ouah ! \n8700 BIT ![pause][\\x0203]Quelqu'un à \nplus de 8700 \nBIT ?[pause]"
-      - "[\\x0207]M. Smith[\\x0207]Une fois, deux\nfois, ...\nADJUGE ![pause][\\x0203]Le Heaume Hardi\nest vendu  \n8700 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Une fois, deux\nfois, ...\nADJUGE ![pause][\\x0203]Le Heaume Hardi\nest vendu  \n8700 BIT ![pause][\\x0203]Félicitations au\nMonsieur là-bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
       - "[\\x0207][\\x020902]3Oui ! J'ai \nle Heaume\nHardi ![pause]"
       - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \non peut y aller.[pause]"
   - strings:
@@ -284,7 +284,7 @@ files:
       - ''
       - "[\\x0207][\\x020902]3Très bien ! \n8700 BIT ![pause]"
       - "[\\x0207]M. Smith[\\x0207]Ouah ! \n8700 BIT ![pause][\\x0203]Quelqu'un à \nplus de 8700 \nBIT ?[pause]"
-      - "[\\x0207]M. Smith[\\x0207]Personne, \nsemble[-4]t[-4]il ![pause][\\x0203]Le Heaume de\nRonin est vendu  \n8700 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Personne, \nsemble-t-il ![pause][\\x0203]Le Heaume de\nRonin est vendu  \n8700 BIT ![pause][\\x0203]Félicitations au\nMonsieur là-bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
       - "[\\x0207][\\x020902]3Oui ! J'ai \nle Heaume\nde Ronin ![pause]"
       - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nallons l'essayer.[pause]"
   - strings:
@@ -306,7 +306,7 @@ files:
       - ''
       - "[\\x0207][\\x020902]3Très bien ! \n11500 BIT ![pause]"
       - "[\\x0207]M. Smith[\\x0207]Ouah ! \n11500 BIT ![pause][\\x0203]Quelqu'un à \nplus de 11500 \nBIT ?[pause]"
-      - "[\\x0207]M. Smith[\\x0207]Dernière chance,\nPersonne...,\nPersonne ?[pause][\\x0203]La Tenue YinYang\nest vendue  \n11500 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Dernière chance,\nPersonne...,\nPersonne ?[pause][\\x0203]La Tenue YinYang\nest vendue  \n11500 BIT ![pause][\\x0203]Félicitations au\nMonsieur là-bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
       - "[\\x0207][\\x020902]3Oui ! J'ai \nla Tenue\nYinYang ![pause]"
       - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \non peut y aller.[pause]"
   - strings:
@@ -328,7 +328,7 @@ files:
       - ''
       - "[\\x0207][\\x020902]3Très bien ! \n17500 BIT ![pause]"
       - "[\\x0207]M. Smith[\\x0207]Ouah ! \n17500 BIT ![pause][\\x0203]Quelqu'un à \nplus de 17500 \nBIT ?[pause]"
-      - "[\\x0207]M. Smith[\\x0207]Personne ne\nveut renchérir ?[pause][\\x0203]L'Armure de Ronin\nest vendue  \n17500 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Personne ne\nveut renchérir ?[pause][\\x0203]L'Armure de Ronin\nest vendue  \n17500 BIT ![pause][\\x0203]Félicitations au\nMonsieur là-bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
       - "[\\x0207][\\x020902]3Oui ! J'ai \nl'Armure\nde Ronin ![pause]"
       - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nvoyons son effet.[pause]"
   - strings:
@@ -350,7 +350,7 @@ files:
       - ''
       - "[\\x0207][\\x020902]3Très bien ! \n24000 BIT ![pause]"
       - "[\\x0207]M. Smith[\\x0207]Ouah ! \n24000 BIT ![pause][\\x0203]Quelqu'un à \nplus de 24000 \nBIT ?[pause]"
-      - "[\\x0207]M. Smith[\\x0207]Si personne ne\nveut renchérir...[pause][\\x0203]La Tenue Sauvage\nest vendue  \n24000 BIT ![pause][\\x0203]Félicitations au\nMonsieur là[-4]bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+      - "[\\x0207]M. Smith[\\x0207]Si personne ne\nveut renchérir...[pause][\\x0203]La Tenue Sauvage\nest vendue  \n24000 BIT ![pause][\\x0203]Félicitations au\nMonsieur là-bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
       - "[\\x0207][\\x020902]3Oui ! J'ai \nla Tenue\nSauvage ![pause]"
       - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nvoyons ça.[pause]"
   - strings:

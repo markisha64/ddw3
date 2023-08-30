@@ -913,7 +913,7 @@ files:
         [\x0207][\x020902]3Allora
         è facile![pause]
       - |-
-        [\x0207]Teddy[\x0207]Ma occorre il digi[-4]uovo
+        [\x0207]Teddy[\x0207]Ma occorre il digi-uovo
         della sapienza per
         chiamarlo.[pause][\x0203]E credo si trovi solo
         nel server
@@ -995,7 +995,7 @@ files:
         [\x0207]Lisa[\x0207]Davvero?
         Hmmm...[pause][\x0203]Stavo per
         arrendermi a voi.[pause]
-      - "[\\x0207][\\x020902]3Ma[-4]ma che \ndici, Lisa?![pause]"
+      - "[\\x0207][\\x020902]3Ma-ma che \ndici, Lisa?![pause]"
       - |-
         [\x0207]Lisa[\x0207]Hanno la
         Juggernaut!
@@ -1071,7 +1071,7 @@ files:
         il presidente
         della MAGAMI![pause]
       - '[\x0207][\x020902]3Va bene![pause]'
-      - '[\x0207]Teddy[\x0207]S[-4]sì![pause]'
+      - '[\x0207]Teddy[\x0207]S-sì![pause]'
       - '[\x0207]Nick[\x0207]OK![pause]'
   - strings:
       - ''
@@ -1181,7 +1181,7 @@ files:
         dovranno rimanere
         così?[pause]
       - |-
-        [\x0207]Teddy[\x0207]N[-4]no. Sono
+        [\x0207]Teddy[\x0207]N-no. Sono
         sicuro che c'è
         un rimedio![pause]
       - |-

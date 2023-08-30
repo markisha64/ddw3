@@ -2,7 +2,7 @@ type: simple
 strings:
   - ''
   - |-
-    Put all non[-4]white Digimon
+    Put all non-white Digimon
     into trash can.
   - |-
     Bring 2 Angemon to the
@@ -13,12 +13,12 @@ strings:
   - "Increase one Digimon's \nHP by +30."
   - |-
     Get 1 point of
-    White S[-4]Energy.
+    White S-Energy.
   - |-
     Bring Patamon to the
     field in Compile Phase.
   - |-
-    Return all non[-4]blue Digimon
+    Return all non-blue Digimon
     back to each Hand.
   - |-
     Get 1 of your opponent's
@@ -31,7 +31,7 @@ strings:
     to its Hand.
   - |-
     Get 1 point of
-    Blue S[-4]Energy.
+    Blue S-Energy.
   - |-
     Bring Gomamon to the
     field in Compile Phase.
@@ -43,17 +43,17 @@ strings:
     to Hand. One time use.
   - |-
     Get 2 points of
-    Green S[-4]Energy.
+    Green S-Energy.
   - " +20 to one Digimon's \nAP & HP."
   - |-
     Get 1 point of
-    Green S[-4]Energy.
+    Green S-Energy.
   - |-
     Bring Palmon to the
     field in Compile Phase.
   - |-
     60 damage points to all
-    non[-4]red Digimon.
+    non-red Digimon.
   - "Put all brown Digimon \ninto trash can."
   - |-
     15 damage points to all
@@ -63,21 +63,21 @@ strings:
     opponent's Digimon.
   - |-
     Get 1 point of
-    Red S[-4]Energy.
+    Red S-Energy.
   - |-
     Bring Goburimon to the
     field in Compile Phase.
   - |-
-    Put all non[-4]black Cards in
+    Put all non-black Cards in
     opponent's Hand to trash.
   - "Pick 1 Card from Deck, \nadd it to Hand."
-  - "Put one non[-4]black Digimon \ninto trash can."
+  - "Put one non-black Digimon \ninto trash can."
   - |-
     Put one Card from opponent's
     Hand into trash can.
   - |-
     Get 1 point of
-    Black S[-4]Energy.
+    Black S-Energy.
   - |-
     Bring out Devimon to the
     field in Compile Phase.
@@ -93,7 +93,7 @@ strings:
   - |-
     Put whole Hand in trash
     and draw 6 from the Deck.
-  - Reduce all S[-4]Energy to zero.
+  - Reduce all S-Energy to zero.
   - "Return all Cards in trash \nback to the Deck."
   - |-
     Make both players' Hands
@@ -137,24 +137,24 @@ strings:
     field in Compile Phase.
   - |-
     Subtract 2 points from
-    opponent's White S[-4]Energy.
+    opponent's White S-Energy.
   - |-
     Subtract 2 points from
-    opponent's Blue S[-4]Energy.
+    opponent's Blue S-Energy.
   - |-
     Subtract 2 points from
-    opponent's Green S[-4]Energy.
+    opponent's Green S-Energy.
   - |-
     Subtract 2 points from
-    opponent's Red S[-4]Energy.
+    opponent's Red S-Energy.
   - |-
     Subtract 2 points from
-    opponent's Black S[-4]Energy.
+    opponent's Black S-Energy.
   - |-
     Return a Brown Digimon
     to Hand.
   - |-
-    AP +10 and HP [-4]10 to
+    AP +10 and HP -10 to
     1 Digimon.
   - |-
     Put a Brown Digimon from

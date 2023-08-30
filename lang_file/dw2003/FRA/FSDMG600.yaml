@@ -4,14 +4,14 @@ files:
       - ''
       - |-
         [\x0207]Chef de Byakko[\x0207]Bienvenue, cher
-        rival. Battons[-4]nous.[pause]
+        rival. Battons-nous.[pause]
       - |-
         [\x0207][\x020902]3Ah, une
         minute...[pause][\x0203]J'ai d'abord
         une question
         à te poser.[pause]
       - |-
-        [\x0207]Chef de Byakko[\x0207]Battons[-4]nous
+        [\x0207]Chef de Byakko[\x0207]Battons-nous
         d'abord ![pause][\x0203]Si tu gagnes, je
         te dirai tout ce
         que je sais.[pause]
@@ -26,7 +26,7 @@ files:
         Tu es fort.
         Tu me plais.[pause]
       - |-
-        [\x0207][\x020902]3Bien, alors... [pause][\x0203]Que sais[-4]tu au
+        [\x0207][\x020902]3Bien, alors... [pause][\x0203]Que sais-tu au
         sujet de ce fameux
         Lucky Mouse...[pause]
       - |-
@@ -45,39 +45,39 @@ files:
         je ne vois pas
         de badge ici.[pause]
       - |-
-        [\x0207][\x020902]3Qu'est[-4]ce
+        [\x0207][\x020902]3Qu'est-ce
         que...?[pause]
       - |-
-        [\x0207][\x020902]3Que se passe[-4]
-        t[-4]il ?[pause]
+        [\x0207][\x020902]3Que se passe-
+        t-il ?[pause]
       - '[\x0207][\x020902]3Ahhhhhh ![pause]'
   - strings:
       - ''
       - |-
         [\x0207][\x020902]3Euh...Où
-        suis[-4]je ?[pause]
+        suis-je ?[pause]
       - |-
         [\x0207][\x020902]3OK, je suis
-        tombé au sous[-4]sol.[pause][\x0203]Je dois trouver le
+        tombé au sous-sol.[pause][\x0203]Je dois trouver le
         moyen de sortir d'ici ![pause]
   - strings:
       - ''
       - |-
-        [\x0207][\x020902]3Qu'est[-4]ce qui bloque
+        [\x0207][\x020902]3Qu'est-ce qui bloque
         le trou ? Un rocher ?[pause]
       - '[\x0207]???[\x0207]Mais non ![pause]'
       - '[\x0207][\x020902]3Quoi ?![pause]'
       - |-
         [\x0207]Numemon[\x0207]Cette ville est
         dangereuse,
-        crois[-4]moi ![pause]
+        crois-moi ![pause]
       - |-
         [\x0207][\x020902]3Hé, mais tu
         es Numemon !?[pause]
       - |-
         [\x0207]Numemon[\x0207]Oui. Je vais
         t'aider, alors
-        suis[-4]moi ![pause]
+        suis-moi ![pause]
   - strings:
       - ''
       - "[\\x0207]Lisa[\\x0207]Oh, [\\x020801][\\x020501]\nTu es si fort ![pause][\\x0203]Je suis \nimpressionnée ![pause]"
@@ -87,12 +87,12 @@ files:
         merci.[pause]
       - |-
         [\x0207][\x020902]3Ah, au fait,
-        que fais[-4]tu
+        que fais-tu
         ici, Lisa ?[pause]
       - |-
         [\x0207]Lisa[\x0207]C'est mon
         problème.[pause][\x0203]Et toi, que
-        fais[-4]tu ici ?[pause]
+        fais-tu ici ?[pause]
       - |-
         [\x0207][\x020902]3... Moi ?
         Euh, je...[pause]
@@ -128,12 +128,12 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]
   - strings:
       - ''
@@ -163,10 +163,10 @@ files:
         [\x0207][\x020902]3Ouah, j'ai eu
         l'Armure
         du Péril ![pause]
-      - "[\\x0207]BK WarGrowlmon[\\x0207]Hé hé, pas mal\nnon ? [pause][\\x0203]C'est mon trésor,  \nalors prends[-4]\nen soin ![pause]"
+      - "[\\x0207]BK WarGrowlmon[\\x0207]Hé hé, pas mal\nnon ? [pause][\\x0203]C'est mon trésor,  \nalors prends-\nen soin ![pause]"
   - strings:
       - ''
-      - "[\\x0207][\\x020902]3Oh, qu'est[-4]ce ? \nTu es un Numemon\ncoloré.[pause]"
+      - "[\\x0207][\\x020902]3Oh, qu'est-ce ? \nTu es un Numemon\ncoloré.[pause]"
       - "[\\x0207]BK KingNumemon[\\x0207]J'ai rien à voir avec \nles autres Numemons ![pause][\\x0203]Moi, BK KingNumemon,\nje leur suis bien\nsupérieur.[pause]"
       - "[\\x0207][\\x020902]3Supérieur, hein ?\nOn ne dirait pas, \npourtant ![pause]"
       - "[\\x0207]BK KingNumemon[\\x0207]Je vais te \nmontrer ![pause]"
@@ -229,14 +229,14 @@ files:
       - |-
         [\x0207][\x020902]3Où est
         Teddy ? Où
-        est[-4]il ?[pause]
+        est-il ?[pause]
       - |-
         [\x0207]Lucky Mouse[\x0207]Teddy ? Oh, celui qui
         a trouvé mon code de
         compte et m'a contacté.[pause][\x0203]Je ne l'ai pas capturé.
         C'est l'A.o.A. ![pause]
       - |-
-        [\x0207][\x020902]3Quoi ? Que veux[-4]tu
+        [\x0207][\x020902]3Quoi ? Que veux-tu
         dire par là ?[pause][\x0203]Le Maître de jeu
         d'Asuka m'a dit
         que tu l'avais...[pause]
@@ -300,7 +300,7 @@ files:
       - |-
         [\x0207]Général[\x0207]Ha ha ! Pas si
         vite. Ce ne sera
-        pas aussi facile.[pause][\x0203]Rends[-4]nous ce que
+        pas aussi facile.[pause][\x0203]Rends-nous ce que
         tu nous as volé et
         je la laisse partir ![pause]
       - |-
@@ -318,7 +318,7 @@ files:
         [\x0207]Kail[\x0207]Kurt !
         [\x020801][\x020501] ![pause]
       - |-
-        [\x0207]Attaquant[\x0207]Profitez[-4]en
+        [\x0207]Attaquant[\x0207]Profitez-en
         bien ![pause][\x0203]Ha ha ! Car
         c'est déjà fini ![pause]
       - |-
@@ -329,7 +329,7 @@ files:
       - |-
         [\x0207][\x020902]3Il a été changé
         en Digimon ![pause]
-      - "[\\x0207]Attaquant[\\x0207]Transformons[-4]les\ntous en Oinkmons\net enfermons[-4]les !\n \nA qui le tour ?[pause]"
+      - "[\\x0207]Attaquant[\\x0207]Transformons-les\ntous en Oinkmons\net enfermons-les !\n \nA qui le tour ?[pause]"
       - |-
         [\x0207]Attaquant[\x0207]!?!?!?!
         Plus d'énergie ![pause][\x0203]Bien, alors venez,
@@ -369,10 +369,10 @@ files:
       - |-
         [\x0207]Lisa[\x0207]Je suis d'accord
         avec vous ![pause][\x0203]Mais je veux
-        éviter la panique. [pause][\x0203]Pouvez[-4]vous
+        éviter la panique. [pause][\x0203]Pouvez-vous
         rester discrets au
         sujet de l'AoA ?[pause]
-      - '[\x0207][\x020902]3Tope[-4]là ![pause]'
+      - '[\x0207][\x020902]3Tope-là ![pause]'
       - |-
         [\x0207][\x020902]3OK, Kail.
         J'y vais ![pause]
@@ -426,9 +426,9 @@ files:
         [\x0207]Chef de Byakko[\x0207]Oui. Ils sont de
         l'A.o.A. ![pause][\x0203]Ils sont venus et
         ils ont pris la ville ![pause][\x0203]Ils nous ont enfermés
-        dans le sous[-4]sol... [pause][\x0203]Mais Numemon est venu
+        dans le sous-sol... [pause][\x0203]Mais Numemon est venu
         et nous a libérés.[pause]
-      - "[\\x0207][\\x020902]3Je vois... \nMais l'A.o.A. et\nLucky Mouse... [pause][\\x0203]Et qu'est[-4]il arrivé\nà Digimon Online ?[pause]"
+      - "[\\x0207][\\x020902]3Je vois... \nMais l'A.o.A. et\nLucky Mouse... [pause][\\x0203]Et qu'est-il arrivé\nà Digimon Online ?[pause]"
       - |-
         [\x0207]Chef de Byakko[\x0207]Je n'en sais pas plus.[pause][\x0203]Si tu veux en savoir
         plus, cherche
@@ -459,11 +459,11 @@ files:
         Numemon ?[pause]
       - |-
         [\x0207]HiAndromon[\x0207]Numemon ? Que
-        lui veux[-4]tu ?[pause]
+        lui veux-tu ?[pause]
       - |-
         [\x0207][\x020902]3J'ai une question
         à lui poser. Allez,
-        dis[-4]moi où il est ![pause]
+        dis-moi où il est ![pause]
       - |-
         [\x0207]HiAndromon[\x0207]Je sais où il est mais
         je ne vais pas te le
@@ -491,18 +491,18 @@ files:
         pas par ici.[pause]
       - Aaaaaaah ![pause][\x0203]A l'aide ![pause]
       - |-
-        [\x0207][\x020902]3Qu'est[-4]ce
+        [\x0207][\x020902]3Qu'est-ce
         que c'était ?[pause]
       - |-
         [\x0207]WaruMonzaemon[\x0207]Tu es si jolie !
-        Epouse[-4]moi ![pause]
+        Epouse-moi ![pause]
       - |-
         [\x0207]Lisa[\x0207]Je n'aime pas
         les monstres ![pause]
       - "[\\x0207][\\x020902]3Oh, oh... \nC'est euh... \nLisa ![pause]"
       - |-
         [\x0207]Lisa [\x0207]Oh, tu es [\x020801][\x020501]
-        n'est[-4]ce pas ?[pause][\x0203]Viens aider une jeune
+        n'est-ce pas ?[pause][\x0203]Viens aider une jeune
         fille en détresse ![pause]
       - '[\x0207][\x020902]3Bon, OK.[pause]'
       - |-
@@ -511,12 +511,12 @@ files:
         à ta taille ![pause]
       - |-
         [\x0207]WaruMonzaemon[\x0207]...
-        Qui es[-4]tu[pause][\x0203]Hors de ma
+        Qui es-tu[pause][\x0203]Hors de ma
         vue ![pause]
   - strings:
       - ''
       - |-
-        [\x0207]Kail[\x0207]Hé, qu'est[-4]
+        [\x0207]Kail[\x0207]Hé, qu'est-
         ce qu'il y a ?[pause]
       - |-
         [\x0207][\x020902]3Impossible d'entrer
@@ -530,11 +530,11 @@ files:
         [\x0207]Kurt[\x0207]Oink !
         Oink ![pause]
       - |-
-        [\x0207]Kail[\x0207]Qu'essaies[-4]
+        [\x0207]Kail[\x0207]Qu'essaies-
         tu de nous
         dire ?[pause]
       - |-
-        [\x0207][\x020902]3Il en a peut[-4]
+        [\x0207][\x020902]3Il en a peut-
         être un.[pause]
       - |-
         [\x0207]Kail[\x0207]Mais oui !
@@ -542,14 +542,14 @@ files:
         ici ![pause]
       - |-
         [\x0207][\x020902]3Tiens, Lisa, que
-        fais[-4]tu ici ?[pause]
+        fais-tu ici ?[pause]
       - |-
         [\x0207]Lisa[\x0207]Tu vois, cette
         pièce est en
         désordre.[pause][\x0203]Alors je la range
         avec Kail.[pause]
       - |-
-        [\x0207]Kail[\x0207]Hé, Lisa. As[-4]tu
+        [\x0207]Kail[\x0207]Hé, Lisa. As-tu
         vu un Passe
         Employé par ici ?[pause]
       - |-
@@ -610,7 +610,7 @@ files:
       - |-
         [\x0207]Kail[\x0207]Euh, Lisa.
         C'est qui
-        ces deux[-4]là ?[pause]
+        ces deux-là ?[pause]
       - |-
         [\x0207]Lisa[\x0207]Oh, juste des
         amis à moi.[pause]
@@ -619,7 +619,7 @@ files:
         [\x0207]Kail[\x0207]Seulement
         des amis ?[pause]
       - |-
-        [\x0207][\x020902]3Qu'est[-4]ce
+        [\x0207][\x020902]3Qu'est-ce
         qu'il y a ?[pause]
   - strings:
       - ''
@@ -685,7 +685,7 @@ files:
         [\x0207]Lisa[\x0207]Alors, vous
         avez trouvé ?[pause]
       - |-
-        [\x0207]Lisa[\x0207]Qu'est[-4]ce que
+        [\x0207]Lisa[\x0207]Qu'est-ce que
         vous faites ?[pause]
   - strings:
       - ''
@@ -694,7 +694,7 @@ files:
         de Bai Hu ?[pause]
       - |-
         [\x0207]Chef de Bai Hu[\x0207]Oui... Que
-        veux[-4]tu ?[pause]
+        veux-tu ?[pause]
       - |-
         [\x0207][\x020902]3Je voudrais ton
         Passe blanc ![pause]
@@ -710,7 +710,7 @@ files:
         [\x0207][\x020902]3Attention ! Ne
         viens pas me
         faire d'ennuis ! [pause][\x0203]Tiens ?
-        Serait[-4]ce... ?[pause]
+        Serait-ce... ?[pause]
       - |-
         [\x0207][\x020902]3Super ! J'ai le
         Passe blanc ![pause][\x0203]Plus qu'un
@@ -719,7 +719,7 @@ files:
       - ''
       - |-
         [\x0207]Général[\x0207]C'est toi qu'on a
-        attrapé l'autre fois ![pause][\x0203]Que veux[-4]tu ? Tu
+        attrapé l'autre fois ![pause][\x0203]Que veux-tu ? Tu
         reviens te faire
         capturer ?[pause]
       - |-
@@ -742,7 +742,7 @@ files:
         a agi bizarrement en
         arrivant ici ![pause]
       - |-
-        [\x0207][\x020902]3Qu'est[-4]ce que
+        [\x0207][\x020902]3Qu'est-ce que
         cela signifie ?[pause]
       - |-
         [\x0207]Général[\x0207]Lucky Mouse avait bâti
@@ -843,17 +843,17 @@ files:
         Kenny ![pause]
       - |-
         [\x0207]Kenny[\x0207]Et si tu rencontrais
-        notre chef ?[pause][\x0203]Il sait peut[-4]être
+        notre chef ?[pause][\x0203]Il sait peut-être
         quelque chose qui
         pourrait t'aider.[pause][\x0203]C'est par là ![pause]
       - '[\x0207][\x020902]3Merci ![pause]'
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]

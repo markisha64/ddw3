@@ -7,13 +7,13 @@ strings:
   - 6 Karten ziehen.
   - Ladephase
   - Wähle und benutze 1 Programmk
-  - Ruf[-4]Phase
+  - Ruf-Phase
   - Wähle deinen Digimon
-  - Sammel[-4]Phase
+  - Sammel-Phase
   - Wähle und benutze 1 Programmk
   - Kampfphase
   - Kampf starten!
-  - Karten[-4]Kampf
+  - Karten-Kampf
   - Programmkarte benutzen?
   - In Feld setzen?
   - Du gewinnst!
@@ -30,9 +30,9 @@ strings:
   - Dein Blatt
   - Dein Stapel
   - Deine Ablage
-  - Gegner[-4]Blatt
-  - Gegner[-4]Stapel
-  - Gegner[-4]Ablage
+  - Gegner-Blatt
+  - Gegner-Stapel
+  - Gegner-Ablage
   - Wettkampf
   - |-
     Blatt
@@ -76,14 +76,14 @@ strings:
     Zu viele Digimonkarten im Feld.
     Lege eine Karte ab.
   - Ladephase starten
-  - Sammel[-4]Phase starten
+  - Sammel-Phase starten
   - LV
   - Pass
   - |-
     AP
     HP
   - Ordner wählen
-  - Booster[-4]Pack nehmen
+  - Booster-Pack nehmen
   - Du fängst an.
   - Gegner fängt an.
   - Ja, ich benutze 1 Programmk.

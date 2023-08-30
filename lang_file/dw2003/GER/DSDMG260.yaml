@@ -4,13 +4,13 @@ files:
       - ''
       - |-
         [\x0207]Mr. Smith[\x0207]Das ist eure Chance!
-        Es geht um's Hauptitem![pause][\x0203]Gottes[-4]Hürde, die alle
+        Es geht um's Hauptitem![pause][\x0203]Gottes-Hürde, die alle
         haben möchten![pause][\x0203]Das Mindestgebot für
-        das Patamon[-4]Schild
+        das Patamon-Schild
         sind 400 BIT.[pause]
       - '[\x0207]Händler Abel[\x0207]500 BIT![pause]'
       - '[\x0207]Chief Milly[\x0207]600 BIT![pause]'
-      - '[\x0207]RPG[-4]Fan Mas.[\x0207]700 BIT![pause]'
+      - '[\x0207]RPG-Fan Mas.[\x0207]700 BIT![pause]'
       - |-
         [\x0207][\x020902]3Hm...800 BIT
         ...hmmm...[pause]
@@ -23,10 +23,10 @@ files:
         [\x0207]Mr. Smith[\x0207]Wow!
         800 BIT![pause][\x0203]Bietet jmd.
         mehr?[pause]
-      - "[\\x0207]Mr. Smith[\\x0207]Es bietet wohl\nkeiner mehr.[pause][\\x0203]Gottes[-4]Hürde ver[-4]\nkauft für 800 BIT[pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an \ndeinen Satelliten![pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Es bietet wohl\nkeiner mehr.[pause][\\x0203]Gottes-Hürde ver-\nkauft für 800 BIT[pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an \ndeinen Satelliten![pause]"
       - |-
         [\x0207][\x020902]3Super! Die
-        Gottes[-4]Hürde![pause]
+        Gottes-Hürde![pause]
       - |-
         [\x0207][\x020902]3Ich hab jetzt ein
         echt cooles Item,
@@ -41,10 +41,10 @@ files:
       - "[\\x0207][\\x020902]3Das ist zu viel...\nIch möchte noch ein\npaar andere Sachen[pause][\\x0203]Ich komme mit \nmehr Geld zurück.[pause]"
   - strings:
       - ''
-      - "[\\x0207]Mr. Smith[\\x0207]Das ist eure Chance![pause][\\x0203]Es geht um's Hauptitem![pause][\\x0203]Das gefährl. Schild.\nVon allen begehrt![pause][\\x0203]Das Mindestgebot für's\nGuilmon[-4]Schild liegt \nbei 400 BIT![pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Das ist eure Chance![pause][\\x0203]Es geht um's Hauptitem![pause][\\x0203]Das gefährl. Schild.\nVon allen begehrt![pause][\\x0203]Das Mindestgebot für's\nGuilmon-Schild liegt \nbei 400 BIT![pause]"
       - '[\x0207]Händler Abel[\x0207]500 BIT![pause]'
       - '[\x0207]Chief Milly[\x0207]600 BIT![pause]'
-      - '[\x0207]RPG[-4]Fan Mas.[\x0207]700 BIT![pause]'
+      - '[\x0207]RPG-Fan Mas.[\x0207]700 BIT![pause]'
       - |-
         [\x0207][\x020902]3Hmm...800 BIT
         ...hmmm...[pause]
@@ -75,10 +75,10 @@ files:
       - "[\\x0207][\\x020902]3Das ist zu viel...\nIch möchte noch ein\npaar andere Sachen[pause][\\x0203]Ich komme mit \nmehr Geld zurück.[pause]"
   - strings:
       - ''
-      - "[\\x0207]Mr. Smith[\\x0207]Das ist eure Chance![pause][\\x0203]Es geht um's Hauptitem![pause][\\x0203]Der Sniper[-4]Guard.\nVon allen bewundert![pause][\\x0203]Das Mindestgebot für's\nMonmon[-4]Schild liegt \nbei 800 BIT![pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Das ist eure Chance![pause][\\x0203]Es geht um's Hauptitem![pause][\\x0203]Der Sniper-Guard.\nVon allen bewundert![pause][\\x0203]Das Mindestgebot für's\nMonmon-Schild liegt \nbei 800 BIT![pause]"
       - '[\x0207]Händler Abel[\x0207]1100 BIT![pause]'
       - '[\x0207]Chief Milly[\x0207]1300 BIT![pause]'
-      - '[\x0207]RPG[-4]Fan Mas.[\x0207]1500 BIT![pause]'
+      - '[\x0207]RPG-Fan Mas.[\x0207]1500 BIT![pause]'
       - |-
         [\x0207][\x020902]3Hmm..1600 BIT
         ...hmm...[pause]
@@ -98,13 +98,13 @@ files:
         mehr?[pause]
       - |-
         [\x0207]Mr. Smith[\x0207]Zum 1., zum 2.
-        und zum 3.![pause][\x0203]Sniper[-4]Guard
+        und zum 3.![pause][\x0203]Sniper-Guard
         für 1600 BIT.[pause][\x0203]Gratulation![pause][\x0203]Ich übertrage das
         Item jetzt an
         deinen Satelliten![pause]
       - |-
         [\x0207][\x020902]3Wow! Der
-        Sniper[-4]Guard![pause]
+        Sniper-Guard![pause]
       - |-
         [\x0207][\x020902]3Ich hab jetzt ein
         echt cooles Item.
@@ -114,10 +114,10 @@ files:
       - "[\\x0207][\\x020902]3Das ist zu viel...\nIch möchte noch ein\npaar andere Sachen[pause][\\x0203]Ich komme mit \nmehr Geld zurück.[pause]"
   - strings:
       - ''
-      - "[\\x0207]Mr. Smith[\\x0207]Das ist eure Chance![pause][\\x0203]Es geht um's Hauptitem![pause][\\x0203]Das Dramon[-4]Schild.\nVon allen begehrt![pause][\\x0203]Das Mindestgebot für's\nVeemon[-4]Schild liegt \nbei 800 BIT![pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Das ist eure Chance![pause][\\x0203]Es geht um's Hauptitem![pause][\\x0203]Das Dramon-Schild.\nVon allen begehrt![pause][\\x0203]Das Mindestgebot für's\nVeemon-Schild liegt \nbei 800 BIT![pause]"
       - '[\x0207]Händler Abel[\x0207]1100 BIT![pause]'
       - '[\x0207]Chief Milly[\x0207]1300 BIT![pause]'
-      - '[\x0207]RPG[-4]Fan Mas.[\x0207]1500 BIT![pause]'
+      - '[\x0207]RPG-Fan Mas.[\x0207]1500 BIT![pause]'
       - |-
         [\x0207][\x020902]3Hmm  1600 BIT
         ...hmmm...[pause]
@@ -135,13 +135,13 @@ files:
         mehr?[pause]
       - |-
         [\x0207]Mr. Smith[\x0207]Zum..., zum...
-        und ZUM...![pause][\x0203]Dramon[-4]Schild
+        und ZUM...![pause][\x0203]Dramon-Schild
         für 1600 BIT.[pause][\x0203]Gratulation![pause][\x0203]Ich übertrage das
         Item jetzt an
         deinen Satelliten![pause]
       - |-
         [\x0207][\x020902]3Super! Das
-        Dramon[-4]Schild![pause]
+        Dramon-Schild![pause]
       - |-
         [\x0207][\x020902]3Ich hab jetzt ein
         echt cooles Item,
@@ -152,13 +152,13 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Der Yin Yang[-4]Stab.
+        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Der Yin Yang-Stab.
         Von allen begehrt![pause][\x0203]Das Mindestgebot für
-        die Renamon[-4]Waffe
+        die Renamon-Waffe
         liegt bei 1600 BIT![pause]
       - '[\x0207]Händler Abel[\x0207]2000 BIT![pause]'
       - '[\x0207]Chief Milly[\x0207]2300 BIT![pause]'
-      - '[\x0207]RPG[-4]Fan Mas.[\x0207]2600 BIT![pause]'
+      - '[\x0207]RPG-Fan Mas.[\x0207]2600 BIT![pause]'
       - |-
         [\x0207][\x020902]3Hmm..2700 BIT
         ...hmmm...[pause]
@@ -176,10 +176,10 @@ files:
         [\x0207]Mr. Smith[\x0207]Wow!
         2700 BIT![pause][\x0203]Bietet jmd.
         mehr?[pause]
-      - "[\\x0207]Mr. Smith[\\x0207]Es bietet wohl\nkeiner mehr.[pause][\\x0203]Yin Yang[-4]Stab \nfür 2700 BIT![pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an\ndeinen Satelliten![pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Es bietet wohl\nkeiner mehr.[pause][\\x0203]Yin Yang-Stab \nfür 2700 BIT![pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an\ndeinen Satelliten![pause]"
       - |-
         [\x0207][\x020902]3Toll! Der
-        Yin Yang[-4]Stab![pause]
+        Yin Yang-Stab![pause]
       - |-
         [\x0207][\x020902]3Ich hab jetzt ein
         echt cooles Item,
@@ -193,11 +193,11 @@ files:
         [\x0207]Mr. Smith[\x0207]Das ist eure Chance!
         Es geht um's Hauptitem![pause][\x0203]Der gefährl. Zahn.
         Von allen bewundert![pause][\x0203]Das Mindestgebot für
-        die Guilmon[-4]Waffe
+        die Guilmon-Waffe
         liegt bei 1600 BIT![pause]
       - '[\x0207]Händler Abel[\x0207]2000 BIT![pause]'
       - '[\x0207]Chief Milly[\x0207]2300 BIT![pause]'
-      - '[\x0207]RPG[-4]Fan Mas.[\x0207]2600 BIT![pause]'
+      - '[\x0207]RPG-Fan Mas.[\x0207]2600 BIT![pause]'
       - |-
         [\x0207][\x020902]3Hmm..2700 BIT
         ...hmmm...[pause]
@@ -234,13 +234,13 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Die Sniper[-4]Kanone.
+        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Die Sniper-Kanone.
         Von allen bewundert![pause][\x0203]Das Mindestgebot für
-        die Monmon[-4]Waffe
+        die Monmon-Waffe
         liegt bei 2700 BIT![pause]
       - '[\x0207]Händler Abel[\x0207]3100 BIT![pause]'
       - '[\x0207]Chief Milly[\x0207]3500 BIT![pause]'
-      - '[\x0207]RPG[-4]Fan Mas.[\x0207]3900 BIT![pause]'
+      - '[\x0207]RPG-Fan Mas.[\x0207]3900 BIT![pause]'
       - |-
         [\x0207][\x020902]3Hmm..4000 BIT
         ...hmmm...[pause]
@@ -258,10 +258,10 @@ files:
         [\x0207]Mr. Smith[\x0207]Wow!
         4000 BIT![pause][\x0203]Bietet jmd.
         mehr?[pause]
-      - "[\\x0207]Mr. Smith[\\x0207]Es bietet wohl\nkeiner mehr.[pause][\\x0203]Sniper[-4]Kanone \nfür 4000 BIT![pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an\ndeinen Satelliten![pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Es bietet wohl\nkeiner mehr.[pause][\\x0203]Sniper-Kanone \nfür 4000 BIT![pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an\ndeinen Satelliten![pause]"
       - |-
         [\x0207][\x020902]3Klasse! Die
-        Sniper[-4]Kanone![pause]
+        Sniper-Kanone![pause]
       - |-
         [\x0207][\x020902]3Ich hab jetzt ein
         echt cooles Item,
@@ -272,13 +272,13 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Die Ronin[-4]Klinge.
+        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Die Ronin-Klinge.
         Von allen bewundert![pause][\x0203]Das Mindestgebot für
-        die Kotemon[-4]Waffe
+        die Kotemon-Waffe
         liegt bei 2700 BIT![pause]
       - '[\x0207]Händler Abel[\x0207]3100 BIT![pause]'
       - '[\x0207]Chief Milly[\x0207]3500 BIT![pause]'
-      - '[\x0207]RPG[-4]Fan Mas.[\x0207]3900 BIT![pause]'
+      - '[\x0207]RPG-Fan Mas.[\x0207]3900 BIT![pause]'
       - |-
         [\x0207][\x020902]3Hmm 4000 BIT
         ...hmmm...[pause]
@@ -298,13 +298,13 @@ files:
         mehr?[pause]
       - |-
         [\x0207]Mr. Smith[\x0207]Zum 1., zum 2.
-        und zum 3.![pause][\x0203]Ronin[-4]Klinge
+        und zum 3.![pause][\x0203]Ronin-Klinge
         für 4000 BIT.[pause][\x0203]Gratulation![pause][\x0203]Ich übertrage das
         Item jetzt an
         deinen Satelliten![pause]
       - |-
         [\x0207][\x020902]3Yeah! Die
-        Ronin[-4]Klinge![pause]
+        Ronin-Klinge![pause]
       - |-
         [\x0207][\x020902]3Ich hab jetzt ein
         echt cooles Item,
@@ -317,11 +317,11 @@ files:
       - |-
         [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Sniper Goggle.
         Von allen begehrt![pause][\x0203]Das Mindestgebot für
-        die Monmon[-4]Kappe
+        die Monmon-Kappe
         liegt bei 4000 BIT![pause]
       - '[\x0207]Händler Abel[\x0207]4500 BIT![pause]'
       - '[\x0207]Chief Milly[\x0207]5500 BIT![pause]'
-      - '[\x0207]RPG[-4]Fan Mas.[\x0207]5900 BIT![pause]'
+      - '[\x0207]RPG-Fan Mas.[\x0207]5900 BIT![pause]'
       - |-
         [\x0207][\x020902]3Hmm..6000 BIT
         ...hmmm...[pause]
@@ -358,11 +358,11 @@ files:
       - |-
         [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Die hlg. Krone.
         Von allen bewundert![pause][\x0203]Das Mindestgebot für
-        die Patamon[-4]Krone
+        die Patamon-Krone
         liegt bei 4000 BIT![pause]
       - '[\x0207]Händler Abel[\x0207]4500 BIT![pause]'
       - '[\x0207]Chief Milly[\x0207]5500 BIT![pause]'
-      - '[\x0207]RPG[-4]Fan Mas.[\x0207]5900 BIT![pause]'
+      - '[\x0207]RPG-Fan Mas.[\x0207]5900 BIT![pause]'
       - |-
         [\x0207][\x020902]3Hmm..6000 BIT
         ...hmmm...[pause]
@@ -401,11 +401,11 @@ files:
       - |-
         [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Der kühne Helm.
         Von allen bewundert![pause][\x0203]Das Mindestgebot für
-        den Agumon[-4]Helm
+        den Agumon-Helm
         liegt bei 7000 BIT![pause]
       - '[\x0207]Händler Abel[\x0207]8000 BIT![pause]'
       - '[\x0207]Chief Milly[\x0207]8300 BIT![pause]'
-      - '[\x0207]RPG[-4]Fan Mas.[\x0207]8600 BIT![pause]'
+      - '[\x0207]RPG-Fan Mas.[\x0207]8600 BIT![pause]'
       - |-
         [\x0207][\x020902]3Hmm..8700 BIT
         ...hmmm...[pause]
@@ -442,13 +442,13 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Der Ronin[-4]Helm.
+        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Der Ronin-Helm.
         Von allen bewundert![pause][\x0203]Das Mindestgebot für
-        den Kotemon[-4]Helm
+        den Kotemon-Helm
         liegt bei 7000 BIT![pause]
       - '[\x0207]Händler Abel[\x0207]8000 BIT![pause]'
       - '[\x0207]Chief Milly[\x0207]8300 BIT![pause]'
-      - '[\x0207]RPG[-4]Fan Mas.[\x0207]8600 BIT![pause]'
+      - '[\x0207]RPG-Fan Mas.[\x0207]8600 BIT![pause]'
       - |-
         [\x0207][\x020902]3Hmm..8700 BIT
         ...hmmm...[pause]
@@ -466,10 +466,10 @@ files:
         [\x0207]Mr. Smith[\x0207]Wow!
         8700 BIT![pause][\x0203]Bietet jmd.
         mehr?[pause]
-      - "[\\x0207]Mr. Smith[\\x0207]Es bietet wohl\nkeiner mehr.[pause][\\x0203]Ronin[-4]Helm \nfür 8700 BIT![pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an\ndeinen Satelliten![pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Es bietet wohl\nkeiner mehr.[pause][\\x0203]Ronin-Helm \nfür 8700 BIT![pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an\ndeinen Satelliten![pause]"
       - |-
         [\x0207][\x020902]3Klasse! Der
-        Ronin[-4]Helm![pause]
+        Ronin-Helm![pause]
       - |-
         [\x0207][\x020902]3Ich hab jetzt ein
         echt cooles Item.
@@ -480,13 +480,13 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Der Yin Yang[-4]Anzug.
+        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Der Yin Yang-Anzug.
         Von allen bewundert![pause][\x0203]Das Mindestgebot für
-        den Renamon[-4]Anzug
+        den Renamon-Anzug
         liegt bei 10000 BIT![pause]
       - '[\x0207]Händler Abel[\x0207]10900 BIT![pause]'
       - '[\x0207]Chief Milly[\x0207]11200 BIT[pause]'
-      - '[\x0207]RPG[-4]Fan Mas.[\x0207]11400 BIT![pause]'
+      - '[\x0207]RPG-Fan Mas.[\x0207]11400 BIT![pause]'
       - |-
         [\x0207][\x020902]3Hm. 11500 BIT
         ...hmmm...[pause]
@@ -504,10 +504,10 @@ files:
         [\x0207]Mr. Smith[\x0207]Wow!
         11500 BIT![pause][\x0203]Bietet jmd.
         mehr?[pause]
-      - "[\\x0207]Mr. Smith[\\x0207]Letzte Chance!\nBietet jemand?[pause][\\x0203]Yin Yang[-4]Anzug \nfür 11500 BIT![pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an\ndeinen Satelliten![pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Letzte Chance!\nBietet jemand?[pause][\\x0203]Yin Yang-Anzug \nfür 11500 BIT![pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an\ndeinen Satelliten![pause]"
       - |-
         [\x0207][\x020902]3Super! Der
-        Yin Yang[-4]Anzug![pause]
+        Yin Yang-Anzug![pause]
       - |-
         [\x0207][\x020902]3Ich hab jetzt ein
         echt cooles Item.
@@ -518,13 +518,13 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Die Ronin[-4]Ausrüstung.
+        [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Die Ronin-Ausrüstung.
         Von allen bewundert![pause][\x0203]Das Mindestgebot für
-        die Kotemon[-4]Ausrüstung
+        die Kotemon-Ausrüstung
         liegt bei 16000 BIT![pause]
       - '[\x0207]Händler Abel[\x0207]16900 BIT![pause]'
       - '[\x0207]Chief Milly[\x0207]17000 BIT[pause]'
-      - '[\x0207]RPG[-4]Fan Mas.[\x0207]17400 BIT![pause]'
+      - '[\x0207]RPG-Fan Mas.[\x0207]17400 BIT![pause]'
       - |-
         [\x0207][\x020902]3Hm. 17500 BIT
         ...hmm...[pause]
@@ -542,10 +542,10 @@ files:
         [\x0207]Mr. Smith[\x0207]Wow!
         17500 BIT![pause][\x0203]Bietet jmd.
         mehr?[pause]
-      - "[\\x0207]Mr. Smith[\\x0207]Es bietet wohl\nkeiner mehr.[pause][\\x0203]Ronin[-4]Ausrüstung \nfür 17500 BIT![pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an\ndeinen Satelliten![pause]"
+      - "[\\x0207]Mr. Smith[\\x0207]Es bietet wohl\nkeiner mehr.[pause][\\x0203]Ronin-Ausrüstung \nfür 17500 BIT![pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an\ndeinen Satelliten![pause]"
       - |-
         [\x0207][\x020902]3Wow! Die
-        Ronin[-4]Ausrüstg.![pause]
+        Ronin-Ausrüstg.![pause]
       - |-
         [\x0207][\x020902]3Das ist ein echt
         cooles Item. Was
@@ -558,11 +558,11 @@ files:
       - |-
         [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Der Wildnisanzug.
         Von allen bewundert![pause][\x0203]Das Mindestgebot für
-        den Kumamon[-4]Anzug
+        den Kumamon-Anzug
         liegt bei 23000 BIT![pause]
       - '[\x0207]Händler Abel[\x0207]23500 BIT![pause]'
       - '[\x0207]Chief Milly[\x0207]23800 BIT[pause]'
-      - '[\x0207]RPG[-4]Fan Mas.[\x0207]23900 BIT![pause]'
+      - '[\x0207]RPG-Fan Mas.[\x0207]23900 BIT![pause]'
       - |-
         [\x0207][\x020902]3Hm. 24000 BIT
         ...hmmm...[pause]
@@ -599,7 +599,7 @@ files:
         31000 BIT![pause]
       - "[\\x0207]Chief Milly[\\x0207]Oioi\n31500 \nBIT![pause]"
       - |-
-        [\x0207]RPG[-4]Fan Mas.[\x0207]Oin oi
+        [\x0207]RPG-Fan Mas.[\x0207]Oin oi
         31900 BIT![pause]
       - |-
         [\x0207][\x020902]3Hm. 32000 BIT

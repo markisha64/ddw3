@@ -82,8 +82,8 @@ strings:
   - a
   - |-
     [\x0207]Terriermon[\x0207]...mmmm,
-    Mou[-4]man[-4]tai
-    mou[-4]man[-4]tai.[pause]
+    Mou-man-tai
+    mou-man-tai.[pause]
   - |-
     [\x0207]Gabum.[\x0207]Zzzzz
     Zzzzzzz[pause]
@@ -1104,7 +1104,7 @@ strings:
     derubassero![pause]
   - |-
     [\x0207]Sandy app. ogg.[\x0207]Conosci il
-    digi[-4]uovo della
+    digi-uovo della
     sapienza?[pause][\x0203]Puoi chiamare
     Digmon e andare
     sottoterra![pause]

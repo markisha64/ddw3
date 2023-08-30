@@ -570,7 +570,7 @@ strings:
     [\x0207]Domatr. Mei Lin[\x0207]Battiamoci
     coi Digimon![pause][\x0203]Vedrai il mio
     stile
-    kung[-4]fu![pause]
+    kung-fu![pause]
   - |-
     [\x0207]Domatr. Mei Lin[\x0207]Ho perso da
     poco
@@ -921,7 +921,7 @@ strings:
   - |-
     [\x0207]Gatomon[\x0207]La gente chiede,
     ma non so dove
-    sia il digi[-4]uovo.[pause][\x0203]Scusa, non so
+    sia il digi-uovo.[pause][\x0203]Scusa, non so
     aiutarti.[pause]
   - |-
     [\x0207]Gatomon[\x0207]Sei alla locanda
@@ -1961,7 +1961,7 @@ strings:
     battuto
     MasterTyranno.[pause][\x0203]Mi spiace, non
     puoi sfidarmi![pause][\x0203]La Valle Tyranno è
-    a nord[-4]est di
+    a nord-est di
     Seiryu.[pause]
   - a
   - |-
@@ -2026,7 +2026,7 @@ strings:
     ricordo dove...[pause]
   - |-
     [\x0207][\x020902]3Ecco! Il simbolo
-    della sincerità![pause][\x0203]Qui c'è il digi[-4]uovo
+    della sincerità![pause][\x0203]Qui c'è il digi-uovo
     della fiducia?[pause][\x0203]E come lo abbatto
     questo muro?[pause][\x0203]Magari Sepikmon mi
     da una mano...[pause]
@@ -2242,7 +2242,7 @@ strings:
   - a
   - |-
     [\x0207][\x020902]3Devo trovare il
-    digi[-4]uovo della
+    digi-uovo della
     fiducia...[pause]
   - a
   - |-

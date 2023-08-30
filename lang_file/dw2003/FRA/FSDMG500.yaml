@@ -4,7 +4,7 @@ files:
       - ''
       - |-
         [\x0207]Femme[\x0207]Hé, toi...
-        Toi, là[-4]
+        Toi, là-
         bas ![pause]
       - |-
         [\x0207][\x020902]3Hmmm
@@ -19,7 +19,7 @@ files:
       - |-
         [\x0207]Lisa[\x0207][\x020801][\x020501], OK, je
         m'en rappellerai.[pause][\x0203]Au fait, [\x020802][\x020502],
-        as[-4]tu vu un joli
+        as-tu vu un joli
         Digimon vert ?[pause]
       - |-
         [\x0207][\x020902]3Hm, tu parles de
@@ -28,7 +28,7 @@ files:
       - |-
         [\x0207]Lisa[\x0207]Eh bien... hm,
         Je ne sais pas.[pause][\x0203]Qu'en
-        penses[-4]tu,
+        penses-tu,
         [\x020801][\x020501] ?[pause]
       - |-
         [\x0207][\x020902]3C'est à dire
@@ -40,7 +40,7 @@ files:
         chercher Ogremon
         tout de suite ![pause]
       - |-
-        [\x0207][\x020902]3Ben, qu'est[-4]ce
+        [\x0207][\x020902]3Ben, qu'est-ce
         qu'elle a ?[pause]
       - |-
         [\x0207]Lisa[\x0207]Enchantée
@@ -49,7 +49,7 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Chef Suzaku[\x0207]Alors, es[-4]tu
+        [\x0207]Chef Suzaku[\x0207]Alors, es-tu
         prêt à entrer
         dans l'arène ?[pause]
       - |-
@@ -83,7 +83,7 @@ files:
         il faut franchir l'océan.[pause][\x0203]Il n'y a qu'une façon d'y
         aller. Tu dois appeler
         Submarimon.[pause][\x0203]Pour appeler Submarimon,
-        il te faut le Digi[-4]Oeuf
+        il te faut le Digi-Oeuf
         de la Fiabilité.[pause][\x0203]Récolte des infos à ce
         sujet dans ce secteur.[pause][\x0203]C'est la seule piste que
         je puisse te donner.
@@ -112,13 +112,13 @@ files:
         Byakko City ?[pause]
       - |-
         [\x0207][\x020902]3Oui, je
-        vais là[-4]bas.[pause]
+        vais là-bas.[pause]
       - '[\x0207]Numemon[\x0207]Je te le déconseille.[pause]'
       - |-
         [\x0207][\x020902]3Pourquoi
         ça ?[pause]
       - |-
-        [\x0207]Numemon[\x0207]Fais demi[-4]
+        [\x0207]Numemon[\x0207]Fais demi-
         tour, c'est
         tout, OK ?[pause]
       - '[\x0207][\x020902]3Hé, attends ![pause]'
@@ -136,7 +136,7 @@ files:
         les habitants de
         Byakko City ?[pause][\x0203]Leur chef a menti
         et m'a fait tomber
-        au sous[-4]sol.[pause]
+        au sous-sol.[pause]
       - |-
         [\x0207]Numemon[\x0207]Tous des imposteurs,
         le chef comme
@@ -150,10 +150,10 @@ files:
         pas ![pause][\x0203]Si tu veux rencontrer
         le vrai chef, va au
         Désert de Mobius.[pause][\x0203]Trouve la Tour Mirage
-        au[-4]delà du désert.[pause]
+        au-delà du désert.[pause]
       - |-
         [\x0207][\x020902]3Hé, attends !
-        Qu'est[-4]ce qui
+        Qu'est-ce qui
         se passe ?[pause]
       - |-
         [\x0207]Numemon[\x0207]Je ne peux pas
@@ -174,7 +174,7 @@ files:
         Numemon .[pause]
       - |-
         [\x0207]Numemon[\x0207]C'est toi.
-        Pourquoi es[-4]
+        Pourquoi es-
         tu revenu ?[pause]
       - |-
         [\x0207][\x020902]3J'ai une
@@ -193,42 +193,42 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]
   - strings:
       - ''
-      - "[\\x0207][\\x020902]3Oui, très \nbien. Allez, \nbattons[-4]nous ![pause]"
+      - "[\\x0207][\\x020902]3Oui, très \nbien. Allez, \nbattons-nous ![pause]"
       - |-
         [\x0207]Zanbamon[\x0207]Tu n'es pas
         de taille ![pause]
       - |-
         [\x0207][\x020902]3Oh, tu as peur
         de perdre ?[pause]
-      - "[\\x0207]Zanbamon[\\x0207]Qu...quoi ?!\nPas du tout ![pause][\\x0203]Très bien ! \nSi tu y tiens, \nbattons[-4]nous ![pause]"
+      - "[\\x0207]Zanbamon[\\x0207]Qu...quoi ?!\nPas du tout ![pause][\\x0203]Très bien ! \nSi tu y tiens, \nbattons-nous ![pause]"
   - strings:
       - ''
       - |-
         [\x0207]Zanbamon[\x0207]Qu...quoi...
         J'ai perdu...[pause]
-      - "[\\x0207][\\x020902]3Qu'en dis[-4]tu ? !\nJe suis coriace, \nnon ?[pause]"
-      - "[\\x0207]Zanbamon[\\x0207]Oh, très bien.\nJe te donne ceci, \nalors pardonne[-4]moi ![pause]"
+      - "[\\x0207][\\x020902]3Qu'en dis-tu ? !\nJe suis coriace, \nnon ?[pause]"
+      - "[\\x0207]Zanbamon[\\x0207]Oh, très bien.\nJe te donne ceci, \nalors pardonne-moi ![pause]"
       - "[\\x0207][\\x020902]3Un Katana\nrouillé ? ! Oh, \nbien...[pause]"
-      - "[\\x0207]Zanbamon[\\x0207]Je veux vivre\nen paix ici...[pause][\\x0203]Laisse[-4]moi seul, \ns'il te plait ![pause]"
+      - "[\\x0207]Zanbamon[\\x0207]Je veux vivre\nen paix ici...[pause][\\x0203]Laisse-moi seul, \ns'il te plait ![pause]"
   - strings:
       - ''
       - |-
@@ -242,7 +242,7 @@ files:
       - "[\\x0207][\\x020902]3Oui, \nVictoire ![pause]"
       - |-
         [\x0207]MagnaAngemon[\x0207]Très bien.
-        Prends[-4]le.[pause]
+        Prends-le.[pause]
       - "[\\x0207][\\x020902]3Oui ! J'ai \nl'ADNN\nPatamon ![pause][\\x0203]Merci, \nMagnaAngemon ![pause]"
   - strings:
       - ''
@@ -276,11 +276,11 @@ files:
         Kyukimon ![pause]
   - strings:
       - ''
-      - "[\\x0207][\\x020902]3Qu'est[-4]ce \nque tu \nveux dire ?[pause]"
+      - "[\\x0207][\\x020902]3Qu'est-ce \nque tu \nveux dire ?[pause]"
       - "[\\x0207]BK Seraphimon[\\x0207]Que tu dois te\nbattre avec moi ![pause][\\x0203]Si tu l'emportes, \ntu pourras partir.[pause][\\x0203]Mais si tu perds, \nc'en est fait de toi.[pause]"
       - |-
         [\x0207][\x020902]3Compris.
-        Alors allons[-4]
+        Alors allons-
         y ![pause]
       - "[\\x0207]BK Seraphimon[\\x0207]Tu ne vas pas \nfaire le fier bien\nlongtemps ![pause][\\x0203]Tu ferais mieux \nde te tenir \nprêt ![pause]"
   - strings:
@@ -302,7 +302,7 @@ files:
       - ''
       - |-
         [\x0207][\x020902]3OK, c'est dans la
-        salle, là[-4]bas ![pause]
+        salle, là-bas ![pause]
   - strings:
       - ''
       - |-
@@ -331,7 +331,7 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207][\x020902]3Il est là[-4]dedans,
+        [\x0207][\x020902]3Il est là-dedans,
         maintenant... [pause][\x0203]OK, je vais juste
         continuer à le
         suivre ![pause]
@@ -342,7 +342,7 @@ files:
         Voilà Nick
         et Keith.[pause]
       - |-
-        [\x0207]Nick[\x0207]Mais quand est[-4]ce
+        [\x0207]Nick[\x0207]Mais quand est-ce
         que tu vas faire
         ton boulot ?[pause][\x0203]Tu joues à ce jeu
         depuis qu'on est
@@ -390,9 +390,9 @@ files:
       - |-
         [\x0207]Keith[\x0207]On n'a pas de
         temps à perdre.
-        Conduis[-4]nous ![pause]
+        Conduis-nous ![pause]
       - |-
-        [\x0207]Nick[\x0207]Oui, conduis[-4]
+        [\x0207]Nick[\x0207]Oui, conduis-
         nous à elle
         maintenant ![pause]
       - |-
@@ -406,7 +406,7 @@ files:
         passer.[pause][\x0203]Regarde
         ça ![pause]
       - |-
-        [\x0207][\x020902]3Qu'est[-4]ce
+        [\x0207][\x020902]3Qu'est-ce
         c'est ?![pause]
       - |-
         [\x0207]Chef de Suzaku[\x0207]Une brèche de
@@ -443,18 +443,18 @@ files:
         de Suzaku ![pause]
       - |-
         [\x0207][\x020902]3Cette brèche mène
-        peut[-4]être au serveur
+        peut-être au serveur
         Amaterasu ?[pause]
       - |-
         [\x0207][\x020902]3Chef de Suzaku,
-        j'ai une question ![pause][\x0203]Sais[-4]tu où se trouve
+        j'ai une question ![pause][\x0203]Sais-tu où se trouve
         la chambre d'urgence
         du Secteur Nord ?[pause]
       - |-
         [\x0207]Chef de Suzaku[\x0207]Tu parles de la
         Chambre
         Matrix d'urgence ?[pause][\x0203]Elle est située au
-        sous[-4]sol de la
+        sous-sol de la
         Mine de Kulon.[pause][\x0203]Mais il faut les
         4 badges de chef
         pour l'utiliser.[pause]
@@ -468,7 +468,7 @@ files:
       - |-
         [\x0207][\x020902]3Oui ! J'ai le Passe
         rouge ![pause][\x0203]... Mais où est
-        le Digi[-4]Oeuf du
+        le Digi-Oeuf du
         Savoir ?[pause][\x0203]Je dois le trouver
         vite pour arrêter
         le Juggernaut ![pause]
@@ -478,7 +478,7 @@ files:
       - |-
         [\x0207][\x020902]3Tiens ? La
         brèche se
-        poursuit par là ![pause][\x0203]Elle mène peut[-4]
+        poursuit par là ![pause][\x0203]Elle mène peut-
         être au serveur
         Amaterasu... [pause][\x0203]Allons voir ![pause]
   - strings:
@@ -524,7 +524,7 @@ files:
         entrer ici ![pause]
       - |-
         [\x0207][\x020902]3Chef de Zhu Que
-        où est le Digi[-4]
+        où est le Digi-
         Oeuf du Savoir ?[pause]
       - |-
         [\x0207]Chef de Zhu Que[\x0207]Ah ah ! Tu es donc
@@ -534,12 +534,12 @@ files:
         trop tard ![pause]
       - |-
         [\x0207][\x020902]3Quoi ? Que
-        veux[-4]tu
+        veux-tu
         dire par là ?[pause]
       - |-
         [\x0207]Chef de Zhu Que[\x0207]Ha ha ha, je
         vais t'expliquer ![pause][\x0203]Nous avons pris la
-        base sous[-4]marine
+        base sous-marine
         de Magasta ![pause]
       - |-
         [\x0207]Chef de Zhu Que[\x0207]Et à présent, nous [pause][\x0203]... lançons le fort
@@ -563,7 +563,7 @@ files:
         quoi, ça ?[pause]
       - |-
         [\x0207][\x020902]3Super ! J'ai
-        le Digi[-4]Oeuf du
+        le Digi-Oeuf du
         Savoir ![pause]
       - |-
         [\x0207][\x020902]3A présent, je peux
@@ -577,26 +577,26 @@ files:
       - |-
         [\x0207][\x020902]3Ah, tu as peur,
         tu vas perdre ![pause]
-      - "[\\x0207]Zanbamon[\\x0207]Qu[-4]quoi ?\nMais non ![pause][\\x0203]Bon ! Tu \nl'auras voulu,\ntu vas voir ![pause]"
+      - "[\\x0207]Zanbamon[\\x0207]Qu-quoi ?\nMais non ![pause][\\x0203]Bon ! Tu \nl'auras voulu,\ntu vas voir ![pause]"
   - strings:
       - ''
       - |-
-        [\x0207]Zanbamon[\x0207]Qu[-4]quoi ?
+        [\x0207]Zanbamon[\x0207]Qu-quoi ?
         J'ai perdu.[pause]
       - "[\\x0207][\\x020902]3Alors ?\nJe suis plutôt \nfort, non ?[pause]"
       - |-
         [\x0207]Zanbamon[\x0207]Très bien.
         Prends ça, et
-        pardonne[-4]moi![pause]
+        pardonne-moi![pause]
       - "[\\x0207][\\x020902]3Quoi ? le \nKatana\nRouillé ? Bien.[pause]"
-      - "[\\x0207]Zanbamon[\\x0207]Je[-4]je veux vivre \nen paix ici...[pause][\\x0203]Laisse[-4]moi seul, \ns'il te plait ![pause]"
+      - "[\\x0207]Zanbamon[\\x0207]Je-je veux vivre \nen paix ici...[pause][\\x0203]Laisse-moi seul, \ns'il te plait ![pause]"
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]

@@ -5,7 +5,7 @@ strings:
     Lege alle Digimon, die
     nicht weiβ sind, ab.
   - |-
-    Lege in der Sammel[-4]Phase
+    Lege in der Sammel-Phase
     2 Angemon in das Feld.
   - |-
     Addiere 10 zu AP & HP
@@ -15,9 +15,9 @@ strings:
     um 30.
   - |-
     Nimm 1 Punkt der
-    weiβen S[-4]Energie.
+    weiβen S-Energie.
   - |-
-    Lege in der Sammel[-4]Phase
+    Lege in der Sammel-Phase
     Patamon in das Feld.
   - |-
     Nehme die nicht blauen
@@ -27,33 +27,33 @@ strings:
     Gegners vom Feld.
   - |-
     Lege eine gerade gezogene
-    Prog.[-4]Karte ab.
+    Prog.-Karte ab.
   - |-
     Nimm 1 Digimon wieder
     in dein Blatt auf.
   - |-
     Nimm 1 Punkt der
-    blauen S[-4]Energie.
+    blauen S-Energie.
   - |-
-    Lege in der Sammel[-4]Phase
+    Lege in der Sammel-Phase
     Goamom in das Feld.
   - |-
     Addiere 50 zu AP & HP
-    der eig. gr. Digi[-4]Karte.
+    der eig. gr. Digi-Karte.
   - |-
     Nimm 1 Karte aus der Abl.
     auf die Hand. Nur einmal.
   - |-
     Nimm 2 Punkte der
-    grünen S[-4]Energie.
+    grünen S-Energie.
   - |-
     Addiere 20 zu AP & HP
     eines Digimon.
   - |-
     Nimm 1 Punkt der
-    grünen S[-4]Energie.
+    grünen S-Energie.
   - |-
-    Lege in der Sammel[-4]Phase
+    Lege in der Sammel-Phase
     Palmon in das Feld.
   - |-
     60 Schadenspunkte für
@@ -66,12 +66,12 @@ strings:
     alle Digimon.
   - |-
     30 Schadenspunkte für
-    ein Gegner[-4]Digimon.
+    ein Gegner-Digimon.
   - |-
     Nimm 1 Punkt der
-    roten S[-4]Energie.
+    roten S-Energie.
   - |-
-    Lege in der Sammel[-4]Phase
+    Lege in der Sammel-Phase
     Goburimon in das Feld.
   - "Lege alle nicht schwarzen \nKarten des Gegnerbl. ab."
   - |-
@@ -85,9 +85,9 @@ strings:
     Gegnerblatts ab.
   - |-
     Nimm 1 Punkt der
-    schwarzen S[-4]Energie.
+    schwarzen S-Energie.
   - |-
-    Lege in der Sammel[-4]Phase
+    Lege in der Sammel-Phase
     Devimon in das Feld.
   - Lege alle Digimon ab.
   - |-
@@ -99,7 +99,7 @@ strings:
   - |-
     Lege das ganze Blatt ab.
     Ziehe 6 Karten vom Stapel.
-  - Ganze S[-4]Energie auf Null.
+  - Ganze S-Energie auf Null.
   - |-
     Lege alle Karten der
     Ablage auf den Stapel.
@@ -107,11 +107,11 @@ strings:
     Beide Spieler haben
     3 Karten auf der Hand.
   - |-
-    Lege 5 Karten des Gegner[-4]
+    Lege 5 Karten des Gegner-
     stapels in die Ablage.
-  - Gegner[-4]AP auf Null.
+  - Gegner-AP auf Null.
   - |-
-    Lege in Sammel[-4]Phase 1
+    Lege in Sammel-Phase 1
     Digi. dein. Blatts in Feld.
   - |-
     Addiere 30 zu AP & HP
@@ -123,41 +123,41 @@ strings:
     Wähle 1 Digi. vom Stapel
     u. nimm ihn auf die Hand.
   - |-
-    Wähle 1 PG[-4]Karte vom Sta[-4]
+    Wähle 1 PG-Karte vom Sta-
     pel, nimm ihn auf Hand.
   - |-
     Ziehe 1 Karte vom Stapel.
     Lege 1 Karte von Hand ab
   - |-
-    Lege 2 Karten des Gegner[-4]
+    Lege 2 Karten des Gegner-
     stapels ab.
   - |-
     30 Schadenspunkte für 1
-    braunen Gegner[-4]Digimon.
+    braunen Gegner-Digimon.
   - |-
     Lege eine gerade gezogene
-    braune PG[-4]Karte ab.
+    braune PG-Karte ab.
   - |-
     Lege 1 braunes Digimon
-    des Gegner[-4]Blatts ab.
+    des Gegner-Blatts ab.
   - |-
-    Lege in der Sammel[-4]Phase
+    Lege in der Sammel-Phase
     2 Hagurumon ins Feld.
   - |-
     Ziehe 2 Punkte von weiβer
-    S[-4]Energie des Gegners ab.
+    S-Energie des Gegners ab.
   - |-
     Ziehe 2 Punkte von blauer
-    S[-4]Energie des Gegners ab.
+    S-Energie des Gegners ab.
   - |-
     Ziehe 2 Punkte von grüner
-    S[-4]Energie des Gegners ab.
+    S-Energie des Gegners ab.
   - |-
     Ziehe 2 Punkte von roter
-    S[-4]Energie des Gegners ab.
+    S-Energie des Gegners ab.
   - |-
     Ziehe 2 Punkte von schw.
-    S[-4]Energie des Gegners.
+    S-Energie des Gegners.
   - |-
     Nimm einen braunen Digimon
     wieder auf die Hand.
@@ -224,7 +224,7 @@ strings:
   - a
   - |-
     Add. 10fache der Anzahl
-    Blatt[-4]Karten zu AP & HP.
+    Blatt-Karten zu AP & HP.
   - a
   - a
   - a
@@ -269,7 +269,7 @@ strings:
   - a
   - |-
     Add. 20fache der Anzahl
-    Ablage[-4]Karten zu AP & HP
+    Ablage-Karten zu AP & HP
   - a
   - a
   - a
@@ -359,4 +359,4 @@ strings:
   - a
   - |-
     Add. 10fache der Anzahl
-    Ablage[-4]Karten zu AP & HP
+    Ablage-Karten zu AP & HP

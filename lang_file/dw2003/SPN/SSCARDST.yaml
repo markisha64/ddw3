@@ -11,7 +11,7 @@ strings:
   - "Incrementa el PV de un \nDigimon en +30."
   - |-
     Obtiene 1 punto de
-    S[-4]Energía Blanca.
+    S-Energía Blanca.
   - |-
     Llama a Patamon al
     campo en Compilar Fase.
@@ -27,7 +27,7 @@ strings:
   - |-
     Devuelve 1 Digimon
     a su Mano.
-  - "Obtiene 1 punto de \nS[-4]Energía Azul."
+  - "Obtiene 1 punto de \nS-Energía Azul."
   - |-
     Llama a Gomamon al
     campo en Compilar Fase.
@@ -35,11 +35,11 @@ strings:
   - |-
     Recupera 1 Carta de pape.
     a la Mano. Sólo un uso.
-  - "Obtiene 2 puntos de \nS[-4]Energía Verde."
+  - "Obtiene 2 puntos de \nS-Energía Verde."
   - |2-
      +20 a PA y PV de un
     Digimon.
-  - "Obtiene 1 punto de \nS[-4]Energía Verde."
+  - "Obtiene 1 punto de \nS-Energía Verde."
   - |-
     Llama a Palmon al
     campo en Compilar Fase.
@@ -51,7 +51,7 @@ strings:
   - |-
     30 puntos de daño a un
     Digimon oponente.
-  - "Obtiene 1 punto de \nS[-4]Energía Roja."
+  - "Obtiene 1 punto de \nS-Energía Roja."
   - |-
     Llama a Goburimon al
     campo en Compilar Fase.
@@ -67,7 +67,7 @@ strings:
     oponente en la papalera.
   - |-
     Obtiene 1 punto de
-    S[-4]Energía Negra.
+    S-Energía Negra.
   - |-
     Llama a Devimon al
     campo en Compilar Fase.
@@ -79,7 +79,7 @@ strings:
     Toma 3 Cartas del Mazo de
     oponente a la papelera.
   - "Tira toda la Mano y \nsaca 6 Cartas del Mazo."
-  - Reduce la S[-4]Energía a 0.
+  - Reduce la S-Energía a 0.
   - |-
     Devuelve la Cartas de la
     papelera al Mazo.
@@ -111,16 +111,16 @@ strings:
     Pon 1 Digimon Marrón de la
     Mano del opon. en la pap.
   - "Llama a 2 Hagurumon al \ncampo en Compilar Fase."
-  - "Resta 2 puntos de la \nS[-4]Energía Blanca del opon."
-  - "Resta 2 puntos de la \nS[-4]Energía azul del oponen."
-  - "Resta 2 puntos de la \nS[-4]Energía Verde del opon."
-  - "Resta 2 puntos de la \nS[-4]Energía Roja del oponen."
-  - "Resta 2 puntos de la \nS[-4]Energía Negra del opon."
+  - "Resta 2 puntos de la \nS-Energía Blanca del opon."
+  - "Resta 2 puntos de la \nS-Energía azul del oponen."
+  - "Resta 2 puntos de la \nS-Energía Verde del opon."
+  - "Resta 2 puntos de la \nS-Energía Roja del oponen."
+  - "Resta 2 puntos de la \nS-Energía Negra del opon."
   - |-
     Devuelve un Digimon Marrón
     a la Mano.
   - |-
-    PA +10 y PV [-4]10 a
+    PA +10 y PV -10 a
     1 Digimon.
   - "Pon un Digimon Marron del \ncampo en la papelera."
   - PV +10 a un Digimon.

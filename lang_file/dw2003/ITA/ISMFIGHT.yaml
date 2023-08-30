@@ -15,7 +15,7 @@ strings:
   - X
   - PM
   - PF
-  - '[-4][-4][-4]'
+  - '---'
   - /
   - L1
   - R1
@@ -26,7 +26,7 @@ strings:
   - '[\x020501]・[\x020502]'
   - '[\x020501]・[\x020502]・[\x020503]'
   - Liv.
-  - '[-4][-4]'
+  - '--'
   - Cambia
   - DNA DV
   - Sfuggito!
@@ -36,7 +36,7 @@ strings:
   - Addormentato!
   - '[\x020501] PF curati!'
   - '[\x020501] X [\x020502] = [\x020503]!'
-  - '[-4]'
+  - '-'
   - Contrattacco!
   - Rubato
   - I PF aumentano gradualmente.

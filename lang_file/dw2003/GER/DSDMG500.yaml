@@ -63,11 +63,11 @@ files:
         das hier.[pause]
       - |-
         [\x0207][\x020902]3Super! Ich hab
-        d. Suzaku[-4]
+        d. Suzaku-
         Abzeichen![pause][\x0203]Als Nächstes
         brauche ich das
-        Byakko[-4]Abzei.[pause]
-      - "[\\x0207]Suzaku Leader[\\x0207]Der Westsektor ist jen[-4]\nseits des Ozeans, also \nschwer zugänglich.[pause][\\x0203]Es gibt nur einen Weg\ndorthin. Du musst Sub[-4]\nmarimon rufen.[pause][\\x0203]Du brauchst das Digiei \nder Verlässlichkeit, um\nSubmarimon zu rufen.[pause][\\x0203]Frag in diesem Sektor\nnach mehr Infos.[pause][\\x0203]Das ist der einzige Hin[-4]\nweis, den ich dir geben\nkann. Viel Glück.[pause]"
+        Byakko-Abzei.[pause]
+      - "[\\x0207]Suzaku Leader[\\x0207]Der Westsektor ist jen-\nseits des Ozeans, also \nschwer zugänglich.[pause][\\x0203]Es gibt nur einen Weg\ndorthin. Du musst Sub-\nmarimon rufen.[pause][\\x0203]Du brauchst das Digiei \nder Verlässlichkeit, um\nSubmarimon zu rufen.[pause][\\x0203]Frag in diesem Sektor\nnach mehr Infos.[pause][\\x0203]Das ist der einzige Hin-\nweis, den ich dir geben\nkann. Viel Glück.[pause]"
   - strings:
       - ''
       - |-
@@ -80,7 +80,7 @@ files:
         Suzaku Leader besiegt.
         Das reicht fürs Erste.[pause][\x0203]Aber was ist mit Teddy?
         Wir müssen ihn finden![pause]
-      - "[\\x0207]Kail[\\x0207]Teddy geht's gut. Er \nist in Asuka City im \nAdministration[-4]Center.[pause][\\x0203]Da wollte er jeden[-4]\nfalls hin, als ich ihn\nzuletzt gesehen habe.[pause]"
+      - "[\\x0207]Kail[\\x0207]Teddy geht's gut. Er \nist in Asuka City im \nAdministration-Center.[pause][\\x0203]Da wollte er jeden-\nfalls hin, als ich ihn\nzuletzt gesehen habe.[pause]"
       - |-
         [\x0207][\x020902]3OK, dann sollten wir
         schnell nach Asuka
@@ -114,7 +114,7 @@ files:
       - |-
         [\x0207][\x020902]3Hey, danke![pause][\x0203]Was ist denn
         mit den Leuten
-        aus Byakko City?[pause][\x0203]Ihr Leader hat ge[-4]
+        aus Byakko City?[pause][\x0203]Ihr Leader hat ge-
         logen u. mich i. d.
         Keller geworfen.[pause]
       - "[\\x0207]Numemon[\\x0207]Der Leader und \nalle anderen sind\nBetrüger![pause]"
@@ -124,7 +124,7 @@ files:
         dann?[pause]
       - |-
         [\x0207]Numemon[\x0207]Das geht dich
-        nichts an![pause][\x0203]Um den echten Lea[-4]
+        nichts an![pause][\x0203]Um den echten Lea-
         der zu treffen, musst
         du in die Möbiuswüste.[pause]
       - "[\\x0207][\\x020902]3Hey hey, \nAugenblick! Was\ngeht hier vor?[pause]"
@@ -207,7 +207,7 @@ files:
         [\x0207]Zanbamon[\x0207]Oh, in Ordnung.
         Ich schenk dir das,
         also vergib mir![pause]
-      - "[\\x0207][\\x020902]3Was, ein rosti[-4]\nges Katana?! \nOh, na gut...[pause]"
+      - "[\\x0207][\\x020902]3Was, ein rosti-\nges Katana?! \nOh, na gut...[pause]"
       - |-
         [\x0207]Zanbamon[\x0207]Ich werde hier in
         Frieden leben...[pause][\x0203]Lass mich bitte
@@ -216,12 +216,12 @@ files:
       - ''
       - |-
         [\x0207][\x020902]3Hey, MagnaAngemon.
-        Tu mir einen Gefallen.[pause][\x0203]Kann ich die Patamon[-4]
+        Tu mir einen Gefallen.[pause][\x0203]Kann ich die Patamon-
         DDNA von dir haben?[pause]
       - |-
         [\x0207]MagnaAngemon[\x0207]Tschuldige, aber die
         kann ich nicht so
-        einfach hergeben.[pause][\x0203]Wenn du mich schla[-4]
+        einfach hergeben.[pause][\x0203]Wenn du mich schla-
         gen kannst, denke
         ich darüber nach.[pause]
   - strings:
@@ -232,7 +232,7 @@ files:
         Nimm sie mit.[pause]
       - |-
         [\x0207][\x020902]3Spitze! Ich hab
-        die Patamon[-4]
+        die Patamon-
         DDNA![pause][\x0203]Danke,
         MagnaAngemon![pause]
   - strings:
@@ -241,7 +241,7 @@ files:
         [\x0207][\x020902]3Hey Taomon.
         Tu mir einen
         Gefallen.[pause][\x0203]Gibst du mir die
-        Renamon[-4]DDNA aus
+        Renamon-DDNA aus
         deiner DDNA?[pause]
       - |-
         [\x0207]Taomon[\x0207]...Ja, aber
@@ -260,7 +260,7 @@ files:
         mit.[pause]
       - |-
         [\x0207][\x020902]3Cool! Ich hab
-        die Renamon[-4]
+        die Renamon-
         DDNA?[pause][\x0203]Danke Taomon![pause]
   - strings:
       - ''
@@ -268,7 +268,7 @@ files:
         [\x0207][\x020902]3Hey Kyukimon.
         Tu mir einen
         Gefallen.[pause][\x0203]Gibst du mir die
-        Kotemon[-4]DDNA aus
+        Kotemon-DDNA aus
         deiner DDNA?[pause]
       - |-
         [\x0207]Kyukimon[\x0207]...mal sehen.
@@ -289,7 +289,7 @@ files:
         Hier nimm sie![pause]
       - |-
         [\x0207][\x020902]3Yeah! Ich hab
-        die Kotemon[-4]
+        die Kotemon-
         DDNA![pause][\x0203]Danke,
         Kyukimon![pause]
   - strings:
@@ -319,7 +319,7 @@ files:
         du bist...[pause][\x0203]Ich habe deinen
         Mut getestet...[pause]
       - |-
-        [\x0207][\x020902]3Spitze! Ich ge[-4]
+        [\x0207][\x020902]3Spitze! Ich ge-
         winne gegen alle
         dieser Kategorie![pause]
       - |-
@@ -328,7 +328,7 @@ files:
         ich dir das![pause]
       - |-
         [\x0207][\x020902]3Yeah! Der
-        Sniper[-4]Anzug![pause]
+        Sniper-Anzug![pause]
       - |-
         [\x0207]BK Seraphimon[\x0207]Der Weg wird
         sich durch Mut
@@ -362,14 +362,14 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207][\x020902]3Er ist oben.[pause][\x0203]Bin so weit ge[-4]
+        [\x0207][\x020902]3Er ist oben.[pause][\x0203]Bin so weit ge-
         kommen. Ich krieg
         ihn schon noch![pause]
   - strings:
       - ''
       - |-
         [\x0207][\x020902]3Oh Mann, er ist
-        jetzt da drin...[pause][\x0203]Ich muss ihm ein[-4]
+        jetzt da drin...[pause][\x0203]Ich muss ihm ein-
         fach immer nur
         folgen![pause]
   - strings:
@@ -378,13 +378,13 @@ files:
         [\x0207][\x020902]3Hey! Da
         sind Nick
         und Keith.[pause]
-      - "[\\x0207]Nick[\\x0207]Also echt, kannst\ndu nicht mal dei[-4]\nnen Job machen?![pause][\\x0203]Seit wir hier sind,\nbist du nur am \nSpielen![pause]"
+      - "[\\x0207]Nick[\\x0207]Also echt, kannst\ndu nicht mal dei-\nnen Job machen?![pause][\\x0203]Seit wir hier sind,\nbist du nur am \nSpielen![pause]"
       - a
       - a
       - |-
         [\x0207]Keith[\x0207]Ha ha ha, stimmt!
         Aber der Plan ist
-        echt gut![pause][\x0203]Sie versuchen si[-4]
+        echt gut![pause][\x0203]Sie versuchen si-
         cher, starke Spieler
         zu kontaktieren![pause]
       - "[\\x0207]Nick[\\x0207]Denen kannst du\nnichts vormachen![pause][\\x0203]Ab jetzt gehen\nwir genau nach \nPlan vor![pause]"
@@ -422,12 +422,12 @@ files:
       - ''
       - "[\\x0207]Suzaku Leader[\\x0207]Oh nein. Hier\nkommst du \nnicht durch.[pause][\\x0203]Siehst du\ndas?[pause]"
       - "[\\x0207][\\x020902]3Wow, was \nist das?![pause]"
-      - "[\\x0207]Suzaku Leader[\\x0207]Ein Sicherheitsloch.\nDas ist wie ein \nLoch im Netz![pause][\\x0203]Das muss der \nGrund für das Erd[-4]\nbeben sein.[pause]"
+      - "[\\x0207]Suzaku Leader[\\x0207]Ein Sicherheitsloch.\nDas ist wie ein \nLoch im Netz![pause][\\x0203]Das muss der \nGrund für das Erd-\nbeben sein.[pause]"
       - |-
         [\x0207][\x020902]3Diese Stimme kommt
         aus der Gondel...[pause][\x0203]Verstehe! Es ist
         Bulbmon![pause]
-      - "[\\x0207]Suzaku Leader[\\x0207]Ich sagte doch, du \nkannst nicht durch![pause][\\x0203]Du weiβt nicht, was\npassiert. Das ist zu\ngefährlich![pause][\\x0203]Als Leader sorge ich \ndafür, dass sich nie[-4]\nmand verletzt.[pause]"
+      - "[\\x0207]Suzaku Leader[\\x0207]Ich sagte doch, du \nkannst nicht durch![pause][\\x0203]Du weiβt nicht, was\npassiert. Das ist zu\ngefährlich![pause][\\x0203]Als Leader sorge ich \ndafür, dass sich nie-\nmand verletzt.[pause]"
       - |-
         [\x0207][\x020902]3Komm schon. Ich muss
         aber unbedingt auf
@@ -439,17 +439,17 @@ files:
         [\x0207]Suzaku Lead.[\x0207]Wenn das
         so ist...[pause]
       - |-
-        [\x0207]Suzaku Leader[\x0207]Also gut...[pause][\x0203]Wenn es zu ge[-4]
+        [\x0207]Suzaku Leader[\x0207]Also gut...[pause][\x0203]Wenn es zu ge-
         fährlich ist, komm
         aber zurück, OK?[pause]
       - |-
-        [\x0207][\x020902]3Vier Leader[-4]
+        [\x0207][\x020902]3Vier Leader-
         Abzeichen?[pause][\x0203]Verstanden!
         Danke,
         Suzaku Leader![pause]
-      - "[\\x0207][\\x020902]3Wenn ich durch dieses\nLoch gehe, find ich \nviel. Amate.[-4]Server.[pause]"
+      - "[\\x0207][\\x020902]3Wenn ich durch dieses\nLoch gehe, find ich \nviel. Amate.-Server.[pause]"
       - "[\\x0207][\\x020902]3Hey Suzaku Leader,\nich hab eine Frage![pause][\\x0203]Weiβt du, wo die \nNotfallkammer im \nNordsektor ist?[pause]"
-      - "[\\x0207]Suzaku Leader[\\x0207]Meinst du die \nNotfall[-4]Matrix[-4]\nKammer?[pause][\\x0203]Sie befindet sich\nim Keller des\nKulon[-4]Bergwerks.[pause][\\x0203]Aber du brauchst\n4 Leader[-4]Abzeichen,\num sie zu benutzen.[pause]"
+      - "[\\x0207]Suzaku Leader[\\x0207]Meinst du die \nNotfall-Matrix-\nKammer?[pause][\\x0203]Sie befindet sich\nim Keller des\nKulon-Bergwerks.[pause][\\x0203]Aber du brauchst\n4 Leader-Abzeichen,\num sie zu benutzen.[pause]"
   - strings:
       - ''
       - |-
@@ -457,7 +457,7 @@ files:
         Zhu Que
         Chief besiegt![pause]
       - "[\\x0207][\\x020902]3Hm? Da ist \nschon wieder\netwas am Boden.[pause]"
-      - "[\\x0207][\\x020902]3Super! Ich habe den\nID[-4]Pass Rot![pause][\\x0203]Aber wo ist das\nDigiei des \nWissens?[pause][\\x0203]Ich muss es schnell\nfinden, um Jugger[-4]\nnaut zu stoppen![pause]"
+      - "[\\x0207][\\x020902]3Super! Ich habe den\nID-Pass Rot![pause][\\x0203]Aber wo ist das\nDigiei des \nWissens?[pause][\\x0203]Ich muss es schnell\nfinden, um Jugger-\nnaut zu stoppen![pause]"
   - strings:
       - ''
       - |-
@@ -468,14 +468,14 @@ files:
         [\x0207][\x020902]3Hä?!
         Das Loch geht
         immer weiter![pause][\x0203]Vielleicht geht
-        es zum Ama[-4]
-        terasu[-4]Server...[pause][\x0203]Ich finde es
+        es zum Ama-
+        terasu-Server...[pause][\x0203]Ich finde es
         heraus![pause]
   - strings:
       - ''
       - |-
         [\x0207][\x020902]3Wo mag das
-        wohl gewe[-4]
+        wohl gewe-
         sen sein?[pause]
       - |-
         [\x0207]Patamon[\x0207]Hm... Keine Ahnung.[pause][\x0203]Aber ich hört ein
@@ -484,7 +484,7 @@ files:
       - |-
         [\x0207][\x020902]3Komisches
         Geräusch?[pause]
-      - "[\\x0207]Patamon[\\x0207]Ja. Klang wie eine \nMaschine oder ein Di[-4]\ngimon! Echt seltsam![pause][\\x0203]Leader hat es gehört \nu. ist abgehauen.[pause][\\x0203]Vielleicht\nist sie in Richtung\nDschungel![pause]"
+      - "[\\x0207]Patamon[\\x0207]Ja. Klang wie eine \nMaschine oder ein Di-\ngimon! Echt seltsam![pause][\\x0203]Leader hat es gehört \nu. ist abgehauen.[pause][\\x0203]Vielleicht\nist sie in Richtung\nDschungel![pause]"
       - |-
         [\x0207][\x020902]3Aha.
         Vielen Dank![pause]
@@ -510,14 +510,14 @@ files:
         [\x0207][\x020902]3Zhu Que Chief,
         wo ist das Digiei
         des Wissens?[pause]
-      - "[\\x0207]Zhu Que Chief[\\x0207]Ha ha ha, du bist\nalso für den Asuka[-4]\nServer verantwortl.![pause][\\x0203]Aber spar dir die \nMühe. Es ist \nschon zu spät.[pause]"
+      - "[\\x0207]Zhu Que Chief[\\x0207]Ha ha ha, du bist\nalso für den Asuka-\nServer verantwortl.![pause][\\x0203]Aber spar dir die \nMühe. Es ist \nschon zu spät.[pause]"
       - |-
         [\x0207][\x020902]3Was?
         Was soll das
         heiβen?[pause]
       - |-
         [\x0207]Zhu Que Chief[\x0207]Ha ha ha, das
-        kann ich dir sagen![pause][\x0203]Wir haben die Unter[-4]
+        kann ich dir sagen![pause][\x0203]Wir haben die Unter-
         seebasis Magasta
         eingenommen![pause]
       - "[\\x0207]Zhu Que Chief[\\x0207]Und jetzt starten...[pause][\\x0203]wir das mobile Fort\nJuggernaut![pause][\\x0203]Die Welt wird sich \njetzt den A.o.A.\nbeugen müssen![pause]"
@@ -537,7 +537,7 @@ files:
         [\x0207][\x020902]3Toll! Ich habe
         das Digiei
         des Wissens![pause]
-      - "[\\x0207][\\x020902]3Jetzt kann ich Di[-4]\ngimon beschwören![pause][\\x0203]OK, zurück zum\nAsuka[-4]Server u. \nzum Nordsektor![pause]"
+      - "[\\x0207][\\x020902]3Jetzt kann ich Di-\ngimon beschwören![pause][\\x0203]OK, zurück zum\nAsuka-Server u. \nzum Nordsektor![pause]"
   - strings:
       - ''
       - |-
@@ -568,7 +568,7 @@ files:
         Ich schenk dir das,
         also vergib mir![pause]
       - |-
-        [\x0207][\x020902]3Was? Ein rosti[-4]
+        [\x0207][\x020902]3Was? Ein rosti-
         ges Katana?!
         Oh, na gut...[pause]
       - |-

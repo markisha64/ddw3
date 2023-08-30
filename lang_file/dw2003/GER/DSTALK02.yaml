@@ -8,22 +8,22 @@ strings:
     besiegen![pause]
   - |-
     [\x0207]Tamer Haruka[\x0207]Ha ha ha! Ich bin
-    die beste Tamerin![pause][\x0203]Ich trete jeder[-4]
+    die beste Tamerin![pause][\x0203]Ich trete jeder-
     zeit gegen die
     A.o.A an![pause]
   - |-
-    [\x0207]Tamer Haruka[\x0207]O[-4]ink, ink!
+    [\x0207]Tamer Haruka[\x0207]O-ink, ink!
     O, o, o, oink![pause]
   - |-
     [\x0207]Guilmon[\x0207]Die Möbiuswüste
-    ist ein gefähr[-4]
+    ist ein gefähr-
     licher Ort.[pause][\x0203]Wenn du dich
     verirrst, gehe
     nach Norden.[pause]
   - |-
     [\x0207]Tamer Haruka[\x0207]Du kommst nicht
     gegen mich an![pause][\x0203]Trainiere ein wenig
-    mehr, damit ich et[-4]
+    mehr, damit ich et-
     was Spaβ habe![pause]
   - |-
     [\x0207]Tamer Haruka[\x0207]Sei dankbar, dass
@@ -63,7 +63,7 @@ strings:
     Du bist mein Held![pause]
   - |-
     [\x0207]Tamer Poemy[\x0207]Die A.o.A
-    sind ver[-4]
+    sind ver-
     haftet...[pause][\x0203]Und das nur
     wegen dir,
     mein Held![pause]
@@ -115,7 +115,7 @@ strings:
     [\x0207]Tante Teresa[\x0207]Ich habe ein
     Muffin in das
     Loch geworfen.[pause][\x0203]Es ist nichts
-    passiert. Ver[-4]
+    passiert. Ver-
     schwendung![pause]
   - |-
     [\x0207]Leomon[\x0207]Das ist die
@@ -149,10 +149,10 @@ strings:
     [\x0207]Tamer Mitch[\x0207]Danke! Ich fühl'
     mich gut![pause]
   - |-
-    [\x0207]Tamer Mitch[\x0207]Ich kenne kei[-4]
+    [\x0207]Tamer Mitch[\x0207]Ich kenne kei-
     nen, der gut
     ist wie du![pause][\x0203]Du musst der
-    Server[-4]Champ
+    Server-Champ
     sein![pause]
   - |-
     [\x0207]Tamer Mitch[\x0207]Danke! Ich fühl'
@@ -160,14 +160,14 @@ strings:
   - |-
     [\x0207]Tamer Mitch[\x0207]Wow, du bist gut!
     Beeindruckend![pause][\x0203]Ich werde wohl
-    nie Server[-4]Champ![pause][\x0203]Ich gebe dir Aura,
+    nie Server-Champ![pause][\x0203]Ich gebe dir Aura,
     also verwende
     sie mit Bedacht![pause]
   - |-
-    [\x0207]Tamer Mitch[\x0207]Ich kenne kei[-4]
+    [\x0207]Tamer Mitch[\x0207]Ich kenne kei-
     nen, der gut
     ist wie du![pause][\x0203]Du musst der
-    Server[-4]Champ
+    Server-Champ
     sein![pause]
   - |-
     [\x0207]Tamer Natsumi[\x0207]Ich bin Natsumi,
@@ -297,13 +297,13 @@ strings:
     wer der Beste
     der Besten ist.[pause]
   - |-
-    [\x0207]Agumon[\x0207]Hinter der Möbius[-4]
+    [\x0207]Agumon[\x0207]Hinter der Möbius-
     wüste ist ein
     hoher Turm.[pause][\x0203]Da war ich noch
     nie, daher weiβ
     ich nicht viel.[pause]
   - |-
-    [\x0207]Agumon[\x0207]Hinter der Möbius[-4]
+    [\x0207]Agumon[\x0207]Hinter der Möbius-
     wüste ist ein
     hoher Turm.[pause][\x0203]Da war ich noch
     nie, daher weiβ
@@ -311,15 +311,15 @@ strings:
   - |-
     [\x0207]Tamer Mitch[\x0207]Nächstes Mal
     werde ich
-    Server[-4]Champ![pause]
+    Server-Champ![pause]
   - |-
     [\x0207]Tamer Mitch[\x0207]Du da, lass' uns
     mit Digimon kämpfen![pause][\x0203]Los jetzt![pause]
   - |-
     [\x0207]Tamer Mitch[\x0207]Ich muss mehr
-    über den Digimon[-4]
+    über den Digimon-
     Kampf erfahren![pause][\x0203]Jetzt kann ich
-    leider nicht käm[-4]
+    leider nicht käm-
     pfen. Später![pause]
   - |-
     [\x0207]Tamer Mitch[\x0207]Dazu gewinne ich
@@ -418,7 +418,7 @@ strings:
   - |-
     [\x0207]Tamer Nakano[\x0207]Ich sammle und
     analysiere Karten.[pause][\x0203]Ich schreibe das
-    ultimative Stra[-4]
+    ultimative Stra-
     tegiehandbuch![pause]
   - |-
     [\x0207]Tamer Nakano[\x0207]Ich sitze arg
@@ -434,13 +434,13 @@ strings:
     Daten zu kriegen.[pause]
   - |-
     [\x0207]Tamer Nakano[\x0207]Kämpfe gegen
-    ich damit ich Da[-4]
+    ich damit ich Da-
     ten sammeln kann![pause]
   - |-
     [\x0207]Tamer Nakano[\x0207]Hmm, ich sehe für
     Waffe X die
     Eigenschaften...[pause][\x0203]Ich sammle Daten zu
-    Digimon[-4]Kämpfen und
+    Digimon-Kämpfen und
     analysiere sie.[pause]
   - |-
     [\x0207]Tamer Nakano[\x0207]Deine Digimon
@@ -505,7 +505,7 @@ strings:
     [\x0207]SCHILD[\x0207]Nord: Asuka City
     Ost: Seiryu City[pause]
   - |-
-    [\x0207]Tante Teresa[\x0207]Huch! Ein ko[-4]
+    [\x0207]Tante Teresa[\x0207]Huch! Ein ko-
     misches Loch![pause][\x0203]Zu groβ für
     einen
     Maulwurf...[pause]
@@ -529,7 +529,7 @@ strings:
   - a
   - |-
     [\x0207]Tante Teresa[\x0207]Was, ein Weg ins
-    Administration[-4]
+    Administration-
     Center?[pause][\x0203]Keine Ahnung, durch
     dieses Loch wird es
     wohl nicht gehen.[pause]
@@ -638,7 +638,7 @@ strings:
     Waffe![pause]
   - |-
     [\x0207]MetalEtemon[\x0207]Wenn du Zerstörung
-    hast, bring Belial[-4]
+    hast, bring Belial-
     zahn![pause][\x0203]Dann verwandle ich ihn
     in eine stärkere Waffe![pause]
   - |-
@@ -646,7 +646,7 @@ strings:
     stärkere Waffe
     daraus![pause][\x0203]Gib mir Zerstörung
     und Belialzahn.[pause][\x0203]OK, hier bitte!
-    Kulon Digizoit[-4]
+    Kulon Digizoit-
     Beschichtung![pause][\x0203]Hier, bitte!
     Einmal Unbesiegbar![pause][\x0203]Jetzt wirst du ein
     toller Tamer![pause]
@@ -692,13 +692,13 @@ strings:
   - |-
     [\x0207]Operator Remy[\x0207]Jetzt bin ich etwas
     verwirrt...[pause][\x0203]Wie sind die A.o.A
-    in diesen Asuka[-4]
+    in diesen Asuka-
     Server gelangt?[pause]
   - |-
     [\x0207]Byakko Leader[\x0207]Ach, du bist's.
     Hast du Numemon
     gefunden?[pause][\x0203]Er ist bestimmt
-    in der Dum Dum[-4]
+    in der Dum Dum-
     Fabrik.[pause]
   - |-
     [\x0207]???[\x0207]Hmm?
@@ -716,7 +716,7 @@ strings:
   - a
   - |-
     [\x0207]Guardromon[\x0207]ZUGRIFF AUF
-    MATRIX[-4]DRIVE[pause]
+    MATRIX-DRIVE[pause]
   - a
   - a
   - |-
@@ -735,7 +735,7 @@ strings:
     Ich schaffe es![pause]
   - |-
     [\x0207]Tamer Shingo[\x0207]Es steht fest!
-    Ich werde Welt[-4]
+    Ich werde Welt-
     meister![pause]
   - |-
     [\x0207]Tamer Shingo[\x0207]Oink oinnk,
@@ -793,7 +793,7 @@ strings:
     oioioioink![pause]
   - a
   - |-
-    [\x0207]Tamer Makoto[\x0207]Ich bin besorgt.[pause][\x0203]Kimmy ist viel[-4]
+    [\x0207]Tamer Makoto[\x0207]Ich bin besorgt.[pause][\x0203]Kimmy ist viel-
     leicht in einen
     anderen verliebt.[pause]
   - |-
@@ -809,7 +809,7 @@ strings:
     mir kämpfen?[pause]
   - |-
     [\x0207]Tamer Makoto[\x0207]...lass' uns ein
-    anderes Mal kämpfen[pause][\x0203]Wenn ich jetzt ver[-4]
+    anderes Mal kämpfen[pause][\x0203]Wenn ich jetzt ver-
     liere, hasst Kimmy
     mich...[pause]
   - |-
@@ -859,7 +859,7 @@ strings:
   - |-
     [\x0207]Tamer Brown[\x0207]Als junger Tamer
     war ich auch so
-    flott wie du.[pause][\x0203]Da werden Er[-4]
+    flott wie du.[pause][\x0203]Da werden Er-
     innerungen
     wach...[pause]
   - |-
@@ -871,12 +871,12 @@ strings:
   - |-
     [\x0207]Tamer Brown[\x0207]Ha ha ha. Ich
     bin immer
-    noch gut, oder?[pause][\x0203]Ich kämpfe jeder[-4]
+    noch gut, oder?[pause][\x0203]Ich kämpfe jeder-
     zeit mit euch.[pause]
   - |-
     [\x0207]Tamer Brown[\x0207]Ha ha ha. Die
     Zeiten haben
-    sich geändert.[pause][\x0203]Da werden Er[-4]
+    sich geändert.[pause][\x0203]Da werden Er-
     innerungen
     wach...[pause]
   - |-
@@ -884,10 +884,10 @@ strings:
     Du bist très bien,
     bis hier zu kommen.[pause]
   - |-
-    [\x0207]Tamer Pierre[\x0207]Comment allez[-4]vous
+    [\x0207]Tamer Pierre[\x0207]Comment allez-vous
     monsieur? Alle A.o.A
     wurden gefangen.[pause][\x0203]Jetzt gibt es Spaβ
-    mit Digimon[-4]Online.[pause]
+    mit Digimon-Online.[pause]
   - |-
     [\x0207]Tamer Pierre[\x0207]Oink, oiooionk!
     Oink oink![pause]
@@ -899,7 +899,7 @@ strings:
     Spaβ
     haben.[pause]
   - |-
-    [\x0207]Tamer Pierre[\x0207]Karten[-4]Kampf ist
+    [\x0207]Tamer Pierre[\x0207]Karten-Kampf ist
     für Gentlemen.[pause][\x0203]Duell, s'il vous
     plait.[pause]
   - |-
@@ -933,12 +933,12 @@ strings:
     nächste Mal?
     Au revoir.[pause]
   - |-
-    [\x0207]Tamer Mitaka[\x0207]Ta[-4]da! Tamer
+    [\x0207]Tamer Mitaka[\x0207]Ta-da! Tamer
     Mitaka, der
-    Retter, naht![pause][\x0203]Das Böse be[-4]
+    Retter, naht![pause][\x0203]Das Böse be-
     siegt mich nicht[pause]
   - |-
-    [\x0207]Tamer Mitaka[\x0207]Ta[-4]da! Tamer
+    [\x0207]Tamer Mitaka[\x0207]Ta-da! Tamer
     Mitaka, der
     Retter, naht![pause][\x0203]Die bösen A.o.A
     sind kein Gegner
@@ -948,15 +948,15 @@ strings:
     Oink, oink![pause]
   - |-
     [\x0207]Tamer Mitaka[\x0207]...nun?
-    Wie war es?[pause][\x0203]Sind Super[-4]
+    Wie war es?[pause][\x0203]Sind Super-
     helden nicht
     toll?[pause]
   - |-
     [\x0207]Tamer Mitaka[\x0207]Ich geb' dir
-    meine Straf[-4]
+    meine Straf-
     attacke![pause][\x0203]...und hier![pause]
   - |-
-    [\x0207]Tamer Mitaka[\x0207]Ta[-4]da! Tamer
+    [\x0207]Tamer Mitaka[\x0207]Ta-da! Tamer
     Mitaka, der
     Retter, naht![pause][\x0203]Du bist nur
     Nr. 2 in
@@ -971,7 +971,7 @@ strings:
     Spiegel
     geübt![pause]
   - |-
-    [\x0207]Tamer Mitaka[\x0207]Ich bin Karten[-4]
+    [\x0207]Tamer Mitaka[\x0207]Ich bin Karten-
     master Nr. 1![pause][\x0203]Halte dich bereit,
     böser Tamer![pause]
   - |-
@@ -983,7 +983,7 @@ strings:
     [\x0207]Tamer Mitaka[\x0207]Sorry, das ist
     alles nur
     geschwindelt.[pause][\x0203]Ich wollte auch
-    einmal Super[-4]
+    einmal Super-
     held sein. Ha ha![pause]
   - |-
     [\x0207]Tamer Mitaka[\x0207]Ha ha! Das Gute
@@ -1000,7 +1000,7 @@ strings:
     [\x0207]Tamer Mitaka[\x0207]Sorry, das ist
     alles nur
     geschwindelt.[pause][\x0203]Ich wollte auch
-    einmal Super[-4]
+    einmal Super-
     held sein. Ha ha![pause]
   - |-
     [\x0207]Agumon[\x0207]Was, du bist
@@ -1029,7 +1029,7 @@ strings:
     so gemein![pause][\x0203]Er hat alles
     aufgegessen![pause]
   - |-
-    [\x0207]Agumon[\x0207]Guilmon hat verspro[-4]
+    [\x0207]Agumon[\x0207]Guilmon hat verspro-
     chen, dass wir das
     Essen teilen![pause][\x0203]Jetzt kämpfe ich nicht
     mehr![pause]
@@ -1051,9 +1051,9 @@ strings:
     verliert man
     sich leicht.[pause]
   - |-
-    [\x0207]Guilmon[\x0207]Die Dum Dum[-4]
+    [\x0207]Guilmon[\x0207]Die Dum Dum-
     Fabrik ist hinter
-    dem Bullet[-4]Tal.[pause]
+    dem Bullet-Tal.[pause]
   - |-
     [\x0207]Guilmon[\x0207]Igitt! Sand
     kann man wohl
@@ -1078,7 +1078,7 @@ strings:
     Angst![pause]
   - '43'
   - |-
-    [\x0207]MetalEtemon[\x0207]Ich bin unbe[-4]
+    [\x0207]MetalEtemon[\x0207]Ich bin unbe-
     siegbar...[pause][\x0203]Ein guter Tamer
     sollte wenigstens
     Ewig haben![pause]
@@ -1099,7 +1099,7 @@ strings:
     [\x0207]MetalEtemon[\x0207]OK, ich mache
     dir Ewig![pause][\x0203]Gib' mir Makellos
     und Millennium![pause][\x0203]Hier, bitte!
-    Kulon Digizoit[-4]
+    Kulon Digizoit-
     Beschichtung![pause][\x0203]Hier! Einmal
     Ewig![pause][\x0203]Jetzt bist du
     ein cooler Tamer![pause]
@@ -1117,16 +1117,16 @@ strings:
     Beliebtheit!
     Das ist gut![pause]
   - |-
-    [\x0207]MetalEtemon[\x0207]Wenn du Beliebt[-4]
+    [\x0207]MetalEtemon[\x0207]Wenn du Beliebt-
     heit hast, bring
-    Raijin[-4]Faust![pause][\x0203]Dann mache ich
+    Raijin-Faust![pause][\x0203]Dann mache ich
     daraus Super Nova![pause]
   - |-
     [\x0207]MetalEtemon[\x0207]OK, ich mach dir
     Super Nova![pause][\x0203]Gib mir
     Beliebtheit
-    und Raijin[-4]Faust![pause][\x0203]Hier, bitte!
-    Kulon Digizoit[-4]
+    und Raijin-Faust![pause][\x0203]Hier, bitte!
+    Kulon Digizoit-
     Beschichtung.[pause][\x0203]Hier, bitte!
     Einmal Super Nova![pause][\x0203]Jetzt wirst du ein
     groβartiger Tamer![pause]
@@ -1139,7 +1139,7 @@ strings:
     [\x0207]MetalEtemon[\x0207]Hey, ist
     Bestrafung
     nicht toll?[pause][\x0203]Jetzt bist du
-    ein Super[-4]Tamer[pause]
+    ein Super-Tamer[pause]
   - |-
     [\x0207]MetalEtemon[\x0207]Hey, das ist
     Urteil.
@@ -1147,16 +1147,16 @@ strings:
   - |-
     [\x0207]MetalEtemon[\x0207]Wenn du Urteil
     hast, bring
-    Suijin[-4]Kanone![pause][\x0203]Dann mache ich
+    Suijin-Kanone![pause][\x0203]Dann mache ich
     daraus Bestrafung![pause]
   - |-
     [\x0207]MetalEtemon[\x0207]Ok, ich mache
     dir Bestrafung![pause][\x0203]Gib mir Urteil
-    und Suijin[-4]Kanone![pause][\x0203]Hier, bitte!
-    Kulon Digizoit[-4]
+    und Suijin-Kanone![pause][\x0203]Hier, bitte!
+    Kulon Digizoit-
     Beschichtung.[pause][\x0203]Hier, bitte!
     Einmal Bestrafung![pause][\x0203]Jetzt wirst du ein
-    Super[-4]Tamer![pause]
+    Super-Tamer![pause]
   - |-
     [\x0207]MetalEtemon[\x0207]Bestrafung ist
     schon OK...[pause][\x0203]Wenn du Server Champ
@@ -1173,14 +1173,14 @@ strings:
     Beste![pause]
   - |-
     [\x0207]MetalEtemon[\x0207]Wenn du Masamune
-    hast, bring Fuujin[-4]
+    hast, bring Fuujin-
     klinge![pause][\x0203]Dann mache ich
     daraus Muramasa![pause]
   - |-
     [\x0207]MetalEtemon[\x0207]Ok, ich mache
     Muramasa für dich![pause][\x0203]Gib mir Masamune
     und Fuujinklinge![pause][\x0203]Hier, bitte!
-    Kulon Digizoit[-4]
+    Kulon Digizoit-
     Beschichtung.[pause][\x0203]Hier, bitte!
     Einmal Muramasa.[pause][\x0203]Jetzt bist du der
     stärkste Tamer![pause]
@@ -1214,7 +1214,7 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Leseratte Ruri[\x0207]Das ist ein gefähr[-4]
+    [\x0207]Leseratte Ruri[\x0207]Das ist ein gefähr-
     liches Verlies mit
     vielen Fallen.[pause][\x0203]Es hat drei Ebenen:
     Eis, Feuer und
@@ -1233,10 +1233,10 @@ strings:
     Oink...[pause]
   - '43'
   - |-
-    [\x0207]Renamon[\x0207]Dies ist das Eis[-4]
+    [\x0207]Renamon[\x0207]Dies ist das Eis-
     verlies. Es ist
     eine Welt aus Eis.[pause][\x0203]Danach wird es noch
-    ungemütlicher![pause][\x0203]Aber wenn du weiter[-4]
+    ungemütlicher![pause][\x0203]Aber wenn du weiter-
     gehen willst, ich halte
     dich nicht auf.[pause]
   - |-
@@ -1278,7 +1278,7 @@ strings:
     [\x0207]Feuerritter[\x0207]Du bist Wahnsinn!
     Du hast die
     A.o.A besiegt![pause][\x0203]Gegen dich kann
-    ich nicht ge[-4]
+    ich nicht ge-
     winnen![pause]
   - |-
     [\x0207]Feuerritter[\x0207]Ooink,
@@ -1291,7 +1291,7 @@ strings:
     vergessen![pause]
   - |-
     [\x0207]Dunkler Ritter[\x0207]Hey, Kumpel!
-    Krass![pause][\x0203]R[-4]E[-4]S[-4]P[-4]E[-4]K[-4]T![pause]
+    Krass![pause][\x0203]R-E-S-P-E-K-T![pause]
   - |-
     [\x0207]Dunkler Ritter[\x0207]Oooink,
     oin, oinkk![pause]
@@ -1302,7 +1302,7 @@ strings:
     führt in die echte
     Welt,[pause][\x0203]das Tor links zum
     Eisverlies.[pause][\x0203]Du musst das OK vom
-    Admin[-4]Center haben.[pause][\x0203]Und die vier Leader[-4]
+    Admin-Center haben.[pause][\x0203]Und die vier Leader-
     Abzeichen, um in die
     echte Welt zu kommen![pause]
   - |-
@@ -1361,7 +1361,7 @@ strings:
   - |-
     [\x0207]Rasende Cecilia[\x0207]Kazuya ist so ein
     Angsthase![pause][\x0203]Warum kann er nicht
-    alleine Digimon[-4]
+    alleine Digimon-
     Online spielen?[pause]
   - |-
     [\x0207]Rasende Cecilia[\x0207]Der Tamer, der die
@@ -1418,7 +1418,7 @@ strings:
     legendären Halle.[pause]
   - |-
     [\x0207]Kumamon[\x0207]Mein Tamer ist
-    auch ein selt[-4]
+    auch ein selt-
     sames Digimon.[pause][\x0203]Wer hat das
     gemacht?[pause]
   - '43'
@@ -1513,7 +1513,7 @@ strings:
     MagnaAngemon![pause]
   - |-
     [\x0207]DRI Kazuki[\x0207]Ich habe genug
-    mit meiner For[-4]
+    mit meiner For-
     schung zu tun.[pause][\x0203]Ich rede später
     mit dir.[pause]
   - |-
@@ -1547,13 +1547,13 @@ strings:
   - a
   - a
   - |-
-    [\x0207]DRI Kazuki[\x0207]Hoffentlich digi[-4]
+    [\x0207]DRI Kazuki[\x0207]Hoffentlich digi-
     tiert Patamon zu
     MagnaAngemon.[pause][\x0203]Viel Glück![pause]
   - a
   - |-
     [\x0207]Tamer Nakano[\x0207]Hmm, also...
-    Mit dieser Combo...[pause][\x0203]Ich sammle Karten[-4]
+    Mit dieser Combo...[pause][\x0203]Ich sammle Karten-
     daten und analysiere
     sie.[pause]
   - |-
@@ -1563,7 +1563,7 @@ strings:
     Taomon?[pause]
   - |-
     [\x0207]DRI Michael[\x0207]Ich rede nicht
-    mit Rookie[-4]
+    mit Rookie-
     Tamern.[pause][\x0203]Wenn du besser
     bist, reden wir
     miteinander.[pause]
@@ -1626,7 +1626,7 @@ strings:
     dir eine Angel...[pause]
   - |-
     [\x0207]Tai Kong Wong[\x0207]Und? Hast du etwas
-    gefangen?[pause][\x0203]Mach' dir nicht zu[-4]
+    gefangen?[pause][\x0203]Mach' dir nicht zu-
     viel draus.
     Entspann' dich.[pause]
   - |-
@@ -1642,7 +1642,7 @@ strings:
     [\x0207]Tamer Poemy[\x0207]...Ich weiβ es!
     Du bist mein Held![pause]
   - |-
-    [\x0207]Tamer Shingo[\x0207]Jeder will Welt[-4]
+    [\x0207]Tamer Shingo[\x0207]Jeder will Welt-
     meister werden. Ich
     schaffe es![pause]
   - |-
@@ -1661,9 +1661,9 @@ strings:
     Du bist très bien,
     bis hier zu kommen.[pause]
   - |-
-    [\x0207]Tamer Mitaka[\x0207]Ta[-4]da! Tamer
+    [\x0207]Tamer Mitaka[\x0207]Ta-da! Tamer
     Mitaka, der
-    Retter, naht![pause][\x0203]Das Böse be[-4]
+    Retter, naht![pause][\x0203]Das Böse be-
     siegt mich nicht[pause]
   - |-
     [\x0207]Fuβballer Hide[\x0207]Hmmm... Im
@@ -1675,7 +1675,7 @@ strings:
     mich nicht erinnern![pause]
   - |-
     [\x0207]Fuβballer Hide[\x0207]Hey, das ist eine
-    Gabumon[-4]Karte![pause][\x0203]Du hast sie gefun[-4]
+    Gabumon-Karte![pause][\x0203]Du hast sie gefun-
     den! Danke![pause][\x0203]Ok, jetzt erzähle
     ich dir von den
     Baumstiefeln.[pause][\x0203]Die kriegst du,
@@ -1744,7 +1744,7 @@ strings:
   - a
   - |-
     [\x0207]Agumon[\x0207]Geh' nicht weiter.
-    Das ist ein ge[-4]
+    Das ist ein ge-
     fährliches Verlies![pause][\x0203]Der Boss da ist viel
     stärker als andere
     Bosse![pause]
@@ -1759,11 +1759,11 @@ strings:
   - '43'
   - |-
     [\x0207]Monmon[\x0207]Hol' mir Kulon
-    Digizoit[-4]Metall![pause][\x0203]Wenn ich das Metall
+    Digizoit-Metall![pause][\x0203]Wenn ich das Metall
     habe, mache ich
     eine stärkere Waffe![pause]
   - |-
-    [\x0207]Monmon[\x0207]Wo ist der Ta[-4]
+    [\x0207]Monmon[\x0207]Wo ist der Ta-
     mer, der A.o.A
     besiegt hat?[pause][\x0203]Er ist stark!
     Monmon mag
@@ -1782,7 +1782,7 @@ strings:
     Zeughaus.[pause]
   - |-
     [\x0207]MetalEtemon[\x0207]Hey, ich bin ein
-    genialer Waffen[-4]
+    genialer Waffen-
     schmied![pause][\x0203]Hier Typen habt
     keinen Geschmack.[pause][\x0203]Kommt wieder, wenn
     ihr besser gerüstet
@@ -1843,7 +1843,7 @@ strings:
   - |-
     [\x0207]Lisa[\x0207]Suche Keith und
     Nick.[pause][\x0203]Dann finden wir
-    den Personal[-4]
+    den Personal-
     pass sofort.[pause][\x0203]Sie waren zuletzt
     im Südsektor⋯[pause]
   - |-
@@ -1861,7 +1861,7 @@ strings:
   - |-
     [\x0207]Keith[\x0207]Hey, Kid, bemüh'
     dich nicht zu sehr[pause][\x0203]Wir besiegen die
-    A.o.A! Wir ver[-4]
+    A.o.A! Wir ver-
     suchen es...[pause]
   - |-
     [\x0207]Nick[\x0207]Lisa ist ganz
@@ -1876,7 +1876,7 @@ strings:
     nach Asuka City.[pause][\x0203]Viel Glück, ich
     zähle auf dich.[pause]
   - |-
-    [\x0207]Byakko Lead.[\x0207]Wir versteck[-4]
+    [\x0207]Byakko Lead.[\x0207]Wir versteck-
     en uns hier
     eine Weile...[pause][\x0203]Sei du auch
     vorsichtig![pause]
@@ -1887,26 +1887,26 @@ strings:
     trainieren, also
     los![pause]
   - |-
-    [\x0207]Kammer[-4]Clark[\x0207]Dies ist die Notfall[-4]
-    Matrix[-4]Kammer.[pause][\x0203]Wenn du das System
+    [\x0207]Kammer-Clark[\x0207]Dies ist die Notfall-
+    Matrix-Kammer.[pause][\x0203]Wenn du das System
     verwenden möchtest,
     wende dich an mich.[pause]
   - |-
-    [\x0207]Kammer[-4]Clark[\x0207]Du möchtest das
-    Kammer[-4]System
+    [\x0207]Kammer-Clark[\x0207]Du möchtest das
+    Kammer-System
     verwenden?[pause][\x0203]Zeige mir die 4
-    Leader[-4]Abzeichen.[pause][\x0203]Ach? Du hast noch
-    nicht alle Leader[-4]
+    Leader-Abzeichen.[pause][\x0203]Ach? Du hast noch
+    nicht alle Leader-
     Abzeichen?[pause][\x0203]Ohne funktioniert
     das System nicht.[pause]
   - |-
-    [\x0207]Kammer[-4]Clark[\x0207]Du möchtest das
-    Kammer[-4]System
+    [\x0207]Kammer-Clark[\x0207]Du möchtest das
+    Kammer-System
     verwenden?[pause][\x0203]Zeige mir die 4
-    Leader[-4]Abzeichen.[pause]
+    Leader-Abzeichen.[pause]
   - |-
-    [\x0207]Kammer[-4]Clark[\x0207]Aufgrund fehlender
-    Energie...[pause][\x0203]Kann die Matrix[-4]
+    [\x0207]Kammer-Clark[\x0207]Aufgrund fehlender
+    Energie...[pause][\x0203]Kann die Matrix-
     Kammer nicht
     verwendet werden.[pause][\x0203]Ich bitte um
     Verständnis.[pause]
@@ -1914,7 +1914,7 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Kammer[-4]Clark[\x0207]Oi,
+    [\x0207]Kammer-Clark[\x0207]Oi,
     ooink,
     oooionik![pause]
   - a
@@ -1968,24 +1968,24 @@ strings:
   - |-
     [\x0207]DRI Ken[\x0207]Hallo, ich bin
     DRI Ken.[pause][\x0203]Hab' den schw.
-    Gürtel ![pause][\x0203]Ich bin Sport[-4]
+    Gürtel ![pause][\x0203]Ich bin Sport-
     forscher![pause]
   - |-
     [\x0207]DRI Ken[\x0207]Ich bin erst seit
     zwei Jahren
     Forscher.[pause]
   - |-
-    [\x0207]DRI Ken[\x0207]Ich erforsche ein neu[-4]
+    [\x0207]DRI Ken[\x0207]Ich erforsche ein neu-
     es Digimon mit Namen
-    Kyukimon![pause][\x0203]Ich muss Kotemon[-4]
+    Kyukimon![pause][\x0203]Ich muss Kotemon-
     DDNA von Kyukimon
     bekommen.[pause][\x0203]Dann weiβ ich, wie
     Kotemon zu Kyukimon
     digitiert.[pause]
   - |-
     [\x0207]DRI Ken[\x0207]Was, du hast mir
-    Kotemon[-4]DDNA
-    gebracht?[pause][\x0203]Danke! Jetzt be[-4]
+    Kotemon-DDNA
+    gebracht?[pause][\x0203]Danke! Jetzt be-
     kommst du Kotemon
     als Partner.[pause][\x0203]Geh zu Piximon oder
     Dr. Kadomatsu im
@@ -2019,14 +2019,14 @@ strings:
     quatschen.[pause]
   - |-
     [\x0207]DRI Yuji[\x0207]Hey, ist GrapLeomon
-    nicht toll?![pause][\x0203]Ich muss Kumamon[-4]
+    nicht toll?![pause][\x0203]Ich muss Kumamon-
     DDNA von GrapLeomon
     bekommen.[pause][\x0203]Dann weiβ ich, wie
     Kumamon zu GrapLeomon
     digitiert.[pause]
   - |-
     [\x0207]DRI Yuji[\x0207]Was?! Du hast
-    Kumamon[-4]DDNA von
+    Kumamon-DDNA von
     GrapLeomon?[pause][\x0203]Klasse! Danke!
     Ich tue alles
     für dich...[pause][\x0203]Heh, ich weiβ was!
@@ -2050,7 +2050,7 @@ strings:
     hätte es auch gern.[pause]
   - |-
     [\x0207]DRI Yuji[\x0207]Ist GrapLeomon nicht
-    der Beste?[pause][\x0203]Er ist das bestaus[-4]
+    der Beste?[pause][\x0203]Er ist das bestaus-
     sehende Digimon![pause]
   - |-
     [\x0207]DRI Yang[\x0207]Aua, heute ist nicht
@@ -2060,14 +2060,14 @@ strings:
   - "[\\x0207]DRI Yang[\\x0207]...es ist schon\nOK, mach' dir keine \nSorgen um mich.[pause][\\x0203]Ich verstauche mir\nständig die Knöchel[pause]"
   - |-
     [\x0207]DRI Yang[\x0207]Jetzt kann ich
-    Armormon nicht suchen.[pause][\x0203]Kannst du Monmon[-4]
+    Armormon nicht suchen.[pause][\x0203]Kannst du Monmon-
     DDNA von ihm für
-    mich suchen?[pause][\x0203]Komm schon! Du be[-4]
+    mich suchen?[pause][\x0203]Komm schon! Du be-
     kommst Monmon als
     Partner.[pause]
   - |-
     [\x0207]DRI Yang[\x0207]Danke! Du hast
-    sie bekommen![pause][\x0203]Wie versprochen be[-4]
+    sie bekommen![pause][\x0203]Wie versprochen be-
     kommst du Monmon als
     Partner.[pause][\x0203]Geh zu Piximon oder
     Dr. Kadomatsu im

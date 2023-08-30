@@ -53,7 +53,7 @@ strings:
   - a
   - a
   - a
-  - Verl. m. Schw.[-4] u. Feuerangriff.
+  - Verl. m. Schw.- u. Feuerangriff.
   - Mit Schleuder auf Schwachpkt.
   - Schlägt Feind in die Brust.
   - Schieβt kl. Feuerkugeln.
@@ -69,12 +69,12 @@ strings:
   - Mit elektr. Klinge verletzen.
   - Schieβt Feuerkugeln aus 9 Schwänz
   - Schlägt Feind mit Windangriffen.
-  - Entleert Feind[-4]HP mit der Klaue
+  - Entleert Feind-HP mit der Klaue
   - Ersticht Feind mit Stachel.
   - Gottespfeil mit Donnerangriff.
   - Verletzt mehrmals mit Wind.
   - Schieβt alle Feuerwaffen.
-  - Mehrere Rundherum[-4]Tritte.
+  - Mehrere Rundherum-Tritte.
   - Wirft organische Geschosse.
   - Wirft organische Geschosse.
   - Schnellfeuer, 2 Energiewellen.
@@ -131,11 +131,11 @@ strings:
   - Angr. u. schn. Items stehlen.
   - a
   - a
-  - Gr. Schaden vs. Insekt[-4]Digimon.
-  - Gr. Schaden vs. Vogel[-4]Digimon.
-  - Gr. Schaden vs. Meeres[-4]Digimon.
-  - Gr. Schaden vs. Dino[-4]Digimon.
-  - Gr. Schaden vs. Drachen[-4]Digimon
+  - Gr. Schaden vs. Insekt-Digimon.
+  - Gr. Schaden vs. Vogel-Digimon.
+  - Gr. Schaden vs. Meeres-Digimon.
+  - Gr. Schaden vs. Dino-Digimon.
+  - Gr. Schaden vs. Drachen-Digimon
   - Gr. Schaden vs. bösen Digimon
   - Schieβt kl. Feuerkugeln.
   - Schieβt Feuerstrahlen.
@@ -187,8 +187,8 @@ strings:
   - Heilt einige deiner HP.
   - Heilt viele deiner HP.
   - Heilt fast alle HP.
-  - Heilt viele Verbündeten[-4]HP.
-  - Heilt fast alle Verbündet.[-4]HP.
+  - Heilt viele Verbündeten-HP.
+  - Heilt fast alle Verbündet.-HP.
   - Heilt allmähl. deine HP.
   - Heilt eigene Vergiftung.
   - Heilt Vergift. bei Verbündeten.

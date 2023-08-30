@@ -223,7 +223,7 @@ strings:
   - |-
     [\x0207]Tamer Alexei[\x0207]Heh heh heh. Alright
     boy, prepare to
-    witness the power of[pause][\x0203]me [-4] sober![pause]
+    witness the power of[pause][\x0203]me - sober![pause]
   - |-
     [\x0207]Tamer Alexei[\x0207]Ha ha ha! Have you
     had enough?[pause][\x0203]No one's going to call
@@ -256,11 +256,11 @@ strings:
     just wanted to play
     by myself![pause]
   - |-
-    [\x0207]Tamer Akiba[\x0207]La la[-4]la la la[-4][-4]la!
+    [\x0207]Tamer Akiba[\x0207]La la-la la la--la!
     I'm the merry tamer
     Akiba![pause][\x0203]I've come back to
     Digimon Online.
-    La la[-4]la la la[-4][-4]la![pause]
+    La la-la la la--la![pause]
   - |-
     [\x0207]Tamer Akiba[\x0207]It would be
     wonderful if I
@@ -270,7 +270,7 @@ strings:
   - |-
     [\x0207]Tamer Akiba[\x0207]Yes I am amazing.
     I felled you, I did.
-    La la[-4]la la la[-4][-4]la![pause][\x0203]This is why I can
+    La la-la la la--la![pause][\x0203]This is why I can
     never quit Digimon
     Online.[pause]
   - |-
@@ -409,7 +409,7 @@ strings:
     What is up! You've come
     far, but I'm afraid your[pause][\x0203]luck ends here! Let me
     explain it to you. You
-    see, the Card King[-4]that[pause][\x0203]would be me[-4]is perfect!
+    see, the Card King-that[pause][\x0203]would be me-is perfect!
     I'm simply too cool to
     lose, capiche?[pause]
   - |-
@@ -508,7 +508,7 @@ strings:
   - |-
     [\x0207]Tamer Poemy[\x0207]What was that?
     Where's this Hero?
-    What a let[-4]down![pause][\x0203]Why'd you have to
+    What a let-down![pause][\x0203]Why'd you have to
     ruin the mood like
     that? I hate you![pause]
   - |-
@@ -596,7 +596,7 @@ strings:
     Circuit Board has
     been improved![pause]
   - |-
-    [\x0207]Soccer Kid Hide[\x0207]He[-4]heh!
+    [\x0207]Soccer Kid Hide[\x0207]He-heh!
     I beat Cardmon
     again![pause][\x0203]Tree kicking is
     such a blast![pause]
@@ -677,7 +677,7 @@ strings:
     If a Digimon wishes[pause][\x0203]to change his name,
     he must do so here![pause]
   - |-
-    [\x0207]Leomon[\x0207]This is Card Island [-4]
+    [\x0207]Leomon[\x0207]This is Card Island -
     a utopia for
     cardsters! It's[pause][\x0203]against the rules
     for people without
@@ -754,7 +754,7 @@ strings:
     Cannon![pause][\x0203]I'll fuse the two
     weapons to create
     a more powerful one![pause]
-  - "[\\x0207]Shurimon[\\x0207]You got both Rusty \nRifle and Cluster \nCannon![pause][\\x0203]Will you give them\nto me?[pause][\\x0203]Shurimon[-4]way\nWeapon Evolution!\n...ayeeeeeya![pause][\\x0203]...good! It is now\nCluster Cannon.[pause][\\x0203]I will give this to\nyou, so use it\ncarefully![pause]"
+  - "[\\x0207]Shurimon[\\x0207]You got both Rusty \nRifle and Cluster \nCannon![pause][\\x0203]Will you give them\nto me?[pause][\\x0203]Shurimon-way\nWeapon Evolution!\n...ayeeeeeya![pause][\\x0203]...good! It is now\nCluster Cannon.[pause][\\x0203]I will give this to\nyou, so use it\ncarefully![pause]"
   - |-
     [\x0207]Nohemon[\x0207]Isn't Zodiac great?
     Use it well![pause]
@@ -771,7 +771,7 @@ strings:
     Rusty Glove
     and Kaiser Fist![pause][\x0203]OK, give them to
     me. Don't worry, I
-    won't take them.[pause][\x0203]OK, here we go.[pause][\x0203]...look at that [-4]
+    won't take them.[pause][\x0203]OK, here we go.[pause][\x0203]...look at that -
     you got Zodiac![pause][\x0203]OK, I'll give this
     back to you.
     Use this well![pause]
@@ -846,7 +846,7 @@ strings:
     Justify![pause][\x0203]Alright then, give
     them to me for a
     bit..[pause][\x0203]Hmm.. Haa!!
-    Hi[-4]ya..!![pause][\x0203]Now, check this
+    Hi-ya..!![pause][\x0203]Now, check this
     out! This is
     Judgement![pause][\x0203]You're so lucky to
     own this!
@@ -934,7 +934,7 @@ strings:
     Suijin Cannon![pause][\x0203]Let me borrow that
     along with
     Judgement.[pause][\x0203]..Hm.. Haaaaa!
-    Hi[-4]yaaaa! Ya!![pause][\x0203]Now, observe
+    Hi-yaaaa! Ya!![pause][\x0203]Now, observe
     closely. This is
     Punishment![pause][\x0203]This is without a
     doubt the best in the
@@ -1161,25 +1161,25 @@ strings:
     here I come![pause]
   - "[\\x0207]GrapLeomon[\\x0207]Ha ha ha ha![pause][\\x0203]You're even better a\ntamer than I imagined! I\ncan trust you with[pause][\\x0203]this. It's Kumamon \nDDNA taken from my\nown. Take it. If you [pause][\\x0203]bring this to Piximon or\nDr. Osomatsu, you can\nmake Kumamon your[pause][\\x0203]partner at Digimon\nExchange! If\nanyone can raise a[pause][\\x0203]proper Kumamon, you\ncan. I'm counting on\nyou![pause]"
   - |-
-    [\x0207]B[-4]Sent Gargoylemon[\x0207]Boing! Boing!
-    I'm a B[-4]Sent
+    [\x0207]B-Sent Gargoylemon[\x0207]Boing! Boing!
+    I'm a B-Sent
     Gargoylemon.[pause][\x0203]I'm strong. You're
     nothing compared
     to me![pause]
   - |-
-    [\x0207]B[-4]Sent Gargoylemon[\x0207]What? You want to fight
+    [\x0207]B-Sent Gargoylemon[\x0207]What? You want to fight
     me? Are you out of
     your mind? Very well. [pause][\x0203]I'm going to beat you
     into mashed potatoes![pause]
   - |-
-    [\x0207]B[-4]IP Doramon[\x0207]I am B[-4]IP Doramon!
+    [\x0207]B-IP Doramon[\x0207]I am B-IP Doramon!
     I'm going to burn
     you to blazes with[pause][\x0203]Mega Death! If you
     got a problem with
     that, leave my[pause][\x0203]presence
     immediately![pause]
   - |-
-    [\x0207]B[-4]IP Doramon[\x0207]Fool! I gave you
+    [\x0207]B-IP Doramon[\x0207]Fool! I gave you
     a chance to leave
     and you're still[pause][\x0203]here! You're going
     to pay for that
@@ -1298,10 +1298,10 @@ strings:
     [\x0207]BlackAgumon[\x0207]OK buddy, let's
     play cards. I ain't
     losing to you.[pause]
-  - "[\\x0207]Numemon[\\x0207]Numeee! Alright, \nLet's play cards\nNume style [-4] [pause][\\x0203]No holds barred![pause]"
+  - "[\\x0207]Numemon[\\x0207]Numeee! Alright, \nLet's play cards\nNume style - [pause][\\x0203]No holds barred![pause]"
   - |-
     [\x0207]MetalEtemon[\x0207]Are ready to
-    battle card[-4]style?
+    battle card-style?
     Let's go![pause]
   - |-
     [\x0207]BlackAguman[\x0207]He he he. Did
@@ -1335,31 +1335,31 @@ strings:
     [\x0207]Black Agumon[\x0207]Ooooh.
     What was that!
     I lost? [pause][\x0203]Alright, here! The
-    Ultra[-4]strong card,
+    Ultra-strong card,
     Delete Matrix![pause]
   - |-
     [\x0207]Black Agumon[\x0207]Ooooh.
     What happened?
     I lost? [pause][\x0203]Alright, here! The
-    Ultra[-4]strong card,
+    Ultra-strong card,
     Fortune Gate![pause]
   - |-
     [\x0207]Black Agumon[\x0207]Ooooh.
     What happened?
     I lost? [pause][\x0203]Alright, here! The
-    Ultra[-4]strong card,
+    Ultra-strong card,
     Misery Gate![pause]
   - |-
     [\x0207]Black Agumon[\x0207]Ooooh.
     What happened?
     I lost? [pause][\x0203]Alright, here! The
-    Ultra[-4]strong card,
+    Ultra-strong card,
     Desire Access![pause]
   - |-
     [\x0207]Black Agumon[\x0207]Ooooh.
     What happened?
     I lost? [pause][\x0203]Alright, here! The
-    Ultra[-4]strong card,
+    Ultra-strong card,
     Anti Power![pause]
   - |-
     [\x0207]Numemon[\x0207]Numeee?!

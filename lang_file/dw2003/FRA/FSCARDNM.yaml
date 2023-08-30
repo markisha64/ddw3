@@ -7,7 +7,7 @@ strings:
   - Aura Protectrice
   - Pouvoir Blanc
   - Appel Patamon
-  - Raz[-4]de[-4]marée
+  - Raz-de-marée
   - Parties Contrôle
   - Bogue du Gel
   - Annuler Eclipse
@@ -21,7 +21,7 @@ strings:
   - Appel Palmon
   - Canon Volcanique
   - Chaos Fulgurant
-  - Lance[-4]Flammes
+  - Lance-Flammes
   - Canon de Feu
   - Pouvoir Rouge
   - Apl Goburimon
@@ -35,7 +35,7 @@ strings:
   - Porte Fortune
   - Porte Misère
   - Accès Désir
-  - Anti[-4]Pouvoir
+  - Anti-Pouvoir
   - Charge Regain
   - Balance Chrono
   - Hall Sécurité
@@ -61,7 +61,7 @@ strings:
   - Perturbateur
   - Armure Protect.
   - Armure d'Assaut
-  - Imperialdramon[-4]P
+  - Imperialdramon-P
   - GuardiAngemon
   - WarGreymon
   - ImperialdramonII
@@ -150,7 +150,7 @@ strings:
   - Omnimon II
   - Marsmon
   - MetalGarurumon
-  - H[-4]Kabuterimon
+  - H-Kabuterimon
   - GranKuwagamon
   - RosemonI
   - KingEtemon
@@ -174,7 +174,7 @@ strings:
   - Monochromon
   - MoriShellmon
   - Kuwagamon
-  - J[-4]Mojyamon
+  - J-Mojyamon
   - Togemon
   - Flymon
   - Saberdramon
@@ -192,7 +192,7 @@ strings:
   - Mushroomon
   - Omnimon I
   - Gallantmon
-  - Imperialdramon[-4]F
+  - Imperialdramon-F
   - Imperialdramon I
   - MegaGargomon
   - Machinedramon

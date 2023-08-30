@@ -187,7 +187,7 @@ files:
         Decide el orden de juego. El
         que robe a Calumon va primero.[pause][\x0203]Fase de Extracción
         Saca 6 cartas del
-        Mazo que serán tu Mano.[pause][\x0203]Aquí se forma la D[-4]Energía del
+        Mazo que serán tu Mano.[pause][\x0203]Aquí se forma la D-Energía del
         mismo color que la carta robada.
         Se usará en la Fase de Invocac.[pause]
       - "Fase de Carga\nLos domadores usan turnos para \nlas Car. de Prog. y traer Digimon.[pause][\\x0203]La fase acaba al pasar ambos.\nA veces aparecen cartas\nque no se pueden usar aquí.[pause]"
@@ -195,7 +195,7 @@ files:
         Fase invocación
         Los domadores seleccionan cartas
         Digimon e invocan Digimon.[pause][\x0203]Se pueden invocar hasta 6 Digimon
-        al campo. Se necesita D[-4]Energía
+        al campo. Se necesita D-Energía
         para invocar Digimon campeones[pause][\x0203]o mejores.[pause]
       - |-
         Fase de Compilación
@@ -210,7 +210,7 @@ files:
       - Digi Cartas
       - Carta Prog.
       - Carta Colores
-      - D[-4]energía
+      - D-energía
       - Combinación
       - Sobre Expan.
       - Volver
@@ -227,8 +227,8 @@ files:
         Basura cuando los PV son 0.[pause][\x0203]Por ejemplo, si hay un 5/3,
         PA es 5 y PV es 3.[pause]
       - "La Cartas de Prog. pueden \nfortalecer tus Digimon o hacer \nque los oponentes se descarten.[pause][\\x0203]Cada carta tiene un efecto\nconcreto. Debes leerlas\npara saber qué hacen.[pause]"
-      - "Las cartas son de color blanco, \nazul, verde, rojo, negro o marrón.[pause][\\x0203]Al extraer una carta la D[-4]Energía \ndel color de la carta incrementa.[pause][\\x0203]LA D[-4]Energía se usa para invocar\nDigimon Campeones o mejores.[pause]"
-      - "Usa el mismo color de D[-4]Energía \nque la carta Digimon para invocar\nal Digimon. Los Digimon Campeones [pause][\\x0203]cuestan 1 punto, los Definitivos\ncuestan 2 y los Mega Digimon \ncuestan 3 puntos.[pause][\\x0203]Los Digimons Novatos pueden\ninvocarse sin usar D[-4]Energia.[pause]"
+      - "Las cartas son de color blanco, \nazul, verde, rojo, negro o marrón.[pause][\\x0203]Al extraer una carta la D-Energía \ndel color de la carta incrementa.[pause][\\x0203]LA D-Energía se usa para invocar\nDigimon Campeones o mejores.[pause]"
+      - "Usa el mismo color de D-Energía \nque la carta Digimon para invocar\nal Digimon. Los Digimon Campeones [pause][\\x0203]cuestan 1 punto, los Definitivos\ncuestan 2 y los Mega Digimon \ncuestan 3 puntos.[pause][\\x0203]Los Digimons Novatos pueden\ninvocarse sin usar D-Energia.[pause]"
       - |-
         Si hay 3+ cartas Digimon iguales
         en el campo durante la Fase Batalla

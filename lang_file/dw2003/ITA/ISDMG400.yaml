@@ -122,7 +122,7 @@ files:
         Non c'è nessuno
         qui.[pause]
       - '[\x0207]Voce[\x0207]Uuuuuu![pause]'
-      - '[\x0207][\x020902]3C[-4]cosa?[pause]'
+      - '[\x0207][\x020902]3C-cosa?[pause]'
       - '[\x0207]Voce[\x0207]Uuuuuu![pause]'
       - |-
         [\x0207][\x020902]3Cos'era?
@@ -199,7 +199,7 @@ files:
       - |-
         [\x0207][\x020902]3Non c'è
         nessuno qui.[pause]
-      - '[\x0207]Voce[\x0207]Uuu[-4]uuu[-4]uu[pause]'
+      - '[\x0207]Voce[\x0207]Uuu-uuu-uu[pause]'
       - |-
         [\x0207][\x020902]3Aah! Un
         mostro![pause]
@@ -276,7 +276,7 @@ files:
         Guarda cosa
         ho qui![pause]
       - |-
-        [\x0207]Zanbamon[\x0207]Uhhh! È[-4]è
+        [\x0207]Zanbamon[\x0207]Uhhh! È-è
         erba fetida?[pause]
       - |-
         [\x0207][\x020902]3Oh sì!
@@ -565,7 +565,7 @@ files:
         [\x0207][\x020902]3...
         Ma quello è...[pause]
       - |-
-        [\x0207][\x020902]3Ottimo! Ho il digi[-4]uovo
+        [\x0207][\x020902]3Ottimo! Ho il digi-uovo
         della fiducia![pause]
       - |-
         [\x0207][\x020902]3Chiamerò
@@ -578,7 +578,7 @@ files:
         Benvenuto![pause]
       - |-
         [\x0207][\x020902]3Capo di Qing Long,
-        dov'è il digi[-4]uovo
+        dov'è il digi-uovo
         della sapienza?[pause]
       - |-
         [\x0207]Capo di Qing Long[\x0207]Non lo so. Perché
@@ -603,7 +603,7 @@ files:
         a terra.[pause]
       - |-
         [\x0207][\x020902]3Ma non c'è traccia
-        del digi[-4]uovo della
+        del digi-uovo della
         sapienza.[pause][\x0203]Chissà cosa sta
         succedendo nel
         Mondo Reale.[pause]

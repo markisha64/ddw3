@@ -32,7 +32,7 @@ files:
         excited.[pause]
   - strings:
       - ''
-      - "[\\x0207]Man[\\x0207]Woah [-4] hey, who\nare you?![pause][\\x0203]Don't sneak up on \nme like that!\nYou scared me...[pause]"
+      - "[\\x0207]Man[\\x0207]Woah - hey, who\nare you?![pause][\\x0203]Don't sneak up on \nme like that!\nYou scared me...[pause]"
       - "[\\x0207][\\x020902]3Ah, ah...\nI'm sorry \nmister...[pause]"
       - "[\\x0207]Man[\\x0207]...I'm not an \nold man![pause][\\x0203]I'm Nick. I'm \nonly 21![pause]"
       - |-
@@ -161,19 +161,19 @@ files:
       - ''
       - "[\\x0207]Boy[\\x0207]What the?!\nAre you the \nA.o.A?[pause][\\x0203]I'm not going \nto surrender![pause][\\x0203]I'm gonna beat \nyou guys with \nmy Digimon...[pause]"
       - |-
-        [\x0207][\x020902]3He[-4]hey wait!
+        [\x0207][\x020902]3He-hey wait!
         I'm not the
         A.o.A![pause][\x0203]I'm [\x020801][\x020501]!
         I came from the
         Asuka Server![pause]
       - "[\\x0207]Boy[\\x0207]...Oh, you did?\nSorry, I thought you \nwere with them...[pause][\\x0203]I'm Kenny.[pause][\\x0203]But how did you get\nto Amaterasu?![pause]"
-      - "[\\x0207][\\x020902]3I came through the\nSecurity Hole that\nBulbmon dug.[pause][\\x0203]Kenny, do you know \nwhere the Digi[-4]Egg \nof Knowledge is?[pause]"
+      - "[\\x0207][\\x020902]3I came through the\nSecurity Hole that\nBulbmon dug.[pause][\\x0203]Kenny, do you know \nwhere the Digi-Egg \nof Knowledge is?[pause]"
       - "[\\x0207]Courageous Kenny[\\x0207]Um, no...I really\ndon't know. Sorry.[pause][\\x0203]But even if I knew, \nit's impossible to look \nfor it![pause][\\x0203]This Amaterasu Server\nhas been taken over \nby the A.o.A![pause]"
       - "[\\x0207][\\x020902]3You don't know \nthat unless\nyou try![pause][\\x0203]What happened \nto the other \ntamers?[pause]"
       - "[\\x0207]Courageous Kenny[\\x0207]They captured us \nand forced us to \nraise Digimon for war.[pause][\\x0203]And then, they \nturned them all into\nOinkmon![pause]"
       - "[\\x0207][\\x020902]3Oinkmon again.\nOh, man![pause][\\x0203]I'm not going to \nlet them get away\nwith that![pause]"
       - "[\\x0207]Courageous Kenny[\\x0207]Well that's what we \nthink too![pause][\\x0203]Actually the people who \ndidn't get caught are...[pause][\\x0203]forming a resistance to\noverthrow the A.o.A.[pause][\\x0203]I want to join them so\nI've been searching for\nthem.[pause]"
-      - "[\\x0207][\\x020902]3A resistance...\nI want to help too, \nbut I can't right now.[pause][\\x0203]I need the Digi[-4]Egg \nof Knowledge to get\nto the Real World![pause]"
+      - "[\\x0207][\\x020902]3A resistance...\nI want to help too, \nbut I can't right now.[pause][\\x0203]I need the Digi-Egg \nof Knowledge to get\nto the Real World![pause]"
       - "[\\x0207]Courageous Kenny[\\x0207]...I see.\nThat's too bad...[pause][\\x0203]Well I'm going.\nWatch your \nback, [\\x020801][\\x020501].[pause]"
       - |-
         [\x0207][\x020902]3Yeah,
@@ -190,7 +190,7 @@ files:
         [\x0207][\x020902]3Yeah, let's
         kick their
         sorry butts![pause]
-      - "[\\x0207][\\x020902]3Let's look for the \nDigi[-4]Egg of Knowledge![pause]"
+      - "[\\x0207][\\x020902]3Let's look for the \nDigi-Egg of Knowledge![pause]"
   - strings:
       - ''
       - "[\\x0207][\\x020902]3OK, we're going \ninto Amaterasu \nCity![pause]"
@@ -251,7 +251,7 @@ files:
       - "[\\x0207]Chief Officer[\\x0207]Destromon?\nYou can stop it \nwith that machine.[pause]"
       - "[\\x0207]Lisa[\\x0207]OK, then!\nI'll interrogate him...[pause][\\x0203]And you guys go \nstop Destromon![pause]"
       - '[\x0207]Teddy[\x0207]Yes sir![pause]'
-      - "[\\x0207]Nick[\\x0207]Ro[-4]roger \nthat![pause]"
+      - "[\\x0207]Nick[\\x0207]Ro-roger \nthat![pause]"
       - "[\\x0207][\\x020902]3...Teddy, you \nknow how?[pause]"
       - "[\\x0207]Teddy[\\x0207]Heh heh!\nWell most of it...[pause][\\x0203]The system is the same \nas Asuka Server's\ncomputer![pause]"
       - "[\\x0207]Nick[\\x0207]Hey, Teddy\nhurry up![pause][\\x0203]Destromon's \ngonna land on a\ncity![pause]"
@@ -284,7 +284,7 @@ files:
       - ''
       - "[\\x0207][\\x020902]3Hmmm...the Matrix \nSystem should be \naround here...[pause][\\x0203]But I don't know how \nto get the system\nto work...[pause][\\x0203]But Game Master sent\nVemmon from here...[pause]"
       - '[\x0207][\x020902]3What?![pause]'
-      - "[\\x0207][\\x020902]3Wh[-4]why is \nVemmon here?![pause][\\x0203]...can it be...\nWell, I gotta \nfollow it![pause]"
+      - "[\\x0207][\\x020902]3Wh-why is \nVemmon here?![pause][\\x0203]...can it be...\nWell, I gotta \nfollow it![pause]"
   - strings:
       - ''
       - "[\\x0207][\\x020902]3OK!\nLet's go on \nahead![pause]"
@@ -303,8 +303,8 @@ files:
         What did you
         say...?[pause]
       - "[\\x0207]Kail[\\x0207]A lot of Vemmon came \nout of Amaterasu's\nAdministration Center![pause][\\x0203]Then they launched \nbeams and...[pause][\\x0203]Turned everyone into\nOinkmon![pause]"
-      - "[\\x0207][\\x020902]3But wait [-4] Vemmon \ndoesn't have that \nkind of power...[pause][\\x0203]Have they been...\nreprogrammed?[pause]"
-      - "[\\x0207]Kail[\\x0207]I[-4]I don't know...[pause][\\x0203]But I hid with \nthe others in\nthe basement.[pause][\\x0203]But I was the \nonly one who \nwasn't changed.[pause][\\x0203]Teddy and Lisa\nwere all turned \ninto Oinkmon.[pause]"
+      - "[\\x0207][\\x020902]3But wait - Vemmon \ndoesn't have that \nkind of power...[pause][\\x0203]Have they been...\nreprogrammed?[pause]"
+      - "[\\x0207]Kail[\\x0207]I-I don't know...[pause][\\x0203]But I hid with \nthe others in\nthe basement.[pause][\\x0203]But I was the \nonly one who \nwasn't changed.[pause][\\x0203]Teddy and Lisa\nwere all turned \ninto Oinkmon.[pause]"
       - "[\\x0207][\\x020902]3What is going on...[pause][\\x0203]...and where did \nthe Vemmon go?[pause]"
       - "[\\x0207][\\x020902]3...and where did \nthe Vemmon go?[pause]"
       - "[\\x0207]Kail[\\x0207]They all went \nstraight to the \nMaster Room![pause]"
@@ -318,7 +318,7 @@ files:
         [\x020801][\x020501]...[pause]
       - "[\\x0207]Kail[\\x0207]...But the A.o.A \nisn't defeated yet...[pause]"
       - "[\\x0207][\\x020902]3...then \neveryone \nelse...?[pause]"
-      - "[\\x0207]Kail[\\x0207]Yea[-4]yeah. Teddy, \nLisa and the others \nare Oinkmon now.[pause]"
+      - "[\\x0207]Kail[\\x0207]Yea-yeah. Teddy, \nLisa and the others \nare Oinkmon now.[pause]"
       - '[\x0207][\x020902]3Hey, Kail?![pause]'
       - |-
         [\x0207]Kurt[\x0207]Oink!
@@ -346,7 +346,7 @@ files:
         Oin, oi, oin??
         Oooin, oioink![pause]
       - |-
-        [\x0207][\x020902]3Te[-4]Teddy?!
+        [\x0207][\x020902]3Te-Teddy?!
         What?! Lisa, Nick, and
         Keith as well...[pause]
       - "[\\x0207]Teddy[\\x0207]Oi, oionk, oink!\nOi, oioooin, oink\noioink, oionnk![pause][\\x0203]Oion, ooin, oink!\nOiin, oink ooin!\nOionknoink, oink?[pause][\\x0203]Oooinkninon?\nOinok, onnknon?\nOin, oinknkoin??[pause][\\x0203]Oin, oinok, oioninoo!\nOin, oooin, ooin\noinonk, oink, ooin![pause][\\x0203]Oin oinoink \noioin oino ioni oino\noinoin, oinoinokon oink![pause][\\x0203]Ooinoin, oinoinoik!\nOoinoino, oinoinok\noioioinonoino oihoinonk![pause]"
@@ -377,7 +377,7 @@ files:
         Gunslinger?![pause]
       - "Yes. I will show you the \nmagnificent glorious figure \nfloating in space...[pause]"
       - |-
-        [\x0207][\x020902]3...wha[-4]
+        [\x0207][\x020902]3...wha-
         what?![pause]
   - strings:
       - ''
@@ -387,7 +387,7 @@ files:
         We will launch the Digitize Wave from the
         Ragnarok Cannon on Gunslinger and turn
         all life forms on Earth into Oinkmon![pause]
-      - "[\\x0207][\\x020902]3Wha[-4]what?!\nI won't let them \ndo that![pause]"
+      - "[\\x0207][\\x020902]3Wha-what?!\nI won't let them \ndo that![pause]"
       - "Then come to Gunslinger and\ndefeat me![pause][\\x0203]...There is nothing to fear. \nGo through the Warp Gate, \nand you'll be at Gun Slinger![pause][\\x0203]And let's have our final battle.[pause][\\x0203]With the fate of all of mankind\non the balance...[pause]"
       - "[\\x0207][\\x020902]3...all right, \nLord Megadeath,\nhere I come![pause][\\x0203]I'm going to\ndefeat you![pause]"
   - strings:

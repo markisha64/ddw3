@@ -8,7 +8,7 @@ files:
         sind nicht hier.[pause][\x0203]Na, so wie ich die
         kenne, sind sie
         schon vorgegangen.[pause]
-      - "[\\x0207]Mitarbeiter[\\x0207][\\x020801][\\x020501], nicht wahr?\nWillkommen bei\nDigimon[-4]Online![pause][\\x0203]Heute werden wir als\nVorbereitung auf den\nStart ein wenig üben.[pause][\\x0203]Du bist auf den Ost[-4]\nsektor und Zentral[-4]\nAmaterasu beschränkt.[pause][\\x0203]Es gibt jedoch mehr\nPlatinen[-4] und Meeres[-4]\nbodenbereiche.[pause][\\x0203]Digimon[-4]Daten \nwerden wie\nvorher verwendet.[pause][\\x0203]Natürlich bleiben\nauch Techniken\nu. Digitationen gleich.[pause][\\x0203]Für alle Fälle möchte\nich aber eine Daten[-4]\nprüfung vornehmen.[pause][\\x0203]Denk an das Speichern\nmit Guardromon,\nbevor du gehst.[pause]"
+      - "[\\x0207]Mitarbeiter[\\x0207][\\x020801][\\x020501], nicht wahr?\nWillkommen bei\nDigimon-Online![pause][\\x0203]Heute werden wir als\nVorbereitung auf den\nStart ein wenig üben.[pause][\\x0203]Du bist auf den Ost-\nsektor und Zentral-\nAmaterasu beschränkt.[pause][\\x0203]Es gibt jedoch mehr\nPlatinen- und Meeres-\nbodenbereiche.[pause][\\x0203]Digimon-Daten \nwerden wie\nvorher verwendet.[pause][\\x0203]Natürlich bleiben\nauch Techniken\nu. Digitationen gleich.[pause][\\x0203]Für alle Fälle möchte\nich aber eine Daten-\nprüfung vornehmen.[pause][\\x0203]Denk an das Speichern\nmit Guardromon,\nbevor du gehst.[pause]"
       - '[\x0207][\x020902]3Na klar![pause]'
       - |-
         [\x0207][\x020902]3Super!
@@ -16,69 +16,69 @@ files:
         ein Spaβ![pause]
   - strings:
       - ''
-      - Kotemon[-4]Digitation
-      - Monmon[-4]Digitation
-      - Kumamon[-4]Digitation
-      - Renamon[-4]Digitation
-      - Patamon[-4]Digitation
-      - Agumon[-4]Digitation
-      - Guilmon[-4]Digitation
+      - Kotemon-Digitation
+      - Monmon-Digitation
+      - Kumamon-Digitation
+      - Renamon-Digitation
+      - Patamon-Digitation
+      - Agumon-Digitation
+      - Guilmon-Digitation
       - Zurück
       - |-
-        Lernt Greymon[-4] und Veemon[-4]Typen.
+        Lernt Greymon- und Veemon-Typen.
         Er muss Stingmon lernen, um ExVeemon
-        zu besiegen. Beim Entwickeln von Grey[-4][pause][\x0203]mons Fähigkeiten u. Aufbau seiner
+        zu besiegen. Beim Entwickeln von Grey-[pause][\x0203]mons Fähigkeiten u. Aufbau seiner
         Dunkelheitabwehr lernt er SkullGreymon.
-        Was danach kommt, weiβ ich nicht.[pause][\x0203]Beim Erhöhen von Kyukimons Fähig[-4]
+        Was danach kommt, weiβ ich nicht.[pause][\x0203]Beim Erhöhen von Kyukimons Fähig-
         keiten u. Aufbau s. Maschinenabwehr,
         lernt er MetalMamemon und wird mit [pause][\x0203]Digitationen v. Maschinentyp verbunden.[pause]
-      - "Lernt zunächst ExVeemon...\nNach Armormon lernt er Ma[-4]\nschine, Angemon u. a. Typen.[pause][\\x0203]Beim Aufbau seiner Maschinenabwehr\nlernt er Maschinentypen. Beim Aufbau\nder Windabwehr lernt er Angemon[-4][pause][\\x0203]Typen. Wenn Armormon mehr Fähig[-4]\nkeiten lernt und stärker wird, lernt \ner Digitamamon, wodurch er mit[pause][\\x0203]Digitationen durch mysteriöse\nTechniken verbunden wird.[pause]"
-      - "Wenn du Grizzmons Fähigkeiten erhöhst\nund seinen Geist aufbaust, lernt er \nKyubimon. Von da aus wird er mit [pause][\\x0203]Taomon und anderen verbunden. Er[-4]\nhöhst du Grizzmons Fähigkeiten und \nseine Weisheit, lernt er Digitamon, [pause][\\x0203]wodurch er mit Digitationen d. mys[-4]\nteriöse Techniken verbunden wird. \nDurch Erhöhen von GrapLeomons Fäh.[pause][\\x0203]u. Aufbau d. Maschinenabwehr, ver[-4]\nbindet er sich mit Maschinendigitat.[pause]"
-      - "Wenn du Kyubimons Fähigktn. erhöhst\nund ihre Stärke  aufbaust, lernt sie \nStingmon. Dann wird sie mit Insekten[pause][\\x0203]wie Kabuterimon verbunden. Er[-4]\nhöhst du Kyubimons Fähigkeiten u.\nihren Geist, lernt sie Angewomon, [pause][\\x0203]wodurch sie mit Rosemon u. anderen\nErholungstypen verbunden wird. Durch\nErhöhung von Taomons Fähigkeiten u.[pause][\\x0203]Windabwehr lernt er ExVeemon. Wenn \ndu seine Maschinenabwehr aufbaust, \nlernt er MetalMamemon.[pause]"
-      - "Wenn du Angemons Fähigk. u. seine\nStärke aufbaust oder Digitamamon\nzüchtest u. s. Weisheit aufbaust,[pause][\\x0203]lernen sie Angewomon. Erhöhst du \nAngewomons Fähigk., lernt sie Ro[-4]\nsemon. Durch Aufbau von Rosemons[pause][\\x0203]Fähigkeiten lernt sie Hououmon.\nWenn du die Fähigkeiten u. Blitz[-4]\nabwehr von Holy Angewomon [pause][\\x0203]aufbaust, lernt sie Stingmon \nbzw. Greymon, wenn\ndu ihre Feuerabwehr aufbaust.[pause]"
-      - "Lernt zunächst Growlmon. Er lernt\nGrowlmon[-4]Typen in dem Maβe, in dem\ndu seine Fähigkeiten erhöhst. Wenn du[pause][\\x0203]s. Dunkelheitabwehr aufbaust, lernt \ner SkullGreymon. Bei maximalen Fähig[-4]\nkeiten geschieht etwas Besonderes.[pause][\\x0203]Wenn du die Fähigkeiten von Metal\nGreymon erhöhst und seinen Geist \naufbaust, lernt er Kyubimon.[pause]"
-      - "Wenn du zu Beginn seine Abwehr \naufbaust, lernt er Metalmon. Dann\nwird er mit Metall[-4]Typen verbden.[pause][\\x0203]Wenn du Growlmons Fähigkeiten er[-4]\nhöhst und seine Blitzabwehr auf[-4]\nbaust, lernt er Stingmon und wird [pause][\\x0203]mit Insekten verbunden. Er lernt \nverschiedene Digitationen von Mega[-4]\ngroumon durch Aufbau von Geist,[pause][\\x0203]Dunkelheitabwehr und Wasser[-4]\nabwehr.[pause]"
+      - "Lernt zunächst ExVeemon...\nNach Armormon lernt er Ma-\nschine, Angemon u. a. Typen.[pause][\\x0203]Beim Aufbau seiner Maschinenabwehr\nlernt er Maschinentypen. Beim Aufbau\nder Windabwehr lernt er Angemon-[pause][\\x0203]Typen. Wenn Armormon mehr Fähig-\nkeiten lernt und stärker wird, lernt \ner Digitamamon, wodurch er mit[pause][\\x0203]Digitationen durch mysteriöse\nTechniken verbunden wird.[pause]"
+      - "Wenn du Grizzmons Fähigkeiten erhöhst\nund seinen Geist aufbaust, lernt er \nKyubimon. Von da aus wird er mit [pause][\\x0203]Taomon und anderen verbunden. Er-\nhöhst du Grizzmons Fähigkeiten und \nseine Weisheit, lernt er Digitamon, [pause][\\x0203]wodurch er mit Digitationen d. mys-\nteriöse Techniken verbunden wird. \nDurch Erhöhen von GrapLeomons Fäh.[pause][\\x0203]u. Aufbau d. Maschinenabwehr, ver-\nbindet er sich mit Maschinendigitat.[pause]"
+      - "Wenn du Kyubimons Fähigktn. erhöhst\nund ihre Stärke  aufbaust, lernt sie \nStingmon. Dann wird sie mit Insekten[pause][\\x0203]wie Kabuterimon verbunden. Er-\nhöhst du Kyubimons Fähigkeiten u.\nihren Geist, lernt sie Angewomon, [pause][\\x0203]wodurch sie mit Rosemon u. anderen\nErholungstypen verbunden wird. Durch\nErhöhung von Taomons Fähigkeiten u.[pause][\\x0203]Windabwehr lernt er ExVeemon. Wenn \ndu seine Maschinenabwehr aufbaust, \nlernt er MetalMamemon.[pause]"
+      - "Wenn du Angemons Fähigk. u. seine\nStärke aufbaust oder Digitamamon\nzüchtest u. s. Weisheit aufbaust,[pause][\\x0203]lernen sie Angewomon. Erhöhst du \nAngewomons Fähigk., lernt sie Ro-\nsemon. Durch Aufbau von Rosemons[pause][\\x0203]Fähigkeiten lernt sie Hououmon.\nWenn du die Fähigkeiten u. Blitz-\nabwehr von Holy Angewomon [pause][\\x0203]aufbaust, lernt sie Stingmon \nbzw. Greymon, wenn\ndu ihre Feuerabwehr aufbaust.[pause]"
+      - "Lernt zunächst Growlmon. Er lernt\nGrowlmon-Typen in dem Maβe, in dem\ndu seine Fähigkeiten erhöhst. Wenn du[pause][\\x0203]s. Dunkelheitabwehr aufbaust, lernt \ner SkullGreymon. Bei maximalen Fähig-\nkeiten geschieht etwas Besonderes.[pause][\\x0203]Wenn du die Fähigkeiten von Metal\nGreymon erhöhst und seinen Geist \naufbaust, lernt er Kyubimon.[pause]"
+      - "Wenn du zu Beginn seine Abwehr \naufbaust, lernt er Metalmon. Dann\nwird er mit Metall-Typen verbden.[pause][\\x0203]Wenn du Growlmons Fähigkeiten er-\nhöhst und seine Blitzabwehr auf-\nbaust, lernt er Stingmon und wird [pause][\\x0203]mit Insekten verbunden. Er lernt \nverschiedene Digitationen von Mega-\ngroumon durch Aufbau von Geist,[pause][\\x0203]Dunkelheitabwehr und Wasser-\nabwehr.[pause]"
   - strings:
       - ''
       - D'mon ni. im Pack
       - Effizient erhöh.
       - Techniken
-      - Wachst.[-4]Grenz.
+      - Wachst.-Grenz.
       - Kämpfe gut
       - Weise s.
       - Guilmon verwen.
       - Zurück
-      - "Du kannst mit Veemon Partner\nwerden, der in keinem Pack ist.\nVersuche, das selbst herauszufinden.[pause][\\x0203]Veemon lernt ExVeemon, Stingmon\nund Paildramon und danach lernt er\nviele Digitationstypen. Z. B. wenn [pause][\\x0203]du Paildramons Fähigkeiten erhöhst \nund seine Maschinenabwehr auf[-4]\nbaust, lernt er Metalmamemon. Er[pause][\\x0203]lernt Devimon, wenn du seine \nDunkelheitabwehr aufbaust.[pause]"
-      - "Partner auf niedr. Leveln können\neinfach EXP[-4]Punkte gewinnen, wenn\nsie einen Kampf beginnen und kurz[pause][\\x0203]darauf abbrechen. Levels können \neffektiv gewonnen werden, indem\n2 Partner in einen Kampf treten.[pause][\\x0203]Digi. lernen neue Digitat. u. Techn.\ndurch Gewinnen v. Leveln o. wenn \ndie Fähigk. ein Vielfaches v. 5 sind[pause]"
-      - "Je nach Züchtung kann jeder Partner \nalle 14 Digitationstypen erhalten. Di[-4]\ngitationen desselben Typs werden in[pause][\\x0203]Zeilen in der Digitationstabelle aufge[-4]\nlistet. Wenn der Fähigkeitslevel des\nDigimon zunimmt, lernt es neue Di[-4][pause][\\x0203]gitationen desselben Typs. Neue Digi[-4]\ntationen können auch durch Gewinnen\nvon Leveln erlernt werden. Einige[pause][\\x0203]Digitat. können nur durch Erlernen \nmehrerer anderer Digitationen er[-4]\nworben werden.[pause]"
+      - "Du kannst mit Veemon Partner\nwerden, der in keinem Pack ist.\nVersuche, das selbst herauszufinden.[pause][\\x0203]Veemon lernt ExVeemon, Stingmon\nund Paildramon und danach lernt er\nviele Digitationstypen. Z. B. wenn [pause][\\x0203]du Paildramons Fähigkeiten erhöhst \nund seine Maschinenabwehr auf-\nbaust, lernt er Metalmamemon. Er[pause][\\x0203]lernt Devimon, wenn du seine \nDunkelheitabwehr aufbaust.[pause]"
+      - "Partner auf niedr. Leveln können\neinfach EXP-Punkte gewinnen, wenn\nsie einen Kampf beginnen und kurz[pause][\\x0203]darauf abbrechen. Levels können \neffektiv gewonnen werden, indem\n2 Partner in einen Kampf treten.[pause][\\x0203]Digi. lernen neue Digitat. u. Techn.\ndurch Gewinnen v. Leveln o. wenn \ndie Fähigk. ein Vielfaches v. 5 sind[pause]"
+      - "Je nach Züchtung kann jeder Partner \nalle 14 Digitationstypen erhalten. Di-\ngitationen desselben Typs werden in[pause][\\x0203]Zeilen in der Digitationstabelle aufge-\nlistet. Wenn der Fähigkeitslevel des\nDigimon zunimmt, lernt es neue Di-[pause][\\x0203]gitationen desselben Typs. Neue Digi-\ntationen können auch durch Gewinnen\nvon Leveln erlernt werden. Einige[pause][\\x0203]Digitat. können nur durch Erlernen \nmehrerer anderer Digitationen er-\nworben werden.[pause]"
       - |-
-        Level[-4]/Fähigkeitsgrenzen werden auf
+        Level-/Fähigkeitsgrenzen werden auf
         99 gesetzt. Die Parametergrenze ist
-        999. Auch wenn ein Digimon die Le[-4][pause][\x0203]velgrenze erreicht, kann es s. Pa[-4]
-        rameter mit einem Chip erhöhen. An[-4]
-        geblich gibt es Train.[-4]Chips f. mehr[pause][\x0203]TP, aber sie werden nicht verkauft.
+        999. Auch wenn ein Digimon die Le-[pause][\x0203]velgrenze erreicht, kann es s. Pa-
+        rameter mit einem Chip erhöhen. An-
+        geblich gibt es Train.-Chips f. mehr[pause][\x0203]TP, aber sie werden nicht verkauft.
         Versuch's mit Angeln u. Baumtreten.[pause]
-      - "Du solltest Plugin[-4]Items nutzen. \nAuch wenn du keine Unterstütz[-4]\nungstechniken kannst, sind Items[pause][\\x0203]im Kampf nützlich. Stoβ[-4]Digitationen\nwerden je nach Partner u. seinem\nLevel vergeben. Ist der Stoβmesser[pause][\\x0203]hoch, warte auf deine Chance, ihn \nzu nutzen. Achte fern von Hotels \nauf deinen MP[-4]Level. Wenn du dich [pause][\\x0203]zurückziehst, brauchst du auf \nsonst nichts zu achten![pause]"
+      - "Du solltest Plugin-Items nutzen. \nAuch wenn du keine Unterstütz-\nungstechniken kannst, sind Items[pause][\\x0203]im Kampf nützlich. Stoβ-Digitationen\nwerden je nach Partner u. seinem\nLevel vergeben. Ist der Stoβmesser[pause][\\x0203]hoch, warte auf deine Chance, ihn \nzu nutzen. Achte fern von Hotels \nauf deinen MP-Level. Wenn du dich [pause][\\x0203]zurückziehst, brauchst du auf \nsonst nichts zu achten![pause]"
       - |-
-        Auch wenn du deine Digimon ungleich[-4]
+        Auch wenn du deine Digimon ungleich-
         mäβig züchtest, kannst du effektiv
-        EXP[-4]Punkte durch Auswahl v. Feinden[pause][\x0203]m. bestimmten Schwächen verdienen.
+        EXP-Punkte durch Auswahl v. Feinden[pause][\x0203]m. bestimmten Schwächen verdienen.
         Nutze magische Angr. gg. Feinde mit
         starken phys. Angriffen u. umgekehrt[pause][\x0203]Einige Feinde sind bei bestimmten
-        Attributen u. Angr. schwach. Ent[-4]
+        Attributen u. Angr. schwach. Ent-
         decke diese u. erstelle ein Muster.[pause]
-      - "Digitationen v. Growlmon u. anderen \nGuilmon[-4]Typen lernen ungewöhnliche\nTechniken wie Stehlen o. Gegenangr.[pause][\\x0203]Einige Feinde besitzen Items, die nicht\nverkauft werden. Durch die Stehlen[-4]\nTechnik sind sie einfach zu haben. [pause][\\x0203]Die Stärke von Gegenangriffen hängt \nvom erhaltenen Schaden ab. Versuche,\nabsichtlich Schaden zu nehmen.[pause]"
+      - "Digitationen v. Growlmon u. anderen \nGuilmon-Typen lernen ungewöhnliche\nTechniken wie Stehlen o. Gegenangr.[pause][\\x0203]Einige Feinde besitzen Items, die nicht\nverkauft werden. Durch die Stehlen-\nTechnik sind sie einfach zu haben. [pause][\\x0203]Die Stärke von Gegenangriffen hängt \nvom erhaltenen Schaden ab. Versuche,\nabsichtlich Schaden zu nehmen.[pause]"
   - strings:
       - ''
       - |-
-        [\x0207]Arena[-4]Empfang[\x0207][\x020801][\x020501], du hast
+        [\x0207]Arena-Empfang[\x0207][\x020801][\x020501], du hast
         alle vier Leader
         besiegt![pause][\x0203]Bitte, komm in die
         Arena![pause]
       - |-
         [\x0207][\x020902]3Gegen wen genau
         kämpfe ich jetzt?[pause]
-      - "[\\x0207]Arena[-4]Empfang[\\x0207]Hi hi hi!\nDas wirst du \nschon noch sehen![pause][\\x0203]Na los! Dein Gegner\nwartet bereits\nauf dich![pause]"
+      - "[\\x0207]Arena-Empfang[\\x0207]Hi hi hi!\nDas wirst du \nschon noch sehen![pause][\\x0203]Na los! Dein Gegner\nwartet bereits\nauf dich![pause]"
       - |-
         [\x0207][\x020902]3OK! Der
         stärkste
@@ -98,15 +98,15 @@ files:
       - |-
         [\x0207]Kurt[\x0207]Stimmt genau!
         Ich bin froh, dass
-        du mein Gegner bist.[pause][\x0203]Ich wollte schon im[-4]
+        du mein Gegner bist.[pause][\x0203]Ich wollte schon im-
         mer mit dir kämpfen![pause]
       - |-
         [\x0207][\x020902]3Seh' ich genauso!
-        Es gibt keinen wür[-4]
+        Es gibt keinen wür-
         digeren Gegner![pause]
       - |-
         [\x0207]Kurt[\x0207]Ha ha! Das wird
-        ein Spaβ![pause][\x0203]Lass' uns los[-4]
+        ein Spaβ![pause][\x0203]Lass' uns los-
         legen!
         Gib' alles![pause]
   - strings:
@@ -117,7 +117,7 @@ files:
       - "[\\x0207]Kurt[\\x0207]Meinen Glückwunsch,\n[\\x020801][\\x020501]! Du hast\nzu Recht gewonnen![pause][\\x0203]Jetzt bist du der \nstärkste Tamer![pause]"
       - '[\x0207][\x020902]3Vielen Dank![pause]'
       - |-
-        [\x0207]Kurt[\x0207]Bald ist Digimon[-4]Online
+        [\x0207]Kurt[\x0207]Bald ist Digimon-Online
         wiederhergestellt. Als
         erster Weltmeister [pause][\x0203]solltest du es mit allen
         Herausforderern der
@@ -132,7 +132,7 @@ files:
       - "[\\x0207][\\x020902]3Keine Sorge.\nIch werde \nder stärkste[pause][\\x0203]Weltmeister\naller Zeiten![pause]"
   - strings:
       - ''
-      - "[\\x0207]Guardromon[\\x0207]Ich greife nun auf \nd. Matrix[-4]Drive zu.[pause]"
+      - "[\\x0207]Guardromon[\\x0207]Ich greife nun auf \nd. Matrix-Drive zu.[pause]"
   - strings:
       - ''
       - |-
@@ -150,7 +150,7 @@ files:
       - Phase 5
       - Zurück
       - |-
-        Auβer in Digimon[-4]Kämpfen können
+        Auβer in Digimon-Kämpfen können
         Tamer Kartenkämpfe machen.[pause][\x0203]Dazu müssen sie 314 Kartentypen
         sammeln und ihre eigenen
         Arrangements zusammenstellen.[pause]
@@ -159,7 +159,7 @@ files:
         vor dem Kartenkampf. Nach Auswahl
         des Ordners beginnt der Kampf.[pause][\x0203]Ein Kartenkampf besteht aus 3 Runden.
         Wer zuerst 2 Runden gewinnt, ist der
-        Gewinner u. bekommt ein Booster[-4]Pack.[pause][\x0203]Jede Runde teilt sich in 6 Phasen auf.
+        Gewinner u. bekommt ein Booster-Pack.[pause][\x0203]Jede Runde teilt sich in 6 Phasen auf.
         Weitere Informationen erhältst du im
         Abschnitt "Phasen".[pause]
       - |-
@@ -167,42 +167,42 @@ files:
         Die Spielreihenfolge wird bestimmt.
         Wer Calumon zieht, fängt an.[pause][\x0203]Zugphase
         Ziehe 6 Karten vom Stapel, die dein
-        anfängliches Blatt bilden.[pause][\x0203]Jetzt wird D[-4]Energie der gleichen
-        Farbe wie die gezogene Karte er[-4]
+        anfängliches Blatt bilden.[pause][\x0203]Jetzt wird D-Energie der gleichen
+        Farbe wie die gezogene Karte er-
         zeugt; wird in der Rufphase verw.[pause]
       - |-
         Ladephase
-        Tamers verw. abwechselnd Prog.[-4]
+        Tamers verw. abwechselnd Prog.-
         Karten um Digimon zu rufen.[pause][\x0203]Die Phase endet, wenn mehrmals
         gepasst wird. Es gibt auch nicht
-        verwendbare Prog.[-4]Karten.[pause]
+        verwendbare Prog.-Karten.[pause]
       - |-
         Rufphase
-        Hier wählen Tamer Digimon[-4]Karten
+        Hier wählen Tamer Digimon-Karten
         aus und rufen die Digimon.[pause][\x0203]Bis zu 6 Digimon können ins Feld
         gerufen werden. Zum Rufen von
-        Champion[-4]Digimon oder höher wird[pause][\x0203]D[-4]Energie benötigt.[pause]
+        Champion-Digimon oder höher wird[pause][\x0203]D-Energie benötigt.[pause]
       - |-
         Sammelphase
         Hier wechseln sich Tamer ab,
         um Programmkarten für versch.[pause][\x0203]Aktionen zu verwenden. Phase
         endet bei mehrmaligem Passen.
-        Verwende alle Prog.[-4]Karten.[pause]
+        Verwende alle Prog.-Karten.[pause]
       - |-
         Kampfphase
-        Hier kämpfen die Digimon gegen[-4]
+        Hier kämpfen die Digimon gegen-
         einander um den Sieg.[pause][\x0203]Wer siegt, entscheiden die gesamten
-        AP[-4] und HP[-4]Punkte. Wer HP von 0
+        AP- und HP-Punkte. Wer HP von 0
         hat, verliert.[pause]
   - strings:
       - ''
       - Ordner erst.
-      - Digi[-4]Karten
-      - Progr.[-4]Karte
+      - Digi-Karten
+      - Progr.-Karte
       - Kartenfarbe
-      - D[-4]Energie
+      - D-Energie
       - Combos
-      - Booster[-4]Pack
+      - Booster-Pack
       - Zurück
       - |-
         Du musst einen Ordner mit 40
@@ -210,14 +210,14 @@ files:
         Kartenkampf teilnehmen kannst.[pause][\x0203]Es können bis zu vier gleiche
         Karten in einem Ordner sein.[pause]
       - |-
-        Digimon[-4]Karten rufen die Digimon
-        herbei. AP[-4] und HP[-4]Punkte sind
-        auf den Karten aufgedruckt. AP[pause][\x0203]ist Angriffs[-4]Power und HP sind
+        Digimon-Karten rufen die Digimon
+        herbei. AP- und HP-Punkte sind
+        auf den Karten aufgedruckt. AP[pause][\x0203]ist Angriffs-Power und HP sind
         Treffer. Wenn HP auf 0 fällt,
         werden die Digimon abgelegt.[pause][\x0203]Wird 5/3 gezeigt, ist AP 5 und
         HP ist 3.[pause]
       - |-
-        Prog.[-4]Karten können deine Digimon
+        Prog.-Karten können deine Digimon
         stärken und dem Gegner Karten
         aus dem Blatt nehmen.[pause][\x0203]Jede Karte hat einen best. Wert.
         Auf den Karten steht, was man
@@ -225,22 +225,22 @@ files:
       - |-
         Kartenfarben sind Weiβ, Blau,
         Grün, Rot, Schwarz oder Braun.[pause][\x0203]Beim Ziehen einer Karte wird
-        die D[-4]Energie der Kartenf. erhöht.[pause][\x0203]D[-4]Energie wird zum Rufen von
-        Champion[-4]Digimon od. höher gebraucht[pause]
+        die D-Energie der Kartenf. erhöht.[pause][\x0203]D-Energie wird zum Rufen von
+        Champion-Digimon od. höher gebraucht[pause]
       - |-
-        Verwende D[-4]Energie der gleichen
+        Verwende D-Energie der gleichen
         Farbe wie die Karte, um Digimon
-        zu rufen. Champion[-4]Digimon kosten[pause][\x0203]1 Punkt, Ultra 2 Punkte und Mega
-        3 Punkte.[pause][\x0203]Rookie[-4]Digimon können ohne
-        D[-4]Energie gerufen werden.[pause]
+        zu rufen. Champion-Digimon kosten[pause][\x0203]1 Punkt, Ultra 2 Punkte und Mega
+        3 Punkte.[pause][\x0203]Rookie-Digimon können ohne
+        D-Energie gerufen werden.[pause]
       - |-
-        Wenn 3+ identische Digimon[-4]Karten
+        Wenn 3+ identische Digimon-Karten
         während der Kampfphase in deinem
         Feld erscheinen, gibt es eine Combo[pause][\x0203]Alle Punkte der Combo werden den
         Gesamtpunkten hinzugefügt. Bei
         4+ Karten erhältst du einen Bonus.[pause]
       - |-
-        Wenn du Booster[-4]Packs hast und sie
+        Wenn du Booster-Packs hast und sie
         in einem Shop öffnen lässt, kriegst
         du Karten. Tamers kriegen Booster,[pause][\x0203]wenn sie gewinnen. Auβerdem sollen
         einige Digimon sie haben.[pause]
@@ -250,7 +250,7 @@ files:
         [\x0207]Tamer Haruka[\x0207]Also dann,
         sei mutig auf
         deinem Weg![pause][\x0203]Und dankbar für
-        meine Groβ[-4]
+        meine Groβ-
         zügigkeit![pause]
   - strings:
       - ''
@@ -283,9 +283,9 @@ files:
       - ''
       - |-
         [\x0207]Guardromon[\x0207]Ich greife jetzt auf
-        das Matrix[-4]Drive zu.[pause]
+        das Matrix-Drive zu.[pause]
   - strings:
       - ''
       - |-
         [\x0207]Guardromon[\x0207]Ich greife jetzt auf
-        das Matrix[-4]Drive zu.[pause]
+        das Matrix-Drive zu.[pause]

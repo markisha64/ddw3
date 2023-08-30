@@ -15,7 +15,7 @@ strings:
   - X
   - PM
   - PV
-  - '[-4][-4][-4]'
+  - '---'
   - /
   - L1
   - R1
@@ -26,7 +26,7 @@ strings:
   - '[\x020501]・[\x020502]'
   - '[\x020501]・[\x020502]・[\x020503]'
   - Hab.
-  - '[-4][-4]'
+  - '--'
   - Cambiar
   - DV ADN
   - ¡Evasión!
@@ -36,7 +36,7 @@ strings:
   - ¡Dormido!
   - ¡[\x020501] PV cur.!
   - '[\x020501] X [\x020502] = [\x020503]!'
-  - '[-4]'
+  - '-'
   - ¡Contador!
   - Robado
   - Los PV se recobran gradualmente.

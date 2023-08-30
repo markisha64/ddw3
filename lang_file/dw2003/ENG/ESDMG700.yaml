@@ -28,7 +28,7 @@ files:
       - "[\\x0207]Junior[\\x0207]And why is Ivy\nhere in the first \nplace?[pause][\\x0203]You always say that\nDigimon are for kids![pause]"
       - "[\\x0207]Ivy[\\x0207]Hey, I'm interested in\nDigimon Online, OK?![pause][\\x0203]...and I never said \nthat I hated Digimon![pause]"
       - |-
-        [\x0207]Teddy[\x0207]Junior, Ivy [-4] come on,
+        [\x0207]Teddy[\x0207]Junior, Ivy - come on,
         let's go to the Online
         Center![pause]
   - strings:
@@ -72,7 +72,7 @@ files:
       - |-
         [\x0207]Ivy:[\x0207]Well, if you like all
         Digimon, then you
-        don't have to worry![pause][\x0203]Come on [-4] choose,
+        don't have to worry![pause][\x0203]Come on - choose,
         and let's go to the
         Digital World![pause]
       - |-
@@ -102,7 +102,7 @@ files:
         [\x0207]Junior[\x0207]OK, Teddy, Ivy!
         Let's go to the
         Digital World![pause]
-      - "[\\x0207]Ivy[\\x0207]H[-4]hey! \nWait up Junior![pause]"
+      - "[\\x0207]Ivy[\\x0207]H-hey! \nWait up Junior![pause]"
       - |-
         [\x0207]Teddy[\x0207]I'm not done
         registering![pause]
@@ -282,7 +282,7 @@ files:
         Military Base
         Magasta...[pause]
       - "[\\x0207]Chamber Officer[\\x0207]Confirmed. It is within \nwarp range.[pause][\\x0203]However, due to the \nunstable system...[pause][\\x0203]You will exist in the \nReal World for only\n180 seconds.[pause]"
-      - "[\\x0207][\\x020902]3Wai[-4]wait a sec.  \nWhat happens if I \nrun out of time?[pause]"
+      - "[\\x0207][\\x020902]3Wai-wait a sec.  \nWhat happens if I \nrun out of time?[pause]"
       - "[\\x0207]Chamber Officer[\\x0207]The Realize will turn\noff and the Matrix will\nreturn you here.[pause][\\x0203]The Matrix data will\nnot be broken, so\nyou shouldn't worry.[pause][\\x0203]We will start the \nMatrix System\nnow.[pause]"
       - "[\\x0207][\\x020902]3All right!\n...so what \nshould I do?[pause]"
       - "[\\x0207]Chamber Officer[\\x0207]Please move to \nthe warp port \non my left.[pause][\\x0203]Good luck \n[\\x020801][\\x020501].[pause]"

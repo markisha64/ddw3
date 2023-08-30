@@ -44,7 +44,7 @@ strings:
   - a
   - "[\\x0207]Tamer Albert[\\x0207]You're the tamer \nthat beat the \nA.o.A![pause][\\x0203]Thank you! \nI'm really \ngrateful![pause]"
   - "[\\x0207]Tamer Albert[\\x0207]Now that we're \nhumans we have to \nbattle.[pause][\\x0203]Let's have round\none right now![pause]"
-  - "[\\x0207]Tamer Albert[\\x0207]Thanks to you \nI have no time\nto play.[pause][\\x0203]Hey you, come \non [-4] fight me\nright now.[pause]"
+  - "[\\x0207]Tamer Albert[\\x0207]Thanks to you \nI have no time\nto play.[pause][\\x0203]Hey you, come \non - fight me\nright now.[pause]"
   - "[\\x0207]Tamer Albert[\\x0207]Good, being \nOinkmon didn't \naffect me![pause][\\x0203]I'm going to get \nback the time \nI lost![pause]"
   - "[\\x0207]Tamer Albert[\\x0207]I lost. Hmm, did \nbecoming Oinkmon \naffect me?[pause]"
   - "[\\x0207]Card Maniac Chako[\\x0207]A true player\ncan't stop there![pause][\\x0203]Only the true \nplayers can\ncontinue![pause]"
@@ -713,7 +713,7 @@ strings:
     Oiooink,
     ooooink![pause]
   - '43'
-  - "[\\x0207]DO Guard[\\x0207]Welcome to Xuen \nWu City![pause][\\x0203]Wow [-4] haven't\nsaid that in a\nwhile![pause]"
+  - "[\\x0207]DO Guard[\\x0207]Welcome to Xuen \nWu City![pause][\\x0203]Wow - haven't\nsaid that in a\nwhile![pause]"
   - |-
     [\x0207]DO Guard[\x0207]Ooink, oink!
     Oionoink, oinkkk![pause]
@@ -833,7 +833,7 @@ strings:
   - "[\\x0207]Soldier[\\x0207]You're a fool for \nchallenging us \nalone![pause][\\x0203]This is the\nend of the line\nfor you![pause]"
   - "[\\x0207]Soldier[\\x0207]I praise you for \ncoming this far![pause][\\x0203]But do you really \nthink you can \ndefeat us?![pause]"
   - "[\\x0207]Attacker[\\x0207]I'll guard this \nplace with my\nlife![pause]"
-  - "[\\x0207]Attacker[\\x0207]They[-4]they'll \nget mad if I \nlose...[pause][\\x0203]So I have no\nchoice but to \nwin![pause]"
+  - "[\\x0207]Attacker[\\x0207]They-they'll \nget mad if I \nlose...[pause][\\x0203]So I have no\nchoice but to \nwin![pause]"
   - "[\\x0207]Soldier[\\x0207]You're a fool\nfor defying \nus![pause][\\x0203]I'll make you \nregret ever\ncoming here.[pause]"
   - "[\\x0207]Soldier[\\x0207]What can a \ntamer do?[pause][\\x0203]Stop your \nmeddling \nnow![pause]"
   - "[\\x0207]Attacker[\\x0207]I'm going to \nbeat you![pause][\\x0203]And then they'll \nmake me a \nSoldier![pause]"
@@ -893,7 +893,7 @@ strings:
   - '43'
   - "[\\x0207]Soldier[\\x0207]Only authorized \npersonnel beyond \nhere![pause][\\x0203]Not even leaders\nfrom another city \ncan pass![pause]"
   - "[\\x0207]Soldier[\\x0207]Leader is someone we \ncan look up to![pause][\\x0203]There's probably some\nplan behind the \nclosing of the city.[pause]"
-  - "[\\x0207]Soldier[\\x0207]A[-4]A[-4]Achoo![pause][\\x0203]It's cold here!\nI want to go some \nplace warmer.[pause]"
+  - "[\\x0207]Soldier[\\x0207]A-A-Achoo![pause][\\x0203]It's cold here!\nI want to go some \nplace warmer.[pause]"
   - "[\\x0207]Xuen Wu Chief[\\x0207]...I have \nbeen waiting\nfor you...[pause]"
   - '43'
   - "[\\x0207]Soldier[\\x0207]You're the one \ninterfering with \nthe A.o.A.[pause][\\x0203]Go see the Chief \nnow.[pause][\\x0203]He wants to battle \nwith you one on\none![pause]"

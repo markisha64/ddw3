@@ -8,7 +8,7 @@ files:
         Vraiment fou ![pause]
       - |-
         [\x0207][\x020902]3Quoi ?
-        Pourquoi es[-4]tu
+        Pourquoi es-tu
         aussi pressé ?[pause]
       - |-
         [\x0207]Teddy[\x0207]Lucky Mouse !
@@ -46,8 +46,8 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Homme[\x0207]Oh [-4]hé, qui
-        es[-4]tu ?!![pause][\x0203]Arrête de me
+        [\x0207]Homme[\x0207]Oh -hé, qui
+        es-tu ?!![pause][\x0203]Arrête de me
         tourner autour !
         Tu m'as fait peur...[pause]
       - |-
@@ -68,11 +68,11 @@ files:
         maintenant toi...[pause]
       - |-
         [\x0207][\x020902]3Etemon ?
-        Que s'est[-4]il
+        Que s'est-il
         passé ?[pause]
       - |-
         [\x0207]Nick[\x0207]J'ai trouvé ce gros
-        bouclier tape[-4]à[-4]l'oeil.[pause][\x0203]Etemon est arrivé et
+        bouclier tape-à-l'oeil.[pause][\x0203]Etemon est arrivé et
         a dit que c'était à lui.[pause][\x0203]Et il me l'a repris
         sans même me dire
         merci.[pause]
@@ -87,7 +87,7 @@ files:
         occupé, moi
         alors...[pause]
       - |-
-        [\x0207]Nick[\x0207]Pourquoi ne font[-4]ils
+        [\x0207]Nick[\x0207]Pourquoi ne font-ils
         pas leur travail ?[pause][\x0203]Si seulement ils
         faisaient comme moi ![pause]
   - strings:
@@ -104,7 +104,7 @@ files:
       - |-
         [\x0207][\x020902]3C'est bon. Tu portais
         la tenue de l'Etemon
-        là[-4]bas ![pause]
+        là-bas ![pause]
       - |-
         [\x0207]Mat le Malicieux[\x0207]...[pause][\x0203]Ah, tu as
         découvert ça ?
@@ -145,7 +145,7 @@ files:
       - '[\x0207]Kail[\x0207]...[pause]'
       - |-
         [\x0207]Kail[\x0207]Je sens qu'il est
-        là[-4]dedans. Pas
+        là-dedans. Pas
         toi ?[pause]
       - |-
         [\x0207][\x020902]3Hmm... Tant
@@ -163,10 +163,10 @@ files:
         jusqu'ici pour
         me défier ?[pause][\x0203]Je suis ton
         homme !
-        Battons[-4]nous ![pause]
+        Battons-nous ![pause]
       - |-
         [\x0207][\x020902]3D'accord !
-        Battons[-4]nous ![pause]
+        Battons-nous ![pause]
       - |-
         [\x0207]Datamon[\x0207]Tu ne peux
         pas me copier ![pause][\x0203]Tu dois arriver
@@ -174,7 +174,7 @@ files:
         ligne ! Bip ![pause]
       - |-
         [\x0207][\x020902]3Quoi ? Hm, OK.
-        Allons[-4]y ![pause]
+        Allons-y ![pause]
   - strings:
       - ''
       - |-
@@ -226,7 +226,7 @@ files:
         [\x0207]??? [\x0207]GUBIII ![pause][\x0203]Réponse Digimon,
         Réponse Digimon ![pause]
       - |-
-        [\x0207][\x020902]3Qui est[-4]ce ? Je
+        [\x0207][\x020902]3Qui est-ce ? Je
         ne connais pas
         ce Digimon.[pause]
       - '[\x0207]???[\x0207]GUBI ?[pause]'
@@ -235,12 +235,12 @@ files:
         l'air
         méchant...[pause]
       - |-
-        [\x0207][\x020902]3Hé, ouvre[-4]moi.[pause][\x0203]Je dois aller
+        [\x0207][\x020902]3Hé, ouvre-moi.[pause][\x0203]Je dois aller
         arrêter les
         méchants ![pause]
       - |-
         [\x0207]???[\x0207]Qui est
-        mé[-4]
+        mé-
         chant ?[pause]
       - |-
         [\x0207][\x020902]3Ah, et bien
@@ -253,7 +253,7 @@ files:
       - ''
       - |-
         [\x0207][\x020902]3Ouh, j'ai eu
-        peur. Qu'est[-4]
+        peur. Qu'est-
         ce que c'était ?[pause]
       - '[\x0207]???[\x0207]GUBIII ![pause]'
       - |-
@@ -263,7 +263,7 @@ files:
         disparaît pas...[pause]
       - |-
         [\x0207][\x020902]3Attends !
-        Où vas[-4]
+        Où vas-
         tu ?[pause]
   - strings:
       - ''
@@ -272,7 +272,7 @@ files:
         cette salle ?![pause]
       - |-
         [\x0207][\x020902]3Tiens, c'est
-        qui, là[-4]bas ?[pause]
+        qui, là-bas ?[pause]
       - |-
         [\x0207][\x020902]3Le Maître de
         jeu ! Je vais
@@ -285,8 +285,8 @@ files:
         passeras
         pas ![pause]
       - |-
-        [\x0207]Garde C[\x0207]Rends[-4]toi et
-        suis[-4]nous ![pause]
+        [\x0207]Garde C[\x0207]Rends-toi et
+        suis-nous ![pause]
   - strings:
       - ''
       - |-
@@ -307,11 +307,11 @@ files:
         viens ici ![pause]
       - |-
         [\x0207][\x020902]3Hé, Maître de jeu,
-        à qui parles[-4]tu ?
+        à qui parles-tu ?
         Au chef de l'AoA ?[pause]
       - |-
         [\x0207]Maître de jeu[\x0207]Oh, c'est ce
-        garçon de... [pause][\x0203]Que fais[-4]tu
+        garçon de... [pause][\x0203]Que fais-tu
         ici ?[pause]
       - |-
         [\x0207][\x020902]3Je suis ici pour te
@@ -340,7 +340,7 @@ files:
         tu n'as rien ![pause]
       - |-
         [\x0207]Nick[\x0207]On a des preuves,
-        à présent. Rends[-4]
+        à présent. Rends-
         toi, Maître de jeu.[pause][\x0203]Tu es sous mandat
         d'arrêt de la Police
         Internationale SAP ![pause]
@@ -377,13 +377,13 @@ files:
       - |-
         [\x0207]Le garçon[\x0207]Vraiment ? Désolé,
          je croyais que tu
-        étais des leurs.[pause][\x0203]Je m'appelle Kenny.[pause][\x0203]Comment es[-4]tu arrivé
+        étais des leurs.[pause][\x0203]Je m'appelle Kenny.[pause][\x0203]Comment es-tu arrivé
         jusqu'à Amaterasu ?[pause]
       - |-
         [\x0207][\x020902]3Par la brèche de
         sécurité creusée
-        par Bulbmon.[pause][\x0203]Kenny, sais[-4]tu où
-        se trouve le Digi[-4]
+        par Bulbmon.[pause][\x0203]Kenny, sais-tu où
+        se trouve le Digi-
         Oeuf du Savoir ?[pause]
       - |-
         [\x0207]Kenny le Brave[\x0207]Euh, non. Pas du
@@ -394,7 +394,7 @@ files:
         l'AoA ![pause]
       - |-
         [\x0207][\x020902]3Comment savoir
-        sans essayer ?[pause][\x0203]Qu'est[-4]il arrivé
+        sans essayer ?[pause][\x0203]Qu'est-il arrivé
         aux autres
         dresseurs ?[pause]
       - |-
@@ -435,7 +435,7 @@ files:
         déplacer ici ![pause]
       - |-
         [\x0207][\x020902]3J'ai le
-        Passe[-4]
+        Passe-
         Partout ![pause]
       - |-
         [\x0207]Kenny le Brave[\x0207]Avec ça, ils te
@@ -456,7 +456,7 @@ files:
         leur donner
         une raclée ![pause]
       - |-
-        [\x0207][\x020902]3Cherchons le Digi[-4]
+        [\x0207][\x020902]3Cherchons le Digi-
         Oeuf du Savoir ![pause]
   - strings:
       - ''
@@ -472,7 +472,7 @@ files:
         Tu es venu
         jusqu'ici ?[pause]
       - "[\\x0207]Teddy[\\x0207]Oui, avec Lisa\net les autres.[pause][\\x0203]Hé [\\x020801][\\x020501], tu \npeux attendre \navant d'entrer ?[pause][\\x0203]Lisa arrive avec \ntous ceux de la \nRésistance  ![pause]"
-      - "[\\x0207][\\x020902]3Alors, qu'en \nest[-4]il de \nl'A.o.A ?[pause]"
+      - "[\\x0207][\\x020902]3Alors, qu'en \nest-il de \nl'A.o.A ?[pause]"
       - "[\\x0207]Teddy[\\x0207]Ils ont été écrasés\npar la Résistance  ![pause][\\x0203]Quand on aura les \nquatre villes, il ne\nrestera qu'Amaterasu.[pause]"
       - |-
         [\x0207][\x020902]3Je vois !
@@ -489,7 +489,7 @@ files:
         Il n'y a
         personne...[pause]
       - "[\\x0207][\\x020902]3Ah, c'est comme\nla salle du Maître \nde Jeu d'Asuka  ![pause][\\x0203]Ceci une porte \nsecrète  ![pause][\\x0203]... mais quel\nest le code ?[pause][\\x0203]A Asuka, c'était\nMONSTRE... Ici,\nce serait DIGITAL ?[pause]"
-      - "[\\x0207][\\x020902]3Tiens, ça s'est\nouvert tout \nseul ??![pause][\\x0203]On m'attend\npeut[-4]être de\nl'autre côté...[pause][\\x0203]Très bien  !\nJ'entre, qui que\ntu sois  ![pause]"
+      - "[\\x0207][\\x020902]3Tiens, ça s'est\nouvert tout \nseul ??![pause][\\x0203]On m'attend\npeut-être de\nl'autre côté...[pause][\\x0203]Très bien  !\nJ'entre, qui que\ntu sois  ![pause]"
   - strings:
       - ''
       - |-
@@ -507,10 +507,10 @@ files:
   - strings:
       - ''
       - "[\\x0207]???[\\x0207]... Ils sont\nlamentables...[pause][\\x0203]Mais ta force \nest assez\nimpressionnante  ![pause]"
-      - "[\\x0207][\\x020902]3... Etes[-4]vous \nle Président\nde MAGAMI ?[pause]"
+      - "[\\x0207][\\x020902]3... Etes-vous \nle Président\nde MAGAMI ?[pause]"
       - |-
         [\x0207]???[\x0207]... Président ?
-        Oh, oui.[pause][\x0203]Mais appelle[-4]moi
+        Oh, oui.[pause][\x0203]Mais appelle-moi
         Commandant  !
         C'est plus simple ![pause]
       - |-
@@ -544,12 +544,12 @@ files:
         avec la machine.[pause]
       - "[\\x0207]Lisa[\\x0207]OK, très bien  !\nJe vais l'interroger.[pause][\\x0203]Et vous, arrêtez \nDestromon  ![pause]"
       - '[\x0207]Teddy[\x0207]Bien  ![pause]'
-      - '[\x0207]Nick[\x0207]En[-4]entendu  ![pause]'
+      - '[\x0207]Nick[\x0207]En-entendu  ![pause]'
       - |-
         [\x0207][\x020902]3Teddy, tu sais
         comment faire ?[pause]
       - "[\\x0207]Teddy[\\x0207]Hé, hé !\nEn gros...[pause][\\x0203]C'est le même système \nque l'ordinateur du \nserveur d'Asuka ![pause]"
-      - "[\\x0207]Nick[\\x0207]Hé, Teddy, \ndépêche[-4]toi  ![pause][\\x0203]Destromon va \natterrir sur \nune ville  ![pause]"
+      - "[\\x0207]Nick[\\x0207]Hé, Teddy, \ndépêche-toi  ![pause][\\x0203]Destromon va \natterrir sur \nune ville  ![pause]"
       - |-
         [\x0207]Teddy[\x0207]Une
         minute  ![pause]
@@ -562,7 +562,7 @@ files:
         voilà ![pause]
       - "[\\x0207]Nick[\\x0207]Assez \nparlé,\nTeddy ![pause]"
       - |-
-        [\x0207]Lisa[\x0207]Rends[-4]toi
+        [\x0207]Lisa[\x0207]Rends-toi
         à présent.[pause][\x0203]Tous les autres
         membres de l'AoA
         ont été arrêtés ![pause]
@@ -598,7 +598,7 @@ files:
       - ''
       - "[\\x0207][\\x020902]3Hmmm... le système \nMatrix doit se \ntrouver par ici...[pause][\\x0203]Mais je ne sais pas \ncomment le faire\nfonctionner...[pause][\\x0203]Mais le Maître de Jeu\na envoyé Vemmon\n d'ici.[pause]"
       - '[\x0207][\x020902]3Quoi ?[pause]'
-      - "[\\x0207][\\x020902]3Q...que fait\nVemmon ici ?[pause][\\x0203]Peut[-4]être... \nBon, je dois\nle suivre ![pause]"
+      - "[\\x0207][\\x020902]3Q...que fait\nVemmon ici ?[pause][\\x0203]Peut-être... \nBon, je dois\nle suivre ![pause]"
   - strings:
       - ''
       - |-
@@ -607,31 +607,31 @@ files:
   - strings:
       - ''
       - "[\\x0207]Kail[\\x0207][\\x020801][\\x020501]  !\nDieu merci  ! \nTu as raison  ![pause]"
-      - "[\\x0207][\\x020902]3...Kail  !\nQu'est[-4]ce...?[pause][\\x0203]Que font[-4]ils\ntous en \nOinkmons ?[pause]"
+      - "[\\x0207][\\x020902]3...Kail  !\nQu'est-ce...?[pause][\\x0203]Que font-ils\ntous en \nOinkmons ?[pause]"
       - |-
         [\x0207]Kail[\x0207]Les Vemmons !
         C'est eux qui
         ont fait ça ![pause]
       - |-
         [\x0207][\x020902]3Quoi ?
-        Qu'est[-4]ce
+        Qu'est-ce
         que tu dis ?[pause]
       - "[\\x0207]Kail[\\x0207]De nombreux Vemmons  \nsont sortis du Centre  \nAdm. d'Amaterasu  ![pause][\\x0203]Puis ils ont envoyé\ndes rayons et...[pause][\\x0203]transformé tout le \nmonde en Oinkmons  ![pause]"
-      - "[\\x0207][\\x020902]3Mais les Vemmons \nn'ont pas un\ntel pouvoir...[pause][\\x0203]Ont[-4]ils été...\nreprogrammés ?[pause]"
-      - "[\\x0207]Kail[\\x0207]Je ne sais pas.[pause][\\x0203]Je me suis cachée\navec les autres\nau sous[-4]sol.[pause][\\x0203]J'étais la seule à\nn'avoir pas été \ntransformée.[pause][\\x0203]Teddy et Lisa\nont été changés\nen Oinkmons.[pause]"
-      - "[\\x0207][\\x020902]3Que se passe[-4]t[-4]il ?[pause][\\x0203]Et où sont partis \nles Vemmons ?[pause]"
+      - "[\\x0207][\\x020902]3Mais les Vemmons \nn'ont pas un\ntel pouvoir...[pause][\\x0203]Ont-ils été...\nreprogrammés ?[pause]"
+      - "[\\x0207]Kail[\\x0207]Je ne sais pas.[pause][\\x0203]Je me suis cachée\navec les autres\nau sous-sol.[pause][\\x0203]J'étais la seule à\nn'avoir pas été \ntransformée.[pause][\\x0203]Teddy et Lisa\nont été changés\nen Oinkmons.[pause]"
+      - "[\\x0207][\\x020902]3Que se passe-t-il ?[pause][\\x0203]Et où sont partis \nles Vemmons ?[pause]"
       - "[\\x0207][\\x020902]3Et où sont partis \nles Vemmons ?[pause]"
       - "[\\x0207]Kail[\\x0207]Ils sont allés tout \ndroit vers la salle \ndu Maître ![pause]"
       - |-
         [\x0207][\x020902]3Cette salle
         recèle donc
-        un secret ![pause][\x0203]Bien, allons[-4]y ![pause][\x0203]Kail, va te mettre
+        un secret ![pause][\x0203]Bien, allons-y ![pause][\x0203]Kail, va te mettre
         en lieu sûr ![pause]
       - |-
         [\x0207]Kail[\x0207]Quoi ? !
         Mais...
         [\x020801][\x020501]...[pause]
-      - "[\\x0207][\\x020902]3Je suis le seul dans \nce monde à pouvoir \nles combattre ![pause][\\x0203]Ne t'inquiète pas !\nLaisse[-4]moi faire ![pause]"
+      - "[\\x0207][\\x020902]3Je suis le seul dans \nce monde à pouvoir \nles combattre ![pause][\\x0203]Ne t'inquiète pas !\nLaisse-moi faire ![pause]"
       - "[\\x0207]Kail[\\x0207]... Bien.\nJe crois en toi\n[\\x020801][\\x020501].[pause][\\x0203]Mais si tu \nperds, gare à \ntoi ![pause]"
       - |-
         [\x0207][\x020902]3Très bien !
@@ -704,17 +704,17 @@ files:
         Gunslinger ?![pause]
       - "Oui, je vais te montrer \nle glorieux visage qui\nflotte dans l'espace...[pause]"
       - |-
-        [\x0207][\x020902]3Qu[-4]
+        [\x0207][\x020902]3Qu-
         Quoi ?![pause]
   - strings:
       - ''
       - "Mon vrai but, c'était d'obtenir \nGunslinger ! Le Juggernaut \nn'était qu'un leurre ![pause][\\x0203]L'opération Sigma de l'A.o.A\nentre dans sa phase finale...[pause]"
       - |-
         [\x0207][\x020902]3Phase finale ?
-        Que font[-4]ils ?![pause]
+        Que font-ils ?![pause]
       - "Nous allons lancer la Digionde du canon \nRagnarok sur Gunslinger et transformer \ntoute vie terrestre en Oinkmon ![pause]"
       - "[\\x0207][\\x020902]3Qu...quoi ?! Je \nne les laisserai \npas faire ![pause]"
-      - "Alors, viens à Gunslinger \net bats[-4]toi ![pause][\\x0203]Tu n'as rien à craindre.\nUtilise le téléporteur et tu\narriveras au Gunslinger ![pause][\\x0203]Réglons les choses une\nbonne fois pour toutes.[pause][\\x0203]Le sort de l'humanité \nest en jeu...[pause]"
+      - "Alors, viens à Gunslinger \net bats-toi ![pause][\\x0203]Tu n'as rien à craindre.\nUtilise le téléporteur et tu\narriveras au Gunslinger ![pause][\\x0203]Réglons les choses une\nbonne fois pour toutes.[pause][\\x0203]Le sort de l'humanité \nest en jeu...[pause]"
       - |-
         [\x0207][\x020902]3...bien, Lord
         Megadeath,
@@ -723,7 +723,7 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]
   - strings:
       - ''
@@ -748,7 +748,7 @@ files:
       - "[\\x0207]Pharaohmon[\\x0207]Tu es fort. Nos \ndieux seront avec \ntoi ![pause]"
   - strings:
       - ''
-      - "[\\x0207]Hide le Footeux[\\x0207]Hé, Cardmon \nne sort pas...[pause][\\x0203]Et pourquoi ai[-4]je \nperdu Gabumon...[pause]"
+      - "[\\x0207]Hide le Footeux[\\x0207]Hé, Cardmon \nne sort pas...[pause][\\x0203]Et pourquoi ai-je \nperdu Gabumon...[pause]"
       - "[\\x0207][\\x020902]3Mais, pourquoi \ntu bottes \nles arbres ?[pause]"
       - "[\\x0207]Hide le Footeux[\\x0207]Tu demandes \npourquoi je shoote \ndans les arbres ?[pause][\\x0203]Pour trouver un \nCardmon, enfin ![pause]"
       - |-
@@ -758,13 +758,13 @@ files:
       - "[\\x0207]Hide le Footeux[\\x0207]Cardmon est un Digimon \nqui sème des boosters\ncontenant des cartes.[pause][\\x0203]Seul Divermon, dans la \nville, peut ouvrir les\nboosters.[pause]"
       - |-
         [\x0207][\x020902]3Cardmon sème des
-        Boosters ?![pause][\x0203]Laisse[-4]moi
+        Boosters ?![pause][\x0203]Laisse-moi
         shooter aussi...[pause]
-      - "[\\x0207]Hide le Footeux[\\x0207]Hé hé hé. Il te \nfaut des \narbori[-4]bottes.[pause][\\x0203]Tu voudras sans \ndoute les bottes.\nAlors, soit...[pause][\\x0203]J'ai perdu ma carte\nGabumon. Tu peux\nla retrouver ?[pause][\\x0203]Si tu la trouves, je \nte dirai où sont \nles bottes.[pause]"
+      - "[\\x0207]Hide le Footeux[\\x0207]Hé hé hé. Il te \nfaut des \narbori-bottes.[pause][\\x0203]Tu voudras sans \ndoute les bottes.\nAlors, soit...[pause][\\x0203]J'ai perdu ma carte\nGabumon. Tu peux\nla retrouver ?[pause][\\x0203]Si tu la trouves, je \nte dirai où sont \nles bottes.[pause]"
       - "[\\x0207][\\x020902]3Gabumon ?\nOK, je la trouve \net je reviens ![pause]"
   - strings:
       - ''
-      - "[\\x0207][\\x020902]3Hé Armormon,\nrends[-4]moi service, \ntu veux ?[pause][\\x0203]Je peux avoir \nl'ADNN Monmon\ndepuis ton ADNN ?[pause]"
+      - "[\\x0207][\\x020902]3Hé Armormon,\nrends-moi service, \ntu veux ?[pause][\\x0203]Je peux avoir \nl'ADNN Monmon\ndepuis ton ADNN ?[pause]"
       - "[\\x0207]Armormon[\\x0207]Non ! Ce n'est pas\nquelque chose que \nl'on donne comme ça.[pause][\\x0203]Si tu le veux\nvraiment, il faudra\nme le prendre.[pause]"
   - strings:
       - ''
@@ -788,7 +788,7 @@ files:
         mes pouvoirs ![pause]
       - |-
         [\x0207]BK WarGreymon[\x0207]Très bien.
-        Allons[-4]y ![pause]
+        Allons-y ![pause]
   - strings:
       - ''
       - "[\\x0207]BK WarGreymon[\\x0207]Tu n'es sans \ndoute pas un\nvantard.[pause]"
@@ -803,12 +803,12 @@ files:
       - ''
       - |-
         [\x0207][\x020902]3Très bien,
-        Battons[-4]
+        Battons-
         nous ![pause]
       - "[\\x0207]BK MegaGargomon[\\x0207]Ah ! Je commençais \nà m'ennuyer ferme\npar ici.[pause]"
       - |-
         [\x0207][\x020902]3OK,
-        allons[-4]y ![pause]
+        allons-y ![pause]
       - |-
         [\x0207]BK MegaGargom[\x0207]Ce ne sera
         pas si facile
@@ -826,10 +826,10 @@ files:
   - strings:
       - ''
       - "[\\x0207]Veemon[\\x0207]Alors, on joue à \nquoi ?\nHmmmmm...[pause]"
-      - "[\\x0207][\\x020902]3Hé, Veemon ! Je \nveux les \nArbori[-4]bottes.[pause]"
-      - "[\\x0207]Veemon[\\x0207]Arbori[-4]bottes ? Les \nbottes pour shooter\ndans les arbres...[pause][\\x0203]Bien sûr, mais \nmais tu dois jouer \navec moi ![pause]"
+      - "[\\x0207][\\x020902]3Hé, Veemon ! Je \nveux les \nArbori-bottes.[pause]"
+      - "[\\x0207]Veemon[\\x0207]Arbori-bottes ? Les \nbottes pour shooter\ndans les arbres...[pause][\\x0203]Bien sûr, mais \nmais tu dois jouer \navec moi ![pause]"
       - "[\\x0207][\\x020902]3Bien sûr !\nOn joue à \nquoi ?[pause]"
-      - "[\\x0207]Veemon[\\x0207]Je vais me cacher  \ndans la Forêt Vive et \ntu devras me trouver. [pause][\\x0203]Si tu me trouves,\nje te donne les\nArbori[-4]bottes ![pause][\\x0203]Mais si tu quittes\nla forêt sans m'avoir\ntrouvé, tu perds ![pause][\\x0203]Si tu sors de la Forêt\nVive, je rentre \nmanger à la maison ![pause]"
+      - "[\\x0207]Veemon[\\x0207]Je vais me cacher  \ndans la Forêt Vive et \ntu devras me trouver. [pause][\\x0203]Si tu me trouves,\nje te donne les\nArbori-bottes ![pause][\\x0203]Mais si tu quittes\nla forêt sans m'avoir\ntrouvé, tu perds ![pause][\\x0203]Si tu sors de la Forêt\nVive, je rentre \nmanger à la maison ![pause]"
       - |-
         [\x0207][\x020902]3OK !
         Je vais te
@@ -839,8 +839,8 @@ files:
       - "[\\x0207][\\x020902]3Oh, bien !\nPartons à sa \nrecherche ![pause]"
   - strings:
       - ''
-      - "[\\x0207]Veemon[\\x0207]Hé, oui. Je suis\nimpressionné ![pause][\\x0203]Tiens, prends les \nArbori[-4]bottes ![pause]"
-      - "[\\x0207][\\x020902]3Bien ! Merci, \nVeemon.[pause][\\x0203]Oui ! J'ai les\nArbori[-4]bottes ![pause]"
+      - "[\\x0207]Veemon[\\x0207]Hé, oui. Je suis\nimpressionné ![pause][\\x0203]Tiens, prends les \nArbori-bottes ![pause]"
+      - "[\\x0207][\\x020902]3Bien ! Merci, \nVeemon.[pause][\\x0203]Oui ! J'ai les\nArbori-bottes ![pause]"
       - "[\\x0207]Veemon[\\x0207]Content pour toi ! \nBon, je rentre \nmanger ![pause][\\x0203]On rejouera un \nde ces quatre.\nA plus tard ![pause]"
   - strings:
       - ''
@@ -862,7 +862,7 @@ files:
         bonnes cartes ![pause]
   - strings:
       - ''
-      - "[\\x0207]Divermon[\\x0207]Dis[-4]moi ce qui \ncloche avec mon \ndossier ![pause][\\x0203]Oh ? D'accord !\nJe peux gagner,\nmaintenant.[pause]"
+      - "[\\x0207]Divermon[\\x0207]Dis-moi ce qui \ncloche avec mon \ndossier ![pause][\\x0203]Oh ? D'accord !\nJe peux gagner,\nmaintenant.[pause]"
   - strings:
       - ''
       - "[\\x0207]Divermon[\\x0207]Oh, j'ai trop  \nvoulu en rire ![pause][\\x0203]Je dois mieux  \nchoisir mes cartes.[pause]"
@@ -912,5 +912,5 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]

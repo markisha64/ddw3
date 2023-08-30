@@ -3,7 +3,7 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Byakko Leader[\x0207]Willkommen, Heraus[-4]
+        [\x0207]Byakko Leader[\x0207]Willkommen, Heraus-
         forderer. Auf geht's![pause]
       - |-
         [\x0207][\x020902]3Warte eine
@@ -29,11 +29,11 @@ files:
         Lucky Mouse...[pause]
       - |-
         [\x0207]Byakko Leader[\x0207]Einen Moment noch
-        Das Byakko[-4]Abzei.
+        Das Byakko-Abzei.
         ist in dem Raum.[pause][\x0203]Hol es dir, dann
         höre ich dir zu.[pause]
       - |-
-        [\x0207][\x020902]3OK, bin so[-4]
+        [\x0207][\x020902]3OK, bin so-
         fort zurück.
         Warte hier![pause]
   - strings:
@@ -91,7 +91,7 @@ files:
       - "Ihr beide \nwollt mit\nmir reden, od.?[pause]"
       - |-
         [\x0207]Lisa[\x0207]Aaaah!
-        Nu[-4]nu[-4]
+        Nu-nu-
         Numemon![pause]
       - |-
         [\x0207]Numemon[\x0207]Beruhig dich,
@@ -107,11 +107,11 @@ files:
       - |-
         [\x0207][\x020902]3Was?! Er ist
         Lucky Mouse?[pause][\x0203]Dieser Numemon
-        ist d[-4]d[-4]dann also...[pause]
+        ist d-d-dann also...[pause]
       - |-
         [\x0207]Lucky Mouse[\x0207]Lisa ist etwas anderes,
-        aber dir habe ich ver[-4]
-        boten, herzukommen.[pause][\x0203]Es ist ge[-4]
+        aber dir habe ich ver-
+        boten, herzukommen.[pause][\x0203]Es ist ge-
         fährlich hier. Wir gehen
         besser in mein Versteck![pause]
   - strings:
@@ -145,7 +145,7 @@ files:
       - ''
       - |-
         [\x0207]BK WarGrowlmon[\x0207]Verloren. Hat
-        aber Spaβ ge[-4]
+        aber Spaβ ge-
         macht. Danke![pause]
       - |-
         [\x0207][\x020902]3Ebenso.
@@ -155,12 +155,12 @@ files:
         dies zum
         Dank![pause]
       - |-
-        [\x0207][\x020902]3Toll! Die ge[-4]
+        [\x0207][\x020902]3Toll! Die ge-
         fährl. Rüstung![pause]
       - |-
         [\x0207]BK WarGrowlmon[\x0207]Heh heh, ist das
         nich cool?![pause][\x0203]Es ist mein Schatz,
-        also geh bitte vor[-4]
+        also geh bitte vor-
         sichtig damit um.[pause]
   - strings:
       - ''
@@ -182,7 +182,7 @@ files:
       - "[\\x0207]BK KingNumemon[\\x0207]Oh, nein...ich \nhabe verloren...[pause]"
       - |-
         [\x0207][\x020902]3Aber du warst
-        sehr gut.[pause][\x0203]Du bist wirk[-4]
+        sehr gut.[pause][\x0203]Du bist wirk-
         lich ein König![pause]
       - |-
         [\x0207]BK KingNumemon[\x0207]...wiwirklich?
@@ -191,7 +191,7 @@ files:
         Ich gebe dir das.[pause]
       - |-
         [\x0207][\x020902]3Yeah! Ich hab
-        den BIT[-4]
+        den BIT-
         Adapter![pause]
       - |-
         [\x0207]BK KingNumemon[\x0207]Vergiβ mich nie,
@@ -216,19 +216,19 @@ files:
         [\x0207][\x020902]3Hey,
         sie sind..?![pause]
       - |-
-        [\x0207]Byakko[-4]Bürg.[\x0207]Hä?! Da hat
-        sich was be[-4]
+        [\x0207]Byakko-Bürg.[\x0207]Hä?! Da hat
+        sich was be-
         wegt, oder?[pause]
-      - "[\\x0207]Byakko[-4]Bürger[\\x0207]Kannst du von \nda aus\netwas sehen?[pause]"
+      - "[\\x0207]Byakko-Bürger[\\x0207]Kannst du von \nda aus\netwas sehen?[pause]"
       - |-
-        [\x0207]Byakko[-4]Bür.[\x0207]Im Westen
+        [\x0207]Byakko-Bür.[\x0207]Im Westen
         alles OK![pause]
-      - "[\\x0207]Byakko[-4]Bürger[\\x0207]Nichts im \nSüden![pause]"
+      - "[\\x0207]Byakko-Bürger[\\x0207]Nichts im \nSüden![pause]"
       - |-
-        [\x0207]Byakko[-4]Bürger[\x0207]Auch hier
+        [\x0207]Byakko-Bürger[\x0207]Auch hier
         alles OK![pause]
       - |-
-        [\x0207]Byakko[-4]Bürger[\x0207]Dann sehe ich
+        [\x0207]Byakko-Bürger[\x0207]Dann sehe ich
         wohl Gespenst.[pause]
       - "[\\x0207][\\x020902]3...sie sind \nwachsam...[pause][\\x0203]Byakko City kann\nich eine Weile\nnicht betreten...[pause]"
   - strings:
@@ -242,7 +242,7 @@ files:
         ist er?![pause]
       - "[\\x0207]Lucky Mouse[\\x0207]Teddy? Ach, der Junge\nder meinen Code fand,\nmich kontaktierte![pause][\\x0203]Nicht ich, die A.o.A \nhat ihn gefangen![pause]"
       - "[\\x0207][\\x020902]3Was? Was soll\ndas heiβen?[pause][\\x0203]Laut Gamemaster\nvon Asuka hast du \nihn...[pause]"
-      - "[\\x0207][\\x020902]3... Sie gehört zu den\nTop[-4]Agenten d. A.o.A.[pause][\\x0203]Sie ist nicht die \neinzige. MAGAMI selbst\nist die A.o.A![pause][\\x0203]Es gibt viele Mitglieder\nin diesem Asuka[-4]Server![pause]"
+      - "[\\x0207][\\x020902]3... Sie gehört zu den\nTop-Agenten d. A.o.A.[pause][\\x0203]Sie ist nicht die \neinzige. MAGAMI selbst\nist die A.o.A![pause][\\x0203]Es gibt viele Mitglieder\nin diesem Asuka-Server![pause]"
       - |-
         [\x0207][\x020902]3Dann hat sie mich
         also angelogen?![pause][\x0203]Ich muss Teddy
@@ -250,7 +250,7 @@ files:
       - |-
         [\x0207]Lisa[\x0207]Was haben die
         A.o.A. vor?[pause]
-      - "[\\x0207]Lucky Mouse[\\x0207]Sie wollen\nDigimon[-4]Online\nübernehmen.[pause][\\x0203]Dann können sie sich\nin der ganzen Welt \nin das Netz einhacken.[pause]"
+      - "[\\x0207]Lucky Mouse[\\x0207]Sie wollen\nDigimon-Online\nübernehmen.[pause][\\x0203]Dann können sie sich\nin der ganzen Welt \nin das Netz einhacken.[pause]"
       - "[\\x0207]Lisa[\\x0207]Na, das sind ja\nnicht gerade tolle\nNeuigkeiten![pause][\\x0203]Dann kontrollieren\nsie alle Computer \nder Welt![pause]"
       - |-
         [\x0207]Lucky Mouse[\x0207]Um das zu verhindern,
@@ -304,7 +304,7 @@ files:
         [\x0207][\x020902]3Unmöglich! Er ist
         Digimon geworden![pause]
       - |-
-        [\x0207]Angreifer[\x0207]Ihr werdet in Oink[-4]
+        [\x0207]Angreifer[\x0207]Ihr werdet in Oink-
         mon verwandelt u.
         in Käfige gesperrt![pause][\x0203]OK, wer ist dran?[pause]
       - |-
@@ -312,7 +312,7 @@ files:
         Keine Energie mehr![pause][\x0203]Also gut. Kommt,
         meine Digimon![pause]
       - "[\\x0207][\\x020902]3Wenn du kämpfen\nwillst, musst du \nerst an mir vorbei[pause]"
-      - "[\\x0207]Lucky Mouse[\\x0207]Ich habe früher bei\nDigimon[-4]Online \ngearbeitet.[pause][\\x0203]Aber als ich merkte,\nwas dort geschah,\nwar es zu spät...[pause]"
+      - "[\\x0207]Lucky Mouse[\\x0207]Ich habe früher bei\nDigimon-Online \ngearbeitet.[pause][\\x0203]Aber als ich merkte,\nwas dort geschah,\nwar es zu spät...[pause]"
   - strings:
       - ''
       - |-
@@ -332,7 +332,7 @@ files:
         [\x0207][\x020902]3OK, ich habe mich
         entschieden! Ich gehe
         nach Asuka City![pause][\x0203]Ich werde Teddy
-        retten u. d. Game[-4]
+        retten u. d. Game-
         master besiegen![pause]
       - |-
         [\x0207]Kail[\x0207]Ja, wir machen die
@@ -379,7 +379,7 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Byakko Leader[\x0207]Oh, ver[-4]
+        [\x0207]Byakko Leader[\x0207]Oh, ver-
         stehe.[pause][\x0203]Verzeih, dass
         ich dich für d.
         A.o.A. hielt.[pause]
@@ -387,20 +387,20 @@ files:
       - |-
         [\x0207]Byakko Leader[\x0207]Ja. Das sind die
         A.o.A![pause][\x0203]Sie haben einfach
-        Byakko City besetzt![pause][\x0203]Wir wurden ins Keller[-4]
+        Byakko City besetzt![pause][\x0203]Wir wurden ins Keller-
         gefängnis gesperrt...[pause][\x0203]Aber Numemon hat
         uns gerettet.[pause]
       - |-
         [\x0207][\x020902]3Verstehe...
         Aber die A.o.A. und
         Lucky Mouse...[pause][\x0203]Und was passiert
-        mit Digimon[-4]Online?[pause]
-      - "[\\x0207]Byakko Leader[\\x0207]Das weiβ ich nicht.[pause][\\x0203]Von diesem Numemon \nkannst du mehr \nerfahren.[pause][\\x0203]Du findest ihn in der\nDum Dum[-4]Fabrik.[pause]"
+        mit Digimon-Online?[pause]
+      - "[\\x0207]Byakko Leader[\\x0207]Das weiβ ich nicht.[pause][\\x0203]Von diesem Numemon \nkannst du mehr \nerfahren.[pause][\\x0203]Du findest ihn in der\nDum Dum-Fabrik.[pause]"
       - '[\x0207][\x020902]3OK![pause]'
       - "[\\x0207]Byakko Leader[\\x0207]Warte mal.\nIch habe noch \netwas vergessen![pause]"
       - |-
         [\x0207][\x020902]3Klasse! Das
-        Byakko[-4]Abzei.![pause][\x0203]Danke, Byakko
+        Byakko-Abzei.![pause][\x0203]Danke, Byakko
         Leader![pause]
       - |-
         [\x0207]Byakko Leader[\x0207]Schlieβlich hast
@@ -417,13 +417,13 @@ files:
         Was willst du
         von ihm?[pause]
       - |-
-        [\x0207][\x020902]3Ich muss ihn un[-4]
+        [\x0207][\x020902]3Ich muss ihn un-
         bedingt etwas fragen.
         Bitte, sag schon![pause]
-      - "[\\x0207]HiAndromon[\\x0207]Ich weiβ, wo er ist,\naber das kann ich dir\nnicht einfach sagen.[pause][\\x0203]Ab hier dürfen nur\ndie Starken weiter[-4]\ngehen.[pause][\\x0203]Wenn du ihn trotzdem\nsehen willst, musst \ndu mich besiegen.[pause]"
+      - "[\\x0207]HiAndromon[\\x0207]Ich weiβ, wo er ist,\naber das kann ich dir\nnicht einfach sagen.[pause][\\x0203]Ab hier dürfen nur\ndie Starken weiter-\ngehen.[pause][\\x0203]Wenn du ihn trotzdem\nsehen willst, musst \ndu mich besiegen.[pause]"
   - strings:
       - ''
-      - "[\\x0207]HiAndromon[\\x0207]...ich respektiere\ndeine groβe Stärke.\nGeh durch![pause][\\x0203]Numemon ist in der\nKanalisation hinter\nd. geheimen Treppe.[pause][\\x0203]Ich habe die Tür zur\ngeheimen Treppe\naufgeschlossen.[pause][\\x0203]Geh weiter, aber \nnimm dieses rosti[-4]\nge Gewehr mit.[pause]"
+      - "[\\x0207]HiAndromon[\\x0207]...ich respektiere\ndeine groβe Stärke.\nGeh durch![pause][\\x0203]Numemon ist in der\nKanalisation hinter\nd. geheimen Treppe.[pause][\\x0203]Ich habe die Tür zur\ngeheimen Treppe\naufgeschlossen.[pause][\\x0203]Geh weiter, aber \nnimm dieses rosti-\nge Gewehr mit.[pause]"
       - |-
         [\x0207][\x020902]3Spitze! Das
         rostige Gewehr![pause][\x0203]Danke HiAndromon!
@@ -452,7 +452,7 @@ files:
         [\x0207][\x020902]3Oh, das
         ist doch...
         Lisa![pause]
-      - "[\\x0207]Lisa[\\x0207]... Hey hey! Du \nbist doch [\\x020801][\\x020501]![pause][\\x0203]Bitte! Hilf diesem sü[-4]\nβen Wesen in der Not![pause]"
+      - "[\\x0207]Lisa[\\x0207]... Hey hey! Du \nbist doch [\\x020801][\\x020501]![pause][\\x0203]Bitte! Hilf diesem sü-\nβen Wesen in der Not![pause]"
       - |-
         [\x0207][\x020902]3OK. Ist
         doch klar![pause]
@@ -469,17 +469,17 @@ files:
       - |-
         [\x0207][\x020902]3Ich komme nicht in
         Asuka City rein.[pause][\x0203]Vielleicht käme ich
-        mit einem Personal[-4]
+        mit einem Personal-
         pass rein...[pause]
       - |-
-        [\x0207]Kail[\x0207]Ein Perso[-4]
+        [\x0207]Kail[\x0207]Ein Perso-
         nalpass?[pause]
       - |-
         [\x0207]Kurt[\x0207]Oink!
         Oink![pause]
       - |-
         [\x0207]Kail[\x0207]Was willst
-        du uns sa[-4]
+        du uns sa-
         gen, Kurt?[pause]
       - |-
         [\x0207][\x020902]3Vielleicht hat
@@ -601,7 +601,7 @@ files:
         Wir verlassen
         uns auf dich![pause]
       - |-
-        [\x0207]Kail[\x0207]Sei vorsich[-4]
+        [\x0207]Kail[\x0207]Sei vorsich-
         tig, ja?[pause]
       - '[\x0207]Nick[\x0207]Personalpass?[pause]'
       - |-
@@ -621,11 +621,11 @@ files:
       - |-
         [\x0207][\x020902]3Gib mir
         deinen weiβen
-        ID[-4]Pass![pause]
+        ID-Pass![pause]
       - |-
         [\x0207]Bai Hu Chief[\x0207]Verstehe.
         Ha ha ha![pause][\x0203]Egal was du
-        versuchst, wir ge[-4]
+        versuchst, wir ge-
         winnen doch![pause][\x0203]Jetzt lernst du
         deine Lektion![pause]
   - strings:
@@ -637,7 +637,7 @@ files:
         Ist das...?[pause]
       - |-
         [\x0207][\x020902]3Ja! Ich hab den
-        weiβen ID[-4]Pass![pause][\x0203]Wir brauchen nur
+        weiβen ID-Pass![pause][\x0203]Wir brauchen nur
         noch einen. Los![pause]
   - strings:
       - ''
@@ -653,20 +653,20 @@ files:
       - |-
         [\x0207]General[\x0207]Heh heh heh...
         Ich sag's dir, wenn
-        du's wissen willst.[pause][\x0203]Mit dem Transport[-4]
+        du's wissen willst.[pause][\x0203]Mit dem Transport-
         Digimon von den
         A.o.A...[pause][\x0203]Wir sind mit Bulbmon
         von Amaterasu auf
         diesen Server gekommen![pause]
       - '[\x0207][\x020902]3Bulbmon?![pause]'
-      - "[\\x0207]General[\\x0207]Ja, ein tolles Digi[-4]\nmon, das zwischen \nServ. wechs. kann![pause]"
+      - "[\\x0207]General[\\x0207]Ja, ein tolles Digi-\nmon, das zwischen \nServ. wechs. kann![pause]"
       - |-
         [\x0207][\x020902]3Verstehe nur
         Bahnhof. Was
         bedeutet das?[pause]
       - |-
         [\x0207]General[\x0207]Lucky Mouse hat ein
-        Schutzfeld eingerichtet![pause][\x0203]Bulbmon brach zusam[-4]
+        Schutzfeld eingerichtet![pause][\x0203]Bulbmon brach zusam-
         men u. warf uns raus![pause][\x0203]Darum haben wir
         schnell Byakko
         City angegriffen.[pause]
@@ -674,7 +674,7 @@ files:
       - "[\\x0207]General[\\x0207]Keine Ahnung![pause][\\x0203]Ich schätze, es \ngräbt noch ein \npaar riesige Löcher![pause]"
       - |-
         [\x0207][\x020902]3Dann sollte ich
-        wohl nach Bulb[-4]
+        wohl nach Bulb-
         mon suchen...[pause][\x0203]Aber ich glaube,
         ich habe Bulbmon
         schon mal gesehen...[pause]
@@ -688,25 +688,25 @@ files:
       - |-
         [\x0207][\x020902]3Ja, dir auch
         viel Glück![pause]
-      - "[\\x0207]Leader Chuck[\\x0207]Ich möchte dir wirk[-4]\nlich helfen u. mit\ndir kämpfen, aber[pause][\\x0203]wir müssen hier\ndie Stellung im \nFort halten.[pause]"
+      - "[\\x0207]Leader Chuck[\\x0207]Ich möchte dir wirk-\nlich helfen u. mit\ndir kämpfen, aber[pause][\\x0203]wir müssen hier\ndie Stellung im \nFort halten.[pause]"
       - |-
         [\x0207][\x020902]3Ist schon OK.
         Mach dir keine
         Sorgen um mich![pause]
-      - "[\\x0207]Leader Chuck[\\x0207]Tut mir leid, dass der \nweite Weg umsonst war.[pause][\\x0203]Wenn wir zurück nach\nAmaterasu City kommen,\nkön. wir sicher helfen.[pause][\\x0203]Ich hätte aber nie ge[-4]\ndacht, dass sie Knight[-4]\nmon umprogrammieren.[pause]"
+      - "[\\x0207]Leader Chuck[\\x0207]Tut mir leid, dass der \nweite Weg umsonst war.[pause][\\x0203]Wenn wir zurück nach\nAmaterasu City kommen,\nkön. wir sicher helfen.[pause][\\x0203]Ich hätte aber nie ge-\ndacht, dass sie Knight-\nmon umprogrammieren.[pause]"
       - |-
         [\x0207][\x020902]3Knightmon...
         Wie kann ich
         ihn besiegen?[pause]
       - |-
-        [\x0207]Leader Chuck[\x0207]Wenn er sich in Bewe[-4]
+        [\x0207]Leader Chuck[\x0207]Wenn er sich in Bewe-
         gung setzt, kannst du
         Knightmon stoppen...[pause][\x0203]Du brauchst die vier
-        Code[-4]Pässe der City[-4]
+        Code-Pässe der City-
         Leader.[pause][\x0203]Aber alle Leader wurden
         gefangen, daher kann
-        ich sie nicht...[pause][\x0203]Die City[-4]Chiefs der
-        A.o.A. müssen sie ge[-4]
+        ich sie nicht...[pause][\x0203]Die City-Chiefs der
+        A.o.A. müssen sie ge-
         nommen haben...[pause]
       - |-
         [\x0207][\x020902]3Verstehe.

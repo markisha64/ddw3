@@ -12,14 +12,14 @@ strings:
   - TECHNIK
   - STATUS
   - KARTENORDNER
-  - '-----'
-  - --
-  - '----'
+  - ーーーーー
+  - ーー
+  - ーーーー
   - |-
-    Digimon[-4]Formation ändern
+    Digimon-Formation ändern
     [triangle]: Zurück zum Menü
   - |-
-    Digi.[-4]Formation nicht ändern
+    Digi.-Formation nicht ändern
     [triangle]: Zurück zum Menü
   - Welches tauschen?
   - Mit wem tausch.?
@@ -51,14 +51,14 @@ strings:
   - Wofür ben.
   - Digitat. ans.
   - Ausr. ans.
-  - Demo[-4]Setup
+  - Demo-Setup
   - Digimons Digitation und Ausr.
   - Karten ansehen?
   - Ja
   - Nein
   - Digitier.
   - EXP
-  - '--------'
+  - ーーーーーーーー
   - Digitation wählen
   - Fähigk.
   - Kampfdigitation Ein
@@ -74,10 +74,10 @@ strings:
   - Rechts
   - Zubehör
   - Keine Ausrüst.
-  - Digitations[-4]Demo
+  - Digitations-Demo
   - EIN
   - AUS
-  - Kampfdigit.[-4]Demo einrichten
+  - Kampfdigit.-Demo einrichten
   - Kartenalbum
   - Ordner bearbeiten
   - Karte bearb.
@@ -111,4 +111,4 @@ strings:
   - Keine wichtigen Items.
   - Nicht genügend MP.
   - Kein Effekt.
-  - '-'
+  - ー

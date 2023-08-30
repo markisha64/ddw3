@@ -67,8 +67,8 @@ strings:
   - a
   - |-
     [\x0207]Terriermon[\x0207]...mmmm,
-    Mou[-4]man[-4]tai
-    mou[-4]man[-4]tai.[pause]
+    Mou-man-tai
+    mou-man-tai.[pause]
   - |-
     [\x0207]Gabum.[\x0207]Zzzzz.
     Zzzzzzz[pause]
@@ -166,7 +166,7 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Sepikmon[\x0207]¡O[-4]Oh! Mira.
+    [\x0207]Sepikmon[\x0207]¡O-Oh! Mira.
     ¡Encontré mi máscara![pause][\x0203]¿...una forma de
     derrotar a Zanbamon?
     ¡Ni idea![pause][\x0203]Yo soy el que ha
@@ -193,7 +193,7 @@ strings:
     la Máscara
     Sepik![pause]
   - |-
-    [\x0207]Etemon[\x0207]¿...que[-4]qué?
+    [\x0207]Etemon[\x0207]¿...que-qué?
     ¡No he hecho
     nada malo![pause]
   - '[\x0207]Kail[\x0207]... ¡[\x020801][\x020501]![pause]'
@@ -664,8 +664,8 @@ strings:
     en ello, así que
     no lo sé...[pause]
   - "[\\x0207]Yuka Vago[\\x0207]Dicen que todo\nes culpa de \nRatón Suerte.[pause][\\x0203]Pero no sé si\nserá verdad.[pause]"
-  - "[\\x0207]Yuka Vago[\\x0207]Mm, ¿Cómo debería\ndigievolucionar mi\nDigimon?[pause][\\x0203]El Digimon que elijas\ndeterminará las \ntecno[-4]evoluciones.[pause]"
-  - "[\\x0207]Yuka Vago[\\x0207]Mm, ¿Cómo debería\ndigievolucionar mi\nDigimon?[pause][\\x0203]El Digimon que elijas\ndeterminará las \ntecno[-4]evoluciones.[pause]"
+  - "[\\x0207]Yuka Vago[\\x0207]Mm, ¿Cómo debería\ndigievolucionar mi\nDigimon?[pause][\\x0203]El Digimon que elijas\ndeterminará las \ntecno-evoluciones.[pause]"
+  - "[\\x0207]Yuka Vago[\\x0207]Mm, ¿Cómo debería\ndigievolucionar mi\nDigimon?[pause][\\x0203]El Digimon que elijas\ndeterminará las \ntecno-evoluciones.[pause]"
   - |-
     [\x0207]Yuka Vago[\x0207]Mmm, Me pregunto qué
     pasará con Digimon
@@ -938,7 +938,7 @@ strings:
     me cogiera A.o.A.![pause][\x0203]¡Habría llorado si
     me quitan mis
     objetos![pause]
-  - "[\\x0207]Sandy[\\x0207]¿Conoces el \nDigi[-4]Huevo de\nSabiduría?[pause][\\x0203]¡Puedes llamar a\nun Digimon con él\ny meterte bajo tierra![pause]"
+  - "[\\x0207]Sandy[\\x0207]¿Conoces el \nDigi-Huevo de\nSabiduría?[pause][\\x0203]¡Puedes llamar a\nun Digimon con él\ny meterte bajo tierra![pause]"
   - |-
     [\x0207]Sandy[\x0207]Hay armaduras con
     el mismo nombre.[pause][\x0203]Si las consigues

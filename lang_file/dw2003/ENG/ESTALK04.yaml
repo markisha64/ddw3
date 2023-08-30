@@ -61,7 +61,7 @@ strings:
     Oink, oiinkk![pause]
   - |-
     [\x0207]DO Guard[\x0207]..Oink, oink.
-    O[-4]o[-4]oiiiink.[pause]
+    O-o-oiiiink.[pause]
   - "[\\x0207]DO Guard[\\x0207]I've learned much\nfrom this \nexperience![pause][\\x0203]It's worth it to \nprotect everyone \nwith my life![pause]"
   - |-
     [\x0207]DO Guard[\x0207]..Oink, oink.
@@ -1083,27 +1083,27 @@ strings:
   - |-
     [\x0207]BK Agumon[\x0207]I lost...
     Ummmm...[pause][\x0203]Here is a very
-    powerful card [-4]
+    powerful card -
     Fortune Gate.[pause]
   - |-
     [\x0207]BK Agumon[\x0207]I lost...
     Ummmm...[pause][\x0203]Here is a very
-    powerful card [-4]
+    powerful card -
     Desired Access.[pause]
   - |-
     [\x0207]BK Agumon[\x0207]I lost...
     Ummmm...[pause][\x0203]Here is a very
-    powerful card [-4]
+    powerful card -
     Anti Power.[pause]
   - |-
     [\x0207]BK Agumon[\x0207]I lost...
     Ummmm...[pause][\x0203]Here is the most
-    powerful card [-4]
+    powerful card -
     Misery Gate.[pause]
   - |-
     [\x0207]BK Agumon[\x0207]I lost...
     Ummmm...[pause][\x0203]Here is a very
-    powerful card [-4]
+    powerful card -
     Delete Matrix.[pause]
   - "[\\x0207]Seehomon[\\x0207]...Hey, no\nneed to\nthank me![pause][\\x0203]Guys just have \nto be gutsy![pause]"
   - "[\\x0207]Seehomon[\\x0207]My name is \nSeehomon![pause][\\x0203]You've come a\nlong way pal![pause]"

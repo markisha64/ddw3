@@ -11,7 +11,7 @@ files:
         u. bin sehr stark.[pause]
       - "[\\x0207][\\x020902]3Komm nur! So\nweiβ ich, wie \nstark i. bin.[pause]"
       - |-
-        [\x0207]MasterTyranno[\x0207]Ganz schön opti[-4]
+        [\x0207]MasterTyranno[\x0207]Ganz schön opti-
         mistisch, Kleiner![pause][\x0203]Das allein reicht
         aber nicht aus, um
         mich zu schlagen![pause]
@@ -32,7 +32,7 @@ files:
       - ''
       - |-
         [\x0207][\x020902]3Seiryu Leader,
-        ich habe Master[-4]
+        ich habe Master-
         Tyranno besiegt![pause][\x0203]Wirst du mit
         mir kämpfen![pause]
       - "[\\x0207]Seiryu Leader[\\x0207]Aha. Du hast \ndie alte Kralle.[pause][\\x0203]Also los. Fang\nan![pause]"
@@ -48,9 +48,9 @@ files:
         ehrenhafter Kampf[pause]
       - "[\\x0207]Seiryu Leader[\\x0207]Also gut, \n[\\x020801][\\x020501]. Nimm \ndas hier mit.[pause]"
       - |-
-        [\x0207][\x020902]3Das Seiryu[-4]
+        [\x0207][\x020902]3Das Seiryu-
         Abzeichen und
-        das Silber[-4]Ticket![pause]
+        das Silber-Ticket![pause]
       - "[\\x0207]Seiryu Leader[\\x0207]Du wirst sie in\nden nächsten \nKämpfen brauchen.[pause][\\x0203]Diese Items sind\nwichtig. Verliere\nsie nicht.[pause]"
       - |-
         [\x0207][\x020902]3Danke, Seiryu
@@ -89,7 +89,7 @@ files:
       - ''
       - |-
         [\x0207][\x020902]3Hm. Seltsam.
-        Hier ist über[-4]
+        Hier ist über-
         haupt niemand.[pause]
       - '[\x0207]Stimme[\x0207]...Huuuuu![pause]'
       - '[\x0207][\x020902]3Waaaaas?![pause]'
@@ -103,7 +103,7 @@ files:
       - "[\\x0207][\\x020902]3Soll das ein \nWitz sein? Ich\nmuss dahin![pause]"
       - |-
         [\x0207]Zanbamon[\x0207]Dann musst du
-        mich besiegen.[pause][\x0203]Natürlich ver[-4]
+        mich besiegen.[pause][\x0203]Natürlich ver-
         liere ich nie!
         Ha ha ha ha![pause]
       - |-
@@ -140,7 +140,7 @@ files:
         [\x0207]Sepikmon[\x0207]Ja, aber ich habe
         zunächst eine Bitte.[pause]
       - |-
-        [\x0207]Sepikmon[\x0207]Ich habe meine wert[-4]
+        [\x0207]Sepikmon[\x0207]Ich habe meine wert-
         volle Maske verloren![pause][\x0203]Ohne die Maske kann
         mich niemand sehen![pause][\x0203]Wenn du sie findest,
         sage ich dir, was du
@@ -158,7 +158,7 @@ files:
       - |-
         [\x0207][\x020902]3Tja... hier
         ist niemand.[pause]
-      - '[\x0207]Stimme[\x0207]Huu[-4]uuu[-4]uu[pause]'
+      - '[\x0207]Stimme[\x0207]Huu-uuu-uu[pause]'
       - |-
         [\x0207][\x020902]3Aah! Ein
         Monster![pause]
@@ -178,7 +178,7 @@ files:
       - |-
         [\x0207][\x020902]3Sepikmon,
         ich habe deine
-        Sepik[-4]Maske![pause]
+        Sepik-Maske![pause]
       - |-
         [\x0207]Sepikmon[\x0207]WOW!
         Tausend Dank![pause]
@@ -190,8 +190,8 @@ files:
         Setz sie auf u.
         komm heraus.[pause]
       - |-
-        [\x0207]Sepikmon[\x0207]Uh[-4]uhm...kannst
-        du bitte weg[-4]
+        [\x0207]Sepikmon[\x0207]Uh-uhm...kannst
+        du bitte weg-
         sehen?[pause]
       - '[\x0207][\x020902]3OK, na gut.[pause]'
       - |-
@@ -206,7 +206,7 @@ files:
         das für ein
         Riechkraut?[pause]
       - |-
-        [\x0207]Sepikmon[\x0207]Zanb. hasst d. Ge[-4]
+        [\x0207]Sepikmon[\x0207]Zanb. hasst d. Ge-
         ruch v. Riechkraut![pause][\x0203]Er haut sicherlich
         sofort ab![pause]
       - |-
@@ -235,7 +235,7 @@ files:
         mal, was ich hab.[pause]
       - |-
         [\x0207]Zanbamon[\x0207]Bäh, ist das
-        etwa Riech[-4]
+        etwa Riech-
         kraut!?[pause]
       - |-
         [\x0207][\x020902]3Klar. Jetzt
@@ -243,7 +243,7 @@ files:
       - |-
         [\x0207]Zanbamon[\x0207]Ertrag's nicht!
         OK, diesmal h.
-        du gewonnen![pause][\x0203]Aber ich ver[-4]
+        du gewonnen![pause][\x0203]Aber ich ver-
         gess dich nicht![pause]
   - strings:
       - ''
@@ -265,8 +265,8 @@ files:
       - |-
         [\x0207][\x020902]3Hey, MetalGreymon.
         Kannst du mir einen
-        Gefallen tun?[pause][\x0203]Kann ich ein Agumon[-4]
-        DDNA[-4]Muster von dei[-4]
+        Gefallen tun?[pause][\x0203]Kann ich ein Agumon-
+        DDNA-Muster von dei-
         ner DDNA bekommen?[pause]
       - "[\\x0207]MetalGreymon[\\x0207]Tschuldige, aber\nich kann sie dir\nnicht so geben.[pause][\\x0203]Wenn du es haben\nwillst, musst du \nes gewinnen![pause]"
   - strings:
@@ -280,14 +280,14 @@ files:
         Geh gut damit um![pause]
       - |-
         [\x0207][\x020902]3Cool, ich habe
-        die Agumon[-4]
+        die Agumon-
         DDNA![pause][\x0203]Danke,
         MetalGreymon![pause]
   - strings:
       - ''
       - |-
         [\x0207][\x020902]3Hey, WarGrowlmon.
-        Tu mir einen Gefallen.[pause][\x0203]Kann ich Guilmon[-4]
+        Tu mir einen Gefallen.[pause][\x0203]Kann ich Guilmon-
         DDNA von dir haben?[pause]
       - |-
         [\x0207]WarGrowlmon[\x0207]Nein! Wenn du sie
@@ -301,7 +301,7 @@ files:
       - "[\\x0207]WarGrowlmon[\\x0207]Das war ein \ntoller Kampf.[pause][\\x0203]OK, nimm sie\nmit![pause]"
       - |-
         [\x0207][\x020902]3Hurra! Ich hab
-        die Guilmon[-4]
+        die Guilmon-
         DDNA![pause][\x0203]Danke,
         WarGrowlman![pause]
   - strings:
@@ -309,7 +309,7 @@ files:
       - |-
         [\x0207][\x020902]3Hey GrapLeomon.
         Tu mir einen
-        Gefallen.[pause][\x0203]Kann ich die Kumamon[-4]
+        Gefallen.[pause][\x0203]Kann ich die Kumamon-
         DDNA aus deiner
         DDNA haben?[pause]
       - |-
@@ -329,12 +329,12 @@ files:
         Ehrenkodex.[pause]
       - |-
         [\x0207][\x020902]3Toll! Ich hab
-        die Kumamon[-4]
+        die Kumamon-
         DDNA![pause][\x0203]Danke,
         GrapLeomon![pause]
   - strings:
       - ''
-      - "[\\x0207][\\x020902]3Hey Paildramon. Tu\nmir einen Gefallen.[pause][\\x0203]Kann ich die \nVeemon[-4]DDNA aus \ndeiner DDNA haben?[pause]"
+      - "[\\x0207][\\x020902]3Hey Paildramon. Tu\nmir einen Gefallen.[pause][\\x0203]Kann ich die \nVeemon-DDNA aus \ndeiner DDNA haben?[pause]"
       - |-
         [\x0207]Paildramon[\x0207]Nein! Sie werden
         dich mit einer
@@ -358,7 +358,7 @@ files:
       - |-
         [\x0207][\x020902]3Super! Ich
         hab die
-        Veemon[-4]DDNA![pause][\x0203]Danke,
+        Veemon-DDNA![pause][\x0203]Danke,
         Paildramon![pause]
       - |-
         [\x0207]Paildramon[\x0207]Ja, ja. Das
@@ -393,13 +393,13 @@ files:
         Ich hab bis jetzt
         immer gewonnen![pause]
       - |-
-        [\x0207]BK Imperialdramon[\x0207]Du bist groβ[-4]
+        [\x0207]BK Imperialdramon[\x0207]Du bist groβ-
         artig![pause][\x0203]Hier. Ich gebe
         dir dies. Nimm
         es.[pause]
       - |-
         [\x0207][\x020902]3Cool! Ich hab
-        den gefähr[-4]
+        den gefähr-
         lichen Helm![pause]
       - "[\\x0207]BK Imperialdramon[\\x0207]Der Kampf hat \nSpaβ gemacht.\nKomm wieder![pause]"
   - strings:
@@ -417,7 +417,7 @@ files:
         geht ab?[pause]
       - |-
         ICH BIN DAS BETRIEBSSYSTEM DER
-        GONDEL FÜR DEN TIEFEN GRABEN.[pause][\x0203]ZUM AKTIVIEREN DER GONDEL RICH[-4]
+        GONDEL FÜR DEN TIEFEN GRABEN.[pause][\x0203]ZUM AKTIVIEREN DER GONDEL RICH-
         TUNG SÜDSEKTOR IST DIE...[pause][\x0203]KONTOREGISTRIERUNG MIT EINER
         BLAUEN KARTE ERFORDERLICH.[pause][\x0203]DIGIMON, DIE AUS EINER BLAUEN
         KARTE ENTSTANDEN SIND, BESITZEN
@@ -442,7 +442,7 @@ files:
         Karte?[pause][\x0203]Das B ist eine 8!
         Das ist eine 8laue
         Karte![pause][\x0203]Sie ist gefälscht!
-        Ich wurde herein[-4]
+        Ich wurde herein-
         gelegt![pause]
   - strings:
       - ''
@@ -456,7 +456,7 @@ files:
         in den Südsektor![pause]
       - |-
         DANKE FÜRS WARTEN.
-        DU BIST [\x020801][\x020501].[pause][\x0203]DAS SYSTEM WIRD GE[-4]
+        DU BIST [\x020801][\x020501].[pause][\x0203]DAS SYSTEM WIRD GE-
         STARTET. GEHE BITTE
         ZUR GONDEL.[pause]
   - strings:
@@ -490,7 +490,7 @@ files:
         wie versprochen![pause]
   - strings:
       - ''
-      - "[\\x0207][\\x020902]3OK, der TNT[-4]\nChip kommt \nalso da rein.[pause]"
+      - "[\\x0207][\\x020902]3OK, der TNT-\nChip kommt \nalso da rein.[pause]"
       - "[\\x0207][\\x020902]3Da ist ein\nLoch in der\nWand![pause][\\x0203]Jetzt könn. \nwir hinein![pause]"
   - strings:
       - ''
@@ -501,7 +501,7 @@ files:
         [\x0207][\x020902]3Wahnsinn! Ich habe das
         Digiei d. Verlässlichk.[pause]
       - |-
-        [\x0207][\x020902]3Jetzt kann ich Sub[-4]
+        [\x0207][\x020902]3Jetzt kann ich Sub-
         marimon rufen und
         d. Ozean überqueren![pause]
   - strings:
@@ -535,14 +535,14 @@ files:
         Da ist etwas auf
         dem Boden...[pause]
       - "[\\x0207][\\x020902]3Aber keine \nSpur vom Digiei\ndes Wissens...[pause][\\x0203]Was passiert\nwohl in der\nechten Welt...[pause]"
-      - "[\\x0207][\\x020902]3Hä?\nWas ist das?\nID[-4]Pass Blau?[pause][\\x0203]Vielleicht brauch \nich ihn.\nIch nehm ihn mit![pause]"
+      - "[\\x0207][\\x020902]3Hä?\nWas ist das?\nID-Pass Blau?[pause][\\x0203]Vielleicht brauch \nich ihn.\nIch nehm ihn mit![pause]"
   - strings:
       - ''
       - "[\\x0207][\\x020902]3Ich weiβ nicht, \nwas die A.o.A. \nplanen, aber...[pause][\\x0203]sie kommen auf\nkeinen Fall damit\ndurch![pause]"
   - strings:
       - ''
       - |-
-        [\x0207]Soldat[\x0207]Ist das der ID[-4]Pass
+        [\x0207]Soldat[\x0207]Ist das der ID-Pass
         Blau?![pause][\x0203]Verzeihung. Wusste
         nicht, dass du Qing
         Long Chief bist![pause]
@@ -554,7 +554,7 @@ files:
         Geheimnis, OK?[pause]
       - |-
         [\x0207]Soldat[\x0207]Du bist toll,
-        Chief! Du ar[-4]
+        Chief! Du ar-
         beitest hart![pause]
       - "[\\x0207][\\x020902]3Oh Mann, um ein\nHaar...[pause][\\x0203]Aber jetzt kann \nich nach Zhu\nQue City.[pause]"
       - |-
@@ -576,7 +576,7 @@ files:
         [\x0207][\x020902]3Airdramon, kannst du
         in Qing Long City
         Wind machen?[pause][\x0203]Wir haben nicht genug
-        Power, um alle zu[-4]
+        Power, um alle zu-
         rückzuverwandeln.[pause][\x0203]Airdramon, hilf ihnen.
         Los, wach auf![pause]
       - |-
@@ -596,7 +596,7 @@ files:
         Was soll ich
         tun...hmmm[pause]
       - |-
-        [\x0207][\x020902]3Oh, wir ver[-4]
+        [\x0207][\x020902]3Oh, wir ver-
         lassen einfach
         den Tretwald.[pause]
   - strings:
@@ -607,7 +607,7 @@ files:
         Was soll ich
         tun...hmmm[pause]
       - |-
-        [\x0207][\x020902]3Oh, wir ver[-4]
+        [\x0207][\x020902]3Oh, wir ver-
         lassen einfach
         den Tretwald.[pause]
   - strings:
@@ -618,7 +618,7 @@ files:
         Was soll ich
         tun...hmmm[pause]
       - |-
-        [\x0207][\x020902]3Oh, wir ver[-4]
+        [\x0207][\x020902]3Oh, wir ver-
         lassen einfach
         den Tretwald.[pause]
   - strings:

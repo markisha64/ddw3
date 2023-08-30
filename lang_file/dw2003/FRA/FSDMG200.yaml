@@ -25,20 +25,20 @@ files:
       - |-
         Le serveur abrite d'autres villes
         qu'Asuka City. Si tu vois une ville
-        pendant ton voyage, arrête[-4]toi.[pause][\x0203]Pour tes Digimons, il y a des
+        pendant ton voyage, arrête-toi.[pause][\x0203]Pour tes Digimons, il y a des
         magasins d'objets, et les auberges
-        où Guardromon peut sauvegarder.[pause][\x0203]Chaque ville abrite des lieux uni[-4]
+        où Guardromon peut sauvegarder.[pause][\x0203]Chaque ville abrite des lieux uni-
         ques comme le Digilabo d'Asuka
         City, où passent les dresseurs.[pause]
       - |-
         Hors de la ville, tu devras
         affronter des Digimons sauvages.
-        Prépare[-4]toi avant de partir.[pause][\x0203]Il y a des auberges hors
+        Prépare-toi avant de partir.[pause][\x0203]Il y a des auberges hors
         de la ville où tes Digimons
         blessés peuvent récupérer.[pause][\x0203]Au début, évite les lieux où se
         trouvent des opposants puissants.
         Entraîne bien tes Digimons avant.[pause]
-      - "Tu voyages avec 3 Digimons mais\n1 seul peut combattre à la fois. Tu\npeux les échanger pendant le combat.[pause][\\x0203]Au combat, les dresseurs contrôlent\nleurs Digimons à l'aide de commandes\nchoisies en fonction de la situation.[pause][\\x0203]Tu disposes aussi de tech. spéciales\nutilisant des PM et même des objets. \nRenseigne[-4]toi au Digilabo.[pause]"
+      - "Tu voyages avec 3 Digimons mais\n1 seul peut combattre à la fois. Tu\npeux les échanger pendant le combat.[pause][\\x0203]Au combat, les dresseurs contrôlent\nleurs Digimons à l'aide de commandes\nchoisies en fonction de la situation.[pause][\\x0203]Tu disposes aussi de tech. spéciales\nutilisant des PM et même des objets. \nRenseigne-toi au Digilabo.[pause]"
       - |-
         Les Digimons acquièrent de l'EXP
         (expérience) au combat et gagnent
@@ -74,9 +74,9 @@ files:
         [\x0207]Teddy[\x0207]... oh ! Hé,
         [\x020801][\x020501] ![pause]
       - |-
-        [\x0207][\x020902]3Qu'est[-4]ce que
+        [\x0207][\x020902]3Qu'est-ce que
         vous faites ?
-        Dépêchez[-4]vous ![pause]
+        Dépêchez-vous ![pause]
       - |-
         [\x0207]Teddy[\x0207]Quoi ? Hé,
         c'est toi qui
@@ -124,13 +124,13 @@ files:
       - |-
         [\x0207][\x020902]3OK, les gars.
         Je compte sur
-        vous ![pause][\x0203]Allons[-4]y ![pause]
+        vous ![pause][\x0203]Allons-y ![pause]
       - |-
         [\x0207][\x020902]3OK, j'y
         vais ![pause]
       - |-
         [\x0207]Kail[\x0207]...Très bien.
-        Séparons[-4]nous
+        Séparons-nous
         à partir d'ici.[pause]
       - |-
         [\x0207]Teddy[\x0207]A tout à
@@ -151,9 +151,9 @@ files:
         [\x0207]Teddy[\x0207]...oh ! Hé,
         [\x020801][\x020501] ![pause]
       - |-
-        [\x0207][\x020902]3Qu'est[-4]ce que
+        [\x0207][\x020902]3Qu'est-ce que
         vous faites ?
-        Dépêchez[-4]vous ![pause]
+        Dépêchez-vous ![pause]
       - |-
         [\x0207]Teddy[\x0207]Quoi ? Hé,
         c'est toi qui
@@ -190,7 +190,7 @@ files:
       - |-
         [\x0207]Monmon[\x0207]Je peux battre
         n'importe qui !
-        Allons[-4]y ![pause]
+        Allons-y ![pause]
       - |-
         [\x0207]Agumon[\x0207]Salut [\x020801][\x020501] !
         Nous allons faire
@@ -202,13 +202,13 @@ files:
       - |-
         [\x0207][\x020902]3OK, les gars.
         Je compte sur
-        vous ![pause][\x0203]Allons[-4]y ![pause]
+        vous ![pause][\x0203]Allons-y ![pause]
       - |-
         [\x0207][\x020902]3OK, j'y
         vais ![pause]
       - |-
         [\x0207]Kail[\x0207]...Très bien.
-        Séparons[-4]nous
+        Séparons-nous
         à partir d'ici.[pause]
       - |-
         [\x0207]Teddy[\x0207]A tout à
@@ -229,9 +229,9 @@ files:
         [\x0207]Teddy[\x0207]...oh ! Hé,
         [\x020801][\x020501] ![pause]
       - |-
-        [\x0207][\x020902]3Qu'est[-4]ce que
+        [\x0207][\x020902]3Qu'est-ce que
         vous faites ?
-        Dépêchez[-4]vous ![pause]
+        Dépêchez-vous ![pause]
       - |-
         [\x0207]Teddy[\x0207]Quoi ? Hé,
         c'est toi qui
@@ -279,13 +279,13 @@ files:
       - |-
         [\x0207][\x020902]3OK, les gars.
         Je compte sur
-        vous ![pause][\x0203]Allons[-4]y ![pause]
+        vous ![pause][\x0203]Allons-y ![pause]
       - |-
         [\x0207][\x020902]3OK, j'y
         vais ![pause]
       - |-
         [\x0207]Kail[\x0207]...Très bien.
-        Séparons[-4]nous
+        Séparons-nous
         à partir d'ici.[pause]
       - |-
         [\x0207]Teddy[\x0207]A tout à
@@ -355,7 +355,7 @@ files:
         OK, j'ai compris.
         Merci ![pause]
       - |-
-        [\x0207]Dresseur Genji[\x0207]Au fait, as[-4]tu
+        [\x0207]Dresseur Genji[\x0207]Au fait, as-tu
         une sacoche ?[pause]
       - |-
         [\x0207][\x020902]3Pour quoi
@@ -383,7 +383,7 @@ files:
         et utilise des attributs alliés.[pause]
       - |-
         "Effets des techniques"
-        L'efficacité d'un poison, d'une para[-4]
+        L'efficacité d'un poison, d'une para-
         lysie varie d'un Digimon à l'autre.[pause][\x0203]"Maladies de statut"
         Les maladies disparaissent après le
         combat, sauf "fléau" de Cardmon.[pause]
@@ -414,12 +414,12 @@ files:
         et l'esprit aux attaques magiques.[pause][\x0203]"Attributs d'attaque"
         Attaque avec un attribut approprié
         pour prendre l'avantage au combat.[pause][\x0203]Les adv. utilisent aussi des attributs.
-        Tu devras contre[-4]attaquer avec un Dig
+        Tu devras contre-attaquer avec un Dig
         puissant contre l'attribut utilisé.[pause][\x0203]"Effets des techniques"
         Certaines techniques provoquent des
         effets particuliers, comme des dégâts.[pause][\x0203]Leur importance dépend du statut
         de l'adversaire. Si une technique est
-        sans effet, essaie[-4]la sur un autre.[pause][\x0203]"Digivolution pendant le combat"
+        sans effet, essaie-la sur un autre.[pause][\x0203]"Digivolution pendant le combat"
         Digivolve pour faire face à ton adv.
         Il y a aussi la "Digivolution Puis."[pause][\x0203]La jauge augmente avec les dégâts
         subis. Jauge pleine = Dig. digivolve
@@ -558,7 +558,7 @@ files:
         "Préparation pour le voyage"
         Sélections et choix concernant Dig.
         et digivolutions se font au Digilabo.[pause][\x0203]Prends soin d'équiper tes Digimons
-        d'armes et d'armures et rassemble[-4]
+        d'armes et d'armures et rassemble-
         les pour le combat.[pause]
       - |-
         "Combat de cartes"
@@ -584,7 +584,7 @@ files:
       - |-
         [\x0207]Ken le Fétichiste[\x0207]Voici El Dorado,
         lieu des fétichistes ![pause][\x0203]Tu n'es pas membre,
-        n'est[-4]ce pas ?[pause][\x0203]Tes Digimons n'ont pas
+        n'est-ce pas ?[pause][\x0203]Tes Digimons n'ont pas
         l'air sympas. Tu ne peux
         pas être membre.[pause]
   - strings:
@@ -676,7 +676,7 @@ files:
         fait un moment
         que j'attends ![pause]
       - |-
-        [\x0207]Fei la Flemme[\x0207]Quand est[-4]ce qu'on
+        [\x0207]Fei la Flemme[\x0207]Quand est-ce qu'on
         pourra repartir ?[pause]
       - |-
         [\x0207]Service Dressage[\x0207]Désolé, on n'a
@@ -684,7 +684,7 @@ files:
         de précisions.[pause]
       - |-
         [\x0207]Kail[\x0207]Hein, quoi ? Que
-        se passe[-4]t[-4]il ?[pause]
+        se passe-t-il ?[pause]
       - |-
         [\x0207]Alan la Flemme[\x0207]Le maître de
         jeu ? C'est
@@ -724,7 +724,7 @@ files:
         Lucky Mouse y est
         pour quelque chose ?[pause]
       - |-
-        [\x0207]Kail[\x0207]Lucky Mouse !?[pause][\x0203]... Qu'est[-4]ce
+        [\x0207]Kail[\x0207]Lucky Mouse !?[pause][\x0203]... Qu'est-ce
         que tu veux dire
         par là ?[pause]
       - |-
@@ -732,7 +732,7 @@ files:
         Mouse était ici. C'est
         tout ce que je sais.[pause]
       - |-
-        [\x0207]Kail[\x0207]...Teddy chercherait[-4]il
+        [\x0207]Kail[\x0207]...Teddy chercherait-il
         quelque chose dans
         le Centre Administratif ?[pause]
       - |-
@@ -761,7 +761,7 @@ files:
         solution⋯[pause]
       - |-
         [\x0207]Kail[\x0207]Bon, on n'a
-        pas le choix.[pause][\x0203]Séparons[-4]nous
+        pas le choix.[pause][\x0203]Séparons-nous
         et allons nous
         renseigner.[pause][\x0203]Va parler aux
         habitants d'ici.[pause]
@@ -773,8 +773,8 @@ files:
       - ''
       - |-
         [\x0207]Kail[\x0207]Alors comment
-        se transforme[-4]
-        t[-4]on en Digimon ?[pause]
+        se transforme-
+        t-on en Digimon ?[pause]
       - |-
         [\x0207][\x020902]3Hé ! Regarde
         un peu ce
@@ -792,7 +792,7 @@ files:
         l'air d'un Digimon,
         maintenant ![pause]
       - |-
-        [\x0207]Kail[\x0207]Chut ! Tais[-4]toi
+        [\x0207]Kail[\x0207]Chut ! Tais-toi
         un peu ![pause][\x0203]Ils ne doivent pas
         savoir qu'on n'est
         pas des Digimons ![pause]
@@ -815,7 +815,7 @@ files:
         fais pas
         pour moi ![pause]
       - |-
-        [\x0207][\x020902]3Qu'est[-4]elle a ?
+        [\x0207][\x020902]3Qu'est-elle a ?
         Je la trouve bizarre
         depuis qu'on est ici... [pause][\x0203]Bon, je dois
         chercher Teddy.[pause]
@@ -858,7 +858,7 @@ files:
         à faire...[pause]
       - |-
         [\x0207][\x020902]3Hein ? Mais
-        qu'est[-4]ce qu'elle a ?[pause][\x0203]Bon, au moins je peux
+        qu'est-ce qu'elle a ?[pause][\x0203]Bon, au moins je peux
         compter sur mes
         Digimons ![pause][\x0203]OK les gars. En route
         pour le Secteur Ouest.[pause]
@@ -876,7 +876,7 @@ files:
       - |-
         [\x0207][\x020902]3Je suis au courant !
         Mais qui sont ces
-        gens, là[-4]bas ?[pause]
+        gens, là-bas ?[pause]
       - |-
         [\x0207]Dr Kadomatsu[\x0207]Nous ne sommes pas
         de l'A.o.A ![pause]
@@ -927,7 +927,7 @@ files:
         le Secteur Nord ![pause]
       - |-
         [\x0207]Teddy[\x0207]Une minute !
-        Comment veux[-4]tu
+        Comment veux-tu
         y aller ?[pause][\x0203]Il n'y a pas de route
         et tu ne peux y aller
         avec Submarimon ![pause]
@@ -942,7 +942,7 @@ files:
         [\x0207][\x020902]3Rien de
         plus simple ![pause]
       - |-
-        [\x0207]Teddy[\x0207]Mais il faut le Digi[-4]
+        [\x0207]Teddy[\x0207]Mais il faut le Digi-
         Oeuf du Savoir pour
         appeler Digmon... [pause][\x0203]On ne le trouve que
         dans le serveur
@@ -969,7 +969,7 @@ files:
         Les soldats de
         Byakko City ![pause]
       - |-
-        [\x0207][\x020902]3Ils savent peut[-4]
+        [\x0207][\x020902]3Ils savent peut-
         être quelque
         chose ![pause]
       - |-
@@ -986,7 +986,7 @@ files:
       - |-
         [\x0207][\x020902]3Si tu trouves
         quelque chose,
-        préviens[-4]moi ![pause]
+        préviens-moi ![pause]
       - |-
         [\x0207]Teddy[\x0207]D'accord !
         Compte sur
@@ -1022,7 +1022,7 @@ files:
         à pouvoir nous
         aider, non ?[pause]
       - |-
-        [\x0207]Maître de jeu[\x0207]Que veux[-4]tu
+        [\x0207]Maître de jeu[\x0207]Que veux-tu
         dire, parle ![pause][\x0203]Je n'ai pas
         l'intention de
         vous aider ![pause]
@@ -1031,7 +1031,7 @@ files:
         Hmmm...[pause][\x0203]J'étais prête à
         me rendre.[pause]
       - |-
-        [\x0207][\x020902]3Qu'est[-4]ce que
+        [\x0207][\x020902]3Qu'est-ce que
         tu dis, Lisa ?[pause]
       - |-
         [\x0207]Lisa[\x0207]Ils ont le
@@ -1087,7 +1087,7 @@ files:
       - '[\x0207]Lisa[\x0207]Vraiment ?![pause]'
       - |-
         [\x0207][\x020902]3Que...
-        Que s'est[-4]
+        Que s'est-
         il passé ?[pause]
   - strings:
       - ''
@@ -1132,19 +1132,19 @@ files:
         [\x0207][\x020902]3Oui  ! Lisa et
         les autres sont
         avec nous  ![pause]
-      - "[\\x0207]Teddy[\\x0207]... mais que se \npasse[-4]t[-4]il dans \nle Monde Réel... ?[pause][\\x0203]Pourvu que  \nDestromon n'ait pas  \nencore attaqué...[pause]"
+      - "[\\x0207]Teddy[\\x0207]... mais que se \npasse-t-il dans \nle Monde Réel... ?[pause][\\x0203]Pourvu que  \nDestromon n'ait pas  \nencore attaqué...[pause]"
   - strings:
       - ''
       - "[\\x0207][\\x020902]3Ne t'inquiète pas.\nC'est pour cela que  \nnous combattons ![pause][\\x0203]Nous allons triompher\nde l'A.o.A  ![pause]"
       - |-
         [\x0207]Teddy[\x0207]Oui, c'est vrai  !
         On y est presque
-        alors allons[-4]y  ![pause]
+        alors allons-y  ![pause]
       - "[\\x0207]Nick[\\x0207]Quoi, vous êtes \nencore là ?[pause]"
       - '[\x0207][\x020902]3Oh, Nick  ![pause]'
       - |-
         [\x0207]Teddy[\x0207]Nick, où
-        en est[-4]on ?[pause]
+        en est-on ?[pause]
       - "[\\x0207]Nick[\\x0207]Ha ha ha,\nça va ![pause][\\x0203]Dans la ville, \nl'A.o.A s'est\nrendu très vite  ![pause]"
       - |-
         [\x0207][\x020902]3Et la
@@ -1180,16 +1180,16 @@ files:
       - '[\x0207]Teddy[\x0207]Kail  ![pause]'
       - |-
         [\x0207]Kail[\x0207]Pourquoi Kurt ne
-        redevient[-4]il pas
+        redevient-il pas
         normal ?[pause]
       - '[\x0207]Kurt[\x0207]Oink, oink  ![pause]'
       - |-
-        [\x0207]Kail[\x0207]Est[-4]ce que Kurt et
+        [\x0207]Kail[\x0207]Est-ce que Kurt et
         les autres vont
         rester comme ça ?[pause]
       - "[\\x0207]Teddy[\\x0207]Non. Il doit y \navoir un moyen de \nles transformer  ![pause]"
       - |-
-        [\x0207]Teddy[\x0207]N'est[-4]ce pas
+        [\x0207]Teddy[\x0207]N'est-ce pas
         [\x020801][\x020501] ?[pause]
       - |-
         [\x0207][\x020902]3Euh, oui
@@ -1203,12 +1203,12 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]
   - strings:
       - ''

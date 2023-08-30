@@ -9,7 +9,7 @@ strings:
     the A.o.A any
     time![pause]
   - |-
-    [\x0207]Tamer Haruka[\x0207]O[-4]ink, ink!
+    [\x0207]Tamer Haruka[\x0207]O-ink, ink!
     O, o, o, oink![pause]
   - "[\\x0207]Guilmon[\\x0207]Mobius Desert \nis a dangerous \nplace.[pause][\\x0203]If you get lost\ngo North \nto get out.[pause]"
   - |-
@@ -326,7 +326,7 @@ strings:
     properties...[pause][\x0203]I am collecting Digimon
     battle data and
     analyzing it.[pause]
-  - "[\\x0207]Tamer Nakano[\\x0207]Oh [-4] your Digimon\nlook interesting.[pause][\\x0203]Please fight with \nme and let me\ngather their data![pause]"
+  - "[\\x0207]Tamer Nakano[\\x0207]Oh - your Digimon\nlook interesting.[pause][\\x0203]Please fight with \nme and let me\ngather their data![pause]"
   - |-
     [\x0207]Tamer Nakano[\x0207]Truly, your Digimon
     are powerful![pause][\x0203]You're in the top
@@ -602,7 +602,7 @@ strings:
     You're tres bien if
     you've come this far.[pause]
   - |-
-    [\x0207]Tamer Pierre[\x0207]Comment allez[-4]vous
+    [\x0207]Tamer Pierre[\x0207]Comment allez-vous
     monsieur? All of the
     A.o.A were caught.[pause][\x0203]Now we can enjoy
     Digimon Online.[pause]
@@ -634,8 +634,8 @@ strings:
     I lost this time.[pause][\x0203]Well, please fight
     me again next
     time, au revoir.[pause]
-  - "[\\x0207]Tamer Mitaka[\\x0207]Ta[-4]da! Justice \nTamer Mitaka \nto the rescue![pause][\\x0203]No evil shall \ndefeat me.[pause]"
-  - "[\\x0207]Tamer Mitaka[\\x0207]Ta[-4]da! Justice \nTamer Mitaka \nto the rescue![pause][\\x0203]The evil group\nA.o.A is no match \nfor me![pause]"
+  - "[\\x0207]Tamer Mitaka[\\x0207]Ta-da! Justice \nTamer Mitaka \nto the rescue![pause][\\x0203]No evil shall \ndefeat me.[pause]"
+  - "[\\x0207]Tamer Mitaka[\\x0207]Ta-da! Justice \nTamer Mitaka \nto the rescue![pause][\\x0203]The evil group\nA.o.A is no match \nfor me![pause]"
   - |-
     [\x0207]Tamer Mitaka[\x0207]Oiiink!
     Oink, oink![pause]
@@ -644,7 +644,7 @@ strings:
     [\x0207]Tamer Mitaka[\x0207]Take my Duel
     Punishment
     attack![pause][\x0203]...Hiya![pause]
-  - "[\\x0207]Tamer Mitaka[\\x0207]Ta[-4]da! Justice \nTamer Mitaka \nto the rescue![pause][\\x0203]Sorry, but \nyou're number\ntwo in Asuka![pause]"
+  - "[\\x0207]Tamer Mitaka[\\x0207]Ta-da! Justice \nTamer Mitaka \nto the rescue![pause][\\x0203]Sorry, but \nyou're number\ntwo in Asuka![pause]"
   - "[\\x0207]Tamer Mitaka[\\x0207]Though I may \nperish, I will\ndefeat you![pause]"
   - "[\\x0207]Tamer Mitaka[\\x0207]...well?\nHow was that?[pause][\\x0203]I've been \npracticing in\nthe mirror![pause]"
   - "[\\x0207]Tamer Mitaka[\\x0207]Because I'm the \nnumber one\ncardmaster![pause][\\x0203]So get ready,\nyou evil tamer![pause]"
@@ -785,7 +785,7 @@ strings:
   - |-
     [\x0207]Dark Knight[\x0207]Hey bro!
     You da bomb![pause][\x0203]It's all
-    R[-4]E[-4]S[-4]P[-4]E[-4]C[-4]T
+    R-E-S-P-E-C-T
     from me.[pause]
   - |-
     [\x0207]Dark Knight[\x0207]Oooink,
@@ -797,7 +797,7 @@ strings:
   - "[\\x0207]Veemon[\\x0207]What is that \nDigimon?![pause][\\x0203]And where did \nthe girl go?[pause]"
   - '43'
   - |-
-    [\x0207]Kimo from Hawaii[\x0207]...a[-4]a[-4]A[-4]
+    [\x0207]Kimo from Hawaii[\x0207]...a-a-A-
     ACHOO![pause][\x0203]This place is
     too cold for me.[pause]
   - "[\\x0207]Kimo from Hawaii[\\x0207]The A.o.A's gone,\nso we can go back...[pause][\\x0203]I just want to get \nback to Hawaii![pause]"
@@ -812,7 +812,7 @@ strings:
     Oi, oink![pause]
   - '43'
   - "[\\x0207]Guilmon[\\x0207]Yeaay, it's cold \nand nice.[pause][\\x0203]And it's slippery \ntoo.[pause]"
-  - "[\\x0207]Guilmon[\\x0207]A[-4]a[-4]achoo!\nI fell into the water.[pause][\\x0203]It's cold!\nI think my body's going \nto freeze.[pause]"
+  - "[\\x0207]Guilmon[\\x0207]A-a-achoo!\nI fell into the water.[pause][\\x0203]It's cold!\nI think my body's going \nto freeze.[pause]"
   - "[\\x0207]Guilmon[\\x0207]Is Guilmon going to \nbe like that too?[pause][\\x0203]Nooooooooo![pause]"
   - '43'
   - "[\\x0207]Raging Cecilia[\\x0207]Kazuya is such a \nscaredy cat![pause][\\x0203]Why can't he play \nDigimon Online \nby himself![pause]"
@@ -973,7 +973,7 @@ strings:
     [\x0207]Tamer Pierre[\x0207]Bonjour monsieur.
     You're tres bien if
     you've come this far.[pause]
-  - "[\\x0207]Tamer Mitaka[\\x0207]Ta[-4]da! Justice \nTamer Mitaka \nto the rescue![pause][\\x0203]No evil shall \ndefeat me.[pause]"
+  - "[\\x0207]Tamer Mitaka[\\x0207]Ta-da! Justice \nTamer Mitaka \nto the rescue![pause][\\x0203]No evil shall \ndefeat me.[pause]"
   - |-
     [\x0207]Soccer Kid Hide[\x0207]Hmmm... In
     Asuka Inn?

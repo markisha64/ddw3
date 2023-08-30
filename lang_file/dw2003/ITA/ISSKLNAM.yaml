@@ -101,7 +101,7 @@ strings:
   - Giant Missile
   - Dimension Scissors
   - Crimson Flame
-  - T[-4]Sword
+  - T-Sword
   - Omega Blade
   - Blast Mode
   - Cable Crusher
@@ -192,11 +192,11 @@ strings:
   - Auto Recover
   - Antidote
   - Erase Poison
-  - Anti[-4]Paralysis
+  - Anti-Paralysis
   - Erase Paralysis
-  - Anti[-4]Confuse
+  - Anti-Confuse
   - Erase Confuse
-  - Anti[-4]Magic
+  - Anti-Magic
   - Erase Magic
   - Double Power
   - Mega Strength

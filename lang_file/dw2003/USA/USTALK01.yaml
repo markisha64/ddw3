@@ -312,7 +312,7 @@ strings:
   - |-
     [\x0207]Suzaku Leader[\x0207]What, a way inside the
     Administration Center?[pause][\x0203]You ask for the
-    impossible [-4] there's
+    impossible - there's
     no way.[pause]
   - "[\\x0207]Renamon[\\x0207]What? You \nwant to go \nin further?[pause][\\x0203]All right, \nbut be \ncareful.[pause]"
   - "[\\x0207]Patamon[\\x0207]Isn't the leader \ncute?[pause][\\x0203]I entered the fan\nclub too![pause]"
@@ -561,8 +561,8 @@ strings:
     [\x0207]DO Guard[\x0207]Ooink,
     ooi, oink![pause]
   - '43'
-  - "[\\x0207]Grandpa Tor[\\x0207]You must have the\nDigi[-4]Egg of Knowledge \nto come here.[pause][\\x0203]You're exceptional \nfor your age.[pause]"
-  - "[\\x0207]Grandpa Tor[\\x0207]If I was younger, \nI'd give 'em the \nold one[-4]two![pause][\\x0203]I'm envious of you,\nboy![pause]"
+  - "[\\x0207]Grandpa Tor[\\x0207]You must have the\nDigi-Egg of Knowledge \nto come here.[pause][\\x0203]You're exceptional \nfor your age.[pause]"
+  - "[\\x0207]Grandpa Tor[\\x0207]If I was younger, \nI'd give 'em the \nold one-two![pause][\\x0203]I'm envious of you,\nboy![pause]"
   - "[\\x0207]Grandpa Tor[\\x0207]If you're going \nto fight, get\nstronger![pause][\\x0203]That's all I can\nsay.[pause]"
   - "[\\x0207]Grandpa Tor[\\x0207]I'm actually a \nfamous author.[pause][\\x0203]Let me write a\nnovel about you.[pause][\\x0203]I'm sure it will be\non the best seller\nlist![pause]"
   - |-

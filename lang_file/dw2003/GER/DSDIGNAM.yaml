@@ -44,13 +44,13 @@ strings:
   - MetalGarurumon
   - Rosemon
   - BK WarGreymon
-  - Imperialdramon[-4]F
+  - Imperialdramon-F
   - MaloMyotismon
   - MegaGargomon
   - GranKuwagamon
   - Phoenixmon
   - Omnimon
-  - Imperialdramon[-4]P
+  - Imperialdramon-P
   - Beelzemon
   - Diaboromon
   - Agunimon
@@ -151,7 +151,7 @@ strings:
   - Tylomon
   - Scorpiomon
   - Antylamon
-  - H[-4]Kabuterimon
+  - H-Kabuterimon
   - Puppetmon
   - SkullMammothmon
   - Valkyrimon

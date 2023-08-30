@@ -12,9 +12,9 @@ strings:
   - TECNICHE
   - STATO
   - CARTELLE CARTE
-  - '[-4][-4][-4][-4][-4]'
-  - '[-4][-4]'
-  - '[-4][-4][-4][-4]'
+  - '-----'
+  - '--'
+  - '----'
   - |-
     Cambia formazione Digimon
     Tasto [triangle]: torna al menu
@@ -58,7 +58,7 @@ strings:
   - No
   - Digivol.
   - ESP
-  - '[-4][-4][-4][-4][-4][-4][-4][-4]'
+  - '--------'
   - Scegli digivoluzione
   - Livello
   - Digivol. battaglia sì
@@ -111,4 +111,4 @@ strings:
   - Nessun ogg. importante.
   - PM insufficienti.
   - Nessun effetto.
-  - '[-4]'
+  - '-'

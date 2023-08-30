@@ -50,10 +50,10 @@ strings:
   - |-
     Creating file.
     Do not touch Memory Card.
-  - '[-4][-4][-4][-4][-4]'
-  - '[-4][-4][-4][-4][-4][-4][-4][-4]'
-  - '[-4][-4][-4][-4][-4][-4][-4]'
-  - '[-4][-4]'
+  - '-----'
+  - '--------'
+  - '-------'
+  - '--'
   - Failed to save.
   - Failed to save.
   - Failed to access.

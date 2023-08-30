@@ -7,21 +7,21 @@ strings:
   - |-
     Ajouter 30 PV à un
     Digimon.
-  - "Gagner un point \nd'Energie[-4]A blanche."
+  - "Gagner un point \nd'Energie-A blanche."
   - "Envoyer Patamon sur le \nChamp en phase Compilation."
   - "Renvoyer les Digimons non \nbleus dans chaque main."
   - "Prendre un Digimon de ton \nadversaire dans le Champ."
   - "Jeter à la corbeille \nla dernière carte CP tirée."
   - "Renvoyer un Digimon  \ndans la Main."
-  - "Gagner un point \nd'Energie[-4]A bleue."
+  - "Gagner un point \nd'Energie-A bleue."
   - "Envoyer Gomamon sur le \nChamp en phase Compilation."
   - "50 PA/PV à toute Carte \nDigimon Vert."
   - |-
     Tirer une carte dans la
     corbeille. Sert 1 fois.
-  - "Gagner 2 points \nd'Energie[-4]A verte."
+  - "Gagner 2 points \nd'Energie-A verte."
   - 20 PA/PV pour 1 Digimon.
-  - "Gagner un point \nd'Energie[-4]A verte."
+  - "Gagner un point \nd'Energie-A verte."
   - "Envoyer Palmon sur le \nChamp en phase Compilation."
   - "60 points de dégâts à tout \nDigimon non rouge."
   - "Jeter à la corbeille \ntous les Digimons marron."
@@ -29,7 +29,7 @@ strings:
   - |-
     30 points de dégâts à un
     Digimon adverse.
-  - "Gagner un point \nd'Energie[-4]A rouge."
+  - "Gagner un point \nd'Energie-A rouge."
   - "Envoyer Goburimon sur le \nChamp en phase Compilation."
   - |-
     Jeter à la corbeille les car
@@ -39,7 +39,7 @@ strings:
     la placer dans la Main.
   - "Envoyer un Digimon non \nnoir dans la corbeille."
   - "Envoyer une carte de la \nMain adv dans la corbeille."
-  - "Gagner un point \nd'Energie[-4]A noire."
+  - "Gagner un point \nd'Energie-A noire."
   - "Envoyer Devimon sur le \nChamp en phase Compilation."
   - "Jeter tous les Digimons \nà la corbeille."
   - "Echanger le total des \nPA/PV des deux joueurs."
@@ -47,7 +47,7 @@ strings:
     Tirer 3 cartes adverses à
     envoyer dans la corbeille.
   - "Jeter Main entière dans \ncorb, tirer 6 cartes Jeu."
-  - Ramener Energie[-4]A à zéro.
+  - Ramener Energie-A à zéro.
   - "Remettre dans le Jeu \nles cartes de la corbeille."
   - |-
     Chaque joueur doit avoir
@@ -76,19 +76,19 @@ strings:
     Envoyer 2 Hagurumons sur
     le Champ en ph. Compil.
   - |-
-    Oter 2 points d'Energie[-4]A
+    Oter 2 points d'Energie-A
     blanche à l'adversaire.
   - |-
-    Oter 2 points d'Energie[-4]A
+    Oter 2 points d'Energie-A
     bleue à l'adversaire.
   - |-
-    Oter 2 points d'Energie[-4]A
+    Oter 2 points d'Energie-A
     verte à l'adversaire.
   - |-
-    Oter 2 points d'Energie[-4]A
+    Oter 2 points d'Energie-A
     rouge à l'adversaire.
   - |-
-    Oter 2 points d'Energie[-4]A
+    Oter 2 points d'Energie-A
     noire à l'adversaire.
   - |-
     Renvoyer un Digimon marron

@@ -13,11 +13,11 @@ files:
       - |-
         [\x0207]Junior[\x0207]C'est le groupe qui a
         commis des délits
-        avec des Digimons.[pause][\x0203]Comment peut[-4]on
+        avec des Digimons.[pause][\x0203]Comment peut-on
         entraîner des Digimons
         à faire ça ![pause]
       - |-
-        [\x0207]Ivy[\x0207]Qu'est[-4]ce que tu as
+        [\x0207]Ivy[\x0207]Qu'est-ce que tu as
         à parler comme ça ?
         C'est désagréable.[pause]
       - |-
@@ -27,7 +27,7 @@ files:
       - |-
         [\x0207][\x020902]3Pas trop
         tôt, Teddy ![pause]
-      - "[\\x0207]Junior[\\x0207]Mais qu'est[-4]ce que \nfait Ivy ici,\nd'abord ?[pause][\\x0203]Tu dis toujours que\nles Digimons, c'est\npour les gamins ![pause]"
+      - "[\\x0207]Junior[\\x0207]Mais qu'est-ce que \nfait Ivy ici,\nd'abord ?[pause][\\x0203]Tu dis toujours que\nles Digimons, c'est\npour les gamins ![pause]"
       - |-
         [\x0207]Ivy[\x0207]Digimon Online,
         ça m'intéresse,
@@ -35,7 +35,7 @@ files:
         que je détestais
         les Digimons ![pause]
       - |-
-        [\x0207]Teddy[\x0207]Junior, Ivy [-4] allez,
+        [\x0207]Teddy[\x0207]Junior, Ivy - allez,
         on va au Centre
         Online ![pause]
   - strings:
@@ -46,8 +46,8 @@ files:
         MAGAMI ? Cool ![pause]
       - "[\\x0207]Teddy[\\x0207]Oui, c'est le\nsystème Matrix ![pause][\\x0203]Il numérise nos idées\net nos pensées et les\nenvoie sur le net.[pause][\\x0203]Je me demande comment \nça marche ? Je veux\nle voir fonctionner.[pause]"
       - |-
-        [\x0207]Junior :[\x0207]Hé, qu'est[-4]ce que
-        vous faites là[-4]bas ?[pause][\x0203]Allez, enregistrons[-4]
+        [\x0207]Junior :[\x0207]Hé, qu'est-ce que
+        vous faites là-bas ?[pause][\x0203]Allez, enregistrons-
         nous pour entrer
         dans le Digimonde ![pause]
       - "[\\x0207]Responsable Compte :[\\x0207]Bienvenue au \nCentre Online\nMAGAMI.[pause][\\x0203]Ce service s'adresse \nà ceux qui vont \ndans le Digimonde.[pause][\\x0203]C'est la première fois\nque vous jouez à\nDigimon Online ?[pause]"
@@ -56,15 +56,15 @@ files:
         [\x0207]Responsable Compte :[\x0207]Choisissez un jeu de
         départ : A, B ou C.[pause][\x0203]Chacun comporte trois
         types de Digimons.[pause]
-      - "[\\x0207]Respons. Compte:[\\x0207]Le A, équilibré,\navec Kotemon,\nRenamon, Patamon.[pause][\\x0203]Le B, puissant, \navec Monmon,\nAgumon, Renamon.[pause][\\x0203]Le C, dément,\navec Kumamon,\nGuilmon, Patamon.[pause][\\x0203]Lequel des trois\npréférez[-4]vous ?[pause]"
-      - "[\\x0207]Ivy :[\\x0207]Allez, Junior,\nQu'est[-4]ce que\ntu attends ?[pause][\\x0203]Prends celui où il\ny a un Digimon \nqui te plaît.[pause]"
+      - "[\\x0207]Respons. Compte:[\\x0207]Le A, équilibré,\navec Kotemon,\nRenamon, Patamon.[pause][\\x0203]Le B, puissant, \navec Monmon,\nAgumon, Renamon.[pause][\\x0203]Le C, dément,\navec Kumamon,\nGuilmon, Patamon.[pause][\\x0203]Lequel des trois\npréférez-vous ?[pause]"
+      - "[\\x0207]Ivy :[\\x0207]Allez, Junior,\nQu'est-ce que\ntu attends ?[pause][\\x0203]Prends celui où il\ny a un Digimon \nqui te plaît.[pause]"
       - |-
         [\x0207]Junior :[\x0207]Je ne peux pas !
         Ils ont tous un Digimon
         qui me plaît ![pause]
       - |-
         [\x0207]Ivy :[\x0207]Alors quels Digimons
-        n'aimes[-4]tu pas ?[pause][\x0203]Tu n'as qu'à écarter
+        n'aimes-tu pas ?[pause][\x0203]Tu n'as qu'à écarter
         ceux qui ont un Digimon
         que tu n'aimes pas ![pause]
       - |-
@@ -74,11 +74,11 @@ files:
       - "[\\x0207]Ivy :[\\x0207]Et bien si tu les\naimes tous, il n'y a\npas de problème ![pause][\\x0203]Allez, choisis et\nentrons dans le \nDigimonde ![pause]"
       - |-
         [\x0207]Ivy :[\x0207]Junior ! Tu n'as
-        toujours pas choisi ?[pause][\x0203]Allez, décide[-4]toi
+        toujours pas choisi ?[pause][\x0203]Allez, décide-toi
         ou je ne t'attends
         pas ![pause]
       - |-
-        [\x0207]Responsible Compte :[\x0207]Vous êtes[-4]vous
+        [\x0207]Responsible Compte :[\x0207]Vous êtes-vous
         tous décidés ?[pause]
       - |-
         [\x0207]Ivy :[\x0207]Junior ! J'y
@@ -99,7 +99,7 @@ files:
         Allons découvrir
         le Digimonde ![pause]
       - |-
-        [\x0207]Ivy[\x0207]Hé ! Attends[-4]
+        [\x0207]Ivy[\x0207]Hé ! Attends-
         nous, Junior.[pause]
       - |-
         [\x0207]Teddy[\x0207]Je n'ai pas
@@ -115,7 +115,7 @@ files:
         [\x0207]Opérateur[\x0207]...Confirmé.
         Merci.[pause][\x0203]Entrez dans la
         capsule de la
-        chambre, là[-4]bas.[pause]
+        chambre, là-bas.[pause]
       - '[\x0207]Junior[\x0207]D''accord ![pause]'
       - a
       - |-
@@ -123,38 +123,38 @@ files:
         sans nous ou
         quoi ?[pause]
       - |-
-        [\x0207]Teddy[\x0207]Attends[-4]
+        [\x0207]Teddy[\x0207]Attends-
         nous ![pause]
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]
   - strings:
       - ''
       - "[\\x0207]Maître des Glaces[\\x0207]Hé attends !\nOn ne peut pas \npasser par ici ![pause][\\x0203]Si tu veux passer,\nil faudra d'abord\nme battre ![pause]"
       - "[\\x0207][\\x020902]3Bien. Je dois \njuste gagner, \nc'est ça ?[pause]"
-      - "[\\x0207]Maître Glaces[\\x0207]Voilà. \nT'as tout \ncompris ![pause][\\x0203]OK, allons[-4]y ![pause]"
+      - "[\\x0207]Maître Glaces[\\x0207]Voilà. \nT'as tout \ncompris ![pause][\\x0203]OK, allons-y ![pause]"
       - |-
         [\x0207][\x020902]3Parfait.
         C'est parti ![pause]
@@ -198,7 +198,7 @@ files:
       - |-
         [\x0207]Chevalier du Feu[\x0207]Tu ne t'ennuies
         pas ? Sans blague ![pause][\x0203]Les dresseurs sont
-        faibles ces temps[-4]ci...[pause][\x0203]Mais tu as l'air en
+        faibles ces temps-ci...[pause][\x0203]Mais tu as l'air en
         forme. On se bat ?[pause]
       - '[\x0207][\x020902]3?!?[pause]'
       - |-
@@ -215,11 +215,11 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Chevalier Ténèbres[\x0207]Voyez[-4]vous ça !
+        [\x0207]Chevalier Ténèbres[\x0207]Voyez-vous ça !
         Tu as l'air bien
         hardi ![pause][\x0203]Voici le Donjon des
         Ténèbres, le + fort
-        du serveur Asuka ![pause][\x0203]Je suis le Che[-4]
+        du serveur Asuka ![pause][\x0203]Je suis le Che-
         valier des Ténèbres,
         le + fort de tous ![pause]
       - "[\\x0207][\\x020902]3Et moi [\\x020801][\\x020501], \nle meilleur dresseur.\nTu me gênes là...[pause]"
@@ -265,7 +265,7 @@ files:
       - |-
         [\x0207][\x020902]3Très bien. Je
         me doutais de
-        ta réponse ![pause][\x0203]Finissons[-4]en ![pause]
+        ta réponse ![pause][\x0203]Finissons-en ![pause]
   - strings:
       - ''
       - |-
@@ -275,7 +275,7 @@ files:
       - |-
         [\x0207]Chef de Genbu[\x0207]Désolé de t'avoir
         forcé à te battre.[pause][\x0203]Je voulais vérifier par
-        moi[-4]même que... [pause][\x0203]Tu pouvais vraiment
+        moi-même que... [pause][\x0203]Tu pouvais vraiment
         triompher de l'AoA ![pause]
       - '[\x0207][\x020902]3Oh, je vois.[pause]'
       - |-
@@ -328,17 +328,17 @@ files:
         En route ![pause]
   - strings:
       - ''
-      - "[\\x0207]Maître des Glaces[\\x0207]Tu es bon. \nImpressionnant ![pause][\\x0203]Je t'offre ce \ncadeau. \nPrends[-4]le ![pause]"
+      - "[\\x0207]Maître des Glaces[\\x0207]Tu es bon. \nImpressionnant ![pause][\\x0203]Je t'offre ce \ncadeau. \nPrends-le ![pause]"
       - |-
         [\x0207][\x020902]3Oui ! J'ai
         un Chip PM ![pause]
       - |-
         [\x0207]Maître des Glaces[\x0207]Cela se corse à
         partir d'ici !
-        Tiens[-4]toi prêt ![pause]
+        Tiens-toi prêt ![pause]
   - strings:
       - ''
-      - "[\\x0207]Maître du Feu[\\x0207]C'est dangereux par\nici ! Tu ferais mieux \nde faire demi[-4]tour ![pause][\\x0203]Ou préfères[-4]tu \nme vaincre et \ncontinuer ?[pause]"
+      - "[\\x0207]Maître du Feu[\\x0207]C'est dangereux par\nici ! Tu ferais mieux \nde faire demi-tour ![pause][\\x0203]Ou préfères-tu \nme vaincre et \ncontinuer ?[pause]"
       - "[\\x0207][\\x020902]3Ouais, c'est\npour ça que \nje suis ici.[pause]"
       - "[\\x0207]Maître du Feu[\\x0207]Tu es \nun dresseur\nagaçant... [pause][\\x0203]Si tu me bats, tu\npourras passer.[pause]"
       - |-
@@ -349,11 +349,11 @@ files:
       - |-
         [\x0207]Maître du Feu[\x0207]Tu es fort !
         Impressionnant ![pause][\x0203]Prends ça, et
-        utilise[-4]le ![pause]
+        utilise-le ![pause]
       - |-
         [\x0207][\x020902]3Oui, j'ai un
         Chip Esprit ![pause]
-      - "[\\x0207]Maître du Feu[\\x0207]Notre chef \nest là[-4]bas !\nIl est fort ![pause]"
+      - "[\\x0207]Maître du Feu[\\x0207]Notre chef \nest là-bas !\nIl est fort ![pause]"
   - strings:
       - ''
       - |-
@@ -388,7 +388,7 @@ files:
         [\x0207]Responsable Chambre[\x0207]Tout est ok. Le
         contrôle de [\x020801][\x020501]
         est terminé.[pause][\x0203]Inversion du
-        Système Matrix.[pause][\x0203]Où veux[-4]tu être
+        Système Matrix.[pause][\x0203]Où veux-tu être
         "réalisé" dans le
         Monde Réel ?[pause]
       - |-
@@ -407,8 +407,8 @@ files:
         180 secondes dans
         le Monde Réel.[pause]
       - |-
-        [\x0207][\x020902]3Que se passera[-4]
-        t[-4]il si je dépasse
+        [\x0207][\x020902]3Que se passera-
+        t-il si je dépasse
         ce temps ?[pause]
       - |-
         [\x0207]Responsable Chambre[\x0207]La "Réalisation"
@@ -420,7 +420,7 @@ files:
         à présent.[pause]
       - |-
         [\x0207][\x020902]3Très bien !
-        Que dois[-4]je
+        Que dois-je
         faire ?[pause]
       - |-
         [\x0207]Responsible Chambre[\x0207]Va dans le
@@ -435,7 +435,7 @@ files:
         est bien ici ![pause][\x0203]... Oups ! Pas de
         temps à perdre ![pause][\x0203]Nous n'avons que
         180 secondes !
-        Dépêchons[-4]nous ![pause]
+        Dépêchons-nous ![pause]
   - strings:
       - ''
       - "[\\x0207][\\x020902]3C'est quoi, ces\ncommandes ?[pause][\\x0203]Voilà un bouton.\nBon, \nj'appuie ![pause]"
@@ -535,7 +535,7 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Seiya Informat.[\x0207]Qu'est[-4]ce qui
+        [\x0207]Seiya Informat.[\x0207]Qu'est-ce qui
         se passe ?![pause]
       - |-
         [\x0207]Saki le Branché[\x0207]Chut ! Je
@@ -543,7 +543,7 @@ files:
         mon portable ![pause]
       - |-
         [\x0207]Teruko le Chaland[\x0207]Quoi ?!! Que
-        dois[-4]je faire ?[pause]
+        dois-je faire ?[pause]
       - |-
         [\x0207]Teruko le Chaland[\x0207]Où est
         la police ?[pause]
@@ -569,7 +569,7 @@ files:
       - "[\\x0207][\\x020902]3Vous êtes  \nen retard ![pause]"
       - "[\\x0207][\\x020902]3Cela fait bien\ndix minutes \nque j'attends.[pause]"
       - |-
-        [\x0207]Ivy[\x0207]Que veux[-4]tu que j'y
+        [\x0207]Ivy[\x0207]Que veux-tu que j'y
         fasse ? Tu es arrivé
         trop tôt ![pause][\x0203]Si c'était pour être
         pénible, tu aurais
@@ -589,10 +589,10 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]

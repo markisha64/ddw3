@@ -27,7 +27,7 @@ files:
         [\x0207]Teddy[\x0207]Ich bin ein echter Fan
         von ihm und will ihn
         unbedingt treffen![pause]
-      - "...Eine Durchsage an alle, die \nDigimon[-4]Online spielen.[pause][\\x0203]In Kürze werden notwendige\nWartungsarbeiten durchgeführt.[pause][\\x0203]Währenddessen könnt ihr nicht in \ndie echte Welt zurück, müsst aber\nauch nichts bezahlen.[pause][\\x0203]...Ich wiederhole.\nAlle können umsonst spielen![pause]"
+      - "...Eine Durchsage an alle, die \nDigimon-Online spielen.[pause][\\x0203]In Kürze werden notwendige\nWartungsarbeiten durchgeführt.[pause][\\x0203]Währenddessen könnt ihr nicht in \ndie echte Welt zurück, müsst aber\nauch nichts bezahlen.[pause][\\x0203]...Ich wiederhole.\nAlle können umsonst spielen![pause]"
       - "[\\x0207]Teddy[\\x0207]Hey, hast du\ndas gehört?[pause][\\x0203]Bestimmt steckt\nLucky Mouse \ndahinter![pause][\\x0203]Mann, ich halts nicht\naus. Ich muss Lucky\nMouse finden.[pause]"
       - |-
         [\x0207][\x020902]3Heh, hey...
@@ -61,16 +61,16 @@ files:
         [\x0207][\x020902]3...Etemon?
         Ist etwas
         passiert?[pause]
-      - "[\\x0207]Nick[\\x0207]Ich fand dieses rie[-4]\nsige auffällige Schild.[pause][\\x0203]Dann kam Etemon, \nsagte es sei seines...[pause][\\x0203]und nahm es mir weg,\nohne sich zu bedanken.[pause]"
+      - "[\\x0207]Nick[\\x0207]Ich fand dieses rie-\nsige auffällige Schild.[pause][\\x0203]Dann kam Etemon, \nsagte es sei seines...[pause][\\x0203]und nahm es mir weg,\nohne sich zu bedanken.[pause]"
       - |-
         [\x0207][\x020902]3...Etemon?
-        Ein auffäl[-4]
+        Ein auffäl-
         liges Schild?[pause][\x0203]...Was mag
         das wohl
         sein...[pause]
       - |-
-        [\x0207]Nick[\x0207]Ich bin ziem[-4]
-        lich beschäf[-4]
+        [\x0207]Nick[\x0207]Ich bin ziem-
+        lich beschäf-
         tigt, also..[pause]
       - |-
         [\x0207]Nick[\x0207]Warum machen sie nicht
@@ -88,13 +88,13 @@ files:
         bist du.[pause]
       - '[\x0207]Schelmischer Mat[\x0207]...Was?![pause]'
       - |-
-        [\x0207][\x020902]3Ich hab dich durch[-4]
+        [\x0207][\x020902]3Ich hab dich durch-
         schaut. Du hattest
-        den Etemon[-4]Anzug an![pause]
+        den Etemon-Anzug an![pause]
       - "[\\x0207]Schelmischer Mat[\\x0207].........[pause][\\x0203]Das weiβt du?\nSo ein Mist![pause][\\x0203]Aber sag es bitte\nniemandem, OK?[pause][\\x0203]Dafür bekommst \ndu das von mir![pause]"
-      - "[\\x0207][\\x020902]3Spitze! Die \nAgumon[-4]Anzüge.[pause]"
+      - "[\\x0207][\\x020902]3Spitze! Die \nAgumon-Anzüge.[pause]"
       - |-
-        [\x0207]Schelmischer Mat[\x0207]Das ist ein Ge[-4]
+        [\x0207]Schelmischer Mat[\x0207]Das ist ein Ge-
         heimnis zwischen
         dir und mir, OK?[pause]
   - strings:
@@ -111,7 +111,7 @@ files:
       - |-
         [\x0207]Kail[\x0207]Ich auch nicht. Hab
         überall gesucht...[pause][\x0203]Er sagte doch,
-        dass er zum Admin[-4]
+        dass er zum Admin-
         Center wollte...[pause]
       - |-
         [\x0207][\x020902]3Wie weit drinnen
@@ -127,7 +127,7 @@ files:
       - ''
       - a
       - |-
-        [\x0207]Datamon[\x0207]Bist du ge[-4]
+        [\x0207]Datamon[\x0207]Bist du ge-
         kommen, um mit
         mir zu kämpfen?[pause][\x0203]Ich bin jederzeit
         bereit! Lass uns
@@ -150,16 +150,16 @@ files:
         [\x0207][\x020902]3Hä?! Ach so,
         ich passe gut
         auf. Danke...[pause]
-      - "[\\x0207]Datamon[\\x0207]Es gibt Geheimn. ü.\nalte Rüstg. u. Waff.\nin der digitalen Welt.[pause][\\x0203]Suche rüstungsdigi[-4]\ntierte Digi., die diese \nGeheimnisse kennen.[pause]"
+      - "[\\x0207]Datamon[\\x0207]Es gibt Geheimn. ü.\nalte Rüstg. u. Waff.\nin der digitalen Welt.[pause][\\x0203]Suche rüstungsdigi-\ntierte Digi., die diese \nGeheimnisse kennen.[pause]"
       - |-
         [\x0207][\x020902]3OK! Ich finde
-        diese rüstungs[-4]
+        diese rüstungs-
         digitierten Digimon![pause]
   - strings:
       - ''
       - |-
         [\x0207]Datamon[\x0207]Oh, du hast einen
-        Personalpass. Ent[-4]
+        Personalpass. Ent-
         schuldige bitte...[pause][\x0203]Ich öffne das Tor.
         Tritt ein.[pause]
       - |-
@@ -176,8 +176,8 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]???[\x0207]GUBIIIII![pause][\x0203]Digimon[-4]Antwort,
-        Digimon[-4]Antwort![pause]
+        [\x0207]???[\x0207]GUBIIIII![pause][\x0203]Digimon-Antwort,
+        Digimon-Antwort![pause]
       - |-
         [\x0207][\x020902]3Was ist das?
         Ein Digimon, das
@@ -211,9 +211,9 @@ files:
       - '[\x0207]???[\x0207]GUBIII![pause]'
       - |-
         [\x0207][\x020902]3Sieht aus wie ein
-        Rookie[-4]Digimon...[pause][\x0203]Wenn es nicht ver[-4]
+        Rookie-Digimon...[pause][\x0203]Wenn es nicht ver-
         schwindet, ist es
-        kein A.o.A.[-4]Digimon[pause]
+        kein A.o.A.-Digimon[pause]
       - |-
         [\x0207][\x020902]3Hey, warte!
         Wo willst
@@ -225,7 +225,7 @@ files:
         für ein Raum!?[pause]
       - "[\\x0207][\\x020902]3Hey, wer\nist das \nda drüben?[pause]"
       - |-
-        [\x0207][\x020902]3Es ist die Game[-4]
+        [\x0207][\x020902]3Es ist die Game-
         master! Ich
         schnapp sie mir![pause]
       - |-
@@ -259,7 +259,7 @@ files:
       - |-
         [\x0207][\x020902]3Hey, Gamemaster!
         Mit wem redest du?
-        Dem A.o.A.[-4]Boss?[pause]
+        Dem A.o.A.-Boss?[pause]
       - |-
         [\x0207]Gamemaster[\x0207]Du bist
         doch der
@@ -267,13 +267,13 @@ files:
         du hier?[pause]
       - "[\\x0207][\\x020902]3Ich mach dich\nfertig![pause][\\x0203]Besser sagst du mir\nganz schnell, was \ndie A.o.A. planen![pause]"
       - |-
-        [\x0207]Gamemaster[\x0207]Du willst mich be[-4]
-        siegen? Guter Witz![pause][\x0203]Kommt, meine kost[-4]
+        [\x0207]Gamemaster[\x0207]Du willst mich be-
+        siegen? Guter Witz![pause][\x0203]Kommt, meine kost-
         baren Digimon![pause]
       - |-
-        [\x0207][\x020902]3OK, die Wa[-4]
+        [\x0207][\x020902]3OK, die Wa-
         chen habe ich
-        besiegt![pause][\x0203]Nun i. Game[-4]
+        besiegt![pause][\x0203]Nun i. Game-
         master dran![pause]
   - strings:
       - ''
@@ -299,8 +299,8 @@ files:
         Keith auch.[pause]
       - "[\\x0207]Lisa[\\x0207]Wir konnten es dir\nnicht eher sagen.[pause][\\x0203]Aber deinetwegen\nist der Fall \njetzt gelöst![pause]"
       - |-
-        [\x0207]Lisa[\x0207]Wir verhören Game[-4]
-        master und verwan[-4]
+        [\x0207]Lisa[\x0207]Wir verhören Game-
+        master und verwan-
         deln Kurt zurück![pause]
   - strings:
       - ''
@@ -309,14 +309,14 @@ files:
         Gehörst du zu
         den A.o.A?[pause][\x0203]Ich werde mich
         nicht ergeben![pause][\x0203]Ich werde euch
-        mit meinen Digi[-4]
+        mit meinen Digi-
         mon besiegen![pause]
       - |-
         [\x0207][\x020902]3Hey, warte!
         Ich bin nicht
         von d. A.o.A![pause][\x0203]Ich bin [\x020801][\x020501]
         u. komme vom
-        Asuka[-4]Server![pause]
+        Asuka-Server![pause]
       - "[\\x0207]Junge[\\x0207]Ist das wahr?\nIch dachte, du \ngehörst zu ihnen...[pause][\\x0203]Ich heiβe Kenny.[pause][\\x0203]Aber wie bist du\nhierher gekommen?![pause]"
       - |-
         [\x0207][\x020902]3Ich bin durch das
@@ -324,7 +324,7 @@ files:
         Bulbmon gekommen.[pause][\x0203]Kenny, weiβt du, wo
         das Digiei des
         Wissens ist?[pause]
-      - "[\\x0207]Mutiger Kenny[\\x0207]Hm, nein. Das weiβ \nich leider nicht.[pause][\\x0203]Aber da du sowieso\nnicht danach suchen\nkannst, ist es egal![pause][\\x0203]Die A.o.A. haben\nnämlich d. Amaterasu[-4]\nServer übernommen![pause]"
+      - "[\\x0207]Mutiger Kenny[\\x0207]Hm, nein. Das weiβ \nich leider nicht.[pause][\\x0203]Aber da du sowieso\nnicht danach suchen\nkannst, ist es egal![pause][\\x0203]Die A.o.A. haben\nnämlich d. Amaterasu-\nServer übernommen![pause]"
       - "[\\x0207][\\x020902]3Das weiβt du\nerst, wenn du \nes versuchst![pause][\\x0203]Was ist mit \nden anderen \nTamern?[pause]"
       - |-
         [\x0207]Mutiger Kenny[\x0207]Wurden gefangen
@@ -335,13 +335,13 @@ files:
       - |-
         [\x0207][\x020902]3Wieder Oinkmon.
         Oh, Mann![pause][\x0203]Das können wir
-        uns nicht gefal[-4]
+        uns nicht gefal-
         len lassen![pause]
       - |-
         [\x0207]Mutiger Kenny[\x0207]Genau das ist auch
         unsere Meinung![pause][\x0203]Die, die nicht gefangen
-        wurden, sind im Wider[-4][pause][\x0203]stand organisiert, um
-        A.o.A. zu stürzen.[pause][\x0203]Ich will mich ihnen an[-4]
+        wurden, sind im Wider-[pause][\x0203]stand organisiert, um
+        A.o.A. zu stürzen.[pause][\x0203]Ich will mich ihnen an-
         schlieβen und suche
         daher nach ihnen.[pause]
       - |-
@@ -356,10 +356,10 @@ files:
       - |-
         [\x0207][\x020902]3Ja,
         du auch![pause]
-      - "[\\x0207]Mutiger Kenny[\\x0207]Mach ich![pause][\\x0203]Das brauchst du, \num dich im Amat.[-4]\nServ. zu bewegen![pause]"
+      - "[\\x0207]Mutiger Kenny[\\x0207]Mach ich![pause][\\x0203]Das brauchst du, \num dich im Amat.-\nServ. zu bewegen![pause]"
       - |-
         [\x0207][\x020902]3Ich hab die
-        Kumpel[-4]ID!
+        Kumpel-ID!
         Cool![pause]
       - "[\\x0207]Mutiger Kenny[\\x0207]Damit denken sie,\ndass du Mitglied \nder A.o.A. bist![pause][\\x0203]Wenn du dich nicht\nzu blöd anstellst, \nkommst du durch.[pause]"
       - "[\\x0207][\\x020902]3Danke, \nnett von\nDir![pause]"
@@ -413,21 +413,21 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207][\x020902]3Das ist un[-4]
-        heimlich. Nie[-4]
+        [\x0207][\x020902]3Das ist un-
+        heimlich. Nie-
         mand ist hier![pause]
       - |-
         [\x0207][\x020902]3Verstehe! Es ist
-        wie im Asuaka[-4]Spiel
+        wie im Asuaka-Spiel
         Meisterraum![pause][\x0203]Eine Geheimtür![pause][\x0203]...wie lautet der
-        Code?[pause][\x0203]Asuka war MONS[-4]
+        Code?[pause][\x0203]Asuka war MONS-
         TER, also ist es
         hier DIGITAL?[pause]
       - "[\\x0207][\\x020902]3!!\nSie öffnet sich! \nWarum?[pause][\\x0203]........?!\nVielleicht damit\nich hineingehe...[pause][\\x0203]In Ordnung! Ich\nkomme, wo auch \nimmer du steckst![pause]"
   - strings:
       - ''
       - |-
-        [\x0207]Königl. Wache[\x0207]Wir haben ge[-4]
+        [\x0207]Königl. Wache[\x0207]Wir haben ge-
         wartet! Ihr habt
         die Chiefs besiegt![pause]
       - |-
@@ -470,7 +470,7 @@ files:
       - |-
         [\x0207][\x020902]3...niemals! Du
         missbrauchst Digimon.[pause][\x0203]Auch wenn ich zerstört
-        werde, ich werde nie[-4]
+        werde, ich werde nie-
         mals zu euch gehören![pause]
       - |-
         [\x0207]Chief Officer[\x0207]Du hast deine Chance
@@ -521,7 +521,7 @@ files:
       - |-
         [\x0207]Teddy[\x0207]Heh heh![pause][\x0203]Nun, ich denke...[pause][\x0203]Das System ist wie
         der Computer von
-        Asuka[-4]Server![pause]
+        Asuka-Server![pause]
       - |-
         [\x0207]Nick[\x0207]Hey, Teddy
         beeil dich![pause][\x0203]Destromon landet
@@ -569,21 +569,21 @@ files:
       - |-
         [\x0207]Teddy[\x0207]Hey, lass uns in den
         Anmelderaum gehen![pause][\x0203]Sicher sind alle und
-        die Matrix[-4]Kammer
+        die Matrix-Kammer
         wieder normal![pause]
       - |-
         [\x0207][\x020902]3...Yeah!
         Wir kehren in die
         echte Welt zurück![pause]
       - |-
-        [\x0207]Teddy[\x0207]Destromon ge[-4]
-        stoppt und zer[-4]
+        [\x0207]Teddy[\x0207]Destromon ge-
+        stoppt und zer-
         stört![pause][\x0203]Wir besiegten
         die A.o.A.![pause]
   - strings:
       - ''
       - |-
-        [\x0207][\x020902]3Hmmm...das Matrix[-4]
+        [\x0207][\x020902]3Hmmm...das Matrix-
         System sollte hier
         sein...[pause][\x0203]Ich weiβ nicht, wie
         ich das System ans
@@ -621,14 +621,14 @@ files:
         gesagt...?[pause]
       - |-
         [\x0207]Kail[\x0207]Viele Vemmon kamen
-        aus dem Admin[-4]Center
+        aus dem Admin-Center
         von Amaterasu![pause][\x0203]Sie schossen
         Strahlen und...[pause][\x0203]Sie verwandelten alle
         in Oinkmon![pause]
       - |-
         [\x0207][\x020902]3Warte...Vemmon
         haben diese Art
-        von Power nicht.[pause][\x0203]Wurden sie um[-4]
+        von Power nicht.[pause][\x0203]Wurden sie um-
         programmiert?[pause]
       - |-
         [\x0207]Kail[\x0207]Ich weiβ nicht...[pause][\x0203]Ich habe mich mit
@@ -758,7 +758,7 @@ files:
         [\x0207][\x020902]3...was?!
         Gunslinger?![pause]
       - |-
-        Ich zeige dir die präch[-4]
+        Ich zeige dir die präch-
         tige, ruhmreiche Gestalt,
         die im All schwebt...[pause]
       - '[\x0207][\x020902]3...wawas?![pause]'
@@ -767,7 +767,7 @@ files:
       - |-
         Eigentlich will ich
         Gunslinger besitzen! Juggernaut
-        war nur ein Köder![pause][\x0203]Die A.o.A.[-4]Operation Sigma
+        war nur ein Köder![pause][\x0203]Die A.o.A.-Operation Sigma
         geht in die letzte Phase über...[pause]
       - |-
         [\x0207][\x020902]3...letzte Phase?
@@ -784,8 +784,8 @@ files:
       - |-
         Dann komme nach Gunslinger
         und besiege mich![pause][\x0203]Du brauchst keine Angst zu haben
-        Gehe durch's Warp[-4]Tor, und
-        du bist bei Gun Slinger![pause][\x0203]Da haben wir unseren Finalkampf.[pause][\x0203]Das Schicksal der ganzen Mensch[-4]
+        Gehe durch's Warp-Tor, und
+        du bist bei Gun Slinger![pause][\x0203]Da haben wir unseren Finalkampf.[pause][\x0203]Das Schicksal der ganzen Mensch-
         heit wird entschieden...[pause]
       - |-
         [\x0207][\x020902]3In Ordnung,
@@ -832,7 +832,7 @@ files:
         [\x0207][\x020902]3Cardmon?
         Ist das ein
         Digimon?[pause]
-      - "[\\x0207]Fuβballer Hide[\\x0207]Cardmon ist ein Digi[-4]\nmon, das Booster mit\nExtrakarten fallen lässt.[pause][\\x0203]Nur Divermon in der \nStadt kann die Booster \nöffnen.[pause]"
+      - "[\\x0207]Fuβballer Hide[\\x0207]Cardmon ist ein Digi-\nmon, das Booster mit\nExtrakarten fallen lässt.[pause][\\x0203]Nur Divermon in der \nStadt kann die Booster \nöffnen.[pause]"
       - |-
         [\x0207][\x020902]3Cardmon lässt
         Booster fallen?![pause][\x0203]...lass mich
@@ -842,17 +842,17 @@ files:
         brauchst dafür
         Baumstiefel.[pause][\x0203]Willst du Stiefel
         haben? Nun dann...[pause][\x0203]Ich habe meine
-        Gabumon[-4]Karte ver[-4]
+        Gabumon-Karte ver-
         loren. Suchst du sie?[pause][\x0203]Wenn du sie findest,
         erzähle ich dir, wie
         du Stiefel bekommst.[pause]
       - |-
-        [\x0207][\x020902]3Gabumon[-4]Karte?
+        [\x0207][\x020902]3Gabumon-Karte?
         Gut, ich such sie
         u. komm zurück![pause]
   - strings:
       - ''
-      - "[\\x0207][\\x020902]3...Hey Armormon.\nTust du mir einen\nGefallen?[pause][\\x0203]Kann ich die \nMonmon[-4]DDNA aus\ndeiner DDNA haben?[pause]"
+      - "[\\x0207][\\x020902]3...Hey Armormon.\nTust du mir einen\nGefallen?[pause][\\x0203]Kann ich die \nMonmon-DDNA aus\ndeiner DDNA haben?[pause]"
       - "[\\x0207]Armormon[\\x0207]...Geht nicht!\nSie ist zu wichtig.[pause][\\x0203]Wenn du sie haben \nwillst, musst du \nsie mir wegnehmen.[pause]"
   - strings:
       - ''
@@ -861,11 +861,11 @@ files:
         Armormon
         besiegt![pause]
       - |-
-        [\x0207]Armormon[\x0207]Wie konntest du...[pause][\x0203]Aber du hast ge[-4]
+        [\x0207]Armormon[\x0207]Wie konntest du...[pause][\x0203]Aber du hast ge-
         wonnen. Hier nimm sie[pause]
       - |-
         [\x0207][\x020902]3Toll! Ich hab
-        die Monmon[-4]
+        die Monmon-
         DDNA![pause][\x0203]Danke,
         Armormon![pause]
   - strings:
@@ -888,7 +888,7 @@ files:
       - "[\\x0207]BK WarGreymon[\\x0207]Du bist wohl \nkein Schwätzer.[pause]"
       - |-
         [\x0207][\x020902]3So was habe ich
-        schon hundert[-4]
+        schon hundert-
         mal gemacht![pause]
       - |-
         [\x0207]BK WarGreymon[\x0207]Ha ha ha, du
@@ -896,7 +896,7 @@ files:
         Nimm sie dir![pause]
       - |-
         [\x0207][\x020902]3Klasse! Ich hab
-        die Platin[-4]ID![pause]
+        die Platin-ID![pause]
       - |-
         [\x0207]BK WarGreymon[\x0207]Versuch, der
         Stärkste zu sein![pause][\x0203]Das ist das
@@ -928,12 +928,12 @@ files:
         Ich habe mit
         allen gekämpft![pause]
       - |-
-        [\x0207]BK MegaGargom.[\x0207]Wow, erstaun[-4]
+        [\x0207]BK MegaGargom.[\x0207]Wow, erstaun-
         lich! Ich gebe
         dir dies![pause]
       - |-
         [\x0207][\x020902]3Toll! Ich hab
-        den Wildnis[-4]
+        den Wildnis-
         helm![pause]
       - |-
         [\x0207]BK MegaGargo.[\x0207]Viel Glück.
@@ -978,7 +978,7 @@ files:
       - ''
       - |-
         [\x0207]Veemon[\x0207]Hey, du bist OK.
-        Ich bin beeindruckt![pause][\x0203]Hier nimm die Baum[-4]
+        Ich bin beeindruckt![pause][\x0203]Hier nimm die Baum-
         stiefel![pause]
       - |-
         [\x0207][\x020902]3Cool! Danke,
@@ -992,7 +992,7 @@ files:
         spielen![pause]
   - strings:
       - ''
-      - "[\\x0207]Tai Kong Wang[\\x0207]Ich mache die\nbeste Angelrute\nweit und breit...[pause][\\x0203]Das ist natürlich\nGeschmackssache![pause][\\x0203]Benutze die Angel[-4]\nrute von mir u. du \nfängst gr. Fische![pause][\\x0203]Viel Glück mit den\ngroβen Fischen! Hier\nhast du sie![pause]"
+      - "[\\x0207]Tai Kong Wang[\\x0207]Ich mache die\nbeste Angelrute\nweit und breit...[pause][\\x0203]Das ist natürlich\nGeschmackssache![pause][\\x0203]Benutze die Angel-\nrute von mir u. du \nfängst gr. Fische![pause][\\x0203]Viel Glück mit den\ngroβen Fischen! Hier\nhast du sie![pause]"
       - "[\\x0207][\\x020902]3Häh?!\nDanke, Paps![pause][\\x0203]Cool! Die \nAngelrute![pause]"
       - |-
         [\x0207]Tai Kong Wang[\x0207]Ho ho ho ho ho.
@@ -1016,7 +1016,7 @@ files:
       - |-
         [\x0207]Divermon[\x0207]Oh, ich wollte
         unbedingt einen
-        Lacher kriegen![pause][\x0203]Ich muss meine Kar[-4]
+        Lacher kriegen![pause][\x0203]Ich muss meine Kar-
         ten besser wählen.[pause]
   - strings:
       - ''
@@ -1041,13 +1041,13 @@ files:
         [\x0207]Etemon[\x0207]Hab schon mal
         mit diesem Ordner
         verloren![pause][\x0203]Aber mit meinem
-        Super[-4]Ordner werde
+        Super-Ordner werde
         ich siegen![pause]
   - strings:
       - ''
       - |-
         [\x0207]Etemon[\x0207]Aaaah!
-        Verloren![pause][\x0203]Spielkarten im Ord[-4]
+        Verloren![pause][\x0203]Spielkarten im Ord-
         ner sind nicht gut.[pause]
   - strings:
       - ''
@@ -1057,9 +1057,9 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]MetalEtemon[\x0207]Du hast das[-4]
+        [\x0207]MetalEtemon[\x0207]Du hast das-
         Zeug, um mich
-        zu besiegen![pause][\x0203]Wenn ich einen stär[-4]
+        zu besiegen![pause][\x0203]Wenn ich einen stär-
         keren Ordner habe,
         sieht's anders aus![pause]
   - strings:
@@ -1067,20 +1067,20 @@ files:
       - |-
         [\x0207]KingDivermon[\x0207]Dann überreiche
         ich dir diesen
-        Asuka[-4]Pokal![pause]
+        Asuka-Pokal![pause]
       - |-
         [\x0207][\x020902]3Echt?! Danke,
         KingDivermon![pause][\x0203]Toll! Der
-        Asuka[-4]Pokal![pause]
+        Asuka-Pokal![pause]
       - |-
         [\x0207]KingDivermon[\x0207]Nur ich kann sie
         herstellen...[pause][\x0203]Er ist ein Symbol
-        für den Asuka[-4]
+        für den Asuka-
         Kartenkönig![pause]
       - "[\\x0207][\\x020902]3Wow! Cool!\nEin Symbol für \nden Kartenkönig![pause]"
       - |-
         [\x0207]KingDivermon[\x0207]Fofofo, aber
-        gib deine Dek[-4]
+        gib deine Dek-
         kung nicht auf![pause]
       - "[\\x0207][\\x020902]3Klar! Ich \nwerde viel\nstärker![pause][\\x0203]OK, ich such mir\neinen stärkeren\nKartenspieler![pause]"
   - strings:
@@ -1088,20 +1088,20 @@ files:
       - |-
         [\x0207]KingEtemon[\x0207]Ich mag dich.
         Bitte nimm diesen
-        Sun[-4]Pokal![pause]
+        Sun-Pokal![pause]
       - |-
         [\x0207][\x020902]3Danke
         KingEtemon![pause][\x0203]Toll! Ich
         habe den
-        Sun[-4]Pokal![pause]
+        Sun-Pokal![pause]
       - |-
-        [\x0207]KingEtemon[\x0207]Das ist das Sym[-4]
-        bol für Amate[-4]
+        [\x0207]KingEtemon[\x0207]Das ist das Sym-
+        bol für Amate-
         rasus Kartenkönig![pause]
       - |-
         [\x0207][\x020902]3Super! Jetzt bin ich
-        die Nr. 1 der Amate[-4]
-        rasu[-4]Kartenkenner![pause]
+        die Nr. 1 der Amate-
+        rasu-Kartenkenner![pause]
       - |-
         [\x0207]KingEtemon[\x0207]?!?
         Neeein! Ich
@@ -1110,7 +1110,7 @@ files:
         nur Glück![pause]
       - |-
         [\x0207][\x020902]3Heh heh heh.
-        Ich ver[-4]
+        Ich ver-
         schwinde![pause][\x0203]Bis dann KingEtemon![pause]
   - strings:
       - ''

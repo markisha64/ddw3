@@ -216,7 +216,7 @@ strings:
     ¡Lalalalalala![pause][\x0203]Por eso no puedo
     salir de Digimon
     Online.[pause]
-  - "[\\x0207]Domador Akiba[\\x0207]¡Es horrible!\nP[-4]Perdí...\nCreo que estoy[pause][\\x0203]impactado. No\ncantaré más \nen todo el día.[pause]"
+  - "[\\x0207]Domador Akiba[\\x0207]¡Es horrible!\nP-Perdí...\nCreo que estoy[pause][\\x0203]impactado. No\ncantaré más \nen todo el día.[pause]"
   - |-
     [\x0207]Domador Gon[\x0207]¡Aah! Justo cuando
     me escondo alguien
@@ -328,7 +328,7 @@ strings:
     No se puede...
     pasar.[pause]
   - |-
-    [\x0207]Domadora Alice[\x0207]P[-4]perdí.
+    [\x0207]Domadora Alice[\x0207]P-perdí.
     Muy...bien.[pause]
   - |-
     [\x0207]Domadora Alice[\x0207]De hecho...eres...
@@ -790,7 +790,7 @@ strings:
     Soy Kongoumon.
     Hola de nuevo.[pause]
   - "[\\x0207]Kongoumon[\\x0207]Sabes que puedo\nhacer algo muy bueno\npara ti.[pause][\\x0203]Esta vez necesito \nla Vara Milenio, si\npuedes tráemela.[pause][\\x0203]Te sorprenderé\ncon algo \nimportante.[pause]"
-  - "[\\x0207]Kongoumon[\\x0207]T[-4]tienes la Vara\nMilenio.[pause][\\x0203]Dámela con \nInmaculado\nVeamos...[pause][\\x0203]Espera un minuto.\n¡Shaka shaka! \n¡Shaka shaka![pause][\\x0203]Ahí va, Eternamente. \nEsta es el arma más\nfuerte para los[pause][\\x0203]Patamon y\nRenamon.[pause][\\x0203]Tío, te envidio,\nDe verdad que \nte envidio.[pause]"
+  - "[\\x0207]Kongoumon[\\x0207]T-tienes la Vara\nMilenio.[pause][\\x0203]Dámela con \nInmaculado\nVeamos...[pause][\\x0203]Espera un minuto.\n¡Shaka shaka! \n¡Shaka shaka![pause][\\x0203]Ahí va, Eternamente. \nEsta es el arma más\nfuerte para los[pause][\\x0203]Patamon y\nRenamon.[pause][\\x0203]Tío, te envidio,\nDe verdad que \nte envidio.[pause]"
   - |-
     [\x0207]MetalGreymon[\x0207]Deberías visitar al
     Dr. Osomatsu o
@@ -886,16 +886,16 @@ strings:
     estés listo.
     ¡Allá voy![pause]
   - "[\\x0207]GrapLeomon[\\x0207]¡Ja ja ja ja![pause][\\x0203]Eres incluso mejor\ndomador de lo que\nimaginaba. Puedo darte[pause][\\x0203]esto. Es DADN Kumamon \ncogido de mí mismo.\nTómalo y dáselo[pause][\\x0203]a Piximon o al\nDr. Osomatsu, puedes\nhacer a Kumamon tu[pause][\\x0203]compañero en Intercamb.\nDigimon. Si alguien\npuede obtener un[pause][\\x0203]Kumamon adecuado, ese\neres tú. ¡Cuento \ncontigo![pause]"
-  - "[\\x0207]B[-4]Saint Gargoylemon[\\x0207]¡Boing! ¡Boing!\nSoy B[-4]Sent\nGargoylemon.[pause][\\x0203]Soy fuerte. No \neres nadie\ncomparado conmigo.[pause]"
-  - "[\\x0207]B[-4]Saint Gargoylemon[\\x0207]¿Qué? ¿Una lucha?\n¿Estás loco?\nMuy bien.[pause][\\x0203]Voy a hacerte \npuré de patatas.[pause]"
+  - "[\\x0207]B-Saint Gargoylemon[\\x0207]¡Boing! ¡Boing!\nSoy B-Sent\nGargoylemon.[pause][\\x0203]Soy fuerte. No \neres nadie\ncomparado conmigo.[pause]"
+  - "[\\x0207]B-Saint Gargoylemon[\\x0207]¿Qué? ¿Una lucha?\n¿Estás loco?\nMuy bien.[pause][\\x0203]Voy a hacerte \npuré de patatas.[pause]"
   - |-
-    [\x0207]B[-4]IP Doramon[\x0207]¡Soy B[-4]IP Doramon!
+    [\x0207]B-IP Doramon[\x0207]¡Soy B-IP Doramon!
     Te voy a incinerar
     con Mega Crusher.[pause][\x0203]Si tienes un
     problema con
     eso, ¡quítate de[pause][\x0203]mi presencia
     inmediatamente![pause]
-  - "[\\x0207]B[-4]IP Doramon[\\x0207]¡Tonto! ¡Te di\nuna oportunidad de\nhuir y sigues[pause][\\x0203]aquí! ¡Vas a pagar\npor esa decisión \nmucho![pause]"
+  - "[\\x0207]B-IP Doramon[\\x0207]¡Tonto! ¡Te di\nuna oportunidad de\nhuir y sigues[pause][\\x0203]aquí! ¡Vas a pagar\npor esa decisión \nmucho![pause]"
   - "[\\x0207]B Seraphimon[\\x0207]Mi nombre es \nB Seraphimon. Sólo\nlos elegidos pueden[pause][\\x0203]entrar en este área\nAquellos que no\ntengan confianza[pause][\\x0203]deben marchar\nen paz.[pause]"
   - |-
     [\x0207]B Seraphimon[\x0207]Para pasar de este
@@ -994,7 +994,7 @@ strings:
     derrotarme.[pause]
   - "[\\x0207]BlackAguman[\\x0207]¡Ooooh!\n¡PerdíI ¡Ya te \nenseñaré! La[pause][\\x0203]próxima vez usaré\nuna Carpeta más \nfuerte que nunca.[pause]"
   - "[\\x0207]Numemon[\\x0207]¿Numee...?\n¡Uyy! ¡Perdí!\n¡Numeeeeee![pause][\\x0203]Numevale. Nume \nestá mejor. Nume\nganará la próxima.[pause]"
-  - "[\\x0207]Metal Eteman[\\x0207]¡Ohhh!\n¿Qué ocurrió?\n¡P[-4]Perdí![pause][\\x0203]¡Oye! La próxima\nvez, ¡haré que \npagues por esto![pause]"
+  - "[\\x0207]Metal Eteman[\\x0207]¡Ohhh!\n¿Qué ocurrió?\n¡P-Perdí![pause][\\x0203]¡Oye! La próxima\nvez, ¡haré que \npagues por esto![pause]"
   - |-
     [\x0207]Black Agumon[\x0207]Ooooh.
     ¿Qué fue eso?

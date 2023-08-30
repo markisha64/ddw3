@@ -329,7 +329,7 @@ files:
       - "[\\x0207][\\x020902]3Hey, Etemon, I \ngot something\nI wanna ask.[pause]"
       - "[\\x0207]Etemon[\\x0207]Sure, what?\nI'll tell you anything I \nknow![pause]"
       - "[\\x0207][\\x020902]3Aren't you the one \nwho has Sepikmon's \nmask?[pause]"
-      - "[\\x0207]Etemon[\\x0207]I[-4]I don't know \nwhat you're \ntalking about![pause]"
+      - "[\\x0207]Etemon[\\x0207]I-I don't know \nwhat you're \ntalking about![pause]"
       - "[\\x0207][\\x020902]3Hey, wait![pause][\\x0203]He's hiding \nsomething![pause]"
   - strings:
       - ''
@@ -471,7 +471,7 @@ files:
       - |-
         [\x0207][\x020902]3Well then,
         that's easy![pause]
-      - "[\\x0207]Teddy[\\x0207]But you need the Digi[-4]Egg \nof Knowledge to call \nDigmon...[pause][\\x0203]And I think that's a rare \nitem only in Amaterasu \nServer...[pause]"
+      - "[\\x0207]Teddy[\\x0207]But you need the Digi-Egg \nof Knowledge to call \nDigmon...[pause][\\x0203]And I think that's a rare \nitem only in Amaterasu \nServer...[pause]"
       - "[\\x0207][\\x020902]3OK, then let's go \nto Amaterasu to \nlook![pause]"
       - "[\\x0207]Teddy[\\x0207]But how are we \ngoing to \nAmaterasu?[pause][\\x0203]I'm sure it's just \ncrawling with the \nA.o.A...[pause]"
       - |-
@@ -490,7 +490,7 @@ files:
       - ''
       - "[\\x0207]Knightmon[\\x0207]Virus detected!\nVirus detected![pause][\\x0203]Deleting the virus \nnow![pause]"
       - |-
-        [\x0207][\x020902]3He[-4]hey wait!
+        [\x0207][\x020902]3He-hey wait!
         I'm not a virus![pause]
       - "[\\x0207]Knightmon[\\x0207]Virus confirmed!\nVirus confirmed![pause][\\x0203]Deleting the virus \nnow![pause]"
       - "[\\x0207][\\x020902]3It's no use. Knightmon \nwas reprogrammed by \nthe A.o.A![pause][\\x0203]Hmm... I guess I \nshould check out the\nother cities for now.[pause]"
@@ -501,16 +501,16 @@ files:
       - "[\\x0207]Game Master[\\x0207]...what do you \nmean, talk![pause][\\x0203]I have no \nintentions \nof helping you![pause]"
       - "[\\x0207]Lisa[\\x0207]Oh, really?\nHmmmm[pause][\\x0203]I was going to \ngive up to you.[pause]"
       - |-
-        [\x0207][\x020902]3Wha[-4]what're
+        [\x0207][\x020902]3Wha-what're
         you saying Lisa?![pause]
       - "[\\x0207]Lisa[\\x0207]They got the\nJuggernaut! So\nnothing we can do![pause][\\x0203]And I don't want \nto die yet.[pause]"
-      - "[\\x0207][\\x020902]3...wha[-4]what?!\nWe fought all\nthe way here!![pause][\\x0203]I don't want to. \nI'll never give \nup![pause]"
+      - "[\\x0207][\\x020902]3...wha-what?!\nWe fought all\nthe way here!![pause][\\x0203]I don't want to. \nI'll never give \nup![pause]"
       - "[\\x0207]Lisa[\\x0207][\\x020801][\\x020501], you're \na straight kid.[pause][\\x0203]But you'll just \nlose your life.[pause]"
       - "[\\x0207]Game Master[\\x0207]You're smarter than \nyou look. I'll have \nto change my mind.[pause]"
       - "[\\x0207]Game Master[\\x0207]Yes, Juggernaut \nbelongs to the\nA.o.A![pause][\\x0203]Only the president in\nAmaterasu City can\nstop it![pause]"
       - "[\\x0207]Lisa[\\x0207]...really.\nYou heard that \n[\\x020801][\\x020501]?[pause]"
       - |-
-        [\x0207][\x020902]3Ye[-4]yes ma'am!
+        [\x0207][\x020902]3Ye-yes ma'am!
         ...that's what
         you meant!![pause]
       - |-
@@ -529,7 +529,7 @@ files:
       - "[\\x0207]Game Master[\\x0207]It's a Digimon born by \nfusing Vemmon and \nthe Juggernaut![pause][\\x0203]Destromon is the \nstrongest Digimon! No \nweapon can defeat it![pause]"
       - "[\\x0207]Lisa[\\x0207]...we've got no time \nto lose![pause][\\x0203]Let's get the president \nof MAGAMI to stop \nDestromon![pause]"
       - '[\x0207][\x020902]3Yes ma''am![pause]'
-      - '[\x0207]Teddy[\x0207]...y[-4]yes![pause]'
+      - '[\x0207]Teddy[\x0207]...y-yes![pause]'
       - '[\x0207]Nick[\x0207]Roger![pause]'
   - strings:
       - ''
@@ -569,11 +569,11 @@ files:
       - '[\x0207]Kurt[\x0207]Ooink, oink![pause]'
       - "[\\x0207]Kail[\\x0207]...Is Kurt and \neveryone going to stay \nthis way...?[pause]"
       - |-
-        [\x0207]Teddy[\x0207]N[-4]no. I'm sure
+        [\x0207]Teddy[\x0207]N-no. I'm sure
         there's a way to
         turn them back![pause]
       - "[\\x0207]Teddy[\\x0207]...right \n[\\x020801][\\x020501]?![pause]"
-      - "[\\x0207][\\x020902]3...ye[-4]yeah.\nI'm sure![pause][\\x0203]You guys wait \nhere. I'll go \nlook into it![pause]"
+      - "[\\x0207][\\x020902]3...ye-yeah.\nI'm sure![pause][\\x0203]You guys wait \nhere. I'll go \nlook into it![pause]"
       - "[\\x0207]Kail[\\x0207]...hey, \n[\\x020801][\\x020501],\nTeddy...[pause]"
       - "[\\x0207]Kail[\\x0207]We defeated the \nA.o.A...right?[pause]"
   - strings:

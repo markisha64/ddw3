@@ -35,7 +35,7 @@ strings:
   - Défense Vent
   - Défense Tonnerre
   - Défense Missile
-  - Au[-4]delà
+  - Au-delà
   - S Déf. Chaleur
   - S Défense Eau
   - S Défense Glace
@@ -93,7 +93,7 @@ strings:
   - Défense Machine
   - Déf. Ténèbres
   - '[\x020501] +[\x020502]'
-  - '[\x020501] [-4][\x020502]'
+  - '[\x020501] -[\x020502]'
   - |-
     Résultats:
     Puissance augmentée de [\x020501][pause]
@@ -148,7 +148,7 @@ strings:
   - |-
     Résultats :
     Aucune amélioration...[pause]
-  - '[-4][-4][-4][-4][-4]'
-  - '[-4][-4]'
-  - '[-4][-4][-4][-4]'
-  - '[-4][-4][-4]'
+  - '-----'
+  - '--'
+  - '----'
+  - '---'

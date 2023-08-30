@@ -383,7 +383,7 @@ files:
         [\x0207][\x020902]3Attraverso il
         buco di sicurezza
         di Bulbmon.[pause][\x0203]Kenny, sai dov'è
-        il digi[-4]uovo della
+        il digi-uovo della
         sapienza?[pause]
       - |-
         [\x0207]Kenny coraggioso[\x0207]Veramente no.
@@ -418,7 +418,7 @@ files:
         [\x0207][\x020902]3Resistenza...
         Vorrei aiutarvi, ma
         ora non posso.[pause][\x0203]Ora mi occorre
-        il digi[-4]uovo della
+        il digi-uovo della
         sapienza![pause]
       - |-
         [\x0207]Kenny coraggioso[\x0207]Capisco.
@@ -453,7 +453,7 @@ files:
         bella lezione![pause]
       - |-
         [\x0207][\x020902]3Ora cerchiamo
-        il digi[-4]uovo![pause]
+        il digi-uovo![pause]
   - strings:
       - ''
       - |-
@@ -605,7 +605,7 @@ files:
         fermare Destromon![pause]
       - '[\x0207]Teddy[\x0207]Si![pause]'
       - |-
-        [\x0207]Nick[\x0207]V[-4]va
+        [\x0207]Nick[\x0207]V-va
         bene![pause]
       - |-
         [\x0207][\x020902]3Teddy, ma tu
@@ -686,7 +686,7 @@ files:
         inviato da qui.[pause]
       - '[\x0207][\x020902]3Cosa?![pause]'
       - |-
-        [\x0207][\x020902]3P[-4]perché
+        [\x0207][\x020902]3P-perché
         Vemmon è qui?[pause][\x0203]Forse...
         Bene, lo
         seguirò![pause]
@@ -726,7 +726,7 @@ files:
         questi poteri.[pause][\x0203]Sono stati...
         modificati?[pause]
       - |-
-        [\x0207]Kail[\x0207]N[-4]non lo so...[pause][\x0203]Io mi sono
+        [\x0207]Kail[\x0207]N-non lo so...[pause][\x0203]Io mi sono
         nascosta
         con gli altri.[pause][\x0203]E sono l'unica
         rimasta
@@ -777,7 +777,7 @@ files:
         tutti gli
         altri?[pause]
       - |-
-        [\x0207]Kail[\x0207]S[-4]sì! Teddy,
+        [\x0207]Kail[\x0207]S-sì! Teddy,
         Lisa e gli altri
         sono Oinkmon.[pause]
       - '[\x0207][\x020902]3Ehi, Kail?[pause]'
@@ -810,7 +810,7 @@ files:
         Oin, oi, oin?
         Oooin, oioink![pause]
       - |-
-        [\x0207][\x020902]3Te[-4]Teddy?
+        [\x0207][\x020902]3Te-Teddy?
         Cosa?! Lisa, Nick e
         anche Keith...[pause]
       - "[\\x0207]Teddy[\\x0207]Oi, oionk, oink!\nOi, oioooin, oink\noioink, oionnk![pause][\\x0203]Oion, ooin, oink!\nOiin, oink ooin!\nOionknoink, oink?[pause][\\x0203]Oooinkninon?\nOinok, onnknon?\nOin, oinknkoin??[pause][\\x0203]Oin, oinok, oioninoo!\nOin, oooin, ooin\noinonk, oink, ooin![pause][\\x0203]Oin oinoink \noioin oino ioni oino\noinoin, oinoinok oink![pause][\\x0203]Ooinoin, oinoinoik!\nOoinoino, oinoinok\noioioinonoino oihoinonk![pause]"
@@ -856,7 +856,7 @@ files:
         figura maestosa sospesa
         nello spazio.[pause]
       - |-
-        [\x0207][\x020902]3Co[-4]
+        [\x0207][\x020902]3Co-
         cosa?![pause]
   - strings:
       - ''
@@ -874,7 +874,7 @@ files:
         Cannone Ragnarok su Gunslinger e
         tutti i terrestri diventeranno Oinkmon![pause]
       - |-
-        [\x0207][\x020902]3Co[-4]cosa?!
+        [\x0207][\x020902]3Co-cosa?!
         Non posso
         permetterlo![pause]
       - |-

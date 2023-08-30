@@ -423,7 +423,7 @@ strings:
     Batalla de Cartas.[pause][\x0203]¡No perderé contra
     un domador de
     otro país![pause]
-  - "[\\x0207]Domador Mei Lin[\\x0207]Tengamos una \nBatalla Digimon.[pause][\\x0203]¡Te mostraré mi\nestilo Kung[-4]fu\nDigimon![pause]"
+  - "[\\x0207]Domador Mei Lin[\\x0207]Tengamos una \nBatalla Digimon.[pause][\\x0203]¡Te mostraré mi\nestilo Kung-fu\nDigimon![pause]"
   - "[\\x0207]Domador Mei Lin[\\x0207]¡Perdí contigo\nhace muy\npoco![pause][\\x0203]No me siento\npreparado aún, \nen otra ocasión.[pause]"
   - "[\\x0207]Domador Mei Lin[\\x0207]¡Guauu! Eres\nrealmente bueno.[pause][\\x0203]No podría ganar \nsi luchamos ahora\n¡la próxima vez![pause]"
   - "[\\x0207]Domador Mei Lin[\\x0207]¡Batalla de Cartas![pause][\\x0203]Debo ganar para\notorgar honor a \nChina.[pause]"
@@ -1069,7 +1069,7 @@ strings:
     [\x0207]Zanbamon[\x0207]¡Estaba equivocado![pause][\x0203]Me quedaré aquí
     quieto, así que
     déjame.[pause]
-  - "[\\x0207]Zanbamon[\\x0207]¡N[-4]No hice\nnada\nmalo![pause][\\x0203]Por favor \n¡déjame sólo![pause]"
+  - "[\\x0207]Zanbamon[\\x0207]¡N-No hice\nnada\nmalo![pause][\\x0203]Por favor \n¡déjame sólo![pause]"
   - |-
     [\x0207]Zanbamon[\x0207]Tuve un transplante
     de corazón y ahora

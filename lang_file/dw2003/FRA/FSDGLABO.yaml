@@ -18,7 +18,7 @@ strings:
   - OK
   - /3
   - Chrg.
-  - '[-4][-4][-4][-4]'
+  - '----'
   - NV Apt
   - '[circle] : détails'
   - NV
@@ -27,12 +27,12 @@ strings:
   - Echanger qui ?
   - Voir quel Digivolve ?
   - Voir carte de qui ?
-  - '[-4][-4][-4][-4][-4]'
-  - '[-4][-4]'
+  - '-----'
+  - '--'
   - Echanger avec qui ?
   - Digivolve .
   - Choisir un Digivolve.
-  - '[-4][-4][-4]'
+  - '---'
   - Changer type Digivolve.
   - Charger technique.
   - Ne rien faire.

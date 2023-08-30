@@ -383,29 +383,29 @@ decl_codepoints! { Codepoint, Other1, Other2, Other3, decode, encode, parse;
 	0xe4 => KatakanaLetterVu     , "Katakana Letter vu"      , "ヴ";
 
 	// Misc.
-	0xe5 => KatakanaMiddleDot, "Katakana middle dot", "・";
-	0xe6 => QuestionMark     , "Question mark"      , "?";
-	0xe7 => ExclamationMark  , "Exclamation mark"   , "!";
-	0xe8 => HyphenMinus      , "Hyphen-Minus"       , "-";
-	0xe9 => Tilde            , "Tilde"              , "~";
+	0xe5 => KatakanaMiddleDot                 , "Katakana middle dot"                   , "・";
+	0xe6 => QuestionMark                      , "Question mark"                         , "?";
+	0xe7 => ExclamationMark                   , "Exclamation mark"                      , "!";
+	0xe8 => KatakanaHiraganaProlongedSoundMark, "Katakana-Hiragana prolonged sound mark", "ー";
+	0xe9 => Tilde                             , "Tilde"                                 , "~";
 
 	0x01, 0x01 => Space                     , "Space"                          , " ";
 	0x01, 0x02 => FullwidthComma            , "Fullwidth comma"                , "，";
 	0x01, 0x03 => IdeographicFullStop       , "Ideographic full stop"          , "。";
 	0x01, 0x04 => Comma                     , "Comma"                          , ",";
 	0x01, 0x05 => FullStop                  , "Full stop"                      , ".";
-	0x01, 0x06 => KatakanaMiddleDot2        , "KatakanaMiddleDot (2)"          , "[・2]";
+	0x01, 0x06 => KatakanaMiddleDot2        , "KatakanaMiddleDot (2)"          , "[・2]"; // Note: Not used
 	0x01, 0x07 => Colon                     , "Colon"                          , ":";
 	0x01, 0x08 => Semicolon                 , "Semicolon"                      , ";";
-	0x01, 0x09 => QuestionMark2             , "Question mark (2)"              , "[?2]";
-	0x01, 0x0a => ExclamationMark2          , "Exclamation mark (2)"           , "[!2]";
+	0x01, 0x09 => QuestionMark2             , "Question mark (2)"              , "[?2]"; // Note: Not used
+	0x01, 0x0a => ExclamationMark2          , "Exclamation mark (2)"           , "[!2]"; // Note: Not used
 	0x01, 0x0b => CircumflexAccent          , "Circumflex accent"              , "^";
 	0x01, 0x0c => LowLine                   , "Low line"                       , "_";
-	0x01, 0x0d => HyphenMinus2              , "Hyphen-minus (2)"               , "[-2]";
-	0x01, 0x0e => HyphenMinus3              , "Hyphen-minus (3)"               , "[-3]";
+	0x01, 0x0d => HyphenMinus2              , "Hyphen-minus (2)"               , "[-2]"; // Note: Not used
+	0x01, 0x0e => HyphenMinus3              , "Hyphen-minus (3)"               , "[-3]"; // Note: Used only in the japanese translation
 	0x01, 0x0f => Solidus                   , "Solidus"                        , "/";
 	0x01, 0x10 => ReverseSolidus            , "Reverse solidus"                , "\\";
-	0x01, 0x11 => Tilde2                    , "Tilde (2)"                      , "[~2]";
+	0x01, 0x11 => Tilde2                    , "Tilde (2)"                      , "[~2]"; // Note: Not used
 	0x01, 0x12 => MidlineHorizontalEllipsis , "Midline horizontal ellipsis"    , "⋯";
 	0x01, 0x13 => Apostrophe                , "Apostrophe"                     , "'";
 	0x01, 0x14 => QuotationMark             , "Quotation mark"                 , "\"";
@@ -414,7 +414,7 @@ decl_codepoints! { Codepoint, Other1, Other2, Other3, decode, encode, parse;
 	0x01, 0x17 => LeftCornerBracket         , "Left corner bracket"            , "「";
 	0x01, 0x18 => RightCornerBracket        , "Right corner bracket"           , "」";
 	0x01, 0x19 => PlusSign                  , "Plus sign"                      , "+";
-	0x01, 0x1a => HyphenMinus4              , "Hyphen-minus (4)"               , "[-4]";
+	0x01, 0x1a => HyphenMinus               , "Hyphen-minus"                   , "-";
 	0x01, 0x1b => PlaystationCrossSymbol    , "Playstation cross symbol"       , "[cross]";
 	0x01, 0x1c => EqualsSign                , "Equals sign"                    , "=";
 	0x01, 0x1d => LessThanSign              , "Less-than sign"                 , "<";

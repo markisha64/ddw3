@@ -93,7 +93,7 @@ strings:
   - Machine Defense
   - Dark Defense
   - '[\x020501] +[\x020502]'
-  - '[\x020501] [-4][\x020502]'
+  - '[\x020501] -[\x020502]'
   - |-
     Results:
     Power is up by [\x020501]![pause]
@@ -154,7 +154,7 @@ strings:
   - |-
     Results:
     Nothing increased...[pause]
-  - '-----'
-  - --
-  - '----'
-  - '---'
+  - ーーーーー
+  - ーー
+  - ーーーー
+  - ーーー

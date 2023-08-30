@@ -37,7 +37,7 @@ strings:
     [\x0207]Mamie O'Hara[\x0207]...oink, ooiink !
     Oioionk, oink ![pause]
   - |-
-    [\x0207]Mamie O'Hara[\x0207]La vie est imprévi[-4]
+    [\x0207]Mamie O'Hara[\x0207]La vie est imprévi-
     sible, telle le vent.[pause][\x0203]Mais avec du coeur,
     tu peux en changer
     le cours.[pause]
@@ -81,7 +81,7 @@ strings:
     Oink, oiinkk ![pause]
   - |-
     [\x0207]Garde DO[\x0207]..Oink, oink.
-    O[-4]o[-4]oiiiink.[pause]
+    O-o-oiiiink.[pause]
   - |-
     [\x0207]Garde DO[\x0207]Cette expérience
     m'a beaucoup
@@ -757,7 +757,7 @@ strings:
     Rien ne va plus
     pour moi ![pause]
   - |-
-    [\x0207]Militaire[\x0207]Hé, va[-4]t'en !
+    [\x0207]Militaire[\x0207]Hé, va-t'en !
     Je n'ai pas le
     temps ![pause]
   - |-
@@ -765,14 +765,14 @@ strings:
     car je jouais ![pause]
   - |-
     [\x0207]Militaire[\x0207]Oh, c'est toi !
-    Battons[-4]nous ![pause]
+    Battons-nous ![pause]
   - |-
     [\x0207]Militaire[\x0207]...Oh, un gamin.
     J'ai peur ![pause]
   - |-
     [\x0207]Militaire[\x0207]Oh, c'est toi
     le duelliste !
-    Battons[-4]nous ![pause]
+    Battons-nous ![pause]
   - a
   - a
   - a
@@ -795,12 +795,12 @@ strings:
   - a
   - |-
     [\x0207]Militaire[\x0207]Hé, toi !
-    Qui es[-4]
+    Qui es-
     tu ?![pause]
   - |-
     [\x0207]Militaire[\x0207]Oh, un
     enfant.
-    Va[-4]t'en ![pause]
+    Va-t'en ![pause]
   - |-
     [\x0207]Militaire[\x0207]Tu es
     bizarre.[pause][\x0203]Faisons un
@@ -814,7 +814,7 @@ strings:
   - |-
     [\x0207]Militaire[\x0207]Oh, encore
     toi !
-    Va[-4]t'en ![pause]
+    Va-t'en ![pause]
   - |-
     [\x0207]Militaire[\x0207]Ha ha ha !
     Gagné !
@@ -824,23 +824,23 @@ strings:
     Je te laisse partir.
     Allez, va ![pause]
   - |-
-    [\x0207]Militaire[\x0207]Va[-4]t'en !
+    [\x0207]Militaire[\x0207]Va-t'en !
     Je n'ai pas
     le temps ![pause]
   - |-
     [\x0207]Militaire[\x0207]Où
-    vas[-4]
+    vas-
     tu ?![pause]
   - |-
     [\x0207]Militaire[\x0207]C'est toi !
-    Prépare[-4]toi ![pause]
+    Prépare-toi ![pause]
   - |-
     [\x0207]Militaire[\x0207]...J'ai dû me
     tromper.
-    Va[-4]t'en ![pause]
+    Va-t'en ![pause]
   - |-
     [\x0207]Militaire[\x0207]C'est toi le duelliste !
-    Prépare[-4]toi ![pause]
+    Prépare-toi ![pause]
   - a
   - a
   - a
@@ -968,8 +968,8 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Gatomon[\x0207]Bienvenue ![pause][\x0203]Détends[-4]toi et
-    repose[-4]toi.[pause]
+    [\x0207]Gatomon[\x0207]Bienvenue ![pause][\x0203]Détends-toi et
+    repose-toi.[pause]
   - |-
     [\x0207]Guardromon[\x0207]ACCES AU
     LECT. MATRIX.[pause]
@@ -1022,12 +1022,12 @@ strings:
   - |-
     [\x0207]Shadramon[\x0207]Je suis Shadramon !
     Un sale type ![pause]
-  - "[\\x0207]Shadramon[\\x0207]Oh, tu as une\nGriffe Antique.[pause][\\x0203]Pourquoi la gardes\n[-4]tu ? Ils vont se \nmoquer de toi ![pause][\\x0203]Apporte le Croc\nTranchant. Je le\nchangerai en arme ![pause]"
+  - "[\\x0207]Shadramon[\\x0207]Oh, tu as une\nGriffe Antique.[pause][\\x0203]Pourquoi la gardes\n-tu ? Ils vont se \nmoquer de toi ![pause][\\x0203]Apporte le Croc\nTranchant. Je le\nchangerai en arme ![pause]"
   - |-
     [\x0207]Shadramon[\x0207]Un Croc Tranchant
     et une Griffe Antique.
-    Donne[-4]les moi ![pause][\x0203]Ooooh, c'est...
-    c'est super...[pause][\x0203]OK, fusionnons[-4]
+    Donne-les moi ![pause][\x0203]Ooooh, c'est...
+    c'est super...[pause][\x0203]OK, fusionnons-
     les...[pause][\x0203]Et voilà !
     Génial, non ?
     Le Triomphe ![pause][\x0203]J'en ai des tas,
@@ -1041,15 +1041,15 @@ strings:
   - |-
     [\x0207]Shadramon[\x0207]Oh, tu as une
     Griffe Antique.[pause][\x0203]Pourquoi la gardes
-    [-4]tu ? Ils vont se
+    -tu ? Ils vont se
     moquerde toi ![pause][\x0203]Apporte un Croc
     Tranchant. Je le
     changerai en arme ![pause]
   - |-
     [\x0207]Shadramon[\x0207]Un Croc Tranchant
     et une Griffe Antique.
-    Donne[-4]les moi ![pause][\x0203]Ooooh...
-    Génial...[pause][\x0203]OK, fusionnons[-4]les...[pause][\x0203]Et voilà !
+    Donne-les moi ![pause][\x0203]Ooooh...
+    Génial...[pause][\x0203]OK, fusionnons-les...[pause][\x0203]Et voilà !
     Génial, non ?
     Le Triomphe ![pause][\x0203]J'en ai des tas, tiens
     voilà ![pause][\x0203]Ne laisse pas les
@@ -1067,21 +1067,21 @@ strings:
     [\x0207]Ponchomon[\x0207]N'utilise pas
     le Bâton Antique ![pause][\x0203]Tu veux que je te
     fabrique une arme
-    d'avant[-4]garde ?[pause][\x0203]Apporte Khakkhara
+    d'avant-garde ?[pause][\x0203]Apporte Khakkhara
     et je m'en
     chargerai ![pause]
   - |-
     [\x0207]Ponchomon[\x0207]Amigo, tu as un Bâton
-    Antique et Khakkhara ![pause][\x0203]Donne[-4]les
+    Antique et Khakkhara ![pause][\x0203]Donne-les
     moi ![pause][\x0203]...cha, cha, cha !
     Cha, cha, cha !
     Ooooo mambo ![pause][\x0203]Et voilà !
     Un Scintillement
-    d'avant[-4]garde ![pause][\x0203]Tu peux frimer !
+    d'avant-garde ![pause][\x0203]Tu peux frimer !
     Bonne chance, amigo[pause]
   - |-
     [\x0207]Ponchomon[\x0207]Le Scintillement
-    est rare ![pause][\x0203]Vante[-4]toi
+    est rare ![pause][\x0203]Vante-toi
     auprès de ton
     ami, amigo ![pause]
   - |-
@@ -1092,16 +1092,16 @@ strings:
     N'utilise pas
     le Bâton Antique ![pause][\x0203]Tu veux que je te
     fabrique une arme
-    d'avant[-4]garde ?[pause][\x0203]Apporte Khakkhara
+    d'avant-garde ?[pause][\x0203]Apporte Khakkhara
     et je te la
     fabriquerai ![pause]
   - |-
     [\x0207]Ponchomon[\x0207]Amigo, t'as 1 Bâton
-    Antique et Khakkhara[pause][\x0203]Alors donne[-4]les moi ![pause][\x0203]...cha, cha, cha !
+    Antique et Khakkhara[pause][\x0203]Alors donne-les moi ![pause][\x0203]...cha, cha, cha !
     Cha, cha, cha !
     Ooooo mambo ![pause][\x0203]Voilà !
     Un Scintillement
-    d'avant[-4]garde ![pause][\x0203]Tu peux frimer !
+    d'avant-garde ![pause][\x0203]Tu peux frimer !
     Bonne chance, amigo[pause]
   - a
   - a
@@ -1175,7 +1175,7 @@ strings:
     J'en ai déjà fait
     un nouveau.[pause][\x0203]Mais merci de
     l'avoir trouvé !
-    Battons[-4]nous ![pause]
+    Battons-nous ![pause]
   - |-
     [\x0207]Etemon[\x0207]Tu veux encore te
     battre ? Je vais
@@ -1217,8 +1217,8 @@ strings:
     Je suis le meilleur ![pause]
   - |-
     [\x0207]KingEtemon[\x0207]Quoi ?!
-    Pourquoi ai[-4]je perdu ?!
-    Serais[-4]tu...[pause][\x0203]Tu es certainement
+    Pourquoi ai-je perdu ?!
+    Serais-tu...[pause][\x0203]Tu es certainement
     le plus chanceux
     du monde ?![pause]
   - |-
@@ -1317,14 +1317,14 @@ strings:
   - |-
     [\x0207]Kumamon[\x0207]Ce tunnel mène aux
     serveurs Asuka et
-    Amaterasu.[pause][\x0203]Au nord, Parc Cen[-4]
+    Amaterasu.[pause][\x0203]Au nord, Parc Cen-
     tral, à Amaterasu.[pause][\x0203]Au sud, les Forêts
     Vives des deux
     serveurs.[pause]
   - |-
     [\x0207]Kumamon[\x0207]Ce tunnel mène aux
     serveurs Asuka et
-    Amaterasu.[pause][\x0203]Au nord, les Bad[-4]
+    Amaterasu.[pause][\x0203]Au nord, les Bad-
     lands Sud d'Asuka.[pause][\x0203]Au sud... Je n'y
     suis jamais allé,
     donc je ne sais pas.[pause]
@@ -1408,7 +1408,7 @@ strings:
     [\x0207]BK Agumon[\x0207]Perdu...
     Bouhhh...[pause][\x0203]Voilà une carte
     très puissante :
-    Anti[-4]Puissance.[pause]
+    Anti-Puissance.[pause]
   - |-
     [\x0207]BK Agumon[\x0207]Perdu...
     Bouhhh...[pause][\x0203]Voici la carte la
@@ -1430,13 +1430,13 @@ strings:
     un long chemin ![pause]
   - |-
     [\x0207]Seehomon[\x0207]Hé, tu as un
-    Zodiaque ![pause][\x0203]Alors, apporte[-4]moi le
+    Zodiaque ![pause][\x0203]Alors, apporte-moi le
     Bras Tempétueux ![pause][\x0203]Je te fabriquerai une
     super arme ![pause]
   - |-
     [\x0207]Seehomon[\x0207]Hé, tu as un Bras
     Tempétueux et un
-    Zodiaque ![pause][\x0203]OK, donne[-4]les moi ![pause][\x0203]Bon, je peux créer
+    Zodiaque ![pause][\x0203]OK, donne-les moi ![pause][\x0203]Bon, je peux créer
     une super arme ![pause][\x0203]...Voilà... une
     Eminence ![pause][\x0203]Elle est différente
     de toutes les autres
@@ -1456,14 +1456,14 @@ strings:
   - |-
     [\x0207]Depthmon[\x0207]Oh, le Triomphe
     et un Croc à
-    Venin ![pause][\x0203]Donne[-4]les moi.[pause][\x0203]OK, un peu de
+    Venin ![pause][\x0203]Donne-les moi.[pause][\x0203]OK, un peu de
     pression d'eau....[pause][\x0203]Comment ça ?
     La Destruction ![pause][\x0203]Je vais te donner
-    ceci. Utilise[-4]le ![pause]
+    ceci. Utilise-le ![pause]
   - |-
     [\x0207]Numemon[\x0207]Hummm ?
     Toi ici !
-    Battons[-4]nous ![pause]
+    Battons-nous ![pause]
   - |-
     [\x0207]Numemon[\x0207]Pas mal !
     Mais Numemon va
@@ -1500,16 +1500,16 @@ strings:
     prouvera ta victoire
     sur Numemon ![pause]
   - |-
-    [\x0207]BK Agumon[\x0207]Qui es[-4]tu ?
+    [\x0207]BK Agumon[\x0207]Qui es-tu ?
     Le Mic d'Etemon ?[pause][\x0203]C'est nous, Black
     Kingz, qui l'avons ![pause][\x0203]On sait que sa force
     vient du mic ![pause][\x0203]Pour savoir où
-    il est, affronte[-4]
+    il est, affronte-
     moi ![pause]
   - |-
     [\x0207]BK Agumon[\x0207]Mince.
     Quel type de dossier
-    ferai[-4]je ensuite ?[pause]
+    ferai-je ensuite ?[pause]
   - |-
     [\x0207]BK Agumon[\x0207]Hé, hé, hé,
     Nous sommes
@@ -1521,7 +1521,7 @@ strings:
     le Mic d'Etemon ![pause][\x0203]Les Black Kingz
     sont sous terre.
     Va voir ![pause]
-  - "[\\x0207]Chef des BKZ[\\x0207]Qui es[-4]tu ? \nJe suis le chef\ndes Black Kingz.[pause][\\x0203]Rendre le Mic\nd'Etemon ?\nHa, ha, ha, ha, ha ![pause][\\x0203]Tu as fait tout ce\nchemin pour\nça ?[pause][\\x0203]Le voilà. \nIl ne sert à rien ![pause][\\x0203]J'en ai assez !\nBats[-4]toi contre moi ![pause]"
+  - "[\\x0207]Chef des BKZ[\\x0207]Qui es-tu ? \nJe suis le chef\ndes Black Kingz.[pause][\\x0203]Rendre le Mic\nd'Etemon ?\nHa, ha, ha, ha, ha ![pause][\\x0203]Tu as fait tout ce\nchemin pour\nça ?[pause][\\x0203]Le voilà. \nIl ne sert à rien ![pause][\\x0203]J'en ai assez !\nBats-toi contre moi ![pause]"
   - |-
     [\x0207]Chef des BKZ[\x0207]Je reviendrai avec
     un dossier plus
@@ -1546,7 +1546,7 @@ strings:
     Le Mic
     d'Etemon.[pause][\x0203]Je vais me
     développer ! Allez,
-    Battons[-4]nous ![pause]
+    Battons-nous ![pause]
   - a
   - |-
     [\x0207][\x020902]3Ouais ! J'ai
@@ -1632,16 +1632,16 @@ strings:
     [\x0207]Patamon[\x0207]Par là, c'est la
     Jungle Ether
     d'Asuka.[pause][\x0203]Utilise le Tunnel du
-    Cap Fiche pour al[-4]
+    Cap Fiche pour al-
     ler au Secteur Nord.[pause]
   - |-
     [\x0207]Kotemon[\x0207]La Jungle Ether
     d'Amaterasu
-    est au[-4]dessus.[pause][\x0203]Ce tunnel est
+    est au-dessus.[pause][\x0203]Ce tunnel est
     aussi relié au
     serveur Asuka.[pause]
   - |-
-    [\x0207]Patamon[\x0207]Au[-4]dessus se
+    [\x0207]Patamon[\x0207]Au-dessus se
     trouve le Parc
     Central, à Amaterasu.[pause]
   - |-
@@ -1747,7 +1747,7 @@ strings:
     Jungle d'Amaterasu.[pause]
   - |-
     [\x0207]Agumon[\x0207]Suis cette route vers
-    le nord pour te rap[-4]
+    le nord pour te rap-
     procher d'Asuka City.[pause]
   - |-
     [\x0207]Agumon[\x0207]Va au nord vers
@@ -1780,7 +1780,7 @@ strings:
     [\x0207]Agumon[\x0207]Prends à gauche
     vers le nord pour
     sortir.[pause][\x0203]Mais ce tunnel...
-    A[-4]t[-4]il une issue ?[pause]
+    A-t-il une issue ?[pause]
   - |-
     [\x0207]Kumamon[\x0207]Continue vers le
     nord. C'est la

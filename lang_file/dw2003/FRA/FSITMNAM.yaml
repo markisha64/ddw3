@@ -4,7 +4,7 @@ strings:
   - Jeu Equilibré
   - Jeu Puissant
   - Jeu Dément
-  - Arbori[-4]Bottes
+  - Arbori-Bottes
   - Canne à Pêche
   - ADNN Agumon
   - Asticot rouge
@@ -31,9 +31,9 @@ strings:
   - ビャッコÁタグ
   - ゲンブÁタグ
   - チンロンÁタグ
-  - ス-ツェイÁタグ
-  - バイフ-Áタグ
-  - シェンウ-Áタグ
+  - スーツェイÁタグ
+  - バイフーÁタグ
+  - シェンウーÁタグ
   - ADNN Guilmon
   - ADNN Veemon
   - Trophée Koc
@@ -123,9 +123,9 @@ strings:
   - Arme de Poing
   - Mitrailleuse
   - Fusil
-  - Psycho[-4]Blaster
+  - Psycho-Blaster
   - Canon Sniper
-  - Fragmo[-4]Canon
+  - Fragmo-Canon
   - Canon Laser
   - Canon Suijin
   - Fusil Rouillé
@@ -180,7 +180,7 @@ strings:
   - Tronçonneuse
   - Zweihander
   - Flamberge
-  - Brise[-4]roc
+  - Brise-roc
   - Casse Planète
   - Epée Golfe
   - Pique
@@ -199,19 +199,19 @@ strings:
   - Arc Séraphin
   - Canon Garuru
   - Canon Positron
-  - Mini[-4]Garde
-  - Pulso[-4]Garde
-  - Métallo[-4]Garde
+  - Mini-Garde
+  - Pulso-Garde
+  - Métallo-Garde
   - Super Garde
   - Garde Dramon
   - Mach Garde
   - Méga Garde
   - Garde Deus
-  - Métallo[-4]Corne
+  - Métallo-Corne
   - Corne Foreuse
   - Corne Kabuteri
   - Corne de Choc
-  - Dramon[-4]Corne
+  - Dramon-Corne
   - Corne Cisail.
   - Trois Cornes
   - Corne Suprême
@@ -246,7 +246,7 @@ strings:
   - Heaume Ronin
   - Heaume Hardi
   - Heaume Péril
-  - Heaume D[-4]Tama
+  - Heaume D-Tama
   - Heaume Matrix
   - Heaume Mugen
   - Veste Cuir
@@ -316,7 +316,7 @@ strings:
   - Anneau Eveil
   - Anneau Sobre
   - Anneau Prière
-  - Multi[-4]Blason
+  - Multi-Blason
   - Blason Quête
   - Blason Contre
   - Blason Lien
@@ -390,16 +390,16 @@ strings:
   - Booster 13b
   - Booster 14b
   - Booster 15b
-  - R[-4]Booster 01
-  - R[-4]Booster 02
-  - R[-4]Booster 03
-  - R[-4]Booster 04
-  - R[-4]Booster 05
+  - R-Booster 01
+  - R-Booster 02
+  - R-Booster 03
+  - R-Booster 04
+  - R-Booster 05
   - ADNN Kumamon
   - Passe Partout
   - Micro Etemon
   - Carte Bleue
   - Carte 8leue
-  - リカバリ-CD3
+  - リカバリーCD3
   - Passe Employé
   - Sacoche

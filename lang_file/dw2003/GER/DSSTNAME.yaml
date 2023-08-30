@@ -2,12 +2,12 @@ type: simple
 strings:
   - ''
   - Asuka City
-  - Asuka[-4]Brücke
+  - Asuka-Brücke
   - Haupteingang
-  - Digimon[-4]Labor
+  - Digimon-Labor
   - Anmelderaum
-  - Arena[-4]Empfang
-  - Digimon[-4]Arena
+  - Arena-Empfang
+  - Digimon-Arena
   - Asuka Inn 1E
   - Asuka Inn 2E
   - Schmiede
@@ -17,36 +17,36 @@ strings:
   - Gelber Kreuzer
   - Wassertunnel
   - Eldorado
-  - Admin[-4]Center 1E
+  - Admin-Center 1E
   - Kellertreppen
   - Gefängnisturm
-  - Admin[-4]Center 2E
+  - Admin-Center 2E
   - Meisterraum
-  - A.o.A.[-4]Hauptq.
-  - Admin[-4]Center K1E
-  - Asuka[-4]Kanalis.
+  - A.o.A.-Hauptq.
+  - Admin-Center K1E
+  - Asuka-Kanalis.
   - Kontrollraum
   - Zentralpark
   - Drahtwald Eing.
   - Muschelstrand
-  - Plug[-4]Kap
+  - Plug-Kap
   - Drahtwald West
   - Drahtwald Ost
   - Forest Inn
   - Forest Inn Keller
-  - Protocol[-4]Wald
-  - Protocol[-4]Ruinen
+  - Protocol-Wald
+  - Protocol-Ruinen
   - Divermonsee
-  - Duell[-4]Insel
+  - Duell-Insel
   - Windige Prärie
   - Tretwald
   - Tyrannental
   - Oststation
   - Tiefer Graben
   - Seiryu City
-  - Zephyr[-4]Turm
-  - Seiryu[-4]Turm
-  - Gale[-4]Turm
+  - Zephyr-Turm
+  - Seiryu-Turm
+  - Gale-Turm
   - Südstation
   - Bulksumpf
   - Bulkbrücke
@@ -61,8 +61,8 @@ strings:
   - Südkap
   - Suzaku City
   - Suzaku Inn
-  - Suzaku[-4]Halle
-  - Suzaku[-4]Unter.see
+  - Suzaku-Halle
+  - Suzaku-Unter.see
   - Dschungelschrein
   - Katakomben
   - Katakomben
@@ -73,8 +73,8 @@ strings:
   - Oase Pelche
   - Nördl. Ödland W.
   - Nördl, Ödland O.
-  - Bullet[-4]Tal
-  - Dum Dum[-4]Fabrik
+  - Bullet-Tal
+  - Dum Dum-Fabrik
   - Röhrenraum 01
   - Röhrenraum 02
   - Röhrenraum 03
@@ -87,22 +87,22 @@ strings:
   - Südl. Lärmwüste
   - Möbiuswüste
   - Möbiuswüste
-  - Mirage[-4]Turm
-  - Mirage[-4]Halle
-  - Mirage[-4]Raum
+  - Mirage-Turm
+  - Mirage-Halle
+  - Mirage-Raum
   - Byakko City
-  - Byakko[-4]Dom
+  - Byakko-Dom
   - Lagerraum
   - Untergrundhöhle
   - Schuhberg
   - Schneeberg
   - Mountain Inn
   - Frostberg
-  - Kulon[-4]Bergwerk
+  - Kulon-Bergwerk
   - See aus Eis
   - Legendäre Halle
-  - Kulon[-4]Grube
-  - Kulon[-4]Waffen
+  - Kulon-Grube
+  - Kulon-Waffen
   - Eisverlies
   - Feuerverlies
   - Dunkles Verlies
@@ -119,19 +119,19 @@ strings:
   - Gunslinger 2E
   - Kontrollraum
   - Amaterasu City
-  - Amaterasu[-4]Brücke
+  - Amaterasu-Brücke
   - Amaterasu Inn 1E
   - Amaterasu Inn 2E
   - Wedge's Shop
-  - Amaterasu[-4]Kanal.
+  - Amaterasu-Kanal.
   - Qing Long City
-  - Qing Long[-4]Turm
+  - Qing Long-Turm
   - Zhu Que City
   - Zhu Que Inn
-  - Zhu Que[-4]Halle
-  - Zhu Que[-4]Unt.see
+  - Zhu Que-Halle
+  - Zhu Que-Unt.see
   - Bai Hu City
-  - Bai Hu[-4]Dom
+  - Bai Hu-Dom
   - Xuan Wu City
   - Meeresboden
   - Platine

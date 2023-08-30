@@ -81,7 +81,7 @@ files:
         È duro arrivarci.[pause][\x0203]L'unico modo è
         farsi portare da
         Submarimon.[pause][\x0203]Per chiamarli serve
-        il digi[-4]uovo della
+        il digi-uovo della
         fiducia.[pause][\x0203]Chiedi sue notizie in giro
         per questo settore.[pause][\x0203]È l'unico consiglio
         che posso darti.
@@ -217,14 +217,14 @@ files:
         [\x0207][\x020902]3Hai paura di
         perdere?[pause]
       - |-
-        [\x0207]Zanbamon[\x0207]Co[-4]cosa?!
+        [\x0207]Zanbamon[\x0207]Co-cosa?!
         Non è vero![pause][\x0203]Va bene!
         Se insisti,
         battiamoci![pause]
   - strings:
       - ''
       - |-
-        [\x0207]Zanbamon[\x0207]Co[-4]cosa?
+        [\x0207]Zanbamon[\x0207]Co-cosa?
         Ho perso.[pause]
       - |-
         [\x0207][\x020902]3Strano, eh?
@@ -526,7 +526,7 @@ files:
         [\x0207][\x020902]3Eh? C'è di
         nuovo qualcosa
         a terra.[pause]
-      - "[\\x0207][\\x020902]3È il pass\nrosso![pause][\\x0203]Ma ancora non so\ndov'è il digi[-4]uovo![pause][\\x0203]Mi serve per \nfermare la\nJuggernaut![pause]"
+      - "[\\x0207][\\x020902]3È il pass\nrosso![pause][\\x0203]Ma ancora non so\ndov'è il digi-uovo![pause][\\x0203]Mi serve per \nfermare la\nJuggernaut![pause]"
   - strings:
       - ''
       - |-
@@ -584,7 +584,7 @@ files:
         dell'A.o.A![pause]
       - |-
         [\x0207][\x020902]3Capo di Zhu Que,
-        dov'è il digi[-4]uovo
+        dov'è il digi-uovo
         della sapienza?[pause]
       - |-
         [\x0207]Capo di Zhu Que[\x0207]Ciò che è accaduto
@@ -622,7 +622,7 @@ files:
         [\x0207][\x020902]3Ehi, cosa
         abbiamo qui?[pause]
       - |-
-        [\x0207][\x020902]3Il digi[-4]uovo
+        [\x0207][\x020902]3Il digi-uovo
         della sapienza,
         evviva![pause]
       - |-
@@ -643,14 +643,14 @@ files:
         [\x0207][\x020902]3Hai paura di
         perdere?[pause]
       - |-
-        [\x0207]Zanbamon[\x0207]Co[-4]cosa?!
+        [\x0207]Zanbamon[\x0207]Co-cosa?!
         Non è vero![pause][\x0203]Va bene!
         Se insisti, te
         la farò vedere![pause]
   - strings:
       - ''
       - |-
-        [\x0207]Zanbamon[\x0207]Co[-4]cosa?
+        [\x0207]Zanbamon[\x0207]Co-cosa?
         Ho perso![pause]
       - |-
         [\x0207][\x020902]3Strano, eh?

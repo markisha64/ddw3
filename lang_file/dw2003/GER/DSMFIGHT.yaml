@@ -15,7 +15,7 @@ strings:
   - X
   - MP
   - HP
-  - '[-4][-4][-4]'
+  - '---'
   - /
   - L1
   - R1
@@ -26,9 +26,9 @@ strings:
   - '[\x020501]・[\x020502]'
   - '[\x020501]・[\x020502]・[\x020503]'
   - Fähig
-  - '[-4][-4]'
+  - '--'
   - Tauschen
-  - DNA[-4]Dig
+  - DNA-Dig
   - Rückzug!
   - Vergiftet!
   - Erfroren!
@@ -36,7 +36,7 @@ strings:
   - Eingeschlafen!
   - '[\x020501] HP geheilt!'
   - '[\x020501] X [\x020502] = [\x020503]!'
-  - '[-4]'
+  - '-'
   - Counter!
   - Gestohlen
   - HP erholt sich.
@@ -58,7 +58,7 @@ strings:
   - Digitiert! [\x020501]!
   - Zurück!
   - Hol's dir!
-  - DNA[-4]Digit.
+  - DNA-Digit.
   - HP & MP erholt!
   - Fokus auf Attacke!
   - Fokus auf Wache

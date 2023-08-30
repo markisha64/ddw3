@@ -18,7 +18,7 @@ strings:
   - OK
   - /3
   - Load
-  - '----'
+  - ーーーー
   - Skill LV
   - '[circle] Button: Details'
   - LV
@@ -27,12 +27,12 @@ strings:
   - Switch who?
   - See whose digivolve?
   - See whose chart?
-  - '-----'
-  - --
+  - ーーーーー
+  - ーー
   - Switch with who?
   - Cannot digivolve.
   - Choose a digivolve.
-  - '---'
+  - ーーー
   - Change digivolve type.
   - Load technique.
   - Do nothing.

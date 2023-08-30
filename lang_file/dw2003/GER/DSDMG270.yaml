@@ -4,18 +4,18 @@ files:
       - ''
       - |-
         [\x0207]Kartenkenner Ken[\x0207]Die Infos werden
-        auf dem Satelli[-4]
+        auf dem Satelli-
         ten angezeigt.[pause]
       - |-
         "Kampf mit Karten"
-        Hier wird mit einem Karten[-4]
+        Hier wird mit einem Karten-
         spiel gekämpft.[pause][\x0203]Stelle aus über 300 Karten einen
         eigenen Stapel zusammen, und
         kämpfe mit anderen Tamern.[pause][\x0203]"Karten"
         Insgesamt gibt es 314 Karten. Du
         kannst von allen bis zu 9 besitzen.[pause][\x0203]Es gibt zwei Arten von Karten:
-        Programmkarten und Digimon[-4]Karten.[pause]
-      - "\"Digimon[-4]Karten\"\nKarten z. Beschwören v. Digimon.[pause][\\x0203]Diese Karten weisen zwei Nummern\nauf: AP und HP.[pause][\\x0203]AP ist Angriffs[-4]Power u. HP sind\nTreffer. Wenn HP Null ist, wird \ndas Digimon abgelegt.[pause][\\x0203]5/3 bedeutet 5 AP und 3 HP.[pause][\\x0203]\"Programmkarten\"\nPG[-4]Karten greifen das gegnerische\nBlatt an o. stärken dein eigenes.[pause][\\x0203]Jede Karte hat unterschiedliche \nEffekte, die du auf der Karte\nnachlesen kannst.[pause]"
+        Programmkarten und Digimon-Karten.[pause]
+      - "\"Digimon-Karten\"\nKarten z. Beschwören v. Digimon.[pause][\\x0203]Diese Karten weisen zwei Nummern\nauf: AP und HP.[pause][\\x0203]AP ist Angriffs-Power u. HP sind\nTreffer. Wenn HP Null ist, wird \ndas Digimon abgelegt.[pause][\\x0203]5/3 bedeutet 5 AP und 3 HP.[pause][\\x0203]\"Programmkarten\"\nPG-Karten greifen das gegnerische\nBlatt an o. stärken dein eigenes.[pause][\\x0203]Jede Karte hat unterschiedliche \nEffekte, die du auf der Karte\nnachlesen kannst.[pause]"
       - |-
         "Ordner"
         Lege vor dem Kampf einen Ordner mit
@@ -32,20 +32,20 @@ files:
         Hier wird bestimmt, wer anfängt.
         Wer Calumon zieht, fängt an.[pause][\x0203]"Zugphase"
         Sechs Karten werden aus dem
-        Stapel in dein Blatt gezogen.[pause][\x0203]Kannst du i. d. Phase keine 6 Kar[-4]
+        Stapel in dein Blatt gezogen.[pause][\x0203]Kannst du i. d. Phase keine 6 Kar-
         ten ziehen, verlierst du. Im Kampf
         kann d. Blatt max. 10 Karten hab.[pause]
       - |-
         "Ladephase"
-        Wähle eine PG[-4]Karte zur Vor[-4]
-        bereitung a. d. Ruf[-4]Phase.[pause][\x0203]Die Spieler wechseln sich ab, bis
-        beide passen. Bestimmte PG[-4]Karten
-        können hier nicht verwendet werd.[pause][\x0203]"Ruf[-4]Phase"
+        Wähle eine PG-Karte zur Vor-
+        bereitung a. d. Ruf-Phase.[pause][\x0203]Die Spieler wechseln sich ab, bis
+        beide passen. Bestimmte PG-Karten
+        können hier nicht verwendet werd.[pause][\x0203]"Ruf-Phase"
         Wähle zum Rufen eines
-        Digimon eine Digimon[-4]Karte aus.[pause][\x0203]Du kannst max. 6 i. d. Feld be[-4]
+        Digimon eine Digimon-Karte aus.[pause][\x0203]Du kannst max. 6 i. d. Feld be-
         schw. Zum Rufen v. Digimon ü.
-        Rookies brauchst du D[-4]Energie.[pause]
-      - "\"Sammelphase\"\nMit der PG[-4]Karte kannst du ver[-4]\nschiedene Effekte erzielen.[pause][\\x0203]Die Spieler wechseln sich ab, bis\nbeide passen. Alle PG[-4]Karten\nkönnen hier verwendet werden.[pause][\\x0203]\"Kampfphase\"\nDigimon kämpfen, um den Sieger\nzu ermitteln.[pause][\\x0203]Der Gewinner wird durch Vergleichen\nvon AP[-4] und HP[-4]Punkten ermittelt. \nWer Null HP hat, ist der Verlierer.[pause][\\x0203]Damit ist ein Satz beendet. Wer 2\nSätze gewinnt, gewinnt den Kampf.[pause]"
+        Rookies brauchst du D-Energie.[pause]
+      - "\"Sammelphase\"\nMit der PG-Karte kannst du ver-\nschiedene Effekte erzielen.[pause][\\x0203]Die Spieler wechseln sich ab, bis\nbeide passen. Alle PG-Karten\nkönnen hier verwendet werden.[pause][\\x0203]\"Kampfphase\"\nDigimon kämpfen, um den Sieger\nzu ermitteln.[pause][\\x0203]Der Gewinner wird durch Vergleichen\nvon AP- und HP-Punkten ermittelt. \nWer Null HP hat, ist der Verlierer.[pause][\\x0203]Damit ist ein Satz beendet. Wer 2\nSätze gewinnt, gewinnt den Kampf.[pause]"
       - |-
         [\x0207]Kartenkenner Ken[\x0207]Das sind schon alle
         Regeln.[pause][\x0203]Wenn du mehr wissen
@@ -58,21 +58,21 @@ files:
         Daten auf deinen
         Satelliten.[pause]
       - |-
-        "S[-4]Energie"
+        "S-Energie"
         Die Karten sind: Weiβ, Blau, Grün,
-        Rot, Schwarz und Braun.[pause][\x0203]S[-4]Energie nimmt zu, wenn du eine
+        Rot, Schwarz und Braun.[pause][\x0203]S-Energie nimmt zu, wenn du eine
         Karte aus dem Stapel mit dieser
-        Farbe ziehst.[pause][\x0203]S[-4]Energie dient z. Rufen von
-        Digimon über Rookie[-4]Level.[pause][\x0203]"S[-4]Energie zum Rufen"
+        Farbe ziehst.[pause][\x0203]S-Energie dient z. Rufen von
+        Digimon über Rookie-Level.[pause][\x0203]"S-Energie zum Rufen"
         Zum Rufen von Digimon ist
-        S[-4]Energie derselben Farbe nötig.[pause][\x0203]Champion[-4]Digimon: ein Punkt.
-        Ultimativ[-4]Digimon: zwei Punkte.
-        Mega[-4]Digimon: drei Punkte.[pause][\x0203]Rookie[-4]Digimon können ohne
-        S[-4]Energie gerufen werden.[pause]
+        S-Energie derselben Farbe nötig.[pause][\x0203]Champion-Digimon: ein Punkt.
+        Ultimativ-Digimon: zwei Punkte.
+        Mega-Digimon: drei Punkte.[pause][\x0203]Rookie-Digimon können ohne
+        S-Energie gerufen werden.[pause]
       - |-
         "Combos"
         Wenn es mehr als drei gleiche Karten
-        im Feld gibt, nennt man das Combo.[pause][\x0203]Die Gesamtmenge der Combo[-4]Karten
+        im Feld gibt, nennt man das Combo.[pause][\x0203]Die Gesamtmenge der Combo-Karten
         wird addiert. Bei mehr als vier, gibt
         es einen Bonus.[pause][\x0203]"Sammeln von Karten"
         Gewinnst du den Kampf, erhältst du
@@ -85,7 +85,7 @@ files:
         Bäumen.[pause]
       - |-
         "Eiskäfer"
-        Eiskäfer ist eine blaue PG[-4]Karte.[pause][\x0203]Wenn du sie nach einer PG[-4]Karte des
+        Eiskäfer ist eine blaue PG-Karte.[pause][\x0203]Wenn du sie nach einer PG-Karte des
         Gegners verwendest, kannst du diese
         Karte vor ihrer Ausführung ablegen.[pause][\x0203]Diese Karte ist sehr stark. Erhältst
         du sie, bewahre sie im Ordner auf.[pause][\x0203]"Gerüchte über Spezialkarten"
@@ -117,23 +117,23 @@ files:
       - "[\\x0207]Tamer Nacky[\\x0207]Ich zog Calumon, \nu. bin zuerst dran.[pause][\\x0203]Zugphase! Also zieh\nich 6 Karten von\nmeinem Stapel...[pause][\\x0203]Toll! Ich habe \ngute Karten![pause]"
       - |-
         [\x0207]Tamer Nacky[\x0207]Jetzt Ladephase!
-        Ich lege eine Pro[-4]
+        Ich lege eine Pro-
         grammkarte auf...[pause][\x0203]...Oh?
         Ich passe.[pause]
       - |-
         [\x0207]Tamer Steve[\x0207]Hmm...
         Ich passe auch.[pause]
       - |-
-        [\x0207]Tamer Nacky[\x0207]Wir haben beide ge[-4]
+        [\x0207]Tamer Nacky[\x0207]Wir haben beide ge-
         passt, die Ladeph.
-        ist also zu Ende.[pause][\x0203]Nun folgt die Be[-4]
+        ist also zu Ende.[pause][\x0203]Nun folgt die Be-
         schwörungsphase.
         Wir zeigen die Karten![pause]
       - |-
         [\x0207]Tamer Steve[\x0207]OK, alle
         gleichzeitig![pause]
       - |-
-        [\x0207]Tamer Nacky[\x0207]Ich habe 2 Hawk[-4]
+        [\x0207]Tamer Nacky[\x0207]Ich habe 2 Hawk-
         mon, 2 Agumon u.
         2 Meramon![pause]
       - |-
@@ -163,13 +163,13 @@ files:
         [\x0207]Tamer Gloria[\x0207]Es ist der blaue
         Ordner, also hab
         ich 4 Eiskäfer.[pause][\x0203]OK, ich passe auch.
-        Die Sammel[-4]
+        Die Sammel-
         phase ist zu Ende.[pause]
       - |-
         [\x0207]Tamer Wong[\x0207]Hmm...
         Also jetzt die
         Kampfphase...[pause][\x0203]Zählen wir AP u.
-        HP für die Digi[-4]
+        HP für die Digi-
         mon zusammen.[pause][\x0203]Ich habe 1 Growlmon,
         18 AP, 20 HP...[pause]
       - "[\\x0207]Tamer Gloria[\\x0207]Ich hab 3 Renamon mit\n4 AP, 4 HP. Macht \n12 AP u. 12 HP.[pause][\\x0203]Es sind 3 Karten, bei\n12 AP u. 12 HP wird\nTaomon beschworen.[pause]"
@@ -188,7 +188,7 @@ files:
         so schnell, aber...[pause][\x0203]Hier eine Aktentasche,
         in die 3 Ordner
         passen.[pause][\x0203]Ich geb dir meinen
-        Praxis[-4]Ordner.[pause]
+        Praxis-Ordner.[pause]
       - |-
         [\x0207][\x020902]3Wow!
         Danke!
@@ -212,7 +212,7 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Sammler Luke[\x0207]Wenn du was da[-4]
+        [\x0207]Sammler Luke[\x0207]Wenn du was da-
         zu hören willst,
         sprich mit mir.[pause]
   - strings:

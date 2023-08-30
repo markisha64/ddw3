@@ -1,9 +1,9 @@
 type: simple
 strings:
   - ''
-  - 'Jeu: Kotemon[-4]Renamon[-4]Patamon.'
-  - 'Jeu: Monmon[-4]Agumon[-4]Renamon.'
-  - 'Jeu: Kumamon[-4]Guilmon[-4]Patamon.'
+  - 'Jeu: Kotemon-Renamon-Patamon.'
+  - 'Jeu: Monmon-Agumon-Renamon.'
+  - 'Jeu: Kumamon-Guilmon-Patamon.'
   - Pour frapper l'Arbre Vivant
   - Objet pour pêcher.
   - ADN numérique Agumon
@@ -37,7 +37,7 @@ strings:
   - ADN numérique de Guilmon
   - ADN numérique de Veemon
   - Meilleur symb. Roi des cartes
-  - Carte pour aller au Bric[-4]à[-4]Brac
+  - Carte pour aller au Bric-à-Brac
   - ADN numérique de Renamon
   - ADN numérique de Patamon
   - Ticket d'entraînement rang 2.
@@ -73,8 +73,8 @@ strings:
   - Ressuscite les alliés.
   - Restaure la moitié des PV et PM.
   - 'Temp. : vitesse +'
-  - 'Temp. : force +, défense [-4]'
-  - 'Temp. : défense +, force [-4].'
+  - 'Temp. : force +, défense -'
+  - 'Temp. : défense +, force -.'
   - Augm. l'atq des effefts spéciaux.
   - Augmente jauge puissance
   - Génère un Champ de Feu.
@@ -87,7 +87,7 @@ strings:
   - Génère un Champ au hasard.
   - Absorber les PV de l'ennemi.
   - Trouble parfois un allié.
-  - Défense ennemie [-4], force +.
+  - Défense ennemie -, force +.
   - Diminue la défense/force ennemie.
   - Toile d'araignée gêne le mvnt.
   - Dégâts Feu par bloc de poudre.
@@ -114,7 +114,7 @@ strings:
   - Attaque comme un tigre.
   - Arme de combat légendaire.
   - Gants meilleur choix.
-  - Coup vitesse[-4]éclair.
+  - Coup vitesse-éclair.
   - Gants mythiques.
   - Rouillé et inefficace.
   - Chargé du pouvoir des bêtes.
@@ -226,7 +226,7 @@ strings:
   - Pour bien voir la nuit.
   - Chapeau rendant plus malin.
   - Augmente ta magie naturelle.
-  - Pose[-4]le sur la tête pr défendre.
+  - Pose-le sur la tête pr défendre.
   - Jolies oreilles de chat.
   - Esquive l'attaque adv. avec cran.
   - Couronne en métal magique.
@@ -323,8 +323,8 @@ strings:
   - Lente restauration PV.
   - Gagne plus d'EXP au combat.
   - Gagne + de BIT au combat.
-  - Utilise un peu [-4] de PM pr techn.
-  - Prend [-4] de PM pr techn.
+  - Utilise un peu - de PM pr techn.
+  - Prend - de PM pr techn.
   - Réduit peu à peu les dégâts.
   - Réduit les dégâts.
   - Vol un peu plus facile.

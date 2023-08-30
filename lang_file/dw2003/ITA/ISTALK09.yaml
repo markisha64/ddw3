@@ -250,10 +250,10 @@ strings:
     mi interessa questa[pause][\x0203]sfida, volevo giocare
     perché piace a me![pause]
   - |-
-    [\x0207]Domat. Akiba[\x0207]La la[-4]la la la[-4][-4]la!
+    [\x0207]Domat. Akiba[\x0207]La la-la la la--la!
     Sono Akiba![pause][\x0203]Eccomi di ritorno a
     Digimon Online.
-    La la[-4]la la la[-4][-4]la![pause]
+    La la-la la la--la![pause]
   - |-
     [\x0207]Domat. Akiba[\x0207]Sarebbe bello
     giocare assieme
@@ -262,7 +262,7 @@ strings:
   - |-
     [\x0207]Domat. Akiba[\x0207]Sì, sono grande.
     Ti ho battuto.
-    La la[-4]la la la[-4][-4]la![pause][\x0203]Ecco perché non
+    La la-la la la--la![pause][\x0203]Ecco perché non
     abbandonerò Digimon
     Online.[pause]
   - |-
@@ -583,7 +583,7 @@ strings:
     Ma ho sentito che
     il circuito è migliorato![pause]
   - |-
-    [\x0207]Hide calciat.[\x0207]He[-4]heh! Ho
+    [\x0207]Hide calciat.[\x0207]He-heh! Ho
     battuto ancora
     Cardmon![pause][\x0203]Tre vittorie,
     bella impresa![pause]
@@ -1053,7 +1053,7 @@ strings:
     cannone Suijin![pause][\x0203]Dallo a me,
     assieme a
     Giudizio.[pause][\x0203]..Hm.. Haaaaa!
-    Hi[-4]yaaaa! Ya!![pause][\x0203]Ora, guarda con
+    Hi-yaaaa! Ya!![pause][\x0203]Ora, guarda con
     attenzione.
     Ecco Punizione![pause][\x0203]Senza dubbio è la
     miglior arma del
@@ -1342,24 +1342,24 @@ strings:
     diventare un potente
     Kumamon![pause]
   - |-
-    [\x0207]B[-4]Saint Gargoylem.[\x0207]Boing! Boing!
-    Sono un B[-4]Saint
+    [\x0207]B-Saint Gargoylem.[\x0207]Boing! Boing!
+    Sono un B-Saint
     Gargoylemon.[pause][\x0203]Sono forte, non
     sei nulla rispetto
     a me![pause]
   - |-
-    [\x0207]B[-4]Saint Gargoylemon[\x0207]Cosa, mi vuoi
+    [\x0207]B-Saint Gargoylemon[\x0207]Cosa, mi vuoi
     affrontare? Ma sei
     pazzo? Benissimo![pause][\x0203]Ora ti trasformerò
     in polpa di pomodoro![pause]
   - |-
-    [\x0207]B[-4]IP Doramon[\x0207]Sono B[-4]IP Doramon!
+    [\x0207]B-IP Doramon[\x0207]Sono B-IP Doramon!
     Ti brucerò con il
     Mega Crusher![pause][\x0203]Se la cosa non ti
     garba, vattene
     subito dal[pause][\x0203]mio cospetto![pause]
   - |-
-    [\x0207]B[-4]IP Doramon[\x0207]Idiota, ti ho dato
+    [\x0207]B-IP Doramon[\x0207]Idiota, ti ho dato
     la possibilità di
     andare e sei[pause][\x0203]ancora qui! Questa
     decisione ti
@@ -1546,7 +1546,7 @@ strings:
     Ma che è successo?
     Ho perso?[pause][\x0203]Va bene, userò la
     potentissima carta
-    Anti[-4]potere![pause]
+    Anti-potere![pause]
   - |-
     [\x0207]Numemon[\x0207]Numeee?!
     Oh no, ho perso!

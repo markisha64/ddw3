@@ -18,7 +18,7 @@ strings:
   - OK
   - /3
   - Car
-  - '[-4][-4][-4][-4]'
+  - '----'
   - Livello
   - 'Tasto [circle]: dettagli'
   - LV
@@ -27,12 +27,12 @@ strings:
   - Chi cambi?
   - Digivoluzione di chi?
   - Il grafico di chi?
-  - '[-4][-4][-4][-4][-4]'
-  - '[-4][-4]'
+  - '-----'
+  - '--'
   - Con chi lo cambi?
   - No Digivoluzione
   - Scegli Digivoluzione
-  - '[-4][-4][-4]'
+  - '---'
   - Cambia Digivoluzione
   - Carica tecnica
   - Non fare nulla

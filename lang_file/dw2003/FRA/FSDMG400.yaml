@@ -4,7 +4,7 @@ files:
       - ''
       - |-
         [\x0207][\x020902]3MasterTyranno,
-        affronte[-4]moi ![pause]
+        affronte-moi ![pause]
       - |-
         [\x0207]MasterTyranno[\x0207]Bien sûr ! Je
         viens de manger,
@@ -46,7 +46,7 @@ files:
       - |-
         [\x0207][\x020902]3Chef de Seiryu,
         J'ai battu
-        MasterTyranno ![pause][\x0203]Acceptes[-4]tu de
+        MasterTyranno ![pause][\x0203]Acceptes-tu de
         m'affronter ?[pause]
       - |-
         [\x0207]Chef de Seiryu[\x0207]Ah. Tu as la
@@ -84,15 +84,15 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207][\x020902]3Que se passe[-4]
-        t[-4]il ?[pause]
+        [\x0207][\x020902]3Que se passe-
+        t-il ?[pause]
       - |-
         Code rouge ! Code rouge !
         Arrêt momenté pour raisons
         de sécurité.[pause]
       - '[\x0207][\x020902]3Un séisme ![pause]'
       - |-
-        [\x0207][\x020902]3Qu'est[-4]ce...
+        [\x0207][\x020902]3Qu'est-ce...
         C'est un
         Digimon, ça ?[pause]
   - strings:
@@ -119,7 +119,7 @@ files:
         Il n'y a
         personne ici.[pause]
       - '[\x0207]Voix[\x0207]Hooouuu ![pause]'
-      - '[\x0207][\x020902]3Qu[-4]Quoi ?![pause]'
+      - '[\x0207][\x020902]3Qu-Quoi ?![pause]'
       - '[\x0207]Voix[\x0207]Hooouuu ![pause]'
       - |-
         [\x0207][\x020902]3C'était quoi ?!
@@ -151,7 +151,7 @@ files:
         combat ?[pause][\x0203]Tu ne fais pas
         le poids ![pause]
       - |-
-        [\x0207][\x020902]3Hé, qu'est[-4]ce
+        [\x0207][\x020902]3Hé, qu'est-ce
         qui se passe ![pause][\x0203]Ecoute un peu,
         je vais gagner !
         Je reviendrai ![pause]
@@ -171,10 +171,10 @@ files:
         [\x0207]Voix[\x0207]Hoouu...
         (râclement
         de gorge)[pause][\x0203]...oui,
-        que veux[-4]
+        que veux-
         tu ?[pause]
       - |-
-        [\x0207][\x020902]3Explique[-4]moi comment
+        [\x0207][\x020902]3Explique-moi comment
         battre Zanbamon.[pause]
       - |-
         [\x0207]Sepikmon[\x0207]D'accord si tu me
@@ -186,7 +186,7 @@ files:
         après ça ![pause][\x0203]OK, merci beaucoup ![pause]
       - |-
         [\x0207]Voix[\x0207]...Oui, que
-        veux[-4]tu ?[pause]
+        veux-tu ?[pause]
       - |-
         [\x0207][\x020902]3C'est d'accord. Je
         vais aller chercher
@@ -196,7 +196,7 @@ files:
       - |-
         [\x0207][\x020902]3Oups. Il n'y
         a personne.[pause]
-      - '[\x0207]Voix[\x0207]Hou[-4]ou[-4]oouu[pause]'
+      - '[\x0207]Voix[\x0207]Hou-ou-oouu[pause]'
       - |-
         [\x0207][\x020902]3Aah ! Un
         monstre ![pause]
@@ -213,7 +213,7 @@ files:
         [\x0207]Sepikmon[\x0207]Tout le monde dit que
         j'ai fait des blagues à
         Asuka City ![pause][\x0203]Ce type doit avoir mon
-        masque ![pause][\x0203]Attrape[-4]le et reprends
+        masque ![pause][\x0203]Attrape-le et reprends
         mon masque. Merci ![pause]
   - strings:
       - ''
@@ -226,8 +226,8 @@ files:
         Merci ![pause]
       - '[\x0207]Sepikmon[\x0207]......[pause][\x0203]...[pause]'
       - |-
-        [\x0207][\x020902]3Qu'est[-4]ce qu'il
-        y a ? Mets[-4]le
+        [\x0207][\x020902]3Qu'est-ce qu'il
+        y a ? Mets-le
         et sors.[pause]
       - |-
         [\x0207]Sepikmon[\x0207]Euh... Tu
@@ -291,17 +291,17 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]
   - strings:
       - ''
@@ -312,7 +312,7 @@ files:
       - |-
         [\x0207][\x020902]3Oui !
         Victoire ![pause]
-      - "[\\x0207]MetalGreymon[\\x0207]Bien, je l'ai \npromis...\nFais[-4]en bon usage ![pause]"
+      - "[\\x0207]MetalGreymon[\\x0207]Bien, je l'ai \npromis...\nFais-en bon usage ![pause]"
       - "[\\x0207][\\x020902]3Super, j'ai\nl'ADNN\nAgumon ![pause][\\x0203]Merci, \nMetalGreymon ![pause]"
   - strings:
       - ''
@@ -360,7 +360,7 @@ files:
         le moi ![pause]
       - |-
         [\x0207]Paildramon[\x0207]Bon, bon.
-        Prends[-4]le.[pause]
+        Prends-le.[pause]
       - "[\\x0207][\\x020902]3Oui ! J'ai\nl'ADNN\nVeemon ![pause][\\x0203]Merci, \nPaildramon ![pause]"
       - |-
         [\x0207]Paildramon[\x0207]Oui, c'est ça, on
@@ -390,7 +390,7 @@ files:
       - |-
         [\x0207]BK Imperialdramon[\x0207]Je vois, tu es
         formidable ![pause][\x0203]Tiens, je te donne
-        ça. Prends[-4]le.[pause]
+        ça. Prends-le.[pause]
       - "[\\x0207][\\x020902]3Oui ! J'ai le \nHeaume du\nPéril ![pause]"
       - "[\\x0207]BK Imperialdramon[\\x0207]C'était un bon \ncombat. Reviens\nquand tu veux ![pause]"
   - strings:
@@ -464,7 +464,7 @@ files:
         DEMARRAGE BARGE.[pause]
   - strings:
       - ''
-      - "[\\x0207][\\x020902]3Bon, je vais trouver  \nVeemon et prendre\nles Arbori[-4]bottes ![pause][\\x0203]Je dois prendre garde\nà ne pas sortir de\nla Forêt Vive ![pause]"
+      - "[\\x0207][\\x020902]3Bon, je vais trouver  \nVeemon et prendre\nles Arbori-bottes ![pause][\\x0203]Je dois prendre garde\nà ne pas sortir de\nla Forêt Vive ![pause]"
   - strings:
       - ''
       - |-
@@ -488,13 +488,13 @@ files:
         ailleurs.[pause]
   - strings:
       - ''
-      - "[\\x0207]Veemon[\\x0207]Oups !\nTu m'as trouvé ![pause][\\x0203]OK, je vais te \ndonner les Arbori[-4]\nbottes promises ![pause]"
+      - "[\\x0207]Veemon[\\x0207]Oups !\nTu m'as trouvé ![pause][\\x0203]OK, je vais te \ndonner les Arbori-\nbottes promises ![pause]"
   - strings:
       - ''
       - |-
         [\x0207][\x020902]3Bon, plaçons
         le chip TNT
-        là[-4]dessus.[pause]
+        là-dessus.[pause]
       - |-
         [\x0207][\x020902]3Il y a un
         trou dans
@@ -506,7 +506,7 @@ files:
         [\x0207][\x020902]3...
         Hé, c'est...[pause]
       - |-
-        [\x0207][\x020902]3Génial ! J'ai le Digi[-4]
+        [\x0207][\x020902]3Génial ! J'ai le Digi-
         Oeuf de la Fiabilité ![pause]
       - |-
         [\x0207][\x020902]3Je peux appeler
@@ -517,7 +517,7 @@ files:
       - |-
         [\x0207]Chef Qing Long[\x0207]Camarade ! Sois
         le bienvenu ![pause]
-      - "[\\x0207][\\x020902]3Chef de Qing Long,\noù est le Digi[-4]Oeuf \ndu Savoir ?[pause]"
+      - "[\\x0207][\\x020902]3Chef de Qing Long,\noù est le Digi-Oeuf \ndu Savoir ?[pause]"
       - |-
         [\x0207]Chef de Qing Long[\x0207]Je n'en sais rien,
         pourquoi ?[pause][\x0203]Tu n'es pas
@@ -542,12 +542,12 @@ files:
         par terre...[pause]
       - |-
         [\x0207][\x020902]3Mais pas de
-        trace du Digi[-4]
+        trace du Digi-
         Oeuf du Savoir.[pause][\x0203]Je me demande
         ce qui se passe
         dans le Monde Réel.[pause]
       - |-
-        [\x0207][\x020902]3Tiens ? Qu'est[-4]
+        [\x0207][\x020902]3Tiens ? Qu'est-
         ce que c'est ?
         Un Passe bleu.[pause][\x0203]Cela pourrait
         servir, je
@@ -598,7 +598,7 @@ files:
       - |-
         [\x0207]Airdramon[\x0207]Zzzzzzzzzzz
         Zzzzzzzzzzz[pause]
-      - "[\\x0207][\\x020902]3Peux[-4]tu aller à\nQing Long City\net faire du vent ?[pause][\\x0203]On n'a pas assez de \npouvoir pour tous les \nretransformer...[pause][\\x0203]Airdramon, aide[-4]les.\nAllez, réveille[-4]toi  ![pause]"
+      - "[\\x0207][\\x020902]3Peux-tu aller à\nQing Long City\net faire du vent ?[pause][\\x0203]On n'a pas assez de \npouvoir pour tous les \nretransformer...[pause][\\x0203]Airdramon, aide-les.\nAllez, réveille-toi  ![pause]"
       - |-
         [\x0207]Airdramon[\x0207]Zzzzzzzzzzz
         Zzzzzzzzzzz[pause]
@@ -618,11 +618,11 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207]Guardromon[\x0207]PREPARE[-4]TOI
+        [\x0207]Guardromon[\x0207]PREPARE-TOI
         A SAUVEGARDER[pause]
   - strings:
       - ''
       - |-
         [\x0207][\x020902]3Des secousses
         sismiques ![pause]
-      - "[\\x0207][\\x020902]3Que, qu'est[-4]ce \nqu'il se passe ?![pause]"
+      - "[\\x0207][\\x020902]3Que, qu'est-ce \nqu'il se passe ?![pause]"

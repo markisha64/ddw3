@@ -30,7 +30,7 @@ files:
       - '[\x0207][\x020902]3It''s [\x020801][\x020501]![pause]'
       - "[\\x0207]Suzaku Leader[\\x0207]That's a cool \nname![pause][\\x0203]OK, I'll give \nyou this.[pause]"
       - "[\\x0207][\\x020902]3Yeah! I got\nthe Suzaku \nBadge![pause][\\x0203]Next I need\nto get the\nByakko Badge.[pause]"
-      - "[\\x0207]Suzaku Leader[\\x0207]West Sector is across\nthe ocean, so it's \npretty hard to get to.[pause][\\x0203]There's only one way to \ngo there. You have to \ncall Submarimon.[pause][\\x0203]You need the Digi[-4]Egg of \nSincerity to call \nSubmarimon.[pause][\\x0203]Ask around in this sector \nfor information about it.[pause][\\x0203]That's the only clue I \ncan give you. Well, good \nluck.[pause]"
+      - "[\\x0207]Suzaku Leader[\\x0207]West Sector is across\nthe ocean, so it's \npretty hard to get to.[pause][\\x0203]There's only one way to \ngo there. You have to \ncall Submarimon.[pause][\\x0203]You need the Digi-Egg of \nSincerity to call \nSubmarimon.[pause][\\x0203]Ask around in this sector \nfor information about it.[pause][\\x0203]That's the only clue I \ncan give you. Well, good \nluck.[pause]"
   - strings:
       - ''
       - |-
@@ -78,7 +78,7 @@ files:
         are all fakes![pause]
       - "[\\x0207][\\x020902]3What!? Then\nwho were \nthose guys?[pause]"
       - "[\\x0207]Numemon[\\x0207]That doesn't concern\nyou![pause][\\x0203]If you want to meet the \nreal Leader, then go \nto the Mobius Desert.[pause][\\x0203]He's in the Mirage Tower\nbeyond the desert.[pause]"
-      - "[\\x0207][\\x020902]3He[-4]hey \nhold on!\nWhat's going on?[pause]"
+      - "[\\x0207][\\x020902]3He-hey \nhold on!\nWhat's going on?[pause]"
       - "[\\x0207]Numemon[\\x0207]I can't tell you \nanything more![pause][\\x0203]Don't go near \nByakko City \nanymore![pause]"
       - |-
         [\x0207][\x020902]3...oh, all right.
@@ -121,11 +121,11 @@ files:
       - |-
         [\x0207][\x020902]3...oh, you afraid
         you're gonna lose?[pause]
-      - "[\\x0207]Zanbamon[\\x0207]Wha[-4]what?!\nThat's not true![pause][\\x0203]All right! \nIf you want it, \nlet's fight![pause]"
+      - "[\\x0207]Zanbamon[\\x0207]Wha-what?!\nThat's not true![pause][\\x0203]All right! \nIf you want it, \nlet's fight![pause]"
   - strings:
       - ''
       - |-
-        [\x0207]Zanbamon[\x0207]Wha[-4]what...
+        [\x0207]Zanbamon[\x0207]Wha-what...
         I lost...[pause]
       - "[\\x0207][\\x020902]3How was that?!\nI'm pretty strong \nain't I?[pause]"
       - |-
@@ -133,7 +133,7 @@ files:
         I'll give you this,
         so forgive me![pause]
       - "[\\x0207][\\x020902]3What, a Rusty \nKatana?! Oh, \nwell...[pause]"
-      - "[\\x0207]Zanbamon[\\x0207]I[-4]I'm going to live\nin peace here...[pause][\\x0203]Please leave me \nalone![pause]"
+      - "[\\x0207]Zanbamon[\\x0207]I-I'm going to live\nin peace here...[pause][\\x0203]Please leave me \nalone![pause]"
   - strings:
       - ''
       - "[\\x0207][\\x020902]3Hey, MagnaAgnemon.\nI have a favor to ask.[pause][\\x0203]Can I get the Patamon \nDDNA from you DDNA?[pause]"
@@ -271,7 +271,7 @@ files:
       - ''
       - "[\\x0207][\\x020902]3Yeah, I won \nagainst Zhu Que\nChief![pause]"
       - "[\\x0207][\\x020902]3Huh?! There's\nsomething on the \nground again...[pause]"
-      - "[\\x0207][\\x020902]3Yeah! I got the Red \nID Pass![pause][\\x0203]...But where is the \nDigi[-4]Egg of \nKnowledge?[pause][\\x0203]I've got to find it\nfast to stop the\nJuggernaut![pause]"
+      - "[\\x0207][\\x020902]3Yeah! I got the Red \nID Pass![pause][\\x0203]...But where is the \nDigi-Egg of \nKnowledge?[pause][\\x0203]I've got to find it\nfast to stop the\nJuggernaut![pause]"
   - strings:
       - ''
       - "[\\x0207][\\x020902]3Yeah! \nI defeated \nBulbmon![pause]"
@@ -295,7 +295,7 @@ files:
   - strings:
       - ''
       - "[\\x0207]Zhu Que Chief[\\x0207]Only the members \nof the A.o.A can\nenter here![pause]"
-      - "[\\x0207][\\x020902]3Zhu Que Chief, \nwhere is the Digi[-4]\nEgg of Knowledge?[pause]"
+      - "[\\x0207][\\x020902]3Zhu Que Chief, \nwhere is the Digi-\nEgg of Knowledge?[pause]"
       - "[\\x0207]Zhu Que Chief[\\x0207]Ha ha ha, so you're \nresponsible for the\nAsuka Server![pause][\\x0203]But no matter how \nhard you try, it's \ntoo late![pause]"
       - "[\\x0207][\\x020902]3What?\nWhat do you \nmean by that![pause]"
       - "[\\x0207]Zhu Que Chief[\\x0207]Ha ha ha,\nI'll tell you![pause][\\x0203]We succeeded in \ntaking the undersea\nBase Magasta![pause]"
@@ -305,7 +305,7 @@ files:
   - strings:
       - ''
       - "[\\x0207][\\x020902]3Hey, what do \nwe have here?[pause]"
-      - "[\\x0207][\\x020902]3Yeah! I got the \nDigi[-4]Egg of \nKnowledge![pause]"
+      - "[\\x0207][\\x020902]3Yeah! I got the \nDigi-Egg of \nKnowledge![pause]"
       - "[\\x0207][\\x020902]3Now I can summon\nDigmon![pause][\\x0203]OK, let's go back \nto Asuka Server and \ngo to North Sector![pause]"
   - strings:
       - ''
@@ -314,11 +314,11 @@ files:
       - |-
         [\x0207][\x020902]3...oh, you're afraid
         you're gonna lose![pause]
-      - "[\\x0207]Zanbamon[\\x0207]Wha[-4]what?!\nThat's not true![pause][\\x0203]All right! \nIf you want it, \nI'll show you![pause]"
+      - "[\\x0207]Zanbamon[\\x0207]Wha-what?!\nThat's not true![pause][\\x0203]All right! \nIf you want it, \nI'll show you![pause]"
   - strings:
       - ''
       - |-
-        [\x0207]Zanbamon[\x0207]Wha[-4]what...
+        [\x0207]Zanbamon[\x0207]Wha-what...
         I lost...[pause]
       - "[\\x0207][\\x020902]3How was that?!\nI'm pretty strong \nain't I?[pause]"
       - |-
@@ -326,7 +326,7 @@ files:
         I'll give you this,
         so forgive me![pause]
       - "[\\x0207][\\x020902]3What? Rusty \nKatana?!\nOh, well...[pause]"
-      - "[\\x0207]Zanbamon[\\x0207]I[-4]I'm going to live\nin peace here...[pause][\\x0203]Please leave me \nalone![pause]"
+      - "[\\x0207]Zanbamon[\\x0207]I-I'm going to live\nin peace here...[pause][\\x0203]Please leave me \nalone![pause]"
   - strings:
       - ''
       - |-

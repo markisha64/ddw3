@@ -37,7 +37,7 @@ strings:
     [\x0207]Oma O'Hara[\x0207]...oink, ooiink!
     Oioionk, oink![pause]
   - |-
-    [\x0207]Oma O'Hara[\x0207]Das Leben ist un[-4]
+    [\x0207]Oma O'Hara[\x0207]Das Leben ist un-
     vorhersehbar wie
     der Wind.[pause][\x0203]Aber ein starkes
     Herz kann die
@@ -52,7 +52,7 @@ strings:
   - |-
     [\x0207]Nero[\x0207]Ich mache doch nie
     Ärger![pause][\x0203]Verwandle mich bitte
-    nicht wieder in Oink[-4]
+    nicht wieder in Oink-
     mon! Bitte bitte![pause]
   - |-
     [\x0207]Nero[\x0207]...Oiiiiink,
@@ -81,7 +81,7 @@ strings:
     Oink, oiinkk![pause]
   - |-
     [\x0207]DO Wache[\x0207]..Oink, oink.
-    O[-4]o[-4]oiiiink.[pause]
+    O-o-oiiiink.[pause]
   - |-
     [\x0207]DO Wache[\x0207]Diese Erfahrung
     hat mich enorm
@@ -101,10 +101,10 @@ strings:
     oiooink, oooink![pause]
   - |-
     [\x0207]Steakfan Haj[\x0207]Ich sollte
-    gerade ge[-4]
+    gerade ge-
     fressen werden![pause][\x0203]Mann, hab' ich
     Hunger! Ich will
-    ein Knobi[-4]Steak![pause]
+    ein Knobi-Steak![pause]
   - |-
     [\x0207]Steakfan Haj[\x0207]Oin, oink, oink,
     oiooink, oooink![pause]
@@ -157,11 +157,11 @@ strings:
   - '43'
   - '43'
   - |-
-    [\x0207]Comic[-4]Fan Kevin[\x0207]Oink!
+    [\x0207]Comic-Fan Kevin[\x0207]Oink!
     Oink, oinkoink![pause]
-  - "[\\x0207]Comic[-4]Fan Kevin[\\x0207]Ich mag keine\nOinkmon.[pause][\\x0203]Ich wünschte, ich \nsähe besser aus,\nwie ein Held.[pause]"
+  - "[\\x0207]Comic-Fan Kevin[\\x0207]Ich mag keine\nOinkmon.[pause][\\x0203]Ich wünschte, ich \nsähe besser aus,\nwie ein Held.[pause]"
   - |-
-    [\x0207]Comic[-4]Fan Kevin[\x0207]Oink!
+    [\x0207]Comic-Fan Kevin[\x0207]Oink!
     Oink, oinkoink![pause]
   - |-
     [\x0207]Oma Audrie[\x0207]Oink, oink
@@ -176,12 +176,12 @@ strings:
     [\x0207]Oma Audrie[\x0207]Oink, oink
     ......Oiiink.[pause]
   - |-
-    [\x0207]Schulschluss[-4]Min[\x0207]Oink, ooiink,
+    [\x0207]Schulschluss-Min[\x0207]Oink, ooiink,
     oioioink,
     ooink![pause]
-  - "[\\x0207]Schulschluss[-4]Min[\\x0207]Ich hätte direkt\nnach Hause\ngehen sollen![pause][\\x0203]Morgen gibt's \nsicher Ärger mit\ndem Lehrer![pause]"
+  - "[\\x0207]Schulschluss-Min[\\x0207]Ich hätte direkt\nnach Hause\ngehen sollen![pause][\\x0203]Morgen gibt's \nsicher Ärger mit\ndem Lehrer![pause]"
   - |-
-    [\x0207]Schulschluss[-4]Min[\x0207]Oink, ooiink,
+    [\x0207]Schulschluss-Min[\x0207]Oink, ooiink,
     oioioink,
     ooink![pause]
   - '43'
@@ -205,7 +205,7 @@ strings:
     [\x0207]Künstler Trowa[\x0207]Oink, oink,
     Oooink, oooo![pause]
   - |-
-    [\x0207]Künstler Trowa[\x0207]Ich liebe Digimon[-4]
+    [\x0207]Künstler Trowa[\x0207]Ich liebe Digimon-
     Online![pause][\x0203]Daran wird sich
     nie etwas
     ändern.[pause]
@@ -572,7 +572,7 @@ strings:
     1600 BIT![pause]
   - |-
     [\x0207][\x020902]3Yeah! Ich hab's
-    Gold[-4]Ticket![pause]
+    Gold-Ticket![pause]
   - a
   - a
   - a
@@ -735,7 +735,7 @@ strings:
   - a
   - a
   - a
-  - "[\\x0207]Soldat[\\x0207]Ich hasse meinen \nMist[-4]Job![pause]"
+  - "[\\x0207]Soldat[\\x0207]Ich hasse meinen \nMist-Job![pause]"
   - |-
     [\x0207]Soldat[\x0207]..oh, nur
     ein Kind.
@@ -814,7 +814,7 @@ strings:
     wer du bist![pause]
   - |-
     [\x0207]Soldat[\x0207]Du bist
-    verdächtig.[pause][\x0203]Ein Dig.[-4]Kampf
+    verdächtig.[pause][\x0203]Ein Dig.-Kampf
     wird. zeigen,
     wer du bist![pause]
   - |-
@@ -978,7 +978,7 @@ strings:
   - "[\\x0207]Gatomon[\\x0207]Willkommen in \nmeinem Inn![pause][\\x0203]Fühl dich wie zu\nHause.[pause]"
   - |-
     [\x0207]Guadromon[\x0207]ZUGRIFF AUF
-    MATRIX[-4]DRIVE.[pause]
+    MATRIX-DRIVE.[pause]
   - a
   - a
   - |-
@@ -992,7 +992,7 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Panjamon[\x0207]Dies ist die Trainings[-4]
+    [\x0207]Panjamon[\x0207]Dies ist die Trainings-
     halle! Ich wird's dir
     nicht leicht machen![pause]
   - a
@@ -1049,8 +1049,8 @@ strings:
     'ne richtige Waffe![pause]
   - "[\\x0207]Shadramon[\\x0207]Du hast Säbelzahn\nund alte Klaue.\nGib sie mir![pause][\\x0203]Aahh, dieses Gefühl.\ngenial....[pause][\\x0203]OK, ich führ' \nsie zusammen...[pause][\\x0203]Da! Ist die \nnicht cool?\nDas ist Bezwingen![pause][\\x0203]Ich hab' genug davon\nund geb' dir eine ab![pause][\\x0203]Lass dich nicht von\nechten Fieslingen\nauslachen![pause]"
   - |-
-    [\x0207]Shadramon[\x0207]Ich bin Shadra[-4]
-    mon! Ein digita[-4]
+    [\x0207]Shadramon[\x0207]Ich bin Shadra-
+    mon! Ein digita-
     ler  Fiesling![pause]
   - |-
     [\x0207]Ponchomon[\x0207]Hola Amigo,
@@ -1059,7 +1059,7 @@ strings:
     [\x0207]Ponchomon[\x0207]Halt, du kannst
     keinen alten Stab
     verwenden![pause][\x0203]Soll ich dir eine
-    Avant[-4]Garde[-4]Waffe
+    Avant-Garde-Waffe
     machen?[pause][\x0203]Bring mir Khakkhara
     und ich mach
     sie dir![pause]
@@ -1068,11 +1068,11 @@ strings:
     Stab und Khakkhara![pause][\x0203]Gib sie mir![pause][\x0203]...Cha cha cha!
     Cha cha cha!
     Ooooo Mambo![pause][\x0203]Hier! Das ist
-    Avant[-4]Garde[-4]
+    Avant-Garde-
     Glitzer![pause][\x0203]Damit kannst du
     angeben! Viel Glück
     Amigo![pause]
-  - "[\\x0207]Ponchomon[\\x0207]Nur wenige \nhaben Glitzer![pause][\\x0203]Zeig sie unbe[-4]\ndingt deinem \nFreund, Amigo![pause]"
+  - "[\\x0207]Ponchomon[\\x0207]Nur wenige \nhaben Glitzer![pause][\\x0203]Zeig sie unbe-\ndingt deinem \nFreund, Amigo![pause]"
   - |-
     [\x0207]Ponchomon[\x0207]Hola Amigo,
     wie geht's?[pause]
@@ -1080,7 +1080,7 @@ strings:
     [\x0207]Ponchomon[\x0207]Halt, du kannst
     keinen alten Stab
     verwenden![pause][\x0203]Soll ich dir eine
-    Avant[-4]Garde[-4]Waffe
+    Avant-Garde-Waffe
     machen?[pause][\x0203]Bring mir Khakkhara
     und ich mach
     sie dir![pause]
@@ -1089,7 +1089,7 @@ strings:
     Stab und Khakkhara![pause][\x0203]Gib sie mir![pause][\x0203]...Cha cha cha!
     Cha cha cha!
     Ooooo Mambo![pause][\x0203]Hier! Das ist
-    Avant[-4]Garde[-4]
+    Avant-Garde-
     Glitzer![pause][\x0203]Damit kannst du
     angeben! Viel Glück
     Amigo![pause]
@@ -1184,17 +1184,17 @@ strings:
     ho ho ho ho ho ho
     Du bist schrecklich![pause]
   - |-
-    [\x0207]KingEtemon[\x0207]Was?! Der per[-4]
+    [\x0207]KingEtemon[\x0207]Was?! Der per-
     fekte KingEtemon
     ...verlieren?![pause][\x0203]Du hast Glück..
     Sieg gegen mich![pause][\x0203]Dafür erhält du
     von mir den
-    Sun[-4]Pokal![pause][\x0203]Der ist für den
-    König des Amate[-4]
-    rasu[-4]Kampfes![pause]
+    Sun-Pokal![pause][\x0203]Der ist für den
+    König des Amate-
+    rasu-Kampfes![pause]
   - "[\\x0207]KingEtemon[\\x0207]Warte mal! Mir ist\ngerade der tollste \nOrdner eingefallen![pause][\\x0203]Also warte kurz\nhier![pause]"
   - |-
-    [\x0207]KingEtemon[\x0207]Soweit hast du's ge[-4]
+    [\x0207]KingEtemon[\x0207]Soweit hast du's ge-
     schafft! Jetzt verliere
     ich aber nicht. Kämpfe![pause]
   - |-
@@ -1215,7 +1215,7 @@ strings:
     musst mich schlagen,
     wenn du weiter willst[pause]
   - "[\\x0207]MetalEtemon[\\x0207]Oh ho ho ho ho! \nDu warst kein\nGegner für mich![pause]"
-  - "[\\x0207]MetalEtemon[\\x0207]...Verloren! \nHätte auf[-4]\npassen sollen[pause]"
+  - "[\\x0207]MetalEtemon[\\x0207]...Verloren! \nHätte auf-\npassen sollen[pause]"
   - "[\\x0207]MetalEtemon[\\x0207]Nächstes Mal \nkommst du nicht\nso leicht davon.[pause]"
   - a
   - a
@@ -1238,10 +1238,10 @@ strings:
   - a
   - |-
     [\x0207][\x020902]3Yeah! Ich habe
-    einen Charisma[-4]Chip![pause]
+    einen Charisma-Chip![pause]
   - |-
     [\x0207][\x020902]3Yeah! Ich hab 'nen
-    TP[-4]Chip 3![pause]
+    TP-Chip 3![pause]
   - a
   - a
   - a
@@ -1251,46 +1251,46 @@ strings:
     ist endlos.[pause]
   - |-
     [\x0207]Guilmon[\x0207]Dieser Tunnel führt
-    nach Asuka[-4] und
-    Amaterasu[-4]Server.[pause][\x0203]Im Norden liegt das
-    Amaterasu[-4]
+    nach Asuka- und
+    Amaterasu-Server.[pause][\x0203]Im Norden liegt das
+    Amaterasu-
     Dschungelgrab.[pause]
-  - "[\\x0207]Guilmon[\\x0207]Dieser Tunnel ist nur\nmit dem Amaterasu[-4]\nServer verbunden.[pause][\\x0203]Wenn du nach Norden \ngehst, kommst du\nin den Nordsektor.[pause]"
+  - "[\\x0207]Guilmon[\\x0207]Dieser Tunnel ist nur\nmit dem Amaterasu-\nServer verbunden.[pause][\\x0203]Wenn du nach Norden \ngehst, kommst du\nin den Nordsektor.[pause]"
   - |-
     [\x0207]Monmon[\x0207]Dieser Tunnel führt
-    nach Asuka[-4] und
-    Amaterasu[-4]Server.[pause][\x0203]Im Norden ist Ama[-4]
-    terasu[-4], im Süden
-    Asuka[-4]Server.[pause]
-  - "[\\x0207]Monmon[\\x0207]Dieser Tunnel führt\nnach Asuka[-4] und\nAmaterasu[-4]Server.[pause][\\x0203]Norden ist in der \nNähe von Amaterasus\nXuan Wu City.[pause]"
+    nach Asuka- und
+    Amaterasu-Server.[pause][\x0203]Im Norden ist Ama-
+    terasu-, im Süden
+    Asuka-Server.[pause]
+  - "[\\x0207]Monmon[\\x0207]Dieser Tunnel führt\nnach Asuka- und\nAmaterasu-Server.[pause][\\x0203]Norden ist in der \nNähe von Amaterasus\nXuan Wu City.[pause]"
   - |-
     [\x0207]Veemon[\x0207]Dieser Tunnel führt
-    nach Asuka[-4] und
-    Amaterasu[-4]Server.[pause][\x0203]Er verbindet beide
+    nach Asuka- und
+    Amaterasu-Server.[pause][\x0203]Er verbindet beide
     Nordsektoren.[pause]
-  - "[\\x0207]Kumamon[\\x0207]Dieser Tunnel führt\nnach Asuka[-4] und\nAmaterasu[-4]Server.[pause][\\x0203]Im Norden liegt \nAmaterasus\nZentralpark.[pause][\\x0203]Im Süden liegen die\nTretwälder beider\nServer.[pause]"
-  - "[\\x0207]Kumamon[\\x0207]Dieser Tunnel führt\nnach Asuka[-4] und\nAmaterasu[-4]Server.[pause][\\x0203]Im Norden liegt \nAsukas südl.\nÖdland.[pause][\\x0203]Im Süden war ich\nnoch nicht, deshalb\nweiβ ich es nicht.[pause]"
-  - "[\\x0207]Renomon[\\x0207]Dieser Tunnel ist\nnur mit dem Asuka[-4]\nServer verbunden.[pause][\\x0203]Wenn du nach Nord \ngehst, kommst du\nin den Nordsektor.[pause]"
+  - "[\\x0207]Kumamon[\\x0207]Dieser Tunnel führt\nnach Asuka- und\nAmaterasu-Server.[pause][\\x0203]Im Norden liegt \nAmaterasus\nZentralpark.[pause][\\x0203]Im Süden liegen die\nTretwälder beider\nServer.[pause]"
+  - "[\\x0207]Kumamon[\\x0207]Dieser Tunnel führt\nnach Asuka- und\nAmaterasu-Server.[pause][\\x0203]Im Norden liegt \nAsukas südl.\nÖdland.[pause][\\x0203]Im Süden war ich\nnoch nicht, deshalb\nweiβ ich es nicht.[pause]"
+  - "[\\x0207]Renomon[\\x0207]Dieser Tunnel ist\nnur mit dem Asuka-\nServer verbunden.[pause][\\x0203]Wenn du nach Nord \ngehst, kommst du\nin den Nordsektor.[pause]"
   - |-
     [\x0207]Renomon[\x0207]Dieser Tunnel ist
-    sehr lang und tief.[pause][\x0203]Wenn du nicht vor[-4]
+    sehr lang und tief.[pause][\x0203]Wenn du nicht vor-
     bereitet bist, gehst
     du besser zurück.[pause]
   - |-
     [\x0207]Agumon[\x0207]Dieser Tunnel
-    verbindet Asuka[-4]
-    Zentralsektor...[pause][\x0203]...West[-4] und
+    verbindet Asuka-
+    Zentralsektor...[pause][\x0203]...West- und
     Ostsektoren.[pause]
-  - "[\\x0207]Agumon[\\x0207]Dieser Tunnel führt\nnach Asuka[-4] und\nAmaterasu[-4]Server.[pause][\\x0203]Er ist mit allen \nOrten auf beiden \nServern verbunden.[pause][\\x0203]Asukas Dschungel[-4]\ngrab liegt im Süden.[pause]"
+  - "[\\x0207]Agumon[\\x0207]Dieser Tunnel führt\nnach Asuka- und\nAmaterasu-Server.[pause][\\x0203]Er ist mit allen \nOrten auf beiden \nServern verbunden.[pause][\\x0203]Asukas Dschungel-\ngrab liegt im Süden.[pause]"
   - |-
     [\x0207]Agumon[\x0207]Dieser Tunnel
     führt nur nach
     Amaterasu.[pause]
   - |-
-    [\x0207]Guilmon[\x0207]Asuka[-4]Server liegt
-    im Osten und Amate[-4]
+    [\x0207]Guilmon[\x0207]Asuka-Server liegt
+    im Osten und Amate-
     rasu im Westen.[pause]
-  - "[\\x0207]Guilmon[\\x0207]Dieser Tunnel führt\nnur nach \nAsuka[-4]Server.[pause][\\x0203]Im Süden liegt der \nWestsektor, im Nor[-4]\nden der Nordsektor.[pause]"
+  - "[\\x0207]Guilmon[\\x0207]Dieser Tunnel führt\nnur nach \nAsuka-Server.[pause][\\x0203]Im Süden liegt der \nWestsektor, im Nor-\nden der Nordsektor.[pause]"
   - |-
     [\x0207]Guilmon[\x0207]Der Tunnel verbindet
     die Westsektoren von
@@ -1304,7 +1304,7 @@ strings:
     Wusstest du das[pause]
   - |-
     [\x0207]Kumamon[\x0207]Dieser Tunnel liegt
-    unter dem Nord[-4]
+    unter dem Nord-
     sektor von Asuka.[pause]
   - |-
     [\x0207]BK Agumon[\x0207]Hier bist du!
@@ -1318,11 +1318,11 @@ strings:
     [\x0207]BK Agumon[\x0207]Heh heh heh,
     du bist kein
     Gegner für mich![pause]
-  - "[\\x0207]BK Agumon[\\x0207]Verloren...\nHmmmm...[pause][\\x0203]Hier ist eine sehr\nmächtige Karte [-4] \nTor des Glücks.[pause]"
-  - "[\\x0207]BK Agumon[\\x0207]Verloren...\nHmmmm...[pause][\\x0203]Hier ist eine sehr\nmächtige Karte [-4] \nZugang verlangen.[pause]"
-  - "[\\x0207]BK Agumon[\\x0207]Verloren...\nHmmmm...[pause][\\x0203]Hier ist eine sehr\nmächtige Karte [-4] \nAnti[-4]Kraft.[pause]"
-  - "[\\x0207]BK Agumon[\\x0207]Verloren...\nHmmmm...[pause][\\x0203]Hier ist die\nmächtigste Karte [-4] \nTor des Elends.[pause]"
-  - "[\\x0207]BK Agumon[\\x0207]Verloren...\nHmmmm...[pause][\\x0203]Hier ist eine sehr\nmächtige Karte [-4] \nLösch[-4]Matrix.[pause]"
+  - "[\\x0207]BK Agumon[\\x0207]Verloren...\nHmmmm...[pause][\\x0203]Hier ist eine sehr\nmächtige Karte - \nTor des Glücks.[pause]"
+  - "[\\x0207]BK Agumon[\\x0207]Verloren...\nHmmmm...[pause][\\x0203]Hier ist eine sehr\nmächtige Karte - \nZugang verlangen.[pause]"
+  - "[\\x0207]BK Agumon[\\x0207]Verloren...\nHmmmm...[pause][\\x0203]Hier ist eine sehr\nmächtige Karte - \nAnti-Kraft.[pause]"
+  - "[\\x0207]BK Agumon[\\x0207]Verloren...\nHmmmm...[pause][\\x0203]Hier ist die\nmächtigste Karte - \nTor des Elends.[pause]"
+  - "[\\x0207]BK Agumon[\\x0207]Verloren...\nHmmmm...[pause][\\x0203]Hier ist eine sehr\nmächtige Karte - \nLösch-Matrix.[pause]"
   - |-
     [\x0207]Seehomon[\x0207]...Hey,
     keine Ursache![pause][\x0203]Jungs müssen
@@ -1331,15 +1331,15 @@ strings:
   - |-
     [\x0207]Seehomon[\x0207]Du hast einen
     Tierkreis![pause][\x0203]Bring mir auch
-    eine Sturm[-4]Waffe![pause][\x0203]Ich mach' dir daraus
+    eine Sturm-Waffe![pause][\x0203]Ich mach' dir daraus
     eine echt coole Waffe![pause]
-  - "[\\x0207]Seehomon[\\x0207]Du hast eine Sturm[-4]\nWaffe und einen \nTierkreis![pause][\\x0203]Gib sie mir![pause][\\x0203]Jetzt kann ich eine\ntolle Waffe machen![pause][\\x0203]...hier ist eine...\nBeliebtheit![pause][\\x0203]Keine andere Waffe\nist so wie die![pause]"
+  - "[\\x0207]Seehomon[\\x0207]Du hast eine Sturm-\nWaffe und einen \nTierkreis![pause][\\x0203]Gib sie mir![pause][\\x0203]Jetzt kann ich eine\ntolle Waffe machen![pause][\\x0203]...hier ist eine...\nBeliebtheit![pause][\\x0203]Keine andere Waffe\nist so wie die![pause]"
   - |-
     [\x0207]Depthmon[\x0207]...unter dem
     Meeresspiegel
     ist es toll.[pause][\x0203]So erfrischend.[pause]
   - |-
-    [\x0207]Depthmon[\x0207]Ist der Meeres[-4]
+    [\x0207]Depthmon[\x0207]Ist der Meeres-
     boden nicht schön[pause]
   - |-
     [\x0207]Depthmon[\x0207]Oh, du hast
@@ -1414,9 +1414,9 @@ strings:
     [\x0207]BK Agumon[\x0207]Was?! Verloren![pause][\x0203]OK, versprochen ist
     versprochen.[pause][\x0203]Unser Leader hat
     Etemons Mikro![pause][\x0203]Schwarze Könige
-    bleiben im Unter[-4]
+    bleiben im Unter-
     grund, also los![pause]
-  - "[\\x0207]BKZ Leader[\\x0207]Wer bist du?\nIch bin der Leader\nder schwarzen Könige[pause][\\x0203]Etemons Mikro zurück[-4]\ngeben? Dass ich nicht\nlache![pause][\\x0203]Dafür hast du den \nweiten Weg gemacht?[pause][\\x0203]OK, nimm es, es ist\nwertlos![pause][\\x0203]Ich werde ärgerlich!\nKämpf mit mir![pause]"
+  - "[\\x0207]BKZ Leader[\\x0207]Wer bist du?\nIch bin der Leader\nder schwarzen Könige[pause][\\x0203]Etemons Mikro zurück-\ngeben? Dass ich nicht\nlache![pause][\\x0203]Dafür hast du den \nweiten Weg gemacht?[pause][\\x0203]OK, nimm es, es ist\nwertlos![pause][\\x0203]Ich werde ärgerlich!\nKämpf mit mir![pause]"
   - |-
     [\x0207]BKZ Leader[\x0207]Mir wird ein noch
     mächtigerer Ordner
@@ -1431,59 +1431,59 @@ strings:
     besser![pause][\x0203]Sorry, dass ich es an
     dir ausgelassen habe.
     Du bist auch ganz gut[pause]
-  - "[\\x0207]BKZ Leader[\\x0207]Was?!\nVerloren [-4] Ich?!\nEcht?![pause][\\x0203]...ich bin noch \nnicht gut genug.\nDanke![pause][\\x0203]Hier nimm!\nEs ist Etemons\nMikro.[pause][\\x0203]Ich werde stärker!\nDann kämpfen wir\nnochmal![pause]"
+  - "[\\x0207]BKZ Leader[\\x0207]Was?!\nVerloren - Ich?!\nEcht?![pause][\\x0203]...ich bin noch \nnicht gut genug.\nDanke![pause][\\x0203]Hier nimm!\nEs ist Etemons\nMikro.[pause][\\x0203]Ich werde stärker!\nDann kämpfen wir\nnochmal![pause]"
   - a
   - |-
     [\x0207][\x020902]3Yeah! Ich hab
-    'nen MP[-4]Chip![pause]
+    'nen MP-Chip![pause]
   - |-
     [\x0207][\x020902]3Yeah! Ich hab
-    'n Power[-4]Chip[pause]
+    'n Power-Chip[pause]
   - |-
     [\x0207][\x020902]3Yeah! Ich hab'
-    'n Rüst.[-4]Chip![pause]
+    'n Rüst.-Chip![pause]
   - |-
     [\x0207][\x020902]3Yeah! Ich hab'
-    'n Geist[-4]Chip![pause]
+    'n Geist-Chip![pause]
   - |-
     [\x0207][\x020902]3Yeah! Ich hab'
-    'n Weisheit[-4]Chip[pause]
+    'n Weisheit-Chip[pause]
   - |-
     [\x0207][\x020902]3Yeah! Ich hab'
-    'n Boost[-4]Chip![pause]
+    'n Boost-Chip![pause]
   - |-
     [\x0207][\x020902]3Yeah! Ich hab
-    'n HP[-4]Chip![pause]
+    'n HP-Chip![pause]
   - |-
     [\x0207][\x020902]3Yeah! Ich hab
-    'n Feuer[-4]Chip![pause]
+    'n Feuer-Chip![pause]
   - |-
     [\x0207][\x020902]3Yeah! Ich hab
-    'n Wasser[-4]Chip![pause]
+    'n Wasser-Chip![pause]
   - |-
     [\x0207][\x020902]3Yeah! Ich hab
-    'n Eis[-4]Chip![pause]
+    'n Eis-Chip![pause]
   - |-
     [\x0207][\x020902]3Yeah! Ich hab
-    'n Wind[-4]Chip![pause]
+    'n Wind-Chip![pause]
   - |-
     [\x0207][\x020902]3Yeah! Ich hab
-    'n Donner[-4]Chip![pause]
+    'n Donner-Chip![pause]
   - |-
     [\x0207][\x020902]3Yeah! Ich hab
-    'n Metall[-4]Chip[pause]
+    'n Metall-Chip[pause]
   - |-
     [\x0207][\x020902]3Yeah! Ich hab
-    'n Dunkel[-4]Chip[pause]
+    'n Dunkel-Chip[pause]
   - |-
     [\x0207][\x020902]3Yeah! Ich hab
     die wilde Waffe[pause]
   - |-
     [\x0207][\x020902]3Yeah! Ich hab
-    den Yin Yan[-4]Wall[pause]
+    den Yin Yan-Wall[pause]
   - |-
     [\x0207][\x020902]3Yeah! Ich hab
-    das Ronin[-4]Schild[pause]
+    das Ronin-Schild[pause]
   - |-
     [\x0207][\x020902]3Yeah! Hab' 'ne
     heilige Robe[pause]
@@ -1493,7 +1493,7 @@ strings:
     Hmm..welche Combo?[pause]
   - |-
     [\x0207]Soldat[\x0207]...ich sollte meine
-    Runde machen...[pause][\x0203]Aber mir ist nicht da[-4]
+    Runde machen...[pause][\x0203]Aber mir ist nicht da-
     ach.. ich werd meine
     Kartenliste checken.[pause]
   - |-
@@ -1511,19 +1511,19 @@ strings:
     [\x0207]Kotemon[\x0207]Das Dschungelgrab
     von Amaterasu ist
     dieser Ausgang.[pause][\x0203]Weiter nach Süden
-    geht's zum Asuka[-4]
+    geht's zum Asuka-
     Server.[pause]
   - |-
     [\x0207]Patamon[\x0207]Hier geht's raus
     zum Ätherdschungel
     von Asuka.[pause][\x0203]Zum Nordsektor
     kommst du durch den
-    Plug[-4]Kap[-4]Tunnel![pause]
+    Plug-Kap-Tunnel![pause]
   - |-
     [\x0207]Kotemon[\x0207]Der Ätherdschungel
     von Amaterasu ist
     hier drüber.[pause][\x0203]Dieser Tunnel ist
-    auch mit Asuka[-4]
+    auch mit Asuka-
     Server verbunden.[pause]
   - |-
     [\x0207]Patamon[\x0207]Hier drüber
@@ -1541,10 +1541,10 @@ strings:
     zum Ätherdschungel
     von Asuka.[pause][\x0203]Zum Nordsektor
     kommst du durch den
-    Plug[-4]Kap[-4]Tunnel![pause]
+    Plug-Kap-Tunnel![pause]
   - |-
     [\x0207]Kotemon[\x0207]Hier geht's raus
-    zum Plug[-4]Kap von
+    zum Plug-Kap von
     Asuka![pause][\x0203]Zum Nordsektor
     geht's Richtung
     Norden! Viel Glück![pause]
@@ -1553,12 +1553,12 @@ strings:
     geht's zum nördl.
     Ödland W.[pause][\x0203]Vielleicht geh' ich
     nach Norden, zurück
-    zum Asuka[-4]Nordsektor[pause]
-  - "[\\x0207]Kotemon[\\x0207]Hier geht's zum\nAsuka[-4]Dschungelgrab.[pause][\\x0203]Das von Amaterasu\nliegt weiter \nim Norden.[pause]"
-  - "[\\x0207]Kotemon[\\x0207]Der Ätherdschungel\nvon Amaterasu ist\nhier drüber.[pause][\\x0203]Nordsektor? Der Plug[-4]\nKap[-4]Tunnel ist \ndamit verbunden.[pause]"
+    zum Asuka-Nordsektor[pause]
+  - "[\\x0207]Kotemon[\\x0207]Hier geht's zum\nAsuka-Dschungelgrab.[pause][\\x0203]Das von Amaterasu\nliegt weiter \nim Norden.[pause]"
+  - "[\\x0207]Kotemon[\\x0207]Der Ätherdschungel\nvon Amaterasu ist\nhier drüber.[pause][\\x0203]Nordsektor? Der Plug-\nKap-Tunnel ist \ndamit verbunden.[pause]"
   - |-
     [\x0207]Patamon[\x0207]Hier geht's zum
-    Plug[-4]Kap von
+    Plug-Kap von
     Amaterasu.[pause][\x0203]Dieser Tunnel führt
     zum Nordsektor
     von Amaterasu.[pause]
@@ -1584,13 +1584,13 @@ strings:
   - "[\\x0207]Monmon[\\x0207]Die windige Prärie\nvon Amaterasu liegt\ngenau im Süden.[pause][\\x0203]Vom Inn bei der \nPrärie geht's wohl\nnach Asuka.[pause]"
   - "[\\x0207]Renamon[\\x0207]Der Nordsektor \nliegt im Norden.[pause][\\x0203]Ohne Vorbereitung\ngeh' besser zurück.[pause]"
   - |-
-    [\x0207]Guilmon[\x0207]Hier ist es. Der Aus[-4]
+    [\x0207]Guilmon[\x0207]Hier ist es. Der Aus-
     gang ist im Norden![pause]
   - "[\\x0207]Guilmon[\\x0207]Der Ausgang \nliegt im Süden.[pause]"
-  - "[\\x0207]Renamon[\\x0207]Dieser Tunnel führt\nnirgenwohin. Es ist \neine Sackgasse.[pause][\\x0203]Zum Nordsektor nimm\n'nen anderen Tunnel..[pause][\\x0203]Und geh zum Zentral[-4]\nsektor von Asuka.[pause]"
+  - "[\\x0207]Renamon[\\x0207]Dieser Tunnel führt\nnirgenwohin. Es ist \neine Sackgasse.[pause][\\x0203]Zum Nordsektor nimm\n'nen anderen Tunnel..[pause][\\x0203]Und geh zum Zentral-\nsektor von Asuka.[pause]"
   - |-
     [\x0207]Guilmon[\x0207]Hm, hm, ich
-    rieche die Auβen[-4]
+    rieche die Auβen-
     welt aus Nord...[pause]
   - |-
     [\x0207]Veemon[\x0207]Ein Ausgang liegt
@@ -1598,7 +1598,7 @@ strings:
   - |-
     [\x0207]Renamon[\x0207]Ein Tunnelausgang
     liegt nördlich.[pause][\x0203]Es ist weit, aber
-    es gibt einen Aus[-4]
+    es gibt einen Aus-
     gang. Viel Glück.[pause]
   - |-
     [\x0207]Monmon[\x0207]Der Pfad im
@@ -1617,10 +1617,10 @@ strings:
     [\x0207]Agumon[\x0207]Der Ätherdschungel
     von Asuka liegt
     im Norden.[pause][\x0203]Dieser Tunnel ist
-    mit Amaterasu[-4]
+    mit Amaterasu-
     Server verbunden.[pause]
   - |-
-    [\x0207]Kumamon[\x0207]Der Asuka[-4]Dschungel
+    [\x0207]Kumamon[\x0207]Der Asuka-Dschungel
     liegt im Norden.[pause]
   - |-
     [\x0207]Kumamon[\x0207]Der Nordsektor

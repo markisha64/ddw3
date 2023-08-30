@@ -55,7 +55,7 @@ files:
         RIPARO, RIPETO,
         JUG...NAUT...ASI...ICATA...[pause]
       - |-
-        [\x0207][\x020902]3Co[-4]cosa?!
+        [\x0207][\x020902]3Co-cosa?!
         Non si
         ferma?[pause][\x0203]Era una
         trappola![pause][\x0203]Allora, l'A.o.A
@@ -182,7 +182,7 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207][\x020902]3Co[-4]cosa
+        [\x0207][\x020902]3Co-cosa
         accade?[pause]
   - strings:
       - ''
@@ -193,7 +193,7 @@ files:
   - strings:
       - ''
       - |-
-        [\x0207][\x020902]3Ma[-4]ma
+        [\x0207][\x020902]3Ma-ma
         che?![pause]
   - strings:
       - ''
@@ -292,7 +292,7 @@ files:
         più forte e non
         ubbidisco a nessuno![pause]
       - |-
-        Co[-4]cosa?!
+        Co-cosa?!
         Chi credi che io
         sia?[pause]
       - |-
@@ -301,7 +301,7 @@ files:
         dati e diventerò
         più potente![pause][\x0203]Per cominciare,
         assorbirò te![pause]
-      - Co[-4]cosa?![pause]
+      - Co-cosa?![pause]
       - Aaaaaah![pause]
       - "[\\x0207][\\x020902]3Quello è il tuo\ndomatore, \nSnatchmon![pause][\\x0203]Domatori e Digimon\nsono una cosa\nsola![pause][\\x0203]Agiscono sempre\nassieme![pause]"
       - |-
