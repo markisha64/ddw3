@@ -1,8 +1,8 @@
 .include "macros.s"
 
-.section "section_STGTRAIN"
-.global STGTRAIN
-STGTRAIN:
+.section "section_STGTRAIN_0"
+.global STGTRAIN_0
+STGTRAIN_0:
 .L0x00000000: .word 0x800851d0 # lb $t0, 0x51d0($zr)
 .L0x00000004: .word 0x80085208 # lb $t0, 0x5208($zr)
 .L0x00000008: .word 0x800852a8 # lb $t0, 0x52a8($zr)
@@ -238,14 +238,10 @@ STGTRAIN:
 .L0x000003a0: .word 0x8008b704 # lb $t0, -0x48fc($zr)
 .L0x000003a4: .word 0x8008b710 # lb $t0, -0x48f0($zr)
 # Start of code
-.L0x000003a8: sw $a1, 0x80($a0)                   # .word 0xac850080
-.L0x000003ac: sw $a2, 0x88($a0)                   # .word 0xac860088
-.L0x000003b0: lhu $v0, 0x2($a1)                   # .word 0x94a20002
-.L0x000003b4: nop                                 # .word 0x00000000
-.L0x000003b8: sh $v0, 0x84($a0)                   # .word 0xa4820084
-.L0x000003bc: lhu $v0, 0x4($a1)                   # .word 0x94a20004
-.L0x000003c0: jr $ra                              # .word 0x03e00008
-.L0x000003c4: sh $v0, 0x86($a0)                   # .word 0xa4820086
+
+.section "section_STGTRAIN_1"
+.global STGTRAIN_1
+STGTRAIN_1:
 .L0x000003c8: beqz $a1, .L0x000003e8              # .word 0x10a00007
 .L0x000003cc: nop                                 # .word 0x00000000
 .L0x000003d0: sw $a1, 0x8c($a0)                   # .word 0xac85008c
