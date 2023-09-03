@@ -8,8 +8,8 @@
 /dw2003/**/*.BIN filter=lfs diff=lfs merge=lfs -text
 /dw2003/**/*.tim filter=lfs diff=lfs merge=lfs -text
 
-# Sprites contain binary data
-/sprite/**/*.bin filter=lfs diff=lfs merge=lfs -text
+# Packs contain binary data
+/pack/**/*.bin filter=lfs diff=lfs merge=lfs -text
 
 # Image files are binary data
 /tim/**/*.png filter=lfs diff=lfs merge=lfs -text

@@ -1,6 +1,6 @@
 #!/bin/env python3
 """
-Generates dependencies for creating a sprite from a `yaml` manifest.
+Generates dependencies for creating a pack from a `yaml` manifest.
 """
 
 # Import
@@ -26,7 +26,7 @@ def main(args):
 
 
 if __name__ == "__main__":
-	parser = argparse.ArgumentParser(description="sprite dependency creator")
+	parser = argparse.ArgumentParser(description="pack dependency creator")
 	parser.add_argument("input_yaml", type=str)
 	parser.add_argument("-o", dest="output", type=str, required=True)
 	parser.add_argument("--deps", dest="deps_file", type=str, required=True)

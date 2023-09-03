@@ -26,12 +26,12 @@ alias:
   ld_from_yaml            : tools/ld_from_yaml.py
   ld_from_yaml_deps       : tools/ld_from_yaml_deps.py
   process_path            : tools/process_path.py
-  mksprite_deps           : tools/mksprite_deps.py
+  mkpack_deps           : tools/mkpack_deps.py
 
   # Cargo tools
   mkpsexe    : $(build_rust_tool_dir)/ddw3-mkpsexe
   mklang_file: $(build_rust_tool_dir)/ddw3-mklang-file
-  mksprite   : $(build_rust_tool_dir)/ddw3-mksprite
+  mkpack     : $(build_rust_tool_dir)/ddw3-mkpack
   mktim      : $(build_rust_tool_dir)/ddw3-mktim
 
   # Directories
@@ -45,7 +45,7 @@ alias:
   build_rust_dir     : $(build_dir)/rust
   build_raw_exe_dir  : $(build_dir)/raw_exe
   build_lang_file_dir: $(build_dir)/lang_file
-  build_sprite_dir   : $(build_dir)/sprite
+  build_pack_dir     : $(build_dir)/pack
   build_tim_dir      : $(build_dir)/tim
 
   # Licenses
@@ -101,9 +101,9 @@ alias:
   lang_file_yaml: lang_file/^(path).yaml
 
   # Sprite
-  sprite     : $(build_sprite_dir)/^(path).bin
-  sprite_deps: $(build_sprite_dir)/^(path).d
-  sprite_yaml: sprite/^(path).yaml
+  pack     : $(build_pack_dir)/^(path).bin
+  pack_deps: $(build_pack_dir)/^(path).d
+  pack_yaml: pack/^(path).yaml
 
   # Tim
   tim     : $(build_tim_dir)/^(path).tim
@@ -324,33 +324,33 @@ rules:
         - --output=$(tim)
 
   # Sprite
-  sprite:
-    out: [$(sprite)]
+  pack:
+    out: [$(pack)]
     deps:
-      - $(sprite_yaml)
-      - $(mksprite)
-      - deps_file: $(sprite_deps)
-      - static: $(sprite::dir_name)/
+      - $(pack_yaml)
+      - $(mkpack)
+      - deps_file: $(pack_deps)
+      - static: $(pack::dir_name)/
     exec:
-      - - $(mksprite)
-        - $(sprite_yaml)
-        - --output=$(sprite)
+      - - $(mkpack)
+        - $(pack_yaml)
+        - --output=$(pack)
 
   # Sprite dependencies
-  sprite_deps:
-    out: [$(sprite_deps)]
+  pack_deps:
+    out: [$(pack_deps)]
     deps:
-      - $(sprite_yaml)
-      - $(mksprite_deps)
-      - static: $(sprite_deps::dir_name)/
+      - $(pack_yaml)
+      - $(mkpack_deps)
+      - static: $(pack_deps::dir_name)/
     exec:
       - - $(python3)
-        - $(mksprite_deps)
-        - $(sprite_yaml)
+        - $(mkpack_deps)
+        - $(pack_yaml)
         - -o
-        - $(sprite)
+        - $(pack)
         - --deps
-        - $(sprite_deps)
+        - $(pack_deps)
 
   # Elf
   elf:

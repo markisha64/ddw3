@@ -394,21 +394,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "ddw3-mkpsexe"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "byteorder",
- "clap",
- "ddw3-bytes",
- "ddw3-logger",
- "ddw3-psexe",
- "goblin",
- "tracing",
-]
-
-[[package]]
-name = "ddw3-mksprite"
+name = "ddw3-mkpack"
 version = "0.1.0"
 dependencies = [
  "anyhow",
@@ -420,6 +406,20 @@ dependencies = [
  "pathdiff",
  "serde",
  "serde_yaml",
+ "tracing",
+]
+
+[[package]]
+name = "ddw3-mkpsexe"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "byteorder",
+ "clap",
+ "ddw3-bytes",
+ "ddw3-logger",
+ "ddw3-psexe",
+ "goblin",
  "tracing",
 ]
 
@@ -517,7 +517,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "ddw3-unsprite"
+name = "ddw3-unpack"
 version = "0.1.0"
 dependencies = [
  "anyhow",
