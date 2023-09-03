@@ -70,6 +70,8 @@ fn main() -> Result<(), anyhow::Error> {
 		let output_yaml_parent = output_yaml
 			.parent()
 			.context("Unable to get parent of output yaml file")?;
+		fs::create_dir_all(output_yaml_parent).context("Unable to create output yaml file directory")?;
+
 		let output_yaml = fs::File::create(&output_yaml).context("Unable to create output yaml file")?;
 
 		let entries = (0..entries.len())
