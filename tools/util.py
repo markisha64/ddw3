@@ -14,7 +14,7 @@ def process_path(path: str | Path, input_dir: str | Path):
 	"""
 
 	path = Path(path)
-	input_dir = Path(path)
+	input_dir = Path(input_dir)
 	if path.is_absolute():
 		# TODO: Make this work on windows?
 		return path.relative_to("/")
