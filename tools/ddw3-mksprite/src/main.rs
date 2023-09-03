@@ -13,7 +13,6 @@ use {
 	byteorder::{LittleEndian, WriteBytesExt},
 	clap::Parser,
 	std::{
-		borrow::Cow,
 		fs,
 		io::{self, BufReader, BufWriter, Seek},
 		path::PathBuf,
@@ -53,10 +52,7 @@ fn main() -> Result<(), anyhow::Error> {
 			let entry_pos = output.stream_position().context("Unable to get output position")?;
 
 			// Open the entry file
-			let entry_path = match entry.is_absolute() {
-				true => Cow::Borrowed(entry),
-				false => Cow::Owned(input_parent.join(entry)),
-			};
+			let entry_path = ddw3_util::resolve_input_path(entry, input_parent);
 			let mut entry = fs::File::open(&*entry_path).context("Unable to open entry file")?;
 
 			// And copy it to the output
