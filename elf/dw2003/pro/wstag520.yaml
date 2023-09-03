@@ -1,0 +1,6 @@
+---
+start_addr: 0x0
+objs:
+  - /build/asm/dw2003/pro/wstag520.o
+sections:
+  - section_WSTAG520

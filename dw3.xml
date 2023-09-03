@@ -2363,7 +2363,7 @@
 				</dir>
 			</dir>
 
-			<file name="DUMMY" type="data" source="build/misc/DUMMY" />
+			<file name="DUMMY" type="data" source="build/misc/dummy" />
 		</directory_tree>
 	</track>
 </iso_project>

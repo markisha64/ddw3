@@ -54,7 +54,7 @@ alias:
   license_psexe_na: licenses/psexe-na.dat
 
   # Misc
-  dummy_buffer  : $(build_misc_dir)/DUMMY
+  dummy_buffer: $(build_misc_dir)/dummy
 
   # Compare
   compare_checksums: checksums.sha256

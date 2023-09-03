@@ -17,14 +17,14 @@ dependencies = [
 ]
 
 [[package]]
-name = "dw2003_pro_STFGTREP_data"
+name = "dw2003_pro_stfgtrep_data"
 version = "0.1.0"
 dependencies = [
  "util",
 ]
 
 [[package]]
-name = "dw2003_pro_STGTRAIN_data"
+name = "dw2003_pro_stgtrain_data"
 version = "0.1.0"
 dependencies = [
  "util",
