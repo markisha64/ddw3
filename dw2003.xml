@@ -336,7 +336,7 @@
 					<file name="NONE____.BIN" type="data" source="dw2003/AAA/DAT/NONE____.BIN" />
 
 					<dir name="CARD">
-						<file name="CARDDATA.BIN" type="data" source="dw2003/AAA/DAT/CARD/CARDDATA.BIN" />
+						<file name="CARDDATA.BIN" type="data" source="build/pack/dw2003/card/carddata.bin" />
 						<file name="CARDPACK.BIN" type="data" source="dw2003/AAA/DAT/CARD/CARDPACK.BIN" />
 						<file name="CARDPAK0.BIN" type="data" source="dw2003/AAA/DAT/CARD/CARDPAK0.BIN" />
 						<file name="CARDPAK1.BIN" type="data" source="dw2003/AAA/DAT/CARD/CARDPAK1.BIN" />
