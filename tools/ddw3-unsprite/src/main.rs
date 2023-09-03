@@ -49,6 +49,9 @@ fn main() -> Result<(), anyhow::Error> {
 
 	// And copy all inner files
 	for (idx, (start, end)) in entries.iter().copied().chain([reader_len]).tuple_windows().enumerate() {
+		let len = end.checked_sub(start).context("Entry end was before start")?;
+		let len = u64::from(len);
+
 		// Seek to the inner file
 		reader
 			.seek(io::SeekFrom::Start(u64::from(start)))
@@ -59,7 +62,6 @@ fn main() -> Result<(), anyhow::Error> {
 		let mut output_file = fs::File::create(&output_path).context("Unable to create output file")?;
 
 		// And copy the inner file to it
-		let len = u64::from(end - start);
 		io::copy(&mut reader.by_ref().take(len), &mut output_file).context("Unable to write output file")?;
 	}
 
