@@ -1,10 +1,10 @@
 entries:
-- P169NSPM/0.bin
-- P169NSPM/1.bin
-- P169NSPM/2.bin
-- P169NSPM/3.bin
-- P169NSPM/4.bin
-- P169NSPM/5.bin
+- /build/tim/dw2003/field/sprite/P169NSPM/0.tim
+- /build/tim/dw2003/field/sprite/P169NSPM/1.tim
+- /build/tim/dw2003/field/sprite/P169NSPM/2.tim
+- /build/tim/dw2003/field/sprite/P169NSPM/3.tim
+- /build/tim/dw2003/field/sprite/P169NSPM/4.tim
+- /build/tim/dw2003/field/sprite/P169NSPM/5.tim
 - P169NSPM/6.bin
 - P169NSPM/7.bin
 - P169NSPM/8.bin

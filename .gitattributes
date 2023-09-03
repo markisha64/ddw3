@@ -11,6 +11,9 @@
 # Sprites contain binary data
 /sprite/**/*.bin filter=lfs diff=lfs merge=lfs -text
 
+# Image files are binary data
+/tim/**/*.png filter=lfs diff=lfs merge=lfs -text
+
 # Keep crlfs in all resource files
 /dw3/**/* -crlf
 /dw2003/**/* -crlf

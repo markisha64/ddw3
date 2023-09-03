@@ -1,10 +1,10 @@
 entries:
-- P080BALM/0.bin
-- P080BALM/1.bin
-- P080BALM/2.bin
-- P080BALM/3.bin
-- P080BALM/4.bin
-- P080BALM/5.bin
+- /build/tim/dw2003/field/sprite/P080BALM/0.tim
+- /build/tim/dw2003/field/sprite/P080BALM/1.tim
+- /build/tim/dw2003/field/sprite/P080BALM/2.tim
+- /build/tim/dw2003/field/sprite/P080BALM/3.tim
+- /build/tim/dw2003/field/sprite/P080BALM/4.tim
+- /build/tim/dw2003/field/sprite/P080BALM/5.tim
 - P080BALM/6.bin
 - P080BALM/7.bin
 - P080BALM/8.bin

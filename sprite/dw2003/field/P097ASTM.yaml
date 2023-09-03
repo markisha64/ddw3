@@ -1,10 +1,10 @@
 entries:
-- P097ASTM/0.bin
-- P097ASTM/1.bin
-- P097ASTM/2.bin
-- P097ASTM/3.bin
-- P097ASTM/4.bin
-- P097ASTM/5.bin
+- /build/tim/dw2003/field/sprite/P097ASTM/0.tim
+- /build/tim/dw2003/field/sprite/P097ASTM/1.tim
+- /build/tim/dw2003/field/sprite/P097ASTM/2.tim
+- /build/tim/dw2003/field/sprite/P097ASTM/3.tim
+- /build/tim/dw2003/field/sprite/P097ASTM/4.tim
+- /build/tim/dw2003/field/sprite/P097ASTM/5.tim
 - P097ASTM/6.bin
 - P097ASTM/7.bin
 - P097ASTM/8.bin

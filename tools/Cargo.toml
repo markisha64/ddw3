@@ -20,6 +20,11 @@ members = [
 	"ddw3-unlang-file",
 	"ddw3-mklang-file",
 
+	# Tim
+	"ddw3-tim",
+	"ddw3-untim",
+	"ddw3-mktim",
+
 	# Sprite
 	"ddw3-unsprite",
 	"ddw3-mksprite",
@@ -42,6 +47,7 @@ derive_more = "0.99.17"
 either = "1.9.0"
 extend = "1.2.0"
 goblin = "0.7.1"
+image = "0.24.7"
 int-conv = "0.1.4"
 itertools = "0.11.0"
 pathdiff = "0.2.1"
@@ -63,9 +69,12 @@ ddw3-logger = { path = "ddw3-logger" }
 ddw3-mklang-file = { path = "ddw3-mklang-file" }
 ddw3-mkpsexe = { path = "ddw3-mkpsexe" }
 ddw3-mksprite = { path = "ddw3-mksprite" }
+ddw3-mktim = { path = "ddw3-untim" }
 ddw3-psexe = { path = "ddw3-psexe" }
+ddw3-tim = { path = "ddw3-tim" }
 ddw3-uncd = { path = "ddw3-uncd" }
 ddw3-uniso = { path = "ddw3-uniso" }
 ddw3-unlang-file = { path = "ddw3-unlang-file" }
 ddw3-unsprite = { path = "ddw3-unsprite" }
+ddw3-untim = { path = "ddw3-untim" }
 ddw3-util = { path = "ddw3-util" }

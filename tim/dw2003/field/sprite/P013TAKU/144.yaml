@@ -1,0 +1,12 @@
+bpp: Indexed4
+clut:
+  pos:
+  - 640
+  - 256
+  kind: user
+  path: 144.clut.png
+img:
+  pos:
+  - 640
+  - 0
+  path: 144.png

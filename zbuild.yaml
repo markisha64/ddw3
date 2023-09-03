@@ -32,6 +32,7 @@ alias:
   mkpsexe    : $(build_rust_tool_dir)/ddw3-mkpsexe
   mklang_file: $(build_rust_tool_dir)/ddw3-mklang-file
   mksprite   : $(build_rust_tool_dir)/ddw3-mksprite
+  mktim      : $(build_rust_tool_dir)/ddw3-mktim
 
   # Directories
   build_dir  : build
@@ -45,6 +46,7 @@ alias:
   build_raw_exe_dir  : $(build_dir)/raw_exe
   build_lang_file_dir: $(build_dir)/lang_file
   build_sprite_dir   : $(build_dir)/sprite
+  build_tim_dir      : $(build_dir)/tim
 
   # Licenses
   license_psx_iso : licenses/psx-bin.dat
@@ -98,10 +100,16 @@ alias:
   lang_file     : $(build_lang_file_dir)/^(path).bin
   lang_file_yaml: lang_file/^(path).yaml
 
-  # sprite
+  # Sprite
   sprite     : $(build_sprite_dir)/^(path).bin
   sprite_deps: $(build_sprite_dir)/^(path).d
   sprite_yaml: sprite/^(path).yaml
+
+  # Tim
+  tim     : $(build_tim_dir)/^(path).tim
+  tim_img : tim/^(path).png
+  tim_clut: tim/^(path).clut.png
+  tim_yaml: tim/^(path).yaml
 
   # Rust library
   rust_lib     : $(build_rust_dir)/^(name).a
@@ -301,6 +309,19 @@ rules:
       - - $(mklang_file)
         - $(lang_file_yaml)
         - --output=$(lang_file)
+
+  # Tim
+  tim:
+    out: [$(tim)]
+    deps:
+      - $(tim_yaml)
+      - $(mktim)
+      - opt: $(tim_clut)
+      - static: $(tim::dir_name)/
+    exec:
+      - - $(mktim)
+        - $(tim_yaml)
+        - --output=$(tim)
 
   # Sprite
   sprite:

@@ -1,10 +1,10 @@
 entries:
-- P117BIPD/0.bin
-- P117BIPD/1.bin
-- P117BIPD/2.bin
-- P117BIPD/3.bin
-- P117BIPD/4.bin
-- P117BIPD/5.bin
+- /build/tim/dw2003/field/sprite/P117BIPD/0.tim
+- /build/tim/dw2003/field/sprite/P117BIPD/1.tim
+- /build/tim/dw2003/field/sprite/P117BIPD/2.tim
+- /build/tim/dw2003/field/sprite/P117BIPD/3.tim
+- /build/tim/dw2003/field/sprite/P117BIPD/4.tim
+- /build/tim/dw2003/field/sprite/P117BIPD/5.tim
 - P117BIPD/6.bin
 - P117BIPD/7.bin
 - P117BIPD/8.bin
