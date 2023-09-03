@@ -1,0 +1,23 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Maître de jeu[\x0207]... Destromon
+    devrait être né
+    à l'heure qu'il est.[pause]
+  - |-
+    [\x0207][\x020902]3Qui est ce
+    Destromon ?[pause]
+  - |-
+    [\x0207]Maître de jeu[\x0207]Un Digimon né de la
+    fusion entre Vemmon
+    et le Juggernaut ![pause][\x0203]Destromon est
+    le plus fort ! Il est
+    invincible ![pause]
+  - |-
+    [\x0207]Lisa[\x0207]... pas de temps
+    à perdre ![pause][\x0203]Trouvons le président
+    de MAGAMI pour
+    arrêter Destromon ![pause]
+  - '[\x0207][\x020902]3D''accord.[pause]'
+  - '[\x0207]Teddy[\x0207]...oui ![pause]'
+  - '[\x0207]Nick[\x0207]OK ![pause]'

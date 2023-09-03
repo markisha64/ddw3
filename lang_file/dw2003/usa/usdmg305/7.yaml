@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - "[\\x0207]Lisa[\\x0207]But the question is\nhow to get inside \nAmaterasu City...[pause][\\x0203]It's the A.o.A's \nheadquarters, so the\nsecurity is tight.[pause]"
+  - "[\\x0207]Nick[\\x0207]That's true...\nIf we can get \nsomeone to help...[pause]"
+  - "[\\x0207]Keith[\\x0207]That's impossible!\nEveryone's turned \ninto Oinkmon![pause]"
+  - |-
+    [\x0207]Keith[\x0207]I mean, come on,
+    look around![pause]
+  - |-
+    [\x0207][\x020902]3Hmmm...
+    Help...[pause]
+  - "[\\x0207][\\x020902]3All right!\nI'll go to Amaterasu \nServer again to look![pause]"
+  - "[\\x0207]Lisa[\\x0207]Thanks.\nI'm counting on \nyou.[pause]"
+  - "[\\x0207][\\x020902]3Oh yeah, Kenny \nwas saying\nsomething about...[pause]"

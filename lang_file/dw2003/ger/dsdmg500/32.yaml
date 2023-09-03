@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Wo mag das
+    wohl gewe-
+    sen sein?[pause]
+  - |-
+    [\x0207]Patamon[\x0207]Hm... Keine Ahnung.[pause][\x0203]Aber ich hört ein
+    seltsames Geräusch
+    aus dem Dschungel.[pause]
+  - |-
+    [\x0207][\x020902]3Komisches
+    Geräusch?[pause]
+  - "[\\x0207]Patamon[\\x0207]Ja. Klang wie eine \nMaschine oder ein Di-\ngimon! Echt seltsam![pause][\\x0203]Leader hat es gehört \nu. ist abgehauen.[pause][\\x0203]Vielleicht\nist sie in Richtung\nDschungel![pause]"
+  - |-
+    [\x0207][\x020902]3Aha.
+    Vielen Dank![pause]

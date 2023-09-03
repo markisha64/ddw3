@@ -1,0 +1,6 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3...they took the
+    Juggernaut...[pause]
+  - "[\\x0207][\\x020902]3...I wonder what's \nhappening in the \nReal World...[pause][\\x0203]I hope there's \nnothing wrong...[pause]"

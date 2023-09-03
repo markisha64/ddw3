@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Claro, \n¡Luchemos![pause]"
+  - |-
+    [\x0207]BK WarGreymon[\x0207]Parece que
+    tienes agallas.[pause]
+  - "[\\x0207][\\x020902]3¡Venga, te \nmostraré mis\npoderes![pause]"
+  - |-
+    [\x0207]BK WarGreymon[\x0207]Muy bien.
+    ¡Comencemos![pause]

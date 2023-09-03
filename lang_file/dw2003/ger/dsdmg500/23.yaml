@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3OK, ich hab
+    dich gefunden.[pause][\x0203]Diesmal kommst
+    du mir nicht
+    davon![pause]
+  - |-
+    [\x0207]Numemon[\x0207]Gib doch
+    endlich auf![pause]

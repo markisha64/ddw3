@@ -1,0 +1,21 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Hört auf
+    damit! Sofort
+    stoppen![pause][\x0203]Ich lasse euch
+    nicht
+    davonkommen![pause]
+  - |-
+    [\x0207]Königl. Wache[\x0207]Ha ha ha ha! Der
+    Verrückte sagt,
+    anhalten![pause][\x0203]Ein Kind kann uns
+    nicht aufhalten![pause]
+  - "[\\x0207][\\x020902]3Passt auf!\nIhr werdet \naufhören![pause]"
+  - |-
+    [\x0207]Königl. Wache[\x0207]...ha ha ha.
+    Glaubst du?[pause][\x0203]Zeig, was
+    du kannst![pause]
+  - |-
+    [\x0207]Königl. Wache[\x0207]System ist bereit...
+    Das war's![pause]

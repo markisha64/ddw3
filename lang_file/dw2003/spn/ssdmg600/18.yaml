@@ -1,0 +1,23 @@
+strings:
+  - ''
+  - "[\\x0207]Líder Byakko[\\x0207]Oh, oh, ya\nveo.[pause][\\x0203]Siento haberte \nconfundido con\nla A.o.A.[pause]"
+  - "[\\x0207][\\x020902]3No pasa nada...[pause][\\x0203]Un momento, ¿eso\nsignifica que en \nByakko son...?[pause]"
+  - "[\\x0207]Líder Byakko[\\x0207]Sí. ¡Son todos \nde la A.o.A.![pause][\\x0203]¡Llegaron y se\napoderaron de Byakko![pause][\\x0203]Nos metieron en la\nprisión del sótano.[pause][\\x0203]Pero Numemon vino y \nnos rescató.[pause]"
+  - "[\\x0207][\\x020902]3Ya veo...\nPero la A.o.A y \nRatón Suerte...[pause][\\x0203]Y ¿qué pasa en\nDigimon Online?[pause]"
+  - |-
+    [\x0207]Líder Byakko[\x0207]No sé nada.[pause][\x0203]Si quieres saber más
+    encuentra a Numemon.[pause][\x0203]Si vas a Fábrica Dum
+    Dum, lo encontrarás.[pause]
+  - '[\x0207][\x020902]3¡Vale![pause]'
+  - "[\\x0207]Líder Byakko[\\x0207]Espera un seg.\n¡Aún no te he \ndado esto![pause]"
+  - |-
+    [\x0207][\x020902]3¡Bien! ¡Tengo
+    el Pin Byakko![pause][\x0203]¡Gracias Líder
+    Byakko![pause]
+  - |-
+    [\x0207]Líder Byakko[\x0207]¡Después de todo
+    me has ganado![pause][\x0203]¡Y puede servirte
+    en el futuro![pause]
+  - |-
+    [\x0207]Líder Byakko[\x0207]Habrá más A.o.A
+    ¡Ten cuidado![pause]

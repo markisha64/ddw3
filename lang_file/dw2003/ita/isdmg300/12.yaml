@@ -1,0 +1,34 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Signora Gioco[\x0207]No, noo![pause][\x0203]Persiamon
+    non perde...[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Oops, siamo
+    arrivati tardi.[pause]
+  - |-
+    [\x0207]Teddy[\x0207][\x020801][\x020501]!
+    Vedo che
+    stai bene![pause]
+  - |-
+    [\x0207]Nick[\x0207]Ora abbiamo le prove.
+    Arrenditi, Signora
+    del Gioco![pause][\x0203]Sei in arresto:
+    S.A.P! Polizia
+    Internazionale![pause]
+  - |-
+    [\x0207][\x020902]3Cosa? Lisa e
+    Nick sono investigatori
+    della S.A.P?[pause]
+  - |-
+    [\x0207]Nick[\x0207]Proprio così. E
+    anche Keith.[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Scusa per avertelo
+    nascosto.[pause][\x0203]Ma grazie a
+    te il caso è
+    chiuso![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Interroghiamo la
+    Signora del Gioco
+    e salviamo Kurt![pause]

@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - "[\\x0207]Veemon[\\x0207]Then what should we \nplay?\nHmmmmm...[pause]"
+  - "[\\x0207][\\x020902]3Woah, Veemon! I \nwant the Tree Boots.[pause]"
+  - "[\\x0207]Veemon[\\x0207]Tree Boots?\nOh, the boots for\nkicking trees...[pause][\\x0203]Yeah, sure, but \nonly if you play \nwith me![pause]"
+  - "[\\x0207][\\x020902]3Sure thing!\nWhat're we \ngoing to play?![pause]"
+  - "[\\x0207]Veemon[\\x0207]I'll go hide in the \nKicking Forest, and \nyou have to find me.[pause][\\x0203]If you can find me,\nI'll give you the\nTree Boots![pause][\\x0203]You lose if you\nleave the forest \nwithout finding me![pause][\\x0203]And if you leave the\nKicking Forest, I'm \ngonna go home to eat![pause]"
+  - |-
+    [\x0207][\x020902]3OK!
+    I'm gonna find
+    you![pause]
+  - "[\\x0207]Veemon[\\x0207]Heh heh heh.\nIt won't be that \neasy![pause][\\x0203]Count to 10 and \ncome to the \nforest![pause]"
+  - "[\\x0207][\\x020902]3OK, counting to 10!\n1, 2, 3, 4, 5, \n6, 7, 8, 9, 10![pause][\\x0203].......\n.........\nWas that too fast?[pause]"
+  - "[\\x0207][\\x020902]3Oh, well!\nOK, let's go \nfind him![pause]"

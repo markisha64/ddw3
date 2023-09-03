@@ -1,0 +1,15 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Ich habe
+    Taomon
+    besiegt![pause]
+  - |-
+    [\x0207]Taomon[\x0207]...Aha, du
+    bist besser
+    als ich dachte.[pause][\x0203]Hier nimm sie
+    mit.[pause]
+  - |-
+    [\x0207][\x020902]3Cool! Ich hab
+    die Renamon-
+    DDNA?[pause][\x0203]Danke Taomon![pause]

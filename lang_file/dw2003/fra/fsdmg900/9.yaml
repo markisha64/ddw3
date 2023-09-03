@@ -1,0 +1,26 @@
+strings:
+  - ''
+  - Créer Dossier
+  - Digicartes
+  - Carte Programme
+  - Couleurs carte
+  - Energie-D
+  - Combos
+  - Jeu booster
+  - Retour
+  - |-
+    Tu dois créer un dossier de 40
+    cartes avant de participer à un
+    Combat de cartes.[pause][\x0203]Tu peux placer jusqu'à 4 cartes
+    identiques dans un même dossier.[pause]
+  - "Les cartes Digimon appellent les \nDigimons. Les PA et PV sont \nindiqués sur les cartes. PA [pause][\\x0203]signifie Pouvoir d'Attaque et PV \nPoints de Vie. Les Dig. vont à  \nla corbeille quand leur PV est [pause][\\x0203]à 0. Par exemple, 5/3 signifie\n5 PA et 3 PV.[pause]"
+  - |-
+    Les cartes CP peuvent renforcer
+    tes Digimons ou obliger tes adv.
+    à jeter certaines cartes.[pause][\x0203]Chaque carte a une valeur d'effet.
+    Lis les cartes pour connaître
+    leur effet.[pause]
+  - "Les cartes sont de couleur blanche,\nbleue, verte, rouge, noire ou \nmarron.[pause][\\x0203]Quand tu tires une carte, l'Energie-D \nde cette couleur de carte augmente.[pause][\\x0203]L'Energie-D sert à appeler les Dig\nchampions ou encore plus forts.[pause]"
+  - "Utilise l'Energie-D de même \ncouleur que la carte Digimon \npour appeler les Digimons. Les [pause][\\x0203]Dig. Champions coûtent 1 point, \nles Dig. Ultimes 2 points et les \nDig. Mégas 3 points. [pause][\\x0203]Les Digimons Disciples sont\nappelés sans Energie-D.[pause]"
+  - "Si + de 3 cartes Digimon identiques\nsont sur ton champ durant la \nPhase Combat, un Combo apparaît. [pause][\\x0203]Le total des pts des cartes Combos\ns'ajoute à ton total. Avec + de 4\n cartes, tu gagnes un bonus.[pause]"
+  - "Si tu as des jeux boosters \nouverts dans les mag. de cartes, \ntu peux gagner des cartes. Les [pause][\\x0203]dresseurs obtiennent des boosters\npour leurs victoires. Certains les\nporteraient sur eux.[pause]"

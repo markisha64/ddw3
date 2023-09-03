@@ -1,0 +1,15 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Un autre
+    tremblement
+    de terre ?[pause]
+  - |-
+    [\x0207][\x020902]3J'avais raison !
+    C'est Bulbmon ![pause]
+  - |-
+    [\x0207][\x020902]3Il provoque ces
+    secousses en
+    creusant des trous ![pause][\x0203]Attention !
+    Je vais l'avoir,
+    cette fois ![pause]

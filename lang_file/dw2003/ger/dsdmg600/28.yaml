@@ -1,0 +1,37 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Leader Chuck[\x0207]Kenny hat mir
+    alles erzählt.[pause][\x0203]Viel Glück im
+    Kampf gegen
+    die A.o.A![pause]
+  - |-
+    [\x0207][\x020902]3Ja, dir auch
+    viel Glück![pause]
+  - "[\\x0207]Leader Chuck[\\x0207]Ich möchte dir wirk-\nlich helfen u. mit\ndir kämpfen, aber[pause][\\x0203]wir müssen hier\ndie Stellung im \nFort halten.[pause]"
+  - |-
+    [\x0207][\x020902]3Ist schon OK.
+    Mach dir keine
+    Sorgen um mich![pause]
+  - "[\\x0207]Leader Chuck[\\x0207]Tut mir leid, dass der \nweite Weg umsonst war.[pause][\\x0203]Wenn wir zurück nach\nAmaterasu City kommen,\nkön. wir sicher helfen.[pause][\\x0203]Ich hätte aber nie ge-\ndacht, dass sie Knight-\nmon umprogrammieren.[pause]"
+  - |-
+    [\x0207][\x020902]3Knightmon...
+    Wie kann ich
+    ihn besiegen?[pause]
+  - |-
+    [\x0207]Leader Chuck[\x0207]Wenn er sich in Bewe-
+    gung setzt, kannst du
+    Knightmon stoppen...[pause][\x0203]Du brauchst die vier
+    Code-Pässe der City-
+    Leader.[pause][\x0203]Aber alle Leader wurden
+    gefangen, daher kann
+    ich sie nicht...[pause][\x0203]Die City-Chiefs der
+    A.o.A. müssen sie ge-
+    nommen haben...[pause]
+  - |-
+    [\x0207][\x020902]3Verstehe.
+    Diese A.o.A![pause][\x0203]Ich verzeih ihnen nie
+    dass sie Digim. für
+    Böses missbrauchen![pause]
+  - "[\\x0207]Leader Chuck[\\x0207]Klar, aber noch haben\nwir nicht aufgegeben![pause][\\x0203]Nach Möglichkeit \nleisten wir Widerstand.\nWarte bis dahin![pause][\\x0203]Auf jeden Fall\nviel Glück![pause]"
+  - '[\x0207][\x020902]3Ja, Sir![pause]'

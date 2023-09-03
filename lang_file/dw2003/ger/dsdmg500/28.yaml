@@ -1,0 +1,46 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Hey! Da
+    sind Nick
+    und Keith.[pause]
+  - "[\\x0207]Nick[\\x0207]Also echt, kannst\ndu nicht mal dei-\nnen Job machen?![pause][\\x0203]Seit wir hier sind,\nbist du nur am \nSpielen![pause]"
+  - a
+  - a
+  - |-
+    [\x0207]Keith[\x0207]Ha ha ha, stimmt!
+    Aber der Plan ist
+    echt gut![pause][\x0203]Sie versuchen si-
+    cher, starke Spieler
+    zu kontaktieren![pause]
+  - "[\\x0207]Nick[\\x0207]Denen kannst du\nnichts vormachen![pause][\\x0203]Ab jetzt gehen\nwir genau nach \nPlan vor![pause]"
+  - |-
+    [\x0207]Keith[\x0207]Nicht im Traum!
+    Mir macht das
+    schlieβlich Spaβ![pause][\x0203]Es ist meine freie
+    Entscheidung![pause]
+  - '[\x0207]Nick[\x0207]Keith![pause]'
+  - '[\x0207][\x020902]3Verzeihung.[pause]'
+  - "[\\x0207]Nick[\\x0207]Du bist \nder aus⋯[pause]"
+  - |-
+    [\x0207]Keith[\x0207]Hey Kid. Willst du
+    mit mir kämpfen?[pause]
+  - "[\\x0207][\\x020902]3Äh, nein. Lisa \nbat mich...[pause][\\x0203]...Keith und \nNick zu holen.[pause]"
+  - |-
+    [\x0207]Keith[\x0207]...ach,
+    tatsächlich?[pause]
+  - |-
+    [\x0207]Nick[\x0207]Na, dann nichts
+    wie los oder sie
+    wird echt sauer![pause]
+  - "[\\x0207][\\x020902]3Wartet \nmal![pause]"
+  - |-
+    [\x0207]Keith[\x0207]Wir haben keine
+    Zeit. Bring uns
+    sofort zu ihr![pause]
+  - |-
+    [\x0207]Nick[\x0207]Ja, wir wollen
+    sofort zu ihr![pause]
+  - |-
+    [\x0207][\x020902]3...Äh?
+    Ja, klar![pause]

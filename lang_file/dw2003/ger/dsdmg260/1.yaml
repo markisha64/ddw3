@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3In Ordnung! Ich
+    biete 800 BIT![pause]
+  - |-
+    [\x0207]Mr. Smith[\x0207]Wow!
+    800 BIT![pause][\x0203]Bietet jmd.
+    mehr?[pause]
+  - "[\\x0207]Mr. Smith[\\x0207]Es bietet wohl\nkeiner mehr.[pause][\\x0203]Gottes-Hürde ver-\nkauft für 800 BIT[pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an \ndeinen Satelliten![pause]"
+  - |-
+    [\x0207][\x020902]3Super! Die
+    Gottes-Hürde![pause]
+  - |-
+    [\x0207][\x020902]3Ich hab jetzt ein
+    echt cooles Item,
+    also ziehen wir los.[pause]

@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Hein ?!\nIvy et Teddy\nne sont pas là.[pause][\\x0203]Pff ! Ils ont \ndû partir  \ndevant.[pause]"
+  - "[\\x0207]Guide[\\x0207]M. [\\x020801][\\x020501] ?\nBienvenue sur\nDigimon Online ![pause][\\x0203]Aujourd'hui : entraî-\nnement afin de pré-\nparer votre départ.[pause][\\x0203]Vous devez rester\ndans les secteurs Est \net Centre d'Amaterasu.[pause][\\x0203]Toutefois, il y a\nplus d'espace Circuit\nImprimé et Fonds marins.[pause][\\x0203]Les digidonnées \ns'utilisent comme \npar le passé.[pause][\\x0203]Les techniques et les \ndigivolutions sont \négalement identiques.[pause][\\x0203]Je vérifierais bien \nles données, \njuste au cas où.[pause][\\x0203]Avant de sortir,\nveillez à sauvegarder\navec Guardromon.[pause]"
+  - '[\x0207][\x020902]3D''accord ![pause]'
+  - |-
+    [\x0207][\x020902]3D'accord !
+    On va bien
+    s'amuser ![pause]

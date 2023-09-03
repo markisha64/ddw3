@@ -1,0 +1,8 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3¡Vamos a \nencontrar a \nRatón Suerte![pause]"
+  - |-
+    [\x0207]Kail[\x0207]Perdón. Me acabo
+    de acordar de que tengo
+    que irme...[pause]
+  - "[\\x0207][\\x020902]3¿Eh? ¿Qué\nle pasa a Kail?[pause][\\x0203]¡Bueno, tengo Digimon\ncon los que contar![pause][\\x0203]Venga chicos. ¡Vamos \nal Sector Oeste![pause]"

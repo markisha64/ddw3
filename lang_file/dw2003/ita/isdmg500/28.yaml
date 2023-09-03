@@ -1,0 +1,63 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Ehi!
+    Sono Nick
+    e Keith.[pause]
+  - |-
+    [\x0207]Nick[\x0207]Insomma, per
+    una volta ti
+    darai da fare?[pause][\x0203]Stai giocando
+    da quando siamo
+    arrivati![pause]
+  - a
+  - a
+  - |-
+    [\x0207]Keith[\x0207]Ha ha ha ha, hai
+    ragione! Ma è un
+    buon piano![pause][\x0203]Probabilmente
+    contatteranno i
+    giocatori migliori![pause]
+  - |-
+    [\x0207]Nick[\x0207]Non mi prendere
+    in giro![pause][\x0203]D'ora in poi
+    seguiremo
+    il piano![pause]
+  - |-
+    [\x0207]Keith[\x0207]No!
+    Mi piace quello
+    che faccio![pause][\x0203]Ho deciso così.
+    Libertà![pause]
+  - '[\x0207]Nick[\x0207]Keith![pause]'
+  - '[\x0207][\x020902]3Scusatemi.[pause]'
+  - |-
+    [\x0207]Nick[\x0207]Ehi, tu
+    sei...?[pause]
+  - |-
+    [\x0207]Keith[\x0207]Ehi, ragazzo,
+    vuoi combattere?[pause]
+  - |-
+    [\x0207][\x020902]3Ah, no. Lisa mi
+    ha chiesto di...[pause][\x0203]...trovare Keith
+    e Nick.[pause]
+  - |-
+    [\x0207]Keith[\x0207]Ah, te lo
+    ha chiesto?[pause]
+  - |-
+    [\x0207]Nick[\x0207]Sarà meglio
+    andare o
+    s'arrabbierà![pause]
+  - |-
+    [\x0207][\x020902]3Ehi, un
+    momento![pause]
+  - |-
+    [\x0207]Keith[\x0207]Non c'è
+    tempo!
+    Andiamo![pause]
+  - |-
+    [\x0207]Nick[\x0207]Si, portaci
+    da lei,
+    ora![pause]
+  - |-
+    [\x0207][\x020902]3Cosa?
+    Va bene![pause]

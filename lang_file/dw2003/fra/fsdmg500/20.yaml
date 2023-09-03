@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Qu'est-ce \nque tu \nveux dire ?[pause]"
+  - "[\\x0207]BK Seraphimon[\\x0207]Que tu dois te\nbattre avec moi ![pause][\\x0203]Si tu l'emportes, \ntu pourras partir.[pause][\\x0203]Mais si tu perds, \nc'en est fait de toi.[pause]"
+  - |-
+    [\x0207][\x020902]3Compris.
+    Alors allons-
+    y ![pause]
+  - "[\\x0207]BK Seraphimon[\\x0207]Tu ne vas pas \nfaire le fier bien\nlongtemps ![pause][\\x0203]Tu ferais mieux \nde te tenir \nprêt ![pause]"

@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Algún sitio.
+    ...¿Dónde
+    es eso?[pause]
+  - |-
+    [\x0207]Patamon[\x0207]Um... No sé.
+    Pero en la selva
+    oí un ruido raro.[pause]
+  - |-
+    [\x0207][\x020902]3¿Un ruido
+    raro?[pause]
+  - "[\\x0207]Patamon[\\x0207]¡Sí, un sonido como\nuna máquina o un\nDigimon! ¡Muy raro![pause][\\x0203]Líder lo oyó\ny se fue...[pause][\\x0203]No estoy seguro\npero a lo mejor se \nfue a la selva.[pause]"
+  - |-
+    [\x0207][\x020902]3Ya veo...
+    ¡Gracias![pause]

@@ -1,0 +1,23 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Hé, là ! Arrêtez
+    le lancement tout
+    de suite ![pause][\x0203]Je ne vais pas
+    vous laisser faire
+    ça ![pause]
+  - |-
+    [\x0207]Garde Royal[\x0207]Ha ha ha ! Ce
+    gamin nous
+    dit d'arrêter ![pause][\x0203]Qu'est-ce que
+    tu crois ?[pause]
+  - |-
+    [\x0207][\x020902]3Je vous
+    forcerai à
+    arrêter ![pause]
+  - |-
+    [\x0207]Garde Royal[\x0207]Ha ha ha !
+    Tu es
+    sérieux ?[pause][\x0203]Essaie un peu
+    pour voir ![pause]
+  - "[\\x0207]Garde Royal[\\x0207]Système prêt... \nC'est parti ![pause]"

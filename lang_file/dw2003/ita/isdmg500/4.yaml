@@ -1,0 +1,21 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Numemon[\x0207]Vai alla città
+    di Byakko?[pause]
+  - |-
+    [\x0207][\x020902]3Proprio
+    così.[pause]
+  - '[\x0207]Numemon[\x0207]Ripensaci.[pause]'
+  - |-
+    [\x0207][\x020902]3Cosa?
+    Perché?[pause]
+  - |-
+    [\x0207]Numemon[\x0207]Cerca di
+    tornare
+    intero, OK?[pause]
+  - '[\x0207][\x020902]3Aspetta![pause]'
+  - |-
+    [\x0207][\x020902]3È andato.[pause][\x0203]Ma che cosa
+    starà succedendo
+    a Byakko?[pause]

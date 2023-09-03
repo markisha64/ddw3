@@ -1,0 +1,33 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Kail[\x0207]Voilà le Maître
+    de jeu.
+    Cachons-nous ![pause]
+  - |-
+    [\x0207]Le Maître de jeu[\x0207]Mais enfin,
+    qu'est-ce que
+    vous faites ?[pause][\x0203]Nos projets
+    sont contrariés ![pause]
+  - |-
+    [\x0207]???[\x0207]Désolé. Nous
+    allons intensifier
+    nos recherches.[pause]
+  - "[\\x0207]Garde DO[\\x0207]Nous allons \nbientôt\nle trouver ![pause]"
+  - |-
+    [\x0207][stat-defense]Junior[stat-defense] [\x0207]Je me demande
+    de quoi ils
+    parlent ![pause]
+  - |-
+    [\x0207]Garde DO[\x0207]Que font ces
+    Digimons ici ?[pause]
+  - |-
+    [\x0207]Garde DO[\x0207]Il a l'air
+    suspect !
+    Attrapez-le ![pause]
+  - |-
+    [\x0207]Garde DO[\x0207]Cela ne sert à
+    rien de fuir ![pause]
+  - |-
+    [\x0207][\x020902]3Gloups ! Ils
+    nous ont vus.[pause]

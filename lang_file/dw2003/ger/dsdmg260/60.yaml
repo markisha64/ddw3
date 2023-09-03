@@ -1,0 +1,13 @@
+strings:
+  - ''
+  - "[\\x0207]Mr. Smith[\\x0207]Oin oink oooink![pause][\\x0203]Oink, oin, ooink![pause][\\x0203]Oin, ooink, ooin oi \noiin oinko![pause][\\x0203]Oi oinioi oinoink\noinnk oin oinkk oi\n30000 BIT![pause]"
+  - |-
+    [\x0207]Händler Abel[\x0207]Oioi!
+    31000 BIT![pause]
+  - "[\\x0207]Chief Milly[\\x0207]Oioi\n31500 \nBIT![pause]"
+  - |-
+    [\x0207]RPG-Fan Mas.[\x0207]Oin oi
+    31900 BIT![pause]
+  - |-
+    [\x0207][\x020902]3Hm. 32000 BIT
+    ...hmmm...[pause]

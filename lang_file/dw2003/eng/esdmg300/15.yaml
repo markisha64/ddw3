@@ -1,0 +1,5 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3This is weird. \nThere's no one\nhere![pause]"
+  - "[\\x0207][\\x020902]3I see! It's the same \nas Asuka's Game \nMaster Room![pause][\\x0203]It's a secret door![pause][\\x0203]...then what's the\ncode?[pause][\\x0203]Asuka was MONSTER\nso maybe it's DIGITAL\nhere...?[pause]"
+  - "[\\x0207][\\x020902]3!!\nIt opened by \nitself! Why?[pause][\\x0203].......?!\nMaybe it wants me \nto come in...[pause][\\x0203]All right then!\nI'm coming in\nwhoever you are![pause]"

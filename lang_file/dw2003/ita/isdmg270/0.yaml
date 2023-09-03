@@ -1,0 +1,59 @@
+strings:
+  - ''
+  - "[\\x0207]Gioc. carte Ken[\\x0207]Ti mostrerò\ni dati \nsul satellite...[pause]"
+  - |-
+    "Battaglia a carte"
+    Si combatte utilizzando
+    le carte.[pause][\x0203]Crea il tuo mazzo con oltre 300
+    carte e combatti con gli altri
+    domatori.[pause][\x0203]"Carte"
+    Ci sono 314 carte in tutto.
+    Puoi averne fino a 9 per ciascuna.[pause][\x0203]Ci sono due tipi di carte:
+    carte programma e carte Digimon.[pause]
+  - |-
+    "Carte Digimon"
+    Chiamano i Digimon.[pause][\x0203]Ci sono due numeri sulla carta:
+    FA e PF.[pause][\x0203]FA è la forza d'attacco e PF
+    i punti ferita. Se PF è 0, il
+    Digimon finisce negli scarti.[pause][\x0203]5/3 = 5 FA e 3 PF.[pause][\x0203]"Carte programma"
+    Attaccano la mano dell'avversario
+    o rinforzano la tua.[pause][\x0203]Ogni carta ha effetti diversi.
+    Leggila per scoprire quali sono.[pause]
+  - |-
+    "Cartelle"
+    Prima di una battaglia, crea una
+    cartella con 40 carte.[pause][\x0203]Le cartelle sono necessarie per
+    combattere. Puoi metterci fino
+    a quattro carte uguali. [pause][\x0203]"Battaglia a carte"
+    Il primo a vincere due turni vince la
+    battaglia.[pause][\x0203]Scegli una cartella prima della
+    partita: sarà il tuo mazzo. Poi
+    comincerà la battaglia.[pause][\x0203]Un turno è composto da sei fasi.
+    Ora te le spiegherò tutte.[pause]
+  - "\"Fase iniziale\"\nDetermina chi inizierà. Chi\nestrae Calumon inizierà.[pause][\\x0203]\"Fase di pesca\"\nPeschi dal mazzo 6 carte che \ncostituiscono la tua mano.[pause][\\x0203]Se non estrai 6 carte in questa fase\nperdi. In battaglia la tua mano\npuò avere massimo 10 carte.[pause]"
+  - |-
+    "Fase di carica"
+    Scegli una carta programma per
+    preparare la chiamata.[pause][\x0203]Si continua a turno fino alla fine.
+    Alcune carte programma non
+    si possono usare.[pause][\x0203]"Fase di chiamata"
+    Scegli una carta Digimon per
+    chiamare un Digimon.[pause][\x0203]Puoi chiamarne in campo fino a 6.
+    Per chiamare i Digimon non Novizi
+    devi spendere Energia-S.[pause]
+  - |-
+    "Fase di compilazione"
+    Usa le carte programma per ottenere
+    diversi effetti.[pause][\x0203]Si continua a turno fino alla fine.
+    Puoi usare tutte le carte
+    programma.[pause][\x0203]"Fase di battaglia"
+    I Digimon si affrontano a
+    vicenda per vincere.[pause][\x0203]Il vincitore viene deciso in base
+    al totale di FA e PF. Chi arriva
+    a 0 PF perde.[pause][\x0203]Così finisce un turno. Chi vince
+    due turni si aggiudica la battaglia.[pause][\x0203]Se vinci, ricevi un pacco di carte.[pause]
+  - |-
+    [\x0207]Gioc. carte Ken[\x0207]Queste sono le
+    regole.[pause][\x0203]Se vuoi saperne
+    di più, chiedi
+    a Luke![pause]

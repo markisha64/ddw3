@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - "[\\x0207]Servicio de Domador[\\x0207]Cuando juegues, \nmira los consejos.[pause][\\x0203]Mostraré los datos\nen tu satélite.[pause]"
+  - "\"Preparación para el Viaje\"\nSelecciona y decide sobre Digimon y \ndigiev. en el Laboratorio Digimon.[pause][\\x0203]Asegúrate de equipar tus \nDigimon con armas y armadura y \nalinéalos para la batalla.[pause]"
+  - "\"Batalla de Cartas\"\nEn Digimon Online, también \nhay Batalla de Cartas.[pause][\\x0203]En Yellow Cruiser puedes obtener\ninformación detallada.[pause][\\x0203]\"Guardar\"\nSólo por si acaso,\nguarda la partida frecuentemente.[pause][\\x0203]Guardromon está a cargo de \nguardar, aparecerá en las posadas.\nGuardromon no guardará en batalla.[pause]"
+  - |-
+    "Fin del Juego"
+    El juego termina cuando pierden
+    todos tus Digimon.[pause][\x0203]Aléjate de batallas no razonables.[pause][\x0203]"Añadir Compañeros"
+    Aparte de los tres que tienes
+    puedes añadir más.[pause][\x0203]Esto es todo lo que puedo decirte.[pause]
+  - "[\\x0207]Servicio de Domador[\\x0207]Esa es toda la \ninformación.\n¡Buena suerte![pause]"

@@ -1,0 +1,13 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Der Wildnisanzug.
+    Von allen bewundert![pause][\x0203]Das Mindestgebot für
+    den Kumamon-Anzug
+    liegt bei 23000 BIT![pause]
+  - '[\x0207]Händler Abel[\x0207]23500 BIT![pause]'
+  - '[\x0207]Chief Milly[\x0207]23800 BIT[pause]'
+  - '[\x0207]RPG-Fan Mas.[\x0207]23900 BIT![pause]'
+  - |-
+    [\x0207][\x020902]3Hm. 24000 BIT
+    ...hmmm...[pause]

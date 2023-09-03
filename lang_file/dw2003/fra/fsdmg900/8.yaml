@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - Combats de cartes
+  - Flux Combat de cartes
+  - Phases 1
+  - Phases 2
+  - Phases 3
+  - Phases 4
+  - Phases 5
+  - Retour
+  - "En plus des batailles Digimon, \nles dresseurs peuvent disputer\ndes Combats de cartes.[pause][\\x0203]Pour cela, ils doivent réunir 314\ntypes de cartes et créer leurs\ndispositions personnelles.[pause]"
+  - "Choisis un dossier qui te \nservira de jeu pour le combat. La \nbataille peut alors commencer. Un[pause][\\x0203]Combat de cartes est un match \nen 3 manches. Le premier qui rem-\nporte 2 manches gagne un jeu booster.[pause][\\x0203]Chaque partie comprend 6 phases. \nPour plus de détails, lire les explica-\ntions dans la section \"Phases.\"[pause]"
+  - "Phase Initiale\nElle décide l'ordre du jeu. Celui\nqui tire Calumon commence.[pause][\\x0203]Phase de tirage\n6 cartes sont d'abord tirées dans \nle jeu. Elles constituent la main.[pause][\\x0203]Ici se forme l'Energie-D de la cou-\nleur de la carte tirée . Elle est \nutilisée en Phase d'appel.[pause]"
+  - "Phase de chargement\nLes dresseurs utilisent tour à tour\nles CP pour se préparer à appeler.[pause][\\x0203]Cette phase se termine quand tout\nle monde passe. Il arrive que des \ncartes CP inutilisables sortent.[pause]"
+  - "Phase d'appel\nLà, les dresseurs choisissent des \ncartes Digimon et appellent les[pause][\\x0203]Digimons. Jusqu'à 6 Digimons\npeuvent être appelés sur le [pause][\\x0203]champ. L'Energie-D permet \nd'appeler les Digimons \nChampions ou encore meilleurs.[pause]"
+  - "Phase de compilation\nLes joueurs jouent à tour \nde rôle les cartes CP pour[pause][\\x0203]diverses actions. La phase\ns'achève quand tous passent. \nIl faut jouer toutes les CP.[pause]"
+  - "Phase Combat\nDans cette phase, les Digimons\nse battent entre eux pour gagner.[pause][\\x0203]La victoire repose sur le total\nPA et PV de chaque Digimon. Celui \ndont le total PV atteint 0 a perdu.[pause]"

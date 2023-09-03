@@ -1,0 +1,16 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Veemon[\x0207]Hey, du bist OK.
+    Ich bin beeindruckt![pause][\x0203]Hier nimm die Baum-
+    stiefel![pause]
+  - |-
+    [\x0207][\x020902]3Cool! Danke,
+    Veemon.[pause][\x0203]Toll! Die
+    Baumstiefel![pause]
+  - |-
+    [\x0207]Veemon[\x0207]Gut für dich!
+    OK, ich gehe nach
+    Hause, essen![pause][\x0203]Lass uns später
+    mal wieder
+    spielen![pause]

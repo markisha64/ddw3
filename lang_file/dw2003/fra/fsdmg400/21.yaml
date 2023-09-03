@@ -1,0 +1,8 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3WarGrowlmon, rends
+    moi service, OK ?[pause][\x0203]Je peux avoir l'ADNN
+    Guilmon à partir de
+    ton ADNN ?[pause]
+  - "[\\x0207]WarGrowlmon[\\x0207]Pas question ! Si tu \nle veux vraiment, il \nfaudra te battre ![pause]"

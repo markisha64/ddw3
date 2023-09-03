@@ -1,0 +1,16 @@
+strings:
+  - ''
+  - "[\\x0207]Knightmon[\\x0207]Virus rilevato! \nVirus rilevato![pause][\\x0203]Eliminazione\nvirus![pause]"
+  - |-
+    [\x0207][\x020902]3Aspetta! Non
+    sono un virus![pause]
+  - |-
+    [\x0207]Knightmon[\x0207]Virus confermato!
+    Virus confermato![pause][\x0203]Eliminazione
+    virus![pause]
+  - |-
+    [\x0207][\x020902]3Niente da fare. È
+    stato riprogrammato
+    dall'A.o.A![pause][\x0203]Forse è meglio
+    visitare le altre
+    città, per ora.[pause]

@@ -1,0 +1,37 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Teddy[\x0207]Oi !
+    Oi, oi, oin !
+    Oi, ooin, oooink ![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Oi, oi, oi, oi
+    ooiink, ooi ![pause]
+  - |-
+    [\x0207]Nick[\x0207]Onk !
+    Ooink, oin, onkk !
+    Oi, ooinoinkoink ![pause]
+  - |-
+    [\x0207]Keith [\x0207]Oin ?
+    Oin, oi, oin ??
+    Oooin, oioink ![pause]
+  - "[\\x0207][\\x020902]3Te...Teddy ?!\nQuoi ?! Lisa, Nick, \net aussi Keith ...[pause]"
+  - "[\\x0207]Teddy[\\x0207]Oi, oionk, oink !\nOi, oioooin, oink\noioink, oionnk ![pause][\\x0203]Oion, ooin, oink !\nOiin, oink ooin !\nOionknoink, oink ?[pause][\\x0203]Oooinkninon ?\nOinok, onnknon ?\nOin, oinknkoin ??[pause][\\x0203]Oin, oinok, oioinoo !\nOin, oooin, ooin\noinonk, oink, ooin ![pause][\\x0203]Oin oinoink \noioin oino ioni oino\noin, oinoinonk oink ![pause][\\x0203]Ooinoin, oinoinoik !\nOoinoino, oinoinok\noioioinonoino oioinonk ![pause]"
+  - "[\\x0207][\\x020902]3Teddy. Je ne\ncomprends pas\nce que tu dis.[pause][\\x0203]Attends ici avec\nLisa et tous \nles autres ![pause][\\x0203]Je vais régler\nce problème ![pause]"
+  - "[\\x0207][\\x020902]3OK, \nJe vais y aller !\nAttendez là ![pause]"
+  - |-
+    [\x0207]Teddy[\x0207]Oin, oin ooink !
+    Oion, oioinoink !
+    Oin, oin, oooink ![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Ooin, oioinoin
+    oioino oioi oin
+    oooinkooink ![pause]
+  - |-
+    [\x0207]Nick[\x0207]Oio, oioin
+    oioink, oioink !
+    Oion, oinno oinoink ![pause]
+  - |-
+    [\x0207]Keith[\x0207]Ooionk oink
+    oionoon oioin
+    oooinkko ![pause]

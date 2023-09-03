@@ -1,0 +1,7 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Soldado de metal[\x0207]¡Alerta intruso!
+    ¡Alerta intruso![pause][\x0203]¡Eliminando de
+    las instalaciones![pause]
+  - "[\\x0207][\\x020902]3¡Sí, venga, te \nvoy a vencer![pause]"

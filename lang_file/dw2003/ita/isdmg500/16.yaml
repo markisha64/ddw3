@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Taomon, mi
+    faresti un favore?[pause][\x0203]Posso prendere il
+    DDNA di Renamon
+    dal tuo?[pause]
+  - |-
+    [\x0207]Taomon[\x0207]Si, ma non per
+    nulla.[pause][\x0203]Vediamo se te lo
+    meriti.[pause]

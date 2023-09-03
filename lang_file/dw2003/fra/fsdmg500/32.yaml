@@ -1,0 +1,20 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Ailleurs\n... mais \noù ?[pause]"
+  - |-
+    [\x0207]Patamon[\x0207]Je ne sais pas... [pause][\x0203]Mais j'ai entendu
+    un bruit étrange
+    dans la jungle.[pause]
+  - |-
+    [\x0207][\x020902]3Un bruit
+    étrange ?[pause]
+  - |-
+    [\x0207]Patamon[\x0207]Oui, comme une
+    machine ou un
+    Digimon ![pause][\x0203]Le Chef l'a entendu
+    puis est partie.[pause][\x0203]Il me semble qu'elle
+    allait en direction
+    de la jungle ![pause]
+  - |-
+    [\x0207][\x020902]3Je vois.
+    Merci ![pause]

@@ -1,0 +1,32 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Stimme[\x0207]Huuu...
+    ...huuu![pause]
+  - "[\\x0207][\\x020902]3Du bist \nSepikmon.[pause]"
+  - |-
+    [\x0207]Stimme[\x0207]Huuu...
+    ...hust!
+    Hust![pause][\x0203]...stimmt,
+    was willst
+    du?[pause]
+  - |-
+    [\x0207][\x020902]3Kannst du mir sagen,
+    wie ich Zanb. besiege?[pause]
+  - |-
+    [\x0207]Sepikmon[\x0207]Ja, aber ich habe
+    zunächst eine Bitte.[pause]
+  - |-
+    [\x0207]Sepikmon[\x0207]Ich habe meine wert-
+    volle Maske verloren![pause][\x0203]Ohne die Maske kann
+    mich niemand sehen![pause][\x0203]Wenn du sie findest,
+    sage ich dir, was du
+    wissen willst.[pause]
+  - "[\\x0207]Sepikmon[\\x0207]Ich hatte sie noch, als\nich bei Baronmon war.[pause][\\x0203]Danach habe ich sie \nwohl fallengelassen.[pause][\\x0203]OK, hab vielen Dank![pause]"
+  - |-
+    [\x0207]Stimme[\x0207]...Ja, was
+    willst du![pause]
+  - |-
+    [\x0207][\x020902]3Also gut, ich mache
+    mich auf die Suche
+    nach deiner Maske.[pause]

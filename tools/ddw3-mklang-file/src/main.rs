@@ -34,14 +34,8 @@ fn main() -> Result<(), anyhow::Error> {
 	let output = fs::File::create(args.output_file).context("Unable to create output file")?;
 	let output = BufWriter::new(output);
 
-	match lang_file {
-		LangFile::Extended(lang_file) => lang_file
-			.encode(output)
-			.context("Unable to encode extended lang file")?,
-		LangFile::Simple(lang_file) => {
-			lang_file.encode(output).context("Unable to encode simple lang file")?;
-		},
-	}
+	// And write it
+	lang_file.encode(output).context("Unable to encode lang file")?;
 
 	Ok(())
 }

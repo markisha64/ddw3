@@ -1,0 +1,21 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Ehi, Etemon, ho
+    una cosa da
+    chiederti.[pause]
+  - |-
+    [\x0207]Etemon[\x0207]Si, cosa?
+    Ti dirò tutto ciò che
+    so![pause]
+  - |-
+    [\x0207][\x020902]3La maschera di
+    Sepikmon ce l'hai
+    tu?[pause]
+  - |-
+    [\x0207]Etemon[\x0207]I...io? Non so
+    di cosa
+    parli![pause]
+  - |-
+    [\x0207][\x020902]3Un momento![pause][\x0203]Mi nasconde
+    qualcosa![pause]

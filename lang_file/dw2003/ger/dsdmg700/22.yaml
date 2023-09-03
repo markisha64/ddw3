@@ -1,0 +1,13 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Feuermaster[\x0207]Du bist stark!
+    Beeindruckend![pause][\x0203]Ich gebe dir das.
+    Benutze es![pause]
+  - |-
+    [\x0207][\x020902]3Cool! Ein
+    Geist-Chip![pause]
+  - |-
+    [\x0207]Feuermaster[\x0207]Unser Leader ist
+    der Nächste! Er
+    ist stark![pause]

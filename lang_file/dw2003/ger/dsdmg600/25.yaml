@@ -1,0 +1,18 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Bist du der
+    Bai Hu Chief!?[pause]
+  - |-
+    [\x0207]Bai Hu Chief[\x0207]Ja, stimmt...
+    Was willst du?[pause]
+  - |-
+    [\x0207][\x020902]3Gib mir
+    deinen weiβen
+    ID-Pass![pause]
+  - |-
+    [\x0207]Bai Hu Chief[\x0207]Verstehe.
+    Ha ha ha![pause][\x0203]Egal was du
+    versuchst, wir ge-
+    winnen doch![pause][\x0203]Jetzt lernst du
+    deine Lektion![pause]

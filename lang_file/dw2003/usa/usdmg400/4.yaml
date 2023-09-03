@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Huh? What's
+    going on?[pause]
+  - |-
+    Code Red! Code Red!
+    We will stop momentarily
+    for safety reasons.[pause]
+  - '[\x0207][\x020902]3Earthquake![pause]'
+  - "[\\x0207][\\x020902]3What the...?\nIs that a \nDigimon?![pause]"

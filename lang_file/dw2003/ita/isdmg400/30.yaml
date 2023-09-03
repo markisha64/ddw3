@@ -1,0 +1,20 @@
+strings:
+  - ''
+  - |-
+    Bip. Bip.
+    ATTENDERE.
+    CONFERMA DATI.[pause][\x0203]... ...
+    LA CARTA BLU NON
+    È CONFERMABILE.[pause][\x0203]FINE REGISTRAZIONE
+    ACCOUNT.[pause]
+  - |-
+    [\x0207][\x020902]3Cosa? Perché non
+    posso registrarmi?[pause][\x0203]Ho la carta blu![pause]
+  - |-
+    [\x0207][\x020902]3Eh? Cosa?! Ma
+    non è la carta
+    blu![pause][\x0203]La B è un 8!
+    È una carta
+    8lu![pause][\x0203]Questa è falsa!
+    Mi hanno
+    fregato![pause]

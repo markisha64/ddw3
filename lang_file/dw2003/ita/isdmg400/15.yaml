@@ -1,0 +1,22 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Zanbamon!
+    Stavolta ti
+    batterò![pause]
+  - "[\\x0207]Zanbamon[\\x0207]Ha, ha, ha, ha!\nNon ti \narrendi, eh?[pause][\\x0203]Impegnati quanto\nvuoi, tanto\nnon vincerai![pause]"
+  - |-
+    [\x0207][\x020902]3Lo vedremo!
+    Guarda cosa
+    ho qui![pause]
+  - |-
+    [\x0207]Zanbamon[\x0207]Uhhh! È-è
+    erba fetida?[pause]
+  - |-
+    [\x0207][\x020902]3Oh sì!
+    Ora passo![pause]
+  - |-
+    [\x0207]Zanbamon[\x0207]Non la sopporto!
+    Va bene, mi
+    faccio da parte![pause][\x0203]Ma non me lo
+    dimenticherò![pause]

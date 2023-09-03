@@ -1,0 +1,33 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Dresseur Heinrich[\x0207]Oh là ! Tu ne passes
+    pas si tu ne connais
+    pas le mot de passe.[pause]
+  - |-
+    [\x0207][\x020902]3Quoi ? Un mot
+    de passe ?
+    Euh...[pause]
+  - |-
+    [\x0207]???[\x0207]Hé, tu es
+    [\x020801][\x020501] ![pause]
+  - |-
+    [\x0207]Kenny[\x0207][\x020801][\x020501],
+    c'est moi,
+    Kenny ![pause]
+  - |-
+    [\x0207][\x020902]3Salut Kenny,
+    ça va bien ?[pause]
+  - |-
+    [\x0207]Kenny[\x0207]Oui, j'ai pu rallier
+    la Résistance ![pause][\x0203]Ceci leur sert de
+    base à présent ![pause]
+  - |-
+    [\x0207][\x020902]3Oh très bien,
+    Kenny ![pause]
+  - |-
+    [\x0207]Kenny[\x0207]Et si tu rencontrais
+    notre chef ?[pause][\x0203]Il sait peut-être
+    quelque chose qui
+    pourrait t'aider.[pause][\x0203]C'est par là ![pause]
+  - '[\x0207][\x020902]3Merci ![pause]'

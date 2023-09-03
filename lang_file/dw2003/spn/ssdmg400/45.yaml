@@ -1,0 +1,20 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Airdramon[\x0207]Zzzzzzzzz
+    Zzzzzzzz[pause]
+  - |-
+    [\x0207][\x020902]3Eh, Airdramon.
+    Tengo un favor que
+    pedirte.[pause]
+  - |-
+    [\x0207]Airdramon[\x0207]Zzzzzzzzz
+    Zzzzzzzz[pause]
+  - "[\\x0207][\\x020902]3Airdramon, ¿puedes ir \na Ciudad Qing Long\ny soplar un poco?[pause][\\x0203]No tenemos suficiente\nenergía para\nrecuperar a todos...[pause][\\x0203]Airdramon, ayúdame.\n¡Venga, despierta![pause]"
+  - |-
+    [\x0207]Airdramon[\x0207]Zzzzzzzzz
+    Zzzzzzzz[pause]
+  - |-
+    [\x0207][\x020902]3Pero me imagino
+    que no es posible...[pause][\x0203]Vale, encontraré
+    otra manera...[pause]

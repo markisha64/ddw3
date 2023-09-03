@@ -1,0 +1,32 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Servizio domatori[\x0207]Cerca degli indizi
+    durante il gioco.[pause][\x0203]Ti mostrerò i
+    dati sul
+    satellite.[pause]
+  - |-
+    "Preparazione al viaggio"
+    Scegli il Digimon e decidi la
+    digivoluzione nel laboratorio.[pause][\x0203]Equipaggia il Digimon con armi
+    e difese e schiera i tuoi
+    Digimon per la battaglia.[pause]
+  - |-
+    "Battaglia a carte"
+    Puoi anche combattere con
+    le carte.[pause][\x0203]Troverai maggiori informazioni
+    all'Incrociatore Giallo.[pause][\x0203]"Salva"
+    Per evitare problemi, salva
+    spesso.[pause][\x0203]Guardromon, che se ne occupa,
+    sta in ogni locanda.
+    Non si salva in battaglia![pause]
+  - |-
+    "Fine partita"
+    Appare quando tutti i Partner
+    Digimon sono sconfitti.[pause][\x0203]Evita gli scontri irragionevoli.[pause][\x0203]"Aggiunta Partner"
+    Puoi aggiungere un Partner
+    Digimon ai tre che già hai.[pause][\x0203]Non posso dirti altro.[pause]
+  - |-
+    [\x0207]Servizio domatori[\x0207]Ora sai proprio
+    tutto!
+    Buona fortuna![pause]

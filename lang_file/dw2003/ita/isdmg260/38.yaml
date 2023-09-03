@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Va bene!
+    6000 BIT![pause]
+  - |-
+    [\x0207]Mr. Smith[\x0207]Wow!
+    6000 BIT![pause][\x0203]Nessuno offre
+    di più?[pause]
+  - "[\\x0207]Mr. Smith[\\x0207]E uno, e due,\ne tre![pause][\\x0203]La corona divina\nper 6000 BIT![pause][\\x0203]Congratulazioni\na te, laggiù![pause][\\x0203]Trasferirò \nl'oggetto al\nsatellite![pause]"
+  - |-
+    [\x0207][\x020902]3Ho la corona
+    divina![pause]
+  - |-
+    [\x0207][\x020902]3Ora ho un oggetto
+    prezioso. Vado
+    via[pause]

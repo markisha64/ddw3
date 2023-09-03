@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - |-
+    [\x0207]BK KingNumemon[\x0207]Oh, no... I, the
+    King, lost...![pause]
+  - "[\\x0207][\\x020902]3But you were \npretty good.[pause][\\x0203]You're indeed the \nking![pause]"
+  - "[\\x0207]BK KingNumemon[\\x0207]...re-really?\nI'm happy you said \nthat.[pause][\\x0203]You're a good guy!\nI'll give you this![pause]"
+  - "[\\x0207][\\x020902]3Yeah! I got \nthe BIT \nAdaptor![pause]"
+  - "[\\x0207]BK KingNumemon[\\x0207]Just never forget \nme, KingNumemon![pause]"

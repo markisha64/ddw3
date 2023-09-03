@@ -1,0 +1,20 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Kail[\x0207]It's the Game Master.
+    Let's hide![pause]
+  - "[\\x0207]Game Master[\\x0207]For heaven's \nsake, what're you \nguys doing?![pause][\\x0203]We can't proceed \nwith our plans![pause]"
+  - "[\\x0207]???[\\x0207]...I'm sorry. We \nare intensifying\nour search.[pause]"
+  - "[\\x0207]DO Guard[\\x0207]We will find him. \nIt's just a matter\nof time![pause]"
+  - "[\\x0207][\\x020902]3Hmmm, I wonder\nwhat they are \ntalking about?[pause]"
+  - |-
+    [\x0207]DO Guard[\x0207]Hey, why are there
+    Digimon here?![pause]
+  - |-
+    [\x0207]DO Guard[\x0207]He looks
+    suspicious!
+    Catch him![pause]
+  - |-
+    [\x0207]DO Guard[\x0207]You can't
+    get away![pause]
+  - "[\\x0207][\\x020902]3Ooops! They've \nfound us![pause]"

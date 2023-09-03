@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - "[\\x0207]Caballero Fuego[\\x0207]¡Un segundo! \nVienes en buena\nhora. Me aburro.[pause]"
+  - |-
+    [\x0207][\x020902]3¿Aburrido? ¡No
+    tengo tiempo![pause]
+  - "[\\x0207]Caballero Fuego[\\x0207]¿No te aburres?\n¡No me hagas reír![pause][\\x0203]Hoy los domadores \nson débiles...[pause][\\x0203]¡Pero tú pareces\nbueno, luchemos![pause]"
+  - '[\x0207][\x020902]3¿?[pause]'
+  - |-
+    [\x0207]Caballero Fuego[\x0207]¡Te mostraré el
+    poder de mi Digimon!
+    ¡Fueeeego![pause]

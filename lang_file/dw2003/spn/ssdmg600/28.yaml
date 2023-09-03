@@ -1,0 +1,32 @@
+strings:
+  - ''
+  - "[\\x0207]Líder Chuck[\\x0207]Me he enterado \npor Kenny.[pause][\\x0203]¡Buena suerte \ncontra\nla A.o.A![pause]"
+  - "[\\x0207][\\x020902]3Sí, buena \nsuerte también\na vosotros.[pause]"
+  - |-
+    [\x0207]Líder Chuck[\x0207]Quiero ayudarte
+    y luchar juntos.
+    Pero...[pause][\x0203]Todo lo que podemos
+    hacer es cuidar el
+    fuerte.[pause]
+  - |-
+    [\x0207][\x020902]3Yo estoy bien.
+    ¡No te preocupes
+    por mí![pause]
+  - "[\\x0207]Líder Chuck[\\x0207]Siento que vinieras\nhasta aquí.[pause][\\x0203]Si recuperamos Ciudad\nAmaterasu, seguro\nque podemos ayudarte.[pause][\\x0203]Pero no pensé que\nreprogramaran a \nKnightmon.[pause]"
+  - |-
+    [\x0207][\x020902]3Knightmon...
+    ¿Algún consejo
+    para vencerle?[pause]
+  - "[\\x0207]Líder Chuck[\\x0207]Una vez en movimiento,\nel modo de parar a \nKnightmon es...[pause][\\x0203]Necesitas los cuatro\nCódigos de los \nLíderes de Ciudad.[pause][\\x0203]Pero han capturado\na todos los Líderes,\nasí que no hay manera.[pause][\\x0203]Los Jefes de Ciudad de\nla A.o.A deben \nhaberlos capturado.[pause]"
+  - |-
+    [\x0207][\x020902]3...Ya veo.
+    ¡La A.o.A![pause][\x0203]¡Nunca les perdonaré
+    que utilicen a los
+    Digimon para el mal![pause]
+  - |-
+    [\x0207]Líder Chuck[\x0207]¡Claro, aún no
+    hemos abandonado![pause][\x0203]Si hay oportunidad,
+    nos levantaremos.
+    ¡Espera ese momento![pause][\x0203]Bueno...
+    ¡Buena suerte![pause]
+  - '[\x0207][\x020902]3¡Sí, señor![pause]'

@@ -1,0 +1,18 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Was liegt vor dem Loch?
+    Ein groβer Stein?[pause]
+  - '[\x0207]???[\x0207]Bin kein Stein![pause]'
+  - |-
+    [\x0207][\x020902]3Was zum..
+    Was?![pause]
+  - |-
+    [\x0207]Numemon[\x0207]Wie gesagt.
+    Byakko City ist
+    gefährlich![pause]
+  - "[\\x0207][\\x020902]3Hey, du bist \ndoch Numemon![pause]"
+  - |-
+    [\x0207]Numemon[\x0207]Richtig. Ich
+    helfe dir.
+    Komm mit![pause]

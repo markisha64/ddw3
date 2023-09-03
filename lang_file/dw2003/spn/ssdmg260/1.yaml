@@ -1,0 +1,15 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3¡De acuerdo!
+    ¡Pujo por 800![pause]
+  - |-
+    [\x0207]Sr. Smith[\x0207]¡Uauu!
+    ¡800 BIT![pause][\x0203]¿Alguien sobre
+    800 BIT?[pause]
+  - "[\\x0207]Sr. Smith[\\x0207]Parece que no hay\nnadie más.[pause][\\x0203]¡Barrera Divina\nvendida, 800 BIT![pause][\\x0203]¡Felicidades\nal chico de ahí![pause][\\x0203]¡Estoy transfiriendo \nel artículo a\ntu satélite![pause]"
+  - |-
+    [\x0207][\x020902]3¡Sí!¡Tengo
+    la Barrera
+    Divina![pause]
+  - "[\\x0207]Junior[\\x0207]¡Sí!¡Tengo un\nartículo chulo! \nVámonos.[pause]"

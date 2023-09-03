@@ -1,0 +1,22 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Oh, c'est quoi
+    cette salle ?![pause]
+  - |-
+    [\x0207][\x020902]3Tiens, c'est
+    qui, là-bas ?[pause]
+  - |-
+    [\x0207][\x020902]3Le Maître de
+    jeu ! Je vais
+    l'attraper ![pause]
+  - |-
+    [\x0207]Garde A[\x0207]Hé, le
+    gamin ![pause]
+  - |-
+    [\x0207]Garde B[\x0207]Tu ne
+    passeras
+    pas ![pause]
+  - |-
+    [\x0207]Garde C[\x0207]Rends-toi et
+    suis-nous ![pause]

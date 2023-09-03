@@ -1,0 +1,7 @@
+strings:
+  - ''
+  - "[\\x0207]M. Smith[\\x0207]A vous de jouer ! \nLe clou de la vente ![pause][\\x0203]La Tenue YinYang, \nadmirée par tous ![pause][\\x0203]Cet habit exclusif de \nRenamon est proposé à\n10000 BIT au départ ![pause]"
+  - '[\x0207]Marchand Abel[\x0207]10900 BIT ![pause]'
+  - "[\\x0207]Chef Milly[\\x0207]11200 \nBIT ![pause]"
+  - '[\x0207]Masao Fan jeu[\x0207]11400 BIT ![pause]'
+  - "[\\x0207][\\x020902]3Hmm. 11500 \nBIT...hmmm...[pause]"

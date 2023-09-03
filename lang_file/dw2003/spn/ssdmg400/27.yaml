@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3¡Claro!
+    ¡Te ganaré
+    cuando sea![pause]
+  - |-
+    [\x0207]BK Imperialdra.[\x0207]¡Tienes valor!
+    Me gustas.[pause]
+  - |-
+    [\x0207][\x020902]3¡Eh, también
+    tengo fuerza![pause]
+  - |-
+    [\x0207]BK Imperialdramon[\x0207]¡Tienes mucha
+    confianza![pause][\x0203]Bien,
+    ¡será un
+    buen combate![pause]

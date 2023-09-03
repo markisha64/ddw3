@@ -1,0 +1,30 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Bizarre.
+    Numemon n'est
+    pas par ici.[pause]
+  - Aaaaaaah ![pause][\x0203]A l'aide ![pause]
+  - |-
+    [\x0207][\x020902]3Qu'est-ce
+    que c'était ?[pause]
+  - |-
+    [\x0207]WaruMonzaemon[\x0207]Tu es si jolie !
+    Epouse-moi ![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Je n'aime pas
+    les monstres ![pause]
+  - "[\\x0207][\\x020902]3Oh, oh... \nC'est euh... \nLisa ![pause]"
+  - |-
+    [\x0207]Lisa [\x0207]Oh, tu es [\x020801][\x020501]
+    n'est-ce pas ?[pause][\x0203]Viens aider une jeune
+    fille en détresse ![pause]
+  - '[\x0207][\x020902]3Bon, OK.[pause]'
+  - |-
+    [\x0207][\x020902]3WaruMonzaemon,
+    choisis un adversaire
+    à ta taille ![pause]
+  - |-
+    [\x0207]WaruMonzaemon[\x0207]...
+    Qui es-tu[pause][\x0203]Hors de ma
+    vue ![pause]

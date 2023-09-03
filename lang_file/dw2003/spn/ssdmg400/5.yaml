@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - |-
+    Gracias por esperar.
+    Vamos a continuar el
+    funcionamiento de góndola.[pause]
+  - |-
+    [\x0207][\x020902]3Ah...
+    ¡Eh, espera![pause][\x0203]¡Vaya, se fue![pause]

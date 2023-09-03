@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3¡Sí!¡Gané![pause][\\x0203]¡Venga, \ndámelo![pause]"
+  - |-
+    [\x0207]Paildramon[\x0207]De acuerdo...
+    Aquí tienes.
+    Tómalo. ¡Ahh![pause]
+  - "[\\x0207][\\x020902]3¡Sí! ¡Tengo\nel DADN de \nVeemon![pause][\\x0203]¡Gracias\nPaildramon![pause]"
+  - "[\\x0207]Paildramon[\\x0207]Sí, sí, no voy \na hacer esto \nnunca más.[pause]"

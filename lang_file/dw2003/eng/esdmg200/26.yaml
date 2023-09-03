@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - "[\\x0207]Kail[\\x0207]...that's annoying. \nWe can't go in.[pause]"
+  - "[\\x0207][\\x020902]3There has \nto be some \nway...[pause]"
+  - "[\\x0207]Kail[\\x0207]...well, no use \npouting about\nit here.[pause][\\x0203]Let's split up \nand check \nthings out.[pause][\\x0203]Talk to people \nin the city.[pause]"
+  - |-
+    [\x0207][\x020902]3OK, I will![pause][\x0203]I'm starting to
+    get worried
+    about Teddy.[pause]

@@ -1,0 +1,81 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Lisa[\x0207]...¡habla![pause][\x0203]¿Qué planea
+    hacer la
+    A.o.A?[pause]
+  - "[\\x0207]Maestro de Juego[\\x0207]¡Je, je, je!\n¡Llegáis tarde![pause][\\x0203]¡Nuestro plan no\nestá arruinado, \nacaba de empezar![pause]"
+  - |-
+    [\x0207]Teddy[\x0207]...¡Oh, no!
+    ¡Están apoderándose
+    de la Red Óptica![pause]
+  - '[\x0207]Nick[\x0207]¿Q..Qué?[pause]'
+  - |-
+    [\x0207]Maest. de Juego[\x0207]Je je...
+    ¿Veis? Lo que
+    yo decía...[pause]
+  - "[\\x0207][\\x020902]3Vemmon...\n¡Ese es el \nDigimon![pause]"
+  - |-
+    [\x0207]Maestro de Juego[\x0207]¡Utilizando la Red Óptica
+    podemos fusionarnos
+    con cualquier máquina![pause][\x0203]Ratón Suerte robó el
+    Digitama y casi lo
+    destruye, pero...[pause]
+  - |-
+    [\x0207]Nick[\x0207]¿Qué podemos hacer?
+    ¡A.o.A tiene
+    ventaja![pause]
+  - |-
+    [\x0207]Lisa[\x0207]¡Primero, contemos
+    esto al Mundo Real![pause]
+  - "[\\x0207][\\x020902]3¿Cómo vas a\nponerte en \ncontacto?[pause]"
+  - "[\\x0207]Lisa[\\x0207]Una vez me\ndijeron...[pause][\\x0203]Que hay una Cámara\nde emergencia en \nel Sector Norte...[pause]"
+  - |-
+    [\x0207]Nick[\x0207]Si la utilizamos
+    podríamos...[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Ummm.
+    ¡Eso es![pause]
+  - |-
+    [\x0207]Maestro de Juego[\x0207]Je je...
+    ¡Nunca funcionará![pause]
+  - |-
+    [\x0207]Lisa[\x0207]No lo sabremos
+    hasta intentarlo.
+    ¿No, [\x020801][\x020501]?[pause]
+  - |-
+    [\x0207]Junior[\x0207]¡Sí!
+    ¡Eso es![pause][\x0203]¡No vamos a dejar
+    que la A.o.A ría
+    la última![pause]
+  - "[\\x0207][\\x020902]3¡No vamos a dejar \nque la A.o.A ría\nla última![pause]"
+  - |-
+    [\x0207]Lisa[\x0207]¡Vale! ¡Busquemos
+    esa Cámara![pause]
+  - |-
+    [\x0207]Nick[\x0207]¡Vamos por
+    aquí![pause]
+  - "[\\x0207]Teddy[\\x0207]Esto se está\nponiendo \nbastante serio.[pause]"
+  - |-
+    [\x0207][\x020902]3¡Sin problema!
+    ¡Todo saldrá
+    bien![pause]
+  - |-
+    [\x0207]Kail[\x0207]...Eso
+    espero...[pause]
+  - a
+  - |-
+    [\x0207]Kurt[\x0207]¡Oioi!
+    ¡Oioink![pause]
+  - "[\\x0207]Maestro de Juego[\\x0207]¡Todas las redes\ninformáticas \nserán de la A.o.A![pause]"
+  - |-
+    [\x0207]Maestro de Juego[\x0207]¡Y nuestro Vemmon
+    destruirá el
+    mundo![pause]
+  - "[\\x0207]Maes. Jue.[\\x0207]¡Y será \nvuestro fin![pause][\\x0203]¡La victoria\nes nuestra![pause]"
+  - |-
+    [\x0207]Lisa [\x0207]¡Y si podemos
+    cortar la Red Óptica
+    su plan fracasará![pause]
+  - "[\\x0207]Lisa[\\x0207]Esperad aquí \nhasta entonces.[pause]"
+  - "[\\x0207]Kail[\\x0207]Me gustaría saber\nqué pasa en el \nMundo Real.[pause]"

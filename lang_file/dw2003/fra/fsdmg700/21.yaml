@@ -1,0 +1,8 @@
+strings:
+  - ''
+  - "[\\x0207]Maître du Feu[\\x0207]C'est dangereux par\nici ! Tu ferais mieux \nde faire demi-tour ![pause][\\x0203]Ou préfères-tu \nme vaincre et \ncontinuer ?[pause]"
+  - "[\\x0207][\\x020902]3Ouais, c'est\npour ça que \nje suis ici.[pause]"
+  - "[\\x0207]Maître du Feu[\\x0207]Tu es \nun dresseur\nagaçant... [pause][\\x0203]Si tu me bats, tu\npourras passer.[pause]"
+  - |-
+    [\x0207][\x020902]3OK ! Bats
+    toi ![pause]

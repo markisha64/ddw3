@@ -1,0 +1,7 @@
+strings:
+  - ''
+  - "[\\x0207]Metal Soldier[\\x0207]Beep, beep![pause][\\x0203]Intruder alert!\nIntruder alert![pause][\\x0203]Removing them from \nthe premises![pause]"
+  - |-
+    [\x0207][\x020902]3Come on,
+    Tin-man,
+    I'll fight you![pause]

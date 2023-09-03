@@ -1,0 +1,58 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Teddy[\x0207]Hé,
+    [\x020801][\x020501] ![pause]
+  - |-
+    [\x0207][\x020902]3Teddy, tout
+    va bien ?[pause]
+  - |-
+    [\x0207]Teddy[\x0207]Oui, merci ![pause][\x0203]Tu sais, MAGAMI
+    fait partie de l'AoA.[pause]
+  - |-
+    [\x0207][\x020902]3Je suis au courant !
+    Mais qui sont ces
+    gens, là-bas ?[pause]
+  - |-
+    [\x0207]Dr Kadomatsu[\x0207]Nous ne sommes pas
+    de l'A.o.A ![pause]
+  - |-
+    [\x0207]Opérateur DO[\x0207]Nous ne savions pas
+    que MAGAMI et l'AoA
+    étaient liés ![pause]
+  - |-
+    [\x0207]Garde DO[\x0207]Les chefs et presque
+    tout le personnel sont
+    comme nous ![pause][\x0203]Les employés de
+    MAGAMI ne sont
+    pas tous de l'AoA ![pause]
+  - |-
+    [\x0207][\x020902]3Très bien.
+    J'aiderai tout le
+    monde, attendez ici ![pause][\x0203]Je vais affronter
+    le Maître de jeu ![pause]
+  - |-
+    [\x0207]Opérateur DO[\x0207]Attention. Il paraît
+    qu'il y a une trappe
+    dans sa salle ![pause]
+  - |-
+    [\x0207]Garde DO[\x0207]Oui ! Il y a une
+    porte secrète,
+    quelque part.[pause]
+  - |-
+    [\x0207]Dr Kadomatsu[\x0207]J'en ai entendu
+    parler aussi.[pause][\x0203]Le code est
+    "MONSTRE"...[pause][\x0203]Mais je n'en
+    sais pas plus.[pause]
+  - '[\x0207][\x020902]3OK, merci ![pause]'
+  - |-
+    [\x0207]Teddy[\x0207]Bonne chance,
+    [\x020801][\x020501] ![pause][\x0203]Ne laisse pas
+    l'AoA gagner ![pause]
+  - |-
+    [\x0207][\x020902]3Tu peux me
+    faire
+    confiance ![pause]
+  - |-
+    [\x0207][\x020902]3... Oh,
+    Teddy ![pause]

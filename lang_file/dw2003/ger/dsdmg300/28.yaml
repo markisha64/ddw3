@@ -1,0 +1,15 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Pharaohmon[\x0207]Verloren! Du
+    bist besser,
+    als ich dachte![pause]
+  - '[\x0207][\x020902]3Na klar![pause]'
+  - |-
+    [\x0207]Pharaohmon[\x0207]Als Lob gebe
+    ich dir
+    dies.[pause]
+  - |-
+    [\x0207][\x020902]3Super! Der
+    alte Stab![pause]
+  - "[\\x0207]Pharaohmon[\\x0207]Du bist stark. \nUnsere Götter werden \nmit dir sein![pause]"

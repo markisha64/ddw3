@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - "[\\x0207]Pharaohmon[\\x0207]J'ai perdu ! Tu  \nes meilleur qu'il\nn'y paraît ![pause]"
+  - |-
+    [\x0207][\x020902]3Oui, bien
+    sûr ![pause]
+  - "[\\x0207]Pharaohmon[\\x0207]Voici, pour \nte remercier.[pause]"
+  - "[\\x0207][\\x020902]3Oui ! J'ai \nle Bâton \nantique ![pause]"
+  - "[\\x0207]Pharaohmon[\\x0207]Tu es fort. Nos \ndieux seront avec \ntoi ![pause]"

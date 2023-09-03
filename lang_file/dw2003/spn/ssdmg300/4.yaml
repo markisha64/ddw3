@@ -1,0 +1,15 @@
+strings:
+  - ''
+  - a
+  - |-
+    [\x0207]Datamon[\x0207]¿Has hecho todo
+    este camino para
+    luchar conmigo?[pause][\x0203]¡Siempre listo!
+    ¡Luchemos![pause]
+  - |-
+    [\x0207][\x020902]3¡De acuerdo!
+    ¡Luchemos![pause]
+  - "[\\x0207]Datamon[\\x0207]¡...Bip! ¡No\nme recibes![pause][\\x0203]¡Debes usar \ntu propio estilo![pause]"
+  - |-
+    [\x0207][\x020902]3¿Qué? Um, sí.
+    ¡Empecemos![pause]

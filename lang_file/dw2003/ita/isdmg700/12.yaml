@@ -1,0 +1,19 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Cavaliere fuoco[\x0207]Ecco qualcuno
+    con cui
+    distrarmi![pause]
+  - |-
+    [\x0207][\x020902]3Distrarti? Non
+    ho tempo per te![pause]
+  - |-
+    [\x0207]Cavaliere fuoco[\x0207]Non credere di
+    cavartela così![pause][\x0203]I domatori non mi
+    soddisfano.[pause][\x0203]Tu sembri in gamba!
+    Su, combattiamo![pause]
+  - '[\x0207][\x020902]3?![pause]'
+  - |-
+    [\x0207]Cavaliere fuoco[\x0207]Ti mostrerò la
+    mia potenza!
+    Fuocooo![pause]

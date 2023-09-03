@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - '[\x0207][\x020902]3¡Te desafiaré![pause]'
+  - "[\\x0207]Pharaohmon[\\x0207]¡No muestras\nningún miedo![pause][\\x0203]Te aviso.\n¡Soy muy \npoderoso![pause]"
+  - |-
+    [\x0207][\x020902]3¡No lo sabré
+    hasta que no
+    pruebe![pause]
+  - |-
+    [\x0207]Pharaohmon[\x0207]...Bien,
+    estás listo.[pause][\x0203]¡Entonces usaré
+    todo mi poder![pause]

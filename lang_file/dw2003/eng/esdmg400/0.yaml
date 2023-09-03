@@ -1,0 +1,6 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3MasterTyranno, \nfight with me![pause]"
+  - "[\\x0207]MasterTyranno[\\x0207]Sure!\nI just ate, so I'm \nat full power.[pause]"
+  - "[\\x0207][\\x020902]3Right on! This \nwill show how \nstrong I am.[pause]"
+  - "[\\x0207]MasterTyranno[\\x0207]You're pretty\noptimistic kid![pause][\\x0203]...but it takes \nmore than that to \nbeat me![pause]"

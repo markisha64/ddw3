@@ -1,0 +1,15 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3¡Gané!
+    ¡Soy el
+    mejor![pause]
+  - "[\\x0207][\\x020902]3¿Eh? Hay algo\nen el suelo.[pause][\\x0203]¡Un arma \nde Veemon![pause][\\x0203]¡Sí! ¡Tengo la\nGuarda Dramon![pause]"
+  - "[\\x0207][\\x020902]3¡Espera!\n¡No tengo tiempo\npara esto![pause][\\x0203]Tengo que parar \nel lanzamiento del \nJuggernaut.[pause]"
+  - |-
+    [\x0207][\x020902]3Umm, ¿qué botón?
+    ...¡Ahí!
+    ¡Es éste![pause]
+  - "[\\x0207][\\x020902]3¿Eh? ¿No pasa\nnada? Pero si A.o.A\nestuviese aquí...[pause][\\x0203]¡Eso debería detener\nel lanzamiento del \nJuggernaut![pause]"
+  - "AVISO AL PERSONAL DE MAGASTA.\nEL BUQUE DE GUERRA CLASE SSS \nJUGGERNAUT ESTÁ CASI ACTIVADO.[pause][\\x0203]TODO EL PERSONAL DE LA BASE\nDEBE PROTEGERSE. REPITO...\nBU...QUE...SSS...NAUT⋯[pause]"
+  - "[\\x0207][\\x020902]3¿Q..Qué?\n¿Por qué no \nse para?[pause][\\x0203]...¡Una trampa![pause][\\x0203]...¡Entonces la \nA.o.A está en\notro sitio![pause]"

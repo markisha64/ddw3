@@ -1,0 +1,24 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Le Maître de Jeu
+    d'Asuka a envoyé Vem-
+    mon quelque part...[pause][\x0203]Peut-être est-ce un
+    indice ! Poursuivons  ![pause]
+  - '[\x0207][\x020902]3Quoi ?[pause]'
+  - |-
+    [\x0207][\x020902]3Quoi ? Pourquoi
+    Oinkmon est-il dans
+    le serveur d'Asuka ?[pause]
+  - |-
+    [\x0207]Oinkmon[\x0207]Oioionk ?
+    Oioinoink !
+    Oioinoink ??[pause]
+  - |-
+    [\x0207]Oinkmon[\x0207]Oioin, oinnk ?
+    Oioionoinkn !
+    Oin, oinoiknk ![pause]
+  - |-
+    [\x0207]Oinkmon[\x0207]Oooin, oioink !
+    Oinoink, oink !
+    Oioin, oinnk ![pause]

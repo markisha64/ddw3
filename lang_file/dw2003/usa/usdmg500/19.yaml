@@ -1,0 +1,5 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Yeah! I won \nagainst \nKyukimon![pause]"
+  - "[\\x0207]Kyukimon[\\x0207]Your Digimon are \nvery strong to \ndefeat me.[pause][\\x0203]It was the most fun \nI've had in a while. \nHere, take this![pause]"
+  - "[\\x0207][\\x020902]3Yeah! I got\nthe Kotemon \nDDNA![pause][\\x0203]Thanks,\nKyukimon![pause]"

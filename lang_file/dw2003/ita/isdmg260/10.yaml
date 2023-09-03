@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Va bene!
+    1600 BIT![pause]
+  - |-
+    [\x0207]Mr. Smith[\x0207]Wow!
+    1600 BIT![pause][\x0203]Nessuno offre
+    di più?[pause]
+  - "[\\x0207]Mr. Smith[\\x0207]1600 e uno, e\ndue, e tre![pause][\\x0203]Difesa del cecchino\nper 1600 BIT![pause][\\x0203]Congratulazioni\na te, laggiù![pause][\\x0203]Trasferirò \nl'oggetto al\nsatellite![pause]"
+  - |-
+    [\x0207][\x020902]3Ho la difesa
+    del cecchino![pause]
+  - "[\\x0207][\\x020902]3Ora che ho un così \nbell'oggetto, me ne\nandrò.[pause]"

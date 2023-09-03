@@ -1,0 +1,31 @@
+strings:
+  - ''
+  - '[\x0207]Maestro de Juego[\x0207]¿Qué hacéis aquí?[pause]'
+  - "[\\x0207][\\x020902]3Eh... Estamos \nbuscando a nuestro\namigo Teddy.[pause]"
+  - "[\\x0207]Maestro de Juego[\\x0207]Ya veo... Siento \nsorprenderos.[pause][\\x0203]Yo también me\npreocupo por él. Ratón\nSuerte lo tendrá preso.[pause]"
+  - |-
+    [\x0207][\x020902]3¡¿Ratón
+    Suerte?![pause]
+  - |-
+    [\x0207]Maestro de Juego[\x0207]¡Es malvado,
+    intenta destruir
+    Digimon Online![pause][\x0203]¡Es la razón por la
+    que tenemos problemas
+    en el sistema![pause]
+  - |-
+    [\x0207][\x020902]3Pero todo el mundo
+    disfruta de Digimon
+    Online...[pause]
+  - |-
+    [\x0207][\x020902]3¡No puedo creerlo!
+    ¡Ratón Suerte![pause]
+  - '[\x0207]Kail[\x0207].....[pause]'
+  - |-
+    [\x0207]Maestro de Juego[\x0207]Todo nuestro personal
+    está buscando a
+    Ratón Suerte.[pause][\x0203]¡Oh, ya sé!
+    ¿Nos ayudarías?[pause]
+  - |-
+    [\x0207][\x020902]3¡Por supuesto!
+    ¡Te ayudaremos![pause]
+  - "[\\x0207]Maestro Jue.[\\x0207]Gracias, \ncuento con\nvosotros.[pause][\\x0203]¡Hemos oído\nque fue al \nSector Oeste![pause]"

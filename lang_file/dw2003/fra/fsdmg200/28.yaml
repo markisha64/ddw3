@@ -1,0 +1,34 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Alors ? J'ai
+    l'air d'un Digimon,
+    maintenant ![pause]
+  - |-
+    [\x0207]Kail[\x0207]Chut ! Tais-toi
+    un peu ![pause][\x0203]Ils ne doivent pas
+    savoir qu'on n'est
+    pas des Digimons ![pause]
+  - |-
+    [\x0207][\x020902]3Oh... Ah...
+    C'est vrai.
+    Je comprends...[pause]
+  - |-
+    [\x0207]Kail[\x0207]J'ai quelque chose
+    à vérifier. Je pars
+    en avant.[pause][\x0203][\x020801][\x020501], continue
+    à chercher Teddy.[pause][\x0203]Dès que j'ai fini, je
+    te rejoins.[pause]
+  - |-
+    [\x0207][\x020902]3Oh, OK.
+    Sois
+    prudente.[pause]
+  - |-
+    [\x0207]Kail[\x0207]Ne t'en
+    fais pas
+    pour moi ![pause]
+  - |-
+    [\x0207][\x020902]3Qu'est-elle a ?
+    Je la trouve bizarre
+    depuis qu'on est ici... [pause][\x0203]Bon, je dois
+    chercher Teddy.[pause]

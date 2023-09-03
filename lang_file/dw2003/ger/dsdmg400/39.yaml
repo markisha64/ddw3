@@ -1,0 +1,4 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3OK, der TNT-\nChip kommt \nalso da rein.[pause]"
+  - "[\\x0207][\\x020902]3Da ist ein\nLoch in der\nWand![pause][\\x0203]Jetzt könn. \nwir hinein![pause]"

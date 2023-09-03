@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Veemon[\x0207]Eh, no está mal
+    ¡Estoy impresionado![pause][\x0203]¡Toma, las Botas
+    Árbol![pause]
+  - |-
+    [\x0207][\x020902]3¡Bien! Gracias
+    Veemon.[pause][\x0203]¡Sí! ¡Tengo
+    las Botas Árb.![pause]
+  - "[\\x0207]Veemon[\\x0207]¡Bien por ti!\n¡Me voy a casa a\ncomer![pause][\\x0203]¡Vuelve para \njugar otra vez![pause]"

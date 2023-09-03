@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Häh?
+    Ivy und Teddy
+    sind nicht hier.[pause][\x0203]Na, so wie ich die
+    kenne, sind sie
+    schon vorgegangen.[pause]
+  - "[\\x0207]Mitarbeiter[\\x0207][\\x020801][\\x020501], nicht wahr?\nWillkommen bei\nDigimon-Online![pause][\\x0203]Heute werden wir als\nVorbereitung auf den\nStart ein wenig üben.[pause][\\x0203]Du bist auf den Ost-\nsektor und Zentral-\nAmaterasu beschränkt.[pause][\\x0203]Es gibt jedoch mehr\nPlatinen- und Meeres-\nbodenbereiche.[pause][\\x0203]Digimon-Daten \nwerden wie\nvorher verwendet.[pause][\\x0203]Natürlich bleiben\nauch Techniken\nu. Digitationen gleich.[pause][\\x0203]Für alle Fälle möchte\nich aber eine Daten-\nprüfung vornehmen.[pause][\\x0203]Denk an das Speichern\nmit Guardromon,\nbevor du gehst.[pause]"
+  - '[\x0207][\x020902]3Na klar![pause]'
+  - |-
+    [\x0207][\x020902]3Super!
+    Was für
+    ein Spaβ![pause]

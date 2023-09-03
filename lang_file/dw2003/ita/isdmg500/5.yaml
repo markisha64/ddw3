@@ -1,0 +1,37 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Numemon[\x0207]Qui saremo
+    al sicuro.[pause]
+  - |-
+    [\x0207][\x020902]3Ehi, grazie![pause][\x0203]Ma cosa hanno
+    gli abitanti
+    di Byakko?[pause][\x0203]Il governatore mi
+    ha fatto cadere
+    nel sotterraneo.[pause]
+  - |-
+    [\x0207]Numemon[\x0207]Il governatore
+    e tutti gli altri
+    sono dei falsi![pause]
+  - |-
+    [\x0207][\x020902]3Cosa? Allora
+    chi erano
+    quei tizi?[pause]
+  - |-
+    [\x0207]Numemon[\x0207]Questo non ti
+    riguarda![pause][\x0203]Il vero governatore
+    è nel deserto di
+    Moebius.[pause][\x0203]Si trova nella Torre
+    miraggio.[pause]
+  - |-
+    [\x0207][\x020902]3Ehi!
+    Aspetta!
+    Che storia è?[pause]
+  - "[\\x0207]Numemon[\\x0207]Non posso dirti\naltro![pause][\\x0203]Non venire\npiù qui a \nByakko![pause]"
+  - |-
+    [\x0207][\x020902]3E va bene!
+    Ciao![pause]
+  - |-
+    [\x0207][\x020902]3Bene. Troviamo
+    il vero governatore
+    e parliamoci![pause]

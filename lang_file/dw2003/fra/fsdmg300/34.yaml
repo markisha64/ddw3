@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Très bien,
+    Battons-
+    nous ![pause]
+  - "[\\x0207]BK MegaGargomon[\\x0207]Ah ! Je commençais \nà m'ennuyer ferme\npar ici.[pause]"
+  - |-
+    [\x0207][\x020902]3OK,
+    allons-y ![pause]
+  - |-
+    [\x0207]BK MegaGargom[\x0207]Ce ne sera
+    pas si facile
+    de me battre ![pause]

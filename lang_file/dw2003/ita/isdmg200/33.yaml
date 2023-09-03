@@ -1,0 +1,58 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Teddy[\x0207]Ehi,
+    [\x020801][\x020501]![pause]
+  - |-
+    [\x0207][\x020902]3Teddy, stai
+    bene?[pause]
+  - |-
+    [\x0207]Teddy[\x0207]Si, grazie![pause][\x0203][\x020801][\x020501], la MAGAMI
+    fa parte dell'A.o.A.[pause]
+  - |-
+    [\x0207][\x020902]3Si, lo so!
+    Ma chi è quel
+    tipo laggiù?[pause]
+  - |-
+    [\x0207]Dr. Kadomatsu[\x0207]Non siamo l'A.o.A,
+    credimi![pause]
+  - |-
+    [\x0207]Operatore D.O.[\x0207]Non sapevamo che
+    la MAGAMI avesse
+    rapporti con l'A.o.A![pause]
+  - |-
+    [\x0207]Guardia D.O.[\x0207]I governatori delle
+    città e il personale
+    sono come noi.[pause][\x0203]Non tutti alla
+    MAGAMI lavorano per
+    l'A.o.A![pause]
+  - |-
+    [\x0207][\x020902]3Ve bene.
+    Aiuterò tutti:
+    restate lì![pause][\x0203]Sconfiggerò la
+    Signora del Gioco![pause]
+  - |-
+    [\x0207]Operatore D.O.[\x0207]Attento. C'è una
+    trappola nella
+    sua stanza![pause]
+  - |-
+    [\x0207]Guardia D.O.[\x0207]Sì, e c'è anche una
+    porta segreta da
+    qualche parte.[pause]
+  - |-
+    [\x0207]Dr. Kadomatsu[\x0207]L'ho sentito
+    anch'io.[pause][\x0203]Il codice è
+    "MONSTER".[pause][\x0203]Ma non so
+    cosa significhi.[pause]
+  - '[\x0207][\x020902]3Oh, grazie![pause]'
+  - |-
+    [\x0207]Teddy[\x0207]Buona
+    Fortuna![pause][\x0203]Sconfiggi
+    l'A.o.A![pause]
+  - |-
+    [\x0207][\x020902]3Tranquillo.
+    Ci penso
+    io![pause]
+  - |-
+    [\x0207][\x020902]3Oh,
+    Teddy![pause]

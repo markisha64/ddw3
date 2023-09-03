@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Computer Seiya[\x0207]...What?!
+    What is going on?[pause]
+  - "[\\x0207]Mail Lover Saki[\\x0207]Shut up! I can't \nhear my cell \nphone![pause]"
+  - |-
+    [\x0207]Shopper Teruko[\x0207]...whaaaaat?!
+    What should I do?[pause]
+  - "[\\x0207]Shopper Teruko[\\x0207]Where's the \npolice?![pause]"

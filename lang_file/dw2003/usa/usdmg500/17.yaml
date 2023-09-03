@@ -1,0 +1,5 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3I won \nagainst \nTaomon![pause]"
+  - "[\\x0207]Taomon[\\x0207]...I see,\nyou're better \nthan I thought.[pause][\\x0203]Here, take \nthis with you.[pause]"
+  - "[\\x0207][\\x020902]3Yeah! I got \nthe Renamon \nDDNA![pause][\\x0203]Thanks Taomon![pause]"

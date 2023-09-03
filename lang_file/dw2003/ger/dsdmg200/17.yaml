@@ -1,0 +1,33 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Ponchomon[\x0207]Hola, du kannst dir
+    jederzeit Infos zu
+    diesen Items ansehen![pause][\x0203]Ich zeige sie auf dem
+    Satelliten an, Amigo![pause]
+  - |-
+    "Ausrüstungseffekte"
+    Effekte sind autom. bei Ausrüstung
+    oder werden im Angriff verwendet.[pause][\x0203]Waffeneffekte gelten nur, wenn es
+    keine technischen Effekte gibt.[pause][\x0203]"Beidhändig und einhändig"
+    Beidhändige Waffen sind kraftvol-
+    ler, lassen aber keine Rüstung zu.[pause][\x0203]Eine Ausrüstung mit zwei einhändigen
+    Waffen ist kraftvoller als eine beid-
+    händige, aber auch teurer.[pause]
+  - |-
+    "Zubehörbeschränkung"
+    Höchst 2 Zubehört., aber
+    jed. Zubehört. nur 1 x.[pause][\x0203]"Rüstungsähnliche Waffen"
+    Es gibt Waffen zur Ausrüstung des
+    Kopfs und Schilder, die angreifen.[pause][\x0203]"Spezialwaffen"
+    Die stärksten Waffen können nur von
+    bestimmten Digimon verwendet werden.[pause]
+  - |-
+    "Serienausrüstung"
+    Ausrüst. m. best. Waffen u.
+    Rüstung erhöht Parameter.[pause][\x0203]"Chip"
+    Die ständige Parametererhöhung
+    durch Chip ist Glückssache.[pause]
+  - |-
+    [\x0207]Ponchomon[\x0207]Nicht weitersagen!
+    Adios amigos![pause]

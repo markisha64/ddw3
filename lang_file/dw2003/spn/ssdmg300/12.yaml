@@ -1,0 +1,27 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Maest. Jue.[\x0207]¡No, noo![pause][\x0203]Persiamon no
+    puede perder.[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Creo que hemos
+    llegado tarde.[pause]
+  - |-
+    [\x0207]Teddy[\x0207]¡[\x020801][\x020501]!
+    ¡Me alegro de
+    que estés bien![pause]
+  - |-
+    [\x0207]Nick[\x0207]Ahora hay pruebas.
+    ¡Entrégate, Maestro
+    de Juego![pause][\x0203]¡Queda arrestada
+    por la Policía
+    Internac., S.A.P.![pause]
+  - "[\\x0207][\\x020902]3¿Qué? ¿Lisa y\nNick son de \nla S.A.P.?[pause]"
+  - |-
+    [\x0207]Nick[\x0207]Eso es. Y Keith
+    también.[pause]
+  - "[\\x0207]Lisa[\\x0207]Sentimos no \nhaberlo dicho antes.[pause][\\x0203]¡Pero gracias a \nvosotros, el caso\nestá resuelto![pause]"
+  - |-
+    [\x0207]Lisa[\x0207]¡Interroguemos al
+    Maestro de Juego
+    y cambiemos a Kurt![pause]

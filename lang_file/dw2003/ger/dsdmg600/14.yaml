@@ -1,0 +1,21 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Hey,
+    sie sind..?![pause]
+  - |-
+    [\x0207]Byakko-Bürg.[\x0207]Hä?! Da hat
+    sich was be-
+    wegt, oder?[pause]
+  - "[\\x0207]Byakko-Bürger[\\x0207]Kannst du von \nda aus\netwas sehen?[pause]"
+  - |-
+    [\x0207]Byakko-Bür.[\x0207]Im Westen
+    alles OK![pause]
+  - "[\\x0207]Byakko-Bürger[\\x0207]Nichts im \nSüden![pause]"
+  - |-
+    [\x0207]Byakko-Bürger[\x0207]Auch hier
+    alles OK![pause]
+  - |-
+    [\x0207]Byakko-Bürger[\x0207]Dann sehe ich
+    wohl Gespenst.[pause]
+  - "[\\x0207][\\x020902]3...sie sind \nwachsam...[pause][\\x0203]Byakko City kann\nich eine Weile\nnicht betreten...[pause]"

@@ -1,0 +1,82 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Lisa[\x0207][\x020801][\x020501]! Hai
+    trovato aiuto?[pause]
+  - |-
+    [\x0207][\x020902]3Sì. Ho incontrato
+    i membri della
+    Resistenza![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Ben fatto!
+    Sei grande,
+    [\x020801][\x020501]![pause]
+  - |-
+    [\x0207][\x020902]3Ma per entrare
+    ad Amaterasu...[pause][\x0203]Dobbiamo avere
+    i 4 codici per i
+    Knightmon.[pause]
+  - |-
+    [\x0207]Keith[\x0207]Codici?
+    Di che
+    parli?[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Ah, sì, lo so. I
+    pass colorati.[pause]
+  - |-
+    [\x0207][\x020902]3Pass
+    colorati?[pause][\x0203]Come quello
+    rosso e quello
+    blu che ho io?[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Sì, certo!
+    Come mai tu...?[pause]
+  - |-
+    [\x0207][\x020902]3Li ho presi ai
+    capi delle città
+    dell'A.o.A![pause]
+  - |-
+    [\x0207]Nick[\x0207]Con le altre due
+    potremo battere
+    i Knightmon![pause]
+  - |-
+    [\x0207]Keith[\x0207]Sì! Le avranno
+    anche gli altri
+    Governatori![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Sì, ci
+    serviranno![pause]
+  - |-
+    [\x0207][\x020902]3Aspettate![pause][\x0203]Nella Città
+    di Bai Hu la
+    sicurezza...[pause][\x0203]...sarà dura
+    da superare!
+    Acc![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Davvero?
+    Hmm...come
+    faremo?[pause]
+  - "[\\x0207]Lisa[\\x0207]Ci sono! Ci faremo\naiutare dalla\nResist.![pause][\\x0203]Sono nella \nTorre miraggio,\nvero?[pause]"
+  - '[\x0207][\x020902]3S-sì![pause]'
+  - '[\x0207]Lisa[\x0207]OK, li troverò![pause]'
+  - |-
+    [\x0207]Keith[\x0207]Conta
+    su di
+    noi![pause]
+  - '[\x0207]Nick[\x0207]Va bene.[pause]'
+  - |-
+    [\x0207][\x020902]3Allora io
+    tornerò
+    a Bai Hu![pause]
+  - |-
+    [\x0207]Teddy[\x0207]Buona
+    fortuna![pause]
+  - |-
+    [\x0207][\x020902]3Contate su
+    di me![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Keith,
+    andiamo.[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Nick, tu stai
+    qua![pause]

@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Maître Ténèbres[\x0207]...Hmm ? !
+    Qui es tu...[pause][\x0203]Tu es venu
+    ici pour me
+    défier ?[pause]
+  - "[\\x0207][\\x020902]3Oui !\nTu vas te battre \navec moi, non ?[pause]"
+  - |-
+    [\x0207]Maître Ténèbres[\x0207]Tu ne sais pas à
+    qui tu as affaire.[pause][\x0203]OK. Je n'ai pas
+    vu de dresseurs
+    depuis longtemps.[pause]
+  - |-
+    [\x0207][\x020902]3Regarde.
+    On va voir qui
+    est mauvais ![pause]

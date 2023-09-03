@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Líder Byakko,\ntengo algo que \npreguntarle...[pause]"
+  - "[\\x0207]Líder Byakko[\\x0207]...¡Ya me habéis\nencontrado![pause][\\x0203]¡Bien, entonces \ndebemos luchar![pause]"
+  - "[\\x0207][\\x020902]3¿Qué? ¡Espera\nun segundo! \n¿Pero qué....?[pause]"
+  - |-
+    [\x0207]Líder Byakko[\x0207]¡Silencio!¡No
+    voy a perder con
+    la A.o.A![pause]
+  - |-
+    [\x0207][\x020902]3¿Q..Qué?
+    ¿...A.o.A?[pause]
+  - "[\\x0207]Líder Byakko[\\x0207]¡No juegues \nconmigo! ¡Ven \naquí, mi Digimon![pause]"
+  - "[\\x0207][\\x020902]3¡No puedo creerlo!\nOh, bueno...[pause][\\x0203]De acuerdo,\n¡terminemos con \nesto![pause]"

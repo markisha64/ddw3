@@ -1,0 +1,64 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Kail[\x0207]He [\x020801][\x020501]!
+    Was ist?[pause]
+  - |-
+    [\x0207][\x020902]3Ich komme nicht in
+    Asuka City rein.[pause][\x0203]Vielleicht käme ich
+    mit einem Personal-
+    pass rein...[pause]
+  - |-
+    [\x0207]Kail[\x0207]Ein Perso-
+    nalpass?[pause]
+  - |-
+    [\x0207]Kurt[\x0207]Oink!
+    Oink![pause]
+  - |-
+    [\x0207]Kail[\x0207]Was willst
+    du uns sa-
+    gen, Kurt?[pause]
+  - |-
+    [\x0207][\x020902]3Vielleicht hat
+    Kurt einen.[pause]
+  - |-
+    [\x0207]Kail[\x0207]Genau! Kurt
+    hat doch da
+    gearbeitet![pause]
+  - |-
+    [\x0207][\x020902]3Hä? Lisa,
+    was machst
+    du da?[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Wie du siehst, ist
+    dieses Zimmer ein
+    einziges Chaos.[pause][\x0203]Daher wollte ich es
+    mit Kail aufräumen[pause]
+  - "[\\x0207]Kail[\\x0207]Hey Lisa. War da\nirgendwo ein \nPersonalpass?[pause]"
+  - "[\\x0207]Lisa[\\x0207]Sorry, den habe ich\nnoch nicht gefunden.[pause][\\x0203]Schuld daran ist \nKurt, weil er immer \nso unordentlich ist![pause]"
+  - |-
+    [\x0207]Kurt[\x0207]Oink,
+    oink![pause]
+  - |-
+    [\x0207]Kail[\x0207]Was sollen wir
+    tun? Er muss hier
+    irgendwo sein.[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Ich weiβ! Hol bitte
+    meine Freunde![pause][\x0203]Mit ihnen sind wir
+    in Nullkommanichts
+    fertig.[pause]
+  - '[\x0207][\x020902]3Deine Freunde?[pause]'
+  - |-
+    [\x0207]Lisa[\x0207]Ja. Sie heiβen
+    Keith und Nick.[pause]
+  - |-
+    [\x0207][\x020902]3...Was!?
+    Keith und
+    Nick!?[pause]
+  - "[\\x0207]Lisa[\\x0207]Ach, du kennst\nsie, [\\x020801][\\x020501]?[pause][\\x0203]Dann brauchst\ndu sicherlich\nnicht lang![pause][\\x0203]Übrigens hörte ich\nzuletzt von ihnen \nim Südsektor.[pause]"
+  - "[\\x0207][\\x020902]3Aha, na \ngut...[pause]"
+  - |-
+    [\x0207]Lisa[\x0207]Oh, [\x020801][\x020501]
+    ist etwas
+    passiert?[pause]

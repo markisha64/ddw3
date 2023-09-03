@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Hold it right \nthere! Stop the \nlaunch now![pause][\\x0203]I'm not going to \nlet you guys get \naway with it![pause]"
+  - "[\\x0207]Royal Guard[\\x0207]Ha ha ha ha! \nThis punk says we \nhave to stop![pause][\\x0203]You think a kid\nlike you can stop \nour plans![pause]"
+  - "[\\x0207][\\x020902]3I'll make \nyou guys to \nstop it![pause]"
+  - "[\\x0207]Royal Guard[\\x0207]...ha ha ha.\nAre you for \nreal?[pause][\\x0203]Try it if you \ncan![pause]"
+  - |-
+    [\x0207]Royal Guard [\x0207]System all clear...
+    This is it![pause]

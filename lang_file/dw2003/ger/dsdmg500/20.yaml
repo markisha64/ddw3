@@ -1,0 +1,19 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Wie meinst
+    du
+    das?[pause]
+  - |-
+    [\x0207]BK Seraphimon[\x0207]Das bedeutet, du
+    kämpfst mit mir![pause][\x0203]Gewinnst du, lass
+    ich dich gehen...[pause][\x0203]Verlierst du, ist
+    es dein Ende![pause]
+  - |-
+    [\x0207][\x020902]3OK, verstanden.
+    Also machen
+    wir das![pause]
+  - |-
+    [\x0207]BK Seraphimon[\x0207]Wart's ab![pause][\x0203]Mach dich
+    auf etwas
+    gefasst![pause]

@@ -1,0 +1,79 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Lisa, tu parles
+    du Maître de
+    jeu ?[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Oui, tu as
+    compris ![pause][\x0203]Elle est la seule
+    à pouvoir nous
+    aider, non ?[pause]
+  - |-
+    [\x0207]Maître de jeu[\x0207]Que veux-tu
+    dire, parle ![pause][\x0203]Je n'ai pas
+    l'intention de
+    vous aider ![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Oh, vraiment ?
+    Hmmm...[pause][\x0203]J'étais prête à
+    me rendre.[pause]
+  - |-
+    [\x0207][\x020902]3Qu'est-ce que
+    tu dis, Lisa ?[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Ils ont le
+    Juggernaut ! On
+    ne peut rien faire.[pause][\x0203]Et je ne veux pas
+    mourir maintenant.[pause]
+  - |-
+    [\x0207][\x020902]3Qu...quoi ?!
+    On s'est battu
+    jusqu'ici !![pause][\x0203]Je refuse ! Je
+    n'abandonnerai
+    jamais ![pause]
+  - |-
+    [\x0207]Lisa[\x0207][\x020801][\x020501], tu es
+    très courageux...[pause][\x0203]Mais tu vas y
+    laisser la vie.[pause]
+  - |-
+    [\x0207]Maître de jeu[\x0207]Tu es plus
+    perspicace que
+    tu en as l'air ![pause]
+  - |-
+    [\x0207]Maître de jeu[\x0207]Oui, le Juggernaut
+    appartient à
+    l'AoA ![pause][\x0203]Seul le président
+    d'Amaterasu City
+    peut l'arrêter ![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Vraiment...
+    Tu entends ça,
+    [\x020801][\x020501] ?[pause]
+  - |-
+    [\x0207][\x020902]3Oui, madame !
+    Ah, j'ai
+    compris !![pause]
+  - |-
+    [\x0207]Maître de jeu[\x0207]Quelle idiote j'ai
+    été ! C'était un
+    secret ![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Toujours tromper
+    ses alliés avant
+    son ennemi ![pause][\x0203]Alors, je suis
+    bonne
+    comédienne ?[pause]
+  - |-
+    [\x0207]Teddy[\x0207]Assez perdu
+    de temps,
+    vous deux ![pause]
+  - |-
+    [\x0207]Teddy[\x0207]Vemmon a été
+    transféré sur le
+    Juggernaut ![pause]
+  - '[\x0207]Lisa[\x0207]Vraiment ?![pause]'
+  - |-
+    [\x0207][\x020902]3Que...
+    Que s'est-
+    il passé ?[pause]

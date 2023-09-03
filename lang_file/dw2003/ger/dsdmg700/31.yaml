@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3...ich gebe
+    noch nicht
+    auf![pause][\x0203]Es gibt be-
+    stimmt einen
+    anderen Weg![pause]
+  - |-
+    [\x0207][\x020902]3OK, ich rede
+    mit Lisa und
+    den anderen![pause]

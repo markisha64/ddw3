@@ -1,0 +1,7 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3An \nearthquake\nagain?![pause]"
+  - |-
+    [\x0207][\x020902]3I was right!
+    It's Bulbmon![pause]
+  - "[\\x0207][\\x020902]3That earthquake was \ncaused by it \nmaking holes![pause][\\x0203]Just watch.\nI'm going to defeat\nit this time![pause]"

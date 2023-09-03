@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3MagnaAngemon, devo\nchiederti un favore.[pause][\\x0203]Mi dai il DDNA di \nPatamon dal tuo?[pause]"
+  - |-
+    [\x0207]MagnaAngemon[\x0207]Mi dispiace, ma non
+    te lo darò così
+    facilmente.[pause][\x0203]Se riesci a
+    battermi, lo
+    avrai.[pause]

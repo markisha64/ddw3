@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Yeah, I beat\nQing Long \nChief![pause]"
+  - |-
+    [\x0207][\x020902]3Huh?!
+    There's something
+    on the ground...[pause]
+  - "[\\x0207][\\x020902]3But no sign of\nthe Digi-Egg of \nKnowledge...[pause][\\x0203]I wonder what's \nhappening in the \nReal World...[pause]"
+  - "[\\x0207][\\x020902]3...Huh? \nWhat is this?\nBlue ID Pass?[pause][\\x0203]It might come in \nhandy, so I'll \ntake it with me![pause]"

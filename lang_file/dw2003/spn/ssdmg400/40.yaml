@@ -1,0 +1,7 @@
+strings:
+  - ''
+  - '[\x0207][\x020902]3¡Eh, eso...![pause]'
+  - |-
+    [\x0207][\x020902]3¡Estupendo! Tengo
+    el Digih. de Seriedad![pause]
+  - "[\\x0207][\\x020902]3¡Ahora puedo llamar a \nSubmarimon y \ncruzar el mar![pause]"

@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - "[\\x0207]Datamon[\\x0207]Du bist ziemlich gut,\nwenn du m. besiegst.\nHier, deine Belohnung![pause][\\x0203]Die Rosthandschuhe! \nSie s. sehr selten u.\nin Ehren zu halten.[pause]"
+  - |-
+    [\x0207][\x020902]3Hä?! Ach so,
+    ich passe gut
+    auf. Danke...[pause]
+  - "[\\x0207]Datamon[\\x0207]Es gibt Geheimn. ü.\nalte Rüstg. u. Waff.\nin der digitalen Welt.[pause][\\x0203]Suche rüstungsdigi-\ntierte Digi., die diese \nGeheimnisse kennen.[pause]"
+  - |-
+    [\x0207][\x020902]3OK! Ich finde
+    diese rüstungs-
+    digitierten Digimon![pause]

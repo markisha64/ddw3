@@ -1,0 +1,16 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3OK, ich
+    kämpfe mit
+    dir![pause]
+  - |-
+    [\x0207]BK MegaGargomon[\x0207]Super! Ich hatte
+    schon Langeweile.[pause]
+  - |-
+    [\x0207][\x020902]3Fangen
+    wir an![pause]
+  - |-
+    [\x0207]BK MegaGargo.[\x0207]Es ist nicht so
+    leicht, mich
+    zu schlagen![pause]

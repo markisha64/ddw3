@@ -1,0 +1,29 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Tamer Heinrich[\x0207]Ohne Kennwort
+    lasse ich dich
+    nicht herein![pause]
+  - |-
+    [\x0207][\x020902]3Was, ein
+    Kennwort?
+    Äh...[pause]
+  - |-
+    [\x0207]???[\x0207]Hey, du bist
+    [\x020801][\x020501]![pause]
+  - |-
+    [\x0207]Kenny[\x0207][\x020801][\x020501],
+    ich bin's,
+    Kenny![pause]
+  - |-
+    [\x0207][\x020902]3Hey, Kenny!
+    Bist du OK?[pause]
+  - |-
+    [\x0207]Kenny[\x0207]Klar! Ich bin jetzt
+    beim Widerstand![pause][\x0203]Die haben hier jetzt
+    einen Stützpunkt![pause]
+  - |-
+    [\x0207][\x020902]3Wow, super,
+    Kenny![pause]
+  - "[\\x0207]Kenny[\\x0207]Ja! Komm, ich stelle \ndich dem Leader vor.[pause][\\x0203]Vielleicht weiβ er \netwas, das dir\nweiterhilft.[pause][\\x0203]Hier lang![pause]"
+  - '[\x0207][\x020902]3Vielen Dank![pause]'

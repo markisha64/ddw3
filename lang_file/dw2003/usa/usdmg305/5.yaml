@@ -1,0 +1,19 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Lisa! A.o.A's got \nthe Juggernaut![pause]"
+  - |-
+    [\x0207]Lisa[\x0207]Yes.
+    It looks like it...[pause][\x0203]Teddy noticed it
+    and told us![pause]
+  - "[\\x0207]Teddy[\\x0207]We can tell the A.o.A's \nmoves with this \ncomputer![pause]"
+  - "[\\x0207]Keith[\\x0207]Now what? The \nJuggernaut \nis so powerful![pause]"
+  - "[\\x0207][\\x020902]3Can't we stop it \nsomehow?![pause]"
+  - |-
+    [\x0207]Lisa[\x0207]Um... let's see...[pause][\x0203]OK, we should
+    go ask her...[pause]
+  - '[\x0207][\x020902]3...huh? Her?[pause]'
+  - '[\x0207]Keith[\x0207]What?[pause]'
+  - "[\\x0207]Lisa[\\x0207]OK, let's go \n[\\x020801][\\x020501]![pause]"
+  - "[\\x0207]Lisa[\\x0207]Keith and Nick, \nyou stay here \nwith Teddy.[pause]"
+  - "[\\x0207]Nick[\\x0207]It's the world's most \npowerful weapon![pause][\\x0203]That's why it was \nsealed away, so it \nwon't be misused![pause]"
+  - '[\x0207]Nick[\x0207]?!?[pause]'

@@ -1,0 +1,20 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Asuka's Game Master \nwas sending Vemmon \nsomewhere...[pause][\\x0203]Maybe there's some\nclue! Let's go in \nfurther![pause]"
+  - '[\x0207][\x020902]3What!?[pause]'
+  - |-
+    [\x0207][\x020902]3What?
+    Why is Oinkmon in
+    Asuka Server?[pause]
+  - |-
+    [\x0207]Oinkmon[\x0207]Oioionk?
+    Oioinoink!
+    Oioinoink??[pause]
+  - |-
+    [\x0207]Oinkmon[\x0207]Oioin, oinnk?
+    Oioionoinkn!
+    Oin, oinoiknk![pause]
+  - |-
+    [\x0207]Oinkmon[\x0207]Oooin, oioink!
+    Oinoink, oink!
+    Oioin, oinnk![pause]

@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Je veux te
+    défier ![pause]
+  - |-
+    [\x0207]Pharaohmon[\x0207]Tu es bien
+    audacieux ![pause][\x0203]Je t'avertis
+    que je suis
+    puissant ![pause]
+  - "[\\x0207][\\x020902]3Cela reste \nà confirmer ![pause]"
+  - "[\\x0207]Pharaohmon[\\x0207]Bon, tu es \nprêt.[pause][\\x0203]Je vais utiliser \nma force \nmaximale ![pause]"

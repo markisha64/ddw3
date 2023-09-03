@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Account Clerk[\x0207]Registration complete.
+    Please head to the
+    Chamber Room.[pause]
+  - |-
+    [\x0207]Junior[\x0207]OK, Teddy, Ivy!
+    Let's go to the
+    Digital World![pause]
+  - "[\\x0207]Ivy[\\x0207]H-hey! \nWait up Junior![pause]"
+  - |-
+    [\x0207]Teddy[\x0207]I'm not done
+    registering![pause]

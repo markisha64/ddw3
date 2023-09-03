@@ -1,0 +1,13 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Mr. Smith[\x0207]Un'occasione![pause][\x0203]Il pezzo principale![pause][\x0203]Lo scudo di Dramon,
+    molto conteso![pause][\x0203]Lo scudo esclusivo
+    di Veemon parte da
+    800 BIT![pause]
+  - '[\x0207]Cliente Abel[\x0207]1100 BIT![pause]'
+  - '[\x0207]Capo Milly[\x0207]1300 BIT![pause]'
+  - '[\x0207]Masao RPG[\x0207]1500 BIT![pause]'
+  - |-
+    [\x0207][\x020902]3Hmm, 1600 BIT
+    Mmmm...[pause]

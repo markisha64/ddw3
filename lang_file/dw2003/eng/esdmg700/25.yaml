@@ -1,0 +1,13 @@
+strings:
+  - ''
+  - "[\\x0207]Chamber Officer[\\x0207]All Green.\nWe have finished\n[\\x020801][\\x020501]'s check.[pause][\\x0203]Reversing the\nMatrix System.[pause][\\x0203]Where do you wish \nto be Realized \nin the Real World?[pause]"
+  - "[\\x0207][\\x020902]3The Military Base\nMagasta in the \nReal World! [pause][\\x0203]It's on the \nocean floor![pause]"
+  - |-
+    [\x0207]Chamber Officer[\x0207]I understand.
+    Military Base
+    Magasta...[pause]
+  - "[\\x0207]Chamber Officer[\\x0207]Confirmed. It is within \nwarp range.[pause][\\x0203]However, due to the \nunstable system...[pause][\\x0203]You will exist in the \nReal World for only\n180 seconds.[pause]"
+  - "[\\x0207][\\x020902]3Wai-wait a sec.  \nWhat happens if I \nrun out of time?[pause]"
+  - "[\\x0207]Chamber Officer[\\x0207]The Realize will turn\noff and the Matrix will\nreturn you here.[pause][\\x0203]The Matrix data will\nnot be broken, so\nyou shouldn't worry.[pause][\\x0203]We will start the \nMatrix System\nnow.[pause]"
+  - "[\\x0207][\\x020902]3All right!\n...so what \nshould I do?[pause]"
+  - "[\\x0207]Chamber Officer[\\x0207]Please move to \nthe warp port \non my left.[pause][\\x0203]Good luck \n[\\x020801][\\x020501].[pause]"

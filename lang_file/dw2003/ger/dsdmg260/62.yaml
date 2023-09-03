@@ -1,0 +1,21 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Also
+    32000 BIT![pause]
+  - |-
+    [\x0207]Mr. Smith[\x0207]Oink!
+    32000 BIT![pause][\x0203]Oinoink, oink
+    32000 BIT?[pause]
+  - |-
+    [\x0207]Mr. Smith[\x0207]Oin oink oioink
+    oink oioink oink.[pause][\x0203]Oioi Oink nk
+    oionko 32000 BIT![pause][\x0203]Oinkoinnnk
+    oi oink oi oiii![pause][\x0203]Oi oinkoo
+    oinoiko oin
+    oioinnnk oink![pause]
+  - "[\\x0207][\\x020902]3Yeah! \nOioi Oink![pause]"
+  - |-
+    [\x0207][\x020902]3Das ist ein echt
+    cooles Item. Was
+    mach ich damit...[pause]

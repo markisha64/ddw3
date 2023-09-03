@@ -1,0 +1,5 @@
+strings:
+  - ''
+  - "[\\x0207]Veemon[\\x0207]Hé, oui. Je suis\nimpressionné ![pause][\\x0203]Tiens, prends les \nArbori-bottes ![pause]"
+  - "[\\x0207][\\x020902]3Bien ! Merci, \nVeemon.[pause][\\x0203]Oui ! J'ai les\nArbori-bottes ![pause]"
+  - "[\\x0207]Veemon[\\x0207]Content pour toi ! \nBon, je rentre \nmanger ![pause][\\x0203]On rejouera un \nde ces quatre.\nA plus tard ![pause]"

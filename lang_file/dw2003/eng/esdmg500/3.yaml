@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Kail[\x0207]Hey [\x020801][\x020501]!
+    Good timing.[pause][\x0203]We've been here
+    a while. Why don't
+    we go back?[pause]
+  - |-
+    [\x0207][\x020902]3Yeah, I've beaten Seiryu
+    and Suzaku Leader, so
+    that's good for now.[pause][\x0203]But what about Teddy?
+    We have to find Teddy![pause]
+  - "[\\x0207]Kail[\\x0207]Teddy is fine. He's in \nAsuka City's \nAdministration Center.[pause][\\x0203]When I saw him last, \nthat's where he said\nhe was going.[pause]"
+  - |-
+    [\x0207][\x020902]3Oh, OK. Then let's
+    hurry back to Asuka
+    City![pause]

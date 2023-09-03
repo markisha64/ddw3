@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - "[\\x0207]Junior[\\x0207]¡Uauu! ¿Ésta es \nla S. de Cámara?[pause][\\x0203]Puedo empezar el \njuego...\n¡Qué emocionante![pause]"
+  - "[\\x0207]Operador.[\\x0207]¿Cuál es vuestro \nnombre de cuenta\nregistrado?[pause]"
+  - '[\x0207]Junior.[\x0207]¡Es [\x020801][\x020501]![pause]'
+  - "[\\x0207]Operador.[\\x0207]...Confirmado.\nGracias.[pause][\\x0203]Entrad en Cápsula \nde Cámara.\nPor aquí.[pause]"
+  - '[\x0207]Junior[\x0207]¡Vale![pause]'
+  - a
+  - "[\\x0207]Ivy.[\\x0207]¡Eh! ¿Te vas\nsin \nnosotros?[pause]"
+  - |-
+    [\x0207]Teddy.[\x0207]¡Junior!
+    ¡Espera![pause]

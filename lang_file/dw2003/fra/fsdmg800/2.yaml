@@ -1,0 +1,35 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Gagné !
+    Je suis le
+    maître ![pause]
+  - |-
+    [\x0207][\x020902]3Tiens ?! Il y a
+    Quelque chose
+    par terre.[pause][\x0203]Une arme
+    de Veemon ![pause][\x0203]Génial ! J'ai le
+    Dramon Guard ![pause]
+  - |-
+    [\x0207][\x020902]3Oh là ! Je n'ai
+    pas le temps.[pause][\x0203]Je dois empêcher
+    le lancement
+    du Juggernaut ![pause]
+  - |-
+    [\x0207][\x020902]3Hm, quel bouton ?
+    ... ... Là !
+    C'est celui-là ![pause]
+  - |-
+    [\x0207][\x020902]3Tiens ? Rien ne
+    se passe ? Mais si
+    l'AoA était ici... [pause][\x0203]Ceci devrait stopper
+    le lancement du
+    Juggernaut ![pause]
+  - "A TOUT LE PERSONNEL DE MAGASTA\nLE BATIMENT SSS JUGGERNAUT\nEST PRESQUE RECHARGE... [pause][\\x0203]TOUT LE PERSONNEL DE LA BASE\nDOIT S'ABRITER. JE REPETE... \nSSS...  NAUT...  PRESQUE...[pause]"
+  - |-
+    [\x0207][\x020902]3... Qu...quoi ?
+    Pourquoi ça
+    ne s'arrête pas ?[pause][\x0203]C'était un
+    piège ![pause][\x0203]Alors l'AoA
+    n'est pas
+    ici ![pause]

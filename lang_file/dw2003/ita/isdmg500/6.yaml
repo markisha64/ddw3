@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Ehi,
+    Numemon![pause]
+  - |-
+    [\x0207]Numemon[\x0207]Sei tu.
+    Perché sei
+    tornato?[pause]
+  - |-
+    [\x0207][\x020902]3Vorrei chiederti
+    una cosa.
+    Posso?[pause]
+  - |-
+    [\x0207]Numemon[\x0207]Non ho nulla
+    da dirti![pause]
+  - '[\x0207][\x020902]3Aspetta![pause]'

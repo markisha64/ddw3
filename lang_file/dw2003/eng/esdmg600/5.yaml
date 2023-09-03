@@ -1,0 +1,32 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Lisa[\x0207]Wow! [\x020801][\x020501],
+    you're good![pause][\x0203]I'm impressed![pause]
+  - |-
+    [\x0207][\x020902]3Huh!? Oh,
+    um, yeah,
+    thanks...[pause]
+  - |-
+    [\x0207][\x020902]3Ah, anyway...
+    Why are you
+    here, Lisa?[pause]
+  - "[\\x0207]Lisa[\\x0207]That's my line.[pause][\\x0203]What are you \ndoing here?[pause]"
+  - |-
+    [\x0207][\x020902]3...me?
+    Um, I...[pause]
+  - "Both of you are \nhere to talk\nwith me, right?[pause]"
+  - |-
+    [\x0207]Lisa[\x0207]Aaaah!
+    Nu-nu-
+    Numemon![pause]
+  - |-
+    [\x0207]Numemon[\x0207]Calm down,
+    Lisa, it's me.[pause]
+  - |-
+    [\x0207][\x020902]3What?!
+    Numemon
+    is human?[pause]
+  - "[\\x0207]Lisa[\\x0207]Oh, now I see.[pause][\\x0203]Don't scare me \nlike that \nLucky Mouse![pause]"
+  - "[\\x0207][\\x020902]3What?! He's Lucky \nMouse?[pause][\\x0203]Th-then that\nNumemon is?![pause]"
+  - "[\\x0207]Lucky Mouse[\\x0207]Huh. Lisa's one thing,\nbut I told you not to\ncome here.[pause][\\x0203]Anyway, it's dangerous\nhere. Let's go to my \nhideout for now![pause]"

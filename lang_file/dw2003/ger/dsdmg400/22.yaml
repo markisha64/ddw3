@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Prima,
+    gewonnen![pause]
+  - "[\\x0207]WarGrowlmon[\\x0207]Das war ein \ntoller Kampf.[pause][\\x0203]OK, nimm sie\nmit![pause]"
+  - |-
+    [\x0207][\x020902]3Hurra! Ich hab
+    die Guilmon-
+    DDNA![pause][\x0203]Danke,
+    WarGrowlman![pause]

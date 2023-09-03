@@ -364,17 +364,17 @@
 							<file name="ESDGNMET.BIN" type="data" source="build/lang_file/dw2003/eng/esdgnmet.bin" />
 							<file name="ESDIGINF.BIN" type="data" source="build/lang_file/dw2003/eng/esdiginf.bin" />
 							<file name="ESDIGNAM.BIN" type="data" source="build/lang_file/dw2003/eng/esdignam.bin" />
-							<file name="ESDMG200.BIN" type="data" source="build/lang_file/dw2003/eng/esdmg200.bin" />
-							<file name="ESDMG260.BIN" type="data" source="build/lang_file/dw2003/eng/esdmg260.bin" />
-							<file name="ESDMG270.BIN" type="data" source="build/lang_file/dw2003/eng/esdmg270.bin" />
-							<file name="ESDMG300.BIN" type="data" source="build/lang_file/dw2003/eng/esdmg300.bin" />
-							<file name="ESDMG305.BIN" type="data" source="build/lang_file/dw2003/eng/esdmg305.bin" />
-							<file name="ESDMG400.BIN" type="data" source="build/lang_file/dw2003/eng/esdmg400.bin" />
-							<file name="ESDMG500.BIN" type="data" source="build/lang_file/dw2003/eng/esdmg500.bin" />
-							<file name="ESDMG600.BIN" type="data" source="build/lang_file/dw2003/eng/esdmg600.bin" />
-							<file name="ESDMG700.BIN" type="data" source="build/lang_file/dw2003/eng/esdmg700.bin" />
-							<file name="ESDMG800.BIN" type="data" source="build/lang_file/dw2003/eng/esdmg800.bin" />
-							<file name="ESDMG900.BIN" type="data" source="build/lang_file/dw2003/eng/esdmg900.bin" />
+							<file name="ESDMG200.BIN" type="data" source="build/pack/dw2003/country/eng/esdmg200.bin" />
+							<file name="ESDMG260.BIN" type="data" source="build/pack/dw2003/country/eng/esdmg260.bin" />
+							<file name="ESDMG270.BIN" type="data" source="build/pack/dw2003/country/eng/esdmg270.bin" />
+							<file name="ESDMG300.BIN" type="data" source="build/pack/dw2003/country/eng/esdmg300.bin" />
+							<file name="ESDMG305.BIN" type="data" source="build/pack/dw2003/country/eng/esdmg305.bin" />
+							<file name="ESDMG400.BIN" type="data" source="build/pack/dw2003/country/eng/esdmg400.bin" />
+							<file name="ESDMG500.BIN" type="data" source="build/pack/dw2003/country/eng/esdmg500.bin" />
+							<file name="ESDMG600.BIN" type="data" source="build/pack/dw2003/country/eng/esdmg600.bin" />
+							<file name="ESDMG700.BIN" type="data" source="build/pack/dw2003/country/eng/esdmg700.bin" />
+							<file name="ESDMG800.BIN" type="data" source="build/pack/dw2003/country/eng/esdmg800.bin" />
+							<file name="ESDMG900.BIN" type="data" source="build/pack/dw2003/country/eng/esdmg900.bin" />
 							<file name="ESFGTRPT.BIN" type="data" source="build/lang_file/dw2003/eng/esfgtrpt.bin" />
 							<file name="ESHTLNAM.BIN" type="data" source="build/lang_file/dw2003/eng/eshtlnam.bin" />
 							<file name="ESITMINF.BIN" type="data" source="build/lang_file/dw2003/eng/esitminf.bin" />
@@ -417,17 +417,17 @@
 							<file name="FSDGNMET.BIN" type="data" source="build/lang_file/dw2003/fra/fsdgnmet.bin" />
 							<file name="FSDIGINF.BIN" type="data" source="build/lang_file/dw2003/fra/fsdiginf.bin" />
 							<file name="FSDIGNAM.BIN" type="data" source="build/lang_file/dw2003/fra/fsdignam.bin" />
-							<file name="FSDMG200.BIN" type="data" source="build/lang_file/dw2003/fra/fsdmg200.bin" />
-							<file name="FSDMG260.BIN" type="data" source="build/lang_file/dw2003/fra/fsdmg260.bin" />
-							<file name="FSDMG270.BIN" type="data" source="build/lang_file/dw2003/fra/fsdmg270.bin" />
-							<file name="FSDMG300.BIN" type="data" source="build/lang_file/dw2003/fra/fsdmg300.bin" />
-							<file name="FSDMG305.BIN" type="data" source="build/lang_file/dw2003/fra/fsdmg305.bin" />
-							<file name="FSDMG400.BIN" type="data" source="build/lang_file/dw2003/fra/fsdmg400.bin" />
-							<file name="FSDMG500.BIN" type="data" source="build/lang_file/dw2003/fra/fsdmg500.bin" />
-							<file name="FSDMG600.BIN" type="data" source="build/lang_file/dw2003/fra/fsdmg600.bin" />
-							<file name="FSDMG700.BIN" type="data" source="build/lang_file/dw2003/fra/fsdmg700.bin" />
-							<file name="FSDMG800.BIN" type="data" source="build/lang_file/dw2003/fra/fsdmg800.bin" />
-							<file name="FSDMG900.BIN" type="data" source="build/lang_file/dw2003/fra/fsdmg900.bin" />
+							<file name="FSDMG200.BIN" type="data" source="build/pack/dw2003/country/fra/fsdmg200.bin" />
+							<file name="FSDMG260.BIN" type="data" source="build/pack/dw2003/country/fra/fsdmg260.bin" />
+							<file name="FSDMG270.BIN" type="data" source="build/pack/dw2003/country/fra/fsdmg270.bin" />
+							<file name="FSDMG300.BIN" type="data" source="build/pack/dw2003/country/fra/fsdmg300.bin" />
+							<file name="FSDMG305.BIN" type="data" source="build/pack/dw2003/country/fra/fsdmg305.bin" />
+							<file name="FSDMG400.BIN" type="data" source="build/pack/dw2003/country/fra/fsdmg400.bin" />
+							<file name="FSDMG500.BIN" type="data" source="build/pack/dw2003/country/fra/fsdmg500.bin" />
+							<file name="FSDMG600.BIN" type="data" source="build/pack/dw2003/country/fra/fsdmg600.bin" />
+							<file name="FSDMG700.BIN" type="data" source="build/pack/dw2003/country/fra/fsdmg700.bin" />
+							<file name="FSDMG800.BIN" type="data" source="build/pack/dw2003/country/fra/fsdmg800.bin" />
+							<file name="FSDMG900.BIN" type="data" source="build/pack/dw2003/country/fra/fsdmg900.bin" />
 							<file name="FSFGTRPT.BIN" type="data" source="build/lang_file/dw2003/fra/fsfgtrpt.bin" />
 							<file name="FSHTLNAM.BIN" type="data" source="build/lang_file/dw2003/fra/fshtlnam.bin" />
 							<file name="FSITMINF.BIN" type="data" source="build/lang_file/dw2003/fra/fsitminf.bin" />
@@ -470,17 +470,17 @@
 							<file name="DSDGNMET.BIN" type="data" source="build/lang_file/dw2003/ger/dsdgnmet.bin" />
 							<file name="DSDIGINF.BIN" type="data" source="build/lang_file/dw2003/ger/dsdiginf.bin" />
 							<file name="DSDIGNAM.BIN" type="data" source="build/lang_file/dw2003/ger/dsdignam.bin" />
-							<file name="DSDMG200.BIN" type="data" source="build/lang_file/dw2003/ger/dsdmg200.bin" />
-							<file name="DSDMG260.BIN" type="data" source="build/lang_file/dw2003/ger/dsdmg260.bin" />
-							<file name="DSDMG270.BIN" type="data" source="build/lang_file/dw2003/ger/dsdmg270.bin" />
-							<file name="DSDMG300.BIN" type="data" source="build/lang_file/dw2003/ger/dsdmg300.bin" />
-							<file name="DSDMG305.BIN" type="data" source="build/lang_file/dw2003/ger/dsdmg305.bin" />
-							<file name="DSDMG400.BIN" type="data" source="build/lang_file/dw2003/ger/dsdmg400.bin" />
-							<file name="DSDMG500.BIN" type="data" source="build/lang_file/dw2003/ger/dsdmg500.bin" />
-							<file name="DSDMG600.BIN" type="data" source="build/lang_file/dw2003/ger/dsdmg600.bin" />
-							<file name="DSDMG700.BIN" type="data" source="build/lang_file/dw2003/ger/dsdmg700.bin" />
-							<file name="DSDMG800.BIN" type="data" source="build/lang_file/dw2003/ger/dsdmg800.bin" />
-							<file name="DSDMG900.BIN" type="data" source="build/lang_file/dw2003/ger/dsdmg900.bin" />
+							<file name="DSDMG200.BIN" type="data" source="build/pack/dw2003/country/ger/dsdmg200.bin" />
+							<file name="DSDMG260.BIN" type="data" source="build/pack/dw2003/country/ger/dsdmg260.bin" />
+							<file name="DSDMG270.BIN" type="data" source="build/pack/dw2003/country/ger/dsdmg270.bin" />
+							<file name="DSDMG300.BIN" type="data" source="build/pack/dw2003/country/ger/dsdmg300.bin" />
+							<file name="DSDMG305.BIN" type="data" source="build/pack/dw2003/country/ger/dsdmg305.bin" />
+							<file name="DSDMG400.BIN" type="data" source="build/pack/dw2003/country/ger/dsdmg400.bin" />
+							<file name="DSDMG500.BIN" type="data" source="build/pack/dw2003/country/ger/dsdmg500.bin" />
+							<file name="DSDMG600.BIN" type="data" source="build/pack/dw2003/country/ger/dsdmg600.bin" />
+							<file name="DSDMG700.BIN" type="data" source="build/pack/dw2003/country/ger/dsdmg700.bin" />
+							<file name="DSDMG800.BIN" type="data" source="build/pack/dw2003/country/ger/dsdmg800.bin" />
+							<file name="DSDMG900.BIN" type="data" source="build/pack/dw2003/country/ger/dsdmg900.bin" />
 							<file name="DSFGTRPT.BIN" type="data" source="build/lang_file/dw2003/ger/dsfgtrpt.bin" />
 							<file name="DSHTLNAM.BIN" type="data" source="build/lang_file/dw2003/ger/dshtlnam.bin" />
 							<file name="DSITMINF.BIN" type="data" source="build/lang_file/dw2003/ger/dsitminf.bin" />
@@ -523,17 +523,17 @@
 							<file name="ISDGNMET.BIN" type="data" source="build/lang_file/dw2003/ita/isdgnmet.bin" />
 							<file name="ISDIGINF.BIN" type="data" source="build/lang_file/dw2003/ita/isdiginf.bin" />
 							<file name="ISDIGNAM.BIN" type="data" source="build/lang_file/dw2003/ita/isdignam.bin" />
-							<file name="ISDMG200.BIN" type="data" source="build/lang_file/dw2003/ita/isdmg200.bin" />
-							<file name="ISDMG260.BIN" type="data" source="build/lang_file/dw2003/ita/isdmg260.bin" />
-							<file name="ISDMG270.BIN" type="data" source="build/lang_file/dw2003/ita/isdmg270.bin" />
-							<file name="ISDMG300.BIN" type="data" source="build/lang_file/dw2003/ita/isdmg300.bin" />
-							<file name="ISDMG305.BIN" type="data" source="build/lang_file/dw2003/ita/isdmg305.bin" />
-							<file name="ISDMG400.BIN" type="data" source="build/lang_file/dw2003/ita/isdmg400.bin" />
-							<file name="ISDMG500.BIN" type="data" source="build/lang_file/dw2003/ita/isdmg500.bin" />
-							<file name="ISDMG600.BIN" type="data" source="build/lang_file/dw2003/ita/isdmg600.bin" />
-							<file name="ISDMG700.BIN" type="data" source="build/lang_file/dw2003/ita/isdmg700.bin" />
-							<file name="ISDMG800.BIN" type="data" source="build/lang_file/dw2003/ita/isdmg800.bin" />
-							<file name="ISDMG900.BIN" type="data" source="build/lang_file/dw2003/ita/isdmg900.bin" />
+							<file name="ISDMG200.BIN" type="data" source="build/pack/dw2003/country/ita/isdmg200.bin" />
+							<file name="ISDMG260.BIN" type="data" source="build/pack/dw2003/country/ita/isdmg260.bin" />
+							<file name="ISDMG270.BIN" type="data" source="build/pack/dw2003/country/ita/isdmg270.bin" />
+							<file name="ISDMG300.BIN" type="data" source="build/pack/dw2003/country/ita/isdmg300.bin" />
+							<file name="ISDMG305.BIN" type="data" source="build/pack/dw2003/country/ita/isdmg305.bin" />
+							<file name="ISDMG400.BIN" type="data" source="build/pack/dw2003/country/ita/isdmg400.bin" />
+							<file name="ISDMG500.BIN" type="data" source="build/pack/dw2003/country/ita/isdmg500.bin" />
+							<file name="ISDMG600.BIN" type="data" source="build/pack/dw2003/country/ita/isdmg600.bin" />
+							<file name="ISDMG700.BIN" type="data" source="build/pack/dw2003/country/ita/isdmg700.bin" />
+							<file name="ISDMG800.BIN" type="data" source="build/pack/dw2003/country/ita/isdmg800.bin" />
+							<file name="ISDMG900.BIN" type="data" source="build/pack/dw2003/country/ita/isdmg900.bin" />
 							<file name="ISFGTRPT.BIN" type="data" source="build/lang_file/dw2003/ita/isfgtrpt.bin" />
 							<file name="ISHTLNAM.BIN" type="data" source="build/lang_file/dw2003/ita/ishtlnam.bin" />
 							<file name="ISITMINF.BIN" type="data" source="build/lang_file/dw2003/ita/isitminf.bin" />
@@ -576,17 +576,17 @@
 							<file name="MSDGNMET.BIN" type="data" source="build/lang_file/dw2003/jpn/msdgnmet.bin" />
 							<file name="MSDIGINF.BIN" type="data" source="build/lang_file/dw2003/jpn/msdiginf.bin" />
 							<file name="MSDIGNAM.BIN" type="data" source="build/lang_file/dw2003/jpn/msdignam.bin" />
-							<file name="MSDMG200.BIN" type="data" source="build/lang_file/dw2003/jpn/msdmg200.bin" />
-							<file name="MSDMG260.BIN" type="data" source="build/lang_file/dw2003/jpn/msdmg260.bin" />
-							<file name="MSDMG270.BIN" type="data" source="build/lang_file/dw2003/jpn/msdmg270.bin" />
-							<file name="MSDMG300.BIN" type="data" source="build/lang_file/dw2003/jpn/msdmg300.bin" />
-							<file name="MSDMG305.BIN" type="data" source="build/lang_file/dw2003/jpn/msdmg305.bin" />
-							<file name="MSDMG400.BIN" type="data" source="build/lang_file/dw2003/jpn/msdmg400.bin" />
-							<file name="MSDMG500.BIN" type="data" source="build/lang_file/dw2003/jpn/msdmg500.bin" />
-							<file name="MSDMG600.BIN" type="data" source="build/lang_file/dw2003/jpn/msdmg600.bin" />
-							<file name="MSDMG700.BIN" type="data" source="build/lang_file/dw2003/jpn/msdmg700.bin" />
-							<file name="MSDMG800.BIN" type="data" source="build/lang_file/dw2003/jpn/msdmg800.bin" />
-							<file name="MSDMG900.BIN" type="data" source="build/lang_file/dw2003/jpn/msdmg900.bin" />
+							<file name="MSDMG200.BIN" type="data" source="build/pack/dw2003/country/jpn/msdmg200.bin" />
+							<file name="MSDMG260.BIN" type="data" source="build/pack/dw2003/country/jpn/msdmg260.bin" />
+							<file name="MSDMG270.BIN" type="data" source="build/pack/dw2003/country/jpn/msdmg270.bin" />
+							<file name="MSDMG300.BIN" type="data" source="build/pack/dw2003/country/jpn/msdmg300.bin" />
+							<file name="MSDMG305.BIN" type="data" source="build/pack/dw2003/country/jpn/msdmg305.bin" />
+							<file name="MSDMG400.BIN" type="data" source="build/pack/dw2003/country/jpn/msdmg400.bin" />
+							<file name="MSDMG500.BIN" type="data" source="build/pack/dw2003/country/jpn/msdmg500.bin" />
+							<file name="MSDMG600.BIN" type="data" source="build/pack/dw2003/country/jpn/msdmg600.bin" />
+							<file name="MSDMG700.BIN" type="data" source="build/pack/dw2003/country/jpn/msdmg700.bin" />
+							<file name="MSDMG800.BIN" type="data" source="build/pack/dw2003/country/jpn/msdmg800.bin" />
+							<file name="MSDMG900.BIN" type="data" source="build/pack/dw2003/country/jpn/msdmg900.bin" />
 							<file name="MSFGTRPT.BIN" type="data" source="build/lang_file/dw2003/jpn/msfgtrpt.bin" />
 							<file name="MSHTLNAM.BIN" type="data" source="build/lang_file/dw2003/jpn/mshtlnam.bin" />
 							<file name="MSITMINF.BIN" type="data" source="build/lang_file/dw2003/jpn/msitminf.bin" />
@@ -629,17 +629,17 @@
 							<file name="SSDGNMET.BIN" type="data" source="build/lang_file/dw2003/spn/ssdgnmet.bin" />
 							<file name="SSDIGINF.BIN" type="data" source="build/lang_file/dw2003/spn/ssdiginf.bin" />
 							<file name="SSDIGNAM.BIN" type="data" source="build/lang_file/dw2003/spn/ssdignam.bin" />
-							<file name="SSDMG200.BIN" type="data" source="build/lang_file/dw2003/spn/ssdmg200.bin" />
-							<file name="SSDMG260.BIN" type="data" source="build/lang_file/dw2003/spn/ssdmg260.bin" />
-							<file name="SSDMG270.BIN" type="data" source="build/lang_file/dw2003/spn/ssdmg270.bin" />
-							<file name="SSDMG300.BIN" type="data" source="build/lang_file/dw2003/spn/ssdmg300.bin" />
-							<file name="SSDMG305.BIN" type="data" source="build/lang_file/dw2003/spn/ssdmg305.bin" />
-							<file name="SSDMG400.BIN" type="data" source="build/lang_file/dw2003/spn/ssdmg400.bin" />
-							<file name="SSDMG500.BIN" type="data" source="build/lang_file/dw2003/spn/ssdmg500.bin" />
-							<file name="SSDMG600.BIN" type="data" source="build/lang_file/dw2003/spn/ssdmg600.bin" />
-							<file name="SSDMG700.BIN" type="data" source="build/lang_file/dw2003/spn/ssdmg700.bin" />
-							<file name="SSDMG800.BIN" type="data" source="build/lang_file/dw2003/spn/ssdmg800.bin" />
-							<file name="SSDMG900.BIN" type="data" source="build/lang_file/dw2003/spn/ssdmg900.bin" />
+							<file name="SSDMG200.BIN" type="data" source="build/pack/dw2003/country/spn/ssdmg200.bin" />
+							<file name="SSDMG260.BIN" type="data" source="build/pack/dw2003/country/spn/ssdmg260.bin" />
+							<file name="SSDMG270.BIN" type="data" source="build/pack/dw2003/country/spn/ssdmg270.bin" />
+							<file name="SSDMG300.BIN" type="data" source="build/pack/dw2003/country/spn/ssdmg300.bin" />
+							<file name="SSDMG305.BIN" type="data" source="build/pack/dw2003/country/spn/ssdmg305.bin" />
+							<file name="SSDMG400.BIN" type="data" source="build/pack/dw2003/country/spn/ssdmg400.bin" />
+							<file name="SSDMG500.BIN" type="data" source="build/pack/dw2003/country/spn/ssdmg500.bin" />
+							<file name="SSDMG600.BIN" type="data" source="build/pack/dw2003/country/spn/ssdmg600.bin" />
+							<file name="SSDMG700.BIN" type="data" source="build/pack/dw2003/country/spn/ssdmg700.bin" />
+							<file name="SSDMG800.BIN" type="data" source="build/pack/dw2003/country/spn/ssdmg800.bin" />
+							<file name="SSDMG900.BIN" type="data" source="build/pack/dw2003/country/spn/ssdmg900.bin" />
 							<file name="SSFGTRPT.BIN" type="data" source="build/lang_file/dw2003/spn/ssfgtrpt.bin" />
 							<file name="SSHTLNAM.BIN" type="data" source="build/lang_file/dw2003/spn/sshtlnam.bin" />
 							<file name="SSITMINF.BIN" type="data" source="build/lang_file/dw2003/spn/ssitminf.bin" />
@@ -682,16 +682,16 @@
 							<file name="USDGNMET.BIN" type="data" source="build/lang_file/dw2003/usa/usdgnmet.bin" />
 							<file name="USDIGINF.BIN" type="data" source="build/lang_file/dw2003/usa/usdiginf.bin" />
 							<file name="USDIGNAM.BIN" type="data" source="build/lang_file/dw2003/usa/usdignam.bin" />
-							<file name="USDMG200.BIN" type="data" source="build/lang_file/dw2003/usa/usdmg200.bin" />
-							<file name="USDMG260.BIN" type="data" source="build/lang_file/dw2003/usa/usdmg260.bin" />
-							<file name="USDMG270.BIN" type="data" source="build/lang_file/dw2003/usa/usdmg270.bin" />
-							<file name="USDMG300.BIN" type="data" source="build/lang_file/dw2003/usa/usdmg300.bin" />
-							<file name="USDMG305.BIN" type="data" source="build/lang_file/dw2003/usa/usdmg305.bin" />
-							<file name="USDMG400.BIN" type="data" source="build/lang_file/dw2003/usa/usdmg400.bin" />
-							<file name="USDMG500.BIN" type="data" source="build/lang_file/dw2003/usa/usdmg500.bin" />
-							<file name="USDMG600.BIN" type="data" source="build/lang_file/dw2003/usa/usdmg600.bin" />
-							<file name="USDMG700.BIN" type="data" source="build/lang_file/dw2003/usa/usdmg700.bin" />
-							<file name="USDMG800.BIN" type="data" source="build/lang_file/dw2003/usa/usdmg800.bin" />
+							<file name="USDMG200.BIN" type="data" source="build/pack/dw2003/country/usa/usdmg200.bin" />
+							<file name="USDMG260.BIN" type="data" source="build/pack/dw2003/country/usa/usdmg260.bin" />
+							<file name="USDMG270.BIN" type="data" source="build/pack/dw2003/country/usa/usdmg270.bin" />
+							<file name="USDMG300.BIN" type="data" source="build/pack/dw2003/country/usa/usdmg300.bin" />
+							<file name="USDMG305.BIN" type="data" source="build/pack/dw2003/country/usa/usdmg305.bin" />
+							<file name="USDMG400.BIN" type="data" source="build/pack/dw2003/country/usa/usdmg400.bin" />
+							<file name="USDMG500.BIN" type="data" source="build/pack/dw2003/country/usa/usdmg500.bin" />
+							<file name="USDMG600.BIN" type="data" source="build/pack/dw2003/country/usa/usdmg600.bin" />
+							<file name="USDMG700.BIN" type="data" source="build/pack/dw2003/country/usa/usdmg700.bin" />
+							<file name="USDMG800.BIN" type="data" source="build/pack/dw2003/country/usa/usdmg800.bin" />
 							<!-- TODO: Make this be able to be built from `mklang-file`? -->
 							<file name="USDMG900.BIN" type="data" source="dw2003/AAA/DAT/COUNTRY/USA/USDMG900.BIN" />
 							<file name="USFGTRPT.BIN" type="data" source="build/lang_file/dw2003/usa/usfgtrpt.bin" />

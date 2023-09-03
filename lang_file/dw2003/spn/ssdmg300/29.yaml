@@ -1,0 +1,35 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Chico Futbolista[\x0207]Uff, Cardmon
+    no sale...[pause][\x0203]Y además perdí
+    a Gabumon...[pause]
+  - |-
+    [\x0207][\x020902]3¿Eh? ¿Por
+    qué das patadas
+    a los árboles?[pause]
+  - |-
+    [\x0207]Chico Futbolista[\x0207]¿Eh? ¿Preguntas
+    por qué pateo
+    los árboles?[pause][\x0203]¡Para encontrar a
+    Cardmon, claro![pause]
+  - |-
+    [\x0207][\x020902]3¿Cardmon?
+    ¿Qué es eso?
+    ¿Un Digimon?[pause]
+  - "[\\x0207]Chico Futbolista[\\x0207]Cardmon es un Digimon\nque suelta expansiones \ncon cartas adicionales.[pause][\\x0203]Sólo Divermon en\nla ciudad puede abrir\nlos propulsores.[pause]"
+  - "[\\x0207][\\x020902]3¿Cardmon suelta\nexpansiones?[pause][\\x0203]...Déjame \na mi también...[pause]"
+  - |-
+    [\x0207]Chico Futbolista[\x0207]Je je je. Necesitas
+    las Botas Árbol
+    para probar.[pause][\x0203]¿Quieres conseguir
+    las Botas? Bueno
+    entonces...[pause][\x0203]He perdido mi carta
+    de Gabumon.
+    ¿La buscas?[pause][\x0203]Si la encuentras
+    te diré cómo
+    obtener las botas.[pause]
+  - |-
+    [\x0207][\x020902]3¿Car. Gabumon?
+    ¡La encontraré y
+    volveré![pause]

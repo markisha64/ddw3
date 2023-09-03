@@ -1,0 +1,8 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Mmm, non
+    trovo Veemon.[pause][\x0203]Mmm...
+    Che faccio?
+    Mmm...[pause]
+  - "[\\x0207][\\x020902]3Non mi resta\nche lasciare la \nforesta.[pause]"

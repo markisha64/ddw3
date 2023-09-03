@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3¡Espera![pause][\x0203]¡No os dejaré
+    lanzar el Juggernaut![pause]
+  - |-
+    [\x0207]Soldado mecánico[\x0207]¡GGzzz, GGzzz!
+    ¡Alerta, intruso!
+    ¡Alerta, intruso![pause][\x0203]¡Eliminar ahora![pause]

@@ -8,7 +8,7 @@ use {
 	anyhow::Context,
 	args::Args,
 	clap::Parser,
-	ddw3_lang_file::{ExtendedLangFile, LangFile, SimpleLangFile},
+	ddw3_lang_file::LangFile,
 	std::{
 		fs,
 		io::{BufReader, BufWriter},
@@ -28,16 +28,7 @@ fn main() -> Result<(), anyhow::Error> {
 	let input_file = BufReader::new(input_file);
 
 	// Then read it
-	let lang_file = match args.extended {
-		true => {
-			let lang_file = ExtendedLangFile::parse(input_file).context("Unable to parse extended lang file")?;
-			LangFile::Extended(lang_file)
-		},
-		false => {
-			let lang_file = SimpleLangFile::parse(input_file).context("Unable to parse simple lang file")?;
-			LangFile::Simple(lang_file)
-		},
-	};
+	let lang_file = LangFile::parse(input_file).context("Unable to parse lang file")?;
 
 	let output = ddw3_util::create_output_file(args.output_file.as_deref()).context("Unable to create output file")?;
 	let output = BufWriter::new(output);

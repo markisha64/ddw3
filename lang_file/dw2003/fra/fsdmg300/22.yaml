@@ -1,0 +1,51 @@
+strings:
+  - ''
+  - "[\\x0207]Kail[\\x0207][\\x020801][\\x020501]  !\nDieu merci  ! \nTu as raison  ![pause]"
+  - "[\\x0207][\\x020902]3...Kail  !\nQu'est-ce...?[pause][\\x0203]Que font-ils\ntous en \nOinkmons ?[pause]"
+  - |-
+    [\x0207]Kail[\x0207]Les Vemmons !
+    C'est eux qui
+    ont fait ça ![pause]
+  - |-
+    [\x0207][\x020902]3Quoi ?
+    Qu'est-ce
+    que tu dis ?[pause]
+  - "[\\x0207]Kail[\\x0207]De nombreux Vemmons  \nsont sortis du Centre  \nAdm. d'Amaterasu  ![pause][\\x0203]Puis ils ont envoyé\ndes rayons et...[pause][\\x0203]transformé tout le \nmonde en Oinkmons  ![pause]"
+  - "[\\x0207][\\x020902]3Mais les Vemmons \nn'ont pas un\ntel pouvoir...[pause][\\x0203]Ont-ils été...\nreprogrammés ?[pause]"
+  - "[\\x0207]Kail[\\x0207]Je ne sais pas.[pause][\\x0203]Je me suis cachée\navec les autres\nau sous-sol.[pause][\\x0203]J'étais la seule à\nn'avoir pas été \ntransformée.[pause][\\x0203]Teddy et Lisa\nont été changés\nen Oinkmons.[pause]"
+  - "[\\x0207][\\x020902]3Que se passe-t-il ?[pause][\\x0203]Et où sont partis \nles Vemmons ?[pause]"
+  - "[\\x0207][\\x020902]3Et où sont partis \nles Vemmons ?[pause]"
+  - "[\\x0207]Kail[\\x0207]Ils sont allés tout \ndroit vers la salle \ndu Maître ![pause]"
+  - |-
+    [\x0207][\x020902]3Cette salle
+    recèle donc
+    un secret ![pause][\x0203]Bien, allons-y ![pause][\x0203]Kail, va te mettre
+    en lieu sûr ![pause]
+  - |-
+    [\x0207]Kail[\x0207]Quoi ? !
+    Mais...
+    [\x020801][\x020501]...[pause]
+  - "[\\x0207][\\x020902]3Je suis le seul dans \nce monde à pouvoir \nles combattre ![pause][\\x0203]Ne t'inquiète pas !\nLaisse-moi faire ![pause]"
+  - "[\\x0207]Kail[\\x0207]... Bien.\nJe crois en toi\n[\\x020801][\\x020501].[pause][\\x0203]Mais si tu \nperds, gare à \ntoi ![pause]"
+  - |-
+    [\x0207][\x020902]3Très bien !
+    J'y vais ![pause]
+  - |-
+    [\x0207]Kail[\x0207]Sois prudent
+    [\x020801][\x020501].[pause]
+  - |-
+    [\x0207]Kail[\x0207]L'A.o.A n'est pas
+    encore vaincue...[pause]
+  - |-
+    [\x0207][\x020902]3...alors
+    tous les
+    autres... ?[pause]
+  - "[\\x0207]Kail[\\x0207]Oui. Teddy, \nLisa et les autres \nsont des Oinkmons.[pause]"
+  - '[\x0207][\x020902]3Hé, Kail ?![pause]'
+  - |-
+    [\x0207]Kurt[\x0207]Oink !
+    Oin, ooink ![pause]
+  - |-
+    [\x0207]Kurt[\x0207]Ooink !
+    Ooi, oink ![pause]
+  - "[\\x0207]Kail[\\x0207]Je me demande ce \nqu'il se passe dans \nle Monde Réel...[pause]"

@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Metallsoldat[\x0207]Eindringling, Alarm!
+    Eindringling, Alarm![pause][\x0203]Entfernt sie vom
+    Gelände![pause]
+  - |-
+    [\x0207][\x020902]3Komm schon her!
+    Ich schick dich
+    zum Teufel![pause]

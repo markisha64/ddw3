@@ -1,0 +1,20 @@
+strings:
+  - ''
+  - a
+  - |-
+    [\x0207]Datamon[\x0207]Bist du ge-
+    kommen, um mit
+    mir zu kämpfen?[pause][\x0203]Ich bin jederzeit
+    bereit! Lass uns
+    kämpfen![pause]
+  - |-
+    [\x0207][\x020902]3In Ordnung! Lass
+    uns kämpfen![pause]
+  - |-
+    [\x0207]Datamon[\x0207]Beep! Du darfst
+    m. n. kopieren![pause][\x0203]Du musst dir
+    selbst etwas
+    ausdenken![pause]
+  - |-
+    [\x0207][\x020902]3Was? OK. Auf
+    in den Kampf.[pause]

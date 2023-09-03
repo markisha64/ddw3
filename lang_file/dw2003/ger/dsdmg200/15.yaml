@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - "[\\x0207]Digitations-Navi.[\\x0207]Ich gebe dir Tipps,\nwie du dein Digimon \nz. Digitieren züchtest.[pause][\\x0203]Daten werd. auf dem\nSatelliten angezeigt.[pause]"
+  - "\"Kotemon\"\nKann Agumon-/Veemon-Typen lernen,\nwenn du Maschinentoleranz trainierst.[pause][\\x0203]\"Monmon\"\nWenn es Ultimativ kann, trainiere \nStärke, Maschinen- und Windtoleranz.[pause][\\x0203]\"Kuanmon\"\nTrainiere Weisheit und Geist, die am\nschwierigsten sind.[pause]"
+  - |-
+    "Renamon"
+    Trainiere Geist o. Stärke u. Abwehr.[pause][\x0203]"Patamon"
+    Trainiere Weisheit oder Stärke.[pause]
+  - "\"Agumon\"\nWenn du Dunkelheittoleranz erhöhst,\nlernt es Dunkelheitsdigitation.[pause][\\x0203]\"Guilmon\"\nDa dies Teilparameter sind, soll- \nten die Schwächen gestärkt werden.[pause]"
+  - |-
+    [\x0207]Digitations-Navi.[\x0207]Das war schon
+    alles. Viel Glück![pause]

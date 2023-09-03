@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Are you the
+    Bai Hu Chief!?[pause]
+  - |-
+    [\x0207]Bai Hu Chief[\x0207]That's right...
+    What do you want?[pause]
+  - "[\\x0207][\\x020902]3Give me the \nWhite ID Pass\nthat you have![pause]"
+  - "[\\x0207]Bai Hu Chief[\\x0207]I see.\nHeh heh heh![pause][\\x0203]No matter what you \ndo, victory will be\nours![pause][\\x0203]Now it's time to\nlearn your lesson![pause]"

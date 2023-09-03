@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - "[\\x0207]KingEtemon[\\x0207]Tu me plais, je \nvais te donner\nle Trophée Solaire.[pause]"
+  - "[\\x0207][\\x020902]3Merci,\nKingEtemon![pause][\\x0203]Oui ! j'ai  \nle Trophée \nSolaire ![pause]"
+  - "[\\x0207]KingEtemon[\\x0207]Voici le symbole  \ndu Roi des cartes\nd'Amaterasu ![pause]"
+  - "[\\x0207][\\x020902]3Super ! Je suis \nle meilleur joueur \nd'Amaterasu ![pause]"
+  - "[\\x0207]KingEtemon[\\x0207]Quoi ?\nNon ! C'est moi\nle meilleur ![pause][\\x0203]Tu as juste \neu de la\nchance ![pause]"
+  - |-
+    [\x0207][\x020902]3Hé hé hé.
+    Bon, je m'en
+    vais ![pause][\x0203]A plus, KingEtemon![pause]

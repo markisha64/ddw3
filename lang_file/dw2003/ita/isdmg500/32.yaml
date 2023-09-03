@@ -1,0 +1,22 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Ma dove?
+    Dove?[pause]
+  - |-
+    [\x0207]Patamon[\x0207]Io non lo so.[pause][\x0203]Ma ho udito uno
+    strano suono venire
+    dalla giungla.[pause]
+  - |-
+    [\x0207][\x020902]3Strano
+    suono?[pause]
+  - |-
+    [\x0207]Patamon[\x0207]Si, come un Digimon
+    o una macchina! Uno
+    strano suono![pause][\x0203]La governatrice l'ha
+    udito ed è scappata.[pause][\x0203]Forse anche lei
+    è andata verso
+    la giungla![pause]
+  - |-
+    [\x0207][\x020902]3Capisco.
+    Beh, grazie![pause]

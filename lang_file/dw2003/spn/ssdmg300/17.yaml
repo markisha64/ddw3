@@ -1,0 +1,26 @@
+strings:
+  - ''
+  - "[\\x0207]???[\\x0207]Son unos \ninútiles...[pause][\\x0203]¡Pero estoy \nimpresionado\ncon tu fuerza![pause]"
+  - "[\\x0207][\\x020902]3...¿Eres el\nPresidente de \nMAGAMI?[pause]"
+  - |-
+    [\x0207]???[\x0207]...¿Presidente?
+    Ah, sí...[pause][\x0203]¿Pero me puedes
+    llamar Oficial Jefe?
+    Suena guay.[pause]
+  - |-
+    [\x0207][\x020902]3¡Deja de jugar!
+    ¡Detén a Destromon
+    ahora mismo![pause]
+  - "[\\x0207]Oficial jefe[\\x0207]Eh, tranquilo.\n¿Por qué no te \nunes a nosotros?[pause][\\x0203]¡Si aceptas, te haré \nmi segundo![pause]"
+  - |-
+    [\x0207][\x020902]3¡Nada de eso!
+    ¡Tu usas Digimon
+    para el mal![pause][\x0203]¡Incluso si muero
+    nunca seré de los
+    vuestros![pause]
+  - "[\\x0207]Oficial jefe[\\x0207]Acabas de desperdiciar\ntu oportunidad. Eres\nun poco estúpido.[pause][\\x0203]Por cierto, es muy\ntarde para cambiar de \nidea...[pause]"
+  - |-
+    [\x0207][\x020902]3Dijeron que eran
+    Guardas Reales...[pause][\x0203]¡Entonces el tipo
+    al mando está más
+    adelante![pause]

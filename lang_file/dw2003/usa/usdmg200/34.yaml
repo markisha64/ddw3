@@ -1,0 +1,24 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3OK, then let's go \nto North Sector now![pause]"
+  - "[\\x0207]Teddy[\\x0207]...but wait!\nHow do you get to\nNorth Sector?[pause][\\x0203]There's no road and \nyou can't go there \nwith Submarimon![pause]"
+  - "[\\x0207][\\x020902]3...ah, \nis that \nso...?[pause]"
+  - "[\\x0207]Teddy[\\x0207]Actually I heard the \nguards talking in the\nprison.[pause][\\x0203]If you ask Digmon\nyou can get to\nNorth Sector...[pause]"
+  - |-
+    [\x0207][\x020902]3Well then,
+    that's easy![pause]
+  - "[\\x0207]Teddy[\\x0207]But you need the Digi-Egg \nof Knowledge to call \nDigmon...[pause][\\x0203]And I think that's a rare \nitem only in Amaterasu \nServer...[pause]"
+  - "[\\x0207][\\x020902]3OK, then let's go \nto Amaterasu to \nlook![pause]"
+  - "[\\x0207]Teddy[\\x0207]But how are we \ngoing to \nAmaterasu?[pause][\\x0203]I'm sure it's just \ncrawling with the \nA.o.A...[pause]"
+  - |-
+    [\x0207][\x020902]3...Hmmm...
+    Now that you
+    mention it...[pause]
+  - "[\\x0207][\\x020902]3But wait. How did \nthe A.o.A get \nhere?[pause]"
+  - "[\\x0207]Teddy[\\x0207]...Oh yeah!\nThe soldiers in \nByakko City![pause]"
+  - "[\\x0207][\\x020902]3Maybe they know \nsomething![pause]"
+  - "[\\x0207]Teddy[\\x0207]I'm sure they \ndo, [\\x020801][\\x020501]![pause]"
+  - "[\\x0207][\\x020902]3OK, I'm going \nto West Sector\nto investigate![pause]"
+  - "[\\x0207]Teddy[\\x0207]Be careful.\nI'm going to look \ninto this computer![pause]"
+  - "[\\x0207][\\x020902]3OK. If you find \nout something, \nlet me know![pause]"
+  - "[\\x0207]Teddy[\\x0207]Roger!\nLeave it to \nme![pause]"

@@ -1,0 +1,31 @@
+strings:
+  - ''
+  - '[\x0207]Gioc. misterioso[\x0207]Ehi! Aspetta![pause]'
+  - |-
+    [\x0207][\x020902]3Parli
+    forse con
+    me?[pause]
+  - |-
+    [\x0207]Gioc. misterioso[\x0207]Certo!
+    Con te![pause][\x0203]Sei [\x020801][\x020501]? Hai vinto
+    contro il governatore
+    di Seiryu?[pause]
+  - |-
+    [\x0207][\x020902]3Sì, e tu
+    chi sei?[pause]
+  - |-
+    [\x0207]Keith[\x0207]Mi chiamo Keith, e
+    non dimenticarlo
+    mai, ragazzo![pause][\x0203]Sono quello che
+    vincerà il
+    torneo![pause]
+  - |-
+    [\x0207][\x020902]3Ah sì? Lo
+    vedremo
+    presto![pause]
+  - |-
+    [\x0207]Keith[\x0207]Ah, ah, ah, bene!
+    Allora vuoi
+    batterti con me?[pause]
+  - '[\x0207][\x020902]3Certo![pause]'
+  - "[\\x0207]Keith[\\x0207]Scusa, ma non \nvoglio usare i\npugni![pause]"

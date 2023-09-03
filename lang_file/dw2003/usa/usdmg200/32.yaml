@@ -1,0 +1,13 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3I'm going to \nget that\nLucky Mouse![pause]"
+  - |-
+    [\x0207]Kail[\x0207]Sorry. I just
+    remembered I've
+    got to go...[pause]
+  - |-
+    [\x0207][\x020902]3...Huh?
+    What's up with Kail?[pause][\x0203]Oh, well. I've got
+    Digimon that I can
+    count on![pause][\x0203]OK, guys! We're going
+    to West Sector![pause]

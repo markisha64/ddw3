@@ -1,0 +1,8 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Kail[\x0207]So how do
+    we change
+    into Digimon?[pause]
+  - "[\\x0207][\\x020902]3Hey! Take a \nlook at what I\ngot![pause]"
+  - "[\\x0207]Kail[\\x0207]Perfect, with \nthese it should be \nno problem.[pause][\\x0203]We'll put on the \nAgumon Suits and \nlook for Teddy![pause]"

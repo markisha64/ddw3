@@ -1,0 +1,7 @@
+strings:
+  - ''
+  - |-
+    Thank you for waiting.
+    We will now resume
+    gondola operation.[pause]
+  - "[\\x0207][\\x020902]3Ah...\nHey, wait![pause][\\x0203]Shoot, it got \naway.[pause]"

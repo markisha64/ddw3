@@ -1,0 +1,15 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3OK, we're going \ninto Amaterasu \nCity![pause]"
+  - |-
+    [\x0207]Teddy[\x0207]Hey [\x020801][\x020501]!
+    Wait a sec![pause]
+  - "[\\x0207][\\x020902]3...Teddy!\nYou came \nover here!?[pause]"
+  - "[\\x0207]Teddy[\\x0207]Yeah, I came with \nLisa and the others.[pause][\\x0203]Hey [\\x020801][\\x020501], can \nyou wait a moment \nbefore you go in!?[pause][\\x0203]Lisa is bringing \neveryone from the \nResistance![pause]"
+  - "[\\x0207][\\x020902]3Then, what \nabout the\nA.o.A...?[pause]"
+  - "[\\x0207]Teddy[\\x0207]They've been routed \nby the Resistance![pause][\\x0203]Once we get the four \ncities, we only have \nAmaterasu City left![pause]"
+  - |-
+    [\x0207][\x020902]3I see!
+    So now...[pause]
+  - "[\\x0207]Teddy[\\x0207]Yeah, it's our \nfinal battle![pause][\\x0203]We're going to \ndefeat the \nA.o.A![pause]"
+  - "[\\x0207][\\x020902]3Yeah, right on![pause][\\x0203]If we fight \ntogether, the \nA.o.A is nothing![pause]"

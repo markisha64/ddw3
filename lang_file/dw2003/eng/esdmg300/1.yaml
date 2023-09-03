@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - "[\\x0207]Man[\\x0207]Woah - hey, who\nare you?![pause][\\x0203]Don't sneak up on \nme like that!\nYou scared me...[pause]"
+  - "[\\x0207][\\x020902]3Ah, ah...\nI'm sorry \nmister...[pause]"
+  - "[\\x0207]Man[\\x0207]...I'm not an \nold man![pause][\\x0203]I'm Nick. I'm \nonly 21![pause]"
+  - |-
+    [\x0207][\x020902]3Oh, ah,
+    yeah, sorry![pause]
+  - "[\\x0207]Nick[\\x0207]Are there only rude \npeople on this \nserver?[pause][\\x0203]First Etemon, and\nnow you...[pause]"
+  - "[\\x0207][\\x020902]3...Etemon?\nDid something \nhappen?[pause]"
+  - "[\\x0207]Nick[\\x0207]I found this huge\ngaudy shield.[pause][\\x0203]Then Etemon came and \nsaid that it was his...[pause][\\x0203]...And took it from me \nwithout even saying \nthank you.[pause]"
+  - "[\\x0207][\\x020902]3...Etemon?\nA gaudy \nshield?[pause][\\x0203]...I wonder \nwhat that \nis...[pause]"
+  - "[\\x0207]Nick[\\x0207]Hey, I'm \npretty busy\nso...[pause]"
+  - "[\\x0207]Nick[\\x0207]Why aren't they doing \ntheir jobs?[pause][\\x0203]I wish they'd look at me \nas an example...[pause]"

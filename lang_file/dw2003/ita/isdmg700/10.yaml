@@ -1,0 +1,18 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Strega ghiaccio[\x0207]Un momento! Non
+    posso far passare
+    un ragazzo![pause][\x0203]Vattene a
+    casa![pause]
+  - |-
+    [\x0207][\x020902]3Stai scherzando,
+    spero. Non ho
+    tempo da perdere![pause]
+  - |-
+    [\x0207]Strega ghiaccio[\x0207]Sono la regina
+    della grotta del
+    ghiaccio! Bada![pause][\x0203]Non ti perdonerò!
+    Sarai punito per
+    questo![pause]
+  - '[\x0207][\x020902]3?!?[pause]'

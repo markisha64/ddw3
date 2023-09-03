@@ -1,0 +1,13 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3¿Pero qué...?
+    Eres un Numemon
+    de color.[pause]
+  - |-
+    [\x0207]BK KingNumemon[\x0207]¡No pienses que soy
+    como los demás![pause][\x0203]Yo, BK KingNumemon,
+    soy muy superior a
+    otros Numemon.[pause]
+  - "[\\x0207][\\x020902]3Superior, ¿eh?\n¡No lo \npareces![pause]"
+  - '[\x0207]BK KingNumemon[\x0207]¡Te lo mostraré![pause]'

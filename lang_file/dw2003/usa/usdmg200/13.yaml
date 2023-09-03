@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - "[\\x0207]Digimon Navi[\\x0207]Clues about Digimon \nBattle and raising Digimon \nare provided here.[pause][\\x0203]I will display the data \non your satellite.[pause]"
+  - "\"Types of Attacks\"\nUse physical, magic and support\ntechniques as needed.[pause][\\x0203]\"Attack Attributes\"\nAttack opponents with opposing \nattributes and use ally attributes.[pause]"
+  - "\"Technique Effects\"\nEffectiveness of poison, paralysis \nand others differ with Digimon.[pause][\\x0203]\"Status Ailments\"\nStatus ailments except \"curse\" by\nCardmon will go away after battle.[pause]"
+  - "\"DNA Digivolve\"\nCombine two Digimon into one. After\nDNA digivolve, the two will switch.[pause][\\x0203]\"EXP Distribution\"\nAll Digimon that appeared in battle \nwill receive EXP.[pause]"
+  - "\"Training\"\nDigimon can be trained at a gym \nby using TP (Training Points).[pause][\\x0203]\"Digivolution Skills\"\nDigivolved form skills will increase\nas you gain EXP.[pause]"
+  - a
+  - "[\\x0207]Digimon Navi[\\x0207]That's all of the \ninformation.\nWell, good luck![pause]"

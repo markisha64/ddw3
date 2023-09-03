@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Caballero Oscuro[\x0207]Tienes algunos
+    movimientos que no
+    había visto antes.[pause]
+  - |-
+    [\x0207]Caballero Oscuro[\x0207]¡Adelante!
+    ¡Vas a ser un
+    gran domador![pause]
+  - "[\\x0207][\\x020902]3¡Sí, \ngracias![pause]"

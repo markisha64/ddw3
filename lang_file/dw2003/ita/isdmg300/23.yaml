@@ -1,0 +1,50 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Teddy[\x0207]Oi!
+    Oi, oi, oin!
+    Oi, ooin, oooink![pause]
+  - |-
+    [\x0207]Lisa[\x0207]!
+    Oi, oi, oi, oi
+    ooiink, ooi![pause]
+  - |-
+    [\x0207]Nick[\x0207]Onk!
+    Oooink, oin, onkk!
+    Oi, ooinoinkoink![pause]
+  - |-
+    [\x0207]Keith [\x0207]Oin?
+    Oin, oi, oin?
+    Oooin, oioink![pause]
+  - |-
+    [\x0207][\x020902]3Te-Teddy?
+    Cosa?! Lisa, Nick e
+    anche Keith...[pause]
+  - "[\\x0207]Teddy[\\x0207]Oi, oionk, oink!\nOi, oioooin, oink\noioink, oionnk![pause][\\x0203]Oion, ooin, oink!\nOiin, oink ooin!\nOionknoink, oink?[pause][\\x0203]Oooinkninon?\nOinok, onnknon?\nOin, oinknkoin??[pause][\\x0203]Oin, oinok, oioninoo!\nOin, oooin, ooin\noinonk, oink, ooin![pause][\\x0203]Oin oinoink \noioin oino ioni oino\noinoin, oinoinok oink![pause][\\x0203]Ooinoin, oinoinoik!\nOoinoino, oinoinok\noioioinonoino oihoinonk![pause]"
+  - |-
+    [\x0207][\x020902]3Teddy, non ho
+    idea di cosa
+    stai dicendo.[pause][\x0203]Aspetta qui
+    con Lisa e
+    gli altri![pause][\x0203]Troverò un
+    rimedio![pause]
+  - |-
+    [\x0207][\x020902]3OK,
+    ora vado!
+    Aspettatemi![pause]
+  - |-
+    [\x0207]Teddy[\x0207]Oin, oin ooink!
+    Oion, oioinoink!
+    Oion, oin, ooooink![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Ooin, oioinoin
+    oioino oioi oin
+    oooinkooink![pause]
+  - |-
+    [\x0207]Nick[\x0207]Oio, oioin
+    oioink, oioink!
+    Oion, oinno oinoink![pause]
+  - |-
+    [\x0207]Keith[\x0207]Ooionk oink
+    oionoon oioin
+    oooinkko![pause]

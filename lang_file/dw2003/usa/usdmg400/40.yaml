@@ -1,0 +1,7 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3....
+    Hey that's...![pause]
+  - "[\\x0207][\\x020902]3Awesome! I got the \nDigi-Egg of Sincerity![pause]"
+  - "[\\x0207][\\x020902]3Now I can call\nSubmarimon and \ncross the ocean![pause]"

@@ -1,0 +1,19 @@
+strings:
+  - ''
+  - |-
+    ÜBER 180 SEKUNDEN
+    ÜBER 180 SEKUNDEN[pause][\x0203]ÜBERTRAGUNGSGRENZE
+    ERREICHT. DIGITATION
+    ERZWINGEN![pause]
+  - |-
+    [\x0207]Kammer-Offizier[\x0207]...Sternengerät ist
+    komplett grün. Keine
+    abnormen Daten.[pause][\x0203]Digitation beendet![pause]
+  - |-
+    [\x0207][\x020902]3...oh, Zeit
+    wird knapp!
+    Bin zurück![pause]
+  - |-
+    [\x0207][\x020902]3Was soll ich tun?!
+    Juggernaut wird
+    starten![pause]

@@ -1,0 +1,13 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Feuermaster[\x0207]Es wird gefährlich!
+    Geh besser
+    zurück![pause][\x0203]Oder willst du mich
+    besiegen u. weiter-
+    gehen?[pause]
+  - "[\\x0207][\\x020902]3Genau, das\nstimmt. Darum \nbin ich hier![pause]"
+  - "[\\x0207]Feuermaster[\\x0207]Du bist ein\nlästiger \nTamer...[pause][\\x0203]Wenn du ge-\nwinnst, kannst\ndu gehen.[pause]"
+  - |-
+    [\x0207][\x020902]3OK! Los
+    kämpfe![pause]

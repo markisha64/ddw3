@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Cos'è questo
+    pannello?[pause][\x0203]C'è un pulsante
+    qui. Lo premerò![pause]
+  - |-
+    [\x0207][\x020902]3Chissà a
+    cosa
+    serviva?[pause]

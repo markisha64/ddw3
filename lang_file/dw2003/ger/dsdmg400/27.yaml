@@ -1,0 +1,18 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Sicher!
+    Ich besieg
+    dich jederzeit![pause]
+  - |-
+    [\x0207]BK Imperialdra.[\x0207]Du hast Mut!
+    Du gefällst
+    mir![pause]
+  - |-
+    [\x0207][\x020902]3Hey, ich hab
+    auch Stärke![pause]
+  - |-
+    [\x0207]BK Imperialdramon[\x0207]Du hast viel
+    Vertrauen![pause][\x0203]Super. Das
+    wird ein
+    gutes Spiel![pause]

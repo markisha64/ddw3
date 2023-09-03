@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3What do you \nmean by \nthat?[pause]"
+  - "[\\x0207]BK Seraphimon[\\x0207]It means, you will \nfight with me![pause][\\x0203]If you win, I will \nlet you go...[pause][\\x0203]But if you lose, \nthis is the end![pause]"
+  - |-
+    [\x0207][\x020902]3OK, I get it.
+    Then let's do
+    this![pause]
+  - "[\\x0207]BK Seraphimon[\\x0207]You will not be \nsaying that for\nlong![pause][\\x0203]You had better\nprepare \nyourself![pause]"

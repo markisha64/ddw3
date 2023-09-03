@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - |-
+    [\x0207]BK Imperialdramon[\x0207]Hey, I lost.
+    You got
+    power![pause]
+  - "[\\x0207][\\x020902]3Of course!\nI've been winning \nso far![pause]"
+  - "[\\x0207]BK Imperialdramon[\\x0207]I see, you're \ngreat![pause][\\x0203]Here, I'll give\nthis to you.\nTake it.[pause]"
+  - "[\\x0207][\\x020902]3Yeah! I got\nthe Hazard \nHelmet![pause]"
+  - "[\\x0207]BK Imperialdramon[\\x0207]That battle was\nfun. Come again \nsometime![pause]"

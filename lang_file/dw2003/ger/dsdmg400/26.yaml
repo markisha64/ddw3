@@ -1,0 +1,18 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Gewonnen![pause][\x0203]OK, gib's
+    her![pause]
+  - |-
+    [\x0207]Paildramon[\x0207]Oh, ok.
+    Hier nimm
+    sie![pause]
+  - |-
+    [\x0207][\x020902]3Super! Ich
+    hab die
+    Veemon-DDNA![pause][\x0203]Danke,
+    Paildramon![pause]
+  - |-
+    [\x0207]Paildramon[\x0207]Ja, ja. Das
+    mach ich nie
+    wieder. Bis später![pause]

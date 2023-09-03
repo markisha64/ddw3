@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Ehi!
+    Non ve lo
+    permetterò![pause]
+  - |-
+    [\x0207]Soldato Mech[\x0207]GGzzz! GGzzz!
+    Allarme intruso!
+    allarme intruso![pause][\x0203]Eliminazione rapida![pause]

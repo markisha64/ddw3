@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Yeah, I won \nagainst Genbu \nLeader too![pause]"
+  - "[\\x0207]Genbu Leader[\\x0207][\\x020801][\\x020501], I apologize \nfor making you fight.[pause][\\x0203]I wanted to see for\nmyself that...[pause][\\x0203]You can really fight\nagainst the A.o.A![pause]"
+  - '[\x0207][\x020902]3Oh, I see...[pause]'
+  - "[\\x0207]Genbu Leader[\\x0207]Now take this\nand stop the \nA.o.A's plans![pause]"
+  - "[\\x0207][\\x020902]3Yeah! I got \nthe Genbu \nBadge![pause]"
+  - "[\\x0207]Genbu Leader[\\x0207]I think you're\nstrong enough \nto fight on.[pause][\\x0203]But they too are\nstrong, so keep \nyour guard up![pause]"
+  - |-
+    [\x0207][\x020902]3Thanks,
+    Genbu Leader![pause]

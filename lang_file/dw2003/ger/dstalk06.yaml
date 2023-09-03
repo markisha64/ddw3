@@ -1,4 +1,3 @@
-type: simple
 strings:
   - ''
   - "[\\x0207]Suzuka-Leader[\\x0207]Das Notfallzimmer\nim Nordsektor\nbefindet sich...[pause][\\x0203]Im Keller von \n\"Kulon-Bergwerk\".[pause][\\x0203]Du brauchst dafür\naber vier\nLeader-Abzeichen.[pause]"

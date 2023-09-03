@@ -1,0 +1,7 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Eh, Taomon.\nTengo un favor\nque pedirte.[pause][\\x0203]¿Puedes darme \nDADN de Renamon \nde tu DADN?[pause]"
+  - |-
+    [\x0207]Taomon[\x0207]...Sí, pero no
+    gratis.[pause][\x0203]Veamos si estás
+    cualificado.[pause]

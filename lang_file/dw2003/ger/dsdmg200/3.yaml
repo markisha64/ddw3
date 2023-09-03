@@ -1,0 +1,69 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Tamer-Service[\x0207]Ich lade jetzt die
+    Digimon-Daten von
+    deinem Satelliten.[pause][\x0203]Bitte warte an der
+    Online-Markierung
+    auf dem Boden.[pause]
+  - |-
+    [\x0207][\x020902]3Wow! Ich kann es
+    kaum erwarten, mein
+    Digimon zu treffen![pause]
+  - |-
+    [\x0207]Teddy[\x0207]...oh!
+    Hey [\x020801][\x020501]![pause]
+  - |-
+    [\x0207][\x020902]3Hey, was macht
+    ihr denn?
+    Ihr seid so lahm![pause]
+  - |-
+    [\x0207]Teddy[\x0207]Was? Quatsch,
+    du bist bloβ
+    zu schnell.[pause]
+  - '[\x0207]Teddy[\x0207]Oder, Ivy?[pause]'
+  - |-
+    [\x0207]Kail[\x0207]Nein, ich heiβe
+    Kail! Vergiss
+    das nicht![pause]
+  - "[\\x0207][\\x020902]3Kail? Das ist\ndein neuer Name?[pause][\\x0203]Komisch. Hört\nsich wie ein \nMännername an![pause]"
+  - |-
+    [\x0207]Kail[\x0207]Den habe ich mir
+    ausgesucht. OK?![pause]
+  - |-
+    [\x0207]Teddy[\x0207]Ich war zu faul und
+    heiβe weiterhin Teddy![pause]
+  - |-
+    [\x0207][\x020902]3Oh, cool! Hier
+    sind meine
+    Digimon![pause]
+  - |-
+    [\x0207]Teddy[\x0207]Wow! Wer hat
+    sich das nur
+    ausgedacht?[pause]
+  - '[\x0207]Kail[\x0207]Gute Frage.[pause]'
+  - |-
+    [\x0207][\x020902]3Hallo zusammen!
+    Ich bin [\x020801][\x020501]!
+    Freut mich sehr.[pause]
+  - |-
+    [\x0207]Kotemon[\x0207]Ich werde mein
+    Bestes geben.
+    Vielen Dank![pause]
+  - |-
+    [\x0207]Renamon[\x0207]Wir wollen alle
+    World Champ
+    werden.[pause]
+  - |-
+    [\x0207]Patamon[\x0207]Hi! Ich werde
+    dich nicht enttäuschen.[pause]
+  - |-
+    [\x0207][\x020902]3OK, ihr drei.
+    Ich verlasse
+    mich auf euch![pause][\x0203]Los geht's![pause]
+  - "[\\x0207][\\x020902]3OK, ich bin \nweg![pause]"
+  - |-
+    [\x0207]Kail[\x0207]In Ordnung.
+    Wir teilen uns
+    jetzt auf.[pause]
+  - '[\x0207]Teddy[\x0207]Bis später.[pause]'

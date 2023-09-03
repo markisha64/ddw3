@@ -1,0 +1,3 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Yes, it's really the \nReal World![pause][\\x0203]...Wow! My body is \nreally here![pause][\\x0203]...oh, wait, no time\nfor that![pause][\\x0203]We only have 180 \nseconds! \nWe have to hurry![pause]"

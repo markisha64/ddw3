@@ -1,0 +1,19 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Sieg! Da
+    staunste![pause]
+  - |-
+    [\x0207]Keith[\x0207]Ha! Ich habe mich
+    zurückgehalten.[pause]
+  - |-
+    [\x0207][\x020902]3Ich dachte, du
+    würdest keine
+    Rücksicht nehmen.[pause]
+  - |-
+    [\x0207]Keith[\x0207]Ich weiβ gar nicht,
+    wovon du sprichst![pause][\x0203]Pass bloβ auf,
+    Kleiner. Nächstes
+    Mal bist du fällig![pause][\x0203]Vergiss mich nicht.
+    Sayonara, Idiot![pause]
+  - "[\\x0207][\\x020902]3Wer hier\nwohl der \nIdiot ist![pause]"

@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - "[\\x0207]Teddy[\\x0207]...Yeah! \nWe did it,\n[\\x020801][\\x020501]![pause]"
+  - |-
+    [\x0207][\x020902]3Yeah, we did
+    it Teddy![pause]
+  - "[\\x0207]Nick[\\x0207]Hey, everything went \ngreat you two![pause][\\x0203]I have to go\ntell this to the \nothers![pause]"
+  - "[\\x0207]Teddy[\\x0207]Man, I'm \nbeat...[pause][\\x0203]Today just \nsucked...[pause]"
+  - |-
+    [\x0207][\x020902]3...really?
+    I had fun![pause]
+  - "[\\x0207]Teddy[\\x0207]Hey, let's go to the \nLogin Room![pause][\\x0203]I'm sure everyone and \nthe Matrix Chamber\nare back to normal![pause]"
+  - |-
+    [\x0207][\x020902]3...Yeah!
+    Let's go back to
+    the Real World![pause]
+  - "[\\x0207]Teddy[\\x0207]Destromon \nstopped and \nbroke down![pause][\\x0203]We won against \nthe A.o.A![pause]"

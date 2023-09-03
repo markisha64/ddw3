@@ -1,0 +1,40 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Oficial jefe[\x0207]Eh, espera. ¡Me
+    rindo![pause][\x0203]Eres muy fuerte...
+    Me pregunto quién
+    ganará, tú o él...[pause]
+  - '[\x0207][\x020902]3¿Qué?[pause]'
+  - "[\\x0207]Nick[\\x0207]...Presidente de \nMAGAMI.\n¡Queda arrestado![pause]"
+  - "[\\x0207]Oficial jefe[\\x0207]De acuerdo.\nCreo que he \ntenido bastante...[pause][\\x0203]La próxima vez\nlo haré solo.[pause]"
+  - "[\\x0207]Lisa[\\x0207]Oh, ¡qué \nobediente![pause][\\x0203]Pero hay algo\nmás...[pause]"
+  - |-
+    [\x0207]Oficial jefe[\x0207]¿Destromon?
+    Podéis pararlo
+    con esa máquina.[pause]
+  - |-
+    [\x0207]Lisa[\x0207]¡De acuerdo!
+    Yo lo interrogaré...[pause][\x0203]¡Y vosotros id a
+    parar a Destromon![pause]
+  - '[\x0207]Teddy[\x0207]¡Recibido![pause]'
+  - '[\x0207]Nick[\x0207]¡Entendido![pause]'
+  - |-
+    [\x0207][\x020902]3Teddy, ¿tú sabes
+    cómo?[pause]
+  - "[\\x0207]Teddy[\\x0207]¡Eh.. Eh..!\nBueno, casi...[pause][\\x0203]¡El sistema es el\nmismo que el \nServidor Asuka![pause]"
+  - "[\\x0207]Nick[\\x0207]¡Eh, Teddy!\n¡Deprisa![pause][\\x0203]¡Destromon va a \naterrizar en una\nciudad![pause]"
+  - '[\x0207]Teddy[\x0207]¡Sin empujar![pause]'
+  - |-
+    [\x0207][\x020902]3Venga...
+    ¡No queda
+    tiempo![pause]
+  - |-
+    [\x0207][\x020902]3¡Oíd
+    todos![pause]
+  - "[\\x0207]Nick[\\x0207]Teddy, \ncalla y\ntrabaja.[pause]"
+  - |-
+    [\x0207]Lisa[\x0207]Entrégate.[pause][\x0203]Tenemos a toda
+    la A.o.A menos
+    a ti.[pause]
+  - '[\x0207]Teddy[\x0207]¡Sí![pause]'

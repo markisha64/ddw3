@@ -1,0 +1,38 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Teddy[\x0207]¡Eh!
+    ¡[\x020801][\x020501]![pause]
+  - "[\\x0207][\\x020902]3Teddy, \n¿estás bien?[pause]"
+  - |-
+    [\x0207]Teddy[\x0207]¡Sí, gracias![pause][\x0203][\x020801][\x020501], MAGAMI
+    es parte de la A.o.A[pause]
+  - |-
+    [\x0207][\x020902]3¡Sí, lo sé!
+    ¿Pero quiénes son
+    esos de ahí?[pause]
+  - |-
+    [\x0207]Dr. Kadomatsu[\x0207]¡No somos de la
+    A.o.A, creedme![pause]
+  - "[\\x0207]Operador DO[\\x0207]No sabíamos que \nMAGAMI y A.o.A \ntenían algo que ver.[pause]"
+  - "[\\x0207]Guardia DO[\\x0207]¡Los Líderes de Ciudad\ny la mayoría del \npersonal son leales![pause][\\x0203]¡No todo el personal\nde MAGAMI es parte de\nA.o.A![pause]"
+  - |-
+    [\x0207][\x020902]3De acuerdo.
+    ¡Voy a ayudaros, así
+    que esperad momento![pause][\x0203]¡Voy a derrotar al
+    Maestro de Juego![pause]
+  - "[\\x0207]Operador DO[\\x0207]Ten cuidado. ¡Dicen \nque hay una trampa \nen la Cám. Maestra![pause]"
+  - |-
+    [\x0207]Guardia DO[\x0207]¡Yo también lo he
+    oído! Hay una puerta
+    secreta en algún sitio.[pause]
+  - "[\\x0207]Dr. Kadomatsu[\\x0207]Sí, yo también lo\nhe oído.[pause][\\x0203]La contraseña es \n\"MONSTER\"...[pause][\\x0203]Pero no sé qué\nsignifica...[pause]"
+  - '[\x0207][\x020902]3¡Gracias![pause]'
+  - "[\\x0207]Teddy[\\x0207]¡Buena suerte\n[\\x020801][\\x020501]![pause][\\x0203]¡No pierdas \ncon la A.o.A![pause]"
+  - |-
+    [\x0207][\x020902]3Sin problema.
+    ¡Déjamelo
+     a mí![pause]
+  - |-
+    [\x0207][\x020902]3¡...Oh,
+    Teddy![pause]

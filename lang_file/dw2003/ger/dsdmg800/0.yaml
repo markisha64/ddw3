@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Huch? Noch eine
+    Taste.[pause][\x0203]Was soll ich
+    machen? Ach,
+    ich drück drauf![pause]
+  - |-
+    [\x0207][\x020902]3Hmmm, nichts
+    passiert.[pause][\x0203]Na dann. Ich muss
+    die A.o.A. finden![pause]

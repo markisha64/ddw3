@@ -1,0 +1,8 @@
+strings:
+  - ''
+  - "[\\x0207]HiAndromon[\\x0207]Respeto tu gran\nfuerza.\n¡Puedes pasar![pause][\\x0203]Numemon está en \nlas alcant. bajo las\nescaleras secretas.[pause][\\x0203]He abierto la \npuerta de las \nescaleras secretas.[pause][\\x0203]Sigue adelante, \npero antes... Toma\neste Rifle Oxidado.[pause]"
+  - |-
+    [\x0207][\x020902]3¡Bien! ¡Tengo
+    el Rifle oxidado![pause][\x0203]Bueno HiAndromon.
+    ¡Gracias! ¡Vamos![pause]
+  - "[\\x0207]HiAndromon[\\x0207]El enemigo es más\nfuerte a partir de \naquí. ¡Ten cuidado![pause]"

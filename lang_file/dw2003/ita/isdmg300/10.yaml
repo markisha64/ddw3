@@ -1,0 +1,22 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Ma che stanza
+    è questa?[pause]
+  - |-
+    [\x0207][\x020902]3Ehi,
+    Chi è là?[pause]
+  - |-
+    [\x0207][\x020902]3È la Signora
+    del Gioco! La
+    prenderò![pause]
+  - |-
+    [\x0207]Guardia A[\x0207]Tu sei quel
+    ragazzo![pause]
+  - |-
+    [\x0207]Guardia B[\x0207]Non
+    passerai di
+    qui![pause]
+  - |-
+    [\x0207]Guardia C[\x0207]Arrenditi e vieni
+    con noi![pause]

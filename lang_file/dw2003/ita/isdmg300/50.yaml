@@ -1,0 +1,22 @@
+strings:
+  - ''
+  - |-
+    [\x0207]KingEtemon[\x0207]Mi piaci, e così
+    ti darò il
+    trofeo del sole![pause]
+  - "[\\x0207][\\x020902]3Grazie,\nKingEtemon![pause][\\x0203]Ho il \ntrofeo\ndel sole![pause]"
+  - |-
+    [\x0207]KingEtemon[\x0207]È il simbolo del
+    re delle carte
+    di Amaterasu.[pause]
+  - |-
+    [\x0207][\x020902]3Allora sono il
+    miglior giocatore
+    di Amaterasu![pause]
+  - |-
+    [\x0207]KingEtemon[\x0207]Eh?
+    Nooo! Sono
+    io il numero 1![pause][\x0203]Sei stato
+    fortunato, e
+    basta![pause]
+  - "[\\x0207][\\x020902]3Heh heh heh.\nBeh, ora \nvado![pause][\\x0203]Ciao KingEtemon![pause]"

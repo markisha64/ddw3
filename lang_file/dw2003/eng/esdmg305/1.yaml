@@ -1,0 +1,21 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Game Master[\x0207]...what are you two
+    doing in here?[pause]
+  - "[\\x0207][\\x020902]3Uh... uh...we're \nlooking for our\nfriend Teddy.[pause]"
+  - "[\\x0207]Game Master[\\x0207]...Oh, I see. I'm sorry\nfor surprising you.[pause][\\x0203]I am worried about your\nfriend too. Lucky Mouse \nmust have him hostage.[pause]"
+  - |-
+    [\x0207][\x020902]3Lucky
+    Mouse?![pause]
+  - "[\\x0207]Game Master[\\x0207]He is an awful man.\nHe is trying to destroy\nDigimon Online![pause][\\x0203]He's the reason why \nwe are having problems\nwith the system![pause]"
+  - "[\\x0207][\\x020902]3But everyone is having \nso much fun in Digimon\nOnline...[pause]"
+  - |-
+    [\x0207][\x020902]3I can't believe
+    Lucky Mouse![pause]
+  - '[\x0207]Kail[\x0207].........[pause]'
+  - "[\\x0207]Game Master[\\x0207]Everyone in our staff \nis looking for Lucky \nMouse right now.[pause][\\x0203]...oh, I know! \nCan you help us?[pause]"
+  - |-
+    [\x0207][\x020902]3Of course!
+    Leave it to us![pause]
+  - "[\\x0207]Game Master[\\x0207]Thank you.\nI'm counting \non you.[pause][\\x0203]We heard he \nwent towards \nWest Sector![pause]"

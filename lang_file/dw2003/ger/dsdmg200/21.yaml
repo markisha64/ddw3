@@ -1,0 +1,28 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Mysteriöser Spieler[\x0207]Hey! Warte mal,
+    Kleiner![pause]
+  - |-
+    [\x0207][\x020902]3Redest
+    du mit
+    mir?[pause]
+  - |-
+    [\x0207]Mysteriöser Spieler[\x0207]Natürlich
+    meine ich dich![pause][\x0203]Du bist [\x020801][\x020501],
+    der Seiryu Leader
+    besiegt hat, oder?[pause]
+  - |-
+    [\x0207][\x020902]3Ja... und wer
+    bist du....?[pause]
+  - "[\\x0207]Keith[\\x0207]Ich bin Keith. Den \nNamen solltest du\ndir merken, Kleiner![pause][\\x0203]Ich werde nämlich\ndas Turnier \ngewinnen![pause]"
+  - |-
+    [\x0207][\x020902]3Tatsächlich? Na,
+    das wollen wir
+    doch mal sehen![pause]
+  - |-
+    [\x0207]Keith[\x0207]Ha ha, verstehe!
+    Du willst wohl mit
+    mir kämpfen?[pause]
+  - '[\x0207][\x020902]3Auf geht''s![pause]'
+  - "[\\x0207]Keith[\\x0207]Leider kann ich \nkeine Rücksicht\nauf dich nehmen![pause]"

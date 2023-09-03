@@ -1,0 +1,15 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3¡Gané!
+    ¿No soy
+    el mejor?[pause]
+  - "[\\x0207]Keith[\\x0207]¡Ja! Te lo \npuse fácil, chico.[pause]"
+  - "[\\x0207][\\x020902]3Pensé que no \nibas a sacar \ngolpes.[pause]"
+  - |-
+    [\x0207]Keith[\x0207]¡No sé de qué
+    hablas![pause][\x0203]¡Ten cuidado,
+    la próxima vez
+    te ganaré![pause][\x0203]No te olvides.
+    ¡Sayonara, tonto![pause]
+  - "[\\x0207][\\x020902]3¡Sí, claro!\n¡Él es el \ntonto![pause]"

@@ -1,0 +1,21 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Lisa[\x0207]Knightmon ne
+    résistera pas
+    longtemps  ![pause][\x0203]OK, libérez
+    d'abord la
+    population ![pause]
+  - "[\\x0207]Chef Chuck[\\x0207]Allez, tout \nle monde, à\nla charge  ![pause]"
+  - '[\x0207]Wanda Résistante[\x0207]Oui  ![pause]'
+  - "[\\x0207]Dew le Résistant[\\x0207]Pas question \nde perdre\ndevant l'A.o.A ![pause]"
+  - |-
+    [\x0207]Meech Résistant[\x0207]Reprenons
+    Amaterasu
+    City  ![pause]
+  - "[\\x0207]Teddy[\\x0207]Ouais  !\nOn va gagner \npour de bon  ![pause]"
+  - |-
+    [\x0207][\x020902]3Oui  ! Lisa et
+    les autres sont
+    avec nous  ![pause]
+  - "[\\x0207]Teddy[\\x0207]... mais que se \npasse-t-il dans \nle Monde Réel... ?[pause][\\x0203]Pourvu que  \nDestromon n'ait pas  \nencore attaqué...[pause]"

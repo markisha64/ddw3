@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Then I'll \nchallenge you![pause]"
+  - "[\\x0207]Pharaohmon[\\x0207]You show no \nfear![pause][\\x0203]I must warn\nyou. I am\npowerful![pause]"
+  - |-
+    [\x0207][\x020902]3We won't
+    know until
+    we do it![pause]
+  - "[\\x0207]Pharaohmon[\\x0207]...Good, \nyou're ready.[pause][\\x0203]Then I'll go \nfull force![pause]"

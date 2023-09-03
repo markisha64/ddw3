@@ -1,0 +1,50 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Junior :[\x0207]Alors c'est ça, le
+    Centre Online
+    MAGAMI ? Cool ![pause]
+  - "[\\x0207]Teddy[\\x0207]Oui, c'est le\nsystème Matrix ![pause][\\x0203]Il numérise nos idées\net nos pensées et les\nenvoie sur le net.[pause][\\x0203]Je me demande comment \nça marche ? Je veux\nle voir fonctionner.[pause]"
+  - |-
+    [\x0207]Junior :[\x0207]Hé, qu'est-ce que
+    vous faites là-bas ?[pause][\x0203]Allez, enregistrons-
+    nous pour entrer
+    dans le Digimonde ![pause]
+  - "[\\x0207]Responsable Compte :[\\x0207]Bienvenue au \nCentre Online\nMAGAMI.[pause][\\x0203]Ce service s'adresse \nà ceux qui vont \ndans le Digimonde.[pause][\\x0203]C'est la première fois\nque vous jouez à\nDigimon Online ?[pause]"
+  - "[\\x0207]Responsable Compte  :[\\x0207]Avant de créer \nvotre compte...[pause][\\x0203]...vous devez \nchoisir vos\nDigimons partenaires.[pause]"
+  - |-
+    [\x0207]Responsable Compte :[\x0207]Choisissez un jeu de
+    départ : A, B ou C.[pause][\x0203]Chacun comporte trois
+    types de Digimons.[pause]
+  - "[\\x0207]Respons. Compte:[\\x0207]Le A, équilibré,\navec Kotemon,\nRenamon, Patamon.[pause][\\x0203]Le B, puissant, \navec Monmon,\nAgumon, Renamon.[pause][\\x0203]Le C, dément,\navec Kumamon,\nGuilmon, Patamon.[pause][\\x0203]Lequel des trois\npréférez-vous ?[pause]"
+  - "[\\x0207]Ivy :[\\x0207]Allez, Junior,\nQu'est-ce que\ntu attends ?[pause][\\x0203]Prends celui où il\ny a un Digimon \nqui te plaît.[pause]"
+  - |-
+    [\x0207]Junior :[\x0207]Je ne peux pas !
+    Ils ont tous un Digimon
+    qui me plaît ![pause]
+  - |-
+    [\x0207]Ivy :[\x0207]Alors quels Digimons
+    n'aimes-tu pas ?[pause][\x0203]Tu n'as qu'à écarter
+    ceux qui ont un Digimon
+    que tu n'aimes pas ![pause]
+  - |-
+    [\x0207]Junior :[\x0207]Il n'y a pas de
+    Digimon que je
+    n'aime pas ![pause][\x0203]Je les aime tous ![pause]
+  - "[\\x0207]Ivy :[\\x0207]Et bien si tu les\naimes tous, il n'y a\npas de problème ![pause][\\x0203]Allez, choisis et\nentrons dans le \nDigimonde ![pause]"
+  - |-
+    [\x0207]Ivy :[\x0207]Junior ! Tu n'as
+    toujours pas choisi ?[pause][\x0203]Allez, décide-toi
+    ou je ne t'attends
+    pas ![pause]
+  - |-
+    [\x0207]Responsible Compte :[\x0207]Vous êtes-vous
+    tous décidés ?[pause]
+  - |-
+    [\x0207]Ivy :[\x0207]Junior ! J'y
+    vais, tant pis
+    pour toi.[pause]
+  - |-
+    [\x0207]Responsable Compte :[\x0207]Je vous enregistre
+    maintenant avec vos
+    Digimons partenaires.[pause]

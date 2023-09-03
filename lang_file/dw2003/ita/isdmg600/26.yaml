@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Lo vedremo!
+    Sono forte,
+    io![pause][\x0203]Eh?
+    È forse...?[pause]
+  - |-
+    [\x0207][\x020902]3Sì! Il pass
+    bianco![pause][\x0203]Ne rimane uno
+    solo. Presto![pause]

@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Hmm...Ich kann
+    nicht lange spielen[pause]
+  - |-
+    [\x0207]BK WarGrowlmon[\x0207]Ich weiβ.
+    Nur etwas.
+    Ein Kampf![pause]
+  - |-
+    [\x0207][\x020902]3Oh, in Ordnung!
+    Ich mach's dir
+    nicht leicht![pause]
+  - |-
+    [\x0207]BK WarGrowlmon[\x0207]Das gefällt mir![pause][\x0203]Wow, ich hab
+    lange nicht
+    mehr gekämpft![pause]

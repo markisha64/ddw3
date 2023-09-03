@@ -1,0 +1,15 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Arena-Empfang[\x0207][\x020801][\x020501], du hast
+    alle vier Leader
+    besiegt![pause][\x0203]Bitte, komm in die
+    Arena![pause]
+  - |-
+    [\x0207][\x020902]3Gegen wen genau
+    kämpfe ich jetzt?[pause]
+  - "[\\x0207]Arena-Empfang[\\x0207]Hi hi hi!\nDas wirst du \nschon noch sehen![pause][\\x0203]Na los! Dein Gegner\nwartet bereits\nauf dich![pause]"
+  - |-
+    [\x0207][\x020902]3OK! Der
+    stärkste
+    Tamer![pause]

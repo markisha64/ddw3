@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - "[\\x0207]Soccer Kid Hide[\\x0207]Man, Cardmon \nisn't coming out...[pause][\\x0203]And why did I lose \nGabumon...[pause]"
+  - "[\\x0207][\\x020902]3Huh?? Why \nare you kicking \nthe trees?[pause]"
+  - |-
+    [\x0207]Soccer Kid Hide[\x0207]Huh? Did you ask
+    why am I kicking
+    the trees?[pause][\x0203]To find a Cardmon
+    of course![pause]
+  - |-
+    [\x0207][\x020902]3Cardmon?
+    What's that?
+    A Digimon?[pause]
+  - "[\\x0207]Soccer Kid Hide[\\x0207]Cardmon is a Digimon \nthat drops Boosters\nwith extra cards in it.[pause][\\x0203]Only Divermon in the \ncity can open the\nboosters.[pause]"
+  - "[\\x0207][\\x020902]3Cardmon drops\nBoosters?![pause][\\x0203]...let me \nkick 'um too...[pause]"
+  - "[\\x0207]Soccer Kid Hide[\\x0207]Heh heh heh. You\nneed Tree Boots to \nkick them.[pause][\\x0203]So, you probably\nwant to get the \nboots. Well then...[pause][\\x0203]I lost my Gabumon\ncard, will you \nfind it?[pause][\\x0203]If you find it I'll tell \nyou how to get the \nboots.[pause]"
+  - "[\\x0207][\\x020902]3Gabumon card?\nOK, I'll find it and \ncome back![pause]"

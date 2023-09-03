@@ -1,0 +1,4 @@
+strings:
+  - ''
+  - "[\\x0207]Soldier[\\x0207]You're not \ngoing to \npass here![pause][\\x0203]You can't \ndefeat me![pause]"
+  - "[\\x0207][\\x020902]3Oh yeah? Come on![pause][\\x0203]You guys always\nthink you're gonna \nwin![pause]"

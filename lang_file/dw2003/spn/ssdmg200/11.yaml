@@ -1,0 +1,8 @@
+strings:
+  - ''
+  - "[\\x0207]Domador Genji[\\x0207]Jo, jo, jo\nNo te vi antes \npor aquí.[pause][\\x0203]¿Eres nuevo?[pause]"
+  - |-
+    [\x0207][\x020902]3¡Sí!
+    ¡Acabo de coger
+    a mis Digimon![pause]
+  - "[\\x0207]Domador Genji[\\x0207]Entonces lucharé\ncontigo, chaval.[pause][\\x0203]¡No importa si no \nsabes las reglas![pause][\\x0203]¡Lo importante es\nganar experiencia![pause]"

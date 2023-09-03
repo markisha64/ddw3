@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3¡Bien!
+    ¡Gané![pause]
+  - |-
+    [\x0207]MetalGreymon[\x0207]Bueno, lo prometido
+    es deuda...
+    ¡Úsala bien![pause]
+  - |-
+    [\x0207][\x020902]3¡Sí!¡Tengo
+    el DADN de
+    Agumon![pause][\x0203]¡Gracias,
+    MetalGreymon![pause]

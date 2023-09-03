@@ -1,0 +1,8 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3¡Sí! ¡He
+    ganado a
+    Kyukimon![pause]
+  - "[\\x0207]Kyukimon[\\x0207]Tus Digimon son\nmuy fuertes para\nganarme.[pause][\\x0203]Me he divertido \nmucho contigo.\n¡Toma esto![pause]"
+  - "[\\x0207][\\x020902]3¡Sí!¡Tengo\nel DADN de \nKatemon![pause][\\x0203]¡Gracias,\nKyukimon![pause]"

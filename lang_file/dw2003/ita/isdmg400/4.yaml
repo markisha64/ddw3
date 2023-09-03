@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Eh? Che
+    succede?[pause]
+  - |-
+    Codice Rosso!
+    Per ragioni di sicurezza
+    dobbiamo fermarci.[pause]
+  - '[\x0207][\x020902]3Terremoto![pause]'
+  - |-
+    [\x0207][\x020902]3Ma che...?
+    Quello è un
+    Digimon?[pause]

@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Alors c'est ça,
+    le monde de
+    Digimon Online ?[pause]
+  - "[\\x0207]Responsible Compte[\\x0207][\\x020801][\\x020501],\nbienvenue au \nserveur Asuka ![pause][\\x0203]Va retirer les\ndonnées Digimon\ndans le hall.[pause]"
+  - |-
+    [\x0207][\x020902]3Les quoi ?[pause][\x0203]Oh, d'accord.
+    J'y vais ![pause]

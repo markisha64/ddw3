@@ -1,0 +1,8 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Sure, I'll \nfight you![pause]"
+  - "[\\x0207]BK WarGreymon[\\x0207]You seem to \nhave guts![pause]"
+  - "[\\x0207][\\x020902]3Come on.\nI'll show you \nmy powers![pause]"
+  - |-
+    [\x0207]BK WarGreymon[\x0207]Very well.
+    Let's begin![pause]

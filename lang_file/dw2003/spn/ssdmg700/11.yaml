@@ -1,0 +1,7 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Bruja de Hielo[\x0207]Admito la derrota.
+    Eres muy bueno.[pause][\x0203]Como dicta la norma,
+    ahora puedes pasar.[pause]
+  - "[\\x0207]Bruja de Hielo[\\x0207]Pasa.\nRezaré por \ntu éxito.[pause]"

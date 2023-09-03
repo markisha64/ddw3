@@ -1,0 +1,13 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Très bien ! \n32000 BIT ![pause]"
+  - "[\\x0207]M. Smith[\\x0207]Oink ! \n32000 BIT ![pause][\\x0203]Oinoink, oink \n32000 BIT ?[pause]"
+  - |-
+    [\x0207]M. Smith[\x0207]Oin oink oioink
+    oink oioink oink.[pause][\x0203]Oioi Oink nk
+    oionko 32000 BIT [pause][\x0203]Oinkoinnnk
+    oi oink oi oiii ![pause][\x0203]Oi oinkoo
+    oinoiko oin
+    oioinnnk oink ![pause]
+  - "[\\x0207][\\x020902]3Oui ! J'ai \nl'Oioi Oink ![pause]"
+  - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nvoyons ça.[pause]"

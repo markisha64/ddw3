@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Ho
+    battuto
+    Taomon![pause]
+  - "[\\x0207]Taomon[\\x0207]Ebbene,\nnon ti credevo\ncosì forte.[pause][\\x0203]Ecco, \nprendi.[pause]"
+  - |-
+    [\x0207][\x020902]3Ho il DDNA
+    di Renamon,
+    wow![pause][\x0203]Grazie Taomon![pause]

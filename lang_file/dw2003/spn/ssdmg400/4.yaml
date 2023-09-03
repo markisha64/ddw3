@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3¿Eh? ¿Qué \nestá pasando?[pause]"
+  - |-
+    ¡Código Rojo!¡Código Rojo!
+    Vamos a parar unos instantes
+    por motivos de seguridad[pause]
+  - '[\x0207][\x020902]3¡Terremoto![pause]'
+  - |-
+    [\x0207][\x020902]3¿Pero qué...?
+    ¿Es eso un
+    Digimon?[pause]

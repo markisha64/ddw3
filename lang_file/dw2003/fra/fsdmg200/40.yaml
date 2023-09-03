@@ -1,0 +1,3 @@
+strings:
+  - ''
+  - "[\\x0207]Attaquant[\\x0207]Personne ne passe \npar là ! Je ne laisse \npersonne passer ![pause][\\x0203]Bientôt naîtra notre \nmonde merveilleux ![pause]"

@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - "[\\x0207]Sr. Smith[\\x0207]¡Es tu oportunidad![pause][\\x0203]¡El artículo principal![pause][\\x0203]¡El Cañón de Tirador! \n¡Admirado por todos![pause][\\x0203]El arma de Monmon\nsaldrá a 2700BIT.[pause]"
+  - '[\x0207]Abel el Tendero[\x0207]¡3100BIT![pause]'
+  - '[\x0207]Jefe Milly[\x0207]¡3500BIT![pause]'
+  - '[\x0207]Masao RPG[\x0207]¡3900BIT![pause]'
+  - |-
+    [\x0207][\x020902]3Um... 4000BIT
+    ...ummm...[pause]

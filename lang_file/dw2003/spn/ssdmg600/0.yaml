@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Líder Byakko[\x0207]Hola, desafiador.
+    Luchemos.[pause]
+  - "[\\x0207][\\x020902]3Ah, espera\nun momento.[pause][\\x0203]Primero \ntengo una\npregunta.[pause]"
+  - |-
+    [\x0207]Líder Byakko[\x0207]¡Primero luchemos![pause][\x0203]Si ganas, te diré
+    todo lo que sé.[pause]
+  - "[\\x0207][\\x020902]3¡Vale, no voy \na perder de\nninguna manera![pause]"

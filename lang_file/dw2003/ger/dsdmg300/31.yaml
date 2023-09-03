@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Ich hab
+    Armormon
+    besiegt![pause]
+  - |-
+    [\x0207]Armormon[\x0207]Wie konntest du...[pause][\x0203]Aber du hast ge-
+    wonnen. Hier nimm sie[pause]
+  - |-
+    [\x0207][\x020902]3Toll! Ich hab
+    die Monmon-
+    DDNA![pause][\x0203]Danke,
+    Armormon![pause]

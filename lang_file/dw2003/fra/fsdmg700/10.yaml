@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Sorcière Glaces[\x0207]Je ne vais pas
+    laisser passer un
+    gamin comme toi ![pause][\x0203]Rentre chez
+    toi ![pause]
+  - |-
+    [\x0207][\x020902]3Tu plaisantes !
+    Je n'ai pas de
+    temps à perdre ![pause]
+  - |-
+    [\x0207]Sorcière des Glaces[\x0207]Je suis la Reine
+    du Donjon de Glace
+    jeune insolent ![pause][\x0203]Tu sera puni pour
+    ton impudence ![pause]
+  - '[\x0207][\x020902]3?!?[pause]'

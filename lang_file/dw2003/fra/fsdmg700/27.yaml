@@ -1,0 +1,7 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3C'est quoi, ces\ncommandes ?[pause][\\x0203]Voilà un bouton.\nBon, \nj'appuie ![pause]"
+  - |-
+    [\x0207][\x020902]3Je me demande
+    à quoi il
+    sert ? Bon...[pause]

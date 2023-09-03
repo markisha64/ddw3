@@ -1,0 +1,15 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3MasterTyranno
+    ¡Luche conmigo![pause]
+  - |-
+    [\x0207]Maestro Tyranno[\x0207]¡Claro!
+    Acabo de comer,
+    estoy recargado.[pause]
+  - "[\\x0207][\\x020902]3¡Venga! le \nenseñaré \ncomo lucho.[pause]"
+  - |-
+    [\x0207]MasterTyranno[\x0207]Muy optimista,
+    chico.[pause][\x0203]¡Pero hace falta
+    más de eso para
+    ganarme![pause]

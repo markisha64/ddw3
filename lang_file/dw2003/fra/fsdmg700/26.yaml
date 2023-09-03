@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Oui, c'est vraiment
+    le Monde Réel ![pause][\x0203]Ouah ! Mon corps
+    est bien ici ![pause][\x0203]... Oups ! Pas de
+    temps à perdre ![pause][\x0203]Nous n'avons que
+    180 secondes !
+    Dépêchons-nous ![pause]

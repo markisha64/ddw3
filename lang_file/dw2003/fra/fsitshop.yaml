@@ -1,4 +1,3 @@
-type: simple
 strings:
   - ''
   - N'a pas [\x020501].

@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Paildramon,\ntengo un favor que\npedirte.[pause][\\x0203]¿Puedes darme el \nDADN de Veemon de \ntu DADN?[pause]"
+  - "[\\x0207]Paildramon[\\x0207]¡Ni hablar! Te\nclavan una aguja\npara eso.[pause][\\x0203]¡A menos que me \nganes en batalla,\npuedes olvidarte![pause]"
+  - "[\\x0207][\\x020902]3De acuerdo,\nsólo tengo que \nganar, ¿no?[pause]"
+  - |-
+    [\x0207]Paildramon[\x0207]¡Sí, bueno,
+    inténtalo si
+    puedes![pause]

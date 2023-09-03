@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3...¡Ah! Qué \nsusto. ¿Qué ha\nsido eso?[pause]"
+  - '[\x0207]???[\x0207]¡GUBII![pause]'
+  - "[\\x0207][\\x020902]3Parece un Digimon\nnovato...[pause][\\x0203]Probablemente no sea\nun Digimon de A.o.A \nsi no desaparece...[pause]"
+  - |-
+    [\x0207][\x020902]3¡Espera!
+    ¿A dónde
+    vas?[pause]

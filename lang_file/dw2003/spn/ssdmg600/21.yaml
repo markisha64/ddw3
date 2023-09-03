@@ -1,0 +1,29 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Qué raro.\nNumemon no \nestá por aquí.[pause]"
+  - ¡Aaahhhh![pause][\x0203]¡Socorro![pause]
+  - |-
+    [\x0207][\x020902]3¿Qué? ¿Qué
+    es eso?[pause]
+  - |-
+    [\x0207]WaruMonzaemon[\x0207]¡Eres muuy guapa!
+    ¡Cásate conmigo![pause]
+  - |-
+    [\x0207]Lisa[\x0207]¡No! ¡No me
+    gustan los locos![pause]
+  - |-
+    [\x0207][\x020902]3Oh, oh..
+    Esa es um..
+    ¡Lisa![pause]
+  - |-
+    [\x0207]Lisa[\x0207]¡Eh, eh! Tú
+    eres [\x020801][\x020501] ¿no?[pause][\x0203]¡Por favor, ayuda a
+    esta dama en apuros![pause]
+  - |-
+    [\x0207][\x020902]3De acuerdo.
+    Lo que tú digas.[pause]
+  - |-
+    [\x0207][\x020902]3¡Eh, WaruMonzaemon!
+    ¡Métete con alguien
+    de tu tamaño![pause]
+  - "[\\x0207]WaruMonzaemon[\\x0207]¿Quién eres?[pause][\\x0203]¡Fuera de mi \ncamino![pause]"

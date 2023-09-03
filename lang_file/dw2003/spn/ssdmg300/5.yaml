@@ -1,0 +1,19 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Datamon[\x0207]Eres bueno si
+    puedes ganarme.
+    ¡Tu recompensa![pause][\x0203]Los Guantes Oxidados.
+    Es un objeto raro,
+    así que cuídalo.[pause]
+  - |-
+    [\x0207][\x020902]3¿Eh? Vale
+    los guardaré.
+    Gracias...[pause][\x0203]Los Guantes
+    Oxidados...
+    ¡Bien! Creo...[pause]
+  - "[\\x0207]Datamon[\\x0207]Las armaduras y \narmas viejas, tienen\nsecr. en Mundo Dig.[pause][\\x0203]Encuentra al Digimon \ndigiev. en armadura \npara conocerlos.[pause]"
+  - |-
+    [\x0207][\x020902]3¡De acuerdo!
+    ¡Encontraré esos
+    Digimon digievolucion.![pause]

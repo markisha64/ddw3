@@ -1,0 +1,20 @@
+strings:
+  - ''
+  - a
+  - |-
+    [\x0207]Datamon[\x0207]Tu es venu
+    jusqu'ici pour
+    me défier ?[pause][\x0203]Je suis ton
+    homme !
+    Battons-nous ![pause]
+  - |-
+    [\x0207][\x020902]3D'accord !
+    Battons-nous ![pause]
+  - |-
+    [\x0207]Datamon[\x0207]Tu ne peux
+    pas me copier ![pause][\x0203]Tu dois arriver
+    avec ta propre
+    ligne ! Bip ![pause]
+  - |-
+    [\x0207][\x020902]3Quoi ? Hm, OK.
+    Allons-y ![pause]

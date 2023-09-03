@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Somewhere\n...where's \nthat?[pause]"
+  - "[\\x0207]Patamon[\\x0207]Um...I don't know.[pause][\\x0203]But I heard a weird \nsound from the \njungle...[pause]"
+  - "[\\x0207][\\x020902]3...weird \nsound?[pause]"
+  - "[\\x0207]Patamon[\\x0207]Yeah a sound like a \nmachine or a Digimon!\nA weird sound![pause][\\x0203]Leader heard that\nand took off...[pause][\\x0203]I'm not sure but \nmaybe she headed \ntowards the jungle![pause]"
+  - |-
+    [\x0207][\x020902]3...I see.
+    Well thanks![pause]

@@ -1,0 +1,32 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3That's weird.
+    Numemon isn't
+    around.[pause]
+  - |-
+    Aaaaaaaah![pause][\x0203]Someone
+    help me![pause]
+  - |-
+    [\x0207][\x020902]3What? What
+    was that?[pause]
+  - |-
+    [\x0207]WaruMonzaemon[\x0207]You're sooo cute!
+    Marry me![pause]
+  - "[\\x0207]Lisa[\\x0207]No! I don't like \nfreaks![pause]"
+  - |-
+    [\x0207][\x020902]3Oh, oh...
+    that's um...
+    Lisa![pause]
+  - "[\\x0207]Lisa[\\x0207]...Hey, hey! You're \n[\\x020801][\\x020501], right?![pause][\\x0203]Please! Help this cute \ndamsel in distress![pause]"
+  - |-
+    [\x0207][\x020902]3Oh, OK.
+    You got it![pause]
+  - |-
+    [\x0207][\x020902]3Hey, WaruMonzaemon!
+    Pick on someone
+    your own size![pause]
+  - |-
+    [\x0207]WaruMonzaemon[\x0207]......
+    Who are you?[pause][\x0203]Get out of my
+    way![pause]

@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Ufficiale camera[\x0207]Macchina astrale
+    OK. Nessuna
+    anomalia nei dati.[pause]
+  - |-
+    [\x0207][\x020902]3Mi chiedo cosa
+    succede nel
+    Mondo Reale.[pause][\x0203]Speriamo bene![pause]
+  - |-
+    LIMITE DEL TRASFERIMENTO RAGGIUNTO.
+    DIGITALIZZAZIONE![pause]
+  - "[\\x0207][\\x020902]3E ora? Non sono\nriuscito a \nfermarla.[pause][\\x0203]Ci è mancato\npoco![pause]"

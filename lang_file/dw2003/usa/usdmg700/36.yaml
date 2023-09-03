@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Once I defeated
+    Gallacticmon, it
+    was all good...[pause][\x0203]It's already been
+    three months...it
+    feels like a dream.[pause]
+  - "[\\x0207][\\x020902]3...what are Ivy \nand\nTeddy doing?[pause][\\x0203]The Opening \nCeremony \nis going to start![pause]"
+  - "Thank you for waiting! The \nOpening Ceremony for Digimon \nOnline is about to begin![pause][\\x0203]DNB TV is live from the Digital \nWorld for the first time in history \nby using the Optical Network![pause][\\x0203]With that, let's connect to this\nrelay with the Digital World![pause]"
+  - "[\\x0207][\\x020902]3...Kurt is amazing!\nHe created a new \ncompany...[pause][\\x0203]And started Digimon \nOnline in place of\nMAGAMI...[pause]"
+  - "[\\x0207]Ivy[\\x0207]Why are you talking \nto yourself? It's \ncreepy.[pause]"
+  - "[\\x0207]Teddy[\\x0207]Hey, [\\x020801][\\x020501]!\nYou're already \nhere?![pause]"
+  - "[\\x0207][\\x020902]3You guys are \nlate![pause]"
+  - "[\\x0207][\\x020902]3I've been waiting \nhere for over \nten minutes![pause]"
+  - "[\\x0207]Ivy[\\x0207]What am I supposed \nto do about that?! \nYou came too early![pause][\\x0203]If you wanted to go\nthat bad, why didn't\nyou just go?![pause]"
+  - "[\\x0207]Teddy[\\x0207]Hey, hey...\n[\\x020801][\\x020501],\nIvy![pause][\\x0203]Chill out and \nlet's go to the \nOnline Center![pause]"

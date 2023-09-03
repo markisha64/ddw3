@@ -1,0 +1,27 @@
+strings:
+  - ''
+  - "[\\x0207]Oficial de Cámara[\\x0207]Todo bien.\nHemos terminado la\ncomprob. de [\\x020801][\\x020501].[pause][\\x0203]Invirtiendo el Sistema\nMatriz.[pause][\\x0203]¿Dónde deseas \n\"realizarte\" en el Mundo\nReal?[pause]"
+  - |-
+    [\x0207][\x020902]3¡La Base Militar
+    Magasta del
+    Mundo Real![pause][\x0203]¡Está en el nivel
+    oceánico![pause]
+  - |-
+    [\x0207]Oficial Cámara[\x0207]Comprendo.
+    Base Militar
+    Magasta⋯[pause]
+  - "[\\x0207]Oficial Cámara[\\x0207]Confirmado. Está en\nrango de salto.[pause][\\x0203]Sin embargo, debido\nal sistema inestable.[pause][\\x0203]Tu existencia en \nMundo Real durará \nsólo 180 segundos.[pause]"
+  - |-
+    [\x0207][\x020902]3E.. Espera...
+    ¿Qué pasa si se
+    agota el tiempo?[pause]
+  - "[\\x0207]Oficial de Cámara[\\x0207]La Realización se \ndetendrá y la Matriz\nte traerá de vuelta.[pause][\\x0203]Los datos de la Matriz \nno se romperán, no\nte preocupes.[pause][\\x0203]Vamos a iniciar el\nSistema Matriz ya.[pause]"
+  - |-
+    [\x0207][\x020902]3¡Bien!
+    ...¿Qué debo
+    hacer?[pause]
+  - |-
+    [\x0207]Oficial de Cámara[\x0207]Ve al puerto de
+    salto a mi
+    izquierda.[pause][\x0203]Suerte,
+    [\x020801][\x020501].[pause]

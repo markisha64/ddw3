@@ -1,0 +1,16 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Junior[\x0207]¿Qué quieres
+    decir
+    con eso?[pause]
+  - "[\\x0207]BK Seraphimon[\\x0207]Significa que\nlucharás conmigo.[pause][\\x0203]Si ganas te \ndejaré ir...[pause][\\x0203]¡Pero si pierdes,\nesto es el final![pause]"
+  - |-
+    [\x0207][\x020902]3Entiendo.
+    ¡Vamos a
+    por ello![pause]
+  - |-
+    [\x0207]BK Seraphimon[\x0207]¡No dirás eso
+    durante mucho
+    tiempo![pause][\x0203]¡Mejor que te
+    prepares![pause]

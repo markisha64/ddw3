@@ -1,0 +1,21 @@
+strings:
+  - ''
+  - |-
+    Te voilà enfin, le
+    meilleur de tous
+    les dresseurs ![pause]
+  - "[\\x0207][\\x020902]3Lord \nMegadeath !\nQui es-tu ?![pause]"
+  - "Je suis une forme de vie \nnumérique née dans le réseau...[pause][\\x0203]Et je vais devenir le maître de\ntous les mondes, à la place \ndes humains.[pause]"
+  - "[\\x0207][\\x020902]3C'est pour ça \nque tu as créé\nl'A.o.A ?[pause]"
+  - "Oui. Pour créer le plus \npuissant Digimon, le fidèle\nSnatchmon ![pause]"
+  - "[\\x0207][\\x020902]3Snatchmon ? !\nJamais entendu \nparler ![pause]"
+  - "...Snatchmon naît quand Vemmon \nabsorbe beaucoup de données\nmatrix et digivolve.[pause][\\x0203]Tu as bien vu ceux qui ont eu \nleurs données Matrix aspirées \net ont été transformés en Digimon.[pause]"
+  - "[\\x0207][\\x020902]3Quoi...?!\nLes Oinkmons, \nc'est donc ça ?[pause]"
+  - "Quand Gunslinger lancera la \nDigionde...[pause][\\x0203]...les données matrix de toute \nforme vie seront transmises...[pause][\\x0203]... Snatchmon deviendra\nalors le plus puissant Digimon ![pause][\\x0203]...et moi, son dresseur, je  \nferai régner la peur et le \ndésespoir ![pause]"
+  - |-
+    [\x0207][\x020902]3Tu parles !
+    N'y compte pas ![pause]
+  - "C'est bien pour cela \nque tu dois te battre.[pause][\\x0203]Pour que je te montre\nqui est le meilleur ![pause]"
+  - |-
+    [\x0207][\x020902]3Oui, c'est ça.
+    Amène-toi ![pause]

@@ -1,0 +1,4 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Huh? There's  \nanother button.[pause][\\x0203]What should I \ndo? Oh, well, \nlet's push it![pause]"
+  - "[\\x0207][\\x020902]3Hmmm, nothing \nhappened.[pause][\\x0203]Oh, well, I have to \ngo find the A.o.A![pause]"

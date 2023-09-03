@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - "[\\x0207]Pharaohmon[\\x0207]I lose! You're \nbetter than \nyou look![pause]"
+  - "[\\x0207][\\x020902]3Yeah, of \ncourse![pause]"
+  - "[\\x0207]Pharaohmon[\\x0207]As praise to \nyou, I'll give \nyou this.[pause]"
+  - |-
+    [\x0207][\x020902]3Yeah! I got
+    the Old Wand![pause]
+  - "[\\x0207]Pharaohmon[\\x0207]You're strong. Our \ngods will be with \nyou![pause]"

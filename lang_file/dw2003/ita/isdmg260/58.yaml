@@ -1,0 +1,15 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Va bene!
+    24000 BIT![pause]
+  - |-
+    [\x0207]Mr. Smith[\x0207]Wow!
+    24000 BIT![pause][\x0203]Nessuno offre
+    di più?[pause]
+  - "[\\x0207]Mr. Smith[\\x0207]Se nessuno offre\ndi più... venduta![pause][\\x0203]La tuta selvaggia\nper 24000 BIT![pause][\\x0203]Congratulazioni\na te, laggiù![pause][\\x0203]Trasferirò \nl'oggetto al\nsatellite![pause]"
+  - "[\\x0207][\\x020902]3Ho la tuta \nselvaggia![pause]"
+  - |-
+    [\x0207][\x020902]3Ora ho un oggetto
+    prezioso. Vediamo
+    di provarlo.[pause]

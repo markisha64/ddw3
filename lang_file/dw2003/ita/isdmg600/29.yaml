@@ -1,0 +1,32 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Domatore Heinrich[\x0207]Aspetta! Senza la
+    password non ti
+    farò entrare![pause]
+  - |-
+    [\x0207][\x020902]3Eh, una
+    password?
+    Uhm...[pause]
+  - |-
+    [\x0207]???[\x0207]Ehi, tu sei
+    [\x020801][\x020501]![pause]
+  - |-
+    [\x0207]Kenny[\x0207][\x020801][\x020501],
+    sono io,
+    Kenny![pause]
+  - |-
+    [\x0207][\x020902]3Ehi, Kenny!
+    Stai bene?[pause]
+  - |-
+    [\x0207]Kenny[\x0207]Sì. Mi sono unito
+    alla Resistenza![pause][\x0203]Questa è una base
+    della Resistenza![pause]
+  - |-
+    [\x0207][\x020902]3Che forza,
+    Kenny![pause]
+  - |-
+    [\x0207]Kenny[\x0207]Vieni a conoscere
+    il nostro capo![pause][\x0203]Forse lui
+    può aiutarti.[pause][\x0203]Da questa parte![pause]
+  - '[\x0207][\x020902]3Ehi, grazie![pause]'

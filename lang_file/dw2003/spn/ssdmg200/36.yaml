@@ -1,0 +1,46 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Lisa, ¿quieres
+    decir el Maestro
+    de Juego?[pause]
+  - |-
+    [\x0207]Lisa[\x0207]¡Eso es!
+    ¿Captas?[pause][\x0203]Ella es la única
+    a la que podemos
+    acudir. ¿No?[pause]
+  - "[\\x0207]Maestro de Juego[\\x0207]...¿Qué quieres\ndecir con hablar?[pause][\\x0203]No tengo ninguna \nintención de \nayudaros.[pause]"
+  - |-
+    [\x0207]Lisa[\x0207]¿De verdad?
+    Ummm[pause][\x0203]Te iba a liberar.[pause]
+  - "[\\x0207][\\x020902]3¿Qué dices, \nLisa?[pause]"
+  - |-
+    [\x0207]Lisa [\x0207]Tienen el
+    Juggernaut. Todo
+    es inútil.[pause][\x0203]Y no quiero morir
+    todavía.[pause]
+  - "[\\x0207][\\x020902]3¿Q..Qué?\n¡Hemos llegado \nhasta aquí![pause][\\x0203]No quiero.\n¡Yo nunca\nabandono![pause]"
+  - "[\\x0207]Lisa[\\x0207][\\x020801][\\x020501], eres un\nbuen chico.[pause][\\x0203]Pero sólo \nperderás la vida.[pause]"
+  - "[\\x0207]Maestro de Juego[\\x0207]Eres más lista de lo\nque pareces. Tendré  \nque cambiar de idea.[pause]"
+  - |-
+    [\x0207]Maestro de Juego[\x0207]¡Sí, el Juggernaut
+    pertenece a A.o.A![pause][\x0203]¡Sólo el presidente
+    de Ciudad Amaterasu
+    puede deternerlo![pause]
+  - |-
+    [\x0207]Lisa[\x0207]¿Sí?
+    ¿Has oído eso
+    [\x020801][\x020501]?[pause]
+  - "[\\x0207][\\x020902]3¡S..Sí, señora!\n¡...A eso te \nreferías![pause]"
+  - |-
+    [\x0207]Maestro de Juego[\x0207]¿Pero qué digo?
+    ¡Era un secreto!
+    ¡Qué idiota soy![pause]
+  - "[\\x0207]Lisa[\\x0207]Como dicen... \nEngaña al aliado\nante el enemigo.[pause][\\x0203]Que, ¿qué\ntal mi \nrepresentación?[pause]"
+  - "[\\x0207]Teddy[\\x0207]¡Dejad de \nperder\ntiempo![pause]"
+  - |-
+    [\x0207]Teddy[\x0207]¡Vemmon ha sido
+    transferido al
+    Juggernaut![pause]
+  - '[\x0207]Lisa[\x0207]¡¿Sí?![pause]'
+  - "[\\x0207][\\x020902]3¿Qué ha \npasado?[pause]"

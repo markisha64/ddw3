@@ -1,0 +1,45 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Sepikmon,
+    J'ai trouvé
+    ton masque.[pause]
+  - |-
+    [\x0207]Sepikmon[\x0207]Ouah !
+    Merci ![pause]
+  - '[\x0207]Sepikmon[\x0207]......[pause][\x0203]...[pause]'
+  - |-
+    [\x0207][\x020902]3Qu'est-ce qu'il
+    y a ? Mets-le
+    et sors.[pause]
+  - |-
+    [\x0207]Sepikmon[\x0207]Euh... Tu
+    peux te
+    retourner ?[pause]
+  - |-
+    [\x0207][\x020902]3Oh... Ah...
+    D'accord.[pause]
+  - |-
+    [\x0207]Sepikmon[\x0207]Ah, enfin ! Je me
+    sens bien mieux
+    comme ça ![pause]
+  - |-
+    [\x0207]Sepikmon[\x0207]Tiens, je te
+    donne ça ![pause]
+  - |-
+    [\x0207][\x020902]3C'est quoi
+    cette Herbe
+    Fétide ?[pause]
+  - "[\\x0207]Sepikmon[\\x0207]Zanbamon déteste \ncette odeur ![pause][\\x0203]Il va s'enfuir à\ntoutes jambes ![pause]"
+  - |-
+    [\x0207][\x020902]3Vraiment ?
+    Merci, tu me
+    sauves la vie ![pause]
+  - |-
+    [\x0207]Sepikmon[\x0207]Merci à toi
+    aussi. Bonne
+    chance ![pause]
+  - |-
+    [\x0207]Sepikmon[\x0207]Ce sac en
+    papier n'a
+    pas suffi ![pause]

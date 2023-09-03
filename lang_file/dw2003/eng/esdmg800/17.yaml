@@ -1,0 +1,29 @@
+strings:
+  - ''
+  - "[\\x0207]Snatchmon[\\x0207]I am Snatchmon...\nForever, the \nstrongest Digimon.[pause]"
+  - "Go, Snatchmon! \nDestroy those foolish \nhuman beings!![pause]"
+  - |-
+    [\x0207][\x020902]3Come on!
+    I'll take you on![pause]
+  - "[\\x0207]Snatchmon[\\x0207]Who are you?\nWhy do you \norder me?[pause]"
+  - |-
+    ...what are you saying?!
+    I am your tamer![pause]
+  - "[\\x0207]Snatchmon[\\x0207]...Tamer?\nI do not require such \na thing...[pause][\\x0203]I am always the \nstrongest Digimon!\nI bow down to no one![pause]"
+  - "Wha-what!\nWho do you think \nI am...?![pause]"
+  - "[\\x0207]Snatchmon[\\x0207]It does not matter \nwho made me...[pause][\\x0203]I will absorb more \ndata and become \nmore powerful![pause][\\x0203]First...\nI will absorb you![pause]"
+  - Wha-what?![pause]
+  - Aaaaaaaaah![pause]
+  - "[\\x0207][\\x020902]3Whoa! Hey, he's \nthe tamer that \nraised you![pause][\\x0203]Tamers and Digimon \nare one and the \nsame![pause][\\x0203]We always work\ntogether![pause]"
+  - "[\\x0207]Snatchmon[\\x0207]So, it is you...\nYou defeated me \nwhen I was Vemmon![pause][\\x0203]But now \nI am reborn![pause][\\x0203]I will show you my\nnew powers![pause]"
+  - "[\\x0207][\\x020902]3..what the?!\nWhat're you \ngoing to do?[pause]"
+  - "[\\x0207]Snatchmon[\\x0207]I'll fuse with \nGunslinger and  \nbe Galacticmon![pause]"
+  - '[\x0207][\x020902]3Galacticmon?![pause]'
+  - "[\\x0207]Snatchmon[\\x0207]Then I will become one \nwith Earth![pause][\\x0203]To digivolve into a more \npowerful Digimon, \nGaiamon![pause]"
+  - "[\\x0207][\\x020902]3...Gaiamon?!\nThen it won't just \nbe humans![pause][\\x0203]Everything on \nEarth will die![pause]"
+  - "[\\x0207]Snatchmon[\\x0207]That is why it is \nirrelevant, all that \nmatters is me![pause]"
+  - '[\x0207][\x020902]3I won''t let you![pause]'
+  - "[\\x0207]Snatchmon[\\x0207]Then try to defeat \nme when I am \nGalacticmon![pause]"
+  - "[\\x0207][\\x020902]3I will!\nI can't let \nyou do this![pause]"
+  - "[\\x0207]Snatchmon[\\x0207]Fine.\nThen we shall meet \nin space![pause][\\x0203]I will transfer \nyour matrix data![pause][\\x0203]Watch as I \ndigivolve into \nGalacticmon![pause]"
+  - "Now come Snatchmon!\nAnd cover this world with \ndarkness![pause]"

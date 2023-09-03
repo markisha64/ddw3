@@ -1,0 +1,16 @@
+strings:
+  - ''
+  - '[\x0207][\x020902]3¡Eh, son..![pause]'
+  - "[\\x0207]¿Ciuda.Byak?[\\x0207]¿Uh? Creo\nque se ha \nmovido algo.[pause]"
+  - "[\\x0207]Ciudada. Byakko[\\x0207]Eh, ¿puedes \nver algo desde \nahí?[pause]"
+  - |-
+    [\x0207]¿Ciu. Bya.?[\x0207]¡Sin problema
+    en el oeste![pause]
+  - "[\\x0207]Ciudad. Byak.[\\x0207]¡Nada en el \nSur![pause]"
+  - |-
+    [\x0207]Ciudad. Byakko[\x0207]¡Todo bien aquí
+    también![pause]
+  - |-
+    [\x0207]Ciudad. Byakko[\x0207]Me lo habré
+    imaginado...[pause]
+  - "[\\x0207][\\x020902]3...están de \nguardia...[pause][\\x0203]No podré entrar\nen Ciudad Byakko\npor algún tiempo.[pause]"

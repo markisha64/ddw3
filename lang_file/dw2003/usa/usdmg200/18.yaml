@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - "[\\x0207]Tamer Service[\\x0207]Look at clues\non playing the \ngame.[pause][\\x0203]I will display the \ndata on your \nsatellite.[pause]"
+  - "\"Preparation for Journey\"\nSelect and decide on Digimon and \ndigivolution at the Digimon Lab.[pause][\\x0203]Make sure you equip Digimon with\nweapons and armor and line up \nyour Digimon for battle.[pause]"
+  - "\"Card Battle\"\nIn Digimon Online, you can Card\nBattle as well.[pause][\\x0203]Detailed information is available at \nthe Yellow Cruiser.[pause][\\x0203]\"Saving\"\nJust in case of trouble, save \nfrequently.[pause][\\x0203]Guardromon, in charge of saving,\nstand at each of the Inns. \nGuardromon in battle will not save![pause]"
+  - |-
+    "Game Over"
+    When all partner Digimon are
+    defeated, the game ends.[pause][\x0203]Stay away from unreasonable battles.[pause][\x0203]"Adding Partners"
+    You can add partner Digimon
+    besides the three you've chosen.[pause][\x0203]This is all I can tell you.[pause]
+  - "[\\x0207]Tamer Service[\\x0207]That's all of the \ninformation.\nWell, good luck![pause]"

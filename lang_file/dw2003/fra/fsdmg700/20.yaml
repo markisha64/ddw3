@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - "[\\x0207]Maître des Glaces[\\x0207]Tu es bon. \nImpressionnant ![pause][\\x0203]Je t'offre ce \ncadeau. \nPrends-le ![pause]"
+  - |-
+    [\x0207][\x020902]3Oui ! J'ai
+    un Chip PM ![pause]
+  - |-
+    [\x0207]Maître des Glaces[\x0207]Cela se corse à
+    partir d'ici !
+    Tiens-toi prêt ![pause]

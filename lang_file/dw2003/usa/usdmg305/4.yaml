@@ -1,0 +1,49 @@
+strings:
+  - ''
+  - "[\\x0207]Lisa[\\x0207]...now talk![pause][\\x0203]What was the \nA.o.A planning\non doing?[pause]"
+  - "[\\x0207]Game Master[\\x0207]Heh...heh...heh!\nYou're too late![pause][\\x0203]Our plan has not \nbeen foiled. It's \nonly just begun![pause]"
+  - |-
+    [\x0207]Teddy[\x0207]...Oh, no!
+    The Optical Network is
+    being taken over![pause]
+  - '[\x0207]Nick[\x0207]Wha-what!?[pause]'
+  - |-
+    [\x0207]Game Master[\x0207]Heh... heh...
+    See, just like I
+    said.[pause]
+  - "[\\x0207][\\x020902]3Vemmon...\nThat's that \nDigimon![pause]"
+  - "[\\x0207]Game Master[\\x0207]By using the Optical\nNetwork he can \nfuse with any machine![pause][\\x0203]Lucky Mouse stole the \nDigitama and almost\ndestroyed him, but...[pause]"
+  - "[\\x0207]Nick[\\x0207]What should we \ndo? A.o.A's got the\nupper hand![pause]"
+  - |-
+    [\x0207]Lisa[\x0207]First, let's tell the
+    Real World about this![pause]
+  - "[\\x0207][\\x020902]3How are we going\nto get in contact \nwith them...?[pause]"
+  - "[\\x0207]Lisa[\\x0207]I was told\nonce...[pause][\\x0203]There's an emergency \nchamber somewhere\nin North Sector...[pause]"
+  - "[\\x0207]Nick[\\x0207]Then if we \nuse it we might \nbe able to...[pause]"
+  - |-
+    [\x0207]Lisa[\x0207]Umm...
+    I think so![pause]
+  - |-
+    [\x0207]Game Master[\x0207]Heh... heh...
+    It will never work![pause]
+  - "[\\x0207]Lisa[\\x0207]We won't know \nuntil we try.\nRight [\\x020801][\\x020501]?[pause]"
+  - "[\\x0207][\\x020902]3Yeah!\nThat's right![pause][\\x0203]We're not letting\nthe A.o.A have \nthe last laugh![pause]"
+  - |-
+    [\x0207][\x020902]3We're not letting
+    the A.o.A have
+    the last laugh![pause]
+  - "[\\x0207]Lisa[\\x0207]OK, we're all going \nto look for that \nchamber![pause]"
+  - "[\\x0207]Nick[\\x0207]Now come this \nway![pause]"
+  - "[\\x0207]Teddy[\\x0207]This is \ngetting pretty \nserious.[pause]"
+  - "[\\x0207][\\x020902]3Don't worry. \nEverything will \nturn out OK![pause]"
+  - "[\\x0207]Kail[\\x0207]...I hope \nso...[pause]"
+  - a
+  - |-
+    [\x0207]Kurt[\x0207]Oioi!
+    Oioink![pause]
+  - "[\\x0207]Game Master[\\x0207]All computer networks \nwill belong to the \nA.o.A![pause]"
+  - "[\\x0207]Game Master[\\x0207]And our Vemmon \nwill destroy the \nworld![pause]"
+  - "[\\x0207]Game Master[\\x0207]And it will \nbe the end \nfor you![pause][\\x0203]Victory is \nours![pause]"
+  - "[\\x0207]Lisa[\\x0207]And if we can cut off \nthe Optical Network, \ntheir plan will fail![pause]"
+  - "[\\x0207]Lisa[\\x0207]You'll wait here \nuntil then.[pause]"
+  - "[\\x0207]Kail[\\x0207]I wonder what's \nhappening in the \nReal World.[pause]"

@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Um, no puedo
+    quedarme mucho.[pause]
+  - |-
+    [\x0207]BK WarGrowlmon[\x0207]Lo se.
+    Sólo un poco
+    ¡Una batalla![pause]
+  - |-
+    [\x0207][\x020902]3De acuerdo...
+    ¡Pero no te lo
+    pondré fácil![pause]
+  - "[\\x0207]BK WarGrowlmon[\\x0207]¡Eso es mio![pause][\\x0203]Uf, no he \nluchado desde\nhace mucho.[pause]"

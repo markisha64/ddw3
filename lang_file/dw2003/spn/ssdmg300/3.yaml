@@ -1,0 +1,25 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Kail[\x0207]¡Eh, [\x020801][\x020501]!
+    ¡Llegas tarde![pause]
+  - "[\\x0207][\\x020902]3¿Eh? ¿Ya \nterminaste, \nKail?[pause]"
+  - |-
+    [\x0207]Kail[\x0207]Ehhh... Sí.
+    ¿Has encontrado
+    a Teddy?[pause]
+  - "[\\x0207][\\x020902]3No, no lo he \nvisto por \nningún sitio.[pause]"
+  - "[\\x0207]Kail[\\x0207]Yo tampoco y\nhe buscado bien.[pause][\\x0203]Me dijo que venía\nal Centro de \nAdministración.[pause]"
+  - |-
+    [\x0207][\x020902]3¿Dónde estará
+    Teddy?[pause]
+  - '[\x0207]Kail[\x0207].....[pause]'
+  - "[\\x0207]Kail[\\x0207]¿No tienes la \nimpresión de que\nestá aquí dentro?[pause]"
+  - |-
+    [\x0207][\x020902]3Ummm, no lo
+    sabré hasta que
+    no miremos.[pause]
+  - |-
+    [\x0207]Kail[\x0207]¡Gracias!
+    ¡Bueno, vamos
+    entonces![pause]

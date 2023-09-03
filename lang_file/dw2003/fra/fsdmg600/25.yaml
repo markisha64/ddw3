@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Tu es le chef
+    de Bai Hu ?[pause]
+  - |-
+    [\x0207]Chef de Bai Hu[\x0207]Oui... Que
+    veux-tu ?[pause]
+  - |-
+    [\x0207][\x020902]3Je voudrais ton
+    Passe blanc ![pause]
+  - |-
+    [\x0207]Chef de Bai Hu[\x0207]Je vois.
+    Hé hé hé ![pause][\x0203]Quoi que tu
+    fasses, nous
+    triompherons ![pause][\x0203]Tu as besoin d'une
+    bonne leçon ![pause]

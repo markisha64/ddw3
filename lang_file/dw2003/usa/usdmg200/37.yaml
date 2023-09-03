@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - "[\\x0207]Game Master[\\x0207]...then Destromon \nshould be born \nabout now...[pause]"
+  - "[\\x0207][\\x020902]3What's this \nDestromon?[pause]"
+  - "[\\x0207]Game Master[\\x0207]It's a Digimon born by \nfusing Vemmon and \nthe Juggernaut![pause][\\x0203]Destromon is the \nstrongest Digimon! No \nweapon can defeat it![pause]"
+  - "[\\x0207]Lisa[\\x0207]...we've got no time \nto lose![pause][\\x0203]Let's get the president \nof MAGAMI to stop \nDestromon![pause]"
+  - '[\x0207][\x020902]3Yes ma''am![pause]'
+  - '[\x0207]Teddy[\x0207]...y-yes![pause]'
+  - '[\x0207]Nick[\x0207]Roger![pause]'

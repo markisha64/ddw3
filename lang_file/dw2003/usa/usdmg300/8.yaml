@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - |-
+    [\x0207]???[\x0207]GUBIIIII![pause][\x0203]Digimon response,
+    Digimon response![pause]
+  - "[\\x0207][\\x020902]3What is this?\nIt's a Digimon I've \nnever seen before.[pause]"
+  - '[\x0207]???[\x0207]GUBI?[pause]'
+  - "[\\x0207][\\x020902]3...It doesn't \nlook like a bad \nDigimon...[pause]"
+  - "[\\x0207][\\x020902]3...hey, open up.[pause][\\x0203]I'm going to go \ndefeat the bad \nguys![pause]"
+  - "[\\x0207]???[\\x0207]...bad? \nWhat's  \nbad?[pause]"
+  - "[\\x0207][\\x020902]3Umm, ah, to \nput it simply...[pause]"
+  - "[\\x0207]???[\\x0207]I eat Digimon! \nAnd get \nstronger![pause][\\x0203]GUBIIIII![pause]"

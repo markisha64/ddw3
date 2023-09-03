@@ -1,0 +1,13 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3C'est bizarre,
+    je ne vois pas
+    de badge ici.[pause]
+  - |-
+    [\x0207][\x020902]3Qu'est-ce
+    que...?[pause]
+  - |-
+    [\x0207][\x020902]3Que se passe-
+    t-il ?[pause]
+  - '[\x0207][\x020902]3Ahhhhhh ![pause]'

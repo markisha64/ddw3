@@ -1,0 +1,20 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Chevalier Ténèbres[\x0207]Voyez-vous ça !
+    Tu as l'air bien
+    hardi ![pause][\x0203]Voici le Donjon des
+    Ténèbres, le + fort
+    du serveur Asuka ![pause][\x0203]Je suis le Che-
+    valier des Ténèbres,
+    le + fort de tous ![pause]
+  - "[\\x0207][\\x020902]3Et moi [\\x020801][\\x020501], \nle meilleur dresseur.\nTu me gênes là...[pause]"
+  - |-
+    [\x0207]Chevalier des Ténèbres[\x0207]Quoi ?! Hé, le
+    môme, ça ne marche
+    pas comme ça ici ![pause][\x0203]Je ne laisse pas
+    passer n'importe qui ![pause][\x0203]Tu dois d'abord
+    me battre
+    pour passer ![pause][\x0203]Tu peux essayer
+    du moins...[pause]
+  - '[\x0207][\x020902]3?!?[pause]'

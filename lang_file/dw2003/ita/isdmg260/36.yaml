@@ -1,0 +1,13 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Mr. Smith[\x0207]Un'occasione![pause][\x0203]Il pezzo principale![pause][\x0203]La corona divina, pezzo
+    favoloso![pause][\x0203]La corona esclusiva di
+    Patamon parte da
+    4000 BIT![pause]
+  - '[\x0207]Cliente Abel[\x0207]4500 BIT![pause]'
+  - '[\x0207]Capo Milly[\x0207]5500 BIT![pause]'
+  - '[\x0207]Masao RPG[\x0207]5900 BIT![pause]'
+  - |-
+    [\x0207][\x020902]3Mmm, 6000 BIT
+    Hmmm...[pause]

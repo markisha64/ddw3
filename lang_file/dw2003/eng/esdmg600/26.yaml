@@ -1,0 +1,4 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3You see that!\nDon't mess with \nme![pause][\\x0203]huh? \nIs this...?[pause]"
+  - "[\\x0207][\\x020902]3Yeah! I got the \nWhite ID Pass![pause][\\x0203]One left to go. \nLet's hurry![pause]"

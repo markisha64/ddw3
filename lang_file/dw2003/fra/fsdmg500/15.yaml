@@ -1,0 +1,7 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Oui, \nVictoire ![pause]"
+  - |-
+    [\x0207]MagnaAngemon[\x0207]Très bien.
+    Prends-le.[pause]
+  - "[\\x0207][\\x020902]3Oui ! J'ai \nl'ADNN\nPatamon ![pause][\\x0203]Merci, \nMagnaAngemon ![pause]"

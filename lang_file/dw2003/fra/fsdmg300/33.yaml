@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - "[\\x0207]BK WarGreymon[\\x0207]Tu n'es sans \ndoute pas un\nvantard.[pause]"
+  - "[\\x0207][\\x020902]3Que non ! Je me suis \ndéjà tiré de ce genre \nde situations ![pause]"
+  - "[\\x0207]BK WarGreymon[\\x0207]Ha ha, je t'aime \nbien ! Prends,  \nc'est à toi ![pause]"
+  - |-
+    [\x0207][\x020902]3Oui ! J'ai le
+    passe
+    de platine ![pause]
+  - "[\\x0207]BK WarGreymon[\\x0207]Essaie de devenir \nle plus fort ! [pause][\\x0203]C'est le secret \npour être un\ngrand dresseur ![pause]"

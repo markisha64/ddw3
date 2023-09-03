@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Also
+    8700 BIT![pause]
+  - |-
+    [\x0207]Mr. Smith[\x0207]Wow!
+    8700 BIT![pause][\x0203]Bietet jmd.
+    mehr?[pause]
+  - "[\\x0207]Mr. Smith[\\x0207]Es bietet wohl\nkeiner mehr.[pause][\\x0203]Ronin-Helm \nfür 8700 BIT![pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an\ndeinen Satelliten![pause]"
+  - |-
+    [\x0207][\x020902]3Klasse! Der
+    Ronin-Helm![pause]
+  - |-
+    [\x0207][\x020902]3Ich hab jetzt ein
+    echt cooles Item.
+    Ich probier's aus.[pause]

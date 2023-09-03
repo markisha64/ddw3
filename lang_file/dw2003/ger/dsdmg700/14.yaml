@@ -1,0 +1,18 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Dunkler Ritter[\x0207]Toll!
+    Sieht aus, als hast
+    du echt Mumm![pause][\x0203]Dies ist das dunkle
+    Verlies, das stärkste
+    des Asuka-Servers![pause][\x0203]Ich bin der stärkste
+    Boss, Dunkler Ritter![pause]
+  - "[\\x0207][\\x020902]3Ich bin der beste\nTamer, [\\x020801][\\x020501]. \nDu stehst im Weg.[pause]"
+  - |-
+    [\x0207]Dunkler Ritter[\x0207]Heh Kleiner!
+    Ein solches Programm
+    habe ich nicht![pause][\x0203]Ich kann dich nicht
+    einfach gehen lassen![pause][\x0203]Wenn du durch willst,
+    musst du mich be-
+    siegen![pause][\x0203]Wenn du es könntest.[pause]
+  - '[\x0207][\x020902]3?![pause]'

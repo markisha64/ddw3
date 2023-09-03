@@ -1,0 +1,22 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3¡Gané!\n¡Que bueno\nsoy![pause][\\x0203]Tengo que \ndetener al\nJuggernaut[pause][\\x0203]¿Eh? Hay algo\nen el suelo.[pause]"
+  - |-
+    [\x0207][\x020902]3¿Qué? El
+    campo magnético
+    ha desaparecido.[pause]
+  - |-
+    TODO DESPEJADO
+    PARA LANZAMIENTO[pause][\x0203]¡LANZAMIENTO DE
+    JUGGERNAUT![pause]
+  - |-
+    [\x0207][\x020902]3¿Qué?[pause][\x0203]¡Tengo que
+    pararlo![pause]
+  - "[\\x0207][\\x020902]3¿Qué hago?\n¡El Juggernaut \nestá lanzándose![pause]"
+  - |-
+    [\x0207][\x020902]3¿Eh?[pause][\x0203]¡No funciona!
+    Nada de esto lo
+    para.[pause]
+  - |-
+    [\x0207][\x020902]3¡Sí! ¡Tengo un
+    Casco alado![pause]

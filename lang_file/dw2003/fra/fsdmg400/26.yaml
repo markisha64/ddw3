@@ -1,0 +1,13 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3J'ai gagné ![pause][\x0203]OK, donne
+    le moi ![pause]
+  - |-
+    [\x0207]Paildramon[\x0207]Bon, bon.
+    Prends-le.[pause]
+  - "[\\x0207][\\x020902]3Oui ! J'ai\nl'ADNN\nVeemon ![pause][\\x0203]Merci, \nPaildramon ![pause]"
+  - |-
+    [\x0207]Paildramon[\x0207]Oui, c'est ça, on
+    ne m'y prendra
+    plus. Salut ![pause]

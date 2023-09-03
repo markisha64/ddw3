@@ -1,0 +1,38 @@
+strings:
+  - ''
+  - "[\\x0207]Junior[\\x0207]Ils sont en retard.\nQue font donc \nTeddy et Ivy ?[pause][\\x0203]On ne va pas avoir\nle temps de jouer\nà Digimon Online.[pause]"
+  - |-
+    [\x0207]Junior[\x0207]Je ne voulais pas
+    d'Ivy, mais Teddy lui
+    en a parlé.[pause][\x0203]Ils auraient dû
+    s'enregistrer à
+    l'avance...[pause]
+  - "... Communiqué.[pause][\\x0203]La police internationale S.A.P\na localisé le QG du groupe\ncriminel A.o.A en Europe.[pause][\\x0203]Hier soir à minuit, une\ndescente au QG a été \norganisée avec l'armée...[pause][\\x0203]Les chefs de l'A.o.A ont\nété arrêtés dans le\nbâtiment.[pause][\\x0203]Ces arrestations permettraient\nd'imputer certaines actions\ncyberterroristes à l'A.o.A.[pause]"
+  - |-
+    [\x0207]Junior[\x0207]C'est le groupe qui a
+    commis des délits
+    avec des Digimons.[pause][\x0203]Comment peut-on
+    entraîner des Digimons
+    à faire ça ![pause]
+  - |-
+    [\x0207]Ivy[\x0207]Qu'est-ce que tu as
+    à parler comme ça ?
+    C'est désagréable.[pause]
+  - |-
+    [\x0207]Teddy[\x0207]Merci de nous avoir
+    attendus. Désolé
+    pour le retard ![pause]
+  - |-
+    [\x0207][\x020902]3Pas trop
+    tôt, Teddy ![pause]
+  - "[\\x0207]Junior[\\x0207]Mais qu'est-ce que \nfait Ivy ici,\nd'abord ?[pause][\\x0203]Tu dis toujours que\nles Digimons, c'est\npour les gamins ![pause]"
+  - |-
+    [\x0207]Ivy[\x0207]Digimon Online,
+    ça m'intéresse,
+    OK ?![pause][\x0203]Et je n'ai jamais dit
+    que je détestais
+    les Digimons ![pause]
+  - |-
+    [\x0207]Teddy[\x0207]Junior, Ivy - allez,
+    on va au Centre
+    Online ![pause]

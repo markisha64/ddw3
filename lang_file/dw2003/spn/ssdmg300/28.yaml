@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - "[\\x0207]Pharaohmon[\\x0207]¡Perdí! ¡Eres\nmejor de lo \nque pareces![pause]"
+  - "[\\x0207][\\x020902]3¡Sí, \nclaro![pause]"
+  - |-
+    [\x0207]Pharaohmon[\x0207]Como muestra de
+    respeto, te daré
+    esto.[pause]
+  - |-
+    [\x0207][\x020902]3¡Sí!¡La Varita
+    Antigua![pause]
+  - "[\\x0207]Pharaohmon[\\x0207]Eres fuerte. \n¡Nuestros dioses \nirán contigo![pause]"

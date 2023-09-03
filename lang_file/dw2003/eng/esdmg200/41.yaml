@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Huh, what?\nThey're still not \nback to normal...[pause]"
+  - "[\\x0207]Teddy[\\x0207][\\x020801][\\x020501], the\nchamber's not \nworking either...[pause]"
+  - '[\x0207][\x020902]3...Kail![pause]'
+  - '[\x0207]Teddy[\x0207]Kail![pause]'
+  - "[\\x0207]Kail[\\x0207]Why won't Kurt \nturn back to \nnormal?[pause]"
+  - '[\x0207]Kurt[\x0207]Ooink, oink![pause]'
+  - "[\\x0207]Kail[\\x0207]...Is Kurt and \neveryone going to stay \nthis way...?[pause]"
+  - |-
+    [\x0207]Teddy[\x0207]N-no. I'm sure
+    there's a way to
+    turn them back![pause]
+  - "[\\x0207]Teddy[\\x0207]...right \n[\\x020801][\\x020501]?![pause]"
+  - "[\\x0207][\\x020902]3...ye-yeah.\nI'm sure![pause][\\x0203]You guys wait \nhere. I'll go \nlook into it![pause]"
+  - "[\\x0207]Kail[\\x0207]...hey, \n[\\x020801][\\x020501],\nTeddy...[pause]"
+  - "[\\x0207]Kail[\\x0207]We defeated the \nA.o.A...right?[pause]"

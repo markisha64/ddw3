@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Was ist denn
+    jetzt los?[pause]
+  - "Alarm! Alarm!\nAus Sicherheitsgründen \nhalten wir kurz an.[pause]"
+  - '[\x0207][\x020902]3Erdbeben![pause]'
+  - |-
+    [\x0207][\x020902]3Was zum...?
+    Ist das ein
+    Digimon?![pause]

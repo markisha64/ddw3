@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - "[\\x0207]Bruja de hielo[\\x0207]¡Un momento!\n¡No te voy a \ndejar pasar![pause][\\x0203]¡Vuélvete a casa![pause]"
+  - "[\\x0207][\\x020902]3Estás de broma, \n¿no? No tengo\ntiempo para esto.[pause]"
+  - |-
+    [\x0207]Bruja de hielo[\x0207]¡Soy la Reina de la
+    Mazmorra de Hielo!
+    ¡Cuida los modales![pause][\x0203]¡No te perdonaré!
+    ¡Serás castigado![pause]
+  - '[\x0207][\x020902]3¿?¿?[pause]'

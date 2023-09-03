@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - "[\\x0207]Mr. Smith[\\x0207]Now's your chance![pause][\\x0203]Finally, our main item![pause][\\x0203]Yin Yang Suit, admired \nby all members![pause][\\x0203]This Renamon exclusive \nclothe will start at\n10000 BIT![pause]"
+  - '[\x0207]Dealer Abel[\x0207]10900 BIT![pause]'
+  - '[\x0207]Chief Milly[\x0207]11200 BIT![pause]'
+  - '[\x0207]RPG Fan Masao[\x0207]11400 BIT![pause]'
+  - |-
+    [\x0207][\x020902]3Hmm. 11500 BIT
+    ...hmmm...[pause]

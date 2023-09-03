@@ -1,0 +1,32 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3J'ai gagné !
+    Je suis le
+    meilleur ![pause][\x0203]Je dois
+    arrêter le
+    Juggernaut ![pause][\x0203]Tiens ? Il y a
+    quelque chose
+    par terre.[pause]
+  - |-
+    [\x0207][\x020902]3Quoi ? Le champ
+    électromagné-
+    tique est parti ![pause]
+  - |-
+    PRET POUR LE
+    LANCEMENT ![pause][\x0203]JUGGERNAUT
+    LANCE ![pause]
+  - |-
+    [\x0207][\x020902]3Quoi ?![pause][\x0203]Je dois
+    l'arrêter ![pause]
+  - |-
+    [\x0207][\x020902]3Que faire ? Le
+    Juggernaut est en
+    train de partir ![pause]
+  - |-
+    [\x0207][\x020902]3... Hein ?![pause][\x0203]Rien à faire
+    Je n'arrive pas
+    à l'arrêter ![pause]
+  - |-
+    [\x0207][\x020902]3Super ! Un
+    Heaume ailé ![pause]

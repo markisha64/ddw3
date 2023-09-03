@@ -1,0 +1,22 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Ehi, sai
+    dov'è
+    Numemon?[pause]
+  - |-
+    [\x0207]HiAndromon[\x0207]Numemon?
+    Cosa vuoi
+    da lui?[pause]
+  - |-
+    [\x0207][\x020902]3Devo assolutamente
+    chiedergli una cosa!
+    Su, dimmelo![pause]
+  - |-
+    [\x0207]HiAndromon[\x0207]So dov'è, ma
+    non posso dirtelo
+    così.[pause][\x0203]Qui possono
+    entrare solo i
+    più forti.[pause][\x0203]Se vuoi vederlo,
+    devi prima
+    battermi.[pause]

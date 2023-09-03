@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - "[\\x0207]Byakko Leader[\\x0207]Ha ha ha!\nYou are strong. \nI like you.[pause]"
+  - |-
+    [\x0207][\x020902]3OK, then...[pause][\x0203]So what about
+    this guy called
+    Lucky Mouse...[pause]
+  - "[\\x0207]Byakko Leader[\\x0207]Hold on a minute.\nThe Byakko Badge\nis in that room.[pause][\\x0203]I'll listen to you \nafter you get it.[pause]"
+  - "[\\x0207][\\x020902]3OK, I'll be \nright back, so \nwait here![pause]"

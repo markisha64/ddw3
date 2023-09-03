@@ -1,0 +1,46 @@
+strings:
+  - ''
+  - "[\\x0207]Tamer Service[\\x0207]I will download the\nDigimon data from\nyour satellite now.[pause][\\x0203]Please wait at the \nonline mark on the\nfloor.[pause]"
+  - |-
+    [\x0207][\x020902]3Wow! I finally get to
+    meet my Digimon. I
+    can hardly wait![pause]
+  - |-
+    [\x0207]Teddy[\x0207]...oh!
+    Hey [\x020801][\x020501]![pause]
+  - "[\\x0207][\\x020902]3Hey, what were\nyou two doing? \nYou're so slow![pause]"
+  - "[\\x0207]Teddy[\\x0207]What? No, no,\nyou're the one \nthat's fast.[pause]"
+  - '[\x0207]Teddy[\x0207]Right, Ivy?[pause]'
+  - |-
+    [\x0207]Kail[\x0207]No, my name is
+    Kail! Don't
+    forget it![pause]
+  - "[\\x0207][\\x020902]3Kail? That's your\naccount name?[pause][\\x0203]That's weird. \nIt sounds like\na guy's name![pause]"
+  - "[\\x0207]Kail[\\x0207]Hey, it's my \nchoice. OK?![pause]"
+  - |-
+    [\x0207]Teddy[\x0207]I was too lazy so
+    I'm still Teddy![pause]
+  - |-
+    [\x0207][\x020902]3Oh, cool!
+    Here are my
+    Digimon![pause]
+  - |-
+    [\x0207]Teddy[\x0207]Wow! I wonder
+    who came up
+    with this?[pause]
+  - '[\x0207]Kail[\x0207]Me too.[pause]'
+  - "[\\x0207][\\x020902]3Hey everyone!\nI'm [\\x020801][\\x020501]. \nNice to meet you![pause]"
+  - |-
+    [\x0207]Kumamon[\x0207]Roger that!
+    Let's rock![pause]
+  - |-
+    [\x0207]Guilmon[\x0207]Guilmon's going to
+    make [\x020801][\x020501] into
+    a champion![pause]
+  - "[\\x0207]Patamon[\\x0207]Hi!\nI'm going to \ndo my best![pause]"
+  - "[\\x0207][\\x020902]3OK, everyone,\nI'm counting on \nyou![pause][\\x0203]Let's go![pause]"
+  - |-
+    [\x0207][\x020902]3OK, I'm heading
+    out![pause]
+  - "[\\x0207]Kail[\\x0207]...alright. \nLet's split up \nfrom here.[pause]"
+  - '[\x0207]Teddy[\x0207]See you later.[pause]'

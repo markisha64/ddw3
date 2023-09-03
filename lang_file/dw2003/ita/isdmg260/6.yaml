@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Va bene!
+    800 BIT![pause]
+  - |-
+    [\x0207]Mr. Smith[\x0207]Wow!
+    800 BIT![pause][\x0203]Nessuno offre
+    di più?[pause]
+  - "[\\x0207]Mr. Smith[\\x0207]Sembra proprio\ndi no.[pause][\\x0203]Lo Scudo del\npericolo, 800 BIT![pause][\\x0203]Congratulazioni\na te, laggiù![pause][\\x0203]Trasferirò \nl'oggetto al\nsatellite![pause]"
+  - |-
+    [\x0207][\x020902]3Ho lo scudo
+    del pericolo![pause]
+  - "[\\x0207][\\x020902]3Ora che ho un così \nbell'oggetto, me\nne andrò.[pause]"

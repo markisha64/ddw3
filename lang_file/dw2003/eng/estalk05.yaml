@@ -1,4 +1,3 @@
-type: simple
 strings:
   - ''
   - "[\\x0207]Lazy Yuka[\\x0207]Hmm...how should I \nraise my Digimon?[pause][\\x0203]Their parameters differ \ndepending on how you\nraise them.[pause]"

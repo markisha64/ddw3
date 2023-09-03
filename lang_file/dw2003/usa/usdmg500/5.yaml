@@ -1,0 +1,18 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Numemon[\x0207]We should be
+    fine here.[pause]
+  - "[\\x0207][\\x020902]3Hey, thanks![pause][\\x0203]But what is with \nthe people of \nByakko City?[pause][\\x0203]Their Leader lied\nand dropped me into\nthe basement.[pause]"
+  - |-
+    [\x0207]Numemon[\x0207]The Leader and
+    everyone else
+    are all fakes![pause]
+  - "[\\x0207][\\x020902]3What!? Then\nwho were \nthose guys?[pause]"
+  - "[\\x0207]Numemon[\\x0207]That doesn't concern\nyou![pause][\\x0203]If you want to meet the \nreal Leader, then go \nto the Mobius Desert.[pause][\\x0203]He's in the Mirage Tower\nbeyond the desert.[pause]"
+  - "[\\x0207][\\x020902]3He-hey \nhold on!\nWhat's going on?[pause]"
+  - "[\\x0207]Numemon[\\x0207]I can't tell you \nanything more![pause][\\x0203]Don't go near \nByakko City \nanymore![pause]"
+  - |-
+    [\x0207][\x020902]3...oh, all right.
+    See ya![pause]
+  - "[\\x0207][\\x020902]3All right then. Let's\nfind the real Leader \nand talk to him![pause]"

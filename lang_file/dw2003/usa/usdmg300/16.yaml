@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Royal Guard[\x0207]We've been waiting!
+    You defeated our
+    Chiefs![pause]
+  - "[\\x0207][\\x020902]3Come on. I'll \ntake you on![pause]"
+  - "[\\x0207]Royal Guard[\\x0207]We are stronger \nthan the anything\nyou've faced yet.[pause]"
+  - "[\\x0207]Royal Guard[\\x0207]With the pride of \nthe Royal Guard, \nI'll defeat you![pause]"

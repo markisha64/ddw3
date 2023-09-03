@@ -1,0 +1,7 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Ce panneau est\nanimé, cela devrait \néliminer le bloc...[pause]"
+  - |-
+    [\x0207][\x020902]3Hmm, le bloc
+    est-il parti,
+    à présent ?[pause]

@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - "[\\x0207]Tai Kong Wang[\\x0207]Je pense pouvoir\nfaire la meilleure\ncanne à pêche...[pause][\\x0203]Mais c'est une\nquestion de goût ![pause][\\x0203]Avec cette canne, \ntu pourras attraper\nde gros poissons ![pause][\\x0203]Bonne chance dans  \nta pêche ! Tiens,\nmon garçon ![pause]"
+  - |-
+    [\x0207][\x020902]3Hein ?
+    Merci, M'sieu ![pause][\x0203]Oui !
+    J'ai la Canne
+    à Pêche ![pause]
+  - |-
+    [\x0207]Tai Kong Wang[\x0207]Ho ho ho ho ho
+    Bonne chance.[pause]

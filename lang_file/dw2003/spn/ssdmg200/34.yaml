@@ -1,0 +1,44 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3¡Vale, vamos
+    al Sector Norte![pause]
+  - "[\\x0207]Teddy[\\x0207]¡...pero espera!\n¿Cómo llegamos al\nSector Norte?[pause][\\x0203]¡No hay carreteras y \nno se puede llegar\ncon Submarimon![pause]"
+  - |-
+    [\x0207][\x020902]3¿Eso es
+    todo?[pause]
+  - "[\\x0207]Teddy[\\x0207]Escuché a los \nguardias en la\nprisión.[pause][\\x0203]Si preguntas a \nDigmon, podrás llegar\nal Sector Norte...[pause]"
+  - |-
+    [\x0207][\x020902]3¡Bueno,
+    eso es fácil![pause]
+  - |-
+    [\x0207]Teddy[\x0207]Pero necesitas el
+    Digihuevo de Sabiuría
+    para llamar a Digmon...[pause][\x0203]Y creo que es un objeto
+    único del Servidor
+    Amaterasu...[pause]
+  - "[\\x0207][\\x020902]3¡Bien! ¡Vamos a \nAmaterasu a echar \nun ojo![pause]"
+  - "[\\x0207]Teddy[\\x0207]¿Pero cómo vamos\na Amaterasu?[pause][\\x0203]Seguro que está \nocupado por A.o.A...[pause]"
+  - |-
+    [\x0207][\x020902]3...Hmmm...
+    Ahora que lo
+    mencionas...[pause]
+  - "[\\x0207][\\x020902]3Espera. ¿Cómo ha \nllegado la A.o.A \nallí?[pause]"
+  - |-
+    [\x0207]Teddy[\x0207]¡Claro!
+    ¡Los soldados de
+    Ciudad Byakko![pause]
+  - "[\\x0207][\\x020902]3¡Puede que \nsepan algo![pause]"
+  - |-
+    [\x0207]Teddy[\x0207]¡Seguro que sí
+    [\x020801][\x020501]![pause]
+  - "[\\x0207][\\x020902]3¡Vale, voy a\nSector Oeste \na investigar![pause]"
+  - |-
+    [\x0207]Teddy[\x0207]Ten cuidado.
+    ¡Voy a mirar esto
+    en mi ordenador![pause]
+  - "[\\x0207][\\x020902]3¡Vale, si \nencuentras\nalgo, dímelo![pause]"
+  - |-
+    [\x0207]Teddy[\x0207]¡Recibido!
+    ¡Déjamelo a
+    mí![pause]

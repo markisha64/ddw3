@@ -1,0 +1,24 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3¿Eh? Aún
+    no está todo
+    normal...[pause]
+  - |-
+    [\x0207]Teddy[\x0207][\x020801][\x020501], la Cámara
+    tampoco funciona.[pause]
+  - '[\x0207][\x020902]3...¡Kail![pause]'
+  - '[\x0207]Teddy[\x0207]¡Kail![pause]'
+  - "[\\x0207]Kail[\\x0207]¿Por qué no \nvuelve Kurt a \nser normal?[pause]"
+  - '[\x0207]Kurt[\x0207]¡Ooink, oink![pause]'
+  - "[\\x0207]Kail[\\x0207]¿Van a estar Kurt \ny el resto así?[pause]"
+  - "[\\x0207]Teddy[\\x0207]No estoy seguro de\nsi hay algún modo \nde traerlos.[pause]"
+  - "[\\x0207]Teddy[\\x0207]¿No, \n[\\x020801][\\x020501]?[pause]"
+  - |-
+    [\x0207][\x020902]3Sí, sí.
+    ¡Estoy seguro![pause][\x0203]Esperad aquí. Yo
+    voy a investigar.[pause]
+  - "[\\x0207]Kail[\\x0207]Eh, \n[\\x020801][\\x020501],\nTeddy...[pause]"
+  - |-
+    [\x0207]Kail[\x0207]¿Hemos vencido a
+    la A.o.A, verdad?[pause]

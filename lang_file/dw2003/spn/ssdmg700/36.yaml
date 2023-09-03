@@ -1,0 +1,28 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Una vez vencí a
+    Gallactimon, todo
+    era perfecto.[pause][\x0203]Ya han pasado
+    tres meses.
+    Parece un sueño.[pause]
+  - "[\\x0207][\\x020902]3¿Qué hacen\nIvy y \nTeddy?[pause][\\x0203]¡Va a empezar\nla Ceremonia de\nApertura![pause]"
+  - "¡Gracias por esperar! \n¡La Ceremonia de Apertura\nde Digimon Online va a empezar![pause][\\x0203]¡DNB TV está en directo\ndesde el Mundo Digital por primera\nvez en la historia utilizando la Red Óptica![pause][\\x0203]¡Sin más, conectemos con\neste repetidor con el Mundo Digital![pause]"
+  - "[\\x0207][\\x020902]3¡Kurt,es increíble!\nCreó una nueva \ncompañía...[pause][\\x0203]Y comenzó Digimon\nOnline en lugar de\nMAGAMI...[pause]"
+  - |-
+    [\x0207]Ivy[\x0207]¿Hablas solo?
+    Me asustas...[pause]
+  - "[\\x0207]Teddy[\\x0207]¡[\\x020801][\\x020501]!\n¡Ya estás \naquí![pause]"
+  - "[\\x0207][\\x020902]3¡Llegáis \ntarde![pause]"
+  - "[\\x0207][\\x020902]3Llevo \nesperando más\nde diez min.[pause]"
+  - |-
+    [\x0207]Ivy[\x0207]¿Y qué quieres
+    que haga? ¡Tú
+    has llegado muy pronto![pause][\x0203]Si tantas ganas
+    tenías, ¿por qué
+    no te fuiste?[pause]
+  - |-
+    [\x0207]Teddy[\x0207]¡Eh, eh,
+    [\x020801][\x020501],
+    Ivy![pause][\x0203]Tranquilos y vamos
+    al Centro Online.[pause]

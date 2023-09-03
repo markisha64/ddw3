@@ -1,0 +1,15 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Un
+    terremoto!
+    Ancora?[pause]
+  - |-
+    [\x0207][\x020902]3Lo sapevo!
+    È Bulbmon![pause]
+  - |-
+    [\x0207][\x020902]3Il terremoto era
+    causato dal
+    suo scavare![pause][\x0203]Osserva.
+    Questa volta lo
+    batterò![pause]

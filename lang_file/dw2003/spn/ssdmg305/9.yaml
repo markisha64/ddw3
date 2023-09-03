@@ -1,0 +1,20 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3El maestro de Juego\nAsuka enviaba a \nVemmon a algún sitio...[pause][\\x0203]¡Puede ser una pista!\n¡Sigamos adelante![pause]"
+  - '[\x0207][\x020902]3¿Qué?[pause]'
+  - |-
+    [\x0207][\x020902]3¿Qué?
+    ¿Qué hace Oinkmon
+    en el Serv. Asuka?[pause]
+  - |-
+    [\x0207]Oinkmon[\x0207]¿Oioioioink?
+    ¡oioioioink!
+    ¿oioioioioink?[pause]
+  - |-
+    [\x0207]Oinkmon[\x0207]¿Oioioioink?
+    ¡oioioioink!
+    ¿oioioioioink?[pause]
+  - |-
+    [\x0207]Oinkmon[\x0207]¿Oioin, oioink?
+    ¡oioioi, oink!
+    ¿oioin, oioioink?[pause]

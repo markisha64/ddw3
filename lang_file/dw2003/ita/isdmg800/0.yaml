@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Eh? C'è un
+    altro pulsante.[pause][\x0203]Beh, premerò
+    anche questo,
+    mi sa.[pause]
+  - |-
+    [\x0207][\x020902]3Hmm, niente
+    di fatto.[pause][\x0203]Devo trovare
+    l'A.o.A. Presto![pause]

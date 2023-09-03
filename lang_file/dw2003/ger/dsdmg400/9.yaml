@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - "[\\x0207]Zanbamon[\\x0207]Du kannst doch\nnicht einfach im\nKampf abhauen.[pause][\\x0203]Du bist kein \nwürdiger Gegner![pause]"
+  - |-
+    [\x0207][\x020902]3Was redest
+    du da?[pause][\x0203]Wart's ab, ich
+    gewinne. Bin
+    sofort zurück![pause]
+  - |-
+    [\x0207]Zanbamon[\x0207]Alles nur
+    Gerede, Kid!
+    Ha ha ha ha![pause]

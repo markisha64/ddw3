@@ -1,0 +1,7 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Très bien ! \n11500 BIT ![pause]"
+  - "[\\x0207]M. Smith[\\x0207]Ouah ! \n11500 BIT ![pause][\\x0203]Quelqu'un à \nplus de 11500 \nBIT ?[pause]"
+  - "[\\x0207]M. Smith[\\x0207]Dernière chance,\nPersonne...,\nPersonne ?[pause][\\x0203]La Tenue YinYang\nest vendue  \n11500 BIT ![pause][\\x0203]Félicitations au\nMonsieur là-bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+  - "[\\x0207][\\x020902]3Oui ! J'ai \nla Tenue\nYinYang ![pause]"
+  - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \non peut y aller.[pause]"

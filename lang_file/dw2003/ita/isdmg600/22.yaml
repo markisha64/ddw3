@@ -1,0 +1,65 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Kail[\x0207]Ehi [\x020801][\x020501],
+    che c'è?[pause]
+  - |-
+    [\x0207][\x020902]3Non posso entrare
+    in Asuka.[pause][\x0203]Se avessi una
+    scheda del
+    personale, forse...[pause]
+  - |-
+    [\x0207]Kail[\x0207]Scheda del
+    personale?[pause]
+  - |-
+    [\x0207]Kurt[\x0207]Oink!
+    Oink![pause]
+  - |-
+    [\x0207]Kail[\x0207]Cosa cerchi
+    di dirci,
+    Kurt?[pause]
+  - |-
+    [\x0207][\x020902]3Forse ne ha
+    una.[pause]
+  - |-
+    [\x0207]Kail[\x0207]Per forza!
+    Kurt lavorava
+    qui![pause]
+  - |-
+    [\x0207][\x020902]3Eh? Lisa, che
+    stai facendo
+    lì?[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Come vedi
+    c'è molto disordine
+    qui.[pause][\x0203]Stavo riordinando
+    con Kail.[pause]
+  - |-
+    [\x0207]Kail[\x0207]Ehi, Lisa. C'era
+    una scheda del
+    personale in giro?[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Scusa, non l'ho
+    vista.[pause][\x0203]È colpa di Kurt, è
+    così disordinato![pause]
+  - |-
+    [\x0207]Kurt[\x0207]Oink,
+    oink![pause]
+  - |-
+    [\x0207]Kail[\x0207]Cosa dovremmo
+    fare? Sono sicura
+    che è qui.[pause]
+  - "[\\x0207]Lisa[\\x0207]Ci sono! Ma si,\ni miei amici![pause][\\x0203]Se ci aiutano, \nfiniremo subito![pause]"
+  - '[\x0207][\x020902]3Quali amici?[pause]'
+  - |-
+    [\x0207]Lisa[\x0207]Si chiamano
+    Keith e Nick.[pause]
+  - "[\\x0207][\\x020902]3Cosa?!\nKeith e \nNick?[pause]"
+  - "[\\x0207]Lisa[\\x0207]Li conosci,\n[\\x020801][\\x020501]?[pause][\\x0203]Allora li \ntroverai\npresto![pause][\\x0203]Dovrebbero\nessere nel\nSettore Sud.[pause]"
+  - |-
+    [\x0207][\x020902]3Oh, ah,
+    OK.[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Oh, [\x020801][\x020501],
+    è successo
+    qualcosa?[pause]

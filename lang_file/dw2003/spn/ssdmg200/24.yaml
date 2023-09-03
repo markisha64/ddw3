@@ -1,0 +1,47 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Phillip el Maníaco[\x0207]¿Eh, qué pasa?
+    ¡Llevo esperando
+    un rato![pause]
+  - |-
+    [\x0207]Fei el Vago[\x0207]¿Podemos volver
+    ya?[pause]
+  - |-
+    [\x0207]Servicio de Doma.[\x0207]Lo siento, aún no
+    hay detalles.[pause]
+  - |-
+    [\x0207]Kail[\x0207]¿Eh? ¿Qué?
+    ¿Qué pasa?[pause]
+  - |-
+    [\x0207]Alan el Vago[\x0207]¿Maestro de
+    juego? Debe
+    ser un aviso.[pause]
+  - |-
+    [\x0207]Trabajador Jeff[\x0207]¡¿Es una mujer?!
+    ¡No lo sabía![pause]
+  - |-
+    [\x0207]Srt. Misha[\x0207]¡Qué guay!
+    ¡Yo quiero
+    ser así![pause]
+  - "[\\x0207]Maestro de Juego[\\x0207]A todos los jugadores,\nsentimos las molestias.[pause][\\x0203]La reparación de\nla Cámara Matriz\ntardará algo más.[pause][\\x0203]Tengan paciencia hasta\nque arreglemos el \nsistema.[pause]"
+  - |-
+    [\x0207]Alan el Vago[\x0207]¿Qué? ¿Eso
+    es todo?[pause]
+  - "[\\x0207]Trabajador Jeff[\\x0207]No podemos \nhacer nada.[pause]"
+  - |-
+    [\x0207]Yuki Energética[\x0207]¡Bien!
+    ¡Entonces puedo
+    seguir jugando![pause]
+  - |-
+    [\x0207]Kail[\x0207]¡Qué fastidio! Aún
+    no han terminado.[pause][\x0203]¡No podemos volver al
+    Mundo Real![pause]
+  - "[\\x0207][\\x020902]3Umm, me pregunto\nsi es culpa de \nRatón Suerte.[pause]"
+  - |-
+    [\x0207]Kail[\x0207]¿Ratón Suerte?[pause][\x0203]Eh, ¿qué quieres
+    decir con eso?[pause]
+  - "[\\x0207][\\x020902]3No sé los detalles, \nTeddy me dijo que había\naparecido Ratón Suerte.[pause]"
+  - "[\\x0207]Kail[\\x0207]¿Está Teddy buscando\nalgo en el Centro de \nAdministración?[pause]"
+  - "[\\x0207]Kail[\\x0207]Eh, [\\x020801][\\x020501].\n¡Vamos a buscar \na Teddy![pause][\\x0203]Quiero preguntarle\nalgo.[pause]"
+  - "[\\x0207][\\x020902]3¡Vale, vayamos\nal centro \nahora![pause]"

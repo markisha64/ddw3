@@ -1,0 +1,51 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Non preoccuparti,
+    Teddy. Noi lottiamo
+    per questo![pause][\x0203]Sconfiggeremo
+    l'A.o.A![pause]
+  - |-
+    [\x0207]Teddy[\x0207]Hai ragione!
+    Ci siamo quasi,
+    andiamo![pause]
+  - |-
+    [\x0207]Nick[\x0207]Ragazzi, siete
+    ancora qui?[pause]
+  - '[\x0207][\x020902]3Oh, Nick![pause]'
+  - |-
+    [\x0207]Teddy[\x0207]La nostra
+    situazione?[pause]
+  - |-
+    [\x0207]Nick[\x0207]Ha ha ha,
+    buona![pause][\x0203]L'A.o.A in città
+    si è arresa
+    presto![pause]
+  - "[\\x0207][\\x020902]3Tutto \nbene?[pause]"
+  - |-
+    [\x0207]Nick[\x0207]L'abbiamo
+    riconquistata![pause][\x0203]Rimane solo
+    il centro
+    amministrativo.[pause]
+  - |-
+    [\x0207][\x020902]3Cosa?![pause][\x0203]Ma allora
+    non possiamo
+    batterli![pause]
+  - |-
+    [\x0207]Nick[\x0207]Ha ha ha.
+    Siamo venuti
+    qui apposta.[pause][\x0203]Ti aiuteremo
+    nell'attacco
+    al centro![pause]
+  - |-
+    [\x0207][\x020902]3Bene.
+    Lasciate fare
+    a me![pause]
+  - |-
+    [\x0207][\x020902]3Teddy, io
+    vado
+    avanti![pause]
+  - |-
+    [\x0207]Teddy[\x0207]Attento!
+    Sarò lì fra
+    poco![pause]

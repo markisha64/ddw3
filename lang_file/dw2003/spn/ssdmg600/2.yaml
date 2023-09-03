@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3¿Eh? Qué raro.
+    No hay ningún
+    pin aquí.[pause]
+  - '[\x0207][\x020902]3¿Pero..?[pause]'
+  - |-
+    [\x0207][\x020902]3¿Qué, qué
+    pasa?[pause]
+  - '[\x0207][\x020902]3¡Aahhhhhhh![pause]'

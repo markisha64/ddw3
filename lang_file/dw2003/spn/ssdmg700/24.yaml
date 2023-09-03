@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Maestro Oscuro[\x0207]Eres bueno.
+    Yo he sido un
+    poco lento...[pause][\x0203]Pero me has ganado.
+    Te daré esto,
+    ¡tómalo![pause]
+  - "[\\x0207][\\x020902]3¡Sí! ¡Tengo\nun Adaptador \nEXP![pause]"
+  - "[\\x0207]Maestro Oscuro[\\x0207]... Puedes \nser un gran\ngran domador.[pause][\\x0203]Buena suerte.[pause]"

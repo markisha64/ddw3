@@ -1,0 +1,73 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3¿Este es el escon.
+    de Ratón Suerte?[pause]
+  - |-
+    [\x0207][\x020902]3¿Dónde está
+    Teddy?
+    ¿Dónde está?[pause]
+  - "[\\x0207]Ratón Suerte[\\x0207]¿Teddy? ¡Ah, el chico \nque encontró mi cuenta \ny contactó conmigo![pause][\\x0203]¡No fui yo! ¡Fue \nla A.o.A![pause]"
+  - "[\\x0207][\\x020902]3¿Qué? ¿Qué quieres\ndecir con eso?[pause][\\x0203]El Mae. de Jue. de\nAsuka me dijo que lo \ntenías tú...[pause]"
+  - "[\\x0207]Ratón Suerte[\\x0207]Ella es uno de los \nagentes de A.o.A.[pause][\\x0203]Y no es la única.\n¡MAGAMI, también es\nde la A.o.A![pause][\\x0203]¡Hay muchos miembros\nen este Servidor Asuka![pause]"
+  - "[\\x0207][\\x020902]3Entonces, ¿Maestro\nde Juego me mintió?[pause][\\x0203]¡Tengo que \nrescatar a Teddy![pause]"
+  - "[\\x0207]Lisa[\\x0207]Eh, ¿qué pasa \ncon la A.o.A?[pause]"
+  - |-
+    [\x0207]Ratón Suerte[\x0207]Van a apoderarse
+    de Digimon Online.[pause][\x0203]Y así podrán entrar
+    en cualquier sistema
+    del mundo.[pause]
+  - |-
+    [\x0207]Lisa[\x0207]¡Eh! ¡Eso no son
+    buenas noticias![pause][\x0203]¡Controlarán todos
+    los ordenadores del
+    mundo![pause]
+  - "[\\x0207]Ratón Suerte[\\x0207]Para evitarlo, he \nprovocado una avería\nen el sistema.[pause][\\x0203]Para que nadie acceda \na este servidor durante\nalgún tiempo.[pause]"
+  - |-
+    [\x0207]Lisa[\x0207]Ya veo. Por eso
+    nadie podía
+    volver al Mundo Real.[pause]
+  - |-
+    ¡Ja ja ja ja!
+    ¡Me habéis causado
+    muchos problemas![pause][\x0203]¡Pero gracias al chico
+    los planes siguen
+    adelante![pause]
+  - '[\x0207]Ratón Sue.[\x0207]¿Kail?[pause]'
+  - '[\x0207][\x020902]3...¡Kail![pause]'
+  - |-
+    [\x0207]Kail[\x0207]¡[\x020801][\x020501]!
+    ¡Kurt![pause]
+  - |-
+    [\x0207][\x020902]3¿Qué? Entonces
+    el hermano mayor
+    de Kail es...[pause]
+  - "[\\x0207]Ratón Suerte[\\x0207]Sí, mi nombre real\nes Kurt. Soy el \nherm. mayor de Kail.[pause][\\x0203]Pero, ¿cómo ha \nencontrado la A.o.A\neste sitio?[pause][\\x0203]¿Y por qué está\nKail...?[pause]"
+  - "[\\x0207]General[\\x0207]¡Hemos seguido al\nchico desde Ciudad Asuka![pause][\\x0203]Ella también seguía\nal chaval, ¡hasta que la \ncapturamos![pause]"
+  - '[\x0207]Ratón Suerte[\x0207]¡Soltad a Kail![pause]'
+  - "[\\x0207]General[\\x0207]¡Ja ja ja! ¡No tan\nrápido! No va a ser \ntan fácil.[pause][\\x0203]Si devuelves lo que\nrobaste la\nsoltaré.[pause]"
+  - |-
+    [\x0207]Ratón Suerte[\x0207]De acuerdo,
+    aquí tienes...[pause]
+  - "[\\x0207]General[\\x0207]Aquí está.\n¡Ja ja ja![pause][\\x0203]¡Voy a \ndevolverlo![pause]"
+  - "[\\x0207]Atacante[\\x0207]Lo prometido es \ndeuda. La dejaré\nir.[pause]"
+  - |-
+    [\x0207]Kail[\x0207]¡Kurt!
+    ¡[\x020801][\x020501]![pause]
+  - "[\\x0207]Atacante[\\x0207]¡Jajaja! Tuvísteis\nvuestro momento.[pause][\\x0203]Pero se \nha terminado.[pause]"
+  - "[\\x0207]Ratón Sue.[\\x0207]¡Cuidado \ntodos![pause]"
+  - '[\x0207]Ratón Suerte[\x0207]¡Ahhhh![pause]'
+  - '[\x0207]Kail[\x0207]¡Kurt![pause]'
+  - "[\\x0207][\\x020902]3¿Cómo? ¡Se ha\nconvertido en \nDigimon![pause]"
+  - "[\\x0207]Atacante[\\x0207]¡Todos seréis\nun Oinkmon y \nse os encerrará![pause][\\x0203]¿Quién va ahora?[pause]"
+  - |-
+    [\x0207]Atacante[\x0207]¿?¿?¿?
+    ¡No queda energía![pause][\x0203]Bueno, ¡ven, mi
+    Digimon![pause]
+  - "[\\x0207][\\x020902]3¡Si quieres luchar, \ntendrás que \npasar sobre mí![pause]"
+  - |-
+    [\x0207]Ratón Suerte[\x0207]Yo también era del
+    personal de Digimon
+    Online.[pause][\x0203]Pero cuando vi
+    qué pasaba era
+    demasiado tarde...[pause]

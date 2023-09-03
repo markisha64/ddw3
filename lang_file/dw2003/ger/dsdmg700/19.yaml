@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Yeah!
+    Ich habe wieder
+    gewonnen![pause]
+  - |-
+    [\x0207][\x020902]3Und ich habe jetzt
+    auch den schwarzen
+    ID-Pass...[pause][\x0203]So, jetzt nur noch
+    nach Amaterasu City!
+    Los geht's![pause]

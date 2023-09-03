@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3¡Bien!
+    ¡Gané![pause]
+  - |-
+    [\x0207]WarGrowlmon[\x0207]Un combate
+    estupendo.[pause][\x0203]¡Toma esto![pause]
+  - "[\\x0207][\\x020902]3¡Sí!¡Tengo\nel DADN de \nGuilmon![pause][\\x0203]¡Gracias,\nWarGrowlmon![pause]"

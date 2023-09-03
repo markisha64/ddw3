@@ -1,0 +1,21 @@
+strings:
+  - ''
+  - |-
+    [\x0207]KingDivermon[\x0207]Dann überreiche
+    ich dir diesen
+    Asuka-Pokal![pause]
+  - |-
+    [\x0207][\x020902]3Echt?! Danke,
+    KingDivermon![pause][\x0203]Toll! Der
+    Asuka-Pokal![pause]
+  - |-
+    [\x0207]KingDivermon[\x0207]Nur ich kann sie
+    herstellen...[pause][\x0203]Er ist ein Symbol
+    für den Asuka-
+    Kartenkönig![pause]
+  - "[\\x0207][\\x020902]3Wow! Cool!\nEin Symbol für \nden Kartenkönig![pause]"
+  - |-
+    [\x0207]KingDivermon[\x0207]Fofofo, aber
+    gib deine Dek-
+    kung nicht auf![pause]
+  - "[\\x0207][\\x020902]3Klar! Ich \nwerde viel\nstärker![pause][\\x0203]OK, ich such mir\neinen stärkeren\nKartenspieler![pause]"

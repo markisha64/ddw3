@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Hä? Seltsam.
+    Hier ist gar kein
+    Abzeichen.[pause]
+  - '[\x0207][\x020902]3Was zum?[pause]'
+  - "[\\x0207][\\x020902]3Was ist \ndenn jetzt?![pause]"
+  - '[\x0207][\x020902]3Whaaah![pause]'

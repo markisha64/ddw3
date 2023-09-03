@@ -1,0 +1,18 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Chef Qing Long[\x0207]Camarade ! Sois
+    le bienvenu ![pause]
+  - "[\\x0207][\\x020902]3Chef de Qing Long,\noù est le Digi-Oeuf \ndu Savoir ?[pause]"
+  - |-
+    [\x0207]Chef de Qing Long[\x0207]Je n'en sais rien,
+    pourquoi ?[pause][\x0203]Tu n'es pas
+    des nôtres ![pause]
+  - |-
+    [\x0207][\x020902]3Si c'est vrai,
+    que vas tu
+    faire ?[pause]
+  - |-
+    [\x0207]Qing Long[\x0207]Je te ferai
+    prisonnier
+    toi aussi ![pause]

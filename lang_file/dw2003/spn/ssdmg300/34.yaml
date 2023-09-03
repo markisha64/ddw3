@@ -1,0 +1,13 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Vale.\n¡Lucharé \ncontigo![pause]"
+  - |-
+    [\x0207]BK MegaGargomon[\x0207]¡Bien! Estaba
+    aburrido porque
+    no venía nadie.[pause]
+  - |-
+    [\x0207][\x020902]3¡Vale!
+    ¡Vamos![pause]
+  - |-
+    [\x0207]BK MegaGargomon[\x0207]¡No será tán
+    fácil ganarme![pause]

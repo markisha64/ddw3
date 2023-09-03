@@ -1,0 +1,23 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Fermatevi!
+    E fermate il
+    lancio![pause][\x0203]Non ve la farò
+    fare franca,
+    criminali![pause]
+  - |-
+    [\x0207]Guardia reale[\x0207]Ha ha ha ha!
+    Il marmocchio ci
+    minaccia![pause][\x0203]Un poppante
+    non può fermare
+    i nostri piani![pause]
+  - "[\\x0207][\\x020902]3È quello\nche \nvedremo![pause]"
+  - |-
+    [\x0207]Guardia reale[\x0207]...ha ha ha.
+    Ma che cosa
+    dici?[pause][\x0203]Provaci, se
+    hai coraggio![pause]
+  - |-
+    [\x0207]Guardia reale[\x0207]Sistema a punto.
+    Ci siamo![pause]

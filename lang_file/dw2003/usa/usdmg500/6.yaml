@@ -1,0 +1,7 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Hey \nNumemon![pause]"
+  - "[\\x0207]Numemon[\\x0207]It's you.\nWhy did you \nreturn?[pause]"
+  - "[\\x0207][\\x020902]3There's something \nI want to ask \nyou. So...[pause]"
+  - "[\\x0207]Numemon[\\x0207]There's nothing \nto tell you![pause]"
+  - '[\x0207][\x020902]3Hey, wait![pause]'

@@ -1,0 +1,15 @@
+strings:
+  - ''
+  - |-
+    [\x0207]???[\x0207]¡GUBIIII![pause][\x0203]¡Respuesta Digimon
+    respuesta Digimon![pause]
+  - |-
+    [\x0207][\x020902]3¿Qué es esto?
+    Es un Digimon que
+    nunca he visto.[pause]
+  - '[\x0207]???[\x0207]¿GUBI?[pause]'
+  - "[\\x0207][\\x020902]3No parece \nun mal \nDigimon...[pause]"
+  - "[\\x0207][\\x020902]3...Eh, ¡abrid![pause][\\x0203]¡Voy a derrotar \na los \nmalos![pause]"
+  - "[\\x0207]???[\\x0207]¿Malo?\n¿Qué es \nmalo?[pause]"
+  - "[\\x0207][\\x020902]3Umm, para \nponerlo fácil.[pause]"
+  - "[\\x0207]???[\\x0207]¡Yo como \nDigimon! Y me  \nhago fuerte.[pause][\\x0203]¡GUBIIII![pause]"

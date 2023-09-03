@@ -1,0 +1,16 @@
+strings:
+  - ''
+  - "[\\x0207]Hide le Footeux[\\x0207]Hé, Cardmon \nne sort pas...[pause][\\x0203]Et pourquoi ai-je \nperdu Gabumon...[pause]"
+  - "[\\x0207][\\x020902]3Mais, pourquoi \ntu bottes \nles arbres ?[pause]"
+  - "[\\x0207]Hide le Footeux[\\x0207]Tu demandes \npourquoi je shoote \ndans les arbres ?[pause][\\x0203]Pour trouver un \nCardmon, enfin ![pause]"
+  - |-
+    [\x0207][\x020902]3Un Cardmon ?
+    C'est quoi ?
+    Un Digimon ?[pause]
+  - "[\\x0207]Hide le Footeux[\\x0207]Cardmon est un Digimon \nqui sème des boosters\ncontenant des cartes.[pause][\\x0203]Seul Divermon, dans la \nville, peut ouvrir les\nboosters.[pause]"
+  - |-
+    [\x0207][\x020902]3Cardmon sème des
+    Boosters ?![pause][\x0203]Laisse-moi
+    shooter aussi...[pause]
+  - "[\\x0207]Hide le Footeux[\\x0207]Hé hé hé. Il te \nfaut des \narbori-bottes.[pause][\\x0203]Tu voudras sans \ndoute les bottes.\nAlors, soit...[pause][\\x0203]J'ai perdu ma carte\nGabumon. Tu peux\nla retrouver ?[pause][\\x0203]Si tu la trouves, je \nte dirai où sont \nles bottes.[pause]"
+  - "[\\x0207][\\x020902]3Gabumon ?\nOK, je la trouve \net je reviens ![pause]"

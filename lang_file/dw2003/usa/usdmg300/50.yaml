@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - "[\\x0207]KingEtemon[\\x0207]I like you, so \nI'll give you \nSun Trophy![pause]"
+  - "[\\x0207][\\x020902]3Thanks,\nKingEtemon![pause][\\x0203]Yeah! I got \nthe Sun \nTrophy![pause]"
+  - "[\\x0207]KingEtemon[\\x0207]That is the symbol \nfor Amaterasu's \nCard King![pause]"
+  - "[\\x0207][\\x020902]3Great! Now I'm the \nnumber one cardster \nin Amaterasu![pause]"
+  - "[\\x0207]KingEtemon[\\x0207]?!?\nNoooo!\nI'm number one![pause][\\x0203]You just \nhappen to be\nlucky![pause]"
+  - |-
+    [\x0207][\x020902]3Heh heh heh.
+    Well, I'm out of
+    here![pause][\x0203]Later KingEtemon![pause]

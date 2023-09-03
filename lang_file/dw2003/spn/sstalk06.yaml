@@ -1,4 +1,3 @@
-type: simple
 strings:
   - ''
   - "[\\x0207]Líder Suzaku[\\x0207]La Cámara de \nemergencia del\nSector Norte es...[pause][\\x0203]Localizada en los\ncimientos de\n\"Mina de Kulon\".[pause][\\x0203]Pero necesitas\nlos cuatro pins de\nLíder para usarla[pause]"

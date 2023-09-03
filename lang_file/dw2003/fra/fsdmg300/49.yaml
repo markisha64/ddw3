@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - "[\\x0207]KingDivermon[\\x0207]Je te donne donc  \nce Trophée \nAsuka ![pause]"
+  - "[\\x0207][\\x020902]3Ah bon ? Merci,\nKingDivermon ![pause][\\x0203]Oui ! J'ai le \nTrophée Asuka ![pause]"
+  - "[\\x0207]KingDivermon[\\x0207]Je suis seul\nabilité à te \ndonner ceci...[pause][\\x0203]...symbole du  \nRoi des cartes  \nd'Asuka ![pause]"
+  - "[\\x0207][\\x020902]3Ouah ! Super !\nLe symbole du  \nRoi des cartes ![pause]"
+  - |-
+    [\x0207]KingDivermon[\x0207]Bon, mais
+    ne baisse pas
+    ta garde ![pause]
+  - "[\\x0207][\\x020902]3Oui ! Je vais  \nêtre beaucoup \nplus fort ![pause][\\x0203]Bon, cherchons \nun meilleur \njoueur de cartes.[pause]"

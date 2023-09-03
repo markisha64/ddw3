@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - |-
+    Merci d'avoir attendu.
+    Nous allons reprendre
+    l'opération de la barge.[pause]
+  - |-
+    [\x0207][\x020902]3Ah...
+    Hé, attendez ![pause][\x0203]Mince, ça a
+    disparu.[pause]

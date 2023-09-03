@@ -1,0 +1,20 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Ponchomon[\x0207]Hola, en estos eleme.
+    podrás ver información
+    en cualquier momento.[pause][\x0203]¡Los mostraré en tu
+    satélite, amigo![pause]
+  - "\"Efectos de Equipo\"\nLos efectos son automáticos\ncuando se equipen o se usen.[pause][\\x0203]Los efectos de armas funcionan\ncuando no hay efectos de téc.[pause][\\x0203]\"A una Mano o a Dos\"\nLas armas a dos manos son más \npoderosas pero no permiten armadura.[pause][\\x0203]Si utilizas dos armas a una mano,\nresulta más potente, pero\nmás caro.[pause]"
+  - |-
+    "Límite de Accesorios"
+    Digimon puede equiparse con dos acc.
+    Pero no todos pueden equip. doble.[pause][\x0203]"Arma como Armadura"
+    Existen armas para la cabeza y
+    escudos que pueden atacar.[pause][\x0203]"Armas Especializadas"
+    Las armas más pot. pueden
+    utilizarlas sólo ciertos Digimon.[pause]
+  - "\"Equipo de Serie\"\nUtilizando ciertas armas y armaduras\npueden incrementarse los parámetros.[pause][\\x0203]\"Chip\"\nLos incre. permanentes de parámetro \npor Chip dependen de la suerte.[pause]"
+  - |-
+    [\x0207]Ponchomon.[\x0207]¡No lo cuentes!
+    ¡Adiós amigo![pause]

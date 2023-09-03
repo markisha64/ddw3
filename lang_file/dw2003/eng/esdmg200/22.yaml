@@ -1,0 +1,20 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3I won! \nWho's da man?[pause]"
+  - |-
+    [\x0207]Keith[\x0207]Ha! I went easy
+    on you kid.[pause]
+  - |-
+    [\x0207][\x020902]3I thought you
+    said you weren't
+    pulling punches.[pause]
+  - |-
+    [\x0207]Keith[\x0207]I don't know what
+    you're talking about![pause][\x0203]You better watch
+    out. I'll get you
+    next time![pause][\x0203]Don't forget me.
+    Sayonara, sucker![pause]
+  - |-
+    [\x0207][\x020902]3Whatever!
+    He's the
+    sucker![pause]

@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3... mais je
+    ne m'avoue
+    pas vaincu ![pause][\x0203]Je suis sûr
+    qu'il y a un
+    autre moyen ![pause]
+  - |-
+    [\x0207][\x020902]3OK, allons
+    retrouver Lisa
+    et les autres ![pause]

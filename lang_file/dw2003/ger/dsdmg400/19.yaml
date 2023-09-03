@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Hey, MetalGreymon.
+    Kannst du mir einen
+    Gefallen tun?[pause][\x0203]Kann ich ein Agumon-
+    DDNA-Muster von dei-
+    ner DDNA bekommen?[pause]
+  - "[\\x0207]MetalGreymon[\\x0207]Tschuldige, aber\nich kann sie dir\nnicht so geben.[pause][\\x0203]Wenn du es haben\nwillst, musst du \nes gewinnen![pause]"

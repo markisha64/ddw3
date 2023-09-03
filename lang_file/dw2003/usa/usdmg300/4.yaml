@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - a
+  - "[\\x0207]Datamon[\\x0207]You came all the \nway here to \nbattle me?[pause][\\x0203]I'm good to go \nanytime!\nLet's battle![pause]"
+  - "[\\x0207][\\x020902]3All right! \nLet's battle![pause]"
+  - "[\\x0207]Datamon[\\x0207]...beep! You \ncan't copy me![pause][\\x0203]You have to \ncome up with \nyour own line![pause]"
+  - |-
+    [\x0207][\x020902]3What? Umm... OK.
+    Let's get it on![pause]

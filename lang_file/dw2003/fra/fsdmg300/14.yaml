@@ -1,0 +1,24 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3OK, nous entrons
+    à Amaterasu
+    City  ![pause]
+  - |-
+    [\x0207]Teddy[\x0207][\x020801][\x020501] !
+    Attends ![pause]
+  - |-
+    [\x0207][\x020902]3...Teddy  !
+    Tu es venu
+    jusqu'ici ?[pause]
+  - "[\\x0207]Teddy[\\x0207]Oui, avec Lisa\net les autres.[pause][\\x0203]Hé [\\x020801][\\x020501], tu \npeux attendre \navant d'entrer ?[pause][\\x0203]Lisa arrive avec \ntous ceux de la \nRésistance  ![pause]"
+  - "[\\x0207][\\x020902]3Alors, qu'en \nest-il de \nl'A.o.A ?[pause]"
+  - "[\\x0207]Teddy[\\x0207]Ils ont été écrasés\npar la Résistance  ![pause][\\x0203]Quand on aura les \nquatre villes, il ne\nrestera qu'Amaterasu.[pause]"
+  - |-
+    [\x0207][\x020902]3Je vois !
+    Alors...[pause]
+  - "[\\x0207]Teddy[\\x0207]Oui, c'est le\ncombat final ![pause][\\x0203]Nous allons \nvaincre l'A.o.A.[pause]"
+  - |-
+    [\x0207][\x020902]3Oui, c'est ça  ![pause][\x0203]Si on reste unis,
+    l'A.o.A sera
+    balayée  ![pause]

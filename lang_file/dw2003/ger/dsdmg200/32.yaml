@@ -1,0 +1,16 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Ich schnappe
+    mir diesen
+    Lucky Mouse![pause]
+  - |-
+    [\x0207]Kail[\x0207]Sorry. Mir fiel
+    gerade ein, dass
+    ich gehen muss.[pause]
+  - |-
+    [\x0207][\x020902]3Hä?
+    Was ist nur mit Kail?[pause][\x0203]Naja, ich habe ja
+    Digimon, auf die ich
+    mich verlassen kann![pause][\x0203]OK, wir brechen in
+    den Westsektor auf![pause]

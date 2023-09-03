@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Soldado[\x0207]¡No pasarás
+    de aquí![pause][\x0203]¡No puedes
+    vencerme![pause]
+  - |-
+    [\x0207][\x020902]3¿Sí? ¡Venga![pause][\x0203]¡Siempre pensáis
+    que vais a ganar![pause]

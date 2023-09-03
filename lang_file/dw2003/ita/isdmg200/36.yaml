@@ -1,0 +1,74 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Lisa, parli della
+    Signora del Gioco?[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Proprio così!
+    Bravo![pause][\x0203]È l'unica persona
+    a cui possiamo
+    rivolgerci, no?[pause]
+  - |-
+    [\x0207]Signora del Gioco[\x0207]Cosa volete?
+    Parlate![pause][\x0203]Non ho
+    intenzione
+    di aiutarvi![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Davvero?
+    Hmmm...[pause][\x0203]Stavo per
+    arrendermi a voi.[pause]
+  - "[\\x0207][\\x020902]3Ma-ma che \ndici, Lisa?![pause]"
+  - |-
+    [\x0207]Lisa[\x0207]Hanno la
+    Juggernaut!
+    È invincibile![pause][\x0203]E io non voglio
+    morire.[pause]
+  - |-
+    [\x0207][\x020902]3Dopo essere
+    arrivati fin
+    qui![pause][\x0203]Io non m'arrendo
+    né ora né mai![pause]
+  - |-
+    [\x0207]Lisa[\x0207][\x020801][\x020501], sei
+    testardo.[pause][\x0203]Riuscirai solo
+    a morire![pause]
+  - |-
+    [\x0207]Signora del Gioco[\x0207]Sei più sveglia
+    di quanto sembri.
+    Mi ricredo.[pause]
+  - |-
+    [\x0207]Signora del Gioco[\x0207]Si, la
+    Juggernaut
+    è dell'A.o.A![pause][\x0203]Solo il presidente
+    di Amaterasu può
+    fermarla.[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Davvero?
+    Hai sentito,
+    [\x020801][\x020501]?[pause]
+  - |-
+    [\x0207][\x020902]3Sissignore!
+    Ecco cosa
+    volevi![pause]
+  - |-
+    [\x0207]Signora del Gioco[\x0207]Ma che ho detto?!
+    Era un segreto!
+    Che idiota![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Ingannare gli
+    alleati davanti
+    al nemico serve![pause][\x0203]Allora, ho
+    recitato bene?[pause]
+  - |-
+    [\x0207]Teddy[\x0207]Non perdete
+    tempo, voi
+    due![pause]
+  - |-
+    [\x0207]Teddy[\x0207]Vemmon ora
+    si trova sulla
+    Juggernaut![pause]
+  - '[\x0207]Lisa[\x0207]Davvero?[pause]'
+  - |-
+    [\x0207][\x020902]3Ma che
+    cos'è
+    successo?[pause]

@@ -1,0 +1,57 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Keith[\x0207]Wir sind
+    fertig![pause]
+  - '[\x0207]Nick[\x0207]Fertig![pause]'
+  - |-
+    [\x0207]Lisa[\x0207]Hey, gute
+    Arbeit,
+    ihr zwei![pause]
+  - '[\x0207]Keith[\x0207]Personalpass?[pause]'
+  - |-
+    [\x0207]Lisa[\x0207]Ihr taugt
+    echt nichts![pause]
+  - |-
+    [\x0207]Keith[\x0207]Oh, tut
+    mir leid![pause]
+  - |-
+    [\x0207]Nick[\x0207]Sorry!
+    Diesmal
+    find ich ihn![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Tut mir leid.
+    Könnt ihr
+    noch warten?[pause]
+  - |-
+    [\x0207]Nick[\x0207]Ich hab ihn
+    gefunden![pause]
+  - |-
+    [\x0207]Nick[\x0207]Lisa verlangt
+    echt viel...[pause]
+  - |-
+    [\x0207]Nick[\x0207]Aber das weiβt
+    du nicht von mir
+    Bitte schön![pause]
+  - |-
+    [\x0207][\x020902]3Klasse! Der
+    Personalpass![pause]
+  - "[\\x0207]Lisa[\\x0207]Oh, du hast ihn\ngefunden. \nPrima, Nick![pause]"
+  - "[\\x0207]Nick[\\x0207]Danke \nschön![pause]"
+  - |-
+    [\x0207][\x020902]3Kail, Lisa
+    bis dann.[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Viel Glück!
+    Wir verlassen
+    uns auf dich![pause]
+  - |-
+    [\x0207]Kail[\x0207]Sei vorsich-
+    tig, ja?[pause]
+  - '[\x0207]Nick[\x0207]Personalpass?[pause]'
+  - |-
+    [\x0207]Lisa[\x0207]Personalpass
+    gefunden?[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Was macht ihr
+    da eigentlich?[pause]

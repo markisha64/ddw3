@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - "[\\x0207]M. Smith[\\x0207]A vous de jouer ! \nLe clou de la vente ![pause][\\x0203]La Visée Sniper, \nadmirée par tous ![pause][\\x0203]Cet outil exclusif de \nMonmon est proposé \nà 4000 BIT au départ ![pause]"
+  - '[\x0207]Marchand Abel[\x0207]4500 BIT ![pause]'
+  - "[\\x0207]Chef Milly[\\x0207]5500 \nBIT ![pause]"
+  - '[\x0207]Masao Fan jeu[\x0207]5900 BIT ![pause]'
+  - |-
+    [\x0207][\x020902]3Hmm. 6000 BIT
+    ...hmmm...[pause]

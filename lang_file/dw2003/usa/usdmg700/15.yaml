@@ -1,0 +1,8 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Dark Knight[\x0207]You got some
+    moves I've never
+    seen before.[pause]
+  - "[\\x0207]Dark Knight[\\x0207]Now go!\nYou'll make a \ngreat tamer![pause]"
+  - "[\\x0207][\\x020902]3Yeah, \nthanks![pause]"

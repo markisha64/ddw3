@@ -1,0 +1,19 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Imperialdramon N[\x0207]Ho perso.
+    Sei forte![pause]
+  - |-
+    [\x0207][\x020902]3Certo!
+    Ho sempre vinto
+    finora![pause]
+  - |-
+    [\x0207]Imperialdramon N[\x0207]Sei davvero
+    bravo![pause][\x0203]Prendi, ti
+    darò
+    questo.[pause]
+  - |-
+    [\x0207][\x020902]3Ho l'elmo del
+    pericolo,
+    wow![pause]
+  - "[\\x0207]Imperialdramon N[\\x0207]Mi sono molto\ndivertito. \nTorna ancora![pause]"

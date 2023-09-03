@@ -1,0 +1,7 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3OK, metto
+    il Chip TNT
+    laggiù.[pause]
+  - "[\\x0207][\\x020902]3C'è un \nbuco nel\nmuro![pause][\\x0203]Possiamo\nentrare![pause]"

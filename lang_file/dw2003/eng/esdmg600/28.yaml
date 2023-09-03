@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - "[\\x0207]Leader Chuck[\\x0207]I've heard about \nit from Kenny.[pause][\\x0203]Good luck on \ndefeating the\nA.o.A![pause]"
+  - "[\\x0207][\\x020902]3Yeah, good \nluck to you \ntoo![pause]"
+  - |-
+    [\x0207]Leader Chuck[\x0207]I do want to help
+    you and fight
+    together, but...[pause][\x0203]All we can do
+    is hold down the
+    fort.[pause]
+  - "[\\x0207][\\x020902]3I'm all right.\nDon't worry about \nme![pause]"
+  - "[\\x0207]Leader Chuck[\\x0207]I'm sorry you came all \nthe way here.[pause][\\x0203]If we can get \nAmaterasu City back, \nI'm sure we can help.[pause][\\x0203]But I didn't think they \nwould reprogram\nKnightmon.[pause]"
+  - "[\\x0207][\\x020902]3Knightmon...\nAny tips to  \ndefeating it?[pause]"
+  - "[\\x0207]Leader Chuck[\\x0207]Once it starts moving, \nthe way to stop \nKnightmon is...[pause][\\x0203]You need the four Code \nPasses of the City \nLeaders.[pause][\\x0203]But all the Leaders are \ncaught, so there's no \nway...[pause][\\x0203]City Chiefs of the \nA.o.A must have taken \nthem...[pause]"
+  - "[\\x0207][\\x020902]3...I see.\nThose A.o.A![pause][\\x0203]I'll never forgive \nthem for using \nDigimon for evil![pause]"
+  - "[\\x0207]Leader Chuck[\\x0207]Of course, we haven't \ngiven up yet![pause][\\x0203]If there's a chance, \nwe'll make a stand.\nJust wait until then![pause][\\x0203]Well, anyway.\nGood luck![pause]"
+  - '[\x0207][\x020902]3Yes, sir![pause]'

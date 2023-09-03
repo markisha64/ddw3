@@ -1,0 +1,37 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Assalitore[\x0207]No, noo... I
+    miei Digimon![pause][\x0203]La pagherai per
+    questo![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Grazie, [\x020801][\x020501]. Mi
+    hai salvata di
+    nuovo![pause]
+  - |-
+    [\x0207]Kail[\x0207]Ma Kurt è...!
+    Pensavo di averlo
+    trovato, invece...[pause]
+  - '[\x0207]Kurt[\x0207]Oink oink![pause]'
+  - "[\\x0207][\\x020902]3Ok, ho deciso! \nAndrò alla città\ndi Asuka![pause][\\x0203]Salverò Teddy e\nliquiderò la Signora\ndel Gioco.[pause]"
+  - |-
+    [\x0207]Kail[\x0207]Sì, sconfiggiamo
+    l'A.o.A![pause][\x0203]E riportiamo Kurt
+    com'era prima![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Sì, lo voglio
+    anche io.[pause][\x0203]Ma non voglio il
+    panico generale.[pause][\x0203]Puoi mantenere
+    il silenzio
+    sull'A.o.A?[pause]
+  - '[\x0207][\x020902]3D''accordo![pause]'
+  - |-
+    [\x0207][\x020902]3OK, Kail,
+    vado![pause]
+  - |-
+    [\x0207]Kail[\x0207]Senti, se perdi non
+    te lo perdonerò mai.
+    Capito?[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Buona fortuna!
+    Tifo per te![pause]

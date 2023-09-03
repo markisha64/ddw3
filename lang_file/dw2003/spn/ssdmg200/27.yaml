@@ -1,0 +1,7 @@
+strings:
+  - ''
+  - "[\\x0207]Kail[\\x0207]¿Cómo nos \ncambiamos en\nDigimon?[pause]"
+  - |-
+    [\x0207][\x020902]3¡Eh! ¡Mira
+    lo que tengo![pause]
+  - "[\\x0207]Kail[\\x0207]Perfecto, con \nestos no habrá\nproblema.[pause][\\x0203]¡Nos pondremos los \ntrajes de Agumon, \na buscar a Teddy![pause]"

@@ -1,0 +1,42 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Lisa[\x0207]Wow! [\x020801][\x020501],
+    du bist toll![pause][\x0203]Bin beeindruckt![pause]
+  - "[\\x0207][\\x020902]3Echt?! \nJa, äm,\nDanke...[pause]"
+  - |-
+    [\x0207][\x020902]3Was machst
+    du eigentlich
+    hier, Lisa?[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Und du?[pause][\x0203]Warum bist
+    du hier?[pause]
+  - |-
+    [\x0207][\x020902]3...ich?
+    Äm, ich...[pause]
+  - "Ihr beide \nwollt mit\nmir reden, od.?[pause]"
+  - |-
+    [\x0207]Lisa[\x0207]Aaaah!
+    Nu-nu-
+    Numemon![pause]
+  - |-
+    [\x0207]Numemon[\x0207]Beruhig dich,
+    Lisa, ich bins[pause]
+  - |-
+    [\x0207][\x020902]3Was?!
+    Numemon
+    ist ein Mensch?[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Aha, verstehe.[pause][\x0203]Erschreck mich
+    doch nicht so,
+    Lucky Mouse![pause]
+  - |-
+    [\x0207][\x020902]3Was?! Er ist
+    Lucky Mouse?[pause][\x0203]Dieser Numemon
+    ist d-d-dann also...[pause]
+  - |-
+    [\x0207]Lucky Mouse[\x0207]Lisa ist etwas anderes,
+    aber dir habe ich ver-
+    boten, herzukommen.[pause][\x0203]Es ist ge-
+    fährlich hier. Wir gehen
+    besser in mein Versteck![pause]

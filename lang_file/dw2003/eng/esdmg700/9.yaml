@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - "[\\x0207]Ice Master[\\x0207]Hey wait!\nYou can't get past\nhere![pause][\\x0203]If you really want \nto, then you have \nto defeat me![pause]"
+  - "[\\x0207][\\x020902]3All right. I just \nhave to fight \nand win, right?[pause]"
+  - "[\\x0207]Ice Master[\\x0207]That's it. \nYou know the \ndrill![pause][\\x0203]OK, let's \nbegin![pause]"
+  - |-
+    [\x0207][\x020902]3OK, fine.
+    Bring the
+    heat![pause]

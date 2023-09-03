@@ -1,0 +1,51 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Teddy[\x0207]Hey,
+    [\x020801][\x020501]![pause]
+  - |-
+    [\x0207][\x020902]3Teddy, bist
+    du OK?[pause]
+  - |-
+    [\x0207]Teddy[\x0207]Ja, danke![pause][\x0203][\x020801][\x020501], MAGAMI
+    gehört zu A.o.A.[pause]
+  - |-
+    [\x0207][\x020902]3Ja, ich weiβ!
+    Aber wer sind die
+    Mitarbeiter dort?[pause]
+  - |-
+    [\x0207]Dr. Kadomatsu[\x0207]Wir gehören nicht
+    zu den A.o.A.![pause]
+  - "[\\x0207]DO-Operator[\\x0207]Ach, MAGAMI und \nA.o.A. gehören \nzusammen?[pause]"
+  - |-
+    [\x0207]DO-Wache[\x0207]Die Leader der Städte
+    u. die meisten Mit-
+    arbeiter sind wie wir![pause][\x0203]Nicht alle MAGAMI-
+    Mitarbeiter gehören
+    zu den A.o.A![pause]
+  - |-
+    [\x0207][\x020902]3OK. Ich werde
+    euch allen helfen.
+    Haltet durch![pause][\x0203]Ich werde Game-
+    master besiegen![pause]
+  - |-
+    [\x0207]DO-Operator[\x0207]Sei vorsichtig. Man
+    sagt, im Meisterraum
+    sei eine Falle![pause]
+  - |-
+    [\x0207]DO-Wache[\x0207]Das hörte ich auch!
+    Irgendwo gibt es eine
+    Geheimtür.[pause]
+  - "[\\x0207]Dr. Kadomatsu[\\x0207]Ja, auch ich hab\ndavon gehört.[pause][\\x0203]Der Schlüsselcode\nist \"MONSTER\".[pause][\\x0203]Keine Ahnung, \nwas das heiβt.[pause]"
+  - '[\x0207][\x020902]3OK, danke![pause]'
+  - |-
+    [\x0207]Teddy[\x0207]Viel Glück,
+    [\x020801][\x020501]![pause][\x0203]Besieg
+    die A.o.A.![pause]
+  - |-
+    [\x0207][\x020902]3Keine Sorge
+    Überlass
+    das mir![pause]
+  - |-
+    [\x0207][\x020902]3...oh,
+    Teddy![pause]

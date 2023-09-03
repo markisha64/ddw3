@@ -1,0 +1,15 @@
+strings:
+  - ''
+  - |-
+    Beep Beep...
+    BITTE WARTEN.
+    DATENBESTÄTIGUNG.[pause]
+  - |-
+    [\x0207][\x020902]3Hat funktioniert!
+    Jetzt kann ich
+    in den Südsektor![pause]
+  - |-
+    DANKE FÜRS WARTEN.
+    DU BIST [\x020801][\x020501].[pause][\x0203]DAS SYSTEM WIRD GE-
+    STARTET. GEHE BITTE
+    ZUR GONDEL.[pause]

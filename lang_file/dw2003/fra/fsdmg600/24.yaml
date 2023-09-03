@@ -1,0 +1,66 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Keith[\x0207]Hé, on
+    a fini ![pause]
+  - |-
+    [\x0207]Nick[\x0207]Lisa, on
+    a fini ![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Bien joué,
+    tous les
+    deux ![pause]
+  - |-
+    [\x0207]Keith[\x0207]Un Passe
+    Employé ?[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Vous êtes
+    nuls ![pause]
+  - |-
+    [\x0207]Keith[\x0207]Je suis
+    désolé ![pause]
+  - |-
+    [\x0207]Nick[\x0207]Désolé !
+    Je vais
+    le trouver ![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Attendez
+    encore un
+    peu...[pause]
+  - |-
+    [\x0207]Nick[\x0207]Hé, on
+    l'a trouvé ![pause]
+  - |-
+    [\x0207]Nick[\x0207]Lisa est très
+    exigeante...[pause]
+  - |-
+    [\x0207]Nick[\x0207]Mais ça reste
+    entre nous.
+    Et voilà ![pause]
+  - |-
+    [\x0207][\x020902]3Super ! J'ai un
+    Passe Employé ![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Oh, tu l'as
+    trouvé ? Bravo,
+    Nick ![pause]
+  - |-
+    [\x0207]Nick[\x0207]Merci,
+    Madame ![pause]
+  - |-
+    [\x0207][\x020902]3Bon,
+    j'y vais.[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Bonne chance,
+    on compte
+    sur toi ![pause]
+  - |-
+    [\x0207]Kail[\x0207]Attention,
+    hein ?![pause]
+  - '[\x0207]Nick[\x0207]Passe Employé ?[pause]'
+  - |-
+    [\x0207]Lisa[\x0207]Alors, vous
+    avez trouvé ?[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Qu'est-ce que
+    vous faites ?[pause]

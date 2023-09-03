@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Soldato di metallo[\x0207]Allarme intruso!
+    Allarme intruso![pause][\x0203]Eliminarlo
+    dall'edificio![pause]
+  - |-
+    [\x0207][\x020902]3Avanti! Te
+    la farò
+    vedere io![pause]

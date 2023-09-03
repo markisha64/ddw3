@@ -1,0 +1,8 @@
+strings:
+  - ''
+  - "[\\x0207]Tamer Genji[\\x0207]Ho ho ho.\nI haven't seen \nyou before.[pause][\\x0203]Are you new\nhere?[pause]"
+  - |-
+    [\x0207][\x020902]3Yeah!
+    I just got my
+    Digimon![pause]
+  - "[\\x0207]Tamer Genji[\\x0207]Then I'll battle \nwith you boy.[pause][\\x0203]Don't worry if you \ndon't understand \nthe rules![pause][\\x0203]Gaining experience \nis the important\nthing![pause]"

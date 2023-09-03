@@ -1,0 +1,6 @@
+strings:
+  - ''
+  - "[\\x0207]Datamon[\\x0207]Oh, hai la scheda\ndel personale! \nChiedo scusa.[pause][\\x0203]Apro il cancello,\npuoi entrare.[pause]"
+  - |-
+    [\x0207][\x020902]3Ah,
+    grazie![pause]

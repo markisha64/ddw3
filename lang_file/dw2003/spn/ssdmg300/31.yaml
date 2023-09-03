@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3¡He ganado
+    contra
+    Armormon![pause]
+  - |-
+    [\x0207]Armormon[\x0207]...Cómo he perdido...[pause][\x0203]Pero has ganado.
+    Toma esto.[pause]
+  - |-
+    [\x0207][\x020902]3¡Sí!¡Tengo
+    el DADN de
+    Monmon![pause][\x0203]¡Gracias
+    Armormon![pause]

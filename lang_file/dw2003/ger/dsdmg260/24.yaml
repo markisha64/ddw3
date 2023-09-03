@@ -1,0 +1,13 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Die Sniper-Kanone.
+    Von allen bewundert![pause][\x0203]Das Mindestgebot für
+    die Monmon-Waffe
+    liegt bei 2700 BIT![pause]
+  - '[\x0207]Händler Abel[\x0207]3100 BIT![pause]'
+  - '[\x0207]Chief Milly[\x0207]3500 BIT![pause]'
+  - '[\x0207]RPG-Fan Mas.[\x0207]3900 BIT![pause]'
+  - |-
+    [\x0207][\x020902]3Hmm..4000 BIT
+    ...hmmm...[pause]

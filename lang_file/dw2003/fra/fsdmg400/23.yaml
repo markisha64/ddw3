@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3GrapLeomon, j'ai
+    un service à te
+    demander.[pause][\x0203]Je peux avoir l'ADNN
+    Kumamon depuis
+    ton ADNN ?[pause]
+  - "[\\x0207]GrapLeomon[\\x0207]Ha ha ha ha !\nT'es un p'tit\nrigolo, toi ![pause][\\x0203]Si tu peux me battre, \nil est à toi ![pause]"

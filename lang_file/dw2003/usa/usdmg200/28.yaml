@@ -1,0 +1,15 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3...How's this?
+    Now I look like a
+    Digimon![pause]
+  - "[\\x0207]Kail[\\x0207]Be quiet! Keep your\nmouth shut![pause][\\x0203]We don't want them \nto know that we're \nnot Digimon![pause]"
+  - "[\\x0207][\\x020902]3Oh... ah, \nthat's true.\nI understand...[pause]"
+  - "[\\x0207]Kail[\\x0207]...I've got something I \nwant to look into, so\nI'll go on ahead.[pause][\\x0203][\\x020801][\\x020501], you keep\nlooking for Teddy.[pause][\\x0203]As soon as I'm done,\nI'll catch up with you![pause]"
+  - |-
+    [\x0207][\x020902]3Oh, OK,
+    but be
+    careful.[pause]
+  - "[\\x0207]Kail[\\x0207]Don't worry, \nI'm not like\nyou![pause]"
+  - "[\\x0207][\\x020902]3What's up with Kail?\nShe's been weird \nsince we got here...[pause][\\x0203]Oh well, I have to\nfind Teddy![pause]"

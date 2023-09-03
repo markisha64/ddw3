@@ -1,0 +1,6 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Hey, do you \nknow where \nNumemon is?[pause]"
+  - "[\\x0207]HiAndromon[\\x0207]Numemon?\nWhat do you want \nwith him?[pause]"
+  - "[\\x0207][\\x020902]3There's something I \nreally have to ask. \nCome on, tell me![pause]"
+  - "[\\x0207]HiAndromon[\\x0207]I know where he is, \nbut I can't tell you \nthat easily.[pause][\\x0203]Beyond this point, \nonly the strong may \nenter.[pause][\\x0203]If you still want to \nsee him, then defeat \nme first.[pause]"

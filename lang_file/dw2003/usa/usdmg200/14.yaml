@@ -1,0 +1,4 @@
+strings:
+  - ''
+  - "[\\x0207]Digimon Navi[\\x0207]Let's check to make \nsure you understand \nbattles and training.[pause][\\x0203]I will display data on\nyour satellite.[pause]"
+  - '[pause]'

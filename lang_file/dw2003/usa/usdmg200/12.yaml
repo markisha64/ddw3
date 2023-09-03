@@ -1,0 +1,15 @@
+strings:
+  - ''
+  - '[\x0207][\x020902]3Yeah I won![pause]'
+  - "[\\x0207]Tamer Genji[\\x0207]You're pretty good\nfor a first timer.[pause][\\x0203]You have potential \nto be World Champ \nsome day![pause]"
+  - "[\\x0207][\\x020902]3That's my \ndream![pause]"
+  - "[\\x0207]Tamer Genji[\\x0207]In order to do that, \nyou should learn more \nabout Digimon.[pause][\\x0203]You should visit the \nDigimon Lab before \ngoing outside the city.[pause]"
+  - |-
+    [\x0207][\x020902]3Digimon Lab.
+    OK, I got it.
+    Thanks![pause]
+  - "[\\x0207]Tamer Genji[\\x0207]And also, do \nyou have a \nFolder Bag?[pause]"
+  - |-
+    [\x0207][\x020902]3...What?
+    What's that?[pause]
+  - "[\\x0207]Tamer Genji[\\x0207]I see. You had\nbetter go to the\nYellow Cruiser.[pause][\\x0203]They'll teach you all \nyou need to know \nabout Card Battles.[pause][\\x0203]...Now go.\nI'm counting on you \nkid. Ho ho ho![pause]"

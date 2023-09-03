@@ -1,0 +1,13 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3¡Sí, también \ngané al Líder\nGenbu![pause]"
+  - "[\\x0207]Líder Genbu[\\x0207][\\x020801][\\x020501], siento \nhaberte hecho luchar.[pause][\\x0203]Quería comprobar\nque...[pause][\\x0203]¡Puedes luchar\ncontra la A.o.A![pause]"
+  - '[\x0207][\x020902]3Oh, ya veo.[pause]'
+  - "[\\x0207]Líder Genbu[\\x0207]¡Toma esto\ny detén los \nplanes de A.o.A![pause]"
+  - |-
+    [\x0207][\x020902]3¡Sí! ¡Tengo
+    el Pin Genbu![pause]
+  - "[\\x0207]Líder Genbu[\\x0207]Creo que eres lo \nsuficiente fuerte\npara luchar.[pause][\\x0203]Ellos también son\nson fuertes. \n¡La guardia alta![pause]"
+  - |-
+    [\x0207][\x020902]3¡Gracias,
+    Líder Genbu![pause]

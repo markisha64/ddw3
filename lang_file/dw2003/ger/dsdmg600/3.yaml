@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Äh...äh.
+    Wo bin ich?[pause]
+  - |-
+    [\x0207][\x020902]3Aha, ich bin in
+    den Keller gefallen.[pause][\x0203]Wie komme ich denn
+    hier wieder heraus?[pause]

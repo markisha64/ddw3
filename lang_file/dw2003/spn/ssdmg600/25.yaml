@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3¿Eres el Jefe
+    de Bai Hu?[pause]
+  - |-
+    [\x0207]Jefe Bai Hu[\x0207]Eso es...
+    ¿Qué quieres?[pause]
+  - |-
+    [\x0207][\x020902]3¡Dame tu pase
+    blanco![pause]
+  - "[\\x0207]Jefe Bai Hu[\\x0207]Ya veo.\nJe, je, je[pause][\\x0203]Ni importa lo que \nhagais, la victoria\nserá nuestra.[pause][\\x0203]¡Es hora de que\naprendas la lección![pause]"

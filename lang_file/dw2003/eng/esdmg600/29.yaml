@@ -1,0 +1,20 @@
+strings:
+  - ''
+  - "[\\x0207]Tamer Heinrich[\\x0207]Wait! Unless you say \nthe password, I'm not \nletting you in![pause]"
+  - |-
+    [\x0207][\x020902]3What, a
+    password?
+    Um...[pause]
+  - |-
+    [\x0207]???[\x0207]Hey, you're
+    [\x020801][\x020501]![pause]
+  - "[\\x0207]Kenny[\\x0207][\\x020801][\\x020501], \nit's me,\nKenny![pause]"
+  - |-
+    [\x0207][\x020902]3Hey, Kenny!
+    You're OK?[pause]
+  - "[\\x0207]Kenny[\\x0207]Yeah! I was able to \njoin the Resistance![pause][\\x0203]This is now a base\nfor the Resistance![pause]"
+  - |-
+    [\x0207][\x020902]3Wow, right on,
+    Kenny![pause]
+  - "[\\x0207]Kenny[\\x0207]I know! Come and \nmeet our leader![pause][\\x0203]He might know \nsomething to help\nyou.[pause][\\x0203]It's this way![pause]"
+  - '[\x0207][\x020902]3Hey, thanks![pause]'

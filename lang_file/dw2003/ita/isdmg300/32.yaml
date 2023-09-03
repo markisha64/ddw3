@@ -1,0 +1,13 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Certo, ti
+    batterò![pause]
+  - |-
+    [\x0207]WarGreymon N[\x0207]Hai del
+    fegato![pause]
+  - |-
+    [\x0207][\x020902]3Avanti.
+    Vedrai i miei
+    poteri![pause]
+  - "[\\x0207]WarGreymon N[\\x0207]Bene. \nCominciamo![pause]"

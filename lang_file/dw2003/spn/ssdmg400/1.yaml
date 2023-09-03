@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - "[\\x0207]MasterTyranno[\\x0207]¡Vaya, chico!\n¡Eres bueno![pause][\\x0203]Te daré esto \npor ganarme.[pause]"
+  - "[\\x0207][\\x020902]3¡Bien! \n¡La Garra \nAntigua![pause]"
+  - |-
+    [\x0207]Maestro Tyranno[\x0207]¡Llévala al Líder
+    Seiryu![pause][\x0203]Y él luchará
+    contigo.[pause]
+  - |-
+    [\x0207][\x020902]3¡Gracias,
+    MasterTyrano![pause]
+  - "[\\x0207]MasterTyranno[\\x0207]El Líder Seiryu \nes muy bueno.\n¡Prepárate![pause]"

@@ -1,0 +1,40 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Le Maître de jeu[\x0207]Que faites-vous ici
+    tous les deux ?[pause]
+  - |-
+    [\x0207][\x020902]3Euh... On
+    cherche notre
+    ami Teddy.[pause]
+  - |-
+    [\x0207]Le Maître de jeu[\x0207]Oh, je vois. Je vous
+    ai fait peur ? Désolée.[pause][\x0203]Je m'inquiète aussi
+    pour lui. Lucky Mouse
+    doit l'avoir kidnappé.[pause]
+  - |-
+    [\x0207][\x020902]3Lucky
+    Mouse ?![pause]
+  - "[\\x0207]Le Maître de jeu[\\x0207]Il est redoutable.\nIl essaie de détruire\nDigimon Online ![pause][\\x0203]C'est à cause de lui\nque nous avons des \nproblèmes de système ![pause]"
+  - |-
+    [\x0207][\x020902]3Mais tout le monde
+    s'amuse tellement
+    avec Digimon Online...[pause]
+  - |-
+    [\x0207][\x020902]3Je ne peux pas
+    le croire ![pause]
+  - '[\x0207]Kail[\x0207]...[pause]'
+  - |-
+    [\x0207]Le Maître de jeu[\x0207]Tout notre personnel
+    est à la recherche de
+    Lucky Mouse.[pause][\x0203]Mais j'y pense ! Vous
+    pourriez nous aider ?[pause]
+  - |-
+    [\x0207][\x020902]3Bien sûr ! On
+    s'en charge ![pause]
+  - |-
+    [\x0207]Maître de jeu[\x0207]Merci. Je
+    compte sur
+    vous.[pause][\x0203]Cherchez
+    au Secteur
+    Ouest ![pause]

@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - "[\\x0207]Líder Suzaku[\\x0207]¿Estás listo\npara entrar en \nmi estadio?[pause]"
+  - |-
+    [\x0207][\x020902]3Sí, ¡por
+    supuesto![pause]
+  - |-
+    [\x0207]Líder Suzaku[\x0207]Pareces seguro
+    de ti mismo.[pause][\x0203]¡Pero no me
+    subestimes
+    por ser chica![pause]

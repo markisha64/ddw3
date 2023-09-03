@@ -1,0 +1,15 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3MasterTyranno
+    kämpfe mit mir![pause]
+  - |-
+    [\x0207]MasterTyranno[\x0207]Klar!
+    Hab eben gegessen
+    u. bin sehr stark.[pause]
+  - "[\\x0207][\\x020902]3Komm nur! So\nweiβ ich, wie \nstark i. bin.[pause]"
+  - |-
+    [\x0207]MasterTyranno[\x0207]Ganz schön opti-
+    mistisch, Kleiner![pause][\x0203]Das allein reicht
+    aber nicht aus, um
+    mich zu schlagen![pause]

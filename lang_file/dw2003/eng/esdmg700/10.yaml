@@ -1,0 +1,6 @@
+strings:
+  - ''
+  - "[\\x0207]Ice Witch[\\x0207]Wait one moment!\nI'm not letting a \nkid like you pass![pause][\\x0203]Give up and go\nhome![pause]"
+  - "[\\x0207][\\x020902]3You've gotta be \nkidding. I don't \nhave time for this![pause]"
+  - "[\\x0207]Ice Witch[\\x0207]I'm the Queen of \nthis Ice Dungeon!\nMind your manners![pause][\\x0203]I won't forgive you!\nYou'll be punished\nfor that![pause]"
+  - '[\x0207][\x020902]3?!?[pause]'

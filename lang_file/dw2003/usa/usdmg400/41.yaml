@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Qing Long Chief[\x0207]Comrade! Let me
+    welcome you![pause]
+  - "[\\x0207][\\x020902]3Qing Long Chief, \nwhere is the Digi-\nEgg of Knowledge?[pause]"
+  - |-
+    [\x0207]Qing Long Chief[\x0207]I don't know that either,
+    but why are you asking?[pause][\x0203]You are not one of us![pause]
+  - |-
+    [\x0207][\x020902]3And if I'm not,
+    what are you
+    going to do?[pause]
+  - "[\\x0207]Qing Long Chief[\\x0207]I'll capture \nyou like the \nothers![pause]"

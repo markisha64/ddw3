@@ -1,0 +1,4 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Wofür ist diese\nSteuerung?[pause][\\x0203]Ich drücke ein-\nfach mal diese \nTaste![pause]"
+  - "[\\x0207][\\x020902]3Wozu die \nwohl gut ist?\nNa ja...[pause]"

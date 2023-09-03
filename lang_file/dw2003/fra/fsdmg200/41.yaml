@@ -1,0 +1,34 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Quoi ? Ils ne sont
+    pas redevenus
+    normaux... ?[pause]
+  - |-
+    [\x0207]Teddy[\x0207][\x020801][\x020501], la
+    chambre ne marche
+    pas non plus...[pause]
+  - '[\x0207][\x020902]3Kail  ![pause]'
+  - '[\x0207]Teddy[\x0207]Kail  ![pause]'
+  - |-
+    [\x0207]Kail[\x0207]Pourquoi Kurt ne
+    redevient-il pas
+    normal ?[pause]
+  - '[\x0207]Kurt[\x0207]Oink, oink  ![pause]'
+  - |-
+    [\x0207]Kail[\x0207]Est-ce que Kurt et
+    les autres vont
+    rester comme ça ?[pause]
+  - "[\\x0207]Teddy[\\x0207]Non. Il doit y \navoir un moyen de \nles transformer  ![pause]"
+  - |-
+    [\x0207]Teddy[\x0207]N'est-ce pas
+    [\x020801][\x020501] ?[pause]
+  - |-
+    [\x0207][\x020902]3Euh, oui
+    bien sûr  ![pause][\x0203]Attendez ici.
+    Je vais jeter
+    un coup d'oeil.[pause]
+  - "[\\x0207]Kail[\\x0207]Hé, \n[\\x020801][\\x020501]\nTeddy...[pause]"
+  - |-
+    [\x0207]Kail[\x0207]On a vaincu l'A.o.A
+    ... pas vrai ?[pause]

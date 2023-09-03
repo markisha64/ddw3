@@ -1,0 +1,44 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Sepikmon,
+    ich habe deine
+    Sepik-Maske![pause]
+  - |-
+    [\x0207]Sepikmon[\x0207]WOW!
+    Tausend Dank![pause]
+  - |-
+    [\x0207]Sepikmon[\x0207]......
+    ......[pause]
+  - |-
+    [\x0207][\x020902]3Was ist los?
+    Setz sie auf u.
+    komm heraus.[pause]
+  - |-
+    [\x0207]Sepikmon[\x0207]Uh-uhm...kannst
+    du bitte weg-
+    sehen?[pause]
+  - '[\x0207][\x020902]3OK, na gut.[pause]'
+  - |-
+    [\x0207]Sepikmon[\x0207]Ach endlich!
+    Jetzt fühl ich mich
+    gleich viel besser![pause]
+  - |-
+    [\x0207]Sepikmon[\x0207]Das schenke
+    ich dir![pause]
+  - |-
+    [\x0207][\x020902]3Hä? Was ist
+    das für ein
+    Riechkraut?[pause]
+  - |-
+    [\x0207]Sepikmon[\x0207]Zanb. hasst d. Ge-
+    ruch v. Riechkraut![pause][\x0203]Er haut sicherlich
+    sofort ab![pause]
+  - |-
+    [\x0207][\x020902]3Wirklich?
+    Danke, du hast
+    mich gerettet![pause]
+  - |-
+    [\x0207]Sepikmon[\x0207]Du mich auch.
+    Viel Glück![pause]
+  - "[\\x0207]Sepikmon[\\x0207]Das war\necht kein \nKnaller![pause]"

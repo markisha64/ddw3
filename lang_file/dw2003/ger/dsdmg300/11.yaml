@@ -1,0 +1,37 @@
+strings:
+  - ''
+  - |-
+    Ha ha ha! Geschafft!
+    Das Fusionsexperiment
+    hat funktioniert![pause]
+  - |-
+    [\x0207]Gamemaster[\x0207]Glückwunsch!
+    Jetzt ist...?[pause]
+  - |-
+    Ja! Obwohl Lucky
+    Mouse unsere Pläne
+    durchkreuzt hat...[pause][\x0203]Wir beginnen nun
+    mit Operation Sigma![pause]
+  - '[\x0207]Gamemaster[\x0207]In Ordnung![pause]'
+  - |-
+    Vemmon, komm
+    jetzt zu mir![pause]
+  - |-
+    [\x0207][\x020902]3Hey, Gamemaster!
+    Mit wem redest du?
+    Dem A.o.A.-Boss?[pause]
+  - |-
+    [\x0207]Gamemaster[\x0207]Du bist
+    doch der
+    Junge aus..[pause][\x0203]Was machst
+    du hier?[pause]
+  - "[\\x0207][\\x020902]3Ich mach dich\nfertig![pause][\\x0203]Besser sagst du mir\nganz schnell, was \ndie A.o.A. planen![pause]"
+  - |-
+    [\x0207]Gamemaster[\x0207]Du willst mich be-
+    siegen? Guter Witz![pause][\x0203]Kommt, meine kost-
+    baren Digimon![pause]
+  - |-
+    [\x0207][\x020902]3OK, die Wa-
+    chen habe ich
+    besiegt![pause][\x0203]Nun i. Game-
+    master dran![pause]

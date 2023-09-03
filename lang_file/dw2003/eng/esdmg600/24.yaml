@@ -1,0 +1,32 @@
+strings:
+  - ''
+  - "[\\x0207]Keith[\\x0207]Hey, we're \ndone![pause]"
+  - |-
+    [\x0207]Nick[\x0207]Lisa, we're
+    finished![pause]
+  - "[\\x0207]Lisa[\\x0207]Hey, good \njob you \ntwo![pause]"
+  - '[\x0207]Keith[\x0207]Staff Pass?[pause]'
+  - "[\\x0207]Lisa[\\x0207]You guys \nare useless![pause]"
+  - "[\\x0207]Keith[\\x0207]Oh, I'm \nsorry![pause]"
+  - |-
+    [\x0207]Nick[\x0207]Sorry!
+    I'll find it
+    this time![pause]
+  - "[\\x0207]Lisa[\\x0207]Sorry. Can\nyou wait a \nlittle longer?[pause]"
+  - "[\\x0207]Nick[\\x0207]...hey, I \nfound it![pause]"
+  - "[\\x0207]Nick[\\x0207]Lisa is very \ndemanding...[pause]"
+  - |-
+    [\x0207]Nick[\x0207]But that was
+    off the record.
+    Here you go![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! I got a
+    Staff Pass![pause]
+  - "[\\x0207]Lisa[\\x0207]Oh, you found \nit? Way to go, \nNick![pause]"
+  - "[\\x0207]Nick[\\x0207]Thank you \nma'am![pause]"
+  - "[\\x0207][\\x020902]3Kail, Lisa, \nI'm off.[pause]"
+  - "[\\x0207]Lisa[\\x0207]Good luck! \nWe're counting\non you![pause]"
+  - "[\\x0207]Kail[\\x0207]Be careful, \nOK?![pause]"
+  - '[\x0207]Nick[\x0207]Staff Pass?[pause]'
+  - "[\\x0207]Lisa[\\x0207]So did you find \na Staff Pass?[pause]"
+  - "[\\x0207]Lisa[\\x0207]What are you \nguys doing?![pause]"

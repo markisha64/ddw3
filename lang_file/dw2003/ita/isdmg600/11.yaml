@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - |-
+    [\x0207]KingNumemon N[\x0207]Oh, no! Io, il re,
+    ho perso![pause]
+  - "[\\x0207][\\x020902]3Ma sei \nstato bravo.[pause][\\x0203]Sei davvero un\nre![pause]"
+  - |-
+    [\x0207]KingNumemon N[\x0207]Davvero?
+    Mi rendi felice,
+    così.[pause][\x0203]Sei un brav'uomo!
+    Prendi questo.[pause]
+  - |-
+    [\x0207][\x020902]3L'adattatore
+    di BIT, wow![pause]
+  - |-
+    [\x0207]KingNumemon N[\x0207]Non dimenticarti
+    di me, ragazzo![pause]

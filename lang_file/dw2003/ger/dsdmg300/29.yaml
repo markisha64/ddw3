@@ -1,0 +1,27 @@
+strings:
+  - ''
+  - "[\\x0207]Fuβballer Hide[\\x0207]Mann, Cardmon \nkommt nicht raus.[pause][\\x0203]Warum habe ich\nGabumon verloren?[pause]"
+  - "[\\x0207][\\x020902]3Häh?? Warum\ntrittst du \ndie Bäume?[pause]"
+  - "[\\x0207]Fuβballer Hide[\\x0207]Hast du gefragt,\nwarum ich die \nBäume trete?[pause][\\x0203]Natürlich um\nCardmon zu finden![pause]"
+  - |-
+    [\x0207][\x020902]3Cardmon?
+    Ist das ein
+    Digimon?[pause]
+  - "[\\x0207]Fuβballer Hide[\\x0207]Cardmon ist ein Digi-\nmon, das Booster mit\nExtrakarten fallen lässt.[pause][\\x0203]Nur Divermon in der \nStadt kann die Booster \nöffnen.[pause]"
+  - |-
+    [\x0207][\x020902]3Cardmon lässt
+    Booster fallen?![pause][\x0203]...lass mich
+    auch mal treten.[pause]
+  - |-
+    [\x0207]Fuβballer Hide[\x0207]Heh heh heh. Du
+    brauchst dafür
+    Baumstiefel.[pause][\x0203]Willst du Stiefel
+    haben? Nun dann...[pause][\x0203]Ich habe meine
+    Gabumon-Karte ver-
+    loren. Suchst du sie?[pause][\x0203]Wenn du sie findest,
+    erzähle ich dir, wie
+    du Stiefel bekommst.[pause]
+  - |-
+    [\x0207][\x020902]3Gabumon-Karte?
+    Gut, ich such sie
+    u. komm zurück![pause]

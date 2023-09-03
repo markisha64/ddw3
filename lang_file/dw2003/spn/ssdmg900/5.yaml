@@ -1,0 +1,20 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3¡Lo hice!
+    Vencí a Kurt[pause]
+  - |-
+    [\x0207]Kurt[\x0207]¡Enhorabuena,
+    [\x020801][\x020501]! Me
+    ganaste justamente.[pause][\x0203]Eres el domador más
+    fuerte ahora.[pause]
+  - '[\x0207][\x020902]3¡Gracias![pause]'
+  - "[\\x0207]Kurt[\\x0207]Pronto arreglarán\nDigimon Online. Como\nprimer Campeón  [pause][\\x0203]Mundial debes aceptar \na todos los que te \nreten en el mundo.[pause]"
+  - |-
+    [\x0207][\x020902]3¿Yo?
+    ¿Primer Campeón
+    Mundial?[pause][\x0203]Bueno, lo haré
+    lo mejor que
+    pueda.[pause]
+  - "[\\x0207]Kurt[\\x0207]Cuento contigo.\nAunque aún tienes\ntiempo.[pause][\\x0203]Hasta entonces\nlucha y hazte \nmás fuerte.[pause]"
+  - "[\\x0207][\\x020902]3Tranquilo\n¡voy a ser el \nCampeón [pause][\\x0203]Mundial más \nfuerte![pause]"

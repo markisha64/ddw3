@@ -1,0 +1,31 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Mystery Player[\x0207]Hey! Wait up,
+    kid![pause]
+  - |-
+    [\x0207][\x020902]3Are you
+    talking to
+    me?[pause]
+  - |-
+    [\x0207]Mystery Player[\x0207]Of course!
+    I mean you![pause][\x0203]You're [\x020801][\x020501],
+    who beat Seiryu
+    Leader, aren't you?[pause]
+  - |-
+    [\x0207][\x020902]3Yeah...and you
+    are...?[pause]
+  - "[\\x0207]Keith[\\x0207]My name is Keith, and\nyou better remember \nmy name, kid![pause][\\x0203]I'm the one that's \ngoing to win the\ntournament![pause]"
+  - |-
+    [\x0207][\x020902]3Oh yeah? We'll
+    just have to wait
+    and see![pause]
+  - |-
+    [\x0207]Keith[\x0207]Ha ha ha, I see!
+    Then you want to
+    battle with me?[pause]
+  - '[\x0207][\x020902]3Go for it![pause]'
+  - |-
+    [\x0207]Keith[\x0207]Sorry, but I'm
+    not going to pull
+    any punches![pause]

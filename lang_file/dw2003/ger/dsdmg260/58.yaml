@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Also
+    24000 BIT![pause]
+  - |-
+    [\x0207]Mr. Smith[\x0207]Wow!
+    24000 BIT![pause][\x0203]Bietet jmd.
+    mehr?[pause]
+  - "[\\x0207]Mr. Smith[\\x0207]Wenn niemand\nmehr bietet.[pause][\\x0203]Wildnisanzug \nfür 24000 BIT![pause][\\x0203]Gratulation![pause][\\x0203]Ich übertrage das\nItem jetzt an\nIhren Satelliten![pause]"
+  - |-
+    [\x0207][\x020902]3Cool! Der
+    Wildnisanzug![pause]
+  - |-
+    [\x0207][\x020902]3Ich hab jetzt ein
+    echt cooles Item.
+    Ich probier's aus.[pause]

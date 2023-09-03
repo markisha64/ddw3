@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - "[\\x0207]Dunkelmaster[\\x0207]Du bist sehr gut.\nIch bin etwas\nangeschlagen...[pause][\\x0203]...aber du hast\ngewonnen. Ich \ngebe dir das dafür.[pause]"
+  - |-
+    [\x0207][\x020902]3Toll! Ein
+    EXP-Adapter![pause]
+  - |-
+    [\x0207]Dunkelmaster[\x0207]Du kannst ein
+    groβer Ta-
+    mer werden.[pause][\x0203]...viel Glück.[pause]

@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Heh, was ist
+    denn das?[pause]
+  - |-
+    [\x0207][\x020902]3Toll! Ich habe
+    das Digiei
+    des Wissens![pause]
+  - "[\\x0207][\\x020902]3Jetzt kann ich Di-\ngimon beschwören![pause][\\x0203]OK, zurück zum\nAsuka-Server u. \nzum Nordsektor![pause]"

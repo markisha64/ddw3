@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - "[\\x0207]Collez. Luke[\\x0207]OK, invio i \ndati al\nsatellite.[pause]"
+  - "\"Energia-S\"\nLe carte sono: bianca, blu, verde,\nrossa, nera, marrone.[pause][\\x0203]L'Energia-S aumenta quando\nestrai una carta di quel \ncolore.[pause][\\x0203]Con l'Energia-S puoi invocare\nDigimon non Novizi.[pause][\\x0203]\"Chiamare con l'Energia-S\"\nPer chiamare un Digimon ti serve\nEnergia-S dello stesso colore.[pause][\\x0203]Digimon Campione: un punto.\nDigimon Dominatore: due punti.\nDigimon Mega: tre punti.[pause][\\x0203]I Digimon Novizi si possono\nchiamare senza Energia-S.[pause]"
+  - "\"Combo\"\nSi ha una Combo quando ci sono più \ndi 3 carte uguali sul tavolo.[pause][\\x0203]Si calcola la somma dei punti\ndelle carte nella Combo. Se sono\npiù di 4 carte, avrai un bonus.[pause][\\x0203]\"Raccogliere le carte\"\nSe vinci la battaglia ricevi\nun pacco, contenente delle carte.[pause][\\x0203]Puoi ricevere dei pacchi anche\nbattendo dei domatori.[pause][\\x0203]Si dice anche che un Digimon abbia\ncon sé dei pacchi di carte.[pause][\\x0203]\"Cardmon\"\nIn questo mondo si nasconde un\nDigimon chiamato Cardmon.[pause][\\x0203]Se lo sconfiggi, puoi ricevere dei\npacchi di carte. Forse si nasconde\nnegli alberi o nell'acqua.[pause]"
+  - "\"Congelamento\"\nSi tratta di una carta programma blu.[pause][\\x0203]Usata contro una carta programma\ndel nemico, la fa scartare prima\nche abbia effetto.[pause][\\x0203]È una carta potente: se la trovi, \nmettila in cartella![pause][\\x0203]\"Voci sulle carte speciali\"\nPare ci siano carte speciali\nnon incluse nei pacchi.[pause][\\x0203]Si dice che ce le abbia qualche\ndomatore. Cercalo![pause]"
+  - |-
+    [\x0207]Collezionista Luke[\x0207]Non cercare di
+    ricordare tutto ora:
+    pazienza ed esperienza![pause]

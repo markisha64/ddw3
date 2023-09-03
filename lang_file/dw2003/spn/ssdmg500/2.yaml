@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Líder Suzaku[\x0207]¡Oh, no! ¡Mi
+    Digimon perdió![pause][\x0203]Bueno, ¿cómo
+    te llamas?[pause]
+  - '[\x0207][\x020902]3¡Soy [\x020801][\x020501]![pause]'
+  - "[\\x0207]Líder Suzaku[\\x0207]¡Bonito nombre![pause][\\x0203]De acuerdo, te \ndaré esto.[pause]"
+  - "[\\x0207][\\x020902]3¡Sí! ¡Tengo\nel Pin \nSuzaku![pause][\\x0203]¡Ahora \nnecesito el \nPin Byakko![pause]"
+  - "[\\x0207]Líder Suzaku[\\x0207]El Sector Oeste está\nal otro lado del mar, \nes muy difícil llegar.[pause][\\x0203]Sólo hay un camino.\nTienes que llamar a \nSubmarimon.[pause][\\x0203]Necesitas el Digihuevo de\nSeriedad para\nllamarlo.[pause][\\x0203]Pregunta en el sector\npara obtener información.[pause][\\x0203]Es lo único que puedo\ndecirte. Buena suerte.[pause]"

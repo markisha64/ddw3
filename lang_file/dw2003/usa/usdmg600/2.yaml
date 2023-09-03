@@ -1,0 +1,6 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Huh? That's weird.\nThere isn't any \nbadge here.[pause]"
+  - '[\x0207][\x020902]3What the?[pause]'
+  - "[\\x0207][\\x020902]3Wha-what's \ngoing on?![pause]"
+  - '[\x0207][\x020902]3Whaaah![pause]'

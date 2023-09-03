@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Junior[\x0207]Wow! So this is
+    the Chamber Room?[pause][\x0203]I can start playing
+    the game...
+    This is exciting![pause]
+  - "[\\x0207]Operator[\\x0207]What is your\nregistered \naccount name?[pause]"
+  - '[\x0207]Junior[\x0207]It''s [\x020801][\x020501]![pause]'
+  - "[\\x0207]Operator[\\x0207]...Confirmed. \nThank you.[pause][\\x0203]Please enter the\nChamber Capsule\nover there.[pause]"
+  - '[\x0207]Junior[\x0207]OK![pause]'
+  - a
+  - "[\\x0207]Ivy[\\x0207]Hey! Are you \nleaving without\nus?[pause]"
+  - "[\\x0207]Teddy[\\x0207]Junior, wait \nup![pause]"

@@ -1,0 +1,22 @@
+strings:
+  - ''
+  - "[\\x0207]General[\\x0207]You're that kid we \ncaught last time![pause][\\x0203]What do you want!\nDid you come here to\nbe captured again?[pause]"
+  - "[\\x0207][\\x020902]3No way![pause][\\x0203]I came here to ask \nhow you got to \nthis server![pause]"
+  - |-
+    [\x0207]General[\x0207]Heh heh heh...
+    If you want to know
+    I'll tell you.[pause][\x0203]The transportation
+    Digimon the A.o.A
+    created...[pause][\x0203]We came here from
+    Amaterasu to this
+    server by Bulbmon![pause]
+  - '[\x0207][\x020902]3...Bulbmon?![pause]'
+  - "[\\x0207]General[\\x0207]Yes, a great Digimon \nthat can move \nbetween servers![pause][\\x0203]Unfortunately, it \nacted weird when we \narrived here![pause]"
+  - "[\\x0207][\\x020902]3Acting weird?\nWhat does that \nmean?[pause]"
+  - "[\\x0207]General[\\x0207]Lucky Mouse erected a \nProtective Field![pause][\\x0203]So our Bulbmon broke \ndown and threw us out![pause][\\x0203]That's why we \nquickly attacked \nByakko City.[pause]"
+  - |-
+    [\x0207][\x020902]3Hey, wait a sec.
+    Then where's
+    Bulbmon...?[pause]
+  - "[\\x0207]General[\\x0207]I have no idea![pause][\\x0203]I'm sure it's digging \nsome more dimensional \nholes![pause]"
+  - "[\\x0207][\\x020902]3Then I guess I \nshould look for \nBulbmon...[pause][\\x0203]Hey wait. I think I've\nseen Bulbmon \nsomewhere before...[pause]"

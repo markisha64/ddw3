@@ -1,0 +1,16 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Mitarbeiter:[\x0207]Registrierung beendet.
+    Geht jetzt bitte in
+    die Kammer.[pause]
+  - |-
+    [\x0207]Junior[\x0207]OK, Teddy, Ivy!
+    Auf in die
+    digitale Welt![pause]
+  - |-
+    [\x0207]Ivy[\x0207]H-hey!
+    Warte Junior![pause]
+  - |-
+    [\x0207]Teddy:[\x0207]Ich bin noch
+    nicht fertig![pause]

@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Armormon, mi
+    puoi fare un
+    favore?[pause][\x0203]Posso prendere il
+    DDNA di Monmon
+    dal tuo?[pause]
+  - |-
+    [\x0207]Armormon[\x0207]Mi rifiuto!
+    È troppo importante
+    per darlo via.[pause][\x0203]Ma se lo vuoi
+    davvero, lotta
+    con me.[pause]

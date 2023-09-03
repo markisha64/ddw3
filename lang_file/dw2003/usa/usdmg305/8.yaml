@@ -1,0 +1,38 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Lisa[\x0207]Hey, [\x020801][\x020501]!
+    So? Find anyone?[pause]
+  - "[\\x0207][\\x020902]3Yes. I met up with \nthe people of the \nResistance![pause]"
+  - "[\\x0207]Lisa[\\x0207]Good job!\nYou're great \n[\\x020801][\\x020501]![pause]"
+  - "[\\x0207][\\x020902]3But to get into \nAmaterasu City...[pause][\\x0203]We need the four\nCode Passes to stop \nKnightmon.[pause]"
+  - |-
+    [\x0207]Keith[\x0207]Code Pass?
+    ...what's
+    that?![pause]
+  - "[\\x0207]Lisa[\\x0207]Oh, I know about \nthat. It's the ID \npass with colors.[pause]"
+  - "[\\x0207][\\x020902]3...ID pass \nwith colors?[pause][\\x0203]Then these Red \nID and Blue \nID?[pause]"
+  - |-
+    [\x0207]Lisa[\x0207]Yeah, that's it!
+    Why do you have it?[pause]
+  - "[\\x0207][\\x020902]3The A.o.A City \nChief I defeated \nhad them![pause]"
+  - "[\\x0207]Nick[\\x0207]Then if you get the\nother two, we can \nbeat Knightmon![pause]"
+  - "[\\x0207]Keith[\\x0207]Yeah! Then the other\nCity Chief must have \nit as well![pause]"
+  - "[\\x0207]Lisa[\\x0207]Yeah, this \nshould help![pause]"
+  - "[\\x0207][\\x020902]3Oh, but wait![pause][\\x0203]We gotta do \nsomething about \nBai Hu City...[pause][\\x0203]The security \nthere is really \ntight![pause]"
+  - |-
+    [\x0207]Lisa[\x0207]Oh, really?
+    ...Hmmm...
+    What to do...[pause]
+  - "[\\x0207]Lisa[\\x0207]I know! We can get\nthe Resistance to \nhelp us![pause][\\x0203]They're in the \nMirage Tower, right?[pause]"
+  - '[\x0207][\x020902]3Ye-yes![pause]'
+  - |-
+    [\x0207]Lisa[\x0207]OK, I'll go ask
+    them.[pause]
+  - "[\\x0207]Keith[\\x0207]Yeah, \nleave it \nto us![pause]"
+  - '[\x0207]Nick[\x0207]...All right.[pause]'
+  - "[\\x0207][\\x020902]3OK, then I'll go \nback to Bai \nHu again![pause]"
+  - "[\\x0207]Teddy[\\x0207]Good luck, \n[\\x020801][\\x020501]![pause]"
+  - "[\\x0207][\\x020902]3Yeah, leave \nit to me![pause]"
+  - "[\\x0207]Lisa[\\x0207]Keith, \nlet's go.[pause]"
+  - "[\\x0207]Lisa[\\x0207]Nick, you stay \nhere![pause]"

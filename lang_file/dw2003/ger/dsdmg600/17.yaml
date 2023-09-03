@@ -1,0 +1,26 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Byakko Lead.,
+    ich möchte dich
+    etwas fragen.[pause]
+  - "[\\x0207]Byakko Leader[\\x0207]...Du hast mich \nbereits gefunden![pause][\\x0203]Dann muss ich jetzt\nmit dir kämpfen![pause]"
+  - |-
+    [\x0207][\x020902]3Was?
+    Hey, Sekunde!
+    Was ist d...!?[pause]
+  - |-
+    [\x0207]Byakko Leader[\x0207]Ruhe! Ich werde
+    nicht gegen die
+    A.o.A verlieren![pause]
+  - |-
+    [\x0207][\x020902]3Wie bitte?
+    ...A.o.A.?[pause]
+  - |-
+    [\x0207]Byakko Leader[\x0207]Tu doch nicht so!
+    Kommt her, meine
+    Digimon![pause]
+  - |-
+    [\x0207][\x020902]3Ich kann es nicht
+    glauben! Na gut.[pause][\x0203]OK, bringen wir
+    es hinter uns![pause]

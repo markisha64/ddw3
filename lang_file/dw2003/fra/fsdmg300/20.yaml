@@ -1,0 +1,5 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Hmmm... le système \nMatrix doit se \ntrouver par ici...[pause][\\x0203]Mais je ne sais pas \ncomment le faire\nfonctionner...[pause][\\x0203]Mais le Maître de Jeu\na envoyé Vemmon\n d'ici.[pause]"
+  - '[\x0207][\x020902]3Quoi ?[pause]'
+  - "[\\x0207][\\x020902]3Q...que fait\nVemmon ici ?[pause][\\x0203]Peut-être... \nBon, je dois\nle suivre ![pause]"

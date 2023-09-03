@@ -1,0 +1,33 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Numemon[\x0207]Hier sind wir
+    sicher.[pause]
+  - |-
+    [\x0207][\x020902]3Hey, danke![pause][\x0203]Was ist denn
+    mit den Leuten
+    aus Byakko City?[pause][\x0203]Ihr Leader hat ge-
+    logen u. mich i. d.
+    Keller geworfen.[pause]
+  - "[\\x0207]Numemon[\\x0207]Der Leader und \nalle anderen sind\nBetrüger![pause]"
+  - |-
+    [\x0207][\x020902]3Was? Wer
+    war das
+    dann?[pause]
+  - |-
+    [\x0207]Numemon[\x0207]Das geht dich
+    nichts an![pause][\x0203]Um den echten Lea-
+    der zu treffen, musst
+    du in die Möbiuswüste.[pause]
+  - "[\\x0207][\\x020902]3Hey hey, \nAugenblick! Was\ngeht hier vor?[pause]"
+  - |-
+    [\x0207]Numemon[\x0207]Mehr kann ich dir
+    nicht sagen![pause][\x0203]Halte dich von
+    Byakko City fern![pause]
+  - |-
+    [\x0207][\x020902]3Na gut.
+    Bis dann![pause]
+  - |-
+    [\x0207][\x020902]3Also gut, dann suche
+    ich den echten Leader
+    und rede mit ihm![pause]

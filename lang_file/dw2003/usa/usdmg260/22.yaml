@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3All right then!
+    2700 BIT![pause]
+  - "[\\x0207]Mr. Smith[\\x0207]Wow! \n2700 BIT![pause][\\x0203]Anyone above\n2700 BIT?[pause]"
+  - "[\\x0207]Mr. Smith[\\x0207]Once, twice...\nThree times![pause][\\x0203]Hazard Fang is \nsold at 2700 BIT![pause][\\x0203]Congratulations\nto you over there![pause][\\x0203]I'm transferring \nthe item to your\nsatellite now![pause]"
+  - |-
+    [\x0207][\x020902]3Yeah! I got the
+    Hazard Fang![pause]
+  - "[\\x0207][\\x020902]3OK, I got a pretty \ncool item, so let's \ngo![pause]"

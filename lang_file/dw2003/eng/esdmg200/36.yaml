@@ -1,0 +1,28 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3...Lisa, do you \nmean the Game \nMaster?![pause]"
+  - "[\\x0207]Lisa[\\x0207]That's right!\nYou got it![pause][\\x0203]She's the only person \nwe can go to, \nright?[pause]"
+  - "[\\x0207]Game Master[\\x0207]...what do you \nmean, talk![pause][\\x0203]I have no \nintentions \nof helping you![pause]"
+  - "[\\x0207]Lisa[\\x0207]Oh, really?\nHmmmm[pause][\\x0203]I was going to \ngive up to you.[pause]"
+  - |-
+    [\x0207][\x020902]3Wha-what're
+    you saying Lisa?![pause]
+  - "[\\x0207]Lisa[\\x0207]They got the\nJuggernaut! So\nnothing we can do![pause][\\x0203]And I don't want \nto die yet.[pause]"
+  - "[\\x0207][\\x020902]3...wha-what?!\nWe fought all\nthe way here!![pause][\\x0203]I don't want to. \nI'll never give \nup![pause]"
+  - "[\\x0207]Lisa[\\x0207][\\x020801][\\x020501], you're \na straight kid.[pause][\\x0203]But you'll just \nlose your life.[pause]"
+  - "[\\x0207]Game Master[\\x0207]You're smarter than \nyou look. I'll have \nto change my mind.[pause]"
+  - "[\\x0207]Game Master[\\x0207]Yes, Juggernaut \nbelongs to the\nA.o.A![pause][\\x0203]Only the president in\nAmaterasu City can\nstop it![pause]"
+  - "[\\x0207]Lisa[\\x0207]...really.\nYou heard that \n[\\x020801][\\x020501]?[pause]"
+  - |-
+    [\x0207][\x020902]3Ye-yes ma'am!
+    ...that's what
+    you meant!![pause]
+  - |-
+    [\x0207]Game Master[\x0207]Oh, what did I say?!
+    That was a secret!
+    I'm such an idiot![pause]
+  - "[\\x0207]Lisa[\\x0207]They say first \nfool your allies \nbefore an enemy![pause][\\x0203]So? \nHow was my\nacting?[pause]"
+  - "[\\x0207]Teddy[\\x0207]...hey, stop \nwasting time \nyou two![pause]"
+  - "[\\x0207]Teddy[\\x0207]Vemmon was \ntransferred onto \nthe Juggernaut![pause]"
+  - '[\x0207]Lisa[\x0207]Really?![pause]'
+  - "[\\x0207][\\x020902]3...what, \nwhat \nhappened?![pause]"

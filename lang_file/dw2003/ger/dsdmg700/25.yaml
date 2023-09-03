@@ -1,0 +1,27 @@
+strings:
+  - ''
+  - "[\\x0207]Kammer-Offizier[\\x0207]Alles grün.\nWir sind fertig mit\n[\\x020801][\\x020501]s Test.[pause][\\x0203]Matrix-System \nwird umgekehrt.[pause][\\x0203]Wo möchtest du\nin der echten Welt\nrealisiert werden?[pause]"
+  - |-
+    [\x0207][\x020902]3Militärstützpunkt
+    Magasta in der
+    echten Welt![pause][\x0203]Das ist auf der
+    Ozeanebene![pause]
+  - |-
+    [\x0207]Kammer-Offizier[\x0207]Verstehe.
+    Militärstützpunkt
+    Magasta...[pause]
+  - "[\\x0207]Kammer-Offizier[\\x0207]Bestätigt. Liegt noch\nim Warp-Bereich.[pause][\\x0203]Aber wegen der \nSysteminstabilität...[pause][\\x0203]existierst du nur \n180 Sek. lang in \nder echten Welt.[pause]"
+  - |-
+    [\x0207][\x020902]3Moment mal.
+    Und wenn das
+    zu wenig ist?[pause]
+  - "[\\x0207]Kammer-Offizier[\\x0207]Die Realisierung bricht\nab, und die Matrix \nbringt dich zurück.[pause][\\x0203]Keine Sorge, die \nMatrix-Daten werden\nnicht zerstört.[pause][\\x0203]Wir starten jetzt\ndas Matrix-\nSystem.[pause]"
+  - |-
+    [\x0207][\x020902]3Also gut.
+    Was soll
+    ich tun?[pause]
+  - |-
+    [\x0207]Kammer-Offizier[\x0207]Begib dich zum
+    Warp-Port
+    links von mir.[pause][\x0203]Viel Glück,
+    [\x020801][\x020501].[pause]

@@ -1,0 +1,22 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Also
+    4000 BIT![pause]
+  - |-
+    [\x0207]Mr. Smith[\x0207]Wow!
+    4000 BIT![pause][\x0203]Bietet jmd.
+    mehr?[pause]
+  - |-
+    [\x0207]Mr. Smith[\x0207]Zum 1., zum 2.
+    und zum 3.![pause][\x0203]Ronin-Klinge
+    für 4000 BIT.[pause][\x0203]Gratulation![pause][\x0203]Ich übertrage das
+    Item jetzt an
+    deinen Satelliten![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Die
+    Ronin-Klinge![pause]
+  - |-
+    [\x0207][\x020902]3Ich hab jetzt ein
+    echt cooles Item,
+    ich gehe jetzt.[pause]

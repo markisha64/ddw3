@@ -1,0 +1,34 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3I did it!
+    I beat Kurt![pause]
+  - |-
+    [\x0207]Kurt[\x0207]Congratulations,
+    [\x020801][\x020501]! You beat
+    me fair and square![pause][\x0203]Now you're the new
+    strongest tamer![pause]
+  - '[\x0207][\x020902]3Thank you![pause]'
+  - |-
+    [\x0207]Kurt[\x0207]Soon Digimon Online will
+    be restored. As the
+    first World Champ, you[pause][\x0203]should take on all the
+    challengers that'll come
+    from around the world.[pause]
+  - |-
+    [\x0207][\x020902]3Me?
+    The first World
+    Champ?[pause][\x0203]Well, I'll
+    try to do my
+    best![pause]
+  - |-
+    [\x0207]Kurt[\x0207]I'll be counting on
+    you! You still have
+    some time though.[pause][\x0203]Until then, fight
+    more and get even
+    stronger![pause]
+  - |-
+    [\x0207][\x020902]3Don't worry.
+    I'm going to be
+    the strongest[pause][\x0203]World Champ
+    ever![pause]

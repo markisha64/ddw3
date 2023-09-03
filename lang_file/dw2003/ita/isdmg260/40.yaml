@@ -1,0 +1,13 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Mr. Smith[\x0207]Un'occasione![pause][\x0203]Il pezzo principale![pause][\x0203]L'elmo eroico,
+    molto conteso![pause][\x0203]Questo elmo esclusivo
+    di Agumon parte da
+    7000 BIT![pause]
+  - '[\x0207]Cliente Abel[\x0207]8000 BIT![pause]'
+  - '[\x0207]Capo Milly[\x0207]8300 BIT![pause]'
+  - '[\x0207]Masao RPG[\x0207]8600 BIT![pause]'
+  - |-
+    [\x0207][\x020902]3Hmm, 8700 BIT
+    Mmmm...[pause]

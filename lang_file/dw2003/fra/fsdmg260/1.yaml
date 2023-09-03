@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Très bien !
+    800 BIT ![pause]
+  - "[\\x0207]M. Smith[\\x0207]Ouah ! \n800 BIT ![pause][\\x0203]Quelqu'un à \nplus de 800 \nBIT ?[pause]"
+  - "[\\x0207]M. Smith[\\x0207]Il semble qu'il\nn'y ait personne.[pause][\\x0203]La Barrière divine\nest vendue 800 \nBIT ![pause][\\x0203]Félicitations au\nMonsieur là-bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+  - "[\\x0207][\\x020902]3Oui ! J'ai \nla Barrière  \ndivine ![pause]"
+  - "[\\x0207][\\x020902]3Bien, c'est un \nchouette objet, \nallons-y.[pause]"

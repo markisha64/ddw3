@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - "[\\x0207]Zambamon[\\x0207]¡Eh, espera,\nespeeera![pause][\\x0203]¡No te voy a \ndejar pasar por \naquí![pause]"
+  - "[\\x0207][\\x020902]3Tienes que estar \nde broma. ¡Tengo\nque pasar![pause]"
+  - |-
+    [\x0207]Zambamon[\x0207]Entonces intenta
+    ganarme.[pause][\x0203]¡Por supuesto!
+    ¡Yo nunca pierdo!
+    ¡Ja ja ja ja![pause]
+  - |-
+    [\x0207][\x020902]3Sí, claro.[pause][\x0203]¡Siempre hay
+    una primera![pause]

@@ -1,0 +1,13 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Hurra!
+    Sieg über
+    Bulbmon![pause]
+  - |-
+    [\x0207][\x020902]3Hä?!
+    Das Loch geht
+    immer weiter![pause][\x0203]Vielleicht geht
+    es zum Ama-
+    terasu-Server...[pause][\x0203]Ich finde es
+    heraus![pause]

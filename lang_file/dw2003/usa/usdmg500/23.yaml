@@ -1,0 +1,6 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3OK, I found \nyou![pause][\\x0203]I'm not going to\nlet you get \naway this time![pause]"
+  - |-
+    [\x0207]Numemon[\x0207]You should
+    just give up![pause]

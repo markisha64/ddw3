@@ -1,0 +1,25 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Seiryu Leader[\x0207]Du bist ziemlich
+    gut. Wie heiβt
+    du?[pause]
+  - |-
+    [\x0207][\x020902]3Ich bin [\x020801][\x020501]
+    Das war ein
+    ehrenhafter Kampf[pause]
+  - "[\\x0207]Seiryu Leader[\\x0207]Also gut, \n[\\x020801][\\x020501]. Nimm \ndas hier mit.[pause]"
+  - |-
+    [\x0207][\x020902]3Das Seiryu-
+    Abzeichen und
+    das Silber-Ticket![pause]
+  - "[\\x0207]Seiryu Leader[\\x0207]Du wirst sie in\nden nächsten \nKämpfen brauchen.[pause][\\x0203]Diese Items sind\nwichtig. Verliere\nsie nicht.[pause]"
+  - |-
+    [\x0207][\x020902]3Danke, Seiryu
+    Leader![pause]
+  - |-
+    [\x0207]Seiryu Leader[\x0207]Fordere als Nächstes
+    Suzaku im Südsektor
+    heraus.[pause][\x0203]Dein Weg ist weit.
+    Aber du kannst es
+    schaffen. Viel Glück![pause]

@@ -1,0 +1,5 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Yeah, \nI won![pause]"
+  - "[\\x0207]WarGrowlmon[\\x0207]That was a great \nbattle.[pause][\\x0203]OK, take this \nwith ya![pause]"
+  - "[\\x0207][\\x020902]3Yeah! I got \nthe Guilmon \nDDNA![pause][\\x0203]Thanks,\nWarGrowlmon![pause]"

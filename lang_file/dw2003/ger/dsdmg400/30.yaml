@@ -1,0 +1,21 @@
+strings:
+  - ''
+  - |-
+    Beep. Beep.
+    BITTE WARTEN.
+    DATENBESTÄTIGUNG[pause][\x0203]......
+    BLAUE KARTE NICHT
+    BESTÄTIGT.[pause][\x0203]KONTOREGISTRIERUNG
+    WIRD BEENDET...[pause]
+  - |-
+    [\x0207][\x020902]3Was? Warum
+    geht das nicht?[pause][\x0203]Ich habe doch die
+    blaue Karte![pause]
+  - |-
+    [\x0207][\x020902]3Was ist los? Das
+    ist nicht die blaue
+    Karte?[pause][\x0203]Das B ist eine 8!
+    Das ist eine 8laue
+    Karte![pause][\x0203]Sie ist gefälscht!
+    Ich wurde herein-
+    gelegt![pause]

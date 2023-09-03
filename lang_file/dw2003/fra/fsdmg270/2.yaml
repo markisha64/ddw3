@@ -1,0 +1,49 @@
+strings:
+  - ''
+  - "[\\x0207]Divermon[\\x0207]Je vais te donner\nune sacoche.[pause][\\x0203]Tu peux y placer \ntrois dossiers que\ntu as créés.[pause]"
+  - "[\\x0207][\\x020902]3Dossier ?\nC'est \nquoi ?[pause]"
+  - "[\\x0207]Divermon[\\x0207]Un dossier comprend \n40 cartes que \ntu as réunies.[pause][\\x0203]Tu peux y mettre  \njusqu'à 4 cartes \nidentiques.[pause]"
+  - |-
+    [\x0207][\x020902]3Des cartes ?
+    Mais pour quoi
+    faire ?[pause]
+  - "[\\x0207]Divermon[\\x0207]!!\nTu es désespérant ![pause][\\x0203]Pour les combats \nde cartes avec \nd'autres joueurs ![pause][\\x0203]Tu dois tirer des \ncartes, disposer les \nDigimons et te battre.[pause][\\x0203]Regarde ! Quelqu'un\nest dans le feu de\nla bataille.[pause]"
+  - "[\\x0207]Dresseur Nacky[\\x0207]J'ai pioché Calumon, \nje commence.[pause][\\x0203]C'est la phase de\ntirage, je prends 6\ncartes de mon jeu...[pause][\\x0203]Super ! J'ai de \nbonnes cartes ![pause]"
+  - "[\\x0207]Dresseur Nacky[\\x0207]C'est le chargement, \nalors je peux sortir \nune carte programme...[pause][\\x0203]...Oh ?\nJe... passe.[pause]"
+  - |-
+    [\x0207]Dresseur Steve[\x0207]Hmm...
+    Je passe aussi.[pause]
+  - "[\\x0207]Dresseur Nacky[\\x0207]On a passé tous les\n2. C'est la fin de\nla phase chargement.[pause][\\x0203]Ensuite, la phase \nd'appel ! Montrons-\nnous nos cartes ![pause]"
+  - "[\\x0207]Dresseur Steve[\\x0207]Très bien, \nen même\ntemps ![pause]"
+  - "[\\x0207]Dresseur Nacky[\\x0207]J'ai 2 Hawkmon, \n2 Agumon, et \n2 Meramon![pause]"
+  - |-
+    [\x0207]Dresseur Steve[\x0207]J'ai 1
+    Candlemon ![pause]
+  - |-
+    [\x0207]Dresseur Nacky[\x0207]Quoi ?
+    Tu te moques
+    de moi ?[pause]
+  - "[\\x0207]Dresseur Steve[\\x0207]Non... \nJ'ai un plan.[pause][\\x0203]Un dresseur doit\ncombattre avec\nun jeu complet.[pause]"
+  - "[\\x0207]Dresseur Gloria[\\x0207]Le Bogue du   \ngel rend le    \nCanon de Feu[pause][\\x0203]inopérant sur\nmon Renamon. \nQuoi d'autre ?[pause]"
+  - "[\\x0207]Dresseur Wong[\\x0207]Hmmm, tu \navais le\nBogue du gel...[pause][\\x0203]Je ne peux \nrien faire.\nJe passe.[pause]"
+  - |-
+    [\x0207]Dresseur Gloria[\x0207]C'est un dossier bleu
+    j'ai donc 4
+    Bogues du gel.[pause][\x0203]OK, je passe aussi.
+    C'est la fin de la
+    phase compilation.[pause]
+  - "[\\x0207]Dresseur Wong[\\x0207]Hmmm...\nC'est la\nPhase combat.[pause][\\x0203]Ajoutons les PA \net les PV de nos\nDigimons.[pause][\\x0203]J'ai 1 Growlmon,\n18 PA, 20 PV[pause]"
+  - "[\\x0207]Dresseur Gloria[\\x0207]J'ai 3 Renamon\nà 4 PA, 4 PV, donc\n12 PA et 12 PV.[pause][\\x0203]Comme il y a 3 cartes, \navec 12 PA et 12 PV\nTaomon est appelé.[pause]"
+  - |-
+    [\x0207]Dresseur Wong[\x0207]......
+    Oh, c'est vrai.[pause][\x0203]Tes PA et PV sont
+    à 24 et 24...
+    Donc tu gagnes...[pause]
+  - "[\\x0207]Dresseur Gloria[\\x0207]Oui, j'ai gagné![pause][\\x0203]Mais ça se joue \nen 2 manches,\nalors rien n'est joué.[pause]"
+  - "[\\x0207]Divermon[\\x0207]Tu vois ?\nC'est très excitant...[pause][\\x0203]Je ne pense pas que \ntu y arriveras si vite\nmais... [pause][\\x0203]Voici une sacoche\nqui peut contenir \n3 dossiers.[pause][\\x0203]Je te donne aussi mon\ndossier d'entraînement \npersonnalisé.[pause]"
+  - "[\\x0207][\\x020902]3Ouah !\nMerci ! Je ferai\nde mon mieux ![pause][\\x0203]Mais je ne sais\npas de quoi \nils parlaient...[pause]"
+  - "[\\x0207]Divermon[\\x0207]Va voir Ken ou Luke. \nIls vont te montrer.[pause][\\x0203]Plus ton partenaire\ns'améliore, plus tu\npeux combattre.[pause][\\x0203]Un bon joueur est  \naussi bon dresseur.[pause][\\x0203]Les dresseurs avec \ndes partenaires forts \ncombattent beaucoup.[pause]"
+  - "[\\x0207][\\x020902]3OK ! Merci pour \ntout \nDivermon ![pause]"
+  - |-
+    [\x0207]Divermon[\x0207]Bonne chance.
+    A plus...[pause]

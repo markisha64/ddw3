@@ -1,0 +1,8 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3MagnaAgnemon, rends
+    moi service, OK ?[pause][\x0203]Je peux avoir l'ADNN
+    Patamon à partir de
+    ton ADNN ?[pause]
+  - "[\\x0207]MagnaAngemon[\\x0207]Désolé, mais\nça n'est pas\nsi simple.[pause][\\x0203]Si tu arrives à \nme battre, on\nverra.[pause]"

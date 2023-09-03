@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Ehi, MetalGreymon.
+    Devo chiederti un
+    favore.[pause][\x0203]Mi dai un campione
+    del DDNA di Agumon
+    dal tuo DDNA?[pause]
+  - |-
+    [\x0207]MetalGreymon[\x0207]Mi dispiace.
+    Non può essere
+    così facile![pause][\x0203]Se lo vuoi,
+    dovrai lottare
+    con me![pause]

@@ -1,0 +1,7 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3I won \nagainst \nArmormon![pause]"
+  - |-
+    [\x0207]Armormon[\x0207]...How could I lose...[pause][\x0203]But you did win.
+    Here take this.[pause]
+  - "[\\x0207][\\x020902]3Yeah! I got \nthe Monmon \nDDNA![pause][\\x0203]Thanks, \nArmormon![pause]"

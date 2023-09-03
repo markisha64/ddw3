@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Mr. Smith[\x0207]Das ist eure Chance!
+    Es geht um's Hauptitem![pause][\x0203]Der gefährl. Zahn.
+    Von allen bewundert![pause][\x0203]Das Mindestgebot für
+    die Guilmon-Waffe
+    liegt bei 1600 BIT![pause]
+  - '[\x0207]Händler Abel[\x0207]2000 BIT![pause]'
+  - '[\x0207]Chief Milly[\x0207]2300 BIT![pause]'
+  - '[\x0207]RPG-Fan Mas.[\x0207]2600 BIT![pause]'
+  - |-
+    [\x0207][\x020902]3Hmm..2700 BIT
+    ...hmmm...[pause]

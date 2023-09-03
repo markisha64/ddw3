@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Also, Lord
+    Megadeath![pause][\x0203]Denkst du immer
+    noch, du bist
+    der Stärkste?[pause]
+  - "...Natürlich...\nDas war nur ein Test.[pause][\\x0203]Ich habe immer noch \nSnatchmon, das \nstärkste Digimon...[pause][\\x0203]Du wirst bald sehen,\nwas echter Terror\nist...[pause]"
+  - "[\\x0207][\\x020902]3Hey, du \nhaust nicht\nab![pause]"

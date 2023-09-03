@@ -1,0 +1,7 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Très bien ! \n1600 BIT ![pause]"
+  - "[\\x0207]M. Smith[\\x0207]Ouah ! \n1600 BIT ![pause][\\x0203]Quelqu'un à \nplus de 1600 \nBIT ?[pause]"
+  - "[\\x0207]M. Smith[\\x0207]Allons, allons...[pause][\\x0203]Le Bouclier  \nDramon est vendu  \n1600 BIT ![pause][\\x0203]Félicitations au\nMonsieur là-bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+  - "[\\x0207][\\x020902]3Oui ! J'ai \nle Bouclier \nDramon ![pause]"
+  - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nje vais voir ça.[pause]"

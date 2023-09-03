@@ -1,0 +1,26 @@
+strings:
+  - ''
+  - "[\\x0207]Digimon-Navig.[\\x0207]Hier findest du Hinweise\nzum Digimon-Kampf und \nzum Züchten v. Digimon.[pause][\\x0203]Die Daten werden auf \ndem Satelliten angezeigt.[pause]"
+  - |-
+    "Angriffsarten"
+    Setze physische, magische o. unter-
+    stützende Techniken n. Bedarf ein.[pause][\x0203]"Angriffsattribute"
+    Greife Gegner mit gegnerischen Attri-
+    buten an u. nutze verbündete Attrib.[pause]
+  - "\"Technische Effekte\"\nDie Wirkung von Gift, Lähmung usw.\nist je nach Digimon unterschiedlich.[pause][\\x0203]\"Statusleiden\"\nStatusleiden auβer \"Fluch\" von \nCardmon verschwinden n. dem Kampf.[pause]"
+  - |-
+    "DNA-Digitation"
+    Macht aus zwei Digimon einen. Nach
+    DNA-Digitation tauschen beide.[pause][\x0203]"EXP-Verteilung"
+    Alle Digimon, die gekämpft haben,
+    erhalten EXP.[pause]
+  - |-
+    "Training"
+    Digimon können mit TP (Trainings-
+    punkte) in Hallen trainiert werden.[pause][\x0203]"Digitationsfähigkeiten"
+    Die Digitationsfähigkeiten nehmen
+    mit der EXP zu.[pause]
+  - a
+  - |-
+    [\x0207]Digimon-Navig.[\x0207]Das war schon
+    alles. Viel Glück![pause]

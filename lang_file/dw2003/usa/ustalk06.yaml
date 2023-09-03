@@ -1,4 +1,3 @@
-type: simple
 strings:
   - ''
   - "[\\x0207]Suzaku Leader[\\x0207]The emergency \nChamber in the\nNorth Sector is...[pause][\\x0203]Located in the \nbasement of \n\"Kulon Mine.\"[pause][\\x0203]But you need the \nfour leader badges \nto use it.[pause]"

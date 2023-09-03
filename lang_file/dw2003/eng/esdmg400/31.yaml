@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - |-
+    Beep Beep...
+    PLEASE WAIT.
+    CONFIRMING DATA.[pause]
+  - |-
+    [\x0207][\x020902]3It worked!
+    Now I can go to
+    South Sector![pause]
+  - "THANK YOU FOR WAITING.\nYOU ARE [\\x020801][\\x020501].[pause][\\x0203]SYSTEM WILL NOW START. \nPLEASE PROCEED TO \nTHE GONDOLA.[pause]"

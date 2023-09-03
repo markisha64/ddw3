@@ -1,0 +1,18 @@
+strings:
+  - ''
+  - "[\\x0207]Byakko Leader[\\x0207]...Oh, oh, I \nsee.[pause][\\x0203]I'm sorry for \nmistaking you \nfor the A.o.A.[pause]"
+  - "[\\x0207][\\x020902]3Ah, that's OK...[pause][\\x0203]But wait, does that \nmean the people in \nByakko City are...?[pause]"
+  - "[\\x0207]Byakko Leader[\\x0207]Yes. They're the \nA.o.A![pause][\\x0203]They just came and \ntook over Byakko City![pause][\\x0203]We were held in the \nbasement prison...[pause][\\x0203]But Numemon came and \nrescued us.[pause]"
+  - |-
+    [\x0207][\x020902]3I see...
+    But the A.o.A and
+    Lucky Mouse...[pause][\x0203]And what's happening
+    to Digimon Online?[pause]
+  - "[\\x0207]Byakko Leader[\\x0207]I don't know either.[pause][\\x0203]If you want to know \nmore, then find that\nNumemon.[pause][\\x0203]If you go to the Dum \nDum Factory you'll \nfind him.[pause]"
+  - '[\x0207][\x020902]3OK![pause]'
+  - "[\\x0207]Byakko Leader[\\x0207]Wait a second.\nI haven't given \nyou this yet![pause]"
+  - "[\\x0207][\\x020902]3Yeah! I got the\nByakko Badge![pause][\\x0203]Thanks, Byakko \nLeader![pause]"
+  - "[\\x0207]Byakko Leader[\\x0207]After all, you did\nbeat me![pause][\\x0203]And it might come \nin handy later on![pause]"
+  - |-
+    [\x0207]Byakko Leader[\x0207]There'll be more
+    A.o.A. Be careful![pause]

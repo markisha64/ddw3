@@ -1,0 +1,15 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Maestro de fuego[\x0207]¡Es peligroso
+    a partir de aquí!
+    ¡Vuélvete![pause][\x0203]¿O quieres
+    ganarme y seguir?[pause]
+  - |-
+    [\x0207][\x020902]3Sí, ¡eso es!
+    ¡Para eso
+    he venido![pause]
+  - "[\\x0207]Maestro de fuego[\\x0207]Eres un \ndomador\nproblemático.[pause][\\x0203]Si ganas, puedes\npasar.[pause]"
+  - |-
+    [\x0207][\x020902]3¡Vamos a
+    luchar![pause]

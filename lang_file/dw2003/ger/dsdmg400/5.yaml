@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - |-
+    Vielen Dank fürs Warten.
+    Der Gondelbetrieb wird
+    wieder aufgenommen.[pause]
+  - |-
+    [\x0207][\x020902]3Ah...
+    Hey, halt![pause][\x0203]Mist, jetzt ist
+    sie weg.[pause]

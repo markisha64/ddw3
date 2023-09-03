@@ -16,8 +16,4 @@ pub struct Args {
 	/// You may provide `-` or not pass the flag to use stdout.
 	#[clap(long = "output", short = 'o')]
 	pub output_file: Option<PathBuf>,
-
-	/// If the input file is in extended mode.
-	#[clap(long = "extended")]
-	pub extended: bool,
 }

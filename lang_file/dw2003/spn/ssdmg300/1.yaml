@@ -1,0 +1,20 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Hombre[\x0207]¡Eh, Eh! ¿Quién
+    eres tú?[pause][\x0203]¡No aparezcas así!
+    Me has asustado...[pause]
+  - "[\\x0207][\\x020902]3Ah, ah...\nPerdón, \nseñor...[pause]"
+  - "[\\x0207]Hombre[\\x0207]...¡No soy un\nviejo![pause][\\x0203]¡Soy Nick y sólo \ntengo 21![pause]"
+  - |-
+    [\x0207][\x020902]3Oh, ah,
+    sí, ¡perdona![pause]
+  - "[\\x0207]Nick[\\x0207]¿Sólo hay \nmaleducados\nen este servidor?[pause][\\x0203]Primero Etemon, y \nahora tú...[pause]"
+  - "[\\x0207][\\x020902]3¿Etemon?\n¿Ha pasado \nalgo?[pause]"
+  - "[\\x0207]Nick[\\x0207]Encontré este \nenorme escudo.[pause][\\x0203]Vino Etemon y dijo\nque era suyo...[pause][\\x0203]Y se lo llevó sin\nni siquiera decir gracias.[pause]"
+  - "[\\x0207][\\x020902]3¿Etemon?\n¿Un escudo\nenorme?[pause][\\x0203]Me imagino \nqué es...[pause]"
+  - "[\\x0207]Nick[\\x0207]Eh, estoy \nmuy ocupado,\nasí que...[pause]"
+  - |-
+    [\x0207]Nick[\x0207]¿Por qué no hacen
+    su trabajo?[pause][\x0203]Me gustaría que me
+    tomaran de ejemplo...[pause]

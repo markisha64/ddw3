@@ -1,0 +1,41 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Kail[\x0207]¡Eh, [\x020801][\x020501]!
+    ¿Qué pasa?[pause]
+  - "[\\x0207][\\x020902]3No puedo entrar en\nCiudad Asuka.[pause][\\x0203]Si tuviese un pase \nde personal, a lo\nmejor podría...[pause]"
+  - |-
+    [\x0207]Kail[\x0207]¿Un pase de
+    personal?[pause]
+  - |-
+    [\x0207]Kurt[\x0207]¡Oink!
+    ¡Oink![pause]
+  - |-
+    [\x0207]Kail[\x0207]¿Qué está
+    intentando
+    decir Kurt?[pause]
+  - "[\\x0207][\\x020902]3Puede que \nKurt tenga.[pause]"
+  - |-
+    [\x0207]Kail[\x0207]¡Eso es!
+    ¡Kurt trabajó aquí![pause]
+  - "[\\x0207][\\x020902]3¿Lisa? ¿Qué \nhaces aquí?[pause]"
+  - "[\\x0207]Lisa[\\x0207]Como ves, esta \nhabitación es un\ndesorden.[pause][\\x0203]La estaba limpiando \ncon Kail.[pause]"
+  - "[\\x0207]Kail[\\x0207]Eh, Lisa. ¿Había\nalgún Pase de \nPersonal por ahí?[pause]"
+  - "[\\x0207]Lisa[\\x0207]Lo siento, aún no\nlo he visto.[pause][\\x0203]Es culpa de Kurt, \npor todo \neste desorden.[pause]"
+  - |-
+    [\x0207]Kurt[\x0207]Oink,
+    Oink.[pause]
+  - "[\\x0207]Kail[\\x0207]¿Qué podemos \nhacer? ¡Seguro\nque está aquí![pause]"
+  - "[\\x0207]Lisa[\\x0207]¡Ya sé! ¿Puedes\nllamar a alguien?[pause][\\x0203]Con mis amigos, \nterminaríamos \nenseguida.[pause]"
+  - '[\x0207][\x020902]3¿Tus amigos?[pause]'
+  - |-
+    [\x0207]Lisa[\x0207]Sí, se llaman
+    Keith y Nick.[pause]
+  - "[\\x0207][\\x020902]3¿Qué?\n¿Keith y \nNick?[pause]"
+  - "[\\x0207]Lisa[\\x0207]¿Los conoces,\n[\\x020801][\\x020501]?[pause][\\x0203]¡Entonces no\ntardarás tanto![pause][\\x0203]La última vez,\nestaban en el \nSector Sur.[pause]"
+  - |-
+    [\x0207][\x020902]3Oh, ah,
+    de acuerdo.[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Oh, [\x020801][\x020501].
+    ¿Pasó algo?[pause]

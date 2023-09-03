@@ -1,0 +1,7 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Très bien ! \n6000 BIT ![pause]"
+  - "[\\x0207]M. Smith[\\x0207]Ouah ! \n6000 BIT ![pause][\\x0203]Quelqu'un à \nplus de 6000 \nBIT ?[pause]"
+  - "[\\x0207]M. Smith[\\x0207]Personne...,\nsemble-t-il...[pause][\\x0203]Le Diadème Divin\nest vendu  \n6000 BIT ![pause][\\x0203]Félicitations au\nMonsieur là-bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+  - "[\\x0207][\\x020902]3Oui ! J'ai \nle Diadème\nDivin ![pause]"
+  - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \non peut y aller.[pause]"

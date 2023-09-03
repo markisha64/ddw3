@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Super!
+    Gewonnen![pause]
+  - |-
+    [\x0207]MetalGreymon[\x0207]Nun, ich halte
+    mein Versprechen...
+    Geh gut damit um![pause]
+  - |-
+    [\x0207][\x020902]3Cool, ich habe
+    die Agumon-
+    DDNA![pause][\x0203]Danke,
+    MetalGreymon![pause]

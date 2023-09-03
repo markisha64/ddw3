@@ -1,0 +1,8 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3¿Qué es este
+    panel de control?[pause][\x0203]Aquí hay un botón.
+    Lo pulsaré a ver
+    qué pasa.[pause]
+  - "[\\x0207][\\x020902]3¿Para qué \nsería?\nOh, bueno...[pause]"

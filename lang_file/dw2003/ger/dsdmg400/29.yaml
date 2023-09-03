@@ -1,0 +1,21 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Häh?! Was ist hier
+    eigentlich los?
+    Wo sind denn alle?[pause]
+  - |-
+    Beep Beep...
+    EINSCHALTEN.
+    NEUSTART![pause]
+  - |-
+    [\x0207][\x020902]3Hey, was
+    geht ab?[pause]
+  - |-
+    ICH BIN DAS BETRIEBSSYSTEM DER
+    GONDEL FÜR DEN TIEFEN GRABEN.[pause][\x0203]ZUM AKTIVIEREN DER GONDEL RICH-
+    TUNG SÜDSEKTOR IST DIE...[pause][\x0203]KONTOREGISTRIERUNG MIT EINER
+    BLAUEN KARTE ERFORDERLICH.[pause][\x0203]DIGIMON, DIE AUS EINER BLAUEN
+    KARTE ENTSTANDEN SIND, BESITZEN
+    SIE: VON IHNEN BEKOMMST DU SIE.[pause]
+  - "[\\x0207][\\x020902]3Aha. Digimon aus\neiner blauen Karte.[pause][\\x0203]Hm. Ich glaube,\ndas ist Guilmon.[pause][\\x0203]Ich sollte in die\nStadt gehen und \nihn fragen.[pause]"

@@ -1,0 +1,43 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Teddy[\x0207][\x020801][\x020501] !
+    C'est fou !
+    Vraiment fou ![pause]
+  - |-
+    [\x0207][\x020902]3Quoi ?
+    Pourquoi es-tu
+    aussi pressé ?[pause]
+  - |-
+    [\x0207]Teddy[\x0207]Lucky Mouse !
+    Lucky Mouse
+    est ici ![pause]
+  - |-
+    [\x0207][\x020902]3Quoi ?
+    Lucky Mouse ?[pause]
+  - |-
+    [\x0207]Teddy[\x0207]Tu n'es pas au
+    courant ? C'est
+    un hacker génial ![pause][\x0203]Il peut pirater
+    tous les programmes ![pause]
+  - '[\x0207][\x020902]3Ah, d''accord.[pause]'
+  - |-
+    [\x0207]Teddy[\x0207]Je suis un de ses fans.
+    Je dois absolument le
+    rencontrer ![pause]
+  - "...ceci est une annonce pour tous\nles joueurs de Digimon Online.[pause][\\x0203]Nous devons procéder\nà une intervention d'urgence.[pause][\\x0203]Cette opération va vous empêcher de \nretourner dans le Monde Réel, mais\nrien ne vous sera facturé.[pause][\\x0203]...Je répète.\nVous pouvez tous jouer gratuitement ![pause]"
+  - |-
+    [\x0207]Teddy[\x0207]Hé, vous avez
+    entendu ?![pause][\x0203]Je suis sûr que
+    Lucky Mouse y est
+    pour quelque chose ![pause][\x0203]Je n'y tiens plus.
+    Il faut que j'aille
+    le trouver.[pause]
+  - |-
+    [\x0207][\x020902]3Hé, hé...
+    Teddy ![pause]
+  - |-
+    [\x0207][\x020902]3Il est parti.
+    ... ...[pause][\x0203]Il est toujours
+    comme ça quand
+    il est content.[pause]

@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Va bene!
+    8700 BIT![pause]
+  - |-
+    [\x0207]Mr. Smith[\x0207]Wow!
+    8700 BIT![pause][\x0203]Nessuno offre
+    di più?[pause]
+  - "[\\x0207]Mr. Smith[\\x0207]E uno, e due,\ne tre![pause][\\x0203]L'elmo eroico\nper 8700 BIT![pause][\\x0203]Congratulazioni\na te, laggiù![pause][\\x0203]Trasferirò \nl'oggetto al\nsatellite![pause]"
+  - |-
+    [\x0207][\x020902]3Ho l'elmo
+    eroico![pause]
+  - |-
+    [\x0207][\x020902]3Ora ho un oggetto
+    prezioso. Posso
+    andare via.[pause]

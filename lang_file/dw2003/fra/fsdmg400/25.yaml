@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Hé Paildramon,\nJe peux te demander\nun service ?[pause][\\x0203]Tu me donnes l'ADNN\nVeemon depuis ton \nADNN ?[pause]"
+  - "[\\x0207]Paildramon[\\x0207]Pas question ! Ce \nn'est pas le genre \nde choses permises ![pause][\\x0203]Tu n'auras rien, à \nmoins de me \nbattre ![pause]"
+  - |-
+    [\x0207][\x020902]3Bon. J'ai juste
+    à gagner,
+    c'est ça ?[pause]
+  - |-
+    [\x0207]Paildramon[\x0207]Voilà !
+    Tu n'as plus
+    qu'à essayer ![pause]

@@ -1,0 +1,5 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Yeah, I won \nagainst Zhu Que\nChief![pause]"
+  - "[\\x0207][\\x020902]3Huh?! There's\nsomething on the \nground again...[pause]"
+  - "[\\x0207][\\x020902]3Yeah! I got the Red \nID Pass![pause][\\x0203]...But where is the \nDigi-Egg of \nKnowledge?[pause][\\x0203]I've got to find it\nfast to stop the\nJuggernaut![pause]"

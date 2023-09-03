@@ -1,0 +1,18 @@
+strings:
+  - ''
+  - "[\\x0207]Kail[\\x0207]Ehi, [\\x020801][\\x020501]!\nBentornato![pause][\\x0203]È da un po' che \nsiamo qui. Torniamo\nindietro?[pause]"
+  - |-
+    [\x0207][\x020902]3Si, ho battuto i
+    governatori di Seiryu
+    e Suzaku, non è male![pause][\x0203]E Teddy? Dobbiamo
+    trovare Teddy![pause]
+  - |-
+    [\x0207]Kail[\x0207]Teddy sta bene. È al
+    centro amministrativo
+    di Asuka.[pause][\x0203]L'ultima volta che
+    l'ho visto stava
+    andando là.[pause]
+  - |-
+    [\x0207][\x020902]3Oh, OK. Allora
+    torniamo subito ad
+    Asuka![pause]

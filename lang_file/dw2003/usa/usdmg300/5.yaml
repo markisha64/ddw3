@@ -1,0 +1,6 @@
+strings:
+  - ''
+  - "[\\x0207]Datamon[\\x0207]You're pretty good if\nyou can win against \nme. Here's a reward![pause][\\x0203]It's Rusty Gloves! It's \nan ultra rare item, so \ncherish it.[pause]"
+  - "[\\x0207][\\x020902]3Huh?! Ah, OK, \nI'll keep it...\nThanks...[pause][\\x0203]I got Rusty \nGloves...\nGreat, I think?[pause]"
+  - "[\\x0207]Datamon[\\x0207]There're secrets to old \narmors and weapons in \nthe Digital World.[pause][\\x0203]Find armor digivolved \nDigimon that know \nthese secrets.[pause]"
+  - "[\\x0207][\\x020902]3Oh, OK!\nI'll find those armor \ndigivolved Digimon![pause]"

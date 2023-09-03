@@ -1,0 +1,27 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Gamemaster[\x0207]Neeeiiin![pause][\x0203]Pers. darf
+    nt. verlier.[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Ups, wir sind
+    wohl zu spät.[pause]
+  - |-
+    [\x0207]Teddy[\x0207][\x020801][\x020501]!
+    Bin ich froh,
+    d. du OK bist![pause]
+  - |-
+    [\x0207]Nick[\x0207]Wir haben Beweise.
+    Gib auf,
+    Gamemaster![pause][\x0203]Du bist von der
+    internat. Polizei
+    S.A.P. verhaftet![pause]
+  - "[\\x0207][\\x020902]3Was? Lisa und\nNick sind von \nder S.A.P.?[pause]"
+  - |-
+    [\x0207]Nick[\x0207]Stimmt, und
+    Keith auch.[pause]
+  - "[\\x0207]Lisa[\\x0207]Wir konnten es dir\nnicht eher sagen.[pause][\\x0203]Aber deinetwegen\nist der Fall \njetzt gelöst![pause]"
+  - |-
+    [\x0207]Lisa[\x0207]Wir verhören Game-
+    master und verwan-
+    deln Kurt zurück![pause]

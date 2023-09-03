@@ -1,0 +1,46 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Femme[\x0207]Hé, toi...
+    Toi, là-
+    bas ![pause]
+  - |-
+    [\x0207][\x020902]3Hmmm
+    Qui... moi ?[pause]
+  - |-
+    [\x0207]Femme[\x0207]Bonjour, je
+    suis Lisa.[pause][\x0203]Quel est
+    ton nom ?[pause]
+  - |-
+    [\x0207][\x020902]3Oh, hmm,
+    [\x020801][\x020501].[pause]
+  - |-
+    [\x0207]Lisa[\x0207][\x020801][\x020501], OK, je
+    m'en rappellerai.[pause][\x0203]Au fait, [\x020802][\x020502],
+    as-tu vu un joli
+    Digimon vert ?[pause]
+  - |-
+    [\x0207][\x020902]3Hm, tu parles de
+    Monmon ou de
+    Terriermon ?[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Eh bien... hm,
+    Je ne sais pas.[pause][\x0203]Qu'en
+    penses-tu,
+    [\x020801][\x020501] ?[pause]
+  - |-
+    [\x0207][\x020902]3C'est à dire
+    que... ???[pause]
+  - |-
+    [\x0207]Lisa[\x0207]... Je sais, c'est
+    Ogremon ! C'est
+    sûrement lui ![pause][\x0203]Je dois aller
+    chercher Ogremon
+    tout de suite ![pause]
+  - |-
+    [\x0207][\x020902]3Ben, qu'est-ce
+    qu'elle a ?[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Enchantée
+    de t'avoir
+    rencontré.[pause]

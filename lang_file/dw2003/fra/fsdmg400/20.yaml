@@ -1,0 +1,7 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Oui !
+    Victoire ![pause]
+  - "[\\x0207]MetalGreymon[\\x0207]Bien, je l'ai \npromis...\nFais-en bon usage ![pause]"
+  - "[\\x0207][\\x020902]3Super, j'ai\nl'ADNN\nAgumon ![pause][\\x0203]Merci, \nMetalGreymon ![pause]"

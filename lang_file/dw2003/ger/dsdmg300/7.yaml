@@ -1,0 +1,8 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Soldat[\x0207]Hier kommst
+    du nicht
+    vorbei![pause][\x0203]Mich besiegst
+    du nicht![pause]
+  - "[\\x0207][\\x020902]3Ach tatsächlich?[pause][\\x0203]Ihr denkt immer,\ndass ihr \ngewinnt![pause]"

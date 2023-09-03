@@ -1,0 +1,15 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Seiryu Leader[\x0207]You're pretty
+    good. What is
+    your name?[pause]
+  - |-
+    [\x0207][\x020902]3I'm [\x020801][\x020501].
+    That was an
+    honorable battle![pause]
+  - "[\\x0207]Seiryu Leader[\\x0207]All right then, \n[\\x020801][\\x020501], take \nthis with you.[pause]"
+  - "[\\x0207][\\x020902]3I got the Seiryu \nBadge and Silver \nTicket![pause]"
+  - "[\\x0207]Seiryu Leader[\\x0207]You will need \nthem in the \nbattles ahead. [pause][\\x0203]They're important \nitems, so don't \nlose them.[pause]"
+  - "[\\x0207][\\x020902]3Thanks, Seiryu \nLeader![pause]"
+  - "[\\x0207]Seiryu Leader[\\x0207]Challenge Suzaku \nLeader in South Sector\nnext.[pause][\\x0203]You still have a long \nways ahead, but you \ncan do it. Good luck![pause]"

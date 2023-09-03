@@ -1,0 +1,7 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3...Huh?! Who's in\ncharge here? \nWhere is everyone?[pause]"
+  - "Beep Beep...\nPOWER ON. \nSYSTEM REBOOT![pause]"
+  - "[\\x0207][\\x020902]3Woah, \nwhat?![pause]"
+  - "I AM THE OPERATING SYSTEM OF \nDEEPER CREVICE'S GONDOLA.[pause][\\x0203]TO TURN ON THE GONDOLA HEADED \nTOWARDS SOUTH SECTOR...[pause][\\x0203]ACCOUNT REGISTRATION WITH  \nA BLUE CARD IS REQUIRED.[pause][\\x0203]DIGIMON BORN FROM A BLUE CARD \nPOSSESS IT, THEREFORE OBTAIN IT\nFROM THOSE DIGIMON.[pause]"
+  - "[\\x0207][\\x020902]3I see...Digimon\nborn from a Blue \nCard...[pause][\\x0203]...hmm... I think \nthat's Guilmon...[pause][\\x0203]I should go ask\nGuilmon in the \ncity.[pause]"

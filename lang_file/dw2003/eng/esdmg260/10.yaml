@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3All right then!
+    1600 BIT![pause]
+  - "[\\x0207]Mr. Smith[\\x0207]Wow! \n1600 BIT![pause][\\x0203]Anyone above\n1600 BIT?[pause]"
+  - "[\\x0207]Mr. Smith[\\x0207]Going once, twice,\ngone![pause][\\x0203]Sniper Guard is \nsold at 1600 BIT![pause][\\x0203]Congratulations\nto you over there![pause][\\x0203]I'm transferring \nthe item to your\nsatellite now![pause]"
+  - |-
+    [\x0207][\x020902]3Yeah! I got the
+    Sniper Guard![pause]
+  - "[\\x0207][\\x020902]3OK, I got a pretty \ncool item, it's time \nto leave.[pause]"

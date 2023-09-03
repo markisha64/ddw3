@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3...
+    Hé, c'est...[pause]
+  - |-
+    [\x0207][\x020902]3Génial ! J'ai le Digi-
+    Oeuf de la Fiabilité ![pause]
+  - |-
+    [\x0207][\x020902]3Je peux appeler
+    Submarimon et
+    traverser l'océan ![pause]

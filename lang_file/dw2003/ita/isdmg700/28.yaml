@@ -1,0 +1,19 @@
+strings:
+  - ''
+  - |-
+    TEMPO SCADUTO!
+    TEMPO SCADUTO![pause][\x0203]TRASFERIMENTO
+    TERMINATO.
+    DIGITALIZZAZIONE![pause]
+  - |-
+    [\x0207]Ufficiale camera[\x0207]Macchina astrale
+    OK. Nessuna
+    anomalia nei dati.[pause][\x0203]Fine digitalizzazione![pause]
+  - |-
+    [\x0207][\x020902]3Oh, no! Tempo
+    scaduto!
+    Devo tornare![pause]
+  - |-
+    [\x0207][\x020902]3E ora? La
+    Juggernaut sta
+    per partire![pause]

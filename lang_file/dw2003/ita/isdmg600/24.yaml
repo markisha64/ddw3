@@ -1,0 +1,63 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Keith[\x0207]Abbiamo
+    finito![pause]
+  - |-
+    [\x0207]Nick[\x0207]Sì Lisa,
+    finito![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Ehi, siete
+    veloci,
+    voi due![pause]
+  - '[\x0207]Keith[\x0207]Scheda pers.?[pause]'
+  - |-
+    [\x0207]Lisa[\x0207]Voi due
+    siete inutili![pause]
+  - |-
+    [\x0207]Keith[\x0207]Oh, mi
+    spiace![pause]
+  - |-
+    [\x0207]Nick[\x0207]Scusa!
+    Stavolta
+    ce la farò![pause]
+  - |-
+    [\x0207]Lisa[\x0207]Puoi
+    attendere
+    ancora?[pause]
+  - |-
+    [\x0207]Nick[\x0207]Ehi, ci sono
+    riuscito![pause]
+  - |-
+    [\x0207]Nick[\x0207]Lisa è molto
+    esigente.[pause]
+  - |-
+    [\x0207]Nick[\x0207]Che rimanga
+    fra noi. Ma
+    ecco qua![pause]
+  - |-
+    [\x0207][\x020902]3Ho la scheda
+    del personale.[pause]
+  - |-
+    [\x0207]Lisa[\x0207]L'hai trovata?
+    Bravo, Nick![pause]
+  - |-
+    [\x0207]Nick[\x0207]Grazie,
+    Lisa![pause]
+  - |-
+    [\x0207][\x020902]3Kail, Lisa
+    io vado.[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Buona fortuna!
+    Contiamo su
+    di te![pause]
+  - |-
+    [\x0207]Kail[\x0207]Bada a te,
+    OK?[pause]
+  - '[\x0207]Nick[\x0207]Scheda pers.?[pause]'
+  - |-
+    [\x0207]Lisa[\x0207]Avete trovato
+    la scheda?[pause]
+  - |-
+    [\x0207]Lisa[\x0207]Che state
+    facendo?[pause]

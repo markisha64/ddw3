@@ -1,0 +1,30 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Navi Digivolve[\x0207]Je vais t'expliquer
+    comment apprendre aux
+    Digimons à digivolver.[pause][\x0203]J'envoie les données
+    sur ton satellite.[pause]
+  - |-
+    "Kotemon"
+    Il apprend les types Agumon/Veemon
+    avec l'entraînement tolérance machine.[pause][\x0203]"Monmon"
+    Une fois le nv Ultime appris, exerce
+    sa tolérance force/machine/vent.[pause][\x0203]"Kumamon"
+    Exerce sa sagesse et son esprit,
+    les plus difficiles à améliorer.[pause]
+  - |-
+    "Renamon"
+    Exerce son esprit ou sa force et
+    sa défense.[pause][\x0203]"Patamon"
+    Exerce sa sagesse ou sa force.[pause]
+  - |-
+    "Agumon"
+    Améliore sa tolérance aux ténèbres,
+    pour une digivolution de type noir.[pause][\x0203]"Guilmon"
+    Ses param. étant partiaux, la clé
+    est de renforcer ses faiblesses.[pause]
+  - |-
+    [\x0207]Navi Digivolve[\x0207]Voilà toutes les infos
+    que j'ai à te donner.
+    Bonne chance ![pause]

@@ -1,0 +1,39 @@
+strings:
+  - ''
+  - |-
+    [\x0207]General[\x0207]Dich haben wir neulich
+    doch schon gefangen![pause][\x0203]Was willst du?
+    Nochmal geschnappt
+    werden?[pause]
+  - |-
+    [\x0207][\x020902]3Niemals![pause][\x0203]Ich will wissen,
+    wie ihr auf diesen
+    Server gekommen seid![pause]
+  - |-
+    [\x0207]General[\x0207]Heh heh heh...
+    Ich sag's dir, wenn
+    du's wissen willst.[pause][\x0203]Mit dem Transport-
+    Digimon von den
+    A.o.A...[pause][\x0203]Wir sind mit Bulbmon
+    von Amaterasu auf
+    diesen Server gekommen![pause]
+  - '[\x0207][\x020902]3Bulbmon?![pause]'
+  - "[\\x0207]General[\\x0207]Ja, ein tolles Digi-\nmon, das zwischen \nServ. wechs. kann![pause]"
+  - |-
+    [\x0207][\x020902]3Verstehe nur
+    Bahnhof. Was
+    bedeutet das?[pause]
+  - |-
+    [\x0207]General[\x0207]Lucky Mouse hat ein
+    Schutzfeld eingerichtet![pause][\x0203]Bulbmon brach zusam-
+    men u. warf uns raus![pause][\x0203]Darum haben wir
+    schnell Byakko
+    City angegriffen.[pause]
+  - "[\\x0207][\\x020902]3Moment mal.\nWo ist denn \ndann Bulbmon?[pause]"
+  - "[\\x0207]General[\\x0207]Keine Ahnung![pause][\\x0203]Ich schätze, es \ngräbt noch ein \npaar riesige Löcher![pause]"
+  - |-
+    [\x0207][\x020902]3Dann sollte ich
+    wohl nach Bulb-
+    mon suchen...[pause][\x0203]Aber ich glaube,
+    ich habe Bulbmon
+    schon mal gesehen...[pause]

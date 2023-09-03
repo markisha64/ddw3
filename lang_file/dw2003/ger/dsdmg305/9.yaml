@@ -1,0 +1,25 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Asukas Gamemaster
+    schickte Vemmon
+    irgendwohin...[pause][\x0203]Vielleicht gibt
+    es dort einen Hinweis!
+    Lasst uns hineingehen![pause]
+  - '[\x0207][\x020902]3Was!?[pause]'
+  - |-
+    [\x0207][\x020902]3Was?
+    Warum ist Oinkmon
+    im Asuka-Server?[pause]
+  - |-
+    [\x0207]Oinkmon[\x0207]Oioionk?
+    Oioinoink!
+    Oioinoink??[pause]
+  - |-
+    [\x0207]Oinkmon[\x0207]Oioin, oinnk?
+    Oioionoinkn!
+    Oin, oinoiknk![pause]
+  - |-
+    [\x0207]Oinkmon[\x0207]Oooin, oioink!
+    Oinoink, oink!
+    Oioin, oinnk![pause]

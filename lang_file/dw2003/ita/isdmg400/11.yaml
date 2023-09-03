@@ -1,0 +1,9 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Non c'è
+    nessuno qui.[pause]
+  - '[\x0207]Voce[\x0207]Uuu-uuu-uu[pause]'
+  - |-
+    [\x0207][\x020902]3Aah! Un
+    mostro![pause]

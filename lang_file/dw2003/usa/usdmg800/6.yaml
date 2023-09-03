@@ -1,0 +1,4 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3This panel is alive!\nThis should get rid \nof the block...[pause]"
+  - "[\\x0207][\\x020902]3Hmm, did the \nblock go away \nnow?[pause]"

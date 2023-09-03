@@ -1,0 +1,21 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Voz[\x0207]Uuhhh...
+    ... Uuhh[pause]
+  - |-
+    [\x0207][\x020902]3Debes ser
+    Sepikmon.[pause]
+  - |-
+    [\x0207]Voz[\x0207]Uuhh...
+    ...cof,
+    cof[pause][\x0203]Sí, ¿qué
+    quieres?[pause]
+  - "[\\x0207][\\x020902]3Eh, ¿me dices cómo \nganar a Zanbamon?[pause]"
+  - |-
+    [\x0207]Sepikmon[\x0207]Puedo, pero primero
+    tengo un encargo.[pause]
+  - "[\\x0207]Sepikmon[\\x0207]He perdido mi \nmáscara en algún sitio.[pause][\\x0203]¡Si no la tengo, nadie\npuede verme![pause][\\x0203]Encuéntrala y te \ndiré lo que quieras\nsaber.[pause]"
+  - "[\\x0207]Sepikmon[\\x0207]La tenía cuando \nestaba con Baronmon...[pause][\\x0203]...¡Así que se me \nhabrá caído después![pause][\\x0203]¡Muchas gracias![pause]"
+  - "[\\x0207]Voz[\\x0207]... Sí, ¡lo \nque quieras![pause]"
+  - "[\\x0207][\\x020902]3Vale, de acuerdo.\nIré a buscar \ntu máscara.[pause]"

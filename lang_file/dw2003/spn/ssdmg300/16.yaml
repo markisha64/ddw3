@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - "[\\x0207]Guarda Real[\\x0207]¡Te esperábamos!\nTu venciste a \nnuestros jefes.[pause]"
+  - "[\\x0207][\\x020902]3Venga. ¡También  \na vosotros![pause]"
+  - |-
+    [\x0207]Guarda Real [\x0207]¡Somos mejores
+    que a los que te
+    hayas enfrentado![pause]
+  - |-
+    [\x0207]Guarda Real[\x0207]¡Con el orgullo
+    de la Guarda Real
+    te venceré![pause]

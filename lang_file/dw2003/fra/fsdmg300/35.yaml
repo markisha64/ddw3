@@ -1,0 +1,10 @@
+strings:
+  - ''
+  - "[\\x0207]BK MegaGargomon[\\x0207]Ouah, tu as \ngagné ! Bravo ![pause]"
+  - "[\\x0207][\\x020902]3Bien sûr !\nJ'ai battu \ntout le monde ![pause]"
+  - "[\\x0207]BK MegaGargom[\\x0207]Incroyable ! \nJe te donne\ncela ![pause]"
+  - |-
+    [\x0207][\x020902]3Oui, j'ai le
+    Heaume
+    Fou ![pause]
+  - "[\\x0207]BK MegaGargom[\\x0207]Bonne chance, \nalors. Je te\nsoutiens ![pause]"

@@ -1,0 +1,29 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Gewonnen!
+    Mensch, bin
+    ich gut![pause][\x0203]Ich muss den
+    Juggernaut
+    stoppen![pause][\x0203]Huch?
+    Da liegt etwas
+    auf dem Boden.[pause]
+  - "[\\x0207][\\x020902]3Was?! Elektro-\nmagnetisches \nFeld ist weg![pause]"
+  - |-
+    ALLES FÜR
+    START BEREIT![pause][\x0203]JUGGERNAUT
+    STARTET![pause]
+  - |-
+    [\x0207][\x020902]3...was?![pause][\x0203]Muss es
+    aufhalten![pause]
+  - |-
+    [\x0207][\x020902]3Was soll ich tun?!
+    Juggernaut wird
+    starten![pause]
+  - |-
+    [\x0207][\x020902]3...Häh?![pause][\x0203]Sinnlos! Nichts
+    kann es
+    aufhalten![pause]
+  - |-
+    [\x0207][\x020902]3Yeah! Der
+    Flügelhelm![pause]

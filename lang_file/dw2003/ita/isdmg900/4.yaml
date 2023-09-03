@@ -1,0 +1,31 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Dunque, ecco
+    l'Arena.[pause][\x0203]Chissà chi è il
+    mio avversario?
+    Io sono pronto![pause]
+  - |-
+    [\x0207]Kurt[\x0207]Ehi!
+    [\x020801][\x020501]![pause][\x0203]Sapevo che ce
+    l'avresti fatta![pause]
+  - |-
+    [\x0207][\x020902]3Eh?
+    Kurt?[pause][\x0203]Non dirmi che
+    sei il miglior
+    domatore![pause]
+  - |-
+    [\x0207]Kurt[\x0207]Esatto!
+    Sono lieto che tu
+    sia qui. Ho sempre[pause][\x0203]desiderato uno
+    scontro aperto
+    con te![pause]
+  - |-
+    [\x0207][\x020902]3Anch'io! Non ci sono
+    avversari migliori
+    di te![pause]
+  - |-
+    [\x0207]Kurt[\x0207]Ha ha! Penso
+    che mi divertirò![pause][\x0203]Cominciamo lo
+    spasso! Non
+    tirarti indietro![pause]

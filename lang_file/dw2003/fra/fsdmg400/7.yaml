@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3C'est étrange.
+    Il n'y a
+    personne ici.[pause]
+  - '[\x0207]Voix[\x0207]Hooouuu ![pause]'
+  - '[\x0207][\x020902]3Qu-Quoi ?![pause]'
+  - '[\x0207]Voix[\x0207]Hooouuu ![pause]'
+  - |-
+    [\x0207][\x020902]3C'était quoi ?!
+    Un fantôme ?![pause]

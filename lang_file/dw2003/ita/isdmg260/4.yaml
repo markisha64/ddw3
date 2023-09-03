@@ -1,0 +1,13 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Mr. Smith[\x0207]Un'occasione![pause][\x0203]Il pezzo principale![pause][\x0203]Lo scudo del pericolo,
+    molto conteso![pause][\x0203]Lo scudo esclusivo
+    di Guilmon parte da
+    400 BIT![pause]
+  - '[\x0207]Cliente Abel[\x0207]500 BIT![pause]'
+  - '[\x0207]Capo Milly[\x0207]600 BIT![pause]'
+  - '[\x0207]Masao RPG[\x0207]700 BIT![pause]'
+  - |-
+    [\x0207][\x020902]3Hmm... 800 BIT
+    Mmmm...[pause]

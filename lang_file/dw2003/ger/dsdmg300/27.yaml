@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Ich fordere dich
+    heraus![pause]
+  - "[\\x0207]Pharaohmon[\\x0207]Du zeigst \nkeine Angst![pause][\\x0203]Ich warne \ndich. Ich bin \nsehr stark![pause]"
+  - |-
+    [\x0207][\x020902]3Das muss
+    sich erst
+    herausstellen![pause]
+  - "[\\x0207]Pharaohmon[\\x0207]...Gut,\ndu bist bereit.[pause][\\x0203]Ich gehe auf \nganze Kraft![pause]"

@@ -1,0 +1,21 @@
+strings:
+  - ''
+  - |-
+    [\x0207]MasterTyranno[\x0207]Wow, kid!
+    You're pretty
+    good![pause][\x0203]I'll give you
+    this for
+    defeating me.[pause]
+  - |-
+    [\x0207][\x020902]3Yeah! I got
+    the Old
+    Claw![pause]
+  - |-
+    [\x0207]MasterTyranno[\x0207]Take that to the
+    Seiryu Leader![pause][\x0203]Then he'll battle
+    with you.[pause]
+  - "[\\x0207][\\x020902]3Thanks, \nMasterTyranno![pause]"
+  - |-
+    [\x0207]MasterTyranno[\x0207]Seiryu Leader is
+    pretty tough. Be
+    on your guard![pause]

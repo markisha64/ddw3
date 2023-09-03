@@ -1,0 +1,22 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Alors,\nvoilà l'Arène.[pause][\\x0203]Je me demande où\nest mon adversaire ? \nJe suis prêt ![pause]"
+  - |-
+    [\x0207]Kurt[\x0207]Hé !
+    [\x020801][\x020501] ![pause][\x0203]Je savais que
+    tu viendrais ![pause]
+  - "[\\x0207][\\x020902]3Eh ?\nKurt ? Ne me[pause][\\x0203]dis pas que tu  \nes le plus fort \ndes dresseurs ![pause]"
+  - |-
+    [\x0207]Kurt[\x0207]Et si !
+    Ravi de te retrouver
+    ici. J'ai toujours[pause][\x0203]voulu t'affronter
+    dans les règles ![pause]
+  - |-
+    [\x0207][\x020902]3Moi aussi ! Il n'y
+    a pas de meilleur
+    adversaire que toi ![pause]
+  - |-
+    [\x0207]Kurt[\x0207]Ha ha ! Je vais
+    m'amuser ![pause][\x0203]C'est parti !
+    Ne te retiens
+    pas ![pause]

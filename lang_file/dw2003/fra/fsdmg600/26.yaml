@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Attention ! Ne
+    viens pas me
+    faire d'ennuis ! [pause][\x0203]Tiens ?
+    Serait-ce... ?[pause]
+  - |-
+    [\x0207][\x020902]3Super ! J'ai le
+    Passe blanc ![pause][\x0203]Plus qu'un
+    seul ! Vite ![pause]

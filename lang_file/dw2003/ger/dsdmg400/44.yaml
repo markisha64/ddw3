@@ -1,0 +1,21 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Soldat[\x0207]Ist das der ID-Pass
+    Blau?![pause][\x0203]Verzeihung. Wusste
+    nicht, dass du Qing
+    Long Chief bist![pause]
+  - |-
+    [\x0207][\x020902]3Wie bitte?
+    Ach ja, klar![pause][\x0203]Die Uniform fällt
+    zu sehr auf. Ich bin
+    in Zivil unterwegs![pause][\x0203]Das bleibt aber unser
+    Geheimnis, OK?[pause]
+  - |-
+    [\x0207]Soldat[\x0207]Du bist toll,
+    Chief! Du ar-
+    beitest hart![pause]
+  - "[\\x0207][\\x020902]3Oh Mann, um ein\nHaar...[pause][\\x0203]Aber jetzt kann \nich nach Zhu\nQue City.[pause]"
+  - |-
+    [\x0207]Soldat[\x0207]Bitte, nur
+    zu![pause]

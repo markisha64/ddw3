@@ -1,0 +1,12 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3I won!\nWho's the \nman![pause]"
+  - "[\\x0207][\\x020902]3Huh?! There's \nsomething on \nthe ground.[pause][\\x0203]This is a Veemon \nexclusive weapon![pause][\\x0203]Yeah! I got the \nDramon Guard![pause]"
+  - "[\\x0207][\\x020902]3Oh, wait! \nI don't have time\nfor this![pause][\\x0203]I have to stop \nthe Juggernaut \nfrom launching![pause]"
+  - |-
+    [\x0207][\x020902]3Ummm, which button?
+    ......there!
+    It's this one![pause]
+  - "[\\x0207][\\x020902]3Huh? Nothing \nhappened? But if the \nA.o.A was here...[pause][\\x0203]That should stop \nthe launch of the\nJuggernaut![pause]"
+  - "...NOTIFYING ALL STAFF OF MAGASTA. \nSSS CLASS WAR SHIP JUGGERNAUT \nIS ALMOST RE-ENERGIZED...[pause][\\x0203]ALL STAFF WITHIN THE BASE SHOULD \nTAKE SHELTER...REPEATING...\nSSS    C...WAR... NAUT...[pause]"
+  - "[\\x0207][\\x020902]3...wha-what?!\nWhy won't it\nstop?![pause][\\x0203]...This was a \ntrap![pause][\\x0203]...Then the \nA.o.A is some\nwhere else![pause]"

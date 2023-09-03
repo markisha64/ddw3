@@ -1,0 +1,11 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3Hmm...I can't
+    play long.[pause]
+  - "[\\x0207]BK WarGrowlmon[\\x0207]I know.\nJust a bit. \nOne battle![pause]"
+  - |-
+    [\x0207][\x020902]3Oh, then it's OK!
+    But I won't go easy
+    on you![pause]
+  - "[\\x0207]BK WarGrowlmon[\\x0207]That's my line![pause][\\x0203]Wow, I haven't\nbattled in a \nwhile![pause]"

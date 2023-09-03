@@ -1,0 +1,14 @@
+strings:
+  - ''
+  - "[\\x0207]Veemon[\\x0207]Alors, on joue à \nquoi ?\nHmmmmm...[pause]"
+  - "[\\x0207][\\x020902]3Hé, Veemon ! Je \nveux les \nArbori-bottes.[pause]"
+  - "[\\x0207]Veemon[\\x0207]Arbori-bottes ? Les \nbottes pour shooter\ndans les arbres...[pause][\\x0203]Bien sûr, mais \nmais tu dois jouer \navec moi ![pause]"
+  - "[\\x0207][\\x020902]3Bien sûr !\nOn joue à \nquoi ?[pause]"
+  - "[\\x0207]Veemon[\\x0207]Je vais me cacher  \ndans la Forêt Vive et \ntu devras me trouver. [pause][\\x0203]Si tu me trouves,\nje te donne les\nArbori-bottes ![pause][\\x0203]Mais si tu quittes\nla forêt sans m'avoir\ntrouvé, tu perds ![pause][\\x0203]Si tu sors de la Forêt\nVive, je rentre \nmanger à la maison ![pause]"
+  - |-
+    [\x0207][\x020902]3OK !
+    Je vais te
+    trouver ![pause]
+  - "[\\x0207]Veemon[\\x0207]Hé hé hé.\nCe ne sera pas \nsi facile ![pause][\\x0203]Compte jusqu'à \n10 et viens dans \nla forêt ![pause]"
+  - "[\\x0207][\\x020902]3OK, je compte !\n1, 2, 3, 4, 5, \n6, 7, 8, 9, 10 ![pause][\\x0203].......\n.........\nC'était trop rapide ?[pause]"
+  - "[\\x0207][\\x020902]3Oh, bien !\nPartons à sa \nrecherche ![pause]"

@@ -1,0 +1,56 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3OK, dann gehen wir
+    in den Nordsektor![pause]
+  - |-
+    [\x0207]Teddy[\x0207]Warte mal!
+    Wie kommen wir
+    denn dahin?[pause][\x0203]Es gibt keine Straβe
+    und mit Submarimon
+    geht's auch nicht![pause]
+  - |-
+    [\x0207][\x020902]3Ach ja?
+    Stimmt
+    das?[pause]
+  - "[\\x0207]Teddy[\\x0207]Das haben jeden-\nfalls die Wachen im\nGefängnis gesagt.[pause][\\x0203]Du kannst Digimon \nfragen, um z. Nord-\nsektor zu kommen...[pause]"
+  - |-
+    [\x0207][\x020902]3Dann ist es
+    doch einfach![pause]
+  - "[\\x0207]Teddy[\\x0207]Aber du brauchst das\nDigiei des Wissens,\num Digimon zu rufen...[pause][\\x0203]Ich glaube, das ist ein\nseltenes Item, gibt's nur \nin Amaterasu-Server.[pause]"
+  - |-
+    [\x0207][\x020902]3OK, dann machen wir
+    uns auf die Suche
+    nach Amaterasu![pause]
+  - "[\\x0207]Teddy[\\x0207]Aber wie kommen\nwir denn da\nhin?[pause][\\x0203]Da wimmelt es \nsicher nur so von\nA.o.A...[pause]"
+  - |-
+    [\x0207][\x020902]3Hmm...
+    Da sagst du
+    was...[pause]
+  - |-
+    [\x0207][\x020902]3Aber wie sind
+    denn die A.o.A.
+    hergekommen?[pause]
+  - |-
+    [\x0207]Teddy[\x0207]Na klar!
+    Die Soldaten in
+    Byakko City![pause]
+  - |-
+    [\x0207][\x020902]3Vielleicht wissen
+    die etwas![pause]
+  - |-
+    [\x0207]Teddy[\x0207]Ganz sicher,
+    [\x020801][\x020501]![pause]
+  - "[\\x0207][\\x020902]3OK, ich werde \nden Westsektor\nauskundsch.![pause]"
+  - |-
+    [\x0207]Teddy[\x0207]Sei vorsichtig.
+    Ich versuch's mit
+    diesem Computer![pause]
+  - |-
+    [\x0207][\x020902]3OK. Sag Be-
+    scheid, wenn
+    du was weiβt![pause]
+  - |-
+    [\x0207]Teddy[\x0207]Klar!
+    Überlass
+    das mir![pause]

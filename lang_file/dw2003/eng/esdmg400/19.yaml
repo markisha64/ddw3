@@ -1,0 +1,4 @@
+strings:
+  - ''
+  - "[\\x0207][\\x020902]3Hey, MetalGreymon.\nI have a favor to\nask...[pause][\\x0203]Can I get an Agumon \nDDNA sample\nfrom your DDNA?[pause]"
+  - "[\\x0207]MetalGreymon[\\x0207]Ummm, sorry, but\nI can't give it to \nyou that easily.[pause][\\x0203]If you really want\nit, you'll have to\nwin it from me![pause]"

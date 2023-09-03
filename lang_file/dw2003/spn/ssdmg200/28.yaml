@@ -1,0 +1,17 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3¿Qué pasa?
+    ¡Ahora parezco
+    un Digimon![pause]
+  - "[\\x0207]Kail[\\x0207]¡Calla! ¡Cierra\nla boca![pause][\\x0203]¡No queremos que \nsepan que no somos\nDigimon![pause]"
+  - |-
+    [\x0207][\x020902]3¡Ah, es verdad!
+    Entiendo...[pause]
+  - "[\\x0207]Kail[\\x0207]Quiero mirar una cosa\nasí que me adelantaré.[pause][\\x0203][\\x020801][\\x020501], tú sigue \nbuscando a Teddy.[pause][\\x0203]¡Cuando termine me\njunto contigo![pause]"
+  - |-
+    [\x0207][\x020902]3Vale.
+    Pero ten
+    cuidado.[pause]
+  - "[\\x0207]Kail[\\x0207]¡Tranquilo, \nyo no soy \ncomo tú![pause]"
+  - "[\\x0207][\\x020902]3¿Qué le pasa a \nKail? Está muy rara\ndesde que vinimos.[pause][\\x0203]Bueno, tengo que \nencontrar a Teddy.[pause]"

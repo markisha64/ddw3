@@ -1,0 +1,27 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Teddy[\x0207]Oui  !
+    On a réussi,
+    [\x020801][\x020501]  ![pause]
+  - |-
+    [\x0207][\x020902]3Oui, on
+    l'a fait ![pause]
+  - "[\\x0207]Nick[\\x0207]Hé, bravo\nvous deux  ![pause][\\x0203]Je m'en vais\nraconter ça \naux autres  ![pause]"
+  - |-
+    [\x0207]Teddy[\x0207]Oh, je suis
+    crevé... [pause][\x0203]Quelle
+    journée...[pause]
+  - |-
+    [\x0207][\x020902]3C'était
+    cool, non ?[pause]
+  - |-
+    [\x0207]Teddy[\x0207]Hé, allons dans la
+    salle de login ![pause][\x0203]Je suis sûr que tout
+    est redevenu normal ![pause]
+  - "[\\x0207][\\x020902]3Oui  !\nRetournons dans le \nMonde Réel  ![pause]"
+  - |-
+    [\x0207]Teddy[\x0207]Destromon s'est
+    arrêté, il est
+    neutralisé ![pause][\x0203]On a vaincu
+    l'A.o.A  ![pause]

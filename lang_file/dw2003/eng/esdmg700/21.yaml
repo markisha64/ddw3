@@ -1,0 +1,6 @@
+strings:
+  - ''
+  - "[\\x0207]Fire Master[\\x0207]It's dangerous beyond\nhere! You really \nshould go back![pause][\\x0203]Or do you want to \ndefeat me and \nproceed?[pause]"
+  - "[\\x0207][\\x020902]3Yeah, that's \nright! That's \nwhy I'm here![pause]"
+  - "[\\x0207]Fire Master[\\x0207]You're a \ntroublesome \ntamer...[pause][\\x0203]If you win, you\ncan go.[pause]"
+  - "[\\x0207][\\x020902]3OK! Let's \nfight![pause]"

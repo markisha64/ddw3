@@ -1,0 +1,13 @@
+strings:
+  - ''
+  - "[\\x0207]???[\\x0207]...they are so \nuseless...[pause][\\x0203]But I'm rather\nimpressed by your\nstrength![pause]"
+  - "[\\x0207][\\x020902]3...are you the \nPresident of \nMAGAMI?![pause]"
+  - "[\\x0207]???[\\x0207]...President?\nOh, yes.[pause][\\x0203]But can you call me \nChief Officer? \nIt sounds cooler![pause]"
+  - |-
+    [\x0207][\x020902]3Stop kidding around!
+    Terminate Destromon
+    right now![pause]
+  - "[\\x0207]Chief Officer[\\x0207]Hey, chill out. \nWhy don't you join\nus?[pause][\\x0203]If you say yes, I'll \nmake you No.2 after \nme![pause]"
+  - "[\\x0207][\\x020902]3...no way! You\nuse Digimon for evil...[pause][\\x0203]Even if I'm destroyed, \nI'll never be one of \nyou![pause]"
+  - "[\\x0207]Chief Officer[\\x0207]You just blew your \nchance. You really \nare a stupid boy.[pause][\\x0203]By the way, it's \nalready too late to \nchange your mind![pause]"
+  - "[\\x0207][\\x020902]3They said they \nwere the Royal \nGuard...[pause][\\x0203]Then the guy at \nthe top is up\nahead![pause]"

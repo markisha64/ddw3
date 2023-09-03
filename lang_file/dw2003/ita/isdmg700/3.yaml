@@ -1,0 +1,22 @@
+strings:
+  - ''
+  - |-
+    [\x0207]Junior[\x0207]Wow! Questo è
+    il Salone?[pause][\x0203]Posso cominciare
+    a giocare.
+    Com'è eccitante![pause]
+  - |-
+    [\x0207]Operatore[\x0207]Posso avere
+    il nome del tuo
+    account?[pause]
+  - '[\x0207]Junior[\x0207]È Junior![pause]'
+  - |-
+    [\x0207]Operatore[\x0207]Confermato.
+    Grazie.[pause][\x0203]Entra in quella
+    capsula laggiù.[pause]
+  - '[\x0207]Junior[\x0207]Ok![pause]'
+  - a
+  - |-
+    [\x0207]Ivy[\x0207]Ehi! Vai
+    senza di noi?[pause]
+  - '[\x0207]Teddy[\x0207]Aspettaci![pause]'

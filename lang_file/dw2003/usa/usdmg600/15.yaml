@@ -1,0 +1,59 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3So this is Lucky
+    Mouse's hide out...[pause]
+  - "[\\x0207][\\x020902]3Where is \nTeddy? Where \nis he?![pause]"
+  - "[\\x0207]Lucky Mouse[\\x0207]Teddy? Oh, the boy \nthat found my account\ncode and contacted me![pause][\\x0203]I didn't capture him. It\nwas the A.o.A![pause]"
+  - "[\\x0207][\\x020902]3What? What do you \nmean by that?[pause][\\x0203]Asuka's Game Master\ntold me that you \nhave him...[pause]"
+  - "[\\x0207]Lucky Mouse[\\x0207]...She's one of the \ntop agents of A.o.A.[pause][\\x0203]She's not the only \none. MAGAMI itself is\nthe A.o.A![pause][\\x0203]There are many members \nwithin this Asuka Server![pause]"
+  - "[\\x0207][\\x020902]3Then the Game \nMaster lied to me?![pause][\\x0203]I've got to go \nrescue Teddy![pause]"
+  - |-
+    [\x0207]Lisa[\x0207]Hey, what is the
+    A.o.A up to?[pause]
+  - "[\\x0207]Lucky Mouse[\\x0207]They are going to\ntake over \nDigimon Online.[pause][\\x0203]Then they will be able\nto hack the net\nall over the world.[pause]"
+  - "[\\x0207]Lisa[\\x0207]...hey! That's \nreally not good\nnews! [pause][\\x0203]All the computers in \nthe world will be \nunder their control![pause]"
+  - "[\\x0207]Lucky Mouse[\\x0207]To prevent that, I've \ncaused the program to\nmalfunction.[pause][\\x0203]So no one should be \nable to access this\nserver for a while.[pause]"
+  - |-
+    [\x0207]Lisa[\x0207]I see. So that's why
+    no one could return
+    to the Real World.[pause]
+  - "Ha ha ha ha ha!\nYou've caused a \nlot of problems![pause][\\x0203]But because of the\nkid, our plans are\nback online![pause]"
+  - '[\x0207]Lucky Mouse[\x0207]...Kail?![pause]'
+  - '[\x0207][\x020902]3...Kail![pause]'
+  - |-
+    [\x0207]Kail[\x0207][\x020801][\x020501]!
+    ...Kurt![pause]
+  - |-
+    [\x0207][\x020902]3What?! Then,
+    Kail's big brother
+    is...![pause]
+  - "[\\x0207]Lucky Mouse[\\x0207]...yes, my real \nname is Kurt! I'm \nKail's older brother.[pause][\\x0203]But how did A.o.A\nfind out about this \nplace!? [pause][\\x0203]And why is Kail...?[pause]"
+  - |-
+    [\x0207]General[\x0207]We followed that kid from
+    Asuka City![pause][\x0203]She was following
+    the kid too, until we
+    caught her![pause]
+  - '[\x0207]Lucky Mouse[\x0207]Let go of Kail![pause]'
+  - "[\\x0207]General[\\x0207]Ha ha ha ha! Not so \nfast. It's not that \neasy.[pause][\\x0203]If you return what \nyou stole, I'll let \nher go![pause]"
+  - "[\\x0207]Lucky Mouse[\\x0207]All right, \nhere you go...[pause]"
+  - "[\\x0207]General[\\x0207]Here it is,\nha ha ha ha![pause][\\x0203]OK, I'm taking \nthis back![pause]"
+  - "[\\x0207]Attacker[\\x0207]OK, a promise is a \npromise. I'll let her\ngo![pause]"
+  - |-
+    [\x0207]Kail[\x0207]Kurt!
+    [\x020801][\x020501]![pause]
+  - |-
+    [\x0207]Attacker[\x0207]Ha ha, have your
+    brief moment![pause][\x0203]But you're all
+    finished now![pause]
+  - "[\\x0207]Lucky Mouse[\\x0207]Everyone, \nwatch out![pause]"
+  - '[\x0207]Lucky Mouse[\x0207]Aaaaaah![pause]'
+  - '[\x0207]Kail[\x0207]Kurt![pause]'
+  - "[\\x0207][\\x020902]3No way! He turned \ninto a Digimon![pause]"
+  - "[\\x0207]Attacker[\\x0207]You're all going to \nturn into Oinkmon \nand be caged up![pause][\\x0203]OK, who's next![pause]"
+  - "[\\x0207]Attacker[\\x0207]!?!?!?!\nI'm out of energy![pause][\\x0203]Fine then... come, \nmy Digimon![pause]"
+  - |-
+    [\x0207][\x020902]3If you want to
+    battle, then you
+    gotta get past me.[pause]
+  - "[\\x0207]Lucky Mouse[\\x0207]...I was also one of \nthe staff members of \nDigimon Online.[pause][\\x0203]But when I realized \nwhat was going on, \nit was too late...[pause]"

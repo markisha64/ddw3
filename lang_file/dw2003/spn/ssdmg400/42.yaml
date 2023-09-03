@@ -1,0 +1,19 @@
+strings:
+  - ''
+  - |-
+    [\x0207][\x020902]3¡Sí! ¡He ganado
+    al Jefe Qing
+    Long![pause]
+  - "[\\x0207][\\x020902]3¿Eh?\nHay algo en el \nsuelo...[pause]"
+  - |-
+    [\x0207][\x020902]3Pero no hay rastro
+    del Digihuevo de
+    Sabiduría...[pause][\x0203]Me gustaría saber
+    qué pasa en el
+    Mundo Real...[pause]
+  - |-
+    [\x0207][\x020902]3¿Eh?
+    ¿Qué es esto?
+    ¿El Pase Azul?[pause][\x0203]¡Podría serme
+    de utilidad,
+    me lo llevaré![pause]
