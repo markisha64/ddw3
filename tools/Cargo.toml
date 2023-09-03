@@ -20,6 +20,10 @@ members = [
 	"ddw3-unlang-file",
 	"ddw3-mklang-file",
 
+	# Sprite
+	"ddw3-unsprite",
+	"ddw3-mksprite",
+
 	# Util
 	"ddw3-bytes",
 	"ddw3-util",
@@ -40,6 +44,7 @@ extend = "1.2.0"
 goblin = "0.7.1"
 int-conv = "0.1.4"
 itertools = "0.11.0"
+pathdiff = "0.2.1"
 ref-cast = "1.0.20"
 serde = { version = "1.0.188", features = ["derive"] }
 serde_with = "3.3.0"
@@ -57,8 +62,10 @@ ddw3-lang-file = { path = "ddw3-lang-file" }
 ddw3-logger = { path = "ddw3-logger" }
 ddw3-mklang-file = { path = "ddw3-mklang-file" }
 ddw3-mkpsexe = { path = "ddw3-mkpsexe" }
+ddw3-mksprite = { path = "ddw3-mksprite" }
 ddw3-psexe = { path = "ddw3-psexe" }
 ddw3-uncd = { path = "ddw3-uncd" }
 ddw3-uniso = { path = "ddw3-uniso" }
 ddw3-unlang-file = { path = "ddw3-unlang-file" }
+ddw3-unsprite = { path = "ddw3-unsprite" }
 ddw3-util = { path = "ddw3-util" }
