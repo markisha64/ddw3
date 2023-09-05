@@ -38,6 +38,7 @@ fn main() -> Result<(), anyhow::Error> {
 	let first_entry = reader
 		.read_u32::<LittleEndian>()
 		.context("Unable to read first entry")?;
+	anyhow::ensure!(first_entry != 0x0, "First entry overlaps header");
 	let mut entries = (0..((first_entry - 1) / 4))
 		.map(|_| reader.read_u32::<LittleEndian>())
 		.collect::<Result<Vec<_>, io::Error>>()
