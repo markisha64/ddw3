@@ -125,16 +125,16 @@ util::decl_static! { "dw2003_exe_data0",
 
 #[repr(C)]
 pub struct Unknown0 {
-	f0 : u16,
-	f1 : u8,
-	f2 : u8,
-	f3 : u16,
-	f4 : i16,
-	f5 : i16,
-	f6 : u16,
-	f7 : [u8; 2],
-	f8 : [u8; 2],
-	f9 : [u8; 2],
+	f0:  u16,
+	f1:  u8,
+	f2:  u8,
+	f3:  u16,
+	f4:  i16,
+	f5:  i16,
+	f6:  u16,
+	f7:  [u8; 2],
+	f8:  [u8; 2],
+	f9:  [u8; 2],
 	f10: u16,
 }
 
@@ -166,7 +166,6 @@ pub struct Unknown3 {
 	// 999 is one of the values
 	f1: u16,
 
-
 	f2: u8, // 2..=6
 	f3: u8, // 1..=4
 	f4: u16,
@@ -174,14 +173,12 @@ pub struct Unknown3 {
 	// 7-bit Bitmask?
 	f5: u8,
 
-
 	f6: u8, // 1..=11 (except 6, 9)
 	f7: u8, // 1..=36
 
 	// 7-bit Bitmasks?
 	f8: u8,
 	f9: u8,
-
 
 	f10: u8, // 33..=54 & 0
 	f11: u8, // 0 ..=65
@@ -195,7 +192,7 @@ pub struct Unknown3 {
 pub struct Unknown4 {
 	un0: [u32; 6], // 0x00
 
-	exp: u32,  // 0x18
+	exp: u32, // 0x18
 
 	stats: Unknown4Stats, // 0x1c
 
@@ -210,7 +207,7 @@ pub struct Unknown4 {
 #[repr(C)]
 pub struct Unknown4Stats {
 	level: u16, // 0x1c
-	tp   : u16, // 0x1e
+	tp:    u16, // 0x1e
 
 	cur_hp: u16, // 0x20
 	max_hp: u16, // 0x22
@@ -236,12 +233,12 @@ pub struct Unknown4Stats {
 
 #[repr(C)]
 pub struct Unknown4Items {
-	head : u16, // 0x3c0
-	body : u16, // 0x3c2
+	head:  u16, // 0x3c0
+	body:  u16, // 0x3c2
 	right: u16, // 0x3c4
-	left : u16, // 0x3c6
-	acc0 : u16, // 0x3c8
-	acc1 : u16, // 0x3ca
+	left:  u16, // 0x3c6
+	acc0:  u16, // 0x3c8
+	acc1:  u16, // 0x3ca
 }
 
 impl Unknown4 {
@@ -251,7 +248,7 @@ impl Unknown4 {
 
 		stats: Unknown4Stats {
 			level: 0,
-			tp: 0,
+			tp:    0,
 
 			cur_hp: 0,
 			max_hp: 0,
@@ -278,12 +275,12 @@ impl Unknown4 {
 		un3: [0; 0xdf],
 
 		items: Unknown4Items {
-			head : 0,
-			body : 0,
+			head:  0,
+			body:  0,
 			right: 0,
-			left : 0,
-			acc0 : 0,
-			acc1 : 0,
+			left:  0,
+			acc0:  0,
+			acc1:  0,
 		},
 
 		un5: [0; 8],
@@ -7525,10 +7522,13 @@ util::decl_static! { "dw2003_exe_data1",
 		&F0x8001da00,
 	] };
 
-	pub static mut D0x8004df8c: [*const u32; 5] = unsafe { [
+	pub static mut D0x8004df8c: [*const u32; 3] = unsafe { [
 		&F0x8001da84,
 		&F0x8001dd04,
 		&F0x8001d6e4,
+	] };
+
+	pub static mut D0x8004df98: [*const u32; 2] = unsafe { [
 		&F0x8001d6f4,
 		&F0x8001d704,
 	] };
