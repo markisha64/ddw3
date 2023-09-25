@@ -30,7 +30,7 @@ impl Image {
 		match bpp {
 			Bpp::Indexed4 => IndexedImg::read(IndexBpp::Four, reader).map(Self::Indexed),
 			Bpp::Indexed8 => IndexedImg::read(IndexBpp::Eight, reader).map(Self::Indexed),
-			Bpp::Color16 => ColorImg::read(ColorBpp::R5G5B6A, reader).map(Self::Color),
+			Bpp::Color16 => ColorImg::read(ColorBpp::R5G5B5A1, reader).map(Self::Color),
 			Bpp::Color24 => ColorImg::read(ColorBpp::R8G8B8, reader).map(Self::Color),
 		}
 	}
@@ -130,7 +130,7 @@ impl ColorImg {
 	pub fn read<R: io::Read>(bpp: ColorBpp, reader: R) -> Result<Self, anyhow::Error> {
 		// Read all colors
 		let colors = match bpp {
-			ColorBpp::R5G5B6A => reader
+			ColorBpp::R5G5B5A1 => reader
 				.bytes()
 				.array_chunks::<2>()
 				.map(|[b0, b1]| Ok(LittleEndian::read_u16(&[b0?, b1?])))
@@ -154,7 +154,7 @@ impl ColorImg {
 	/// Writes a color image to a stream
 	pub fn write<W: io::Write>(&self, bpp: ColorBpp, mut writer: W) -> Result<(), anyhow::Error> {
 		match bpp {
-			ColorBpp::R5G5B6A =>
+			ColorBpp::R5G5B5A1 =>
 				for color in &self.colors {
 					let mut color_bytes = [0; 2];
 					LittleEndian::write_u16(&mut color_bytes, color.to_r5g5b5a1());
@@ -190,7 +190,7 @@ impl ColorImg {
 /// Color bpp
 #[derive(PartialEq, Eq, Clone, Copy, Debug)]
 pub enum ColorBpp {
-	R5G5B6A,
+	R5G5B5A1,
 	R8G8B8,
 }
 

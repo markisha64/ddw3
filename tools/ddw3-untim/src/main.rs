@@ -59,7 +59,7 @@ fn main() -> Result<(), anyhow::Error> {
 
 			// Then read the image
 			let mut img = ColorImg::read(
-				ColorBpp::R5G5B6A,
+				ColorBpp::R5G5B5A1,
 				input.by_ref().take(u64::from(header.total_size - 12)),
 			)
 			.context("Unable to read clut")?;

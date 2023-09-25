@@ -157,8 +157,9 @@ fn main() -> Result<(), anyhow::Error> {
 			.context("Unable to write clut header")?;
 
 		// Then write the clut
+		// Note: Clut is always in R5G5B5A1
 		clut_img
-			.write(ColorBpp::R5G5B6A, &mut output_file)
+			.write(ColorBpp::R5G5B5A1, &mut output_file)
 			.context("Unable to write clut")?;
 	};
 
@@ -216,7 +217,7 @@ fn main() -> Result<(), anyhow::Error> {
 		},
 		Image::Color(img) => {
 			let color_bpp = match config.bpp {
-				Bpp::Color16 => ColorBpp::R5G5B6A,
+				Bpp::Color16 => ColorBpp::R5G5B5A1,
 				Bpp::Color24 => ColorBpp::R8G8B8,
 				_ => unreachable!(),
 			};
