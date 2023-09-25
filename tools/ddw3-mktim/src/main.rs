@@ -92,7 +92,10 @@ fn main() -> Result<(), anyhow::Error> {
 	let img = match config.bpp {
 		Bpp::Indexed4 | Bpp::Indexed8 => {
 			// Build the reverse lookup table
-			let rev_clut = self::generate_rev_clut(&clut_img)?;
+			let rev_clut = match &clut_img {
+				Some(clut_img) => self::generate_rev_clut(clut_img),
+				None => anyhow::bail!("Indexed images with no clut aren't supported yet"),
+			};
 
 			let idxs = img
 				.pixels()
@@ -226,24 +229,11 @@ fn main() -> Result<(), anyhow::Error> {
 }
 
 /// Generates the reverse lookup table
-fn generate_rev_clut(
-	clut_img: &Option<image::ImageBuffer<image::Rgba<u16>, Vec<u16>>>,
-) -> Result<HashMap<image::Rgba<u16>, usize>, anyhow::Error> {
-	let rev_clut = match &clut_img {
-		// Note: We only use colors from the first row, all others are palette swaps.
-		Some(clut_img) => clut_img
-			.rows()
-			.next()
-			.context("Clut has no rows")?
-			.enumerate()
-			.unique_by(|(_, &color)| color)
-			.map(|(idx, &color)| (color, idx))
-			.collect::<HashMap<_, _>>(),
-
-		// TODO: Support indexed images with no clut
-		None => anyhow::bail!("Indexed images with no clut aren't supported yet"),
-	};
-
-
-	Ok(rev_clut)
+fn generate_rev_clut(clut_img: &image::ImageBuffer<image::Rgba<u16>, Vec<u16>>) -> HashMap<image::Rgba<u16>, usize> {
+	clut_img
+		.pixels()
+		.enumerate()
+		.unique_by(|(_, &color)| color)
+		.map(|(idx, &color)| (color, idx))
+		.collect::<HashMap<_, _>>()
 }
