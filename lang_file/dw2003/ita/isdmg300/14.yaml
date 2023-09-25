@@ -1,40 +1,40 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3OK, andiamo
+    \x02\x07\x02\x09\x023OK, andiamo
     ad Amaterasu!
     Forza![pause]
   - |-
-    [\x0207]Teddy[\x0207]Ehi, [\x020801][\x020501]!
+    \x02\x07Teddy\x02\x07Ehi, \x02\x08\x01\x02\x05\x01!
     Aspetta![pause]
   - |-
-    [\x0207][\x020902]3Teddy!
+    \x02\x07\x02\x09\x023Teddy!
     Perché
     sei qui?[pause]
   - |-
-    [\x0207]Teddy[\x0207]Sono venuto con
-    Lisa e gli altri.[pause][\x0203][\x020801][\x020501], puoi
+    \x02\x07Teddy\x02\x07Sono venuto con
+    Lisa e gli altri.[pause]\x02\x03\x02\x08\x01\x02\x05\x01, puoi
     aspettare un po'
-    prima di entrare?[pause][\x0203]Lisa sta portando
+    prima di entrare?[pause]\x02\x03Lisa sta portando
     qui i membri della
     Resistenza![pause]
   - |-
-    [\x0207][\x020902]3E come la
+    \x02\x07\x02\x09\x023E come la
     mettiamo
     con l'A.o.A?[pause]
   - |-
-    [\x0207]Teddy[\x0207]Ci ha pensato
-    la Resistenza![pause][\x0203]Prese le quattro
+    \x02\x07Teddy\x02\x07Ci ha pensato
+    la Resistenza![pause]\x02\x03Prese le quattro
     città, rimane solo
     Amaterasu![pause]
   - |-
-    [\x0207][\x020902]3Bene!
+    \x02\x07\x02\x09\x023Bene!
     Ora...[pause]
   - |-
-    [\x0207]Teddy[\x0207]Sì, la battaglia
-    finale![pause][\x0203]Sconfiggeremo
+    \x02\x07Teddy\x02\x07Sì, la battaglia
+    finale![pause]\x02\x03Sconfiggeremo
     l'A.o.A![pause]
   - |-
-    [\x0207][\x020902]3Perfetto![pause][\x0203]Se lottiamo
+    \x02\x07\x02\x09\x023Perfetto![pause]\x02\x03Se lottiamo
     assieme, l'A.o.A
     non ha scampo![pause]

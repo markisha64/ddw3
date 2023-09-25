@@ -1,9 +1,9 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Oui, \nj'ai vaincu\nBulbmon ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Oui, \nj'ai vaincu\nBulbmon ![pause]"
   - |-
-    [\x0207][\x020902]3Tiens ? La
+    \x02\x07\x02\x09\x023Tiens ? La
     brèche se
-    poursuit par là ![pause][\x0203]Elle mène peut-
+    poursuit par là ![pause]\x02\x03Elle mène peut-
     être au serveur
-    Amaterasu... [pause][\x0203]Allons voir ![pause]
+    Amaterasu... [pause]\x02\x03Allons voir ![pause]

@@ -1,8 +1,8 @@
 strings:
   - ''
   - |-
-    [\x0207]Sepikmon[\x0207]Tutti dicono che
+    \x02\x07Sepikmon\x02\x07Tutti dicono che
     giocavo scherzi nella
-    città di Asuka![pause][\x0203]La maschera l'avrà
-    lui![pause][\x0203]Raggiungilo e fattela
+    città di Asuka![pause]\x02\x03La maschera l'avrà
+    lui![pause]\x02\x03Raggiungilo e fattela
     dare. Grazie![pause]

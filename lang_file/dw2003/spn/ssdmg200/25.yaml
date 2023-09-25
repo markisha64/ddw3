@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]Guarda DO[\x0207]Lo siento, sólo
+    \x02\x07Guarda DO\x02\x07Lo siento, sólo
     personal autorizado
     desde aquí.[pause]

@@ -2,7 +2,7 @@ strings:
   - ''
   - SALVA
   - SALVATAGGIO
-  - '[\x020501]'
+  - '\x02\x05\x01'
   - |-
     Controllo MEMORY CARD.
     Non toccare la MEMORY CARD.
@@ -65,4 +65,4 @@ strings:
     Errore della MEMORY CARD.
     Controlla la MEMORY CARD.
   - Dati di Digimon World 2003
-  - Accesso alla MEMORY CARD nell'ingresso [\x020501]
+  - Accesso alla MEMORY CARD nell'ingresso \x02\x05\x01

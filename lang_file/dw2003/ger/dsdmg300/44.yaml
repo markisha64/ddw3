@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207]Etemon[\x0207]So ein Pech!
-    Verloren![pause][\x0203]Ich muss ein paar
+    \x02\x07Etemon\x02\x07So ein Pech!
+    Verloren![pause]\x02\x03Ich muss ein paar
     Karten im Ordner
     austauschen![pause]

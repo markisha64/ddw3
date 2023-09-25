@@ -1,4 +1,4 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Hé, MetalGreymon.\nJ'ai un service à\nte demander.[pause][\\x0203]Tu peux me donner un \nbout d'ADNN Agumon à\npartir de ton ADNN ?[pause]"
-  - "[\\x0207]MetalGreymon[\\x0207]Hum, désolé mais\nce n'est pas si \nsimple.[pause][\\x0203]Si tu le veux \nvraiment, viens\nme le prendre ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hé, MetalGreymon.\nJ'ai un service à\nte demander.[pause]\\x02\\x03Tu peux me donner un \nbout d'ADNN Agumon à\npartir de ton ADNN ?[pause]"
+  - "\\x02\\x07MetalGreymon\\x02\\x07Hum, désolé mais\nce n'est pas si \nsimple.[pause]\\x02\\x03Si tu le veux \nvraiment, viens\nme le prendre ![pause]"

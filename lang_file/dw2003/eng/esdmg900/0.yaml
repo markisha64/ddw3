@@ -1,31 +1,31 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Huh?!
+    \x02\x07\x02\x09\x023Huh?!
     Ivy and Teddy
-    aren't here.[pause][\x0203]Hmph! Knowing them
+    aren't here.[pause]\x02\x03Hmph! Knowing them
     they've gone on
     ahead.[pause]
   - |-
-    [\x0207]Tour Leader[\x0207]Mr. [\x020801][\x020501] is it?
+    \x02\x07Tour Leader\x02\x07Mr. \x02\x08\x01\x02\x05\x01 is it?
     Welcome,
-    to Digimon Online![pause][\x0203]We'll be practicing
+    to Digimon Online![pause]\x02\x03We'll be practicing
     today to prepare you
-    for your start.[pause][\x0203]You're restricted to
+    for your start.[pause]\x02\x03You're restricted to
     the East Sector and
-    Central Amaterasu.[pause][\x0203]However, there are
+    Central Amaterasu.[pause]\x02\x03However, there are
     more Circuit Board
-    and Seabed areas.[pause][\x0203]Digimon data is being
+    and Seabed areas.[pause]\x02\x03Digimon data is being
     used as it was
-    before.[pause][\x0203]Of course techniques
+    before.[pause]\x02\x03Of course techniques
     and digivolutions will
-    also stay the same.[pause][\x0203]However, I'd like to
+    also stay the same.[pause]\x02\x03However, I'd like to
     perform a data check
-    just in case.[pause][\x0203]Before heading out,
+    just in case.[pause]\x02\x03Before heading out,
     be sure to save with
     Guardromon.[pause]
-  - '[\x0207][\x020902]3Sure thing![pause]'
+  - '\x02\x07\x02\x09\x023Sure thing![pause]'
   - |-
-    [\x0207][\x020902]3Alright!
+    \x02\x07\x02\x09\x023Alright!
     This'll be
     fun![pause]

@@ -1,27 +1,27 @@
 strings:
   - ''
-  - "[\\x0207]Kammer-Offizier[\\x0207]Alles grün.\nWir sind fertig mit\n[\\x020801][\\x020501]s Test.[pause][\\x0203]Matrix-System \nwird umgekehrt.[pause][\\x0203]Wo möchtest du\nin der echten Welt\nrealisiert werden?[pause]"
+  - "\\x02\\x07Kammer-Offizier\\x02\\x07Alles grün.\nWir sind fertig mit\n\\x02\\x08\\x01\\x02\\x05\\x01s Test.[pause]\\x02\\x03Matrix-System \nwird umgekehrt.[pause]\\x02\\x03Wo möchtest du\nin der echten Welt\nrealisiert werden?[pause]"
   - |-
-    [\x0207][\x020902]3Militärstützpunkt
+    \x02\x07\x02\x09\x023Militärstützpunkt
     Magasta in der
-    echten Welt![pause][\x0203]Das ist auf der
+    echten Welt![pause]\x02\x03Das ist auf der
     Ozeanebene![pause]
   - |-
-    [\x0207]Kammer-Offizier[\x0207]Verstehe.
+    \x02\x07Kammer-Offizier\x02\x07Verstehe.
     Militärstützpunkt
     Magasta...[pause]
-  - "[\\x0207]Kammer-Offizier[\\x0207]Bestätigt. Liegt noch\nim Warp-Bereich.[pause][\\x0203]Aber wegen der \nSysteminstabilität...[pause][\\x0203]existierst du nur \n180 Sek. lang in \nder echten Welt.[pause]"
+  - "\\x02\\x07Kammer-Offizier\\x02\\x07Bestätigt. Liegt noch\nim Warp-Bereich.[pause]\\x02\\x03Aber wegen der \nSysteminstabilität...[pause]\\x02\\x03existierst du nur \n180 Sek. lang in \nder echten Welt.[pause]"
   - |-
-    [\x0207][\x020902]3Moment mal.
+    \x02\x07\x02\x09\x023Moment mal.
     Und wenn das
     zu wenig ist?[pause]
-  - "[\\x0207]Kammer-Offizier[\\x0207]Die Realisierung bricht\nab, und die Matrix \nbringt dich zurück.[pause][\\x0203]Keine Sorge, die \nMatrix-Daten werden\nnicht zerstört.[pause][\\x0203]Wir starten jetzt\ndas Matrix-\nSystem.[pause]"
+  - "\\x02\\x07Kammer-Offizier\\x02\\x07Die Realisierung bricht\nab, und die Matrix \nbringt dich zurück.[pause]\\x02\\x03Keine Sorge, die \nMatrix-Daten werden\nnicht zerstört.[pause]\\x02\\x03Wir starten jetzt\ndas Matrix-\nSystem.[pause]"
   - |-
-    [\x0207][\x020902]3Also gut.
+    \x02\x07\x02\x09\x023Also gut.
     Was soll
     ich tun?[pause]
   - |-
-    [\x0207]Kammer-Offizier[\x0207]Begib dich zum
+    \x02\x07Kammer-Offizier\x02\x07Begib dich zum
     Warp-Port
-    links von mir.[pause][\x0203]Viel Glück,
-    [\x020801][\x020501].[pause]
+    links von mir.[pause]\x02\x03Viel Glück,
+    \x02\x08\x01\x02\x05\x01.[pause]

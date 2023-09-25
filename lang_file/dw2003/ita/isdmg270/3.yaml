@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]Gioc. carte Ken[\x0207]OK, rivolgiti
+    \x02\x07Gioc. carte Ken\x02\x07OK, rivolgiti
     pure a me se
     ne hai bisogno![pause]

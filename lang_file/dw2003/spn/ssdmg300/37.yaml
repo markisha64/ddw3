@@ -1,11 +1,11 @@
 strings:
   - ''
   - |-
-    [\x0207]Veemon[\x0207]Eh, no está mal
-    ¡Estoy impresionado![pause][\x0203]¡Toma, las Botas
+    \x02\x07Veemon\x02\x07Eh, no está mal
+    ¡Estoy impresionado![pause]\x02\x03¡Toma, las Botas
     Árbol![pause]
   - |-
-    [\x0207][\x020902]3¡Bien! Gracias
-    Veemon.[pause][\x0203]¡Sí! ¡Tengo
+    \x02\x07\x02\x09\x023¡Bien! Gracias
+    Veemon.[pause]\x02\x03¡Sí! ¡Tengo
     las Botas Árb.![pause]
-  - "[\\x0207]Veemon[\\x0207]¡Bien por ti!\n¡Me voy a casa a\ncomer![pause][\\x0203]¡Vuelve para \njugar otra vez![pause]"
+  - "\\x02\\x07Veemon\\x02\\x07¡Bien por ti!\n¡Me voy a casa a\ncomer![pause]\\x02\\x03¡Vuelve para \njugar otra vez![pause]"

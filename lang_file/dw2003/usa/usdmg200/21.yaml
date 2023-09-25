@@ -1,31 +1,31 @@
 strings:
   - ''
   - |-
-    [\x0207]Mystery Player[\x0207]Hey! Wait up,
+    \x02\x07Mystery Player\x02\x07Hey! Wait up,
     kid![pause]
   - |-
-    [\x0207][\x020902]3Are you
+    \x02\x07\x02\x09\x023Are you
     talking to
     me?[pause]
   - |-
-    [\x0207]Mystery Player[\x0207]Of course!
-    I mean you![pause][\x0203]You're [\x020801][\x020501],
+    \x02\x07Mystery Player\x02\x07Of course!
+    I mean you![pause]\x02\x03You're \x02\x08\x01\x02\x05\x01,
     who beat Seiryu
     Leader, aren't you?[pause]
   - |-
-    [\x0207][\x020902]3Yeah...and you
+    \x02\x07\x02\x09\x023Yeah...and you
     are...?[pause]
-  - "[\\x0207]Keith[\\x0207]My name is Keith, and\nyou better remember \nmy name, kid![pause][\\x0203]I'm the one that's \ngoing to win the\ntournament![pause]"
+  - "\\x02\\x07Keith\\x02\\x07My name is Keith, and\nyou better remember \nmy name, kid![pause]\\x02\\x03I'm the one that's \ngoing to win the\ntournament![pause]"
   - |-
-    [\x0207][\x020902]3Oh yeah? We'll
+    \x02\x07\x02\x09\x023Oh yeah? We'll
     just have to wait
     and see![pause]
   - |-
-    [\x0207]Keith[\x0207]Ha ha ha, I see!
+    \x02\x07Keith\x02\x07Ha ha ha, I see!
     Then you want to
     battle with me?[pause]
-  - '[\x0207][\x020902]3Go for it![pause]'
+  - '\x02\x07\x02\x09\x023Go for it![pause]'
   - |-
-    [\x0207]Keith[\x0207]Sorry, but I'm
+    \x02\x07Keith\x02\x07Sorry, but I'm
     not going to pull
     any punches![pause]

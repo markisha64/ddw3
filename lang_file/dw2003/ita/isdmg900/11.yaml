@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207]Domatrice Poemy[\x0207]Vai, potente eroe.
+    \x02\x07Domatrice Poemy\x02\x07Vai, potente eroe.
     Vai in cerca del
-    tuo destino![pause][\x0203]Sarò sempre
+    tuo destino![pause]\x02\x03Sarò sempre
     spiritualmente con te![pause]

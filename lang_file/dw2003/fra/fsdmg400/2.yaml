@@ -1,11 +1,11 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Chef de Seiryu,
+    \x02\x07\x02\x09\x023Chef de Seiryu,
     J'ai battu
-    MasterTyranno ![pause][\x0203]Acceptes-tu de
+    MasterTyranno ![pause]\x02\x03Acceptes-tu de
     m'affronter ?[pause]
   - |-
-    [\x0207]Chef de Seiryu[\x0207]Ah. Tu as la
-    Griffe Antique.[pause][\x0203]Très bien.
+    \x02\x07Chef de Seiryu\x02\x07Ah. Tu as la
+    Griffe Antique.[pause]\x02\x03Très bien.
     Commence ![pause]

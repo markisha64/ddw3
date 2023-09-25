@@ -1,14 +1,14 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Ho
+    \x02\x07\x02\x09\x023Ho
     battuto
     Armormon![pause]
   - |-
-    [\x0207]Armormon[\x0207]Sigh, ho perso![pause][\x0203]E tu hai vinto.
+    \x02\x07Armormon\x02\x07Sigh, ho perso![pause]\x02\x03E tu hai vinto.
     Eccotelo.[pause]
   - |-
-    [\x0207][\x020902]3Ho il DDNA
+    \x02\x07\x02\x09\x023Ho il DDNA
     di Monmon,
-    wow![pause][\x0203]Grazie,
+    wow![pause]\x02\x03Grazie,
     Armormon![pause]

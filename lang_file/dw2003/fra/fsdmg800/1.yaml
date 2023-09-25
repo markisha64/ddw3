@@ -1,10 +1,10 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Attends ! Je ne te
+    \x02\x07\x02\x09\x023Attends ! Je ne te
     laisserai pas lancer
     le Juggernaut ![pause]
   - |-
-    [\x0207]Soldat Robot[\x0207]GGzzz ! GGzzz !
+    \x02\x07Soldat Robot\x02\x07GGzzz ! GGzzz !
     Alerte intrus !
-    Alerte intrus ![pause][\x0203]Suppression ![pause]
+    Alerte intrus ![pause]\x02\x03Suppression ![pause]

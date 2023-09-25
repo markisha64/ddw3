@@ -1,35 +1,35 @@
 strings:
   - ''
-  - "[\\x0207]Chico[\\x0207]Pero que...\n¿Eres de la \nA.o.A?[pause][\\x0203]¡No me \nrendiré![pause][\\x0203]Os voy a ganar \ncon mi Digimon.[pause]"
-  - "[\\x0207][\\x020902]3¡Eh, espera!\n¡No soy de la\nA.o.A![pause][\\x0203]¡Soy Junior!\nY vengo desde el \nServidor Asuka.[pause]"
+  - "\\x02\\x07Chico\\x02\\x07Pero que...\n¿Eres de la \nA.o.A?[pause]\\x02\\x03¡No me \nrendiré![pause]\\x02\\x03Os voy a ganar \ncon mi Digimon.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Eh, espera!\n¡No soy de la\nA.o.A![pause]\\x02\\x03¡Soy Junior!\nY vengo desde el \nServidor Asuka.[pause]"
   - |-
-    [\x0207]Chico[\x0207]¿De verdad?
+    \x02\x07Chico\x02\x07¿De verdad?
     Lo siento, creía
-    que ibas con ellos.[pause][\x0203]Soy Kenny.[pause][\x0203]¿Pero cómo has
+    que ibas con ellos.[pause]\x02\x03Soy Kenny.[pause]\x02\x03¿Pero cómo has
     llegado a Amaterasu?[pause]
-  - "[\\x0207][\\x020902]3He venido por el \nAgujero de Seguridad\nde Bulbmon.[pause][\\x0203]Kenny, ¿sabes dónde\nestá el Digihuevo \nde Sabiduría?[pause]"
-  - "[\\x0207]Kenny el Valiente[\\x0207]Um, la verdad es que \nno lo sé. Lo siento.[pause][\\x0203]¡Pero si lo supiera,\nes imposible \nbuscarlo![pause][\\x0203]¡El Servidor Amaterasu\nha sido tomado por\nla A.o.A![pause]"
-  - "[\\x0207][\\x020902]3¡No lo sabrás\nhasta que no  \nlo intentes![pause][\\x0203]¿Qué pasó\ncon los demás \ndomadores?[pause]"
-  - "[\\x0207]Kenny el Valiente[\\x0207]Nos capturaron y\nobligaron a alzar los\nDigimon en guerra.[pause][\\x0203]¡Y después los \nconvirtieron en \nOinkmon![pause]"
-  - "[\\x0207][\\x020902]3Otra vez Oinkmon.\n¡Vaya![pause][\\x0203]¡No les dejaré \nsalirse con esa![pause]"
-  - "[\\x0207]Kenny el Valiente[\\x0207]Bueno, eso es lo que \npensamos todos.[pause][\\x0203]La gente que no fue\ncapturada está...[pause][\\x0203]Formando la resistencia\npara vencer a la A.o.A.[pause][\\x0203]Yo quiero unirme, así\nque los voy a buscar.[pause]"
-  - "[\\x0207][\\x020902]3Una resistencia... yo\nquiero ayudar, pero \nno puedo ahora mismo.[pause][\\x0203]¡Necesito el Digihuevo \nde Sabiduría para\nllegar al Mundo Real![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023He venido por el \nAgujero de Seguridad\nde Bulbmon.[pause]\\x02\\x03Kenny, ¿sabes dónde\nestá el Digihuevo \nde Sabiduría?[pause]"
+  - "\\x02\\x07Kenny el Valiente\\x02\\x07Um, la verdad es que \nno lo sé. Lo siento.[pause]\\x02\\x03¡Pero si lo supiera,\nes imposible \nbuscarlo![pause]\\x02\\x03¡El Servidor Amaterasu\nha sido tomado por\nla A.o.A![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡No lo sabrás\nhasta que no  \nlo intentes![pause]\\x02\\x03¿Qué pasó\ncon los demás \ndomadores?[pause]"
+  - "\\x02\\x07Kenny el Valiente\\x02\\x07Nos capturaron y\nobligaron a alzar los\nDigimon en guerra.[pause]\\x02\\x03¡Y después los \nconvirtieron en \nOinkmon![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Otra vez Oinkmon.\n¡Vaya![pause]\\x02\\x03¡No les dejaré \nsalirse con esa![pause]"
+  - "\\x02\\x07Kenny el Valiente\\x02\\x07Bueno, eso es lo que \npensamos todos.[pause]\\x02\\x03La gente que no fue\ncapturada está...[pause]\\x02\\x03Formando la resistencia\npara vencer a la A.o.A.[pause]\\x02\\x03Yo quiero unirme, así\nque los voy a buscar.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Una resistencia... yo\nquiero ayudar, pero \nno puedo ahora mismo.[pause]\\x02\\x03¡Necesito el Digihuevo \nde Sabiduría para\nllegar al Mundo Real![pause]"
   - |-
-    [\x0207]Kenny el Valiente[\x0207]Ya veo...
-    Qué pena...[pause][\x0203]Bueno, me voy.
-    Ten cuidado, [\x020801][\x020501].[pause]
+    \x02\x07Kenny el Valiente\x02\x07Ya veo...
+    Qué pena...[pause]\x02\x03Bueno, me voy.
+    Ten cuidado, \x02\x08\x01\x02\x05\x01.[pause]
   - |-
-    [\x0207][\x020902]3Sí, ¡tú
+    \x02\x07\x02\x09\x023Sí, ¡tú
     también![pause]
-  - "[\\x0207]Kenny el Valiente[\\x0207]¡Claro![pause][\\x0203]¡Necesitarás esto \npara andar por el \nServidor Amaterasu![pause]"
-  - "[\\x0207][\\x020902]3¡Tengo la \nID Crony!\n¡Bien![pause]"
-  - "[\\x0207]Kenny el Valiente[\\x0207]¡Con ella, pensarán\nque eres miembro de \nla A.o.A![pause][\\x0203]¡Pero no seas \nestúpido y que\nno te cojan![pause]"
-  - "[\\x0207][\\x020902]3Gracias,\nte debo \nuna.[pause]"
-  - "[\\x0207]Kenny el Valiente[\\x0207]Bueno, me voy.\n¡Ten cuidado, \n[\\x020801][\\x020501]![pause]"
+  - "\\x02\\x07Kenny el Valiente\\x02\\x07¡Claro![pause]\\x02\\x03¡Necesitarás esto \npara andar por el \nServidor Amaterasu![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Tengo la \nID Crony!\n¡Bien![pause]"
+  - "\\x02\\x07Kenny el Valiente\\x02\\x07¡Con ella, pensarán\nque eres miembro de \nla A.o.A![pause]\\x02\\x03¡Pero no seas \nestúpido y que\nno te cojan![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Gracias,\nte debo \nuna.[pause]"
+  - "\\x02\\x07Kenny el Valiente\\x02\\x07Bueno, me voy.\n¡Ten cuidado, \n\\x02\\x08\\x01\\x02\\x05\\x01![pause]"
   - |-
-    [\x0207][\x020902]3¡Sí! ¡Vamos
+    \x02\x07\x02\x09\x023¡Sí! ¡Vamos
     a patear
     sus traseros![pause]
   - |-
-    [\x0207][\x020902]3¡Busquemos el
+    \x02\x07\x02\x09\x023¡Busquemos el
     Digihuevo de sabid.![pause]

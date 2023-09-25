@@ -1,13 +1,13 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Acciufferò
+    \x02\x07\x02\x09\x023Acciufferò
     questo Topo
     Fortunato![pause]
-  - "[\\x0207]Kail[\\x0207]Spiacente, mi \nsono ricordata\nche devo andare.[pause]"
+  - "\\x02\\x07Kail\\x02\\x07Spiacente, mi \nsono ricordata\nche devo andare.[pause]"
   - |-
-    [\x0207][\x020902]3Eh?
-    Che succede a Kail?[pause][\x0203]Oh, beh. Posso
+    \x02\x07\x02\x09\x023Eh?
+    Che succede a Kail?[pause]\x02\x03Oh, beh. Posso
     contare sui miei
-    Digimon![pause][\x0203]OK, ragazzi! Al
+    Digimon![pause]\x02\x03OK, ragazzi! Al
     Settore Ovest![pause]

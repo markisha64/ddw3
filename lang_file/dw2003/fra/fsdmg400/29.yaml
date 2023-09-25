@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Hé ?! C'est qui
+    \x02\x07\x02\x09\x023Hé ?! C'est qui
     le responsable ?
     Vous êtes où ?[pause]
   - |-
@@ -9,19 +9,19 @@ strings:
     POWER ON.
     REAMORCAGE ![pause]
   - |-
-    [\x0207][\x020902]3Hein,
+    \x02\x07\x02\x09\x023Hein,
     quoi ?![pause]
   - |-
     JE SUIS LE SYSTEME D'EXP. DE
-    LA BARGE DE LA GRANDE CREVASSE.[pause][\x0203]POUR ALLUMER LA BARGE PARTIE EN
-    DIRECTION DU SECTEUR SUD...[pause][\x0203]IL FAUT ENREGISTRER UN COMPTE
-    AVEC UNE CARTE BLEUE.[pause][\x0203]LES DIGIMONS NES D'UNE CARTE
+    LA BARGE DE LA GRANDE CREVASSE.[pause]\x02\x03POUR ALLUMER LA BARGE PARTIE EN
+    DIRECTION DU SECTEUR SUD...[pause]\x02\x03IL FAUT ENREGISTRER UN COMPTE
+    AVEC UNE CARTE BLEUE.[pause]\x02\x03LES DIGIMONS NES D'UNE CARTE
     BLEUE LA POSSEDENT, TU PEUX
     L'OBTENIR AUPRES D'EUX.[pause]
   - |-
-    [\x0207][\x020902]3Je vois. Digimons
+    \x02\x07\x02\x09\x023Je vois. Digimons
     nés d'une carte
-    bleue...[pause][\x0203]Hmm. Cela doit
-    être Guilmon.[pause][\x0203]Je vais essayer
+    bleue...[pause]\x02\x03Hmm. Cela doit
+    être Guilmon.[pause]\x02\x03Je vais essayer
     de trouver Guilmon
     dans la ville.[pause]

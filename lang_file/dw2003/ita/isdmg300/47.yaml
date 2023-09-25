@@ -1,5 +1,5 @@
 strings:
   - ''
   - |-
-    [\x0207]Etemon[\x0207]Sei bravino![pause][\x0203]Devo rifare
+    \x02\x07Etemon\x02\x07Sei bravino![pause]\x02\x03Devo rifare
     la mia cartella![pause]

@@ -1,21 +1,21 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Hurra, Kurt
+    \x02\x07\x02\x09\x023Hurra, Kurt
     ist besiegt![pause]
-  - "[\\x0207]Kurt[\\x0207]Meinen Glückwunsch,\n[\\x020801][\\x020501]! Du hast\nzu Recht gewonnen![pause][\\x0203]Jetzt bist du der \nstärkste Tamer![pause]"
-  - '[\x0207][\x020902]3Vielen Dank![pause]'
+  - "\\x02\\x07Kurt\\x02\\x07Meinen Glückwunsch,\n\\x02\\x08\\x01\\x02\\x05\\x01! Du hast\nzu Recht gewonnen![pause]\\x02\\x03Jetzt bist du der \nstärkste Tamer![pause]"
+  - '\x02\x07\x02\x09\x023Vielen Dank![pause]'
   - |-
-    [\x0207]Kurt[\x0207]Bald ist Digimon-Online
+    \x02\x07Kurt\x02\x07Bald ist Digimon-Online
     wiederhergestellt. Als
-    erster Weltmeister [pause][\x0203]solltest du es mit allen
+    erster Weltmeister [pause]\x02\x03solltest du es mit allen
     Herausforderern der
     ganzen Welt aufnehmen.[pause]
   - |-
-    [\x0207][\x020902]3Ich?
+    \x02\x07\x02\x09\x023Ich?
     Der erste World
-    Champ?[pause][\x0203]Na, dann werde
+    Champ?[pause]\x02\x03Na, dann werde
     ich mein Bestes
     geben![pause]
-  - "[\\x0207]Kurt[\\x0207]Ich verlass' mich \nauf dich! Dir bleibt\nnoch etwas Zeit.[pause][\\x0203]Bis dahin solltest \ndu mehr kämpfen u.\nnoch stärk. werden![pause]"
-  - "[\\x0207][\\x020902]3Keine Sorge.\nIch werde \nder stärkste[pause][\\x0203]Weltmeister\naller Zeiten![pause]"
+  - "\\x02\\x07Kurt\\x02\\x07Ich verlass' mich \nauf dich! Dir bleibt\nnoch etwas Zeit.[pause]\\x02\\x03Bis dahin solltest \ndu mehr kämpfen u.\nnoch stärk. werden![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Keine Sorge.\nIch werde \nder stärkste[pause]\\x02\\x03Weltmeister\naller Zeiten![pause]"

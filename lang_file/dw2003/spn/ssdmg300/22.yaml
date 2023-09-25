@@ -1,67 +1,67 @@
 strings:
   - ''
   - |-
-    [\x0207]Kail[\x0207][\x020801][\x020501][pause][\x0203]¡Gracias al cielo!
+    \x02\x07Kail\x02\x07\x02\x08\x01\x02\x05\x01[pause]\x02\x03¡Gracias al cielo!
     ¡Estás bien![pause]
-  - "[\\x0207][\\x020902]3...¡Kail!\n¿Qué pasa?[pause][\\x0203]¿Por qué son \ntodos Oinkmon?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023...¡Kail!\n¿Qué pasa?[pause]\\x02\\x03¿Por qué son \ntodos Oinkmon?[pause]"
   - |-
-    [\x0207]Kail[\x0207]¡Es Vemmon!
+    \x02\x07Kail\x02\x07¡Es Vemmon!
     ¡Son ellos![pause]
   - |-
-    [\x0207][\x020902]3¡¿Qué?!
+    \x02\x07\x02\x09\x023¡¿Qué?!
     ¿Qué has
     dicho?[pause]
-  - "[\\x0207]Kail[\\x0207]¡Varios Vemmon salieron\ndel Centro de \nAdmin. Amaterasu![pause][\\x0203]Lanzaron rayos y...[pause][\\x0203]¡Convirtieron a \ntodos en Oinkmon![pause]"
-  - "[\\x0207][\\x020902]3Espera, Vemmon\nno tiene ese\npoder...[pause][\\x0203]¿Los han \nreprogramado?[pause]"
-  - "[\\x0207]Kail[\\x0207]N..No sé...[pause][\\x0203]Nos escondimos\nen el sótano.[pause][\\x0203]Pero yo fui la \núnica que no se \ntransformó.[pause][\\x0203]Teddy y Lisa \ntambién se \nvolvieron Oinkmon.[pause]"
-  - "[\\x0207][\\x020902]3Qué está pasando...[pause][\\x0203]...¿Y a dónde \nfueron los Vemmon?[pause]"
-  - "[\\x0207][\\x020902]3...¿Y a dónde \nfueron los Vemmon?[pause]"
+  - "\\x02\\x07Kail\\x02\\x07¡Varios Vemmon salieron\ndel Centro de \nAdmin. Amaterasu![pause]\\x02\\x03Lanzaron rayos y...[pause]\\x02\\x03¡Convirtieron a \ntodos en Oinkmon![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Espera, Vemmon\nno tiene ese\npoder...[pause]\\x02\\x03¿Los han \nreprogramado?[pause]"
+  - "\\x02\\x07Kail\\x02\\x07N..No sé...[pause]\\x02\\x03Nos escondimos\nen el sótano.[pause]\\x02\\x03Pero yo fui la \núnica que no se \ntransformó.[pause]\\x02\\x03Teddy y Lisa \ntambién se \nvolvieron Oinkmon.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Qué está pasando...[pause]\\x02\\x03...¿Y a dónde \nfueron los Vemmon?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023...¿Y a dónde \nfueron los Vemmon?[pause]"
   - |-
-    [\x0207]Kail[\x0207]¡Fueron directos
+    \x02\x07Kail\x02\x07¡Fueron directos
     a la Sala
     Maestra![pause]
   - |-
-    [\x0207][\x020902]3¡Entonces hay algún
+    \x02\x07\x02\x09\x023¡Entonces hay algún
     secreto en la Sala
-    Maestra![pause][\x0203]¡Bueno, vamos![pause][\x0203]Kail, escóndete
+    Maestra![pause]\x02\x03¡Bueno, vamos![pause]\x02\x03Kail, escóndete
     en algún sitio
     seguro.[pause]
   - |-
-    [\x0207]Kail[\x0207]¿Qué?
+    \x02\x07Kail\x02\x07¿Qué?
     Pe-pero...
-    [\x020801][\x020501].[pause]
+    \x02\x08\x01\x02\x05\x01.[pause]
   - |-
-    [\x0207][\x020902]3¡Soy el único que
+    \x02\x07\x02\x09\x023¡Soy el único que
     puede luchar con ellos
-    en este mundo![pause][\x0203]¡No te preocupes!
+    en este mundo![pause]\x02\x03¡No te preocupes!
     ¡Déjamelo a mí![pause]
   - |-
-    [\x0207]Kail[\x0207]De acuerdo.
+    \x02\x07Kail\x02\x07De acuerdo.
     Te creeré,
-    [\x020801][\x020501]...[pause][\x0203]¡Pero te la cargas
+    \x02\x08\x01\x02\x05\x01...[pause]\x02\x03¡Pero te la cargas
     si pierdes![pause]
   - |-
-    [\x0207][\x020902]3¡Vale!
+    \x02\x07\x02\x09\x023¡Vale!
     ¡Me voy![pause]
   - |-
-    [\x0207]Kail[\x0207]Ten cuidado,
-    [\x020801][\x020501].[pause]
+    \x02\x07Kail\x02\x07Ten cuidado,
+    \x02\x08\x01\x02\x05\x01.[pause]
   - |-
-    [\x0207]Kail[\x0207]...Pero la A.o.A
+    \x02\x07Kail\x02\x07...Pero la A.o.A
     aún no ha perdido...[pause]
-  - "[\\x0207][\\x020902]3¿Entonces,\ntodo el \nresto...?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¿Entonces,\ntodo el \nresto...?[pause]"
   - |-
-    [\x0207]Kail[\x0207]Sí, sí. Teddy,
+    \x02\x07Kail\x02\x07Sí, sí. Teddy,
     Lisa y los demás
     son ahora Oinkmon.[pause]
-  - '[\x0207][\x020902]3¡Eh!, ¿Kail?[pause]'
+  - '\x02\x07\x02\x09\x023¡Eh!, ¿Kail?[pause]'
   - |-
-    [\x0207]Kurt[\x0207]¡Oink!
+    \x02\x07Kurt\x02\x07¡Oink!
     ¡Oin, ooink![pause]
   - |-
-    [\x0207]Kurt[\x0207]¡Ooink!
+    \x02\x07Kurt\x02\x07¡Ooink!
     ¡Ooi, oink![pause]
   - |-
-    [\x0207]Kail[\x0207]Me pregunto qué
+    \x02\x07Kail\x02\x07Me pregunto qué
     pasa en el Mundo
     Real...[pause]

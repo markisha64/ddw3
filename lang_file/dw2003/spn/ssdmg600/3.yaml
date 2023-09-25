@@ -1,7 +1,7 @@
 strings:
   - ''
-  - "[\\x0207]Junior[\\x0207]¿Dónde \nestoy?[pause]"
+  - "\\x02\\x07Junior\\x02\\x07¿Dónde \nestoy?[pause]"
   - |-
-    [\x0207][\x020902]3Ah, sí, me caí
-    al sótano.[pause][\x0203]¡Tengo que encontrar
+    \x02\x07\x02\x09\x023Ah, sí, me caí
+    al sótano.[pause]\x02\x03¡Tengo que encontrar
     una salida![pause]

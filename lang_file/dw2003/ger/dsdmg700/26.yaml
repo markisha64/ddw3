@@ -1,9 +1,9 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Ja, es ist wirklich
-    die echte Welt![pause][\x0203]Wow! Mein Körper
-    ist wirklich hier![pause][\x0203]Tja, dafür habe ich
-    leider keine Zeit![pause][\x0203]Wir haben nur 180
+    \x02\x07\x02\x09\x023Ja, es ist wirklich
+    die echte Welt![pause]\x02\x03Wow! Mein Körper
+    ist wirklich hier![pause]\x02\x03Tja, dafür habe ich
+    leider keine Zeit![pause]\x02\x03Wir haben nur 180
     Sekunden! Wir
     müssen uns beeilen![pause]

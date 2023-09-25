@@ -2,18 +2,18 @@ strings:
   - ''
   - |-
     TEMPO SCADUTO!
-    TEMPO SCADUTO![pause][\x0203]TRASFERIMENTO
+    TEMPO SCADUTO![pause]\x02\x03TRASFERIMENTO
     TERMINATO.
     DIGITALIZZAZIONE![pause]
   - |-
-    [\x0207]Ufficiale camera[\x0207]Macchina astrale
+    \x02\x07Ufficiale camera\x02\x07Macchina astrale
     OK. Nessuna
-    anomalia nei dati.[pause][\x0203]Fine digitalizzazione![pause]
+    anomalia nei dati.[pause]\x02\x03Fine digitalizzazione![pause]
   - |-
-    [\x0207][\x020902]3Oh, no! Tempo
+    \x02\x07\x02\x09\x023Oh, no! Tempo
     scaduto!
     Devo tornare![pause]
   - |-
-    [\x0207][\x020902]3E ora? La
+    \x02\x07\x02\x09\x023E ora? La
     Juggernaut sta
     per partire![pause]

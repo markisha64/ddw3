@@ -5,36 +5,36 @@ strings:
     L'expérience de la
     fusion est un succès ![pause]
   - |-
-    [\x0207]Maître de jeu[\x0207]Félicitations !
+    \x02\x07Maître de jeu\x02\x07Félicitations !
     Donc...  ?[pause]
   - |-
     Oui ! Lucky Mouse
     nous a fait perdre un
-    peu de temps,  [pause][\x0203]Mais l'opération
+    peu de temps,  [pause]\x02\x03Mais l'opération
     Sigma va commencer ![pause]
-  - '[\x0207]Maître de jeu [\x0207]Oui, monsieur ![pause]'
+  - '\x02\x07Maître de jeu \x02\x07Oui, monsieur ![pause]'
   - |-
     Vemmon,
     viens ici ![pause]
   - |-
-    [\x0207][\x020902]3Hé, Maître de jeu,
+    \x02\x07\x02\x09\x023Hé, Maître de jeu,
     à qui parles-tu ?
     Au chef de l'AoA ?[pause]
   - |-
-    [\x0207]Maître de jeu[\x0207]Oh, c'est ce
-    garçon de... [pause][\x0203]Que fais-tu
+    \x02\x07Maître de jeu\x02\x07Oh, c'est ce
+    garçon de... [pause]\x02\x03Que fais-tu
     ici ?[pause]
   - |-
-    [\x0207][\x020902]3Je suis ici pour te
-    donner une raclée ![pause][\x0203]Et tu ferais mieux
+    \x02\x07\x02\x09\x023Je suis ici pour te
+    donner une raclée ![pause]\x02\x03Et tu ferais mieux
     de me dévoiler les
     projets de l'AoA ![pause]
   - |-
-    [\x0207]Maître de jeu[\x0207]Tu crois que tu peux
-    me battre ? Imbécile ![pause][\x0203]Venez ici, mes
+    \x02\x07Maître de jeu\x02\x07Tu crois que tu peux
+    me battre ? Imbécile ![pause]\x02\x03Venez ici, mes
     précieux Digimons ![pause]
   - |-
-    [\x0207][\x020902]3Je me suis
+    \x02\x07\x02\x09\x023Je me suis
     débarrassé
-    des gardes ![pause][\x0203]Au tour du
+    des gardes ![pause]\x02\x03Au tour du
     Maître ![pause]

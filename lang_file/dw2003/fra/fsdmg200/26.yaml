@@ -1,19 +1,19 @@
 strings:
   - ''
   - |-
-    [\x0207]Kail[\x0207]C'est ennuyeux. On
+    \x02\x07Kail\x02\x07C'est ennuyeux. On
     ne peut pas entrer.[pause]
   - |-
-    [\x0207][\x020902]3Il doit y
+    \x02\x07\x02\x09\x023Il doit y
     avoir une
     solution⋯[pause]
   - |-
-    [\x0207]Kail[\x0207]Bon, on n'a
-    pas le choix.[pause][\x0203]Séparons-nous
+    \x02\x07Kail\x02\x07Bon, on n'a
+    pas le choix.[pause]\x02\x03Séparons-nous
     et allons nous
-    renseigner.[pause][\x0203]Va parler aux
+    renseigner.[pause]\x02\x03Va parler aux
     habitants d'ici.[pause]
   - |-
-    [\x0207][\x020902]3D'accord ![pause][\x0203]Je commence à
+    \x02\x07\x02\x09\x023D'accord ![pause]\x02\x03Je commence à
     m'inquiéter
     pour Teddy.[pause]

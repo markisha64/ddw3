@@ -1,12 +1,12 @@
 strings:
   - ''
-  - "[\\x0207]Pharaohmon[\\x0207]¡Perdí! ¡Eres\nmejor de lo \nque pareces![pause]"
-  - "[\\x0207][\\x020902]3¡Sí, \nclaro![pause]"
+  - "\\x02\\x07Pharaohmon\\x02\\x07¡Perdí! ¡Eres\nmejor de lo \nque pareces![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Sí, \nclaro![pause]"
   - |-
-    [\x0207]Pharaohmon[\x0207]Como muestra de
+    \x02\x07Pharaohmon\x02\x07Como muestra de
     respeto, te daré
     esto.[pause]
   - |-
-    [\x0207][\x020902]3¡Sí!¡La Varita
+    \x02\x07\x02\x09\x023¡Sí!¡La Varita
     Antigua![pause]
-  - "[\\x0207]Pharaohmon[\\x0207]Eres fuerte. \n¡Nuestros dioses \nirán contigo![pause]"
+  - "\\x02\\x07Pharaohmon\\x02\\x07Eres fuerte. \n¡Nuestros dioses \nirán contigo![pause]"

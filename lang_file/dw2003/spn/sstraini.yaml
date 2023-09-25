@@ -91,39 +91,39 @@ strings:
   - Defensa Rayo
   - Defensa Máquina
   - Defensa Oscur.
-  - '[\x020501] +[\x020502]'
-  - '[\x020501] -[\x020502]'
-  - "Resultado: \n¡Poder + [\\x020501]![pause]"
-  - "Resultado: \n¡Defensa + [\\x020501]![pause]"
-  - "Resultado: \n¡Espiritu + [\\x020501]![pause]"
-  - "Resultado: \n¡Sabiduría + [\\x020501]![pause]"
+  - '\x02\x05\x01 +\x02\x05\x02'
+  - '\x02\x05\x01 -\x02\x05\x02'
+  - "Resultado: \n¡Poder + \\x02\\x05\\x01![pause]"
+  - "Resultado: \n¡Defensa + \\x02\\x05\\x01![pause]"
+  - "Resultado: \n¡Espiritu + \\x02\\x05\\x01![pause]"
+  - "Resultado: \n¡Sabiduría + \\x02\\x05\\x01![pause]"
   - |-
     Resultado:
-    ¡Velocidad +[\x020501]![pause]
-  - "Result.: \n¡Def. Fuego +[\\x020501]![pause]"
-  - "Result.: \n¡Def. Agua + [\\x020501]![pause]"
-  - "Result.: \n¡Def. Hielo + [\\x02050b][pause]"
-  - "Result.: \n¡Def. Vien. + [\\x020501]![pause]"
-  - "Result.: \n¡Def. Rayo + [\\x020501]![pause]"
-  - "Result.: \n¡Def. Máquina + [\\x020501]![pause]"
-  - "Result.: \n¡Def. Oscur. + [\\x020501]![pause]"
+    ¡Velocidad +\x02\x05\x01![pause]
+  - "Result.: \n¡Def. Fuego +\\x02\\x05\\x01![pause]"
+  - "Result.: \n¡Def. Agua + \\x02\\x05\\x01![pause]"
+  - "Result.: \n¡Def. Hielo + \\x02\\x05\\x0b[pause]"
+  - "Result.: \n¡Def. Vien. + \\x02\\x05\\x01![pause]"
+  - "Result.: \n¡Def. Rayo + \\x02\\x05\\x01![pause]"
+  - "Result.: \n¡Def. Máquina + \\x02\\x05\\x01![pause]"
+  - "Result.: \n¡Def. Oscur. + \\x02\\x05\\x01![pause]"
   - |-
-    Result.: [pause][\x0203]¡Def. Fuego +[\x020501]!
-    ¡PM máx. + [\x020502]![pause]
+    Result.: [pause]\x02\x03¡Def. Fuego +\x02\x05\x01!
+    ¡PM máx. + \x02\x05\x02![pause]
   - |-
-    Result.: [pause][\x0203]¡Def. Agua + [\x020501]!
-    Def. - [\x020502][pause]
+    Result.: [pause]\x02\x03¡Def. Agua + \x02\x05\x01!
+    Def. - \x02\x05\x02[pause]
   - |-
-    Result.: [pause][\x0203]¡Def. Hielo + [\x020501]!
-    Vel. - [\x020502][pause]
+    Result.: [pause]\x02\x03¡Def. Hielo + \x02\x05\x01!
+    Vel. - \x02\x05\x02[pause]
   - |-
-    Result.: [pause][\x0203]¡Def. Vien. + [\x020501]!
-    Fuerza - [\x020502][pause]
-  - "Result.: [pause][\\x0203]¡Def. Rayo + [\\x020501]! \nSab. - [\\x020502][pause]"
-  - 'Result.: [pause][\x0203]¡Def. Máquina + [\x020502] tPV máx. + [\x020502]![pause]'
+    Result.: [pause]\x02\x03¡Def. Vien. + \x02\x05\x01!
+    Fuerza - \x02\x05\x02[pause]
+  - "Result.: [pause]\\x02\\x03¡Def. Rayo + \\x02\\x05\\x01! \nSab. - \\x02\\x05\\x02[pause]"
+  - 'Result.: [pause]\x02\x03¡Def. Máquina + \x02\x05\x02 tPV máx. + \x02\x05\x02![pause]'
   - |-
-    Result.: [pause][\x0203]¡Def. Oscur. + [\x020501]!
-    Espíritu - [\x020502][pause]
+    Result.: [pause]\x02\x03¡Def. Oscur. + \x02\x05\x01!
+    Espíritu - \x02\x05\x02[pause]
   - "Result.: \nNinguna mejora[pause]"
   - '-----'
   - '--'

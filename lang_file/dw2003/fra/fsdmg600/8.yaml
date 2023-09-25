@@ -1,14 +1,14 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Hmm... Je ne
+    \x02\x07\x02\x09\x023Hmm... Je ne
     peux m'attarder.[pause]
   - |-
-    [\x0207]BK WarGrowlmon[\x0207]Je sais.
+    \x02\x07BK WarGrowlmon\x02\x07Je sais.
     Allez, juste
     un combat ![pause]
   - |-
-    [\x0207][\x020902]3Alors d'accord !
+    \x02\x07\x02\x09\x023Alors d'accord !
     Mais je ne te ferai
     pas de cadeaux ![pause]
-  - "[\\x0207]BK WarGrowlmon[\\x0207]On est d'accord.[pause][\\x0203]Ouf, ça fait un\nmoment que je \nn'ai pas combattu.[pause]"
+  - "\\x02\\x07BK WarGrowlmon\\x02\\x07On est d'accord.[pause]\\x02\\x03Ouf, ça fait un\nmoment que je \nn'ai pas combattu.[pause]"

@@ -3,27 +3,27 @@ strings:
   - EXP
   - |-
     EXP gewonnen
-    [\x020501] EXP[pause]
+    \x02\x05\x01 EXP[pause]
   - LV
   - Level gewonnen![pause]
   - |-
     Gelernte Tech.:
-    [\x020501][pause]
+    \x02\x05\x01[pause]
   - |-
     Kann Tech. laden:
-    [\x020501][pause]
+    \x02\x05\x01[pause]
   - |-
-    [\x020501]
-    Level [\x020502]![pause]
+    \x02\x05\x01
+    Level \x02\x05\x02![pause]
   - |-
     Digitieren gelernt:
-    [\x020501][pause]
+    \x02\x05\x01[pause]
   - |-
     Digitieren-Steckpl. voll.
     Im Digimon-Lab. speichern.[pause]
   - |-
     BIT gewonnen:
-    [\x020501] BIT[pause]
+    \x02\x05\x01 BIT[pause]
   - |-
     Item gewonnen:
-    [\x020501][pause]
+    \x02\x05\x01[pause]

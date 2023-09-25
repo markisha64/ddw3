@@ -1,71 +1,71 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3OK, Andiamo
+    \x02\x07\x02\x09\x023OK, Andiamo
     al Settore Nord![pause]
   - |-
-    [\x0207]Teddy[\x0207]Aspetta!
+    \x02\x07Teddy\x02\x07Aspetta!
     Come ci
-    arriviamo?[pause][\x0203]Non ci sono strade
+    arriviamo?[pause]\x02\x03Non ci sono strade
     e Submarimon non
     può arrivarci![pause]
   - |-
-    [\x0207][\x020902]3Ah, in tal
+    \x02\x07\x02\x09\x023Ah, in tal
     caso...[pause]
   - |-
-    [\x0207]Teddy[\x0207]Ho sentito le
+    \x02\x07Teddy\x02\x07Ho sentito le
     guardie parlare
-    in prigione.[pause][\x0203]Se trovi Digmon
+    in prigione.[pause]\x02\x03Se trovi Digmon
     puoi arrivare
     al Settore Nord.[pause]
   - |-
-    [\x0207][\x020902]3Allora
+    \x02\x07\x02\x09\x023Allora
     è facile![pause]
   - |-
-    [\x0207]Teddy[\x0207]Ma occorre il digi-uovo
+    \x02\x07Teddy\x02\x07Ma occorre il digi-uovo
     della sapienza per
-    chiamarlo.[pause][\x0203]E credo si trovi solo
+    chiamarlo.[pause]\x02\x03E credo si trovi solo
     nel server
     Amaterasu.[pause]
   - |-
-    [\x0207][\x020902]3OK, andiamo ad
+    \x02\x07\x02\x09\x023OK, andiamo ad
     Amaterasu![pause]
   - |-
-    [\x0207]Teddy[\x0207]Ma come ci
+    \x02\x07Teddy\x02\x07Ma come ci
     arriviamo,
-    ad Amaterasu?[pause][\x0203]Sarà pieno zeppo
+    ad Amaterasu?[pause]\x02\x03Sarà pieno zeppo
     di agenti
     dell'A.o.A.[pause]
   - |-
-    [\x0207][\x020902]3Mmm, non
+    \x02\x07\x02\x09\x023Mmm, non
     ci avevo
     pensato.[pause]
   - |-
-    [\x0207][\x020902]3Ma l'A.o.A come
+    \x02\x07\x02\x09\x023Ma l'A.o.A come
     ci ha messo piede?[pause]
   - |-
-    [\x0207]Teddy[\x0207]Ci sono!
+    \x02\x07Teddy\x02\x07Ci sono!
     I soldati della
     città di Byakko![pause]
   - |-
-    [\x0207][\x020902]3Forse loro sanno
+    \x02\x07\x02\x09\x023Forse loro sanno
     qualcosa![pause]
   - |-
-    [\x0207]Teddy[\x0207]Sono certo
+    \x02\x07Teddy\x02\x07Sono certo
     di si![pause]
   - |-
-    [\x0207][\x020902]3OK, vado al
+    \x02\x07\x02\x09\x023OK, vado al
     Settore Ovest
     a investigare![pause]
   - |-
-    [\x0207]Teddy[\x0207]Va bene.
+    \x02\x07Teddy\x02\x07Va bene.
     Io cercherò in
     questo computer![pause]
   - |-
-    [\x0207][\x020902]3OK. Se trovi
+    \x02\x07\x02\x09\x023OK. Se trovi
     qualcosa, fammi
     sapere![pause]
   - |-
-    [\x0207]Teddy[\x0207]Bene!
+    \x02\x07Teddy\x02\x07Bene!
     Ci penso
     io![pause]

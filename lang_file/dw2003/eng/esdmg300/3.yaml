@@ -1,19 +1,19 @@
 strings:
   - ''
   - |-
-    [\x0207]Kail[\x0207]Hey [\x020801][\x020501]!
+    \x02\x07Kail\x02\x07Hey \x02\x08\x01\x02\x05\x01!
     You're late![pause]
-  - "[\\x0207][\\x020902]3Huh? Hey\nKail, are \nyou done?[pause]"
-  - "[\\x0207]Kail[\\x0207]Uh, Um... yeah.\nSo did you find \nTeddy?[pause]"
-  - "[\\x0207][\\x020902]3No, I couldn't \nfind him \nanywhere.[pause]"
-  - "[\\x0207]Kail[\\x0207]...me too.\nI looked everywhere...[pause][\\x0203]He did say he was \ngoing to the Admin\nCenter...[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Huh? Hey\nKail, are \nyou done?[pause]"
+  - "\\x02\\x07Kail\\x02\\x07Uh, Um... yeah.\nSo did you find \nTeddy?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023No, I couldn't \nfind him \nanywhere.[pause]"
+  - "\\x02\\x07Kail\\x02\\x07...me too.\nI looked everywhere...[pause]\\x02\\x03He did say he was \ngoing to the Admin\nCenter...[pause]"
   - |-
-    [\x0207][\x020902]3...I wonder how far
+    \x02\x07\x02\x09\x023...I wonder how far
     inside Teddy is...[pause]
-  - '[\x0207]Kail[\x0207].....[pause]'
-  - "[\\x0207]Kail[\\x0207]...don't you have \na feeling that \nhe's inside here?[pause]"
-  - "[\\x0207][\\x020902]3Hmm....won't \nknow 'til we \nlook.[pause]"
+  - '\x02\x07Kail\x02\x07.....[pause]'
+  - "\\x02\\x07Kail\\x02\\x07...don't you have \na feeling that \nhe's inside here?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hmm....won't \nknow 'til we \nlook.[pause]"
   - |-
-    [\x0207]Kail[\x0207]Gee thanks!
+    \x02\x07Kail\x02\x07Gee thanks!
     All right, let's go
     in then![pause]

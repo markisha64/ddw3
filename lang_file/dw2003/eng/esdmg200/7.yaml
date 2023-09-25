@@ -1,4 +1,4 @@
 strings:
   - ''
-  - "[\\x0207]Tamer Service[\\x0207]I understand.[pause][\\x0203]If you would like to \nget your Digimon out, \nplease come see me.[pause]"
-  - "[\\x0207][\\x020902]3OK, let's take a \nlook around the\nlobby![pause]"
+  - "\\x02\\x07Tamer Service\\x02\\x07I understand.[pause]\\x02\\x03If you would like to \nget your Digimon out, \nplease come see me.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023OK, let's take a \nlook around the\nlobby![pause]"

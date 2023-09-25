@@ -8,9 +8,9 @@ strings:
   - Correr
   - ¡Emboscada!
   - ¡Atacar!
-  - '[\x020501]!'
-  - ¡Contador! ¡[\x020501]!
-  - ¡[\x020501] de daño!
+  - '\x02\x05\x01!'
+  - ¡Contador! ¡\x02\x05\x01!
+  - ¡\x02\x05\x01 de daño!
   - X
   - PM
   - PV
@@ -21,9 +21,9 @@ strings:
   - Nada aprendido.
   - Sin reserva
   - Sin artículos.
-  - '[\x020501]'
-  - '[\x020501]・[\x020502]'
-  - '[\x020501]・[\x020502]・[\x020503]'
+  - '\x02\x05\x01'
+  - '\x02\x05\x01・\x02\x05\x02'
+  - '\x02\x05\x01・\x02\x05\x02・\x02\x05\x03'
   - Hab.
   - '--'
   - Cambiar
@@ -33,8 +33,8 @@ strings:
   - ¡Helado!
   - ¡Confundido!
   - ¡Dormido!
-  - ¡[\x020501] PV cur.!
-  - '[\x020501] X [\x020502] = [\x020503]!'
+  - ¡\x02\x05\x01 PV cur.!
+  - '\x02\x05\x01 X \x02\x05\x02 = \x02\x05\x03!'
   - '-'
   - ¡Contador!
   - Robado
@@ -54,7 +54,7 @@ strings:
   - ¡Defensa [arrow-down]!
   - ¡Velocidad [arrow-down]!
   - ¡Ahorrando Chi!
-  - ¡Digiev.! ¡[\x020501]!
+  - ¡Digiev.! ¡\x02\x05\x01!
   - ¡Atrás!
   - ¡A por ello!
   - ¡DV ADN!
@@ -78,13 +78,13 @@ strings:
   - ¡Fuerza, defensa y vdad. mdtas.!
   - ¡Retirando Digimon!
   - ¡Siguiente Digimon fuera!
-  - '[\x020501]!'
+  - '\x02\x05\x01!'
   - ¡KO!
   - ¡Vencido!
   - ¡Batalla ganada!
   - Aniquilado
   - Sin PM.
-  - 'Envenenado: [\x020501]'
+  - 'Envenenado: \x02\x05\x01'
   - ¡Helado, sin movimiento!
   - ¡Puede escapar!
   - ¡Puede digievolucionar!
@@ -142,5 +142,5 @@ strings:
   - ¡Galactimon aprendió una técnica!
   - ¡Sin PM!
   - ¡Cambio fallado!
-  - ¡[\x020501] PM absorbidos!
+  - ¡\x02\x05\x01 PM absorbidos!
   - ¡Dormido!

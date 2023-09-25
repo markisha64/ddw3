@@ -1,34 +1,34 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Alors ? J'ai
+    \x02\x07\x02\x09\x023Alors ? J'ai
     l'air d'un Digimon,
     maintenant ![pause]
   - |-
-    [\x0207]Kail[\x0207]Chut ! Tais-toi
-    un peu ![pause][\x0203]Ils ne doivent pas
+    \x02\x07Kail\x02\x07Chut ! Tais-toi
+    un peu ![pause]\x02\x03Ils ne doivent pas
     savoir qu'on n'est
     pas des Digimons ![pause]
   - |-
-    [\x0207][\x020902]3Oh... Ah...
+    \x02\x07\x02\x09\x023Oh... Ah...
     C'est vrai.
     Je comprends...[pause]
   - |-
-    [\x0207]Kail[\x0207]J'ai quelque chose
+    \x02\x07Kail\x02\x07J'ai quelque chose
     à vérifier. Je pars
-    en avant.[pause][\x0203][\x020801][\x020501], continue
-    à chercher Teddy.[pause][\x0203]Dès que j'ai fini, je
+    en avant.[pause]\x02\x03\x02\x08\x01\x02\x05\x01, continue
+    à chercher Teddy.[pause]\x02\x03Dès que j'ai fini, je
     te rejoins.[pause]
   - |-
-    [\x0207][\x020902]3Oh, OK.
+    \x02\x07\x02\x09\x023Oh, OK.
     Sois
     prudente.[pause]
   - |-
-    [\x0207]Kail[\x0207]Ne t'en
+    \x02\x07Kail\x02\x07Ne t'en
     fais pas
     pour moi ![pause]
   - |-
-    [\x0207][\x020902]3Qu'est-elle a ?
+    \x02\x07\x02\x09\x023Qu'est-elle a ?
     Je la trouve bizarre
-    depuis qu'on est ici... [pause][\x0203]Bon, je dois
+    depuis qu'on est ici... [pause]\x02\x03Bon, je dois
     chercher Teddy.[pause]

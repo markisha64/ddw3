@@ -1,13 +1,13 @@
 strings:
   - ''
-  - "[\\x0207]DO-Wache[\\x0207]Entschuldigung,  \nab hier haben nur \nMitarbeiter...[pause][\\x0203]...was, wieder\nein Digimon?![pause]"
+  - "\\x02\\x07DO-Wache\\x02\\x07Entschuldigung,  \nab hier haben nur \nMitarbeiter...[pause]\\x02\\x03...was, wieder\nein Digimon?![pause]"
   - |-
-    [\x0207][\x020902]3Umm, ja.
+    \x02\x07\x02\x09\x023Umm, ja.
     ...Ich..bin..ein
     ..verlor. Digimon![pause]
   - |-
-    [\x0207]DO-Wache[\x0207]Erst das rosa
+    \x02\x07DO-Wache\x02\x07Erst das rosa
     Agumon und
-    jetzt du...[pause][\x0203]Du kannst durch,
+    jetzt du...[pause]\x02\x03Du kannst durch,
     aber geh niemandem
     auf die Nerven.[pause]

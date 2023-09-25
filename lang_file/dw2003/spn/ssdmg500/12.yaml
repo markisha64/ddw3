@@ -1,10 +1,10 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Sí, ¡eso es!\n¡Vamos a \nluchar![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Sí, ¡eso es!\n¡Vamos a \nluchar![pause]"
   - |-
-    [\x0207]Zanbamon[\x0207]¡No eres oponente
+    \x02\x07Zanbamon\x02\x07¡No eres oponente
     para mi![pause]
   - |-
-    [\x0207][\x020902]3¿...Piensas
+    \x02\x07\x02\x09\x023¿...Piensas
     que vas a perder?[pause]
-  - "[\\x0207]Zanbamon[\\x0207]¿Q..Qué?\n¡No es verdad![pause][\\x0203]¡De acuerdo! \n¡Si quieres,\nluchemos![pause]"
+  - "\\x02\\x07Zanbamon\\x02\\x07¿Q..Qué?\n¡No es verdad![pause]\\x02\\x03¡De acuerdo! \n¡Si quieres,\nluchemos![pause]"

@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Qui
+    \x02\x07\x02\x09\x023Qui
     non c'è
     nessuno.[pause]
-  - "Sono Lord Megamorte, il\ndistruttore del Mondo\nReale e di quello Digitale.[pause][\\x0203]E diventerò un dio nel\nmondo che seguirà a \nquello distrutto.[pause][\\x0203]Ora vieni a me, \nre dei domatori.[pause][\\x0203]Ti aspetto presso il\nsatellite militare\nGunslinger![pause]"
+  - "Sono Lord Megamorte, il\ndistruttore del Mondo\nReale e di quello Digitale.[pause]\\x02\\x03E diventerò un dio nel\nmondo che seguirà a \nquello distrutto.[pause]\\x02\\x03Ora vieni a me, \nre dei domatori.[pause]\\x02\\x03Ti aspetto presso il\nsatellite militare\nGunslinger![pause]"
   - |-
-    [\x0207][\x020902]3Cosa?
+    \x02\x07\x02\x09\x023Cosa?
     Gunslinger?[pause]
   - |-
     Sì. Ti mostrerò la sua
     figura maestosa sospesa
     nello spazio.[pause]
   - |-
-    [\x0207][\x020902]3Co-
+    \x02\x07\x02\x09\x023Co-
     cosa?![pause]

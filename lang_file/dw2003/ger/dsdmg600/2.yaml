@@ -1,9 +1,9 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Hä? Seltsam.
+    \x02\x07\x02\x09\x023Hä? Seltsam.
     Hier ist gar kein
     Abzeichen.[pause]
-  - '[\x0207][\x020902]3Was zum?[pause]'
-  - "[\\x0207][\\x020902]3Was ist \ndenn jetzt?![pause]"
-  - '[\x0207][\x020902]3Whaaah![pause]'
+  - '\x02\x07\x02\x09\x023Was zum?[pause]'
+  - "\\x02\\x07\\x02\\x09\\x023Was ist \ndenn jetzt?![pause]"
+  - '\x02\x07\x02\x09\x023Whaaah![pause]'

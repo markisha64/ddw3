@@ -1,43 +1,43 @@
 strings:
   - ''
   - |-
-    [\x0207]Calciatore Hide[\x0207]Ehi, Cardmon
-    non esce.[pause][\x0203]E perché ho perso
+    \x02\x07Calciatore Hide\x02\x07Ehi, Cardmon
+    non esce.[pause]\x02\x03E perché ho perso
     Gabumon?[pause]
   - |-
-    [\x0207][\x020902]3Perché
+    \x02\x07\x02\x09\x023Perché
     dai calci agli
     alberi?[pause]
   - |-
-    [\x0207]Calciatore Hide[\x0207]Mi ha chiesto
+    \x02\x07Calciatore Hide\x02\x07Mi ha chiesto
     perché lo
-    faccio?[pause][\x0203]Per trovare
+    faccio?[pause]\x02\x03Per trovare
     un Cardmon![pause]
   - |-
-    [\x0207][\x020902]3Cardmon?
+    \x02\x07\x02\x09\x023Cardmon?
     Cos'è? Un
     Digimon?[pause]
   - |-
-    [\x0207]Hide calciatore[\x0207]Cardmon è un Digimon
+    \x02\x07Hide calciatore\x02\x07Cardmon è un Digimon
     che lascia pacchi
-    di carte extra.[pause][\x0203]Solo Divermon in
+    di carte extra.[pause]\x02\x03Solo Divermon in
     città li può
     aprire.[pause]
   - |-
-    [\x0207][\x020902]3Cardmon ha
-    dei pacchi?[pause][\x0203]Allora lasciami
+    \x02\x07\x02\x09\x023Cardmon ha
+    dei pacchi?[pause]\x02\x03Allora lasciami
     calciare un po'.[pause]
   - |-
-    [\x0207]Hide calciatore[\x0207]Heh heh heh. Ci
+    \x02\x07Hide calciatore\x02\x07Heh heh heh. Ci
     vogliono gli stivali
-    dell'albero.[pause][\x0203]E tu magari
+    dell'albero.[pause]\x02\x03E tu magari
     li vuoi,
-    vero?[pause][\x0203]Ho perso la mia
+    vero?[pause]\x02\x03Ho perso la mia
     carta Gabumon.
-    Mi aiuti?[pause][\x0203]Se la trovi, ti dirò
+    Mi aiuti?[pause]\x02\x03Se la trovi, ti dirò
     come procurarti gli
     stivali.[pause]
   - |-
-    [\x0207][\x020902]3Una carta
+    \x02\x07\x02\x09\x023Una carta
     Gabumon? OK,
     torno presto![pause]

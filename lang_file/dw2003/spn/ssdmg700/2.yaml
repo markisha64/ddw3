@@ -1,13 +1,13 @@
 strings:
   - ''
-  - "[\\x0207]Administrador:[\\x0207]Registro completo.\nPor favor, vayan a \nla Sala de Cámara.[pause]"
+  - "\\x02\\x07Administrador:\\x02\\x07Registro completo.\nPor favor, vayan a \nla Sala de Cámara.[pause]"
   - |-
-    [\x0207]Junior[\x0207]¡Vale, Teddy, Ivy!
+    \x02\x07Junior\x02\x07¡Vale, Teddy, Ivy!
     ¡Vamos al Mundo
     Digital![pause]
   - |-
-    [\x0207]Ivy:[\x0207]¡Eeh!
+    \x02\x07Ivy:\x02\x07¡Eeh!
     ¡Para Junior![pause]
   - |-
-    [\x0207]Teddy.[\x0207]¡No he acabado
+    \x02\x07Teddy.\x02\x07¡No he acabado
     el registro![pause]

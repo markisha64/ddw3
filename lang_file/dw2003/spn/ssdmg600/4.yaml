@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Umm. ¿Qué bloquea
+    \x02\x07\x02\x09\x023Umm. ¿Qué bloquea
     el camino? ¿Una roca?[pause]
-  - '[\x0207]???[\x0207]No soy una roca.[pause]'
+  - '\x02\x07???\x02\x07No soy una roca.[pause]'
   - |-
-    [\x0207][\x020902]3¿Q..Q..
+    \x02\x07\x02\x09\x023¿Q..Q..
     Qué?[pause]
   - |-
-    [\x0207]Numemon[\x0207]Te lo dije.
+    \x02\x07Numemon\x02\x07Te lo dije.
     ¡Ciudad Byakko
     es peligrosa![pause]
   - |-
-    [\x0207][\x020902]3Eh, ¿eres el
+    \x02\x07\x02\x09\x023Eh, ¿eres el
     mismo Numemon?[pause]
-  - "[\\x0207]Numemon[\\x0207]Eso es.\nTe ayudaré, \n¡Vamos![pause]"
+  - "\\x02\\x07Numemon\\x02\\x07Eso es.\nTe ayudaré, \n¡Vamos![pause]"

@@ -86,23 +86,23 @@ strings:
   - Beidhändig
   - Aktuelle Ausr. ablegen.
   - HP maximal geheilt.
-  - '[\x020501] HP geheilt.'
-  - Max. HP um [\x020501] erhöht.
-  - Max. MP um [\x020501] erhöht.
-  - Stärke um [\x020501] erhöht.
-  - Abwehr um [\x020501] erhöht.
-  - Geist um [\x020501] erhöht.
-  - Weisheit um [\x020501] erhöht.
-  - Geschwindigkeit um [\x020501] erhöht.
-  - Charisma um [\x020501] erhöht.
-  - Feuertoleranz um [\x020501] erhöht.
-  - Wassertoleranz um [\x020501] erhöht.
-  - Eistoleranz um [\x020501] erhöht.
-  - Windtoleranz um [\x020501] erhöht.
-  - Donnertoleranz um [\x020501] erhöht.
-  - Maschinentoleranz um [\x020501] erhöht.
-  - Dunkelheittoleranz um [\x020501] erhöht.
-  - TP um [\x020501] erhöht.
+  - '\x02\x05\x01 HP geheilt.'
+  - Max. HP um \x02\x05\x01 erhöht.
+  - Max. MP um \x02\x05\x01 erhöht.
+  - Stärke um \x02\x05\x01 erhöht.
+  - Abwehr um \x02\x05\x01 erhöht.
+  - Geist um \x02\x05\x01 erhöht.
+  - Weisheit um \x02\x05\x01 erhöht.
+  - Geschwindigkeit um \x02\x05\x01 erhöht.
+  - Charisma um \x02\x05\x01 erhöht.
+  - Feuertoleranz um \x02\x05\x01 erhöht.
+  - Wassertoleranz um \x02\x05\x01 erhöht.
+  - Eistoleranz um \x02\x05\x01 erhöht.
+  - Windtoleranz um \x02\x05\x01 erhöht.
+  - Donnertoleranz um \x02\x05\x01 erhöht.
+  - Maschinentoleranz um \x02\x05\x01 erhöht.
+  - Dunkelheittoleranz um \x02\x05\x01 erhöht.
+  - TP um \x02\x05\x01 erhöht.
   - Keine Items.
   - Keine Waffen.
   - Keine Rüstung.

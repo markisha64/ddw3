@@ -1,21 +1,21 @@
 strings:
   - ''
   - |-
-    [\x0207]Maestro de Juego[\x0207]El Destromon
+    \x02\x07Maestro de Juego\x02\x07El Destromon
     debería nacer
     ahora...[pause]
-  - "[\\x0207][\\x020902]3¿Qué es \nDestromon?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¿Qué es \nDestromon?[pause]"
   - |-
-    [\x0207]Maestro de Juego[\x0207]¡Un Digimon nacido
+    \x02\x07Maestro de Juego\x02\x07¡Un Digimon nacido
     de la fusión de
-    Vemmon y Juggernaut![pause][\x0203]¡Es el Digimon
+    Vemmon y Juggernaut![pause]\x02\x03¡Es el Digimon
     más fuerte! ¡Ningún
     arma le afecta![pause]
   - |-
-    [\x0207]Lisa[\x0207]¡No tenemos tiempo
-    que perder![pause][\x0203]Capturemos al presid.
+    \x02\x07Lisa\x02\x07¡No tenemos tiempo
+    que perder![pause]\x02\x03Capturemos al presid.
     de MAGAMI para
     detener a Destromon.[pause]
-  - '[\x0207][\x020902]3¡Sí Sra.![pause]'
-  - '[\x0207]Teddy[\x0207]¡S..Sí![pause]'
-  - '[\x0207]Nick[\x0207]¡Recibido![pause]'
+  - '\x02\x07\x02\x09\x023¡Sí Sra.![pause]'
+  - '\x02\x07Teddy\x02\x07¡S..Sí![pause]'
+  - '\x02\x07Nick\x02\x07¡Recibido![pause]'

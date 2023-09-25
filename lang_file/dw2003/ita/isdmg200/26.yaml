@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207]Kail[\x0207]Non ci voleva.
+    \x02\x07Kail\x02\x07Non ci voleva.
     Come faremo?[pause]
-  - "[\\x0207][\\x020902]3Ci deve \nessere un\nmodo![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ci deve \nessere un\nmodo![pause]"
   - |-
-    [\x0207]Kail[\x0207]È inutile stare
+    \x02\x07Kail\x02\x07È inutile stare
     qui a
-    lamentarsi.[pause][\x0203]Dividiamoci
+    lamentarsi.[pause]\x02\x03Dividiamoci
     e guardiamo
-    bene in giro.[pause][\x0203]Chiediamo alla
+    bene in giro.[pause]\x02\x03Chiediamo alla
     gente in città.[pause]
   - |-
-    [\x0207][\x020902]3OK, lo farò![pause][\x0203]Comincio a
+    \x02\x07\x02\x09\x023OK, lo farò![pause]\x02\x03Comincio a
     preoccuparmi
     per Teddy.[pause]

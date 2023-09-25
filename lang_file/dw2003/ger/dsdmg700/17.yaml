@@ -1,18 +1,18 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Klasse, ich hab\nauch Genbu \nLeader besiegt![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Klasse, ich hab\nauch Genbu \nLeader besiegt![pause]"
   - |-
-    [\x0207]Genbu Leader[\x0207][\x020801][\x020501] tut mir leid.
-    Es musste sein.[pause][\x0203]Ich wollte mich selbst
-    überzeugen, dass...[pause][\x0203]du wirklich gegen die
+    \x02\x07Genbu Leader\x02\x07\x02\x08\x01\x02\x05\x01 tut mir leid.
+    Es musste sein.[pause]\x02\x03Ich wollte mich selbst
+    überzeugen, dass...[pause]\x02\x03du wirklich gegen die
     A.o.A. kämpfen kannst![pause]
-  - '[\x0207][\x020902]3Verstehe...[pause]'
+  - '\x02\x07\x02\x09\x023Verstehe...[pause]'
   - |-
-    [\x0207]Genbu Leader[\x0207]Nimm dies, und
+    \x02\x07Genbu Leader\x02\x07Nimm dies, und
     halte die A.o.A.
     von ihrem Plan ab![pause]
-  - "[\\x0207][\\x020902]3Klasse! Ich\nhab das \nGenbu-Abz.![pause]"
-  - "[\\x0207]Genbu Leader[\\x0207]Du bist stark \ngenug für den\nKampf![pause][\\x0203]Aber sie sind\nauch stark. Sei\ndaher wachsam![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Klasse! Ich\nhab das \nGenbu-Abz.![pause]"
+  - "\\x02\\x07Genbu Leader\\x02\\x07Du bist stark \ngenug für den\nKampf![pause]\\x02\\x03Aber sie sind\nauch stark. Sei\ndaher wachsam![pause]"
   - |-
-    [\x0207][\x020902]3Danke,
+    \x02\x07\x02\x09\x023Danke,
     Genbu Leader![pause]

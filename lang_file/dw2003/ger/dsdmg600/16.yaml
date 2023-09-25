@@ -1,37 +1,37 @@
 strings:
   - ''
   - |-
-    [\x0207]Angreifer[\x0207]Nein, neeein...
-    meine Digimon...[pause][\x0203]Dafür wirst du
+    \x02\x07Angreifer\x02\x07Nein, neeein...
+    meine Digimon...[pause]\x02\x03Dafür wirst du
     bezahlen![pause]
   - |-
-    [\x0207]Lisa[\x0207]Danke, [\x020801][\x020501].
+    \x02\x07Lisa\x02\x07Danke, \x02\x08\x01\x02\x05\x01.
     Du hast mich schon
     wieder gerettet![pause]
   - |-
-    [\x0207]Kail[\x0207]Aber Kurt ist...!
+    \x02\x07Kail\x02\x07Aber Kurt ist...!
     Ich dachte, ich hätte
     ihn endlich gefunden.[pause]
-  - '[\x0207]Kurt[\x0207]Oink, oink[pause]'
+  - '\x02\x07Kurt\x02\x07Oink, oink[pause]'
   - |-
-    [\x0207][\x020902]3OK, ich habe mich
+    \x02\x07\x02\x09\x023OK, ich habe mich
     entschieden! Ich gehe
-    nach Asuka City![pause][\x0203]Ich werde Teddy
+    nach Asuka City![pause]\x02\x03Ich werde Teddy
     retten u. d. Game-
     master besiegen![pause]
   - |-
-    [\x0207]Kail[\x0207]Ja, wir machen die
-    A.o.A. fertig![pause][\x0203]Und verwandeln Kurt
+    \x02\x07Kail\x02\x07Ja, wir machen die
+    A.o.A. fertig![pause]\x02\x03Und verwandeln Kurt
     zurück![pause]
-  - "[\\x0207]Lisa[\\x0207]Ich bitte dich auch\ndarum![pause][\\x0203]Aber es soll keine\nPanik ausbrechen.[pause][\\x0203]Könnt ihr das über\ndie A.o.A. für \neuch behalten?[pause]"
-  - '[\x0207][\x020902]3Ist klar![pause]'
+  - "\\x02\\x07Lisa\\x02\\x07Ich bitte dich auch\ndarum![pause]\\x02\\x03Aber es soll keine\nPanik ausbrechen.[pause]\\x02\\x03Könnt ihr das über\ndie A.o.A. für \neuch behalten?[pause]"
+  - '\x02\x07\x02\x09\x023Ist klar![pause]'
   - |-
-    [\x0207][\x020902]3OK, Kail.
+    \x02\x07\x02\x09\x023OK, Kail.
     Ich gehe![pause]
   - |-
-    [\x0207]Kail[\x0207]Wenn du verlierst,
+    \x02\x07Kail\x02\x07Wenn du verlierst,
     verzeihe ich dir das
     nie, verstanden?![pause]
   - |-
-    [\x0207]Lisa[\x0207]Ich drück dir die
+    \x02\x07Lisa\x02\x07Ich drück dir die
     Daumen! V.Glück![pause]

@@ -1,675 +1,675 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Super!
+    \x02\x07\x02\x09\x023Super!
     Ich hab' einen
     Rüstungs-Chip![pause]
   - |-
-    [\x0207][\x020902]3Super!
+    \x02\x07\x02\x09\x023Super!
     Ich hab' einen
     Feuer-Chip![pause]
   - |-
-    [\x0207][\x020902]3Super!
+    \x02\x07\x02\x09\x023Super!
     Ich hab' einen
     Wasser-Chip![pause]
   - |-
-    [\x0207]Tamer Genji[\x0207]Ha ha! Ich habe
+    \x02\x07Tamer Genji\x02\x07Ha ha! Ich habe
     Gerüchte über
-    dich gehört![pause][\x0203]Du bist ein ganz
+    dich gehört![pause]\x02\x03Du bist ein ganz
     guter Tamer
     geworden![pause]
   - |-
-    [\x0207]Tamer Genji[\x0207]Mal sehen, wie
+    \x02\x07Tamer Genji\x02\x07Mal sehen, wie
     gut du beim Kampf
     mit Karten bist![pause]
   - |-
-    [\x0207]Tamer Genji[\x0207]Was?! Du musst
+    \x02\x07Tamer Genji\x02\x07Was?! Du musst
     noch mehr
-    trainieren![pause][\x0203]Du enttäuschst mich!
+    trainieren![pause]\x02\x03Du enttäuschst mich!
     Du musst noch
     stärker werden![pause]
   - |-
-    [\x0207]Tamer Genji[\x0207]Ah ha! Es stimmt
+    \x02\x07Tamer Genji\x02\x07Ah ha! Es stimmt
     also! Du bist
-    stark![pause][\x0203]Freue mich schon
+    stark![pause]\x02\x03Freue mich schon
     zu sehen, wie
     stark du wirst![pause]
-  - "[\\x0207]Agumon[\\x0207]Würden Veemon, Guilmon\nund ich kämpfen...[pause][\\x0203]wer würde wohl als\nStärkster aus dem \nKampf hervorgehen?[pause]"
+  - "\\x02\\x07Agumon\\x02\\x07Würden Veemon, Guilmon\nund ich kämpfen...[pause]\\x02\\x03wer würde wohl als\nStärkster aus dem \nKampf hervorgehen?[pause]"
   - |-
-    [\x0207]Guilmon[\x0207]Mmmh! Das
-    riecht gut![pause][\x0203]Heute gibt
+    \x02\x07Guilmon\x02\x07Mmmh! Das
+    riecht gut![pause]\x02\x03Heute gibt
     es Hamburger![pause]
-  - "[\\x0207]Guilmon[\\x0207]Ach, du bist\n[\\x020801][\\x020501], der\nberühmte Tamer?[pause][\\x0203]Wir wollen dich alle\nbesiegen! Sei also \nauf der Hut![pause]"
-  - "[\\x0207]Ivy[\\x0207]Hey, [\\x020801][\\x020501], \nder Junge ist\nder Wahnsinn![pause][\\x0203]Er hat Digimon-Online\nwieder aufgebaut!\nVielleicht kannst[pause][\\x0203]du noch was lernen,\nwenn du zuschaust![pause]"
+  - "\\x02\\x07Guilmon\\x02\\x07Ach, du bist\n\\x02\\x08\\x01\\x02\\x05\\x01, der\nberühmte Tamer?[pause]\\x02\\x03Wir wollen dich alle\nbesiegen! Sei also \nauf der Hut![pause]"
+  - "\\x02\\x07Ivy\\x02\\x07Hey, \\x02\\x08\\x01\\x02\\x05\\x01, \nder Junge ist\nder Wahnsinn![pause]\\x02\\x03Er hat Digimon-Online\nwieder aufgebaut!\nVielleicht kannst[pause]\\x02\\x03du noch was lernen,\nwenn du zuschaust![pause]"
   - |-
-    [\x0207]Agumon-Fan Ike[\x0207]Digimon sind ohne
-    Agumon nichts![pause][\x0203]Das kann ich dir
+    \x02\x07Agumon-Fan Ike\x02\x07Digimon sind ohne
+    Agumon nichts![pause]\x02\x03Das kann ich dir
     aus 20 Jahren
     Erfahrung sagen![pause]
   - |-
-    [\x0207]Tamer Natsumi[\x0207]Ich bin Natsumi!
+    \x02\x07Tamer Natsumi\x02\x07Ich bin Natsumi!
     Ich will Tamer-
     Star werden![pause]
   - |-
-    [\x0207]Tamer Natsumi[\x0207]Los, lass uns
+    \x02\x07Tamer Natsumi\x02\x07Los, lass uns
     Karten spielen!
     Ich bin gut![pause]
   - |-
-    [\x0207]Tamer Natsumi[\x0207]Gewonnen![pause][\x0203]Ich muss stark
+    \x02\x07Tamer Natsumi\x02\x07Gewonnen![pause]\x02\x03Ich muss stark
     sein, um Tamer-
     Star zu werden![pause]
-  - "[\\x0207]Tamer Natsumi[\\x0207]Was ist\npassiert?[pause][\\x0203]Mist! Tu so, als \nob du nichts\ndavon gehört hast![pause]"
+  - "\\x02\\x07Tamer Natsumi\\x02\\x07Was ist\npassiert?[pause]\\x02\\x03Mist! Tu so, als \nob du nichts\ndavon gehört hast![pause]"
   - |-
-    [\x0207]Flamedramon[\x0207]Lucky Mouse, will
+    \x02\x07Flamedramon\x02\x07Lucky Mouse, will
     sagen Kurt, hat
-    die Herrschaft![pause][\x0203]Auch wir Digimon
+    die Herrschaft![pause]\x02\x03Auch wir Digimon
     spielen gerne![pause]
   - |-
-    [\x0207]Kumamon[\x0207]Du hast also
+    \x02\x07Kumamon\x02\x07Du hast also
     die A.o.A
-    besiegt?[pause][\x0203]Wow! Du bist
+    besiegt?[pause]\x02\x03Wow! Du bist
     echt toll![pause]
   - |-
-    [\x0207]Miss Olivia[\x0207]Ich bin heimlich
+    \x02\x07Miss Olivia\x02\x07Ich bin heimlich
     aus dem Büro,
-    um online zu gehen.[pause][\x0203]Ja, hab' schon ein
+    um online zu gehen.[pause]\x02\x03Ja, hab' schon ein
     schlechtes Gewissen,
-    aber es macht Spaβ![pause][\x0203]Ich darf mich nur
+    aber es macht Spaβ![pause]\x02\x03Ich darf mich nur
     nicht erwischen
     lassen![pause]
   - |-
-    [\x0207]Faulpelz Alan[\x0207]Wir können wohl nur
+    \x02\x07Faulpelz Alan\x02\x07Wir können wohl nur
     im Ost- und Zentral-
-    sektor spielen.[pause][\x0203]Ist ja nur ein Test,
+    sektor spielen.[pause]\x02\x03Ist ja nur ein Test,
     also ist das OK.[pause]
   - |-
-    [\x0207]Kumamon-Fan Satomi[\x0207]Kumamon ist
-    so süβ![pause][\x0203]Er ist so weich und
+    \x02\x07Kumamon-Fan Satomi\x02\x07Kumamon ist
+    so süβ![pause]\x02\x03Er ist so weich und
     flauschig, wie ein
     Stofftier![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Das ist Amaterasu
+    \x02\x07DO Wache\x02\x07Das ist Amaterasu
     City, Zentrum des
-    Amaterasu-Servers.[pause][\x0203]Der Systemserver, der
+    Amaterasu-Servers.[pause]\x02\x03Der Systemserver, der
     Digimon-Online steuert,
     ist hier.[pause]
   - |-
-    [\x0207]DO Wache[\x0207]Die Digimon helfen
-    den Wachen ab jetzt.[pause][\x0203]Jetzt werden wir uns
+    \x02\x07DO Wache\x02\x07Die Digimon helfen
+    den Wachen ab jetzt.[pause]\x02\x03Jetzt werden wir uns
     nicht mehr einnehmen
     lassen![pause]
   - |-
-    [\x0207]Tamer-Service[\x0207]Deine Daten sind
+    \x02\x07Tamer-Service\x02\x07Deine Daten sind
     gleich und werden
-    wie vorher genutzt.[pause][\x0203]Strebe immer danach,
+    wie vorher genutzt.[pause]\x02\x03Strebe immer danach,
     der beste Tamer
     zu sein![pause]
   - |-
-    [\x0207]Wache[\x0207]Danke, dass du
+    \x02\x07Wache\x02\x07Danke, dass du
     an der Testrunde
-    teilgenommen hast.[pause][\x0203]Du kannst nur in
+    teilgenommen hast.[pause]\x02\x03Du kannst nur in
     den Ost- und Zentral-
-    sektoren spielen.[pause][\x0203]Die Platine wird aber
+    sektoren spielen.[pause]\x02\x03Die Platine wird aber
     zu deinem Vergnügen
     gebootet![pause]
   - |-
-    [\x0207]Klassenspr. Aiko[\x0207]Habe gehört, hier sind
+    \x02\x07Klassenspr. Aiko\x02\x07Habe gehört, hier sind
     noch eine Menge ge-
-    heimer Items versteckt.[pause][\x0203]An einem Ort bekommst
+    heimer Items versteckt.[pause]\x02\x03An einem Ort bekommst
     du auch verlorene
     Sachen wieder![pause]
   - |-
-    [\x0207]Jake[\x0207]Ha ha ha!
-    Hier ist es toll![pause][\x0203]Auch wenn wir nicht
+    \x02\x07Jake\x02\x07Ha ha ha!
+    Hier ist es toll![pause]\x02\x03Auch wenn wir nicht
     Digimon spielen
     können, es ist toll![pause]
   - |-
-    [\x0207]Oma Beth[\x0207]Opa und ich haben
+    \x02\x07Oma Beth\x02\x07Opa und ich haben
     ewig auf diesen
-    Tag gewartet.[pause][\x0203]Ich bin froh, dass
+    Tag gewartet.[pause]\x02\x03Ich bin froh, dass
     wir am Ende heil
     zurück sind![pause]
-  - "[\\x0207]Omegamon-Fan Shin[\\x0207]Meine Digimon \ndigitieren noch nicht\nzu Omegamon![pause][\\x0203]Vielleicht müssen sie\nweiter trainieren und\nstärker werden.[pause]"
+  - "\\x02\\x07Omegamon-Fan Shin\\x02\\x07Meine Digimon \ndigitieren noch nicht\nzu Omegamon![pause]\\x02\\x03Vielleicht müssen sie\nweiter trainieren und\nstärker werden.[pause]"
   - |-
-    [\x0207]Manager Sasaki[\x0207]Ich bin heute nicht
+    \x02\x07Manager Sasaki\x02\x07Ich bin heute nicht
     arbeiten, um mich
-    hier anzumelden.[pause][\x0203]Gut zu wissen, dass
+    hier anzumelden.[pause]\x02\x03Gut zu wissen, dass
     der Direktor nicht
     hier ist![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Dieser Bereich ist
+    \x02\x07DO Wache\x02\x07Dieser Bereich ist
     noch eine
     Baustelle![pause]
   - |-
-    [\x0207]Patamon[\x0207]Gut, dass Digimon-
+    \x02\x07Patamon\x02\x07Gut, dass Digimon-
     Online teilweise
-    repariert ist![pause][\x0203]Jetzt können wir
+    repariert ist![pause]\x02\x03Jetzt können wir
     wieder zusammen
     spielen![pause]
   - |-
-    [\x0207]Monmon[\x0207]Gut, dass so viele
+    \x02\x07Monmon\x02\x07Gut, dass so viele
     Leute hergekommen
-    sind![pause][\x0203]Digimon-Online mit
+    sind![pause]\x02\x03Digimon-Online mit
     vielen Leuten ist
     erst richtig Spaβ![pause]
   - |-
-    [\x0207]Digitier-Navi[\x0207]Hier kannst du
+    \x02\x07Digitier-Navi\x02\x07Hier kannst du
     mehr über die
-    Digitation lernen.[pause][\x0203]Welches Thema
+    Digitation lernen.[pause]\x02\x03Welches Thema
     interessiert dich?[pause]
   - |-
-    [\x0207]Digimon-Navi[\x0207]Hier kannst du
+    \x02\x07Digimon-Navi\x02\x07Hier kannst du
     mehr über Digimon-
-    Kämpfe und das[pause][\x0203]Züchten von Digimon
+    Kämpfe und das[pause]\x02\x03Züchten von Digimon
     lernen. Welches Thema
     interessiert dich?[pause]
   - |-
-    [\x0207]Dr. Osomatsu[\x0207]Willkommen in
-    meinem Labor![pause][\x0203]Was möchtest du
+    \x02\x07Dr. Osomatsu\x02\x07Willkommen in
+    meinem Labor![pause]\x02\x03Was möchtest du
     mit deinen
     Digimon machen?[pause]
-  - "[\\x0207]Kotemon[\\x0207]Hey! Du bist\n[\\x020801][\\x020501], \noder?[pause][\\x0203]Hätte nie gedacht,\ndich an diesem Ort\nzu treffen![pause]"
+  - "\\x02\\x07Kotemon\\x02\\x07Hey! Du bist\n\\x02\\x08\\x01\\x02\\x05\\x01, \noder?[pause]\\x02\\x03Hätte nie gedacht,\ndich an diesem Ort\nzu treffen![pause]"
   - |-
-    [\x0207]Account-Anm.[\x0207]Gut, dass ihr
+    \x02\x07Account-Anm.\x02\x07Gut, dass ihr
     alle wieder
-    da seid![pause][\x0203]Viel Spaβ, auch
+    da seid![pause]\x02\x03Viel Spaβ, auch
     wenn es nur eine
     Testrunde ist![pause]
   - |-
-    [\x0207]Arena-Empfang[\x0207]Hier kannst du gegen
+    \x02\x07Arena-Empfang\x02\x07Hier kannst du gegen
     die besten Tamer
-    kämpfen.[pause][\x0203]Willst du kämpfen,
+    kämpfen.[pause]\x02\x03Willst du kämpfen,
     folge den vier
-    Leadern.[pause][\x0203]Komm hierher zurück,
+    Leadern.[pause]\x02\x03Komm hierher zurück,
     wenn du alle besiegt
     hast.[pause]
-  - "[\\x0207]Arena-Empfang[\\x0207]Willkommen, \n[\\x020801][\\x020501]! Hab\ndich erwartet![pause]"
+  - "\\x02\\x07Arena-Empfang\\x02\\x07Willkommen, \n\\x02\\x08\\x01\\x02\\x05\\x01! Hab\ndich erwartet![pause]"
   - |-
-    [\x0207]Arena-Empfang[\x0207]Du musst stark sein,
+    \x02\x07Arena-Empfang\x02\x07Du musst stark sein,
     wenn du Kurt
-    besiegen kannst![pause][\x0203]Du hast aber gerade
+    besiegen kannst![pause]\x02\x03Du hast aber gerade
     erst mit dem Tamer
-    Training begonnen.[pause][\x0203]Viel Glück dir und
+    Training begonnen.[pause]\x02\x03Viel Glück dir und
     allen Digimon![pause]
   - |-
-    [\x0207]Renamon[\x0207]Bin gespannt, was
+    \x02\x07Renamon\x02\x07Bin gespannt, was
     für Tamer alles
-    kommen![pause][\x0203]Ich werde alle
+    kommen![pause]\x02\x03Ich werde alle
     Kämpfe genau
     beobachten![pause]
   - |-
-    [\x0207]Gatomon[\x0207]Willkommen in
-    meinem Hotel![pause][\x0203]Fühl' dich hier
+    \x02\x07Gatomon\x02\x07Willkommen in
+    meinem Hotel![pause]\x02\x03Fühl' dich hier
     wie zu Hause![pause]
   - |-
-    [\x0207]Guardromon[\x0207]Du willst
+    \x02\x07Guardromon\x02\x07Du willst
     speichern?
     Augenblick...[pause]
   - |-
-    [\x0207]Kotemon[\x0207]Wir Digimon werden
+    \x02\x07Kotemon\x02\x07Wir Digimon werden
     alle diesen Server
-    beschützen.[pause][\x0203]Ich bin als Wache
+    beschützen.[pause]\x02\x03Ich bin als Wache
     für diesen Bereich
     zuständig.[pause]
-  - "[\\x0207][\\x020902]3Es ist aufgeräumt!\nOb die mein Zimmer \nauch aufräumen?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Es ist aufgeräumt!\nOb die mein Zimmer \nauch aufräumen?[pause]"
   - |-
-    [\x0207][\x020902]3Hey! Da ist
-    doch was! [pause][\x0203]Ja! Ich habe
+    \x02\x07\x02\x09\x023Hey! Da ist
+    doch was! [pause]\x02\x03Ja! Ich habe
     8500 BIT!![pause]
   - |-
-    [\x0207][\x020902]3Ob hier wohl
+    \x02\x07\x02\x09\x023Ob hier wohl
     etwas ist?
     Sieht nicht so aus.[pause]
   - |-
-    [\x0207][\x020902]3Nö, sieht so
+    \x02\x07\x02\x09\x023Nö, sieht so
     aus, als sei
     hier nichts.[pause]
-  - "[\\x0207]Gargoylemon[\\x0207]Ein Waffen- \nladen! Willst\ndu rein?[pause]"
+  - "\\x02\\x07Gargoylemon\\x02\\x07Ein Waffen- \nladen! Willst\ndu rein?[pause]"
   - |-
-    [\x0207]Wizermon[\x0207]Willkommen im
+    \x02\x07Wizermon\x02\x07Willkommen im
     Item-Shop![pause]
   - |-
-    [\x0207]Gomamon[\x0207]Dies ist ein
+    \x02\x07Gomamon\x02\x07Dies ist ein
     Schmuckladen!
     Was darf's sein[pause]
   - |-
-    [\x0207]Wizermon[\x0207]Willkommen im
+    \x02\x07Wizermon\x02\x07Willkommen im
     Item-Shop![pause]
-  - "[\\x0207]Gargoylemon[\\x0207]Ein Waffen- \nladen! Willst\ndu rein?[pause]"
+  - "\\x02\\x07Gargoylemon\\x02\\x07Ein Waffen- \nladen! Willst\ndu rein?[pause]"
   - |-
-    [\x0207]Reicher Bruce[\x0207]Mist! Hier gibt
+    \x02\x07Reicher Bruce\x02\x07Mist! Hier gibt
     es keine Sturm-
-    arme![pause][\x0203]Ich soll jedoch
+    arme![pause]\x02\x03Ich soll jedoch
     einen finden
     können.[pause]
   - |-
-    [\x0207]Miss Ripley[\x0207]Hast du eine Waffe,
+    \x02\x07Miss Ripley\x02\x07Hast du eine Waffe,
     die Geister mit
-    einem Schlag besiegt?[pause][\x0203]Ich bin es satt,
+    einem Schlag besiegt?[pause]\x02\x03Ich bin es satt,
     ständig weglaufen
     zu müssen![pause]
   - |-
-    [\x0207]Master Paul[\x0207]John aus Asuka City
+    \x02\x07Master Paul\x02\x07John aus Asuka City
     und ich werden live
-    bei Digimon-Online[pause][\x0203]Revival Live spielen!
+    bei Digimon-Online[pause]\x02\x03Revival Live spielen!
     Ich bin gespannt![pause]
   - |-
-    [\x0207]Kellnerin Linda[\x0207]Bin so froh, dass
+    \x02\x07Kellnerin Linda\x02\x07Bin so froh, dass
     alle Gäste wieder
-    da sind![pause][\x0203]In der Hektik bin
+    da sind![pause]\x02\x03In der Hektik bin
     ich auf den echten
     Start gespannt![pause]
   - |-
-    [\x0207]Onkel Carlos[\x0207]Du bist der Held,
+    \x02\x07Onkel Carlos\x02\x07Du bist der Held,
     weil du die
-    A.o.A besiegt hast![pause][\x0203]Gut gemacht! Echt
+    A.o.A besiegt hast![pause]\x02\x03Gut gemacht! Echt
     gut gemacht![pause]
   - |-
-    [\x0207]Sepikmon[\x0207]Heute sollten wir
+    \x02\x07Sepikmon\x02\x07Heute sollten wir
     feiern, denn
-    Digimon-Online ist[pause][\x0203]wieder da! Aber mei-
+    Digimon-Online ist[pause]\x02\x03wieder da! Aber mei-
     ne Maske nehme ich
     nicht ab![pause]
   - |-
-    [\x0207]Veemon[\x0207]Was war in dem
+    \x02\x07Veemon\x02\x07Was war in dem
     Wasser, das wir
-    tranken?[pause][\x0203]Ich fühle mich
+    tranken?[pause]\x02\x03Ich fühle mich
     so beschwingt![pause]
   - |-
-    [\x0207]Nick[\x0207]Hier ist auch
+    \x02\x07Nick\x02\x07Hier ist auch
     alles erste
-    Sahne![pause][\x0203]Ach, alte Gewohn-
+    Sahne![pause]\x02\x03Ach, alte Gewohn-
     heiten wird man
     nicht los...[pause]
   - |-
-    [\x0207]Nick[\x0207]Yeah, Kurt hat
+    \x02\x07Nick\x02\x07Yeah, Kurt hat
     mir das hier
-    anvertraut.[pause][\x0203]Bitte, deine Akten-
+    anvertraut.[pause]\x02\x03Bitte, deine Akten-
     tasche. Noch ist es
-    nicht richtig, oder?[pause][\x0203]Diese Karten und der
+    nicht richtig, oder?[pause]\x02\x03Diese Karten und der
     andere Tamer-Kram
     werden dich begeistern![pause]
   - |-
-    [\x0207]Nick[\x0207]Kurt hat mich
+    \x02\x07Nick\x02\x07Kurt hat mich
     heute zum
-    Spielen eingeladen.[pause][\x0203]Aber wo sind alle?[pause]
+    Spielen eingeladen.[pause]\x02\x03Aber wo sind alle?[pause]
   - |-
-    [\x0207]Smith Junior[\x0207]Die Auktion ist
-    heute geschlossen![pause][\x0203]Hier kann man sich
+    \x02\x07Smith Junior\x02\x07Die Auktion ist
+    heute geschlossen![pause]\x02\x03Hier kann man sich
     für kurze Zeit
     gut verstecken![pause]
   - |-
-    [\x0207]Divermon[\x0207]Willkommen bei
+    \x02\x07Divermon\x02\x07Willkommen bei
     Gelber Kreuzer, dem
     Paradies für Karten![pause]
   - |-
-    [\x0207]Sammlerin Leia[\x0207]Ich zeige dir,
+    \x02\x07Sammlerin Leia\x02\x07Ich zeige dir,
     wie man spielt![pause]
   - |-
-    [\x0207]Kartenkenner Ken[\x0207]Was ist das? Du
+    \x02\x07Kartenkenner Ken\x02\x07Was ist das? Du
     willst die Karten-
     Spielregeln lernen?[pause]
   - |-
-    [\x0207]Tamer Nacky[\x0207]Jetzt wo Digimon-
+    \x02\x07Tamer Nacky\x02\x07Jetzt wo Digimon-
     Online erneuert
-    wurde,[pause][\x0203]ist meine Pech-
+    wurde,[pause]\x02\x03ist meine Pech-
     strähne hoffentlich
     vorbei![pause]
   - |-
-    [\x0207]Tamer Nacky[\x0207]Los, auf zum
+    \x02\x07Tamer Nacky\x02\x07Los, auf zum
     Kartenkampf
-    mit mir![pause][\x0203]OK, bereit
+    mit mir![pause]\x02\x03OK, bereit
     zum Verlieren?[pause]
   - |-
-    [\x0207]Tamer Nacky[\x0207]Geschafft! Ich
+    \x02\x07Tamer Nacky\x02\x07Geschafft! Ich
     wusste, dass ich
-    dich besiegen kann![pause][\x0203]Pass' auf! Jetzt
+    dich besiegen kann![pause]\x02\x03Pass' auf! Jetzt
     bin ich in Fahrt![pause]
   - |-
-    [\x0207]Tamer Nacky[\x0207]Unmöglich! Ich
-    verloren?[pause][\x0203]Die Pechsträhne
+    \x02\x07Tamer Nacky\x02\x07Unmöglich! Ich
+    verloren?[pause]\x02\x03Die Pechsträhne
     verfolgt mich
     noch immer![pause]
   - |-
-    [\x0207]Tamer Harami[\x0207]Heute hat meine
+    \x02\x07Tamer Harami\x02\x07Heute hat meine
     Kleine mir
-    erlaubt,[pause][\x0203]herzukommen![pause]
+    erlaubt,[pause]\x02\x03herzukommen![pause]
   - |-
-    [\x0207]Tamer Harami[\x0207]Mach' dich locker
-    und hab' Spaβ![pause][\x0203]Also dann, lass'
+    \x02\x07Tamer Harami\x02\x07Mach' dich locker
+    und hab' Spaβ![pause]\x02\x03Also dann, lass'
     uns Karten
     spielen![pause]
   - |-
-    [\x0207]Tamer Harami[\x0207]Süβ! Ich hab'
-    gewonnen![pause][\x0203]Das wird meine
+    \x02\x07Tamer Harami\x02\x07Süβ! Ich hab'
+    gewonnen![pause]\x02\x03Das wird meine
     süβe Honigbiene
     freuen![pause]
   - |-
-    [\x0207]Tamer Harami[\x0207]Hey, was sollte
-    das denn?![pause][\x0203]Sorry, Yoko,
+    \x02\x07Tamer Harami\x02\x07Hey, was sollte
+    das denn?![pause]\x02\x03Sorry, Yoko,
     Papi hat dich
     enttäuscht![pause]
-  - "[\\x0207]Tamer Mei Lin[\\x0207]Nihao! Du bist [\\x020801][\\x020501] \noder? Ich bin froh, dich \nzu treffen![pause][\\x0203]Dank dir ist Digimon-\nOnline wieder da![pause]"
+  - "\\x02\\x07Tamer Mei Lin\\x02\\x07Nihao! Du bist \\x02\\x08\\x01\\x02\\x05\\x01 \noder? Ich bin froh, dich \nzu treffen![pause]\\x02\\x03Dank dir ist Digimon-\nOnline wieder da![pause]"
   - |-
-    [\x0207]Tamer Mei Lin[\x0207]Lass' uns doch
+    \x02\x07Tamer Mei Lin\x02\x07Lass' uns doch
     Karten spielen,
-    wo wir hier sind![pause][\x0203]Hätte nie gedacht,
+    wo wir hier sind![pause]\x02\x03Hätte nie gedacht,
     dass ich mal gegen
     dich spiele![pause]
   - |-
-    [\x0207]Tamer Mei Lin[\x0207]Yippee!
-    Gewonnen![pause][\x0203]Du kannst vielleicht
+    \x02\x07Tamer Mei Lin\x02\x07Yippee!
+    Gewonnen![pause]\x02\x03Du kannst vielleicht
     gut kämpfen, aber
     nicht mit Karten![pause]
   - |-
-    [\x0207]Tamer Mei Lin[\x0207]Oh nein! Du bist
-    wirklich stark![pause][\x0203]Ich muss weiter
+    \x02\x07Tamer Mei Lin\x02\x07Oh nein! Du bist
+    wirklich stark![pause]\x02\x03Ich muss weiter
     üben, bis ich dich
     schlagen kann![pause]
   - |-
-    [\x0207]Tamer Mitch[\x0207]Yeah, endlich kön-
+    \x02\x07Tamer Mitch\x02\x07Yeah, endlich kön-
     nen wir wieder Digi-
     mon-Online spielen![pause]
   - |-
-    [\x0207]Tamer Mit[\x0207]OK, Junge,
+    \x02\x07Tamer Mit\x02\x07OK, Junge,
     lass' uns
-    Karten spielen[pause][\x0203]Das wird ein
+    Karten spielen[pause]\x02\x03Das wird ein
     fantastisches
     Spiel![pause]
   - |-
-    [\x0207]Tamer Mitch[\x0207]Es geht doch
+    \x02\x07Tamer Mitch\x02\x07Es geht doch
     nichts über den
-    Siegestaumel![pause][\x0203]Darum kann ich
+    Siegestaumel![pause]\x02\x03Darum kann ich
     von Digimon-Online
     nie genug kriegen![pause]
   - |-
-    [\x0207]Tamer Mitch[\x0207]Wow, du bist gut!
+    \x02\x07Tamer Mitch\x02\x07Wow, du bist gut!
     Na, du hast ja auch
-    die A.o.A besiegt![pause][\x0203]Du wirst sicher der
+    die A.o.A besiegt![pause]\x02\x03Du wirst sicher der
     beste Tamer von
     allen![pause]
   - |-
-    [\x0207][\x020902]3Was war das?
+    \x02\x07\x02\x09\x023Was war das?
     Ich habe etwas
-    aufblitzen sehen.[pause][\x0203]Hab' ich mir das
+    aufblitzen sehen.[pause]\x02\x03Hab' ich mir das
     eingebildet?
     Mal nachsehen.[pause]
   - |-
-    [\x0207][\x020902]3Nö, sieht
+    \x02\x07\x02\x09\x023Nö, sieht
     nach nichts
     aus.[pause]
-  - "[\\x0207][\\x020902]3Sieht aus, als\nob etwas in die\nLücke gefallen ist![pause][\\x0203]Hey! \nSieh an! Eine\nP-Mitgliedskarte![pause][\\x0203]Eine Platin-Mit-\ngliedskarte! Nun, \nwas damit machen?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Sieht aus, als\nob etwas in die\nLücke gefallen ist![pause]\\x02\\x03Hey! \nSieh an! Eine\nP-Mitgliedskarte![pause]\\x02\\x03Eine Platin-Mit-\ngliedskarte! Nun, \nwas damit machen?[pause]"
   - |-
-    [\x0207][\x020902]3Nö, sieht
+    \x02\x07\x02\x09\x023Nö, sieht
     nach nichts
     aus.[pause]
   - |-
-    [\x0207]Ponchomon[\x0207]Hey, Amigo!
+    \x02\x07Ponchomon\x02\x07Hey, Amigo!
     Willkommen in
-    Eldorado![pause][\x0203]Willst du heiβe
+    Eldorado![pause]\x02\x03Willst du heiβe
     Item-Infos,
     Amigo?[pause]
   - |-
-    [\x0207]Teddy[\x0207]Hey! [\x020801][\x020501]!
+    \x02\x07Teddy\x02\x07Hey! \x02\x08\x01\x02\x05\x01!
     Wie geht's
-    dir?[pause][\x0203]Mir geht's fan-
+    dir?[pause]\x02\x03Mir geht's fan-
     tastisch, klar!
     He he he.[pause]
   - |-
-    [\x0207]Teddy[\x0207]OK, lass' uns
-    Karten spielen![pause][\x0203]Bist du bereit
+    \x02\x07Teddy\x02\x07OK, lass' uns
+    Karten spielen![pause]\x02\x03Bist du bereit
     zu VERLIEREN?[pause]
   - |-
-    [\x0207]Teddy[\x0207]Ha ha ha!
+    \x02\x07Teddy\x02\x07Ha ha ha!
     Wie ich gesagt
-    habe, oder?![pause][\x0203]Ich kenne
+    habe, oder?![pause]\x02\x03Ich kenne
     alle deine
     Techniken![pause]
   - |-
-    [\x0207]Teddy[\x0207]Hey, wie hast
+    \x02\x07Teddy\x02\x07Hey, wie hast
     du das denn
-    gemacht?[pause][\x0203]Mann, ich
+    gemacht?[pause]\x02\x03Mann, ich
     muss weiter an
     mir arbeiten![pause]
   - |-
-    [\x0207]Tamer Andy[\x0207]Ich bin Andy, das
+    \x02\x07Tamer Andy\x02\x07Ich bin Andy, das
     Tamer-Genie von
-    Server 1![pause][\x0203]Ich sag's dir,
+    Server 1![pause]\x02\x03Ich sag's dir,
     gegen mich kommst
     du nicht an![pause]
   - |-
-    [\x0207]Tamer Andy[\x0207]Ich werde es dir
+    \x02\x07Tamer Andy\x02\x07Ich werde es dir
     bei einem Spiel
-    mit Karten beweisen![pause][\x0203]Kannst du meinen
+    mit Karten beweisen![pause]\x02\x03Kannst du meinen
     megastarken Ordner
     schlagen?[pause]
   - |-
-    [\x0207]Tamer Andy[\x0207]Ha ha ha! Du
+    \x02\x07Tamer Andy\x02\x07Ha ha ha! Du
     wusstest, dass
-    du verlierst![pause][\x0203]Keiner kann Tamer
+    du verlierst![pause]\x02\x03Keiner kann Tamer
     Andy besiegen![pause]
   - |-
-    [\x0207]Tamer Andy[\x0207]Was ist passiert?
+    \x02\x07Tamer Andy\x02\x07Was ist passiert?
     Das war doch der
-    stärkste Ordner![pause][\x0203]Bereite dich gut
+    stärkste Ordner![pause]\x02\x03Bereite dich gut
     vor, das nächste
     Mal zu verlieren![pause]
   - |-
-    [\x0207]Reisender Tomoyo[\x0207]Hallo du, vervoll-
+    \x02\x07Reisender Tomoyo\x02\x07Hallo du, vervoll-
     ständigst du deine
-    Digimon-Partner?[pause][\x0203]Wenn du etwas
+    Digimon-Partner?[pause]\x02\x03Wenn du etwas
     brauchst, guck' im
     Platinenbereich![pause]
   - |-
-    [\x0207]Händler Abel[\x0207]Schade, dass die
+    \x02\x07Händler Abel\x02\x07Schade, dass die
     Auktion nicht
-    stattfindet.[pause][\x0203]Ist aber OK, ich
+    stattfindet.[pause]\x02\x03Ist aber OK, ich
     habe alles, was ich
     brauche.[pause]
   - |-
-    [\x0207]Rapper Mike[\x0207]Yeah! Stark,
+    \x02\x07Rapper Mike\x02\x07Yeah! Stark,
     Digimon-Online
-    ist wieder da![pause][\x0203]Und das dank
-    [\x020801][\x020501], dem
+    ist wieder da![pause]\x02\x03Und das dank
+    \x02\x08\x01\x02\x05\x01, dem
     coolen Tamer![pause]
   - |-
-    [\x0207]Sakura[\x0207]Wenn du in alle Ecken
+    \x02\x07Sakura\x02\x07Wenn du in alle Ecken
     schaust, sollst du
-    alle Items finden![pause][\x0203]Wenn ich mich bemühe,
+    alle Items finden![pause]\x02\x03Wenn ich mich bemühe,
     kann ich sie bestimmt
     auch alle finden![pause]
   - |-
-    [\x0207]Faulpelz Yuka[\x0207]Wie weit Digimon
-    digitieren können?[pause][\x0203]Das erfahren wir
+    \x02\x07Faulpelz Yuka\x02\x07Wie weit Digimon
+    digitieren können?[pause]\x02\x03Das erfahren wir
     wohl nur, wenn wir
     es ausprobieren.[pause]
   - |-
-    [\x0207]DO Wache[\x0207]Nach den A.o.A
+    \x02\x07DO Wache\x02\x07Nach den A.o.A
     muss man ordent-
-    lich aufräumen![pause][\x0203]Auch wenn sie
+    lich aufräumen![pause]\x02\x03Auch wenn sie
     weg sind, machen
     sie noch Ärger![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Sorry! Hier ist
+    \x02\x07DO Wache\x02\x07Sorry! Hier ist
     noch eine
     Baustelle.[pause]
   - |-
-    [\x0207]Pingelige Freda[\x0207]Was ein Dreck!
-    Muss saubermachen[pause][\x0203]Zum offiziellen
+    \x02\x07Pingelige Freda\x02\x07Was ein Dreck!
+    Muss saubermachen[pause]\x02\x03Zum offiziellen
     Start muss alles
     wie geleckt sein![pause]
   - |-
-    [\x0207]Kurt[\x0207]Hey! [\x020801][\x020501]!
-    Geschafft![pause][\x0203]Dank dir wird
+    \x02\x07Kurt\x02\x07Hey! \x02\x08\x01\x02\x05\x01!
+    Geschafft![pause]\x02\x03Dank dir wird
     Digimon-Online
-    wieder geöffnet![pause][\x0203]Vielen Dank!
+    wieder geöffnet![pause]\x02\x03Vielen Dank!
     OK dann, viel
     Spaβ![pause]
   - |-
-    [\x0207]Kurt[\x0207]Mann, sieht aus,
+    \x02\x07Kurt\x02\x07Mann, sieht aus,
     also ob du echt
-    fortgeschritten bist![pause][\x0203]Warum siehst du
+    fortgeschritten bist![pause]\x02\x03Warum siehst du
     dir nicht mal diese
     Arena an?[pause]
   - |-
-    [\x0207]Kurt[\x0207]Du bist der
-    King, echt![pause][\x0203]Du wirst bestimmt
+    \x02\x07Kurt\x02\x07Du bist der
+    King, echt![pause]\x02\x03Du wirst bestimmt
     der nächste Welt-
     meister![pause]
   - |-
-    [\x0207]DO-Operator[\x0207][\x020801][\x020501], deine
+    \x02\x07DO-Operator\x02\x07\x02\x08\x01\x02\x05\x01, deine
     Daten sind einfach
-    super![pause][\x0203]Die werde ich
+    super![pause]\x02\x03Die werde ich
     zum Spiel-
     ausgleich nehmen.[pause]
   - |-
-    [\x0207]DO-Operator[\x0207]Ich will das Erlern-
+    \x02\x07DO-Operator\x02\x07Ich will das Erlern-
     te einsetzen, um die
-    Welt zu verbessern.[pause][\x0203]Ich hoffe auf
+    Welt zu verbessern.[pause]\x02\x03Ich hoffe auf
     Digimon-Online![pause]
   - |-
-    [\x0207]Digimon-Fan Emmie[\x0207]Es soll Digimon ge-
+    \x02\x07Digimon-Fan Emmie\x02\x07Es soll Digimon ge-
     ben, die dir alle
-    Arten Waffen machen![pause][\x0203]Ich möchte so eines
+    Arten Waffen machen![pause]\x02\x03Ich möchte so eines
     nur einmal treffen![pause]
   - |-
-    [\x0207]Kampffan Midori[\x0207]Ja! Zeit, einen neuen
+    \x02\x07Kampffan Midori\x02\x07Ja! Zeit, einen neuen
     Digimon-Kampf anzu-
-    sehen! Toll![pause][\x0203]Viel Glück und leg'
+    sehen! Toll![pause]\x02\x03Viel Glück und leg'
     einen guten Kampf
     hin![pause]
   - |-
-    [\x0207]Guilmon[\x0207]Häh? Ein Tunnel?
+    \x02\x07Guilmon\x02\x07Häh? Ein Tunnel?
     Der war aber
-    vorher nicht hier![pause][\x0203]Vielleicht wurde er
+    vorher nicht hier![pause]\x02\x03Vielleicht wurde er
     während der Wartung
     zugeschüttet.[pause]
   - |-
-    [\x0207]Chinron Leader[\x0207]Was denn? Du willst
-    mit mir kämpfen?[pause][\x0203]Dann musst du erst
+    \x02\x07Chinron Leader\x02\x07Was denn? Du willst
+    mit mir kämpfen?[pause]\x02\x03Dann musst du erst
     die 5 stärksten
-    Epic-Items finden,[pause][\x0203]die in dieser Welt
+    Epic-Items finden,[pause]\x02\x03die in dieser Welt
     versteckt sind.
-    Bring sie her![pause][\x0203]Sie sind aber nicht
+    Bring sie her![pause]\x02\x03Sie sind aber nicht
     so einfach zu finden![pause]
   - |-
-    [\x0207]Chinron Leader[\x0207]Was denn? Du willst
-    mit mir kämpfen?[pause][\x0203]Du hast also
+    \x02\x07Chinron Leader\x02\x07Was denn? Du willst
+    mit mir kämpfen?[pause]\x02\x03Du hast also
     die 5 stärksten
-    Epic-Items.[pause][\x0203]OK, dann kämpfe
+    Epic-Items.[pause]\x02\x03OK, dann kämpfe
     ich mit dir! Also
     los![pause]
   - |-
-    [\x0207]Chinron Leader[\x0207]Ich erwarte das schon
+    \x02\x07Chinron Leader\x02\x07Ich erwarte das schon
     von einem, der die
-    stärksten Epic-Items[pause][\x0203]gesammelt hat! Weiter
+    stärksten Epic-Items[pause]\x02\x03gesammelt hat! Weiter
     so, dann kommst du
     nach oben![pause]
   - |-
-    [\x0207]Autor William[\x0207]Hast du mein Werk
+    \x02\x07Autor William\x02\x07Hast du mein Werk
     "Oinkio und Flori-
-    ette" gelesen?[pause][\x0203]Eine Liebesgeschichte
+    ette" gelesen?[pause]\x02\x03Eine Liebesgeschichte
     über Oinkmon und
-    Floramon![pause][\x0203]Als Nächstes schreibe
+    Floramon![pause]\x02\x03Als Nächstes schreibe
     ich "Numemette",
     freu' dich drauf![pause]
   - |-
-    [\x0207]Andys Groupie[\x0207]Wow! Andy!
-    Echt cool![pause][\x0203]Ich werde immer
+    \x02\x07Andys Groupie\x02\x07Wow! Andy!
+    Echt cool![pause]\x02\x03Ich werde immer
     dein Fan sein,
     Andy![pause]
   - a
   - |-
-    [\x0207]Renamon[\x0207]Du bist also
-    [\x020801][\x020501]. Du
-    siehst stark aus![pause][\x0203]Ich wollte immer
+    \x02\x07Renamon\x02\x07Du bist also
+    \x02\x08\x01\x02\x05\x01. Du
+    siehst stark aus![pause]\x02\x03Ich wollte immer
     einen groβen Tamer
     wie dich treffen![pause]
   - |-
-    [\x0207]Guardromon[\x0207]Jetzt bin ich
+    \x02\x07Guardromon\x02\x07Jetzt bin ich
     doch eine Digimon-
-    Wache geworden![pause][\x0203]Ich gebe mein
+    Wache geworden![pause]\x02\x03Ich gebe mein
     Bestes, um Digimon-
     Online zu schützen![pause]
   - |-
-    [\x0207]Monmon[\x0207]Langweilig!
+    \x02\x07Monmon\x02\x07Langweilig!
     Nur Digimon
-    hier![pause][\x0203]Gut, dass du
+    hier![pause]\x02\x03Gut, dass du
     gekommen
     bist![pause]
   - |-
-    [\x0207]Piccolomon[\x0207]Ich bin Digimon-
+    \x02\x07Piccolomon\x02\x07Ich bin Digimon-
     Chief! Was kann
     ich für dich tun?[pause]
   - |-
-    [\x0207]Sarah[\x0207]Chinron Leader ist
+    \x02\x07Sarah\x02\x07Chinron Leader ist
     so männlich und
-    verträumt![pause][\x0203]Seiryu Leader ist
+    verträumt![pause]\x02\x03Seiryu Leader ist
     aber auch ganz
     nett![pause]
   - |-
-    [\x0207]Fotografin Emily[\x0207]Heh, wart' mal!
+    \x02\x07Fotografin Emily\x02\x07Heh, wart' mal!
     Bist du nicht
-    [\x020801][\x020501]?[pause][\x0203]Ich bin ein riesiger
+    \x02\x08\x01\x02\x05\x01?[pause]\x02\x03Ich bin ein riesiger
     Fan von dir! Kann
     ich ein Foto machen?[pause]
   - |-
-    [\x0207]Opa Brown[\x0207]Ich bin Tamer
-    im Ruhestand.[pause][\x0203]Aber ich gebe
+    \x02\x07Opa Brown\x02\x07Ich bin Tamer
+    im Ruhestand.[pause]\x02\x03Aber ich gebe
     auf euch Kids
     schon Acht![pause]
   - |-
-    [\x0207]Airdramon[\x0207]Zzzzzzz.
-    Zzzzzzz.[pause][\x0203]Heh! Was soll
+    \x02\x07Airdramon\x02\x07Zzzzzzz.
+    Zzzzzzz.[pause]\x02\x03Heh! Was soll
     der Krach da
     drauβen![pause]
   - |-
-    [\x0207]Biyomon[\x0207]Super! Ich bin
+    \x02\x07Biyomon\x02\x07Super! Ich bin
     froh, dass Digimon-
     Online wieder da ist![pause]
-  - "[\\x0207]Terriermon[\\x0207]Murmel... \nmurmel...\nZzzzzzz..[pause]"
+  - "\\x02\\x07Terriermon\\x02\\x07Murmel... \nmurmel...\nZzzzzzz..[pause]"
   - |-
-    [\x0207]Gabumon[\x0207]Aah, gääähn!
+    \x02\x07Gabumon\x02\x07Aah, gääähn!
     Ich bin heute
     so müde![pause]
   - |-
-    [\x0207]Mr. Wedge[\x0207]Danke, dass du
+    \x02\x07Mr. Wedge\x02\x07Danke, dass du
     bei Wedge's Laden
-    vorbeischaust![pause][\x0203]Ich habe jede
+    vorbeischaust![pause]\x02\x03Ich habe jede
     Menge gute Items,
     schau' dich um![pause]
   - |-
-    [\x0207]Mr. Wedge[\x0207]Ach, du hast
+    \x02\x07Mr. Wedge\x02\x07Ach, du hast
     eine Platin-
     karte![pause]
   - |-
-    [\x0207]Mr. Wedge[\x0207]Hinten habe ich
+    \x02\x07Mr. Wedge\x02\x07Hinten habe ich
     auch noch eine
     Menge tolle Sachen![pause]
   - |-
-    [\x0207]Autorin Hanako[\x0207]Mr. Wedge ist
-    so männlich![pause][\x0203]Wow! Meine
+    \x02\x07Autorin Hanako\x02\x07Mr. Wedge ist
+    so männlich![pause]\x02\x03Wow! Meine
     Knie sind schon
     ganz weich![pause]
   - |-
-    [\x0207]Divermon[\x0207]Hmm, warum
+    \x02\x07Divermon\x02\x07Hmm, warum
     öffne ich die
-    Booster nicht?[pause][\x0203]Ok! Einen
+    Booster nicht?[pause]\x02\x03Ok! Einen
     Augenblick![pause]
   - |-
-    [\x0207]Ponchomon[\x0207]Amigo, lass' uns
+    \x02\x07Ponchomon\x02\x07Amigo, lass' uns
     mal über die neu-
-    esten Items reden![pause][\x0203]Diese Epic-Items
+    esten Items reden![pause]\x02\x03Diese Epic-Items
     die stärksten der
-    Welt![pause][\x0203]Sie werden vom
+    Welt![pause]\x02\x03Sie werden vom
     Waffen-Corps in
-    der Platine gemacht.[pause][\x0203]Aber nur richtig
+    der Platine gemacht.[pause]\x02\x03Aber nur richtig
     starke Tamer können
-    sie verwenden![pause][\x0203]Bei schwachen
+    sie verwenden![pause]\x02\x03Bei schwachen
     Tamern geht's
     nicht, Amigo![pause]
   - |-
-    [\x0207]Divermon[\x0207]Was, du hast keine
-    Aktentasche?[pause][\x0203]Dann kann ich dir
+    \x02\x07Divermon\x02\x07Was, du hast keine
+    Aktentasche?[pause]\x02\x03Dann kann ich dir
     nicht helfen.
     Raus mit dir![pause]

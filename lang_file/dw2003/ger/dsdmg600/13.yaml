@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207]Bürger v. Byakko?[\x0207]Heh heh heh!
+    \x02\x07Bürger v. Byakko?\x02\x07Heh heh heh!
     Wir haben schon
-    auf dich gewartet![pause][\x0203]Schnell, kämpfe
+    auf dich gewartet![pause]\x02\x03Schnell, kämpfe
     m. unser. Leader![pause]

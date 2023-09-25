@@ -1,45 +1,45 @@
 strings:
   - ''
   - |-
-    [\x0207]Responsable Chambre[\x0207]Tout est ok. Le
-    contrôle de [\x020801][\x020501]
-    est terminé.[pause][\x0203]Inversion du
-    Système Matrix.[pause][\x0203]Où veux-tu être
+    \x02\x07Responsable Chambre\x02\x07Tout est ok. Le
+    contrôle de \x02\x08\x01\x02\x05\x01
+    est terminé.[pause]\x02\x03Inversion du
+    Système Matrix.[pause]\x02\x03Où veux-tu être
     "réalisé" dans le
     Monde Réel ?[pause]
   - |-
-    [\x0207][\x020902]3La base militaire
+    \x02\x07\x02\x09\x023La base militaire
     de Magasta, dans
-    le Monde Réel ![pause][\x0203]Elle est au fond
+    le Monde Réel ![pause]\x02\x03Elle est au fond
     de l'océan ![pause]
   - |-
-    [\x0207]Responsible Chambre[\x0207]Je comprends.
+    \x02\x07Responsible Chambre\x02\x07Je comprends.
     La base militaire
     de Magasta...[pause]
   - |-
-    [\x0207]Responsable Chambre[\x0207]Accepté. Elle est
-    dans le champ.[pause][\x0203]Mais le système est
-    instable et... [pause][\x0203]tu n'auras que
+    \x02\x07Responsable Chambre\x02\x07Accepté. Elle est
+    dans le champ.[pause]\x02\x03Mais le système est
+    instable et... [pause]\x02\x03tu n'auras que
     180 secondes dans
     le Monde Réel.[pause]
   - |-
-    [\x0207][\x020902]3Que se passera-
+    \x02\x07\x02\x09\x023Que se passera-
     t-il si je dépasse
     ce temps ?[pause]
   - |-
-    [\x0207]Responsable Chambre[\x0207]La "Réalisation"
+    \x02\x07Responsable Chambre\x02\x07La "Réalisation"
     stoppera et le système
-    te renverra ici.[pause][\x0203]Les données Matrix ne
+    te renverra ici.[pause]\x02\x03Les données Matrix ne
     seront pas abîmées,
-    ne t'inquiète pas.[pause][\x0203]Démarrons le
+    ne t'inquiète pas.[pause]\x02\x03Démarrons le
     Système Matrix,
     à présent.[pause]
   - |-
-    [\x0207][\x020902]3Très bien !
+    \x02\x07\x02\x09\x023Très bien !
     Que dois-je
     faire ?[pause]
   - |-
-    [\x0207]Responsible Chambre[\x0207]Va dans le
+    \x02\x07Responsible Chambre\x02\x07Va dans le
     téléporteur,
-    sur ma gauche.[pause][\x0203]Bonne chance
-    [\x020801][\x020501].[pause]
+    sur ma gauche.[pause]\x02\x03Bonne chance
+    \x02\x08\x01\x02\x05\x01.[pause]

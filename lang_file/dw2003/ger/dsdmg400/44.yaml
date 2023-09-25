@@ -1,21 +1,21 @@
 strings:
   - ''
   - |-
-    [\x0207]Soldat[\x0207]Ist das der ID-Pass
-    Blau?![pause][\x0203]Verzeihung. Wusste
+    \x02\x07Soldat\x02\x07Ist das der ID-Pass
+    Blau?![pause]\x02\x03Verzeihung. Wusste
     nicht, dass du Qing
     Long Chief bist![pause]
   - |-
-    [\x0207][\x020902]3Wie bitte?
-    Ach ja, klar![pause][\x0203]Die Uniform fällt
+    \x02\x07\x02\x09\x023Wie bitte?
+    Ach ja, klar![pause]\x02\x03Die Uniform fällt
     zu sehr auf. Ich bin
-    in Zivil unterwegs![pause][\x0203]Das bleibt aber unser
+    in Zivil unterwegs![pause]\x02\x03Das bleibt aber unser
     Geheimnis, OK?[pause]
   - |-
-    [\x0207]Soldat[\x0207]Du bist toll,
+    \x02\x07Soldat\x02\x07Du bist toll,
     Chief! Du ar-
     beitest hart![pause]
-  - "[\\x0207][\\x020902]3Oh Mann, um ein\nHaar...[pause][\\x0203]Aber jetzt kann \nich nach Zhu\nQue City.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Oh Mann, um ein\nHaar...[pause]\\x02\\x03Aber jetzt kann \nich nach Zhu\nQue City.[pause]"
   - |-
-    [\x0207]Soldat[\x0207]Bitte, nur
+    \x02\x07Soldat\x02\x07Bitte, nur
     zu![pause]

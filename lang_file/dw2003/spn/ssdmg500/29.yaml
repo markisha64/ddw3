@@ -1,39 +1,39 @@
 strings:
   - ''
   - |-
-    [\x0207]Líder Suzaku[\x0207]Oh, no. No
+    \x02\x07Líder Suzaku\x02\x07Oh, no. No
     puedes pasar
-    de aquí.[pause][\x0203]¡Mira eso![pause]
-  - "[\\x0207][\\x020902]3Vaya, \n¿qué es?[pause]"
-  - "[\\x0207]Líder Suzaku[\\x0207]¡Un agujero de \nseguridad es como\nun agujero en la red![pause][\\x0203]Esa debe la razón\ndel terremoto.[pause]"
-  - "[\\x0207][\\x020902]3Esa voz... Viene \nde la góndola...[pause][\\x0203]¡Ya está! ¡Es\nBulbmon![pause]"
+    de aquí.[pause]\x02\x03¡Mira eso![pause]
+  - "\\x02\\x07\\x02\\x09\\x023Vaya, \n¿qué es?[pause]"
+  - "\\x02\\x07Líder Suzaku\\x02\\x07¡Un agujero de \nseguridad es como\nun agujero en la red![pause]\\x02\\x03Esa debe la razón\ndel terremoto.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Esa voz... Viene \nde la góndola...[pause]\\x02\\x03¡Ya está! ¡Es\nBulbmon![pause]"
   - |-
-    [\x0207]Líder Suzaku[\x0207]Te lo he dicho,
-    ¡no puedes ir![pause][\x0203]No sabes qué puede
+    \x02\x07Líder Suzaku\x02\x07Te lo he dicho,
+    ¡no puedes ir![pause]\x02\x03No sabes qué puede
     pasar. ¡Es demasiado
-    peligroso![pause][\x0203]Como Líder del Sector
+    peligroso![pause]\x02\x03Como Líder del Sector
     Sur, no dejaré que
     nadie resulte dañado.[pause]
-  - "[\\x0207][\\x020902]3Venga... ¡De verdad\nque tengo que pasar\nal otro lado![pause][\\x0203]Has oído hablar de la \nA.o.A, ¿verdad?[pause][\\x0203]¡Alguien tiene que ir \nahora o pasarán \ncosas peores![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Venga... ¡De verdad\nque tengo que pasar\nal otro lado![pause]\\x02\\x03Has oído hablar de la \nA.o.A, ¿verdad?[pause]\\x02\\x03¡Alguien tiene que ir \nahora o pasarán \ncosas peores![pause]"
   - |-
-    [\x0207]Líder Suzaku[\x0207]Si lo pones
+    \x02\x07Líder Suzaku\x02\x07Si lo pones
     así...[pause]
   - |-
-    [\x0207]Líder Suzaku[\x0207]¡Está bien...![pause][\x0203]Pero si es muy
+    \x02\x07Líder Suzaku\x02\x07¡Está bien...![pause]\x02\x03Pero si es muy
     peligroso, regresa.
     ¿Vale?[pause]
   - |-
-    [\x0207][\x020902]3¿Cuatro pins
-    de Líder?[pause][\x0203]¡Lo tengo!
+    \x02\x07\x02\x09\x023¿Cuatro pins
+    de Líder?[pause]\x02\x03¡Lo tengo!
     ¡Gracias, Líder
     Suzaku![pause]
   - |-
-    [\x0207][\x020902]3Si paso por aquí,
+    \x02\x07\x02\x09\x023Si paso por aquí,
     puedo encontrar el
     Servidor Amaterasu.[pause]
   - |-
-    [\x0207][\x020902]3Hola, Líder Suzaku,
-    ¡tengo una pregunta![pause][\x0203]¿Sabes dónde está
+    \x02\x07\x02\x09\x023Hola, Líder Suzaku,
+    ¡tengo una pregunta![pause]\x02\x03¿Sabes dónde está
     la Cámara de Emergencia
     del Sector Norte?[pause]
-  - "[\\x0207]Líder Suzaku[\\x0207]¿Hablas de la \nCámara Matriz\nde Emergencia?[pause][\\x0203]Está en el sótano\nde la Mina Kulon.[pause][\\x0203]Pero necesitas cuatro\npins de Líder para \nusarla.[pause]"
+  - "\\x02\\x07Líder Suzaku\\x02\\x07¿Hablas de la \nCámara Matriz\nde Emergencia?[pause]\\x02\\x03Está en el sótano\nde la Mina Kulon.[pause]\\x02\\x03Pero necesitas cuatro\npins de Líder para \nusarla.[pause]"

@@ -1,9 +1,9 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3All right then!
+    \x02\x07\x02\x09\x023All right then!
     4000 BIT![pause]
-  - "[\\x0207]Mr. Smith[\\x0207]Wow! \n4000 BIT![pause][\\x0203]Anyone above\n4000 BIT?[pause]"
-  - "[\\x0207]Mr. Smith[\\x0207]Going once...\ngoing twice...[pause][\\x0203]Ronin Blade is \nsold at 4000 BIT![pause][\\x0203]Congratulations\nto you over there![pause][\\x0203]I'm transferring \nthe item to your\nsatellite now![pause]"
-  - "[\\x0207][\\x020902]3Yeah! I got the \nRonin Blade![pause]"
-  - "[\\x0207][\\x020902]3OK, I got a pretty \ncool item, so let's \nleave this joint.[pause]"
+  - "\\x02\\x07Mr. Smith\\x02\\x07Wow! \n4000 BIT![pause]\\x02\\x03Anyone above\n4000 BIT?[pause]"
+  - "\\x02\\x07Mr. Smith\\x02\\x07Going once...\ngoing twice...[pause]\\x02\\x03Ronin Blade is \nsold at 4000 BIT![pause]\\x02\\x03Congratulations\nto you over there![pause]\\x02\\x03I'm transferring \nthe item to your\nsatellite now![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Yeah! I got the \nRonin Blade![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023OK, I got a pretty \ncool item, so let's \nleave this joint.[pause]"

@@ -1,22 +1,22 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Ho battuto
+    \x02\x07\x02\x09\x023Ho battuto
     il capo di
     Qing Long![pause]
   - |-
-    [\x0207][\x020902]3Eh?
+    \x02\x07\x02\x09\x023Eh?
     C'è qualcosa
     a terra.[pause]
   - |-
-    [\x0207][\x020902]3Ma non c'è traccia
+    \x02\x07\x02\x09\x023Ma non c'è traccia
     del digi-uovo della
-    sapienza.[pause][\x0203]Chissà cosa sta
+    sapienza.[pause]\x02\x03Chissà cosa sta
     succedendo nel
     Mondo Reale.[pause]
   - |-
-    [\x0207][\x020902]3Eh? Che
+    \x02\x07\x02\x09\x023Eh? Che
     cos'è? Il
-    pass blu?[pause][\x0203]Può tornarmi
+    pass blu?[pause]\x02\x03Può tornarmi
     utile. Lo terrò
     con me![pause]

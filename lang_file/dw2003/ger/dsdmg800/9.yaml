@@ -1,10 +1,10 @@
 strings:
   - ''
   - |-
-    [\x0207]Metallsoldat[\x0207]Beep, beep![pause][\x0203]Eindringling, Alarm!
-    Eindringling, Alarm![pause][\x0203]Entfernt sie vom
+    \x02\x07Metallsoldat\x02\x07Beep, beep![pause]\x02\x03Eindringling, Alarm!
+    Eindringling, Alarm![pause]\x02\x03Entfernt sie vom
     Gelände![pause]
   - |-
-    [\x0207][\x020902]3Los, du
+    \x02\x07\x02\x09\x023Los, du
     Blechkamerad,
     kämpfe![pause]

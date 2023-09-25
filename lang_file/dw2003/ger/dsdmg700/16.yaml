@@ -1,23 +1,23 @@
 strings:
   - ''
   - |-
-    [\x0207]Genbu Leader[\x0207]Hm, was? Ein
+    \x02\x07Genbu Leader\x02\x07Hm, was? Ein
     Herausforderer
     in d. Zeiten?![pause]
   - |-
-    [\x0207][\x020902]3Genbu Leader,
+    \x02\x07\x02\x09\x023Genbu Leader,
     ich bitte dich um
-    einen Gefallen![pause][\x0203]Brauch dein Abz,
+    einen Gefallen![pause]\x02\x03Brauch dein Abz,
     um zur echten
     Welt zu kommen.[pause]
   - |-
-    [\x0207]Genbu Leader[\x0207]Tja, leider kann
+    \x02\x07Genbu Leader\x02\x07Tja, leider kann
     ich es dir nicht
-    einfach so geben.[pause][\x0203]Das sind die Regeln.[pause][\x0203]Du musst mich be-
+    einfach so geben.[pause]\x02\x03Das sind die Regeln.[pause]\x02\x03Du musst mich be-
     siegen, um es zu
     bekommen![pause]
   - |-
-    [\x0207][\x020902]3Also gut.
+    \x02\x07\x02\x09\x023Also gut.
     Ich hatte nichts
-    anderes erwartet![pause][\x0203]Bringen wir es
+    anderes erwartet![pause]\x02\x03Bringen wir es
     hinter uns![pause]

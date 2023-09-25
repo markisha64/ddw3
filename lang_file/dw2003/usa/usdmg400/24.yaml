@@ -1,5 +1,5 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Yeaaah, \nI won![pause]"
-  - "[\\x0207]GrapLeomon[\\x0207]All right, I \nmust keep my \npromise.[pause][\\x0203]That is my \ncode of honor.[pause]"
-  - "[\\x0207][\\x020902]3Yeah! I got \nthe Kumamon \nDDNA![pause][\\x0203]Thanks, \nGrapLeomon![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Yeaaah, \nI won![pause]"
+  - "\\x02\\x07GrapLeomon\\x02\\x07All right, I \nmust keep my \npromise.[pause]\\x02\\x03That is my \ncode of honor.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Yeah! I got \nthe Kumamon \nDDNA![pause]\\x02\\x03Thanks, \nGrapLeomon![pause]"

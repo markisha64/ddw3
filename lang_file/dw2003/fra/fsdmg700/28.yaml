@@ -2,18 +2,18 @@ strings:
   - ''
   - |-
     180 SECONDES !
-    180 SECONDES ![pause][\x0203]DELAI DE REALISATION
+    180 SECONDES ![pause]\x02\x03DELAI DE REALISATION
     ECOULE...
     NUMERISATION ENGAGEE ![pause]
   - |-
-    [\x0207]Responsable Chambre[\x0207]Aucune anomalie
+    \x02\x07Responsable Chambre\x02\x07Aucune anomalie
     dans les données
-    du Système Astral.[pause][\x0203]Numérisation ![pause]
+    du Système Astral.[pause]\x02\x03Numérisation ![pause]
   - |-
-    [\x0207][\x020902]3Les 3 minutes
+    \x02\x07\x02\x09\x023Les 3 minutes
     sont passées !
     Trop tard ![pause]
   - |-
-    [\x0207][\x020902]3Que faire ?!
+    \x02\x07\x02\x09\x023Que faire ?!
     Le Juggernaut va
     partir ![pause]

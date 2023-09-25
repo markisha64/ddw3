@@ -1,34 +1,34 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3I did it!
+    \x02\x07\x02\x09\x023I did it!
     I beat Kurt![pause]
   - |-
-    [\x0207]Kurt[\x0207]Congratulations,
-    [\x020801][\x020501]! You beat
-    me fair and square![pause][\x0203]Now you're the new
+    \x02\x07Kurt\x02\x07Congratulations,
+    \x02\x08\x01\x02\x05\x01! You beat
+    me fair and square![pause]\x02\x03Now you're the new
     strongest tamer![pause]
-  - '[\x0207][\x020902]3Thank you![pause]'
+  - '\x02\x07\x02\x09\x023Thank you![pause]'
   - |-
-    [\x0207]Kurt[\x0207]Soon Digimon Online will
+    \x02\x07Kurt\x02\x07Soon Digimon Online will
     be restored. As the
-    first World Champ, you[pause][\x0203]should take on all the
+    first World Champ, you[pause]\x02\x03should take on all the
     challengers that'll come
     from around the world.[pause]
   - |-
-    [\x0207][\x020902]3Me?
+    \x02\x07\x02\x09\x023Me?
     The first World
-    Champ?[pause][\x0203]Well, I'll
+    Champ?[pause]\x02\x03Well, I'll
     try to do my
     best![pause]
   - |-
-    [\x0207]Kurt[\x0207]I'll be counting on
+    \x02\x07Kurt\x02\x07I'll be counting on
     you! You still have
-    some time though.[pause][\x0203]Until then, fight
+    some time though.[pause]\x02\x03Until then, fight
     more and get even
     stronger![pause]
   - |-
-    [\x0207][\x020902]3Don't worry.
+    \x02\x07\x02\x09\x023Don't worry.
     I'm going to be
-    the strongest[pause][\x0203]World Champ
+    the strongest[pause]\x02\x03World Champ
     ever![pause]

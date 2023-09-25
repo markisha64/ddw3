@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]Digimon-Navig.[\x0207]In Ordnung.[pause][\x0203]Wenn du Infos haben
+    \x02\x07Digimon-Navig.\x02\x07In Ordnung.[pause]\x02\x03Wenn du Infos haben
     willst, sprich
     mit mir.[pause]

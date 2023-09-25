@@ -1,30 +1,30 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Governatore
+    \x02\x07\x02\x09\x023Governatore
     di Byakko,
     devo parlarti![pause]
   - |-
-    [\x0207]Governatore Byakko[\x0207]Mi hai già
-    trovato![pause][\x0203]E così ti dovrò
+    \x02\x07Governatore Byakko\x02\x07Mi hai già
+    trovato![pause]\x02\x03E così ti dovrò
     combattere![pause]
   - |-
-    [\x0207][\x020902]3Cosa?
+    \x02\x07\x02\x09\x023Cosa?
     Ehi, aspetta un
     momento![pause]
   - |-
-    [\x0207]Govern. di Byakko[\x0207]Silenzio! Non mi
+    \x02\x07Govern. di Byakko\x02\x07Silenzio! Non mi
     farò battere
     dall'A.o.A![pause]
   - |-
-    [\x0207][\x020902]3Co-cosa?
+    \x02\x07\x02\x09\x023Co-cosa?
     A.o.A?[pause]
   - |-
-    [\x0207]Govern. di Byakko[\x0207]Non scherzare
+    \x02\x07Govern. di Byakko\x02\x07Non scherzare
     con me! Vieni
     qui, mio Digimon![pause]
   - |-
-    [\x0207][\x020902]3Non posso
-    crederci! Caspita![pause][\x0203]Ma va bene,
+    \x02\x07\x02\x09\x023Non posso
+    crederci! Caspita![pause]\x02\x03Ma va bene,
     vediamo di
     sbrigarci![pause]

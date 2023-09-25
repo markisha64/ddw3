@@ -1,29 +1,29 @@
 strings:
   - ''
   - |-
-    [\x0207]Tamer Heinrich[\x0207]Ohne Kennwort
+    \x02\x07Tamer Heinrich\x02\x07Ohne Kennwort
     lasse ich dich
     nicht herein![pause]
   - |-
-    [\x0207][\x020902]3Was, ein
+    \x02\x07\x02\x09\x023Was, ein
     Kennwort?
     Äh...[pause]
   - |-
-    [\x0207]???[\x0207]Hey, du bist
-    [\x020801][\x020501]![pause]
+    \x02\x07???\x02\x07Hey, du bist
+    \x02\x08\x01\x02\x05\x01![pause]
   - |-
-    [\x0207]Kenny[\x0207][\x020801][\x020501],
+    \x02\x07Kenny\x02\x07\x02\x08\x01\x02\x05\x01,
     ich bin's,
     Kenny![pause]
   - |-
-    [\x0207][\x020902]3Hey, Kenny!
+    \x02\x07\x02\x09\x023Hey, Kenny!
     Bist du OK?[pause]
   - |-
-    [\x0207]Kenny[\x0207]Klar! Ich bin jetzt
-    beim Widerstand![pause][\x0203]Die haben hier jetzt
+    \x02\x07Kenny\x02\x07Klar! Ich bin jetzt
+    beim Widerstand![pause]\x02\x03Die haben hier jetzt
     einen Stützpunkt![pause]
   - |-
-    [\x0207][\x020902]3Wow, super,
+    \x02\x07\x02\x09\x023Wow, super,
     Kenny![pause]
-  - "[\\x0207]Kenny[\\x0207]Ja! Komm, ich stelle \ndich dem Leader vor.[pause][\\x0203]Vielleicht weiβ er \netwas, das dir\nweiterhilft.[pause][\\x0203]Hier lang![pause]"
-  - '[\x0207][\x020902]3Vielen Dank![pause]'
+  - "\\x02\\x07Kenny\\x02\\x07Ja! Komm, ich stelle \ndich dem Leader vor.[pause]\\x02\\x03Vielleicht weiβ er \netwas, das dir\nweiterhilft.[pause]\\x02\\x03Hier lang![pause]"
+  - '\x02\x07\x02\x09\x023Vielen Dank![pause]'

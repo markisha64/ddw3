@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]Etemon[\x0207]Argh, ho
-    perso![pause][\x0203]Devo scegliere
+    \x02\x07Etemon\x02\x07Argh, ho
+    perso![pause]\x02\x03Devo scegliere
     meglio le carte![pause]

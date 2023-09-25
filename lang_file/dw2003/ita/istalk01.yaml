@@ -1,696 +1,696 @@
 strings:
   - ''
   - |-
-    [\x0207]Divermon[\x0207]Cosa? Vuoi
+    \x02\x07Divermon\x02\x07Cosa? Vuoi
     aprire un
-    pacco?[pause][\x0203]OK, un attimo.[pause]
+    pacco?[pause]\x02\x03OK, un attimo.[pause]
   - |-
-    [\x0207]Guardromon[\x0207]ACCESSO
+    \x02\x07Guardromon\x02\x07ACCESSO
     UNITÀ MATRICE[pause]
   - |-
-    [\x0207]Guardromon[\x0207]SONO L'ADDETTO
-    GUARDROMON.[pause][\x0203]PER SALVARE
+    \x02\x07Guardromon\x02\x07SONO L'ADDETTO
+    GUARDROMON.[pause]\x02\x03PER SALVARE
     PARLA CON UN
     GUARDROMON.[pause]
   - |-
-    [\x0207]Gatomon[\x0207]Noi Gatomon
+    \x02\x07Gatomon\x02\x07Noi Gatomon
     gestiamo la
-    locanda.[pause][\x0203]Se vuoi restare
+    locanda.[pause]\x02\x03Se vuoi restare
     nella locanda,
     parla con noi.[pause]
   - |-
-    [\x0207]Gatomon[\x0207]Benvenuto
-    da noi![pause][\x0203]Riposati
+    \x02\x07Gatomon\x02\x07Benvenuto
+    da noi![pause]\x02\x03Riposati
     quanto
     vuoi.[pause]
   - |-
-    [\x0207]Gov. di Seiryu[\x0207]La Sala di
+    \x02\x07Gov. di Seiryu\x02\x07La Sala di
     emergenza
-    del Settore N...[pause][\x0203]è in fondo
+    del Settore N...[pause]\x02\x03è in fondo
     alla miniera
-    Kulon.[pause][\x0203]Ma ti servono i
+    Kulon.[pause]\x02\x03Ma ti servono i
     quattro stemmi per
     usarla.[pause]
   - |-
-    [\x0207]Gov. di Byakko[\x0207]La Sala di
+    \x02\x07Gov. di Byakko\x02\x07La Sala di
     emergenza
-    del Settore N...[pause][\x0203]è in fondo
+    del Settore N...[pause]\x02\x03è in fondo
     alla miniera
-    Kulon.[pause][\x0203]Ma ti servono i
+    Kulon.[pause]\x02\x03Ma ti servono i
     quattro stemmi per
     usarla.[pause]
-  - "[\\x0207]Gov. di Genbu[\\x0207]La stanza d'emergenza \nper tornare al Mondo\nReale si trova...[pause][\\x0203]...in fondo al sotterraneo\ndella miniera Kulon\nin questo settore.[pause][\\x0203]Ma ti servono i\nquattro stemmi per\nusarla.[pause]"
+  - "\\x02\\x07Gov. di Genbu\\x02\\x07La stanza d'emergenza \nper tornare al Mondo\nReale si trova...[pause]\\x02\\x03...in fondo al sotterraneo\ndella miniera Kulon\nin questo settore.[pause]\\x02\\x03Ma ti servono i\nquattro stemmi per\nusarla.[pause]"
   - a
   - |-
-    [\x0207]Maria piagnona[\x0207]Ho perso Elle.
+    \x02\x07Maria piagnona\x02\x07Ho perso Elle.
     Cosa potrei
     fare?[pause]
   - |-
-    [\x0207]Sarah[\x0207]Il governatore di
-    Seiryu è carino![pause][\x0203]È così bello![pause]
+    \x02\x07Sarah\x02\x07Il governatore di
+    Seiryu è carino![pause]\x02\x03È così bello![pause]
   - |-
-    [\x0207]Agumon[\x0207]Ho finito
+    \x02\x07Agumon\x02\x07Ho finito
     l'addestramento.
     Sono a pezzi.[pause]
   - |-
-    [\x0207]Guilmon[\x0207]Mmmmm,
+    \x02\x07Guilmon\x02\x07Mmmmm,
     ha un buon
-    odore[pause][\x0203]Stasera
+    odore[pause]\x02\x03Stasera
     a cena,
     pizza![pause]
   - |-
-    [\x0207]Agumon[\x0207]Stai cercando
+    \x02\x07Agumon\x02\x07Stai cercando
     Keith e
-    Nick?[pause][\x0203]Nick era qui,
-    ma è uscito![pause][\x0203]È andato nel
+    Nick?[pause]\x02\x03Nick era qui,
+    ma è uscito![pause]\x02\x03È andato nel
     Settore Sud o
     Ovest.[pause]
   - |-
-    [\x0207]Agumon[\x0207]Ecco la città
+    \x02\x07Agumon\x02\x07Ecco la città
     del vento,
-    Seiryu![pause][\x0203]Fai con comodo![pause]
-  - "[\\x0207]Maria piagnona[\\x0207]Non trovo\nElle...[pause][\\x0203]Dovremmo vederci\nalla Torre \ndel fortunale.[pause]"
+    Seiryu![pause]\x02\x03Fai con comodo![pause]
+  - "\\x02\\x07Maria piagnona\\x02\\x07Non trovo\nElle...[pause]\\x02\\x03Dovremmo vederci\nalla Torre \ndel fortunale.[pause]"
   - |-
-    [\x0207]Sarah[\x0207]Il Governatore di
+    \x02\x07Sarah\x02\x07Il Governatore di
     Seiryu è proprio
-    adorabile![pause][\x0203]Che carino![pause]
+    adorabile![pause]\x02\x03Che carino![pause]
   - |-
-    [\x0207]Governatore di Seiryu[\x0207]Oh, sei
-    [\x020801][\x020501].
-    Come va?[pause][\x0203]La governatrice di
+    \x02\x07Governatore di Seiryu\x02\x07Oh, sei
+    \x02\x08\x01\x02\x05\x01.
+    Come va?[pause]\x02\x03La governatrice di
     Suzaku è più forte
     di me, attento.[pause]
   - |-
-    [\x0207]Guilmon[\x0207]Il vento qui
-    è gentile.[pause][\x0203]Adoro
+    \x02\x07Guilmon\x02\x07Il vento qui
+    è gentile.[pause]\x02\x03Adoro
     stare qui![pause]
   - |-
-    [\x0207]Agumon[\x0207]Un modo per entrare
+    \x02\x07Agumon\x02\x07Un modo per entrare
     nel centro
-    amministrativo?[pause][\x0203]Non sapevo fosse
+    amministrativo?[pause]\x02\x03Non sapevo fosse
     vietato l'accesso
     agli umani.[pause]
-  - "[\\x0207]Maria piagnona[\\x0207]Non trovo\nElle...[pause][\\x0203]Dovremmo vederci\nalla Torre \ndel fortunale.[pause]"
-  - "[\\x0207]Sarah[\\x0207]Una via d'accesso\nal centro\namministrativo?[pause][\\x0203]Normalmente non\nsi può entrare? \nNon lo sapevo.[pause]"
+  - "\\x02\\x07Maria piagnona\\x02\\x07Non trovo\nElle...[pause]\\x02\\x03Dovremmo vederci\nalla Torre \ndel fortunale.[pause]"
+  - "\\x02\\x07Sarah\\x02\\x07Una via d'accesso\nal centro\namministrativo?[pause]\\x02\\x03Normalmente non\nsi può entrare? \nNon lo sapevo.[pause]"
   - |-
-    [\x0207]Governatore di Seiryu[\x0207]Cosa?! Una via
+    \x02\x07Governatore di Seiryu\x02\x07Cosa?! Una via
     d'accesso al
-    centro amministrativo?[pause][\x0203]Mai sentito. Chiedi
+    centro amministrativo?[pause]\x02\x03Mai sentito. Chiedi
     a qualcun
     altro.[pause]
-  - "[\\x0207]Guilmon[\\x0207]I Digimon possono\nentrare nel centro\nfacilmente.[pause][\\x0203]Gli umani, \nnon so.[pause]"
+  - "\\x02\\x07Guilmon\\x02\\x07I Digimon possono\nentrare nel centro\nfacilmente.[pause]\\x02\\x03Gli umani, \nnon so.[pause]"
   - |-
-    [\x0207]Agumon[\x0207]Uno e due,
+    \x02\x07Agumon\x02\x07Uno e due,
     e uno, e
-    due![pause][\x0203]Diventerò
+    due![pause]\x02\x03Diventerò
     forte per il
     governatore![pause]
   - |-
-    [\x0207]Maria piagnona[\x0207]Maria se n'è
-    andata da sola?[pause][\x0203]Sono così
+    \x02\x07Maria piagnona\x02\x07Maria se n'è
+    andata da sola?[pause]\x02\x03Sono così
     noiosa e
     piagnona.[pause]
   - |-
-    [\x0207]Sarah[\x0207]MetalGarurumon è
-    come un cucciolo.[pause][\x0203]Sarei felice di
+    \x02\x07Sarah\x02\x07MetalGarurumon è
+    come un cucciolo.[pause]\x02\x03Sarei felice di
     avere un
     MetalGarurumon.[pause]
   - |-
-    [\x0207]Govern. di Seiryu[\x0207]I tuoi Digimon
-    sono cresciuti.[pause][\x0203]Ti auguro di
+    \x02\x07Govern. di Seiryu\x02\x07I tuoi Digimon
+    sono cresciuti.[pause]\x02\x03Ti auguro di
     diventare
     Campione![pause]
   - |-
-    [\x0207]Guilmon[\x0207]Agumon è
-    così serio![pause][\x0203]Io amo
+    \x02\x07Guilmon\x02\x07Agumon è
+    così serio![pause]\x02\x03Io amo
     divertirmi.[pause]
   - |-
-    [\x0207]Agumon[\x0207]Uno e due,
+    \x02\x07Agumon\x02\x07Uno e due,
     e uno, e
-    due![pause][\x0203]Diventerò
+    due![pause]\x02\x03Diventerò
     forte per il
     governatore![pause]
   - |-
-    [\x0207]Maria piagnona[\x0207]Maria se n'è
-    andata da sola?[pause][\x0203]Sono così
+    \x02\x07Maria piagnona\x02\x07Maria se n'è
+    andata da sola?[pause]\x02\x03Sono così
     noiosa e
     piagnona.[pause]
   - |-
-    [\x0207]Sarah[\x0207]MetalGarurumon è
-    come un cucciolo.[pause][\x0203]Sarei felice di
+    \x02\x07Sarah\x02\x07MetalGarurumon è
+    come un cucciolo.[pause]\x02\x03Sarei felice di
     avere un
     MetalGarurumon.[pause]
   - |-
-    [\x0207]Gov. di Seiryu[\x0207]C'è qualcosa
+    \x02\x07Gov. di Seiryu\x02\x07C'è qualcosa
     che mi
-    preoccupa.[pause][\x0203]Forse è solo
+    preoccupa.[pause]\x02\x03Forse è solo
     gas...[pause]
   - |-
-    [\x0207]Guilmon[\x0207]Agumon è
-    così serio![pause][\x0203]Io amo
+    \x02\x07Guilmon\x02\x07Agumon è
+    così serio![pause]\x02\x03Io amo
     divertirmi.[pause]
   - |-
-    [\x0207]Agumon[\x0207]Nessuno può entrare
-    nella città di Asuka![pause][\x0203]Mi chiedo se gli
+    \x02\x07Agumon\x02\x07Nessuno può entrare
+    nella città di Asuka![pause]\x02\x03Mi chiedo se gli
     altri Agumon
     sono OK.[pause]
   - |-
-    [\x0207]Maria piagnona[\x0207]Che faccio se Elle
-    non viene?[pause][\x0203]Non posso tornare
+    \x02\x07Maria piagnona\x02\x07Che faccio se Elle
+    non viene?[pause]\x02\x03Non posso tornare
     ad Asuka da sola![pause]
   - |-
-    [\x0207]Sarah[\x0207]Il mio cane avrà
-    fame, Doria.[pause][\x0203]Non posso tornare!
+    \x02\x07Sarah\x02\x07Il mio cane avrà
+    fame, Doria.[pause]\x02\x03Non posso tornare!
     Che devo fare?![pause]
   - |-
-    [\x0207]Gov. di Seiryu[\x0207]Qualcosa
+    \x02\x07Gov. di Seiryu\x02\x07Qualcosa
     non va nella
-    città di Asuka.[pause][\x0203]Chissà cosa
+    città di Asuka.[pause]\x02\x03Chissà cosa
     succederà
     adesso?[pause]
   - |-
-    [\x0207]Guilmon[\x0207]Ho appena
+    \x02\x07Guilmon\x02\x07Ho appena
     mangiato la
     pizza! Buona![pause]
   - |-
-    [\x0207]Agumon[\x0207]Manterrò la
-    posizione![pause][\x0203]Non fuggirò
+    \x02\x07Agumon\x02\x07Manterrò la
+    posizione![pause]\x02\x03Non fuggirò
     da nessuno![pause]
   - |-
-    [\x0207]Maria piagnona[\x0207]Sarà capitato
-    qualcosa ad Elle.[pause][\x0203]Che devo fare?![pause]
+    \x02\x07Maria piagnona\x02\x07Sarà capitato
+    qualcosa ad Elle.[pause]\x02\x03Che devo fare?![pause]
   - |-
-    [\x0207]Sarah[\x0207]Chissà se Doria
+    \x02\x07Sarah\x02\x07Chissà se Doria
     ha fame. Che
     posso fare?![pause]
   - |-
-    [\x0207]Governatore di Seiryu[\x0207]L'A.o.A era
-    in questo server![pause][\x0203]Non ti preoccupare,
+    \x02\x07Governatore di Seiryu\x02\x07L'A.o.A era
+    in questo server![pause]\x02\x03Non ti preoccupare,
     proteggerò la città![pause]
   - |-
-    [\x0207]Guilmon[\x0207]Faccio
+    \x02\x07Guilmon\x02\x07Faccio
     la guardia
-    quassù.[pause][\x0203]Se arriva
+    quassù.[pause]\x02\x03Se arriva
     il nemico, lo
     vedrò![pause]
   - |-
-    [\x0207]Agumon[\x0207]L'A.o.A non è
-    nulla![pause][\x0203]Se viene qui,
+    \x02\x07Agumon\x02\x07L'A.o.A non è
+    nulla![pause]\x02\x03Se viene qui,
     finisce male![pause]
   - |-
-    [\x0207]Maria piagnona[\x0207]Elle, dove
+    \x02\x07Maria piagnona\x02\x07Elle, dove
     sei?![pause]
-  - "[\\x0207]Sarah[\\x0207]L'A.o.A \ntrasforma in\nmaiali?[pause][\\x0203]Passi diventare un\ncane, ma non un\nmaiale![pause]"
+  - "\\x02\\x07Sarah\\x02\\x07L'A.o.A \ntrasforma in\nmaiali?[pause]\\x02\\x03Passi diventare un\ncane, ma non un\nmaiale![pause]"
   - |-
-    [\x0207]Governatore di Seiryu[\x0207][\x020801][\x020501], scusa,
-    non posso aiutarti.[pause][\x0203]Posso solo difendere
+    \x02\x07Governatore di Seiryu\x02\x07\x02\x08\x01\x02\x05\x01, scusa,
+    non posso aiutarti.[pause]\x02\x03Posso solo difendere
     la città.[pause]
   - |-
-    [\x0207]Guilmon[\x0207]Ah, il vento è
-    dolce[pause][\x0203]Andrà tutto
+    \x02\x07Guilmon\x02\x07Ah, il vento è
+    dolce[pause]\x02\x03Andrà tutto
     bene...[pause]
   - |-
-    [\x0207]Agumon[\x0207]Hai sconfitto
-    l'A.o.A![pause][\x0203]Wow! Come hai
+    \x02\x07Agumon\x02\x07Hai sconfitto
+    l'A.o.A![pause]\x02\x03Wow! Come hai
     fatto?[pause]
   - |-
-    [\x0207]Maria piagnona[\x0207]È sempre stata
-    alla Torre zefiro.[pause][\x0203]Sono contenta! Non
+    \x02\x07Maria piagnona\x02\x07È sempre stata
+    alla Torre zefiro.[pause]\x02\x03Sono contenta! Non
     voglio più essere
     sola![pause]
   - |-
-    [\x0207]Sarah[\x0207]Bene! Possiamo
+    \x02\x07Sarah\x02\x07Bene! Possiamo
     tornare nel
-    Mondo Reale.[pause][\x0203]Voglio rivedere
+    Mondo Reale.[pause]\x02\x03Voglio rivedere
     la mia Doria![pause]
   - |-
-    [\x0207]Governat. di Seiryu[\x0207]Grazie a te,
-    [\x020801][\x020501], il mondo
-    è salvo![pause][\x0203]Ti sono grato per
+    \x02\x07Governat. di Seiryu\x02\x07Grazie a te,
+    \x02\x08\x01\x02\x05\x01, il mondo
+    è salvo![pause]\x02\x03Ti sono grato per
     quello che hai
     fatto[pause]
   - |-
-    [\x0207]Guilmon[\x0207]Ora facciamo
-    una festa![pause][\x0203]Mangerò tanti
+    \x02\x07Guilmon\x02\x07Ora facciamo
+    una festa![pause]\x02\x03Mangerò tanti
     dolci![pause]
   - |-
-    [\x0207]Agumon[\x0207]Che dovrei fare?
+    \x02\x07Agumon\x02\x07Che dovrei fare?
     Tutti trasformati
     in Digimon![pause]
   - |-
-    [\x0207]Maria piagnona[\x0207]Oink,
+    \x02\x07Maria piagnona\x02\x07Oink,
     oink, oink![pause]
   - |-
-    [\x0207]Sarah[\x0207]Oink, oink!
+    \x02\x07Sarah\x02\x07Oink, oink!
     Oooink![pause]
   - |-
-    [\x0207]Gov. di Seiryu[\x0207]Oink, oink!
+    \x02\x07Gov. di Seiryu\x02\x07Oink, oink!
     Oioioioink![pause]
   - |-
-    [\x0207]Guilmon[\x0207]Che succede
-    a tutti?[pause][\x0203]Aiutateli![pause]
-  - "[\\x0207]Kyle il forte[\\x0207]Un uomo in nero e\nun tizio sarcastico?[pause][\\x0203]Si, li ho visti in \ncittà.[pause][\\x0203]Ma non so dove siano\nandati...[pause]"
+    \x02\x07Guilmon\x02\x07Che succede
+    a tutti?[pause]\x02\x03Aiutateli![pause]
+  - "\\x02\\x07Kyle il forte\\x02\\x07Un uomo in nero e\nun tizio sarcastico?[pause]\\x02\\x03Si, li ho visti in \ncittà.[pause]\\x02\\x03Ma non so dove siano\nandati...[pause]"
   - |-
-    [\x0207]Patamon[\x0207]Cerchi qualcuno
+    \x02\x07Patamon\x02\x07Cerchi qualcuno
     di nome Keith
-    e Nick?[pause][\x0203]Keith è
-    qui.[pause][\x0203]Ehi, dove è
+    e Nick?[pause]\x02\x03Keith è
+    qui.[pause]\x02\x03Ehi, dove è
     ora?[pause]
   - '43'
   - '43'
   - '43'
   - |-
-    [\x0207]Elle affasc.[\x0207]Chissà dov'è
-    Maria?[pause][\x0203]Sono preoccupata
+    \x02\x07Elle affasc.\x02\x07Chissà dov'è
+    Maria?[pause]\x02\x03Sono preoccupata
     per quella
     piagnona.[pause]
   - |-
-    [\x0207]Elle affasc.[\x0207]Chissà dov'è
-    Maria?[pause][\x0203]Le ho detto che ero
+    \x02\x07Elle affasc.\x02\x07Chissà dov'è
+    Maria?[pause]\x02\x03Le ho detto che ero
     alla Torre zefiro.[pause]
   - |-
-    [\x0207]Elle affasc.[\x0207]Chissà dov'è
-    Maria?[pause][\x0203]Le ho detto che ero
+    \x02\x07Elle affasc.\x02\x07Chissà dov'è
+    Maria?[pause]\x02\x03Le ho detto che ero
     alla Torre zefiro.[pause]
   - |-
-    [\x0207]Elle affasc.[\x0207]Forse Maria è
-    andata a casa.[pause][\x0203]No, stanno facendo
+    \x02\x07Elle affasc.\x02\x07Forse Maria è
+    andata a casa.[pause]\x02\x03No, stanno facendo
     dei lavori, non
     potrebbe.[pause]
   - |-
-    [\x0207]Elle affasc.[\x0207]Forse Maria è
-    andata a casa.[pause][\x0203]No, stanno facendo
+    \x02\x07Elle affasc.\x02\x07Forse Maria è
+    andata a casa.[pause]\x02\x03No, stanno facendo
     dei lavori, non
     potrebbe.[pause]
-  - "[\\x0207]Elle affasc.[\\x0207]Asuka è in \npericolo.[pause][\\x0203]Se Maria fosse\nqui...[pause]"
+  - "\\x02\\x07Elle affasc.\\x02\\x07Asuka è in \npericolo.[pause]\\x02\\x03Se Maria fosse\nqui...[pause]"
   - |-
-    [\x0207]Elle affasc.[\x0207]Dove è Maria?[pause][\x0203]Non ne ho
+    \x02\x07Elle affasc.\x02\x07Dove è Maria?[pause]\x02\x03Non ne ho
     proprio
     idea![pause]
-  - "[\\x0207]Elle affasc.[\\x0207]Ho sentito che\nl'A.o.A sta rapendo\ntutti![pause][\\x0203]Devono aver \npreso anche lei![pause]"
+  - "\\x02\\x07Elle affasc.\\x02\\x07Ho sentito che\nl'A.o.A sta rapendo\ntutti![pause]\\x02\\x03Devono aver \npreso anche lei![pause]"
   - |-
-    [\x0207]Elle affasc.[\x0207]Bene! Maria
-    sta bene.[pause][\x0203]Ora possiamo
+    \x02\x07Elle affasc.\x02\x07Bene! Maria
+    sta bene.[pause]\x02\x03Ora possiamo
     tornare
     indietro![pause]
   - |-
-    [\x0207]Elle affasc.[\x0207]Oink,
+    \x02\x07Elle affasc.\x02\x07Oink,
     oin, oink![pause]
   - '43'
   - |-
-    [\x0207]Piximon[\x0207]Sono l'ufficiale
+    \x02\x07Piximon\x02\x07Sono l'ufficiale
     Digimon pi! Che
     vuoi pi?[pause]
   - |-
-    [\x0207]Manager Sasaki[\x0207]Siamo della ditta
-    rivale.[pause][\x0203]Non dirlo, ma siamo
+    \x02\x07Manager Sasaki\x02\x07Siamo della ditta
+    rivale.[pause]\x02\x03Non dirlo, ma siamo
     qui per spiare
     Digimon Online.[pause]
-  - "[\\x0207]Miss Olivia[\\x0207]Perché è tanto\ndivertente?[pause][\\x0203]Tutta questa \nfelicità, bleah![pause]"
+  - "\\x02\\x07Miss Olivia\\x02\\x07Perché è tanto\ndivertente?[pause]\\x02\\x03Tutta questa \nfelicità, bleah![pause]"
   - |-
-    [\x0207]Tom ripetitivo[\x0207]Il governatore di
+    \x02\x07Tom ripetitivo\x02\x07Il governatore di
     Seiryu è alle
-    rovine Proto.[pause][\x0203]A nord-ovest da
+    rovine Proto.[pause]\x02\x03A nord-ovest da
     qui.[pause]
   - |-
-    [\x0207]Tom ripetitivo[\x0207]Devi passare
+    \x02\x07Tom ripetitivo\x02\x07Devi passare
     l'oceano per arrivare
-    al Settore Ovest.[pause][\x0203]Ma non so come
+    al Settore Ovest.[pause]\x02\x03Ma non so come
     potresti farcela.[pause]
   - |-
-    [\x0207]Manager Sasaki[\x0207]Sembra che Miss
+    \x02\x07Manager Sasaki\x02\x07Sembra che Miss
     Olivia sia
-    infastidita.[pause][\x0203]La MAGAMI può
+    infastidita.[pause]\x02\x03La MAGAMI può
     offrire molto
     più di noi.[pause]
   - |-
-    [\x0207]Miss Olivia[\x0207]Cosa? Serve
-    manutenzione?[pause][\x0203]La loro
+    \x02\x07Miss Olivia\x02\x07Cosa? Serve
+    manutenzione?[pause]\x02\x03La loro
     tecnologia
     vale poco.[pause]
-  - "[\\x0207]Tom ripetitivo[\\x0207]Un modo per \nentrare nel centro?[pause][\\x0203]No, la sicurezza\nè molto severa.[pause]"
+  - "\\x02\\x07Tom ripetitivo\\x02\\x07Un modo per \nentrare nel centro?[pause]\\x02\\x03No, la sicurezza\nè molto severa.[pause]"
   - |-
-    [\x0207]Manager Sasaki[\x0207]Miss Olivia invidia
-    il Signore del Gioco.[pause][\x0203]Probabilmente perché
+    \x02\x07Manager Sasaki\x02\x07Miss Olivia invidia
+    il Signore del Gioco.[pause]\x02\x03Probabilmente perché
     è una donna.[pause]
   - |-
-    [\x0207]Miss Olivia[\x0207]Il Signore del
-    Gioco, balle![pause][\x0203]Non basta una
+    \x02\x07Miss Olivia\x02\x07Il Signore del
+    Gioco, balle![pause]\x02\x03Non basta una
     bella faccia per
     lavorare bene.[pause]
   - a
   - |-
-    [\x0207]Manager Sasaki[\x0207]Miss Olivia invidia
-    il Signore del Gioco.[pause][\x0203]Probabilmente perché
+    \x02\x07Manager Sasaki\x02\x07Miss Olivia invidia
+    il Signore del Gioco.[pause]\x02\x03Probabilmente perché
     è una donna.[pause]
   - |-
-    [\x0207]Miss Olivia[\x0207]Il Signore del
-    Gioco, balle![pause][\x0203]Non basta una
+    \x02\x07Miss Olivia\x02\x07Il Signore del
+    Gioco, balle![pause]\x02\x03Non basta una
     bella faccia per
     lavorare bene.[pause]
   - |-
-    [\x0207]Tom ripetitivo[\x0207]Sembra che
+    \x02\x07Tom ripetitivo\x02\x07Sembra che
     Topo Fortunato
-    sia qui.[pause][\x0203]Ma perché
+    sia qui.[pause]\x02\x03Ma perché
     proprio ora?
     Strano.[pause]
   - |-
-    [\x0207]Manager Sasaki[\x0207]Miss Olivia comincia a
-    maltrattare tutti.[pause][\x0203]Beh, non puoi farti
+    \x02\x07Manager Sasaki\x02\x07Miss Olivia comincia a
+    maltrattare tutti.[pause]\x02\x03Beh, non puoi farti
     abbattere se
     vuoi lavorare.[pause]
   - |-
-    [\x0207]Miss Olivia[\x0207]Sasaki! Renditene
-    conto![pause][\x0203]Stiamo perdendo
+    \x02\x07Miss Olivia\x02\x07Sasaki! Renditene
+    conto![pause]\x02\x03Stiamo perdendo
     contro la MAGAMI.
     Capito?![pause]
   - |-
-    [\x0207]Tom ripetitivo[\x0207]Quei due
+    \x02\x07Tom ripetitivo\x02\x07Quei due
     continuano
-    a bisbigliare.[pause][\x0203]Sono
+    a bisbigliare.[pause]\x02\x03Sono
     sospetti. Che
     siano spie?[pause]
   - |-
-    [\x0207]Manager Sasaki[\x0207]Anche noi vogliamo
+    \x02\x07Manager Sasaki\x02\x07Anche noi vogliamo
     fare un buon
-    prodotto.[pause][\x0203]Se fosse così facile
+    prodotto.[pause]\x02\x03Se fosse così facile
     non avremmo
     problemi.[pause]
   - |-
-    [\x0207]Miss Olivia[\x0207]OK, Sasaki![pause][\x0203]Creiamo qualcosa
+    \x02\x07Miss Olivia\x02\x07OK, Sasaki![pause]\x02\x03Creiamo qualcosa
     di meglio di
     Digimon Online![pause]
   - |-
-    [\x0207]Tom ripetitivo[\x0207]Dentro ci sono dei
-    membri dell'A.o.A![pause][\x0203]Anche quei due
+    \x02\x07Tom ripetitivo\x02\x07Dentro ci sono dei
+    membri dell'A.o.A![pause]\x02\x03Anche quei due
     sono dell'A.o.A![pause]
   - |-
-    [\x0207]Manager Sasaki[\x0207]La ditta concorrente
+    \x02\x07Manager Sasaki\x02\x07La ditta concorrente
     è sparita,
-    ma...[pause][\x0203]Mi chiedo se
+    ma...[pause]\x02\x03Mi chiedo se
     andrà tutto
     bene.[pause]
-  - "[\\x0207]Miss Olivia[\\x0207]Oh, c'era\nl'A.o.A \ndietro le quinte![pause][\\x0203]È la fine\ndella MAGAMI![pause]"
+  - "\\x02\\x07Miss Olivia\\x02\\x07Oh, c'era\nl'A.o.A \ndietro le quinte![pause]\\x02\\x03È la fine\ndella MAGAMI![pause]"
   - |-
-    [\x0207]Tom ripetitivo[\x0207]Quei due
+    \x02\x07Tom ripetitivo\x02\x07Quei due
     li tengo
-    d'occhio.[pause][\x0203]Se sono
+    d'occhio.[pause]\x02\x03Se sono
     dell'A.o.A, li
     faccio fuori![pause]
-  - "[\\x0207]Manager Sasaki[\\x0207]Voglio andare\na casa.[pause][\\x0203]Chissà se mi\npagano per \nquesto...[pause]"
+  - "\\x02\\x07Manager Sasaki\\x02\\x07Voglio andare\na casa.[pause]\\x02\\x03Chissà se mi\npagano per \nquesto...[pause]"
   - |-
-    [\x0207]Miss Olivia[\x0207]Torniamo al
+    \x02\x07Miss Olivia\x02\x07Torniamo al
     Mondo
-    Reale![pause][\x0203]È la nostra chance
+    Reale![pause]\x02\x03È la nostra chance
     di battere la
     MAGAMI![pause]
   - |-
-    [\x0207]Tom ripetitivo[\x0207]Oh, sono della
-    ditta rivale![pause][\x0203]Ma il loro gioco
+    \x02\x07Tom ripetitivo\x02\x07Oh, sono della
+    ditta rivale![pause]\x02\x03Ma il loro gioco
     è così noioso![pause]
   - |-
-    [\x0207]Manager Sasaki[\x0207]Bene![pause][\x0203]Ora possiamo
+    \x02\x07Manager Sasaki\x02\x07Bene![pause]\x02\x03Ora possiamo
     tornare al Mondo
     Reale![pause]
   - |-
-    [\x0207]Miss Olivia[\x0207]Ho avuto
-    un'idea![pause][\x0203]Cookiemon Online!
+    \x02\x07Miss Olivia\x02\x07Ho avuto
+    un'idea![pause]\x02\x03Cookiemon Online!
     Un successo![pause]
   - |-
-    [\x0207]Tom ripetitivo[\x0207]Oi, oink,
+    \x02\x07Tom ripetitivo\x02\x07Oi, oink,
     oink, oioioink![pause]
   - |-
-    [\x0207]Manager Sasaki[\x0207]Oink,
+    \x02\x07Manager Sasaki\x02\x07Oink,
     oi, oioioink![pause]
   - |-
-    [\x0207]Miss Olivia[\x0207]Oink?
+    \x02\x07Miss Olivia\x02\x07Oink?
     Ooooink![pause]
   - '43'
   - '43'
   - '43'
   - |-
-    [\x0207]Airdramon[\x0207]Zzzzzzzzz...
+    \x02\x07Airdramon\x02\x07Zzzzzzzzz...
     Zzzzzzzz...[pause]
   - |-
-    [\x0207]Insegn. Ayumi[\x0207]Non dovete
-    giocare![pause][\x0203]Scherzo...
+    \x02\x07Insegn. Ayumi\x02\x07Non dovete
+    giocare![pause]\x02\x03Scherzo...
     ma non esagerate.[pause]
   - |-
-    [\x0207]Lena[\x0207]Sentito?
+    \x02\x07Lena\x02\x07Sentito?
     Topo Fortunato
-    è tornato.[pause][\x0203]Quanto tempo!
+    è tornato.[pause]\x02\x03Quanto tempo!
     Che cosa vorrà?[pause]
   - |-
-    [\x0207]Kyle il forte[\x0207]Se sei qui,
+    \x02\x07Kyle il forte\x02\x07Se sei qui,
     hai vinto
-    Zanbamon![pause][\x0203]Sei più forte
+    Zanbamon![pause]\x02\x03Sei più forte
     di quanto sembri.[pause]
   - |-
-    [\x0207]Lena[\x0207]Non possiamo
+    \x02\x07Lena\x02\x07Non possiamo
     tornare
-    indietro.[pause][\x0203]Sarà colpa
+    indietro.[pause]\x02\x03Sarà colpa
     di Topo
     Fortunato?[pause]
   - |-
-    [\x0207]Kyle il forte[\x0207]Entrare nel
+    \x02\x07Kyle il forte\x02\x07Entrare nel
     centro
-    amministrativo?[pause][\x0203]Sfondamento!
+    amministrativo?[pause]\x02\x03Sfondamento!
     È l'unico modo![pause]
   - |-
-    [\x0207]Kyle il forte[\x0207]Quali sono i
-    Digimon forti?[pause][\x0203]Voglio creare la
+    \x02\x07Kyle il forte\x02\x07Quali sono i
+    Digimon forti?[pause]\x02\x03Voglio creare la
     squadra più
     forte![pause]
   - |-
-    [\x0207]Lena[\x0207]Chissà dov'è
-    Topo Fortunato?[pause][\x0203]Di sicuro sul
+    \x02\x07Lena\x02\x07Chissà dov'è
+    Topo Fortunato?[pause]\x02\x03Di sicuro sul
     server Asuka![pause]
   - |-
-    [\x0207]Lena[\x0207]Chissà dov'è
-    Topo Fortunato?[pause][\x0203]Di sicuro sul
+    \x02\x07Lena\x02\x07Chissà dov'è
+    Topo Fortunato?[pause]\x02\x03Di sicuro sul
     server Asuka![pause]
   - |-
-    [\x0207]Kyle il forte[\x0207]Quali sono i
-    Digimon forti?[pause][\x0203]Voglio creare la
+    \x02\x07Kyle il forte\x02\x07Quali sono i
+    Digimon forti?[pause]\x02\x03Voglio creare la
     squadra più
     forte![pause]
   - |-
-    [\x0207]Lena[\x0207]Topo Fortunato è un
-    bravo hacker![pause][\x0203]Non creerebbe mai
+    \x02\x07Lena\x02\x07Topo Fortunato è un
+    bravo hacker![pause]\x02\x03Non creerebbe mai
     alcun problema![pause]
   - |-
-    [\x0207]Kyle il forte[\x0207]Imperialdramon
+    \x02\x07Kyle il forte\x02\x07Imperialdramon
     in modo battaglia
-    è forte, credo.[pause][\x0203]Ma lo è anche
+    è forte, credo.[pause]\x02\x03Ma lo è anche
     Marsmon.[pause]
   - |-
-    [\x0207]Lena[\x0207]Il domatore che vince
+    \x02\x07Lena\x02\x07Il domatore che vince
     il Signore del Gioco è
-    Topo Fortunato![pause][\x0203]È dei nostri![pause]
+    Topo Fortunato![pause]\x02\x03È dei nostri![pause]
   - |-
-    [\x0207]Kyle il forte[\x0207]Il Signore del Gioco
-    aveva Persiamon.[pause][\x0203]Il domatore che
+    \x02\x07Kyle il forte\x02\x07Il Signore del Gioco
+    aveva Persiamon.[pause]\x02\x03Il domatore che
     ha vinto
     era in gamba.[pause]
   - |-
-    [\x0207]Lena[\x0207]Cos'è stato,
+    \x02\x07Lena\x02\x07Cos'è stato,
     un
-    terremoto?[pause][\x0203]Era almeno un
+    terremoto?[pause]\x02\x03Era almeno un
     grado 6 sulla
     scala Richter![pause]
   - |-
-    [\x0207]Kyle il forte[\x0207]Un terremoto
-    enorme![pause][\x0203]Odio i terremoti!
+    \x02\x07Kyle il forte\x02\x07Un terremoto
+    enorme![pause]\x02\x03Odio i terremoti!
     Pensavo di
     morire.[pause]
   - |-
-    [\x0207]Lena[\x0207]Sono sicura che
+    \x02\x07Lena\x02\x07Sono sicura che
     Topo Fortunato
-    si sta battendo.[pause][\x0203]So anche che
+    si sta battendo.[pause]\x02\x03So anche che
     Topo Fortunato
     vincerà![pause]
-  - "[\\x0207]Kyle il forte[\\x0207]Vorrei \ncontinuare, ma...[pause][\\x0203]La maestra\nAyumi non\nvuole.[pause]"
+  - "\\x02\\x07Kyle il forte\\x02\\x07Vorrei \ncontinuare, ma...[pause]\\x02\\x03La maestra\nAyumi non\nvuole.[pause]"
   - |-
-    [\x0207]Lena[\x0207]Un giovane
+    \x02\x07Lena\x02\x07Un giovane
     domatore batte
-    gli ufficiali capi![pause][\x0203]Peccato che non
+    gli ufficiali capi![pause]\x02\x03Peccato che non
     fosse Topo
     Fortunato![pause]
   - |-
-    [\x0207]Kyle il forte[\x0207]Sei il domatore
+    \x02\x07Kyle il forte\x02\x07Sei il domatore
     che ha battuto
-    l'A.o.A?[pause][\x0203]Wow! Non son
+    l'A.o.A?[pause]\x02\x03Wow! Non son
     degno! Non son
     degno![pause]
   - |-
-    [\x0207]Lena[\x0207]Oink?!
+    \x02\x07Lena\x02\x07Oink?!
     Oi, oink![pause]
   - |-
-    [\x0207]Kyle il forte[\x0207]...oink,
+    \x02\x07Kyle il forte\x02\x07...oink,
     oioioink, oink![pause]
   - '43'
   - a
   - |-
-    [\x0207]Insegn. Ayumi[\x0207]Perché vuoi
+    \x02\x07Insegn. Ayumi\x02\x07Perché vuoi
     entrare nel centro
-    amministrativo?[pause][\x0203]Non vorrai fare
+    amministrativo?[pause]\x02\x03Non vorrai fare
     qualcosa di male?[pause]
-  - "[\\x0207]Insegn. Ayumi[\\x0207]Sono responsabile del\nclub di gioco a\nscuola![pause][\\x0203]Anche se non ho \ngiocato molto.[pause]"
-  - "[\\x0207]Insegn. Ayumi[\\x0207]Sono responsabile del\nclub di gioco a\nscuola![pause][\\x0203]Anche se non ho \ngiocato molto.[pause]"
+  - "\\x02\\x07Insegn. Ayumi\\x02\\x07Sono responsabile del\nclub di gioco a\nscuola![pause]\\x02\\x03Anche se non ho \ngiocato molto.[pause]"
+  - "\\x02\\x07Insegn. Ayumi\\x02\\x07Sono responsabile del\nclub di gioco a\nscuola![pause]\\x02\\x03Anche se non ho \ngiocato molto.[pause]"
   - |-
-    [\x0207]Insegn. Ayumi[\x0207]È tardi nel
-    Mondo Reale.[pause][\x0203]Non possiamo
+    \x02\x07Insegn. Ayumi\x02\x07È tardi nel
+    Mondo Reale.[pause]\x02\x03Non possiamo
     tornare.[pause]
   - |-
-    [\x0207]Insegn. Ayumi[\x0207]Che devo fare?[pause][\x0203]Devo riportare a
+    \x02\x07Insegn. Ayumi\x02\x07Che devo fare?[pause]\x02\x03Devo riportare a
     casa i miei alunni.[pause]
   - |-
-    [\x0207]Insegn. Ayumi[\x0207]Che è stato,
-    un terremoto?![pause][\x0203]Chissà se gli
+    \x02\x07Insegn. Ayumi\x02\x07Che è stato,
+    un terremoto?![pause]\x02\x03Chissà se gli
     alunni stanno
     bene![pause]
   - |-
-    [\x0207]Insegn. Ayumi[\x0207]Non pensavo che
+    \x02\x07Insegn. Ayumi\x02\x07Non pensavo che
     fosse così
-    rischioso![pause][\x0203]Dobbiamo
+    rischioso![pause]\x02\x03Dobbiamo
     bandirli da
     Digimon Online![pause]
   - |-
-    [\x0207]Insegn. Ayumi[\x0207]A Digimon Online si
-    gioca onestamente![pause][\x0203]Tornerò più spesso
+    \x02\x07Insegn. Ayumi\x02\x07A Digimon Online si
+    gioca onestamente![pause]\x02\x03Tornerò più spesso
     coi miei alunni![pause]
   - |-
-    [\x0207]Insegn. Ayumi[\x0207]Ooink,
+    \x02\x07Insegn. Ayumi\x02\x07Ooink,
     oink, oiioionk![pause]
   - '43'
   - |-
-    [\x0207]Renamon[\x0207]Scusa ma non posso
-    farti passare...[pause][\x0203]...se non dimostri
+    \x02\x07Renamon\x02\x07Scusa ma non posso
+    farti passare...[pause]\x02\x03...se non dimostri
     che ne sei
     degno.[pause]
   - |-
-    [\x0207]Patamon[\x0207]La la la la la la.
+    \x02\x07Patamon\x02\x07La la la la la la.
     I Floramon ballano
-    benissimo![pause][\x0203]Vogliono essere
+    benissimo![pause]\x02\x03Vogliono essere
     le reginette del
     ballo![pause]
   - |-
-    [\x0207]Gov. di Suzaku[\x0207]Son la governatrice
+    \x02\x07Gov. di Suzaku\x02\x07Son la governatrice
     di Suzaku.[pause]
   - |-
-    [\x0207]Renamon[\x0207]Lascio passare
+    \x02\x07Renamon\x02\x07Lascio passare
     solo i migliori
-    domatori.[pause][\x0203]Devi essere
+    domatori.[pause]\x02\x03Devi essere
     orgoglioso
     di te stesso.[pause]
   - |-
-    [\x0207]Patamon[\x0207]Non è carino?[pause][\x0203]Faccio parte del
+    \x02\x07Patamon\x02\x07Non è carino?[pause]\x02\x03Faccio parte del
     club dei fan![pause]
   - |-
-    [\x0207]Gov. di Suzaku[\x0207]Cosa, un modo per
-    entrare nel Centro?[pause][\x0203]Stai chiedendo
+    \x02\x07Gov. di Suzaku\x02\x07Cosa, un modo per
+    entrare nel Centro?[pause]\x02\x03Stai chiedendo
     l'impossibile![pause]
   - |-
-    [\x0207]Renamon[\x0207]Vuoi
+    \x02\x07Renamon\x02\x07Vuoi
     davvero
-    proseguire?[pause][\x0203]Bene,
+    proseguire?[pause]\x02\x03Bene,
     ma stai
     attento.[pause]
   - |-
-    [\x0207]Patamon[\x0207]Non è carino?[pause][\x0203]Faccio parte del
+    \x02\x07Patamon\x02\x07Non è carino?[pause]\x02\x03Faccio parte del
     club dei fan![pause]
   - |-
-    [\x0207]Gov. di Suzaku[\x0207]Topo Fortunato è
-    qui in giro?[pause][\x0203]Oh, vorrei proprio
+    \x02\x07Gov. di Suzaku\x02\x07Topo Fortunato è
+    qui in giro?[pause]\x02\x03Oh, vorrei proprio
     vedere com'è![pause]
   - |-
-    [\x0207]Renamon[\x0207]Vuoi
+    \x02\x07Renamon\x02\x07Vuoi
     davvero
-    proseguire?[pause][\x0203]Bene,
+    proseguire?[pause]\x02\x03Bene,
     ma stai
     attento.[pause]
   - |-
-    [\x0207]Patamon[\x0207]Une, deux, trois,
-    une, deux, trois![pause][\x0203]Floramon mi insegna
+    \x02\x07Patamon\x02\x07Une, deux, trois,
+    une, deux, trois![pause]\x02\x03Floramon mi insegna
     a ballare![pause]
   - |-
-    [\x0207]Gov. di Suzaku[\x0207]Topo Fortunato è
-    qui in giro?[pause][\x0203]Oh, vorrei proprio
+    \x02\x07Gov. di Suzaku\x02\x07Topo Fortunato è
+    qui in giro?[pause]\x02\x03Oh, vorrei proprio
     vedere com'è![pause]
   - |-
-    [\x0207]Renamon[\x0207]Va bene, entra
+    \x02\x07Renamon\x02\x07Va bene, entra
     pure, ma stai
-    attento.[pause][\x0203]Degli strani
+    attento.[pause]\x02\x03Degli strani
     uomini sono
     entrati da poco.[pause]
   - |-
-    [\x0207]Patamon[\x0207]Possiamo
-    fidarci![pause][\x0203]Non importa cosa
+    \x02\x07Patamon\x02\x07Possiamo
+    fidarci![pause]\x02\x03Non importa cosa
     succede, non ci
     preoccupiamo![pause]
   - |-
-    [\x0207]Govern. Suzaku[\x0207]Hai sentito?
+    \x02\x07Govern. Suzaku\x02\x07Hai sentito?
     Succede qualcosa
-    ad Asuka![pause][\x0203]Ma qui siamo
+    ad Asuka![pause]\x02\x03Ma qui siamo
     al sicuro![pause]
   - |-
-    [\x0207]Renamon[\x0207]Devi essere bravo
+    \x02\x07Renamon\x02\x07Devi essere bravo
     se hai battuto
-    il Signore del Gioco![pause][\x0203]Voglio vedere
+    il Signore del Gioco![pause]\x02\x03Voglio vedere
     quanto puoi
     diventare bravo.[pause]
   - |-
-    [\x0207]Patamon[\x0207]La Signora del Gioco
-    era dell'A.o.A![pause][\x0203]Lo sapevo che
+    \x02\x07Patamon\x02\x07La Signora del Gioco
+    era dell'A.o.A![pause]\x02\x03Lo sapevo che
     non era a posto.[pause]
   - |-
-    [\x0207]Govern. Suzaku[\x0207]Hmmm, l'A.o.A
+    \x02\x07Govern. Suzaku\x02\x07Hmmm, l'A.o.A
     ha violato il
-    server...[pause][\x0203]Ora la gente
+    server...[pause]\x02\x03Ora la gente
     non si diverte![pause]
   - |-
-    [\x0207]Renamon[\x0207]La governatrice è
+    \x02\x07Renamon\x02\x07La governatrice è
     venuta a vedere i
-    danni del terremoto.[pause][\x0203]Il suo senso
+    danni del terremoto.[pause]\x02\x03Il suo senso
     di responsabilità
     è così forte.[pause]
   - |-
-    [\x0207]Patamon[\x0207]Oh? Cerchi la
-    governatrice?[pause][\x0203]È andata via
+    \x02\x07Patamon\x02\x07Oh? Cerchi la
+    governatrice?[pause]\x02\x03È andata via
     da qualche parte
     dopo il terremoto.[pause]
   - a
   - |-
-    [\x0207]Renamon[\x0207]Non so che dire,
+    \x02\x07Renamon\x02\x07Non so che dire,
     ora che sei
-    così forte.[pause][\x0203]Ti lascerò
+    così forte.[pause]\x02\x03Ti lascerò
     passare.[pause]
   - |-
-    [\x0207]Patamon[\x0207]La governatrice non
-    è qui.[pause][\x0203]Chissà dov'è![pause]
+    \x02\x07Patamon\x02\x07La governatrice non
+    è qui.[pause]\x02\x03Chissà dov'è![pause]
   - a
   - |-
-    [\x0207]Renamon[\x0207]Siete molto
-    in gamba.[pause][\x0203]Aspetto il nuovo
+    \x02\x07Renamon\x02\x07Siete molto
+    in gamba.[pause]\x02\x03Aspetto il nuovo
     torneo del
     server.[pause]
   - |-
-    [\x0207]Patamon[\x0207]I Floramon
+    \x02\x07Patamon\x02\x07I Floramon
     ballano molto
-    bene![pause][\x0203]Vinceranno
+    bene![pause]\x02\x03Vinceranno
     la gara.[pause]
   - |-
-    [\x0207]Gov. di Suzaku[\x0207]Wow, hai battuto
-    l'A.o.A![pause][\x0203]Usciamo, qualche
+    \x02\x07Gov. di Suzaku\x02\x07Wow, hai battuto
+    l'A.o.A![pause]\x02\x03Usciamo, qualche
     volta![pause]
-  - "[\\x0207]Renamon[\\x0207]Sei la nostra \nsperanza.\nConfidiamo in te![pause]"
+  - "\\x02\\x07Renamon\\x02\\x07Sei la nostra \nsperanza.\nConfidiamo in te![pause]"
   - |-
-    [\x0207]Patamon[\x0207]Perché sono tutti
-    dei Digimon?[pause][\x0203]Oh, no!
+    \x02\x07Patamon\x02\x07Perché sono tutti
+    dei Digimon?[pause]\x02\x03Oh, no!
     La gara verrà
     cancellata![pause]
   - |-
-    [\x0207]Gov. Suzaku[\x0207]Oooink,
+    \x02\x07Gov. Suzaku\x02\x07Oooink,
     oink, oink![pause]
   - '43'
   - a
@@ -702,105 +702,105 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Abitante Byakko 08[\x0207]Ci sono molti
-    giocatori, qui.[pause][\x0203]È solo una tua
+    \x02\x07Abitante Byakko 08\x02\x07Ci sono molti
+    giocatori, qui.[pause]\x02\x03È solo una tua
     impressione che non
     li vedi![pause]
   - a
   - a
   - |-
-    [\x0207]Govern. Byakko[\x0207]Oh, sei tu!
+    \x02\x07Govern. Byakko\x02\x07Oh, sei tu!
     Abbiamo combattuto e
-    vinto![pause][\x0203]Cerchi una via per
-    Amaterasu?[pause][\x0203]Non so, ma dovresti
+    vinto![pause]\x02\x03Cerchi una via per
+    Amaterasu?[pause]\x02\x03Non so, ma dovresti
     andare nella caverna
-    sotterranea.[pause][\x0203]Abbiamo chiuso laggiù
+    sotterranea.[pause]\x02\x03Abbiamo chiuso laggiù
     quelli dell'A.o.A.[pause]
   - |-
-    [\x0207]Operat. Remy[\x0207]Hai vinto il Signore
-    del Gioco di Asuka![pause][\x0203]Grazie! Per merito
+    \x02\x07Operat. Remy\x02\x07Hai vinto il Signore
+    del Gioco di Asuka![pause]\x02\x03Grazie! Per merito
     tuo, il piano è
     stato un successo.[pause]
   - |-
-    [\x0207]Guardia Max[\x0207]Quando il Signore
+    \x02\x07Guardia Max\x02\x07Quando il Signore
     del Gioco ha perso,
-    sono crollati![pause][\x0203]Sono contento che
+    sono crollati![pause]\x02\x03Sono contento che
     ci siamo ripresi
     la città![pause]
   - |-
-    [\x0207]Alunno Tony[\x0207]Li ho quasi
-    aiutati.[pause][\x0203]Hanno rapito i bravi
-    domatori...[pause][\x0203]E li costringono
+    \x02\x07Alunno Tony\x02\x07Li ho quasi
+    aiutati.[pause]\x02\x03Hanno rapito i bravi
+    domatori...[pause]\x02\x03E li costringono
     ad addestrare
     Digimon da guerra![pause]
   - |-
-    [\x0207]Preside Aiko[\x0207]Il governatore è un
-    mito![pause][\x0203]Grazie a lui
+    \x02\x07Preside Aiko\x02\x07Il governatore è un
+    mito![pause]\x02\x03Grazie a lui
     ci siamo ripresi
     la città![pause]
   - |-
-    [\x0207]Gov. di Byakko[\x0207]Sono a capo
+    \x02\x07Gov. di Byakko\x02\x07Sono a capo
     della città e
-    la proteggo![pause][\x0203]Non preoccuparti![pause]
+    la proteggo![pause]\x02\x03Non preoccuparti![pause]
   - |-
-    [\x0207]Operat. Remy[\x0207]Max è forte e
-    responsabile![pause][\x0203]Stiamo davvero
+    \x02\x07Operat. Remy\x02\x07Max è forte e
+    responsabile![pause]\x02\x03Stiamo davvero
     uscendo![pause]
   - |-
-    [\x0207]Guardia Max[\x0207]Sono una guardia.[pause][\x0203]Proteggo tutti, a
+    \x02\x07Guardia Max\x02\x07Sono una guardia.[pause]\x02\x03Proteggo tutti, a
     costo della vita![pause]
   - |-
-    [\x0207]Alunno Tony[\x0207]Il server è stato
+    \x02\x07Alunno Tony\x02\x07Il server è stato
     preso
-    dall'A.o.A?[pause][\x0203]Chissà se Tatsuya
+    dall'A.o.A?[pause]\x02\x03Chissà se Tatsuya
     sta bene...[pause]
   - |-
-    [\x0207]Preside Aiko[\x0207]Riabbiamo la città,
-    ma sono preoccupato.[pause][\x0203]Non so che cosa
+    \x02\x07Preside Aiko\x02\x07Riabbiamo la città,
+    ma sono preoccupato.[pause]\x02\x03Non so che cosa
     stesse cercando
     di fare l'A.o.A![pause]
   - |-
-    [\x0207]Gov. di Byakko[\x0207]Hai messo in
+    \x02\x07Gov. di Byakko\x02\x07Hai messo in
     fuga
-    l'A.o.A![pause][\x0203]Una volta riavviato
+    l'A.o.A![pause]\x02\x03Una volta riavviato
     il Sistema Matrice,
     sarà tutto OK![pause]
   - |-
-    [\x0207]Operat. Remy[\x0207]Oh, bene! Fine
-    della battaglia.[pause][\x0203]Max non deve farsi
+    \x02\x07Operat. Remy\x02\x07Oh, bene! Fine
+    della battaglia.[pause]\x02\x03Max non deve farsi
     male![pause]
   - |-
-    [\x0207]Guardia Max[\x0207]Hai fatto
+    \x02\x07Guardia Max\x02\x07Hai fatto
     un ottimo
-    lavoro.[pause][\x0203]Sei il domatore
+    lavoro.[pause]\x02\x03Sei il domatore
     che tutti
     vorrebbero![pause]
   - |-
-    [\x0207]Alunno Tony[\x0207]Grande!
+    \x02\x07Alunno Tony\x02\x07Grande!
     Davvero
-    grande![pause][\x0203]Ora posso godermi
+    grande![pause]\x02\x03Ora posso godermi
     il momento![pause]
   - |-
-    [\x0207]Preside Aiko[\x0207]Sì!
+    \x02\x07Preside Aiko\x02\x07Sì!
     L'A.o.A
-    ha perso![pause][\x0203]Ora non ci
+    ha perso![pause]\x02\x03Ora non ci
     preoccupiamo
     più![pause]
   - |-
-    [\x0207]Gov. Byakko[\x0207]...oink?!
+    \x02\x07Gov. Byakko\x02\x07...oink?!
     Oink, oink![pause]
   - |-
-    [\x0207]Operat. Remy[\x0207]...oink,
+    \x02\x07Operat. Remy\x02\x07...oink,
     oi, oooink![pause]
   - |-
-    [\x0207]Guardia Max[\x0207]...oink,
+    \x02\x07Guardia Max\x02\x07...oink,
     oi, oooink![pause]
   - |-
-    [\x0207]Alunno Tony[\x0207]Oooink?!
+    \x02\x07Alunno Tony\x02\x07Oooink?!
     Oink,
     oioioink![pause]
   - |-
-    [\x0207]Preside Aiko[\x0207]Oiiiiink,
+    \x02\x07Preside Aiko\x02\x07Oiiiiink,
     oi, oinkkk![pause]
   - '43'
   - '43'
@@ -810,609 +810,609 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Domatore Chris[\x0207]Finalmente ho
+    \x02\x07Domatore Chris\x02\x07Finalmente ho
     raggiunto
-    Digimon Online.[pause][\x0203]Sarebbe uno
+    Digimon Online.[pause]\x02\x03Sarebbe uno
     spreco non
     combattere![pause]
   - |-
-    [\x0207]Domatore Chris[\x0207]Ora posso
-    giocare gratis.[pause][\x0203]Sarebbe uno
+    \x02\x07Domatore Chris\x02\x07Ora posso
+    giocare gratis.[pause]\x02\x03Sarebbe uno
     spreco non
     combattere![pause]
   - |-
-    [\x0207]Domatore Chris[\x0207]Non devi
+    \x02\x07Domatore Chris\x02\x07Non devi
     preoccuparti
-    dell'A.o.A.[pause][\x0203]Gioca e
+    dell'A.o.A.[pause]\x02\x03Gioca e
     divertiti
     finché puoi.[pause]
   - |-
-    [\x0207]Domatore Chris[\x0207]Oiiink,
+    \x02\x07Domatore Chris\x02\x07Oiiink,
     oi, oi, oi![pause]
   - a
-  - "[\\x0207]Domatore Chris[\\x0207]Sei così\ndebole. \nTempo perso.[pause][\\x0203]La prossima\nvolta ti\nlascio stare.[pause]"
+  - "\\x02\\x07Domatore Chris\\x02\\x07Sei così\ndebole. \nTempo perso.[pause]\\x02\\x03La prossima\nvolta ti\nlascio stare.[pause]"
   - |-
-    [\x0207]Domatore Chris[\x0207]Bene! Battaglia
+    \x02\x07Domatore Chris\x02\x07Bene! Battaglia
     a carte![pause]
   - |-
-    [\x0207]Domatore Chris[\x0207]Bene, Battaglia
+    \x02\x07Domatore Chris\x02\x07Bene, Battaglia
     di Digimon![pause]
   - |-
-    [\x0207]Domatore Chris[\x0207]Sei in
-    gamba.[pause][\x0203]Come hai
+    \x02\x07Domatore Chris\x02\x07Sei in
+    gamba.[pause]\x02\x03Come hai
     imparato?[pause]
   - |-
-    [\x0207]Domatore Chris[\x0207]Sei molto
-    bravo.[pause][\x0203]Non sono degno
+    \x02\x07Domatore Chris\x02\x07Sei molto
+    bravo.[pause]\x02\x03Non sono degno
     di pulirti le
     scarpe.[pause]
   - |-
-    [\x0207]Domatore Chris[\x0207]Ho vinto
+    \x02\x07Domatore Chris\x02\x07Ho vinto
     una nuova
-    carta.[pause][\x0203]Non perderò
+    carta.[pause]\x02\x03Non perderò
     più![pause]
-  - "[\\x0207]Domatore Chris[\\x0207]Sì! C'è \npiù gusto\nse vinci![pause]"
-  - '[\x0207]Domatore Chris[\x0207]Uffa, ho perso.[pause][\x0203]Riproviamo, dai![pause]'
+  - "\\x02\\x07Domatore Chris\\x02\\x07Sì! C'è \npiù gusto\nse vinci![pause]"
+  - '\x02\x07Domatore Chris\x02\x07Uffa, ho perso.[pause]\x02\x03Riproviamo, dai![pause]'
   - |-
-    [\x0207]Domatrice Alice[\x0207]Cosa...?
+    \x02\x07Domatrice Alice\x02\x07Cosa...?
     ...vuoi...
     ...sfidarmi?[pause]
   - |-
-    [\x0207]Domatrice Alice[\x0207]...tu...
+    \x02\x07Domatrice Alice\x02\x07...tu...
     ...vuoi sfidare..
     ...me...?[pause]
   - |-
-    [\x0207]Domatrice Alice[\x0207]...l'A.o.A...
-    ...non c'è più...?[pause][\x0203]...così...
+    \x02\x07Domatrice Alice\x02\x07...l'A.o.A...
+    ...non c'è più...?[pause]\x02\x03...così...
     ...vuoi sfidarmi...
     ...ancora...?[pause]
   - |-
-    [\x0207]Domatr. Alice[\x0207]...oink...
+    \x02\x07Domatr. Alice\x02\x07...oink...
     ...oink, oi![pause]
   - a
   - |-
-    [\x0207]Domatrice Alice[\x0207]...scusa...
+    \x02\x07Domatrice Alice\x02\x07...scusa...
     ...non volevo...
     ...combattere...[pause]
   - |-
-    [\x0207]Domatrice Alice[\x0207]...se è...
+    \x02\x07Domatrice Alice\x02\x07...se è...
     Batt. a carte!..[pause]
   - |-
-    [\x0207]Domatrice Alice[\x0207]...se è...
+    \x02\x07Domatrice Alice\x02\x07...se è...
     Batt. di Digimon..[pause]
   - |-
-    [\x0207]Domatrice Alice[\x0207]...rifiuto...
+    \x02\x07Domatrice Alice\x02\x07...rifiuto...
     ...non voglio...
     perdere due volte..[pause]
   - |-
-    [\x0207]Domatrice Alice[\x0207]...no...
+    \x02\x07Domatrice Alice\x02\x07...no...
     ...sei troppo
     ...forte...[pause]
   - |-
-    [\x0207]Domatr. Alice[\x0207]Allora...
+    \x02\x07Domatr. Alice\x02\x07Allora...
     ...a carte![pause]
   - |-
-    [\x0207]Domatrice Alice[\x0207]...vinto...
+    \x02\x07Domatrice Alice\x02\x07...vinto...
     ...fai pena...[pause]
   - |-
-    [\x0207]Domatrice Alice[\x0207]...perso...
+    \x02\x07Domatrice Alice\x02\x07...perso...
     ...sei bravo...[pause]
   - a
   - a
   - a
   - |-
-    [\x0207]Gargomon[\x0207]Boom! Questa
+    \x02\x07Gargomon\x02\x07Boom! Questa
     è l'armeria![pause]
   - |-
-    [\x0207]Wizardmon[\x0207]Benvenuto al
+    \x02\x07Wizardmon\x02\x07Benvenuto al
     negozio di oggetti![pause]
   - |-
-    [\x0207]Gonamon[\x0207]Questo è il
+    \x02\x07Gonamon\x02\x07Questo è il
     monte dei
     pegni! Che vuoi?[pause]
   - a
   - a
   - |-
-    [\x0207]Guardia D.O.[\x0207]Sei nella città
+    \x02\x07Guardia D.O.\x02\x07Sei nella città
     fortezza,
-    Genbu![pause][\x0203]Nemmeno l'A.o.A
+    Genbu![pause]\x02\x03Nemmeno l'A.o.A
     può entrare!
     Rilassati![pause]
   - |-
-    [\x0207]Guardia D.O.[\x0207]Ho sentito.
+    \x02\x07Guardia D.O.\x02\x07Ho sentito.
     Vai alla
-    miniera Kulon![pause][\x0203]E visita il
+    miniera Kulon![pause]\x02\x03E visita il
     Salone![pause]
   - |-
-    [\x0207]Guardia D.O.[\x0207]Che succede
+    \x02\x07Guardia D.O.\x02\x07Che succede
     al server
-    Amaterasu?[pause][\x0203]Mi preoccupo per
+    Amaterasu?[pause]\x02\x03Mi preoccupo per
     Chuck...[pause]
   - |-
-    [\x0207]Guardia D.O.[\x0207]Meno male che sta
-    bene![pause][\x0203]Ma non pensavo che
+    \x02\x07Guardia D.O.\x02\x07Meno male che sta
+    bene![pause]\x02\x03Ma non pensavo che
     fosse il capo
     della Resistenza![pause]
   - |-
-    [\x0207]Guardia D.O.[\x0207]...oiiink,
+    \x02\x07Guardia D.O.\x02\x07...oiiink,
     oink, onk![pause]
   - '43'
   - |-
-    [\x0207]Guardia D.O.[\x0207]Abbiamo
+    \x02\x07Guardia D.O.\x02\x07Abbiamo
     aumentato i
-    controlli![pause][\x0203]Così l'A.o.A
+    controlli![pause]\x02\x03Così l'A.o.A
     non verrà![pause]
   - |-
-    [\x0207]Guardia D.O.[\x0207]Sono con
-    te![pause][\x0203]Non farò
+    \x02\x07Guardia D.O.\x02\x07Sono con
+    te![pause]\x02\x03Non farò
     passare
     l'A.o.A![pause]
   - |-
-    [\x0207]Guardia D.O.[\x0207]Sono con
-    te![pause][\x0203]Non farò
+    \x02\x07Guardia D.O.\x02\x07Sono con
+    te![pause]\x02\x03Non farò
     passare
     l'A.o.A![pause]
   - |-
-    [\x0207]Guardia D.O.[\x0207]Siete eroi anche
+    \x02\x07Guardia D.O.\x02\x07Siete eroi anche
     nel Mondo
-    Reale.[pause][\x0203]Vi invidio![pause]
+    Reale.[pause]\x02\x03Vi invidio![pause]
   - |-
-    [\x0207]Guardia D.O.[\x0207]Oooioink,
+    \x02\x07Guardia D.O.\x02\x07Oooioink,
     ooik, onk![pause]
   - '43'
   - |-
-    [\x0207]Guardia D.O.[\x0207]Il governatore di
+    \x02\x07Guardia D.O.\x02\x07Il governatore di
     Genbu è forte
-    e responsabile.[pause][\x0203]Lo adoriamo![pause]
+    e responsabile.[pause]\x02\x03Lo adoriamo![pause]
   - |-
-    [\x0207]Guardia D.O.[\x0207]Hai battuto il
-    governatore?[pause][\x0203]Beh, allora sei
+    \x02\x07Guardia D.O.\x02\x07Hai battuto il
+    governatore?[pause]\x02\x03Beh, allora sei
     la nostra speranza.[pause]
   - |-
-    [\x0207]Guardia D.O.[\x0207]La Juggernaut,
-    non credevo![pause][\x0203]Non ci possiamo
+    \x02\x07Guardia D.O.\x02\x07La Juggernaut,
+    non credevo![pause]\x02\x03Non ci possiamo
     fare niente,
     ora, vero?[pause]
   - |-
-    [\x0207]Guardia D.O.[\x0207]Il governatore di
-    Genbu diceva...[pause][\x0203]...gli adulti
+    \x02\x07Guardia D.O.\x02\x07Il governatore di
+    Genbu diceva...[pause]\x02\x03...gli adulti
     non aiutano il
-    mondo,[pause][\x0203]...siete voi
+    mondo,[pause]\x02\x03...siete voi
     bambini a farlo![pause]
   - |-
-    [\x0207]Guardia D.O.[\x0207]Ooink,
+    \x02\x07Guardia D.O.\x02\x07Ooink,
     ooi, oink![pause]
   - '43'
   - |-
-    [\x0207]Nonno Tor[\x0207]Devi avere il
+    \x02\x07Nonno Tor\x02\x07Devi avere il
     digi-uovo della
-    sapienza per entrare.[pause][\x0203]Sei in gamba, per
+    sapienza per entrare.[pause]\x02\x03Sei in gamba, per
     la tua età.[pause]
   - |-
-    [\x0207]Nonno Tor[\x0207]Se fossi giovane,
+    \x02\x07Nonno Tor\x02\x07Se fossi giovane,
     gliela farei
-    vedere io![pause][\x0203]Ti invidio,
+    vedere io![pause]\x02\x03Ti invidio,
     ragazzo![pause]
   - |-
-    [\x0207]Nonno Tor[\x0207]Allenati, prima
-    di combattere![pause][\x0203]È il mio
+    \x02\x07Nonno Tor\x02\x07Allenati, prima
+    di combattere![pause]\x02\x03È il mio
     consiglio.[pause]
   - |-
-    [\x0207]Nonno Tor[\x0207]Sono uno
-    scrittore.[pause][\x0203]Scriverò un
-    romanzo su di te.[pause][\x0203]Sarà sicuramente
+    \x02\x07Nonno Tor\x02\x07Sono uno
+    scrittore.[pause]\x02\x03Scriverò un
+    romanzo su di te.[pause]\x02\x03Sarà sicuramente
     un best seller![pause]
   - |-
-    [\x0207]Nonno Tor[\x0207]Oooink!
+    \x02\x07Nonno Tor\x02\x07Oooink!
     Ooink, oooink![pause]
   - '43'
   - |-
-    [\x0207]Airdramon[\x0207]Zzzzzzzzz
+    \x02\x07Airdramon\x02\x07Zzzzzzzzz
     Zzzzzzzzz[pause]
   - |-
-    [\x0207]Airdramon[\x0207]Mi spiace, ma non
-    posso farci niente.[pause][\x0203]Mi spiace di non
+    \x02\x07Airdramon\x02\x07Mi spiace, ma non
+    posso farci niente.[pause]\x02\x03Mi spiace di non
     poterti aiutare...[pause]
   - '43'
   - |-
-    [\x0207][\x020902]3Sì! Ho un disco
+    \x02\x07\x02\x09\x023Sì! Ho un disco
     di recupero.[pause]
   - |-
-    [\x0207]Domatrice Alice[\x0207]...cosa...?
+    \x02\x07Domatrice Alice\x02\x07...cosa...?
     ...vuoi...
     ...sfidarmi...[pause]
-  - "[\\x0207]Jimmy del DRI[\\x0207]WarGrowlmon\nnon è\nqui...[pause][\\x0203]Sono Jimmy.\nRicercatore \ndel DRI.[pause]"
+  - "\\x02\\x07Jimmy del DRI\\x02\\x07WarGrowlmon\nnon è\nqui...[pause]\\x02\\x03Sono Jimmy.\nRicercatore \ndel DRI.[pause]"
   - |-
-    [\x0207]Jimmy del DRI[\x0207]Se hai tempo
+    \x02\x07Jimmy del DRI\x02\x07Se hai tempo
     mi daresti un
-    aiutino? È facile.[pause][\x0203]Prendi del DDNA
+    aiutino? È facile.[pause]\x02\x03Prendi del DDNA
     di Guilmon da
-    WarGrowlmon.[pause][\x0203]Se lo fai, ti darò
+    WarGrowlmon.[pause]\x02\x03Se lo fai, ti darò
     Guilmon come
     Partner![pause]
   - |-
-    [\x0207]Jimmy del DRI[\x0207]DDNA di Guilmon!
-    Grazie![pause][\x0203]Ecco, tieni Guilmon,
+    \x02\x07Jimmy del DRI\x02\x07DDNA di Guilmon!
+    Grazie![pause]\x02\x03Ecco, tieni Guilmon,
     come ti avevo
-    promesso![pause][\x0203]Parla con Kadomatsu
-    o Piximon![pause][\x0203]Guilmon ora
+    promesso![pause]\x02\x03Parla con Kadomatsu
+    o Piximon![pause]\x02\x03Guilmon ora
     appare sotto Cambia
     Digimon![pause]
   - |-
-    [\x0207]Jimmy del DRI[\x0207]Oooink, oink!
+    \x02\x07Jimmy del DRI\x02\x07Oooink, oink!
     Ooin, oink![pause]
   - |-
-    [\x0207]Domatore Chris[\x0207]Finalmente ho
+    \x02\x07Domatore Chris\x02\x07Finalmente ho
     raggiunto
-    Digimon Online.[pause][\x0203]Sarebbe uno
+    Digimon Online.[pause]\x02\x03Sarebbe uno
     spreco non
     combattere![pause]
   - |-
-    [\x0207]Jimmy del DRI[\x0207]Ora devo scoprire
+    \x02\x07Jimmy del DRI\x02\x07Ora devo scoprire
     che cosa odia
-    Guilmon![pause][\x0203]Il dr. Kadomatsu
+    Guilmon![pause]\x02\x03Il dr. Kadomatsu
     ci fa sudare
     come cani![pause]
   - |-
-    [\x0207]Jimmy del DRI[\x0207]Carino
-    il tuo Guilmon![pause][\x0203]Allenalo e
+    \x02\x07Jimmy del DRI\x02\x07Carino
+    il tuo Guilmon![pause]\x02\x03Allenalo e
     rendilo forte![pause]
   - |-
-    [\x0207]Jimmy del DRI[\x0207]Il dr. Kadomatsu è
+    \x02\x07Jimmy del DRI\x02\x07Il dr. Kadomatsu è
     severo, sarà
-    dura![pause][\x0203]Non ho nemmeno
+    dura![pause]\x02\x03Non ho nemmeno
     tempo di giocare.[pause]
-  - "[\\x0207]Jimmy del DRI[\\x0207]Scusa, sono \ndi corsa.[pause][\\x0203]Parliamo\ndopo![pause]"
+  - "\\x02\\x07Jimmy del DRI\\x02\\x07Scusa, sono \ndi corsa.[pause]\\x02\\x03Parliamo\ndopo![pause]"
   - |-
-    [\x0207]Gov. di Suzaku[\x0207]Il Settore Ovest
+    \x02\x07Gov. di Suzaku\x02\x07Il Settore Ovest
     è oltre
-    l'oceano.[pause][\x0203]Submarimon può
-    portarti lì.[pause][\x0203]Chiedi in giro
+    l'oceano.[pause]\x02\x03Submarimon può
+    portarti lì.[pause]\x02\x03Chiedi in giro
     come puoi
     chiamarlo.[pause]
   - |-
-    [\x0207]Renamon[\x0207]Hai battuto
+    \x02\x07Renamon\x02\x07Hai battuto
     la governatrice
-    di Suzaku...[pause][\x0203]Puoi continuare,
+    di Suzaku...[pause]\x02\x03Puoi continuare,
     domatore![pause]
   - |-
-    [\x0207]Patamon[\x0207]Wow, hai
+    \x02\x07Patamon\x02\x07Wow, hai
     battuto la
-    governatrice.[pause][\x0203]Sei per caso
+    governatrice.[pause]\x02\x03Sei per caso
     un genio?[pause]
   - |-
-    [\x0207]Lena[\x0207]Hai battuto la
-    governatrice?[pause][\x0203]Sei molto bravo.
+    \x02\x07Lena\x02\x07Hai battuto la
+    governatrice?[pause]\x02\x03Sei molto bravo.
     Io sono peggio.[pause]
   - |-
-    [\x0207]Wizardmon[\x0207]Noi Wizardmon ci
+    \x02\x07Wizardmon\x02\x07Noi Wizardmon ci
     occupiamo del
     negozio.[pause]
   - |-
-    [\x0207]Piximon[\x0207]Mi occuperò dei
-    dati Digimon pi![pause][\x0203]Così se vuoi
+    \x02\x07Piximon\x02\x07Mi occuperò dei
+    dati Digimon pi![pause]\x02\x03Così se vuoi
     cambiare Digimon
     parlami pi![pause]
   - |-
-    [\x0207]Gargomon[\x0207]Gargomon gestisce
+    \x02\x07Gargomon\x02\x07Gargomon gestisce
     l'armeria.[pause]
-  - "[\\x0207]Divermon[\\x0207]Ci occupiamo dei\npacchi di carte.[pause][\\x0203]Se vuoi aprirne \nuno, parla con\nnoi.[pause]"
+  - "\\x02\\x07Divermon\\x02\\x07Ci occupiamo dei\npacchi di carte.[pause]\\x02\\x03Se vuoi aprirne \nuno, parla con\nnoi.[pause]"
   - a
   - |-
-    [\x0207]Tom ripetitivo[\x0207]Il governatore è
-    un gran domatore.[pause][\x0203]Si allena di
+    \x02\x07Tom ripetitivo\x02\x07Il governatore è
+    un gran domatore.[pause]\x02\x03Si allena di
     continuo,
     sempre![pause]
-  - "[\\x0207]Gov. di Seiryu[\\x0207]Ehi, tu \nsei...[pause]"
+  - "\\x02\\x07Gov. di Seiryu\\x02\\x07Ehi, tu \nsei...[pause]"
   - |-
-    [\x0207]Guilmon bugiardo[\x0207]Hmmm?
-    Carta blu?[pause][\x0203]Ce l'ho! La
-    vuoi?[pause][\x0203]Allora te la
+    \x02\x07Guilmon bugiardo\x02\x07Hmmm?
+    Carta blu?[pause]\x02\x03Ce l'ho! La
+    vuoi?[pause]\x02\x03Allora te la
     do![pause]
-  - "[\\x0207]Abitante Byakko?[\\x0207]Scusa, non puoi\npassare.[pause][\\x0203]Ti abbiamo \npreso!\nHa ha ha![pause]"
-  - '[\x0207][\x020902]3Chiuso...[pause]'
+  - "\\x02\\x07Abitante Byakko?\\x02\\x07Scusa, non puoi\npassare.[pause]\\x02\\x03Ti abbiamo \npreso!\nHa ha ha![pause]"
+  - '\x02\x07\x02\x09\x023Chiuso...[pause]'
   - |-
-    [\x0207]Soldato[\x0207]Bulbmon è un Digimon
+    \x02\x07Soldato\x02\x07Bulbmon è un Digimon
     da Trasporto creato
-    dall'A.o.A.[pause][\x0203]Può forare la rete
+    dall'A.o.A.[pause]\x02\x03Può forare la rete
     e viaggiare tra
-    i server![pause][\x0203]...però il viaggio
+    i server![pause]\x02\x03...però il viaggio
     non è piacevole...[pause]
   - |-
-    [\x0207]Soldato[\x0207]È diventato strano
+    \x02\x07Soldato\x02\x07È diventato strano
     per colpa di un
-    campo protettivo![pause][\x0203]Ci ha cacciati...[pause][\x0203]Ed è andato verso
+    campo protettivo![pause]\x02\x03Ci ha cacciati...[pause]\x02\x03Ed è andato verso
     il Settore Sud.
     Chissà perché.[pause]
   - |-
-    [\x0207]Generale[\x0207]Ci hanno
-    presi![pause][\x0203]Tutta colpa
+    \x02\x07Generale\x02\x07Ci hanno
+    presi![pause]\x02\x03Tutta colpa
     di quel guasto
     di Bulbmon![pause]
-  - "[\\x0207]Soldato[\\x0207]Non abbiamo\nancora perso![pause][\\x0203]Non \nsottovalutare\nl'A.o.A![pause]"
+  - "\\x02\\x07Soldato\\x02\\x07Non abbiamo\nancora perso![pause]\\x02\\x03Non \nsottovalutare\nl'A.o.A![pause]"
   - |-
-    [\x0207]Soldato[\x0207]C'è una
-    feritoia qui...[pause][\x0203]Come ho fatto
+    \x02\x07Soldato\x02\x07C'è una
+    feritoia qui...[pause]\x02\x03Come ho fatto
     a non vederla
     prima?[pause]
   - |-
-    [\x0207]Generale[\x0207]L'A.o.A
+    \x02\x07Generale\x02\x07L'A.o.A
     è invincibile![pause]
   - |-
-    [\x0207]Soldato[\x0207]L'ufficiale capo
-    sconfitto?[pause][\x0203]Non mentire!
+    \x02\x07Soldato\x02\x07L'ufficiale capo
+    sconfitto?[pause]\x02\x03Non mentire!
     È impossibile![pause]
   - |-
-    [\x0207]Soldato[\x0207]L'ufficiale
+    \x02\x07Soldato\x02\x07L'ufficiale
     capo
-    sconfitto?[pause][\x0203]Bene, posso
+    sconfitto?[pause]\x02\x03Bene, posso
     lasciare
     l'A.o.A.[pause]
   - |-
-    [\x0207]Generale[\x0207]...cosa?
+    \x02\x07Generale\x02\x07...cosa?
     L'ufficiale capo
-    sconfitto?![pause][\x0203]Buon per
+    sconfitto?![pause]\x02\x03Buon per
     te.
     Heh, heh, heh[pause]
   - |-
-    [\x0207]Soldato[\x0207]...oink!
+    \x02\x07Soldato\x02\x07...oink!
     Oiioioin, oink?![pause]
   - |-
-    [\x0207]Soldato[\x0207]...oink!?!
+    \x02\x07Soldato\x02\x07...oink!?!
     Oin, oink![pause]
   - |-
-    [\x0207]Generale[\x0207]Oinoink,
+    \x02\x07Generale\x02\x07Oinoink,
     oink, ooink![pause]
   - '43'
   - '43'
   - '43'
   - |-
-    [\x0207]Guardia D.O.[\x0207]Qui ci sono
+    \x02\x07Guardia D.O.\x02\x07Qui ci sono
     dei membri
-    dell'A.o.A.[pause][\x0203]Non hanno
+    dell'A.o.A.[pause]\x02\x03Non hanno
     Digimon, ma
     stai attento.[pause]
   - |-
-    [\x0207]Guardia D.O.[\x0207]Non li lasceremo
-    scappare![pause][\x0203]Se succede
+    \x02\x07Guardia D.O.\x02\x07Non li lasceremo
+    scappare![pause]\x02\x03Se succede
     qualcosa, urla![pause]
   - |-
-    [\x0207]Guardia D.O.[\x0207]È fantastico,
-    l'A.o.A. ha perso![pause][\x0203]Anche se non
+    \x02\x07Guardia D.O.\x02\x07È fantastico,
+    l'A.o.A. ha perso![pause]\x02\x03Anche se non
     vuole ammetterlo![pause]
   - |-
-    [\x0207]Guardia D.O.[\x0207]L'A.o.A ha
-    perso, ma...[pause][\x0203]Mi preoccupa
+    \x02\x07Guardia D.O.\x02\x07L'A.o.A ha
+    perso, ma...[pause]\x02\x03Mi preoccupa
     ancora.[pause]
   - |-
-    [\x0207]Guardia D.O.[\x0207]...ooink!
+    \x02\x07Guardia D.O.\x02\x07...ooink!
     Oink, oioi,
     oinkkk![pause]
   - |-
-    [\x0207]Guardia D.O.[\x0207]...oink,
+    \x02\x07Guardia D.O.\x02\x07...oink,
     oioioink, oink![pause]
   - |-
-    [\x0207][\x020902]3C'è qualcosa che
+    \x02\x07\x02\x09\x023C'è qualcosa che
     lo blocca..[pause]
   - a
   - |-
-    [\x0207]Uff. salv.?[\x0207]Scusa, non
-    puoi salvare.[pause][\x0203]Devi farlo
+    \x02\x07Uff. salv.?\x02\x07Scusa, non
+    puoi salvare.[pause]\x02\x03Devi farlo
     da un'altra
     parte.[pause]
   - |-
-    [\x0207]Uff. Digimon?[\x0207]Cambi D-mon?[pause][\x0203]Adesso
+    \x02\x07Uff. Digimon?\x02\x07Cambi D-mon?[pause]\x02\x03Adesso
     non possiamo,
     scusa.[pause]
   - |-
-    [\x0207]Armeria?[\x0207]Non abbiamo
+    \x02\x07Armeria?\x02\x07Non abbiamo
     armi da
-    vendere.[pause][\x0203]Siamo occupati
+    vendere.[pause]\x02\x03Siamo occupati
     ora.
     Vattene![pause]
   - |-
-    [\x0207]Armeria?[\x0207]Siamo chiusi
+    \x02\x07Armeria?\x02\x07Siamo chiusi
     oggi. Non
     vendiamo niente![pause]
   - |-
-    [\x0207]Bancone locanda?[\x0207]Questo è il
-    bancone.[pause][\x0203]Ma non puoi
+    \x02\x07Bancone locanda?\x02\x07Questo è il
+    bancone.[pause]\x02\x03Ma non puoi
     stare qui!
     Via![pause]
   - |-
-    [\x0207]Maya[\x0207]Abbiamo ripreso
-    Byakko![pause][\x0203]Non voglio più
+    \x02\x07Maya\x02\x07Abbiamo ripreso
+    Byakko![pause]\x02\x03Non voglio più
     correre per
     il deserto![pause]
   - |-
-    [\x0207]Maya[\x0207]Vorrei vedere
+    \x02\x07Maya\x02\x07Vorrei vedere
     il Server Asuka
-    dall'alto![pause][\x0203]Deve essere molto
+    dall'alto![pause]\x02\x03Deve essere molto
     bello![pause]
   - |-
-    [\x0207]Maya[\x0207]Davvero hanno
-    fermato l'A.o.A?[pause][\x0203]Fantastico!
+    \x02\x07Maya\x02\x07Davvero hanno
+    fermato l'A.o.A?[pause]\x02\x03Fantastico!
     Sono tranquilla![pause]
   - |-
-    [\x0207]Maya[\x0207]Oiink,
+    \x02\x07Maya\x02\x07Oiink,
     oink, ooinkk![pause]
   - '43'
-  - "[\\x0207]Nonna Plum[\\x0207]Quando avremo la \npace, qui?[pause]"
+  - "\\x02\\x07Nonna Plum\\x02\\x07Quando avremo la \npace, qui?[pause]"
   - |-
-    [\x0207]Nonna Plum[\x0207]Ho paura che
+    \x02\x07Nonna Plum\x02\x07Ho paura che
     l'A.o.A possa
-    tornare di nuovo.[pause][\x0203]Non ci dormo la
+    tornare di nuovo.[pause]\x02\x03Non ci dormo la
     notte.[pause]
   - |-
-    [\x0207]Nonna Plum[\x0207]Grazie.[pause][\x0203]Ora dormirò
+    \x02\x07Nonna Plum\x02\x07Grazie.[pause]\x02\x03Ora dormirò
     la notte![pause]
   - |-
-    [\x0207]Nonna Plum[\x0207]Oink, oink,
+    \x02\x07Nonna Plum\x02\x07Oink, oink,
     oiiiink![pause]
   - '43'
   - |-
-    [\x0207]Ryan energ.[\x0207]Fatti sotto
-    A.o.A![pause][\x0203]Difenderò
+    \x02\x07Ryan energ.\x02\x07Fatti sotto
+    A.o.A![pause]\x02\x03Difenderò
     la città di
     Byakko![pause]
   - |-
-    [\x0207]Ryan energ.[\x0207]Ho deciso!
+    \x02\x07Ryan energ.\x02\x07Ho deciso!
     Lavorerò per
-    la S.A.P![pause][\x0203]E difenderò
+    la S.A.P![pause]\x02\x03E difenderò
     la pace
     sulla rete![pause]
   - |-
-    [\x0207]Ryan energ.[\x0207]...oink, oink,
+    \x02\x07Ryan energ.\x02\x07...oink, oink,
     oooink![pause]
   - '43'
   - |-
-    [\x0207]Ryan energ.[\x0207]Se l'A.o.A
+    \x02\x07Ryan energ.\x02\x07Se l'A.o.A
     torna,
-    combatterò![pause][\x0203]Devo allenare
+    combatterò![pause]\x02\x03Devo allenare
     i miei Digimon
     adesso![pause]
   - |-
-    [\x0207]Abit. Byakko[\x0207]Heh heh heh!
+    \x02\x07Abit. Byakko\x02\x07Heh heh heh!
     Il Capo ti sta
     aspettando![pause]
   - |-
-    [\x0207]Abit. Byakko[\x0207]Heh heh, un
+    \x02\x07Abit. Byakko\x02\x07Heh heh, un
     altro forte individuo
     è di nuovo qui![pause]
   - |-
-    [\x0207]Abit. Byakko[\x0207]Ehi, sfiderai
-    il capo?[pause][\x0203]Scommetterò
+    \x02\x07Abit. Byakko\x02\x07Ehi, sfiderai
+    il capo?[pause]\x02\x03Scommetterò
     100 BIT su
     te![pause]
   - |-
-    [\x0207]Abit. Byakko[\x0207]Vai dal
-    capo![pause][\x0203]Ti sta
+    \x02\x07Abit. Byakko\x02\x07Vai dal
+    capo![pause]\x02\x03Ti sta
     aspettando![pause]
   - |-
-    [\x0207]Ab. Byakko[\x0207]Oh, è
-    un ragazzo![pause][\x0203]Non c'è
+    \x02\x07Ab. Byakko\x02\x07Oh, è
+    un ragazzo![pause]\x02\x03Non c'è
     sfida![pause]
   - |-
-    [\x0207]Abit. Byakko[\x0207]Scusa, non puoi
-    passare.[pause][\x0203]Devi incontrare
+    \x02\x07Abit. Byakko\x02\x07Scusa, non puoi
+    passare.[pause]\x02\x03Devi incontrare
     il capo![pause]
   - |-
-    [\x0207]Abit. Byakko?[\x0207]Scendi le scale e
-    stai con gli altri.[pause][\x0203]Cosa, non c'è
-    nessuno? Non mentirmi![pause][\x0203]Nessuno può
+    \x02\x07Abit. Byakko?\x02\x07Scendi le scale e
+    stai con gli altri.[pause]\x02\x03Cosa, non c'è
+    nessuno? Non mentirmi![pause]\x02\x03Nessuno può
     fuggire dalla
     caverna![pause]
   - |-
-    [\x0207]Miss Olivia[\x0207]È divertente grazie
-    ai Digimon![pause][\x0203]Se non ci fossero,
+    \x02\x07Miss Olivia\x02\x07È divertente grazie
+    ai Digimon![pause]\x02\x03Se non ci fossero,
     sarebbe un
     gioco come tanti.[pause]
   - |-
-    [\x0207]Gov. di Genbu[\x0207]Devi fermare
-    l'A.o.A![pause][\x0203]Conto su di te.
+    \x02\x07Gov. di Genbu\x02\x07Devi fermare
+    l'A.o.A![pause]\x02\x03Conto su di te.
     Puoi farcela![pause]
   - |-
-    [\x0207]Gov. di Genbu[\x0207]Credendo in te
+    \x02\x07Gov. di Genbu\x02\x07Credendo in te
     stesso, hai
-    vinto![pause][\x0203]Ma non
-    basta![pause][\x0203]Devi diventare
+    vinto![pause]\x02\x03Ma non
+    basta![pause]\x02\x03Devi diventare
     il miglior
     domatore![pause]
   - |-
-    [\x0207]Gov. di Genbu[\x0207]Oooink, oink,
+    \x02\x07Gov. di Genbu\x02\x07Oooink, oink,
     oioink, oink![pause]
   - '43'
   - |-
-    [\x0207]Renamon[\x0207]Non essere troppo
-    sicuro![pause][\x0203]I buoni domatori
+    \x02\x07Renamon\x02\x07Non essere troppo
+    sicuro![pause]\x02\x03I buoni domatori
     combattono sempre
     con tutto![pause]
   - |-
-    [\x0207]Renamon[\x0207]I Digimon hanno
+    \x02\x07Renamon\x02\x07I Digimon hanno
     salvato il
-    mondo.[pause][\x0203]Che bellissima
+    mondo.[pause]\x02\x03Che bellissima
     notizia![pause]
   - |-
-    [\x0207]Renamon[\x0207]Hanno preso l'ufficiale
-    capo dell'A.o.A.[pause][\x0203]Significa che c'è
+    \x02\x07Renamon\x02\x07Hanno preso l'ufficiale
+    capo dell'A.o.A.[pause]\x02\x03Significa che c'è
     un nemico ancora
     più potente.[pause]
   - '43'
   - |-
-    [\x0207]Guilmon[\x0207]Il governatore
+    \x02\x07Guilmon\x02\x07Il governatore
     di Genbu è
-    lassù![pause][\x0203]È il miglior
+    lassù![pause]\x02\x03È il miglior
     governatore
     di città![pause]
   - |-
-    [\x0207]Guilmon[\x0207]Hai sconfitto
-    l'A.o.A![pause][\x0203]Probabilmente sei
+    \x02\x07Guilmon\x02\x07Hai sconfitto
+    l'A.o.A![pause]\x02\x03Probabilmente sei
     il più forte
     domatore![pause]
   - |-
-    [\x0207]Guilmon[\x0207]Il governatore
+    \x02\x07Guilmon\x02\x07Il governatore
     è diventato
-    un Digimon.[pause][\x0203]Ehi, perché?[pause]
+    un Digimon.[pause]\x02\x03Ehi, perché?[pause]
   - '43'
   - |-
-    [\x0207]Guilmon[\x0207]Carta 8lu??
-    .....?![pause][\x0203]Oh! È un falso
+    \x02\x07Guilmon\x02\x07Carta 8lu??
+    .....?![pause]\x02\x03Oh! È un falso
     di Guilmon
-    bugiardo![pause][\x0203]È appena
-    fuggito.[pause][\x0203]Probabilmente
-    si è nascosto.[pause][\x0203]Forse il mio
+    bugiardo![pause]\x02\x03È appena
+    fuggito.[pause]\x02\x03Probabilmente
+    si è nascosto.[pause]\x02\x03Forse il mio
     amico sa...[pause]
-  - "[\\x0207]Guilmon[\\x0207]Ummm... Ama stare\nsottoterra.[pause][\\x0203]Quindi magari è\nnascosto in \nun sotterraneo.[pause]"
+  - "\\x02\\x07Guilmon\\x02\\x07Ummm... Ama stare\nsottoterra.[pause]\\x02\\x03Quindi magari è\nnascosto in \nun sotterraneo.[pause]"
   - |-
-    [\x0207]Guilmon bugiardo[\x0207]Perché non
+    \x02\x07Guilmon bugiardo\x02\x07Perché non
     registri un
-    account?[pause][\x0203]....heh heh[pause]
+    account?[pause]\x02\x03....heh heh[pause]
   - |-
-    [\x0207]Guilmon[\x0207]Hai la
+    \x02\x07Guilmon\x02\x07Hai la
     carta blu!
     Grande![pause]
   - |-
-    [\x0207]Keith[\x0207]Ehi! Guarda,
+    \x02\x07Keith\x02\x07Ehi! Guarda,
     abbiamo ripreso
-    Byakko![pause][\x0203]Grazie a me e a
+    Byakko![pause]\x02\x03Grazie a me e a
     Lisa, è stato
     facilissimo![pause]
   - |-
-    [\x0207]Nick[\x0207]...oh, sei tu.
-    Che vuoi?[pause][\x0203]Sono occupato, vai
+    \x02\x07Nick\x02\x07...oh, sei tu.
+    Che vuoi?[pause]\x02\x03Sono occupato, vai
     via...[pause]
   - |-
-    [\x0207]Nick[\x0207]Ehi [\x020801][\x020501].
+    \x02\x07Nick\x02\x07Ehi \x02\x08\x01\x02\x05\x01.
     Sei qui per il
-    terremoto, vero?[pause][\x0203]Non ci sonno
-    grandi danni.[pause][\x0203]Ma un terremoto nel
+    terremoto, vero?[pause]\x02\x03Non ci sonno
+    grandi danni.[pause]\x02\x03Ma un terremoto nel
     Mondo Digitale?
     È assurdo![pause]
   - |-
-    [\x0207]Generale[\x0207]...Hmmm?!
+    \x02\x07Generale\x02\x07...Hmmm?!
     Chi sei?[pause]
   - |-
-    [\x0207]Soldato[\x0207]Noi non perdiamo!
-    Non hai vinto![pause][\x0203]Vinceremo alla
+    \x02\x07Soldato\x02\x07Noi non perdiamo!
+    Non hai vinto![pause]\x02\x03Vinceremo alla
     fine... spero.[pause]
   - |-
-    [\x0207]Soldato[\x0207]...c'era un buco
+    \x02\x07Soldato\x02\x07...c'era un buco
     qui?!
     OH NOOOOO![pause]
   - |-
-    [\x0207]Divermon[\x0207]Hmmm, non hai
+    \x02\x07Divermon\x02\x07Hmmm, non hai
     una cartella
-    per le carte?[pause][\x0203]Prendine una
+    per le carte?[pause]\x02\x03Prendine una
     alla città di
     Asuka![pause]
   - |-
-    [\x0207]Agumon[\x0207]...Baronmon?!
-    Non è qui.[pause][\x0203]Ama le foreste e
+    \x02\x07Agumon\x02\x07...Baronmon?!
+    Non è qui.[pause]\x02\x03Ama le foreste e
     le rovine, magari
     è là![pause]
   - |-
-    [\x0207]Tom ripetitivo[\x0207]Vai al Settore Sud
+    \x02\x07Tom ripetitivo\x02\x07Vai al Settore Sud
     con la gondola della
-    Stazione Est.[pause][\x0203]La gondola è veloce
+    Stazione Est.[pause]\x02\x03La gondola è veloce
     e fa anche
     paura.[pause]

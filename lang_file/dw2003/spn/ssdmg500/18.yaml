@@ -1,8 +1,8 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Kyukimon.\n¿Puedo pedirte\nun favor?[pause][\\x0203]¿Puedes darme \nDADN de Katemon\nde tu DADN?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Kyukimon.\n¿Puedo pedirte\nun favor?[pause]\\x02\\x03¿Puedes darme \nDADN de Katemon\nde tu DADN?[pause]"
   - |-
-    [\x0207]Kyukimon[\x0207]Veamos...
+    \x02\x07Kyukimon\x02\x07Veamos...
     Sí, pero con
-    una condición.[pause][\x0203]Primero tienes que
+    una condición.[pause]\x02\x03Primero tienes que
     ganarme.[pause]

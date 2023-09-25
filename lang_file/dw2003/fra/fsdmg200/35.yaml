@@ -1,19 +1,19 @@
 strings:
   - ''
   - |-
-    [\x0207]Knightmon[\x0207]Virus détecté !
-    Virus détecté ![pause][\x0203]Suppression du
+    \x02\x07Knightmon\x02\x07Virus détecté !
+    Virus détecté ![pause]\x02\x03Suppression du
     virus...[pause]
   - |-
-    [\x0207][\x020902]3Hé ! Je ne suis
+    \x02\x07\x02\x09\x023Hé ! Je ne suis
     pas un virus ![pause]
   - |-
-    [\x0207]Knightmon[\x0207]Virus confirmé !
-    Virus confirmé ![pause][\x0203]Supression du
+    \x02\x07Knightmon\x02\x07Virus confirmé !
+    Virus confirmé ![pause]\x02\x03Supression du
     virus...[pause]
   - |-
-    [\x0207][\x020902]3Rien à faire. Il a
+    \x02\x07\x02\x09\x023Rien à faire. Il a
     été reprogrammé par
-    l'AoA ![pause][\x0203]Je devrais sans
+    l'AoA ![pause]\x02\x03Je devrais sans
     doute explorer les
     autres villes.[pause]

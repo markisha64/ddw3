@@ -1,8 +1,8 @@
 strings:
   - ''
-  - "[\\x0207]KingDivermon[\\x0207]Then I'll give \nyou this Asuka \nTrophy![pause]"
-  - "[\\x0207][\\x020902]3Really?! Thanks,\nKingDivermon![pause][\\x0203]Yeah! I got the \nAsuka Trophy![pause]"
-  - "[\\x0207]KingDivermon[\\x0207]I'm the only one\nwho can produce \nit...[pause][\\x0203]It's a symbol for \nAsuka's Card \nKing![pause]"
-  - "[\\x0207][\\x020902]3Wow! Cool!\nIt's a symbol for \nCard King![pause]"
-  - "[\\x0207]KingDivermon[\\x0207]Fofofo, but \ndon't let your\nguard down![pause]"
-  - "[\\x0207][\\x020902]3Yeah! I'm gonna \nget a lot \nstronger![pause][\\x0203]OK, let's go look \nfor a stronger \ncard player![pause]"
+  - "\\x02\\x07KingDivermon\\x02\\x07Then I'll give \nyou this Asuka \nTrophy![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Really?! Thanks,\nKingDivermon![pause]\\x02\\x03Yeah! I got the \nAsuka Trophy![pause]"
+  - "\\x02\\x07KingDivermon\\x02\\x07I'm the only one\nwho can produce \nit...[pause]\\x02\\x03It's a symbol for \nAsuka's Card \nKing![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Wow! Cool!\nIt's a symbol for \nCard King![pause]"
+  - "\\x02\\x07KingDivermon\\x02\\x07Fofofo, but \ndon't let your\nguard down![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Yeah! I'm gonna \nget a lot \nstronger![pause]\\x02\\x03OK, let's go look \nfor a stronger \ncard player![pause]"

@@ -1,20 +1,20 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3In Ordnung! \nAlso 1600 BIT![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023In Ordnung! \nAlso 1600 BIT![pause]"
   - |-
-    [\x0207]Mr. Smith[\x0207]Wow!
-    1600 BIT![pause][\x0203]Bietet jmd.
+    \x02\x07Mr. Smith\x02\x07Wow!
+    1600 BIT![pause]\x02\x03Bietet jmd.
     mehr?[pause]
   - |-
-    [\x0207]Mr. Smith[\x0207]Zum..., zum...
-    und ZUM...![pause][\x0203]Dramon-Schild
-    für 1600 BIT.[pause][\x0203]Gratulation![pause][\x0203]Ich übertrage das
+    \x02\x07Mr. Smith\x02\x07Zum..., zum...
+    und ZUM...![pause]\x02\x03Dramon-Schild
+    für 1600 BIT.[pause]\x02\x03Gratulation![pause]\x02\x03Ich übertrage das
     Item jetzt an
     deinen Satelliten![pause]
   - |-
-    [\x0207][\x020902]3Super! Das
+    \x02\x07\x02\x09\x023Super! Das
     Dramon-Schild![pause]
   - |-
-    [\x0207][\x020902]3Ich hab jetzt ein
+    \x02\x07\x02\x09\x023Ich hab jetzt ein
     echt cooles Item,
     ich gehe.[pause]

@@ -1,27 +1,27 @@
 strings:
   - ''
   - |-
-    [\x0207]Mujer[\x0207]¡Eh, tú!
+    \x02\x07Mujer\x02\x07¡Eh, tú!
     ¡El de ahí![pause]
   - |-
-    [\x0207][\x020902]3Uummmm
+    \x02\x07\x02\x09\x023Uummmm
     ¿Quién, yo?[pause]
-  - "[\\x0207]Mujer[\\x0207]Soy Lisa.\n¡Es un\nplacer![pause][\\x0203]¿Cómo te \nllamas?[pause]"
+  - "\\x02\\x07Mujer\\x02\\x07Soy Lisa.\n¡Es un\nplacer![pause]\\x02\\x03¿Cómo te \nllamas?[pause]"
   - |-
-    [\x0207][\x020902]3Oh, umm,
-    soy [\x020801][\x020501][pause]
+    \x02\x07\x02\x09\x023Oh, umm,
+    soy \x02\x08\x01\x02\x05\x01[pause]
   - |-
-    [\x0207]Lisa[\x0207][\x020801][\x020501], vale,
-    lo recordaré.[pause][\x0203]Por cierto, Junior,
+    \x02\x07Lisa\x02\x07\x02\x08\x01\x02\x05\x01, vale,
+    lo recordaré.[pause]\x02\x03Por cierto, Junior,
     ¿has visto a un
     bonito Digimon Verde?[pause]
-  - "[\\x0207][\\x020902]3Ehh... ¿Es \nMonmon o \nTerriermon?[pause]"
-  - "[\\x0207]Lisa[\\x0207]Bueno... \nNo sé.[pause][\\x0203]¿Qué crees tú\nque es, [\\x020801][\\x020501]?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ehh... ¿Es \nMonmon o \nTerriermon?[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07Bueno... \nNo sé.[pause]\\x02\\x03¿Qué crees tú\nque es, \\x02\\x08\\x01\\x02\\x05\\x01?[pause]"
   - |-
-    [\x0207][\x020902]3Bueno... Ummm
+    \x02\x07\x02\x09\x023Bueno... Ummm
     ¿¿??[pause]
-  - "[\\x0207]Lisa[\\x0207]¡Ya lo sé!\n¡Es Ogremon!\n¡Tiene que ser![pause][\\x0203]¡Tengo que irme \na buscar a Ogremon\nahora mismo![pause]"
+  - "\\x02\\x07Lisa\\x02\\x07¡Ya lo sé!\n¡Es Ogremon!\n¡Tiene que ser![pause]\\x02\\x03¡Tengo que irme \na buscar a Ogremon\nahora mismo![pause]"
   - |-
-    [\x0207][\x020902]3Umm ¿Qué
+    \x02\x07\x02\x09\x023Umm ¿Qué
     le pasa?[pause]
-  - "[\\x0207]Lisa[\\x0207]Encantada de \nhablar contigo\n[\\x020801][\\x020501].[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07Encantada de \nhablar contigo\n\\x02\\x08\\x01\\x02\\x05\\x01.[pause]"

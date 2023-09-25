@@ -1,33 +1,33 @@
 strings:
   - ''
   - |-
-    [\x0207]Kail[\x0207]Voilà le Maître
+    \x02\x07Kail\x02\x07Voilà le Maître
     de jeu.
     Cachons-nous ![pause]
   - |-
-    [\x0207]Le Maître de jeu[\x0207]Mais enfin,
+    \x02\x07Le Maître de jeu\x02\x07Mais enfin,
     qu'est-ce que
-    vous faites ?[pause][\x0203]Nos projets
+    vous faites ?[pause]\x02\x03Nos projets
     sont contrariés ![pause]
   - |-
-    [\x0207]???[\x0207]Désolé. Nous
+    \x02\x07???\x02\x07Désolé. Nous
     allons intensifier
     nos recherches.[pause]
-  - "[\\x0207]Garde DO[\\x0207]Nous allons \nbientôt\nle trouver ![pause]"
+  - "\\x02\\x07Garde DO\\x02\\x07Nous allons \nbientôt\nle trouver ![pause]"
   - |-
-    [\x0207][stat-defense]Junior[stat-defense] [\x0207]Je me demande
+    \x02\x07[stat-defense]Junior[stat-defense] \x02\x07Je me demande
     de quoi ils
     parlent ![pause]
   - |-
-    [\x0207]Garde DO[\x0207]Que font ces
+    \x02\x07Garde DO\x02\x07Que font ces
     Digimons ici ?[pause]
   - |-
-    [\x0207]Garde DO[\x0207]Il a l'air
+    \x02\x07Garde DO\x02\x07Il a l'air
     suspect !
     Attrapez-le ![pause]
   - |-
-    [\x0207]Garde DO[\x0207]Cela ne sert à
+    \x02\x07Garde DO\x02\x07Cela ne sert à
     rien de fuir ![pause]
   - |-
-    [\x0207][\x020902]3Gloups ! Ils
+    \x02\x07\x02\x09\x023Gloups ! Ils
     nous ont vus.[pause]

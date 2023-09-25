@@ -1,15 +1,15 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3MasterTyranno
+    \x02\x07\x02\x09\x023MasterTyranno
     ¡Luche conmigo![pause]
   - |-
-    [\x0207]Maestro Tyranno[\x0207]¡Claro!
+    \x02\x07Maestro Tyranno\x02\x07¡Claro!
     Acabo de comer,
     estoy recargado.[pause]
-  - "[\\x0207][\\x020902]3¡Venga! le \nenseñaré \ncomo lucho.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Venga! le \nenseñaré \ncomo lucho.[pause]"
   - |-
-    [\x0207]MasterTyranno[\x0207]Muy optimista,
-    chico.[pause][\x0203]¡Pero hace falta
+    \x02\x07MasterTyranno\x02\x07Muy optimista,
+    chico.[pause]\x02\x03¡Pero hace falta
     más de eso para
     ganarme![pause]

@@ -1,45 +1,45 @@
 strings:
   - ''
   - |-
-    [\x0207]Ufficiale camera[\x0207]Tutto verde.
+    \x02\x07Ufficiale camera\x02\x07Tutto verde.
     Il controllo di
-    [\x020801][\x020501] è finito.[pause][\x0203]Rovesciamento
-    della Matrice![pause][\x0203]Dove vuoi essere
+    \x02\x08\x01\x02\x05\x01 è finito.[pause]\x02\x03Rovesciamento
+    della Matrice![pause]\x02\x03Dove vuoi essere
     inserito nel
     Mondo Reale?[pause]
   - |-
-    [\x0207][\x020902]3Nella base militare
+    \x02\x07\x02\x09\x023Nella base militare
     Magasta, nel
-    Mondo Reale.[pause][\x0203]È sul fondo
+    Mondo Reale.[pause]\x02\x03È sul fondo
     oceanico![pause]
   - |-
-    [\x0207]Ufficiale camera[\x0207]Molto bene.
+    \x02\x07Ufficiale camera\x02\x07Molto bene.
     Base militare
     Magasta.[pause]
   - |-
-    [\x0207]Ufficiale camera[\x0207]OK, è alla nostra
-    portata.[pause][\x0203]Ma il sistema è un
-    po' instabile...[pause][\x0203]Esisterai nel Mondo
+    \x02\x07Ufficiale camera\x02\x07OK, è alla nostra
+    portata.[pause]\x02\x03Ma il sistema è un
+    po' instabile...[pause]\x02\x03Esisterai nel Mondo
     Reale solo per
     180 secondi.[pause]
   - |-
-    [\x0207][\x020902]3Un momento!
+    \x02\x07\x02\x09\x023Un momento!
     E quando finisce
     il tempo?[pause]
   - |-
-    [\x0207]Ufficiale camera[\x0207]Uscirai dalla realtà
+    \x02\x07Ufficiale camera\x02\x07Uscirai dalla realtà
     e la Matrice ti
-    riporterà qui.[pause][\x0203]I dati della Matrice
+    riporterà qui.[pause]\x02\x03I dati della Matrice
     resteranno integri,
-    non preoccuparti.[pause][\x0203]Accenderemo il
+    non preoccuparti.[pause]\x02\x03Accenderemo il
     Sistema Matrice,
     ora.[pause]
   - |-
-    [\x0207][\x020902]3Va bene!
+    \x02\x07\x02\x09\x023Va bene!
     Cosa devo
     fare io?[pause]
   - |-
-    [\x0207]Ufficiale camera[\x0207]Raggiungi il
+    \x02\x07Ufficiale camera\x02\x07Raggiungi il
     portale alla
-    mia sinistra.[pause][\x0203]Buona
+    mia sinistra.[pause]\x02\x03Buona
     fortuna![pause]

@@ -1,21 +1,21 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Hört auf
+    \x02\x07\x02\x09\x023Hört auf
     damit! Sofort
-    stoppen![pause][\x0203]Ich lasse euch
+    stoppen![pause]\x02\x03Ich lasse euch
     nicht
     davonkommen![pause]
   - |-
-    [\x0207]Königl. Wache[\x0207]Ha ha ha ha! Der
+    \x02\x07Königl. Wache\x02\x07Ha ha ha ha! Der
     Verrückte sagt,
-    anhalten![pause][\x0203]Ein Kind kann uns
+    anhalten![pause]\x02\x03Ein Kind kann uns
     nicht aufhalten![pause]
-  - "[\\x0207][\\x020902]3Passt auf!\nIhr werdet \naufhören![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Passt auf!\nIhr werdet \naufhören![pause]"
   - |-
-    [\x0207]Königl. Wache[\x0207]...ha ha ha.
-    Glaubst du?[pause][\x0203]Zeig, was
+    \x02\x07Königl. Wache\x02\x07...ha ha ha.
+    Glaubst du?[pause]\x02\x03Zeig, was
     du kannst![pause]
   - |-
-    [\x0207]Königl. Wache[\x0207]System ist bereit...
+    \x02\x07Königl. Wache\x02\x07System ist bereit...
     Das war's![pause]

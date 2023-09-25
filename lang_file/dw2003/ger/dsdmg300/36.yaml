@@ -1,35 +1,35 @@
 strings:
   - ''
   - |-
-    [\x0207]Veemon[\x0207]Was spielen
+    \x02\x07Veemon\x02\x07Was spielen
     wir also?
     Hmmmmm...[pause]
   - |-
-    [\x0207][\x020902]3Woah, Veemon! Ich
+    \x02\x07\x02\x09\x023Woah, Veemon! Ich
     will die Baumstiefel.[pause]
   - |-
-    [\x0207]Veemon[\x0207]Baumstiefel?
+    \x02\x07Veemon\x02\x07Baumstiefel?
     Oh, die Stiefel zum
-    Bäume treten...[pause][\x0203]Ja sicher, aber nur
+    Bäume treten...[pause]\x02\x03Ja sicher, aber nur
     wenn du mit mir
     spielst![pause]
   - |-
-    [\x0207][\x020902]3Klare Sache!
+    \x02\x07\x02\x09\x023Klare Sache!
     Was spielen
     wir?[pause]
-  - "[\\x0207]Veemon[\\x0207]Ich gehe in den\nTretwald, und\ndu suchst mich.[pause][\\x0203]Wenn du mich findest,\ngebe ich dir die\nBaumstiefel![pause][\\x0203]Du verlierst, wenn du\nden Wald verlässt, \nohne mich zu finden![pause][\\x0203]Und wenn du den\nTretwald verlässt, \ngehe ich nach Hause![pause]"
+  - "\\x02\\x07Veemon\\x02\\x07Ich gehe in den\nTretwald, und\ndu suchst mich.[pause]\\x02\\x03Wenn du mich findest,\ngebe ich dir die\nBaumstiefel![pause]\\x02\\x03Du verlierst, wenn du\nden Wald verlässt, \nohne mich zu finden![pause]\\x02\\x03Und wenn du den\nTretwald verlässt, \ngehe ich nach Hause![pause]"
   - |-
-    [\x0207][\x020902]3OK!
+    \x02\x07\x02\x09\x023OK!
     Ich werde dich
     finden![pause]
-  - "[\\x0207]Veemon[\\x0207]Heh heh heh.\nDas wird nicht\nso einfach![pause][\\x0203]Zähl bis 10 und\nkomm in den \nWald![pause]"
+  - "\\x02\\x07Veemon\\x02\\x07Heh heh heh.\nDas wird nicht\nso einfach![pause]\\x02\\x03Zähl bis 10 und\nkomm in den \nWald![pause]"
   - |-
-    [\x0207][\x020902]3OK, ich zähl bis 10
+    \x02\x07\x02\x09\x023OK, ich zähl bis 10
     1, 2, 3, 4, 5,
-    6, 7, 8, 9, 10![pause][\x0203].........
+    6, 7, 8, 9, 10![pause]\x02\x03.........
     .............
     War das zu schnell?[pause]
   - |-
-    [\x0207][\x020902]3Na gut!
+    \x02\x07\x02\x09\x023Na gut!
     OK, ich wird
     ihn suchen![pause]

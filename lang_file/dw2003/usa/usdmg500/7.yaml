@@ -1,3 +1,3 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Huh, that's \nweird.[pause][\\x0203]Numemon isn't\nhere.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Huh, that's \nweird.[pause]\\x02\\x03Numemon isn't\nhere.[pause]"

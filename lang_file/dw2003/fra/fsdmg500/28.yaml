@@ -1,63 +1,63 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Hé !
+    \x02\x07\x02\x09\x023Hé !
     Voilà Nick
     et Keith.[pause]
   - |-
-    [\x0207]Nick[\x0207]Mais quand est-ce
+    \x02\x07Nick\x02\x07Mais quand est-ce
     que tu vas faire
-    ton boulot ?[pause][\x0203]Tu joues à ce jeu
+    ton boulot ?[pause]\x02\x03Tu joues à ce jeu
     depuis qu'on est
     arrivés ici ![pause]
   - a
   - a
   - |-
-    [\x0207]Keith[\x0207]Ha ha, c'est vrai !
+    \x02\x07Keith\x02\x07Ha ha, c'est vrai !
     Mais c'est un plan
-    comme un autre ![pause][\x0203]Ils vont essayer
+    comme un autre ![pause]\x02\x03Ils vont essayer
     de contacter de
     bons joueurs ![pause]
   - |-
-    [\x0207]Nick[\x0207]Tu ne trompes
-    personne ![pause][\x0203]Désormais, on
+    \x02\x07Nick\x02\x07Tu ne trompes
+    personne ![pause]\x02\x03Désormais, on
     fait ce que
     j'avais prévu ![pause]
   - |-
-    [\x0207]Keith[\x0207]Pas question !
+    \x02\x07Keith\x02\x07Pas question !
     J'aime faire ce
-    que je fais ![pause][\x0203]C'est ma
+    que je fais ![pause]\x02\x03C'est ma
     liberté ![pause]
-  - '[\x0207]Nick[\x0207]Keith ![pause]'
-  - '[\x0207][\x020902]3Pardon...[pause]'
+  - '\x02\x07Nick\x02\x07Keith ![pause]'
+  - '\x02\x07\x02\x09\x023Pardon...[pause]'
   - |-
-    [\x0207]Nick[\x0207]Oh, c'est
+    \x02\x07Nick\x02\x07Oh, c'est
     toi qui...[pause]
   - |-
-    [\x0207]Keith[\x0207]Salut, gamin. Tu
+    \x02\x07Keith\x02\x07Salut, gamin. Tu
     veux te battre ?[pause]
   - |-
-    [\x0207][\x020902]3Ah, non. Lisa
-    m'a demandé... [pause][\x0203]... de chercher
+    \x02\x07\x02\x09\x023Ah, non. Lisa
+    m'a demandé... [pause]\x02\x03... de chercher
     Keith et Nick.[pause]
   - |-
-    [\x0207]Keith[\x0207]... Oh,
+    \x02\x07Keith\x02\x07... Oh,
     vraiment ?[pause]
   - |-
-    [\x0207]Nick[\x0207]On ferait mieux
+    \x02\x07Nick\x02\x07On ferait mieux
     d'y aller ou elle
     sera furieuse ![pause]
   - |-
-    [\x0207][\x020902]3Oh, une
+    \x02\x07\x02\x09\x023Oh, une
     minute ![pause]
   - |-
-    [\x0207]Keith[\x0207]On n'a pas de
+    \x02\x07Keith\x02\x07On n'a pas de
     temps à perdre.
     Conduis-nous ![pause]
   - |-
-    [\x0207]Nick[\x0207]Oui, conduis-
+    \x02\x07Nick\x02\x07Oui, conduis-
     nous à elle
     maintenant ![pause]
   - |-
-    [\x0207][\x020902]3Bon ?
+    \x02\x07\x02\x09\x023Bon ?
     D'accord ![pause]

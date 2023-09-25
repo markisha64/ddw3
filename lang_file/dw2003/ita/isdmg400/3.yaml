@@ -1,32 +1,32 @@
 strings:
   - ''
   - |-
-    [\x0207]Gov. di Seiryu[\x0207]Sei proprio
+    \x02\x07Gov. di Seiryu\x02\x07Sei proprio
     bravo. Come
     ti chiami?[pause]
   - |-
-    [\x0207][\x020902]3[\x020801][\x020501]. È
+    \x02\x07\x02\x09\x023\x02\x08\x01\x02\x05\x01. È
     stata una
     bella lotta![pause]
   - |-
-    [\x0207]Gov. di Seiryu[\x0207]Bene, [\x020801][\x020501].
+    \x02\x07Gov. di Seiryu\x02\x07Bene, \x02\x08\x01\x02\x05\x01.
     Prendi questo
     con te.[pause]
   - |-
-    [\x0207][\x020902]3Oh! Il tuo stemma
+    \x02\x07\x02\x09\x023Oh! Il tuo stemma
     e l'ID argento![pause]
   - |-
-    [\x0207]Gov. di Seiryu[\x0207]Ne avrai
+    \x02\x07Gov. di Seiryu\x02\x07Ne avrai
     bisogno
-    in futuro.[pause][\x0203]Sono oggetti
+    in futuro.[pause]\x02\x03Sono oggetti
     preziosi, non
     perderli.[pause]
   - |-
-    [\x0207][\x020902]3Grazie,
+    \x02\x07\x02\x09\x023Grazie,
     governatore![pause]
   - |-
-    [\x0207]Gov. di Seiryu[\x0207]Sfida la governatrice
+    \x02\x07Gov. di Seiryu\x02\x07Sfida la governatrice
     di Suzaku nel Settore
-    Sud.[pause][\x0203]Hai ancora molta
+    Sud.[pause]\x02\x03Hai ancora molta
     strada da fare,
     ma buona fortuna![pause]

@@ -8,9 +8,9 @@ strings:
   - Run
   - Ambush!
   - Attack!
-  - '[\x020501]!'
-  - Counter! [\x020501]!
-  - '[\x020501] damage!'
+  - '\x02\x05\x01!'
+  - Counter! \x02\x05\x01!
+  - '\x02\x05\x01 damage!'
   - X
   - MP
   - HP
@@ -21,9 +21,9 @@ strings:
   - Nothing learned.
   - No reserve
   - No items.
-  - '[\x020501]'
-  - '[\x020501]・[\x020502]'
-  - '[\x020501]・[\x020502]・[\x020503]'
+  - '\x02\x05\x01'
+  - '\x02\x05\x01・\x02\x05\x02'
+  - '\x02\x05\x01・\x02\x05\x02・\x02\x05\x03'
   - Skill
   - ーー
   - Switch
@@ -33,8 +33,8 @@ strings:
   - Frozen!
   - Confused!
   - Sleep!
-  - '[\x020501]HP healed!'
-  - '[\x020501] X [\x020502] = [\x020503]!'
+  - '\x02\x05\x01HP healed!'
+  - '\x02\x05\x01 X \x02\x05\x02 = \x02\x05\x03!'
   - ー
   - Counter!
   - Stole
@@ -54,7 +54,7 @@ strings:
   - Defense [arrow-down]!
   - Speed [arrow-down]!
   - Saving Chi!
-  - Digivolved! [\x020501]!
+  - Digivolved! \x02\x05\x01!
   - Back!
   - Go for it!
   - DNA DV!
@@ -78,13 +78,13 @@ strings:
   - Strength, defense, speed cursed!
   - Taking out Digimon!
   - Next Digimon out!
-  - '[\x020501]!'
+  - '\x02\x05\x01!'
   - KO!
   - Defeated!
   - Battle won!
   - Annihilated...
   - No MP.
-  - 'Poisoned: [\x020501]'
+  - 'Poisoned: \x02\x05\x01'
   - Frozen and can't move!
   - Can run away!
   - Can digivolve!
@@ -142,5 +142,5 @@ strings:
   - Galacticmon learned a technique!
   - No MP!
   - Switch failed!
-  - '[\x020501] MP absorbed!'
+  - '\x02\x05\x01 MP absorbed!'
   - Asleep!

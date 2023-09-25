@@ -1,12 +1,12 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Che strano!
+    \x02\x07\x02\x09\x023Che strano!
     Non c'è nessuno
     qui.[pause]
-  - '[\x0207]Voce[\x0207]Uuuuuu![pause]'
-  - '[\x0207][\x020902]3C-cosa?[pause]'
-  - '[\x0207]Voce[\x0207]Uuuuuu![pause]'
+  - '\x02\x07Voce\x02\x07Uuuuuu![pause]'
+  - '\x02\x07\x02\x09\x023C-cosa?[pause]'
+  - '\x02\x07Voce\x02\x07Uuuuuu![pause]'
   - |-
-    [\x0207][\x020902]3Cos'era?
+    \x02\x07\x02\x09\x023Cos'era?
     Un fantasma![pause]

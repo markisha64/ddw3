@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Umm qué
-    raro.[pause][\x0203]Numemon no
+    \x02\x07\x02\x09\x023Umm qué
+    raro.[pause]\x02\x03Numemon no
     está aquí.[pause]

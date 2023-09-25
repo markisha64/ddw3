@@ -1,20 +1,20 @@
 strings:
   - ''
   - |-
-    [\x0207]Dunkelmaster[\x0207]...Hmm?!
-    Wer bist du...[pause][\x0203]...du willst
+    \x02\x07Dunkelmaster\x02\x07...Hmm?!
+    Wer bist du...[pause]\x02\x03...du willst
     mich heraus-
     fordern...?[pause]
   - |-
-    [\x0207][\x020902]3Klar!
+    \x02\x07\x02\x09\x023Klar!
     Kämpfst du mit
     mir?[pause]
   - |-
-    [\x0207]Dunkelmaster[\x0207]Du weiβt nicht, was
-    dich erwartet...[pause][\x0203]...OK. Ich hab
+    \x02\x07Dunkelmaster\x02\x07Du weiβt nicht, was
+    dich erwartet...[pause]\x02\x03...OK. Ich hab
     schon lange keine
     Tamer gesehen.[pause]
   - |-
-    [\x0207][\x020902]3Wart's ab. Ich
+    \x02\x07\x02\x09\x023Wart's ab. Ich
     zeig dir, wer
     was drauf hat![pause]

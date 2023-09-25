@@ -1,31 +1,31 @@
 strings:
   - ''
-  - "[\\x0207]Maes. Car. Ken[\\x0207]Mostraré la \ninformación en \ntu satélite.[pause]"
+  - "\\x02\\x07Maes. Car. Ken\\x02\\x07Mostraré la \ninformación en \ntu satélite.[pause]"
   - |-
     "Batalla de Cartas"
     Esta lucha se realiza como un
-    juego de cartas.[pause][\x0203]Crea tu mazo con cartas de
+    juego de cartas.[pause]\x02\x03Crea tu mazo con cartas de
     300 a elegir y lucha con otros
-    domadores.[pause][\x0203]"Cartas"
+    domadores.[pause]\x02\x03"Cartas"
     Hay 314 cartas en total.
-    Puedes tener hasta nueve de cada.[pause][\x0203]Hay dos tipos de cartas:
+    Puedes tener hasta nueve de cada.[pause]\x02\x03Hay dos tipos de cartas:
     Cartas de Programa y de Digimon.[pause]
-  - "\"Carta de Digimon\"\nCartas para invocar Digimon.[pause][\\x0203]En esta carta hay dos números:\nPA y PV.[pause][\\x0203]PA es la pot. ataque y PV son\npuntos de vida. Cuando PV llegue\na cero, el Digimon va a la papel.[pause][\\x0203]5/3 significa 5 PA y 3 PV.[pause][\\x0203]\"Tarjeta de Programa\"\nAtacan a la mano de tu oponente o\nrefuerzan la tuya.[pause][\\x0203]Existen varios efectos para cada \ncarta. Lee las cartas para \nobtener información.[pause]"
+  - "\"Carta de Digimon\"\nCartas para invocar Digimon.[pause]\\x02\\x03En esta carta hay dos números:\nPA y PV.[pause]\\x02\\x03PA es la pot. ataque y PV son\npuntos de vida. Cuando PV llegue\na cero, el Digimon va a la papel.[pause]\\x02\\x035/3 significa 5 PA y 3 PV.[pause]\\x02\\x03\"Tarjeta de Programa\"\nAtacan a la mano de tu oponente o\nrefuerzan la tuya.[pause]\\x02\\x03Existen varios efectos para cada \ncarta. Lee las cartas para \nobtener información.[pause]"
   - |-
     "Carpetas"
     Antes de la batalla, crea una Carpeta
-    con 40 Cartas.[pause][\x0203]Las Carp. son necesarias para luchar.
-    Puedes poner hasta 4 iguales en una.[pause][\x0203]"Conf. Carta para Batalla"
+    con 40 Cartas.[pause]\x02\x03Las Carp. son necesarias para luchar.
+    Puedes poner hasta 4 iguales en una.[pause]\x02\x03"Conf. Carta para Batalla"
     Quien gana primero dos tiempos,
-    ganará la batalla.[pause][\x0203]Escoge la Carpeta que será tu mazo.
+    ganará la batalla.[pause]\x02\x03Escoge la Carpeta que será tu mazo.
     Una vez seleccionada, la batalla
-    comienza[pause][\x0203]Un tiempo está formado por
+    comienza[pause]\x02\x03Un tiempo está formado por
     6 fases que explicaré ahora.[pause]
-  - "\"Fase Inicial\"\nDecide el primer jugador. Quien \nsaque Calumon, es el primero.[pause][\\x0203]\"Fase de Extracción\"\nSe deben extraer seis cartas del\nmazo para tu mano.[pause][\\x0203]Si no puedes extraer seis cartas en\nesta fase, pierdes. En batalla,\nel máximo es 10 cartas.[pause]"
-  - "\"Fase de Carga\"\nSeleccione un programa para\npreparar la fase de Invocación.[pause][\\x0203]Continuar cambiando turnos hasta \nque ambos jugad. pasen. Aquí hay  \nCartas PG que no pueden usarse.[pause][\\x0203]\"Fase de Invocación\"\nSeleccione una Carta Digimon \npara invocarlo.[pause][\\x0203]Se puede invocar 6 para el campo.\nHace falta S-Energía\npara invocarlos.[pause]"
-  - "\"Fase de Compilado\"\nUtiliza tu Carta PG para\ndiferentes efectos.[pause][\\x0203]Continuar cambiando turnos hasta \nque ambos jug. pasen. Pueden \nusarse todas las Cartas PG.[pause][\\x0203]\"Fase de Batalla\"\nLucha de Digimon para decidir el\nganador.[pause][\\x0203]El ganador se decide comparando\nlos puntos de PA y PV. El que \nalcance cero, pierde.[pause][\\x0203]Es el final de un tiempo. El\nganador de dos, gana la batalla.\nObtiene un sobre de expansión.[pause]"
+  - "\"Fase Inicial\"\nDecide el primer jugador. Quien \nsaque Calumon, es el primero.[pause]\\x02\\x03\"Fase de Extracción\"\nSe deben extraer seis cartas del\nmazo para tu mano.[pause]\\x02\\x03Si no puedes extraer seis cartas en\nesta fase, pierdes. En batalla,\nel máximo es 10 cartas.[pause]"
+  - "\"Fase de Carga\"\nSeleccione un programa para\npreparar la fase de Invocación.[pause]\\x02\\x03Continuar cambiando turnos hasta \nque ambos jugad. pasen. Aquí hay  \nCartas PG que no pueden usarse.[pause]\\x02\\x03\"Fase de Invocación\"\nSeleccione una Carta Digimon \npara invocarlo.[pause]\\x02\\x03Se puede invocar 6 para el campo.\nHace falta S-Energía\npara invocarlos.[pause]"
+  - "\"Fase de Compilado\"\nUtiliza tu Carta PG para\ndiferentes efectos.[pause]\\x02\\x03Continuar cambiando turnos hasta \nque ambos jug. pasen. Pueden \nusarse todas las Cartas PG.[pause]\\x02\\x03\"Fase de Batalla\"\nLucha de Digimon para decidir el\nganador.[pause]\\x02\\x03El ganador se decide comparando\nlos puntos de PA y PV. El que \nalcance cero, pierde.[pause]\\x02\\x03Es el final de un tiempo. El\nganador de dos, gana la batalla.\nObtiene un sobre de expansión.[pause]"
   - |-
-    [\x0207]Maes. Car. Ken[\x0207]Eso es todo en cuanto
-    a las reglas.[pause][\x0203]Si quieres saber más,
+    \x02\x07Maes. Car. Ken\x02\x07Eso es todo en cuanto
+    a las reglas.[pause]\x02\x03Si quieres saber más,
     pregunta a Luke.
     ¡Diviértete![pause]

@@ -1,19 +1,19 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Sieg! Da
+    \x02\x07\x02\x09\x023Sieg! Da
     staunste![pause]
   - |-
-    [\x0207]Keith[\x0207]Ha! Ich habe mich
+    \x02\x07Keith\x02\x07Ha! Ich habe mich
     zurückgehalten.[pause]
   - |-
-    [\x0207][\x020902]3Ich dachte, du
+    \x02\x07\x02\x09\x023Ich dachte, du
     würdest keine
     Rücksicht nehmen.[pause]
   - |-
-    [\x0207]Keith[\x0207]Ich weiβ gar nicht,
-    wovon du sprichst![pause][\x0203]Pass bloβ auf,
+    \x02\x07Keith\x02\x07Ich weiβ gar nicht,
+    wovon du sprichst![pause]\x02\x03Pass bloβ auf,
     Kleiner. Nächstes
-    Mal bist du fällig![pause][\x0203]Vergiss mich nicht.
+    Mal bist du fällig![pause]\x02\x03Vergiss mich nicht.
     Sayonara, Idiot![pause]
-  - "[\\x0207][\\x020902]3Wer hier\nwohl der \nIdiot ist![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Wer hier\nwohl der \nIdiot ist![pause]"

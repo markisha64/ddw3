@@ -1,8 +1,8 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3C'est étrange.
+    \x02\x07\x02\x09\x023C'est étrange.
     Il n'y a
     personne...[pause]
-  - "[\\x0207][\\x020902]3Ah, c'est comme\nla salle du Maître \nde Jeu d'Asuka  ![pause][\\x0203]Ceci une porte \nsecrète  ![pause][\\x0203]... mais quel\nest le code ?[pause][\\x0203]A Asuka, c'était\nMONSTRE... Ici,\nce serait DIGITAL ?[pause]"
-  - "[\\x0207][\\x020902]3Tiens, ça s'est\nouvert tout \nseul ??![pause][\\x0203]On m'attend\npeut-être de\nl'autre côté...[pause][\\x0203]Très bien  !\nJ'entre, qui que\ntu sois  ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ah, c'est comme\nla salle du Maître \nde Jeu d'Asuka  ![pause]\\x02\\x03Ceci une porte \nsecrète  ![pause]\\x02\\x03... mais quel\nest le code ?[pause]\\x02\\x03A Asuka, c'était\nMONSTRE... Ici,\nce serait DIGITAL ?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Tiens, ça s'est\nouvert tout \nseul ??![pause]\\x02\\x03On m'attend\npeut-être de\nl'autre côté...[pause]\\x02\\x03Très bien  !\nJ'entre, qui que\ntu sois  ![pause]"

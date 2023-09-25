@@ -91,59 +91,59 @@ strings:
   - DéfenseTonnerre
   - Défense Machine
   - Déf. Ténèbres
-  - '[\x020501] +[\x020502]'
-  - '[\x020501] -[\x020502]'
+  - '\x02\x05\x01 +\x02\x05\x02'
+  - '\x02\x05\x01 -\x02\x05\x02'
   - |-
     Résultats:
-    Puissance augmentée de [\x020501][pause]
+    Puissance augmentée de \x02\x05\x01[pause]
   - |-
     Résultats :
-    Défense augmentée de [\x020501] ![pause]
+    Défense augmentée de \x02\x05\x01 ![pause]
   - |-
     Résultats :
-    Esprit augmenté de [\x020501] ![pause]
+    Esprit augmenté de \x02\x05\x01 ![pause]
   - |-
     Résultats :
-    Sagesse augmentée de [\x020501] ![pause]
+    Sagesse augmentée de \x02\x05\x01 ![pause]
   - |-
     Résultats :
-    Vitesse augmentée de [\x020501] ![pause]
+    Vitesse augmentée de \x02\x05\x01 ![pause]
   - |-
     Résultats :
-    Déf. Feu augm. de [\x020501] ![pause]
+    Déf. Feu augm. de \x02\x05\x01 ![pause]
   - |-
     Résultats :
-    Déf. Eau augm. de [\x020501] ![pause]
+    Déf. Eau augm. de \x02\x05\x01 ![pause]
   - |-
     Résultats :
-    Déf. Glace augm. de [\x020501] ![pause]
+    Déf. Glace augm. de \x02\x05\x01 ![pause]
   - |-
     Résultats :
-    Déf. Vent augm. de [\x020501] ![pause]
+    Déf. Vent augm. de \x02\x05\x01 ![pause]
   - |-
     Résultats:
-    Déf. Tonnerre augm. de [\x020501][pause]
+    Déf. Tonnerre augm. de \x02\x05\x01[pause]
   - |-
     Résultats:
-    Déf. Machine augm. de [\x020501] ![pause]
+    Déf. Machine augm. de \x02\x05\x01 ![pause]
   - |-
     Résultats :
-    Déf. Ténèbres augm. de [\x020501][pause]
+    Déf. Ténèbres augm. de \x02\x05\x01[pause]
   - |-
-    Résultats :[pause][\x0203]Déf. Feu augmentée de [\x020501] !
-    Maximum PM augmenté de [\x020502][pause]
+    Résultats :[pause]\x02\x03Déf. Feu augmentée de \x02\x05\x01 !
+    Maximum PM augmenté de \x02\x05\x02[pause]
   - |-
-    Résultats :[pause][\x0203]Déf. Eau augmentée de [\x020501] !
-    Défense diminuée de [\x020502]...[pause]
-  - "Résultats :[pause][\\x0203]Déf. Glace augmentée de [\\x020501] \nVitesse diminuée de [\\x020502]...[pause]"
+    Résultats :[pause]\x02\x03Déf. Eau augmentée de \x02\x05\x01 !
+    Défense diminuée de \x02\x05\x02...[pause]
+  - "Résultats :[pause]\\x02\\x03Déf. Glace augmentée de \\x02\\x05\\x01 \nVitesse diminuée de \\x02\\x05\\x02...[pause]"
   - |-
-    Résultats :[pause][\x0203]Déf. Vent augm. de [\x020501] !
-    Force diminuée de [\x020502]...[pause]
-  - "Résultats :[pause][\\x0203]Déf. Tonnerre augm. de [\\x020501] \nSagesse diminuée de [\\x020502]...[pause]"
+    Résultats :[pause]\x02\x03Déf. Vent augm. de \x02\x05\x01 !
+    Force diminuée de \x02\x05\x02...[pause]
+  - "Résultats :[pause]\\x02\\x03Déf. Tonnerre augm. de \\x02\\x05\\x01 \nSagesse diminuée de \\x02\\x05\\x02...[pause]"
   - |-
-    Résultats:[pause][\x0203]Déf. Machine augm. de [\x020501] !
-    Max PV diminué de [\x020502] ![pause]
-  - "Résultats :[pause][\\x0203]Déf. Ténèbres augm. de [\\x020501] \nEsprit diminué de [\\x020502]...[pause]"
+    Résultats:[pause]\x02\x03Déf. Machine augm. de \x02\x05\x01 !
+    Max PV diminué de \x02\x05\x02 ![pause]
+  - "Résultats :[pause]\\x02\\x03Déf. Ténèbres augm. de \\x02\\x05\\x01 \nEsprit diminué de \\x02\\x05\\x02...[pause]"
   - |-
     Résultats :
     Aucune amélioration...[pause]

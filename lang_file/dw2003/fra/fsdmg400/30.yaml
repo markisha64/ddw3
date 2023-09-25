@@ -1,15 +1,15 @@
 strings:
   - ''
-  - "Bip. Bip.\nPATIENTEZ.\nCONTROLE DONNEES.[pause][\\x0203]... ... \nIMPOSSIBLE VALIDER\nCARTE BLEUE.[pause][\\x0203]ENREGISTREMENT\nDU COMPTE ANNULE[pause]"
+  - "Bip. Bip.\nPATIENTEZ.\nCONTROLE DONNEES.[pause]\\x02\\x03... ... \nIMPOSSIBLE VALIDER\nCARTE BLEUE.[pause]\\x02\\x03ENREGISTREMENT\nDU COMPTE ANNULE[pause]"
   - |-
-    [\x0207][\x020902]3Je ne peux pas
-    m'enregistrer ?[pause][\x0203]J'ai la Carte
+    \x02\x07\x02\x09\x023Je ne peux pas
+    m'enregistrer ?[pause]\x02\x03J'ai la Carte
     Bleue pourtant ![pause]
   - |-
-    [\x0207][\x020902]3Hein ? Quoi ? Ce
+    \x02\x07\x02\x09\x023Hein ? Quoi ? Ce
     n'est pas la Carte
-    Bleue ![pause][\x0203]Ce n'est pas un B
+    Bleue ![pause]\x02\x03Ce n'est pas un B
     mais un 8 ! C'est
-    une Carte 8leue ![pause][\x0203]Hé, c'est une
+    une Carte 8leue ![pause]\x02\x03Hé, c'est une
     fausse ! Je me
     suis fait avoir ![pause]

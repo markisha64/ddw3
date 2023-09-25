@@ -18,7 +18,7 @@ strings:
   - BIT
   - |-
     Ciascun Digimon
-    [\x020501] BIT
+    \x02\x05\x01 BIT
   - Resta nella locanda
   - Lascia la locanda
   - Non hai BIT sufficienti!

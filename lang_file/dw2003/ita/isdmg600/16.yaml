@@ -1,37 +1,37 @@
 strings:
   - ''
   - |-
-    [\x0207]Assalitore[\x0207]No, noo... I
-    miei Digimon![pause][\x0203]La pagherai per
+    \x02\x07Assalitore\x02\x07No, noo... I
+    miei Digimon![pause]\x02\x03La pagherai per
     questo![pause]
   - |-
-    [\x0207]Lisa[\x0207]Grazie, [\x020801][\x020501]. Mi
+    \x02\x07Lisa\x02\x07Grazie, \x02\x08\x01\x02\x05\x01. Mi
     hai salvata di
     nuovo![pause]
   - |-
-    [\x0207]Kail[\x0207]Ma Kurt è...!
+    \x02\x07Kail\x02\x07Ma Kurt è...!
     Pensavo di averlo
     trovato, invece...[pause]
-  - '[\x0207]Kurt[\x0207]Oink oink![pause]'
-  - "[\\x0207][\\x020902]3Ok, ho deciso! \nAndrò alla città\ndi Asuka![pause][\\x0203]Salverò Teddy e\nliquiderò la Signora\ndel Gioco.[pause]"
+  - '\x02\x07Kurt\x02\x07Oink oink![pause]'
+  - "\\x02\\x07\\x02\\x09\\x023Ok, ho deciso! \nAndrò alla città\ndi Asuka![pause]\\x02\\x03Salverò Teddy e\nliquiderò la Signora\ndel Gioco.[pause]"
   - |-
-    [\x0207]Kail[\x0207]Sì, sconfiggiamo
-    l'A.o.A![pause][\x0203]E riportiamo Kurt
+    \x02\x07Kail\x02\x07Sì, sconfiggiamo
+    l'A.o.A![pause]\x02\x03E riportiamo Kurt
     com'era prima![pause]
   - |-
-    [\x0207]Lisa[\x0207]Sì, lo voglio
-    anche io.[pause][\x0203]Ma non voglio il
-    panico generale.[pause][\x0203]Puoi mantenere
+    \x02\x07Lisa\x02\x07Sì, lo voglio
+    anche io.[pause]\x02\x03Ma non voglio il
+    panico generale.[pause]\x02\x03Puoi mantenere
     il silenzio
     sull'A.o.A?[pause]
-  - '[\x0207][\x020902]3D''accordo![pause]'
+  - '\x02\x07\x02\x09\x023D''accordo![pause]'
   - |-
-    [\x0207][\x020902]3OK, Kail,
+    \x02\x07\x02\x09\x023OK, Kail,
     vado![pause]
   - |-
-    [\x0207]Kail[\x0207]Senti, se perdi non
+    \x02\x07Kail\x02\x07Senti, se perdi non
     te lo perdonerò mai.
     Capito?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Buona fortuna!
+    \x02\x07Lisa\x02\x07Buona fortuna!
     Tifo per te![pause]

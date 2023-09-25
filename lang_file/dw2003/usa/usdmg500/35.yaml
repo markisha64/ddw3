@@ -1,5 +1,5 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Hey, what do \nwe have here?[pause]"
-  - "[\\x0207][\\x020902]3Yeah! I got the \nDigi-Egg of \nKnowledge![pause]"
-  - "[\\x0207][\\x020902]3Now I can summon\nDigmon![pause][\\x0203]OK, let's go back \nto Asuka Server and \ngo to North Sector![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hey, what do \nwe have here?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Yeah! I got the \nDigi-Egg of \nKnowledge![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Now I can summon\nDigmon![pause]\\x02\\x03OK, let's go back \nto Asuka Server and \ngo to North Sector![pause]"

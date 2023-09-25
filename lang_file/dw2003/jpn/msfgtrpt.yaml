@@ -3,27 +3,27 @@ strings:
   - EXP
   - |-
     かくとくEXP
-    [\x020501]EXP[pause]
+    \x02\x05\x01EXP[pause]
   - LV
   - スキルアップ![pause]
   - |-
     わざをおぼえた
-    [\x020501][pause]
+    \x02\x05\x01[pause]
   - |-
     わざをロードできるようになった
-    [\x020501][pause]
+    \x02\x05\x01[pause]
   - |-
-    [\x020501]
-    LV[\x020502]になった![pause]
+    \x02\x05\x01
+    LV\x02\x05\x02になった![pause]
   - |-
     シンカをおぼえた
-    [\x020501][pause]
+    \x02\x05\x01[pause]
   - |-
     シンカ・スロットがいっぱいだ
     デジモン・ラボにてんそうします[pause]
   - |-
     かくとくBIT
-    [\x020501]BIT[pause]
+    \x02\x05\x01BIT[pause]
   - |-
     かくとくアイテム
-    [\x020501][pause]
+    \x02\x05\x01[pause]

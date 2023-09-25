@@ -1,35 +1,35 @@
 strings:
   - ''
   - |-
-    [\x0207]Lisa[\x0207]Wir werden
+    \x02\x07Lisa\x02\x07Wir werden
     Knightmon
-    besiegen![pause][\x0203]OK, lassen
+    besiegen![pause]\x02\x03OK, lassen
     wir die Leute
     der Stadt frei![pause]
   - |-
-    [\x0207]Leader Chuck[\x0207]Alle mit-
+    \x02\x07Leader Chuck\x02\x07Alle mit-
     kommen.
     Attacke![pause]
-  - '[\x0207]Widerständ. Wanda[\x0207]Yeah![pause]'
+  - '\x02\x07Widerständ. Wanda\x02\x07Yeah![pause]'
   - |-
-    [\x0207]Widerständler Dew[\x0207]Die A.o.A. wer-
+    \x02\x07Widerständler Dew\x02\x07Die A.o.A. wer-
     den uns nicht
     besiegen![pause]
   - |-
-    [\x0207]Widerständ. Meech[\x0207]Wir holen
+    \x02\x07Widerständ. Meech\x02\x07Wir holen
     uns Amaterasu
     City zurück![pause]
   - |-
-    [\x0207]Teddy[\x0207]Wow!
+    \x02\x07Teddy\x02\x07Wow!
     Wir werden
     gewinnen![pause]
   - |-
-    [\x0207][\x020902]3Yeah! Lisa und
+    \x02\x07\x02\x09\x023Yeah! Lisa und
     die anderen
     sind auch da![pause]
   - |-
-    [\x0207]Teddy[\x0207]...aber was
+    \x02\x07Teddy\x02\x07...aber was
     passiert in der
-    echten Welt...?[pause][\x0203]Ich hoffe, Des-
+    echten Welt...?[pause]\x02\x03Ich hoffe, Des-
     tromon kämpft
     noch nicht...[pause]

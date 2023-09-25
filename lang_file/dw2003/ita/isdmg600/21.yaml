@@ -1,36 +1,36 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Strano!
+    \x02\x07\x02\x09\x023Strano!
     Numemon non è
     qui.[pause]
   - |-
-    Aaaaaah![pause][\x0203]Aiuto!
+    Aaaaaah![pause]\x02\x03Aiuto!
     Aiuto![pause]
   - |-
-    [\x0207][\x020902]3Cosa? Cos'è
+    \x02\x07\x02\x09\x023Cosa? Cos'è
     stato?[pause]
   - |-
-    [\x0207]WaruMonzaemon[\x0207]Sei così beeella!
+    \x02\x07WaruMonzaemon\x02\x07Sei così beeella!
     Sposami![pause]
   - |-
-    [\x0207]Lisa[\x0207]No! Non amo i
+    \x02\x07Lisa\x02\x07No! Non amo i
     mostri![pause]
   - |-
-    [\x0207][\x020902]3Oh, oh!
+    \x02\x07\x02\x09\x023Oh, oh!
     Ma è...
     Lisa![pause]
   - |-
-    [\x0207]Lisa[\x0207]Ehi, ehi! Sei
-    [\x020801][\x020501], vero?[pause][\x0203]Aiuta una damigella
+    \x02\x07Lisa\x02\x07Ehi, ehi! Sei
+    \x02\x08\x01\x02\x05\x01, vero?[pause]\x02\x03Aiuta una damigella
     in difficoltà![pause]
   - |-
-    [\x0207][\x020902]3Va bene.
+    \x02\x07\x02\x09\x023Va bene.
     Eccomi![pause]
   - |-
-    [\x0207][\x020902]3Ehi, WaruMonzaemon!
+    \x02\x07\x02\x09\x023Ehi, WaruMonzaemon!
     Prenditela con
     i tuoi pari![pause]
   - |-
-    [\x0207]WaruMonzaemon[\x0207]... ...
-    Chi sei tu?[pause][\x0203]Via dai piedi![pause]
+    \x02\x07WaruMonzaemon\x02\x07... ...
+    Chi sei tu?[pause]\x02\x03Via dai piedi![pause]

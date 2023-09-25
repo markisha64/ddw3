@@ -1,24 +1,24 @@
 strings:
   - ''
   - |-
-    [\x0207]Seraphimon N[\x0207]So della tua
+    \x02\x07Seraphimon N\x02\x07So della tua
     forza e
-    del tuo coraggio.[pause][\x0203]Ho testato il tuo
+    del tuo coraggio.[pause]\x02\x03Ho testato il tuo
     coraggio...[pause]
   - |-
-    [\x0207][\x020902]3Nessuno può
+    \x02\x07\x02\x09\x023Nessuno può
     battermi nel
     coraggio![pause]
   - |-
-    [\x0207]Seraphimon N[\x0207]Bravo! Ben detto![pause][\x0203]Sei passato.
+    \x02\x07Seraphimon N\x02\x07Bravo! Ben detto![pause]\x02\x03Sei passato.
     Questa ne sarà
     la prova![pause]
   - |-
-    [\x0207][\x020902]3La tuta da
+    \x02\x07\x02\x09\x023La tuta da
     cecchino![pause]
   - |-
-    [\x0207]Seraphimon N[\x0207]Il passaggio
+    \x02\x07Seraphimon N\x02\x07Il passaggio
     è rivelato dal
-    coraggio.[pause][\x0203]Non arrenderti
+    coraggio.[pause]\x02\x03Non arrenderti
     a nessun
     nemico![pause]

@@ -1,10 +1,10 @@
 strings:
   - ''
   - |-
-    [\x0207]Strega ghiaccio[\x0207]Mi hai battuta.
-    Lo riconosco.[pause][\x0203]Secondo le regole,
+    \x02\x07Strega ghiaccio\x02\x07Mi hai battuta.
+    Lo riconosco.[pause]\x02\x03Secondo le regole,
     puoi proseguire.[pause]
   - |-
-    [\x0207]Strega ghiaccio[\x0207]Vai. Mi auguro
+    \x02\x07Strega ghiaccio\x02\x07Vai. Mi auguro
     che tu possa
     vincere![pause]

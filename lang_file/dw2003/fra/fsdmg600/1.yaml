@@ -1,19 +1,19 @@
 strings:
   - ''
   - |-
-    [\x0207]Chef de Byakko[\x0207]Ha ha ha !
+    \x02\x07Chef de Byakko\x02\x07Ha ha ha !
     Tu es fort.
     Tu me plais.[pause]
   - |-
-    [\x0207][\x020902]3Bien, alors... [pause][\x0203]Que sais-tu au
+    \x02\x07\x02\x09\x023Bien, alors... [pause]\x02\x03Que sais-tu au
     sujet de ce fameux
     Lucky Mouse...[pause]
   - |-
-    [\x0207]Chef de Byakko[\x0207]Attends. Le Badge
+    \x02\x07Chef de Byakko\x02\x07Attends. Le Badge
     de Byakko est
-    dans cette pièce.[pause][\x0203]Je t'écouterai
+    dans cette pièce.[pause]\x02\x03Je t'écouterai
     quand tu l'auras.[pause]
   - |-
-    [\x0207][\x020902]3D'accord, je
+    \x02\x07\x02\x09\x023D'accord, je
     reviens tout
     de suite ![pause]

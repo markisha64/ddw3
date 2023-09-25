@@ -1,11 +1,11 @@
 strings:
   - ''
-  - '[\x0207][\x020902]3Ho vinto![pause]'
+  - '\x02\x07\x02\x09\x023Ho vinto![pause]'
   - |-
-    [\x0207]MagnaAngemon[\x0207]Va bene,
+    \x02\x07MagnaAngemon\x02\x07Va bene,
     prendilo.[pause]
   - |-
-    [\x0207][\x020902]3Il DDNA di
+    \x02\x07\x02\x09\x023Il DDNA di
     Patamon,
-    wow![pause][\x0203]Grazie,
+    wow![pause]\x02\x03Grazie,
     MagnaAngemon![pause]

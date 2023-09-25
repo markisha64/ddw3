@@ -1,10 +1,10 @@
 strings:
   - ''
   - |-
-    [\x0207]Soldato di metallo[\x0207]Bip, bip![pause][\x0203]Allarme intruso!
-    Allarme intruso![pause][\x0203]Eliminarlo
+    \x02\x07Soldato di metallo\x02\x07Bip, bip![pause]\x02\x03Allarme intruso!
+    Allarme intruso![pause]\x02\x03Eliminarlo
     dall'edificio![pause]
   - |-
-    [\x0207][\x020902]3Uomo di
+    \x02\x07\x02\x09\x023Uomo di
     latta,
     ti sfido![pause]

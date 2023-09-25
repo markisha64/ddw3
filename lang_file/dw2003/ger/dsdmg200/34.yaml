@@ -1,56 +1,56 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3OK, dann gehen wir
+    \x02\x07\x02\x09\x023OK, dann gehen wir
     in den Nordsektor![pause]
   - |-
-    [\x0207]Teddy[\x0207]Warte mal!
+    \x02\x07Teddy\x02\x07Warte mal!
     Wie kommen wir
-    denn dahin?[pause][\x0203]Es gibt keine Straβe
+    denn dahin?[pause]\x02\x03Es gibt keine Straβe
     und mit Submarimon
     geht's auch nicht![pause]
   - |-
-    [\x0207][\x020902]3Ach ja?
+    \x02\x07\x02\x09\x023Ach ja?
     Stimmt
     das?[pause]
-  - "[\\x0207]Teddy[\\x0207]Das haben jeden-\nfalls die Wachen im\nGefängnis gesagt.[pause][\\x0203]Du kannst Digimon \nfragen, um z. Nord-\nsektor zu kommen...[pause]"
+  - "\\x02\\x07Teddy\\x02\\x07Das haben jeden-\nfalls die Wachen im\nGefängnis gesagt.[pause]\\x02\\x03Du kannst Digimon \nfragen, um z. Nord-\nsektor zu kommen...[pause]"
   - |-
-    [\x0207][\x020902]3Dann ist es
+    \x02\x07\x02\x09\x023Dann ist es
     doch einfach![pause]
-  - "[\\x0207]Teddy[\\x0207]Aber du brauchst das\nDigiei des Wissens,\num Digimon zu rufen...[pause][\\x0203]Ich glaube, das ist ein\nseltenes Item, gibt's nur \nin Amaterasu-Server.[pause]"
+  - "\\x02\\x07Teddy\\x02\\x07Aber du brauchst das\nDigiei des Wissens,\num Digimon zu rufen...[pause]\\x02\\x03Ich glaube, das ist ein\nseltenes Item, gibt's nur \nin Amaterasu-Server.[pause]"
   - |-
-    [\x0207][\x020902]3OK, dann machen wir
+    \x02\x07\x02\x09\x023OK, dann machen wir
     uns auf die Suche
     nach Amaterasu![pause]
-  - "[\\x0207]Teddy[\\x0207]Aber wie kommen\nwir denn da\nhin?[pause][\\x0203]Da wimmelt es \nsicher nur so von\nA.o.A...[pause]"
+  - "\\x02\\x07Teddy\\x02\\x07Aber wie kommen\nwir denn da\nhin?[pause]\\x02\\x03Da wimmelt es \nsicher nur so von\nA.o.A...[pause]"
   - |-
-    [\x0207][\x020902]3Hmm...
+    \x02\x07\x02\x09\x023Hmm...
     Da sagst du
     was...[pause]
   - |-
-    [\x0207][\x020902]3Aber wie sind
+    \x02\x07\x02\x09\x023Aber wie sind
     denn die A.o.A.
     hergekommen?[pause]
   - |-
-    [\x0207]Teddy[\x0207]Na klar!
+    \x02\x07Teddy\x02\x07Na klar!
     Die Soldaten in
     Byakko City![pause]
   - |-
-    [\x0207][\x020902]3Vielleicht wissen
+    \x02\x07\x02\x09\x023Vielleicht wissen
     die etwas![pause]
   - |-
-    [\x0207]Teddy[\x0207]Ganz sicher,
-    [\x020801][\x020501]![pause]
-  - "[\\x0207][\\x020902]3OK, ich werde \nden Westsektor\nauskundsch.![pause]"
+    \x02\x07Teddy\x02\x07Ganz sicher,
+    \x02\x08\x01\x02\x05\x01![pause]
+  - "\\x02\\x07\\x02\\x09\\x023OK, ich werde \nden Westsektor\nauskundsch.![pause]"
   - |-
-    [\x0207]Teddy[\x0207]Sei vorsichtig.
+    \x02\x07Teddy\x02\x07Sei vorsichtig.
     Ich versuch's mit
     diesem Computer![pause]
   - |-
-    [\x0207][\x020902]3OK. Sag Be-
+    \x02\x07\x02\x09\x023OK. Sag Be-
     scheid, wenn
     du was weiβt![pause]
   - |-
-    [\x0207]Teddy[\x0207]Klar!
+    \x02\x07Teddy\x02\x07Klar!
     Überlass
     das mir![pause]

@@ -1,18 +1,18 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Allora
+    \x02\x07\x02\x09\x023Allora
     ti sfido![pause]
   - |-
-    [\x0207]Pharaohmon[\x0207]Non hai
-    paura![pause][\x0203]Ti avverto:
+    \x02\x07Pharaohmon\x02\x07Non hai
+    paura![pause]\x02\x03Ti avverto:
     sono
     potente![pause]
   - |-
-    [\x0207][\x020902]3Voglio
+    \x02\x07\x02\x09\x023Voglio
     proprio
     vedere![pause]
   - |-
-    [\x0207]Pharaohmon[\x0207]Bene,
-    sei pronto.[pause][\x0203]Massima
+    \x02\x07Pharaohmon\x02\x07Bene,
+    sei pronto.[pause]\x02\x03Massima
     potenza![pause]

@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]Sammler Luke[\x0207]Wenn du was da-
+    \x02\x07Sammler Luke\x02\x07Wenn du was da-
     zu hören willst,
     sprich mit mir.[pause]

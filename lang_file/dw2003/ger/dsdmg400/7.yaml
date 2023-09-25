@@ -1,12 +1,12 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Hm. Seltsam.
+    \x02\x07\x02\x09\x023Hm. Seltsam.
     Hier ist über-
     haupt niemand.[pause]
-  - '[\x0207]Stimme[\x0207]...Huuuuu![pause]'
-  - '[\x0207][\x020902]3Waaaaas?![pause]'
-  - '[\x0207]Stimme[\x0207]...Huuuuu![pause]'
+  - '\x02\x07Stimme\x02\x07...Huuuuu![pause]'
+  - '\x02\x07\x02\x09\x023Waaaaas?![pause]'
+  - '\x02\x07Stimme\x02\x07...Huuuuu![pause]'
   - |-
-    [\x0207][\x020902]3Was ist das?!
+    \x02\x07\x02\x09\x023Was ist das?!
     ...ein Geist![pause]

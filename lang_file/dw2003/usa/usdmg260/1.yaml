@@ -1,9 +1,9 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3All right then!
+    \x02\x07\x02\x09\x023All right then!
     I bid 800 BIT![pause]
-  - "[\\x0207]Mr. Smith[\\x0207]Wow! \n800 BIT![pause][\\x0203]Anyone above\n800 BIT?[pause]"
-  - "[\\x0207]Mr. Smith[\\x0207]Seems like there's \nno one else.[pause][\\x0203]Divine Barrier is \nsold for 800 BIT![pause][\\x0203]Congratulations\nto you over there![pause][\\x0203]I'm transferring \nthe item to your\nsatellite now![pause]"
-  - "[\\x0207][\\x020902]3Yeah! I got \nthe Divine \nBarrier![pause]"
-  - "[\\x0207][\\x020902]3OK, I got a pretty \ncool item, so let's \ngo somewhere.[pause]"
+  - "\\x02\\x07Mr. Smith\\x02\\x07Wow! \n800 BIT![pause]\\x02\\x03Anyone above\n800 BIT?[pause]"
+  - "\\x02\\x07Mr. Smith\\x02\\x07Seems like there's \nno one else.[pause]\\x02\\x03Divine Barrier is \nsold for 800 BIT![pause]\\x02\\x03Congratulations\nto you over there![pause]\\x02\\x03I'm transferring \nthe item to your\nsatellite now![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Yeah! I got \nthe Divine \nBarrier![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023OK, I got a pretty \ncool item, so let's \ngo somewhere.[pause]"

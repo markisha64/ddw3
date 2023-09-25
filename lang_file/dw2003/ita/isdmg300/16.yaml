@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207]Guardia reale[\x0207]Ti aspettavamo!
+    \x02\x07Guardia reale\x02\x07Ti aspettavamo!
     Hai battuto i
     nostri capi![pause]
   - |-
-    [\x0207][\x020902]3Avanti! Vi
+    \x02\x07\x02\x09\x023Avanti! Vi
     sfido![pause]
   - |-
-    [\x0207]Guardia reale[\x0207]Siamo più
+    \x02\x07Guardia reale\x02\x07Siamo più
     forti di quanto
     immagini.[pause]
   - |-
-    [\x0207]Guardia reale[\x0207]In nome delle
+    \x02\x07Guardia reale\x02\x07In nome delle
     guardie reali,
     io ti batterò![pause]

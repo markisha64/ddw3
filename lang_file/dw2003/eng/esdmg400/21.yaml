@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3...Hey, WarGrowlmon.
-    I got a favor to ask.[pause][\x0203]Can I get Guilmon
+    \x02\x07\x02\x09\x023...Hey, WarGrowlmon.
+    I got a favor to ask.[pause]\x02\x03Can I get Guilmon
     DDNA from your DDNA?[pause]
-  - "[\\x0207]WarGrowlmon[\\x0207]No way! If you really \nwant it, you gotta \nfight for it kid![pause]"
+  - "\\x02\\x07WarGrowlmon\\x02\\x07No way! If you really \nwant it, you gotta \nfight for it kid![pause]"

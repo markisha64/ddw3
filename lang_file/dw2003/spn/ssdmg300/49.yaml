@@ -1,19 +1,19 @@
 strings:
   - ''
   - |-
-    [\x0207]KingDivermon[\x0207]¡Te daré este
+    \x02\x07KingDivermon\x02\x07¡Te daré este
     Trofeo Asuka![pause]
-  - "[\\x0207][\\x020902]3¿Sí? Gracias\nKingDivermon[pause][\\x0203]¡Sí!¡Tengo el \nTrofeo Asuka![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¿Sí? Gracias\nKingDivermon[pause]\\x02\\x03¡Sí!¡Tengo el \nTrofeo Asuka![pause]"
   - |-
-    [\x0207]KingDivermon[\x0207]Soy el único que
-    puede hacerlo.[pause][\x0203]¡Es un símbolo de
+    \x02\x07KingDivermon\x02\x07Soy el único que
+    puede hacerlo.[pause]\x02\x03¡Es un símbolo de
     Rey de Cartas
     Asuka![pause]
-  - "[\\x0207][\\x020902]3¡Bien!\n¡Es un símbolo \ndel Rey de Crt.![pause]"
-  - "[\\x0207]KingDivermon[\\x0207]¡Mófate, pero\nno bajes la \nguardia![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Bien!\n¡Es un símbolo \ndel Rey de Crt.![pause]"
+  - "\\x02\\x07KingDivermon\\x02\\x07¡Mófate, pero\nno bajes la \nguardia![pause]"
   - |-
-    [\x0207][\x020902]3¡Sí!¡Me voy a
+    \x02\x07\x02\x09\x023¡Sí!¡Me voy a
     hacer mucho más
-    fuerte![pause][\x0203]¡Búsquemos a un
+    fuerte![pause]\x02\x03¡Búsquemos a un
     jugador de cartas
     más fuerte![pause]

@@ -1,26 +1,26 @@
 strings:
   - ''
   - |-
-    [\x0207]Kail[\x0207]Hey [\x020801][\x020501]!
+    \x02\x07Kail\x02\x07Hey \x02\x08\x01\x02\x05\x01!
     Bist spät dran![pause]
-  - "[\\x0207][\\x020902]3Häh? Hi \nKail, schon\nfertig?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Häh? Hi \nKail, schon\nfertig?[pause]"
   - |-
-    [\x0207]Kail[\x0207]Äh,... jaaa.
+    \x02\x07Kail\x02\x07Äh,... jaaa.
     Hast du Teddy
     gefunden?[pause]
-  - "[\\x0207][\\x020902]3Nein, ich habe\nihn nirgends \ngesehen.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Nein, ich habe\nihn nirgends \ngesehen.[pause]"
   - |-
-    [\x0207]Kail[\x0207]Ich auch nicht. Hab
-    überall gesucht...[pause][\x0203]Er sagte doch,
+    \x02\x07Kail\x02\x07Ich auch nicht. Hab
+    überall gesucht...[pause]\x02\x03Er sagte doch,
     dass er zum Admin-
     Center wollte...[pause]
   - |-
-    [\x0207][\x020902]3Wie weit drinnen
+    \x02\x07\x02\x09\x023Wie weit drinnen
     mag er wohl sein...[pause]
-  - '[\x0207]Kail[\x0207].....[pause]'
-  - "[\\x0207]Kail[\\x0207]Hast du auch das\nGefühl, dass er \nhier drin ist?[pause]"
-  - "[\\x0207][\\x020902]3Das wissen\nwir erst, wenn \nwir nachsehen.[pause]"
+  - '\x02\x07Kail\x02\x07.....[pause]'
+  - "\\x02\\x07Kail\\x02\\x07Hast du auch das\nGefühl, dass er \nhier drin ist?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Das wissen\nwir erst, wenn \nwir nachsehen.[pause]"
   - |-
-    [\x0207]Kail[\x0207]Schlauberger!
+    \x02\x07Kail\x02\x07Schlauberger!
     OK, dann gehen
     wir hinein![pause]

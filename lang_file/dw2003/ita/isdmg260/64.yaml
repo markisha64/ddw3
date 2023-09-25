@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Ehi,
+    \x02\x07\x02\x09\x023Ehi,
     l'ascensore
     si muove![pause]

@@ -1,21 +1,21 @@
 strings:
   - ''
   - |-
-    [\x0207]Schelmischer Mat[\x0207]Ich sagte doch, dass das
+    \x02\x07Schelmischer Mat\x02\x07Ich sagte doch, dass das
     Etemon, das ihr sucht,
     nicht hier ist.[pause]
   - |-
-    [\x0207][\x020902]3Ja, schon klar,
+    \x02\x07\x02\x09\x023Ja, schon klar,
     denn das Etemon
     bist du.[pause]
-  - '[\x0207]Schelmischer Mat[\x0207]...Was?![pause]'
+  - '\x02\x07Schelmischer Mat\x02\x07...Was?![pause]'
   - |-
-    [\x0207][\x020902]3Ich hab dich durch-
+    \x02\x07\x02\x09\x023Ich hab dich durch-
     schaut. Du hattest
     den Etemon-Anzug an![pause]
-  - "[\\x0207]Schelmischer Mat[\\x0207].........[pause][\\x0203]Das weiβt du?\nSo ein Mist![pause][\\x0203]Aber sag es bitte\nniemandem, OK?[pause][\\x0203]Dafür bekommst \ndu das von mir![pause]"
-  - "[\\x0207][\\x020902]3Spitze! Die \nAgumon-Anzüge.[pause]"
+  - "\\x02\\x07Schelmischer Mat\\x02\\x07.........[pause]\\x02\\x03Das weiβt du?\nSo ein Mist![pause]\\x02\\x03Aber sag es bitte\nniemandem, OK?[pause]\\x02\\x03Dafür bekommst \ndu das von mir![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Spitze! Die \nAgumon-Anzüge.[pause]"
   - |-
-    [\x0207]Schelmischer Mat[\x0207]Das ist ein Ge-
+    \x02\x07Schelmischer Mat\x02\x07Das ist ein Ge-
     heimnis zwischen
     dir und mir, OK?[pause]

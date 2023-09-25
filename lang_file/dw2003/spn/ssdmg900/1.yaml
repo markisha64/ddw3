@@ -11,39 +11,39 @@ strings:
   - |-
     Aprender los tipos Greymon y
     Veemon. Debe aprender Stingmon para
-    mejorar más allá de ExVeemon. Cuando[pause][\x0203]Greymon mejore su Defensa
+    mejorar más allá de ExVeemon. Cuando[pause]\x02\x03Greymon mejore su Defensa
     Oscura, aprenderá SkullGreymon.
-    No sé qué hay a continuación de ésa.[pause][\x0203]Cuando mejore la habilidad Kyukimon
+    No sé qué hay a continuación de ésa.[pause]\x02\x03Cuando mejore la habilidad Kyukimon
     y su Defensa Máquina, aprenderá
-    MetalMamemon. Luego[pause][\x0203]enlazará con las digievol. Máquina.[pause]
+    MetalMamemon. Luego[pause]\x02\x03enlazará con las digievol. Máquina.[pause]
   - |-
     Aprende ExVeemon al principio.
     Aprenderá Máquina, Angemon y
-    otros tipos, después de Armormon.[pause][\x0203]Al mejorar Defensa Máquina,
+    otros tipos, después de Armormon.[pause]\x02\x03Al mejorar Defensa Máquina,
     aprenderá el tipo Máquinas. Cuando
-    mejore Defensa Viento, conocerá[pause][\x0203]los tipos Angemon. Al mejorar
+    mejore Defensa Viento, conocerá[pause]\x02\x03los tipos Angemon. Al mejorar
     la habilidad Armormon y su
-    Fuerza, conocerá Digitamamon,[pause][\x0203]que lleva a digievoluciones
+    Fuerza, conocerá Digitamamon,[pause]\x02\x03que lleva a digievoluciones
     de técnicas misteriosas.[pause]
   - |-
     Al mejorar la habilidad Grizzmon
     y su Espíritu, conocerá
-    Kyubimon, que lleva a [pause][\x0203]Taomon y otras a partir de esa. Al
+    Kyubimon, que lleva a [pause]\x02\x03Taomon y otras a partir de esa. Al
     mejorar la habilidad Grizzmon y la
-    Sabiduría, aprenderá Digitamon, que[pause][\x0203]lleva a digievoluciones de técnicas
+    Sabiduría, aprenderá Digitamon, que[pause]\x02\x03lleva a digievoluciones de técnicas
     misteriosas. Al mejorar la habilidad
-    GrapLeomon y la Defensa Máquina[pause][\x0203]podrá alcanzar las digievoluciones
+    GrapLeomon y la Defensa Máquina[pause]\x02\x03podrá alcanzar las digievoluciones
     de tipo Máquina.[pause]
   - |-
     Al mejorar la habilidad Kyubimon y
     su Fuerza, aprenderá Stingmon.
-    Conectará con Insectoides como[pause][\x0203]Kabuterimon. Al mejorar la habilidad
+    Conectará con Insectoides como[pause]\x02\x03Kabuterimon. Al mejorar la habilidad
     Kyubimon y su Espíritu, aprenderá
-    Angewomon, que lleva hasta[pause][\x0203]Rosemon y otros tipos de
+    Angewomon, que lleva hasta[pause]\x02\x03Rosemon y otros tipos de
     Recuperación. Cuando mejore
-    Taomon su habilidad y Defensa[pause][\x0203]Viento, aprenderá ExVeemon. Si
+    Taomon su habilidad y Defensa[pause]\x02\x03Viento, aprenderá ExVeemon. Si
     mejoras su Defensa Máquina,
     aprenderá MetalMamemon.[pause]
-  - "Al mejorar la habilidad Angemon y \nsu Fuerza o al mejorar \nDigitamamon y su Sabiduría,[pause][\\x0203]aprenderá Angewomon. Al mejorar\nsu habilidad Angewomon, aprenderán\nRosemon. Cuando mejores la [pause][\\x0203]habilidad Rosemon aprenderá\nHououmon. Cuando mejores la\nhabilidad Holy Angewomon [pause][\\x0203]aprenderá Stingmon si mejoras \nla Defensa Rayo, y Greymon si\nmejoras la Defensa Fuego.[pause]"
-  - "Aprende Growlmon al comienzo.\nAprenderá los tipos Growlmon para\nmejorar su habilidad. Cuando mejores[pause][\\x0203]su Defense Oscura, aprenderá \nSkullGreymon. Ocurre una cosa\nespecial si mejoras la habilidad al[pause][\\x0203]máximo. Al mejorar la habilidad Metal\nGreymon y su Espíritu\naprenderá Kyubimon.[pause]"
-  - "Cuando mejores la Defensa\nal principio, aprenderá\nMetalmon. Luego podrá acceder [pause][\\x0203]a los tipos Metal. Al mejorar la\nhabilidad Growlmon y su Defensa\nRayo, aprenderá Stingmon[pause][\\x0203]que lleva a los Insectoides. \nAprenderá varias digievoluciones de\nMegagroumon mejorando su[pause][\\x0203]Espíritu, Defensa Oscura y \nDefensa Agua.[pause]"
+  - "Al mejorar la habilidad Angemon y \nsu Fuerza o al mejorar \nDigitamamon y su Sabiduría,[pause]\\x02\\x03aprenderá Angewomon. Al mejorar\nsu habilidad Angewomon, aprenderán\nRosemon. Cuando mejores la [pause]\\x02\\x03habilidad Rosemon aprenderá\nHououmon. Cuando mejores la\nhabilidad Holy Angewomon [pause]\\x02\\x03aprenderá Stingmon si mejoras \nla Defensa Rayo, y Greymon si\nmejoras la Defensa Fuego.[pause]"
+  - "Aprende Growlmon al comienzo.\nAprenderá los tipos Growlmon para\nmejorar su habilidad. Cuando mejores[pause]\\x02\\x03su Defense Oscura, aprenderá \nSkullGreymon. Ocurre una cosa\nespecial si mejoras la habilidad al[pause]\\x02\\x03máximo. Al mejorar la habilidad Metal\nGreymon y su Espíritu\naprenderá Kyubimon.[pause]"
+  - "Cuando mejores la Defensa\nal principio, aprenderá\nMetalmon. Luego podrá acceder [pause]\\x02\\x03a los tipos Metal. Al mejorar la\nhabilidad Growlmon y su Defensa\nRayo, aprenderá Stingmon[pause]\\x02\\x03que lleva a los Insectoides. \nAprenderá varias digievoluciones de\nMegagroumon mejorando su[pause]\\x02\\x03Espíritu, Defensa Oscura y \nDefensa Agua.[pause]"

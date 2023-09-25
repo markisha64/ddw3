@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Hmm...Ich kann
+    \x02\x07\x02\x09\x023Hmm...Ich kann
     nicht lange spielen[pause]
   - |-
-    [\x0207]BK WarGrowlmon[\x0207]Ich weiβ.
+    \x02\x07BK WarGrowlmon\x02\x07Ich weiβ.
     Nur etwas.
     Ein Kampf![pause]
   - |-
-    [\x0207][\x020902]3Oh, in Ordnung!
+    \x02\x07\x02\x09\x023Oh, in Ordnung!
     Ich mach's dir
     nicht leicht![pause]
   - |-
-    [\x0207]BK WarGrowlmon[\x0207]Das gefällt mir![pause][\x0203]Wow, ich hab
+    \x02\x07BK WarGrowlmon\x02\x07Das gefällt mir![pause]\x02\x03Wow, ich hab
     lange nicht
     mehr gekämpft![pause]

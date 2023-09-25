@@ -1,14 +1,14 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Ich hab
+    \x02\x07\x02\x09\x023Ich hab
     Armormon
     besiegt![pause]
   - |-
-    [\x0207]Armormon[\x0207]Wie konntest du...[pause][\x0203]Aber du hast ge-
+    \x02\x07Armormon\x02\x07Wie konntest du...[pause]\x02\x03Aber du hast ge-
     wonnen. Hier nimm sie[pause]
   - |-
-    [\x0207][\x020902]3Toll! Ich hab
+    \x02\x07\x02\x09\x023Toll! Ich hab
     die Monmon-
-    DDNA![pause][\x0203]Danke,
+    DDNA![pause]\x02\x03Danke,
     Armormon![pause]

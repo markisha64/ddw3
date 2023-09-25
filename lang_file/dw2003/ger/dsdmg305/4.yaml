@@ -1,108 +1,108 @@
 strings:
   - ''
-  - "[\\x0207]Lisa[\\x0207]Rede![pause][\\x0203]Was hatten \ndie A.o.A \ngeplant?[pause]"
-  - "[\\x0207]Gamemaster[\\x0207]Heh...heh...heh!\nIhr seid zu spät![pause][\\x0203]Der Plan wurde ni.\nvereitelt. Er hat \ngerade begonnen![pause]"
+  - "\\x02\\x07Lisa\\x02\\x07Rede![pause]\\x02\\x03Was hatten \ndie A.o.A \ngeplant?[pause]"
+  - "\\x02\\x07Gamemaster\\x02\\x07Heh...heh...heh!\nIhr seid zu spät![pause]\\x02\\x03Der Plan wurde ni.\nvereitelt. Er hat \ngerade begonnen![pause]"
   - |-
-    [\x0207]Teddy[\x0207]Oh, nein...!
+    \x02\x07Teddy\x02\x07Oh, nein...!
     Sie haben das optische
     Netz übernommen.[pause]
-  - '[\x0207]Nick[\x0207]Wie bitte!?[pause]'
+  - '\x02\x07Nick\x02\x07Wie bitte!?[pause]'
   - |-
-    [\x0207]Gamemaster[\x0207]Heh...heh...
+    \x02\x07Gamemaster\x02\x07Heh...heh...
     Genau wie ich
     gesagt habe.[pause]
   - |-
-    [\x0207][\x020902]3Vemmon...
+    \x02\x07\x02\x09\x023Vemmon...
     Dieses
     Digimon![pause]
   - |-
-    [\x0207]Gamemaster[\x0207]Über das optische Netz
+    \x02\x07Gamemaster\x02\x07Über das optische Netz
     kann er mit jeder
-    Maschine fusionieren![pause][\x0203]Lucky Mouse hat das
+    Maschine fusionieren![pause]\x02\x03Lucky Mouse hat das
     Digitama gestohlen u.
     fast zerstört, aber...[pause]
   - |-
-    [\x0207]Nick[\x0207]Was sollen wir tun?
+    \x02\x07Nick\x02\x07Was sollen wir tun?
     Die A.o.A. haben
     die Oberhand![pause]
   - |-
-    [\x0207]Lisa[\x0207]Zuerst sollten wir der
+    \x02\x07Lisa\x02\x07Zuerst sollten wir der
     echten Welt berichten![pause]
   - |-
-    [\x0207][\x020902]3Aber wie kommen
+    \x02\x07\x02\x09\x023Aber wie kommen
     wir mit ihnen in
     Kontakt...?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Ich habe mal
-    gehört...[pause][\x0203]Irgendwo im Nord-
+    \x02\x07Lisa\x02\x07Ich habe mal
+    gehört...[pause]\x02\x03Irgendwo im Nord-
     sektor gibt es eine
     Notfallkammer...[pause]
   - |-
-    [\x0207]Nick[\x0207]Dann können
+    \x02\x07Nick\x02\x07Dann können
     wir damit
     vielleicht...[pause]
   - |-
-    [\x0207]Lisa[\x0207]Hm...
+    \x02\x07Lisa\x02\x07Hm...
     Na klar![pause]
   - |-
-    [\x0207]Gamemaster[\x0207]Heh...heh...
+    \x02\x07Gamemaster\x02\x07Heh...heh...
     Funktioniert nie![pause]
   - |-
-    [\x0207]Lisa[\x0207]Es ist einen Ver-
+    \x02\x07Lisa\x02\x07Es ist einen Ver-
     such wert, oder
-    [\x020801][\x020501]?[pause]
+    \x02\x08\x01\x02\x05\x01?[pause]
   - |-
-    [\x0207][\x020902]3Genau! Das
-    meine ich auch![pause][\x0203]Den A.o.A. wer-
+    \x02\x07\x02\x09\x023Genau! Das
+    meine ich auch![pause]\x02\x03Den A.o.A. wer-
     den wir es schon
     zeigen![pause]
   - |-
-    [\x0207][\x020902]3Den A.o.A. wer-
+    \x02\x07\x02\x09\x023Den A.o.A. wer-
     den wir es schon
     zeigen![pause]
   - |-
-    [\x0207]Lisa[\x0207]OK, dann suchen
+    \x02\x07Lisa\x02\x07OK, dann suchen
     wir jetzt alle
     nach der Kammer![pause]
   - |-
-    [\x0207]Nick[\x0207]Hier geht's
+    \x02\x07Nick\x02\x07Hier geht's
     lang![pause]
   - |-
-    [\x0207]Teddy[\x0207]So lang-
+    \x02\x07Teddy\x02\x07So lang-
     sam wird's
     ernst![pause]
   - |-
-    [\x0207][\x020902]3Keine Sorge.
+    \x02\x07\x02\x09\x023Keine Sorge.
     Alles wird
     gut![pause]
   - |-
-    [\x0207]Kail[\x0207]Das hoffe
+    \x02\x07Kail\x02\x07Das hoffe
     ich...[pause]
   - a
   - |-
-    [\x0207]Kurt[\x0207]Oioi!
+    \x02\x07Kurt\x02\x07Oioi!
     Oioink![pause]
   - |-
-    [\x0207]Gamemaster[\x0207]Alle Computernetze
+    \x02\x07Gamemaster\x02\x07Alle Computernetze
     werden den A.o.A.
     gehören![pause]
   - |-
-    [\x0207]Gamemaster[\x0207]Und unsere Vemmon
+    \x02\x07Gamemaster\x02\x07Und unsere Vemmon
     werden die Welt
     zerstören![pause]
   - |-
-    [\x0207]Gamemaster[\x0207]Und ihr seid
+    \x02\x07Gamemaster\x02\x07Und ihr seid
     dann auch
-    erledigt![pause][\x0203]Der Sieg ist
+    erledigt![pause]\x02\x03Der Sieg ist
     uns gewiss![pause]
   - |-
-    [\x0207]Lisa[\x0207]Wenn wir das optische
+    \x02\x07Lisa\x02\x07Wenn wir das optische
     Netz zerstören können,
     ist ihr Plan hinfällig![pause]
   - |-
-    [\x0207]Lisa[\x0207]Wartet erst
+    \x02\x07Lisa\x02\x07Wartet erst
     einmal hier.[pause]
   - |-
-    [\x0207]Kail[\x0207]Was geht wohl
+    \x02\x07Kail\x02\x07Was geht wohl
     in der echten
     Welt vor?[pause]

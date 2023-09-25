@@ -1,3 +1,3 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Es demasiado...\nY hay otras cosas \nque quiero...[pause][\\x0203]Volveré cuando\ntenga más dinero.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Es demasiado...\nY hay otras cosas \nque quiero...[pause]\\x02\\x03Volveré cuando\ntenga más dinero.[pause]"

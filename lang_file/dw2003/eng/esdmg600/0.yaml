@@ -1,8 +1,8 @@
 strings:
   - ''
   - |-
-    [\x0207]Byakko Leader[\x0207]Welcome, challenger.
+    \x02\x07Byakko Leader\x02\x07Welcome, challenger.
     Let's battle.[pause]
-  - "[\\x0207][\\x020902]3Ah, wait a \nsec...[pause][\\x0203]First, I've\ngot a \nquestion.[pause]"
-  - "[\\x0207]Byakko Leader[\\x0207]First, we fight![pause][\\x0203]If you win, I'll \ntell you all I know.[pause]"
-  - "[\\x0207][\\x020902]3OK, there's\nno way I'm \ngoing to lose![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ah, wait a \nsec...[pause]\\x02\\x03First, I've\ngot a \nquestion.[pause]"
+  - "\\x02\\x07Byakko Leader\\x02\\x07First, we fight![pause]\\x02\\x03If you win, I'll \ntell you all I know.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023OK, there's\nno way I'm \ngoing to lose![pause]"

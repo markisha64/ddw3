@@ -1,31 +1,31 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Eh?
+    \x02\x07\x02\x09\x023Eh?
     Ivy e Teddy
-    non ci sono.[pause][\x0203]Uffa! Secondo me
+    non ci sono.[pause]\x02\x03Uffa! Secondo me
     sono andati avanti
     per conto loro.[pause]
   - |-
-    [\x0207]Oper. turist.[\x0207]Sei [\x020801][\x020501], vero?
+    \x02\x07Oper. turist.\x02\x07Sei \x02\x08\x01\x02\x05\x01, vero?
     Benvenuto a
-    Digimon Online![pause][\x0203]Oggi ti allenerai
+    Digimon Online![pause]\x02\x03Oggi ti allenerai
     per prepararti
-    a cominciare.[pause][\x0203]Puoi visitare solo
+    a cominciare.[pause]\x02\x03Puoi visitare solo
     il Settore Est e
-    Centrale di Amaterasu.[pause][\x0203]Comunque, ci sono
+    Centrale di Amaterasu.[pause]\x02\x03Comunque, ci sono
     altre zone di circuito
-    e marittime.[pause][\x0203]I dati Digimon
+    e marittime.[pause]\x02\x03I dati Digimon
     vengono usati
-    come sai già.[pause][\x0203]Anche le tecniche
+    come sai già.[pause]\x02\x03Anche le tecniche
     e le digivoluzioni
-    sono le stesse.[pause][\x0203]Vorrei eseguire
+    sono le stesse.[pause]\x02\x03Vorrei eseguire
     un controllo dei dati
-    per sicurezza.[pause][\x0203]Prima di uscire,
+    per sicurezza.[pause]\x02\x03Prima di uscire,
     ricorda di salvare
     con Guardromon.[pause]
-  - '[\x0207][\x020902]3Ma certo![pause]'
+  - '\x02\x07\x02\x09\x023Ma certo![pause]'
   - |-
-    [\x0207][\x020902]3Certo!
+    \x02\x07\x02\x09\x023Certo!
     Sarà uno
     spasso![pause]

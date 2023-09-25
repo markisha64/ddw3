@@ -1,13 +1,13 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Oh, what the?!\nYou're one colorful \nNumemon.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Oh, what the?!\nYou're one colorful \nNumemon.[pause]"
   - |-
-    [\x0207]BK KingNumemon[\x0207]Don't think I'm like the
-    other Numemon![pause][\x0203]Me, BK KingNumemon,
+    \x02\x07BK KingNumemon\x02\x07Don't think I'm like the
+    other Numemon![pause]\x02\x03Me, BK KingNumemon,
     is far superior to
     other Numemon.[pause]
   - |-
-    [\x0207][\x020902]3Superior, eh?
+    \x02\x07\x02\x09\x023Superior, eh?
     You don't look like
     it![pause]
-  - "[\\x0207]BK KingNumemon[\\x0207]Then I'll show \nyou![pause]"
+  - "\\x02\\x07BK KingNumemon\\x02\\x07Then I'll show \nyou![pause]"

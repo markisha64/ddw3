@@ -1,15 +1,15 @@
 strings:
   - ''
-  - '[\x0207][\x020902]3¡Gané![pause]'
-  - "[\\x0207]Domador Genji[\\x0207]Eres bueno para \nser novato.[pause][\\x0203]¡Tienes esencia para\nser Campeón del \nMundo algún día![pause]"
-  - "[\\x0207][\\x020902]3¡Ese es mi \nsueño![pause]"
-  - "[\\x0207]Domador Genji[\\x0207]Para hacerlo, deberías\naprender más sobre \nDigimon.[pause][\\x0203]Debes ir al Laboratorio\nDigimon antes de \nsalir de la ciudad.[pause]"
+  - '\x02\x07\x02\x09\x023¡Gané![pause]'
+  - "\\x02\\x07Domador Genji\\x02\\x07Eres bueno para \nser novato.[pause]\\x02\\x03¡Tienes esencia para\nser Campeón del \nMundo algún día![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Ese es mi \nsueño![pause]"
+  - "\\x02\\x07Domador Genji\\x02\\x07Para hacerlo, deberías\naprender más sobre \nDigimon.[pause]\\x02\\x03Debes ir al Laboratorio\nDigimon antes de \nsalir de la ciudad.[pause]"
   - |-
-    [\x0207][\x020902]3Laboratorio Digimon.
+    \x02\x07\x02\x09\x023Laboratorio Digimon.
     Entendido.
     ¡Gracias![pause]
-  - "[\\x0207]Domador Genji[\\x0207]Y además, \n¿tienes Bolsa\nde Carpetas?[pause]"
+  - "\\x02\\x07Domador Genji\\x02\\x07Y además, \n¿tienes Bolsa\nde Carpetas?[pause]"
   - |-
-    [\x0207][\x020902]3¿Qué?
+    \x02\x07\x02\x09\x023¿Qué?
     ¿Qué es?[pause]
-  - "[\\x0207]Domador Genji[\\x0207]Ya veo. Mejor que \nvayas a \nYellow Cruiser.[pause][\\x0203]Allí te enseñarán\ntodo lo necesario \nsobre Cartas de bat.[pause][\\x0203]Ahora, vete.\nCuento contigo, \nchaval. Jo, jo, jo.[pause]"
+  - "\\x02\\x07Domador Genji\\x02\\x07Ya veo. Mejor que \nvayas a \nYellow Cruiser.[pause]\\x02\\x03Allí te enseñarán\ntodo lo necesario \nsobre Cartas de bat.[pause]\\x02\\x03Ahora, vete.\nCuento contigo, \nchaval. Jo, jo, jo.[pause]"

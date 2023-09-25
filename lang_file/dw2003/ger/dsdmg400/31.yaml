@@ -5,11 +5,11 @@ strings:
     BITTE WARTEN.
     DATENBESTÄTIGUNG.[pause]
   - |-
-    [\x0207][\x020902]3Hat funktioniert!
+    \x02\x07\x02\x09\x023Hat funktioniert!
     Jetzt kann ich
     in den Südsektor![pause]
   - |-
     DANKE FÜRS WARTEN.
-    DU BIST [\x020801][\x020501].[pause][\x0203]DAS SYSTEM WIRD GE-
+    DU BIST \x02\x08\x01\x02\x05\x01.[pause]\x02\x03DAS SYSTEM WIRD GE-
     STARTET. GEHE BITTE
     ZUR GONDEL.[pause]

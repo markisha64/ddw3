@@ -1,48 +1,48 @@
 strings:
   - ''
   - |-
-    [\x0207]Teddy[\x0207]Ehi [\x020801][\x020501]!
+    \x02\x07Teddy\x02\x07Ehi \x02\x08\x01\x02\x05\x01!
     Ascolta!
     Notiziona![pause]
   - |-
-    [\x0207][\x020902]3Che c'è?
+    \x02\x07\x02\x09\x023Che c'è?
     Cos'è questa
     fretta?[pause]
   - |-
-    [\x0207]Teddy[\x0207]Topo Fortunato!
+    \x02\x07Teddy\x02\x07Topo Fortunato!
     Topo Fortunato
     è apparso![pause]
   - |-
-    [\x0207][\x020902]3Cosa?
+    \x02\x07\x02\x09\x023Cosa?
     Topo Fortunato?[pause]
   - |-
-    [\x0207]Teddy[\x0207]Non lo sai? È
+    \x02\x07Teddy\x02\x07Non lo sai? È
     un hacker! Un
-    genio![pause][\x0203]Non conosce
+    genio![pause]\x02\x03Non conosce
     ostacoli![pause]
-  - '[\x0207][\x020902]3Oh. OK.[pause]'
+  - '\x02\x07\x02\x09\x023Oh. OK.[pause]'
   - |-
-    [\x0207]Teddy[\x0207]Sono un suo fan.
+    \x02\x07Teddy\x02\x07Sono un suo fan.
     Voglio incontrarlo![pause]
   - |-
     Annuncio per tutti i
-    giocatori di Digimon Online.[pause][\x0203]Siamo costretti a una
-    manutenzione d'emergenza.[pause][\x0203]Per questo motivo non potrete
+    giocatori di Digimon Online.[pause]\x02\x03Siamo costretti a una
+    manutenzione d'emergenza.[pause]\x02\x03Per questo motivo non potrete
     tornare al Mondo Reale, ma non
-    sarete tenuti a pagare.[pause][\x0203]Ripeto,
+    sarete tenuti a pagare.[pause]\x02\x03Ripeto,
     giocherete tutti gratis![pause]
   - |-
-    [\x0207]Teddy[\x0207]Ehi hai sentito,
-    vero?[pause][\x0203]Sono sicuro che
+    \x02\x07Teddy\x02\x07Ehi hai sentito,
+    vero?[pause]\x02\x03Sono sicuro che
     è stato Topo
-    Fortunato![pause][\x0203]Non resisto più,
+    Fortunato![pause]\x02\x03Non resisto più,
     devo trovare
     Topo Fortunato![pause]
   - |-
-    [\x0207][\x020902]3Ehi, ehi,
+    \x02\x07\x02\x09\x023Ehi, ehi,
     Teddy![pause]
   - |-
-    [\x0207][\x020902]3Se n'è
-    andato.[pause][\x0203]Fa sempre così
+    \x02\x07\x02\x09\x023Se n'è
+    andato.[pause]\x02\x03Fa sempre così
     quando si
     eccita.[pause]

@@ -1,19 +1,19 @@
 strings:
   - ''
   - |-
-    [\x0207]Govern. di Byakko[\x0207]Ha ha ha!
+    \x02\x07Govern. di Byakko\x02\x07Ha ha ha!
     Sei forte.
     Mi piaci.[pause]
   - |-
-    [\x0207][\x020902]3OK, allora.[pause][\x0203]Che mi dici
+    \x02\x07\x02\x09\x023OK, allora.[pause]\x02\x03Che mi dici
     di Topo
     Fortunato?[pause]
   - |-
-    [\x0207]Govern. di Byakko[\x0207]Un attimo. Lo
+    \x02\x07Govern. di Byakko\x02\x07Un attimo. Lo
     stemma di Byakko
-    è lì dentro.[pause][\x0203]Prendilo, e poi
+    è lì dentro.[pause]\x02\x03Prendilo, e poi
     ti ascolterò.[pause]
   - |-
-    [\x0207][\x020902]3OK, torno
+    \x02\x07\x02\x09\x023OK, torno
     subito. Non
     muoverti![pause]

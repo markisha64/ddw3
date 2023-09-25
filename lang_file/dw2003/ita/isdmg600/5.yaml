@@ -1,48 +1,48 @@
 strings:
   - ''
   - |-
-    [\x0207]Lisa[\x0207]Wow! [\x020801][\x020501],
-    sei in gamba![pause][\x0203]Sono colpita![pause]
+    \x02\x07Lisa\x02\x07Wow! \x02\x08\x01\x02\x05\x01,
+    sei in gamba![pause]\x02\x03Sono colpita![pause]
   - |-
-    [\x0207][\x020902]3Eh? Oh,
+    \x02\x07\x02\x09\x023Eh? Oh,
     uhm, si,
     grazie...[pause]
   - |-
-    [\x0207][\x020902]3Comunque...
+    \x02\x07\x02\x09\x023Comunque...
     Perché sei
     qui, Lisa?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Lo dico io![pause][\x0203]Che ci fai
+    \x02\x07Lisa\x02\x07Lo dico io![pause]\x02\x03Che ci fai
     tu qui?[pause]
   - |-
-    [\x0207][\x020902]3Io?
+    \x02\x07\x02\x09\x023Io?
     Uhm, io...[pause]
   - |-
     Voi due siete
     qui per
     parlarmi, no?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Aaah!
+    \x02\x07Lisa\x02\x07Aaah!
     Nu-nu-
     Numemon![pause]
   - |-
-    [\x0207]Numemon[\x0207]Calma, Lisa,
+    \x02\x07Numemon\x02\x07Calma, Lisa,
     sono io.[pause]
   - |-
-    [\x0207][\x020902]3Cosa?!
+    \x02\x07\x02\x09\x023Cosa?!
     Numemon
     è umano?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Ora capisco.[pause][\x0203]Non spaventarmi
+    \x02\x07Lisa\x02\x07Ora capisco.[pause]\x02\x03Non spaventarmi
     più così, Topo
     Fortunato![pause]
   - |-
-    [\x0207][\x020902]3Cosa? Lui è Topo
-    Fortunato?[pause][\x0203]Quel Numemon
+    \x02\x07\x02\x09\x023Cosa? Lui è Topo
+    Fortunato?[pause]\x02\x03Quel Numemon
     è lui?[pause]
   - |-
-    [\x0207]Topo Fortunato[\x0207]Eh! Passi Lisa, ma
+    \x02\x07Topo Fortunato\x02\x07Eh! Passi Lisa, ma
     tu eri stato avvisato,
-    ragazzo![pause][\x0203]Qui è pericoloso:
+    ragazzo![pause]\x02\x03Qui è pericoloso:
     andiamo nel mio
     rifugio![pause]

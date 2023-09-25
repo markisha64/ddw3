@@ -1,22 +1,22 @@
 strings:
   - ''
   - |-
-    [\x0207]Teddy[\x0207]Hey,
-    [\x020801][\x020501]![pause]
-  - "[\\x0207][\\x020902]3Teddy, are \nyou OK?[pause]"
-  - "[\\x0207]Teddy[\\x0207]Yeah thanks![pause][\\x0203][\\x020801][\\x020501], MAGAMI \nis part of A.o.A.[pause]"
-  - "[\\x0207][\\x020902]3Yeah, I know!\nBut who is the \nstaff over there?[pause]"
-  - "[\\x0207]Dr. Kadomatsu[\\x0207]We are not the \nA.o.A, believe me![pause]"
-  - "[\\x0207]DO Operator[\\x0207]We didn't know that \nMAGAMI and A.o.A \nwere related![pause]"
-  - "[\\x0207]DO Guard[\\x0207]The City Leaders and \nmost of the staff are \nlike us![pause][\\x0203]Not all of MAGAMI\nStaff are part of the\nA.o.A![pause]"
-  - "[\\x0207][\\x020902]3All right.\nI'll help everyone, so \njust hang in there![pause][\\x0203]I'll go defeat the\nGame Master![pause]"
-  - "[\\x0207]DO Operator[\\x0207]Be careful. They say \nthere's a trap in the \nMaster Room![pause]"
-  - "[\\x0207]DO Guard[\\x0207]I know about it too!\nThere's a secret door \nsomewhere.[pause]"
-  - "[\\x0207]Dr. Kadomatsu[\\x0207]Yes, I've heard\nof it as well.[pause][\\x0203]The keycode is \n\"MONSTER\"...[pause][\\x0203]But I have no \nidea what it means.[pause]"
-  - '[\x0207][\x020902]3OK, thanks![pause]'
-  - "[\\x0207]Teddy[\\x0207]Good luck \n[\\x020801][\\x020501]![pause][\\x0203]Don't lose to \nthe A.o.A![pause]"
+    \x02\x07Teddy\x02\x07Hey,
+    \x02\x08\x01\x02\x05\x01![pause]
+  - "\\x02\\x07\\x02\\x09\\x023Teddy, are \nyou OK?[pause]"
+  - "\\x02\\x07Teddy\\x02\\x07Yeah thanks![pause]\\x02\\x03\\x02\\x08\\x01\\x02\\x05\\x01, MAGAMI \nis part of A.o.A.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Yeah, I know!\nBut who is the \nstaff over there?[pause]"
+  - "\\x02\\x07Dr. Kadomatsu\\x02\\x07We are not the \nA.o.A, believe me![pause]"
+  - "\\x02\\x07DO Operator\\x02\\x07We didn't know that \nMAGAMI and A.o.A \nwere related![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07The City Leaders and \nmost of the staff are \nlike us![pause]\\x02\\x03Not all of MAGAMI\nStaff are part of the\nA.o.A![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023All right.\nI'll help everyone, so \njust hang in there![pause]\\x02\\x03I'll go defeat the\nGame Master![pause]"
+  - "\\x02\\x07DO Operator\\x02\\x07Be careful. They say \nthere's a trap in the \nMaster Room![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07I know about it too!\nThere's a secret door \nsomewhere.[pause]"
+  - "\\x02\\x07Dr. Kadomatsu\\x02\\x07Yes, I've heard\nof it as well.[pause]\\x02\\x03The keycode is \n\"MONSTER\"...[pause]\\x02\\x03But I have no \nidea what it means.[pause]"
+  - '\x02\x07\x02\x09\x023OK, thanks![pause]'
+  - "\\x02\\x07Teddy\\x02\\x07Good luck \n\\x02\\x08\\x01\\x02\\x05\\x01![pause]\\x02\\x03Don't lose to \nthe A.o.A![pause]"
   - |-
-    [\x0207][\x020902]3Don't worry.
+    \x02\x07\x02\x09\x023Don't worry.
     Just leave
     it to me![pause]
-  - "[\\x0207][\\x020902]3...oh, \nTeddy![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023...oh, \nTeddy![pause]"

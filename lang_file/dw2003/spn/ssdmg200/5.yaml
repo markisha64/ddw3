@@ -1,59 +1,59 @@
 strings:
   - ''
-  - "[\\x0207]Servicio de Domador.[\\x0207]Ahora descargaré los \ndatos de Digimon  \ndesde tu satélite.[pause][\\x0203]Espera en la marca \nonline del suelo.[pause]"
+  - "\\x02\\x07Servicio de Domador.\\x02\\x07Ahora descargaré los \ndatos de Digimon  \ndesde tu satélite.[pause]\\x02\\x03Espera en la marca \nonline del suelo.[pause]"
   - |-
-    [\x0207][\x020902]3¡Uauu! Por fin voy
+    \x02\x07\x02\x09\x023¡Uauu! Por fin voy
     a ver a mi Digimon.
     ¡No puedo esperar![pause]
   - |-
-    [\x0207]Teddy[\x0207]¡Oh!
-    ¡Eh, [\x020801][\x020501]![pause]
+    \x02\x07Teddy\x02\x07¡Oh!
+    ¡Eh, \x02\x08\x01\x02\x05\x01![pause]
   - |-
-    [\x0207][\x020902]3¿Qué hacéis
+    \x02\x07\x02\x09\x023¿Qué hacéis
     vosotros dos?
     ¡Vais muy lentos![pause]
-  - "[\\x0207]Teddy[\\x0207]¿Qué? No,\ntú eres el que \nvá rápido.[pause]"
-  - '[\x0207]Teddy,[\x0207]¿No, Ivy?[pause]'
+  - "\\x02\\x07Teddy\\x02\\x07¿Qué? No,\ntú eres el que \nvá rápido.[pause]"
+  - '\x02\x07Teddy,\x02\x07¿No, Ivy?[pause]'
   - |-
-    [\x0207]Kail[\x0207]¡Me llamo Kail!
+    \x02\x07Kail\x02\x07¡Me llamo Kail!
     ¡No lo olvides![pause]
   - |-
-    [\x0207][\x020902]3¿Kail? ¿Ese es
-    tú nombre?[pause][\x0203]Es raro,
+    \x02\x07\x02\x09\x023¿Kail? ¿Ese es
+    tú nombre?[pause]\x02\x03Es raro,
     suena a nombre
     de chico.[pause]
-  - "[\\x0207]Kail[\\x0207]¡Eh, es mi \nelección! ¿Vale?[pause]"
+  - "\\x02\\x07Kail\\x02\\x07¡Eh, es mi \nelección! ¿Vale?[pause]"
   - |-
-    [\x0207]Teddy[\x0207]Yo soy muy vago
+    \x02\x07Teddy\x02\x07Yo soy muy vago
     ¡aún soy Teddy![pause]
   - |-
-    [\x0207][\x020902]3¡Bien!
+    \x02\x07\x02\x09\x023¡Bien!
     ¡Aquí están mis
     Digimon![pause]
-  - "[\\x0207]Teddy[\\x0207]¡Uauu! Me gustaría\nsaber a quién se le \nocurrió esto.[pause]"
-  - '[\x0207]Kail[\x0207]Yo también.[pause]'
+  - "\\x02\\x07Teddy\\x02\\x07¡Uauu! Me gustaría\nsaber a quién se le \nocurrió esto.[pause]"
+  - '\x02\x07Kail\x02\x07Yo también.[pause]'
   - |-
-    [\x0207][\x020902]3¡Hola a todos!
-    Soy [\x020801][\x020501].
+    \x02\x07\x02\x09\x023¡Hola a todos!
+    Soy \x02\x08\x01\x02\x05\x01.
     Encantado de conoceros.[pause]
   - |-
-    [\x0207]Kumamon[\x0207]¡Recibido!
+    \x02\x07Kumamon\x02\x07¡Recibido!
     ¡Vamos allá![pause]
   - |-
-    [\x0207]Guilmon[\x0207]¡Guilmon hará de
-    [\x020801][\x020501] un campeón![pause]
+    \x02\x07Guilmon\x02\x07¡Guilmon hará de
+    \x02\x08\x01\x02\x05\x01 un campeón![pause]
   - |-
-    [\x0207]Patamon [\x0207]¡Hola!
+    \x02\x07Patamon \x02\x07¡Hola!
     ¡Haré todo lo
     que pueda![pause]
   - |-
-    [\x0207][\x020902]3¡Vale, cuento
+    \x02\x07\x02\x09\x023¡Vale, cuento
     con todos
-    vosotros![pause][\x0203]¡Vamos![pause]
+    vosotros![pause]\x02\x03¡Vamos![pause]
   - |-
-    [\x0207][\x020902]3Vale, ¡yo
+    \x02\x07\x02\x09\x023Vale, ¡yo
     me voy![pause]
   - |-
-    [\x0207]Kail[\x0207]De acuerdo.
+    \x02\x07Kail\x02\x07De acuerdo.
     Separémonos.[pause]
-  - '[\x0207]Teddy[\x0207]Nos vemos.[pause]'
+  - '\x02\x07Teddy\x02\x07Nos vemos.[pause]'

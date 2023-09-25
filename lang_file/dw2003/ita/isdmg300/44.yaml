@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207]Etemon[\x0207]Acc! Ho
-    perso![pause][\x0203]Devo cambiare
+    \x02\x07Etemon\x02\x07Acc! Ho
+    perso![pause]\x02\x03Devo cambiare
     alcune carte
     nella cartella![pause]

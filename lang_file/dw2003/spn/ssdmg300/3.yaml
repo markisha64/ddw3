@@ -1,25 +1,25 @@
 strings:
   - ''
   - |-
-    [\x0207]Kail[\x0207]¡Eh, [\x020801][\x020501]!
+    \x02\x07Kail\x02\x07¡Eh, \x02\x08\x01\x02\x05\x01!
     ¡Llegas tarde![pause]
-  - "[\\x0207][\\x020902]3¿Eh? ¿Ya \nterminaste, \nKail?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¿Eh? ¿Ya \nterminaste, \nKail?[pause]"
   - |-
-    [\x0207]Kail[\x0207]Ehhh... Sí.
+    \x02\x07Kail\x02\x07Ehhh... Sí.
     ¿Has encontrado
     a Teddy?[pause]
-  - "[\\x0207][\\x020902]3No, no lo he \nvisto por \nningún sitio.[pause]"
-  - "[\\x0207]Kail[\\x0207]Yo tampoco y\nhe buscado bien.[pause][\\x0203]Me dijo que venía\nal Centro de \nAdministración.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023No, no lo he \nvisto por \nningún sitio.[pause]"
+  - "\\x02\\x07Kail\\x02\\x07Yo tampoco y\nhe buscado bien.[pause]\\x02\\x03Me dijo que venía\nal Centro de \nAdministración.[pause]"
   - |-
-    [\x0207][\x020902]3¿Dónde estará
+    \x02\x07\x02\x09\x023¿Dónde estará
     Teddy?[pause]
-  - '[\x0207]Kail[\x0207].....[pause]'
-  - "[\\x0207]Kail[\\x0207]¿No tienes la \nimpresión de que\nestá aquí dentro?[pause]"
+  - '\x02\x07Kail\x02\x07.....[pause]'
+  - "\\x02\\x07Kail\\x02\\x07¿No tienes la \nimpresión de que\nestá aquí dentro?[pause]"
   - |-
-    [\x0207][\x020902]3Ummm, no lo
+    \x02\x07\x02\x09\x023Ummm, no lo
     sabré hasta que
     no miremos.[pause]
   - |-
-    [\x0207]Kail[\x0207]¡Gracias!
+    \x02\x07Kail\x02\x07¡Gracias!
     ¡Bueno, vamos
     entonces![pause]

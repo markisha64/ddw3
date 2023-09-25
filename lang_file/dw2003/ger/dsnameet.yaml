@@ -57,7 +57,7 @@ strings:
   - Account registrieren?
   - JA
   - NEIN
-  - '[\x020501]%'
+  - '\x02\x05\x01%'
   - |-
     Waffe, magische Angriffe und
     Heilkräfte. Gut für Teamwork.

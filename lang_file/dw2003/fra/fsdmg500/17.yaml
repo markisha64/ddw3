@@ -1,9 +1,9 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3J'ai gagné \ncontre \nTaomon ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023J'ai gagné \ncontre \nTaomon ![pause]"
   - |-
-    [\x0207]Taomon[\x0207]Tu es plus
+    \x02\x07Taomon\x02\x07Tu es plus
     fort que tu
-    n'en as l'air.[pause][\x0203]Tiens,
+    n'en as l'air.[pause]\x02\x03Tiens,
     prends ça.[pause]
-  - "[\\x0207][\\x020902]3Oui ! J'ai \nl'ADNN \nRenamon ![pause][\\x0203]Merci Taomon ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Oui ! J'ai \nl'ADNN \nRenamon ![pause]\\x02\\x03Merci Taomon ![pause]"

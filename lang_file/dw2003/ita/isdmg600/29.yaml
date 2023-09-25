@@ -1,32 +1,32 @@
 strings:
   - ''
   - |-
-    [\x0207]Domatore Heinrich[\x0207]Aspetta! Senza la
+    \x02\x07Domatore Heinrich\x02\x07Aspetta! Senza la
     password non ti
     farò entrare![pause]
   - |-
-    [\x0207][\x020902]3Eh, una
+    \x02\x07\x02\x09\x023Eh, una
     password?
     Uhm...[pause]
   - |-
-    [\x0207]???[\x0207]Ehi, tu sei
-    [\x020801][\x020501]![pause]
+    \x02\x07???\x02\x07Ehi, tu sei
+    \x02\x08\x01\x02\x05\x01![pause]
   - |-
-    [\x0207]Kenny[\x0207][\x020801][\x020501],
+    \x02\x07Kenny\x02\x07\x02\x08\x01\x02\x05\x01,
     sono io,
     Kenny![pause]
   - |-
-    [\x0207][\x020902]3Ehi, Kenny!
+    \x02\x07\x02\x09\x023Ehi, Kenny!
     Stai bene?[pause]
   - |-
-    [\x0207]Kenny[\x0207]Sì. Mi sono unito
-    alla Resistenza![pause][\x0203]Questa è una base
+    \x02\x07Kenny\x02\x07Sì. Mi sono unito
+    alla Resistenza![pause]\x02\x03Questa è una base
     della Resistenza![pause]
   - |-
-    [\x0207][\x020902]3Che forza,
+    \x02\x07\x02\x09\x023Che forza,
     Kenny![pause]
   - |-
-    [\x0207]Kenny[\x0207]Vieni a conoscere
-    il nostro capo![pause][\x0203]Forse lui
-    può aiutarti.[pause][\x0203]Da questa parte![pause]
-  - '[\x0207][\x020902]3Ehi, grazie![pause]'
+    \x02\x07Kenny\x02\x07Vieni a conoscere
+    il nostro capo![pause]\x02\x03Forse lui
+    può aiutarti.[pause]\x02\x03Da questa parte![pause]
+  - '\x02\x07\x02\x09\x023Ehi, grazie![pause]'

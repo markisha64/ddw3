@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Ma che cosa tappa
+    \x02\x07\x02\x09\x023Ma che cosa tappa
     il buco? Un masso?[pause]
-  - '[\x0207]???[\x0207]Ma che masso![pause]'
+  - '\x02\x07???\x02\x07Ma che masso![pause]'
   - |-
-    [\x0207][\x020902]3Eeh?
+    \x02\x07\x02\x09\x023Eeh?
     Cosa?![pause]
   - |-
-    [\x0207]Numemon[\x0207]Ti avevo detto
+    \x02\x07Numemon\x02\x07Ti avevo detto
     che Byakko è
     pericolosa![pause]
   - |-
-    [\x0207][\x020902]3Ehi, tu sei
+    \x02\x07\x02\x09\x023Ehi, tu sei
     quel Numemon?[pause]
-  - "[\\x0207]Numemon[\\x0207]Si. Ti \naiuterò,\nvieni![pause]"
+  - "\\x02\\x07Numemon\\x02\\x07Si. Ti \naiuterò,\nvieni![pause]"

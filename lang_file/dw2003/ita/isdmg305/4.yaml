@@ -1,109 +1,109 @@
 strings:
   - ''
   - |-
-    [\x0207]Lisa[\x0207]Ora parla![pause][\x0203]Qual era
+    \x02\x07Lisa\x02\x07Ora parla![pause]\x02\x03Qual era
     il piano
     dell'A.o.A?[pause]
   - |-
-    [\x0207]Signora del Gioco[\x0207]Heh heh heh!
-    Troppo tardi![pause][\x0203]Il piano non è
+    \x02\x07Signora del Gioco\x02\x07Heh heh heh!
+    Troppo tardi![pause]\x02\x03Il piano non è
     stato sventato: è
     appena iniziato![pause]
   - |-
-    [\x0207]Teddy[\x0207]Oh, no! Stanno
+    \x02\x07Teddy\x02\x07Oh, no! Stanno
     catturando la rete
     ottica![pause]
-  - '[\x0207]Nick[\x0207]Co-cosa?![pause]'
+  - '\x02\x07Nick\x02\x07Co-cosa?![pause]'
   - |-
-    [\x0207]Signora del Gioco[\x0207]Heh heh!
+    \x02\x07Signora del Gioco\x02\x07Heh heh!
     Ve l'avevo
     detto.[pause]
   - |-
-    [\x0207][\x020902]3Vemmon...
+    \x02\x07\x02\x09\x023Vemmon...
     È quel
     Digimon![pause]
   - |-
-    [\x0207]Signora del Gioco[\x0207]Usano la rete ottica
+    \x02\x07Signora del Gioco\x02\x07Usano la rete ottica
     può fondersi in
-    ogni macchina![pause][\x0203]Topo Fortunato rubò il
+    ogni macchina![pause]\x02\x03Topo Fortunato rubò il
     Digitama e quasi lo
     distrusse, ma...[pause]
   - |-
-    [\x0207]Nick[\x0207]Cosa possiamo
+    \x02\x07Nick\x02\x07Cosa possiamo
     fare? L'A.o.A è
     in vantaggio!![pause]
   - |-
-    [\x0207]Lisa[\x0207]Avvertiamo il
+    \x02\x07Lisa\x02\x07Avvertiamo il
     Mondo Reale![pause]
   - |-
-    [\x0207][\x020902]3Come possiamo
+    \x02\x07\x02\x09\x023Come possiamo
     contattare il
     Mondo Reale?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Mi hanno detto...[pause][\x0203]C'è una camera di
+    \x02\x07Lisa\x02\x07Mi hanno detto...[pause]\x02\x03C'è una camera di
     emergenza nel
     Settore Nord...[pause]
   - |-
-    [\x0207]Nick[\x0207]Se è così
+    \x02\x07Nick\x02\x07Se è così
     potremo
     avvisare...[pause]
   - |-
-    [\x0207]Lisa[\x0207]Credo
+    \x02\x07Lisa\x02\x07Credo
     di sì![pause]
   - |-
-    [\x0207]Signora del Gioco[\x0207]Heh heh, non
+    \x02\x07Signora del Gioco\x02\x07Heh heh, non
     funzionerà mai![pause]
   - |-
-    [\x0207]Lisa[\x0207]È quel che
+    \x02\x07Lisa\x02\x07È quel che
     vedremo.
-    Vero [\x020801][\x020501]?[pause]
+    Vero \x02\x08\x01\x02\x05\x01?[pause]
   - |-
-    [\x0207][\x020902]3Si!
-    Giusto![pause][\x0203]Non permetteremo
+    \x02\x07\x02\x09\x023Si!
+    Giusto![pause]\x02\x03Non permetteremo
     che l'A.o.A
     trionfi![pause]
   - |-
-    [\x0207][\x020902]3Non permetteremo
+    \x02\x07\x02\x09\x023Non permetteremo
     che l'A.o.A
     trionfi![pause]
   - |-
-    [\x0207]Lisa[\x0207]OK, andiamo a
+    \x02\x07Lisa\x02\x07OK, andiamo a
     cercare questa
     camera![pause]
   - |-
-    [\x0207]Nick[\x0207]Tutti di
+    \x02\x07Nick\x02\x07Tutti di
     qua![pause]
   - |-
-    [\x0207]Teddy[\x0207]La cosa
+    \x02\x07Teddy\x02\x07La cosa
     sta diventando
     seria.[pause]
   - |-
-    [\x0207][\x020902]3Tranquillo.
+    \x02\x07\x02\x09\x023Tranquillo.
     Tutto si
     risolverà![pause]
   - |-
-    [\x0207]Kail[\x0207]Spero di
+    \x02\x07Kail\x02\x07Spero di
     sì...[pause]
   - a
   - |-
-    [\x0207]Kurt[\x0207]Oioi!
+    \x02\x07Kurt\x02\x07Oioi!
     Oioink![pause]
   - |-
-    [\x0207]Signora del Gioco[\x0207]Ogni rete informatica
+    \x02\x07Signora del Gioco\x02\x07Ogni rete informatica
     apparterrà all'A.o.A![pause]
   - |-
-    [\x0207]Signora del Gioco[\x0207]E il nostro Vemmon
+    \x02\x07Signora del Gioco\x02\x07E il nostro Vemmon
     distruggerà il
     mondo![pause]
-  - "[\\x0207]Sign. Gioco[\\x0207]E sarà la \nfine \nper voi![pause][\\x0203]Vinceremo!\nSi![pause]"
+  - "\\x02\\x07Sign. Gioco\\x02\\x07E sarà la \nfine \nper voi![pause]\\x02\\x03Vinceremo!\nSi![pause]"
   - |-
-    [\x0207]Lisa[\x0207]Se escludiamo
+    \x02\x07Lisa\x02\x07Se escludiamo
     la rete ottica, il
     loro piano fallirà![pause]
   - |-
-    [\x0207]Lisa[\x0207]Tu intanto
+    \x02\x07Lisa\x02\x07Tu intanto
     starai qui.[pause]
   - |-
-    [\x0207]Kail[\x0207]Chissà cosa
+    \x02\x07Kail\x02\x07Chissà cosa
     succede nel Mondo
     Reale.[pause]

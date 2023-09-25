@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3¡He llegado al
-    Sector Sur![pause][\x0203]Pero no sé qué
+    \x02\x07\x02\x09\x023¡He llegado al
+    Sector Sur![pause]\x02\x03Pero no sé qué
     Digimon era...[pause]

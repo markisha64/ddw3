@@ -1,15 +1,15 @@
 strings:
   - ''
   - |-
-    [\x0207]Computer Seiya[\x0207]Cosa?!
+    \x02\x07Computer Seiya\x02\x07Cosa?!
     Che succede?[pause]
   - |-
-    [\x0207]Saki app. mess.[\x0207]Silenzio! Non
+    \x02\x07Saki app. mess.\x02\x07Silenzio! Non
     sento il mio
     cellulare![pause]
   - |-
-    [\x0207]Cliente Teruko[\x0207]Cooosa?
+    \x02\x07Cliente Teruko\x02\x07Cooosa?
     Che dovrei fare?[pause]
   - |-
-    [\x0207]Cliente Teruko[\x0207]Dov'è la
+    \x02\x07Cliente Teruko\x02\x07Dov'è la
     polizia?[pause]

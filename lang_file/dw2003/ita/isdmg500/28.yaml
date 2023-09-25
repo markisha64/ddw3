@@ -1,63 +1,63 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Ehi!
+    \x02\x07\x02\x09\x023Ehi!
     Sono Nick
     e Keith.[pause]
   - |-
-    [\x0207]Nick[\x0207]Insomma, per
+    \x02\x07Nick\x02\x07Insomma, per
     una volta ti
-    darai da fare?[pause][\x0203]Stai giocando
+    darai da fare?[pause]\x02\x03Stai giocando
     da quando siamo
     arrivati![pause]
   - a
   - a
   - |-
-    [\x0207]Keith[\x0207]Ha ha ha ha, hai
+    \x02\x07Keith\x02\x07Ha ha ha ha, hai
     ragione! Ma è un
-    buon piano![pause][\x0203]Probabilmente
+    buon piano![pause]\x02\x03Probabilmente
     contatteranno i
     giocatori migliori![pause]
   - |-
-    [\x0207]Nick[\x0207]Non mi prendere
-    in giro![pause][\x0203]D'ora in poi
+    \x02\x07Nick\x02\x07Non mi prendere
+    in giro![pause]\x02\x03D'ora in poi
     seguiremo
     il piano![pause]
   - |-
-    [\x0207]Keith[\x0207]No!
+    \x02\x07Keith\x02\x07No!
     Mi piace quello
-    che faccio![pause][\x0203]Ho deciso così.
+    che faccio![pause]\x02\x03Ho deciso così.
     Libertà![pause]
-  - '[\x0207]Nick[\x0207]Keith![pause]'
-  - '[\x0207][\x020902]3Scusatemi.[pause]'
+  - '\x02\x07Nick\x02\x07Keith![pause]'
+  - '\x02\x07\x02\x09\x023Scusatemi.[pause]'
   - |-
-    [\x0207]Nick[\x0207]Ehi, tu
+    \x02\x07Nick\x02\x07Ehi, tu
     sei...?[pause]
   - |-
-    [\x0207]Keith[\x0207]Ehi, ragazzo,
+    \x02\x07Keith\x02\x07Ehi, ragazzo,
     vuoi combattere?[pause]
   - |-
-    [\x0207][\x020902]3Ah, no. Lisa mi
-    ha chiesto di...[pause][\x0203]...trovare Keith
+    \x02\x07\x02\x09\x023Ah, no. Lisa mi
+    ha chiesto di...[pause]\x02\x03...trovare Keith
     e Nick.[pause]
   - |-
-    [\x0207]Keith[\x0207]Ah, te lo
+    \x02\x07Keith\x02\x07Ah, te lo
     ha chiesto?[pause]
   - |-
-    [\x0207]Nick[\x0207]Sarà meglio
+    \x02\x07Nick\x02\x07Sarà meglio
     andare o
     s'arrabbierà![pause]
   - |-
-    [\x0207][\x020902]3Ehi, un
+    \x02\x07\x02\x09\x023Ehi, un
     momento![pause]
   - |-
-    [\x0207]Keith[\x0207]Non c'è
+    \x02\x07Keith\x02\x07Non c'è
     tempo!
     Andiamo![pause]
   - |-
-    [\x0207]Nick[\x0207]Si, portaci
+    \x02\x07Nick\x02\x07Si, portaci
     da lei,
     ora![pause]
   - |-
-    [\x0207][\x020902]3Cosa?
+    \x02\x07\x02\x09\x023Cosa?
     Va bene![pause]

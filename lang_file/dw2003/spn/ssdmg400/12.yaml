@@ -1,3 +1,3 @@
 strings:
   - ''
-  - "[\\x0207]Sepikmon[\\x0207]Corre y busca\nmi máscara.[pause][\\x0203]La tenía cuando\nestaba con \nBaronmon...[pause]"
+  - "\\x02\\x07Sepikmon\\x02\\x07Corre y busca\nmi máscara.[pause]\\x02\\x03La tenía cuando\nestaba con \nBaronmon...[pause]"

@@ -1,39 +1,39 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Mach dir keine
+    \x02\x07\x02\x09\x023Mach dir keine
     Sorgen, Teddy. Da-
-    rum kämpfen wir ja![pause][\x0203]Wir werden die A.o.A
+    rum kämpfen wir ja![pause]\x02\x03Wir werden die A.o.A
     schlagen![pause]
-  - "[\\x0207]Teddy[\\x0207]Ja, stimmt. Wir \nhaben's fast ge-\nschafft. Los![pause]"
+  - "\\x02\\x07Teddy\\x02\\x07Ja, stimmt. Wir \nhaben's fast ge-\nschafft. Los![pause]"
   - |-
-    [\x0207]Nick[\x0207]Was, ihr seid
+    \x02\x07Nick\x02\x07Was, ihr seid
     noch hier?[pause]
-  - '[\x0207][\x020902]3Oh, Nick![pause]'
-  - "[\\x0207]Teddy[\\x0207]Nick, wie \nsieht's aus?[pause]"
-  - "[\\x0207]Nick[\\x0207]Ha ha ha.\nGut sieht's aus![pause][\\x0203]Die A.o.A. in der \nStadt haben sich \nschnell ergeben![pause]"
+  - '\x02\x07\x02\x09\x023Oh, Nick![pause]'
+  - "\\x02\\x07Teddy\\x02\\x07Nick, wie \nsieht's aus?[pause]"
+  - "\\x02\\x07Nick\\x02\\x07Ha ha ha.\nGut sieht's aus![pause]\\x02\\x03Die A.o.A. in der \nStadt haben sich \nschnell ergeben![pause]"
   - |-
-    [\x0207][\x020902]3Und
+    \x02\x07\x02\x09\x023Und
     die Stadt?[pause]
-  - "[\\x0207]Nick[\\x0207]Wir haben sie\nzurück![pause][\\x0203]Dann fehlt\nnoch das \nAdmin-Center![pause]"
+  - "\\x02\\x07Nick\\x02\\x07Wir haben sie\nzurück![pause]\\x02\\x03Dann fehlt\nnoch das \nAdmin-Center![pause]"
   - |-
-    [\x0207][\x020902]3...was?![pause][\x0203]Dann haben wir
+    \x02\x07\x02\x09\x023...was?![pause]\x02\x03Dann haben wir
     keine Chance,
     sie zu schlagen![pause]
   - |-
-    [\x0207]Nick[\x0207]Ha ha ha.
+    \x02\x07Nick\x02\x07Ha ha ha.
     Darum sind wir
-    zu dir gekommen.[pause][\x0203]Du musst beim
+    zu dir gekommen.[pause]\x02\x03Du musst beim
     Angriff auf das
     Center helfen![pause]
   - |-
-    [\x0207][\x020902]3OK, über-
+    \x02\x07\x02\x09\x023OK, über-
     lasst es mir!
     Ich gewinne![pause]
   - |-
-    [\x0207][\x020902]3Teddy, ich
+    \x02\x07\x02\x09\x023Teddy, ich
     gehe vor![pause]
   - |-
-    [\x0207]Teddy[\x0207]Sei vorsichtig!
+    \x02\x07Teddy\x02\x07Sei vorsichtig!
     Ich bin gleich
     hinter dir![pause]

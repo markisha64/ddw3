@@ -1,88 +1,88 @@
 strings:
   - ''
   - |-
-    [\x0207]Lisa[\x0207]Aber wie kommen
+    \x02\x07Lisa\x02\x07Aber wie kommen
     wir in Amaterasu
-    City rein?[pause][\x0203]Es ist das A.o.A.-
+    City rein?[pause]\x02\x03Es ist das A.o.A.-
     Hauptq., also hohe
     Sicherheitsstufe.[pause]
   - |-
-    [\x0207]Nick[\x0207]Es gibt ein Notfall-
+    \x02\x07Nick\x02\x07Es gibt ein Notfall-
     Knightmon-Wach-
-    system.[pause][\x0203]Sicher benutzen sie
+    system.[pause]\x02\x03Sicher benutzen sie
     das![pause]
   - |-
-    [\x0207][\x020902]3Der Leader des
+    \x02\x07\x02\x09\x023Der Leader des
     Widerstands sagte
-    etwas...[pause][\x0203]Man braucht 4 Code-
+    etwas...[pause]\x02\x03Man braucht 4 Code-
     Pässe, um Knightmon
     aufzuhalten![pause]
   - |-
-    [\x0207]Keith[\x0207]...Code-
+    \x02\x07Keith\x02\x07...Code-
     Pässe?
     ...was?![pause]
   - |-
-    [\x0207]Lisa[\x0207]Oh, ich weiβ, was
+    \x02\x07Lisa\x02\x07Oh, ich weiβ, was
     das ist. Es ist der
     ID-Pass mit Farben.[pause]
   - |-
-    [\x0207][\x020902]3...ID-Pass
-    mit Farben?[pause][\x0203]Also die rote
+    \x02\x07\x02\x09\x023...ID-Pass
+    mit Farben?[pause]\x02\x03Also die rote
     ID und die
     blaue ID?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Yeah, das ist es!
+    \x02\x07Lisa\x02\x07Yeah, das ist es!
     Warum hast du den?[pause]
-  - "[\\x0207][\\x020902]3Von A.o.A. City \nChiefs, die ich \nbesiegt habe![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Von A.o.A. City \nChiefs, die ich \nbesiegt habe![pause]"
   - |-
-    [\x0207]Nick[\x0207]Wenn du noch zwei
+    \x02\x07Nick\x02\x07Wenn du noch zwei
     kriegst, können wir
     Knightmon besiegen![pause]
   - |-
-    [\x0207]Keith[\x0207]Yeah! Die anderen
+    \x02\x07Keith\x02\x07Yeah! Die anderen
     City Chiefs haben
     also auch welche![pause]
   - |-
-    [\x0207]Lisa[\x0207]Ja, das
+    \x02\x07Lisa\x02\x07Ja, das
     sollte klappen![pause]
   - |-
-    [\x0207][\x020902]3Oh, warte![pause][\x0203]Wir müssen was
+    \x02\x07\x02\x09\x023Oh, warte![pause]\x02\x03Wir müssen was
     wg. Bai Hu Ci-
-    ty unternehmen.[pause][\x0203]Die Sicherheits-
+    ty unternehmen.[pause]\x02\x03Die Sicherheits-
     stufe ist echt
     hoch![pause]
   - |-
-    [\x0207]Lisa[\x0207]Oh, wirklich?
+    \x02\x07Lisa\x02\x07Oh, wirklich?
     ...Hmmm...
     Was tun...[pause]
   - |-
-    [\x0207]Lisa[\x0207]Ja, die Wider-
+    \x02\x07Lisa\x02\x07Ja, die Wider-
     ständler könnten
-    uns helfen![pause][\x0203]Sie sind im
+    uns helfen![pause]\x02\x03Sie sind im
     Mirage-Turm,
     nicht wahr?[pause]
-  - '[\x0207][\x020902]3Ja![pause]'
+  - '\x02\x07\x02\x09\x023Ja![pause]'
   - |-
-    [\x0207]Lisa[\x0207]OK, ich werde
+    \x02\x07Lisa\x02\x07OK, ich werde
     sie fragen.[pause]
   - |-
-    [\x0207]Keith[\x0207]Gut,
+    \x02\x07Keith\x02\x07Gut,
     überlasst
     es uns![pause]
-  - '[\x0207]Nick[\x0207]In Ordnung.[pause]'
+  - '\x02\x07Nick\x02\x07In Ordnung.[pause]'
   - |-
-    [\x0207][\x020902]3OK, dann geh
+    \x02\x07\x02\x09\x023OK, dann geh
     ich zurück nach
     Bai Hu![pause]
   - |-
-    [\x0207]Teddy[\x0207]Viel Glück,
-    [\x020801][\x020501]![pause]
+    \x02\x07Teddy\x02\x07Viel Glück,
+    \x02\x08\x01\x02\x05\x01![pause]
   - |-
-    [\x0207][\x020902]3OK, über-
+    \x02\x07\x02\x09\x023OK, über-
     lasst es mir![pause]
   - |-
-    [\x0207]Lisa[\x0207]Keith,
+    \x02\x07Lisa\x02\x07Keith,
     komm.[pause]
   - |-
-    [\x0207]Lisa[\x0207]Nick, du
+    \x02\x07Lisa\x02\x07Nick, du
     bleibst hier![pause]

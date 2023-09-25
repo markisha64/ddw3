@@ -2,7 +2,7 @@ strings:
   - ''
   - SAUVEGARDER
   - SAUVEGARDE
-  - '[\x020501]'
+  - '\x02\x05\x01'
   - |-
     Vérification de la Carte Mémoire.
     Ne pas retirer la Carte Mémoire.
@@ -61,4 +61,4 @@ strings:
     Erreur Carte Mémoire.
     Vérifier Carte Mémoire.
   - Sauvegarde Digimon World 2003
-  - Accès fente Carte Mémoire [\x020501]
+  - Accès fente Carte Mémoire \x02\x05\x01

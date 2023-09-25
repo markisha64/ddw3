@@ -1,22 +1,22 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Also
+    \x02\x07\x02\x09\x023Also
     2700 BIT![pause]
   - |-
-    [\x0207]Mr. Smith[\x0207]Wow!
-    2700 BIT![pause][\x0203]Bietet jmd.
+    \x02\x07Mr. Smith\x02\x07Wow!
+    2700 BIT![pause]\x02\x03Bietet jmd.
     mehr?[pause]
   - |-
-    [\x0207]Mr. Smith[\x0207]Zum 1., zum 2.
-    und zum 3..![pause][\x0203]Gefährl. Zahn
-    für 2700 BIT.[pause][\x0203]Gratulation![pause][\x0203]Ich übertrage das
+    \x02\x07Mr. Smith\x02\x07Zum 1., zum 2.
+    und zum 3..![pause]\x02\x03Gefährl. Zahn
+    für 2700 BIT.[pause]\x02\x03Gratulation![pause]\x02\x03Ich übertrage das
     Item jetzt an
     deinen Satelliten![pause]
   - |-
-    [\x0207][\x020902]3Wow! Der
+    \x02\x07\x02\x09\x023Wow! Der
     gefährl. Zahn![pause]
   - |-
-    [\x0207][\x020902]3Ich hab jetzt ein
+    \x02\x07\x02\x09\x023Ich hab jetzt ein
     echt cooles Item,
     ich geh jetzt.[pause]

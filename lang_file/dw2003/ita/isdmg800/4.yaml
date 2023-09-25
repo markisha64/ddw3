@@ -1,22 +1,22 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Ho vinto!\nSono una\npotenza![pause][\\x0203]Ora devo\nfermare la \nJuggernaut![pause][\\x0203]Eh? C'è\nqualcosa\na terra.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ho vinto!\nSono una\npotenza![pause]\\x02\\x03Ora devo\nfermare la \nJuggernaut![pause]\\x02\\x03Eh? C'è\nqualcosa\na terra.[pause]"
   - |-
-    [\x0207][\x020902]3Il campo
+    \x02\x07\x02\x09\x023Il campo
     elettromagnetico
     è scomparso![pause]
-  - "PRONTI AL\nLANCIO![pause][\\x0203]JUGGERNAUT \nIN PARTENZA![pause]"
+  - "PRONTI AL\nLANCIO![pause]\\x02\\x03JUGGERNAUT \nIN PARTENZA![pause]"
   - |-
-    [\x0207][\x020902]3Cosa?[pause][\x0203]Devo fare
+    \x02\x07\x02\x09\x023Cosa?[pause]\x02\x03Devo fare
     presto![pause]
   - |-
-    [\x0207][\x020902]3Cosa devo fare?
+    \x02\x07\x02\x09\x023Cosa devo fare?
     La Juggernaut
     sta partendo![pause]
   - |-
-    [\x0207][\x020902]3Eh?[pause][\x0203]Non serve!
+    \x02\x07\x02\x09\x023Eh?[pause]\x02\x03Non serve!
     Non riesco a
     fermarla![pause]
   - |-
-    [\x0207][\x020902]3Sì! Ho l'elmo
+    \x02\x07\x02\x09\x023Sì! Ho l'elmo
     alato![pause]

@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]Luke el coleccio.[\x0207]Si quieres saber
+    \x02\x07Luke el coleccio.\x02\x07Si quieres saber
     más, ven a
     hablar conmigo.[pause]

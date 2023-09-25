@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]Nav. Digimon[\x0207]Si, ho capito.[pause][\x0203]Parla con me se
+    \x02\x07Nav. Digimon\x02\x07Si, ho capito.[pause]\x02\x03Parla con me se
     vuoi queste
     informazioni.[pause]

@@ -1,13 +1,13 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3J'ai gagné ![pause][\x0203]OK, donne
+    \x02\x07\x02\x09\x023J'ai gagné ![pause]\x02\x03OK, donne
     le moi ![pause]
   - |-
-    [\x0207]Paildramon[\x0207]Bon, bon.
+    \x02\x07Paildramon\x02\x07Bon, bon.
     Prends-le.[pause]
-  - "[\\x0207][\\x020902]3Oui ! J'ai\nl'ADNN\nVeemon ![pause][\\x0203]Merci, \nPaildramon ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Oui ! J'ai\nl'ADNN\nVeemon ![pause]\\x02\\x03Merci, \nPaildramon ![pause]"
   - |-
-    [\x0207]Paildramon[\x0207]Oui, c'est ça, on
+    \x02\x07Paildramon\x02\x07Oui, c'est ça, on
     ne m'y prendra
     plus. Salut ![pause]

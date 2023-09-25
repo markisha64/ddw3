@@ -1,14 +1,14 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Va bene!
+    \x02\x07\x02\x09\x023Va bene!
     1600 BIT![pause]
   - |-
-    [\x0207]Mr. Smith[\x0207]Wow!
-    1600 BIT![pause][\x0203]Nessuno offre
+    \x02\x07Mr. Smith\x02\x07Wow!
+    1600 BIT![pause]\x02\x03Nessuno offre
     di più?[pause]
-  - "[\\x0207]Mr. Smith[\\x0207]1600... 1600...\n1600![pause][\\x0203]Lo scudo di Dramon\nper 1600 BIT![pause][\\x0203]Congratulazioni\na te, laggiù![pause][\\x0203]Trasferirò \nl'oggetto al\nsatellite![pause]"
+  - "\\x02\\x07Mr. Smith\\x02\\x071600... 1600...\n1600![pause]\\x02\\x03Lo scudo di Dramon\nper 1600 BIT![pause]\\x02\\x03Congratulazioni\na te, laggiù![pause]\\x02\\x03Trasferirò \nl'oggetto al\nsatellite![pause]"
   - |-
-    [\x0207][\x020902]3Ho lo scudo
+    \x02\x07\x02\x09\x023Ho lo scudo
     di Dramon![pause]
-  - "[\\x0207][\\x020902]3Ora che ho un così \nbell'oggetto, posso \nandarmene.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ora che ho un così \nbell'oggetto, posso \nandarmene.[pause]"

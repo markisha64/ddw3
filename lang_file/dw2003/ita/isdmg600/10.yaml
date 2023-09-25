@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Ehi, chi sei?
+    \x02\x07\x02\x09\x023Ehi, chi sei?
     Un Numemon molto
     colorito, direi![pause]
   - |-
-    [\x0207]KingNumemon N[\x0207]Non sono come l'altro
-    Numemon![pause][\x0203]Io, KingNumemon N,
+    \x02\x07KingNumemon N\x02\x07Non sono come l'altro
+    Numemon![pause]\x02\x03Io, KingNumemon N,
     gli sono molto
     superiore.[pause]
   - |-
-    [\x0207][\x020902]3Superiore?
+    \x02\x07\x02\x09\x023Superiore?
     Non sembra![pause]
   - |-
-    [\x0207]KingNumemon N[\x0207]Lo vedrai da
+    \x02\x07KingNumemon N\x02\x07Lo vedrai da
     te![pause]

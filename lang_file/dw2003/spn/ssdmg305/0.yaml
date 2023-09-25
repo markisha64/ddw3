@@ -1,24 +1,24 @@
 strings:
   - ''
   - |-
-    [\x0207]Kail[\x0207]El Maes. de Jue.
+    \x02\x07Kail\x02\x07El Maes. de Jue.
     ¡Escondámonos![pause]
-  - "[\\x0207]Maestro de Juego[\\x0207]¡Por Dios!\n¿Qué hacéis aquí?[pause][\\x0203]¡No podemos \nseguir el plan![pause]"
-  - "[\\x0207]???[\\x0207]Lo siento. \nIntensificamos\nla búsqueda.[pause]"
+  - "\\x02\\x07Maestro de Juego\\x02\\x07¡Por Dios!\n¿Qué hacéis aquí?[pause]\\x02\\x03¡No podemos \nseguir el plan![pause]"
+  - "\\x02\\x07???\\x02\\x07Lo siento. \nIntensificamos\nla búsqueda.[pause]"
   - |-
-    [\x0207]Guardia DO[\x0207]Lo encontraremos.
+    \x02\x07Guardia DO\x02\x07Lo encontraremos.
     ¡Es cuestión
     de tiempo![pause]
   - |-
-    [\x0207][\x020902]3Ummm, ¿de qué
+    \x02\x07\x02\x09\x023Ummm, ¿de qué
     hablarán?[pause]
   - |-
-    [\x0207]Guardia DO[\x0207]¡Eh! ¿Por qué
+    \x02\x07Guardia DO\x02\x07¡Eh! ¿Por qué
     hay Digimon aquí?[pause]
-  - "[\\x0207]Guardia DO[\\x0207]¡Parece \nsospechoso!\n¡Cogédlo![pause]"
+  - "\\x02\\x07Guardia DO\\x02\\x07¡Parece \nsospechoso!\n¡Cogédlo![pause]"
   - |-
-    [\x0207]Guardia DO[\x0207]¡No pudes
+    \x02\x07Guardia DO\x02\x07¡No pudes
     escapar![pause]
   - |-
-    [\x0207][\x020902]3Vaya, ¡nos
+    \x02\x07\x02\x09\x023Vaya, ¡nos
     encontraron![pause]

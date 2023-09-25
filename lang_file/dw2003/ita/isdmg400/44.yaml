@@ -1,26 +1,26 @@
 strings:
   - ''
   - |-
-    [\x0207]Soldato[\x0207]Quello non è il pass
-    blu?[pause][\x0203]Scusa, capo di Qing
+    \x02\x07Soldato\x02\x07Quello non è il pass
+    blu?[pause]\x02\x03Scusa, capo di Qing
     Long, non ti avevo
     riconosciuto![pause]
   - |-
-    [\x0207][\x020902]3Cosa?
-    Uh, ah, sì![pause][\x0203]L'uniforme tradisce.
+    \x02\x07\x02\x09\x023Cosa?
+    Uh, ah, sì![pause]\x02\x03L'uniforme tradisce.
     Sono in incognito
-    e di ronda![pause][\x0203]È un segreto fra noi
+    e di ronda![pause]\x02\x03È un segreto fra noi
     due, soldato.
     OK?[pause]
   - |-
-    [\x0207]Soldato[\x0207]Sei grande,
+    \x02\x07Soldato\x02\x07Sei grande,
     capo! Lavori
     molto![pause]
   - |-
-    [\x0207][\x020902]3Fiuu, c'è mancato
-    un pelo![pause][\x0203]Ma ora posso
+    \x02\x07\x02\x09\x023Fiuu, c'è mancato
+    un pelo![pause]\x02\x03Ma ora posso
     entrare a Zhu
     Que.[pause]
   - |-
-    [\x0207]Soldato[\x0207]Oh, avanti,
+    \x02\x07Soldato\x02\x07Oh, avanti,
     prego![pause]

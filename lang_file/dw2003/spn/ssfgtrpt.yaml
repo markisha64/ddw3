@@ -3,27 +3,27 @@ strings:
   - EXP
   - |-
     EXP ganada:
-    [\x020501] EXP[pause]
+    \x02\x05\x01 EXP[pause]
   - Nv
   - ¡Nivel ganado![pause]
   - |-
     Técnica aprendida:
-    [\x020501][pause]
+    \x02\x05\x01[pause]
   - |-
     No puede apr. la téc.:
-    [\x020501][pause]
+    \x02\x05\x01[pause]
   - |-
-    [\x020501]
-    ¡Nivel [\x020502]![pause]
+    \x02\x05\x01
+    ¡Nivel \x02\x05\x02![pause]
   - |-
     Digievolución aprendida:
-    [\x020501][pause]
+    \x02\x05\x01[pause]
   - |-
     Indicador digiev. lleno.
     Guard. en Lab. Digimon.[pause]
   - |-
     BIT ganado:
-    [\x020501] BIT[pause]
+    \x02\x05\x01 BIT[pause]
   - |-
     Artículos ganados:
-    [\x020501][pause]
+    \x02\x05\x01[pause]

@@ -1,11 +1,11 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Ho battuto
+    \x02\x07\x02\x09\x023Ho battuto
     il capo di Zhu
     Que.[pause]
   - |-
-    [\x0207][\x020902]3Eh? C'è di
+    \x02\x07\x02\x09\x023Eh? C'è di
     nuovo qualcosa
     a terra.[pause]
-  - "[\\x0207][\\x020902]3È il pass\nrosso![pause][\\x0203]Ma ancora non so\ndov'è il digi-uovo![pause][\\x0203]Mi serve per \nfermare la\nJuggernaut![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023È il pass\nrosso![pause]\\x02\\x03Ma ancora non so\ndov'è il digi-uovo![pause]\\x02\\x03Mi serve per \nfermare la\nJuggernaut![pause]"

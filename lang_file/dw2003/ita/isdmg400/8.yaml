@@ -1,14 +1,14 @@
 strings:
   - ''
-  - "[\\x0207]Zanbamon[\\x0207]Fermati!\nAspetta![pause][\\x0203]Non ti farò\npassare \ndi qui![pause]"
+  - "\\x02\\x07Zanbamon\\x02\\x07Fermati!\nAspetta![pause]\\x02\\x03Non ti farò\npassare \ndi qui![pause]"
   - |-
-    [\x0207][\x020902]3Stai scherzando!
+    \x02\x07\x02\x09\x023Stai scherzando!
     Devo andare
     laggiù![pause]
   - |-
-    [\x0207]Zanbamon[\x0207]Allora battimi![pause][\x0203]Ma io non ho
+    \x02\x07Zanbamon\x02\x07Allora battimi![pause]\x02\x03Ma io non ho
     mai perso!
     Ah, ah, ah, ah![pause]
   - |-
-    [\x0207][\x020902]3Davvero?[pause][\x0203]Sarà la
+    \x02\x07\x02\x09\x023Davvero?[pause]\x02\x03Sarà la
     prima volta![pause]

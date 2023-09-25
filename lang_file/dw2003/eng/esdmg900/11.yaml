@@ -1,3 +1,3 @@
 strings:
   - ''
-  - "[\\x0207]Tamer Poemy[\\x0207]Go then, mighty \nHero! Seek out your\ndestiny![pause][\\x0203]I will always be with\nyou in spirit![pause]"
+  - "\\x02\\x07Tamer Poemy\\x02\\x07Go then, mighty \nHero! Seek out your\ndestiny![pause]\\x02\\x03I will always be with\nyou in spirit![pause]"

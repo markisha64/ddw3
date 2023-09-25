@@ -1,22 +1,22 @@
 strings:
   - ''
   - |-
-    [\x0207]Junior[\x0207]Wow! Questo è
-    il Salone?[pause][\x0203]Posso cominciare
+    \x02\x07Junior\x02\x07Wow! Questo è
+    il Salone?[pause]\x02\x03Posso cominciare
     a giocare.
     Com'è eccitante![pause]
   - |-
-    [\x0207]Operatore[\x0207]Posso avere
+    \x02\x07Operatore\x02\x07Posso avere
     il nome del tuo
     account?[pause]
-  - '[\x0207]Junior[\x0207]È Junior![pause]'
+  - '\x02\x07Junior\x02\x07È Junior![pause]'
   - |-
-    [\x0207]Operatore[\x0207]Confermato.
-    Grazie.[pause][\x0203]Entra in quella
+    \x02\x07Operatore\x02\x07Confermato.
+    Grazie.[pause]\x02\x03Entra in quella
     capsula laggiù.[pause]
-  - '[\x0207]Junior[\x0207]Ok![pause]'
+  - '\x02\x07Junior\x02\x07Ok![pause]'
   - a
   - |-
-    [\x0207]Ivy[\x0207]Ehi! Vai
+    \x02\x07Ivy\x02\x07Ehi! Vai
     senza di noi?[pause]
-  - '[\x0207]Teddy[\x0207]Aspettaci![pause]'
+  - '\x02\x07Teddy\x02\x07Aspettaci![pause]'

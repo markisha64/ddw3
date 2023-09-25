@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207]Byakko Leader[\x0207]Willkommen, Heraus-
+    \x02\x07Byakko Leader\x02\x07Willkommen, Heraus-
     forderer. Auf geht's![pause]
   - |-
-    [\x0207][\x020902]3Warte eine
-    Sekunde...[pause][\x0203]Zuerst habe
+    \x02\x07\x02\x09\x023Warte eine
+    Sekunde...[pause]\x02\x03Zuerst habe
     ich eine
     Frage.[pause]
   - |-
-    [\x0207]Byakko Leader[\x0207]Erst der Kampf![pause][\x0203]Gewinnst du, sage
+    \x02\x07Byakko Leader\x02\x07Erst der Kampf![pause]\x02\x03Gewinnst du, sage
     ich dir alles.[pause]
   - |-
-    [\x0207][\x020902]3OK, ich werde
+    \x02\x07\x02\x09\x023OK, ich werde
     auf keinen Fall
     verlieren![pause]

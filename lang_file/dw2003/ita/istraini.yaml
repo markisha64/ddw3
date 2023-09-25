@@ -91,65 +91,65 @@ strings:
   - Difesa tuono
   - Difesa macchine
   - Difesa tenebre
-  - '[\x020501] +[\x020502]'
-  - '[\x020501] -[\x020502]'
+  - '\x02\x05\x01 +\x02\x05\x02'
+  - '\x02\x05\x01 -\x02\x05\x02'
   - |-
     Risultato:
-    La forza aumenta di [\x020501]![pause]
+    La forza aumenta di \x02\x05\x01![pause]
   - |-
     Risultato:
-    La difesa aumenta di [\x020501]![pause]
+    La difesa aumenta di \x02\x05\x01![pause]
   - |-
     Risultato:
-    Lo spirito aumenta di [\x020501]![pause]
+    Lo spirito aumenta di \x02\x05\x01![pause]
   - |-
     Risultato:
-    Saggezza aumenta di [\x020501]![pause]
+    Saggezza aumenta di \x02\x05\x01![pause]
   - |-
     Risultato:
-    La velocità aumenta di [\x020501]![pause]
+    La velocità aumenta di \x02\x05\x01![pause]
   - |-
     Risultato:
-    Dif. fuoco aumenta di [\x020501]![pause]
+    Dif. fuoco aumenta di \x02\x05\x01![pause]
   - |-
     Risultato:
-    Dif. acqua aumenta di [\x020501]![pause]
+    Dif. acqua aumenta di \x02\x05\x01![pause]
   - |-
     Risultato:
-    Dif. ghiac. aumenta di [\x020501]![pause]
+    Dif. ghiac. aumenta di \x02\x05\x01![pause]
   - |-
     Risultato:
-    Dif. vento aumenta di [\x020501]![pause]
+    Dif. vento aumenta di \x02\x05\x01![pause]
   - |-
     Risultato:
-    Dif. tuono aumenta di [\x020501]![pause]
+    Dif. tuono aumenta di \x02\x05\x01![pause]
   - |-
     Risultato:
-    Dif. macchine aumenta di [\x020501]![pause]
+    Dif. macchine aumenta di \x02\x05\x01![pause]
   - |-
     Risultato:
-    Dif. tenebre aumenta di [\x020501]![pause]
+    Dif. tenebre aumenta di \x02\x05\x01![pause]
   - |-
-    Ris.:Dif. fuoco aum. di [\x020501]!
-    I PM max aumentano di [\x020502]![pause]
+    Ris.:Dif. fuoco aum. di \x02\x05\x01!
+    I PM max aumentano di \x02\x05\x02![pause]
   - |-
-    Ris.:Dif. acqua aum. di [\x020501]!
-    La difesa si riduce di [\x020502]![pause]
+    Ris.:Dif. acqua aum. di \x02\x05\x01!
+    La difesa si riduce di \x02\x05\x02![pause]
   - |-
-    Ris:Dif. ghiaccio aum. di [\x020501]
-    La velocità si riduce di [\x020502]![pause]
+    Ris:Dif. ghiaccio aum. di \x02\x05\x01
+    La velocità si riduce di \x02\x05\x02![pause]
   - |-
-    Ris.:Dif. vento aum. di [\x020501]!
-    La forza si riduce di [\x020502]![pause]
+    Ris.:Dif. vento aum. di \x02\x05\x01!
+    La forza si riduce di \x02\x05\x02![pause]
   - |-
-    Ris.:Dif. tuono aum. di [\x020501]!
-    La saggezza si riduce di [\x020502]![pause]
+    Ris.:Dif. tuono aum. di \x02\x05\x01!
+    La saggezza si riduce di \x02\x05\x02![pause]
   - |-
-    Ris:Dif. macch. aum. di [\x020501]
-    I PF max aumentano di [\x020502]![pause]
+    Ris:Dif. macch. aum. di \x02\x05\x01
+    I PF max aumentano di \x02\x05\x02![pause]
   - |-
-    Ris:Dif. tenebre aum. di [\x020501]
-    Lo spirito si riduce di [\x020502]![pause]
+    Ris:Dif. tenebre aum. di \x02\x05\x01
+    Lo spirito si riduce di \x02\x05\x02![pause]
   - |-
     Risultato:
     Nessun miglioramento.[pause]

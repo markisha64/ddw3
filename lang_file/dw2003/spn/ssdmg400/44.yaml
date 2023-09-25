@@ -1,13 +1,13 @@
 strings:
   - ''
-  - "[\\x0207]Soldado[\\x0207]¿Es eso el \nPase ID Azul?[pause][\\x0203]L..Lo siento.\n¡No sabía que era\nJefe Qing Long![pause]"
-  - "[\\x0207][\\x020902]3¿Qué? Oh,\nah, sí...[pause][\\x0203]El uniforme es muy\nobvio. ¡Voy de patrulla\nde incógnito![pause][\\x0203]Vamos a guardar el\nsecreto, \n¿vale?[pause]"
-  - "[\\x0207]Soldado[\\x0207]¡Es usted grande\njefe! ¡Un gran \ntrabajador![pause]"
+  - "\\x02\\x07Soldado\\x02\\x07¿Es eso el \nPase ID Azul?[pause]\\x02\\x03L..Lo siento.\n¡No sabía que era\nJefe Qing Long![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¿Qué? Oh,\nah, sí...[pause]\\x02\\x03El uniforme es muy\nobvio. ¡Voy de patrulla\nde incógnito![pause]\\x02\\x03Vamos a guardar el\nsecreto, \n¿vale?[pause]"
+  - "\\x02\\x07Soldado\\x02\\x07¡Es usted grande\njefe! ¡Un gran \ntrabajador![pause]"
   - |-
-    [\x0207][\x020902]3Uff, ha estado
-    cerca...[pause][\x0203]Pero ahora puedo
+    \x02\x07\x02\x09\x023Uff, ha estado
+    cerca...[pause]\x02\x03Pero ahora puedo
     ir a la ciudad
     Zhu Que.[pause]
   - |-
-    [\x0207]Soldado[\x0207]¡Por favor,
+    \x02\x07Soldado\x02\x07¡Por favor,
     pase![pause]

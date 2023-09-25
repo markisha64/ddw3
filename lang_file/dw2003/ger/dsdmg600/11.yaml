@@ -1,19 +1,19 @@
 strings:
   - ''
-  - "[\\x0207]BK KingNumemon[\\x0207]Oh, nein...ich \nhabe verloren...[pause]"
+  - "\\x02\\x07BK KingNumemon\\x02\\x07Oh, nein...ich \nhabe verloren...[pause]"
   - |-
-    [\x0207][\x020902]3Aber du warst
-    sehr gut.[pause][\x0203]Du bist wirk-
+    \x02\x07\x02\x09\x023Aber du warst
+    sehr gut.[pause]\x02\x03Du bist wirk-
     lich ein König![pause]
   - |-
-    [\x0207]BK KingNumemon[\x0207]...wiwirklich?
+    \x02\x07BK KingNumemon\x02\x07...wiwirklich?
     Ich bin froh, dass
-    du das sagst.[pause][\x0203]Bist ein guter Kerl!
+    du das sagst.[pause]\x02\x03Bist ein guter Kerl!
     Ich gebe dir das.[pause]
   - |-
-    [\x0207][\x020902]3Yeah! Ich hab
+    \x02\x07\x02\x09\x023Yeah! Ich hab
     den BIT-
     Adapter![pause]
   - |-
-    [\x0207]BK KingNumemon[\x0207]Vergiβ mich nie,
+    \x02\x07BK KingNumemon\x02\x07Vergiβ mich nie,
     den KingNumemon![pause]

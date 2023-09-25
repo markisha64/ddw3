@@ -3,27 +3,27 @@ strings:
   - EXP
   - |-
     EXP gained:
-    [\x020501] EXP[pause]
+    \x02\x05\x01 EXP[pause]
   - LV
   - Level gained![pause]
   - |-
     Learned Tech:
-    [\x020501][pause]
+    \x02\x05\x01[pause]
   - |-
     Can load Tech:
-    [\x020501][pause]
+    \x02\x05\x01[pause]
   - |-
-    [\x020501]
-    Level [\x020502]![pause]
+    \x02\x05\x01
+    Level \x02\x05\x02![pause]
   - |-
     Digivolve learned:
-    [\x020501][pause]
+    \x02\x05\x01[pause]
   - |-
     Digivolve Slot full.
     Storing to Digimon Lab.[pause]
   - |-
     BIT gained:
-    [\x020501] BIT[pause]
+    \x02\x05\x01 BIT[pause]
   - |-
     Item gained:
-    [\x020501][pause]
+    \x02\x05\x01[pause]

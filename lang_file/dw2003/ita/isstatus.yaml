@@ -86,23 +86,23 @@ strings:
   - Due mani
   - Ripone equipaggiam. attuale
   - PF riportati al massimo.
-  - '[\x020501] PF curati.'
-  - I PF max aumentano di [\x020501].
-  - I PM max aumentano di [\x020501].
-  - La forza aumenta di [\x020501].
-  - La difesa aumenta di [\x020501].
-  - Lo spirito aumenta di [\x020501].
-  - La saggezza aumenta di [\x020501].
-  - La velocità aumenta di [\x020501].
-  - Il carisma aumenta di [\x020501].
-  - Resist. al fuoco aumenta di [\x020501].
-  - Resist. all'acqua aumenta di [\x020501].
-  - Resist. al ghiaccio aumenta di [\x020501].
-  - Resist. al vento aumenta di [\x020501].
-  - Resist. al tuono aumenta di [\x020501].
-  - Resist. macchine aumenta di [\x020501].
-  - Resist. tenebre aumenta di [\x020501].
-  - I PA aumentano di [\x020501].
+  - '\x02\x05\x01 PF curati.'
+  - I PF max aumentano di \x02\x05\x01.
+  - I PM max aumentano di \x02\x05\x01.
+  - La forza aumenta di \x02\x05\x01.
+  - La difesa aumenta di \x02\x05\x01.
+  - Lo spirito aumenta di \x02\x05\x01.
+  - La saggezza aumenta di \x02\x05\x01.
+  - La velocità aumenta di \x02\x05\x01.
+  - Il carisma aumenta di \x02\x05\x01.
+  - Resist. al fuoco aumenta di \x02\x05\x01.
+  - Resist. all'acqua aumenta di \x02\x05\x01.
+  - Resist. al ghiaccio aumenta di \x02\x05\x01.
+  - Resist. al vento aumenta di \x02\x05\x01.
+  - Resist. al tuono aumenta di \x02\x05\x01.
+  - Resist. macchine aumenta di \x02\x05\x01.
+  - Resist. tenebre aumenta di \x02\x05\x01.
+  - I PA aumentano di \x02\x05\x01.
   - Nessun oggetto.
   - Nessun'arma.
   - Nessuna corazza.

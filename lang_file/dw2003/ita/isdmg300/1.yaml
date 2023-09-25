@@ -1,47 +1,47 @@
 strings:
   - ''
   - |-
-    [\x0207]Uomo[\x0207]Alt. Ehi, chi
-    sei tu?[pause][\x0203]Non prendermi alle
+    \x02\x07Uomo\x02\x07Alt. Ehi, chi
+    sei tu?[pause]\x02\x03Non prendermi alle
     spalle così!
     Che paura![pause]
   - |-
-    [\x0207][\x020902]3Ah! Sono
+    \x02\x07\x02\x09\x023Ah! Sono
     spiacente,
     signor...[pause]
   - |-
-    [\x0207]Uomo[\x0207]Non sono un
-    vecchio![pause][\x0203]Sono Nick, ho
+    \x02\x07Uomo\x02\x07Non sono un
+    vecchio![pause]\x02\x03Sono Nick, ho
     21 anni![pause]
   - |-
-    [\x0207][\x020902]3Oh, ah,
+    \x02\x07\x02\x09\x023Oh, ah,
     beh, scusa![pause]
   - |-
-    [\x0207]Nick[\x0207]Ci sono solo
+    \x02\x07Nick\x02\x07Ci sono solo
     maleducati su
-    questo server?[pause][\x0203]Prima Etemon,
+    questo server?[pause]\x02\x03Prima Etemon,
     ora tu...[pause]
   - |-
-    [\x0207][\x020902]3Etemon?
+    \x02\x07\x02\x09\x023Etemon?
     È successo
     qualcosa?[pause]
   - |-
-    [\x0207]Nick[\x0207]Ho trovato un
-    grande scudo.[pause][\x0203]Etemon è arrivato
-    dicendo che era suo.[pause][\x0203]Se l'è preso
+    \x02\x07Nick\x02\x07Ho trovato un
+    grande scudo.[pause]\x02\x03Etemon è arrivato
+    dicendo che era suo.[pause]\x02\x03Se l'è preso
     senza neanche dire
     grazie.[pause]
   - |-
-    [\x0207][\x020902]3Etemon?
+    \x02\x07\x02\x09\x023Etemon?
     Un grande
-    scudo?[pause][\x0203]Mi chiedo
+    scudo?[pause]\x02\x03Mi chiedo
     cosa
     fosse![pause]
   - |-
-    [\x0207]Nick[\x0207]Ehi, sono
+    \x02\x07Nick\x02\x07Ehi, sono
     occupato
     io![pause]
   - |-
-    [\x0207]Nick[\x0207]Perché non fanno il
-    loro lavoro?[pause][\x0203]Vorrei essere preso
+    \x02\x07Nick\x02\x07Perché non fanno il
+    loro lavoro?[pause]\x02\x03Vorrei essere preso
     come esempio.[pause]

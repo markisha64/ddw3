@@ -1,13 +1,13 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Hurra!
+    \x02\x07\x02\x09\x023Hurra!
     Sieg über
     Bulbmon![pause]
   - |-
-    [\x0207][\x020902]3Hä?!
+    \x02\x07\x02\x09\x023Hä?!
     Das Loch geht
-    immer weiter![pause][\x0203]Vielleicht geht
+    immer weiter![pause]\x02\x03Vielleicht geht
     es zum Ama-
-    terasu-Server...[pause][\x0203]Ich finde es
+    terasu-Server...[pause]\x02\x03Ich finde es
     heraus![pause]

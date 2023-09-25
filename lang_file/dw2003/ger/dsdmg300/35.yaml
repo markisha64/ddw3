@@ -1,21 +1,21 @@
 strings:
   - ''
   - |-
-    [\x0207]BK MegaGargomon[\x0207]Wow, du hast
+    \x02\x07BK MegaGargomon\x02\x07Wow, du hast
     gewonnen![pause]
   - |-
-    [\x0207][\x020902]3Na klar!
+    \x02\x07\x02\x09\x023Na klar!
     Ich habe mit
     allen gekämpft![pause]
   - |-
-    [\x0207]BK MegaGargom.[\x0207]Wow, erstaun-
+    \x02\x07BK MegaGargom.\x02\x07Wow, erstaun-
     lich! Ich gebe
     dir dies![pause]
   - |-
-    [\x0207][\x020902]3Toll! Ich hab
+    \x02\x07\x02\x09\x023Toll! Ich hab
     den Wildnis-
     helm![pause]
   - |-
-    [\x0207]BK MegaGargo.[\x0207]Viel Glück.
+    \x02\x07BK MegaGargo.\x02\x07Viel Glück.
     Ich drück dir
     die Daumen![pause]

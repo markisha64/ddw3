@@ -86,23 +86,23 @@ strings:
   - A deux mains
   - Retirer l'équipement actuel.
   - PV restauré au maximum.
-  - '[\x020501] PV récupérés.'
-  - Max PV augmenté de [\x020501].
-  - Max PM augmenté de [\x020501].
-  - Force augmentée de [\x020501].
-  - Défense augmentée de [\x020501].
-  - Esprit augmenté de [\x020501].
-  - Sagesse augmentée de [\x020501].
-  - Vitesse augmentée de [\x020501].
-  - Charisme augmenté de [\x020501].
-  - Défense Feu augmentée de [\x020501].
-  - Défense Eau augmentée de [\x020501].
-  - Défense Glace augmentée de [\x020501].
-  - Défense Vent augmentée de [\x020501].
-  - Défense Tonnerre augm. de [\x020501].
-  - Défense Machine augmentée de [\x020501].
-  - Défense Ténèbres augm. de [\x020501].
-  - PE augmenté de [\x020501].
+  - '\x02\x05\x01 PV récupérés.'
+  - Max PV augmenté de \x02\x05\x01.
+  - Max PM augmenté de \x02\x05\x01.
+  - Force augmentée de \x02\x05\x01.
+  - Défense augmentée de \x02\x05\x01.
+  - Esprit augmenté de \x02\x05\x01.
+  - Sagesse augmentée de \x02\x05\x01.
+  - Vitesse augmentée de \x02\x05\x01.
+  - Charisme augmenté de \x02\x05\x01.
+  - Défense Feu augmentée de \x02\x05\x01.
+  - Défense Eau augmentée de \x02\x05\x01.
+  - Défense Glace augmentée de \x02\x05\x01.
+  - Défense Vent augmentée de \x02\x05\x01.
+  - Défense Tonnerre augm. de \x02\x05\x01.
+  - Défense Machine augmentée de \x02\x05\x01.
+  - Défense Ténèbres augm. de \x02\x05\x01.
+  - PE augmenté de \x02\x05\x01.
   - Aucun objet.
   - Aucune arme.
   - Aucune armure.

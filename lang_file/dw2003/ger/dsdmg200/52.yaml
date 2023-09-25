@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]Ponchomon[\x0207]Wenn du Infos dazu
+    \x02\x07Ponchomon\x02\x07Wenn du Infos dazu
     hören willst, sprich
     mit mir, Amigo![pause]

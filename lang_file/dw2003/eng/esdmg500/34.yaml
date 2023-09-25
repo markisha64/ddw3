@@ -1,10 +1,10 @@
 strings:
   - ''
-  - "[\\x0207]Zhu Que Chief[\\x0207]Only the members \nof the A.o.A can\nenter here![pause]"
-  - "[\\x0207][\\x020902]3Zhu Que Chief, \nwhere is the Digi-\nEgg of Knowledge?[pause]"
-  - "[\\x0207]Zhu Que Chief[\\x0207]Ha ha ha, so you're \nresponsible for the\nAsuka Server![pause][\\x0203]But no matter how \nhard you try, it's \ntoo late![pause]"
-  - "[\\x0207][\\x020902]3What?\nWhat do you \nmean by that![pause]"
-  - "[\\x0207]Zhu Que Chief[\\x0207]Ha ha ha,\nI'll tell you![pause][\\x0203]We succeeded in \ntaking the undersea\nBase Magasta![pause]"
-  - "[\\x0207]Zhu Que Chief[\\x0207]And now we are...[pause][\\x0203]Launching the mobile\nfort Juggernaut![pause][\\x0203]Now the world will \nbow down to the \nA.o.A![pause]"
-  - "[\\x0207][\\x020902]3Yeah, right! \nI'm not going to \nlet you![pause][\\x0203]I'll stop the \nlaunch of the \nJuggernaut![pause]"
-  - "[\\x0207]Zhu Que Chief[\\x0207]Ha ha ha...\nGo ahead and try![pause][\\x0203]That's if you can \nget by me first![pause]"
+  - "\\x02\\x07Zhu Que Chief\\x02\\x07Only the members \nof the A.o.A can\nenter here![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Zhu Que Chief, \nwhere is the Digi-\nEgg of Knowledge?[pause]"
+  - "\\x02\\x07Zhu Que Chief\\x02\\x07Ha ha ha, so you're \nresponsible for the\nAsuka Server![pause]\\x02\\x03But no matter how \nhard you try, it's \ntoo late![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023What?\nWhat do you \nmean by that![pause]"
+  - "\\x02\\x07Zhu Que Chief\\x02\\x07Ha ha ha,\nI'll tell you![pause]\\x02\\x03We succeeded in \ntaking the undersea\nBase Magasta![pause]"
+  - "\\x02\\x07Zhu Que Chief\\x02\\x07And now we are...[pause]\\x02\\x03Launching the mobile\nfort Juggernaut![pause]\\x02\\x03Now the world will \nbow down to the \nA.o.A![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Yeah, right! \nI'm not going to \nlet you![pause]\\x02\\x03I'll stop the \nlaunch of the \nJuggernaut![pause]"
+  - "\\x02\\x07Zhu Que Chief\\x02\\x07Ha ha ha...\nGo ahead and try![pause]\\x02\\x03That's if you can \nget by me first![pause]"

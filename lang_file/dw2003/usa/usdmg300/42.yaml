@@ -1,3 +1,3 @@
 strings:
   - ''
-  - "[\\x0207]Divermon[\\x0207]I'm stupid for letting\nmy guard down![pause][\\x0203]I'll think about how to \nget my cards out \nnext time![pause]"
+  - "\\x02\\x07Divermon\\x02\\x07I'm stupid for letting\nmy guard down![pause]\\x02\\x03I'll think about how to \nget my cards out \nnext time![pause]"

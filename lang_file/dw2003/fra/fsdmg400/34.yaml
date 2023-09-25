@@ -1,3 +1,3 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Bon, je vais trouver  \nVeemon et prendre\nles Arbori-bottes ![pause][\\x0203]Je dois prendre garde\nà ne pas sortir de\nla Forêt Vive ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Bon, je vais trouver  \nVeemon et prendre\nles Arbori-bottes ![pause]\\x02\\x03Je dois prendre garde\nà ne pas sortir de\nla Forêt Vive ![pause]"

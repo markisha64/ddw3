@@ -1,20 +1,20 @@
 strings:
   - ''
   - |-
-    [\x0207]Kail[\x0207]...wie ärgerlich.
+    \x02\x07Kail\x02\x07...wie ärgerlich.
     Wir kommen nicht rein.[pause]
   - |-
-    [\x0207][\x020902]3Es muss
+    \x02\x07\x02\x09\x023Es muss
     einen Weg
     geben...[pause]
   - |-
-    [\x0207]Kail[\x0207]Tja, Jammern
+    \x02\x07Kail\x02\x07Tja, Jammern
     hilft uns auch
-    nicht weiter.[pause][\x0203]Wir sollten uns
+    nicht weiter.[pause]\x02\x03Wir sollten uns
     aufteilen und
-    nachforschen.[pause][\x0203]Red m. Leuten
+    nachforschen.[pause]\x02\x03Red m. Leuten
     in der Stadt.[pause]
   - |-
-    [\x0207][\x020902]3OK, mache ich![pause][\x0203]Langsam mache
+    \x02\x07\x02\x09\x023OK, mache ich![pause]\x02\x03Langsam mache
     ich mir Sorgen
     um Teddy.[pause]

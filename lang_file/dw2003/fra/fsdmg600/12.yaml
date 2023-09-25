@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207]Civil de Byakko ?[\x0207]Oh, tu dois être le
-    nouveau challenger.[pause][\x0203]Entre, je te prie,
+    \x02\x07Civil de Byakko ?\x02\x07Oh, tu dois être le
+    nouveau challenger.[pause]\x02\x03Entre, je te prie,
     le chef de Byakko
     t'attend ![pause]

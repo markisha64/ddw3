@@ -55,7 +55,7 @@ strings:
   - Registri l'account?
   - SÌ
   - NO
-  - '[\x020501]%'
+  - '\x02\x05\x01%'
   - |-
     Armi, attacchi magici e cura.
     Ideale per lavori di squadra.

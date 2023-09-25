@@ -1,3 +1,3 @@
 strings:
   - ''
-  - "[\\x0207]Collector Luke[\\x0207]If you want to \nhear about it, \ncome talk to me.[pause]"
+  - "\\x02\\x07Collector Luke\\x02\\x07If you want to \nhear about it, \ncome talk to me.[pause]"

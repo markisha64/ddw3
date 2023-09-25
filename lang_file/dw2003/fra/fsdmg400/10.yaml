@@ -1,32 +1,32 @@
 strings:
   - ''
   - |-
-    [\x0207]Voix[\x0207]Hooouuu
+    \x02\x07Voix\x02\x07Hooouuu
     hoouu ![pause]
   - |-
-    [\x0207][\x020902]3Tu es
+    \x02\x07\x02\x09\x023Tu es
     Sepikmon.[pause]
   - |-
-    [\x0207]Voix[\x0207]Hoouu...
+    \x02\x07Voix\x02\x07Hoouu...
     (râclement
-    de gorge)[pause][\x0203]...oui,
+    de gorge)[pause]\x02\x03...oui,
     que veux-
     tu ?[pause]
   - |-
-    [\x0207][\x020902]3Explique-moi comment
+    \x02\x07\x02\x09\x023Explique-moi comment
     battre Zanbamon.[pause]
   - |-
-    [\x0207]Sepikmon[\x0207]D'accord si tu me
+    \x02\x07Sepikmon\x02\x07D'accord si tu me
     rends un service.[pause]
-  - "[\\x0207]Sepikmon[\\x0207]J'ai égaré mon\nmasque précieux ![pause][\\x0203]Sans lui, personne\nne peut me voir ![pause][\\x0203]Si tu le trouves, je \nte dirai ce que tu\nveux savoir.[pause]"
+  - "\\x02\\x07Sepikmon\\x02\\x07J'ai égaré mon\nmasque précieux ![pause]\\x02\\x03Sans lui, personne\nne peut me voir ![pause]\\x02\\x03Si tu le trouves, je \nte dirai ce que tu\nveux savoir.[pause]"
   - |-
-    [\x0207]Sepikmon[\x0207]Je l'avais quand j'étais
-    avec Baronmon...[pause][\x0203]...j'ai dû le perdre
-    après ça ![pause][\x0203]OK, merci beaucoup ![pause]
+    \x02\x07Sepikmon\x02\x07Je l'avais quand j'étais
+    avec Baronmon...[pause]\x02\x03...j'ai dû le perdre
+    après ça ![pause]\x02\x03OK, merci beaucoup ![pause]
   - |-
-    [\x0207]Voix[\x0207]...Oui, que
+    \x02\x07Voix\x02\x07...Oui, que
     veux-tu ?[pause]
   - |-
-    [\x0207][\x020902]3C'est d'accord. Je
+    \x02\x07\x02\x09\x023C'est d'accord. Je
     vais aller chercher
     ton masque.[pause]

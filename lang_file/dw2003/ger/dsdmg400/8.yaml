@@ -1,12 +1,12 @@
 strings:
   - ''
-  - "[\\x0207]Zanbamon[\\x0207]Hey, warte!\nWaaaaarte![pause][\\x0203]Ich lasse \ndich hier\nnicht durch![pause]"
-  - "[\\x0207][\\x020902]3Soll das ein \nWitz sein? Ich\nmuss dahin![pause]"
+  - "\\x02\\x07Zanbamon\\x02\\x07Hey, warte!\nWaaaaarte![pause]\\x02\\x03Ich lasse \ndich hier\nnicht durch![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Soll das ein \nWitz sein? Ich\nmuss dahin![pause]"
   - |-
-    [\x0207]Zanbamon[\x0207]Dann musst du
-    mich besiegen.[pause][\x0203]Natürlich ver-
+    \x02\x07Zanbamon\x02\x07Dann musst du
+    mich besiegen.[pause]\x02\x03Natürlich ver-
     liere ich nie!
     Ha ha ha ha![pause]
   - |-
-    [\x0207][\x020902]3Schon klar![pause][\x0203]Es gibt immer
+    \x02\x07\x02\x09\x023Schon klar![pause]\x02\x03Es gibt immer
     ein 1. Mal![pause]

@@ -1,30 +1,30 @@
 strings:
   - ''
   - |-
-    [\x0207]Xuen Wu Chief[\x0207]Da bist du also.
+    \x02\x07Xuen Wu Chief\x02\x07Da bist du also.
     Einer, der gegen
-    uns ist![pause][\x0203]Ich bin hier u.
+    uns ist![pause]\x02\x03Ich bin hier u.
     renne nicht weg
-    oder verstecke mich![pause][\x0203]Jetzt kämpfe![pause]
+    oder verstecke mich![pause]\x02\x03Jetzt kämpfe![pause]
   - |-
-    [\x0207][\x020902]3Schau!
+    \x02\x07\x02\x09\x023Schau!
     Ich komme rüber
     zu dir![pause]
   - |-
-    [\x0207]Xuen Wu Chief[\x0207]Hmpf, du hast es
-    bis hier geschafft...[pause][\x0203]Ich hätte es wissen
+    \x02\x07Xuen Wu Chief\x02\x07Hmpf, du hast es
+    bis hier geschafft...[pause]\x02\x03Ich hätte es wissen
     müssen, da die anderen
     besiegt wurden![pause]
   - |-
-    [\x0207][\x020902]3Xuen Wu Chief!
+    \x02\x07\x02\x09\x023Xuen Wu Chief!
     Du hast den
     schwarzen ID-Pass![pause]
   - |-
-    [\x0207]Xuen Wu Chief[\x0207]Ja, habe ich!
-    Willst du ihn?[pause][\x0203]Dann kämpfe! Und
+    \x02\x07Xuen Wu Chief\x02\x07Ja, habe ich!
+    Willst du ihn?[pause]\x02\x03Dann kämpfe! Und
     nimm ihn mir aus
     der Hand![pause]
   - |-
-    [\x0207][\x020902]3Wetten!
+    \x02\x07\x02\x09\x023Wetten!
     Ich hol
     ihn mir![pause]

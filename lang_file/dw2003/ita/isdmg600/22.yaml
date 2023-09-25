@@ -1,65 +1,65 @@
 strings:
   - ''
   - |-
-    [\x0207]Kail[\x0207]Ehi [\x020801][\x020501],
+    \x02\x07Kail\x02\x07Ehi \x02\x08\x01\x02\x05\x01,
     che c'è?[pause]
   - |-
-    [\x0207][\x020902]3Non posso entrare
-    in Asuka.[pause][\x0203]Se avessi una
+    \x02\x07\x02\x09\x023Non posso entrare
+    in Asuka.[pause]\x02\x03Se avessi una
     scheda del
     personale, forse...[pause]
   - |-
-    [\x0207]Kail[\x0207]Scheda del
+    \x02\x07Kail\x02\x07Scheda del
     personale?[pause]
   - |-
-    [\x0207]Kurt[\x0207]Oink!
+    \x02\x07Kurt\x02\x07Oink!
     Oink![pause]
   - |-
-    [\x0207]Kail[\x0207]Cosa cerchi
+    \x02\x07Kail\x02\x07Cosa cerchi
     di dirci,
     Kurt?[pause]
   - |-
-    [\x0207][\x020902]3Forse ne ha
+    \x02\x07\x02\x09\x023Forse ne ha
     una.[pause]
   - |-
-    [\x0207]Kail[\x0207]Per forza!
+    \x02\x07Kail\x02\x07Per forza!
     Kurt lavorava
     qui![pause]
   - |-
-    [\x0207][\x020902]3Eh? Lisa, che
+    \x02\x07\x02\x09\x023Eh? Lisa, che
     stai facendo
     lì?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Come vedi
+    \x02\x07Lisa\x02\x07Come vedi
     c'è molto disordine
-    qui.[pause][\x0203]Stavo riordinando
+    qui.[pause]\x02\x03Stavo riordinando
     con Kail.[pause]
   - |-
-    [\x0207]Kail[\x0207]Ehi, Lisa. C'era
+    \x02\x07Kail\x02\x07Ehi, Lisa. C'era
     una scheda del
     personale in giro?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Scusa, non l'ho
-    vista.[pause][\x0203]È colpa di Kurt, è
+    \x02\x07Lisa\x02\x07Scusa, non l'ho
+    vista.[pause]\x02\x03È colpa di Kurt, è
     così disordinato![pause]
   - |-
-    [\x0207]Kurt[\x0207]Oink,
+    \x02\x07Kurt\x02\x07Oink,
     oink![pause]
   - |-
-    [\x0207]Kail[\x0207]Cosa dovremmo
+    \x02\x07Kail\x02\x07Cosa dovremmo
     fare? Sono sicura
     che è qui.[pause]
-  - "[\\x0207]Lisa[\\x0207]Ci sono! Ma si,\ni miei amici![pause][\\x0203]Se ci aiutano, \nfiniremo subito![pause]"
-  - '[\x0207][\x020902]3Quali amici?[pause]'
+  - "\\x02\\x07Lisa\\x02\\x07Ci sono! Ma si,\ni miei amici![pause]\\x02\\x03Se ci aiutano, \nfiniremo subito![pause]"
+  - '\x02\x07\x02\x09\x023Quali amici?[pause]'
   - |-
-    [\x0207]Lisa[\x0207]Si chiamano
+    \x02\x07Lisa\x02\x07Si chiamano
     Keith e Nick.[pause]
-  - "[\\x0207][\\x020902]3Cosa?!\nKeith e \nNick?[pause]"
-  - "[\\x0207]Lisa[\\x0207]Li conosci,\n[\\x020801][\\x020501]?[pause][\\x0203]Allora li \ntroverai\npresto![pause][\\x0203]Dovrebbero\nessere nel\nSettore Sud.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Cosa?!\nKeith e \nNick?[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07Li conosci,\n\\x02\\x08\\x01\\x02\\x05\\x01?[pause]\\x02\\x03Allora li \ntroverai\npresto![pause]\\x02\\x03Dovrebbero\nessere nel\nSettore Sud.[pause]"
   - |-
-    [\x0207][\x020902]3Oh, ah,
+    \x02\x07\x02\x09\x023Oh, ah,
     OK.[pause]
   - |-
-    [\x0207]Lisa[\x0207]Oh, [\x020801][\x020501],
+    \x02\x07Lisa\x02\x07Oh, \x02\x08\x01\x02\x05\x01,
     è successo
     qualcosa?[pause]

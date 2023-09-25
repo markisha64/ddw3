@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207]Snatchmon[\x0207]Ich bin Snatchmon.
+    \x02\x07Snatchmon\x02\x07Ich bin Snatchmon.
     Auf ewig das
     stärkste Digimon.[pause]
   - |-
@@ -9,60 +9,60 @@ strings:
     Zerstöre die dummen
     Menschen![pause]
   - |-
-    [\x0207][\x020902]3Komm schon!
+    \x02\x07\x02\x09\x023Komm schon!
     Ich krieg dich![pause]
   - |-
-    [\x0207]Snatchmon[\x0207]Wer bist du?
+    \x02\x07Snatchmon\x02\x07Wer bist du?
     Warum befiehlst
     du mir?[pause]
   - |-
     ...was sagst du?!
     Ich bin dein Tamer![pause]
   - |-
-    [\x0207]Snatchmon[\x0207]...Tamer?
+    \x02\x07Snatchmon\x02\x07...Tamer?
     So was brauche
-    ich nicht...[pause][\x0203]Ich bin immer das
+    ich nicht...[pause]\x02\x03Ich bin immer das
     stärkste Digimon!
     Ich beuge mich nicht![pause]
   - "Wawas!\nWas glaubst du, \nwer ich bin...?![pause]"
   - |-
-    [\x0207]Snatchmon[\x0207]Es ist egal, wer
-    mich erschaffen hat.[pause][\x0203]Ich schlucke mehr
+    \x02\x07Snatchmon\x02\x07Es ist egal, wer
+    mich erschaffen hat.[pause]\x02\x03Ich schlucke mehr
     Daten und werde
-    noch stärker![pause][\x0203]Zuerst...werde
+    noch stärker![pause]\x02\x03Zuerst...werde
     ich dich schlucken![pause]
   - Wawas?![pause]
   - Aaaaaaaaah![pause]
   - |-
-    [\x0207][\x020902]3Whoa! Hey, er ist
+    \x02\x07\x02\x09\x023Whoa! Hey, er ist
     der Tamer, der
-    dich gemacht hat![pause][\x0203]Tamer u. Digimon
-    gehören zusammen![pause][\x0203]Wir arbeiten immer
+    dich gemacht hat![pause]\x02\x03Tamer u. Digimon
+    gehören zusammen![pause]\x02\x03Wir arbeiten immer
     zusammen![pause]
-  - "[\\x0207]Snatchmon[\\x0207]So, du bist das.\nDu besiegtest mich \nals Vemmon![pause][\\x0203]Aber jetzt bin ich\nwiedergeboren![pause][\\x0203]Ich zeige dir meine\nneue Kraft![pause]"
+  - "\\x02\\x07Snatchmon\\x02\\x07So, du bist das.\nDu besiegtest mich \nals Vemmon![pause]\\x02\\x03Aber jetzt bin ich\nwiedergeboren![pause]\\x02\\x03Ich zeige dir meine\nneue Kraft![pause]"
   - |-
-    [\x0207][\x020902]3Was zum...?!
+    \x02\x07\x02\x09\x023Was zum...?!
     Was wirst du
     tun?[pause]
-  - "[\\x0207]Snatchmon[\\x0207]Ich verschmelze mit\nGunslinger und \nwerde Galacticmon![pause]"
-  - '[\x0207][\x020902]3Galacticmon?![pause]'
+  - "\\x02\\x07Snatchmon\\x02\\x07Ich verschmelze mit\nGunslinger und \nwerde Galacticmon![pause]"
+  - '\x02\x07\x02\x09\x023Galacticmon?![pause]'
   - |-
-    [\x0207]Snatchmon[\x0207]Dann werde ich eins
-    mit der Erde![pause][\x0203]Um in ein stärkeres
+    \x02\x07Snatchmon\x02\x07Dann werde ich eins
+    mit der Erde![pause]\x02\x03Um in ein stärkeres
     Digimon, das Gaiamon,
     zu digitieren![pause]
-  - "[\\x0207][\\x020902]3...Gaiamon?!\nEs geht also nicht \nnur um Menschen![pause][\\x0203]Alles auf der \nErde wird sterben![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023...Gaiamon?!\nEs geht also nicht \nnur um Menschen![pause]\\x02\\x03Alles auf der \nErde wird sterben![pause]"
   - |-
-    [\x0207]Snatchmon[\x0207]Das ist alles gleich-
+    \x02\x07Snatchmon\x02\x07Das ist alles gleich-
     gültig, nur ich bin
     wichtig![pause]
-  - '[\x0207][\x020902]3Ich halte dich auf![pause]'
-  - "[\\x0207]Snatchmon[\\x0207]Versuche, mich zu\nschlagen, wenn ich \nein Galacticmon bin![pause]"
+  - '\x02\x07\x02\x09\x023Ich halte dich auf![pause]'
+  - "\\x02\\x07Snatchmon\\x02\\x07Versuche, mich zu\nschlagen, wenn ich \nein Galacticmon bin![pause]"
   - |-
-    [\x0207][\x020902]3Klar! Ich
+    \x02\x07\x02\x09\x023Klar! Ich
     lasse es
     nicht zu![pause]
-  - "[\\x0207]Snatchmon[\\x0207]Gut.\nWir treffen\nuns im All![pause][\\x0203]Ich übertrage dei-\nne Matrix-Daten![pause][\\x0203]Schau, wie ich in\nGalacticmon \ndigitiere.[pause]"
+  - "\\x02\\x07Snatchmon\\x02\\x07Gut.\nWir treffen\nuns im All![pause]\\x02\\x03Ich übertrage dei-\nne Matrix-Daten![pause]\\x02\\x03Schau, wie ich in\nGalacticmon \ndigitiere.[pause]"
   - |-
     Dann komm Snatchmon!
     Und verdunkle diese Welt![pause]

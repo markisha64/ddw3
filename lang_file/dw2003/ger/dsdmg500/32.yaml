@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Wo mag das
+    \x02\x07\x02\x09\x023Wo mag das
     wohl gewe-
     sen sein?[pause]
   - |-
-    [\x0207]Patamon[\x0207]Hm... Keine Ahnung.[pause][\x0203]Aber ich hört ein
+    \x02\x07Patamon\x02\x07Hm... Keine Ahnung.[pause]\x02\x03Aber ich hört ein
     seltsames Geräusch
     aus dem Dschungel.[pause]
   - |-
-    [\x0207][\x020902]3Komisches
+    \x02\x07\x02\x09\x023Komisches
     Geräusch?[pause]
-  - "[\\x0207]Patamon[\\x0207]Ja. Klang wie eine \nMaschine oder ein Di-\ngimon! Echt seltsam![pause][\\x0203]Leader hat es gehört \nu. ist abgehauen.[pause][\\x0203]Vielleicht\nist sie in Richtung\nDschungel![pause]"
+  - "\\x02\\x07Patamon\\x02\\x07Ja. Klang wie eine \nMaschine oder ein Di-\ngimon! Echt seltsam![pause]\\x02\\x03Leader hat es gehört \nu. ist abgehauen.[pause]\\x02\\x03Vielleicht\nist sie in Richtung\nDschungel![pause]"
   - |-
-    [\x0207][\x020902]3Aha.
+    \x02\x07\x02\x09\x023Aha.
     Vielen Dank![pause]

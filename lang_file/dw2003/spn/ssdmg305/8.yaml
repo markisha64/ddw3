@@ -1,62 +1,62 @@
 strings:
   - ''
   - |-
-    [\x0207]Lisa[\x0207]¡Eh, [\x020801][\x020501]!
+    \x02\x07Lisa\x02\x07¡Eh, \x02\x08\x01\x02\x05\x01!
     ¿Qué? ¿Alguien?[pause]
-  - "[\\x0207][\\x020902]3¡Sí, he contactado\ncon la gente de \nla Resistencia![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Sí, he contactado\ncon la gente de \nla Resistencia![pause]"
   - |-
-    [\x0207]Lisa[\x0207]¡Buen trabajo!
+    \x02\x07Lisa\x02\x07¡Buen trabajo!
     Eres estupendo
-    [\x020801][\x020501].[pause]
+    \x02\x08\x01\x02\x05\x01.[pause]
   - |-
-    [\x0207][\x020902]3Pero para entrar en
-    Ciudad Amaterasu...[pause][\x0203]Necesitamos cuatro
+    \x02\x07\x02\x09\x023Pero para entrar en
+    Ciudad Amaterasu...[pause]\x02\x03Necesitamos cuatro
     pases para detener
     a Knightmon.[pause]
   - |-
-    [\x0207]Keith[\x0207]¿Pases?
+    \x02\x07Keith\x02\x07¿Pases?
     ¿Qué es
     eso?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Lisa[pause][\x0203]Oh, yo sé lo
+    \x02\x07Lisa\x02\x07Lisa[pause]\x02\x03Oh, yo sé lo
     que son. Son los
     pases ID de color.[pause]
-  - "[\\x0207][\\x020902]3¿Pases ID de\ncolores?[pause][\\x0203]Entonces, \n¿estos ID\nRojo y Azul?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¿Pases ID de\ncolores?[pause]\\x02\\x03Entonces, \n¿estos ID\nRojo y Azul?[pause]"
   - |-
-    [\x0207]Lisa[\x0207]Sí, ¡eso es!
+    \x02\x07Lisa\x02\x07Sí, ¡eso es!
     ¿Cómo los tienes?[pause]
-  - "[\\x0207][\\x020902]3El Jefe de Cdad.\nA.o.A. que gané \nlo tenía.[pause]"
-  - "[\\x0207]Nick[\\x0207]¡Si conseguimos los \notros dos, podemos\nvencer a Knightmon![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023El Jefe de Cdad.\nA.o.A. que gané \nlo tenía.[pause]"
+  - "\\x02\\x07Nick\\x02\\x07¡Si conseguimos los \notros dos, podemos\nvencer a Knightmon![pause]"
   - |-
-    [\x0207]Keith [\x0207]¡Sí!,entonces los
+    \x02\x07Keith \x02\x07¡Sí!,entonces los
     otros Jefes de Ciudad
     también los tendrán.[pause]
-  - "[\\x0207]Lisa[\\x0207]¡Sí, eso \nayudaría![pause]"
-  - "[\\x0207][\\x020902]3¡Espera![pause][\\x0203]Hay que hacer \nalgo con Ciudad\nBai Hu...[pause][\\x0203]La seguridad es\nmuy fuerte \nallí.[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07¡Sí, eso \nayudaría![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Espera![pause]\\x02\\x03Hay que hacer \nalgo con Ciudad\nBai Hu...[pause]\\x02\\x03La seguridad es\nmuy fuerte \nallí.[pause]"
   - |-
-    [\x0207]Lisa [\x0207]¿Sí?
+    \x02\x07Lisa \x02\x07¿Sí?
     Ummm. ¿Qué
     podemos hacer?[pause]
   - |-
-    [\x0207]Lisa[\x0207]¡Ya sé! ¡Puede
+    \x02\x07Lisa\x02\x07¡Ya sé! ¡Puede
     ayudarnos la
-    Resistencia![pause][\x0203]Están en la Torre
+    Resistencia![pause]\x02\x03Están en la Torre
     Delirios, ¿no?[pause]
-  - '[\x0207][\x020902]3¡Sí, sí![pause]'
-  - "[\\x0207]Lisa[\\x0207]¡Iré a \npreguntarles![pause]"
-  - "[\\x0207]Keith[\\x0207]¡Sí, \ndéjanos a\nnosotros![pause]"
-  - '[\x0207]Nick[\x0207]De acuerdo.[pause]'
+  - '\x02\x07\x02\x09\x023¡Sí, sí![pause]'
+  - "\\x02\\x07Lisa\\x02\\x07¡Iré a \npreguntarles![pause]"
+  - "\\x02\\x07Keith\\x02\\x07¡Sí, \ndéjanos a\nnosotros![pause]"
+  - '\x02\x07Nick\x02\x07De acuerdo.[pause]'
   - |-
-    [\x0207][\x020902]3¡Yo volveré a
+    \x02\x07\x02\x09\x023¡Yo volveré a
     Ciudad Bai Hu
     otra vez![pause]
   - |-
-    [\x0207]Teddy[\x0207]Buena suerte
-    [\x020801][\x020501].[pause]
+    \x02\x07Teddy\x02\x07Buena suerte
+    \x02\x08\x01\x02\x05\x01.[pause]
   - |-
-    [\x0207][\x020902]3¡No te
+    \x02\x07\x02\x09\x023¡No te
     preocupes![pause]
   - |-
-    [\x0207]Lisa[\x0207]Vámonos
+    \x02\x07Lisa\x02\x07Vámonos
     Keith.[pause]
-  - "[\\x0207]Lisa[\\x0207]¡Nick, tú \nquédate aquí![pause]"
+  - "\\x02\\x07Lisa\\x02\\x07¡Nick, tú \nquédate aquí![pause]"

@@ -8,23 +8,23 @@ strings:
   - Se sabio
   - Usa Guilmons
   - Volver
-  - "Puedes ser compañero de Veemon, \nque no están en ningún grupo.\nDescubre cómo por tus medios.[pause][\\x0203]Veemon aprende ExVeemon, Stingmon\ny Paildramon, y luego aprende muchos\ntipos de digeivolucion. Por[pause][\\x0203]ejemplo, al mejorar la habilidad\nPaildramon y su Defensa Máquina,\naprenderá Metalmamemon. Aprende[pause][\\x0203]Devimon si mejoras Defensa\nOscura.[pause]"
+  - "Puedes ser compañero de Veemon, \nque no están en ningún grupo.\nDescubre cómo por tus medios.[pause]\\x02\\x03Veemon aprende ExVeemon, Stingmon\ny Paildramon, y luego aprende muchos\ntipos de digeivolucion. Por[pause]\\x02\\x03ejemplo, al mejorar la habilidad\nPaildramon y su Defensa Máquina,\naprenderá Metalmamemon. Aprende[pause]\\x02\\x03Devimon si mejoras Defensa\nOscura.[pause]"
   - |-
     Los compañeros de bajo nivel
     pueden ganar EXP entrando al
-    comienzo de la batalla y luego[pause][\x0203]siendo cambiados. Se pueden
+    comienzo de la batalla y luego[pause]\x02\x03siendo cambiados. Se pueden
     conseguir niveles fácilmente con
-    dos compañeros en la batalla. [pause][\x0203]Los Digimon aprenden digievoluciones
+    dos compañeros en la batalla. [pause]\x02\x03Los Digimon aprenden digievoluciones
     y técnicas cuando ganan niveles o las
     habilidades llegan a múltiplo de 5.[pause]
-  - "Los compañeros pueden adquirir\n14 tipos de digievolucion que varían\nsegun la mejoras. Las Digievoluciones [pause][\\x0203]del mismo tipo se muestran en filas\nen la Tabla de digievolucion. Si se \nmejora el nivel de habilidad Digimon[pause][\\x0203]se aprenden nuevas digievoluciones\ndel mismo tipo. También se aprendes\nganando niveles. Algunas [pause][\\x0203]no se pueden conseguir sin\naprender otras digievoluciones.[pause]"
+  - "Los compañeros pueden adquirir\n14 tipos de digievolucion que varían\nsegun la mejoras. Las Digievoluciones [pause]\\x02\\x03del mismo tipo se muestran en filas\nen la Tabla de digievolucion. Si se \nmejora el nivel de habilidad Digimon[pause]\\x02\\x03se aprenden nuevas digievoluciones\ndel mismo tipo. También se aprendes\nganando niveles. Algunas [pause]\\x02\\x03no se pueden conseguir sin\naprender otras digievoluciones.[pause]"
   - |-
     Los límites de Nivel y Habilidad
     son 99. Los Parámetros tiene de
-    límite 999. Si un Digimon alcanza[pause][\x0203]el límite puede seguir mejorando
+    límite 999. Si un Digimon alcanza[pause]\x02\x03el límite puede seguir mejorando
     sus Parámetros usando chips. Hay
-    rumores de chips que mejoran los PE[pause][\x0203]pero no se venden en tiendas.
+    rumores de chips que mejoran los PE[pause]\x02\x03pero no se venden en tiendas.
     Inténtalo pescando o pateando.[pause]
-  - "Usa artículos montables. Incluso\nsin conocer ninguna técnica de \napoyo, los artículos pueden ayudar[pause][\\x0203]en la batalla. Los golpes de digiev.\nse deciden en base al compañero y \nsu nivel. Cuando la barra se llene[pause][\\x0203]espera tu oportunidad para usarla. \nFuera de los hoteles, vigila los\nPM. Si decides retirarte, [pause][\\x0203]¡no te preocupes de \notra cosa![pause]"
-  - "Incluso si mejoras tus Digimon\nde forma desigual, puedes ganar \npuntos EXP encontrando y eligiendo[pause][\\x0203]los enemigos débiles de ciertas áreas. \nUsa ataques Mágicos contra enemigos\nfuertes y ataques Físicos en débiles.[pause][\\x0203]Algunos enemigos son vulnerables ante\nciertos atributos y ataques. Descubre \nsus debilidades y planea los ataques.[pause]"
-  - "Growlmon y los otros tipos Guilmon\nde digievolucion aprenden técnicas\nextrañas como Steal y Counter.[pause][\\x0203]Algunos enemigos tienen artículos\nque no se venden en tiendas. \nSe pueden conseguir con Steal.[pause][\\x0203]La fuerza de los Contraataques depende\nde la cantidad de daño recibida. Intenta\nrecibir daño a propósito.[pause]"
+  - "Usa artículos montables. Incluso\nsin conocer ninguna técnica de \napoyo, los artículos pueden ayudar[pause]\\x02\\x03en la batalla. Los golpes de digiev.\nse deciden en base al compañero y \nsu nivel. Cuando la barra se llene[pause]\\x02\\x03espera tu oportunidad para usarla. \nFuera de los hoteles, vigila los\nPM. Si decides retirarte, [pause]\\x02\\x03¡no te preocupes de \notra cosa![pause]"
+  - "Incluso si mejoras tus Digimon\nde forma desigual, puedes ganar \npuntos EXP encontrando y eligiendo[pause]\\x02\\x03los enemigos débiles de ciertas áreas. \nUsa ataques Mágicos contra enemigos\nfuertes y ataques Físicos en débiles.[pause]\\x02\\x03Algunos enemigos son vulnerables ante\nciertos atributos y ataques. Descubre \nsus debilidades y planea los ataques.[pause]"
+  - "Growlmon y los otros tipos Guilmon\nde digievolucion aprenden técnicas\nextrañas como Steal y Counter.[pause]\\x02\\x03Algunos enemigos tienen artículos\nque no se venden en tiendas. \nSe pueden conseguir con Steal.[pause]\\x02\\x03La fuerza de los Contraataques depende\nde la cantidad de daño recibida. Intenta\nrecibir daño a propósito.[pause]"

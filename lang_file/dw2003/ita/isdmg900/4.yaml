@@ -1,31 +1,31 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Dunque, ecco
-    l'Arena.[pause][\x0203]Chissà chi è il
+    \x02\x07\x02\x09\x023Dunque, ecco
+    l'Arena.[pause]\x02\x03Chissà chi è il
     mio avversario?
     Io sono pronto![pause]
   - |-
-    [\x0207]Kurt[\x0207]Ehi!
-    [\x020801][\x020501]![pause][\x0203]Sapevo che ce
+    \x02\x07Kurt\x02\x07Ehi!
+    \x02\x08\x01\x02\x05\x01![pause]\x02\x03Sapevo che ce
     l'avresti fatta![pause]
   - |-
-    [\x0207][\x020902]3Eh?
-    Kurt?[pause][\x0203]Non dirmi che
+    \x02\x07\x02\x09\x023Eh?
+    Kurt?[pause]\x02\x03Non dirmi che
     sei il miglior
     domatore![pause]
   - |-
-    [\x0207]Kurt[\x0207]Esatto!
+    \x02\x07Kurt\x02\x07Esatto!
     Sono lieto che tu
-    sia qui. Ho sempre[pause][\x0203]desiderato uno
+    sia qui. Ho sempre[pause]\x02\x03desiderato uno
     scontro aperto
     con te![pause]
   - |-
-    [\x0207][\x020902]3Anch'io! Non ci sono
+    \x02\x07\x02\x09\x023Anch'io! Non ci sono
     avversari migliori
     di te![pause]
   - |-
-    [\x0207]Kurt[\x0207]Ha ha! Penso
-    che mi divertirò![pause][\x0203]Cominciamo lo
+    \x02\x07Kurt\x02\x07Ha ha! Penso
+    che mi divertirò![pause]\x02\x03Cominciamo lo
     spasso! Non
     tirarti indietro![pause]

@@ -4,698 +4,698 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Lisa[\x0207]Oooink!
+    \x02\x07Lisa\x02\x07Oooink!
     Ooink, oink, ooink![pause]
   - |-
-    [\x0207]Nick[\x0207]Oink!
+    \x02\x07Nick\x02\x07Oink!
     Ooink! Oi![pause]
   - |-
-    [\x0207]Keith[\x0207]Oooink,
+    \x02\x07Keith\x02\x07Oooink,
     ooinoinnk![pause]
   - |-
-    [\x0207]Tamer Bill[\x0207]Ich bin Bill, Nr. 1
-    in der Welt![pause][\x0203]Worin? Rat mal...[pause]
+    \x02\x07Tamer Bill\x02\x07Ich bin Bill, Nr. 1
+    in der Welt![pause]\x02\x03Worin? Rat mal...[pause]
   - a
   - |-
-    [\x0207]Tamer Bill[\x0207]Ob Steve in Asuka
-    wohl OK ist?[pause][\x0203]Ohne mich kommt
+    \x02\x07Tamer Bill\x02\x07Ob Steve in Asuka
+    wohl OK ist?[pause]\x02\x03Ohne mich kommt
     er nicht zurecht.[pause]
   - |-
-    [\x0207]Tamer Bill[\x0207]Ich bin Nr.1,
+    \x02\x07Tamer Bill\x02\x07Ich bin Nr.1,
     auch bei den
-    Karten![pause][\x0203]Ich schlage dich
+    Karten![pause]\x02\x03Ich schlage dich
     mit Leichtigkeit![pause]
   - |-
-    [\x0207]Tamer Bill[\x0207]Du bist der Tamer,
+    \x02\x07Tamer Bill\x02\x07Du bist der Tamer,
     der die A.o.A
-    besiegt hat.[pause][\x0203]Aber ich bin die Nr.
+    besiegt hat.[pause]\x02\x03Aber ich bin die Nr.
     1, ich verliere nicht.
     Kampf gefällig?[pause]
   - |-
-    [\x0207]Tamer Bill[\x0207]Ha ha ha!
+    \x02\x07Tamer Bill\x02\x07Ha ha ha!
     Fühlst du meine
-    Kräfte?[pause][\x0203]Ich bin die Nr.
+    Kräfte?[pause]\x02\x03Ich bin die Nr.
     1 der Welt![pause]
   - |-
-    [\x0207]Tamer Bill[\x0207]Ha ha ha, ich hab
+    \x02\x07Tamer Bill\x02\x07Ha ha ha, ich hab
     einfach schnell
-    verloren.[pause][\x0203]Aber das ist OK,
+    verloren.[pause]\x02\x03Aber das ist OK,
     ich bin doch die
     Nr. 1 der Welt![pause]
   - |-
-    [\x0207]Tamer Hillary[\x0207]Bill spielt die
-    ganze Zeit![pause][\x0203]Er muss das hier
+    \x02\x07Tamer Hillary\x02\x07Bill spielt die
+    ganze Zeit![pause]\x02\x03Er muss das hier
     erledigen, oder es
     gibt Ärger![pause]
   - a
   - |-
-    [\x0207]Tamer Hillary[\x0207]Hey, kannst du
+    \x02\x07Tamer Hillary\x02\x07Hey, kannst du
     ihm Bescheid
-    sagen?[pause][\x0203]Wenn er weiter-
+    sagen?[pause]\x02\x03Wenn er weiter-
     macht, wir er
     wieder Oinkmon![pause]
   - |-
-    [\x0207]Tamer Hillary[\x0207]Machen Kämpfe
+    \x02\x07Tamer Hillary\x02\x07Machen Kämpfe
     wirklich so
-    viel Spaβ?[pause][\x0203]Komm, kämpfe
+    viel Spaβ?[pause]\x02\x03Komm, kämpfe
     mit mir![pause]
   - |-
-    [\x0207]Tamer Hillary[\x0207]Oh, jetzt werde
-    ich aber wütend![pause][\x0203]Ein Kampf wird
+    \x02\x07Tamer Hillary\x02\x07Oh, jetzt werde
+    ich aber wütend![pause]\x02\x03Ein Kampf wird
     mich ablenken![pause]
   - |-
-    [\x0207]Tamer Hillary[\x0207]Jaaa, gewonnen![pause][\x0203]Jetzt weiβ ich,
+    \x02\x07Tamer Hillary\x02\x07Jaaa, gewonnen![pause]\x02\x03Jetzt weiβ ich,
     was Bill daran
     findet![pause]
-  - "[\\x0207]Tamer Hillary[\\x0207]Echt! Warum \nmach das Spiel\nso viel Spaβ?[pause]"
+  - "\\x02\\x07Tamer Hillary\\x02\\x07Echt! Warum \nmach das Spiel\nso viel Spaβ?[pause]"
   - |-
-    [\x0207]Tamer Marina[\x0207]Ich dachte, das sei
+    \x02\x07Tamer Marina\x02\x07Ich dachte, das sei
     mein Ende, als ich
     zum Oinkmon wurde.[pause]
   - a
   - |-
-    [\x0207]Tamer Marina[\x0207]Mir geht es wieder
+    \x02\x07Tamer Marina\x02\x07Mir geht es wieder
     gut! Jetzt spiele
     ich![pause]
   - |-
-    [\x0207]Tamer Marina[\x0207]Gut, dass wir
+    \x02\x07Tamer Marina\x02\x07Gut, dass wir
     wieder spielen
-    können![pause][\x0203]Lass' uns kämpf-
+    können![pause]\x02\x03Lass' uns kämpf-
     en! Das ist unser
     Schicksal![pause]
   - |-
-    [\x0207]Tamer Marina[\x0207]Gut, dass wir
+    \x02\x07Tamer Marina\x02\x07Gut, dass wir
     wieder spielen
-    können![pause][\x0203]Los, komm
+    können![pause]\x02\x03Los, komm
     schon![pause]
   - |-
-    [\x0207]Tamer Marina[\x0207]Jaaa,
-    gewonnen![pause][\x0203]Ich liebe
+    \x02\x07Tamer Marina\x02\x07Jaaa,
+    gewonnen![pause]\x02\x03Ich liebe
     das Kämpfen![pause]
   - |-
-    [\x0207]Tamer Marina[\x0207]Ist schon OK,
-    wenn ich verliere.[pause][\x0203]Nur gut, dass ich
+    \x02\x07Tamer Marina\x02\x07Ist schon OK,
+    wenn ich verliere.[pause]\x02\x03Nur gut, dass ich
     spielen kann.[pause]
   - |-
-    [\x0207]Tamer Albert[\x0207]Ich wusste nicht
+    \x02\x07Tamer Albert\x02\x07Ich wusste nicht
     mehr weiter, als
     ich Oinkmon wurde.[pause]
   - a
   - |-
-    [\x0207]Tamer Albert[\x0207]Du bist der,
+    \x02\x07Tamer Albert\x02\x07Du bist der,
     der die A.o.A
-    besiegt hat![pause][\x0203]Danke! Ich bin
+    besiegt hat![pause]\x02\x03Danke! Ich bin
     dir so dankbar![pause]
   - |-
-    [\x0207]Tamer Albert[\x0207]Jetzt als Menschen
+    \x02\x07Tamer Albert\x02\x07Jetzt als Menschen
     müssen wir käm-
-    pfen.[pause][\x0203]Auf in die
+    pfen.[pause]\x02\x03Auf in die
     erste Runde![pause]
   - |-
-    [\x0207]Tamer Albert[\x0207]Wegen dir habe
+    \x02\x07Tamer Albert\x02\x07Wegen dir habe
     ich keine Zeit
-    zum Spielen.[pause][\x0203]Heh du, los,
+    zum Spielen.[pause]\x02\x03Heh du, los,
     kämpfe jetzt
     mit mir.[pause]
   - |-
-    [\x0207]Tamer Albert[\x0207]Oinkmon zu sein
+    \x02\x07Tamer Albert\x02\x07Oinkmon zu sein
     hat mir nichts
-    ausgemacht![pause][\x0203]Die verlorene
+    ausgemacht![pause]\x02\x03Die verlorene
     Zeit hole ich
     auf![pause]
   - |-
-    [\x0207]Tamer Albert[\x0207]Verloren! Hat
+    \x02\x07Tamer Albert\x02\x07Verloren! Hat
     das Oinkmon doch
     Auswirkungen?[pause]
   - |-
-    [\x0207]Kartenfan Chako[\x0207]Wahre Spieler kön-
-    nen nicht aufhören[pause][\x0203]Nur wahre Spieler
+    \x02\x07Kartenfan Chako\x02\x07Wahre Spieler kön-
+    nen nicht aufhören[pause]\x02\x03Nur wahre Spieler
     können
     weitermachen![pause]
   - a
   - |-
-    [\x0207]Sammlerin Leia[\x0207]Wir haben als
+    \x02\x07Sammlerin Leia\x02\x07Wir haben als
     Oinkmon tat-
     sächlich gespielt![pause]
   - '43'
   - |-
-    [\x0207]Kartenfan Chako[\x0207]Oi, oioink!
+    \x02\x07Kartenfan Chako\x02\x07Oi, oioink!
     Ooin, ooioink![pause]
   - |-
-    [\x0207]Sammlerin Leia[\x0207]Oi, oioink!
+    \x02\x07Sammlerin Leia\x02\x07Oi, oioink!
     Oioin, ooi ooin![pause]
   - |-
-    [\x0207]Tamer Bill[\x0207]Oin, oio 1!
+    \x02\x07Tamer Bill\x02\x07Oin, oio 1!
     Oin 1, oioink![pause]
   - |-
-    [\x0207]Tamer Hillary[\x0207]Oin, oionk!
+    \x02\x07Tamer Hillary\x02\x07Oin, oionk!
     Oink, oioink![pause]
   - |-
-    [\x0207]Tamer Marina[\x0207]Oioion, oink!
+    \x02\x07Tamer Marina\x02\x07Oioion, oink!
     Oioin, oiooinnk![pause]
   - |-
-    [\x0207]Tamer Albert[\x0207]...oin?
+    \x02\x07Tamer Albert\x02\x07...oin?
     Oioink?!
     Oooin, oink![pause]
   - |-
-    [\x0207]Kartenfan Chako[\x0207]Oi, oioink!
+    \x02\x07Kartenfan Chako\x02\x07Oi, oioink!
     Ooin, ooioink![pause]
   - |-
-    [\x0207]Sammlerin Leia[\x0207]Oi, oioink!
+    \x02\x07Sammlerin Leia\x02\x07Oi, oioink!
     Oioin, ooi ooin![pause]
   - |-
-    [\x0207]Tamer Bill[\x0207]Oin, oio 1!
+    \x02\x07Tamer Bill\x02\x07Oin, oio 1!
     Oin 1, oioink![pause]
   - |-
-    [\x0207]Tamer Hillary[\x0207]Oin, oionk!
+    \x02\x07Tamer Hillary\x02\x07Oin, oionk!
     Oink, oioink![pause]
   - |-
-    [\x0207]Tamer Marina[\x0207]Oioion, oink!
+    \x02\x07Tamer Marina\x02\x07Oioion, oink!
     Oioin, oiooinnk![pause]
   - |-
-    [\x0207]Tamer Albert[\x0207]...oin?
+    \x02\x07Tamer Albert\x02\x07...oin?
     Oioink?!
     Oooin, oink![pause]
   - |-
-    [\x0207]Information[\x0207]Ooink, oink,
-    oooink![pause][\x0203]Huch, das habe ich
+    \x02\x07Information\x02\x07Ooink, oink,
+    oooink![pause]\x02\x03Huch, das habe ich
     mir noch nicht
     abgewöhnt![pause]
   - |-
-    [\x0207]Information[\x0207]Ooink, oink
+    \x02\x07Information\x02\x07Ooink, oink
     oooink![pause]
   - |-
-    [\x0207]Information[\x0207]Ooink, oink
+    \x02\x07Information\x02\x07Ooink, oink
     oooink![pause]
   - '43'
   - |-
-    [\x0207]Guide[\x0207]Schön, dass alle
-    wieder da sind![pause][\x0203]Ich will jetzt
+    \x02\x07Guide\x02\x07Schön, dass alle
+    wieder da sind![pause]\x02\x03Ich will jetzt
     zurück in die
     echte Welt![pause]
   - |-
-    [\x0207]Guide[\x0207]Oooink, oink,
+    \x02\x07Guide\x02\x07Oooink, oink,
     Oooinnk![pause]
   - |-
-    [\x0207]Guide[\x0207]Oooink, oink,
+    \x02\x07Guide\x02\x07Oooink, oink,
     Oooinnk![pause]
   - '43'
   - |-
-    [\x0207]Bäckerin Mary[\x0207]Du hast mich
+    \x02\x07Bäckerin Mary\x02\x07Du hast mich
     gerettet.
-    Danke![pause][\x0203]Demnächst back ich
+    Danke![pause]\x02\x03Demnächst back ich
     dir einen Kuchen![pause]
   - |-
-    [\x0207]Bäckerin Mary[\x0207]Ooink, oinoinoi,
+    \x02\x07Bäckerin Mary\x02\x07Ooink, oinoinoi,
     oioin, oinoinoink![pause]
   - |-
-    [\x0207]Bäckerin Mary[\x0207]Ooink, oinoinoi,
+    \x02\x07Bäckerin Mary\x02\x07Ooink, oinoinoi,
     oioin, oinoinoink![pause]
   - '43'
   - |-
-    [\x0207]Kazuo[\x0207]Ist schon OK, zu
+    \x02\x07Kazuo\x02\x07Ist schon OK, zu
     Ramen-Nudeln
-    zu werden![pause][\x0203]Ein tolles Leben
+    zu werden![pause]\x02\x03Ein tolles Leben
     für Ramen-Fans![pause]
   - |-
-    [\x0207]Kazuo[\x0207]Ooin, oink, oink
+    \x02\x07Kazuo\x02\x07Ooin, oink, oink
     ooink, oink,
     oooink![pause]
   - |-
-    [\x0207]Kazuo[\x0207]Ooin, oink, oink
+    \x02\x07Kazuo\x02\x07Ooin, oink, oink
     ooink, oink,
     oooink![pause]
   - '43'
   - |-
-    [\x0207]DO Wache[\x0207]Wir suchen die
+    \x02\x07DO Wache\x02\x07Wir suchen die
     geflohenen
     A.o.A![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Ooink, oink,
+    \x02\x07DO Wache\x02\x07Ooink, oink,
     ooooink![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Du als Tamer
+    \x02\x07DO Wache\x02\x07Du als Tamer
     hast den Haupt-
-    mann besiegt![pause][\x0203]Komm später zum
+    mann besiegt![pause]\x02\x03Komm später zum
     Spielen![pause]
-  - "[\\x0207]DO Wache[\\x0207]Oooink, \noink, oink![pause]"
+  - "\\x02\\x07DO Wache\\x02\\x07Oooink, \noink, oink![pause]"
   - |-
-    [\x0207]DO Wache[\x0207]Ich weiβ nicht,
+    \x02\x07DO Wache\x02\x07Ich weiβ nicht,
     was passiert
-    wäre...[pause][\x0203]Aber jetzt sieht
+    wäre...[pause]\x02\x03Aber jetzt sieht
     es besser aus.[pause]
   - |-
-    [\x0207]DO Wache[\x0207]Oooink, oink,
+    \x02\x07DO Wache\x02\x07Oooink, oink,
     ooinoinoink, oink![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Auch wenn die A.o.A
+    \x02\x07DO Wache\x02\x07Auch wenn die A.o.A
     besiegt sind, der
-    Schaden ist groβ...[pause][\x0203]Unser Kampf endet
+    Schaden ist groβ...[pause]\x02\x03Unser Kampf endet
     erst, wenn alles
     wieder normal ist.[pause]
   - |-
-    [\x0207]DO Wache[\x0207]Ooink?
+    \x02\x07DO Wache\x02\x07Ooink?
     Ooink, oink![pause]
   - '43'
   - '43'
   - |-
-    [\x0207]Digimon-Navig.[\x0207]Oooiooioi, oink!
+    \x02\x07Digimon-Navig.\x02\x07Oooiooioi, oink!
     Oioioin,
     oooooooo![pause]
   - |-
-    [\x0207]Digitations-Navi.[\x0207]Oin, oioink!
+    \x02\x07Digitations-Navi.\x02\x07Oin, oioink!
     Oioioin, oink![pause]
   - |-
-    [\x0207]Dr. Osomatsu[\x0207]Ich bin Dr. Oso-
+    \x02\x07Dr. Osomatsu\x02\x07Ich bin Dr. Oso-
     matsu, Präsident
-    des Labors![pause][\x0203]Ich war auf dem
+    des Labors![pause]\x02\x03Ich war auf dem
     Klo, und jetzt
     sieh dir das an![pause]
   - |-
-    [\x0207]Dr. Osomatsu[\x0207]Ich bin Dr. Oso-
+    \x02\x07Dr. Osomatsu\x02\x07Ich bin Dr. Oso-
     matsu, Präsident
-    des Labors![pause][\x0203]Nur gut, dass alle
+    des Labors![pause]\x02\x03Nur gut, dass alle
     wieder normal
     sind![pause]
   - |-
-    [\x0207]Digimon-Navig.[\x0207]Alle Forscher sind
+    \x02\x07Digimon-Navig.\x02\x07Alle Forscher sind
     froh, Oinkmon ge-
-    worden zu sein.[pause][\x0203]Sie sind ja so
+    worden zu sein.[pause]\x02\x03Sie sind ja so
     dumm...[pause]
   - |-
-    [\x0207]Digitations-Navi.[\x0207]Jetzt weiβ ich, wie
-    sich Digimon fühlen![pause][\x0203]Ich werde noch
+    \x02\x07Digitations-Navi.\x02\x07Jetzt weiβ ich, wie
+    sich Digimon fühlen![pause]\x02\x03Ich werde noch
     länger forschen![pause]
   - |-
-    [\x0207]Digimon-Navig.[\x0207]Oooiooioi, oink!
+    \x02\x07Digimon-Navig.\x02\x07Oooiooioi, oink!
     Oioioin,
     oooooooo![pause]
   - |-
-    [\x0207]Digitations-Navi.[\x0207]Oin, oioink!
+    \x02\x07Digitations-Navi.\x02\x07Oin, oioink!
     Oioioin, oink![pause]
   - |-
-    [\x0207]Dr. Osomatsu[\x0207]Oi, oiooink!
+    \x02\x07Dr. Osomatsu\x02\x07Oi, oiooink!
     Oin, oioioin![pause]
   - '43'
   - '43'
   - '43'
   - '43'
   - |-
-    [\x0207]Account-Anm.[\x0207]Oink,
+    \x02\x07Account-Anm.\x02\x07Oink,
     ooin, oioinoink![pause]
   - |-
-    [\x0207]Account-Anm.[\x0207]Gerettet![pause][\x0203]Jetzt muss nur
+    \x02\x07Account-Anm.\x02\x07Gerettet![pause]\x02\x03Jetzt muss nur
     die Matrix-Kammer
     funktionieren.[pause]
   - |-
-    [\x0207]Account-Anm.[\x0207]Oink,
+    \x02\x07Account-Anm.\x02\x07Oink,
     oink, oinik![pause]
   - '43'
   - |-
-    [\x0207]Opa Mickey[\x0207]Oink!
+    \x02\x07Opa Mickey\x02\x07Oink!
     Oioink, oink![pause]
   - |-
-    [\x0207]Opa Mickey[\x0207]So was, dass ich
+    \x02\x07Opa Mickey\x02\x07So was, dass ich
     zu einem Oinkmon
-    wurde.[pause][\x0203]Hoffentlich ist
+    wurde.[pause]\x02\x03Hoffentlich ist
     Opa Donald in
     Ordnung.[pause]
   - |-
-    [\x0207]Opa Mickey[\x0207]Oink!
+    \x02\x07Opa Mickey\x02\x07Oink!
     Oioink, oink![pause]
   - '43'
   - |-
-    [\x0207]Opa Donald[\x0207]Oink,
+    \x02\x07Opa Donald\x02\x07Oink,
     oioioioink,
     oink, oioink![pause]
   - |-
-    [\x0207]Opa Donald[\x0207]In diesem Alter noch
+    \x02\x07Opa Donald\x02\x07In diesem Alter noch
     zu einem Oinkmon zu
-    werden![pause][\x0203]Und als Nächstes?
+    werden![pause]\x02\x03Und als Nächstes?
     Eine Ente vielleicht?
     Ha ha ha.[pause]
   - |-
-    [\x0207]Opa Donald[\x0207]Oink,
+    \x02\x07Opa Donald\x02\x07Oink,
     oioioioink,
     oink, oioink![pause]
   - '43'
   - '43'
   - '43'
   - |-
-    [\x0207]Mr. Wedge[\x0207]Ooink?!
+    \x02\x07Mr. Wedge\x02\x07Ooink?!
     Ooin, oinoink![pause]
   - |-
-    [\x0207]Mr. Wedge[\x0207]So fühlt man
+    \x02\x07Mr. Wedge\x02\x07So fühlt man
     sich, wieder
-    zu leben![pause][\x0203]Ob meine Ange-
+    zu leben![pause]\x02\x03Ob meine Ange-
     stellten auch
     gearbeitet haben?[pause]
   - |-
-    [\x0207]Mr. Wedge[\x0207]Ooink?!
+    \x02\x07Mr. Wedge\x02\x07Ooink?!
     Ooin, oinoink![pause]
   - '43'
   - |-
-    [\x0207]Mode-Barbie[\x0207]Oink,
+    \x02\x07Mode-Barbie\x02\x07Oink,
     oioink, oink, oink[pause]
   - |-
-    [\x0207]Mode-Barbie[\x0207]Oh ja! Ich entwer-
-    fe neue Mode...[pause][\x0203]Oink-Mode!
+    \x02\x07Mode-Barbie\x02\x07Oh ja! Ich entwer-
+    fe neue Mode...[pause]\x02\x03Oink-Mode!
     Das wird der Hit![pause]
   - |-
-    [\x0207]Mode-Barbie[\x0207]Oink,
+    \x02\x07Mode-Barbie\x02\x07Oink,
     oioink, oink, oink[pause]
   - '43'
   - |-
-    [\x0207]Käufer Asami[\x0207]Ooink,
+    \x02\x07Käufer Asami\x02\x07Ooink,
     oink, oink![pause]
   - |-
-    [\x0207]Käufer Asami[\x0207]Ich bin total
-    gestresst![pause][\x0203]Ich kaufe jetzt bis
+    \x02\x07Käufer Asami\x02\x07Ich bin total
+    gestresst![pause]\x02\x03Ich kaufe jetzt bis
     zum Umfallen![pause]
   - |-
-    [\x0207]Käufer Asami[\x0207]Ooink,
+    \x02\x07Käufer Asami\x02\x07Ooink,
     oink, oink![pause]
   - |-
-    [\x0207]Waffenfan Wayne[\x0207]Das ist toll!
+    \x02\x07Waffenfan Wayne\x02\x07Das ist toll!
     Die besten Waffen
     überhaupt![pause]
   - |-
-    [\x0207]Oma Catherine[\x0207]Wirklich...[pause][\x0203]Ich will nicht
+    \x02\x07Oma Catherine\x02\x07Wirklich...[pause]\x02\x03Ich will nicht
     wieder ein
     Oinkmon werden![pause]
   - '43'
   - '43'
   - |-
-    [\x0207]Master Paul[\x0207]Ooink, oin,
+    \x02\x07Master Paul\x02\x07Ooink, oin,
     ooooink![pause]
   - |-
-    [\x0207]Master Paul[\x0207]Ich habe mit John
+    \x02\x07Master Paul\x02\x07Ich habe mit John
     gestritten und ihn
-    nicht mehr gesehen.[pause][\x0203]Als ich zum Oink-
+    nicht mehr gesehen.[pause]\x02\x03Als ich zum Oink-
     mon wurde, fiel es
-    mir ein...[pause][\x0203]Vielleicht sollte ich
+    mir ein...[pause]\x02\x03Vielleicht sollte ich
     ihn besuchen...[pause]
   - |-
-    [\x0207]Master Paul[\x0207]Ooink, oin,
+    \x02\x07Master Paul\x02\x07Ooink, oin,
     ooooink![pause]
   - '43'
   - |-
-    [\x0207]Kellnerin Linda[\x0207]Ooioi,
+    \x02\x07Kellnerin Linda\x02\x07Ooioi,
     ooink,
     oooinkoink![pause]
   - |-
-    [\x0207]Kellnerin Linda[\x0207]Oinkmon zu sein
+    \x02\x07Kellnerin Linda\x02\x07Oinkmon zu sein
     ist einfach
-    furchtbar![pause][\x0203]Ich hab' wohl
+    furchtbar![pause]\x02\x03Ich hab' wohl
     zugenommen![pause]
   - |-
-    [\x0207]Kellnerin Linda[\x0207]Ooioi,
+    \x02\x07Kellnerin Linda\x02\x07Ooioi,
     ooink,
     oooinkoink![pause]
   - '43'
   - |-
-    [\x0207]Ms.Bridget[\x0207]Oiink,
+    \x02\x07Ms.Bridget\x02\x07Oiink,
     ooooinnnk,
     ooinkkk![pause]
   - |-
-    [\x0207]Ms.Bridget[\x0207]Heute lasse ich's
-    langsam angehen![pause][\x0203]Ich werde etwas
+    \x02\x07Ms.Bridget\x02\x07Heute lasse ich's
+    langsam angehen![pause]\x02\x03Ich werde etwas
     Spaβ haben![pause]
   - |-
-    [\x0207]Ms.Bridget[\x0207]Oiink,
+    \x02\x07Ms.Bridget\x02\x07Oiink,
     ooooinnnk,
     ooinkkk![pause]
   - '43'
   - |-
-    [\x0207]Durst-Bacchus[\x0207]Ooooooink,
+    \x02\x07Durst-Bacchus\x02\x07Ooooooink,
     ooooooink...[pause]
   - |-
-    [\x0207]Durst-Bacchus[\x0207]Mensch, ich bin
+    \x02\x07Durst-Bacchus\x02\x07Mensch, ich bin
     ausgetrocknet![pause]
   - |-
-    [\x0207]Durst-Bacchus[\x0207]Ooooooink,
+    \x02\x07Durst-Bacchus\x02\x07Ooooooink,
     ooooooink...[pause]
   - |-
-    [\x0207]Bacchus Frau[\x0207]Ooink, oink,
+    \x02\x07Bacchus Frau\x02\x07Ooink, oink,
     ooinnk![pause]
   - |-
-    [\x0207]Bacchus Frau[\x0207]Er ist nicht normal
-    sieh ihn an.[pause][\x0203]Ob sie ihn wieder
+    \x02\x07Bacchus Frau\x02\x07Er ist nicht normal
+    sieh ihn an.[pause]\x02\x03Ob sie ihn wieder
     in Oinkmon ver-
     wandeln können?[pause]
   - |-
-    [\x0207]Durst-Bacchus[\x0207]Ooooooink,
+    \x02\x07Durst-Bacchus\x02\x07Ooooooink,
     ooooooink...[pause]
   - '43'
   - '43'
   - |-
-    [\x0207]Irrer Masaki[\x0207]Oonik,
+    \x02\x07Irrer Masaki\x02\x07Oonik,
     oooink, oink![pause]
   - |-
-    [\x0207]Irrer Masaki[\x0207]Das war ein-
-    fach falsch.[pause][\x0203]Und es gibt
+    \x02\x07Irrer Masaki\x02\x07Das war ein-
+    fach falsch.[pause]\x02\x03Und es gibt
     keine Auktion![pause]
   - |-
-    [\x0207]Irrer Masaki[\x0207]Oonik,
+    \x02\x07Irrer Masaki\x02\x07Oonik,
     oooink, oink![pause]
   - |-
-    [\x0207]Ehrliche Maria[\x0207]Oik, oioink!
+    \x02\x07Ehrliche Maria\x02\x07Oik, oioink!
     Ooooin,
     oioink![pause]
   - |-
-    [\x0207]Ehrliche Maria[\x0207]Hast du Waffen von
-    Armor-Digimon?[pause][\x0203]Ich war ein Oinkmon,
+    \x02\x07Ehrliche Maria\x02\x07Hast du Waffen von
+    Armor-Digimon?[pause]\x02\x03Ich war ein Oinkmon,
     ich konnte nicht![pause]
   - |-
-    [\x0207]Ehrliche Maria[\x0207]Oik, oioink!
+    \x02\x07Ehrliche Maria\x02\x07Oik, oioink!
     Ooooin,
     oioink![pause]
   - '43'
   - |-
-    [\x0207]Schüler Takeshi[\x0207]Oooin, oink!
+    \x02\x07Schüler Takeshi\x02\x07Oooin, oink!
     Oion,
     ooin, ooink![pause]
   - |-
-    [\x0207]Schüler Takeschi[\x0207]Hast du alle Boss-
+    \x02\x07Schüler Takeschi\x02\x07Hast du alle Boss-
     Digimon von Ama-
-    terasu besiegt?[pause][\x0203]Die haben tolle Sach-
+    terasu besiegt?[pause]\x02\x03Die haben tolle Sach-
     en, such nach ihnen![pause]
   - |-
-    [\x0207]Schüler Takeshi[\x0207]Oooin, oink!
+    \x02\x07Schüler Takeshi\x02\x07Oooin, oink!
     Oion,
     ooin, ooink![pause]
   - '43'
   - |-
-    [\x0207]Ringfan Diana[\x0207]Ooin, oin!
+    \x02\x07Ringfan Diana\x02\x07Ooin, oin!
     Oioionk, oink![pause]
   - |-
-    [\x0207]Ringfan Diana[\x0207]Ich will nie wieder
-    Oinkmon sein![pause][\x0203]Da kann man keine
+    \x02\x07Ringfan Diana\x02\x07Ich will nie wieder
+    Oinkmon sein![pause]\x02\x03Da kann man keine
     Ringe tragen.[pause]
   - |-
-    [\x0207]Ringfan Diana[\x0207]Ooin, oin!
+    \x02\x07Ringfan Diana\x02\x07Ooin, oin!
     Oioionk, oink![pause]
   - |-
-    [\x0207]Oma Daisy[\x0207]Oioink,
+    \x02\x07Oma Daisy\x02\x07Oioink,
     oooin,
     oin, oinkk![pause]
   - |-
-    [\x0207]Oma Daisy[\x0207]Menschen in Digimon
-    verwandeln...[pause][\x0203]Schau, was die
+    \x02\x07Oma Daisy\x02\x07Menschen in Digimon
+    verwandeln...[pause]\x02\x03Schau, was die
     A.o.A sich aus-
     gedacht haben...[pause]
   - |-
-    [\x0207]Oma Daisy[\x0207]Oioink,
+    \x02\x07Oma Daisy\x02\x07Oioink,
     oooin,
     oin, oinkk![pause]
   - |-
-    [\x0207]Itemfan Sam[\x0207]Ooi, oioink!
+    \x02\x07Itemfan Sam\x02\x07Ooi, oioink!
     Ooin, oink![pause]
   - |-
-    [\x0207]Itemfan Sam[\x0207]Warst du in diesem
-    Trödelladen?[pause][\x0203]Da passiert was
+    \x02\x07Itemfan Sam\x02\x07Warst du in diesem
+    Trödelladen?[pause]\x02\x03Da passiert was
     Tolles![pause]
   - |-
-    [\x0207]Itemfan Sam[\x0207]Ooi, oioink!
+    \x02\x07Itemfan Sam\x02\x07Ooi, oioink!
     Ooin, oink![pause]
   - '43'
   - '43'
   - '43'
   - |-
-    [\x0207]Keith[\x0207]Im Moment gibt es
-    keine Probleme![pause][\x0203]Wenn wir zurück zum
+    \x02\x07Keith\x02\x07Im Moment gibt es
+    keine Probleme![pause]\x02\x03Wenn wir zurück zum
     Admin-Center kommen,
     ist das perfekt![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Du bist der,
+    \x02\x07DO Wache\x02\x07Du bist der,
     der die A.o.A
-    besiegt hat![pause][\x0203]Ich ernenne dich
+    besiegt hat![pause]\x02\x03Ich ernenne dich
     zur Ehrenwache.[pause]
   - |-
-    [\x0207]DO Wache[\x0207]Ooink, oink,
+    \x02\x07DO Wache\x02\x07Ooink, oink,
     oooink, oooinik![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Die Sicherheit wird
-    erhöht![pause][\x0203]Das passiert nicht
+    \x02\x07DO Wache\x02\x07Die Sicherheit wird
+    erhöht![pause]\x02\x03Das passiert nicht
     noch einmal.[pause]
   - |-
-    [\x0207]DO Wache[\x0207]Ooioioink!
+    \x02\x07DO Wache\x02\x07Ooioioink!
     Ooioink, oink![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Dank dir ist dieser
+    \x02\x07DO Wache\x02\x07Dank dir ist dieser
     Server gerettet![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Keine Ahnung, was
+    \x02\x07DO Wache\x02\x07Keine Ahnung, was
     passiert wäre, wären
-    wir gefangen worden.[pause][\x0203]Zum Glück sind wir
+    wir gefangen worden.[pause]\x02\x03Zum Glück sind wir
     gerettet![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Von einem Kind-
-    Tamer gerettet![pause][\x0203]Ist schon
+    \x02\x07DO Wache\x02\x07Von einem Kind-
+    Tamer gerettet![pause]\x02\x03Ist schon
     peinlich...[pause]
   - |-
-    [\x0207]DO Wache[\x0207]Oioioionk,
+    \x02\x07DO Wache\x02\x07Oioioionk,
     oink, oioink![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Oooink, oink!
+    \x02\x07DO Wache\x02\x07Oooink, oink!
     Oink, ooink![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Ooonink, oink,
+    \x02\x07DO Wache\x02\x07Ooonink, oink,
     oi, oinkkk![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Das Admin-Center
+    \x02\x07DO Wache\x02\x07Das Admin-Center
     konnten wegen uns
-    eingenommen werden[pause][\x0203]Jetzt müssen wir
+    eingenommen werden[pause]\x02\x03Jetzt müssen wir
     die Sicherheit
     verschärfen![pause]
   - |-
-    [\x0207]DO Wache[\x0207]S.A.P hilft uns mit
-    der Sicherheit.[pause][\x0203]Lisa ist toll! Auf
+    \x02\x07DO Wache\x02\x07S.A.P hilft uns mit
+    der Sicherheit.[pause]\x02\x03Lisa ist toll! Auf
     sie ist Verlass![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Oioioink!
+    \x02\x07DO Wache\x02\x07Oioioink!
     Oink, oink![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Oooink, oioionik,
+    \x02\x07DO Wache\x02\x07Oooink, oioionik,
     oink![pause]
   - |-
-    [\x0207]BK WarGreymon[\x0207]Ein guter Tamer
+    \x02\x07BK WarGreymon\x02\x07Ein guter Tamer
     übersteht alle
-    Gefahren mit Ruhe![pause][\x0203]Los jetzt...
+    Gefahren mit Ruhe![pause]\x02\x03Los jetzt...
     Besiege die A.o.A![pause]
   - |-
-    [\x0207]BK WarGreymon[\x0207]Auch wenn A.o.A
+    \x02\x07BK WarGreymon\x02\x07Auch wenn A.o.A
     besiegt sind, nicht
-    unvorsichtig werden.[pause][\x0203]Trainiere und werde
+    unvorsichtig werden.[pause]\x02\x03Trainiere und werde
     ein groβer Tamer![pause]
   - |-
-    [\x0207]BK WarGreymon[\x0207]Ein guter Tamer
-    gibt nie auf![pause][\x0203]Also los...
+    \x02\x07BK WarGreymon\x02\x07Ein guter Tamer
+    gibt nie auf![pause]\x02\x03Also los...
     Und rette die Welt![pause]
   - '43'
   - |-
-    [\x0207]DO Wache[\x0207]Alle A.o.A sind
+    \x02\x07DO Wache\x02\x07Alle A.o.A sind
     ins Admin-Center
     gelaufen![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Geschafft!
-    Gewonnen![pause][\x0203]Jetzt wird alles
+    \x02\x07DO Wache\x02\x07Geschafft!
+    Gewonnen![pause]\x02\x03Jetzt wird alles
     wieder normal.[pause]
   - |-
-    [\x0207]DO Wache[\x0207]...oink, oink,
+    \x02\x07DO Wache\x02\x07...oink, oink,
     ooink, oooink![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Die haben wohl
+    \x02\x07DO Wache\x02\x07Die haben wohl
     Angst vor uns
     und sind weg![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Wir haben alle
-    A.o.A gefangen![pause][\x0203]Das ist ihr
+    \x02\x07DO Wache\x02\x07Wir haben alle
+    A.o.A gefangen![pause]\x02\x03Das ist ihr
     Ende![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Ooooooiink!
+    \x02\x07DO Wache\x02\x07Ooooooiink!
     Oioioink, ooink![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Alles klar in
-    der Stadt![pause][\x0203]Jetzt bleibt
+    \x02\x07DO Wache\x02\x07Alles klar in
+    der Stadt![pause]\x02\x03Jetzt bleibt
     nur noch das
     Admin-Center.[pause]
   - |-
-    [\x0207]DO Wache[\x0207]Der Hauptmann ist
+    \x02\x07DO Wache\x02\x07Der Hauptmann ist
     besiegt, aber
-    trotzdem Vorsicht![pause][\x0203]Keine Ahnung, wie
+    trotzdem Vorsicht![pause]\x02\x03Keine Ahnung, wie
     viele von ihnen
     übrig sind![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Ooin, oi, oink.
+    \x02\x07DO Wache\x02\x07Ooin, oi, oink.
     Ooink, ooink![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Obwohl sie alle
+    \x02\x07DO Wache\x02\x07Obwohl sie alle
     Oinkmon sind, sind
-    sie wohl OK.[pause][\x0203]Wir müssen sie
+    sie wohl OK.[pause]\x02\x03Wir müssen sie
     zurückverwandeln.[pause]
   - |-
-    [\x0207]DO Wache[\x0207]Beeindruckend! Du
+    \x02\x07DO Wache\x02\x07Beeindruckend! Du
     hast den Hauptmann
-    besiegt.[pause][\x0203]Überlass den Rest
+    besiegt.[pause]\x02\x03Überlass den Rest
     uns und erhol' dich[pause]
   - |-
-    [\x0207]DO Wache[\x0207]Ooink, oioink
+    \x02\x07DO Wache\x02\x07Ooink, oioink
     Oioink, oink![pause]
   - |-
-    [\x0207]Lügner Jim[\x0207]Ooink!
+    \x02\x07Lügner Jim\x02\x07Ooink!
     Ooink, ooooink![pause]
   - |-
-    [\x0207]Lügner Jim[\x0207]Die A.o.A
-    sind hier![pause][\x0203]Ätsch, rein-
+    \x02\x07Lügner Jim\x02\x07Die A.o.A
+    sind hier![pause]\x02\x03Ätsch, rein-
     gelegt![pause]
   - |-
-    [\x0207]Lügner Jim[\x0207]Ooink!
+    \x02\x07Lügner Jim\x02\x07Ooink!
     Ooink, ooooink![pause]
   - '43'
   - |-
-    [\x0207]Mailfan Saki[\x0207]Ooi, oin, in...
+    \x02\x07Mailfan Saki\x02\x07Ooi, oin, in...
     Oink, oiooink![pause]
   - |-
-    [\x0207]Mailfan Saki[\x0207]Ich hab' viel
-    zu tun![pause][\x0203]Muss allen per Mail
+    \x02\x07Mailfan Saki\x02\x07Ich hab' viel
+    zu tun![pause]\x02\x03Muss allen per Mail
     Bescheid geben![pause]
   - |-
-    [\x0207]Mailfan Saki[\x0207]Ooi, oin, in...
+    \x02\x07Mailfan Saki\x02\x07Ooi, oin, in...
     Oink, oiooink![pause]
   - '43'
   - |-
-    [\x0207]Rosa aus Spanien[\x0207]Ooioioink,
+    \x02\x07Rosa aus Spanien\x02\x07Ooioioink,
     ooink, oin, oink[pause]
   - |-
-    [\x0207]Rosa aus Spanien[\x0207]Ich will nie mehr
-    Oinkmon sein![pause][\x0203]Dann kann ich
+    \x02\x07Rosa aus Spanien\x02\x07Ich will nie mehr
+    Oinkmon sein![pause]\x02\x03Dann kann ich
     keinen Flamenco
     tanzen![pause]
   - |-
-    [\x0207]Rosa aus Spanien[\x0207]Ooioioink,
+    \x02\x07Rosa aus Spanien\x02\x07Ooioioink,
     ooink, oin, oink[pause]
   - |-
-    [\x0207]Opa Sid[\x0207]Ooink, oinoink
+    \x02\x07Opa Sid\x02\x07Ooink, oinoink
     ooink, oink![pause]
   - |-
-    [\x0207]Opa Sid[\x0207]Wir bleiben zusammen,
+    \x02\x07Opa Sid\x02\x07Wir bleiben zusammen,
     auch wenn das das
-    Ende der Welt ist![pause][\x0203]Selbst A.o.A können
+    Ende der Welt ist![pause]\x02\x03Selbst A.o.A können
     das nicht zerstören.[pause]
   - |-
-    [\x0207]Opa Sid[\x0207]Ooink, oinoink
+    \x02\x07Opa Sid\x02\x07Ooink, oinoink
     ooink, oink![pause]
   - |-
-    [\x0207]Oma Nancy[\x0207]Ooink, ooooink,
+    \x02\x07Oma Nancy\x02\x07Ooink, ooooink,
     oinkk, oink![pause]
   - |-
-    [\x0207]Oma Nancy[\x0207]Oh, Opa Sid lieb
-    mich so sehr...[pause][\x0203]So lange er da ist,
+    \x02\x07Oma Nancy\x02\x07Oh, Opa Sid lieb
+    mich so sehr...[pause]\x02\x03So lange er da ist,
     muss ich keine
     Angst haben![pause]
   - |-
-    [\x0207]Opa Nancy[\x0207]Ooink, ooooink,
+    \x02\x07Opa Nancy\x02\x07Ooink, ooooink,
     oinkk, oink![pause]
   - '43'
   - '43'
@@ -703,36 +703,36 @@ strings:
   - '43'
   - '43'
   - |-
-    [\x0207]Vielfraβ[\x0207]Ooink,
+    \x02\x07Vielfraβ\x02\x07Ooink,
     oink, oinnk![pause]
   - |-
-    [\x0207]Vielfraβ[\x0207]Das war
-    furchtbar.[pause][\x0203]Ich werde nie
+    \x02\x07Vielfraβ\x02\x07Das war
+    furchtbar.[pause]\x02\x03Ich werde nie
     wieder Schwein
     essen...[pause]
   - |-
-    [\x0207]Vielfraβ[\x0207]Ooink,
+    \x02\x07Vielfraβ\x02\x07Ooink,
     oink, oinnk![pause]
   - '43'
   - |-
-    [\x0207]Schüler Kenta[\x0207]Oinoink,
+    \x02\x07Schüler Kenta\x02\x07Oinoink,
     ooink![pause]
   - |-
-    [\x0207]Schüler Kenta[\x0207]Ich bin gerettet!
+    \x02\x07Schüler Kenta\x02\x07Ich bin gerettet!
     Ich will nie wieder
     Oinkmon sein![pause]
   - |-
-    [\x0207]Schüler Kenta[\x0207]Oinoink,
+    \x02\x07Schüler Kenta\x02\x07Oinoink,
     ooink![pause]
   - |-
-    [\x0207]Banker Tsuyoshi[\x0207]Ooink?!
+    \x02\x07Banker Tsuyoshi\x02\x07Ooink?!
     Oink, ooink![pause]
   - |-
-    [\x0207]Banker Tsuyoshi[\x0207]Ich will nie wieder
-    Oinkmon sein![pause][\x0203]Ich gebe dir so viel
+    \x02\x07Banker Tsuyoshi\x02\x07Ich will nie wieder
+    Oinkmon sein![pause]\x02\x03Ich gebe dir so viel
     Geld, wie du willst[pause]
   - |-
-    [\x0207]Banker Tsuyoshi[\x0207]Ooink?!
+    \x02\x07Banker Tsuyoshi\x02\x07Ooink?!
     Oink, ooink![pause]
   - '43'
   - '43'
@@ -741,162 +741,162 @@ strings:
   - '43'
   - '43'
   - |-
-    [\x0207]Knightmon[\x0207]Dies ist Amaterasu
+    \x02\x07Knightmon\x02\x07Dies ist Amaterasu
     City, Zentrum des
     Amaterasu-Servers![pause]
   - |-
-    [\x0207]Knightmon[\x0207]Kaum zu glauben,
+    \x02\x07Knightmon\x02\x07Kaum zu glauben,
     du hast den
-    Hauptmann besiegt![pause][\x0203]Woher nimmst du
+    Hauptmann besiegt![pause]\x02\x03Woher nimmst du
     deine Stärke?[pause]
   - |-
-    [\x0207]Knightmon[\x0207]Was bedeutet
-    das?[pause][\x0203]Das verstehe
+    \x02\x07Knightmon\x02\x07Was bedeutet
+    das?[pause]\x02\x03Das verstehe
     ich nicht![pause]
   - |-
-    [\x0207]Knightmon[\x0207]Du darfst nun
+    \x02\x07Knightmon\x02\x07Du darfst nun
     passieren.
     Komm herein![pause]
   - |-
-    [\x0207]Knightmon[\x0207]Die A.o.A sind
-    besiegt![pause][\x0203]Das ist gut!
+    \x02\x07Knightmon\x02\x07Die A.o.A sind
+    besiegt![pause]\x02\x03Das ist gut!
     Wir sind wieder
     frei.[pause]
   - |-
-    [\x0207]Knightmon[\x0207]Die A.o.A sind
+    \x02\x07Knightmon\x02\x07Die A.o.A sind
     noch nicht
-    besiegt...[pause][\x0203]Werden sie uns
+    besiegt...[pause]\x02\x03Werden sie uns
     wieder fangen?[pause]
   - '43'
   - '43'
   - |-
-    [\x0207]Holland-Michel[\x0207]Oioioin, oink,
+    \x02\x07Holland-Michel\x02\x07Oioioin, oink,
     ...oioinoink?![pause]
   - |-
-    [\x0207]Holland-Michel[\x0207]Das war so
-    schrecklich![pause][\x0203]Zum Glück wurden
+    \x02\x07Holland-Michel\x02\x07Das war so
+    schrecklich![pause]\x02\x03Zum Glück wurden
     wir nicht
     gefressen![pause]
   - |-
-    [\x0207]Holland-Michel[\x0207]Oioioin, oink,
+    \x02\x07Holland-Michel\x02\x07Oioioin, oink,
     ...oioinoink?![pause]
   - '43'
   - |-
-    [\x0207]Wache Curt[\x0207]Wir haben die A.o.A
+    \x02\x07Wache Curt\x02\x07Wir haben die A.o.A
     besiegt, aber etwas
-    ist komisch.[pause][\x0203]Hoffentlich passiert
+    ist komisch.[pause]\x02\x03Hoffentlich passiert
     nicht noch was...[pause]
   - |-
-    [\x0207]Wache Curt[\x0207]Oioooink, oink,
+    \x02\x07Wache Curt\x02\x07Oioooink, oink,
     ooiooink, oink![pause]
   - |-
-    [\x0207]Wache Russell[\x0207]Curt macht sich
-    immer Sorgen![pause][\x0203]Sicher ist alles
+    \x02\x07Wache Russell\x02\x07Curt macht sich
+    immer Sorgen![pause]\x02\x03Sicher ist alles
     in Ordnung![pause]
   - |-
-    [\x0207]Operator Akiko[\x0207]Ooinkoink,
+    \x02\x07Operator Akiko\x02\x07Ooinkoink,
     oink, oooionk![pause]
   - |-
-    [\x0207]Operator Akiko[\x0207]Ich wurde
+    \x02\x07Operator Akiko\x02\x07Ich wurde
     tatsächlich zu
-    einem Oinkmon![pause][\x0203]Jetzt wird mich
+    einem Oinkmon![pause]\x02\x03Jetzt wird mich
     keiner heiraten![pause]
   - |-
-    [\x0207]Telfonistin Akiko[\x0207]Ooinkoink,
+    \x02\x07Telfonistin Akiko\x02\x07Ooinkoink,
     oink, oooionk![pause]
   - |-
-    [\x0207]Wache Russell[\x0207]Oink?
+    \x02\x07Wache Russell\x02\x07Oink?
     Oioioioooink,
     oooininnnk![pause]
   - |-
-    [\x0207]Keith[\x0207]Hab' die Maschine zum
-    Zurückverwandeln![pause][\x0203]Es ist aber zu wenig
+    \x02\x07Keith\x02\x07Hab' die Maschine zum
+    Zurückverwandeln![pause]\x02\x03Es ist aber zu wenig
     Energie da, sie funk-
-    tioniert nicht richtig![pause][\x0203]Man! Was machen wir
+    tioniert nicht richtig![pause]\x02\x03Man! Was machen wir
     jetzt bloβ?[pause]
   - |-
-    [\x0207]Karate-Remo[\x0207]Ich besiege die A.o.A!
-    Ai-Jaaa![pause][\x0203]...aua!
+    \x02\x07Karate-Remo\x02\x07Ich besiege die A.o.A!
+    Ai-Jaaa![pause]\x02\x03...aua!
     Hab's wieder mal
     im Rücken![pause]
   - |-
-    [\x0207]Karate-Remo[\x0207]Oink,
+    \x02\x07Karate-Remo\x02\x07Oink,
     ooink!
     Oioioionk![pause]
   - |-
-    [\x0207]Operator Anne[\x0207]Wir erzeugen Ener-
-    gie mit Windrädern.[pause][\x0203]Wenn der Wind stark
+    \x02\x07Operator Anne\x02\x07Wir erzeugen Ener-
+    gie mit Windrädern.[pause]\x02\x03Wenn der Wind stark
     ist, sollte es
     funktionieren...[pause]
   - |-
-    [\x0207]Operator Anne[\x0207]Oooooink!
+    \x02\x07Operator Anne\x02\x07Oooooink!
     Oioionk, ooink![pause]
   - '43'
   - '43'
   - |-
-    [\x0207]Airdramon[\x0207]Zzzzzzz
+    \x02\x07Airdramon\x02\x07Zzzzzzz
     Zzzzzzzz[pause]
   - |-
-    [\x0207]Airdramon[\x0207]Zzzzzzz
+    \x02\x07Airdramon\x02\x07Zzzzzzz
     Zzzzzzzz[pause]
   - |-
-    [\x0207]Qing Long Chief[\x0207]Du bist einer
+    \x02\x07Qing Long Chief\x02\x07Du bist einer
     von uns. Gut
     gemacht...[pause]
   - |-
-    [\x0207]Opa Shige[\x0207]Oooinik,
+    \x02\x07Opa Shige\x02\x07Oooinik,
     oinkoink!
     Oooink, oooink![pause]
   - |-
-    [\x0207]Opa Shige[\x0207]Ich hab's gesehen!
+    \x02\x07Opa Shige\x02\x07Ich hab's gesehen!
     Airdramon hat den
-    Wind gemacht![pause][\x0203]Den tollen Anblick
+    Wind gemacht![pause]\x02\x03Den tollen Anblick
     vergesse ich nie![pause]
   - |-
-    [\x0207]Opa Shige[\x0207]Oooinik,
+    \x02\x07Opa Shige\x02\x07Oooinik,
     oinkoink!
     Oooink, oooink![pause]
   - |-
-    [\x0207]Rapper Will[\x0207]Oooink,
-    ooi, ooioionk.[pause][\x0203]Oioioink, ooink,
+    \x02\x07Rapper Will\x02\x07Oooink,
+    ooi, ooioionk.[pause]\x02\x03Oioioink, ooink,
     oioioinkoink.[pause]
   - |-
-    [\x0207]Rapper Will[\x0207]Yo, yo, alle
+    \x02\x07Rapper Will\x02\x07Yo, yo, alle
     sind wieder
-    normal.[pause][\x0203]Airdramon hat sie
+    normal.[pause]\x02\x03Airdramon hat sie
     zurückgebracht.
     YEAH![pause]
   - |-
-    [\x0207]Rapper Will[\x0207]Oooink,
-    ooi, ooioionk.[pause][\x0203]Oioioink, ooink,
+    \x02\x07Rapper Will\x02\x07Oooink,
+    ooi, ooioionk.[pause]\x02\x03Oioioink, ooink,
     oioioinkoink.[pause]
   - |-
-    [\x0207]Verlorene Mayumi[\x0207]Oooink, oink!
+    \x02\x07Verlorene Mayumi\x02\x07Oooink, oink!
     Ooink, ooooink![pause]
   - |-
-    [\x0207]Verlorene Mayumi[\x0207]Wo bin ich? Das
+    \x02\x07Verlorene Mayumi\x02\x07Wo bin ich? Das
     ist nicht Xuen
-    Wu City?[pause][\x0203]Was?! Ich bin
+    Wu City?[pause]\x02\x03Was?! Ich bin
     bis hier als
     Oinkmon gekommen?[pause]
   - |-
-    [\x0207]Verlorene Mayumi[\x0207]Oooink, oink!
+    \x02\x07Verlorene Mayumi\x02\x07Oooink, oink!
     Ooink, ooooink![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Du bist der Tamer
+    \x02\x07DO Wache\x02\x07Du bist der Tamer
     der den Hauptmann
-    besiegt hat![pause][\x0203]Komm herein und
+    besiegt hat![pause]\x02\x03Komm herein und
     ruh' dich aus![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Oink, oioioink,
+    \x02\x07DO Wache\x02\x07Oink, oioioink,
     oooink, oooink![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Bei diesem fried-
-    lichen Anblick...[pause][\x0203]...erscheint der
+    \x02\x07DO Wache\x02\x07Bei diesem fried-
+    lichen Anblick...[pause]\x02\x03...erscheint der
     Ärger mit A.o.A
     wie ein Traum.[pause]
   - |-
-    [\x0207]DO Wache[\x0207]Oooink, oink.
+    \x02\x07DO Wache\x02\x07Oooink, oink.
     Oooin, ooink...[pause]
   - '43'
   - '43'
@@ -904,76 +904,76 @@ strings:
   - '43'
   - '43'
   - |-
-    [\x0207]Keith[\x0207]Das war toll!
+    \x02\x07Keith\x02\x07Das war toll!
     Airdramon war
-    hier![pause][\x0203]Er hat das Wind-
+    hier![pause]\x02\x03Er hat das Wind-
     rad gedreht...
-    Und ab die Post![pause][\x0203]Wenn wir jetzt
+    Und ab die Post![pause]\x02\x03Wenn wir jetzt
     zurück können, ist
     das das Happy End![pause]
   - |-
-    [\x0207]Mr. Suzuki[\x0207]Oooin, oiiiink,
+    \x02\x07Mr. Suzuki\x02\x07Oooin, oiiiink,
     oioioink,
     oooink![pause]
   - |-
-    [\x0207]Mr. Suzuki[\x0207]Ist Miss Olivia
-    nicht hier?[pause][\x0203]Erst kann ich sie
+    \x02\x07Mr. Suzuki\x02\x07Ist Miss Olivia
+    nicht hier?[pause]\x02\x03Erst kann ich sie
     nicht finden, dann
-    werde ich Oinkmon...[pause][\x0203]Ich hasse meinen Job![pause]
+    werde ich Oinkmon...[pause]\x02\x03Ich hasse meinen Job![pause]
   - |-
-    [\x0207]Mr. Suzuki[\x0207]Oooin, oiiiink,
+    \x02\x07Mr. Suzuki\x02\x07Oooin, oiiiink,
     oioioink,
     oooink![pause]
   - |-
-    [\x0207]Spielzeugfan Ami[\x0207]Ooooi, oink.
+    \x02\x07Spielzeugfan Ami\x02\x07Ooooi, oink.
     Oiiooink, oooink.[pause]
   - |-
-    [\x0207]Spielzeugfan Ami[\x0207]Haben die hier Oink-
-    mon-Spielzeug?[pause][\x0203]Ich kaufe eins als
+    \x02\x07Spielzeugfan Ami\x02\x07Haben die hier Oink-
+    mon-Spielzeug?[pause]\x02\x03Ich kaufe eins als
     Souvenir.[pause]
   - |-
-    [\x0207]Spielzeugfan Ami[\x0207]Ooooi, oink.
+    \x02\x07Spielzeugfan Ami\x02\x07Ooooi, oink.
     Oiiooink, oooink.[pause]
   - |-
-    [\x0207]Zhu Que Chief[\x0207]...häh?
+    \x02\x07Zhu Que Chief\x02\x07...häh?
     Wer bist du?[pause]
   - |-
-    [\x0207]Nette Claudia[\x0207]Oioionk.
+    \x02\x07Nette Claudia\x02\x07Oioionk.
     Oink, oiooink.
     Oooin...[pause]
   - |-
-    [\x0207]Nette Claudia[\x0207]Opa Lear steht
-    da so rum![pause][\x0203]Mir war langweilig,
+    \x02\x07Nette Claudia\x02\x07Opa Lear steht
+    da so rum![pause]\x02\x03Mir war langweilig,
     darum bin ich zum
     Spielen hergekommen.[pause]
   - |-
-    [\x0207]Nette Claudia[\x0207]Oioionk.
+    \x02\x07Nette Claudia\x02\x07Oioionk.
     Oink, oiooink.
     Oooin...[pause]
   - |-
-    [\x0207]Opa Lear[\x0207]Oooink!
+    \x02\x07Opa Lear\x02\x07Oooink!
     Oooinoin, oink![pause]
   - |-
-    [\x0207]Opa Lear[\x0207]Das ist gut,
-    sehr gut![pause][\x0203]Ich mag das
-    Mädchen links.[pause][\x0203]Welches magst
+    \x02\x07Opa Lear\x02\x07Das ist gut,
+    sehr gut![pause]\x02\x03Ich mag das
+    Mädchen links.[pause]\x02\x03Welches magst
     Du?
     Ha ha ha![pause]
   - |-
-    [\x0207]Opa Lear[\x0207]Oooink!
+    \x02\x07Opa Lear\x02\x07Oooink!
     Oooinoin, oink![pause]
   - |-
-    [\x0207]Autor William[\x0207]Ooink!
+    \x02\x07Autor William\x02\x07Ooink!
     Oioinoink oink
     oooink, oink?[pause]
   - |-
-    [\x0207]Autor William[\x0207]Ich hatte gerade
-    eine tolle Idee...[pause][\x0203]Tragische Liebe
+    \x02\x07Autor William\x02\x07Ich hatte gerade
+    eine tolle Idee...[pause]\x02\x03Tragische Liebe
     zwischen Oinkmon
-    und Floramon.[pause][\x0203]Ich nenne Sie
+    und Floramon.[pause]\x02\x03Ich nenne Sie
     Oinko und Flora![pause]
   - |-
-    [\x0207]Autor William[\x0207]Ooink!
+    \x02\x07Autor William\x02\x07Ooink!
     Oioinoink oink
     oooink, oink?[pause]
   - '43'
@@ -981,51 +981,51 @@ strings:
   - '43'
   - '43'
   - |-
-    [\x0207]Soldat[\x0207]Heh du!
+    \x02\x07Soldat\x02\x07Heh du!
     Wer bist
     du?[pause]
   - |-
-    [\x0207]Soldat[\x0207]Ach, nur ein
+    \x02\x07Soldat\x02\x07Ach, nur ein
     Kind. Hau
     ab![pause]
   - |-
-    [\x0207]Soldat[\x0207]Du bist
-    verdächtig.[pause][\x0203]Kämpfe mit
+    \x02\x07Soldat\x02\x07Du bist
+    verdächtig.[pause]\x02\x03Kämpfe mit
     Karten zum
     Erkennen.[pause]
   - |-
-    [\x0207]Soldat[\x0207]Du bist
-    verdächtig.[pause][\x0203]Kämpfe mit
+    \x02\x07Soldat\x02\x07Du bist
+    verdächtig.[pause]\x02\x03Kämpfe mit
     Digimon zum
     Erkennen.[pause]
   - |-
-    [\x0207]Soldat[\x0207]Ach, du bist
+    \x02\x07Soldat\x02\x07Ach, du bist
     das wieder?
     Hau bloβ ab![pause]
   - |-
-    [\x0207]Soldat[\x0207]Ha ha ha!
+    \x02\x07Soldat\x02\x07Ha ha ha!
     Gewonnen!
     Nimm das![pause]
   - |-
-    [\x0207]Soldat[\x0207]Verloren...
+    \x02\x07Soldat\x02\x07Verloren...
     Ich lass' dich gehen
     geh' schon...[pause]
   - |-
-    [\x0207]Soldat[\x0207]Geh' aus dem Weg!
+    \x02\x07Soldat\x02\x07Geh' aus dem Weg!
     Ich hab' jetzt
     keine Zeit![pause]
   - |-
-    [\x0207]Soldat[\x0207]Wo gehst
+    \x02\x07Soldat\x02\x07Wo gehst
     du hin?![pause]
   - |-
-    [\x0207]Soldat[\x0207]Du bist der
+    \x02\x07Soldat\x02\x07Du bist der
     Tamer! Sei bereit![pause]
   - |-
-    [\x0207]Soldat[\x0207]...Ich hatte
+    \x02\x07Soldat\x02\x07...Ich hatte
     wohl Unrecht.
     Geh' weg![pause]
   - |-
-    [\x0207]Soldat[\x0207]Du bist der
+    \x02\x07Soldat\x02\x07Du bist der
     Duellant! Sei bereit![pause]
   - a
   - a
@@ -1049,43 +1049,43 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Marco[\x0207]Oiooioioionk!
+    \x02\x07Marco\x02\x07Oiooioioionk!
     Ooink, oiion.[pause]
   - |-
-    [\x0207]Marco[\x0207]Oiooioioionk!
+    \x02\x07Marco\x02\x07Oiooioioionk!
     Ooink, oiion.[pause]
   - |-
-    [\x0207]Marco[\x0207]Ich dache, ich werde
-    vielleicht gefressen![pause][\x0203]Ich wäre lieber Garu-
+    \x02\x07Marco\x02\x07Ich dache, ich werde
+    vielleicht gefressen![pause]\x02\x03Ich wäre lieber Garu-
     rumon gewesen![pause]
   - |-
-    [\x0207]Schül. Helena[\x0207]Ooink, oink,
+    \x02\x07Schül. Helena\x02\x07Ooink, oink,
     ooink, oooink![pause]
   - |-
-    [\x0207]Schü. Helena[\x0207]Ooink, oink,
+    \x02\x07Schü. Helena\x02\x07Ooink, oink,
     ooink, oooink![pause]
   - |-
-    [\x0207]Lehrer Sullivan[\x0207]Oooin, oink!
+    \x02\x07Lehrer Sullivan\x02\x07Oooin, oink!
     Ooooink,
     ooooink![pause]
   - |-
-    [\x0207]Lehrer Sullivan[\x0207]Oooin, oink!
+    \x02\x07Lehrer Sullivan\x02\x07Oooin, oink!
     Ooooink,
     ooooink![pause]
   - |-
-    [\x0207]Lehrer Sullivan[\x0207]Gut, ich bin
-    wieder normal.[pause][\x0203]Und die ande-
+    \x02\x07Lehrer Sullivan\x02\x07Gut, ich bin
+    wieder normal.[pause]\x02\x03Und die ande-
     ren? Sind sie
     OK?[pause]
   - |-
-    [\x0207]Schül. Helena[\x0207]Ooink, oink,
-    ooink, oooink![pause][\x0203]Ich habe die Oinkmon-
-    Sprache gelernt![pause][\x0203]Jetzt kann ich mit
+    \x02\x07Schül. Helena\x02\x07Ooink, oink,
+    ooink, oooink![pause]\x02\x03Ich habe die Oinkmon-
+    Sprache gelernt![pause]\x02\x03Jetzt kann ich mit
     Porky, dem Schwein
     nebenan, reden.[pause]
   - |-
-    [\x0207]Bai Hu Chief[\x0207]...Hmm?!
-    Wer bist du...?[pause][\x0203]Ich bin gerade
+    \x02\x07Bai Hu Chief\x02\x07...Hmm?!
+    Wer bist du...?[pause]\x02\x03Ich bin gerade
     beschäftigt![pause]
   - '43'
   - '43'
@@ -1093,161 +1093,161 @@ strings:
   - '43'
   - '43'
   - |-
-    [\x0207]Opa Hiko[\x0207]Die A.o.A sind
+    \x02\x07Opa Hiko\x02\x07Die A.o.A sind
     plötzlich in die
-    Stadt gekommen.[pause][\x0203]Dann wurden wir
+    Stadt gekommen.[pause]\x02\x03Dann wurden wir
     gefangen.[pause]
   - |-
-    [\x0207]Opa Hiko[\x0207]Was?! Der
+    \x02\x07Opa Hiko\x02\x07Was?! Der
     Widerstand hat sich
-    endlich erhoben?[pause][\x0203]Dann werden wir wohl
+    endlich erhoben?[pause]\x02\x03Dann werden wir wohl
     auch kämpfen.
     Danke![pause]
   - |-
-    [\x0207]Opa Hiko[\x0207]Die A.o.A wurden
-    von dir besiegt![pause][\x0203]Toll! Ich kann dir
+    \x02\x07Opa Hiko\x02\x07Die A.o.A wurden
+    von dir besiegt![pause]\x02\x03Toll! Ich kann dir
     gar nicht sagen,
     wie froh ich bin.[pause]
   - |-
-    [\x0207]Opa Hiko[\x0207]Oooink, oink!
+    \x02\x07Opa Hiko\x02\x07Oooink, oink!
     Ooink, ooink![pause]
   - '43'
   - |-
-    [\x0207]Oma Oly[\x0207]Hier ist es schlecht.
+    \x02\x07Oma Oly\x02\x07Hier ist es schlecht.
     Hinten ist alles
-    eingefallen...[pause][\x0203]Es gibt auch keinen
+    eingefallen...[pause]\x02\x03Es gibt auch keinen
     Ausgang. Was nun?[pause]
   - |-
-    [\x0207]Oma Oly[\x0207]Du, geh' auch du
-    kämpfen![pause][\x0203]Sorge dich nicht um
+    \x02\x07Oma Oly\x02\x07Du, geh' auch du
+    kämpfen![pause]\x02\x03Sorge dich nicht um
     uns. Wir sind OK![pause]
   - |-
-    [\x0207]Oma Oly[\x0207]Wir werden bald hier
-    raus sein.[pause][\x0203]Die Leiter ist für uns
-    alte Leute zu steil.[pause][\x0203]Die jungen müssen uns
+    \x02\x07Oma Oly\x02\x07Wir werden bald hier
+    raus sein.[pause]\x02\x03Die Leiter ist für uns
+    alte Leute zu steil.[pause]\x02\x03Die jungen müssen uns
     später helfen.[pause]
   - |-
-    [\x0207]Oma Oly[\x0207]Ooooink, oink!
+    \x02\x07Oma Oly\x02\x07Ooooink, oink!
     Ooioi, oioink![pause]
   - '43'
   - |-
-    [\x0207]DO Wache[\x0207]Die Wache ist zurück![pause][\x0203]Helden verlieren viel-
+    \x02\x07DO Wache\x02\x07Die Wache ist zurück![pause]\x02\x03Helden verlieren viel-
     leicht, geben aber nie
     auf![pause]
-  - "[\\x0207]DO Wache[\\x0207]Schrecklich, dass\nsie Menschen in \nOinkmon verwandeln![pause][\\x0203]Zum Glück haben\nsie nicht die Welt\nerobert![pause]"
+  - "\\x02\\x07DO Wache\\x02\\x07Schrecklich, dass\nsie Menschen in \nOinkmon verwandeln![pause]\\x02\\x03Zum Glück haben\nsie nicht die Welt\nerobert![pause]"
   - |-
-    [\x0207]DO Wache[\x0207]Ich gebe meinen
-    Job als Wache auf![pause][\x0203]Ich wusste nicht,
+    \x02\x07DO Wache\x02\x07Ich gebe meinen
+    Job als Wache auf![pause]\x02\x03Ich wusste nicht,
     dass so etwas
     passieren kann![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Oooin, onk!
+    \x02\x07DO Wache\x02\x07Oooin, onk!
     Ooioionk, oink![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Oooikoink, oink.
+    \x02\x07DO Wache\x02\x07Oooikoink, oink.
     Oioik, oinoinionk[pause]
   - |-
-    [\x0207]DO Wache[\x0207]Oooink, oink!
+    \x02\x07DO Wache\x02\x07Oooink, oink!
     Oioink, onkk![pause]
   - |-
-    [\x0207][\x020902]3Yeah! Hab' ein
+    \x02\x07\x02\x09\x023Yeah! Hab' ein
     Kulon-Schild![pause]
   - |-
-    [\x0207][\x020902]3Yeah! Hab'
+    \x02\x07\x02\x09\x023Yeah! Hab'
     100 BIT![pause]
   - |-
-    [\x0207][\x020902]3Yeah! Hab'
+    \x02\x07\x02\x09\x023Yeah! Hab'
     Hohe Sicherheit![pause]
   - |-
-    [\x0207][\x020902]3Yeah! Hab'
+    \x02\x07\x02\x09\x023Yeah! Hab'
     Ultraladung![pause]
   - |-
-    [\x0207][\x020902]3...häh?
+    \x02\x07\x02\x09\x023...häh?
     Ist leer...[pause]
   - a
   - a
   - a
   - |-
-    [\x0207][\x020902]3Yeah! Hab'
+    \x02\x07\x02\x09\x023Yeah! Hab'
     5000 BIT![pause]
   - |-
-    [\x0207]Opa Butter[\x0207]Du Held hast die
-    A.o.A besiegt![pause][\x0203]Schütze auch den
+    \x02\x07Opa Butter\x02\x07Du Held hast die
+    A.o.A besiegt![pause]\x02\x03Schütze auch den
     Frieden dieses
     Servers![pause]
   - |-
-    [\x0207]Opa Butter[\x0207]Ooink...,
+    \x02\x07Opa Butter\x02\x07Ooink...,
     ooink.
     Oooin oink![pause]
   - |-
-    [\x0207]Shizuka[\x0207]Iiih! Ich fühle mich
-    so schmutzig![pause][\x0203]Ich will nach Hause
+    \x02\x07Shizuka\x02\x07Iiih! Ich fühle mich
+    so schmutzig![pause]\x02\x03Ich will nach Hause
     und ein Bad nehmen![pause]
   - |-
-    [\x0207]Shizuka[\x0207]Ooioioink, oink!
+    \x02\x07Shizuka\x02\x07Ooioioink, oink!
     Oiooink,
     ooooink![pause]
   - '43'
   - |-
-    [\x0207]DO Wache[\x0207]Willkommen in
-    Xuen Wu City![pause][\x0203]Hey, hab' ich
+    \x02\x07DO Wache\x02\x07Willkommen in
+    Xuen Wu City![pause]\x02\x03Hey, hab' ich
     schon lange nicht
     mehr gesagt![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Ooink, oink!
+    \x02\x07DO Wache\x02\x07Ooink, oink!
     Oionoink, oinkkk![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Es war frustrierend,
+    \x02\x07DO Wache\x02\x07Es war frustrierend,
     nichts tun zu
-    können.[pause][\x0203]Danke, du hast
+    können.[pause]\x02\x03Danke, du hast
     alle gerettet![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Oioiooink!
+    \x02\x07DO Wache\x02\x07Oioiooink!
     Oioin, oininok![pause]
   - |-
-    [\x0207]Soldat[\x0207]Ich hasse meinen
+    \x02\x07Soldat\x02\x07Ich hasse meinen
     Job! Er ist blöd![pause]
   - |-
-    [\x0207]Soldat[\x0207]Ach, das
+    \x02\x07Soldat\x02\x07Ach, das
     nur ein
     Kind! Blöd![pause]
   - |-
-    [\x0207]Soldat[\x0207]Hey, Lust
+    \x02\x07Soldat\x02\x07Hey, Lust
     auf Kampf
     mit Karten?[pause]
   - |-
-    [\x0207]Soldat[\x0207]Hey, Lust
+    \x02\x07Soldat\x02\x07Hey, Lust
     auf Kampf
     mit Digimon?[pause]
   - |-
-    [\x0207]Soldat[\x0207]Ach, du
+    \x02\x07Soldat\x02\x07Ach, du
     schon wieder
     Wie blöd![pause]
   - |-
-    [\x0207]Soldat[\x0207]Heh heh heh!
+    \x02\x07Soldat\x02\x07Heh heh heh!
     Gewonnen!
     Macht Spaβ![pause]
   - |-
-    [\x0207]Soldat[\x0207]Verloren...
+    \x02\x07Soldat\x02\x07Verloren...
     Läuft nicht grad
     gut für mich.[pause]
   - |-
-    [\x0207]Soldat[\x0207]Hey, aus dem
+    \x02\x07Soldat\x02\x07Hey, aus dem
     Weg da! Ich habe
     keine Zeit für dich![pause]
   - |-
-    [\x0207]Soldat[\x0207]Für's Spielen
+    \x02\x07Soldat\x02\x07Für's Spielen
     bin ich dran![pause]
   - |-
-    [\x0207]Soldat[\x0207]Ah, du bist der
+    \x02\x07Soldat\x02\x07Ah, du bist der
     Tamer! Lass' uns
     kämpfen![pause]
   - |-
-    [\x0207]Soldat[\x0207]Ach, ein Kind!
+    \x02\x07Soldat\x02\x07Ach, ein Kind!
     Erschreck mich
     nicht![pause]
   - |-
-    [\x0207]Soldat[\x0207]Ach, du bist
+    \x02\x07Soldat\x02\x07Ach, du bist
     dieses Kind!
     Lass uns kämpfen![pause]
   - a
@@ -1272,455 +1272,455 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Tamer Bill[\x0207]Hoffentlich ist
-    Steve in Asuka OK[pause][\x0203]Ohne mich kommt er
+    \x02\x07Tamer Bill\x02\x07Hoffentlich ist
+    Steve in Asuka OK[pause]\x02\x03Ohne mich kommt er
     nicht zurecht.[pause]
   - |-
-    [\x0207]Tamer Hillary[\x0207]Hey, kannst du
+    \x02\x07Tamer Hillary\x02\x07Hey, kannst du
     ihm Bescheid
-    sagen?[pause][\x0203]Wenn er weiter-
+    sagen?[pause]\x02\x03Wenn er weiter-
     macht, wird er
     wieder Oinkmon![pause]
   - |-
-    [\x0207]Tamer Marina[\x0207]Ich bin wieder
+    \x02\x07Tamer Marina\x02\x07Ich bin wieder
     normal. Ich werde
     wieder spielen![pause]
   - |-
-    [\x0207]Tamer Albert[\x0207]Du bist der,
+    \x02\x07Tamer Albert\x02\x07Du bist der,
     der die A.o.A
-    besiegt hat![pause][\x0203]Danke! Ich bin
+    besiegt hat![pause]\x02\x03Danke! Ich bin
     dir so dankbar![pause]
   - |-
-    [\x0207]Guardromon[\x0207]ZUGRIFF AUF
+    \x02\x07Guardromon\x02\x07ZUGRIFF AUF
     MATRIX-DRIVE[pause]
   - |-
-    [\x0207]Gatomon[\x0207]Willkommen in
-    meinem Inn![pause][\x0203]Fühl' dich wie
+    \x02\x07Gatomon\x02\x07Willkommen in
+    meinem Inn![pause]\x02\x03Fühl' dich wie
     zu Hause![pause]
   - |-
-    [\x0207]Gargomon[\x0207]Bumm! Hier
+    \x02\x07Gargomon\x02\x07Bumm! Hier
     ist das
     Zeughaus![pause]
   - |-
-    [\x0207]Piximon[\x0207]Ich bin Digimon-
+    \x02\x07Piximon\x02\x07Ich bin Digimon-
     Offizier pi! Was
     willst du pi?[pause]
   - |-
-    [\x0207]Gomamon[\x0207]Dies ist das
+    \x02\x07Gomamon\x02\x07Dies ist das
     Pfandleihhaus!
     Sie wünschen?[pause]
   - |-
-    [\x0207]Divermon[\x0207]...was? Du
+    \x02\x07Divermon\x02\x07...was? Du
     willst den
-    Booster öffnen?[pause][\x0203]Ok, Augenblick![pause]
+    Booster öffnen?[pause]\x02\x03Ok, Augenblick![pause]
   - |-
-    [\x0207]Wizardmon[\x0207]Willkommen, dies ist
+    \x02\x07Wizardmon\x02\x07Willkommen, dies ist
     der Item-Shop![pause]
   - |-
-    [\x0207]Wizardmon[\x0207]Willkommen auf
+    \x02\x07Wizardmon\x02\x07Willkommen auf
     dem Schwarz-
     markt![pause]
   - |-
-    [\x0207]Gargomon[\x0207]Bumm! Das ist
+    \x02\x07Gargomon\x02\x07Bumm! Das ist
     das Zeughaus.[pause]
   - |-
-    [\x0207]BK WarGreymon[\x0207]Ich bin BK
-    WarGreymon![pause][\x0203]Willkommen, muti-
+    \x02\x07BK WarGreymon\x02\x07Ich bin BK
+    WarGreymon![pause]\x02\x03Willkommen, muti-
     ger Tamer!
     Kämpfe mit mir![pause]
   - |-
-    [\x0207]Arena-Empfang[\x0207]Zum Glück sind
+    \x02\x07Arena-Empfang\x02\x07Zum Glück sind
     wir wieder
-    normal![pause][\x0203]Danke! Das
+    normal![pause]\x02\x03Danke! Das
     schulden wir
     dir allein![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Was wollten die
-    A.o.A mit uns?[pause][\x0203]Ich kannte ihren
+    \x02\x07DO Wache\x02\x07Was wollten die
+    A.o.A mit uns?[pause]\x02\x03Ich kannte ihren
     Grund nicht, darum
     hatte ich Angst![pause]
   - |-
-    [\x0207]Arena-Emp.[\x0207]...Oink,
+    \x02\x07Arena-Emp.\x02\x07...Oink,
     ooink![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Oooink, oinink,
+    \x02\x07DO Wache\x02\x07Oooink, oinink,
     ooink, oink![pause]
   - '43'
   - '43'
   - '43'
   - '43'
   - |-
-    [\x0207]Teddy[\x0207]Wir haben die Stadt
+    \x02\x07Teddy\x02\x07Wir haben die Stadt
     zu leicht zurück-
-    bekommen.[pause][\x0203]Die A.o.A haben noch
+    bekommen.[pause]\x02\x03Die A.o.A haben noch
     etwas vor.[pause]
   - |-
-    [\x0207]Nick[\x0207]...A.o.A!
-    Kommt raus1[pause][\x0203]Ich mache
+    \x02\x07Nick\x02\x07...A.o.A!
+    Kommt raus1[pause]\x02\x03Ich mache
     euch fertig![pause]
   - |-
-    [\x0207]Lisa[\x0207]Zum Glück ist bisher
-    alles gut gegangen.[pause][\x0203]Da ist noch das
+    \x02\x07Lisa\x02\x07Zum Glück ist bisher
+    alles gut gegangen.[pause]\x02\x03Da ist noch das
     Admin-Center. Viel
-    Glück, [\x020801][\x020501]![pause]
+    Glück, \x02\x08\x01\x02\x05\x01![pause]
   - |-
-    [\x0207]Angreifer[\x0207]Wir haben den
+    \x02\x07Angreifer\x02\x07Wir haben den
     Widerstand
-    unterschätzt![pause][\x0203]Das ist aber
+    unterschätzt![pause]\x02\x03Das ist aber
     egal.[pause]
   - |-
-    [\x0207]Angreifer[\x0207]Ha ha ha!
-    Kommt doch![pause][\x0203]Gegen die A.o.A
+    \x02\x07Angreifer\x02\x07Ha ha ha!
+    Kommt doch![pause]\x02\x03Gegen die A.o.A
     seid ihr nichts![pause]
   - |-
-    [\x0207]Angreifer[\x0207]Die Welt gehört
+    \x02\x07Angreifer\x02\x07Die Welt gehört
     uns, den
-    A.o.A![pause][\x0203]Uns steht kei-
+    A.o.A![pause]\x02\x03Uns steht kei-
     ner im Weg![pause]
   - |-
-    [\x0207]Mr. Wedge[\x0207]Puh, ich fühle mich
-    wie ein neuer Mensch[pause][\x0203]Ok, an die Arbeit![pause][\x0203]Hinten haben wir
+    \x02\x07Mr. Wedge\x02\x07Puh, ich fühle mich
+    wie ein neuer Mensch[pause]\x02\x03Ok, an die Arbeit![pause]\x02\x03Hinten haben wir
     auch gute Items,
     schau' dich um![pause]
   - '43'
   - |-
-    [\x0207]Soldat[\x0207]Dummkopf, greifst
-    uns allein an![pause][\x0203]Das ist das
+    \x02\x07Soldat\x02\x07Dummkopf, greifst
+    uns allein an![pause]\x02\x03Das ist das
     Ende für dich![pause]
   - |-
-    [\x0207]Soldat[\x0207]Alle Achtung, dass
+    \x02\x07Soldat\x02\x07Alle Achtung, dass
     du so weit gekommen
-    bist![pause][\x0203]Glaubst du, du
+    bist![pause]\x02\x03Glaubst du, du
     kannst uns besiegen?[pause]
   - |-
-    [\x0207]Angreifer[\x0207]Ich verteidige
+    \x02\x07Angreifer\x02\x07Ich verteidige
     diesen Ort mit
     meinem Leben![pause]
   - |-
-    [\x0207]Angreifer[\x0207]Sie werden
+    \x02\x07Angreifer\x02\x07Sie werden
     böse, wenn ich
-    verliere...[pause][\x0203]Ich muss also
+    verliere...[pause]\x02\x03Ich muss also
     gewinnen![pause]
   - |-
-    [\x0207]Soldat[\x0207]Schwachkopf,
+    \x02\x07Soldat\x02\x07Schwachkopf,
     legst dich
-    mit uns an![pause][\x0203]Das wirst
+    mit uns an![pause]\x02\x03Das wirst
     du bereuen![pause]
   - |-
-    [\x0207]Soldat[\x0207]Was kann ein
-    Tamer schon?[pause][\x0203]Hör' auf mit
+    \x02\x07Soldat\x02\x07Was kann ein
+    Tamer schon?[pause]\x02\x03Hör' auf mit
     dem Blödsinn![pause]
   - |-
-    [\x0207]Angreifer[\x0207]Ich werde dich
-    besiegen![pause][\x0203]Und dann werde
+    \x02\x07Angreifer\x02\x07Ich werde dich
+    besiegen![pause]\x02\x03Und dann werde
     ich Soldat![pause]
   - |-
-    [\x0207]Soldat[\x0207]Ach, nur ein Kind![pause][\x0203]Lege dich nicht
+    \x02\x07Soldat\x02\x07Ach, nur ein Kind![pause]\x02\x03Lege dich nicht
     mit Erwachsenen
     an![pause]
   - |-
-    [\x0207]Soldat[\x0207]Gegen dich ver-
+    \x02\x07Soldat\x02\x07Gegen dich ver-
     lieren die A.o.A
-    nicht![pause][\x0203]Das werde ich dir
+    nicht![pause]\x02\x03Das werde ich dir
     jetzt beweisen![pause]
   - |-
-    [\x0207]Soldat[\x0207]Gibt auf, dann
+    \x02\x07Soldat\x02\x07Gibt auf, dann
     verschone ich
     dein Leben![pause]
   - |-
-    [\x0207]Soldat[\x0207]Widerstand ist
-    zwecklos![pause][\x0203]Keiner kann
+    \x02\x07Soldat\x02\x07Widerstand ist
+    zwecklos![pause]\x02\x03Keiner kann
     Destromon stoppen![pause]
   - |-
-    [\x0207]Angreifer[\x0207]Warum gibst du nicht
+    \x02\x07Angreifer\x02\x07Warum gibst du nicht
     einfach auf? Das
     ist dein Ende![pause]
   - |-
-    [\x0207]Angreifer[\x0207]Ja, das wird ein
+    \x02\x07Angreifer\x02\x07Ja, das wird ein
     toller Kampf![pause]
   - |-
-    [\x0207]Soldat[\x0207]Komm schon! Ich
+    \x02\x07Soldat\x02\x07Komm schon! Ich
     nehm's mit dir auf![pause]
   - |-
-    [\x0207]Soldat[\x0207]Der Trottel ist
-    nach Asuka![pause][\x0203]Wir sind nicht
+    \x02\x07Soldat\x02\x07Der Trottel ist
+    nach Asuka![pause]\x02\x03Wir sind nicht
     wie die![pause]
   - |-
-    [\x0207]Soldat[\x0207]Dein Digimon ist
+    \x02\x07Soldat\x02\x07Dein Digimon ist
     nichts gegen
-    meins![pause][\x0203]Komm, mein tolles
+    meins![pause]\x02\x03Komm, mein tolles
     Digimon![pause]
   - |-
-    [\x0207]Soldat[\x0207]Wir sind die er-
-    wählte Elite![pause][\x0203]Ein Kind wie dich
+    \x02\x07Soldat\x02\x07Wir sind die er-
+    wählte Elite![pause]\x02\x03Ein Kind wie dich
     machen wir fertig![pause]
   - |-
-    [\x0207]Angreifer[\x0207]Trottel, mich
-    herauszufordern![pause][\x0203]Komm' schon. Ich
+    \x02\x07Angreifer\x02\x07Trottel, mich
+    herauszufordern![pause]\x02\x03Komm' schon. Ich
     schlag' dich
     sofort k.o.![pause]
   - |-
-    [\x0207]Angreifer[\x0207]Mach' dich auf
+    \x02\x07Angreifer\x02\x07Mach' dich auf
     was gefasst,
     Kid![pause]
   - |-
-    [\x0207]Soldat[\x0207]Du hast die Kumpel-
+    \x02\x07Soldat\x02\x07Du hast die Kumpel-
     ID, also bist du
-    einer von uns![pause][\x0203]Geh, erhol' dich
+    einer von uns![pause]\x02\x03Geh, erhol' dich
     in dieser Stadt![pause]
   - |-
-    [\x0207]Soldat[\x0207]Wir verwandeln sie
+    \x02\x07Soldat\x02\x07Wir verwandeln sie
     alle in Oinkmon,
-    dann ist's leicht![pause][\x0203]Die A.o.A haben
+    dann ist's leicht![pause]\x02\x03Die A.o.A haben
     Klasse![pause]
   - |-
-    [\x0207]Soldat[\x0207]Wo ist unser
-    Chief?[pause][\x0203]Wir patrouillieren
+    \x02\x07Soldat\x02\x07Wo ist unser
+    Chief?[pause]\x02\x03Wir patrouillieren
     und er macht
     Pause![pause]
   - |-
-    [\x0207]Soldat[\x0207]Wer Widerstand
+    \x02\x07Soldat\x02\x07Wer Widerstand
     leistet, wird zu
-    Oinkmon![pause][\x0203]Was wird der Boss
+    Oinkmon![pause]\x02\x03Was wird der Boss
     bloβ mit ihnen
     machen?[pause]
   - |-
-    [\x0207]Soldat[\x0207]Mit all den Oink-
+    \x02\x07Soldat\x02\x07Mit all den Oink-
     mon ist es wie
-    auf einer Farm![pause][\x0203]Die Gröβe der
+    auf einer Farm![pause]\x02\x03Die Gröβe der
     A.o.A ist
     unverkennbar![pause]
   - a
   - a
   - a
   - |-
-    [\x0207]Renamon[\x0207]Sorry, aber ich bin
+    \x02\x07Renamon\x02\x07Sorry, aber ich bin
     auf keiner
-    Seite...[pause][\x0203]Ich gucke mir den
+    Seite...[pause]\x02\x03Ich gucke mir den
     Kampf der Menschen
     in Ruhe an.[pause]
   - |-
-    [\x0207]Renamon[\x0207]Die A.o.A sind tat-
-    sächlich besiegt...[pause][\x0203]Aber der Krieg hört
+    \x02\x07Renamon\x02\x07Die A.o.A sind tat-
+    sächlich besiegt...[pause]\x02\x03Aber der Krieg hört
     nie auf, Geschichte
     wiederholt sich.[pause]
   - |-
-    [\x0207]Renamon[\x0207]Der Kampf ist noch
-    nicht vorbei...[pause][\x0203]Du musst gewinnen!
+    \x02\x07Renamon\x02\x07Der Kampf ist noch
+    nicht vorbei...[pause]\x02\x03Du musst gewinnen!
     Und alle retten![pause]
   - |-
-    [\x0207]Agumon[\x0207]Ich bin fertig![pause][\x0203]Wir wurden gefan-
+    \x02\x07Agumon\x02\x07Ich bin fertig![pause]\x02\x03Wir wurden gefan-
     gen und die neh-
     men uns hart ran![pause]
   - |-
-    [\x0207]Agumon[\x0207]Danke, du hast
-    uns befreit![pause][\x0203]Ich werde Wache
+    \x02\x07Agumon\x02\x07Danke, du hast
+    uns befreit![pause]\x02\x03Ich werde Wache
     stehen, um alle
     zu schützen![pause]
   - |-
-    [\x0207]Agumon[\x0207]Auf der Welt ist
-    jetzt Frieden![pause][\x0203]Komm wieder und
+    \x02\x07Agumon\x02\x07Auf der Welt ist
+    jetzt Frieden![pause]\x02\x03Komm wieder und
     spiel' mit mir![pause]
   - |-
-    [\x0207]Agumon[\x0207]Die Leute in der
+    \x02\x07Agumon\x02\x07Die Leute in der
     Stadt werden wieder
-    zu Oinkmon![pause][\x0203]Die A.o.A sind eine
+    zu Oinkmon![pause]\x02\x03Die A.o.A sind eine
     reine Plage![pause]
   - '43'
-  - "[\\x0207]Veemon[\\x0207]Wenn der richtige\nAnführer nicht\ngefangen wäre...[pause][\\x0203]Digitierte ich zu\nVeedramon und \nwürde alle besiegen![pause]"
+  - "\\x02\\x07Veemon\\x02\\x07Wenn der richtige\nAnführer nicht\ngefangen wäre...[pause]\\x02\\x03Digitierte ich zu\nVeedramon und \nwürde alle besiegen![pause]"
   - |-
-    [\x0207]Veemon[\x0207]Du bist toll!
+    \x02\x07Veemon\x02\x07Du bist toll!
     Hast diesen falschen
-    Anführer besiegt![pause][\x0203]Der echte Anführer
+    Anführer besiegt![pause]\x02\x03Der echte Anführer
     ist stark, aber er
     ist ein Oinkmon![pause]
   - |-
-    [\x0207]Veemon[\x0207]Die A.o.A sind
-    weg, oder?[pause][\x0203]Dann wird der
+    \x02\x07Veemon\x02\x07Die A.o.A sind
+    weg, oder?[pause]\x02\x03Dann wird der
     Anführer bald
     zurück sein![pause]
   - |-
-    [\x0207]Veemon[\x0207]Der Anführer ist noch
-    nicht zurück.[pause][\x0203]Du kannst uns als
+    \x02\x07Veemon\x02\x07Der Anführer ist noch
+    nicht zurück.[pause]\x02\x03Du kannst uns als
     Einziger retten,
     hilf' uns![pause]
   - '43'
   - |-
-    [\x0207]Soldat[\x0207]Nur berechtigte
+    \x02\x07Soldat\x02\x07Nur berechtigte
     Personen haben
-    Zutritt![pause][\x0203]Auch kein Leader
+    Zutritt![pause]\x02\x03Auch kein Leader
     aus einer anderen
     Stadt kommt durch![pause]
   - |-
-    [\x0207]Soldat[\x0207]Zu Leader kann man
-    aufsehen![pause][\x0203]Das Schlieβen der
+    \x02\x07Soldat\x02\x07Zu Leader kann man
+    aufsehen![pause]\x02\x03Das Schlieβen der
     Stadt wird schon
     einen Grund haben.[pause]
   - |-
-    [\x0207]Soldat[\x0207]Ha-, hatschi![pause][\x0203]Hier ist es kalt!
+    \x02\x07Soldat\x02\x07Ha-, hatschi![pause]\x02\x03Hier ist es kalt!
     Ich will an einen
     wärmeren Ort.[pause]
   - |-
-    [\x0207]Xuen Wu Chief[\x0207]...Ich habe
+    \x02\x07Xuen Wu Chief\x02\x07...Ich habe
     schon auf
     dich gewartet.[pause]
   - '43'
   - |-
-    [\x0207]Soldat[\x0207]Du bist es, der
+    \x02\x07Soldat\x02\x07Du bist es, der
     den A.o.A
-    Probleme macht![pause][\x0203]Geh sofort zum
-    Chief.[pause][\x0203]Er will mit dir
+    Probleme macht![pause]\x02\x03Geh sofort zum
+    Chief.[pause]\x02\x03Er will mit dir
     alleine kämpfen![pause]
   - a
   - '43'
   - a
   - a
   - |-
-    [\x0207]Soldat[\x0207]Wir bewachen
-    diesen Ort.[pause][\x0203]Wenn der Wider-
+    \x02\x07Soldat\x02\x07Wir bewachen
+    diesen Ort.[pause]\x02\x03Wenn der Wider-
     stand kommt, neh-
     men wir sie fest![pause]
   - |-
-    [\x0207]Soldat[\x0207]Ich habe unseren
+    \x02\x07Soldat\x02\x07Ich habe unseren
     Anführer lange
-    nicht gesehen...[pause][\x0203]Was wohl los ist?
+    nicht gesehen...[pause]\x02\x03Was wohl los ist?
     Hat er zu tun?[pause]
   - |-
-    [\x0207]Soldat[\x0207]Ich will auch
+    \x02\x07Soldat\x02\x07Ich will auch
     den Widerstand
-    bekämpfen![pause][\x0203]Aber ich muss hier
+    bekämpfen![pause]\x02\x03Aber ich muss hier
     Wache stehen![pause]
   - |-
-    [\x0207]Soldat[\x0207]Leader ist wohl zum
+    \x02\x07Soldat\x02\x07Leader ist wohl zum
     Mirage-Turm
-    gegangen.[pause][\x0203]Können nicht mal
+    gegangen.[pause]\x02\x03Können nicht mal
     einen schwachen
     Widerstand besiegen![pause]
   - |-
-    [\x0207]Soldat[\x0207]Das war aber ein-
+    \x02\x07Soldat\x02\x07Das war aber ein-
     fach, den Server
-    einzunehmen![pause][\x0203]Die echte Welt wird
+    einzunehmen![pause]\x02\x03Die echte Welt wird
     in Null komma nix
     uns gehören![pause]
   - |-
-    [\x0207]Soldat[\x0207]Ist etwas einsam,
+    \x02\x07Soldat\x02\x07Ist etwas einsam,
     so alleine als
-    Wachen.[pause][\x0203]Aber wir haben
+    Wachen.[pause]\x02\x03Aber wir haben
     unseren Anführer,
     alles ist OK![pause]
   - |-
-    [\x0207]Soldat[\x0207]Die A.o.A werden
-    siegen![pause][\x0203]Die Welt wird uns
+    \x02\x07Soldat\x02\x07Die A.o.A werden
+    siegen![pause]\x02\x03Die Welt wird uns
     gehören![pause]
   - |-
-    [\x0207]Soldat[\x0207]Gut, dass wir den
+    \x02\x07Soldat\x02\x07Gut, dass wir den
     Anführer nicht
-    gesehen haben.[pause][\x0203]Das heiβt, er ver-
+    gesehen haben.[pause]\x02\x03Das heiβt, er ver-
     traut uns total![pause]
   - |-
-    [\x0207]Ponchomon[\x0207]Hola Amigo![pause][\x0203]Hier ist ein
+    \x02\x07Ponchomon\x02\x07Hola Amigo![pause]\x02\x03Hier ist ein
     Paradies für Item-
     Fans, Eldorado![pause]
   - a
   - |-
-    [\x0207][\x020902]3Yeah! Hab'
+    \x02\x07\x02\x09\x023Yeah! Hab'
     8500 BIT![pause]
   - |-
-    [\x0207]Teddy[\x0207]Oi, oiooink!
+    \x02\x07Teddy\x02\x07Oi, oiooink!
     Oooin, oink![pause]
   - |-
-    [\x0207]Kail[\x0207]Wir haben die
-    A.o.A besiegt...[pause][\x0203]Aber warum ist
+    \x02\x07Kail\x02\x07Wir haben die
+    A.o.A besiegt...[pause]\x02\x03Aber warum ist
     Kurt nicht normal?[pause]
   - |-
-    [\x0207]Kurt[\x0207]Ooioioink!
+    \x02\x07Kurt\x02\x07Ooioioink!
     Oiioin,
     ooinkkk![pause]
   - |-
-    [\x0207]Lisa[\x0207]Das Matrix-System
+    \x02\x07Lisa\x02\x07Das Matrix-System
     bewegt sich nicht,
-    warum bloβ?[pause][\x0203]Wurde das Jamming-
+    warum bloβ?[pause]\x02\x03Wurde das Jamming-
     Programm von Kurt
     nicht gelöscht?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Wenn wir Kurt zurück
+    \x02\x07Lisa\x02\x07Wenn wir Kurt zurück
     kriegen, kann er das
-    Programm reparieren.[pause][\x0203]Keith such nach einem
+    Programm reparieren.[pause]\x02\x03Keith such nach einem
     Weg, Oinkmon zurück
     zu verwandeln.[pause]
   - |-
-    [\x0207]Nick[\x0207]Wir können nicht
+    \x02\x07Nick\x02\x07Wir können nicht
     auf die echte Welt
-    zugreifen, warum?[pause][\x0203]Die Matrix-Kammer
+    zugreifen, warum?[pause]\x02\x03Die Matrix-Kammer
     bewegt sich auch
     nicht. Was ist los?[pause]
   - |-
-    [\x0207]Nick[\x0207]Wir können immer noch
+    \x02\x07Nick\x02\x07Wir können immer noch
     nicht alle von Oink-
-    mon zurückverwandeln.[pause][\x0203]Keith experimentiert
+    mon zurückverwandeln.[pause]\x02\x03Keith experimentiert
     in Qing Long City...[pause]
   - |-
-    [\x0207]Digi-Hasser Misa[\x0207]Oooink, oink!
+    \x02\x07Digi-Hasser Misa\x02\x07Oooink, oink!
     Oin, oioionk![pause]
   - |-
-    [\x0207]Kurt[\x0207]Danke für alles,
-    [\x020801][\x020501].[pause][\x0203]Ich überprüfe gerade
-    die Matrix-Kammer.[pause][\x0203]Etwas stört das System
+    \x02\x07Kurt\x02\x07Danke für alles,
+    \x02\x08\x01\x02\x05\x01.[pause]\x02\x03Ich überprüfe gerade
+    die Matrix-Kammer.[pause]\x02\x03Etwas stört das System
     anscheinend von
     auβen.[pause]
   - |-
-    [\x0207]Kurt[\x0207]Etwas gelangt in das
+    \x02\x07Kurt\x02\x07Etwas gelangt in das
     System, das ich
-    entworfen habe...[pause][\x0203]Dann muss es auch
+    entworfen habe...[pause]\x02\x03Dann muss es auch
     im Admin-System des
-    optischen Netzes sein.[pause][\x0203]Der Plan der A.o.A
+    optischen Netzes sein.[pause]\x02\x03Der Plan der A.o.A
     ist vielleicht doch
     noch nicht vereitelt.[pause]
   - |-
-    [\x0207][\x020902]3Hey! Hier ist
+    \x02\x07\x02\x09\x023Hey! Hier ist
     ein Schalter!
     Drück' ihn mal.[pause]
   - |-
-    [\x0207][\x020902]3Ok, gehen
+    \x02\x07\x02\x09\x023Ok, gehen
     wir runter.[pause]
   - |-
-    [\x0207]Soldat[\x0207]Ein stärkerer Ordner...
+    \x02\x07Soldat\x02\x07Ein stärkerer Ordner...
     Hmm...welche Combo?[pause]
   - |-
-    [\x0207]Soldat[\x0207]Ich sollte eigentlich
-    meine Runde machen.[pause][\x0203]Ich hab' aber keine
+    \x02\x07Soldat\x02\x07Ich sollte eigentlich
+    meine Runde machen.[pause]\x02\x03Ich hab' aber keine
     Lust. Ich gucke mir
     die Kartenliste an...[pause]
   - a
   - |-
-    [\x0207]Kail[\x0207][\x020801][\x020501], geschafft!
+    \x02\x07Kail\x02\x07\x02\x08\x01\x02\x05\x01, geschafft!
     Kurt ist wieder
-    normal![pause][\x0203]...und er kann
+    normal![pause]\x02\x03...und er kann
     jetzt das Programm
-    reparieren...[pause][\x0203]Bald können wir zurück
+    reparieren...[pause]\x02\x03Bald können wir zurück
     in die echte Welt![pause]
   - |-
-    [\x0207]Teddy[\x0207]Die Digitierwelle,
+    \x02\x07Teddy\x02\x07Die Digitierwelle,
     die alle in Oinkmon
-    verwandelt...[pause][\x0203]Wie die wohl
+    verwandelt...[pause]\x02\x03Wie die wohl
     funktioniert? Würde
     mich interessieren.[pause]
   - |-
-    [\x0207]Lisa[\x0207]Zum Glück sind
+    \x02\x07Lisa\x02\x07Zum Glück sind
     alle wieder
-    normal.[pause][\x0203]Jetzt muss nur noch
+    normal.[pause]\x02\x03Jetzt muss nur noch
     die Matrix-Kammer
     repariert werden.[pause]
   - |-
-    [\x0207]Nick[\x0207]Jetzt können wir
-    uns ausruhen.[pause][\x0203]Ich will hier
+    \x02\x07Nick\x02\x07Jetzt können wir
+    uns ausruhen.[pause]\x02\x03Ich will hier
     mal spielen.[pause]
   - |-
-    [\x0207][\x020902]3Hmm, Ich verstehe
+    \x02\x07\x02\x09\x023Hmm, Ich verstehe
     es nicht. Kunst ist
     so schwierig.[pause]
   - |-
-    [\x0207]Divermon[\x0207]Du hast keinen
-    Kartenordner?[pause][\x0203]Dann kann ich
+    \x02\x07Divermon\x02\x07Du hast keinen
+    Kartenordner?[pause]\x02\x03Dann kann ich
     dir nicht helfen!
     Geh nach Hause![pause]

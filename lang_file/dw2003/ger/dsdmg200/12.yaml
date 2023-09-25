@@ -1,29 +1,29 @@
 strings:
   - ''
-  - '[\x0207][\x020902]3Gewonnen![pause]'
+  - '\x02\x07\x02\x09\x023Gewonnen![pause]'
   - |-
-    [\x0207]Tamer Genji[\x0207]Für einen Anfänger
-    bist du ganz gut.[pause][\x0203]Du hast das Poten-
+    \x02\x07Tamer Genji\x02\x07Für einen Anfänger
+    bist du ganz gut.[pause]\x02\x03Du hast das Poten-
     zial, einmal World
     Champ zu werden![pause]
   - |-
-    [\x0207][\x020902]3Das ist mein
+    \x02\x07\x02\x09\x023Das ist mein
     Traum![pause]
   - |-
-    [\x0207]Tamer Genji[\x0207]Um das zu erreichen,
+    \x02\x07Tamer Genji\x02\x07Um das zu erreichen,
     musst du noch viel
-    über Digimon lernen.[pause][\x0203]Vor dem Verlassen der
+    über Digimon lernen.[pause]\x02\x03Vor dem Verlassen der
     Stadt solltest du ins
     Digimon-Labor gehen.[pause]
   - |-
-    [\x0207][\x020902]3Digimon-Labor.
+    \x02\x07\x02\x09\x023Digimon-Labor.
     Wird gemacht.
     Vielen Dank![pause]
   - |-
-    [\x0207]Tamer Genji[\x0207]Hast du über-
+    \x02\x07Tamer Genji\x02\x07Hast du über-
     haupt eine
     Aktentasche?[pause]
   - |-
-    [\x0207][\x020902]3Was ist
+    \x02\x07\x02\x09\x023Was ist
     denn das?[pause]
-  - "[\\x0207]Tamer Genji[\\x0207]Aha, dann gehst\ndu am besten zum \nGelben Kreuzer.[pause][\\x0203]Dort lernst du alles \nWichtige über den\nKampf mit Karten.[pause][\\x0203]Geh jetzt. Ich ver-\nlass mich auf dich,\nKleiner. Ha ha ha![pause]"
+  - "\\x02\\x07Tamer Genji\\x02\\x07Aha, dann gehst\ndu am besten zum \nGelben Kreuzer.[pause]\\x02\\x03Dort lernst du alles \nWichtige über den\nKampf mit Karten.[pause]\\x02\\x03Geh jetzt. Ich ver-\nlass mich auf dich,\nKleiner. Ha ha ha![pause]"

@@ -1,12 +1,12 @@
 strings:
   - ''
-  - "[\\x0207]Guarda Real[\\x0207]¡Te esperábamos!\nTu venciste a \nnuestros jefes.[pause]"
-  - "[\\x0207][\\x020902]3Venga. ¡También  \na vosotros![pause]"
+  - "\\x02\\x07Guarda Real\\x02\\x07¡Te esperábamos!\nTu venciste a \nnuestros jefes.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Venga. ¡También  \na vosotros![pause]"
   - |-
-    [\x0207]Guarda Real [\x0207]¡Somos mejores
+    \x02\x07Guarda Real \x02\x07¡Somos mejores
     que a los que te
     hayas enfrentado![pause]
   - |-
-    [\x0207]Guarda Real[\x0207]¡Con el orgullo
+    \x02\x07Guarda Real\x02\x07¡Con el orgullo
     de la Guarda Real
     te venceré![pause]

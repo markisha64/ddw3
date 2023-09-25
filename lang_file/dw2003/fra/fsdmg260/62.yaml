@@ -1,13 +1,13 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Très bien ! \n32000 BIT ![pause]"
-  - "[\\x0207]M. Smith[\\x0207]Oink ! \n32000 BIT ![pause][\\x0203]Oinoink, oink \n32000 BIT ?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Très bien ! \n32000 BIT ![pause]"
+  - "\\x02\\x07M. Smith\\x02\\x07Oink ! \n32000 BIT ![pause]\\x02\\x03Oinoink, oink \n32000 BIT ?[pause]"
   - |-
-    [\x0207]M. Smith[\x0207]Oin oink oioink
-    oink oioink oink.[pause][\x0203]Oioi Oink nk
-    oionko 32000 BIT [pause][\x0203]Oinkoinnnk
-    oi oink oi oiii ![pause][\x0203]Oi oinkoo
+    \x02\x07M. Smith\x02\x07Oin oink oioink
+    oink oioink oink.[pause]\x02\x03Oioi Oink nk
+    oionko 32000 BIT [pause]\x02\x03Oinkoinnnk
+    oi oink oi oiii ![pause]\x02\x03Oi oinkoo
     oinoiko oin
     oioinnnk oink ![pause]
-  - "[\\x0207][\\x020902]3Oui ! J'ai \nl'Oioi Oink ![pause]"
-  - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nvoyons ça.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Oui ! J'ai \nl'Oioi Oink ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Bon, c'est un \nchouette objet, \nvoyons ça.[pause]"

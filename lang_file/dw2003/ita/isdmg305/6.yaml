@@ -1,82 +1,82 @@
 strings:
   - ''
   - |-
-    [\x0207]Lisa[\x0207]Ma come faremo
+    \x02\x07Lisa\x02\x07Ma come faremo
     ad entrare nella
-    città di Amaterasu?[pause][\x0203]È il QG dell'A.o.A
+    città di Amaterasu?[pause]\x02\x03È il QG dell'A.o.A
     e pullulerà
     di guardie![pause]
   - |-
-    [\x0207]Nick[\x0207]C'è un sistema di
+    \x02\x07Nick\x02\x07C'è un sistema di
     emergenza con
-    i Knightmon.[pause][\x0203]Sono certo che lo
+    i Knightmon.[pause]\x02\x03Sono certo che lo
     stanno usando.[pause]
-  - "[\\x0207][\\x020902]3Il capo della\nResistenza ha \ndetto che...[pause][\\x0203]Ci vogliono 4\ncodici per \nfermarli![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Il capo della\nResistenza ha \ndetto che...[pause]\\x02\\x03Ci vogliono 4\ncodici per \nfermarli![pause]"
   - |-
-    [\x0207]Keith[\x0207]Dei codici?
+    \x02\x07Keith\x02\x07Dei codici?
     Cosa?[pause]
   - |-
-    [\x0207]Lisa[\x0207]È vero. Sono
+    \x02\x07Lisa\x02\x07È vero. Sono
     i pass colorati.[pause]
   - |-
-    [\x0207][\x020902]3Pass
-    colorati?[pause][\x0203]Come quello
+    \x02\x07\x02\x09\x023Pass
+    colorati?[pause]\x02\x03Come quello
     rosso e quello
     blu che ho?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Sì, certo!
+    \x02\x07Lisa\x02\x07Sì, certo!
     Come mai tu...?[pause]
   - |-
-    [\x0207][\x020902]3Li ho presi ai
+    \x02\x07\x02\x09\x023Li ho presi ai
     capi delle città
     dell'A.o.A![pause]
   - |-
-    [\x0207]Nick[\x0207]Avendo gli altri
+    \x02\x07Nick\x02\x07Avendo gli altri
     due potremo battere
     i Knightmon![pause]
   - |-
-    [\x0207]Keith[\x0207]Sì! Ce li hanno
+    \x02\x07Keith\x02\x07Sì! Ce li hanno
     i capi delle altre
     due città![pause]
   - |-
-    [\x0207]Lisa[\x0207]Sì, ci
+    \x02\x07Lisa\x02\x07Sì, ci
     serviranno![pause]
   - |-
-    [\x0207][\x020902]3Aspettate![pause][\x0203]Brutte notizie
+    \x02\x07\x02\x09\x023Aspettate![pause]\x02\x03Brutte notizie
     per la città
-    di Bai Hu.[pause][\x0203]La sicurezza
+    di Bai Hu.[pause]\x02\x03La sicurezza
     sarà un vero
     problema![pause]
   - |-
-    [\x0207]Lisa[\x0207]Davvero?
+    \x02\x07Lisa\x02\x07Davvero?
     Mmm, come
     faremo?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Ci sono! Ci faremo
+    \x02\x07Lisa\x02\x07Ci sono! Ci faremo
     aiutare dalla
-    Resistenza![pause][\x0203]Ha la base nella
+    Resistenza![pause]\x02\x03Ha la base nella
     Torre miraggio,
     vero?[pause]
-  - '[\x0207][\x020902]3S-sì![pause]'
-  - '[\x0207]Lisa[\x0207]OK, la troverò![pause]'
+  - '\x02\x07\x02\x09\x023S-sì![pause]'
+  - '\x02\x07Lisa\x02\x07OK, la troverò![pause]'
   - |-
-    [\x0207]Keith[\x0207]Conta
+    \x02\x07Keith\x02\x07Conta
     su di
     noi![pause]
-  - '[\x0207]Nick[\x0207]Va bene.[pause]'
+  - '\x02\x07Nick\x02\x07Va bene.[pause]'
   - |-
-    [\x0207][\x020902]3Allora io
+    \x02\x07\x02\x09\x023Allora io
     tornerà
     a Bai Hu![pause]
   - |-
-    [\x0207]Teddy[\x0207]Buona
+    \x02\x07Teddy\x02\x07Buona
     fortuna![pause]
   - |-
-    [\x0207][\x020902]3Contate su
+    \x02\x07\x02\x09\x023Contate su
     di me![pause]
   - |-
-    [\x0207]Lisa[\x0207]Keith,
+    \x02\x07Lisa\x02\x07Keith,
     andiamo.[pause]
   - |-
-    [\x0207]Lisa[\x0207]Nick, tu stai
+    \x02\x07Lisa\x02\x07Nick, tu stai
     qui![pause]

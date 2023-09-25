@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]Sr. Wedge[\x0207]En ese caso ven
+    \x02\x07Sr. Wedge\x02\x07En ese caso ven
     por aquí, tengo
     buenos artículos.[pause]

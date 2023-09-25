@@ -1,15 +1,15 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3¡Gané!
+    \x02\x07\x02\x09\x023¡Gané!
     ¿No soy
     el mejor?[pause]
-  - "[\\x0207]Keith[\\x0207]¡Ja! Te lo \npuse fácil, chico.[pause]"
-  - "[\\x0207][\\x020902]3Pensé que no \nibas a sacar \ngolpes.[pause]"
+  - "\\x02\\x07Keith\\x02\\x07¡Ja! Te lo \npuse fácil, chico.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Pensé que no \nibas a sacar \ngolpes.[pause]"
   - |-
-    [\x0207]Keith[\x0207]¡No sé de qué
-    hablas![pause][\x0203]¡Ten cuidado,
+    \x02\x07Keith\x02\x07¡No sé de qué
+    hablas![pause]\x02\x03¡Ten cuidado,
     la próxima vez
-    te ganaré![pause][\x0203]No te olvides.
+    te ganaré![pause]\x02\x03No te olvides.
     ¡Sayonara, tonto![pause]
-  - "[\\x0207][\\x020902]3¡Sí, claro!\n¡Él es el \ntonto![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Sí, claro!\n¡Él es el \ntonto![pause]"

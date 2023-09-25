@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]Guardromon[\x0207]Je vais arriver
+    \x02\x07Guardromon\x02\x07Je vais arriver
     au Lecteur
     Matrix.[pause]

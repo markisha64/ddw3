@@ -1,8 +1,8 @@
 strings:
   - ''
-  - "[\\x0207]Maître des Glaces[\\x0207]Hé attends !\nOn ne peut pas \npasser par ici ![pause][\\x0203]Si tu veux passer,\nil faudra d'abord\nme battre ![pause]"
-  - "[\\x0207][\\x020902]3Bien. Je dois \njuste gagner, \nc'est ça ?[pause]"
-  - "[\\x0207]Maître Glaces[\\x0207]Voilà. \nT'as tout \ncompris ![pause][\\x0203]OK, allons-y ![pause]"
+  - "\\x02\\x07Maître des Glaces\\x02\\x07Hé attends !\nOn ne peut pas \npasser par ici ![pause]\\x02\\x03Si tu veux passer,\nil faudra d'abord\nme battre ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Bien. Je dois \njuste gagner, \nc'est ça ?[pause]"
+  - "\\x02\\x07Maître Glaces\\x02\\x07Voilà. \nT'as tout \ncompris ![pause]\\x02\\x03OK, allons-y ![pause]"
   - |-
-    [\x0207][\x020902]3Parfait.
+    \x02\x07\x02\x09\x023Parfait.
     C'est parti ![pause]

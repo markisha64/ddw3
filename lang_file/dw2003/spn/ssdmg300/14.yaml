@@ -1,28 +1,28 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3¡Vamos a Ciudad
+    \x02\x07\x02\x09\x023¡Vamos a Ciudad
     Amaterasu![pause]
   - |-
-    [\x0207]Teddy[\x0207]Eh, [\x020801][\x020501]
+    \x02\x07Teddy\x02\x07Eh, \x02\x08\x01\x02\x05\x01
     ¡Espera![pause]
   - |-
-    [\x0207][\x020902]3¡...Teddy!
+    \x02\x07\x02\x09\x023¡...Teddy!
     ¿Has venido
     hasta aquí?[pause]
   - |-
-    [\x0207]Teddy[\x0207]Sí, he venido con
-    Lisa y los otros.[pause][\x0203][\x020801][\x020501], ¿puedes
+    \x02\x07Teddy\x02\x07Sí, he venido con
+    Lisa y los otros.[pause]\x02\x03\x02\x08\x01\x02\x05\x01, ¿puedes
     esperar un momento
-    antes de entrar?[pause][\x0203]Lisa está trayendo
+    antes de entrar?[pause]\x02\x03Lisa está trayendo
     a la Resistencia.[pause]
   - |-
-    [\x0207][\x020902]3¿Y qué pasa
+    \x02\x07\x02\x09\x023¿Y qué pasa
     con
     la A.o.A?[pause]
-  - "[\\x0207]Teddy[\\x0207]¡Han sido derrotados\npor la Resistencia![pause][\\x0203]¡Con las cuatro \nciudades sólo nos \nqueda Amataresu![pause]"
+  - "\\x02\\x07Teddy\\x02\\x07¡Han sido derrotados\npor la Resistencia![pause]\\x02\\x03¡Con las cuatro \nciudades sólo nos \nqueda Amataresu![pause]"
   - |-
-    [\x0207][\x020902]3¡Ya veo!
+    \x02\x07\x02\x09\x023¡Ya veo!
     Y ahora.[pause]
-  - "[\\x0207]Teddy[\\x0207]Sí, ¡es la \nbatalla final![pause][\\x0203]¡Vamos a \nvencer a la\nA.o.A![pause]"
-  - "[\\x0207][\\x020902]3¡Sí, vamos![pause][\\x0203]¡Si luchamos \njuntos la A.o.A\nno es nada![pause]"
+  - "\\x02\\x07Teddy\\x02\\x07Sí, ¡es la \nbatalla final![pause]\\x02\\x03¡Vamos a \nvencer a la\nA.o.A![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Sí, vamos![pause]\\x02\\x03¡Si luchamos \njuntos la A.o.A\nno es nada![pause]"

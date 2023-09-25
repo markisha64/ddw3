@@ -8,9 +8,9 @@ strings:
   - Laufen
   - Angriff!
   - Attacke!
-  - '[\x020501]!'
-  - Zähler! [\x020501]!
-  - '[\x020501] Schaden!'
+  - '\x02\x05\x01!'
+  - Zähler! \x02\x05\x01!
+  - '\x02\x05\x01 Schaden!'
   - X
   - MP
   - HP
@@ -21,9 +21,9 @@ strings:
   - Nichts gelernt.
   - Keine Reserve
   - Keine Items.
-  - '[\x020501]'
-  - '[\x020501]・[\x020502]'
-  - '[\x020501]・[\x020502]・[\x020503]'
+  - '\x02\x05\x01'
+  - '\x02\x05\x01・\x02\x05\x02'
+  - '\x02\x05\x01・\x02\x05\x02・\x02\x05\x03'
   - Fähig
   - '--'
   - Tauschen
@@ -33,8 +33,8 @@ strings:
   - Erfroren!
   - Verwirrt!
   - Eingeschlafen!
-  - '[\x020501] HP geheilt!'
-  - '[\x020501] X [\x020502] = [\x020503]!'
+  - '\x02\x05\x01 HP geheilt!'
+  - '\x02\x05\x01 X \x02\x05\x02 = \x02\x05\x03!'
   - '-'
   - Counter!
   - Gestohlen
@@ -54,7 +54,7 @@ strings:
   - Abwehr [arrow-down]!
   - Geschw. [arrow-down]!
   - Chi speichern!
-  - Digitiert! [\x020501]!
+  - Digitiert! \x02\x05\x01!
   - Zurück!
   - Hol's dir!
   - DNA-Digit.
@@ -78,13 +78,13 @@ strings:
   - Stärke, Abwehr, Geschw. Verfl.!
   - Digimon herausnehmen!
   - Nächster Digimon raus!
-  - '[\x020501]!'
+  - '\x02\x05\x01!'
   - KO!
   - Besiegt!
   - Kampf gewonnen!
   - Vernichtet...
   - Kein MP.
-  - 'Vergiftet: [\x020501]'
+  - 'Vergiftet: \x02\x05\x01'
   - Gefroren und bewegungsunfähig!
   - Kann nicht weglaufen!
   - Kann nicht digitieren!
@@ -142,5 +142,5 @@ strings:
   - Galactimon lernt eine Technik!
   - Kein MP!
   - Tausch fehlgeschl.!
-  - '[\x020501] MP absorbiert!'
+  - '\x02\x05\x01 MP absorbiert!'
   - Eingeschlafen!

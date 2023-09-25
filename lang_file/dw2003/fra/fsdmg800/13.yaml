@@ -1,3 +1,3 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Vite ! Il faut vaincre \nLord Megadeath et \nsauver tout le monde ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Vite ! Il faut vaincre \nLord Megadeath et \nsauver tout le monde ![pause]"

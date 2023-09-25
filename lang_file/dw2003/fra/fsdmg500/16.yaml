@@ -1,4 +1,4 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Hé Taomon, rends\nmoi service, tu \nveux ?[pause][\\x0203]Je peux avoir\nl'ADNN Renamon\ndepuis ton ADNN ?[pause]"
-  - "[\\x0207]Taomon[\\x0207]Oui, mais pas\npour rien.[pause][\\x0203]Voyons si tu \nle mérites.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hé Taomon, rends\nmoi service, tu \nveux ?[pause]\\x02\\x03Je peux avoir\nl'ADNN Renamon\ndepuis ton ADNN ?[pause]"
+  - "\\x02\\x07Taomon\\x02\\x07Oui, mais pas\npour rien.[pause]\\x02\\x03Voyons si tu \nle mérites.[pause]"

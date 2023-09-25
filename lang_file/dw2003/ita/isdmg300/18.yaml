@@ -1,67 +1,67 @@
 strings:
   - ''
   - |-
-    [\x0207]Ufficiale capo[\x0207]Aspetta! Mi
-    arrenderò![pause][\x0203]Sei molto
-    forte.[pause][\x0203]Chissà chi vincerà.
+    \x02\x07Ufficiale capo\x02\x07Aspetta! Mi
+    arrenderò![pause]\x02\x03Sei molto
+    forte.[pause]\x02\x03Chissà chi vincerà.
     Tu o lui?[pause]
-  - '[\x0207][\x020902]3Cosa?[pause]'
+  - '\x02\x07\x02\x09\x023Cosa?[pause]'
   - |-
-    [\x0207]Nick[\x0207]Presidente della
+    \x02\x07Nick\x02\x07Presidente della
     MAGAMI, sei in
     arresto![pause]
   - |-
-    [\x0207]Ufficiale capo[\x0207]Va bene, ne
+    \x02\x07Ufficiale capo\x02\x07Va bene, ne
     ho avuto
-    abbastanza.[pause][\x0203]In futuro,
+    abbastanza.[pause]\x02\x03In futuro,
     farò da
     solo.[pause]
   - |-
-    [\x0207]Lisa[\x0207]È piuttosto
-    docile.[pause][\x0203]Ma c'è un'altra
+    \x02\x07Lisa\x02\x07È piuttosto
+    docile.[pause]\x02\x03Ma c'è un'altra
     cosa...[pause]
   - |-
-    [\x0207]Ufficiale capo[\x0207]Destromon? Puoi
+    \x02\x07Ufficiale capo\x02\x07Destromon? Puoi
     fermarlo con
     quella macchina.[pause]
   - |-
-    [\x0207]Lisa[\x0207]OK, bene!
-    Lo interrogherò io.[pause][\x0203]E voi andate a
+    \x02\x07Lisa\x02\x07OK, bene!
+    Lo interrogherò io.[pause]\x02\x03E voi andate a
     fermare Destromon![pause]
-  - '[\x0207]Teddy[\x0207]Si![pause]'
+  - '\x02\x07Teddy\x02\x07Si![pause]'
   - |-
-    [\x0207]Nick[\x0207]V-va
+    \x02\x07Nick\x02\x07V-va
     bene![pause]
   - |-
-    [\x0207][\x020902]3Teddy, ma tu
+    \x02\x07\x02\x09\x023Teddy, ma tu
     sai come?[pause]
   - |-
-    [\x0207]Teddy[\x0207]Heh heh!
-    Abbastanza...[pause][\x0203]Il sistema è simile
+    \x02\x07Teddy\x02\x07Heh heh!
+    Abbastanza...[pause]\x02\x03Il sistema è simile
     a quello del
     server Asuka![pause]
   - |-
-    [\x0207]Nick[\x0207]Ehi, Teddy,
-    presto![pause][\x0203]O Destromon
+    \x02\x07Nick\x02\x07Ehi, Teddy,
+    presto![pause]\x02\x03O Destromon
     atterrerà su
     una città![pause]
   - |-
-    [\x0207]Teddy[\x0207]Tenetevi
+    \x02\x07Teddy\x02\x07Tenetevi
     forte![pause]
   - |-
-    [\x0207][\x020902]3Avanti,
+    \x02\x07\x02\x09\x023Avanti,
     fai
     presto![pause]
   - |-
-    [\x0207][\x020902]3...ehi!
+    \x02\x07\x02\x09\x023...ehi!
     Dove...?[pause]
   - |-
-    [\x0207]Nick[\x0207]Meno
+    \x02\x07Nick\x02\x07Meno
     parole più
     fatti![pause]
   - |-
-    [\x0207]Lisa[\x0207]Su, forza
-    arrenditi.[pause][\x0203]Abbiamo preso
+    \x02\x07Lisa\x02\x07Su, forza
+    arrenditi.[pause]\x02\x03Abbiamo preso
     tutti dell'A.o.A,
     tranne te.[pause]
-  - '[\x0207]Teddy[\x0207]Sì![pause]'
+  - '\x02\x07Teddy\x02\x07Sì![pause]'

@@ -1,6 +1,6 @@
 strings:
   - ''
-  - Don't have [\x020501].
+  - Don't have \x02\x05\x01.
   - BIT
   - BUY
   - SELL
@@ -17,7 +17,7 @@ strings:
   - By Name
   - Equip who?
   - How many?
-  - '[\x020501] BIT'
+  - '\x02\x05\x01 BIT'
   - Buy
   - No
   - Equip?

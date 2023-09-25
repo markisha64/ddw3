@@ -1,21 +1,21 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Salut, tu sais
+    \x02\x07\x02\x09\x023Salut, tu sais
     où se trouves
     Numemon ?[pause]
   - |-
-    [\x0207]HiAndromon[\x0207]Numemon ? Que
+    \x02\x07HiAndromon\x02\x07Numemon ? Que
     lui veux-tu ?[pause]
   - |-
-    [\x0207][\x020902]3J'ai une question
+    \x02\x07\x02\x09\x023J'ai une question
     à lui poser. Allez,
     dis-moi où il est ![pause]
   - |-
-    [\x0207]HiAndromon[\x0207]Je sais où il est mais
+    \x02\x07HiAndromon\x02\x07Je sais où il est mais
     je ne vais pas te le
-    dire comme ça ! [pause][\x0203]A partir d'ici, seuls
+    dire comme ça ! [pause]\x02\x03A partir d'ici, seuls
     les forts peuvent
-    entrer.[pause][\x0203]Si tu veux toujours
+    entrer.[pause]\x02\x03Si tu veux toujours
     le voir, tu devras
     d'abord me battre.[pause]

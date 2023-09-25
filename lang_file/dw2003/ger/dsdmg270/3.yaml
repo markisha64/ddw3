@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]Kartenkenner Ken[\x0207]OK sprich mit mir
+    \x02\x07Kartenkenner Ken\x02\x07OK sprich mit mir
     wenn du etwas
     hören möchtest![pause]

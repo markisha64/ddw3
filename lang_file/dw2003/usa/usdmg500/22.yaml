@@ -1,3 +1,3 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3OK, it's that room \nover there![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023OK, it's that room \nover there![pause]"

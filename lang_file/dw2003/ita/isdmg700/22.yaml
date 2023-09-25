@@ -1,13 +1,13 @@
 strings:
   - ''
   - |-
-    [\x0207]Signore fuoco[\x0207]Sei forte!
-    Impressionante.[pause][\x0203]Ti darò questo.
+    \x02\x07Signore fuoco\x02\x07Sei forte!
+    Impressionante.[pause]\x02\x03Ti darò questo.
     Usalo![pause]
   - |-
-    [\x0207][\x020902]3Ho il chip
+    \x02\x07\x02\x09\x023Ho il chip
     mentale![pause]
   - |-
-    [\x0207]Signore fuoco[\x0207]Il nostro capo è
+    \x02\x07Signore fuoco\x02\x07Il nostro capo è
     laggiù. È molto
     potente![pause]

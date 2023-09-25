@@ -2,19 +2,19 @@ strings:
   - ''
   - a
   - |-
-    [\x0207]Datamon[\x0207]Bist du ge-
+    \x02\x07Datamon\x02\x07Bist du ge-
     kommen, um mit
-    mir zu kämpfen?[pause][\x0203]Ich bin jederzeit
+    mir zu kämpfen?[pause]\x02\x03Ich bin jederzeit
     bereit! Lass uns
     kämpfen![pause]
   - |-
-    [\x0207][\x020902]3In Ordnung! Lass
+    \x02\x07\x02\x09\x023In Ordnung! Lass
     uns kämpfen![pause]
   - |-
-    [\x0207]Datamon[\x0207]Beep! Du darfst
-    m. n. kopieren![pause][\x0203]Du musst dir
+    \x02\x07Datamon\x02\x07Beep! Du darfst
+    m. n. kopieren![pause]\x02\x03Du musst dir
     selbst etwas
     ausdenken![pause]
   - |-
-    [\x0207][\x020902]3Was? OK. Auf
+    \x02\x07\x02\x09\x023Was? OK. Auf
     in den Kampf.[pause]

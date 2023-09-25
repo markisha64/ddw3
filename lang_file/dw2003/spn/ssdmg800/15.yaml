@@ -5,26 +5,26 @@ strings:
     ¡El domador más
     fuerte![pause]
   - |-
-    [\x0207][\x020902]3Lord Megadeath.
+    \x02\x07\x02\x09\x023Lord Megadeath.
     ¿Quién eres?[pause]
-  - "Soy una forma de vida digital\nnacida dentro de la red...[pause][\\x0203]Y el que va a reemplazar a \nlos humanos como \ngobernantes de los mundos...[pause]"
-  - "[\\x0207][\\x020902]3¿Por eso \nformaste\nA.o.A?[pause]"
+  - "Soy una forma de vida digital\nnacida dentro de la red...[pause]\\x02\\x03Y el que va a reemplazar a \nlos humanos como \ngobernantes de los mundos...[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¿Por eso \nformaste\nA.o.A?[pause]"
   - |-
     ...Sí, para crear el leal
     y más poderoso Digimon,
     ¡Snatchmon![pause]
   - |-
-    [\x0207][\x020902]3¿Snatchmon?
+    \x02\x07\x02\x09\x023¿Snatchmon?
     ¡Nunca he oído
     hablar de él![pause]
-  - "...Snatchmon nace cuando\nVemmon absorve gran cantidad\nde datos de matriz, y digiev.[pause][\\x0203]Ya lo has visto...\nA los que se absorve los datos de \nmatriz, se convierten en Digimon.[pause]"
-  - "[\\x0207][\\x020902]3¿Qué? Así que \neso son los \nOinkmon.[pause]"
-  - "Cuando Gunslinger lance la \nonda Digitaliz.[pause][\\x0203]Los datos de matriz de todas\nlas formas de vida se enviarán[pause][\\x0203]¡y Snatchmon, será el\nmás fuerte![pause][\\x0203]Y como domador de Snatchmon\ndominaré el mundo\ncon terror e injusticia.[pause]"
-  - "[\\x0207][\\x020902]3¡Sí, vale! \n¡No te dejaré![pause]"
+  - "...Snatchmon nace cuando\nVemmon absorve gran cantidad\nde datos de matriz, y digiev.[pause]\\x02\\x03Ya lo has visto...\nA los que se absorve los datos de \nmatriz, se convierten en Digimon.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¿Qué? Así que \neso son los \nOinkmon.[pause]"
+  - "Cuando Gunslinger lance la \nonda Digitaliz.[pause]\\x02\\x03Los datos de matriz de todas\nlas formas de vida se enviarán[pause]\\x02\\x03¡y Snatchmon, será el\nmás fuerte![pause]\\x02\\x03Y como domador de Snatchmon\ndominaré el mundo\ncon terror e injusticia.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Sí, vale! \n¡No te dejaré![pause]"
   - |-
     ...Por eso lucharás
-    conmigo...[pause][\x0203]¡Para probar que soy
+    conmigo...[pause]\x02\x03¡Para probar que soy
     el más fuerte![pause]
   - |-
-    [\x0207][\x020902]3Sí, sí...
+    \x02\x07\x02\x09\x023Sí, sí...
     ¡Vamos allá![pause]

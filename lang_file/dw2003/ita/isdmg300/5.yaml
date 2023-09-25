@@ -1,24 +1,24 @@
 strings:
   - ''
   - |-
-    [\x0207]Datamon[\x0207]Devi essere molto
+    \x02\x07Datamon\x02\x07Devi essere molto
     bravo se hai vinto con
-    me. Meriti questi![pause][\x0203]I guanti arrugginiti!
+    me. Meriti questi![pause]\x02\x03I guanti arrugginiti!
     Sono rarissimi:
     abbine cura.[pause]
   - |-
-    [\x0207][\x020902]3Eh? Ah, sì,
+    \x02\x07\x02\x09\x023Eh? Ah, sì,
     ne avrò cura.
-    Grazie.[pause][\x0203]Ho i guanti
+    Grazie.[pause]\x02\x03Ho i guanti
     arrugginiti!
     Belli, eh?[pause]
   - |-
-    [\x0207]Datamon[\x0207]Nel Mondo Digitale,
+    \x02\x07Datamon\x02\x07Nel Mondo Digitale,
     armi e corazze antiche
-    nascondono segreti.[pause][\x0203]Trova il Digimon
+    nascondono segreti.[pause]\x02\x03Trova il Digimon
     digivoluto con corazza
     che li conosce.[pause]
   - |-
-    [\x0207][\x020902]3Oh, OK!
+    \x02\x07\x02\x09\x023Oh, OK!
     Lo troverò e mi
     farò dire tutto![pause]

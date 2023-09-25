@@ -1,12 +1,12 @@
 strings:
   - ''
-  - "[\\x0207]Mischievous Mat[\\x0207]I told you the Etemon \nyou're looking for isn't \nhere.[pause]"
+  - "\\x02\\x07Mischievous Mat\\x02\\x07I told you the Etemon \nyou're looking for isn't \nhere.[pause]"
   - |-
-    [\x0207][\x020902]3Well, of course
+    \x02\x07\x02\x09\x023Well, of course
     not, because you
     are the Etemon.[pause]
-  - '[\x0207]Mischievous Mat[\x0207]...What?![pause]'
-  - "[\\x0207][\\x020902]3I know your game.\nYou were wearing the \nEtemon Suit back there![pause]"
-  - "[\\x0207]Mischievous Mat[\\x0207].........[pause][\\x0203]Ah, you found \nout? That\nsucks![pause][\\x0203]Hey, just don't \ntell anyone, OK?[pause][\\x0203]I'll give you\nthis in return![pause]"
-  - "[\\x0207][\\x020902]3Right on! It's the \nAgumon Suits.[pause]"
-  - "[\\x0207]Mischievous Mat[\\x0207]This is a secret,\nbetween you and \nme, all right?![pause]"
+  - '\x02\x07Mischievous Mat\x02\x07...What?![pause]'
+  - "\\x02\\x07\\x02\\x09\\x023I know your game.\nYou were wearing the \nEtemon Suit back there![pause]"
+  - "\\x02\\x07Mischievous Mat\\x02\\x07.........[pause]\\x02\\x03Ah, you found \nout? That\nsucks![pause]\\x02\\x03Hey, just don't \ntell anyone, OK?[pause]\\x02\\x03I'll give you\nthis in return![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Right on! It's the \nAgumon Suits.[pause]"
+  - "\\x02\\x07Mischievous Mat\\x02\\x07This is a secret,\nbetween you and \nme, all right?![pause]"

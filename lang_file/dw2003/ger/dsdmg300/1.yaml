@@ -1,39 +1,39 @@
 strings:
   - ''
   - |-
-    [\x0207]Mann[\x0207]Hey, wer bist
-    denn du?[pause][\x0203]Schleicht hier
+    \x02\x07Mann\x02\x07Hey, wer bist
+    denn du?[pause]\x02\x03Schleicht hier
     herum... Du hast
     mich erschreckt...[pause]
   - |-
-    [\x0207][\x020902]3Ah, ah...
+    \x02\x07\x02\x09\x023Ah, ah...
     Tut mir leid,
     mein Herr...[pause]
-  - "[\\x0207]Mann[\\x0207]...Ich bin doch\nkein alter Mann![pause][\\x0203]Ich heiβe Nick \nund bin erst 21![pause]"
+  - "\\x02\\x07Mann\\x02\\x07...Ich bin doch\nkein alter Mann![pause]\\x02\\x03Ich heiβe Nick \nund bin erst 21![pause]"
   - |-
-    [\x0207][\x020902]3Oh Mann, tut
+    \x02\x07\x02\x09\x023Oh Mann, tut
     mir echt leid![pause]
   - |-
-    [\x0207]Nick[\x0207]Gibt es eigentlich
+    \x02\x07Nick\x02\x07Gibt es eigentlich
     nur unhöfliche Leute
-    auf diesem Server.[pause][\x0203]Erst Etemon und
+    auf diesem Server.[pause]\x02\x03Erst Etemon und
     jetzt du...[pause]
   - |-
-    [\x0207][\x020902]3...Etemon?
+    \x02\x07\x02\x09\x023...Etemon?
     Ist etwas
     passiert?[pause]
-  - "[\\x0207]Nick[\\x0207]Ich fand dieses rie-\nsige auffällige Schild.[pause][\\x0203]Dann kam Etemon, \nsagte es sei seines...[pause][\\x0203]und nahm es mir weg,\nohne sich zu bedanken.[pause]"
+  - "\\x02\\x07Nick\\x02\\x07Ich fand dieses rie-\nsige auffällige Schild.[pause]\\x02\\x03Dann kam Etemon, \nsagte es sei seines...[pause]\\x02\\x03und nahm es mir weg,\nohne sich zu bedanken.[pause]"
   - |-
-    [\x0207][\x020902]3...Etemon?
+    \x02\x07\x02\x09\x023...Etemon?
     Ein auffäl-
-    liges Schild?[pause][\x0203]...Was mag
+    liges Schild?[pause]\x02\x03...Was mag
     das wohl
     sein...[pause]
   - |-
-    [\x0207]Nick[\x0207]Ich bin ziem-
+    \x02\x07Nick\x02\x07Ich bin ziem-
     lich beschäf-
     tigt, also..[pause]
   - |-
-    [\x0207]Nick[\x0207]Warum machen sie nicht
-    ihren Job?[pause][\x0203]Ich wünschte, sie würd.
+    \x02\x07Nick\x02\x07Warum machen sie nicht
+    ihren Job?[pause]\x02\x03Ich wünschte, sie würd.
     mich zum Vorbild nehmen.[pause]

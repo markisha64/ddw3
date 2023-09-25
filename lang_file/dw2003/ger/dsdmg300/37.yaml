@@ -1,16 +1,16 @@
 strings:
   - ''
   - |-
-    [\x0207]Veemon[\x0207]Hey, du bist OK.
-    Ich bin beeindruckt![pause][\x0203]Hier nimm die Baum-
+    \x02\x07Veemon\x02\x07Hey, du bist OK.
+    Ich bin beeindruckt![pause]\x02\x03Hier nimm die Baum-
     stiefel![pause]
   - |-
-    [\x0207][\x020902]3Cool! Danke,
-    Veemon.[pause][\x0203]Toll! Die
+    \x02\x07\x02\x09\x023Cool! Danke,
+    Veemon.[pause]\x02\x03Toll! Die
     Baumstiefel![pause]
   - |-
-    [\x0207]Veemon[\x0207]Gut für dich!
+    \x02\x07Veemon\x02\x07Gut für dich!
     OK, ich gehe nach
-    Hause, essen![pause][\x0203]Lass uns später
+    Hause, essen![pause]\x02\x03Lass uns später
     mal wieder
     spielen![pause]

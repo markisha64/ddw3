@@ -1,29 +1,29 @@
 strings:
   - ''
   - |-
-    [\x0207]Chef de Seiryu[\x0207]Tu n'es pas
+    \x02\x07Chef de Seiryu\x02\x07Tu n'es pas
     mauvais. Quel
     est ton nom ?[pause]
   - |-
-    [\x0207][\x020902]3[\x020801][\x020501]. Tu
+    \x02\x07\x02\x09\x023\x02\x08\x01\x02\x05\x01. Tu
     t'es bien battu ![pause]
-  - "[\\x0207]Chef de Seiryu[\\x0207]Très bien,\n[\\x020801][\\x020501], \nprends ça.[pause]"
+  - "\\x02\\x07Chef de Seiryu\\x02\\x07Très bien,\n\\x02\\x08\\x01\\x02\\x05\\x01, \nprends ça.[pause]"
   - |-
-    [\x0207][\x020902]3J'ai le badge de
+    \x02\x07\x02\x09\x023J'ai le badge de
     Seiryu et le
     Ticket d'argent ![pause]
   - |-
-    [\x0207]Chef de Seiryu[\x0207]Tu en auras
+    \x02\x07Chef de Seiryu\x02\x07Tu en auras
     besoin lors des
-    prochains combats.[pause][\x0203]Ce sont des
+    prochains combats.[pause]\x02\x03Ce sont des
     objets précieux.
     Garde les bien.[pause]
   - |-
-    [\x0207][\x020902]3Merci, chef de
+    \x02\x07\x02\x09\x023Merci, chef de
     Seiryu ![pause]
   - |-
-    [\x0207]Chef de Seiryu[\x0207]Tu va devoir défier
+    \x02\x07Chef de Seiryu\x02\x07Tu va devoir défier
     le chef de Suzaku,
-    dans le Secteur Sud.[pause][\x0203]La route est encore
+    dans le Secteur Sud.[pause]\x02\x03La route est encore
     longue, mais tu peux
     réussir. Bonne chance.[pause]

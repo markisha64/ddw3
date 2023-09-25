@@ -1,13 +1,13 @@
 strings:
   - ''
   - |-
-    [\x0207]Mr. Smith[\x0207]Un'occasione![pause][\x0203]Il pezzo principale![pause][\x0203]La tuta selvaggia,
-    favolosa![pause][\x0203]Quest'abito esclusivo
+    \x02\x07Mr. Smith\x02\x07Un'occasione![pause]\x02\x03Il pezzo principale![pause]\x02\x03La tuta selvaggia,
+    favolosa![pause]\x02\x03Quest'abito esclusivo
     di Kumamon parte da
     23000 BIT![pause]
-  - '[\x0207]Cliente Abel[\x0207]23500 BIT![pause]'
-  - '[\x0207]Capo Milly[\x0207]23800 BIT[pause]'
-  - '[\x0207]Masao RPG[\x0207]23900 BIT![pause]'
+  - '\x02\x07Cliente Abel\x02\x0723500 BIT![pause]'
+  - '\x02\x07Capo Milly\x02\x0723800 BIT[pause]'
+  - '\x02\x07Masao RPG\x02\x0723900 BIT![pause]'
   - |-
-    [\x0207][\x020902]3Hm, 24000 BIT
+    \x02\x07\x02\x09\x023Hm, 24000 BIT
     Mmmm...[pause]

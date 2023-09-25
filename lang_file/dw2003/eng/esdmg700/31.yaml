@@ -1,4 +1,4 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3...but I'm \nnot giving up \nyet![pause][\\x0203]I'm sure \nthere's some \nother way![pause]"
-  - "[\\x0207][\\x020902]3OK, let's go \ntalk to Lisa and\nthe others![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023...but I'm \nnot giving up \nyet![pause]\\x02\\x03I'm sure \nthere's some \nother way![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023OK, let's go \ntalk to Lisa and\nthe others![pause]"

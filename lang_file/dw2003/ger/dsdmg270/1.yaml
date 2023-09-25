@@ -1,45 +1,45 @@
 strings:
   - ''
   - |-
-    [\x0207]Sammler Luke[\x0207]OK, ich sende die
+    \x02\x07Sammler Luke\x02\x07OK, ich sende die
     Daten auf deinen
     Satelliten.[pause]
   - |-
     "S-Energie"
     Die Karten sind: Weiβ, Blau, Grün,
-    Rot, Schwarz und Braun.[pause][\x0203]S-Energie nimmt zu, wenn du eine
+    Rot, Schwarz und Braun.[pause]\x02\x03S-Energie nimmt zu, wenn du eine
     Karte aus dem Stapel mit dieser
-    Farbe ziehst.[pause][\x0203]S-Energie dient z. Rufen von
-    Digimon über Rookie-Level.[pause][\x0203]"S-Energie zum Rufen"
+    Farbe ziehst.[pause]\x02\x03S-Energie dient z. Rufen von
+    Digimon über Rookie-Level.[pause]\x02\x03"S-Energie zum Rufen"
     Zum Rufen von Digimon ist
-    S-Energie derselben Farbe nötig.[pause][\x0203]Champion-Digimon: ein Punkt.
+    S-Energie derselben Farbe nötig.[pause]\x02\x03Champion-Digimon: ein Punkt.
     Ultimativ-Digimon: zwei Punkte.
-    Mega-Digimon: drei Punkte.[pause][\x0203]Rookie-Digimon können ohne
+    Mega-Digimon: drei Punkte.[pause]\x02\x03Rookie-Digimon können ohne
     S-Energie gerufen werden.[pause]
   - |-
     "Combos"
     Wenn es mehr als drei gleiche Karten
-    im Feld gibt, nennt man das Combo.[pause][\x0203]Die Gesamtmenge der Combo-Karten
+    im Feld gibt, nennt man das Combo.[pause]\x02\x03Die Gesamtmenge der Combo-Karten
     wird addiert. Bei mehr als vier, gibt
-    es einen Bonus.[pause][\x0203]"Sammeln von Karten"
+    es einen Bonus.[pause]\x02\x03"Sammeln von Karten"
     Gewinnst du den Kampf, erhältst du
-    e. Booster. Diese enthalten Karten.[pause][\x0203]Booster erhältst du, wenn du gegen
-    Tamer gewinnst.[pause][\x0203]Es geht auβerdem das Gerücht, dass
-    ein bestimmtes Digimon sie hat.[pause][\x0203]"Cardmon"
+    e. Booster. Diese enthalten Karten.[pause]\x02\x03Booster erhältst du, wenn du gegen
+    Tamer gewinnst.[pause]\x02\x03Es geht auβerdem das Gerücht, dass
+    ein bestimmtes Digimon sie hat.[pause]\x02\x03"Cardmon"
     Cardmon ist ein bestimmtes Digimon,
-    das sich in dieser Welt versteckt.[pause][\x0203]Besiegst du Cardmon, erhältst du
+    das sich in dieser Welt versteckt.[pause]\x02\x03Besiegst du Cardmon, erhältst du
     Booster. Es versteckt sich in den
     Bäumen.[pause]
   - |-
     "Eiskäfer"
-    Eiskäfer ist eine blaue PG-Karte.[pause][\x0203]Wenn du sie nach einer PG-Karte des
+    Eiskäfer ist eine blaue PG-Karte.[pause]\x02\x03Wenn du sie nach einer PG-Karte des
     Gegners verwendest, kannst du diese
-    Karte vor ihrer Ausführung ablegen.[pause][\x0203]Diese Karte ist sehr stark. Erhältst
-    du sie, bewahre sie im Ordner auf.[pause][\x0203]"Gerüchte über Spezialkarten"
+    Karte vor ihrer Ausführung ablegen.[pause]\x02\x03Diese Karte ist sehr stark. Erhältst
+    du sie, bewahre sie im Ordner auf.[pause]\x02\x03"Gerüchte über Spezialkarten"
     Es gibt Gerüchte über Spezialkarten,
-    die nicht in den Boostern sind.[pause][\x0203]Laut Gerücht hat ein Tamer sie.
+    die nicht in den Boostern sind.[pause]\x02\x03Laut Gerücht hat ein Tamer sie.
     Suche danach und hole sie dir.[pause]
   - |-
-    [\x0207]Sammler Luke[\x0207]Du kannst nicht alles
+    \x02\x07Sammler Luke\x02\x07Du kannst nicht alles
     sofort wissen. Lern die
     Regeln nach u. nach.[pause]

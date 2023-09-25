@@ -2,18 +2,18 @@ strings:
   - ''
   - |-
     ALLES FÜR
-    START BEREIT![pause][\x0203]JUGGERNAUT
+    START BEREIT![pause]\x02\x03JUGGERNAUT
     STARTET![pause]
   - |-
-    [\x0207]Königl. Wac.[\x0207]Ha ha ha ha!
+    \x02\x07Königl. Wac.\x02\x07Ha ha ha ha!
     Unser Plan
     ist super![pause]
   - |-
-    [\x0207]Königl. Wache[\x0207]Jetzt los!
-    Juggernaut![pause][\x0203]Bring Terr. u. Zer-
+    \x02\x07Königl. Wache\x02\x07Jetzt los!
+    Juggernaut![pause]\x02\x03Bring Terr. u. Zer-
     störung über diese
     nutzlose Welt![pause]
   - |-
-    [\x0207]Königl. Wache[\x0207]Elektromagne-
+    \x02\x07Königl. Wache\x02\x07Elektromagne-
     tische Sperre
     jetzt aufheben![pause]

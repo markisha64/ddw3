@@ -1,20 +1,20 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3I won! \nWho's da man?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023I won! \nWho's da man?[pause]"
   - |-
-    [\x0207]Keith[\x0207]Ha! I went easy
+    \x02\x07Keith\x02\x07Ha! I went easy
     on you kid.[pause]
   - |-
-    [\x0207][\x020902]3I thought you
+    \x02\x07\x02\x09\x023I thought you
     said you weren't
     pulling punches.[pause]
   - |-
-    [\x0207]Keith[\x0207]I don't know what
-    you're talking about![pause][\x0203]You better watch
+    \x02\x07Keith\x02\x07I don't know what
+    you're talking about![pause]\x02\x03You better watch
     out. I'll get you
-    next time![pause][\x0203]Don't forget me.
+    next time![pause]\x02\x03Don't forget me.
     Sayonara, sucker![pause]
   - |-
-    [\x0207][\x020902]3Whatever!
+    \x02\x07\x02\x09\x023Whatever!
     He's the
     sucker![pause]

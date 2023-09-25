@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]DO-Wache[\x0207]He du! Ab hier
+    \x02\x07DO-Wache\x02\x07He du! Ab hier
     haben nur Mitar-
     beiter Zutritt![pause]

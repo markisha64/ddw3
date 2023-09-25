@@ -1,5 +1,5 @@
 strings:
   - ''
   - |-
-    [\x0207]Guardromon[\x0207]Ich greife jetzt auf
+    \x02\x07Guardromon\x02\x07Ich greife jetzt auf
     das Matrix-Drive zu.[pause]

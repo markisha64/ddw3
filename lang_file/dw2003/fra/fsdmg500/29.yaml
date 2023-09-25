@@ -1,60 +1,60 @@
 strings:
   - ''
   - |-
-    [\x0207]Chef de Suzaku[\x0207]Non, non. Tu
+    \x02\x07Chef de Suzaku\x02\x07Non, non. Tu
     ne peux pas
-    passer.[pause][\x0203]Regarde
+    passer.[pause]\x02\x03Regarde
     ça ![pause]
   - |-
-    [\x0207][\x020902]3Qu'est-ce
+    \x02\x07\x02\x09\x023Qu'est-ce
     c'est ?![pause]
   - |-
-    [\x0207]Chef de Suzaku[\x0207]Une brèche de
+    \x02\x07Chef de Suzaku\x02\x07Une brèche de
     sécurité, comme un
-    trou dans le réseau.[pause][\x0203]Cela explique sans
+    trou dans le réseau.[pause]\x02\x03Cela explique sans
     doute le tremblement
     de terre.[pause]
-  - "[\\x0207][\\x020902]3Ce... cette voix\nvient de la \nbarge... [pause][\\x0203]Je sais ! C'est\nBulbmon ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ce... cette voix\nvient de la \nbarge... [pause]\\x02\\x03Je sais ! C'est\nBulbmon ![pause]"
   - |-
-    [\x0207]Chef de Susaku[\x0207]Je t'interdis de
-    passer ![pause][\x0203]Tu ne sais pas ce
+    \x02\x07Chef de Susaku\x02\x07Je t'interdis de
+    passer ![pause]\x02\x03Tu ne sais pas ce
     qui peut arriver.
-    C'est dangereux ![pause][\x0203]En tant que chef du
+    C'est dangereux ![pause]\x02\x03En tant que chef du
     Secteur Sud, je ne te
     laisserai pas passer.[pause]
   - |-
-    [\x0207][\x020902]3Allez. Je dois
+    \x02\x07\x02\x09\x023Allez. Je dois
     vraiment aller
-    de l'autre côté ![pause][\x0203]Tu es courant,
-    pour l'AoA ?[pause][\x0203]Quelqu'un doit y
+    de l'autre côté ![pause]\x02\x03Tu es courant,
+    pour l'AoA ?[pause]\x02\x03Quelqu'un doit y
     aller ou la situation
     va s'empirer ![pause]
   - |-
-    [\x0207]Chef Suzaku[\x0207]Vu sous
+    \x02\x07Chef Suzaku\x02\x07Vu sous
     cet angle...[pause]
   - |-
-    [\x0207]Chef de Suzaku[\x0207]Allez, d'accord ![pause][\x0203]Mais si c'est
+    \x02\x07Chef de Suzaku\x02\x07Allez, d'accord ![pause]\x02\x03Mais si c'est
     trop risqué, tu
     reviens, OK ?![pause]
   - |-
-    [\x0207][\x020902]3Quatre badges
-    de chef ?[pause][\x0203]D'accord !
+    \x02\x07\x02\x09\x023Quatre badges
+    de chef ?[pause]\x02\x03D'accord !
     Merci, chef
     de Suzaku ![pause]
   - |-
-    [\x0207][\x020902]3Cette brèche mène
+    \x02\x07\x02\x09\x023Cette brèche mène
     peut-être au serveur
     Amaterasu ?[pause]
   - |-
-    [\x0207][\x020902]3Chef de Suzaku,
-    j'ai une question ![pause][\x0203]Sais-tu où se trouve
+    \x02\x07\x02\x09\x023Chef de Suzaku,
+    j'ai une question ![pause]\x02\x03Sais-tu où se trouve
     la chambre d'urgence
     du Secteur Nord ?[pause]
   - |-
-    [\x0207]Chef de Suzaku[\x0207]Tu parles de la
+    \x02\x07Chef de Suzaku\x02\x07Tu parles de la
     Chambre
-    Matrix d'urgence ?[pause][\x0203]Elle est située au
+    Matrix d'urgence ?[pause]\x02\x03Elle est située au
     sous-sol de la
-    Mine de Kulon.[pause][\x0203]Mais il faut les
+    Mine de Kulon.[pause]\x02\x03Mais il faut les
     4 badges de chef
     pour l'utiliser.[pause]

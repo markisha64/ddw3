@@ -1,40 +1,40 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Eh, cosa?
+    \x02\x07\x02\x09\x023Eh, cosa?
     Ancora non sono
     tornati normali.[pause]
   - |-
-    [\x0207]Teddy[\x0207][\x020801][\x020501], la
+    \x02\x07Teddy\x02\x07\x02\x08\x01\x02\x05\x01, la
     camera non
     funziona.[pause]
-  - '[\x0207][\x020902]3Kail![pause]'
-  - '[\x0207]Teddy[\x0207]Kail![pause]'
+  - '\x02\x07\x02\x09\x023Kail![pause]'
+  - '\x02\x07Teddy\x02\x07Kail![pause]'
   - |-
-    [\x0207]Kail[\x0207]Perché Kurt
+    \x02\x07Kail\x02\x07Perché Kurt
     non torna
     normale?[pause]
-  - '[\x0207]Kurt[\x0207]Ooink, oink![pause]'
+  - '\x02\x07Kurt\x02\x07Ooink, oink![pause]'
   - |-
-    [\x0207]Kail[\x0207]Kurt e gli altri
+    \x02\x07Kail\x02\x07Kurt e gli altri
     dovranno rimanere
     così?[pause]
   - |-
-    [\x0207]Teddy[\x0207]N-no. Sono
+    \x02\x07Teddy\x02\x07N-no. Sono
     sicuro che c'è
     un rimedio![pause]
   - |-
-    [\x0207]Teddy[\x0207]Vero,
-    [\x020801][\x020501]?[pause]
+    \x02\x07Teddy\x02\x07Vero,
+    \x02\x08\x01\x02\x05\x01?[pause]
   - |-
-    [\x0207][\x020902]3Sì, sono
-    sicuro![pause][\x0203]Voi aspettate
+    \x02\x07\x02\x09\x023Sì, sono
+    sicuro![pause]\x02\x03Voi aspettate
     qui. Vedrò
     cosa fare![pause]
   - |-
-    [\x0207]Kail[\x0207]Ehi,
-    [\x020801][\x020501],
+    \x02\x07Kail\x02\x07Ehi,
+    \x02\x08\x01\x02\x05\x01,
     Teddy.[pause]
   - |-
-    [\x0207]Kail[\x0207]Abbiamo battuto
+    \x02\x07Kail\x02\x07Abbiamo battuto
     l'A.o.A, vero?[pause]

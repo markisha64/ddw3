@@ -1,44 +1,44 @@
 strings:
   - ''
-  - "[\\x0207]Irrer Phillip[\\x0207]He, was geht ab?\nIch warte schon \n'ne ganze Weile.[pause]"
+  - "\\x02\\x07Irrer Phillip\\x02\\x07He, was geht ab?\nIch warte schon \n'ne ganze Weile.[pause]"
   - |-
-    [\x0207]Faulpelz Fei[\x0207]Wann können
+    \x02\x07Faulpelz Fei\x02\x07Wann können
     wir zurück?[pause]
   - |-
-    [\x0207]Tamer-Service[\x0207]Sorry, es gibt
+    \x02\x07Tamer-Service\x02\x07Sorry, es gibt
     immer noch
     keine Details.[pause]
   - |-
-    [\x0207]Kail[\x0207]Was geht hier
+    \x02\x07Kail\x02\x07Was geht hier
     eigentlich vor?[pause]
-  - "[\\x0207]Faulpelz Alan[\\x0207]Gamemaster? \nDas muss eine\nDurchsg. sein![pause]"
-  - "[\\x0207]Arbeiter Jeff[\\x0207]Sie ist eine \nFrau?! Das war\nmir nicht klar![pause]"
-  - "[\\x0207]Miss Misha[\\x0207]Sie ist cool!\nIch will so \nsein wie sie![pause]"
+  - "\\x02\\x07Faulpelz Alan\\x02\\x07Gamemaster? \nDas muss eine\nDurchsg. sein![pause]"
+  - "\\x02\\x07Arbeiter Jeff\\x02\\x07Sie ist eine \nFrau?! Das war\nmir nicht klar![pause]"
+  - "\\x02\\x07Miss Misha\\x02\\x07Sie ist cool!\nIch will so \nsein wie sie![pause]"
   - |-
-    [\x0207]Gamemaster[\x0207]Wir entschuldigen uns
+    \x02\x07Gamemaster\x02\x07Wir entschuldigen uns
     bei allen Spielern für
-    die Unannehmlichkeiten.[pause][\x0203]Die Wartung der Matrix-
+    die Unannehmlichkeiten.[pause]\x02\x03Die Wartung der Matrix-
     Kammer wird noch
-    etwas länger dauern.[pause][\x0203]Wir bitten um Geduld,
+    etwas länger dauern.[pause]\x02\x03Wir bitten um Geduld,
     bis das System repariert
     ist.[pause]
-  - "[\\x0207]Faulpelz Alan[\\x0207]Was? Mir \nreicht's![pause]"
-  - "[\\x0207]Arbeiter Jeff[\\x0207]Ich schätze, wir\nkönnen nichts \ndaran ändern.[pause]"
-  - "[\\x0207]Energische Yuki[\\x0207]Yeay! Dann \nkann ich noch\nlänger spielen![pause]"
-  - "[\\x0207]Kail[\\x0207]Wie blöd! Sie sind im-\nmer noch nicht fertig.[pause][\\x0203]Wir können nicht in \ndie echte Welt zurück![pause]"
-  - "[\\x0207][\\x020902]3Hmmm, ob wohl\nLucky Mouse daran \nschuld ist?[pause]"
-  - "[\\x0207]Kail[\\x0207]Lucky Mouse!?[pause][\\x0203]...Hey, was\nmeinst du \ndamit?[pause]"
+  - "\\x02\\x07Faulpelz Alan\\x02\\x07Was? Mir \nreicht's![pause]"
+  - "\\x02\\x07Arbeiter Jeff\\x02\\x07Ich schätze, wir\nkönnen nichts \ndaran ändern.[pause]"
+  - "\\x02\\x07Energische Yuki\\x02\\x07Yeay! Dann \nkann ich noch\nlänger spielen![pause]"
+  - "\\x02\\x07Kail\\x02\\x07Wie blöd! Sie sind im-\nmer noch nicht fertig.[pause]\\x02\\x03Wir können nicht in \ndie echte Welt zurück![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hmmm, ob wohl\nLucky Mouse daran \nschuld ist?[pause]"
+  - "\\x02\\x07Kail\\x02\\x07Lucky Mouse!?[pause]\\x02\\x03...Hey, was\nmeinst du \ndamit?[pause]"
   - |-
-    [\x0207][\x020902]3I. weiβ nichts Genaues,
+    \x02\x07\x02\x09\x023I. weiβ nichts Genaues,
     aber Teddy sagte, Lu.
     Mouse sei aufgetaucht.[pause]
   - |-
-    [\x0207]Kail[\x0207]... Sucht Teddy etwas
+    \x02\x07Kail\x02\x07... Sucht Teddy etwas
     Bestimmtes beim
     Administration-Center?[pause]
   - |-
-    [\x0207]Kail[\x0207]...Hey [\x020801][\x020501].
+    \x02\x07Kail\x02\x07...Hey \x02\x08\x01\x02\x05\x01.
     Lass uns nach Teddy
-    suchen![pause][\x0203]Ich möchte ihn
+    suchen![pause]\x02\x03Ich möchte ihn
     etwas fragen![pause]
-  - "[\\x0207][\\x020902]3OK, dann lasst uns \nsofort zum Center\naufbrechen![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023OK, dann lasst uns \nsofort zum Center\naufbrechen![pause]"

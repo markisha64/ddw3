@@ -1,5 +1,5 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Co-cosa
+    \x02\x07\x02\x09\x023Co-cosa
     accade?[pause]

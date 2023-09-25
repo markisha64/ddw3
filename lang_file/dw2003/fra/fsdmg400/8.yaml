@@ -1,19 +1,19 @@
 strings:
   - ''
   - |-
-    [\x0207]Zanbamon[\x0207]Hé, attends !
-    Atteeeends ![pause][\x0203]Je ne vais pas te
+    \x02\x07Zanbamon\x02\x07Hé, attends !
+    Atteeeends ![pause]\x02\x03Je ne vais pas te
     laisser passer
     par ici ![pause]
   - |-
-    [\x0207][\x020902]3Tu plaisantes,
+    \x02\x07\x02\x09\x023Tu plaisantes,
     j'espère. Je dois
     passer par là.[pause]
   - |-
-    [\x0207]Zanbamon[\x0207]Alors essaie d'abord
-    de me battre.[pause][\x0203]Bien sûr, je ne
+    \x02\x07Zanbamon\x02\x07Alors essaie d'abord
+    de me battre.[pause]\x02\x03Bien sûr, je ne
     perds jamais !
     Ha ha ha ha ![pause]
   - |-
-    [\x0207][\x020902]3On va voir ![pause][\x0203]Il y a un
+    \x02\x07\x02\x09\x023On va voir ![pause]\x02\x03Il y a un
     début à tout.[pause]

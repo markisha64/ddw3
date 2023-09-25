@@ -1,8 +1,8 @@
 strings:
   - ''
   - |-
-    [\x0207]Sepikmon[\x0207]Tout le monde dit que
+    \x02\x07Sepikmon\x02\x07Tout le monde dit que
     j'ai fait des blagues à
-    Asuka City ![pause][\x0203]Ce type doit avoir mon
-    masque ![pause][\x0203]Attrape-le et reprends
+    Asuka City ![pause]\x02\x03Ce type doit avoir mon
+    masque ![pause]\x02\x03Attrape-le et reprends
     mon masque. Merci ![pause]

@@ -1,8 +1,8 @@
 strings:
   - ''
   - |-
-    [\x0207]Tamer Haruka[\x0207]Also dann,
+    \x02\x07Tamer Haruka\x02\x07Also dann,
     sei mutig auf
-    deinem Weg![pause][\x0203]Und dankbar für
+    deinem Weg![pause]\x02\x03Und dankbar für
     meine Groβ-
     zügigkeit![pause]

@@ -1,10 +1,10 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Eh, ¿qué
+    \x02\x07\x02\x09\x023Eh, ¿qué
     tenemos aquí?[pause]
   - |-
-    [\x0207][\x020902]3¡Sí! ¡Tengo
+    \x02\x07\x02\x09\x023¡Sí! ¡Tengo
     el Digihuevo de
     Sabiduría![pause]
-  - "[\\x0207][\\x020902]3¡Ya puedo llamar\na Digmon![pause][\\x0203]¡Volvamos a Servidor\nAsuka para ir al \nSector Norte![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Ya puedo llamar\na Digmon![pause]\\x02\\x03¡Volvamos a Servidor\nAsuka para ir al \nSector Norte![pause]"

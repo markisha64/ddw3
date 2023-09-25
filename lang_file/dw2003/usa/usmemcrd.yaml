@@ -2,7 +2,7 @@ strings:
   - ''
   - SAVE
   - Saving
-  - Slot [\x020501]
+  - Slot \x02\x05\x01
   - |-
     Checking Memory Card.
     Do not touch Memory Card.
@@ -22,7 +22,7 @@ strings:
   - File cannot be found.
   - |-
     There are not enough blocks.
-    [\x020501] blocks are needed to save.
+    \x02\x05\x01 blocks are needed to save.
   - LOAD
   - Loading
   - |-
@@ -57,4 +57,4 @@ strings:
   - Failed to save.
   - Failed to access.
   - Digimon World 3 Saved Data
-  - Accessing Memory Card Slot [\x020501]
+  - Accessing Memory Card Slot \x02\x05\x01

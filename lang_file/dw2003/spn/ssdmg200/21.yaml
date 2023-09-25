@@ -1,22 +1,22 @@
 strings:
   - ''
   - |-
-    [\x0207]Jugador Misterioso[\x0207]¡Eh, espera,
+    \x02\x07Jugador Misterioso\x02\x07¡Eh, espera,
     chico![pause]
   - |-
-    [\x0207][\x020902]3¿Me estás
+    \x02\x07\x02\x09\x023¿Me estás
     hablando
     a mí?[pause]
-  - "[\\x0207]Jugador Misterioso[\\x0207]¡Claro que es \na ti![pause][\\x0203]Eres [\\x020801][\\x020501], que \nganaste al Líder\nSeiryu,  ¿no?[pause]"
-  - "[\\x0207][\\x020902]3Sí... Y tú \neres...[pause]"
-  - "[\\x0207]Keith[\\x0207]Me llamo Keith, mejor \nque lo recuerdes,\nchico.[pause][\\x0203]Soy el que va a\nganar el torneo.[pause]"
-  - "[\\x0207][\\x020902]3¿Sí? ¡Solo hay\nque esperar y \nveremos![pause]"
+  - "\\x02\\x07Jugador Misterioso\\x02\\x07¡Claro que es \na ti![pause]\\x02\\x03Eres \\x02\\x08\\x01\\x02\\x05\\x01, que \nganaste al Líder\nSeiryu,  ¿no?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Sí... Y tú \neres...[pause]"
+  - "\\x02\\x07Keith\\x02\\x07Me llamo Keith, mejor \nque lo recuerdes,\nchico.[pause]\\x02\\x03Soy el que va a\nganar el torneo.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¿Sí? ¡Solo hay\nque esperar y \nveremos![pause]"
   - |-
-    [\x0207]Keith[\x0207]Ja ja, ya veo.
+    \x02\x07Keith\x02\x07Ja ja, ya veo.
     ¿Así que quieres
     luchar conmigo?[pause]
-  - '[\x0207][\x020902]3¡Vamos allá![pause]'
+  - '\x02\x07\x02\x09\x023¡Vamos allá![pause]'
   - |-
-    [\x0207]Keith[\x0207]¡Lo siento pero no
+    \x02\x07Keith\x02\x07¡Lo siento pero no
     voy a sacar
     ningún golpe![pause]

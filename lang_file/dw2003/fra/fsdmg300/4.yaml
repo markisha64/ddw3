@@ -2,19 +2,19 @@ strings:
   - ''
   - a
   - |-
-    [\x0207]Datamon[\x0207]Tu es venu
+    \x02\x07Datamon\x02\x07Tu es venu
     jusqu'ici pour
-    me défier ?[pause][\x0203]Je suis ton
+    me défier ?[pause]\x02\x03Je suis ton
     homme !
     Battons-nous ![pause]
   - |-
-    [\x0207][\x020902]3D'accord !
+    \x02\x07\x02\x09\x023D'accord !
     Battons-nous ![pause]
   - |-
-    [\x0207]Datamon[\x0207]Tu ne peux
-    pas me copier ![pause][\x0203]Tu dois arriver
+    \x02\x07Datamon\x02\x07Tu ne peux
+    pas me copier ![pause]\x02\x03Tu dois arriver
     avec ta propre
     ligne ! Bip ![pause]
   - |-
-    [\x0207][\x020902]3Quoi ? Hm, OK.
+    \x02\x07\x02\x09\x023Quoi ? Hm, OK.
     Allons-y ![pause]

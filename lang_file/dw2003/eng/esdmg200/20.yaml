@@ -1,5 +1,5 @@
 strings:
   - ''
   - |-
-    [\x0207]Rapper Mike[\x0207]We're tight, so you
+    \x02\x07Rapper Mike\x02\x07We're tight, so you
     can go in![pause]

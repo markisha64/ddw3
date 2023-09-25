@@ -1,32 +1,32 @@
 strings:
   - ''
   - |-
-    [\x0207]Lisa[\x0207]Anche i
+    \x02\x07Lisa\x02\x07Anche i
     Knightmon
-    cadranno.[pause][\x0203]OK, liberiamo
+    cadranno.[pause]\x02\x03OK, liberiamo
     la gente della
     città![pause]
   - |-
-    [\x0207]Capo Chuck[\x0207]Tutti voi,
+    \x02\x07Capo Chuck\x02\x07Tutti voi,
     venite.
     Carica![pause]
-  - '[\x0207]Wanda della Res.[\x0207]Sì![pause]'
+  - '\x02\x07Wanda della Res.\x02\x07Sì![pause]'
   - |-
-    [\x0207]Dev della Resist.[\x0207]Non perderemo
+    \x02\x07Dev della Resist.\x02\x07Non perderemo
     contro l'A.o.A![pause]
   - |-
-    [\x0207]Meech della Res.[\x0207]Riprendiamoci
+    \x02\x07Meech della Res.\x02\x07Riprendiamoci
     Amaterasu![pause]
   - |-
-    [\x0207]Teddy[\x0207]Wow!
+    \x02\x07Teddy\x02\x07Wow!
     Vinceremo![pause]
   - |-
-    [\x0207][\x020902]3Sì! Lisa e
+    \x02\x07\x02\x09\x023Sì! Lisa e
     gli altri sono
     qui![pause]
   - |-
-    [\x0207]Teddy[\x0207]Ma che starà
+    \x02\x07Teddy\x02\x07Ma che starà
     succedendo nel
-    Mondo Reale?[pause][\x0203]Speriamo che
+    Mondo Reale?[pause]\x02\x03Speriamo che
     Destromon non
     abbia attaccato.[pause]

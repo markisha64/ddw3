@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]Digitations-Navi.[\x0207]Verstehe.[pause][\x0203]Wenn du Infos
+    \x02\x07Digitations-Navi.\x02\x07Verstehe.[pause]\x02\x03Wenn du Infos
     haben willst, sprich
     mit mir.[pause]

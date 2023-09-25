@@ -1,40 +1,40 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Huch, was?
+    \x02\x07\x02\x09\x023Huch, was?
     Sie sind noch immer
     nicht normal...[pause]
   - |-
-    [\x0207]Teddy[\x0207][\x020801][\x020501], die
+    \x02\x07Teddy\x02\x07\x02\x08\x01\x02\x05\x01, die
     Kammer arbeitet
     auch nicht...[pause]
-  - '[\x0207][\x020902]3...Kail![pause]'
-  - '[\x0207]Teddy[\x0207]Kail![pause]'
+  - '\x02\x07\x02\x09\x023...Kail![pause]'
+  - '\x02\x07Teddy\x02\x07Kail![pause]'
   - |-
-    [\x0207]Kail[\x0207]Warum ist Kurt
+    \x02\x07Kail\x02\x07Warum ist Kurt
     nicht wieder
     normal?[pause]
-  - '[\x0207]Kurt[\x0207]Ooink, oink![pause]'
+  - '\x02\x07Kurt\x02\x07Ooink, oink![pause]'
   - |-
-    [\x0207]Kail[\x0207]...Bleiben Kurt
+    \x02\x07Kail\x02\x07...Bleiben Kurt
     und die anderen
     so...?[pause]
   - |-
-    [\x0207]Teddy[\x0207]N-nein. Wir können
+    \x02\x07Teddy\x02\x07N-nein. Wir können
     sie bestimmt
     wiederherstellen![pause]
   - |-
-    [\x0207]Teddy[\x0207]...nicht wahr,
-    [\x020801][\x020501]?![pause]
+    \x02\x07Teddy\x02\x07...nicht wahr,
+    \x02\x08\x01\x02\x05\x01?![pause]
   - |-
-    [\x0207][\x020902]3...jja.
-    Ich bin sicher![pause][\x0203]Ihr wartet hier.
+    \x02\x07\x02\x09\x023...jja.
+    Ich bin sicher![pause]\x02\x03Ihr wartet hier.
     Ich seh mir das
     mal an![pause]
   - |-
-    [\x0207]Kail[\x0207]...hey,
-    [\x020801][\x020501]
+    \x02\x07Kail\x02\x07...hey,
+    \x02\x08\x01\x02\x05\x01
     Teddy...[pause]
   - |-
-    [\x0207]Kail[\x0207]Wir besiegten die
+    \x02\x07Kail\x02\x07Wir besiegten die
     A.o.A., richtig?[pause]

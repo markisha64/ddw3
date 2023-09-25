@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Sei tu il
+    \x02\x07\x02\x09\x023Sei tu il
     capo di Bai Hu?[pause]
   - |-
-    [\x0207]Capo di Bai Hu[\x0207]È così.
+    \x02\x07Capo di Bai Hu\x02\x07È così.
     Cosa vuoi?[pause]
   - |-
-    [\x0207][\x020902]3Dammi il
+    \x02\x07\x02\x09\x023Dammi il
     pass bianco![pause]
   - |-
-    [\x0207]Capo di Bai Hu[\x0207]Ah.
-    Heh heh heh![pause][\x0203]Non importa: in
+    \x02\x07Capo di Bai Hu\x02\x07Ah.
+    Heh heh heh![pause]\x02\x03Non importa: in
     ogni caso vinceremo
-    noi![pause][\x0203]E ora ti devo
+    noi![pause]\x02\x03E ora ti devo
     dare una lezione![pause]

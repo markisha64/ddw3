@@ -1,40 +1,40 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Si!
+    \x02\x07\x02\x09\x023Si!
     Vittoria![pause]
   - |-
-    [\x0207][\x020902]3Eh? C'è
+    \x02\x07\x02\x09\x023Eh? C'è
     qualcosa a
-    terra.[pause][\x0203]Un'arma per il
-    solo Veemon![pause][\x0203]La difesa di
+    terra.[pause]\x02\x03Un'arma per il
+    solo Veemon![pause]\x02\x03La difesa di
     Dramon![pause]
   - |-
-    [\x0207][\x020902]3Aspetta!
+    \x02\x07\x02\x09\x023Aspetta!
     Non ho tempo da
-    perdere![pause][\x0203]Devo fermare il
+    perdere![pause]\x02\x03Devo fermare il
     lancio della
     Juggernaut![pause]
   - |-
-    [\x0207][\x020902]3Quale pulsante?
+    \x02\x07\x02\x09\x023Quale pulsante?
     Eccolo!
     È questo![pause]
   - |-
-    [\x0207][\x020902]3Eh? Nulla di
+    \x02\x07\x02\x09\x023Eh? Nulla di
     fatto? Ma se
-    l'A.o.A era qui![pause][\x0203]Questo dovrebbe
+    l'A.o.A era qui![pause]\x02\x03Questo dovrebbe
     impedire il
     lancio![pause]
   - |-
     A TUTTO IL PERSONALE DELLA
     MAGASTA. LA JUGGERNAUT
-    È STATA QUASI RICARICATA[pause][\x0203]IL PERSONALE NELLA BASE TROVI
+    È STATA QUASI RICARICATA[pause]\x02\x03IL PERSONALE NELLA BASE TROVI
     RIPARO, RIPETO,
     JUG...NAUT...ASI...ICATA...[pause]
   - |-
-    [\x0207][\x020902]3Co-cosa?!
+    \x02\x07\x02\x09\x023Co-cosa?!
     Non si
-    ferma?[pause][\x0203]Era una
-    trappola![pause][\x0203]Allora, l'A.o.A
+    ferma?[pause]\x02\x03Era una
+    trappola![pause]\x02\x03Allora, l'A.o.A
     dev'essere
     altrove![pause]

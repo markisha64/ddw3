@@ -1,45 +1,45 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Sepikmon,
+    \x02\x07\x02\x09\x023Sepikmon,
     J'ai trouvé
     ton masque.[pause]
   - |-
-    [\x0207]Sepikmon[\x0207]Ouah !
+    \x02\x07Sepikmon\x02\x07Ouah !
     Merci ![pause]
-  - '[\x0207]Sepikmon[\x0207]......[pause][\x0203]...[pause]'
+  - '\x02\x07Sepikmon\x02\x07......[pause]\x02\x03...[pause]'
   - |-
-    [\x0207][\x020902]3Qu'est-ce qu'il
+    \x02\x07\x02\x09\x023Qu'est-ce qu'il
     y a ? Mets-le
     et sors.[pause]
   - |-
-    [\x0207]Sepikmon[\x0207]Euh... Tu
+    \x02\x07Sepikmon\x02\x07Euh... Tu
     peux te
     retourner ?[pause]
   - |-
-    [\x0207][\x020902]3Oh... Ah...
+    \x02\x07\x02\x09\x023Oh... Ah...
     D'accord.[pause]
   - |-
-    [\x0207]Sepikmon[\x0207]Ah, enfin ! Je me
+    \x02\x07Sepikmon\x02\x07Ah, enfin ! Je me
     sens bien mieux
     comme ça ![pause]
   - |-
-    [\x0207]Sepikmon[\x0207]Tiens, je te
+    \x02\x07Sepikmon\x02\x07Tiens, je te
     donne ça ![pause]
   - |-
-    [\x0207][\x020902]3C'est quoi
+    \x02\x07\x02\x09\x023C'est quoi
     cette Herbe
     Fétide ?[pause]
-  - "[\\x0207]Sepikmon[\\x0207]Zanbamon déteste \ncette odeur ![pause][\\x0203]Il va s'enfuir à\ntoutes jambes ![pause]"
+  - "\\x02\\x07Sepikmon\\x02\\x07Zanbamon déteste \ncette odeur ![pause]\\x02\\x03Il va s'enfuir à\ntoutes jambes ![pause]"
   - |-
-    [\x0207][\x020902]3Vraiment ?
+    \x02\x07\x02\x09\x023Vraiment ?
     Merci, tu me
     sauves la vie ![pause]
   - |-
-    [\x0207]Sepikmon[\x0207]Merci à toi
+    \x02\x07Sepikmon\x02\x07Merci à toi
     aussi. Bonne
     chance ![pause]
   - |-
-    [\x0207]Sepikmon[\x0207]Ce sac en
+    \x02\x07Sepikmon\x02\x07Ce sac en
     papier n'a
     pas suffi ![pause]

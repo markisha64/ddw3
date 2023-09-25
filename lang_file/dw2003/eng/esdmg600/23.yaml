@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207]Lisa[\x0207]All right! Nick, look
+    \x02\x07Lisa\x02\x07All right! Nick, look
     for a pass code in
     the computer![pause]
-  - "[\\x0207]Lisa[\\x0207]Keith, you clean\nup the documents! \nCome on, hurry up![pause]"
-  - '[\x0207]Keith[\x0207]Yes ma''am![pause]'
-  - '[\x0207]Nick[\x0207]Roger that![pause]'
-  - "[\\x0207]Lisa[\\x0207]See, it won't\ntake that \nlong now.[pause]"
-  - "[\\x0207]Kail[\\x0207]Um, ah, Lisa.\nWho are those \ntwo?[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07Keith, you clean\nup the documents! \nCome on, hurry up![pause]"
+  - '\x02\x07Keith\x02\x07Yes ma''am![pause]'
+  - '\x02\x07Nick\x02\x07Roger that![pause]'
+  - "\\x02\\x07Lisa\\x02\\x07See, it won't\ntake that \nlong now.[pause]"
+  - "\\x02\\x07Kail\\x02\\x07Um, ah, Lisa.\nWho are those \ntwo?[pause]"
   - |-
-    [\x0207]Lisa[\x0207]Oh, they're just
+    \x02\x07Lisa\x02\x07Oh, they're just
     my friends.[pause]
-  - '[\x0207]Kail[\x0207]Oh, OK...[pause]'
-  - "[\\x0207]Kail[\\x0207]Are they really \njust friends?[pause]"
-  - '[\x0207][\x020902]3Don''t look at me.[pause]'
+  - '\x02\x07Kail\x02\x07Oh, OK...[pause]'
+  - "\\x02\\x07Kail\\x02\\x07Are they really \njust friends?[pause]"
+  - '\x02\x07\x02\x09\x023Don''t look at me.[pause]'

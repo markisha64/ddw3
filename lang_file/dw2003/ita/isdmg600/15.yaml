@@ -1,130 +1,130 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Allora questo è
+    \x02\x07\x02\x09\x023Allora questo è
     il rifugio di T...[pause]
   - |-
-    [\x0207][\x020902]3Dov'è Teddy?
+    \x02\x07\x02\x09\x023Dov'è Teddy?
     Dov'è ora?[pause]
   - |-
-    [\x0207]Topo Fortunato[\x0207]Teddy? Ah, il ragazzo
+    \x02\x07Topo Fortunato\x02\x07Teddy? Ah, il ragazzo
     che ha scoperto il mio
-    account?[pause][\x0203]Io non c'entro! È
+    account?[pause]\x02\x03Io non c'entro! È
     stata l'A.o.A![pause]
   - |-
-    [\x0207][\x020902]3Cosa? Che vuoi
-    dire?[pause][\x0203]La Signora del Gioco
+    \x02\x07\x02\x09\x023Cosa? Che vuoi
+    dire?[pause]\x02\x03La Signora del Gioco
     di Asuka dice che
     l'hai catturato tu.[pause]
   - |-
-    [\x0207]Topo Fortunato[\x0207]Lei è un'agente di
-    punta dell'A.o.A.[pause][\x0203]E poi, la MAGAMI
+    \x02\x07Topo Fortunato\x02\x07Lei è un'agente di
+    punta dell'A.o.A.[pause]\x02\x03E poi, la MAGAMI
     non è altro che
-    l'A.o.A![pause][\x0203]Molti suoi membri sono
+    l'A.o.A![pause]\x02\x03Molti suoi membri sono
     nel server di Asuka![pause]
   - |-
-    [\x0207][\x020902]3Allora la Signora
-    del Gioco mente?[pause][\x0203]Devo salvare
+    \x02\x07\x02\x09\x023Allora la Signora
+    del Gioco mente?[pause]\x02\x03Devo salvare
     Teddy![pause]
   - |-
-    [\x0207]Lisa[\x0207]Ma cosa vuole
+    \x02\x07Lisa\x02\x07Ma cosa vuole
     l'A.o.A?[pause]
   - |-
-    [\x0207]Topo Fortunato[\x0207]Assicurarsi il
+    \x02\x07Topo Fortunato\x02\x07Assicurarsi il
     dominio su
-    Digimon Online.[pause][\x0203]Poi potrà controllare
+    Digimon Online.[pause]\x02\x03Poi potrà controllare
     la rete in
     tutto il mondo.[pause]
   - |-
-    [\x0207]Lisa[\x0207]Non è certo una
+    \x02\x07Lisa\x02\x07Non è certo una
     bella notizia!
-    Accidenti![pause][\x0203]Controlleranno tutti
+    Accidenti![pause]\x02\x03Controlleranno tutti
     i computer del
     mondo![pause]
   - |-
-    [\x0207]Topo Fortunato[\x0207]Per questo ho causato
+    \x02\x07Topo Fortunato\x02\x07Per questo ho causato
     il malfunzionamento
-    del sistema.[pause][\x0203]Nessuno potrà
+    del sistema.[pause]\x02\x03Nessuno potrà
     collegarsi per
     un bel po'.[pause]
   - |-
-    [\x0207]Lisa[\x0207]Ecco perché non
+    \x02\x07Lisa\x02\x07Ecco perché non
     si può tornare
     al Mondo Reale.[pause]
   - |-
     Ha ha ha ha ha!
     Ci hai creato
-    molti problemi![pause][\x0203]Ma grazie al ragazzo
+    molti problemi![pause]\x02\x03Ma grazie al ragazzo
     i nostri piani
     sono ripartiti![pause]
-  - '[\x0207]Topo Fort.[\x0207]Kail?[pause]'
-  - '[\x0207][\x020902]3Kail![pause]'
+  - '\x02\x07Topo Fort.\x02\x07Kail?[pause]'
+  - '\x02\x07\x02\x09\x023Kail![pause]'
   - |-
-    [\x0207]Kail[\x0207][\x020801][\x020501]!
+    \x02\x07Kail\x02\x07\x02\x08\x01\x02\x05\x01!
     Kurt![pause]
   - |-
-    [\x0207][\x020902]3Cosa? Allora
+    \x02\x07\x02\x09\x023Cosa? Allora
     il fratello di Kail
     è...[pause]
   - |-
-    [\x0207]Topo Fortunato[\x0207]Sì, il mio
+    \x02\x07Topo Fortunato\x02\x07Sì, il mio
     vero nome è Kurt!
-    Sono suo fratello.[pause][\x0203]Ma come ha fatto
+    Sono suo fratello.[pause]\x02\x03Ma come ha fatto
     l'A.o.A a trovare
-    questo posto?[pause][\x0203]E perché Kail...?[pause]
+    questo posto?[pause]\x02\x03E perché Kail...?[pause]
   - |-
-    [\x0207]Generale[\x0207]Abbiamo seguito il
-    ragazzo da Asuka![pause][\x0203]Anche lei lo seguiva,
+    \x02\x07Generale\x02\x07Abbiamo seguito il
+    ragazzo da Asuka![pause]\x02\x03Anche lei lo seguiva,
     poi l'abbiamo
     presa![pause]
-  - '[\x0207]Topo Fortunato[\x0207]Lasciatela![pause]'
+  - '\x02\x07Topo Fortunato\x02\x07Lasciatela![pause]'
   - |-
-    [\x0207]Generale[\x0207]Non così in fretta!
+    \x02\x07Generale\x02\x07Non così in fretta!
     Dobbiamo prima
-    metterci d'accordo.[pause][\x0203]Ridacci quello che
+    metterci d'accordo.[pause]\x02\x03Ridacci quello che
     hai rubato, e sarà
     libera![pause]
   - |-
-    [\x0207]Topo Fortunato[\x0207]Va bene,
+    \x02\x07Topo Fortunato\x02\x07Va bene,
     ecco qua.[pause]
   - |-
-    [\x0207]Generale[\x0207]Molto bene,
-    ha ha ha ha![pause][\x0203]Finalmente
+    \x02\x07Generale\x02\x07Molto bene,
+    ha ha ha ha![pause]\x02\x03Finalmente
     torna a casa![pause]
   - |-
-    [\x0207]Assalitore[\x0207]OK, una promessa
+    \x02\x07Assalitore\x02\x07OK, una promessa
     è una promessa.
     La lascerò libera![pause]
   - |-
-    [\x0207]Kail[\x0207]Kurt!
-    [\x020801][\x020501]![pause]
+    \x02\x07Kail\x02\x07Kurt!
+    \x02\x08\x01\x02\x05\x01![pause]
   - |-
-    [\x0207]Assalitore[\x0207]Godetevi questi
-    momenti![pause][\x0203]Siete tutti
+    \x02\x07Assalitore\x02\x07Godetevi questi
+    momenti![pause]\x02\x03Siete tutti
     spacciati, ormai![pause]
   - |-
-    [\x0207]Topo Fortunato[\x0207]Attenzione,
+    \x02\x07Topo Fortunato\x02\x07Attenzione,
     tutti![pause]
-  - '[\x0207]Topo Fortunato[\x0207]Aaaah![pause]'
-  - '[\x0207]Kail[\x0207]Kurt![pause]'
+  - '\x02\x07Topo Fortunato\x02\x07Aaaah![pause]'
+  - '\x02\x07Kail\x02\x07Kurt![pause]'
   - |-
-    [\x0207][\x020902]3Inutile! Ormai è
+    \x02\x07\x02\x09\x023Inutile! Ormai è
     un Digimon![pause]
   - |-
-    [\x0207]Assalitore[\x0207]Diventerete tutti
+    \x02\x07Assalitore\x02\x07Diventerete tutti
     Oinkmon e sarete
-    rinchiusi![pause][\x0203]Avanti un altro![pause]
+    rinchiusi![pause]\x02\x03Avanti un altro![pause]
   - |-
-    [\x0207]Assalitore[\x0207]???
-    Non ho più energia![pause][\x0203]Allora venite,
+    \x02\x07Assalitore\x02\x07???
+    Non ho più energia![pause]\x02\x03Allora venite,
     miei Digimon![pause]
   - |-
-    [\x0207][\x020902]3Se vuoi
+    \x02\x07\x02\x09\x023Se vuoi
     combattere,
     eccomi qua![pause]
   - |-
-    [\x0207]Topo Fortunato[\x0207]Anche io ero nello
+    \x02\x07Topo Fortunato\x02\x07Anche io ero nello
     staff di Digimon
-    Online.[pause][\x0203]Ma quando ho capito
+    Online.[pause]\x02\x03Ma quando ho capito
     che cosa succedeva,
     era troppo tardi...[pause]

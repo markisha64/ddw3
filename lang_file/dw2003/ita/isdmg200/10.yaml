@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]Guardia D.O.[\x0207]Ehi! Qui entrano
+    \x02\x07Guardia D.O.\x02\x07Ehi! Qui entrano
     solo le persone
     autorizzate![pause]

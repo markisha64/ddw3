@@ -1,6 +1,6 @@
 strings:
   - ''
-  - Habe keine [\x020501].
+  - Habe keine \x02\x05\x01.
   - BIT
   - KAUFEN
   - VERKAUFEN
@@ -17,7 +17,7 @@ strings:
   - Nach Name
   - Wen ausrüsten?
   - Wie viele?
-  - '[\x020501] BIT'
+  - '\x02\x05\x01 BIT'
   - Buy
   - Nein
   - Ausr.?

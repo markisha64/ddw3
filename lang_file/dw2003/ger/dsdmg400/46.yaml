@@ -1,11 +1,11 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Ich kann Veemon
-    nicht finden...[pause][\x0203]Hmmm...
+    \x02\x07\x02\x09\x023Ich kann Veemon
+    nicht finden...[pause]\x02\x03Hmmm...
     Was soll ich
     tun...hmmm[pause]
   - |-
-    [\x0207][\x020902]3Oh, wir ver-
+    \x02\x07\x02\x09\x023Oh, wir ver-
     lassen einfach
     den Tretwald.[pause]

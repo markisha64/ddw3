@@ -1,9 +1,9 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Ouais !\nJ'ai battu \nKurt ![pause]"
-  - "[\\x0207]Kurt[\\x0207]Félicitations [\\x020801][\\x020501]\nTu m'a vaincu\nà la régulière ![pause][\\x0203]Maintenant, c'est \ntoi le plus fort\ndresseur ![pause]"
-  - '[\x0207][\x020902]3Merci ![pause]'
-  - "[\\x0207]Kurt[\\x0207]Bientôt Digimon Online \nsera réparé. En tant \nque 1er champion du[pause][\\x0203]Monde, tu affronteras\nceux qui viendront  te\ndéfier du monde entier.[pause]"
-  - "[\\x0207][\\x020902]3Moi ?\n1er champion\ndu Monde ?[pause][\\x0203]Eh bien, \nje ferai de\nmon mieux ![pause]"
-  - "[\\x0207]Kurt[\\x0207]Je compte sur toi !\nMais tu as encore \nle temps. D'ici là,[pause][\\x0203]continue de \nte battre et de \nt'améliorer ![pause]"
-  - "[\\x0207][\\x020902]3T'en fais pas. \nJe serai le \nplus grand [pause][\\x0203]champion de\nl'Histoire ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ouais !\nJ'ai battu \nKurt ![pause]"
+  - "\\x02\\x07Kurt\\x02\\x07Félicitations \\x02\\x08\\x01\\x02\\x05\\x01\nTu m'a vaincu\nà la régulière ![pause]\\x02\\x03Maintenant, c'est \ntoi le plus fort\ndresseur ![pause]"
+  - '\x02\x07\x02\x09\x023Merci ![pause]'
+  - "\\x02\\x07Kurt\\x02\\x07Bientôt Digimon Online \nsera réparé. En tant \nque 1er champion du[pause]\\x02\\x03Monde, tu affronteras\nceux qui viendront  te\ndéfier du monde entier.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Moi ?\n1er champion\ndu Monde ?[pause]\\x02\\x03Eh bien, \nje ferai de\nmon mieux ![pause]"
+  - "\\x02\\x07Kurt\\x02\\x07Je compte sur toi !\nMais tu as encore \nle temps. D'ici là,[pause]\\x02\\x03continue de \nte battre et de \nt'améliorer ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023T'en fais pas. \nJe serai le \nplus grand [pause]\\x02\\x03champion de\nl'Histoire ![pause]"

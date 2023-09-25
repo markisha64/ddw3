@@ -1,20 +1,20 @@
 strings:
   - ''
-  - "[\\x0207]Chef de Xuen Wu[\\x0207]Te voilà enfin,\ntoi qui t'opposes\nà nous  ![pause][\\x0203]Je suis là. Et je \nne vais pas fuir ni\nme cacher  ![pause][\\x0203]Viens donc jusqu'à \nmoi si tu l'oses  ![pause]"
+  - "\\x02\\x07Chef de Xuen Wu\\x02\\x07Te voilà enfin,\ntoi qui t'opposes\nà nous  ![pause]\\x02\\x03Je suis là. Et je \nne vais pas fuir ni\nme cacher  ![pause]\\x02\\x03Viens donc jusqu'à \nmoi si tu l'oses  ![pause]"
   - |-
-    [\x0207][\x020902]3Regarde bien  !
+    \x02\x07\x02\x09\x023Regarde bien  !
     J'arrive tout
     de suite  ![pause]
-  - "[\\x0207]Chef de Xuen Wu[\\x0207]Hum, tu as donc\nréussi à venir \njusqu'ici ...[pause][\\x0203]J'aurais dû me \nméfier après la \ndéfaite des autres  ![pause]"
+  - "\\x02\\x07Chef de Xuen Wu\\x02\\x07Hum, tu as donc\nréussi à venir \njusqu'ici ...[pause]\\x02\\x03J'aurais dû me \nméfier après la \ndéfaite des autres  ![pause]"
   - |-
-    [\x0207][\x020902]3Chef Xuen Wu  !
+    \x02\x07\x02\x09\x023Chef Xuen Wu  !
     Tu as le Passe
     noir  ![pause]
   - |-
-    [\x0207]Chef Xuen Wu[\x0207]Oui, je l'ai  !
-    Tu le veux ?[pause][\x0203]Tu devras venir
+    \x02\x07Chef Xuen Wu\x02\x07Oui, je l'ai  !
+    Tu le veux ?[pause]\x02\x03Tu devras venir
     le chercher ![pause]
   - |-
-    [\x0207][\x020902]3Ben tiens  !
+    \x02\x07\x02\x09\x023Ben tiens  !
     J'arrive tout
     de suite  ![pause]

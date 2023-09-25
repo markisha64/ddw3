@@ -1,16 +1,16 @@
 strings:
   - ''
   - |-
-    [\x0207]Zanbamon[\x0207]Che fai? Fuggi
+    \x02\x07Zanbamon\x02\x07Che fai? Fuggi
     nel mezzo della
-    battaglia?[pause][\x0203]Non sei alla
+    battaglia?[pause]\x02\x03Non sei alla
     mia altezza![pause]
   - |-
-    [\x0207][\x020902]3Ma che
-    succede![pause][\x0203]Tornerò e
+    \x02\x07\x02\x09\x023Ma che
+    succede![pause]\x02\x03Tornerò e
     ti batterò!
     Lo prometto![pause]
   - |-
-    [\x0207]Zanbamon[\x0207]Parli troppo,
+    \x02\x07Zanbamon\x02\x07Parli troppo,
     ragazzo!
     Ah, ah, ah, ah![pause]

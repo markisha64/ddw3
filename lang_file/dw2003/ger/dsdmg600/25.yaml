@@ -1,18 +1,18 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Bist du der
+    \x02\x07\x02\x09\x023Bist du der
     Bai Hu Chief!?[pause]
   - |-
-    [\x0207]Bai Hu Chief[\x0207]Ja, stimmt...
+    \x02\x07Bai Hu Chief\x02\x07Ja, stimmt...
     Was willst du?[pause]
   - |-
-    [\x0207][\x020902]3Gib mir
+    \x02\x07\x02\x09\x023Gib mir
     deinen weiβen
     ID-Pass![pause]
   - |-
-    [\x0207]Bai Hu Chief[\x0207]Verstehe.
-    Ha ha ha![pause][\x0203]Egal was du
+    \x02\x07Bai Hu Chief\x02\x07Verstehe.
+    Ha ha ha![pause]\x02\x03Egal was du
     versuchst, wir ge-
-    winnen doch![pause][\x0203]Jetzt lernst du
+    winnen doch![pause]\x02\x03Jetzt lernst du
     deine Lektion![pause]

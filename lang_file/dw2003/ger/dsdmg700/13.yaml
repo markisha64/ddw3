@@ -1,11 +1,11 @@
 strings:
   - ''
   - |-
-    [\x0207]Feuerritter[\x0207]Oh je, verloren!
-    Tatsächlich verloren.[pause][\x0203]Ich muss mal Dampf
+    \x02\x07Feuerritter\x02\x07Oh je, verloren!
+    Tatsächlich verloren.[pause]\x02\x03Ich muss mal Dampf
     ablassen. Das müssen
     wir mal wiederholen![pause]
   - |-
-    [\x0207]Feuerritter[\x0207]Als Nächstes kommt
+    \x02\x07Feuerritter\x02\x07Als Nächstes kommt
     das dunkle Verlies!
     Sei vorsichtig![pause]

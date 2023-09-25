@@ -1,46 +1,46 @@
 strings:
   - ''
   - |-
-    [\x0207]Femme[\x0207]Hé, toi...
+    \x02\x07Femme\x02\x07Hé, toi...
     Toi, là-
     bas ![pause]
   - |-
-    [\x0207][\x020902]3Hmmm
+    \x02\x07\x02\x09\x023Hmmm
     Qui... moi ?[pause]
   - |-
-    [\x0207]Femme[\x0207]Bonjour, je
-    suis Lisa.[pause][\x0203]Quel est
+    \x02\x07Femme\x02\x07Bonjour, je
+    suis Lisa.[pause]\x02\x03Quel est
     ton nom ?[pause]
   - |-
-    [\x0207][\x020902]3Oh, hmm,
-    [\x020801][\x020501].[pause]
+    \x02\x07\x02\x09\x023Oh, hmm,
+    \x02\x08\x01\x02\x05\x01.[pause]
   - |-
-    [\x0207]Lisa[\x0207][\x020801][\x020501], OK, je
-    m'en rappellerai.[pause][\x0203]Au fait, [\x020802][\x020502],
+    \x02\x07Lisa\x02\x07\x02\x08\x01\x02\x05\x01, OK, je
+    m'en rappellerai.[pause]\x02\x03Au fait, \x02\x08\x02\x02\x05\x02,
     as-tu vu un joli
     Digimon vert ?[pause]
   - |-
-    [\x0207][\x020902]3Hm, tu parles de
+    \x02\x07\x02\x09\x023Hm, tu parles de
     Monmon ou de
     Terriermon ?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Eh bien... hm,
-    Je ne sais pas.[pause][\x0203]Qu'en
+    \x02\x07Lisa\x02\x07Eh bien... hm,
+    Je ne sais pas.[pause]\x02\x03Qu'en
     penses-tu,
-    [\x020801][\x020501] ?[pause]
+    \x02\x08\x01\x02\x05\x01 ?[pause]
   - |-
-    [\x0207][\x020902]3C'est à dire
+    \x02\x07\x02\x09\x023C'est à dire
     que... ???[pause]
   - |-
-    [\x0207]Lisa[\x0207]... Je sais, c'est
+    \x02\x07Lisa\x02\x07... Je sais, c'est
     Ogremon ! C'est
-    sûrement lui ![pause][\x0203]Je dois aller
+    sûrement lui ![pause]\x02\x03Je dois aller
     chercher Ogremon
     tout de suite ![pause]
   - |-
-    [\x0207][\x020902]3Ben, qu'est-ce
+    \x02\x07\x02\x09\x023Ben, qu'est-ce
     qu'elle a ?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Enchantée
+    \x02\x07Lisa\x02\x07Enchantée
     de t'avoir
     rencontré.[pause]

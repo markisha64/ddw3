@@ -1,29 +1,29 @@
 strings:
   - ''
   - |-
-    [\x0207]Domador Heinrich[\x0207]¡Espera! ¡Hasta que
+    \x02\x07Domador Heinrich\x02\x07¡Espera! ¡Hasta que
     digas la contraseña
     no te dejaré pasar![pause]
-  - "[\\x0207][\\x020902]3¿Qué? ¿Una \ncontraseña?\nUmm...[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¿Qué? ¿Una \ncontraseña?\nUmm...[pause]"
   - |-
-    [\x0207]???[\x0207]¡Eh! ¡Tú eres
-    [\x020801][\x020501]![pause]
+    \x02\x07???\x02\x07¡Eh! ¡Tú eres
+    \x02\x08\x01\x02\x05\x01![pause]
   - |-
-    [\x0207]Kenny[\x0207]¡[\x020801][\x020501],
+    \x02\x07Kenny\x02\x07¡\x02\x08\x01\x02\x05\x01,
     soy yo,
     Kenny![pause]
   - |-
-    [\x0207][\x020902]3¡Eh, Kenny!
+    \x02\x07\x02\x09\x023¡Eh, Kenny!
     ¿Estás bien?[pause]
   - |-
-    [\x0207]Kenny[\x0207]Sí, ¡he encontrado
-    a la Resistencia![pause][\x0203]¡Esto es ahora una
+    \x02\x07Kenny\x02\x07Sí, ¡he encontrado
+    a la Resistencia![pause]\x02\x03¡Esto es ahora una
     base de Resistencia![pause]
   - |-
-    [\x0207][\x020902]3¡Estupendo,
+    \x02\x07\x02\x09\x023¡Estupendo,
     Kenny![pause]
   - |-
-    [\x0207]Kenny[\x0207]¡Ya sé! ¡Ven y conoce
-    a nuestro Líder![pause][\x0203]Puede que sepa algo
-    para ayudarte.[pause][\x0203]¡Por aquí![pause]
-  - '[\x0207][\x020902]3¡Eh, gracias![pause]'
+    \x02\x07Kenny\x02\x07¡Ya sé! ¡Ven y conoce
+    a nuestro Líder![pause]\x02\x03Puede que sepa algo
+    para ayudarte.[pause]\x02\x03¡Por aquí![pause]
+  - '\x02\x07\x02\x09\x023¡Eh, gracias![pause]'

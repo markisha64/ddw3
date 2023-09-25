@@ -1,73 +1,73 @@
 strings:
   - ''
   - |-
-    [\x0207]Phillip maniaco[\x0207]Beh, allora?
+    \x02\x07Phillip maniaco\x02\x07Beh, allora?
     Vi sto aspettando
     da un pezzo![pause]
   - |-
-    [\x0207]Fei pigra[\x0207]Quando possiamo
+    \x02\x07Fei pigra\x02\x07Quando possiamo
     tornare indietro?[pause]
   - |-
-    [\x0207]Servizio domatori[\x0207]Per ora è
+    \x02\x07Servizio domatori\x02\x07Per ora è
     impossibile
     saperlo.[pause]
   - |-
-    [\x0207]Kail[\x0207]Ehi, ma che
+    \x02\x07Kail\x02\x07Ehi, ma che
     cosa succede?[pause]
   - |-
-    [\x0207]Alan pigro[\x0207]Signora del
+    \x02\x07Alan pigro\x02\x07Signora del
     Gioco? Sarà
     un annuncio![pause]
   - |-
-    [\x0207]Operaio Jeff[\x0207]È una donna?
+    \x02\x07Operaio Jeff\x02\x07È una donna?
     Non lo sapevo![pause]
   - |-
-    [\x0207]Miss Misha[\x0207]È in gamba!
+    \x02\x07Miss Misha\x02\x07È in gamba!
     Vorrei essere
     come lei![pause]
   - |-
-    [\x0207]Signora del Gioco[\x0207]A tutti i giocatori:
+    \x02\x07Signora del Gioco\x02\x07A tutti i giocatori:
     ci scusiamo per gli
-    inconvenienti.[pause][\x0203]La manutenzione della
+    inconvenienti.[pause]\x02\x03La manutenzione della
     Sala della Matrice
-    richiede altro tempo.[pause][\x0203]Abbiate pazienza
+    richiede altro tempo.[pause]\x02\x03Abbiate pazienza
     fino al termine dei
     lavori.[pause]
   - |-
-    [\x0207]Alan pigro[\x0207]Cosa? Tutto
+    \x02\x07Alan pigro\x02\x07Cosa? Tutto
     qui?[pause]
   - |-
-    [\x0207]Operaio Jeff[\x0207]Beh, non
+    \x02\x07Operaio Jeff\x02\x07Beh, non
     possiamo farci
     nulla.[pause]
   - |-
-    [\x0207]Yuki energ.[\x0207]Urrà!
+    \x02\x07Yuki energ.\x02\x07Urrà!
     Potrò giocare
     ancora un po'![pause]
   - |-
-    [\x0207]Kail[\x0207]Uffa! Quanto ci
-    mettono?[pause][\x0203]Siamo esclusi dal
+    \x02\x07Kail\x02\x07Uffa! Quanto ci
+    mettono?[pause]\x02\x03Siamo esclusi dal
     Mondo Reale![pause]
   - |-
-    [\x0207][\x020902]3Mmm, mi chiedo
+    \x02\x07\x02\x09\x023Mmm, mi chiedo
     se è opera di
     Topo Fortunato.[pause]
   - |-
-    [\x0207]Kail[\x0207]Topo Fortunato?[pause][\x0203]Che cosa vuoi
+    \x02\x07Kail\x02\x07Topo Fortunato?[pause]\x02\x03Che cosa vuoi
     dire?[pause]
   - |-
-    [\x0207][\x020902]3Non conosco i dettagli,
+    \x02\x07\x02\x09\x023Non conosco i dettagli,
     ma Teddy ha detto
     che è apparso.[pause]
   - |-
-    [\x0207]Kail[\x0207]Forse Teddy sta
+    \x02\x07Kail\x02\x07Forse Teddy sta
     cercando qualcosa
     al centro amministrativo?[pause]
   - |-
-    [\x0207]Kail[\x0207]Forza [\x020801][\x020501],
+    \x02\x07Kail\x02\x07Forza \x02\x08\x01\x02\x05\x01,
     cerchiamo di
-    trovare Teddy![pause][\x0203]Ho una cosa da
+    trovare Teddy![pause]\x02\x03Ho una cosa da
     chiedergli![pause]
   - |-
-    [\x0207][\x020902]3OK, andiamo
+    \x02\x07\x02\x09\x023OK, andiamo
     al centro allora![pause]

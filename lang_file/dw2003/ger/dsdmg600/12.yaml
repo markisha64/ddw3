@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207]Bürger von Byakko?[\x0207]Bist wohl der neue
-    Herausforderer.[pause][\x0203]Komm doch herein!
+    \x02\x07Bürger von Byakko?\x02\x07Bist wohl der neue
+    Herausforderer.[pause]\x02\x03Komm doch herein!
     By. Leader wartet
     schon auf dich![pause]

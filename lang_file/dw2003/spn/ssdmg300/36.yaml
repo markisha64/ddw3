@@ -1,25 +1,25 @@
 strings:
   - ''
   - |-
-    [\x0207]Veemon[\x0207]¿A qué jugamos?
+    \x02\x07Veemon\x02\x07¿A qué jugamos?
     Ummm[pause]
   - |-
-    [\x0207][\x020902]3¡Veemon!
+    \x02\x07\x02\x09\x023¡Veemon!
     Quiero las Bot. Árb.[pause]
-  - "[\\x0207]Veemon[\\x0207]¿Botas Árb.?\nAh, las botas de \npatear árboles...[pause][\\x0203]Sí, claro, ¡Sí \njuegas conmigo![pause]"
-  - "[\\x0207][\\x020902]3¡Claro!\n¿A qué \njugamos?[pause]"
+  - "\\x02\\x07Veemon\\x02\\x07¿Botas Árb.?\nAh, las botas de \npatear árboles...[pause]\\x02\\x03Sí, claro, ¡Sí \njuegas conmigo![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Claro!\n¿A qué \njugamos?[pause]"
   - |-
-    [\x0207]Veemon[\x0207]Me esconderé en
+    \x02\x07Veemon\x02\x07Me esconderé en
     en Bosque de las Pat.
-    y tú me buscas.[pause][\x0203]Si me encuentras te
+    y tú me buscas.[pause]\x02\x03Si me encuentras te
     daré las Botas
-    Árbol.[pause][\x0203]Pierdes si sales del
-    bosque sin encontrarme.[pause][\x0203]¡Y si sales del Bosque
+    Árbol.[pause]\x02\x03Pierdes si sales del
+    bosque sin encontrarme.[pause]\x02\x03¡Y si sales del Bosque
     de las Patadas, iré
     a casa a comer![pause]
   - |-
-    [\x0207][\x020902]3¡Vale!
+    \x02\x07\x02\x09\x023¡Vale!
     ¡Te encontraré![pause]
-  - "[\\x0207]Veemon[\\x0207]Je je je\n¡No será tán \nfácil![pause][\\x0203]¡Cuenta 10 y \nentra al bosque![pause]"
-  - "[\\x0207][\\x020902]3¡Vale, hasta 10!\n1, 2, 3, 4, 5 \n6, 7, 8, 9, ¡10![pause][\\x0203]......\n.........\n¿Eh ido muy rápido?[pause]"
-  - "[\\x0207][\\x020902]3¡Bueno!\n¡Vamos a \nbuscarlo![pause]"
+  - "\\x02\\x07Veemon\\x02\\x07Je je je\n¡No será tán \nfácil![pause]\\x02\\x03¡Cuenta 10 y \nentra al bosque![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Vale, hasta 10!\n1, 2, 3, 4, 5 \n6, 7, 8, 9, ¡10![pause]\\x02\\x03......\n.........\n¿Eh ido muy rápido?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Bueno!\n¡Vamos a \nbuscarlo![pause]"

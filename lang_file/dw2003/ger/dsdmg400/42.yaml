@@ -1,12 +1,12 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Hurra, ich hab
+    \x02\x07\x02\x09\x023Hurra, ich hab
     Qing Long
     Chief besiegt![pause]
   - |-
-    [\x0207][\x020902]3Hä?!
+    \x02\x07\x02\x09\x023Hä?!
     Da ist etwas auf
     dem Boden...[pause]
-  - "[\\x0207][\\x020902]3Aber keine \nSpur vom Digiei\ndes Wissens...[pause][\\x0203]Was passiert\nwohl in der\nechten Welt...[pause]"
-  - "[\\x0207][\\x020902]3Hä?\nWas ist das?\nID-Pass Blau?[pause][\\x0203]Vielleicht brauch \nich ihn.\nIch nehm ihn mit![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Aber keine \nSpur vom Digiei\ndes Wissens...[pause]\\x02\\x03Was passiert\nwohl in der\nechten Welt...[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hä?\nWas ist das?\nID-Pass Blau?[pause]\\x02\\x03Vielleicht brauch \nich ihn.\nIch nehm ihn mit![pause]"

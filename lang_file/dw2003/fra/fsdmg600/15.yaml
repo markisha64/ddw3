@@ -1,123 +1,123 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Voilà donc où se
+    \x02\x07\x02\x09\x023Voilà donc où se
     cache Lucky Mouse.[pause]
   - |-
-    [\x0207][\x020902]3Où est
+    \x02\x07\x02\x09\x023Où est
     Teddy ? Où
     est-il ?[pause]
   - |-
-    [\x0207]Lucky Mouse[\x0207]Teddy ? Oh, celui qui
+    \x02\x07Lucky Mouse\x02\x07Teddy ? Oh, celui qui
     a trouvé mon code de
-    compte et m'a contacté.[pause][\x0203]Je ne l'ai pas capturé.
+    compte et m'a contacté.[pause]\x02\x03Je ne l'ai pas capturé.
     C'est l'A.o.A. ![pause]
   - |-
-    [\x0207][\x020902]3Quoi ? Que veux-tu
-    dire par là ?[pause][\x0203]Le Maître de jeu
+    \x02\x07\x02\x09\x023Quoi ? Que veux-tu
+    dire par là ?[pause]\x02\x03Le Maître de jeu
     d'Asuka m'a dit
     que tu l'avais...[pause]
-  - "[\\x0207]Lucky Mouse[\\x0207]C'est l'un des meilleurs\nagents de l'A.o.A.[pause][\\x0203]Elle n'est pas la \nseule. MAGAMI\nen fait aussi partie ![pause][\\x0203]Il y a des membres\npartout sur le serveur\nAsuka ![pause]"
+  - "\\x02\\x07Lucky Mouse\\x02\\x07C'est l'un des meilleurs\nagents de l'A.o.A.[pause]\\x02\\x03Elle n'est pas la \nseule. MAGAMI\nen fait aussi partie ![pause]\\x02\\x03Il y a des membres\npartout sur le serveur\nAsuka ![pause]"
   - |-
-    [\x0207][\x020902]3Alors le Maître
-    de jeu m'a menti ?[pause][\x0203]Je dois absolument
+    \x02\x07\x02\x09\x023Alors le Maître
+    de jeu m'a menti ?[pause]\x02\x03Je dois absolument
     sauver Teddy ![pause]
   - |-
-    [\x0207]Lisa[\x0207]Mais que veut
+    \x02\x07Lisa\x02\x07Mais que veut
     l'A.o.A. ?[pause]
   - |-
-    [\x0207]Lucky Mouse[\x0207]Ils veulent prendre
+    \x02\x07Lucky Mouse\x02\x07Ils veulent prendre
     le contrôle de
-    Digimon Online.[pause][\x0203]Ils pourront alors
+    Digimon Online.[pause]\x02\x03Ils pourront alors
     pirater le réseau
     à l'échelle mondiale.[pause]
   - |-
-    [\x0207]Lisa[\x0207]Ce ne sont
+    \x02\x07Lisa\x02\x07Ce ne sont
     pas de bonnes
-    nouvelles ![pause][\x0203]Ils contrôleront
+    nouvelles ![pause]\x02\x03Ils contrôleront
     tous les ordinateurs
     de la planète ![pause]
   - |-
-    [\x0207]Lucky Mouse[\x0207]Pour les contrer, j'ai
+    \x02\x07Lucky Mouse\x02\x07Pour les contrer, j'ai
     provoqué une erreur
-    dans le programme.[pause][\x0203]Personne ne devrait
+    dans le programme.[pause]\x02\x03Personne ne devrait
     avoir accès au serveur
     pendant un moment.[pause]
   - |-
-    [\x0207]Lisa[\x0207]C'est pour ça qu'on
+    \x02\x07Lisa\x02\x07C'est pour ça qu'on
     ne peut plus revenir
     au Monde Réel.[pause]
   - |-
     Ha ha ha ha !
     Tu nous a créé de
-    gros problèmes ![pause][\x0203]Mais avec le p'tit,
+    gros problèmes ![pause]\x02\x03Mais avec le p'tit,
     nos projets vont
     pouvoir reprendre ![pause]
-  - '[\x0207]Lucky Mouse[\x0207]Kail ?![pause]'
-  - '[\x0207][\x020902]3Kail ![pause]'
+  - '\x02\x07Lucky Mouse\x02\x07Kail ?![pause]'
+  - '\x02\x07\x02\x09\x023Kail ![pause]'
   - |-
-    [\x0207]Kail[\x0207][\x020801][\x020501]
+    \x02\x07Kail\x02\x07\x02\x08\x01\x02\x05\x01
     Kurt ![pause]
   - |-
-    [\x0207][\x020902]3Quoi ?! Alors le
+    \x02\x07\x02\x09\x023Quoi ?! Alors le
     grand frère de
     Kail, c'est... ![pause]
   - |-
-    [\x0207]Lucky Mouse[\x0207]Oui, mon vrai nom
+    \x02\x07Lucky Mouse\x02\x07Oui, mon vrai nom
     est Kurt ! Je suis
-    le frère de Kail.[pause][\x0203]Mais comment l'A.o.A.
+    le frère de Kail.[pause]\x02\x03Mais comment l'A.o.A.
     a pu découvrir cet
-    endroit ?[pause][\x0203]Et pourquoi Kail ?[pause]
+    endroit ?[pause]\x02\x03Et pourquoi Kail ?[pause]
   - |-
-    [\x0207]Général[\x0207]Nous avons suivi le
-    p'tit depuis Asuka City.[pause][\x0203]Elle le suivait
+    \x02\x07Général\x02\x07Nous avons suivi le
+    p'tit depuis Asuka City.[pause]\x02\x03Elle le suivait
     aussi, jusqu'à ce qu'on
     l'attrape ![pause]
-  - '[\x0207]Lucky Mouse[\x0207]Lâchez Kail ![pause]'
+  - '\x02\x07Lucky Mouse\x02\x07Lâchez Kail ![pause]'
   - |-
-    [\x0207]Général[\x0207]Ha ha ! Pas si
+    \x02\x07Général\x02\x07Ha ha ! Pas si
     vite. Ce ne sera
-    pas aussi facile.[pause][\x0203]Rends-nous ce que
+    pas aussi facile.[pause]\x02\x03Rends-nous ce que
     tu nous as volé et
     je la laisse partir ![pause]
   - |-
-    [\x0207]Lucky Mouse[\x0207]Très bien,
+    \x02\x07Lucky Mouse\x02\x07Très bien,
     voilà...[pause]
   - |-
-    [\x0207]Général[\x0207]Ah, le voilà.
-    Ha Ha Ha ![pause][\x0203]Bon, je le
+    \x02\x07Général\x02\x07Ah, le voilà.
+    Ha Ha Ha ![pause]\x02\x03Bon, je le
     reprends ![pause]
   - |-
-    [\x0207]Attaquant[\x0207]Une promesse est
+    \x02\x07Attaquant\x02\x07Une promesse est
     une promesse. Je
     la laisse partir ![pause]
   - |-
-    [\x0207]Kail[\x0207]Kurt !
-    [\x020801][\x020501] ![pause]
+    \x02\x07Kail\x02\x07Kurt !
+    \x02\x08\x01\x02\x05\x01 ![pause]
   - |-
-    [\x0207]Attaquant[\x0207]Profitez-en
-    bien ![pause][\x0203]Ha ha ! Car
+    \x02\x07Attaquant\x02\x07Profitez-en
+    bien ![pause]\x02\x03Ha ha ! Car
     c'est déjà fini ![pause]
   - |-
-    [\x0207]Lucky Mouse[\x0207]Attention
+    \x02\x07Lucky Mouse\x02\x07Attention
     à vous ![pause]
-  - '[\x0207]Lucky Mouse[\x0207]Aaaah ![pause]'
-  - '[\x0207]Kail[\x0207]Kurt ![pause]'
+  - '\x02\x07Lucky Mouse\x02\x07Aaaah ![pause]'
+  - '\x02\x07Kail\x02\x07Kurt ![pause]'
   - |-
-    [\x0207][\x020902]3Il a été changé
+    \x02\x07\x02\x09\x023Il a été changé
     en Digimon ![pause]
-  - "[\\x0207]Attaquant[\\x0207]Transformons-les\ntous en Oinkmons\net enfermons-les !\n \nA qui le tour ?[pause]"
+  - "\\x02\\x07Attaquant\\x02\\x07Transformons-les\ntous en Oinkmons\net enfermons-les !\n \nA qui le tour ?[pause]"
   - |-
-    [\x0207]Attaquant[\x0207]!?!?!?!
-    Plus d'énergie ![pause][\x0203]Bien, alors venez,
+    \x02\x07Attaquant\x02\x07!?!?!?!
+    Plus d'énergie ![pause]\x02\x03Bien, alors venez,
     mes Digimons ![pause]
   - |-
-    [\x0207][\x020902]3Si tu veux te
+    \x02\x07\x02\x09\x023Si tu veux te
     battre, commence
     par moi.[pause]
   - |-
-    [\x0207]Lucky Mouse[\x0207]J'étais aussi un
+    \x02\x07Lucky Mouse\x02\x07J'étais aussi un
     des membres de
-    Digimon Online.[pause][\x0203]Quand j'ai compris
+    Digimon Online.[pause]\x02\x03Quand j'ai compris
     le problème, il
     était trop tard...[pause]

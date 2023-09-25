@@ -1,28 +1,28 @@
 strings:
   - ''
   - |-
-    [\x0207]Airdramon[\x0207]Zzzzzzzzzzz
+    \x02\x07Airdramon\x02\x07Zzzzzzzzzzz
     Zzzzzzzzzzz[pause]
   - |-
-    [\x0207][\x020902]3Hey, Airdramon.
+    \x02\x07\x02\x09\x023Hey, Airdramon.
     Kannst du mir einen
     Gefallen tun?[pause]
   - |-
-    [\x0207]Airdramon[\x0207]Zzzzzzzzzzz
+    \x02\x07Airdramon\x02\x07Zzzzzzzzzzz
     Zzzzzzzzzzz[pause]
   - |-
-    [\x0207][\x020902]3Airdramon, kannst du
+    \x02\x07\x02\x09\x023Airdramon, kannst du
     in Qing Long City
-    Wind machen?[pause][\x0203]Wir haben nicht genug
+    Wind machen?[pause]\x02\x03Wir haben nicht genug
     Power, um alle zu-
-    rückzuverwandeln.[pause][\x0203]Airdramon, hilf ihnen.
+    rückzuverwandeln.[pause]\x02\x03Airdramon, hilf ihnen.
     Los, wach auf![pause]
   - |-
-    [\x0207]Airdramon[\x0207]Zzzzzzzzzzz
+    \x02\x07Airdramon\x02\x07Zzzzzzzzzzz
     Zzzzzzzzzzz[pause]
   - |-
-    [\x0207][\x020902]3Aber ich
+    \x02\x07\x02\x09\x023Aber ich
     glaube, das
-    ist nicht möglich...[pause][\x0203]OK, wir finden
+    ist nicht möglich...[pause]\x02\x03OK, wir finden
     einen
     anderen Weg...[pause]

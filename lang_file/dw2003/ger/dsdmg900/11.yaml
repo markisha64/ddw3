@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207]Tamer Poemy[\x0207]Gehe dahin, groβer
+    \x02\x07Tamer Poemy\x02\x07Gehe dahin, groβer
     Held! Stelle dich
-    deinem Schicksal![pause][\x0203]Im Geiste werde ich
+    deinem Schicksal![pause]\x02\x03Im Geiste werde ich
     immer mit dir sein![pause]

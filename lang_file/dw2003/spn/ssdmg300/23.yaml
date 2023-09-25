@@ -1,44 +1,44 @@
 strings:
   - ''
   - |-
-    [\x0207]Teddy[\x0207]¡Oi!
+    \x02\x07Teddy\x02\x07¡Oi!
     Oi, oi, oin.
     ¡Oi, Ooin, ooooink![pause]
   - |-
-    [\x0207]Lisa[\x0207]¡!
+    \x02\x07Lisa\x02\x07¡!
     Oi, oi, oi, oi
     oiiiink oii.[pause]
   - |-
-    [\x0207]Nick[\x0207]Onk
+    \x02\x07Nick\x02\x07Onk
     ¡Oooink, oin, onkk!
     ¡Oi, ooinoinkoink![pause]
   - |-
-    [\x0207]Keith[\x0207]¿Oin?
+    \x02\x07Keith\x02\x07¿Oin?
     ¿Oin, oi, oin?
     ¡Oooin, oioioink![pause]
   - |-
-    [\x0207][\x020902]3¿Te-Teddy?
+    \x02\x07\x02\x09\x023¿Te-Teddy?
     ¿Qué? Lisa, Nick
     y Keith también...[pause]
-  - "[\\x0207]Teddy[\\x0207]Oi, oionk, oink\nOi, oioooin, oink\noioink, oionnk[pause][\\x0203]Oion, ooin, oink\nOiin, oink ooin\nOionknoink, oink[pause][\\x0203]Oooinkninon\nOinok, onnknon\nOin, oinknkoin[pause][\\x0203]Oin, oinok, oioninoo\nOin, oooin, ooin\noinonk, oink, ooin[pause][\\x0203]Oin oinoink \noioin oino ioni oino\noinoin, oinoinokon oink[pause][\\x0203]Ooinoin, oinoinoik\nOoinoino, oinoinok\noioioinonoino oihoinonk[pause]"
-  - "[\\x0207][\\x020902]3No tengo ni\nidea de lo que\ndices...[pause][\\x0203]Espera aquí con\nlos demás.[pause][\\x0203]Yo haré algo \nsobre esto.[pause]"
+  - "\\x02\\x07Teddy\\x02\\x07Oi, oionk, oink\nOi, oioooin, oink\noioink, oionnk[pause]\\x02\\x03Oion, ooin, oink\nOiin, oink ooin\nOionknoink, oink[pause]\\x02\\x03Oooinkninon\nOinok, onnknon\nOin, oinknkoin[pause]\\x02\\x03Oin, oinok, oioninoo\nOin, oooin, ooin\noinonk, oink, ooin[pause]\\x02\\x03Oin oinoink \noioin oino ioni oino\noinoin, oinoinokon oink[pause]\\x02\\x03Ooinoin, oinoinoik\nOoinoino, oinoinok\noioioinonoino oihoinonk[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023No tengo ni\nidea de lo que\ndices...[pause]\\x02\\x03Espera aquí con\nlos demás.[pause]\\x02\\x03Yo haré algo \nsobre esto.[pause]"
   - |-
-    [\x0207][\x020902]3Vale, me
+    \x02\x07\x02\x09\x023Vale, me
     tengo que ir.
     ¡Espera aquí![pause]
   - |-
-    [\x0207]Teddy[\x0207]Oin, oin ooink
+    \x02\x07Teddy\x02\x07Oin, oin ooink
     Oion, oioinoink
     Oion, oin, ooooink[pause]
   - |-
-    [\x0207]Lisa[\x0207]Ooin, oioinoin
+    \x02\x07Lisa\x02\x07Ooin, oioinoin
     oioino oioi oin
     oooinkooink[pause]
   - |-
-    [\x0207]Nick[\x0207]Oio, oioin
+    \x02\x07Nick\x02\x07Oio, oioin
     oioink, oioink
     Oion, oinno oinoink[pause]
   - |-
-    [\x0207]Keith[\x0207]Ooionk oink
+    \x02\x07Keith\x02\x07Ooionk oink
     oionoon oioin
     oooinkko[pause]

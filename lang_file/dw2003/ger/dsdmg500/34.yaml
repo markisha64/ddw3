@@ -1,25 +1,25 @@
 strings:
   - ''
-  - "[\\x0207]Zhu Que Chief[\\x0207]Zutritt nur für\nMitglieder \nder A.o.A.![pause]"
+  - "\\x02\\x07Zhu Que Chief\\x02\\x07Zutritt nur für\nMitglieder \nder A.o.A.![pause]"
   - |-
-    [\x0207][\x020902]3Zhu Que Chief,
+    \x02\x07\x02\x09\x023Zhu Que Chief,
     wo ist das Digiei
     des Wissens?[pause]
-  - "[\\x0207]Zhu Que Chief[\\x0207]Ha ha ha, du bist\nalso für den Asuka-\nServer verantwortl.![pause][\\x0203]Aber spar dir die \nMühe. Es ist \nschon zu spät.[pause]"
+  - "\\x02\\x07Zhu Que Chief\\x02\\x07Ha ha ha, du bist\nalso für den Asuka-\nServer verantwortl.![pause]\\x02\\x03Aber spar dir die \nMühe. Es ist \nschon zu spät.[pause]"
   - |-
-    [\x0207][\x020902]3Was?
+    \x02\x07\x02\x09\x023Was?
     Was soll das
     heiβen?[pause]
   - |-
-    [\x0207]Zhu Que Chief[\x0207]Ha ha ha, das
-    kann ich dir sagen![pause][\x0203]Wir haben die Unter-
+    \x02\x07Zhu Que Chief\x02\x07Ha ha ha, das
+    kann ich dir sagen![pause]\x02\x03Wir haben die Unter-
     seebasis Magasta
     eingenommen![pause]
-  - "[\\x0207]Zhu Que Chief[\\x0207]Und jetzt starten...[pause][\\x0203]wir das mobile Fort\nJuggernaut![pause][\\x0203]Die Welt wird sich \njetzt den A.o.A.\nbeugen müssen![pause]"
+  - "\\x02\\x07Zhu Que Chief\\x02\\x07Und jetzt starten...[pause]\\x02\\x03wir das mobile Fort\nJuggernaut![pause]\\x02\\x03Die Welt wird sich \njetzt den A.o.A.\nbeugen müssen![pause]"
   - |-
-    [\x0207][\x020902]3Von wegen!
+    \x02\x07\x02\x09\x023Von wegen!
     Das lasse ich
-    nicht zu![pause][\x0203]Ich stoppe den
+    nicht zu![pause]\x02\x03Ich stoppe den
     Start von
     Juggernaut![pause]
-  - "[\\x0207]Zhu Que Chief[\\x0207]Ha ha ha...\nVersuch's doch![pause][\\x0203]Dafür musst du \nerst an mir vorbei![pause]"
+  - "\\x02\\x07Zhu Que Chief\\x02\\x07Ha ha ha...\nVersuch's doch![pause]\\x02\\x03Dafür musst du \nerst an mir vorbei![pause]"

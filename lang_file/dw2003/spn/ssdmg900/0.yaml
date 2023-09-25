@@ -1,14 +1,14 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3¿Eh?
+    \x02\x07\x02\x09\x023¿Eh?
     Ivy y Teddy
-    no están aquí.[pause][\x0203]¡Pff! Conociéndoles
+    no están aquí.[pause]\x02\x03¡Pff! Conociéndoles
     se habrán
     adelantado.[pause]
-  - "[\\x0207]Líder de la gira[\\x0207]Sr. [\\x020801][\\x020501] ¿no?\nBienvenido \na Digimon Online.[pause][\\x0203]Hoy practicaremos\npara que puedas\nempezar.[pause][\\x0203]Sólo puedes ir al\nSector Este y al\nCentral de Amaterasu.[pause][\\x0203]Pero existen más\nPlacas de Circuitos\ny Fondos Marinos.[pause][\\x0203]Los datos de Digimon \nse usan como\nantes.[pause][\\x0203]Las técnicas y las\ndigievoluciones son las\nmismas por supuesto.[pause][\\x0203]Pero desearía\nrealizar una prueba\nde datos por si acaso.[pause][\\x0203]Antes de continuar\nguarda con\nGuardromon.[pause]"
-  - '[\x0207][\x020902]3¡Claro![pause]'
+  - "\\x02\\x07Líder de la gira\\x02\\x07Sr. \\x02\\x08\\x01\\x02\\x05\\x01 ¿no?\nBienvenido \na Digimon Online.[pause]\\x02\\x03Hoy practicaremos\npara que puedas\nempezar.[pause]\\x02\\x03Sólo puedes ir al\nSector Este y al\nCentral de Amaterasu.[pause]\\x02\\x03Pero existen más\nPlacas de Circuitos\ny Fondos Marinos.[pause]\\x02\\x03Los datos de Digimon \nse usan como\nantes.[pause]\\x02\\x03Las técnicas y las\ndigievoluciones son las\nmismas por supuesto.[pause]\\x02\\x03Pero desearía\nrealizar una prueba\nde datos por si acaso.[pause]\\x02\\x03Antes de continuar\nguarda con\nGuardromon.[pause]"
+  - '\x02\x07\x02\x09\x023¡Claro![pause]'
   - |-
-    [\x0207][\x020902]3¡Bien!
+    \x02\x07\x02\x09\x023¡Bien!
     Esto será
     divertido.[pause]

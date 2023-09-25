@@ -5,11 +5,11 @@ strings:
     ATTENDERE.
     CONFERMA DATI.[pause]
   - |-
-    [\x0207][\x020902]3Funziona!
+    \x02\x07\x02\x09\x023Funziona!
     Posso andare al
     Settore Sud![pause]
   - |-
     GRAZIE PER L'ATTESA.
-    TU SEI [\x020801][\x020501].[pause][\x0203]IL SISTEMA È ATTIVO.
+    TU SEI \x02\x08\x01\x02\x05\x01.[pause]\x02\x03IL SISTEMA È ATTIVO.
     PROCEDI VERSO
     LA GONDOLA.[pause]

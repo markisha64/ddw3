@@ -1,27 +1,27 @@
 strings:
   - ''
   - |-
-    [\x0207]Gamemaster[\x0207]...was macht ihr
+    \x02\x07Gamemaster\x02\x07...was macht ihr
     beiden denn hier?[pause]
-  - "[\\x0207][\\x020902]3Äh...äh... wir \nsuchen unseren\nFreund Teddy.[pause]"
-  - "[\\x0207]Gamemaster[\\x0207]Tut mir leid, wenn\nich euch erschreckte.[pause][\\x0203]Ich sorge m. auch um\ne. Freund. L. Mouse \nhat ihn wohl als Geisel.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Äh...äh... wir \nsuchen unseren\nFreund Teddy.[pause]"
+  - "\\x02\\x07Gamemaster\\x02\\x07Tut mir leid, wenn\nich euch erschreckte.[pause]\\x02\\x03Ich sorge m. auch um\ne. Freund. L. Mouse \nhat ihn wohl als Geisel.[pause]"
   - |-
-    [\x0207][\x020902]3Lucky
+    \x02\x07\x02\x09\x023Lucky
     Mouse?![pause]
   - |-
-    [\x0207]Gamemaster[\x0207]Er ist schrecklich.
+    \x02\x07Gamemaster\x02\x07Er ist schrecklich.
     Er versucht, Digimon-
-    Online zu zerstören![pause][\x0203]Er ist die Ursache für
+    Online zu zerstören![pause]\x02\x03Er ist die Ursache für
     die Probleme, die wir
     mit dem System haben![pause]
   - |-
-    [\x0207][\x020902]3Aber alle haben so
+    \x02\x07\x02\x09\x023Aber alle haben so
     viel Spaβ mit Digimon-
     Online...[pause]
-  - "[\\x0207][\\x020902]3Ich kann's nicht \nglauben, L. Mou.![pause]"
-  - '[\x0207]Kail[\x0207]...[pause]'
-  - "[\\x0207]Gamemaster[\\x0207]Jeder Mitarbeiter \nsucht momentan nach \nLucky Mouse.[pause][\\x0203]Da fällt mir ein...\nKönnt ihr uns helfen?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ich kann's nicht \nglauben, L. Mou.![pause]"
+  - '\x02\x07Kail\x02\x07...[pause]'
+  - "\\x02\\x07Gamemaster\\x02\\x07Jeder Mitarbeiter \nsucht momentan nach \nLucky Mouse.[pause]\\x02\\x03Da fällt mir ein...\nKönnt ihr uns helfen?[pause]"
   - |-
-    [\x0207][\x020902]3Natürlich!
+    \x02\x07\x02\x09\x023Natürlich!
     Das machen wir![pause]
-  - "[\\x0207]Gamemaster[\\x0207]Danke. Ich\nverlasse mich\nauf euch.[pause][\\x0203]Wir hörten, \ner wolle\nz. Westsek.![pause]"
+  - "\\x02\\x07Gamemaster\\x02\\x07Danke. Ich\nverlasse mich\nauf euch.[pause]\\x02\\x03Wir hörten, \ner wolle\nz. Westsek.![pause]"

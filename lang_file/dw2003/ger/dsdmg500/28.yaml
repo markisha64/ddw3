@@ -1,46 +1,46 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Hey! Da
+    \x02\x07\x02\x09\x023Hey! Da
     sind Nick
     und Keith.[pause]
-  - "[\\x0207]Nick[\\x0207]Also echt, kannst\ndu nicht mal dei-\nnen Job machen?![pause][\\x0203]Seit wir hier sind,\nbist du nur am \nSpielen![pause]"
+  - "\\x02\\x07Nick\\x02\\x07Also echt, kannst\ndu nicht mal dei-\nnen Job machen?![pause]\\x02\\x03Seit wir hier sind,\nbist du nur am \nSpielen![pause]"
   - a
   - a
   - |-
-    [\x0207]Keith[\x0207]Ha ha ha, stimmt!
+    \x02\x07Keith\x02\x07Ha ha ha, stimmt!
     Aber der Plan ist
-    echt gut![pause][\x0203]Sie versuchen si-
+    echt gut![pause]\x02\x03Sie versuchen si-
     cher, starke Spieler
     zu kontaktieren![pause]
-  - "[\\x0207]Nick[\\x0207]Denen kannst du\nnichts vormachen![pause][\\x0203]Ab jetzt gehen\nwir genau nach \nPlan vor![pause]"
+  - "\\x02\\x07Nick\\x02\\x07Denen kannst du\nnichts vormachen![pause]\\x02\\x03Ab jetzt gehen\nwir genau nach \nPlan vor![pause]"
   - |-
-    [\x0207]Keith[\x0207]Nicht im Traum!
+    \x02\x07Keith\x02\x07Nicht im Traum!
     Mir macht das
-    schlieβlich Spaβ![pause][\x0203]Es ist meine freie
+    schlieβlich Spaβ![pause]\x02\x03Es ist meine freie
     Entscheidung![pause]
-  - '[\x0207]Nick[\x0207]Keith![pause]'
-  - '[\x0207][\x020902]3Verzeihung.[pause]'
-  - "[\\x0207]Nick[\\x0207]Du bist \nder aus⋯[pause]"
+  - '\x02\x07Nick\x02\x07Keith![pause]'
+  - '\x02\x07\x02\x09\x023Verzeihung.[pause]'
+  - "\\x02\\x07Nick\\x02\\x07Du bist \nder aus⋯[pause]"
   - |-
-    [\x0207]Keith[\x0207]Hey Kid. Willst du
+    \x02\x07Keith\x02\x07Hey Kid. Willst du
     mit mir kämpfen?[pause]
-  - "[\\x0207][\\x020902]3Äh, nein. Lisa \nbat mich...[pause][\\x0203]...Keith und \nNick zu holen.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Äh, nein. Lisa \nbat mich...[pause]\\x02\\x03...Keith und \nNick zu holen.[pause]"
   - |-
-    [\x0207]Keith[\x0207]...ach,
+    \x02\x07Keith\x02\x07...ach,
     tatsächlich?[pause]
   - |-
-    [\x0207]Nick[\x0207]Na, dann nichts
+    \x02\x07Nick\x02\x07Na, dann nichts
     wie los oder sie
     wird echt sauer![pause]
-  - "[\\x0207][\\x020902]3Wartet \nmal![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Wartet \nmal![pause]"
   - |-
-    [\x0207]Keith[\x0207]Wir haben keine
+    \x02\x07Keith\x02\x07Wir haben keine
     Zeit. Bring uns
     sofort zu ihr![pause]
   - |-
-    [\x0207]Nick[\x0207]Ja, wir wollen
+    \x02\x07Nick\x02\x07Ja, wir wollen
     sofort zu ihr![pause]
   - |-
-    [\x0207][\x020902]3...Äh?
+    \x02\x07\x02\x09\x023...Äh?
     Ja, klar![pause]

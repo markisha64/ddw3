@@ -1,24 +1,24 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3¿Eh? Aún
+    \x02\x07\x02\x09\x023¿Eh? Aún
     no está todo
     normal...[pause]
   - |-
-    [\x0207]Teddy[\x0207][\x020801][\x020501], la Cámara
+    \x02\x07Teddy\x02\x07\x02\x08\x01\x02\x05\x01, la Cámara
     tampoco funciona.[pause]
-  - '[\x0207][\x020902]3...¡Kail![pause]'
-  - '[\x0207]Teddy[\x0207]¡Kail![pause]'
-  - "[\\x0207]Kail[\\x0207]¿Por qué no \nvuelve Kurt a \nser normal?[pause]"
-  - '[\x0207]Kurt[\x0207]¡Ooink, oink![pause]'
-  - "[\\x0207]Kail[\\x0207]¿Van a estar Kurt \ny el resto así?[pause]"
-  - "[\\x0207]Teddy[\\x0207]No estoy seguro de\nsi hay algún modo \nde traerlos.[pause]"
-  - "[\\x0207]Teddy[\\x0207]¿No, \n[\\x020801][\\x020501]?[pause]"
+  - '\x02\x07\x02\x09\x023...¡Kail![pause]'
+  - '\x02\x07Teddy\x02\x07¡Kail![pause]'
+  - "\\x02\\x07Kail\\x02\\x07¿Por qué no \nvuelve Kurt a \nser normal?[pause]"
+  - '\x02\x07Kurt\x02\x07¡Ooink, oink![pause]'
+  - "\\x02\\x07Kail\\x02\\x07¿Van a estar Kurt \ny el resto así?[pause]"
+  - "\\x02\\x07Teddy\\x02\\x07No estoy seguro de\nsi hay algún modo \nde traerlos.[pause]"
+  - "\\x02\\x07Teddy\\x02\\x07¿No, \n\\x02\\x08\\x01\\x02\\x05\\x01?[pause]"
   - |-
-    [\x0207][\x020902]3Sí, sí.
-    ¡Estoy seguro![pause][\x0203]Esperad aquí. Yo
+    \x02\x07\x02\x09\x023Sí, sí.
+    ¡Estoy seguro![pause]\x02\x03Esperad aquí. Yo
     voy a investigar.[pause]
-  - "[\\x0207]Kail[\\x0207]Eh, \n[\\x020801][\\x020501],\nTeddy...[pause]"
+  - "\\x02\\x07Kail\\x02\\x07Eh, \n\\x02\\x08\\x01\\x02\\x05\\x01,\nTeddy...[pause]"
   - |-
-    [\x0207]Kail[\x0207]¿Hemos vencido a
+    \x02\x07Kail\x02\x07¿Hemos vencido a
     la A.o.A, verdad?[pause]

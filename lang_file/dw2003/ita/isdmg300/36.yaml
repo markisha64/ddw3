@@ -1,45 +1,45 @@
 strings:
   - ''
-  - "[\\x0207]Veemon[\\x0207]Allora, a \nche gioco\ngiochiamo?[pause]"
+  - "\\x02\\x07Veemon\\x02\\x07Allora, a \nche gioco\ngiochiamo?[pause]"
   - |-
-    [\x0207][\x020902]3Veemon! Voglio gli
+    \x02\x07\x02\x09\x023Veemon! Voglio gli
     stivali dell'albero.[pause]
   - |-
-    [\x0207]Veemon[\x0207]Stivali dell'albero?
+    \x02\x07Veemon\x02\x07Stivali dell'albero?
     Ah, quelli per
-    calciare alberi.[pause][\x0203]Bene, ma prima
+    calciare alberi.[pause]\x02\x03Bene, ma prima
     dovrai giocare
     con me![pause]
   - |-
-    [\x0207][\x020902]3Certo!
+    \x02\x07\x02\x09\x023Certo!
     A che cosa
     giocheremo?[pause]
   - |-
-    [\x0207]Veemon[\x0207]Mi nasconderò nella
+    \x02\x07Veemon\x02\x07Mi nasconderò nella
     Foresta dei calci e tu
-    dovrai trovarmi.[pause][\x0203]Se lo farai, ti
+    dovrai trovarmi.[pause]\x02\x03Se lo farai, ti
     darò gli stivali
-    dell'albero![pause][\x0203]Perdi se te ne
+    dell'albero![pause]\x02\x03Perdi se te ne
     vai dalla foresta
-    senza trovarmi.[pause][\x0203]E se lasci la
+    senza trovarmi.[pause]\x02\x03E se lasci la
     foresta, andrò a
     casa a mangiare![pause]
   - |-
-    [\x0207][\x020902]3OK!
+    \x02\x07\x02\x09\x023OK!
     Ti troverò![pause]
   - |-
-    [\x0207]Veemon[\x0207]Heh heh heh.
+    \x02\x07Veemon\x02\x07Heh heh heh.
     Non sarà facile!
-    No![pause][\x0203]Conta fino a 10
+    No![pause]\x02\x03Conta fino a 10
     e poi entra
     nella foresta![pause]
   - |-
-    [\x0207][\x020902]3OK, sto contando!
+    \x02\x07\x02\x09\x023OK, sto contando!
     1, 2, 3, 4, 5,
-    6, 7, 8, 9, 10![pause][\x0203]... ...
+    6, 7, 8, 9, 10![pause]\x02\x03... ...
     ... ...
     Troppo veloce?[pause]
   - |-
-    [\x0207][\x020902]3Bene.
+    \x02\x07\x02\x09\x023Bene.
     Ora devo
     trovarlo![pause]

@@ -10,46 +10,46 @@ strings:
   - Zurück
   - |-
     Auβer in Digimon-Kämpfen können
-    Tamer Kartenkämpfe machen.[pause][\x0203]Dazu müssen sie 314 Kartentypen
+    Tamer Kartenkämpfe machen.[pause]\x02\x03Dazu müssen sie 314 Kartentypen
     sammeln und ihre eigenen
     Arrangements zusammenstellen.[pause]
   - |-
     Wähle einen Ordner als Kartenstapel
     vor dem Kartenkampf. Nach Auswahl
-    des Ordners beginnt der Kampf.[pause][\x0203]Ein Kartenkampf besteht aus 3 Runden.
+    des Ordners beginnt der Kampf.[pause]\x02\x03Ein Kartenkampf besteht aus 3 Runden.
     Wer zuerst 2 Runden gewinnt, ist der
-    Gewinner u. bekommt ein Booster-Pack.[pause][\x0203]Jede Runde teilt sich in 6 Phasen auf.
+    Gewinner u. bekommt ein Booster-Pack.[pause]\x02\x03Jede Runde teilt sich in 6 Phasen auf.
     Weitere Informationen erhältst du im
     Abschnitt "Phasen".[pause]
   - |-
     Startphase
     Die Spielreihenfolge wird bestimmt.
-    Wer Calumon zieht, fängt an.[pause][\x0203]Zugphase
+    Wer Calumon zieht, fängt an.[pause]\x02\x03Zugphase
     Ziehe 6 Karten vom Stapel, die dein
-    anfängliches Blatt bilden.[pause][\x0203]Jetzt wird D-Energie der gleichen
+    anfängliches Blatt bilden.[pause]\x02\x03Jetzt wird D-Energie der gleichen
     Farbe wie die gezogene Karte er-
     zeugt; wird in der Rufphase verw.[pause]
   - |-
     Ladephase
     Tamers verw. abwechselnd Prog.-
-    Karten um Digimon zu rufen.[pause][\x0203]Die Phase endet, wenn mehrmals
+    Karten um Digimon zu rufen.[pause]\x02\x03Die Phase endet, wenn mehrmals
     gepasst wird. Es gibt auch nicht
     verwendbare Prog.-Karten.[pause]
   - |-
     Rufphase
     Hier wählen Tamer Digimon-Karten
-    aus und rufen die Digimon.[pause][\x0203]Bis zu 6 Digimon können ins Feld
+    aus und rufen die Digimon.[pause]\x02\x03Bis zu 6 Digimon können ins Feld
     gerufen werden. Zum Rufen von
-    Champion-Digimon oder höher wird[pause][\x0203]D-Energie benötigt.[pause]
+    Champion-Digimon oder höher wird[pause]\x02\x03D-Energie benötigt.[pause]
   - |-
     Sammelphase
     Hier wechseln sich Tamer ab,
-    um Programmkarten für versch.[pause][\x0203]Aktionen zu verwenden. Phase
+    um Programmkarten für versch.[pause]\x02\x03Aktionen zu verwenden. Phase
     endet bei mehrmaligem Passen.
     Verwende alle Prog.-Karten.[pause]
   - |-
     Kampfphase
     Hier kämpfen die Digimon gegen-
-    einander um den Sieg.[pause][\x0203]Wer siegt, entscheiden die gesamten
+    einander um den Sieg.[pause]\x02\x03Wer siegt, entscheiden die gesamten
     AP- und HP-Punkte. Wer HP von 0
     hat, verliert.[pause]

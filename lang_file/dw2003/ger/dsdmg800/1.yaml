@@ -1,10 +1,10 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Warte! Ich
+    \x02\x07\x02\x09\x023Warte! Ich
     lasse Juggernaut
     nicht starten![pause]
   - |-
-    [\x0207]Mech-Soldat[\x0207]GGzzz! GGzzz!
+    \x02\x07Mech-Soldat\x02\x07GGzzz! GGzzz!
     EINDRINGLING-ALARM!
-    EINDRINGLING-ALARM![pause][\x0203]Sofort löschen![pause]
+    EINDRINGLING-ALARM![pause]\x02\x03Sofort löschen![pause]

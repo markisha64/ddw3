@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207]Etermon[\x0207]¡Ahhh!
-    ¡Perdí![pause][\x0203]¡No deberia
+    \x02\x07Etermon\x02\x07¡Ahhh!
+    ¡Perdí![pause]\x02\x03¡No deberia
     poner cartas de
     juego en Carpetas![pause]

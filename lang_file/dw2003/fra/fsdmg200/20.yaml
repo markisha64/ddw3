@@ -1,5 +1,5 @@
 strings:
   - ''
   - |-
-    [\x0207]Mike le Rappeur[\x0207]On est un peu juste,
+    \x02\x07Mike le Rappeur\x02\x07On est un peu juste,
     alors tu peux entrer ![pause]

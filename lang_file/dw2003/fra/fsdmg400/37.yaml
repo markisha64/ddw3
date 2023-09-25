@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207]Agumon[\x0207]Hé hé hé,
+    \x02\x07Agumon\x02\x07Hé hé hé,
     désolé, je suis
-    Agumon.[pause][\x0203]Veemon se cache
+    Agumon.[pause]\x02\x03Veemon se cache
     ailleurs.[pause]

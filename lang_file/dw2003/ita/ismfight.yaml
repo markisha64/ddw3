@@ -8,9 +8,9 @@ strings:
   - Corri
   - Agguato!
   - Attacca!
-  - '[\x020501]!'
-  - Contratt.! [\x020501]!
-  - '[\x020501] danni!'
+  - '\x02\x05\x01!'
+  - Contratt.! \x02\x05\x01!
+  - '\x02\x05\x01 danni!'
   - X
   - PM
   - PF
@@ -21,9 +21,9 @@ strings:
   - Non hai imparato nulla.
   - Nessuna riserva
   - Nessun oggetto.
-  - '[\x020501]'
-  - '[\x020501]・[\x020502]'
-  - '[\x020501]・[\x020502]・[\x020503]'
+  - '\x02\x05\x01'
+  - '\x02\x05\x01・\x02\x05\x02'
+  - '\x02\x05\x01・\x02\x05\x02・\x02\x05\x03'
   - Liv.
   - '--'
   - Cambia
@@ -33,8 +33,8 @@ strings:
   - Congelato!
   - Confuso!
   - Addormentato!
-  - '[\x020501] PF curati!'
-  - '[\x020501] X [\x020502] = [\x020503]!'
+  - '\x02\x05\x01 PF curati!'
+  - '\x02\x05\x01 X \x02\x05\x02 = \x02\x05\x03!'
   - '-'
   - Contrattacco!
   - Rubato
@@ -54,7 +54,7 @@ strings:
   - Difesa [arrow-down]!
   - Velocità [arrow-down]!
   - Risparmia Chi!
-  - Digivoluz.! [\x020501]!
+  - Digivoluz.! \x02\x05\x01!
   - Indietro!
   - Vai!
   - DNA DV!
@@ -78,13 +78,13 @@ strings:
   - Forza, difesa, velocità maledette!
   - Eliminazione Digimon!
   - Prossimo Digimon fuori!
-  - '[\x020501]!'
+  - '\x02\x05\x01!'
   - KO!
   - Sconfitto!
   - Battaglia vinta!
   - Annientato.
   - Niente PM.
-  - 'Avvelenato: [\x020501]'
+  - 'Avvelenato: \x02\x05\x01'
   - Congelato e immobilizzato
   - Non puoi fuggire
   - Niente (Nessun suggerimento)
@@ -142,5 +142,5 @@ strings:
   - Galactimon ha imparato una tecnica
   - Niente MP!
   - Cambio fallito!
-  - '[\x020501] PM assorbiti!'
+  - '\x02\x05\x01 PM assorbiti!'
   - Addormentato!

@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207]Governatore di Byakko[\x0207]Benvenuto, sfidante.
+    \x02\x07Governatore di Byakko\x02\x07Benvenuto, sfidante.
     Combattiamo![pause]
   - |-
-    [\x0207][\x020902]3Ah, aspetta
-    un po'.[pause][\x0203]Prima ho
+    \x02\x07\x02\x09\x023Ah, aspetta
+    un po'.[pause]\x02\x03Prima ho
     una
     domanda.[pause]
   - |-
-    [\x0207]Governat. di Byakko[\x0207]Prima combattiamo![pause][\x0203]Se vinci ti
+    \x02\x07Governat. di Byakko\x02\x07Prima combattiamo![pause]\x02\x03Se vinci ti
     risponderò.[pause]
   - |-
-    [\x0207][\x020902]3OK, non
+    \x02\x07\x02\x09\x023OK, non
     riuscirai
     a battermi![pause]

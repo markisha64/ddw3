@@ -1,9 +1,9 @@
 strings:
   - ''
-  - "[\\x0207]Ice Master[\\x0207]Hey wait!\nYou can't get past\nhere![pause][\\x0203]If you really want \nto, then you have \nto defeat me![pause]"
-  - "[\\x0207][\\x020902]3All right. I just \nhave to fight \nand win, right?[pause]"
-  - "[\\x0207]Ice Master[\\x0207]That's it. \nYou know the \ndrill![pause][\\x0203]OK, let's \nbegin![pause]"
+  - "\\x02\\x07Ice Master\\x02\\x07Hey wait!\nYou can't get past\nhere![pause]\\x02\\x03If you really want \nto, then you have \nto defeat me![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023All right. I just \nhave to fight \nand win, right?[pause]"
+  - "\\x02\\x07Ice Master\\x02\\x07That's it. \nYou know the \ndrill![pause]\\x02\\x03OK, let's \nbegin![pause]"
   - |-
-    [\x0207][\x020902]3OK, fine.
+    \x02\x07\x02\x09\x023OK, fine.
     Bring the
     heat![pause]

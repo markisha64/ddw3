@@ -1,14 +1,14 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Häh?
+    \x02\x07\x02\x09\x023Häh?
     Ivy und Teddy
-    sind nicht hier.[pause][\x0203]Na, so wie ich die
+    sind nicht hier.[pause]\x02\x03Na, so wie ich die
     kenne, sind sie
     schon vorgegangen.[pause]
-  - "[\\x0207]Mitarbeiter[\\x0207][\\x020801][\\x020501], nicht wahr?\nWillkommen bei\nDigimon-Online![pause][\\x0203]Heute werden wir als\nVorbereitung auf den\nStart ein wenig üben.[pause][\\x0203]Du bist auf den Ost-\nsektor und Zentral-\nAmaterasu beschränkt.[pause][\\x0203]Es gibt jedoch mehr\nPlatinen- und Meeres-\nbodenbereiche.[pause][\\x0203]Digimon-Daten \nwerden wie\nvorher verwendet.[pause][\\x0203]Natürlich bleiben\nauch Techniken\nu. Digitationen gleich.[pause][\\x0203]Für alle Fälle möchte\nich aber eine Daten-\nprüfung vornehmen.[pause][\\x0203]Denk an das Speichern\nmit Guardromon,\nbevor du gehst.[pause]"
-  - '[\x0207][\x020902]3Na klar![pause]'
+  - "\\x02\\x07Mitarbeiter\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01, nicht wahr?\nWillkommen bei\nDigimon-Online![pause]\\x02\\x03Heute werden wir als\nVorbereitung auf den\nStart ein wenig üben.[pause]\\x02\\x03Du bist auf den Ost-\nsektor und Zentral-\nAmaterasu beschränkt.[pause]\\x02\\x03Es gibt jedoch mehr\nPlatinen- und Meeres-\nbodenbereiche.[pause]\\x02\\x03Digimon-Daten \nwerden wie\nvorher verwendet.[pause]\\x02\\x03Natürlich bleiben\nauch Techniken\nu. Digitationen gleich.[pause]\\x02\\x03Für alle Fälle möchte\nich aber eine Daten-\nprüfung vornehmen.[pause]\\x02\\x03Denk an das Speichern\nmit Guardromon,\nbevor du gehst.[pause]"
+  - '\x02\x07\x02\x09\x023Na klar![pause]'
   - |-
-    [\x0207][\x020902]3Super!
+    \x02\x07\x02\x09\x023Super!
     Was für
     ein Spaβ![pause]

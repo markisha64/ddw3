@@ -1,21 +1,21 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Strano. Non
+    \x02\x07\x02\x09\x023Strano. Non
     c'è nessuno
     qui![pause]
   - |-
-    [\x0207][\x020902]3Ci sono! È come la
+    \x02\x07\x02\x09\x023Ci sono! È come la
     stanza della Signora
-    del Gioco ad Asuka![pause][\x0203]Una porta segreta![pause][\x0203]Quale sarà il
-    codice?[pause][\x0203]Ad Asuka era
+    del Gioco ad Asuka![pause]\x02\x03Una porta segreta![pause]\x02\x03Quale sarà il
+    codice?[pause]\x02\x03Ad Asuka era
     MONSTER, forse
     qui è DIGITAL?[pause]
   - |-
-    [\x0207][\x020902]3!!
+    \x02\x07\x02\x09\x023!!
     Si è aperta
-    da sola![pause][\x0203]Forse
+    da sola![pause]\x02\x03Forse
     vuole che
-    entri.[pause][\x0203]Bene, allora!
+    entri.[pause]\x02\x03Bene, allora!
     Entrerò,
     chiunque tu sia![pause]

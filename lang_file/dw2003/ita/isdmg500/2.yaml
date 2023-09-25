@@ -1,28 +1,28 @@
 strings:
   - ''
   - |-
-    [\x0207]Gov. di Suzaku[\x0207]Oh no, ho
-    perso![pause][\x0203]Bene, come ti
+    \x02\x07Gov. di Suzaku\x02\x07Oh no, ho
+    perso![pause]\x02\x03Bene, come ti
     chiami?[pause]
-  - '[\x0207][\x020902]3[\x020801][\x020501]![pause]'
+  - '\x02\x07\x02\x09\x023\x02\x08\x01\x02\x05\x01![pause]'
   - |-
-    [\x0207]Gov. di Suzaku[\x0207]È un bel
-    nome![pause][\x0203]OK, ti darò
+    \x02\x07Gov. di Suzaku\x02\x07È un bel
+    nome![pause]\x02\x03OK, ti darò
     questo.[pause]
   - |-
-    [\x0207][\x020902]3Ora ho lo
+    \x02\x07\x02\x09\x023Ora ho lo
     stemma di
-    Suzaku![pause][\x0203]Devo prendere
+    Suzaku![pause]\x02\x03Devo prendere
     quello di
     Byakko, ora.[pause]
   - |-
-    [\x0207]Gov. di Suzaku[\x0207]Il Settore Ovest
+    \x02\x07Gov. di Suzaku\x02\x07Il Settore Ovest
     è oltre l'oceano.
-    È duro arrivarci.[pause][\x0203]L'unico modo è
+    È duro arrivarci.[pause]\x02\x03L'unico modo è
     farsi portare da
-    Submarimon.[pause][\x0203]Per chiamarli serve
+    Submarimon.[pause]\x02\x03Per chiamarli serve
     il digi-uovo della
-    fiducia.[pause][\x0203]Chiedi sue notizie in giro
-    per questo settore.[pause][\x0203]È l'unico consiglio
+    fiducia.[pause]\x02\x03Chiedi sue notizie in giro
+    per questo settore.[pause]\x02\x03È l'unico consiglio
     che posso darti.
     Buona fortuna![pause]

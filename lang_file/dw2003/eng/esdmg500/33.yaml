@@ -1,7 +1,7 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3An \nearthquake\nagain?![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023An \nearthquake\nagain?![pause]"
   - |-
-    [\x0207][\x020902]3I was right!
+    \x02\x07\x02\x09\x023I was right!
     It's Bulbmon![pause]
-  - "[\\x0207][\\x020902]3That earthquake was \ncaused by it \nmaking holes![pause][\\x0203]Just watch.\nI'm going to defeat\nit this time![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023That earthquake was \ncaused by it \nmaking holes![pause]\\x02\\x03Just watch.\nI'm going to defeat\nit this time![pause]"

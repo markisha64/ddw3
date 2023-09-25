@@ -1,32 +1,32 @@
 strings:
   - ''
   - |-
-    [\x0207]Service Dressage[\x0207]Voici des conseils
-    sur le jeu.[pause][\x0203]Les données vont
+    \x02\x07Service Dressage\x02\x07Voici des conseils
+    sur le jeu.[pause]\x02\x03Les données vont
     s'afficher sur ton
     satellite.[pause]
   - |-
     "Préparation pour le voyage"
     Sélections et choix concernant Dig.
-    et digivolutions se font au Digilabo.[pause][\x0203]Prends soin d'équiper tes Digimons
+    et digivolutions se font au Digilabo.[pause]\x02\x03Prends soin d'équiper tes Digimons
     d'armes et d'armures et rassemble-
     les pour le combat.[pause]
   - |-
     "Combat de cartes"
     Dans Digimon Online, tu peux aussi
-    faire des combats de cartes.[pause][\x0203]Pour plus d'infos, va au
-    Croiseur Jaune.[pause][\x0203]"Sauvegarde"
+    faire des combats de cartes.[pause]\x02\x03Pour plus d'infos, va au
+    Croiseur Jaune.[pause]\x02\x03"Sauvegarde"
     Mieux vaut sauvegarder
-    souvent. On ne sait jamais ![pause][\x0203]Guardromon, resp. sauvegardes,
+    souvent. On ne sait jamais ![pause]\x02\x03Guardromon, resp. sauvegardes,
     est présent dans chaque auberge.
     S'il se bat, il ne sauvegarde pas.[pause]
   - |-
     "Partie terminée"
     Lorsque tous les Dig. Part. sont
-    vaincus, la partie est terminée.[pause][\x0203]Evite les combats impossibles.[pause][\x0203]"Ajouter des partenaires"
+    vaincus, la partie est terminée.[pause]\x02\x03Evite les combats impossibles.[pause]\x02\x03"Ajouter des partenaires"
     Tu peux ajouter des Dig. part.
-    en plus des 3 que tu as choisis.[pause][\x0203]C'est tout ce que je peux te dire.[pause]
+    en plus des 3 que tu as choisis.[pause]\x02\x03C'est tout ce que je peux te dire.[pause]
   - |-
-    [\x0207]Service Dressage[\x0207]Voilà toutes les infos
+    \x02\x07Service Dressage\x02\x07Voilà toutes les infos
     que je peux te donner.
     Bonne chance ![pause]

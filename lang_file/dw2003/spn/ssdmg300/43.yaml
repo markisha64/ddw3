@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207]Divermon[\x0207]Lo he intentado
-    pero he perdido.[pause][\x0203]Ahh...
+    \x02\x07Divermon\x02\x07Lo he intentado
+    pero he perdido.[pause]\x02\x03Ahh...
     Tengo una idea para
     una Carp. y ganarte.[pause]

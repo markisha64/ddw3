@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3....
+    \x02\x07\x02\x09\x023....
     Hey that's...![pause]
-  - "[\\x0207][\\x020902]3Awesome! I got the \nDigi-Egg of Sincerity![pause]"
-  - "[\\x0207][\\x020902]3Now I can call\nSubmarimon and \ncross the ocean![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Awesome! I got the \nDigi-Egg of Sincerity![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Now I can call\nSubmarimon and \ncross the ocean![pause]"

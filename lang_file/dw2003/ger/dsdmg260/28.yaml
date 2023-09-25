@@ -1,13 +1,13 @@
 strings:
   - ''
   - |-
-    [\x0207]Mr. Smith[\x0207]Das ist eure Chance![pause][\x0203]Es geht um's Hauptitem![pause][\x0203]Die Ronin-Klinge.
-    Von allen bewundert![pause][\x0203]Das Mindestgebot für
+    \x02\x07Mr. Smith\x02\x07Das ist eure Chance![pause]\x02\x03Es geht um's Hauptitem![pause]\x02\x03Die Ronin-Klinge.
+    Von allen bewundert![pause]\x02\x03Das Mindestgebot für
     die Kotemon-Waffe
     liegt bei 2700 BIT![pause]
-  - '[\x0207]Händler Abel[\x0207]3100 BIT![pause]'
-  - '[\x0207]Chief Milly[\x0207]3500 BIT![pause]'
-  - '[\x0207]RPG-Fan Mas.[\x0207]3900 BIT![pause]'
+  - '\x02\x07Händler Abel\x02\x073100 BIT![pause]'
+  - '\x02\x07Chief Milly\x02\x073500 BIT![pause]'
+  - '\x02\x07RPG-Fan Mas.\x02\x073900 BIT![pause]'
   - |-
-    [\x0207][\x020902]3Hmm 4000 BIT
+    \x02\x07\x02\x09\x023Hmm 4000 BIT
     ...hmmm...[pause]

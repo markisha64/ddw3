@@ -1,29 +1,29 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3J'ai une
+    \x02\x07\x02\x09\x023J'ai une
     question, chef
     de Byakko.[pause]
   - |-
-    [\x0207]Chef de Byakko[\x0207]Tu m'as déjà
-    trouvé ![pause][\x0203]Très bien, je n'ai
+    \x02\x07Chef de Byakko\x02\x07Tu m'as déjà
+    trouvé ![pause]\x02\x03Très bien, je n'ai
     plus qu'à te battre ![pause]
   - |-
-    [\x0207][\x020902]3Quoi !?[pause][\x0203]Hé, attends une
+    \x02\x07\x02\x09\x023Quoi !?[pause]\x02\x03Hé, attends une
     seconde ! Que...[pause]
   - |-
-    [\x0207]Chef de Byakko[\x0207]Silence ! Je ne
+    \x02\x07Chef de Byakko\x02\x07Silence ! Je ne
     vais pas perdre
     face à l'A.o.A ![pause]
   - |-
-    [\x0207][\x020902]3Quoi ?
+    \x02\x07\x02\x09\x023Quoi ?
     L'A.o.A. ?![pause]
   - |-
-    [\x0207]Chef de Byakko[\x0207]Ne me fais pas
+    \x02\x07Chef de Byakko\x02\x07Ne me fais pas
     marcher ! Venez,
     mes Digimons ![pause]
   - |-
-    [\x0207][\x020902]3Je n'arrive pas à
-    le croire ! Enfin... [pause][\x0203]Bien, réglons
+    \x02\x07\x02\x09\x023Je n'arrive pas à
+    le croire ! Enfin... [pause]\x02\x03Bien, réglons
     cette histoire
     maintenant ![pause]

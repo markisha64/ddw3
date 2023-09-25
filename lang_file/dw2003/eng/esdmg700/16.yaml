@@ -1,10 +1,10 @@
 strings:
   - ''
-  - "[\\x0207]Genbu Leader[\\x0207]Hm, what? A \nchallenger at a \ntime like this?![pause]"
-  - "[\\x0207][\\x020902]3Genbu Leader, \nI've got a favor \nto ask![pause][\\x0203]Can I have your\nbadge to get to\nthe Real World?[pause]"
-  - "[\\x0207]Genbu Leader[\\x0207]Sorry, no matter \nwhat, I can't give\nthe badge for free.[pause][\\x0203]Those are the rules.[pause][\\x0203]If you want it you\nhave to win against\nme![pause]"
+  - "\\x02\\x07Genbu Leader\\x02\\x07Hm, what? A \nchallenger at a \ntime like this?![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Genbu Leader, \nI've got a favor \nto ask![pause]\\x02\\x03Can I have your\nbadge to get to\nthe Real World?[pause]"
+  - "\\x02\\x07Genbu Leader\\x02\\x07Sorry, no matter \nwhat, I can't give\nthe badge for free.[pause]\\x02\\x03Those are the rules.[pause]\\x02\\x03If you want it you\nhave to win against\nme![pause]"
   - |-
-    [\x0207][\x020902]3Oh, all right.
+    \x02\x07\x02\x09\x023Oh, all right.
     I knew you were
-    gonna say that![pause][\x0203]Let's get this
+    gonna say that![pause]\x02\x03Let's get this
     over with![pause]

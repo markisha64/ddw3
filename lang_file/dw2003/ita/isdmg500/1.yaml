@@ -1,14 +1,14 @@
 strings:
   - ''
   - |-
-    [\x0207]Gov. Suzaku[\x0207]Sei pronto
+    \x02\x07Gov. Suzaku\x02\x07Sei pronto
     a entrare
     nell'arena?[pause]
   - |-
-    [\x0207][\x020902]3Si,
+    \x02\x07\x02\x09\x023Si,
     certo![pause]
   - |-
-    [\x0207]Gov. di Suzaku[\x0207]Mmm, sembri
-    molto fiducioso![pause][\x0203]Ma non mi
+    \x02\x07Gov. di Suzaku\x02\x07Mmm, sembri
+    molto fiducioso![pause]\x02\x03Ma non mi
     sottovalutare,
     capito?[pause]

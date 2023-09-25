@@ -1,18 +1,18 @@
 strings:
   - ''
   - |-
-    [\x0207]Digievolución Navi[\x0207]Te mostraré consejos
+    \x02\x07Digievolución Navi\x02\x07Te mostraré consejos
     para enseñar a tu
-    Digimon a digiev.[pause][\x0203]Mostraré los datos en
+    Digimon a digiev.[pause]\x02\x03Mostraré los datos en
     tu satélite.[pause]
   - |-
     "Kotemon"
     Puede aprender Agumon y Veemon
-    si entrenas la tolerancia a máquina.[pause][\x0203]"Monmon"
+    si entrenas la tolerancia a máquina.[pause]\x02\x03"Monmon"
     Una vez aprenda Ultimate, entrena
-    su fza. y tolerancia a máq. y vien.[pause][\x0203]"Kumamon"
+    su fza. y tolerancia a máq. y vien.[pause]\x02\x03"Kumamon"
     Entrena sabiduría y espíritu,
     las más difíciles de increm.[pause]
-  - "\"Renamon\" \nEntrena espíritu o fuerza y defensa.[pause][\\x0203]\"Patamon\"\nEntrena sabiduría o fuerza.[pause]"
-  - "\"Agumon\"\nSi incrementa la tolerancia a osc. \naprenderá la digiev. osc.[pause][\\x0203]\"Guilmon\"\nLos parámetros son parciales,\nla clave, reforzar sus puntos déb.[pause]"
-  - "[\\x0207]Digiev. Navi.[\\x0207]Esa es toda la \ninformación.\n¡Buena suerte![pause]"
+  - "\"Renamon\" \nEntrena espíritu o fuerza y defensa.[pause]\\x02\\x03\"Patamon\"\nEntrena sabiduría o fuerza.[pause]"
+  - "\"Agumon\"\nSi incrementa la tolerancia a osc. \naprenderá la digiev. osc.[pause]\\x02\\x03\"Guilmon\"\nLos parámetros son parciales,\nla clave, reforzar sus puntos déb.[pause]"
+  - "\\x02\\x07Digiev. Navi.\\x02\\x07Esa es toda la \ninformación.\n¡Buena suerte![pause]"

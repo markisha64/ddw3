@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Va bene!
+    \x02\x07\x02\x09\x023Va bene!
     4000 BIT![pause]
   - |-
-    [\x0207]Mr. Smith[\x0207]Wow!
-    4000 BIT![pause][\x0203]Nessuno offre
+    \x02\x07Mr. Smith\x02\x07Wow!
+    4000 BIT![pause]\x02\x03Nessuno offre
     di più?[pause]
-  - "[\\x0207]Mr. Smith[\\x0207]E uno, e due,\ne tre![pause][\\x0203]La lama Ronin\nper 4000 BIT![pause][\\x0203]Congratulazioni\na te, laggiù![pause][\\x0203]Trasferirò \nl'oggetto al\nsatellite![pause]"
+  - "\\x02\\x07Mr. Smith\\x02\\x07E uno, e due,\ne tre![pause]\\x02\\x03La lama Ronin\nper 4000 BIT![pause]\\x02\\x03Congratulazioni\na te, laggiù![pause]\\x02\\x03Trasferirò \nl'oggetto al\nsatellite![pause]"
   - |-
-    [\x0207][\x020902]3Ho la lama
+    \x02\x07\x02\x09\x023Ho la lama
     Ronin![pause]
   - |-
-    [\x0207][\x020902]3Ora ho un oggetto
+    \x02\x07\x02\x09\x023Ora ho un oggetto
     prezioso. Posso
     andare via![pause]

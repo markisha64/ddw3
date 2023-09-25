@@ -1,14 +1,14 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Hey Paildramon. Tu\nmir einen Gefallen.[pause][\\x0203]Kann ich die \nVeemon-DDNA aus \ndeiner DDNA haben?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hey Paildramon. Tu\nmir einen Gefallen.[pause]\\x02\\x03Kann ich die \nVeemon-DDNA aus \ndeiner DDNA haben?[pause]"
   - |-
-    [\x0207]Paildramon[\x0207]Nein! Sie werden
+    \x02\x07Paildramon\x02\x07Nein! Sie werden
     dich mit einer
-    Nadel stechen![pause][\x0203]Es sei denn, du
+    Nadel stechen![pause]\x02\x03Es sei denn, du
     gewinnst gegen
     mich![pause]
   - |-
-    [\x0207][\x020902]3Gut. Ich
+    \x02\x07\x02\x09\x023Gut. Ich
     muss also
     nur gewinnen?[pause]
-  - "[\\x0207]Paildramon[\\x0207]Nur ist gut!\nVersuch es \ndoch![pause]"
+  - "\\x02\\x07Paildramon\\x02\\x07Nur ist gut!\nVersuch es \ndoch![pause]"

@@ -1,14 +1,14 @@
 strings:
   - ''
   - |-
-    [\x0207]Ufficiale camera[\x0207]Macchina astrale
+    \x02\x07Ufficiale camera\x02\x07Macchina astrale
     OK. Nessuna
     anomalia nei dati.[pause]
   - |-
-    [\x0207][\x020902]3Mi chiedo cosa
+    \x02\x07\x02\x09\x023Mi chiedo cosa
     succede nel
-    Mondo Reale.[pause][\x0203]Speriamo bene![pause]
+    Mondo Reale.[pause]\x02\x03Speriamo bene![pause]
   - |-
     LIMITE DEL TRASFERIMENTO RAGGIUNTO.
     DIGITALIZZAZIONE![pause]
-  - "[\\x0207][\\x020902]3E ora? Non sono\nriuscito a \nfermarla.[pause][\\x0203]Ci è mancato\npoco![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023E ora? Non sono\nriuscito a \nfermarla.[pause]\\x02\\x03Ci è mancato\npoco![pause]"

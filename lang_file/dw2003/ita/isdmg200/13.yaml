@@ -1,36 +1,36 @@
 strings:
   - ''
   - |-
-    [\x0207]Nav. Digimon[\x0207]Qui trovi consigli sulle
+    \x02\x07Nav. Digimon\x02\x07Qui trovi consigli sulle
     battaglie e su come
-    far crescere i Digimon.[pause][\x0203]Mostrerò i dati sul
+    far crescere i Digimon.[pause]\x02\x03Mostrerò i dati sul
     satellite.[pause]
   - |-
     "Tipi di attacco"
     Usa tecniche fisiche, magiche
-    e di supporto quando servono.[pause][\x0203]"Attributi dell'attacco"
+    e di supporto quando servono.[pause]\x02\x03"Attributi dell'attacco"
     Attacca i nemici con attributo
     opposto e sfrutta quelli degli alleati.[pause]
   - |-
     "Effetti delle tecniche"
     L'efficacia di veleni, paralisi e
-    altri effetti dipende dal Digimon.[pause][\x0203]"Stati indesiderati"
+    altri effetti dipende dal Digimon.[pause]\x02\x03"Stati indesiderati"
     Svaniscono dopo la battaglia,
     tranne la maledizione di Cardmon.[pause]
   - |-
     "Digivoluzione"
     Combina 2 Digimon in uno. Dopo,
-    i Digimon si scambiano di posto.[pause][\x0203]"Distribuzione ESP"
+    i Digimon si scambiano di posto.[pause]\x02\x03"Distribuzione ESP"
     Tutti i Digimon entrati in
     battaglia ricevono la stessa ESP.[pause]
   - |-
     "Addestramento"
     I Digimon si possono addestrare
-    in palestra spendendo PA.[pause][\x0203]"Abilità dopo la digivoluzione"
+    in palestra spendendo PA.[pause]\x02\x03"Abilità dopo la digivoluzione"
     Dopo la digivoluzione, le abilità
     aumentano in base all'ESP.[pause]
   - a
   - |-
-    [\x0207]Nav. Digimon[\x0207]Ora sai proprio
+    \x02\x07Nav. Digimon\x02\x07Ora sai proprio
     tutto.
     Buona fortuna![pause]

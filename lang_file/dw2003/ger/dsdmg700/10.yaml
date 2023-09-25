@@ -1,15 +1,15 @@
 strings:
   - ''
   - |-
-    [\x0207]Eishexe[\x0207]Moment bitte!
+    \x02\x07Eishexe\x02\x07Moment bitte!
     Jem. wie du darf
-    hier nicht durch![pause][\x0203]Gib auf und geh
+    hier nicht durch![pause]\x02\x03Gib auf und geh
     nach Hause![pause]
-  - "[\\x0207][\\x020902]3Machst du \nWitze? Dafür \nist keine Zeit![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Machst du \nWitze? Dafür \nist keine Zeit![pause]"
   - |-
-    [\x0207]Eishexe[\x0207]Ich bin die Königin
+    \x02\x07Eishexe\x02\x07Ich bin die Königin
     des Eisverlieses!
-    Hüte deine Zunge![pause][\x0203]Das ist unverzeihl.
+    Hüte deine Zunge![pause]\x02\x03Das ist unverzeihl.
     Dafür wirst du
     bestraft![pause]
-  - '[\x0207][\x020902]3?!?[pause]'
+  - '\x02\x07\x02\x09\x023?!?[pause]'

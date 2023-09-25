@@ -1,3 +1,3 @@
 strings:
   - ''
-  - "[\\x0207]Divermon[\\x0207]Tell me what's \nwrong with my\nfolder![pause][\\x0203]Ooh?\nI see!\nNow I can win![pause]"
+  - "\\x02\\x07Divermon\\x02\\x07Tell me what's \nwrong with my\nfolder![pause]\\x02\\x03Ooh?\nI see!\nNow I can win![pause]"

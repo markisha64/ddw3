@@ -1,6 +1,6 @@
 strings:
   - ''
-  - '[\x0207][\x020902]3Scosse![pause]'
+  - '\x02\x07\x02\x09\x023Scosse![pause]'
   - |-
-    [\x0207][\x020902]3Ma cosa sta
+    \x02\x07\x02\x09\x023Ma cosa sta
     succedendo?![pause]

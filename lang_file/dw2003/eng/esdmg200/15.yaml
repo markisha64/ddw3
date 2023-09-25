@@ -1,10 +1,10 @@
 strings:
   - ''
-  - "[\\x0207]Digivolution Navi[\\x0207]I will show you clues \non how to raise your\nDigimon to digivolve.[pause][\\x0203]I will display the data \non your satellite.[pause]"
-  - "\"Kotemon\"\nCan learn Agumon and Veemon types. \nIf you train machine tolerance...[pause][\\x0203]\"Monmon\"\nOnce it learns Ultimate, train its \nstrength, machine and wind tolerance.[pause][\\x0203]\"Kumamon\"\nTrain wisdom and spirit, which are \nhardest to increase.[pause]"
+  - "\\x02\\x07Digivolution Navi\\x02\\x07I will show you clues \non how to raise your\nDigimon to digivolve.[pause]\\x02\\x03I will display the data \non your satellite.[pause]"
+  - "\"Kotemon\"\nCan learn Agumon and Veemon types. \nIf you train machine tolerance...[pause]\\x02\\x03\"Monmon\"\nOnce it learns Ultimate, train its \nstrength, machine and wind tolerance.[pause]\\x02\\x03\"Kumamon\"\nTrain wisdom and spirit, which are \nhardest to increase.[pause]"
   - |-
     "Renamon"
-    Train spirit or strength and defense.[pause][\x0203]"Patamon"
+    Train spirit or strength and defense.[pause]\x02\x03"Patamon"
     Train wisdom or strength.[pause]
-  - "\"Agumon\"\nIf you increase dark tolerance, it \nwill learn dark type digivolution.[pause][\\x0203]\"Guilmon\"\nIts parameters are partial, so the \nkey is to strengthen its weaknesses.[pause]"
-  - "[\\x0207]Digivolution Navi[\\x0207]That's all of the \ninformation.\nWell, good luck![pause]"
+  - "\"Agumon\"\nIf you increase dark tolerance, it \nwill learn dark type digivolution.[pause]\\x02\\x03\"Guilmon\"\nIts parameters are partial, so the \nkey is to strengthen its weaknesses.[pause]"
+  - "\\x02\\x07Digivolution Navi\\x02\\x07That's all of the \ninformation.\nWell, good luck![pause]"

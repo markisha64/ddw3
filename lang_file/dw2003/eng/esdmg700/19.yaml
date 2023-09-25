@@ -1,4 +1,4 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Yeah! \nI won against \nXuen Wu Chief![pause]"
-  - "[\\x0207][\\x020902]3And I've got the \nBlack ID Pass as \nwell...[pause][\\x0203]So all that's left is \nAmaterasu City!\nLet's go![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Yeah! \nI won against \nXuen Wu Chief![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023And I've got the \nBlack ID Pass as \nwell...[pause]\\x02\\x03So all that's left is \nAmaterasu City!\nLet's go![pause]"

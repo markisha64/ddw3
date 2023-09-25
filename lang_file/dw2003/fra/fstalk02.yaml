@@ -1,130 +1,130 @@
 strings:
   - ''
   - |-
-    [\x0207]Dresseuse Haruka[\x0207]Ah ha ha ha !
+    \x02\x07Dresseuse Haruka\x02\x07Ah ha ha ha !
     Je suis la meilleure
-    dresseuse ![pause][\x0203]Je suis
+    dresseuse ![pause]\x02\x03Je suis
     imbattable
     sur ce serveur ![pause]
   - |-
-    [\x0207]Dresseuse Haruka[\x0207]Ah ha ha ha !
+    \x02\x07Dresseuse Haruka\x02\x07Ah ha ha ha !
     Je suis la
-    meilleure dresseuse[pause][\x0203]Je peux affronter
+    meilleure dresseuse[pause]\x02\x03Je peux affronter
     l'AoA
     n'importe quand ![pause]
   - |-
-    [\x0207]Dresseuse Haruka[\x0207]O-ink, ink !
+    \x02\x07Dresseuse Haruka\x02\x07O-ink, ink !
     O, o, o, oink ![pause]
   - |-
-    [\x0207]Guilmon[\x0207]Le Désert de
+    \x02\x07Guilmon\x02\x07Le Désert de
     Mobius est
-    dangereux.[pause][\x0203]Si tu te perds,
+    dangereux.[pause]\x02\x03Si tu te perds,
     va vers le Nord
     pour en sortir.[pause]
   - |-
-    [\x0207]Dresseuse Haruka[\x0207]Tu ne fais pas
-    le poids face à moi ![pause][\x0203]Entraîne-toi bien
+    \x02\x07Dresseuse Haruka\x02\x07Tu ne fais pas
+    le poids face à moi ![pause]\x02\x03Entraîne-toi bien
     si tu veux
     m'amuser ![pause]
-  - "[\\x0207]Dresseuse Haruka[\\x0207]Estime-toi heureux\nde pouvoir \nm'affronter.[pause]"
+  - "\\x02\\x07Dresseuse Haruka\\x02\\x07Estime-toi heureux\nde pouvoir \nm'affronter.[pause]"
   - |-
-    [\x0207]Dresseuse Haruka[\x0207]La dernière fois,
-    je t'ai laissé gagner.[pause][\x0203]Tu ne risquais pas
+    \x02\x07Dresseuse Haruka\x02\x07La dernière fois,
+    je t'ai laissé gagner.[pause]\x02\x03Tu ne risquais pas
     d'y arriver de
     toi-même ![pause]
   - |-
-    [\x0207]Dresseuse Haruka[\x0207]C'est facile pour
+    \x02\x07Dresseuse Haruka\x02\x07C'est facile pour
     moi de battre
     ton Digimon ![pause]
   - |-
-    [\x0207]Dresseuse Haruka[\x0207]Dommage que
+    \x02\x07Dresseuse Haruka\x02\x07Dommage que
     tu sois si
-    mauvais.[pause][\x0203]A bientôt pour
+    mauvais.[pause]\x02\x03A bientôt pour
     un nouveau combat.
     Ah ha ha ha ![pause]
   - |-
-    [\x0207]Dresseuse Haruka[\x0207]Imbécile, tu veux
-    me défier ![pause][\x0203]Tu devrais déjà
+    \x02\x07Dresseuse Haruka\x02\x07Imbécile, tu veux
+    me défier ![pause]\x02\x03Tu devrais déjà
     être content
     d'en avoir l'occasion ![pause]
   - |-
-    [\x0207]Dresseuse Haruka[\x0207]Ah ha ha ha !
+    \x02\x07Dresseuse Haruka\x02\x07Ah ha ha ha !
     Tu ne peux pas
-    me battre ![pause][\x0203]Tu n'es pas
+    me battre ![pause]\x02\x03Tu n'es pas
     à la hauteur.[pause]
   - |-
-    [\x0207]Dresseuse Haruka[\x0207]C'est bien de laisser
+    \x02\x07Dresseuse Haruka\x02\x07C'est bien de laisser
     les autres gagner
-    parfois.[pause][\x0203]C'est à ça
+    parfois.[pause]\x02\x03C'est à ça
     qu'on reconnaît les
     champions. Ah ha ![pause]
   - |-
-    [\x0207]Dresseuse Poemy[\x0207]... Je te le dis !
+    \x02\x07Dresseuse Poemy\x02\x07... Je te le dis !
     Tu es mon héros ![pause]
   - |-
-    [\x0207]Dresseuse Poemy[\x0207]L'AoA
+    \x02\x07Dresseuse Poemy\x02\x07L'AoA
     a été
-    arrêté...[pause][\x0203]Grâce
+    arrêté...[pause]\x02\x03Grâce
     à toi, mon
     héros ![pause]
   - |-
-    [\x0207]Dresseuse Poemy[\x0207]Oinnk,
+    \x02\x07Dresseuse Poemy\x02\x07Oinnk,
     oooooink ![pause]
   - |-
-    [\x0207]Mamie Teresa[\x0207]... Un type en noir et
-    un sarcastique ?[pause][\x0203]Non, je n'ai vu personne
+    \x02\x07Mamie Teresa\x02\x07... Un type en noir et
+    un sarcastique ?[pause]\x02\x03Non, je n'ai vu personne
     de ce genre par ici...[pause]
   - |-
-    [\x0207]Dresseuse Poemy[\x0207]Mon héros !
+    \x02\x07Dresseuse Poemy\x02\x07Mon héros !
     Je t'en prie,
     sauve-les tous ![pause]
   - |-
-    [\x0207]Dresseuse Poemy[\x0207]Glorieux héros ![pause][\x0203]Je t'en prie,
+    \x02\x07Dresseuse Poemy\x02\x07Glorieux héros ![pause]\x02\x03Je t'en prie,
     faisons un
     Combat de cartes.[pause]
   - |-
-    [\x0207]Dresseuse Poemy[\x0207]Oh, grand héros ![pause][\x0203]Je ne peux pas
+    \x02\x07Dresseuse Poemy\x02\x07Oh, grand héros ![pause]\x02\x03Je ne peux pas
     me battre avec toi![pause]
   - |-
-    [\x0207]Dresseuse Poemy[\x0207]Oh, grand héros ![pause][\x0203]Faisons
+    \x02\x07Dresseuse Poemy\x02\x07Oh, grand héros ![pause]\x02\x03Faisons
     un
     Digicombat ![pause]
   - |-
-    [\x0207]Dresseuse Poemy[\x0207]Oh, grand héros ![pause][\x0203]Quel honneur de
+    \x02\x07Dresseuse Poemy\x02\x07Oh, grand héros ![pause]\x02\x03Quel honneur de
     te rencontrer ![pause]
   - |-
-    [\x0207]Dresseuse Poemy[\x0207]Oh, grand héros ![pause][\x0203]Je t'en prie,
+    \x02\x07Dresseuse Poemy\x02\x07Oh, grand héros ![pause]\x02\x03Je t'en prie,
     montre-moi ta
     force ![pause]
   - |-
-    [\x0207]Dresseuse Poemy[\x0207]Quel genre de
-    héros es-tu ?[pause][\x0203]Oh, où est mon
+    \x02\x07Dresseuse Poemy\x02\x07Quel genre de
+    héros es-tu ?[pause]\x02\x03Oh, où est mon
     vrai héros...[pause]
   - |-
-    [\x0207]Dresseuse Poemy[\x0207]Mon magnifique
-    héros ![pause][\x0203]Quand tu auras
-    sauvé le monde...[pause][\x0203]S'il te plaît,
+    \x02\x07Dresseuse Poemy\x02\x07Mon magnifique
+    héros ![pause]\x02\x03Quand tu auras
+    sauvé le monde...[pause]\x02\x03S'il te plaît,
     épouse-moi ![pause]
   - |-
-    [\x0207]???[\x0207]Désolé, mais
-    laisse-moi.[pause][\x0203]Je veux
+    \x02\x07???\x02\x07Désolé, mais
+    laisse-moi.[pause]\x02\x03Je veux
     réfléchir en
     paix.[pause]
   - |-
-    [\x0207]Tatie Teresa[\x0207]J'ai fait tomber
+    \x02\x07Tatie Teresa\x02\x07J'ai fait tomber
     un muffin dans
-    le trou.[pause][\x0203]Mais il n'est
+    le trou.[pause]\x02\x03Mais il n'est
     pas ressorti.
     Quel gaspillage ![pause]
   - |-
-    [\x0207]Leomon[\x0207]Voici le
-    gymnase.[pause][\x0203]Veux-tu
+    \x02\x07Leomon\x02\x07Voici le
+    gymnase.[pause]\x02\x03Veux-tu
     t'entraîner ?[pause]
   - |-
-    [\x0207]Hitoshi le Goal[\x0207]Oink ?
+    \x02\x07Hitoshi le Goal\x02\x07Oink ?
     ooink, ooink !![pause]
   - |-
-    [\x0207]Naoki le Défenseur[\x0207]Oink, ooioink !
+    \x02\x07Naoki le Défenseur\x02\x07Oink, ooioink !
     ooink, ooink !![pause]
   - a
   - a
@@ -136,73 +136,73 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Remy l'Opérateur[\x0207]Ah !
-    Qui es-tu ?![pause][\x0203]Tu es des
+    \x02\x07Remy l'Opérateur\x02\x07Ah !
+    Qui es-tu ?![pause]\x02\x03Tu es des
     leurs ?!
     Où est Max ?[pause]
   - |-
-    [\x0207]Aiko le Chef classe[\x0207]Que se passe-t-i
-    sur ce serveur ?[pause][\x0203]Je t'en prie, dis-
+    \x02\x07Aiko le Chef classe\x02\x07Que se passe-t-i
+    sur ce serveur ?[pause]\x02\x03Je t'en prie, dis-
     moi ce que tu sais![pause]
   - |-
-    [\x0207]Dresseur Mitch[\x0207]Pfff, merci !
+    \x02\x07Dresseur Mitch\x02\x07Pfff, merci !
     Je me sens bien ![pause]
   - |-
-    [\x0207]Dresseur Mitch[\x0207]Je ne connais
+    \x02\x07Dresseur Mitch\x02\x07Je ne connais
     personne aussi
-    doué que toi ![pause][\x0203]Tu dois être
+    doué que toi ![pause]\x02\x03Tu dois être
     le Champion du
     serveur ![pause]
   - |-
-    [\x0207]Dresseur Mitch[\x0207]Pfff, merci !
+    \x02\x07Dresseur Mitch\x02\x07Pfff, merci !
     Je me sens bien ![pause]
   - |-
-    [\x0207]Dresseur Mitch[\x0207]Ouah, tu es doué !
-    Tu m'impressionnes ![pause][\x0203]Je renonce à mes
+    \x02\x07Dresseur Mitch\x02\x07Ouah, tu es doué !
+    Tu m'impressionnes ![pause]\x02\x03Je renonce à mes
     rêves de Champion
-    du serveur ![pause][\x0203]Voici l'Aura
+    du serveur ![pause]\x02\x03Voici l'Aura
     Sauvage, fais-en
     bon usage ![pause]
   - |-
-    [\x0207]Dresseur Mitch[\x0207]Je ne connais
+    \x02\x07Dresseur Mitch\x02\x07Je ne connais
     personne d'aussi
-    doué que toi ![pause][\x0203]Tu dois être
+    doué que toi ![pause]\x02\x03Tu dois être
     le Champion du
     serveur ![pause]
   - |-
-    [\x0207]Dresseuse Natsumi[\x0207]Je suis Natsumi,
+    \x02\x07Dresseuse Natsumi\x02\x07Je suis Natsumi,
     une lycéenne
     heureuse ![pause]
   - a
-  - "[\\x0207]Dresseuse Natsumi[\\x0207]Je suis Natsumi !\nJ'veux sortir avec \nun dresseur cool.[pause]"
+  - "\\x02\\x07Dresseuse Natsumi\\x02\\x07Je suis Natsumi !\nJ'veux sortir avec \nun dresseur cool.[pause]"
   - |-
-    [\x0207]Dres Natsumi[\x0207]Oin, oink !
+    \x02\x07Dres Natsumi\x02\x07Oin, oink !
     Oi, oink ![pause]
   - |-
-    [\x0207]Dresseuse Natsumi[\x0207]Je suis Natsumi !
+    \x02\x07Dresseuse Natsumi\x02\x07Je suis Natsumi !
     Je voudrais jouer
     avec quelqu'un.[pause]
   - |-
-    [\x0207]Dresseuse Natsumi[\x0207]Désolée. Les
+    \x02\x07Dresseuse Natsumi\x02\x07Désolée. Les
     gamins ne
     m'intéressent pas.[pause]
   - |-
-    [\x0207]Dress. Natsumi[\x0207]Eh, faisons
+    \x02\x07Dress. Natsumi\x02\x07Eh, faisons
     un Combat
-    de cartes ![pause][\x0203]J'adore ça ![pause]
+    de cartes ![pause]\x02\x03J'adore ça ![pause]
   - |-
-    [\x0207]Dress. Natsumi[\x0207]Eh, faisons
-    un Digicombat ![pause][\x0203]Je suis forte ![pause]
-  - "[\\x0207]Dress. Natsumi[\\x0207]Jamais je ne \npourrai te battre.[pause][\\x0203]Je préfère\npasser mon tour![pause]"
+    \x02\x07Dress. Natsumi\x02\x07Eh, faisons
+    un Digicombat ![pause]\x02\x03Je suis forte ![pause]
+  - "\\x02\\x07Dress. Natsumi\\x02\\x07Jamais je ne \npourrai te battre.[pause]\\x02\\x03Je préfère\npasser mon tour![pause]"
   - |-
-    [\x0207]Dresseuse Natsumi[\x0207]Tu es fort.
+    \x02\x07Dresseuse Natsumi\x02\x07Tu es fort.
     Je n'ai aucune
-    chance de gagner.[pause][\x0203]Peut-être une
+    chance de gagner.[pause]\x02\x03Peut-être une
     autre fois ![pause]
   - |-
-    [\x0207]Dresseuse Natsumi[\x0207]J'ai gagné ![pause][\x0203]Je rejoue avec
+    \x02\x07Dresseuse Natsumi\x02\x07J'ai gagné ![pause]\x02\x03Je rejoue avec
     toi quand tu veux ![pause]
-  - "[\\x0207]Dresseuse Natsumi[\\x0207]Quoi ! \nJ'ai perdu ?![pause][\\x0203]Ca craint !\nLa prochaine fois\nje te battrai ![pause]"
+  - "\\x02\\x07Dresseuse Natsumi\\x02\\x07Quoi ! \nJ'ai perdu ?![pause]\\x02\\x03Ca craint !\nLa prochaine fois\nje te battrai ![pause]"
   - a
   - a
   - a
@@ -219,7 +219,7 @@ strings:
   - a
   - a
   - a
-  - "[\\x0207]Agumon[\\x0207]Quoi, tu cherches un\ntype en noir et un\n sarcastique ?[pause][\\x0203]J'ai vu l'homme\nsarcastique...[pause][\\x0203]Il a dit qu'il \nallait vers l'océan.[pause]"
+  - "\\x02\\x07Agumon\\x02\\x07Quoi, tu cherches un\ntype en noir et un\n sarcastique ?[pause]\\x02\\x03J'ai vu l'homme\nsarcastique...[pause]\\x02\\x03Il a dit qu'il \nallait vers l'océan.[pause]"
   - a
   - a
   - a
@@ -252,59 +252,59 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Dress. Natsumi[\x0207]Eh toi, tu as
+    \x02\x07Dress. Natsumi\x02\x07Eh toi, tu as
     l'air très
-    fort ![pause][\x0203]Ca te dirait un
+    fort ![pause]\x02\x03Ca te dirait un
     Combat de
     cartes ?[pause]
   - a
   - |-
-    [\x0207]Dresseur Mitch[\x0207]Je suis
+    \x02\x07Dresseur Mitch\x02\x07Je suis
     si excité ![pause]
   - |-
-    [\x0207]Dresseur Mitch[\x0207]Battons-nous
+    \x02\x07Dresseur Mitch\x02\x07Battons-nous
     avec un fort ![pause]
   - |-
-    [\x0207]Dresseur Mitch[\x0207]Man, ça
-    craint ![pause][\x0203]J'aimerais aussi
+    \x02\x07Dresseur Mitch\x02\x07Man, ça
+    craint ![pause]\x02\x03J'aimerais aussi
     combattre l'AoA ![pause]
   - |-
-    [\x0207]Dresseur Mitch[\x0207]Oioionk !
+    \x02\x07Dresseur Mitch\x02\x07Oioionk !
     Oin, oinnnk ![pause]
   - |-
-    [\x0207]Dresseur Mitch[\x0207]... Quoi ?
-    Tu veux te battre[pause][\x0203]Désolé, jamais
+    \x02\x07Dresseur Mitch\x02\x07... Quoi ?
+    Tu veux te battre[pause]\x02\x03Désolé, jamais
     avec les minus.[pause]
   - |-
-    [\x0207]Dresseur Mitch[\x0207]OK pour un
+    \x02\x07Dresseur Mitch\x02\x07OK pour un
     Combat de
-    cartes ![pause][\x0203]On va voir qui
+    cartes ![pause]\x02\x03On va voir qui
     est le meilleur.[pause]
   - |-
-    [\x0207]Agumon[\x0207]Il y a une grande tour
+    \x02\x07Agumon\x02\x07Il y a une grande tour
     après le Désert de
-    Mobius ![pause][\x0203]Je n'en sais
+    Mobius ![pause]\x02\x03Je n'en sais
     rien, je n'y suis
     jamais allé ![pause]
   - |-
-    [\x0207]Agumon[\x0207]Il y a une grande tour
+    \x02\x07Agumon\x02\x07Il y a une grande tour
     après le Désert de
-    Mobius ![pause][\x0203]Je n'en sais
+    Mobius ![pause]\x02\x03Je n'en sais
     rien, je n'y suis
     jamais allé ![pause]
   - |-
-    [\x0207]Dresseur Mitch[\x0207]La prochaine
+    \x02\x07Dresseur Mitch\x02\x07La prochaine
     fois, ce sera
     moi le Champion ![pause]
   - |-
-    [\x0207]Dresseur Mitch[\x0207]Eh toi, faisons
-    un Digicombat ![pause][\x0203]C'est
+    \x02\x07Dresseur Mitch\x02\x07Eh toi, faisons
+    un Digicombat ![pause]\x02\x03C'est
     parti ![pause]
-  - "[\\x0207]Dresseur Mitch[\\x0207]Je dois d'abord\nétudier les \nDigicombats ![pause][\\x0203]Désolé, je ne\npeux pas me\nbattre.Plus tard !![pause]"
+  - "\\x02\\x07Dresseur Mitch\\x02\\x07Je dois d'abord\nétudier les \nDigicombats ![pause]\\x02\\x03Désolé, je ne\npeux pas me\nbattre.Plus tard !![pause]"
   - |-
-    [\x0207]Dresseur Mitch[\x0207]Pour ça, je
+    \x02\x07Dresseur Mitch\x02\x07Pour ça, je
     te battrai
-    en duel ![pause][\x0203]Je ne suis pas
+    en duel ![pause]\x02\x03Je ne suis pas
     comme les autres ![pause]
   - a
   - a
@@ -392,53 +392,53 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Dresseur Nakano[\x0207]Humm, je vois.
-    Avec ce combo...[pause][\x0203]Je réunis et analyse
+    \x02\x07Dresseur Nakano\x02\x07Humm, je vois.
+    Avec ce combo...[pause]\x02\x03Je réunis et analyse
     les données cartes.[pause]
-  - "[\\x0207]Dresseur Nakano[\\x0207]Je collecte les \ncartes pour\nles analyser.[pause][\\x0203]C'est pour créer\nun super guide\nde stratégie ![pause]"
+  - "\\x02\\x07Dresseur Nakano\\x02\\x07Je collecte les \ncartes pour\nles analyser.[pause]\\x02\\x03C'est pour créer\nun super guide\nde stratégie ![pause]"
   - |-
-    [\x0207]Dresseur Nakano[\x0207]Oh oh, j'ai des
-    ennuis.[pause][\x0203]L' AoA m'a empê-
+    \x02\x07Dresseur Nakano\x02\x07Oh oh, j'ai des
+    ennuis.[pause]\x02\x03L' AoA m'a empê-
     ché de recueillir
     des données.[pause]
   - |-
-    [\x0207]Dress Nakano[\x0207]Oimm,
+    \x02\x07Dress Nakano\x02\x07Oimm,
     oinkkk.[pause]
-  - "[\\x0207]Dresseur Nakano[\\x0207]Euh, ton jeu est...[pause][\\x0203]Désolé, tu es trop\nfaible. On ne peut \npuiser tes données.[pause]"
+  - "\\x02\\x07Dresseur Nakano\\x02\\x07Euh, ton jeu est...[pause]\\x02\\x03Désolé, tu es trop\nfaible. On ne peut \npuiser tes données.[pause]"
   - |-
-    [\x0207]Dresseur Nakano[\x0207]Bats-toi ! Je
+    \x02\x07Dresseur Nakano\x02\x07Bats-toi ! Je
     vais récupérer
     tes données ![pause]
   - |-
-    [\x0207]Dresseur Nakano[\x0207]Humm, je vois avec
+    \x02\x07Dresseur Nakano\x02\x07Humm, je vois avec
     les propriétés x
-    d'armes...[pause][\x0203]Je recueille les digi-
+    d'armes...[pause]\x02\x03Je recueille les digi-
     données pour
     les analyser.[pause]
-  - "[\\x0207]Dresseur Nakano[\\x0207]Oh, tes Digimons\nont l'air intéressant.[pause][\\x0203]Bats-toi avec moi,\nje veux récupérer \nleurs données ![pause]"
+  - "\\x02\\x07Dresseur Nakano\\x02\\x07Oh, tes Digimons\nont l'air intéressant.[pause]\\x02\\x03Bats-toi avec moi,\nje veux récupérer \nleurs données ![pause]"
   - |-
-    [\x0207]Dresseur Nakano[\x0207]Tes Digimons sont
-    vraiment puissants ![pause][\x0203]Tes données sont
+    \x02\x07Dresseur Nakano\x02\x07Tes Digimons sont
+    vraiment puissants ![pause]\x02\x03Tes données sont
     parmi les meilleures
     que j'ai recueillies.[pause]
   - |-
-    [\x0207]Dresseur Nakano[\x0207]Mais le duel est aussi
+    \x02\x07Dresseur Nakano\x02\x07Mais le duel est aussi
     un important sujet de
-    recherche.[pause][\x0203]Bats-toi avec moi,
+    recherche.[pause]\x02\x03Bats-toi avec moi,
     je veux récupérer
     tes données ![pause]
   - |-
-    [\x0207]Dresseur Nakano[\x0207]Merci. J'ai récu-
+    \x02\x07Dresseur Nakano\x02\x07Merci. J'ai récu-
     péré d'importantes
-    données[pause][\x0203]Aide-moi encore
+    données[pause]\x02\x03Aide-moi encore
     à l'avenir.[pause]
   - |-
-    [\x0207]Dresseur Nakano[\x0207]Merci beaucoup.
+    \x02\x07Dresseur Nakano\x02\x07Merci beaucoup.
     J'ai récupéré des
-    données importantes.[pause][\x0203]Aide-moi encore.[pause]
-  - "[\\x0207]Dresseur Nakano[\\x0207]Tu es fort ! J'ai\nrécupéré d'impor-\ntantes données.[pause][\\x0203]Merci beaucoup.\nAide-moi \nencore.[pause]"
-  - "[\\x0207]Dresseur Nakano[\\x0207]Merci beaucoup.\nJ'ai récupéré des \ndonnées importantes.[pause][\\x0203]Pour te remercier,\nje vais te donner une\ncarte Lance Sacrée .[pause][\\x0203]Quand tu seras plus\nfort, j'aimerais \nrécupérer tes données.[pause]"
-  - "[\\x0207]Dresseur Nakano[\\x0207]Tu es fort ! J'ai\nrécupéré plein\nde données.[pause][\\x0203]Merci beaucoup.\nTu m'aideras \nencore ?[pause]"
+    données importantes.[pause]\x02\x03Aide-moi encore.[pause]
+  - "\\x02\\x07Dresseur Nakano\\x02\\x07Tu es fort ! J'ai\nrécupéré d'impor-\ntantes données.[pause]\\x02\\x03Merci beaucoup.\nAide-moi \nencore.[pause]"
+  - "\\x02\\x07Dresseur Nakano\\x02\\x07Merci beaucoup.\nJ'ai récupéré des \ndonnées importantes.[pause]\\x02\\x03Pour te remercier,\nje vais te donner une\ncarte Lance Sacrée .[pause]\\x02\\x03Quand tu seras plus\nfort, j'aimerais \nrécupérer tes données.[pause]"
+  - "\\x02\\x07Dresseur Nakano\\x02\\x07Tu es fort ! J'ai\nrécupéré plein\nde données.[pause]\\x02\\x03Merci beaucoup.\nTu m'aideras \nencore ?[pause]"
   - a
   - a
   - a
@@ -453,9 +453,9 @@ strings:
   - a
   - a
   - |-
-    [\x0207]PANNEAU[\x0207]Nord : Asuka City
+    \x02\x07PANNEAU\x02\x07Nord : Asuka City
     Est : Seiryu City[pause]
-  - "[\\x0207]Tatie Teresa[\\x0207]Oh ! C'est \nquoi ce trou?[pause][\\x0203]Trop gros\npour une\ntaupinière...[pause]"
+  - "\\x02\\x07Tatie Teresa\\x02\\x07Oh ! C'est \nquoi ce trou?[pause]\\x02\\x03Trop gros\npour une\ntaupinière...[pause]"
   - a
   - a
   - a
@@ -474,35 +474,35 @@ strings:
   - a
   - a
   - a
-  - "[\\x0207]Tatie Teresa[\\x0207]Quoi, un moyen\nd'entrer dans \nle Centre admin. ?[pause][\\x0203]Je ne sais pas. Et\nce n'est pas ce trou\nqui t'y mènera.[pause]"
+  - "\\x02\\x07Tatie Teresa\\x02\\x07Quoi, un moyen\nd'entrer dans \nle Centre admin. ?[pause]\\x02\\x03Je ne sais pas. Et\nce n'est pas ce trou\nqui t'y mènera.[pause]"
   - |-
-    [\x0207]Tatie Teresa[\x0207]C'est un
+    \x02\x07Tatie Teresa\x02\x07C'est un
     trou très
-    profond...[pause][\x0203]Jusqu'où
+    profond...[pause]\x02\x03Jusqu'où
     peut-il
     descendre ?[pause]
   - |-
-    [\x0207]Tatie Teresa[\x0207]C'est un
+    \x02\x07Tatie Teresa\x02\x07C'est un
     trou très
-    profond...[pause][\x0203]Jusqu'où
+    profond...[pause]\x02\x03Jusqu'où
     peut-il
     descendre ?[pause]
   - a
   - |-
-    [\x0207]Tatie Teresa[\x0207]Après 70 ans,
+    \x02\x07Tatie Teresa\x02\x07Après 70 ans,
     la vie est toujours
     pleine de mystères.[pause]
   - |-
-    [\x0207]Tatie Teresa[\x0207]Oh, j'ai eu
-    peur ![pause][\x0203]Digmon a surgi
+    \x02\x07Tatie Teresa\x02\x07Oh, j'ai eu
+    peur ![pause]\x02\x03Digmon a surgi
     d'ici.[pause]
   - |-
-    [\x0207]Tatie Teresa[\x0207]Il paraît que
-    l'AoA a été battu ![pause][\x0203]Génial ! Tout
+    \x02\x07Tatie Teresa\x02\x07Il paraît que
+    l'AoA a été battu ![pause]\x02\x03Génial ! Tout
     devrait rentrer
     dans l'ordre.[pause]
   - |-
-    [\x0207]Tatie Teresa[\x0207]Ooooink, oink !
+    \x02\x07Tatie Teresa\x02\x07Ooooink, oink !
     Oinnnk, oinnk ![pause]
   - a
   - a
@@ -571,13 +571,13 @@ strings:
   - a
   - a
   - a
-  - "[\\x0207]MetalEtemon[\\x0207]L'Invincible est\ngénial, non ?[pause][\\x0203]Tu es devenu \nun bon dresseur ![pause]"
+  - "\\x02\\x07MetalEtemon\\x02\\x07L'Invincible est\ngénial, non ?[pause]\\x02\\x03Tu es devenu \nun bon dresseur ![pause]"
   - |-
-    [\x0207]MetalEtemon[\x0207]Eh, c'est la
+    \x02\x07MetalEtemon\x02\x07Eh, c'est la
     Destruction.
     Une super arme ![pause]
-  - "[\\x0207]MetalEtemon[\\x0207]Apporte le Croc de \nBelial si tu as la\nDestruction ![pause][\\x0203]J'en ferai une\narme encore plus \npuissante ![pause]"
-  - "[\\x0207]MetalEtemon[\\x0207]J'en ferai une\narme plus\npuissante ![pause][\\x0203]Donne-moi la\nDestruction et\nle Croc de Belial.[pause][\\x0203]... OK, ça y est !\nUne couche de\nDigizoïte de Kulon ![pause][\\x0203]Voilà !\nUn Invincible ![pause][\\x0203]Tu vas donc \ndevenir un\ndresseur redoutable ![pause]"
+  - "\\x02\\x07MetalEtemon\\x02\\x07Apporte le Croc de \nBelial si tu as la\nDestruction ![pause]\\x02\\x03J'en ferai une\narme encore plus \npuissante ![pause]"
+  - "\\x02\\x07MetalEtemon\\x02\\x07J'en ferai une\narme plus\npuissante ![pause]\\x02\\x03Donne-moi la\nDestruction et\nle Croc de Belial.[pause]\\x02\\x03... OK, ça y est !\nUne couche de\nDigizoïte de Kulon ![pause]\\x02\\x03Voilà !\nUn Invincible ![pause]\\x02\\x03Tu vas donc \ndevenir un\ndresseur redoutable ![pause]"
   - a
   - a
   - a
@@ -594,236 +594,236 @@ strings:
   - a
   - a
   - a
-  - "[\\x0207]Aiko Chef de classe [\\x0207]Numemon nous a fait\nsortir de la grotte\nsouterraine...[pause][\\x0203]...Et on est venus\nici, mais...[pause][\\x0203]Qui a\nattaqué Byakko \nCity ?[pause]"
-  - "[\\x0207]Aiko Chef classe[\\x0207]C'est Numemon\nqui nous a\nsauvés.[pause][\\x0203]Je ne dirai plus\njamais qu'il \nest lourd ![pause]"
+  - "\\x02\\x07Aiko Chef de classe \\x02\\x07Numemon nous a fait\nsortir de la grotte\nsouterraine...[pause]\\x02\\x03...Et on est venus\nici, mais...[pause]\\x02\\x03Qui a\nattaqué Byakko \nCity ?[pause]"
+  - "\\x02\\x07Aiko Chef classe\\x02\\x07C'est Numemon\nqui nous a\nsauvés.[pause]\\x02\\x03Je ne dirai plus\njamais qu'il \nest lourd ![pause]"
   - |-
-    [\x0207]Aiko Chef de classe[\x0207]On ne peut pas
-    rester à ne rien faire.[pause][\x0203]Le Chef a
+    \x02\x07Aiko Chef de classe\x02\x07On ne peut pas
+    rester à ne rien faire.[pause]\x02\x03Le Chef a
     sûrement a un plan
     lui aussi ![pause]
-  - "[\\x0207]Remy l'Opérateur[\\x0207]Le Chef doit\nêtre à l'arrière \ndu hall...[pause]"
-  - "[\\x0207]Remy l'Opérateur[\\x0207]Qu'est-il arrivé à \nByakko City ?[pause][\\x0203]J'espère que Max\nva bien...[pause]"
+  - "\\x02\\x07Remy l'Opérateur\\x02\\x07Le Chef doit\nêtre à l'arrière \ndu hall...[pause]"
+  - "\\x02\\x07Remy l'Opérateur\\x02\\x07Qu'est-il arrivé à \nByakko City ?[pause]\\x02\\x03J'espère que Max\nva bien...[pause]"
   - |-
-    [\x0207]Remy l'Opérateur[\x0207]A y réfléchir,
-    ça m'intrigue.[pause][\x0203]Comment l'AoA
+    \x02\x07Remy l'Opérateur\x02\x07A y réfléchir,
+    ça m'intrigue.[pause]\x02\x03Comment l'AoA
     est-il arrivé jusqu'au
     serveur Asuka ?[pause]
-  - "[\\x0207]Chef de Byakko[\\x0207]Oh, c'est toi.\nTu as trouvé \nNumemon ?[pause][\\x0203]Il doit être à\nl'Usine\nDum Dum ![pause]"
+  - "\\x02\\x07Chef de Byakko\\x02\\x07Oh, c'est toi.\nTu as trouvé \nNumemon ?[pause]\\x02\\x03Il doit être à\nl'Usine\nDum Dum ![pause]"
   - |-
-    [\x0207]???[\x0207]Humm ?
-    Qui es-tu ?[pause][\x0203]Désolé,
+    \x02\x07???\x02\x07Humm ?
+    Qui es-tu ?[pause]\x02\x03Désolé,
     laisse-moi
     seul...[pause]
-  - "[\\x0207]Chef de Byakko[\\x0207]Donc, ce Numemon \nétait Lucky Mouse.[pause][\\x0203]Mais il a aussi été\nbattu par\nl'AoA...[pause][\\x0203]OK, c'est décidé !\nOn va combattre\nl'AoA nous aussi ![pause]"
+  - "\\x02\\x07Chef de Byakko\\x02\\x07Donc, ce Numemon \nétait Lucky Mouse.[pause]\\x02\\x03Mais il a aussi été\nbattu par\nl'AoA...[pause]\\x02\\x03OK, c'est décidé !\nOn va combattre\nl'AoA nous aussi ![pause]"
   - a
   - a
   - a
   - |-
-    [\x0207]Guardromon[\x0207]ACCES AU
+    \x02\x07Guardromon\x02\x07ACCES AU
     LECT. MATRIX.[pause]
   - a
   - a
-  - "[\\x0207]Gatomon[\\x0207]... Bienvenue\ndans mon Auberge ![pause][\\x0203]Prends le \ntemps de te\nreposer.[pause]"
+  - "\\x02\\x07Gatomon\\x02\\x07... Bienvenue\ndans mon Auberge ![pause]\\x02\\x03Prends le \ntemps de te\nreposer.[pause]"
   - a
-  - "[\\x0207][\\x020902]3Ouais ! Une \nCharge \nEnergétique ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ouais ! Une \nCharge \nEnergétique ![pause]"
   - a
   - a
-  - "[\\x0207]Dresseur Shingo[\\x0207]Tout le monde rêve\nd'être Champion du \nmonde. J'le serai![pause]"
-  - "[\\x0207]Dresseur Shingo[\\x0207]C'est décidé !Je\nserai Champion \ndu monde ![pause]"
+  - "\\x02\\x07Dresseur Shingo\\x02\\x07Tout le monde rêve\nd'être Champion du \nmonde. J'le serai![pause]"
+  - "\\x02\\x07Dresseur Shingo\\x02\\x07C'est décidé !Je\nserai Champion \ndu monde ![pause]"
   - |-
-    [\x0207]Dresseur Shingo[\x0207]Oink oinnk,
+    \x02\x07Dresseur Shingo\x02\x07Oink oinnk,
     oink, oink ![pause]
   - a
-  - "[\\x0207]Dresseur Shingo[\\x0207]Je n'ai pas de \ntemps à perdre\navec toi.[pause][\\x0203]Je dois combattre\ndes adversaires\nplus forts ![pause]"
-  - "[\\x0207]Dresseur Shingo[\\x0207]Je te battrai \nd'abord en duel ![pause]"
-  - "[\\x0207]Dresseur Shingo[\\x0207]Pour l'instant,\nje m'entraîne.[pause][\\x0203]Désolé, mais on \nse battra une \nautre fois ![pause]"
+  - "\\x02\\x07Dresseur Shingo\\x02\\x07Je n'ai pas de \ntemps à perdre\navec toi.[pause]\\x02\\x03Je dois combattre\ndes adversaires\nplus forts ![pause]"
+  - "\\x02\\x07Dresseur Shingo\\x02\\x07Je te battrai \nd'abord en duel ![pause]"
+  - "\\x02\\x07Dresseur Shingo\\x02\\x07Pour l'instant,\nje m'entraîne.[pause]\\x02\\x03Désolé, mais on \nse battra une \nautre fois ![pause]"
   - |-
-    [\x0207]Dress. Shingo[\x0207]Je vais d'abord
+    \x02\x07Dress. Shingo\x02\x07Je vais d'abord
     gagner notre
-    combat ![pause][\x0203]Prépare-toi
+    combat ![pause]\x02\x03Prépare-toi
     bien ![pause]
   - |-
-    [\x0207]Dresseur Shingo[\x0207]Pour ça, je
+    \x02\x07Dresseur Shingo\x02\x07Pour ça, je
     dois te
-    battre.[pause][\x0203]Attention !
+    battre.[pause]\x02\x03Attention !
     Un jour,
     je gagnerai.[pause]
   - |-
-    [\x0207]Dresseur Shingo[\x0207]Battons-nous.[pause][\x0203]Prêt ? A moi
+    \x02\x07Dresseur Shingo\x02\x07Battons-nous.[pause]\x02\x03Prêt ? A moi
     la victoire ![pause]
   - |-
-    [\x0207]Dresseur Shingo[\x0207]Ha ha ha, tu vois
+    \x02\x07Dresseur Shingo\x02\x07Ha ha ha, tu vois
     ce dont je suis
-    capable ?[pause][\x0203]Je serai bientôt
+    capable ?[pause]\x02\x03Je serai bientôt
     Champion du
     monde ![pause]
   - |-
-    [\x0207]Dress Shingo[\x0207]Quoi ! Tu
-    m'as battu ![pause][\x0203]C'est la
+    \x02\x07Dress Shingo\x02\x07Quoi ! Tu
+    m'as battu ![pause]\x02\x03C'est la
     dernière fois![pause]
   - |-
-    [\x0207]Dresseur Makoto[\x0207]J'ai promis
+    \x02\x07Dresseur Makoto\x02\x07J'ai promis
     quelque chose
-    à Kimmy.[pause][\x0203]Devenir Champion
+    à Kimmy.[pause]\x02\x03Devenir Champion
     du serveur ![pause]
-  - "[\\x0207]Dresseur Makoto[\\x0207]Kimmy me l'a\npromis ![pause][\\x0203]Elle jouera avec \nmoi si je deviens \nle Champion ![pause]"
+  - "\\x02\\x07Dresseur Makoto\\x02\\x07Kimmy me l'a\npromis ![pause]\\x02\\x03Elle jouera avec \nmoi si je deviens \nle Champion ![pause]"
   - |-
-    [\x0207]Dresseur Makoto[\x0207]Oi, oink,
+    \x02\x07Dresseur Makoto\x02\x07Oi, oink,
     oioioioink ![pause]
   - a
   - |-
-    [\x0207]Dresseur Makoto[\x0207]Mais ça m'inquiète.[pause][\x0203]Kimmy risque de
+    \x02\x07Dresseur Makoto\x02\x07Mais ça m'inquiète.[pause]\x02\x03Kimmy risque de
     s'intéresser à un
     autre.[pause]
-  - "[\\x0207]Dresseur Makoto[\\x0207]Tu pourrais \nm'affronter puis\nabandonner ?[pause]"
+  - "\\x02\\x07Dresseur Makoto\\x02\\x07Tu pourrais \nm'affronter puis\nabandonner ?[pause]"
   - |-
-    [\x0207]Dresseur Makoto[\x0207]Je ne veux pas
-    me battre contre toi.[pause][\x0203]Si je perds
+    \x02\x07Dresseur Makoto\x02\x07Je ne veux pas
+    me battre contre toi.[pause]\x02\x03Si je perds
     le duel, Kimmy
     me détestera...[pause]
-  - "[\\x0207]Dresseur Makoto[\\x0207]Tu pourrais\nm'affronter puis \nabandonner ?[pause]"
-  - "[\\x0207]Dresseur Makoto[\\x0207]... Bon, on se \nbattra plus tard.[pause][\\x0203]Si je perds,\nKimmy va\nme détester...[pause]"
-  - "[\\x0207]Dresseur Makoto[\\x0207]Donc, je ne \ndois pas perdre.[pause][\\x0203]Je gagnerai,\ncoûte que coûte.[pause]"
+  - "\\x02\\x07Dresseur Makoto\\x02\\x07Tu pourrais\nm'affronter puis \nabandonner ?[pause]"
+  - "\\x02\\x07Dresseur Makoto\\x02\\x07... Bon, on se \nbattra plus tard.[pause]\\x02\\x03Si je perds,\nKimmy va\nme détester...[pause]"
+  - "\\x02\\x07Dresseur Makoto\\x02\\x07Donc, je ne \ndois pas perdre.[pause]\\x02\\x03Je gagnerai,\ncoûte que coûte.[pause]"
   - |-
-    [\x0207]Dresseur Makoto[\x0207]Pfff, j'ai gagné ![pause][\x0203]J'aurais aimé que
+    \x02\x07Dresseur Makoto\x02\x07Pfff, j'ai gagné ![pause]\x02\x03J'aurais aimé que
     Kimmy assiste à
     ce match ![pause]
   - |-
-    [\x0207]Dresseur Makoto[\x0207]Mince, j'ai perdu.[pause][\x0203]S'il te plaît ! Ne
+    \x02\x07Dresseur Makoto\x02\x07Mince, j'ai perdu.[pause]\x02\x03S'il te plaît ! Ne
     dis rien
     à Kimmy ![pause]
   - |-
-    [\x0207]Dresseur Brown[\x0207]Je suis peut-
+    \x02\x07Dresseur Brown\x02\x07Je suis peut-
     être trop vieux
-    pour ça...[pause][\x0203]Rien que
+    pour ça...[pause]\x02\x03Rien que
     d'être ici
     m'épuise.[pause]
   - |-
-    [\x0207]Dresseur Brown[\x0207]Je vieillis.[pause][\x0203]Je me suis bien
+    \x02\x07Dresseur Brown\x02\x07Je vieillis.[pause]\x02\x03Je me suis bien
     reposé, mais je
     reste fatigué.[pause]
   - |-
-    [\x0207]Dresseur Brown[\x0207]Oink, oink
+    \x02\x07Dresseur Brown\x02\x07Oink, oink
     oink, oink.[pause]
   - a
   - |-
-    [\x0207]Dresseur Brown[\x0207]N'en fais
+    \x02\x07Dresseur Brown\x02\x07N'en fais
     pas
-    trop.[pause][\x0203]Fais attention
+    trop.[pause]\x02\x03Fais attention
     toi aussi.[pause]
-  - "[\\x0207]Dresseur Brown[\\x0207]Mais je reste\nun dresseur actif.\nHo ho ho[pause][\\x0203]Tu veux m'affronter \nen duel ?[pause]"
-  - "[\\x0207]Dresseur Brown[\\x0207]Désolé, je ne \nme bats pas\nmaintenant.[pause][\\x0203]Je me sens \nmieux le matin...[pause]"
+  - "\\x02\\x07Dresseur Brown\\x02\\x07Mais je reste\nun dresseur actif.\nHo ho ho[pause]\\x02\\x03Tu veux m'affronter \nen duel ?[pause]"
+  - "\\x02\\x07Dresseur Brown\\x02\\x07Désolé, je ne \nme bats pas\nmaintenant.[pause]\\x02\\x03Je me sens \nmieux le matin...[pause]"
   - |-
-    [\x0207]Dresseur Brown[\x0207]Mais je reste
+    \x02\x07Dresseur Brown\x02\x07Mais je reste
     un dresseur actif.
-    Ho ho ho ho.[pause][\x0203]Un combat avec moi,
+    Ho ho ho ho.[pause]\x02\x03Un combat avec moi,
     ça te dit ?[pause]
-  - "[\\x0207]Dresseur Brown[\\x0207]j'étais aussi \ntéméraire que toi\ndans ma jeunesse.[pause][\\x0203]Ca me rappelle\ndes tas de\nsouvenirs...[pause]"
-  - "[\\x0207]Dresseur Brown[\\x0207]Vous ne m'aurez \npas comme ça,\nvauriens. [pause][\\x0203]L'expérience est\nessentielle dans\nun duel ![pause]"
+  - "\\x02\\x07Dresseur Brown\\x02\\x07j'étais aussi \ntéméraire que toi\ndans ma jeunesse.[pause]\\x02\\x03Ca me rappelle\ndes tas de\nsouvenirs...[pause]"
+  - "\\x02\\x07Dresseur Brown\\x02\\x07Vous ne m'aurez \npas comme ça,\nvauriens. [pause]\\x02\\x03L'expérience est\nessentielle dans\nun duel ![pause]"
   - |-
-    [\x0207]Dresseur Brown [\x0207]Ho ho ho ho.
+    \x02\x07Dresseur Brown \x02\x07Ho ho ho ho.
     Je suis encore
-    bon, hein ?[pause][\x0203]C'est quand tu
+    bon, hein ?[pause]\x02\x03C'est quand tu
     veux.[pause]
   - |-
-    [\x0207]Dresseur Brown[\x0207]Ho ho ho ho.
+    \x02\x07Dresseur Brown\x02\x07Ho ho ho ho.
     Je crois que les
-    choses ont changé.[pause][\x0203]Ca me rappelle
+    choses ont changé.[pause]\x02\x03Ca me rappelle
     des souvenirs
     de te voir...[pause]
-  - "[\\x0207]Dresseur Pierre[\\x0207]Bonjour. Si tu es \nvenu d'aussi loin, \nc'est que tu es bon.[pause]"
+  - "\\x02\\x07Dresseur Pierre\\x02\\x07Bonjour. Si tu es \nvenu d'aussi loin, \nc'est que tu es bon.[pause]"
   - |-
-    [\x0207]Dresseur Pierre[\x0207]Comment ça va ?
+    \x02\x07Dresseur Pierre\x02\x07Comment ça va ?
     Tous les membres de
-    l'AoA ont été arrêtés.[pause][\x0203]On peut enfin s'amuser
+    l'AoA ont été arrêtés.[pause]\x02\x03On peut enfin s'amuser
     sur Digimon Online.[pause]
   - |-
-    [\x0207]Dresseur Pierre[\x0207]Oink, oiooionk !
+    \x02\x07Dresseur Pierre\x02\x07Oink, oiooionk !
     Oink oink ![pause]
   - a
   - |-
-    [\x0207]Dresseur Pierre[\x0207]Non, non, non.
+    \x02\x07Dresseur Pierre\x02\x07Non, non, non.
     Pas de
-    combat ![pause][\x0203]Il
+    combat ![pause]\x02\x03Il
     faut
     s'amuser.[pause]
-  - "[\\x0207]Dresseur Pierre[\\x0207]Les Combats de \ncartes sont pour\nle gentlemen.[pause][\\x0203]D'accord pour\nUn duel ?[pause]"
+  - "\\x02\\x07Dresseur Pierre\\x02\\x07Les Combats de \ncartes sont pour\nle gentlemen.[pause]\\x02\\x03D'accord pour\nUn duel ?[pause]"
   - |-
-    [\x0207]Dresseur Pierre[\x0207]Tu as
+    \x02\x07Dresseur Pierre\x02\x07Tu as
     beaucoup
-    de talent.[pause][\x0203]Je vais faire
+    de talent.[pause]\x02\x03Je vais faire
     de mon mieux
     pour gagner.[pause]
-  - "[\\x0207]Dresseur Pierre[\\x0207]Comment se \nbattent tes Digimons ?\nMontre-moi.[pause]"
+  - "\\x02\\x07Dresseur Pierre\\x02\\x07Comment se \nbattent tes Digimons ?\nMontre-moi.[pause]"
   - |-
-    [\x0207]Dresseur Pierre[\x0207]Tu as
+    \x02\x07Dresseur Pierre\x02\x07Tu as
     beaucoup
-    de talent.[pause][\x0203]Je vais m'entraîner
+    de talent.[pause]\x02\x03Je vais m'entraîner
     dur pour gagner.[pause]
   - |-
-    [\x0207]Dresseur Pierre[\x0207]Que dirais-tu
+    \x02\x07Dresseur Pierre\x02\x07Que dirais-tu
     d'un Combat
-    de cartes ?[pause][\x0203]Avec élégance,
+    de cartes ?[pause]\x02\x03Avec élégance,
     bien sûr.[pause]
   - |-
-    [\x0207]Dresseur Pierre[\x0207]Oh, j'ai gagné.
-    Merci beaucoup.[pause][\x0203]Vivement notre
+    \x02\x07Dresseur Pierre\x02\x07Oh, j'ai gagné.
+    Merci beaucoup.[pause]\x02\x03Vivement notre
     prochaine rencontre.
     Au revoir.[pause]
-  - "[\\x0207]Dresseur Pierre[\\x0207]Non, non, non.\nJ'ai perdu.[pause][\\x0203]A la prochaine\npour un nouveau \ncombat. Au revoir.[pause]"
-  - "[\\x0207]Dresseur Mitaka[\\x0207]Ta-da ! Le\ndresseur Mitaka\nà la rescousse ![pause][\\x0203]Le mal ne \nm'aura pas.[pause]"
-  - "[\\x0207]Dresseur Mitaka[\\x0207]Ta-da! Le\ndresseur Mitaka\nà la rescousse ![pause][\\x0203]Le terrible groupe \nAoA ne fait pas\nle poids ![pause]"
+  - "\\x02\\x07Dresseur Pierre\\x02\\x07Non, non, non.\nJ'ai perdu.[pause]\\x02\\x03A la prochaine\npour un nouveau \ncombat. Au revoir.[pause]"
+  - "\\x02\\x07Dresseur Mitaka\\x02\\x07Ta-da ! Le\ndresseur Mitaka\nà la rescousse ![pause]\\x02\\x03Le mal ne \nm'aura pas.[pause]"
+  - "\\x02\\x07Dresseur Mitaka\\x02\\x07Ta-da! Le\ndresseur Mitaka\nà la rescousse ![pause]\\x02\\x03Le terrible groupe \nAoA ne fait pas\nle poids ![pause]"
   - |-
-    [\x0207]Dress. Mitaka[\x0207]Oiiink !
+    \x02\x07Dress. Mitaka\x02\x07Oiiink !
     Oink, oink ![pause]
   - |-
-    [\x0207]Dresseur Mitaka[\x0207]... Alors ?
-    C'était comment?[pause][\x0203]Les super-
+    \x02\x07Dresseur Mitaka\x02\x07... Alors ?
+    C'était comment?[pause]\x02\x03Les super-
     héros sont
     extra, non ?![pause]
   - |-
-    [\x0207]Dress. Mitaka[\x0207]Attaque
+    \x02\x07Dress. Mitaka\x02\x07Attaque
     Duel
-    Châtiment ![pause][\x0203]... Hiya ![pause]
-  - "[\\x0207]Dresseur Mitaka[\\x0207]Ta-da ! Mitaka \nà la rescousse![pause][\\x0203]Désolé, mais\ntu es le nº2\nd'Asuka ![pause]"
+    Châtiment ![pause]\x02\x03... Hiya ![pause]
+  - "\\x02\\x07Dresseur Mitaka\\x02\\x07Ta-da ! Mitaka \nà la rescousse![pause]\\x02\\x03Désolé, mais\ntu es le nº2\nd'Asuka ![pause]"
   - |-
-    [\x0207]Dresseur Mitaka[\x0207]Je mourrai s'il le
+    \x02\x07Dresseur Mitaka\x02\x07Je mourrai s'il le
     faut, mais je te
     battrai ![pause]
   - |-
-    [\x0207]Dresseur Mitaka[\x0207]... Alors ?
-    C'était comment?[pause][\x0203]Je me suis
+    \x02\x07Dresseur Mitaka\x02\x07... Alors ?
+    C'était comment?[pause]\x02\x03Je me suis
     entraîné devant
     le miroir ![pause]
-  - "[\\x0207]Dresseur Mitaka[\\x0207]Parce que je suis\nle maître des \ncartes nº1 ![pause][\\x0203]Prépare-toi,\nterrible dresseur ![pause]"
+  - "\\x02\\x07Dresseur Mitaka\\x02\\x07Parce que je suis\nle maître des \ncartes nº1 ![pause]\\x02\\x03Prépare-toi,\nterrible dresseur ![pause]"
   - |-
-    [\x0207]Dresseur Mitaka[\x0207]HAHAHA.
+    \x02\x07Dresseur Mitaka\x02\x07HAHAHA.
     Le bien triomphe
-    toujours ![pause][\x0203]Un jour,
+    toujours ![pause]\x02\x03Un jour,
     le mal sera
     vaincu ![pause]
   - |-
-    [\x0207]Dresseur Mitaka[\x0207]Oh, désolé,
+    \x02\x07Dresseur Mitaka\x02\x07Oh, désolé,
     je fais juste
-    semblant.[pause][\x0203]Je jouais
+    semblant.[pause]\x02\x03Je jouais
     un peu les
     superhéros. Ha ha...[pause]
-  - "[\\x0207]Dresseur Mitaka[\\x0207]HAHAHA.\nLe bien triomphe \ntoujours ![pause][\\x0203]Un jour,\nle mal sera\nvaincu ![pause]"
+  - "\\x02\\x07Dresseur Mitaka\\x02\\x07HAHAHA.\nLe bien triomphe \ntoujours ![pause]\\x02\\x03Un jour,\nle mal sera\nvaincu ![pause]"
   - |-
-    [\x0207]Dresseur Mitaka[\x0207]Oh, désolé,
+    \x02\x07Dresseur Mitaka\x02\x07Oh, désolé,
     Je faisais
-    semblant.[pause][\x0203]Prends cette
+    semblant.[pause]\x02\x03Prends cette
     Tempête Noire,
-    alors...[pause][\x0203]Tu me
+    alors...[pause]\x02\x03Tu me
     pardonnes ?
     ...Ha ha...[pause]
   - |-
-    [\x0207]Dresseur Mitaka[\x0207]Oh, désolé,
+    \x02\x07Dresseur Mitaka\x02\x07Oh, désolé,
     je fais juste
-    semblant.[pause][\x0203]Je jouais
+    semblant.[pause]\x02\x03Je jouais
     un peu les
     superhéros. Ha ha...[pause]
-  - "[\\x0207]Agumon[\\x0207]Quoi, tu es \nvraiment allé \nà la tour ?[pause][\\x0203]Alors, j'y vais\naussi ![pause]"
+  - "\\x02\\x07Agumon\\x02\\x07Quoi, tu es \nvraiment allé \nà la tour ?[pause]\\x02\\x03Alors, j'y vais\naussi ![pause]"
   - a
   - a
   - a
@@ -834,95 +834,95 @@ strings:
   - a
   - a
   - a
-  - "[\\x0207]Agumon[\\x0207]A mi-chemin, j'étais \nfatigué alors je suis\nrentré...[pause][\\x0203]Je réessaierai\nquand je n'aurai\nplus faim ![pause]"
-  - "[\\x0207]Agumon[\\x0207]J'ai enfin réussi\nà rejoindre la tour ![pause][\\x0203]Mais il n'y avait \npas grand monde...[pause]"
-  - "[\\x0207]Agumon[\\x0207]Guilmon est\nméchant ![pause][\\x0203]Il a mangé tous \nles biscuits ![pause]"
+  - "\\x02\\x07Agumon\\x02\\x07A mi-chemin, j'étais \nfatigué alors je suis\nrentré...[pause]\\x02\\x03Je réessaierai\nquand je n'aurai\nplus faim ![pause]"
+  - "\\x02\\x07Agumon\\x02\\x07J'ai enfin réussi\nà rejoindre la tour ![pause]\\x02\\x03Mais il n'y avait \npas grand monde...[pause]"
+  - "\\x02\\x07Agumon\\x02\\x07Guilmon est\nméchant ![pause]\\x02\\x03Il a mangé tous \nles biscuits ![pause]"
   - |-
-    [\x0207]Agumon[\x0207]Guilmon avait promis
+    \x02\x07Agumon\x02\x07Guilmon avait promis
     qu'on partagerait
-    la nourriture ![pause][\x0203]Maintenant, on ne
+    la nourriture ![pause]\x02\x03Maintenant, on ne
     se battra plus ![pause]
   - |-
-    [\x0207]Agumon[\x0207]Regarde ce qu'a
-    fait l'AoA ![pause][\x0203]Va leur donner
+    \x02\x07Agumon\x02\x07Regarde ce qu'a
+    fait l'AoA ![pause]\x02\x03Va leur donner
     une leçon ![pause]
   - a
-  - "[\\x0207]Guilmon[\\x0207]Je suis allé dans \nle Désert de Mobius \nc'est dangereux ![pause][\\x0203]On se perd\nfacilement dans\nce néant.[pause]"
-  - "[\\x0207]Guilmon[\\x0207]Je suis allé dans \nle dangereux \nDésert de Mobius ![pause][\\x0203]On se perd\nfacilement dans\nce néant.[pause]"
+  - "\\x02\\x07Guilmon\\x02\\x07Je suis allé dans \nle Désert de Mobius \nc'est dangereux ![pause]\\x02\\x03On se perd\nfacilement dans\nce néant.[pause]"
+  - "\\x02\\x07Guilmon\\x02\\x07Je suis allé dans \nle dangereux \nDésert de Mobius ![pause]\\x02\\x03On se perd\nfacilement dans\nce néant.[pause]"
   - |-
-    [\x0207]Guilmon[\x0207]L'Usine Dum Dum
+    \x02\x07Guilmon\x02\x07L'Usine Dum Dum
     se trouve après la
     Vallée de la Balle ![pause]
-  - "[\\x0207]Guilmon[\\x0207]Pouah !  \nC'est pas \nbon le sable.[pause]"
-  - "[\\x0207]Guilmon[\\x0207]Beaucoup de gens\nsont partis pour \nByakko City ![pause][\\x0203]Le Chef de Byakko était\navec eux. Mais que\nse passe-t-il ?[pause]"
+  - "\\x02\\x07Guilmon\\x02\\x07Pouah !  \nC'est pas \nbon le sable.[pause]"
+  - "\\x02\\x07Guilmon\\x02\\x07Beaucoup de gens\nsont partis pour \nByakko City ![pause]\\x02\\x03Le Chef de Byakko était\navec eux. Mais que\nse passe-t-il ?[pause]"
   - |-
-    [\x0207]Guilmon[\x0207]Désolé,
-    Agumon ![pause][\x0203]Mais j'avais
+    \x02\x07Guilmon\x02\x07Désolé,
+    Agumon ![pause]\x02\x03Mais j'avais
     siiii faim...[pause]
   - |-
-    [\x0207]Guilmon[\x0207]Je ne ferai
+    \x02\x07Guilmon\x02\x07Je ne ferai
     rien sans
-    demander ![pause][\x0203]Agumon est mon
+    demander ![pause]\x02\x03Agumon est mon
     ami et on reste
     amis.[pause]
   - |-
-    [\x0207]Guilmon[\x0207]Que se
-    passe-t-il ?[pause][\x0203]J'ai peur ![pause]
+    \x02\x07Guilmon\x02\x07Que se
+    passe-t-il ?[pause]\x02\x03J'ai peur ![pause]
   - '43'
-  - "[\\x0207]MetalEtemon[\\x0207]Tout va bien pour\nl'Invincible...[pause][\\x0203]Un grand dresseur \ndoit au moins \navoir l'Eternité ![pause]"
+  - "\\x02\\x07MetalEtemon\\x02\\x07Tout va bien pour\nl'Invincible...[pause]\\x02\\x03Un grand dresseur \ndoit au moins \navoir l'Eternité ![pause]"
   - |-
-    [\x0207]MetalEtemon[\x0207]L'Eternité est
-    géniale, non ?[pause][\x0203]T'es devenu un
+    \x02\x07MetalEtemon\x02\x07L'Eternité est
+    géniale, non ?[pause]\x02\x03T'es devenu un
     super dresseur ![pause]
-  - "[\\x0207]MetalEtemon[\\x0207]Eh, c'est \nl'Immaculée. \nGénial ![pause]"
+  - "\\x02\\x07MetalEtemon\\x02\\x07Eh, c'est \nl'Immaculée. \nGénial ![pause]"
   - |-
-    [\x0207]MetalEtemon[\x0207]Si tu as
+    \x02\x07MetalEtemon\x02\x07Si tu as
     l'Immaculée, apporte
-    le Millennium ![pause][\x0203]Je les changerai
+    le Millennium ![pause]\x02\x03Je les changerai
     en Eternité ![pause]
-  - "[\\x0207]MetalEtemon[\\x0207]OK, je te créerai\nl'Eternité ![pause][\\x0203]Passe-moi l'Immaculée\net le Millennium ![pause][\\x0203]Ca y est !\nUne couche de \nDigizoïte de Kulon ![pause][\\x0203]Voilà ! Une\nEternité ![pause][\\x0203]Tu vas devenir un\nsuper dresseur ![pause]"
-  - "[\\x0207]MetalEtemon[\\x0207]L'Eternité, \nc'est cool...[pause][\\x0203]Mais maintenant,\npassons à la\nSuper Nova ![pause]"
-  - "[\\x0207]MetalEtemon[\\x0207]Eh, la Super \nNova est \ngéniale, non ?[pause][\\x0203]T'es devenu un\ngrand dresseur ![pause]"
-  - "[\\x0207]MetalEtemon[\\x0207]Eh, c'est\nl'Eminence. \nGénial ![pause]"
-  - "[\\x0207]MetalEtemon[\\x0207]Tu as l'Eminence ? \nApporte le \nPoing de Raijin ![pause][\\x0203]Je les changerai\nen Super Nova ![pause]"
-  - "[\\x0207]MetalEtemon[\\x0207]OK, je vais te\ncréer une\nSuper Nova ! [pause][\\x0203]Passe-moi\nl'Eminence \net le Poing Raijin ![pause][\\x0203]Ca y est !\nUne couche de \nDigizoïte de Kulon ![pause][\\x0203]Voilà !\nUne Super Nova ![pause][\\x0203]Tu  vas devenir\nun grand dresseur ![pause]"
+  - "\\x02\\x07MetalEtemon\\x02\\x07OK, je te créerai\nl'Eternité ![pause]\\x02\\x03Passe-moi l'Immaculée\net le Millennium ![pause]\\x02\\x03Ca y est !\nUne couche de \nDigizoïte de Kulon ![pause]\\x02\\x03Voilà ! Une\nEternité ![pause]\\x02\\x03Tu vas devenir un\nsuper dresseur ![pause]"
+  - "\\x02\\x07MetalEtemon\\x02\\x07L'Eternité, \nc'est cool...[pause]\\x02\\x03Mais maintenant,\npassons à la\nSuper Nova ![pause]"
+  - "\\x02\\x07MetalEtemon\\x02\\x07Eh, la Super \nNova est \ngéniale, non ?[pause]\\x02\\x03T'es devenu un\ngrand dresseur ![pause]"
+  - "\\x02\\x07MetalEtemon\\x02\\x07Eh, c'est\nl'Eminence. \nGénial ![pause]"
+  - "\\x02\\x07MetalEtemon\\x02\\x07Tu as l'Eminence ? \nApporte le \nPoing de Raijin ![pause]\\x02\\x03Je les changerai\nen Super Nova ![pause]"
+  - "\\x02\\x07MetalEtemon\\x02\\x07OK, je vais te\ncréer une\nSuper Nova ! [pause]\\x02\\x03Passe-moi\nl'Eminence \net le Poing Raijin ![pause]\\x02\\x03Ca y est !\nUne couche de \nDigizoïte de Kulon ![pause]\\x02\\x03Voilà !\nUne Super Nova ![pause]\\x02\\x03Tu  vas devenir\nun grand dresseur ![pause]"
   - |-
-    [\x0207]MetalEtemon[\x0207]La Super Nova est
-    géniale...[pause][\x0203]Mais un excellent
+    \x02\x07MetalEtemon\x02\x07La Super Nova est
+    géniale...[pause]\x02\x03Mais un excellent
     dresseur doit avoir
     un Châtiment ![pause]
   - |-
-    [\x0207]MetalEtemon[\x0207]Eh, le Châtiment
+    \x02\x07MetalEtemon\x02\x07Eh, le Châtiment
     est génial,
-    non ?![pause][\x0203]T'es devenu un
+    non ?![pause]\x02\x03T'es devenu un
     super dresseur ![pause]
   - |-
-    [\x0207]MetalEtemon[\x0207]Eh, c'est
+    \x02\x07MetalEtemon\x02\x07Eh, c'est
     le Jugement.
     Super ![pause]
   - |-
-    [\x0207]MetalEtemon[\x0207]Si tu as
+    \x02\x07MetalEtemon\x02\x07Si tu as
     le Jugement, apporte
-    le Canon Suijin ![pause][\x0203]Je les changerai en
+    le Canon Suijin ![pause]\x02\x03Je les changerai en
     Châtiment ![pause]
-  - "[\\x0207]MetalEtemon[\\x0207]OK, je vais te créer\nun Châtiment ![pause][\\x0203]Passe-moi le \nJugement et \nle Canon Suijin ![pause][\\x0203]Ca y est !\nUne couche de \nDigizoïte de Kulon ![pause][\\x0203]Voilà !\nUn Châtiment ![pause][\\x0203]Tu vas devenir \nun grand dresseur ![pause]"
+  - "\\x02\\x07MetalEtemon\\x02\\x07OK, je vais te créer\nun Châtiment ![pause]\\x02\\x03Passe-moi le \nJugement et \nle Canon Suijin ![pause]\\x02\\x03Ca y est !\nUne couche de \nDigizoïte de Kulon ![pause]\\x02\\x03Voilà !\nUn Châtiment ![pause]\\x02\\x03Tu vas devenir \nun grand dresseur ![pause]"
   - |-
-    [\x0207]MetalEtemon[\x0207]Le Châtiment, c'est
-    très bien...[pause][\x0203]Mais pour devenir
+    \x02\x07MetalEtemon\x02\x07Le Châtiment, c'est
+    très bien...[pause]\x02\x03Mais pour devenir
     Champion du serveur,
     il te faut le Muramasa ![pause]
-  - "[\\x0207]MetalEtemon[\\x0207]Eh, comment ça \nse passe avec \nle Muramasa ?![pause][\\x0203]Tu es le plus \nfort dresseur\nmaintenant ![pause]"
+  - "\\x02\\x07MetalEtemon\\x02\\x07Eh, comment ça \nse passe avec \nle Muramasa ?![pause]\\x02\\x03Tu es le plus \nfort dresseur\nmaintenant ![pause]"
   - |-
-    [\x0207]MetalEtemon[\x0207]Eh, tu as
-    le Muramasa ![pause][\x0203]Tu as la
+    \x02\x07MetalEtemon\x02\x07Eh, tu as
+    le Muramasa ![pause]\x02\x03Tu as la
     meilleure pièce ![pause]
-  - "[\\x0207]MetalEtemon[\\x0207]Si tu as le \nMasamune, apporte-\nmoi la Lame de Fuujin[pause][\\x0203]Je les changerai en\nMuramasa ![pause]"
-  - "[\\x0207]MetalEtemon[\\x0207]OK, je vais te créer\nun Muramasa ! [pause][\\x0203]Passe-moi le \nMasamune et \nla Lame de Fuujin ![pause][\\x0203]Ca y est !\nUne couche de \nDigizoïte de Kulon ![pause][\\x0203]Voilà ! Un\nMuramasa ![pause][\\x0203]Tu es le meilleur\ndresseur maintenant ![pause]"
+  - "\\x02\\x07MetalEtemon\\x02\\x07Si tu as le \nMasamune, apporte-\nmoi la Lame de Fuujin[pause]\\x02\\x03Je les changerai en\nMuramasa ![pause]"
+  - "\\x02\\x07MetalEtemon\\x02\\x07OK, je vais te créer\nun Muramasa ! [pause]\\x02\\x03Passe-moi le \nMasamune et \nla Lame de Fuujin ![pause]\\x02\\x03Ca y est !\nUne couche de \nDigizoïte de Kulon ![pause]\\x02\\x03Voilà ! Un\nMuramasa ![pause]\\x02\\x03Tu es le meilleur\ndresseur maintenant ![pause]"
   - |-
-    [\x0207]MetalEtemon[\x0207]Eh, eh, eh !
-    Comment ça va ?![pause][\x0203]Désolé, mais
+    \x02\x07MetalEtemon\x02\x07Eh, eh, eh !
+    Comment ça va ?![pause]\x02\x03Désolé, mais
     je ne peux plus
-    rien faire.[pause][\x0203]Tu dois te fier à
+    rien faire.[pause]\x02\x03Tu dois te fier à
     tes pouvoirs
     maintenant ![pause]
   - a
@@ -949,25 +949,25 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Ruri Dévoreur livres[\x0207]C'est un donjon
+    \x02\x07Ruri Dévoreur livres\x02\x07C'est un donjon
     avancé avec des
-    pièges.[pause][\x0203]Il est composé de 3
+    pièges.[pause]\x02\x03Il est composé de 3
     niveaux : Glace, Feu
     et Ténèbres.[pause]
-  - "[\\x0207]Ruri Dévoreur livres[\\x0207]Les cercles du sol\nont différentes\nsignifications.[pause][\\x0203]Le rouge = sortie \nle bleu = entrée \net le vert = les 2.[pause][\\x0203]Fais attention en\nentrant dans\nle cercle bleu.[pause][\\x0203]Car tu pourrais\nne jamais en\nrevenir ![pause]"
+  - "\\x02\\x07Ruri Dévoreur livres\\x02\\x07Les cercles du sol\nont différentes\nsignifications.[pause]\\x02\\x03Le rouge = sortie \nle bleu = entrée \net le vert = les 2.[pause]\\x02\\x03Fais attention en\nentrant dans\nle cercle bleu.[pause]\\x02\\x03Car tu pourrais\nne jamais en\nrevenir ![pause]"
   - |-
-    [\x0207]Ruri Dévor livres[\x0207]Oi, oinnn.
+    \x02\x07Ruri Dévor livres\x02\x07Oi, oinnn.
     Oink...[pause]
   - '43'
   - |-
-    [\x0207]Renamon[\x0207]Voici le Donjon de
+    \x02\x07Renamon\x02\x07Voici le Donjon de
     Glace. Tu vois, c'est
-    un monde de glace.[pause][\x0203]Au-delà, c'est
-    très dur ![pause][\x0203]Mais si tu tiens à y
+    un monde de glace.[pause]\x02\x03Au-delà, c'est
+    très dur ![pause]\x02\x03Mais si tu tiens à y
     aller, je ne t'en
     empêcherai pas.[pause]
-  - "[\\x0207]Renamon[\\x0207]C'est toi qui as\nbattu\nl'AoA...[pause][\\x0203]La rumeur court \nvite au sujet des\ngrands dresseurs ![pause]"
-  - "[\\x0207]Renamon[\\x0207]C'était le \nvéritable objectif\nde l'AoA. [pause][\\x0203]On a tous été\ndupés.[pause]"
+  - "\\x02\\x07Renamon\\x02\\x07C'est toi qui as\nbattu\nl'AoA...[pause]\\x02\\x03La rumeur court \nvite au sujet des\ngrands dresseurs ![pause]"
+  - "\\x02\\x07Renamon\\x02\\x07C'était le \nvéritable objectif\nde l'AoA. [pause]\\x02\\x03On a tous été\ndupés.[pause]"
   - '43'
   - a
   - a
@@ -975,117 +975,117 @@ strings:
   - a
   - a
   - a
-  - "[\\x0207]Sorcière des Glaces[\\x0207]Tu es très\nfort si tu \nme bas.[pause][\\x0203]Mais il y a\nencore plus fort.\nAttention ![pause]"
+  - "\\x02\\x07Sorcière des Glaces\\x02\\x07Tu es très\nfort si tu \nme bas.[pause]\\x02\\x03Mais il y a\nencore plus fort.\nAttention ![pause]"
   - |-
-    [\x0207]Sorcière Glaces[\x0207]Tu as vaincu
-    l'AoA ![pause][\x0203]Je savais que
+    \x02\x07Sorcière Glaces\x02\x07Tu as vaincu
+    l'AoA ![pause]\x02\x03Je savais que
     tu y arriverais ![pause]
   - |-
-    [\x0207]Sorcière Glace[\x0207]Oooink,
+    \x02\x07Sorcière Glace\x02\x07Oooink,
     oi, oinnnk ![pause]
   - '43'
   - |-
-    [\x0207]Chevalier du Feu[\x0207]Tu es doué.
+    \x02\x07Chevalier du Feu\x02\x07Tu es doué.
     Je ne suis pas
     de taille contre toi![pause]
   - |-
-    [\x0207]Chevalier du Feu[\x0207]Tu es super !
+    \x02\x07Chevalier du Feu\x02\x07Tu es super !
     Tu as vaincu
-    l'AoA ![pause][\x0203]Impossible
+    l'AoA ![pause]\x02\x03Impossible
     de te battre ![pause]
   - |-
-    [\x0207]Chevalier Feu[\x0207]Ooink,
+    \x02\x07Chevalier Feu\x02\x07Ooink,
     oink, oink ![pause]
   - '43'
   - |-
-    [\x0207]Chevalier Ténèbres[\x0207]Eh !
-    Qu'y a-t-il ?[pause][\x0203]Je ne
+    \x02\x07Chevalier Ténèbres\x02\x07Eh !
+    Qu'y a-t-il ?[pause]\x02\x03Je ne
     t'ai pas
     oublié ![pause]
   - |-
-    [\x0207]Chevalier Ténèbres[\x0207]Eh !
-    Incroyable ![pause][\x0203]Total
+    \x02\x07Chevalier Ténèbres\x02\x07Eh !
+    Incroyable ![pause]\x02\x03Total
     R-E-S-P-E-C-T.[pause]
   - |-
-    [\x0207]Chevalier Ténèb[\x0207]Oooink,
+    \x02\x07Chevalier Ténèb\x02\x07Oooink,
     oin, oinkk ![pause]
   - '43'
-  - "[\\x0207]Veemon[\\x0207]Voici la Chambre\nd'urgence.[pause][\\x0203]La porte en haut \nà droite mène \nau Monde \nRéel.[pause][\\x0203]Et la porte de\ngauche mène au\nDonjon de Glace.[pause][\\x0203]Il faut l'autorisation\ndu Centre administratif[pause][\\x0203]... Et les 4 badges\nde chef pour rejoindre\nle Monde Réel ![pause]"
-  - "[\\x0207]Veemon[\\x0207]Ils ont épuisé toute\nl'énergie lors du \ndernier transfert.[pause][\\x0203]C'est très dur\nà réaliser dans\nle Monde Réel.[pause]"
-  - "[\\x0207]Veemon[\\x0207]Tu es le dresseur\nqui a battu\nl'AoA, hein ?[pause][\\x0203]Je savais que tu \nn'étais pas comme\nles autres ![pause]"
+  - "\\x02\\x07Veemon\\x02\\x07Voici la Chambre\nd'urgence.[pause]\\x02\\x03La porte en haut \nà droite mène \nau Monde \nRéel.[pause]\\x02\\x03Et la porte de\ngauche mène au\nDonjon de Glace.[pause]\\x02\\x03Il faut l'autorisation\ndu Centre administratif[pause]\\x02\\x03... Et les 4 badges\nde chef pour rejoindre\nle Monde Réel ![pause]"
+  - "\\x02\\x07Veemon\\x02\\x07Ils ont épuisé toute\nl'énergie lors du \ndernier transfert.[pause]\\x02\\x03C'est très dur\nà réaliser dans\nle Monde Réel.[pause]"
+  - "\\x02\\x07Veemon\\x02\\x07Tu es le dresseur\nqui a battu\nl'AoA, hein ?[pause]\\x02\\x03Je savais que tu \nn'étais pas comme\nles autres ![pause]"
   - |-
-    [\x0207]Veemon[\x0207]C'est quoi ce
-    Digimon ?![pause][\x0203]Et où est
+    \x02\x07Veemon\x02\x07C'est quoi ce
+    Digimon ?![pause]\x02\x03Et où est
     la fille ?[pause]
   - '43'
-  - "[\\x0207]Kimo l'Hawaïen[\\x0207]...a-a-A-\nACHOO ![pause][\\x0203]Trop froid \npour moi ici.[pause]"
+  - "\\x02\\x07Kimo l'Hawaïen\\x02\\x07...a-a-A-\nACHOO ![pause]\\x02\\x03Trop froid \npour moi ici.[pause]"
   - |-
-    [\x0207]Kimo l'Hawaïen[\x0207]L'AoA est parti,
-    on peut rentrer...[pause][\x0203]Je veux rentrer
+    \x02\x07Kimo l'Hawaïen\x02\x07L'AoA est parti,
+    on peut rentrer...[pause]\x02\x03Je veux rentrer
     à Hawaï ![pause]
   - |-
-    [\x0207]Kimo l'Hawaïen[\x0207]Ooooooiink !
+    \x02\x07Kimo l'Hawaïen\x02\x07Ooooooiink !
     Oionk, ooink ![pause]
   - '43'
-  - "[\\x0207]Noble Sieur Perrin[\\x0207]Les combats sont \ntrop violents.[pause][\\x0203]Profitons de cet\nendroit plus\npacifiquement.[pause]"
+  - "\\x02\\x07Noble Sieur Perrin\\x02\\x07Les combats sont \ntrop violents.[pause]\\x02\\x03Profitons de cet\nendroit plus\npacifiquement.[pause]"
   - |-
-    [\x0207]Noble Sieur Perrin[\x0207]Je suis amoureux
-    de ce monde ![pause][\x0203]Je vais construire
+    \x02\x07Noble Sieur Perrin\x02\x07Je suis amoureux
+    de ce monde ![pause]\x02\x03Je vais construire
     une villa ici
     pour m'y installer.[pause]
   - |-
-    [\x0207]Sieur Perrin[\x0207]Oink..., oink.
+    \x02\x07Sieur Perrin\x02\x07Oink..., oink.
     Oi, oink ![pause]
   - '43'
   - |-
-    [\x0207]Guilmon[\x0207]Qu'il fait froid !
-    Mais c'est beau ![pause][\x0203]Et ça glisse
+    \x02\x07Guilmon\x02\x07Qu'il fait froid !
+    Mais c'est beau ![pause]\x02\x03Et ça glisse
     aussi.[pause]
   - |-
-    [\x0207]Guilmon[\x0207]A-a-achoo !
-    Je suis tombé à l'eau.[pause][\x0203]J'ai froid !
+    \x02\x07Guilmon\x02\x07A-a-achoo !
+    Je suis tombé à l'eau.[pause]\x02\x03J'ai froid !
     J'ai l'impression
     d'être un glaçon.[pause]
   - |-
-    [\x0207]Guilmon[\x0207]Guilmon sera
-    comme ça lui aussi?[pause][\x0203]Nooooooooon ![pause]
+    \x02\x07Guilmon\x02\x07Guilmon sera
+    comme ça lui aussi?[pause]\x02\x03Nooooooooon ![pause]
   - '43'
   - |-
-    [\x0207]Cecilia la Furie[\x0207]Kazuya n'est qu'un
-    froussard ![pause][\x0203]Il n'a qu'à jouer à
+    \x02\x07Cecilia la Furie\x02\x07Kazuya n'est qu'un
+    froussard ![pause]\x02\x03Il n'a qu'à jouer à
     Digimon Online
     tout seul ![pause]
-  - "[\\x0207]Cecilia la Furie[\\x0207]Le dresseur qui a\nvaincu\nl'AoA est un enfant![pause][\\x0203]Je veux que Kazuya\nsoit aussi \nindépendant que lui![pause]"
+  - "\\x02\\x07Cecilia la Furie\\x02\\x07Le dresseur qui a\nvaincu\nl'AoA est un enfant![pause]\\x02\\x03Je veux que Kazuya\nsoit aussi \nindépendant que lui![pause]"
   - |-
-    [\x0207]Cecilia la Furie[\x0207]Ooink !
+    \x02\x07Cecilia la Furie\x02\x07Ooink !
     Oink, oink,
     Oooink ![pause]
   - '43'
   - |-
-    [\x0207]Kazuya[\x0207]Cecilia est
+    \x02\x07Kazuya\x02\x07Cecilia est
     partie sans
-    moi ![pause][\x0203]Je ne sais
+    moi ![pause]\x02\x03Je ne sais
     rien faire
     tout seul ![pause]
-  - "[\\x0207]Kazuya[\\x0207]C'est décidé !\nJe vais devenir\nfort ![pause][\\x0203]Comme le \ndresseur qui a\nbattu l'AoA ![pause]"
+  - "\\x02\\x07Kazuya\\x02\\x07C'est décidé !\nJe vais devenir\nfort ![pause]\\x02\\x03Comme le \ndresseur qui a\nbattu l'AoA ![pause]"
   - |-
-    [\x0207]Kazuya[\x0207]Oink, oinnk !
+    \x02\x07Kazuya\x02\x07Oink, oinnk !
     Oink, ooink ![pause]
   - '43'
-  - "[\\x0207]Kotemon[\\x0207]Men, dou, kote ![pause][\\x0203]Tu ne seras fort\nqu'avec une\nâme forte.[pause][\\x0203]Ces terrains \nsont idéaux ![pause]"
+  - "\\x02\\x07Kotemon\\x02\\x07Men, dou, kote ![pause]\\x02\\x03Tu ne seras fort\nqu'avec une\nâme forte.[pause]\\x02\\x03Ces terrains \nsont idéaux ![pause]"
   - |-
-    [\x0207]Kotemon[\x0207]Tu es le dresseur
+    \x02\x07Kotemon\x02\x07Tu es le dresseur
     qui a battu
-    l'AoA ![pause][\x0203]Je veux être aussi
+    l'AoA ![pause]\x02\x03Je veux être aussi
     fort que toi.[pause]
-  - "[\\x0207]Kotemon[\\x0207]Tu veux dire que\ntout ça, c'est à \ncause de l'AoA ?![pause][\\x0203]Je ne leur pardon-\nnerai jamais ! \nBattons-les ![pause]"
+  - "\\x02\\x07Kotemon\\x02\\x07Tu veux dire que\ntout ça, c'est à \ncause de l'AoA ?![pause]\\x02\\x03Je ne leur pardon-\nnerai jamais ! \nBattons-les ![pause]"
   - '43'
-  - "[\\x0207]Kumamon[\\x0207]Où se trouve\nle Grand\ngymnase ?[pause][\\x0203]A mon avis, \nc'est par là ![pause]"
-  - "[\\x0207]Kumamon[\\x0207]N'ai-je pas\nl'air plus fort ?[pause][\\x0203]Je me suis entraîné \nau Grand gymnase ![pause]"
+  - "\\x02\\x07Kumamon\\x02\\x07Où se trouve\nle Grand\ngymnase ?[pause]\\x02\\x03A mon avis, \nc'est par là ![pause]"
+  - "\\x02\\x07Kumamon\\x02\\x07N'ai-je pas\nl'air plus fort ?[pause]\\x02\\x03Je me suis entraîné \nau Grand gymnase ![pause]"
   - |-
-    [\x0207]Kumamon[\x0207]Mon dresseur s'est
+    \x02\x07Kumamon\x02\x07Mon dresseur s'est
     aussi changé en un
-    Dig bizarre.[pause][\x0203]A cause de
+    Dig bizarre.[pause]\x02\x03A cause de
     qui ?![pause]
   - '43'
   - a
@@ -1143,28 +1143,28 @@ strings:
   - a
   - a
   - |-
-    [\x0207][\x020902]3Ouais ! J'ai les
+    \x02\x07\x02\x09\x023Ouais ! J'ai les
     Gants à aiguilles ![pause]
   - a
   - a
   - |-
-    [\x0207][\x020902]3Ouais ! Un
+    \x02\x07\x02\x09\x023Ouais ! Un
     Shamshir ![pause]
   - a
-  - "[\\x0207][\\x020902]3 Le Bouclier \ndes chevaliers![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023 Le Bouclier \ndes chevaliers![pause]"
   - a
   - a
   - a
   - a
   - |-
-    [\x0207][\x020902]3Ouais ! J'ai
+    \x02\x07\x02\x09\x023Ouais ! J'ai
     5000 BIT ![pause]
   - |-
-    [\x0207]Dresseuse Natsumi[\x0207]Je suis Natsumi,
+    \x02\x07Dresseuse Natsumi\x02\x07Je suis Natsumi,
     une lycéenne
     heureuse ![pause]
   - |-
-    [\x0207]Dresseur Mitch[\x0207]Pfff, merci !
+    \x02\x07Dresseur Mitch\x02\x07Pfff, merci !
     J'ai la pêche ![pause]
   - a
   - a
@@ -1172,32 +1172,32 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Kazuki de l'IRD[\x0207]Je suis Kazuki,
+    \x02\x07Kazuki de l'IRD\x02\x07Je suis Kazuki,
     chercheur sur le
     MagnaAngemon ![pause]
   - |-
-    [\x0207]Kazuki de l'IRD[\x0207]Désolé, avec
+    \x02\x07Kazuki de l'IRD\x02\x07Désolé, avec
     mes recherches,
-    je suis débordé.[pause][\x0203]On se parlera
+    je suis débordé.[pause]\x02\x03On se parlera
     plus tard ![pause]
-  - "[\\x0207]Kazuki de l'IRD[\\x0207]As-tu de\nl'ADNN de Patamon ?[pause][\\x0203]J'en ai besoin pour\nmes recherches, mais \nje n'en trouve pas.[pause][\\x0203]Apporte-m'en et\nPatamon sera ton\npartenaire ![pause]"
+  - "\\x02\\x07Kazuki de l'IRD\\x02\\x07As-tu de\nl'ADNN de Patamon ?[pause]\\x02\\x03J'en ai besoin pour\nmes recherches, mais \nje n'en trouve pas.[pause]\\x02\\x03Apporte-m'en et\nPatamon sera ton\npartenaire ![pause]"
   - |-
-    [\x0207]Kazuki de l'IRD[\x0207]Eh, de l'ADNN
+    \x02\x07Kazuki de l'IRD\x02\x07Eh, de l'ADNN
     de Patamon !
-    Merci ![pause][\x0203]Comme promis,
+    Merci ![pause]\x02\x03Comme promis,
     tu vas avoir Patamon
-    comme partenaire ![pause][\x0203]Va voir Piximon ou
+    comme partenaire ![pause]\x02\x03Va voir Piximon ou
     le Dr. Kadomatsu au
-    labo ![pause][\x0203]Patamon doit être
+    labo ![pause]\x02\x03Patamon doit être
     inscrit sous Changer
     de Digimon ![pause]
   - |-
-    [\x0207]Kazuki de l'IRD[\x0207]Ooink ?
+    \x02\x07Kazuki de l'IRD\x02\x07Ooink ?
     Ooiooiooink ?
     Ooiooinooink ![pause]
   - |-
-    [\x0207]Kazuki de l'IRD[\x0207]Comment va
-    Patamon ?[pause][\x0203]Si tu l'élèves,
+    \x02\x07Kazuki de l'IRD\x02\x07Comment va
+    Patamon ?[pause]\x02\x03Si tu l'élèves,
     il deviendra
     fort ![pause]
   - a
@@ -1206,105 +1206,105 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Kazuki de l'IRD[\x0207]J'espère que Patamon
+    \x02\x07Kazuki de l'IRD\x02\x07J'espère que Patamon
     digivolvera en
-    MagnaAngemon.[pause][\x0203]Bonne chance ![pause]
+    MagnaAngemon.[pause]\x02\x03Bonne chance ![pause]
   - a
-  - "[\\x0207]Dresseur Nakano[\\x0207]Humm, je vois.\nAvec ce combo...[pause][\\x0203]Je recueille des \ndonnées de cartes\net les analyse.[pause]"
+  - "\\x02\\x07Dresseur Nakano\\x02\\x07Humm, je vois.\nAvec ce combo...[pause]\\x02\\x03Je recueille des \ndonnées de cartes\net les analyse.[pause]"
   - |-
-    [\x0207]Michael l'IRD[\x0207]Je suis Mike,
-    employé à l'IRD.[pause][\x0203]Où est mon
+    \x02\x07Michael l'IRD\x02\x07Je suis Mike,
+    employé à l'IRD.[pause]\x02\x03Où est mon
     précieux
     Taomon ?[pause]
   - |-
-    [\x0207]Michael de l'IRD[\x0207]Je refuse de
+    \x02\x07Michael de l'IRD\x02\x07Je refuse de
     parler avec un
-    dresseur débutant.[pause][\x0203]On parlera
+    dresseur débutant.[pause]\x02\x03On parlera
     quand tu seras
     meilleur.[pause]
   - |-
-    [\x0207]Michael de l'IRD[\x0207]Je cherche de
-    l'ADNN de Renamon.[pause][\x0203]Tu peux
-    m'aider ?[pause][\x0203]Si tu m'aides...
+    \x02\x07Michael de l'IRD\x02\x07Je cherche de
+    l'ADNN de Renamon.[pause]\x02\x03Tu peux
+    m'aider ?[pause]\x02\x03Si tu m'aides...
     tu auras Renamon
     comme partenaire ![pause]
-  - "[\\x0207]Michael de l'IRD[\\x0207]Ouah, tu l'as\napporté. \nMerci.[pause][\\x0203]Je suis si content !\nTu vas avoir Renamon\ncomme partenaire ![pause][\\x0203]Va voir Piximon ou\nle Dr. Kadomatsu au\nlabo.[pause][\\x0203]Renamon doit être\ninscrite sous Changer\nde Digimon.[pause]"
+  - "\\x02\\x07Michael de l'IRD\\x02\\x07Ouah, tu l'as\napporté. \nMerci.[pause]\\x02\\x03Je suis si content !\nTu vas avoir Renamon\ncomme partenaire ![pause]\\x02\\x03Va voir Piximon ou\nle Dr. Kadomatsu au\nlabo.[pause]\\x02\\x03Renamon doit être\ninscrite sous Changer\nde Digimon.[pause]"
   - |-
-    [\x0207]Michael l'IRD[\x0207]Oinkoink ?
+    \x02\x07Michael l'IRD\x02\x07Oinkoink ?
     Oinnkoin ?
     Oioinkoink ![pause]
   - |-
-    [\x0207]Michael de l'IRD[\x0207]Comment va
-    Renamon ?[pause][\x0203]Elève-la bien
+    \x02\x07Michael de l'IRD\x02\x07Comment va
+    Renamon ?[pause]\x02\x03Elève-la bien
     pour qu'elle digivolve
     en Taomon ![pause]
   - |-
-    [\x0207]Michael de l'IRD[\x0207]Tu as une super
-    Renamon.[pause][\x0203]Si elle pouvait se
+    \x02\x07Michael de l'IRD\x02\x07Tu as une super
+    Renamon.[pause]\x02\x03Si elle pouvait se
     changer en Taomon![pause]
   - |-
-    [\x0207]Kazuki de l'IRD[\x0207]Ton Digimon
+    \x02\x07Kazuki de l'IRD\x02\x07Ton Digimon
     a l'air très
-    fort ![pause][\x0203]Tu n'as pas
+    fort ![pause]\x02\x03Tu n'as pas
     besoin de
     MagnaAngemon ![pause]
   - |-
-    [\x0207]Michael de l'IRD[\x0207]Oh, tu as un
-    super Digimon ![pause][\x0203]Dommage qu'il n'y
+    \x02\x07Michael de l'IRD\x02\x07Oh, tu as un
+    super Digimon ![pause]\x02\x03Dommage qu'il n'y
     ait pas de Taomon...[pause]
-  - "[\\x0207]Tai Kong Wang[\\x0207]Je suis Tai \nKong Wang\nle Pêcheur ![pause]"
-  - "[\\x0207]Tai Kong Wang[\\x0207]Pour comprendre le\nmonde, je lance \ncette ligne...[pause][\\x0203]... ça ne marche\npas trop, mais \nça rend heureux.[pause]"
+  - "\\x02\\x07Tai Kong Wang\\x02\\x07Je suis Tai \nKong Wang\nle Pêcheur ![pause]"
+  - "\\x02\\x07Tai Kong Wang\\x02\\x07Pour comprendre le\nmonde, je lance \ncette ligne...[pause]\\x02\\x03... ça ne marche\npas trop, mais \nça rend heureux.[pause]"
   - |-
-    [\x0207]Tai Kong Wang[\x0207]Alors ?[pause][\x0203]Pour pêcher,
+    \x02\x07Tai Kong Wang\x02\x07Alors ?[pause]\x02\x03Pour pêcher,
     il te faut une canne,
-    1 ligne et 1 hameçon.[pause][\x0203]Je vais te fabriquer
+    1 ligne et 1 hameçon.[pause]\x02\x03Je vais te fabriquer
     une canne à pêche.[pause]
-  - "[\\x0207]Tai Kong Wong[\\x0207]1 Lance en bambou,\n1 Toile d'araignée \net 1 Asticot rouge ![pause][\\x0203]Attends, je vais\nte fabriquer une \ncanne à pêche...[pause]"
-  - "[\\x0207]Tai Kong Wong[\\x0207]Alors ? Tu as attrapé\nquelque chose ?[pause][\\x0203]Ne t'en fais\npas. \nRelax.[pause]"
+  - "\\x02\\x07Tai Kong Wong\\x02\\x071 Lance en bambou,\n1 Toile d'araignée \net 1 Asticot rouge ![pause]\\x02\\x03Attends, je vais\nte fabriquer une \ncanne à pêche...[pause]"
+  - "\\x02\\x07Tai Kong Wong\\x02\\x07Alors ? Tu as attrapé\nquelque chose ?[pause]\\x02\\x03Ne t'en fais\npas. \nRelax.[pause]"
   - |-
-    [\x0207]Tai Kong Wong[\x0207]Oooink...
+    \x02\x07Tai Kong Wong\x02\x07Oooink...
     Oink, oink, oink...[pause]
   - |-
-    [\x0207]Dresseuse Haruka[\x0207]Ah ha ha ha !
+    \x02\x07Dresseuse Haruka\x02\x07Ah ha ha ha !
     Je suis la
-    meilleure dresseuse ![pause][\x0203]Je suis
+    meilleure dresseuse ![pause]\x02\x03Je suis
     imbattable sur ce
     serveur ![pause]
   - |-
-    [\x0207]Dresseuse Poemy[\x0207]... Vraiment !
+    \x02\x07Dresseuse Poemy\x02\x07... Vraiment !
     Tu es mon héros ![pause]
   - |-
-    [\x0207]Dresseur Shingo[\x0207]Chacun rêve d'être
+    \x02\x07Dresseur Shingo\x02\x07Chacun rêve d'être
     Champion du monde.
     Je le serai ![pause]
-  - "[\\x0207]Dresseur Makoto[\\x0207]J'en ai fait la\npromesse à\nKimmy.[pause][\\x0203]Devenir \nChampion\ndu serveur ![pause]"
+  - "\\x02\\x07Dresseur Makoto\\x02\\x07J'en ai fait la\npromesse à\nKimmy.[pause]\\x02\\x03Devenir \nChampion\ndu serveur ![pause]"
   - |-
-    [\x0207]Dresseur Brown[\x0207]Je suis peut-
+    \x02\x07Dresseur Brown\x02\x07Je suis peut-
     être trop vieux
-    pour ça...[pause][\x0203]Rien que
+    pour ça...[pause]\x02\x03Rien que
     d'être ici
     m'épuise.[pause]
-  - "[\\x0207]Dresseur Pierre[\\x0207]Bonjour. Si tu es \nvenu d'aussi loin, \nc'est que tu es bon.[pause]"
-  - "[\\x0207]Dresseur Mitaka[\\x0207]Ta-da ! Le\ndresseur Mitaka\nà la rescousse ![pause][\\x0203]Le mal ne \nm'aura pas.[pause]"
+  - "\\x02\\x07Dresseur Pierre\\x02\\x07Bonjour. Si tu es \nvenu d'aussi loin, \nc'est que tu es bon.[pause]"
+  - "\\x02\\x07Dresseur Mitaka\\x02\\x07Ta-da ! Le\ndresseur Mitaka\nà la rescousse ![pause]\\x02\\x03Le mal ne \nm'aura pas.[pause]"
   - |-
-    [\x0207]Hide le Footeux[\x0207]A l'Auberge
+    \x02\x07Hide le Footeux\x02\x07A l'Auberge
     d'Asuka ?
     Je réfléchis...[pause]
-  - "[\\x0207]Hide le Footeux[\\x0207]Je l'ai peut-être \nperdu à l'Auberge\nd'Asuka...[pause][\\x0203]Désolé, je ne m'en\nsouviens pas ![pause]"
-  - "[\\x0207]Hide le Footeux[\\x0207]Eh, une carte\nde Gabumon ![pause][\\x0203]Vous l'avez trouvée\nMerci ![pause][\\x0203]OK, je vais vous\nparler des Arbori-\nBottes.[pause][\\x0203]Vous ne les aurez \npas si vous devenez \ndes amis de Veemon.[pause][\\x0203]Mais Veemon est\nimprévisible, il est \ndur de le trouver.[pause]"
-  - "[\\x0207]Hide le Footeux[\\x0207]Il me semble \navoir été à \nl'Aub. d'Asuka...[pause]"
+  - "\\x02\\x07Hide le Footeux\\x02\\x07Je l'ai peut-être \nperdu à l'Auberge\nd'Asuka...[pause]\\x02\\x03Désolé, je ne m'en\nsouviens pas ![pause]"
+  - "\\x02\\x07Hide le Footeux\\x02\\x07Eh, une carte\nde Gabumon ![pause]\\x02\\x03Vous l'avez trouvée\nMerci ![pause]\\x02\\x03OK, je vais vous\nparler des Arbori-\nBottes.[pause]\\x02\\x03Vous ne les aurez \npas si vous devenez \ndes amis de Veemon.[pause]\\x02\\x03Mais Veemon est\nimprévisible, il est \ndur de le trouver.[pause]"
+  - "\\x02\\x07Hide le Footeux\\x02\\x07Il me semble \navoir été à \nl'Aub. d'Asuka...[pause]"
   - |-
-    [\x0207]Hide le Footeux[\x0207]Des Arbori-Bottes !
+    \x02\x07Hide le Footeux\x02\x07Des Arbori-Bottes !
     Alors vous êtes aussi
-    des amis de Veemon ![pause][\x0203]Tu es doué. Je vais
+    des amis de Veemon ![pause]\x02\x03Tu es doué. Je vais
     faire de mon
     mieux ![pause]
   - |-
-    [\x0207]Hide le Footeux[\x0207]Oink, ooioink,
+    \x02\x07Hide le Footeux\x02\x07Oink, ooioink,
     ooink, ooink ![pause]
   - |-
-    [\x0207]Hide le Footeux[\x0207]J'ai une autre
-    carte ![pause][\x0203]J'essaie d'avoir
+    \x02\x07Hide le Footeux\x02\x07J'ai une autre
+    carte ![pause]\x02\x03J'essaie d'avoir
     un jeu complet ![pause]
   - a
   - a
@@ -1350,37 +1350,37 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Agumon[\x0207]Tu ne devrais pas
+    \x02\x07Agumon\x02\x07Tu ne devrais pas
     continuer. Ce
-    donjon est surprenant ![pause][\x0203]Il y a un chef
+    donjon est surprenant ![pause]\x02\x03Il y a un chef
     beaucoup plus fort
     que les autres ![pause]
-  - "[\\x0207]Agumon[\\x0207]L'AoA\nest parti ?[pause][\\x0203]Agumon voulait \naussi le battre ![pause]"
-  - "[\\x0207]Agumon[\\x0207]Oh, non !\nIls ont tous été \nchangés en Oinkmons.[pause]"
+  - "\\x02\\x07Agumon\\x02\\x07L'AoA\nest parti ?[pause]\\x02\\x03Agumon voulait \naussi le battre ![pause]"
+  - "\\x02\\x07Agumon\\x02\\x07Oh, non !\nIls ont tous été \nchangés en Oinkmons.[pause]"
   - '43'
   - |-
-    [\x0207]Monmon[\x0207]Apporte-moi du métal
-    Digizoïte de Kulon ![pause][\x0203]Je vais l'utiliser
+    \x02\x07Monmon\x02\x07Apporte-moi du métal
+    Digizoïte de Kulon ![pause]\x02\x03Je vais l'utiliser
     pour fabriquer une
     arme plus puissante ![pause]
-  - "[\\x0207]Monmon[\\x0207]Je veux rencon-\ntrer le dresseur \nqui a battu l'AoA ![pause][\\x0203]Il est fort !\nMonmon aime les \ndresseurs forts.[pause]"
+  - "\\x02\\x07Monmon\\x02\\x07Je veux rencon-\ntrer le dresseur \nqui a battu l'AoA ![pause]\\x02\\x03Il est fort !\nMonmon aime les \ndresseurs forts.[pause]"
   - |-
-    [\x0207]Monmon[\x0207]Quoi, qu'y
-    a-t-il ?![pause][\x0203]L'AoA a été
+    \x02\x07Monmon\x02\x07Quoi, qu'y
+    a-t-il ?![pause]\x02\x03L'AoA a été
     arrêté !
     Mais pourquoi ?![pause]
   - '43'
   - a
   - a
   - |-
-    [\x0207]Gargomon[\x0207]Kaboom !
+    \x02\x07Gargomon\x02\x07Kaboom !
     Voici
     l'Armurerie.[pause]
   - |-
-    [\x0207]MetalEtemon[\x0207]Eh ! Je suis un
+    \x02\x07MetalEtemon\x02\x07Eh ! Je suis un
     super
-    forgeron ![pause][\x0203]Vous n'avez aucun
-    goût, les gars...[pause][\x0203]Revenez
+    forgeron ![pause]\x02\x03Vous n'avez aucun
+    goût, les gars...[pause]\x02\x03Revenez
     avec de meilleures
     armures ![pause]
   - a
@@ -1420,78 +1420,78 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Lisa[\x0207]Kurt est un grand
-    ami à moi.[pause][\x0203]On va combattre
-    l'AoA ensemble.[pause][\x0203]S'il te plaît, [\x020801][\x020501].
+    \x02\x07Lisa\x02\x07Kurt est un grand
+    ami à moi.[pause]\x02\x03On va combattre
+    l'AoA ensemble.[pause]\x02\x03S'il te plaît, \x02\x08\x01\x02\x05\x01.
     Viens combattre l'AoA
     pour Kurt ![pause]
   - |-
-    [\x0207]Kail[\x0207]Ca fait longtemps que
-    Kurt n'est pas venu...[pause][\x0203]Je le croyais dans le
+    \x02\x07Kail\x02\x07Ca fait longtemps que
+    Kurt n'est pas venu...[pause]\x02\x03Je le croyais dans le
     Digimonde, c'est pour
-    ça que je suis là...[pause][\x0203]Comment cela a-t-il
+    ça que je suis là...[pause]\x02\x03Comment cela a-t-il
     pu arriver...?[pause]
   - |-
-    [\x0207]Kurt[\x0207]Oin, oink !
+    \x02\x07Kurt\x02\x07Oin, oink !
     Oioink,
     oioinoink ![pause]
-  - "[\\x0207]Lisa[\\x0207]Trouve Keith et\nNick.[pause][\\x0203]On trouvera\nalors plus vite \nle Passe Employé.[pause][\\x0203]A un moment, ils\nétaient dans \nle Secteur Sud...[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07Trouve Keith et\nNick.[pause]\\x02\\x03On trouvera\nalors plus vite \nle Passe Employé.[pause]\\x02\\x03A un moment, ils\nétaient dans \nle Secteur Sud...[pause]"
   - |-
-    [\x0207]Kail[\x0207]S'il te plaît
-    [\x020801][\x020501] !
-    Bats l'AoA ![pause][\x0203]Et fais que Kurt
+    \x02\x07Kail\x02\x07S'il te plaît
+    \x02\x08\x01\x02\x05\x01 !
+    Bats l'AoA ![pause]\x02\x03Et fais que Kurt
     redevienne normal ![pause]
   - |-
-    [\x0207]Kurt[\x0207]Oin, oink !
+    \x02\x07Kurt\x02\x07Oin, oink !
     Oioink,
     oioinoink ![pause]
   - |-
-    [\x0207]Kurt[\x0207]Oin, oinnk !
+    \x02\x07Kurt\x02\x07Oin, oinnk !
     Oooin, oink ![pause]
   - |-
-    [\x0207]Keith[\x0207]Eh petit, n'en
-    fais pas trop.[pause][\x0203]On va battre
+    \x02\x07Keith\x02\x07Eh petit, n'en
+    fais pas trop.[pause]\x02\x03On va battre
     l'AoA !... Enfin,
     on va essayer.[pause]
   - |-
-    [\x0207]Nick[\x0207]Lisa est très
-    brutale...[pause][\x0203]Elle est dure
+    \x02\x07Nick\x02\x07Lisa est très
+    brutale...[pause]\x02\x03Elle est dure
     à suivre...[pause]
   - |-
-    [\x0207]Kail[\x0207]Au nom de Kurt,
+    \x02\x07Kail\x02\x07Au nom de Kurt,
     bonne chance,
-    [\x020801][\x020501]![pause]
+    \x02\x08\x01\x02\x05\x01![pause]
   - |-
-    [\x0207]Lisa[\x0207]Tu peux entrer
-    dans Asuka City.[pause][\x0203]Bonne chance.
+    \x02\x07Lisa\x02\x07Tu peux entrer
+    dans Asuka City.[pause]\x02\x03Bonne chance.
     Je compte
     sur toi.[pause]
-  - "[\\x0207]Chef Byakko[\\x0207]On va se \ncacher ici \nun moment.[pause][\\x0203]Attention\nà toi ![pause]"
+  - "\\x02\\x07Chef Byakko\\x02\\x07On va se \ncacher ici \nun moment.[pause]\\x02\\x03Attention\nà toi ![pause]"
   - a
   - |-
-    [\x0207]Flamedramon[\x0207]Bienvenue. Voici
+    \x02\x07Flamedramon\x02\x07Bienvenue. Voici
     le Grand
-    gymnase ![pause][\x0203]Tu vas t'entraîner
+    gymnase ![pause]\x02\x03Tu vas t'entraîner
     dur, alors
     prépare-toi ![pause]
   - |-
-    [\x0207]Responsable Chambre[\x0207]Voici la Chambre
-    Matrix d'urgence.[pause][\x0203]Pour utiliser ce
+    \x02\x07Responsable Chambre\x02\x07Voici la Chambre
+    Matrix d'urgence.[pause]\x02\x03Pour utiliser ce
     système, adresse-toi
     à moi.[pause]
-  - "[\\x0207]Responsable Chambre[\\x0207]Tu veux \nutiliser le Système\nde la Chambre ?[pause][\\x0203]Montre-moi les \n4 Badges de chef.[pause][\\x0203]Oh ? Tu ne les\nas pas \ntous.[pause][\\x0203]Désolé, mais le\nsystème ne\ndémarrera pas sans.[pause]"
-  - "[\\x0207]Responsable Chambre[\\x0207]Tu veux \nutiliser le Système\nde la Chambre ?[pause][\\x0203]Montre-moi \nles 4 Badges\nde chef.[pause]"
+  - "\\x02\\x07Responsable Chambre\\x02\\x07Tu veux \nutiliser le Système\nde la Chambre ?[pause]\\x02\\x03Montre-moi les \n4 Badges de chef.[pause]\\x02\\x03Oh ? Tu ne les\nas pas \ntous.[pause]\\x02\\x03Désolé, mais le\nsystème ne\ndémarrera pas sans.[pause]"
+  - "\\x02\\x07Responsable Chambre\\x02\\x07Tu veux \nutiliser le Système\nde la Chambre ?[pause]\\x02\\x03Montre-moi \nles 4 Badges\nde chef.[pause]"
   - |-
-    [\x0207]Responsable Chambre[\x0207]En raison du manque
-    d'énergie...[pause][\x0203]... la Matrix
+    \x02\x07Responsable Chambre\x02\x07En raison du manque
+    d'énergie...[pause]\x02\x03... la Matrix
     est
-    inutilisable.[pause][\x0203]Désolé pour
+    inutilisable.[pause]\x02\x03Désolé pour
     ce désagrément.[pause]
   - a
   - a
   - a
   - |-
-    [\x0207]Resp Chambre[\x0207]Oi,
+    \x02\x07Resp Chambre\x02\x07Oi,
     ooink,
     oooionik ![pause]
   - a
@@ -1521,16 +1521,16 @@ strings:
   - a
   - a
   - a
-  - "[\\x0207][\\x020902]3Ouais ! J'ai \n3000 BIT ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ouais ! J'ai \n3000 BIT ![pause]"
   - a
   - a
   - a
   - a
   - a
   - |-
-    [\x0207]Keith[\x0207]Eh, petit !
-    On se retrouve ![pause][\x0203]Mais mon Digimon
-    s'entraîne.[pause][\x0203]On se battra
+    \x02\x07Keith\x02\x07Eh, petit !
+    On se retrouve ![pause]\x02\x03Mais mon Digimon
+    s'entraîne.[pause]\x02\x03On se battra
     une autre fois ![pause]
   - a
   - a
@@ -1540,87 +1540,87 @@ strings:
   - a
   - a
   - a
-  - "[\\x0207]Ken de l'IRD[\\x0207]Eh, je suis \nKen de l'IRD.[pause][\\x0203]Je suis \nceinture noire...[pause][\\x0203]Donc, un \nsavant sportif![pause]"
+  - "\\x02\\x07Ken de l'IRD\\x02\\x07Eh, je suis \nKen de l'IRD.[pause]\\x02\\x03Je suis \nceinture noire...[pause]\\x02\\x03Donc, un \nsavant sportif![pause]"
   - |-
-    [\x0207]Ken de l'IRD[\x0207]Je ne suis
+    \x02\x07Ken de l'IRD\x02\x07Je ne suis
     chercheur que depuis
     deux ans ![pause]
   - |-
-    [\x0207]Ken de l'IRD[\x0207]J'étudie un nouveau
+    \x02\x07Ken de l'IRD\x02\x07J'étudie un nouveau
     Digimon appelé
-    Kyukimon ![pause][\x0203]Et il me faut de
+    Kyukimon ![pause]\x02\x03Et il me faut de
     l'ADNN de Kotemon
-    issu d'un Kyukimon ![pause][\x0203]Pour savoir comment
+    issu d'un Kyukimon ![pause]\x02\x03Pour savoir comment
     Kotemon digivolve en
     Kyukimon ![pause]
-  - "[\\x0207]Ken de l'IRD[\\x0207]... Quoi, tu as\napporté de l'ADNN\nde Kotemon ?[pause][\\x0203]Merci ! Je t'offre\nKotemon comme\npartenaire.[pause][\\x0203]Va voir Piximon ou\nle Dr. Kadomatsu \nau labo.[pause][\\x0203]Kotemon doit être\nsur la liste sous\nChanger de Digimon.[pause]"
+  - "\\x02\\x07Ken de l'IRD\\x02\\x07... Quoi, tu as\napporté de l'ADNN\nde Kotemon ?[pause]\\x02\\x03Merci ! Je t'offre\nKotemon comme\npartenaire.[pause]\\x02\\x03Va voir Piximon ou\nle Dr. Kadomatsu \nau labo.[pause]\\x02\\x03Kotemon doit être\nsur la liste sous\nChanger de Digimon.[pause]"
   - |-
-    [\x0207]Ken de l'IRD[\x0207]Oioionk !
+    \x02\x07Ken de l'IRD\x02\x07Oioionk !
     Oioink, oionk ![pause]
   - |-
-    [\x0207]Ken de l'IRD[\x0207]Kotemon est génial !
+    \x02\x07Ken de l'IRD\x02\x07Kotemon est génial !
     Prends soin de lui ![pause]
-  - "[\\x0207]Ken de l'IRD[\\x0207]J'adore\nKotemon ![pause][\\x0203]Je t'envie de \nl'avoir comme\npartenaire ![pause]"
+  - "\\x02\\x07Ken de l'IRD\\x02\\x07J'adore\nKotemon ![pause]\\x02\\x03Je t'envie de \nl'avoir comme\npartenaire ![pause]"
   - |-
-    [\x0207]Ken de l'IRD[\x0207]Je travaille dur
+    \x02\x07Ken de l'IRD\x02\x07Je travaille dur
     pour devenir
-    un bon chercheur ![pause][\x0203]Et égaler
+    un bon chercheur ![pause]\x02\x03Et égaler
     le Dr. Kadomatsu ![pause]
-  - "[\\x0207]Yuji de l'IRD[\\x0207]Je suis Yuji\nde l'IRD, \nEnchanté ![pause]"
+  - "\\x02\\x07Yuji de l'IRD\\x02\\x07Je suis Yuji\nde l'IRD, \nEnchanté ![pause]"
   - |-
-    [\x0207]Yuji de l'IRD[\x0207]Mais ton Digimon
-    a l'air trop faible.[pause][\x0203]Tu devrais aller
+    \x02\x07Yuji de l'IRD\x02\x07Mais ton Digimon
+    a l'air trop faible.[pause]\x02\x03Tu devrais aller
     l'entraîner au lieu
     de bavarder.[pause]
-  - "[\\x0207]Yuji de l'IRD[\\x0207]Eh, GrapLeomon\nest génial, non ?![pause][\\x0203]Il me faut de l'ADNN\nde Kumamon issu d'un\nGrapLeomon.[pause][\\x0203]Pour perce le secret\nde la digivolution de \nKumamon en GrapLeomon.[pause]"
-  - "[\\x0207]Yuji de l'IRD[\\x0207]Quoi ?! Tu as de\nl'ADNN de Kumamon\nissu d'un GrapLeomon ?[pause][\\x0203]C'est vrai ?\nMerci ! Je ferai tout \nce que tu voudras...[pause][\\x0203]Eh ! Je sais !\nJe te confie Kumamon\ncomme partenaire ![pause][\\x0203]Va voir Piximon ou\nle Dr. Kadomatsu au\nlabo.[pause][\\x0203]Kumamon doit être\nsur la liste sous\nChanger de Digimon ![pause]"
+  - "\\x02\\x07Yuji de l'IRD\\x02\\x07Eh, GrapLeomon\nest génial, non ?![pause]\\x02\\x03Il me faut de l'ADNN\nde Kumamon issu d'un\nGrapLeomon.[pause]\\x02\\x03Pour perce le secret\nde la digivolution de \nKumamon en GrapLeomon.[pause]"
+  - "\\x02\\x07Yuji de l'IRD\\x02\\x07Quoi ?! Tu as de\nl'ADNN de Kumamon\nissu d'un GrapLeomon ?[pause]\\x02\\x03C'est vrai ?\nMerci ! Je ferai tout \nce que tu voudras...[pause]\\x02\\x03Eh ! Je sais !\nJe te confie Kumamon\ncomme partenaire ![pause]\\x02\\x03Va voir Piximon ou\nle Dr. Kadomatsu au\nlabo.[pause]\\x02\\x03Kumamon doit être\nsur la liste sous\nChanger de Digimon ![pause]"
   - |-
-    [\x0207]Yuji de l'IRD[\x0207]Ooin, oink !
+    \x02\x07Yuji de l'IRD\x02\x07Ooin, oink !
     Ooooin, oiinink ![pause]
   - |-
-    [\x0207]Yuji de l'IRD[\x0207]Eh, Kumamon est-il
-    plus fort ?[pause][\x0203]Entraîne-le pour
+    \x02\x07Yuji de l'IRD\x02\x07Eh, Kumamon est-il
+    plus fort ?[pause]\x02\x03Entraîne-le pour
     qu'il devienne le
     meilleur Digimon ![pause]
   - |-
-    [\x0207]Yuji de l'IRD[\x0207]Oh, tu as Kumamon
-    comme partenaire ?![pause][\x0203]Quelle chance ! Je le
+    \x02\x07Yuji de l'IRD\x02\x07Oh, tu as Kumamon
+    comme partenaire ?![pause]\x02\x03Quelle chance ! Je le
     veux moi aussi...[pause]
-  - "[\\x0207]Yuji de l'IRD[\\x0207]GrapLeomon\nest le meilleur, non?![pause][\\x0203]Pour moi, c'est le \nDig le plus craquant![pause]"
-  - "[\\x0207]Yang de l'IRD[\\x0207]Aïe, c'est pas mon jour...\nJe me suis tordu \nla cheville...[pause][\\x0203]... Eh, je suis Yang...\nEmployé de l'IRD.[pause]"
+  - "\\x02\\x07Yuji de l'IRD\\x02\\x07GrapLeomon\nest le meilleur, non?![pause]\\x02\\x03Pour moi, c'est le \nDig le plus craquant![pause]"
+  - "\\x02\\x07Yang de l'IRD\\x02\\x07Aïe, c'est pas mon jour...\nJe me suis tordu \nla cheville...[pause]\\x02\\x03... Eh, je suis Yang...\nEmployé de l'IRD.[pause]"
   - |-
-    [\x0207]Yang de l'IRD[\x0207]... Je vais bien.
+    \x02\x07Yang de l'IRD\x02\x07... Je vais bien.
     Ne t'en fais pas
-    pour moi.[pause][\x0203]Je me tords sou-
+    pour moi.[pause]\x02\x03Je me tords sou-
     vent la cheville.
     Aïe[pause]
   - |-
-    [\x0207]Yang de l'IRD[\x0207]Humm, impossible
-    de chercher Armormon...[pause][\x0203]Eh, tu peux aller lui
+    \x02\x07Yang de l'IRD\x02\x07Humm, impossible
+    de chercher Armormon...[pause]\x02\x03Eh, tu peux aller lui
     demander de l'ADNN
-    de Monmon pour moi ?[pause][\x0203]Allez ! Je te donnerai
+    de Monmon pour moi ?[pause]\x02\x03Allez ! Je te donnerai
     Monmon comme
     partenaire.[pause]
   - |-
-    [\x0207]Yang de l'IRD[\x0207]Eh merci !
-    Tu l'as ![pause][\x0203]Comme promis,
+    \x02\x07Yang de l'IRD\x02\x07Eh merci !
+    Tu l'as ![pause]\x02\x03Comme promis,
     je te confie Monmon
-    comme partenaire.[pause][\x0203]Va voir Piximon ou
+    comme partenaire.[pause]\x02\x03Va voir Piximon ou
     le Dr. Kadomatsu au
-    labo.[pause][\x0203]Monmon doit être sur
+    labo.[pause]\x02\x03Monmon doit être sur
     la liste sous
     Changer de Digimon ![pause]
   - |-
-    [\x0207]Yang de l'IRD[\x0207]Ooiioinioin !
+    \x02\x07Yang de l'IRD\x02\x07Ooiioinioin !
     Oioini, onoink ![pause]
   - |-
-    [\x0207]Yang de l'IRD[\x0207]Comment va
-    Monmon ?[pause][\x0203]Il est génial,
+    \x02\x07Yang de l'IRD\x02\x07Comment va
+    Monmon ?[pause]\x02\x03Il est génial,
     prends soin de lui ![pause]
-  - "[\\x0207]Yang de l'IRD[\\x0207]C'est dur la\ndigirecherche ![pause][\\x0203]J'aurais dû étudier \nplus quand j'étais \npetit... Aïe...[pause]"
+  - "\\x02\\x07Yang de l'IRD\\x02\\x07C'est dur la\ndigirecherche ![pause]\\x02\\x03J'aurais dû étudier \nplus quand j'étais \npetit... Aïe...[pause]"
   - |-
-    [\x0207]Yang de l'IRD[\x0207]L'étude des Digimons
-    n'est pas si facile.[pause][\x0203]J'envie les dresseurs
+    \x02\x07Yang de l'IRD\x02\x07L'étude des Digimons
+    n'est pas si facile.[pause]\x02\x03J'envie les dresseurs
     comme toi ! Aïe...[pause]
   - a
   - a
@@ -1630,4 +1630,4 @@ strings:
   - a
   - a
   - a
-  - "[\\x0207]Hide le Footeux[\\x0207]Renseigne-toi sur \nVeemon dans les\nlieux fréquentés.[pause][\\x0203]Quelqu'un\npourra sûrement\nt'aider.[pause]"
+  - "\\x02\\x07Hide le Footeux\\x02\\x07Renseigne-toi sur \nVeemon dans les\nlieux fréquentés.[pause]\\x02\\x03Quelqu'un\npourra sûrement\nt'aider.[pause]"

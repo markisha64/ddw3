@@ -1,8 +1,8 @@
 strings:
   - ''
-  - "Bip Bip.\nESPERE\nCONFIRMANDO DATOS[pause][\\x0203]......\nERROR EN \nLA CARTA AZUL.[pause][\\x0203]FINALIZAR REGISTRO\nDE CUENTA...[pause]"
+  - "Bip Bip.\nESPERE\nCONFIRMANDO DATOS[pause]\\x02\\x03......\nERROR EN \nLA CARTA AZUL.[pause]\\x02\\x03FINALIZAR REGISTRO\nDE CUENTA...[pause]"
   - |-
-    [\x0207][\x020902]3¿Qué? ¿Por qué
-    no puedo entrar?[pause][\x0203]¡Tengo la Carta
+    \x02\x07\x02\x09\x023¿Qué? ¿Por qué
+    no puedo entrar?[pause]\x02\x03¡Tengo la Carta
     Azul![pause]
-  - "[\\x0207][\\x020902]3¿Eh? ¿Qué? ¡no \nes la Carta \nAzul![pause][\\x0203]¡La A es un 8!\n¡Es la Carta \n8zul![pause][\\x0203]¡Es falsa!\n¡Me han \nengañado![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¿Eh? ¿Qué? ¡no \nes la Carta \nAzul![pause]\\x02\\x03¡La A es un 8!\n¡Es la Carta \n8zul![pause]\\x02\\x03¡Es falsa!\n¡Me han \nengañado![pause]"

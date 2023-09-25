@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]Maes. Car. Ken[\x0207]Habla conmigo
+    \x02\x07Maes. Car. Ken\x02\x07Habla conmigo
     cuando
     quieras escuchar.[pause]

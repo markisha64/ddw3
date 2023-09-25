@@ -1,29 +1,29 @@
 strings:
   - ''
-  - '[\x0207][\x020902]3Ho vinto![pause]'
+  - '\x02\x07\x02\x09\x023Ho vinto![pause]'
   - |-
-    [\x0207]Domatore Genji[\x0207]Sei bravo, per un
-    principiante.[pause][\x0203]Potresti diventare
+    \x02\x07Domatore Genji\x02\x07Sei bravo, per un
+    principiante.[pause]\x02\x03Potresti diventare
     Campione del Mondo
     sai?[pause]
   - |-
-    [\x0207][\x020902]3È il mio
+    \x02\x07\x02\x09\x023È il mio
     sogno![pause]
   - |-
-    [\x0207]Domatore Genji[\x0207]Allora dovresti
+    \x02\x07Domatore Genji\x02\x07Allora dovresti
     imparare di più
-    sui Digimon.[pause][\x0203]Visita il laboratorio
+    sui Digimon.[pause]\x02\x03Visita il laboratorio
     prima di andare
     fuori città.[pause]
   - |-
-    [\x0207][\x020902]3Laboratorio.
+    \x02\x07\x02\x09\x023Laboratorio.
     Ho capito.
     Grazie![pause]
   - |-
-    [\x0207]Domatore Genji[\x0207]E poi, hai
+    \x02\x07Domatore Genji\x02\x07E poi, hai
     una sacca
     per cartelle?[pause]
   - |-
-    [\x0207][\x020902]3Cosa?
+    \x02\x07\x02\x09\x023Cosa?
     E cos'è?[pause]
-  - "[\\x0207]Domatore Genji[\\x0207]Mmm. Dovresti\nandare all'Incrociatore\nGiallo.[pause][\\x0203]Lì imparerai tutto\nsulle battaglie \ndi carte.[pause][\\x0203]Ora vai.\nConto su di te!\nOh, oh, oh![pause]"
+  - "\\x02\\x07Domatore Genji\\x02\\x07Mmm. Dovresti\nandare all'Incrociatore\nGiallo.[pause]\\x02\\x03Lì imparerai tutto\nsulle battaglie \ndi carte.[pause]\\x02\\x03Ora vai.\nConto su di te!\nOh, oh, oh![pause]"

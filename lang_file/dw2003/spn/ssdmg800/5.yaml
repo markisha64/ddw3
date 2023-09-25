@@ -2,8 +2,8 @@ strings:
   - ''
   - |-
     TODO DESPEJADO
-    PARA LANZAMIENTO[pause][\x0203]JUGGERNAUT SERÁ
+    PARA LANZAMIENTO[pause]\x02\x03JUGGERNAUT SERÁ
     LANZADO[pause]
-  - "[\\x0207]Guarda Real[\\x0207]Ja ja ja ja. \n¡El plan es \nun éxito![pause]"
-  - "[\\x0207]Guarda Real[\\x0207]¡Vamos, \nJuggernaut![pause][\\x0203]¡Trae el terrror y \nla destrucción a\neste mundo inútil![pause]"
-  - "[\\x0207]Guarda Real[\\x0207]¡La barrera \nmagnética debería\nliberarse ahora![pause]"
+  - "\\x02\\x07Guarda Real\\x02\\x07Ja ja ja ja. \n¡El plan es \nun éxito![pause]"
+  - "\\x02\\x07Guarda Real\\x02\\x07¡Vamos, \nJuggernaut![pause]\\x02\\x03¡Trae el terrror y \nla destrucción a\neste mundo inútil![pause]"
+  - "\\x02\\x07Guarda Real\\x02\\x07¡La barrera \nmagnética debería\nliberarse ahora![pause]"

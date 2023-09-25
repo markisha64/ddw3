@@ -1,29 +1,29 @@
 strings:
   - ''
   - |-
-    [\x0207]??? [\x0207]GUBIII ![pause][\x0203]Réponse Digimon,
+    \x02\x07??? \x02\x07GUBIII ![pause]\x02\x03Réponse Digimon,
     Réponse Digimon ![pause]
   - |-
-    [\x0207][\x020902]3Qui est-ce ? Je
+    \x02\x07\x02\x09\x023Qui est-ce ? Je
     ne connais pas
     ce Digimon.[pause]
-  - '[\x0207]???[\x0207]GUBI ?[pause]'
+  - '\x02\x07???\x02\x07GUBI ?[pause]'
   - |-
-    [\x0207][\x020902]3Il n'a pas
+    \x02\x07\x02\x09\x023Il n'a pas
     l'air
     méchant...[pause]
   - |-
-    [\x0207][\x020902]3Hé, ouvre-moi.[pause][\x0203]Je dois aller
+    \x02\x07\x02\x09\x023Hé, ouvre-moi.[pause]\x02\x03Je dois aller
     arrêter les
     méchants ![pause]
   - |-
-    [\x0207]???[\x0207]Qui est
+    \x02\x07???\x02\x07Qui est
     mé-
     chant ?[pause]
   - |-
-    [\x0207][\x020902]3Ah, et bien
+    \x02\x07\x02\x09\x023Ah, et bien
     en gros...[pause]
   - |-
-    [\x0207]??? [\x0207]Je mange des
+    \x02\x07??? \x02\x07Je mange des
     Digimons et je
-    me renforce ![pause][\x0203]GUBIIII ![pause]
+    me renforce ![pause]\x02\x03GUBIIII ![pause]

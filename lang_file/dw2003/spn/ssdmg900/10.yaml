@@ -1,8 +1,8 @@
 strings:
   - ''
   - |-
-    [\x0207]Domador Haruka[\x0207]Bien. Ten
+    \x02\x07Domador Haruka\x02\x07Bien. Ten
     coraje en tu
-    viaje.[pause][\x0203]Y da gracias
+    viaje.[pause]\x02\x03Y da gracias
     por mi
     generosidad.[pause]

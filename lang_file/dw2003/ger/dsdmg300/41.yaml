@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207]Divermon[\x0207]Oh, ich wollte
+    \x02\x07Divermon\x02\x07Oh, ich wollte
     unbedingt einen
-    Lacher kriegen![pause][\x0203]Ich muss meine Kar-
+    Lacher kriegen![pause]\x02\x03Ich muss meine Kar-
     ten besser wählen.[pause]

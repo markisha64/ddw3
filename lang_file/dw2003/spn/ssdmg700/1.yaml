@@ -1,42 +1,42 @@
 strings:
   - ''
   - |-
-    [\x0207]Junior:[\x0207]¿Así que este es el
+    \x02\x07Junior:\x02\x07¿Así que este es el
     Centro Online
     MAGAMI? ¡Guay![pause]
-  - "[\\x0207]Teddy.[\\x0207]Sí, este es el \nSistema Matriz.[pause][\\x0203]Digitaliza nuestra idea\ny pensamientos y los \nenvía a la red.[pause][\\x0203]¿Cómo funcionará?\nQuiero ver qué lo hace\nsaltar.[pause]"
-  - "[\\x0207]Junior:[\\x0207]¡Eh! ¿Qué hacéis\nlos dos aquí?[pause][\\x0203]¡Venga, configuremos \nla cuenta y entremos\nen el Mundo Digital![pause]"
-  - "[\\x0207]Administrador:[\\x0207]Bienvenidos al\nCentro Online\nMAGAMI.[pause][\\x0203]Este servicio es para\nlos viajeros al \nMundo Digital.[pause][\\x0203]¿Es la primera vez\nque jugáis a \nDigimon Online?[pause]"
-  - "[\\x0207]Administrador:[\\x0207]Antes de configurar\nla cuenta...[pause][\\x0203]... seleccionad el \nDigimon compañero.[pause]"
+  - "\\x02\\x07Teddy.\\x02\\x07Sí, este es el \nSistema Matriz.[pause]\\x02\\x03Digitaliza nuestra idea\ny pensamientos y los \nenvía a la red.[pause]\\x02\\x03¿Cómo funcionará?\nQuiero ver qué lo hace\nsaltar.[pause]"
+  - "\\x02\\x07Junior:\\x02\\x07¡Eh! ¿Qué hacéis\nlos dos aquí?[pause]\\x02\\x03¡Venga, configuremos \nla cuenta y entremos\nen el Mundo Digital![pause]"
+  - "\\x02\\x07Administrador:\\x02\\x07Bienvenidos al\nCentro Online\nMAGAMI.[pause]\\x02\\x03Este servicio es para\nlos viajeros al \nMundo Digital.[pause]\\x02\\x03¿Es la primera vez\nque jugáis a \nDigimon Online?[pause]"
+  - "\\x02\\x07Administrador:\\x02\\x07Antes de configurar\nla cuenta...[pause]\\x02\\x03... seleccionad el \nDigimon compañero.[pause]"
   - |-
-    [\x0207]Administrador:[\x0207]Seleccionad el paquete
-    de inicio A, B o C.[pause][\x0203]Cada paquete tiene
+    \x02\x07Administrador:\x02\x07Seleccionad el paquete
+    de inicio A, B o C.[pause]\x02\x03Cada paquete tiene
     tres tipos de Digimon.[pause]
   - |-
-    [\x0207]Administrador:[\x0207]A es un paquete
+    \x02\x07Administrador:\x02\x07A es un paquete
     equil.: Katemon,
-    Renamon, Patamon.[pause][\x0203]B es un paquete
+    Renamon, Patamon.[pause]\x02\x03B es un paquete
     potente: Monmon,
-    Agumon, Renamon.[pause][\x0203]C es un paquete
+    Agumon, Renamon.[pause]\x02\x03C es un paquete
     maníaco:Kunamon,
-    Guilmon,Patamon.[pause][\x0203]¿Cuál de los tres
+    Guilmon,Patamon.[pause]\x02\x03¿Cuál de los tres
     deseáis?[pause]
-  - "[\\x0207]Ivy.[\\x0207]Venga Junior,\n¿qué te \npreocupa?[pause][\\x0203]¡Elige un paquete\ncon un Digimon\nque te guste![pause]"
+  - "\\x02\\x07Ivy.\\x02\\x07Venga Junior,\n¿qué te \npreocupa?[pause]\\x02\\x03¡Elige un paquete\ncon un Digimon\nque te guste![pause]"
   - |-
-    [\x0207]Junior:[\x0207]¡No puedo evitarlo!
+    \x02\x07Junior:\x02\x07¡No puedo evitarlo!
     ¡Me gustan todos
     los paquetes![pause]
-  - "[\\x0207]Ivy:[\\x0207]¿Qué Digimon no te\ngusta?[pause][\\x0203]¡No elijas el que\ntenga el que no te \ngusta y selecciona![pause]"
+  - "\\x02\\x07Ivy:\\x02\\x07¿Qué Digimon no te\ngusta?[pause]\\x02\\x03¡No elijas el que\ntenga el que no te \ngusta y selecciona![pause]"
   - |-
-    [\x0207]Junior:[\x0207]¡No hay ninguno
-    que no me guste![pause][\x0203]¡Me encantan todos![pause]
-  - "[\\x0207]Ivy:[\\x0207]Bueno, si te gustan\ntodos, ¡no tienes que \npreocuparte![pause][\\x0203]Venga, selecciona y\n¡vamos al Mundo \nDigital![pause]"
+    \x02\x07Junior:\x02\x07¡No hay ninguno
+    que no me guste![pause]\x02\x03¡Me encantan todos![pause]
+  - "\\x02\\x07Ivy:\\x02\\x07Bueno, si te gustan\ntodos, ¡no tienes que \npreocuparte![pause]\\x02\\x03Venga, selecciona y\n¡vamos al Mundo \nDigital![pause]"
   - |-
-    [\x0207]Ivy:[\x0207]Junior. ¿Aún no
-    te has decidido?[pause][\x0203]¡Decídete o paso
+    \x02\x07Ivy:\x02\x07Junior. ¿Aún no
+    te has decidido?[pause]\x02\x03¡Decídete o paso
     delante![pause]
-  - "[\\x0207]Administrador:[\\x0207]¿Habéis decidido \ntodos?[pause]"
+  - "\\x02\\x07Administrador:\\x02\\x07¿Habéis decidido \ntodos?[pause]"
   - |-
-    [\x0207]Ivy:[\x0207]¡Junior! ¡Te
+    \x02\x07Ivy:\x02\x07¡Junior! ¡Te
     voy a dejar aquí![pause]
-  - "[\\x0207]Administrador:[\\x0207]De acuerdo, ahora  \nos registraré con \nvuestro Digimon.[pause]"
+  - "\\x02\\x07Administrador:\\x02\\x07De acuerdo, ahora  \nos registraré con \nvuestro Digimon.[pause]"

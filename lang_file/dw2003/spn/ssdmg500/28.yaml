@@ -1,38 +1,38 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3¡Eh! Son\nNick y \nKeith.[pause]"
-  - "[\\x0207]Nick[\\x0207]¿Harás tu trabajo\npor una vez?[pause][\\x0203]¡Has estado \njugando desde \nque llegamos![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Eh! Son\nNick y \nKeith.[pause]"
+  - "\\x02\\x07Nick\\x02\\x07¿Harás tu trabajo\npor una vez?[pause]\\x02\\x03¡Has estado \njugando desde \nque llegamos![pause]"
   - a
   - a
-  - "[\\x0207]Keith[\\x0207]Ja ja ja. ¡Eso es!\n¡Pero es un plan\nválido![pause][\\x0203]¡Probablemente\ncontactarán a \njugadores fuertes![pause]"
+  - "\\x02\\x07Keith\\x02\\x07Ja ja ja. ¡Eso es!\n¡Pero es un plan\nválido![pause]\\x02\\x03¡Probablemente\ncontactarán a \njugadores fuertes![pause]"
   - |-
-    [\x0207]Nick[\x0207]¡No engañas
-    a nadie![pause][\x0203]¡A partir de ahora
+    \x02\x07Nick\x02\x07¡No engañas
+    a nadie![pause]\x02\x03¡A partir de ahora
     seguiremos el plan![pause]
   - |-
-    [\x0207]Keith[\x0207]¡De eso nada!
+    \x02\x07Keith\x02\x07¡De eso nada!
     ¡Me gusta lo
-    que hago![pause][\x0203]¡Soy libre!
+    que hago![pause]\x02\x03¡Soy libre!
     ¡Libertad![pause]
-  - '[\x0207]Nick[\x0207]¡Keith![pause]'
-  - '[\x0207][\x020902]3Perdonad...[pause]'
+  - '\x02\x07Nick\x02\x07¡Keith![pause]'
+  - '\x02\x07\x02\x09\x023Perdonad...[pause]'
   - |-
-    [\x0207]Nick[\x0207]Tú eres
+    \x02\x07Nick\x02\x07Tú eres
     el chico.[pause]
   - |-
-    [\x0207]Keith[\x0207]¡Eh, chico!
+    \x02\x07Keith\x02\x07¡Eh, chico!
     ¿Quieres luchar?[pause]
   - |-
-    [\x0207][\x020902]3Ah, no. Lisa
-    me pidió que...[pause][\x0203]Llamase a Keith
+    \x02\x07\x02\x09\x023Ah, no. Lisa
+    me pidió que...[pause]\x02\x03Llamase a Keith
     y a Nick.[pause]
-  - "[\\x0207]Keith[\\x0207]...Ahh, \n¿de verdad?[pause]"
-  - "[\\x0207]Nick[\\x0207]¡Mejor será que\nvayamos o se \nenfadará![pause]"
+  - "\\x02\\x07Keith\\x02\\x07...Ahh, \n¿de verdad?[pause]"
+  - "\\x02\\x07Nick\\x02\\x07¡Mejor será que\nvayamos o se \nenfadará![pause]"
   - |-
-    [\x0207][\x020902]3Oh. Ah,
+    \x02\x07\x02\x09\x023Oh. Ah,
     ¡esperad![pause]
-  - "[\\x0207]Keith[\\x0207]¡No tenemos\ntiempo que \nperder! ¡Vamos![pause]"
-  - "[\\x0207]Nick[\\x0207]¡Venga,\nllévanos con \nella ya mismo![pause]"
+  - "\\x02\\x07Keith\\x02\\x07¡No tenemos\ntiempo que \nperder! ¡Vamos![pause]"
+  - "\\x02\\x07Nick\\x02\\x07¡Venga,\nllévanos con \nella ya mismo![pause]"
   - |-
-    [\x0207][\x020902]3¿Eh?
+    \x02\x07\x02\x09\x023¿Eh?
     ¡Ah, claro![pause]

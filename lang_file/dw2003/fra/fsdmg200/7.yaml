@@ -1,10 +1,10 @@
 strings:
   - ''
   - |-
-    [\x0207]Service dressage[\x0207]Je comprends.[pause][\x0203]Si tu veux faire
+    \x02\x07Service dressage\x02\x07Je comprends.[pause]\x02\x03Si tu veux faire
     sortir tes Digimons,
     viens me voir.[pause]
   - |-
-    [\x0207][\x020902]3Ok, allons faire
+    \x02\x07\x02\x09\x023Ok, allons faire
     un tour du côté
     du hall ![pause]

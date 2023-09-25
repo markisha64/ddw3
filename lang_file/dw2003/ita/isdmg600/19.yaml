@@ -1,22 +1,22 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Ehi, sai
+    \x02\x07\x02\x09\x023Ehi, sai
     dov'è
     Numemon?[pause]
   - |-
-    [\x0207]HiAndromon[\x0207]Numemon?
+    \x02\x07HiAndromon\x02\x07Numemon?
     Cosa vuoi
     da lui?[pause]
   - |-
-    [\x0207][\x020902]3Devo assolutamente
+    \x02\x07\x02\x09\x023Devo assolutamente
     chiedergli una cosa!
     Su, dimmelo![pause]
   - |-
-    [\x0207]HiAndromon[\x0207]So dov'è, ma
+    \x02\x07HiAndromon\x02\x07So dov'è, ma
     non posso dirtelo
-    così.[pause][\x0203]Qui possono
+    così.[pause]\x02\x03Qui possono
     entrare solo i
-    più forti.[pause][\x0203]Se vuoi vederlo,
+    più forti.[pause]\x02\x03Se vuoi vederlo,
     devi prima
     battermi.[pause]

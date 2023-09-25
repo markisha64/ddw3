@@ -1,3 +1,3 @@
 strings:
   - ''
-  - "[\\x0207]MetalEtemon[\\x0207]Sei stato\nbravo con\nme![pause][\\x0203]Aspetta che prenda\nuna cartella \nmigliore: vedrai![pause]"
+  - "\\x02\\x07MetalEtemon\\x02\\x07Sei stato\nbravo con\nme![pause]\\x02\\x03Aspetta che prenda\nuna cartella \nmigliore: vedrai![pause]"

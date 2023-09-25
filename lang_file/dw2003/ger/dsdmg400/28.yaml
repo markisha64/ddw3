@@ -1,20 +1,20 @@
 strings:
   - ''
   - |-
-    [\x0207]BK Imperialdramon[\x0207]Verloren.
+    \x02\x07BK Imperialdramon\x02\x07Verloren.
     Du hast
     Power![pause]
   - |-
-    [\x0207][\x020902]3Na klar!
+    \x02\x07\x02\x09\x023Na klar!
     Ich hab bis jetzt
     immer gewonnen![pause]
   - |-
-    [\x0207]BK Imperialdramon[\x0207]Du bist groβ-
-    artig![pause][\x0203]Hier. Ich gebe
+    \x02\x07BK Imperialdramon\x02\x07Du bist groβ-
+    artig![pause]\x02\x03Hier. Ich gebe
     dir dies. Nimm
     es.[pause]
   - |-
-    [\x0207][\x020902]3Cool! Ich hab
+    \x02\x07\x02\x09\x023Cool! Ich hab
     den gefähr-
     lichen Helm![pause]
-  - "[\\x0207]BK Imperialdramon[\\x0207]Der Kampf hat \nSpaβ gemacht.\nKomm wieder![pause]"
+  - "\\x02\\x07BK Imperialdramon\\x02\\x07Der Kampf hat \nSpaβ gemacht.\nKomm wieder![pause]"

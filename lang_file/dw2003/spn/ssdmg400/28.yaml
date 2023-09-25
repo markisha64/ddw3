@@ -1,19 +1,19 @@
 strings:
   - ''
-  - "[\\x0207]BK Imperialdramon[\\x0207]¡Eh, he perdido!\n¡Tienes \npotencia![pause]"
+  - "\\x02\\x07BK Imperialdramon\\x02\\x07¡Eh, he perdido!\n¡Tienes \npotencia![pause]"
   - |-
-    [\x0207][\x020902]3¡Claro!
+    \x02\x07\x02\x09\x023¡Claro!
     ¡Hasta ahora
     siempre gano![pause]
   - |-
-    [\x0207]BK Imperialdramon[\x0207]Ya veo...
-    ¡Eres bueno![pause][\x0203]¡Te daré
+    \x02\x07BK Imperialdramon\x02\x07Ya veo...
+    ¡Eres bueno![pause]\x02\x03¡Te daré
     esto! Toma.[pause]
   - |-
-    [\x0207][\x020902]3¡Sí!¡Tengo
+    \x02\x07\x02\x09\x023¡Sí!¡Tengo
     el Casco de
     peligro![pause]
   - |-
-    [\x0207]BK Imperialdramon[\x0207]Ha sido divertido
+    \x02\x07BK Imperialdramon\x02\x07Ha sido divertido
     ¡Volveré otra
     vez![pause]

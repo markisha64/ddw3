@@ -1,30 +1,30 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Bizarre.
+    \x02\x07\x02\x09\x023Bizarre.
     Numemon n'est
     pas par ici.[pause]
-  - Aaaaaaah ![pause][\x0203]A l'aide ![pause]
+  - Aaaaaaah ![pause]\x02\x03A l'aide ![pause]
   - |-
-    [\x0207][\x020902]3Qu'est-ce
+    \x02\x07\x02\x09\x023Qu'est-ce
     que c'était ?[pause]
   - |-
-    [\x0207]WaruMonzaemon[\x0207]Tu es si jolie !
+    \x02\x07WaruMonzaemon\x02\x07Tu es si jolie !
     Epouse-moi ![pause]
   - |-
-    [\x0207]Lisa[\x0207]Je n'aime pas
+    \x02\x07Lisa\x02\x07Je n'aime pas
     les monstres ![pause]
-  - "[\\x0207][\\x020902]3Oh, oh... \nC'est euh... \nLisa ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Oh, oh... \nC'est euh... \nLisa ![pause]"
   - |-
-    [\x0207]Lisa [\x0207]Oh, tu es [\x020801][\x020501]
-    n'est-ce pas ?[pause][\x0203]Viens aider une jeune
+    \x02\x07Lisa \x02\x07Oh, tu es \x02\x08\x01\x02\x05\x01
+    n'est-ce pas ?[pause]\x02\x03Viens aider une jeune
     fille en détresse ![pause]
-  - '[\x0207][\x020902]3Bon, OK.[pause]'
+  - '\x02\x07\x02\x09\x023Bon, OK.[pause]'
   - |-
-    [\x0207][\x020902]3WaruMonzaemon,
+    \x02\x07\x02\x09\x023WaruMonzaemon,
     choisis un adversaire
     à ta taille ![pause]
   - |-
-    [\x0207]WaruMonzaemon[\x0207]...
-    Qui es-tu[pause][\x0203]Hors de ma
+    \x02\x07WaruMonzaemon\x02\x07...
+    Qui es-tu[pause]\x02\x03Hors de ma
     vue ![pause]

@@ -1,6 +1,6 @@
 strings:
   - ''
-  - "ALL CLEAR \nFOR LAUNCH![pause][\\x0203]JUGGERNAUT IS \nLAUNCHING![pause]"
-  - "[\\x0207]Royal Guard[\\x0207]Ha ha ha ha!\nOur plan is a \nsuccess![pause]"
-  - "[\\x0207]Royal Guard[\\x0207]Now go!\nOur Juggernaut![pause][\\x0203]Bring terror and \ndestruction to this \nuseless world![pause]"
-  - "[\\x0207]Royal Guard[\\x0207]Electromagnetic \nBarrier should \nbe unlocked now![pause]"
+  - "ALL CLEAR \nFOR LAUNCH![pause]\\x02\\x03JUGGERNAUT IS \nLAUNCHING![pause]"
+  - "\\x02\\x07Royal Guard\\x02\\x07Ha ha ha ha!\nOur plan is a \nsuccess![pause]"
+  - "\\x02\\x07Royal Guard\\x02\\x07Now go!\nOur Juggernaut![pause]\\x02\\x03Bring terror and \ndestruction to this \nuseless world![pause]"
+  - "\\x02\\x07Royal Guard\\x02\\x07Electromagnetic \nBarrier should \nbe unlocked now![pause]"

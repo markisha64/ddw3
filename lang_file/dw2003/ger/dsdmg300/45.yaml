@@ -1,8 +1,8 @@
 strings:
   - ''
   - |-
-    [\x0207]Etemon[\x0207]Hab schon mal
+    \x02\x07Etemon\x02\x07Hab schon mal
     mit diesem Ordner
-    verloren![pause][\x0203]Aber mit meinem
+    verloren![pause]\x02\x03Aber mit meinem
     Super-Ordner werde
     ich siegen![pause]

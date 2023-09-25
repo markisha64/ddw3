@@ -1,14 +1,14 @@
 strings:
   - ''
   - |-
-    [\x0207]Suzaku Leader[\x0207]Was nun? Bist
+    \x02\x07Suzaku Leader\x02\x07Was nun? Bist
     du bereit zum
     Kampf?[pause]
   - |-
-    [\x0207][\x020902]3Ja,
+    \x02\x07\x02\x09\x023Ja,
     klar![pause]
   - |-
-    [\x0207]Suzaku Leader[\x0207]Du klingst echt
-    selbstbewusst![pause][\x0203]Unterschätz mich
+    \x02\x07Suzaku Leader\x02\x07Du klingst echt
+    selbstbewusst![pause]\x02\x03Unterschätz mich
     nicht, weil ich
     ein Mädchen bin![pause]

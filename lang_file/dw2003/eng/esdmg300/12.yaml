@@ -1,13 +1,13 @@
 strings:
   - ''
-  - "[\\x0207]Game Master[\\x0207]No, noo![pause][\\x0203]My Persiamon \ncan't lose...[pause]"
-  - "[\\x0207]Lisa[\\x0207]Oops, I guess \nwe're a little late.[pause]"
+  - "\\x02\\x07Game Master\\x02\\x07No, noo![pause]\\x02\\x03My Persiamon \ncan't lose...[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07Oops, I guess \nwe're a little late.[pause]"
   - |-
-    [\x0207]Teddy[\x0207][\x020801][\x020501]!
+    \x02\x07Teddy\x02\x07\x02\x08\x01\x02\x05\x01!
     I'm so glad
     you're OK![pause]
-  - "[\\x0207]Nick[\\x0207]Now we've got proof. \nGive yourself up, \nGame Master![pause][\\x0203]You're under arrest\nby the International \nPolice, S.A.P![pause]"
-  - "[\\x0207][\\x020902]3What? Lisa and \nNick are investigators \nfor the S.A.P?[pause]"
-  - "[\\x0207]Nick[\\x0207]That's right, and \nKeith as well.[pause]"
-  - "[\\x0207]Lisa[\\x0207]Sorry we didn't tell\nyou before.[pause][\\x0203]But because of \nyou the case is \nsolved![pause]"
-  - "[\\x0207]Lisa[\\x0207]Let's interrogate \nGame Master and \nchange Kurt back![pause]"
+  - "\\x02\\x07Nick\\x02\\x07Now we've got proof. \nGive yourself up, \nGame Master![pause]\\x02\\x03You're under arrest\nby the International \nPolice, S.A.P![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023What? Lisa and \nNick are investigators \nfor the S.A.P?[pause]"
+  - "\\x02\\x07Nick\\x02\\x07That's right, and \nKeith as well.[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07Sorry we didn't tell\nyou before.[pause]\\x02\\x03But because of \nyou the case is \nsolved![pause]"
+  - "\\x02\\x07Lisa\\x02\\x07Let's interrogate \nGame Master and \nchange Kurt back![pause]"

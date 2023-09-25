@@ -1,79 +1,79 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Lisa, tu parles
+    \x02\x07\x02\x09\x023Lisa, tu parles
     du Maître de
     jeu ?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Oui, tu as
-    compris ![pause][\x0203]Elle est la seule
+    \x02\x07Lisa\x02\x07Oui, tu as
+    compris ![pause]\x02\x03Elle est la seule
     à pouvoir nous
     aider, non ?[pause]
   - |-
-    [\x0207]Maître de jeu[\x0207]Que veux-tu
-    dire, parle ![pause][\x0203]Je n'ai pas
+    \x02\x07Maître de jeu\x02\x07Que veux-tu
+    dire, parle ![pause]\x02\x03Je n'ai pas
     l'intention de
     vous aider ![pause]
   - |-
-    [\x0207]Lisa[\x0207]Oh, vraiment ?
-    Hmmm...[pause][\x0203]J'étais prête à
+    \x02\x07Lisa\x02\x07Oh, vraiment ?
+    Hmmm...[pause]\x02\x03J'étais prête à
     me rendre.[pause]
   - |-
-    [\x0207][\x020902]3Qu'est-ce que
+    \x02\x07\x02\x09\x023Qu'est-ce que
     tu dis, Lisa ?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Ils ont le
+    \x02\x07Lisa\x02\x07Ils ont le
     Juggernaut ! On
-    ne peut rien faire.[pause][\x0203]Et je ne veux pas
+    ne peut rien faire.[pause]\x02\x03Et je ne veux pas
     mourir maintenant.[pause]
   - |-
-    [\x0207][\x020902]3Qu...quoi ?!
+    \x02\x07\x02\x09\x023Qu...quoi ?!
     On s'est battu
-    jusqu'ici !![pause][\x0203]Je refuse ! Je
+    jusqu'ici !![pause]\x02\x03Je refuse ! Je
     n'abandonnerai
     jamais ![pause]
   - |-
-    [\x0207]Lisa[\x0207][\x020801][\x020501], tu es
-    très courageux...[pause][\x0203]Mais tu vas y
+    \x02\x07Lisa\x02\x07\x02\x08\x01\x02\x05\x01, tu es
+    très courageux...[pause]\x02\x03Mais tu vas y
     laisser la vie.[pause]
   - |-
-    [\x0207]Maître de jeu[\x0207]Tu es plus
+    \x02\x07Maître de jeu\x02\x07Tu es plus
     perspicace que
     tu en as l'air ![pause]
   - |-
-    [\x0207]Maître de jeu[\x0207]Oui, le Juggernaut
+    \x02\x07Maître de jeu\x02\x07Oui, le Juggernaut
     appartient à
-    l'AoA ![pause][\x0203]Seul le président
+    l'AoA ![pause]\x02\x03Seul le président
     d'Amaterasu City
     peut l'arrêter ![pause]
   - |-
-    [\x0207]Lisa[\x0207]Vraiment...
+    \x02\x07Lisa\x02\x07Vraiment...
     Tu entends ça,
-    [\x020801][\x020501] ?[pause]
+    \x02\x08\x01\x02\x05\x01 ?[pause]
   - |-
-    [\x0207][\x020902]3Oui, madame !
+    \x02\x07\x02\x09\x023Oui, madame !
     Ah, j'ai
     compris !![pause]
   - |-
-    [\x0207]Maître de jeu[\x0207]Quelle idiote j'ai
+    \x02\x07Maître de jeu\x02\x07Quelle idiote j'ai
     été ! C'était un
     secret ![pause]
   - |-
-    [\x0207]Lisa[\x0207]Toujours tromper
+    \x02\x07Lisa\x02\x07Toujours tromper
     ses alliés avant
-    son ennemi ![pause][\x0203]Alors, je suis
+    son ennemi ![pause]\x02\x03Alors, je suis
     bonne
     comédienne ?[pause]
   - |-
-    [\x0207]Teddy[\x0207]Assez perdu
+    \x02\x07Teddy\x02\x07Assez perdu
     de temps,
     vous deux ![pause]
   - |-
-    [\x0207]Teddy[\x0207]Vemmon a été
+    \x02\x07Teddy\x02\x07Vemmon a été
     transféré sur le
     Juggernaut ![pause]
-  - '[\x0207]Lisa[\x0207]Vraiment ?![pause]'
+  - '\x02\x07Lisa\x02\x07Vraiment ?![pause]'
   - |-
-    [\x0207][\x020902]3Que...
+    \x02\x07\x02\x09\x023Que...
     Que s'est-
     il passé ?[pause]

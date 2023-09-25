@@ -1,39 +1,39 @@
 strings:
   - ''
   - |-
-    [\x0207]Kail[\x0207][\x020801][\x020501]!
+    \x02\x07Kail\x02\x07\x02\x08\x01\x02\x05\x01!
     Thank heavens!
     You're all right![pause]
-  - "[\\x0207][\\x020902]3...Kail!\nWhat happened?[pause][\\x0203]Why have they \nall turned into \nOinkmon?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023...Kail!\nWhat happened?[pause]\\x02\\x03Why have they \nall turned into \nOinkmon?[pause]"
   - |-
-    [\x0207]Kail[\x0207]It's Vemmon!
+    \x02\x07Kail\x02\x07It's Vemmon!
     They did this![pause]
   - |-
-    [\x0207][\x020902]3...what?!
+    \x02\x07\x02\x09\x023...what?!
     What did you
     say...?[pause]
-  - "[\\x0207]Kail[\\x0207]A lot of Vemmon came \nout of Amaterasu's\nAdministration Center![pause][\\x0203]Then they launched \nbeams and...[pause][\\x0203]Turned everyone into\nOinkmon![pause]"
-  - "[\\x0207][\\x020902]3But wait - Vemmon \ndoesn't have that \nkind of power...[pause][\\x0203]Have they been...\nreprogrammed?[pause]"
-  - "[\\x0207]Kail[\\x0207]I-I don't know...[pause][\\x0203]But I hid with \nthe others in\nthe basement.[pause][\\x0203]But I was the \nonly one who \nwasn't changed.[pause][\\x0203]Teddy and Lisa\nwere all turned \ninto Oinkmon.[pause]"
-  - "[\\x0207][\\x020902]3What is going on...[pause][\\x0203]...and where did \nthe Vemmon go?[pause]"
-  - "[\\x0207][\\x020902]3...and where did \nthe Vemmon go?[pause]"
-  - "[\\x0207]Kail[\\x0207]They all went \nstraight to the \nMaster Room![pause]"
-  - "[\\x0207][\\x020902]3Then there's some \nsecret in the Master \nRoom![pause][\\x0203]Well, let's go![pause][\\x0203]Kail you go hide\nsomewhere safe![pause]"
-  - "[\\x0207]Kail[\\x0207]What?!\nBu, but, \n[\\x020801][\\x020501]...[pause]"
-  - "[\\x0207][\\x020902]3I'm the only one who \ncan fight against them\nin this world![pause][\\x0203]Don't worry!\nJust leave it to me![pause]"
-  - "[\\x0207]Kail[\\x0207]...All right.\nI'll believe in you\n[\\x020801][\\x020501].[pause][\\x0203]But I'll kick \nyour butt\nif you lose![pause]"
-  - "[\\x0207][\\x020902]3All right!\nThen I'm \noff![pause]"
+  - "\\x02\\x07Kail\\x02\\x07A lot of Vemmon came \nout of Amaterasu's\nAdministration Center![pause]\\x02\\x03Then they launched \nbeams and...[pause]\\x02\\x03Turned everyone into\nOinkmon![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023But wait - Vemmon \ndoesn't have that \nkind of power...[pause]\\x02\\x03Have they been...\nreprogrammed?[pause]"
+  - "\\x02\\x07Kail\\x02\\x07I-I don't know...[pause]\\x02\\x03But I hid with \nthe others in\nthe basement.[pause]\\x02\\x03But I was the \nonly one who \nwasn't changed.[pause]\\x02\\x03Teddy and Lisa\nwere all turned \ninto Oinkmon.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023What is going on...[pause]\\x02\\x03...and where did \nthe Vemmon go?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023...and where did \nthe Vemmon go?[pause]"
+  - "\\x02\\x07Kail\\x02\\x07They all went \nstraight to the \nMaster Room![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Then there's some \nsecret in the Master \nRoom![pause]\\x02\\x03Well, let's go![pause]\\x02\\x03Kail you go hide\nsomewhere safe![pause]"
+  - "\\x02\\x07Kail\\x02\\x07What?!\nBu, but, \n\\x02\\x08\\x01\\x02\\x05\\x01...[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023I'm the only one who \ncan fight against them\nin this world![pause]\\x02\\x03Don't worry!\nJust leave it to me![pause]"
+  - "\\x02\\x07Kail\\x02\\x07...All right.\nI'll believe in you\n\\x02\\x08\\x01\\x02\\x05\\x01.[pause]\\x02\\x03But I'll kick \nyour butt\nif you lose![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023All right!\nThen I'm \noff![pause]"
   - |-
-    [\x0207]Kail[\x0207]Be careful...
-    [\x020801][\x020501]...[pause]
-  - "[\\x0207]Kail[\\x0207]...But the A.o.A \nisn't defeated yet...[pause]"
-  - "[\\x0207][\\x020902]3...then \neveryone \nelse...?[pause]"
-  - "[\\x0207]Kail[\\x0207]Yea-yeah. Teddy, \nLisa and the others \nare Oinkmon now.[pause]"
-  - '[\x0207][\x020902]3Hey, Kail?![pause]'
+    \x02\x07Kail\x02\x07Be careful...
+    \x02\x08\x01\x02\x05\x01...[pause]
+  - "\\x02\\x07Kail\\x02\\x07...But the A.o.A \nisn't defeated yet...[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023...then \neveryone \nelse...?[pause]"
+  - "\\x02\\x07Kail\\x02\\x07Yea-yeah. Teddy, \nLisa and the others \nare Oinkmon now.[pause]"
+  - '\x02\x07\x02\x09\x023Hey, Kail?![pause]'
   - |-
-    [\x0207]Kurt[\x0207]Oink!
+    \x02\x07Kurt\x02\x07Oink!
     Oin, ooink![pause]
   - |-
-    [\x0207]Kurt[\x0207]Ooink!
+    \x02\x07Kurt\x02\x07Ooink!
     Ooi, oink![pause]
-  - "[\\x0207]Kail[\\x0207]I wonder what's \nhappening in the \nReal World...[pause]"
+  - "\\x02\\x07Kail\\x02\\x07I wonder what's \nhappening in the \nReal World...[pause]"

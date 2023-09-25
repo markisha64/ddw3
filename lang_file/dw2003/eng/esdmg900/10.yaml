@@ -1,8 +1,8 @@
 strings:
   - ''
   - |-
-    [\x0207]Tamer Haruka[\x0207]Well then.
+    \x02\x07Tamer Haruka\x02\x07Well then.
     Be brave on
-    your journey![pause][\x0203]And be grateful
+    your journey![pause]\x02\x03And be grateful
     for my
     generosity![pause]

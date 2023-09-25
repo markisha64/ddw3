@@ -38,7 +38,7 @@ strings:
   - Kann Digit. nicht änd
   - Kann Tech. nicht lad.
   - Technik auswählen.
-  - '[\x020501] digitieren'
+  - '\x02\x05\x01 digitieren'
   - /4
   - L1
   - R1

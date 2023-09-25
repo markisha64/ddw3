@@ -1,107 +1,107 @@
 strings:
   - ''
-  - "[\\x0207]Divermon[\\x0207]Dann gebe ich dir\neine Aktentasche.[pause][\\x0203]Du ka. 3 Ordner\nhinein tun, die \ndu gemacht hast.[pause]"
+  - "\\x02\\x07Divermon\\x02\\x07Dann gebe ich dir\neine Aktentasche.[pause]\\x02\\x03Du ka. 3 Ordner\nhinein tun, die \ndu gemacht hast.[pause]"
   - |-
-    [\x0207][\x020902]3Ordner?
+    \x02\x07\x02\x09\x023Ordner?
     Was ist ein
     Ordner??[pause]
   - |-
-    [\x0207]Divermon[\x0207]Ein Ordner ist ein
+    \x02\x07Divermon\x02\x07Ein Ordner ist ein
     Satz aus 40 Karten,
-    die du wählst.[pause][\x0203]Bis zu 4 identische
+    die du wählst.[pause]\x02\x03Bis zu 4 identische
     Karten können in
     einem Satz sein.[pause]
   - |-
-    [\x0207][\x020902]3Kartensatz?
+    \x02\x07\x02\x09\x023Kartensatz?
     Was macht man
     damit??[pause]
-  - "[\\x0207]Divermon[\\x0207]!!\nDu bis unmöglich![pause][\\x0203]Kartenkampf!\nDu bekämpfst andere\nSpieler.[pause][\\x0203]Du ziehst Karten, \nsetzt Digimon ins \nFeld u. kämpfst![pause][\\x0203]Schau! Da\nist gerade ein\nKampf im Gange.[pause]"
-  - "[\\x0207]Tamer Nacky[\\x0207]Ich zog Calumon, \nu. bin zuerst dran.[pause][\\x0203]Zugphase! Also zieh\nich 6 Karten von\nmeinem Stapel...[pause][\\x0203]Toll! Ich habe \ngute Karten![pause]"
+  - "\\x02\\x07Divermon\\x02\\x07!!\nDu bis unmöglich![pause]\\x02\\x03Kartenkampf!\nDu bekämpfst andere\nSpieler.[pause]\\x02\\x03Du ziehst Karten, \nsetzt Digimon ins \nFeld u. kämpfst![pause]\\x02\\x03Schau! Da\nist gerade ein\nKampf im Gange.[pause]"
+  - "\\x02\\x07Tamer Nacky\\x02\\x07Ich zog Calumon, \nu. bin zuerst dran.[pause]\\x02\\x03Zugphase! Also zieh\nich 6 Karten von\nmeinem Stapel...[pause]\\x02\\x03Toll! Ich habe \ngute Karten![pause]"
   - |-
-    [\x0207]Tamer Nacky[\x0207]Jetzt Ladephase!
+    \x02\x07Tamer Nacky\x02\x07Jetzt Ladephase!
     Ich lege eine Pro-
-    grammkarte auf...[pause][\x0203]...Oh?
+    grammkarte auf...[pause]\x02\x03...Oh?
     Ich passe.[pause]
   - |-
-    [\x0207]Tamer Steve[\x0207]Hmm...
+    \x02\x07Tamer Steve\x02\x07Hmm...
     Ich passe auch.[pause]
   - |-
-    [\x0207]Tamer Nacky[\x0207]Wir haben beide ge-
+    \x02\x07Tamer Nacky\x02\x07Wir haben beide ge-
     passt, die Ladeph.
-    ist also zu Ende.[pause][\x0203]Nun folgt die Be-
+    ist also zu Ende.[pause]\x02\x03Nun folgt die Be-
     schwörungsphase.
     Wir zeigen die Karten![pause]
   - |-
-    [\x0207]Tamer Steve[\x0207]OK, alle
+    \x02\x07Tamer Steve\x02\x07OK, alle
     gleichzeitig![pause]
   - |-
-    [\x0207]Tamer Nacky[\x0207]Ich habe 2 Hawk-
+    \x02\x07Tamer Nacky\x02\x07Ich habe 2 Hawk-
     mon, 2 Agumon u.
     2 Meramon![pause]
   - |-
-    [\x0207]Tamer Steve[\x0207]Ich habe ein
+    \x02\x07Tamer Steve\x02\x07Ich habe ein
     Candlemon![pause]
   - |-
-    [\x0207]Tamer Nacky[\x0207]Was?!
+    \x02\x07Tamer Nacky\x02\x07Was?!
     Nimmst du mich
     auf den Arm?![pause]
   - |-
-    [\x0207]Tamer Steve[\x0207]Nein...Ich
-    hab einen Plan.[pause][\x0203]Der wahre Tamer
+    \x02\x07Tamer Steve\x02\x07Nein...Ich
+    hab einen Plan.[pause]\x02\x03Der wahre Tamer
     kämpft mit dem
     ganzen Stapel.[pause]
   - |-
-    [\x0207]Tamer Gloria[\x0207]Ich setze die
+    \x02\x07Tamer Gloria\x02\x07Ich setze die
     Feuerkanone
-    gg. Renamon[pause][\x0203]...mit Eiskäfer
+    gg. Renamon[pause]\x02\x03...mit Eiskäfer
     auβer Gefecht.
     Was jetzt?[pause]
   - |-
-    [\x0207]Tamer Wong[\x0207]Hmm, du hast
-    Eiskäfer...[pause][\x0203]Kann nichts
+    \x02\x07Tamer Wong\x02\x07Hmm, du hast
+    Eiskäfer...[pause]\x02\x03Kann nichts
     machen...
     Ich passe.[pause]
   - |-
-    [\x0207]Tamer Gloria[\x0207]Es ist der blaue
+    \x02\x07Tamer Gloria\x02\x07Es ist der blaue
     Ordner, also hab
-    ich 4 Eiskäfer.[pause][\x0203]OK, ich passe auch.
+    ich 4 Eiskäfer.[pause]\x02\x03OK, ich passe auch.
     Die Sammel-
     phase ist zu Ende.[pause]
   - |-
-    [\x0207]Tamer Wong[\x0207]Hmm...
+    \x02\x07Tamer Wong\x02\x07Hmm...
     Also jetzt die
-    Kampfphase...[pause][\x0203]Zählen wir AP u.
+    Kampfphase...[pause]\x02\x03Zählen wir AP u.
     HP für die Digi-
-    mon zusammen.[pause][\x0203]Ich habe 1 Growlmon,
+    mon zusammen.[pause]\x02\x03Ich habe 1 Growlmon,
     18 AP, 20 HP...[pause]
-  - "[\\x0207]Tamer Gloria[\\x0207]Ich hab 3 Renamon mit\n4 AP, 4 HP. Macht \n12 AP u. 12 HP.[pause][\\x0203]Es sind 3 Karten, bei\n12 AP u. 12 HP wird\nTaomon beschworen.[pause]"
+  - "\\x02\\x07Tamer Gloria\\x02\\x07Ich hab 3 Renamon mit\n4 AP, 4 HP. Macht \n12 AP u. 12 HP.[pause]\\x02\\x03Es sind 3 Karten, bei\n12 AP u. 12 HP wird\nTaomon beschworen.[pause]"
   - |-
-    [\x0207]Tamer Wong[\x0207]........
-    Ja, stimmt.[pause][\x0203]Du hast also 24
+    \x02\x07Tamer Wong\x02\x07........
+    Ja, stimmt.[pause]\x02\x03Du hast also 24
     AP u. 24 HP...
     Du hast gewonnen.[pause]
   - |-
-    [\x0207]Tamer Gloria[\x0207]Ja, gewonnen![pause][\x0203]Erst wenn ich 2 von
+    \x02\x07Tamer Gloria\x02\x07Ja, gewonnen![pause]\x02\x03Erst wenn ich 2 von
     3 Kämpfen gewonnen
     habe, ist es vorbei![pause]
   - |-
-    [\x0207]Divermon[\x0207]Verstehst du?
-    Ist echt spannend...[pause][\x0203]Du schaffst es nicht
-    so schnell, aber...[pause][\x0203]Hier eine Aktentasche,
+    \x02\x07Divermon\x02\x07Verstehst du?
+    Ist echt spannend...[pause]\x02\x03Du schaffst es nicht
+    so schnell, aber...[pause]\x02\x03Hier eine Aktentasche,
     in die 3 Ordner
-    passen.[pause][\x0203]Ich geb dir meinen
+    passen.[pause]\x02\x03Ich geb dir meinen
     Praxis-Ordner.[pause]
   - |-
-    [\x0207][\x020902]3Wow!
+    \x02\x07\x02\x09\x023Wow!
     Danke!
-    Ich tu mein Bestes![pause][\x0203]Aber ich hab keine
+    Ich tu mein Bestes![pause]\x02\x03Aber ich hab keine
     Ahnung, worüber die
     reden...[pause]
-  - "[\\x0207]Divermon[\\x0207]Frag Ken oder Luke.\nSie erklären's dir.[pause][\\x0203]Wenn dein Partner\nbesser wird, kannst\ndu mit allen kämpfen.[pause][\\x0203]Ein guter Spieler ist\nein guter Tamer.[pause][\\x0203]Tamer mit \nstarken Partnern\nkämpfen sehr viel.[pause]"
+  - "\\x02\\x07Divermon\\x02\\x07Frag Ken oder Luke.\nSie erklären's dir.[pause]\\x02\\x03Wenn dein Partner\nbesser wird, kannst\ndu mit allen kämpfen.[pause]\\x02\\x03Ein guter Spieler ist\nein guter Tamer.[pause]\\x02\\x03Tamer mit \nstarken Partnern\nkämpfen sehr viel.[pause]"
   - |-
-    [\x0207][\x020902]3OK! Danke
+    \x02\x07\x02\x09\x023OK! Danke
     für alles,
     Divermon![pause]
   - |-
-    [\x0207]Divermon[\x0207]Viel Glück.
+    \x02\x07Divermon\x02\x07Viel Glück.
     Bis dann...[pause]

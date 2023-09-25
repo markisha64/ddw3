@@ -1,16 +1,16 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Hey,
+    \x02\x07\x02\x09\x023Hey,
     they're...?![pause]
-  - "[\\x0207]Byakko Citizen?[\\x0207]Huh?! I think \nsomething \njust moved...[pause]"
-  - "[\\x0207]Byakko Citizen?[\\x0207]Hey, can you\nsee anything \nfrom there?[pause]"
+  - "\\x02\\x07Byakko Citizen?\\x02\\x07Huh?! I think \nsomething \njust moved...[pause]"
+  - "\\x02\\x07Byakko Citizen?\\x02\\x07Hey, can you\nsee anything \nfrom there?[pause]"
   - |-
-    [\x0207]Byakko Citizen?[\x0207]No problems
+    \x02\x07Byakko Citizen?\x02\x07No problems
     in the west![pause]
   - |-
-    [\x0207]Byakko Citizen?[\x0207]Nothing in the
+    \x02\x07Byakko Citizen?\x02\x07Nothing in the
     south![pause]
-  - "[\\x0207]Byakko Citizen?[\\x0207]Nothing wrong \nhere either![pause]"
-  - "[\\x0207]Byakko Citizen?[\\x0207]Then I was \njust imagining it.[pause]"
-  - "[\\x0207][\\x020902]3...they're on \nthe watch...[pause][\\x0203]I won't be able\nto enter Byakko \nCity for a while...[pause]"
+  - "\\x02\\x07Byakko Citizen?\\x02\\x07Nothing wrong \nhere either![pause]"
+  - "\\x02\\x07Byakko Citizen?\\x02\\x07Then I was \njust imagining it.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023...they're on \nthe watch...[pause]\\x02\\x03I won't be able\nto enter Byakko \nCity for a while...[pause]"

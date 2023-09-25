@@ -1,37 +1,37 @@
 strings:
   - ''
   - |-
-    [\x0207]Teddy[\x0207]Hi [\x020801][\x020501]!
+    \x02\x07Teddy\x02\x07Hi \x02\x08\x01\x02\x05\x01!
     Das ist super!
     Echt super![pause]
   - |-
-    [\x0207][\x020902]3Was ist los?
+    \x02\x07\x02\x09\x023Was ist los?
     Warum so
     in Eile?[pause]
   - |-
-    [\x0207]Teddy[\x0207]Lucky Mouse!
+    \x02\x07Teddy\x02\x07Lucky Mouse!
     Lucky Mouse ist
     aufgetaucht![pause]
   - |-
-    [\x0207][\x020902]3Was?
+    \x02\x07\x02\x09\x023Was?
     Lucky Mouse?[pause]
   - |-
-    [\x0207]Teddy[\x0207]Weiβt du das nicht?
+    \x02\x07Teddy\x02\x07Weiβt du das nicht?
     Er ist ein genialer
-    Hacker![pause][\x0203]Er knackt jedes
+    Hacker![pause]\x02\x03Er knackt jedes
     Programm![pause]
-  - '[\x0207][\x020902]3Ach so.[pause]'
+  - '\x02\x07\x02\x09\x023Ach so.[pause]'
   - |-
-    [\x0207]Teddy[\x0207]Ich bin ein echter Fan
+    \x02\x07Teddy\x02\x07Ich bin ein echter Fan
     von ihm und will ihn
     unbedingt treffen![pause]
-  - "...Eine Durchsage an alle, die \nDigimon-Online spielen.[pause][\\x0203]In Kürze werden notwendige\nWartungsarbeiten durchgeführt.[pause][\\x0203]Währenddessen könnt ihr nicht in \ndie echte Welt zurück, müsst aber\nauch nichts bezahlen.[pause][\\x0203]...Ich wiederhole.\nAlle können umsonst spielen![pause]"
-  - "[\\x0207]Teddy[\\x0207]Hey, hast du\ndas gehört?[pause][\\x0203]Bestimmt steckt\nLucky Mouse \ndahinter![pause][\\x0203]Mann, ich halts nicht\naus. Ich muss Lucky\nMouse finden.[pause]"
+  - "...Eine Durchsage an alle, die \nDigimon-Online spielen.[pause]\\x02\\x03In Kürze werden notwendige\nWartungsarbeiten durchgeführt.[pause]\\x02\\x03Währenddessen könnt ihr nicht in \ndie echte Welt zurück, müsst aber\nauch nichts bezahlen.[pause]\\x02\\x03...Ich wiederhole.\nAlle können umsonst spielen![pause]"
+  - "\\x02\\x07Teddy\\x02\\x07Hey, hast du\ndas gehört?[pause]\\x02\\x03Bestimmt steckt\nLucky Mouse \ndahinter![pause]\\x02\\x03Mann, ich halts nicht\naus. Ich muss Lucky\nMouse finden.[pause]"
   - |-
-    [\x0207][\x020902]3Heh, hey...
+    \x02\x07\x02\x09\x023Heh, hey...
     Teddy![pause]
   - |-
-    [\x0207][\x020902]3Weg ist er.
-    ..............[pause][\x0203]Immer dasselbe,
+    \x02\x07\x02\x09\x023Weg ist er.
+    ..............[pause]\x02\x03Immer dasselbe,
     wenn er aufgeregt
     ist.[pause]

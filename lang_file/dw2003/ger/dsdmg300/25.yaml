@@ -3,10 +3,10 @@ strings:
   - |-
     Eigentlich will ich
     Gunslinger besitzen! Juggernaut
-    war nur ein Köder![pause][\x0203]Die A.o.A.-Operation Sigma
+    war nur ein Köder![pause]\x02\x03Die A.o.A.-Operation Sigma
     geht in die letzte Phase über...[pause]
   - |-
-    [\x0207][\x020902]3...letzte Phase?
+    \x02\x07\x02\x09\x023...letzte Phase?
     Was werden sie
     tun?[pause]
   - |-
@@ -14,17 +14,17 @@ strings:
     Cannon aus auf Gunslinger und verwandeln
     alles Leben auf der Erde in Oinkmon![pause]
   - |-
-    [\x0207][\x020902]3Wawas?!
+    \x02\x07\x02\x09\x023Wawas?!
     Das lasse ich
     nicht zu![pause]
   - |-
     Dann komme nach Gunslinger
-    und besiege mich![pause][\x0203]Du brauchst keine Angst zu haben
+    und besiege mich![pause]\x02\x03Du brauchst keine Angst zu haben
     Gehe durch's Warp-Tor, und
-    du bist bei Gun Slinger![pause][\x0203]Da haben wir unseren Finalkampf.[pause][\x0203]Das Schicksal der ganzen Mensch-
+    du bist bei Gun Slinger![pause]\x02\x03Da haben wir unseren Finalkampf.[pause]\x02\x03Das Schicksal der ganzen Mensch-
     heit wird entschieden...[pause]
   - |-
-    [\x0207][\x020902]3In Ordnung,
+    \x02\x07\x02\x09\x023In Ordnung,
     Lord Megadeath,
-    ich komme![pause][\x0203]Ich werde dich
+    ich komme![pause]\x02\x03Ich werde dich
     besiegen![pause]

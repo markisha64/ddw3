@@ -1,79 +1,79 @@
 strings:
   - ''
   - |-
-    [\x0207]Junior:[\x0207]Das ist also das
+    \x02\x07Junior:\x02\x07Das ist also das
     MAGAMI-Online-
     Center? Cool![pause]
   - |-
-    [\x0207]Teddy[\x0207]Ja, dies ist das
-    Matrix-System![pause][\x0203]Es digitalisiert unsere
+    \x02\x07Teddy\x02\x07Ja, dies ist das
+    Matrix-System![pause]\x02\x03Es digitalisiert unsere
     Ideen u. Gedanken u.
-    sendet sie ans Netz.[pause][\x0203]Wie geht das wohl?
+    sendet sie ans Netz.[pause]\x02\x03Wie geht das wohl?
     Ich will wissen, was
     dahinter steckt.[pause]
   - |-
-    [\x0207]Junior:[\x0207]Hey, was macht ihr
-    beiden denn da?[pause][\x0203]Los, wir richten ein
+    \x02\x07Junior:\x02\x07Hey, was macht ihr
+    beiden denn da?[pause]\x02\x03Los, wir richten ein
     Konto ein u. betre-
     ten die digitale Welt![pause]
-  - "[\\x0207]Mitarbeiter:[\\x0207]Willkommen im\nMAGAMI-Online-\nCenter.[pause][\\x0203]Dieser Service ist\nfür Reisende in die\ndigitale Welt.[pause][\\x0203]Spielt ihr zum \nersten Mal\nDigimon-Online?[pause]"
+  - "\\x02\\x07Mitarbeiter:\\x02\\x07Willkommen im\nMAGAMI-Online-\nCenter.[pause]\\x02\\x03Dieser Service ist\nfür Reisende in die\ndigitale Welt.[pause]\\x02\\x03Spielt ihr zum \nersten Mal\nDigimon-Online?[pause]"
   - |-
-    [\x0207]Mitarbeiter:[\x0207]Bevor wir euer
-    Konto einrichten...[pause][\x0203]...müsst ihr euer
+    \x02\x07Mitarbeiter:\x02\x07Bevor wir euer
+    Konto einrichten...[pause]\x02\x03...müsst ihr euer
     Partner-Digimon
     auswählen.[pause]
   - |-
-    [\x0207]Mitarbeiter:[\x0207]Wählt ein Starter-
-    Pack: A, B oder C.[pause][\x0203]Jedes Pack hat drei
+    \x02\x07Mitarbeiter:\x02\x07Wählt ein Starter-
+    Pack: A, B oder C.[pause]\x02\x03Jedes Pack hat drei
     Arten von Digimon.[pause]
   - |-
-    [\x0207]Mitarbeiter:[\x0207]A ist ausge-
+    \x02\x07Mitarbeiter:\x02\x07A ist ausge-
     glich.: Kotemon,
-    Renamon, Patamon[pause][\x0203]B ist ein Kraft-
+    Renamon, Patamon[pause]\x02\x03B ist ein Kraft-
     Pack: Monmon,
-    Agumon, Renamon[pause][\x0203]C ist ein Maniac-
+    Agumon, Renamon[pause]\x02\x03C ist ein Maniac-
     Pack: Kumamon,
-    Guilmon, Patamon[pause][\x0203]Welches der drei
+    Guilmon, Patamon[pause]\x02\x03Welches der drei
     hättet ihr gern?[pause]
   - |-
-    [\x0207]Ivy:[\x0207]Was ist, Junior?
+    \x02\x07Ivy:\x02\x07Was ist, Junior?
     Worüber denkst
-    du nach?[pause][\x0203]Nimm ein Pack mit
+    du nach?[pause]\x02\x03Nimm ein Pack mit
     einem Digimon,
     den du magst.[pause]
   - |-
-    [\x0207]Junior:[\x0207]Ich weiβ nicht! Alle
+    \x02\x07Junior:\x02\x07Ich weiβ nicht! Alle
     Packs haben ein Di-
     gimon, das ich mag![pause]
   - |-
-    [\x0207]Ivy:[\x0207]Welches Digimon magst
-    du denn nicht?[pause][\x0203]Nimm einfach ein Pack
+    \x02\x07Ivy:\x02\x07Welches Digimon magst
+    du denn nicht?[pause]\x02\x03Nimm einfach ein Pack
     ohne ein Digimon, das
     du nicht magst![pause]
   - |-
-    [\x0207]Junior:[\x0207]Es gibt keine
+    \x02\x07Junior:\x02\x07Es gibt keine
     Digimon, die ich
-    nicht mag![pause][\x0203]Ich mag eben alle![pause]
+    nicht mag![pause]\x02\x03Ich mag eben alle![pause]
   - |-
-    [\x0207]Ivy:[\x0207]Also, wenn du alle
+    \x02\x07Ivy:\x02\x07Also, wenn du alle
     Digimon magst, gibt
-    es doch kein Problem![pause][\x0203]Los, entscheide dich.
+    es doch kein Problem![pause]\x02\x03Los, entscheide dich.
     Dann können wir end-
     lich z. digitalen Welt![pause]
   - |-
-    [\x0207]Ivy:[\x0207]Junior! Hast du dich
+    \x02\x07Ivy:\x02\x07Junior! Hast du dich
     immer noch nicht
-    entschieden?[pause][\x0203]Das solltest du aber,
+    entschieden?[pause]\x02\x03Das solltest du aber,
     sonst gehe ich näm-
     lich schon mal vor![pause]
   - |-
-    [\x0207]Mitarbeiter:[\x0207]Habt ihr euch
+    \x02\x07Mitarbeiter:\x02\x07Habt ihr euch
     entschieden?[pause]
   - |-
-    [\x0207]Ivy:[\x0207]Junior! Ich lasse
+    \x02\x07Ivy:\x02\x07Junior! Ich lasse
     dich echt hier
     stehen.[pause]
   - |-
-    [\x0207]Mitarbeiter:[\x0207]OK, dann registriere
+    \x02\x07Mitarbeiter:\x02\x07OK, dann registriere
     ich jetzt euch und
     eure Partner-Digimon.[pause]

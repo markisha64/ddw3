@@ -1,21 +1,21 @@
 strings:
   - ''
   - |-
-    [\x0207]Chef de Genbu[\x0207]Un challenger
+    \x02\x07Chef de Genbu\x02\x07Un challenger
     à un moment
     pareil ?!![pause]
   - |-
-    [\x0207][\x020902]3Chef de Genbu,
+    \x02\x07\x02\x09\x023Chef de Genbu,
     j'ai une faveur
-    à te demander :[pause][\x0203]ton badge, pour
+    à te demander :[pause]\x02\x03ton badge, pour
     retourner dans le
     Monde Réel...[pause]
   - |-
-    [\x0207]Chef de Genbu[\x0207]Désolé, je ne peux
+    \x02\x07Chef de Genbu\x02\x07Désolé, je ne peux
     donner mon badge
-    gratuitement.[pause][\x0203]Ce sont les règles.[pause][\x0203]Pour l'obtenir, tu
+    gratuitement.[pause]\x02\x03Ce sont les règles.[pause]\x02\x03Pour l'obtenir, tu
     dois me battre ![pause]
   - |-
-    [\x0207][\x020902]3Très bien. Je
+    \x02\x07\x02\x09\x023Très bien. Je
     me doutais de
-    ta réponse ![pause][\x0203]Finissons-en ![pause]
+    ta réponse ![pause]\x02\x03Finissons-en ![pause]

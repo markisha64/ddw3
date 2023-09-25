@@ -1,15 +1,15 @@
 strings:
   - ''
-  - "[\\x0207]BK Seraphimon[\\x0207]I know of your \nstrength...\nand your courage.[pause][\\x0203]I was testing your \ncourage...[pause]"
+  - "\\x02\\x07BK Seraphimon\\x02\\x07I know of your \nstrength...\nand your courage.[pause]\\x02\\x03I was testing your \ncourage...[pause]"
   - |-
-    [\x0207][\x020902]3Yeah! I won't lose
+    \x02\x07\x02\x09\x023Yeah! I won't lose
     to anyone in that
     category![pause]
   - |-
-    [\x0207]BK Seraphimon[\x0207]That's the spirit![pause][\x0203]You have passed.
+    \x02\x07BK Seraphimon\x02\x07That's the spirit![pause]\x02\x03You have passed.
     I'll give you this
     as a proof![pause]
   - |-
-    [\x0207][\x020902]3Yeah! I got the
+    \x02\x07\x02\x09\x023Yeah! I got the
     Sniper Suit![pause]
-  - "[\\x0207]BK Seraphimon[\\x0207]The pass will \nbe revealed by\ncourage.[pause][\\x0203]Do not give up \nto any enemy\nand endure![pause]"
+  - "\\x02\\x07BK Seraphimon\\x02\\x07The pass will \nbe revealed by\ncourage.[pause]\\x02\\x03Do not give up \nto any enemy\nand endure![pause]"

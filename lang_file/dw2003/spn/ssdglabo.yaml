@@ -38,7 +38,7 @@ strings:
   - No pue. cb. digi.
   - No pue. cg. técn.
   - Eleg. una técnica.
-  - '[\x020501] digievolu.'
+  - '\x02\x05\x01 digievolu.'
   - /4
   - L1
   - R1

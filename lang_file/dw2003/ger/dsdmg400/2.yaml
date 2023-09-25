@@ -1,8 +1,8 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Seiryu Leader,
+    \x02\x07\x02\x09\x023Seiryu Leader,
     ich habe Master-
-    Tyranno besiegt![pause][\x0203]Wirst du mit
+    Tyranno besiegt![pause]\x02\x03Wirst du mit
     mir kämpfen![pause]
-  - "[\\x0207]Seiryu Leader[\\x0207]Aha. Du hast \ndie alte Kralle.[pause][\\x0203]Also los. Fang\nan![pause]"
+  - "\\x02\\x07Seiryu Leader\\x02\\x07Aha. Du hast \ndie alte Kralle.[pause]\\x02\\x03Also los. Fang\nan![pause]"

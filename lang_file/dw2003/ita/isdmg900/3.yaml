@@ -1,20 +1,20 @@
 strings:
   - ''
   - |-
-    [\x0207]Reception arena[\x0207][\x020801][\x020501], hai
+    \x02\x07Reception arena\x02\x07\x02\x08\x01\x02\x05\x01, hai
     battuto i quattro
-    governatori![pause][\x0203]Raggiungi pure
+    governatori![pause]\x02\x03Raggiungi pure
     l'Arena![pause]
   - |-
-    [\x0207][\x020902]3Ma con chi mi devo
+    \x02\x07\x02\x09\x023Ma con chi mi devo
     battere, ora?[pause]
   - |-
-    [\x0207]Reception arena[\x0207]Heh heh heh!
+    \x02\x07Reception arena\x02\x07Heh heh heh!
     Devi solo aspettare
-    e lo vedrai![pause][\x0203]Avanti. Il tuo
+    e lo vedrai![pause]\x02\x03Avanti. Il tuo
     avversario ti
     sta aspettando![pause]
   - |-
-    [\x0207][\x020902]3Va bene! Il
+    \x02\x07\x02\x09\x023Va bene! Il
     miglior
     domatore![pause]

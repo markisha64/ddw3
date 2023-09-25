@@ -1,3 +1,3 @@
 strings:
   - ''
-  - "[\\x0207]Digivolve Navi[\\x0207]I understand.[pause][\\x0203]If you want the \ninformation, please \ntalk to me.[pause]"
+  - "\\x02\\x07Digivolve Navi\\x02\\x07I understand.[pause]\\x02\\x03If you want the \ninformation, please \ntalk to me.[pause]"

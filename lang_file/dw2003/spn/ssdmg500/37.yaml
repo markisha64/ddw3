@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207]Zanbamon[\x0207]¡Co...Cómo!
+    \x02\x07Zanbamon\x02\x07¡Co...Cómo!
     He perdido...[pause]
-  - "[\\x0207][\\x020902]3¿Cómo ha sido?\nSoy fuerte, \n¿verdad?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¿Cómo ha sido?\nSoy fuerte, \n¿verdad?[pause]"
   - |-
-    [\x0207]Zanbamon[\x0207]De acuerdo...
+    \x02\x07Zanbamon\x02\x07De acuerdo...
     ¡Te daré esto para
     que me perdones![pause]
   - |-
-    [\x0207][\x020902]3¿Qué? ¿Katana
+    \x02\x07\x02\x09\x023¿Qué? ¿Katana
     Oxidada?
     Bueno...[pause]
   - |-
-    [\x0207]Zanbamon[\x0207]Yo me quedaré
-    en paz aquí...[pause][\x0203]¡Déjame solo![pause]
+    \x02\x07Zanbamon\x02\x07Yo me quedaré
+    en paz aquí...[pause]\x02\x03¡Déjame solo![pause]

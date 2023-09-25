@@ -1,39 +1,39 @@
 strings:
   - ''
   - |-
-    [\x0207]Chef de Byakko[\x0207]Oh, je vois.[pause][\x0203]Désolé, je t'ai
+    \x02\x07Chef de Byakko\x02\x07Oh, je vois.[pause]\x02\x03Désolé, je t'ai
     pris pour un
     membre de l'AoA.[pause]
   - |-
-    [\x0207][\x020902]3Il n'y a pas de mal.[pause][\x0203]Mais, cela signifie
+    \x02\x07\x02\x09\x023Il n'y a pas de mal.[pause]\x02\x03Mais, cela signifie
     que les gens de
     Byakko City... ?[pause]
   - |-
-    [\x0207]Chef de Byakko[\x0207]Oui. Ils sont de
-    l'A.o.A. ![pause][\x0203]Ils sont venus et
-    ils ont pris la ville ![pause][\x0203]Ils nous ont enfermés
-    dans le sous-sol... [pause][\x0203]Mais Numemon est venu
+    \x02\x07Chef de Byakko\x02\x07Oui. Ils sont de
+    l'A.o.A. ![pause]\x02\x03Ils sont venus et
+    ils ont pris la ville ![pause]\x02\x03Ils nous ont enfermés
+    dans le sous-sol... [pause]\x02\x03Mais Numemon est venu
     et nous a libérés.[pause]
-  - "[\\x0207][\\x020902]3Je vois... \nMais l'A.o.A. et\nLucky Mouse... [pause][\\x0203]Et qu'est-il arrivé\nà Digimon Online ?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Je vois... \nMais l'A.o.A. et\nLucky Mouse... [pause]\\x02\\x03Et qu'est-il arrivé\nà Digimon Online ?[pause]"
   - |-
-    [\x0207]Chef de Byakko[\x0207]Je n'en sais pas plus.[pause][\x0203]Si tu veux en savoir
+    \x02\x07Chef de Byakko\x02\x07Je n'en sais pas plus.[pause]\x02\x03Si tu veux en savoir
     plus, cherche
-    Numemon.[pause][\x0203]Tu le trouveras
+    Numemon.[pause]\x02\x03Tu le trouveras
     à l'usine Dum
     Dum.[pause]
-  - '[\x0207][\x020902]3OK ![pause]'
+  - '\x02\x07\x02\x09\x023OK ![pause]'
   - |-
-    [\x0207]Chef de Byakko[\x0207]Une seconde.
+    \x02\x07Chef de Byakko\x02\x07Une seconde.
     J'ai oublié de te
     donner ça ![pause]
   - |-
-    [\x0207][\x020902]3J'ai le Badge
-    de Byakko ![pause][\x0203]Merci, chef
+    \x02\x07\x02\x09\x023J'ai le Badge
+    de Byakko ![pause]\x02\x03Merci, chef
     de Byakko ![pause]
   - |-
-    [\x0207]Chef de Byakko[\x0207]Après tout, tu
-    m'as battu ![pause][\x0203]Et cela pourra
+    \x02\x07Chef de Byakko\x02\x07Après tout, tu
+    m'as battu ![pause]\x02\x03Et cela pourra
     te servir un jour.[pause]
   - |-
-    [\x0207]Chef de Byakko[\x0207]Tu croiseras encore
+    \x02\x07Chef de Byakko\x02\x07Tu croiseras encore
     l'AoA. Prudence.[pause]

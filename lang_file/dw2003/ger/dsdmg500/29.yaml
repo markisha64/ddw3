@@ -1,32 +1,32 @@
 strings:
   - ''
-  - "[\\x0207]Suzaku Leader[\\x0207]Oh nein. Hier\nkommst du \nnicht durch.[pause][\\x0203]Siehst du\ndas?[pause]"
-  - "[\\x0207][\\x020902]3Wow, was \nist das?![pause]"
-  - "[\\x0207]Suzaku Leader[\\x0207]Ein Sicherheitsloch.\nDas ist wie ein \nLoch im Netz![pause][\\x0203]Das muss der \nGrund für das Erd-\nbeben sein.[pause]"
+  - "\\x02\\x07Suzaku Leader\\x02\\x07Oh nein. Hier\nkommst du \nnicht durch.[pause]\\x02\\x03Siehst du\ndas?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Wow, was \nist das?![pause]"
+  - "\\x02\\x07Suzaku Leader\\x02\\x07Ein Sicherheitsloch.\nDas ist wie ein \nLoch im Netz![pause]\\x02\\x03Das muss der \nGrund für das Erd-\nbeben sein.[pause]"
   - |-
-    [\x0207][\x020902]3Diese Stimme kommt
-    aus der Gondel...[pause][\x0203]Verstehe! Es ist
+    \x02\x07\x02\x09\x023Diese Stimme kommt
+    aus der Gondel...[pause]\x02\x03Verstehe! Es ist
     Bulbmon![pause]
-  - "[\\x0207]Suzaku Leader[\\x0207]Ich sagte doch, du \nkannst nicht durch![pause][\\x0203]Du weiβt nicht, was\npassiert. Das ist zu\ngefährlich![pause][\\x0203]Als Leader sorge ich \ndafür, dass sich nie-\nmand verletzt.[pause]"
+  - "\\x02\\x07Suzaku Leader\\x02\\x07Ich sagte doch, du \nkannst nicht durch![pause]\\x02\\x03Du weiβt nicht, was\npassiert. Das ist zu\ngefährlich![pause]\\x02\\x03Als Leader sorge ich \ndafür, dass sich nie-\nmand verletzt.[pause]"
   - |-
-    [\x0207][\x020902]3Komm schon. Ich muss
+    \x02\x07\x02\x09\x023Komm schon. Ich muss
     aber unbedingt auf
-    die andere Seite![pause][\x0203]Du hast von den
-    A.o.A. gehört?[pause][\x0203]Jemand muss jetzt
+    die andere Seite![pause]\x02\x03Du hast von den
+    A.o.A. gehört?[pause]\x02\x03Jemand muss jetzt
     gehen oder Schlimmeres
     passiert![pause]
   - |-
-    [\x0207]Suzaku Lead.[\x0207]Wenn das
+    \x02\x07Suzaku Lead.\x02\x07Wenn das
     so ist...[pause]
   - |-
-    [\x0207]Suzaku Leader[\x0207]Also gut...[pause][\x0203]Wenn es zu ge-
+    \x02\x07Suzaku Leader\x02\x07Also gut...[pause]\x02\x03Wenn es zu ge-
     fährlich ist, komm
     aber zurück, OK?[pause]
   - |-
-    [\x0207][\x020902]3Vier Leader-
-    Abzeichen?[pause][\x0203]Verstanden!
+    \x02\x07\x02\x09\x023Vier Leader-
+    Abzeichen?[pause]\x02\x03Verstanden!
     Danke,
     Suzaku Leader![pause]
-  - "[\\x0207][\\x020902]3Wenn ich durch dieses\nLoch gehe, find ich \nviel. Amate.-Server.[pause]"
-  - "[\\x0207][\\x020902]3Hey Suzaku Leader,\nich hab eine Frage![pause][\\x0203]Weiβt du, wo die \nNotfallkammer im \nNordsektor ist?[pause]"
-  - "[\\x0207]Suzaku Leader[\\x0207]Meinst du die \nNotfall-Matrix-\nKammer?[pause][\\x0203]Sie befindet sich\nim Keller des\nKulon-Bergwerks.[pause][\\x0203]Aber du brauchst\n4 Leader-Abzeichen,\num sie zu benutzen.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Wenn ich durch dieses\nLoch gehe, find ich \nviel. Amate.-Server.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hey Suzaku Leader,\nich hab eine Frage![pause]\\x02\\x03Weiβt du, wo die \nNotfallkammer im \nNordsektor ist?[pause]"
+  - "\\x02\\x07Suzaku Leader\\x02\\x07Meinst du die \nNotfall-Matrix-\nKammer?[pause]\\x02\\x03Sie befindet sich\nim Keller des\nKulon-Bergwerks.[pause]\\x02\\x03Aber du brauchst\n4 Leader-Abzeichen,\num sie zu benutzen.[pause]"

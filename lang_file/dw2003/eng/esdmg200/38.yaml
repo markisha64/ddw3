@@ -1,10 +1,10 @@
 strings:
   - ''
-  - "[\\x0207]Lisa[\\x0207]Knightmon \nwon't resist \nanymore![pause][\\x0203]OK, first release \nthe people of \nthis city![pause]"
-  - "[\\x0207]Leader Chuck[\\x0207]Everyone, \ncome on, \nCharge![pause]"
-  - '[\x0207]Resistance''s Wanda[\x0207]Yeah![pause]'
-  - "[\\x0207]Resistance's Dew[\\x0207]We're not gonna \nlose to the \nA.o.A![pause]"
-  - "[\\x0207]Resistance's Meech[\\x0207]Let's get \nAmaterasu City \nback![pause]"
-  - "[\\x0207]Teddy[\\x0207]Wow!\nWe'll definitely \nwin![pause]"
-  - "[\\x0207][\\x020902]3Yeah ! Lisa and \nthe others are \nhere too![pause]"
-  - "[\\x0207]Teddy[\\x0207]...but what's \nhappening in the \nReal World...?[pause][\\x0203]I hope Destromon\nhasn't started\nattacking yet...[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07Knightmon \nwon't resist \nanymore![pause]\\x02\\x03OK, first release \nthe people of \nthis city![pause]"
+  - "\\x02\\x07Leader Chuck\\x02\\x07Everyone, \ncome on, \nCharge![pause]"
+  - '\x02\x07Resistance''s Wanda\x02\x07Yeah![pause]'
+  - "\\x02\\x07Resistance's Dew\\x02\\x07We're not gonna \nlose to the \nA.o.A![pause]"
+  - "\\x02\\x07Resistance's Meech\\x02\\x07Let's get \nAmaterasu City \nback![pause]"
+  - "\\x02\\x07Teddy\\x02\\x07Wow!\nWe'll definitely \nwin![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Yeah ! Lisa and \nthe others are \nhere too![pause]"
+  - "\\x02\\x07Teddy\\x02\\x07...but what's \nhappening in the \nReal World...?[pause]\\x02\\x03I hope Destromon\nhasn't started\nattacking yet...[pause]"

@@ -1,13 +1,13 @@
 strings:
   - ''
   - |-
-    [\x0207]Accueil Arène[\x0207][\x020801][\x020501], tu as
+    \x02\x07Accueil Arène\x02\x07\x02\x08\x01\x02\x05\x01, tu as
     vaincu les 4
-    chefs ![pause][\x0203]Rends-toi
+    chefs ![pause]\x02\x03Rends-toi
     à l'Arène ![pause]
-  - "[\\x0207][\\x020902]3Euh... Contre qui \nje me bats ?[pause]"
-  - "[\\x0207]Accueil Arène[\\x0207]Hé hé hé !\nAttends de \nvoir ![pause][\\x0203]Allez. Ton\nadversaire\nt'attend ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Euh... Contre qui \nje me bats ?[pause]"
+  - "\\x02\\x07Accueil Arène\\x02\\x07Hé hé hé !\nAttends de \nvoir ![pause]\\x02\\x03Allez. Ton\nadversaire\nt'attend ![pause]"
   - |-
-    [\x0207][\x020902]3Bien ! Le
+    \x02\x07\x02\x09\x023Bien ! Le
     plus fort des
     dresseurs ![pause]

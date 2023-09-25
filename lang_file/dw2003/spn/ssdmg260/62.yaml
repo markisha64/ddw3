@@ -1,23 +1,23 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3¡De acuerdo!
+    \x02\x07\x02\x09\x023¡De acuerdo!
     ¡32000 BIT![pause]
   - |-
-    [\x0207]Sr. Smith[\x0207]Oink
-    32000 BIT[pause][\x0203]Oinoink, oink
+    \x02\x07Sr. Smith\x02\x07Oink
+    32000 BIT[pause]\x02\x03Oinoink, oink
     ¿32000 BIT?[pause]
   - |-
-    [\x0207]Sr. Smith[\x0207]Oin oink oioink
-    oink oioink oink.[pause][\x0203]¡Oioi Oink nk
-    oionko 32000 BIT![pause][\x0203]¡Oinkoinnnk
-    oi oink oi oiii![pause][\x0203]¡Oi oinkoo
+    \x02\x07Sr. Smith\x02\x07Oin oink oioink
+    oink oioink oink.[pause]\x02\x03¡Oioi Oink nk
+    oionko 32000 BIT![pause]\x02\x03¡Oinkoinnnk
+    oi oink oi oiii![pause]\x02\x03¡Oi oinkoo
     oinoiko oin
     oioinnnk oink![pause]
   - |-
-    [\x0207][\x020902]3¡Sí!¡Tengo el
+    \x02\x07\x02\x09\x023¡Sí!¡Tengo el
     Oioi Oink![pause]
   - |-
-    [\x0207][\x020902]3Ya tengo un artículo
+    \x02\x07\x02\x09\x023Ya tengo un artículo
     chulo. Vamos a ver
     qué hace.[pause]

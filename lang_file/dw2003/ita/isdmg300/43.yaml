@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207]Divermon[\x0207]Mi sono lasciato
-    prendere e ho perso![pause][\x0203]Ooh?
+    \x02\x07Divermon\x02\x07Mi sono lasciato
+    prendere e ho perso![pause]\x02\x03Ooh?
     Ho un'idea per
     un'ottima cartella![pause]

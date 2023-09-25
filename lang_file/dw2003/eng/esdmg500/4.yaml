@@ -1,18 +1,18 @@
 strings:
   - ''
   - |-
-    [\x0207]Numemon[\x0207]...are you going
+    \x02\x07Numemon\x02\x07...are you going
     to Byakko City?[pause]
   - |-
-    [\x0207][\x020902]3Yeah, that's
+    \x02\x07\x02\x09\x023Yeah, that's
     the plan.[pause]
-  - '[\x0207]Numemon[\x0207]You better not.[pause]'
+  - '\x02\x07Numemon\x02\x07You better not.[pause]'
   - |-
-    [\x0207][\x020902]3...what?
+    \x02\x07\x02\x09\x023...what?
     Why not?![pause]
   - |-
-    [\x0207]Numemon[\x0207]Just go back
+    \x02\x07Numemon\x02\x07Just go back
     from here!
     OK?[pause]
-  - '[\x0207][\x020902]3Hey wait![pause]'
-  - "[\\x0207][\\x020902]3He's gone...[pause][\\x0203]...but what's up \nwith the Byakko\nCity thing?[pause]"
+  - '\x02\x07\x02\x09\x023Hey wait![pause]'
+  - "\\x02\\x07\\x02\\x09\\x023He's gone...[pause]\\x02\\x03...but what's up \nwith the Byakko\nCity thing?[pause]"

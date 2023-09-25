@@ -1,5 +1,5 @@
 strings:
   - ''
   - |-
-    [\x0207]Etemon[\x0207]Du bist clever![pause][\x0203]Ich erneuere
+    \x02\x07Etemon\x02\x07Du bist clever![pause]\x02\x03Ich erneuere
     meinen Ordner![pause]

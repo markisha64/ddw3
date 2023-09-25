@@ -1,15 +1,15 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Don't worry about it, \nTeddy. That's why \nwe're all fighting![pause][\\x0203]We're going to defeat \nthe A.o.A![pause]"
-  - "[\\x0207]Teddy[\\x0207]Yah, you're right!\nWe're almost there \nso let's go![pause]"
-  - "[\\x0207]Nick[\\x0207]What, you guys \nare still here?[pause]"
-  - '[\x0207][\x020902]3Oh, Nick![pause]'
-  - "[\\x0207]Teddy[\\x0207]Nick, what's \nour situation?[pause]"
-  - "[\\x0207]Nick[\\x0207]Ha ha ha\nIt's good![pause][\\x0203]A.o.A inside the \ncity surrendered \nquickly![pause]"
-  - "[\\x0207][\\x020902]3Then the \ncity?[pause]"
-  - "[\\x0207]Nick[\\x0207]Oh, we got it \nback already![pause][\\x0203]Then only the \nAdministration\nCenter is left![pause]"
-  - "[\\x0207][\\x020902]3...what?![pause][\\x0203]Then we don't \nhave a chance to \nbeat them up![pause]"
-  - "[\\x0207]Nick[\\x0207]Ha ha ha.\nThat's why we \ncame to get you.[pause][\\x0203]We want you to \nhelp in the attack\non the Center![pause]"
-  - "[\\x0207][\\x020902]3All right, \nleave it to me!\nI won't lose![pause]"
-  - "[\\x0207][\\x020902]3Teddy, I'm \ngonna go \nup ahead![pause]"
-  - "[\\x0207]Teddy[\\x0207]Be careful!\nI'll be right \nthere![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Don't worry about it, \nTeddy. That's why \nwe're all fighting![pause]\\x02\\x03We're going to defeat \nthe A.o.A![pause]"
+  - "\\x02\\x07Teddy\\x02\\x07Yah, you're right!\nWe're almost there \nso let's go![pause]"
+  - "\\x02\\x07Nick\\x02\\x07What, you guys \nare still here?[pause]"
+  - '\x02\x07\x02\x09\x023Oh, Nick![pause]'
+  - "\\x02\\x07Teddy\\x02\\x07Nick, what's \nour situation?[pause]"
+  - "\\x02\\x07Nick\\x02\\x07Ha ha ha\nIt's good![pause]\\x02\\x03A.o.A inside the \ncity surrendered \nquickly![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Then the \ncity?[pause]"
+  - "\\x02\\x07Nick\\x02\\x07Oh, we got it \nback already![pause]\\x02\\x03Then only the \nAdministration\nCenter is left![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023...what?![pause]\\x02\\x03Then we don't \nhave a chance to \nbeat them up![pause]"
+  - "\\x02\\x07Nick\\x02\\x07Ha ha ha.\nThat's why we \ncame to get you.[pause]\\x02\\x03We want you to \nhelp in the attack\non the Center![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023All right, \nleave it to me!\nI won't lose![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Teddy, I'm \ngonna go \nup ahead![pause]"
+  - "\\x02\\x07Teddy\\x02\\x07Be careful!\nI'll be right \nthere![pause]"

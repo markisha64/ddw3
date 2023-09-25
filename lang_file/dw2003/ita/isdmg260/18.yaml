@@ -1,14 +1,14 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Va bene!
+    \x02\x07\x02\x09\x023Va bene!
     2700 BIT![pause]
   - |-
-    [\x0207]Mr. Smith[\x0207]Wow!
-    2700 BIT![pause][\x0203]Nessuno offre
+    \x02\x07Mr. Smith\x02\x07Wow!
+    2700 BIT![pause]\x02\x03Nessuno offre
     di più?[pause]
-  - "[\\x0207]Mr. Smith[\\x0207]Sembra proprio\ndi no![pause][\\x0203]L'asta Yin Yang\nper 2700 BIT![pause][\\x0203]Congratulazioni\na te, laggiù![pause][\\x0203]Trasferirò \nl'oggetto al\nsatellite![pause]"
+  - "\\x02\\x07Mr. Smith\\x02\\x07Sembra proprio\ndi no![pause]\\x02\\x03L'asta Yin Yang\nper 2700 BIT![pause]\\x02\\x03Congratulazioni\na te, laggiù![pause]\\x02\\x03Trasferirò \nl'oggetto al\nsatellite![pause]"
   - |-
-    [\x0207][\x020902]3Ho l'asta
+    \x02\x07\x02\x09\x023Ho l'asta
     Yin Yang![pause]
-  - "[\\x0207][\\x020902]3Ora che ho un così \nbell'oggetto, posso \nandarmene.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ora che ho un così \nbell'oggetto, posso \nandarmene.[pause]"

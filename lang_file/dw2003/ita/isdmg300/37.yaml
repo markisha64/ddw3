@@ -1,16 +1,16 @@
 strings:
   - ''
   - |-
-    [\x0207]Veemon[\x0207]Ehi, sei bravo.
-    Sono colpito![pause][\x0203]Ecco, prendi, sono
+    \x02\x07Veemon\x02\x07Ehi, sei bravo.
+    Sono colpito![pause]\x02\x03Ecco, prendi, sono
     tuoi![pause]
   - |-
-    [\x0207][\x020902]3Ehi, grazie,
-    Veemon.[pause][\x0203]Ho gli stivali
+    \x02\x07\x02\x09\x023Ehi, grazie,
+    Veemon.[pause]\x02\x03Ho gli stivali
     dell'albero![pause]
   - |-
-    [\x0207]Veemon[\x0207]Bene, bravo!
+    \x02\x07Veemon\x02\x07Bene, bravo!
     Ora vado a
-    cenare![pause][\x0203]Torna a giocare
+    cenare![pause]\x02\x03Torna a giocare
     qualche
     volta![pause]

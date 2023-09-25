@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Yup... no
+    \x02\x07\x02\x09\x023Yup... no
     one here...[pause]
-  - '[\x0207]Voice[\x0207]Woo-ooo-oo[pause]'
-  - "[\\x0207][\\x020902]3Aah! A \nmonster![pause]"
+  - '\x02\x07Voice\x02\x07Woo-ooo-oo[pause]'
+  - "\\x02\\x07\\x02\\x09\\x023Aah! A \nmonster![pause]"

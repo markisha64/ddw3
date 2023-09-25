@@ -1,35 +1,35 @@
 strings:
   - ''
   - |-
-    [\x0207]Teddy[\x0207]Super!
+    \x02\x07Teddy\x02\x07Super!
     Hat geklappt,
-    [\x020801][\x020501]![pause]
+    \x02\x08\x01\x02\x05\x01![pause]
   - |-
-    [\x0207][\x020902]3Geschafft
+    \x02\x07\x02\x09\x023Geschafft
     Teddy![pause]
   - |-
-    [\x0207]Nick[\x0207]Hey ihr beiden, es
-    ist super gelaufen![pause][\x0203]Ich muss es den
+    \x02\x07Nick\x02\x07Hey ihr beiden, es
+    ist super gelaufen![pause]\x02\x03Ich muss es den
     anderen
     erzählen![pause]
   - |-
-    [\x0207]Teddy[\x0207]Mann, ich bin
-    erledigt...[pause][\x0203]Heute bin ich
+    \x02\x07Teddy\x02\x07Mann, ich bin
+    erledigt...[pause]\x02\x03Heute bin ich
     völlig fertig.[pause]
   - |-
-    [\x0207][\x020902]3...echt?
+    \x02\x07\x02\x09\x023...echt?
     War lustig![pause]
   - |-
-    [\x0207]Teddy[\x0207]Hey, lass uns in den
-    Anmelderaum gehen![pause][\x0203]Sicher sind alle und
+    \x02\x07Teddy\x02\x07Hey, lass uns in den
+    Anmelderaum gehen![pause]\x02\x03Sicher sind alle und
     die Matrix-Kammer
     wieder normal![pause]
   - |-
-    [\x0207][\x020902]3...Yeah!
+    \x02\x07\x02\x09\x023...Yeah!
     Wir kehren in die
     echte Welt zurück![pause]
   - |-
-    [\x0207]Teddy[\x0207]Destromon ge-
+    \x02\x07Teddy\x02\x07Destromon ge-
     stoppt und zer-
-    stört![pause][\x0203]Wir besiegten
+    stört![pause]\x02\x03Wir besiegten
     die A.o.A.![pause]

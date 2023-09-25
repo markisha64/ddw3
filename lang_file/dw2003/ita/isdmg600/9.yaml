@@ -1,20 +1,20 @@
 strings:
   - ''
   - |-
-    [\x0207]WarGrowlmon N[\x0207]Ho perso, ma
+    \x02\x07WarGrowlmon N\x02\x07Ho perso, ma
     ne valeva
     la pena.[pause]
   - |-
-    [\x0207][\x020902]3Bene.
+    \x02\x07\x02\x09\x023Bene.
     Devo andare![pause]
   - |-
-    [\x0207]WarGrowlmon N[\x0207]Aspetta![pause][\x0203]Ti darò
+    \x02\x07WarGrowlmon N\x02\x07Aspetta![pause]\x02\x03Ti darò
     questa!
     Grazie![pause]
   - |-
-    [\x0207][\x020902]3Ho l'armatura
+    \x02\x07\x02\x09\x023Ho l'armatura
     del pericolo![pause]
   - |-
-    [\x0207]WarGrowlmon N[\x0207]Heh heh, non è
-    bella?[pause][\x0203]È molto preziosa:
+    \x02\x07WarGrowlmon N\x02\x07Heh heh, non è
+    bella?[pause]\x02\x03È molto preziosa:
     abbine cura![pause]

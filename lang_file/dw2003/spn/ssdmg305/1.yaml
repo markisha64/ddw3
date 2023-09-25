@@ -1,31 +1,31 @@
 strings:
   - ''
-  - '[\x0207]Maestro de Juego[\x0207]¿Qué hacéis aquí?[pause]'
-  - "[\\x0207][\\x020902]3Eh... Estamos \nbuscando a nuestro\namigo Teddy.[pause]"
-  - "[\\x0207]Maestro de Juego[\\x0207]Ya veo... Siento \nsorprenderos.[pause][\\x0203]Yo también me\npreocupo por él. Ratón\nSuerte lo tendrá preso.[pause]"
+  - '\x02\x07Maestro de Juego\x02\x07¿Qué hacéis aquí?[pause]'
+  - "\\x02\\x07\\x02\\x09\\x023Eh... Estamos \nbuscando a nuestro\namigo Teddy.[pause]"
+  - "\\x02\\x07Maestro de Juego\\x02\\x07Ya veo... Siento \nsorprenderos.[pause]\\x02\\x03Yo también me\npreocupo por él. Ratón\nSuerte lo tendrá preso.[pause]"
   - |-
-    [\x0207][\x020902]3¡¿Ratón
+    \x02\x07\x02\x09\x023¡¿Ratón
     Suerte?![pause]
   - |-
-    [\x0207]Maestro de Juego[\x0207]¡Es malvado,
+    \x02\x07Maestro de Juego\x02\x07¡Es malvado,
     intenta destruir
-    Digimon Online![pause][\x0203]¡Es la razón por la
+    Digimon Online![pause]\x02\x03¡Es la razón por la
     que tenemos problemas
     en el sistema![pause]
   - |-
-    [\x0207][\x020902]3Pero todo el mundo
+    \x02\x07\x02\x09\x023Pero todo el mundo
     disfruta de Digimon
     Online...[pause]
   - |-
-    [\x0207][\x020902]3¡No puedo creerlo!
+    \x02\x07\x02\x09\x023¡No puedo creerlo!
     ¡Ratón Suerte![pause]
-  - '[\x0207]Kail[\x0207].....[pause]'
+  - '\x02\x07Kail\x02\x07.....[pause]'
   - |-
-    [\x0207]Maestro de Juego[\x0207]Todo nuestro personal
+    \x02\x07Maestro de Juego\x02\x07Todo nuestro personal
     está buscando a
-    Ratón Suerte.[pause][\x0203]¡Oh, ya sé!
+    Ratón Suerte.[pause]\x02\x03¡Oh, ya sé!
     ¿Nos ayudarías?[pause]
   - |-
-    [\x0207][\x020902]3¡Por supuesto!
+    \x02\x07\x02\x09\x023¡Por supuesto!
     ¡Te ayudaremos![pause]
-  - "[\\x0207]Maestro Jue.[\\x0207]Gracias, \ncuento con\nvosotros.[pause][\\x0203]¡Hemos oído\nque fue al \nSector Oeste![pause]"
+  - "\\x02\\x07Maestro Jue.\\x02\\x07Gracias, \ncuento con\nvosotros.[pause]\\x02\\x03¡Hemos oído\nque fue al \nSector Oeste![pause]"

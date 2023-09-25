@@ -1,28 +1,28 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Una vez vencí a
+    \x02\x07\x02\x09\x023Una vez vencí a
     Gallactimon, todo
-    era perfecto.[pause][\x0203]Ya han pasado
+    era perfecto.[pause]\x02\x03Ya han pasado
     tres meses.
     Parece un sueño.[pause]
-  - "[\\x0207][\\x020902]3¿Qué hacen\nIvy y \nTeddy?[pause][\\x0203]¡Va a empezar\nla Ceremonia de\nApertura![pause]"
-  - "¡Gracias por esperar! \n¡La Ceremonia de Apertura\nde Digimon Online va a empezar![pause][\\x0203]¡DNB TV está en directo\ndesde el Mundo Digital por primera\nvez en la historia utilizando la Red Óptica![pause][\\x0203]¡Sin más, conectemos con\neste repetidor con el Mundo Digital![pause]"
-  - "[\\x0207][\\x020902]3¡Kurt,es increíble!\nCreó una nueva \ncompañía...[pause][\\x0203]Y comenzó Digimon\nOnline en lugar de\nMAGAMI...[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¿Qué hacen\nIvy y \nTeddy?[pause]\\x02\\x03¡Va a empezar\nla Ceremonia de\nApertura![pause]"
+  - "¡Gracias por esperar! \n¡La Ceremonia de Apertura\nde Digimon Online va a empezar![pause]\\x02\\x03¡DNB TV está en directo\ndesde el Mundo Digital por primera\nvez en la historia utilizando la Red Óptica![pause]\\x02\\x03¡Sin más, conectemos con\neste repetidor con el Mundo Digital![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Kurt,es increíble!\nCreó una nueva \ncompañía...[pause]\\x02\\x03Y comenzó Digimon\nOnline en lugar de\nMAGAMI...[pause]"
   - |-
-    [\x0207]Ivy[\x0207]¿Hablas solo?
+    \x02\x07Ivy\x02\x07¿Hablas solo?
     Me asustas...[pause]
-  - "[\\x0207]Teddy[\\x0207]¡[\\x020801][\\x020501]!\n¡Ya estás \naquí![pause]"
-  - "[\\x0207][\\x020902]3¡Llegáis \ntarde![pause]"
-  - "[\\x0207][\\x020902]3Llevo \nesperando más\nde diez min.[pause]"
+  - "\\x02\\x07Teddy\\x02\\x07¡\\x02\\x08\\x01\\x02\\x05\\x01!\n¡Ya estás \naquí![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Llegáis \ntarde![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Llevo \nesperando más\nde diez min.[pause]"
   - |-
-    [\x0207]Ivy[\x0207]¿Y qué quieres
+    \x02\x07Ivy\x02\x07¿Y qué quieres
     que haga? ¡Tú
-    has llegado muy pronto![pause][\x0203]Si tantas ganas
+    has llegado muy pronto![pause]\x02\x03Si tantas ganas
     tenías, ¿por qué
     no te fuiste?[pause]
   - |-
-    [\x0207]Teddy[\x0207]¡Eh, eh,
-    [\x020801][\x020501],
-    Ivy![pause][\x0203]Tranquilos y vamos
+    \x02\x07Teddy\x02\x07¡Eh, eh,
+    \x02\x08\x01\x02\x05\x01,
+    Ivy![pause]\x02\x03Tranquilos y vamos
     al Centro Online.[pause]

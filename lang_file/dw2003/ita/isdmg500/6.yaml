@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Ehi,
+    \x02\x07\x02\x09\x023Ehi,
     Numemon![pause]
   - |-
-    [\x0207]Numemon[\x0207]Sei tu.
+    \x02\x07Numemon\x02\x07Sei tu.
     Perché sei
     tornato?[pause]
   - |-
-    [\x0207][\x020902]3Vorrei chiederti
+    \x02\x07\x02\x09\x023Vorrei chiederti
     una cosa.
     Posso?[pause]
   - |-
-    [\x0207]Numemon[\x0207]Non ho nulla
+    \x02\x07Numemon\x02\x07Non ho nulla
     da dirti![pause]
-  - '[\x0207][\x020902]3Aspetta![pause]'
+  - '\x02\x07\x02\x09\x023Aspetta![pause]'

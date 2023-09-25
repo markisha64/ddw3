@@ -1,30 +1,30 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Ne t'inquiète pas.\nC'est pour cela que  \nnous combattons ![pause][\\x0203]Nous allons triompher\nde l'A.o.A  ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ne t'inquiète pas.\nC'est pour cela que  \nnous combattons ![pause]\\x02\\x03Nous allons triompher\nde l'A.o.A  ![pause]"
   - |-
-    [\x0207]Teddy[\x0207]Oui, c'est vrai  !
+    \x02\x07Teddy\x02\x07Oui, c'est vrai  !
     On y est presque
     alors allons-y  ![pause]
-  - "[\\x0207]Nick[\\x0207]Quoi, vous êtes \nencore là ?[pause]"
-  - '[\x0207][\x020902]3Oh, Nick  ![pause]'
+  - "\\x02\\x07Nick\\x02\\x07Quoi, vous êtes \nencore là ?[pause]"
+  - '\x02\x07\x02\x09\x023Oh, Nick  ![pause]'
   - |-
-    [\x0207]Teddy[\x0207]Nick, où
+    \x02\x07Teddy\x02\x07Nick, où
     en est-on ?[pause]
-  - "[\\x0207]Nick[\\x0207]Ha ha ha,\nça va ![pause][\\x0203]Dans la ville, \nl'A.o.A s'est\nrendu très vite  ![pause]"
+  - "\\x02\\x07Nick\\x02\\x07Ha ha ha,\nça va ![pause]\\x02\\x03Dans la ville, \nl'A.o.A s'est\nrendu très vite  ![pause]"
   - |-
-    [\x0207][\x020902]3Et la
+    \x02\x07\x02\x09\x023Et la
     ville ?[pause]
-  - "[\\x0207]Nick[\\x0207]Oh, on l'a \ndéjà reprise.[pause][\\x0203]Il reste donc\nle Centre \nAdministratif.[pause]"
+  - "\\x02\\x07Nick\\x02\\x07Oh, on l'a \ndéjà reprise.[pause]\\x02\\x03Il reste donc\nle Centre \nAdministratif.[pause]"
   - |-
-    [\x0207][\x020902]3... Quoi ?![pause][\x0203]Alors, on ne peut
+    \x02\x07\x02\x09\x023... Quoi ?![pause]\x02\x03Alors, on ne peut
     pas les battre  ![pause]
-  - "[\\x0207]Nick[\\x0207]C'est pour ça\nqu'on est\nvenus te voir ![pause][\\x0203]Tu dois nous\naider à attaquer \nle Centre  ![pause]"
+  - "\\x02\\x07Nick\\x02\\x07C'est pour ça\nqu'on est\nvenus te voir ![pause]\\x02\\x03Tu dois nous\naider à attaquer \nle Centre  ![pause]"
   - |-
-    [\x0207][\x020902]3Très bien, je
+    \x02\x07\x02\x09\x023Très bien, je
     m'en occupe !
     Je vaincrai ![pause]
-  - "[\\x0207][\\x020902]3Teddy, je  \nvais passer \ndevant.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Teddy, je  \nvais passer \ndevant.[pause]"
   - |-
-    [\x0207]Teddy[\x0207]Sois prudent !
+    \x02\x07Teddy\x02\x07Sois prudent !
     J'arrive tout de
     suite ![pause]

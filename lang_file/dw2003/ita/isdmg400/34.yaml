@@ -1,8 +1,8 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Se lo trovo, mi
+    \x02\x07\x02\x09\x023Se lo trovo, mi
     darà gli
-    stivali![pause][\x0203]Ma se esco dalla
+    stivali![pause]\x02\x03Ma se esco dalla
     Foresta dei calci,
     perdo![pause]

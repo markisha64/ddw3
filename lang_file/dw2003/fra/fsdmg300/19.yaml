@@ -1,27 +1,27 @@
 strings:
   - ''
   - |-
-    [\x0207]Teddy[\x0207]Oui  !
+    \x02\x07Teddy\x02\x07Oui  !
     On a réussi,
-    [\x020801][\x020501]  ![pause]
+    \x02\x08\x01\x02\x05\x01  ![pause]
   - |-
-    [\x0207][\x020902]3Oui, on
+    \x02\x07\x02\x09\x023Oui, on
     l'a fait ![pause]
-  - "[\\x0207]Nick[\\x0207]Hé, bravo\nvous deux  ![pause][\\x0203]Je m'en vais\nraconter ça \naux autres  ![pause]"
+  - "\\x02\\x07Nick\\x02\\x07Hé, bravo\nvous deux  ![pause]\\x02\\x03Je m'en vais\nraconter ça \naux autres  ![pause]"
   - |-
-    [\x0207]Teddy[\x0207]Oh, je suis
-    crevé... [pause][\x0203]Quelle
+    \x02\x07Teddy\x02\x07Oh, je suis
+    crevé... [pause]\x02\x03Quelle
     journée...[pause]
   - |-
-    [\x0207][\x020902]3C'était
+    \x02\x07\x02\x09\x023C'était
     cool, non ?[pause]
   - |-
-    [\x0207]Teddy[\x0207]Hé, allons dans la
-    salle de login ![pause][\x0203]Je suis sûr que tout
+    \x02\x07Teddy\x02\x07Hé, allons dans la
+    salle de login ![pause]\x02\x03Je suis sûr que tout
     est redevenu normal ![pause]
-  - "[\\x0207][\\x020902]3Oui  !\nRetournons dans le \nMonde Réel  ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Oui  !\nRetournons dans le \nMonde Réel  ![pause]"
   - |-
-    [\x0207]Teddy[\x0207]Destromon s'est
+    \x02\x07Teddy\x02\x07Destromon s'est
     arrêté, il est
-    neutralisé ![pause][\x0203]On a vaincu
+    neutralisé ![pause]\x02\x03On a vaincu
     l'A.o.A  ![pause]

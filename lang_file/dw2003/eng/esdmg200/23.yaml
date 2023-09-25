@@ -1,7 +1,7 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Hey, Etemon, I \ngot something\nI wanna ask.[pause]"
-  - "[\\x0207]Etemon[\\x0207]Sure, what?\nI'll tell you anything I \nknow![pause]"
-  - "[\\x0207][\\x020902]3Aren't you the one \nwho has Sepikmon's \nmask?[pause]"
-  - "[\\x0207]Etemon[\\x0207]I-I don't know \nwhat you're \ntalking about![pause]"
-  - "[\\x0207][\\x020902]3Hey, wait![pause][\\x0203]He's hiding \nsomething![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hey, Etemon, I \ngot something\nI wanna ask.[pause]"
+  - "\\x02\\x07Etemon\\x02\\x07Sure, what?\nI'll tell you anything I \nknow![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Aren't you the one \nwho has Sepikmon's \nmask?[pause]"
+  - "\\x02\\x07Etemon\\x02\\x07I-I don't know \nwhat you're \ntalking about![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hey, wait![pause]\\x02\\x03He's hiding \nsomething![pause]"

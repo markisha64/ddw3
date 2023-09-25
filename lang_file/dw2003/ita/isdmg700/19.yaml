@@ -1,12 +1,12 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Sì!
+    \x02\x07\x02\x09\x023Sì!
     Ho battuto
     anche lui![pause]
   - |-
-    [\x0207][\x020902]3E ora ho pure
+    \x02\x07\x02\x09\x023E ora ho pure
     il pass
-    nero![pause][\x0203]Devo solo andare ad
+    nero![pause]\x02\x03Devo solo andare ad
     Amaterasu!
     Coraggio![pause]

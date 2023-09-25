@@ -1,16 +1,16 @@
 strings:
   - ''
   - |-
-    [\x0207]Responsable Compte[\x0207]Inscription terminée.
+    \x02\x07Responsable Compte\x02\x07Inscription terminée.
     Vous pouvez aller
     vers la chambre.[pause]
   - |-
-    [\x0207]Junior[\x0207]Ok, Teddy, Ivy !
+    \x02\x07Junior\x02\x07Ok, Teddy, Ivy !
     Allons découvrir
     le Digimonde ![pause]
   - |-
-    [\x0207]Ivy[\x0207]Hé ! Attends-
+    \x02\x07Ivy\x02\x07Hé ! Attends-
     nous, Junior.[pause]
   - |-
-    [\x0207]Teddy[\x0207]Je n'ai pas
+    \x02\x07Teddy\x02\x07Je n'ai pas
     terminé ![pause]

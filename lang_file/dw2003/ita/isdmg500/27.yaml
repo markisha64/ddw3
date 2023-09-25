@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Oh, adesso è
-    qui dentro.[pause][\x0203]Allora non farò
+    \x02\x07\x02\x09\x023Oh, adesso è
+    qui dentro.[pause]\x02\x03Allora non farò
     altro che
     seguirlo![pause]

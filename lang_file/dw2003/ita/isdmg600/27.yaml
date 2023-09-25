@@ -1,48 +1,48 @@
 strings:
   - ''
   - |-
-    [\x0207]Generale[\x0207]Mi ricordo di te,
-    ragazzo![pause][\x0203]Cosa vuoi?
+    \x02\x07Generale\x02\x07Mi ricordo di te,
+    ragazzo![pause]\x02\x03Cosa vuoi?
     Essere catturato
     una seconda volta?[pause]
   - |-
-    [\x0207][\x020902]3No![pause][\x0203]Voglio sapere come
+    \x02\x07\x02\x09\x023No![pause]\x02\x03Voglio sapere come
     siete entrati nel
     server![pause]
   - |-
-    [\x0207]Generale[\x0207]Heh heh heh!
+    \x02\x07Generale\x02\x07Heh heh heh!
     Se vuoi saperlo
-    te lo dirò.[pause][\x0203]Il Digimon da
+    te lo dirò.[pause]\x02\x03Il Digimon da
     trasporto
-    dell'A.o.A...[pause][\x0203]Siamo venuti da
+    dell'A.o.A...[pause]\x02\x03Siamo venuti da
     Amaterasu fin qui
     grazie a Bulbmon![pause]
-  - '[\x0207][\x020902]3Bulbmon?[pause]'
+  - '\x02\x07\x02\x09\x023Bulbmon?[pause]'
   - |-
-    [\x0207]Generale[\x0207]Si, un grande
+    \x02\x07Generale\x02\x07Si, un grande
     Digimon che si
-    sposta fra i server![pause][\x0203]Ma, giunto qui, ha
+    sposta fra i server![pause]\x02\x03Ma, giunto qui, ha
     iniziato ad agire
     in modo strano![pause]
   - |-
-    [\x0207][\x020902]3Strano?
+    \x02\x07\x02\x09\x023Strano?
     Che vuol dire?[pause]
   - |-
-    [\x0207]Generale[\x0207]Topo Fortunato eresse
-    un campo protettivo![pause][\x0203]Bulbmon si è guastato
-    e ci ha buttati fuori![pause][\x0203]Così abbiamo
+    \x02\x07Generale\x02\x07Topo Fortunato eresse
+    un campo protettivo![pause]\x02\x03Bulbmon si è guastato
+    e ci ha buttati fuori![pause]\x02\x03Così abbiamo
     attaccato subito
     la città di Byakko.[pause]
   - |-
-    [\x0207][\x020902]3Un momento.
+    \x02\x07\x02\x09\x023Un momento.
     Ora dov'è
     Bulbmon?[pause]
   - |-
-    [\x0207]Generale[\x0207]Non ho idea![pause][\x0203]Starà scavando
+    \x02\x07Generale\x02\x07Non ho idea![pause]\x02\x03Starà scavando
     buchi dimensionali![pause]
   - |-
-    [\x0207][\x020902]3Allora credo
+    \x02\x07\x02\x09\x023Allora credo
     che dovrò
-    cercarlo.[pause][\x0203]Un momento! Credo
+    cercarlo.[pause]\x02\x03Un momento! Credo
     di averlo già
     visto prima.[pause]

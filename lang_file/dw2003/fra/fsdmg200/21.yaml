@@ -1,32 +1,32 @@
 strings:
   - ''
   - |-
-    [\x0207]Joueur Mystérieux[\x0207]Hé, toi,
+    \x02\x07Joueur Mystérieux\x02\x07Hé, toi,
     attends ![pause]
   - |-
-    [\x0207][\x020902]3C'est à moi
+    \x02\x07\x02\x09\x023C'est à moi
     que tu
     parles ?[pause]
-  - "[\\x0207]Joueur Mystérieux[\\x0207]Bien sûr ![pause][\\x0203]Tu es [\\x020801][\\x020501],\ncelui qui a battu \nle chef de Seiryu ?[pause]"
+  - "\\x02\\x07Joueur Mystérieux\\x02\\x07Bien sûr ![pause]\\x02\\x03Tu es \\x02\\x08\\x01\\x02\\x05\\x01,\ncelui qui a battu \nle chef de Seiryu ?[pause]"
   - |-
-    [\x0207][\x020902]3Oui... et toi,
+    \x02\x07\x02\x09\x023Oui... et toi,
     tu es... ?[pause]
   - |-
-    [\x0207]Keith[\x0207]Je suis Keith, et
+    \x02\x07Keith\x02\x07Je suis Keith, et
     tu ferais bien de ne
-    pas oublier mon nom ![pause][\x0203]Je suis celui qui
+    pas oublier mon nom ![pause]\x02\x03Je suis celui qui
     va remporter le
     tournoi ![pause]
   - |-
-    [\x0207][\x020902]3Ah oui ? Attendons
+    \x02\x07\x02\x09\x023Ah oui ? Attendons
     un peu pour
     voir ![pause]
   - |-
-    [\x0207]Keith[\x0207]Ha ha , je vois !
+    \x02\x07Keith\x02\x07Ha ha , je vois !
     Tu veux te battre
     contre moi ?[pause]
-  - '[\x0207][\x020902]3D''accord ![pause]'
+  - '\x02\x07\x02\x09\x023D''accord ![pause]'
   - |-
-    [\x0207]Keith[\x0207]Désolé, mais je
+    \x02\x07Keith\x02\x07Désolé, mais je
     ne vais retenir
     mes coups ![pause]

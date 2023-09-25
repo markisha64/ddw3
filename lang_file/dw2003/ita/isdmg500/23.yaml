@@ -1,10 +1,10 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3OK, eccoti
-    qui![pause][\x0203]Non ti lascerò
+    \x02\x07\x02\x09\x023OK, eccoti
+    qui![pause]\x02\x03Non ti lascerò
     scappare,
     questa volta![pause]
   - |-
-    [\x0207]Numemon[\x0207]Dovresti
+    \x02\x07Numemon\x02\x07Dovresti
     rinunciare![pause]

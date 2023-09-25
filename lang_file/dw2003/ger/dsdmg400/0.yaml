@@ -1,15 +1,15 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3MasterTyranno
+    \x02\x07\x02\x09\x023MasterTyranno
     kämpfe mit mir![pause]
   - |-
-    [\x0207]MasterTyranno[\x0207]Klar!
+    \x02\x07MasterTyranno\x02\x07Klar!
     Hab eben gegessen
     u. bin sehr stark.[pause]
-  - "[\\x0207][\\x020902]3Komm nur! So\nweiβ ich, wie \nstark i. bin.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Komm nur! So\nweiβ ich, wie \nstark i. bin.[pause]"
   - |-
-    [\x0207]MasterTyranno[\x0207]Ganz schön opti-
-    mistisch, Kleiner![pause][\x0203]Das allein reicht
+    \x02\x07MasterTyranno\x02\x07Ganz schön opti-
+    mistisch, Kleiner![pause]\x02\x03Das allein reicht
     aber nicht aus, um
     mich zu schlagen![pause]

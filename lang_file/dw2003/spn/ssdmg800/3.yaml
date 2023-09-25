@@ -1,14 +1,14 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3¡Páralo ahí!\n¡Detén el \nlanzamiento ya![pause][\\x0203]¡No voy a dejar \nque os salgáis \ncon ésta![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Páralo ahí!\n¡Detén el \nlanzamiento ya![pause]\\x02\\x03¡No voy a dejar \nque os salgáis \ncon ésta![pause]"
   - |-
-    [\x0207]Guarda Real[\x0207]Ja ja ja ja
+    \x02\x07Guarda Real\x02\x07Ja ja ja ja
     ¡Este idiota dice
-    que lo paremos![pause][\x0203]¡Como si un chico
+    que lo paremos![pause]\x02\x03¡Como si un chico
     como tú, pudiera
     detenernos![pause]
-  - "[\\x0207][\\x020902]3¡Yo os \nharé\npararlo![pause]"
-  - "[\\x0207]Guarda Real[\\x0207]Ja ja ja ja\n¿Eres de \nverdad?[pause][\\x0203]¡Inténtalo si\npuedes![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Yo os \nharé\npararlo![pause]"
+  - "\\x02\\x07Guarda Real\\x02\\x07Ja ja ja ja\n¿Eres de \nverdad?[pause]\\x02\\x03¡Inténtalo si\npuedes![pause]"
   - |-
-    [\x0207]Guarda Real[\x0207]Sistema limpio...
+    \x02\x07Guarda Real\x02\x07Sistema limpio...
     ¡Eso es![pause]

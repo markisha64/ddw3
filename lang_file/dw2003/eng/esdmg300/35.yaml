@@ -1,9 +1,9 @@
 strings:
   - ''
   - |-
-    [\x0207]BK MegaGargomon[\x0207]Wow, you won!
+    \x02\x07BK MegaGargomon\x02\x07Wow, you won!
     You're strong![pause]
-  - "[\\x0207][\\x020902]3Of course!\nI've been battling \neveryone![pause]"
-  - "[\\x0207]BK MegaGargomon[\\x0207]Wow, that's \namazing! I'll\ngive you this![pause]"
-  - "[\\x0207][\\x020902]3Yeah! I got\nthe Wild \nHelmet![pause]"
-  - "[\\x0207]BK MegaGargomon[\\x0207]Well, good luck.\nI'll be cheering \nfor you![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Of course!\nI've been battling \neveryone![pause]"
+  - "\\x02\\x07BK MegaGargomon\\x02\\x07Wow, that's \namazing! I'll\ngive you this![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Yeah! I got\nthe Wild \nHelmet![pause]"
+  - "\\x02\\x07BK MegaGargomon\\x02\\x07Well, good luck.\nI'll be cheering \nfor you![pause]"

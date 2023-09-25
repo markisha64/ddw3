@@ -1,8 +1,8 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Woah, what is \nthis room!?[pause]"
-  - "[\\x0207][\\x020902]3Hey,\nwho's that \nover there?[pause]"
-  - "[\\x0207][\\x020902]3It's the Game \nMaster! I'm\ngonna get her![pause]"
-  - "[\\x0207]Guard A[\\x0207]You're... that \nkid![pause]"
-  - "[\\x0207]Guard B[\\x0207]You're not \ngetting through\nhere![pause]"
-  - "[\\x0207]Guard C[\\x0207]Just give up and \ncome with us![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Woah, what is \nthis room!?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hey,\nwho's that \nover there?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023It's the Game \nMaster! I'm\ngonna get her![pause]"
+  - "\\x02\\x07Guard A\\x02\\x07You're... that \nkid![pause]"
+  - "\\x02\\x07Guard B\\x02\\x07You're not \ngetting through\nhere![pause]"
+  - "\\x02\\x07Guard C\\x02\\x07Just give up and \ncome with us![pause]"

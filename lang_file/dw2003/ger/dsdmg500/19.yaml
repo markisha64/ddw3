@@ -1,16 +1,16 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Ich hab
+    \x02\x07\x02\x09\x023Ich hab
     Kyukimon
     besiegt![pause]
   - |-
-    [\x0207]Kyukimon[\x0207]Ihr Digimon seid
-    sehr stark.[pause][\x0203]Das war der gröβte
+    \x02\x07Kyukimon\x02\x07Ihr Digimon seid
+    sehr stark.[pause]\x02\x03Das war der gröβte
     Spaβ seit langem.
     Hier nimm sie![pause]
   - |-
-    [\x0207][\x020902]3Yeah! Ich hab
+    \x02\x07\x02\x09\x023Yeah! Ich hab
     die Kotemon-
-    DDNA![pause][\x0203]Danke,
+    DDNA![pause]\x02\x03Danke,
     Kyukimon![pause]

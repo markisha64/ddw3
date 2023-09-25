@@ -1,5 +1,5 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Aspetta![pause][\x0203]Il centro amm.
+    \x02\x07\x02\x09\x023Aspetta![pause]\x02\x03Il centro amm.
     è di là.[pause]

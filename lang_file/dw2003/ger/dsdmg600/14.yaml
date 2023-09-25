@@ -1,21 +1,21 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Hey,
+    \x02\x07\x02\x09\x023Hey,
     sie sind..?![pause]
   - |-
-    [\x0207]Byakko-Bürg.[\x0207]Hä?! Da hat
+    \x02\x07Byakko-Bürg.\x02\x07Hä?! Da hat
     sich was be-
     wegt, oder?[pause]
-  - "[\\x0207]Byakko-Bürger[\\x0207]Kannst du von \nda aus\netwas sehen?[pause]"
+  - "\\x02\\x07Byakko-Bürger\\x02\\x07Kannst du von \nda aus\netwas sehen?[pause]"
   - |-
-    [\x0207]Byakko-Bür.[\x0207]Im Westen
+    \x02\x07Byakko-Bür.\x02\x07Im Westen
     alles OK![pause]
-  - "[\\x0207]Byakko-Bürger[\\x0207]Nichts im \nSüden![pause]"
+  - "\\x02\\x07Byakko-Bürger\\x02\\x07Nichts im \nSüden![pause]"
   - |-
-    [\x0207]Byakko-Bürger[\x0207]Auch hier
+    \x02\x07Byakko-Bürger\x02\x07Auch hier
     alles OK![pause]
   - |-
-    [\x0207]Byakko-Bürger[\x0207]Dann sehe ich
+    \x02\x07Byakko-Bürger\x02\x07Dann sehe ich
     wohl Gespenst.[pause]
-  - "[\\x0207][\\x020902]3...sie sind \nwachsam...[pause][\\x0203]Byakko City kann\nich eine Weile\nnicht betreten...[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023...sie sind \nwachsam...[pause]\\x02\\x03Byakko City kann\nich eine Weile\nnicht betreten...[pause]"

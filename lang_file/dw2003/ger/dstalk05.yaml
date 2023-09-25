@@ -1,44 +1,44 @@
 strings:
   - ''
   - |-
-    [\x0207]Faulpelz Yuka[\x0207]Hmm...wie soll ich
-    meine Digimon züchten?[pause][\x0203]Die Parameter unter-
+    \x02\x07Faulpelz Yuka\x02\x07Hmm...wie soll ich
+    meine Digimon züchten?[pause]\x02\x03Die Parameter unter-
     scheiden sich je
     nach Zuchtmethode.[pause]
   - |-
-    [\x0207]Digitations-Navi.[\x0207]Hier lernst du
+    \x02\x07Digitations-Navi.\x02\x07Hier lernst du
     was über
-    Digitation.[pause][\x0203]Du erhältst Daten
+    Digitation.[pause]\x02\x03Du erhältst Daten
     über einige
-    Digimon-Digitationen...[pause][\x0203]Wir können die aber
+    Digimon-Digitationen...[pause]\x02\x03Wir können die aber
     nicht alle Digimon-
     Digitationen beibringen.[pause]
   - |-
-    [\x0207]Digimon-Navig.[\x0207]Wir bringen dir
+    \x02\x07Digimon-Navig.\x02\x07Wir bringen dir
     Digimon-Techniken
-    bei.[pause][\x0203]Du erhältst Tipps zu
+    bei.[pause]\x02\x03Du erhältst Tipps zu
     Digimon-Kampf und
     Digimon-Zucht.[pause]
-  - "[\\x0207]Dr. Kadomatsu[\\x0207]Ich bin Dr. Kadomatsu\nder Lehrer für Digi-\nmon-Forschung[pause][\\x0203]Im Digimon-Labor\ntauschst und \ndigitierst du Digimon![pause]"
+  - "\\x02\\x07Dr. Kadomatsu\\x02\\x07Ich bin Dr. Kadomatsu\nder Lehrer für Digi-\nmon-Forschung[pause]\\x02\\x03Im Digimon-Labor\ntauschst und \ndigitierst du Digimon![pause]"
   - |-
-    [\x0207][\x020902]3Alles aufgeräumt!
+    \x02\x07\x02\x09\x023Alles aufgeräumt!
     ...ob die wohl auch
     mein Zimmer machen?[pause]
   - |-
-    [\x0207][\x020902]3Hey! Hier
+    \x02\x07\x02\x09\x023Hey! Hier
     hat jemand
-    Geld versteckt[pause][\x0203]Yeah! Ich habe
+    Geld versteckt[pause]\x02\x03Yeah! Ich habe
     300 BIT![pause]
-  - "[\\x0207][\\x020902]3Ob hier wohl \nwas ist...\nVermutlich nicht...[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ob hier wohl \nwas ist...\nVermutlich nicht...[pause]"
   - a
   - a
   - a
   - |-
-    [\x0207]Teddy[\x0207]Hallo
-    [\x020801][\x020501]!
-    Ich hab's![pause][\x0203]Das Notfallzimmer
-    ist unten im Verlies[pause][\x0203]im Nordsektor
-    dieses Asuka-Servers.[pause][\x0203]Du brauchst aber
+    \x02\x07Teddy\x02\x07Hallo
+    \x02\x08\x01\x02\x05\x01!
+    Ich hab's![pause]\x02\x03Das Notfallzimmer
+    ist unten im Verlies[pause]\x02\x03im Nordsektor
+    dieses Asuka-Servers.[pause]\x02\x03Du brauchst aber
     die vier Leader-
     Abzeichen!![pause]
   - a
@@ -56,78 +56,78 @@ strings:
   - a
   - a
   - |-
-    [\x0207]DO Wache[\x0207]Das ist Asuka City,
+    \x02\x07DO Wache\x02\x07Das ist Asuka City,
     das Zentrum vom
     Asuka-Server.[pause]
   - |-
-    [\x0207]DO Wache[\x0207]Die Reise aller
+    \x02\x07DO Wache\x02\x07Die Reise aller
     Tamer beginnt und
-    endet hier.[pause][\x0203]Darum geht's
+    endet hier.[pause]\x02\x03Darum geht's
     in Asuka City.[pause]
   - |-
-    [\x0207]Account-Anm.[\x0207]Oh? Du hast noch
+    \x02\x07Account-Anm.\x02\x07Oh? Du hast noch
     kein Partner-
-    Digimon.[pause][\x0203]Geh zur Lobby und
+    Digimon.[pause]\x02\x03Geh zur Lobby und
     ruf Digimon-Daten
     vom Satelliten ab.[pause]
-  - "[\\x0207]Teilzeit-Jake[\\x0207]Alle Items in \ndieser Auktion\nsind Rüstungen.[pause][\\x0203]Und ich glaube hier\nist es billiger\nals anderswo.[pause][\\x0203]Auch wenn er\nnicht so aussieht,\nMr. Smith ist knallhart[pause]"
+  - "\\x02\\x07Teilzeit-Jake\\x02\\x07Alle Items in \ndieser Auktion\nsind Rüstungen.[pause]\\x02\\x03Und ich glaube hier\nist es billiger\nals anderswo.[pause]\\x02\\x03Auch wenn er\nnicht so aussieht,\nMr. Smith ist knallhart[pause]"
   - |-
-    [\x0207]Pingelige Freda[\x0207]Putzen und Staub
-    wischen und...[pause][\x0203]Ich muss einfach
+    \x02\x07Pingelige Freda\x02\x07Putzen und Staub
+    wischen und...[pause]\x02\x03Ich muss einfach
     alles säubern,
     was dreckig ist.[pause]
   - a
   - |-
-    [\x0207]Terriermon[\x0207]...mmm,
+    \x02\x07Terriermon\x02\x07...mmm,
     Mou-man-tai
     mou-man-tai.[pause]
   - |-
-    [\x0207]Gabum.[\x0207]Zzzzz
+    \x02\x07Gabum.\x02\x07Zzzzz
     Zzzzzzz[pause]
   - |-
-    [\x0207]Biyomon[\x0207]Ich bin müde
+    \x02\x07Biyomon\x02\x07Ich bin müde
     Zzzzzzz...[pause]
   - |-
-    [\x0207]Chicago-Green[\x0207]Irgendwo in der Stadt
+    \x02\x07Chicago-Green\x02\x07Irgendwo in der Stadt
     ist eine Auktion
-    mit seltenen Items![pause][\x0203]Aber wie kannst
+    mit seltenen Items![pause]\x02\x03Aber wie kannst
     du teilnehmen...?[pause]
-  - "[\\x0207]Item-Fan Sandy[\\x0207]Einige Items kann\nman wohl nicht\nim Laden kaufen.[pause][\\x0203]Aber Mr. Smith\nweiβ angeblich \nnichts davon![pause]"
+  - "\\x02\\x07Item-Fan Sandy\\x02\\x07Einige Items kann\nman wohl nicht\nim Laden kaufen.[pause]\\x02\\x03Aber Mr. Smith\nweiβ angeblich \nnichts davon![pause]"
   - |-
-    [\x0207]Gargomon[\x0207]Bumm! Hier
+    \x02\x07Gargomon\x02\x07Bumm! Hier
     das Zeughaus[pause]
   - |-
-    [\x0207]Wizardmon[\x0207]Willkommen im
+    \x02\x07Wizardmon\x02\x07Willkommen im
     Item-Shop![pause]
-  - "[\\x0207]Gomamon[\\x0207]Das ist die \nPfandleihe.\nWorum geht's?[pause]"
+  - "\\x02\\x07Gomamon\\x02\\x07Das ist die \nPfandleihe.\nWorum geht's?[pause]"
   - |-
-    [\x0207]Wizardmon[\x0207]Willkommen auf
+    \x02\x07Wizardmon\x02\x07Willkommen auf
     dem Schwarzmarkt[pause]
   - |-
-    [\x0207]Gargamon[\x0207]Willkommen. Dies
+    \x02\x07Gargamon\x02\x07Willkommen. Dies
     sind die schwe-
     ren Waffen.[pause]
   - |-
-    [\x0207]Miss Asami[\x0207]Wow, du musst 'n
-    toller Tamer sein![pause][\x0203]Nur Auserwählte
+    \x02\x07Miss Asami\x02\x07Wow, du musst 'n
+    toller Tamer sein![pause]\x02\x03Nur Auserwählte
     kommen hierher.[pause]
   - |-
-    [\x0207]Riggs aus LA[\x0207]Was? Gottes-
+    \x02\x07Riggs aus LA\x02\x07Was? Gottes-
     Hürde ist hier
-    auch nicht?[pause][\x0203]Das ist komisch...
+    auch nicht?[pause]\x02\x03Das ist komisch...
     Hab' gehört, sie wär'
     in Asuka City![pause]
   - |-
-    [\x0207]Master John[\x0207]Dies ist
-    Lammkotelett.[pause][\x0203]Alle kommen
+    \x02\x07Master John\x02\x07Dies ist
+    Lammkotelett.[pause]\x02\x03Alle kommen
     hierher.[pause]
   - |-
-    [\x0207]Kellnerin Debbie[\x0207]Mr. Alexei ist schon
-    wieder aufgebracht.[pause][\x0203]In der echten Welt
+    \x02\x07Kellnerin Debbie\x02\x07Mr. Alexei ist schon
+    wieder aufgebracht.[pause]\x02\x03In der echten Welt
     ist wohl was
     los.[pause]
   - |-
-    [\x0207]Mr. Alexei[\x0207]Vergiss meinen Job!
+    \x02\x07Mr. Alexei\x02\x07Vergiss meinen Job!
     Vergiss meinen Boss[pause]
   - a
   - a
@@ -149,151 +149,151 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Wizardmon[\x0207]Wir Wizardmon sind
+    \x02\x07Wizardmon\x02\x07Wir Wizardmon sind
     für den Item-Shop
     zuständig![pause]
   - |-
-    [\x0207]Gargamon[\x0207]Das Zeughaus wird
+    \x02\x07Gargamon\x02\x07Das Zeughaus wird
     von uns Gargamon
     geleitet.[pause]
   - |-
-    [\x0207]Gomamon[\x0207]Dies ist die
+    \x02\x07Gomamon\x02\x07Dies ist die
     Pfandleihe![pause]
-  - "[\\x0207]Mr. Smith[\\x0207]Ich bin Mr. Smith,\nder Manager \ndieses Ladens.[pause]"
+  - "\\x02\\x07Mr. Smith\\x02\\x07Ich bin Mr. Smith,\nder Manager \ndieses Ladens.[pause]"
   - |-
-    [\x0207]Mr. Smith[\x0207]Willkommen in
-    Smith's Shop.[pause][\x0203]Wir haben nur
+    \x02\x07Mr. Smith\x02\x07Willkommen in
+    Smith's Shop.[pause]\x02\x03Wir haben nur
     gute Items, sieh'
     dich ruhig um.[pause]
   - |-
-    [\x0207]Mr. Smith[\x0207]Willkommen
+    \x02\x07Mr. Smith\x02\x07Willkommen
     in Smith's
     Shop.[pause]
   - |-
-    [\x0207]Smith Junior[\x0207]Papa ist nicht
+    \x02\x07Smith Junior\x02\x07Papa ist nicht
     hier, deshalb
-    hab' ich den Laden![pause][\x0203]Bist du nicht
+    hab' ich den Laden![pause]\x02\x03Bist du nicht
     stolz auf mich?
     Heh heh heh![pause]
   - |-
-    [\x0207]Smith Junior[\x0207]Papa ist nicht
+    \x02\x07Smith Junior\x02\x07Papa ist nicht
     hier, deshalb
     hab' ich den Laden![pause]
   - |-
-    [\x0207]Wizardmon[\x0207]Willkommen auf
-    dem Schwarzmarkt.[pause][\x0203]Die meisten dieser
+    \x02\x07Wizardmon\x02\x07Willkommen auf
+    dem Schwarzmarkt.[pause]\x02\x03Die meisten dieser
     Items findest du
     nirgendwo sonst.[pause]
   - |-
-    [\x0207]Gargomon[\x0207]Willkommen. Dies sind
-    die schweren Waffen![pause][\x0203]Hier werden nur die
+    \x02\x07Gargomon\x02\x07Willkommen. Dies sind
+    die schweren Waffen![pause]\x02\x03Hier werden nur die
     starken Waffen
     verkauft![pause]
   - |-
-    [\x0207]Master John[\x0207]Nur Personal und ver-
+    \x02\x07Master John\x02\x07Nur Personal und ver-
     lorene Digimon dürfen
-    ins Admin-Center.[pause][\x0203]Du darfst also nicht
+    ins Admin-Center.[pause]\x02\x03Du darfst also nicht
     rein, dein Digimon
     schon! Ha ha ha![pause]
   - a
   - a
   - a
   - |-
-    [\x0207]Sepikmon[\x0207]O-oh! Guck mal, ich
+    \x02\x07Sepikmon\x02\x07O-oh! Guck mal, ich
     hab' meine Maske
-    gefunden![pause][\x0203]...wie man Zanbamon
+    gefunden![pause]\x02\x03...wie man Zanbamon
     besiegen kann?
-    Keine Ahnung![pause][\x0203]Ich hab' meine Maske
+    Keine Ahnung![pause]\x02\x03Ich hab' meine Maske
     gefunden, also sag'
     ich's dir nicht![pause]
   - a
   - a
   - |-
-    [\x0207]Etemon[\x0207]Heh heh heh,
+    \x02\x07Etemon\x02\x07Heh heh heh,
     gut sehe ich
     heute aus![pause]
   - |-
-    [\x0207]Schelmischer Mat[\x0207]Etemon? Eh...
-    Ich weiβ nicht.[pause][\x0203]War keiner hier,
+    \x02\x07Schelmischer Mat\x02\x07Etemon? Eh...
+    Ich weiβ nicht.[pause]\x02\x03War keiner hier,
     als ich kam.
-    Heh heh heh.[pause][\x0203]Also, hau ab
+    Heh heh heh.[pause]\x02\x03Also, hau ab
     und nerv nicht![pause]
   - |-
-    [\x0207]Schelmischer Mat[\x0207]Ach, du schon
+    \x02\x07Schelmischer Mat\x02\x07Ach, du schon
     wieder.[pause]
   - |-
-    [\x0207]Etemon[\x0207]Du bist echt
-    'ne Klette.[pause][\x0203]Na gut, ich
+    \x02\x07Etemon\x02\x07Du bist echt
+    'ne Klette.[pause]\x02\x03Na gut, ich
     geb's zurück,
-    Ok![pause][\x0203]Hier, ich hab
+    Ok![pause]\x02\x03Hier, ich hab
     dir die Sepik-Maske
     gegeben.[pause]
   - |-
-    [\x0207]Etemon[\x0207]Wa-was, ich
+    \x02\x07Etemon\x02\x07Wa-was, ich
     hab' nichts
     Falsches gemacht![pause]
-  - '[\x0207]Kail[\x0207]Hallo, [\x020801][\x020501][pause]'
+  - '\x02\x07Kail\x02\x07Hallo, \x02\x08\x01\x02\x05\x01[pause]'
   - |-
-    [\x0207]Teddy[\x0207]"MONSTER"
+    \x02\x07Teddy\x02\x07"MONSTER"
     ist irgendein
-    Code![pause][\x0203]Ich frag' mich
+    Code![pause]\x02\x03Ich frag' mich
     nur, was es
     bedeutet...[pause]
   - |-
-    [\x0207][\x020902]3...ist das 'n Bild
-    von einem Digimon?[pause][\x0203]Heiβt "M." Hä?
+    \x02\x07\x02\x09\x023...ist das 'n Bild
+    von einem Digimon?[pause]\x02\x03Heiβt "M." Hä?
     Ist der Buchstabe
-    ein Sensor?![pause][\x0203]Hmmm...soll ich's
+    ein Sensor?![pause]\x02\x03Hmmm...soll ich's
     berühren?
     Was soll ich tun?[pause]
   - |-
-    [\x0207][\x020902]3...ist das 'n Bild
-    von einem Digimon?[pause][\x0203]Heiβt "O." Hä?
+    \x02\x07\x02\x09\x023...ist das 'n Bild
+    von einem Digimon?[pause]\x02\x03Heiβt "O." Hä?
     Ist der Buchstabe
-    ein Sensor?![pause][\x0203]Hmmm...soll ich's
+    ein Sensor?![pause]\x02\x03Hmmm...soll ich's
     berühren?
     Was soll ich tun?[pause]
   - |-
-    [\x0207][\x020902]3...ist das 'n Bild
-    von einem Digimon?[pause][\x0203]Heiβt "N." Hä?
+    \x02\x07\x02\x09\x023...ist das 'n Bild
+    von einem Digimon?[pause]\x02\x03Heiβt "N." Hä?
     Ist der Buchstabe
-    ein Sensor?![pause][\x0203]Hmmm...soll ich's
+    ein Sensor?![pause]\x02\x03Hmmm...soll ich's
     berühren?
     Was soll ich tun?[pause]
   - |-
-    [\x0207][\x020902]3...ist das 'n Bild
-    von einem Digimon?[pause][\x0203]Heiβt "S." Hä?
+    \x02\x07\x02\x09\x023...ist das 'n Bild
+    von einem Digimon?[pause]\x02\x03Heiβt "S." Hä?
     Ist der Buchstabe
-    ein Sensor?![pause][\x0203]Hmmm...soll ich's
+    ein Sensor?![pause]\x02\x03Hmmm...soll ich's
     berühren?
     Was soll ich tun?[pause]
   - |-
-    [\x0207][\x020902]3...ist das 'n Bild
-    von einem Digimon?[pause][\x0203]Heiβt "T." Hä?
+    \x02\x07\x02\x09\x023...ist das 'n Bild
+    von einem Digimon?[pause]\x02\x03Heiβt "T." Hä?
     Ist der Buchstabe
-    ein Sensor?![pause][\x0203]Hmmm...soll ich's
+    ein Sensor?![pause]\x02\x03Hmmm...soll ich's
     berühren?
     Was soll ich tun?[pause]
   - |-
-    [\x0207][\x020902]3...ist das 'n Bild
-    von einem Digimon?[pause][\x0203]Heiβt "E." Hä?
+    \x02\x07\x02\x09\x023...ist das 'n Bild
+    von einem Digimon?[pause]\x02\x03Heiβt "E." Hä?
     Ist der Buchstabe
-    ein Sensor?![pause][\x0203]Hmmm...soll ich's
+    ein Sensor?![pause]\x02\x03Hmmm...soll ich's
     berühren?
     Was soll ich tun?[pause]
   - |-
-    [\x0207][\x020902]3...ist das 'n Bild
-    von einem Digimon?[pause][\x0203]Heiβt "R." Hä?
+    \x02\x07\x02\x09\x023...ist das 'n Bild
+    von einem Digimon?[pause]\x02\x03Heiβt "R." Hä?
     Ist der Buchstabe
-    ein Sensor?![pause][\x0203]Hmmm...soll ich's
+    ein Sensor?![pause]\x02\x03Hmmm...soll ich's
     berühren?
     Was soll ich tun?[pause]
   - |-
-    [\x0207][\x020902]3He! Hier ist ein
+    \x02\x07\x02\x09\x023He! Hier ist ein
     Schalter! Ich
     drück mal drauf[pause]
   - |-
-    [\x0207][\x020902]3Schätze, ich
+    \x02\x07\x02\x09\x023Schätze, ich
     hab verloren[pause]
   - a
   - a
@@ -334,19 +334,19 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Etemon[\x0207]Heh heh heh,
+    \x02\x07Etemon\x02\x07Heh heh heh,
     ich bin schon
     ein Genie![pause]
   - a
   - a
   - |-
-    [\x0207]Keith[\x0207]Hallo du da!
+    \x02\x07Keith\x02\x07Hallo du da!
     Mach dir nichts
-    draus![pause][\x0203]Wir stoppen
+    draus![pause]\x02\x03Wir stoppen
     alle unsere
     Pläne![pause]
   - a
-  - "[\\x0207]Nick[\\x0207]Nicht nach-\nlassen! Ist\nnicht vorbei[pause][\\x0203]Gib nicht \nauf, \nkämpfe![pause]"
+  - "\\x02\\x07Nick\\x02\\x07Nicht nach-\nlassen! Ist\nnicht vorbei[pause]\\x02\\x03Gib nicht \nauf, \nkämpfe![pause]"
   - a
   - a
   - a
@@ -371,120 +371,120 @@ strings:
   - a
   - a
   - |-
-    [\x0207]DO Wache[\x0207]?...?
+    \x02\x07DO Wache\x02\x07?...?
     Ich vermute, Digi-
     mon kann durch.[pause]
   - |-
-    [\x0207]DO Wache[\x0207]Eintritt nur
+    \x02\x07DO Wache\x02\x07Eintritt nur
     mit Genehmigung.[pause]
   - |-
-    [\x0207]DO Wache[\x0207]Digimon!?
+    \x02\x07DO Wache\x02\x07Digimon!?
     Warum sind
     hier Digimon?[pause]
   - |-
-    [\x0207]Soldat[\x0207]Gib auf![pause][\x0203]Gegen die A.o.A
+    \x02\x07Soldat\x02\x07Gib auf![pause]\x02\x03Gegen die A.o.A
     gewinnst du nie![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Wir verteidigen
+    \x02\x07DO Wache\x02\x07Wir verteidigen
     mit unserem
     Leben![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Alles unter
+    \x02\x07DO Wache\x02\x07Alles unter
     Kontrolle!
     Keine Sorge![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Schnell,
-    besuch Lisa![pause][\x0203]Alle warten
+    \x02\x07DO Wache\x02\x07Schnell,
+    besuch Lisa![pause]\x02\x03Alle warten
     auf dich![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Oinkoink!
+    \x02\x07DO Wache\x02\x07Oinkoink!
     Oinnk, ooink!
     Oiiiiinkoiiiiiiiink![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Oioioioioioioi!
+    \x02\x07DO Wache\x02\x07Oioioioioioioi!
     Ooink, ooink!
     Oioioioi, oink![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Oioioioioioioi!
+    \x02\x07DO Wache\x02\x07Oioioioioioioi!
     Oioioioioioioi!
     Oioioioioioioi![pause]
   - |-
-    [\x0207]Lisa[\x0207]Nach Amaterasu
+    \x02\x07Lisa\x02\x07Nach Amaterasu
     City kommt man
-    wohl schwer rein.[pause][\x0203]Wir brauchen
+    wohl schwer rein.[pause]\x02\x03Wir brauchen
     Hilfe.[pause]
   - |-
-    [\x0207]Lisa[\x0207]Hey, [\x020801][\x020501]!
+    \x02\x07Lisa\x02\x07Hey, \x02\x08\x01\x02\x05\x01!
     Und? Hast du
     wen gefunden?[pause]
   - |-
-    [\x0207]DO Wache[\x0207][\x020801][\x020501]!
+    \x02\x07DO Wache\x02\x07\x02\x08\x01\x02\x05\x01!
     Du machst
     das toll![pause]
   - |-
-    [\x0207]Datamon[\x0207]...buzzz!
+    \x02\x07Datamon\x02\x07...buzzz!
     Wer bist
     du?[pause]
   - |-
-    [\x0207]Datamon[\x0207]Hier kommst du nur mit
-    Personalpass rein.[pause][\x0203]Mitarbeiter von Digimon-
+    \x02\x07Datamon\x02\x07Hier kommst du nur mit
+    Personalpass rein.[pause]\x02\x03Mitarbeiter von Digimon-
     Online haben sie.[pause]
   - |-
-    [\x0207][\x020902]3Oh! Es ist Gabumon-
+    \x02\x07\x02\x09\x023Oh! Es ist Gabumon-
     Karte! Hier war sie
     also![pause]
   - |-
-    [\x0207][\x020902]3Hmmm.
+    \x02\x07\x02\x09\x023Hmmm.
     Nicht mehr
     da...[pause]
-  - "[\\x0207]Kellnerin Debbie[\\x0207]He, hör zu!\nIch hab zuletzt\n'nen Veemon gesehn.[pause][\\x0203]Er suchte etwas in \nwindiger Prärie.[pause]"
-  - "[\\x0207]Kellnerin Debbie[\\x0207]Ob Veemon noch\nin windiger \nPrärie ist?[pause][\\x0203]Ob er mit mir spielt\nwenn ich ihn das\nnächste Mal sehe?[pause]"
+  - "\\x02\\x07Kellnerin Debbie\\x02\\x07He, hör zu!\nIch hab zuletzt\n'nen Veemon gesehn.[pause]\\x02\\x03Er suchte etwas in \nwindiger Prärie.[pause]"
+  - "\\x02\\x07Kellnerin Debbie\\x02\\x07Ob Veemon noch\nin windiger \nPrärie ist?[pause]\\x02\\x03Ob er mit mir spielt\nwenn ich ihn das\nnächste Mal sehe?[pause]"
   - |-
-    [\x0207]Guilmon[\x0207]Hä? Blaue Karte?
-    Ach, das Gondel-Ding.[pause][\x0203]Ich habe sie leider
-    nicht, aber mein Cousin.[pause][\x0203]Er hat gesagt, er ging
-    nach Seiryu City.[pause][\x0203]Aber hat Hunger, wird
+    \x02\x07Guilmon\x02\x07Hä? Blaue Karte?
+    Ach, das Gondel-Ding.[pause]\x02\x03Ich habe sie leider
+    nicht, aber mein Cousin.[pause]\x02\x03Er hat gesagt, er ging
+    nach Seiryu City.[pause]\x02\x03Aber hat Hunger, wird
     wohl irgendwo was
     essen.[pause]
   - a
   - |-
-    [\x0207]Mr. Smith[\x0207]Wir haben auch
+    \x02\x07Mr. Smith\x02\x07Wir haben auch
     gute Items.
     Sieh dich um.[pause]
   - |-
-    [\x0207]Smith Junior[\x0207]...du musst echt
-    gut sein![pause][\x0203]Nur Auserwählte
+    \x02\x07Smith Junior\x02\x07...du musst echt
+    gut sein![pause]\x02\x03Nur Auserwählte
     können zu unserem
     Schwarzmarkt kommen![pause]
   - |-
-    [\x0207][\x020902]3OK, ich hab' alle
+    \x02\x07\x02\x09\x023OK, ich hab' alle
     Sensoren berührt,
     was jetzt?[pause]
   - a
   - a
   - |-
-    [\x0207]Chief Milly[\x0207]Ooink,
+    \x02\x07Chief Milly\x02\x07Ooink,
     oiink, ooioonk![pause]
   - |-
-    [\x0207]Direktor Roy[\x0207]Ooiiink!
+    \x02\x07Direktor Roy\x02\x07Ooiiink!
     Oink,
     oooink![pause]
   - |-
-    [\x0207]RPG-Fan Masao[\x0207]Oin, oioink,
+    \x02\x07RPG-Fan Masao\x02\x07Oin, oioink,
     oooin, ooiink![pause]
   - |-
-    [\x0207]Händler Abel[\x0207]Ooink?!
+    \x02\x07Händler Abel\x02\x07Ooink?!
     Oi, Oi,
     ooink![pause]
   - |-
-    [\x0207]Sammler Michiru[\x0207]Ooink,
+    \x02\x07Sammler Michiru\x02\x07Ooink,
     ooioink,
     ooink, ooink![pause]
   - |-
-    [\x0207]Schr. Rikako[\x0207]Oioink,
+    \x02\x07Schr. Rikako\x02\x07Oioink,
     oink,
     oooink, oink![pause]
-  - "[\\x0207]Guilmon[\\x0207]Hmm, er liebt \nNickerchen, also\nmacht er Pausen.[pause]"
+  - "\\x02\\x07Guilmon\\x02\\x07Hmm, er liebt \nNickerchen, also\nmacht er Pausen.[pause]"
   - a
   - a
   - a
@@ -528,7 +528,7 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Dr. Kadomatsu[\x0207]Willkommen in meinem
+    \x02\x07Dr. Kadomatsu\x02\x07Willkommen in meinem
     Labor! Was willst du
     mit deinem Digimon tun[pause]
   - a
@@ -627,22 +627,22 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Arena-Empfang[\x0207]Dies ist die Anmeldung
+    \x02\x07Arena-Empfang\x02\x07Dies ist die Anmeldung
     für das Server Champ-
-    Turnier.[pause][\x0203]Um am Turnier teilzu-
+    Turnier.[pause]\x02\x03Um am Turnier teilzu-
     nehmen, brauchst du
-    die 4 Stadtabzeichen.[pause][\x0203]Besieg die City-Leader
+    die 4 Stadtabzeichen.[pause]\x02\x03Besieg die City-Leader
     der einzelnen Städte u.
     hol dir die Abzeichen.[pause]
   - |-
-    [\x0207][\x020902]3Das ist ein "R"
+    \x02\x07\x02\x09\x023Das ist ein "R"
     ...das berühre
-    ich jetzt...[pause][\x0203]..........
+    ich jetzt...[pause]\x02\x03..........
     ..........
-    ..........[pause][\x0203]Hä?
+    ..........[pause]\x02\x03Hä?
     Nichts passiert.
     Hmmm...[pause]
-  - "[\\x0207][\\x020902]3Ich berühr's \nhalt nochmal...[pause][\\x0203]Hmm...Nichts...\nAlso \"R\" mehrmals\ndrücken bringt nichts.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ich berühr's \nhalt nochmal...[pause]\\x02\\x03Hmm...Nichts...\nAlso \"R\" mehrmals\ndrücken bringt nichts.[pause]"
   - a
   - a
   - a
@@ -698,86 +698,86 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Guardromon[\x0207]ZUGRIFF AUF
+    \x02\x07Guardromon\x02\x07ZUGRIFF AUF
     MATRIX-DRIVE[pause]
   - |-
-    [\x0207]Guardromon[\x0207]ICH BIN SPEICHER-
-    OFFIZIER GUARDROMON[pause][\x0203]WENN DU SPEICHERN
+    \x02\x07Guardromon\x02\x07ICH BIN SPEICHER-
+    OFFIZIER GUARDROMON[pause]\x02\x03WENN DU SPEICHERN
     WILLST, WENDE DICH
     AN UNS![pause]
   - |-
-    [\x0207]Gatomon[\x0207]Wir Gatomon
+    \x02\x07Gatomon\x02\x07Wir Gatomon
     managen
-    das Inn.[pause][\x0203]Wenn du hier
+    das Inn.[pause]\x02\x03Wenn du hier
     übernachten möchtest,
     wende dich an uns.[pause]
   - |-
-    [\x0207]Gatomon[\x0207]...Willkommen
-    in meinem Inn![pause][\x0203]Fühl' dich
+    \x02\x07Gatomon\x02\x07...Willkommen
+    in meinem Inn![pause]\x02\x03Fühl' dich
     wie zu Hause.[pause]
   - a
   - |-
-    [\x0207]Faulpelz Yuka[\x0207]Hmmm, warum können
+    \x02\x07Faulpelz Yuka\x02\x07Hmmm, warum können
     wir nicht in die
-    echte Welt zurück?[pause][\x0203]Sie müssen uns aktua-
+    echte Welt zurück?[pause]\x02\x03Sie müssen uns aktua-
     lisieren und sagen,
     was wir tun sollen.[pause]
   - |-
-    [\x0207]Faulpelz Yuka[\x0207]Hmmm, wie kommt man
-    ins Admin-Center?[pause][\x0203]Hab' nie drüber nach-
+    \x02\x07Faulpelz Yuka\x02\x07Hmmm, wie kommt man
+    ins Admin-Center?[pause]\x02\x03Hab' nie drüber nach-
     gedacht, deshalb
     weiβ ich's nicht...[pause]
   - |-
-    [\x0207]Faulpelz Yuka[\x0207]Es geht das Gerücht,
+    \x02\x07Faulpelz Yuka\x02\x07Es geht das Gerücht,
     es sei alles Lucky
-    Mouse Schuld...[pause][\x0203]Aber ob das
+    Mouse Schuld...[pause]\x02\x03Aber ob das
     stimmt...[pause]
-  - "[\\x0207]Faulpelz Yuka[\\x0207]Hmm, wie soll ich \nmeinen Digimon\ndigitieren?[pause][\\x0203]Der gewählte Digimon\nbestimmt die späteren\nDigitationstechniken...[pause]"
-  - "[\\x0207]Faulpelz Yuka[\\x0207]Hmm, wie soll ich \nmeinen Digimon\ndigitieren?[pause][\\x0203]Der gewählte Digimon\nbestimmt die späteren\nDigitationstechniken...[pause]"
+  - "\\x02\\x07Faulpelz Yuka\\x02\\x07Hmm, wie soll ich \nmeinen Digimon\ndigitieren?[pause]\\x02\\x03Der gewählte Digimon\nbestimmt die späteren\nDigitationstechniken...[pause]"
+  - "\\x02\\x07Faulpelz Yuka\\x02\\x07Hmm, wie soll ich \nmeinen Digimon\ndigitieren?[pause]\\x02\\x03Der gewählte Digimon\nbestimmt die späteren\nDigitationstechniken...[pause]"
   - |-
-    [\x0207]Faulpelz Yuka[\x0207]Hmm, was wohl jetzt
+    \x02\x07Faulpelz Yuka\x02\x07Hmm, was wohl jetzt
     mit Digimon-Online
-    passiert...[pause][\x0203]Das Spiel selbst ist
+    passiert...[pause]\x02\x03Das Spiel selbst ist
     so gut.[pause]
-  - "[\\x0207]Faulpelz Yuka[\\x0207]Hmm, was wohl jetzt\nmit uns passiert...[pause][\\x0203]Angeblich sind die \nA.o.A noch nicht\nam Ende...[pause]"
+  - "\\x02\\x07Faulpelz Yuka\\x02\\x07Hmm, was wohl jetzt\nmit uns passiert...[pause]\\x02\\x03Angeblich sind die \nA.o.A noch nicht\nam Ende...[pause]"
   - |-
-    [\x0207]Faulpelz Yuka[\x0207]Hmm, ob die A.o.A
-    wirklich weg sind..[pause][\x0203]Das scheint alles
+    \x02\x07Faulpelz Yuka\x02\x07Hmm, ob die A.o.A
+    wirklich weg sind..[pause]\x02\x03Das scheint alles
     zu einfach zu sein.[pause]
   - |-
-    [\x0207]Faulpelz Yuka[\x0207]Oin, oink?
+    \x02\x07Faulpelz Yuka\x02\x07Oin, oink?
     Oink, oinoink...[pause]
   - '43'
   - a
   - |-
-    [\x0207]Anmelde-Manager[\x0207]Das ist der
-    Anmelderaum.[pause][\x0203]Viel Spaβ bei
+    \x02\x07Anmelde-Manager\x02\x07Das ist der
+    Anmelderaum.[pause]\x02\x03Viel Spaβ bei
     Digimon-Online![pause]
   - |-
-    [\x0207]Anmelde-Manager[\x0207]Der Server ist
+    \x02\x07Anmelde-Manager\x02\x07Der Server ist
     wegen Wartung
-    geschlossen.[pause][\x0203]Wir entschuldigen
+    geschlossen.[pause]\x02\x03Wir entschuldigen
     uns bei den
     Spielern.[pause]
-  - "[\\x0207]Anmelde-Manager[\\x0207]Die Wartung \ndauert etwas\nlänger.[pause][\\x0203]Hab bitte\netwas\nGeduld.[pause]"
+  - "\\x02\\x07Anmelde-Manager\\x02\\x07Die Wartung \ndauert etwas\nlänger.[pause]\\x02\\x03Hab bitte\netwas\nGeduld.[pause]"
   - |-
-    [\x0207]Anmelde-Manager[\x0207]Oh! Du bis ein
+    \x02\x07Anmelde-Manager\x02\x07Oh! Du bis ein
     verloren gegangenes
-    Digimon![pause][\x0203]Hilfe bekommst du im
+    Digimon![pause]\x02\x03Hilfe bekommst du im
     Admin-Center.[pause]
-  - "[\\x0207]Anmelde-Manager[\\x0207]Die Wartung \ndauert etwas\nlänger.[pause][\\x0203]Hab bitte\netwas\nGeduld.[pause]"
-  - "[\\x0207]Anmelde-Manager[\\x0207]Sie sind leider \nnoch nicht fertig.[pause][\\x0203]Ich muss mich schon\nwieder entschuldigen.\nSeufz...[pause]"
-  - "[\\x0207]Anmelde-Manager[\\x0207]Hast mich erschreckt, \ndachte, du wärst\ndie A.o.A.[pause][\\x0203]Ich mach mir Sorgen. In\ndiesem Tempo können wir\nkeine Wartung machen.[pause]"
+  - "\\x02\\x07Anmelde-Manager\\x02\\x07Die Wartung \ndauert etwas\nlänger.[pause]\\x02\\x03Hab bitte\netwas\nGeduld.[pause]"
+  - "\\x02\\x07Anmelde-Manager\\x02\\x07Sie sind leider \nnoch nicht fertig.[pause]\\x02\\x03Ich muss mich schon\nwieder entschuldigen.\nSeufz...[pause]"
+  - "\\x02\\x07Anmelde-Manager\\x02\\x07Hast mich erschreckt, \ndachte, du wärst\ndie A.o.A.[pause]\\x02\\x03Ich mach mir Sorgen. In\ndiesem Tempo können wir\nkeine Wartung machen.[pause]"
   - |-
-    [\x0207]Anmelde-Manager[\x0207]Als die A.o.A das
+    \x02\x07Anmelde-Manager\x02\x07Als die A.o.A das
     1. Mal kamen, war
-    ich ratlos: Was tun[pause][\x0203]So ne Angst will ich
+    ich ratlos: Was tun[pause]\x02\x03So ne Angst will ich
     nie wieder haben![pause]
-  - "[\\x0207]Anmelde-Manager[\\x0207]Tut mir leid, du \nkannst noch nicht in\ndie echte Welt zurück[pause][\\x0203]Schuld sind nur die\nA.o.A![pause]"
+  - "\\x02\\x07Anmelde-Manager\\x02\\x07Tut mir leid, du \nkannst noch nicht in\ndie echte Welt zurück[pause]\\x02\\x03Schuld sind nur die\nA.o.A![pause]"
   - |-
-    [\x0207]Anmelde-Manager[\x0207]Hast du gehört?
+    \x02\x07Anmelde-Manager\x02\x07Hast du gehört?
     Die A.o.A wurden
-    besiegt![pause][\x0203]Gott sei Dank!
+    besiegt![pause]\x02\x03Gott sei Dank!
     Jetzt können wir
     nach Hause![pause]
   - a
@@ -793,46 +793,46 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Anmelde-Manger[\x0207]O, oink!
+    \x02\x07Anmelde-Manger\x02\x07O, oink!
     Oi, oinkkk![pause]
   - '43'
   - |-
-    [\x0207]Arena-Empfang[\x0207]Dies ist die Anmeldung
+    \x02\x07Arena-Empfang\x02\x07Dies ist die Anmeldung
     für das Server Champ-
-    Turnier.[pause][\x0203]Um am Turnier teilzu-
+    Turnier.[pause]\x02\x03Um am Turnier teilzu-
     nehmen, brauchst du
-    die 4 Stadtabzeichen.[pause][\x0203]Besieg die Leader der
+    die 4 Stadtabzeichen.[pause]\x02\x03Besieg die Leader der
     einzelnen Städte und
     hol dir die Abzeichen.[pause]
   - |-
-    [\x0207]Arena-Empfang[\x0207]Wie du ins
+    \x02\x07Arena-Empfang\x02\x07Wie du ins
     Admin-Center
-    kommst?[pause][\x0203]Tut mir Leid, nicht
+    kommst?[pause]\x02\x03Tut mir Leid, nicht
     als normaler Tamer![pause]
-  - "[\\x0207]Arena-Empfang[\\x0207]Oh, seid ihr verloren\ngegangene Digimon?[pause][\\x0203]Dann geht ins \nAdmin-Center![pause]"
+  - "\\x02\\x07Arena-Empfang\\x02\\x07Oh, seid ihr verloren\ngegangene Digimon?[pause]\\x02\\x03Dann geht ins \nAdmin-Center![pause]"
   - |-
-    [\x0207]Arena-Empfang[\x0207]Wegen System-
-    wartung...[pause][\x0203]Wurde die Turnier-
+    \x02\x07Arena-Empfang\x02\x07Wegen System-
+    wartung...[pause]\x02\x03Wurde die Turnier-
     anmeldung
-    geschlossen.[pause][\x0203]Warte, bis wir die
+    geschlossen.[pause]\x02\x03Warte, bis wir die
     Wiedereröffnung
     bekannt geben.[pause]
-  - "[\\x0207]Arena-Empfang[\\x0207]Die Wartung dauert\nlänger als normal.[pause][\\x0203]Es kommen immer \nwieder Tamer und\nnerven mich.[pause]"
+  - "\\x02\\x07Arena-Empfang\\x02\\x07Die Wartung dauert\nlänger als normal.[pause]\\x02\\x03Es kommen immer \nwieder Tamer und\nnerven mich.[pause]"
   - |-
-    [\x0207]Arena-Empfang[\x0207]A.o.A haben Daten
+    \x02\x07Arena-Empfang\x02\x07A.o.A haben Daten
     von den stärksten
-    Digimon genommen![pause][\x0203]Ich hoffe, sie
+    Digimon genommen![pause]\x02\x03Ich hoffe, sie
     treiben damit
     keinen Missbrauch.[pause]
   - |-
-    [\x0207]Arena-Empfang[\x0207]Gut! Alle A.o.A
-    wurden gefasst.[pause][\x0203]Das mit dem Game-
+    \x02\x07Arena-Empfang\x02\x07Gut! Alle A.o.A
+    wurden gefasst.[pause]\x02\x03Das mit dem Game-
     master hat mich
     allerdings geschockt..[pause]
   - |-
-    [\x0207]Arena-Empfang[\x0207]Tut mir leid, die
+    \x02\x07Arena-Empfang\x02\x07Tut mir leid, die
     Anmeldung ist
-    geschlossen.[pause][\x0203]Ich hab' eine
+    geschlossen.[pause]\x02\x03Ich hab' eine
     Weile nichts zu
     tun...[pause]
   - a
@@ -848,48 +848,48 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Arena-Empfang[\x0207]Oh, das ist toll,
+    \x02\x07Arena-Empfang\x02\x07Oh, das ist toll,
     die A.o.A sind
-    weg![pause][\x0203]Das ist ein neuer
+    weg![pause]\x02\x03Das ist ein neuer
     Anfang für MAGAMI[pause]
   - |-
-    [\x0207]Arena-Empf.[\x0207]Oink, oink,
+    \x02\x07Arena-Empf.\x02\x07Oink, oink,
     oink, oi![pause]
   - '43'
-  - "[\\x0207]Arena-Empfang[\\x0207]Dies ist die Anmeldung\nfür das Server\nChamp-Turnier.[pause][\\x0203]Oh? Du hast noch kein\nPartner-Digimon.[pause][\\x0203]Geh zur Lobby und lad\ndie Daten vom \nSatelliten herunter.[pause]"
+  - "\\x02\\x07Arena-Empfang\\x02\\x07Dies ist die Anmeldung\nfür das Server\nChamp-Turnier.[pause]\\x02\\x03Oh? Du hast noch kein\nPartner-Digimon.[pause]\\x02\\x03Geh zur Lobby und lad\ndie Daten vom \nSatelliten herunter.[pause]"
   - |-
-    [\x0207]Kampf-Fan Midori[\x0207]Digimon-Kampf ist
-    das Gröβte![pause][\x0203]Omnimon war echt
+    \x02\x07Kampf-Fan Midori\x02\x07Digimon-Kampf ist
+    das Gröβte![pause]\x02\x03Omnimon war echt
     beeindruckend![pause]
   - |-
-    [\x0207]Kampf-Fan Midori[\x0207]Wir können nicht
+    \x02\x07Kampf-Fan Midori\x02\x07Wir können nicht
     in die echte Welt
-    zurück? Super![pause][\x0203]Jetzt kann ich
+    zurück? Super![pause]\x02\x03Jetzt kann ich
     weiter Digimon-
     Kampf gucken.[pause]
   - |-
-    [\x0207]Kampf-Fan Midori[\x0207]Ich war einmal
+    \x02\x07Kampf-Fan Midori\x02\x07Ich war einmal
     im Admin-
-    Center.[pause][\x0203]Aber sie haben
+    Center.[pause]\x02\x03Aber sie haben
     mich erwischt u.
     rausgeworfen![pause]
   - |-
-    [\x0207]Kampf-Fan Midori[\x0207]...oh, nur ein
-    Agumon.[pause][\x0203]Mich interessieren
+    \x02\x07Kampf-Fan Midori\x02\x07...oh, nur ein
+    Agumon.[pause]\x02\x03Mich interessieren
     nur starke
     Digimon![pause]
   - |-
-    [\x0207]Kampf-Fan Midori[\x0207]Sakuyamon ist
-    der Gröβte![pause][\x0203]Das ist das
+    \x02\x07Kampf-Fan Midori\x02\x07Sakuyamon ist
+    der Gröβte![pause]\x02\x03Das ist das
     schönste
     Digimon![pause]
   - |-
-    [\x0207]Kampf-Fan Midori[\x0207]Charisma ist für
+    \x02\x07Kampf-Fan Midori\x02\x07Charisma ist für
     ein Digimon sehr
-    wichtig![pause][\x0203]Du musst auch
+    wichtig![pause]\x02\x03Du musst auch
     cool sein, nicht
     nur stark![pause]
-  - "[\\x0207]Kampf-Fan Midor[\\x0207]Also wirklich! \nJemand sollte die\nA.o.A schlagen![pause][\\x0203]Dann bin ich\necht beeindruckt.[pause]"
+  - "\\x02\\x07Kampf-Fan Midor\\x02\\x07Also wirklich! \nJemand sollte die\nA.o.A schlagen![pause]\\x02\\x03Dann bin ich\necht beeindruckt.[pause]"
   - a
   - a
   - a
@@ -901,8 +901,8 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Kampf-Fan Midori[\x0207]Nein! Das Turnier
-    wurde abgesagt![pause][\x0203]Was mache ich denn
+    \x02\x07Kampf-Fan Midori\x02\x07Nein! Das Turnier
+    wurde abgesagt![pause]\x02\x03Was mache ich denn
     jetzt bloβ![pause]
   - a
   - a
@@ -915,7 +915,7 @@ strings:
   - a
   - a
   - |-
-    [\x0207]DO Wache[\x0207]Kein Durchgang...
+    \x02\x07DO Wache\x02\x07Kein Durchgang...
     Digimon verstehen
     das wohl nicht.[pause]
   - a
@@ -925,317 +925,317 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Soldat[\x0207]Ich lass dich
+    \x02\x07Soldat\x02\x07Ich lass dich
     hier nicht
     durch![pause]
-  - "[\\x0207]Kampf-Fan Midori[\\x0207]Mir ist langweilig,\ndeshalb erstell' ich\nein Rangsystem![pause][\\x0203]Gallantmon ist \nwohl die Nummer 1![pause]"
+  - "\\x02\\x07Kampf-Fan Midori\\x02\\x07Mir ist langweilig,\ndeshalb erstell' ich\nein Rangsystem![pause]\\x02\\x03Gallantmon ist \nwohl die Nummer 1![pause]"
   - |-
-    [\x0207]Kampf-Fan Midori[\x0207]Du bis super!
+    \x02\x07Kampf-Fan Midori\x02\x07Du bis super!
     Du hast die A.o.A
-    geschlagen![pause][\x0203]Deine Digimon sind
+    geschlagen![pause]\x02\x03Deine Digimon sind
     jetzt die Stärksten![pause]
   - |-
-    [\x0207]Kampf-Fan Midori[\x0207]Oiiiiiink!
+    \x02\x07Kampf-Fan Midori\x02\x07Oiiiiiink!
     Oink, oink![pause]
   - '43'
   - |-
-    [\x0207]Onkel Carlos[\x0207]Die Teilnahme am
+    \x02\x07Onkel Carlos\x02\x07Die Teilnahme am
     Server Champ-
-    Turnier ist das..,[pause][\x0203]wovon alle Spieler
+    Turnier ist das..,[pause]\x02\x03wovon alle Spieler
     von Digimon-Online
     träumen![pause]
   - |-
-    [\x0207]Onkel Carlos[\x0207]Du bist ein Star,
+    \x02\x07Onkel Carlos\x02\x07Du bist ein Star,
     wenn du Server
-    Champ wirst![pause][\x0203]Ich bin ja so
+    Champ wirst![pause]\x02\x03Ich bin ja so
     neidisch.[pause]
   - |-
-    [\x0207]Onkel Carlos[\x0207]Was, ein Weg ins
-    Zentrum?![pause][\x0203]Willst du versuchen
-    rein zu spingsen?[pause][\x0203]Ich will auch.[pause]
+    \x02\x07Onkel Carlos\x02\x07Was, ein Weg ins
+    Zentrum?![pause]\x02\x03Willst du versuchen
+    rein zu spingsen?[pause]\x02\x03Ich will auch.[pause]
   - |-
-    [\x0207]Onkel Carlos[\x0207]Blauer Agumon, dann
-    bis du blauer Greymon.[pause][\x0203]Das klingt echt
+    \x02\x07Onkel Carlos\x02\x07Blauer Agumon, dann
+    bis du blauer Greymon.[pause]\x02\x03Das klingt echt
     cool.[pause]
-  - "[\\x0207]Onkel Carlos[\\x0207]Ohhhh, das \nTurnier ist\nabgesagt![pause][\\x0203]Jetzt hab' ich\ngar keinen\nSpaβ mehr.[pause]"
-  - "[\\x0207]Onkel Carlos[\\x0207]Ohhhh, das \nTurnier ist\nabgesagt![pause][\\x0203]Jetzt hab' ich\ngar keinen\nSpaβ mehr.[pause]"
+  - "\\x02\\x07Onkel Carlos\\x02\\x07Ohhhh, das \nTurnier ist\nabgesagt![pause]\\x02\\x03Jetzt hab' ich\ngar keinen\nSpaβ mehr.[pause]"
+  - "\\x02\\x07Onkel Carlos\\x02\\x07Ohhhh, das \nTurnier ist\nabgesagt![pause]\\x02\\x03Jetzt hab' ich\ngar keinen\nSpaβ mehr.[pause]"
   - |-
-    [\x0207]Onkel Carlos[\x0207]Diese A.o.A![pause][\x0203]Sie haben mir den
+    \x02\x07Onkel Carlos\x02\x07Diese A.o.A![pause]\x02\x03Sie haben mir den
     Spaβ verdorben, das
     wird bestraft.[pause]
   - |-
-    [\x0207]Onkel Carlos[\x0207]Hab' gehört, du
+    \x02\x07Onkel Carlos\x02\x07Hab' gehört, du
     hast den Gamemaster
-    besiegt![pause][\x0203]Mach keinen Fehler.
+    besiegt![pause]\x02\x03Mach keinen Fehler.
     Die Mädels werden
     dir nachlaufen![pause]
   - |-
-    [\x0207]Onkel Carlos[\x0207]Hab' gehört, du
+    \x02\x07Onkel Carlos\x02\x07Hab' gehört, du
     bekämpfst die
-    A.o.A![pause][\x0203]Gibt ihnen ein
+    A.o.A![pause]\x02\x03Gibt ihnen ein
     paar Schläge
     von mir.[pause]
-  - "[\\x0207]Onkel Carlos[\\x0207]Du wirst der\nStar der Stadt\nsein![pause][\\x0203]Ich wünschte, \nich wäre du.[pause]"
+  - "\\x02\\x07Onkel Carlos\\x02\\x07Du wirst der\nStar der Stadt\nsein![pause]\\x02\\x03Ich wünschte, \nich wäre du.[pause]"
   - |-
-    [\x0207]Onkel Carlos[\x0207]Oink, oink,
+    \x02\x07Onkel Carlos\x02\x07Oink, oink,
     ooooink![pause]
   - '43'
   - |-
-    [\x0207]Pingelige Freda[\x0207]Schade, dass wir
+    \x02\x07Pingelige Freda\x02\x07Schade, dass wir
     nicht in die echte
-    Welt zurückkönnen[pause][\x0203]Dann mach ich
+    Welt zurückkönnen[pause]\x02\x03Dann mach ich
     halt hier sauber![pause]
   - |-
-    [\x0207]Pingelige Freda[\x0207]Ich hab' nie von
+    \x02\x07Pingelige Freda\x02\x07Ich hab' nie von
     einem Weg ins
-    Zentrum gehört.[pause][\x0203]Wenn du Hausmeister
+    Zentrum gehört.[pause]\x02\x03Wenn du Hausmeister
     wirst, lassen sie
     dich vielleicht rein.[pause]
   - |-
-    [\x0207]Pingelige Freda[\x0207]Hier,
-    und da....[pause][\x0203]Sogar die digitale
+    \x02\x07Pingelige Freda\x02\x07Hier,
+    und da....[pause]\x02\x03Sogar die digitale
     Welt wird dreckig.[pause]
   - |-
-    [\x0207]Pingelige Freda[\x0207]Aaah![pause][\x0203]Hast du gesehen?
-    Eine Kakerlake![pause][\x0203]Jetzt wird aber
+    \x02\x07Pingelige Freda\x02\x07Aaah![pause]\x02\x03Hast du gesehen?
+    Eine Kakerlake![pause]\x02\x03Jetzt wird aber
     ernsthaft geputzt![pause]
   - |-
-    [\x0207]Pingelige Freda[\x0207]Was willst
-    du?[pause][\x0203]Ich putze, also
+    \x02\x07Pingelige Freda\x02\x07Was willst
+    du?[pause]\x02\x03Ich putze, also
     bleib mir aus
     den Füβen![pause]
   - |-
-    [\x0207]Pingelige Freda[\x0207]Die A.o.A waren
-    hier![pause][\x0203]Ich habe geputzt
+    \x02\x07Pingelige Freda\x02\x07Die A.o.A waren
+    hier![pause]\x02\x03Ich habe geputzt
     u. nichts mitgekriegt.[pause]
   - |-
-    [\x0207]Pingelige Freda[\x0207]Na, was sagst du?
+    \x02\x07Pingelige Freda\x02\x07Na, was sagst du?
     Sieht das nicht
-    sauber aus?[pause][\x0203]Was? Du erkennst
-    keinen Unterschied?[pause][\x0203]Wie gemein! Sieh
+    sauber aus?[pause]\x02\x03Was? Du erkennst
+    keinen Unterschied?[pause]\x02\x03Wie gemein! Sieh
     lieber noch mal
     genau hin![pause]
   - |-
-    [\x0207]Pingelige Freda[\x0207]Hab' gehört du
+    \x02\x07Pingelige Freda\x02\x07Hab' gehört du
     hast die A.o.A
-    besiegt![pause][\x0203]Also! Ist das kein
+    besiegt![pause]\x02\x03Also! Ist das kein
     gutes Gefühl, so
     aufzuräumen?[pause]
   - |-
-    [\x0207]Pingelige Freda[\x0207]Oink!
+    \x02\x07Pingelige Freda\x02\x07Oink!
     Oi, oi,
     oinnk![pause]
   - '43'
   - |-
-    [\x0207]Item-Fan Sandy[\x0207]Es gibt verschied. Items
+    \x02\x07Item-Fan Sandy\x02\x07Es gibt verschied. Items
     für die einzelnen Digimon
     also überleg es dir gut![pause]
   - |-
-    [\x0207]Item-Fan Sandy[\x0207]Du suchst einen
-    Weg ins Zentrum?[pause][\x0203]Ich hab' nichts
+    \x02\x07Item-Fan Sandy\x02\x07Du suchst einen
+    Weg ins Zentrum?[pause]\x02\x03Ich hab' nichts
     davon gehört.[pause]
   - |-
-    [\x0207]Item-Fan Sandy[\x0207]Manchmal geht der
-    Besitzer weg...[pause][\x0203]Ich frag' mich
+    \x02\x07Item-Fan Sandy\x02\x07Manchmal geht der
+    Besitzer weg...[pause]\x02\x03Ich frag' mich
     wohin... Ziem-
     lich verdächtig.[pause]
   - |-
-    [\x0207]Item-Fan Sandy[\x0207]Besieg das Boss-
+    \x02\x07Item-Fan Sandy\x02\x07Besieg das Boss-
     Digimon in ver-
-    schiedenen Bereichen.[pause][\x0203]Sie haben immer
+    schiedenen Bereichen.[pause]\x02\x03Sie haben immer
     gute Items.[pause]
-  - "[\\x0207]Item-Fan Sandy[\\x0207]Gott sei Dank, die\nA.o.A haben mich\nnicht erwischt![pause][\\x0203]Wär traurig, wenn\ndie mir meine Items \nweggenommen hätten.[pause]"
+  - "\\x02\\x07Item-Fan Sandy\\x02\\x07Gott sei Dank, die\nA.o.A haben mich\nnicht erwischt![pause]\\x02\\x03Wär traurig, wenn\ndie mir meine Items \nweggenommen hätten.[pause]"
   - |-
-    [\x0207]Item-Fan Sandy[\x0207]Kennst du das
-    Digiei des Wissens?[pause][\x0203]Damit kannst du
+    \x02\x07Item-Fan Sandy\x02\x07Kennst du das
+    Digiei des Wissens?[pause]\x02\x03Damit kannst du
     Digimon rufen und in
     den Untergrund gehen.[pause]
-  - "[\\x0207]Item-Fan Sandy[\\x0207]Es gibt Rüstungen\nmit dem gleichen\nNamen.[pause][\\x0203]Wenn du alle hast, \nwird dein\nDigimon stärker.[pause]"
+  - "\\x02\\x07Item-Fan Sandy\\x02\\x07Es gibt Rüstungen\nmit dem gleichen\nNamen.[pause]\\x02\\x03Wenn du alle hast, \nwird dein\nDigimon stärker.[pause]"
   - |-
-    [\x0207]Item-Fan Sandy[\x0207]Welcher Tamer hat
-    die A.o.A besiegt?[pause][\x0203]Er hat bestimmt
+    \x02\x07Item-Fan Sandy\x02\x07Welcher Tamer hat
+    die A.o.A besiegt?[pause]\x02\x03Er hat bestimmt
     viele tolle
     Items![pause]
   - |-
-    [\x0207]Item-Fan Sandy[\x0207]Oink,
+    \x02\x07Item-Fan Sandy\x02\x07Oink,
     oi, oioioink![pause]
   - '43'
   - |-
-    [\x0207]Smith Junior[\x0207]Nebenher macht
-    Papa auch Auktionen.[pause][\x0203]Ist daher manchmal weg.[pause]
+    \x02\x07Smith Junior\x02\x07Nebenher macht
+    Papa auch Auktionen.[pause]\x02\x03Ist daher manchmal weg.[pause]
   - |-
-    [\x0207]Smith Junior[\x0207]Nebenher macht
-    Papa auch Auktionen.[pause][\x0203]Ist daher manchmal weg[pause]
+    \x02\x07Smith Junior\x02\x07Nebenher macht
+    Papa auch Auktionen.[pause]\x02\x03Ist daher manchmal weg[pause]
   - |-
-    [\x0207]Smith Junior[\x0207]Nebenher macht
-    Papa auch Auktionen.[pause][\x0203]Ist daher manchmal weg[pause]
+    \x02\x07Smith Junior\x02\x07Nebenher macht
+    Papa auch Auktionen.[pause]\x02\x03Ist daher manchmal weg[pause]
   - |-
-    [\x0207]Smith Junior[\x0207]Nebenher macht
-    Papa auch Auktionen.[pause][\x0203]Ist daher manchmal weg.[pause]
+    \x02\x07Smith Junior\x02\x07Nebenher macht
+    Papa auch Auktionen.[pause]\x02\x03Ist daher manchmal weg.[pause]
   - |-
-    [\x0207]Smith Junior[\x0207]Nebenher macht
-    Papa auch Auktionen.[pause][\x0203]Ist daher manchmal weg[pause]
+    \x02\x07Smith Junior\x02\x07Nebenher macht
+    Papa auch Auktionen.[pause]\x02\x03Ist daher manchmal weg[pause]
   - |-
-    [\x0207]Smith Junior[\x0207]Nebenher macht
-    Papa auch Auktionen.[pause][\x0203]Ist daher manchmal weg[pause]
+    \x02\x07Smith Junior\x02\x07Nebenher macht
+    Papa auch Auktionen.[pause]\x02\x03Ist daher manchmal weg[pause]
   - |-
-    [\x0207]Smith Junior[\x0207]Nebenher macht
-    Papa auch Auktionen.[pause][\x0203]Ist daher manchmal weg.[pause]
+    \x02\x07Smith Junior\x02\x07Nebenher macht
+    Papa auch Auktionen.[pause]\x02\x03Ist daher manchmal weg.[pause]
   - |-
-    [\x0207]Smith Junior[\x0207]Nebenher macht
-    Papa auch Auktionen.[pause][\x0203]Ist daher manchmal weg[pause]
-  - "[\\x0207][\\x020902]3Ich berühr's \nhalt nochmal...[pause][\\x0203]Hmm...Nichts...\nAlso \"E\" mehrmals\ndrücken bringt nichts.[pause]"
+    \x02\x07Smith Junior\x02\x07Nebenher macht
+    Papa auch Auktionen.[pause]\x02\x03Ist daher manchmal weg[pause]
+  - "\\x02\\x07\\x02\\x09\\x023Ich berühr's \nhalt nochmal...[pause]\\x02\\x03Hmm...Nichts...\nAlso \"E\" mehrmals\ndrücken bringt nichts.[pause]"
   - a
-  - "[\\x0207]Smith Junior[\\x0207]Nebenher \nmacht Papa\nauch Aktionen.[pause][\\x0203]Wenn er also\nweg ist...![pause]"
+  - "\\x02\\x07Smith Junior\\x02\\x07Nebenher \nmacht Papa\nauch Aktionen.[pause]\\x02\\x03Wenn er also\nweg ist...![pause]"
   - |-
-    [\x0207][\x020902]3Das ist ein "M"
+    \x02\x07\x02\x09\x023Das ist ein "M"
     ...das berühre
-    ich jetzt...[pause][\x0203]..........
+    ich jetzt...[pause]\x02\x03..........
     ..........
-    ..........[pause][\x0203]Hä?
+    ..........[pause]\x02\x03Hä?
     Nichts passiert.
     Hmmm...[pause]
-  - "[\\x0207][\\x020902]3Ich berühr's \nhalt nochmal...[pause][\\x0203]Hmm...Nichts...\nAlso \"M\" mehrmals\ndrücken bringt nichts.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ich berühr's \nhalt nochmal...[pause]\\x02\\x03Hmm...Nichts...\nAlso \"M\" mehrmals\ndrücken bringt nichts.[pause]"
   - |-
-    [\x0207][\x020902]3Das ist ein "O"
+    \x02\x07\x02\x09\x023Das ist ein "O"
     ...das berühre
-    ich jetzt...[pause][\x0203]..........
+    ich jetzt...[pause]\x02\x03..........
     ..........
-    ..........[pause][\x0203]Hä?
+    ..........[pause]\x02\x03Hä?
     Nichts passiert.
     Hmmm...[pause]
-  - "[\\x0207][\\x020902]3Ich berühr's \nhalt nochmal...[pause][\\x0203]Hmm...Nichts...\nAlso \"O\" mehrmals\ndrücken bringt nichts.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ich berühr's \nhalt nochmal...[pause]\\x02\\x03Hmm...Nichts...\nAlso \"O\" mehrmals\ndrücken bringt nichts.[pause]"
   - |-
-    [\x0207][\x020902]3Das ist ein "N"
+    \x02\x07\x02\x09\x023Das ist ein "N"
     ...das berühre
-    ich jetzt...[pause][\x0203]..........
+    ich jetzt...[pause]\x02\x03..........
     ..........
-    ..........[pause][\x0203]Hä?
+    ..........[pause]\x02\x03Hä?
     Nichts passiert.
     Hmmm...[pause]
-  - "[\\x0207][\\x020902]3Ich berühr's \nhalt nochmal...[pause][\\x0203]Hmm...Nichts...\nAlso \"N\" mehrmals\ndrücken bringt nichts.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ich berühr's \nhalt nochmal...[pause]\\x02\\x03Hmm...Nichts...\nAlso \"N\" mehrmals\ndrücken bringt nichts.[pause]"
   - |-
-    [\x0207][\x020902]3Das ist ein "S"
+    \x02\x07\x02\x09\x023Das ist ein "S"
     ...das berühre
-    ich jetzt...[pause][\x0203]..........
+    ich jetzt...[pause]\x02\x03..........
     ..........
-    ..........[pause][\x0203]Hä?
+    ..........[pause]\x02\x03Hä?
     Nichts passiert.
     Hmmm...[pause]
-  - "[\\x0207][\\x020902]3Ich berühr's \nhalt nochmal...[pause][\\x0203]Hmm...Nichts...\nAlso \"S\" mehrmals\ndrücken bringt nichts.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ich berühr's \nhalt nochmal...[pause]\\x02\\x03Hmm...Nichts...\nAlso \"S\" mehrmals\ndrücken bringt nichts.[pause]"
   - |-
-    [\x0207][\x020902]3Das ist ein "T"
+    \x02\x07\x02\x09\x023Das ist ein "T"
     ...das berühre
-    ich jetzt...[pause][\x0203]..........
+    ich jetzt...[pause]\x02\x03..........
     ..........
-    ..........[pause][\x0203]Hä?
+    ..........[pause]\x02\x03Hä?
     Nichts passiert.
     Hmmm...[pause]
-  - "[\\x0207][\\x020902]3Ich berühr's \nhalt nochmal...[pause][\\x0203]Hmm...Nichts...\nAlso \"T\" mehrmals\ndrücken bringt nichts.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ich berühr's \nhalt nochmal...[pause]\\x02\\x03Hmm...Nichts...\nAlso \"T\" mehrmals\ndrücken bringt nichts.[pause]"
   - |-
-    [\x0207][\x020902]3Das ist ein "E"
+    \x02\x07\x02\x09\x023Das ist ein "E"
     ...das berühre
-    ich jetzt...[pause][\x0203]..........
+    ich jetzt...[pause]\x02\x03..........
     ..........
-    ..........[pause][\x0203]Hä?
+    ..........[pause]\x02\x03Hä?
     Nichts passiert.
     Hmmm...[pause]
   - |-
-    [\x0207]Mr. Alexei[\x0207]..schluck, schluck
-    haaaa![pause][\x0203]Mensch, hab ich
+    \x02\x07Mr. Alexei\x02\x07..schluck, schluck
+    haaaa![pause]\x02\x03Mensch, hab ich
     'n Durst![pause]
   - |-
-    [\x0207]Kellnerin Debbie[\x0207]Wartung zu so
-    einer Zeit...[pause][\x0203]Mr. Alexei wird sich
+    \x02\x07Kellnerin Debbie\x02\x07Wartung zu so
+    einer Zeit...[pause]\x02\x03Mr. Alexei wird sich
     wieder beschweren.[pause]
   - |-
-    [\x0207]Kellnerin Debbie[\x0207]Mr. Alexei ist z.Zt.
-    nicht sehr aufgebracht.[pause][\x0203]Er lässt es ständig
+    \x02\x07Kellnerin Debbie\x02\x07Mr. Alexei ist z.Zt.
+    nicht sehr aufgebracht.[pause]\x02\x03Er lässt es ständig
     an mir aus - also
     wirklich![pause]
-  - "[\\x0207]Kellnerin Debbie[\\x0207]Ehrlich! Was findet \nJohn bloβ an ihr![pause]"
-  - "[\\x0207]Kellnerin Debbie[\\x0207]Ehrlich! Was findet \nJohn bloβ an ihr![pause]"
-  - "[\\x0207]Kellnerin Debbie[\\x0207]Alle Mann \nverstecken sich\nim Speicher.[pause][\\x0203]Mr. Alexei zu\ntragen war ganz\nschön schwierig![pause]"
-  - "[\\x0207]Kellnerin Debbie[\\x0207]Also die Gamemaster \nwar der Fiesling.[pause][\\x0203]Ich wusste doch,\nsie führt nichts\nGutes im Schilde![pause]"
+  - "\\x02\\x07Kellnerin Debbie\\x02\\x07Ehrlich! Was findet \nJohn bloβ an ihr![pause]"
+  - "\\x02\\x07Kellnerin Debbie\\x02\\x07Ehrlich! Was findet \nJohn bloβ an ihr![pause]"
+  - "\\x02\\x07Kellnerin Debbie\\x02\\x07Alle Mann \nverstecken sich\nim Speicher.[pause]\\x02\\x03Mr. Alexei zu\ntragen war ganz\nschön schwierig![pause]"
+  - "\\x02\\x07Kellnerin Debbie\\x02\\x07Also die Gamemaster \nwar der Fiesling.[pause]\\x02\\x03Ich wusste doch,\nsie führt nichts\nGutes im Schilde![pause]"
   - |-
-    [\x0207]Kellnerin Debbie[\x0207]John sollte aufhören,
-    sie anzuhimmeln![pause][\x0203]Er soll mal mich
+    \x02\x07Kellnerin Debbie\x02\x07John sollte aufhören,
+    sie anzuhimmeln![pause]\x02\x03Er soll mal mich
     ansehen![pause]
   - |-
-    [\x0207]Kellnerin Debbie[\x0207]John hat mir einen
+    \x02\x07Kellnerin Debbie\x02\x07John hat mir einen
     Heiratsantrag
-    gemacht![pause][\x0203]Natürlich habe ich
+    gemacht![pause]\x02\x03Natürlich habe ich
     Ja gesagt! Werden
     wir glücklich sein![pause]
   - |-
-    [\x0207]Kellnerin Debbie[\x0207]Oink, oink,
+    \x02\x07Kellnerin Debbie\x02\x07Oink, oink,
     ooooi...[pause]
   - '43'
   - |-
-    [\x0207]Mr. Alexei[\x0207]Hallo du da!
-    Hast du Spaβ?![pause][\x0203]Mir geht's
+    \x02\x07Mr. Alexei\x02\x07Hallo du da!
+    Hast du Spaβ?![pause]\x02\x03Mir geht's
     nämlich lausig![pause]
   - |-
-    [\x0207]Beschw. Alexei[\x0207]...Zzzzzz,
+    \x02\x07Beschw. Alexei\x02\x07...Zzzzzz,
     ...Zzzzzz.[pause]
   - |-
-    [\x0207]Beschw. Alexei[\x0207]...Zzzzzz,
+    \x02\x07Beschw. Alexei\x02\x07...Zzzzzz,
     ...Zzzzzz.[pause]
   - |-
-    [\x0207]Mr. Alexei[\x0207]Was, die
-    A.o.A?![pause][\x0203]Lass sie kommen!
+    \x02\x07Mr. Alexei\x02\x07Was, die
+    A.o.A?![pause]\x02\x03Lass sie kommen!
     Ich hab' nichts
     zu verlieren.[pause]
   - |-
-    [\x0207]Mr. Alexei[\x0207]Ooh, mein
-    Magengeschwür![pause][\x0203]Bitte ein
+    \x02\x07Mr. Alexei\x02\x07Ooh, mein
+    Magengeschwür![pause]\x02\x03Bitte ein
     paar Rennie![pause]
   - |-
-    [\x0207]Mr. Alexei[\x0207]Ich hätte es
-    wissen müssen.[pause][\x0203]Ich schwöre mich nie
+    \x02\x07Mr. Alexei\x02\x07Ich hätte es
+    wissen müssen.[pause]\x02\x03Ich schwöre mich nie
     mehr zu beschweren.[pause]
   - |-
-    [\x0207]Mr. Alexei[\x0207]Oh, alles Mist!
+    \x02\x07Mr. Alexei\x02\x07Oh, alles Mist!
     Mein Job, mein Auto,
-    mein Haus...[pause][\x0203]Ohh! Eh... Hi,
+    mein Haus...[pause]\x02\x03Ohh! Eh... Hi,
     wie geht's?[pause]
   - |-
-    [\x0207]Beschw. Alexei[\x0207]Oiiiiink,
+    \x02\x07Beschw. Alexei\x02\x07Oiiiiink,
     oooink, oinkkkk.[pause]
   - '43'
   - |-
-    [\x0207]Master John[\x0207]Wartung ist
-    üblich.[pause][\x0203]Wie wär's mit was
+    \x02\x07Master John\x02\x07Wartung ist
+    üblich.[pause]\x02\x03Wie wär's mit was
     zu Trinken? Milch,
     natürlich.[pause]
   - |-
-    [\x0207]Master John[\x0207]Nur Personal darf
-    ins Admin-Center.[pause][\x0203]Auβerdem verloren
+    \x02\x07Master John\x02\x07Nur Personal darf
+    ins Admin-Center.[pause]\x02\x03Auβerdem verloren
     gegangene Digimon
     ohne Partner.[pause]
   - |-
-    [\x0207]Master John[\x0207]Ist Gamemaster
-    nicht schön?[pause][\x0203]Sie ist genau
+    \x02\x07Master John\x02\x07Ist Gamemaster
+    nicht schön?[pause]\x02\x03Sie ist genau
     mein Typ.[pause]
   - |-
-    [\x0207]Master John[\x0207]Ist Gamemaster
-    nicht schön?[pause][\x0203]Sie ist genau
+    \x02\x07Master John\x02\x07Ist Gamemaster
+    nicht schön?[pause]\x02\x03Sie ist genau
     mein Typ.[pause]
-  - "[\\x0207]Master John[\\x0207]Als die A.o.A \nkamen, dachte ich,\nes wär aus mit uns[pause]"
+  - "\\x02\\x07Master John\\x02\\x07Als die A.o.A \nkamen, dachte ich,\nes wär aus mit uns[pause]"
   - |-
-    [\x0207]Master John[\x0207]Gamemaster war
-    bei den A.o.A?[pause][\x0203]Ich bin schockiert.[pause]
+    \x02\x07Master John\x02\x07Gamemaster war
+    bei den A.o.A?[pause]\x02\x03Ich bin schockiert.[pause]
   - |-
-    [\x0207]Master John[\x0207]Lisa von S.A.P
-    ist süβ.[pause][\x0203]Und sie ist cool.
+    \x02\x07Master John\x02\x07Lisa von S.A.P
+    ist süβ.[pause]\x02\x03Und sie ist cool.
     Ich bin ein groβer
     Fan von ihr![pause]
   - |-
-    [\x0207]Master John[\x0207]Ich bin so glücklich,
-    ich könnte singen![pause][\x0203]Ich war mal Sänger
+    \x02\x07Master John\x02\x07Ich bin so glücklich,
+    ich könnte singen![pause]\x02\x03Ich war mal Sänger
     in einer Band![pause]
   - |-
-    [\x0207]Master John[\x0207]Oin, oink,
+    \x02\x07Master John\x02\x07Oin, oink,
     Oiiiii...[pause]
   - a
   - a
@@ -1351,7 +1351,7 @@ strings:
   - a
   - a
   - |-
-    [\x0207][\x020902]3Yeah! Ich habe
+    \x02\x07\x02\x09\x023Yeah! Ich habe
     eine Power-
     ladung![pause]
   - a
@@ -1391,70 +1391,70 @@ strings:
   - a
   - a
   - |-
-    [\x0207]DO Wache[\x0207]Das ist Asuka City,
+    \x02\x07DO Wache\x02\x07Das ist Asuka City,
     hier ist das Admin-
     Center von MAGAMI.[pause]
   - |-
-    [\x0207]DO Wache[\x0207]Wir entschuldigen die
-    Unannehmlichkeiten.[pause][\x0203]Wir melden uns, wenn
+    \x02\x07DO Wache\x02\x07Wir entschuldigen die
+    Unannehmlichkeiten.[pause]\x02\x03Wir melden uns, wenn
     die Wartung abge-
     schlossen ist.[pause]
   - |-
-    [\x0207]DO Wache[\x0207]Wir entschuldigen die
-    Unannehmlichkeiten.[pause][\x0203]Wir melden uns, wenn
+    \x02\x07DO Wache\x02\x07Wir entschuldigen die
+    Unannehmlichkeiten.[pause]\x02\x03Wir melden uns, wenn
     die Wartung abge-
     schlossen ist.[pause]
-  - "[\\x0207]DO Wache[\\x0207]Ähm, Entschuldigung,\ndie Wartung ist noch\nnicht abgeschlossen.[pause][\\x0203]Warte noch ein \nbisschen.[pause]"
+  - "\\x02\\x07DO Wache\\x02\\x07Ähm, Entschuldigung,\ndie Wartung ist noch\nnicht abgeschlossen.[pause]\\x02\\x03Warte noch ein \nbisschen.[pause]"
   - |-
-    [\x0207]DO Wache[\x0207]Bin nicht die A.o.A![pause][\x0203]Ich bin zum
+    \x02\x07DO Wache\x02\x07Bin nicht die A.o.A![pause]\x02\x03Ich bin zum
     Beschützen hier![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Die A.o.A haben so
-    viel Ärger gemacht...[pause][\x0203]Wir schützen die Stadt
+    \x02\x07DO Wache\x02\x07Die A.o.A haben so
+    viel Ärger gemacht...[pause]\x02\x03Wir schützen die Stadt
     jetzt mit frischer
     Hoffnung![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Keine ungewöhn-
+    \x02\x07DO Wache\x02\x07Keine ungewöhn-
     lichen Vorkommnisse
-    in Asuka City![pause][\x0203]Mr. [\x020801][\x020501],
+    in Asuka City![pause]\x02\x03Mr. \x02\x08\x01\x02\x05\x01,
     besiege sie![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Gut gemacht,
-    Mr. [\x020801][\x020501]![pause][\x0203]Du bist der Retter
+    \x02\x07DO Wache\x02\x07Gut gemacht,
+    Mr. \x02\x08\x01\x02\x05\x01![pause]\x02\x03Du bist der Retter
     von Digimon-Online![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Oink!
+    \x02\x07DO Wache\x02\x07Oink!
     Oii, oiiink![pause]
   - '43'
-  - "[\\x0207]DO Wache[\\x0207]Begrüβungen und\nAbschiede, Kämpfe\nund Freundschaft.[pause][\\x0203]In Asuka City\nfindet das \nalles statt.[pause]"
-  - "[\\x0207]DO Wache[\\x0207]Mach dir keine \nSorgen, weil du \nnicht zurück kannst.[pause][\\x0203]Genieβ einfach\nden Augenblick![pause]"
+  - "\\x02\\x07DO Wache\\x02\\x07Begrüβungen und\nAbschiede, Kämpfe\nund Freundschaft.[pause]\\x02\\x03In Asuka City\nfindet das \nalles statt.[pause]"
+  - "\\x02\\x07DO Wache\\x02\\x07Mach dir keine \nSorgen, weil du \nnicht zurück kannst.[pause]\\x02\\x03Genieβ einfach\nden Augenblick![pause]"
   - |-
-    [\x0207]DO Wache[\x0207]Ein Weg ins
+    \x02\x07DO Wache\x02\x07Ein Weg ins
     Admin-
-    Center?[pause][\x0203]Da drin gibt es
+    Center?[pause]\x02\x03Da drin gibt es
     nichts Interessantes.[pause]
-  - "[\\x0207]DO Wache[\\x0207]Mach dir keine \nSorgen, weil du \nnicht zurück kannst.[pause][\\x0203]Genieβ einfach\nden Augenblick![pause]"
+  - "\\x02\\x07DO Wache\\x02\\x07Mach dir keine \nSorgen, weil du \nnicht zurück kannst.[pause]\\x02\\x03Genieβ einfach\nden Augenblick![pause]"
   - |-
-    [\x0207]DO Wache[\x0207]Wir werden uns
+    \x02\x07DO Wache\x02\x07Wir werden uns
     den A.o.A nie
-    ergeben![pause][\x0203]Denn wir haben
+    ergeben![pause]\x02\x03Denn wir haben
     Mut![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Unsere Gamemaster
-    war bei den A.o.A.[pause][\x0203]Am Ende kann man
+    \x02\x07DO Wache\x02\x07Unsere Gamemaster
+    war bei den A.o.A.[pause]\x02\x03Am Ende kann man
     nur sich selbst
     vertrauen.[pause]
   - |-
-    [\x0207]DO Wache[\x0207]Ich gelobe, diese
-    Stadt zu beschützen.[pause][\x0203]Denn mehr kann ich
+    \x02\x07DO Wache\x02\x07Ich gelobe, diese
+    Stadt zu beschützen.[pause]\x02\x03Denn mehr kann ich
     zurzeit nicht tun![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Die A.o.A sind
-    weg![pause][\x0203]Gib nicht auf,
+    \x02\x07DO Wache\x02\x07Die A.o.A sind
+    weg![pause]\x02\x03Gib nicht auf,
     die Guten
     gewinnen![pause]
   - |-
-    [\x0207]DO Wache[\x0207]Oink, oink
+    \x02\x07DO Wache\x02\x07Oink, oink
     oiooioioink![pause]
   - '43'
   - a
@@ -1744,38 +1744,38 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Schreiber Rikako[\x0207]Wer teure Items
+    \x02\x07Schreiber Rikako\x02\x07Wer teure Items
     kaufen kann,
-    hat es gut![pause][\x0203]Ich werde reich
+    hat es gut![pause]\x02\x03Ich werde reich
     heiraten![pause]
   - a
   - a
   - |-
-    [\x0207]Datamon[\x0207]Nur das Personal
+    \x02\x07Datamon\x02\x07Nur das Personal
     von Digimon-Online
-    darf durch.[pause][\x0203]Mit 'nem Personal-
+    darf durch.[pause]\x02\x03Mit 'nem Personal-
     pass kommst du
     zur anderen Seite.[pause]
   - |-
-    [\x0207]Datamon[\x0207]Hinter dem
+    \x02\x07Datamon\x02\x07Hinter dem
     Tor sind ko-
-    mische Typen.[pause][\x0203]Sei vorsichtig![pause]
-  - "[\\x0207]Datamon[\\x0207]Datamon\nhasst die \nA.o.A![pause][\\x0203]Ich lass sie\nnicht durch![pause]"
+    mische Typen.[pause]\x02\x03Sei vorsichtig![pause]
+  - "\\x02\\x07Datamon\\x02\\x07Datamon\nhasst die \nA.o.A![pause]\\x02\\x03Ich lass sie\nnicht durch![pause]"
   - |-
-    [\x0207]Datamon[\x0207]Personalpass
-    bestätigt.[pause][\x0203]Du kannst je-
+    \x02\x07Datamon\x02\x07Personalpass
+    bestätigt.[pause]\x02\x03Du kannst je-
     derzeit durch[pause]
   - |-
-    [\x0207]Datamon[\x0207]Du hast die
-    A.o.A besiegt![pause][\x0203]Datamon ist
+    \x02\x07Datamon\x02\x07Du hast die
+    A.o.A besiegt![pause]\x02\x03Datamon ist
     bewegt![pause]
   - |-
-    [\x0207]Datamon[\x0207]Was passiert
-    da oben?[pause][\x0203]Jede Menge
+    \x02\x07Datamon\x02\x07Was passiert
+    da oben?[pause]\x02\x03Jede Menge
     komische Digimon![pause]
   - '43'
   - |-
-    [\x0207]Soldat[\x0207]Wir sind anders
+    \x02\x07Soldat\x02\x07Wir sind anders
     als die
     Vorherigen![pause]
   - a
@@ -1785,22 +1785,22 @@ strings:
   - a
   - a
   - a
-  - "[\\x0207]Digitations-Navi.[\\x0207]Dies ist das \nDigitations-\nNavigations-Desk[pause][\\x0203]Willst du Infos\nzur Digitation\nhören?[pause]"
-  - "[\\x0207]Digimon-Navig.[\\x0207]Dies ist das \nDigimon-Navi-\ngations-Desk.[pause][\\x0203]Willst du Infos\nzu Partner-Digi-\nmon hören?[pause]"
+  - "\\x02\\x07Digitations-Navi.\\x02\\x07Dies ist das \nDigitations-\nNavigations-Desk[pause]\\x02\\x03Willst du Infos\nzur Digitation\nhören?[pause]"
+  - "\\x02\\x07Digimon-Navig.\\x02\\x07Dies ist das \nDigimon-Navi-\ngations-Desk.[pause]\\x02\\x03Willst du Infos\nzu Partner-Digi-\nmon hören?[pause]"
   - |-
-    [\x0207]Digimon-Navig.[\x0207]Oioioioioi
+    \x02\x07Digimon-Navig.\x02\x07Oioioioioi
     oioioink![pause]
   - |-
-    [\x0207]Digimon-Navig.[\x0207]Oioioioioi?
+    \x02\x07Digimon-Navig.\x02\x07Oioioioioi?
     Oink?![pause]
   - |-
-    [\x0207]Dr. Kadomat.[\x0207]Oink!
+    \x02\x07Dr. Kadomat.\x02\x07Oink!
     Oink! Oink!
     Oink! Oink![pause]
-  - "[\\x0207]Digitations-Navi[\\x0207]Puh, wusste\ngar nicht, was\npassiert.[pause][\\x0203]Trotzdem, \nwillkommen im\nDigmimon-Labor![pause]"
+  - "\\x02\\x07Digitations-Navi\\x02\\x07Puh, wusste\ngar nicht, was\npassiert.[pause]\\x02\\x03Trotzdem, \nwillkommen im\nDigmimon-Labor![pause]"
   - |-
-    [\x0207]Digimon-Navig.[\x0207]Ich bin froh.
-    Dir geht's gut![pause][\x0203]Nun denn... Will-
+    \x02\x07Digimon-Navig.\x02\x07Ich bin froh.
+    Dir geht's gut![pause]\x02\x03Nun denn... Will-
     kommen im Digimon
     Navigations-Zähler![pause]
   - '43'
@@ -1809,166 +1809,166 @@ strings:
   - a
   - a
   - a
-  - "[\\x0207]Chicago-Green[\\x0207]Nun, da können\nwir nichts \nmachen.[pause][\\x0203]Ich denke ich mach\nein Nickerchen.[pause]"
+  - "\\x02\\x07Chicago-Green\\x02\\x07Nun, da können\nwir nichts \nmachen.[pause]\\x02\\x03Ich denke ich mach\nein Nickerchen.[pause]"
   - |-
-    [\x0207]Chicago-Green[\x0207]Ich wollte
-    schlafen...[pause][\x0203]Aber Gabumon
+    \x02\x07Chicago-Green\x02\x07Ich wollte
+    schlafen...[pause]\x02\x03Aber Gabumon
     schnarcht zu
     laut.[pause]
   - |-
-    [\x0207]Chicago-Green[\x0207]Ich wollte
-    schlafen...[pause][\x0203]Aber Gabumon
+    \x02\x07Chicago-Green\x02\x07Ich wollte
+    schlafen...[pause]\x02\x03Aber Gabumon
     schnarcht zu
     laut.[pause]
   - |-
-    [\x0207]Chicago-Green[\x0207]Eins, zwei,
-    drei...[pause][\x0203]Schäfchen zählen
+    \x02\x07Chicago-Green\x02\x07Eins, zwei,
+    drei...[pause]\x02\x03Schäfchen zählen
     hilft nicht![pause]
-  - "[\\x0207]Chicago[\\x0207]Sehr nur meine\nDigimon![pause][\\x0203]Sie schlafen \nbei diesem\nLärm![pause][\\x0203]Ist mir etwas\npeinlich.[pause]"
-  - "[\\x0207]Chicago-Green[\\x0207]Hallo ihr da,\nwacht auf![pause][\\x0203]Ok, jetzt\nwerde ich \nmüde.[pause]"
+  - "\\x02\\x07Chicago\\x02\\x07Sehr nur meine\nDigimon![pause]\\x02\\x03Sie schlafen \nbei diesem\nLärm![pause]\\x02\\x03Ist mir etwas\npeinlich.[pause]"
+  - "\\x02\\x07Chicago-Green\\x02\\x07Hallo ihr da,\nwacht auf![pause]\\x02\\x03Ok, jetzt\nwerde ich \nmüde.[pause]"
   - |-
-    [\x0207]Chicago-Green[\x0207]Ob Digimon wohl
-    Schlaf brauchen...?[pause][\x0203]Ich werde müde,
+    \x02\x07Chicago-Green\x02\x07Ob Digimon wohl
+    Schlaf brauchen...?[pause]\x02\x03Ich werde müde,
     wenn ich nur
     dran denke.[pause]
-  - "[\\x0207]Chicago-Green[\\x0207]Was! Alle \nA.o.A wurden\ngefasst![pause][\\x0203]Wow! Ich hätte\nnicht schlafen\nsollen![pause]"
+  - "\\x02\\x07Chicago-Green\\x02\\x07Was! Alle \nA.o.A wurden\ngefasst![pause]\\x02\\x03Wow! Ich hätte\nnicht schlafen\nsollen![pause]"
   - |-
-    [\x0207]Chicago-Green[\x0207]Oooink,
+    \x02\x07Chicago-Green\x02\x07Oooink,
     oink, oink![pause]
   - '43'
   - |-
-    [\x0207]Smith Junior[\x0207]Oink,
+    \x02\x07Smith Junior\x02\x07Oink,
     oiiink, oink![pause]
   - |-
-    [\x0207]Miss Asami[\x0207]Nur Auserwählte
+    \x02\x07Miss Asami\x02\x07Nur Auserwählte
     kommen hierher.[pause]
   - |-
-    [\x0207]Miss Asami[\x0207]Die hier verkauften
+    \x02\x07Miss Asami\x02\x07Die hier verkauften
     Items sind alle
     ungewöhnlich.[pause]
   - |-
-    [\x0207]Miss Asami[\x0207]Die hier verkauften
+    \x02\x07Miss Asami\x02\x07Die hier verkauften
     Items sind alle
     ungewöhnlich.[pause]
   - |-
-    [\x0207]Miss Asami[\x0207]Die hier verkauften
+    \x02\x07Miss Asami\x02\x07Die hier verkauften
     Items sind alle
     ungewöhnlich.[pause]
-  - "[\\x0207]Miss Asami[\\x0207]Gehst du zu\nden Auktionen?[pause][\\x0203]Wenn du Items\nmagst, solltest \ndu da oft hin.[pause]"
-  - "[\\x0207]Miss Asami[\\x0207]Gehst du zu\nden Auktionen?[pause][\\x0203]Wenn du Items\nmagst solltest \ndu da oft gucken.[pause]"
+  - "\\x02\\x07Miss Asami\\x02\\x07Gehst du zu\nden Auktionen?[pause]\\x02\\x03Wenn du Items\nmagst, solltest \ndu da oft hin.[pause]"
+  - "\\x02\\x07Miss Asami\\x02\\x07Gehst du zu\nden Auktionen?[pause]\\x02\\x03Wenn du Items\nmagst solltest \ndu da oft gucken.[pause]"
   - |-
-    [\x0207]Miss Asami[\x0207]Scheint, du hast
+    \x02\x07Miss Asami\x02\x07Scheint, du hast
     jetzt ganz gute
-    Items.[pause][\x0203]Es gibt aber noch
+    Items.[pause]\x02\x03Es gibt aber noch
     so viel mehr
     Items in dieser Welt.[pause]
-  - "[\\x0207]Miss Asami[\\x0207]Groβe Neuigkeiten!\nDie A.o.A sind \nbesiegt![pause][\\x0203]Und wenn ich alle\nItems haben kann, \nbin ich glücklich![pause]"
+  - "\\x02\\x07Miss Asami\\x02\\x07Groβe Neuigkeiten!\nDie A.o.A sind \nbesiegt![pause]\\x02\\x03Und wenn ich alle\nItems haben kann, \nbin ich glücklich![pause]"
   - |-
-    [\x0207]Miss Asami[\x0207]Oioink,
+    \x02\x07Miss Asami\x02\x07Oioink,
     oioinkk oink![pause]
   - a
   - |-
-    [\x0207]Riggs aus LA[\x0207]Was? Gottes-
+    \x02\x07Riggs aus LA\x02\x07Was? Gottes-
     Hürde ist hier
-    auch nicht?[pause][\x0203]Das ist komisch...
+    auch nicht?[pause]\x02\x03Das ist komisch...
     Hab' gehört, sie wär'
     in Asuka City![pause]
   - |-
-    [\x0207]Riggs aus LA[\x0207]Was? Sniper-
+    \x02\x07Riggs aus LA\x02\x07Was? Sniper-
     Schild ist hier
-    auch nicht?[pause][\x0203]Das ist komisch...
+    auch nicht?[pause]\x02\x03Das ist komisch...
     Hab' gehört, es wär'
     in Asuka City![pause]
   - |-
-    [\x0207]Riggs aus LA[\x0207]Was? Dramon-
+    \x02\x07Riggs aus LA\x02\x07Was? Dramon-
     Schild ist hier
-    auch nicht?[pause][\x0203]Das ist komisch...
+    auch nicht?[pause]\x02\x03Das ist komisch...
     Hab' gehört, es wär'
     in Asuka City![pause]
   - |-
-    [\x0207]Riggs aus LA[\x0207]Was? Gefährlicher
+    \x02\x07Riggs aus LA\x02\x07Was? Gefährlicher
     Zahn ist hier
-    auch nicht?[pause][\x0203]Das ist komisch...
+    auch nicht?[pause]\x02\x03Das ist komisch...
     Hab' gehört, er wär'
     in Asuka City![pause]
   - |-
-    [\x0207]Riggs aus LA[\x0207]Was? Sniper-
+    \x02\x07Riggs aus LA\x02\x07Was? Sniper-
     Kanone ist hier
-    auch nicht?[pause][\x0203]Das ist komisch...
+    auch nicht?[pause]\x02\x03Das ist komisch...
     Hab' gehört, sie wär'
     in Asuka City![pause]
   - |-
-    [\x0207]Riggs aus LA[\x0207]Was? Ronin-
+    \x02\x07Riggs aus LA\x02\x07Was? Ronin-
     klinge ist hier
-    auch nicht?[pause][\x0203]Das ist komisch...
+    auch nicht?[pause]\x02\x03Das ist komisch...
     Hab' gehört, sie wär'
     in Asuka City![pause]
   - |-
-    [\x0207]Riggs aus LA[\x0207]Was? Ronin-
+    \x02\x07Riggs aus LA\x02\x07Was? Ronin-
     Rüstung ist hier
-    auch nicht?[pause][\x0203]Das ist komisch...
+    auch nicht?[pause]\x02\x03Das ist komisch...
     Hab' gehört, sie wär'
     in Asuka City![pause]
   - |-
-    [\x0207]Riggs aus LA[\x0207]Was? Berserker-
+    \x02\x07Riggs aus LA\x02\x07Was? Berserker-
     Anzug ist hier
-    auch nicht?[pause][\x0203]Das ist komisch...
+    auch nicht?[pause]\x02\x03Das ist komisch...
     Hab' gehört, er wär'
     in Asuka City![pause]
   - |-
-    [\x0207]Riggs aus LA[\x0207]Oioioio, oink,
+    \x02\x07Riggs aus LA\x02\x07Oioioio, oink,
     oioionk, oiink![pause]
   - '43'
   - a
   - |-
-    [\x0207][\x020902]3Yeah!
+    \x02\x07\x02\x09\x023Yeah!
     Ich habe Eisen-
     handschuhe![pause]
   - |-
-    [\x0207][\x020902]3Yeah!
+    \x02\x07\x02\x09\x023Yeah!
     Ich habe eine
     rote Klinge![pause]
   - a
   - a
   - |-
-    [\x0207][\x020902]3Yeah! Ich habe
+    \x02\x07\x02\x09\x023Yeah! Ich habe
     eine Wiederher-
     stellungsdiskette![pause]
   - a
   - |-
-    [\x0207][\x020902]3Yeah!
+    \x02\x07\x02\x09\x023Yeah!
     Ich habe ein
     Metallhorn![pause]
   - |-
-    [\x0207][\x020902]3Yeah! Hab'
+    \x02\x07\x02\x09\x023Yeah! Hab'
     300 BIT![pause]
   - a
   - |-
-    [\x0207]Schelmischer Mat[\x0207]Heh heh heh
+    \x02\x07Schelmischer Mat\x02\x07Heh heh heh
     Hier kann man prima
     Streiche spielen![pause]
   - |-
-    [\x0207]Schelmischer Mat[\x0207]Von hier aus
+    \x02\x07Schelmischer Mat\x02\x07Von hier aus
     kommst du nicht
-    nach Asuka City![pause][\x0203]Auch ich bin
+    nach Asuka City![pause]\x02\x03Auch ich bin
     ausgesperrt![pause]
   - |-
-    [\x0207]Schelmischer Mat[\x0207]...was ist los?![pause][\x0203]Auβerhalb von
+    \x02\x07Schelmischer Mat\x02\x07...was ist los?![pause]\x02\x03Auβerhalb von
     Asuka City macht
     es keinen Spaβ![pause]
   - |-
-    [\x0207]Schelmischer Mat[\x0207]Wer hätte gedacht,
+    \x02\x07Schelmischer Mat\x02\x07Wer hätte gedacht,
     dass die A.o.A
-    hier sind![pause][\x0203]Keine Zeit zum
+    hier sind![pause]\x02\x03Keine Zeit zum
     Streiche spielen.[pause]
   - |-
-    [\x0207]Schelmischer Mat[\x0207]Gamemaster war
-    bei den A.o.A![pause][\x0203]Man weiβ nie.
+    \x02\x07Schelmischer Mat\x02\x07Gamemaster war
+    bei den A.o.A![pause]\x02\x03Man weiβ nie.
     Heh heh heh![pause]
-  - "[\\x0207]Schelmischer Mat[\\x0207]Ich weiβ nicht wo\ndie A.o.A sind.[pause][\\x0203]Ich bleibe hier \nund verhalte mich\nruhig.[pause]"
-  - "[\\x0207]Schelmischer Mat[\\x0207]Heh heh heh, gut\ndass die A.o.A\ngefasst sind.[pause][\\x0203]Jetzt kann ich \nwieder Streiche\nspielen![pause]"
+  - "\\x02\\x07Schelmischer Mat\\x02\\x07Ich weiβ nicht wo\ndie A.o.A sind.[pause]\\x02\\x03Ich bleibe hier \nund verhalte mich\nruhig.[pause]"
+  - "\\x02\\x07Schelmischer Mat\\x02\\x07Heh heh heh, gut\ndass die A.o.A\ngefasst sind.[pause]\\x02\\x03Jetzt kann ich \nwieder Streiche\nspielen![pause]"
   - |-
-    [\x0207]Schelmischer Mat[\x0207]Oioioioi!
+    \x02\x07Schelmischer Mat\x02\x07Oioioioi!
     Oink, oiiink![pause]
   - '43'
   - a
@@ -2005,97 +2005,97 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Chief Milly[\x0207]Oh, ich war
-    so nah dran![pause][\x0203]Den Nächsten
+    \x02\x07Chief Milly\x02\x07Oh, ich war
+    so nah dran![pause]\x02\x03Den Nächsten
     kriege ich![pause]
   - a
   - |-
-    [\x0207]Direktor Roy[\x0207]Überprüf es!
+    \x02\x07Direktor Roy\x02\x07Überprüf es!
     Ich hab wieder 'n
-    tolles Item bekommen![pause][\x0203]Deshalb machen
+    tolles Item bekommen![pause]\x02\x03Deshalb machen
     Auktionen
     süchtig![pause]
   - |-
-    [\x0207]RPG-Fan Masao[\x0207]Warum sind die alle
-    sooo reich?![pause][\x0203]Ich werden einfach
+    \x02\x07RPG-Fan Masao\x02\x07Warum sind die alle
+    sooo reich?![pause]\x02\x03Ich werden einfach
     Feinde besiegen und
     deren Geld nehmen![pause]
   - |-
-    [\x0207]Händler Abel[\x0207]Diese Auktion
+    \x02\x07Händler Abel\x02\x07Diese Auktion
     hat Spaβ
-    gemacht.[pause][\x0203]Ich freue mich
+    gemacht.[pause]\x02\x03Ich freue mich
     schon auf die
     nächste.[pause]
   - |-
-    [\x0207]Item-Fan Michiru[\x0207]Diesmal konnte
-    ich eins kaufen...[pause][\x0203]...jetzt hab' ich
+    \x02\x07Item-Fan Michiru\x02\x07Diesmal konnte
+    ich eins kaufen...[pause]\x02\x03...jetzt hab' ich
     kein Geld mehr![pause]
   - a
   - a
   - a
   - a
   - |-
-    [\x0207][\x020902]3Yeah! Ich hab
+    \x02\x07\x02\x09\x023Yeah! Ich hab
     100 BIT![pause]
   - |-
-    [\x0207][\x020902]3Yeah! Ich hab
+    \x02\x07\x02\x09\x023Yeah! Ich hab
     1000 BIT![pause]
   - a
   - a
   - |-
-    [\x0207]Teddy[\x0207]Ich untersuche
+    \x02\x07Teddy\x02\x07Ich untersuche
     gerade diesen
-    Computer![pause][\x0203]Die echte Welt ist
+    Computer![pause]\x02\x03Die echte Welt ist
     noch sicher, also
     keine Sorge![pause]
   - |-
-    [\x0207]Lisa[\x0207]Kurt ist nicht hier,
+    \x02\x07Lisa\x02\x07Kurt ist nicht hier,
     also zählen wir auf
-    dich, [\x020801][\x020501].[pause][\x0203]Lass uns zusammen
+    dich, \x02\x08\x01\x02\x05\x01.[pause]\x02\x03Lass uns zusammen
     die Welt retten![pause]
   - a
   - a
   - a
   - |-
-    [\x0207]Nick[\x0207]Nichts unge-
-    wöhnliches hier[pause][\x0203]Seit sie ge-
+    \x02\x07Nick\x02\x07Nichts unge-
+    wöhnliches hier[pause]\x02\x03Seit sie ge-
     fasst wurden,
     sind sie ruhig.[pause]
   - |-
-    [\x0207]Nick[\x0207]Warum muss ich
-    hier bleiben?[pause][\x0203]Ich will auch
+    \x02\x07Nick\x02\x07Warum muss ich
+    hier bleiben?[pause]\x02\x03Ich will auch
     kämpfen...[pause]
   - |-
-    [\x0207]Teddy[\x0207]Ich werd' ver-
+    \x02\x07Teddy\x02\x07Ich werd' ver-
     suchen, Jugger-
-    naut zu stoppen![pause][\x0203]Also viel Glück
-    [\x020801][\x020501]![pause]
+    naut zu stoppen![pause]\x02\x03Also viel Glück
+    \x02\x08\x01\x02\x05\x01![pause]
   - a
   - a
   - |-
-    [\x0207]Datamon[\x0207]Dies ist der Keller
+    \x02\x07Datamon\x02\x07Dies ist der Keller
     von Asuka City, hier
-    bin ich zuständig![pause][\x0203]Ich verwalte auch das
+    bin ich zuständig![pause]\x02\x03Ich verwalte auch das
     ausgediente Keller-
     tor von Asuka City![pause]
   - |-
-    [\x0207]Datamon[\x0207]Hmm? Was willst
+    \x02\x07Datamon\x02\x07Hmm? Was willst
     du? Du willst nach
-    Asuka City rein?[pause][\x0203]...Wenn ich das
+    Asuka City rein?[pause]\x02\x03...Wenn ich das
     Kellertor öffne,
-    kannst du rein.[pause][\x0203]...Hast du einen
-    DO Personalpass?[pause][\x0203]...Nicht? Ich nehme
+    kannst du rein.[pause]\x02\x03...Hast du einen
+    DO Personalpass?[pause]\x02\x03...Nicht? Ich nehme
     keine Befehle von
     Nichtpersonal an.[pause]
   - |-
-    [\x0207]Datamon[\x0207]Du brauchst einen
+    \x02\x07Datamon\x02\x07Du brauchst einen
     Personalpass um das
     Kellertor zu öffnen![pause]
   - |-
-    [\x0207][\x020902]3Hmm, ich hab's
+    \x02\x07\x02\x09\x023Hmm, ich hab's
     immer noch nicht.
     Kunst ist schwierig...[pause]
-  - "[\\x0207]Teddy[\\x0207]Ich habe Zugriff\naufs opt. Netz.[pause][\\x0203]Aber sehr insta-\nbil, Verbindung \nist schnell weg...[pause]"
+  - "\\x02\\x07Teddy\\x02\\x07Ich habe Zugriff\naufs opt. Netz.[pause]\\x02\\x03Aber sehr insta-\nbil, Verbindung \nist schnell weg...[pause]"
   - a
   - a
   - a
@@ -2110,8 +2110,8 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Master John[\x0207]Sepikmon macht
+    \x02\x07Master John\x02\x07Sepikmon macht
     alle möglichen
-    Probleme.[pause][\x0203]Hat "Inn" auf
+    Probleme.[pause]\x02\x03Hat "Inn" auf
     unser Schild
     geschrieben.[pause]

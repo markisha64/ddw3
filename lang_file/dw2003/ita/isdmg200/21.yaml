@@ -1,31 +1,31 @@
 strings:
   - ''
-  - '[\x0207]Gioc. misterioso[\x0207]Ehi! Aspetta![pause]'
+  - '\x02\x07Gioc. misterioso\x02\x07Ehi! Aspetta![pause]'
   - |-
-    [\x0207][\x020902]3Parli
+    \x02\x07\x02\x09\x023Parli
     forse con
     me?[pause]
   - |-
-    [\x0207]Gioc. misterioso[\x0207]Certo!
-    Con te![pause][\x0203]Sei [\x020801][\x020501]? Hai vinto
+    \x02\x07Gioc. misterioso\x02\x07Certo!
+    Con te![pause]\x02\x03Sei \x02\x08\x01\x02\x05\x01? Hai vinto
     contro il governatore
     di Seiryu?[pause]
   - |-
-    [\x0207][\x020902]3Sì, e tu
+    \x02\x07\x02\x09\x023Sì, e tu
     chi sei?[pause]
   - |-
-    [\x0207]Keith[\x0207]Mi chiamo Keith, e
+    \x02\x07Keith\x02\x07Mi chiamo Keith, e
     non dimenticarlo
-    mai, ragazzo![pause][\x0203]Sono quello che
+    mai, ragazzo![pause]\x02\x03Sono quello che
     vincerà il
     torneo![pause]
   - |-
-    [\x0207][\x020902]3Ah sì? Lo
+    \x02\x07\x02\x09\x023Ah sì? Lo
     vedremo
     presto![pause]
   - |-
-    [\x0207]Keith[\x0207]Ah, ah, ah, bene!
+    \x02\x07Keith\x02\x07Ah, ah, ah, bene!
     Allora vuoi
     batterti con me?[pause]
-  - '[\x0207][\x020902]3Certo![pause]'
-  - "[\\x0207]Keith[\\x0207]Scusa, ma non \nvoglio usare i\npugni![pause]"
+  - '\x02\x07\x02\x09\x023Certo![pause]'
+  - "\\x02\\x07Keith\\x02\\x07Scusa, ma non \nvoglio usare i\npugni![pause]"

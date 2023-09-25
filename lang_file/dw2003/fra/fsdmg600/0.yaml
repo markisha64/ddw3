@@ -1,19 +1,19 @@
 strings:
   - ''
   - |-
-    [\x0207]Chef de Byakko[\x0207]Bienvenue, cher
+    \x02\x07Chef de Byakko\x02\x07Bienvenue, cher
     rival. Battons-nous.[pause]
   - |-
-    [\x0207][\x020902]3Ah, une
-    minute...[pause][\x0203]J'ai d'abord
+    \x02\x07\x02\x09\x023Ah, une
+    minute...[pause]\x02\x03J'ai d'abord
     une question
     à te poser.[pause]
   - |-
-    [\x0207]Chef de Byakko[\x0207]Battons-nous
-    d'abord ![pause][\x0203]Si tu gagnes, je
+    \x02\x07Chef de Byakko\x02\x07Battons-nous
+    d'abord ![pause]\x02\x03Si tu gagnes, je
     te dirai tout ce
     que je sais.[pause]
   - |-
-    [\x0207][\x020902]3OK, je ne
+    \x02\x07\x02\x09\x023OK, je ne
     peux pas
     perdre ![pause]

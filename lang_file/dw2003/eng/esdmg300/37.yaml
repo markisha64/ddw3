@@ -1,5 +1,5 @@
 strings:
   - ''
-  - "[\\x0207]Veemon[\\x0207]Hey, you're all right.\nI'm a bit impressed![pause][\\x0203]Here, take the Tree \nBoots![pause]"
-  - "[\\x0207][\\x020902]3Cool! Thanks, \nVeemon.[pause][\\x0203]Yeah! I got the\nTree Boots![pause]"
-  - "[\\x0207]Veemon[\\x0207]Good for you! \nOK, I'm going home\nto eat![pause][\\x0203]Let's play again \nsometime.\nLater![pause]"
+  - "\\x02\\x07Veemon\\x02\\x07Hey, you're all right.\nI'm a bit impressed![pause]\\x02\\x03Here, take the Tree \nBoots![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Cool! Thanks, \nVeemon.[pause]\\x02\\x03Yeah! I got the\nTree Boots![pause]"
+  - "\\x02\\x07Veemon\\x02\\x07Good for you! \nOK, I'm going home\nto eat![pause]\\x02\\x03Let's play again \nsometime.\nLater![pause]"

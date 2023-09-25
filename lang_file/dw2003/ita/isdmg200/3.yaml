@@ -1,71 +1,71 @@
 strings:
   - ''
   - |-
-    [\x0207]Servizio domatori[\x0207]Ora scaricherò
+    \x02\x07Servizio domatori\x02\x07Ora scaricherò
     i dati Digimon
-    dal satellite.[pause][\x0203]Aspetta presso
+    dal satellite.[pause]\x02\x03Aspetta presso
     il segno sul
     pavimento.[pause]
   - |-
-    [\x0207][\x020902]3Wow! Finalmente
+    \x02\x07\x02\x09\x023Wow! Finalmente
     incontro i miei
     Digimon! Wow![pause]
   - |-
-    [\x0207]Teddy[\x0207]Oh!
-    Ehi, [\x020801][\x020501]![pause]
+    \x02\x07Teddy\x02\x07Oh!
+    Ehi, \x02\x08\x01\x02\x05\x01![pause]
   - |-
-    [\x0207][\x020902]3Ehi, cosa
+    \x02\x07\x02\x09\x023Ehi, cosa
     aspettavate?
     Lumaconi![pause]
   - |-
-    [\x0207]Teddy[\x0207]No, sei tu
+    \x02\x07Teddy\x02\x07No, sei tu
     che sei troppo
     veloce![pause]
-  - '[\x0207]Teddy[\x0207]Ok, Ivy?[pause]'
+  - '\x02\x07Teddy\x02\x07Ok, Ivy?[pause]'
   - |-
-    [\x0207]Kail[\x0207]No, adesso mi
+    \x02\x07Kail\x02\x07No, adesso mi
     chiamo Kail!
     Bada bene![pause]
   - |-
-    [\x0207][\x020902]3Kail? È il tuo
-    account?[pause][\x0203]Che strano!
+    \x02\x07\x02\x09\x023Kail? È il tuo
+    account?[pause]\x02\x03Che strano!
     Sembra un nome
     maschile![pause]
   - |-
-    [\x0207]Kail[\x0207]A me piace
+    \x02\x07Kail\x02\x07A me piace
     così. Chiaro?[pause]
   - |-
-    [\x0207]Teddy[\x0207]Io sono troppo pigro
+    \x02\x07Teddy\x02\x07Io sono troppo pigro
     per cambiar nome![pause]
   - |-
-    [\x0207][\x020902]3Ah, bene!
+    \x02\x07\x02\x09\x023Ah, bene!
     Ecco i miei
     Digimon![pause]
   - |-
-    [\x0207]Teddy[\x0207]Mi chiedo
+    \x02\x07Teddy\x02\x07Mi chiedo
     chi li ha
     creati.[pause]
-  - '[\x0207]Kail[\x0207]Anch''io.[pause]'
+  - '\x02\x07Kail\x02\x07Anch''io.[pause]'
   - |-
-    [\x0207][\x020902]3Ciao a tutti!
-    Sono [\x020801][\x020501]!
+    \x02\x07\x02\x09\x023Ciao a tutti!
+    Sono \x02\x08\x01\x02\x05\x01!
     Piacere.[pause]
   - |-
-    [\x0207]Kotemon[\x0207]Mi batterò
+    \x02\x07Kotemon\x02\x07Mi batterò
     al meglio.
     Grazie.[pause]
   - |-
-    [\x0207]Renamon[\x0207]Diventeremo
+    \x02\x07Renamon\x02\x07Diventeremo
     Campioni del
     Mondo.[pause]
   - |-
-    [\x0207]Patamon[\x0207]Ciao!
+    \x02\x07Patamon\x02\x07Ciao!
     Non ti deluderò![pause]
   - |-
-    [\x0207][\x020902]3Ok, conto
-    su tutti voi![pause][\x0203]Andiamo![pause]
-  - '[\x0207][\x020902]3Ok, io esco![pause]'
+    \x02\x07\x02\x09\x023Ok, conto
+    su tutti voi![pause]\x02\x03Andiamo![pause]
+  - '\x02\x07\x02\x09\x023Ok, io esco![pause]'
   - |-
-    [\x0207]Kail[\x0207]Bene.
+    \x02\x07Kail\x02\x07Bene.
     Dividiamoci qui.[pause]
-  - '[\x0207]Teddy[\x0207]A più tardi.[pause]'
+  - '\x02\x07Teddy\x02\x07A più tardi.[pause]'

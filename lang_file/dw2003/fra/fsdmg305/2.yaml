@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Tiens ? Je ne
+    \x02\x07\x02\x09\x023Tiens ? Je ne
     l'ai pas tapé dans
     le bon ordre ?[pause]

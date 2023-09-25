@@ -1,27 +1,27 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Sepikmon,
+    \x02\x07\x02\x09\x023Sepikmon,
     ¡tengo tu
     Máscara Sepik![pause]
   - |-
-    [\x0207]Sepikmon[\x0207]¡Uauuu!
+    \x02\x07Sepikmon\x02\x07¡Uauuu!
     ¡Gracias![pause]
-  - '[\x0207]Sepikmon[\x0207]......[pause]'
-  - "[\\x0207][\\x020902]3¿Qué pasa?\nPóntela \ny sal.[pause]"
-  - "[\\x0207]Sepikmon[\\x0207]Ejem... ¿Puedes \ndarte la vuelta?[pause]"
+  - '\x02\x07Sepikmon\x02\x07......[pause]'
+  - "\\x02\\x07\\x02\\x09\\x023¿Qué pasa?\nPóntela \ny sal.[pause]"
+  - "\\x02\\x07Sepikmon\\x02\\x07Ejem... ¿Puedes \ndarte la vuelta?[pause]"
   - |-
-    [\x0207][\x020902]3Ah, sí
+    \x02\x07\x02\x09\x023Ah, sí
     claro.[pause]
   - |-
-    [\x0207]Sepikmon[\x0207]¡Muy bien!
+    \x02\x07Sepikmon\x02\x07¡Muy bien!
     ¡Mejor así!
     ¡Me siento mejor![pause]
-  - "[\\x0207]Sepikmon[\\x0207]¡Te daré \nesto![pause]"
-  - "[\\x0207][\\x020902]3¿Eh? ¿Qué \nes, Hierba\nOlorosa?[pause]"
-  - "[\\x0207]Sepikmon[\\x0207]¡Zanbamon odia la \nHierba Olorosa![pause][\\x0203]Es estupendo. ¡Así\nsaldrá corriendo![pause]"
-  - "[\\x0207][\\x020902]3¿De verdad?\n¡Gracias, me  \nsalvas la vida![pause]"
+  - "\\x02\\x07Sepikmon\\x02\\x07¡Te daré \nesto![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¿Eh? ¿Qué \nes, Hierba\nOlorosa?[pause]"
+  - "\\x02\\x07Sepikmon\\x02\\x07¡Zanbamon odia la \nHierba Olorosa![pause]\\x02\\x03Es estupendo. ¡Así\nsaldrá corriendo![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¿De verdad?\n¡Gracias, me  \nsalvas la vida![pause]"
   - |-
-    [\x0207]Sepikmon[\x0207]A ti también.
+    \x02\x07Sepikmon\x02\x07A ti también.
     ¡Mucha suerte![pause]
-  - "[\\x0207]Sepikmon[\\x0207]¡Esta bolsa de \npapel no lo \ncortó![pause]"
+  - "\\x02\\x07Sepikmon\\x02\\x07¡Esta bolsa de \npapel no lo \ncortó![pause]"

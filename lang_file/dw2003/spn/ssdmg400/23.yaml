@@ -1,12 +1,12 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3GrapLeomon,
+    \x02\x07\x02\x09\x023GrapLeomon,
     tengo un favor
-    que pedirte.[pause][\x0203]¿Puedes darme
+    que pedirte.[pause]\x02\x03¿Puedes darme
     DADN de Kumamon
     de tu DADN?[pause]
   - |-
-    [\x0207]GrapLeamon[\x0207]¡Ja ja ja!
-    ¡Qué gracioso, chico![pause][\x0203]¡Si me ganas
+    \x02\x07GrapLeamon\x02\x07¡Ja ja ja!
+    ¡Qué gracioso, chico![pause]\x02\x03¡Si me ganas
     podrás tenerlo![pause]

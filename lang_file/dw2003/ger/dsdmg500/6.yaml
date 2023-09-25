@@ -1,15 +1,15 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Hey
+    \x02\x07\x02\x09\x023Hey
     Numemon![pause]
   - |-
-    [\x0207]Numemon[\x0207]Du bist's.
+    \x02\x07Numemon\x02\x07Du bist's.
     Warum kommst
     du zurück?[pause]
   - |-
-    [\x0207][\x020902]3Ich möchte dich
+    \x02\x07\x02\x09\x023Ich möchte dich
     etwas fragen.
     Also...[pause]
-  - "[\\x0207]Numemon[\\x0207]Es gibt nichts \nzu sagen![pause]"
-  - '[\x0207][\x020902]3Warte![pause]'
+  - "\\x02\\x07Numemon\\x02\\x07Es gibt nichts \nzu sagen![pause]"
+  - '\x02\x07\x02\x09\x023Warte![pause]'

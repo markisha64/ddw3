@@ -1,25 +1,25 @@
 strings:
   - ''
   - |-
-    [\x0207]Voice[\x0207]Wooo...
+    \x02\x07Voice\x02\x07Wooo...
     ...wooo![pause]
   - |-
-    [\x0207][\x020902]3You must be
+    \x02\x07\x02\x09\x023You must be
     Sepikmon.[pause]
   - |-
-    [\x0207]Voice[\x0207]Wooo...
+    \x02\x07Voice\x02\x07Wooo...
     ...cough!
-    Cough![pause][\x0203]...yeah,
+    Cough![pause]\x02\x03...yeah,
     what do
     you want?[pause]
-  - "[\\x0207][\\x020902]3Hey, can you tell me \nhow to beat Zanbamon?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hey, can you tell me \nhow to beat Zanbamon?[pause]"
   - |-
-    [\x0207]Sepikmon[\x0207]I can, but first
+    \x02\x07Sepikmon\x02\x07I can, but first
     I have one request.[pause]
-  - "[\\x0207]Sepikmon[\\x0207]I lost my precious\nmask somewhere![pause][\\x0203]If I don't have it, no \none can see me![pause][\\x0203]So if you find it I'll\ntell you what you \nwant to know.[pause]"
-  - "[\\x0207]Sepikmon[\\x0207]I had it when I was \nwith Baronmon...[pause][\\x0203]...so I must have\ndropped it after that! [pause][\\x0203]OK, thanks a lot![pause]"
-  - "[\\x0207]Voice[\\x0207]...Yeah, what \ndo you want![pause]"
+  - "\\x02\\x07Sepikmon\\x02\\x07I lost my precious\nmask somewhere![pause]\\x02\\x03If I don't have it, no \none can see me![pause]\\x02\\x03So if you find it I'll\ntell you what you \nwant to know.[pause]"
+  - "\\x02\\x07Sepikmon\\x02\\x07I had it when I was \nwith Baronmon...[pause]\\x02\\x03...so I must have\ndropped it after that! [pause]\\x02\\x03OK, thanks a lot![pause]"
+  - "\\x02\\x07Voice\\x02\\x07...Yeah, what \ndo you want![pause]"
   - |-
-    [\x0207][\x020902]3All right, fine,
+    \x02\x07\x02\x09\x023All right, fine,
     I'll go and find
     your mask.[pause]

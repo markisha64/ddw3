@@ -1,29 +1,29 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Sepikmon,\nI got your \nSepik Mask![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Sepikmon,\nI got your \nSepik Mask![pause]"
   - |-
-    [\x0207]Sepikmon[\x0207]WOW!
+    \x02\x07Sepikmon\x02\x07WOW!
     Thanks![pause]
   - |-
-    [\x0207]Sepikmon[\x0207]......
+    \x02\x07Sepikmon\x02\x07......
     ......[pause]
-  - "[\\x0207][\\x020902]3What's wrong? \nPut it on and \ncome on out.[pause]"
-  - "[\\x0207]Sepikmon[\\x0207]Uh-uhm...can \nyou look the \nother way?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023What's wrong? \nPut it on and \ncome on out.[pause]"
+  - "\\x02\\x07Sepikmon\\x02\\x07Uh-uhm...can \nyou look the \nother way?[pause]"
   - |-
-    [\x0207][\x020902]3Oh... ah...
+    \x02\x07\x02\x09\x023Oh... ah...
     all right.[pause]
   - |-
-    [\x0207]Sepikmon[\x0207]Ah yeah!
+    \x02\x07Sepikmon\x02\x07Ah yeah!
     This is more like it.
     I feel much better![pause]
-  - "[\\x0207]Sepikmon[\\x0207]I'll give this \nto you![pause]"
-  - "[\\x0207][\\x020902]3Huh?! What's \nthis Smelly \nHerb?[pause]"
-  - "[\\x0207]Sepikmon[\\x0207]Zanbamon hates the\nsmell of Smelly Herb![pause][\\x0203]It's great. He'll run \naway for sure![pause]"
+  - "\\x02\\x07Sepikmon\\x02\\x07I'll give this \nto you![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Huh?! What's \nthis Smelly \nHerb?[pause]"
+  - "\\x02\\x07Sepikmon\\x02\\x07Zanbamon hates the\nsmell of Smelly Herb![pause]\\x02\\x03It's great. He'll run \naway for sure![pause]"
   - |-
-    [\x0207][\x020902]3Really?
+    \x02\x07\x02\x09\x023Really?
     Thanks, you're
     a life saver![pause]
   - |-
-    [\x0207]Sepikmon[\x0207]You too.
+    \x02\x07Sepikmon\x02\x07You too.
     Good luck![pause]
-  - "[\\x0207]Sepikmon[\\x0207]This paper bag \njust didn't cut \nit![pause]"
+  - "\\x02\\x07Sepikmon\\x02\\x07This paper bag \njust didn't cut \nit![pause]"

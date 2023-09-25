@@ -1,10 +1,10 @@
 strings:
   - ''
-  - '[\x0207][\x020902]3¡Sí! ¡Gané![pause]'
+  - '\x02\x07\x02\x09\x023¡Sí! ¡Gané![pause]'
   - |-
-    [\x0207]MagnaAgnemon[\x0207]De acuerdo.
+    \x02\x07MagnaAgnemon\x02\x07De acuerdo.
     Tómalo.[pause]
   - |-
-    [\x0207][\x020902]3¡Sí! ¡Tengo el
-    DADN Patamon![pause][\x0203]¡Gracias
+    \x02\x07\x02\x09\x023¡Sí! ¡Tengo el
+    DADN Patamon![pause]\x02\x03¡Gracias
     MagnaAngemon![pause]

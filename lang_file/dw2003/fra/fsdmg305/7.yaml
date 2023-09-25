@@ -1,34 +1,34 @@
 strings:
   - ''
   - |-
-    [\x0207]Lisa[\x0207]Le problème, c'est
+    \x02\x07Lisa\x02\x07Le problème, c'est
     de pouvoir entrer à
-    Amaterasu City.[pause][\x0203]C'est le QG de l'AoA
+    Amaterasu City.[pause]\x02\x03C'est le QG de l'AoA
     et la sécurité
     est renforcée.[pause]
   - |-
-    [\x0207]Nick[\x0207]C'est vrai...
+    \x02\x07Nick\x02\x07C'est vrai...
     Il faudrait
     trouver de l'aide...[pause]
   - |-
-    [\x0207]Keith[\x0207]Impossible ! Tout le
+    \x02\x07Keith\x02\x07Impossible ! Tout le
     monde a été changé
     en Oinkmon.[pause]
   - |-
-    [\x0207]Keith[\x0207]Allez, cherchez
+    \x02\x07Keith\x02\x07Allez, cherchez
     un peu ![pause]
   - |-
-    [\x0207][\x020902]3Hmm...
+    \x02\x07\x02\x09\x023Hmm...
     De l'aide...[pause]
   - |-
-    [\x0207][\x020902]3Très bien ! Je
+    \x02\x07\x02\x09\x023Très bien ! Je
     retourne chercher
     à Amaterasu ![pause]
   - |-
-    [\x0207]Lisa[\x0207]Merci. Je
+    \x02\x07Lisa\x02\x07Merci. Je
     compte sur
     toi.[pause]
   - |-
-    [\x0207][\x020902]3Voyons, Kenny m'a
+    \x02\x07\x02\x09\x023Voyons, Kenny m'a
     dit quelque chose
     au sujet de...[pause]

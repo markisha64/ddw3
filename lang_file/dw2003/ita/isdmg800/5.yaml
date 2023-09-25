@@ -1,16 +1,16 @@
 strings:
   - ''
-  - "PRONTI AL\nLANCIO![pause][\\x0203]JUGGERNAUT \nIN PARTENZA![pause]"
+  - "PRONTI AL\nLANCIO![pause]\\x02\\x03JUGGERNAUT \nIN PARTENZA![pause]"
   - |-
-    [\x0207]Guardia reale[\x0207]Ha ha ha ha!
+    \x02\x07Guardia reale\x02\x07Ha ha ha ha!
     Il piano è
     un successo![pause]
   - |-
-    [\x0207]Guardia reale[\x0207]Ora vai,
-    Juggernaut![pause][\x0203]Porta terrore e
+    \x02\x07Guardia reale\x02\x07Ora vai,
+    Juggernaut![pause]\x02\x03Porta terrore e
     distruzione nel
     mondo![pause]
   - |-
-    [\x0207]Guardia reale[\x0207]La barriera
+    \x02\x07Guardia reale\x02\x07La barriera
     elettromagnetica
     è disattivata![pause]

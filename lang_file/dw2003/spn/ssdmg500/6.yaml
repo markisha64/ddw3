@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3¡Eh!
+    \x02\x07\x02\x09\x023¡Eh!
     ¡Numemon![pause]
   - |-
-    [\x0207]Numemon[\x0207]Eres tú.
+    \x02\x07Numemon\x02\x07Eres tú.
     ¿Por qué has
     vuelto?[pause]
   - |-
-    [\x0207][\x020902]3Tengo algo que
+    \x02\x07\x02\x09\x023Tengo algo que
     preguntarte. Así
     que...[pause]
   - |-
-    [\x0207]Numemon[\x0207]¡No tengo nada
+    \x02\x07Numemon\x02\x07¡No tengo nada
     que decirte![pause]
-  - '[\x0207][\x020902]3¡Espera![pause]'
+  - '\x02\x07\x02\x09\x023¡Espera![pause]'

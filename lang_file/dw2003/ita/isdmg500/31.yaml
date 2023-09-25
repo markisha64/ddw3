@@ -1,12 +1,12 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Si!
+    \x02\x07\x02\x09\x023Si!
     Ho battuto
     Bulbmon![pause]
   - |-
-    [\x0207][\x020902]3Cosa?!
+    \x02\x07\x02\x09\x023Cosa?!
     Il buco va
-    ancora avanti![pause][\x0203]Forse arriva al
+    ancora avanti![pause]\x02\x03Forse arriva al
     Server di
-    Amaterasu.[pause][\x0203]Beh, lo vedremo![pause]
+    Amaterasu.[pause]\x02\x03Beh, lo vedremo![pause]

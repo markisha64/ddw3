@@ -1,15 +1,15 @@
 strings:
   - ''
   - |-
-    [\x0207]Zanbamon[\x0207]Wawas...
+    \x02\x07Zanbamon\x02\x07Wawas...
     Ich habe verloren[pause]
-  - "[\\x0207][\\x020902]3Was war das?![pause][\\x0203]Ich bin sehr \nstark, oder?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Was war das?![pause]\\x02\\x03Ich bin sehr \nstark, oder?[pause]"
   - |-
-    [\x0207]Zanbamon[\x0207]Oh, in Ordnung.
+    \x02\x07Zanbamon\x02\x07Oh, in Ordnung.
     Ich schenk dir das,
     also vergib mir![pause]
-  - "[\\x0207][\\x020902]3Was, ein rosti-\nges Katana?! \nOh, na gut...[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Was, ein rosti-\nges Katana?! \nOh, na gut...[pause]"
   - |-
-    [\x0207]Zanbamon[\x0207]Ich werde hier in
-    Frieden leben...[pause][\x0203]Lass mich bitte
+    \x02\x07Zanbamon\x02\x07Ich werde hier in
+    Frieden leben...[pause]\x02\x03Lass mich bitte
     in Ruhe![pause]

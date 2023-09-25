@@ -1,27 +1,27 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Après ma victoire
+    \x02\x07\x02\x09\x023Après ma victoire
     sur Gallacticmon,
-    tout allait bien...[pause][\x0203]Mais ça fait déjà
+    tout allait bien...[pause]\x02\x03Mais ça fait déjà
     trois mois... C'est
     comme dans un rêve.[pause]
-  - "[\\x0207][\\x020902]3Que font Ivy \net Teddy ?[pause][\\x0203]La cérémonie \nd'ouverture va \ndébuter ![pause]"
-  - "Merci de votre patience ! La \ncérémonie d'ouverture de Digimon \nOnline va débuter ![pause][\\x0203]DNB TV est en direct du monde \nnumérique pour la première fois, \ngrâce au réseau optique ! [pause][\\x0203]On va ainsi pouvoir se\nconnecter au monde numérique ![pause]"
-  - "[\\x0207][\\x020902]3Kurt est incroyable !\nIl a créé une \nentreprise...[pause][\\x0203]Et lancé Digimon \nOnline à la place de\nMAGAMI...[pause]"
-  - "[\\x0207]Ivy[\\x0207]Pourquoi tu parles \ndans ta barbe\ncomme ça ?[pause]"
-  - "[\\x0207]Teddy[\\x0207]Hé, [\\x020801][\\x020501]\nT'es déjà \nlà ?[pause]"
-  - "[\\x0207][\\x020902]3Vous êtes  \nen retard ![pause]"
-  - "[\\x0207][\\x020902]3Cela fait bien\ndix minutes \nque j'attends.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Que font Ivy \net Teddy ?[pause]\\x02\\x03La cérémonie \nd'ouverture va \ndébuter ![pause]"
+  - "Merci de votre patience ! La \ncérémonie d'ouverture de Digimon \nOnline va débuter ![pause]\\x02\\x03DNB TV est en direct du monde \nnumérique pour la première fois, \ngrâce au réseau optique ! [pause]\\x02\\x03On va ainsi pouvoir se\nconnecter au monde numérique ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Kurt est incroyable !\nIl a créé une \nentreprise...[pause]\\x02\\x03Et lancé Digimon \nOnline à la place de\nMAGAMI...[pause]"
+  - "\\x02\\x07Ivy\\x02\\x07Pourquoi tu parles \ndans ta barbe\ncomme ça ?[pause]"
+  - "\\x02\\x07Teddy\\x02\\x07Hé, \\x02\\x08\\x01\\x02\\x05\\x01\nT'es déjà \nlà ?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Vous êtes  \nen retard ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Cela fait bien\ndix minutes \nque j'attends.[pause]"
   - |-
-    [\x0207]Ivy[\x0207]Que veux-tu que j'y
+    \x02\x07Ivy\x02\x07Que veux-tu que j'y
     fasse ? Tu es arrivé
-    trop tôt ![pause][\x0203]Si c'était pour être
+    trop tôt ![pause]\x02\x03Si c'était pour être
     pénible, tu aurais
     mieux fait de partir ![pause]
   - |-
-    [\x0207]Teddy[\x0207]Hé, hé...
-    [\x020801][\x020501],
-    Ivy ![pause][\x0203]Du calme.
+    \x02\x07Teddy\x02\x07Hé, hé...
+    \x02\x08\x01\x02\x05\x01,
+    Ivy ![pause]\x02\x03Du calme.
     Allons plutôt au
     Centre Online ![pause]

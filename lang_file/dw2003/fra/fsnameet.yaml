@@ -30,7 +30,7 @@ strings:
   - Enregistrer compte ?
   - OUI
   - NON
-  - '[\x020501]%'
+  - '\x02\x05\x01%'
   - "Combine armes, magie et guérison. \nIdéal pour le travail en équipe."
   - |-
     Pour les sans-peur qui pensent que

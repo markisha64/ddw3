@@ -18,7 +18,7 @@ strings:
   - BIT
   - |-
     Un Digimon =
-    [\x020501] BIT
+    \x02\x05\x01 BIT
   - Rester
   - Ne pas rester
   - Pas assez de BIT !

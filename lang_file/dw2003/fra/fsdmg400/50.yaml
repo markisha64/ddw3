@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Des secousses
+    \x02\x07\x02\x09\x023Des secousses
     sismiques ![pause]
-  - "[\\x0207][\\x020902]3Que, qu'est-ce \nqu'il se passe ?![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Que, qu'est-ce \nqu'il se passe ?![pause]"

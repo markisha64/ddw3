@@ -4,5 +4,5 @@ strings:
     Bip Bip
     ESPERE
     CONFIRMANDO DATOS.[pause]
-  - "[\\x0207][\\x020902]3¡Funcionó!\n¡Ya puedo ir \nal Sector Sur![pause]"
-  - "GRACIAS POR ESPERAR.\nERES [\\x020801][\\x020501][pause][\\x0203]EL SISTEMA SE \nINICIARÁ.\nPASE A LA GÓNDOLA[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Funcionó!\n¡Ya puedo ir \nal Sector Sur![pause]"
+  - "GRACIAS POR ESPERAR.\nERES \\x02\\x08\\x01\\x02\\x05\\x01[pause]\\x02\\x03EL SISTEMA SE \nINICIARÁ.\nPASE A LA GÓNDOLA[pause]"

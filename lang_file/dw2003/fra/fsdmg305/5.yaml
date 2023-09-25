@@ -1,38 +1,38 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Lisa ! L'AoA a
+    \x02\x07\x02\x09\x023Lisa ! L'AoA a
     le Juggernaut ![pause]
   - |-
-    [\x0207]Lisa[\x0207]Oui. J'ai en
-    bien peur.[pause][\x0203]Teddy l'a vu
+    \x02\x07Lisa\x02\x07Oui. J'ai en
+    bien peur.[pause]\x02\x03Teddy l'a vu
     et nous l'a dit ![pause]
   - |-
-    [\x0207]Teddy[\x0207]On peut suivre les
+    \x02\x07Teddy\x02\x07On peut suivre les
     déplacements de l'AoA
     sur cet ordinateur ![pause]
   - |-
-    [\x0207]Keith[\x0207]Et alors ?
+    \x02\x07Keith\x02\x07Et alors ?
     Le Juggernaut
     est si puissant ![pause]
   - |-
-    [\x0207][\x020902]3N'y a-t-il pas un
+    \x02\x07\x02\x09\x023N'y a-t-il pas un
     moyen de l'arrêter ?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Hm... Voyons...[pause][\x0203]Oui, on devrait
+    \x02\x07Lisa\x02\x07Hm... Voyons...[pause]\x02\x03Oui, on devrait
     aller la voir...[pause]
-  - '[\x0207][\x020902]3Qui ça ?[pause]'
-  - '[\x0207]Keith[\x0207]Quoi ?[pause]'
+  - '\x02\x07\x02\x09\x023Qui ça ?[pause]'
+  - '\x02\x07Keith\x02\x07Quoi ?[pause]'
   - |-
-    [\x0207]Lisa[\x0207]OK, allons-y
-    [\x020801][\x020501] ![pause]
+    \x02\x07Lisa\x02\x07OK, allons-y
+    \x02\x08\x01\x02\x05\x01 ![pause]
   - |-
-    [\x0207]Lisa[\x0207]Keith et Nick,
+    \x02\x07Lisa\x02\x07Keith et Nick,
     vous restez ici
     avec Teddy.[pause]
   - |-
-    [\x0207]Nick[\x0207]C'est l'arme la plus
-    puissante au monde ![pause][\x0203]On l'a enfermée
+    \x02\x07Nick\x02\x07C'est l'arme la plus
+    puissante au monde ![pause]\x02\x03On l'a enfermée
     pour éviter tout
     mauvais usage ![pause]
-  - '[\x0207]Nick[\x0207]?!?[pause]'
+  - '\x02\x07Nick\x02\x07?!?[pause]'

@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]M. Wedge[\x0207]Dans ce cas,
+    \x02\x07M. Wedge\x02\x07Dans ce cas,
     viens par là. J'ai
     de beaux objets ![pause]

@@ -1,40 +1,40 @@
 strings:
   - ''
   - |-
-    [\x0207]Frau[\x0207]Hey du...
+    \x02\x07Frau\x02\x07Hey du...
     du da drüben![pause]
-  - '[\x0207][\x020902]3Wer...Ich?[pause]'
-  - "[\\x0207]Frau[\\x0207]Hi, ich bin\nLisa. Freut \nmich sehr![pause][\\x0203]Wie heiβt\ndu?[pause]"
+  - '\x02\x07\x02\x09\x023Wer...Ich?[pause]'
+  - "\\x02\\x07Frau\\x02\\x07Hi, ich bin\nLisa. Freut \nmich sehr![pause]\\x02\\x03Wie heiβt\ndu?[pause]"
   - |-
-    [\x0207][\x020902]3Ich heiβe
-    [\x020801][\x020501].[pause]
+    \x02\x07\x02\x09\x023Ich heiβe
+    \x02\x08\x01\x02\x05\x01.[pause]
   - |-
-    [\x0207]Lisa[\x0207][\x020801][\x020501]. Gut, das
-    merke ich mir.[pause][\x0203]Übrigens, [\x020802][\x020502],
+    \x02\x07Lisa\x02\x07\x02\x08\x01\x02\x05\x01. Gut, das
+    merke ich mir.[pause]\x02\x03Übrigens, \x02\x08\x02\x02\x05\x02,
     hast du ein süβes,
     grünes Digi. gesehen?[pause]
   - |-
-    [\x0207][\x020902]3Hmm, meinst du
+    \x02\x07\x02\x09\x023Hmm, meinst du
     Monmon oder
     Terriermon?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Tja, ich weiβ
-    auch nicht.[pause][\x0203]Was meinst du,
+    \x02\x07Lisa\x02\x07Tja, ich weiβ
+    auch nicht.[pause]\x02\x03Was meinst du,
     welches es ist,
-    [\x020801][\x020501]?[pause]
+    \x02\x08\x01\x02\x05\x01?[pause]
   - |-
-    [\x0207][\x020902]3Ja, also...
+    \x02\x07\x02\x09\x023Ja, also...
     ???[pause]
   - |-
-    [\x0207]Lisa[\x0207]...Ich weiβ, es
+    \x02\x07Lisa\x02\x07...Ich weiβ, es
     ist Ogremon! Ganz
-    bestimmt![pause][\x0203]Dann muss ich jetzt
+    bestimmt![pause]\x02\x03Dann muss ich jetzt
     sofort nach Ogremon
     suchen![pause]
   - |-
-    [\x0207][\x020902]3Hm, was ist denn
+    \x02\x07\x02\x09\x023Hm, was ist denn
     mit der los?[pause]
   - |-
-    [\x0207]Lisa[\x0207]War nett, mit
+    \x02\x07Lisa\x02\x07War nett, mit
     dir zu reden,
-    [\x020801][\x020501].[pause]
+    \x02\x08\x01\x02\x05\x01.[pause]

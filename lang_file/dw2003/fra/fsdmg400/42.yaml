@@ -1,22 +1,22 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Oui ! J'ai
+    \x02\x07\x02\x09\x023Oui ! J'ai
     battu le chef
     de Qing Long ![pause]
   - |-
-    [\x0207][\x020902]3Tiens ? Il y a
+    \x02\x07\x02\x09\x023Tiens ? Il y a
     quelque chose
     par terre...[pause]
   - |-
-    [\x0207][\x020902]3Mais pas de
+    \x02\x07\x02\x09\x023Mais pas de
     trace du Digi-
-    Oeuf du Savoir.[pause][\x0203]Je me demande
+    Oeuf du Savoir.[pause]\x02\x03Je me demande
     ce qui se passe
     dans le Monde Réel.[pause]
   - |-
-    [\x0207][\x020902]3Tiens ? Qu'est-
+    \x02\x07\x02\x09\x023Tiens ? Qu'est-
     ce que c'est ?
-    Un Passe bleu.[pause][\x0203]Cela pourrait
+    Un Passe bleu.[pause]\x02\x03Cela pourrait
     servir, je
     le prends ![pause]

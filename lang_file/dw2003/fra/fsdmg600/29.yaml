@@ -1,33 +1,33 @@
 strings:
   - ''
   - |-
-    [\x0207]Dresseur Heinrich[\x0207]Oh là ! Tu ne passes
+    \x02\x07Dresseur Heinrich\x02\x07Oh là ! Tu ne passes
     pas si tu ne connais
     pas le mot de passe.[pause]
   - |-
-    [\x0207][\x020902]3Quoi ? Un mot
+    \x02\x07\x02\x09\x023Quoi ? Un mot
     de passe ?
     Euh...[pause]
   - |-
-    [\x0207]???[\x0207]Hé, tu es
-    [\x020801][\x020501] ![pause]
+    \x02\x07???\x02\x07Hé, tu es
+    \x02\x08\x01\x02\x05\x01 ![pause]
   - |-
-    [\x0207]Kenny[\x0207][\x020801][\x020501],
+    \x02\x07Kenny\x02\x07\x02\x08\x01\x02\x05\x01,
     c'est moi,
     Kenny ![pause]
   - |-
-    [\x0207][\x020902]3Salut Kenny,
+    \x02\x07\x02\x09\x023Salut Kenny,
     ça va bien ?[pause]
   - |-
-    [\x0207]Kenny[\x0207]Oui, j'ai pu rallier
-    la Résistance ![pause][\x0203]Ceci leur sert de
+    \x02\x07Kenny\x02\x07Oui, j'ai pu rallier
+    la Résistance ![pause]\x02\x03Ceci leur sert de
     base à présent ![pause]
   - |-
-    [\x0207][\x020902]3Oh très bien,
+    \x02\x07\x02\x09\x023Oh très bien,
     Kenny ![pause]
   - |-
-    [\x0207]Kenny[\x0207]Et si tu rencontrais
-    notre chef ?[pause][\x0203]Il sait peut-être
+    \x02\x07Kenny\x02\x07Et si tu rencontrais
+    notre chef ?[pause]\x02\x03Il sait peut-être
     quelque chose qui
-    pourrait t'aider.[pause][\x0203]C'est par là ![pause]
-  - '[\x0207][\x020902]3Merci ![pause]'
+    pourrait t'aider.[pause]\x02\x03C'est par là ![pause]
+  - '\x02\x07\x02\x09\x023Merci ![pause]'

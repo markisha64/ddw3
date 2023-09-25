@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207]Agumon[\x0207]Heh heh heh,
+    \x02\x07Agumon\x02\x07Heh heh heh,
     Io sono
-    Agumon.[pause][\x0203]Veemon non
+    Agumon.[pause]\x02\x03Veemon non
     è qui.[pause]

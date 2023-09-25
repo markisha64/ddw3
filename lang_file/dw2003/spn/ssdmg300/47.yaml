@@ -1,5 +1,5 @@
 strings:
   - ''
   - |-
-    [\x0207]Etermon[\x0207]¡Eres muy bueno![pause][\x0203]¡Volveré a crear
+    \x02\x07Etermon\x02\x07¡Eres muy bueno![pause]\x02\x03¡Volveré a crear
     mi Carpeta![pause]

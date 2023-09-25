@@ -1,13 +1,13 @@
 strings:
   - ''
   - |-
-    [\x0207]Maestro de fuego[\x0207]¡Eres fuerte!
-    ¡Impresionante![pause][\x0203]Te daré esto.
+    \x02\x07Maestro de fuego\x02\x07¡Eres fuerte!
+    ¡Impresionante![pause]\x02\x03Te daré esto.
     ¡Úsalo![pause]
   - |-
-    [\x0207][\x020902]3¡Sí!¡Tengo un
+    \x02\x07\x02\x09\x023¡Sí!¡Tengo un
     Chip Mente![pause]
   - |-
-    [\x0207]Maestro de Fuego[\x0207]¡Nuestro Líder
+    \x02\x07Maestro de Fuego\x02\x07¡Nuestro Líder
     está más alla!
     ¡Es muy fuerte![pause]

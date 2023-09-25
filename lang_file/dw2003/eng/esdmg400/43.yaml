@@ -1,3 +1,3 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3I don't know what\nthe A.o.A is\nplanning but...[pause][\\x0203]I'm not going to let \nthe A.o.A have their \nway![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023I don't know what\nthe A.o.A is\nplanning but...[pause]\\x02\\x03I'm not going to let \nthe A.o.A have their \nway![pause]"

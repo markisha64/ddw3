@@ -1,9 +1,9 @@
 strings:
   - ''
-  - "[\\x0207]M. Smith[\\x0207]A vous de jouer ! \nLe clou de la vente ![pause][\\x0203]Le Canon Sniper, \nadmiré par tous ![pause][\\x0203]Cette arme exclusive de \nMonmon est proposée \nà 2700 BIT au départ ![pause]"
-  - '[\x0207]Marchand Abel[\x0207]3100 BIT ![pause]'
-  - "[\\x0207]Chef Milly[\\x0207]3500 \nBIT ![pause]"
-  - '[\x0207]Masao Fan jeu[\x0207]3900 BIT ![pause]'
+  - "\\x02\\x07M. Smith\\x02\\x07A vous de jouer ! \nLe clou de la vente ![pause]\\x02\\x03Le Canon Sniper, \nadmiré par tous ![pause]\\x02\\x03Cette arme exclusive de \nMonmon est proposée \nà 2700 BIT au départ ![pause]"
+  - '\x02\x07Marchand Abel\x02\x073100 BIT ![pause]'
+  - "\\x02\\x07Chef Milly\\x02\\x073500 \nBIT ![pause]"
+  - '\x02\x07Masao Fan jeu\x02\x073900 BIT ![pause]'
   - |-
-    [\x0207][\x020902]3Hmm. 4000 BIT
+    \x02\x07\x02\x09\x023Hmm. 4000 BIT
     ...hmmm...[pause]

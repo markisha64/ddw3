@@ -1,13 +1,13 @@
 strings:
   - ''
   - |-
-    [\x0207]Eismaster[\x0207]Hey warte!
+    \x02\x07Eismaster\x02\x07Hey warte!
     Du kannst hier
-    nicht weitergehen![pause][\x0203]Vorher musst du
+    nicht weitergehen![pause]\x02\x03Vorher musst du
     mit mir kämpfen![pause]
-  - "[\\x0207][\\x020902]3OK. Ich muss \nnur kämpfen u.\ngewinnen. Ja?[pause]"
-  - "[\\x0207]Eismaster[\\x0207]Ja, genau.\nDu weiβt \nBescheid![pause][\\x0203]OK, fangen\nwir an![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023OK. Ich muss \nnur kämpfen u.\ngewinnen. Ja?[pause]"
+  - "\\x02\\x07Eismaster\\x02\\x07Ja, genau.\nDu weiβt \nBescheid![pause]\\x02\\x03OK, fangen\nwir an![pause]"
   - |-
-    [\x0207][\x020902]3OK, gut.
+    \x02\x07\x02\x09\x023OK, gut.
     Jetzt wird's
     heiβ![pause]

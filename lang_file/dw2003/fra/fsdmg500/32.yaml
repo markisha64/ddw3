@@ -1,20 +1,20 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Ailleurs\n... mais \noù ?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ailleurs\n... mais \noù ?[pause]"
   - |-
-    [\x0207]Patamon[\x0207]Je ne sais pas... [pause][\x0203]Mais j'ai entendu
+    \x02\x07Patamon\x02\x07Je ne sais pas... [pause]\x02\x03Mais j'ai entendu
     un bruit étrange
     dans la jungle.[pause]
   - |-
-    [\x0207][\x020902]3Un bruit
+    \x02\x07\x02\x09\x023Un bruit
     étrange ?[pause]
   - |-
-    [\x0207]Patamon[\x0207]Oui, comme une
+    \x02\x07Patamon\x02\x07Oui, comme une
     machine ou un
-    Digimon ![pause][\x0203]Le Chef l'a entendu
-    puis est partie.[pause][\x0203]Il me semble qu'elle
+    Digimon ![pause]\x02\x03Le Chef l'a entendu
+    puis est partie.[pause]\x02\x03Il me semble qu'elle
     allait en direction
     de la jungle ![pause]
   - |-
-    [\x0207][\x020902]3Je vois.
+    \x02\x07\x02\x09\x023Je vois.
     Merci ![pause]

@@ -1,33 +1,33 @@
 strings:
   - ''
   - |-
-    [\x0207]Kail[\x0207]Hey [\x020801][\x020501]!
+    \x02\x07Kail\x02\x07Hey \x02\x08\x01\x02\x05\x01!
     What's wrong?[pause]
-  - "[\\x0207][\\x020902]3I can't get into \nAsuka City.[pause][\\x0203]If I had a Staff \nPass, then maybe \nI could get in...[pause]"
-  - "[\\x0207]Kail[\\x0207]A Staff \nPass?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023I can't get into \nAsuka City.[pause]\\x02\\x03If I had a Staff \nPass, then maybe \nI could get in...[pause]"
+  - "\\x02\\x07Kail\\x02\\x07A Staff \nPass?[pause]"
   - |-
-    [\x0207]Kurt[\x0207]Oink!
+    \x02\x07Kurt\x02\x07Oink!
     Oink![pause]
-  - "[\\x0207]Kail[\\x0207]What are you\ntrying to say \nKurt?[pause]"
-  - "[\\x0207][\\x020902]3Maybe Kurt has \none.[pause]"
+  - "\\x02\\x07Kail\\x02\\x07What are you\ntrying to say \nKurt?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Maybe Kurt has \none.[pause]"
   - |-
-    [\x0207]Kail[\x0207]That must be it!
+    \x02\x07Kail\x02\x07That must be it!
     Kurt did work
     here![pause]
-  - "[\\x0207][\\x020902]3Huh? Lisa, what \nare you doing \nthere?[pause]"
-  - "[\\x0207]Lisa[\\x0207]As you can see, \nthis room is a big \nmess.[pause][\\x0203]So, I was cleaning \nit up with Kail.[pause]"
-  - "[\\x0207]Kail[\\x0207]Hey, Lisa. Was there \na Staff Pass laying \naround?[pause]"
-  - "[\\x0207]Lisa[\\x0207]Sorry, I haven't seen \nit yet.[pause][\\x0203]It's all Kurt's fault \nfor keeping things so \nmessy![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Huh? Lisa, what \nare you doing \nthere?[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07As you can see, \nthis room is a big \nmess.[pause]\\x02\\x03So, I was cleaning \nit up with Kail.[pause]"
+  - "\\x02\\x07Kail\\x02\\x07Hey, Lisa. Was there \na Staff Pass laying \naround?[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07Sorry, I haven't seen \nit yet.[pause]\\x02\\x03It's all Kurt's fault \nfor keeping things so \nmessy![pause]"
   - |-
-    [\x0207]Kurt[\x0207]Oink,
+    \x02\x07Kurt\x02\x07Oink,
     oink![pause]
-  - "[\\x0207]Kail[\\x0207]What should we \ndo? I'm sure that \nit's here.[pause]"
-  - "[\\x0207]Lisa[\\x0207]I know! Can you \ngo get my friends?[pause][\\x0203]If they help, we'll \nbe finished in no \ntime.[pause]"
-  - '[\x0207][\x020902]3Your friends?[pause]'
+  - "\\x02\\x07Kail\\x02\\x07What should we \ndo? I'm sure that \nit's here.[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07I know! Can you \ngo get my friends?[pause]\\x02\\x03If they help, we'll \nbe finished in no \ntime.[pause]"
+  - '\x02\x07\x02\x09\x023Your friends?[pause]'
   - |-
-    [\x0207]Lisa[\x0207]Yes. Their names
+    \x02\x07Lisa\x02\x07Yes. Their names
     are Keith and Nick.[pause]
-  - "[\\x0207][\\x020902]3...What!? \nKeith and\nNick!?[pause]"
-  - "[\\x0207]Lisa[\\x0207]Oh, you know \nthem, [\\x020801][\\x020501]?[pause][\\x0203]Then it shouldn't \ntake you that \nmuch time![pause][\\x0203]Oh, and I last\nheard from them \nin South Sector.[pause]"
-  - "[\\x0207][\\x020902]3Oh, ah, \nOK...[pause]"
-  - "[\\x0207]Lisa[\\x0207]Oh, [\\x020801][\\x020501], \ndid something \nhappen?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023...What!? \nKeith and\nNick!?[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07Oh, you know \nthem, \\x02\\x08\\x01\\x02\\x05\\x01?[pause]\\x02\\x03Then it shouldn't \ntake you that \nmuch time![pause]\\x02\\x03Oh, and I last\nheard from them \nin South Sector.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Oh, ah, \nOK...[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07Oh, \\x02\\x08\\x01\\x02\\x05\\x01, \ndid something \nhappen?[pause]"

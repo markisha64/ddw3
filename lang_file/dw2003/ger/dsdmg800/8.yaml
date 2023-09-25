@@ -1,10 +1,10 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Das Panel lebt!
+    \x02\x07\x02\x09\x023Das Panel lebt!
     Jetzt sollten der
     Fels weg sein...[pause]
   - |-
-    [\x0207][\x020902]3Hmm, ist der
+    \x02\x07\x02\x09\x023Hmm, ist der
     Fels jetzt
     weg?[pause]

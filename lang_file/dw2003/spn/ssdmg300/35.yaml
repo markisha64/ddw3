@@ -1,16 +1,16 @@
 strings:
   - ''
   - |-
-    [\x0207]BK MegaGargomon[\x0207]¡Has ganado!
+    \x02\x07BK MegaGargomon\x02\x07¡Has ganado!
     ¡Eres fuerte![pause]
   - |-
-    [\x0207][\x020902]3¡Claro!¡He
+    \x02\x07\x02\x09\x023¡Claro!¡He
     luchado contra
     todos![pause]
   - |-
-    [\x0207]BK MegaGargomon[\x0207]¡Increíble!
+    \x02\x07BK MegaGargomon\x02\x07¡Increíble!
     ¡Te daré esto![pause]
   - |-
-    [\x0207][\x020902]3¡Sí! ¡Tengo
+    \x02\x07\x02\x09\x023¡Sí! ¡Tengo
     el Casco salvaje![pause]
-  - "[\\x0207]BK MegaGargo.[\\x0207]Buena suerte.\n¡Estaré \nanimándote![pause]"
+  - "\\x02\\x07BK MegaGargo.\\x02\\x07Buena suerte.\n¡Estaré \nanimándote![pause]"

@@ -1,11 +1,11 @@
 strings:
   - ''
-  - "[\\x0207]Maître Ténèbres[\\x0207]Tu es assez bon.\nJe te trouve un peu \npénible...[pause][\\x0203]...mais tu m'as \nbattu. Voici mon\ncadeau, c'est à toi.[pause]"
+  - "\\x02\\x07Maître Ténèbres\\x02\\x07Tu es assez bon.\nJe te trouve un peu \npénible...[pause]\\x02\\x03...mais tu m'as \nbattu. Voici mon\ncadeau, c'est à toi.[pause]"
   - |-
-    [\x0207][\x020902]3Oui ! J'ai
+    \x02\x07\x02\x09\x023Oui ! J'ai
     un Adaptateur
     EXP ![pause]
   - |-
-    [\x0207]Maître Ténèbres[\x0207]Tu deviendras
+    \x02\x07Maître Ténèbres\x02\x07Tu deviendras
     un grand
-    dresseur...[pause][\x0203]Bonne chance.[pause]
+    dresseur...[pause]\x02\x03Bonne chance.[pause]

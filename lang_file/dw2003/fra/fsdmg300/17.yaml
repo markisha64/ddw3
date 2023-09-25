@@ -1,22 +1,22 @@
 strings:
   - ''
-  - "[\\x0207]???[\\x0207]... Ils sont\nlamentables...[pause][\\x0203]Mais ta force \nest assez\nimpressionnante  ![pause]"
-  - "[\\x0207][\\x020902]3... Etes-vous \nle Président\nde MAGAMI ?[pause]"
+  - "\\x02\\x07???\\x02\\x07... Ils sont\nlamentables...[pause]\\x02\\x03Mais ta force \nest assez\nimpressionnante  ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023... Etes-vous \nle Président\nde MAGAMI ?[pause]"
   - |-
-    [\x0207]???[\x0207]... Président ?
-    Oh, oui.[pause][\x0203]Mais appelle-moi
+    \x02\x07???\x02\x07... Président ?
+    Oh, oui.[pause]\x02\x03Mais appelle-moi
     Commandant  !
     C'est plus simple ![pause]
   - |-
-    [\x0207][\x020902]3Assez plaisanté  !
+    \x02\x07\x02\x09\x023Assez plaisanté  !
     Arrête Destromon
     immédiatement  ![pause]
   - |-
-    [\x0207]Commandant[\x0207]Hé, du calme.
+    \x02\x07Commandant\x02\x07Hé, du calme.
     Pourquoi ne pas
-    te joindre à nous ?[pause][\x0203]Si tu acceptes, je
+    te joindre à nous ?[pause]\x02\x03Si tu acceptes, je
     ferai de toi mon
     bras droit ![pause]
-  - "[\\x0207][\\x020902]3Pas question  ! Tu te \nsers des Digimons pour \nfaire le mal.[pause][\\x0203]Quoi que tu fasses, je  \nne serai jamais l'un\ndes vôtres ![pause]"
-  - "[\\x0207]Commandant[\\x0207]Tu viens de gâcher \ntes chances. Tu n'es \npas bien malin.[pause][\\x0203]Au fait, il est \ndéjà trop tard \npour changer d'avis  ![pause]"
-  - "[\\x0207][\\x020902]3Ils ont dit qu'ils \nfaisaient partie de\nla Garde royale.[pause][\\x0203]Donc leur chef\nest devant moi ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Pas question  ! Tu te \nsers des Digimons pour \nfaire le mal.[pause]\\x02\\x03Quoi que tu fasses, je  \nne serai jamais l'un\ndes vôtres ![pause]"
+  - "\\x02\\x07Commandant\\x02\\x07Tu viens de gâcher \ntes chances. Tu n'es \npas bien malin.[pause]\\x02\\x03Au fait, il est \ndéjà trop tard \npour changer d'avis  ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ils ont dit qu'ils \nfaisaient partie de\nla Garde royale.[pause]\\x02\\x03Donc leur chef\nest devant moi ![pause]"

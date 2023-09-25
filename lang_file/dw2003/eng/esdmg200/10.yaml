@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]DO Guard[\x0207]Hey you! Only
+    \x02\x07DO Guard\x02\x07Hey you! Only
     authorized personnel
     beyond this point![pause]

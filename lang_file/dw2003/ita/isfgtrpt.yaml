@@ -3,27 +3,27 @@ strings:
   - ESP
   - |-
     ESP guadagnata:
-    [\x020501] ESP[pause]
+    \x02\x05\x01 ESP[pause]
   - LV
   - Nuovo livello![pause]
   - |-
     Tecnologia appresa:
-    [\x020501][pause]
+    \x02\x05\x01[pause]
   - |-
     Tecnologia non caricabile:
-    [\x020501][pause]
+    \x02\x05\x01[pause]
   - |-
-    [\x020501]
-    Livello [\x020502]![pause]
+    \x02\x05\x01
+    Livello \x02\x05\x02![pause]
   - |-
     Digivoluzione appresa:
-    [\x020501][pause]
+    \x02\x05\x01[pause]
   - |-
     Spazio digivoluz. pieno.
     Archiviato nel laboratorio.[pause]
   - |-
     BIT guadagnati:
-    [\x020501] BIT[pause]
+    \x02\x05\x01 BIT[pause]
   - |-
     Oggetto guadagnato:
-    [\x020501][pause]
+    \x02\x05\x01[pause]

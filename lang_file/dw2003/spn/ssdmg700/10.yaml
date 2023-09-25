@@ -1,10 +1,10 @@
 strings:
   - ''
-  - "[\\x0207]Bruja de hielo[\\x0207]¡Un momento!\n¡No te voy a \ndejar pasar![pause][\\x0203]¡Vuélvete a casa![pause]"
-  - "[\\x0207][\\x020902]3Estás de broma, \n¿no? No tengo\ntiempo para esto.[pause]"
+  - "\\x02\\x07Bruja de hielo\\x02\\x07¡Un momento!\n¡No te voy a \ndejar pasar![pause]\\x02\\x03¡Vuélvete a casa![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Estás de broma, \n¿no? No tengo\ntiempo para esto.[pause]"
   - |-
-    [\x0207]Bruja de hielo[\x0207]¡Soy la Reina de la
+    \x02\x07Bruja de hielo\x02\x07¡Soy la Reina de la
     Mazmorra de Hielo!
-    ¡Cuida los modales![pause][\x0203]¡No te perdonaré!
+    ¡Cuida los modales![pause]\x02\x03¡No te perdonaré!
     ¡Serás castigado![pause]
-  - '[\x0207][\x020902]3¿?¿?[pause]'
+  - '\x02\x07\x02\x09\x023¿?¿?[pause]'

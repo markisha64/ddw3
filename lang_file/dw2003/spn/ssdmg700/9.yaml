@@ -1,16 +1,16 @@
 strings:
   - ''
   - |-
-    [\x0207]Maestro de hielo[\x0207]¡Espera!
+    \x02\x07Maestro de hielo\x02\x07¡Espera!
     ¡No puedes
-    pasar![pause][\x0203]¡Si de verdad
+    pasar![pause]\x02\x03¡Si de verdad
     quieres, tienes
     que ganarme![pause]
-  - "[\\x0207][\\x020902]3Vale, sólo \nluchar y ganar, \n¿verdad?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Vale, sólo \nluchar y ganar, \n¿verdad?[pause]"
   - |-
-    [\x0207]Maes. de hielo[\x0207]¡Eso es!
+    \x02\x07Maes. de hielo\x02\x07¡Eso es!
     ¡Sabes de
-    esto![pause][\x0203]¡Comencemos![pause]
+    esto![pause]\x02\x03¡Comencemos![pause]
   - |-
-    [\x0207][\x020902]3Bueno...
+    \x02\x07\x02\x09\x023Bueno...
     ¡Vamos allá![pause]

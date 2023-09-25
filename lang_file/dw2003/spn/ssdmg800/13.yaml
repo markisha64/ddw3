@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3¡Deprisa! Ganemos
+    \x02\x07\x02\x09\x023¡Deprisa! Ganemos
     a Lord Megadeath y
     hagamos volver a todos.[pause]

@@ -1,32 +1,32 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3That's weird.
+    \x02\x07\x02\x09\x023That's weird.
     Numemon isn't
     around.[pause]
   - |-
-    Aaaaaaaah![pause][\x0203]Someone
+    Aaaaaaaah![pause]\x02\x03Someone
     help me![pause]
   - |-
-    [\x0207][\x020902]3What? What
+    \x02\x07\x02\x09\x023What? What
     was that?[pause]
   - |-
-    [\x0207]WaruMonzaemon[\x0207]You're sooo cute!
+    \x02\x07WaruMonzaemon\x02\x07You're sooo cute!
     Marry me![pause]
-  - "[\\x0207]Lisa[\\x0207]No! I don't like \nfreaks![pause]"
+  - "\\x02\\x07Lisa\\x02\\x07No! I don't like \nfreaks![pause]"
   - |-
-    [\x0207][\x020902]3Oh, oh...
+    \x02\x07\x02\x09\x023Oh, oh...
     that's um...
     Lisa![pause]
-  - "[\\x0207]Lisa[\\x0207]...Hey, hey! You're \n[\\x020801][\\x020501], right?![pause][\\x0203]Please! Help this cute \ndamsel in distress![pause]"
+  - "\\x02\\x07Lisa\\x02\\x07...Hey, hey! You're \n\\x02\\x08\\x01\\x02\\x05\\x01, right?![pause]\\x02\\x03Please! Help this cute \ndamsel in distress![pause]"
   - |-
-    [\x0207][\x020902]3Oh, OK.
+    \x02\x07\x02\x09\x023Oh, OK.
     You got it![pause]
   - |-
-    [\x0207][\x020902]3Hey, WaruMonzaemon!
+    \x02\x07\x02\x09\x023Hey, WaruMonzaemon!
     Pick on someone
     your own size![pause]
   - |-
-    [\x0207]WaruMonzaemon[\x0207]......
-    Who are you?[pause][\x0203]Get out of my
+    \x02\x07WaruMonzaemon\x02\x07......
+    Who are you?[pause]\x02\x03Get out of my
     way![pause]

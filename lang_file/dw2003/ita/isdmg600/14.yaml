@@ -1,30 +1,30 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Ehi,
+    \x02\x07\x02\x09\x023Ehi,
     sono...?![pause]
   - |-
-    [\x0207]Ab. Byakko?[\x0207]Eh? Forse si
+    \x02\x07Ab. Byakko?\x02\x07Eh? Forse si
     è mosso
     qualcosa.[pause]
   - |-
-    [\x0207]Ab. di Byakko?[\x0207]Vedi qualche
+    \x02\x07Ab. di Byakko?\x02\x07Vedi qualche
     cosa da
     lì?[pause]
   - |-
-    [\x0207]Ab. Byakko?[\x0207]Tutto OK
+    \x02\x07Ab. Byakko?\x02\x07Tutto OK
     a ovest![pause]
   - |-
-    [\x0207]Ab. Byakko?[\x0207]Niente a
+    \x02\x07Ab. Byakko?\x02\x07Niente a
     sud![pause]
   - |-
-    [\x0207]Ab. di Byakko?[\x0207]Anche qui
+    \x02\x07Ab. di Byakko?\x02\x07Anche qui
     tutto OK![pause]
   - |-
-    [\x0207]Ab. Byakko?[\x0207]Era solo
+    \x02\x07Ab. Byakko?\x02\x07Era solo
     immaginazione.[pause]
   - |-
-    [\x0207][\x020902]3Stanno
-    all'erta.[pause][\x0203]Non riuscirò
+    \x02\x07\x02\x09\x023Stanno
+    all'erta.[pause]\x02\x03Non riuscirò
     a entrare in
     città per un po'.[pause]

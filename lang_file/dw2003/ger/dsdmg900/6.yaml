@@ -1,3 +1,3 @@
 strings:
   - ''
-  - "[\\x0207]Guardromon[\\x0207]Ich greife nun auf \nd. Matrix-Drive zu.[pause]"
+  - "\\x02\\x07Guardromon\\x02\\x07Ich greife nun auf \nd. Matrix-Drive zu.[pause]"

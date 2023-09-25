@@ -1,6 +1,6 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Sure! \nI'll take you \nanytime![pause]"
-  - "[\\x0207]BK Imperialdramon[\\x0207]You've got \ncourage!\nI like you![pause]"
-  - "[\\x0207][\\x020902]3Hey, I got \nstrength as well![pause]"
-  - "[\\x0207]BK Imperialdramon[\\x0207]You've got lots \nof confidence![pause][\\x0203]Great. \nThis'll be a\ngood match![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Sure! \nI'll take you \nanytime![pause]"
+  - "\\x02\\x07BK Imperialdramon\\x02\\x07You've got \ncourage!\nI like you![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hey, I got \nstrength as well![pause]"
+  - "\\x02\\x07BK Imperialdramon\\x02\\x07You've got lots \nof confidence![pause]\\x02\\x03Great. \nThis'll be a\ngood match![pause]"

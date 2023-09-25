@@ -1,14 +1,14 @@
 strings:
   - ''
   - |-
-    [\x0207]Ordenador Seiya[\x0207]¿Qué?
+    \x02\x07Ordenador Seiya\x02\x07¿Qué?
     ¿Qué pasa?[pause]
   - |-
-    [\x0207]Saki amante de corr.[\x0207]¡Calla!, ¡no oigo
+    \x02\x07Saki amante de corr.\x02\x07¡Calla!, ¡no oigo
     el teléfono![pause]
   - |-
-    [\x0207]Teruko el Compr.[\x0207]¿Quuuué?
+    \x02\x07Teruko el Compr.\x02\x07¿Quuuué?
     ¿Qué hago ahora?[pause]
   - |-
-    [\x0207]Teruko el compr.[\x0207]¿Dónde está la
+    \x02\x07Teruko el compr.\x02\x07¿Dónde está la
     policía?[pause]

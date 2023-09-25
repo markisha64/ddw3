@@ -1,30 +1,30 @@
 strings:
   - ''
   - |-
-    [\x0207]Lisa[\x0207]Ok ! Nick, cherche
+    \x02\x07Lisa\x02\x07Ok ! Nick, cherche
     un mot de passe
     dans cet ordinateur.[pause]
   - |-
-    [\x0207]Lisa[\x0207]Keith, mets de
+    \x02\x07Lisa\x02\x07Keith, mets de
     l'ordre dans ces
     documents, vite ![pause]
-  - '[\x0207]Keith[\x0207]D''accord.[pause]'
-  - '[\x0207]Nick[\x0207]OK.[pause]'
+  - '\x02\x07Keith\x02\x07D''accord.[pause]'
+  - '\x02\x07Nick\x02\x07OK.[pause]'
   - |-
-    [\x0207]Lisa[\x0207]Cela ne va
+    \x02\x07Lisa\x02\x07Cela ne va
     pas être
     long.[pause]
   - |-
-    [\x0207]Kail[\x0207]Euh, Lisa.
+    \x02\x07Kail\x02\x07Euh, Lisa.
     C'est qui
     ces deux-là ?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Oh, juste des
+    \x02\x07Lisa\x02\x07Oh, juste des
     amis à moi.[pause]
-  - '[\x0207]Kail[\x0207]Oh, OK.[pause]'
+  - '\x02\x07Kail\x02\x07Oh, OK.[pause]'
   - |-
-    [\x0207]Kail[\x0207]Seulement
+    \x02\x07Kail\x02\x07Seulement
     des amis ?[pause]
   - |-
-    [\x0207][\x020902]3Qu'est-ce
+    \x02\x07\x02\x09\x023Qu'est-ce
     qu'il y a ?[pause]

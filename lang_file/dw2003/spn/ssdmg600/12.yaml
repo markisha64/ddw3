@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207]¿Ciudadano Byakko?[\x0207]Tú debes ser el
-    nuevo desafiador.[pause][\x0203]Entra, por favor.
+    \x02\x07¿Ciudadano Byakko?\x02\x07Tú debes ser el
+    nuevo desafiador.[pause]\x02\x03Entra, por favor.
     El Líder Byakko
     te espera.[pause]

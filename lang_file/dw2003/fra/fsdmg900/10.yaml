@@ -1,3 +1,3 @@
 strings:
   - ''
-  - "[\\x0207]Dress. Haruka[\\x0207]Sois courageux \ndurant\nton voyage ![pause][\\x0203]Et remercie-moi\nde ma\ngénérosité ![pause]"
+  - "\\x02\\x07Dress. Haruka\\x02\\x07Sois courageux \ndurant\nton voyage ![pause]\\x02\\x03Et remercie-moi\nde ma\ngénérosité ![pause]"

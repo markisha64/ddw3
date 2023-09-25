@@ -1,14 +1,14 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Hey Kyukimon.
+    \x02\x07\x02\x09\x023Hey Kyukimon.
     Tu mir einen
-    Gefallen.[pause][\x0203]Gibst du mir die
+    Gefallen.[pause]\x02\x03Gibst du mir die
     Kotemon-DDNA aus
     deiner DDNA?[pause]
   - |-
-    [\x0207]Kyukimon[\x0207]...mal sehen.
+    \x02\x07Kyukimon\x02\x07...mal sehen.
     Ja, unter einer
-    Bedingung.[pause][\x0203]Zuerst muss
+    Bedingung.[pause]\x02\x03Zuerst muss
     du mit mir kämpfen
     und gewinnen.[pause]

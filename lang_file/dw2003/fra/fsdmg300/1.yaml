@@ -1,47 +1,47 @@
 strings:
   - ''
   - |-
-    [\x0207]Homme[\x0207]Oh -hé, qui
-    es-tu ?!![pause][\x0203]Arrête de me
+    \x02\x07Homme\x02\x07Oh -hé, qui
+    es-tu ?!![pause]\x02\x03Arrête de me
     tourner autour !
     Tu m'as fait peur...[pause]
   - |-
-    [\x0207][\x020902]3Ah, ah.
+    \x02\x07\x02\x09\x023Ah, ah.
     Je suis désolé
     monsieur...[pause]
   - |-
-    [\x0207]Homme[\x0207]...Je ne suis
-    pas vieux ![pause][\x0203]Je m'appelle Nick
+    \x02\x07Homme\x02\x07...Je ne suis
+    pas vieux ![pause]\x02\x03Je m'appelle Nick
     et j'ai 21 ans ![pause]
   - |-
-    [\x0207][\x020902]3Oh,ah,
+    \x02\x07\x02\x09\x023Oh,ah,
     oui, désolé ![pause]
   - |-
-    [\x0207]Nick[\x0207]Mais il n'y a que
+    \x02\x07Nick\x02\x07Mais il n'y a que
     des gens grossiers
-    sur ce serveur ?[pause][\x0203]D'abord Etemon, et
+    sur ce serveur ?[pause]\x02\x03D'abord Etemon, et
     maintenant toi...[pause]
   - |-
-    [\x0207][\x020902]3Etemon ?
+    \x02\x07\x02\x09\x023Etemon ?
     Que s'est-il
     passé ?[pause]
   - |-
-    [\x0207]Nick[\x0207]J'ai trouvé ce gros
-    bouclier tape-à-l'oeil.[pause][\x0203]Etemon est arrivé et
-    a dit que c'était à lui.[pause][\x0203]Et il me l'a repris
+    \x02\x07Nick\x02\x07J'ai trouvé ce gros
+    bouclier tape-à-l'oeil.[pause]\x02\x03Etemon est arrivé et
+    a dit que c'était à lui.[pause]\x02\x03Et il me l'a repris
     sans même me dire
     merci.[pause]
   - |-
-    [\x0207][\x020902]3Etemon ? Un
+    \x02\x07\x02\x09\x023Etemon ? Un
     bouclier tape
-    à l'oeil ?[pause][\x0203]Je me
+    à l'oeil ?[pause]\x02\x03Je me
     demande de
     quoi il s'agit.[pause]
   - |-
-    [\x0207]Nick[\x0207]Hé, je suis
+    \x02\x07Nick\x02\x07Hé, je suis
     occupé, moi
     alors...[pause]
   - |-
-    [\x0207]Nick[\x0207]Pourquoi ne font-ils
-    pas leur travail ?[pause][\x0203]Si seulement ils
+    \x02\x07Nick\x02\x07Pourquoi ne font-ils
+    pas leur travail ?[pause]\x02\x03Si seulement ils
     faisaient comme moi ![pause]

@@ -1,18 +1,18 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Sicher!
+    \x02\x07\x02\x09\x023Sicher!
     Ich besieg
     dich jederzeit![pause]
   - |-
-    [\x0207]BK Imperialdra.[\x0207]Du hast Mut!
+    \x02\x07BK Imperialdra.\x02\x07Du hast Mut!
     Du gefällst
     mir![pause]
   - |-
-    [\x0207][\x020902]3Hey, ich hab
+    \x02\x07\x02\x09\x023Hey, ich hab
     auch Stärke![pause]
   - |-
-    [\x0207]BK Imperialdramon[\x0207]Du hast viel
-    Vertrauen![pause][\x0203]Super. Das
+    \x02\x07BK Imperialdramon\x02\x07Du hast viel
+    Vertrauen![pause]\x02\x03Super. Das
     wird ein
     gutes Spiel![pause]

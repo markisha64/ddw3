@@ -4,402 +4,402 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Lisa[\x0207]Oooink!
+    \x02\x07Lisa\x02\x07Oooink!
     Ooink, oink, ooink![pause]
   - |-
-    [\x0207]Nick[\x0207]Oink!
+    \x02\x07Nick\x02\x07Oink!
     Ooink! Oi![pause]
   - |-
-    [\x0207]Keith[\x0207]Oooink,
+    \x02\x07Keith\x02\x07Oooink,
     ooinoinnk![pause]
-  - "[\\x0207]Tamer Bill[\\x0207]I'm Bill, No.1 in the \nworld![pause][\\x0203]...what am I No.1 in?\nI'll leave that up\nto you![pause]"
+  - "\\x02\\x07Tamer Bill\\x02\\x07I'm Bill, No.1 in the \nworld![pause]\\x02\\x03...what am I No.1 in?\nI'll leave that up\nto you![pause]"
   - a
-  - "[\\x0207]Tamer Bill[\\x0207]I wonder if Steve \nin Asuka is OK.[pause][\\x0203]He can't do \nanything without \nme.[pause]"
-  - "[\\x0207]Tamer Bill[\\x0207]I'm No.1, \nso I'm good \nat cards too![pause][\\x0203]Of course, \nI can beat you \neasily![pause]"
-  - "[\\x0207]Tamer Bill[\\x0207]So you're the tamer\nthat defeated the \nA.o.A.[pause][\\x0203]But I'm the world\nNo.1, so I won't lose. \nYou wanna fight?[pause]"
-  - "[\\x0207]Tamer Bill[\\x0207]Ha ha ha!\nDid you feel my\npowers![pause][\\x0203]Of course I'm \nNo.1 in the world![pause]"
-  - "[\\x0207]Tamer Bill[\\x0207]Ha ha ha,\nI lost rather\neasily.[pause][\\x0203]But that's all right \nsince I'm No.1 in \nthe world![pause]"
+  - "\\x02\\x07Tamer Bill\\x02\\x07I wonder if Steve \nin Asuka is OK.[pause]\\x02\\x03He can't do \nanything without \nme.[pause]"
+  - "\\x02\\x07Tamer Bill\\x02\\x07I'm No.1, \nso I'm good \nat cards too![pause]\\x02\\x03Of course, \nI can beat you \neasily![pause]"
+  - "\\x02\\x07Tamer Bill\\x02\\x07So you're the tamer\nthat defeated the \nA.o.A.[pause]\\x02\\x03But I'm the world\nNo.1, so I won't lose. \nYou wanna fight?[pause]"
+  - "\\x02\\x07Tamer Bill\\x02\\x07Ha ha ha!\nDid you feel my\npowers![pause]\\x02\\x03Of course I'm \nNo.1 in the world![pause]"
+  - "\\x02\\x07Tamer Bill\\x02\\x07Ha ha ha,\nI lost rather\neasily.[pause]\\x02\\x03But that's all right \nsince I'm No.1 in \nthe world![pause]"
   - |-
-    [\x0207]Tamer Hillary[\x0207]Bill is always playing![pause][\x0203]He needs to do his
+    \x02\x07Tamer Hillary\x02\x07Bill is always playing![pause]\x02\x03He needs to do his
     job sometime, or I'll
     be in trouble![pause]
   - a
-  - "[\\x0207]Tamer Hillary[\\x0207]Hey, can you\ntell him too?[pause][\\x0203]If he keeps it up \nhe'll turn into an \nOinkmon again![pause]"
-  - "[\\x0207]Tamer Hillary[\\x0207]But are\nbattles that\nmuch fun?[pause][\\x0203]Come and fight \nwith me![pause]"
-  - "[\\x0207]Tamer Hillary[\\x0207]Oh, I'm getting \nreally annoyed![pause][\\x0203]Let's fight to \nget my mind \noff of it![pause]"
+  - "\\x02\\x07Tamer Hillary\\x02\\x07Hey, can you\ntell him too?[pause]\\x02\\x03If he keeps it up \nhe'll turn into an \nOinkmon again![pause]"
+  - "\\x02\\x07Tamer Hillary\\x02\\x07But are\nbattles that\nmuch fun?[pause]\\x02\\x03Come and fight \nwith me![pause]"
+  - "\\x02\\x07Tamer Hillary\\x02\\x07Oh, I'm getting \nreally annoyed![pause]\\x02\\x03Let's fight to \nget my mind \noff of it![pause]"
   - |-
-    [\x0207]Tamer Hillary[\x0207]Yeah, I won![pause][\x0203]I can see why
+    \x02\x07Tamer Hillary\x02\x07Yeah, I won![pause]\x02\x03I can see why
     Bill is really
     into this![pause]
-  - "[\\x0207]Tamer Hillary[\\x0207]Really!\nWhat's so fun \nabout this game?![pause]"
-  - "[\\x0207]Tamer Marina[\\x0207]I thought that was \nthe end when I was\nturned into Oinkmon![pause]"
+  - "\\x02\\x07Tamer Hillary\\x02\\x07Really!\nWhat's so fun \nabout this game?![pause]"
+  - "\\x02\\x07Tamer Marina\\x02\\x07I thought that was \nthe end when I was\nturned into Oinkmon![pause]"
   - a
-  - "[\\x0207]Tamer Marina[\\x0207]I'm back to normal \nnow.\nI'm going to play![pause]"
-  - "[\\x0207]Tamer Marina[\\x0207]I'm so happy \nwe can \nplay again![pause][\\x0203]Let's fight! \nIt's fate that we \nmet![pause]"
-  - "[\\x0207]Tamer Marina[\\x0207]I'm so happy \nwe can \nplay again![pause][\\x0203]Come on, \nlet's get\nit on![pause]"
-  - "[\\x0207]Tamer marina[\\x0207]Yeaay, \nI won![pause][\\x0203]This is why I \nlove battles![pause]"
-  - "[\\x0207]Tamer Marina[\\x0207]It's all right if I\nlose![pause][\\x0203]I'm just happy I \ncan play.[pause]"
-  - "[\\x0207]Tamer Albert[\\x0207]I didn't know what to \ndo when I was turned\ninto an Oinkmon![pause]"
+  - "\\x02\\x07Tamer Marina\\x02\\x07I'm back to normal \nnow.\nI'm going to play![pause]"
+  - "\\x02\\x07Tamer Marina\\x02\\x07I'm so happy \nwe can \nplay again![pause]\\x02\\x03Let's fight! \nIt's fate that we \nmet![pause]"
+  - "\\x02\\x07Tamer Marina\\x02\\x07I'm so happy \nwe can \nplay again![pause]\\x02\\x03Come on, \nlet's get\nit on![pause]"
+  - "\\x02\\x07Tamer marina\\x02\\x07Yeaay, \nI won![pause]\\x02\\x03This is why I \nlove battles![pause]"
+  - "\\x02\\x07Tamer Marina\\x02\\x07It's all right if I\nlose![pause]\\x02\\x03I'm just happy I \ncan play.[pause]"
+  - "\\x02\\x07Tamer Albert\\x02\\x07I didn't know what to \ndo when I was turned\ninto an Oinkmon![pause]"
   - a
-  - "[\\x0207]Tamer Albert[\\x0207]You're the tamer \nthat beat the \nA.o.A![pause][\\x0203]Thank you! \nI'm really \ngrateful![pause]"
-  - "[\\x0207]Tamer Albert[\\x0207]Now that we're \nhumans we have to \nbattle.[pause][\\x0203]Let's have round\none right now![pause]"
-  - "[\\x0207]Tamer Albert[\\x0207]Thanks to you \nI have no time\nto play.[pause][\\x0203]Hey you, come \non - fight me\nright now.[pause]"
-  - "[\\x0207]Tamer Albert[\\x0207]Good, being \nOinkmon didn't \naffect me![pause][\\x0203]I'm going to get \nback the time \nI lost![pause]"
-  - "[\\x0207]Tamer Albert[\\x0207]I lost. Hmm, did \nbecoming Oinkmon \naffect me?[pause]"
-  - "[\\x0207]Card Maniac Chako[\\x0207]A true player\ncan't stop there![pause][\\x0203]Only the true \nplayers can\ncontinue![pause]"
+  - "\\x02\\x07Tamer Albert\\x02\\x07You're the tamer \nthat beat the \nA.o.A![pause]\\x02\\x03Thank you! \nI'm really \ngrateful![pause]"
+  - "\\x02\\x07Tamer Albert\\x02\\x07Now that we're \nhumans we have to \nbattle.[pause]\\x02\\x03Let's have round\none right now![pause]"
+  - "\\x02\\x07Tamer Albert\\x02\\x07Thanks to you \nI have no time\nto play.[pause]\\x02\\x03Hey you, come \non - fight me\nright now.[pause]"
+  - "\\x02\\x07Tamer Albert\\x02\\x07Good, being \nOinkmon didn't \naffect me![pause]\\x02\\x03I'm going to get \nback the time \nI lost![pause]"
+  - "\\x02\\x07Tamer Albert\\x02\\x07I lost. Hmm, did \nbecoming Oinkmon \naffect me?[pause]"
+  - "\\x02\\x07Card Maniac Chako\\x02\\x07A true player\ncan't stop there![pause]\\x02\\x03Only the true \nplayers can\ncontinue![pause]"
   - a
-  - "[\\x0207]Collector Leia[\\x0207]We were actually\nplaying when we \nwere Oinkmon![pause]"
+  - "\\x02\\x07Collector Leia\\x02\\x07We were actually\nplaying when we \nwere Oinkmon![pause]"
   - '43'
   - |-
-    [\x0207]Card Maniac Chako[\x0207]Oi, oioink!
+    \x02\x07Card Maniac Chako\x02\x07Oi, oioink!
     Ooin, ooioink![pause]
   - |-
-    [\x0207]Collector Leia[\x0207]Oi, oioink!
+    \x02\x07Collector Leia\x02\x07Oi, oioink!
     Oioin, ooi ooin![pause]
   - |-
-    [\x0207]Tamer Bill[\x0207]Oin, oio 1!
+    \x02\x07Tamer Bill\x02\x07Oin, oio 1!
     Oin 1, oioink![pause]
   - |-
-    [\x0207]Tamer Hillary[\x0207]Oin, oionk!
+    \x02\x07Tamer Hillary\x02\x07Oin, oionk!
     Oink, oioink![pause]
   - |-
-    [\x0207]Tamer Marina[\x0207]Oioion, oink!
+    \x02\x07Tamer Marina\x02\x07Oioion, oink!
     Oioin, oiooinnk![pause]
   - |-
-    [\x0207]Tamer Albert[\x0207]...oin?
+    \x02\x07Tamer Albert\x02\x07...oin?
     Oioink?!
     Oooin, oink![pause]
   - |-
-    [\x0207]Card Maniac Chako[\x0207]Oi, oioink!
+    \x02\x07Card Maniac Chako\x02\x07Oi, oioink!
     Ooin, ooioink![pause]
   - |-
-    [\x0207]Collector Leia[\x0207]Oi, oioink!
+    \x02\x07Collector Leia\x02\x07Oi, oioink!
     Oioin, ooi ooin![pause]
   - |-
-    [\x0207]Tamer Bill[\x0207]Oin, oio 1!
+    \x02\x07Tamer Bill\x02\x07Oin, oio 1!
     Oin 1, oioink![pause]
   - |-
-    [\x0207]Tamer Hillary[\x0207]Oin, oionk!
+    \x02\x07Tamer Hillary\x02\x07Oin, oionk!
     Oink, oioink![pause]
   - |-
-    [\x0207]Tamer Marina[\x0207]Oioion, oink!
+    \x02\x07Tamer Marina\x02\x07Oioion, oink!
     Oioin, oiooinnk![pause]
   - |-
-    [\x0207]Tamer Albert[\x0207]...oin?
+    \x02\x07Tamer Albert\x02\x07...oin?
     Oioink?!
     Oooin, oink![pause]
-  - "[\\x0207]Information[\\x0207]Ooink, oink,\noooink![pause][\\x0203]Oops, I still have \nthat habit from when \nI was Oinkmon![pause]"
+  - "\\x02\\x07Information\\x02\\x07Ooink, oink,\noooink![pause]\\x02\\x03Oops, I still have \nthat habit from when \nI was Oinkmon![pause]"
   - |-
-    [\x0207]Information[\x0207]Ooink, oink,
+    \x02\x07Information\x02\x07Ooink, oink,
     oooink![pause]
   - |-
-    [\x0207]Information[\x0207]Ooink, oink,
+    \x02\x07Information\x02\x07Ooink, oink,
     oooink![pause]
   - '43'
-  - "[\\x0207]Guide[\\x0207]I'm glad everyone's\nback![pause][\\x0203]I just want to \nreturn to the Real \nWorld now![pause]"
+  - "\\x02\\x07Guide\\x02\\x07I'm glad everyone's\nback![pause]\\x02\\x03I just want to \nreturn to the Real \nWorld now![pause]"
   - |-
-    [\x0207]Guide[\x0207]Oooink, oink,
+    \x02\x07Guide\x02\x07Oooink, oink,
     Oooinnk![pause]
   - |-
-    [\x0207]Guide[\x0207]Oooink, oink,
+    \x02\x07Guide\x02\x07Oooink, oink,
     Oooinnk![pause]
   - '43'
-  - "[\\x0207]Baker Mary[\\x0207]I was saved\nbecause of \nyou. Thanks![pause][\\x0203]I'll bake you some \ntarts next time![pause]"
+  - "\\x02\\x07Baker Mary\\x02\\x07I was saved\nbecause of \nyou. Thanks![pause]\\x02\\x03I'll bake you some \ntarts next time![pause]"
   - |-
-    [\x0207]Baker Mary[\x0207]Ooink, oinoinoi,
+    \x02\x07Baker Mary\x02\x07Ooink, oinoinoi,
     oioin, oinoinoink![pause]
   - |-
-    [\x0207]Baker Mary[\x0207]Ooink, oinoinoi,
+    \x02\x07Baker Mary\x02\x07Ooink, oinoinoi,
     oioin, oinoinoink![pause]
   - '43'
-  - "[\\x0207]Kazuo[\\x0207]It's OK if we get\nturned into ramen![pause][\\x0203]That would be\nthe life for a \nramen lover![pause]"
+  - "\\x02\\x07Kazuo\\x02\\x07It's OK if we get\nturned into ramen![pause]\\x02\\x03That would be\nthe life for a \nramen lover![pause]"
   - |-
-    [\x0207]Kazuo[\x0207]Ooin, oink, oink,
+    \x02\x07Kazuo\x02\x07Ooin, oink, oink,
     ooink, oink,
     oooink![pause]
   - |-
-    [\x0207]Kazuo[\x0207]Ooin, oink, oink,
+    \x02\x07Kazuo\x02\x07Ooin, oink, oink,
     ooink, oink,
     oooink![pause]
   - '43'
-  - "[\\x0207]DO Guard[\\x0207]We're pursuing \nthe A.o.A that \nescaped![pause][\\x0203]If you see\nany, tell us![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07We're pursuing \nthe A.o.A that \nescaped![pause]\\x02\\x03If you see\nany, tell us![pause]"
   - |-
-    [\x0207]DO Guard[\x0207]Ooink, oink,
+    \x02\x07DO Guard\x02\x07Ooink, oink,
     ooooink![pause]
-  - "[\\x0207]DO Guard[\\x0207]You're the tamer\nthat defeated \nChief Officer![pause][\\x0203]Come back and\nplay later![pause]"
-  - "[\\x0207]DO Guard[\\x0207]Oooink, \noink, oink![pause]"
-  - "[\\x0207]DO Guard[\\x0207]I didn't know what \nwould've \nhappened...[pause][\\x0203]But now things \nare looking good.[pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07You're the tamer\nthat defeated \nChief Officer![pause]\\x02\\x03Come back and\nplay later![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07Oooink, \noink, oink![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07I didn't know what \nwould've \nhappened...[pause]\\x02\\x03But now things \nare looking good.[pause]"
   - |-
-    [\x0207]DO Guard[\x0207]Oooink, oink,
+    \x02\x07DO Guard\x02\x07Oooink, oink,
     ooinoinoink, oink![pause]
-  - "[\\x0207]DO Guard[\\x0207]Though the A.o.A is \ndefeated the damage\nis enormous...[pause][\\x0203]Our fight won't end\nuntil everything is\nback to normal![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07Though the A.o.A is \ndefeated the damage\nis enormous...[pause]\\x02\\x03Our fight won't end\nuntil everything is\nback to normal![pause]"
   - |-
-    [\x0207]DO Guard[\x0207]Ooink?
+    \x02\x07DO Guard\x02\x07Ooink?
     Ooink, oink![pause]
   - '43'
   - '43'
   - |-
-    [\x0207]Digimon Navi[\x0207]Oooiooioi, oink!
+    \x02\x07Digimon Navi\x02\x07Oooiooioi, oink!
     Oioioin,
     oooooooo![pause]
   - |-
-    [\x0207]Digivolve Navi[\x0207]Oin, oioink!
+    \x02\x07Digivolve Navi\x02\x07Oin, oioink!
     Oioioin, oink![pause]
-  - "[\\x0207]Dr. Osomatsu[\\x0207]I'm Dr. Osomatsu, \nthe president of \nthis lab![pause][\\x0203]I was in the \nbathroom, and \nlook at this![pause]"
-  - "[\\x0207]Dr. Osomatsu[\\x0207]I'm Dr. Osomatsu, \nthe president of \nthis lab![pause][\\x0203]I'm just glad\neveryone is back\nto normal![pause]"
-  - "[\\x0207]Digimon Navi[\\x0207]All the researchers \nare happy they \nbecame Oinkmon.[pause][\\x0203]They really are \nstupid...[pause]"
-  - "[\\x0207]Digivolve Navi[\\x0207]Now I understand \nhow Digimon feel![pause][\\x0203]I'm going to spend \nmore time \nresearching![pause]"
+  - "\\x02\\x07Dr. Osomatsu\\x02\\x07I'm Dr. Osomatsu, \nthe president of \nthis lab![pause]\\x02\\x03I was in the \nbathroom, and \nlook at this![pause]"
+  - "\\x02\\x07Dr. Osomatsu\\x02\\x07I'm Dr. Osomatsu, \nthe president of \nthis lab![pause]\\x02\\x03I'm just glad\neveryone is back\nto normal![pause]"
+  - "\\x02\\x07Digimon Navi\\x02\\x07All the researchers \nare happy they \nbecame Oinkmon.[pause]\\x02\\x03They really are \nstupid...[pause]"
+  - "\\x02\\x07Digivolve Navi\\x02\\x07Now I understand \nhow Digimon feel![pause]\\x02\\x03I'm going to spend \nmore time \nresearching![pause]"
   - |-
-    [\x0207]Digimon Navi[\x0207]Oooiooioi, oink!
+    \x02\x07Digimon Navi\x02\x07Oooiooioi, oink!
     Oioioin,
     oooooooo![pause]
   - |-
-    [\x0207]Digivolve Navi[\x0207]Oin, oioink!
+    \x02\x07Digivolve Navi\x02\x07Oin, oioink!
     Oioioin, oink![pause]
   - |-
-    [\x0207]Dr. Osomatsu[\x0207]Oi, oiooink!
+    \x02\x07Dr. Osomatsu\x02\x07Oi, oiooink!
     Oin, oioioin![pause]
   - '43'
   - '43'
   - '43'
   - '43'
   - |-
-    [\x0207]Account Login[\x0207]Oink,
+    \x02\x07Account Login\x02\x07Oink,
     ooin, oioinoink![pause]
-  - "[\\x0207]Account Login[\\x0207]We're saved![pause][\\x0203]Now all we need\nis the Matrix \nChamber to work.[pause]"
-  - "[\\x0207]Account Login[\\x0207]Oink, \noink, oinik![pause]"
+  - "\\x02\\x07Account Login\\x02\\x07We're saved![pause]\\x02\\x03Now all we need\nis the Matrix \nChamber to work.[pause]"
+  - "\\x02\\x07Account Login\\x02\\x07Oink, \noink, oinik![pause]"
   - '43'
   - |-
-    [\x0207]Grandpa Mickey[\x0207]Oink!
+    \x02\x07Grandpa Mickey\x02\x07Oink!
     Oioink, oink![pause]
-  - "[\\x0207]Grandpa Mickey[\\x0207]Didn't think I'd get \nturned into an \nOinkmon.[pause][\\x0203]I wonder if Grandpa \nDonald is all right.[pause]"
+  - "\\x02\\x07Grandpa Mickey\\x02\\x07Didn't think I'd get \nturned into an \nOinkmon.[pause]\\x02\\x03I wonder if Grandpa \nDonald is all right.[pause]"
   - |-
-    [\x0207]Grandpa Mickey[\x0207]Oink!
+    \x02\x07Grandpa Mickey\x02\x07Oink!
     Oioink, oink![pause]
   - '43'
-  - "[\\x0207]Grandpa Donald[\\x0207]Oink,\noioioioink, \noink, oioink![pause]"
-  - "[\\x0207]Grandpa Donald[\\x0207]Didn't think I'd get \nturned into \nOinkmon at this age![pause][\\x0203]Wonder what's next? \nA duck?\nHa ha ha![pause]"
-  - "[\\x0207]Grandpa Donald[\\x0207]Oink,\noioioioink, \noink, oioink![pause]"
+  - "\\x02\\x07Grandpa Donald\\x02\\x07Oink,\noioioioink, \noink, oioink![pause]"
+  - "\\x02\\x07Grandpa Donald\\x02\\x07Didn't think I'd get \nturned into \nOinkmon at this age![pause]\\x02\\x03Wonder what's next? \nA duck?\nHa ha ha![pause]"
+  - "\\x02\\x07Grandpa Donald\\x02\\x07Oink,\noioioioink, \noink, oioink![pause]"
   - '43'
   - '43'
   - '43'
   - |-
-    [\x0207]Mr. Wedge[\x0207]Ooink?!
+    \x02\x07Mr. Wedge\x02\x07Ooink?!
     Ooin, oinoink![pause]
-  - "[\\x0207]Mr. Wedge[\\x0207]This is how it \nfeels to be\nrestored to life![pause][\\x0203]I wonder if my \nemployees were \ndoing their job?![pause]"
+  - "\\x02\\x07Mr. Wedge\\x02\\x07This is how it \nfeels to be\nrestored to life![pause]\\x02\\x03I wonder if my \nemployees were \ndoing their job?![pause]"
   - |-
-    [\x0207]Mr. Wedge[\x0207]Ooink?!
+    \x02\x07Mr. Wedge\x02\x07Ooink?!
     Ooin, oinoink![pause]
   - '43'
   - |-
-    [\x0207]Fashion Barbie[\x0207]Oink,
+    \x02\x07Fashion Barbie\x02\x07Oink,
     oioink, oink, oink![pause]
   - |-
-    [\x0207]Fashion Barbie[\x0207]Now I know!
+    \x02\x07Fashion Barbie\x02\x07Now I know!
     I'll start a trendy
-    fashion...[pause][\x0203]Oink Mode!
+    fashion...[pause]\x02\x03Oink Mode!
     It'll be a hit![pause]
   - |-
-    [\x0207]Fashion Barbie[\x0207]Oink,
+    \x02\x07Fashion Barbie\x02\x07Oink,
     oioink, oink, oink![pause]
   - '43'
   - |-
-    [\x0207]Shopper Asami[\x0207]Ooink,
+    \x02\x07Shopper Asami\x02\x07Ooink,
     oink, oink![pause]
-  - "[\\x0207]Shopper Asami [\\x0207]I'm really stressed \nnow![pause][\\x0203]I'm going to shop \nuntil I drop.[pause]"
+  - "\\x02\\x07Shopper Asami \\x02\\x07I'm really stressed \nnow![pause]\\x02\\x03I'm going to shop \nuntil I drop.[pause]"
   - |-
-    [\x0207]Shopper Asami[\x0207]Ooink,
+    \x02\x07Shopper Asami\x02\x07Ooink,
     oink, oink![pause]
-  - "[\\x0207]Weapon Fan Wayne[\\x0207]This is great!\nIt has the best \nweapons![pause]"
-  - "[\\x0207]Grandma Catherine[\\x0207]Really...[pause][\\x0203]I don't want to \nbe turned into\nOinkmon again![pause]"
+  - "\\x02\\x07Weapon Fan Wayne\\x02\\x07This is great!\nIt has the best \nweapons![pause]"
+  - "\\x02\\x07Grandma Catherine\\x02\\x07Really...[pause]\\x02\\x03I don't want to \nbe turned into\nOinkmon again![pause]"
   - '43'
   - '43'
   - |-
-    [\x0207]Master Paul[\x0207]Ooink, oin,
+    \x02\x07Master Paul\x02\x07Ooink, oin,
     ooooink![pause]
-  - "[\\x0207]Master Paul[\\x0207]I had a fight with \nJohn and haven't\nseen him since![pause][\\x0203]When I was turned \ninto Oinkmon, it  \noccurred to me...[pause][\\x0203]Maybe I'll go see \nhim...[pause]"
+  - "\\x02\\x07Master Paul\\x02\\x07I had a fight with \nJohn and haven't\nseen him since![pause]\\x02\\x03When I was turned \ninto Oinkmon, it  \noccurred to me...[pause]\\x02\\x03Maybe I'll go see \nhim...[pause]"
   - |-
-    [\x0207]Master Paul[\x0207]Ooink, oin,
+    \x02\x07Master Paul\x02\x07Ooink, oin,
     ooooink![pause]
   - '43'
   - |-
-    [\x0207]Waitress Linda[\x0207]Ooioi,
+    \x02\x07Waitress Linda\x02\x07Ooioi,
     ooink,
     oooinkoink![pause]
-  - "[\\x0207]Waitress Linda[\\x0207]Being Oinkmon \nwas just \nhorrible![pause][\\x0203]I think I got \nfat![pause]"
+  - "\\x02\\x07Waitress Linda\\x02\\x07Being Oinkmon \nwas just \nhorrible![pause]\\x02\\x03I think I got \nfat![pause]"
   - |-
-    [\x0207]Waitress Linda[\x0207]Ooioi,
+    \x02\x07Waitress Linda\x02\x07Ooioi,
     ooink,
     oooinkoink![pause]
   - '43'
   - |-
-    [\x0207]Ms.Bridget[\x0207]Oiink,
+    \x02\x07Ms.Bridget\x02\x07Oiink,
     ooooinnnk,
     ooinkkk![pause]
-  - "[\\x0207]Ms.Bridget[\\x0207]I think it's OK to \nslack off today![pause][\\x0203]I'm going to go \nhave some fun![pause]"
+  - "\\x02\\x07Ms.Bridget\\x02\\x07I think it's OK to \nslack off today![pause]\\x02\\x03I'm going to go \nhave some fun![pause]"
   - |-
-    [\x0207]Ms.Bridget[\x0207]Oiink,
+    \x02\x07Ms.Bridget\x02\x07Oiink,
     ooooinnnk,
     ooinkkk![pause]
   - '43'
   - |-
-    [\x0207]Thirsty Bacchus[\x0207]Ooooooink,
+    \x02\x07Thirsty Bacchus\x02\x07Ooooooink,
     ooooooink...[pause]
   - |-
-    [\x0207]Thirsty Bacchus[\x0207]Boy, I sure was
+    \x02\x07Thirsty Bacchus\x02\x07Boy, I sure was
     parched![pause]
   - |-
-    [\x0207]Thirsty Bacchus[\x0207]Ooooooink,
+    \x02\x07Thirsty Bacchus\x02\x07Ooooooink,
     ooooooink...[pause]
   - |-
-    [\x0207]Bacchus' Wife[\x0207]Ooink, oink,
+    \x02\x07Bacchus' Wife\x02\x07Ooink, oink,
     ooinnk![pause]
-  - "[\\x0207]Bacchus' Wife[\\x0207]He's not normal,\njust look at him.[pause][\\x0203]I wonder if they \ncan turn him back \ninto Oinkmon...[pause]"
+  - "\\x02\\x07Bacchus' Wife\\x02\\x07He's not normal,\njust look at him.[pause]\\x02\\x03I wonder if they \ncan turn him back \ninto Oinkmon...[pause]"
   - |-
-    [\x0207]Thirsty Bacchus[\x0207]Ooooooink,
+    \x02\x07Thirsty Bacchus\x02\x07Ooooooink,
     ooooooink...[pause]
   - '43'
   - '43'
   - |-
-    [\x0207]Maniac Masaki[\x0207]Oonik,
+    \x02\x07Maniac Masaki\x02\x07Oonik,
     oooink, oink![pause]
-  - "[\\x0207]Maniac Masaki[\\x0207]That was just \nwrong.[pause][\\x0203]And they're \nnot holding \nthe auction![pause]"
+  - "\\x02\\x07Maniac Masaki\\x02\\x07That was just \nwrong.[pause]\\x02\\x03And they're \nnot holding \nthe auction![pause]"
   - |-
-    [\x0207]Maniac Masaki[\x0207]Oonik,
+    \x02\x07Maniac Masaki\x02\x07Oonik,
     oooink, oink![pause]
-  - "[\\x0207]Honest Maria[\\x0207]Oik, oioink!\nOoooin, \noioink![pause]"
-  - "[\\x0207]Honest Maria[\\x0207]Did you get weapons \nfrom Armor Digimon?[pause][\\x0203]I was a Oinkmon, so\nI couldn't![pause]"
-  - "[\\x0207]Honest Maria[\\x0207]Oik, oioink!\nOoooin, \noioink![pause]"
+  - "\\x02\\x07Honest Maria\\x02\\x07Oik, oioink!\nOoooin, \noioink![pause]"
+  - "\\x02\\x07Honest Maria\\x02\\x07Did you get weapons \nfrom Armor Digimon?[pause]\\x02\\x03I was a Oinkmon, so\nI couldn't![pause]"
+  - "\\x02\\x07Honest Maria\\x02\\x07Oik, oioink!\nOoooin, \noioink![pause]"
   - '43'
   - |-
-    [\x0207]Student Takeshi[\x0207]Oooin, oink!
+    \x02\x07Student Takeshi\x02\x07Oooin, oink!
     Oion,
     ooin, ooink![pause]
-  - "[\\x0207]Student Takeshi[\\x0207]Did you defeat all of \nAmaterasu's boss \nDigimon?[pause][\\x0203]They got a lot of cool \nstuff, so look for \nthem![pause]"
+  - "\\x02\\x07Student Takeshi\\x02\\x07Did you defeat all of \nAmaterasu's boss \nDigimon?[pause]\\x02\\x03They got a lot of cool \nstuff, so look for \nthem![pause]"
   - |-
-    [\x0207]Student Takeshi[\x0207]Oooin, oink!
+    \x02\x07Student Takeshi\x02\x07Oooin, oink!
     Oion,
     ooin, ooink![pause]
   - '43'
   - |-
-    [\x0207]Ring Lover Diana[\x0207]Ooin, oin!
+    \x02\x07Ring Lover Diana\x02\x07Ooin, oin!
     Oioionk, oink![pause]
-  - "[\\x0207]Ring Lover Diana[\\x0207]I never want to be \nOinkmon again![pause][\\x0203]I can't wear any \nnice rings in that \nform![pause]"
+  - "\\x02\\x07Ring Lover Diana\\x02\\x07I never want to be \nOinkmon again![pause]\\x02\\x03I can't wear any \nnice rings in that \nform![pause]"
   - |-
-    [\x0207]Ring Lover Diana[\x0207]Ooin, oin!
+    \x02\x07Ring Lover Diana\x02\x07Ooin, oin!
     Oioionk, oink![pause]
   - |-
-    [\x0207]Grandma Daisy[\x0207]Oioink,
+    \x02\x07Grandma Daisy\x02\x07Oioink,
     oooin,
     oin, oinkk![pause]
-  - "[\\x0207]Grandma Daisy[\\x0207]Turning humans into \nDigimon...[pause][\\x0203]Look at what the\nA.o.A comes up \nwith...[pause]"
+  - "\\x02\\x07Grandma Daisy\\x02\\x07Turning humans into \nDigimon...[pause]\\x02\\x03Look at what the\nA.o.A comes up \nwith...[pause]"
   - |-
-    [\x0207]Grandma Daisy[\x0207]Oioink,
+    \x02\x07Grandma Daisy\x02\x07Oioink,
     oooin,
     oin, oinkk![pause]
   - |-
-    [\x0207]Item Maniac Sam[\x0207]Ooi, oioink!
+    \x02\x07Item Maniac Sam\x02\x07Ooi, oioink!
     Ooin, oink![pause]
-  - "[\\x0207]Item Maniac Sam[\\x0207]Did you go to this \nJunk Shop?![pause][\\x0203]There's something \namazing happening![pause]"
+  - "\\x02\\x07Item Maniac Sam\\x02\\x07Did you go to this \nJunk Shop?![pause]\\x02\\x03There's something \namazing happening![pause]"
   - |-
-    [\x0207]Item Maniac Sam[\x0207]Ooi, oioink!
+    \x02\x07Item Maniac Sam\x02\x07Ooi, oioink!
     Ooin, oink![pause]
   - '43'
   - '43'
   - '43'
-  - "[\\x0207]Keith[\\x0207]There's no problem \nat the moment![pause][\\x0203]Once we get back the \nAdministration Center,\nit will be perfect![pause]"
-  - "[\\x0207]DO Guard[\\x0207]You're the boy \nthat defeated \nthe A.o.A![pause][\\x0203]I want to make \nyou an honorary\nGuardsman.[pause]"
+  - "\\x02\\x07Keith\\x02\\x07There's no problem \nat the moment![pause]\\x02\\x03Once we get back the \nAdministration Center,\nit will be perfect![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07You're the boy \nthat defeated \nthe A.o.A![pause]\\x02\\x03I want to make \nyou an honorary\nGuardsman.[pause]"
   - |-
-    [\x0207]DO Guard[\x0207]Ooink, oink,
+    \x02\x07DO Guard\x02\x07Ooink, oink,
     oooink, oooinik![pause]
-  - "[\\x0207]DO Guard[\\x0207]We'll strengthen \nthe security![pause][\\x0203]This will never \nhappen again![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07We'll strengthen \nthe security![pause]\\x02\\x03This will never \nhappen again![pause]"
   - |-
-    [\x0207]DO Guard[\x0207]Ooioioink!
+    \x02\x07DO Guard\x02\x07Ooioioink!
     Ooioink, oink![pause]
-  - "[\\x0207]DO Guard[\\x0207]Thanks to you this \nserver is saved![pause]"
-  - "[\\x0207]DO Guard[\\x0207]I didn't know what \nwould happen when \nwe got caught...[pause][\\x0203]I'm just glad we're\nsaved![pause]"
-  - "[\\x0207]DO Guard[\\x0207]Rescued by a kid \ntamer...[pause][\\x0203]It's kind of \nembarrassing...[pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07Thanks to you this \nserver is saved![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07I didn't know what \nwould happen when \nwe got caught...[pause]\\x02\\x03I'm just glad we're\nsaved![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07Rescued by a kid \ntamer...[pause]\\x02\\x03It's kind of \nembarrassing...[pause]"
   - |-
-    [\x0207]DO Guard[\x0207]Oioioionk,
+    \x02\x07DO Guard\x02\x07Oioioionk,
     oink, oioink![pause]
   - |-
-    [\x0207]DO Guard[\x0207]Oooink, oink!
+    \x02\x07DO Guard\x02\x07Oooink, oink!
     Oink, ooink![pause]
   - |-
-    [\x0207]DO Guard[\x0207]Ooonink, oink,
+    \x02\x07DO Guard\x02\x07Ooonink, oink,
     oi, oinkkk![pause]
-  - "[\\x0207]DO Guard[\\x0207]We let the Admin\nCenter get taken \nover.[pause][\\x0203]We're going to have \ntighten security\nnow![pause]"
-  - "[\\x0207]DO Guard[\\x0207]S.A.P is helping \nwith the security.[pause][\\x0203]Lisa is great! She's \nvery dependable![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07We let the Admin\nCenter get taken \nover.[pause]\\x02\\x03We're going to have \ntighten security\nnow![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07S.A.P is helping \nwith the security.[pause]\\x02\\x03Lisa is great! She's \nvery dependable![pause]"
   - |-
-    [\x0207]DO Guard[\x0207]Oioioink!
+    \x02\x07DO Guard\x02\x07Oioioink!
     Oink, oink![pause]
   - |-
-    [\x0207]DO Guard[\x0207]Oooink, oioionik,
+    \x02\x07DO Guard\x02\x07Oooink, oioionik,
     oink![pause]
-  - "[\\x0207]BK WarGreymon[\\x0207]A great tamer calmly \ngets through any \nkind of danger![pause][\\x0203]Now go...\nAnd defeat the A.o.A![pause]"
-  - "[\\x0207]BK WarGreymon[\\x0207]Don't let your guard\ndown because you \ndefeated the A.o.A![pause][\\x0203]Train yourself and \naim to become a \ngreat tamer![pause]"
-  - "[\\x0207]BK WarGreymon[\\x0207]A great tamer never \ngives up![pause][\\x0203]Now go...\nAnd save this world![pause]"
+  - "\\x02\\x07BK WarGreymon\\x02\\x07A great tamer calmly \ngets through any \nkind of danger![pause]\\x02\\x03Now go...\nAnd defeat the A.o.A![pause]"
+  - "\\x02\\x07BK WarGreymon\\x02\\x07Don't let your guard\ndown because you \ndefeated the A.o.A![pause]\\x02\\x03Train yourself and \naim to become a \ngreat tamer![pause]"
+  - "\\x02\\x07BK WarGreymon\\x02\\x07A great tamer never \ngives up![pause]\\x02\\x03Now go...\nAnd save this world![pause]"
   - '43'
-  - "[\\x0207]DO Guard[\\x0207]All of the A.o.A ran \ninto the Administration\nCenter![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07All of the A.o.A ran \ninto the Administration\nCenter![pause]"
   - |-
-    [\x0207]DO Guard[\x0207]We did it!
-    We won![pause][\x0203]Now things
+    \x02\x07DO Guard\x02\x07We did it!
+    We won![pause]\x02\x03Now things
     can return
     to normal.[pause]
   - |-
-    [\x0207]DO Guard[\x0207]...oink, oink,
+    \x02\x07DO Guard\x02\x07...oink, oink,
     ooink, oooink![pause]
-  - "[\\x0207]DO Guard[\\x0207]They probably got \nscared of us\nand ran![pause]"
-  - "[\\x0207]DO Guard[\\x0207]We've captured all \nof the A.o.A![pause][\\x0203]That's the end of \nthem![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07They probably got \nscared of us\nand ran![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07We've captured all \nof the A.o.A![pause]\\x02\\x03That's the end of \nthem![pause]"
   - |-
-    [\x0207]DO Guard[\x0207]Ooooooiink!
+    \x02\x07DO Guard\x02\x07Ooooooiink!
     Oioioink, ooink![pause]
-  - "[\\x0207]DO Guard[\\x0207]Nothing wrong\nin the city![pause][\\x0203]There's only \nthe Admin\nCenter left![pause]"
-  - "[\\x0207]DO Guard[\\x0207]We beat the Chief\nOfficer, but we\nshould be careful.[pause][\\x0203]We don't know how \nmany of them are\nstill left![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07Nothing wrong\nin the city![pause]\\x02\\x03There's only \nthe Admin\nCenter left![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07We beat the Chief\nOfficer, but we\nshould be careful.[pause]\\x02\\x03We don't know how \nmany of them are\nstill left![pause]"
   - |-
-    [\x0207]DO Guard[\x0207]Ooin, oi, oink.
+    \x02\x07DO Guard\x02\x07Ooin, oi, oink.
     Ooink, ooink![pause]
-  - "[\\x0207]DO Guard[\\x0207]Though they're all \nOinkmon, they seem \nto be fine![pause][\\x0203]We have to get them \nchanged back![pause]"
-  - "[\\x0207]DO Guard[\\x0207]I'm impressed. You \ndefeated the Chief\nOfficer.[pause][\\x0203]Just leave \neverything to us \nand relax now![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07Though they're all \nOinkmon, they seem \nto be fine![pause]\\x02\\x03We have to get them \nchanged back![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07I'm impressed. You \ndefeated the Chief\nOfficer.[pause]\\x02\\x03Just leave \neverything to us \nand relax now![pause]"
   - |-
-    [\x0207]DO Guard[\x0207]Ooink, oioink.
+    \x02\x07DO Guard\x02\x07Ooink, oioink.
     Oioink, oink![pause]
   - |-
-    [\x0207]Liar Jim[\x0207]Ooink!
+    \x02\x07Liar Jim\x02\x07Ooink!
     Ooink, ooooink![pause]
-  - "[\\x0207]Liar Jim[\\x0207]The A.o.A is \nhere![pause][\\x0203]Ha ha just \nkidding![pause]"
+  - "\\x02\\x07Liar Jim\\x02\\x07The A.o.A is \nhere![pause]\\x02\\x03Ha ha just \nkidding![pause]"
   - |-
-    [\x0207]Liar Jim[\x0207]Ooink!
+    \x02\x07Liar Jim\x02\x07Ooink!
     Ooink, ooooink![pause]
   - '43'
   - |-
-    [\x0207]Mail Lover Saki[\x0207]Ooi, oin, in...
+    \x02\x07Mail Lover Saki\x02\x07Ooi, oin, in...
     Oink, oiooink![pause]
-  - "[\\x0207]Mail Lover Saki[\\x0207]There! I'm so busy![pause][\\x0203]I have to let everyone \nknow about this by \nmail![pause]"
+  - "\\x02\\x07Mail Lover Saki\\x02\\x07There! I'm so busy![pause]\\x02\\x03I have to let everyone \nknow about this by \nmail![pause]"
   - |-
-    [\x0207]Mail Lover Saki[\x0207]Ooi, oin, in...
+    \x02\x07Mail Lover Saki\x02\x07Ooi, oin, in...
     Oink, oiooink![pause]
   - '43'
   - |-
-    [\x0207]Rosa from Spain[\x0207]Ooioioink,
+    \x02\x07Rosa from Spain\x02\x07Ooioioink,
     ooink, oin, oink![pause]
-  - "[\\x0207]Rosa from Spain[\\x0207]I never want to\nbe Oinkmon again![pause][\\x0203]I can't do the \nFlamenco as\nOinkmon![pause]"
+  - "\\x02\\x07Rosa from Spain\\x02\\x07I never want to\nbe Oinkmon again![pause]\\x02\\x03I can't do the \nFlamenco as\nOinkmon![pause]"
   - |-
-    [\x0207]Rosa from Spain[\x0207]Ooioioink,
+    \x02\x07Rosa from Spain\x02\x07Ooioioink,
     ooink, oin, oink![pause]
   - |-
-    [\x0207]Grandpa Sid[\x0207]Ooink, oinoink
+    \x02\x07Grandpa Sid\x02\x07Ooink, oinoink
     ooink, oink![pause]
-  - "[\\x0207]Grandpa Sid[\\x0207]We'll be together even \nif it's the end of the \nworld![pause][\\x0203]Even the A.o.A can't \ndestroy that![pause]"
+  - "\\x02\\x07Grandpa Sid\\x02\\x07We'll be together even \nif it's the end of the \nworld![pause]\\x02\\x03Even the A.o.A can't \ndestroy that![pause]"
   - |-
-    [\x0207]Grandpa Sid[\x0207]Ooink, oinoink
+    \x02\x07Grandpa Sid\x02\x07Ooink, oinoink
     ooink, oink![pause]
   - |-
-    [\x0207]Grandma Nancy[\x0207]Ooink, ooooink,
+    \x02\x07Grandma Nancy\x02\x07Ooink, ooooink,
     oinkk, oink![pause]
-  - "[\\x0207]Grandma Nancy[\\x0207]I'm happy Grandpa Sid\nloves me so much...[pause][\\x0203]As long as he's \naround, there's no\nreason to be afraid![pause]"
+  - "\\x02\\x07Grandma Nancy\\x02\\x07I'm happy Grandpa Sid\nloves me so much...[pause]\\x02\\x03As long as he's \naround, there's no\nreason to be afraid![pause]"
   - |-
-    [\x0207]Grandma Nancy[\x0207]Ooink, ooooink,
+    \x02\x07Grandma Nancy\x02\x07Ooink, ooooink,
     oinkk, oink![pause]
   - '43'
   - '43'
@@ -407,29 +407,29 @@ strings:
   - '43'
   - '43'
   - |-
-    [\x0207]Big Eater[\x0207]Ooink,
+    \x02\x07Big Eater\x02\x07Ooink,
     oink, oinnk![pause]
-  - "[\\x0207]Big Eater[\\x0207]That was \nhorrible.[pause][\\x0203]I don't think I \ncan eat pork \never again...[pause]"
+  - "\\x02\\x07Big Eater\\x02\\x07That was \nhorrible.[pause]\\x02\\x03I don't think I \ncan eat pork \never again...[pause]"
   - |-
-    [\x0207]Big Eater[\x0207]Ooink,
+    \x02\x07Big Eater\x02\x07Ooink,
     oink, oinnk![pause]
   - '43'
   - |-
-    [\x0207]Student Kenta[\x0207]Oinoink,
+    \x02\x07Student Kenta\x02\x07Oinoink,
     ooink![pause]
   - |-
-    [\x0207]Student Kenta[\x0207]I'm saved!
+    \x02\x07Student Kenta\x02\x07I'm saved!
     I never want to be
     Oinkmon again![pause]
   - |-
-    [\x0207]Student Kenta[\x0207]Oinoink,
+    \x02\x07Student Kenta\x02\x07Oinoink,
     ooink![pause]
   - |-
-    [\x0207]Banker Tsuyoshi[\x0207]Ooink?!
+    \x02\x07Banker Tsuyoshi\x02\x07Ooink?!
     Oink, ooink![pause]
-  - "[\\x0207]Banker Tsuyoshi[\\x0207]I never want to be \nOinkmon ever\nagain![pause][\\x0203]I'll pay as much as \nyou want![pause]"
+  - "\\x02\\x07Banker Tsuyoshi\\x02\\x07I never want to be \nOinkmon ever\nagain![pause]\\x02\\x03I'll pay as much as \nyou want![pause]"
   - |-
-    [\x0207]Banker Tsuyoshi[\x0207]Ooink?!
+    \x02\x07Banker Tsuyoshi\x02\x07Ooink?!
     Oink, ooink![pause]
   - '43'
   - '43'
@@ -438,173 +438,173 @@ strings:
   - '43'
   - '43'
   - |-
-    [\x0207]Knightmon[\x0207]This is Amaterasu
+    \x02\x07Knightmon\x02\x07This is Amaterasu
     City, center of
     Amaterasu Server![pause]
-  - "[\\x0207]Knightmon[\\x0207]I can't believe you \ndefeated Chief \nOfficer![pause][\\x0203]Where does your \nstrength come\nfrom?[pause]"
-  - "[\\x0207]Knightmon[\\x0207]What does this \nmean?[pause][\\x0203]I do not \nunderstand![pause]"
-  - "[\\x0207]Knightmon[\\x0207]You can pass\nfreely now. \nPlease enter![pause]"
-  - "[\\x0207]Knightmon[\\x0207]The A.o.A has been \ndefeated![pause][\\x0203]That is good! \nWe are free \nonce again.[pause]"
-  - "[\\x0207]Knightmon[\\x0207]The A.o.A is\nnot defeated\nyet...[pause][\\x0203]Will we be \ncaptured by \nthem again?[pause]"
+  - "\\x02\\x07Knightmon\\x02\\x07I can't believe you \ndefeated Chief \nOfficer![pause]\\x02\\x03Where does your \nstrength come\nfrom?[pause]"
+  - "\\x02\\x07Knightmon\\x02\\x07What does this \nmean?[pause]\\x02\\x03I do not \nunderstand![pause]"
+  - "\\x02\\x07Knightmon\\x02\\x07You can pass\nfreely now. \nPlease enter![pause]"
+  - "\\x02\\x07Knightmon\\x02\\x07The A.o.A has been \ndefeated![pause]\\x02\\x03That is good! \nWe are free \nonce again.[pause]"
+  - "\\x02\\x07Knightmon\\x02\\x07The A.o.A is\nnot defeated\nyet...[pause]\\x02\\x03Will we be \ncaptured by \nthem again?[pause]"
   - '43'
   - '43'
   - |-
-    [\x0207]Holland's Michel[\x0207]Oioioin, oink,
+    \x02\x07Holland's Michel\x02\x07Oioioin, oink,
     ...oioinoink?![pause]
-  - "[\\x0207]Holland's Michel[\\x0207]That was sooo\nscary![pause][\\x0203]I'm glad we didn't \nget eaten![pause]"
+  - "\\x02\\x07Holland's Michel\\x02\\x07That was sooo\nscary![pause]\\x02\\x03I'm glad we didn't \nget eaten![pause]"
   - |-
-    [\x0207]Holland's Michel[\x0207]Oioioin, oink,
+    \x02\x07Holland's Michel\x02\x07Oioioin, oink,
     ...oioinoink?![pause]
   - '43'
-  - "[\\x0207]Guard Curt[\\x0207]We defeated the\nA.o.A, but something \ndoesn't feel right.[pause][\\x0203]I hope nothing\nelse happens...[pause]"
+  - "\\x02\\x07Guard Curt\\x02\\x07We defeated the\nA.o.A, but something \ndoesn't feel right.[pause]\\x02\\x03I hope nothing\nelse happens...[pause]"
   - |-
-    [\x0207]Guard Curt[\x0207]Oioooink, oink,
+    \x02\x07Guard Curt\x02\x07Oioooink, oink,
     ooiooink, oink![pause]
-  - "[\\x0207]Guard Russell[\\x0207]Curt always \nworries![pause][\\x0203]I'm sure \neverything will be \nall right![pause]"
+  - "\\x02\\x07Guard Russell\\x02\\x07Curt always \nworries![pause]\\x02\\x03I'm sure \neverything will be \nall right![pause]"
   - |-
-    [\x0207]Operator Akiko[\x0207]Ooinkoink,
+    \x02\x07Operator Akiko\x02\x07Ooinkoink,
     oink, oooionk![pause]
-  - "[\\x0207]Operator Akiko[\\x0207]I can't believe I \ngot turned into \nOinkmon...[pause][\\x0203]Now I'll never \nget married![pause]"
+  - "\\x02\\x07Operator Akiko\\x02\\x07I can't believe I \ngot turned into \nOinkmon...[pause]\\x02\\x03Now I'll never \nget married![pause]"
   - |-
-    [\x0207]Operator Akiko[\x0207]Ooinkoink,
+    \x02\x07Operator Akiko\x02\x07Ooinkoink,
     oink, oooionk![pause]
   - |-
-    [\x0207]Guard Russell[\x0207]Oink?
+    \x02\x07Guard Russell\x02\x07Oink?
     Oioioioooink,
     oooininnnk![pause]
-  - "[\\x0207]Keith[\\x0207]I found the machine to \nchange everyone back.[pause][\\x0203]But there's very little\nenergy, so it's not\ngoing too well![pause][\\x0203]Oh, MAN! What are\nwe going to do?[pause]"
+  - "\\x02\\x07Keith\\x02\\x07I found the machine to \nchange everyone back.[pause]\\x02\\x03But there's very little\nenergy, so it's not\ngoing too well![pause]\\x02\\x03Oh, MAN! What are\nwe going to do?[pause]"
   - |-
-    [\x0207]Karate Man Remo[\x0207]I'll defeat the A.o.A!
-    Aiyeeeee ya![pause][\x0203]...ouch!
+    \x02\x07Karate Man Remo\x02\x07I'll defeat the A.o.A!
+    Aiyeeeee ya![pause]\x02\x03...ouch!
     There goes my
     back again![pause]
   - |-
-    [\x0207]Karate man Remo[\x0207]Oink,
+    \x02\x07Karate man Remo\x02\x07Oink,
     ooink!
     Oioioionk![pause]
-  - "[\\x0207]Operator Anne[\\x0207]We create energy \nhere by windmills.[pause][\\x0203]If there's a strong \nwind, I think it'll \nwork...[pause]"
+  - "\\x02\\x07Operator Anne\\x02\\x07We create energy \nhere by windmills.[pause]\\x02\\x03If there's a strong \nwind, I think it'll \nwork...[pause]"
   - |-
-    [\x0207]Operator Anne[\x0207]Oooooink!
+    \x02\x07Operator Anne\x02\x07Oooooink!
     Oioionk, ooink![pause]
   - '43'
   - '43'
   - |-
-    [\x0207]Airdramon[\x0207]Zzzzzzz
+    \x02\x07Airdramon\x02\x07Zzzzzzz
     Zzzzzzzz[pause]
   - |-
-    [\x0207]Airdramon[\x0207]Zzzzzzzz
+    \x02\x07Airdramon\x02\x07Zzzzzzzz
     Zzzzzzzzz[pause]
   - |-
-    [\x0207]Qing Long Chief[\x0207]You're one of us.
+    \x02\x07Qing Long Chief\x02\x07You're one of us.
     Good work...[pause]
   - |-
-    [\x0207]Grandpa Shige[\x0207]Oooinik,
+    \x02\x07Grandpa Shige\x02\x07Oooinik,
     oinkoink!
     Oooink, oooink![pause]
-  - "[\\x0207]Grandpa Shige[\\x0207]I saw it!\nAirdramon came and\ncreated the wind![pause][\\x0203]I'll never forget that \nmagnificent sight![pause]"
+  - "\\x02\\x07Grandpa Shige\\x02\\x07I saw it!\nAirdramon came and\ncreated the wind![pause]\\x02\\x03I'll never forget that \nmagnificent sight![pause]"
   - |-
-    [\x0207]Grandpa Shige[\x0207]Oooinik,
+    \x02\x07Grandpa Shige\x02\x07Oooinik,
     oinkoink!
     Oooink, oooink![pause]
   - |-
-    [\x0207]Rapper Will[\x0207]Oooink,
-    ooi, ooioionk.[pause][\x0203]Oioioink, ooink,
+    \x02\x07Rapper Will\x02\x07Oooink,
+    ooi, ooioionk.[pause]\x02\x03Oioioink, ooink,
     oioioinkoink.[pause]
-  - "[\\x0207]Rapper Will[\\x0207]Yo, yo, everyone \nturned back to \nnormal.[pause][\\x0203]Airdramon turned \neveryone back.\nBOOYAH![pause]"
+  - "\\x02\\x07Rapper Will\\x02\\x07Yo, yo, everyone \nturned back to \nnormal.[pause]\\x02\\x03Airdramon turned \neveryone back.\nBOOYAH![pause]"
   - |-
-    [\x0207]Rapper Will[\x0207]Oooink,
-    ooi, ooioionk.[pause][\x0203]Oioioink, ooink,
+    \x02\x07Rapper Will\x02\x07Oooink,
+    ooi, ooioionk.[pause]\x02\x03Oioioink, ooink,
     oioioinkoink.[pause]
   - |-
-    [\x0207]Lost Mayumi[\x0207]Oooink, oink!
+    \x02\x07Lost Mayumi\x02\x07Oooink, oink!
     Ooink, ooooink![pause]
-  - "[\\x0207]Lost Mayumi[\\x0207]Hey, where is this?\nIt's not Xuen Wu \nCity?[pause][\\x0203]What?!\nI came here all the \nway as Oinkmon![pause]"
+  - "\\x02\\x07Lost Mayumi\\x02\\x07Hey, where is this?\nIt's not Xuen Wu \nCity?[pause]\\x02\\x03What?!\nI came here all the \nway as Oinkmon![pause]"
   - |-
-    [\x0207]Lost Mayumi[\x0207]Oooink, oink!
+    \x02\x07Lost Mayumi\x02\x07Oooink, oink!
     Ooink, ooooink![pause]
-  - "[\\x0207]DO Guard[\\x0207]You're the tamer\nthat defeated the\nChief Officer![pause][\\x0203]Come in! \nPlease rest![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07You're the tamer\nthat defeated the\nChief Officer![pause]\\x02\\x03Come in! \nPlease rest![pause]"
   - |-
-    [\x0207]DO Guard[\x0207]Oink, oioioink,
+    \x02\x07DO Guard\x02\x07Oink, oioioink,
     oooink, oooink![pause]
-  - "[\\x0207]DO Guard[\\x0207]Looking at this \npeaceful sight...[pause][\\x0203]The trouble with \nthe A.o.A feels \nlike a bad dream.[pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07Looking at this \npeaceful sight...[pause]\\x02\\x03The trouble with \nthe A.o.A feels \nlike a bad dream.[pause]"
   - |-
-    [\x0207]DO Guard[\x0207]Oooink, oink.
+    \x02\x07DO Guard\x02\x07Oooink, oink.
     Oooin, ooink...[pause]
   - '43'
   - '43'
   - '43'
   - '43'
   - '43'
-  - "[\\x0207]Keith[\\x0207]It was amazing! \nAirdramon came \nhere![pause][\\x0203]He spun the \nwindmill...and\npresto![pause][\\x0203]Now if we can just\nget back, it will be \na happy ending![pause]"
+  - "\\x02\\x07Keith\\x02\\x07It was amazing! \nAirdramon came \nhere![pause]\\x02\\x03He spun the \nwindmill...and\npresto![pause]\\x02\\x03Now if we can just\nget back, it will be \na happy ending![pause]"
   - |-
-    [\x0207]Mr. Suzuki[\x0207]Oooin, oiiiink,
+    \x02\x07Mr. Suzuki\x02\x07Oooin, oiiiink,
     oioioink,
     oooink![pause]
-  - "[\\x0207]Mr. Suzuki[\\x0207]Isn't Ms. Olivia \nhere?![pause][\\x0203]First I can't find her,\nthen I get turned\ninto Oinkmon...[pause][\\x0203]I hate my job![pause]"
+  - "\\x02\\x07Mr. Suzuki\\x02\\x07Isn't Ms. Olivia \nhere?![pause]\\x02\\x03First I can't find her,\nthen I get turned\ninto Oinkmon...[pause]\\x02\\x03I hate my job![pause]"
   - |-
-    [\x0207]Mr. Suzuki[\x0207]Oooin, oiiiink,
+    \x02\x07Mr. Suzuki\x02\x07Oooin, oiiiink,
     oioioink,
     oooink![pause]
   - |-
-    [\x0207]Toy Lover Ami[\x0207]Ooooi, oink.
+    \x02\x07Toy Lover Ami\x02\x07Ooooi, oink.
     Oiiooink, oooink.[pause]
-  - "[\\x0207]Toy Lover Ami[\\x0207]I wonder if they \nsell Oinkmon toys.[pause][\\x0203]I'll buy one in\nmemory of today.[pause]"
+  - "\\x02\\x07Toy Lover Ami\\x02\\x07I wonder if they \nsell Oinkmon toys.[pause]\\x02\\x03I'll buy one in\nmemory of today.[pause]"
   - |-
-    [\x0207]Toy Lover Ami[\x0207]Ooooi, oink.
+    \x02\x07Toy Lover Ami\x02\x07Ooooi, oink.
     Oiiooink, oooink.[pause]
   - |-
-    [\x0207]Zhu Que Chief[\x0207]...huh?!
+    \x02\x07Zhu Que Chief\x02\x07...huh?!
     Who are you?[pause]
   - |-
-    [\x0207]Kind Claudia[\x0207]Oioionk.
+    \x02\x07Kind Claudia\x02\x07Oioionk.
     Oink, oiooink.
     Oooin...[pause]
-  - "[\\x0207]Kind Claudia[\\x0207]Grandpa Lear is just \nstanding there![pause][\\x0203]I got bored, so I\ncame over here\nto play.[pause]"
+  - "\\x02\\x07Kind Claudia\\x02\\x07Grandpa Lear is just \nstanding there![pause]\\x02\\x03I got bored, so I\ncame over here\nto play.[pause]"
   - |-
-    [\x0207]Kind Claudia[\x0207]Oioionk.
+    \x02\x07Kind Claudia\x02\x07Oioionk.
     Oink, oiooink.
     Oooin...[pause]
   - |-
-    [\x0207]Grandpa Lear[\x0207]Oooink!
+    \x02\x07Grandpa Lear\x02\x07Oooink!
     Oooinoin, oink![pause]
-  - "[\\x0207]Grandpa Lear[\\x0207]This is good.\nVery good![pause][\\x0203]I like the girl on\nthe left![pause][\\x0203]Which one do you \nlike?\nHa ha ha ha![pause]"
+  - "\\x02\\x07Grandpa Lear\\x02\\x07This is good.\nVery good![pause]\\x02\\x03I like the girl on\nthe left![pause]\\x02\\x03Which one do you \nlike?\nHa ha ha ha![pause]"
   - |-
-    [\x0207]Grandpa Lear[\x0207]Oooink!
+    \x02\x07Grandpa Lear\x02\x07Oooink!
     Oooinoin, oink![pause]
   - |-
-    [\x0207]Author William[\x0207]Ooink!
+    \x02\x07Author William\x02\x07Ooink!
     Oioinoink oink
     oooink, oink?[pause]
-  - "[\\x0207]Author William[\\x0207]A great idea just \ncame to mind...[pause][\\x0203]Tragic love story \nbetween Oinkmon \nand Floramon![pause][\\x0203]I'll call it,\nOinko & Flora![pause]"
+  - "\\x02\\x07Author William\\x02\\x07A great idea just \ncame to mind...[pause]\\x02\\x03Tragic love story \nbetween Oinkmon \nand Floramon![pause]\\x02\\x03I'll call it,\nOinko & Flora![pause]"
   - |-
-    [\x0207]Author William[\x0207]Ooink!
+    \x02\x07Author William\x02\x07Ooink!
     Oioinoink oink
     oooink, oink?[pause]
   - '43'
   - '43'
   - '43'
   - '43'
-  - "[\\x0207]Trooper[\\x0207]Hey, you!\nWho are \nyou?![pause]"
-  - "[\\x0207]Trooper[\\x0207]Oh, just a \nkid. Go \naway![pause]"
-  - "[\\x0207]Trooper[\\x0207]You're \nsuspicious.[pause][\\x0203]Let's Card \nBattle to see \nwho you are![pause]"
-  - "[\\x0207]Trooper[\\x0207]You're \nsuspicious.[pause][\\x0203]Let's Digimon \nBattle to see \nwho you are![pause]"
+  - "\\x02\\x07Trooper\\x02\\x07Hey, you!\nWho are \nyou?![pause]"
+  - "\\x02\\x07Trooper\\x02\\x07Oh, just a \nkid. Go \naway![pause]"
+  - "\\x02\\x07Trooper\\x02\\x07You're \nsuspicious.[pause]\\x02\\x03Let's Card \nBattle to see \nwho you are![pause]"
+  - "\\x02\\x07Trooper\\x02\\x07You're \nsuspicious.[pause]\\x02\\x03Let's Digimon \nBattle to see \nwho you are![pause]"
   - |-
-    [\x0207]Trooper[\x0207]Oh, it's you
+    \x02\x07Trooper\x02\x07Oh, it's you
     again!
     Just go away![pause]
   - |-
-    [\x0207]Trooper[\x0207]Ha ha ha!
+    \x02\x07Trooper\x02\x07Ha ha ha!
     I won!
     Take that![pause]
-  - "[\\x0207]Trooper[\\x0207]I lost...\nI'll let you go, so \njust go away![pause]"
-  - "[\\x0207]Trooper[\\x0207]Get out of the \nway! I don't have \ntime for you![pause]"
-  - "[\\x0207]Trooper[\\x0207]Where are \nyou going?![pause]"
+  - "\\x02\\x07Trooper\\x02\\x07I lost...\nI'll let you go, so \njust go away![pause]"
+  - "\\x02\\x07Trooper\\x02\\x07Get out of the \nway! I don't have \ntime for you![pause]"
+  - "\\x02\\x07Trooper\\x02\\x07Where are \nyou going?![pause]"
   - |-
-    [\x0207]Trooper[\x0207]You're that tamer!
+    \x02\x07Trooper\x02\x07You're that tamer!
     Prepare yourself![pause]
-  - "[\\x0207]Trooper[\\x0207]...I guess I \nwas wrong.\nGo away![pause]"
+  - "\\x02\\x07Trooper\\x02\\x07...I guess I \nwas wrong.\nGo away![pause]"
   - |-
-    [\x0207]Trooper [\x0207]You're that duelist!
+    \x02\x07Trooper \x02\x07You're that duelist!
     Prepare yourself![pause]
   - a
   - a
@@ -628,122 +628,122 @@ strings:
   - a
   - a
   - |-
-    [\x0207]Marco[\x0207]Oiooioioionk!
+    \x02\x07Marco\x02\x07Oiooioioionk!
     Oooink, ooiion.[pause]
   - |-
-    [\x0207]Marco[\x0207]Oiooioioionk!
+    \x02\x07Marco\x02\x07Oiooioioionk!
     Oooink, ooiion.[pause]
-  - "[\\x0207]Marco[\\x0207]I didn't know if I \nwas going to get\neaten![pause][\\x0203]I would've preferred \nbeing Garurumon![pause]"
+  - "\\x02\\x07Marco\\x02\\x07I didn't know if I \nwas going to get\neaten![pause]\\x02\\x03I would've preferred \nbeing Garurumon![pause]"
   - |-
-    [\x0207]Student Helena[\x0207]Ooink, oink,
+    \x02\x07Student Helena\x02\x07Ooink, oink,
     ooink, oooink![pause]
   - |-
-    [\x0207]Student Helena[\x0207]Ooink, oink,
+    \x02\x07Student Helena\x02\x07Ooink, oink,
     ooink, oooink![pause]
   - |-
-    [\x0207]Teacher Sullivan[\x0207]Oooin, oink!
+    \x02\x07Teacher Sullivan\x02\x07Oooin, oink!
     Ooooink,
     ooooink![pause]
   - |-
-    [\x0207]Teacher Sullivan[\x0207]Oooin, oink!
+    \x02\x07Teacher Sullivan\x02\x07Oooin, oink!
     Ooooink,
     ooooink![pause]
-  - "[\\x0207]Teacher Sullivan[\\x0207]I'm glad I'm \nback to normal.[pause][\\x0203]But what about \neveryone else? \nAre they fine?![pause]"
-  - "[\\x0207]Student Helena[\\x0207]Ooink, oink,\nooink, oooink![pause][\\x0203]I've learned Oinkmon's\nlanguage![pause][\\x0203]Now I can talk to \nPorky, the piggy, \nnext door.[pause]"
-  - "[\\x0207]Bai Hu Chief[\\x0207]...Hmm?!\nWho are you...?[pause][\\x0203]I'm busy with \noperations![pause]"
+  - "\\x02\\x07Teacher Sullivan\\x02\\x07I'm glad I'm \nback to normal.[pause]\\x02\\x03But what about \neveryone else? \nAre they fine?![pause]"
+  - "\\x02\\x07Student Helena\\x02\\x07Ooink, oink,\nooink, oooink![pause]\\x02\\x03I've learned Oinkmon's\nlanguage![pause]\\x02\\x03Now I can talk to \nPorky, the piggy, \nnext door.[pause]"
+  - "\\x02\\x07Bai Hu Chief\\x02\\x07...Hmm?!\nWho are you...?[pause]\\x02\\x03I'm busy with \noperations![pause]"
   - '43'
   - '43'
   - '43'
   - '43'
   - '43'
   - |-
-    [\x0207]Grandpa Hiko[\x0207]The A.o.A
+    \x02\x07Grandpa Hiko\x02\x07The A.o.A
     suddenly came
-    into this city.[pause][\x0203]That's when we
+    into this city.[pause]\x02\x03That's when we
     got captured.[pause]
-  - "[\\x0207]Grandpa Hiko[\\x0207]What?! \nThe Resistance\nfinally stood up?![pause][\\x0203]Then I guess we'll\nfight too.\nThank you![pause]"
-  - "[\\x0207]Grandpa Hiko[\\x0207]The A.o.A was\ndefeated by you![pause][\\x0203]That's great! \nWords can't say \nhow I feel.[pause]"
+  - "\\x02\\x07Grandpa Hiko\\x02\\x07What?! \nThe Resistance\nfinally stood up?![pause]\\x02\\x03Then I guess we'll\nfight too.\nThank you![pause]"
+  - "\\x02\\x07Grandpa Hiko\\x02\\x07The A.o.A was\ndefeated by you![pause]\\x02\\x03That's great! \nWords can't say \nhow I feel.[pause]"
   - |-
-    [\x0207]Grandpa Hiko[\x0207]Oooink, oink!
+    \x02\x07Grandpa Hiko\x02\x07Oooink, oink!
     Ooink, ooink![pause]
   - '43'
-  - "[\\x0207]Grandma Oly[\\x0207]This place isn't good. \nThe back is all\ncaved in...[pause][\\x0203]There's no exit either. \nWhat should we do?[pause]"
-  - "[\\x0207]Grandma Oly[\\x0207]You too, go and \nfight as well![pause][\\x0203]Don't worry about us. \nWe'll be all right![pause]"
-  - "[\\x0207]Grandma Oly[\\x0207]We'll get out of here \nin a while.[pause][\\x0203]But that ladder is too \nsteep for old people \nlike us.[pause][\\x0203]We'll get the young \nones to help us up \nlater on.[pause]"
+  - "\\x02\\x07Grandma Oly\\x02\\x07This place isn't good. \nThe back is all\ncaved in...[pause]\\x02\\x03There's no exit either. \nWhat should we do?[pause]"
+  - "\\x02\\x07Grandma Oly\\x02\\x07You too, go and \nfight as well![pause]\\x02\\x03Don't worry about us. \nWe'll be all right![pause]"
+  - "\\x02\\x07Grandma Oly\\x02\\x07We'll get out of here \nin a while.[pause]\\x02\\x03But that ladder is too \nsteep for old people \nlike us.[pause]\\x02\\x03We'll get the young \nones to help us up \nlater on.[pause]"
   - |-
-    [\x0207]Grandma Oly[\x0207]Ooooink, oink!
+    \x02\x07Grandma Oly\x02\x07Ooooink, oink!
     Ooioi, oioink![pause]
   - '43'
-  - "[\\x0207]DO Guard[\\x0207]Guardsman is back![pause][\\x0203]Heroes may lose, but \nthey never give up![pause]"
-  - "[\\x0207]DO Guard[\\x0207]It's scary they \nturned humans \ninto Oinkmon![pause][\\x0203]I'm glad they didn't \ntake over the\nworld![pause]"
-  - "[\\x0207]DO Guard[\\x0207]I'm going to quit as \na guard![pause][\\x0203]They never told me\nsomething this bad\nwould happen![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07Guardsman is back![pause]\\x02\\x03Heroes may lose, but \nthey never give up![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07It's scary they \nturned humans \ninto Oinkmon![pause]\\x02\\x03I'm glad they didn't \ntake over the\nworld![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07I'm going to quit as \na guard![pause]\\x02\\x03They never told me\nsomething this bad\nwould happen![pause]"
   - |-
-    [\x0207]DO Guard[\x0207]Oooin, onk!
+    \x02\x07DO Guard\x02\x07Oooin, onk!
     Ooioionk, oink![pause]
   - |-
-    [\x0207]DO Guard[\x0207]Oooikoink, oink.
+    \x02\x07DO Guard\x02\x07Oooikoink, oink.
     Oioik, oinoinionk![pause]
   - |-
-    [\x0207]DO Guard[\x0207]Oooink, oink!
+    \x02\x07DO Guard\x02\x07Oooink, oink!
     Oioink, onkk![pause]
-  - "[\\x0207][\\x020902]3Yeah! I got a \nKulon Shield![pause]"
-  - "[\\x0207][\\x020902]3Yeah! I got \n100 BIT![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Yeah! I got a \nKulon Shield![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Yeah! I got \n100 BIT![pause]"
   - |-
-    [\x0207][\x020902]3Yeah! I got a
+    \x02\x07\x02\x09\x023Yeah! I got a
     High Security![pause]
   - |-
-    [\x0207][\x020902]3Yeah! I got an
+    \x02\x07\x02\x09\x023Yeah! I got an
     Ultra Charge![pause]
-  - "[\\x0207][\\x020902]3...huh? \nIt's empty...[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023...huh? \nIt's empty...[pause]"
   - a
   - a
   - a
   - |-
-    [\x0207][\x020902]3Yeah! I got
+    \x02\x07\x02\x09\x023Yeah! I got
     5000 BIT![pause]
-  - "[\\x0207]Grandpa Butter[\\x0207]You're the hero that \ndefeated the A.o.A![pause][\\x0203]Please protect the\npeace of this \nserver too.[pause]"
+  - "\\x02\\x07Grandpa Butter\\x02\\x07You're the hero that \ndefeated the A.o.A![pause]\\x02\\x03Please protect the\npeace of this \nserver too.[pause]"
   - |-
-    [\x0207]Grandpa Butter[\x0207]Ooink...,
+    \x02\x07Grandpa Butter\x02\x07Ooink...,
     ooink.
     Oooin oink![pause]
-  - "[\\x0207]Shizuka[\\x0207]Eek! I feel like my \nbody is all dirty![pause][\\x0203]I want to go home and \ntake a bath![pause]"
+  - "\\x02\\x07Shizuka\\x02\\x07Eek! I feel like my \nbody is all dirty![pause]\\x02\\x03I want to go home and \ntake a bath![pause]"
   - |-
-    [\x0207]Shizuka[\x0207]Ooioioink, oink!
+    \x02\x07Shizuka\x02\x07Ooioioink, oink!
     Oiooink,
     ooooink![pause]
   - '43'
-  - "[\\x0207]DO Guard[\\x0207]Welcome to Xuen \nWu City![pause][\\x0203]Wow - haven't\nsaid that in a\nwhile![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07Welcome to Xuen \nWu City![pause]\\x02\\x03Wow - haven't\nsaid that in a\nwhile![pause]"
   - |-
-    [\x0207]DO Guard[\x0207]Ooink, oink!
+    \x02\x07DO Guard\x02\x07Ooink, oink!
     Oionoink, oinkkk![pause]
-  - "[\\x0207]DO Guard[\\x0207]It was frustrating \nwhen I couldn't \ndo anything![pause][\\x0203]Thanks for rescuing \neveryone![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07It was frustrating \nwhen I couldn't \ndo anything![pause]\\x02\\x03Thanks for rescuing \neveryone![pause]"
   - |-
-    [\x0207]DO Guard[\x0207]Oioiooink!
+    \x02\x07DO Guard\x02\x07Oioiooink!
     Oioin, oininok![pause]
   - |-
-    [\x0207]Trooper[\x0207]I hate my job!
+    \x02\x07Trooper\x02\x07I hate my job!
     It sucks![pause]
-  - "[\\x0207]Trooper[\\x0207]...oh, it's \njust a kid.\nThis sucks![pause]"
-  - "[\\x0207]Trooper[\\x0207]Hey, you \nwanna Card \nBattle?[pause]"
-  - "[\\x0207]Trooper[\\x0207]Hey, you \nwanna Digimon \nBattle with me?[pause]"
+  - "\\x02\\x07Trooper\\x02\\x07...oh, it's \njust a kid.\nThis sucks![pause]"
+  - "\\x02\\x07Trooper\\x02\\x07Hey, you \nwanna Card \nBattle?[pause]"
+  - "\\x02\\x07Trooper\\x02\\x07Hey, you \nwanna Digimon \nBattle with me?[pause]"
   - |-
-    [\x0207]Trooper[\x0207]...oh, it's
+    \x02\x07Trooper\x02\x07...oh, it's
     you again.
     This sucks![pause]
   - |-
-    [\x0207]Trooper[\x0207]Heh heh heh!
+    \x02\x07Trooper\x02\x07Heh heh heh!
     I win!
     This is fun![pause]
-  - "[\\x0207]Trooper[\\x0207]I lost...\nThings just aren't \ngoing my way![pause]"
+  - "\\x02\\x07Trooper\\x02\\x07I lost...\nThings just aren't \ngoing my way![pause]"
   - |-
-    [\x0207]Trooper[\x0207]Hey, get out of
+    \x02\x07Trooper\x02\x07Hey, get out of
     the way! I don't
     have time for you![pause]
-  - "[\\x0207]Trooper[\\x0207]I got scolded \nfor playing![pause]"
-  - "[\\x0207]Trooper[\\x0207]Oh, you're that \ntamer!\nLet's battle![pause]"
-  - "[\\x0207]Trooper[\\x0207]...oh, a kid. \nDon't scare me![pause]"
+  - "\\x02\\x07Trooper\\x02\\x07I got scolded \nfor playing![pause]"
+  - "\\x02\\x07Trooper\\x02\\x07Oh, you're that \ntamer!\nLet's battle![pause]"
+  - "\\x02\\x07Trooper\\x02\\x07...oh, a kid. \nDon't scare me![pause]"
   - |-
-    [\x0207]Trooper[\x0207]Oh, you're that
+    \x02\x07Trooper\x02\x07Oh, you're that
     kid!
     Let's fight![pause]
   - a
@@ -767,182 +767,182 @@ strings:
   - a
   - a
   - a
-  - "[\\x0207]Tamer Bill[\\x0207]I wonder if Steve \nin Asuka is OK.[pause][\\x0203]He can't do \nanything without \nme.[pause]"
-  - "[\\x0207]Tamer Hillary[\\x0207]Hey, can you\ntell him too?[pause][\\x0203]If he keeps it up \nhe'll turn into an \nOinkmon again![pause]"
-  - "[\\x0207]Tamer Marina[\\x0207]I'm back to normal \nnow.\nI'm going to play![pause]"
-  - "[\\x0207]Tamer Albert[\\x0207]You're the tamer \nthat beat the \nA.o.A![pause][\\x0203]Thank you! \nI'm really \ngrateful![pause]"
+  - "\\x02\\x07Tamer Bill\\x02\\x07I wonder if Steve \nin Asuka is OK.[pause]\\x02\\x03He can't do \nanything without \nme.[pause]"
+  - "\\x02\\x07Tamer Hillary\\x02\\x07Hey, can you\ntell him too?[pause]\\x02\\x03If he keeps it up \nhe'll turn into an \nOinkmon again![pause]"
+  - "\\x02\\x07Tamer Marina\\x02\\x07I'm back to normal \nnow.\nI'm going to play![pause]"
+  - "\\x02\\x07Tamer Albert\\x02\\x07You're the tamer \nthat beat the \nA.o.A![pause]\\x02\\x03Thank you! \nI'm really \ngrateful![pause]"
   - |-
-    [\x0207]Guardromon[\x0207]ACCESSING
+    \x02\x07Guardromon\x02\x07ACCESSING
     MATRIX DRIVE.[pause]
-  - "[\\x0207]Gatomon[\\x0207]Welcome to my Inn![pause][\\x0203]Please relax and \nget some rest.[pause]"
+  - "\\x02\\x07Gatomon\\x02\\x07Welcome to my Inn![pause]\\x02\\x03Please relax and \nget some rest.[pause]"
   - |-
-    [\x0207]Gargomon[\x0207]Ka Boom!
+    \x02\x07Gargomon\x02\x07Ka Boom!
     This is the
     Armory![pause]
-  - "[\\x0207]Piximon[\\x0207]I'm Digimon \nOfficer pi! What\ndo you want pi?[pause]"
+  - "\\x02\\x07Piximon\\x02\\x07I'm Digimon \nOfficer pi! What\ndo you want pi?[pause]"
   - |-
-    [\x0207]Gomamon[\x0207]This is the
+    \x02\x07Gomamon\x02\x07This is the
     Pawn Shop!
     Can I help you?[pause]
   - |-
-    [\x0207]Divermon[\x0207]...what? You
+    \x02\x07Divermon\x02\x07...what? You
     want to open the
-    Booster?[pause][\x0203]OK. Wait one sec.[pause]
+    Booster?[pause]\x02\x03OK. Wait one sec.[pause]
   - |-
-    [\x0207]Wizardmon[\x0207]Welcome, this is
+    \x02\x07Wizardmon\x02\x07Welcome, this is
     the Item Shop![pause]
   - |-
-    [\x0207]Wizardmon[\x0207]Welcome, this
+    \x02\x07Wizardmon\x02\x07Welcome, this
     is the Black
     Market![pause]
   - |-
-    [\x0207]Gargomon[\x0207]Kaboom! This
+    \x02\x07Gargomon\x02\x07Kaboom! This
     is the Amory.[pause]
-  - "[\\x0207]BK WarGreymon[\\x0207]I'm BK WarGreymon![pause][\\x0203]Welcome, \ncourageous tamer!\nFight with me![pause]"
-  - "[\\x0207]Arena Reception[\\x0207]I'm sooo glad \nwe're back to \nnormal![pause][\\x0203]Thank you! We\nowe it all to\nyou![pause]"
-  - "[\\x0207]DO Guard[\\x0207]What did the A.o.A \nwant with us?[pause][\\x0203]I didn't understand \ntheir motive, so I\nwas really scared.[pause]"
+  - "\\x02\\x07BK WarGreymon\\x02\\x07I'm BK WarGreymon![pause]\\x02\\x03Welcome, \ncourageous tamer!\nFight with me![pause]"
+  - "\\x02\\x07Arena Reception\\x02\\x07I'm sooo glad \nwe're back to \nnormal![pause]\\x02\\x03Thank you! We\nowe it all to\nyou![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07What did the A.o.A \nwant with us?[pause]\\x02\\x03I didn't understand \ntheir motive, so I\nwas really scared.[pause]"
   - |-
-    [\x0207]Arena Reception[\x0207]...Oink,
+    \x02\x07Arena Reception\x02\x07...Oink,
     ooink![pause]
   - |-
-    [\x0207]DO Guard[\x0207]Oooink, oinink,
+    \x02\x07DO Guard\x02\x07Oooink, oinink,
     ooink, oink![pause]
   - '43'
   - '43'
   - '43'
   - '43'
-  - "[\\x0207]Teddy[\\x0207]Why did we get the \ncity back so easily?[pause][\\x0203]There's more to the\nA.o.A than meets\nthe eye.[pause]"
+  - "\\x02\\x07Teddy\\x02\\x07Why did we get the \ncity back so easily?[pause]\\x02\\x03There's more to the\nA.o.A than meets\nthe eye.[pause]"
   - |-
-    [\x0207]Nick[\x0207]...A.o.A!
-    Come out![pause][\x0203]I want a piece
+    \x02\x07Nick\x02\x07...A.o.A!
+    Come out![pause]\x02\x03I want a piece
     of you too![pause]
   - |-
-    [\x0207]Lisa[\x0207]I'm glad everything
-    went well, so far...[pause][\x0203]There's still the
+    \x02\x07Lisa\x02\x07I'm glad everything
+    went well, so far...[pause]\x02\x03There's still the
     Admin Center. Good
-    luck [\x020801][\x020501]![pause]
-  - "[\\x0207]Attacker[\\x0207]It seems we\nunderestimated\nthe Resistance![pause][\\x0203]But it won't \nmake a\ndifference.[pause]"
+    luck \x02\x08\x01\x02\x05\x01![pause]
+  - "\\x02\\x07Attacker\\x02\\x07It seems we\nunderestimated\nthe Resistance![pause]\\x02\\x03But it won't \nmake a\ndifference.[pause]"
   - |-
-    [\x0207]Attacker[\x0207]Ha ha ha!
-    Come if you can![pause][\x0203]You're no match
+    \x02\x07Attacker\x02\x07Ha ha ha!
+    Come if you can![pause]\x02\x03You're no match
     for the A.o.A![pause]
-  - "[\\x0207]Attacker[\\x0207]The World\nbelongs to us, \nthe A.o.A![pause][\\x0203]No one will get \nin our way![pause]"
-  - "[\\x0207]Mr. Wedge[\\x0207]Whew! I feel just \nlike a new man![pause][\\x0203]OK, back to work![pause][\\x0203]We've got good items\nin the back too, so \nlook around![pause]"
+  - "\\x02\\x07Attacker\\x02\\x07The World\nbelongs to us, \nthe A.o.A![pause]\\x02\\x03No one will get \nin our way![pause]"
+  - "\\x02\\x07Mr. Wedge\\x02\\x07Whew! I feel just \nlike a new man![pause]\\x02\\x03OK, back to work![pause]\\x02\\x03We've got good items\nin the back too, so \nlook around![pause]"
   - '43'
-  - "[\\x0207]Soldier[\\x0207]You're a fool for \nchallenging us \nalone![pause][\\x0203]This is the\nend of the line\nfor you![pause]"
-  - "[\\x0207]Soldier[\\x0207]I praise you for \ncoming this far![pause][\\x0203]But do you really \nthink you can \ndefeat us?![pause]"
-  - "[\\x0207]Attacker[\\x0207]I'll guard this \nplace with my\nlife![pause]"
-  - "[\\x0207]Attacker[\\x0207]They-they'll \nget mad if I \nlose...[pause][\\x0203]So I have no\nchoice but to \nwin![pause]"
-  - "[\\x0207]Soldier[\\x0207]You're a fool\nfor defying \nus![pause][\\x0203]I'll make you \nregret ever\ncoming here.[pause]"
-  - "[\\x0207]Soldier[\\x0207]What can a \ntamer do?[pause][\\x0203]Stop your \nmeddling \nnow![pause]"
-  - "[\\x0207]Attacker[\\x0207]I'm going to \nbeat you![pause][\\x0203]And then they'll \nmake me a \nSoldier![pause]"
-  - "[\\x0207]Soldier[\\x0207]Oh, it's just a kid![pause][\\x0203]I'll show you what \nhappens when you \nmess with an adult![pause]"
+  - "\\x02\\x07Soldier\\x02\\x07You're a fool for \nchallenging us \nalone![pause]\\x02\\x03This is the\nend of the line\nfor you![pause]"
+  - "\\x02\\x07Soldier\\x02\\x07I praise you for \ncoming this far![pause]\\x02\\x03But do you really \nthink you can \ndefeat us?![pause]"
+  - "\\x02\\x07Attacker\\x02\\x07I'll guard this \nplace with my\nlife![pause]"
+  - "\\x02\\x07Attacker\\x02\\x07They-they'll \nget mad if I \nlose...[pause]\\x02\\x03So I have no\nchoice but to \nwin![pause]"
+  - "\\x02\\x07Soldier\\x02\\x07You're a fool\nfor defying \nus![pause]\\x02\\x03I'll make you \nregret ever\ncoming here.[pause]"
+  - "\\x02\\x07Soldier\\x02\\x07What can a \ntamer do?[pause]\\x02\\x03Stop your \nmeddling \nnow![pause]"
+  - "\\x02\\x07Attacker\\x02\\x07I'm going to \nbeat you![pause]\\x02\\x03And then they'll \nmake me a \nSoldier![pause]"
+  - "\\x02\\x07Soldier\\x02\\x07Oh, it's just a kid![pause]\\x02\\x03I'll show you what \nhappens when you \nmess with an adult![pause]"
   - |-
-    [\x0207]Soldier[\x0207]The A.o.A will not
-    to lose to you![pause][\x0203]I'll prove it to you
+    \x02\x07Soldier\x02\x07The A.o.A will not
+    to lose to you![pause]\x02\x03I'll prove it to you
     right now![pause]
-  - "[\\x0207]Soldier[\\x0207]Just give yourself \nup. Then I might \nspare your life![pause]"
-  - "[\\x0207]Soldier[\\x0207]Your resistance is \nuseless![pause][\\x0203]No one can stop \nDestromon![pause]"
-  - "[\\x0207]Attacker[\\x0207]Why don't you just \ngive up?! This is \nthe end for you![pause]"
-  - "[\\x0207]Attacker[\\x0207]Oh yeah, this is \ngoing to be good![pause]"
+  - "\\x02\\x07Soldier\\x02\\x07Just give yourself \nup. Then I might \nspare your life![pause]"
+  - "\\x02\\x07Soldier\\x02\\x07Your resistance is \nuseless![pause]\\x02\\x03No one can stop \nDestromon![pause]"
+  - "\\x02\\x07Attacker\\x02\\x07Why don't you just \ngive up?! This is \nthe end for you![pause]"
+  - "\\x02\\x07Attacker\\x02\\x07Oh yeah, this is \ngoing to be good![pause]"
   - |-
-    [\x0207]Soldier[\x0207]Come on!
+    \x02\x07Soldier\x02\x07Come on!
     I'll take you on![pause]
   - |-
-    [\x0207]Soldier[\x0207]It's some
+    \x02\x07Soldier\x02\x07It's some
     henchman that
-    went to Asuka![pause][\x0203]We're not the
+    went to Asuka![pause]\x02\x03We're not the
     same as them![pause]
-  - "[\\x0207]Soldier[\\x0207]Your Digimon is \nno match for\nmine![pause][\\x0203]Come my adorable \nDigimon![pause]"
-  - "[\\x0207]Soldier[\\x0207]We are the chosen \nelite![pause][\\x0203]We will destroy a \nkid like you![pause]"
-  - "[\\x0207]Attacker[\\x0207]You're a fool for \nchallenging me![pause][\\x0203]Come on. I'll \nknock you out\nin no time![pause]"
-  - "[\\x0207]Attacker[\\x0207]You better \nprepare yourself \nkid![pause]"
-  - "[\\x0207]Soldier[\\x0207]You've got the Crony \nID, so you're one of \nus![pause][\\x0203]Go ahead relax in \nthis city![pause]"
-  - "[\\x0207]Soldier[\\x0207]If we turn them all \ninto Oinkmon, it'll \nbe easy![pause][\\x0203]The A.o.A's got\nstyle![pause]"
-  - "[\\x0207]Soldier[\\x0207]Where is our \nChief?[pause][\\x0203]He's making us \npatrol while he's\non break![pause]"
-  - "[\\x0207]Soldier[\\x0207]Everyone who \nopposes us gets \nturned into Oinkmon![pause][\\x0203]I wonder what the\nboss is going to do\nwith them though?[pause]"
+  - "\\x02\\x07Soldier\\x02\\x07Your Digimon is \nno match for\nmine![pause]\\x02\\x03Come my adorable \nDigimon![pause]"
+  - "\\x02\\x07Soldier\\x02\\x07We are the chosen \nelite![pause]\\x02\\x03We will destroy a \nkid like you![pause]"
+  - "\\x02\\x07Attacker\\x02\\x07You're a fool for \nchallenging me![pause]\\x02\\x03Come on. I'll \nknock you out\nin no time![pause]"
+  - "\\x02\\x07Attacker\\x02\\x07You better \nprepare yourself \nkid![pause]"
+  - "\\x02\\x07Soldier\\x02\\x07You've got the Crony \nID, so you're one of \nus![pause]\\x02\\x03Go ahead relax in \nthis city![pause]"
+  - "\\x02\\x07Soldier\\x02\\x07If we turn them all \ninto Oinkmon, it'll \nbe easy![pause]\\x02\\x03The A.o.A's got\nstyle![pause]"
+  - "\\x02\\x07Soldier\\x02\\x07Where is our \nChief?[pause]\\x02\\x03He's making us \npatrol while he's\non break![pause]"
+  - "\\x02\\x07Soldier\\x02\\x07Everyone who \nopposes us gets \nturned into Oinkmon![pause]\\x02\\x03I wonder what the\nboss is going to do\nwith them though?[pause]"
   - |-
-    [\x0207]Soldier[\x0207]It's like a farm
+    \x02\x07Soldier\x02\x07It's like a farm
     with all these
-    Oinkmon![pause][\x0203]I can just feel
+    Oinkmon![pause]\x02\x03I can just feel
     the greatness
     of the A.o.A.[pause]
   - a
   - a
   - a
-  - "[\\x0207]Renamon[\\x0207]I'm sorry, but I'm \nnot going to be on \nanyone's side...[pause][\\x0203]I'm just going to\nquietly watch the\nfight between humans.[pause]"
-  - "[\\x0207]Renamon[\\x0207]The A.o.A was indeed \ndefeated...[pause][\\x0203]But the war never \nstops. History \nrepeats itself.[pause]"
-  - "[\\x0207]Renamon[\\x0207]The battle isn't \nover yet...[pause][\\x0203]But you must win!\nTo save everyone![pause]"
-  - "[\\x0207]Agumon[\\x0207]I'm exhausted![pause][\\x0203]We got captured \nand they've been\nworking us hard![pause]"
-  - "[\\x0207]Agumon[\\x0207]Thank you for \nfreeing us.[pause][\\x0203]I'm going to \nstand watch to \nprotect everyone![pause]"
+  - "\\x02\\x07Renamon\\x02\\x07I'm sorry, but I'm \nnot going to be on \nanyone's side...[pause]\\x02\\x03I'm just going to\nquietly watch the\nfight between humans.[pause]"
+  - "\\x02\\x07Renamon\\x02\\x07The A.o.A was indeed \ndefeated...[pause]\\x02\\x03But the war never \nstops. History \nrepeats itself.[pause]"
+  - "\\x02\\x07Renamon\\x02\\x07The battle isn't \nover yet...[pause]\\x02\\x03But you must win!\nTo save everyone![pause]"
+  - "\\x02\\x07Agumon\\x02\\x07I'm exhausted![pause]\\x02\\x03We got captured \nand they've been\nworking us hard![pause]"
+  - "\\x02\\x07Agumon\\x02\\x07Thank you for \nfreeing us.[pause]\\x02\\x03I'm going to \nstand watch to \nprotect everyone![pause]"
   - |-
-    [\x0207]Agumon[\x0207]The world is now at
-    peace![pause][\x0203]Come again so
+    \x02\x07Agumon\x02\x07The world is now at
+    peace![pause]\x02\x03Come again so
     you can play
     with me.[pause]
-  - "[\\x0207]Agumon[\\x0207]People in the city are \nturning into Oinkmon \nagain![pause][\\x0203]I hate the A.o.A!\nThey're so pesky![pause]"
+  - "\\x02\\x07Agumon\\x02\\x07People in the city are \nturning into Oinkmon \nagain![pause]\\x02\\x03I hate the A.o.A!\nThey're so pesky![pause]"
   - '43'
-  - "[\\x0207]Veemon[\\x0207]If the real leader \nwasn't caught...[pause][\\x0203]I'd digivolve into \nVeedramon and \ndefeat them all.[pause]"
-  - "[\\x0207]Veemon[\\x0207]You're amazing.\nYou defeated that \nfake leader![pause][\\x0203]The real leader is \nstrong but he was\nturned into Oinkmon![pause]"
-  - "[\\x0207]Veemon[\\x0207]The A.o.A is\ngone, right?[pause][\\x0203]Then the real \nleader will be \nback soon![pause]"
+  - "\\x02\\x07Veemon\\x02\\x07If the real leader \nwasn't caught...[pause]\\x02\\x03I'd digivolve into \nVeedramon and \ndefeat them all.[pause]"
+  - "\\x02\\x07Veemon\\x02\\x07You're amazing.\nYou defeated that \nfake leader![pause]\\x02\\x03The real leader is \nstrong but he was\nturned into Oinkmon![pause]"
+  - "\\x02\\x07Veemon\\x02\\x07The A.o.A is\ngone, right?[pause]\\x02\\x03Then the real \nleader will be \nback soon![pause]"
   - |-
-    [\x0207]Veemon[\x0207]Leader isn't back yet.[pause][\x0203]You're the only one that
+    \x02\x07Veemon\x02\x07Leader isn't back yet.[pause]\x02\x03You're the only one that
     can save everyone.
     Help us![pause]
   - '43'
-  - "[\\x0207]Soldier[\\x0207]Only authorized \npersonnel beyond \nhere![pause][\\x0203]Not even leaders\nfrom another city \ncan pass![pause]"
-  - "[\\x0207]Soldier[\\x0207]Leader is someone we \ncan look up to![pause][\\x0203]There's probably some\nplan behind the \nclosing of the city.[pause]"
-  - "[\\x0207]Soldier[\\x0207]A-A-Achoo![pause][\\x0203]It's cold here!\nI want to go some \nplace warmer.[pause]"
-  - "[\\x0207]Xuen Wu Chief[\\x0207]...I have \nbeen waiting\nfor you...[pause]"
+  - "\\x02\\x07Soldier\\x02\\x07Only authorized \npersonnel beyond \nhere![pause]\\x02\\x03Not even leaders\nfrom another city \ncan pass![pause]"
+  - "\\x02\\x07Soldier\\x02\\x07Leader is someone we \ncan look up to![pause]\\x02\\x03There's probably some\nplan behind the \nclosing of the city.[pause]"
+  - "\\x02\\x07Soldier\\x02\\x07A-A-Achoo![pause]\\x02\\x03It's cold here!\nI want to go some \nplace warmer.[pause]"
+  - "\\x02\\x07Xuen Wu Chief\\x02\\x07...I have \nbeen waiting\nfor you...[pause]"
   - '43'
-  - "[\\x0207]Soldier[\\x0207]You're the one \ninterfering with \nthe A.o.A.[pause][\\x0203]Go see the Chief \nnow.[pause][\\x0203]He wants to battle \nwith you one on\none![pause]"
+  - "\\x02\\x07Soldier\\x02\\x07You're the one \ninterfering with \nthe A.o.A.[pause]\\x02\\x03Go see the Chief \nnow.[pause]\\x02\\x03He wants to battle \nwith you one on\none![pause]"
   - a
   - '43'
   - a
   - a
-  - "[\\x0207]Trooper[\\x0207]We are guarding \nthis area.[pause][\\x0203]If the Resistance \ncomes, we'll \ncapture them![pause]"
-  - "[\\x0207]Trooper[\\x0207]I haven't seen our \nleader in a while...[pause][\\x0203]I wonder what \nhappened? Maybe \nhe is busy?[pause]"
-  - "[\\x0207]Trooper[\\x0207]I wanted to go \nsuppress the \nResistance too![pause][\\x0203]But it's my job to\nguard here![pause]"
-  - "[\\x0207]Trooper[\\x0207]Leader seems to have \ngone to the Mirage \nTower.[pause][\\x0203]They're all talk \nif they can't handle a \nmeasly Resistance![pause]"
-  - "[\\x0207]Trooper[\\x0207]I didn't think taking\nover the server \nwould go this well![pause][\\x0203]The Real World will\nbe ours in no time.[pause]"
-  - "[\\x0207]Trooper[\\x0207]It's kind of lonely \nthat we're the only \nones on guard.[pause][\\x0203]But we have our\nleader, so it's all\ngood![pause]"
-  - "[\\x0207]Trooper[\\x0207]The A.o.A will \nwin![pause][\\x0203]And the world will\nbe ours![pause]"
-  - "[\\x0207]Trooper[\\x0207]It's good that we\nhaven't seen our\nleader.[pause][\\x0203]It means he trusts \nus that much![pause]"
+  - "\\x02\\x07Trooper\\x02\\x07We are guarding \nthis area.[pause]\\x02\\x03If the Resistance \ncomes, we'll \ncapture them![pause]"
+  - "\\x02\\x07Trooper\\x02\\x07I haven't seen our \nleader in a while...[pause]\\x02\\x03I wonder what \nhappened? Maybe \nhe is busy?[pause]"
+  - "\\x02\\x07Trooper\\x02\\x07I wanted to go \nsuppress the \nResistance too![pause]\\x02\\x03But it's my job to\nguard here![pause]"
+  - "\\x02\\x07Trooper\\x02\\x07Leader seems to have \ngone to the Mirage \nTower.[pause]\\x02\\x03They're all talk \nif they can't handle a \nmeasly Resistance![pause]"
+  - "\\x02\\x07Trooper\\x02\\x07I didn't think taking\nover the server \nwould go this well![pause]\\x02\\x03The Real World will\nbe ours in no time.[pause]"
+  - "\\x02\\x07Trooper\\x02\\x07It's kind of lonely \nthat we're the only \nones on guard.[pause]\\x02\\x03But we have our\nleader, so it's all\ngood![pause]"
+  - "\\x02\\x07Trooper\\x02\\x07The A.o.A will \nwin![pause]\\x02\\x03And the world will\nbe ours![pause]"
+  - "\\x02\\x07Trooper\\x02\\x07It's good that we\nhaven't seen our\nleader.[pause]\\x02\\x03It means he trusts \nus that much![pause]"
   - |-
-    [\x0207]Ponchomon[\x0207]Hola amigo![pause][\x0203]This is an Item
+    \x02\x07Ponchomon\x02\x07Hola amigo![pause]\x02\x03This is an Item
     Maniac's paradise,
     El Dorado![pause]
   - a
   - |-
-    [\x0207][\x020902]3Yeah! I got
+    \x02\x07\x02\x09\x023Yeah! I got
     8500 BIT![pause]
   - |-
-    [\x0207]Teddy[\x0207]Oi, oiooink!
+    \x02\x07Teddy\x02\x07Oi, oiooink!
     Oooin, oink![pause]
-  - "[\\x0207]Kail[\\x0207]We defeated the \nA.o.A...[pause][\\x0203]But why isn't Kurt \nback to normal?[pause]"
+  - "\\x02\\x07Kail\\x02\\x07We defeated the \nA.o.A...[pause]\\x02\\x03But why isn't Kurt \nback to normal?[pause]"
   - |-
-    [\x0207]Kurt[\x0207]Ooioioink!
+    \x02\x07Kurt\x02\x07Ooioioink!
     Oiioin,
     ooinkkk![pause]
-  - "[\\x0207]Lisa[\\x0207]...the Matrix System \nisn't moving...\nI wonder why...[pause][\\x0203]Has the Jamming Program \nthat Kurt made not been\ndeleted?[pause]"
-  - "[\\x0207]Lisa[\\x0207]If we can get Kurt \nback, we can fix \nthe program...[pause][\\x0203]Keith is looking for\na way to turn\nOinkmon back.[pause]"
-  - "[\\x0207]Nick[\\x0207]We can't access \nthe Real World. I \nwonder why?[pause][\\x0203]The Matrix Chamber \nisn't moving either. \nWhat is going on?[pause]"
-  - "[\\x0207]Nick[\\x0207]We still don't know\nhow to get everyone \nback from Oinkmon.[pause][\\x0203]Keith is experimenting\nin Qing Long City...[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07...the Matrix System \nisn't moving...\nI wonder why...[pause]\\x02\\x03Has the Jamming Program \nthat Kurt made not been\ndeleted?[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07If we can get Kurt \nback, we can fix \nthe program...[pause]\\x02\\x03Keith is looking for\na way to turn\nOinkmon back.[pause]"
+  - "\\x02\\x07Nick\\x02\\x07We can't access \nthe Real World. I \nwonder why?[pause]\\x02\\x03The Matrix Chamber \nisn't moving either. \nWhat is going on?[pause]"
+  - "\\x02\\x07Nick\\x02\\x07We still don't know\nhow to get everyone \nback from Oinkmon.[pause]\\x02\\x03Keith is experimenting\nin Qing Long City...[pause]"
   - |-
-    [\x0207]Digimon Hater Misa[\x0207]Oooink, oink!
+    \x02\x07Digimon Hater Misa\x02\x07Oooink, oink!
     Oin, oioionk![pause]
-  - "[\\x0207]Kurt[\\x0207]Thanks for everything\n[\\x020801][\\x020501].[pause][\\x0203]I'm checking the \nMatrix Chamber right\nnow...[pause][\\x0203]But there's something\naffecting the system\nfrom the outside.[pause]"
-  - "[\\x0207]Kurt[\\x0207]Something is getting \ninside the system I \ndesigned...[pause][\\x0203]Then it must also be\ninside the Optical Net\nAdministration System.[pause][\\x0203]...maybe the \nA.o.A's plan hasn't\nbeen foiled yet.[pause]"
-  - "[\\x0207][\\x020902]3Hey! There's a \nswitch here!\nLet's push it.[pause]"
-  - "[\\x0207][\\x020902]3OK, let's go \ndownstairs.[pause]"
+  - "\\x02\\x07Kurt\\x02\\x07Thanks for everything\n\\x02\\x08\\x01\\x02\\x05\\x01.[pause]\\x02\\x03I'm checking the \nMatrix Chamber right\nnow...[pause]\\x02\\x03But there's something\naffecting the system\nfrom the outside.[pause]"
+  - "\\x02\\x07Kurt\\x02\\x07Something is getting \ninside the system I \ndesigned...[pause]\\x02\\x03Then it must also be\ninside the Optical Net\nAdministration System.[pause]\\x02\\x03...maybe the \nA.o.A's plan hasn't\nbeen foiled yet.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hey! There's a \nswitch here!\nLet's push it.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023OK, let's go \ndownstairs.[pause]"
   - |-
-    [\x0207]Trooper[\x0207]A stronger folder...
+    \x02\x07Trooper\x02\x07A stronger folder...
     Hmm... which combo?[pause]
-  - "[\\x0207]Trooper[\\x0207]...I should actually \ngo on patrol...[pause][\\x0203]But I don't feel like \nit...I think I'll check \nmy card list...[pause]"
+  - "\\x02\\x07Trooper\\x02\\x07...I should actually \ngo on patrol...[pause]\\x02\\x03But I don't feel like \nit...I think I'll check \nmy card list...[pause]"
   - a
-  - "[\\x0207]Kail[\\x0207][\\x020801][\\x020501], you did it!\nKurt is back to \nnormal![pause][\\x0203]...and he's going to \nfix the program now \nso...[pause][\\x0203]We can go back to\nthe Real World soon![pause]"
-  - "[\\x0207]Teddy[\\x0207]The Digitize Wave \nthat turns everyone \ninto Oinkmon...[pause][\\x0203]I wonder how it\nworks. I kinda \nwant to know![pause]"
-  - "[\\x0207]Lisa[\\x0207]I'm just glad \neveryone is back to \nnormal.[pause][\\x0203]Now we just have to\nwait for the Matrix \nChamber to be fixed.[pause]"
-  - "[\\x0207]Nick[\\x0207]...now we can \nrest.[pause][\\x0203]I want to play \nhere sometime.[pause]"
-  - "[\\x0207][\\x020902]3Hmm, I still don't \nget it. Art is so \ndifficult.[pause]"
-  - "[\\x0207]Divermon[\\x0207]Hmm? You don't \nhave a Card \nFolder?[pause][\\x0203]Then I can't do\nanything for you!\nGo home![pause]"
+  - "\\x02\\x07Kail\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01, you did it!\nKurt is back to \nnormal![pause]\\x02\\x03...and he's going to \nfix the program now \nso...[pause]\\x02\\x03We can go back to\nthe Real World soon![pause]"
+  - "\\x02\\x07Teddy\\x02\\x07The Digitize Wave \nthat turns everyone \ninto Oinkmon...[pause]\\x02\\x03I wonder how it\nworks. I kinda \nwant to know![pause]"
+  - "\\x02\\x07Lisa\\x02\\x07I'm just glad \neveryone is back to \nnormal.[pause]\\x02\\x03Now we just have to\nwait for the Matrix \nChamber to be fixed.[pause]"
+  - "\\x02\\x07Nick\\x02\\x07...now we can \nrest.[pause]\\x02\\x03I want to play \nhere sometime.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hmm, I still don't \nget it. Art is so \ndifficult.[pause]"
+  - "\\x02\\x07Divermon\\x02\\x07Hmm? You don't \nhave a Card \nFolder?[pause]\\x02\\x03Then I can't do\nanything for you!\nGo home![pause]"

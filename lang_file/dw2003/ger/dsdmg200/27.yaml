@@ -1,8 +1,8 @@
 strings:
   - ''
-  - "[\\x0207]Kail[\\x0207]Wie werden\nwir jetzt \nzu Digimon?[pause]"
+  - "\\x02\\x07Kail\\x02\\x07Wie werden\nwir jetzt \nzu Digimon?[pause]"
   - |-
-    [\x0207][\x020902]3He! Sieh mal,
+    \x02\x07\x02\x09\x023He! Sieh mal,
     was ich hier
     habe![pause]
-  - "[\\x0207]Kail[\\x0207]Perfekt. Damit\nwäre das Problem\nwohl gelöst.[pause][\\x0203]Wir ziehen die \nAgumon-Anzüge an\nu. suchen Teddy![pause]"
+  - "\\x02\\x07Kail\\x02\\x07Perfekt. Damit\nwäre das Problem\nwohl gelöst.[pause]\\x02\\x03Wir ziehen die \nAgumon-Anzüge an\nu. suchen Teddy![pause]"

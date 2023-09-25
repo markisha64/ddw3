@@ -1,33 +1,33 @@
 strings:
   - ''
   - |-
-    [\x0207]Lisa[\x0207]Aber wie kommen
+    \x02\x07Lisa\x02\x07Aber wie kommen
     wir in Amaterasu
-    City rein?[pause][\x0203]Es ist das A.o.A.-
+    City rein?[pause]\x02\x03Es ist das A.o.A.-
     Hauptq., also hohe
     Sicherheitsstufe.[pause]
   - |-
-    [\x0207]Nick[\x0207]Das stimmt...
+    \x02\x07Nick\x02\x07Das stimmt...
     Jemand muss uns
     helfen...[pause]
   - |-
-    [\x0207]Keith[\x0207]Das ist unmöglich!
+    \x02\x07Keith\x02\x07Das ist unmöglich!
     Alle sind in
     Oinkmon verwandelt![pause]
   - |-
-    [\x0207]Keith[\x0207]Schau dich doch
+    \x02\x07Keith\x02\x07Schau dich doch
     nur mal um![pause]
   - |-
-    [\x0207][\x020902]3Hmmm...
+    \x02\x07\x02\x09\x023Hmmm...
     Hilfe...[pause]
   - |-
-    [\x0207][\x020902]3In Ordnung!
+    \x02\x07\x02\x09\x023In Ordnung!
     Ich schau nochmal im
     Amater.-Serv. nach![pause]
   - |-
-    [\x0207]Lisa[\x0207]Danke.
+    \x02\x07Lisa\x02\x07Danke.
     Ich zähle auf
     dich.[pause]
   - |-
-    [\x0207][\x020902]3Ach ja, Kenny
+    \x02\x07\x02\x09\x023Ach ja, Kenny
     sagte was über[pause]

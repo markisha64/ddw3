@@ -1,22 +1,22 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Ho vinto!
+    \x02\x07\x02\x09\x023Ho vinto!
     Visto?[pause]
   - |-
-    [\x0207]Keith[\x0207]Ah! Non mi sono
+    \x02\x07Keith\x02\x07Ah! Non mi sono
     impegnato![pause]
   - |-
-    [\x0207][\x020902]3Avevi detto
+    \x02\x07\x02\x09\x023Avevi detto
     che non avresti
     usato i pugni.[pause]
   - |-
-    [\x0207]Keith[\x0207]Non so di cosa
-    stai parlando![pause][\x0203]La prossima
+    \x02\x07Keith\x02\x07Non so di cosa
+    stai parlando![pause]\x02\x03La prossima
     volta non mi
-    batterai![pause][\x0203]Ricordati di me.
+    batterai![pause]\x02\x03Ricordati di me.
     Sayonara, scemo![pause]
   - |-
-    [\x0207][\x020902]3Ma sì, tanto
+    \x02\x07\x02\x09\x023Ma sì, tanto
     è lui lo
     scemo![pause]

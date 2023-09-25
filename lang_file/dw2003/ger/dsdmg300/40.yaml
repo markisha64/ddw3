@@ -1,8 +1,8 @@
 strings:
   - ''
   - |-
-    [\x0207]Divermon[\x0207]Was stimmt
+    \x02\x07Divermon\x02\x07Was stimmt
     mit meinem
-    Ordner nicht?[pause][\x0203]Ooh?
+    Ordner nicht?[pause]\x02\x03Ooh?
     Verstehe!
     Jetzt gewinn ich![pause]

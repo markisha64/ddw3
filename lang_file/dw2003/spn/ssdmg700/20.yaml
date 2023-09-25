@@ -1,10 +1,10 @@
 strings:
   - ''
-  - "[\\x0207]Maestro de hielo[\\x0207]Eres bueno, \n¡Estoy impactado![pause][\\x0203]¡Toma este regalo![pause]"
+  - "\\x02\\x07Maestro de hielo\\x02\\x07Eres bueno, \n¡Estoy impactado![pause]\\x02\\x03¡Toma este regalo![pause]"
   - |-
-    [\x0207][\x020902]3¡Sí! ¡Tengo
+    \x02\x07\x02\x09\x023¡Sí! ¡Tengo
     el Chip MP![pause]
   - |-
-    [\x0207]Maestro de hielo[\x0207]¡Desde aquí
+    \x02\x07Maestro de hielo\x02\x07¡Desde aquí
     será difícil!
     ¡Prepárate![pause]

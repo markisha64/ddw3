@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Se han llevado al
+    \x02\x07\x02\x09\x023Se han llevado al
     Juggernaut.[pause]
-  - "[\\x0207][\\x020902]3Me pregunto qué\nestá pasando en\nMundo Real. [pause][\\x0203]Espero que \nvaya bien...[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Me pregunto qué\nestá pasando en\nMundo Real. [pause]\\x02\\x03Espero que \nvaya bien...[pause]"

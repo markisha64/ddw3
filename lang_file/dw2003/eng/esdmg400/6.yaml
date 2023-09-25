@@ -1,3 +1,3 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3I finally made it to \nSouth Sector![pause][\\x0203]But I wonder what\nthat Digimon\nwas...[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023I finally made it to \nSouth Sector![pause]\\x02\\x03But I wonder what\nthat Digimon\nwas...[pause]"

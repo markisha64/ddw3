@@ -1,44 +1,44 @@
 strings:
   - ''
   - |-
-    [\x0207]Gov. di Byakko[\x0207]Oh, capisco!
-    Già.[pause][\x0203]Mi dispiace,
+    \x02\x07Gov. di Byakko\x02\x07Oh, capisco!
+    Già.[pause]\x02\x03Mi dispiace,
     credevo fossi
     dell'A.o.A![pause]
   - |-
-    [\x0207][\x020902]3Va bene così.[pause][\x0203]Ma... vuoi dire che
+    \x02\x07\x02\x09\x023Va bene così.[pause]\x02\x03Ma... vuoi dire che
     gli abitanti di Byakko
     sono...?[pause]
   - |-
-    [\x0207]Governatore di Byakko[\x0207]Si.
-    Sono l'A.o.A![pause][\x0203]Hanno preso il
-    controllo della città!  [pause][\x0203]Ci hanno rinchiusi
-    nel sotterraneo.[pause][\x0203]Ma Numemon ci ha
+    \x02\x07Governatore di Byakko\x02\x07Si.
+    Sono l'A.o.A![pause]\x02\x03Hanno preso il
+    controllo della città!  [pause]\x02\x03Ci hanno rinchiusi
+    nel sotterraneo.[pause]\x02\x03Ma Numemon ci ha
     salvati.[pause]
   - |-
-    [\x0207][\x020902]3Capisco.
+    \x02\x07\x02\x09\x023Capisco.
     Ma l'A.o.A e
-    Topo Fortunato...[pause][\x0203]E cosa succede
+    Topo Fortunato...[pause]\x02\x03E cosa succede
     a Digimon Online?[pause]
   - |-
-    [\x0207]Governatore di Byakko[\x0207]Non lo so.          [pause][\x0203]Se vuoi saperne
+    \x02\x07Governatore di Byakko\x02\x07Non lo so.          [pause]\x02\x03Se vuoi saperne
     di più, chiedi a
-    Numemon.[pause][\x0203]Lo troverai alla
+    Numemon.[pause]\x02\x03Lo troverai alla
     Fabbrica Dum
     Dum.[pause]
-  - '[\x0207][\x020902]3OK![pause]'
+  - '\x02\x07\x02\x09\x023OK![pause]'
   - |-
-    [\x0207]Gov. di Byakko[\x0207]Aspetta. Ti
+    \x02\x07Gov. di Byakko\x02\x07Aspetta. Ti
     voglio dare
     questo![pause]
   - |-
-    [\x0207][\x020902]3Si! Lo stemma
-    di Byakko![pause][\x0203]Grazie,
+    \x02\x07\x02\x09\x023Si! Lo stemma
+    di Byakko![pause]\x02\x03Grazie,
     governatore![pause]
   - |-
-    [\x0207]Govern. di Byakko[\x0207]Dopotutto, hai
-    vinto![pause][\x0203]E potrà tornarti
+    \x02\x07Govern. di Byakko\x02\x07Dopotutto, hai
+    vinto![pause]\x02\x03E potrà tornarti
     utile![pause]
   - |-
-    [\x0207]Govern. di Byakko[\x0207]Troverai altra gente
+    \x02\x07Govern. di Byakko\x02\x07Troverai altra gente
     dell'A.o.A! Bada![pause]

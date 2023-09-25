@@ -1,37 +1,37 @@
 strings:
   - ''
   - |-
-    [\x0207]Numemon[\x0207]Qui saremo
+    \x02\x07Numemon\x02\x07Qui saremo
     al sicuro.[pause]
   - |-
-    [\x0207][\x020902]3Ehi, grazie![pause][\x0203]Ma cosa hanno
+    \x02\x07\x02\x09\x023Ehi, grazie![pause]\x02\x03Ma cosa hanno
     gli abitanti
-    di Byakko?[pause][\x0203]Il governatore mi
+    di Byakko?[pause]\x02\x03Il governatore mi
     ha fatto cadere
     nel sotterraneo.[pause]
   - |-
-    [\x0207]Numemon[\x0207]Il governatore
+    \x02\x07Numemon\x02\x07Il governatore
     e tutti gli altri
     sono dei falsi![pause]
   - |-
-    [\x0207][\x020902]3Cosa? Allora
+    \x02\x07\x02\x09\x023Cosa? Allora
     chi erano
     quei tizi?[pause]
   - |-
-    [\x0207]Numemon[\x0207]Questo non ti
-    riguarda![pause][\x0203]Il vero governatore
+    \x02\x07Numemon\x02\x07Questo non ti
+    riguarda![pause]\x02\x03Il vero governatore
     è nel deserto di
-    Moebius.[pause][\x0203]Si trova nella Torre
+    Moebius.[pause]\x02\x03Si trova nella Torre
     miraggio.[pause]
   - |-
-    [\x0207][\x020902]3Ehi!
+    \x02\x07\x02\x09\x023Ehi!
     Aspetta!
     Che storia è?[pause]
-  - "[\\x0207]Numemon[\\x0207]Non posso dirti\naltro![pause][\\x0203]Non venire\npiù qui a \nByakko![pause]"
+  - "\\x02\\x07Numemon\\x02\\x07Non posso dirti\naltro![pause]\\x02\\x03Non venire\npiù qui a \nByakko![pause]"
   - |-
-    [\x0207][\x020902]3E va bene!
+    \x02\x07\x02\x09\x023E va bene!
     Ciao![pause]
   - |-
-    [\x0207][\x020902]3Bene. Troviamo
+    \x02\x07\x02\x09\x023Bene. Troviamo
     il vero governatore
     e parliamoci![pause]

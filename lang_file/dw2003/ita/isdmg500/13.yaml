@@ -1,18 +1,18 @@
 strings:
   - ''
   - |-
-    [\x0207]Zanbamon[\x0207]Co-cosa?
+    \x02\x07Zanbamon\x02\x07Co-cosa?
     Ho perso.[pause]
   - |-
-    [\x0207][\x020902]3Strano, eh?
+    \x02\x07\x02\x09\x023Strano, eh?
     Sono molto forte,
     vero?[pause]
   - |-
-    [\x0207]Zanbamon[\x0207]Hai ragione
+    \x02\x07Zanbamon\x02\x07Hai ragione
     Ti darò questa,
     perdonami![pause]
-  - "[\\x0207][\\x020902]3Una Katana\nusata? Oh, \nbeh...[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Una Katana\nusata? Oh, \nbeh...[pause]"
   - |-
-    [\x0207]Zanbamon[\x0207]Vivrò in pace,
-    qui.[pause][\x0203]Lasciami
+    \x02\x07Zanbamon\x02\x07Vivrò in pace,
+    qui.[pause]\x02\x03Lasciami
     solo![pause]

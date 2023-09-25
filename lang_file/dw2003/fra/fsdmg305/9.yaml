@@ -1,24 +1,24 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Le Maître de Jeu
+    \x02\x07\x02\x09\x023Le Maître de Jeu
     d'Asuka a envoyé Vem-
-    mon quelque part...[pause][\x0203]Peut-être est-ce un
+    mon quelque part...[pause]\x02\x03Peut-être est-ce un
     indice ! Poursuivons  ![pause]
-  - '[\x0207][\x020902]3Quoi ?[pause]'
+  - '\x02\x07\x02\x09\x023Quoi ?[pause]'
   - |-
-    [\x0207][\x020902]3Quoi ? Pourquoi
+    \x02\x07\x02\x09\x023Quoi ? Pourquoi
     Oinkmon est-il dans
     le serveur d'Asuka ?[pause]
   - |-
-    [\x0207]Oinkmon[\x0207]Oioionk ?
+    \x02\x07Oinkmon\x02\x07Oioionk ?
     Oioinoink !
     Oioinoink ??[pause]
   - |-
-    [\x0207]Oinkmon[\x0207]Oioin, oinnk ?
+    \x02\x07Oinkmon\x02\x07Oioin, oinnk ?
     Oioionoinkn !
     Oin, oinoiknk ![pause]
   - |-
-    [\x0207]Oinkmon[\x0207]Oooin, oioink !
+    \x02\x07Oinkmon\x02\x07Oooin, oioink !
     Oinoink, oink !
     Oioin, oinnk ![pause]

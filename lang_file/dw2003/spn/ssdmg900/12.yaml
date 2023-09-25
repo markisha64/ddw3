@@ -1,8 +1,8 @@
 strings:
   - ''
   - |-
-    [\x0207]Domador Pierre[\x0207]Ten valor en
+    \x02\x07Domador Pierre\x02\x07Ten valor en
     tu viaje.
-    Esperaré la[pause][\x0203]batalla con
+    Esperaré la[pause]\x02\x03batalla con
     el Rey.
     ¡Au revoir![pause]

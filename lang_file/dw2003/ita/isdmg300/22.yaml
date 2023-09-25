@@ -1,95 +1,95 @@
 strings:
   - ''
   - |-
-    [\x0207]Kail[\x0207][\x020801][\x020501]!
+    \x02\x07Kail\x02\x07\x02\x08\x01\x02\x05\x01!
     Grazie al
     cielo stai bene![pause]
   - |-
-    [\x0207][\x020902]3Kail!
-    Che succede?[pause][\x0203]Perché sono
+    \x02\x07\x02\x09\x023Kail!
+    Che succede?[pause]\x02\x03Perché sono
     diventati tutti
     Oinkmon?[pause]
   - |-
-    [\x0207]Kail[\x0207]I Vemmon!
+    \x02\x07Kail\x02\x07I Vemmon!
     È colpa loro![pause]
   - |-
-    [\x0207][\x020902]3Cosa?
+    \x02\x07\x02\x09\x023Cosa?
     Che hai
     detto?[pause]
   - |-
-    [\x0207]Kail[\x0207]Sono usciti molti
+    \x02\x07Kail\x02\x07Sono usciti molti
     Vemmon dal
-    centro amministrativo![pause][\x0203]Poi hanno sparato
-    dei raggi e...[pause][\x0203]trasformato tutti
+    centro amministrativo![pause]\x02\x03Poi hanno sparato
+    dei raggi e...[pause]\x02\x03trasformato tutti
     in Oinkmon![pause]
   - |-
-    [\x0207][\x020902]3Ehi, i Vemmon
+    \x02\x07\x02\x09\x023Ehi, i Vemmon
     non hanno
-    questi poteri.[pause][\x0203]Sono stati...
+    questi poteri.[pause]\x02\x03Sono stati...
     modificati?[pause]
   - |-
-    [\x0207]Kail[\x0207]N-non lo so...[pause][\x0203]Io mi sono
+    \x02\x07Kail\x02\x07N-non lo so...[pause]\x02\x03Io mi sono
     nascosta
-    con gli altri.[pause][\x0203]E sono l'unica
+    con gli altri.[pause]\x02\x03E sono l'unica
     rimasta
-    normale.[pause][\x0203]Anche Teddy e
+    normale.[pause]\x02\x03Anche Teddy e
     Lisa sono
     diventati Oinkmon.[pause]
   - |-
-    [\x0207][\x020902]3Ma che succede?[pause][\x0203]E dove sono ora
+    \x02\x07\x02\x09\x023Ma che succede?[pause]\x02\x03E dove sono ora
     i Vemmon?[pause]
   - |-
-    [\x0207][\x020902]3E dove sono ora
+    \x02\x07\x02\x09\x023E dove sono ora
     i Vemmon?[pause]
   - |-
-    [\x0207]Kail[\x0207]Saranno nella
+    \x02\x07Kail\x02\x07Saranno nella
     Stanza della
     Signora![pause]
   - |-
-    [\x0207][\x020902]3Allora ci deve
+    \x02\x07\x02\x09\x023Allora ci deve
     essere un segreto,
-    lì dentro![pause][\x0203]Andiamo![pause][\x0203]Kail, tu
+    lì dentro![pause]\x02\x03Andiamo![pause]\x02\x03Kail, tu
     nasconditi![pause]
   - |-
-    [\x0207]Kail[\x0207]Cosa?
+    \x02\x07Kail\x02\x07Cosa?
     Ma, ma...
-    [\x020801][\x020501]![pause]
+    \x02\x08\x01\x02\x05\x01![pause]
   - |-
-    [\x0207][\x020902]3Io sono l'unico
+    \x02\x07\x02\x09\x023Io sono l'unico
     che può batterli in
-    questo mondo![pause][\x0203]Tranquilla!
+    questo mondo![pause]\x02\x03Tranquilla!
     Lascia fare a me![pause]
   - |-
-    [\x0207]Kail[\x0207]Va bene.
+    \x02\x07Kail\x02\x07Va bene.
     Credo in te,
-    [\x020801][\x020501]![pause][\x0203]Ma ti darò
+    \x02\x08\x01\x02\x05\x01![pause]\x02\x03Ma ti darò
     una lezione se
     perdi![pause]
   - |-
-    [\x0207][\x020902]3Va bene!
+    \x02\x07\x02\x09\x023Va bene!
     Ora vado![pause]
   - |-
-    [\x0207]Kail[\x0207]Sta attento,
-    [\x020801][\x020501].[pause]
+    \x02\x07Kail\x02\x07Sta attento,
+    \x02\x08\x01\x02\x05\x01.[pause]
   - |-
-    [\x0207]Kail[\x0207]L'A.o.A non ha
+    \x02\x07Kail\x02\x07L'A.o.A non ha
     ancora perso.[pause]
   - |-
-    [\x0207][\x020902]3Allora,
+    \x02\x07\x02\x09\x023Allora,
     tutti gli
     altri?[pause]
   - |-
-    [\x0207]Kail[\x0207]S-sì! Teddy,
+    \x02\x07Kail\x02\x07S-sì! Teddy,
     Lisa e gli altri
     sono Oinkmon.[pause]
-  - '[\x0207][\x020902]3Ehi, Kail?[pause]'
+  - '\x02\x07\x02\x09\x023Ehi, Kail?[pause]'
   - |-
-    [\x0207]Kurt[\x0207]Oink!
+    \x02\x07Kurt\x02\x07Oink!
     Oin, ooink![pause]
   - |-
-    [\x0207]Kurt[\x0207]Ooink!
+    \x02\x07Kurt\x02\x07Ooink!
     Ooi, oink![pause]
   - |-
-    [\x0207]Kail[\x0207]Chissà cosa
+    \x02\x07Kail\x02\x07Chissà cosa
     accade nel
     Mondo Reale...[pause]

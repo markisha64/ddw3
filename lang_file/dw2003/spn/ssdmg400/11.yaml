@@ -1,9 +1,9 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Umm, no hay
+    \x02\x07\x02\x09\x023Umm, no hay
     nadie...[pause]
-  - '[\x0207]Voz[\x0207]Uuhhhhhh[pause]'
+  - '\x02\x07Voz\x02\x07Uuhhhhhh[pause]'
   - |-
-    [\x0207][\x020902]3¡Ahh! ¡Un
+    \x02\x07\x02\x09\x023¡Ahh! ¡Un
     monstruo![pause]

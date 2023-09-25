@@ -1,34 +1,34 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Lisa! A.o.A. haben
+    \x02\x07\x02\x09\x023Lisa! A.o.A. haben
     Juggernaut![pause]
   - |-
-    [\x0207]Lisa[\x0207]Ja.
-    Sieht so aus...[pause][\x0203]Teddy hat's bemerkt
+    \x02\x07Lisa\x02\x07Ja.
+    Sieht so aus...[pause]\x02\x03Teddy hat's bemerkt
     u. uns erzählt![pause]
   - |-
-    [\x0207]Teddy[\x0207]Die A.o.A. be-
+    \x02\x07Teddy\x02\x07Die A.o.A. be-
     wegen sich mit
     diesem Computer![pause]
   - |-
-    [\x0207]Keith[\x0207]Und jetzt?
+    \x02\x07Keith\x02\x07Und jetzt?
     Juggernaut hat
     so viel Power![pause]
   - |-
-    [\x0207][\x020902]3Können wir es
+    \x02\x07\x02\x09\x023Können wir es
     nicht stoppen?![pause]
   - |-
-    [\x0207]Lisa[\x0207]Hmm..mal sehen...[pause][\x0203]OK, wir sollten
+    \x02\x07Lisa\x02\x07Hmm..mal sehen...[pause]\x02\x03OK, wir sollten
     sie fragen...[pause]
-  - '[\x0207][\x020902]3... Hä? Sie?[pause]'
-  - '[\x0207]Keith[\x0207]Was?[pause]'
+  - '\x02\x07\x02\x09\x023... Hä? Sie?[pause]'
+  - '\x02\x07Keith\x02\x07Was?[pause]'
   - |-
-    [\x0207]Lisa[\x0207]OK, gehn wir
-    [\x020801][\x020501]![pause]
+    \x02\x07Lisa\x02\x07OK, gehn wir
+    \x02\x08\x01\x02\x05\x01![pause]
   - |-
-    [\x0207]Lisa[\x0207]Keith u. Nick,
+    \x02\x07Lisa\x02\x07Keith u. Nick,
     ihr bleibt hier
     bei Teddy.[pause]
-  - "[\\x0207]Nick[\\x0207]Das ist die welt-\nbeste Waffe![pause][\\x0203]Sie ist verschlossen,\ndamit sie nicht in \nfalsche Hände gerät.[pause]"
-  - '[\x0207]Nick[\x0207]?!?[pause]'
+  - "\\x02\\x07Nick\\x02\\x07Das ist die welt-\nbeste Waffe![pause]\\x02\\x03Sie ist verschlossen,\ndamit sie nicht in \nfalsche Hände gerät.[pause]"
+  - '\x02\x07Nick\x02\x07?!?[pause]'

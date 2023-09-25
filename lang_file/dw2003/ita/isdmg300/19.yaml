@@ -1,35 +1,35 @@
 strings:
   - ''
   - |-
-    [\x0207]Teddy[\x0207]Ce l'abbiamo
+    \x02\x07Teddy\x02\x07Ce l'abbiamo
     fatta!
-    [\x020801][\x020501]![pause]
+    \x02\x08\x01\x02\x05\x01![pause]
   - |-
-    [\x0207][\x020902]3Sì, è
+    \x02\x07\x02\x09\x023Sì, è
     fatta![pause]
   - |-
-    [\x0207]Nick[\x0207]Ehi, voi, siete
-    stati grandi![pause][\x0203]Ora devo
+    \x02\x07Nick\x02\x07Ehi, voi, siete
+    stati grandi![pause]\x02\x03Ora devo
     dirlo agli
     altri![pause]
   - |-
-    [\x0207]Teddy[\x0207]Sono a
-    pezzi...[pause][\x0203]Giornata
+    \x02\x07Teddy\x02\x07Sono a
+    pezzi...[pause]\x02\x03Giornata
     dura![pause]
   - |-
-    [\x0207][\x020902]3Io mi sono
+    \x02\x07\x02\x09\x023Io mi sono
     divertito![pause]
   - |-
-    [\x0207]Teddy[\x0207]Andiamo alla stanza
-    di accesso![pause][\x0203]Saranno tutti tornati
+    \x02\x07Teddy\x02\x07Andiamo alla stanza
+    di accesso![pause]\x02\x03Saranno tutti tornati
     alla norma, anche
     la Sala della Matrice[pause]
   - |-
-    [\x0207][\x020902]3Sì!
+    \x02\x07\x02\x09\x023Sì!
     Torniamo al
     Mondo Reale![pause]
   - |-
-    [\x0207]Teddy[\x0207]Destromon
+    \x02\x07Teddy\x02\x07Destromon
     s'è fermato
-    e guastato![pause][\x0203]Abbiamo battuto
+    e guastato![pause]\x02\x03Abbiamo battuto
     l'A.o.A![pause]

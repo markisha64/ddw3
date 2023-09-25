@@ -1,15 +1,15 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Wow, so sieht
+    \x02\x07\x02\x09\x023Wow, so sieht
     also die Welt von
     Digimon-Online aus?[pause]
   - |-
-    [\x0207]Mitarbeiter[\x0207][\x020801][\x020501],
+    \x02\x07Mitarbeiter\x02\x07\x02\x08\x01\x02\x05\x01,
     willkommen beim
-    Asuka-Server![pause][\x0203]Hol bitte deine
+    Asuka-Server![pause]\x02\x03Hol bitte deine
     Digimon-Daten in
     der Lobby ab.[pause]
   - |-
-    [\x0207][\x020902]3Hä? Digimon?[pause][\x0203]Ach, verstehe.
+    \x02\x07\x02\x09\x023Hä? Digimon?[pause]\x02\x03Ach, verstehe.
     Ich geh schon![pause]

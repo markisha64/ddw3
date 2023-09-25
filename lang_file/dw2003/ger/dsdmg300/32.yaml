@@ -1,15 +1,15 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Klar, ich
+    \x02\x07\x02\x09\x023Klar, ich
     besieg dich[pause]
   - |-
-    [\x0207]BK WarGreymon[\x0207]Du hast echt
+    \x02\x07BK WarGreymon\x02\x07Du hast echt
     Mut![pause]
   - |-
-    [\x0207][\x020902]3Komm schon.
+    \x02\x07\x02\x09\x023Komm schon.
     Ich zeig dir
     meine Kräfte![pause]
   - |-
-    [\x0207]BK WarGreymon[\x0207]Na gut.
+    \x02\x07BK WarGreymon\x02\x07Na gut.
     Fangen wir an![pause]

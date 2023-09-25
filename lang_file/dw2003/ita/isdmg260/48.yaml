@@ -1,13 +1,13 @@
 strings:
   - ''
   - |-
-    [\x0207]Mr. Smith[\x0207]Un'occasione![pause][\x0203]Il pezzo principale![pause][\x0203]La tuta Yin Yang,
-    molto contesa![pause][\x0203]Questo abito esclusivo
+    \x02\x07Mr. Smith\x02\x07Un'occasione![pause]\x02\x03Il pezzo principale![pause]\x02\x03La tuta Yin Yang,
+    molto contesa![pause]\x02\x03Questo abito esclusivo
     di Renamon parte da
     10000 BIT![pause]
-  - '[\x0207]Cliente Abel[\x0207]10900 BIT![pause]'
-  - '[\x0207]Capo Milly[\x0207]11200 BIT[pause]'
-  - '[\x0207]Masao RPG[\x0207]11400 BIT![pause]'
+  - '\x02\x07Cliente Abel\x02\x0710900 BIT![pause]'
+  - '\x02\x07Capo Milly\x02\x0711200 BIT[pause]'
+  - '\x02\x07Masao RPG\x02\x0711400 BIT![pause]'
   - |-
-    [\x0207][\x020902]3Hm, 11500 BIT
+    \x02\x07\x02\x09\x023Hm, 11500 BIT
     Mmmm...[pause]

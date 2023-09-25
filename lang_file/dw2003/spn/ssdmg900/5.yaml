@@ -1,20 +1,20 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3¡Lo hice!
+    \x02\x07\x02\x09\x023¡Lo hice!
     Vencí a Kurt[pause]
   - |-
-    [\x0207]Kurt[\x0207]¡Enhorabuena,
-    [\x020801][\x020501]! Me
-    ganaste justamente.[pause][\x0203]Eres el domador más
+    \x02\x07Kurt\x02\x07¡Enhorabuena,
+    \x02\x08\x01\x02\x05\x01! Me
+    ganaste justamente.[pause]\x02\x03Eres el domador más
     fuerte ahora.[pause]
-  - '[\x0207][\x020902]3¡Gracias![pause]'
-  - "[\\x0207]Kurt[\\x0207]Pronto arreglarán\nDigimon Online. Como\nprimer Campeón  [pause][\\x0203]Mundial debes aceptar \na todos los que te \nreten en el mundo.[pause]"
+  - '\x02\x07\x02\x09\x023¡Gracias![pause]'
+  - "\\x02\\x07Kurt\\x02\\x07Pronto arreglarán\nDigimon Online. Como\nprimer Campeón  [pause]\\x02\\x03Mundial debes aceptar \na todos los que te \nreten en el mundo.[pause]"
   - |-
-    [\x0207][\x020902]3¿Yo?
+    \x02\x07\x02\x09\x023¿Yo?
     ¿Primer Campeón
-    Mundial?[pause][\x0203]Bueno, lo haré
+    Mundial?[pause]\x02\x03Bueno, lo haré
     lo mejor que
     pueda.[pause]
-  - "[\\x0207]Kurt[\\x0207]Cuento contigo.\nAunque aún tienes\ntiempo.[pause][\\x0203]Hasta entonces\nlucha y hazte \nmás fuerte.[pause]"
-  - "[\\x0207][\\x020902]3Tranquilo\n¡voy a ser el \nCampeón [pause][\\x0203]Mundial más \nfuerte![pause]"
+  - "\\x02\\x07Kurt\\x02\\x07Cuento contigo.\nAunque aún tienes\ntiempo.[pause]\\x02\\x03Hasta entonces\nlucha y hazte \nmás fuerte.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Tranquilo\n¡voy a ser el \nCampeón [pause]\\x02\\x03Mundial más \nfuerte![pause]"

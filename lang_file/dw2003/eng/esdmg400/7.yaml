@@ -1,9 +1,9 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Huh? That's \nweird. There's \nno one here.[pause]"
-  - '[\x0207]Voice[\x0207]...Woooo![pause]'
-  - '[\x0207][\x020902]3Wha-what?![pause]'
-  - '[\x0207]Voice[\x0207]...Wooo![pause]'
+  - "\\x02\\x07\\x02\\x09\\x023Huh? That's \nweird. There's \nno one here.[pause]"
+  - '\x02\x07Voice\x02\x07...Woooo![pause]'
+  - '\x02\x07\x02\x09\x023Wha-what?![pause]'
+  - '\x02\x07Voice\x02\x07...Wooo![pause]'
   - |-
-    [\x0207][\x020902]3What's that?!
+    \x02\x07\x02\x09\x023What's that?!
     ...it's a ghost![pause]

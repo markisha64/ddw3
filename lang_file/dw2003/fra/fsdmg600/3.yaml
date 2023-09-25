@@ -1,9 +1,9 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Euh...Où
+    \x02\x07\x02\x09\x023Euh...Où
     suis-je ?[pause]
   - |-
-    [\x0207][\x020902]3OK, je suis
-    tombé au sous-sol.[pause][\x0203]Je dois trouver le
+    \x02\x07\x02\x09\x023OK, je suis
+    tombé au sous-sol.[pause]\x02\x03Je dois trouver le
     moyen de sortir d'ici ![pause]

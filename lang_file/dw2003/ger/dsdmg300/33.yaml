@@ -1,19 +1,19 @@
 strings:
   - ''
-  - "[\\x0207]BK WarGreymon[\\x0207]Du bist wohl \nkein Schwätzer.[pause]"
+  - "\\x02\\x07BK WarGreymon\\x02\\x07Du bist wohl \nkein Schwätzer.[pause]"
   - |-
-    [\x0207][\x020902]3So was habe ich
+    \x02\x07\x02\x09\x023So was habe ich
     schon hundert-
     mal gemacht![pause]
   - |-
-    [\x0207]BK WarGreymon[\x0207]Ha ha ha, du
+    \x02\x07BK WarGreymon\x02\x07Ha ha ha, du
     gefällst mir!
     Nimm sie dir![pause]
   - |-
-    [\x0207][\x020902]3Klasse! Ich hab
+    \x02\x07\x02\x09\x023Klasse! Ich hab
     die Platin-ID![pause]
   - |-
-    [\x0207]BK WarGreymon[\x0207]Versuch, der
-    Stärkste zu sein![pause][\x0203]Das ist das
+    \x02\x07BK WarGreymon\x02\x07Versuch, der
+    Stärkste zu sein![pause]\x02\x03Das ist das
     Geheimnis eines
     groβen Tamers![pause]

@@ -1,13 +1,13 @@
 strings:
   - ''
   - |-
-    [\x0207]Chevalier Ténèbres[\x0207]Tu as des
+    \x02\x07Chevalier Ténèbres\x02\x07Tu as des
     mouvements que
     je n'ai jamais vus.[pause]
   - |-
-    [\x0207]Chevalier Ténèbres[\x0207]Allez, va !
+    \x02\x07Chevalier Ténèbres\x02\x07Allez, va !
     Tu es un grand
     dresseur ![pause]
   - |-
-    [\x0207][\x020902]3Super,
+    \x02\x07\x02\x09\x023Super,
     merci ![pause]

@@ -1,33 +1,33 @@
 strings:
   - ''
   - |-
-    [\x0207]Ponchomon[\x0207]Puoi avere info su
+    \x02\x07Ponchomon\x02\x07Puoi avere info su
     questi oggetti
-    quando vuoi![pause][\x0203]Te le mostrerò sul
+    quando vuoi![pause]\x02\x03Te le mostrerò sul
     satellite, amigo![pause]
   - |-
     "Effetti equipaggiamento"
     Sono automatici quando li equipaggi
-    o li usi in un attacco.[pause][\x0203]Gli effetti delle armi appaiono
-    solo in assenza di tecniche.[pause][\x0203]"Armi a una o a due mani"
+    o li usi in un attacco.[pause]\x02\x03Gli effetti delle armi appaiono
+    solo in assenza di tecniche.[pause]\x02\x03"Armi a una o a due mani"
     Quelle a due mani sono più
-    potenti, ma vietano le corazze.[pause][\x0203]Due armi a una mano sono
+    potenti, ma vietano le corazze.[pause]\x02\x03Due armi a una mano sono
     più potenti di una a due mani,
     ma costano anche di più.[pause]
   - |-
     "Limite accessori"
     Puoi averne fino a due, ma
-    non tutti lo permettono.[pause][\x0203]"Difese offensive"
+    non tutti lo permettono.[pause]\x02\x03"Difese offensive"
     Sono difese per le mani e la
-    testa che permettono di attaccare.[pause][\x0203]"Armi specializzate"
+    testa che permettono di attaccare.[pause]\x02\x03"Armi specializzate"
     Le armi più potenti possono
     essere usate solo da certi Digimon.[pause]
   - |-
     "Equipaggiamento di serie"
     Con certe armi o difese
-    puoi aumentare i parametri.[pause][\x0203]"Chip"
+    puoi aumentare i parametri.[pause]\x02\x03"Chip"
     Gli aumenti permanenti di parametri
     dovuti ai chip dipendono dalla fortuna.[pause]
   - |-
-    [\x0207]Ponchomon[\x0207]Non dirlo in giro!
+    \x02\x07Ponchomon\x02\x07Non dirlo in giro!
     Adios amigo![pause]

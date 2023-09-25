@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3¡Sí!
+    \x02\x07\x02\x09\x023¡Sí!
     ¡He ganado
     a Bulbmon![pause]
-  - "[\\x0207][\\x020902]3¿Eh? ¡El\nagujero sigue\nhacia delante![pause][\\x0203]A lo mejor sigue\nhasta el Servidor\nAmaterasu...[pause][\\x0203]Bueno, vamos a \nver...[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¿Eh? ¡El\nagujero sigue\nhacia delante![pause]\\x02\\x03A lo mejor sigue\nhasta el Servidor\nAmaterasu...[pause]\\x02\\x03Bueno, vamos a \nver...[pause]"

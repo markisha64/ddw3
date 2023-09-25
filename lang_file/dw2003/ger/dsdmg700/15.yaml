@@ -1,13 +1,13 @@
 strings:
   - ''
   - |-
-    [\x0207]Dunkler Ritter[\x0207]Du kennst die
+    \x02\x07Dunkler Ritter\x02\x07Du kennst die
     unglaublichsten
     Bewegungen.[pause]
   - |-
-    [\x0207]Dunkler Ritter[\x0207]Geh jetzt!
+    \x02\x07Dunkler Ritter\x02\x07Geh jetzt!
     Aus dir wird
     noch etwas![pause]
   - |-
-    [\x0207][\x020902]3Super,
+    \x02\x07\x02\x09\x023Super,
     danke![pause]

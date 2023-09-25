@@ -1,8 +1,8 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Oui, c'est \nça. Viens te \nbattre ![pause]"
-  - "[\\x0207]Zanbamon[\\x0207]Tu n'es pas à \nma hauteur ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Oui, c'est \nça. Viens te \nbattre ![pause]"
+  - "\\x02\\x07Zanbamon\\x02\\x07Tu n'es pas à \nma hauteur ![pause]"
   - |-
-    [\x0207][\x020902]3Ah, tu as peur,
+    \x02\x07\x02\x09\x023Ah, tu as peur,
     tu vas perdre ![pause]
-  - "[\\x0207]Zanbamon[\\x0207]Qu-quoi ?\nMais non ![pause][\\x0203]Bon ! Tu \nl'auras voulu,\ntu vas voir ![pause]"
+  - "\\x02\\x07Zanbamon\\x02\\x07Qu-quoi ?\nMais non ![pause]\\x02\\x03Bon ! Tu \nl'auras voulu,\ntu vas voir ![pause]"

@@ -1,7 +1,7 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Qué, Lord \nMegadeath.[pause][\\x0203]¿Aún crees \nque eres\ntodo eso?[pause]"
-  - "Por supuesto.\nEso sólo era un test.[pause][\\x0203]Aún tengo el Digimon\nmás poderoso,\nSnatchmon...[pause][\\x0203]Pronto aprenderás lo\nque es el verdadero \nterror.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Qué, Lord \nMegadeath.[pause]\\x02\\x03¿Aún crees \nque eres\ntodo eso?[pause]"
+  - "Por supuesto.\nEso sólo era un test.[pause]\\x02\\x03Aún tengo el Digimon\nmás poderoso,\nSnatchmon...[pause]\\x02\\x03Pronto aprenderás lo\nque es el verdadero \nterror.[pause]"
   - |-
-    [\x0207][\x020902]3¡Eh, tú no
+    \x02\x07\x02\x09\x023¡Eh, tú no
     te vas![pause]

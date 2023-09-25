@@ -1,29 +1,29 @@
 strings:
   - ''
   - |-
-    [\x0207]KingEtemon[\x0207]Ich mag dich.
+    \x02\x07KingEtemon\x02\x07Ich mag dich.
     Bitte nimm diesen
     Sun-Pokal![pause]
   - |-
-    [\x0207][\x020902]3Danke
-    KingEtemon![pause][\x0203]Toll! Ich
+    \x02\x07\x02\x09\x023Danke
+    KingEtemon![pause]\x02\x03Toll! Ich
     habe den
     Sun-Pokal![pause]
   - |-
-    [\x0207]KingEtemon[\x0207]Das ist das Sym-
+    \x02\x07KingEtemon\x02\x07Das ist das Sym-
     bol für Amate-
     rasus Kartenkönig![pause]
   - |-
-    [\x0207][\x020902]3Super! Jetzt bin ich
+    \x02\x07\x02\x09\x023Super! Jetzt bin ich
     die Nr. 1 der Amate-
     rasu-Kartenkenner![pause]
   - |-
-    [\x0207]KingEtemon[\x0207]?!?
+    \x02\x07KingEtemon\x02\x07?!?
     Neeein! Ich
-    bin die Nr. 1![pause][\x0203]Du hattest
+    bin die Nr. 1![pause]\x02\x03Du hattest
     einfach
     nur Glück![pause]
   - |-
-    [\x0207][\x020902]3Heh heh heh.
+    \x02\x07\x02\x09\x023Heh heh heh.
     Ich ver-
-    schwinde![pause][\x0203]Bis dann KingEtemon![pause]
+    schwinde![pause]\x02\x03Bis dann KingEtemon![pause]

@@ -1,25 +1,25 @@
 strings:
   - ''
   - |-
-    [\x0207]KingDivermon[\x0207]Ti darò
+    \x02\x07KingDivermon\x02\x07Ti darò
     questo trofeo
     Asuka![pause]
   - |-
-    [\x0207][\x020902]3Davvero? Grazie
-    KingDivermon![pause][\x0203]Ho vinto il
+    \x02\x07\x02\x09\x023Davvero? Grazie
+    KingDivermon![pause]\x02\x03Ho vinto il
     trofeo Asuka![pause]
-  - "[\\x0207]KingDivermon[\\x0207]Solo io li \nposso produrre,\nsai?[pause][\\x0203]È il simbolo del\nre delle carte\ndi Asuka.[pause]"
+  - "\\x02\\x07KingDivermon\\x02\\x07Solo io li \nposso produrre,\nsai?[pause]\\x02\\x03È il simbolo del\nre delle carte\ndi Asuka.[pause]"
   - |-
-    [\x0207][\x020902]3Wow! È il
+    \x02\x07\x02\x09\x023Wow! È il
     simbolo del re
     delle carte![pause]
   - |-
-    [\x0207]KingDivermon[\x0207]Fofofo, non
+    \x02\x07KingDivermon\x02\x07Fofofo, non
     abbassare la
     guardia![pause]
   - |-
-    [\x0207][\x020902]3Sì, diventerò
+    \x02\x07\x02\x09\x023Sì, diventerò
     molto più
-    forte![pause][\x0203]OK, andiamo a
+    forte![pause]\x02\x03OK, andiamo a
     cercare
     avversari![pause]

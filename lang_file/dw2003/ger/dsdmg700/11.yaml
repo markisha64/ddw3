@@ -1,8 +1,8 @@
 strings:
   - ''
   - |-
-    [\x0207]Eishexe[\x0207]Ich habe verloren.
-    Du bist ziemlich gut[pause][\x0203]Laut Regeln darfst
+    \x02\x07Eishexe\x02\x07Ich habe verloren.
+    Du bist ziemlich gut[pause]\x02\x03Laut Regeln darfst
     du jetzt weiter-
     gehen.[pause]
-  - "[\\x0207]Eishexe[\\x0207]Geh schon. \nIch bete für \ndeinen Erfolg.[pause]"
+  - "\\x02\\x07Eishexe\\x02\\x07Geh schon. \nIch bete für \ndeinen Erfolg.[pause]"

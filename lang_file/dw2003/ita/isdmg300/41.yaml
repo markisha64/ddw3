@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207]Divermon[\x0207]Ci ho provato,
+    \x02\x07Divermon\x02\x07Ci ho provato,
     ma faccio
-    ridere.[pause][\x0203]Devo scegliere
+    ridere.[pause]\x02\x03Devo scegliere
     meglio le carte![pause]

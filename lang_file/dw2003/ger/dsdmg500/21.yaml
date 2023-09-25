@@ -1,24 +1,24 @@
 strings:
   - ''
   - |-
-    [\x0207]BK Seraphimon[\x0207]Ich weiβ, wie
+    \x02\x07BK Seraphimon\x02\x07Ich weiβ, wie
     stark und mutig
-    du bist...[pause][\x0203]Ich habe deinen
+    du bist...[pause]\x02\x03Ich habe deinen
     Mut getestet...[pause]
   - |-
-    [\x0207][\x020902]3Spitze! Ich ge-
+    \x02\x07\x02\x09\x023Spitze! Ich ge-
     winne gegen alle
     dieser Kategorie![pause]
   - |-
-    [\x0207]BK Seraphimon[\x0207]Das ist d. Geist![pause][\x0203]Bestanden!
+    \x02\x07BK Seraphimon\x02\x07Das ist d. Geist![pause]\x02\x03Bestanden!
     Als Beweis gebe
     ich dir das![pause]
   - |-
-    [\x0207][\x020902]3Yeah! Der
+    \x02\x07\x02\x09\x023Yeah! Der
     Sniper-Anzug![pause]
   - |-
-    [\x0207]BK Seraphimon[\x0207]Der Weg wird
+    \x02\x07BK Seraphimon\x02\x07Der Weg wird
     sich durch Mut
-    zeigen.[pause][\x0203]Gib nie auf
+    zeigen.[pause]\x02\x03Gib nie auf
     und halte
     durch![pause]

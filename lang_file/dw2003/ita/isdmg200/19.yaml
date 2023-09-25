@@ -1,8 +1,8 @@
 strings:
   - ''
   - |-
-    [\x0207]Ken app. ogg.[\x0207]Questo è El Dorado,
-    sede dei collezionisti![pause][\x0203]Oh? Non sei un
-    membro, vero?[pause][\x0203]I tuoi Digimon non
+    \x02\x07Ken app. ogg.\x02\x07Questo è El Dorado,
+    sede dei collezionisti![pause]\x02\x03Oh? Non sei un
+    membro, vero?[pause]\x02\x03I tuoi Digimon non
     sono molto belli:
     non puoi essere membro![pause]

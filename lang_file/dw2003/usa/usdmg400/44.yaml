@@ -1,13 +1,13 @@
 strings:
   - ''
-  - "[\\x0207]Trooper[\\x0207]...is that the Blue \nID Pass?![pause][\\x0203]I-I'm sorry. I \ndidn't know you were \nQing Long Chief![pause]"
-  - "[\\x0207][\\x020902]3...what?!\nUh, ah, yeah![pause][\\x0203]That uniform is too\nobvious. I'm in disguise \nand on patrol![pause][\\x0203]Let's keep this a secret \nbetween the two of us, \nOK?[pause]"
-  - "[\\x0207]Trooper [\\x0207]You're great, \nChief! You're a \nhard worker![pause]"
+  - "\\x02\\x07Trooper\\x02\\x07...is that the Blue \nID Pass?![pause]\\x02\\x03I-I'm sorry. I \ndidn't know you were \nQing Long Chief![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023...what?!\nUh, ah, yeah![pause]\\x02\\x03That uniform is too\nobvious. I'm in disguise \nand on patrol![pause]\\x02\\x03Let's keep this a secret \nbetween the two of us, \nOK?[pause]"
+  - "\\x02\\x07Trooper \\x02\\x07You're great, \nChief! You're a \nhard worker![pause]"
   - |-
-    [\x0207][\x020902]3Phew, that was
-    close...[pause][\x0203]But now I can
+    \x02\x07\x02\x09\x023Phew, that was
+    close...[pause]\x02\x03But now I can
     go into Zhu Que
     City.[pause]
   - |-
-    [\x0207]Trooper[\x0207]Oh, please go
+    \x02\x07Trooper\x02\x07Oh, please go
     ahead![pause]

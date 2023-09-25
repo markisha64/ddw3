@@ -1,12 +1,12 @@
 strings:
   - ''
   - |-
-    [\x0207]Maestro Oscuro[\x0207]Umm...
-    ¿Quién eres?[pause][\x0203]¿Has venido a
+    \x02\x07Maestro Oscuro\x02\x07Umm...
+    ¿Quién eres?[pause]\x02\x03¿Has venido a
     desafiarme?[pause]
-  - "[\\x0207][\\x020902]3¡Sí!\n¡¿Lucharás \nconmigo, verdad?![pause]"
-  - "[\\x0207]Maestro Oscuro[\\x0207]No sabes lo que \nestás pidiendo...[pause][\\x0203]De acuerdo.\nNo he visto un \ndomador en mucho.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Sí!\n¡¿Lucharás \nconmigo, verdad?![pause]"
+  - "\\x02\\x07Maestro Oscuro\\x02\\x07No sabes lo que \nestás pidiendo...[pause]\\x02\\x03De acuerdo.\nNo he visto un \ndomador en mucho.[pause]"
   - |-
-    [\x0207][\x020902]3¡Ya verás!
+    \x02\x07\x02\x09\x023¡Ya verás!
     ¡Te mostraré
     quién es malo![pause]

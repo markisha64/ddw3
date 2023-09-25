@@ -1,18 +1,18 @@
 strings:
   - ''
-  - "[\\x0207]Kail[\\x0207]Ehi, [\\x020801][\\x020501]!\nBentornato![pause][\\x0203]È da un po' che \nsiamo qui. Torniamo\nindietro?[pause]"
+  - "\\x02\\x07Kail\\x02\\x07Ehi, \\x02\\x08\\x01\\x02\\x05\\x01!\nBentornato![pause]\\x02\\x03È da un po' che \nsiamo qui. Torniamo\nindietro?[pause]"
   - |-
-    [\x0207][\x020902]3Si, ho battuto i
+    \x02\x07\x02\x09\x023Si, ho battuto i
     governatori di Seiryu
-    e Suzaku, non è male![pause][\x0203]E Teddy? Dobbiamo
+    e Suzaku, non è male![pause]\x02\x03E Teddy? Dobbiamo
     trovare Teddy![pause]
   - |-
-    [\x0207]Kail[\x0207]Teddy sta bene. È al
+    \x02\x07Kail\x02\x07Teddy sta bene. È al
     centro amministrativo
-    di Asuka.[pause][\x0203]L'ultima volta che
+    di Asuka.[pause]\x02\x03L'ultima volta che
     l'ho visto stava
     andando là.[pause]
   - |-
-    [\x0207][\x020902]3Oh, OK. Allora
+    \x02\x07\x02\x09\x023Oh, OK. Allora
     torniamo subito ad
     Asuka![pause]

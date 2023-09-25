@@ -1,9 +1,9 @@
 strings:
   - ''
-  - "[\\x0207]Sr. Smith[\\x0207]¡Es tu oportunidad![pause][\\x0203]¡El artículo principal![pause][\\x0203]¡Las Gafas de Tirador! \n¡Admirado por todos![pause][\\x0203]El Gorro de Monmon\nsaldrá a 4000BIT.[pause]"
-  - '[\x0207]Abel el Tendero[\x0207]¡4500BIT![pause]'
-  - '[\x0207]Jefe Milly[\x0207]¡5500BIT![pause]'
-  - '[\x0207]Masao RPG[\x0207]¡5900BIT![pause]'
+  - "\\x02\\x07Sr. Smith\\x02\\x07¡Es tu oportunidad![pause]\\x02\\x03¡El artículo principal![pause]\\x02\\x03¡Las Gafas de Tirador! \n¡Admirado por todos![pause]\\x02\\x03El Gorro de Monmon\nsaldrá a 4000BIT.[pause]"
+  - '\x02\x07Abel el Tendero\x02\x07¡4500BIT![pause]'
+  - '\x02\x07Jefe Milly\x02\x07¡5500BIT![pause]'
+  - '\x02\x07Masao RPG\x02\x07¡5900BIT![pause]'
   - |-
-    [\x0207][\x020902]3Umm 6000 BIT
+    \x02\x07\x02\x09\x023Umm 6000 BIT
     ...ummm...[pause]

@@ -1,6 +1,6 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3All right,\nI'll fight \nyou![pause]"
-  - "[\\x0207]BK MegaGargomon[\\x0207]Great! I was bored \nbecause no one \ncomes here.[pause]"
-  - "[\\x0207][\\x020902]3OK, let's \nbegin![pause]"
-  - "[\\x0207]BK MegaGargomon[\\x0207]It won't \nbe that easy \nto beat me![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023All right,\nI'll fight \nyou![pause]"
+  - "\\x02\\x07BK MegaGargomon\\x02\\x07Great! I was bored \nbecause no one \ncomes here.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023OK, let's \nbegin![pause]"
+  - "\\x02\\x07BK MegaGargomon\\x02\\x07It won't \nbe that easy \nto beat me![pause]"

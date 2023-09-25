@@ -1,12 +1,12 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Hey, weiβt\ndu, wo \nNumemon ist?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hey, weiβt\ndu, wo \nNumemon ist?[pause]"
   - |-
-    [\x0207]HiAndromon[\x0207]Numemon?
+    \x02\x07HiAndromon\x02\x07Numemon?
     Was willst du
     von ihm?[pause]
   - |-
-    [\x0207][\x020902]3Ich muss ihn un-
+    \x02\x07\x02\x09\x023Ich muss ihn un-
     bedingt etwas fragen.
     Bitte, sag schon![pause]
-  - "[\\x0207]HiAndromon[\\x0207]Ich weiβ, wo er ist,\naber das kann ich dir\nnicht einfach sagen.[pause][\\x0203]Ab hier dürfen nur\ndie Starken weiter-\ngehen.[pause][\\x0203]Wenn du ihn trotzdem\nsehen willst, musst \ndu mich besiegen.[pause]"
+  - "\\x02\\x07HiAndromon\\x02\\x07Ich weiβ, wo er ist,\naber das kann ich dir\nnicht einfach sagen.[pause]\\x02\\x03Ab hier dürfen nur\ndie Starken weiter-\ngehen.[pause]\\x02\\x03Wenn du ihn trotzdem\nsehen willst, musst \ndu mich besiegen.[pause]"

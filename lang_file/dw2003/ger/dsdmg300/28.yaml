@@ -1,15 +1,15 @@
 strings:
   - ''
   - |-
-    [\x0207]Pharaohmon[\x0207]Verloren! Du
+    \x02\x07Pharaohmon\x02\x07Verloren! Du
     bist besser,
     als ich dachte![pause]
-  - '[\x0207][\x020902]3Na klar![pause]'
+  - '\x02\x07\x02\x09\x023Na klar![pause]'
   - |-
-    [\x0207]Pharaohmon[\x0207]Als Lob gebe
+    \x02\x07Pharaohmon\x02\x07Als Lob gebe
     ich dir
     dies.[pause]
   - |-
-    [\x0207][\x020902]3Super! Der
+    \x02\x07\x02\x09\x023Super! Der
     alte Stab![pause]
-  - "[\\x0207]Pharaohmon[\\x0207]Du bist stark. \nUnsere Götter werden \nmit dir sein![pause]"
+  - "\\x02\\x07Pharaohmon\\x02\\x07Du bist stark. \nUnsere Götter werden \nmit dir sein![pause]"

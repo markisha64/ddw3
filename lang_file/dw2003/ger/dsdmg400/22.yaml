@@ -1,11 +1,11 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Prima,
+    \x02\x07\x02\x09\x023Prima,
     gewonnen![pause]
-  - "[\\x0207]WarGrowlmon[\\x0207]Das war ein \ntoller Kampf.[pause][\\x0203]OK, nimm sie\nmit![pause]"
+  - "\\x02\\x07WarGrowlmon\\x02\\x07Das war ein \ntoller Kampf.[pause]\\x02\\x03OK, nimm sie\nmit![pause]"
   - |-
-    [\x0207][\x020902]3Hurra! Ich hab
+    \x02\x07\x02\x09\x023Hurra! Ich hab
     die Guilmon-
-    DDNA![pause][\x0203]Danke,
+    DDNA![pause]\x02\x03Danke,
     WarGrowlman![pause]

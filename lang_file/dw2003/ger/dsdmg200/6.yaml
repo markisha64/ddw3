@@ -1,3 +1,3 @@
 strings:
   - ''
-  - '[\x0207]Tamer-Service[\x0207]Ich verstehe.[pause]'
+  - '\x02\x07Tamer-Service\x02\x07Ich verstehe.[pause]'

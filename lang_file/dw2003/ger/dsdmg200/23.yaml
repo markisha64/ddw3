@@ -1,15 +1,15 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Hey, Etemon, \nich will dich\netwas fragen.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hey, Etemon, \nich will dich\netwas fragen.[pause]"
   - |-
-    [\x0207]Etemon[\x0207]Klar, was denn?
+    \x02\x07Etemon\x02\x07Klar, was denn?
     Ich erzähle dir alles,
     was ich weiβ.[pause]
-  - "[\\x0207][\\x020902]3Du bist doch der, \nder die Maske von \nSepikmon hat, oder?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Du bist doch der, \nder die Maske von \nSepikmon hat, oder?[pause]"
   - |-
-    [\x0207]Etemon[\x0207]I-Ich weiβ gar
+    \x02\x07Etemon\x02\x07I-Ich weiβ gar
     nicht, wovon
     du sprichst![pause]
   - |-
-    [\x0207][\x020902]3Hey, warte![pause][\x0203]Er versteckt
+    \x02\x07\x02\x09\x023Hey, warte![pause]\x02\x03Er versteckt
     etwas![pause]

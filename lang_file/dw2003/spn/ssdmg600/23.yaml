@@ -1,23 +1,23 @@
 strings:
   - ''
   - |-
-    [\x0207]Lisa[\x0207]¡Venga! ¡Nick,
+    \x02\x07Lisa\x02\x07¡Venga! ¡Nick,
     busca un pase en
     el ordenador![pause]
   - |-
-    [\x0207]Lisa[\x0207]¡Keith, tu limpia
+    \x02\x07Lisa\x02\x07¡Keith, tu limpia
     los documentos!
     ¡Venga, rápido![pause]
-  - '[\x0207]Keith[\x0207]¡Sí señor![pause]'
-  - '[\x0207]Nick[\x0207]¡Recibido![pause]'
-  - "[\\x0207]Lisa[\\x0207]¿Veis? No\ntardaremos \ntanto.[pause]"
+  - '\x02\x07Keith\x02\x07¡Sí señor![pause]'
+  - '\x02\x07Nick\x02\x07¡Recibido![pause]'
+  - "\\x02\\x07Lisa\\x02\\x07¿Veis? No\ntardaremos \ntanto.[pause]"
   - |-
-    [\x0207]Kail[\x0207]Em, Lisa.
+    \x02\x07Kail\x02\x07Em, Lisa.
     ¿Quiénes son
     estos dos?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Oh, sólo son
+    \x02\x07Lisa\x02\x07Oh, sólo son
     mis amigos.[pause]
-  - '[\x0207]Kail[\x0207]Ah, vale.[pause]'
-  - "[\\x0207]Kail[\\x0207]¿Son \nsólo amigos?[pause]"
-  - '[\x0207][\x020902]3No me mires.[pause]'
+  - '\x02\x07Kail\x02\x07Ah, vale.[pause]'
+  - "\\x02\\x07Kail\\x02\\x07¿Son \nsólo amigos?[pause]"
+  - '\x02\x07\x02\x09\x023No me mires.[pause]'

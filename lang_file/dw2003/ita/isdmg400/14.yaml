@@ -1,46 +1,46 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Sepikmon,
+    \x02\x07\x02\x09\x023Sepikmon,
     ho la tua
     maschera![pause]
   - |-
-    [\x0207]Sepikmon[\x0207]WOW!
+    \x02\x07Sepikmon\x02\x07WOW!
     Grazie![pause]
   - |-
-    [\x0207]Sepikmon[\x0207]... ...
+    \x02\x07Sepikmon\x02\x07... ...
     ... ...[pause]
   - |-
-    [\x0207][\x020902]3Beh? Che c'è?
+    \x02\x07\x02\x09\x023Beh? Che c'è?
     Indossala e
     mostrati.[pause]
   - |-
-    [\x0207]Sepikmon[\x0207]Eh, puoi guardare
+    \x02\x07Sepikmon\x02\x07Eh, puoi guardare
     dall'altra
     parte?[pause]
   - |-
-    [\x0207][\x020902]3Oh... ah...
+    \x02\x07\x02\x09\x023Oh... ah...
     Va bene.[pause]
   - |-
-    [\x0207]Sepikmon[\x0207]Oh sì!
+    \x02\x07Sepikmon\x02\x07Oh sì!
     Così va meglio.
     Ora sto meglio![pause]
-  - "[\\x0207]Sepikmon[\\x0207]Ecco, \nprendi![pause]"
+  - "\\x02\\x07Sepikmon\\x02\\x07Ecco, \nprendi![pause]"
   - |-
-    [\x0207][\x020902]3Eh? Erba
+    \x02\x07\x02\x09\x023Eh? Erba
     fetida?[pause]
   - |-
-    [\x0207]Sepikmon[\x0207]Zanbamon odia il
-    suo fetore![pause][\x0203]Vedrai, lo metterà
+    \x02\x07Sepikmon\x02\x07Zanbamon odia il
+    suo fetore![pause]\x02\x03Vedrai, lo metterà
     in fuga![pause]
   - |-
-    [\x0207][\x020902]3Bene!
+    \x02\x07\x02\x09\x023Bene!
     Grazie, mi hai
     salvato![pause]
   - |-
-    [\x0207]Sepikmon[\x0207]Anche tu!
+    \x02\x07Sepikmon\x02\x07Anche tu!
     Buona fortuna![pause]
   - |-
-    [\x0207]Sepikmon[\x0207]Il sacchetto
+    \x02\x07Sepikmon\x02\x07Il sacchetto
     di carta non
     andava bene![pause]

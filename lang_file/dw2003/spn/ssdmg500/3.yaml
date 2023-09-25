@@ -1,10 +1,10 @@
 strings:
   - ''
   - |-
-    [\x0207]Kail[\x0207]¡Eh, [\x020801][\x020501]!
-    Justo a tiempo.[pause][\x0203]Ya hemos estado aquí
+    \x02\x07Kail\x02\x07¡Eh, \x02\x08\x01\x02\x05\x01!
+    Justo a tiempo.[pause]\x02\x03Ya hemos estado aquí
     bastante tiempo. ¿Y
     si volvemos?[pause]
-  - "[\\x0207][\\x020902]3Sí, gané a los Líderes \nSeiryu y Suzaku,\nasí que tengo bastante.[pause][\\x0203]Pero ¿y Teddy? \n¡Hay que encontrarlo![pause]"
-  - "[\\x0207]Kail[\\x0207]Teddy está bien, está\nen el Centro de Admi.\nde Ciudad Asuka.[pause][\\x0203]La última vez que lo \nvi, dijo que iba para\nallá.[pause]"
-  - "[\\x0207][\\x020902]3De acuerdo, \n¡corramos\na Ciudad Asuka![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Sí, gané a los Líderes \nSeiryu y Suzaku,\nasí que tengo bastante.[pause]\\x02\\x03Pero ¿y Teddy? \n¡Hay que encontrarlo![pause]"
+  - "\\x02\\x07Kail\\x02\\x07Teddy está bien, está\nen el Centro de Admi.\nde Ciudad Asuka.[pause]\\x02\\x03La última vez que lo \nvi, dijo que iba para\nallá.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023De acuerdo, \n¡corramos\na Ciudad Asuka![pause]"

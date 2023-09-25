@@ -1,13 +1,13 @@
 strings:
   - ''
   - |-
-    [\x0207]Mr. Smith[\x0207]Un'occasione![pause][\x0203]Il pezzo principale![pause][\x0203]Lo scudo del pericolo,
-    molto conteso![pause][\x0203]Lo scudo esclusivo
+    \x02\x07Mr. Smith\x02\x07Un'occasione![pause]\x02\x03Il pezzo principale![pause]\x02\x03Lo scudo del pericolo,
+    molto conteso![pause]\x02\x03Lo scudo esclusivo
     di Guilmon parte da
     400 BIT![pause]
-  - '[\x0207]Cliente Abel[\x0207]500 BIT![pause]'
-  - '[\x0207]Capo Milly[\x0207]600 BIT![pause]'
-  - '[\x0207]Masao RPG[\x0207]700 BIT![pause]'
+  - '\x02\x07Cliente Abel\x02\x07500 BIT![pause]'
+  - '\x02\x07Capo Milly\x02\x07600 BIT![pause]'
+  - '\x02\x07Masao RPG\x02\x07700 BIT![pause]'
   - |-
-    [\x0207][\x020902]3Hmm... 800 BIT
+    \x02\x07\x02\x09\x023Hmm... 800 BIT
     Mmmm...[pause]

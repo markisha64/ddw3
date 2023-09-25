@@ -1,63 +1,63 @@
 strings:
   - ''
   - |-
-    [\x0207]Keith[\x0207]Abbiamo
+    \x02\x07Keith\x02\x07Abbiamo
     finito![pause]
   - |-
-    [\x0207]Nick[\x0207]Sì Lisa,
+    \x02\x07Nick\x02\x07Sì Lisa,
     finito![pause]
   - |-
-    [\x0207]Lisa[\x0207]Ehi, siete
+    \x02\x07Lisa\x02\x07Ehi, siete
     veloci,
     voi due![pause]
-  - '[\x0207]Keith[\x0207]Scheda pers.?[pause]'
+  - '\x02\x07Keith\x02\x07Scheda pers.?[pause]'
   - |-
-    [\x0207]Lisa[\x0207]Voi due
+    \x02\x07Lisa\x02\x07Voi due
     siete inutili![pause]
   - |-
-    [\x0207]Keith[\x0207]Oh, mi
+    \x02\x07Keith\x02\x07Oh, mi
     spiace![pause]
   - |-
-    [\x0207]Nick[\x0207]Scusa!
+    \x02\x07Nick\x02\x07Scusa!
     Stavolta
     ce la farò![pause]
   - |-
-    [\x0207]Lisa[\x0207]Puoi
+    \x02\x07Lisa\x02\x07Puoi
     attendere
     ancora?[pause]
   - |-
-    [\x0207]Nick[\x0207]Ehi, ci sono
+    \x02\x07Nick\x02\x07Ehi, ci sono
     riuscito![pause]
   - |-
-    [\x0207]Nick[\x0207]Lisa è molto
+    \x02\x07Nick\x02\x07Lisa è molto
     esigente.[pause]
   - |-
-    [\x0207]Nick[\x0207]Che rimanga
+    \x02\x07Nick\x02\x07Che rimanga
     fra noi. Ma
     ecco qua![pause]
   - |-
-    [\x0207][\x020902]3Ho la scheda
+    \x02\x07\x02\x09\x023Ho la scheda
     del personale.[pause]
   - |-
-    [\x0207]Lisa[\x0207]L'hai trovata?
+    \x02\x07Lisa\x02\x07L'hai trovata?
     Bravo, Nick![pause]
   - |-
-    [\x0207]Nick[\x0207]Grazie,
+    \x02\x07Nick\x02\x07Grazie,
     Lisa![pause]
   - |-
-    [\x0207][\x020902]3Kail, Lisa
+    \x02\x07\x02\x09\x023Kail, Lisa
     io vado.[pause]
   - |-
-    [\x0207]Lisa[\x0207]Buona fortuna!
+    \x02\x07Lisa\x02\x07Buona fortuna!
     Contiamo su
     di te![pause]
   - |-
-    [\x0207]Kail[\x0207]Bada a te,
+    \x02\x07Kail\x02\x07Bada a te,
     OK?[pause]
-  - '[\x0207]Nick[\x0207]Scheda pers.?[pause]'
+  - '\x02\x07Nick\x02\x07Scheda pers.?[pause]'
   - |-
-    [\x0207]Lisa[\x0207]Avete trovato
+    \x02\x07Lisa\x02\x07Avete trovato
     la scheda?[pause]
   - |-
-    [\x0207]Lisa[\x0207]Che state
+    \x02\x07Lisa\x02\x07Che state
     facendo?[pause]

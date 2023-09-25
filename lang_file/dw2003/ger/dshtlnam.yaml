@@ -18,7 +18,7 @@ strings:
   - BIT
   - |-
     Jedes Digimon
-    [\x020501] BIT
+    \x02\x05\x01 BIT
   - Übernachten
   - Nicht übernachten
   - Du hast nicht genug BIT!

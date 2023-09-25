@@ -1,7 +1,7 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Très bien ! \n17500 BIT ![pause]"
-  - "[\\x0207]M. Smith[\\x0207]Ouah ! \n17500 BIT ![pause][\\x0203]Quelqu'un à \nplus de 17500 \nBIT ?[pause]"
-  - "[\\x0207]M. Smith[\\x0207]Personne ne\nveut renchérir ?[pause][\\x0203]L'Armure de Ronin\nest vendue  \n17500 BIT ![pause][\\x0203]Félicitations au\nMonsieur là-bas ![pause][\\x0203]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
-  - "[\\x0207][\\x020902]3Oui ! J'ai \nl'Armure\nde Ronin ![pause]"
-  - "[\\x0207][\\x020902]3Bon, c'est un \nchouette objet, \nvoyons son effet.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Très bien ! \n17500 BIT ![pause]"
+  - "\\x02\\x07M. Smith\\x02\\x07Ouah ! \n17500 BIT ![pause]\\x02\\x03Quelqu'un à \nplus de 17500 \nBIT ?[pause]"
+  - "\\x02\\x07M. Smith\\x02\\x07Personne ne\nveut renchérir ?[pause]\\x02\\x03L'Armure de Ronin\nest vendue  \n17500 BIT ![pause]\\x02\\x03Félicitations au\nMonsieur là-bas ![pause]\\x02\\x03Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Oui ! J'ai \nl'Armure\nde Ronin ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Bon, c'est un \nchouette objet, \nvoyons son effet.[pause]"

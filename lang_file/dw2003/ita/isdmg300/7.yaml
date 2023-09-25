@@ -1,11 +1,11 @@
 strings:
   - ''
   - |-
-    [\x0207]Soldato[\x0207]Non
+    \x02\x07Soldato\x02\x07Non
     passerai
-    di qui![pause][\x0203]Non puoi
+    di qui![pause]\x02\x03Non puoi
     battermi![pause]
   - |-
-    [\x0207][\x020902]3Ah si? Avanti![pause][\x0203]Voialtri pensate
+    \x02\x07\x02\x09\x023Ah si? Avanti![pause]\x02\x03Voialtri pensate
     sempre di vincere,
     eh?[pause]

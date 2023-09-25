@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Hmmm, what's blocking
+    \x02\x07\x02\x09\x023Hmmm, what's blocking
     the hole? A big rock?[pause]
-  - '[\x0207]???[\x0207]I''m no rock![pause]'
+  - '\x02\x07???\x02\x07I''m no rock![pause]'
   - |-
-    [\x0207][\x020902]3Woah, wha...
+    \x02\x07\x02\x09\x023Woah, wha...
     What?![pause]
   - |-
-    [\x0207]Numemon[\x0207]I told you.
+    \x02\x07Numemon\x02\x07I told you.
     Byakko City is
     dangerous![pause]
   - |-
-    [\x0207][\x020902]3Hey, you're
+    \x02\x07\x02\x09\x023Hey, you're
     that Numemon!?[pause]
-  - "[\\x0207]Numemon[\\x0207]That's right. \nI'll help you,\nso come on![pause]"
+  - "\\x02\\x07Numemon\\x02\\x07That's right. \nI'll help you,\nso come on![pause]"

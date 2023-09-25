@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]Mr. Wedge[\x0207]If that's the case,
+    \x02\x07Mr. Wedge\x02\x07If that's the case,
     come this way. I've
     some fine items![pause]

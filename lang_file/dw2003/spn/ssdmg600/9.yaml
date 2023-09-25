@@ -1,14 +1,14 @@
 strings:
   - ''
   - |-
-    [\x0207]BK WarGrowlmon[\x0207]He perdido, pero
+    \x02\x07BK WarGrowlmon\x02\x07He perdido, pero
     ha sido divertido.
     ¡Gracias![pause]
   - |-
-    [\x0207][\x020902]3Bueno...
+    \x02\x07\x02\x09\x023Bueno...
     ¡Me tengo que ir![pause]
-  - "[\\x0207]BK WarGrowlmon[\\x0207]¡Espera un \nsegundo![pause][\\x0203]¡Te daré esto\ncomo\nagradecimiento![pause]"
+  - "\\x02\\x07BK WarGrowlmon\\x02\\x07¡Espera un \nsegundo![pause]\\x02\\x03¡Te daré esto\ncomo\nagradecimiento![pause]"
   - |-
-    [\x0207][\x020902]3¡Sí! Tengo la
+    \x02\x07\x02\x09\x023¡Sí! Tengo la
     Armadura Peligro.[pause]
-  - "[\\x0207]BK WarGrowlmon[\\x0207]Je je je, chula, \n¿eh?[pause][\\x0203]¡Es mi tesoro, así \nque cuídala![pause]"
+  - "\\x02\\x07BK WarGrowlmon\\x02\\x07Je je je, chula, \n¿eh?[pause]\\x02\\x03¡Es mi tesoro, así \nque cuídala![pause]"

@@ -1,42 +1,42 @@
 strings:
   - ''
   - |-
-    [\x0207]Junior[\x0207]Sie sind spät dran.
+    \x02\x07Junior\x02\x07Sie sind spät dran.
     Was machen Teddy
-    und Ivy denn bloβ?[pause][\x0203]Es bleibt keine Zeit
+    und Ivy denn bloβ?[pause]\x02\x03Es bleibt keine Zeit
     mehr, um Digimon-
     Online zu spielen.[pause]
   - |-
-    [\x0207]Junior[\x0207]Ivy soll nicht kommen,
+    \x02\x07Junior\x02\x07Ivy soll nicht kommen,
     aber Teddy hat's na-
-    türlich herumerzählt.[pause][\x0203]Sie hätten sich schon
+    türlich herumerzählt.[pause]\x02\x03Sie hätten sich schon
     vorher eine Anmeldung
     besorgen sollen...[pause]
-  - "...Neueste Meldung.[pause][\\x0203]Die Europazentrale d. Verbre-\ncherbande A.o.A. wurde v. d.\ninter. Polizei S.A.P. entdeckt.[pause][\\x0203]Die Razzia fand gestern um\nMitternacht mit Unterstütz-\nung der Armee statt...[pause][\\x0203]Die Anführer der A.o.A.\nwurden vor Ort verhaftet.[pause][\\x0203]Man glaubt, damit eine Verbin-\ndung zwischen den A.o.A. und \nInternetterrorismus herzustellen.[pause]"
+  - "...Neueste Meldung.[pause]\\x02\\x03Die Europazentrale d. Verbre-\ncherbande A.o.A. wurde v. d.\ninter. Polizei S.A.P. entdeckt.[pause]\\x02\\x03Die Razzia fand gestern um\nMitternacht mit Unterstütz-\nung der Armee statt...[pause]\\x02\\x03Die Anführer der A.o.A.\nwurden vor Ort verhaftet.[pause]\\x02\\x03Man glaubt, damit eine Verbin-\ndung zwischen den A.o.A. und \nInternetterrorismus herzustellen.[pause]"
   - |-
-    [\x0207]Junior[\x0207]A.o.A... ist doch die
+    \x02\x07Junior\x02\x07A.o.A... ist doch die
     Gruppe, die Digimon zu
-    Bösem angestiftet hat.[pause][\x0203]Ich kann nicht glauben,
+    Bösem angestiftet hat.[pause]\x02\x03Ich kann nicht glauben,
     dass jemand Digimon so
     etwas antun konnte![pause]
   - |-
-    [\x0207]Ivy[\x0207]Junior, warum redest
+    \x02\x07Ivy\x02\x07Junior, warum redest
     du mit dir selbst?
     Das ist gruselig.[pause]
-  - "[\\x0207]Teddy[\\x0207]Danke fürs Warten. \nTut mir leid, dass\nwir zu spät sind![pause]"
+  - "\\x02\\x07Teddy\\x02\\x07Danke fürs Warten. \nTut mir leid, dass\nwir zu spät sind![pause]"
   - |-
-    [\x0207][\x020902]3Na endlich,
+    \x02\x07\x02\x09\x023Na endlich,
     Teddy![pause]
   - |-
-    [\x0207]Junior[\x0207]Warum ist denn
+    \x02\x07Junior\x02\x07Warum ist denn
     Ivy überhaupt
-    hier?[pause][\x0203]Du sagst immer, Di-
+    hier?[pause]\x02\x03Du sagst immer, Di-
     gimon sind für Kids![pause]
   - |-
-    [\x0207]Ivy[\x0207]Ich will Digimon-
-    Online spielen, OK?![pause][\x0203]Ich habe nie gesagt,
+    \x02\x07Ivy\x02\x07Ich will Digimon-
+    Online spielen, OK?![pause]\x02\x03Ich habe nie gesagt,
     ich hasse Digimon![pause]
   - |-
-    [\x0207]Teddy[\x0207]Junior, Ivy - los
+    \x02\x07Teddy\x02\x07Junior, Ivy - los
     jetzt, auf zum Online-
     Center![pause]

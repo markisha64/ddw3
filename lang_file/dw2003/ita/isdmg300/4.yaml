@@ -2,19 +2,19 @@ strings:
   - ''
   - a
   - |-
-    [\x0207]Datamon[\x0207]Sei venuto fin
+    \x02\x07Datamon\x02\x07Sei venuto fin
     qui per
-    sfidarmi?[pause][\x0203]Io sono sempre
+    sfidarmi?[pause]\x02\x03Io sono sempre
     pronto!
     In battaglia![pause]
   - |-
-    [\x0207][\x020902]3Va bene!
+    \x02\x07\x02\x09\x023Va bene!
     In battaglia![pause]
   - |-
-    [\x0207]Datamon[\x0207]Bip! Non
-    copiarmi![pause][\x0203]Devi essere
+    \x02\x07Datamon\x02\x07Bip! Non
+    copiarmi![pause]\x02\x03Devi essere
     originale
     quando parli![pause]
   - |-
-    [\x0207][\x020902]3Cosa? Ah, OK.
+    \x02\x07\x02\x09\x023Cosa? Ah, OK.
     Continuiamo![pause]

@@ -1,18 +1,18 @@
 strings:
   - ''
   - |-
-    [\x0207]Dresseur Genji[\x0207]Ho ho ho.
+    \x02\x07Dresseur Genji\x02\x07Ho ho ho.
     On ne se
-    connaît pas.[pause][\x0203]Tu es nouveau
+    connaît pas.[pause]\x02\x03Tu es nouveau
     ici ?[pause]
   - |-
-    [\x0207][\x020902]3Oui !
+    \x02\x07\x02\x09\x023Oui !
     Je viens d'avoir
     mes Digimons ![pause]
   - |-
-    [\x0207]Dresseur Genji[\x0207]Alors je vais me
-    battre contre toi.[pause][\x0203]Ne t'inquiète pas
+    \x02\x07Dresseur Genji\x02\x07Alors je vais me
+    battre contre toi.[pause]\x02\x03Ne t'inquiète pas
     si les règles ne
-    sont pas claires.[pause][\x0203]L'important est
+    sont pas claires.[pause]\x02\x03L'important est
     d'acquérir de
     l'expérience ![pause]

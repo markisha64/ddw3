@@ -1,21 +1,21 @@
 strings:
   - ''
   - |-
-    [\x0207]Numemon[\x0207]... Tu vas à
+    \x02\x07Numemon\x02\x07... Tu vas à
     Byakko City ?[pause]
   - |-
-    [\x0207][\x020902]3Oui, je
+    \x02\x07\x02\x09\x023Oui, je
     vais là-bas.[pause]
-  - '[\x0207]Numemon[\x0207]Je te le déconseille.[pause]'
+  - '\x02\x07Numemon\x02\x07Je te le déconseille.[pause]'
   - |-
-    [\x0207][\x020902]3Pourquoi
+    \x02\x07\x02\x09\x023Pourquoi
     ça ?[pause]
   - |-
-    [\x0207]Numemon[\x0207]Fais demi-
+    \x02\x07Numemon\x02\x07Fais demi-
     tour, c'est
     tout, OK ?[pause]
-  - '[\x0207][\x020902]3Hé, attends ![pause]'
+  - '\x02\x07\x02\x09\x023Hé, attends ![pause]'
   - |-
-    [\x0207][\x020902]3Il est parti...[pause][\x0203]Mais quel est
+    \x02\x07\x02\x09\x023Il est parti...[pause]\x02\x03Mais quel est
     le problème avec
     Byakko City ?[pause]

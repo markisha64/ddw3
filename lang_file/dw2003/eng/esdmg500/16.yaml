@@ -1,4 +1,4 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Hey Taomon,\nI've got a favor to\nask.[pause][\\x0203]Can I get the \nRenamon DDNA within \nyour DDNA?[pause]"
-  - "[\\x0207]Taomon[\\x0207]...Yes, but not \nfor free.[pause][\\x0203]Let's see if you're \nqualified.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hey Taomon,\nI've got a favor to\nask.[pause]\\x02\\x03Can I get the \nRenamon DDNA within \nyour DDNA?[pause]"
+  - "\\x02\\x07Taomon\\x02\\x07...Yes, but not \nfor free.[pause]\\x02\\x03Let's see if you're \nqualified.[pause]"

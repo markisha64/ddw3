@@ -1,5 +1,5 @@
 strings:
   - ''
   - |-
-    [\x0207]Guardromon[\x0207]Ahora accederé a
+    \x02\x07Guardromon\x02\x07Ahora accederé a
     la Unidad Matriz.[pause]

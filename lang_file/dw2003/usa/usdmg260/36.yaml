@@ -1,9 +1,9 @@
 strings:
   - ''
-  - "[\\x0207]Mr. Smith[\\x0207]Now's your chance![pause][\\x0203]Finally, our main item![pause][\\x0203]Divine Crown, admired by \nall members![pause][\\x0203]This Patamon exclusive \ncrown will start at\n4000 BIT![pause]"
-  - '[\x0207]Dealer Abel[\x0207]4500 BIT![pause]'
-  - '[\x0207]Chief Milly[\x0207]5500 BIT![pause]'
-  - '[\x0207]RPG Fan Masao[\x0207]5900 BIT![pause]'
+  - "\\x02\\x07Mr. Smith\\x02\\x07Now's your chance![pause]\\x02\\x03Finally, our main item![pause]\\x02\\x03Divine Crown, admired by \nall members![pause]\\x02\\x03This Patamon exclusive \ncrown will start at\n4000 BIT![pause]"
+  - '\x02\x07Dealer Abel\x02\x074500 BIT![pause]'
+  - '\x02\x07Chief Milly\x02\x075500 BIT![pause]'
+  - '\x02\x07RPG Fan Masao\x02\x075900 BIT![pause]'
   - |-
-    [\x0207][\x020902]3Hmm... 6000 BIT
+    \x02\x07\x02\x09\x023Hmm... 6000 BIT
     ...hmmm...[pause]

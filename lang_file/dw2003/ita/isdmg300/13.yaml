@@ -1,95 +1,95 @@
 strings:
   - ''
   - |-
-    [\x0207]Ragazzo[\x0207]Cosa?
+    \x02\x07Ragazzo\x02\x07Cosa?
     Siete
-    dell'A.o.A?[pause][\x0203]Non mi
-    arrenderò![pause][\x0203]Vi batterò
+    dell'A.o.A?[pause]\x02\x03Non mi
+    arrenderò![pause]\x02\x03Vi batterò
     con i miei
     Digimon...[pause]
   - |-
-    [\x0207][\x020902]3Aspetta! Non
+    \x02\x07\x02\x09\x023Aspetta! Non
     sono
-    dell'A.o.A![pause][\x0203]Sono [\x020801][\x020501]
+    dell'A.o.A![pause]\x02\x03Sono \x02\x08\x01\x02\x05\x01
     e vengo dal
     server Asuka![pause]
   - |-
-    [\x0207]Ragazzo[\x0207]Davvero?
+    \x02\x07Ragazzo\x02\x07Davvero?
     Scusa, pensavo
-    fossi dei loro.[pause][\x0203]Io sono Kenny.[pause][\x0203]Come sei arrivato
+    fossi dei loro.[pause]\x02\x03Io sono Kenny.[pause]\x02\x03Come sei arrivato
     ad Amaterasu?[pause]
   - |-
-    [\x0207][\x020902]3Attraverso il
+    \x02\x07\x02\x09\x023Attraverso il
     buco di sicurezza
-    di Bulbmon.[pause][\x0203]Kenny, sai dov'è
+    di Bulbmon.[pause]\x02\x03Kenny, sai dov'è
     il digi-uovo della
     sapienza?[pause]
   - |-
-    [\x0207]Kenny coraggioso[\x0207]Veramente no.
-    Mi dispiace.[pause][\x0203]Ad ogni modo,
+    \x02\x07Kenny coraggioso\x02\x07Veramente no.
+    Mi dispiace.[pause]\x02\x03Ad ogni modo,
     è impossibile
-    cercarlo![pause][\x0203]Questo server è
+    cercarlo![pause]\x02\x03Questo server è
     stato conquistato
     dall'A.o.A![pause]
   - |-
-    [\x0207][\x020902]3Non puoi dirlo
+    \x02\x07\x02\x09\x023Non puoi dirlo
     finché non
-    provi![pause][\x0203]E gli altri
+    provi![pause]\x02\x03E gli altri
     domatori?[pause]
   - |-
-    [\x0207]Kenny coraggioso[\x0207]Sono costretti
+    \x02\x07Kenny coraggioso\x02\x07Sono costretti
     ad addestrare
-    Digimon guerrieri.[pause][\x0203]Poi vengono
+    Digimon guerrieri.[pause]\x02\x03Poi vengono
     trasformati in
     Oinkmon![pause]
   - |-
-    [\x0207][\x020902]3Ancora Oinkmon!
-    Oh, no![pause][\x0203]Non gliela farò
+    \x02\x07\x02\x09\x023Ancora Oinkmon!
+    Oh, no![pause]\x02\x03Non gliela farò
     passare liscia![pause]
   - |-
-    [\x0207]Kenny coraggioso[\x0207]È quello che dico
-    anch'io![pause][\x0203]Chi non è stato
-    catturato sta...[pause][\x0203]formando una resistenza
-    contro l'A.o.A.[pause][\x0203]Ora li sto cercando,
+    \x02\x07Kenny coraggioso\x02\x07È quello che dico
+    anch'io![pause]\x02\x03Chi non è stato
+    catturato sta...[pause]\x02\x03formando una resistenza
+    contro l'A.o.A.[pause]\x02\x03Ora li sto cercando,
     vorrei unirmi a
     loro.[pause]
   - |-
-    [\x0207][\x020902]3Resistenza...
+    \x02\x07\x02\x09\x023Resistenza...
     Vorrei aiutarvi, ma
-    ora non posso.[pause][\x0203]Ora mi occorre
+    ora non posso.[pause]\x02\x03Ora mi occorre
     il digi-uovo della
     sapienza![pause]
   - |-
-    [\x0207]Kenny coraggioso[\x0207]Capisco.
-    Peccato...[pause][\x0203]Beh, io vado.
+    \x02\x07Kenny coraggioso\x02\x07Capisco.
+    Peccato...[pause]\x02\x03Beh, io vado.
     Attento,
-    [\x020801][\x020501]![pause]
-  - '[\x0207][\x020902]3Anche tu![pause]'
+    \x02\x08\x01\x02\x05\x01![pause]
+  - '\x02\x07\x02\x09\x023Anche tu![pause]'
   - |-
-    [\x0207]Kenny coraggioso[\x0207]Oh sì![pause][\x0203]Ti servirà questo
+    \x02\x07Kenny coraggioso\x02\x07Oh sì![pause]\x02\x03Ti servirà questo
     per muoverti nel
     server Amaterasu.[pause]
   - |-
-    [\x0207][\x020902]3L'ID Crony!
+    \x02\x07\x02\x09\x023L'ID Crony!
     Fantastico![pause]
   - |-
-    [\x0207]Kenny coraggioso[\x0207]Con quella ti
+    \x02\x07Kenny coraggioso\x02\x07Con quella ti
     crederanno un
-    membro dell'A.o.A![pause][\x0203]Se non farai
+    membro dell'A.o.A![pause]\x02\x03Se non farai
     sciocchezze, non
     ti scopriranno![pause]
   - |-
-    [\x0207][\x020902]3Grazie.
+    \x02\x07\x02\x09\x023Grazie.
     Ti sono
     debitore.[pause]
   - |-
-    [\x0207]Kenny coraggioso[\x0207]Beh, io vado.
+    \x02\x07Kenny coraggioso\x02\x07Beh, io vado.
     Stai molto
     attento![pause]
   - |-
-    [\x0207][\x020902]3Si, e gli
+    \x02\x07\x02\x09\x023Si, e gli
     darò una
     bella lezione![pause]
   - |-
-    [\x0207][\x020902]3Ora cerchiamo
+    \x02\x07\x02\x09\x023Ora cerchiamo
     il digi-uovo![pause]

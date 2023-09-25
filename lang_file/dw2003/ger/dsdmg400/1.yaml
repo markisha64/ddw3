@@ -1,13 +1,13 @@
 strings:
   - ''
-  - "[\\x0207]MasterTyranno[\\x0207]Wow, Kid! Du\nbist gar nicht\nso schlecht![pause][\\x0203]Zur Belohnung\ngebe ich dir \ndies.[pause]"
-  - "[\\x0207][\\x020902]3Super! Ich\nhabe die \nalte Klaue![pause]"
+  - "\\x02\\x07MasterTyranno\\x02\\x07Wow, Kid! Du\nbist gar nicht\nso schlecht![pause]\\x02\\x03Zur Belohnung\ngebe ich dir \ndies.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Super! Ich\nhabe die \nalte Klaue![pause]"
   - |-
-    [\x0207]MasterTyranno[\x0207]Bring das zum
-    Seiryu Leader![pause][\x0203]Dann wird er mit
+    \x02\x07MasterTyranno\x02\x07Bring das zum
+    Seiryu Leader![pause]\x02\x03Dann wird er mit
     dir kämpfen.[pause]
-  - "[\\x0207][\\x020902]3Danke, \nMasterTyranno[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Danke, \nMasterTyranno[pause]"
   - |-
-    [\x0207]MasterTyranno[\x0207]Seiryu Leader ist
+    \x02\x07MasterTyranno\x02\x07Seiryu Leader ist
     knallhart.
     Sei auf der Hut![pause]

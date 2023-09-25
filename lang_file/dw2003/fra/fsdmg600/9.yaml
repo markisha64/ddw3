@@ -1,15 +1,15 @@
 strings:
   - ''
   - |-
-    [\x0207]BK WarGrowlmon[\x0207]J'ai perdu, mais
+    \x02\x07BK WarGrowlmon\x02\x07J'ai perdu, mais
     j'ai apprécié.
     Merci ![pause]
   - |-
-    [\x0207][\x020902]3Moi aussi.
+    \x02\x07\x02\x09\x023Moi aussi.
     Je dois y aller ![pause]
-  - "[\\x0207]BK WarGrowlmon[\\x0207]Hé, attends\nune seconde ![pause][\\x0203]Voici un \ncadeau de\nremerciement ![pause]"
+  - "\\x02\\x07BK WarGrowlmon\\x02\\x07Hé, attends\nune seconde ![pause]\\x02\\x03Voici un \ncadeau de\nremerciement ![pause]"
   - |-
-    [\x0207][\x020902]3Ouah, j'ai eu
+    \x02\x07\x02\x09\x023Ouah, j'ai eu
     l'Armure
     du Péril ![pause]
-  - "[\\x0207]BK WarGrowlmon[\\x0207]Hé hé, pas mal\nnon ? [pause][\\x0203]C'est mon trésor,  \nalors prends-\nen soin ![pause]"
+  - "\\x02\\x07BK WarGrowlmon\\x02\\x07Hé hé, pas mal\nnon ? [pause]\\x02\\x03C'est mon trésor,  \nalors prends-\nen soin ![pause]"

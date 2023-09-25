@@ -10,41 +10,41 @@ strings:
   - Return
   - |-
     In addition to Digimon battles, tamers
-    can compete in card battles.[pause][\x0203]To do so, they must collect 314
+    can compete in card battles.[pause]\x02\x03To do so, they must collect 314
     types of cards and create their
     personal arrangements.[pause]
   - |-
     Choose a Folder to use as a deck
     before the card battle. Once a Folder
-    is chosen, the battle will start.[pause][\x0203]One card battle is comprised of 3 set
+    is chosen, the battle will start.[pause]\x02\x03One card battle is comprised of 3 set
     matches. The first tamer to take 2
-    sets wins and receives a booster pack.[pause][\x0203]Each set is split into 6 phases. For
+    sets wins and receives a booster pack.[pause]\x02\x03Each set is split into 6 phases. For
     more information read the explanations
     provided in "Phases."[pause]
   - |-
     Initial Phase
     Decide the order of play. The one
-    who draws Calumon goes first.[pause][\x0203]Draw Phase
+    who draws Calumon goes first.[pause]\x02\x03Draw Phase
     Draw an initial 6 cards from the
-    deck to use as your hand.[pause][\x0203]Here, D-Energy the same color as
+    deck to use as your hand.[pause]\x02\x03Here, D-Energy the same color as
     the card drawn is formed. This will
     be used in the Summon Phase.[pause]
   - |-
     Load Phase
     Tamers take turns using PG Cards
-    to prepare to summon Digimons.[pause][\x0203]This phase ends when passes
+    to prepare to summon Digimons.[pause]\x02\x03This phase ends when passes
     continue. Sometimes unusable PG
     cards appear here.[pause]
   - |-
     Summon Phase
     In this phase tamers select Digimon
-    cards and summon the Digimons.[pause][\x0203]Up to 6 Digimons can be summoned
+    cards and summon the Digimons.[pause]\x02\x03Up to 6 Digimons can be summoned
     to the field. D-Energy is required
-    to summon Champion Digimons or[pause][\x0203]greater.[pause]
+    to summon Champion Digimons or[pause]\x02\x03greater.[pause]
   - |-
     Compile Phase
     In this phase, tamers take
-    turns using their PG cards for[pause][\x0203]various actions. The phase
+    turns using their PG cards for[pause]\x02\x03various actions. The phase
     ends when passes continue. All
     PG cards may be used.[pause]
-  - "Battle Phase\nIn this phase, Digimons fight with\neach other for victory.[pause][\\x0203]Victory is decided by each Digimon's \ntotal AP and HP points. The one\nwhose total HP reaches 0 loses.[pause]"
+  - "Battle Phase\nIn this phase, Digimons fight with\neach other for victory.[pause]\\x02\\x03Victory is decided by each Digimon's \ntotal AP and HP points. The one\nwhose total HP reaches 0 loses.[pause]"

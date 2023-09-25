@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]Domador Bomujii[\x0207]Estás acabado.
+    \x02\x07Domador Bomujii\x02\x07Estás acabado.
     Domina la senda
     de las cartas.[pause]

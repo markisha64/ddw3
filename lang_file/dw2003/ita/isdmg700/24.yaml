@@ -1,15 +1,15 @@
 strings:
   - ''
   - |-
-    [\x0207]Signore tenebre[\x0207]Sei molto bravo.
+    \x02\x07Signore tenebre\x02\x07Sei molto bravo.
     Sono
-    sorpreso.[pause][\x0203]Mi hai battuto,
+    sorpreso.[pause]\x02\x03Mi hai battuto,
     quindi tieni questo
     regalo.[pause]
   - |-
-    [\x0207][\x020902]3L'adattatore
+    \x02\x07\x02\x09\x023L'adattatore
     di ESP, wow![pause]
   - |-
-    [\x0207]Signore tenebre[\x0207]Diventerai
+    \x02\x07Signore tenebre\x02\x07Diventerai
     un grande
-    domatore.[pause][\x0203]Buona fortuna![pause]
+    domatore.[pause]\x02\x03Buona fortuna![pause]

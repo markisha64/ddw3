@@ -38,7 +38,7 @@ strings:
   - ¿Registrar cuenta?
   - SÍ
   - NO
-  - '[\x020501]%'
+  - '\x02\x05\x01%'
   - |-
     Armas, ataques mágicos y curac.
     El mejor paquete para un equipo.

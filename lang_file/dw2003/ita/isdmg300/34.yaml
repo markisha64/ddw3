@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Ve bene,
+    \x02\x07\x02\x09\x023Ve bene,
     lotterò con
     te![pause]
   - |-
-    [\x0207]MegaGargomon N[\x0207]Finalmente! Mi
+    \x02\x07MegaGargomon N\x02\x07Finalmente! Mi
     annoiavo
     parecchio.[pause]
   - |-
-    [\x0207][\x020902]3Cominciamo
+    \x02\x07\x02\x09\x023Cominciamo
     subito[pause]
   - |-
-    [\x0207]MegaGargom. N[\x0207]Non sarà
+    \x02\x07MegaGargom. N\x02\x07Non sarà
     così facile
     battermi![pause]

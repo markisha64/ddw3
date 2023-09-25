@@ -1,32 +1,32 @@
 strings:
   - ''
   - |-
-    [\x0207]Stimme[\x0207]Huuu...
+    \x02\x07Stimme\x02\x07Huuu...
     ...huuu![pause]
-  - "[\\x0207][\\x020902]3Du bist \nSepikmon.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Du bist \nSepikmon.[pause]"
   - |-
-    [\x0207]Stimme[\x0207]Huuu...
+    \x02\x07Stimme\x02\x07Huuu...
     ...hust!
-    Hust![pause][\x0203]...stimmt,
+    Hust![pause]\x02\x03...stimmt,
     was willst
     du?[pause]
   - |-
-    [\x0207][\x020902]3Kannst du mir sagen,
+    \x02\x07\x02\x09\x023Kannst du mir sagen,
     wie ich Zanb. besiege?[pause]
   - |-
-    [\x0207]Sepikmon[\x0207]Ja, aber ich habe
+    \x02\x07Sepikmon\x02\x07Ja, aber ich habe
     zunächst eine Bitte.[pause]
   - |-
-    [\x0207]Sepikmon[\x0207]Ich habe meine wert-
-    volle Maske verloren![pause][\x0203]Ohne die Maske kann
-    mich niemand sehen![pause][\x0203]Wenn du sie findest,
+    \x02\x07Sepikmon\x02\x07Ich habe meine wert-
+    volle Maske verloren![pause]\x02\x03Ohne die Maske kann
+    mich niemand sehen![pause]\x02\x03Wenn du sie findest,
     sage ich dir, was du
     wissen willst.[pause]
-  - "[\\x0207]Sepikmon[\\x0207]Ich hatte sie noch, als\nich bei Baronmon war.[pause][\\x0203]Danach habe ich sie \nwohl fallengelassen.[pause][\\x0203]OK, hab vielen Dank![pause]"
+  - "\\x02\\x07Sepikmon\\x02\\x07Ich hatte sie noch, als\nich bei Baronmon war.[pause]\\x02\\x03Danach habe ich sie \nwohl fallengelassen.[pause]\\x02\\x03OK, hab vielen Dank![pause]"
   - |-
-    [\x0207]Stimme[\x0207]...Ja, was
+    \x02\x07Stimme\x02\x07...Ja, was
     willst du![pause]
   - |-
-    [\x0207][\x020902]3Also gut, ich mache
+    \x02\x07\x02\x09\x023Also gut, ich mache
     mich auf die Suche
     nach deiner Maske.[pause]

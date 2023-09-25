@@ -1,51 +1,51 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Non preoccuparti,
+    \x02\x07\x02\x09\x023Non preoccuparti,
     Teddy. Noi lottiamo
-    per questo![pause][\x0203]Sconfiggeremo
+    per questo![pause]\x02\x03Sconfiggeremo
     l'A.o.A![pause]
   - |-
-    [\x0207]Teddy[\x0207]Hai ragione!
+    \x02\x07Teddy\x02\x07Hai ragione!
     Ci siamo quasi,
     andiamo![pause]
   - |-
-    [\x0207]Nick[\x0207]Ragazzi, siete
+    \x02\x07Nick\x02\x07Ragazzi, siete
     ancora qui?[pause]
-  - '[\x0207][\x020902]3Oh, Nick![pause]'
+  - '\x02\x07\x02\x09\x023Oh, Nick![pause]'
   - |-
-    [\x0207]Teddy[\x0207]La nostra
+    \x02\x07Teddy\x02\x07La nostra
     situazione?[pause]
   - |-
-    [\x0207]Nick[\x0207]Ha ha ha,
-    buona![pause][\x0203]L'A.o.A in città
+    \x02\x07Nick\x02\x07Ha ha ha,
+    buona![pause]\x02\x03L'A.o.A in città
     si è arresa
     presto![pause]
-  - "[\\x0207][\\x020902]3Tutto \nbene?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Tutto \nbene?[pause]"
   - |-
-    [\x0207]Nick[\x0207]L'abbiamo
-    riconquistata![pause][\x0203]Rimane solo
+    \x02\x07Nick\x02\x07L'abbiamo
+    riconquistata![pause]\x02\x03Rimane solo
     il centro
     amministrativo.[pause]
   - |-
-    [\x0207][\x020902]3Cosa?![pause][\x0203]Ma allora
+    \x02\x07\x02\x09\x023Cosa?![pause]\x02\x03Ma allora
     non possiamo
     batterli![pause]
   - |-
-    [\x0207]Nick[\x0207]Ha ha ha.
+    \x02\x07Nick\x02\x07Ha ha ha.
     Siamo venuti
-    qui apposta.[pause][\x0203]Ti aiuteremo
+    qui apposta.[pause]\x02\x03Ti aiuteremo
     nell'attacco
     al centro![pause]
   - |-
-    [\x0207][\x020902]3Bene.
+    \x02\x07\x02\x09\x023Bene.
     Lasciate fare
     a me![pause]
   - |-
-    [\x0207][\x020902]3Teddy, io
+    \x02\x07\x02\x09\x023Teddy, io
     vado
     avanti![pause]
   - |-
-    [\x0207]Teddy[\x0207]Attento!
+    \x02\x07Teddy\x02\x07Attento!
     Sarò lì fra
     poco![pause]

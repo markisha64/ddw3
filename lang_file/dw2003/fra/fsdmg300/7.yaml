@@ -1,11 +1,11 @@
 strings:
   - ''
   - |-
-    [\x0207]Soldat[\x0207]Tu ne
+    \x02\x07Soldat\x02\x07Tu ne
     passeras
-    pas ![pause][\x0203]Je suis plus
+    pas ![pause]\x02\x03Je suis plus
     fort que toi.[pause]
   - |-
-    [\x0207][\x020902]3Ah oui ? Voyons ![pause][\x0203]Vous êtes tous
+    \x02\x07\x02\x09\x023Ah oui ? Voyons ![pause]\x02\x03Vous êtes tous
     d'une telle
     arrogance ![pause]

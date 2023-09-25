@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Algún sitio.
+    \x02\x07\x02\x09\x023Algún sitio.
     ...¿Dónde
     es eso?[pause]
   - |-
-    [\x0207]Patamon[\x0207]Um... No sé.
+    \x02\x07Patamon\x02\x07Um... No sé.
     Pero en la selva
     oí un ruido raro.[pause]
   - |-
-    [\x0207][\x020902]3¿Un ruido
+    \x02\x07\x02\x09\x023¿Un ruido
     raro?[pause]
-  - "[\\x0207]Patamon[\\x0207]¡Sí, un sonido como\nuna máquina o un\nDigimon! ¡Muy raro![pause][\\x0203]Líder lo oyó\ny se fue...[pause][\\x0203]No estoy seguro\npero a lo mejor se \nfue a la selva.[pause]"
+  - "\\x02\\x07Patamon\\x02\\x07¡Sí, un sonido como\nuna máquina o un\nDigimon! ¡Muy raro![pause]\\x02\\x03Líder lo oyó\ny se fue...[pause]\\x02\\x03No estoy seguro\npero a lo mejor se \nfue a la selva.[pause]"
   - |-
-    [\x0207][\x020902]3Ya veo...
+    \x02\x07\x02\x09\x023Ya veo...
     ¡Gracias![pause]

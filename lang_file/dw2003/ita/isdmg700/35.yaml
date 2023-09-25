@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]Seiya tecnol.[\x0207]Oi?
+    \x02\x07Seiya tecnol.\x02\x07Oi?
     Oioio... ...
     ... ...[pause]

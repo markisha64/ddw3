@@ -1,11 +1,11 @@
 strings:
   - ''
   - |-
-    [\x0207]Cavaliere fuoco[\x0207]Incredibile!
-    Stavolta ho perso![pause][\x0203]Devo scaricarmi,
+    \x02\x07Cavaliere fuoco\x02\x07Incredibile!
+    Stavolta ho perso![pause]\x02\x03Devo scaricarmi,
     ogni tanto. Ritorna,
     qualche volta![pause]
   - |-
-    [\x0207]Cavaliere fuoco[\x0207]Attento alla
+    \x02\x07Cavaliere fuoco\x02\x07Attento alla
     grotta delle
     tenebre![pause]

@@ -1,8 +1,8 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Umm, no veo
-    a Veemon.[pause][\x0203]Umm...
+    \x02\x07\x02\x09\x023Umm, no veo
+    a Veemon.[pause]\x02\x03Umm...
     Qué puedo hacer.
     Ummm.[pause]
-  - "[\\x0207][\\x020902]3Bueno, vámonos\ndel Bosque de \nlas Patadas.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Bueno, vámonos\ndel Bosque de \nlas Patadas.[pause]"

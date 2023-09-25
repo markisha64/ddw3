@@ -1,18 +1,18 @@
 strings:
   - ''
   - |-
-    [\x0207]Kammer-Offizier[\x0207]Sternengerät ist
+    \x02\x07Kammer-Offizier\x02\x07Sternengerät ist
     bereit. Keine
     abnormen Daten.[pause]
   - |-
-    [\x0207][\x020902]3...was passiert
+    \x02\x07\x02\x09\x023...was passiert
     wohl in der
-    echten Welt...[pause][\x0203]Hoffentlich OK...[pause]
+    echten Welt...[pause]\x02\x03Hoffentlich OK...[pause]
   - |-
     ÜBERTRAGUNGSGRENZE ERREICHT.
     DIGITATION ERZWINGEN.[pause]
   - |-
-    [\x0207][\x020902]3Was soll ich tun?
+    \x02\x07\x02\x09\x023Was soll ich tun?
     Ich kann Jugger-
-    naut nicht stoppen.[pause][\x0203]Ich war soooo nah
+    naut nicht stoppen.[pause]\x02\x03Ich war soooo nah
     dran![pause]

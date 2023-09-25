@@ -1,9 +1,9 @@
 strings:
   - ''
-  - "[\\x0207]Mr. Smith[\\x0207]Now's your chance![pause][\\x0203]Finally, our main item![pause][\\x0203]Hazard Shield, coveted \nby all members![pause][\\x0203]The Guilmon exclusive \nshield will start at\n400 BIT![pause]"
-  - '[\x0207]Dealer Abel[\x0207]500 BIT![pause]'
-  - '[\x0207]Chief Milly[\x0207]600 BIT![pause]'
-  - '[\x0207]RPG Fan Masao[\x0207]700 BIT![pause]'
+  - "\\x02\\x07Mr. Smith\\x02\\x07Now's your chance![pause]\\x02\\x03Finally, our main item![pause]\\x02\\x03Hazard Shield, coveted \nby all members![pause]\\x02\\x03The Guilmon exclusive \nshield will start at\n400 BIT![pause]"
+  - '\x02\x07Dealer Abel\x02\x07500 BIT![pause]'
+  - '\x02\x07Chief Milly\x02\x07600 BIT![pause]'
+  - '\x02\x07RPG Fan Masao\x02\x07700 BIT![pause]'
   - |-
-    [\x0207][\x020902]3Hmm... 800 BIT
+    \x02\x07\x02\x09\x023Hmm... 800 BIT
     ...hmmm...[pause]

@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207]Fire Knight[\x0207]Wait a sec! You
+    \x02\x07Fire Knight\x02\x07Wait a sec! You
     came at a great
     time. I was bored.[pause]
-  - "[\\x0207][\\x020902]3Bored? I don't \nhave time for this![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Bored? I don't \nhave time for this![pause]"
   - |-
-    [\x0207]Fire Knight[\x0207]You're not bored?
-    Don't make me laugh![pause][\x0203]Tamers these days
-    are weak...[pause][\x0203]But you look good!
+    \x02\x07Fire Knight\x02\x07You're not bored?
+    Don't make me laugh![pause]\x02\x03Tamers these days
+    are weak...[pause]\x02\x03But you look good!
     Come on, let's fight![pause]
-  - '[\x0207][\x020902]3?![pause]'
+  - '\x02\x07\x02\x09\x023?![pause]'
   - |-
-    [\x0207]Fire Knight[\x0207]I'll show you the
+    \x02\x07Fire Knight\x02\x07I'll show you the
     power of my Digimon!
     Fireeeeeee!![pause]

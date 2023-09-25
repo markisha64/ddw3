@@ -1,16 +1,16 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3OK, ich
+    \x02\x07\x02\x09\x023OK, ich
     kämpfe mit
     dir![pause]
   - |-
-    [\x0207]BK MegaGargomon[\x0207]Super! Ich hatte
+    \x02\x07BK MegaGargomon\x02\x07Super! Ich hatte
     schon Langeweile.[pause]
   - |-
-    [\x0207][\x020902]3Fangen
+    \x02\x07\x02\x09\x023Fangen
     wir an![pause]
   - |-
-    [\x0207]BK MegaGargo.[\x0207]Es ist nicht so
+    \x02\x07BK MegaGargo.\x02\x07Es ist nicht so
     leicht, mich
     zu schlagen![pause]

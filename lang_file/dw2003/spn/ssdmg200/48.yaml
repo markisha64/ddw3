@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]Servicio de Domador[\x0207]De acuerdo.[pause][\x0203]Si quieres la
+    \x02\x07Servicio de Domador\x02\x07De acuerdo.[pause]\x02\x03Si quieres la
     información,
     ven a hablar conmigo.[pause]

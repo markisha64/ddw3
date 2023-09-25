@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207]Civil de Byakko ?[\x0207]Hé hé hé ! Nous
+    \x02\x07Civil de Byakko ?\x02\x07Hé hé hé ! Nous
     t'attendions tous
-    impatiemment ![pause][\x0203]Va vite te battre
+    impatiemment ![pause]\x02\x03Va vite te battre
     contre notre chef.[pause]

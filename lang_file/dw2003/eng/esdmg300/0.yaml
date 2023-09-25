@@ -1,30 +1,30 @@
 strings:
   - ''
-  - "[\\x0207]Teddy[\\x0207]Hey, [\\x020801][\\x020501]!\nThis is big! \nReally big![pause]"
+  - "\\x02\\x07Teddy\\x02\\x07Hey, \\x02\\x08\\x01\\x02\\x05\\x01!\nThis is big! \nReally big![pause]"
   - |-
-    [\x0207][\x020902]3What's up?
+    \x02\x07\x02\x09\x023What's up?
     Why are you in
     such a hurry?[pause]
   - |-
-    [\x0207]Teddy[\x0207]Lucky Mouse!
+    \x02\x07Teddy\x02\x07Lucky Mouse!
     Lucky Mouse
     appeared![pause]
   - |-
-    [\x0207][\x020902]3What?
+    \x02\x07\x02\x09\x023What?
     Lucky Mouse?[pause]
-  - "[\\x0207]Teddy[\\x0207]Don't you know? \nHe's a genius\nhacker![pause][\\x0203]He can hack into\nany program![pause]"
-  - '[\x0207][\x020902]3Oh, OK.[pause]'
+  - "\\x02\\x07Teddy\\x02\\x07Don't you know? \nHe's a genius\nhacker![pause]\\x02\\x03He can hack into\nany program![pause]"
+  - '\x02\x07\x02\x09\x023Oh, OK.[pause]'
   - |-
-    [\x0207]Teddy[\x0207]I'm a big fan of his.
+    \x02\x07Teddy\x02\x07I'm a big fan of his.
     I really want to meet
     him![pause]
-  - "...This is an announcement\nto everyone playing Digimon Online. [pause][\\x0203]We will be undergoing emergency\nmaintenance at this time.[pause][\\x0203]Because of this, you won't be able to\nreturn to the Real World, but you\nwon't be charged during this time.[pause][\\x0203]...I repeat. \nEveryone will be playing for free![pause]"
-  - "[\\x0207]Teddy[\\x0207]Hey did you hear\nthat?![pause][\\x0203]I'm sure Lucky Mouse \nhad something to do\nwith that![pause][\\x0203]Man, I can't stand it.\nI'm gonna go find\nLuckly Mouse.[pause]"
+  - "...This is an announcement\nto everyone playing Digimon Online. [pause]\\x02\\x03We will be undergoing emergency\nmaintenance at this time.[pause]\\x02\\x03Because of this, you won't be able to\nreturn to the Real World, but you\nwon't be charged during this time.[pause]\\x02\\x03...I repeat. \nEveryone will be playing for free![pause]"
+  - "\\x02\\x07Teddy\\x02\\x07Hey did you hear\nthat?![pause]\\x02\\x03I'm sure Lucky Mouse \nhad something to do\nwith that![pause]\\x02\\x03Man, I can't stand it.\nI'm gonna go find\nLuckly Mouse.[pause]"
   - |-
-    [\x0207][\x020902]3Heh, hey...
+    \x02\x07\x02\x09\x023Heh, hey...
     Teddy![pause]
   - |-
-    [\x0207][\x020902]3He left.
-    ..............[pause][\x0203]He's always like
+    \x02\x07\x02\x09\x023He left.
+    ..............[pause]\x02\x03He's always like
     that when he gets
     excited.[pause]

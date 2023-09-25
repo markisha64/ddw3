@@ -1,18 +1,18 @@
 strings:
   - ''
   - |-
-    [\x0207]Tai Kong Wang[\x0207]Io costruisco le
+    \x02\x07Tai Kong Wang\x02\x07Io costruisco le
     migliori canne
-    da pesca.[pause][\x0203]Certo, è solo
-    la mia opinione![pause][\x0203]Usa le mie canne, e
+    da pesca.[pause]\x02\x03Certo, è solo
+    la mia opinione![pause]\x02\x03Usa le mie canne, e
     pescherai pesci
-    molto grandi![pause][\x0203]Buona fortuna con
+    molto grandi![pause]\x02\x03Buona fortuna con
     i pesci! Ecco
     qua, ragazzo![pause]
   - |-
-    [\x0207][\x020902]3Eh!
-    Grazie![pause][\x0203]Ho la canna
+    \x02\x07\x02\x09\x023Eh!
+    Grazie![pause]\x02\x03Ho la canna
     da pesca, wow![pause]
   - |-
-    [\x0207]Tai Kong Wang[\x0207]Ho ho ho ho ho!
+    \x02\x07Tai Kong Wang\x02\x07Ho ho ho ho ho!
     Buona fortuna![pause]

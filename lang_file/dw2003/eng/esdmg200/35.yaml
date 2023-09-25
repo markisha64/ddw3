@@ -1,8 +1,8 @@
 strings:
   - ''
-  - "[\\x0207]Knightmon[\\x0207]Virus detected!\nVirus detected![pause][\\x0203]Deleting the virus \nnow![pause]"
+  - "\\x02\\x07Knightmon\\x02\\x07Virus detected!\nVirus detected![pause]\\x02\\x03Deleting the virus \nnow![pause]"
   - |-
-    [\x0207][\x020902]3He-hey wait!
+    \x02\x07\x02\x09\x023He-hey wait!
     I'm not a virus![pause]
-  - "[\\x0207]Knightmon[\\x0207]Virus confirmed!\nVirus confirmed![pause][\\x0203]Deleting the virus \nnow![pause]"
-  - "[\\x0207][\\x020902]3It's no use. Knightmon \nwas reprogrammed by \nthe A.o.A![pause][\\x0203]Hmm... I guess I \nshould check out the\nother cities for now.[pause]"
+  - "\\x02\\x07Knightmon\\x02\\x07Virus confirmed!\nVirus confirmed![pause]\\x02\\x03Deleting the virus \nnow![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023It's no use. Knightmon \nwas reprogrammed by \nthe A.o.A![pause]\\x02\\x03Hmm... I guess I \nshould check out the\nother cities for now.[pause]"

@@ -1,8 +1,8 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Hurra, ich habe
+    \x02\x07\x02\x09\x023Hurra, ich habe
     Zhu Que
     Chief besiegt![pause]
-  - "[\\x0207][\\x020902]3Hm? Da ist \nschon wieder\netwas am Boden.[pause]"
-  - "[\\x0207][\\x020902]3Super! Ich habe den\nID-Pass Rot![pause][\\x0203]Aber wo ist das\nDigiei des \nWissens?[pause][\\x0203]Ich muss es schnell\nfinden, um Jugger-\nnaut zu stoppen![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hm? Da ist \nschon wieder\netwas am Boden.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Super! Ich habe den\nID-Pass Rot![pause]\\x02\\x03Aber wo ist das\nDigiei des \nWissens?[pause]\\x02\\x03Ich muss es schnell\nfinden, um Jugger-\nnaut zu stoppen![pause]"

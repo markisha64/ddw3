@@ -1,3 +1,3 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3...Huh?\nDid I press it in \nthe wrong order?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023...Huh?\nDid I press it in \nthe wrong order?[pause]"

@@ -25,9 +25,9 @@ macro decl_codepoints(
 			$Variant,
 		)*
 
-		$Other1(u8),
-		$Other2(u8, u8),
-		$Other3(u8, u8, u8),
+		$Other1([u8; 1]),
+		$Other2([u8; 2]),
+		$Other3([u8; 3]),
 	}
 
 	impl $Codepoint {
@@ -47,19 +47,11 @@ macro decl_codepoints(
 				}
 			)*
 
-			/*
-			// Else return an error
+			// Otherwise return raw bytes
 			match cmp_bytes.into_bytes() {
-				[Some(byte0), None, None] => anyhow::bail!("Unknown codepoint {byte0:02x}"),
-				[Some(byte0), Some(byte1), None] => anyhow::bail!("Unknown codepoint {byte0:02x}{byte1:02x}"),
-				[Some(byte0), Some(byte1), Some(byte2)] => anyhow::bail!("Unknown codepoint {byte0:02x}{byte1:02x}{byte2:02x}"),
-				_ => unreachable!(),
-			}
-			*/
-			match cmp_bytes.into_bytes() {
-				[Some(byte0), None, None] => Ok(Self::$Other1(byte0)),
-				[Some(byte0), Some(byte1), None] => Ok(Self::$Other2(byte0, byte1)),
-				[Some(byte0), Some(byte1), Some(byte2)] => Ok(Self::$Other3(byte0, byte1, byte2)),
+				[Some(b0), None, None] => Ok(Self::$Other1([b0])),
+				[Some(b0), Some(b1), None] => Ok(Self::$Other2([b0, b1])),
+				[Some(b0), Some(b1), Some(b2)] => Ok(Self::$Other3([b0, b1, b2])),
 				_ => unreachable!(),
 			}
 		}
@@ -74,9 +66,9 @@ macro decl_codepoints(
 					Self::$Variant => writer.write_all(&[ $($byte),* ])?,
 				)*
 
-				Self::$Other1(byte0) => writer.write_all(&[byte0])?,
-				Self::$Other2(byte0, byte1) => writer.write_all(&[byte0, byte1])?,
-				Self::$Other3(byte0, byte1, byte2) => writer.write_all(&[byte0, byte1, byte2])?,
+				Self::$Other1([b0]) => writer.write_all(&[b0])?,
+				Self::$Other2([b0, b1]) => writer.write_all(&[b0, b1])?,
+				Self::$Other3([b0, b1, b2]) => writer.write_all(&[b0, b1, b2])?,
 			}
 
 			Ok(())
@@ -92,27 +84,10 @@ macro decl_codepoints(
 				}
 			)*
 
-			if let Some(rest) = s.strip_prefix("[\\x") {
-				let end = rest.find(']').context("Unable to find `]` after `[\\x`")?;
-				let inner = &rest[..end];
-				match inner.len() {
-					2 => {
-						let byte0 = u8::from_str_radix(&inner[0..2], 16).context("Unable to parse first byte")?;
-						return Ok((Self::$Other1(byte0), &rest[end+1..]))
-					},
-					4 => {
-						let byte0 = u8::from_str_radix(&inner[0..2], 16).context("Unable to parse first byte")?;
-						let byte1 = u8::from_str_radix(&inner[2..4], 16).context("Unable to parse second byte")?;
-						return Ok((Self::$Other2(byte0, byte1), &rest[end+1..]))
-					},
-					6 => {
-						let byte0 = u8::from_str_radix(&inner[0..2], 16).context("Unable to parse first byte")?;
-						let byte1 = u8::from_str_radix(&inner[2..4], 16).context("Unable to parse second byte")?;
-						let byte2 = u8::from_str_radix(&inner[4..6], 16).context("Unable to parse third byte")?;
-						return Ok((Self::$Other3(byte0, byte1, byte2), &rest[end+1..]))
-					},
-					len => anyhow::bail!("Expected 2, 4 or 6 characters within `[\\x...]`, found {len}: {inner:?}"),
-				}
+			if let Some(rest) = s.strip_prefix("\\x") {
+				let byte = rest.get(..2).context("Expected 2 hex characters after `\\x`")?;
+				let byte = u8::from_str_radix(byte, 16).context("Unable to parse byte")?;
+				return Ok((Self::$Other1([byte]), &rest[2..]));
 			}
 
 			anyhow::bail!("Unknown to parse codepoint from {s:?}");
@@ -126,9 +101,9 @@ macro decl_codepoints(
 					Self::$Variant => f.pad($repr),
 				)*
 
-				Self::$Other1(b0) => write!(f, "[\\x{b0:02x}]"),
-				Self::$Other2(b0, b1) => write!(f, "[\\x{b0:02x}{b1:02x}]"),
-				Self::$Other3(b0, b1, b2) => write!(f, "[\\x{b0:02x}{b1:02x}{b2:02x}]"),
+				Self::$Other1([b0]) => write!(f, "\\x{b0:02x}"),
+				Self::$Other2([b0, b1]) => write!(f, "\\x{b0:02x}\\x{b1:02x}"),
+				Self::$Other3([b0, b1, b2]) => write!(f, "\\x{b0:02x}\\x{b1:02x}\\x{b2:02x}"),
 			}
 		}
 	}
@@ -141,7 +116,7 @@ macro decl_codepoints(
 decl_codepoints! { Codepoint, Other1, Other2, Other3, decode, encode, parse;
 	0x00 => Null, "Null", "\\0";
 
-	0x03 => Unknown03, "Unknown03", "[\\x03]";
+	0x03 => Unknown03, "Unknown03", "\\x03";
 
 	// `U+0030 .. U+0039`
 	0x04 => DigitZero  , "Zero" , "0";
@@ -404,7 +379,7 @@ decl_codepoints! { Codepoint, Other1, Other2, Other3, decode, encode, parse;
 	0x01, 0x0d => HyphenMinus2              , "Hyphen-minus (2)"               , "[-2]"; // Note: Not used
 	0x01, 0x0e => HyphenMinus3              , "Hyphen-minus (3)"               , "[-3]"; // Note: Used only in the japanese translation
 	0x01, 0x0f => Solidus                   , "Solidus"                        , "/";
-	0x01, 0x10 => ReverseSolidus            , "Reverse solidus"                , "\\";
+	0x01, 0x10 => ReverseSolidus            , "Reverse solidus"                , "\\\\"; // Note: Not used, but we escape this one since we use `\` as the escape character for others
 	0x01, 0x11 => Tilde2                    , "Tilde (2)"                      , "[~2]"; // Note: Not used
 	0x01, 0x12 => MidlineHorizontalEllipsis , "Midline horizontal ellipsis"    , "⋯";
 	0x01, 0x13 => Apostrophe                , "Apostrophe"                     , "'";
@@ -454,7 +429,7 @@ decl_codepoints! { Codepoint, Other1, Other2, Other3, decode, encode, parse;
 	0x01, 0x3a => Dw2003DownArrow , "Dw2003 down arrow" , "[arrow-down]";
 
 	0x01, 0x3b => InvertedExclamationMark, "Inverted exclamation mark", "¡";
-	0x01, 0x3c => Unknown013c            , "Unknown013c"              , "[\\x013c]";
+	0x01, 0x3c => Unknown013c            , "Unknown013c"              , "\\x01\\x3c";
 	0x01, 0x3d => SectionSign            , "Section sign"             , "§";
 	0x01, 0x3e => MicroSign              , "Micro sign"               , "µ";
 	0x01, 0x3f => InvertedQuestionMark   , "Inverted question mark"   , "¿";
@@ -530,19 +505,19 @@ decl_codepoints! { Codepoint, Other1, Other2, Other3, decode, encode, parse;
 
 	0x01, 0x72 => MasculineOrdinalIndicator, "Masculine ordinal indicator", "º";
 
-	0x02, 0x00 => Unknown0200, "Unknown0200" , "[\\x0200]";
+	0x02, 0x00 => Unknown0200, "Unknown0200" , "\\x02\\x00";
 
 
 	0x02, 0x01 => EndOfLine, "End of line" , "\n";
 
 	// Seems to be carriage return or something nearby
-	0x02, 0x03 => Unknown0203, "Unknown0203" , "[\\x0203]";
+	0x02, 0x03 => Unknown0203, "Unknown0203" , "\\x02\\x03";
 
 	// Surrounds titles, might be a color?
-	0x02, 0x07 => Unknown0207, "Unknown0207" , "[\\x0207]";
+	0x02, 0x07 => Unknown0207, "Unknown0207" , "\\x02\\x07";
 
 	// Seems to be a placeholder for a percentage?
-	0x02, 0x05, 0x01 => Unknown020501, "Unknown020501" , "[\\x020501]";
+	0x02, 0x05, 0x01 => Unknown020501, "Unknown020501" , "\\x02\\x05\\x01";
 
 	0x02, 0x02, 0x02 => TextPauseAction, "Text pause action", "[pause]";
 }

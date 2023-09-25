@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3¡De acuerdo!
+    \x02\x07\x02\x09\x023¡De acuerdo!
     ¡Por 1600![pause]
   - |-
-    [\x0207]Sr. Smith[\x0207]¡Uauu!
-    ¡1600 BIT![pause][\x0203]¿Alguien sobre
+    \x02\x07Sr. Smith\x02\x07¡Uauu!
+    ¡1600 BIT![pause]\x02\x03¿Alguien sobre
     1600 BIT?[pause]
-  - "[\\x0207]Sr. Smith[\\x0207]Se va... Se va...\n¡ADJUDICADO![pause][\\x0203]¡Escudo Dramon!\n¡Por 1600BIT![pause][\\x0203]Felicidades al chico\nde ahí.[pause][\\x0203]¡Transfiriendo el \nartículo a tu\nsatélite![pause]"
+  - "\\x02\\x07Sr. Smith\\x02\\x07Se va... Se va...\n¡ADJUDICADO![pause]\\x02\\x03¡Escudo Dramon!\n¡Por 1600BIT![pause]\\x02\\x03Felicidades al chico\nde ahí.[pause]\\x02\\x03¡Transfiriendo el \nartículo a tu\nsatélite![pause]"
   - |-
-    [\x0207][\x020902]3¡Sí! ¡Tengo el
+    \x02\x07\x02\x09\x023¡Sí! ¡Tengo el
     Escudo Dramon![pause]
   - |-
-    [\x0207]Junior[\x0207]¡Bien! Tengo un
+    \x02\x07Junior\x02\x07¡Bien! Tengo un
     artículo chulo. ¡Voy
     a probarlo![pause]

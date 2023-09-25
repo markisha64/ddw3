@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207]Sepikmon[\x0207]Svelto, cerca
-    la maschera![pause][\x0203]L'avevo ancora
+    \x02\x07Sepikmon\x02\x07Svelto, cerca
+    la maschera![pause]\x02\x03L'avevo ancora
     quando ero
     con Baronmon.[pause]

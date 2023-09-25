@@ -1,21 +1,21 @@
 strings:
   - ''
   - |-
-    [\x0207]MegaGargomon N[\x0207]Hai vinto!
+    \x02\x07MegaGargomon N\x02\x07Hai vinto!
     Sei forte![pause]
   - |-
-    [\x0207][\x020902]3Certo!
+    \x02\x07\x02\x09\x023Certo!
     Ho combattuto
     con tutti![pause]
   - |-
-    [\x0207]MegaGargomon N[\x0207]Fantastico!
+    \x02\x07MegaGargomon N\x02\x07Fantastico!
     Ti darò
     questo![pause]
   - |-
-    [\x0207][\x020902]3Ho l'elmo
+    \x02\x07\x02\x09\x023Ho l'elmo
     selvaggio,
     wow![pause]
   - |-
-    [\x0207]MegaGargom. N[\x0207]Buona fortuna!
+    \x02\x07MegaGargom. N\x02\x07Buona fortuna!
     Farò il tifo
     per te![pause]

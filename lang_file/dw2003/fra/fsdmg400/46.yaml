@@ -1,4 +1,4 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Hum, Je ne  \ntrouve pas \nVeemon...[pause][\\x0203]Hmm...\nQue faire...\nHmm...[pause]"
-  - "[\\x0207][\\x020902]3Bien, quittons \nsimplement la\nForêt vive.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hum, Je ne  \ntrouve pas \nVeemon...[pause]\\x02\\x03Hmm...\nQue faire...\nHmm...[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Bien, quittons \nsimplement la\nForêt vive.[pause]"

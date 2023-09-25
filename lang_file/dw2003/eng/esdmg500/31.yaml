@@ -1,4 +1,4 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Yeah! \nI defeated \nBulbmon![pause]"
-  - "[\\x0207][\\x020902]3...Huh?!\nThe hole just\nkeeps on going![pause][\\x0203]Maybe it goes to \nAmaterasu \nServer...[pause][\\x0203]Well, let's find \nout![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Yeah! \nI defeated \nBulbmon![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023...Huh?!\nThe hole just\nkeeps on going![pause]\\x02\\x03Maybe it goes to \nAmaterasu \nServer...[pause]\\x02\\x03Well, let's find \nout![pause]"

@@ -1,31 +1,31 @@
 strings:
   - ''
   - |-
-    [\x0207]Luke le Collectionneur[\x0207]OK, j'envoie
+    \x02\x07Luke le Collectionneur\x02\x07OK, j'envoie
     des données sur
     ton satellite.[pause]
   - |-
     "Energie-A"
     Les cartes sont  blanches, bleues,
-    vertes, rouges et marron.[pause][\x0203]L'énergie-A augmente quand tu tires
-    une carte du jeu de cette couleur.[pause][\x0203]L'énergie-A est utilisée pour appeler
-    des Dig. supérieurs au nv Disciple.[pause][\x0203]"Energie-A pour Appeler"
+    vertes, rouges et marron.[pause]\x02\x03L'énergie-A augmente quand tu tires
+    une carte du jeu de cette couleur.[pause]\x02\x03L'énergie-A est utilisée pour appeler
+    des Dig. supérieurs au nv Disciple.[pause]\x02\x03"Energie-A pour Appeler"
     Lorsqu'on appelle un Digimon, il faut
-    de l'énergie-A de la même couleur.[pause][\x0203]Digimon Champion : un point
+    de l'énergie-A de la même couleur.[pause]\x02\x03Digimon Champion : un point
     Digimon Ultime : deux points
-    Digimon Méga : trois points[pause][\x0203]On peut appeler un Digimon Disciple
+    Digimon Méga : trois points[pause]\x02\x03On peut appeler un Digimon Disciple
     sans énergie-A.[pause]
-  - "\"Combos\"\nIl y a un combo quand le champ\ncompte plus de 3 cartes identiques.[pause][\\x0203]Le montant total des cartes combo\nsera ajouté. S'il y en a plus de 4, \nil y a un bonus.[pause][\\x0203]\"Collecter des cartes\"\nLe vainqueur du combat reçoit un\nbooster, qui contient des cartes.[pause][\\x0203]Tu peux recevoir des boosters en\nbattant des dresseurs.[pause][\\x0203]On dit aussi qu'un certain Dig.\nles possèdent.[pause][\\x0203]\"Cardmon\"\nDans ce monde se cache un Digimon\ndénommé Cardmon.[pause][\\x0203]Si tu bats Cardmon, tu peux obtenir \ndes boosters. Cherche-le dans les\narbres ou dans l'eau.[pause]"
+  - "\"Combos\"\nIl y a un combo quand le champ\ncompte plus de 3 cartes identiques.[pause]\\x02\\x03Le montant total des cartes combo\nsera ajouté. S'il y en a plus de 4, \nil y a un bonus.[pause]\\x02\\x03\"Collecter des cartes\"\nLe vainqueur du combat reçoit un\nbooster, qui contient des cartes.[pause]\\x02\\x03Tu peux recevoir des boosters en\nbattant des dresseurs.[pause]\\x02\\x03On dit aussi qu'un certain Dig.\nles possèdent.[pause]\\x02\\x03\"Cardmon\"\nDans ce monde se cache un Digimon\ndénommé Cardmon.[pause]\\x02\\x03Si tu bats Cardmon, tu peux obtenir \ndes boosters. Cherche-le dans les\narbres ou dans l'eau.[pause]"
   - |-
     "Bogue du gel"
-    Il s'agit d'une carte CP bleue.[pause][\x0203]Lorsque tu l'utilises après la carte
+    Il s'agit d'une carte CP bleue.[pause]\x02\x03Lorsque tu l'utilises après la carte
     CP d'un adversaire, celle-ci part dans
-    la corbeille avant de s'exécuter.[pause][\x0203]C'est une carte puissante que tu dois
-    ranger dans ton dossier si tu l'as.[pause][\x0203]"Rumeurs de cartes spéciales"
+    la corbeille avant de s'exécuter.[pause]\x02\x03C'est une carte puissante que tu dois
+    ranger dans ton dossier si tu l'as.[pause]\x02\x03"Rumeurs de cartes spéciales"
     Il existerait des cartes spéciales
-    en dehors des boosters.[pause][\x0203]C'est un dresseur qui les aurait.
+    en dehors des boosters.[pause]\x02\x03C'est un dresseur qui les aurait.
     Cherche-le pour lui prendre ![pause]
   - |-
-    [\x0207]Luke le Collectioneur[\x0207]N'essaie pas de tout
+    \x02\x07Luke le Collectioneur\x02\x07N'essaie pas de tout
     retenir, tu apprendras
     peu à peu en jouant.[pause]

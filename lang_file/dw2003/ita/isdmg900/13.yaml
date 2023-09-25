@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]Domatore Bomujii[\x0207]Ebbene, impara
+    \x02\x07Domatore Bomujii\x02\x07Ebbene, impara
     a usare al meglio
     le carte![pause]

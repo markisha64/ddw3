@@ -5,33 +5,33 @@ strings:
     Das Fusionsexperiment
     hat funktioniert![pause]
   - |-
-    [\x0207]Gamemaster[\x0207]Glückwunsch!
+    \x02\x07Gamemaster\x02\x07Glückwunsch!
     Jetzt ist...?[pause]
   - |-
     Ja! Obwohl Lucky
     Mouse unsere Pläne
-    durchkreuzt hat...[pause][\x0203]Wir beginnen nun
+    durchkreuzt hat...[pause]\x02\x03Wir beginnen nun
     mit Operation Sigma![pause]
-  - '[\x0207]Gamemaster[\x0207]In Ordnung![pause]'
+  - '\x02\x07Gamemaster\x02\x07In Ordnung![pause]'
   - |-
     Vemmon, komm
     jetzt zu mir![pause]
   - |-
-    [\x0207][\x020902]3Hey, Gamemaster!
+    \x02\x07\x02\x09\x023Hey, Gamemaster!
     Mit wem redest du?
     Dem A.o.A.-Boss?[pause]
   - |-
-    [\x0207]Gamemaster[\x0207]Du bist
+    \x02\x07Gamemaster\x02\x07Du bist
     doch der
-    Junge aus..[pause][\x0203]Was machst
+    Junge aus..[pause]\x02\x03Was machst
     du hier?[pause]
-  - "[\\x0207][\\x020902]3Ich mach dich\nfertig![pause][\\x0203]Besser sagst du mir\nganz schnell, was \ndie A.o.A. planen![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ich mach dich\nfertig![pause]\\x02\\x03Besser sagst du mir\nganz schnell, was \ndie A.o.A. planen![pause]"
   - |-
-    [\x0207]Gamemaster[\x0207]Du willst mich be-
-    siegen? Guter Witz![pause][\x0203]Kommt, meine kost-
+    \x02\x07Gamemaster\x02\x07Du willst mich be-
+    siegen? Guter Witz![pause]\x02\x03Kommt, meine kost-
     baren Digimon![pause]
   - |-
-    [\x0207][\x020902]3OK, die Wa-
+    \x02\x07\x02\x09\x023OK, die Wa-
     chen habe ich
-    besiegt![pause][\x0203]Nun i. Game-
+    besiegt![pause]\x02\x03Nun i. Game-
     master dran![pause]

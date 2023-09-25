@@ -1,21 +1,21 @@
 strings:
   - ''
   - |-
-    [\x0207]Lisa[\x0207]Knightmon ne
+    \x02\x07Lisa\x02\x07Knightmon ne
     résistera pas
-    longtemps  ![pause][\x0203]OK, libérez
+    longtemps  ![pause]\x02\x03OK, libérez
     d'abord la
     population ![pause]
-  - "[\\x0207]Chef Chuck[\\x0207]Allez, tout \nle monde, à\nla charge  ![pause]"
-  - '[\x0207]Wanda Résistante[\x0207]Oui  ![pause]'
-  - "[\\x0207]Dew le Résistant[\\x0207]Pas question \nde perdre\ndevant l'A.o.A ![pause]"
+  - "\\x02\\x07Chef Chuck\\x02\\x07Allez, tout \nle monde, à\nla charge  ![pause]"
+  - '\x02\x07Wanda Résistante\x02\x07Oui  ![pause]'
+  - "\\x02\\x07Dew le Résistant\\x02\\x07Pas question \nde perdre\ndevant l'A.o.A ![pause]"
   - |-
-    [\x0207]Meech Résistant[\x0207]Reprenons
+    \x02\x07Meech Résistant\x02\x07Reprenons
     Amaterasu
     City  ![pause]
-  - "[\\x0207]Teddy[\\x0207]Ouais  !\nOn va gagner \npour de bon  ![pause]"
+  - "\\x02\\x07Teddy\\x02\\x07Ouais  !\nOn va gagner \npour de bon  ![pause]"
   - |-
-    [\x0207][\x020902]3Oui  ! Lisa et
+    \x02\x07\x02\x09\x023Oui  ! Lisa et
     les autres sont
     avec nous  ![pause]
-  - "[\\x0207]Teddy[\\x0207]... mais que se \npasse-t-il dans \nle Monde Réel... ?[pause][\\x0203]Pourvu que  \nDestromon n'ait pas  \nencore attaqué...[pause]"
+  - "\\x02\\x07Teddy\\x02\\x07... mais que se \npasse-t-il dans \nle Monde Réel... ?[pause]\\x02\\x03Pourvu que  \nDestromon n'ait pas  \nencore attaqué...[pause]"

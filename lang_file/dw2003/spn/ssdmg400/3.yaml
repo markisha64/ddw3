@@ -1,21 +1,21 @@
 strings:
   - ''
-  - "[\\x0207]Líder Seiryu[\\x0207]Eres bueno.\n¿Cómo te \nllamas?[pause]"
+  - "\\x02\\x07Líder Seiryu\\x02\\x07Eres bueno.\n¿Cómo te \nllamas?[pause]"
   - |-
-    [\x0207][\x020902]3Soy Junior.
+    \x02\x07\x02\x09\x023Soy Junior.
     ¡Ha sido un
     combate digno![pause]
   - |-
-    [\x0207]Líder Seiryu[\x0207]Vale, [\x020801][\x020501],
+    \x02\x07Líder Seiryu\x02\x07Vale, \x02\x08\x01\x02\x05\x01,
     llévate esto
     contigo.[pause]
-  - "[\\x0207][\\x020902]3¡Tengo el Pin \nSeiryu y el Pase\nde Plata![pause]"
-  - "[\\x0207]Líder Seiryu[\\x0207]Los necesitarás \nen las futuras\nbatallas.[pause][\\x0203]Son importantes, \nno los pierdas.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Tengo el Pin \nSeiryu y el Pase\nde Plata![pause]"
+  - "\\x02\\x07Líder Seiryu\\x02\\x07Los necesitarás \nen las futuras\nbatallas.[pause]\\x02\\x03Son importantes, \nno los pierdas.[pause]"
   - |-
-    [\x0207][\x020902]3¡Gracias, Líder
+    \x02\x07\x02\x09\x023¡Gracias, Líder
     Seiryu![pause]
   - |-
-    [\x0207]Líder Seiryu[\x0207]Reta al Líder Suzaku
-    en el Sector Sur.[pause][\x0203]Te queda mucho,
+    \x02\x07Líder Seiryu\x02\x07Reta al Líder Suzaku
+    en el Sector Sur.[pause]\x02\x03Te queda mucho,
     pero puedes hacerlo.
     ¡Buena suerte![pause]

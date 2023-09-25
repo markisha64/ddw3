@@ -1,9 +1,9 @@
 strings:
   - ''
-  - "[\\x0207]Sr. Smith[\\x0207]¡Es tu oportunidad![pause][\\x0203]¡El artículo principal![pause][\\x0203]¡La Armadura de Ronin! \n¡Admirada por todos![pause][\\x0203]La armadura de Katemon\nsaldrá a 16000BIT.[pause]"
-  - '[\x0207]Abel el Tendero[\x0207]¡16900BIT![pause]'
-  - '[\x0207]Jefe Milly[\x0207]¡17000BIT![pause]'
-  - '[\x0207]Masao RPG[\x0207]¡17400BIT![pause]'
+  - "\\x02\\x07Sr. Smith\\x02\\x07¡Es tu oportunidad![pause]\\x02\\x03¡El artículo principal![pause]\\x02\\x03¡La Armadura de Ronin! \n¡Admirada por todos![pause]\\x02\\x03La armadura de Katemon\nsaldrá a 16000BIT.[pause]"
+  - '\x02\x07Abel el Tendero\x02\x07¡16900BIT![pause]'
+  - '\x02\x07Jefe Milly\x02\x07¡17000BIT![pause]'
+  - '\x02\x07Masao RPG\x02\x07¡17400BIT![pause]'
   - |-
-    [\x0207][\x020902]3Umm 17500 BIT
+    \x02\x07\x02\x09\x023Umm 17500 BIT
     ...ummm...[pause]

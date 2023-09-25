@@ -11,26 +11,26 @@ strings:
   - |-
     Debes crear una Carpeta de
     40 cartas antes de poder
-    participar en una batalla.[pause][\x0203]Puedes poner hasta cuatro
+    participar en una batalla.[pause]\x02\x03Puedes poner hasta cuatro
     cartas iguales en una Carpeta.[pause]
   - |-
     Las Cartas Digimon traen Digimon.
     Los puntos PA y PV están en
-    las cartas. PA es Poder Ataque[pause][\x0203]y PV los Puntos de Vida.
+    las cartas. PA es Poder Ataque[pause]\x02\x03y PV los Puntos de Vida.
     Los Digimon van a la
-    Basura cuando los PV son 0.[pause][\x0203]Por ejemplo, si hay un 5/3,
+    Basura cuando los PV son 0.[pause]\x02\x03Por ejemplo, si hay un 5/3,
     PA es 5 y PV es 3.[pause]
-  - "La Cartas de Prog. pueden \nfortalecer tus Digimon o hacer \nque los oponentes se descarten.[pause][\\x0203]Cada carta tiene un efecto\nconcreto. Debes leerlas\npara saber qué hacen.[pause]"
-  - "Las cartas son de color blanco, \nazul, verde, rojo, negro o marrón.[pause][\\x0203]Al extraer una carta la D-Energía \ndel color de la carta incrementa.[pause][\\x0203]LA D-Energía se usa para invocar\nDigimon Campeones o mejores.[pause]"
-  - "Usa el mismo color de D-Energía \nque la carta Digimon para invocar\nal Digimon. Los Digimon Campeones [pause][\\x0203]cuestan 1 punto, los Definitivos\ncuestan 2 y los Mega Digimon \ncuestan 3 puntos.[pause][\\x0203]Los Digimons Novatos pueden\ninvocarse sin usar D-Energia.[pause]"
+  - "La Cartas de Prog. pueden \nfortalecer tus Digimon o hacer \nque los oponentes se descarten.[pause]\\x02\\x03Cada carta tiene un efecto\nconcreto. Debes leerlas\npara saber qué hacen.[pause]"
+  - "Las cartas son de color blanco, \nazul, verde, rojo, negro o marrón.[pause]\\x02\\x03Al extraer una carta la D-Energía \ndel color de la carta incrementa.[pause]\\x02\\x03LA D-Energía se usa para invocar\nDigimon Campeones o mejores.[pause]"
+  - "Usa el mismo color de D-Energía \nque la carta Digimon para invocar\nal Digimon. Los Digimon Campeones [pause]\\x02\\x03cuestan 1 punto, los Definitivos\ncuestan 2 y los Mega Digimon \ncuestan 3 puntos.[pause]\\x02\\x03Los Digimons Novatos pueden\ninvocarse sin usar D-Energia.[pause]"
   - |-
     Si hay 3+ cartas Digimon iguales
     en el campo durante la Fase Batalla
-    aparecerá una combinación. Los[pause][\x0203]puntos totales de Comb. se suman
+    aparecerá una combinación. Los[pause]\x02\x03puntos totales de Comb. se suman
     a los puntos totales. Si hay 4+
     cartas, recibirás un bono.[pause]
   - |-
     Cuando obtienes Ext. y los abres
     en las tiendas de cartas, puedes
-    recibir cartas. Los domadores [pause][\x0203]ganan Ext. al vencer. Hay
+    recibir cartas. Los domadores [pause]\x02\x03ganan Ext. al vencer. Hay
     algunos Digimon que los llevan.[pause]

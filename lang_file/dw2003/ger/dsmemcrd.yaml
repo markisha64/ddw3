@@ -2,7 +2,7 @@ strings:
   - ''
   - SPEICHERN
   - Spieldaten werden gespeichert.
-  - '[\x020501]'
+  - '\x02\x05\x01'
   - |-
     MEMORY CARD wird überprüft.
     Berühre nicht die MEMORY CARD.
@@ -65,4 +65,4 @@ strings:
     MEMORY CARD Fehler.
     Bitte überprüfe MEMORY CARD.
   - Digimon World 2003
-  - 'Zugriff auf MEMORY CARD Steckplatz [\x020501]:'
+  - 'Zugriff auf MEMORY CARD Steckplatz \x02\x05\x01:'

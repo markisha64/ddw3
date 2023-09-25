@@ -86,23 +86,23 @@ strings:
   - Two-handed
   - Unequip current equipment.
   - HP healed to maximum.
-  - '[\x020501] HP healed.'
-  - Max HP increased by [\x020501].
-  - Max MP increased by [\x020501].
-  - Strength increased by [\x020501].
-  - Defense increased by [\x020501].
-  - Spirit increased by [\x020501].
-  - Wisdom increased by [\x020501].
-  - Speed increased by [\x020501].
-  - Charisma increased by [\x020501].
-  - Fire Tolerance increased by [\x020501].
-  - Water Tolerance increased by [\x020501].
-  - Ice Tolerance increased by [\x020501].
-  - Wind Tolerance increased by [\x020501].
-  - Thunder Tolerance increased by [\x020501].
-  - Machine Tolerance increased by [\x020501].
-  - Dark Tolerance increased by [\x020501].
-  - TP increased by [\x020501].
+  - '\x02\x05\x01 HP healed.'
+  - Max HP increased by \x02\x05\x01.
+  - Max MP increased by \x02\x05\x01.
+  - Strength increased by \x02\x05\x01.
+  - Defense increased by \x02\x05\x01.
+  - Spirit increased by \x02\x05\x01.
+  - Wisdom increased by \x02\x05\x01.
+  - Speed increased by \x02\x05\x01.
+  - Charisma increased by \x02\x05\x01.
+  - Fire Tolerance increased by \x02\x05\x01.
+  - Water Tolerance increased by \x02\x05\x01.
+  - Ice Tolerance increased by \x02\x05\x01.
+  - Wind Tolerance increased by \x02\x05\x01.
+  - Thunder Tolerance increased by \x02\x05\x01.
+  - Machine Tolerance increased by \x02\x05\x01.
+  - Dark Tolerance increased by \x02\x05\x01.
+  - TP increased by \x02\x05\x01.
   - No Items.
   - No Weapons.
   - No Armor.

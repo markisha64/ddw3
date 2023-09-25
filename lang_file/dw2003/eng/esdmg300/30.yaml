@@ -1,4 +1,4 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3...Hey Armormon,\ncan I ask you a \nfavor?[pause][\\x0203]Can I get Monmon \nDDNA from your \nDDNA?[pause]"
-  - "[\\x0207]Armormon[\\x0207]...I refuse!\nIt is too important to \ngive away.[pause][\\x0203]If you really want \nit, you must take it \nfrom me.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023...Hey Armormon,\ncan I ask you a \nfavor?[pause]\\x02\\x03Can I get Monmon \nDDNA from your \nDDNA?[pause]"
+  - "\\x02\\x07Armormon\\x02\\x07...I refuse!\nIt is too important to \ngive away.[pause]\\x02\\x03If you really want \nit, you must take it \nfrom me.[pause]"

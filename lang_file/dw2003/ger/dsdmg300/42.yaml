@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207]Divermon[\x0207]Es war dumm, meine
-    Deckung aufzugeben![pause][\x0203]Mal sehen, wie ich
+    \x02\x07Divermon\x02\x07Es war dumm, meine
+    Deckung aufzugeben![pause]\x02\x03Mal sehen, wie ich
     das nächste Mal meine
     Karten ablege![pause]

@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207]Snatchmon[\x0207]Sono Snatchmon.
+    \x02\x07Snatchmon\x02\x07Sono Snatchmon.
     Il più forte
     Digimon in assoluto.[pause]
   - |-
@@ -9,19 +9,19 @@ strings:
     Distruggi quei
     miseri umani![pause]
   - |-
-    [\x0207][\x020902]3Avanti!
+    \x02\x07\x02\x09\x023Avanti!
     Ti batterò![pause]
   - |-
-    [\x0207]Snatchmon[\x0207]Chi sei?
+    \x02\x07Snatchmon\x02\x07Chi sei?
     Perché mi dai
     ordini?[pause]
   - |-
     Ma cosa dici? Sono
     il tuo domatore![pause]
   - |-
-    [\x0207]Snatchmon[\x0207]Domatore?
+    \x02\x07Snatchmon\x02\x07Domatore?
     Non ne ho
-    bisogno.[pause][\x0203]Sono il Digimon
+    bisogno.[pause]\x02\x03Sono il Digimon
     più forte e non
     ubbidisco a nessuno![pause]
   - |-
@@ -29,57 +29,57 @@ strings:
     Chi credi che io
     sia?[pause]
   - |-
-    [\x0207]Snatchmon[\x0207]Non importa chi mi
-    ha creato.[pause][\x0203]Assorbirò altri
+    \x02\x07Snatchmon\x02\x07Non importa chi mi
+    ha creato.[pause]\x02\x03Assorbirò altri
     dati e diventerò
-    più potente![pause][\x0203]Per cominciare,
+    più potente![pause]\x02\x03Per cominciare,
     assorbirò te![pause]
   - Co-cosa?![pause]
   - Aaaaaah![pause]
-  - "[\\x0207][\\x020902]3Quello è il tuo\ndomatore, \nSnatchmon![pause][\\x0203]Domatori e Digimon\nsono una cosa\nsola![pause][\\x0203]Agiscono sempre\nassieme![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Quello è il tuo\ndomatore, \nSnatchmon![pause]\\x02\\x03Domatori e Digimon\nsono una cosa\nsola![pause]\\x02\\x03Agiscono sempre\nassieme![pause]"
   - |-
-    [\x0207]Snatchmon[\x0207]Tu sei quello
+    \x02\x07Snatchmon\x02\x07Tu sei quello
     che mi batté
-    quando ero Vemmon![pause][\x0203]Ma ora
-    sono rinato![pause][\x0203]Ti mostrerò i
+    quando ero Vemmon![pause]\x02\x03Ma ora
+    sono rinato![pause]\x02\x03Ti mostrerò i
     miei nuovi poteri.[pause]
   - |-
-    [\x0207][\x020902]3...ma cosa?!
+    \x02\x07\x02\x09\x023...ma cosa?!
     Cosa
     farai?[pause]
   - |-
-    [\x0207]Snatchmon[\x0207]Mi fonderò con
+    \x02\x07Snatchmon\x02\x07Mi fonderò con
     Gunslinger e sarò
     Galactimon![pause]
-  - '[\x0207][\x020902]3Galactimon?[pause]'
+  - '\x02\x07\x02\x09\x023Galactimon?[pause]'
   - |-
-    [\x0207]Snatchmon[\x0207]Poi diventerò una cosa
-    sola con la Terra![pause][\x0203]Per digivolvermi in
+    \x02\x07Snatchmon\x02\x07Poi diventerò una cosa
+    sola con la Terra![pause]\x02\x03Per digivolvermi in
     un Digimon più
     potente, Gaiamon![pause]
   - |-
-    [\x0207][\x020902]3Gaiamon? Allora
+    \x02\x07\x02\x09\x023Gaiamon? Allora
     non saranno solo
-    gli umani![pause][\x0203]Tutto, sulla
+    gli umani![pause]\x02\x03Tutto, sulla
     Terra, morirà![pause]
   - |-
-    [\x0207]Snatchmon[\x0207]Irrilevante, l'unica
+    \x02\x07Snatchmon\x02\x07Irrilevante, l'unica
     cosa che conta
     sono io![pause]
-  - '[\x0207][\x020902]3Non vincerai![pause]'
+  - '\x02\x07\x02\x09\x023Non vincerai![pause]'
   - |-
-    [\x0207]Snatchmon[\x0207]Prova a battermi
+    \x02\x07Snatchmon\x02\x07Prova a battermi
     quando sarò
     Galactimon![pause]
   - |-
-    [\x0207][\x020902]3Sì!
+    \x02\x07\x02\x09\x023Sì!
     Non
     vincerai![pause]
   - |-
-    [\x0207]Snatchmon[\x0207]Bene! Ci
+    \x02\x07Snatchmon\x02\x07Bene! Ci
     incontreremo nello
-    spazio![pause][\x0203]Trasferirò i tuoi
-    dati dalla Matrice![pause][\x0203]Guardami mentre
+    spazio![pause]\x02\x03Trasferirò i tuoi
+    dati dalla Matrice![pause]\x02\x03Guardami mentre
     mi digivolvo in
     Galactimon![pause]
   - |-

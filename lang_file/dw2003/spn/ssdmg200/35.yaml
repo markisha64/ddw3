@@ -1,18 +1,18 @@
 strings:
   - ''
   - |-
-    [\x0207]Knightmon[\x0207]¡Virus detectado!
-    ¡Virus detectado![pause][\x0203]¡Eliminando virus
+    \x02\x07Knightmon\x02\x07¡Virus detectado!
+    ¡Virus detectado![pause]\x02\x03¡Eliminando virus
     ahora![pause]
   - |-
-    [\x0207][\x020902]3¡E..Espera!
+    \x02\x07\x02\x09\x023¡E..Espera!
     ¡No soy un virus![pause]
   - |-
-    [\x0207]Knightmon[\x0207]¡Virus confirmado!
-    ¡Virus confirmado![pause][\x0203]¡Eliminar virus![pause]
+    \x02\x07Knightmon\x02\x07¡Virus confirmado!
+    ¡Virus confirmado![pause]\x02\x03¡Eliminar virus![pause]
   - |-
-    [\x0207][\x020902]3No sirve. ¡Knightmon
+    \x02\x07\x02\x09\x023No sirve. ¡Knightmon
     ha sido reprogramado
-    por la A.o.A![pause][\x0203]Um. Por ahora
+    por la A.o.A![pause]\x02\x03Um. Por ahora
     debo comprobar
     las otras ciudades.[pause]

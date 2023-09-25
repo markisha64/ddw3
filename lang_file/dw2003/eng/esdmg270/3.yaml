@@ -1,3 +1,3 @@
 strings:
   - ''
-  - "[\\x0207]Cardster Ken[\\x0207]OK, talk to me \nwhen you feel \nlike listening![pause]"
+  - "\\x02\\x07Cardster Ken\\x02\\x07OK, talk to me \nwhen you feel \nlike listening![pause]"

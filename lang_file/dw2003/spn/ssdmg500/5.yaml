@@ -1,24 +1,24 @@
 strings:
   - ''
   - |-
-    [\x0207]Numemon[\x0207]Aquí estaremos
+    \x02\x07Numemon\x02\x07Aquí estaremos
     bien.[pause]
-  - "[\\x0207][\\x020902]3¡Eh, gracias![pause][\\x0203]¿Pero qué\nle pasa a la gente\nde Ciudad Byakko?[pause][\\x0203]Su Líder me engañó \ny me mandó \nal sótano.[pause]"
-  - "[\\x0207]Numemon[\\x0207]¡El Líder y los \ndemás ciudadanos\nson falsos![pause]"
-  - "[\\x0207][\\x020902]3¿Qué? \n¿Quiénes\nson entonces?[pause]"
-  - "[\\x0207]Numemon[\\x0207]¡No es cosa\ntuya![pause][\\x0203]Si quieres ver al \nverdadero Líder, \nve al Desierto Mobius.[pause][\\x0203]Está en la Torre Delirio\nmás allá del desierto.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Eh, gracias![pause]\\x02\\x03¿Pero qué\nle pasa a la gente\nde Ciudad Byakko?[pause]\\x02\\x03Su Líder me engañó \ny me mandó \nal sótano.[pause]"
+  - "\\x02\\x07Numemon\\x02\\x07¡El Líder y los \ndemás ciudadanos\nson falsos![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¿Qué? \n¿Quiénes\nson entonces?[pause]"
+  - "\\x02\\x07Numemon\\x02\\x07¡No es cosa\ntuya![pause]\\x02\\x03Si quieres ver al \nverdadero Líder, \nve al Desierto Mobius.[pause]\\x02\\x03Está en la Torre Delirio\nmás allá del desierto.[pause]"
   - |-
-    [\x0207][\x020902]3¡Eh, eh!
+    \x02\x07\x02\x09\x023¡Eh, eh!
     ¡Espera! ¿Qué
     está pasando?[pause]
   - |-
-    [\x0207]Numemon[\x0207]¡No puedo decir
-    nada más![pause][\x0203]¡No te acerques
+    \x02\x07Numemon\x02\x07¡No puedo decir
+    nada más![pause]\x02\x03¡No te acerques
     a Ciudad Byakko![pause]
   - |-
-    [\x0207][\x020902]3...oh, de acuerdo.
+    \x02\x07\x02\x09\x023...oh, de acuerdo.
     ¡Hasta luego![pause]
   - |-
-    [\x0207][\x020902]3De acuerdo. Veamos
+    \x02\x07\x02\x09\x023De acuerdo. Veamos
     al verdadero Líder
     ¡y hablemos con él![pause]

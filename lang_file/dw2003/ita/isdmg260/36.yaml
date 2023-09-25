@@ -1,13 +1,13 @@
 strings:
   - ''
   - |-
-    [\x0207]Mr. Smith[\x0207]Un'occasione![pause][\x0203]Il pezzo principale![pause][\x0203]La corona divina, pezzo
-    favoloso![pause][\x0203]La corona esclusiva di
+    \x02\x07Mr. Smith\x02\x07Un'occasione![pause]\x02\x03Il pezzo principale![pause]\x02\x03La corona divina, pezzo
+    favoloso![pause]\x02\x03La corona esclusiva di
     Patamon parte da
     4000 BIT![pause]
-  - '[\x0207]Cliente Abel[\x0207]4500 BIT![pause]'
-  - '[\x0207]Capo Milly[\x0207]5500 BIT![pause]'
-  - '[\x0207]Masao RPG[\x0207]5900 BIT![pause]'
+  - '\x02\x07Cliente Abel\x02\x074500 BIT![pause]'
+  - '\x02\x07Capo Milly\x02\x075500 BIT![pause]'
+  - '\x02\x07Masao RPG\x02\x075900 BIT![pause]'
   - |-
-    [\x0207][\x020902]3Mmm, 6000 BIT
+    \x02\x07\x02\x09\x023Mmm, 6000 BIT
     Hmmm...[pause]

@@ -1,29 +1,29 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3J'ai aussi
+    \x02\x07\x02\x09\x023J'ai aussi
     vaincu le chef
     de Genbu ![pause]
   - |-
-    [\x0207]Chef de Genbu[\x0207]Désolé de t'avoir
-    forcé à te battre.[pause][\x0203]Je voulais vérifier par
-    moi-même que... [pause][\x0203]Tu pouvais vraiment
+    \x02\x07Chef de Genbu\x02\x07Désolé de t'avoir
+    forcé à te battre.[pause]\x02\x03Je voulais vérifier par
+    moi-même que... [pause]\x02\x03Tu pouvais vraiment
     triompher de l'AoA ![pause]
-  - '[\x0207][\x020902]3Oh, je vois.[pause]'
+  - '\x02\x07\x02\x09\x023Oh, je vois.[pause]'
   - |-
-    [\x0207]Chef de Genbu[\x0207]Maintenant prends
+    \x02\x07Chef de Genbu\x02\x07Maintenant prends
     ça et déjoue les
     plans de l'AoA ![pause]
   - |-
-    [\x0207][\x020902]3Super ! J'ai
+    \x02\x07\x02\x09\x023Super ! J'ai
     le badge
     de Genbu ![pause]
   - |-
-    [\x0207]Chef de Genbu[\x0207]Tu es assez fort
+    \x02\x07Chef de Genbu\x02\x07Tu es assez fort
     pour lutter
-    contre eux.[pause][\x0203]Mais eux aussi
+    contre eux.[pause]\x02\x03Mais eux aussi
     sont forts,
     sois prudent ![pause]
   - |-
-    [\x0207][\x020902]3Merci, chef
+    \x02\x07\x02\x09\x023Merci, chef
     de Genbu ![pause]

@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207]Tamer Bomujii[\x0207]So, you're off.
+    \x02\x07Tamer Bomujii\x02\x07So, you're off.
     Master the way
     of the cards![pause]

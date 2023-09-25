@@ -1,6 +1,6 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3¡Te he\nencontrado![pause][\\x0203]¡No voy a dejar \nque te vayas \nesta vez![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Te he\nencontrado![pause]\\x02\\x03¡No voy a dejar \nque te vayas \nesta vez![pause]"
   - |-
-    [\x0207]Numemon[\x0207]¡Deberías
+    \x02\x07Numemon\x02\x07¡Deberías
     dejarlo![pause]

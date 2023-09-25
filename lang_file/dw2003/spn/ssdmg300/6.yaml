@@ -1,4 +1,4 @@
 strings:
   - ''
-  - "[\\x0207]Datamon[\\x0207]Ah, tienes un Pase\nde personal.\nLo siento...[pause][\\x0203]Estoy abriendo la \npuerta, entra.[pause]"
-  - "[\\x0207][\\x020902]3Ah, \n¡gracias![pause]"
+  - "\\x02\\x07Datamon\\x02\\x07Ah, tienes un Pase\nde personal.\nLo siento...[pause]\\x02\\x03Estoy abriendo la \npuerta, entra.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Ah, \n¡gracias![pause]"

@@ -1,18 +1,18 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Ho vinto![pause][\x0203]Dammelo,
+    \x02\x07\x02\x09\x023Ho vinto![pause]\x02\x03Dammelo,
     ora![pause]
   - |-
-    [\x0207]Paildramon[\x0207]Oh, va bene.
+    \x02\x07Paildramon\x02\x07Oh, va bene.
     Ecco, prendi.
     Ahi![pause]
   - |-
-    [\x0207][\x020902]3Ho il DDNA
+    \x02\x07\x02\x09\x023Ho il DDNA
     di Veemon,
-    wow![pause][\x0203]Grazie,
+    wow![pause]\x02\x03Grazie,
     Paildramon![pause]
   - |-
-    [\x0207]Paildramon[\x0207]Si, si. Non lo
+    \x02\x07Paildramon\x02\x07Si, si. Non lo
     farò mai più,
     giuro![pause]

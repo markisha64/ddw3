@@ -1,13 +1,13 @@
 strings:
   - ''
   - |-
-    [\x0207]Computer-Seiya[\x0207]...Was?!
+    \x02\x07Computer-Seiya\x02\x07...Was?!
     Was ist denn los?[pause]
   - |-
-    [\x0207]Mailfan Saki[\x0207]Ruhe! Ich kann
+    \x02\x07Mailfan Saki\x02\x07Ruhe! Ich kann
     mein Handy nicht
     hören![pause]
   - |-
-    [\x0207]Shopper Teruko[\x0207]Waaaaas?!
+    \x02\x07Shopper Teruko\x02\x07Waaaaas?!
     Was soll ich tun?[pause]
-  - "[\\x0207]Shopper Teruko[\\x0207]Wo ist die \nPolizei?![pause]"
+  - "\\x02\\x07Shopper Teruko\\x02\\x07Wo ist die \nPolizei?![pause]"

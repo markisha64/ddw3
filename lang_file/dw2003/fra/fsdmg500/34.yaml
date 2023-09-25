@@ -1,40 +1,40 @@
 strings:
   - ''
   - |-
-    [\x0207]Chef de Zhu Que[\x0207]Seuls les membres
+    \x02\x07Chef de Zhu Que\x02\x07Seuls les membres
     de l'AoA peuvent
     entrer ici ![pause]
   - |-
-    [\x0207][\x020902]3Chef de Zhu Que
+    \x02\x07\x02\x09\x023Chef de Zhu Que
     où est le Digi-
     Oeuf du Savoir ?[pause]
   - |-
-    [\x0207]Chef de Zhu Que[\x0207]Ah ah ! Tu es donc
+    \x02\x07Chef de Zhu Que\x02\x07Ah ah ! Tu es donc
     le responsable du
-    serveur Asuka ![pause][\x0203]Malgré tous tes
+    serveur Asuka ![pause]\x02\x03Malgré tous tes
     effets, il est
     trop tard ![pause]
   - |-
-    [\x0207][\x020902]3Quoi ? Que
+    \x02\x07\x02\x09\x023Quoi ? Que
     veux-tu
     dire par là ?[pause]
   - |-
-    [\x0207]Chef de Zhu Que[\x0207]Ha ha ha, je
-    vais t'expliquer ![pause][\x0203]Nous avons pris la
+    \x02\x07Chef de Zhu Que\x02\x07Ha ha ha, je
+    vais t'expliquer ![pause]\x02\x03Nous avons pris la
     base sous-marine
     de Magasta ![pause]
   - |-
-    [\x0207]Chef de Zhu Que[\x0207]Et à présent, nous [pause][\x0203]... lançons le fort
-    mobile Juggernaut ![pause][\x0203]Le monde va
+    \x02\x07Chef de Zhu Que\x02\x07Et à présent, nous [pause]\x02\x03... lançons le fort
+    mobile Juggernaut ![pause]\x02\x03Le monde va
     s'agenouiller
     devant l'AoA ![pause]
   - |-
-    [\x0207][\x020902]3Je ne vais pas
+    \x02\x07\x02\x09\x023Je ne vais pas
     vous laisser
-    faire ça ![pause][\x0203]Nous empêcherons
+    faire ça ![pause]\x02\x03Nous empêcherons
     le lancement du
     Juggernaut ![pause]
   - |-
-    [\x0207]Chef de Zhu Que[\x0207]Ah ah ! Essaie
-    toujours ![pause][\x0203]Mais tu devras
+    \x02\x07Chef de Zhu Que\x02\x07Ah ah ! Essaie
+    toujours ![pause]\x02\x03Mais tu devras
     d'abord me battre.[pause]

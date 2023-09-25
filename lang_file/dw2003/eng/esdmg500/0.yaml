@@ -1,19 +1,19 @@
 strings:
   - ''
-  - "[\\x0207]Woman[\\x0207]Hey you... \nyou over \nthere![pause]"
+  - "\\x02\\x07Woman\\x02\\x07Hey you... \nyou over \nthere![pause]"
   - |-
-    [\x0207][\x020902]3Uummmm,
+    \x02\x07\x02\x09\x023Uummmm,
     who...me?[pause]
-  - "[\\x0207]Woman[\\x0207]Hi, I'm Lisa.\nNice to meet \nyou![pause][\\x0203]What's your\nname?[pause]"
+  - "\\x02\\x07Woman\\x02\\x07Hi, I'm Lisa.\nNice to meet \nyou![pause]\\x02\\x03What's your\nname?[pause]"
   - |-
-    [\x0207][\x020902]3Oh, um, it's
-    [\x020801][\x020501]...[pause]
-  - "[\\x0207]Lisa[\\x0207][\\x020801][\\x020501], OK, I'll \nremember that.[pause][\\x0203]By the way [\\x020802][\\x020502], \nhave you seen a \ncute green Digimon?[pause]"
-  - "[\\x0207][\\x020902]3Um, ah, is that\nMonmon, or \nTerriermon?[pause]"
-  - "[\\x0207]Lisa[\\x0207]Well...umm, \nI don't know.[pause][\\x0203]What do you \nthink it is\n[\\x020801][\\x020501]?[pause]"
-  - "[\\x0207][\\x020902]3...well...um, \n???[pause]"
-  - "[\\x0207]Lisa[\\x0207]...I know, it's \nOgremon!\nIt has to be![pause][\\x0203]So I just have to go \nlook for Ogremon \nright now![pause]"
+    \x02\x07\x02\x09\x023Oh, um, it's
+    \x02\x08\x01\x02\x05\x01...[pause]
+  - "\\x02\\x07Lisa\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01, OK, I'll \nremember that.[pause]\\x02\\x03By the way \\x02\\x08\\x02\\x02\\x05\\x02, \nhave you seen a \ncute green Digimon?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Um, ah, is that\nMonmon, or \nTerriermon?[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07Well...umm, \nI don't know.[pause]\\x02\\x03What do you \nthink it is\n\\x02\\x08\\x01\\x02\\x05\\x01?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023...well...um, \n???[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07...I know, it's \nOgremon!\nIt has to be![pause]\\x02\\x03So I just have to go \nlook for Ogremon \nright now![pause]"
   - |-
-    [\x0207][\x020902]3Huh, what's up with
+    \x02\x07\x02\x09\x023Huh, what's up with
     her...?[pause]
-  - "[\\x0207]Lisa[\\x0207]Nice talking \nto you,\n[\\x020801][\\x020501].[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07Nice talking \nto you,\n\\x02\\x08\\x01\\x02\\x05\\x01.[pause]"

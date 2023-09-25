@@ -1,8 +1,8 @@
 strings:
   - ''
   - |-
-    [\x0207]Angreifer[\x0207]Ich lass' keinen
+    \x02\x07Angreifer\x02\x07Ich lass' keinen
     durch! Niemand stellt
-    sich in den Weg![pause][\x0203]Unsere schöne Welt
+    sich in den Weg![pause]\x02\x03Unsere schöne Welt
     wird bald zum
     Leben erwachen![pause]

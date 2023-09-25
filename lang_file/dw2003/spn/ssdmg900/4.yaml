@@ -1,26 +1,26 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Así que,\neste es el estadio.[pause][\\x0203]Me pregunto quién\nes mi oponente. \n¡Listo![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Así que,\neste es el estadio.[pause]\\x02\\x03Me pregunto quién\nes mi oponente. \n¡Listo![pause]"
   - |-
-    [\x0207]Kurt[\x0207]¡Oye
-    [\x020801][\x020501]![pause][\x0203]Sabía que
+    \x02\x07Kurt\x02\x07¡Oye
+    \x02\x08\x01\x02\x05\x01![pause]\x02\x03Sabía que
     seguirías.[pause]
   - |-
-    [\x0207][\x020902]3¿Eh?
-    ¿Kurt?[pause][\x0203]¡No me digas
+    \x02\x07\x02\x09\x023¿Eh?
+    ¿Kurt?[pause]\x02\x03¡No me digas
     que eres el
     más fuerte![pause]
   - |-
-    [\x0207]Kurt[\x0207]¡Está bien!
+    \x02\x07Kurt\x02\x07¡Está bien!
     Me alegro de que
-    estés aquí. Siempre[pause][\x0203]quise luchar
+    estés aquí. Siempre[pause]\x02\x03quise luchar
     contigo.[pause]
   - |-
-    [\x0207][\x020902]3¡Opino igual!
+    \x02\x07\x02\x09\x023¡Opino igual!
     No hay un oponente
     más valioso que tú.[pause]
   - |-
-    [\x0207]Kurt[\x0207]¡Ja ja! Voy a
-    gozar de esto.[pause][\x0203]Que empiece la
+    \x02\x07Kurt\x02\x07¡Ja ja! Voy a
+    gozar de esto.[pause]\x02\x03Que empiece la
     diversión. No te
     cortes.[pause]

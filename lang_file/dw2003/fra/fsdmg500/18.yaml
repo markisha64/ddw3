@@ -1,8 +1,8 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Hé Kyukimon.\nJ'ai un service à\nte demander.[pause][\\x0203]Je peux avoir  \nl'ADNN Kotemon\ndepuis ton ADNN ?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hé Kyukimon.\nJ'ai un service à\nte demander.[pause]\\x02\\x03Je peux avoir  \nl'ADNN Kotemon\ndepuis ton ADNN ?[pause]"
   - |-
-    [\x0207]Kyukimon[\x0207]Hé bien....
+    \x02\x07Kyukimon\x02\x07Hé bien....
     Oui, mais à
-    une condition.[pause][\x0203]Tu dois d'abord
+    une condition.[pause]\x02\x03Tu dois d'abord
     me battre.[pause]

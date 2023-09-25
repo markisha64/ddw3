@@ -2,9 +2,9 @@ strings:
   - ''
   - |-
     Ha ha ha ha ha
-    Du Winzling![pause][\x0203]Ich, Lord Megadeath, stehe über
-    dem Warp-Tor![pause][\x0203]Na komm! Stärkster Tamer!
+    Du Winzling![pause]\x02\x03Ich, Lord Megadeath, stehe über
+    dem Warp-Tor![pause]\x02\x03Na komm! Stärkster Tamer!
     Spüre meine Kraft![pause]
   - |-
-    [\x0207][\x020902]3Denkste![pause][\x0203]Alles nur
+    \x02\x07\x02\x09\x023Denkste![pause]\x02\x03Alles nur
     heiβe Luft![pause]

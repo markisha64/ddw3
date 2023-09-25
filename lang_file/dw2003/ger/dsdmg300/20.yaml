@@ -1,15 +1,15 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Hmmm...das Matrix-
+    \x02\x07\x02\x09\x023Hmmm...das Matrix-
     System sollte hier
-    sein...[pause][\x0203]Ich weiβ nicht, wie
+    sein...[pause]\x02\x03Ich weiβ nicht, wie
     ich das System ans
-    Laufen kriegen soll.[pause][\x0203]Gamemaster hat Vemm.
+    Laufen kriegen soll.[pause]\x02\x03Gamemaster hat Vemm.
     von hier geschickt...[pause]
-  - '[\x0207][\x020902]3Was?![pause]'
+  - '\x02\x07\x02\x09\x023Was?![pause]'
   - |-
-    [\x0207][\x020902]3WaWarum ist
-    Vemmon hier?![pause][\x0203]Kann es sein...
+    \x02\x07\x02\x09\x023WaWarum ist
+    Vemmon hier?![pause]\x02\x03Kann es sein...
     Nun, ich werde
     ihnen folgen![pause]

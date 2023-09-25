@@ -1,11 +1,11 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Ho
+    \x02\x07\x02\x09\x023Ho
     vinto![pause]
-  - "[\\x0207]GrapLeomon[\\x0207]Va bene, \nmanterrò la\npromessa.[pause][\\x0203]È il mio\ncodice d'onore[pause]"
+  - "\\x02\\x07GrapLeomon\\x02\\x07Va bene, \nmanterrò la\npromessa.[pause]\\x02\\x03È il mio\ncodice d'onore[pause]"
   - |-
-    [\x0207][\x020902]3HO il DDNA
+    \x02\x07\x02\x09\x023HO il DDNA
     di Kumamon,
-    wow![pause][\x0203]Grazie,
+    wow![pause]\x02\x03Grazie,
     GrapLeomon![pause]

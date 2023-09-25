@@ -1,14 +1,14 @@
 strings:
   - ''
   - |-
-    [\x0207]Chef Suzaku[\x0207]Alors, es-tu
+    \x02\x07Chef Suzaku\x02\x07Alors, es-tu
     prêt à entrer
     dans l'arène ?[pause]
   - |-
-    [\x0207][\x020902]3Oui,
+    \x02\x07\x02\x09\x023Oui,
     bien sûr ![pause]
   - |-
-    [\x0207]Chef de Suzaku[\x0207]Tu m'as l'air bien
-    sûr de toi ![pause][\x0203]Ne me mésestime
+    \x02\x07Chef de Suzaku\x02\x07Tu m'as l'air bien
+    sûr de toi ![pause]\x02\x03Ne me mésestime
     pas parce que je
     suis une fille ![pause]

@@ -1,8 +1,8 @@
 strings:
   - ''
   - |-
-    [\x0207]Dresseur Pierre[\x0207]Soyez courageux
+    \x02\x07Dresseur Pierre\x02\x07Soyez courageux
     durant ce périple.
-    Il me tarde [pause][\x0203]d'assister à votre
+    Il me tarde [pause]\x02\x03d'assister à votre
     duel contre le Roi.
     Au Revoir ![pause]

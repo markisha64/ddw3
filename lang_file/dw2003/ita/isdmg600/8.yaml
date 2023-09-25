@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Non posso
+    \x02\x07\x02\x09\x023Non posso
     stare molto[pause]
   - |-
-    [\x0207]WarGrowlmon N[\x0207]Lo so.
+    \x02\x07WarGrowlmon N\x02\x07Lo so.
     Solo un po'.
     Una battaglia![pause]
   - |-
-    [\x0207][\x020902]3Oh, va bene.
+    \x02\x07\x02\x09\x023Oh, va bene.
     Ma non avrò
     pietà![pause]
   - |-
-    [\x0207]WarGrowlmon N[\x0207]Battuta mia![pause][\x0203]Non combatto
+    \x02\x07WarGrowlmon N\x02\x07Battuta mia![pause]\x02\x03Non combatto
     da parecchio
     tempo![pause]

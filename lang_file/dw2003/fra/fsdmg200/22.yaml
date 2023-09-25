@@ -1,22 +1,22 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Gagné !
+    \x02\x07\x02\x09\x023Gagné !
     Alors ?[pause]
   - |-
-    [\x0207]Keith[\x0207]Ha ! J'ai été
+    \x02\x07Keith\x02\x07Ha ! J'ai été
     gentil avec toi.[pause]
   - |-
-    [\x0207][\x020902]3Je croyais que
+    \x02\x07\x02\x09\x023Je croyais que
     tu n'allais pas
     retenir tes coups.[pause]
   - |-
-    [\x0207]Keith[\x0207]Je ne sais pas
-    de quoi tu parles ![pause][\x0203]Fais attention. Je
+    \x02\x07Keith\x02\x07Je ne sais pas
+    de quoi tu parles ![pause]\x02\x03Fais attention. Je
     ne te raterai pas
-    la prochaine fois ! [pause][\x0203]Ne m'oublie pas !
+    la prochaine fois ! [pause]\x02\x03Ne m'oublie pas !
     Ciao, minable ![pause]
   - |-
-    [\x0207][\x020902]3Peuh !
+    \x02\x07\x02\x09\x023Peuh !
     C'est lui le
     minable ![pause]

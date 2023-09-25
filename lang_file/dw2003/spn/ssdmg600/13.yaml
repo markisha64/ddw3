@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207]¿Ciudada. Byakko?[\x0207]¡Je je je!
+    \x02\x07¿Ciudada. Byakko?\x02\x07¡Je je je!
     ¡Te hemos estado
-    esperando![pause][\x0203]¡Ven a luchar con
+    esperando![pause]\x02\x03¡Ven a luchar con
     nuestro líder![pause]

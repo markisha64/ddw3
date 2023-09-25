@@ -1,22 +1,22 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Ma dove?
+    \x02\x07\x02\x09\x023Ma dove?
     Dove?[pause]
   - |-
-    [\x0207]Patamon[\x0207]Io non lo so.[pause][\x0203]Ma ho udito uno
+    \x02\x07Patamon\x02\x07Io non lo so.[pause]\x02\x03Ma ho udito uno
     strano suono venire
     dalla giungla.[pause]
   - |-
-    [\x0207][\x020902]3Strano
+    \x02\x07\x02\x09\x023Strano
     suono?[pause]
   - |-
-    [\x0207]Patamon[\x0207]Si, come un Digimon
+    \x02\x07Patamon\x02\x07Si, come un Digimon
     o una macchina! Uno
-    strano suono![pause][\x0203]La governatrice l'ha
-    udito ed è scappata.[pause][\x0203]Forse anche lei
+    strano suono![pause]\x02\x03La governatrice l'ha
+    udito ed è scappata.[pause]\x02\x03Forse anche lei
     è andata verso
     la giungla![pause]
   - |-
-    [\x0207][\x020902]3Capisco.
+    \x02\x07\x02\x09\x023Capisco.
     Beh, grazie![pause]

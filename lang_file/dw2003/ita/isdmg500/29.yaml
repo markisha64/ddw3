@@ -1,62 +1,62 @@
 strings:
   - ''
   - |-
-    [\x0207]Gov. di Suzaku[\x0207]Oh, no, no!
+    \x02\x07Gov. di Suzaku\x02\x07Oh, no, no!
     Tu di qui
-    non passi.[pause][\x0203]Guarda, vedi
+    non passi.[pause]\x02\x03Guarda, vedi
     quello?[pause]
   - |-
-    [\x0207][\x020902]3E che
+    \x02\x07\x02\x09\x023E che
     cos'è?[pause]
   - |-
-    [\x0207]Governat. di Suzaku[\x0207]Buco di sicurezza!
+    \x02\x07Governat. di Suzaku\x02\x07Buco di sicurezza!
     Come un buco
-    nella rete.[pause][\x0203]Dev'essere
+    nella rete.[pause]\x02\x03Dev'essere
     la causa del
     terremoto.[pause]
   - |-
-    [\x0207][\x020902]3Quella voce viene
-    dalla gondola.[pause][\x0203]Ci sono! È
+    \x02\x07\x02\x09\x023Quella voce viene
+    dalla gondola.[pause]\x02\x03Ci sono! È
     Bulbmon![pause]
   - |-
-    [\x0207]Governat. di Suzaku[\x0207]Ti ripeto: non puoi
-    andare![pause][\x0203]Non sai cosa
+    \x02\x07Governat. di Suzaku\x02\x07Ti ripeto: non puoi
+    andare![pause]\x02\x03Non sai cosa
     succederà. È
-    pericoloso![pause][\x0203]Come governatrice del
+    pericoloso![pause]\x02\x03Come governatrice del
     Settore Sud, devo
     proteggerti![pause]
   - |-
-    [\x0207][\x020902]3Oh, avanti! Ci
+    \x02\x07\x02\x09\x023Oh, avanti! Ci
     devo proprio
-    andare![pause][\x0203]Hai sentito
-    dell'A.o.A?[pause][\x0203]Qualcuno deve
+    andare![pause]\x02\x03Hai sentito
+    dell'A.o.A?[pause]\x02\x03Qualcuno deve
     andare, o sarà
     sempre peggio![pause]
   - |-
-    [\x0207]Gov. Suzaku[\x0207]Se la metti
+    \x02\x07Gov. Suzaku\x02\x07Se la metti
     così...[pause]
   - |-
-    [\x0207]Gov. di Suzaku[\x0207]Oh, va bene![pause][\x0203]Ma se è troppo
+    \x02\x07Gov. di Suzaku\x02\x07Oh, va bene![pause]\x02\x03Ma se è troppo
     pericoloso,
     torna! OK?[pause]
   - |-
-    [\x0207][\x020902]3Quattro stemmi
-    dei governatori?[pause][\x0203]Grazie mille,
+    \x02\x07\x02\x09\x023Quattro stemmi
+    dei governatori?[pause]\x02\x03Grazie mille,
     governatrice
     di Suzaku![pause]
   - |-
-    [\x0207][\x020902]3Forse se entro
+    \x02\x07\x02\x09\x023Forse se entro
     nel buco troverò il
     server Amaterasu?[pause]
   - |-
-    [\x0207][\x020902]3Ehi, governatrice,
-    ho una domanda![pause][\x0203]Sai dove si trova
+    \x02\x07\x02\x09\x023Ehi, governatrice,
+    ho una domanda![pause]\x02\x03Sai dove si trova
     la camera d'emergenza
     nel Settore Nord?[pause]
   - |-
-    [\x0207]Gov. di Suzaku[\x0207]Intendi la camera di
+    \x02\x07Gov. di Suzaku\x02\x07Intendi la camera di
     emergenza della
-    Matrice?[pause][\x0203]Si trova in fondo
-    alla Miniera Kulon.[pause][\x0203]Ma devi avere
+    Matrice?[pause]\x02\x03Si trova in fondo
+    alla Miniera Kulon.[pause]\x02\x03Ma devi avere
     i quattro stemmi
     per usarlo.[pause]

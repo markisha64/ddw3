@@ -1,40 +1,40 @@
 strings:
   - ''
   - |-
-    [\x0207]Oficial jefe[\x0207]Eh, espera. ¡Me
-    rindo![pause][\x0203]Eres muy fuerte...
+    \x02\x07Oficial jefe\x02\x07Eh, espera. ¡Me
+    rindo![pause]\x02\x03Eres muy fuerte...
     Me pregunto quién
     ganará, tú o él...[pause]
-  - '[\x0207][\x020902]3¿Qué?[pause]'
-  - "[\\x0207]Nick[\\x0207]...Presidente de \nMAGAMI.\n¡Queda arrestado![pause]"
-  - "[\\x0207]Oficial jefe[\\x0207]De acuerdo.\nCreo que he \ntenido bastante...[pause][\\x0203]La próxima vez\nlo haré solo.[pause]"
-  - "[\\x0207]Lisa[\\x0207]Oh, ¡qué \nobediente![pause][\\x0203]Pero hay algo\nmás...[pause]"
+  - '\x02\x07\x02\x09\x023¿Qué?[pause]'
+  - "\\x02\\x07Nick\\x02\\x07...Presidente de \nMAGAMI.\n¡Queda arrestado![pause]"
+  - "\\x02\\x07Oficial jefe\\x02\\x07De acuerdo.\nCreo que he \ntenido bastante...[pause]\\x02\\x03La próxima vez\nlo haré solo.[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07Oh, ¡qué \nobediente![pause]\\x02\\x03Pero hay algo\nmás...[pause]"
   - |-
-    [\x0207]Oficial jefe[\x0207]¿Destromon?
+    \x02\x07Oficial jefe\x02\x07¿Destromon?
     Podéis pararlo
     con esa máquina.[pause]
   - |-
-    [\x0207]Lisa[\x0207]¡De acuerdo!
-    Yo lo interrogaré...[pause][\x0203]¡Y vosotros id a
+    \x02\x07Lisa\x02\x07¡De acuerdo!
+    Yo lo interrogaré...[pause]\x02\x03¡Y vosotros id a
     parar a Destromon![pause]
-  - '[\x0207]Teddy[\x0207]¡Recibido![pause]'
-  - '[\x0207]Nick[\x0207]¡Entendido![pause]'
+  - '\x02\x07Teddy\x02\x07¡Recibido![pause]'
+  - '\x02\x07Nick\x02\x07¡Entendido![pause]'
   - |-
-    [\x0207][\x020902]3Teddy, ¿tú sabes
+    \x02\x07\x02\x09\x023Teddy, ¿tú sabes
     cómo?[pause]
-  - "[\\x0207]Teddy[\\x0207]¡Eh.. Eh..!\nBueno, casi...[pause][\\x0203]¡El sistema es el\nmismo que el \nServidor Asuka![pause]"
-  - "[\\x0207]Nick[\\x0207]¡Eh, Teddy!\n¡Deprisa![pause][\\x0203]¡Destromon va a \naterrizar en una\nciudad![pause]"
-  - '[\x0207]Teddy[\x0207]¡Sin empujar![pause]'
+  - "\\x02\\x07Teddy\\x02\\x07¡Eh.. Eh..!\nBueno, casi...[pause]\\x02\\x03¡El sistema es el\nmismo que el \nServidor Asuka![pause]"
+  - "\\x02\\x07Nick\\x02\\x07¡Eh, Teddy!\n¡Deprisa![pause]\\x02\\x03¡Destromon va a \naterrizar en una\nciudad![pause]"
+  - '\x02\x07Teddy\x02\x07¡Sin empujar![pause]'
   - |-
-    [\x0207][\x020902]3Venga...
+    \x02\x07\x02\x09\x023Venga...
     ¡No queda
     tiempo![pause]
   - |-
-    [\x0207][\x020902]3¡Oíd
+    \x02\x07\x02\x09\x023¡Oíd
     todos![pause]
-  - "[\\x0207]Nick[\\x0207]Teddy, \ncalla y\ntrabaja.[pause]"
+  - "\\x02\\x07Nick\\x02\\x07Teddy, \ncalla y\ntrabaja.[pause]"
   - |-
-    [\x0207]Lisa[\x0207]Entrégate.[pause][\x0203]Tenemos a toda
+    \x02\x07Lisa\x02\x07Entrégate.[pause]\x02\x03Tenemos a toda
     la A.o.A menos
     a ti.[pause]
-  - '[\x0207]Teddy[\x0207]¡Sí![pause]'
+  - '\x02\x07Teddy\x02\x07¡Sí![pause]'

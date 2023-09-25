@@ -1,8 +1,8 @@
 strings:
   - ''
   - |-
-    [\x0207]Divermon[\x0207]Dimmi cosa c'è
+    \x02\x07Divermon\x02\x07Dimmi cosa c'è
     di sbagliato
-    qui![pause][\x0203]Ooh?
+    qui![pause]\x02\x03Ooh?
     Ho capito!
     Ora vincerò![pause]

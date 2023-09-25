@@ -1,41 +1,41 @@
 strings:
   - ''
   - |-
-    [\x0207]Commandant[\x0207]...attends, je vais
-    me rendre  ![pause][\x0203]Tu es très fort...[pause][\x0203]Qui gagnerait...
+    \x02\x07Commandant\x02\x07...attends, je vais
+    me rendre  ![pause]\x02\x03Tu es très fort...[pause]\x02\x03Qui gagnerait...
     Toi ou lui... ?[pause]
-  - '[\x0207][\x020902]3Quoi ?[pause]'
-  - "[\\x0207]Nick[\\x0207]M. le Président de\nMAGAMI, je vous \narrête  ![pause]"
-  - "[\\x0207]Commandant [\\x0207]Très bien. Je \ncrois que j'ai \nmon compte.[pause][\\x0203]Je jouerai\ntout seul la\nprochaine fois.[pause]"
+  - '\x02\x07\x02\x09\x023Quoi ?[pause]'
+  - "\\x02\\x07Nick\\x02\\x07M. le Président de\nMAGAMI, je vous \narrête  ![pause]"
+  - "\\x02\\x07Commandant \\x02\\x07Très bien. Je \ncrois que j'ai \nmon compte.[pause]\\x02\\x03Je jouerai\ntout seul la\nprochaine fois.[pause]"
   - |-
-    [\x0207]Lisa[\x0207]Il est plutôt
-    obéissant.[pause][\x0203]Mais il reste...[pause]
+    \x02\x07Lisa\x02\x07Il est plutôt
+    obéissant.[pause]\x02\x03Mais il reste...[pause]
   - |-
-    [\x0207]Commandant[\x0207]Destromon ? Tu
+    \x02\x07Commandant\x02\x07Destromon ? Tu
     peux l'arrêter
     avec la machine.[pause]
-  - "[\\x0207]Lisa[\\x0207]OK, très bien  !\nJe vais l'interroger.[pause][\\x0203]Et vous, arrêtez \nDestromon  ![pause]"
-  - '[\x0207]Teddy[\x0207]Bien  ![pause]'
-  - '[\x0207]Nick[\x0207]En-entendu  ![pause]'
+  - "\\x02\\x07Lisa\\x02\\x07OK, très bien  !\nJe vais l'interroger.[pause]\\x02\\x03Et vous, arrêtez \nDestromon  ![pause]"
+  - '\x02\x07Teddy\x02\x07Bien  ![pause]'
+  - '\x02\x07Nick\x02\x07En-entendu  ![pause]'
   - |-
-    [\x0207][\x020902]3Teddy, tu sais
+    \x02\x07\x02\x09\x023Teddy, tu sais
     comment faire ?[pause]
-  - "[\\x0207]Teddy[\\x0207]Hé, hé !\nEn gros...[pause][\\x0203]C'est le même système \nque l'ordinateur du \nserveur d'Asuka ![pause]"
-  - "[\\x0207]Nick[\\x0207]Hé, Teddy, \ndépêche-toi  ![pause][\\x0203]Destromon va \natterrir sur \nune ville  ![pause]"
+  - "\\x02\\x07Teddy\\x02\\x07Hé, hé !\nEn gros...[pause]\\x02\\x03C'est le même système \nque l'ordinateur du \nserveur d'Asuka ![pause]"
+  - "\\x02\\x07Nick\\x02\\x07Hé, Teddy, \ndépêche-toi  ![pause]\\x02\\x03Destromon va \natterrir sur \nune ville  ![pause]"
   - |-
-    [\x0207]Teddy[\x0207]Une
+    \x02\x07Teddy\x02\x07Une
     minute  ![pause]
   - |-
-    [\x0207][\x020902]3Allons,
+    \x02\x07\x02\x09\x023Allons,
     fais un
     effort ![pause]
   - |-
-    [\x0207][\x020902]3Vous
+    \x02\x07\x02\x09\x023Vous
     voilà ![pause]
-  - "[\\x0207]Nick[\\x0207]Assez \nparlé,\nTeddy ![pause]"
+  - "\\x02\\x07Nick\\x02\\x07Assez \nparlé,\nTeddy ![pause]"
   - |-
-    [\x0207]Lisa[\x0207]Rends-toi
-    à présent.[pause][\x0203]Tous les autres
+    \x02\x07Lisa\x02\x07Rends-toi
+    à présent.[pause]\x02\x03Tous les autres
     membres de l'AoA
     ont été arrêtés ![pause]
-  - '[\x0207]Teddy[\x0207]Oui  ![pause]'
+  - '\x02\x07Teddy\x02\x07Oui  ![pause]'

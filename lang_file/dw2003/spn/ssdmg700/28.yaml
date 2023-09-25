@@ -2,12 +2,12 @@ strings:
   - ''
   - |-
     180 SEGUNDOS TERMINADOS
-    180 SEGUNDOS TERMINADOS[pause][\x0203]LA TRANSFERENCIA HA
+    180 SEGUNDOS TERMINADOS[pause]\x02\x03LA TRANSFERENCIA HA
     LLEGADO AL LÍMITE.
     ¡FORZANDO DIGITALIZACIÓN![pause]
   - |-
-    [\x0207]Oficial de Cámara[\x0207]Dispositivo Astral
+    \x02\x07Oficial de Cámara\x02\x07Dispositivo Astral
     correcto. Datos
-    normales.[pause][\x0203]¡Terminando digitali.![pause]
-  - "[\\x0207][\\x020902]3Oh... Se \nacabó el tiempo\ny he vuelto.[pause]"
-  - "[\\x0207][\\x020902]3¿Qué hago?\n¡Van a lanzar el \nJuggernaut![pause]"
+    normales.[pause]\x02\x03¡Terminando digitali.![pause]
+  - "\\x02\\x07\\x02\\x09\\x023Oh... Se \nacabó el tiempo\ny he vuelto.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¿Qué hago?\n¡Van a lanzar el \nJuggernaut![pause]"

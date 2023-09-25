@@ -1,6 +1,6 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3¡Ah, sí! ¡Necesito
+    \x02\x07\x02\x09\x023¡Ah, sí! ¡Necesito
     los datos de mi
     Digimon![pause]

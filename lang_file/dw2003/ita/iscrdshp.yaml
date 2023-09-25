@@ -11,7 +11,7 @@ strings:
   - /
   - L1
   - R1
-  - '[\x020501] BIT'
+  - '\x02\x05\x01 BIT'
   - COM
   - NO
   - Quale pacco apri?

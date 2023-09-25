@@ -1,19 +1,19 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Eh? Chi
+    \x02\x07\x02\x09\x023Eh? Chi
     comanda qui?
     Dove sono tutti?[pause]
   - |-
     Bip Bip.
     ACCENSIONE.
     RIAVVIO![pause]
-  - "[\\x0207][\\x020902]3Eh, \ncosa?![pause]"
-  - "SONO IL SISTEMA OPERATIVO \nDELLA GONDOLA DEL CREPACCIO.[pause][\\x0203]PER ATTIVARE LA GONDOLA\nDIRETTA AL SETTORE SUD...[pause][\\x0203]È RICHIESTO UN ACCOUNT CON\nUNA CARTA BLU.[pause][\\x0203]CE L'HANNO I DIGIMON NATI DA\nUNA CARTA BLU: PRENDILA\nDA QUEI DIGIMON.[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Eh, \ncosa?![pause]"
+  - "SONO IL SISTEMA OPERATIVO \nDELLA GONDOLA DEL CREPACCIO.[pause]\\x02\\x03PER ATTIVARE LA GONDOLA\nDIRETTA AL SETTORE SUD...[pause]\\x02\\x03È RICHIESTO UN ACCOUNT CON\nUNA CARTA BLU.[pause]\\x02\\x03CE L'HANNO I DIGIMON NATI DA\nUNA CARTA BLU: PRENDILA\nDA QUEI DIGIMON.[pause]"
   - |-
-    [\x0207][\x020902]3Mmm, Digimon
+    \x02\x07\x02\x09\x023Mmm, Digimon
     nati da una carta
-    blu...[pause][\x0203]Mmm, forse
-    Guilmon...[pause][\x0203]Dovrei chiedere
+    blu...[pause]\x02\x03Mmm, forse
+    Guilmon...[pause]\x02\x03Dovrei chiedere
     a Guilmon
     in città.[pause]

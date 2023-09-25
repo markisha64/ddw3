@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3¿Eh?
+    \x02\x07\x02\x09\x023¿Eh?
     No hay nadie
     aquí...[pause]
-  - "Soy Lord Megadeath, el \ndestructor del Mundo Real y\nel Mundo Digital.[pause][\\x0203]Y el ser que será dios\nen el nuevo mundo después\nde destruirlo todo...[pause][\\x0203]Ahora, ven a mí...\nEl domador más fuerte...[pause][\\x0203]¡Espero tu llegada en\nel satélite militar\nGunslinger![pause]"
+  - "Soy Lord Megadeath, el \ndestructor del Mundo Real y\nel Mundo Digital.[pause]\\x02\\x03Y el ser que será dios\nen el nuevo mundo después\nde destruirlo todo...[pause]\\x02\\x03Ahora, ven a mí...\nEl domador más fuerte...[pause]\\x02\\x03¡Espero tu llegada en\nel satélite militar\nGunslinger![pause]"
   - |-
-    [\x0207][\x020902]3¿Qué?
+    \x02\x07\x02\x09\x023¿Qué?
     ¿Gunslinger?[pause]
   - |-
     Sí, te enseñaré la
     imponente figura flotando
     en el espacio...[pause]
   - |-
-    [\x0207][\x020902]3¡¿Qu-
+    \x02\x07\x02\x09\x023¡¿Qu-
     Qué?![pause]

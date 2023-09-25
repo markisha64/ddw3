@@ -1,30 +1,30 @@
 strings:
   - ''
-  - "[\\x0207]Chief Officer[\\x0207]...hey wait, I'll\nturn myself in![pause][\\x0203]You're really\nstrong...[pause][\\x0203]I wonder who would \nwin... you or him...[pause]"
-  - '[\x0207][\x020902]3...what?[pause]'
-  - "[\\x0207]Nick[\\x0207]...President of \nMAGAMI, I'm putting\nyou under arrest![pause]"
+  - "\\x02\\x07Chief Officer\\x02\\x07...hey wait, I'll\nturn myself in![pause]\\x02\\x03You're really\nstrong...[pause]\\x02\\x03I wonder who would \nwin... you or him...[pause]"
+  - '\x02\x07\x02\x09\x023...what?[pause]'
+  - "\\x02\\x07Nick\\x02\\x07...President of \nMAGAMI, I'm putting\nyou under arrest![pause]"
   - |-
-    [\x0207]Chief Officer[\x0207]...alright.
+    \x02\x07Chief Officer\x02\x07...alright.
     I think I've
-    had enough.[pause][\x0203]Next time,
+    had enough.[pause]\x02\x03Next time,
     I'll play for
     myself.[pause]
   - |-
-    [\x0207]Lisa[\x0207]Oh, he's rather
-    obedient.[pause][\x0203]But there's one
+    \x02\x07Lisa\x02\x07Oh, he's rather
+    obedient.[pause]\x02\x03But there's one
     more thing...[pause]
-  - "[\\x0207]Chief Officer[\\x0207]Destromon?\nYou can stop it \nwith that machine.[pause]"
-  - "[\\x0207]Lisa[\\x0207]OK, then!\nI'll interrogate him...[pause][\\x0203]And you guys go \nstop Destromon![pause]"
-  - '[\x0207]Teddy[\x0207]Yes sir![pause]'
-  - "[\\x0207]Nick[\\x0207]Ro-roger \nthat![pause]"
-  - "[\\x0207][\\x020902]3...Teddy, you \nknow how?[pause]"
-  - "[\\x0207]Teddy[\\x0207]Heh heh!\nWell most of it...[pause][\\x0203]The system is the same \nas Asuka Server's\ncomputer![pause]"
-  - "[\\x0207]Nick[\\x0207]Hey, Teddy\nhurry up![pause][\\x0203]Destromon's \ngonna land on a\ncity![pause]"
+  - "\\x02\\x07Chief Officer\\x02\\x07Destromon?\nYou can stop it \nwith that machine.[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07OK, then!\nI'll interrogate him...[pause]\\x02\\x03And you guys go \nstop Destromon![pause]"
+  - '\x02\x07Teddy\x02\x07Yes sir![pause]'
+  - "\\x02\\x07Nick\\x02\\x07Ro-roger \nthat![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023...Teddy, you \nknow how?[pause]"
+  - "\\x02\\x07Teddy\\x02\\x07Heh heh!\nWell most of it...[pause]\\x02\\x03The system is the same \nas Asuka Server's\ncomputer![pause]"
+  - "\\x02\\x07Nick\\x02\\x07Hey, Teddy\nhurry up![pause]\\x02\\x03Destromon's \ngonna land on a\ncity![pause]"
   - |-
-    [\x0207]Teddy[\x0207]Hold your
+    \x02\x07Teddy\x02\x07Hold your
     horses![pause]
-  - "[\\x0207][\\x020902]3...Come on, \nplease be \nin time![pause]"
-  - "[\\x0207][\\x020902]3...hey, \neveryone![pause]"
-  - "[\\x0207]Nick[\\x0207]Teddy, \nless talk,\nmore work.[pause]"
-  - "[\\x0207]Lisa[\\x0207]Just give \nyourself up.[pause][\\x0203]We got every one \nof the A.o.A \nexcept you.[pause]"
-  - '[\x0207]Teddy[\x0207]Yes![pause]'
+  - "\\x02\\x07\\x02\\x09\\x023...Come on, \nplease be \nin time![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023...hey, \neveryone![pause]"
+  - "\\x02\\x07Nick\\x02\\x07Teddy, \nless talk,\nmore work.[pause]"
+  - "\\x02\\x07Lisa\\x02\\x07Just give \nyourself up.[pause]\\x02\\x03We got every one \nof the A.o.A \nexcept you.[pause]"
+  - '\x02\x07Teddy\x02\x07Yes![pause]'

@@ -1,3 +1,3 @@
 strings:
   - ''
-  - "[\\x0207]Tech Savy Seiya[\\x0207]Oi ? \nOioio......\n.......[pause]"
+  - "\\x02\\x07Tech Savy Seiya\\x02\\x07Oi ? \nOioio......\n.......[pause]"

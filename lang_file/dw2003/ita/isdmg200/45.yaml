@@ -1,8 +1,8 @@
 strings:
   - ''
   - |-
-    [\x0207]Smith jr.[\x0207]Hai l'ID
+    \x02\x07Smith jr.\x02\x07Hai l'ID
     El Dorado,
-    vedo.[pause][\x0203]Allora puoi
+    vedo.[pause]\x02\x03Allora puoi
     proseguire.
     Vai.[pause]

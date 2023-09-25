@@ -1,8 +1,8 @@
 strings:
   - ''
-  - "[\\x0207]DO Guard[\\x0207]Sorry, \nonly authorized \npersonnel beyond...[pause][\\x0203]...what, \na Digimon again?![pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07Sorry, \nonly authorized \npersonnel beyond...[pause]\\x02\\x03...what, \na Digimon again?![pause]"
   - |-
-    [\x0207][\x020902]3Umm, yeah.
+    \x02\x07\x02\x09\x023Umm, yeah.
     ...I'm...
     ...a lost Digimon![pause]
-  - "[\\x0207]DO Guard[\\x0207]First that pink \nAgumon and now \nyou...[pause][\\x0203]You can pass, but\ndon't be getting in\neveryone's way.[pause]"
+  - "\\x02\\x07DO Guard\\x02\\x07First that pink \nAgumon and now \nyou...[pause]\\x02\\x03You can pass, but\ndon't be getting in\neveryone's way.[pause]"

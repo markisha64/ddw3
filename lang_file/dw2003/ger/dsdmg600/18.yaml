@@ -1,33 +1,33 @@
 strings:
   - ''
   - |-
-    [\x0207]Byakko Leader[\x0207]Oh, ver-
-    stehe.[pause][\x0203]Verzeih, dass
+    \x02\x07Byakko Leader\x02\x07Oh, ver-
+    stehe.[pause]\x02\x03Verzeih, dass
     ich dich für d.
     A.o.A. hielt.[pause]
-  - "[\\x0207][\\x020902]3Schon in Ordnung...[pause][\\x0203]Aber heiβt das, dass \ndie Leute in Byakko \nCity die ...?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Schon in Ordnung...[pause]\\x02\\x03Aber heiβt das, dass \ndie Leute in Byakko \nCity die ...?[pause]"
   - |-
-    [\x0207]Byakko Leader[\x0207]Ja. Das sind die
-    A.o.A![pause][\x0203]Sie haben einfach
-    Byakko City besetzt![pause][\x0203]Wir wurden ins Keller-
-    gefängnis gesperrt...[pause][\x0203]Aber Numemon hat
+    \x02\x07Byakko Leader\x02\x07Ja. Das sind die
+    A.o.A![pause]\x02\x03Sie haben einfach
+    Byakko City besetzt![pause]\x02\x03Wir wurden ins Keller-
+    gefängnis gesperrt...[pause]\x02\x03Aber Numemon hat
     uns gerettet.[pause]
   - |-
-    [\x0207][\x020902]3Verstehe...
+    \x02\x07\x02\x09\x023Verstehe...
     Aber die A.o.A. und
-    Lucky Mouse...[pause][\x0203]Und was passiert
+    Lucky Mouse...[pause]\x02\x03Und was passiert
     mit Digimon-Online?[pause]
-  - "[\\x0207]Byakko Leader[\\x0207]Das weiβ ich nicht.[pause][\\x0203]Von diesem Numemon \nkannst du mehr \nerfahren.[pause][\\x0203]Du findest ihn in der\nDum Dum-Fabrik.[pause]"
-  - '[\x0207][\x020902]3OK![pause]'
-  - "[\\x0207]Byakko Leader[\\x0207]Warte mal.\nIch habe noch \netwas vergessen![pause]"
+  - "\\x02\\x07Byakko Leader\\x02\\x07Das weiβ ich nicht.[pause]\\x02\\x03Von diesem Numemon \nkannst du mehr \nerfahren.[pause]\\x02\\x03Du findest ihn in der\nDum Dum-Fabrik.[pause]"
+  - '\x02\x07\x02\x09\x023OK![pause]'
+  - "\\x02\\x07Byakko Leader\\x02\\x07Warte mal.\nIch habe noch \netwas vergessen![pause]"
   - |-
-    [\x0207][\x020902]3Klasse! Das
-    Byakko-Abzei.![pause][\x0203]Danke, Byakko
+    \x02\x07\x02\x09\x023Klasse! Das
+    Byakko-Abzei.![pause]\x02\x03Danke, Byakko
     Leader![pause]
   - |-
-    [\x0207]Byakko Leader[\x0207]Schlieβlich hast
-    du mich besiegt![pause][\x0203]Es kann dir später
+    \x02\x07Byakko Leader\x02\x07Schlieβlich hast
+    du mich besiegt![pause]\x02\x03Es kann dir später
     noch nützlich sein![pause]
   - |-
-    [\x0207]Byakko Leader[\x0207]Es gibt noch mehr
+    \x02\x07Byakko Leader\x02\x07Es gibt noch mehr
     A.o.A. Pass auf![pause]

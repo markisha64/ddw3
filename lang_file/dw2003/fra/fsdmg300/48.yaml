@@ -1,3 +1,3 @@
 strings:
   - ''
-  - "[\\x0207]MetalEtemon[\\x0207]Tu es assez \nfort pour me \nbattre ![pause][\\x0203]Bien sûr, avec\nun meilleur dossier, \nça sera différent ![pause]"
+  - "\\x02\\x07MetalEtemon\\x02\\x07Tu es assez \nfort pour me \nbattre ![pause]\\x02\\x03Bien sûr, avec\nun meilleur dossier, \nça sera différent ![pause]"

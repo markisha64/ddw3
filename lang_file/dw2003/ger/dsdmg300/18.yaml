@@ -1,62 +1,62 @@
 strings:
   - ''
   - |-
-    [\x0207]Chief Officer[\x0207]...hey warte, ich
-    stelle mich![pause][\x0203]Du bist wirklich
-    stark...[pause][\x0203]Ich frage mich, wer
+    \x02\x07Chief Officer\x02\x07...hey warte, ich
+    stelle mich![pause]\x02\x03Du bist wirklich
+    stark...[pause]\x02\x03Ich frage mich, wer
     gewinnt...du oder er[pause]
-  - '[\x0207][\x020902]3...was?[pause]'
+  - '\x02\x07\x02\x09\x023...was?[pause]'
   - |-
-    [\x0207]Nick[\x0207]...Präsident von
+    \x02\x07Nick\x02\x07...Präsident von
     MAGAMI, ich nehme
     dich fest![pause]
   - |-
-    [\x0207]Chief Officer[\x0207]..in Ordnung.
+    \x02\x07Chief Officer\x02\x07..in Ordnung.
     Ich glaub, ich
-    hab genug.[pause][\x0203]Beim nächsten
+    hab genug.[pause]\x02\x03Beim nächsten
     Mal spiele ich
     selber.[pause]
   - |-
-    [\x0207]Lisa[\x0207]Oh, er ist
-    ja gehorsam.[pause][\x0203]Aber da ist noch
+    \x02\x07Lisa\x02\x07Oh, er ist
+    ja gehorsam.[pause]\x02\x03Aber da ist noch
     eine Sache...[pause]
   - |-
-    [\x0207]Chief Officer[\x0207]Destromon? Diese
+    \x02\x07Chief Officer\x02\x07Destromon? Diese
     Maschine kann es
     nicht stoppen.[pause]
   - |-
-    [\x0207]Lisa[\x0207]OK, also dann!
-    Ich verhöre ihn...[pause][\x0203]Und ihr haltet
+    \x02\x07Lisa\x02\x07OK, also dann!
+    Ich verhöre ihn...[pause]\x02\x03Und ihr haltet
     Destromon auf![pause]
-  - '[\x0207]Teddy[\x0207]Yes Sir![pause]'
-  - '[\x0207]Nick[\x0207]In Ordnung![pause]'
+  - '\x02\x07Teddy\x02\x07Yes Sir![pause]'
+  - '\x02\x07Nick\x02\x07In Ordnung![pause]'
   - |-
-    [\x0207][\x020902]3...Teddy, weiβt
+    \x02\x07\x02\x09\x023...Teddy, weiβt
     du wie?[pause]
   - |-
-    [\x0207]Teddy[\x0207]Heh heh![pause][\x0203]Nun, ich denke...[pause][\x0203]Das System ist wie
+    \x02\x07Teddy\x02\x07Heh heh![pause]\x02\x03Nun, ich denke...[pause]\x02\x03Das System ist wie
     der Computer von
     Asuka-Server![pause]
   - |-
-    [\x0207]Nick[\x0207]Hey, Teddy
-    beeil dich![pause][\x0203]Destromon landet
+    \x02\x07Nick\x02\x07Hey, Teddy
+    beeil dich![pause]\x02\x03Destromon landet
     auf einer Stadt![pause]
   - |-
-    [\x0207]Teddy[\x0207]Immer mit
+    \x02\x07Teddy\x02\x07Immer mit
     der Ruhe![pause]
   - |-
-    [\x0207][\x020902]3...sei
+    \x02\x07\x02\x09\x023...sei
     bitte
     pünktlich![pause]
   - |-
-    [\x0207][\x020902]3...hey,
+    \x02\x07\x02\x09\x023...hey,
     zusammen![pause]
   - |-
-    [\x0207]Nick[\x0207]Teddy,
+    \x02\x07Nick\x02\x07Teddy,
     red nich,
     tu was.[pause]
   - |-
-    [\x0207]Lisa[\x0207]Gib auf.[pause][\x0203]Wir haben alle
+    \x02\x07Lisa\x02\x07Gib auf.[pause]\x02\x03Wir haben alle
     v. den A.o.A.,
     bis auf dich.[pause]
-  - '[\x0207]Teddy[\x0207]Ja![pause]'
+  - '\x02\x07Teddy\x02\x07Ja![pause]'

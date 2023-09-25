@@ -1,27 +1,27 @@
 strings:
   - ''
   - |-
-    [\x0207]Kail[\x0207]Gamemaster!
+    \x02\x07Kail\x02\x07Gamemaster!
     Verstecken![pause]
-  - "[\\x0207]Gamemaster[\\x0207]Um Himmels wil-\nlen, was macht \nihr denn hier?![pause][\\x0203]Wir können nicht\nweitermachen![pause]"
-  - "[\\x0207]???[\\x0207]...Verzeihung.\nWir intensivieren \nunsere Suche.[pause]"
+  - "\\x02\\x07Gamemaster\\x02\\x07Um Himmels wil-\nlen, was macht \nihr denn hier?![pause]\\x02\\x03Wir können nicht\nweitermachen![pause]"
+  - "\\x02\\x07???\\x02\\x07...Verzeihung.\nWir intensivieren \nunsere Suche.[pause]"
   - |-
-    [\x0207]DO-Wache[\x0207]Wir werden ihn finden.
+    \x02\x07DO-Wache\x02\x07Wir werden ihn finden.
     Es ist nur eine Frage
     der Zeit.[pause]
   - |-
-    [\x0207][\x020902]3Hmmm, worüber
+    \x02\x07\x02\x09\x023Hmmm, worüber
     reden die wohl?[pause]
   - |-
-    [\x0207]DO-Wache[\x0207]Hey, warum laufen
+    \x02\x07DO-Wache\x02\x07Hey, warum laufen
     hier Digimon herum?[pause]
   - |-
-    [\x0207]DO-Wache[\x0207]Sieht ver-
+    \x02\x07DO-Wache\x02\x07Sieht ver-
     dächtig aus.
     Fang ihn![pause]
   - |-
-    [\x0207]DO-Wache[\x0207]Dich kriegen
+    \x02\x07DO-Wache\x02\x07Dich kriegen
     wir![pause]
   - |-
-    [\x0207][\x020902]3Sie haben
+    \x02\x07\x02\x09\x023Sie haben
     uns gefunden![pause]

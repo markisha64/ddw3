@@ -1,17 +1,17 @@
 strings:
   - ''
   - |-
-    [\x0207]Guardia D.O.[\x0207]Qui entrano solo
+    \x02\x07Guardia D.O.\x02\x07Qui entrano solo
     le persone
-    autorizzate...[pause][\x0203]Cosa? Un
+    autorizzate...[pause]\x02\x03Cosa? Un
     altro Digimon?![pause]
   - |-
-    [\x0207][\x020902]3Uhm, sì.
+    \x02\x07\x02\x09\x023Uhm, sì.
     Io... mi
     sono perduto![pause]
   - |-
-    [\x0207]Guardia D.O.[\x0207]Prima quell'Agumon
+    \x02\x07Guardia D.O.\x02\x07Prima quell'Agumon
     rosa, adesso
-    tu...[pause][\x0203]Puoi entrare, ma
+    tu...[pause]\x02\x03Puoi entrare, ma
     non dare fastidio
     a nessuno.[pause]

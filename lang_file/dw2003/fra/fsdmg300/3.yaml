@@ -1,37 +1,37 @@
 strings:
   - ''
   - |-
-    [\x0207]Kail[\x0207][\x020801][\x020501] ! Tu
+    \x02\x07Kail\x02\x07\x02\x08\x01\x02\x05\x01 ! Tu
     es en retard.[pause]
   - |-
-    [\x0207][\x020902]3Ah, salut
+    \x02\x07\x02\x09\x023Ah, salut
     Kail, tu as
     fini ?[pause]
   - |-
-    [\x0207]Kail[\x0207]Euh, oui.
+    \x02\x07Kail\x02\x07Euh, oui.
     Alors, tu as
     trouvé Teddy ?[pause]
   - |-
-    [\x0207][\x020902]3Non, il est
+    \x02\x07\x02\x09\x023Non, il est
     introuvable.[pause]
   - |-
-    [\x0207]Kail[\x0207]J'ai regardé partout
-    moi aussi, en vain.[pause][\x0203]Il a bien dit qu'il
+    \x02\x07Kail\x02\x07J'ai regardé partout
+    moi aussi, en vain.[pause]\x02\x03Il a bien dit qu'il
     allait au Centre
     Administratif...[pause]
   - |-
-    [\x0207][\x020902]3Je me demande
+    \x02\x07\x02\x09\x023Je me demande
     jusqu'où il est allé.[pause]
-  - '[\x0207]Kail[\x0207]...[pause]'
+  - '\x02\x07Kail\x02\x07...[pause]'
   - |-
-    [\x0207]Kail[\x0207]Je sens qu'il est
+    \x02\x07Kail\x02\x07Je sens qu'il est
     là-dedans. Pas
     toi ?[pause]
   - |-
-    [\x0207][\x020902]3Hmm... Tant
+    \x02\x07\x02\x09\x023Hmm... Tant
     qu'on n'aura
     pas vérifié...[pause]
   - |-
-    [\x0207]Kail[\x0207]Merci !
+    \x02\x07Kail\x02\x07Merci !
     OK, entrons,
     alors ![pause]

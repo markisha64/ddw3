@@ -1,9 +1,9 @@
 strings:
   - ''
-  - "[\\x0207]Caballero oscuro[\\x0207]¡Bien! \n¡Parece que tienes\ncoraje![pause][\\x0203]La Mazmorra Oscura.\nLa más fuerte del \nServidor Asuka.[pause][\\x0203]¡Soy el más fuerte,\nel Caballero Oscuro![pause]"
+  - "\\x02\\x07Caballero oscuro\\x02\\x07¡Bien! \n¡Parece que tienes\ncoraje![pause]\\x02\\x03La Mazmorra Oscura.\nLa más fuerte del \nServidor Asuka.[pause]\\x02\\x03¡Soy el más fuerte,\nel Caballero Oscuro![pause]"
   - |-
-    [\x0207][\x020902]3Soy el mejor dom.
+    \x02\x07\x02\x09\x023Soy el mejor dom.
     ¡Junior! Perdona,
     estás en mi camino.[pause]
-  - "[\\x0207]Caballero oscuro[\\x0207]¡Eh, chico!\n¡Yo no tengo un \nprograma así![pause][\\x0203]¡No puedo dejar \npasar a nadie![pause][\\x0203]¡Si quieres pasar\ntienes que ganarme![pause][\\x0203]Si puedes...[pause]"
-  - '[\x0207][\x020902]3¿?[pause]'
+  - "\\x02\\x07Caballero oscuro\\x02\\x07¡Eh, chico!\n¡Yo no tengo un \nprograma así![pause]\\x02\\x03¡No puedo dejar \npasar a nadie![pause]\\x02\\x03¡Si quieres pasar\ntienes que ganarme![pause]\\x02\\x03Si puedes...[pause]"
+  - '\x02\x07\x02\x09\x023¿?[pause]'

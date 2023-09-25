@@ -1,10 +1,10 @@
 strings:
   - ''
   - |-
-    [\x0207]Maître du Feu[\x0207]Tu es fort !
-    Impressionnant ![pause][\x0203]Prends ça, et
+    \x02\x07Maître du Feu\x02\x07Tu es fort !
+    Impressionnant ![pause]\x02\x03Prends ça, et
     utilise-le ![pause]
   - |-
-    [\x0207][\x020902]3Oui, j'ai un
+    \x02\x07\x02\x09\x023Oui, j'ai un
     Chip Esprit ![pause]
-  - "[\\x0207]Maître du Feu[\\x0207]Notre chef \nest là-bas !\nIl est fort ![pause]"
+  - "\\x02\\x07Maître du Feu\\x02\\x07Notre chef \nest là-bas !\nIl est fort ![pause]"

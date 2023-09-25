@@ -1,15 +1,15 @@
 strings:
   - ''
   - |-
-    [\x0207]Seiya Informat.[\x0207]Qu'est-ce qui
+    \x02\x07Seiya Informat.\x02\x07Qu'est-ce qui
     se passe ?![pause]
   - |-
-    [\x0207]Saki le Branché[\x0207]Chut ! Je
+    \x02\x07Saki le Branché\x02\x07Chut ! Je
     n'entends plus
     mon portable ![pause]
   - |-
-    [\x0207]Teruko le Chaland[\x0207]Quoi ?!! Que
+    \x02\x07Teruko le Chaland\x02\x07Quoi ?!! Que
     dois-je faire ?[pause]
   - |-
-    [\x0207]Teruko le Chaland[\x0207]Où est
+    \x02\x07Teruko le Chaland\x02\x07Où est
     la police ?[pause]

@@ -1,81 +1,81 @@
 strings:
   - ''
   - |-
-    [\x0207]Junior[\x0207]Questo è il
+    \x02\x07Junior\x02\x07Questo è il
     Centro Online
     MAGAMI? Wow![pause]
   - |-
-    [\x0207]Teddy[\x0207]Si, è il Sistema
-    Matrice![pause][\x0203]Digitalizza i nostri
+    \x02\x07Teddy\x02\x07Si, è il Sistema
+    Matrice![pause]\x02\x03Digitalizza i nostri
     pensieri e li
-    immette nella rete.[pause][\x0203]Chissà come funziona?
+    immette nella rete.[pause]\x02\x03Chissà come funziona?
     Vorrei proprio
     saperlo.[pause]
-  - "[\\x0207]Junior[\\x0207]Ehi, voi due! Cosa\nfate ancora lì?[pause][\\x0203]Avanti, registriamo il\nnostro account per \nil Mondo Digitale![pause]"
+  - "\\x02\\x07Junior\\x02\\x07Ehi, voi due! Cosa\nfate ancora lì?[pause]\\x02\\x03Avanti, registriamo il\nnostro account per \nil Mondo Digitale![pause]"
   - |-
-    [\x0207]Impieg.[\x0207]Benvenuti
+    \x02\x07Impieg.\x02\x07Benvenuti
     al Centro
-    Online MAGAMI.[pause][\x0203]Da qui è possibile
+    Online MAGAMI.[pause]\x02\x03Da qui è possibile
     fare un viaggio nel
-    Mondo Digitale.[pause][\x0203]È la prima volta
+    Mondo Digitale.[pause]\x02\x03È la prima volta
     che giocate a
     Digimon Online?[pause]
   - |-
-    [\x0207]Impieg.[\x0207]Prima di avviare
-    la procedura...[pause][\x0203]...occorre che
+    \x02\x07Impieg.\x02\x07Prima di avviare
+    la procedura...[pause]\x02\x03...occorre che
     scegliate un
     Partner Digimon.[pause]
   - |-
-    [\x0207]Impieg.[\x0207]Scegli un kit di
-    benvenuto: A, B, C.[pause][\x0203]Ogni kit ha tre
+    \x02\x07Impieg.\x02\x07Scegli un kit di
+    benvenuto: A, B, C.[pause]\x02\x03Ogni kit ha tre
     tipi di Digimon.[pause]
   - |-
-    [\x0207]Impieg.[\x0207]A- Normale:
+    \x02\x07Impieg.\x02\x07A- Normale:
     Kotemon, Renamon
-    e Patamon.[pause][\x0203]B- Potente:
+    e Patamon.[pause]\x02\x03B- Potente:
     Monmon, Agumon
-    e Renamon.[pause][\x0203]C- Esagerato:
+    e Renamon.[pause]\x02\x03C- Esagerato:
     Kumamon, Guilmon
-    e Patamon.[pause][\x0203]Quale dei tre kit
+    e Patamon.[pause]\x02\x03Quale dei tre kit
     vuoi?[pause]
   - |-
-    [\x0207]Ivy[\x0207]Avanti, [\x020801][\x020501],
+    \x02\x07Ivy\x02\x07Avanti, \x02\x08\x01\x02\x05\x01,
     di cosa ti
-    preoccupi?[pause][\x0203]Scegli un kit con
+    preoccupi?[pause]\x02\x03Scegli un kit con
     un Digimon che ti
     piace![pause]
   - |-
-    [\x0207]Junior[\x0207]Uffa! In ogni kit
+    \x02\x07Junior\x02\x07Uffa! In ogni kit
     c'è un Digimon
     che mi piace.[pause]
   - |-
-    [\x0207]Ivy[\x0207]C'è un Digimon che
-    non ti piace, allora?[pause][\x0203]Scarta i kit con un
+    \x02\x07Ivy\x02\x07C'è un Digimon che
+    non ti piace, allora?[pause]\x02\x03Scarta i kit con un
     Digimon che non ti
     piace, forza![pause]
   - |-
-    [\x0207]Junior[\x0207]Ma io adoro
-    ogni Digimon![pause][\x0203]Che posso farci?[pause]
+    \x02\x07Junior\x02\x07Ma io adoro
+    ogni Digimon![pause]\x02\x03Che posso farci?[pause]
   - |-
-    [\x0207]Ivy[\x0207]Bene, se adori ogni
+    \x02\x07Ivy\x02\x07Bene, se adori ogni
     Digimon, allora
-    non hai problemi![pause][\x0203]Avanti, scegli
+    non hai problemi![pause]\x02\x03Avanti, scegli
     e partiamo per il
     Mondo Digitale![pause]
   - |-
-    [\x0207]Ivy[\x0207]Junior! Ancora
+    \x02\x07Ivy\x02\x07Junior! Ancora
     non ti sei
-    deciso?[pause][\x0203]Fa' presto o
+    deciso?[pause]\x02\x03Fa' presto o
     comincio
     senza di te![pause]
   - |-
-    [\x0207]Impieg.[\x0207]Avete deciso
+    \x02\x07Impieg.\x02\x07Avete deciso
     tutti?[pause]
   - |-
-    [\x0207]Ivy[\x0207]Junior! Guarda
+    \x02\x07Ivy\x02\x07Junior! Guarda
     che ti lascio
     davvero![pause]
   - |-
-    [\x0207]Impieg.[\x0207]Ok, ora ti registro
+    \x02\x07Impieg.\x02\x07Ok, ora ti registro
     con il tuo Partner
     Digimon.[pause]

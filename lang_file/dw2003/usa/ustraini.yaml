@@ -91,65 +91,65 @@ strings:
   - Thunder Defense
   - Machine Defense
   - Dark Defense
-  - '[\x020501] +[\x020502]'
-  - '[\x020501] -[\x020502]'
+  - '\x02\x05\x01 +\x02\x05\x02'
+  - '\x02\x05\x01 -\x02\x05\x02'
   - |-
     Results:
-    Power is up by [\x020501]![pause]
+    Power is up by \x02\x05\x01![pause]
   - |-
     Results:
-    Defense is up by [\x020501]![pause]
+    Defense is up by \x02\x05\x01![pause]
   - |-
     Results:
-    Spirit is up by [\x020501]![pause]
+    Spirit is up by \x02\x05\x01![pause]
   - |-
     Results:
-    Wisdom is up by [\x020501]![pause]
+    Wisdom is up by \x02\x05\x01![pause]
   - |-
     Results:
-    Speed is up by [\x020501]![pause]
+    Speed is up by \x02\x05\x01![pause]
   - |-
     Results:
-    Fire Defense is up by [\x020501]![pause]
+    Fire Defense is up by \x02\x05\x01![pause]
   - |-
     Results:
-    Water Defense is up by [\x020501]![pause]
+    Water Defense is up by \x02\x05\x01![pause]
   - |-
     Results:
-    Ice Defense is up by [\x020501]![pause]
+    Ice Defense is up by \x02\x05\x01![pause]
   - |-
     Results:
-    Wind Defense is up by [\x020501]![pause]
+    Wind Defense is up by \x02\x05\x01![pause]
   - |-
     Results:
-    Thunder Defense is up by [\x020501]![pause]
+    Thunder Defense is up by \x02\x05\x01![pause]
   - |-
     Results:
-    Machine Defense is up by [\x020501]![pause]
+    Machine Defense is up by \x02\x05\x01![pause]
   - |-
     Results:
-    Dark Defense is up by [\x020501]![pause]
+    Dark Defense is up by \x02\x05\x01![pause]
   - |-
-    Results:[pause][\x0203]Fire Defense is up by [\x020501]!
-    Maximum MP is up by [\x020502]![pause]
+    Results:[pause]\x02\x03Fire Defense is up by \x02\x05\x01!
+    Maximum MP is up by \x02\x05\x02![pause]
   - |-
-    Results:[pause][\x0203]Water Defense is up by [\x020501]!
-    Defense is down by [\x020502]...[pause]
+    Results:[pause]\x02\x03Water Defense is up by \x02\x05\x01!
+    Defense is down by \x02\x05\x02...[pause]
   - |-
-    Results:[pause][\x0203]Ice Defense is up by [\x020501]!
-    Speed is down by [\x020502]...[pause]
+    Results:[pause]\x02\x03Ice Defense is up by \x02\x05\x01!
+    Speed is down by \x02\x05\x02...[pause]
   - |-
-    Results:[pause][\x0203]Wind Defense is up by [\x020501]!
-    Strength is down by [\x020502]...[pause]
+    Results:[pause]\x02\x03Wind Defense is up by \x02\x05\x01!
+    Strength is down by \x02\x05\x02...[pause]
   - |-
-    Results:[pause][\x0203]Thunder Defense is up by [\x020501]!
-    Wisdom is down by [\x020502]...[pause]
+    Results:[pause]\x02\x03Thunder Defense is up by \x02\x05\x01!
+    Wisdom is down by \x02\x05\x02...[pause]
   - |-
-    Results:[pause][\x0203]Machine Defense is up by [\x020501]!
-    Max HP is up by [\x020502]![pause]
+    Results:[pause]\x02\x03Machine Defense is up by \x02\x05\x01!
+    Max HP is up by \x02\x05\x02![pause]
   - |-
-    Results:[pause][\x0203]Dark Defense is up by [\x020501]!
-    Spirit is down by [\x020502]...[pause]
+    Results:[pause]\x02\x03Dark Defense is up by \x02\x05\x01!
+    Spirit is down by \x02\x05\x02...[pause]
   - |-
     Results:
     Nothing increased...[pause]

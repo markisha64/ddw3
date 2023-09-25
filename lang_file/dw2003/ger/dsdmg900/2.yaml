@@ -8,23 +8,23 @@ strings:
   - Weise s.
   - Guilmon verwen.
   - Zurück
-  - "Du kannst mit Veemon Partner\nwerden, der in keinem Pack ist.\nVersuche, das selbst herauszufinden.[pause][\\x0203]Veemon lernt ExVeemon, Stingmon\nund Paildramon und danach lernt er\nviele Digitationstypen. Z. B. wenn [pause][\\x0203]du Paildramons Fähigkeiten erhöhst \nund seine Maschinenabwehr auf-\nbaust, lernt er Metalmamemon. Er[pause][\\x0203]lernt Devimon, wenn du seine \nDunkelheitabwehr aufbaust.[pause]"
-  - "Partner auf niedr. Leveln können\neinfach EXP-Punkte gewinnen, wenn\nsie einen Kampf beginnen und kurz[pause][\\x0203]darauf abbrechen. Levels können \neffektiv gewonnen werden, indem\n2 Partner in einen Kampf treten.[pause][\\x0203]Digi. lernen neue Digitat. u. Techn.\ndurch Gewinnen v. Leveln o. wenn \ndie Fähigk. ein Vielfaches v. 5 sind[pause]"
-  - "Je nach Züchtung kann jeder Partner \nalle 14 Digitationstypen erhalten. Di-\ngitationen desselben Typs werden in[pause][\\x0203]Zeilen in der Digitationstabelle aufge-\nlistet. Wenn der Fähigkeitslevel des\nDigimon zunimmt, lernt es neue Di-[pause][\\x0203]gitationen desselben Typs. Neue Digi-\ntationen können auch durch Gewinnen\nvon Leveln erlernt werden. Einige[pause][\\x0203]Digitat. können nur durch Erlernen \nmehrerer anderer Digitationen er-\nworben werden.[pause]"
+  - "Du kannst mit Veemon Partner\nwerden, der in keinem Pack ist.\nVersuche, das selbst herauszufinden.[pause]\\x02\\x03Veemon lernt ExVeemon, Stingmon\nund Paildramon und danach lernt er\nviele Digitationstypen. Z. B. wenn [pause]\\x02\\x03du Paildramons Fähigkeiten erhöhst \nund seine Maschinenabwehr auf-\nbaust, lernt er Metalmamemon. Er[pause]\\x02\\x03lernt Devimon, wenn du seine \nDunkelheitabwehr aufbaust.[pause]"
+  - "Partner auf niedr. Leveln können\neinfach EXP-Punkte gewinnen, wenn\nsie einen Kampf beginnen und kurz[pause]\\x02\\x03darauf abbrechen. Levels können \neffektiv gewonnen werden, indem\n2 Partner in einen Kampf treten.[pause]\\x02\\x03Digi. lernen neue Digitat. u. Techn.\ndurch Gewinnen v. Leveln o. wenn \ndie Fähigk. ein Vielfaches v. 5 sind[pause]"
+  - "Je nach Züchtung kann jeder Partner \nalle 14 Digitationstypen erhalten. Di-\ngitationen desselben Typs werden in[pause]\\x02\\x03Zeilen in der Digitationstabelle aufge-\nlistet. Wenn der Fähigkeitslevel des\nDigimon zunimmt, lernt es neue Di-[pause]\\x02\\x03gitationen desselben Typs. Neue Digi-\ntationen können auch durch Gewinnen\nvon Leveln erlernt werden. Einige[pause]\\x02\\x03Digitat. können nur durch Erlernen \nmehrerer anderer Digitationen er-\nworben werden.[pause]"
   - |-
     Level-/Fähigkeitsgrenzen werden auf
     99 gesetzt. Die Parametergrenze ist
-    999. Auch wenn ein Digimon die Le-[pause][\x0203]velgrenze erreicht, kann es s. Pa-
+    999. Auch wenn ein Digimon die Le-[pause]\x02\x03velgrenze erreicht, kann es s. Pa-
     rameter mit einem Chip erhöhen. An-
-    geblich gibt es Train.-Chips f. mehr[pause][\x0203]TP, aber sie werden nicht verkauft.
+    geblich gibt es Train.-Chips f. mehr[pause]\x02\x03TP, aber sie werden nicht verkauft.
     Versuch's mit Angeln u. Baumtreten.[pause]
-  - "Du solltest Plugin-Items nutzen. \nAuch wenn du keine Unterstütz-\nungstechniken kannst, sind Items[pause][\\x0203]im Kampf nützlich. Stoβ-Digitationen\nwerden je nach Partner u. seinem\nLevel vergeben. Ist der Stoβmesser[pause][\\x0203]hoch, warte auf deine Chance, ihn \nzu nutzen. Achte fern von Hotels \nauf deinen MP-Level. Wenn du dich [pause][\\x0203]zurückziehst, brauchst du auf \nsonst nichts zu achten![pause]"
+  - "Du solltest Plugin-Items nutzen. \nAuch wenn du keine Unterstütz-\nungstechniken kannst, sind Items[pause]\\x02\\x03im Kampf nützlich. Stoβ-Digitationen\nwerden je nach Partner u. seinem\nLevel vergeben. Ist der Stoβmesser[pause]\\x02\\x03hoch, warte auf deine Chance, ihn \nzu nutzen. Achte fern von Hotels \nauf deinen MP-Level. Wenn du dich [pause]\\x02\\x03zurückziehst, brauchst du auf \nsonst nichts zu achten![pause]"
   - |-
     Auch wenn du deine Digimon ungleich-
     mäβig züchtest, kannst du effektiv
-    EXP-Punkte durch Auswahl v. Feinden[pause][\x0203]m. bestimmten Schwächen verdienen.
+    EXP-Punkte durch Auswahl v. Feinden[pause]\x02\x03m. bestimmten Schwächen verdienen.
     Nutze magische Angr. gg. Feinde mit
-    starken phys. Angriffen u. umgekehrt[pause][\x0203]Einige Feinde sind bei bestimmten
+    starken phys. Angriffen u. umgekehrt[pause]\x02\x03Einige Feinde sind bei bestimmten
     Attributen u. Angr. schwach. Ent-
     decke diese u. erstelle ein Muster.[pause]
-  - "Digitationen v. Growlmon u. anderen \nGuilmon-Typen lernen ungewöhnliche\nTechniken wie Stehlen o. Gegenangr.[pause][\\x0203]Einige Feinde besitzen Items, die nicht\nverkauft werden. Durch die Stehlen-\nTechnik sind sie einfach zu haben. [pause][\\x0203]Die Stärke von Gegenangriffen hängt \nvom erhaltenen Schaden ab. Versuche,\nabsichtlich Schaden zu nehmen.[pause]"
+  - "Digitationen v. Growlmon u. anderen \nGuilmon-Typen lernen ungewöhnliche\nTechniken wie Stehlen o. Gegenangr.[pause]\\x02\\x03Einige Feinde besitzen Items, die nicht\nverkauft werden. Durch die Stehlen-\nTechnik sind sie einfach zu haben. [pause]\\x02\\x03Die Stärke von Gegenangriffen hängt \nvom erhaltenen Schaden ab. Versuche,\nabsichtlich Schaden zu nehmen.[pause]"

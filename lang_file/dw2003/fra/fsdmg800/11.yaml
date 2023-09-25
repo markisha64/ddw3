@@ -2,9 +2,9 @@ strings:
   - ''
   - |-
     HA ha ha ha ha
-    Que peux-tu faire, misérable ![pause][\x0203]Moi, Lord Megadeath, j'ai passé
-    le téléporteur ![pause][\x0203]Viens à présent ! Meilleur dresseur !
+    Que peux-tu faire, misérable ![pause]\x02\x03Moi, Lord Megadeath, j'ai passé
+    le téléporteur ![pause]\x02\x03Viens à présent ! Meilleur dresseur !
     Viens goûter ma force ![pause]
   - |-
-    [\x0207][\x020902]3Oui, c'est ça ![pause][\x0203]Beaucoup de blabla
+    \x02\x07\x02\x09\x023Oui, c'est ça ![pause]\x02\x03Beaucoup de blabla
     et peu d'actes ![pause]

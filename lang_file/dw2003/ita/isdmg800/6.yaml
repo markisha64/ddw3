@@ -1,9 +1,9 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Pannello acceso!
+    \x02\x07\x02\x09\x023Pannello acceso!
     Dovrebbe eliminare
     il blocco...[pause]
   - |-
-    [\x0207][\x020902]3Il blocco
+    \x02\x07\x02\x09\x023Il blocco
     è sparito?[pause]

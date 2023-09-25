@@ -1,37 +1,37 @@
 strings:
   - ''
   - |-
-    [\x0207]Voce[\x0207]Uuuuu...
+    \x02\x07Voce\x02\x07Uuuuu...
     Uuuuu![pause]
   - |-
-    [\x0207][\x020902]3Devi essere
+    \x02\x07\x02\x09\x023Devi essere
     Sepikmon.[pause]
   - |-
-    [\x0207]Voce[\x0207]Uuuu...
+    \x02\x07Voce\x02\x07Uuuu...
     Coff!
-    Coff![pause][\x0203]Sì,
+    Coff![pause]\x02\x03Sì,
     che cosa
     vuoi?[pause]
   - |-
-    [\x0207][\x020902]3Puoi dirmi come
+    \x02\x07\x02\x09\x023Puoi dirmi come
     sconfiggere Zanbamon?[pause]
   - |-
-    [\x0207]Sepikmon[\x0207]Si, ma a una
+    \x02\x07Sepikmon\x02\x07Si, ma a una
     condizione.[pause]
   - |-
-    [\x0207]Sepikmon[\x0207]Ho perduto la mia
-    preziosa maschera![pause][\x0203]Nessuno può
-    vedermi senza![pause][\x0203]Trovala e ti dirò
+    \x02\x07Sepikmon\x02\x07Ho perduto la mia
+    preziosa maschera![pause]\x02\x03Nessuno può
+    vedermi senza![pause]\x02\x03Trovala e ti dirò
     ciò che vuoi
     sapere.[pause]
   - |-
-    [\x0207]Sepikmon[\x0207]L'avevo quando ero
-    con Baronmon.[pause][\x0203]Deve essermi
-    caduta dopo![pause][\x0203]OK, grazie mille![pause]
+    \x02\x07Sepikmon\x02\x07L'avevo quando ero
+    con Baronmon.[pause]\x02\x03Deve essermi
+    caduta dopo![pause]\x02\x03OK, grazie mille![pause]
   - |-
-    [\x0207]Voce[\x0207]Sì, che cosa
+    \x02\x07Voce\x02\x07Sì, che cosa
     vuoi?[pause]
   - |-
-    [\x0207][\x020902]3Va bene, andrò
+    \x02\x07\x02\x09\x023Va bene, andrò
     a cercare la
     maschera.[pause]

@@ -1,9 +1,9 @@
 strings:
   - ''
-  - "[\\x0207]M. Smith[\\x0207]A vous de jouer ! \nLe clou de la vente ![pause][\\x0203]Le Croc du Péril, \nconvoité par tous ![pause][\\x0203]Cette arme exclusive de \nGuilmon est proposée \nà 1600 BIT au départ ![pause]"
-  - '[\x0207]Marchand Abel[\x0207]2000 BIT ![pause]'
-  - "[\\x0207]Chef Milly[\\x0207]2300 \nBIT ![pause]"
-  - '[\x0207]Masao Fan jeu[\x0207]2600 BIT ![pause]'
+  - "\\x02\\x07M. Smith\\x02\\x07A vous de jouer ! \nLe clou de la vente ![pause]\\x02\\x03Le Croc du Péril, \nconvoité par tous ![pause]\\x02\\x03Cette arme exclusive de \nGuilmon est proposée \nà 1600 BIT au départ ![pause]"
+  - '\x02\x07Marchand Abel\x02\x072000 BIT ![pause]'
+  - "\\x02\\x07Chef Milly\\x02\\x072300 \nBIT ![pause]"
+  - '\x02\x07Masao Fan jeu\x02\x072600 BIT ![pause]'
   - |-
-    [\x0207][\x020902]3Hmm. 2700 BIT
+    \x02\x07\x02\x09\x023Hmm. 2700 BIT
     ...hmmm...[pause]

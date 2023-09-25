@@ -1,41 +1,41 @@
 strings:
   - ''
   - |-
-    [\x0207]Numemon[\x0207]On sera bien
+    \x02\x07Numemon\x02\x07On sera bien
     ici.[pause]
   - |-
-    [\x0207][\x020902]3Merci ![pause][\x0203]Mais qu'ont donc
+    \x02\x07\x02\x09\x023Merci ![pause]\x02\x03Mais qu'ont donc
     les habitants de
-    Byakko City ?[pause][\x0203]Leur chef a menti
+    Byakko City ?[pause]\x02\x03Leur chef a menti
     et m'a fait tomber
     au sous-sol.[pause]
   - |-
-    [\x0207]Numemon[\x0207]Tous des imposteurs,
+    \x02\x07Numemon\x02\x07Tous des imposteurs,
     le chef comme
     les autres ![pause]
   - |-
-    [\x0207][\x020902]3Quoi ?! Alors
+    \x02\x07\x02\x09\x023Quoi ?! Alors
     qui sont tous
     ces types ?[pause]
   - |-
-    [\x0207]Numemon[\x0207]Cela ne te regarde
-    pas ![pause][\x0203]Si tu veux rencontrer
+    \x02\x07Numemon\x02\x07Cela ne te regarde
+    pas ![pause]\x02\x03Si tu veux rencontrer
     le vrai chef, va au
-    Désert de Mobius.[pause][\x0203]Trouve la Tour Mirage
+    Désert de Mobius.[pause]\x02\x03Trouve la Tour Mirage
     au-delà du désert.[pause]
   - |-
-    [\x0207][\x020902]3Hé, attends !
+    \x02\x07\x02\x09\x023Hé, attends !
     Qu'est-ce qui
     se passe ?[pause]
   - |-
-    [\x0207]Numemon[\x0207]Je ne peux pas
-    t'en dire plus ![pause][\x0203]Ne t'approche
+    \x02\x07Numemon\x02\x07Je ne peux pas
+    t'en dire plus ![pause]\x02\x03Ne t'approche
     plus de Byakko
     City ![pause]
   - |-
-    [\x0207][\x020902]3Bon, d'accord !
+    \x02\x07\x02\x09\x023Bon, d'accord !
     A plus tard ![pause]
   - |-
-    [\x0207][\x020902]3Bien. Maintenant,
+    \x02\x07\x02\x09\x023Bien. Maintenant,
     allons chercher le
     vrai chef ![pause]

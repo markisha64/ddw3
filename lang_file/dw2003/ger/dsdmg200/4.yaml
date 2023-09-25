@@ -1,70 +1,70 @@
 strings:
   - ''
   - |-
-    [\x0207]Tamer-Service[\x0207]Ich lade jetzt die
+    \x02\x07Tamer-Service\x02\x07Ich lade jetzt die
     Digimon-Daten von
-    deinem Satelliten.[pause][\x0203]Bitte warte an der
+    deinem Satelliten.[pause]\x02\x03Bitte warte an der
     Online-Markierung
     auf dem Boden.[pause]
   - |-
-    [\x0207][\x020902]3Wow! Ich kann es
+    \x02\x07\x02\x09\x023Wow! Ich kann es
     kaum erwarten, mein
     Digimon zu treffen![pause]
   - |-
-    [\x0207]Teddy[\x0207]...oh!
-    Hey [\x020801][\x020501]![pause]
+    \x02\x07Teddy\x02\x07...oh!
+    Hey \x02\x08\x01\x02\x05\x01![pause]
   - |-
-    [\x0207][\x020902]3Hey, was macht
+    \x02\x07\x02\x09\x023Hey, was macht
     ihr denn?
     Ihr seid so lahm![pause]
   - |-
-    [\x0207]Teddy[\x0207]Was? Quatsch,
+    \x02\x07Teddy\x02\x07Was? Quatsch,
     du bist bloβ
     zu schnell.[pause]
-  - '[\x0207]Teddy[\x0207]Oder, Ivy?[pause]'
+  - '\x02\x07Teddy\x02\x07Oder, Ivy?[pause]'
   - |-
-    [\x0207]Kail[\x0207]Nein, ich heiβe
+    \x02\x07Kail\x02\x07Nein, ich heiβe
     Kail! Vergiss
     das nicht![pause]
-  - "[\\x0207][\\x020902]3Kail? Das ist\ndein neuer Name?[pause][\\x0203]Komisch. Hört\nsich wie ein \nMännername an![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Kail? Das ist\ndein neuer Name?[pause]\\x02\\x03Komisch. Hört\nsich wie ein \nMännername an![pause]"
   - |-
-    [\x0207]Kail[\x0207]Den habe ich mir
+    \x02\x07Kail\x02\x07Den habe ich mir
     ausgesucht. OK?![pause]
   - |-
-    [\x0207]Teddy[\x0207]Ich war zu faul und
+    \x02\x07Teddy\x02\x07Ich war zu faul und
     heiβe weiterhin Teddy![pause]
   - |-
-    [\x0207][\x020902]3Oh, cool! Hier
+    \x02\x07\x02\x09\x023Oh, cool! Hier
     sind meine
     Digimon![pause]
   - |-
-    [\x0207]Teddy[\x0207]Wow! Wer hat
+    \x02\x07Teddy\x02\x07Wow! Wer hat
     sich das nur
     ausgedacht?[pause]
-  - '[\x0207]Kail[\x0207]Gute Frage.[pause]'
+  - '\x02\x07Kail\x02\x07Gute Frage.[pause]'
   - |-
-    [\x0207][\x020902]3Hallo zusammen!
-    Ich bin [\x020801][\x020501]!
+    \x02\x07\x02\x09\x023Hallo zusammen!
+    Ich bin \x02\x08\x01\x02\x05\x01!
     Freut mich sehr.[pause]
   - |-
-    [\x0207]Monmon[\x0207]Ich kämpf toll!
+    \x02\x07Monmon\x02\x07Ich kämpf toll!
     Alle sind toll!
     Auf geht's![pause]
   - |-
-    [\x0207]Agumon[\x0207]Hi [\x020801][\x020501]!
+    \x02\x07Agumon\x02\x07Hi \x02\x08\x01\x02\x05\x01!
     Lasst uns alles
     geben.[pause]
   - |-
-    [\x0207]Renamon[\x0207]Wir wollen alle
+    \x02\x07Renamon\x02\x07Wir wollen alle
     World Champ
     werden.[pause]
   - |-
-    [\x0207][\x020902]3OK, ihr drei.
+    \x02\x07\x02\x09\x023OK, ihr drei.
     Ich verlasse
-    mich auf euch![pause][\x0203]Los geht's![pause]
-  - "[\\x0207][\\x020902]3OK, ich bin \nweg![pause]"
+    mich auf euch![pause]\x02\x03Los geht's![pause]
+  - "\\x02\\x07\\x02\\x09\\x023OK, ich bin \nweg![pause]"
   - |-
-    [\x0207]Kail[\x0207]In Ordnung.
+    \x02\x07Kail\x02\x07In Ordnung.
     Wir teilen uns
     jetzt auf.[pause]
-  - '[\x0207]Teddy[\x0207]Bis später.[pause]'
+  - '\x02\x07Teddy\x02\x07Bis später.[pause]'

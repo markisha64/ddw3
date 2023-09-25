@@ -1,12 +1,12 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Kyukimon, mi
-    fai un favore?[pause][\x0203]Posso prendere il
+    \x02\x07\x02\x09\x023Kyukimon, mi
+    fai un favore?[pause]\x02\x03Posso prendere il
     DDNA di Kotemon
     dal tuo?[pause]
   - |-
-    [\x0207]Kyukimon[\x0207]Mmmm, va
+    \x02\x07Kyukimon\x02\x07Mmmm, va
     bene, ma a una
-    condizione.[pause][\x0203]Devi lottare
+    condizione.[pause]\x02\x03Devi lottare
     e battermi.[pause]

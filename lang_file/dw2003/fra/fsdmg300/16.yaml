@@ -1,14 +1,14 @@
 strings:
   - ''
   - |-
-    [\x0207]Garde Royal[\x0207]On t'attendait  !
+    \x02\x07Garde Royal\x02\x07On t'attendait  !
     Tu as vaincu nos
     chefs  ![pause]
   - |-
-    [\x0207][\x020902]3Et maintenant
+    \x02\x07\x02\x09\x023Et maintenant
     c'est ton tour  ![pause]
   - |-
-    [\x0207]Garde Royal[\x0207]Nous sommes
+    \x02\x07Garde Royal\x02\x07Nous sommes
     plus puissants que
     tous les autres.[pause]
-  - "[\\x0207]Garde Royal[\\x0207]Pour l'honneur de \nla Garde Royale, \nje vais te battre  ![pause]"
+  - "\\x02\\x07Garde Royal\\x02\\x07Pour l'honneur de \nla Garde Royale, \nje vais te battre  ![pause]"

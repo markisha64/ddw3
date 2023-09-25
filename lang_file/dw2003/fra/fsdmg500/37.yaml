@@ -1,12 +1,12 @@
 strings:
   - ''
   - |-
-    [\x0207]Zanbamon[\x0207]Qu-quoi ?
+    \x02\x07Zanbamon\x02\x07Qu-quoi ?
     J'ai perdu.[pause]
-  - "[\\x0207][\\x020902]3Alors ?\nJe suis plutôt \nfort, non ?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Alors ?\nJe suis plutôt \nfort, non ?[pause]"
   - |-
-    [\x0207]Zanbamon[\x0207]Très bien.
+    \x02\x07Zanbamon\x02\x07Très bien.
     Prends ça, et
     pardonne-moi![pause]
-  - "[\\x0207][\\x020902]3Quoi ? le \nKatana\nRouillé ? Bien.[pause]"
-  - "[\\x0207]Zanbamon[\\x0207]Je-je veux vivre \nen paix ici...[pause][\\x0203]Laisse-moi seul, \ns'il te plait ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Quoi ? le \nKatana\nRouillé ? Bien.[pause]"
+  - "\\x02\\x07Zanbamon\\x02\\x07Je-je veux vivre \nen paix ici...[pause]\\x02\\x03Laisse-moi seul, \ns'il te plait ![pause]"

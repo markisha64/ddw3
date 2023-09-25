@@ -1,23 +1,23 @@
 strings:
   - ''
   - |-
-    [\x0207]MasterTyranno[\x0207]Hé, le môme !
+    \x02\x07MasterTyranno\x02\x07Hé, le môme !
     Tu t'en tires
-    bien ![pause][\x0203]Je te donne ça
+    bien ![pause]\x02\x03Je te donne ça
     pour m'avoir
     battu.[pause]
   - |-
-    [\x0207][\x020902]3Oui ! J'ai
+    \x02\x07\x02\x09\x023Oui ! J'ai
     la Griffe
     antique ![pause]
   - |-
-    [\x0207]MasterTyranno[\x0207]Apporte ça au
-    chef de Seiryu ![pause][\x0203]Il acceptera
+    \x02\x07MasterTyranno\x02\x07Apporte ça au
+    chef de Seiryu ![pause]\x02\x03Il acceptera
     de t'affronter.[pause]
   - |-
-    [\x0207][\x020902]3Merci,
+    \x02\x07\x02\x09\x023Merci,
     MasterTyranno.[pause]
   - |-
-    [\x0207]MasterTyranno[\x0207]Ce chef est
+    \x02\x07MasterTyranno\x02\x07Ce chef est
     coriace. Sois
     sur tes gardes ![pause]

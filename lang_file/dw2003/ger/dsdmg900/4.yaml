@@ -1,26 +1,26 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Aha, das ist\nalso die Arena.[pause][\\x0203]Wer mag wohl \nmein Gegner sein.\nIch bin bereit![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Aha, das ist\nalso die Arena.[pause]\\x02\\x03Wer mag wohl \nmein Gegner sein.\nIch bin bereit![pause]"
   - |-
-    [\x0207]Kurt[\x0207]Hey!
-    [\x020801][\x020501]![pause][\x0203]Ich wusste, du
+    \x02\x07Kurt\x02\x07Hey!
+    \x02\x08\x01\x02\x05\x01![pause]\x02\x03Ich wusste, du
     schaffst es![pause]
   - |-
-    [\x0207][\x020902]3Häh?
-    Kurt?[pause][\x0203]Sag' bloβ,
+    \x02\x07\x02\x09\x023Häh?
+    Kurt?[pause]\x02\x03Sag' bloβ,
     du bist der
     stärkste Tamer![pause]
   - |-
-    [\x0207]Kurt[\x0207]Stimmt genau!
+    \x02\x07Kurt\x02\x07Stimmt genau!
     Ich bin froh, dass
-    du mein Gegner bist.[pause][\x0203]Ich wollte schon im-
+    du mein Gegner bist.[pause]\x02\x03Ich wollte schon im-
     mer mit dir kämpfen![pause]
   - |-
-    [\x0207][\x020902]3Seh' ich genauso!
+    \x02\x07\x02\x09\x023Seh' ich genauso!
     Es gibt keinen wür-
     digeren Gegner![pause]
   - |-
-    [\x0207]Kurt[\x0207]Ha ha! Das wird
-    ein Spaβ![pause][\x0203]Lass' uns los-
+    \x02\x07Kurt\x02\x07Ha ha! Das wird
+    ein Spaβ![pause]\x02\x03Lass' uns los-
     legen!
     Gib' alles![pause]

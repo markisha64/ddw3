@@ -1,14 +1,14 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Qué raro...
+    \x02\x07\x02\x09\x023Qué raro...
     No hay nadie
     aquí.[pause]
-  - "[\\x0207][\\x020902]3¡Ya sé! Igual que\nen la Sala Maestra\nde Juego de Asuka.[pause][\\x0203]Una puerta secreta.[pause][\\x0203]¿Cuál será el\ncódigo?[pause][\\x0203]En Asuka era \nMONSTER así \nque será DIGITAL...[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023¡Ya sé! Igual que\nen la Sala Maestra\nde Juego de Asuka.[pause]\\x02\\x03Una puerta secreta.[pause]\\x02\\x03¿Cuál será el\ncódigo?[pause]\\x02\\x03En Asuka era \nMONSTER así \nque será DIGITAL...[pause]"
   - |-
-    [\x0207][\x020902]3Se abrió sola.
-    ¿Por qué?[pause][\x0203]¡¿?!
+    \x02\x07\x02\x09\x023Se abrió sola.
+    ¿Por qué?[pause]\x02\x03¡¿?!
     Quizás quiere
-    que entre...[pause][\x0203]¡De acuerdo!
+    que entre...[pause]\x02\x03¡De acuerdo!
     ¡Voy a entrar
     seas quien seas![pause]

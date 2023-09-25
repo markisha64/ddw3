@@ -1,31 +1,31 @@
 strings:
   - ''
   - |-
-    [\x0207]Capo di Xuen Wu[\x0207]Dunque, sei tu
+    \x02\x07Capo di Xuen Wu\x02\x07Dunque, sei tu
     quello che
-    ci ostacola![pause][\x0203]Io sono qui e non
+    ci ostacola![pause]\x02\x03Io sono qui e non
     mi nasconderò!
-    Avanti![pause][\x0203]Combatti con
+    Avanti![pause]\x02\x03Combatti con
     me![pause]
   - |-
-    [\x0207][\x020902]3Tu aspetta
+    \x02\x07\x02\x09\x023Tu aspetta
     e ti
     raggiungerò![pause]
   - |-
-    [\x0207]Capo di Xuen Wu[\x0207]Uffa, mi hai
-    raggiunto.[pause][\x0203]Dovevo immaginarlo,
+    \x02\x07Capo di Xuen Wu\x02\x07Uffa, mi hai
+    raggiunto.[pause]\x02\x03Dovevo immaginarlo,
     dopo ciò che è
     successo agli altri![pause]
   - |-
-    [\x0207][\x020902]3Capo di Xuen Wu!
+    \x02\x07\x02\x09\x023Capo di Xuen Wu!
     Tu hai il pass
     nero![pause]
   - |-
-    [\x0207]Capo di Xuen Wu[\x0207]Certo!
-    Lo vuoi?[pause][\x0203]Allora affrontami
+    \x02\x07Capo di Xuen Wu\x02\x07Certo!
+    Lo vuoi?[pause]\x02\x03Allora affrontami
     e prenditelo
     con la forza![pause]
   - |-
-    [\x0207][\x020902]3Puoi
+    \x02\x07\x02\x09\x023Puoi
     scommetterci!
     Arrivo![pause]

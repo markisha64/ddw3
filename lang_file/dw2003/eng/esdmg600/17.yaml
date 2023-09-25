@@ -1,17 +1,17 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Byakko Leader,\nI have something \nto ask...[pause]"
-  - "[\\x0207]Byakko Leader[\\x0207]...You found me \nalready![pause][\\x0203]Fine, then I'll just\nhave to fight you![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Byakko Leader,\nI have something \nto ask...[pause]"
+  - "\\x02\\x07Byakko Leader\\x02\\x07...You found me \nalready![pause]\\x02\\x03Fine, then I'll just\nhave to fight you![pause]"
   - |-
-    [\x0207][\x020902]3What!?
+    \x02\x07\x02\x09\x023What!?
     Hey, wait a sec!
     What's the...!?[pause]
-  - "[\\x0207]Byakko Leader[\\x0207]Silence! I'm not \ngoing to lose to \nthe A.o.A![pause]"
+  - "\\x02\\x07Byakko Leader\\x02\\x07Silence! I'm not \ngoing to lose to \nthe A.o.A![pause]"
   - |-
-    [\x0207][\x020902]3Wha-what?
+    \x02\x07\x02\x09\x023Wha-what?
     ...A.o.A?![pause]
   - |-
-    [\x0207]Byakko Leader[\x0207]Don't play games
+    \x02\x07Byakko Leader\x02\x07Don't play games
     with me! Come
     here, my Digimon![pause]
-  - "[\\x0207][\\x020902]3I can't believe\nthis! Oh, well... [pause][\\x0203]All right, let's\nget this over \nwith already![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023I can't believe\nthis! Oh, well... [pause]\\x02\\x03All right, let's\nget this over \nwith already![pause]"

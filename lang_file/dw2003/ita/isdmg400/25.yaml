@@ -1,22 +1,22 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Paildramon, mi
+    \x02\x07\x02\x09\x023Paildramon, mi
     fai un favore,
-    eh?[pause][\x0203]Posso prendere il
+    eh?[pause]\x02\x03Posso prendere il
     DDNA di Veemon
     dal tuo?[pause]
   - |-
-    [\x0207]Paildramon[\x0207]Mai! Ho sempre
+    \x02\x07Paildramon\x02\x07Mai! Ho sempre
     avuto paura delle
-    punture![pause][\x0203]Solo battendomi
+    punture![pause]\x02\x03Solo battendomi
     in battaglia
     lo avrai![pause]
   - |-
-    [\x0207][\x020902]3Oh,va bene.
+    \x02\x07\x02\x09\x023Oh,va bene.
     Devo solo
     vincere,no?[pause]
   - |-
-    [\x0207]Paildramon[\x0207]È così!
+    \x02\x07Paildramon\x02\x07È così!
     Provaci,
     su![pause]

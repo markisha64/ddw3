@@ -1,14 +1,14 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Das ist un-
+    \x02\x07\x02\x09\x023Das ist un-
     heimlich. Nie-
     mand ist hier![pause]
   - |-
-    [\x0207][\x020902]3Verstehe! Es ist
+    \x02\x07\x02\x09\x023Verstehe! Es ist
     wie im Asuaka-Spiel
-    Meisterraum![pause][\x0203]Eine Geheimtür![pause][\x0203]...wie lautet der
-    Code?[pause][\x0203]Asuka war MONS-
+    Meisterraum![pause]\x02\x03Eine Geheimtür![pause]\x02\x03...wie lautet der
+    Code?[pause]\x02\x03Asuka war MONS-
     TER, also ist es
     hier DIGITAL?[pause]
-  - "[\\x0207][\\x020902]3!!\nSie öffnet sich! \nWarum?[pause][\\x0203]........?!\nVielleicht damit\nich hineingehe...[pause][\\x0203]In Ordnung! Ich\nkomme, wo auch \nimmer du steckst![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023!!\nSie öffnet sich! \nWarum?[pause]\\x02\\x03........?!\nVielleicht damit\nich hineingehe...[pause]\\x02\\x03In Ordnung! Ich\nkomme, wo auch \nimmer du steckst![pause]"

@@ -1,18 +1,18 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Qu'est-ce qui bloque
+    \x02\x07\x02\x09\x023Qu'est-ce qui bloque
     le trou ? Un rocher ?[pause]
-  - '[\x0207]???[\x0207]Mais non ![pause]'
-  - '[\x0207][\x020902]3Quoi ?![pause]'
+  - '\x02\x07???\x02\x07Mais non ![pause]'
+  - '\x02\x07\x02\x09\x023Quoi ?![pause]'
   - |-
-    [\x0207]Numemon[\x0207]Cette ville est
+    \x02\x07Numemon\x02\x07Cette ville est
     dangereuse,
     crois-moi ![pause]
   - |-
-    [\x0207][\x020902]3Hé, mais tu
+    \x02\x07\x02\x09\x023Hé, mais tu
     es Numemon !?[pause]
   - |-
-    [\x0207]Numemon[\x0207]Oui. Je vais
+    \x02\x07Numemon\x02\x07Oui. Je vais
     t'aider, alors
     suis-moi ![pause]

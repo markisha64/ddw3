@@ -1,45 +1,45 @@
 strings:
   - ''
   - |-
-    [\x0207]Signora del Gioco[\x0207]Che ci fate
+    \x02\x07Signora del Gioco\x02\x07Che ci fate
     qui voi due?[pause]
   - |-
-    [\x0207][\x020902]3Stiamo cercando
+    \x02\x07\x02\x09\x023Stiamo cercando
     il nostro amico
     Teddy.[pause]
   - |-
-    [\x0207]Signora del Gioco[\x0207]Capisco. Mi dispiace
-    per lo spavento.[pause][\x0203]Anche io mi preoccupo
+    \x02\x07Signora del Gioco\x02\x07Capisco. Mi dispiace
+    per lo spavento.[pause]\x02\x03Anche io mi preoccupo
     per lui. Forse l'ha
     preso Topo Fortunato.[pause]
   - |-
-    [\x0207][\x020902]3Topo
+    \x02\x07\x02\x09\x023Topo
     Fortunato?[pause]
   - |-
-    [\x0207]Signora del Gioco[\x0207]È un criminale.
+    \x02\x07Signora del Gioco\x02\x07È un criminale.
     Vuole distruggere
-    Digimon Online![pause][\x0203]È colpa sua se il
+    Digimon Online![pause]\x02\x03È colpa sua se il
     sistema sta avendo
     dei problemi![pause]
   - |-
-    [\x0207][\x020902]3Ma tutti si stanno
+    \x02\x07\x02\x09\x023Ma tutti si stanno
     divertendo con Digimon
     Online![pause]
   - |-
-    [\x0207][\x020902]3Non ci credo.
+    \x02\x07\x02\x09\x023Non ci credo.
     Topo Fortunato![pause]
-  - '[\x0207]Kail[\x0207]... ...[pause]'
+  - '\x02\x07Kail\x02\x07... ...[pause]'
   - |-
-    [\x0207]Signora del Gioco[\x0207]Adesso tutto il
+    \x02\x07Signora del Gioco\x02\x07Adesso tutto il
     nostro staff lo
-    sta cercando.[pause][\x0203]Oh, ma certo!
+    sta cercando.[pause]\x02\x03Oh, ma certo!
     Ci aiuterete?[pause]
   - |-
-    [\x0207][\x020902]3Lasciate
+    \x02\x07\x02\x09\x023Lasciate
     fare a noi![pause]
   - |-
-    [\x0207]Signora del Gioco[\x0207]Grazie.
+    \x02\x07Signora del Gioco\x02\x07Grazie.
     Conto su
-    di voi.[pause][\x0203]Credo sia
+    di voi.[pause]\x02\x03Credo sia
     nel Settore
     Ovest![pause]

@@ -1,28 +1,28 @@
 strings:
   - ''
   - |-
-    [\x0207]Chef de Suzaku[\x0207]Mon Digimon
-    a perdu, non ![pause][\x0203]Tant pis. Quel
+    \x02\x07Chef de Suzaku\x02\x07Mon Digimon
+    a perdu, non ![pause]\x02\x03Tant pis. Quel
     est ton nom ?[pause]
-  - '[\x0207][\x020902]3[\x020801][\x020501] ![pause]'
+  - '\x02\x07\x02\x09\x023\x02\x08\x01\x02\x05\x01 ![pause]'
   - |-
-    [\x0207]Chef de Suzaku[\x0207]C'est un nom
-    sympa ![pause][\x0203]OK, je te
+    \x02\x07Chef de Suzaku\x02\x07C'est un nom
+    sympa ![pause]\x02\x03OK, je te
     donne ça.[pause]
   - |-
-    [\x0207][\x020902]3Super, j'ai
+    \x02\x07\x02\x09\x023Super, j'ai
     le Badge
-    de Suzaku ![pause][\x0203]Il me faut
+    de Suzaku ![pause]\x02\x03Il me faut
     à présent le
     Badge Byakko.[pause]
   - |-
-    [\x0207]Chef Susaku[\x0207]Le Secteur Ouest n'est
+    \x02\x07Chef Susaku\x02\x07Le Secteur Ouest n'est
     pas facile à atteindre,
-    il faut franchir l'océan.[pause][\x0203]Il n'y a qu'une façon d'y
+    il faut franchir l'océan.[pause]\x02\x03Il n'y a qu'une façon d'y
     aller. Tu dois appeler
-    Submarimon.[pause][\x0203]Pour appeler Submarimon,
+    Submarimon.[pause]\x02\x03Pour appeler Submarimon,
     il te faut le Digi-Oeuf
-    de la Fiabilité.[pause][\x0203]Récolte des infos à ce
-    sujet dans ce secteur.[pause][\x0203]C'est la seule piste que
+    de la Fiabilité.[pause]\x02\x03Récolte des infos à ce
+    sujet dans ce secteur.[pause]\x02\x03C'est la seule piste que
     je puisse te donner.
     Bonne chance ![pause]

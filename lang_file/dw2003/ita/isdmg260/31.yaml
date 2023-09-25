@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Costa troppo,
+    \x02\x07\x02\x09\x023Costa troppo,
     e c'è altra
-    roba che voglio.[pause][\x0203]Tornerò quando
+    roba che voglio.[pause]\x02\x03Tornerò quando
     avrò i soldi.[pause]

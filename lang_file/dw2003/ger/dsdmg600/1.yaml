@@ -1,19 +1,19 @@
 strings:
   - ''
   - |-
-    [\x0207]Byakko Leader[\x0207]Ha ha ha!
+    \x02\x07Byakko Leader\x02\x07Ha ha ha!
     Du bist stark.
     Ich mag dich.[pause]
   - |-
-    [\x0207][\x020902]3Also gut,...[pause][\x0203]Es geht um diesen
+    \x02\x07\x02\x09\x023Also gut,...[pause]\x02\x03Es geht um diesen
     Typen namens
     Lucky Mouse...[pause]
   - |-
-    [\x0207]Byakko Leader[\x0207]Einen Moment noch
+    \x02\x07Byakko Leader\x02\x07Einen Moment noch
     Das Byakko-Abzei.
-    ist in dem Raum.[pause][\x0203]Hol es dir, dann
+    ist in dem Raum.[pause]\x02\x03Hol es dir, dann
     höre ich dir zu.[pause]
   - |-
-    [\x0207][\x020902]3OK, bin so-
+    \x02\x07\x02\x09\x023OK, bin so-
     fort zurück.
     Warte hier![pause]

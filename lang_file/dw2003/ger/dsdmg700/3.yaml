@@ -1,18 +1,18 @@
 strings:
   - ''
   - |-
-    [\x0207]Junior[\x0207]Wow! Das ist also
-    die Kammer?[pause][\x0203]Jetzt kann das Spiel
+    \x02\x07Junior\x02\x07Wow! Das ist also
+    die Kammer?[pause]\x02\x03Jetzt kann das Spiel
     beginnen...
     Wie aufregend![pause]
-  - "[\\x0207]Operator[\\x0207]Mit welchem \nNamen seid ihr\nregistriert?[pause]"
-  - '[\x0207]Junior[\x0207]Mit [\x020801][\x020501][pause]'
+  - "\\x02\\x07Operator\\x02\\x07Mit welchem \nNamen seid ihr\nregistriert?[pause]"
+  - '\x02\x07Junior\x02\x07Mit \x02\x08\x01\x02\x05\x01[pause]'
   - |-
-    [\x0207]Operator[\x0207]...Bestätigt.
-    Vielen Dank.[pause][\x0203]Bitte betretet die
+    \x02\x07Operator\x02\x07...Bestätigt.
+    Vielen Dank.[pause]\x02\x03Bitte betretet die
     Kammerkapsel
     dort drüben.[pause]
-  - '[\x0207]Junior[\x0207]OK![pause]'
+  - '\x02\x07Junior\x02\x07OK![pause]'
   - a
-  - "[\\x0207]Ivy[\\x0207]Hey! Gehst\ndu etwa \nohne uns![pause]"
-  - "[\\x0207]Teddy[\\x0207]Junior, \nwarte![pause]"
+  - "\\x02\\x07Ivy\\x02\\x07Hey! Gehst\ndu etwa \nohne uns![pause]"
+  - "\\x02\\x07Teddy\\x02\\x07Junior, \nwarte![pause]"

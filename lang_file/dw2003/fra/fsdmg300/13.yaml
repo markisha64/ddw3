@@ -1,98 +1,98 @@
 strings:
   - ''
   - |-
-    [\x0207]Garçon[\x0207]Mais ?! Vous
-    êtes de l'AoA ?[pause][\x0203]Je ne me
-    rendrai pas ![pause][\x0203]Je vais vous
+    \x02\x07Garçon\x02\x07Mais ?! Vous
+    êtes de l'AoA ?[pause]\x02\x03Je ne me
+    rendrai pas ![pause]\x02\x03Je vais vous
     battre avec mes
     Digimons...[pause]
   - |-
-    [\x0207][\x020902]3Attends ! Je
+    \x02\x07\x02\x09\x023Attends ! Je
     ne suis pas
-    de l'AoA ![pause][\x0203]Je suis [\x020801][\x020501] !
+    de l'AoA ![pause]\x02\x03Je suis \x02\x08\x01\x02\x05\x01 !
     Je viens du
     Serveur Asuka ![pause]
   - |-
-    [\x0207]Le garçon[\x0207]Vraiment ? Désolé,
+    \x02\x07Le garçon\x02\x07Vraiment ? Désolé,
      je croyais que tu
-    étais des leurs.[pause][\x0203]Je m'appelle Kenny.[pause][\x0203]Comment es-tu arrivé
+    étais des leurs.[pause]\x02\x03Je m'appelle Kenny.[pause]\x02\x03Comment es-tu arrivé
     jusqu'à Amaterasu ?[pause]
   - |-
-    [\x0207][\x020902]3Par la brèche de
+    \x02\x07\x02\x09\x023Par la brèche de
     sécurité creusée
-    par Bulbmon.[pause][\x0203]Kenny, sais-tu où
+    par Bulbmon.[pause]\x02\x03Kenny, sais-tu où
     se trouve le Digi-
     Oeuf du Savoir ?[pause]
   - |-
-    [\x0207]Kenny le Brave[\x0207]Euh, non. Pas du
-    tout. Désolé...[pause][\x0203]Même si je le savais,
+    \x02\x07Kenny le Brave\x02\x07Euh, non. Pas du
+    tout. Désolé...[pause]\x02\x03Même si je le savais,
     ce serait impossible
-    de le chercher ![pause][\x0203]Ce serveur est
+    de le chercher ![pause]\x02\x03Ce serveur est
     contrôlé par
     l'AoA ![pause]
   - |-
-    [\x0207][\x020902]3Comment savoir
-    sans essayer ?[pause][\x0203]Qu'est-il arrivé
+    \x02\x07\x02\x09\x023Comment savoir
+    sans essayer ?[pause]\x02\x03Qu'est-il arrivé
     aux autres
     dresseurs ?[pause]
   - |-
-    [\x0207]Kenny le Brave[\x0207]Ils nous ont forcés
+    \x02\x07Kenny le Brave\x02\x07Ils nous ont forcés
     à former des Dig
-    à la guerre.[pause][\x0203]Ensuite, ils les ont
+    à la guerre.[pause]\x02\x03Ensuite, ils les ont
     tous transformés
     en Oinkmons ![pause]
   - |-
-    [\x0207][\x020902]3Encore !
-    Oh non ![pause][\x0203]Cela ne va pas
+    \x02\x07\x02\x09\x023Encore !
+    Oh non ![pause]\x02\x03Cela ne va pas
     se passer
     comme ça ![pause]
   - |-
-    [\x0207]Kenny le Brave[\x0207]C'est ce que nous
-    pensons tous ![pause][\x0203]Tous ceux qui n'ont
-    pas été capturés... [pause][\x0203]se regroupent pour
-    s'opposer à l'AoA.[pause][\x0203]Je veux me joindre
+    \x02\x07Kenny le Brave\x02\x07C'est ce que nous
+    pensons tous ![pause]\x02\x03Tous ceux qui n'ont
+    pas été capturés... [pause]\x02\x03se regroupent pour
+    s'opposer à l'AoA.[pause]\x02\x03Je veux me joindre
     à eux, et je suis à
     leur recherche.[pause]
   - |-
-    [\x0207][\x020902]3Des résistants...
+    \x02\x07\x02\x09\x023Des résistants...
     J'aimerais aussi leur
-    venir en aide, mais...[pause][\x0203]il me faut l'Oeuf du
+    venir en aide, mais...[pause]\x02\x03il me faut l'Oeuf du
     Savoir pour aller
     dans le Monde Réel ![pause]
   - |-
-    [\x0207]Kenny le Brave[\x0207]Je vois.
-    Dommage... [pause][\x0203]Bon, j'y vais.
+    \x02\x07Kenny le Brave\x02\x07Je vois.
+    Dommage... [pause]\x02\x03Bon, j'y vais.
     Sois prudent,
-    [\x020801][\x020501].[pause]
+    \x02\x08\x01\x02\x05\x01.[pause]
   - |-
-    [\x0207][\x020902]3Oui, toi
+    \x02\x07\x02\x09\x023Oui, toi
     aussi ![pause]
   - |-
-    [\x0207]Kenny le Brave[\x0207]Au fait ![pause][\x0203]Tu auras besoin de
+    \x02\x07Kenny le Brave\x02\x07Au fait ![pause]\x02\x03Tu auras besoin de
     ça pour te
     déplacer ici ![pause]
   - |-
-    [\x0207][\x020902]3J'ai le
+    \x02\x07\x02\x09\x023J'ai le
     Passe-
     Partout ![pause]
   - |-
-    [\x0207]Kenny le Brave[\x0207]Avec ça, ils te
+    \x02\x07Kenny le Brave\x02\x07Avec ça, ils te
     prendront pour un
-    membre de l'AoA ![pause][\x0203]Si tu es malin,
+    membre de l'AoA ![pause]\x02\x03Si tu es malin,
     tout ira
     bien ![pause]
   - |-
-    [\x0207][\x020902]3Je te
+    \x02\x07\x02\x09\x023Je te
     revaudrai
     ça ![pause]
   - |-
-    [\x0207]Kenny le Brave[\x0207]J'y vais.
+    \x02\x07Kenny le Brave\x02\x07J'y vais.
     Fais attention
     à toi ![pause]
   - |-
-    [\x0207][\x020902]3Oui, on va
+    \x02\x07\x02\x09\x023Oui, on va
     leur donner
     une raclée ![pause]
   - |-
-    [\x0207][\x020902]3Cherchons le Digi-
+    \x02\x07\x02\x09\x023Cherchons le Digi-
     Oeuf du Savoir ![pause]

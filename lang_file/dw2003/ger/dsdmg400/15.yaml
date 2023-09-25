@@ -1,28 +1,28 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Hey Zanbamon!
+    \x02\x07\x02\x09\x023Hey Zanbamon!
     Diesmal komme
     ich durch![pause]
   - |-
-    [\x0207]Zanbamon[\x0207]Ha, ha, ha, ha!
+    \x02\x07Zanbamon\x02\x07Ha, ha, ha, ha!
     Du gibst wohl
-    nie auf, oder?[pause][\x0203]Du kannst nicht
+    nie auf, oder?[pause]\x02\x03Du kannst nicht
     gewinnen, egal
     was du tust![pause]
   - |-
-    [\x0207][\x020902]3Das werden wir
+    \x02\x07\x02\x09\x023Das werden wir
     ja sehen. Sieh
     mal, was ich hab.[pause]
   - |-
-    [\x0207]Zanbamon[\x0207]Bäh, ist das
+    \x02\x07Zanbamon\x02\x07Bäh, ist das
     etwa Riech-
     kraut!?[pause]
   - |-
-    [\x0207][\x020902]3Klar. Jetzt
+    \x02\x07\x02\x09\x023Klar. Jetzt
     gehe ich.[pause]
   - |-
-    [\x0207]Zanbamon[\x0207]Ertrag's nicht!
+    \x02\x07Zanbamon\x02\x07Ertrag's nicht!
     OK, diesmal h.
-    du gewonnen![pause][\x0203]Aber ich ver-
+    du gewonnen![pause]\x02\x03Aber ich ver-
     gess dich nicht![pause]

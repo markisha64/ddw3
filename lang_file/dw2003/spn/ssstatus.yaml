@@ -86,23 +86,23 @@ strings:
   - Dos manos
   - Quitar equipo actual.
   - PV curados al máximo.
-  - '[\x020501] PV curados.'
-  - PV máximo +[\x020501].
-  - PM máximo + [\x020501].
-  - Fuerza + [\x020501].
-  - Defensa + [\x020501].
-  - Espíritu + [\x020501].
-  - Sabiduría + [\x020501].
-  - Velocidad + [\x020501].
-  - Carisma + [\x020501].
-  - Tolerancia al Fuego + [\x020501].
-  - Tolerancia al Agua + [\x020501].
-  - Tolerancia al Hielo + [\x020501].
-  - Tolerancia al Viento + [\x020501].
-  - Tolerancia a Rayo + [\x020501].
-  - Tolerancia a Máquina + [\x020501].
-  - Tolerancia a Oscuridad + [\x020501].
-  - PE + [\x020501].
+  - '\x02\x05\x01 PV curados.'
+  - PV máximo +\x02\x05\x01.
+  - PM máximo + \x02\x05\x01.
+  - Fuerza + \x02\x05\x01.
+  - Defensa + \x02\x05\x01.
+  - Espíritu + \x02\x05\x01.
+  - Sabiduría + \x02\x05\x01.
+  - Velocidad + \x02\x05\x01.
+  - Carisma + \x02\x05\x01.
+  - Tolerancia al Fuego + \x02\x05\x01.
+  - Tolerancia al Agua + \x02\x05\x01.
+  - Tolerancia al Hielo + \x02\x05\x01.
+  - Tolerancia al Viento + \x02\x05\x01.
+  - Tolerancia a Rayo + \x02\x05\x01.
+  - Tolerancia a Máquina + \x02\x05\x01.
+  - Tolerancia a Oscuridad + \x02\x05\x01.
+  - PE + \x02\x05\x01.
   - Ningún Artículo.
   - Ningún Arma.
   - Ninguna Armadura.

@@ -38,7 +38,7 @@ strings:
   - Register account?
   - YES
   - NO
-  - '[\x020501]%'
+  - '\x02\x05\x01%'
   - |-
     Weapon, magic attacks and
     healing. Best pack for team work.

@@ -1,20 +1,20 @@
 strings:
   - ''
   - |-
-    [\x0207]HiAndromon[\x0207]Rispetto la
+    \x02\x07HiAndromon\x02\x07Rispetto la
     tua forza. Puoi
-    passare![pause][\x0203]Numemon è nelle
+    passare![pause]\x02\x03Numemon è nelle
     fogne oltre
-    le scale segrete.[pause][\x0203]Ti ho aperto
+    le scale segrete.[pause]\x02\x03Ti ho aperto
     la porta per le
-    scale segrete.[pause][\x0203]Vai, ma prima
+    scale segrete.[pause]\x02\x03Vai, ma prima
     prendi questo
     vecchio fucile.[pause]
   - |-
-    [\x0207][\x020902]3Ho il vecchio
-    fucile! Wow![pause][\x0203]Bene HiAndromon,
+    \x02\x07\x02\x09\x023Ho il vecchio
+    fucile! Wow![pause]\x02\x03Bene HiAndromon,
     grazie! Vado![pause]
   - |-
-    [\x0207]HiAndromon[\x0207]Il nemico sarà
+    \x02\x07HiAndromon\x02\x07Il nemico sarà
     più forte da qui
     in avanti![pause]

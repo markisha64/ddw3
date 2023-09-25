@@ -1,12 +1,12 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Je veux te
+    \x02\x07\x02\x09\x023Je veux te
     défier ![pause]
   - |-
-    [\x0207]Pharaohmon[\x0207]Tu es bien
-    audacieux ![pause][\x0203]Je t'avertis
+    \x02\x07Pharaohmon\x02\x07Tu es bien
+    audacieux ![pause]\x02\x03Je t'avertis
     que je suis
     puissant ![pause]
-  - "[\\x0207][\\x020902]3Cela reste \nà confirmer ![pause]"
-  - "[\\x0207]Pharaohmon[\\x0207]Bon, tu es \nprêt.[pause][\\x0203]Je vais utiliser \nma force \nmaximale ![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Cela reste \nà confirmer ![pause]"
+  - "\\x02\\x07Pharaohmon\\x02\\x07Bon, tu es \nprêt.[pause]\\x02\\x03Je vais utiliser \nma force \nmaximale ![pause]"

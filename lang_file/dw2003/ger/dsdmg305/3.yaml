@@ -1,7 +1,7 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Cool! Tatsächlich
-    eine Geheimtür![pause][\x0203]Gamemaster
+    \x02\x07\x02\x09\x023Cool! Tatsächlich
+    eine Geheimtür![pause]\x02\x03Gamemaster
     müsste direkt da
     vorne sein![pause]

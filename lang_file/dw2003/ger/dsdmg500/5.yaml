@@ -1,33 +1,33 @@
 strings:
   - ''
   - |-
-    [\x0207]Numemon[\x0207]Hier sind wir
+    \x02\x07Numemon\x02\x07Hier sind wir
     sicher.[pause]
   - |-
-    [\x0207][\x020902]3Hey, danke![pause][\x0203]Was ist denn
+    \x02\x07\x02\x09\x023Hey, danke![pause]\x02\x03Was ist denn
     mit den Leuten
-    aus Byakko City?[pause][\x0203]Ihr Leader hat ge-
+    aus Byakko City?[pause]\x02\x03Ihr Leader hat ge-
     logen u. mich i. d.
     Keller geworfen.[pause]
-  - "[\\x0207]Numemon[\\x0207]Der Leader und \nalle anderen sind\nBetrüger![pause]"
+  - "\\x02\\x07Numemon\\x02\\x07Der Leader und \nalle anderen sind\nBetrüger![pause]"
   - |-
-    [\x0207][\x020902]3Was? Wer
+    \x02\x07\x02\x09\x023Was? Wer
     war das
     dann?[pause]
   - |-
-    [\x0207]Numemon[\x0207]Das geht dich
-    nichts an![pause][\x0203]Um den echten Lea-
+    \x02\x07Numemon\x02\x07Das geht dich
+    nichts an![pause]\x02\x03Um den echten Lea-
     der zu treffen, musst
     du in die Möbiuswüste.[pause]
-  - "[\\x0207][\\x020902]3Hey hey, \nAugenblick! Was\ngeht hier vor?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Hey hey, \nAugenblick! Was\ngeht hier vor?[pause]"
   - |-
-    [\x0207]Numemon[\x0207]Mehr kann ich dir
-    nicht sagen![pause][\x0203]Halte dich von
+    \x02\x07Numemon\x02\x07Mehr kann ich dir
+    nicht sagen![pause]\x02\x03Halte dich von
     Byakko City fern![pause]
   - |-
-    [\x0207][\x020902]3Na gut.
+    \x02\x07\x02\x09\x023Na gut.
     Bis dann![pause]
   - |-
-    [\x0207][\x020902]3Also gut, dann suche
+    \x02\x07\x02\x09\x023Also gut, dann suche
     ich den echten Leader
     und rede mit ihm![pause]

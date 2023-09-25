@@ -1,27 +1,27 @@
 strings:
   - ''
   - |-
-    [\x0207]???[\x0207]GUBIIIII![pause][\x0203]Risposta Digimon,
+    \x02\x07???\x02\x07GUBIIIII![pause]\x02\x03Risposta Digimon,
     risposta Digimon![pause]
   - |-
-    [\x0207][\x020902]3Cos'è? È un
+    \x02\x07\x02\x09\x023Cos'è? È un
     Digimon che non
     mai visto prima.[pause]
-  - '[\x0207]???[\x0207]GUBI?[pause]'
+  - '\x02\x07???\x02\x07GUBI?[pause]'
   - |-
-    [\x0207][\x020902]3Non sembra
+    \x02\x07\x02\x09\x023Non sembra
     un Digimon
     cattivo...[pause]
   - |-
-    [\x0207][\x020902]3Ehi, apri.[pause][\x0203]Devo sconfiggere
+    \x02\x07\x02\x09\x023Ehi, apri.[pause]\x02\x03Devo sconfiggere
     i cattivi![pause]
   - |-
-    [\x0207]???[\x0207]Cattivi?
+    \x02\x07???\x02\x07Cattivi?
     Chi?[pause]
   - |-
-    [\x0207][\x020902]3Umm, per
+    \x02\x07\x02\x09\x023Umm, per
     farla breve...[pause]
   - |-
-    [\x0207]???[\x0207]Mangio Digimon!
+    \x02\x07???\x02\x07Mangio Digimon!
     Divento
-    forte![pause][\x0203]GUBIIII![pause]
+    forte![pause]\x02\x03GUBIIII![pause]

@@ -1,22 +1,22 @@
 strings:
   - ''
   - |-
-    [\x0207]Attacker[\x0207]No, nooooo...
-    my Digimon...[pause][\x0203]You're going to
+    \x02\x07Attacker\x02\x07No, nooooo...
+    my Digimon...[pause]\x02\x03You're going to
     pay for that![pause]
   - |-
-    [\x0207]Lisa[\x0207]Thank you, [\x020801][\x020501].
+    \x02\x07Lisa\x02\x07Thank you, \x02\x08\x01\x02\x05\x01.
     You've saved me
     again![pause]
-  - "[\\x0207]Kail[\\x0207]But Kurt is...!\nI thought I finally \nfound him and...[pause]"
-  - '[\x0207]Kurt[\x0207]Oink, oink![pause]'
-  - "[\\x0207][\\x020902]3...OK, I've made my \ndecision! I'm going to \nAsuka City![pause][\\x0203]I'm going to rescue\nTeddy and trash \nthe Game Master![pause]"
+  - "\\x02\\x07Kail\\x02\\x07But Kurt is...!\nI thought I finally \nfound him and...[pause]"
+  - '\x02\x07Kurt\x02\x07Oink, oink![pause]'
+  - "\\x02\\x07\\x02\\x09\\x023...OK, I've made my \ndecision! I'm going to \nAsuka City![pause]\\x02\\x03I'm going to rescue\nTeddy and trash \nthe Game Master![pause]"
   - |-
-    [\x0207]Kail[\x0207]Yeah, let's beat up
-    the A.o.A![pause][\x0203]And change Kurt
+    \x02\x07Kail\x02\x07Yeah, let's beat up
+    the A.o.A![pause]\x02\x03And change Kurt
     back![pause]
-  - "[\\x0207]Lisa[\\x0207]I'm asking you to \ndo this as well![pause][\\x0203]But I don't want\npeople to panic...[pause][\\x0203]So can you keep \nquiet about the\nA.o.A?[pause]"
-  - '[\x0207][\x020902]3Roger that![pause]'
-  - "[\\x0207][\\x020902]3OK, Kail. \nI'm going![pause]"
-  - "[\\x0207]Kail[\\x0207]Look, if you lose, I'll \nnever forgive you, you \ngot that?![pause]"
-  - "[\\x0207]Lisa[\\x0207]Good luck! I'm \nrooting for you![pause]"
+  - "\\x02\\x07Lisa\\x02\\x07I'm asking you to \ndo this as well![pause]\\x02\\x03But I don't want\npeople to panic...[pause]\\x02\\x03So can you keep \nquiet about the\nA.o.A?[pause]"
+  - '\x02\x07\x02\x09\x023Roger that![pause]'
+  - "\\x02\\x07\\x02\\x09\\x023OK, Kail. \nI'm going![pause]"
+  - "\\x02\\x07Kail\\x02\\x07Look, if you lose, I'll \nnever forgive you, you \ngot that?![pause]"
+  - "\\x02\\x07Lisa\\x02\\x07Good luck! I'm \nrooting for you![pause]"

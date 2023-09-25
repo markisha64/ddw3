@@ -2,7 +2,7 @@ strings:
   - ''
   - SAVE
   - SAVING
-  - '[\x020501]'
+  - '\x02\x05\x01'
   - |-
     Checking MEMORY CARD.
     Do not touch MEMORY CARD.
@@ -63,4 +63,4 @@ strings:
     MEMORY CARD error.
     Please check MEMORY CARD.
   - Digimon World 2003
-  - Accessing MEMORY CARD slot [\x020501]
+  - Accessing MEMORY CARD slot \x02\x05\x01

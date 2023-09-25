@@ -1,8 +1,8 @@
 strings:
   - ''
   - |-
-    [\x0207]Domatr. Haruka[\x0207]Va bene. Segui
+    \x02\x07Domatr. Haruka\x02\x07Va bene. Segui
     la tua strada
-    con coraggio.[pause][\x0203]E rallegrati
+    con coraggio.[pause]\x02\x03E rallegrati
     per la mia
     generosità![pause]

@@ -1,12 +1,12 @@
 strings:
   - ''
-  - "[\\x0207]Zambamon[\\x0207]¡Eh, espera,\nespeeera![pause][\\x0203]¡No te voy a \ndejar pasar por \naquí![pause]"
-  - "[\\x0207][\\x020902]3Tienes que estar \nde broma. ¡Tengo\nque pasar![pause]"
+  - "\\x02\\x07Zambamon\\x02\\x07¡Eh, espera,\nespeeera![pause]\\x02\\x03¡No te voy a \ndejar pasar por \naquí![pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Tienes que estar \nde broma. ¡Tengo\nque pasar![pause]"
   - |-
-    [\x0207]Zambamon[\x0207]Entonces intenta
-    ganarme.[pause][\x0203]¡Por supuesto!
+    \x02\x07Zambamon\x02\x07Entonces intenta
+    ganarme.[pause]\x02\x03¡Por supuesto!
     ¡Yo nunca pierdo!
     ¡Ja ja ja ja![pause]
   - |-
-    [\x0207][\x020902]3Sí, claro.[pause][\x0203]¡Siempre hay
+    \x02\x07\x02\x09\x023Sí, claro.[pause]\x02\x03¡Siempre hay
     una primera![pause]

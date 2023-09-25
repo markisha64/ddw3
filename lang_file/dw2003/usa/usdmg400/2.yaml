@@ -1,7 +1,7 @@
 strings:
   - ''
-  - "[\\x0207][\\x020902]3Seiryu Leader,\nI defeated \nMasterTyranno![pause][\\x0203]Now will you \nbattle with me?[pause]"
+  - "\\x02\\x07\\x02\\x09\\x023Seiryu Leader,\nI defeated \nMasterTyranno![pause]\\x02\\x03Now will you \nbattle with me?[pause]"
   - |-
-    [\x0207]Seiryu Leader[\x0207]I see. You have
-    the Old Claw.[pause][\x0203]All right. Make
+    \x02\x07Seiryu Leader\x02\x07I see. You have
+    the Old Claw.[pause]\x02\x03All right. Make
     your move![pause]

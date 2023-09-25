@@ -1,3 +1,3 @@
 strings:
   - ''
-  - "[\\x0207]Divermon[\\x0207]Ho perso male![pause][\\x0203]Non devo usare\nsolo le carte \npreferite![pause]"
+  - "\\x02\\x07Divermon\\x02\\x07Ho perso male![pause]\\x02\\x03Non devo usare\nsolo le carte \npreferite![pause]"

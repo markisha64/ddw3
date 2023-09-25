@@ -1,15 +1,15 @@
 strings:
   - ''
   - |-
-    [\x0207][\x020902]3Häh?
+    \x02\x07\x02\x09\x023Häh?
     Keiner
     da...[pause]
-  - "Ich bin Lord Megadeath, der\nZerstörer der echten und\nder digitalen Welt.[pause][\\x0203]Und ich werde der Gott in\nder neuen Welt sein, wenn\nalles zerstört wurde...[pause][\\x0203]Jetzt komm zu mir, \nstärkster Tamer...[pause][\\x0203]Ich warte auf dich\nbeim Militärsatelliten\nGunslinger![pause]"
+  - "Ich bin Lord Megadeath, der\nZerstörer der echten und\nder digitalen Welt.[pause]\\x02\\x03Und ich werde der Gott in\nder neuen Welt sein, wenn\nalles zerstört wurde...[pause]\\x02\\x03Jetzt komm zu mir, \nstärkster Tamer...[pause]\\x02\\x03Ich warte auf dich\nbeim Militärsatelliten\nGunslinger![pause]"
   - |-
-    [\x0207][\x020902]3...was?!
+    \x02\x07\x02\x09\x023...was?!
     Gunslinger?![pause]
   - |-
     Ich zeige dir die präch-
     tige, ruhmreiche Gestalt,
     die im All schwebt...[pause]
-  - '[\x0207][\x020902]3...wawas?![pause]'
+  - '\x02\x07\x02\x09\x023...wawas?![pause]'

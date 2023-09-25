@@ -1,9 +1,9 @@
 strings:
   - ''
-  - "[\\x0207]M. Smith[\\x0207]A vous de jouer ! Voici\nle clou de la vente ![pause][\\x0203]Le Bouclier du Péril, \nconvoité par tous ![pause][\\x0203]Le bouclier exclusif de \nGuilmon est proposé \nà 400 BIT au départ ![pause]"
-  - '[\x0207]Marchand Abel[\x0207]500 BIT ![pause]'
-  - '[\x0207]Chef Milly[\x0207]600 BIT ![pause]'
-  - '[\x0207]Masao Fan jeu[\x0207]700 BIT ![pause]'
+  - "\\x02\\x07M. Smith\\x02\\x07A vous de jouer ! Voici\nle clou de la vente ![pause]\\x02\\x03Le Bouclier du Péril, \nconvoité par tous ![pause]\\x02\\x03Le bouclier exclusif de \nGuilmon est proposé \nà 400 BIT au départ ![pause]"
+  - '\x02\x07Marchand Abel\x02\x07500 BIT ![pause]'
+  - '\x02\x07Chef Milly\x02\x07600 BIT ![pause]'
+  - '\x02\x07Masao Fan jeu\x02\x07700 BIT ![pause]'
   - |-
-    [\x0207][\x020902]3Hmm. 800 BIT
+    \x02\x07\x02\x09\x023Hmm. 800 BIT
     ...hmmm...[pause]
