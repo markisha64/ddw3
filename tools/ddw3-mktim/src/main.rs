@@ -42,7 +42,7 @@ fn main() -> Result<(), anyhow::Error> {
 
 	// Get all args
 	let args = Args::parse();
-	tracing::trace!(?args, "Arguments");
+	tracing::debug!(?args, "Arguments");
 
 	// Read the input config
 	let config_parent = args

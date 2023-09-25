@@ -30,7 +30,7 @@ fn main() -> Result<(), anyhow::Error> {
 
 	// Get all arguments
 	let args = Args::parse();
-	tracing::trace!(?args);
+	tracing::debug!(?args, "Arguments");
 
 	// If we don't have an output, try the input filename without extension if it's `.iso`, else use `.`
 	let output_dir = match &args.output_dir {

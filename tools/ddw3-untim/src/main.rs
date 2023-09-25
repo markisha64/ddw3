@@ -27,7 +27,7 @@ fn main() -> Result<(), anyhow::Error> {
 
 	// Get all args
 	let args = Args::parse();
-	tracing::trace!(?args, "Arguments");
+	tracing::debug!(?args, "Arguments");
 
 	// Read the input file
 	let mut input = fs::File::open(&args.input).context("Unable to open input file")?;

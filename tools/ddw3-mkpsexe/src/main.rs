@@ -28,7 +28,7 @@ fn main() -> Result<(), anyhow::Error> {
 
 	// Get all args
 	let args = Args::parse();
-	tracing::trace!(?args, "Arguments");
+	tracing::debug!(?args, "Arguments");
 
 	// Open the input file, parse it, and then get it as an elf
 	let input_contents = fs::read(args.input_file).context("Unable to read input file")?;
