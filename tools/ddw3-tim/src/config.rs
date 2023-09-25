@@ -33,15 +33,23 @@ pub struct ConfigClut {
 #[derive(serde::Serialize, serde::Deserialize)]
 #[serde(tag = "kind")]
 pub enum ConfigClutKind {
-	/// User
-	#[serde(rename = "user")]
-	User { path: PathBuf },
+	/// Include.
+	///
+	/// Uses the specified clut to generate the image indexes,
+	/// and includes the clut.
+	#[serde(rename = "include")]
+	Include { path: PathBuf },
 
-	/// External
+	/// External.
+	///
+	/// Uses the specified clut to generate the image indexes,
+	/// but **does not** includes the clut.
 	#[serde(rename = "external")]
 	External { path: PathBuf },
 
 	/// Auto
+	///
+	/// Automatically generates the clut and includes it.
 	#[serde(rename = "auto")]
 	Auto,
 }

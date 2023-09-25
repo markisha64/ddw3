@@ -62,24 +62,33 @@ fn main() -> Result<(), anyhow::Error> {
 	tracing::debug!(image_width = img.width(), image_height = img.height());
 
 	// Read the clut, if any
-	let (clut_pos, clut_img, include_clut) = match config.clut {
-		None => (None, None, true),
-		Some(clut) => {
-			let (clut_img, include_clut) = match &clut.kind {
-				ConfigClutKind::User { path } | ConfigClutKind::External { path } => {
+	let clut = match config.clut {
+		// If no clut was specified, we don't include it
+		None => None,
+
+		// Else check the kind of clut we have
+		Some(clut_config) => {
+			let clut_img = match &clut_config.kind {
+				ConfigClutKind::Include { path } | ConfigClutKind::External { path } => {
 					let clut_img_path = ddw3_util::resolve_input_path(path, config_parent);
 					tracing::debug!(?clut_img_path);
-					let clut_img = image::open(&clut_img_path)
+
+					image::open(&clut_img_path)
 						.context("Unable to read clut")?
-						.into_rgba16();
-					tracing::debug!(clut_width = clut_img.width(), clut_height = clut_img.height());
-
-					(Some(clut_img), matches!(clut.kind, ConfigClutKind::User { .. }))
+						.into_rgba16()
 				},
-				ConfigClutKind::Auto => (None, true),
-			};
 
-			(Some(clut.pos), clut_img, include_clut)
+				// TODO: Auto-generate the clut
+				ConfigClutKind::Auto => anyhow::bail!("Cannot auto generate clut yet"),
+			};
+			tracing::debug!(clut_width = clut_img.width(), clut_height = clut_img.height());
+
+			let clut = Clut {
+				pos:     clut_config.pos,
+				img:     clut_img,
+				include: matches!(clut_config.kind, ConfigClutKind::Include { .. } | ConfigClutKind::Auto),
+			};
+			Some(clut)
 		},
 	};
 
@@ -90,13 +99,19 @@ fn main() -> Result<(), anyhow::Error> {
 		.try_into()
 		.context("Image height didn't fit into a `u16`")?;
 	let img = match config.bpp {
+		// If we're indexed
 		Bpp::Indexed4 | Bpp::Indexed8 => {
-			// Build the reverse lookup table
-			let rev_clut = match &clut_img {
-				Some(clut_img) => self::generate_rev_clut(clut_img),
-				None => anyhow::bail!("Indexed images with no clut aren't supported yet"),
+			// Ensure we have a clut
+			// Note: Auto-generated cluts will have been generated before this
+			let Some(clut) = &clut else {
+				anyhow::bail!("Missing clut on indexed image");
 			};
 
+			// Build the reverse lookup table
+			let rev_clut = self::generate_rev_clut(&clut.img);
+
+			// Then build the image from the reverse lookup table
+			// TODO: This might get slow on large images, speed it up?
 			let idxs = img
 				.pixels()
 				.map(|color| {
@@ -108,8 +123,13 @@ fn main() -> Result<(), anyhow::Error> {
 						.context("Clut had too many colors for this bpp")
 				})
 				.collect::<Result<_, anyhow::Error>>()?;
+
 			Image::Indexed(IndexedImg { idxs })
 		},
+
+		// If we're colored
+		// TODO: No need to check if the clut is present, as the user can have a color
+		//       image with a clut, despite it being useless by itself.
 		Bpp::Color16 | Bpp::Color24 => {
 			let colors = img.pixels().map(|pixel| Color::from_rgba(pixel.0)).collect();
 			Image::Color(ColorImg { colors })
@@ -122,32 +142,26 @@ fn main() -> Result<(), anyhow::Error> {
 	// Write the header
 	let header = TimHeader {
 		bpp:      config.bpp,
-		has_clut: clut_img.is_some(),
+		has_clut: clut.is_some(),
 	};
 	let header_bytes = header.to_bytes().into_ok();
 	output_file.write_all(&header_bytes).context("Unable to write header")?;
 
-	// Write the clut, if any
-	if let Some(clut_img) = &clut_img && include_clut {
+	// Write the clut, if any and it should be included
+	if let Some(clut) = clut && clut.include {
+		// && include_clut
 		// Convert the clut
-		let width = clut_img
-			.width()
-			.try_into()
-			.context("Clut width didn't fit into a `u16`")?;
-		let height = clut_img
-			.height()
-			.try_into()
-			.context("Clut height didn't fit into a `u16`")?;
-		let colors = clut_img.pixels().map(|pixel| Color::from_rgba(pixel.0)).collect();
+		let width = u16::try_from(clut.img.width()).context("Clut width didn't fit into a `u16`")?;
+		let height = u16::try_from(clut.img.height()).context("Clut height didn't fit into a `u16`")?;
+		let colors = clut.img.pixels().map(|pixel| Color::from_rgba(pixel.0)).collect();
 		let clut_img = ColorImg { colors };
 
 		// Write the header
-		let clut_pos = clut_pos.unwrap_or([0, 0]);
 		let clut_header = ImgHeader {
 			total_size: 12 +
 				u32::try_from(clut_img.colors.len()).context("Number of colors in clut didn't fit into a `u32`")? * 2,
-			pos_x: clut_pos[0],
-			pos_y: clut_pos[1],
+			pos_x: clut.pos[0],
+			pos_y: clut.pos[1],
 			width,
 			height,
 		};
@@ -237,4 +251,17 @@ fn generate_rev_clut(clut_img: &image::ImageBuffer<image::Rgba<u16>, Vec<u16>>) 
 		.unique_by(|(_, &color)| color)
 		.map(|(idx, &color)| (color, idx))
 		.collect::<HashMap<_, _>>()
+}
+
+/// Clut
+#[derive(Debug)]
+struct Clut {
+	/// Position
+	pos: [u16; 2],
+
+	/// Image
+	img: image::ImageBuffer<image::Rgba<u16>, Vec<u16>>,
+
+	/// If the clut should be included
+	include: bool,
 }

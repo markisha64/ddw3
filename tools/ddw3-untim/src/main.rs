@@ -178,7 +178,7 @@ fn main() -> Result<(), anyhow::Error> {
 			clut: clut.as_ref().map(|(clut_header, _)| ConfigClut {
 				pos:  [clut_header.pos_x, clut_header.pos_y],
 				kind: match &args.output_clut {
-					Some(clut_path) => ConfigClutKind::User {
+					Some(clut_path) => ConfigClutKind::Include {
 						path: pathdiff::diff_paths(clut_path, output_yaml_parent)
 							.unwrap_or_else(|| Path::new("/").join(clut_path)),
 					},
