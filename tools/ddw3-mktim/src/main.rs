@@ -33,7 +33,11 @@ use {
 		TimHeader,
 	},
 	itertools::Itertools,
-	std::{collections::HashMap, fs, io::Write},
+	std::{
+		collections::HashMap,
+		fs,
+		io::{self, Write},
+	},
 };
 
 fn main() -> Result<(), anyhow::Error> {
@@ -137,7 +141,8 @@ fn main() -> Result<(), anyhow::Error> {
 	};
 
 	// Create the output file
-	let mut output_file = fs::File::create(&args.output).context("Unable to create output file")?;
+	let output_file = fs::File::create(&args.output).context("Unable to create output file")?;
+	let mut output_file = io::BufWriter::new(output_file);
 
 	// Write the header
 	let header = TimHeader {
