@@ -1,5 +1,12 @@
 //! Image
 
+// TODO: We currently use `u16` for precision, given that
+//       with `u8` some different colors overlap. This is likely
+//       due to `image`'s rounding method being different, as the
+//       max precision is `u8` for the tim images.
+//       We should re-encode the pngs to `u8` with the correct roundings
+//       and take those into account when converting back.
+
 // Header
 pub mod header;
 
