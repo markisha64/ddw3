@@ -9,20 +9,19 @@ The name stands for "Decompilation - Digimon World 3/2003"
 Currently the following is done:
 
 - ✅: Done
--
 - 🚧: In work
 - 🛑: Not started
 
 | Project            | Status | Comments                                                                                                              |
 | ------------------ | ------ | --------------------------------------------------------------------------------------------------------------------- |
 | Digimon world 3    | 🛑     | For now, 2003 is receiving the main focus. It should be easy to make it catch up to it, but it will require some time |
-| Digimon world 2003 | 🚧     | See [this section](##2003)                                                                                            |
+| Digimon world 2003 | 🚧     | See [this section](#2003)                                                                                             |
 
 ## 2003
 
 | Project                         | Status  | Comments                                                                                                                                                                 |
 | ------------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Executable (and dylibs)         | 🚧      | Fully disassembled in `asm/`. Some parts have been organized, but it's mostly still just machine-generated.                                                              |
+| Executable (and dylibs)         | 🚧      | Fully disassembled in `asm/` and `rust/` (mostly data here). Some parts have been organized, but it's mostly still just machine-generated.                               |
 | Images (`tim`s)                 | ✅ (🚧) | All found `tim`s have been fully converted to pngs with their `clut`s as separate png files in `tim/`. Further work should be done here to convert them to a single file |
 | Localization files (lang files) | ✅ (🚧) | All found localization files are in `lang_file/`. Some escape codes are currently unknown and need to be documented                                                      |
 | Video (`str`s)                  | 🛑      | They remain in their original `str` file format. In the future we would want to convert them to another file format that would support lossless conversion to `str`.     |
@@ -30,7 +29,7 @@ Currently the following is done:
 
 # Documentation
 
-See [`docs/index.MD`]() for an introduction to the repository.
+See [`docs/index.MD`](docs/index.md) for an introduction to the repository.
 
 # Building
 

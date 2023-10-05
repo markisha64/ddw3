@@ -25,33 +25,32 @@ bpp: Indexed4 | Indexed8 | Color16 | Color24
 # Palette data
 # Note: Only used if `Indexed4` or `Indexed8`
 clut:
-	# Position to store the clut at
-	pos:
-		- <x position>
-		- <y position>
+  # Position to store the clut at
+  pos:
+    - <x position>
+    - <y position>
 
-	# Kind of palette:
-	# - `include`: Uses the clut to generate the indices
-	#   for the image, and will include the clut.
-	# - `external`: Uses the clut to generate the indices
-	#   for the image, but will *not* include the clut.
-	# - `auto`. Automatically calculates the clut from
-	#   the given image, and includes it.
-	kind: include
-	path: 0.clut.png
+  # Kind of palette:
+  # - `include`: Uses the clut to generate the indices
+  #   for the image, and will include the clut.
+  # - `external`: Uses the clut to generate the indices
+  #   for the image, but will *not* include the clut.
+  # - `auto`. Automatically calculates the clut from
+  #   the given image, and includes it.
+  kind: include
+  path: 0.clut.png
 
 # Image data
 img:
-	# Note: Required even when using indexed images
-	pos:
-		- <x position>
-		- <y position>
+  # Note: Required even when using indexed images
+  pos:
+    - <x position>
+    - <y position>
 
-	# Path to the image
-	# Note: Even when indexed, this should be a png.
-	#       The indices will be calculated from the clut.
-	path: <path to image>
-
+  # Path to the image
+  # Note: Even when indexed, this should be a png.
+  #       The indices will be calculated from the clut.
+  path: <path to image>
 ```
 
 Then using `build/tools/ddw3-mktim <yaml> --output <tim>`
