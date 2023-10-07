@@ -1,0 +1,16 @@
+width: 4
+height: 3
+entries:
+- S256PACK/0.bin
+- S256PACK/1.bin
+- S256PACK/2.bin
+- S256PACK/3.bin
+- S256PACK/4.bin
+- S256PACK/5.bin
+- S256PACK/6.bin
+- S256PACK/7.bin
+- S256PACK/8.bin
+- S256PACK/9.bin
+- S256PACK/10.bin
+- S256PACK/11.bin
+extra_padding: 14336

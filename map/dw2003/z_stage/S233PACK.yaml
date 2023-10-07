@@ -1,0 +1,24 @@
+width: 5
+height: 4
+entries:
+- S233PACK/0.bin
+- S233PACK/1.bin
+- S233PACK/2.bin
+- S233PACK/3.bin
+- S233PACK/4.bin
+- S233PACK/5.bin
+- S233PACK/6.bin
+- S233PACK/7.bin
+- S233PACK/8.bin
+- S233PACK/9.bin
+- S233PACK/10.bin
+- S233PACK/11.bin
+- S233PACK/12.bin
+- S233PACK/13.bin
+- S233PACK/14.bin
+- S233PACK/15.bin
+- S233PACK/16.bin
+- S233PACK/17.bin
+- S233PACK/18.bin
+- S233PACK/19.bin
+extra_padding: 4096

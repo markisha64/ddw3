@@ -1,0 +1,16 @@
+width: 4
+height: 3
+entries:
+- S255PACK/0.bin
+- S255PACK/1.bin
+- S255PACK/2.bin
+- S255PACK/3.bin
+- S255PACK/4.bin
+- S255PACK/5.bin
+- S255PACK/6.bin
+- S255PACK/7.bin
+- S255PACK/8.bin
+- S255PACK/9.bin
+- S255PACK/10.bin
+- S255PACK/11.bin
+extra_padding: 14336

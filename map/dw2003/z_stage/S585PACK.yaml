@@ -1,0 +1,25 @@
+width: 5
+height: 4
+entries:
+- S585PACK/0.bin
+- S585PACK/1.bin
+- S585PACK/2.bin
+- S585PACK/3.bin
+- S585PACK/4.bin
+- S585PACK/5.bin
+- S585PACK/6.bin
+- S585PACK/7.bin
+- S585PACK/8.bin
+- S585PACK/9.bin
+- S585PACK/10.bin
+- S585PACK/11.bin
+- S585PACK/12.bin
+- S585PACK/13.bin
+- S585PACK/14.bin
+- S585PACK/15.bin
+- S585PACK/16.bin
+- S585PACK/17.bin
+- S585PACK/18.bin
+- S585PACK/19.bin
+override_entries_len: 18
+extra_padding: 18432

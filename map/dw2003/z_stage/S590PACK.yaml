@@ -1,0 +1,25 @@
+width: 5
+height: 4
+entries:
+- S590PACK/0.bin
+- S590PACK/1.bin
+- S590PACK/2.bin
+- S590PACK/3.bin
+- S590PACK/4.bin
+- S590PACK/5.bin
+- S590PACK/6.bin
+- S590PACK/7.bin
+- S590PACK/8.bin
+- S590PACK/9.bin
+- S590PACK/10.bin
+- S590PACK/11.bin
+- S590PACK/12.bin
+- S590PACK/13.bin
+- S590PACK/14.bin
+- S590PACK/15.bin
+- S590PACK/16.bin
+- S590PACK/17.bin
+- S590PACK/18.bin
+- S590PACK/19.bin
+override_entries_len: 18
+extra_padding: 18432

@@ -1,0 +1,14 @@
+width: 3
+height: 3
+entries:
+- S475PACK/0.bin
+- S475PACK/1.bin
+- S475PACK/2.bin
+- S475PACK/3.bin
+- S475PACK/4.bin
+- S475PACK/5.bin
+- S475PACK/6.bin
+- S475PACK/7.bin
+- S475PACK/8.bin
+override_entries_len: 8
+extra_padding: 12288

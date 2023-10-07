@@ -1,0 +1,25 @@
+width: 5
+height: 4
+entries:
+- S596PACK/0.bin
+- S596PACK/1.bin
+- S596PACK/2.bin
+- S596PACK/3.bin
+- S596PACK/4.bin
+- S596PACK/5.bin
+- S596PACK/6.bin
+- S596PACK/7.bin
+- S596PACK/8.bin
+- S596PACK/9.bin
+- S596PACK/10.bin
+- S596PACK/11.bin
+- S596PACK/12.bin
+- S596PACK/13.bin
+- S596PACK/14.bin
+- S596PACK/15.bin
+- S596PACK/16.bin
+- S596PACK/17.bin
+- S596PACK/18.bin
+- S596PACK/19.bin
+override_entries_len: 18
+extra_padding: 18432

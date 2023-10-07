@@ -1,0 +1,20 @@
+width: 5
+height: 3
+entries:
+- S270PACK/0.bin
+- S270PACK/1.bin
+- S270PACK/2.bin
+- S270PACK/3.bin
+- S270PACK/4.bin
+- S270PACK/5.bin
+- S270PACK/6.bin
+- S270PACK/7.bin
+- S270PACK/8.bin
+- S270PACK/9.bin
+- S270PACK/10.bin
+- S270PACK/11.bin
+- S270PACK/12.bin
+- S270PACK/13.bin
+- S270PACK/14.bin
+override_entries_len: 12
+extra_padding: 16384

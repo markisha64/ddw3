@@ -26,13 +26,15 @@ alias:
   ld_from_yaml            : tools/ld_from_yaml.py
   ld_from_yaml_deps       : tools/ld_from_yaml_deps.py
   process_path            : tools/process_path.py
-  mkpack_deps           : tools/mkpack_deps.py
+  mkpack_deps             : tools/mkpack_deps.py
+  mkmap_deps              : tools/mkmap_deps.py
 
   # Cargo tools
   mkpsexe    : $(build_rust_tool_dir)/ddw3-mkpsexe
   mklang_file: $(build_rust_tool_dir)/ddw3-mklang-file
   mkpack     : $(build_rust_tool_dir)/ddw3-mkpack
   mktim      : $(build_rust_tool_dir)/ddw3-mktim
+  mkmap      : $(build_rust_tool_dir)/ddw3-mkmap
 
   # Directories
   build_dir  : build
@@ -47,6 +49,7 @@ alias:
   build_lang_file_dir: $(build_dir)/lang_file
   build_pack_dir     : $(build_dir)/pack
   build_tim_dir      : $(build_dir)/tim
+  build_map_dir      : $(build_dir)/map
 
   # Licenses
   license_psx_iso : licenses/psx-bin.dat
@@ -100,7 +103,7 @@ alias:
   lang_file     : $(build_lang_file_dir)/^(path).bin
   lang_file_yaml: lang_file/^(path).yaml
 
-  # Sprite
+  # Pack
   pack     : $(build_pack_dir)/^(path).bin
   pack_deps: $(build_pack_dir)/^(path).d
   pack_yaml: pack/^(path).yaml
@@ -110,6 +113,11 @@ alias:
   tim_img : tim/^(path).png
   tim_clut: tim/^(path).clut.png
   tim_yaml: tim/^(path).yaml
+
+  # Map
+  map     : $(build_map_dir)/^(path).bin
+  map_deps: $(build_map_dir)/^(path).d
+  map_yaml: map/^(path).yaml
 
   # Rust library
   rust_lib     : $(build_rust_dir)/^(name).a
@@ -323,7 +331,7 @@ rules:
         - $(tim_yaml)
         - --output=$(tim)
 
-  # Sprite
+  # Pack
   pack:
     out: [$(pack)]
     deps:
@@ -336,7 +344,7 @@ rules:
         - $(pack_yaml)
         - --output=$(pack)
 
-  # Sprite dependencies
+  # Pack dependencies
   pack_deps:
     out: [$(pack_deps)]
     deps:
@@ -351,6 +359,35 @@ rules:
         - $(pack)
         - --deps
         - $(pack_deps)
+
+  # Map
+  map:
+    out: [$(map)]
+    deps:
+      - $(map_yaml)
+      - $(mkmap)
+      - deps_file: $(map_deps)
+      - static: $(map::dir_name)/
+    exec:
+      - - $(mkmap)
+        - $(map_yaml)
+        - --output=$(map)
+
+  # Map dependencies
+  map_deps:
+    out: [$(map_deps)]
+    deps:
+      - $(map_yaml)
+      - $(mkmap_deps)
+      - static: $(map_deps::dir_name)/
+    exec:
+      - - $(python3)
+        - $(mkmap_deps)
+        - $(map_yaml)
+        - -o
+        - $(map)
+        - --deps
+        - $(map_deps)
 
   # Elf
   elf:

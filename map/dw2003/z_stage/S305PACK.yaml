@@ -1,0 +1,25 @@
+width: 5
+height: 4
+entries:
+- S305PACK/0.bin
+- S305PACK/1.bin
+- S305PACK/2.bin
+- S305PACK/3.bin
+- S305PACK/4.bin
+- S305PACK/5.bin
+- S305PACK/6.bin
+- S305PACK/7.bin
+- S305PACK/8.bin
+- S305PACK/9.bin
+- S305PACK/10.bin
+- S305PACK/11.bin
+- S305PACK/12.bin
+- S305PACK/13.bin
+- S305PACK/14.bin
+- S305PACK/15.bin
+- S305PACK/16.bin
+- S305PACK/17.bin
+- S305PACK/18.bin
+- S305PACK/19.bin
+override_entries_len: 17
+extra_padding: 16384

@@ -1,0 +1,24 @@
+width: 5
+height: 4
+entries:
+- S212PACK/0.bin
+- S212PACK/1.bin
+- S212PACK/2.bin
+- S212PACK/3.bin
+- S212PACK/4.bin
+- S212PACK/5.bin
+- S212PACK/6.bin
+- S212PACK/7.bin
+- S212PACK/8.bin
+- S212PACK/9.bin
+- S212PACK/10.bin
+- S212PACK/11.bin
+- S212PACK/12.bin
+- S212PACK/13.bin
+- S212PACK/14.bin
+- S212PACK/15.bin
+- S212PACK/16.bin
+- S212PACK/17.bin
+- S212PACK/18.bin
+- S212PACK/19.bin
+extra_padding: 2048

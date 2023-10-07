@@ -1,0 +1,16 @@
+width: 3
+height: 4
+entries:
+- S460PACK/0.bin
+- S460PACK/1.bin
+- S460PACK/2.bin
+- S460PACK/3.bin
+- S460PACK/4.bin
+- S460PACK/5.bin
+- S460PACK/6.bin
+- S460PACK/7.bin
+- S460PACK/8.bin
+- S460PACK/9.bin
+- S460PACK/10.bin
+- S460PACK/11.bin
+extra_padding: 16384

@@ -1,0 +1,24 @@
+width: 5
+height: 4
+entries:
+- S425PACK/0.bin
+- S425PACK/1.bin
+- S425PACK/2.bin
+- S425PACK/3.bin
+- S425PACK/4.bin
+- S425PACK/5.bin
+- S425PACK/6.bin
+- S425PACK/7.bin
+- S425PACK/8.bin
+- S425PACK/9.bin
+- S425PACK/10.bin
+- S425PACK/11.bin
+- S425PACK/12.bin
+- S425PACK/13.bin
+- S425PACK/14.bin
+- S425PACK/15.bin
+- S425PACK/16.bin
+- S425PACK/17.bin
+- S425PACK/18.bin
+- S425PACK/19.bin
+extra_padding: 16384

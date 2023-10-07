@@ -1,0 +1,20 @@
+width: 5
+height: 3
+entries:
+- S271PACK/0.bin
+- S271PACK/1.bin
+- S271PACK/2.bin
+- S271PACK/3.bin
+- S271PACK/4.bin
+- S271PACK/5.bin
+- S271PACK/6.bin
+- S271PACK/7.bin
+- S271PACK/8.bin
+- S271PACK/9.bin
+- S271PACK/10.bin
+- S271PACK/11.bin
+- S271PACK/12.bin
+- S271PACK/13.bin
+- S271PACK/14.bin
+override_entries_len: 12
+extra_padding: 14336

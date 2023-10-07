@@ -1,0 +1,17 @@
+width: 4
+height: 3
+entries:
+- S701PACK/0.bin
+- S701PACK/1.bin
+- S701PACK/2.bin
+- S701PACK/3.bin
+- S701PACK/4.bin
+- S701PACK/5.bin
+- S701PACK/6.bin
+- S701PACK/7.bin
+- S701PACK/8.bin
+- S701PACK/9.bin
+- S701PACK/10.bin
+- S701PACK/11.bin
+override_entries_len: 10
+extra_padding: 16384

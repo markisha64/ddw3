@@ -1,0 +1,25 @@
+width: 5
+height: 4
+entries:
+- S586PACK/0.bin
+- S586PACK/1.bin
+- S586PACK/2.bin
+- S586PACK/3.bin
+- S586PACK/4.bin
+- S586PACK/5.bin
+- S586PACK/6.bin
+- S586PACK/7.bin
+- S586PACK/8.bin
+- S586PACK/9.bin
+- S586PACK/10.bin
+- S586PACK/11.bin
+- S586PACK/12.bin
+- S586PACK/13.bin
+- S586PACK/14.bin
+- S586PACK/15.bin
+- S586PACK/16.bin
+- S586PACK/17.bin
+- S586PACK/18.bin
+- S586PACK/19.bin
+override_entries_len: 18
+extra_padding: 18432

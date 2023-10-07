@@ -1,0 +1,13 @@
+width: 3
+height: 3
+entries:
+- S241PACK/0.bin
+- S241PACK/1.bin
+- S241PACK/2.bin
+- S241PACK/3.bin
+- S241PACK/4.bin
+- S241PACK/5.bin
+- S241PACK/6.bin
+- S241PACK/7.bin
+- S241PACK/8.bin
+extra_padding: 14336

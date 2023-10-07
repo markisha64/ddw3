@@ -1,0 +1,25 @@
+width: 5
+height: 4
+entries:
+- S601PACK/0.bin
+- S601PACK/1.bin
+- S601PACK/2.bin
+- S601PACK/3.bin
+- S601PACK/4.bin
+- S601PACK/5.bin
+- S601PACK/6.bin
+- S601PACK/7.bin
+- S601PACK/8.bin
+- S601PACK/9.bin
+- S601PACK/10.bin
+- S601PACK/11.bin
+- S601PACK/12.bin
+- S601PACK/13.bin
+- S601PACK/14.bin
+- S601PACK/15.bin
+- S601PACK/16.bin
+- S601PACK/17.bin
+- S601PACK/18.bin
+- S601PACK/19.bin
+override_entries_len: 18
+extra_padding: 18432
