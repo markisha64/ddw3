@@ -14,7 +14,7 @@ use {
 	clap::Parser,
 	std::{
 		fs,
-		io::{self, BufReader, BufWriter, Seek},
+		io::{self, BufReader, BufWriter, Seek, Write},
 		path::PathBuf,
 	},
 };
@@ -56,7 +56,17 @@ fn main() -> Result<(), anyhow::Error> {
 			let mut entry = fs::File::open(&*entry_path).context("Unable to open entry file")?;
 
 			// And copy it to the output
-			io::copy(&mut entry, &mut output).context("Unable to copy entry file to output")?;
+			let entry_len = io::copy(&mut entry, &mut output).context("Unable to copy entry file to output")?;
+
+			// Then pad the entry to word size
+			let cur_pos = entry_pos + entry_len;
+			if cur_pos % 4 != 0 {
+				let remaining = 4 - (cur_pos % 4);
+				let remaining = usize::try_from(remaining).expect("Pad size didn't fit into `usize`");
+				output
+					.write_all(&[0u8; 4][..remaining])
+					.context("Unable to pad output to word size")?;
+			}
 
 			Ok::<_, anyhow::Error>(entry_pos)
 		})
