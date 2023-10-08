@@ -9,7 +9,7 @@ use {
 
 /// Macro to declare all codepoints
 macro decl_codepoints(
-	$Codepoint:ident, $Other1:ident, $Other2:ident, $Other3:ident, $decode:ident, $encode:ident, $parse:ident;
+	$Codepoint:ident, $Other1:ident, $Other2:ident, $Other3:ident, $decode:ident, $encode:ident, $len:ident, $parse:ident;
 
 	$(
 		$( $byte:literal ),+ => $Variant:ident, $name:literal, $repr:literal;
@@ -74,6 +74,20 @@ macro decl_codepoints(
 			Ok(())
 		}
 
+		/// Returns the size of this codepoint
+		#[expect(clippy::len_without_is_empty, reason = "We are never empty")]
+		pub fn $len(self) -> u8 {
+			match self {
+				$(
+					Self::$Variant => [ $($byte),* ].len() as u8,
+				)*
+
+				Self::$Other1(_) => 1,
+				Self::$Other2(_) => 2,
+				Self::$Other3(_) => 3,
+			}
+		}
+
 		/// Parses a codepoint from a string.
 		///
 		/// Returns the remaining string
@@ -113,7 +127,7 @@ macro decl_codepoints(
 // TODO: Some codepoints seem to be locale-dependent, for e.g.,
 //       [0x01, 0x3b] is `InvertedExclamationMark` in ENG and SPN, but
 //       seems to be `LatinCapitalLetterT` in ITA.
-decl_codepoints! { Codepoint, Other1, Other2, Other3, decode, encode, parse;
+decl_codepoints! { Codepoint, Other1, Other2, Other3, decode, encode, len, parse;
 	0x00 => Null, "Null", "\\0";
 
 	0x03 => Unknown03, "Unknown03", "\\x03";

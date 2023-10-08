@@ -8,7 +8,8 @@
 	fn_traits,
 	tuple_trait,
 	impl_trait_in_assoc_type,
-	int_roundings
+	int_roundings,
+	type_alias_impl_trait
 )]
 
 // Modules
@@ -68,14 +69,12 @@ impl LangFile {
 	///
 	/// Returns the size of the file.
 	pub fn encode<W: io::Write + io::Seek>(&self, mut writer: W) -> Result<u64, anyhow::Error> {
-		let start_pos = writer.stream_position().context("Unable to get stream position")?;
-
 		// Seek past the header
 		// Note: We'll write it later, so we have all the positions of each string
 		let header_len = 4 + 4 * self.strings.len();
 		let header_len = u64::try_from(header_len).context("Header length didn't fit into a `u64`")?;
 		writer
-			.seek(io::SeekFrom::Start(start_pos + header_len))
+			.seek(io::SeekFrom::Start(header_len))
 			.context("Unable to seek past header")?;
 
 		// Write all strings and take note of their position
@@ -89,31 +88,26 @@ impl LangFile {
 				// Note: We can't do this *after* writing the null terminator, because
 				//       the final entry doesn't need to be aligned.
 				let string_pos = cur_pos.next_multiple_of(4);
+				cur_pos = string_pos;
 				writer
-					.seek(io::SeekFrom::Start(start_pos + string_pos))
+					.seek(io::SeekFrom::Start(cur_pos))
 					.context("Unable to seek to 4-byte boundary")?;
 
-				// Write the string
-				for &codepoint in s {
+				// Write the string (with the null terminator)
+				for &codepoint in s.iter().chain(&[Codepoint::Null]) {
 					codepoint
 						.encode(&mut writer)
 						.context("Unable to write codepoint to output")?;
+					cur_pos += u64::from(codepoint.len());
 				}
 
-				// Then write the null terminator
-				Codepoint::Null
-					.encode(&mut writer)
-					.context("Unable to write null terminator to output")?;
-
-				// Finally update the current position
-				cur_pos = writer.stream_position().context("Unable to get stream position")? - start_pos;
 				Ok(string_pos)
 			})
 			.collect::<Result<Vec<_>, anyhow::Error>>()?;
 
 		// Then go back and write the header
 		writer
-			.seek(io::SeekFrom::Start(start_pos))
+			.seek(io::SeekFrom::Start(0))
 			.context("Unable to seek back to header")?;
 		let strings_len = u32::try_from(self.strings.len()).context("Unable to convert strings' length to `u32`")?;
 		writer

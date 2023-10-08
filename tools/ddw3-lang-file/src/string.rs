@@ -15,27 +15,12 @@ pub struct String {
 	codepoints: Vec<Codepoint>,
 }
 
-impl IntoIterator for String {
-	type Item = Codepoint;
-
-	type IntoIter = impl Iterator<Item = Self::Item>;
-
-	fn into_iter(self) -> Self::IntoIter {
-		self.codepoints.into_iter()
-	}
-}
-
-impl<'a> IntoIterator for &'a String {
-	type Item = &'a Codepoint;
-
-	type IntoIter = impl Iterator<Item = Self::Item> + 'a;
-
-	fn into_iter(self) -> Self::IntoIter {
-		self.codepoints.iter()
-	}
-}
-
 impl String {
+	/// Returns an iterator over all codepoints
+	pub fn iter(&self) -> Iter<'_> {
+		self.into_iter()
+	}
+
 	/// Parses a null-terminated.
 	pub fn parse_null_terminated<R: io::Read + io::Seek>(mut reader: R) -> Result<Self, anyhow::Error> {
 		iter::from_fn(|| match Codepoint::decode(&mut reader) {
@@ -82,6 +67,25 @@ impl String {
 	}
 }
 
+impl IntoIterator for String {
+	type Item = Codepoint;
+
+	type IntoIter = impl Iterator<Item = Self::Item>;
+
+	fn into_iter(self) -> Self::IntoIter {
+		self.codepoints.into_iter()
+	}
+}
+
+impl<'a> IntoIterator for &'a String {
+	type IntoIter = Iter<'a>;
+	type Item = &'a Codepoint;
+
+	fn into_iter(self) -> Self::IntoIter {
+		self.codepoints.iter()
+	}
+}
+
 impl fmt::Display for String {
 	fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
 		for codepoint in &self.codepoints {
@@ -116,3 +120,6 @@ impl FromIterator<Codepoint> for String {
 		}
 	}
 }
+
+/// Iterator type for [`String`]
+pub type Iter<'a> = impl Iterator<Item = &'a Codepoint> + 'a;
