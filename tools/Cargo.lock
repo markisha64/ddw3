@@ -440,6 +440,22 @@ dependencies = [
 ]
 
 [[package]]
+name = "ddw3-mkrlen"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "byteorder",
+ "clap",
+ "ddw3-logger",
+ "ddw3-util",
+ "itertools 0.11.0",
+ "pathdiff",
+ "serde",
+ "serde_yaml",
+ "tracing",
+]
+
+[[package]]
 name = "ddw3-mktim"
 version = "0.1.0"
 dependencies = [
@@ -549,6 +565,21 @@ dependencies = [
 
 [[package]]
 name = "ddw3-unpack"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "byteorder",
+ "clap",
+ "ddw3-logger",
+ "itertools 0.11.0",
+ "pathdiff",
+ "serde",
+ "serde_yaml",
+ "tracing",
+]
+
+[[package]]
+name = "ddw3-unrlen"
 version = "0.1.0"
 dependencies = [
  "anyhow",

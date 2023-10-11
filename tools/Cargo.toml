@@ -33,6 +33,10 @@ members = [
 	"ddw3-unmap",
 	"ddw3-mkmap",
 
+	# RLen
+	"ddw3-unrlen",
+	"ddw3-mkrlen",
+
 	# Util
 	"ddw3-bytes",
 	"ddw3-util",
@@ -72,6 +76,7 @@ ddw3-lang-file = { path = "ddw3-lang-file" }
 ddw3-logger = { path = "ddw3-logger" }
 ddw3-mklang-file = { path = "ddw3-mklang-file" }
 ddw3-mkpsexe = { path = "ddw3-mkpsexe" }
+ddw3-mkrlen = { path = "ddw3-mkrlen" }
 ddw3-mkmap = { path = "ddw3-mkmap" }
 ddw3-mkpack = { path = "ddw3-mkpack" }
 ddw3-mktim = { path = "ddw3-untim" }
@@ -82,5 +87,6 @@ ddw3-uniso = { path = "ddw3-uniso" }
 ddw3-unlang-file = { path = "ddw3-unlang-file" }
 ddw3-unmap = { path = "ddw3-unmap" }
 ddw3-unpack = { path = "ddw3-unpack" }
+ddw3-unrlen = { path = "ddw3-unrlen" }
 ddw3-untim = { path = "ddw3-untim" }
 ddw3-util = { path = "ddw3-util" }
