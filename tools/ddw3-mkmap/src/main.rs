@@ -60,6 +60,7 @@ fn main() -> Result<(), anyhow::Error> {
 		})
 		.collect::<Result<Vec<_>, anyhow::Error>>()?;
 	let entry_step = entry_lens.iter().copied().max().context("No entries")?;
+	let entry_step = entry_step.next_multiple_of(0x800);
 
 	// Write each file
 	for (entry_path, entry_idx) in input.entries.iter().zip(0..entries_len) {
@@ -112,6 +113,7 @@ fn main() -> Result<(), anyhow::Error> {
 		.context("Unable to write entry step")?;
 
 	for entry_size in entry_lens {
+		let entry_size = entry_size.next_multiple_of(0x800);
 		output
 			.write_u16::<LittleEndian>(entry_size)
 			.context("Unable to write header entry")?;
