@@ -1,24 +1,24 @@
 width: 5
 height: 4
 entries:
-- S656PACK/0.bin
-- S656PACK/1.bin
-- S656PACK/2.bin
-- S656PACK/3.bin
-- S656PACK/4.bin
-- S656PACK/5.bin
-- S656PACK/6.bin
-- S656PACK/7.bin
-- S656PACK/8.bin
-- S656PACK/9.bin
-- S656PACK/10.bin
-- S656PACK/11.bin
-- S656PACK/12.bin
-- S656PACK/13.bin
-- S656PACK/14.bin
-- S656PACK/15.bin
-- S656PACK/16.bin
-- S656PACK/17.bin
-- S656PACK/18.bin
-- S656PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S656PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S656PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S656PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S656PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S656PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S656PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S656PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S656PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S656PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S656PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S656PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S656PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S656PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S656PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S656PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S656PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S656PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S656PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S656PACK/18.bin
+  - /build/rlen/dw2003/z_stage/S656PACK/19.bin
 extra_padding: 4096

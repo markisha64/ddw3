@@ -1,49 +1,49 @@
 width: 9
 height: 5
 entries:
-- S686PACK/0.bin
-- S686PACK/1.bin
-- S686PACK/2.bin
-- S686PACK/3.bin
-- S686PACK/4.bin
-- S686PACK/5.bin
-- S686PACK/6.bin
-- S686PACK/7.bin
-- S686PACK/8.bin
-- S686PACK/9.bin
-- S686PACK/10.bin
-- S686PACK/11.bin
-- S686PACK/12.bin
-- S686PACK/13.bin
-- S686PACK/14.bin
-- S686PACK/15.bin
-- S686PACK/16.bin
-- S686PACK/17.bin
-- S686PACK/18.bin
-- S686PACK/19.bin
-- S686PACK/20.bin
-- S686PACK/21.bin
-- S686PACK/22.bin
-- S686PACK/23.bin
-- S686PACK/24.bin
-- S686PACK/25.bin
-- S686PACK/26.bin
-- S686PACK/27.bin
-- S686PACK/28.bin
-- S686PACK/29.bin
-- S686PACK/30.bin
-- S686PACK/31.bin
-- S686PACK/32.bin
-- S686PACK/33.bin
-- S686PACK/34.bin
-- S686PACK/35.bin
-- S686PACK/36.bin
-- S686PACK/37.bin
-- S686PACK/38.bin
-- S686PACK/39.bin
-- S686PACK/40.bin
-- S686PACK/41.bin
-- S686PACK/42.bin
-- S686PACK/43.bin
-- S686PACK/44.bin
+  - S686PACK/0.bin
+  - S686PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S686PACK/2.bin
+  - S686PACK/3.bin
+  - S686PACK/4.bin
+  - S686PACK/5.bin
+  - S686PACK/6.bin
+  - S686PACK/7.bin
+  - S686PACK/8.bin
+  - S686PACK/9.bin
+  - S686PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S686PACK/11.bin
+  - S686PACK/12.bin
+  - S686PACK/13.bin
+  - S686PACK/14.bin
+  - S686PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S686PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S686PACK/17.bin
+  - S686PACK/18.bin
+  - S686PACK/19.bin
+  - S686PACK/20.bin
+  - S686PACK/21.bin
+  - S686PACK/22.bin
+  - S686PACK/23.bin
+  - S686PACK/24.bin
+  - /build/rlen/dw2003/z_stage/S686PACK/25.bin
+  - /build/rlen/dw2003/z_stage/S686PACK/26.bin
+  - S686PACK/27.bin
+  - S686PACK/28.bin
+  - S686PACK/29.bin
+  - S686PACK/30.bin
+  - S686PACK/31.bin
+  - S686PACK/32.bin
+  - S686PACK/33.bin
+  - /build/rlen/dw2003/z_stage/S686PACK/34.bin
+  - S686PACK/35.bin
+  - S686PACK/36.bin
+  - S686PACK/37.bin
+  - S686PACK/38.bin
+  - S686PACK/39.bin
+  - S686PACK/40.bin
+  - S686PACK/41.bin
+  - S686PACK/42.bin
+  - S686PACK/43.bin
+  - /build/rlen/dw2003/z_stage/S686PACK/44.bin
 extra_padding: 8192

@@ -1,29 +1,29 @@
 width: 6
 height: 4
 entries:
-- S621PACK/0.bin
-- S621PACK/1.bin
-- S621PACK/2.bin
-- S621PACK/3.bin
-- S621PACK/4.bin
-- S621PACK/5.bin
-- S621PACK/6.bin
-- S621PACK/7.bin
-- S621PACK/8.bin
-- S621PACK/9.bin
-- S621PACK/10.bin
-- S621PACK/11.bin
-- S621PACK/12.bin
-- S621PACK/13.bin
-- S621PACK/14.bin
-- S621PACK/15.bin
-- S621PACK/16.bin
-- S621PACK/17.bin
-- S621PACK/18.bin
-- S621PACK/19.bin
-- S621PACK/20.bin
-- S621PACK/21.bin
-- S621PACK/22.bin
-- S621PACK/23.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/5.bin
+  - S621PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/17.bin
+  - S621PACK/18.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/20.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/21.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S621PACK/23.bin
 override_entries_len: 23
 extra_padding: 16384

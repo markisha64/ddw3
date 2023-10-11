@@ -1,40 +1,40 @@
 width: 6
 height: 6
 entries:
-- S610PACK/0.bin
-- S610PACK/1.bin
-- S610PACK/2.bin
-- S610PACK/3.bin
-- S610PACK/4.bin
-- S610PACK/5.bin
-- S610PACK/6.bin
-- S610PACK/7.bin
-- S610PACK/8.bin
-- S610PACK/9.bin
-- S610PACK/10.bin
-- S610PACK/11.bin
-- S610PACK/12.bin
-- S610PACK/13.bin
-- S610PACK/14.bin
-- S610PACK/15.bin
-- S610PACK/16.bin
-- S610PACK/17.bin
-- S610PACK/18.bin
-- S610PACK/19.bin
-- S610PACK/20.bin
-- S610PACK/21.bin
-- S610PACK/22.bin
-- S610PACK/23.bin
-- S610PACK/24.bin
-- S610PACK/25.bin
-- S610PACK/26.bin
-- S610PACK/27.bin
-- S610PACK/28.bin
-- S610PACK/29.bin
-- S610PACK/30.bin
-- S610PACK/31.bin
-- S610PACK/32.bin
-- S610PACK/33.bin
-- S610PACK/34.bin
-- S610PACK/35.bin
+  - /build/rlen/dw2003/z_stage/S610PACK/0.bin
+  - S610PACK/1.bin
+  - S610PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S610PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S610PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S610PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S610PACK/6.bin
+  - S610PACK/7.bin
+  - S610PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S610PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S610PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S610PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S610PACK/12.bin
+  - S610PACK/13.bin
+  - S610PACK/14.bin
+  - S610PACK/15.bin
+  - S610PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S610PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S610PACK/18.bin
+  - S610PACK/19.bin
+  - S610PACK/20.bin
+  - S610PACK/21.bin
+  - S610PACK/22.bin
+  - S610PACK/23.bin
+  - /build/rlen/dw2003/z_stage/S610PACK/24.bin
+  - /build/rlen/dw2003/z_stage/S610PACK/25.bin
+  - S610PACK/26.bin
+  - S610PACK/27.bin
+  - S610PACK/28.bin
+  - S610PACK/29.bin
+  - /build/rlen/dw2003/z_stage/S610PACK/30.bin
+  - S610PACK/31.bin
+  - S610PACK/32.bin
+  - S610PACK/33.bin
+  - S610PACK/34.bin
+  - S610PACK/35.bin
 extra_padding: 2048

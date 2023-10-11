@@ -1,19 +1,19 @@
 width: 5
 height: 3
 entries:
-- S780PACK/0.bin
-- S780PACK/1.bin
-- S780PACK/2.bin
-- S780PACK/3.bin
-- S780PACK/4.bin
-- S780PACK/5.bin
-- S780PACK/6.bin
-- S780PACK/7.bin
-- S780PACK/8.bin
-- S780PACK/9.bin
-- S780PACK/10.bin
-- S780PACK/11.bin
-- S780PACK/12.bin
-- S780PACK/13.bin
-- S780PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S780PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S780PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S780PACK/2.bin
+  - S780PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S780PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S780PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S780PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S780PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S780PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S780PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S780PACK/10.bin
+  - S780PACK/11.bin
+  - S780PACK/12.bin
+  - S780PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S780PACK/14.bin
 extra_padding: 0

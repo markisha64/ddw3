@@ -1,34 +1,34 @@
 width: 6
 height: 5
 entries:
-- S310PACK/0.bin
-- S310PACK/1.bin
-- S310PACK/2.bin
-- S310PACK/3.bin
-- S310PACK/4.bin
-- S310PACK/5.bin
-- S310PACK/6.bin
-- S310PACK/7.bin
-- S310PACK/8.bin
-- S310PACK/9.bin
-- S310PACK/10.bin
-- S310PACK/11.bin
-- S310PACK/12.bin
-- S310PACK/13.bin
-- S310PACK/14.bin
-- S310PACK/15.bin
-- S310PACK/16.bin
-- S310PACK/17.bin
-- S310PACK/18.bin
-- S310PACK/19.bin
-- S310PACK/20.bin
-- S310PACK/21.bin
-- S310PACK/22.bin
-- S310PACK/23.bin
-- S310PACK/24.bin
-- S310PACK/25.bin
-- S310PACK/26.bin
-- S310PACK/27.bin
-- S310PACK/28.bin
-- S310PACK/29.bin
+  - S310PACK/0.bin
+  - S310PACK/1.bin
+  - S310PACK/2.bin
+  - S310PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S310PACK/4.bin
+  - S310PACK/5.bin
+  - S310PACK/6.bin
+  - S310PACK/7.bin
+  - S310PACK/8.bin
+  - S310PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S310PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S310PACK/11.bin
+  - S310PACK/12.bin
+  - S310PACK/13.bin
+  - S310PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S310PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S310PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S310PACK/17.bin
+  - S310PACK/18.bin
+  - /build/rlen/dw2003/z_stage/S310PACK/19.bin
+  - S310PACK/20.bin
+  - S310PACK/21.bin
+  - S310PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S310PACK/23.bin
+  - S310PACK/24.bin
+  - S310PACK/25.bin
+  - S310PACK/26.bin
+  - /build/rlen/dw2003/z_stage/S310PACK/27.bin
+  - /build/rlen/dw2003/z_stage/S310PACK/28.bin
+  - /build/rlen/dw2003/z_stage/S310PACK/29.bin
 extra_padding: 10240

@@ -1,20 +1,20 @@
 width: 5
 height: 3
 entries:
-- S237PACK/0.bin
-- S237PACK/1.bin
-- S237PACK/2.bin
-- S237PACK/3.bin
-- S237PACK/4.bin
-- S237PACK/5.bin
-- S237PACK/6.bin
-- S237PACK/7.bin
-- S237PACK/8.bin
-- S237PACK/9.bin
-- S237PACK/10.bin
-- S237PACK/11.bin
-- S237PACK/12.bin
-- S237PACK/13.bin
-- S237PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S237PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S237PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S237PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S237PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S237PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S237PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S237PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S237PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S237PACK/8.bin
+  - S237PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S237PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S237PACK/11.bin
+  - S237PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S237PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S237PACK/14.bin
 override_entries_len: 14
 extra_padding: 4096

@@ -1,44 +1,44 @@
 width: 8
 height: 5
 entries:
-- S726PACK/0.bin
-- S726PACK/1.bin
-- S726PACK/2.bin
-- S726PACK/3.bin
-- S726PACK/4.bin
-- S726PACK/5.bin
-- S726PACK/6.bin
-- S726PACK/7.bin
-- S726PACK/8.bin
-- S726PACK/9.bin
-- S726PACK/10.bin
-- S726PACK/11.bin
-- S726PACK/12.bin
-- S726PACK/13.bin
-- S726PACK/14.bin
-- S726PACK/15.bin
-- S726PACK/16.bin
-- S726PACK/17.bin
-- S726PACK/18.bin
-- S726PACK/19.bin
-- S726PACK/20.bin
-- S726PACK/21.bin
-- S726PACK/22.bin
-- S726PACK/23.bin
-- S726PACK/24.bin
-- S726PACK/25.bin
-- S726PACK/26.bin
-- S726PACK/27.bin
-- S726PACK/28.bin
-- S726PACK/29.bin
-- S726PACK/30.bin
-- S726PACK/31.bin
-- S726PACK/32.bin
-- S726PACK/33.bin
-- S726PACK/34.bin
-- S726PACK/35.bin
-- S726PACK/36.bin
-- S726PACK/37.bin
-- S726PACK/38.bin
-- S726PACK/39.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/1.bin
+  - S726PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/4.bin
+  - S726PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/8.bin
+  - S726PACK/9.bin
+  - S726PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/11.bin
+  - S726PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/18.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/20.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/21.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/23.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/24.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/25.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/26.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/27.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/28.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/29.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/30.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/31.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/32.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/33.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/34.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/35.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/36.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/37.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/38.bin
+  - /build/rlen/dw2003/z_stage/S726PACK/39.bin
 extra_padding: 18432

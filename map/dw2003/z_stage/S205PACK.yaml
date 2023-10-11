@@ -1,59 +1,59 @@
 width: 11
 height: 5
 entries:
-- S205PACK/0.bin
-- S205PACK/1.bin
-- S205PACK/2.bin
-- S205PACK/3.bin
-- S205PACK/4.bin
-- S205PACK/5.bin
-- S205PACK/6.bin
-- S205PACK/7.bin
-- S205PACK/8.bin
-- S205PACK/9.bin
-- S205PACK/10.bin
-- S205PACK/11.bin
-- S205PACK/12.bin
-- S205PACK/13.bin
-- S205PACK/14.bin
-- S205PACK/15.bin
-- S205PACK/16.bin
-- S205PACK/17.bin
-- S205PACK/18.bin
-- S205PACK/19.bin
-- S205PACK/20.bin
-- S205PACK/21.bin
-- S205PACK/22.bin
-- S205PACK/23.bin
-- S205PACK/24.bin
-- S205PACK/25.bin
-- S205PACK/26.bin
-- S205PACK/27.bin
-- S205PACK/28.bin
-- S205PACK/29.bin
-- S205PACK/30.bin
-- S205PACK/31.bin
-- S205PACK/32.bin
-- S205PACK/33.bin
-- S205PACK/34.bin
-- S205PACK/35.bin
-- S205PACK/36.bin
-- S205PACK/37.bin
-- S205PACK/38.bin
-- S205PACK/39.bin
-- S205PACK/40.bin
-- S205PACK/41.bin
-- S205PACK/42.bin
-- S205PACK/43.bin
-- S205PACK/44.bin
-- S205PACK/45.bin
-- S205PACK/46.bin
-- S205PACK/47.bin
-- S205PACK/48.bin
-- S205PACK/49.bin
-- S205PACK/50.bin
-- S205PACK/51.bin
-- S205PACK/52.bin
-- S205PACK/53.bin
-- S205PACK/54.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/0.bin
+  - S205PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/6.bin
+  - S205PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/18.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/19.bin
+  - S205PACK/20.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/21.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/23.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/24.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/25.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/26.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/27.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/28.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/29.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/30.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/31.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/32.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/33.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/34.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/35.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/36.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/37.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/38.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/39.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/40.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/41.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/42.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/43.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/44.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/45.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/46.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/47.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/48.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/49.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/50.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/51.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/52.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/53.bin
+  - /build/rlen/dw2003/z_stage/S205PACK/54.bin
 extra_padding: 12288

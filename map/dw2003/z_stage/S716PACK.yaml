@@ -1,44 +1,44 @@
 width: 8
 height: 5
 entries:
-- S716PACK/0.bin
-- S716PACK/1.bin
-- S716PACK/2.bin
-- S716PACK/3.bin
-- S716PACK/4.bin
-- S716PACK/5.bin
-- S716PACK/6.bin
-- S716PACK/7.bin
-- S716PACK/8.bin
-- S716PACK/9.bin
-- S716PACK/10.bin
-- S716PACK/11.bin
-- S716PACK/12.bin
-- S716PACK/13.bin
-- S716PACK/14.bin
-- S716PACK/15.bin
-- S716PACK/16.bin
-- S716PACK/17.bin
-- S716PACK/18.bin
-- S716PACK/19.bin
-- S716PACK/20.bin
-- S716PACK/21.bin
-- S716PACK/22.bin
-- S716PACK/23.bin
-- S716PACK/24.bin
-- S716PACK/25.bin
-- S716PACK/26.bin
-- S716PACK/27.bin
-- S716PACK/28.bin
-- S716PACK/29.bin
-- S716PACK/30.bin
-- S716PACK/31.bin
-- S716PACK/32.bin
-- S716PACK/33.bin
-- S716PACK/34.bin
-- S716PACK/35.bin
-- S716PACK/36.bin
-- S716PACK/37.bin
-- S716PACK/38.bin
-- S716PACK/39.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/1.bin
+  - S716PACK/2.bin
+  - S716PACK/3.bin
+  - S716PACK/4.bin
+  - S716PACK/5.bin
+  - S716PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/9.bin
+  - S716PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/12.bin
+  - S716PACK/13.bin
+  - S716PACK/14.bin
+  - S716PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/18.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/20.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/21.bin
+  - S716PACK/22.bin
+  - S716PACK/23.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/24.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/25.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/26.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/27.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/28.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/29.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/30.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/31.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/32.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/33.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/34.bin
+  - S716PACK/35.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/36.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/37.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/38.bin
+  - /build/rlen/dw2003/z_stage/S716PACK/39.bin
 extra_padding: 0

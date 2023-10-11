@@ -1,52 +1,52 @@
 width: 8
 height: 6
 entries:
-- S630PACK/0.bin
-- S630PACK/1.bin
-- S630PACK/2.bin
-- S630PACK/3.bin
-- S630PACK/4.bin
-- S630PACK/5.bin
-- S630PACK/6.bin
-- S630PACK/7.bin
-- S630PACK/8.bin
-- S630PACK/9.bin
-- S630PACK/10.bin
-- S630PACK/11.bin
-- S630PACK/12.bin
-- S630PACK/13.bin
-- S630PACK/14.bin
-- S630PACK/15.bin
-- S630PACK/16.bin
-- S630PACK/17.bin
-- S630PACK/18.bin
-- S630PACK/19.bin
-- S630PACK/20.bin
-- S630PACK/21.bin
-- S630PACK/22.bin
-- S630PACK/23.bin
-- S630PACK/24.bin
-- S630PACK/25.bin
-- S630PACK/26.bin
-- S630PACK/27.bin
-- S630PACK/28.bin
-- S630PACK/29.bin
-- S630PACK/30.bin
-- S630PACK/31.bin
-- S630PACK/32.bin
-- S630PACK/33.bin
-- S630PACK/34.bin
-- S630PACK/35.bin
-- S630PACK/36.bin
-- S630PACK/37.bin
-- S630PACK/38.bin
-- S630PACK/39.bin
-- S630PACK/40.bin
-- S630PACK/41.bin
-- S630PACK/42.bin
-- S630PACK/43.bin
-- S630PACK/44.bin
-- S630PACK/45.bin
-- S630PACK/46.bin
-- S630PACK/47.bin
+  - /build/rlen/dw2003/z_stage/S630PACK/0.bin
+  - S630PACK/1.bin
+  - S630PACK/2.bin
+  - S630PACK/3.bin
+  - S630PACK/4.bin
+  - S630PACK/5.bin
+  - S630PACK/6.bin
+  - S630PACK/7.bin
+  - S630PACK/8.bin
+  - S630PACK/9.bin
+  - S630PACK/10.bin
+  - S630PACK/11.bin
+  - S630PACK/12.bin
+  - S630PACK/13.bin
+  - S630PACK/14.bin
+  - S630PACK/15.bin
+  - S630PACK/16.bin
+  - S630PACK/17.bin
+  - S630PACK/18.bin
+  - S630PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S630PACK/20.bin
+  - S630PACK/21.bin
+  - S630PACK/22.bin
+  - S630PACK/23.bin
+  - S630PACK/24.bin
+  - S630PACK/25.bin
+  - /build/rlen/dw2003/z_stage/S630PACK/26.bin
+  - /build/rlen/dw2003/z_stage/S630PACK/27.bin
+  - S630PACK/28.bin
+  - S630PACK/29.bin
+  - S630PACK/30.bin
+  - S630PACK/31.bin
+  - S630PACK/32.bin
+  - S630PACK/33.bin
+  - S630PACK/34.bin
+  - S630PACK/35.bin
+  - S630PACK/36.bin
+  - S630PACK/37.bin
+  - S630PACK/38.bin
+  - S630PACK/39.bin
+  - S630PACK/40.bin
+  - S630PACK/41.bin
+  - S630PACK/42.bin
+  - S630PACK/43.bin
+  - S630PACK/44.bin
+  - S630PACK/45.bin
+  - S630PACK/46.bin
+  - S630PACK/47.bin
 extra_padding: 0

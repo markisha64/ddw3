@@ -1,24 +1,24 @@
 width: 5
 height: 4
 entries:
-- S426PACK/0.bin
-- S426PACK/1.bin
-- S426PACK/2.bin
-- S426PACK/3.bin
-- S426PACK/4.bin
-- S426PACK/5.bin
-- S426PACK/6.bin
-- S426PACK/7.bin
-- S426PACK/8.bin
-- S426PACK/9.bin
-- S426PACK/10.bin
-- S426PACK/11.bin
-- S426PACK/12.bin
-- S426PACK/13.bin
-- S426PACK/14.bin
-- S426PACK/15.bin
-- S426PACK/16.bin
-- S426PACK/17.bin
-- S426PACK/18.bin
-- S426PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S426PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S426PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S426PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S426PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S426PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S426PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S426PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S426PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S426PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S426PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S426PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S426PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S426PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S426PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S426PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S426PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S426PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S426PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S426PACK/18.bin
+  - /build/rlen/dw2003/z_stage/S426PACK/19.bin
 extra_padding: 14336

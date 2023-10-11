@@ -1,52 +1,52 @@
 width: 8
 height: 6
 entries:
-- S631PACK/0.bin
-- S631PACK/1.bin
-- S631PACK/2.bin
-- S631PACK/3.bin
-- S631PACK/4.bin
-- S631PACK/5.bin
-- S631PACK/6.bin
-- S631PACK/7.bin
-- S631PACK/8.bin
-- S631PACK/9.bin
-- S631PACK/10.bin
-- S631PACK/11.bin
-- S631PACK/12.bin
-- S631PACK/13.bin
-- S631PACK/14.bin
-- S631PACK/15.bin
-- S631PACK/16.bin
-- S631PACK/17.bin
-- S631PACK/18.bin
-- S631PACK/19.bin
-- S631PACK/20.bin
-- S631PACK/21.bin
-- S631PACK/22.bin
-- S631PACK/23.bin
-- S631PACK/24.bin
-- S631PACK/25.bin
-- S631PACK/26.bin
-- S631PACK/27.bin
-- S631PACK/28.bin
-- S631PACK/29.bin
-- S631PACK/30.bin
-- S631PACK/31.bin
-- S631PACK/32.bin
-- S631PACK/33.bin
-- S631PACK/34.bin
-- S631PACK/35.bin
-- S631PACK/36.bin
-- S631PACK/37.bin
-- S631PACK/38.bin
-- S631PACK/39.bin
-- S631PACK/40.bin
-- S631PACK/41.bin
-- S631PACK/42.bin
-- S631PACK/43.bin
-- S631PACK/44.bin
-- S631PACK/45.bin
-- S631PACK/46.bin
-- S631PACK/47.bin
+  - /build/rlen/dw2003/z_stage/S631PACK/0.bin
+  - S631PACK/1.bin
+  - S631PACK/2.bin
+  - S631PACK/3.bin
+  - S631PACK/4.bin
+  - S631PACK/5.bin
+  - S631PACK/6.bin
+  - S631PACK/7.bin
+  - S631PACK/8.bin
+  - S631PACK/9.bin
+  - S631PACK/10.bin
+  - S631PACK/11.bin
+  - S631PACK/12.bin
+  - S631PACK/13.bin
+  - S631PACK/14.bin
+  - S631PACK/15.bin
+  - S631PACK/16.bin
+  - S631PACK/17.bin
+  - S631PACK/18.bin
+  - S631PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S631PACK/20.bin
+  - S631PACK/21.bin
+  - S631PACK/22.bin
+  - S631PACK/23.bin
+  - S631PACK/24.bin
+  - S631PACK/25.bin
+  - S631PACK/26.bin
+  - /build/rlen/dw2003/z_stage/S631PACK/27.bin
+  - S631PACK/28.bin
+  - S631PACK/29.bin
+  - S631PACK/30.bin
+  - S631PACK/31.bin
+  - S631PACK/32.bin
+  - S631PACK/33.bin
+  - S631PACK/34.bin
+  - S631PACK/35.bin
+  - S631PACK/36.bin
+  - S631PACK/37.bin
+  - S631PACK/38.bin
+  - S631PACK/39.bin
+  - S631PACK/40.bin
+  - S631PACK/41.bin
+  - S631PACK/42.bin
+  - S631PACK/43.bin
+  - S631PACK/44.bin
+  - S631PACK/45.bin
+  - S631PACK/46.bin
+  - S631PACK/47.bin
 extra_padding: 0

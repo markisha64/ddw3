@@ -1,112 +1,112 @@
 width: 12
 height: 9
 entries:
-- S795PACK/0.bin
-- S795PACK/1.bin
-- S795PACK/2.bin
-- S795PACK/3.bin
-- S795PACK/4.bin
-- S795PACK/5.bin
-- S795PACK/6.bin
-- S795PACK/7.bin
-- S795PACK/8.bin
-- S795PACK/9.bin
-- S795PACK/10.bin
-- S795PACK/11.bin
-- S795PACK/12.bin
-- S795PACK/13.bin
-- S795PACK/14.bin
-- S795PACK/15.bin
-- S795PACK/16.bin
-- S795PACK/17.bin
-- S795PACK/18.bin
-- S795PACK/19.bin
-- S795PACK/20.bin
-- S795PACK/21.bin
-- S795PACK/22.bin
-- S795PACK/23.bin
-- S795PACK/24.bin
-- S795PACK/25.bin
-- S795PACK/26.bin
-- S795PACK/27.bin
-- S795PACK/28.bin
-- S795PACK/29.bin
-- S795PACK/30.bin
-- S795PACK/31.bin
-- S795PACK/32.bin
-- S795PACK/33.bin
-- S795PACK/34.bin
-- S795PACK/35.bin
-- S795PACK/36.bin
-- S795PACK/37.bin
-- S795PACK/38.bin
-- S795PACK/39.bin
-- S795PACK/40.bin
-- S795PACK/41.bin
-- S795PACK/42.bin
-- S795PACK/43.bin
-- S795PACK/44.bin
-- S795PACK/45.bin
-- S795PACK/46.bin
-- S795PACK/47.bin
-- S795PACK/48.bin
-- S795PACK/49.bin
-- S795PACK/50.bin
-- S795PACK/51.bin
-- S795PACK/52.bin
-- S795PACK/53.bin
-- S795PACK/54.bin
-- S795PACK/55.bin
-- S795PACK/56.bin
-- S795PACK/57.bin
-- S795PACK/58.bin
-- S795PACK/59.bin
-- S795PACK/60.bin
-- S795PACK/61.bin
-- S795PACK/62.bin
-- S795PACK/63.bin
-- S795PACK/64.bin
-- S795PACK/65.bin
-- S795PACK/66.bin
-- S795PACK/67.bin
-- S795PACK/68.bin
-- S795PACK/69.bin
-- S795PACK/70.bin
-- S795PACK/71.bin
-- S795PACK/72.bin
-- S795PACK/73.bin
-- S795PACK/74.bin
-- S795PACK/75.bin
-- S795PACK/76.bin
-- S795PACK/77.bin
-- S795PACK/78.bin
-- S795PACK/79.bin
-- S795PACK/80.bin
-- S795PACK/81.bin
-- S795PACK/82.bin
-- S795PACK/83.bin
-- S795PACK/84.bin
-- S795PACK/85.bin
-- S795PACK/86.bin
-- S795PACK/87.bin
-- S795PACK/88.bin
-- S795PACK/89.bin
-- S795PACK/90.bin
-- S795PACK/91.bin
-- S795PACK/92.bin
-- S795PACK/93.bin
-- S795PACK/94.bin
-- S795PACK/95.bin
-- S795PACK/96.bin
-- S795PACK/97.bin
-- S795PACK/98.bin
-- S795PACK/99.bin
-- S795PACK/100.bin
-- S795PACK/101.bin
-- S795PACK/102.bin
-- S795PACK/103.bin
-- S795PACK/104.bin
-- S795PACK/105.bin
-- S795PACK/106.bin
-- S795PACK/107.bin
+  - S795PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/18.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/20.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/21.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/23.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/24.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/25.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/26.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/27.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/28.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/29.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/30.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/31.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/32.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/33.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/34.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/35.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/36.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/37.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/38.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/39.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/40.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/41.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/42.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/43.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/44.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/45.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/46.bin
+  - S795PACK/47.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/48.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/49.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/50.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/51.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/52.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/53.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/54.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/55.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/56.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/57.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/58.bin
+  - S795PACK/59.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/60.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/61.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/62.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/63.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/64.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/65.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/66.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/67.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/68.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/69.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/70.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/71.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/72.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/73.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/74.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/75.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/76.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/77.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/78.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/79.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/80.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/81.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/82.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/83.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/84.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/85.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/86.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/87.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/88.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/89.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/90.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/91.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/92.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/93.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/94.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/95.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/96.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/97.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/98.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/99.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/100.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/101.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/102.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/103.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/104.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/105.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/106.bin
+  - /build/rlen/dw2003/z_stage/S795PACK/107.bin
 extra_padding: 2048

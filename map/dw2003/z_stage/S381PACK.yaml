@@ -1,84 +1,84 @@
 width: 10
 height: 8
 entries:
-- S381PACK/0.bin
-- S381PACK/1.bin
-- S381PACK/2.bin
-- S381PACK/3.bin
-- S381PACK/4.bin
-- S381PACK/5.bin
-- S381PACK/6.bin
-- S381PACK/7.bin
-- S381PACK/8.bin
-- S381PACK/9.bin
-- S381PACK/10.bin
-- S381PACK/11.bin
-- S381PACK/12.bin
-- S381PACK/13.bin
-- S381PACK/14.bin
-- S381PACK/15.bin
-- S381PACK/16.bin
-- S381PACK/17.bin
-- S381PACK/18.bin
-- S381PACK/19.bin
-- S381PACK/20.bin
-- S381PACK/21.bin
-- S381PACK/22.bin
-- S381PACK/23.bin
-- S381PACK/24.bin
-- S381PACK/25.bin
-- S381PACK/26.bin
-- S381PACK/27.bin
-- S381PACK/28.bin
-- S381PACK/29.bin
-- S381PACK/30.bin
-- S381PACK/31.bin
-- S381PACK/32.bin
-- S381PACK/33.bin
-- S381PACK/34.bin
-- S381PACK/35.bin
-- S381PACK/36.bin
-- S381PACK/37.bin
-- S381PACK/38.bin
-- S381PACK/39.bin
-- S381PACK/40.bin
-- S381PACK/41.bin
-- S381PACK/42.bin
-- S381PACK/43.bin
-- S381PACK/44.bin
-- S381PACK/45.bin
-- S381PACK/46.bin
-- S381PACK/47.bin
-- S381PACK/48.bin
-- S381PACK/49.bin
-- S381PACK/50.bin
-- S381PACK/51.bin
-- S381PACK/52.bin
-- S381PACK/53.bin
-- S381PACK/54.bin
-- S381PACK/55.bin
-- S381PACK/56.bin
-- S381PACK/57.bin
-- S381PACK/58.bin
-- S381PACK/59.bin
-- S381PACK/60.bin
-- S381PACK/61.bin
-- S381PACK/62.bin
-- S381PACK/63.bin
-- S381PACK/64.bin
-- S381PACK/65.bin
-- S381PACK/66.bin
-- S381PACK/67.bin
-- S381PACK/68.bin
-- S381PACK/69.bin
-- S381PACK/70.bin
-- S381PACK/71.bin
-- S381PACK/72.bin
-- S381PACK/73.bin
-- S381PACK/74.bin
-- S381PACK/75.bin
-- S381PACK/76.bin
-- S381PACK/77.bin
-- S381PACK/78.bin
-- S381PACK/79.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/1.bin
+  - S381PACK/2.bin
+  - S381PACK/3.bin
+  - S381PACK/4.bin
+  - S381PACK/5.bin
+  - S381PACK/6.bin
+  - S381PACK/7.bin
+  - S381PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/9.bin
+  - S381PACK/10.bin
+  - S381PACK/11.bin
+  - S381PACK/12.bin
+  - S381PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/18.bin
+  - S381PACK/19.bin
+  - S381PACK/20.bin
+  - S381PACK/21.bin
+  - S381PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/23.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/24.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/25.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/26.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/27.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/28.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/29.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/30.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/31.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/32.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/33.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/34.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/35.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/36.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/37.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/38.bin
+  - S381PACK/39.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/40.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/41.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/42.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/43.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/44.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/45.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/46.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/47.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/48.bin
+  - S381PACK/49.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/50.bin
+  - S381PACK/51.bin
+  - S381PACK/52.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/53.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/54.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/55.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/56.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/57.bin
+  - S381PACK/58.bin
+  - S381PACK/59.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/60.bin
+  - S381PACK/61.bin
+  - S381PACK/62.bin
+  - S381PACK/63.bin
+  - S381PACK/64.bin
+  - S381PACK/65.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/66.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/67.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/68.bin
+  - S381PACK/69.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/70.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/71.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/72.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/73.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/74.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/75.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/76.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/77.bin
+  - S381PACK/78.bin
+  - /build/rlen/dw2003/z_stage/S381PACK/79.bin
 extra_padding: 0

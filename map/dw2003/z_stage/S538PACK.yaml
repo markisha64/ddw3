@@ -1,49 +1,49 @@
 width: 9
 height: 5
 entries:
-- S538PACK/0.bin
-- S538PACK/1.bin
-- S538PACK/2.bin
-- S538PACK/3.bin
-- S538PACK/4.bin
-- S538PACK/5.bin
-- S538PACK/6.bin
-- S538PACK/7.bin
-- S538PACK/8.bin
-- S538PACK/9.bin
-- S538PACK/10.bin
-- S538PACK/11.bin
-- S538PACK/12.bin
-- S538PACK/13.bin
-- S538PACK/14.bin
-- S538PACK/15.bin
-- S538PACK/16.bin
-- S538PACK/17.bin
-- S538PACK/18.bin
-- S538PACK/19.bin
-- S538PACK/20.bin
-- S538PACK/21.bin
-- S538PACK/22.bin
-- S538PACK/23.bin
-- S538PACK/24.bin
-- S538PACK/25.bin
-- S538PACK/26.bin
-- S538PACK/27.bin
-- S538PACK/28.bin
-- S538PACK/29.bin
-- S538PACK/30.bin
-- S538PACK/31.bin
-- S538PACK/32.bin
-- S538PACK/33.bin
-- S538PACK/34.bin
-- S538PACK/35.bin
-- S538PACK/36.bin
-- S538PACK/37.bin
-- S538PACK/38.bin
-- S538PACK/39.bin
-- S538PACK/40.bin
-- S538PACK/41.bin
-- S538PACK/42.bin
-- S538PACK/43.bin
-- S538PACK/44.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/11.bin
+  - S538PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/13.bin
+  - S538PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/18.bin
+  - S538PACK/19.bin
+  - S538PACK/20.bin
+  - S538PACK/21.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/23.bin
+  - S538PACK/24.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/25.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/26.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/27.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/28.bin
+  - S538PACK/29.bin
+  - S538PACK/30.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/31.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/32.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/33.bin
+  - S538PACK/34.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/35.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/36.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/37.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/38.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/39.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/40.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/41.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/42.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/43.bin
+  - /build/rlen/dw2003/z_stage/S538PACK/44.bin
 extra_padding: 4096

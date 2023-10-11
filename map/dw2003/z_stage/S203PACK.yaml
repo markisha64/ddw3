@@ -1,36 +1,36 @@
 width: 8
 height: 4
 entries:
-- S203PACK/0.bin
-- S203PACK/1.bin
-- S203PACK/2.bin
-- S203PACK/3.bin
-- S203PACK/4.bin
-- S203PACK/5.bin
-- S203PACK/6.bin
-- S203PACK/7.bin
-- S203PACK/8.bin
-- S203PACK/9.bin
-- S203PACK/10.bin
-- S203PACK/11.bin
-- S203PACK/12.bin
-- S203PACK/13.bin
-- S203PACK/14.bin
-- S203PACK/15.bin
-- S203PACK/16.bin
-- S203PACK/17.bin
-- S203PACK/18.bin
-- S203PACK/19.bin
-- S203PACK/20.bin
-- S203PACK/21.bin
-- S203PACK/22.bin
-- S203PACK/23.bin
-- S203PACK/24.bin
-- S203PACK/25.bin
-- S203PACK/26.bin
-- S203PACK/27.bin
-- S203PACK/28.bin
-- S203PACK/29.bin
-- S203PACK/30.bin
-- S203PACK/31.bin
+  - S203PACK/0.bin
+  - S203PACK/1.bin
+  - S203PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/18.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/20.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/21.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/23.bin
+  - S203PACK/24.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/25.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/26.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/27.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/28.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/29.bin
+  - /build/rlen/dw2003/z_stage/S203PACK/30.bin
+  - S203PACK/31.bin
 extra_padding: 2048

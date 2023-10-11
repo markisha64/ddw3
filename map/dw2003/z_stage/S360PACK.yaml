@@ -1,25 +1,25 @@
 width: 5
 height: 4
 entries:
-- S360PACK/0.bin
-- S360PACK/1.bin
-- S360PACK/2.bin
-- S360PACK/3.bin
-- S360PACK/4.bin
-- S360PACK/5.bin
-- S360PACK/6.bin
-- S360PACK/7.bin
-- S360PACK/8.bin
-- S360PACK/9.bin
-- S360PACK/10.bin
-- S360PACK/11.bin
-- S360PACK/12.bin
-- S360PACK/13.bin
-- S360PACK/14.bin
-- S360PACK/15.bin
-- S360PACK/16.bin
-- S360PACK/17.bin
-- S360PACK/18.bin
-- S360PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S360PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S360PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S360PACK/2.bin
+  - S360PACK/3.bin
+  - S360PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S360PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S360PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S360PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S360PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S360PACK/9.bin
+  - S360PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S360PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S360PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S360PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S360PACK/14.bin
+  - S360PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S360PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S360PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S360PACK/18.bin
+  - S360PACK/19.bin
 override_entries_len: 16
 extra_padding: 20480

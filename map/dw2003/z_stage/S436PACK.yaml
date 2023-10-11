@@ -1,25 +1,25 @@
 width: 4
 height: 5
 entries:
-- S436PACK/0.bin
-- S436PACK/1.bin
-- S436PACK/2.bin
-- S436PACK/3.bin
-- S436PACK/4.bin
-- S436PACK/5.bin
-- S436PACK/6.bin
-- S436PACK/7.bin
-- S436PACK/8.bin
-- S436PACK/9.bin
-- S436PACK/10.bin
-- S436PACK/11.bin
-- S436PACK/12.bin
-- S436PACK/13.bin
-- S436PACK/14.bin
-- S436PACK/15.bin
-- S436PACK/16.bin
-- S436PACK/17.bin
-- S436PACK/18.bin
-- S436PACK/19.bin
+  - S436PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S436PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S436PACK/2.bin
+  - S436PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S436PACK/4.bin
+  - S436PACK/5.bin
+  - S436PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S436PACK/7.bin
+  - S436PACK/8.bin
+  - S436PACK/9.bin
+  - S436PACK/10.bin
+  - S436PACK/11.bin
+  - S436PACK/12.bin
+  - S436PACK/13.bin
+  - S436PACK/14.bin
+  - S436PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S436PACK/16.bin
+  - S436PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S436PACK/18.bin
+  - /build/rlen/dw2003/z_stage/S436PACK/19.bin
 override_entries_len: 18
 extra_padding: 8192

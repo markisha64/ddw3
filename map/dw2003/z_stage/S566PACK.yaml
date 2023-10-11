@@ -1,121 +1,121 @@
 width: 13
 height: 9
 entries:
-- S566PACK/0.bin
-- S566PACK/1.bin
-- S566PACK/2.bin
-- S566PACK/3.bin
-- S566PACK/4.bin
-- S566PACK/5.bin
-- S566PACK/6.bin
-- S566PACK/7.bin
-- S566PACK/8.bin
-- S566PACK/9.bin
-- S566PACK/10.bin
-- S566PACK/11.bin
-- S566PACK/12.bin
-- S566PACK/13.bin
-- S566PACK/14.bin
-- S566PACK/15.bin
-- S566PACK/16.bin
-- S566PACK/17.bin
-- S566PACK/18.bin
-- S566PACK/19.bin
-- S566PACK/20.bin
-- S566PACK/21.bin
-- S566PACK/22.bin
-- S566PACK/23.bin
-- S566PACK/24.bin
-- S566PACK/25.bin
-- S566PACK/26.bin
-- S566PACK/27.bin
-- S566PACK/28.bin
-- S566PACK/29.bin
-- S566PACK/30.bin
-- S566PACK/31.bin
-- S566PACK/32.bin
-- S566PACK/33.bin
-- S566PACK/34.bin
-- S566PACK/35.bin
-- S566PACK/36.bin
-- S566PACK/37.bin
-- S566PACK/38.bin
-- S566PACK/39.bin
-- S566PACK/40.bin
-- S566PACK/41.bin
-- S566PACK/42.bin
-- S566PACK/43.bin
-- S566PACK/44.bin
-- S566PACK/45.bin
-- S566PACK/46.bin
-- S566PACK/47.bin
-- S566PACK/48.bin
-- S566PACK/49.bin
-- S566PACK/50.bin
-- S566PACK/51.bin
-- S566PACK/52.bin
-- S566PACK/53.bin
-- S566PACK/54.bin
-- S566PACK/55.bin
-- S566PACK/56.bin
-- S566PACK/57.bin
-- S566PACK/58.bin
-- S566PACK/59.bin
-- S566PACK/60.bin
-- S566PACK/61.bin
-- S566PACK/62.bin
-- S566PACK/63.bin
-- S566PACK/64.bin
-- S566PACK/65.bin
-- S566PACK/66.bin
-- S566PACK/67.bin
-- S566PACK/68.bin
-- S566PACK/69.bin
-- S566PACK/70.bin
-- S566PACK/71.bin
-- S566PACK/72.bin
-- S566PACK/73.bin
-- S566PACK/74.bin
-- S566PACK/75.bin
-- S566PACK/76.bin
-- S566PACK/77.bin
-- S566PACK/78.bin
-- S566PACK/79.bin
-- S566PACK/80.bin
-- S566PACK/81.bin
-- S566PACK/82.bin
-- S566PACK/83.bin
-- S566PACK/84.bin
-- S566PACK/85.bin
-- S566PACK/86.bin
-- S566PACK/87.bin
-- S566PACK/88.bin
-- S566PACK/89.bin
-- S566PACK/90.bin
-- S566PACK/91.bin
-- S566PACK/92.bin
-- S566PACK/93.bin
-- S566PACK/94.bin
-- S566PACK/95.bin
-- S566PACK/96.bin
-- S566PACK/97.bin
-- S566PACK/98.bin
-- S566PACK/99.bin
-- S566PACK/100.bin
-- S566PACK/101.bin
-- S566PACK/102.bin
-- S566PACK/103.bin
-- S566PACK/104.bin
-- S566PACK/105.bin
-- S566PACK/106.bin
-- S566PACK/107.bin
-- S566PACK/108.bin
-- S566PACK/109.bin
-- S566PACK/110.bin
-- S566PACK/111.bin
-- S566PACK/112.bin
-- S566PACK/113.bin
-- S566PACK/114.bin
-- S566PACK/115.bin
-- S566PACK/116.bin
+  - /build/rlen/dw2003/z_stage/S566PACK/0.bin
+  - S566PACK/1.bin
+  - S566PACK/2.bin
+  - S566PACK/3.bin
+  - S566PACK/4.bin
+  - S566PACK/5.bin
+  - S566PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S566PACK/7.bin
+  - S566PACK/8.bin
+  - S566PACK/9.bin
+  - S566PACK/10.bin
+  - S566PACK/11.bin
+  - S566PACK/12.bin
+  - S566PACK/13.bin
+  - S566PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S566PACK/15.bin
+  - S566PACK/16.bin
+  - S566PACK/17.bin
+  - S566PACK/18.bin
+  - /build/rlen/dw2003/z_stage/S566PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S566PACK/20.bin
+  - S566PACK/21.bin
+  - S566PACK/22.bin
+  - S566PACK/23.bin
+  - S566PACK/24.bin
+  - /build/rlen/dw2003/z_stage/S566PACK/25.bin
+  - S566PACK/26.bin
+  - S566PACK/27.bin
+  - /build/rlen/dw2003/z_stage/S566PACK/28.bin
+  - S566PACK/29.bin
+  - S566PACK/30.bin
+  - S566PACK/31.bin
+  - /build/rlen/dw2003/z_stage/S566PACK/32.bin
+  - S566PACK/33.bin
+  - S566PACK/34.bin
+  - S566PACK/35.bin
+  - S566PACK/36.bin
+  - S566PACK/37.bin
+  - /build/rlen/dw2003/z_stage/S566PACK/38.bin
+  - S566PACK/39.bin
+  - S566PACK/40.bin
+  - S566PACK/41.bin
+  - S566PACK/42.bin
+  - S566PACK/43.bin
+  - S566PACK/44.bin
+  - S566PACK/45.bin
+  - S566PACK/46.bin
+  - S566PACK/47.bin
+  - S566PACK/48.bin
+  - S566PACK/49.bin
+  - S566PACK/50.bin
+  - S566PACK/51.bin
+  - S566PACK/52.bin
+  - S566PACK/53.bin
+  - S566PACK/54.bin
+  - S566PACK/55.bin
+  - S566PACK/56.bin
+  - S566PACK/57.bin
+  - S566PACK/58.bin
+  - /build/rlen/dw2003/z_stage/S566PACK/59.bin
+  - /build/rlen/dw2003/z_stage/S566PACK/60.bin
+  - S566PACK/61.bin
+  - S566PACK/62.bin
+  - S566PACK/63.bin
+  - /build/rlen/dw2003/z_stage/S566PACK/64.bin
+  - S566PACK/65.bin
+  - S566PACK/66.bin
+  - S566PACK/67.bin
+  - S566PACK/68.bin
+  - S566PACK/69.bin
+  - S566PACK/70.bin
+  - S566PACK/71.bin
+  - S566PACK/72.bin
+  - S566PACK/73.bin
+  - /build/rlen/dw2003/z_stage/S566PACK/74.bin
+  - /build/rlen/dw2003/z_stage/S566PACK/75.bin
+  - S566PACK/76.bin
+  - S566PACK/77.bin
+  - S566PACK/78.bin
+  - S566PACK/79.bin
+  - S566PACK/80.bin
+  - S566PACK/81.bin
+  - S566PACK/82.bin
+  - S566PACK/83.bin
+  - S566PACK/84.bin
+  - S566PACK/85.bin
+  - S566PACK/86.bin
+  - /build/rlen/dw2003/z_stage/S566PACK/87.bin
+  - /build/rlen/dw2003/z_stage/S566PACK/88.bin
+  - S566PACK/89.bin
+  - S566PACK/90.bin
+  - /build/rlen/dw2003/z_stage/S566PACK/91.bin
+  - /build/rlen/dw2003/z_stage/S566PACK/92.bin
+  - S566PACK/93.bin
+  - S566PACK/94.bin
+  - S566PACK/95.bin
+  - S566PACK/96.bin
+  - S566PACK/97.bin
+  - S566PACK/98.bin
+  - S566PACK/99.bin
+  - S566PACK/100.bin
+  - S566PACK/101.bin
+  - S566PACK/102.bin
+  - S566PACK/103.bin
+  - /build/rlen/dw2003/z_stage/S566PACK/104.bin
+  - /build/rlen/dw2003/z_stage/S566PACK/105.bin
+  - /build/rlen/dw2003/z_stage/S566PACK/106.bin
+  - S566PACK/107.bin
+  - S566PACK/108.bin
+  - S566PACK/109.bin
+  - S566PACK/110.bin
+  - S566PACK/111.bin
+  - S566PACK/112.bin
+  - S566PACK/113.bin
+  - S566PACK/114.bin
+  - S566PACK/115.bin
+  - S566PACK/116.bin
 extra_padding: 2048

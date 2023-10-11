@@ -1,28 +1,28 @@
 width: 6
 height: 4
 entries:
-- S805PACK/0.bin
-- S805PACK/1.bin
-- S805PACK/2.bin
-- S805PACK/3.bin
-- S805PACK/4.bin
-- S805PACK/5.bin
-- S805PACK/6.bin
-- S805PACK/7.bin
-- S805PACK/8.bin
-- S805PACK/9.bin
-- S805PACK/10.bin
-- S805PACK/11.bin
-- S805PACK/12.bin
-- S805PACK/13.bin
-- S805PACK/14.bin
-- S805PACK/15.bin
-- S805PACK/16.bin
-- S805PACK/17.bin
-- S805PACK/18.bin
-- S805PACK/19.bin
-- S805PACK/20.bin
-- S805PACK/21.bin
-- S805PACK/22.bin
-- S805PACK/23.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/18.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/20.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/21.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S805PACK/23.bin
 extra_padding: 10240

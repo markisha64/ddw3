@@ -1,59 +1,59 @@
 width: 11
 height: 5
 entries:
-- S300PACK/0.bin
-- S300PACK/1.bin
-- S300PACK/2.bin
-- S300PACK/3.bin
-- S300PACK/4.bin
-- S300PACK/5.bin
-- S300PACK/6.bin
-- S300PACK/7.bin
-- S300PACK/8.bin
-- S300PACK/9.bin
-- S300PACK/10.bin
-- S300PACK/11.bin
-- S300PACK/12.bin
-- S300PACK/13.bin
-- S300PACK/14.bin
-- S300PACK/15.bin
-- S300PACK/16.bin
-- S300PACK/17.bin
-- S300PACK/18.bin
-- S300PACK/19.bin
-- S300PACK/20.bin
-- S300PACK/21.bin
-- S300PACK/22.bin
-- S300PACK/23.bin
-- S300PACK/24.bin
-- S300PACK/25.bin
-- S300PACK/26.bin
-- S300PACK/27.bin
-- S300PACK/28.bin
-- S300PACK/29.bin
-- S300PACK/30.bin
-- S300PACK/31.bin
-- S300PACK/32.bin
-- S300PACK/33.bin
-- S300PACK/34.bin
-- S300PACK/35.bin
-- S300PACK/36.bin
-- S300PACK/37.bin
-- S300PACK/38.bin
-- S300PACK/39.bin
-- S300PACK/40.bin
-- S300PACK/41.bin
-- S300PACK/42.bin
-- S300PACK/43.bin
-- S300PACK/44.bin
-- S300PACK/45.bin
-- S300PACK/46.bin
-- S300PACK/47.bin
-- S300PACK/48.bin
-- S300PACK/49.bin
-- S300PACK/50.bin
-- S300PACK/51.bin
-- S300PACK/52.bin
-- S300PACK/53.bin
-- S300PACK/54.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/18.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/20.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/21.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/23.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/24.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/25.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/26.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/27.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/28.bin
+  - S300PACK/29.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/30.bin
+  - S300PACK/31.bin
+  - S300PACK/32.bin
+  - S300PACK/33.bin
+  - S300PACK/34.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/35.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/36.bin
+  - S300PACK/37.bin
+  - S300PACK/38.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/39.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/40.bin
+  - S300PACK/41.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/42.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/43.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/44.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/45.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/46.bin
+  - S300PACK/47.bin
+  - S300PACK/48.bin
+  - S300PACK/49.bin
+  - S300PACK/50.bin
+  - S300PACK/51.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/52.bin
+  - /build/rlen/dw2003/z_stage/S300PACK/53.bin
+  - S300PACK/54.bin
 extra_padding: 2048

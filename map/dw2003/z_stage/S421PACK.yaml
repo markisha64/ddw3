@@ -1,64 +1,64 @@
 width: 10
 height: 6
 entries:
-- S421PACK/0.bin
-- S421PACK/1.bin
-- S421PACK/2.bin
-- S421PACK/3.bin
-- S421PACK/4.bin
-- S421PACK/5.bin
-- S421PACK/6.bin
-- S421PACK/7.bin
-- S421PACK/8.bin
-- S421PACK/9.bin
-- S421PACK/10.bin
-- S421PACK/11.bin
-- S421PACK/12.bin
-- S421PACK/13.bin
-- S421PACK/14.bin
-- S421PACK/15.bin
-- S421PACK/16.bin
-- S421PACK/17.bin
-- S421PACK/18.bin
-- S421PACK/19.bin
-- S421PACK/20.bin
-- S421PACK/21.bin
-- S421PACK/22.bin
-- S421PACK/23.bin
-- S421PACK/24.bin
-- S421PACK/25.bin
-- S421PACK/26.bin
-- S421PACK/27.bin
-- S421PACK/28.bin
-- S421PACK/29.bin
-- S421PACK/30.bin
-- S421PACK/31.bin
-- S421PACK/32.bin
-- S421PACK/33.bin
-- S421PACK/34.bin
-- S421PACK/35.bin
-- S421PACK/36.bin
-- S421PACK/37.bin
-- S421PACK/38.bin
-- S421PACK/39.bin
-- S421PACK/40.bin
-- S421PACK/41.bin
-- S421PACK/42.bin
-- S421PACK/43.bin
-- S421PACK/44.bin
-- S421PACK/45.bin
-- S421PACK/46.bin
-- S421PACK/47.bin
-- S421PACK/48.bin
-- S421PACK/49.bin
-- S421PACK/50.bin
-- S421PACK/51.bin
-- S421PACK/52.bin
-- S421PACK/53.bin
-- S421PACK/54.bin
-- S421PACK/55.bin
-- S421PACK/56.bin
-- S421PACK/57.bin
-- S421PACK/58.bin
-- S421PACK/59.bin
+  - S421PACK/0.bin
+  - S421PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S421PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S421PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S421PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S421PACK/5.bin
+  - S421PACK/6.bin
+  - S421PACK/7.bin
+  - S421PACK/8.bin
+  - S421PACK/9.bin
+  - S421PACK/10.bin
+  - S421PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S421PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S421PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S421PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S421PACK/15.bin
+  - S421PACK/16.bin
+  - S421PACK/17.bin
+  - S421PACK/18.bin
+  - S421PACK/19.bin
+  - S421PACK/20.bin
+  - S421PACK/21.bin
+  - /build/rlen/dw2003/z_stage/S421PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S421PACK/23.bin
+  - S421PACK/24.bin
+  - /build/rlen/dw2003/z_stage/S421PACK/25.bin
+  - S421PACK/26.bin
+  - S421PACK/27.bin
+  - S421PACK/28.bin
+  - S421PACK/29.bin
+  - S421PACK/30.bin
+  - S421PACK/31.bin
+  - /build/rlen/dw2003/z_stage/S421PACK/32.bin
+  - /build/rlen/dw2003/z_stage/S421PACK/33.bin
+  - /build/rlen/dw2003/z_stage/S421PACK/34.bin
+  - /build/rlen/dw2003/z_stage/S421PACK/35.bin
+  - /build/rlen/dw2003/z_stage/S421PACK/36.bin
+  - S421PACK/37.bin
+  - S421PACK/38.bin
+  - S421PACK/39.bin
+  - S421PACK/40.bin
+  - S421PACK/41.bin
+  - S421PACK/42.bin
+  - S421PACK/43.bin
+  - /build/rlen/dw2003/z_stage/S421PACK/44.bin
+  - /build/rlen/dw2003/z_stage/S421PACK/45.bin
+  - /build/rlen/dw2003/z_stage/S421PACK/46.bin
+  - /build/rlen/dw2003/z_stage/S421PACK/47.bin
+  - S421PACK/48.bin
+  - S421PACK/49.bin
+  - S421PACK/50.bin
+  - S421PACK/51.bin
+  - S421PACK/52.bin
+  - S421PACK/53.bin
+  - S421PACK/54.bin
+  - S421PACK/55.bin
+  - S421PACK/56.bin
+  - S421PACK/57.bin
+  - S421PACK/58.bin
+  - S421PACK/59.bin
 extra_padding: 2048

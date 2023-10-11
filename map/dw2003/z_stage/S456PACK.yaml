@@ -1,81 +1,81 @@
 width: 11
 height: 7
 entries:
-- S456PACK/0.bin
-- S456PACK/1.bin
-- S456PACK/2.bin
-- S456PACK/3.bin
-- S456PACK/4.bin
-- S456PACK/5.bin
-- S456PACK/6.bin
-- S456PACK/7.bin
-- S456PACK/8.bin
-- S456PACK/9.bin
-- S456PACK/10.bin
-- S456PACK/11.bin
-- S456PACK/12.bin
-- S456PACK/13.bin
-- S456PACK/14.bin
-- S456PACK/15.bin
-- S456PACK/16.bin
-- S456PACK/17.bin
-- S456PACK/18.bin
-- S456PACK/19.bin
-- S456PACK/20.bin
-- S456PACK/21.bin
-- S456PACK/22.bin
-- S456PACK/23.bin
-- S456PACK/24.bin
-- S456PACK/25.bin
-- S456PACK/26.bin
-- S456PACK/27.bin
-- S456PACK/28.bin
-- S456PACK/29.bin
-- S456PACK/30.bin
-- S456PACK/31.bin
-- S456PACK/32.bin
-- S456PACK/33.bin
-- S456PACK/34.bin
-- S456PACK/35.bin
-- S456PACK/36.bin
-- S456PACK/37.bin
-- S456PACK/38.bin
-- S456PACK/39.bin
-- S456PACK/40.bin
-- S456PACK/41.bin
-- S456PACK/42.bin
-- S456PACK/43.bin
-- S456PACK/44.bin
-- S456PACK/45.bin
-- S456PACK/46.bin
-- S456PACK/47.bin
-- S456PACK/48.bin
-- S456PACK/49.bin
-- S456PACK/50.bin
-- S456PACK/51.bin
-- S456PACK/52.bin
-- S456PACK/53.bin
-- S456PACK/54.bin
-- S456PACK/55.bin
-- S456PACK/56.bin
-- S456PACK/57.bin
-- S456PACK/58.bin
-- S456PACK/59.bin
-- S456PACK/60.bin
-- S456PACK/61.bin
-- S456PACK/62.bin
-- S456PACK/63.bin
-- S456PACK/64.bin
-- S456PACK/65.bin
-- S456PACK/66.bin
-- S456PACK/67.bin
-- S456PACK/68.bin
-- S456PACK/69.bin
-- S456PACK/70.bin
-- S456PACK/71.bin
-- S456PACK/72.bin
-- S456PACK/73.bin
-- S456PACK/74.bin
-- S456PACK/75.bin
-- S456PACK/76.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/3.bin
+  - S456PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/8.bin
+  - S456PACK/9.bin
+  - S456PACK/10.bin
+  - S456PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/17.bin
+  - S456PACK/18.bin
+  - S456PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/20.bin
+  - S456PACK/21.bin
+  - S456PACK/22.bin
+  - S456PACK/23.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/24.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/25.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/26.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/27.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/28.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/29.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/30.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/31.bin
+  - S456PACK/32.bin
+  - S456PACK/33.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/34.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/35.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/36.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/37.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/38.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/39.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/40.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/41.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/42.bin
+  - S456PACK/43.bin
+  - S456PACK/44.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/45.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/46.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/47.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/48.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/49.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/50.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/51.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/52.bin
+  - S456PACK/53.bin
+  - S456PACK/54.bin
+  - S456PACK/55.bin
+  - S456PACK/56.bin
+  - S456PACK/57.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/58.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/59.bin
+  - S456PACK/60.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/61.bin
+  - S456PACK/62.bin
+  - S456PACK/63.bin
+  - S456PACK/64.bin
+  - S456PACK/65.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/66.bin
+  - S456PACK/67.bin
+  - S456PACK/68.bin
+  - S456PACK/69.bin
+  - S456PACK/70.bin
+  - S456PACK/71.bin
+  - S456PACK/72.bin
+  - S456PACK/73.bin
+  - S456PACK/74.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/75.bin
+  - /build/rlen/dw2003/z_stage/S456PACK/76.bin
 extra_padding: 16384

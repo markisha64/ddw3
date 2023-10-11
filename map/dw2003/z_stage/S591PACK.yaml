@@ -1,25 +1,25 @@
 width: 5
 height: 4
 entries:
-- S591PACK/0.bin
-- S591PACK/1.bin
-- S591PACK/2.bin
-- S591PACK/3.bin
-- S591PACK/4.bin
-- S591PACK/5.bin
-- S591PACK/6.bin
-- S591PACK/7.bin
-- S591PACK/8.bin
-- S591PACK/9.bin
-- S591PACK/10.bin
-- S591PACK/11.bin
-- S591PACK/12.bin
-- S591PACK/13.bin
-- S591PACK/14.bin
-- S591PACK/15.bin
-- S591PACK/16.bin
-- S591PACK/17.bin
-- S591PACK/18.bin
-- S591PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S591PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S591PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S591PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S591PACK/3.bin
+  - S591PACK/4.bin
+  - S591PACK/5.bin
+  - S591PACK/6.bin
+  - S591PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S591PACK/8.bin
+  - S591PACK/9.bin
+  - S591PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S591PACK/11.bin
+  - S591PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S591PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S591PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S591PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S591PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S591PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S591PACK/18.bin
+  - S591PACK/19.bin
 override_entries_len: 18
 extra_padding: 18432

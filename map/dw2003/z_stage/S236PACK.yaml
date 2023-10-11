@@ -1,14 +1,14 @@
 width: 3
 height: 3
 entries:
-- S236PACK/0.bin
-- S236PACK/1.bin
-- S236PACK/2.bin
-- S236PACK/3.bin
-- S236PACK/4.bin
-- S236PACK/5.bin
-- S236PACK/6.bin
-- S236PACK/7.bin
-- S236PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S236PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S236PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S236PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S236PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S236PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S236PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S236PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S236PACK/7.bin
+  - S236PACK/8.bin
 override_entries_len: 8
 extra_padding: 16384

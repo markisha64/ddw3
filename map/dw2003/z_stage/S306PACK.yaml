@@ -1,25 +1,25 @@
 width: 5
 height: 4
 entries:
-- S306PACK/0.bin
-- S306PACK/1.bin
-- S306PACK/2.bin
-- S306PACK/3.bin
-- S306PACK/4.bin
-- S306PACK/5.bin
-- S306PACK/6.bin
-- S306PACK/7.bin
-- S306PACK/8.bin
-- S306PACK/9.bin
-- S306PACK/10.bin
-- S306PACK/11.bin
-- S306PACK/12.bin
-- S306PACK/13.bin
-- S306PACK/14.bin
-- S306PACK/15.bin
-- S306PACK/16.bin
-- S306PACK/17.bin
-- S306PACK/18.bin
-- S306PACK/19.bin
+  - S306PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S306PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S306PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S306PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S306PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S306PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S306PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S306PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S306PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S306PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S306PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S306PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S306PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S306PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S306PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S306PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S306PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S306PACK/17.bin
+  - S306PACK/18.bin
+  - S306PACK/19.bin
 override_entries_len: 17
 extra_padding: 16384

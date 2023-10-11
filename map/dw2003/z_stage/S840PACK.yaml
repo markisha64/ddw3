@@ -1,36 +1,36 @@
 width: 8
 height: 4
 entries:
-- S840PACK/0.bin
-- S840PACK/1.bin
-- S840PACK/2.bin
-- S840PACK/3.bin
-- S840PACK/4.bin
-- S840PACK/5.bin
-- S840PACK/6.bin
-- S840PACK/7.bin
-- S840PACK/8.bin
-- S840PACK/9.bin
-- S840PACK/10.bin
-- S840PACK/11.bin
-- S840PACK/12.bin
-- S840PACK/13.bin
-- S840PACK/14.bin
-- S840PACK/15.bin
-- S840PACK/16.bin
-- S840PACK/17.bin
-- S840PACK/18.bin
-- S840PACK/19.bin
-- S840PACK/20.bin
-- S840PACK/21.bin
-- S840PACK/22.bin
-- S840PACK/23.bin
-- S840PACK/24.bin
-- S840PACK/25.bin
-- S840PACK/26.bin
-- S840PACK/27.bin
-- S840PACK/28.bin
-- S840PACK/29.bin
-- S840PACK/30.bin
-- S840PACK/31.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/2.bin
+  - S840PACK/3.bin
+  - S840PACK/4.bin
+  - S840PACK/5.bin
+  - S840PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/7.bin
+  - S840PACK/8.bin
+  - S840PACK/9.bin
+  - S840PACK/10.bin
+  - S840PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/15.bin
+  - S840PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/18.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/20.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/21.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/23.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/24.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/25.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/26.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/27.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/28.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/29.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/30.bin
+  - /build/rlen/dw2003/z_stage/S840PACK/31.bin
 extra_padding: 20480

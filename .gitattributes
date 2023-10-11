@@ -17,6 +17,9 @@
 # Map files are binary data
 /map/**/*.bin filter=lfs diff=lfs merge=lfs -text
 
+# Rlen files are binary data
+/rlen/**/*.bin filter=lfs diff=lfs merge=lfs -text
+
 # Keep crlfs in all resource files
 /dw3/**/* -crlf
 /dw2003/**/* -crlf

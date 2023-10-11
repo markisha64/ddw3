@@ -1,92 +1,92 @@
 width: 11
 height: 8
 entries:
-- S500PACK/0.bin
-- S500PACK/1.bin
-- S500PACK/2.bin
-- S500PACK/3.bin
-- S500PACK/4.bin
-- S500PACK/5.bin
-- S500PACK/6.bin
-- S500PACK/7.bin
-- S500PACK/8.bin
-- S500PACK/9.bin
-- S500PACK/10.bin
-- S500PACK/11.bin
-- S500PACK/12.bin
-- S500PACK/13.bin
-- S500PACK/14.bin
-- S500PACK/15.bin
-- S500PACK/16.bin
-- S500PACK/17.bin
-- S500PACK/18.bin
-- S500PACK/19.bin
-- S500PACK/20.bin
-- S500PACK/21.bin
-- S500PACK/22.bin
-- S500PACK/23.bin
-- S500PACK/24.bin
-- S500PACK/25.bin
-- S500PACK/26.bin
-- S500PACK/27.bin
-- S500PACK/28.bin
-- S500PACK/29.bin
-- S500PACK/30.bin
-- S500PACK/31.bin
-- S500PACK/32.bin
-- S500PACK/33.bin
-- S500PACK/34.bin
-- S500PACK/35.bin
-- S500PACK/36.bin
-- S500PACK/37.bin
-- S500PACK/38.bin
-- S500PACK/39.bin
-- S500PACK/40.bin
-- S500PACK/41.bin
-- S500PACK/42.bin
-- S500PACK/43.bin
-- S500PACK/44.bin
-- S500PACK/45.bin
-- S500PACK/46.bin
-- S500PACK/47.bin
-- S500PACK/48.bin
-- S500PACK/49.bin
-- S500PACK/50.bin
-- S500PACK/51.bin
-- S500PACK/52.bin
-- S500PACK/53.bin
-- S500PACK/54.bin
-- S500PACK/55.bin
-- S500PACK/56.bin
-- S500PACK/57.bin
-- S500PACK/58.bin
-- S500PACK/59.bin
-- S500PACK/60.bin
-- S500PACK/61.bin
-- S500PACK/62.bin
-- S500PACK/63.bin
-- S500PACK/64.bin
-- S500PACK/65.bin
-- S500PACK/66.bin
-- S500PACK/67.bin
-- S500PACK/68.bin
-- S500PACK/69.bin
-- S500PACK/70.bin
-- S500PACK/71.bin
-- S500PACK/72.bin
-- S500PACK/73.bin
-- S500PACK/74.bin
-- S500PACK/75.bin
-- S500PACK/76.bin
-- S500PACK/77.bin
-- S500PACK/78.bin
-- S500PACK/79.bin
-- S500PACK/80.bin
-- S500PACK/81.bin
-- S500PACK/82.bin
-- S500PACK/83.bin
-- S500PACK/84.bin
-- S500PACK/85.bin
-- S500PACK/86.bin
-- S500PACK/87.bin
+  - S500PACK/0.bin
+  - S500PACK/1.bin
+  - S500PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/7.bin
+  - S500PACK/8.bin
+  - S500PACK/9.bin
+  - S500PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/11.bin
+  - S500PACK/12.bin
+  - S500PACK/13.bin
+  - S500PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/18.bin
+  - S500PACK/19.bin
+  - S500PACK/20.bin
+  - S500PACK/21.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/23.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/24.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/25.bin
+  - S500PACK/26.bin
+  - S500PACK/27.bin
+  - S500PACK/28.bin
+  - S500PACK/29.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/30.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/31.bin
+  - S500PACK/32.bin
+  - S500PACK/33.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/34.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/35.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/36.bin
+  - S500PACK/37.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/38.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/39.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/40.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/41.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/42.bin
+  - S500PACK/43.bin
+  - S500PACK/44.bin
+  - S500PACK/45.bin
+  - S500PACK/46.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/47.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/48.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/49.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/50.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/51.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/52.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/53.bin
+  - S500PACK/54.bin
+  - S500PACK/55.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/56.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/57.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/58.bin
+  - S500PACK/59.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/60.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/61.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/62.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/63.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/64.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/65.bin
+  - S500PACK/66.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/67.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/68.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/69.bin
+  - S500PACK/70.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/71.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/72.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/73.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/74.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/75.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/76.bin
+  - S500PACK/77.bin
+  - S500PACK/78.bin
+  - S500PACK/79.bin
+  - S500PACK/80.bin
+  - S500PACK/81.bin
+  - S500PACK/82.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/83.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/84.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/85.bin
+  - /build/rlen/dw2003/z_stage/S500PACK/86.bin
+  - S500PACK/87.bin
 extra_padding: 2048

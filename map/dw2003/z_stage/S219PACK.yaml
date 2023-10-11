@@ -1,36 +1,36 @@
 width: 8
 height: 4
 entries:
-- S219PACK/0.bin
-- S219PACK/1.bin
-- S219PACK/2.bin
-- S219PACK/3.bin
-- S219PACK/4.bin
-- S219PACK/5.bin
-- S219PACK/6.bin
-- S219PACK/7.bin
-- S219PACK/8.bin
-- S219PACK/9.bin
-- S219PACK/10.bin
-- S219PACK/11.bin
-- S219PACK/12.bin
-- S219PACK/13.bin
-- S219PACK/14.bin
-- S219PACK/15.bin
-- S219PACK/16.bin
-- S219PACK/17.bin
-- S219PACK/18.bin
-- S219PACK/19.bin
-- S219PACK/20.bin
-- S219PACK/21.bin
-- S219PACK/22.bin
-- S219PACK/23.bin
-- S219PACK/24.bin
-- S219PACK/25.bin
-- S219PACK/26.bin
-- S219PACK/27.bin
-- S219PACK/28.bin
-- S219PACK/29.bin
-- S219PACK/30.bin
-- S219PACK/31.bin
+  - /build/rlen/dw2003/z_stage/S219PACK/0.bin
+  - S219PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S219PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S219PACK/3.bin
+  - S219PACK/4.bin
+  - S219PACK/5.bin
+  - S219PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S219PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S219PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S219PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S219PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S219PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S219PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S219PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S219PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S219PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S219PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S219PACK/17.bin
+  - S219PACK/18.bin
+  - S219PACK/19.bin
+  - S219PACK/20.bin
+  - /build/rlen/dw2003/z_stage/S219PACK/21.bin
+  - /build/rlen/dw2003/z_stage/S219PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S219PACK/23.bin
+  - S219PACK/24.bin
+  - S219PACK/25.bin
+  - S219PACK/26.bin
+  - S219PACK/27.bin
+  - S219PACK/28.bin
+  - /build/rlen/dw2003/z_stage/S219PACK/29.bin
+  - /build/rlen/dw2003/z_stage/S219PACK/30.bin
+  - /build/rlen/dw2003/z_stage/S219PACK/31.bin
 extra_padding: 2048

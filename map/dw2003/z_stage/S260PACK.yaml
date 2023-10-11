@@ -1,21 +1,21 @@
 width: 4
 height: 4
 entries:
-- S260PACK/0.bin
-- S260PACK/1.bin
-- S260PACK/2.bin
-- S260PACK/3.bin
-- S260PACK/4.bin
-- S260PACK/5.bin
-- S260PACK/6.bin
-- S260PACK/7.bin
-- S260PACK/8.bin
-- S260PACK/9.bin
-- S260PACK/10.bin
-- S260PACK/11.bin
-- S260PACK/12.bin
-- S260PACK/13.bin
-- S260PACK/14.bin
-- S260PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S260PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S260PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S260PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S260PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S260PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S260PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S260PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S260PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S260PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S260PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S260PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S260PACK/11.bin
+  - S260PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S260PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S260PACK/14.bin
+  - S260PACK/15.bin
 override_entries_len: 14
 extra_padding: 20480

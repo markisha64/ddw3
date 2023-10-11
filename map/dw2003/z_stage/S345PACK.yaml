@@ -1,84 +1,84 @@
 width: 10
 height: 8
 entries:
-- S345PACK/0.bin
-- S345PACK/1.bin
-- S345PACK/2.bin
-- S345PACK/3.bin
-- S345PACK/4.bin
-- S345PACK/5.bin
-- S345PACK/6.bin
-- S345PACK/7.bin
-- S345PACK/8.bin
-- S345PACK/9.bin
-- S345PACK/10.bin
-- S345PACK/11.bin
-- S345PACK/12.bin
-- S345PACK/13.bin
-- S345PACK/14.bin
-- S345PACK/15.bin
-- S345PACK/16.bin
-- S345PACK/17.bin
-- S345PACK/18.bin
-- S345PACK/19.bin
-- S345PACK/20.bin
-- S345PACK/21.bin
-- S345PACK/22.bin
-- S345PACK/23.bin
-- S345PACK/24.bin
-- S345PACK/25.bin
-- S345PACK/26.bin
-- S345PACK/27.bin
-- S345PACK/28.bin
-- S345PACK/29.bin
-- S345PACK/30.bin
-- S345PACK/31.bin
-- S345PACK/32.bin
-- S345PACK/33.bin
-- S345PACK/34.bin
-- S345PACK/35.bin
-- S345PACK/36.bin
-- S345PACK/37.bin
-- S345PACK/38.bin
-- S345PACK/39.bin
-- S345PACK/40.bin
-- S345PACK/41.bin
-- S345PACK/42.bin
-- S345PACK/43.bin
-- S345PACK/44.bin
-- S345PACK/45.bin
-- S345PACK/46.bin
-- S345PACK/47.bin
-- S345PACK/48.bin
-- S345PACK/49.bin
-- S345PACK/50.bin
-- S345PACK/51.bin
-- S345PACK/52.bin
-- S345PACK/53.bin
-- S345PACK/54.bin
-- S345PACK/55.bin
-- S345PACK/56.bin
-- S345PACK/57.bin
-- S345PACK/58.bin
-- S345PACK/59.bin
-- S345PACK/60.bin
-- S345PACK/61.bin
-- S345PACK/62.bin
-- S345PACK/63.bin
-- S345PACK/64.bin
-- S345PACK/65.bin
-- S345PACK/66.bin
-- S345PACK/67.bin
-- S345PACK/68.bin
-- S345PACK/69.bin
-- S345PACK/70.bin
-- S345PACK/71.bin
-- S345PACK/72.bin
-- S345PACK/73.bin
-- S345PACK/74.bin
-- S345PACK/75.bin
-- S345PACK/76.bin
-- S345PACK/77.bin
-- S345PACK/78.bin
-- S345PACK/79.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/5.bin
+  - S345PACK/6.bin
+  - S345PACK/7.bin
+  - S345PACK/8.bin
+  - S345PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/14.bin
+  - S345PACK/15.bin
+  - S345PACK/16.bin
+  - S345PACK/17.bin
+  - S345PACK/18.bin
+  - S345PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/20.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/21.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/23.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/24.bin
+  - S345PACK/25.bin
+  - S345PACK/26.bin
+  - S345PACK/27.bin
+  - S345PACK/28.bin
+  - S345PACK/29.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/30.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/31.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/32.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/33.bin
+  - S345PACK/34.bin
+  - S345PACK/35.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/36.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/37.bin
+  - S345PACK/38.bin
+  - S345PACK/39.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/40.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/41.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/42.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/43.bin
+  - S345PACK/44.bin
+  - S345PACK/45.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/46.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/47.bin
+  - S345PACK/48.bin
+  - S345PACK/49.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/50.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/51.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/52.bin
+  - S345PACK/53.bin
+  - S345PACK/54.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/55.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/56.bin
+  - S345PACK/57.bin
+  - S345PACK/58.bin
+  - S345PACK/59.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/60.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/61.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/62.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/63.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/64.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/65.bin
+  - S345PACK/66.bin
+  - S345PACK/67.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/68.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/69.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/70.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/71.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/72.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/73.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/74.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/75.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/76.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/77.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/78.bin
+  - /build/rlen/dw2003/z_stage/S345PACK/79.bin
 extra_padding: 0

@@ -1,35 +1,35 @@
 width: 5
 height: 6
 entries:
-- S365PACK/0.bin
-- S365PACK/1.bin
-- S365PACK/2.bin
-- S365PACK/3.bin
-- S365PACK/4.bin
-- S365PACK/5.bin
-- S365PACK/6.bin
-- S365PACK/7.bin
-- S365PACK/8.bin
-- S365PACK/9.bin
-- S365PACK/10.bin
-- S365PACK/11.bin
-- S365PACK/12.bin
-- S365PACK/13.bin
-- S365PACK/14.bin
-- S365PACK/15.bin
-- S365PACK/16.bin
-- S365PACK/17.bin
-- S365PACK/18.bin
-- S365PACK/19.bin
-- S365PACK/20.bin
-- S365PACK/21.bin
-- S365PACK/22.bin
-- S365PACK/23.bin
-- S365PACK/24.bin
-- S365PACK/25.bin
-- S365PACK/26.bin
-- S365PACK/27.bin
-- S365PACK/28.bin
-- S365PACK/29.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/3.bin
+  - S365PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/18.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/20.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/21.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/23.bin
+  - S365PACK/24.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/25.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/26.bin
+  - /build/rlen/dw2003/z_stage/S365PACK/27.bin
+  - S365PACK/28.bin
+  - S365PACK/29.bin
 override_entries_len: 26
 extra_padding: 18432

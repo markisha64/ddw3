@@ -1,14 +1,14 @@
 width: 3
 height: 3
 entries:
-- S235PACK/0.bin
-- S235PACK/1.bin
-- S235PACK/2.bin
-- S235PACK/3.bin
-- S235PACK/4.bin
-- S235PACK/5.bin
-- S235PACK/6.bin
-- S235PACK/7.bin
-- S235PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S235PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S235PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S235PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S235PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S235PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S235PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S235PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S235PACK/7.bin
+  - S235PACK/8.bin
 override_entries_len: 8
 extra_padding: 16384

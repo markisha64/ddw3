@@ -1,84 +1,84 @@
 width: 10
 height: 8
 entries:
-- S380PACK/0.bin
-- S380PACK/1.bin
-- S380PACK/2.bin
-- S380PACK/3.bin
-- S380PACK/4.bin
-- S380PACK/5.bin
-- S380PACK/6.bin
-- S380PACK/7.bin
-- S380PACK/8.bin
-- S380PACK/9.bin
-- S380PACK/10.bin
-- S380PACK/11.bin
-- S380PACK/12.bin
-- S380PACK/13.bin
-- S380PACK/14.bin
-- S380PACK/15.bin
-- S380PACK/16.bin
-- S380PACK/17.bin
-- S380PACK/18.bin
-- S380PACK/19.bin
-- S380PACK/20.bin
-- S380PACK/21.bin
-- S380PACK/22.bin
-- S380PACK/23.bin
-- S380PACK/24.bin
-- S380PACK/25.bin
-- S380PACK/26.bin
-- S380PACK/27.bin
-- S380PACK/28.bin
-- S380PACK/29.bin
-- S380PACK/30.bin
-- S380PACK/31.bin
-- S380PACK/32.bin
-- S380PACK/33.bin
-- S380PACK/34.bin
-- S380PACK/35.bin
-- S380PACK/36.bin
-- S380PACK/37.bin
-- S380PACK/38.bin
-- S380PACK/39.bin
-- S380PACK/40.bin
-- S380PACK/41.bin
-- S380PACK/42.bin
-- S380PACK/43.bin
-- S380PACK/44.bin
-- S380PACK/45.bin
-- S380PACK/46.bin
-- S380PACK/47.bin
-- S380PACK/48.bin
-- S380PACK/49.bin
-- S380PACK/50.bin
-- S380PACK/51.bin
-- S380PACK/52.bin
-- S380PACK/53.bin
-- S380PACK/54.bin
-- S380PACK/55.bin
-- S380PACK/56.bin
-- S380PACK/57.bin
-- S380PACK/58.bin
-- S380PACK/59.bin
-- S380PACK/60.bin
-- S380PACK/61.bin
-- S380PACK/62.bin
-- S380PACK/63.bin
-- S380PACK/64.bin
-- S380PACK/65.bin
-- S380PACK/66.bin
-- S380PACK/67.bin
-- S380PACK/68.bin
-- S380PACK/69.bin
-- S380PACK/70.bin
-- S380PACK/71.bin
-- S380PACK/72.bin
-- S380PACK/73.bin
-- S380PACK/74.bin
-- S380PACK/75.bin
-- S380PACK/76.bin
-- S380PACK/77.bin
-- S380PACK/78.bin
-- S380PACK/79.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/1.bin
+  - S380PACK/2.bin
+  - S380PACK/3.bin
+  - S380PACK/4.bin
+  - S380PACK/5.bin
+  - S380PACK/6.bin
+  - S380PACK/7.bin
+  - S380PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/9.bin
+  - S380PACK/10.bin
+  - S380PACK/11.bin
+  - S380PACK/12.bin
+  - S380PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/18.bin
+  - S380PACK/19.bin
+  - S380PACK/20.bin
+  - S380PACK/21.bin
+  - S380PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/23.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/24.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/25.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/26.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/27.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/28.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/29.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/30.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/31.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/32.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/33.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/34.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/35.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/36.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/37.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/38.bin
+  - S380PACK/39.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/40.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/41.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/42.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/43.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/44.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/45.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/46.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/47.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/48.bin
+  - S380PACK/49.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/50.bin
+  - S380PACK/51.bin
+  - S380PACK/52.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/53.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/54.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/55.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/56.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/57.bin
+  - S380PACK/58.bin
+  - S380PACK/59.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/60.bin
+  - S380PACK/61.bin
+  - S380PACK/62.bin
+  - S380PACK/63.bin
+  - S380PACK/64.bin
+  - S380PACK/65.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/66.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/67.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/68.bin
+  - S380PACK/69.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/70.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/71.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/72.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/73.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/74.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/75.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/76.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/77.bin
+  - S380PACK/78.bin
+  - /build/rlen/dw2003/z_stage/S380PACK/79.bin
 extra_padding: 0

@@ -1,49 +1,49 @@
 width: 9
 height: 5
 entries:
-- S535PACK/0.bin
-- S535PACK/1.bin
-- S535PACK/2.bin
-- S535PACK/3.bin
-- S535PACK/4.bin
-- S535PACK/5.bin
-- S535PACK/6.bin
-- S535PACK/7.bin
-- S535PACK/8.bin
-- S535PACK/9.bin
-- S535PACK/10.bin
-- S535PACK/11.bin
-- S535PACK/12.bin
-- S535PACK/13.bin
-- S535PACK/14.bin
-- S535PACK/15.bin
-- S535PACK/16.bin
-- S535PACK/17.bin
-- S535PACK/18.bin
-- S535PACK/19.bin
-- S535PACK/20.bin
-- S535PACK/21.bin
-- S535PACK/22.bin
-- S535PACK/23.bin
-- S535PACK/24.bin
-- S535PACK/25.bin
-- S535PACK/26.bin
-- S535PACK/27.bin
-- S535PACK/28.bin
-- S535PACK/29.bin
-- S535PACK/30.bin
-- S535PACK/31.bin
-- S535PACK/32.bin
-- S535PACK/33.bin
-- S535PACK/34.bin
-- S535PACK/35.bin
-- S535PACK/36.bin
-- S535PACK/37.bin
-- S535PACK/38.bin
-- S535PACK/39.bin
-- S535PACK/40.bin
-- S535PACK/41.bin
-- S535PACK/42.bin
-- S535PACK/43.bin
-- S535PACK/44.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/11.bin
+  - S535PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/13.bin
+  - S535PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/18.bin
+  - S535PACK/19.bin
+  - S535PACK/20.bin
+  - S535PACK/21.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/23.bin
+  - S535PACK/24.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/25.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/26.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/27.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/28.bin
+  - S535PACK/29.bin
+  - S535PACK/30.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/31.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/32.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/33.bin
+  - S535PACK/34.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/35.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/36.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/37.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/38.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/39.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/40.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/41.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/42.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/43.bin
+  - /build/rlen/dw2003/z_stage/S535PACK/44.bin
 extra_padding: 4096

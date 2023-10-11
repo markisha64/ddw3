@@ -1,33 +1,33 @@
 width: 7
 height: 4
 entries:
-- S275PACK/0.bin
-- S275PACK/1.bin
-- S275PACK/2.bin
-- S275PACK/3.bin
-- S275PACK/4.bin
-- S275PACK/5.bin
-- S275PACK/6.bin
-- S275PACK/7.bin
-- S275PACK/8.bin
-- S275PACK/9.bin
-- S275PACK/10.bin
-- S275PACK/11.bin
-- S275PACK/12.bin
-- S275PACK/13.bin
-- S275PACK/14.bin
-- S275PACK/15.bin
-- S275PACK/16.bin
-- S275PACK/17.bin
-- S275PACK/18.bin
-- S275PACK/19.bin
-- S275PACK/20.bin
-- S275PACK/21.bin
-- S275PACK/22.bin
-- S275PACK/23.bin
-- S275PACK/24.bin
-- S275PACK/25.bin
-- S275PACK/26.bin
-- S275PACK/27.bin
+  - S275PACK/0.bin
+  - S275PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S275PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S275PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S275PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S275PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S275PACK/6.bin
+  - S275PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S275PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S275PACK/9.bin
+  - S275PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S275PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S275PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S275PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S275PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S275PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S275PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S275PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S275PACK/18.bin
+  - /build/rlen/dw2003/z_stage/S275PACK/19.bin
+  - S275PACK/20.bin
+  - /build/rlen/dw2003/z_stage/S275PACK/21.bin
+  - /build/rlen/dw2003/z_stage/S275PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S275PACK/23.bin
+  - /build/rlen/dw2003/z_stage/S275PACK/24.bin
+  - S275PACK/25.bin
+  - S275PACK/26.bin
+  - S275PACK/27.bin
 override_entries_len: 23
 extra_padding: 20480

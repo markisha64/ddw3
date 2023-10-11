@@ -1,10 +1,10 @@
 width: 3
 height: 2
 entries:
-- S680PACK/0.bin
-- S680PACK/1.bin
-- S680PACK/2.bin
-- S680PACK/3.bin
-- S680PACK/4.bin
-- S680PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S680PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S680PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S680PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S680PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S680PACK/4.bin
+  - S680PACK/5.bin
 extra_padding: 6144

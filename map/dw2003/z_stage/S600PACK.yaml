@@ -1,25 +1,25 @@
 width: 5
 height: 4
 entries:
-- S600PACK/0.bin
-- S600PACK/1.bin
-- S600PACK/2.bin
-- S600PACK/3.bin
-- S600PACK/4.bin
-- S600PACK/5.bin
-- S600PACK/6.bin
-- S600PACK/7.bin
-- S600PACK/8.bin
-- S600PACK/9.bin
-- S600PACK/10.bin
-- S600PACK/11.bin
-- S600PACK/12.bin
-- S600PACK/13.bin
-- S600PACK/14.bin
-- S600PACK/15.bin
-- S600PACK/16.bin
-- S600PACK/17.bin
-- S600PACK/18.bin
-- S600PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S600PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S600PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S600PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S600PACK/3.bin
+  - S600PACK/4.bin
+  - S600PACK/5.bin
+  - S600PACK/6.bin
+  - S600PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S600PACK/8.bin
+  - S600PACK/9.bin
+  - S600PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S600PACK/11.bin
+  - S600PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S600PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S600PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S600PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S600PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S600PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S600PACK/18.bin
+  - S600PACK/19.bin
 override_entries_len: 18
 extra_padding: 18432

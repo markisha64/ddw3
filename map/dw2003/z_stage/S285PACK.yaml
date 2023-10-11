@@ -1,61 +1,61 @@
 width: 8
 height: 7
 entries:
-- S285PACK/0.bin
-- S285PACK/1.bin
-- S285PACK/2.bin
-- S285PACK/3.bin
-- S285PACK/4.bin
-- S285PACK/5.bin
-- S285PACK/6.bin
-- S285PACK/7.bin
-- S285PACK/8.bin
-- S285PACK/9.bin
-- S285PACK/10.bin
-- S285PACK/11.bin
-- S285PACK/12.bin
-- S285PACK/13.bin
-- S285PACK/14.bin
-- S285PACK/15.bin
-- S285PACK/16.bin
-- S285PACK/17.bin
-- S285PACK/18.bin
-- S285PACK/19.bin
-- S285PACK/20.bin
-- S285PACK/21.bin
-- S285PACK/22.bin
-- S285PACK/23.bin
-- S285PACK/24.bin
-- S285PACK/25.bin
-- S285PACK/26.bin
-- S285PACK/27.bin
-- S285PACK/28.bin
-- S285PACK/29.bin
-- S285PACK/30.bin
-- S285PACK/31.bin
-- S285PACK/32.bin
-- S285PACK/33.bin
-- S285PACK/34.bin
-- S285PACK/35.bin
-- S285PACK/36.bin
-- S285PACK/37.bin
-- S285PACK/38.bin
-- S285PACK/39.bin
-- S285PACK/40.bin
-- S285PACK/41.bin
-- S285PACK/42.bin
-- S285PACK/43.bin
-- S285PACK/44.bin
-- S285PACK/45.bin
-- S285PACK/46.bin
-- S285PACK/47.bin
-- S285PACK/48.bin
-- S285PACK/49.bin
-- S285PACK/50.bin
-- S285PACK/51.bin
-- S285PACK/52.bin
-- S285PACK/53.bin
-- S285PACK/54.bin
-- S285PACK/55.bin
+  - S285PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/6.bin
+  - S285PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/14.bin
+  - S285PACK/15.bin
+  - S285PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/18.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/20.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/21.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/22.bin
+  - S285PACK/23.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/24.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/25.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/26.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/27.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/28.bin
+  - S285PACK/29.bin
+  - S285PACK/30.bin
+  - S285PACK/31.bin
+  - S285PACK/32.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/33.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/34.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/35.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/36.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/37.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/38.bin
+  - S285PACK/39.bin
+  - S285PACK/40.bin
+  - S285PACK/41.bin
+  - S285PACK/42.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/43.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/44.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/45.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/46.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/47.bin
+  - S285PACK/48.bin
+  - S285PACK/49.bin
+  - S285PACK/50.bin
+  - S285PACK/51.bin
+  - S285PACK/52.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/53.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/54.bin
+  - /build/rlen/dw2003/z_stage/S285PACK/55.bin
 override_entries_len: 39
 extra_padding: 12288

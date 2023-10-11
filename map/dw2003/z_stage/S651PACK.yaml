@@ -1,40 +1,40 @@
 width: 6
 height: 6
 entries:
-- S651PACK/0.bin
-- S651PACK/1.bin
-- S651PACK/2.bin
-- S651PACK/3.bin
-- S651PACK/4.bin
-- S651PACK/5.bin
-- S651PACK/6.bin
-- S651PACK/7.bin
-- S651PACK/8.bin
-- S651PACK/9.bin
-- S651PACK/10.bin
-- S651PACK/11.bin
-- S651PACK/12.bin
-- S651PACK/13.bin
-- S651PACK/14.bin
-- S651PACK/15.bin
-- S651PACK/16.bin
-- S651PACK/17.bin
-- S651PACK/18.bin
-- S651PACK/19.bin
-- S651PACK/20.bin
-- S651PACK/21.bin
-- S651PACK/22.bin
-- S651PACK/23.bin
-- S651PACK/24.bin
-- S651PACK/25.bin
-- S651PACK/26.bin
-- S651PACK/27.bin
-- S651PACK/28.bin
-- S651PACK/29.bin
-- S651PACK/30.bin
-- S651PACK/31.bin
-- S651PACK/32.bin
-- S651PACK/33.bin
-- S651PACK/34.bin
-- S651PACK/35.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/8.bin
+  - S651PACK/9.bin
+  - S651PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/17.bin
+  - S651PACK/18.bin
+  - S651PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/20.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/21.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/23.bin
+  - S651PACK/24.bin
+  - S651PACK/25.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/26.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/27.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/28.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/29.bin
+  - S651PACK/30.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/31.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/32.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/33.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/34.bin
+  - /build/rlen/dw2003/z_stage/S651PACK/35.bin
 extra_padding: 8192

@@ -1,67 +1,67 @@
 width: 9
 height: 7
 entries:
-- S696PACK/0.bin
-- S696PACK/1.bin
-- S696PACK/2.bin
-- S696PACK/3.bin
-- S696PACK/4.bin
-- S696PACK/5.bin
-- S696PACK/6.bin
-- S696PACK/7.bin
-- S696PACK/8.bin
-- S696PACK/9.bin
-- S696PACK/10.bin
-- S696PACK/11.bin
-- S696PACK/12.bin
-- S696PACK/13.bin
-- S696PACK/14.bin
-- S696PACK/15.bin
-- S696PACK/16.bin
-- S696PACK/17.bin
-- S696PACK/18.bin
-- S696PACK/19.bin
-- S696PACK/20.bin
-- S696PACK/21.bin
-- S696PACK/22.bin
-- S696PACK/23.bin
-- S696PACK/24.bin
-- S696PACK/25.bin
-- S696PACK/26.bin
-- S696PACK/27.bin
-- S696PACK/28.bin
-- S696PACK/29.bin
-- S696PACK/30.bin
-- S696PACK/31.bin
-- S696PACK/32.bin
-- S696PACK/33.bin
-- S696PACK/34.bin
-- S696PACK/35.bin
-- S696PACK/36.bin
-- S696PACK/37.bin
-- S696PACK/38.bin
-- S696PACK/39.bin
-- S696PACK/40.bin
-- S696PACK/41.bin
-- S696PACK/42.bin
-- S696PACK/43.bin
-- S696PACK/44.bin
-- S696PACK/45.bin
-- S696PACK/46.bin
-- S696PACK/47.bin
-- S696PACK/48.bin
-- S696PACK/49.bin
-- S696PACK/50.bin
-- S696PACK/51.bin
-- S696PACK/52.bin
-- S696PACK/53.bin
-- S696PACK/54.bin
-- S696PACK/55.bin
-- S696PACK/56.bin
-- S696PACK/57.bin
-- S696PACK/58.bin
-- S696PACK/59.bin
-- S696PACK/60.bin
-- S696PACK/61.bin
-- S696PACK/62.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/1.bin
+  - S696PACK/2.bin
+  - S696PACK/3.bin
+  - S696PACK/4.bin
+  - S696PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/8.bin
+  - S696PACK/9.bin
+  - S696PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/16.bin
+  - S696PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/18.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/20.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/21.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/22.bin
+  - S696PACK/23.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/24.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/25.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/26.bin
+  - S696PACK/27.bin
+  - S696PACK/28.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/29.bin
+  - S696PACK/30.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/31.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/32.bin
+  - S696PACK/33.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/34.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/35.bin
+  - S696PACK/36.bin
+  - S696PACK/37.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/38.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/39.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/40.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/41.bin
+  - S696PACK/42.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/43.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/44.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/45.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/46.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/47.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/48.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/49.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/50.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/51.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/52.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/53.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/54.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/55.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/56.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/57.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/58.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/59.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/60.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/61.bin
+  - /build/rlen/dw2003/z_stage/S696PACK/62.bin
 extra_padding: 6144

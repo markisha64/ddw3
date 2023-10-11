@@ -1,34 +1,34 @@
 width: 6
 height: 5
 entries:
-- S561PACK/0.bin
-- S561PACK/1.bin
-- S561PACK/2.bin
-- S561PACK/3.bin
-- S561PACK/4.bin
-- S561PACK/5.bin
-- S561PACK/6.bin
-- S561PACK/7.bin
-- S561PACK/8.bin
-- S561PACK/9.bin
-- S561PACK/10.bin
-- S561PACK/11.bin
-- S561PACK/12.bin
-- S561PACK/13.bin
-- S561PACK/14.bin
-- S561PACK/15.bin
-- S561PACK/16.bin
-- S561PACK/17.bin
-- S561PACK/18.bin
-- S561PACK/19.bin
-- S561PACK/20.bin
-- S561PACK/21.bin
-- S561PACK/22.bin
-- S561PACK/23.bin
-- S561PACK/24.bin
-- S561PACK/25.bin
-- S561PACK/26.bin
-- S561PACK/27.bin
-- S561PACK/28.bin
-- S561PACK/29.bin
+  - S561PACK/0.bin
+  - S561PACK/1.bin
+  - S561PACK/2.bin
+  - S561PACK/3.bin
+  - S561PACK/4.bin
+  - S561PACK/5.bin
+  - S561PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S561PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S561PACK/8.bin
+  - S561PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S561PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S561PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S561PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S561PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S561PACK/14.bin
+  - /build/rlen/dw2003/z_stage/S561PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S561PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S561PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S561PACK/18.bin
+  - /build/rlen/dw2003/z_stage/S561PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S561PACK/20.bin
+  - /build/rlen/dw2003/z_stage/S561PACK/21.bin
+  - /build/rlen/dw2003/z_stage/S561PACK/22.bin
+  - S561PACK/23.bin
+  - /build/rlen/dw2003/z_stage/S561PACK/24.bin
+  - /build/rlen/dw2003/z_stage/S561PACK/25.bin
+  - /build/rlen/dw2003/z_stage/S561PACK/26.bin
+  - /build/rlen/dw2003/z_stage/S561PACK/27.bin
+  - /build/rlen/dw2003/z_stage/S561PACK/28.bin
+  - S561PACK/29.bin
 extra_padding: 2048

@@ -1,29 +1,29 @@
 width: 6
 height: 4
 entries:
-- S625PACK/0.bin
-- S625PACK/1.bin
-- S625PACK/2.bin
-- S625PACK/3.bin
-- S625PACK/4.bin
-- S625PACK/5.bin
-- S625PACK/6.bin
-- S625PACK/7.bin
-- S625PACK/8.bin
-- S625PACK/9.bin
-- S625PACK/10.bin
-- S625PACK/11.bin
-- S625PACK/12.bin
-- S625PACK/13.bin
-- S625PACK/14.bin
-- S625PACK/15.bin
-- S625PACK/16.bin
-- S625PACK/17.bin
-- S625PACK/18.bin
-- S625PACK/19.bin
-- S625PACK/20.bin
-- S625PACK/21.bin
-- S625PACK/22.bin
-- S625PACK/23.bin
+  - /build/rlen/dw2003/z_stage/S625PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S625PACK/1.bin
+  - /build/rlen/dw2003/z_stage/S625PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S625PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S625PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S625PACK/5.bin
+  - S625PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S625PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S625PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S625PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S625PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S625PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S625PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S625PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S625PACK/14.bin
+  - S625PACK/15.bin
+  - /build/rlen/dw2003/z_stage/S625PACK/16.bin
+  - /build/rlen/dw2003/z_stage/S625PACK/17.bin
+  - S625PACK/18.bin
+  - /build/rlen/dw2003/z_stage/S625PACK/19.bin
+  - /build/rlen/dw2003/z_stage/S625PACK/20.bin
+  - /build/rlen/dw2003/z_stage/S625PACK/21.bin
+  - /build/rlen/dw2003/z_stage/S625PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S625PACK/23.bin
 override_entries_len: 23
 extra_padding: 16384

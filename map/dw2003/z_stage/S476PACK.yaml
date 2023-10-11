@@ -1,14 +1,14 @@
 width: 3
 height: 3
 entries:
-- S476PACK/0.bin
-- S476PACK/1.bin
-- S476PACK/2.bin
-- S476PACK/3.bin
-- S476PACK/4.bin
-- S476PACK/5.bin
-- S476PACK/6.bin
-- S476PACK/7.bin
-- S476PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S476PACK/0.bin
+  - /build/rlen/dw2003/z_stage/S476PACK/1.bin
+  - S476PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S476PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S476PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S476PACK/5.bin
+  - /build/rlen/dw2003/z_stage/S476PACK/6.bin
+  - /build/rlen/dw2003/z_stage/S476PACK/7.bin
+  - /build/rlen/dw2003/z_stage/S476PACK/8.bin
 override_entries_len: 8
 extra_padding: 12288

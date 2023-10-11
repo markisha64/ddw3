@@ -1,58 +1,58 @@
 width: 6
 height: 9
 entries:
-- S576PACK/0.bin
-- S576PACK/1.bin
-- S576PACK/2.bin
-- S576PACK/3.bin
-- S576PACK/4.bin
-- S576PACK/5.bin
-- S576PACK/6.bin
-- S576PACK/7.bin
-- S576PACK/8.bin
-- S576PACK/9.bin
-- S576PACK/10.bin
-- S576PACK/11.bin
-- S576PACK/12.bin
-- S576PACK/13.bin
-- S576PACK/14.bin
-- S576PACK/15.bin
-- S576PACK/16.bin
-- S576PACK/17.bin
-- S576PACK/18.bin
-- S576PACK/19.bin
-- S576PACK/20.bin
-- S576PACK/21.bin
-- S576PACK/22.bin
-- S576PACK/23.bin
-- S576PACK/24.bin
-- S576PACK/25.bin
-- S576PACK/26.bin
-- S576PACK/27.bin
-- S576PACK/28.bin
-- S576PACK/29.bin
-- S576PACK/30.bin
-- S576PACK/31.bin
-- S576PACK/32.bin
-- S576PACK/33.bin
-- S576PACK/34.bin
-- S576PACK/35.bin
-- S576PACK/36.bin
-- S576PACK/37.bin
-- S576PACK/38.bin
-- S576PACK/39.bin
-- S576PACK/40.bin
-- S576PACK/41.bin
-- S576PACK/42.bin
-- S576PACK/43.bin
-- S576PACK/44.bin
-- S576PACK/45.bin
-- S576PACK/46.bin
-- S576PACK/47.bin
-- S576PACK/48.bin
-- S576PACK/49.bin
-- S576PACK/50.bin
-- S576PACK/51.bin
-- S576PACK/52.bin
-- S576PACK/53.bin
+  - S576PACK/0.bin
+  - S576PACK/1.bin
+  - S576PACK/2.bin
+  - /build/rlen/dw2003/z_stage/S576PACK/3.bin
+  - /build/rlen/dw2003/z_stage/S576PACK/4.bin
+  - /build/rlen/dw2003/z_stage/S576PACK/5.bin
+  - S576PACK/6.bin
+  - S576PACK/7.bin
+  - S576PACK/8.bin
+  - /build/rlen/dw2003/z_stage/S576PACK/9.bin
+  - /build/rlen/dw2003/z_stage/S576PACK/10.bin
+  - /build/rlen/dw2003/z_stage/S576PACK/11.bin
+  - /build/rlen/dw2003/z_stage/S576PACK/12.bin
+  - /build/rlen/dw2003/z_stage/S576PACK/13.bin
+  - /build/rlen/dw2003/z_stage/S576PACK/14.bin
+  - S576PACK/15.bin
+  - S576PACK/16.bin
+  - S576PACK/17.bin
+  - /build/rlen/dw2003/z_stage/S576PACK/18.bin
+  - /build/rlen/dw2003/z_stage/S576PACK/19.bin
+  - S576PACK/20.bin
+  - S576PACK/21.bin
+  - S576PACK/22.bin
+  - /build/rlen/dw2003/z_stage/S576PACK/23.bin
+  - S576PACK/24.bin
+  - S576PACK/25.bin
+  - S576PACK/26.bin
+  - S576PACK/27.bin
+  - /build/rlen/dw2003/z_stage/S576PACK/28.bin
+  - /build/rlen/dw2003/z_stage/S576PACK/29.bin
+  - S576PACK/30.bin
+  - S576PACK/31.bin
+  - S576PACK/32.bin
+  - /build/rlen/dw2003/z_stage/S576PACK/33.bin
+  - /build/rlen/dw2003/z_stage/S576PACK/34.bin
+  - S576PACK/35.bin
+  - S576PACK/36.bin
+  - S576PACK/37.bin
+  - /build/rlen/dw2003/z_stage/S576PACK/38.bin
+  - /build/rlen/dw2003/z_stage/S576PACK/39.bin
+  - /build/rlen/dw2003/z_stage/S576PACK/40.bin
+  - S576PACK/41.bin
+  - S576PACK/42.bin
+  - /build/rlen/dw2003/z_stage/S576PACK/43.bin
+  - /build/rlen/dw2003/z_stage/S576PACK/44.bin
+  - S576PACK/45.bin
+  - S576PACK/46.bin
+  - S576PACK/47.bin
+  - S576PACK/48.bin
+  - S576PACK/49.bin
+  - S576PACK/50.bin
+  - S576PACK/51.bin
+  - S576PACK/52.bin
+  - S576PACK/53.bin
 extra_padding: 2048

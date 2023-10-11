@@ -28,6 +28,8 @@ alias:
   process_path            : tools/process_path.py
   mkpack_deps             : tools/mkpack_deps.py
   mkmap_deps              : tools/mkmap_deps.py
+  mkrlen_from_yaml        : tools/mkrlen_from_yaml.py
+  mkrlen_from_yaml_deps   : tools/mkrlen_from_yaml_deps.py
 
   # Cargo tools
   mkpsexe    : $(build_rust_tool_dir)/ddw3-mkpsexe
@@ -35,6 +37,7 @@ alias:
   mkpack     : $(build_rust_tool_dir)/ddw3-mkpack
   mktim      : $(build_rust_tool_dir)/ddw3-mktim
   mkmap      : $(build_rust_tool_dir)/ddw3-mkmap
+  mkrlen     : $(build_rust_tool_dir)/ddw3-mkrlen
 
   # Directories
   build_dir  : build
@@ -50,6 +53,7 @@ alias:
   build_pack_dir     : $(build_dir)/pack
   build_tim_dir      : $(build_dir)/tim
   build_map_dir      : $(build_dir)/map
+  build_rlen_dir     : $(build_dir)/rlen
 
   # Licenses
   license_psx_iso : licenses/psx-bin.dat
@@ -118,6 +122,11 @@ alias:
   map     : $(build_map_dir)/^(path).bin
   map_deps: $(build_map_dir)/^(path).d
   map_yaml: map/^(path).yaml
+
+  # Rlen
+  rlen     : $(build_rlen_dir)/^(path).bin
+  rlen_deps: $(build_rlen_dir)/^(path).d
+  rlen_yaml: rlen/^(path).yaml
 
   # Rust library
   rust_lib     : $(build_rust_dir)/^(name).a
@@ -388,6 +397,39 @@ rules:
         - $(map)
         - --deps
         - $(map_deps)
+
+  # Rlen
+  rlen:
+    out: [$(rlen)]
+    deps:
+      - $(rlen_yaml)
+      - $(mkrlen_from_yaml)
+      - $(mkrlen)
+      - deps_file: $(rlen_deps)
+      - static: $(rlen::dir_name)/
+    exec:
+      - - $(python3)
+        - $(mkrlen_from_yaml)
+        - $(rlen_yaml)
+        - -o
+        - $(rlen)
+        - --rlen-bin=$(mkrlen)
+
+  # Rlen dependencies
+  rlen_deps:
+    out: [$(rlen_deps)]
+    deps:
+      - $(rlen_yaml)
+      - $(mkrlen_from_yaml_deps)
+      - static: $(rlen_deps::dir_name)/
+    exec:
+      - - $(python3)
+        - $(mkrlen_from_yaml_deps)
+        - $(rlen_yaml)
+        - -o
+        - $(rlen)
+        - --deps
+        - $(rlen_deps)
 
   # Elf
   elf:
