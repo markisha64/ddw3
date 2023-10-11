@@ -67,6 +67,7 @@ thiserror = "1.0.47"
 tracing = "0.1.37"
 tracing-subscriber = { version = "0.3.17", features = ["env-filter"] }
 xml-rs = "0.8.16"
+hex-literal = "0.4.1"
 
 # Workspace
 ddw3-bytes = { path = "ddw3-bytes" }

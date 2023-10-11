@@ -14,4 +14,11 @@ pub struct Args {
 	/// The output file
 	#[clap(long = "output", short = 'o')]
 	pub output: PathBuf,
+
+	/// Run in compatibility mode for file.
+	///
+	/// Expects a string of format `<map>.<map-part>`,
+	/// for example, `S232.12`
+	#[clap(long = "compatibility")]
+	pub compatibility: Option<String>,
 }
