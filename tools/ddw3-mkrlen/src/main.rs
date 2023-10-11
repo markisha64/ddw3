@@ -8,7 +8,9 @@
 	let_chains,
 	generic_arg_infer,
 	lint_reasons,
-	decl_macro
+	decl_macro,
+	try_blocks,
+	path_file_prefix
 )]
 
 // Modules
@@ -35,6 +37,26 @@ fn main() -> Result<(), anyhow::Error> {
 	let args = Args::parse();
 	tracing::debug!(?args, "Arguments");
 
+	// Parse auto-compatibility
+	let compatibility = match args.auto_compatibility {
+		true => {
+			anyhow::ensure!(
+				args.compatibility.is_none(),
+				"Cannot specify `auto-compatibility` and `compatibility`"
+			);
+
+			try {
+				let map = args.input.parent()?.file_name()?.to_str()?.strip_suffix("PACK")?;
+				let map_part = args.input.file_prefix()?.to_str()?;
+				let compatibility = format!("{map}.{map_part}");
+
+				tracing::info!(?compatibility, "Found auto-compatibility");
+				compatibility
+			}
+		},
+		false => args.compatibility,
+	};
+
 	// Read the input file
 	// TODO: Stream the input instead of reading it all?
 	let input = fs::read(&args.input).context("Unable to read input file")?;
@@ -52,7 +74,7 @@ fn main() -> Result<(), anyhow::Error> {
 	let mut input = &*input;
 	loop {
 		// If we're running in compatibility mode, manually output some parts
-		if let Some(compatibility) = &args.compatibility {
+		if let Some(compatibility) = &compatibility {
 			macro if_eq_then($cmp:expr => $res:expr) {
 				(input == hex![$cmp]).then_some(&hex![$res] as &[u8])
 			}
@@ -101,35 +123,6 @@ fn main() -> Result<(), anyhow::Error> {
 				output.write_all(bytes).context("Unable to write output")?;
 				break;
 			}
-
-			/*
-			//#[expect(clippy::type_complexity, reason = "This is the only mention of the type")]
-			const CASES: &[(&[&str], &[u8], &[u8]); 3] = &[
-				(&["S205"], &hex!["6b5aff"], &hex!["026b5a81ff"]),
-				(&["S210", "S212"], &hex!["1b18"], &hex!["011b8118"]),
-				(
-					&["S225"],
-					&
-				),
-			];
-
-			for &(filenames, needle, bytes) in CASES {
-				// If `filename` isn't part of the input file name, quit
-				if !args
-					.input.
-					.map_or(false, |input_filename| {
-						filenames.iter().any(|filename| input_filename.contains(filename))
-					}) {
-					continue;
-				}
-
-				// If we found it, write the output and break all the way out.
-				if input == needle {
-					output.write_all(bytes).context("Unable to write output")?;
-					break 'main;
-				}
-			}
-			*/
 		}
 
 		// Get the current byte
@@ -140,10 +133,6 @@ fn main() -> Result<(), anyhow::Error> {
 		// And the next one
 		// Note: If there is no next one, just write the current and leave
 		let Some(&next) = input.get(1) else {
-			if args.compatibility.as_deref() == Some("S641.42") {
-				println!("Got {cur:x}");
-			}
-
 			output.write_u8(0x01).context("Unable to write opcode")?;
 			output.write_u8(cur).context("Unable to write data")?;
 			break;
@@ -177,7 +166,7 @@ fn main() -> Result<(), anyhow::Error> {
 			false => {
 				let len = match input[1..].array_windows().position(|&[b0, b1]| b0 == b1) {
 					Some(idx) => idx + 1,
-					None => match args.compatibility.as_deref() {
+					None => match compatibility.as_deref() {
 						Some("S641.42") => input.len() - 1,
 						_ => input.len(),
 					},

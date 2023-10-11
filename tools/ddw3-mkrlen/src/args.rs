@@ -21,4 +21,8 @@ pub struct Args {
 	/// for example, `S232.12`
 	#[clap(long = "compatibility")]
 	pub compatibility: Option<String>,
+
+	/// Auto-detects compatibility mode from input filename
+	#[clap(long = "auto-compatibility")]
+	pub auto_compatibility: bool,
 }

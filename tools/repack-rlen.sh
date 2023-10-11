@@ -2,10 +2,6 @@
 
 set -e
 
-DIR="$(basename "$(dirname "$1")")"
-FILE="$(basename "$1")"
-
-COMPATIBILITY="${DIR%PACK}.${FILE%.bin}"
 OUTPUT="${1%.bin}.out.bin"
 
 #cargo build \
@@ -18,7 +14,7 @@ OUTPUT="${1%.bin}.out.bin"
 	--output "$OUTPUT"
 
 ./tools/target/release/ddw3-mkrlen "$OUTPUT" \
-	--compatibility "$COMPATIBILITY" \
+	--auto-compatibility \
 	--output "$1"
 
-#rm "$OUTPUT"
+rm "$OUTPUT"
