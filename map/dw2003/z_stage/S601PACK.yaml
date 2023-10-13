@@ -5,7 +5,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S601PACK/1.bin
   - /build/rlen/dw2003/z_stage/S601PACK/2.bin
   - /build/rlen/dw2003/z_stage/S601PACK/3.bin
-  - S601PACK/4.bin
+  - /map-tile/empty.bin
   - S601PACK/5.bin
   - S601PACK/6.bin
   - S601PACK/7.bin
@@ -20,6 +20,6 @@ entries:
   - /build/rlen/dw2003/z_stage/S601PACK/16.bin
   - /build/rlen/dw2003/z_stage/S601PACK/17.bin
   - /build/rlen/dw2003/z_stage/S601PACK/18.bin
-  - S601PACK/19.bin
+  - /map-tile/empty.bin
 override_entries_len: 18
 extra_padding: 18432

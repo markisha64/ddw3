@@ -1,13 +1,13 @@
 width: 7
 height: 5
 entries:
-  - S676PACK/0.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S676PACK/1.bin
   - /build/rlen/dw2003/z_stage/S676PACK/2.bin
   - /build/rlen/dw2003/z_stage/S676PACK/3.bin
   - /build/rlen/dw2003/z_stage/S676PACK/4.bin
   - /build/rlen/dw2003/z_stage/S676PACK/5.bin
-  - S676PACK/6.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S676PACK/7.bin
   - /build/rlen/dw2003/z_stage/S676PACK/8.bin
   - /build/rlen/dw2003/z_stage/S676PACK/9.bin
@@ -29,12 +29,12 @@ entries:
   - S676PACK/25.bin
   - /build/rlen/dw2003/z_stage/S676PACK/26.bin
   - /build/rlen/dw2003/z_stage/S676PACK/27.bin
-  - S676PACK/28.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S676PACK/29.bin
   - /build/rlen/dw2003/z_stage/S676PACK/30.bin
   - /build/rlen/dw2003/z_stage/S676PACK/31.bin
   - /build/rlen/dw2003/z_stage/S676PACK/32.bin
   - /build/rlen/dw2003/z_stage/S676PACK/33.bin
-  - S676PACK/34.bin
+  - /map-tile/empty.bin
 override_entries_len: 31
 extra_padding: 18432

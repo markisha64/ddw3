@@ -1,20 +1,20 @@
 width: 11
 height: 7
 entries:
-  - S735PACK/0.bin
-  - S735PACK/1.bin
-  - S735PACK/2.bin
-  - S735PACK/3.bin
-  - S735PACK/4.bin
-  - S735PACK/5.bin
-  - S735PACK/6.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S735PACK/7.bin
   - /build/rlen/dw2003/z_stage/S735PACK/8.bin
   - /build/rlen/dw2003/z_stage/S735PACK/9.bin
   - /build/rlen/dw2003/z_stage/S735PACK/10.bin
-  - S735PACK/11.bin
-  - S735PACK/12.bin
-  - S735PACK/13.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S735PACK/14.bin
   - /build/rlen/dw2003/z_stage/S735PACK/15.bin
   - /build/rlen/dw2003/z_stage/S735PACK/16.bin
@@ -23,8 +23,8 @@ entries:
   - S735PACK/19.bin
   - /build/rlen/dw2003/z_stage/S735PACK/20.bin
   - /build/rlen/dw2003/z_stage/S735PACK/21.bin
-  - S735PACK/22.bin
-  - S735PACK/23.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S735PACK/24.bin
   - /build/rlen/dw2003/z_stage/S735PACK/25.bin
   - /build/rlen/dw2003/z_stage/S735PACK/26.bin
@@ -34,7 +34,7 @@ entries:
   - S735PACK/30.bin
   - /build/rlen/dw2003/z_stage/S735PACK/31.bin
   - /build/rlen/dw2003/z_stage/S735PACK/32.bin
-  - S735PACK/33.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S735PACK/34.bin
   - /build/rlen/dw2003/z_stage/S735PACK/35.bin
   - /build/rlen/dw2003/z_stage/S735PACK/36.bin
@@ -44,8 +44,8 @@ entries:
   - S735PACK/40.bin
   - S735PACK/41.bin
   - /build/rlen/dw2003/z_stage/S735PACK/42.bin
-  - S735PACK/43.bin
-  - S735PACK/44.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S735PACK/45.bin
   - S735PACK/46.bin
   - /build/rlen/dw2003/z_stage/S735PACK/47.bin
@@ -55,7 +55,7 @@ entries:
   - S735PACK/51.bin
   - S735PACK/52.bin
   - /build/rlen/dw2003/z_stage/S735PACK/53.bin
-  - S735PACK/54.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S735PACK/55.bin
   - /build/rlen/dw2003/z_stage/S735PACK/56.bin
   - S735PACK/57.bin
@@ -66,7 +66,7 @@ entries:
   - S735PACK/62.bin
   - S735PACK/63.bin
   - /build/rlen/dw2003/z_stage/S735PACK/64.bin
-  - S735PACK/65.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S735PACK/66.bin
   - S735PACK/67.bin
   - S735PACK/68.bin
@@ -77,6 +77,6 @@ entries:
   - S735PACK/73.bin
   - S735PACK/74.bin
   - /build/rlen/dw2003/z_stage/S735PACK/75.bin
-  - S735PACK/76.bin
+  - /map-tile/empty.bin
 override_entries_len: 59
 extra_padding: 18432

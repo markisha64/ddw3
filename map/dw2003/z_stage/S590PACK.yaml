@@ -5,7 +5,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S590PACK/1.bin
   - /build/rlen/dw2003/z_stage/S590PACK/2.bin
   - /build/rlen/dw2003/z_stage/S590PACK/3.bin
-  - S590PACK/4.bin
+  - /map-tile/empty.bin
   - S590PACK/5.bin
   - S590PACK/6.bin
   - S590PACK/7.bin
@@ -20,6 +20,6 @@ entries:
   - /build/rlen/dw2003/z_stage/S590PACK/16.bin
   - /build/rlen/dw2003/z_stage/S590PACK/17.bin
   - /build/rlen/dw2003/z_stage/S590PACK/18.bin
-  - S590PACK/19.bin
+  - /map-tile/empty.bin
 override_entries_len: 18
 extra_padding: 18432

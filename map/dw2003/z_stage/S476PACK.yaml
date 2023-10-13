@@ -3,7 +3,7 @@ height: 3
 entries:
   - /build/rlen/dw2003/z_stage/S476PACK/0.bin
   - /build/rlen/dw2003/z_stage/S476PACK/1.bin
-  - S476PACK/2.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S476PACK/3.bin
   - /build/rlen/dw2003/z_stage/S476PACK/4.bin
   - /build/rlen/dw2003/z_stage/S476PACK/5.bin

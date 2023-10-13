@@ -1,14 +1,14 @@
 width: 7
 height: 4
 entries:
-  - S275PACK/0.bin
-  - S275PACK/1.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S275PACK/2.bin
   - /build/rlen/dw2003/z_stage/S275PACK/3.bin
   - /build/rlen/dw2003/z_stage/S275PACK/4.bin
   - /build/rlen/dw2003/z_stage/S275PACK/5.bin
   - /build/rlen/dw2003/z_stage/S275PACK/6.bin
-  - S275PACK/7.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S275PACK/8.bin
   - /build/rlen/dw2003/z_stage/S275PACK/9.bin
   - S275PACK/10.bin
@@ -21,13 +21,13 @@ entries:
   - /build/rlen/dw2003/z_stage/S275PACK/17.bin
   - /build/rlen/dw2003/z_stage/S275PACK/18.bin
   - /build/rlen/dw2003/z_stage/S275PACK/19.bin
-  - S275PACK/20.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S275PACK/21.bin
   - /build/rlen/dw2003/z_stage/S275PACK/22.bin
   - /build/rlen/dw2003/z_stage/S275PACK/23.bin
   - /build/rlen/dw2003/z_stage/S275PACK/24.bin
   - S275PACK/25.bin
   - S275PACK/26.bin
-  - S275PACK/27.bin
+  - /map-tile/empty.bin
 override_entries_len: 23
 extra_padding: 20480

@@ -13,9 +13,9 @@ entries:
   - /build/rlen/dw2003/z_stage/S260PACK/9.bin
   - /build/rlen/dw2003/z_stage/S260PACK/10.bin
   - /build/rlen/dw2003/z_stage/S260PACK/11.bin
-  - S260PACK/12.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S260PACK/13.bin
   - /build/rlen/dw2003/z_stage/S260PACK/14.bin
-  - S260PACK/15.bin
+  - /map-tile/empty.bin
 override_entries_len: 14
 extra_padding: 20480

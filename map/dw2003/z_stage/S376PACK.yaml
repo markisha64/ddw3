@@ -1,20 +1,20 @@
 width: 11
 height: 10
 entries:
-  - S376PACK/0.bin
-  - S376PACK/1.bin
-  - S376PACK/2.bin
-  - S376PACK/3.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S376PACK/4.bin
   - /build/rlen/dw2003/z_stage/S376PACK/5.bin
   - /build/rlen/dw2003/z_stage/S376PACK/6.bin
   - /build/rlen/dw2003/z_stage/S376PACK/7.bin
   - /build/rlen/dw2003/z_stage/S376PACK/8.bin
-  - S376PACK/9.bin
-  - S376PACK/10.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S376PACK/11.bin
   - /build/rlen/dw2003/z_stage/S376PACK/12.bin
-  - S376PACK/13.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S376PACK/14.bin
   - S376PACK/15.bin
   - /build/rlen/dw2003/z_stage/S376PACK/16.bin
@@ -88,7 +88,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S376PACK/84.bin
   - /build/rlen/dw2003/z_stage/S376PACK/85.bin
   - /build/rlen/dw2003/z_stage/S376PACK/86.bin
-  - S376PACK/87.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S376PACK/88.bin
   - /build/rlen/dw2003/z_stage/S376PACK/89.bin
   - /build/rlen/dw2003/z_stage/S376PACK/90.bin
@@ -98,18 +98,18 @@ entries:
   - /build/rlen/dw2003/z_stage/S376PACK/94.bin
   - /build/rlen/dw2003/z_stage/S376PACK/95.bin
   - /build/rlen/dw2003/z_stage/S376PACK/96.bin
-  - S376PACK/97.bin
-  - S376PACK/98.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S376PACK/99.bin
   - /build/rlen/dw2003/z_stage/S376PACK/100.bin
-  - S376PACK/101.bin
-  - S376PACK/102.bin
-  - S376PACK/103.bin
-  - S376PACK/104.bin
-  - S376PACK/105.bin
-  - S376PACK/106.bin
-  - S376PACK/107.bin
-  - S376PACK/108.bin
-  - S376PACK/109.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
 override_entries_len: 91
 extra_padding: 20480

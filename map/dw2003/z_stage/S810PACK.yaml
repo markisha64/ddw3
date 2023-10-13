@@ -1,16 +1,16 @@
 width: 11
 height: 9
 entries:
-  - S810PACK/0.bin
-  - S810PACK/1.bin
-  - S810PACK/2.bin
-  - S810PACK/3.bin
-  - S810PACK/4.bin
-  - S810PACK/5.bin
-  - S810PACK/6.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S810PACK/7.bin
-  - S810PACK/8.bin
-  - S810PACK/9.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S810PACK/10.bin
   - /build/rlen/dw2003/z_stage/S810PACK/11.bin
   - /build/rlen/dw2003/z_stage/S810PACK/12.bin
@@ -59,7 +59,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S810PACK/55.bin
   - /build/rlen/dw2003/z_stage/S810PACK/56.bin
   - /build/rlen/dw2003/z_stage/S810PACK/57.bin
-  - S810PACK/58.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S810PACK/59.bin
   - /build/rlen/dw2003/z_stage/S810PACK/60.bin
   - /build/rlen/dw2003/z_stage/S810PACK/61.bin
@@ -71,29 +71,29 @@ entries:
   - /build/rlen/dw2003/z_stage/S810PACK/67.bin
   - /build/rlen/dw2003/z_stage/S810PACK/68.bin
   - /build/rlen/dw2003/z_stage/S810PACK/69.bin
-  - S810PACK/70.bin
-  - S810PACK/71.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S810PACK/72.bin
   - /build/rlen/dw2003/z_stage/S810PACK/73.bin
   - /build/rlen/dw2003/z_stage/S810PACK/74.bin
   - /build/rlen/dw2003/z_stage/S810PACK/75.bin
   - /build/rlen/dw2003/z_stage/S810PACK/76.bin
-  - S810PACK/77.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S810PACK/78.bin
   - /build/rlen/dw2003/z_stage/S810PACK/79.bin
   - /build/rlen/dw2003/z_stage/S810PACK/80.bin
-  - S810PACK/81.bin
-  - S810PACK/82.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S810PACK/83.bin
   - /build/rlen/dw2003/z_stage/S810PACK/84.bin
   - /build/rlen/dw2003/z_stage/S810PACK/85.bin
   - /build/rlen/dw2003/z_stage/S810PACK/86.bin
   - /build/rlen/dw2003/z_stage/S810PACK/87.bin
-  - S810PACK/88.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S810PACK/89.bin
   - /build/rlen/dw2003/z_stage/S810PACK/90.bin
-  - S810PACK/91.bin
-  - S810PACK/92.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S810PACK/93.bin
   - /build/rlen/dw2003/z_stage/S810PACK/94.bin
   - /build/rlen/dw2003/z_stage/S810PACK/95.bin

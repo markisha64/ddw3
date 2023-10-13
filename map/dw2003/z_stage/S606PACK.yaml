@@ -1,15 +1,15 @@
 width: 7
 height: 6
 entries:
-  - S606PACK/0.bin
-  - S606PACK/1.bin
-  - S606PACK/2.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S606PACK/3.bin
   - /build/rlen/dw2003/z_stage/S606PACK/4.bin
   - /build/rlen/dw2003/z_stage/S606PACK/5.bin
   - /build/rlen/dw2003/z_stage/S606PACK/6.bin
-  - S606PACK/7.bin
-  - S606PACK/8.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S606PACK/9.bin
   - /build/rlen/dw2003/z_stage/S606PACK/10.bin
   - /build/rlen/dw2003/z_stage/S606PACK/11.bin
@@ -37,9 +37,9 @@ entries:
   - /build/rlen/dw2003/z_stage/S606PACK/33.bin
   - S606PACK/34.bin
   - /build/rlen/dw2003/z_stage/S606PACK/35.bin
-  - S606PACK/36.bin
-  - S606PACK/37.bin
-  - S606PACK/38.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S606PACK/39.bin
   - /build/rlen/dw2003/z_stage/S606PACK/40.bin
   - /build/rlen/dw2003/z_stage/S606PACK/41.bin

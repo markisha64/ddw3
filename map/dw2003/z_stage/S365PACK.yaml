@@ -5,7 +5,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S365PACK/1.bin
   - /build/rlen/dw2003/z_stage/S365PACK/2.bin
   - /build/rlen/dw2003/z_stage/S365PACK/3.bin
-  - S365PACK/4.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S365PACK/5.bin
   - /build/rlen/dw2003/z_stage/S365PACK/6.bin
   - /build/rlen/dw2003/z_stage/S365PACK/7.bin
@@ -25,11 +25,11 @@ entries:
   - /build/rlen/dw2003/z_stage/S365PACK/21.bin
   - /build/rlen/dw2003/z_stage/S365PACK/22.bin
   - /build/rlen/dw2003/z_stage/S365PACK/23.bin
-  - S365PACK/24.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S365PACK/25.bin
   - /build/rlen/dw2003/z_stage/S365PACK/26.bin
   - /build/rlen/dw2003/z_stage/S365PACK/27.bin
-  - S365PACK/28.bin
-  - S365PACK/29.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
 override_entries_len: 26
 extra_padding: 18432

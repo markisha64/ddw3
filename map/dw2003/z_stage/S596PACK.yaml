@@ -5,7 +5,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S596PACK/1.bin
   - /build/rlen/dw2003/z_stage/S596PACK/2.bin
   - /build/rlen/dw2003/z_stage/S596PACK/3.bin
-  - S596PACK/4.bin
+  - /map-tile/empty.bin
   - S596PACK/5.bin
   - S596PACK/6.bin
   - S596PACK/7.bin
@@ -20,6 +20,6 @@ entries:
   - /build/rlen/dw2003/z_stage/S596PACK/16.bin
   - /build/rlen/dw2003/z_stage/S596PACK/17.bin
   - /build/rlen/dw2003/z_stage/S596PACK/18.bin
-  - S596PACK/19.bin
+  - /map-tile/empty.bin
 override_entries_len: 18
 extra_padding: 18432

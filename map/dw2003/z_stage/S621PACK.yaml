@@ -19,7 +19,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S621PACK/15.bin
   - /build/rlen/dw2003/z_stage/S621PACK/16.bin
   - /build/rlen/dw2003/z_stage/S621PACK/17.bin
-  - S621PACK/18.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S621PACK/19.bin
   - /build/rlen/dw2003/z_stage/S621PACK/20.bin
   - /build/rlen/dw2003/z_stage/S621PACK/21.bin

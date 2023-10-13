@@ -5,7 +5,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S296PACK/1.bin
   - /build/rlen/dw2003/z_stage/S296PACK/2.bin
   - /build/rlen/dw2003/z_stage/S296PACK/3.bin
-  - S296PACK/4.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S296PACK/5.bin
   - /build/rlen/dw2003/z_stage/S296PACK/6.bin
   - /build/rlen/dw2003/z_stage/S296PACK/7.bin

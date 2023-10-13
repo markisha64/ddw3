@@ -21,7 +21,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S440PACK/17.bin
   - /build/rlen/dw2003/z_stage/S440PACK/18.bin
   - /build/rlen/dw2003/z_stage/S440PACK/19.bin
-  - S440PACK/20.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S440PACK/21.bin
   - /build/rlen/dw2003/z_stage/S440PACK/22.bin
   - /build/rlen/dw2003/z_stage/S440PACK/23.bin

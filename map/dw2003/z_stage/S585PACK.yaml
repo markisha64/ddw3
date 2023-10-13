@@ -5,7 +5,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S585PACK/1.bin
   - /build/rlen/dw2003/z_stage/S585PACK/2.bin
   - /build/rlen/dw2003/z_stage/S585PACK/3.bin
-  - S585PACK/4.bin
+  - /map-tile/empty.bin
   - S585PACK/5.bin
   - S585PACK/6.bin
   - S585PACK/7.bin
@@ -20,6 +20,6 @@ entries:
   - /build/rlen/dw2003/z_stage/S585PACK/16.bin
   - /build/rlen/dw2003/z_stage/S585PACK/17.bin
   - /build/rlen/dw2003/z_stage/S585PACK/18.bin
-  - S585PACK/19.bin
+  - /map-tile/empty.bin
 override_entries_len: 18
 extra_padding: 18432

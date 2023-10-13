@@ -5,7 +5,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S295PACK/1.bin
   - /build/rlen/dw2003/z_stage/S295PACK/2.bin
   - /build/rlen/dw2003/z_stage/S295PACK/3.bin
-  - S295PACK/4.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S295PACK/5.bin
   - /build/rlen/dw2003/z_stage/S295PACK/6.bin
   - /build/rlen/dw2003/z_stage/S295PACK/7.bin

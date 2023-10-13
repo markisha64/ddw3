@@ -45,7 +45,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S455PACK/41.bin
   - /build/rlen/dw2003/z_stage/S455PACK/42.bin
   - S455PACK/43.bin
-  - S455PACK/44.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S455PACK/45.bin
   - /build/rlen/dw2003/z_stage/S455PACK/46.bin
   - /build/rlen/dw2003/z_stage/S455PACK/47.bin
@@ -56,7 +56,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S455PACK/52.bin
   - S455PACK/53.bin
   - /build/rlen/dw2003/z_stage/S455PACK/54.bin
-  - S455PACK/55.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S455PACK/56.bin
   - S455PACK/57.bin
   - /build/rlen/dw2003/z_stage/S455PACK/58.bin
@@ -66,17 +66,17 @@ entries:
   - /build/rlen/dw2003/z_stage/S455PACK/62.bin
   - /build/rlen/dw2003/z_stage/S455PACK/63.bin
   - /build/rlen/dw2003/z_stage/S455PACK/64.bin
-  - S455PACK/65.bin
-  - S455PACK/66.bin
-  - S455PACK/67.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S455PACK/68.bin
   - S455PACK/69.bin
   - S455PACK/70.bin
   - S455PACK/71.bin
   - /build/rlen/dw2003/z_stage/S455PACK/72.bin
   - /build/rlen/dw2003/z_stage/S455PACK/73.bin
-  - S455PACK/74.bin
-  - S455PACK/75.bin
-  - S455PACK/76.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
 override_entries_len: 69
 extra_padding: 20480

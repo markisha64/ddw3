@@ -9,6 +9,6 @@ entries:
   - /build/rlen/dw2003/z_stage/S235PACK/5.bin
   - /build/rlen/dw2003/z_stage/S235PACK/6.bin
   - /build/rlen/dw2003/z_stage/S235PACK/7.bin
-  - S235PACK/8.bin
+  - /map-tile/empty.bin
 override_entries_len: 8
 extra_padding: 16384

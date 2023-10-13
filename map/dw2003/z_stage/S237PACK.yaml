@@ -13,7 +13,7 @@ entries:
   - S237PACK/9.bin
   - /build/rlen/dw2003/z_stage/S237PACK/10.bin
   - /build/rlen/dw2003/z_stage/S237PACK/11.bin
-  - S237PACK/12.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S237PACK/13.bin
   - /build/rlen/dw2003/z_stage/S237PACK/14.bin
 override_entries_len: 14

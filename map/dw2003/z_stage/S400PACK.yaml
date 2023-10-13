@@ -98,7 +98,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S400PACK/94.bin
   - /build/rlen/dw2003/z_stage/S400PACK/95.bin
   - /build/rlen/dw2003/z_stage/S400PACK/96.bin
-  - S400PACK/97.bin
+  - /map-tile/empty.bin
   - S400PACK/98.bin
   - /build/rlen/dw2003/z_stage/S400PACK/99.bin
   - /build/rlen/dw2003/z_stage/S400PACK/100.bin
@@ -141,8 +141,8 @@ entries:
   - S400PACK/137.bin
   - /build/rlen/dw2003/z_stage/S400PACK/138.bin
   - /build/rlen/dw2003/z_stage/S400PACK/139.bin
-  - S400PACK/140.bin
-  - S400PACK/141.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S400PACK/142.bin
   - S400PACK/143.bin
   - S400PACK/144.bin
@@ -155,9 +155,9 @@ entries:
   - /build/rlen/dw2003/z_stage/S400PACK/151.bin
   - /build/rlen/dw2003/z_stage/S400PACK/152.bin
   - /build/rlen/dw2003/z_stage/S400PACK/153.bin
-  - S400PACK/154.bin
-  - S400PACK/155.bin
-  - S400PACK/156.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S400PACK/157.bin
   - S400PACK/158.bin
   - S400PACK/159.bin

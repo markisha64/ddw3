@@ -1,13 +1,13 @@
 width: 7
 height: 5
 entries:
-  - S675PACK/0.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S675PACK/1.bin
   - /build/rlen/dw2003/z_stage/S675PACK/2.bin
   - /build/rlen/dw2003/z_stage/S675PACK/3.bin
   - /build/rlen/dw2003/z_stage/S675PACK/4.bin
   - /build/rlen/dw2003/z_stage/S675PACK/5.bin
-  - S675PACK/6.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S675PACK/7.bin
   - /build/rlen/dw2003/z_stage/S675PACK/8.bin
   - /build/rlen/dw2003/z_stage/S675PACK/9.bin
@@ -29,12 +29,12 @@ entries:
   - S675PACK/25.bin
   - /build/rlen/dw2003/z_stage/S675PACK/26.bin
   - /build/rlen/dw2003/z_stage/S675PACK/27.bin
-  - S675PACK/28.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S675PACK/29.bin
   - /build/rlen/dw2003/z_stage/S675PACK/30.bin
   - /build/rlen/dw2003/z_stage/S675PACK/31.bin
   - /build/rlen/dw2003/z_stage/S675PACK/32.bin
   - /build/rlen/dw2003/z_stage/S675PACK/33.bin
-  - S675PACK/34.bin
+  - /map-tile/empty.bin
 override_entries_len: 31
 extra_padding: 18432

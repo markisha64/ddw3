@@ -1,7 +1,7 @@
 width: 5
 height: 3
 entries:
-  - S271PACK/0.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S271PACK/1.bin
   - /build/rlen/dw2003/z_stage/S271PACK/2.bin
   - /build/rlen/dw2003/z_stage/S271PACK/3.bin
@@ -14,7 +14,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S271PACK/10.bin
   - /build/rlen/dw2003/z_stage/S271PACK/11.bin
   - /build/rlen/dw2003/z_stage/S271PACK/12.bin
-  - S271PACK/13.bin
-  - S271PACK/14.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
 override_entries_len: 12
 extra_padding: 14336

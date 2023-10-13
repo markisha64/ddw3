@@ -1,7 +1,7 @@
 width: 9
 height: 6
 entries:
-  - S530PACK/0.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S530PACK/1.bin
   - /build/rlen/dw2003/z_stage/S530PACK/2.bin
   - /build/rlen/dw2003/z_stage/S530PACK/3.bin
@@ -28,7 +28,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S530PACK/24.bin
   - S530PACK/25.bin
   - /build/rlen/dw2003/z_stage/S530PACK/26.bin
-  - S530PACK/27.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S530PACK/28.bin
   - /build/rlen/dw2003/z_stage/S530PACK/29.bin
   - S530PACK/30.bin
@@ -37,7 +37,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S530PACK/33.bin
   - /build/rlen/dw2003/z_stage/S530PACK/34.bin
   - /build/rlen/dw2003/z_stage/S530PACK/35.bin
-  - S530PACK/36.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S530PACK/37.bin
   - /build/rlen/dw2003/z_stage/S530PACK/38.bin
   - /build/rlen/dw2003/z_stage/S530PACK/39.bin
@@ -45,15 +45,15 @@ entries:
   - /build/rlen/dw2003/z_stage/S530PACK/41.bin
   - S530PACK/42.bin
   - S530PACK/43.bin
-  - S530PACK/44.bin
-  - S530PACK/45.bin
-  - S530PACK/46.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S530PACK/47.bin
   - /build/rlen/dw2003/z_stage/S530PACK/48.bin
   - /build/rlen/dw2003/z_stage/S530PACK/49.bin
   - /build/rlen/dw2003/z_stage/S530PACK/50.bin
   - /build/rlen/dw2003/z_stage/S530PACK/51.bin
   - /build/rlen/dw2003/z_stage/S530PACK/52.bin
-  - S530PACK/53.bin
+  - /map-tile/empty.bin
 override_entries_len: 47
 extra_padding: 20480

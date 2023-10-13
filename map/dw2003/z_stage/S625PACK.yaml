@@ -19,7 +19,7 @@ entries:
   - S625PACK/15.bin
   - /build/rlen/dw2003/z_stage/S625PACK/16.bin
   - /build/rlen/dw2003/z_stage/S625PACK/17.bin
-  - S625PACK/18.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S625PACK/19.bin
   - /build/rlen/dw2003/z_stage/S625PACK/20.bin
   - /build/rlen/dw2003/z_stage/S625PACK/21.bin

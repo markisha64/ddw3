@@ -15,11 +15,11 @@ entries:
   - S251PACK/11.bin
   - S251PACK/12.bin
   - /build/rlen/dw2003/z_stage/S251PACK/13.bin
-  - S251PACK/14.bin
+  - /map-tile/empty.bin
   - S251PACK/15.bin
   - /build/rlen/dw2003/z_stage/S251PACK/16.bin
   - /build/rlen/dw2003/z_stage/S251PACK/17.bin
-  - S251PACK/18.bin
-  - S251PACK/19.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
 override_entries_len: 17
 extra_padding: 18432

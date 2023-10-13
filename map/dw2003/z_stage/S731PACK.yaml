@@ -13,11 +13,11 @@ entries:
   - /build/rlen/dw2003/z_stage/S731PACK/9.bin
   - /build/rlen/dw2003/z_stage/S731PACK/10.bin
   - /build/rlen/dw2003/z_stage/S731PACK/11.bin
-  - S731PACK/12.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S731PACK/13.bin
   - /build/rlen/dw2003/z_stage/S731PACK/14.bin
   - /build/rlen/dw2003/z_stage/S731PACK/15.bin
   - /build/rlen/dw2003/z_stage/S731PACK/16.bin
-  - S731PACK/17.bin
+  - /map-tile/empty.bin
 override_entries_len: 16
 extra_padding: 18432

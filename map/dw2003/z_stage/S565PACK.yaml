@@ -105,7 +105,7 @@ entries:
   - S565PACK/101.bin
   - S565PACK/102.bin
   - S565PACK/103.bin
-  - S565PACK/104.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S565PACK/105.bin
   - /build/rlen/dw2003/z_stage/S565PACK/106.bin
   - /build/rlen/dw2003/z_stage/S565PACK/107.bin

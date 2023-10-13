@@ -6,7 +6,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S520PACK/2.bin
   - /build/rlen/dw2003/z_stage/S520PACK/3.bin
   - /build/rlen/dw2003/z_stage/S520PACK/4.bin
-  - S520PACK/5.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S520PACK/6.bin
   - /build/rlen/dw2003/z_stage/S520PACK/7.bin
   - /build/rlen/dw2003/z_stage/S520PACK/8.bin
@@ -19,7 +19,7 @@ entries:
   - S520PACK/15.bin
   - S520PACK/16.bin
   - S520PACK/17.bin
-  - S520PACK/18.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S520PACK/19.bin
   - /build/rlen/dw2003/z_stage/S520PACK/20.bin
   - /build/rlen/dw2003/z_stage/S520PACK/21.bin

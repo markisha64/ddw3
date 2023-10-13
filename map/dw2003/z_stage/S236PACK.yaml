@@ -9,6 +9,6 @@ entries:
   - /build/rlen/dw2003/z_stage/S236PACK/5.bin
   - /build/rlen/dw2003/z_stage/S236PACK/6.bin
   - /build/rlen/dw2003/z_stage/S236PACK/7.bin
-  - S236PACK/8.bin
+  - /map-tile/empty.bin
 override_entries_len: 8
 extra_padding: 16384

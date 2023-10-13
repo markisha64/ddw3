@@ -108,6 +108,6 @@ entries:
   - /build/rlen/dw2003/z_stage/S661PACK/104.bin
   - /build/rlen/dw2003/z_stage/S661PACK/105.bin
   - /build/rlen/dw2003/z_stage/S661PACK/106.bin
-  - S661PACK/107.bin
+  - /map-tile/empty.bin
 override_entries_len: 107
 extra_padding: 20480

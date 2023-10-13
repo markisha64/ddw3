@@ -13,9 +13,9 @@ entries:
   - /build/rlen/dw2003/z_stage/S261PACK/9.bin
   - /build/rlen/dw2003/z_stage/S261PACK/10.bin
   - /build/rlen/dw2003/z_stage/S261PACK/11.bin
-  - S261PACK/12.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S261PACK/13.bin
   - /build/rlen/dw2003/z_stage/S261PACK/14.bin
-  - S261PACK/15.bin
+  - /map-tile/empty.bin
 override_entries_len: 14
 extra_padding: 18432

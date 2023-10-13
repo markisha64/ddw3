@@ -1,7 +1,7 @@
 width: 5
 height: 4
 entries:
-  - S305PACK/0.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S305PACK/1.bin
   - /build/rlen/dw2003/z_stage/S305PACK/2.bin
   - /build/rlen/dw2003/z_stage/S305PACK/3.bin
@@ -19,7 +19,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S305PACK/15.bin
   - /build/rlen/dw2003/z_stage/S305PACK/16.bin
   - /build/rlen/dw2003/z_stage/S305PACK/17.bin
-  - S305PACK/18.bin
-  - S305PACK/19.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
 override_entries_len: 17
 extra_padding: 16384

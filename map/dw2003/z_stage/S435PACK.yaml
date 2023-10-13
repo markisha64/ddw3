@@ -1,10 +1,10 @@
 width: 4
 height: 5
 entries:
-  - S435PACK/0.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S435PACK/1.bin
   - /build/rlen/dw2003/z_stage/S435PACK/2.bin
-  - S435PACK/3.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S435PACK/4.bin
   - S435PACK/5.bin
   - S435PACK/6.bin

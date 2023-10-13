@@ -98,7 +98,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S401PACK/94.bin
   - /build/rlen/dw2003/z_stage/S401PACK/95.bin
   - /build/rlen/dw2003/z_stage/S401PACK/96.bin
-  - S401PACK/97.bin
+  - /map-tile/empty.bin
   - S401PACK/98.bin
   - /build/rlen/dw2003/z_stage/S401PACK/99.bin
   - /build/rlen/dw2003/z_stage/S401PACK/100.bin
@@ -141,8 +141,8 @@ entries:
   - S401PACK/137.bin
   - /build/rlen/dw2003/z_stage/S401PACK/138.bin
   - /build/rlen/dw2003/z_stage/S401PACK/139.bin
-  - S401PACK/140.bin
-  - S401PACK/141.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S401PACK/142.bin
   - S401PACK/143.bin
   - S401PACK/144.bin
@@ -155,9 +155,9 @@ entries:
   - /build/rlen/dw2003/z_stage/S401PACK/151.bin
   - /build/rlen/dw2003/z_stage/S401PACK/152.bin
   - /build/rlen/dw2003/z_stage/S401PACK/153.bin
-  - S401PACK/154.bin
-  - S401PACK/155.bin
-  - S401PACK/156.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S401PACK/157.bin
   - S401PACK/158.bin
   - S401PACK/159.bin

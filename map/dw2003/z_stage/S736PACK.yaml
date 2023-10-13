@@ -1,20 +1,20 @@
 width: 11
 height: 7
 entries:
-  - S736PACK/0.bin
-  - S736PACK/1.bin
-  - S736PACK/2.bin
-  - S736PACK/3.bin
-  - S736PACK/4.bin
-  - S736PACK/5.bin
-  - S736PACK/6.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S736PACK/7.bin
   - /build/rlen/dw2003/z_stage/S736PACK/8.bin
   - /build/rlen/dw2003/z_stage/S736PACK/9.bin
   - /build/rlen/dw2003/z_stage/S736PACK/10.bin
-  - S736PACK/11.bin
-  - S736PACK/12.bin
-  - S736PACK/13.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S736PACK/14.bin
   - /build/rlen/dw2003/z_stage/S736PACK/15.bin
   - /build/rlen/dw2003/z_stage/S736PACK/16.bin
@@ -23,8 +23,8 @@ entries:
   - /build/rlen/dw2003/z_stage/S736PACK/19.bin
   - /build/rlen/dw2003/z_stage/S736PACK/20.bin
   - /build/rlen/dw2003/z_stage/S736PACK/21.bin
-  - S736PACK/22.bin
-  - S736PACK/23.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S736PACK/24.bin
   - /build/rlen/dw2003/z_stage/S736PACK/25.bin
   - /build/rlen/dw2003/z_stage/S736PACK/26.bin
@@ -34,7 +34,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S736PACK/30.bin
   - /build/rlen/dw2003/z_stage/S736PACK/31.bin
   - /build/rlen/dw2003/z_stage/S736PACK/32.bin
-  - S736PACK/33.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S736PACK/34.bin
   - /build/rlen/dw2003/z_stage/S736PACK/35.bin
   - /build/rlen/dw2003/z_stage/S736PACK/36.bin
@@ -44,8 +44,8 @@ entries:
   - /build/rlen/dw2003/z_stage/S736PACK/40.bin
   - S736PACK/41.bin
   - /build/rlen/dw2003/z_stage/S736PACK/42.bin
-  - S736PACK/43.bin
-  - S736PACK/44.bin
+  - /map-tile/empty.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S736PACK/45.bin
   - S736PACK/46.bin
   - /build/rlen/dw2003/z_stage/S736PACK/47.bin
@@ -55,7 +55,7 @@ entries:
   - S736PACK/51.bin
   - S736PACK/52.bin
   - /build/rlen/dw2003/z_stage/S736PACK/53.bin
-  - S736PACK/54.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S736PACK/55.bin
   - /build/rlen/dw2003/z_stage/S736PACK/56.bin
   - S736PACK/57.bin
@@ -66,7 +66,7 @@ entries:
   - S736PACK/62.bin
   - S736PACK/63.bin
   - /build/rlen/dw2003/z_stage/S736PACK/64.bin
-  - S736PACK/65.bin
+  - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S736PACK/66.bin
   - S736PACK/67.bin
   - S736PACK/68.bin
@@ -77,6 +77,6 @@ entries:
   - S736PACK/73.bin
   - S736PACK/74.bin
   - /build/rlen/dw2003/z_stage/S736PACK/75.bin
-  - S736PACK/76.bin
+  - /map-tile/empty.bin
 override_entries_len: 59
 extra_padding: 18432
