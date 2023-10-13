@@ -47,8 +47,8 @@ fn main() -> Result<(), anyhow::Error> {
 
 			try {
 				let map = args.input.parent()?.file_name()?.to_str()?.strip_suffix("PACK")?;
-				let map_part = args.input.file_prefix()?.to_str()?;
-				let compatibility = format!("{map}.{map_part}");
+				let tile = args.input.file_prefix()?.to_str()?;
+				let compatibility = format!("{map}.{tile}");
 
 				tracing::info!(?compatibility, "Found auto-compatibility");
 				compatibility
