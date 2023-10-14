@@ -104,7 +104,5 @@
 		"WarGreymon",
 		"WarGrowlmon"
 	],
-	"python.formatting.provider": "yapf",
-	"rust-analyzer.checkOnSave.allTargets": false,
 	"rust-analyzer.linkedProjects": ["tools/Cargo.toml"]
 }
