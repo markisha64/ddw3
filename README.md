@@ -29,6 +29,7 @@ Currently the following is done:
 | In-game digimon "current" stats                               | ✅      | See rust module `dw2003_exe_data::data::DIGIMON_CUR_STATS`                                                                                                               |
 | Digimon profiles (base stats / resistances / growths / moves) | ✅      | See rust crate `dw2003_exe_digimon_profiles`                                                                                                                             |
 | Digimon evolutions                                            | ✅      | See rust module `dw2003_pro_stfgtrep_data::data::STFGTREP_EVOS_{DIGIMON}`                                                                                                |
+| Maps                                                          | ✅      | See `map/` and `map-part/`. Images are in `tim/dw2003/z_stage/<map>/<tile>.png`                                                                                          |
 
 # Documentation
 
