@@ -1,0 +1,41 @@
+img: /build/tim/dw2003/z_stage/S740PACK/29.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 128
+  - objs: []
+  - objs:
+      - world_offset:
+          - 18
+          - 0
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 32
+          - 5
+      - world_offset:
+          - 98
+          - 28
+        img_offset:
+          - 128
+          - 5
+        size:
+          - 30
+          - 26
+      - world_offset:
+          - 50
+          - 100
+        img_offset:
+          - 128
+          - 31
+        size:
+          - 58
+          - 26

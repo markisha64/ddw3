@@ -1,0 +1,32 @@
+img: /build/tim/dw2003/z_stage/S720PACK/31.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 128
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 106
+          - 38
+      - world_offset:
+          - 0
+          - 56
+        img_offset:
+          - 128
+          - 38
+        size:
+          - 128
+          - 72
+  - objs: []

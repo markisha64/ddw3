@@ -30,7 +30,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S736PACK/26.bin
   - /build/rlen/dw2003/z_stage/S736PACK/27.bin
   - /build/rlen/dw2003/z_stage/S736PACK/28.bin
-  - S736PACK/29.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/29.bin
   - /build/rlen/dw2003/z_stage/S736PACK/30.bin
   - /build/rlen/dw2003/z_stage/S736PACK/31.bin
   - /build/rlen/dw2003/z_stage/S736PACK/32.bin
@@ -38,44 +38,44 @@ entries:
   - /build/rlen/dw2003/z_stage/S736PACK/34.bin
   - /build/rlen/dw2003/z_stage/S736PACK/35.bin
   - /build/rlen/dw2003/z_stage/S736PACK/36.bin
-  - S736PACK/37.bin
-  - S736PACK/38.bin
-  - S736PACK/39.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/37.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/38.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/39.bin
   - /build/rlen/dw2003/z_stage/S736PACK/40.bin
-  - S736PACK/41.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/41.bin
   - /build/rlen/dw2003/z_stage/S736PACK/42.bin
   - /map-tile/empty.bin
   - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S736PACK/45.bin
-  - S736PACK/46.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/46.bin
   - /build/rlen/dw2003/z_stage/S736PACK/47.bin
-  - S736PACK/48.bin
-  - S736PACK/49.bin
-  - S736PACK/50.bin
-  - S736PACK/51.bin
-  - S736PACK/52.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/48.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/49.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/50.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/51.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/52.bin
   - /build/rlen/dw2003/z_stage/S736PACK/53.bin
   - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S736PACK/55.bin
   - /build/rlen/dw2003/z_stage/S736PACK/56.bin
-  - S736PACK/57.bin
-  - S736PACK/58.bin
-  - S736PACK/59.bin
-  - S736PACK/60.bin
-  - S736PACK/61.bin
-  - S736PACK/62.bin
-  - S736PACK/63.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/57.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/58.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/59.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/60.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/61.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/62.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/63.bin
   - /build/rlen/dw2003/z_stage/S736PACK/64.bin
   - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S736PACK/66.bin
-  - S736PACK/67.bin
-  - S736PACK/68.bin
-  - S736PACK/69.bin
-  - S736PACK/70.bin
-  - S736PACK/71.bin
-  - S736PACK/72.bin
-  - S736PACK/73.bin
-  - S736PACK/74.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/67.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/68.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/69.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/70.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/71.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/72.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/73.bin
+  - /build/map-tile/dw2003/z_stage/S736PACK/74.bin
   - /build/rlen/dw2003/z_stage/S736PACK/75.bin
   - /map-tile/empty.bin
 override_entries_len: 59

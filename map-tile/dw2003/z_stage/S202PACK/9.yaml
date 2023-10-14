@@ -1,0 +1,32 @@
+img: /build/tim/dw2003/z_stage/S202PACK/9.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 53
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 75
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 128
+          - 128
+  - objs:
+      - world_offset:
+          - 8
+          - 115
+        img_offset:
+          - 0
+          - 75
+        size:
+          - 10
+          - 13

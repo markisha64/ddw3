@@ -4,9 +4,9 @@ entries:
   - /build/rlen/dw2003/z_stage/S731PACK/0.bin
   - /build/rlen/dw2003/z_stage/S731PACK/1.bin
   - /build/rlen/dw2003/z_stage/S731PACK/2.bin
-  - S731PACK/3.bin
-  - S731PACK/4.bin
-  - S731PACK/5.bin
+  - /build/map-tile/dw2003/z_stage/S731PACK/3.bin
+  - /build/map-tile/dw2003/z_stage/S731PACK/4.bin
+  - /build/map-tile/dw2003/z_stage/S731PACK/5.bin
   - /build/rlen/dw2003/z_stage/S731PACK/6.bin
   - /build/rlen/dw2003/z_stage/S731PACK/7.bin
   - /build/rlen/dw2003/z_stage/S731PACK/8.bin

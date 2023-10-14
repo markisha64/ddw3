@@ -1,15 +1,15 @@
 width: 6
 height: 7
 entries:
-  - S720PACK/0.bin
-  - S720PACK/1.bin
-  - S720PACK/2.bin
-  - S720PACK/3.bin
-  - S720PACK/4.bin
-  - S720PACK/5.bin
-  - S720PACK/6.bin
-  - S720PACK/7.bin
-  - S720PACK/8.bin
+  - /build/map-tile/dw2003/z_stage/S720PACK/0.bin
+  - /build/map-tile/dw2003/z_stage/S720PACK/1.bin
+  - /build/map-tile/dw2003/z_stage/S720PACK/2.bin
+  - /build/map-tile/dw2003/z_stage/S720PACK/3.bin
+  - /build/map-tile/dw2003/z_stage/S720PACK/4.bin
+  - /build/map-tile/dw2003/z_stage/S720PACK/5.bin
+  - /build/map-tile/dw2003/z_stage/S720PACK/6.bin
+  - /build/map-tile/dw2003/z_stage/S720PACK/7.bin
+  - /build/map-tile/dw2003/z_stage/S720PACK/8.bin
   - /build/rlen/dw2003/z_stage/S720PACK/9.bin
   - /build/rlen/dw2003/z_stage/S720PACK/10.bin
   - /build/rlen/dw2003/z_stage/S720PACK/11.bin
@@ -18,29 +18,29 @@ entries:
   - /build/rlen/dw2003/z_stage/S720PACK/14.bin
   - /build/rlen/dw2003/z_stage/S720PACK/15.bin
   - /build/rlen/dw2003/z_stage/S720PACK/16.bin
-  - S720PACK/17.bin
+  - /build/map-tile/dw2003/z_stage/S720PACK/17.bin
   - /build/rlen/dw2003/z_stage/S720PACK/18.bin
   - /build/rlen/dw2003/z_stage/S720PACK/19.bin
   - /build/rlen/dw2003/z_stage/S720PACK/20.bin
   - /build/rlen/dw2003/z_stage/S720PACK/21.bin
-  - S720PACK/22.bin
-  - S720PACK/23.bin
+  - /build/map-tile/dw2003/z_stage/S720PACK/22.bin
+  - /build/map-tile/dw2003/z_stage/S720PACK/23.bin
   - /build/rlen/dw2003/z_stage/S720PACK/24.bin
   - /build/rlen/dw2003/z_stage/S720PACK/25.bin
   - /build/rlen/dw2003/z_stage/S720PACK/26.bin
   - /build/rlen/dw2003/z_stage/S720PACK/27.bin
   - /build/rlen/dw2003/z_stage/S720PACK/28.bin
-  - S720PACK/29.bin
+  - /build/map-tile/dw2003/z_stage/S720PACK/29.bin
   - /build/rlen/dw2003/z_stage/S720PACK/30.bin
   - /build/rlen/dw2003/z_stage/S720PACK/31.bin
   - /build/rlen/dw2003/z_stage/S720PACK/32.bin
   - /build/rlen/dw2003/z_stage/S720PACK/33.bin
-  - S720PACK/34.bin
-  - S720PACK/35.bin
-  - S720PACK/36.bin
+  - /build/map-tile/dw2003/z_stage/S720PACK/34.bin
+  - /build/map-tile/dw2003/z_stage/S720PACK/35.bin
+  - /build/map-tile/dw2003/z_stage/S720PACK/36.bin
   - /build/rlen/dw2003/z_stage/S720PACK/37.bin
-  - S720PACK/38.bin
-  - S720PACK/39.bin
-  - S720PACK/40.bin
-  - S720PACK/41.bin
+  - /build/map-tile/dw2003/z_stage/S720PACK/38.bin
+  - /build/map-tile/dw2003/z_stage/S720PACK/39.bin
+  - /build/map-tile/dw2003/z_stage/S720PACK/40.bin
+  - /build/map-tile/dw2003/z_stage/S720PACK/41.bin
 extra_padding: 2048

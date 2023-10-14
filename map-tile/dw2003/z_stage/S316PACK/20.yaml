@@ -1,0 +1,32 @@
+img: /build/tim/dw2003/z_stage/S316PACK/20.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 128
+  - objs:
+      - world_offset:
+          - 45
+          - 0
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 16
+          - 4
+      - world_offset:
+          - 0
+          - 68
+        img_offset:
+          - 128
+          - 4
+        size:
+          - 102
+          - 60
+  - objs: []

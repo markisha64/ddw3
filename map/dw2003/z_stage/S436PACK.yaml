@@ -6,19 +6,19 @@ entries:
   - /build/rlen/dw2003/z_stage/S436PACK/2.bin
   - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S436PACK/4.bin
-  - S436PACK/5.bin
-  - S436PACK/6.bin
+  - /build/map-tile/dw2003/z_stage/S436PACK/5.bin
+  - /build/map-tile/dw2003/z_stage/S436PACK/6.bin
   - /build/rlen/dw2003/z_stage/S436PACK/7.bin
-  - S436PACK/8.bin
-  - S436PACK/9.bin
-  - S436PACK/10.bin
-  - S436PACK/11.bin
-  - S436PACK/12.bin
-  - S436PACK/13.bin
-  - S436PACK/14.bin
-  - S436PACK/15.bin
+  - /build/map-tile/dw2003/z_stage/S436PACK/8.bin
+  - /build/map-tile/dw2003/z_stage/S436PACK/9.bin
+  - /build/map-tile/dw2003/z_stage/S436PACK/10.bin
+  - /build/map-tile/dw2003/z_stage/S436PACK/11.bin
+  - /build/map-tile/dw2003/z_stage/S436PACK/12.bin
+  - /build/map-tile/dw2003/z_stage/S436PACK/13.bin
+  - /build/map-tile/dw2003/z_stage/S436PACK/14.bin
+  - /build/map-tile/dw2003/z_stage/S436PACK/15.bin
   - /build/rlen/dw2003/z_stage/S436PACK/16.bin
-  - S436PACK/17.bin
+  - /build/map-tile/dw2003/z_stage/S436PACK/17.bin
   - /build/rlen/dw2003/z_stage/S436PACK/18.bin
   - /build/rlen/dw2003/z_stage/S436PACK/19.bin
 override_entries_len: 18

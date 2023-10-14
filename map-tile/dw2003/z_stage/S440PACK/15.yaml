@@ -1,0 +1,32 @@
+img: /build/tim/dw2003/z_stage/S440PACK/15.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 121
+  - objs: []
+  - objs:
+      - world_offset:
+          - 118
+          - 36
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 10
+          - 11
+      - world_offset:
+          - 79
+          - 50
+        img_offset:
+          - 128
+          - 11
+        size:
+          - 50
+          - 47

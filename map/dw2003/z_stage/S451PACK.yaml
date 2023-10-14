@@ -25,22 +25,22 @@ entries:
   - /build/rlen/dw2003/z_stage/S451PACK/21.bin
   - /build/rlen/dw2003/z_stage/S451PACK/22.bin
   - /build/rlen/dw2003/z_stage/S451PACK/23.bin
-  - S451PACK/24.bin
+  - /build/map-tile/dw2003/z_stage/S451PACK/24.bin
   - /build/rlen/dw2003/z_stage/S451PACK/25.bin
   - /build/rlen/dw2003/z_stage/S451PACK/26.bin
   - /build/rlen/dw2003/z_stage/S451PACK/27.bin
   - /build/rlen/dw2003/z_stage/S451PACK/28.bin
-  - S451PACK/29.bin
-  - S451PACK/30.bin
-  - S451PACK/31.bin
+  - /build/map-tile/dw2003/z_stage/S451PACK/29.bin
+  - /build/map-tile/dw2003/z_stage/S451PACK/30.bin
+  - /build/map-tile/dw2003/z_stage/S451PACK/31.bin
   - /build/rlen/dw2003/z_stage/S451PACK/32.bin
   - /build/rlen/dw2003/z_stage/S451PACK/33.bin
   - /build/rlen/dw2003/z_stage/S451PACK/34.bin
   - /build/rlen/dw2003/z_stage/S451PACK/35.bin
-  - S451PACK/36.bin
-  - S451PACK/37.bin
+  - /build/map-tile/dw2003/z_stage/S451PACK/36.bin
+  - /build/map-tile/dw2003/z_stage/S451PACK/37.bin
   - /build/rlen/dw2003/z_stage/S451PACK/38.bin
-  - S451PACK/39.bin
+  - /build/map-tile/dw2003/z_stage/S451PACK/39.bin
   - /build/rlen/dw2003/z_stage/S451PACK/40.bin
   - /build/rlen/dw2003/z_stage/S451PACK/41.bin
   - /build/rlen/dw2003/z_stage/S451PACK/42.bin
@@ -52,7 +52,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S451PACK/48.bin
   - /build/rlen/dw2003/z_stage/S451PACK/49.bin
   - /build/rlen/dw2003/z_stage/S451PACK/50.bin
-  - S451PACK/51.bin
+  - /build/map-tile/dw2003/z_stage/S451PACK/51.bin
   - /build/rlen/dw2003/z_stage/S451PACK/52.bin
   - /build/rlen/dw2003/z_stage/S451PACK/53.bin
   - /build/rlen/dw2003/z_stage/S451PACK/54.bin
@@ -60,22 +60,22 @@ entries:
   - /build/rlen/dw2003/z_stage/S451PACK/56.bin
   - /build/rlen/dw2003/z_stage/S451PACK/57.bin
   - /build/rlen/dw2003/z_stage/S451PACK/58.bin
-  - S451PACK/59.bin
+  - /build/map-tile/dw2003/z_stage/S451PACK/59.bin
   - /build/rlen/dw2003/z_stage/S451PACK/60.bin
-  - S451PACK/61.bin
-  - S451PACK/62.bin
+  - /build/map-tile/dw2003/z_stage/S451PACK/61.bin
+  - /build/map-tile/dw2003/z_stage/S451PACK/62.bin
   - /build/rlen/dw2003/z_stage/S451PACK/63.bin
   - /build/rlen/dw2003/z_stage/S451PACK/64.bin
   - /build/rlen/dw2003/z_stage/S451PACK/65.bin
   - /build/rlen/dw2003/z_stage/S451PACK/66.bin
-  - S451PACK/67.bin
+  - /build/map-tile/dw2003/z_stage/S451PACK/67.bin
   - /build/rlen/dw2003/z_stage/S451PACK/68.bin
   - /build/rlen/dw2003/z_stage/S451PACK/69.bin
   - /build/rlen/dw2003/z_stage/S451PACK/70.bin
   - /build/rlen/dw2003/z_stage/S451PACK/71.bin
   - /build/rlen/dw2003/z_stage/S451PACK/72.bin
-  - S451PACK/73.bin
-  - S451PACK/74.bin
+  - /build/map-tile/dw2003/z_stage/S451PACK/73.bin
+  - /build/map-tile/dw2003/z_stage/S451PACK/74.bin
   - /build/rlen/dw2003/z_stage/S451PACK/75.bin
   - /build/rlen/dw2003/z_stage/S451PACK/76.bin
   - /build/rlen/dw2003/z_stage/S451PACK/77.bin
@@ -88,8 +88,8 @@ entries:
   - /build/rlen/dw2003/z_stage/S451PACK/84.bin
   - /build/rlen/dw2003/z_stage/S451PACK/85.bin
   - /build/rlen/dw2003/z_stage/S451PACK/86.bin
-  - S451PACK/87.bin
-  - S451PACK/88.bin
+  - /build/map-tile/dw2003/z_stage/S451PACK/87.bin
+  - /build/map-tile/dw2003/z_stage/S451PACK/88.bin
   - /build/rlen/dw2003/z_stage/S451PACK/89.bin
   - /build/rlen/dw2003/z_stage/S451PACK/90.bin
   - /build/rlen/dw2003/z_stage/S451PACK/91.bin
@@ -99,7 +99,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S451PACK/95.bin
   - /build/rlen/dw2003/z_stage/S451PACK/96.bin
   - /build/rlen/dw2003/z_stage/S451PACK/97.bin
-  - S451PACK/98.bin
+  - /build/map-tile/dw2003/z_stage/S451PACK/98.bin
   - /build/rlen/dw2003/z_stage/S451PACK/99.bin
   - /build/rlen/dw2003/z_stage/S451PACK/100.bin
   - /build/rlen/dw2003/z_stage/S451PACK/101.bin

@@ -1,0 +1,23 @@
+img: /build/tim/dw2003/z_stage/S660PACK/11.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 19
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 86
+          - 109
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 86
+          - 0
+        size:
+          - 86
+          - 61
+  - objs: []

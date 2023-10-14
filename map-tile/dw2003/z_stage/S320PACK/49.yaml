@@ -1,0 +1,32 @@
+img: /build/tim/dw2003/z_stage/S320PACK/49.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 128
+  - objs: []
+  - objs:
+      - world_offset:
+          - 37
+          - 0
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 22
+          - 99
+      - world_offset:
+          - 47
+          - 124
+        img_offset:
+          - 128
+          - 99
+        size:
+          - 6
+          - 3

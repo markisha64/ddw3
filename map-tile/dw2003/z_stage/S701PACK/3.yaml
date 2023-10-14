@@ -1,0 +1,14 @@
+img: /build/tim/dw2003/z_stage/S701PACK/3.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 90
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 62
+          - 38
+  - objs: []
+  - objs: []

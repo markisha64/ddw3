@@ -1,0 +1,32 @@
+img: /build/tim/dw2003/z_stage/S500PACK/68.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 23
+      - world_offset:
+          - 0
+          - 61
+        img_offset:
+          - 0
+          - 23
+        size:
+          - 128
+          - 67
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 128
+          - 99
+  - objs: []

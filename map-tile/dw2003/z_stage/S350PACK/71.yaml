@@ -1,0 +1,41 @@
+img: /build/tim/dw2003/z_stage/S350PACK/71.tim
+layers:
+  - objs:
+      - world_offset:
+          - 87
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 42
+          - 5
+      - world_offset:
+          - 120
+          - 7
+        img_offset:
+          - 0
+          - 5
+        size:
+          - 8
+          - 13
+      - world_offset:
+          - 0
+          - 40
+        img_offset:
+          - 0
+          - 18
+        size:
+          - 128
+          - 88
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 128
+          - 109
+  - objs: []

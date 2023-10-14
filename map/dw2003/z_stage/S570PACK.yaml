@@ -1,45 +1,45 @@
 width: 7
 height: 7
 entries:
-  - S570PACK/0.bin
-  - S570PACK/1.bin
-  - S570PACK/2.bin
-  - S570PACK/3.bin
-  - S570PACK/4.bin
-  - S570PACK/5.bin
-  - S570PACK/6.bin
-  - S570PACK/7.bin
-  - S570PACK/8.bin
-  - S570PACK/9.bin
-  - S570PACK/10.bin
-  - S570PACK/11.bin
-  - S570PACK/12.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/0.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/1.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/2.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/3.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/4.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/5.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/6.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/7.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/8.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/9.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/10.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/11.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/12.bin
   - /build/rlen/dw2003/z_stage/S570PACK/13.bin
-  - S570PACK/14.bin
-  - S570PACK/15.bin
-  - S570PACK/16.bin
-  - S570PACK/17.bin
-  - S570PACK/18.bin
-  - S570PACK/19.bin
-  - S570PACK/20.bin
-  - S570PACK/21.bin
-  - S570PACK/22.bin
-  - S570PACK/23.bin
-  - S570PACK/24.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/14.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/15.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/16.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/17.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/18.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/19.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/20.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/21.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/22.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/23.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/24.bin
   - /build/rlen/dw2003/z_stage/S570PACK/25.bin
   - /build/rlen/dw2003/z_stage/S570PACK/26.bin
-  - S570PACK/27.bin
-  - S570PACK/28.bin
-  - S570PACK/29.bin
-  - S570PACK/30.bin
-  - S570PACK/31.bin
-  - S570PACK/32.bin
-  - S570PACK/33.bin
-  - S570PACK/34.bin
-  - S570PACK/35.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/27.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/28.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/29.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/30.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/31.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/32.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/33.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/34.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/35.bin
   - /build/rlen/dw2003/z_stage/S570PACK/36.bin
-  - S570PACK/37.bin
-  - S570PACK/38.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/37.bin
+  - /build/map-tile/dw2003/z_stage/S570PACK/38.bin
   - /build/rlen/dw2003/z_stage/S570PACK/39.bin
   - /build/rlen/dw2003/z_stage/S570PACK/40.bin
   - /build/rlen/dw2003/z_stage/S570PACK/41.bin

@@ -1,0 +1,23 @@
+img: /build/tim/dw2003/z_stage/S501PACK/4.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 27
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 94
+          - 101
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 94
+          - 0
+        size:
+          - 128
+          - 124
+  - objs: []

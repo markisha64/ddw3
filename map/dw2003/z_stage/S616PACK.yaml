@@ -40,8 +40,8 @@ entries:
   - /build/rlen/dw2003/z_stage/S616PACK/36.bin
   - /build/rlen/dw2003/z_stage/S616PACK/37.bin
   - /build/rlen/dw2003/z_stage/S616PACK/38.bin
-  - S616PACK/39.bin
-  - S616PACK/40.bin
+  - /build/map-tile/dw2003/z_stage/S616PACK/39.bin
+  - /build/map-tile/dw2003/z_stage/S616PACK/40.bin
   - /build/rlen/dw2003/z_stage/S616PACK/41.bin
   - /build/rlen/dw2003/z_stage/S616PACK/42.bin
   - /build/rlen/dw2003/z_stage/S616PACK/43.bin
@@ -57,9 +57,9 @@ entries:
   - /build/rlen/dw2003/z_stage/S616PACK/53.bin
   - /build/rlen/dw2003/z_stage/S616PACK/54.bin
   - /build/rlen/dw2003/z_stage/S616PACK/55.bin
-  - S616PACK/56.bin
-  - S616PACK/57.bin
-  - S616PACK/58.bin
+  - /build/map-tile/dw2003/z_stage/S616PACK/56.bin
+  - /build/map-tile/dw2003/z_stage/S616PACK/57.bin
+  - /build/map-tile/dw2003/z_stage/S616PACK/58.bin
   - /build/rlen/dw2003/z_stage/S616PACK/59.bin
   - /build/rlen/dw2003/z_stage/S616PACK/60.bin
   - /build/rlen/dw2003/z_stage/S616PACK/61.bin

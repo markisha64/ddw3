@@ -11,7 +11,7 @@ entries:
   - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S276PACK/8.bin
   - /build/rlen/dw2003/z_stage/S276PACK/9.bin
-  - S276PACK/10.bin
+  - /build/map-tile/dw2003/z_stage/S276PACK/10.bin
   - /build/rlen/dw2003/z_stage/S276PACK/11.bin
   - /build/rlen/dw2003/z_stage/S276PACK/12.bin
   - /build/rlen/dw2003/z_stage/S276PACK/13.bin
@@ -26,8 +26,8 @@ entries:
   - /build/rlen/dw2003/z_stage/S276PACK/22.bin
   - /build/rlen/dw2003/z_stage/S276PACK/23.bin
   - /build/rlen/dw2003/z_stage/S276PACK/24.bin
-  - S276PACK/25.bin
-  - S276PACK/26.bin
+  - /build/map-tile/dw2003/z_stage/S276PACK/25.bin
+  - /build/map-tile/dw2003/z_stage/S276PACK/26.bin
   - /map-tile/empty.bin
 override_entries_len: 23
 extra_padding: 20480

@@ -32,6 +32,8 @@ members = [
 	# Map
 	"ddw3-unmap",
 	"ddw3-mkmap",
+	"ddw3-unmap-tile",
+	"ddw3-mkmap-tile",
 
 	# RLen
 	"ddw3-unrlen",
@@ -79,6 +81,7 @@ ddw3-mklang-file = { path = "ddw3-mklang-file" }
 ddw3-mkpsexe = { path = "ddw3-mkpsexe" }
 ddw3-mkrlen = { path = "ddw3-mkrlen" }
 ddw3-mkmap = { path = "ddw3-mkmap" }
+ddw3-mkmap-tile = { path = "ddw3-mkmap-tile" }
 ddw3-mkpack = { path = "ddw3-mkpack" }
 ddw3-mktim = { path = "ddw3-untim" }
 ddw3-psexe = { path = "ddw3-psexe" }
@@ -87,6 +90,7 @@ ddw3-uncd = { path = "ddw3-uncd" }
 ddw3-uniso = { path = "ddw3-uniso" }
 ddw3-unlang-file = { path = "ddw3-unlang-file" }
 ddw3-unmap = { path = "ddw3-unmap" }
+ddw3-unmap-tile = { path = "ddw3-unmap-tile" }
 ddw3-unpack = { path = "ddw3-unpack" }
 ddw3-unrlen = { path = "ddw3-unrlen" }
 ddw3-untim = { path = "ddw3-untim" }

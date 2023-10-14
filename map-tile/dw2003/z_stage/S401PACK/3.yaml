@@ -1,0 +1,14 @@
+img: /build/tim/dw2003/z_stage/S401PACK/3.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 30
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 98
+  - objs: []
+  - objs: []

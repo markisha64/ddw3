@@ -3,8 +3,8 @@ height: 9
 entries:
   - /build/rlen/dw2003/z_stage/S706PACK/0.bin
   - /build/rlen/dw2003/z_stage/S706PACK/1.bin
-  - S706PACK/2.bin
-  - S706PACK/3.bin
+  - /build/map-tile/dw2003/z_stage/S706PACK/2.bin
+  - /build/map-tile/dw2003/z_stage/S706PACK/3.bin
   - /build/rlen/dw2003/z_stage/S706PACK/4.bin
   - /build/rlen/dw2003/z_stage/S706PACK/5.bin
   - /build/rlen/dw2003/z_stage/S706PACK/6.bin
@@ -23,8 +23,8 @@ entries:
   - /build/rlen/dw2003/z_stage/S706PACK/19.bin
   - /build/rlen/dw2003/z_stage/S706PACK/20.bin
   - /build/rlen/dw2003/z_stage/S706PACK/21.bin
-  - S706PACK/22.bin
-  - S706PACK/23.bin
+  - /build/map-tile/dw2003/z_stage/S706PACK/22.bin
+  - /build/map-tile/dw2003/z_stage/S706PACK/23.bin
   - /build/rlen/dw2003/z_stage/S706PACK/24.bin
   - /build/rlen/dw2003/z_stage/S706PACK/25.bin
   - /build/rlen/dw2003/z_stage/S706PACK/26.bin
@@ -32,7 +32,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S706PACK/28.bin
   - /build/rlen/dw2003/z_stage/S706PACK/29.bin
   - /build/rlen/dw2003/z_stage/S706PACK/30.bin
-  - S706PACK/31.bin
+  - /build/map-tile/dw2003/z_stage/S706PACK/31.bin
   - /build/rlen/dw2003/z_stage/S706PACK/32.bin
   - /build/rlen/dw2003/z_stage/S706PACK/33.bin
   - /build/rlen/dw2003/z_stage/S706PACK/34.bin
@@ -42,7 +42,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S706PACK/38.bin
   - /build/rlen/dw2003/z_stage/S706PACK/39.bin
   - /build/rlen/dw2003/z_stage/S706PACK/40.bin
-  - S706PACK/41.bin
+  - /build/map-tile/dw2003/z_stage/S706PACK/41.bin
   - /build/rlen/dw2003/z_stage/S706PACK/42.bin
   - /build/rlen/dw2003/z_stage/S706PACK/43.bin
   - /build/rlen/dw2003/z_stage/S706PACK/44.bin
@@ -51,21 +51,21 @@ entries:
   - /build/rlen/dw2003/z_stage/S706PACK/47.bin
   - /build/rlen/dw2003/z_stage/S706PACK/48.bin
   - /build/rlen/dw2003/z_stage/S706PACK/49.bin
-  - S706PACK/50.bin
-  - S706PACK/51.bin
-  - S706PACK/52.bin
-  - S706PACK/53.bin
-  - S706PACK/54.bin
+  - /build/map-tile/dw2003/z_stage/S706PACK/50.bin
+  - /build/map-tile/dw2003/z_stage/S706PACK/51.bin
+  - /build/map-tile/dw2003/z_stage/S706PACK/52.bin
+  - /build/map-tile/dw2003/z_stage/S706PACK/53.bin
+  - /build/map-tile/dw2003/z_stage/S706PACK/54.bin
   - /build/rlen/dw2003/z_stage/S706PACK/55.bin
   - /build/rlen/dw2003/z_stage/S706PACK/56.bin
   - /build/rlen/dw2003/z_stage/S706PACK/57.bin
   - /build/rlen/dw2003/z_stage/S706PACK/58.bin
   - /build/rlen/dw2003/z_stage/S706PACK/59.bin
   - /build/rlen/dw2003/z_stage/S706PACK/60.bin
-  - S706PACK/61.bin
+  - /build/map-tile/dw2003/z_stage/S706PACK/61.bin
   - /build/rlen/dw2003/z_stage/S706PACK/62.bin
   - /build/rlen/dw2003/z_stage/S706PACK/63.bin
-  - S706PACK/64.bin
+  - /build/map-tile/dw2003/z_stage/S706PACK/64.bin
   - /build/rlen/dw2003/z_stage/S706PACK/65.bin
   - /build/rlen/dw2003/z_stage/S706PACK/66.bin
   - /build/rlen/dw2003/z_stage/S706PACK/67.bin
@@ -74,7 +74,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S706PACK/70.bin
   - /build/rlen/dw2003/z_stage/S706PACK/71.bin
   - /build/rlen/dw2003/z_stage/S706PACK/72.bin
-  - S706PACK/73.bin
+  - /build/map-tile/dw2003/z_stage/S706PACK/73.bin
   - /build/rlen/dw2003/z_stage/S706PACK/74.bin
   - /build/rlen/dw2003/z_stage/S706PACK/75.bin
   - /build/rlen/dw2003/z_stage/S706PACK/76.bin

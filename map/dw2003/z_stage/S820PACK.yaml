@@ -12,8 +12,8 @@ entries:
   - /build/rlen/dw2003/z_stage/S820PACK/8.bin
   - /build/rlen/dw2003/z_stage/S820PACK/9.bin
   - /build/rlen/dw2003/z_stage/S820PACK/10.bin
-  - S820PACK/11.bin
-  - S820PACK/12.bin
+  - /build/map-tile/dw2003/z_stage/S820PACK/11.bin
+  - /build/map-tile/dw2003/z_stage/S820PACK/12.bin
   - /build/rlen/dw2003/z_stage/S820PACK/13.bin
   - /build/rlen/dw2003/z_stage/S820PACK/14.bin
   - /build/rlen/dw2003/z_stage/S820PACK/15.bin
@@ -22,18 +22,18 @@ entries:
   - /build/rlen/dw2003/z_stage/S820PACK/18.bin
   - /build/rlen/dw2003/z_stage/S820PACK/19.bin
   - /build/rlen/dw2003/z_stage/S820PACK/20.bin
-  - S820PACK/21.bin
+  - /build/map-tile/dw2003/z_stage/S820PACK/21.bin
   - /build/rlen/dw2003/z_stage/S820PACK/22.bin
   - /build/rlen/dw2003/z_stage/S820PACK/23.bin
   - /build/rlen/dw2003/z_stage/S820PACK/24.bin
   - /build/rlen/dw2003/z_stage/S820PACK/25.bin
-  - S820PACK/26.bin
-  - S820PACK/27.bin
+  - /build/map-tile/dw2003/z_stage/S820PACK/26.bin
+  - /build/map-tile/dw2003/z_stage/S820PACK/27.bin
   - /build/rlen/dw2003/z_stage/S820PACK/28.bin
   - /build/rlen/dw2003/z_stage/S820PACK/29.bin
-  - S820PACK/30.bin
-  - S820PACK/31.bin
-  - S820PACK/32.bin
-  - S820PACK/33.bin
+  - /build/map-tile/dw2003/z_stage/S820PACK/30.bin
+  - /build/map-tile/dw2003/z_stage/S820PACK/31.bin
+  - /build/map-tile/dw2003/z_stage/S820PACK/32.bin
+  - /build/map-tile/dw2003/z_stage/S820PACK/33.bin
   - /build/rlen/dw2003/z_stage/S820PACK/34.bin
 extra_padding: 6144

@@ -1,0 +1,32 @@
+img: /build/tim/dw2003/z_stage/S420PACK/23.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 128
+  - objs:
+      - world_offset:
+          - 21
+          - 0
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 42
+          - 16
+      - world_offset:
+          - 0
+          - 63
+        img_offset:
+          - 128
+          - 16
+        size:
+          - 96
+          - 65
+  - objs: []

@@ -1,0 +1,14 @@
+img: /build/tim/dw2003/z_stage/S280PACK/0.tim
+layers:
+  - objs:
+      - world_offset:
+          - 81
+          - 100
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 48
+          - 28
+  - objs: []
+  - objs: []

@@ -6,72 +6,72 @@ entries:
   - /build/rlen/dw2003/z_stage/S371PACK/2.bin
   - /build/rlen/dw2003/z_stage/S371PACK/3.bin
   - /build/rlen/dw2003/z_stage/S371PACK/4.bin
-  - S371PACK/5.bin
-  - S371PACK/6.bin
-  - S371PACK/7.bin
-  - S371PACK/8.bin
-  - S371PACK/9.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/5.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/6.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/7.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/8.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/9.bin
   - /build/rlen/dw2003/z_stage/S371PACK/10.bin
   - /build/rlen/dw2003/z_stage/S371PACK/11.bin
   - /build/rlen/dw2003/z_stage/S371PACK/12.bin
   - /build/rlen/dw2003/z_stage/S371PACK/13.bin
-  - S371PACK/14.bin
-  - S371PACK/15.bin
-  - S371PACK/16.bin
-  - S371PACK/17.bin
-  - S371PACK/18.bin
-  - S371PACK/19.bin
-  - S371PACK/20.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/14.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/15.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/16.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/17.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/18.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/19.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/20.bin
   - /build/rlen/dw2003/z_stage/S371PACK/21.bin
   - /build/rlen/dw2003/z_stage/S371PACK/22.bin
-  - S371PACK/23.bin
-  - S371PACK/24.bin
-  - S371PACK/25.bin
-  - S371PACK/26.bin
-  - S371PACK/27.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/23.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/24.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/25.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/26.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/27.bin
   - /build/rlen/dw2003/z_stage/S371PACK/28.bin
-  - S371PACK/29.bin
-  - S371PACK/30.bin
-  - S371PACK/31.bin
-  - S371PACK/32.bin
-  - S371PACK/33.bin
-  - S371PACK/34.bin
-  - S371PACK/35.bin
-  - S371PACK/36.bin
-  - S371PACK/37.bin
-  - S371PACK/38.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/29.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/30.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/31.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/32.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/33.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/34.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/35.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/36.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/37.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/38.bin
   - /build/rlen/dw2003/z_stage/S371PACK/39.bin
-  - S371PACK/40.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/40.bin
   - /build/rlen/dw2003/z_stage/S371PACK/41.bin
   - /build/rlen/dw2003/z_stage/S371PACK/42.bin
   - /build/rlen/dw2003/z_stage/S371PACK/43.bin
-  - S371PACK/44.bin
-  - S371PACK/45.bin
-  - S371PACK/46.bin
-  - S371PACK/47.bin
-  - S371PACK/48.bin
-  - S371PACK/49.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/44.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/45.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/46.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/47.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/48.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/49.bin
   - /build/rlen/dw2003/z_stage/S371PACK/50.bin
   - /build/rlen/dw2003/z_stage/S371PACK/51.bin
   - /build/rlen/dw2003/z_stage/S371PACK/52.bin
   - /build/rlen/dw2003/z_stage/S371PACK/53.bin
   - /build/rlen/dw2003/z_stage/S371PACK/54.bin
-  - S371PACK/55.bin
-  - S371PACK/56.bin
-  - S371PACK/57.bin
-  - S371PACK/58.bin
-  - S371PACK/59.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/55.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/56.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/57.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/58.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/59.bin
   - /build/rlen/dw2003/z_stage/S371PACK/60.bin
   - /build/rlen/dw2003/z_stage/S371PACK/61.bin
   - /build/rlen/dw2003/z_stage/S371PACK/62.bin
   - /build/rlen/dw2003/z_stage/S371PACK/63.bin
   - /build/rlen/dw2003/z_stage/S371PACK/64.bin
   - /build/rlen/dw2003/z_stage/S371PACK/65.bin
-  - S371PACK/66.bin
-  - S371PACK/67.bin
-  - S371PACK/68.bin
-  - S371PACK/69.bin
-  - S371PACK/70.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/66.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/67.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/68.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/69.bin
+  - /build/map-tile/dw2003/z_stage/S371PACK/70.bin
   - /build/rlen/dw2003/z_stage/S371PACK/71.bin
   - /build/rlen/dw2003/z_stage/S371PACK/72.bin
   - /build/rlen/dw2003/z_stage/S371PACK/73.bin

@@ -19,6 +19,6 @@ entries:
   - /build/rlen/dw2003/z_stage/S790PACK/15.bin
   - /build/rlen/dw2003/z_stage/S790PACK/16.bin
   - /build/rlen/dw2003/z_stage/S790PACK/17.bin
-  - S790PACK/18.bin
-  - S790PACK/19.bin
+  - /build/map-tile/dw2003/z_stage/S790PACK/18.bin
+  - /build/map-tile/dw2003/z_stage/S790PACK/19.bin
 extra_padding: 2048

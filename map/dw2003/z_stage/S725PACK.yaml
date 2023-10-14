@@ -3,17 +3,17 @@ height: 5
 entries:
   - /build/rlen/dw2003/z_stage/S725PACK/0.bin
   - /build/rlen/dw2003/z_stage/S725PACK/1.bin
-  - S725PACK/2.bin
+  - /build/map-tile/dw2003/z_stage/S725PACK/2.bin
   - /build/rlen/dw2003/z_stage/S725PACK/3.bin
   - /build/rlen/dw2003/z_stage/S725PACK/4.bin
-  - S725PACK/5.bin
+  - /build/map-tile/dw2003/z_stage/S725PACK/5.bin
   - /build/rlen/dw2003/z_stage/S725PACK/6.bin
   - /build/rlen/dw2003/z_stage/S725PACK/7.bin
   - /build/rlen/dw2003/z_stage/S725PACK/8.bin
-  - S725PACK/9.bin
-  - S725PACK/10.bin
+  - /build/map-tile/dw2003/z_stage/S725PACK/9.bin
+  - /build/map-tile/dw2003/z_stage/S725PACK/10.bin
   - /build/rlen/dw2003/z_stage/S725PACK/11.bin
-  - S725PACK/12.bin
+  - /build/map-tile/dw2003/z_stage/S725PACK/12.bin
   - /build/rlen/dw2003/z_stage/S725PACK/13.bin
   - /build/rlen/dw2003/z_stage/S725PACK/14.bin
   - /build/rlen/dw2003/z_stage/S725PACK/15.bin

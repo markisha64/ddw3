@@ -1,0 +1,23 @@
+img: /build/tim/dw2003/z_stage/S715PACK/24.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 128
+  - objs:
+      - world_offset:
+          - 74
+          - 94
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 54
+          - 34
+  - objs: []

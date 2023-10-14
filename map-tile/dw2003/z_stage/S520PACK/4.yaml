@@ -1,0 +1,14 @@
+img: /build/tim/dw2003/z_stage/S520PACK/4.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 122
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 12
+          - 6
+  - objs: []
+  - objs: []

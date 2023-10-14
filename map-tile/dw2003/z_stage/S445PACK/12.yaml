@@ -1,0 +1,41 @@
+img: /build/tim/dw2003/z_stage/S445PACK/12.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 128
+  - objs: []
+  - objs:
+      - world_offset:
+          - 11
+          - 22
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 24
+          - 15
+      - world_offset:
+          - 8
+          - 40
+        img_offset:
+          - 128
+          - 15
+        size:
+          - 26
+          - 10
+      - world_offset:
+          - 0
+          - 110
+        img_offset:
+          - 128
+          - 25
+        size:
+          - 38
+          - 18

@@ -3,13 +3,13 @@ height: 7
 entries:
   - /build/rlen/dw2003/z_stage/S485PACK/0.bin
   - /build/rlen/dw2003/z_stage/S485PACK/1.bin
-  - S485PACK/2.bin
-  - S485PACK/3.bin
-  - S485PACK/4.bin
-  - S485PACK/5.bin
-  - S485PACK/6.bin
-  - S485PACK/7.bin
-  - S485PACK/8.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/2.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/3.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/4.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/5.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/6.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/7.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/8.bin
   - /build/rlen/dw2003/z_stage/S485PACK/9.bin
   - /build/rlen/dw2003/z_stage/S485PACK/10.bin
   - /build/rlen/dw2003/z_stage/S485PACK/11.bin
@@ -19,9 +19,9 @@ entries:
   - /build/rlen/dw2003/z_stage/S485PACK/15.bin
   - /build/rlen/dw2003/z_stage/S485PACK/16.bin
   - /build/rlen/dw2003/z_stage/S485PACK/17.bin
-  - S485PACK/18.bin
-  - S485PACK/19.bin
-  - S485PACK/20.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/18.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/19.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/20.bin
   - /build/rlen/dw2003/z_stage/S485PACK/21.bin
   - /build/rlen/dw2003/z_stage/S485PACK/22.bin
   - /build/rlen/dw2003/z_stage/S485PACK/23.bin
@@ -29,27 +29,27 @@ entries:
   - /build/rlen/dw2003/z_stage/S485PACK/25.bin
   - /build/rlen/dw2003/z_stage/S485PACK/26.bin
   - /build/rlen/dw2003/z_stage/S485PACK/27.bin
-  - S485PACK/28.bin
-  - S485PACK/29.bin
-  - S485PACK/30.bin
-  - S485PACK/31.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/28.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/29.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/30.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/31.bin
   - /build/rlen/dw2003/z_stage/S485PACK/32.bin
   - /build/rlen/dw2003/z_stage/S485PACK/33.bin
   - /build/rlen/dw2003/z_stage/S485PACK/34.bin
   - /build/rlen/dw2003/z_stage/S485PACK/35.bin
   - /build/rlen/dw2003/z_stage/S485PACK/36.bin
-  - S485PACK/37.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/37.bin
   - /build/rlen/dw2003/z_stage/S485PACK/38.bin
   - /build/rlen/dw2003/z_stage/S485PACK/39.bin
   - /build/rlen/dw2003/z_stage/S485PACK/40.bin
   - /build/rlen/dw2003/z_stage/S485PACK/41.bin
   - /build/rlen/dw2003/z_stage/S485PACK/42.bin
   - /build/rlen/dw2003/z_stage/S485PACK/43.bin
-  - S485PACK/44.bin
-  - S485PACK/45.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/44.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/45.bin
   - /build/rlen/dw2003/z_stage/S485PACK/46.bin
   - /build/rlen/dw2003/z_stage/S485PACK/47.bin
-  - S485PACK/48.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/48.bin
   - /build/rlen/dw2003/z_stage/S485PACK/49.bin
   - /build/rlen/dw2003/z_stage/S485PACK/50.bin
   - /build/rlen/dw2003/z_stage/S485PACK/51.bin
@@ -61,9 +61,9 @@ entries:
   - /build/rlen/dw2003/z_stage/S485PACK/57.bin
   - /build/rlen/dw2003/z_stage/S485PACK/58.bin
   - /build/rlen/dw2003/z_stage/S485PACK/59.bin
-  - S485PACK/60.bin
-  - S485PACK/61.bin
-  - S485PACK/62.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/60.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/61.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/62.bin
   - /build/rlen/dw2003/z_stage/S485PACK/63.bin
   - /build/rlen/dw2003/z_stage/S485PACK/64.bin
   - /build/rlen/dw2003/z_stage/S485PACK/65.bin
@@ -73,13 +73,13 @@ entries:
   - /build/rlen/dw2003/z_stage/S485PACK/69.bin
   - /build/rlen/dw2003/z_stage/S485PACK/70.bin
   - /build/rlen/dw2003/z_stage/S485PACK/71.bin
-  - S485PACK/72.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/72.bin
   - /build/rlen/dw2003/z_stage/S485PACK/73.bin
   - /build/rlen/dw2003/z_stage/S485PACK/74.bin
-  - S485PACK/75.bin
-  - S485PACK/76.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/75.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/76.bin
   - /build/rlen/dw2003/z_stage/S485PACK/77.bin
-  - S485PACK/78.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/78.bin
   - /build/rlen/dw2003/z_stage/S485PACK/79.bin
   - /build/rlen/dw2003/z_stage/S485PACK/80.bin
   - /build/rlen/dw2003/z_stage/S485PACK/81.bin
@@ -90,11 +90,11 @@ entries:
   - /build/rlen/dw2003/z_stage/S485PACK/86.bin
   - /build/rlen/dw2003/z_stage/S485PACK/87.bin
   - /build/rlen/dw2003/z_stage/S485PACK/88.bin
-  - S485PACK/89.bin
-  - S485PACK/90.bin
-  - S485PACK/91.bin
-  - S485PACK/92.bin
-  - S485PACK/93.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/89.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/90.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/91.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/92.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/93.bin
   - /build/rlen/dw2003/z_stage/S485PACK/94.bin
   - /build/rlen/dw2003/z_stage/S485PACK/95.bin
   - /build/rlen/dw2003/z_stage/S485PACK/96.bin
@@ -104,6 +104,6 @@ entries:
   - /build/rlen/dw2003/z_stage/S485PACK/100.bin
   - /build/rlen/dw2003/z_stage/S485PACK/101.bin
   - /build/rlen/dw2003/z_stage/S485PACK/102.bin
-  - S485PACK/103.bin
-  - S485PACK/104.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/103.bin
+  - /build/map-tile/dw2003/z_stage/S485PACK/104.bin
 extra_padding: 2048

@@ -1,0 +1,23 @@
+img: /build/tim/dw2003/z_stage/S261PACK/10.tim
+layers:
+  - objs:
+      - world_offset:
+          - 108
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 10
+          - 4
+  - objs: []
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 10
+          - 0
+        size:
+          - 128
+          - 128

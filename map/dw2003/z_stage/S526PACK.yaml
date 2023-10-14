@@ -1,58 +1,58 @@
 width: 6
 height: 9
 entries:
-  - S526PACK/0.bin
-  - S526PACK/1.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/0.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/1.bin
   - /build/rlen/dw2003/z_stage/S526PACK/2.bin
-  - S526PACK/3.bin
-  - S526PACK/4.bin
-  - S526PACK/5.bin
-  - S526PACK/6.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/3.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/4.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/5.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/6.bin
   - /build/rlen/dw2003/z_stage/S526PACK/7.bin
   - /build/rlen/dw2003/z_stage/S526PACK/8.bin
-  - S526PACK/9.bin
-  - S526PACK/10.bin
-  - S526PACK/11.bin
-  - S526PACK/12.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/9.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/10.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/11.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/12.bin
   - /build/rlen/dw2003/z_stage/S526PACK/13.bin
   - /build/rlen/dw2003/z_stage/S526PACK/14.bin
-  - S526PACK/15.bin
-  - S526PACK/16.bin
-  - S526PACK/17.bin
-  - S526PACK/18.bin
-  - S526PACK/19.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/15.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/16.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/17.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/18.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/19.bin
   - /build/rlen/dw2003/z_stage/S526PACK/20.bin
-  - S526PACK/21.bin
-  - S526PACK/22.bin
-  - S526PACK/23.bin
-  - S526PACK/24.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/21.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/22.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/23.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/24.bin
   - /build/rlen/dw2003/z_stage/S526PACK/25.bin
-  - S526PACK/26.bin
-  - S526PACK/27.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/26.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/27.bin
   - /build/rlen/dw2003/z_stage/S526PACK/28.bin
-  - S526PACK/29.bin
-  - S526PACK/30.bin
-  - S526PACK/31.bin
-  - S526PACK/32.bin
-  - S526PACK/33.bin
-  - S526PACK/34.bin
-  - S526PACK/35.bin
-  - S526PACK/36.bin
-  - S526PACK/37.bin
-  - S526PACK/38.bin
-  - S526PACK/39.bin
-  - S526PACK/40.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/29.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/30.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/31.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/32.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/33.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/34.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/35.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/36.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/37.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/38.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/39.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/40.bin
   - /build/rlen/dw2003/z_stage/S526PACK/41.bin
-  - S526PACK/42.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/42.bin
   - /build/rlen/dw2003/z_stage/S526PACK/43.bin
-  - S526PACK/44.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/44.bin
   - /build/rlen/dw2003/z_stage/S526PACK/45.bin
-  - S526PACK/46.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/46.bin
   - /build/rlen/dw2003/z_stage/S526PACK/47.bin
-  - S526PACK/48.bin
-  - S526PACK/49.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/48.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/49.bin
   - /build/rlen/dw2003/z_stage/S526PACK/50.bin
-  - S526PACK/51.bin
-  - S526PACK/52.bin
-  - S526PACK/53.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/51.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/52.bin
+  - /build/map-tile/dw2003/z_stage/S526PACK/53.bin
 extra_padding: 2048

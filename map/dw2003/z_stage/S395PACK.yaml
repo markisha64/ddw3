@@ -3,13 +3,13 @@ height: 9
 entries:
   - /build/rlen/dw2003/z_stage/S395PACK/0.bin
   - /build/rlen/dw2003/z_stage/S395PACK/1.bin
-  - S395PACK/2.bin
-  - S395PACK/3.bin
-  - S395PACK/4.bin
-  - S395PACK/5.bin
-  - S395PACK/6.bin
-  - S395PACK/7.bin
-  - S395PACK/8.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/2.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/3.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/4.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/5.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/6.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/7.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/8.bin
   - /build/rlen/dw2003/z_stage/S395PACK/9.bin
   - /build/rlen/dw2003/z_stage/S395PACK/10.bin
   - /build/rlen/dw2003/z_stage/S395PACK/11.bin
@@ -17,91 +17,91 @@ entries:
   - /build/rlen/dw2003/z_stage/S395PACK/13.bin
   - /build/rlen/dw2003/z_stage/S395PACK/14.bin
   - /build/rlen/dw2003/z_stage/S395PACK/15.bin
-  - S395PACK/16.bin
-  - S395PACK/17.bin
-  - S395PACK/18.bin
-  - S395PACK/19.bin
-  - S395PACK/20.bin
-  - S395PACK/21.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/16.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/17.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/18.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/19.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/20.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/21.bin
   - /build/rlen/dw2003/z_stage/S395PACK/22.bin
   - /build/rlen/dw2003/z_stage/S395PACK/23.bin
   - /build/rlen/dw2003/z_stage/S395PACK/24.bin
-  - S395PACK/25.bin
-  - S395PACK/26.bin
-  - S395PACK/27.bin
-  - S395PACK/28.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/25.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/26.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/27.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/28.bin
   - /build/rlen/dw2003/z_stage/S395PACK/29.bin
-  - S395PACK/30.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/30.bin
   - /build/rlen/dw2003/z_stage/S395PACK/31.bin
   - /build/rlen/dw2003/z_stage/S395PACK/32.bin
-  - S395PACK/33.bin
-  - S395PACK/34.bin
-  - S395PACK/35.bin
-  - S395PACK/36.bin
-  - S395PACK/37.bin
-  - S395PACK/38.bin
-  - S395PACK/39.bin
-  - S395PACK/40.bin
-  - S395PACK/41.bin
-  - S395PACK/42.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/33.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/34.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/35.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/36.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/37.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/38.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/39.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/40.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/41.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/42.bin
   - /build/rlen/dw2003/z_stage/S395PACK/43.bin
   - /build/rlen/dw2003/z_stage/S395PACK/44.bin
-  - S395PACK/45.bin
-  - S395PACK/46.bin
-  - S395PACK/47.bin
-  - S395PACK/48.bin
-  - S395PACK/49.bin
-  - S395PACK/50.bin
-  - S395PACK/51.bin
-  - S395PACK/52.bin
-  - S395PACK/53.bin
-  - S395PACK/54.bin
-  - S395PACK/55.bin
-  - S395PACK/56.bin
-  - S395PACK/57.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/45.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/46.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/47.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/48.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/49.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/50.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/51.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/52.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/53.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/54.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/55.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/56.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/57.bin
   - /build/rlen/dw2003/z_stage/S395PACK/58.bin
-  - S395PACK/59.bin
-  - S395PACK/60.bin
-  - S395PACK/61.bin
-  - S395PACK/62.bin
-  - S395PACK/63.bin
-  - S395PACK/64.bin
-  - S395PACK/65.bin
-  - S395PACK/66.bin
-  - S395PACK/67.bin
-  - S395PACK/68.bin
-  - S395PACK/69.bin
-  - S395PACK/70.bin
-  - S395PACK/71.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/59.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/60.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/61.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/62.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/63.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/64.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/65.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/66.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/67.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/68.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/69.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/70.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/71.bin
   - /build/rlen/dw2003/z_stage/S395PACK/72.bin
-  - S395PACK/73.bin
-  - S395PACK/74.bin
-  - S395PACK/75.bin
-  - S395PACK/76.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/73.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/74.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/75.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/76.bin
   - /build/rlen/dw2003/z_stage/S395PACK/77.bin
-  - S395PACK/78.bin
-  - S395PACK/79.bin
-  - S395PACK/80.bin
-  - S395PACK/81.bin
-  - S395PACK/82.bin
-  - S395PACK/83.bin
-  - S395PACK/84.bin
-  - S395PACK/85.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/78.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/79.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/80.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/81.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/82.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/83.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/84.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/85.bin
   - /build/rlen/dw2003/z_stage/S395PACK/86.bin
   - /build/rlen/dw2003/z_stage/S395PACK/87.bin
   - /build/rlen/dw2003/z_stage/S395PACK/88.bin
-  - S395PACK/89.bin
-  - S395PACK/90.bin
-  - S395PACK/91.bin
-  - S395PACK/92.bin
-  - S395PACK/93.bin
-  - S395PACK/94.bin
-  - S395PACK/95.bin
-  - S395PACK/96.bin
-  - S395PACK/97.bin
-  - S395PACK/98.bin
-  - S395PACK/99.bin
-  - S395PACK/100.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/89.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/90.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/91.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/92.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/93.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/94.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/95.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/96.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/97.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/98.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/99.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/100.bin
   - /build/rlen/dw2003/z_stage/S395PACK/101.bin
   - /build/rlen/dw2003/z_stage/S395PACK/102.bin
   - /build/rlen/dw2003/z_stage/S395PACK/103.bin
@@ -110,16 +110,16 @@ entries:
   - /build/rlen/dw2003/z_stage/S395PACK/106.bin
   - /build/rlen/dw2003/z_stage/S395PACK/107.bin
   - /build/rlen/dw2003/z_stage/S395PACK/108.bin
-  - S395PACK/109.bin
-  - S395PACK/110.bin
-  - S395PACK/111.bin
-  - S395PACK/112.bin
-  - S395PACK/113.bin
-  - S395PACK/114.bin
-  - S395PACK/115.bin
-  - S395PACK/116.bin
-  - S395PACK/117.bin
-  - S395PACK/118.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/109.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/110.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/111.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/112.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/113.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/114.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/115.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/116.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/117.bin
+  - /build/map-tile/dw2003/z_stage/S395PACK/118.bin
   - /build/rlen/dw2003/z_stage/S395PACK/119.bin
   - /build/rlen/dw2003/z_stage/S395PACK/120.bin
   - /build/rlen/dw2003/z_stage/S395PACK/121.bin

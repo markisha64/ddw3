@@ -28,6 +28,7 @@ alias:
   process_path            : tools/process_path.py
   mkpack_deps             : tools/mkpack_deps.py
   mkmap_deps              : tools/mkmap_deps.py
+  mkmap_tile_deps         : tools/mkmap_tile_deps.py
   mkrlen_from_yaml        : tools/mkrlen_from_yaml.py
   mkrlen_from_yaml_deps   : tools/mkrlen_from_yaml_deps.py
 
@@ -37,6 +38,7 @@ alias:
   mkpack     : $(build_rust_tool_dir)/ddw3-mkpack
   mktim      : $(build_rust_tool_dir)/ddw3-mktim
   mkmap      : $(build_rust_tool_dir)/ddw3-mkmap
+  mkmap_tile : $(build_rust_tool_dir)/ddw3-mkmap-tile
   mkrlen     : $(build_rust_tool_dir)/ddw3-mkrlen
 
   # Directories
@@ -53,6 +55,7 @@ alias:
   build_pack_dir     : $(build_dir)/pack
   build_tim_dir      : $(build_dir)/tim
   build_map_dir      : $(build_dir)/map
+  build_map_tile_dir : $(build_dir)/map-tile
   build_rlen_dir     : $(build_dir)/rlen
 
   # Licenses
@@ -122,6 +125,11 @@ alias:
   map     : $(build_map_dir)/^(path).bin
   map_deps: $(build_map_dir)/^(path).d
   map_yaml: map/^(path).yaml
+
+  # Map tile
+  map_tile     : $(build_map_tile_dir)/^(path).bin
+  map_tile_deps: $(build_map_tile_dir)/^(path).d
+  map_tile_yaml: map-tile/^(path).yaml
 
   # Rlen
   rlen     : $(build_rlen_dir)/^(path).bin
@@ -397,6 +405,35 @@ rules:
         - $(map)
         - --deps
         - $(map_deps)
+
+  # Map tile
+  map_tile:
+    out: [$(map_tile)]
+    deps:
+      - $(map_tile_yaml)
+      - $(mkmap_tile)
+      - deps_file: $(map_tile_deps)
+      - static: $(map_tile::dir_name)/
+    exec:
+      - - $(mkmap_tile)
+        - $(map_tile_yaml)
+        - --output=$(map_tile)
+
+  # Map tile dependencies
+  map_tile_deps:
+    out: [$(map_tile_deps)]
+    deps:
+      - $(map_tile_yaml)
+      - $(mkmap_tile_deps)
+      - static: $(map_tile_deps::dir_name)/
+    exec:
+      - - $(python3)
+        - $(mkmap_tile_deps)
+        - $(map_tile_yaml)
+        - -o
+        - $(map_tile)
+        - --deps
+        - $(map_tile_deps)
 
   # Rlen
   rlen:

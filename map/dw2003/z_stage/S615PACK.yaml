@@ -40,9 +40,9 @@ entries:
   - /build/rlen/dw2003/z_stage/S615PACK/36.bin
   - /build/rlen/dw2003/z_stage/S615PACK/37.bin
   - /build/rlen/dw2003/z_stage/S615PACK/38.bin
-  - S615PACK/39.bin
-  - S615PACK/40.bin
-  - S615PACK/41.bin
+  - /build/map-tile/dw2003/z_stage/S615PACK/39.bin
+  - /build/map-tile/dw2003/z_stage/S615PACK/40.bin
+  - /build/map-tile/dw2003/z_stage/S615PACK/41.bin
   - /build/rlen/dw2003/z_stage/S615PACK/42.bin
   - /build/rlen/dw2003/z_stage/S615PACK/43.bin
   - /build/rlen/dw2003/z_stage/S615PACK/44.bin
@@ -50,16 +50,16 @@ entries:
   - /build/rlen/dw2003/z_stage/S615PACK/46.bin
   - /build/rlen/dw2003/z_stage/S615PACK/47.bin
   - /build/rlen/dw2003/z_stage/S615PACK/48.bin
-  - S615PACK/49.bin
+  - /build/map-tile/dw2003/z_stage/S615PACK/49.bin
   - /build/rlen/dw2003/z_stage/S615PACK/50.bin
   - /build/rlen/dw2003/z_stage/S615PACK/51.bin
   - /build/rlen/dw2003/z_stage/S615PACK/52.bin
   - /build/rlen/dw2003/z_stage/S615PACK/53.bin
   - /build/rlen/dw2003/z_stage/S615PACK/54.bin
-  - S615PACK/55.bin
-  - S615PACK/56.bin
-  - S615PACK/57.bin
-  - S615PACK/58.bin
+  - /build/map-tile/dw2003/z_stage/S615PACK/55.bin
+  - /build/map-tile/dw2003/z_stage/S615PACK/56.bin
+  - /build/map-tile/dw2003/z_stage/S615PACK/57.bin
+  - /build/map-tile/dw2003/z_stage/S615PACK/58.bin
   - /build/rlen/dw2003/z_stage/S615PACK/59.bin
   - /build/rlen/dw2003/z_stage/S615PACK/60.bin
   - /build/rlen/dw2003/z_stage/S615PACK/61.bin

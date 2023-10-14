@@ -1,64 +1,64 @@
 width: 10
 height: 6
 entries:
-  - S420PACK/0.bin
-  - S420PACK/1.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/0.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/1.bin
   - /build/rlen/dw2003/z_stage/S420PACK/2.bin
   - /build/rlen/dw2003/z_stage/S420PACK/3.bin
   - /build/rlen/dw2003/z_stage/S420PACK/4.bin
   - /build/rlen/dw2003/z_stage/S420PACK/5.bin
-  - S420PACK/6.bin
-  - S420PACK/7.bin
-  - S420PACK/8.bin
-  - S420PACK/9.bin
-  - S420PACK/10.bin
-  - S420PACK/11.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/6.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/7.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/8.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/9.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/10.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/11.bin
   - /build/rlen/dw2003/z_stage/S420PACK/12.bin
   - /build/rlen/dw2003/z_stage/S420PACK/13.bin
   - /build/rlen/dw2003/z_stage/S420PACK/14.bin
   - /build/rlen/dw2003/z_stage/S420PACK/15.bin
-  - S420PACK/16.bin
-  - S420PACK/17.bin
-  - S420PACK/18.bin
-  - S420PACK/19.bin
-  - S420PACK/20.bin
-  - S420PACK/21.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/16.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/17.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/18.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/19.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/20.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/21.bin
   - /build/rlen/dw2003/z_stage/S420PACK/22.bin
   - /build/rlen/dw2003/z_stage/S420PACK/23.bin
-  - S420PACK/24.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/24.bin
   - /build/rlen/dw2003/z_stage/S420PACK/25.bin
-  - S420PACK/26.bin
-  - S420PACK/27.bin
-  - S420PACK/28.bin
-  - S420PACK/29.bin
-  - S420PACK/30.bin
-  - S420PACK/31.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/26.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/27.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/28.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/29.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/30.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/31.bin
   - /build/rlen/dw2003/z_stage/S420PACK/32.bin
   - /build/rlen/dw2003/z_stage/S420PACK/33.bin
   - /build/rlen/dw2003/z_stage/S420PACK/34.bin
   - /build/rlen/dw2003/z_stage/S420PACK/35.bin
   - /build/rlen/dw2003/z_stage/S420PACK/36.bin
-  - S420PACK/37.bin
-  - S420PACK/38.bin
-  - S420PACK/39.bin
-  - S420PACK/40.bin
-  - S420PACK/41.bin
-  - S420PACK/42.bin
-  - S420PACK/43.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/37.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/38.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/39.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/40.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/41.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/42.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/43.bin
   - /build/rlen/dw2003/z_stage/S420PACK/44.bin
   - /build/rlen/dw2003/z_stage/S420PACK/45.bin
   - /build/rlen/dw2003/z_stage/S420PACK/46.bin
   - /build/rlen/dw2003/z_stage/S420PACK/47.bin
-  - S420PACK/48.bin
-  - S420PACK/49.bin
-  - S420PACK/50.bin
-  - S420PACK/51.bin
-  - S420PACK/52.bin
-  - S420PACK/53.bin
-  - S420PACK/54.bin
-  - S420PACK/55.bin
-  - S420PACK/56.bin
-  - S420PACK/57.bin
-  - S420PACK/58.bin
-  - S420PACK/59.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/48.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/49.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/50.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/51.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/52.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/53.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/54.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/55.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/56.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/57.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/58.bin
+  - /build/map-tile/dw2003/z_stage/S420PACK/59.bin
 extra_padding: 2048

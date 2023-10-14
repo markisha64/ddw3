@@ -1,0 +1,41 @@
+img: /build/tim/dw2003/z_stage/S481PACK/125.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 128
+  - objs:
+      - world_offset:
+          - 10
+          - 25
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 6
+          - 16
+  - objs:
+      - world_offset:
+          - 28
+          - 4
+        img_offset:
+          - 128
+          - 16
+        size:
+          - 18
+          - 8
+      - world_offset:
+          - 7
+          - 19
+        img_offset:
+          - 128
+          - 24
+        size:
+          - 40
+          - 17

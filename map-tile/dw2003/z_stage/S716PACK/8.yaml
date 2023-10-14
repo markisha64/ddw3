@@ -1,0 +1,32 @@
+img: /build/tim/dw2003/z_stage/S716PACK/8.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 128
+  - objs:
+      - world_offset:
+          - 67
+          - 0
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 62
+          - 31
+      - world_offset:
+          - 0
+          - 53
+        img_offset:
+          - 128
+          - 31
+        size:
+          - 94
+          - 75
+  - objs: []

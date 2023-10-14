@@ -1,0 +1,23 @@
+img: /build/tim/dw2003/z_stage/S256PACK/2.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 57
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 100
+          - 71
+  - objs:
+      - world_offset:
+          - 83
+          - 0
+        img_offset:
+          - 100
+          - 0
+        size:
+          - 46
+          - 128
+  - objs: []

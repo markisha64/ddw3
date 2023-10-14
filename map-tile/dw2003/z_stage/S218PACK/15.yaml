@@ -1,0 +1,32 @@
+img: /build/tim/dw2003/z_stage/S218PACK/15.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 103
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 25
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 25
+        size:
+          - 128
+          - 103
+      - world_offset:
+          - 56
+          - 120
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 18
+          - 8
+  - objs: []

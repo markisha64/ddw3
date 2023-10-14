@@ -1,76 +1,76 @@
 width: 9
 height: 8
 entries:
-  - S640PACK/0.bin
-  - S640PACK/1.bin
-  - S640PACK/2.bin
-  - S640PACK/3.bin
-  - S640PACK/4.bin
-  - S640PACK/5.bin
-  - S640PACK/6.bin
-  - S640PACK/7.bin
-  - S640PACK/8.bin
-  - S640PACK/9.bin
-  - S640PACK/10.bin
-  - S640PACK/11.bin
-  - S640PACK/12.bin
-  - S640PACK/13.bin
-  - S640PACK/14.bin
-  - S640PACK/15.bin
-  - S640PACK/16.bin
-  - S640PACK/17.bin
-  - S640PACK/18.bin
-  - S640PACK/19.bin
-  - S640PACK/20.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/0.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/1.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/2.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/3.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/4.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/5.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/6.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/7.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/8.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/9.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/10.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/11.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/12.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/13.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/14.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/15.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/16.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/17.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/18.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/19.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/20.bin
   - /build/rlen/dw2003/z_stage/S640PACK/21.bin
   - /build/rlen/dw2003/z_stage/S640PACK/22.bin
   - /build/rlen/dw2003/z_stage/S640PACK/23.bin
-  - S640PACK/24.bin
-  - S640PACK/25.bin
-  - S640PACK/26.bin
-  - S640PACK/27.bin
-  - S640PACK/28.bin
-  - S640PACK/29.bin
-  - S640PACK/30.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/24.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/25.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/26.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/27.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/28.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/29.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/30.bin
   - /build/rlen/dw2003/z_stage/S640PACK/31.bin
-  - S640PACK/32.bin
-  - S640PACK/33.bin
-  - S640PACK/34.bin
-  - S640PACK/35.bin
-  - S640PACK/36.bin
-  - S640PACK/37.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/32.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/33.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/34.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/35.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/36.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/37.bin
   - /build/rlen/dw2003/z_stage/S640PACK/38.bin
-  - S640PACK/39.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/39.bin
   - /build/rlen/dw2003/z_stage/S640PACK/40.bin
-  - S640PACK/41.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/41.bin
   - /build/rlen/dw2003/z_stage/S640PACK/42.bin
-  - S640PACK/43.bin
-  - S640PACK/44.bin
-  - S640PACK/45.bin
-  - S640PACK/46.bin
-  - S640PACK/47.bin
-  - S640PACK/48.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/43.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/44.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/45.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/46.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/47.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/48.bin
   - /build/rlen/dw2003/z_stage/S640PACK/49.bin
   - /build/rlen/dw2003/z_stage/S640PACK/50.bin
-  - S640PACK/51.bin
-  - S640PACK/52.bin
-  - S640PACK/53.bin
-  - S640PACK/54.bin
-  - S640PACK/55.bin
-  - S640PACK/56.bin
-  - S640PACK/57.bin
-  - S640PACK/58.bin
-  - S640PACK/59.bin
-  - S640PACK/60.bin
-  - S640PACK/61.bin
-  - S640PACK/62.bin
-  - S640PACK/63.bin
-  - S640PACK/64.bin
-  - S640PACK/65.bin
-  - S640PACK/66.bin
-  - S640PACK/67.bin
-  - S640PACK/68.bin
-  - S640PACK/69.bin
-  - S640PACK/70.bin
-  - S640PACK/71.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/51.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/52.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/53.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/54.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/55.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/56.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/57.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/58.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/59.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/60.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/61.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/62.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/63.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/64.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/65.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/66.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/67.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/68.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/69.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/70.bin
+  - /build/map-tile/dw2003/z_stage/S640PACK/71.bin
 extra_padding: 0

@@ -9,8 +9,8 @@ entries:
   - /build/rlen/dw2003/z_stage/S870PACK/5.bin
   - /build/rlen/dw2003/z_stage/S870PACK/6.bin
   - /build/rlen/dw2003/z_stage/S870PACK/7.bin
-  - S870PACK/8.bin
-  - S870PACK/9.bin
+  - /build/map-tile/dw2003/z_stage/S870PACK/8.bin
+  - /build/map-tile/dw2003/z_stage/S870PACK/9.bin
   - /build/rlen/dw2003/z_stage/S870PACK/10.bin
   - /build/rlen/dw2003/z_stage/S870PACK/11.bin
   - /build/rlen/dw2003/z_stage/S870PACK/12.bin

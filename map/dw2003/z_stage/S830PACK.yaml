@@ -11,20 +11,20 @@ entries:
   - /build/rlen/dw2003/z_stage/S830PACK/7.bin
   - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S830PACK/9.bin
-  - S830PACK/10.bin
-  - S830PACK/11.bin
-  - S830PACK/12.bin
-  - S830PACK/13.bin
-  - S830PACK/14.bin
-  - S830PACK/15.bin
+  - /build/map-tile/dw2003/z_stage/S830PACK/10.bin
+  - /build/map-tile/dw2003/z_stage/S830PACK/11.bin
+  - /build/map-tile/dw2003/z_stage/S830PACK/12.bin
+  - /build/map-tile/dw2003/z_stage/S830PACK/13.bin
+  - /build/map-tile/dw2003/z_stage/S830PACK/14.bin
+  - /build/map-tile/dw2003/z_stage/S830PACK/15.bin
   - /build/rlen/dw2003/z_stage/S830PACK/16.bin
   - /build/rlen/dw2003/z_stage/S830PACK/17.bin
   - /build/rlen/dw2003/z_stage/S830PACK/18.bin
   - /build/rlen/dw2003/z_stage/S830PACK/19.bin
   - /build/rlen/dw2003/z_stage/S830PACK/20.bin
   - /build/rlen/dw2003/z_stage/S830PACK/21.bin
-  - S830PACK/22.bin
-  - S830PACK/23.bin
+  - /build/map-tile/dw2003/z_stage/S830PACK/22.bin
+  - /build/map-tile/dw2003/z_stage/S830PACK/23.bin
   - /build/rlen/dw2003/z_stage/S830PACK/24.bin
   - /build/rlen/dw2003/z_stage/S830PACK/25.bin
   - /build/rlen/dw2003/z_stage/S830PACK/26.bin

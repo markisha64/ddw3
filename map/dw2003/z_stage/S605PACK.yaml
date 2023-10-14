@@ -17,25 +17,25 @@ entries:
   - /build/rlen/dw2003/z_stage/S605PACK/13.bin
   - /build/rlen/dw2003/z_stage/S605PACK/14.bin
   - /build/rlen/dw2003/z_stage/S605PACK/15.bin
-  - S605PACK/16.bin
-  - S605PACK/17.bin
-  - S605PACK/18.bin
+  - /build/map-tile/dw2003/z_stage/S605PACK/16.bin
+  - /build/map-tile/dw2003/z_stage/S605PACK/17.bin
+  - /build/map-tile/dw2003/z_stage/S605PACK/18.bin
   - /build/rlen/dw2003/z_stage/S605PACK/19.bin
   - /build/rlen/dw2003/z_stage/S605PACK/20.bin
-  - S605PACK/21.bin
-  - S605PACK/22.bin
-  - S605PACK/23.bin
-  - S605PACK/24.bin
-  - S605PACK/25.bin
-  - S605PACK/26.bin
-  - S605PACK/27.bin
+  - /build/map-tile/dw2003/z_stage/S605PACK/21.bin
+  - /build/map-tile/dw2003/z_stage/S605PACK/22.bin
+  - /build/map-tile/dw2003/z_stage/S605PACK/23.bin
+  - /build/map-tile/dw2003/z_stage/S605PACK/24.bin
+  - /build/map-tile/dw2003/z_stage/S605PACK/25.bin
+  - /build/map-tile/dw2003/z_stage/S605PACK/26.bin
+  - /build/map-tile/dw2003/z_stage/S605PACK/27.bin
   - /build/rlen/dw2003/z_stage/S605PACK/28.bin
   - /build/rlen/dw2003/z_stage/S605PACK/29.bin
   - /build/rlen/dw2003/z_stage/S605PACK/30.bin
   - /build/rlen/dw2003/z_stage/S605PACK/31.bin
-  - S605PACK/32.bin
-  - S605PACK/33.bin
-  - S605PACK/34.bin
+  - /build/map-tile/dw2003/z_stage/S605PACK/32.bin
+  - /build/map-tile/dw2003/z_stage/S605PACK/33.bin
+  - /build/map-tile/dw2003/z_stage/S605PACK/34.bin
   - /build/rlen/dw2003/z_stage/S605PACK/35.bin
   - /map-tile/empty.bin
   - /map-tile/empty.bin

@@ -20,7 +20,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S735PACK/16.bin
   - /build/rlen/dw2003/z_stage/S735PACK/17.bin
   - /build/rlen/dw2003/z_stage/S735PACK/18.bin
-  - S735PACK/19.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/19.bin
   - /build/rlen/dw2003/z_stage/S735PACK/20.bin
   - /build/rlen/dw2003/z_stage/S735PACK/21.bin
   - /map-tile/empty.bin
@@ -30,52 +30,52 @@ entries:
   - /build/rlen/dw2003/z_stage/S735PACK/26.bin
   - /build/rlen/dw2003/z_stage/S735PACK/27.bin
   - /build/rlen/dw2003/z_stage/S735PACK/28.bin
-  - S735PACK/29.bin
-  - S735PACK/30.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/29.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/30.bin
   - /build/rlen/dw2003/z_stage/S735PACK/31.bin
   - /build/rlen/dw2003/z_stage/S735PACK/32.bin
   - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S735PACK/34.bin
   - /build/rlen/dw2003/z_stage/S735PACK/35.bin
   - /build/rlen/dw2003/z_stage/S735PACK/36.bin
-  - S735PACK/37.bin
-  - S735PACK/38.bin
-  - S735PACK/39.bin
-  - S735PACK/40.bin
-  - S735PACK/41.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/37.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/38.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/39.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/40.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/41.bin
   - /build/rlen/dw2003/z_stage/S735PACK/42.bin
   - /map-tile/empty.bin
   - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S735PACK/45.bin
-  - S735PACK/46.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/46.bin
   - /build/rlen/dw2003/z_stage/S735PACK/47.bin
-  - S735PACK/48.bin
-  - S735PACK/49.bin
-  - S735PACK/50.bin
-  - S735PACK/51.bin
-  - S735PACK/52.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/48.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/49.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/50.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/51.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/52.bin
   - /build/rlen/dw2003/z_stage/S735PACK/53.bin
   - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S735PACK/55.bin
   - /build/rlen/dw2003/z_stage/S735PACK/56.bin
-  - S735PACK/57.bin
-  - S735PACK/58.bin
-  - S735PACK/59.bin
-  - S735PACK/60.bin
-  - S735PACK/61.bin
-  - S735PACK/62.bin
-  - S735PACK/63.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/57.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/58.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/59.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/60.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/61.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/62.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/63.bin
   - /build/rlen/dw2003/z_stage/S735PACK/64.bin
   - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S735PACK/66.bin
-  - S735PACK/67.bin
-  - S735PACK/68.bin
-  - S735PACK/69.bin
-  - S735PACK/70.bin
-  - S735PACK/71.bin
-  - S735PACK/72.bin
-  - S735PACK/73.bin
-  - S735PACK/74.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/67.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/68.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/69.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/70.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/71.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/72.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/73.bin
+  - /build/map-tile/dw2003/z_stage/S735PACK/74.bin
   - /build/rlen/dw2003/z_stage/S735PACK/75.bin
   - /map-tile/empty.bin
 override_entries_len: 59

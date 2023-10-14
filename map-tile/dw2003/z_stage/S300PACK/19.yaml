@@ -1,0 +1,23 @@
+img: /build/tim/dw2003/z_stage/S300PACK/19.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 8
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 120
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 86
+          - 43
+  - objs: []

@@ -11,11 +11,11 @@ entries:
   - /build/rlen/dw2003/z_stage/S855PACK/7.bin
   - /build/rlen/dw2003/z_stage/S855PACK/8.bin
   - /build/rlen/dw2003/z_stage/S855PACK/9.bin
-  - S855PACK/10.bin
-  - S855PACK/11.bin
+  - /build/map-tile/dw2003/z_stage/S855PACK/10.bin
+  - /build/map-tile/dw2003/z_stage/S855PACK/11.bin
   - /build/rlen/dw2003/z_stage/S855PACK/12.bin
   - /build/rlen/dw2003/z_stage/S855PACK/13.bin
-  - S855PACK/14.bin
+  - /build/map-tile/dw2003/z_stage/S855PACK/14.bin
   - /build/rlen/dw2003/z_stage/S855PACK/15.bin
   - /build/rlen/dw2003/z_stage/S855PACK/16.bin
   - /build/rlen/dw2003/z_stage/S855PACK/17.bin
@@ -27,7 +27,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S855PACK/23.bin
   - /build/rlen/dw2003/z_stage/S855PACK/24.bin
   - /build/rlen/dw2003/z_stage/S855PACK/25.bin
-  - S855PACK/26.bin
+  - /build/map-tile/dw2003/z_stage/S855PACK/26.bin
   - /build/rlen/dw2003/z_stage/S855PACK/27.bin
   - /build/rlen/dw2003/z_stage/S855PACK/28.bin
   - /build/rlen/dw2003/z_stage/S855PACK/29.bin
@@ -37,8 +37,8 @@ entries:
   - /build/rlen/dw2003/z_stage/S855PACK/33.bin
   - /build/rlen/dw2003/z_stage/S855PACK/34.bin
   - /build/rlen/dw2003/z_stage/S855PACK/35.bin
-  - S855PACK/36.bin
-  - S855PACK/37.bin
+  - /build/map-tile/dw2003/z_stage/S855PACK/36.bin
+  - /build/map-tile/dw2003/z_stage/S855PACK/37.bin
   - /build/rlen/dw2003/z_stage/S855PACK/38.bin
   - /build/rlen/dw2003/z_stage/S855PACK/39.bin
   - /build/rlen/dw2003/z_stage/S855PACK/40.bin

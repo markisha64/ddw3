@@ -1,0 +1,32 @@
+img: /build/tim/dw2003/z_stage/S795PACK/88.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 128
+  - objs:
+      - world_offset:
+          - 97
+          - 0
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 26
+          - 18
+      - world_offset:
+          - 1
+          - 34
+        img_offset:
+          - 128
+          - 18
+        size:
+          - 26
+          - 32
+  - objs: []

@@ -1,0 +1,14 @@
+img: /build/tim/dw2003/z_stage/S530PACK/9.tim
+layers:
+  - objs:
+      - world_offset:
+          - 114
+          - 26
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 14
+          - 102
+  - objs: []
+  - objs: []

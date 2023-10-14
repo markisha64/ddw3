@@ -1,0 +1,41 @@
+img: /build/tim/dw2003/z_stage/S205PACK/37.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 116
+          - 77
+      - world_offset:
+          - 0
+          - 108
+        img_offset:
+          - 0
+          - 77
+        size:
+          - 24
+          - 20
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 97
+        size:
+          - 18
+          - 9
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 116
+          - 0
+        size:
+          - 128
+          - 128

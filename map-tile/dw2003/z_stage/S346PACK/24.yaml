@@ -1,0 +1,41 @@
+img: /build/tim/dw2003/z_stage/S346PACK/24.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 128
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 60
+          - 68
+      - world_offset:
+          - 0
+          - 76
+        img_offset:
+          - 128
+          - 68
+        size:
+          - 8
+          - 19
+      - world_offset:
+          - 0
+          - 97
+        img_offset:
+          - 128
+          - 87
+        size:
+          - 4
+          - 4
+  - objs: []

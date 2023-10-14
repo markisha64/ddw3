@@ -1,0 +1,41 @@
+img: /build/tim/dw2003/z_stage/S446PACK/20.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 128
+  - objs:
+      - world_offset:
+          - 13
+          - 100
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 70
+          - 28
+  - objs:
+      - world_offset:
+          - 122
+          - 57
+        img_offset:
+          - 128
+          - 28
+        size:
+          - 6
+          - 9
+      - world_offset:
+          - 121
+          - 92
+        img_offset:
+          - 128
+          - 37
+        size:
+          - 8
+          - 11

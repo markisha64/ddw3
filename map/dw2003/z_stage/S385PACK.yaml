@@ -2,47 +2,47 @@ width: 10
 height: 9
 entries:
   - /build/rlen/dw2003/z_stage/S385PACK/0.bin
-  - S385PACK/1.bin
-  - S385PACK/2.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/1.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/2.bin
   - /build/rlen/dw2003/z_stage/S385PACK/3.bin
   - /build/rlen/dw2003/z_stage/S385PACK/4.bin
   - /build/rlen/dw2003/z_stage/S385PACK/5.bin
   - /build/rlen/dw2003/z_stage/S385PACK/6.bin
-  - S385PACK/7.bin
-  - S385PACK/8.bin
-  - S385PACK/9.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/7.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/8.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/9.bin
   - /build/rlen/dw2003/z_stage/S385PACK/10.bin
   - /build/rlen/dw2003/z_stage/S385PACK/11.bin
-  - S385PACK/12.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/12.bin
   - /build/rlen/dw2003/z_stage/S385PACK/13.bin
   - /build/rlen/dw2003/z_stage/S385PACK/14.bin
   - /build/rlen/dw2003/z_stage/S385PACK/15.bin
   - /build/rlen/dw2003/z_stage/S385PACK/16.bin
   - /build/rlen/dw2003/z_stage/S385PACK/17.bin
-  - S385PACK/18.bin
-  - S385PACK/19.bin
-  - S385PACK/20.bin
-  - S385PACK/21.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/18.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/19.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/20.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/21.bin
   - /build/rlen/dw2003/z_stage/S385PACK/22.bin
   - /build/rlen/dw2003/z_stage/S385PACK/23.bin
   - /build/rlen/dw2003/z_stage/S385PACK/24.bin
-  - S385PACK/25.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/25.bin
   - /build/rlen/dw2003/z_stage/S385PACK/26.bin
   - /build/rlen/dw2003/z_stage/S385PACK/27.bin
   - /build/rlen/dw2003/z_stage/S385PACK/28.bin
-  - S385PACK/29.bin
-  - S385PACK/30.bin
-  - S385PACK/31.bin
-  - S385PACK/32.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/29.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/30.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/31.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/32.bin
   - /build/rlen/dw2003/z_stage/S385PACK/33.bin
   - /build/rlen/dw2003/z_stage/S385PACK/34.bin
   - /build/rlen/dw2003/z_stage/S385PACK/35.bin
   - /build/rlen/dw2003/z_stage/S385PACK/36.bin
   - /build/rlen/dw2003/z_stage/S385PACK/37.bin
   - /build/rlen/dw2003/z_stage/S385PACK/38.bin
-  - S385PACK/39.bin
-  - S385PACK/40.bin
-  - S385PACK/41.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/39.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/40.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/41.bin
   - /build/rlen/dw2003/z_stage/S385PACK/42.bin
   - /build/rlen/dw2003/z_stage/S385PACK/43.bin
   - /build/rlen/dw2003/z_stage/S385PACK/44.bin
@@ -50,17 +50,17 @@ entries:
   - /build/rlen/dw2003/z_stage/S385PACK/46.bin
   - /build/rlen/dw2003/z_stage/S385PACK/47.bin
   - /build/rlen/dw2003/z_stage/S385PACK/48.bin
-  - S385PACK/49.bin
-  - S385PACK/50.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/49.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/50.bin
   - /build/rlen/dw2003/z_stage/S385PACK/51.bin
   - /build/rlen/dw2003/z_stage/S385PACK/52.bin
-  - S385PACK/53.bin
-  - S385PACK/54.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/53.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/54.bin
   - /build/rlen/dw2003/z_stage/S385PACK/55.bin
   - /build/rlen/dw2003/z_stage/S385PACK/56.bin
-  - S385PACK/57.bin
-  - S385PACK/58.bin
-  - S385PACK/59.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/57.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/58.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/59.bin
   - /build/rlen/dw2003/z_stage/S385PACK/60.bin
   - /build/rlen/dw2003/z_stage/S385PACK/61.bin
   - /build/rlen/dw2003/z_stage/S385PACK/62.bin
@@ -70,25 +70,25 @@ entries:
   - /build/rlen/dw2003/z_stage/S385PACK/66.bin
   - /build/rlen/dw2003/z_stage/S385PACK/67.bin
   - /build/rlen/dw2003/z_stage/S385PACK/68.bin
-  - S385PACK/69.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/69.bin
   - /build/rlen/dw2003/z_stage/S385PACK/70.bin
   - /build/rlen/dw2003/z_stage/S385PACK/71.bin
   - /build/rlen/dw2003/z_stage/S385PACK/72.bin
   - /build/rlen/dw2003/z_stage/S385PACK/73.bin
   - /build/rlen/dw2003/z_stage/S385PACK/74.bin
   - /build/rlen/dw2003/z_stage/S385PACK/75.bin
-  - S385PACK/76.bin
-  - S385PACK/77.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/76.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/77.bin
   - /build/rlen/dw2003/z_stage/S385PACK/78.bin
-  - S385PACK/79.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/79.bin
   - /build/rlen/dw2003/z_stage/S385PACK/80.bin
   - /build/rlen/dw2003/z_stage/S385PACK/81.bin
-  - S385PACK/82.bin
-  - S385PACK/83.bin
-  - S385PACK/84.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/82.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/83.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/84.bin
   - /build/rlen/dw2003/z_stage/S385PACK/85.bin
   - /build/rlen/dw2003/z_stage/S385PACK/86.bin
   - /build/rlen/dw2003/z_stage/S385PACK/87.bin
   - /build/rlen/dw2003/z_stage/S385PACK/88.bin
-  - S385PACK/89.bin
+  - /build/map-tile/dw2003/z_stage/S385PACK/89.bin
 extra_padding: 2048

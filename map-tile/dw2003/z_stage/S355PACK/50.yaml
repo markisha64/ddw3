@@ -1,0 +1,32 @@
+img: /build/tim/dw2003/z_stage/S355PACK/50.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 128
+  - objs:
+      - world_offset:
+          - 0
+          - 12
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 128
+          - 96
+      - world_offset:
+          - 34
+          - 110
+        img_offset:
+          - 128
+          - 96
+        size:
+          - 4
+          - 3
+  - objs: []

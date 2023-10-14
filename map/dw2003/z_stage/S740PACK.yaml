@@ -4,8 +4,8 @@ entries:
   - /build/rlen/dw2003/z_stage/S740PACK/0.bin
   - /build/rlen/dw2003/z_stage/S740PACK/1.bin
   - /build/rlen/dw2003/z_stage/S740PACK/2.bin
-  - S740PACK/3.bin
-  - S740PACK/4.bin
+  - /build/map-tile/dw2003/z_stage/S740PACK/3.bin
+  - /build/map-tile/dw2003/z_stage/S740PACK/4.bin
   - /build/rlen/dw2003/z_stage/S740PACK/5.bin
   - /build/rlen/dw2003/z_stage/S740PACK/6.bin
   - /build/rlen/dw2003/z_stage/S740PACK/7.bin
@@ -13,17 +13,17 @@ entries:
   - /build/rlen/dw2003/z_stage/S740PACK/9.bin
   - /build/rlen/dw2003/z_stage/S740PACK/10.bin
   - /build/rlen/dw2003/z_stage/S740PACK/11.bin
-  - S740PACK/12.bin
+  - /build/map-tile/dw2003/z_stage/S740PACK/12.bin
   - /build/rlen/dw2003/z_stage/S740PACK/13.bin
   - /build/rlen/dw2003/z_stage/S740PACK/14.bin
   - /build/rlen/dw2003/z_stage/S740PACK/15.bin
   - /build/rlen/dw2003/z_stage/S740PACK/16.bin
   - /build/rlen/dw2003/z_stage/S740PACK/17.bin
   - /build/rlen/dw2003/z_stage/S740PACK/18.bin
-  - S740PACK/19.bin
+  - /build/map-tile/dw2003/z_stage/S740PACK/19.bin
   - /build/rlen/dw2003/z_stage/S740PACK/20.bin
   - /build/rlen/dw2003/z_stage/S740PACK/21.bin
-  - S740PACK/22.bin
+  - /build/map-tile/dw2003/z_stage/S740PACK/22.bin
   - /build/rlen/dw2003/z_stage/S740PACK/23.bin
   - /build/rlen/dw2003/z_stage/S740PACK/24.bin
   - /build/rlen/dw2003/z_stage/S740PACK/25.bin

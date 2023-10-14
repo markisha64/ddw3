@@ -9,12 +9,12 @@ entries:
   - /build/rlen/dw2003/z_stage/S225PACK/5.bin
   - /build/rlen/dw2003/z_stage/S225PACK/6.bin
   - /build/rlen/dw2003/z_stage/S225PACK/7.bin
-  - S225PACK/8.bin
-  - S225PACK/9.bin
-  - S225PACK/10.bin
-  - S225PACK/11.bin
+  - /build/map-tile/dw2003/z_stage/S225PACK/8.bin
+  - /build/map-tile/dw2003/z_stage/S225PACK/9.bin
+  - /build/map-tile/dw2003/z_stage/S225PACK/10.bin
+  - /build/map-tile/dw2003/z_stage/S225PACK/11.bin
   - /build/rlen/dw2003/z_stage/S225PACK/12.bin
-  - S225PACK/13.bin
-  - S225PACK/14.bin
-  - S225PACK/15.bin
+  - /build/map-tile/dw2003/z_stage/S225PACK/13.bin
+  - /build/map-tile/dw2003/z_stage/S225PACK/14.bin
+  - /build/map-tile/dw2003/z_stage/S225PACK/15.bin
 extra_padding: 2048

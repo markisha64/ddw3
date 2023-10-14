@@ -1,0 +1,32 @@
+img: /build/tim/dw2003/z_stage/S800PACK/96.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 77
+  - objs:
+      - world_offset:
+          - 33
+          - 0
+        img_offset:
+          - 0
+          - 77
+        size:
+          - 26
+          - 20
+      - world_offset:
+          - 5
+          - 26
+        img_offset:
+          - 0
+          - 97
+        size:
+          - 118
+          - 26
+  - objs: []

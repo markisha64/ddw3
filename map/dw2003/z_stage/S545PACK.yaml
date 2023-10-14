@@ -13,11 +13,11 @@ entries:
   - /build/rlen/dw2003/z_stage/S545PACK/9.bin
   - /build/rlen/dw2003/z_stage/S545PACK/10.bin
   - /build/rlen/dw2003/z_stage/S545PACK/11.bin
-  - S545PACK/12.bin
-  - S545PACK/13.bin
+  - /build/map-tile/dw2003/z_stage/S545PACK/12.bin
+  - /build/map-tile/dw2003/z_stage/S545PACK/13.bin
   - /build/rlen/dw2003/z_stage/S545PACK/14.bin
-  - S545PACK/15.bin
-  - S545PACK/16.bin
+  - /build/map-tile/dw2003/z_stage/S545PACK/15.bin
+  - /build/map-tile/dw2003/z_stage/S545PACK/16.bin
   - /build/rlen/dw2003/z_stage/S545PACK/17.bin
   - /build/rlen/dw2003/z_stage/S545PACK/18.bin
   - /build/rlen/dw2003/z_stage/S545PACK/19.bin
@@ -25,7 +25,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S545PACK/21.bin
   - /build/rlen/dw2003/z_stage/S545PACK/22.bin
   - /build/rlen/dw2003/z_stage/S545PACK/23.bin
-  - S545PACK/24.bin
+  - /build/map-tile/dw2003/z_stage/S545PACK/24.bin
   - /build/rlen/dw2003/z_stage/S545PACK/25.bin
   - /build/rlen/dw2003/z_stage/S545PACK/26.bin
   - /build/rlen/dw2003/z_stage/S545PACK/27.bin
@@ -39,32 +39,32 @@ entries:
   - /build/rlen/dw2003/z_stage/S545PACK/35.bin
   - /build/rlen/dw2003/z_stage/S545PACK/36.bin
   - /build/rlen/dw2003/z_stage/S545PACK/37.bin
-  - S545PACK/38.bin
-  - S545PACK/39.bin
+  - /build/map-tile/dw2003/z_stage/S545PACK/38.bin
+  - /build/map-tile/dw2003/z_stage/S545PACK/39.bin
   - /build/rlen/dw2003/z_stage/S545PACK/40.bin
   - /build/rlen/dw2003/z_stage/S545PACK/41.bin
   - /build/rlen/dw2003/z_stage/S545PACK/42.bin
   - /build/rlen/dw2003/z_stage/S545PACK/43.bin
   - /build/rlen/dw2003/z_stage/S545PACK/44.bin
   - /build/rlen/dw2003/z_stage/S545PACK/45.bin
-  - S545PACK/46.bin
+  - /build/map-tile/dw2003/z_stage/S545PACK/46.bin
   - /build/rlen/dw2003/z_stage/S545PACK/47.bin
-  - S545PACK/48.bin
+  - /build/map-tile/dw2003/z_stage/S545PACK/48.bin
   - /build/rlen/dw2003/z_stage/S545PACK/49.bin
-  - S545PACK/50.bin
+  - /build/map-tile/dw2003/z_stage/S545PACK/50.bin
   - /build/rlen/dw2003/z_stage/S545PACK/51.bin
   - /build/rlen/dw2003/z_stage/S545PACK/52.bin
   - /build/rlen/dw2003/z_stage/S545PACK/53.bin
   - /build/rlen/dw2003/z_stage/S545PACK/54.bin
   - /build/rlen/dw2003/z_stage/S545PACK/55.bin
-  - S545PACK/56.bin
-  - S545PACK/57.bin
-  - S545PACK/58.bin
+  - /build/map-tile/dw2003/z_stage/S545PACK/56.bin
+  - /build/map-tile/dw2003/z_stage/S545PACK/57.bin
+  - /build/map-tile/dw2003/z_stage/S545PACK/58.bin
   - /build/rlen/dw2003/z_stage/S545PACK/59.bin
   - /build/rlen/dw2003/z_stage/S545PACK/60.bin
   - /build/rlen/dw2003/z_stage/S545PACK/61.bin
   - /build/rlen/dw2003/z_stage/S545PACK/62.bin
-  - S545PACK/63.bin
+  - /build/map-tile/dw2003/z_stage/S545PACK/63.bin
   - /build/rlen/dw2003/z_stage/S545PACK/64.bin
   - /build/rlen/dw2003/z_stage/S545PACK/65.bin
   - /build/rlen/dw2003/z_stage/S545PACK/66.bin
@@ -74,10 +74,10 @@ entries:
   - /build/rlen/dw2003/z_stage/S545PACK/70.bin
   - /build/rlen/dw2003/z_stage/S545PACK/71.bin
   - /build/rlen/dw2003/z_stage/S545PACK/72.bin
-  - S545PACK/73.bin
+  - /build/map-tile/dw2003/z_stage/S545PACK/73.bin
   - /build/rlen/dw2003/z_stage/S545PACK/74.bin
-  - S545PACK/75.bin
-  - S545PACK/76.bin
+  - /build/map-tile/dw2003/z_stage/S545PACK/75.bin
+  - /build/map-tile/dw2003/z_stage/S545PACK/76.bin
   - /build/rlen/dw2003/z_stage/S545PACK/77.bin
   - /build/rlen/dw2003/z_stage/S545PACK/78.bin
   - /build/rlen/dw2003/z_stage/S545PACK/79.bin

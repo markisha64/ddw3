@@ -1,0 +1,14 @@
+img: /build/tim/dw2003/z_stage/S436PACK/15.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 100
+          - 128
+  - objs: []
+  - objs: []

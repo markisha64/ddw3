@@ -1,0 +1,50 @@
+img: /build/tim/dw2003/z_stage/S480PACK/123.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 128
+  - objs:
+      - world_offset:
+          - 42
+          - 9
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 6
+          - 15
+      - world_offset:
+          - 113
+          - 41
+        img_offset:
+          - 128
+          - 15
+        size:
+          - 6
+          - 14
+  - objs:
+      - world_offset:
+          - 26
+          - 7
+        img_offset:
+          - 128
+          - 29
+        size:
+          - 16
+          - 8
+      - world_offset:
+          - 94
+          - 41
+        img_offset:
+          - 128
+          - 37
+        size:
+          - 34
+          - 24

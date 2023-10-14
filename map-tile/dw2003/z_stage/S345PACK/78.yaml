@@ -1,0 +1,41 @@
+img: /build/tim/dw2003/z_stage/S345PACK/78.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 23
+      - world_offset:
+          - 53
+          - 25
+        img_offset:
+          - 0
+          - 23
+        size:
+          - 10
+          - 11
+      - world_offset:
+          - 0
+          - 42
+        img_offset:
+          - 0
+          - 34
+        size:
+          - 128
+          - 86
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 128
+          - 128
+  - objs: []

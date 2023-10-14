@@ -1,16 +1,16 @@
 width: 6
 height: 5
 entries:
-  - S560PACK/0.bin
-  - S560PACK/1.bin
-  - S560PACK/2.bin
-  - S560PACK/3.bin
-  - S560PACK/4.bin
-  - S560PACK/5.bin
-  - S560PACK/6.bin
+  - /build/map-tile/dw2003/z_stage/S560PACK/0.bin
+  - /build/map-tile/dw2003/z_stage/S560PACK/1.bin
+  - /build/map-tile/dw2003/z_stage/S560PACK/2.bin
+  - /build/map-tile/dw2003/z_stage/S560PACK/3.bin
+  - /build/map-tile/dw2003/z_stage/S560PACK/4.bin
+  - /build/map-tile/dw2003/z_stage/S560PACK/5.bin
+  - /build/map-tile/dw2003/z_stage/S560PACK/6.bin
   - /build/rlen/dw2003/z_stage/S560PACK/7.bin
   - /build/rlen/dw2003/z_stage/S560PACK/8.bin
-  - S560PACK/9.bin
+  - /build/map-tile/dw2003/z_stage/S560PACK/9.bin
   - /build/rlen/dw2003/z_stage/S560PACK/10.bin
   - /build/rlen/dw2003/z_stage/S560PACK/11.bin
   - /build/rlen/dw2003/z_stage/S560PACK/12.bin
@@ -24,11 +24,11 @@ entries:
   - /build/rlen/dw2003/z_stage/S560PACK/20.bin
   - /build/rlen/dw2003/z_stage/S560PACK/21.bin
   - /build/rlen/dw2003/z_stage/S560PACK/22.bin
-  - S560PACK/23.bin
+  - /build/map-tile/dw2003/z_stage/S560PACK/23.bin
   - /build/rlen/dw2003/z_stage/S560PACK/24.bin
   - /build/rlen/dw2003/z_stage/S560PACK/25.bin
   - /build/rlen/dw2003/z_stage/S560PACK/26.bin
   - /build/rlen/dw2003/z_stage/S560PACK/27.bin
   - /build/rlen/dw2003/z_stage/S560PACK/28.bin
-  - S560PACK/29.bin
+  - /build/map-tile/dw2003/z_stage/S560PACK/29.bin
 extra_padding: 2048

@@ -10,21 +10,21 @@ entries:
   - /build/rlen/dw2003/z_stage/S850PACK/6.bin
   - /build/rlen/dw2003/z_stage/S850PACK/7.bin
   - /map-tile/empty.bin
-  - S850PACK/9.bin
-  - S850PACK/10.bin
-  - S850PACK/11.bin
-  - S850PACK/12.bin
-  - S850PACK/13.bin
-  - S850PACK/14.bin
-  - S850PACK/15.bin
+  - /build/map-tile/dw2003/z_stage/S850PACK/9.bin
+  - /build/map-tile/dw2003/z_stage/S850PACK/10.bin
+  - /build/map-tile/dw2003/z_stage/S850PACK/11.bin
+  - /build/map-tile/dw2003/z_stage/S850PACK/12.bin
+  - /build/map-tile/dw2003/z_stage/S850PACK/13.bin
+  - /build/map-tile/dw2003/z_stage/S850PACK/14.bin
+  - /build/map-tile/dw2003/z_stage/S850PACK/15.bin
   - /build/rlen/dw2003/z_stage/S850PACK/16.bin
   - /build/rlen/dw2003/z_stage/S850PACK/17.bin
   - /build/rlen/dw2003/z_stage/S850PACK/18.bin
   - /build/rlen/dw2003/z_stage/S850PACK/19.bin
   - /build/rlen/dw2003/z_stage/S850PACK/20.bin
-  - S850PACK/21.bin
+  - /build/map-tile/dw2003/z_stage/S850PACK/21.bin
   - /build/rlen/dw2003/z_stage/S850PACK/22.bin
-  - S850PACK/23.bin
+  - /build/map-tile/dw2003/z_stage/S850PACK/23.bin
   - /build/rlen/dw2003/z_stage/S850PACK/24.bin
   - /build/rlen/dw2003/z_stage/S850PACK/25.bin
   - /map-tile/empty.bin

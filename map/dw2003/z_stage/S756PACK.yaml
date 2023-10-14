@@ -6,7 +6,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S756PACK/2.bin
   - /build/rlen/dw2003/z_stage/S756PACK/3.bin
   - /build/rlen/dw2003/z_stage/S756PACK/4.bin
-  - S756PACK/5.bin
+  - /build/map-tile/dw2003/z_stage/S756PACK/5.bin
   - /build/rlen/dw2003/z_stage/S756PACK/6.bin
   - /build/rlen/dw2003/z_stage/S756PACK/7.bin
   - /build/rlen/dw2003/z_stage/S756PACK/8.bin
@@ -23,7 +23,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S756PACK/19.bin
   - /build/rlen/dw2003/z_stage/S756PACK/20.bin
   - /build/rlen/dw2003/z_stage/S756PACK/21.bin
-  - S756PACK/22.bin
+  - /build/map-tile/dw2003/z_stage/S756PACK/22.bin
   - /build/rlen/dw2003/z_stage/S756PACK/23.bin
   - /build/rlen/dw2003/z_stage/S756PACK/24.bin
   - /build/rlen/dw2003/z_stage/S756PACK/25.bin
@@ -31,9 +31,9 @@ entries:
   - /build/rlen/dw2003/z_stage/S756PACK/27.bin
   - /build/rlen/dw2003/z_stage/S756PACK/28.bin
   - /build/rlen/dw2003/z_stage/S756PACK/29.bin
-  - S756PACK/30.bin
-  - S756PACK/31.bin
-  - S756PACK/32.bin
+  - /build/map-tile/dw2003/z_stage/S756PACK/30.bin
+  - /build/map-tile/dw2003/z_stage/S756PACK/31.bin
+  - /build/map-tile/dw2003/z_stage/S756PACK/32.bin
   - /build/rlen/dw2003/z_stage/S756PACK/33.bin
   - /build/rlen/dw2003/z_stage/S756PACK/34.bin
   - /build/rlen/dw2003/z_stage/S756PACK/35.bin
@@ -41,7 +41,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S756PACK/37.bin
   - /build/rlen/dw2003/z_stage/S756PACK/38.bin
   - /build/rlen/dw2003/z_stage/S756PACK/39.bin
-  - S756PACK/40.bin
+  - /build/map-tile/dw2003/z_stage/S756PACK/40.bin
   - /build/rlen/dw2003/z_stage/S756PACK/41.bin
   - /build/rlen/dw2003/z_stage/S756PACK/42.bin
   - /build/rlen/dw2003/z_stage/S756PACK/43.bin
@@ -51,8 +51,8 @@ entries:
   - /build/rlen/dw2003/z_stage/S756PACK/47.bin
   - /build/rlen/dw2003/z_stage/S756PACK/48.bin
   - /build/rlen/dw2003/z_stage/S756PACK/49.bin
-  - S756PACK/50.bin
-  - S756PACK/51.bin
+  - /build/map-tile/dw2003/z_stage/S756PACK/50.bin
+  - /build/map-tile/dw2003/z_stage/S756PACK/51.bin
   - /build/rlen/dw2003/z_stage/S756PACK/52.bin
   - /build/rlen/dw2003/z_stage/S756PACK/53.bin
   - /build/rlen/dw2003/z_stage/S756PACK/54.bin
@@ -60,24 +60,24 @@ entries:
   - /build/rlen/dw2003/z_stage/S756PACK/56.bin
   - /build/rlen/dw2003/z_stage/S756PACK/57.bin
   - /build/rlen/dw2003/z_stage/S756PACK/58.bin
-  - S756PACK/59.bin
+  - /build/map-tile/dw2003/z_stage/S756PACK/59.bin
   - /build/rlen/dw2003/z_stage/S756PACK/60.bin
-  - S756PACK/61.bin
-  - S756PACK/62.bin
-  - S756PACK/63.bin
+  - /build/map-tile/dw2003/z_stage/S756PACK/61.bin
+  - /build/map-tile/dw2003/z_stage/S756PACK/62.bin
+  - /build/map-tile/dw2003/z_stage/S756PACK/63.bin
   - /build/rlen/dw2003/z_stage/S756PACK/64.bin
   - /build/rlen/dw2003/z_stage/S756PACK/65.bin
-  - S756PACK/66.bin
+  - /build/map-tile/dw2003/z_stage/S756PACK/66.bin
   - /build/rlen/dw2003/z_stage/S756PACK/67.bin
-  - S756PACK/68.bin
+  - /build/map-tile/dw2003/z_stage/S756PACK/68.bin
   - /build/rlen/dw2003/z_stage/S756PACK/69.bin
-  - S756PACK/70.bin
-  - S756PACK/71.bin
+  - /build/map-tile/dw2003/z_stage/S756PACK/70.bin
+  - /build/map-tile/dw2003/z_stage/S756PACK/71.bin
   - /build/rlen/dw2003/z_stage/S756PACK/72.bin
   - /build/rlen/dw2003/z_stage/S756PACK/73.bin
-  - S756PACK/74.bin
-  - S756PACK/75.bin
-  - S756PACK/76.bin
+  - /build/map-tile/dw2003/z_stage/S756PACK/74.bin
+  - /build/map-tile/dw2003/z_stage/S756PACK/75.bin
+  - /build/map-tile/dw2003/z_stage/S756PACK/76.bin
   - /build/rlen/dw2003/z_stage/S756PACK/77.bin
   - /build/rlen/dw2003/z_stage/S756PACK/78.bin
   - /build/rlen/dw2003/z_stage/S756PACK/79.bin

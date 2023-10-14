@@ -7,10 +7,10 @@ entries:
   - /build/rlen/dw2003/z_stage/S860PACK/3.bin
   - /build/rlen/dw2003/z_stage/S860PACK/4.bin
   - /build/rlen/dw2003/z_stage/S860PACK/5.bin
-  - S860PACK/6.bin
-  - S860PACK/7.bin
-  - S860PACK/8.bin
-  - S860PACK/9.bin
+  - /build/map-tile/dw2003/z_stage/S860PACK/6.bin
+  - /build/map-tile/dw2003/z_stage/S860PACK/7.bin
+  - /build/map-tile/dw2003/z_stage/S860PACK/8.bin
+  - /build/map-tile/dw2003/z_stage/S860PACK/9.bin
   - /build/rlen/dw2003/z_stage/S860PACK/10.bin
   - /build/rlen/dw2003/z_stage/S860PACK/11.bin
   - /build/rlen/dw2003/z_stage/S860PACK/12.bin

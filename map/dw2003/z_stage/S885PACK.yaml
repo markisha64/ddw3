@@ -26,7 +26,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S885PACK/22.bin
   - /build/rlen/dw2003/z_stage/S885PACK/23.bin
   - /build/rlen/dw2003/z_stage/S885PACK/24.bin
-  - S885PACK/25.bin
+  - /build/map-tile/dw2003/z_stage/S885PACK/25.bin
   - /build/rlen/dw2003/z_stage/S885PACK/26.bin
   - /build/rlen/dw2003/z_stage/S885PACK/27.bin
   - /build/rlen/dw2003/z_stage/S885PACK/28.bin
@@ -36,7 +36,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S885PACK/32.bin
   - /build/rlen/dw2003/z_stage/S885PACK/33.bin
   - /build/rlen/dw2003/z_stage/S885PACK/34.bin
-  - S885PACK/35.bin
+  - /build/map-tile/dw2003/z_stage/S885PACK/35.bin
   - /build/rlen/dw2003/z_stage/S885PACK/36.bin
   - /build/rlen/dw2003/z_stage/S885PACK/37.bin
   - /build/rlen/dw2003/z_stage/S885PACK/38.bin

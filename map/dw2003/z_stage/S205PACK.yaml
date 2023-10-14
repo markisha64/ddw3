@@ -2,13 +2,13 @@ width: 11
 height: 5
 entries:
   - /build/rlen/dw2003/z_stage/S205PACK/0.bin
-  - S205PACK/1.bin
+  - /build/map-tile/dw2003/z_stage/S205PACK/1.bin
   - /build/rlen/dw2003/z_stage/S205PACK/2.bin
   - /build/rlen/dw2003/z_stage/S205PACK/3.bin
   - /build/rlen/dw2003/z_stage/S205PACK/4.bin
   - /build/rlen/dw2003/z_stage/S205PACK/5.bin
   - /build/rlen/dw2003/z_stage/S205PACK/6.bin
-  - S205PACK/7.bin
+  - /build/map-tile/dw2003/z_stage/S205PACK/7.bin
   - /build/rlen/dw2003/z_stage/S205PACK/8.bin
   - /build/rlen/dw2003/z_stage/S205PACK/9.bin
   - /build/rlen/dw2003/z_stage/S205PACK/10.bin
@@ -21,7 +21,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S205PACK/17.bin
   - /build/rlen/dw2003/z_stage/S205PACK/18.bin
   - /build/rlen/dw2003/z_stage/S205PACK/19.bin
-  - S205PACK/20.bin
+  - /build/map-tile/dw2003/z_stage/S205PACK/20.bin
   - /build/rlen/dw2003/z_stage/S205PACK/21.bin
   - /build/rlen/dw2003/z_stage/S205PACK/22.bin
   - /build/rlen/dw2003/z_stage/S205PACK/23.bin

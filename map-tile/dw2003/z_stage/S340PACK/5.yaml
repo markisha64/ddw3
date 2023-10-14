@@ -1,0 +1,32 @@
+img: /build/tim/dw2003/z_stage/S340PACK/5.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 4
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 124
+  - objs: []
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 128
+          - 65
+      - world_offset:
+          - 0
+          - 67
+        img_offset:
+          - 128
+          - 65
+        size:
+          - 128
+          - 61

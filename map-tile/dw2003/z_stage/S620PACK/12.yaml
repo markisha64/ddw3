@@ -1,0 +1,14 @@
+img: /build/tim/dw2003/z_stage/S620PACK/12.tim
+layers:
+  - objs:
+      - world_offset:
+          - 80
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 48
+          - 72
+  - objs: []
+  - objs: []

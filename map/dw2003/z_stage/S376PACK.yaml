@@ -16,14 +16,14 @@ entries:
   - /build/rlen/dw2003/z_stage/S376PACK/12.bin
   - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S376PACK/14.bin
-  - S376PACK/15.bin
+  - /build/map-tile/dw2003/z_stage/S376PACK/15.bin
   - /build/rlen/dw2003/z_stage/S376PACK/16.bin
   - /build/rlen/dw2003/z_stage/S376PACK/17.bin
   - /build/rlen/dw2003/z_stage/S376PACK/18.bin
   - /build/rlen/dw2003/z_stage/S376PACK/19.bin
   - /build/rlen/dw2003/z_stage/S376PACK/20.bin
   - /build/rlen/dw2003/z_stage/S376PACK/21.bin
-  - S376PACK/22.bin
+  - /build/map-tile/dw2003/z_stage/S376PACK/22.bin
   - /build/rlen/dw2003/z_stage/S376PACK/23.bin
   - /build/rlen/dw2003/z_stage/S376PACK/24.bin
   - /build/rlen/dw2003/z_stage/S376PACK/25.bin
@@ -32,7 +32,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S376PACK/28.bin
   - /build/rlen/dw2003/z_stage/S376PACK/29.bin
   - /build/rlen/dw2003/z_stage/S376PACK/30.bin
-  - S376PACK/31.bin
+  - /build/map-tile/dw2003/z_stage/S376PACK/31.bin
   - /build/rlen/dw2003/z_stage/S376PACK/32.bin
   - /build/rlen/dw2003/z_stage/S376PACK/33.bin
   - /build/rlen/dw2003/z_stage/S376PACK/34.bin
@@ -40,10 +40,10 @@ entries:
   - /build/rlen/dw2003/z_stage/S376PACK/36.bin
   - /build/rlen/dw2003/z_stage/S376PACK/37.bin
   - /build/rlen/dw2003/z_stage/S376PACK/38.bin
-  - S376PACK/39.bin
+  - /build/map-tile/dw2003/z_stage/S376PACK/39.bin
   - /build/rlen/dw2003/z_stage/S376PACK/40.bin
   - /build/rlen/dw2003/z_stage/S376PACK/41.bin
-  - S376PACK/42.bin
+  - /build/map-tile/dw2003/z_stage/S376PACK/42.bin
   - /build/rlen/dw2003/z_stage/S376PACK/43.bin
   - /build/rlen/dw2003/z_stage/S376PACK/44.bin
   - /build/rlen/dw2003/z_stage/S376PACK/45.bin

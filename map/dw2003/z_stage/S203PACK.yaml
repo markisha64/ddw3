@@ -1,9 +1,9 @@
 width: 8
 height: 4
 entries:
-  - S203PACK/0.bin
-  - S203PACK/1.bin
-  - S203PACK/2.bin
+  - /build/map-tile/dw2003/z_stage/S203PACK/0.bin
+  - /build/map-tile/dw2003/z_stage/S203PACK/1.bin
+  - /build/map-tile/dw2003/z_stage/S203PACK/2.bin
   - /build/rlen/dw2003/z_stage/S203PACK/3.bin
   - /build/rlen/dw2003/z_stage/S203PACK/4.bin
   - /build/rlen/dw2003/z_stage/S203PACK/5.bin
@@ -25,12 +25,12 @@ entries:
   - /build/rlen/dw2003/z_stage/S203PACK/21.bin
   - /build/rlen/dw2003/z_stage/S203PACK/22.bin
   - /build/rlen/dw2003/z_stage/S203PACK/23.bin
-  - S203PACK/24.bin
+  - /build/map-tile/dw2003/z_stage/S203PACK/24.bin
   - /build/rlen/dw2003/z_stage/S203PACK/25.bin
   - /build/rlen/dw2003/z_stage/S203PACK/26.bin
   - /build/rlen/dw2003/z_stage/S203PACK/27.bin
   - /build/rlen/dw2003/z_stage/S203PACK/28.bin
   - /build/rlen/dw2003/z_stage/S203PACK/29.bin
   - /build/rlen/dw2003/z_stage/S203PACK/30.bin
-  - S203PACK/31.bin
+  - /build/map-tile/dw2003/z_stage/S203PACK/31.bin
 extra_padding: 2048

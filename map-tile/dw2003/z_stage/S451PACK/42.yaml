@@ -1,0 +1,41 @@
+img: /build/tim/dw2003/z_stage/S451PACK/42.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 128
+  - objs: []
+  - objs:
+      - world_offset:
+          - 61
+          - 0
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 40
+          - 19
+      - world_offset:
+          - 111
+          - 119
+        img_offset:
+          - 128
+          - 19
+        size:
+          - 6
+          - 4
+      - world_offset:
+          - 115
+          - 125
+        img_offset:
+          - 128
+          - 23
+        size:
+          - 14
+          - 3

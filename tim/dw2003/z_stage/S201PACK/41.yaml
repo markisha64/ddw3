@@ -1,0 +1,12 @@
+bpp: Indexed8
+clut:
+  pos:
+    - 0
+    - 0
+  kind: include
+  path: 41.clut.png
+img:
+  pos:
+    - 0
+    - 0
+  path: 41.png

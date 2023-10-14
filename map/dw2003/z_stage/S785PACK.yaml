@@ -3,7 +3,7 @@ height: 4
 entries:
   - /build/rlen/dw2003/z_stage/S785PACK/0.bin
   - /build/rlen/dw2003/z_stage/S785PACK/1.bin
-  - S785PACK/2.bin
+  - /build/map-tile/dw2003/z_stage/S785PACK/2.bin
   - /build/rlen/dw2003/z_stage/S785PACK/3.bin
   - /build/rlen/dw2003/z_stage/S785PACK/4.bin
   - /build/rlen/dw2003/z_stage/S785PACK/5.bin
@@ -20,9 +20,9 @@ entries:
   - /build/rlen/dw2003/z_stage/S785PACK/16.bin
   - /build/rlen/dw2003/z_stage/S785PACK/17.bin
   - /build/rlen/dw2003/z_stage/S785PACK/18.bin
-  - S785PACK/19.bin
+  - /build/map-tile/dw2003/z_stage/S785PACK/19.bin
   - /build/rlen/dw2003/z_stage/S785PACK/20.bin
   - /build/rlen/dw2003/z_stage/S785PACK/21.bin
-  - S785PACK/22.bin
+  - /build/map-tile/dw2003/z_stage/S785PACK/22.bin
   - /build/rlen/dw2003/z_stage/S785PACK/23.bin
 extra_padding: 4096

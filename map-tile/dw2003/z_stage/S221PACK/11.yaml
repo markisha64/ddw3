@@ -1,0 +1,32 @@
+img: /build/tim/dw2003/z_stage/S221PACK/11.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 98
+          - 128
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 98
+          - 0
+        size:
+          - 56
+          - 39
+  - objs:
+      - world_offset:
+          - 0
+          - 43
+        img_offset:
+          - 98
+          - 39
+        size:
+          - 96
+          - 77

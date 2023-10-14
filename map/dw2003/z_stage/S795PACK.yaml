@@ -1,7 +1,7 @@
 width: 12
 height: 9
 entries:
-  - S795PACK/0.bin
+  - /build/map-tile/dw2003/z_stage/S795PACK/0.bin
   - /build/rlen/dw2003/z_stage/S795PACK/1.bin
   - /build/rlen/dw2003/z_stage/S795PACK/2.bin
   - /build/rlen/dw2003/z_stage/S795PACK/3.bin
@@ -48,7 +48,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S795PACK/44.bin
   - /build/rlen/dw2003/z_stage/S795PACK/45.bin
   - /build/rlen/dw2003/z_stage/S795PACK/46.bin
-  - S795PACK/47.bin
+  - /build/map-tile/dw2003/z_stage/S795PACK/47.bin
   - /build/rlen/dw2003/z_stage/S795PACK/48.bin
   - /build/rlen/dw2003/z_stage/S795PACK/49.bin
   - /build/rlen/dw2003/z_stage/S795PACK/50.bin
@@ -60,7 +60,7 @@ entries:
   - /build/rlen/dw2003/z_stage/S795PACK/56.bin
   - /build/rlen/dw2003/z_stage/S795PACK/57.bin
   - /build/rlen/dw2003/z_stage/S795PACK/58.bin
-  - S795PACK/59.bin
+  - /build/map-tile/dw2003/z_stage/S795PACK/59.bin
   - /build/rlen/dw2003/z_stage/S795PACK/60.bin
   - /build/rlen/dw2003/z_stage/S795PACK/61.bin
   - /build/rlen/dw2003/z_stage/S795PACK/62.bin

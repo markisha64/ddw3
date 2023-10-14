@@ -1,0 +1,14 @@
+img: /build/tim/dw2003/z_stage/S590PACK/0.tim
+layers:
+  - objs:
+      - world_offset:
+          - 116
+          - 106
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 12
+          - 22
+  - objs: []
+  - objs: []

@@ -1,0 +1,41 @@
+img: /build/tim/dw2003/z_stage/S275PACK/11.tim
+layers:
+  - objs:
+      - world_offset:
+          - 66
+          - 33
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 62
+          - 95
+  - objs:
+      - world_offset:
+          - 116
+          - 68
+        img_offset:
+          - 0
+          - 95
+        size:
+          - 12
+          - 25
+      - world_offset:
+          - 16
+          - 100
+        img_offset:
+          - 12
+          - 95
+        size:
+          - 106
+          - 28
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 118
+          - 0
+        size:
+          - 120
+          - 128

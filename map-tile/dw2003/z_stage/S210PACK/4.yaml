@@ -1,0 +1,32 @@
+img: /build/tim/dw2003/z_stage/S210PACK/4.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 32
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 18
+          - 10
+      - world_offset:
+          - 28
+          - 92
+        img_offset:
+          - 0
+          - 10
+        size:
+          - 54
+          - 36
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 54
+          - 0
+        size:
+          - 128
+          - 128
+  - objs: []

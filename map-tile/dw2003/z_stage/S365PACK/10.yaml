@@ -1,0 +1,23 @@
+img: /build/tim/dw2003/z_stage/S365PACK/10.tim
+layers:
+  - objs:
+      - world_offset:
+          - 78
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 50
+          - 25
+      - world_offset:
+          - 24
+          - 54
+        img_offset:
+          - 0
+          - 25
+        size:
+          - 104
+          - 74
+  - objs: []
+  - objs: []

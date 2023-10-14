@@ -1,0 +1,32 @@
+img: /build/tim/dw2003/z_stage/S380PACK/36.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 128
+  - objs: []
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 128
+          - 96
+      - world_offset:
+          - 0
+          - 103
+        img_offset:
+          - 128
+          - 96
+        size:
+          - 36
+          - 25

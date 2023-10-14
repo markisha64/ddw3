@@ -1,29 +1,29 @@
 width: 11
 height: 6
 entries:
-  - S465PACK/0.bin
-  - S465PACK/1.bin
-  - S465PACK/2.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/0.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/1.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/2.bin
   - /build/rlen/dw2003/z_stage/S465PACK/3.bin
   - /build/rlen/dw2003/z_stage/S465PACK/4.bin
-  - S465PACK/5.bin
-  - S465PACK/6.bin
-  - S465PACK/7.bin
-  - S465PACK/8.bin
-  - S465PACK/9.bin
-  - S465PACK/10.bin
-  - S465PACK/11.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/5.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/6.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/7.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/8.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/9.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/10.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/11.bin
   - /build/rlen/dw2003/z_stage/S465PACK/12.bin
   - /build/rlen/dw2003/z_stage/S465PACK/13.bin
   - /build/rlen/dw2003/z_stage/S465PACK/14.bin
   - /build/rlen/dw2003/z_stage/S465PACK/15.bin
   - /build/rlen/dw2003/z_stage/S465PACK/16.bin
   - /build/rlen/dw2003/z_stage/S465PACK/17.bin
-  - S465PACK/18.bin
-  - S465PACK/19.bin
-  - S465PACK/20.bin
-  - S465PACK/21.bin
-  - S465PACK/22.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/18.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/19.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/20.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/21.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/22.bin
   - /build/rlen/dw2003/z_stage/S465PACK/23.bin
   - /build/rlen/dw2003/z_stage/S465PACK/24.bin
   - /build/rlen/dw2003/z_stage/S465PACK/25.bin
@@ -33,9 +33,9 @@ entries:
   - /build/rlen/dw2003/z_stage/S465PACK/29.bin
   - /build/rlen/dw2003/z_stage/S465PACK/30.bin
   - /build/rlen/dw2003/z_stage/S465PACK/31.bin
-  - S465PACK/32.bin
-  - S465PACK/33.bin
-  - S465PACK/34.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/32.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/33.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/34.bin
   - /build/rlen/dw2003/z_stage/S465PACK/35.bin
   - /build/rlen/dw2003/z_stage/S465PACK/36.bin
   - /build/rlen/dw2003/z_stage/S465PACK/37.bin
@@ -44,27 +44,27 @@ entries:
   - /build/rlen/dw2003/z_stage/S465PACK/40.bin
   - /build/rlen/dw2003/z_stage/S465PACK/41.bin
   - /build/rlen/dw2003/z_stage/S465PACK/42.bin
-  - S465PACK/43.bin
-  - S465PACK/44.bin
-  - S465PACK/45.bin
-  - S465PACK/46.bin
-  - S465PACK/47.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/43.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/44.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/45.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/46.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/47.bin
   - /build/rlen/dw2003/z_stage/S465PACK/48.bin
   - /build/rlen/dw2003/z_stage/S465PACK/49.bin
   - /build/rlen/dw2003/z_stage/S465PACK/50.bin
   - /build/rlen/dw2003/z_stage/S465PACK/51.bin
   - /build/rlen/dw2003/z_stage/S465PACK/52.bin
   - /build/rlen/dw2003/z_stage/S465PACK/53.bin
-  - S465PACK/54.bin
-  - S465PACK/55.bin
-  - S465PACK/56.bin
-  - S465PACK/57.bin
-  - S465PACK/58.bin
-  - S465PACK/59.bin
-  - S465PACK/60.bin
-  - S465PACK/61.bin
-  - S465PACK/62.bin
-  - S465PACK/63.bin
-  - S465PACK/64.bin
-  - S465PACK/65.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/54.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/55.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/56.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/57.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/58.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/59.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/60.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/61.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/62.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/63.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/64.bin
+  - /build/map-tile/dw2003/z_stage/S465PACK/65.bin
 extra_padding: 2048

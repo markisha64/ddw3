@@ -1,23 +1,23 @@
 width: 10
 height: 9
 entries:
-  - S491PACK/0.bin
-  - S491PACK/1.bin
-  - S491PACK/2.bin
-  - S491PACK/3.bin
-  - S491PACK/4.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/0.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/1.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/2.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/3.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/4.bin
   - /build/rlen/dw2003/z_stage/S491PACK/5.bin
-  - S491PACK/6.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/6.bin
   - /build/rlen/dw2003/z_stage/S491PACK/7.bin
-  - S491PACK/8.bin
-  - S491PACK/9.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/8.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/9.bin
   - /build/rlen/dw2003/z_stage/S491PACK/10.bin
   - /build/rlen/dw2003/z_stage/S491PACK/11.bin
-  - S491PACK/12.bin
-  - S491PACK/13.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/12.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/13.bin
   - /build/rlen/dw2003/z_stage/S491PACK/14.bin
   - /build/rlen/dw2003/z_stage/S491PACK/15.bin
-  - S491PACK/16.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/16.bin
   - /build/rlen/dw2003/z_stage/S491PACK/17.bin
   - /build/rlen/dw2003/z_stage/S491PACK/18.bin
   - /build/rlen/dw2003/z_stage/S491PACK/19.bin
@@ -25,23 +25,23 @@ entries:
   - /build/rlen/dw2003/z_stage/S491PACK/21.bin
   - /build/rlen/dw2003/z_stage/S491PACK/22.bin
   - /build/rlen/dw2003/z_stage/S491PACK/23.bin
-  - S491PACK/24.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/24.bin
   - /build/rlen/dw2003/z_stage/S491PACK/25.bin
   - /build/rlen/dw2003/z_stage/S491PACK/26.bin
   - /build/rlen/dw2003/z_stage/S491PACK/27.bin
   - /build/rlen/dw2003/z_stage/S491PACK/28.bin
-  - S491PACK/29.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/29.bin
   - /build/rlen/dw2003/z_stage/S491PACK/30.bin
   - /build/rlen/dw2003/z_stage/S491PACK/31.bin
   - /build/rlen/dw2003/z_stage/S491PACK/32.bin
   - /build/rlen/dw2003/z_stage/S491PACK/33.bin
-  - S491PACK/34.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/34.bin
   - /build/rlen/dw2003/z_stage/S491PACK/35.bin
   - /build/rlen/dw2003/z_stage/S491PACK/36.bin
   - /build/rlen/dw2003/z_stage/S491PACK/37.bin
   - /build/rlen/dw2003/z_stage/S491PACK/38.bin
-  - S491PACK/39.bin
-  - S491PACK/40.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/39.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/40.bin
   - /build/rlen/dw2003/z_stage/S491PACK/41.bin
   - /build/rlen/dw2003/z_stage/S491PACK/42.bin
   - /build/rlen/dw2003/z_stage/S491PACK/43.bin
@@ -50,31 +50,31 @@ entries:
   - /build/rlen/dw2003/z_stage/S491PACK/46.bin
   - /build/rlen/dw2003/z_stage/S491PACK/47.bin
   - /build/rlen/dw2003/z_stage/S491PACK/48.bin
-  - S491PACK/49.bin
-  - S491PACK/50.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/49.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/50.bin
   - /build/rlen/dw2003/z_stage/S491PACK/51.bin
   - /build/rlen/dw2003/z_stage/S491PACK/52.bin
   - /build/rlen/dw2003/z_stage/S491PACK/53.bin
   - /build/rlen/dw2003/z_stage/S491PACK/54.bin
-  - S491PACK/55.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/55.bin
   - /build/rlen/dw2003/z_stage/S491PACK/56.bin
   - /build/rlen/dw2003/z_stage/S491PACK/57.bin
   - /build/rlen/dw2003/z_stage/S491PACK/58.bin
-  - S491PACK/59.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/59.bin
   - /build/rlen/dw2003/z_stage/S491PACK/60.bin
   - /build/rlen/dw2003/z_stage/S491PACK/61.bin
   - /build/rlen/dw2003/z_stage/S491PACK/62.bin
   - /build/rlen/dw2003/z_stage/S491PACK/63.bin
   - /build/rlen/dw2003/z_stage/S491PACK/64.bin
   - /build/rlen/dw2003/z_stage/S491PACK/65.bin
-  - S491PACK/66.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/66.bin
   - /build/rlen/dw2003/z_stage/S491PACK/67.bin
   - /build/rlen/dw2003/z_stage/S491PACK/68.bin
-  - S491PACK/69.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/69.bin
   - /build/rlen/dw2003/z_stage/S491PACK/70.bin
   - /build/rlen/dw2003/z_stage/S491PACK/71.bin
-  - S491PACK/72.bin
-  - S491PACK/73.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/72.bin
+  - /build/map-tile/dw2003/z_stage/S491PACK/73.bin
   - /build/rlen/dw2003/z_stage/S491PACK/74.bin
   - /build/rlen/dw2003/z_stage/S491PACK/75.bin
   - /build/rlen/dw2003/z_stage/S491PACK/76.bin

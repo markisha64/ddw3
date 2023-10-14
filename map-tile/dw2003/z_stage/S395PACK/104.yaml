@@ -1,0 +1,59 @@
+img: /build/tim/dw2003/z_stage/S395PACK/104.tim
+layers:
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 128
+          - 89
+      - world_offset:
+          - 6
+          - 90
+        img_offset:
+          - 0
+          - 89
+        size:
+          - 90
+          - 4
+      - world_offset:
+          - 1
+          - 95
+        img_offset:
+          - 0
+          - 93
+        size:
+          - 44
+          - 5
+      - world_offset:
+          - 47
+          - 101
+        img_offset:
+          - 0
+          - 98
+        size:
+          - 82
+          - 8
+      - world_offset:
+          - 70
+          - 111
+        img_offset:
+          - 0
+          - 106
+        size:
+          - 58
+          - 16
+  - objs:
+      - world_offset:
+          - 0
+          - 30
+        img_offset:
+          - 128
+          - 0
+        size:
+          - 128
+          - 98
+  - objs: []

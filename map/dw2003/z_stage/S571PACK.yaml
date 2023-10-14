@@ -1,46 +1,46 @@
 width: 7
 height: 7
 entries:
-  - S571PACK/0.bin
-  - S571PACK/1.bin
-  - S571PACK/2.bin
-  - S571PACK/3.bin
-  - S571PACK/4.bin
-  - S571PACK/5.bin
-  - S571PACK/6.bin
-  - S571PACK/7.bin
-  - S571PACK/8.bin
-  - S571PACK/9.bin
-  - S571PACK/10.bin
-  - S571PACK/11.bin
-  - S571PACK/12.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/0.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/1.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/2.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/3.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/4.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/5.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/6.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/7.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/8.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/9.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/10.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/11.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/12.bin
   - /build/rlen/dw2003/z_stage/S571PACK/13.bin
-  - S571PACK/14.bin
-  - S571PACK/15.bin
-  - S571PACK/16.bin
-  - S571PACK/17.bin
-  - S571PACK/18.bin
-  - S571PACK/19.bin
-  - S571PACK/20.bin
-  - S571PACK/21.bin
-  - S571PACK/22.bin
-  - S571PACK/23.bin
-  - S571PACK/24.bin
-  - S571PACK/25.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/14.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/15.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/16.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/17.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/18.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/19.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/20.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/21.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/22.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/23.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/24.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/25.bin
   - /build/rlen/dw2003/z_stage/S571PACK/26.bin
-  - S571PACK/27.bin
-  - S571PACK/28.bin
-  - S571PACK/29.bin
-  - S571PACK/30.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/27.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/28.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/29.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/30.bin
   - /build/rlen/dw2003/z_stage/S571PACK/31.bin
-  - S571PACK/32.bin
-  - S571PACK/33.bin
-  - S571PACK/34.bin
-  - S571PACK/35.bin
-  - S571PACK/36.bin
-  - S571PACK/37.bin
-  - S571PACK/38.bin
-  - S571PACK/39.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/32.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/33.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/34.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/35.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/36.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/37.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/38.bin
+  - /build/map-tile/dw2003/z_stage/S571PACK/39.bin
   - /build/rlen/dw2003/z_stage/S571PACK/40.bin
   - /build/rlen/dw2003/z_stage/S571PACK/41.bin
   - /build/rlen/dw2003/z_stage/S571PACK/42.bin

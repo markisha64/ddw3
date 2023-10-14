@@ -2,121 +2,121 @@ width: 13
 height: 9
 entries:
   - /build/rlen/dw2003/z_stage/S565PACK/0.bin
-  - S565PACK/1.bin
-  - S565PACK/2.bin
-  - S565PACK/3.bin
-  - S565PACK/4.bin
-  - S565PACK/5.bin
-  - S565PACK/6.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/1.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/2.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/3.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/4.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/5.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/6.bin
   - /build/rlen/dw2003/z_stage/S565PACK/7.bin
-  - S565PACK/8.bin
-  - S565PACK/9.bin
-  - S565PACK/10.bin
-  - S565PACK/11.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/8.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/9.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/10.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/11.bin
   - /build/rlen/dw2003/z_stage/S565PACK/12.bin
-  - S565PACK/13.bin
-  - S565PACK/14.bin
-  - S565PACK/15.bin
-  - S565PACK/16.bin
-  - S565PACK/17.bin
-  - S565PACK/18.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/13.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/14.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/15.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/16.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/17.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/18.bin
   - /build/rlen/dw2003/z_stage/S565PACK/19.bin
   - /build/rlen/dw2003/z_stage/S565PACK/20.bin
   - /build/rlen/dw2003/z_stage/S565PACK/21.bin
-  - S565PACK/22.bin
-  - S565PACK/23.bin
-  - S565PACK/24.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/22.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/23.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/24.bin
   - /build/rlen/dw2003/z_stage/S565PACK/25.bin
-  - S565PACK/26.bin
-  - S565PACK/27.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/26.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/27.bin
   - /build/rlen/dw2003/z_stage/S565PACK/28.bin
-  - S565PACK/29.bin
-  - S565PACK/30.bin
-  - S565PACK/31.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/29.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/30.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/31.bin
   - /build/rlen/dw2003/z_stage/S565PACK/32.bin
-  - S565PACK/33.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/33.bin
   - /build/rlen/dw2003/z_stage/S565PACK/34.bin
-  - S565PACK/35.bin
-  - S565PACK/36.bin
-  - S565PACK/37.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/35.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/36.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/37.bin
   - /build/rlen/dw2003/z_stage/S565PACK/38.bin
-  - S565PACK/39.bin
-  - S565PACK/40.bin
-  - S565PACK/41.bin
-  - S565PACK/42.bin
-  - S565PACK/43.bin
-  - S565PACK/44.bin
-  - S565PACK/45.bin
-  - S565PACK/46.bin
-  - S565PACK/47.bin
-  - S565PACK/48.bin
-  - S565PACK/49.bin
-  - S565PACK/50.bin
-  - S565PACK/51.bin
-  - S565PACK/52.bin
-  - S565PACK/53.bin
-  - S565PACK/54.bin
-  - S565PACK/55.bin
-  - S565PACK/56.bin
-  - S565PACK/57.bin
-  - S565PACK/58.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/39.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/40.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/41.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/42.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/43.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/44.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/45.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/46.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/47.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/48.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/49.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/50.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/51.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/52.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/53.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/54.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/55.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/56.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/57.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/58.bin
   - /build/rlen/dw2003/z_stage/S565PACK/59.bin
   - /build/rlen/dw2003/z_stage/S565PACK/60.bin
   - /build/rlen/dw2003/z_stage/S565PACK/61.bin
-  - S565PACK/62.bin
-  - S565PACK/63.bin
-  - S565PACK/64.bin
-  - S565PACK/65.bin
-  - S565PACK/66.bin
-  - S565PACK/67.bin
-  - S565PACK/68.bin
-  - S565PACK/69.bin
-  - S565PACK/70.bin
-  - S565PACK/71.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/62.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/63.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/64.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/65.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/66.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/67.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/68.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/69.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/70.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/71.bin
   - /build/rlen/dw2003/z_stage/S565PACK/72.bin
-  - S565PACK/73.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/73.bin
   - /build/rlen/dw2003/z_stage/S565PACK/74.bin
   - /build/rlen/dw2003/z_stage/S565PACK/75.bin
-  - S565PACK/76.bin
-  - S565PACK/77.bin
-  - S565PACK/78.bin
-  - S565PACK/79.bin
-  - S565PACK/80.bin
-  - S565PACK/81.bin
-  - S565PACK/82.bin
-  - S565PACK/83.bin
-  - S565PACK/84.bin
-  - S565PACK/85.bin
-  - S565PACK/86.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/76.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/77.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/78.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/79.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/80.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/81.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/82.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/83.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/84.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/85.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/86.bin
   - /build/rlen/dw2003/z_stage/S565PACK/87.bin
   - /build/rlen/dw2003/z_stage/S565PACK/88.bin
-  - S565PACK/89.bin
-  - S565PACK/90.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/89.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/90.bin
   - /build/rlen/dw2003/z_stage/S565PACK/91.bin
   - /build/rlen/dw2003/z_stage/S565PACK/92.bin
-  - S565PACK/93.bin
-  - S565PACK/94.bin
-  - S565PACK/95.bin
-  - S565PACK/96.bin
-  - S565PACK/97.bin
-  - S565PACK/98.bin
-  - S565PACK/99.bin
-  - S565PACK/100.bin
-  - S565PACK/101.bin
-  - S565PACK/102.bin
-  - S565PACK/103.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/93.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/94.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/95.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/96.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/97.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/98.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/99.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/100.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/101.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/102.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/103.bin
   - /map-tile/empty.bin
   - /build/rlen/dw2003/z_stage/S565PACK/105.bin
   - /build/rlen/dw2003/z_stage/S565PACK/106.bin
   - /build/rlen/dw2003/z_stage/S565PACK/107.bin
-  - S565PACK/108.bin
-  - S565PACK/109.bin
-  - S565PACK/110.bin
-  - S565PACK/111.bin
-  - S565PACK/112.bin
-  - S565PACK/113.bin
-  - S565PACK/114.bin
-  - S565PACK/115.bin
-  - S565PACK/116.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/108.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/109.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/110.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/111.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/112.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/113.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/114.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/115.bin
+  - /build/map-tile/dw2003/z_stage/S565PACK/116.bin
 override_entries_len: 116
 extra_padding: 4096

@@ -1,22 +1,22 @@
 width: 5
 height: 4
 entries:
-  - S251PACK/0.bin
-  - S251PACK/1.bin
-  - S251PACK/2.bin
-  - S251PACK/3.bin
-  - S251PACK/4.bin
-  - S251PACK/5.bin
-  - S251PACK/6.bin
+  - /build/map-tile/dw2003/z_stage/S251PACK/0.bin
+  - /build/map-tile/dw2003/z_stage/S251PACK/1.bin
+  - /build/map-tile/dw2003/z_stage/S251PACK/2.bin
+  - /build/map-tile/dw2003/z_stage/S251PACK/3.bin
+  - /build/map-tile/dw2003/z_stage/S251PACK/4.bin
+  - /build/map-tile/dw2003/z_stage/S251PACK/5.bin
+  - /build/map-tile/dw2003/z_stage/S251PACK/6.bin
   - /build/rlen/dw2003/z_stage/S251PACK/7.bin
   - /build/rlen/dw2003/z_stage/S251PACK/8.bin
   - /build/rlen/dw2003/z_stage/S251PACK/9.bin
-  - S251PACK/10.bin
-  - S251PACK/11.bin
-  - S251PACK/12.bin
+  - /build/map-tile/dw2003/z_stage/S251PACK/10.bin
+  - /build/map-tile/dw2003/z_stage/S251PACK/11.bin
+  - /build/map-tile/dw2003/z_stage/S251PACK/12.bin
   - /build/rlen/dw2003/z_stage/S251PACK/13.bin
   - /map-tile/empty.bin
-  - S251PACK/15.bin
+  - /build/map-tile/dw2003/z_stage/S251PACK/15.bin
   - /build/rlen/dw2003/z_stage/S251PACK/16.bin
   - /build/rlen/dw2003/z_stage/S251PACK/17.bin
   - /map-tile/empty.bin

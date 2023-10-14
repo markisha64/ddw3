@@ -1,0 +1,32 @@
+img: /build/tim/dw2003/z_stage/S385PACK/73.tim
+layers:
+  - objs:
+      - world_offset:
+          - 109
+          - 0
+        img_offset:
+          - 0
+          - 0
+        size:
+          - 20
+          - 10
+      - world_offset:
+          - 0
+          - 40
+        img_offset:
+          - 0
+          - 10
+        size:
+          - 32
+          - 34
+  - objs: []
+  - objs:
+      - world_offset:
+          - 0
+          - 0
+        img_offset:
+          - 32
+          - 0
+        size:
+          - 128
+          - 128
