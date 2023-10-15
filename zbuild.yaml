@@ -22,7 +22,9 @@ alias:
   # Other tools
   generate_psx_iso_deps   : tools/generate_psx_iso_deps.py
   generate_compare_deps   : tools/generate_compare_deps.py
+  mkpsexe_from_yaml       : tools/mkpsexe_from_yaml.py
   mkpsexe_from_yaml_deps  : tools/mkpsexe_from_yaml_deps.py
+  mkraw_exe_from_yaml     : tools/mkraw_exe_from_yaml.py
   mkraw_exe_from_yaml_deps: tools/mkraw_exe_from_yaml_deps.py
   ld_from_yaml            : tools/ld_from_yaml.py
   ld_from_yaml_deps       : tools/ld_from_yaml_deps.py
@@ -265,25 +267,18 @@ rules:
     out: [$(psexe)]
     deps:
       - $(psexe_yaml)
+      - $(mkpsexe_from_yaml)
       - $(mkpsexe)
       - deps_file: $(psexe_deps)
       - static: $(psexe::dir_name)/
     exec:
-      - - $(mkpsexe)
-        - - $(python3)
-          - $(process_path)
-          - --input-dir=$(psexe_yaml::dir_name)/
-          - [$(yq), -rj, .elf, $(psexe_yaml)]
-        - '--output=$(psexe)'
-        - '--license'
-        - - $(python3)
-          - $(process_path)
-          - --input-dir=$(psexe_yaml::dir_name)/
-          - [$(yq), -rj, .license, $(psexe_yaml)]
-        - strip_on_fail:
-            - printf
-            - '--resize-text=%s'
-            - [yq, -rje, .resize_text, $(psexe_yaml)]
+      - - $(python3)
+        - $(mkpsexe_from_yaml)
+        - $(psexe_yaml)
+        - -o
+        - $(psexe)
+        - --mkpsexe-bin
+        - $(mkpsexe)
 
   # Psexe dependencies
   psexe_deps:
@@ -306,15 +301,17 @@ rules:
     out: [$(raw_exe)]
     deps:
       - $(raw_exe_yaml)
+      - $(mkraw_exe_from_yaml)
       - deps_file: $(raw_exe_deps)
       - static: $(raw_exe::dir_name)/
     exec:
-      - - $(objcopy)
-        - - $(python3)
-          - $(process_path)
-          - --input-dir=$(raw_exe_yaml::dir_name)/
-          - [$(yq), -rj, .elf, $(raw_exe_yaml)]
-        - '--dump-section=.text=$(raw_exe)'
+      - - $(python3)
+        - $(mkraw_exe_from_yaml)
+        - $(raw_exe_yaml)
+        - -o
+        - $(raw_exe)
+        - --objcopy-bin
+        - $(objcopy)
 
   # Raw exe dependencies
   raw_exe_deps:
