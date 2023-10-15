@@ -186,6 +186,7 @@ rules:
       - [$(rm), -rf, $(build_dir)/]
       - [$(rm), -rf, tools/target/]
       - [$(rm), -rf, rust/target/]
+      - [$(rm), -rf, remake-rust/target/]
 
   # Directories
   mkdir:
@@ -606,7 +607,11 @@ rules:
       # Build the crate
       - cwd: remake-rust/
         args:
-          - $(cargo-psx)
+          # Note: Using `$(cargo-psx)` doesn't work because of how cargo plugins
+          #       work. Ideally however, we'd use something like `cargo --plugin=cargo-psx`,
+          #       if it was supported.
+          - cargo
+          - psx
           - build
       - [$(cp), remake-rust/$(build_target_dir)/^(name).exe, $(remake_psexe)]
 
