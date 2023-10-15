@@ -7,6 +7,8 @@ Calls the `raw_exe` linker using a `yaml` manifest
 import argparse
 from pathlib import Path
 import subprocess
+import shutil
+import os
 import yaml
 import util
 
@@ -20,7 +22,14 @@ def main(args):
 
 	elf_path = util.process_path(config["elf"], input_dir)
 
-	subprocess.run([args.objcopy_bin, elf_path, f"--dump-section=.text={args.output}"], check=True)
+	# Note: We need to copy the elf before passing it to objcopy because objcopy changes
+	#       the modification date on the elf, despite this being a read-only operation.
+	# TODO: Use a symbolic link or something less heavy-weight like resetting the modification
+	#       date after running objcopy?
+	tmp_elf_path = str(elf_path) + ".tmp"
+	shutil.copy(elf_path, tmp_elf_path)
+	subprocess.run([args.objcopy_bin, tmp_elf_path, f"--dump-section=.text={args.output}"], check=True)
+	os.remove(tmp_elf_path)
 
 
 if __name__ == "__main__":
