@@ -5,4 +5,4 @@ edition = "2021"
 
 [dependencies]
 
-psx = "0.1.6"
+psx = { version = "0.1.6", features = ["EU_region", "heap"] }

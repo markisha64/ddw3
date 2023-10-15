@@ -3,6 +3,8 @@
 
 use psx::{dprintln, Framebuffer};
 
+psx::heap!( 1536 KB );
+
 #[no_mangle]
 fn main() {
 	let buf0 = (0, 0);

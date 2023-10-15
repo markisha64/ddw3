@@ -17,7 +17,6 @@ alias:
   truncate : truncate         # truncate  (GNU coreutils) 9.3
   python3  : python3          # Python 3.11.3
   yq       : yq               # yq 3.2.2
-  cargo-psx: cargo-psx        # cargo-psx-0.1.3
 
   # Other tools
   generate_psx_iso_deps   : tools/generate_psx_iso_deps.py
@@ -604,12 +603,10 @@ rules:
       # Build the crate
       - cwd: remake-rust/
         args:
-          # Note: Using `$(cargo-psx)` doesn't work because of how cargo plugins
-          #       work. Ideally however, we'd use something like `cargo --plugin=cargo-psx`,
-          #       if it was supported.
-          - cargo
-          - psx
+          - $(cargo)
           - build
+          - --release
+          - --package=^(name)
       - [$(cp), remake-rust/$(build_target_dir)/^(name).exe, $(remake_psexe)]
 
       # Then copy the dependency file and adjust the references
