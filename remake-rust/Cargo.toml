@@ -1,0 +1,10 @@
+[workspace]
+
+resolver = "2"
+
+members = ["dw2003"]
+
+[workspace.dependencies]
+
+# Workspace
+dw2003 = { path = "dw2003" }

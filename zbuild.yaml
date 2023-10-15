@@ -17,6 +17,7 @@ alias:
   truncate : truncate         # truncate  (GNU coreutils) 9.3
   python3  : python3          # Python 3.11.3
   yq       : yq               # yq 3.2.2
+  cargo-psx: cargo-psx        # cargo-psx-0.1.3
 
   # Other tools
   generate_psx_iso_deps   : tools/generate_psx_iso_deps.py
@@ -43,20 +44,21 @@ alias:
 
   # Directories
   build_dir  : build
-  build_rust_tool_dir: $(build_dir)/tools
-  build_misc_dir     : $(build_dir)/misc
-  build_psx_iso_dir  : $(build_dir)/iso
-  build_asm_dir      : $(build_dir)/asm
-  build_elf_dir      : $(build_dir)/elf
-  build_psexe_dir    : $(build_dir)/psexe
-  build_rust_dir     : $(build_dir)/rust
-  build_raw_exe_dir  : $(build_dir)/raw_exe
-  build_lang_file_dir: $(build_dir)/lang_file
-  build_pack_dir     : $(build_dir)/pack
-  build_tim_dir      : $(build_dir)/tim
-  build_map_dir      : $(build_dir)/map
-  build_map_tile_dir : $(build_dir)/map-tile
-  build_rlen_dir     : $(build_dir)/rlen
+  build_rust_tool_dir   : $(build_dir)/tools
+  build_misc_dir        : $(build_dir)/misc
+  build_psx_iso_dir     : $(build_dir)/iso
+  build_asm_dir         : $(build_dir)/asm
+  build_elf_dir         : $(build_dir)/elf
+  build_psexe_dir       : $(build_dir)/psexe
+  build_rust_dir        : $(build_dir)/rust
+  build_raw_exe_dir     : $(build_dir)/raw_exe
+  build_lang_file_dir   : $(build_dir)/lang_file
+  build_pack_dir        : $(build_dir)/pack
+  build_tim_dir         : $(build_dir)/tim
+  build_map_dir         : $(build_dir)/map
+  build_map_tile_dir    : $(build_dir)/map-tile
+  build_rlen_dir        : $(build_dir)/rlen
+  build_remake_psexe_dir: $(build_dir)/remake-psexe
 
   # Licenses
   license_psx_iso : licenses/psx-bin.dat
@@ -77,13 +79,14 @@ alias:
   rust_tool_src : tools/^(name)
 
   # Psx iso
-  dw2003_psx_iso: $(build_psx_iso_dir)/dw2003.bin
-  dw3_psx_iso   : $(build_psx_iso_dir)/dw3.bin
-  psx_iso       : $(build_psx_iso_dir)/^(path).bin
-  psx_iso_cue   : $(build_psx_iso_dir)/^(path).cue
-  psx_iso_lba   : $(build_psx_iso_dir)/^(path).lba
-  psx_iso_deps  : $(build_psx_iso_dir)/^(path).d
-  psx_iso_xml   : ^(path).xml
+  dw2003_psx_iso       : $(build_psx_iso_dir)/dw2003.bin
+  dw2003_remake_psx_iso: $(build_psx_iso_dir)/dw2003-remake.bin
+  dw3_psx_iso          : $(build_psx_iso_dir)/dw3.bin
+  psx_iso              : $(build_psx_iso_dir)/^(path).bin
+  psx_iso_cue          : $(build_psx_iso_dir)/^(path).cue
+  psx_iso_lba          : $(build_psx_iso_dir)/^(path).lba
+  psx_iso_deps         : $(build_psx_iso_dir)/^(path).d
+  psx_iso_xml          : ^(path).xml
 
   # Assembly
   asm_obj     : $(build_asm_dir)/^(path).o
@@ -100,6 +103,10 @@ alias:
   psexe     : $(build_psexe_dir)/^(path).psexe
   psexe_deps: $(build_psexe_dir)/^(path).d
   psexe_yaml: psexe/^(path).yaml
+
+  # Psexe remake
+  remake_psexe     : $(build_remake_psexe_dir)/^(name).exe
+  remake_psexe_deps: $(build_remake_psexe_dir)/^(name).d
 
   # Raw exe
   raw_exe     : $(build_raw_exe_dir)/^(path).bin
@@ -145,6 +152,7 @@ alias:
 default:
   - $(dw3_psx_iso)
   - $(dw2003_psx_iso)
+  - $(dw2003_remake_psx_iso)
 
 rules:
   # Compare
@@ -584,3 +592,28 @@ rules:
         - -e
         - 's,rust/$(build_target_dir)/lib^(name).a,$(build_rust_dir)/^(name).a,g'
         - $(rust_lib_deps)
+
+  # psexe (remake)
+  remake_psexe:
+    alias:
+      build_target_dir: target/mipsel-sony-psx/release
+    out:
+      - $(remake_psexe)
+      - deps_file: $(remake_psexe_deps)
+    deps:
+      - static: $(remake_psexe::dir_name)/
+    exec:
+      # Build the crate
+      - cwd: remake-rust/
+        args:
+          - $(cargo-psx)
+          - build
+      - [$(cp), remake-rust/$(build_target_dir)/^(name).exe, $(remake_psexe)]
+
+      # Then copy the dependency file and adjust the references
+      - [$(cp), remake-rust/$(build_target_dir)/^(name).d, $(remake_psexe_deps)]
+      - - sed
+        - -i
+        - -e
+        - 's,remake-rust/$(build_target_dir)/^(name).exe,$(build_remake_psexe_dir)/^(name).exe,g'
+        - $(remake_psexe_deps)

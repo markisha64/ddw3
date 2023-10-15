@@ -1,0 +1,8 @@
+[build]
+dep-info-basedir = ".."
+target = "mipsel-sony-psx"
+rustflags = ["-Clink-arg=-Tpsexe.ld", "-Clink-arg=--oformat=binary"]
+
+[unstable]
+build-std = ["core"]
+build-std-features = ["compiler-builtins-mem"]
