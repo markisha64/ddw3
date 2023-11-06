@@ -10,6 +10,9 @@
 
 # Packs contain binary data
 /pack/**/*.bin filter=lfs diff=lfs merge=lfs -text
+/pack/**/*.vh filter=lfs diff=lfs merge=lfs -text
+/pack/**/*.seq filter=lfs diff=lfs merge=lfs -text
+/pack/**/*.vb filter=lfs diff=lfs merge=lfs -text
 
 # Image files are binary data
 /tim/**/*.png filter=lfs diff=lfs merge=lfs -text
