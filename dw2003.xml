@@ -2051,288 +2051,288 @@
 
 					<dir name="SOUND">
 						<dir name="BATL00">
-							<file name="MPBATL00.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BATL00/MPBATL00.BIN" />
-							<file name="MVBATL00.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BATL00/MVBATL00.BIN" />
+							<file name="MPBATL00.BIN" type="data" source="build/pack/dw2003/sound/batl00/mpbatl00.bin" />
+							<file name="MVBATL00.BIN" type="data" source="build/pack/dw2003/sound/batl00/mvbatl00.bin" />
 						</dir>
 						<dir name="BATL10">
-							<file name="MPBATL10.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BATL10/MPBATL10.BIN" />
-							<file name="MVBATL10.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BATL10/MVBATL10.BIN" />
+							<file name="MPBATL10.BIN" type="data" source="build/pack/dw2003/sound/batl10/mpbatl10.bin" />
+							<file name="MVBATL10.BIN" type="data" source="build/pack/dw2003/sound/batl10/mvbatl10.bin" />
 						</dir>
 						<dir name="BGM001">
-							<file name="MPBGM001.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM001/MPBGM001.BIN" />
-							<file name="MVBGM001.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM001/MVBGM001.BIN" />
+							<file name="MPBGM001.BIN" type="data" source="build/pack/dw2003/sound/bgm001/mpbgm001.bin" />
+							<file name="MVBGM001.BIN" type="data" source="build/pack/dw2003/sound/bgm001/mvbgm001.bin" />
 						</dir>
 						<dir name="BGM002">
-							<file name="MPBGM002.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM002/MPBGM002.BIN" />
-							<file name="MVBGM002.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM002/MVBGM002.BIN" />
+							<file name="MPBGM002.BIN" type="data" source="build/pack/dw2003/sound/bgm002/mpbgm002.bin" />
+							<file name="MVBGM002.BIN" type="data" source="build/pack/dw2003/sound/bgm002/mvbgm002.bin" />
 						</dir>
 						<dir name="BGM003">
-							<file name="MPBGM003.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM003/MPBGM003.BIN" />
-							<file name="MVBGM003.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM003/MVBGM003.BIN" />
+							<file name="MPBGM003.BIN" type="data" source="build/pack/dw2003/sound/bgm003/mpbgm003.bin" />
+							<file name="MVBGM003.BIN" type="data" source="build/pack/dw2003/sound/bgm003/mvbgm003.bin" />
 						</dir>
 						<dir name="BGM004">
-							<file name="MPBGM004.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM004/MPBGM004.BIN" />
-							<file name="MVBGM004.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM004/MVBGM004.BIN" />
+							<file name="MPBGM004.BIN" type="data" source="build/pack/dw2003/sound/bgm004/mpbgm004.bin" />
+							<file name="MVBGM004.BIN" type="data" source="build/pack/dw2003/sound/bgm004/mvbgm004.bin" />
 						</dir>
 						<dir name="BGM005">
-							<file name="MPBGM005.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM005/MPBGM005.BIN" />
-							<file name="MVBGM005.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM005/MVBGM005.BIN" />
+							<file name="MPBGM005.BIN" type="data" source="build/pack/dw2003/sound/bgm005/mpbgm005.bin" />
+							<file name="MVBGM005.BIN" type="data" source="build/pack/dw2003/sound/bgm005/mvbgm005.bin" />
 						</dir>
 						<dir name="BGM007">
-							<file name="MPBGM007.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM007/MPBGM007.BIN" />
-							<file name="MVBGM007.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM007/MVBGM007.BIN" />
+							<file name="MPBGM007.BIN" type="data" source="build/pack/dw2003/sound/bgm007/mpbgm007.bin" />
+							<file name="MVBGM007.BIN" type="data" source="build/pack/dw2003/sound/bgm007/mvbgm007.bin" />
 						</dir>
 						<dir name="BGM008">
-							<file name="MPBGM008.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM008/MPBGM008.BIN" />
-							<file name="MVBGM008.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM008/MVBGM008.BIN" />
+							<file name="MPBGM008.BIN" type="data" source="build/pack/dw2003/sound/bgm008/mpbgm008.bin" />
+							<file name="MVBGM008.BIN" type="data" source="build/pack/dw2003/sound/bgm008/mvbgm008.bin" />
 						</dir>
 						<dir name="BGM009">
-							<file name="MPBGM009.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM009/MPBGM009.BIN" />
-							<file name="MVBGM009.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM009/MVBGM009.BIN" />
+							<file name="MPBGM009.BIN" type="data" source="build/pack/dw2003/sound/bgm009/mpbgm009.bin" />
+							<file name="MVBGM009.BIN" type="data" source="build/pack/dw2003/sound/bgm009/mvbgm009.bin" />
 						</dir>
 						<dir name="BGM010">
-							<file name="MPBGM010.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM010/MPBGM010.BIN" />
-							<file name="MVBGM010.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM010/MVBGM010.BIN" />
+							<file name="MPBGM010.BIN" type="data" source="build/pack/dw2003/sound/bgm010/mpbgm010.bin" />
+							<file name="MVBGM010.BIN" type="data" source="build/pack/dw2003/sound/bgm010/mvbgm010.bin" />
 						</dir>
 						<dir name="BGM011">
-							<file name="MPBGM011.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM011/MPBGM011.BIN" />
-							<file name="MVBGM011.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM011/MVBGM011.BIN" />
+							<file name="MPBGM011.BIN" type="data" source="build/pack/dw2003/sound/bgm011/mpbgm011.bin" />
+							<file name="MVBGM011.BIN" type="data" source="build/pack/dw2003/sound/bgm011/mvbgm011.bin" />
 						</dir>
 						<dir name="BGM012">
-							<file name="MPBGM012.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM012/MPBGM012.BIN" />
-							<file name="MVBGM012.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM012/MVBGM012.BIN" />
+							<file name="MPBGM012.BIN" type="data" source="build/pack/dw2003/sound/bgm012/mpbgm012.bin" />
+							<file name="MVBGM012.BIN" type="data" source="build/pack/dw2003/sound/bgm012/mvbgm012.bin" />
 						</dir>
 						<dir name="BGM013">
-							<file name="MPBGM013.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM013/MPBGM013.BIN" />
-							<file name="MVBGM013.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM013/MVBGM013.BIN" />
+							<file name="MPBGM013.BIN" type="data" source="build/pack/dw2003/sound/bgm013/mpbgm013.bin" />
+							<file name="MVBGM013.BIN" type="data" source="build/pack/dw2003/sound/bgm013/mvbgm013.bin" />
 						</dir>
 						<dir name="BGM014">
-							<file name="MPBGM014.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM014/MPBGM014.BIN" />
-							<file name="MVBGM014.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM014/MVBGM014.BIN" />
+							<file name="MPBGM014.BIN" type="data" source="build/pack/dw2003/sound/bgm014/mpbgm014.bin" />
+							<file name="MVBGM014.BIN" type="data" source="build/pack/dw2003/sound/bgm014/mvbgm014.bin" />
 						</dir>
 						<dir name="BGM015">
-							<file name="MPBGM015.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM015/MPBGM015.BIN" />
-							<file name="MVBGM015.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM015/MVBGM015.BIN" />
+							<file name="MPBGM015.BIN" type="data" source="build/pack/dw2003/sound/bgm015/mpbgm015.bin" />
+							<file name="MVBGM015.BIN" type="data" source="build/pack/dw2003/sound/bgm015/mvbgm015.bin" />
 						</dir>
 						<dir name="BGM016">
-							<file name="MPBGM016.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM016/MPBGM016.BIN" />
-							<file name="MVBGM016.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM016/MVBGM016.BIN" />
+							<file name="MPBGM016.BIN" type="data" source="build/pack/dw2003/sound/bgm016/mpbgm016.bin" />
+							<file name="MVBGM016.BIN" type="data" source="build/pack/dw2003/sound/bgm016/mvbgm016.bin" />
 						</dir>
 						<dir name="BGM017">
-							<file name="MPBGM017.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM017/MPBGM017.BIN" />
-							<file name="MVBGM017.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM017/MVBGM017.BIN" />
+							<file name="MPBGM017.BIN" type="data" source="build/pack/dw2003/sound/bgm017/mpbgm017.bin" />
+							<file name="MVBGM017.BIN" type="data" source="build/pack/dw2003/sound/bgm017/mvbgm017.bin" />
 						</dir>
 						<dir name="BGM018">
-							<file name="MPBGM018.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM018/MPBGM018.BIN" />
-							<file name="MVBGM018.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM018/MVBGM018.BIN" />
+							<file name="MPBGM018.BIN" type="data" source="build/pack/dw2003/sound/bgm018/mpbgm018.bin" />
+							<file name="MVBGM018.BIN" type="data" source="build/pack/dw2003/sound/bgm018/mvbgm018.bin" />
 						</dir>
 						<dir name="BGM019">
-							<file name="MPBGM019.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM019/MPBGM019.BIN" />
-							<file name="MVBGM019.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM019/MVBGM019.BIN" />
+							<file name="MPBGM019.BIN" type="data" source="build/pack/dw2003/sound/bgm019/mpbgm019.bin" />
+							<file name="MVBGM019.BIN" type="data" source="build/pack/dw2003/sound/bgm019/mvbgm019.bin" />
 						</dir>
 						<dir name="BGM020">
-							<file name="MPBGM020.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM020/MPBGM020.BIN" />
-							<file name="MVBGM020.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM020/MVBGM020.BIN" />
+							<file name="MPBGM020.BIN" type="data" source="build/pack/dw2003/sound/bgm020/mpbgm020.bin" />
+							<file name="MVBGM020.BIN" type="data" source="build/pack/dw2003/sound/bgm020/mvbgm020.bin" />
 						</dir>
 						<dir name="BGM021">
-							<file name="MPBGM021.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM021/MPBGM021.BIN" />
-							<file name="MVBGM021.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM021/MVBGM021.BIN" />
+							<file name="MPBGM021.BIN" type="data" source="build/pack/dw2003/sound/bgm021/mpbgm021.bin" />
+							<file name="MVBGM021.BIN" type="data" source="build/pack/dw2003/sound/bgm021/mvbgm021.bin" />
 						</dir>
 						<dir name="BGM022">
-							<file name="MPBGM022.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM022/MPBGM022.BIN" />
-							<file name="MVBGM022.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM022/MVBGM022.BIN" />
+							<file name="MPBGM022.BIN" type="data" source="build/pack/dw2003/sound/bgm022/mpbgm022.bin" />
+							<file name="MVBGM022.BIN" type="data" source="build/pack/dw2003/sound/bgm022/mvbgm022.bin" />
 						</dir>
 						<dir name="BGM023">
-							<file name="MPBGM023.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM023/MPBGM023.BIN" />
-							<file name="MVBGM023.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM023/MVBGM023.BIN" />
+							<file name="MPBGM023.BIN" type="data" source="build/pack/dw2003/sound/bgm023/mpbgm023.bin" />
+							<file name="MVBGM023.BIN" type="data" source="build/pack/dw2003/sound/bgm023/mvbgm023.bin" />
 						</dir>
 						<dir name="BGM024">
-							<file name="MPBGM024.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM024/MPBGM024.BIN" />
-							<file name="MVBGM024.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM024/MVBGM024.BIN" />
+							<file name="MPBGM024.BIN" type="data" source="build/pack/dw2003/sound/bgm024/mpbgm024.bin" />
+							<file name="MVBGM024.BIN" type="data" source="build/pack/dw2003/sound/bgm024/mvbgm024.bin" />
 						</dir>
 						<dir name="BGM025">
-							<file name="MPBGM025.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM025/MPBGM025.BIN" />
-							<file name="MVBGM025.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM025/MVBGM025.BIN" />
+							<file name="MPBGM025.BIN" type="data" source="build/pack/dw2003/sound/bgm025/mpbgm025.bin" />
+							<file name="MVBGM025.BIN" type="data" source="build/pack/dw2003/sound/bgm025/mvbgm025.bin" />
 						</dir>
 						<dir name="BGM026">
-							<file name="MPBGM026.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM026/MPBGM026.BIN" />
-							<file name="MVBGM026.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM026/MVBGM026.BIN" />
+							<file name="MPBGM026.BIN" type="data" source="build/pack/dw2003/sound/bgm026/mpbgm026.bin" />
+							<file name="MVBGM026.BIN" type="data" source="build/pack/dw2003/sound/bgm026/mvbgm026.bin" />
 						</dir>
 						<dir name="BGM027">
-							<file name="MPBGM027.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM027/MPBGM027.BIN" />
-							<file name="MVBGM027.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM027/MVBGM027.BIN" />
+							<file name="MPBGM027.BIN" type="data" source="build/pack/dw2003/sound/bgm027/mpbgm027.bin" />
+							<file name="MVBGM027.BIN" type="data" source="build/pack/dw2003/sound/bgm027/mvbgm027.bin" />
 						</dir>
 						<dir name="BGM028">
-							<file name="MPBGM028.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM028/MPBGM028.BIN" />
-							<file name="MVBGM028.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM028/MVBGM028.BIN" />
+							<file name="MPBGM028.BIN" type="data" source="build/pack/dw2003/sound/bgm028/mpbgm028.bin" />
+							<file name="MVBGM028.BIN" type="data" source="build/pack/dw2003/sound/bgm028/mvbgm028.bin" />
 						</dir>
 						<dir name="BGM029">
-							<file name="MPBGM029.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM029/MPBGM029.BIN" />
-							<file name="MVBGM029.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM029/MVBGM029.BIN" />
+							<file name="MPBGM029.BIN" type="data" source="build/pack/dw2003/sound/bgm029/mpbgm029.bin" />
+							<file name="MVBGM029.BIN" type="data" source="build/pack/dw2003/sound/bgm029/mvbgm029.bin" />
 						</dir>
 						<dir name="BGM030">
-							<file name="MPBGM030.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM030/MPBGM030.BIN" />
-							<file name="MVBGM030.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM030/MVBGM030.BIN" />
+							<file name="MPBGM030.BIN" type="data" source="build/pack/dw2003/sound/bgm030/mpbgm030.bin" />
+							<file name="MVBGM030.BIN" type="data" source="build/pack/dw2003/sound/bgm030/mvbgm030.bin" />
 						</dir>
 						<dir name="BGM031">
-							<file name="MPBGM031.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM031/MPBGM031.BIN" />
-							<file name="MVBGM031.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BGM031/MVBGM031.BIN" />
+							<file name="MPBGM031.BIN" type="data" source="build/pack/dw2003/sound/bgm031/mpbgm031.bin" />
+							<file name="MVBGM031.BIN" type="data" source="build/pack/dw2003/sound/bgm031/mvbgm031.bin" />
 						</dir>
 						<dir name="BOSS00">
-							<file name="MPBOSS00.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BOSS00/MPBOSS00.BIN" />
-							<file name="MVBOSS00.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BOSS00/MVBOSS00.BIN" />
+							<file name="MPBOSS00.BIN" type="data" source="build/pack/dw2003/sound/boss00/mpboss00.bin" />
+							<file name="MVBOSS00.BIN" type="data" source="build/pack/dw2003/sound/boss00/mvboss00.bin" />
 						</dir>
 						<dir name="BOSS01">
-							<file name="MPBOSS01.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BOSS01/MPBOSS01.BIN" />
-							<file name="MVBOSS01.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BOSS01/MVBOSS01.BIN" />
+							<file name="MPBOSS01.BIN" type="data" source="build/pack/dw2003/sound/boss01/mpboss01.bin" />
+							<file name="MVBOSS01.BIN" type="data" source="build/pack/dw2003/sound/boss01/mvboss01.bin" />
 						</dir>
 						<dir name="BOSS02">
-							<file name="MPBOSS02.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BOSS02/MPBOSS02.BIN" />
-							<file name="MVBOSS02.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BOSS02/MVBOSS02.BIN" />
+							<file name="MPBOSS02.BIN" type="data" source="build/pack/dw2003/sound/boss02/mpboss02.bin" />
+							<file name="MVBOSS02.BIN" type="data" source="build/pack/dw2003/sound/boss02/mvboss02.bin" />
 						</dir>
 						<dir name="BOSS03">
-							<file name="MPBOSS03.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BOSS03/MPBOSS03.BIN" />
-							<file name="MVBOSS03.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BOSS03/MVBOSS03.BIN" />
+							<file name="MPBOSS03.BIN" type="data" source="build/pack/dw2003/sound/boss03/mpboss03.bin" />
+							<file name="MVBOSS03.BIN" type="data" source="build/pack/dw2003/sound/boss03/mvboss03.bin" />
 						</dir>
 						<dir name="BOSS04">
-							<file name="MPBOSS04.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BOSS04/MPBOSS04.BIN" />
-							<file name="MVBOSS04.BIN" type="data" source="dw2003/AAA/DAT/SOUND/BOSS04/MVBOSS04.BIN" />
+							<file name="MPBOSS04.BIN" type="data" source="build/pack/dw2003/sound/boss04/mpboss04.bin" />
+							<file name="MVBOSS04.BIN" type="data" source="build/pack/dw2003/sound/boss04/mvboss04.bin" />
 						</dir>
 						<dir name="CBTL00">
-							<file name="MPCBTL00.BIN" type="data" source="dw2003/AAA/DAT/SOUND/CBTL00/MPCBTL00.BIN" />
-							<file name="MVCBTL00.BIN" type="data" source="dw2003/AAA/DAT/SOUND/CBTL00/MVCBTL00.BIN" />
+							<file name="MPCBTL00.BIN" type="data" source="build/pack/dw2003/sound/cbtl00/mpcbtl00.bin" />
+							<file name="MVCBTL00.BIN" type="data" source="build/pack/dw2003/sound/cbtl00/mvcbtl00.bin" />
 						</dir>
 						<dir name="COMMON">
-							<file name="MPCOMMON.BIN" type="data" source="dw2003/AAA/DAT/SOUND/COMMON/MPCOMMON.BIN" />
-							<file name="MVCOMMON.BIN" type="data" source="dw2003/AAA/DAT/SOUND/COMMON/MVCOMMON.BIN" />
+							<file name="MPCOMMON.BIN" type="data" source="build/pack/dw2003/sound/common/mpcommon.bin" />
+							<file name="MVCOMMON.BIN" type="data" source="build/pack/dw2003/sound/common/mvcommon.bin" />
 						</dir>
 						<dir name="CONFUS">
-							<file name="MPCONFUS.BIN" type="data" source="dw2003/AAA/DAT/SOUND/CONFUS/MPCONFUS.BIN" />
-							<file name="MVCONFUS.BIN" type="data" source="dw2003/AAA/DAT/SOUND/CONFUS/MVCONFUS.BIN" />
+							<file name="MPCONFUS.BIN" type="data" source="build/pack/dw2003/sound/confus/mpconfus.bin" />
+							<file name="MVCONFUS.BIN" type="data" source="build/pack/dw2003/sound/confus/mvconfus.bin" />
 						</dir>
 						<dir name="ENV001">
-							<file name="MPENV001.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV001/MPENV001.BIN" />
-							<file name="MVENV001.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV001/MVENV001.BIN" />
+							<file name="MPENV001.BIN" type="data" source="build/pack/dw2003/sound/env001/mpenv001.bin" />
+							<file name="MVENV001.BIN" type="data" source="build/pack/dw2003/sound/env001/mvenv001.bin" />
 						</dir>
 						<dir name="ENV002">
-							<file name="MPENV002.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV002/MPENV002.BIN" />
-							<file name="MVENV002.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV002/MVENV002.BIN" />
+							<file name="MPENV002.BIN" type="data" source="build/pack/dw2003/sound/env002/mpenv002.bin" />
+							<file name="MVENV002.BIN" type="data" source="build/pack/dw2003/sound/env002/mvenv002.bin" />
 						</dir>
 						<dir name="ENV003">
-							<file name="MPENV003.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV003/MPENV003.BIN" />
-							<file name="MVENV003.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV003/MVENV003.BIN" />
+							<file name="MPENV003.BIN" type="data" source="build/pack/dw2003/sound/env003/mpenv003.bin" />
+							<file name="MVENV003.BIN" type="data" source="build/pack/dw2003/sound/env003/mvenv003.bin" />
 						</dir>
 						<dir name="ENV004">
-							<file name="MPENV004.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV004/MPENV004.BIN" />
-							<file name="MVENV004.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV004/MVENV004.BIN" />
+							<file name="MPENV004.BIN" type="data" source="build/pack/dw2003/sound/env004/mpenv004.bin" />
+							<file name="MVENV004.BIN" type="data" source="build/pack/dw2003/sound/env004/mvenv004.bin" />
 						</dir>
 						<dir name="ENV005">
-							<file name="MPENV005.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV005/MPENV005.BIN" />
-							<file name="MVENV005.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV005/MVENV005.BIN" />
+							<file name="MPENV005.BIN" type="data" source="build/pack/dw2003/sound/env005/mpenv005.bin" />
+							<file name="MVENV005.BIN" type="data" source="build/pack/dw2003/sound/env005/mvenv005.bin" />
 						</dir>
 						<dir name="ENV006">
-							<file name="MPENV006.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV006/MPENV006.BIN" />
-							<file name="MVENV006.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV006/MVENV006.BIN" />
+							<file name="MPENV006.BIN" type="data" source="build/pack/dw2003/sound/env006/mpenv006.bin" />
+							<file name="MVENV006.BIN" type="data" source="build/pack/dw2003/sound/env006/mvenv006.bin" />
 						</dir>
 						<dir name="ENV007">
-							<file name="MPENV007.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV007/MPENV007.BIN" />
-							<file name="MVENV007.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV007/MVENV007.BIN" />
+							<file name="MPENV007.BIN" type="data" source="build/pack/dw2003/sound/env007/mpenv007.bin" />
+							<file name="MVENV007.BIN" type="data" source="build/pack/dw2003/sound/env007/mvenv007.bin" />
 						</dir>
 						<dir name="ENV008">
-							<file name="MPENV008.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV008/MPENV008.BIN" />
-							<file name="MVENV008.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV008/MVENV008.BIN" />
+							<file name="MPENV008.BIN" type="data" source="build/pack/dw2003/sound/env008/mpenv008.bin" />
+							<file name="MVENV008.BIN" type="data" source="build/pack/dw2003/sound/env008/mvenv008.bin" />
 						</dir>
 						<dir name="ENV009">
-							<file name="MPENV009.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV009/MPENV009.BIN" />
-							<file name="MVENV009.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV009/MVENV009.BIN" />
+							<file name="MPENV009.BIN" type="data" source="build/pack/dw2003/sound/env009/mpenv009.bin" />
+							<file name="MVENV009.BIN" type="data" source="build/pack/dw2003/sound/env009/mvenv009.bin" />
 						</dir>
 						<dir name="ENV010">
-							<file name="MPENV010.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV010/MPENV010.BIN" />
-							<file name="MVENV010.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV010/MVENV010.BIN" />
+							<file name="MPENV010.BIN" type="data" source="build/pack/dw2003/sound/env010/mpenv010.bin" />
+							<file name="MVENV010.BIN" type="data" source="build/pack/dw2003/sound/env010/mvenv010.bin" />
 						</dir>
 						<dir name="ENV011">
-							<file name="MPENV011.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV011/MPENV011.BIN" />
-							<file name="MVENV011.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV011/MVENV011.BIN" />
+							<file name="MPENV011.BIN" type="data" source="build/pack/dw2003/sound/env011/mpenv011.bin" />
+							<file name="MVENV011.BIN" type="data" source="build/pack/dw2003/sound/env011/mvenv011.bin" />
 						</dir>
 						<dir name="ENV012">
-							<file name="MPENV012.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV012/MPENV012.BIN" />
-							<file name="MVENV012.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV012/MVENV012.BIN" />
+							<file name="MPENV012.BIN" type="data" source="build/pack/dw2003/sound/env012/mpenv012.bin" />
+							<file name="MVENV012.BIN" type="data" source="build/pack/dw2003/sound/env012/mvenv012.bin" />
 						</dir>
 						<dir name="ENV013">
-							<file name="MPENV013.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV013/MPENV013.BIN" />
-							<file name="MVENV013.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV013/MVENV013.BIN" />
+							<file name="MPENV013.BIN" type="data" source="build/pack/dw2003/sound/env013/mpenv013.bin" />
+							<file name="MVENV013.BIN" type="data" source="build/pack/dw2003/sound/env013/mvenv013.bin" />
 						</dir>
 						<dir name="ENV014">
-							<file name="MPENV014.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV014/MPENV014.BIN" />
-							<file name="MVENV014.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV014/MVENV014.BIN" />
+							<file name="MPENV014.BIN" type="data" source="build/pack/dw2003/sound/env014/mpenv014.bin" />
+							<file name="MVENV014.BIN" type="data" source="build/pack/dw2003/sound/env014/mvenv014.bin" />
 						</dir>
 						<dir name="ENV015">
-							<file name="MPENV015.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV015/MPENV015.BIN" />
-							<file name="MVENV015.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV015/MVENV015.BIN" />
+							<file name="MPENV015.BIN" type="data" source="build/pack/dw2003/sound/env015/mpenv015.bin" />
+							<file name="MVENV015.BIN" type="data" source="build/pack/dw2003/sound/env015/mvenv015.bin" />
 						</dir>
 						<dir name="ENV016">
-							<file name="MPENV016.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV016/MPENV016.BIN" />
-							<file name="MVENV016.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV016/MVENV016.BIN" />
+							<file name="MPENV016.BIN" type="data" source="build/pack/dw2003/sound/env016/mpenv016.bin" />
+							<file name="MVENV016.BIN" type="data" source="build/pack/dw2003/sound/env016/mvenv016.bin" />
 						</dir>
 						<dir name="ENV017">
-							<file name="MPENV017.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV017/MPENV017.BIN" />
-							<file name="MVENV017.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV017/MVENV017.BIN" />
+							<file name="MPENV017.BIN" type="data" source="build/pack/dw2003/sound/env017/mpenv017.bin" />
+							<file name="MVENV017.BIN" type="data" source="build/pack/dw2003/sound/env017/mvenv017.bin" />
 						</dir>
 						<dir name="ENV018">
-							<file name="MPENV018.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV018/MPENV018.BIN" />
-							<file name="MVENV018.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV018/MVENV018.BIN" />
+							<file name="MPENV018.BIN" type="data" source="build/pack/dw2003/sound/env018/mpenv018.bin" />
+							<file name="MVENV018.BIN" type="data" source="build/pack/dw2003/sound/env018/mvenv018.bin" />
 						</dir>
 						<dir name="ENV019">
-							<file name="MPENV019.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV019/MPENV019.BIN" />
-							<file name="MVENV019.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV019/MVENV019.BIN" />
+							<file name="MPENV019.BIN" type="data" source="build/pack/dw2003/sound/env019/mpenv019.bin" />
+							<file name="MVENV019.BIN" type="data" source="build/pack/dw2003/sound/env019/mvenv019.bin" />
 						</dir>
 						<dir name="ENV020">
-							<file name="MPENV020.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV020/MPENV020.BIN" />
-							<file name="MVENV020.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV020/MVENV020.BIN" />
+							<file name="MPENV020.BIN" type="data" source="build/pack/dw2003/sound/env020/mpenv020.bin" />
+							<file name="MVENV020.BIN" type="data" source="build/pack/dw2003/sound/env020/mvenv020.bin" />
 						</dir>
 						<dir name="ENV021">
-							<file name="MPENV021.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV021/MPENV021.BIN" />
-							<file name="MVENV021.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV021/MVENV021.BIN" />
+							<file name="MPENV021.BIN" type="data" source="build/pack/dw2003/sound/env021/mpenv021.bin" />
+							<file name="MVENV021.BIN" type="data" source="build/pack/dw2003/sound/env021/mvenv021.bin" />
 						</dir>
 						<dir name="ENV022">
-							<file name="MPENV022.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV022/MPENV022.BIN" />
-							<file name="MVENV022.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV022/MVENV022.BIN" />
+							<file name="MPENV022.BIN" type="data" source="build/pack/dw2003/sound/env022/mpenv022.bin" />
+							<file name="MVENV022.BIN" type="data" source="build/pack/dw2003/sound/env022/mvenv022.bin" />
 						</dir>
 						<dir name="ENV023">
-							<file name="MPENV023.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV023/MPENV023.BIN" />
-							<file name="MVENV023.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV023/MVENV023.BIN" />
+							<file name="MPENV023.BIN" type="data" source="build/pack/dw2003/sound/env023/mpenv023.bin" />
+							<file name="MVENV023.BIN" type="data" source="build/pack/dw2003/sound/env023/mvenv023.bin" />
 						</dir>
 						<dir name="ENV024">
-							<file name="MPENV024.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV024/MPENV024.BIN" />
-							<file name="MVENV024.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV024/MVENV024.BIN" />
+							<file name="MPENV024.BIN" type="data" source="build/pack/dw2003/sound/env024/mpenv024.bin" />
+							<file name="MVENV024.BIN" type="data" source="build/pack/dw2003/sound/env024/mvenv024.bin" />
 						</dir>
 						<dir name="ENV025">
-							<file name="MPENV025.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV025/MPENV025.BIN" />
-							<file name="MVENV025.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV025/MVENV025.BIN" />
+							<file name="MPENV025.BIN" type="data" source="build/pack/dw2003/sound/env025/mpenv025.bin" />
+							<file name="MVENV025.BIN" type="data" source="build/pack/dw2003/sound/env025/mvenv025.bin" />
 						</dir>
 						<dir name="ENV204">
-							<file name="MPENV204.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV204/MPENV204.BIN" />
-							<file name="MVENV204.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV204/MVENV204.BIN" />
+							<file name="MPENV204.BIN" type="data" source="build/pack/dw2003/sound/env204/mpenv204.bin" />
+							<file name="MVENV204.BIN" type="data" source="build/pack/dw2003/sound/env204/mvenv204.bin" />
 						</dir>
 						<dir name="ENV205">
-							<file name="MPENV205.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV205/MPENV205.BIN" />
-							<file name="MVENV205.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV205/MVENV205.BIN" />
+							<file name="MPENV205.BIN" type="data" source="build/pack/dw2003/sound/env205/mpenv205.bin" />
+							<file name="MVENV205.BIN" type="data" source="build/pack/dw2003/sound/env205/mvenv205.bin" />
 						</dir>
 						<dir name="ENV206">
-							<file name="MPENV206.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV206/MPENV206.BIN" />
-							<file name="MVENV206.BIN" type="data" source="dw2003/AAA/DAT/SOUND/ENV206/MVENV206.BIN" />
+							<file name="MPENV206.BIN" type="data" source="build/pack/dw2003/sound/env206/mpenv206.bin" />
+							<file name="MVENV206.BIN" type="data" source="build/pack/dw2003/sound/env206/mvenv206.bin" />
 						</dir>
 						<dir name="EVO_00">
-							<file name="MPEVO_00.BIN" type="data" source="dw2003/AAA/DAT/SOUND/EVO_00/MPEVO_00.BIN" />
-							<file name="MVEVO_00.BIN" type="data" source="dw2003/AAA/DAT/SOUND/EVO_00/MVEVO_00.BIN" />
+							<file name="MPEVO_00.BIN" type="data" source="build/pack/dw2003/sound/evo_00/mpevo_00.bin" />
+							<file name="MVEVO_00.BIN" type="data" source="build/pack/dw2003/sound/evo_00/mvevo_00.bin" />
 						</dir>
 						<dir name="JOG_00">
-							<file name="MPJOG_00.BIN" type="data" source="dw2003/AAA/DAT/SOUND/JOG_00/MPJOG_00.BIN" />
-							<file name="MVJOG_00.BIN" type="data" source="dw2003/AAA/DAT/SOUND/JOG_00/MVJOG_00.BIN" />
+							<file name="MPJOG_00.BIN" type="data" source="build/pack/dw2003/sound/jog_00/mpjog_00.bin" />
+							<file name="MVJOG_00.BIN" type="data" source="build/pack/dw2003/sound/jog_00/mvjog_00.bin" />
 						</dir>
 						<dir name="TTLBGM">
-							<file name="MPTTLBGM.BIN" type="data" source="dw2003/AAA/DAT/SOUND/TTLBGM/MPTTLBGM.BIN" />
-							<file name="MVTTLBGM.BIN" type="data" source="dw2003/AAA/DAT/SOUND/TTLBGM/MVTTLBGM.BIN" />
+							<file name="MPTTLBGM.BIN" type="data" source="build/pack/dw2003/sound/ttlbgm/mpttlbgm.bin" />
+							<file name="MVTTLBGM.BIN" type="data" source="build/pack/dw2003/sound/ttlbgm/mvttlbgm.bin" />
 						</dir>
 					</dir>
 
