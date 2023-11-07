@@ -144,20 +144,48 @@ fn main() -> Result<(), anyhow::Error> {
 
 		serde_yaml::to_writer(output_yaml, &Output {
 			waveform_size:    vab.waveform_size,
-			system_reserved1: vab.system_reserved1,
+			system_reserved0: vab.system_reserved0,
 			master_volume:    vab.master_volume,
 			master_pan:       vab.master_pan,
 			bank_attributes:  vab.bank_attributes,
-			system_reserved2: vab.system_reserved2,
+			system_reserved1: vab.system_reserved1,
 			programs:         vab
 				.programs
 				.iter()
 				.map(|program| OutputProgram {
-					bytes: program.bytes,
-					tones: program
+					volume:     program.volume,
+					priority:   program.priority,
+					mode:       program.mode,
+					pan:        program.pan,
+					reserved0:  program.reserved0,
+					attributes: program.attributes,
+					reserved1:  program.reserved1,
+					reserved2:  program.reserved2,
+					tones:      program
 						.tones
 						.iter()
-						.map(|tone| OutputTone { bytes: tone.bytes })
+						.map(|tone| OutputTone {
+							priority:             tone.priority,
+							mode:                 tone.mode,
+							volume:               tone.volume,
+							pan:                  tone.pan,
+							center_note:          tone.center_note,
+							center_note_shift:    tone.center_note_shift,
+							center_note_min:      tone.center_note_min,
+							center_note_max:      tone.center_note_max,
+							vibrate_depth:        tone.vibrate_depth,
+							vibrate_duration:     tone.vibrate_duration,
+							portamento_depth:     tone.portamento_depth,
+							portamento_duration:  tone.portamento_duration,
+							under_pitch_bend_min: tone.under_pitch_bend_min,
+							under_pitch_bend_max: tone.under_pitch_bend_max,
+							reserved0:            tone.reserved0,
+							reserved1:            tone.reserved1,
+							adsr:                 tone.adsr,
+							program:              tone.program,
+							vag:                  tone.vag,
+							reserved:             tone.reserved,
+						})
 						.collect(),
 				})
 				.collect(),
@@ -190,11 +218,11 @@ fn main() -> Result<(), anyhow::Error> {
 #[derive(Debug, serde::Serialize)]
 struct Output {
 	waveform_size:    u32,
-	system_reserved1: u16,
+	system_reserved0: u16,
 	master_volume:    u8,
 	master_pan:       u8,
 	bank_attributes:  [u8; 2],
-	system_reserved2: u32,
+	system_reserved1: u32,
 
 	/// Programs
 	programs: Vec<OutputProgram>,
@@ -210,9 +238,14 @@ struct Output {
 #[serde_with::serde_as]
 #[derive(Debug, serde::Serialize)]
 struct OutputProgram {
-	/// Bytes
-	#[serde_as(as = "serde_with::hex::Hex")]
-	bytes: [u8; 0x10],
+	volume:     u8,
+	priority:   u8,
+	mode:       u8,
+	pan:        u8,
+	reserved0:  u8,
+	attributes: u16,
+	reserved1:  u32,
+	reserved2:  u32,
 
 	/// Tones
 	tones: Vec<OutputTone>,
@@ -222,9 +255,26 @@ struct OutputProgram {
 #[serde_with::serde_as]
 #[derive(Debug, serde::Serialize)]
 struct OutputTone {
-	/// Bytes
-	#[serde_as(as = "serde_with::hex::Hex")]
-	bytes: [u8; 0x20],
+	priority:             u8,
+	mode:                 u8,
+	volume:               u8,
+	pan:                  u8,
+	center_note:          u8,
+	center_note_shift:    u8,
+	center_note_min:      u8,
+	center_note_max:      u8,
+	vibrate_depth:        u8,
+	vibrate_duration:     u8,
+	portamento_depth:     u8,
+	portamento_duration:  u8,
+	under_pitch_bend_min: u8,
+	under_pitch_bend_max: u8,
+	reserved0:            u8,
+	reserved1:            u8,
+	adsr:                 [u16; 2],
+	program:              u16,
+	vag:                  u16,
+	reserved:             [u16; 4],
 }
 
 

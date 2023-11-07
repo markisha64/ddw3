@@ -11,18 +11,18 @@ use {
 /// VAB Header
 #[derive(Debug)]
 pub struct VabHeader {
-	pub waveform_size:        u32,
-	pub system_reserved1:     u16,
-	pub programs_len:         u16,
-	pub tones_len:            u16,
-	pub vags_len:             u16,
-	pub master_volume:        u8,
-	pub master_pan:           u8,
-	pub bank_attributes:      [u8; 2],
-	pub system_reserved2:     u32,
-	pub program_attrib_table: [[u8; 16]; 128],
-	pub tone_attrib_table:    Vec<[[u8; 32]; 16]>,
-	pub encoded_vag_lens:     [u16; 256],
+	pub waveform_size:    u32,
+	pub system_reserved0: u16,
+	pub programs_len:     u16,
+	pub tones_len:        u16,
+	pub vags_len:         u16,
+	pub master_volume:    u8,
+	pub master_pan:       u8,
+	pub bank_attributes:  [u8; 2],
+	pub system_reserved1: u32,
+	pub program_headers:  [ProgramHeader; 128],
+	pub tone_headers:     Vec<[ToneHeader; 16]>,
+	pub encoded_vag_lens: [u16; 256],
 }
 
 impl VabHeader {
@@ -53,7 +53,7 @@ impl VabHeader {
 		anyhow::ensure!(id == Self::ID, "Found wrong id: {id} (Expected {})", Self::ID);
 
 		let waveform_size = reader.read_u32::<LittleEndian>()?;
-		let system_reserved1 = reader.read_u16::<LittleEndian>()?;
+		let system_reserved0 = reader.read_u16::<LittleEndian>()?;
 
 		let programs_len = reader.read_u16::<LittleEndian>()?;
 		let max_programs = 128;
@@ -80,14 +80,14 @@ impl VabHeader {
 		let master_volume = reader.read_u8()?;
 		let master_pan = reader.read_u8()?;
 		let bank_attributes = reader.read_byte_array()?;
-		let system_reserved2 = reader.read_u32::<LittleEndian>()?;
-		let program_attrib_table = (0..max_programs)
-			.map(|_| reader.read_byte_array())
+		let system_reserved1 = reader.read_u32::<LittleEndian>()?;
+		let program_headers = (0..max_programs)
+			.map(|_| ProgramHeader::read(reader))
 			.try_collect_array_result()?;
-		let tone_attrib_table = (0..programs_len)
+		let tone_headers = (0..programs_len)
 			.map(|_| {
 				(0..max_tones_per_program)
-					.map(|_| reader.read_byte_array())
+					.map(|_| ToneHeader::read(reader))
 					.try_collect_array_result()
 			})
 			.collect::<Result<_, _>>()?;
@@ -101,22 +101,22 @@ impl VabHeader {
 
 		Ok(Self {
 			waveform_size,
-			system_reserved1,
+			system_reserved0,
 			programs_len,
 			tones_len,
 			vags_len,
 			master_volume,
 			master_pan,
 			bank_attributes,
-			system_reserved2,
-			program_attrib_table,
-			tone_attrib_table,
+			system_reserved1,
+			program_headers,
+			tone_headers,
 			encoded_vag_lens,
 		})
 	}
 }
 
-/// Vah
+/// Vag
 #[derive(Debug)]
 pub struct Vag {
 	/// Bytes
@@ -231,16 +231,158 @@ impl Vag {
 	}
 }
 
+/// Tone header
+#[derive(Debug)]
+pub struct ToneHeader {
+	pub priority:             u8,
+	pub mode:                 u8,
+	pub volume:               u8,
+	pub pan:                  u8,
+	pub center_note:          u8,
+	pub center_note_shift:    u8,
+	pub center_note_min:      u8,
+	pub center_note_max:      u8,
+	pub vibrate_depth:        u8,
+	pub vibrate_duration:     u8,
+	pub portamento_depth:     u8,
+	pub portamento_duration:  u8,
+	pub under_pitch_bend_min: u8,
+	pub under_pitch_bend_max: u8,
+	pub reserved0:            u8,
+	pub reserved1:            u8,
+	pub adsr:                 [u16; 2],
+	pub program:              u16,
+	pub vag:                  u16,
+	pub reserved:             [u16; 4],
+}
+
+impl ToneHeader {
+	/// Reads a tone header from a reader
+	pub fn read<R: io::Read>(reader: &mut R) -> Result<Self, anyhow::Error> {
+		let priority = reader.read_u8()?;
+		let mode = reader.read_u8()?;
+		let volume = reader.read_u8()?;
+		let pan = reader.read_u8()?;
+		let center_note = reader.read_u8()?;
+		let center_note_shift = reader.read_u8()?;
+		let center_note_min = reader.read_u8()?;
+		let center_note_max = reader.read_u8()?;
+		let vibrate_depth = reader.read_u8()?;
+		let vibrate_duration = reader.read_u8()?;
+		let portamento_depth = reader.read_u8()?;
+		let portamento_duration = reader.read_u8()?;
+		let under_pitch_bend_min = reader.read_u8()?;
+		let under_pitch_bend_max = reader.read_u8()?;
+		let reserved0 = reader.read_u8()?;
+		let reserved1 = reader.read_u8()?;
+		let adsr = [reader.read_u16::<LittleEndian>()?, reader.read_u16::<LittleEndian>()?];
+		let program = reader.read_u16::<LittleEndian>()?;
+		let vag = reader.read_u16::<LittleEndian>()?;
+		let reserved = std::array::try_from_fn(|_| reader.read_u16::<LittleEndian>())?;
+
+		Ok(Self {
+			priority,
+			mode,
+			volume,
+			pan,
+			center_note,
+			center_note_shift,
+			center_note_min,
+			center_note_max,
+			vibrate_depth,
+			vibrate_duration,
+			portamento_depth,
+			portamento_duration,
+			under_pitch_bend_min,
+			under_pitch_bend_max,
+			reserved0,
+			reserved1,
+			adsr,
+			program,
+			vag,
+			reserved,
+		})
+	}
+}
+
 /// Tone
 #[derive(Debug)]
 pub struct Tone {
-	pub bytes: [u8; 0x20],
+	pub priority:             u8,
+	pub mode:                 u8,
+	pub volume:               u8,
+	pub pan:                  u8,
+	pub center_note:          u8,
+	pub center_note_shift:    u8,
+	pub center_note_min:      u8,
+	pub center_note_max:      u8,
+	pub vibrate_depth:        u8,
+	pub vibrate_duration:     u8,
+	pub portamento_depth:     u8,
+	pub portamento_duration:  u8,
+	pub under_pitch_bend_min: u8,
+	pub under_pitch_bend_max: u8,
+	pub reserved0:            u8,
+	pub reserved1:            u8,
+	pub adsr:                 [u16; 2],
+	pub program:              u16,
+	pub vag:                  u16,
+	pub reserved:             [u16; 4],
+}
+
+/// Program header
+#[derive(Debug)]
+pub struct ProgramHeader {
+	pub tones_len:  u8,
+	pub volume:     u8,
+	pub priority:   u8,
+	pub mode:       u8,
+	pub pan:        u8,
+	pub reserved0:  u8,
+	pub attributes: u16,
+	pub reserved1:  u32,
+	pub reserved2:  u32,
+}
+
+impl ProgramHeader {
+	/// Reads a tone header from a reader
+	pub fn read<R: io::Read>(reader: &mut R) -> Result<Self, anyhow::Error> {
+		let tones_len = reader.read_u8()?;
+		let volume = reader.read_u8()?;
+		let priority = reader.read_u8()?;
+		let mode = reader.read_u8()?;
+		let pan = reader.read_u8()?;
+		let reserved0 = reader.read_u8()?;
+		let attributes = reader.read_u16::<LittleEndian>()?;
+		let reserved1 = reader.read_u32::<LittleEndian>()?;
+		let reserved2 = reader.read_u32::<LittleEndian>()?;
+
+		Ok(Self {
+			tones_len,
+			volume,
+			priority,
+			mode,
+			pan,
+			reserved0,
+			attributes,
+			reserved1,
+			reserved2,
+		})
+	}
 }
 
 /// Program
 #[derive(Debug)]
 pub struct Program {
-	pub bytes: [u8; 0x10],
+	pub volume:     u8,
+	pub priority:   u8,
+	pub mode:       u8,
+	pub pan:        u8,
+	pub reserved0:  u8,
+	pub attributes: u16,
+	pub reserved1:  u32,
+	pub reserved2:  u32,
+
 	pub tones: Vec<Tone>,
 }
 
@@ -248,11 +390,11 @@ pub struct Program {
 #[derive(Debug)]
 pub struct Vab {
 	pub waveform_size:    u32,
-	pub system_reserved1: u16,
+	pub system_reserved0: u16,
 	pub master_volume:    u8,
 	pub master_pan:       u8,
 	pub bank_attributes:  [u8; 2],
-	pub system_reserved2: u32,
+	pub system_reserved1: u32,
 
 	/// Programs
 	pub programs: Vec<Program>,
@@ -271,31 +413,56 @@ impl Vab {
 		let header = VabHeader::read(header_reader).context("Unable to read header")?;
 
 		// Parse all programs
-		let programs = header.program_attrib_table[..usize::from(header.programs_len)]
+		let programs = header.program_headers[..usize::from(header.programs_len)]
 			.iter()
-			.zip(header.tone_attrib_table)
-			.map(|(&program_bytes, program_tones)| {
-				// TODO: Detect this better?
-				let tones_len = program_tones
-					.iter()
-					.position(|&tone| tone[..14] == [0; 14])
-					.unwrap_or(16);
+			.zip(header.tone_headers)
+			.map(|(program_header, program_tones)| Program {
+				volume:     program_header.volume,
+				priority:   program_header.priority,
+				mode:       program_header.mode,
+				pan:        program_header.pan,
+				reserved0:  program_header.reserved0,
+				attributes: program_header.attributes,
+				reserved1:  program_header.reserved1,
+				reserved2:  program_header.reserved2,
 
-				Program {
-					bytes: program_bytes,
-					tones: program_tones[..tones_len]
-						.iter()
-						.map(|&tones_bytes| Tone { bytes: tones_bytes })
-						.collect(),
-				}
+				tones: program_tones[..usize::from(program_header.tones_len)]
+					.iter()
+					.map(|tone_header| Tone {
+						priority:             tone_header.priority,
+						mode:                 tone_header.mode,
+						volume:               tone_header.volume,
+						pan:                  tone_header.pan,
+						center_note:          tone_header.center_note,
+						center_note_shift:    tone_header.center_note_shift,
+						center_note_min:      tone_header.center_note_min,
+						center_note_max:      tone_header.center_note_max,
+						vibrate_depth:        tone_header.vibrate_depth,
+						vibrate_duration:     tone_header.vibrate_duration,
+						portamento_depth:     tone_header.portamento_depth,
+						portamento_duration:  tone_header.portamento_duration,
+						under_pitch_bend_min: tone_header.under_pitch_bend_min,
+						under_pitch_bend_max: tone_header.under_pitch_bend_max,
+						reserved0:            tone_header.reserved0,
+						reserved1:            tone_header.reserved1,
+						adsr:                 tone_header.adsr,
+						program:              tone_header.program,
+						vag:                  tone_header.vag,
+						reserved:             tone_header.reserved,
+					})
+					.collect(),
 			})
 			.collect::<Vec<_>>();
+
+		// TODO: Warnings are emitted here fairly often. Check what the issue is,
+		//       because we might be losing data.
 		let total_tones = programs.iter().map(|program| program.tones.len()).sum::<usize>();
-		anyhow::ensure!(
-			total_tones == usize::from(header.tones_len),
-			"Found wrong number of tones: {total_tones} (Expected {})",
-			header.tones_len
-		);
+		if total_tones != usize::from(header.tones_len) {
+			tracing::warn!(
+				"Found wrong number of total tones in vab: {total_tones} (Expected {})",
+				header.tones_len
+			);
+		}
 
 		// Read all `VAG`s
 		// Note: The encoded vag lens are a mess:
@@ -329,11 +496,11 @@ impl Vab {
 
 		Ok(Self {
 			waveform_size: header.waveform_size,
-			system_reserved1: header.system_reserved1,
+			system_reserved0: header.system_reserved0,
 			master_volume: header.master_volume,
 			master_pan: header.master_pan,
 			bank_attributes: header.bank_attributes,
-			system_reserved2: header.system_reserved2,
+			system_reserved1: header.system_reserved1,
 
 			programs,
 			vags,

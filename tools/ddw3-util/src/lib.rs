@@ -71,7 +71,10 @@ pub impl<I: Iterator> I {
 /// Helper trait to try to collect into an array
 // TODO: Make this generic over `I::Item: Try`
 #[extend::ext(name = TryCollectArrayResult)]
-pub impl<T, E: std::error::Error + Send + Sync + 'static, I: Iterator<Item = Result<T, E>>> I {
+pub impl<T, E, I: Iterator<Item = Result<T, E>>> I
+where
+	anyhow::Error: From<E>,
+{
 	/// Tries to collects this iterator into an array
 	fn try_collect_array_result<const N: usize>(self) -> Result<[T; N], anyhow::Error> {
 		// TODO: Not allocate first
