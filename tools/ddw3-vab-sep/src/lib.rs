@@ -1,7 +1,14 @@
 //! `VAB (VH & VB) + SEQ / SEP`
 
 // Features
-#![feature(array_chunks, array_windows, seek_stream_len, try_blocks, array_try_from_fn)]
+#![feature(
+	array_chunks,
+	array_windows,
+	seek_stream_len,
+	try_blocks,
+	array_try_from_fn,
+	lint_reasons
+)]
 
 // Modules
 pub mod sep;

@@ -76,6 +76,7 @@ xml-rs = "0.8.16"
 hex-literal = "0.4.1"
 hound = "3.5.1"
 bytemuck = "1.13.1"
+binrw = "0.13.1"
 
 # Workspace
 ddw3-bytes = { path = "ddw3-bytes" }

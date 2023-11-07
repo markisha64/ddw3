@@ -1,119 +1,43 @@
 //! VAB
 
+// Lints
+#![expect(clippy::unnecessary_fallible_conversions)] // `binrw` emits this
+
 // Imports
-use {
-	anyhow::Context,
-	byteorder::{LittleEndian, ReadBytesExt},
-	ddw3_util::{CollectArray, ReadByteArray, TryCollectArrayResult},
-	std::io,
-};
+use {anyhow::Context, binrw::BinRead, ddw3_util::CollectArray, std::io};
+
 
 /// VAB Header
-#[derive(Debug)]
+#[derive(Debug, binrw::BinRead)]
+#[brw(little)]
+#[brw(magic = b"pBAV")]
 pub struct VabHeader {
+	#[brw(assert(version == 7))]
+	pub version: u32,
+
+	#[brw(assert(id == 0))]
+	pub id: u32,
+
 	pub waveform_size:    u32,
 	pub system_reserved0: u16,
-	pub programs_len:     u16,
-	pub tones_len:        u16,
+
+	#[brw(assert(programs_len <= 128))]
+	pub programs_len: u16,
+
+	#[brw(assert(tones_len <= 16 * programs_len))]
+	pub tones_len: u16,
+
+	#[brw(assert(vags_len <= 254))]
 	pub vags_len:         u16,
 	pub master_volume:    u8,
 	pub master_pan:       u8,
 	pub bank_attributes:  [u8; 2],
 	pub system_reserved1: u32,
 	pub program_headers:  [ProgramHeader; 128],
+
+	#[brw(count = programs_len)]
 	pub tone_headers:     Vec<[ToneHeader; 16]>,
 	pub encoded_vag_lens: [u16; 256],
-}
-
-impl VabHeader {
-	/// Id
-	pub const ID: u32 = 0;
-	/// Magic
-	pub const MAGIC: [u8; 4] = *b"pBAV";
-	/// Version
-	pub const VERSION: u32 = 7;
-
-	/// Reads a header from a reader
-	pub fn read<R: io::Read>(reader: &mut R) -> Result<Self, anyhow::Error> {
-		let magic = reader.read_byte_array()?;
-		anyhow::ensure!(
-			magic == Self::MAGIC,
-			"Found wrong magic: {magic:x?} (Expected {:x?})",
-			Self::MAGIC
-		);
-
-		let version = reader.read_u32::<LittleEndian>()?;
-		anyhow::ensure!(
-			version == Self::VERSION,
-			"Found wrong version: {version} (Expected {})",
-			Self::VERSION
-		);
-
-		let id = reader.read_u32::<LittleEndian>()?;
-		anyhow::ensure!(id == Self::ID, "Found wrong id: {id} (Expected {})", Self::ID);
-
-		let waveform_size = reader.read_u32::<LittleEndian>()?;
-		let system_reserved0 = reader.read_u16::<LittleEndian>()?;
-
-		let programs_len = reader.read_u16::<LittleEndian>()?;
-		let max_programs = 128;
-		anyhow::ensure!(
-			programs_len <= max_programs,
-			"Too many programs: {programs_len} (Expected at most {max_programs})"
-		);
-
-		let tones_len = reader.read_u16::<LittleEndian>()?;
-		let max_tones_per_program = 16;
-		let max_tones = max_tones_per_program * programs_len;
-		anyhow::ensure!(
-			tones_len <= max_tones,
-			"Too many tones: {tones_len} (Expected at most {max_tones})"
-		);
-
-		let vags_len = reader.read_u16::<LittleEndian>()?;
-		let max_vags = 254;
-		anyhow::ensure!(
-			vags_len <= max_vags,
-			"Too many VAGs: {vags_len} (Expected at most {max_vags})"
-		);
-
-		let master_volume = reader.read_u8()?;
-		let master_pan = reader.read_u8()?;
-		let bank_attributes = reader.read_byte_array()?;
-		let system_reserved1 = reader.read_u32::<LittleEndian>()?;
-		let program_headers = (0..max_programs)
-			.map(|_| ProgramHeader::read(reader))
-			.try_collect_array_result()?;
-		let tone_headers = (0..programs_len)
-			.map(|_| {
-				(0..max_tones_per_program)
-					.map(|_| ToneHeader::read(reader))
-					.try_collect_array_result()
-			})
-			.collect::<Result<_, _>>()?;
-		let encoded_vag_lens = reader
-			.read_byte_array::<512>()?
-			.array_chunks()
-			.copied()
-			.map(u16::from_le_bytes)
-			.collect_array()
-			.expect("Unable to convert byte array to `u32` array");
-
-		Ok(Self {
-			waveform_size,
-			system_reserved0,
-			programs_len,
-			tones_len,
-			vags_len,
-			master_volume,
-			master_pan,
-			bank_attributes,
-			system_reserved1,
-			program_headers,
-			tone_headers,
-			encoded_vag_lens,
-		})
-	}
 }
 
 /// Vag
@@ -232,7 +156,8 @@ impl Vag {
 }
 
 /// Tone header
-#[derive(Debug)]
+#[derive(Debug, binrw::BinRead)]
+#[brw(little)]
 pub struct ToneHeader {
 	pub priority:             u8,
 	pub mode:                 u8,
@@ -254,55 +179,6 @@ pub struct ToneHeader {
 	pub program:              u16,
 	pub vag:                  u16,
 	pub reserved:             [u16; 4],
-}
-
-impl ToneHeader {
-	/// Reads a tone header from a reader
-	pub fn read<R: io::Read>(reader: &mut R) -> Result<Self, anyhow::Error> {
-		let priority = reader.read_u8()?;
-		let mode = reader.read_u8()?;
-		let volume = reader.read_u8()?;
-		let pan = reader.read_u8()?;
-		let center_note = reader.read_u8()?;
-		let center_note_shift = reader.read_u8()?;
-		let center_note_min = reader.read_u8()?;
-		let center_note_max = reader.read_u8()?;
-		let vibrate_depth = reader.read_u8()?;
-		let vibrate_duration = reader.read_u8()?;
-		let portamento_depth = reader.read_u8()?;
-		let portamento_duration = reader.read_u8()?;
-		let under_pitch_bend_min = reader.read_u8()?;
-		let under_pitch_bend_max = reader.read_u8()?;
-		let reserved0 = reader.read_u8()?;
-		let reserved1 = reader.read_u8()?;
-		let adsr = [reader.read_u16::<LittleEndian>()?, reader.read_u16::<LittleEndian>()?];
-		let program = reader.read_u16::<LittleEndian>()?;
-		let vag = reader.read_u16::<LittleEndian>()?;
-		let reserved = std::array::try_from_fn(|_| reader.read_u16::<LittleEndian>())?;
-
-		Ok(Self {
-			priority,
-			mode,
-			volume,
-			pan,
-			center_note,
-			center_note_shift,
-			center_note_min,
-			center_note_max,
-			vibrate_depth,
-			vibrate_duration,
-			portamento_depth,
-			portamento_duration,
-			under_pitch_bend_min,
-			under_pitch_bend_max,
-			reserved0,
-			reserved1,
-			adsr,
-			program,
-			vag,
-			reserved,
-		})
-	}
 }
 
 /// Tone
@@ -331,7 +207,8 @@ pub struct Tone {
 }
 
 /// Program header
-#[derive(Debug)]
+#[derive(Debug, binrw::BinRead)]
+#[brw(little)]
 pub struct ProgramHeader {
 	pub tones_len:  u8,
 	pub volume:     u8,
@@ -342,33 +219,6 @@ pub struct ProgramHeader {
 	pub attributes: u16,
 	pub reserved1:  u32,
 	pub reserved2:  u32,
-}
-
-impl ProgramHeader {
-	/// Reads a tone header from a reader
-	pub fn read<R: io::Read>(reader: &mut R) -> Result<Self, anyhow::Error> {
-		let tones_len = reader.read_u8()?;
-		let volume = reader.read_u8()?;
-		let priority = reader.read_u8()?;
-		let mode = reader.read_u8()?;
-		let pan = reader.read_u8()?;
-		let reserved0 = reader.read_u8()?;
-		let attributes = reader.read_u16::<LittleEndian>()?;
-		let reserved1 = reader.read_u32::<LittleEndian>()?;
-		let reserved2 = reader.read_u32::<LittleEndian>()?;
-
-		Ok(Self {
-			tones_len,
-			volume,
-			priority,
-			mode,
-			pan,
-			reserved0,
-			attributes,
-			reserved1,
-			reserved2,
-		})
-	}
 }
 
 /// Program
@@ -405,7 +255,7 @@ pub struct Vab {
 
 impl Vab {
 	/// Parses a vab from a header and body file
-	pub fn read<RH: io::Read, RB: io::Read>(
+	pub fn read<RH: io::Read + io::Seek, RB: io::Read>(
 		header_reader: &mut RH,
 		body_reader: &mut RB,
 	) -> Result<Self, anyhow::Error> {

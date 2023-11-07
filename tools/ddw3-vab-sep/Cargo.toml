@@ -15,3 +15,4 @@ serde = { workspace = true }
 serde_yaml = { workspace = true }
 tracing = { workspace = true }
 hound = { workspace = true }
+binrw = { workspace = true }
