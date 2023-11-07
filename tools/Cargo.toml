@@ -39,6 +39,10 @@ members = [
 	"ddw3-unrlen",
 	"ddw3-mkrlen",
 
+	# Sound
+	"ddw3-vab-sep",
+	"ddw3-unvab-sep",
+
 	# Util
 	"ddw3-bytes",
 	"ddw3-util",
@@ -63,13 +67,15 @@ itertools = "0.11.0"
 pathdiff = "0.2.1"
 ref-cast = "1.0.20"
 serde = { version = "1.0.188", features = ["derive"] }
-serde_with = "3.3.0"
+serde_with = { version = "3.3.0", features = ["hex"] }
 serde_yaml = "0.9.25"
 thiserror = "1.0.47"
 tracing = "0.1.37"
 tracing-subscriber = { version = "0.3.17", features = ["env-filter"] }
 xml-rs = "0.8.16"
 hex-literal = "0.4.1"
+hound = "3.5.1"
+bytemuck = "1.13.1"
 
 # Workspace
 ddw3-bytes = { path = "ddw3-bytes" }
@@ -94,4 +100,6 @@ ddw3-unmap-tile = { path = "ddw3-unmap-tile" }
 ddw3-unpack = { path = "ddw3-unpack" }
 ddw3-unrlen = { path = "ddw3-unrlen" }
 ddw3-untim = { path = "ddw3-untim" }
+ddw3-unvab-sep = { path = "ddw3-unvab-sep" }
 ddw3-util = { path = "ddw3-util" }
+ddw3-vab-sep = { path = "ddw3-vab-sep" }

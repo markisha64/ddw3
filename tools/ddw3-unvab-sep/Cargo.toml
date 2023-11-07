@@ -1,0 +1,21 @@
+[package]
+edition = "2021"
+name = "ddw3-unvab-sep"
+version = "0.1.0"
+
+[dependencies]
+
+anyhow = { workspace = true }
+bytemuck = { workspace = true }
+byteorder = { workspace = true }
+clap = { workspace = true }
+ddw3-logger = { workspace = true }
+ddw3-util = { workspace = true }
+ddw3-vab-sep = { workspace = true }
+hound = { workspace = true }
+itertools = { workspace = true }
+pathdiff = { workspace = true }
+serde = { workspace = true }
+serde_yaml = { workspace = true }
+tracing = { workspace = true }
+serde_with = { workspace = true }

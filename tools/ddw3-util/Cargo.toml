@@ -11,3 +11,4 @@ either = { workspace = true }
 ref-cast = { workspace = true }
 serde = { workspace = true }
 thiserror = { workspace = true }
+extend = { workspace = true }

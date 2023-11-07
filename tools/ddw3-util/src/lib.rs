@@ -55,6 +55,33 @@ impl<R: ?Sized + std::io::Read> ReadByteArray for R {
 	}
 }
 
+/// Helper trait to collect into an array
+#[extend::ext(name = CollectArray)]
+pub impl<I: Iterator> I {
+	/// Collects this iterator into an array
+	fn collect_array<const N: usize>(self) -> Result<[I::Item; N], anyhow::Error> {
+		// TODO: Not allocate first
+		let items = self.collect::<Vec<_>>();
+
+		<[I::Item; N]>::try_from(items)
+			.map_err(|items| anyhow::anyhow!("Iterator has the wrong number of items: {} (expected {N})", items.len()))
+	}
+}
+
+/// Helper trait to try to collect into an array
+// TODO: Make this generic over `I::Item: Try`
+#[extend::ext(name = TryCollectArrayResult)]
+pub impl<T, E: std::error::Error + Send + Sync + 'static, I: Iterator<Item = Result<T, E>>> I {
+	/// Tries to collects this iterator into an array
+	fn try_collect_array_result<const N: usize>(self) -> Result<[T; N], anyhow::Error> {
+		// TODO: Not allocate first
+		let items = self.collect::<Result<Vec<_>, _>>()?;
+
+		<[T; N]>::try_from(items)
+			.map_err(|items| anyhow::anyhow!("Iterator has the wrong number of items: {} (expected {N})", items.len()))
+	}
+}
+
 /// Opens an input file, or uses stdin if `None` or `Some("-")`
 pub fn open_input_file(input_file: Option<&Path>) -> Result<impl io::Read, anyhow::Error> {
 	let output = match input_file {
