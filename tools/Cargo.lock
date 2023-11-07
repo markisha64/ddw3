@@ -392,7 +392,7 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "byteorder",
- "itertools 0.11.0",
+ "itertools",
  "serde",
  "serde_with",
  "tracing",
@@ -418,7 +418,7 @@ dependencies = [
  "ddw3-logger",
  "ddw3-util",
  "either",
- "itertools 0.11.0",
+ "itertools",
  "serde_yaml",
  "tracing",
 ]
@@ -432,7 +432,7 @@ dependencies = [
  "clap",
  "ddw3-logger",
  "ddw3-util",
- "itertools 0.11.0",
+ "itertools",
  "pathdiff",
  "serde",
  "serde_yaml",
@@ -448,7 +448,7 @@ dependencies = [
  "clap",
  "ddw3-logger",
  "ddw3-util",
- "itertools 0.11.0",
+ "itertools",
  "pathdiff",
  "serde",
  "serde_yaml",
@@ -464,7 +464,7 @@ dependencies = [
  "clap",
  "ddw3-logger",
  "ddw3-util",
- "itertools 0.11.0",
+ "itertools",
  "pathdiff",
  "serde",
  "serde_yaml",
@@ -495,7 +495,7 @@ dependencies = [
  "ddw3-logger",
  "ddw3-util",
  "hex-literal",
- "itertools 0.11.0",
+ "itertools",
  "pathdiff",
  "serde",
  "serde_yaml",
@@ -514,7 +514,7 @@ dependencies = [
  "ddw3-tim",
  "ddw3-util",
  "image",
- "itertools 0.11.0",
+ "itertools",
  "pathdiff",
  "serde",
  "serde_yaml",
@@ -541,7 +541,7 @@ dependencies = [
  "byteorder",
  "ddw3-bytes",
  "image",
- "itertools 0.10.5",
+ "itertools",
  "pathdiff",
  "serde",
  "thiserror",
@@ -590,7 +590,7 @@ dependencies = [
  "ddw3-logger",
  "ddw3-util",
  "either",
- "itertools 0.11.0",
+ "itertools",
  "serde_yaml",
  "tracing",
 ]
@@ -603,7 +603,7 @@ dependencies = [
  "byteorder",
  "clap",
  "ddw3-logger",
- "itertools 0.11.0",
+ "itertools",
  "pathdiff",
  "serde",
  "serde_yaml",
@@ -618,7 +618,7 @@ dependencies = [
  "byteorder",
  "clap",
  "ddw3-logger",
- "itertools 0.11.0",
+ "itertools",
  "pathdiff",
  "serde",
  "serde_yaml",
@@ -633,7 +633,7 @@ dependencies = [
  "byteorder",
  "clap",
  "ddw3-logger",
- "itertools 0.11.0",
+ "itertools",
  "pathdiff",
  "serde",
  "serde_yaml",
@@ -648,7 +648,7 @@ dependencies = [
  "byteorder",
  "clap",
  "ddw3-logger",
- "itertools 0.11.0",
+ "itertools",
  "pathdiff",
  "serde",
  "serde_yaml",
@@ -666,7 +666,7 @@ dependencies = [
  "ddw3-logger",
  "ddw3-tim",
  "image",
- "itertools 0.10.5",
+ "itertools",
  "pathdiff",
  "serde",
  "serde_yaml",
@@ -686,7 +686,7 @@ dependencies = [
  "ddw3-util",
  "ddw3-vab-sep",
  "hound",
- "itertools 0.11.0",
+ "itertools",
  "pathdiff",
  "serde",
  "serde_with",
@@ -717,7 +717,7 @@ dependencies = [
  "ddw3-logger",
  "ddw3-util",
  "hound",
- "itertools 0.11.0",
+ "itertools",
  "pathdiff",
  "serde",
  "serde_yaml",
@@ -997,15 +997,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a0249b28817672371aa3a25e0420548646663592c0442d71ac67c9cb4fe1f94c"
 dependencies = [
  "static_assertions",
-]
-
-[[package]]
-name = "itertools"
-version = "0.10.5"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b0fd2260e829bddf4cb6ea802289de2f86d6a7a690192fbe91b3f46e0f2c8473"
-dependencies = [
- "either",
 ]
 
 [[package]]

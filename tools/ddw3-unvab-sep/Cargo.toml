@@ -16,6 +16,6 @@ hound = { workspace = true }
 itertools = { workspace = true }
 pathdiff = { workspace = true }
 serde = { workspace = true }
+serde_with = { workspace = true }
 serde_yaml = { workspace = true }
 tracing = { workspace = true }
-serde_with = { workspace = true }

@@ -1,5 +1,4 @@
 [package]
-authors = ["Filipe Rodrigues <filipejacintorodrigues1@gmail.com>"]
 edition = "2021"
 name = "ddw3-lang-file"
 version = "0.1.0"

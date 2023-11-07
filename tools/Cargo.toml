@@ -54,13 +54,17 @@ members = [
 anyhow = "1.0.75"
 arrayref = "0.3.7"
 ascii = "1.1.0"
+binrw = "0.13.1"
 bitflags = "2.4.0"
+bytemuck = "1.13.1"
 byteorder = "1.4.3"
 clap = { version = "4.4.1", features = ["derive"] }
 derive_more = "0.99.17"
 either = "1.9.0"
 extend = "1.2.0"
 goblin = "0.7.1"
+hex-literal = "0.4.1"
+hound = "3.5.1"
 image = "0.24.7"
 int-conv = "0.1.4"
 itertools = "0.11.0"
@@ -73,10 +77,6 @@ thiserror = "1.0.47"
 tracing = "0.1.37"
 tracing-subscriber = { version = "0.3.17", features = ["env-filter"] }
 xml-rs = "0.8.16"
-hex-literal = "0.4.1"
-hound = "3.5.1"
-bytemuck = "1.13.1"
-binrw = "0.13.1"
 
 # Workspace
 ddw3-bytes = { path = "ddw3-bytes" }
@@ -85,11 +85,11 @@ ddw3-iso9660 = { path = "ddw3-iso9660" }
 ddw3-lang-file = { path = "ddw3-lang-file" }
 ddw3-logger = { path = "ddw3-logger" }
 ddw3-mklang-file = { path = "ddw3-mklang-file" }
-ddw3-mkpsexe = { path = "ddw3-mkpsexe" }
-ddw3-mkrlen = { path = "ddw3-mkrlen" }
 ddw3-mkmap = { path = "ddw3-mkmap" }
 ddw3-mkmap-tile = { path = "ddw3-mkmap-tile" }
 ddw3-mkpack = { path = "ddw3-mkpack" }
+ddw3-mkpsexe = { path = "ddw3-mkpsexe" }
+ddw3-mkrlen = { path = "ddw3-mkrlen" }
 ddw3-mktim = { path = "ddw3-untim" }
 ddw3-psexe = { path = "ddw3-psexe" }
 ddw3-tim = { path = "ddw3-tim" }

@@ -10,9 +10,9 @@ byteorder = { workspace = true }
 clap = { workspace = true }
 ddw3-logger = { workspace = true }
 ddw3-util = { workspace = true }
+hex-literal = { workspace = true }
 itertools = { workspace = true }
 pathdiff = { workspace = true }
 serde = { workspace = true }
 serde_yaml = { workspace = true }
 tracing = { workspace = true }
-hex-literal = { workspace = true }

@@ -5,29 +5,16 @@ version = "0.1.0"
 
 [dependencies]
 
-# Dcb
-ddw3-bytes = { path = "../ddw3-bytes" }
-ddw3-logger = { path = "../ddw3-logger" }
-ddw3-tim = { path = "../ddw3-tim" }
-
-# Cmd
-clap = { version = "4.0.11", features = ["derive"] }
-
-# Logging
-tracing = "0.1.37"
-
-# Image
-image = "0.24.4"
-
-# Error handling
-anyhow = "1.0.65"
-thiserror = "1.0.37"
-
-# Util
-byteorder = "1.4.3"
-itertools = "0.10.5"
-pathdiff = "0.2.1"
-
-# Serde
-serde = { version = "1.0.145", features = ["derive"] }
-serde_yaml = "0.9.13"
+anyhow = { workspace = true }
+byteorder = { workspace = true }
+clap = { workspace = true }
+ddw3-bytes = { workspace = true }
+ddw3-logger = { workspace = true }
+ddw3-tim = { workspace = true }
+image = { workspace = true }
+itertools = { workspace = true }
+pathdiff = { workspace = true }
+serde = { workspace = true }
+serde_yaml = { workspace = true }
+thiserror = { workspace = true }
+tracing = { workspace = true }
