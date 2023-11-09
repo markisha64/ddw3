@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07BK MegaGargomon\\x02\\x07¡Has ganado!\n¡Eres fuerte![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Claro!¡He\nluchado contra\ntodos![pause]",
+	"\\x02\\x07BK MegaGargomon\\x02\\x07¡Increíble!\n¡Te daré esto![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Sí! ¡Tengo\nel Casco salvaje![pause]",
+	"\\x02\\x07BK MegaGargo.\\x02\\x07Buena suerte.\n¡Estaré \nanimándote![pause]",
+]

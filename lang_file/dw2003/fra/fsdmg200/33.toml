@@ -1,0 +1,18 @@
+strings = [
+	"",
+	"\\x02\\x07Teddy\\x02\\x07Hé,\n\\x02\\x08\\x01\\x02\\x05\\x01 ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Teddy, tout\nva bien ?[pause]",
+	"\\x02\\x07Teddy\\x02\\x07Oui, merci ![pause]\\x02\\x03Tu sais, MAGAMI\nfait partie de l'AoA.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Je suis au courant !\nMais qui sont ces\ngens, là-bas ?[pause]",
+	"\\x02\\x07Dr Kadomatsu\\x02\\x07Nous ne sommes pas\nde l'A.o.A ![pause]",
+	"\\x02\\x07Opérateur DO\\x02\\x07Nous ne savions pas\nque MAGAMI et l'AoA\nétaient liés ![pause]",
+	"\\x02\\x07Garde DO\\x02\\x07Les chefs et presque\ntout le personnel sont\ncomme nous ![pause]\\x02\\x03Les employés de\nMAGAMI ne sont\npas tous de l'AoA ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Très bien.\nJ'aiderai tout le\nmonde, attendez ici ![pause]\\x02\\x03Je vais affronter\nle Maître de jeu ![pause]",
+	"\\x02\\x07Opérateur DO\\x02\\x07Attention. Il paraît\nqu'il y a une trappe\ndans sa salle ![pause]",
+	"\\x02\\x07Garde DO\\x02\\x07Oui ! Il y a une\nporte secrète,\nquelque part.[pause]",
+	"\\x02\\x07Dr Kadomatsu\\x02\\x07J'en ai entendu\nparler aussi.[pause]\\x02\\x03Le code est\n\"MONSTRE\"...[pause]\\x02\\x03Mais je n'en\nsais pas plus.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK, merci ![pause]",
+	"\\x02\\x07Teddy\\x02\\x07Bonne chance,\n\\x02\\x08\\x01\\x02\\x05\\x01 ![pause]\\x02\\x03Ne laisse pas\nl'AoA gagner ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Tu peux me\nfaire\nconfiance ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023... Oh,\nTeddy ![pause]",
+]

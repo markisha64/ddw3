@@ -1,0 +1,10 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Líder Byakko,\ntengo algo que \npreguntarle...[pause]",
+	"\\x02\\x07Líder Byakko\\x02\\x07...¡Ya me habéis\nencontrado![pause]\\x02\\x03¡Bien, entonces \ndebemos luchar![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Qué? ¡Espera\nun segundo! \n¿Pero qué....?[pause]",
+	"\\x02\\x07Líder Byakko\\x02\\x07¡Silencio!¡No\nvoy a perder con\nla A.o.A![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Q..Qué?\n¿...A.o.A?[pause]",
+	"\\x02\\x07Líder Byakko\\x02\\x07¡No juegues \nconmigo! ¡Ven \naquí, mi Digimon![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡No puedo creerlo!\nOh, bueno...[pause]\\x02\\x03De acuerdo,\n¡terminemos con \nesto![pause]",
+]

@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Salut, tu sais\noù se trouves\nNumemon ?[pause]",
+	"\\x02\\x07HiAndromon\\x02\\x07Numemon ? Que\nlui veux-tu ?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023J'ai une question\nà lui poser. Allez,\ndis-moi où il est ![pause]",
+	"\\x02\\x07HiAndromon\\x02\\x07Je sais où il est mais\nje ne vais pas te le\ndire comme ça ! [pause]\\x02\\x03A partir d'ici, seuls\nles forts peuvent\nentrer.[pause]\\x02\\x03Si tu veux toujours\nle voir, tu devras\nd'abord me battre.[pause]",
+]

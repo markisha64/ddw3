@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Hey, do you \nknow where \nNumemon is?[pause]",
+	"\\x02\\x07HiAndromon\\x02\\x07Numemon?\nWhat do you want \nwith him?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023There's something I \nreally have to ask. \nCome on, tell me![pause]",
+	"\\x02\\x07HiAndromon\\x02\\x07I know where he is, \nbut I can't tell you \nthat easily.[pause]\\x02\\x03Beyond this point, \nonly the strong may \nenter.[pause]\\x02\\x03If you still want to \nsee him, then defeat \nme first.[pause]",
+]

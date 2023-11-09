@@ -1,0 +1,9 @@
+strings = [
+	"",
+	"\\x02\\x07KingEtemon\\x02\\x07¡Me gustas, así\nque te daré el\nTrofeo del Sol![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Gracias,\nKingEtemon![pause]\\x02\\x03¡Sí!¡Tengo\nel Trofeo del \nSol![pause]",
+	"\\x02\\x07KingEtemon\\x02\\x07¡Es el símbolo\ndel Rey de cartas\nAmaterasu![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Bien! ¡Ahora soy\nel mejor jugador de \ncartas de Amaterasu![pause]",
+	"\\x02\\x07KingEtemon\\x02\\x07¿?¿?\n¡Nooo!\n¡Soy el mejor![pause]\\x02\\x03¡Sólo has \ntenido suerte![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Je je je \nBueno, yo me voy\nde aquí.[pause]\\x02\\x03¡Adios KingEtemon![pause]",
+]

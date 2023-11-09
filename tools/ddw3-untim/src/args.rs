@@ -21,7 +21,7 @@ pub struct Args {
 	#[clap(long = "clut")]
 	pub output_clut: Option<PathBuf>,
 
-	/// Output yaml
-	#[clap(long = "yaml")]
-	pub output_yaml: Option<PathBuf>,
+	/// Output toml
+	#[clap(long = "toml")]
+	pub output_toml: Option<PathBuf>,
 }

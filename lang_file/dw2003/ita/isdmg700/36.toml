@@ -1,0 +1,13 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Da quando ho\nbattuto Galactimon\nva tutto bene.[pause]\\x02\\x03Sono ormai tre\nmesi. Mi sembra\nun sogno.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ma cosa\nfanno Ivy\ne Teddy?[pause]\\x02\\x03La cerimonia\nd'apertura\nsta per iniziare![pause]",
+	"Grazie a tutti! Ora inizia\nla cerimonia d'apertura di\nDigimon Online![pause]\\x02\\x03Il Canale DNB trasmette in\ndiretta dal Mondo Digitale\ngrazie alla rete ottica![pause]\\x02\\x03Adesso connettiamoci\nal Mondo Digitale![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Kurt è sorprendente!\nHa creato una\nnuova società...[pause]\\x02\\x03e ha sostituito la\nMAGAMI in Digimon\nOnline.[pause]",
+	"\\x02\\x07Ivy\\x02\\x07Perché parli da\nsolo? Mi fai\npaura![pause]",
+	"\\x02\\x07Teddy\\x02\\x07Ehi, \\x02\\x08\\x01\\x02\\x05\\x01!\nSei già\nqui?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ragazzi, è\ntardi![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Vi aspetto da\nalmeno dieci\nminuti![pause]",
+	"\\x02\\x07Ivy\\x02\\x07Non è colpa mia\nse tu sei arrivato\nmolto prima![pause]\\x02\\x03Se davvero volevi\nandare, potevi\nfarlo![pause]",
+	"\\x02\\x07Teddy\\x02\\x07Ehi, ehi!\n\\x02\\x08\\x01\\x02\\x05\\x01,\nIvy![pause]\\x02\\x03Calmatevi,\ne andiamo al\nCentro Online![pause]",
+]

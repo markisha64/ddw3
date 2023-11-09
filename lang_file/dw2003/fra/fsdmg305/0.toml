@@ -1,0 +1,12 @@
+strings = [
+	"",
+	"\\x02\\x07Kail\\x02\\x07Voilà le Maître\nde jeu.\nCachons-nous ![pause]",
+	"\\x02\\x07Le Maître de jeu\\x02\\x07Mais enfin,\nqu'est-ce que\nvous faites ?[pause]\\x02\\x03Nos projets\nsont contrariés ![pause]",
+	"\\x02\\x07???\\x02\\x07Désolé. Nous\nallons intensifier\nnos recherches.[pause]",
+	"\\x02\\x07Garde DO\\x02\\x07Nous allons \nbientôt\nle trouver ![pause]",
+	"\\x02\\x07[stat-defense]Junior[stat-defense] \\x02\\x07Je me demande\nde quoi ils\nparlent ![pause]",
+	"\\x02\\x07Garde DO\\x02\\x07Que font ces\nDigimons ici ?[pause]",
+	"\\x02\\x07Garde DO\\x02\\x07Il a l'air\nsuspect !\nAttrapez-le ![pause]",
+	"\\x02\\x07Garde DO\\x02\\x07Cela ne sert à\nrien de fuir ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Gloups ! Ils\nnous ont vus.[pause]",
+]

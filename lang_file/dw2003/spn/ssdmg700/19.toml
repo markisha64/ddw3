@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023¡Sí!\n¡He ganado al\nJefe Xuen Wu![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Y también tengo\nel Pase Negro...[pause]\\x02\\x03¡Lo que queda es\nCiudad Amaterasu!\n¡Vamos![pause]",
+]

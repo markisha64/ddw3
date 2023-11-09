@@ -1,0 +1,10 @@
+bpp = "Indexed8"
+
+[clut]
+pos = [0, 0]
+kind = "include"
+path = "100.clut.png"
+
+[img]
+pos = [0, 0]
+path = "100.png"

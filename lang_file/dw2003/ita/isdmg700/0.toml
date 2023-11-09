@@ -1,0 +1,13 @@
+strings = [
+	"",
+	"\\x02\\x07Junior\\x02\\x07Ormai è tardi\ne Teddy e Ivy\nnon si vedono![pause]\\x02\\x03Non potremo\npiù giocare\na Digimon Online![pause]",
+	"\\x02\\x07Junior\\x02\\x07Non volevo che Ivy\nvenisse. Teddy non\nsa tenere un segreto![pause]\\x02\\x03Avrebbero dovuto\nprocurarsi il pass\nper tempo.[pause]",
+	"Ultim'ora[pause]\\x02\\x03La Polizia Internazionale ha\nscoperto il QG europeo del\ngruppo criminale A.o.A.[pause]\\x02\\x03Con l'appoggio dell'esercito\nha attaccato il loro QG\nieri a mezzanotte.[pause]\\x02\\x03E ha arrestato i capi\ndell'A.o.A che si trovavano \nsul posto.[pause]\\x02\\x03La Polizia crede che l'A.o.A\nsia legato al recente\nterrorismo su Internet.[pause]",
+	"\\x02\\x07Junior\\x02\\x07L'A.o.A fece brutte\ncose con i Digimon\nin passato.[pause]\\x02\\x03È molto difficile far\nfare cose cattive\nai Digimon![pause]",
+	"\\x02\\x07Ivy\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01, perché\nparli da solo?\nFai paura.[pause]",
+	"\\x02\\x07Teddy\\x02\\x07Aspetti da molto,\n\\x02\\x08\\x01\\x02\\x05\\x01? Scusaci per\nl'ora![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Finalmente,\nTeddy![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Mi sai dire\ncome mai Ivy è\nqui?[pause]\\x02\\x03I Digimon non erano\ngiochi per bambini?[pause]",
+	"\\x02\\x07Ivy\\x02\\x07Ehi, mi interessa\nDigimon Online, ok?[pause]\\x02\\x03E non ho mai detto\ndi odiare i Digimon![pause]",
+	"\\x02\\x07Teddy\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01, Ivy, avanti,\nandiamo al Centro\nOnline![pause]",
+]

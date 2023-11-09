@@ -1,0 +1,15 @@
+strings = [
+	"",
+	"\\x02\\x07Chef de Suzaku\\x02\\x07Non, non. Tu\nne peux pas\npasser.[pause]\\x02\\x03Regarde\nça ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Qu'est-ce\nc'est ?![pause]",
+	"\\x02\\x07Chef de Suzaku\\x02\\x07Une brèche de\nsécurité, comme un\ntrou dans le réseau.[pause]\\x02\\x03Cela explique sans\ndoute le tremblement\nde terre.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ce... cette voix\nvient de la \nbarge... [pause]\\x02\\x03Je sais ! C'est\nBulbmon ![pause]",
+	"\\x02\\x07Chef de Susaku\\x02\\x07Je t'interdis de\npasser ![pause]\\x02\\x03Tu ne sais pas ce\nqui peut arriver.\nC'est dangereux ![pause]\\x02\\x03En tant que chef du\nSecteur Sud, je ne te\nlaisserai pas passer.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Allez. Je dois\nvraiment aller\nde l'autre côté ![pause]\\x02\\x03Tu es courant,\npour l'AoA ?[pause]\\x02\\x03Quelqu'un doit y\naller ou la situation\nva s'empirer ![pause]",
+	"\\x02\\x07Chef Suzaku\\x02\\x07Vu sous\ncet angle...[pause]",
+	"\\x02\\x07Chef de Suzaku\\x02\\x07Allez, d'accord ![pause]\\x02\\x03Mais si c'est\ntrop risqué, tu\nreviens, OK ?![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Quatre badges\nde chef ?[pause]\\x02\\x03D'accord !\nMerci, chef\nde Suzaku ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Cette brèche mène\npeut-être au serveur\nAmaterasu ?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Chef de Suzaku,\nj'ai une question ![pause]\\x02\\x03Sais-tu où se trouve\nla chambre d'urgence\ndu Secteur Nord ?[pause]",
+	"\\x02\\x07Chef de Suzaku\\x02\\x07Tu parles de la\nChambre\nMatrix d'urgence ?[pause]\\x02\\x03Elle est située au\nsous-sol de la\nMine de Kulon.[pause]\\x02\\x03Mais il faut les\n4 badges de chef\npour l'utiliser.[pause]",
+]

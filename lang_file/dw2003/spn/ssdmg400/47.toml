@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Umm, no veo\na Veemon.[pause]\\x02\\x03Umm...\nQué puedo hacer.\nUmmm.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Bueno, vámonos\ndel Bosque de \nlas Patadas.[pause]",
+]

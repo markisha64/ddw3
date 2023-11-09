@@ -1,0 +1,16 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Sepikmon,\n¡tengo tu\nMáscara Sepik![pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07¡Uauuu!\n¡Gracias![pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07......[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Qué pasa?\nPóntela \ny sal.[pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07Ejem... ¿Puedes \ndarte la vuelta?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ah, sí\nclaro.[pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07¡Muy bien!\n¡Mejor así!\n¡Me siento mejor![pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07¡Te daré \nesto![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Eh? ¿Qué \nes, Hierba\nOlorosa?[pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07¡Zanbamon odia la \nHierba Olorosa![pause]\\x02\\x03Es estupendo. ¡Así\nsaldrá corriendo![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿De verdad?\n¡Gracias, me  \nsalvas la vida![pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07A ti también.\n¡Mucha suerte![pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07¡Esta bolsa de \npapel no lo \ncortó![pause]",
+]

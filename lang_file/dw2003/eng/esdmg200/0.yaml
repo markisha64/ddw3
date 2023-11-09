@@ -1,7 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07\\x02\\x09\\x023Wow, so this\nis the world of \nDigimon Online?[pause]"
-  - "\\x02\\x07Account Clerk\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01, \nwelcome to \nAsuka Server![pause]\\x02\\x03Please retrieve\nyour Digimon data\nat the lobby.[pause]"
-  - |-
-    \x02\x07\x02\x09\x023Huh? Digimon?[pause]\x02\x03Oh, I understand.
-    I'll go right now![pause]

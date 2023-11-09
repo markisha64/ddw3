@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Gov. di Suzaku\\x02\\x07Oh no, ho\nperso![pause]\\x02\\x03Bene, come ti\nchiami?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023\\x02\\x08\\x01\\x02\\x05\\x01![pause]",
+	"\\x02\\x07Gov. di Suzaku\\x02\\x07È un bel\nnome![pause]\\x02\\x03OK, ti darò\nquesto.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ora ho lo\nstemma di\nSuzaku![pause]\\x02\\x03Devo prendere\nquello di\nByakko, ora.[pause]",
+	"\\x02\\x07Gov. di Suzaku\\x02\\x07Il Settore Ovest\nè oltre l'oceano.\nÈ duro arrivarci.[pause]\\x02\\x03L'unico modo è\nfarsi portare da\nSubmarimon.[pause]\\x02\\x03Per chiamarli serve\nil digi-uovo della\nfiducia.[pause]\\x02\\x03Chiedi sue notizie in giro\nper questo settore.[pause]\\x02\\x03È l'unico consiglio\nche posso darti.\nBuona fortuna![pause]",
+]

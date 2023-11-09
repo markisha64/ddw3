@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07M. Smith\\x02\\x07A vous de jouer ! \nLe clou de la vente ![pause]\\x02\\x03La Tenue Sauvage, \nadmirée par tous ![pause]\\x02\\x03Cet habit exclusif de \nKunamon est proposé à\n23000 BIT au départ ![pause]",
+	"\\x02\\x07Marchand Abel\\x02\\x0723500 BIT ![pause]",
+	"\\x02\\x07Chef Milly\\x02\\x0723800 \nBIT ![pause]",
+	"\\x02\\x07Masao Fan jeu\\x02\\x0723900 BIT ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hmm. 24000 \nBIT...hmmm...[pause]",
+]

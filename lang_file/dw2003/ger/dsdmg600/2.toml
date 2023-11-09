@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Hä? Seltsam.\nHier ist gar kein\nAbzeichen.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Was zum?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Was ist \ndenn jetzt?![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Whaaah![pause]",
+]

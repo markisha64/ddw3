@@ -1,0 +1,15 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Huch, was?\nSie sind noch immer\nnicht normal...[pause]",
+	"\\x02\\x07Teddy\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01, die\nKammer arbeitet\nauch nicht...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023...Kail![pause]",
+	"\\x02\\x07Teddy\\x02\\x07Kail![pause]",
+	"\\x02\\x07Kail\\x02\\x07Warum ist Kurt\nnicht wieder\nnormal?[pause]",
+	"\\x02\\x07Kurt\\x02\\x07Ooink, oink![pause]",
+	"\\x02\\x07Kail\\x02\\x07...Bleiben Kurt\nund die anderen\nso...?[pause]",
+	"\\x02\\x07Teddy\\x02\\x07N-nein. Wir können\nsie bestimmt\nwiederherstellen![pause]",
+	"\\x02\\x07Teddy\\x02\\x07...nicht wahr,\n\\x02\\x08\\x01\\x02\\x05\\x01?![pause]",
+	"\\x02\\x07\\x02\\x09\\x023...jja.\nIch bin sicher![pause]\\x02\\x03Ihr wartet hier.\nIch seh mir das\nmal an![pause]",
+	"\\x02\\x07Kail\\x02\\x07...hey,\n\\x02\\x08\\x01\\x02\\x05\\x01\nTeddy...[pause]",
+	"\\x02\\x07Kail\\x02\\x07Wir besiegten die\nA.o.A., richtig?[pause]",
+]

@@ -1,9 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07M. Smith\\x02\\x07A vous de jouer ! \nLe clou de la vente ![pause]\\x02\\x03Le Bâton YinYang, \nconvoité par tous ![pause]\\x02\\x03Cette arme exclusive de \nRenamon est proposée \nà 1600 BIT au départ ![pause]"
-  - '\x02\x07Marchand Abel\x02\x072000 BIT ![pause]'
-  - "\\x02\\x07Chef Milly\\x02\\x072300 \nBIT ![pause]"
-  - '\x02\x07Masao Fan jeu\x02\x072600 BIT ![pause]'
-  - |-
-    \x02\x07\x02\x09\x023Hmm. 2700 BIT
-    ...hmmm...[pause]

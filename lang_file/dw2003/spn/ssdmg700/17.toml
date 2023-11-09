@@ -1,0 +1,10 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023¡Sí, también \ngané al Líder\nGenbu![pause]",
+	"\\x02\\x07Líder Genbu\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01, siento \nhaberte hecho luchar.[pause]\\x02\\x03Quería comprobar\nque...[pause]\\x02\\x03¡Puedes luchar\ncontra la A.o.A![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh, ya veo.[pause]",
+	"\\x02\\x07Líder Genbu\\x02\\x07¡Toma esto\ny detén los \nplanes de A.o.A![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Sí! ¡Tengo\nel Pin Genbu![pause]",
+	"\\x02\\x07Líder Genbu\\x02\\x07Creo que eres lo \nsuficiente fuerte\npara luchar.[pause]\\x02\\x03Ellos también son\nson fuertes. \n¡La guardia alta![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Gracias,\nLíder Genbu![pause]",
+]

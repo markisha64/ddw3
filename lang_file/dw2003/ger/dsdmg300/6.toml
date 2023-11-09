@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07Datamon\\x02\\x07Oh, du hast einen\nPersonalpass. Ent-\nschuldige bitte...[pause]\\x02\\x03Ich öffne das Tor.\nTritt ein.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ah,\ndanke![pause]",
+]

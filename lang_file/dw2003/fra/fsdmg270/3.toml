@@ -1,0 +1,4 @@
+strings = [
+	"",
+	"\\x02\\x07Ken j. cartes\\x02\\x07OK, viens me \nvoir quand tu   \nvoudras ![pause]",
+]

@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"HA ha ha ha ha\nQue peux-tu faire, misérable ![pause]\\x02\\x03Moi, Lord Megadeath, j'ai passé\nle téléporteur ![pause]\\x02\\x03Viens à présent ! Meilleur dresseur !\nViens goûter ma force ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oui, c'est ça ![pause]\\x02\\x03Beaucoup de blabla\net peu d'actes ![pause]",
+]

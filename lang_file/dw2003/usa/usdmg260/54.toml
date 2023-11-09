@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023All right then!\n17500 BIT![pause]",
+	"\\x02\\x07Mr. Smith\\x02\\x07Wow! \n17500 BIT![pause]\\x02\\x03Anyone above\n17500 BIT?[pause]",
+	"\\x02\\x07Mr. Smith\\x02\\x07Seems like no one\nwants to contend.[pause]\\x02\\x03Ronin Armor is sold \nat 17500 BIT![pause]\\x02\\x03Congratulations\nto you over there![pause]\\x02\\x03I'm transferring \nthe item to your\nsatellite now![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Yeah! I got the\nRonin Armor![pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK, I got a pretty \ncool item, so let's \nsee what it does..[pause]",
+]

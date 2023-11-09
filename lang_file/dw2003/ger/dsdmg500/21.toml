@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07BK Seraphimon\\x02\\x07Ich weiβ, wie\nstark und mutig\ndu bist...[pause]\\x02\\x03Ich habe deinen\nMut getestet...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Spitze! Ich ge-\nwinne gegen alle\ndieser Kategorie![pause]",
+	"\\x02\\x07BK Seraphimon\\x02\\x07Das ist d. Geist![pause]\\x02\\x03Bestanden!\nAls Beweis gebe\nich dir das![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Yeah! Der\nSniper-Anzug![pause]",
+	"\\x02\\x07BK Seraphimon\\x02\\x07Der Weg wird\nsich durch Mut\nzeigen.[pause]\\x02\\x03Gib nie auf\nund halte\ndurch![pause]",
+]

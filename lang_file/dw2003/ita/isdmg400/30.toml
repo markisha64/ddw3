@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"Bip. Bip.\nATTENDERE.\nCONFERMA DATI.[pause]\\x02\\x03... ...\nLA CARTA BLU NON\nÈ CONFERMABILE.[pause]\\x02\\x03FINE REGISTRAZIONE\nACCOUNT.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Cosa? Perché non\nposso registrarmi?[pause]\\x02\\x03Ho la carta blu![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Eh? Cosa?! Ma\nnon è la carta\nblu![pause]\\x02\\x03La B è un 8!\nÈ una carta\n8lu![pause]\\x02\\x03Questa è falsa!\nMi hanno\nfregato![pause]",
+]

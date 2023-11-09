@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"180 SECONDES !\n180 SECONDES ![pause]\\x02\\x03DELAI DE REALISATION\nECOULE...\nNUMERISATION ENGAGEE ![pause]",
+	"\\x02\\x07Responsable Chambre\\x02\\x07Aucune anomalie\ndans les données\ndu Système Astral.[pause]\\x02\\x03Numérisation ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Les 3 minutes\nsont passées !\nTrop tard ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Que faire ?!\nLe Juggernaut va\npartir ![pause]",
+]

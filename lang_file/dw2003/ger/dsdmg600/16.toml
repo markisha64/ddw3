@@ -1,0 +1,14 @@
+strings = [
+	"",
+	"\\x02\\x07Angreifer\\x02\\x07Nein, neeein...\nmeine Digimon...[pause]\\x02\\x03Dafür wirst du\nbezahlen![pause]",
+	"\\x02\\x07Lisa\\x02\\x07Danke, \\x02\\x08\\x01\\x02\\x05\\x01.\nDu hast mich schon\nwieder gerettet![pause]",
+	"\\x02\\x07Kail\\x02\\x07Aber Kurt ist...!\nIch dachte, ich hätte\nihn endlich gefunden.[pause]",
+	"\\x02\\x07Kurt\\x02\\x07Oink, oink[pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK, ich habe mich\nentschieden! Ich gehe\nnach Asuka City![pause]\\x02\\x03Ich werde Teddy\nretten u. d. Game-\nmaster besiegen![pause]",
+	"\\x02\\x07Kail\\x02\\x07Ja, wir machen die\nA.o.A. fertig![pause]\\x02\\x03Und verwandeln Kurt\nzurück![pause]",
+	"\\x02\\x07Lisa\\x02\\x07Ich bitte dich auch\ndarum![pause]\\x02\\x03Aber es soll keine\nPanik ausbrechen.[pause]\\x02\\x03Könnt ihr das über\ndie A.o.A. für \neuch behalten?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ist klar![pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK, Kail.\nIch gehe![pause]",
+	"\\x02\\x07Kail\\x02\\x07Wenn du verlierst,\nverzeihe ich dir das\nnie, verstanden?![pause]",
+	"\\x02\\x07Lisa\\x02\\x07Ich drück dir die\nDaumen! V.Glück![pause]",
+]

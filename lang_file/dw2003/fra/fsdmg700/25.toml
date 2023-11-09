@@ -1,0 +1,11 @@
+strings = [
+	"",
+	"\\x02\\x07Responsable Chambre\\x02\\x07Tout est ok. Le\ncontrôle de \\x02\\x08\\x01\\x02\\x05\\x01\nest terminé.[pause]\\x02\\x03Inversion du\nSystème Matrix.[pause]\\x02\\x03Où veux-tu être\n\"réalisé\" dans le\nMonde Réel ?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023La base militaire\nde Magasta, dans\nle Monde Réel ![pause]\\x02\\x03Elle est au fond\nde l'océan ![pause]",
+	"\\x02\\x07Responsible Chambre\\x02\\x07Je comprends.\nLa base militaire\nde Magasta...[pause]",
+	"\\x02\\x07Responsable Chambre\\x02\\x07Accepté. Elle est\ndans le champ.[pause]\\x02\\x03Mais le système est\ninstable et... [pause]\\x02\\x03tu n'auras que\n180 secondes dans\nle Monde Réel.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Que se passera-\nt-il si je dépasse\nce temps ?[pause]",
+	"\\x02\\x07Responsable Chambre\\x02\\x07La \"Réalisation\"\nstoppera et le système\nte renverra ici.[pause]\\x02\\x03Les données Matrix ne\nseront pas abîmées,\nne t'inquiète pas.[pause]\\x02\\x03Démarrons le\nSystème Matrix,\nà présent.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Très bien !\nQue dois-je\nfaire ?[pause]",
+	"\\x02\\x07Responsible Chambre\\x02\\x07Va dans le\ntéléporteur,\nsur ma gauche.[pause]\\x02\\x03Bonne chance\n\\x02\\x08\\x01\\x02\\x05\\x01.[pause]",
+]

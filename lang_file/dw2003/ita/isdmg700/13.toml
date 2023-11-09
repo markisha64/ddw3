@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07Cavaliere fuoco\\x02\\x07Incredibile!\nStavolta ho perso![pause]\\x02\\x03Devo scaricarmi,\nogni tanto. Ritorna,\nqualche volta![pause]",
+	"\\x02\\x07Cavaliere fuoco\\x02\\x07Attento alla\ngrotta delle\ntenebre![pause]",
+]

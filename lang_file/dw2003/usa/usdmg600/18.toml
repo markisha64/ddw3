@@ -1,0 +1,13 @@
+strings = [
+	"",
+	"\\x02\\x07Byakko Leader\\x02\\x07...Oh, oh, I \nsee.[pause]\\x02\\x03I'm sorry for \nmistaking you \nfor the A.o.A.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ah, that's OK...[pause]\\x02\\x03But wait, does that \nmean the people in \nByakko City are...?[pause]",
+	"\\x02\\x07Byakko Leader\\x02\\x07Yes. They're the \nA.o.A![pause]\\x02\\x03They just came and \ntook over Byakko City![pause]\\x02\\x03We were held in the \nbasement prison...[pause]\\x02\\x03But Numemon came and \nrescued us.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023I see...\nBut the A.o.A and\nLucky Mouse...[pause]\\x02\\x03And what's happening\nto Digimon Online?[pause]",
+	"\\x02\\x07Byakko Leader\\x02\\x07I don't know either.[pause]\\x02\\x03If you want to know \nmore, then find that\nNumemon.[pause]\\x02\\x03If you go to the Dum \nDum Factory you'll \nfind him.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK![pause]",
+	"\\x02\\x07Byakko Leader\\x02\\x07Wait a second.\nI haven't given \nyou this yet![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Yeah! I got the\nByakko Badge![pause]\\x02\\x03Thanks, Byakko \nLeader![pause]",
+	"\\x02\\x07Byakko Leader\\x02\\x07After all, you did\nbeat me![pause]\\x02\\x03And it might come \nin handy later on![pause]",
+	"\\x02\\x07Byakko Leader\\x02\\x07There'll be more\nA.o.A. Be careful![pause]",
+]

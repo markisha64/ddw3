@@ -1,0 +1,4 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Ooops![pause]\\x02\\x03Il centro amm.\nè di là.[pause]",
+]

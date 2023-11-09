@@ -1,0 +1,13 @@
+strings = [
+	"",
+	"\\x02\\x07Kail\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01 ! Tu\nes en retard.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ah, salut\nKail, tu as\nfini ?[pause]",
+	"\\x02\\x07Kail\\x02\\x07Euh, oui.\nAlors, tu as\ntrouvé Teddy ?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Non, il est\nintrouvable.[pause]",
+	"\\x02\\x07Kail\\x02\\x07J'ai regardé partout\nmoi aussi, en vain.[pause]\\x02\\x03Il a bien dit qu'il\nallait au Centre\nAdministratif...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Je me demande\njusqu'où il est allé.[pause]",
+	"\\x02\\x07Kail\\x02\\x07...[pause]",
+	"\\x02\\x07Kail\\x02\\x07Je sens qu'il est\nlà-dedans. Pas\ntoi ?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hmm... Tant\nqu'on n'aura\npas vérifié...[pause]",
+	"\\x02\\x07Kail\\x02\\x07Merci !\nOK, entrons,\nalors ![pause]",
+]

@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Zanbamon\\x02\\x07Fermati!\nAspetta![pause]\\x02\\x03Non ti farò\npassare \ndi qui![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Stai scherzando!\nDevo andare\nlaggiù![pause]",
+	"\\x02\\x07Zanbamon\\x02\\x07Allora battimi![pause]\\x02\\x03Ma io non ho\nmai perso!\nAh, ah, ah, ah![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Davvero?[pause]\\x02\\x03Sarà la\nprima volta![pause]",
+]

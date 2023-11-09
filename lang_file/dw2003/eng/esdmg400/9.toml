@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07Zanbamon\\x02\\x07What, you're running \naway in the middle \nof the battle?[pause]\\x02\\x03You're no match for \nme![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Man, what's\ngoing on![pause]\\x02\\x03Just watch, I'm\ngoing to win! \nI'll be back![pause]",
+	"\\x02\\x07Zanbamon\\x02\\x07You're all\ntalk, kid!\nHa ha ha ha![pause]",
+]

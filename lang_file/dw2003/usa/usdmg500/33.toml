@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023An \nearthquake\nagain?![pause]",
+	"\\x02\\x07\\x02\\x09\\x023I was right!\nIt's Bulbmon![pause]",
+	"\\x02\\x07\\x02\\x09\\x023That earthquake was \ncaused by it \nmaking holes![pause]\\x02\\x03Just watch.\nI'm going to defeat\nit this time![pause]",
+]

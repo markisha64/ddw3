@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Chef de Suzaku\\x02\\x07Mon Digimon\na perdu, non ![pause]\\x02\\x03Tant pis. Quel\nest ton nom ?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023\\x02\\x08\\x01\\x02\\x05\\x01 ![pause]",
+	"\\x02\\x07Chef de Suzaku\\x02\\x07C'est un nom\nsympa ![pause]\\x02\\x03OK, je te\ndonne ça.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Super, j'ai\nle Badge\nde Suzaku ![pause]\\x02\\x03Il me faut\nà présent le\nBadge Byakko.[pause]",
+	"\\x02\\x07Chef Susaku\\x02\\x07Le Secteur Ouest n'est\npas facile à atteindre,\nil faut franchir l'océan.[pause]\\x02\\x03Il n'y a qu'une façon d'y\naller. Tu dois appeler\nSubmarimon.[pause]\\x02\\x03Pour appeler Submarimon,\nil te faut le Digi-Oeuf\nde la Fiabilité.[pause]\\x02\\x03Récolte des infos à ce\nsujet dans ce secteur.[pause]\\x02\\x03C'est la seule piste que\nje puisse te donner.\nBonne chance ![pause]",
+]

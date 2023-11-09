@@ -1,0 +1,10 @@
+strings = [
+	"",
+	"\\x02\\x07Mat infido\\x02\\x07Ti ho già detto che\nEtemon non si trova\nqui.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Certo che no,\nperché sei tu\nEtemon![pause]",
+	"\\x02\\x07Mat infido\\x02\\x07Cosa?![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ti ho scoperto.\nLaggiù indossavi\nla tuta di Etemon![pause]",
+	"\\x02\\x07Mat infido\\x02\\x07... ...[pause]\\x02\\x03Allora mi hai\nscoperto!\nAcc![pause]\\x02\\x03Ti prego, non lo\ndire a nessuno![pause]\\x02\\x03Ti darà qualcosa\nin cambio![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ottimo! Tute\ndi Agumon.[pause]",
+	"\\x02\\x07Mat infido\\x02\\x07È un segreto\nfra me e te,\nva bene?[pause]",
+]

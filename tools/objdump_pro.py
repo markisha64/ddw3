@@ -10,6 +10,7 @@ from dataclasses import dataclass
 from typing import Self, List
 from pathlib import Path
 import util
+import toml
 
 
 def clean_arg(arg: str):
@@ -240,32 +241,29 @@ def main(args):
 		for remaining_idx, remaining_byte in enumerate(remaining_bytes):
 			output_asm_file.write(f".L0x{remaining_addr + 0x4 * remaining_idx:08x}: .byte 0x{remaining_byte:x}\n")
 
-	# Then the raw exe yaml
-	raw_exe_yaml_file = open(args.output_raw_exe_yaml, "w", encoding="utf-8")
-	raw_exe_yaml_file.write(f"""\
----
-elf: /build/elf/dw2003/pro/{name}.elf
-""")
+	# Then the raw exe toml
+	toml.dump(
+		{ "elf": f"/build/elf/dw2003/pro/{name}.elf" },
+		open(args.output_raw_exe_toml, "w", encoding="utf-8")
+	)
 
-	# And finally the elf yaml
-	elf_yaml_file = open(args.output_elf_yaml, "w", encoding="utf-8")
-	elf_yaml_file.write(f"""\
----
-start_addr: 0x0
-objs:
-  - /build/asm/dw2003/pro/{name}.o
-sections:
-  - section_{name}
-""")
-
+	# And finally the elf toml
+	toml.dump(
+		{
+			"start_addr": 0,
+			"objs": [f"/build/asm/dw2003/pro/{name}.o"],
+			"sections": [f"section_{name}"]
+		},
+		open(args.output_elf_toml, "w", encoding="utf-8")
+	)
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
 	parser.add_argument("input", type=str)
 	parser.add_argument("--objdump-bin", dest="objdump_bin", type=str, required=True)
 	parser.add_argument("--output-asm", dest="output_asm", type=str, required=True)
-	parser.add_argument("--output-raw-exe-yaml", dest="output_raw_exe_yaml", type=str, required=True)
-	parser.add_argument("--output-elf-yaml", dest="output_elf_yaml", type=str, required=True)
+	parser.add_argument("--output-raw-exe-toml", dest="output_raw_exe_toml", type=str, required=True)
+	parser.add_argument("--output-elf-toml", dest="output_elf_toml", type=str, required=True)
 
 	args = parser.parse_args()
 	main(args)

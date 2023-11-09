@@ -167,11 +167,11 @@ fn main() -> Result<(), anyhow::Error> {
 			.context("Unable to write clut to output file")?;
 	}
 
-	// Write the yaml, if any
-	if let Some(output_yaml) = &args.output_yaml {
-		let output_yaml_parent = output_yaml
+	// Write the toml, if any
+	if let Some(output_toml) = &args.output_toml {
+		let output_toml_parent = output_toml
 			.parent()
-			.context("Output yaml file had no parent directory")?;
+			.context("Output toml file had no parent directory")?;
 
 		let config = Config {
 			bpp:  header.bpp,
@@ -179,7 +179,7 @@ fn main() -> Result<(), anyhow::Error> {
 				pos:  [clut_header.pos_x, clut_header.pos_y],
 				kind: match &args.output_clut {
 					Some(clut_path) => ConfigClutKind::Include {
-						path: pathdiff::diff_paths(clut_path, output_yaml_parent)
+						path: pathdiff::diff_paths(clut_path, output_toml_parent)
 							.unwrap_or_else(|| Path::new("/").join(clut_path)),
 					},
 					None => ConfigClutKind::Auto,
@@ -187,13 +187,13 @@ fn main() -> Result<(), anyhow::Error> {
 			}),
 			img:  ConfigImg {
 				pos:  [img_header.pos_x, img_header.pos_y],
-				path: pathdiff::diff_paths(&args.output, output_yaml_parent)
+				path: pathdiff::diff_paths(&args.output, output_toml_parent)
 					.unwrap_or_else(|| Path::new("/").join(&args.output)),
 			},
 		};
 
-		let yaml_output = fs::File::create(output_yaml).context("Unable to create output yaml file")?;
-		serde_yaml::to_writer(yaml_output, &config).context("Unable to write output yaml file")?;
+		let output = toml::to_string_pretty(&config).context("Unable to write output toml file")?;
+		fs::write(output_toml, output).context("Unable to write output toml file")?;
 	}
 
 	Ok(())

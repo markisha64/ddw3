@@ -1,0 +1,10 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023J'ai aussi\nvaincu le chef\nde Genbu ![pause]",
+	"\\x02\\x07Chef de Genbu\\x02\\x07Désolé de t'avoir\nforcé à te battre.[pause]\\x02\\x03Je voulais vérifier par\nmoi-même que... [pause]\\x02\\x03Tu pouvais vraiment\ntriompher de l'AoA ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh, je vois.[pause]",
+	"\\x02\\x07Chef de Genbu\\x02\\x07Maintenant prends\nça et déjoue les\nplans de l'AoA ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Super ! J'ai\nle badge\nde Genbu ![pause]",
+	"\\x02\\x07Chef de Genbu\\x02\\x07Tu es assez fort\npour lutter\ncontre eux.[pause]\\x02\\x03Mais eux aussi\nsont forts,\nsois prudent ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Merci, chef\nde Genbu ![pause]",
+]

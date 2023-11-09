@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Mr. Smith\\x02\\x07Oin oink oooink![pause]\\x02\\x03Oink, oin, ooink![pause]\\x02\\x03Oin, ooink, ooin oi \noiin oinko![pause]\\x02\\x03Oi oinioi oinoink\noinnk oin oinkk oi\n30000 BIT![pause]",
+	"\\x02\\x07Dealer Abel\\x02\\x07Oioi!\n31000 BIT![pause]",
+	"\\x02\\x07Chief Milly\\x02\\x07Oioi\n31500 \nBIT![pause]",
+	"\\x02\\x07RPG Fan Masao\\x02\\x07Oin oi\n31900 BIT![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hmm. 32000 BIT\n...hmmm...[pause]",
+]

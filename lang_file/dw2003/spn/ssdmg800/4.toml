@@ -1,0 +1,10 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023¡Gané!\n¡Que bueno\nsoy![pause]\\x02\\x03Tengo que \ndetener al\nJuggernaut[pause]\\x02\\x03¿Eh? Hay algo\nen el suelo.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Qué? El\ncampo magnético\nha desaparecido.[pause]",
+	"TODO DESPEJADO\nPARA LANZAMIENTO[pause]\\x02\\x03¡LANZAMIENTO DE\nJUGGERNAUT![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Qué?[pause]\\x02\\x03¡Tengo que\npararlo![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Qué hago?\n¡El Juggernaut \nestá lanzándose![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Eh?[pause]\\x02\\x03¡No funciona!\nNada de esto lo\npara.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Sí! ¡Tengo un\nCasco alado![pause]",
+]

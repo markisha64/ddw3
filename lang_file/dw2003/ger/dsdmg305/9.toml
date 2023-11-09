@@ -1,0 +1,9 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Asukas Gamemaster\nschickte Vemmon\nirgendwohin...[pause]\\x02\\x03Vielleicht gibt\nes dort einen Hinweis!\nLasst uns hineingehen![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Was!?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Was?\nWarum ist Oinkmon\nim Asuka-Server?[pause]",
+	"\\x02\\x07Oinkmon\\x02\\x07Oioionk?\nOioinoink!\nOioinoink??[pause]",
+	"\\x02\\x07Oinkmon\\x02\\x07Oioin, oinnk?\nOioionoinkn!\nOin, oinoiknk![pause]",
+	"\\x02\\x07Oinkmon\\x02\\x07Oooin, oioink!\nOinoink, oink!\nOioin, oinnk![pause]",
+]

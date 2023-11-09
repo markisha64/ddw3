@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Qué raro...\nNo hay nadie\naquí.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Ya sé! Igual que\nen la Sala Maestra\nde Juego de Asuka.[pause]\\x02\\x03Una puerta secreta.[pause]\\x02\\x03¿Cuál será el\ncódigo?[pause]\\x02\\x03En Asuka era \nMONSTER así \nque será DIGITAL...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Se abrió sola.\n¿Por qué?[pause]\\x02\\x03¡¿?!\nQuizás quiere\nque entre...[pause]\\x02\\x03¡De acuerdo!\n¡Voy a entrar\nseas quien seas![pause]",
+]

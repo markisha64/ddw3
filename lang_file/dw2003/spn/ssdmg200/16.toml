@@ -1,0 +1,9 @@
+strings = [
+	"",
+	"\\x02\\x07Digimon Navi.\\x02\\x07Mostraré los\ndatos en tu\nsatélite.[pause]",
+	"\"Katemon\"\nPuede aprender Agumon y Veemon\nsi entrenas la tolerancia a máquina.[pause]\\x02\\x03\"Monmon\"\nUna vez aprenda form. Def.,entrena\nsu fza. y tolerancia a máq. y vto.[pause]",
+	"\"Kumamon\"\nEntrena sabiduría y espíritu\nlas más difíciles de incre.[pause]\\x02\\x03\"Renamon\"\nEntrena espíritu o fuerza y defensa.[pause]",
+	"\"Patamon\"\nEntrena sabiduría o fuerza.[pause]\\x02\\x03\"Agumon\"\nSi incre. La tolerancia a oscur.\naprenderá la digiev. Osc.[pause]",
+	"\"Guilmon\"\nSus parámetros son parciales,\nla clave, reforzar sus puntos déb.[pause]\\x02\\x03\"Veemon\"\nNo aprende mucho al principio, pero\nsi entrena algunos parámetros...[pause]",
+	"\\x02\\x07Digiev. Navi.\\x02\\x07Esa es toda la \ninformación.\n¡Buena suerte![pause]",
+]

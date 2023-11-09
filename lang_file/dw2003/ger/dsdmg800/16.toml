@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Also, Lord\nMegadeath![pause]\\x02\\x03Denkst du immer\nnoch, du bist\nder Stärkste?[pause]",
+	"...Natürlich...\nDas war nur ein Test.[pause]\\x02\\x03Ich habe immer noch \nSnatchmon, das \nstärkste Digimon...[pause]\\x02\\x03Du wirst bald sehen,\nwas echter Terror\nist...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hey, du \nhaust nicht\nab![pause]",
+]

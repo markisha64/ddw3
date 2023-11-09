@@ -1,0 +1,30 @@
+width = 6
+height = 4
+entries = [
+	"/build/rlen/dw2003/z_stage/S620PACK/0.bin",
+	"/build/rlen/dw2003/z_stage/S620PACK/1.bin",
+	"/build/rlen/dw2003/z_stage/S620PACK/2.bin",
+	"/build/rlen/dw2003/z_stage/S620PACK/3.bin",
+	"/build/rlen/dw2003/z_stage/S620PACK/4.bin",
+	"/build/rlen/dw2003/z_stage/S620PACK/5.bin",
+	"/build/map-tile/dw2003/z_stage/S620PACK/6.bin",
+	"/build/rlen/dw2003/z_stage/S620PACK/7.bin",
+	"/build/rlen/dw2003/z_stage/S620PACK/8.bin",
+	"/build/rlen/dw2003/z_stage/S620PACK/9.bin",
+	"/build/rlen/dw2003/z_stage/S620PACK/10.bin",
+	"/build/rlen/dw2003/z_stage/S620PACK/11.bin",
+	"/build/rlen/dw2003/z_stage/S620PACK/12.bin",
+	"/build/rlen/dw2003/z_stage/S620PACK/13.bin",
+	"/build/rlen/dw2003/z_stage/S620PACK/14.bin",
+	"/build/map-tile/dw2003/z_stage/S620PACK/15.bin",
+	"/build/rlen/dw2003/z_stage/S620PACK/16.bin",
+	"/build/rlen/dw2003/z_stage/S620PACK/17.bin",
+	"/map-tile/empty.bin",
+	"/build/rlen/dw2003/z_stage/S620PACK/19.bin",
+	"/build/rlen/dw2003/z_stage/S620PACK/20.bin",
+	"/build/rlen/dw2003/z_stage/S620PACK/21.bin",
+	"/build/rlen/dw2003/z_stage/S620PACK/22.bin",
+	"/build/rlen/dw2003/z_stage/S620PACK/23.bin",
+]
+override_entries_len = 23
+extra_padding = 16384

@@ -1,0 +1,12 @@
+strings = [
+	"",
+	"\\x02\\x07Veemon\\x02\\x07Then what should we \nplay?\nHmmmmm...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Woah, Veemon! I \nwant the Tree Boots.[pause]",
+	"\\x02\\x07Veemon\\x02\\x07Tree Boots?\nOh, the boots for\nkicking trees...[pause]\\x02\\x03Yeah, sure, but \nonly if you play \nwith me![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Sure thing!\nWhat're we \ngoing to play?![pause]",
+	"\\x02\\x07Veemon\\x02\\x07I'll go hide in the \nKicking Forest, and \nyou have to find me.[pause]\\x02\\x03If you can find me,\nI'll give you the\nTree Boots![pause]\\x02\\x03You lose if you\nleave the forest \nwithout finding me![pause]\\x02\\x03And if you leave the\nKicking Forest, I'm \ngonna go home to eat![pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK!\nI'm gonna find\nyou![pause]",
+	"\\x02\\x07Veemon\\x02\\x07Heh heh heh.\nIt won't be that \neasy![pause]\\x02\\x03Count to 10 and \ncome to the \nforest![pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK, counting to 10!\n1, 2, 3, 4, 5, \n6, 7, 8, 9, 10![pause]\\x02\\x03.......\n.........\nWas that too fast?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh, well!\nOK, let's go \nfind him![pause]",
+]

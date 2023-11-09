@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023In Ordnung! Ich\nbiete 800 BIT![pause]",
+	"\\x02\\x07Mr. Smith\\x02\\x07Wow!\n800 BIT![pause]\\x02\\x03Bietet jmd.\nmehr?[pause]",
+	"\\x02\\x07Mr. Smith\\x02\\x07Es bietet wohl\nkeiner mehr.[pause]\\x02\\x03Gottes-Hürde ver-\nkauft für 800 BIT[pause]\\x02\\x03Gratulation![pause]\\x02\\x03Ich übertrage das\nItem jetzt an \ndeinen Satelliten![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Super! Die\nGottes-Hürde![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ich hab jetzt ein\necht cooles Item,\nalso ziehen wir los.[pause]",
+]

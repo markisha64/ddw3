@@ -1,0 +1,14 @@
+strings = [
+	"",
+	"\\x02\\x07Teddy\\x02\\x07Hi \\x02\\x08\\x01\\x02\\x05\\x01!\nDas ist super!\nEcht super![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Was ist los?\nWarum so\nin Eile?[pause]",
+	"\\x02\\x07Teddy\\x02\\x07Lucky Mouse!\nLucky Mouse ist\naufgetaucht![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Was?\nLucky Mouse?[pause]",
+	"\\x02\\x07Teddy\\x02\\x07Weiβt du das nicht?\nEr ist ein genialer\nHacker![pause]\\x02\\x03Er knackt jedes\nProgramm![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ach so.[pause]",
+	"\\x02\\x07Teddy\\x02\\x07Ich bin ein echter Fan\nvon ihm und will ihn\nunbedingt treffen![pause]",
+	"...Eine Durchsage an alle, die \nDigimon-Online spielen.[pause]\\x02\\x03In Kürze werden notwendige\nWartungsarbeiten durchgeführt.[pause]\\x02\\x03Währenddessen könnt ihr nicht in \ndie echte Welt zurück, müsst aber\nauch nichts bezahlen.[pause]\\x02\\x03...Ich wiederhole.\nAlle können umsonst spielen![pause]",
+	"\\x02\\x07Teddy\\x02\\x07Hey, hast du\ndas gehört?[pause]\\x02\\x03Bestimmt steckt\nLucky Mouse \ndahinter![pause]\\x02\\x03Mann, ich halts nicht\naus. Ich muss Lucky\nMouse finden.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Heh, hey...\nTeddy![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Weg ist er.\n..............[pause]\\x02\\x03Immer dasselbe,\nwenn er aufgeregt\nist.[pause]",
+]

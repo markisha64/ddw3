@@ -1,0 +1,4 @@
+strings = [
+	"",
+	"\\x02\\x07Smith Junior\\x02\\x07Oh, du hast \neine \nEldorado-ID.[pause]\\x02\\x03Dann geh wei-\nter, du kannst\npassieren.[pause]",
+]

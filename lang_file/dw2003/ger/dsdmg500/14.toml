@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Hey, MagnaAngemon.\nTu mir einen Gefallen.[pause]\\x02\\x03Kann ich die Patamon-\nDDNA von dir haben?[pause]",
+	"\\x02\\x07MagnaAngemon\\x02\\x07Tschuldige, aber die\nkann ich nicht so\neinfach hergeben.[pause]\\x02\\x03Wenn du mich schla-\ngen kannst, denke\nich darüber nach.[pause]",
+]

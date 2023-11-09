@@ -1,0 +1,18 @@
+strings = [
+	"",
+	"Ordner erst.",
+	"Digi-Karten",
+	"Progr.-Karte",
+	"Kartenfarbe",
+	"D-Energie",
+	"Combos",
+	"Booster-Pack",
+	"Zurück",
+	"Du musst einen Ordner mit 40\nKarten haben, bevor du an einem\nKartenkampf teilnehmen kannst.[pause]\\x02\\x03Es können bis zu vier gleiche\nKarten in einem Ordner sein.[pause]",
+	"Digimon-Karten rufen die Digimon\nherbei. AP- und HP-Punkte sind\nauf den Karten aufgedruckt. AP[pause]\\x02\\x03ist Angriffs-Power und HP sind\nTreffer. Wenn HP auf 0 fällt,\nwerden die Digimon abgelegt.[pause]\\x02\\x03Wird 5/3 gezeigt, ist AP 5 und\nHP ist 3.[pause]",
+	"Prog.-Karten können deine Digimon\nstärken und dem Gegner Karten\naus dem Blatt nehmen.[pause]\\x02\\x03Jede Karte hat einen best. Wert.\nAuf den Karten steht, was man\ndamit machen kann.[pause]",
+	"Kartenfarben sind Weiβ, Blau,\nGrün, Rot, Schwarz oder Braun.[pause]\\x02\\x03Beim Ziehen einer Karte wird\ndie D-Energie der Kartenf. erhöht.[pause]\\x02\\x03D-Energie wird zum Rufen von\nChampion-Digimon od. höher gebraucht[pause]",
+	"Verwende D-Energie der gleichen\nFarbe wie die Karte, um Digimon\nzu rufen. Champion-Digimon kosten[pause]\\x02\\x031 Punkt, Ultra 2 Punkte und Mega\n3 Punkte.[pause]\\x02\\x03Rookie-Digimon können ohne\nD-Energie gerufen werden.[pause]",
+	"Wenn 3+ identische Digimon-Karten\nwährend der Kampfphase in deinem\nFeld erscheinen, gibt es eine Combo[pause]\\x02\\x03Alle Punkte der Combo werden den\nGesamtpunkten hinzugefügt. Bei\n4+ Karten erhältst du einen Bonus.[pause]",
+	"Wenn du Booster-Packs hast und sie\nin einem Shop öffnen lässt, kriegst\ndu Karten. Tamers kriegen Booster,[pause]\\x02\\x03wenn sie gewinnen. Auβerdem sollen\neinige Digimon sie haben.[pause]",
+]

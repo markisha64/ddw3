@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Bon, plaçons\nle chip TNT\nlà-dessus.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Il y a un\ntrou dans\nle mur ![pause]\\x02\\x03On peut\nentrer ![pause]",
+]

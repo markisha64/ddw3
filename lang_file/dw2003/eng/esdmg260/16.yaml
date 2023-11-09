@@ -1,9 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07Mr. Smith\\x02\\x07Now's your chance![pause]\\x02\\x03Finally, our main item![pause]\\x02\\x03Yin Yang Wand, coveted \nby all members![pause]\\x02\\x03This Renamon exclusive \nweapon will start at\n1600 BIT![pause]"
-  - '\x02\x07Dealer Abel\x02\x072000 BIT![pause]'
-  - '\x02\x07Chief Milly\x02\x072300 BIT![pause]'
-  - '\x02\x07RPG Fan Masao\x02\x072600 BIT![pause]'
-  - |-
-    \x02\x07\x02\x09\x023Hmm... 2700 BIT
-    ...hmmm...[pause]

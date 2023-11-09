@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Datamon\\x02\\x07Tu dois être fort si\ntu arrives à me battre.\nVoici une récompense ![pause]\\x02\\x03Les Gants Rouillés !\nC'est un objet rare,\nne le perds pas ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hein ? OK,\nJe les garde.\nMerci...[pause]\\x02\\x03J'ai les Gants\nRouillés. C'est\nbien, non ?[pause]",
+	"\\x02\\x07Datamon\\x02\\x07Des secrets peuvent\nmener à d'anciennes\narmes et armures.[pause]\\x02\\x03Trouve les Digimons\narmure digivolvés qui\nles connaissent.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Très bien !\nJe trouverai ces\nDigimons ![pause]",
+]

@@ -1,0 +1,13 @@
+strings = [
+	"",
+	"\\x02\\x07Lisa\\x02\\x07All right! Nick, look\nfor a pass code in\nthe computer![pause]",
+	"\\x02\\x07Lisa\\x02\\x07Keith, you clean\nup the documents! \nCome on, hurry up![pause]",
+	"\\x02\\x07Keith\\x02\\x07Yes ma'am![pause]",
+	"\\x02\\x07Nick\\x02\\x07Roger that![pause]",
+	"\\x02\\x07Lisa\\x02\\x07See, it won't\ntake that \nlong now.[pause]",
+	"\\x02\\x07Kail\\x02\\x07Um, ah, Lisa.\nWho are those \ntwo?[pause]",
+	"\\x02\\x07Lisa\\x02\\x07Oh, they're just\nmy friends.[pause]",
+	"\\x02\\x07Kail\\x02\\x07Oh, OK...[pause]",
+	"\\x02\\x07Kail\\x02\\x07Are they really \njust friends?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Don't look at me.[pause]",
+]

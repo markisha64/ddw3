@@ -1,0 +1,13 @@
+strings = [
+	"",
+	"Ja ja ja. ¡Victoria!\n¡El experimiento  \nha sido un éxito![pause]",
+	"\\x02\\x07Maestro de Juego\\x02\\x07¡Felicidades!\n¿Ahora es...?[pause]",
+	"¡Sí! Aunque los planes\nse alterasen un poco \npor Ratón Suerte.[pause]\\x02\\x03¡Comenzaremos ahora \nla Operación Sigma![pause]",
+	"\\x02\\x07Maestro de jue.\\x02\\x07¡Sí, señor![pause]",
+	"Ahora Vemmon, ¡ven\na mí![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Maestro de Juego!\n¿Hablas con \nel jefe de A.o.A?[pause]",
+	"\\x02\\x07Maestro jue.\\x02\\x07¡Tú eres el \nchico de...![pause]\\x02\\x03¿Qué haces \naquí?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Estoy aquí para\nvencerte![pause]\\x02\\x03¡Y mejor que digas \nrápido qué está\nplaneando la A.o.A![pause]",
+	"\\x02\\x07Maestro de Juego\\x02\\x07¿Crees que puedes\nganarme? ¡Tonto![pause]\\x02\\x03Salid mis preciosos\nDigimon.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023De acuerdo, \n¡he ganado a\nlos guardias![pause]\\x02\\x03¡Turno del \nMaest. Jue.![pause]",
+]

@@ -1,0 +1,9 @@
+strings = [
+	"",
+	"\\x02\\x07Airdramon\\x02\\x07Zzzzzzzzzzz\nZzzzzzzzzzz[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hey, Airdramon.\nKannst du mir einen\nGefallen tun?[pause]",
+	"\\x02\\x07Airdramon\\x02\\x07Zzzzzzzzzzz\nZzzzzzzzzzz[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Airdramon, kannst du\nin Qing Long City\nWind machen?[pause]\\x02\\x03Wir haben nicht genug\nPower, um alle zu-\nrückzuverwandeln.[pause]\\x02\\x03Airdramon, hilf ihnen.\nLos, wach auf![pause]",
+	"\\x02\\x07Airdramon\\x02\\x07Zzzzzzzzzzz\nZzzzzzzzzzz[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Aber ich\nglaube, das\nist nicht möglich...[pause]\\x02\\x03OK, wir finden\neinen\nanderen Weg...[pause]",
+]

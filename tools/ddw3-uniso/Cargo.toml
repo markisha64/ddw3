@@ -16,6 +16,6 @@ ddw3-util = { workspace = true }
 derive_more = { workspace = true }
 int-conv = { workspace = true }
 serde = { workspace = true }
-serde_yaml = { workspace = true }
+toml = { workspace = true }
 tracing = { workspace = true }
 xml-rs = { workspace = true }

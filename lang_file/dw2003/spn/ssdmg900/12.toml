@@ -1,0 +1,4 @@
+strings = [
+	"",
+	"\\x02\\x07Domador Pierre\\x02\\x07Ten valor en\ntu viaje.\nEsperaré la[pause]\\x02\\x03batalla con\nel Rey.\n¡Au revoir![pause]",
+]

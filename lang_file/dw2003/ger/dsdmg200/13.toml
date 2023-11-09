@@ -1,0 +1,10 @@
+strings = [
+	"",
+	"\\x02\\x07Digimon-Navig.\\x02\\x07Hier findest du Hinweise\nzum Digimon-Kampf und \nzum Züchten v. Digimon.[pause]\\x02\\x03Die Daten werden auf \ndem Satelliten angezeigt.[pause]",
+	"\"Angriffsarten\"\nSetze physische, magische o. unter-\nstützende Techniken n. Bedarf ein.[pause]\\x02\\x03\"Angriffsattribute\"\nGreife Gegner mit gegnerischen Attri-\nbuten an u. nutze verbündete Attrib.[pause]",
+	"\"Technische Effekte\"\nDie Wirkung von Gift, Lähmung usw.\nist je nach Digimon unterschiedlich.[pause]\\x02\\x03\"Statusleiden\"\nStatusleiden auβer \"Fluch\" von \nCardmon verschwinden n. dem Kampf.[pause]",
+	"\"DNA-Digitation\"\nMacht aus zwei Digimon einen. Nach\nDNA-Digitation tauschen beide.[pause]\\x02\\x03\"EXP-Verteilung\"\nAlle Digimon, die gekämpft haben,\nerhalten EXP.[pause]",
+	"\"Training\"\nDigimon können mit TP (Trainings-\npunkte) in Hallen trainiert werden.[pause]\\x02\\x03\"Digitationsfähigkeiten\"\nDie Digitationsfähigkeiten nehmen\nmit der EXP zu.[pause]",
+	"a",
+	"\\x02\\x07Digimon-Navig.\\x02\\x07Das war schon\nalles. Viel Glück![pause]",
+]

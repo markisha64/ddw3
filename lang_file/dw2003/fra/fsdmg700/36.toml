@@ -1,0 +1,13 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Après ma victoire\nsur Gallacticmon,\ntout allait bien...[pause]\\x02\\x03Mais ça fait déjà\ntrois mois... C'est\ncomme dans un rêve.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Que font Ivy \net Teddy ?[pause]\\x02\\x03La cérémonie \nd'ouverture va \ndébuter ![pause]",
+	"Merci de votre patience ! La \ncérémonie d'ouverture de Digimon \nOnline va débuter ![pause]\\x02\\x03DNB TV est en direct du monde \nnumérique pour la première fois, \ngrâce au réseau optique ! [pause]\\x02\\x03On va ainsi pouvoir se\nconnecter au monde numérique ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Kurt est incroyable !\nIl a créé une \nentreprise...[pause]\\x02\\x03Et lancé Digimon \nOnline à la place de\nMAGAMI...[pause]",
+	"\\x02\\x07Ivy\\x02\\x07Pourquoi tu parles \ndans ta barbe\ncomme ça ?[pause]",
+	"\\x02\\x07Teddy\\x02\\x07Hé, \\x02\\x08\\x01\\x02\\x05\\x01\nT'es déjà \nlà ?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Vous êtes  \nen retard ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Cela fait bien\ndix minutes \nque j'attends.[pause]",
+	"\\x02\\x07Ivy\\x02\\x07Que veux-tu que j'y\nfasse ? Tu es arrivé\ntrop tôt ![pause]\\x02\\x03Si c'était pour être\npénible, tu aurais\nmieux fait de partir ![pause]",
+	"\\x02\\x07Teddy\\x02\\x07Hé, hé...\n\\x02\\x08\\x01\\x02\\x05\\x01,\nIvy ![pause]\\x02\\x03Du calme.\nAllons plutôt au\nCentre Online ![pause]",
+]

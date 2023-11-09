@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Hanno preso la\nJuggernaut.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Mi chiedo cosa\nsuccede nel\nMondo Reale.[pause]\\x02\\x03Speriamo nulla\ndi male.[pause]",
+]

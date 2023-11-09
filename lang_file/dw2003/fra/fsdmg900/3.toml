@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Accueil Arène\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01, tu as\nvaincu les 4\nchefs ![pause]\\x02\\x03Rends-toi\nà l'Arène ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Euh... Contre qui \nje me bats ?[pause]",
+	"\\x02\\x07Accueil Arène\\x02\\x07Hé hé hé !\nAttends de \nvoir ![pause]\\x02\\x03Allez. Ton\nadversaire\nt'attend ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Bien ! Le\nplus fort des\ndresseurs ![pause]",
+]

@@ -1,0 +1,3 @@
+start_addr = 0
+objs = ["/build/asm/dw2003/pro/wstag785.o"]
+sections = ["section_WSTAG785"]

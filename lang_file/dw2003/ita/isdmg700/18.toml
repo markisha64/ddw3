@@ -1,0 +1,9 @@
+strings = [
+	"",
+	"\\x02\\x07Capo di Xuen Wu\\x02\\x07Dunque, sei tu\nquello che\nci ostacola![pause]\\x02\\x03Io sono qui e non\nmi nasconderò!\nAvanti![pause]\\x02\\x03Combatti con\nme![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Tu aspetta\ne ti\nraggiungerò![pause]",
+	"\\x02\\x07Capo di Xuen Wu\\x02\\x07Uffa, mi hai\nraggiunto.[pause]\\x02\\x03Dovevo immaginarlo,\ndopo ciò che è\nsuccesso agli altri![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Capo di Xuen Wu!\nTu hai il pass\nnero![pause]",
+	"\\x02\\x07Capo di Xuen Wu\\x02\\x07Certo!\nLo vuoi?[pause]\\x02\\x03Allora affrontami\ne prenditelo\ncon la forza![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Puoi\nscommetterci!\nArrivo![pause]",
+]

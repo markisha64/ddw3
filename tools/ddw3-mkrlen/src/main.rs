@@ -38,6 +38,7 @@ fn main() -> Result<(), anyhow::Error> {
 	tracing::debug!(?args, "Arguments");
 
 	// Parse auto-compatibility
+	let explicit_compatibility = args.compatibility.is_some();
 	let compatibility = match args.auto_compatibility {
 		true => {
 			anyhow::ensure!(
@@ -114,7 +115,10 @@ fn main() -> Result<(), anyhow::Error> {
 					if_eq_then!("492a150501020c1f3c54665a412a100300" => "10492a150501020c1f3c54665a412a10038100"),
 
 				_ => {
-					tracing::debug!(?compatibility, "Ignoring unknown compatibility");
+					// If the compatibility was explicitly selected by the user, warn
+					if explicit_compatibility {
+						tracing::debug!(?compatibility, "Ignoring unknown compatibility");
+					}
 					None
 				},
 			};

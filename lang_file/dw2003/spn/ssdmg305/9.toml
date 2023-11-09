@@ -1,0 +1,9 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023El maestro de Juego\nAsuka enviaba a \nVemmon a algún sitio...[pause]\\x02\\x03¡Puede ser una pista!\n¡Sigamos adelante![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Qué?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Qué?\n¿Qué hace Oinkmon\nen el Serv. Asuka?[pause]",
+	"\\x02\\x07Oinkmon\\x02\\x07¿Oioioioink?\n¡oioioioink!\n¿oioioioioink?[pause]",
+	"\\x02\\x07Oinkmon\\x02\\x07¿Oioioioink?\n¡oioioioink!\n¿oioioioioink?[pause]",
+	"\\x02\\x07Oinkmon\\x02\\x07¿Oioin, oioink?\n¡oioioi, oink!\n¿oioin, oioioink?[pause]",
+]

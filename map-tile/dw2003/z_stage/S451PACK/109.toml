@@ -1,0 +1,32 @@
+img = "/build/tim/dw2003/z_stage/S451PACK/109.tim"
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 0]
+img_offset = [0, 0]
+size = [128, 128]
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [70, 119]
+img_offset = [128, 0]
+size = [10, 9]
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [76, 12]
+img_offset = [128, 9]
+size = [16, 16]
+
+[[layers.objs]]
+world_offset = [42, 60]
+img_offset = [128, 25]
+size = [36, 22]
+
+[[layers.objs]]
+world_offset = [0, 91]
+img_offset = [128, 47]
+size = [14, 15]

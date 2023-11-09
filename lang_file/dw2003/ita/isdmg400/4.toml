@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Eh? Che\nsuccede?[pause]",
+	"Codice Rosso!\nPer ragioni di sicurezza\ndobbiamo fermarci.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Terremoto![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ma che...?\nQuello è un\nDigimon?[pause]",
+]

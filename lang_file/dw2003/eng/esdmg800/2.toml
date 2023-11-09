@@ -1,0 +1,10 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023I won!\nWho's the \nman![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Huh?! There's \nsomething on \nthe ground.[pause]\\x02\\x03This is a Veemon \nexclusive weapon![pause]\\x02\\x03Yeah! I got the \nDramon Guard![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh, wait! \nI don't have time\nfor this![pause]\\x02\\x03I have to stop \nthe Juggernaut \nfrom launching![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ummm, which button?\n......there!\nIt's this one![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Huh? Nothing \nhappened? But if the \nA.o.A was here...[pause]\\x02\\x03That should stop \nthe launch of the\nJuggernaut![pause]",
+	"...NOTIFYING ALL STAFF OF MAGASTA. \nSSS CLASS WAR SHIP JUGGERNAUT \nIS ALMOST RE-ENERGIZED...[pause]\\x02\\x03ALL STAFF WITHIN THE BASE SHOULD \nTAKE SHELTER...REPEATING...\nSSS    C...WAR... NAUT...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023...wha-what?!\nWhy won't it\nstop?![pause]\\x02\\x03...This was a \ntrap![pause]\\x02\\x03...Then the \nA.o.A is some\nwhere else![pause]",
+]

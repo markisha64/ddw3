@@ -1,8 +1,0 @@
-strings:
-  - ''
-  - |-
-    \x02\x07\x02\x09\x023WarGrowlmon, rends
-    moi service, OK ?[pause]\x02\x03Je peux avoir l'ADNN
-    Guilmon à partir de
-    ton ADNN ?[pause]
-  - "\\x02\\x07WarGrowlmon\\x02\\x07Pas question ! Si tu \nle veux vraiment, il \nfaudra te battre ![pause]"

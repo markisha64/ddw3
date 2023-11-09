@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Hé Paildramon,\nJe peux te demander\nun service ?[pause]\\x02\\x03Tu me donnes l'ADNN\nVeemon depuis ton \nADNN ?[pause]",
+	"\\x02\\x07Paildramon\\x02\\x07Pas question ! Ce \nn'est pas le genre \nde choses permises ![pause]\\x02\\x03Tu n'auras rien, à \nmoins de me \nbattre ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Bon. J'ai juste\nà gagner,\nc'est ça ?[pause]",
+	"\\x02\\x07Paildramon\\x02\\x07Voilà !\nTu n'as plus\nqu'à essayer ![pause]",
+]

@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"...Neueste Meldung. Derzeit\nist das optische Netz offline.[pause]\\x02\\x03S.A.P. glaubt an eine Ver-\nbindung zum Cyberterroris-\nmus u. untersucht d. Fall.[pause]\\x02\\x03Ein längerer Ausfall des\noptischen Netzes verursacht\nwahrscheinlich viele Probleme.[pause]",
+	"\\x02\\x07Computer-Seiya\\x02\\x07Was?!\nDigimon-Online\nauch![pause]\\x02\\x03Wollte mich gerade\nanmelden, aber wenn\ndas Netz ausfällt...[pause]",
+	"\\x02\\x07Wissenschaftler Hideki\\x02\\x07Ein Netzausfall ist \nein echtes Problem \nfür Digimon-Online.[pause]\\x02\\x03Das Matrix-System hat\nkeinen Zugriff a. die\nServer, oder?[pause]",
+	"\\x02\\x07Arbeiter Kouta\\x02\\x07Wer mag hinter dem\nCyberterrorismus\nstecken?[pause]\\x02\\x03Ich dachte, sie ha-\nben alle A.o.A.-\nLeute geschnappt.[pause]",
+]

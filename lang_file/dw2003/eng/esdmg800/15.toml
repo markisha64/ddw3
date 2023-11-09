@@ -1,0 +1,15 @@
+strings = [
+	"",
+	"You've finally \narrived! Strongest \ntamer of all![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Lord \nMegadeath!\nWho are you?![pause]",
+	"...I am a digital life form born \ninside the network...[pause]\\x02\\x03And am the one to replace\nhumans as the ruler of \nall worlds...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023That's why you \nformed the\nA.o.A?[pause]",
+	"...yes. To create the loyal, \nand most powerful Digimon, \nSnatchmon![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Snatchmon?!\nI've never \nheard of it![pause]",
+	"...Snatchmon is born when Vemmon \nhas absorbed large quantities of \nmatrix data, and digivolves.[pause]\\x02\\x03You have seen it...\nThose who had their matrix data \nsucked out and turned into Digimon.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023What...?!\nSo that's what \nOinkmon are.[pause]",
+	"When Gunslinger launches the \nDigitize Wave...[pause]\\x02\\x03...matrix data from all life \nforms will be sent...[pause]\\x02\\x03...and then Snatchmon\nwill indeed be the strongest![pause]\\x02\\x03...And as Snatchmon's tamer\nI will rule the world with\nfear and despair![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Yeah right!\nI won't let you![pause]",
+	"...that is why you\nwill battle with me...[pause]\\x02\\x03To prove that I am\nthe strongest tamer![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Yeah, yeah.\nBring it on![pause]",
+]

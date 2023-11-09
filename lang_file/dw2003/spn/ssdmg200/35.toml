@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Knightmon\\x02\\x07¡Virus detectado!\n¡Virus detectado![pause]\\x02\\x03¡Eliminando virus\nahora![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡E..Espera!\n¡No soy un virus![pause]",
+	"\\x02\\x07Knightmon\\x02\\x07¡Virus confirmado!\n¡Virus confirmado![pause]\\x02\\x03¡Eliminar virus![pause]",
+	"\\x02\\x07\\x02\\x09\\x023No sirve. ¡Knightmon\nha sido reprogramado\npor la A.o.A![pause]\\x02\\x03Um. Por ahora\ndebo comprobar\nlas otras ciudades.[pause]",
+]

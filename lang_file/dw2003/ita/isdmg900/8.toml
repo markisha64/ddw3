@@ -1,0 +1,18 @@
+strings = [
+	"",
+	"Battaglie di carte",
+	"Flusso batt. c.",
+	"Fase 1",
+	"Fase 2",
+	"Fase 3",
+	"Fase 4",
+	"Fase 5",
+	"Indietro",
+	"I domatori possono partecipare\nanche alle battaglie a carte.[pause]\\x02\\x03Per farlo, devono procurarsi 314\ntipi di carte e creare le loro\ncombinazioni personali.[pause]",
+	"Prima della battaglia, scegli una\ncartella da usare come mazzo.\nQuando hai scelto, inizia lo scontro.[pause]\\x02\\x03Una battaglia a carte è composta da\n3 turni. Il primo domatore che ne vince\n2, trionfa e vince un pacco di carte.[pause]\\x02\\x03Ogni turno si divide in 6 fasi. Per\nsaperne di più, leggi le spiegazioni\nsotto \"Fasi\".[pause]",
+	"Fase iniziale\nDecide l'ordine di gioco. Inizia\nchi pesca Calumon.[pause]\\x02\\x03Fase di pesca\nDevi pescare dal mazzo 6 carte\niniziali, che sono la tua mano.[pause]\\x02\\x03Qui si forma Energia-D dello stesso\ncolore della carta pescata. La\nsi usa nella fase di chiamata.[pause]",
+	"Fase di carica\nI domatori usano a turno le carte\nprogramma per chiamare i Digimon.[pause]\\x02\\x03Questa fase termina quando tutti\npassano. A volte appaiono delle\ncarte inutilizzabili.[pause]",
+	"Fase di chiamata\nI domatori scelgono le carte\nDigimon e chiamano i Digimon.[pause]\\x02\\x03Si possono chiamare in campo fino\na 6 Digimon. Per chiamare Digimon\nCampioni o più potenti, bisogna[pause]\\x02\\x03usare l'Energia-D.[pause]",
+	"Fase di compilazione\nI domatori usano a turno le\ncarte programma per eseguire[pause]\\x02\\x03azioni. La fase termina quando\ntutti passano. Si possono\nusare tutte le carte.[pause]",
+	"Fase di battaglia\nI Digimon si affrontano a\nvicenda per vincere.[pause]\\x02\\x03Il vincitore viene deciso in base\nal totale di FA e PF. Chi arriva\na 0 PF perde.[pause]",
+]

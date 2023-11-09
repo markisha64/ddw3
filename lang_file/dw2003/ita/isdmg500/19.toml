@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Ho vinto\ncontro\nKyukimon![pause]",
+	"\\x02\\x07Kyukimon\\x02\\x07Hai dei Digimon\nmolto forti: mi\nhai battuto.[pause]\\x02\\x03Non mi divertivo\ncosì da tanto.\nEcco, prendi![pause]",
+	"\\x02\\x07\\x02\\x09\\x023HO il DDNA\ndi Kotemon.\nWow![pause]\\x02\\x03Grazie,\nKyukimon![pause]",
+]

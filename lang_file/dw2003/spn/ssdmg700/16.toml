@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Líder Genbu\\x02\\x07Um, ¿qué?\n¿Un retador a \nesta hora?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Líder Genbu,\n¡tengo que pedirle\nun favor![pause]\\x02\\x03¿Puede darme su \nPin para volver a \nMundo Real?[pause]",
+	"\\x02\\x07Líder Genbu\\x02\\x07Lo siento, pero no\npuedo darte el\npin sin más.[pause]\\x02\\x03Esas son las reglas.[pause]\\x02\\x03¡Si lo quieres,\ntendrás que \nganarme![pause]",
+	"\\x02\\x07\\x02\\x09\\x023De acuerdo.\n¡Sabía que \ndirías eso![pause]\\x02\\x03¡Acabemos con\nesto![pause]",
+]

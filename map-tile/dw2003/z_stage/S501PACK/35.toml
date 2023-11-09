@@ -1,0 +1,23 @@
+img = "/build/tim/dw2003/z_stage/S501PACK/35.tim"
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 0]
+img_offset = [0, 0]
+size = [128, 128]
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [81, 0]
+img_offset = [128, 0]
+size = [26, 13]
+
+[[layers.objs]]
+world_offset = [0, 34]
+img_offset = [128, 13]
+size = [16, 19]
+
+[[layers]]
+objs = []

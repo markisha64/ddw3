@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07Soldat\\x02\\x07Hier kommst\ndu nicht\nvorbei![pause]\\x02\\x03Mich besiegst\ndu nicht![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ach tatsächlich?[pause]\\x02\\x03Ihr denkt immer,\ndass ihr \ngewinnt![pause]",
+]

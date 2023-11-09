@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Non posso\nstare molto[pause]",
+	"\\x02\\x07WarGrowlmon N\\x02\\x07Lo so.\nSolo un po'.\nUna battaglia![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh, va bene.\nMa non avrò\npietà![pause]",
+	"\\x02\\x07WarGrowlmon N\\x02\\x07Battuta mia![pause]\\x02\\x03Non combatto\nda parecchio\ntempo![pause]",
+]

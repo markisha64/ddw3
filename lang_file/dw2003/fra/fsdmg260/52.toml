@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07M. Smith\\x02\\x07A vous de jouer ! \nLe clou de la vente ![pause]\\x02\\x03L'Armure de Ronin, \nadmirée par tous ![pause]\\x02\\x03Cet armure exclusive de \nKotemon est proposée à\n16000 BIT au départ ![pause]",
+	"\\x02\\x07Marchand Abel\\x02\\x0716900 BIT ![pause]",
+	"\\x02\\x07Chef Milly\\x02\\x0717000 \nBIT ![pause]",
+	"\\x02\\x07Masao Fan jeu\\x02\\x0717400 BIT ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hmm. 17500 \nBIT...hmmm...[pause]",
+]

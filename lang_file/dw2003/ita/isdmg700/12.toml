@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Cavaliere fuoco\\x02\\x07Ecco qualcuno\ncon cui\ndistrarmi![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Distrarti? Non\nho tempo per te![pause]",
+	"\\x02\\x07Cavaliere fuoco\\x02\\x07Non credere di\ncavartela così![pause]\\x02\\x03I domatori non mi\nsoddisfano.[pause]\\x02\\x03Tu sembri in gamba!\nSu, combattiamo![pause]",
+	"\\x02\\x07\\x02\\x09\\x023?![pause]",
+	"\\x02\\x07Cavaliere fuoco\\x02\\x07Ti mostrerò la\nmia potenza!\nFuocooo![pause]",
+]

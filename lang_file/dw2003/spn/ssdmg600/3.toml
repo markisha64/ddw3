@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07Junior\\x02\\x07¿Dónde \nestoy?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ah, sí, me caí\nal sótano.[pause]\\x02\\x03¡Tengo que encontrar\nuna salida![pause]",
+]

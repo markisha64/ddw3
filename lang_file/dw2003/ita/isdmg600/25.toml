@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Sei tu il\ncapo di Bai Hu?[pause]",
+	"\\x02\\x07Capo di Bai Hu\\x02\\x07È così.\nCosa vuoi?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Dammi il\npass bianco![pause]",
+	"\\x02\\x07Capo di Bai Hu\\x02\\x07Ah.\nHeh heh heh![pause]\\x02\\x03Non importa: in\nogni caso vinceremo\nnoi![pause]\\x02\\x03E ora ti devo\ndare una lezione![pause]",
+]

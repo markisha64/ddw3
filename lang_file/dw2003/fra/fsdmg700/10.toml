@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Sorcière Glaces\\x02\\x07Je ne vais pas\nlaisser passer un\ngamin comme toi ![pause]\\x02\\x03Rentre chez\ntoi ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Tu plaisantes !\nJe n'ai pas de\ntemps à perdre ![pause]",
+	"\\x02\\x07Sorcière des Glaces\\x02\\x07Je suis la Reine\ndu Donjon de Glace\njeune insolent ![pause]\\x02\\x03Tu sera puni pour\nton impudence ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023?!?[pause]",
+]

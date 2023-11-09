@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Hmmm... le système \nMatrix doit se \ntrouver par ici...[pause]\\x02\\x03Mais je ne sais pas \ncomment le faire\nfonctionner...[pause]\\x02\\x03Mais le Maître de Jeu\na envoyé Vemmon\n d'ici.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Quoi ?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Q...que fait\nVemmon ici ?[pause]\\x02\\x03Peut-être... \nBon, je dois\nle suivre ![pause]",
+]

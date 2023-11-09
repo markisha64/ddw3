@@ -1,0 +1,10 @@
+strings = [
+	"",
+	"\\x02\\x07Seiryu Leader\\x02\\x07You're pretty\ngood. What is\nyour name?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023I'm \\x02\\x08\\x01\\x02\\x05\\x01.\nThat was an\nhonorable battle![pause]",
+	"\\x02\\x07Seiryu Leader\\x02\\x07All right then, \n\\x02\\x08\\x01\\x02\\x05\\x01, take \nthis with you.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023I got the Seiryu \nBadge and Silver \nTicket![pause]",
+	"\\x02\\x07Seiryu Leader\\x02\\x07You will need \nthem in the \nbattles ahead. [pause]\\x02\\x03They're important \nitems, so don't \nlose them.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Thanks, Seiryu \nLeader![pause]",
+	"\\x02\\x07Seiryu Leader\\x02\\x07Challenge Suzaku \nLeader in South Sector\nnext.[pause]\\x02\\x03You still have a long \nways ahead, but you \ncan do it. Good luck![pause]",
+]

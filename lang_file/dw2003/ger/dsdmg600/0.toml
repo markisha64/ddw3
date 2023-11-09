@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Byakko Leader\\x02\\x07Willkommen, Heraus-\nforderer. Auf geht's![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Warte eine\nSekunde...[pause]\\x02\\x03Zuerst habe\nich eine\nFrage.[pause]",
+	"\\x02\\x07Byakko Leader\\x02\\x07Erst der Kampf![pause]\\x02\\x03Gewinnst du, sage\nich dir alles.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK, ich werde\nauf keinen Fall\nverlieren![pause]",
+]

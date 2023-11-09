@@ -22,11 +22,7 @@ pub use {
 };
 
 // Imports
-use {
-	anyhow::Context,
-	either::Either,
-	std::{borrow::Cow, fs, io, path::Path},
-};
+use std::{borrow::Cow, path::Path};
 
 
 /// Resolves an configuration path as relative to it's
@@ -83,32 +79,4 @@ where
 		<[T; N]>::try_from(items)
 			.map_err(|items| anyhow::anyhow!("Iterator has the wrong number of items: {} (expected {N})", items.len()))
 	}
-}
-
-/// Opens an input file, or uses stdin if `None` or `Some("-")`
-pub fn open_input_file(input_file: Option<&Path>) -> Result<impl io::Read, anyhow::Error> {
-	let output = match input_file {
-		// If none, or `-`, use stdin
-		None => Either::Left(io::stdin().lock()),
-		Some(output) if output.to_str() == Some("-") => Either::Left(io::stdin().lock()),
-
-		// Else create the output file
-		Some(output_file) => Either::Right(fs::File::open(output_file).context("Unable to open input file")?),
-	};
-
-	Ok(output)
-}
-
-/// Creates an output file, or uses stdout if `None` or `Some("-")`
-pub fn create_output_file(output_file: Option<&Path>) -> Result<impl io::Write, anyhow::Error> {
-	let output = match output_file {
-		// If none, or `-`, use stdout
-		None => Either::Left(io::stdout().lock()),
-		Some(output) if output.to_str() == Some("-") => Either::Left(io::stdout().lock()),
-
-		// Else create the output file
-		Some(output_file) => Either::Right(fs::File::create(output_file).context("Unable to create output file")?),
-	};
-
-	Ok(output)
 }

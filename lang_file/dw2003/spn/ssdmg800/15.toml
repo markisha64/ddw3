@@ -1,0 +1,15 @@
+strings = [
+	"",
+	"Por fin llegaste.\n¡El domador más\nfuerte![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Lord Megadeath.\n¿Quién eres?[pause]",
+	"Soy una forma de vida digital\nnacida dentro de la red...[pause]\\x02\\x03Y el que va a reemplazar a \nlos humanos como \ngobernantes de los mundos...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Por eso \nformaste\nA.o.A?[pause]",
+	"...Sí, para crear el leal\ny más poderoso Digimon,\n¡Snatchmon![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Snatchmon?\n¡Nunca he oído\nhablar de él![pause]",
+	"...Snatchmon nace cuando\nVemmon absorve gran cantidad\nde datos de matriz, y digiev.[pause]\\x02\\x03Ya lo has visto...\nA los que se absorve los datos de \nmatriz, se convierten en Digimon.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Qué? Así que \neso son los \nOinkmon.[pause]",
+	"Cuando Gunslinger lance la \nonda Digitaliz.[pause]\\x02\\x03Los datos de matriz de todas\nlas formas de vida se enviarán[pause]\\x02\\x03¡y Snatchmon, será el\nmás fuerte![pause]\\x02\\x03Y como domador de Snatchmon\ndominaré el mundo\ncon terror e injusticia.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Sí, vale! \n¡No te dejaré![pause]",
+	"...Por eso lucharás\nconmigo...[pause]\\x02\\x03¡Para probar que soy\nel más fuerte![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Sí, sí...\n¡Vamos allá![pause]",
+]

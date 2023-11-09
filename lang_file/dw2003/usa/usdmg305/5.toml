@@ -1,0 +1,15 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Lisa! A.o.A's got \nthe Juggernaut![pause]",
+	"\\x02\\x07Lisa\\x02\\x07Yes.\nIt looks like it...[pause]\\x02\\x03Teddy noticed it\nand told us![pause]",
+	"\\x02\\x07Teddy\\x02\\x07We can tell the A.o.A's \nmoves with this \ncomputer![pause]",
+	"\\x02\\x07Keith\\x02\\x07Now what? The \nJuggernaut \nis so powerful![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Can't we stop it \nsomehow?![pause]",
+	"\\x02\\x07Lisa\\x02\\x07Um... let's see...[pause]\\x02\\x03OK, we should\ngo ask her...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023...huh? Her?[pause]",
+	"\\x02\\x07Keith\\x02\\x07What?[pause]",
+	"\\x02\\x07Lisa\\x02\\x07OK, let's go \n\\x02\\x08\\x01\\x02\\x05\\x01![pause]",
+	"\\x02\\x07Lisa\\x02\\x07Keith and Nick, \nyou stay here \nwith Teddy.[pause]",
+	"\\x02\\x07Nick\\x02\\x07It's the world's most \npowerful weapon![pause]\\x02\\x03That's why it was \nsealed away, so it \nwon't be misused![pause]",
+	"\\x02\\x07Nick\\x02\\x07?!?[pause]",
+]

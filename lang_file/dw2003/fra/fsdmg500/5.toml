@@ -1,0 +1,12 @@
+strings = [
+	"",
+	"\\x02\\x07Numemon\\x02\\x07On sera bien\nici.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Merci ![pause]\\x02\\x03Mais qu'ont donc\nles habitants de\nByakko City ?[pause]\\x02\\x03Leur chef a menti\net m'a fait tomber\nau sous-sol.[pause]",
+	"\\x02\\x07Numemon\\x02\\x07Tous des imposteurs,\nle chef comme\nles autres ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Quoi ?! Alors\nqui sont tous\nces types ?[pause]",
+	"\\x02\\x07Numemon\\x02\\x07Cela ne te regarde\npas ![pause]\\x02\\x03Si tu veux rencontrer\nle vrai chef, va au\nDésert de Mobius.[pause]\\x02\\x03Trouve la Tour Mirage\nau-delà du désert.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hé, attends !\nQu'est-ce qui\nse passe ?[pause]",
+	"\\x02\\x07Numemon\\x02\\x07Je ne peux pas\nt'en dire plus ![pause]\\x02\\x03Ne t'approche\nplus de Byakko\nCity ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Bon, d'accord !\nA plus tard ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Bien. Maintenant,\nallons chercher le\nvrai chef ![pause]",
+]

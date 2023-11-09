@@ -1,8 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07\\x02\\x09\\x023Armormon, \n¿puedo pedirte \nun favor?[pause]\\x02\\x03¿Puedes darme\nDADN de \ntu DADN?[pause]"
-  - |-
-    \x02\x07Armormon\x02\x07¡Nunca!
-    Es demasiado
-    importante para darlo.[pause]\x02\x03Si lo quieres
-    tendrás que ganártelo.[pause]

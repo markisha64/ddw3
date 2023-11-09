@@ -24,7 +24,7 @@ pub struct Args {
 	#[clap(long = "output", short = 'o')]
 	pub output_dir: PathBuf,
 
-	/// Output yaml
-	#[clap(long = "yaml")]
-	pub output_yaml: Option<PathBuf>,
+	/// Output toml
+	#[clap(long = "toml")]
+	pub output_toml: Option<PathBuf>,
 }

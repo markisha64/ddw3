@@ -1,0 +1,9 @@
+strings = [
+	"",
+	"\\x02\\x07KingEtemon\\x02\\x07Ich mag dich.\nBitte nimm diesen\nSun-Pokal![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Danke\nKingEtemon![pause]\\x02\\x03Toll! Ich\nhabe den\nSun-Pokal![pause]",
+	"\\x02\\x07KingEtemon\\x02\\x07Das ist das Sym-\nbol für Amate-\nrasus Kartenkönig![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Super! Jetzt bin ich\ndie Nr. 1 der Amate-\nrasu-Kartenkenner![pause]",
+	"\\x02\\x07KingEtemon\\x02\\x07?!?\nNeeein! Ich\nbin die Nr. 1![pause]\\x02\\x03Du hattest\neinfach\nnur Glück![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Heh heh heh.\nIch ver-\nschwinde![pause]\\x02\\x03Bis dann KingEtemon![pause]",
+]

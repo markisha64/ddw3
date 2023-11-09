@@ -1,9 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07\\x02\\x09\\x023What do you \nmean by \nthat?[pause]"
-  - "\\x02\\x07BK Seraphimon\\x02\\x07It means, you will \nfight with me![pause]\\x02\\x03If you win, I will \nlet you go...[pause]\\x02\\x03But if you lose, \nthis is the end![pause]"
-  - |-
-    \x02\x07\x02\x09\x023OK, I get it.
-    Then let's do
-    this![pause]
-  - "\\x02\\x07BK Seraphimon\\x02\\x07You will not be \nsaying that for\nlong![pause]\\x02\\x03You had better\nprepare \nyourself![pause]"

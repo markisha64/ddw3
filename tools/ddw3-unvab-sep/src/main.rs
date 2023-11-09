@@ -123,26 +123,24 @@ fn main() -> Result<(), anyhow::Error> {
 		.collect::<Result<Vec<_>, anyhow::Error>>()
 		.context("Unable to write all tracks")?;
 
-	// Then output the yaml, if needed
-	if let Some(output_yaml) = args.output_yaml {
-		let output_yaml_parent = output_yaml
+	// Then output the toml, if needed
+	if let Some(output_toml) = args.output_toml {
+		let output_toml_parent = output_toml
 			.parent()
-			.context("Unable to get parent of output yaml file")?;
-		fs::create_dir_all(output_yaml_parent).context("Unable to create output yaml file directory")?;
-
-		let output_yaml = fs::File::create(&output_yaml).context("Unable to create output yaml file")?;
+			.context("Unable to get parent of output toml file")?;
+		fs::create_dir_all(output_toml_parent).context("Unable to create output toml file directory")?;
 
 		let vags = vag_paths
 			.iter()
 			.map(|vag_path| {
 				let path =
-					pathdiff::diff_paths(vag_path, output_yaml_parent).unwrap_or_else(|| Path::new("/").join(vag_path));
+					pathdiff::diff_paths(vag_path, output_toml_parent).unwrap_or_else(|| Path::new("/").join(vag_path));
 
 				OutputInstrument { path }
 			})
 			.collect();
 
-		serde_yaml::to_writer(output_yaml, &Output {
+		let output = toml::to_string_pretty(&Output {
 			waveform_size:    vab.waveform_size,
 			system_reserved0: vab.system_reserved0,
 			master_volume:    vab.master_volume,
@@ -208,7 +206,8 @@ fn main() -> Result<(), anyhow::Error> {
 				})
 				.collect(),
 		})
-		.context("Unable to write output yaml file")?;
+		.context("Unable to write output toml file")?;
+		fs::write(output_toml, output).context("Unable to write output toml file")?;
 	}
 
 	Ok(())

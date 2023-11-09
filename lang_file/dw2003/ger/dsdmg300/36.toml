@@ -1,0 +1,12 @@
+strings = [
+	"",
+	"\\x02\\x07Veemon\\x02\\x07Was spielen\nwir also?\nHmmmmm...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Woah, Veemon! Ich\nwill die Baumstiefel.[pause]",
+	"\\x02\\x07Veemon\\x02\\x07Baumstiefel?\nOh, die Stiefel zum\nBäume treten...[pause]\\x02\\x03Ja sicher, aber nur\nwenn du mit mir\nspielst![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Klare Sache!\nWas spielen\nwir?[pause]",
+	"\\x02\\x07Veemon\\x02\\x07Ich gehe in den\nTretwald, und\ndu suchst mich.[pause]\\x02\\x03Wenn du mich findest,\ngebe ich dir die\nBaumstiefel![pause]\\x02\\x03Du verlierst, wenn du\nden Wald verlässt, \nohne mich zu finden![pause]\\x02\\x03Und wenn du den\nTretwald verlässt, \ngehe ich nach Hause![pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK!\nIch werde dich\nfinden![pause]",
+	"\\x02\\x07Veemon\\x02\\x07Heh heh heh.\nDas wird nicht\nso einfach![pause]\\x02\\x03Zähl bis 10 und\nkomm in den \nWald![pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK, ich zähl bis 10\n1, 2, 3, 4, 5,\n6, 7, 8, 9, 10![pause]\\x02\\x03.........\n.............\nWar das zu schnell?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Na gut!\nOK, ich wird\nihn suchen![pause]",
+]

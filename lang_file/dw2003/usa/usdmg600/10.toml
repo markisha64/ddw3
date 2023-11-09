@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Oh, what the?!\nYou're one colorful \nNumemon.[pause]",
+	"\\x02\\x07BK KingNumemon\\x02\\x07Don't think I'm like the\nother Numemon![pause]\\x02\\x03Me, BK KingNumemon,\nis far superior to\nother Numemon.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Superior, eh?\nYou don't look like\nit![pause]",
+	"\\x02\\x07BK KingNumemon\\x02\\x07Then I'll show \nyou![pause]",
+]

@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07MasterTyranno\\x02\\x07Hé, le môme !\nTu t'en tires\nbien ![pause]\\x02\\x03Je te donne ça\npour m'avoir\nbattu.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oui ! J'ai\nla Griffe\nantique ![pause]",
+	"\\x02\\x07MasterTyranno\\x02\\x07Apporte ça au\nchef de Seiryu ![pause]\\x02\\x03Il acceptera\nde t'affronter.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Merci,\nMasterTyranno.[pause]",
+	"\\x02\\x07MasterTyranno\\x02\\x07Ce chef est\ncoriace. Sois\nsur tes gardes ![pause]",
+]

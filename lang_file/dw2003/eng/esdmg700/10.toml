@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Ice Witch\\x02\\x07Wait one moment!\nI'm not letting a \nkid like you pass![pause]\\x02\\x03Give up and go\nhome![pause]",
+	"\\x02\\x07\\x02\\x09\\x023You've gotta be \nkidding. I don't \nhave time for this![pause]",
+	"\\x02\\x07Ice Witch\\x02\\x07I'm the Queen of \nthis Ice Dungeon!\nMind your manners![pause]\\x02\\x03I won't forgive you!\nYou'll be punished\nfor that![pause]",
+	"\\x02\\x07\\x02\\x09\\x023?!?[pause]",
+]

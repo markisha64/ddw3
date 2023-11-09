@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Datamon\\x02\\x07Devi essere molto\nbravo se hai vinto con\nme. Meriti questi![pause]\\x02\\x03I guanti arrugginiti!\nSono rarissimi:\nabbine cura.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Eh? Ah, sì,\nne avrò cura.\nGrazie.[pause]\\x02\\x03Ho i guanti\narrugginiti!\nBelli, eh?[pause]",
+	"\\x02\\x07Datamon\\x02\\x07Nel Mondo Digitale,\narmi e corazze antiche\nnascondono segreti.[pause]\\x02\\x03Trova il Digimon\ndigivoluto con corazza\nche li conosce.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh, OK!\nLo troverò e mi\nfarò dire tutto![pause]",
+]

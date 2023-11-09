@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Ponchomon\\x02\\x07Hola, you can look\nat info on these\nitems anytime![pause]\\x02\\x03I'll display it on your \nsatellite, amigo![pause]",
+	"\"Equipment Effects\"\nThe effects are either automatic when\nequipped or used in an attack.[pause]\\x02\\x03Weapon effects are valid only when\nthere are no technique effects.[pause]\\x02\\x03\"Two Handed and Single Handed\"\nTwo handed weapons are more \npowerful, but don't allow armor.[pause]\\x02\\x03If you equip two single handed \nweapons, it is more powerful than\ntwo handed, but also more expensive.[pause]",
+	"\"Accessory Limit\"\nDigimon can equip up to two. But not \nall accessories can be equipped twice.[pause]\\x02\\x03\"Weapon Like Armor\"\nThere are weapons equipped for the\nhead and shields that can attack. [pause]\\x02\\x03\"Specialized Weapons\"\nThe most powerful weapons can only \nbe equipped by certain Digimon.[pause]",
+	"\"Series Equipment\"\nBy equipping certain weapons and\narmor, parameters can be increased.[pause]\\x02\\x03\"Chip\"\nPermanent parameter increases by \nChip are determined by luck.[pause]",
+	"\\x02\\x07Ponchomon\\x02\\x07Don't tell anyone!\nAdios amigo![pause]",
+]

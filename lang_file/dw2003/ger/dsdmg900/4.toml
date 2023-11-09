@@ -1,0 +1,9 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Aha, das ist\nalso die Arena.[pause]\\x02\\x03Wer mag wohl \nmein Gegner sein.\nIch bin bereit![pause]",
+	"\\x02\\x07Kurt\\x02\\x07Hey!\n\\x02\\x08\\x01\\x02\\x05\\x01![pause]\\x02\\x03Ich wusste, du\nschaffst es![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Häh?\nKurt?[pause]\\x02\\x03Sag' bloβ,\ndu bist der\nstärkste Tamer![pause]",
+	"\\x02\\x07Kurt\\x02\\x07Stimmt genau!\nIch bin froh, dass\ndu mein Gegner bist.[pause]\\x02\\x03Ich wollte schon im-\nmer mit dir kämpfen![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Seh' ich genauso!\nEs gibt keinen wür-\ndigeren Gegner![pause]",
+	"\\x02\\x07Kurt\\x02\\x07Ha ha! Das wird\nein Spaβ![pause]\\x02\\x03Lass' uns los-\nlegen!\nGib' alles![pause]",
+]

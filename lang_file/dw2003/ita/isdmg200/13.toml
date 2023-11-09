@@ -1,0 +1,10 @@
+strings = [
+	"",
+	"\\x02\\x07Nav. Digimon\\x02\\x07Qui trovi consigli sulle\nbattaglie e su come\nfar crescere i Digimon.[pause]\\x02\\x03Mostrerò i dati sul\nsatellite.[pause]",
+	"\"Tipi di attacco\"\nUsa tecniche fisiche, magiche\ne di supporto quando servono.[pause]\\x02\\x03\"Attributi dell'attacco\"\nAttacca i nemici con attributo\nopposto e sfrutta quelli degli alleati.[pause]",
+	"\"Effetti delle tecniche\"\nL'efficacia di veleni, paralisi e\naltri effetti dipende dal Digimon.[pause]\\x02\\x03\"Stati indesiderati\"\nSvaniscono dopo la battaglia,\ntranne la maledizione di Cardmon.[pause]",
+	"\"Digivoluzione\"\nCombina 2 Digimon in uno. Dopo,\ni Digimon si scambiano di posto.[pause]\\x02\\x03\"Distribuzione ESP\"\nTutti i Digimon entrati in\nbattaglia ricevono la stessa ESP.[pause]",
+	"\"Addestramento\"\nI Digimon si possono addestrare\nin palestra spendendo PA.[pause]\\x02\\x03\"Abilità dopo la digivoluzione\"\nDopo la digivoluzione, le abilità\naumentano in base all'ESP.[pause]",
+	"a",
+	"\\x02\\x07Nav. Digimon\\x02\\x07Ora sai proprio\ntutto.\nBuona fortuna![pause]",
+]

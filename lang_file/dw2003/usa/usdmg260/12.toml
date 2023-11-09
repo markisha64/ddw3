@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Mr. Smith\\x02\\x07Now's your chance![pause]\\x02\\x03Finally, our main item![pause]\\x02\\x03Dramon Shield, coveted \nby all members![pause]\\x02\\x03This Veemon exclusive \nshield will start at\n800 BIT![pause]",
+	"\\x02\\x07Dealer Abel\\x02\\x071100 BIT![pause]",
+	"\\x02\\x07Chief Milly\\x02\\x071300 BIT![pause]",
+	"\\x02\\x07RPG Fan Masao\\x02\\x071500 BIT![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hmm 1600 BIT\n...hmmm...[pause]",
+]

@@ -1,0 +1,11 @@
+strings = [
+	"",
+	"\\x02\\x07Kammer-Offizier\\x02\\x07Alles grün.\nWir sind fertig mit\n\\x02\\x08\\x01\\x02\\x05\\x01s Test.[pause]\\x02\\x03Matrix-System \nwird umgekehrt.[pause]\\x02\\x03Wo möchtest du\nin der echten Welt\nrealisiert werden?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Militärstützpunkt\nMagasta in der\nechten Welt![pause]\\x02\\x03Das ist auf der\nOzeanebene![pause]",
+	"\\x02\\x07Kammer-Offizier\\x02\\x07Verstehe.\nMilitärstützpunkt\nMagasta...[pause]",
+	"\\x02\\x07Kammer-Offizier\\x02\\x07Bestätigt. Liegt noch\nim Warp-Bereich.[pause]\\x02\\x03Aber wegen der \nSysteminstabilität...[pause]\\x02\\x03existierst du nur \n180 Sek. lang in \nder echten Welt.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Moment mal.\nUnd wenn das\nzu wenig ist?[pause]",
+	"\\x02\\x07Kammer-Offizier\\x02\\x07Die Realisierung bricht\nab, und die Matrix \nbringt dich zurück.[pause]\\x02\\x03Keine Sorge, die \nMatrix-Daten werden\nnicht zerstört.[pause]\\x02\\x03Wir starten jetzt\ndas Matrix-\nSystem.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Also gut.\nWas soll\nich tun?[pause]",
+	"\\x02\\x07Kammer-Offizier\\x02\\x07Begib dich zum\nWarp-Port\nlinks von mir.[pause]\\x02\\x03Viel Glück,\n\\x02\\x08\\x01\\x02\\x05\\x01.[pause]",
+]

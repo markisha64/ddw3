@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"Ultim'ora. Attualmente,\nla rete ottica è esclusa.[pause]\\x02\\x03La S.A.P crede che il \ncyberterrorismo possa\nesserne la causa.[pause]\\x02\\x03Se la rete ottica non verrà\nripristinata in fretta,\npotrebbero sorgere problemi.[pause]",
+	"\\x02\\x07Computer Seiya\\x02\\x07Cosa?!\nAnche Digimon\nOnline![pause]\\x02\\x03Mi stavo collegando,\nma se la rete è\nesclusa...[pause]",
+	"\\x02\\x07Hideki app. sci.\\x02\\x07Se la rete è esclusa\nè un grosso problema\nper Digimon Online.[pause]\\x02\\x03Il Sistema Matrice\nnon può accedere\nai server, vero?[pause]\\x02\\x03E significa che\ndovete restare\nqui?[pause]",
+	"\\x02\\x07Operaio Kouta\\x02\\x07Mi chiedo chi \nc'è dietro il\ncyberterrorismo.[pause]\\x02\\x03Non avevano\nsgominato\nl'A.o.A?[pause]",
+]

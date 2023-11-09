@@ -1,0 +1,14 @@
+strings = [
+	"",
+	"\\x02\\x07Frau\\x02\\x07Hey du...\ndu da drüben![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Wer...Ich?[pause]",
+	"\\x02\\x07Frau\\x02\\x07Hi, ich bin\nLisa. Freut \nmich sehr![pause]\\x02\\x03Wie heiβt\ndu?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ich heiβe\n\\x02\\x08\\x01\\x02\\x05\\x01.[pause]",
+	"\\x02\\x07Lisa\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01. Gut, das\nmerke ich mir.[pause]\\x02\\x03Übrigens, \\x02\\x08\\x02\\x02\\x05\\x02,\nhast du ein süβes,\ngrünes Digi. gesehen?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hmm, meinst du\nMonmon oder\nTerriermon?[pause]",
+	"\\x02\\x07Lisa\\x02\\x07Tja, ich weiβ\nauch nicht.[pause]\\x02\\x03Was meinst du,\nwelches es ist,\n\\x02\\x08\\x01\\x02\\x05\\x01?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ja, also...\n???[pause]",
+	"\\x02\\x07Lisa\\x02\\x07...Ich weiβ, es\nist Ogremon! Ganz\nbestimmt![pause]\\x02\\x03Dann muss ich jetzt\nsofort nach Ogremon\nsuchen![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hm, was ist denn\nmit der los?[pause]",
+	"\\x02\\x07Lisa\\x02\\x07War nett, mit\ndir zu reden,\n\\x02\\x08\\x01\\x02\\x05\\x01.[pause]",
+]

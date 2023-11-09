@@ -1,0 +1,9 @@
+strings = [
+	"",
+	"\\x02\\x07KingDivermon\\x02\\x07Je te donne donc  \nce Trophée \nAsuka ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ah bon ? Merci,\nKingDivermon ![pause]\\x02\\x03Oui ! J'ai le \nTrophée Asuka ![pause]",
+	"\\x02\\x07KingDivermon\\x02\\x07Je suis seul\nabilité à te \ndonner ceci...[pause]\\x02\\x03...symbole du  \nRoi des cartes  \nd'Asuka ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ouah ! Super !\nLe symbole du  \nRoi des cartes ![pause]",
+	"\\x02\\x07KingDivermon\\x02\\x07Bon, mais\nne baisse pas\nta garde ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oui ! Je vais  \nêtre beaucoup \nplus fort ![pause]\\x02\\x03Bon, cherchons \nun meilleur \njoueur de cartes.[pause]",
+]

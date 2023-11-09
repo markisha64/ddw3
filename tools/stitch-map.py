@@ -9,7 +9,7 @@ from pathlib import Path
 
 from PIL import Image
 import util
-import yaml
+import toml
 
 
 @dataclass
@@ -47,8 +47,8 @@ def parse_entry(entry_path: str) -> Tile:
 
 	# If it's built from an `rlen`, wrap it
 	if str(entry_path).startswith("build/rlen"):
-		rlen_config_path = entry_path.relative_to("build/").with_suffix(".yaml")
-		rlen_config = yaml.safe_load(open(rlen_config_path, encoding="utf-8"))
+		rlen_config_path = entry_path.relative_to("build/").with_suffix(".toml")
+		rlen_config = toml.load(open(rlen_config_path, encoding="utf-8"))
 		entry_path = util.process_path(rlen_config["src"], rlen_config_path.parent)
 
 	# If it's `map-tile/empty.bin` return an empty tile
@@ -62,16 +62,16 @@ def parse_entry(entry_path: str) -> Tile:
 	if not str(entry_path).startswith("build/map-tile"):
 		raise RuntimeError(f"Entry {entry_path} wasn't built in `build/map-tile`")
 
-	map_tile_config_path = entry_path.relative_to("build/").with_suffix(".yaml")
-	map_tile_config = yaml.safe_load(open(map_tile_config_path, encoding="utf-8"))
+	map_tile_config_path = entry_path.relative_to("build/").with_suffix(".toml")
+	map_tile_config = toml.load(open(map_tile_config_path, encoding="utf-8"))
 
 	# If the map image isn't a `tim`, stop
 	map_tim_path = util.process_path(map_tile_config["img"], map_tile_config_path.parent)
 	if not str(map_tim_path).startswith("build/tim"):
 		raise RuntimeError(f"Entry {entry_path}'s image was not built in `build/tim`")
 
-	map_tim_config_path = map_tim_path.relative_to("build/").with_suffix(".yaml")
-	map_tim_config = yaml.safe_load(open(map_tim_config_path, encoding="utf-8"))
+	map_tim_config_path = map_tim_path.relative_to("build/").with_suffix(".toml")
+	map_tim_config = toml.load(open(map_tim_config_path, encoding="utf-8"))
 
 	map_img_path = util.process_path(map_tim_config["img"]["path"], map_tim_config_path.parent)
 
@@ -91,7 +91,7 @@ def main(args):
 	"""
 	Main function
 	"""
-	map_config = yaml.safe_load(open(args.input_yaml, encoding="utf-8"))
+	map_config = toml.load(open(args.input_toml, encoding="utf-8"))
 
 	map_width: int = map_config['width']
 	map_height: int = map_config['height']
@@ -136,7 +136,7 @@ def main(args):
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description="Map stitcher")
-	parser.add_argument("input_yaml", type=str)
+	parser.add_argument("input_toml", type=str)
 	parser.add_argument("-o", dest="output", type=str, required=True)
 
 	args = parser.parse_args()

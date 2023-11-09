@@ -1,9 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07\\x02\\x09\\x023Qu'est-ce \nque tu \nveux dire ?[pause]"
-  - "\\x02\\x07BK Seraphimon\\x02\\x07Que tu dois te\nbattre avec moi ![pause]\\x02\\x03Si tu l'emportes, \ntu pourras partir.[pause]\\x02\\x03Mais si tu perds, \nc'en est fait de toi.[pause]"
-  - |-
-    \x02\x07\x02\x09\x023Compris.
-    Alors allons-
-    y ![pause]
-  - "\\x02\\x07BK Seraphimon\\x02\\x07Tu ne vas pas \nfaire le fier bien\nlongtemps ![pause]\\x02\\x03Tu ferais mieux \nde te tenir \nprêt ![pause]"

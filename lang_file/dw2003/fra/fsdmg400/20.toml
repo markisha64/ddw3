@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Oui !\nVictoire ![pause]",
+	"\\x02\\x07MetalGreymon\\x02\\x07Bien, je l'ai \npromis...\nFais-en bon usage ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Super, j'ai\nl'ADNN\nAgumon ![pause]\\x02\\x03Merci, \nMetalGreymon ![pause]",
+]

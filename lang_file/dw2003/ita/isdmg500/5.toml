@@ -1,0 +1,12 @@
+strings = [
+	"",
+	"\\x02\\x07Numemon\\x02\\x07Qui saremo\nal sicuro.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ehi, grazie![pause]\\x02\\x03Ma cosa hanno\ngli abitanti\ndi Byakko?[pause]\\x02\\x03Il governatore mi\nha fatto cadere\nnel sotterraneo.[pause]",
+	"\\x02\\x07Numemon\\x02\\x07Il governatore\ne tutti gli altri\nsono dei falsi![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Cosa? Allora\nchi erano\nquei tizi?[pause]",
+	"\\x02\\x07Numemon\\x02\\x07Questo non ti\nriguarda![pause]\\x02\\x03Il vero governatore\nè nel deserto di\nMoebius.[pause]\\x02\\x03Si trova nella Torre\nmiraggio.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ehi!\nAspetta!\nChe storia è?[pause]",
+	"\\x02\\x07Numemon\\x02\\x07Non posso dirti\naltro![pause]\\x02\\x03Non venire\npiù qui a \nByakko![pause]",
+	"\\x02\\x07\\x02\\x09\\x023E va bene!\nCiao![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Bene. Troviamo\nil vero governatore\ne parliamoci![pause]",
+]

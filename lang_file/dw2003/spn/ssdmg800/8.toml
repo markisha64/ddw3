@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023¡El panel funciona!\nEsto debería \nsoltarme del bloque.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Um, ¿se ha \nido el \nbloque ya?[pause]",
+]

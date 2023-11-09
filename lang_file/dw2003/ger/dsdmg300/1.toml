@@ -1,0 +1,13 @@
+strings = [
+	"",
+	"\\x02\\x07Mann\\x02\\x07Hey, wer bist\ndenn du?[pause]\\x02\\x03Schleicht hier\nherum... Du hast\nmich erschreckt...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ah, ah...\nTut mir leid,\nmein Herr...[pause]",
+	"\\x02\\x07Mann\\x02\\x07...Ich bin doch\nkein alter Mann![pause]\\x02\\x03Ich heiβe Nick \nund bin erst 21![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh Mann, tut\nmir echt leid![pause]",
+	"\\x02\\x07Nick\\x02\\x07Gibt es eigentlich\nnur unhöfliche Leute\nauf diesem Server.[pause]\\x02\\x03Erst Etemon und\njetzt du...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023...Etemon?\nIst etwas\npassiert?[pause]",
+	"\\x02\\x07Nick\\x02\\x07Ich fand dieses rie-\nsige auffällige Schild.[pause]\\x02\\x03Dann kam Etemon, \nsagte es sei seines...[pause]\\x02\\x03und nahm es mir weg,\nohne sich zu bedanken.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023...Etemon?\nEin auffäl-\nliges Schild?[pause]\\x02\\x03...Was mag\ndas wohl\nsein...[pause]",
+	"\\x02\\x07Nick\\x02\\x07Ich bin ziem-\nlich beschäf-\ntigt, also..[pause]",
+	"\\x02\\x07Nick\\x02\\x07Warum machen sie nicht\nihren Job?[pause]\\x02\\x03Ich wünschte, sie würd.\nmich zum Vorbild nehmen.[pause]",
+]

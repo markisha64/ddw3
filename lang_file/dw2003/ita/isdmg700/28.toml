@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"TEMPO SCADUTO!\nTEMPO SCADUTO![pause]\\x02\\x03TRASFERIMENTO\nTERMINATO.\nDIGITALIZZAZIONE![pause]",
+	"\\x02\\x07Ufficiale camera\\x02\\x07Macchina astrale\nOK. Nessuna\nanomalia nei dati.[pause]\\x02\\x03Fine digitalizzazione![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh, no! Tempo\nscaduto!\nDevo tornare![pause]",
+	"\\x02\\x07\\x02\\x09\\x023E ora? La\nJuggernaut sta\nper partire![pause]",
+]

@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07Tai Kong Wang\\x02\\x07Io costruisco le\nmigliori canne\nda pesca.[pause]\\x02\\x03Certo, è solo\nla mia opinione![pause]\\x02\\x03Usa le mie canne, e\npescherai pesci\nmolto grandi![pause]\\x02\\x03Buona fortuna con\ni pesci! Ecco\nqua, ragazzo![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Eh!\nGrazie![pause]\\x02\\x03Ho la canna\nda pesca, wow![pause]",
+	"\\x02\\x07Tai Kong Wang\\x02\\x07Ho ho ho ho ho!\nBuona fortuna![pause]",
+]

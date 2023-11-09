@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07DO Guard\\x02\\x07Sorry, \nonly authorized \npersonnel beyond...[pause]\\x02\\x03...what, \na Digimon again?![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Umm, yeah.\n...I'm...\n...a lost Digimon![pause]",
+	"\\x02\\x07DO Guard\\x02\\x07First that pink \nAgumon and now \nyou...[pause]\\x02\\x03You can pass, but\ndon't be getting in\neveryone's way.[pause]",
+]

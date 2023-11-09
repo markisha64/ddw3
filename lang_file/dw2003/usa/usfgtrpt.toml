@@ -1,0 +1,14 @@
+strings = [
+	"",
+	"EXP",
+	"EXP gained:\n\\x02\\x05\\x01 EXP[pause]",
+	"LV",
+	"Level gained![pause]",
+	"Learned Tech:\n\\x02\\x05\\x01[pause]",
+	"Can load Tech:\n\\x02\\x05\\x01[pause]",
+	"\\x02\\x05\\x01\nLevel \\x02\\x05\\x02![pause]",
+	"Digivolve learned:\n\\x02\\x05\\x01[pause]",
+	"Digivolve Slot full. \nStoring to Digimon Lab.[pause]",
+	"BIT gained:\n\\x02\\x05\\x01 BIT[pause]",
+	"Item gained:\n\\x02\\x05\\x01[pause]",
+]

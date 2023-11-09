@@ -1,0 +1,13 @@
+strings = [
+	"",
+	"Ha ha ha! Geschafft!\nDas Fusionsexperiment\nhat funktioniert![pause]",
+	"\\x02\\x07Gamemaster\\x02\\x07Glückwunsch!\nJetzt ist...?[pause]",
+	"Ja! Obwohl Lucky\nMouse unsere Pläne\ndurchkreuzt hat...[pause]\\x02\\x03Wir beginnen nun\nmit Operation Sigma![pause]",
+	"\\x02\\x07Gamemaster\\x02\\x07In Ordnung![pause]",
+	"Vemmon, komm\njetzt zu mir![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hey, Gamemaster!\nMit wem redest du?\nDem A.o.A.-Boss?[pause]",
+	"\\x02\\x07Gamemaster\\x02\\x07Du bist\ndoch der\nJunge aus..[pause]\\x02\\x03Was machst\ndu hier?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ich mach dich\nfertig![pause]\\x02\\x03Besser sagst du mir\nganz schnell, was \ndie A.o.A. planen![pause]",
+	"\\x02\\x07Gamemaster\\x02\\x07Du willst mich be-\nsiegen? Guter Witz![pause]\\x02\\x03Kommt, meine kost-\nbaren Digimon![pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK, die Wa-\nchen habe ich\nbesiegt![pause]\\x02\\x03Nun i. Game-\nmaster dran![pause]",
+]

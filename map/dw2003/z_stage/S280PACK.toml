@@ -1,0 +1,20 @@
+width = 5
+height = 3
+entries = [
+	"/build/rlen/dw2003/z_stage/S280PACK/0.bin",
+	"/build/rlen/dw2003/z_stage/S280PACK/1.bin",
+	"/build/rlen/dw2003/z_stage/S280PACK/2.bin",
+	"/build/rlen/dw2003/z_stage/S280PACK/3.bin",
+	"/build/rlen/dw2003/z_stage/S280PACK/4.bin",
+	"/build/rlen/dw2003/z_stage/S280PACK/5.bin",
+	"/build/rlen/dw2003/z_stage/S280PACK/6.bin",
+	"/build/rlen/dw2003/z_stage/S280PACK/7.bin",
+	"/build/rlen/dw2003/z_stage/S280PACK/8.bin",
+	"/build/rlen/dw2003/z_stage/S280PACK/9.bin",
+	"/build/rlen/dw2003/z_stage/S280PACK/10.bin",
+	"/build/rlen/dw2003/z_stage/S280PACK/11.bin",
+	"/build/rlen/dw2003/z_stage/S280PACK/12.bin",
+	"/build/rlen/dw2003/z_stage/S280PACK/13.bin",
+	"/build/rlen/dw2003/z_stage/S280PACK/14.bin",
+]
+extra_padding = 16384

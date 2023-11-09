@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Häh?! Was ist hier\neigentlich los?\nWo sind denn alle?[pause]",
+	"Beep Beep...\nEINSCHALTEN.\nNEUSTART![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hey, was\ngeht ab?[pause]",
+	"ICH BIN DAS BETRIEBSSYSTEM DER\nGONDEL FÜR DEN TIEFEN GRABEN.[pause]\\x02\\x03ZUM AKTIVIEREN DER GONDEL RICH-\nTUNG SÜDSEKTOR IST DIE...[pause]\\x02\\x03KONTOREGISTRIERUNG MIT EINER\nBLAUEN KARTE ERFORDERLICH.[pause]\\x02\\x03DIGIMON, DIE AUS EINER BLAUEN\nKARTE ENTSTANDEN SIND, BESITZEN\nSIE: VON IHNEN BEKOMMST DU SIE.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Aha. Digimon aus\neiner blauen Karte.[pause]\\x02\\x03Hm. Ich glaube,\ndas ist Guilmon.[pause]\\x02\\x03Ich sollte in die\nStadt gehen und \nihn fragen.[pause]",
+]

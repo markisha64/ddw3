@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Zanbamon\\x02\\x07Wawas...\nIch habe verloren[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Was war das?![pause]\\x02\\x03Ich bin sehr \nstark, oder?[pause]",
+	"\\x02\\x07Zanbamon\\x02\\x07Oh, in Ordnung.\nIch schenk dir das,\nalso vergib mir![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Was, ein rosti-\nges Katana?! \nOh, na gut...[pause]",
+	"\\x02\\x07Zanbamon\\x02\\x07Ich werde hier in\nFrieden leben...[pause]\\x02\\x03Lass mich bitte\nin Ruhe![pause]",
+]

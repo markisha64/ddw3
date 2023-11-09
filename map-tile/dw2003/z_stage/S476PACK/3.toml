@@ -1,0 +1,18 @@
+img = "/build/tim/dw2003/z_stage/S476PACK/3.tim"
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [13, 0]
+img_offset = [0, 0]
+size = [116, 128]
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [67, 0]
+img_offset = [116, 0]
+size = [62, 39]
+
+[[layers]]
+objs = []

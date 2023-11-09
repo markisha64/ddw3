@@ -1,0 +1,12 @@
+strings = [
+	"",
+	"\\x02\\x07Kail\\x02\\x07È la Signora del\nGioco. Al riparo![pause]",
+	"\\x02\\x07Signora del Gioco\\x02\\x07Santi numi,\nche ci fate voi\nqui?[pause]\\x02\\x03I nostri piani\nsono fermi![pause]",
+	"\\x02\\x07???\\x02\\x07Mi dispiace,\nintensificheremo\nla ricerca.[pause]",
+	"\\x02\\x07Guardia D.O.\\x02\\x07Lo troveremo.\nÈ una questione\ndi tempo![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Mi chiedo di\ncosa stiano\nparlando?[pause]",
+	"\\x02\\x07Guardia D.O.\\x02\\x07Ehi, cosa ci fanno\ndei Digimon qui?[pause]",
+	"\\x02\\x07Guardia DO\\x02\\x07Sembra\nsospetto!\nPrendetelo![pause]",
+	"\\x02\\x07Guardia D.O.\\x02\\x07Non puoi\nscappare![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oops, siamo\nscoperti![pause]",
+]

@@ -1,0 +1,29 @@
+width = 6
+height = 4
+entries = [
+	"/build/rlen/dw2003/z_stage/S860PACK/0.bin",
+	"/build/rlen/dw2003/z_stage/S860PACK/1.bin",
+	"/build/rlen/dw2003/z_stage/S860PACK/2.bin",
+	"/build/rlen/dw2003/z_stage/S860PACK/3.bin",
+	"/build/rlen/dw2003/z_stage/S860PACK/4.bin",
+	"/build/rlen/dw2003/z_stage/S860PACK/5.bin",
+	"/build/map-tile/dw2003/z_stage/S860PACK/6.bin",
+	"/build/map-tile/dw2003/z_stage/S860PACK/7.bin",
+	"/build/map-tile/dw2003/z_stage/S860PACK/8.bin",
+	"/build/map-tile/dw2003/z_stage/S860PACK/9.bin",
+	"/build/rlen/dw2003/z_stage/S860PACK/10.bin",
+	"/build/rlen/dw2003/z_stage/S860PACK/11.bin",
+	"/build/rlen/dw2003/z_stage/S860PACK/12.bin",
+	"/build/rlen/dw2003/z_stage/S860PACK/13.bin",
+	"/build/rlen/dw2003/z_stage/S860PACK/14.bin",
+	"/build/rlen/dw2003/z_stage/S860PACK/15.bin",
+	"/build/rlen/dw2003/z_stage/S860PACK/16.bin",
+	"/build/rlen/dw2003/z_stage/S860PACK/17.bin",
+	"/build/rlen/dw2003/z_stage/S860PACK/18.bin",
+	"/build/rlen/dw2003/z_stage/S860PACK/19.bin",
+	"/build/rlen/dw2003/z_stage/S860PACK/20.bin",
+	"/build/rlen/dw2003/z_stage/S860PACK/21.bin",
+	"/build/rlen/dw2003/z_stage/S860PACK/22.bin",
+	"/build/rlen/dw2003/z_stage/S860PACK/23.bin",
+]
+extra_padding = 18432

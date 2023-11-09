@@ -1,9 +1,0 @@
-strings:
-  - ''
-  - |-
-    \x02\x07\x02\x09\x023Oups. Il n'y
-    a personne.[pause]
-  - '\x02\x07Voix\x02\x07Hou-ou-oouu[pause]'
-  - |-
-    \x02\x07\x02\x09\x023Aah ! Un
-    monstre ![pause]

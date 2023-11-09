@@ -9,10 +9,7 @@ use {
 	args::Args,
 	clap::Parser,
 	ddw3_lang_file::LangFile,
-	std::{
-		fs,
-		io::{BufReader, BufWriter},
-	},
+	std::{fs, io::BufWriter},
 };
 
 
@@ -23,12 +20,11 @@ fn main() -> Result<(), anyhow::Error> {
 	// Get all arguments
 	let args = Args::parse();
 
-	// Open the input file
-	let input_file = ddw3_util::open_input_file(args.input_file.as_deref()).context("Unable to open input file")?;
-	let input_file = BufReader::new(input_file);
-
-	// Read the strings
-	let lang_file = serde_yaml::from_reader::<_, LangFile>(input_file).context("Unable to parse input file")?;
+	// Read the input file and parse it
+	let lang_file = {
+		let input = fs::read_to_string(args.input_file).context("Unable to read input file")?;
+		toml::from_str::<LangFile>(&input).context("Unable to parse input file")?
+	};
 
 	// Open the output file
 	let output = fs::File::create(args.output_file).context("Unable to create output file")?;

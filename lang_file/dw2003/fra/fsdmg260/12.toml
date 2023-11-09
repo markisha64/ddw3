@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07M. Smith\\x02\\x07A vous de jouer ! Voici\nle clou de la vente ![pause]\\x02\\x03Le Bouclier Dramon, \nconvoité par tous ![pause]\\x02\\x03Le bouclier exclusif de \nVeemon est proposé \nà 800 BIT au départ ![pause]",
+	"\\x02\\x07Marchand Abel\\x02\\x071100 BIT ![pause]",
+	"\\x02\\x07Chef Milly\\x02\\x071300 \nBIT ![pause]",
+	"\\x02\\x07Masao Fan jeu\\x02\\x071500 BIT ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hmm. 1600 BIT\n...hmmm...[pause]",
+]

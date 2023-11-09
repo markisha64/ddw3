@@ -1,0 +1,4 @@
+strings = [
+	"",
+	"\\x02\\x07DO Guard\\x02\\x07Sorry, only authorized\npersonnel are allowed\nbeyond this point![pause]",
+]

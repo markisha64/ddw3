@@ -1,8 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07\\x02\\x09\\x023¡Gané \ncontra\nTaomon![pause]"
-  - |-
-    \x02\x07Taomon\x02\x07...Ya veo,
-    eres mejor de
-    lo que creía.[pause]\x02\x03Toma esto.[pause]
-  - "\\x02\\x07\\x02\\x09\\x023¡Sí! ¡Tengo\nel DADN de \nRenamon![pause]\\x02\\x03¡Grac. Taomon![pause]"

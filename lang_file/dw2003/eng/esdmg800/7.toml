@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023This panel is alive!\nThis should get rid \nof the block...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hmm, did the \nblock go away \nnow?[pause]",
+]

@@ -1,0 +1,16 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Sepikmon,\nI got your \nSepik Mask![pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07WOW!\nThanks![pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07......\n......[pause]",
+	"\\x02\\x07\\x02\\x09\\x023What's wrong? \nPut it on and \ncome on out.[pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07Uh-uhm...can \nyou look the \nother way?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh... ah...\nall right.[pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07Ah yeah!\nThis is more like it.\nI feel much better![pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07I'll give this \nto you![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Huh?! What's \nthis Smelly \nHerb?[pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07Zanbamon hates the\nsmell of Smelly Herb![pause]\\x02\\x03It's great. He'll run \naway for sure![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Really?\nThanks, you're\na life saver![pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07You too.\nGood luck![pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07This paper bag \njust didn't cut \nit![pause]",
+]

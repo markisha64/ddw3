@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07Signore fuoco\\x02\\x07Sei forte!\nImpressionante.[pause]\\x02\\x03Ti darò questo.\nUsalo![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ho il chip\nmentale![pause]",
+	"\\x02\\x07Signore fuoco\\x02\\x07Il nostro capo è\nlaggiù. È molto\npotente![pause]",
+]

@@ -1,8 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07Knightmon\\x02\\x07Virus gefunden!\nVirus gefunden![pause]\\x02\\x03Virus wird jetzt \ngelöscht![pause]"
-  - |-
-    \x02\x07\x02\x09\x023Hey, Moment!
-    Ich bin kein Virus![pause]
-  - "\\x02\\x07Knightmon\\x02\\x07Virus bestätigt!\nVirus bestätigt![pause]\\x02\\x03Virus wird jetzt \ngelöscht![pause]"
-  - "\\x02\\x07\\x02\\x09\\x023Sinnlos! Knightmon\nw. von den A.o.A.\numprogrammiert![pause]\\x02\\x03Hmm... Schätze, ich\nsollte mir jetzt die \nand. Städte ansehen.[pause]"

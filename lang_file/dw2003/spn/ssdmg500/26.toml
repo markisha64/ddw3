@@ -1,0 +1,4 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Está arriba.[pause]\\x02\\x03¡Si he llegado \nhasta aquí, lo\nvoy a atrapar![pause]",
+]

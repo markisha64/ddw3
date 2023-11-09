@@ -72,7 +72,7 @@ pathdiff = "0.2.1"
 ref-cast = "1.0.20"
 serde = { version = "1.0.188", features = ["derive"] }
 serde_with = { version = "3.3.0", features = ["hex"] }
-serde_yaml = "0.9.25"
+toml = "0.8.8"
 thiserror = "1.0.47"
 tracing = "0.1.37"
 tracing-subscriber = { version = "0.3.17", features = ["env-filter"] }

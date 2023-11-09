@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Eishexe\\x02\\x07Moment bitte!\nJem. wie du darf\nhier nicht durch![pause]\\x02\\x03Gib auf und geh\nnach Hause![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Machst du \nWitze? Dafür \nist keine Zeit![pause]",
+	"\\x02\\x07Eishexe\\x02\\x07Ich bin die Königin\ndes Eisverlieses!\nHüte deine Zunge![pause]\\x02\\x03Das ist unverzeihl.\nDafür wirst du\nbestraft![pause]",
+	"\\x02\\x07\\x02\\x09\\x023?!?[pause]",
+]

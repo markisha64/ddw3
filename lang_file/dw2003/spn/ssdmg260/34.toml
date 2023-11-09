@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023¡De acuerdo!\n¡Por 6000![pause]",
+	"\\x02\\x07Sr. Smith\\x02\\x07¡Uauu!\n¡6000 BIT![pause]\\x02\\x03¿Alguien sobre\n6000 BIT?[pause]",
+	"\\x02\\x07Sr. Smith\\x02\\x07A la una, dos\n¡Adjudicado![pause]\\x02\\x03¡Gafas de Tirador\nvendido,4000 BIT![pause]\\x02\\x03¡Felicidades\nal chico de ahí![pause]\\x02\\x03¡Estoy transfiriendo \nel artículo a\ntu satélite![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Sí! ¡Tengo las\nGafas de Tirador![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Bien! Tengo un\nartículo chulo. \n¡Salgamos de aquí![pause]",
+]

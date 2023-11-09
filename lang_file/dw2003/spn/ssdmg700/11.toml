@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07Bruja de Hielo\\x02\\x07Admito la derrota.\nEres muy bueno.[pause]\\x02\\x03Como dicta la norma,\nahora puedes pasar.[pause]",
+	"\\x02\\x07Bruja de Hielo\\x02\\x07Pasa.\nRezaré por \ntu éxito.[pause]",
+]

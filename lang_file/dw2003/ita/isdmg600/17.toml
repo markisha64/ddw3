@@ -1,0 +1,10 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Governatore\ndi Byakko,\ndevo parlarti![pause]",
+	"\\x02\\x07Governatore Byakko\\x02\\x07Mi hai già\ntrovato![pause]\\x02\\x03E così ti dovrò\ncombattere![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Cosa?\nEhi, aspetta un\nmomento![pause]",
+	"\\x02\\x07Govern. di Byakko\\x02\\x07Silenzio! Non mi\nfarò battere\ndall'A.o.A![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Co-cosa?\nA.o.A?[pause]",
+	"\\x02\\x07Govern. di Byakko\\x02\\x07Non scherzare\ncon me! Vieni\nqui, mio Digimon![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Non posso\ncrederci! Caspita![pause]\\x02\\x03Ma va bene,\nvediamo di\nsbrigarci![pause]",
+]

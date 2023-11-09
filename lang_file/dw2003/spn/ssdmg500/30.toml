@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023¡Sí, ya le \ngané al Jefe\nZhu Que![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Eh? Hay\nalgo en el suelo\notra vez...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Sí! ¡Tengo el\nPase ID Rojo![pause]\\x02\\x03...Pero ¿dónde\nestá el Digihuevo\nde Sabiduría?[pause]\\x02\\x03¡Tengo que \nencontrarlo antes de\nparar el Juggernaut![pause]",
+]

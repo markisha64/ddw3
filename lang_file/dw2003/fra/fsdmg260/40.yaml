@@ -1,9 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07M. Smith\\x02\\x07A vous de jouer ! \nLe clou de la vente ![pause]\\x02\\x03Le Heaume Hardi, \nadmiré par tous ![pause]\\x02\\x03Ce heaume exclusif  \nd'Agumon est proposé \nà 7000 BIT au départ ![pause]"
-  - '\x02\x07Marchand Abel\x02\x078000 BIT ![pause]'
-  - "\\x02\\x07Chef Milly\\x02\\x078300 \nBIT ![pause]"
-  - '\x02\x07Masao Fan jeu\x02\x078600 BIT ![pause]'
-  - |-
-    \x02\x07\x02\x09\x023Hmm. 8700 BIT
-    ...hmmm...[pause]

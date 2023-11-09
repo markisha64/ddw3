@@ -1,0 +1,26 @@
+width = 4
+height = 5
+entries = [
+	"/map-tile/empty.bin",
+	"/build/rlen/dw2003/z_stage/S435PACK/1.bin",
+	"/build/rlen/dw2003/z_stage/S435PACK/2.bin",
+	"/map-tile/empty.bin",
+	"/build/rlen/dw2003/z_stage/S435PACK/4.bin",
+	"/build/map-tile/dw2003/z_stage/S435PACK/5.bin",
+	"/build/map-tile/dw2003/z_stage/S435PACK/6.bin",
+	"/build/rlen/dw2003/z_stage/S435PACK/7.bin",
+	"/build/map-tile/dw2003/z_stage/S435PACK/8.bin",
+	"/build/map-tile/dw2003/z_stage/S435PACK/9.bin",
+	"/build/map-tile/dw2003/z_stage/S435PACK/10.bin",
+	"/build/map-tile/dw2003/z_stage/S435PACK/11.bin",
+	"/build/map-tile/dw2003/z_stage/S435PACK/12.bin",
+	"/build/map-tile/dw2003/z_stage/S435PACK/13.bin",
+	"/build/map-tile/dw2003/z_stage/S435PACK/14.bin",
+	"/build/map-tile/dw2003/z_stage/S435PACK/15.bin",
+	"/build/rlen/dw2003/z_stage/S435PACK/16.bin",
+	"/build/map-tile/dw2003/z_stage/S435PACK/17.bin",
+	"/build/rlen/dw2003/z_stage/S435PACK/18.bin",
+	"/build/rlen/dw2003/z_stage/S435PACK/19.bin",
+]
+override_entries_len = 18
+extra_padding = 8192

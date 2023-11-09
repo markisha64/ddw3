@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Maître Ténèbres\\x02\\x07...Hmm ? !\nQui es tu...[pause]\\x02\\x03Tu es venu\nici pour me\ndéfier ?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oui !\nTu vas te battre \navec moi, non ?[pause]",
+	"\\x02\\x07Maître Ténèbres\\x02\\x07Tu ne sais pas à\nqui tu as affaire.[pause]\\x02\\x03OK. Je n'ai pas\nvu de dresseurs\ndepuis longtemps.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Regarde.\nOn va voir qui\nest mauvais ![pause]",
+]

@@ -1,0 +1,10 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023I did it!\nI beat Kurt![pause]",
+	"\\x02\\x07Kurt\\x02\\x07Congratulations,\n\\x02\\x08\\x01\\x02\\x05\\x01! You beat\nme fair and square![pause]\\x02\\x03Now you're the new\nstrongest tamer![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Thank you![pause]",
+	"\\x02\\x07Kurt\\x02\\x07Soon Digimon Online will\nbe restored. As the\nfirst World Champ, you[pause]\\x02\\x03should take on all the\nchallengers that'll come\nfrom around the world.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Me?\nThe first World\nChamp?[pause]\\x02\\x03Well, I'll\ntry to do my\nbest![pause]",
+	"\\x02\\x07Kurt\\x02\\x07I'll be counting on\nyou! You still have\nsome time though.[pause]\\x02\\x03Until then, fight\nmore and get even\nstronger![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Don't worry.\nI'm going to be\nthe strongest[pause]\\x02\\x03World Champ\never![pause]",
+]

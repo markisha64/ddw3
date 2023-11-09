@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Then I'll \nchallenge you![pause]",
+	"\\x02\\x07Pharaohmon\\x02\\x07You show no \nfear![pause]\\x02\\x03I must warn\nyou. I am\npowerful![pause]",
+	"\\x02\\x07\\x02\\x09\\x023We won't\nknow until\nwe do it![pause]",
+	"\\x02\\x07Pharaohmon\\x02\\x07...Good, \nyou're ready.[pause]\\x02\\x03Then I'll go \nfull force![pause]",
+]

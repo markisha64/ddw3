@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Paildramon, mi\nfai un favore,\neh?[pause]\\x02\\x03Posso prendere il\nDDNA di Veemon\ndal tuo?[pause]",
+	"\\x02\\x07Paildramon\\x02\\x07Mai! Ho sempre\navuto paura delle\npunture![pause]\\x02\\x03Solo battendomi\nin battaglia\nlo avrai![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh,va bene.\nDevo solo\nvincere,no?[pause]",
+	"\\x02\\x07Paildramon\\x02\\x07È così!\nProvaci,\nsu![pause]",
+]

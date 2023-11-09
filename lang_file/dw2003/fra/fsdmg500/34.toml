@@ -1,0 +1,11 @@
+strings = [
+	"",
+	"\\x02\\x07Chef de Zhu Que\\x02\\x07Seuls les membres\nde l'AoA peuvent\nentrer ici ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Chef de Zhu Que\noù est le Digi-\nOeuf du Savoir ?[pause]",
+	"\\x02\\x07Chef de Zhu Que\\x02\\x07Ah ah ! Tu es donc\nle responsable du\nserveur Asuka ![pause]\\x02\\x03Malgré tous tes\neffets, il est\ntrop tard ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Quoi ? Que\nveux-tu\ndire par là ?[pause]",
+	"\\x02\\x07Chef de Zhu Que\\x02\\x07Ha ha ha, je\nvais t'expliquer ![pause]\\x02\\x03Nous avons pris la\nbase sous-marine\nde Magasta ![pause]",
+	"\\x02\\x07Chef de Zhu Que\\x02\\x07Et à présent, nous [pause]\\x02\\x03... lançons le fort\nmobile Juggernaut ![pause]\\x02\\x03Le monde va\ns'agenouiller\ndevant l'AoA ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Je ne vais pas\nvous laisser\nfaire ça ![pause]\\x02\\x03Nous empêcherons\nle lancement du\nJuggernaut ![pause]",
+	"\\x02\\x07Chef de Zhu Que\\x02\\x07Ah ah ! Essaie\ntoujours ![pause]\\x02\\x03Mais tu devras\nd'abord me battre.[pause]",
+]

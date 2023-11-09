@@ -1,0 +1,12 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023OK, andiamo\nad Amaterasu!\nForza![pause]",
+	"\\x02\\x07Teddy\\x02\\x07Ehi, \\x02\\x08\\x01\\x02\\x05\\x01!\nAspetta![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Teddy!\nPerché\nsei qui?[pause]",
+	"\\x02\\x07Teddy\\x02\\x07Sono venuto con\nLisa e gli altri.[pause]\\x02\\x03\\x02\\x08\\x01\\x02\\x05\\x01, puoi\naspettare un po'\nprima di entrare?[pause]\\x02\\x03Lisa sta portando\nqui i membri della\nResistenza![pause]",
+	"\\x02\\x07\\x02\\x09\\x023E come la\nmettiamo\ncon l'A.o.A?[pause]",
+	"\\x02\\x07Teddy\\x02\\x07Ci ha pensato\nla Resistenza![pause]\\x02\\x03Prese le quattro\ncittà, rimane solo\nAmaterasu![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Bene!\nOra...[pause]",
+	"\\x02\\x07Teddy\\x02\\x07Sì, la battaglia\nfinale![pause]\\x02\\x03Sconfiggeremo\nl'A.o.A![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Perfetto![pause]\\x02\\x03Se lottiamo\nassieme, l'A.o.A\nnon ha scampo![pause]",
+]

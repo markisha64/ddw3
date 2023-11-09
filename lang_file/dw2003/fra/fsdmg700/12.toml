@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Chevalier du Feu\\x02\\x07Attends ! Tu\narrives à point,\nje m'ennuyais.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023S'ennuyer ? Je\nn'ai pas le temps ![pause]",
+	"\\x02\\x07Chevalier du Feu\\x02\\x07Tu ne t'ennuies\npas ? Sans blague ![pause]\\x02\\x03Les dresseurs sont\nfaibles ces temps-ci...[pause]\\x02\\x03Mais tu as l'air en\nforme. On se bat ?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023?!?[pause]",
+	"\\x02\\x07Chevalier du Feu\\x02\\x07Tu vas connaître\nle pouvoir de mes\nDigimons. Feeeuuu ![pause]",
+]

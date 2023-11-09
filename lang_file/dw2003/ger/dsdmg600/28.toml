@@ -1,0 +1,13 @@
+strings = [
+	"",
+	"\\x02\\x07Leader Chuck\\x02\\x07Kenny hat mir\nalles erzählt.[pause]\\x02\\x03Viel Glück im\nKampf gegen\ndie A.o.A![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ja, dir auch\nviel Glück![pause]",
+	"\\x02\\x07Leader Chuck\\x02\\x07Ich möchte dir wirk-\nlich helfen u. mit\ndir kämpfen, aber[pause]\\x02\\x03wir müssen hier\ndie Stellung im \nFort halten.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ist schon OK.\nMach dir keine\nSorgen um mich![pause]",
+	"\\x02\\x07Leader Chuck\\x02\\x07Tut mir leid, dass der \nweite Weg umsonst war.[pause]\\x02\\x03Wenn wir zurück nach\nAmaterasu City kommen,\nkön. wir sicher helfen.[pause]\\x02\\x03Ich hätte aber nie ge-\ndacht, dass sie Knight-\nmon umprogrammieren.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Knightmon...\nWie kann ich\nihn besiegen?[pause]",
+	"\\x02\\x07Leader Chuck\\x02\\x07Wenn er sich in Bewe-\ngung setzt, kannst du\nKnightmon stoppen...[pause]\\x02\\x03Du brauchst die vier\nCode-Pässe der City-\nLeader.[pause]\\x02\\x03Aber alle Leader wurden\ngefangen, daher kann\nich sie nicht...[pause]\\x02\\x03Die City-Chiefs der\nA.o.A. müssen sie ge-\nnommen haben...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Verstehe.\nDiese A.o.A![pause]\\x02\\x03Ich verzeih ihnen nie\ndass sie Digim. für\nBöses missbrauchen![pause]",
+	"\\x02\\x07Leader Chuck\\x02\\x07Klar, aber noch haben\nwir nicht aufgegeben![pause]\\x02\\x03Nach Möglichkeit \nleisten wir Widerstand.\nWarte bis dahin![pause]\\x02\\x03Auf jeden Fall\nviel Glück![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ja, Sir![pause]",
+]

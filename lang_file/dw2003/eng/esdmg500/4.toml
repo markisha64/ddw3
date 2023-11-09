@@ -1,0 +1,10 @@
+strings = [
+	"",
+	"\\x02\\x07Numemon\\x02\\x07...are you going\nto Byakko City?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Yeah, that's\nthe plan.[pause]",
+	"\\x02\\x07Numemon\\x02\\x07You better not.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023...what?\nWhy not?![pause]",
+	"\\x02\\x07Numemon\\x02\\x07Just go back\nfrom here!\nOK?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hey wait![pause]",
+	"\\x02\\x07\\x02\\x09\\x023He's gone...[pause]\\x02\\x03...but what's up \nwith the Byakko\nCity thing?[pause]",
+]

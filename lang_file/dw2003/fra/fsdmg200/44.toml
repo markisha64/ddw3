@@ -1,0 +1,4 @@
+strings = [
+	"",
+	"\\x02\\x07M. Smith\\x02\\x07...Oh ? C'est un  \npasse d'El Dorado ?[pause]\\x02\\x03Tu es donc l'un des \nnôtres ! Viens par \nici ![pause]",
+]

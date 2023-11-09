@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Attends ! Je ne te\nlaisserai pas lancer\nle Juggernaut ![pause]",
+	"\\x02\\x07Soldat Robot\\x02\\x07GGzzz ! GGzzz !\nAlerte intrus !\nAlerte intrus ![pause]\\x02\\x03Suppression ![pause]",
+]

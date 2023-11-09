@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Salut,\nNumemon .[pause]",
+	"\\x02\\x07Numemon\\x02\\x07C'est toi.\nPourquoi es-\ntu revenu ?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023J'ai une\nquestion à\nte poser.[pause]",
+	"\\x02\\x07Numemon\\x02\\x07Je n'ai rien\nà te dire ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Attends ![pause]",
+]

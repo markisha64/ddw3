@@ -1,0 +1,13 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Bizarre.\nNumemon n'est\npas par ici.[pause]",
+	"Aaaaaaah ![pause]\\x02\\x03A l'aide ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Qu'est-ce\nque c'était ?[pause]",
+	"\\x02\\x07WaruMonzaemon\\x02\\x07Tu es si jolie !\nEpouse-moi ![pause]",
+	"\\x02\\x07Lisa\\x02\\x07Je n'aime pas\nles monstres ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh, oh... \nC'est euh... \nLisa ![pause]",
+	"\\x02\\x07Lisa \\x02\\x07Oh, tu es \\x02\\x08\\x01\\x02\\x05\\x01\nn'est-ce pas ?[pause]\\x02\\x03Viens aider une jeune\nfille en détresse ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Bon, OK.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023WaruMonzaemon,\nchoisis un adversaire\nà ta taille ![pause]",
+	"\\x02\\x07WaruMonzaemon\\x02\\x07...\nQui es-tu[pause]\\x02\\x03Hors de ma\nvue ![pause]",
+]

@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Ich schnappe\nmir diesen\nLucky Mouse![pause]",
+	"\\x02\\x07Kail\\x02\\x07Sorry. Mir fiel\ngerade ein, dass\nich gehen muss.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hä?\nWas ist nur mit Kail?[pause]\\x02\\x03Naja, ich habe ja\nDigimon, auf die ich\nmich verlassen kann![pause]\\x02\\x03OK, wir brechen in\nden Westsektor auf![pause]",
+]

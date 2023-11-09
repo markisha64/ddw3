@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Gagné !\nAlors ?[pause]",
+	"\\x02\\x07Keith\\x02\\x07Ha ! J'ai été\ngentil avec toi.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Je croyais que\ntu n'allais pas\nretenir tes coups.[pause]",
+	"\\x02\\x07Keith\\x02\\x07Je ne sais pas\nde quoi tu parles ![pause]\\x02\\x03Fais attention. Je\nne te raterai pas\nla prochaine fois ! [pause]\\x02\\x03Ne m'oublie pas !\nCiao, minable ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Peuh !\nC'est lui le\nminable ![pause]",
+]

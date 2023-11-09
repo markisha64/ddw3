@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Pharaohmon\\x02\\x07Verloren! Du\nbist besser,\nals ich dachte![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Na klar![pause]",
+	"\\x02\\x07Pharaohmon\\x02\\x07Als Lob gebe\nich dir\ndies.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Super! Der\nalte Stab![pause]",
+	"\\x02\\x07Pharaohmon\\x02\\x07Du bist stark. \nUnsere Götter werden \nmit dir sein![pause]",
+]

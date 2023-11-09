@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"ALLES FÜR\nSTART BEREIT![pause]\\x02\\x03JUGGERNAUT\nSTARTET![pause]",
+	"\\x02\\x07Königl. Wac.\\x02\\x07Ha ha ha ha!\nUnser Plan\nist super![pause]",
+	"\\x02\\x07Königl. Wache\\x02\\x07Jetzt los!\nJuggernaut![pause]\\x02\\x03Bring Terr. u. Zer-\nstörung über diese\nnutzlose Welt![pause]",
+	"\\x02\\x07Königl. Wache\\x02\\x07Elektromagne-\ntische Sperre\njetzt aufheben![pause]",
+]

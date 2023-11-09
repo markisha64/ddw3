@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07Sorcière des Glaces\\x02\\x07Je dois admettre ma\ndéfaite. Bravo ![pause]\\x02\\x03Ainsi que le veulent\nles règles, tu peux\npasser, maintenant.[pause]",
+	"\\x02\\x07Sorcière Glaces\\x02\\x07Va, je prierai\npour que tu\nréussisses.[pause]",
+]

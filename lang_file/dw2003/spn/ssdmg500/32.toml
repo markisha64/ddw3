@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Algún sitio.\n...¿Dónde\nes eso?[pause]",
+	"\\x02\\x07Patamon\\x02\\x07Um... No sé.\nPero en la selva\noí un ruido raro.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Un ruido\nraro?[pause]",
+	"\\x02\\x07Patamon\\x02\\x07¡Sí, un sonido como\nuna máquina o un\nDigimon! ¡Muy raro![pause]\\x02\\x03Líder lo oyó\ny se fue...[pause]\\x02\\x03No estoy seguro\npero a lo mejor se \nfue a la selva.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ya veo...\n¡Gracias![pause]",
+]

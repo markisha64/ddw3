@@ -1,0 +1,16 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Sepikmon,\nich habe deine\nSepik-Maske![pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07WOW!\nTausend Dank![pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07......\n......[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Was ist los?\nSetz sie auf u.\nkomm heraus.[pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07Uh-uhm...kannst\ndu bitte weg-\nsehen?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK, na gut.[pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07Ach endlich!\nJetzt fühl ich mich\ngleich viel besser![pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07Das schenke\nich dir![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hä? Was ist\ndas für ein\nRiechkraut?[pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07Zanb. hasst d. Ge-\nruch v. Riechkraut![pause]\\x02\\x03Er haut sicherlich\nsofort ab![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Wirklich?\nDanke, du hast\nmich gerettet![pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07Du mich auch.\nViel Glück![pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07Das war\necht kein \nKnaller![pause]",
+]

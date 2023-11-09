@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07Caballero Oscuro\\x02\\x07Tienes algunos\nmovimientos que no\nhabía visto antes.[pause]",
+	"\\x02\\x07Caballero Oscuro\\x02\\x07¡Adelante!\n¡Vas a ser un\ngran domador![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Sí, \ngracias![pause]",
+]

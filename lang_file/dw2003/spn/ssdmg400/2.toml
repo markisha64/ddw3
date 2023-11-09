@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Líder Seiryu, he\nganado a \nMasterTyranno.[pause]\\x02\\x03¿Luchará ahora\ncontra mí?[pause]",
+	"\\x02\\x07Líder Seiryu\\x02\\x07Ya veo, tienes\nla Garra Antig.[pause]\\x02\\x03¡De acuerdo,\nempieza![pause]",
+]

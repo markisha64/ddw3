@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Genbu Leader\\x02\\x07Hm, what? A \nchallenger at a \ntime like this?![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Genbu Leader, \nI've got a favor \nto ask![pause]\\x02\\x03Can I have your\nbadge to get to\nthe Real World?[pause]",
+	"\\x02\\x07Genbu Leader\\x02\\x07Sorry, no matter \nwhat, I can't give\nthe badge for free.[pause]\\x02\\x03Those are the rules.[pause]\\x02\\x03If you want it you\nhave to win against\nme![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh, all right.\nI knew you were\ngonna say that![pause]\\x02\\x03Let's get this\nover with![pause]",
+]

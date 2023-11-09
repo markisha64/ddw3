@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07DO-Wache\\x02\\x07Entschuldigung,  \nab hier haben nur \nMitarbeiter...[pause]\\x02\\x03...was, wieder\nein Digimon?![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Umm, ja.\n...Ich..bin..ein\n..verlor. Digimon![pause]",
+	"\\x02\\x07DO-Wache\\x02\\x07Erst das rosa\nAgumon und\njetzt du...[pause]\\x02\\x03Du kannst durch,\naber geh niemandem\nauf die Nerven.[pause]",
+]

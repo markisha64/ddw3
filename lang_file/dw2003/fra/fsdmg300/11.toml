@@ -1,0 +1,13 @@
+strings = [
+	"",
+	"Ha ha ha ha !\nL'expérience de la\nfusion est un succès ![pause]",
+	"\\x02\\x07Maître de jeu\\x02\\x07Félicitations !\nDonc...  ?[pause]",
+	"Oui ! Lucky Mouse\nnous a fait perdre un\npeu de temps,  [pause]\\x02\\x03Mais l'opération\nSigma va commencer ![pause]",
+	"\\x02\\x07Maître de jeu \\x02\\x07Oui, monsieur ![pause]",
+	"Vemmon,\nviens ici ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hé, Maître de jeu,\nà qui parles-tu ?\nAu chef de l'AoA ?[pause]",
+	"\\x02\\x07Maître de jeu\\x02\\x07Oh, c'est ce\ngarçon de... [pause]\\x02\\x03Que fais-tu\nici ?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Je suis ici pour te\ndonner une raclée ![pause]\\x02\\x03Et tu ferais mieux\nde me dévoiler les\nprojets de l'AoA ![pause]",
+	"\\x02\\x07Maître de jeu\\x02\\x07Tu crois que tu peux\nme battre ? Imbécile ![pause]\\x02\\x03Venez ici, mes\nprécieux Digimons ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Je me suis\ndébarrassé\ndes gardes ![pause]\\x02\\x03Au tour du\nMaître ![pause]",
+]

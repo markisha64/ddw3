@@ -1,8 +1,0 @@
-strings:
-  - ''
-  - |-
-    \x02\x07Soldat\x02\x07Hier kommst
-    du nicht
-    vorbei![pause]\x02\x03Mich besiegst
-    du nicht![pause]
-  - "\\x02\\x07\\x02\\x09\\x023Ach tatsächlich?[pause]\\x02\\x03Ihr denkt immer,\ndass ihr \ngewinnt![pause]"

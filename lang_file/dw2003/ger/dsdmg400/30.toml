@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"Beep. Beep.\nBITTE WARTEN.\nDATENBESTÄTIGUNG[pause]\\x02\\x03......\nBLAUE KARTE NICHT\nBESTÄTIGT.[pause]\\x02\\x03KONTOREGISTRIERUNG\nWIRD BEENDET...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Was? Warum\ngeht das nicht?[pause]\\x02\\x03Ich habe doch die\nblaue Karte![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Was ist los? Das\nist nicht die blaue\nKarte?[pause]\\x02\\x03Das B ist eine 8!\nDas ist eine 8laue\nKarte![pause]\\x02\\x03Sie ist gefälscht!\nIch wurde herein-\ngelegt![pause]",
+]

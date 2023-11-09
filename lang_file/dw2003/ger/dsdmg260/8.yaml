@@ -1,9 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07Mr. Smith\\x02\\x07Das ist eure Chance![pause]\\x02\\x03Es geht um's Hauptitem![pause]\\x02\\x03Der Sniper-Guard.\nVon allen bewundert![pause]\\x02\\x03Das Mindestgebot für's\nMonmon-Schild liegt \nbei 800 BIT![pause]"
-  - '\x02\x07Händler Abel\x02\x071100 BIT![pause]'
-  - '\x02\x07Chief Milly\x02\x071300 BIT![pause]'
-  - '\x02\x07RPG-Fan Mas.\x02\x071500 BIT![pause]'
-  - |-
-    \x02\x07\x02\x09\x023Hmm..1600 BIT
-    ...hmm...[pause]

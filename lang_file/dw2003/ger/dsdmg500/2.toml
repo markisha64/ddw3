@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Suzaku Leader\\x02\\x07Oh nein, mein\nDigimon ist weg![pause]\\x02\\x03Na ja, Wie \nheiβt du?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023\\x02\\x08\\x01\\x02\\x05\\x01.[pause]",
+	"\\x02\\x07Suzaku Leader\\x02\\x07Cooler Name![pause]\\x02\\x03OK, ich geb dir\ndas hier.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Super! Ich hab\nd. Suzaku-\nAbzeichen![pause]\\x02\\x03Als Nächstes\nbrauche ich das\nByakko-Abzei.[pause]",
+	"\\x02\\x07Suzaku Leader\\x02\\x07Der Westsektor ist jen-\nseits des Ozeans, also \nschwer zugänglich.[pause]\\x02\\x03Es gibt nur einen Weg\ndorthin. Du musst Sub-\nmarimon rufen.[pause]\\x02\\x03Du brauchst das Digiei \nder Verlässlichkeit, um\nSubmarimon zu rufen.[pause]\\x02\\x03Frag in diesem Sektor\nnach mehr Infos.[pause]\\x02\\x03Das ist der einzige Hin-\nweis, den ich dir geben\nkann. Viel Glück.[pause]",
+]

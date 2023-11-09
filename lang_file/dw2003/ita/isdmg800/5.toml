@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"PRONTI AL\nLANCIO![pause]\\x02\\x03JUGGERNAUT \nIN PARTENZA![pause]",
+	"\\x02\\x07Guardia reale\\x02\\x07Ha ha ha ha!\nIl piano è\nun successo![pause]",
+	"\\x02\\x07Guardia reale\\x02\\x07Ora vai,\nJuggernaut![pause]\\x02\\x03Porta terrore e\ndistruzione nel\nmondo![pause]",
+	"\\x02\\x07Guardia reale\\x02\\x07La barriera\nelettromagnetica\nè disattivata![pause]",
+]

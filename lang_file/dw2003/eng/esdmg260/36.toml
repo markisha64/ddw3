@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Mr. Smith\\x02\\x07Now's your chance![pause]\\x02\\x03Finally, our main item![pause]\\x02\\x03Divine Crown, admired by \nall members![pause]\\x02\\x03This Patamon exclusive \ncrown will start at\n4000 BIT![pause]",
+	"\\x02\\x07Dealer Abel\\x02\\x074500 BIT![pause]",
+	"\\x02\\x07Chief Milly\\x02\\x075500 BIT![pause]",
+	"\\x02\\x07RPG Fan Masao\\x02\\x075900 BIT![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hmm... 6000 BIT\n...hmmm...[pause]",
+]

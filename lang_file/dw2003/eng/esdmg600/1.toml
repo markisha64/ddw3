@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Byakko Leader\\x02\\x07Ha ha ha!\nYou are strong. \nI like you.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK, then...[pause]\\x02\\x03So what about\nthis guy called\nLucky Mouse...[pause]",
+	"\\x02\\x07Byakko Leader\\x02\\x07Hold on a minute.\nThe Byakko Badge\nis in that room.[pause]\\x02\\x03I'll listen to you \nafter you get it.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK, I'll be \nright back, so \nwait here![pause]",
+]

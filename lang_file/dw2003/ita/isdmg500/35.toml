@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Ehi, cosa\nabbiamo qui?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Il digi-uovo\ndella sapienza,\nevviva![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ora posso chiamare\nDigmon![pause]\\x02\\x03Torniamo al\nserver Asuka e da\nlì al Settore Nord![pause]",
+]

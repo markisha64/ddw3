@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"ÜBER 180 SEKUNDEN\nÜBER 180 SEKUNDEN[pause]\\x02\\x03ÜBERTRAGUNGSGRENZE\nERREICHT. DIGITATION\nERZWINGEN![pause]",
+	"\\x02\\x07Kammer-Offizier\\x02\\x07...Sternengerät ist\nkomplett grün. Keine\nabnormen Daten.[pause]\\x02\\x03Digitation beendet![pause]",
+	"\\x02\\x07\\x02\\x09\\x023...oh, Zeit\nwird knapp!\nBin zurück![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Was soll ich tun?!\nJuggernaut wird\nstarten![pause]",
+]

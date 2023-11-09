@@ -1,0 +1,13 @@
+strings = [
+	"",
+	"\\x02\\x07Uomo\\x02\\x07Alt. Ehi, chi\nsei tu?[pause]\\x02\\x03Non prendermi alle\nspalle così!\nChe paura![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ah! Sono\nspiacente,\nsignor...[pause]",
+	"\\x02\\x07Uomo\\x02\\x07Non sono un\nvecchio![pause]\\x02\\x03Sono Nick, ho\n21 anni![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh, ah,\nbeh, scusa![pause]",
+	"\\x02\\x07Nick\\x02\\x07Ci sono solo\nmaleducati su\nquesto server?[pause]\\x02\\x03Prima Etemon,\nora tu...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Etemon?\nÈ successo\nqualcosa?[pause]",
+	"\\x02\\x07Nick\\x02\\x07Ho trovato un\ngrande scudo.[pause]\\x02\\x03Etemon è arrivato\ndicendo che era suo.[pause]\\x02\\x03Se l'è preso\nsenza neanche dire\ngrazie.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Etemon?\nUn grande\nscudo?[pause]\\x02\\x03Mi chiedo\ncosa\nfosse![pause]",
+	"\\x02\\x07Nick\\x02\\x07Ehi, sono\noccupato\nio![pause]",
+	"\\x02\\x07Nick\\x02\\x07Perché non fanno il\nloro lavoro?[pause]\\x02\\x03Vorrei essere preso\ncome esempio.[pause]",
+]

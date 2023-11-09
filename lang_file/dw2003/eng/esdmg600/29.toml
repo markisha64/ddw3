@@ -1,0 +1,12 @@
+strings = [
+	"",
+	"\\x02\\x07Tamer Heinrich\\x02\\x07Wait! Unless you say \nthe password, I'm not \nletting you in![pause]",
+	"\\x02\\x07\\x02\\x09\\x023What, a\npassword?\nUm...[pause]",
+	"\\x02\\x07???\\x02\\x07Hey, you're\n\\x02\\x08\\x01\\x02\\x05\\x01![pause]",
+	"\\x02\\x07Kenny\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01, \nit's me,\nKenny![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hey, Kenny!\nYou're OK?[pause]",
+	"\\x02\\x07Kenny\\x02\\x07Yeah! I was able to \njoin the Resistance![pause]\\x02\\x03This is now a base\nfor the Resistance![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Wow, right on,\nKenny![pause]",
+	"\\x02\\x07Kenny\\x02\\x07I know! Come and \nmeet our leader![pause]\\x02\\x03He might know \nsomething to help\nyou.[pause]\\x02\\x03It's this way![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hey, thanks![pause]",
+]

@@ -1,0 +1,10 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Si!\nVittoria![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Eh? C'è\nqualcosa a\nterra.[pause]\\x02\\x03Un'arma per il\nsolo Veemon![pause]\\x02\\x03La difesa di\nDramon![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Aspetta!\nNon ho tempo da\nperdere![pause]\\x02\\x03Devo fermare il\nlancio della\nJuggernaut![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Quale pulsante?\nEccolo!\nÈ questo![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Eh? Nulla di\nfatto? Ma se\nl'A.o.A era qui![pause]\\x02\\x03Questo dovrebbe\nimpedire il\nlancio![pause]",
+	"A TUTTO IL PERSONALE DELLA\nMAGASTA. LA JUGGERNAUT\nÈ STATA QUASI RICARICATA[pause]\\x02\\x03IL PERSONALE NELLA BASE TROVI\nRIPARO, RIPETO,\nJUG...NAUT...ASI...ICATA...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Co-cosa?!\nNon si\nferma?[pause]\\x02\\x03Era una\ntrappola![pause]\\x02\\x03Allora, l'A.o.A\ndev'essere\naltrove![pause]",
+]

@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Recepción Estadio\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01, has\nderrotado a todos\nlos líderes.[pause]\\x02\\x03¡Por favor ve al\nestadio![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Eh... ¿con quién\nlucho ahora?[pause]",
+	"\\x02\\x07Recepción Estadio\\x02\\x07¡Je je je!\nDebes esperar\ny observar[pause]\\x02\\x03Vamos. Tu\noponente te está\nesperando.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Bien! El\ndomador\nmás fuerte.[pause]",
+]

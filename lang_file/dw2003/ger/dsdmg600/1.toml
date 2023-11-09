@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Byakko Leader\\x02\\x07Ha ha ha!\nDu bist stark.\nIch mag dich.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Also gut,...[pause]\\x02\\x03Es geht um diesen\nTypen namens\nLucky Mouse...[pause]",
+	"\\x02\\x07Byakko Leader\\x02\\x07Einen Moment noch\nDas Byakko-Abzei.\nist in dem Raum.[pause]\\x02\\x03Hol es dir, dann\nhöre ich dir zu.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK, bin so-\nfort zurück.\nWarte hier![pause]",
+]

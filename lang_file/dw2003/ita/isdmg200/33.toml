@@ -1,0 +1,18 @@
+strings = [
+	"",
+	"\\x02\\x07Teddy\\x02\\x07Ehi,\n\\x02\\x08\\x01\\x02\\x05\\x01![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Teddy, stai\nbene?[pause]",
+	"\\x02\\x07Teddy\\x02\\x07Si, grazie![pause]\\x02\\x03\\x02\\x08\\x01\\x02\\x05\\x01, la MAGAMI\nfa parte dell'A.o.A.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Si, lo so!\nMa chi è quel\ntipo laggiù?[pause]",
+	"\\x02\\x07Dr. Kadomatsu\\x02\\x07Non siamo l'A.o.A,\ncredimi![pause]",
+	"\\x02\\x07Operatore D.O.\\x02\\x07Non sapevamo che\nla MAGAMI avesse\nrapporti con l'A.o.A![pause]",
+	"\\x02\\x07Guardia D.O.\\x02\\x07I governatori delle\ncittà e il personale\nsono come noi.[pause]\\x02\\x03Non tutti alla\nMAGAMI lavorano per\nl'A.o.A![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ve bene.\nAiuterò tutti:\nrestate lì![pause]\\x02\\x03Sconfiggerò la\nSignora del Gioco![pause]",
+	"\\x02\\x07Operatore D.O.\\x02\\x07Attento. C'è una\ntrappola nella\nsua stanza![pause]",
+	"\\x02\\x07Guardia D.O.\\x02\\x07Sì, e c'è anche una\nporta segreta da\nqualche parte.[pause]",
+	"\\x02\\x07Dr. Kadomatsu\\x02\\x07L'ho sentito\nanch'io.[pause]\\x02\\x03Il codice è\n\"MONSTER\".[pause]\\x02\\x03Ma non so\ncosa significhi.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh, grazie![pause]",
+	"\\x02\\x07Teddy\\x02\\x07Buona\nFortuna![pause]\\x02\\x03Sconfiggi\nl'A.o.A![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Tranquillo.\nCi penso\nio![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh,\nTeddy![pause]",
+]

@@ -1,7 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07\\x02\\x09\\x023Très bien ! \n24000 BIT ![pause]"
-  - "\\x02\\x07M. Smith\\x02\\x07Ouah ! \n24000 BIT ![pause]\\x02\\x03Quelqu'un à \nplus de 24000 \nBIT ?[pause]"
-  - "\\x02\\x07M. Smith\\x02\\x07Si personne ne\nveut renchérir...[pause]\\x02\\x03La Tenue Sauvage\nest vendue  \n24000 BIT ![pause]\\x02\\x03Félicitations au\nMonsieur là-bas ![pause]\\x02\\x03Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]"
-  - "\\x02\\x07\\x02\\x09\\x023Oui ! J'ai \nla Tenue\nSauvage ![pause]"
-  - "\\x02\\x07\\x02\\x09\\x023Bon, c'est un \nchouette objet, \nvoyons ça.[pause]"

@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07Veemon\\x02\\x07Hey, du bist OK.\nIch bin beeindruckt![pause]\\x02\\x03Hier nimm die Baum-\nstiefel![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Cool! Danke,\nVeemon.[pause]\\x02\\x03Toll! Die\nBaumstiefel![pause]",
+	"\\x02\\x07Veemon\\x02\\x07Gut für dich!\nOK, ich gehe nach\nHause, essen![pause]\\x02\\x03Lass uns später\nmal wieder\nspielen![pause]",
+]

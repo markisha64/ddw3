@@ -1,0 +1,11 @@
+strings = [
+	"",
+	"\\x02\\x07Calciatore Hide\\x02\\x07Ehi, Cardmon\nnon esce.[pause]\\x02\\x03E perché ho perso\nGabumon?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Perché\ndai calci agli\nalberi?[pause]",
+	"\\x02\\x07Calciatore Hide\\x02\\x07Mi ha chiesto\nperché lo\nfaccio?[pause]\\x02\\x03Per trovare\nun Cardmon![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Cardmon?\nCos'è? Un\nDigimon?[pause]",
+	"\\x02\\x07Hide calciatore\\x02\\x07Cardmon è un Digimon\nche lascia pacchi\ndi carte extra.[pause]\\x02\\x03Solo Divermon in\ncittà li può\naprire.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Cardmon ha\ndei pacchi?[pause]\\x02\\x03Allora lasciami\ncalciare un po'.[pause]",
+	"\\x02\\x07Hide calciatore\\x02\\x07Heh heh heh. Ci\nvogliono gli stivali\ndell'albero.[pause]\\x02\\x03E tu magari\nli vuoi,\nvero?[pause]\\x02\\x03Ho perso la mia\ncarta Gabumon.\nMi aiuti?[pause]\\x02\\x03Se la trovi, ti dirò\ncome procurarti gli\nstivali.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Una carta\nGabumon? OK,\ntorno presto![pause]",
+]

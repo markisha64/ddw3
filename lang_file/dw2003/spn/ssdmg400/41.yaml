@@ -1,9 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07Jefe Qing Long\\x02\\x07¡Camarada! \n¡Bienvenido![pause]"
-  - "\\x02\\x07\\x02\\x09\\x023Jefe Qing Long.\n¿Dónde está el \nDigihuevo de Sabid.?[pause]"
-  - |-
-    \x02\x07Jefe Qing Long\x02\x07Yo tampoco lo sé,
-    pero ¿por qué?[pause]\x02\x03No eres de nosotros.[pause]
-  - "\\x02\\x07\\x02\\x09\\x023Si no lo soy,\n¿qué vais a \nhacer?[pause]"
-  - "\\x02\\x07Jefe Qing Lo. \\x02\\x07¡Te capturaré\ncomo a los \notros![pause]"

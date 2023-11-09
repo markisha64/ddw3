@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023¿Terremoto\nde nuevo?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Tenía razón!\n¡Es Bulbmon![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡El terremoto fue\npor los agujeros![pause]\\x02\\x03Ya verás.\n¡Esta vez le \nganaré![pause]",
+]

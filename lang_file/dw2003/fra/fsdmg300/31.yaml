@@ -1,7 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07\\x02\\x09\\x023J'ai \nbattu \nArmormon ![pause]"
-  - |-
-    \x02\x07Armormon\x02\x07Incompréhensible...[pause]\x02\x03Mais tu as gagné.
-    Prends, c'est à toi.[pause]
-  - "\\x02\\x07\\x02\\x09\\x023Oui ! J'ai \nl'ADNN\nMonmon ![pause]\\x02\\x03Merci, \nArmormon ![pause]"

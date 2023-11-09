@@ -1,0 +1,9 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Was ist das\nfür ein Raum!?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hey, wer\nist das \nda drüben?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Es ist die Game-\nmaster! Ich\nschnapp sie mir![pause]",
+	"\\x02\\x07Wache A\\x02\\x07Du bist doch...\ndieser Kleine![pause]",
+	"\\x02\\x07Wache B\\x02\\x07Hier kommst\ndu nicht\ndurch![pause]",
+	"\\x02\\x07Wache C\\x02\\x07Gib auf und\nkomm mit uns![pause]",
+]

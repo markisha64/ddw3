@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07Signore tenebre\\x02\\x07Sei molto bravo.\nSono\nsorpreso.[pause]\\x02\\x03Mi hai battuto,\nquindi tieni questo\nregalo.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023L'adattatore\ndi ESP, wow![pause]",
+	"\\x02\\x07Signore tenebre\\x02\\x07Diventerai\nun grande\ndomatore.[pause]\\x02\\x03Buona fortuna![pause]",
+]

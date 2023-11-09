@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07BK Imperialdramon\\x02\\x07Hé, j'ai perdu.\nTu es\npuissant ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Bien sûr !\nJ'ai tout gagné \njusqu'ici ![pause]",
+	"\\x02\\x07BK Imperialdramon\\x02\\x07Je vois, tu es\nformidable ![pause]\\x02\\x03Tiens, je te donne\nça. Prends-le.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oui ! J'ai le \nHeaume du\nPéril ![pause]",
+	"\\x02\\x07BK Imperialdramon\\x02\\x07C'était un bon \ncombat. Reviens\nquand tu veux ![pause]",
+]

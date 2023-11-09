@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07Maestro de hielo\\x02\\x07Eres bueno, \n¡Estoy impactado![pause]\\x02\\x03¡Toma este regalo![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Sí! ¡Tengo\nel Chip MP![pause]",
+	"\\x02\\x07Maestro de hielo\\x02\\x07¡Desde aquí\nserá difícil!\n¡Prepárate![pause]",
+]

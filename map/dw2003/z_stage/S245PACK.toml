@@ -1,0 +1,25 @@
+width = 5
+height = 4
+entries = [
+	"/build/rlen/dw2003/z_stage/S245PACK/0.bin",
+	"/build/rlen/dw2003/z_stage/S245PACK/1.bin",
+	"/build/rlen/dw2003/z_stage/S245PACK/2.bin",
+	"/build/rlen/dw2003/z_stage/S245PACK/3.bin",
+	"/build/rlen/dw2003/z_stage/S245PACK/4.bin",
+	"/build/rlen/dw2003/z_stage/S245PACK/5.bin",
+	"/build/rlen/dw2003/z_stage/S245PACK/6.bin",
+	"/build/rlen/dw2003/z_stage/S245PACK/7.bin",
+	"/build/map-tile/dw2003/z_stage/S245PACK/8.bin",
+	"/build/rlen/dw2003/z_stage/S245PACK/9.bin",
+	"/build/rlen/dw2003/z_stage/S245PACK/10.bin",
+	"/build/rlen/dw2003/z_stage/S245PACK/11.bin",
+	"/build/rlen/dw2003/z_stage/S245PACK/12.bin",
+	"/build/rlen/dw2003/z_stage/S245PACK/13.bin",
+	"/build/rlen/dw2003/z_stage/S245PACK/14.bin",
+	"/build/rlen/dw2003/z_stage/S245PACK/15.bin",
+	"/build/rlen/dw2003/z_stage/S245PACK/16.bin",
+	"/build/rlen/dw2003/z_stage/S245PACK/17.bin",
+	"/build/rlen/dw2003/z_stage/S245PACK/18.bin",
+	"/build/rlen/dw2003/z_stage/S245PACK/19.bin",
+]
+extra_padding = 16384

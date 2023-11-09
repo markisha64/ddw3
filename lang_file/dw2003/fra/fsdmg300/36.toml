@@ -1,0 +1,12 @@
+strings = [
+	"",
+	"\\x02\\x07Veemon\\x02\\x07Alors, on joue à \nquoi ?\nHmmmmm...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hé, Veemon ! Je \nveux les \nArbori-bottes.[pause]",
+	"\\x02\\x07Veemon\\x02\\x07Arbori-bottes ? Les \nbottes pour shooter\ndans les arbres...[pause]\\x02\\x03Bien sûr, mais \nmais tu dois jouer \navec moi ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Bien sûr !\nOn joue à \nquoi ?[pause]",
+	"\\x02\\x07Veemon\\x02\\x07Je vais me cacher  \ndans la Forêt Vive et \ntu devras me trouver. [pause]\\x02\\x03Si tu me trouves,\nje te donne les\nArbori-bottes ![pause]\\x02\\x03Mais si tu quittes\nla forêt sans m'avoir\ntrouvé, tu perds ![pause]\\x02\\x03Si tu sors de la Forêt\nVive, je rentre \nmanger à la maison ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK !\nJe vais te\ntrouver ![pause]",
+	"\\x02\\x07Veemon\\x02\\x07Hé hé hé.\nCe ne sera pas \nsi facile ![pause]\\x02\\x03Compte jusqu'à \n10 et viens dans \nla forêt ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK, je compte !\n1, 2, 3, 4, 5, \n6, 7, 8, 9, 10 ![pause]\\x02\\x03.......\n.........\nC'était trop rapide ?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh, bien !\nPartons à sa \nrecherche ![pause]",
+]

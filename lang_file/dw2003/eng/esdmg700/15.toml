@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07Dark Knight\\x02\\x07You got some\nmoves I've never\nseen before.[pause]",
+	"\\x02\\x07Dark Knight\\x02\\x07Now go!\nYou'll make a \ngreat tamer![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Yeah, \nthanks![pause]",
+]

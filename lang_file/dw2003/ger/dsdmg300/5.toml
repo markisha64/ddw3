@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Datamon\\x02\\x07Du bist ziemlich gut,\nwenn du m. besiegst.\nHier, deine Belohnung![pause]\\x02\\x03Die Rosthandschuhe! \nSie s. sehr selten u.\nin Ehren zu halten.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hä?! Ach so,\nich passe gut\nauf. Danke...[pause]",
+	"\\x02\\x07Datamon\\x02\\x07Es gibt Geheimn. ü.\nalte Rüstg. u. Waff.\nin der digitalen Welt.[pause]\\x02\\x03Suche rüstungsdigi-\ntierte Digi., die diese \nGeheimnisse kennen.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK! Ich finde\ndiese rüstungs-\ndigitierten Digimon![pause]",
+]

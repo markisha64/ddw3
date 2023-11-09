@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023¿Eh?\nNo hay nadie\naquí...[pause]",
+	"Soy Lord Megadeath, el \ndestructor del Mundo Real y\nel Mundo Digital.[pause]\\x02\\x03Y el ser que será dios\nen el nuevo mundo después\nde destruirlo todo...[pause]\\x02\\x03Ahora, ven a mí...\nEl domador más fuerte...[pause]\\x02\\x03¡Espero tu llegada en\nel satélite militar\nGunslinger![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Qué?\n¿Gunslinger?[pause]",
+	"Sí, te enseñaré la\nimponente figura flotando\nen el espacio...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡¿Qu-\nQué?![pause]",
+]

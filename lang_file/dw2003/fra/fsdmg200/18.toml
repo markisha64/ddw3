@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Service Dressage\\x02\\x07Voici des conseils\nsur le jeu.[pause]\\x02\\x03Les données vont\ns'afficher sur ton\nsatellite.[pause]",
+	"\"Préparation pour le voyage\"\nSélections et choix concernant Dig.\net digivolutions se font au Digilabo.[pause]\\x02\\x03Prends soin d'équiper tes Digimons\nd'armes et d'armures et rassemble-\nles pour le combat.[pause]",
+	"\"Combat de cartes\"\nDans Digimon Online, tu peux aussi\nfaire des combats de cartes.[pause]\\x02\\x03Pour plus d'infos, va au\nCroiseur Jaune.[pause]\\x02\\x03\"Sauvegarde\"\nMieux vaut sauvegarder\nsouvent. On ne sait jamais ![pause]\\x02\\x03Guardromon, resp. sauvegardes,\nest présent dans chaque auberge.\nS'il se bat, il ne sauvegarde pas.[pause]",
+	"\"Partie terminée\"\nLorsque tous les Dig. Part. sont\nvaincus, la partie est terminée.[pause]\\x02\\x03Evite les combats impossibles.[pause]\\x02\\x03\"Ajouter des partenaires\"\nTu peux ajouter des Dig. part.\nen plus des 3 que tu as choisis.[pause]\\x02\\x03C'est tout ce que je peux te dire.[pause]",
+	"\\x02\\x07Service Dressage\\x02\\x07Voilà toutes les infos\nque je peux te donner.\nBonne chance ![pause]",
+]

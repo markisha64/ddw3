@@ -1,7 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07\\x02\\x09\\x023I won \nagainst \nArmormon![pause]"
-  - |-
-    \x02\x07Armormon\x02\x07...How could I lose...[pause]\x02\x03But you did win.
-    Here take this.[pause]
-  - "\\x02\\x07\\x02\\x09\\x023Yeah! I got \nthe Monmon \nDDNA![pause]\\x02\\x03Thanks, \nArmormon![pause]"

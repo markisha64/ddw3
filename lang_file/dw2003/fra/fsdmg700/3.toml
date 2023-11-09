@@ -1,0 +1,11 @@
+strings = [
+	"",
+	"\\x02\\x07Junior\\x02\\x07Ouah ! Alors c'est\nça, la chambre ?[pause]\\x02\\x03Je peux commencer\nà jouer... \nC'est génial ![pause]",
+	"\\x02\\x07Opérateur\\x02\\x07Quel est votre\nnom de compte ?[pause]",
+	"\\x02\\x07Junior\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01 ![pause]",
+	"\\x02\\x07Opérateur\\x02\\x07...Confirmé.\nMerci.[pause]\\x02\\x03Entrez dans la\ncapsule de la\nchambre, là-bas.[pause]",
+	"\\x02\\x07Junior\\x02\\x07D'accord ![pause]",
+	"a",
+	"\\x02\\x07Ivy\\x02\\x07Hé ! Tu pars\nsans nous ou\nquoi ?[pause]",
+	"\\x02\\x07Teddy\\x02\\x07Attends-\nnous ![pause]",
+]

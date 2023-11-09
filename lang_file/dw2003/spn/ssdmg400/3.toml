@@ -1,0 +1,10 @@
+strings = [
+	"",
+	"\\x02\\x07Líder Seiryu\\x02\\x07Eres bueno.\n¿Cómo te \nllamas?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Soy Junior.\n¡Ha sido un\ncombate digno![pause]",
+	"\\x02\\x07Líder Seiryu\\x02\\x07Vale, \\x02\\x08\\x01\\x02\\x05\\x01,\nllévate esto\ncontigo.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Tengo el Pin \nSeiryu y el Pase\nde Plata![pause]",
+	"\\x02\\x07Líder Seiryu\\x02\\x07Los necesitarás \nen las futuras\nbatallas.[pause]\\x02\\x03Son importantes, \nno los pierdas.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Gracias, Líder\nSeiryu![pause]",
+	"\\x02\\x07Líder Seiryu\\x02\\x07Reta al Líder Suzaku\nen el Sector Sur.[pause]\\x02\\x03Te queda mucho,\npero puedes hacerlo.\n¡Buena suerte![pause]",
+]

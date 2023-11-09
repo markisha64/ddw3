@@ -1,9 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07\\x02\\x09\\x023Umm.. El Sistema \nMatriz debe estar por\naquí...[pause]\\x02\\x03Pero no sé activar\nel sistema...[pause]\\x02\\x03Maest. de Jue. envió\na Vemmon desde aquí.[pause]"
-  - '\x02\x07\x02\x09\x023¡¿Qué?![pause]'
-  - |-
-    \x02\x07\x02\x09\x023¿Qué hace
-    Vemmon aquí?[pause]\x02\x03...puede ser...
-    ¡Bueno, lo tengo
-    que seguir![pause]

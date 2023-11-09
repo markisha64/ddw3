@@ -1,9 +1,0 @@
-strings:
-  - ''
-  - |-
-    \x02\x07Luke el Coleccionista\x02\x07Estoy enviando datos
-    a tu satélite.[pause]
-  - "\"S-Energía\"\nLas Cartas son: Blancas, Azules,\nVerdes, Rojas, Negras y Marrones.[pause]\\x02\\x03La S-Energía crece al\nextraer del mazo una carta de \nese color.[pause]\\x02\\x03La S-Energía se usa para\ninvocar Digimon sobre nivel Novato.[pause]\\x02\\x03\"S-Energía para invocar\"\nPara invocar un Digimon, hace falta\nS-Energía del mismo color.[pause]\\x02\\x03Digimon campeón: un punto.\nDigimon definitivo: dos puntos.\nMega Digimon: tres puntos.[pause]\\x02\\x03Los Digimon novatos pueden \ninvocarse sin S-Energía.[pause]"
-  - "\"Combinaciones\"\nMás de tres cartas iguales\nen el campo.[pause]\\x02\\x03Se suma el total de las cartas y si\nhay más de 4, hay una bonificación.[pause]\\x02\\x03\"Recogida de Cartas\"\nAl ganar una batalla, obtienes una \nexpansión que contiene cartas.[pause]\\x02\\x03Recibes expansiones si ganas\ncontra domadores.[pause]\\x02\\x03Hay un rumor sobre un Digimon\nque las tiene.[pause]\\x02\\x03\"Cardmon\"\nHay un Digimon llamado Cardmon\noculto en este mundo.[pause]\\x02\\x03Si le ganas, obtendrás \nexpansiones. Puede ocultarse en los\nárboles o el agua.[pause]"
-  - "\"Congelar Prog.\"\nEsta es una Carta de programa Azul.[pause]\\x02\\x03Cuando se usa tras una Carta PG \ndel oponente, la \ndetendrá antes de ejecutarse.[pause]\\x02\\x03Es una carta poderosa, si ganas una\nguárdala en tu Carpeta.[pause]\\x02\\x03\"Rumores de Cartas Especiales\"\nHay rumores de Cartas fuera de\nlas expansiones.[pause]\\x02\\x03El rumor dice que algún \ndomador la tiene. ¡Búscala![pause]"
-  - "\\x02\\x07Luke el Coleccionista\\x02\\x07No lo memorices ahora,\napréndelo con la \nexperiencia.[pause]"

@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07Domador Genji\\x02\\x07Jo, jo, jo\nNo te vi antes \npor aquí.[pause]\\x02\\x03¿Eres nuevo?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Sí!\n¡Acabo de coger\na mis Digimon![pause]",
+	"\\x02\\x07Domador Genji\\x02\\x07Entonces lucharé\ncontigo, chaval.[pause]\\x02\\x03¡No importa si no \nsabes las reglas![pause]\\x02\\x03¡Lo importante es\nganar experiencia![pause]",
+]

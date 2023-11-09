@@ -1,0 +1,4 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023OK, c'est dans la\nsalle, là-bas ![pause]",
+]

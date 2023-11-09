@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Gov. di Genbu\\x02\\x07Eh, cosa? \nUno sfidante\nproprio ora?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Governatore di\nGenbu, ti chiedo\nun favore![pause]\\x02\\x03Mi dai lo stemma,\ncosì raggiungo il\nMondo Reale?[pause]",
+	"\\x02\\x07Governatore Genbu\\x02\\x07Mi dispiace,\nnon posso darlo\nvia così.[pause]\\x02\\x03Sono le regole.[pause]\\x02\\x03Se lo vuoi, mi devi\nbattere.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh, va bene.\nMe lo\nimmaginavo![pause]\\x02\\x03Allora facciamo\nin fretta![pause]",
+]

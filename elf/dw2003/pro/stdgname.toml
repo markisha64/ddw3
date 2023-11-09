@@ -1,0 +1,3 @@
+start_addr = 0
+objs = ["/build/asm/dw2003/pro/stdgname.o"]
+sections = ["section_STDGNAME"]

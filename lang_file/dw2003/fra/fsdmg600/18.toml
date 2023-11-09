@@ -1,0 +1,13 @@
+strings = [
+	"",
+	"\\x02\\x07Chef de Byakko\\x02\\x07Oh, je vois.[pause]\\x02\\x03Désolé, je t'ai\npris pour un\nmembre de l'AoA.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Il n'y a pas de mal.[pause]\\x02\\x03Mais, cela signifie\nque les gens de\nByakko City... ?[pause]",
+	"\\x02\\x07Chef de Byakko\\x02\\x07Oui. Ils sont de\nl'A.o.A. ![pause]\\x02\\x03Ils sont venus et\nils ont pris la ville ![pause]\\x02\\x03Ils nous ont enfermés\ndans le sous-sol... [pause]\\x02\\x03Mais Numemon est venu\net nous a libérés.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Je vois... \nMais l'A.o.A. et\nLucky Mouse... [pause]\\x02\\x03Et qu'est-il arrivé\nà Digimon Online ?[pause]",
+	"\\x02\\x07Chef de Byakko\\x02\\x07Je n'en sais pas plus.[pause]\\x02\\x03Si tu veux en savoir\nplus, cherche\nNumemon.[pause]\\x02\\x03Tu le trouveras\nà l'usine Dum\nDum.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK ![pause]",
+	"\\x02\\x07Chef de Byakko\\x02\\x07Une seconde.\nJ'ai oublié de te\ndonner ça ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023J'ai le Badge\nde Byakko ![pause]\\x02\\x03Merci, chef\nde Byakko ![pause]",
+	"\\x02\\x07Chef de Byakko\\x02\\x07Après tout, tu\nm'as battu ![pause]\\x02\\x03Et cela pourra\nte servir un jour.[pause]",
+	"\\x02\\x07Chef de Byakko\\x02\\x07Tu croiseras encore\nl'AoA. Prudence.[pause]",
+]

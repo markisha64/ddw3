@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Très bien,\nBattons-\nnous ![pause]",
+	"\\x02\\x07BK MegaGargomon\\x02\\x07Ah ! Je commençais \nà m'ennuyer ferme\npar ici.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK,\nallons-y ![pause]",
+	"\\x02\\x07BK MegaGargom\\x02\\x07Ce ne sera\npas si facile\nde me battre ![pause]",
+]

@@ -1,8 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07\\x02\\x09\\x023Yeah, that's \nright. Come on\nlet's fight![pause]"
-  - "\\x02\\x07Zanbamon\\x02\\x07You're no match \nfor me![pause]"
-  - |-
-    \x02\x07\x02\x09\x023...oh, you afraid
-    you're gonna lose?[pause]
-  - "\\x02\\x07Zanbamon\\x02\\x07Wha-what?!\nThat's not true![pause]\\x02\\x03All right! \nIf you want it, \nlet's fight![pause]"

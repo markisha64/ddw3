@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Mr. Smith\\x02\\x07Das ist eure Chance!\nEs geht um's Hauptitem![pause]\\x02\\x03Der gefährl. Zahn.\nVon allen bewundert![pause]\\x02\\x03Das Mindestgebot für\ndie Guilmon-Waffe\nliegt bei 1600 BIT![pause]",
+	"\\x02\\x07Händler Abel\\x02\\x072000 BIT![pause]",
+	"\\x02\\x07Chief Milly\\x02\\x072300 BIT![pause]",
+	"\\x02\\x07RPG-Fan Mas.\\x02\\x072600 BIT![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hmm..2700 BIT\n...hmmm...[pause]",
+]

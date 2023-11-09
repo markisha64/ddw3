@@ -1,0 +1,13 @@
+strings = [
+	"",
+	"\\x02\\x07General\\x02\\x07You're that kid we \ncaught last time![pause]\\x02\\x03What do you want!\nDid you come here to\nbe captured again?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023No way![pause]\\x02\\x03I came here to ask \nhow you got to \nthis server![pause]",
+	"\\x02\\x07General\\x02\\x07Heh heh heh...\nIf you want to know\nI'll tell you.[pause]\\x02\\x03The transportation\nDigimon the A.o.A\ncreated...[pause]\\x02\\x03We came here from\nAmaterasu to this\nserver by Bulbmon![pause]",
+	"\\x02\\x07\\x02\\x09\\x023...Bulbmon?![pause]",
+	"\\x02\\x07General\\x02\\x07Yes, a great Digimon \nthat can move \nbetween servers![pause]\\x02\\x03Unfortunately, it \nacted weird when we \narrived here![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Acting weird?\nWhat does that \nmean?[pause]",
+	"\\x02\\x07General\\x02\\x07Lucky Mouse erected a \nProtective Field![pause]\\x02\\x03So our Bulbmon broke \ndown and threw us out![pause]\\x02\\x03That's why we \nquickly attacked \nByakko City.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hey, wait a sec.\nThen where's\nBulbmon...?[pause]",
+	"\\x02\\x07General\\x02\\x07I have no idea![pause]\\x02\\x03I'm sure it's digging \nsome more dimensional \nholes![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Then I guess I \nshould look for \nBulbmon...[pause]\\x02\\x03Hey wait. I think I've\nseen Bulbmon \nsomewhere before...[pause]",
+]

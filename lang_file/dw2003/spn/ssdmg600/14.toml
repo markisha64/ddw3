@@ -1,0 +1,11 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023¡Eh, son..![pause]",
+	"\\x02\\x07¿Ciuda.Byak?\\x02\\x07¿Uh? Creo\nque se ha \nmovido algo.[pause]",
+	"\\x02\\x07Ciudada. Byakko\\x02\\x07Eh, ¿puedes \nver algo desde \nahí?[pause]",
+	"\\x02\\x07¿Ciu. Bya.?\\x02\\x07¡Sin problema\nen el oeste![pause]",
+	"\\x02\\x07Ciudad. Byak.\\x02\\x07¡Nada en el \nSur![pause]",
+	"\\x02\\x07Ciudad. Byakko\\x02\\x07¡Todo bien aquí\ntambién![pause]",
+	"\\x02\\x07Ciudad. Byakko\\x02\\x07Me lo habré\nimaginado...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023...están de \nguardia...[pause]\\x02\\x03No podré entrar\nen Ciudad Byakko\npor algún tiempo.[pause]",
+]

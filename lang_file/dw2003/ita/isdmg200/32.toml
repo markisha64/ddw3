@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Acciufferò\nquesto Topo\nFortunato![pause]",
+	"\\x02\\x07Kail\\x02\\x07Spiacente, mi \nsono ricordata\nche devo andare.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Eh?\nChe succede a Kail?[pause]\\x02\\x03Oh, beh. Posso\ncontare sui miei\nDigimon![pause]\\x02\\x03OK, ragazzi! Al\nSettore Ovest![pause]",
+]

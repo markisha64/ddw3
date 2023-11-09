@@ -1,0 +1,15 @@
+strings = [
+	"",
+	"\\x02\\x07Lisa\\x02\\x07Wow! \\x02\\x08\\x01\\x02\\x05\\x01,\nsei in gamba![pause]\\x02\\x03Sono colpita![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Eh? Oh,\nuhm, si,\ngrazie...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Comunque...\nPerché sei\nqui, Lisa?[pause]",
+	"\\x02\\x07Lisa\\x02\\x07Lo dico io![pause]\\x02\\x03Che ci fai\ntu qui?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Io?\nUhm, io...[pause]",
+	"Voi due siete\nqui per\nparlarmi, no?[pause]",
+	"\\x02\\x07Lisa\\x02\\x07Aaah!\nNu-nu-\nNumemon![pause]",
+	"\\x02\\x07Numemon\\x02\\x07Calma, Lisa,\nsono io.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Cosa?!\nNumemon\nè umano?[pause]",
+	"\\x02\\x07Lisa\\x02\\x07Ora capisco.[pause]\\x02\\x03Non spaventarmi\npiù così, Topo\nFortunato![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Cosa? Lui è Topo\nFortunato?[pause]\\x02\\x03Quel Numemon\nè lui?[pause]",
+	"\\x02\\x07Topo Fortunato\\x02\\x07Eh! Passi Lisa, ma\ntu eri stato avvisato,\nragazzo![pause]\\x02\\x03Qui è pericoloso:\nandiamo nel mio\nrifugio![pause]",
+]

@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Mr. Smith\\x02\\x07Das ist eure Chance![pause]\\x02\\x03Es geht um's Hauptitem![pause]\\x02\\x03Sniper Goggle.\nVon allen begehrt![pause]\\x02\\x03Das Mindestgebot für\ndie Monmon-Kappe\nliegt bei 4000 BIT![pause]",
+	"\\x02\\x07Händler Abel\\x02\\x074500 BIT![pause]",
+	"\\x02\\x07Chief Milly\\x02\\x075500 BIT![pause]",
+	"\\x02\\x07RPG-Fan Mas.\\x02\\x075900 BIT![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hmm..6000 BIT\n...hmmm...[pause]",
+]

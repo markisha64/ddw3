@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Sicher!\nIch besieg\ndich jederzeit![pause]",
+	"\\x02\\x07BK Imperialdra.\\x02\\x07Du hast Mut!\nDu gefällst\nmir![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hey, ich hab\nauch Stärke![pause]",
+	"\\x02\\x07BK Imperialdramon\\x02\\x07Du hast viel\nVertrauen![pause]\\x02\\x03Super. Das\nwird ein\ngutes Spiel![pause]",
+]

@@ -1,0 +1,12 @@
+strings = [
+	"",
+	"\\x02\\x07Gioc. misterioso\\x02\\x07Ehi! Aspetta![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Parli\nforse con\nme?[pause]",
+	"\\x02\\x07Gioc. misterioso\\x02\\x07Certo!\nCon te![pause]\\x02\\x03Sei \\x02\\x08\\x01\\x02\\x05\\x01? Hai vinto\ncontro il governatore\ndi Seiryu?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Sì, e tu\nchi sei?[pause]",
+	"\\x02\\x07Keith\\x02\\x07Mi chiamo Keith, e\nnon dimenticarlo\nmai, ragazzo![pause]\\x02\\x03Sono quello che\nvincerà il\ntorneo![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ah sì? Lo\nvedremo\npresto![pause]",
+	"\\x02\\x07Keith\\x02\\x07Ah, ah, ah, bene!\nAllora vuoi\nbatterti con me?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Certo![pause]",
+	"\\x02\\x07Keith\\x02\\x07Scusa, ma non \nvoglio usare i\npugni![pause]",
+]

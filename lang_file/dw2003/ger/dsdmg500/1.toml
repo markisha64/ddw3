@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07Suzaku Leader\\x02\\x07Was nun? Bist\ndu bereit zum\nKampf?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ja,\nklar![pause]",
+	"\\x02\\x07Suzaku Leader\\x02\\x07Du klingst echt\nselbstbewusst![pause]\\x02\\x03Unterschätz mich\nnicht, weil ich\nein Mädchen bin![pause]",
+]

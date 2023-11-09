@@ -1,0 +1,14 @@
+strings = [
+	"",
+	"\\x02\\x07Atacante\\x02\\x07No, noooo...\nMi Digimon..[pause]\\x02\\x03¡Lo pagarás![pause]",
+	"\\x02\\x07Lisa\\x02\\x07Gracias \\x02\\x08\\x01\\x02\\x05\\x01.\n¡Me has salvado\nde nuevo![pause]",
+	"\\x02\\x07Kail\\x02\\x07¡Pero Kurt es...!\nPor fin lo encuentro\ny...[pause]",
+	"\\x02\\x07Kurt\\x02\\x07¡Oink![pause]",
+	"\\x02\\x07\\x02\\x09\\x023De acuerdo. ¡Está\ndecidido! ¡Me voy\na Ciudad Asuka![pause]\\x02\\x03¡Voy a rescatar a\nTeddy y derrotar al\nMaestro de Juego![pause]",
+	"\\x02\\x07Kail\\x02\\x07¡Sí! ¡Vamos a\npatear a A.o.A![pause]\\x02\\x03¡Y cambiar otra vez\na Kurt![pause]",
+	"\\x02\\x07Lisa\\x02\\x07¡Yo también te \nlo pido![pause]\\x02\\x03Pero no deseo que \ncunda el pánico.[pause]\\x02\\x03¿Podéis ser \ndiscretos sobre la\nA.o.A?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Recibido![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Venga, Kail!\n¡Vámonos![pause]",
+	"\\x02\\x07Kail\\x02\\x07Si pierdes, no te lo \nperdonaré nunca.\n¿Entendido?[pause]",
+	"\\x02\\x07Lisa\\x02\\x07¡Suerte! ¡Cuento\ncontigo![pause]",
+]

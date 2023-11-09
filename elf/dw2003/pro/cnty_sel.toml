@@ -1,0 +1,3 @@
+start_addr = 0
+objs = ["/build/asm/dw2003/pro/cnty_sel.o"]
+sections = ["section_CNTY_SEL"]

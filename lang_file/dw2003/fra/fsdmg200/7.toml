@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07Service dressage\\x02\\x07Je comprends.[pause]\\x02\\x03Si tu veux faire\nsortir tes Digimons,\nviens me voir.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ok, allons faire\nun tour du côté\ndu hall ![pause]",
+]

@@ -1,0 +1,4 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Il est là-dedans,\nmaintenant... [pause]\\x02\\x03OK, je vais juste\ncontinuer à le\nsuivre ![pause]",
+]

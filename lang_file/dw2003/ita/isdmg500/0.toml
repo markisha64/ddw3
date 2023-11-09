@@ -1,0 +1,14 @@
+strings = [
+	"",
+	"\\x02\\x07Donna\\x02\\x07Ehi tu!\nProprio\ntu, laggiù![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Uhmmmm...\nChi, io?[pause]",
+	"\\x02\\x07Donna\\x02\\x07Sono Lisa.\nPiacere![pause]\\x02\\x03E il tuo\nnome?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh, sono\n\\x02\\x08\\x01\\x02\\x05\\x01.[pause]",
+	"\\x02\\x07Lisa\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01, OK, lo\nricorderò.[pause]\\x02\\x03\\x02\\x08\\x02\\x02\\x05\\x02, per caso hai\nvisto un piccolo\nDigimon verde?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Um, ah, parli\ndi Monmon, o di\nTerriermon?[pause]",
+	"\\x02\\x07Lisa\\x02\\x07Beh, ecco,\nnon lo so.[pause]\\x02\\x03Quale credi\nche sia,\n\\x02\\x08\\x01\\x02\\x05\\x01?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Beh, mah,\nboh?[pause]",
+	"\\x02\\x07Lisa\\x02\\x07Oh, lo so, è\nOgremon!\nPer forza![pause]\\x02\\x03Devo andare\nsubito a\ncercarlo![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ma che ha quella?[pause]",
+	"\\x02\\x07Lisa\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01, è stato\nun piacere.\nCiao![pause]",
+]

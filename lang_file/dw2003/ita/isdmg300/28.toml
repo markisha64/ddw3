@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Pharaohmon\\x02\\x07Ho perso! Sei\npiù forte\ndi me![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Sì, beh,\ncerto![pause]",
+	"\\x02\\x07Pharaohmon\\x02\\x07Meriti di\nprendere\nquesta.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh, La vecchia\nasta![pause]",
+	"\\x02\\x07Pharaohmon\\x02\\x07Sei forte: gli\ndèi saranno con\nte![pause]",
+]

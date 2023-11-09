@@ -1,0 +1,11 @@
+strings = [
+	"",
+	"\\x02\\x07Ufficiale camera\\x02\\x07Tutto verde.\nIl controllo di\n\\x02\\x08\\x01\\x02\\x05\\x01 è finito.[pause]\\x02\\x03Rovesciamento\ndella Matrice![pause]\\x02\\x03Dove vuoi essere\ninserito nel\nMondo Reale?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Nella base militare\nMagasta, nel\nMondo Reale.[pause]\\x02\\x03È sul fondo\noceanico![pause]",
+	"\\x02\\x07Ufficiale camera\\x02\\x07Molto bene.\nBase militare\nMagasta.[pause]",
+	"\\x02\\x07Ufficiale camera\\x02\\x07OK, è alla nostra\nportata.[pause]\\x02\\x03Ma il sistema è un\npo' instabile...[pause]\\x02\\x03Esisterai nel Mondo\nReale solo per\n180 secondi.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Un momento!\nE quando finisce\nil tempo?[pause]",
+	"\\x02\\x07Ufficiale camera\\x02\\x07Uscirai dalla realtà\ne la Matrice ti\nriporterà qui.[pause]\\x02\\x03I dati della Matrice\nresteranno integri,\nnon preoccuparti.[pause]\\x02\\x03Accenderemo il\nSistema Matrice,\nora.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Va bene!\nCosa devo\nfare io?[pause]",
+	"\\x02\\x07Ufficiale camera\\x02\\x07Raggiungi il\nportale alla\nmia sinistra.[pause]\\x02\\x03Buona\nfortuna![pause]",
+]

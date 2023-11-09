@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Très bien ! \n6000 BIT ![pause]",
+	"\\x02\\x07M. Smith\\x02\\x07Ouah ! \n6000 BIT ![pause]\\x02\\x03Quelqu'un à \nplus de 6000 \nBIT ?[pause]",
+	"\\x02\\x07M. Smith\\x02\\x07Personne...,\nsemble-t-il...[pause]\\x02\\x03La Visée Sniper\nest vendue  \n6000 BIT ![pause]\\x02\\x03Félicitations au\nMonsieur là-bas ![pause]\\x02\\x03Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oui ! J'ai \nla Visée\nSniper ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Bon, c'est un \nchouette objet, \non peut y aller.[pause]",
+]

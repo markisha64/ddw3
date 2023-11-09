@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Tiens ? Il n'y\na personne\nici...[pause]",
+	"Je suis Lord Megadeath, le \ndestructeur du Monde Réel \net du Digimonde.[pause]\\x02\\x03Je serai un Dieu dans le\nnouveau monde, après \nla destruction totale ...[pause]\\x02\\x03Viens donc à moi, le\nmeilleur dresseur...[pause]\\x02\\x03J'attends ton arrivée au\nsatellite militaire de\nGunslinger ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023...Quoi ?!\nGunslinger ?![pause]",
+	"Oui, je vais te montrer \nle glorieux visage qui\nflotte dans l'espace...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Qu-\nQuoi ?![pause]",
+]

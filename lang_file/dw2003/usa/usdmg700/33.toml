@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Computer Seiya\\x02\\x07...What?!\nWhat is going on?[pause]",
+	"\\x02\\x07Mail Lover Saki\\x02\\x07Shut up! I can't \nhear my cell \nphone![pause]",
+	"\\x02\\x07Shopper Teruko\\x02\\x07...whaaaaat?!\nWhat should I do?[pause]",
+	"\\x02\\x07Shopper Teruko\\x02\\x07Where's the \npolice?![pause]",
+]

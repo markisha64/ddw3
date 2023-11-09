@@ -1,0 +1,14 @@
+width = 3
+height = 3
+entries = [
+	"/build/rlen/dw2003/z_stage/S240PACK/0.bin",
+	"/build/rlen/dw2003/z_stage/S240PACK/1.bin",
+	"/build/rlen/dw2003/z_stage/S240PACK/2.bin",
+	"/build/rlen/dw2003/z_stage/S240PACK/3.bin",
+	"/build/rlen/dw2003/z_stage/S240PACK/4.bin",
+	"/build/rlen/dw2003/z_stage/S240PACK/5.bin",
+	"/build/rlen/dw2003/z_stage/S240PACK/6.bin",
+	"/build/rlen/dw2003/z_stage/S240PACK/7.bin",
+	"/build/rlen/dw2003/z_stage/S240PACK/8.bin",
+]
+extra_padding = 14336

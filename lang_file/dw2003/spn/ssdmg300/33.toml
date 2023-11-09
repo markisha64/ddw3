@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07BK WarGreymon\\x02\\x07Espero no seas\nun bocazas.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Claro! He\npasado por muchos\nproblemas como éste.[pause]",
+	"\\x02\\x07BK WarGreymon\\x02\\x07Ja ja ja ¡Me \ngustas!\nToma esto![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Sí! ¡Tengo\nla ID de \nplatino![pause]",
+	"\\x02\\x07BK WarGreymon\\x02\\x07¡Intenta ser\nel más fuerte![pause]\\x02\\x03¡Ese es el \nsecreto de un\ngran domador![pause]",
+]

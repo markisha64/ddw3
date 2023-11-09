@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Yeah, I won![pause]\\x02\\x03OK, hand it\nover![pause]",
+	"\\x02\\x07Paildramon\\x02\\x07Oh, all right.\nHere, take it. \nOuch![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Yeah! I got\nthe Veemon \nDDNA![pause]\\x02\\x03Thanks, \nPaildramon![pause]",
+	"\\x02\\x07Paildramon\\x02\\x07Yeah, yeah, I'm \nnever doing this \nagain. Later![pause]",
+]

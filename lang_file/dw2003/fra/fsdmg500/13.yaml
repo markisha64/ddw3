@@ -1,9 +1,0 @@
-strings:
-  - ''
-  - |-
-    \x02\x07Zanbamon\x02\x07Qu...quoi...
-    J'ai perdu...[pause]
-  - "\\x02\\x07\\x02\\x09\\x023Qu'en dis-tu ? !\nJe suis coriace, \nnon ?[pause]"
-  - "\\x02\\x07Zanbamon\\x02\\x07Oh, très bien.\nJe te donne ceci, \nalors pardonne-moi ![pause]"
-  - "\\x02\\x07\\x02\\x09\\x023Un Katana\nrouillé ? ! Oh, \nbien...[pause]"
-  - "\\x02\\x07Zanbamon\\x02\\x07Je veux vivre\nen paix ici...[pause]\\x02\\x03Laisse-moi seul, \ns'il te plait ![pause]"

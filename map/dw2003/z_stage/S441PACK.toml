@@ -1,0 +1,30 @@
+width = 5
+height = 5
+entries = [
+	"/build/rlen/dw2003/z_stage/S441PACK/0.bin",
+	"/build/rlen/dw2003/z_stage/S441PACK/1.bin",
+	"/build/rlen/dw2003/z_stage/S441PACK/2.bin",
+	"/build/rlen/dw2003/z_stage/S441PACK/3.bin",
+	"/build/map-tile/dw2003/z_stage/S441PACK/4.bin",
+	"/build/rlen/dw2003/z_stage/S441PACK/5.bin",
+	"/build/rlen/dw2003/z_stage/S441PACK/6.bin",
+	"/build/rlen/dw2003/z_stage/S441PACK/7.bin",
+	"/build/rlen/dw2003/z_stage/S441PACK/8.bin",
+	"/build/map-tile/dw2003/z_stage/S441PACK/9.bin",
+	"/build/rlen/dw2003/z_stage/S441PACK/10.bin",
+	"/build/rlen/dw2003/z_stage/S441PACK/11.bin",
+	"/build/rlen/dw2003/z_stage/S441PACK/12.bin",
+	"/build/rlen/dw2003/z_stage/S441PACK/13.bin",
+	"/build/map-tile/dw2003/z_stage/S441PACK/14.bin",
+	"/build/rlen/dw2003/z_stage/S441PACK/15.bin",
+	"/build/rlen/dw2003/z_stage/S441PACK/16.bin",
+	"/build/rlen/dw2003/z_stage/S441PACK/17.bin",
+	"/build/rlen/dw2003/z_stage/S441PACK/18.bin",
+	"/build/rlen/dw2003/z_stage/S441PACK/19.bin",
+	"/build/rlen/dw2003/z_stage/S441PACK/20.bin",
+	"/build/rlen/dw2003/z_stage/S441PACK/21.bin",
+	"/build/rlen/dw2003/z_stage/S441PACK/22.bin",
+	"/build/rlen/dw2003/z_stage/S441PACK/23.bin",
+	"/build/rlen/dw2003/z_stage/S441PACK/24.bin",
+]
+extra_padding = 14336

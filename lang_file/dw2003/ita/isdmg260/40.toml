@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Mr. Smith\\x02\\x07Un'occasione![pause]\\x02\\x03Il pezzo principale![pause]\\x02\\x03L'elmo eroico,\nmolto conteso![pause]\\x02\\x03Questo elmo esclusivo\ndi Agumon parte da\n7000 BIT![pause]",
+	"\\x02\\x07Cliente Abel\\x02\\x078000 BIT![pause]",
+	"\\x02\\x07Capo Milly\\x02\\x078300 BIT![pause]",
+	"\\x02\\x07Masao RPG\\x02\\x078600 BIT![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hmm, 8700 BIT\nMmmm...[pause]",
+]

@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023MasterTyranno\n¡Luche conmigo![pause]",
+	"\\x02\\x07Maestro Tyranno\\x02\\x07¡Claro!\nAcabo de comer,\nestoy recargado.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Venga! le \nenseñaré \ncomo lucho.[pause]",
+	"\\x02\\x07MasterTyranno\\x02\\x07Muy optimista,\nchico.[pause]\\x02\\x03¡Pero hace falta\nmás de eso para\nganarme![pause]",
+]

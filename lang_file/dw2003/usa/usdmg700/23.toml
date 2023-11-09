@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Dark Master\\x02\\x07...Hmm?!\nWho are you...[pause]\\x02\\x03...you came\nhere to challenge\nme...?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Yeah!\nYou'll fight with \nme, right?![pause]",
+	"\\x02\\x07Dark Master\\x02\\x07You don't know what \nyou're asking for...[pause]\\x02\\x03...all right. \nI haven't seen a \ntamer in a while.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Just watch.\nI'll show you\nwho's bad![pause]",
+]

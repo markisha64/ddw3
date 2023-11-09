@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Kail\\x02\\x07Ehi, \\x02\\x08\\x01\\x02\\x05\\x01!\nBentornato![pause]\\x02\\x03È da un po' che \nsiamo qui. Torniamo\nindietro?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Si, ho battuto i\ngovernatori di Seiryu\ne Suzaku, non è male![pause]\\x02\\x03E Teddy? Dobbiamo\ntrovare Teddy![pause]",
+	"\\x02\\x07Kail\\x02\\x07Teddy sta bene. È al\ncentro amministrativo\ndi Asuka.[pause]\\x02\\x03L'ultima volta che\nl'ho visto stava\nandando là.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh, OK. Allora\ntorniamo subito ad\nAsuka![pause]",
+]

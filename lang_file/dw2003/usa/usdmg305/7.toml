@@ -1,0 +1,11 @@
+strings = [
+	"",
+	"\\x02\\x07Lisa\\x02\\x07But the question is\nhow to get inside \nAmaterasu City...[pause]\\x02\\x03It's the A.o.A's \nheadquarters, so the\nsecurity is tight.[pause]",
+	"\\x02\\x07Nick\\x02\\x07That's true...\nIf we can get \nsomeone to help...[pause]",
+	"\\x02\\x07Keith\\x02\\x07That's impossible!\nEveryone's turned \ninto Oinkmon![pause]",
+	"\\x02\\x07Keith\\x02\\x07I mean, come on,\nlook around![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hmmm...\nHelp...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023All right!\nI'll go to Amaterasu \nServer again to look![pause]",
+	"\\x02\\x07Lisa\\x02\\x07Thanks.\nI'm counting on \nyou.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh yeah, Kenny \nwas saying\nsomething about...[pause]",
+]

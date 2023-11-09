@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Yeah, I beat\nQing Long \nChief![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Huh?!\nThere's something\non the ground...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023But no sign of\nthe Digi-Egg of \nKnowledge...[pause]\\x02\\x03I wonder what's \nhappening in the \nReal World...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023...Huh? \nWhat is this?\nBlue ID Pass?[pause]\\x02\\x03It might come in \nhandy, so I'll \ntake it with me![pause]",
+]

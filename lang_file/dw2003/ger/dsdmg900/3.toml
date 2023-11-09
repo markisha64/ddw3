@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Arena-Empfang\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01, du hast\nalle vier Leader\nbesiegt![pause]\\x02\\x03Bitte, komm in die\nArena![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Gegen wen genau\nkämpfe ich jetzt?[pause]",
+	"\\x02\\x07Arena-Empfang\\x02\\x07Hi hi hi!\nDas wirst du \nschon noch sehen![pause]\\x02\\x03Na los! Dein Gegner\nwartet bereits\nauf dich![pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK! Der\nstärkste\nTamer![pause]",
+]

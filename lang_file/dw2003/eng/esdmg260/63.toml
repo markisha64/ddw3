@@ -1,0 +1,4 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023...it's too much...\n...and I don't\nknow what it is...[pause]\\x02\\x03I'll come back when \nI have more money.[pause]",
+]

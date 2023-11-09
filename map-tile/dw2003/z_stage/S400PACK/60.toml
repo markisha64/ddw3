@@ -1,0 +1,23 @@
+img = "/build/tim/dw2003/z_stage/S400PACK/60.tim"
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [11, 0]
+img_offset = [0, 0]
+size = [118, 73]
+
+[[layers.objs]]
+world_offset = [0, 113]
+img_offset = [0, 73]
+size = [32, 15]
+
+[[layers]]
+objs = []
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 0]
+img_offset = [118, 0]
+size = [128, 128]

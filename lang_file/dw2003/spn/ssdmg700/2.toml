@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Administrador:\\x02\\x07Registro completo.\nPor favor, vayan a \nla Sala de Cámara.[pause]",
+	"\\x02\\x07Junior\\x02\\x07¡Vale, Teddy, Ivy!\n¡Vamos al Mundo\nDigital![pause]",
+	"\\x02\\x07Ivy:\\x02\\x07¡Eeh!\n¡Para Junior![pause]",
+	"\\x02\\x07Teddy.\\x02\\x07¡No he acabado\nel registro![pause]",
+]

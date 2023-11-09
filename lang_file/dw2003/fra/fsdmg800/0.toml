@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Tiens ? Voilà\nun autre bouton.[pause]\\x02\\x03Qu'est-ce que\nje fais ? Allez,\nj'appuie ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hm, rien ne\nse passe.[pause]\\x02\\x03Bon, je dois aller\ntrouver l'AoA ![pause]",
+]

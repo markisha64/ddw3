@@ -1,0 +1,11 @@
+strings = [
+	"",
+	"\\x02\\x07???\\x02\\x07...sie sind\nso nutzlos...[pause]\\x02\\x03Aber ich bin von\nihrer Stärke\nbeeindruckt![pause]",
+	"\\x02\\x07\\x02\\x09\\x023...bist du der\nPräsident von\nMAGAMI?![pause]",
+	"\\x02\\x07???\\x02\\x07...Präsident?\nOh, ja.[pause]\\x02\\x03Nenn mich\nChief Officer.\nDas ist cooler![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Schluss mit dem Spaβ!\nStoppe Destromon\nsofort![pause]",
+	"\\x02\\x07Chief Officer\\x02\\x07Hey, beruhig dich.\nWarum kommst du\nnicht zu uns?[pause]\\x02\\x03Du kannst mein\nStellvertreter\nwerden![pause]",
+	"\\x02\\x07\\x02\\x09\\x023...niemals! Du\nmissbrauchst Digimon.[pause]\\x02\\x03Auch wenn ich zerstört\nwerde, ich werde nie-\nmals zu euch gehören![pause]",
+	"\\x02\\x07Chief Officer\\x02\\x07Du hast deine Chance\nvertan. Du bist\nwirklich dumm.[pause]\\x02\\x03Es ist sowieso zu\nspät, um deine\nMeinung zu ändern![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Sie sagten, sie\nseien die königl.\nWache...[pause]\\x02\\x03Dann hat der Typ\neinen Vorsprung![pause]",
+]

@@ -1,9 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07Mr. Smith\\x02\\x07Now's your chance!\nFinally, our main item![pause]\\x02\\x03Ronin Helmet, admired \nby all members![pause]\\x02\\x03This Kotemon exclusive \nhelmet will start at\n7000 BIT![pause]"
-  - '\x02\x07Dealer Abel\x02\x078000 BIT![pause]'
-  - '\x02\x07Chief Milly\x02\x078300 BIT![pause]'
-  - '\x02\x07RPG Fan Masao\x02\x078600 BIT![pause]'
-  - |-
-    \x02\x07\x02\x09\x023Hmm... 8700 BIT
-    ...hmmm...[pause]

@@ -1,0 +1,22 @@
+img = "/build/tim/dw2003/z_stage/S330PACK/83.tim"
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 0]
+img_offset = [0, 0]
+size = [128, 128]
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [105, 64]
+img_offset = [128, 0]
+size = [24, 25]
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [105, 119]
+img_offset = [128, 25]
+size = [18, 9]

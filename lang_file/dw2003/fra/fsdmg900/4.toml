@@ -1,0 +1,9 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Alors,\nvoilà l'Arène.[pause]\\x02\\x03Je me demande où\nest mon adversaire ? \nJe suis prêt ![pause]",
+	"\\x02\\x07Kurt\\x02\\x07Hé !\n\\x02\\x08\\x01\\x02\\x05\\x01 ![pause]\\x02\\x03Je savais que\ntu viendrais ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Eh ?\nKurt ? Ne me[pause]\\x02\\x03dis pas que tu  \nes le plus fort \ndes dresseurs ![pause]",
+	"\\x02\\x07Kurt\\x02\\x07Et si !\nRavi de te retrouver\nici. J'ai toujours[pause]\\x02\\x03voulu t'affronter\ndans les règles ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Moi aussi ! Il n'y\na pas de meilleur\nadversaire que toi ![pause]",
+	"\\x02\\x07Kurt\\x02\\x07Ha ha ! Je vais\nm'amuser ![pause]\\x02\\x03C'est parti !\nNe te retiens\npas ![pause]",
+]

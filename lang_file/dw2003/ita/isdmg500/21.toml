@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Seraphimon N\\x02\\x07So della tua\nforza e\ndel tuo coraggio.[pause]\\x02\\x03Ho testato il tuo\ncoraggio...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Nessuno può\nbattermi nel\ncoraggio![pause]",
+	"\\x02\\x07Seraphimon N\\x02\\x07Bravo! Ben detto![pause]\\x02\\x03Sei passato.\nQuesta ne sarà\nla prova![pause]",
+	"\\x02\\x07\\x02\\x09\\x023La tuta da\ncecchino![pause]",
+	"\\x02\\x07Seraphimon N\\x02\\x07Il passaggio\nè rivelato dal\ncoraggio.[pause]\\x02\\x03Non arrenderti\na nessun\nnemico![pause]",
+]

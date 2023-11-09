@@ -1,9 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07Zanbamon\\x02\\x07Hey, wait!\nwaiiiiiit![pause]\\x02\\x03I'm not going to \nlet you pass \nthrough here![pause]"
-  - |-
-    \x02\x07\x02\x09\x023You've got to be
-    kidding. I need to
-    go over there![pause]
-  - "\\x02\\x07Zanbamon\\x02\\x07Then try to beat\nme.[pause]\\x02\\x03Of course, I \nnever lose!\nHa ha ha ha![pause]"
-  - "\\x02\\x07\\x02\\x09\\x023Yeah right![pause]\\x02\\x03There's always \na first time![pause]"

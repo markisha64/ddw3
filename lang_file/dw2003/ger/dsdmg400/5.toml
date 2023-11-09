@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"Vielen Dank fürs Warten.\nDer Gondelbetrieb wird\nwieder aufgenommen.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ah...\nHey, halt![pause]\\x02\\x03Mist, jetzt ist\nsie weg.[pause]",
+]

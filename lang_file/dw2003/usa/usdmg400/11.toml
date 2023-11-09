@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Yup... no\none here...[pause]",
+	"\\x02\\x07Voice\\x02\\x07Woo-ooo-oo[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Aah! A \nmonster![pause]",
+]

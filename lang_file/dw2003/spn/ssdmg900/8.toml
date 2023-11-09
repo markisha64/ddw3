@@ -1,0 +1,18 @@
+strings = [
+	"",
+	"Batallas Cartas",
+	"Des. Bat. Car.",
+	"Fases 1",
+	"Fases 2",
+	"Fases 3",
+	"Fases 4",
+	"Fases 5",
+	"Volver",
+	"Además de las batallas Digimon, se\npuede competir con las cartas.[pause]\\x02\\x03Para ello debes coleccionar 314\ntipos de cartas y crear \nMazos personales.[pause]",
+	"Elige una Carpeta que será el\nMazo antes de la Batalla de Cartas.\nUna vez elegido empezará el juego.[pause]\\x02\\x03Una batalla se comprende de 3\ntiempos. El primero en ganar 2\nes el vencedor y gana una expan.[pause]\\x02\\x03Cada tiempo está dividido en 6 fases. \nPara más información, lee la sección\nllamada \"Fases\".[pause]",
+	"Fase Inicial\nDecide el orden de juego. El\nque robe a Calumon va primero.[pause]\\x02\\x03Fase de Extracción\nSaca 6 cartas del\nMazo que serán tu Mano.[pause]\\x02\\x03Aquí se forma la D-Energía del\nmismo color que la carta robada.\nSe usará en la Fase de Invocac.[pause]",
+	"Fase de Carga\nLos domadores usan turnos para \nlas Car. de Prog. y traer Digimon.[pause]\\x02\\x03La fase acaba al pasar ambos.\nA veces aparecen cartas\nque no se pueden usar aquí.[pause]",
+	"Fase invocación\nLos domadores seleccionan cartas\nDigimon e invocan Digimon.[pause]\\x02\\x03Se pueden invocar hasta 6 Digimon\nal campo. Se necesita D-Energía\npara invocar Digimon campeones[pause]\\x02\\x03o mejores.[pause]",
+	"Fase de Compilación\nEn esta fase, se usan\nturnos con las Car. de Prog.[pause]\\x02\\x03para hacer varias acciones.\nSe acaba al pasar ambos. Se\npueden usar todas las cartas.[pause]",
+	"Fase Batalla\nEn esta fase, los Digimon\nluchan entre sí para ganar.[pause]\\x02\\x03La victoria se decide por los\npuntos totales PA y PV Digimon. \nCuando los PV son 0 se pierde.[pause]",
+]

@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Governatore di Byakko\\x02\\x07Benvenuto, sfidante.\nCombattiamo![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ah, aspetta\nun po'.[pause]\\x02\\x03Prima ho\nuna\ndomanda.[pause]",
+	"\\x02\\x07Governat. di Byakko\\x02\\x07Prima combattiamo![pause]\\x02\\x03Se vinci ti\nrisponderò.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK, non\nriuscirai\na battermi![pause]",
+]

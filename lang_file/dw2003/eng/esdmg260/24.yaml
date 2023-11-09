@@ -1,9 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07Mr. Smith\\x02\\x07Now's your chance![pause]\\x02\\x03Finally, our main item![pause]\\x02\\x03Sniper Cannon, admired \nby all members![pause]\\x02\\x03This Monmon exclusive \nweapon will start at\n2700 BIT![pause]"
-  - '\x02\x07Dealer Abel\x02\x073100 BIT![pause]'
-  - '\x02\x07Chief Milly\x02\x073500 BIT![pause]'
-  - '\x02\x07RPG Fan Masao\x02\x073900 BIT![pause]'
-  - |-
-    \x02\x07\x02\x09\x023Hmm... 4000 BIT
-    ...hmmm...[pause]

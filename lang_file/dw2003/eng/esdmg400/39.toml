@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023OK, so I place \nthe TNT Chip\nover there.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023There's a\nhole in the \nwall![pause]\\x02\\x03Now we can\ngo in![pause]",
+]

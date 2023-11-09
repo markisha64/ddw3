@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Soldado\\x02\\x07¿Es eso el \nPase ID Azul?[pause]\\x02\\x03L..Lo siento.\n¡No sabía que era\nJefe Qing Long![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Qué? Oh,\nah, sí...[pause]\\x02\\x03El uniforme es muy\nobvio. ¡Voy de patrulla\nde incógnito![pause]\\x02\\x03Vamos a guardar el\nsecreto, \n¿vale?[pause]",
+	"\\x02\\x07Soldado\\x02\\x07¡Es usted grande\njefe! ¡Un gran \ntrabajador![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Uff, ha estado\ncerca...[pause]\\x02\\x03Pero ahora puedo\nir a la ciudad\nZhu Que.[pause]",
+	"\\x02\\x07Soldado\\x02\\x07¡Por favor,\npase![pause]",
+]

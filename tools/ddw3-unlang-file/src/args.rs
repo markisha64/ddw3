@@ -12,8 +12,6 @@ pub struct Args {
 	pub input_file: PathBuf,
 
 	/// The output file.
-	///
-	/// You may provide `-` or not pass the flag to use stdout.
 	#[clap(long = "output", short = 'o')]
-	pub output_file: Option<PathBuf>,
+	pub output_file: PathBuf,
 }

@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Oui ! J'ai\nbattu le chef\nde Qing Long ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Tiens ? Il y a\nquelque chose\npar terre...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Mais pas de\ntrace du Digi-\nOeuf du Savoir.[pause]\\x02\\x03Je me demande\nce qui se passe\ndans le Monde Réel.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Tiens ? Qu'est-\nce que c'est ?\nUn Passe bleu.[pause]\\x02\\x03Cela pourrait\nservir, je\nle prends ![pause]",
+]

@@ -1,0 +1,11 @@
+strings = [
+	"",
+	"\\x02\\x07Maître jeu\\x02\\x07Non, non ![pause]\\x02\\x03Persiamon ne\nperd jamais ![pause]",
+	"\\x02\\x07Lisa\\x02\\x07Oh, on arrive\nun peu tard ![pause]",
+	"\\x02\\x07Teddy\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01,\ntu n'as rien ![pause]",
+	"\\x02\\x07Nick\\x02\\x07On a des preuves,\nà présent. Rends-\ntoi, Maître de jeu.[pause]\\x02\\x03Tu es sous mandat\nd'arrêt de la Police\nInternationale SAP ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Quoi ? Lisa et\nNick travaillent\npour la SAP ?[pause]",
+	"\\x02\\x07Nick\\x02\\x07Oui, et\nKeith aussi.[pause]",
+	"\\x02\\x07Lisa\\x02\\x07Désolée de t'avoir\ncaché ça.[pause]\\x02\\x03Mais grâce à toi,\nl'affaire est\nrésolue ![pause]",
+	"\\x02\\x07Lisa\\x02\\x07Interrogeons le\nMaître de jeu et\nsauvons Kurt ![pause]",
+]

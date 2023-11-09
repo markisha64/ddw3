@@ -1,0 +1,14 @@
+img = "/build/tim/dw2003/z_stage/S735PACK/14.tim"
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [40, 85]
+img_offset = [0, 0]
+size = [88, 43]
+
+[[layers]]
+objs = []
+
+[[layers]]
+objs = []

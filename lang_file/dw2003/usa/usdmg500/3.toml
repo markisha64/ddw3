@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Kail\\x02\\x07Hey \\x02\\x08\\x01\\x02\\x05\\x01!\nGood timing.[pause]\\x02\\x03We've been here\na while. Why don't\nwe go back?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Yeah, I've beaten Seiryu\nand Suzaku Leader, so\nthat's good for now.[pause]\\x02\\x03But what about Teddy?\nWe have to find Teddy![pause]",
+	"\\x02\\x07Kail\\x02\\x07Teddy is fine. He's in \nAsuka City's \nAdministration Center.[pause]\\x02\\x03When I saw him last, \nthat's where he said\nhe was going.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh, OK. Then let's\nhurry back to Asuka\nCity![pause]",
+]

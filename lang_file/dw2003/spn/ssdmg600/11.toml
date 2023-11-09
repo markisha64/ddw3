@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07BK KingNumemon\\x02\\x07Oh no..¡Yo, el Rey\nhe perdido...![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Pero has luchado\nmuy bien.[pause]\\x02\\x03¡Eres el rey por\nderecho![pause]",
+	"\\x02\\x07BK KingNumemon\\x02\\x07¿De verdad?\nMe alegro de que\nlo digas.[pause]\\x02\\x03¡Eres un buen\nchico! Te daré esto.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Sí! ¡Tengo\nel Adaptador\nBIT![pause]",
+	"\\x02\\x07BK KingNumemon\\x02\\x07¡No me olvides,\nKingNumemon![pause]",
+]

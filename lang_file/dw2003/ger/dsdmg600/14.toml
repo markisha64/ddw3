@@ -1,0 +1,11 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Hey,\nsie sind..?![pause]",
+	"\\x02\\x07Byakko-Bürg.\\x02\\x07Hä?! Da hat\nsich was be-\nwegt, oder?[pause]",
+	"\\x02\\x07Byakko-Bürger\\x02\\x07Kannst du von \nda aus\netwas sehen?[pause]",
+	"\\x02\\x07Byakko-Bür.\\x02\\x07Im Westen\nalles OK![pause]",
+	"\\x02\\x07Byakko-Bürger\\x02\\x07Nichts im \nSüden![pause]",
+	"\\x02\\x07Byakko-Bürger\\x02\\x07Auch hier\nalles OK![pause]",
+	"\\x02\\x07Byakko-Bürger\\x02\\x07Dann sehe ich\nwohl Gespenst.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023...sie sind \nwachsam...[pause]\\x02\\x03Byakko City kann\nich eine Weile\nnicht betreten...[pause]",
+]

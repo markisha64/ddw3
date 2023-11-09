@@ -1,0 +1,10 @@
+strings = [
+	"",
+	"\\x02\\x07Gov. di Seiryu\\x02\\x07Sei proprio\nbravo. Come\nti chiami?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023\\x02\\x08\\x01\\x02\\x05\\x01. È\nstata una\nbella lotta![pause]",
+	"\\x02\\x07Gov. di Seiryu\\x02\\x07Bene, \\x02\\x08\\x01\\x02\\x05\\x01.\nPrendi questo\ncon te.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh! Il tuo stemma\ne l'ID argento![pause]",
+	"\\x02\\x07Gov. di Seiryu\\x02\\x07Ne avrai\nbisogno\nin futuro.[pause]\\x02\\x03Sono oggetti\npreziosi, non\nperderli.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Grazie,\ngovernatore![pause]",
+	"\\x02\\x07Gov. di Seiryu\\x02\\x07Sfida la governatrice\ndi Suzaku nel Settore\nSud.[pause]\\x02\\x03Hai ancora molta\nstrada da fare,\nma buona fortuna![pause]",
+]

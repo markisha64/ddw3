@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"Beep. Beep.\nPLEASE WAIT.\nCONFIRMING DATA.[pause]\\x02\\x03......\nBLUE CARD CANNOT\nBE CONFIRMED.[pause]\\x02\\x03TERMINATING ACCOUNT \nREGISTRATION...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023What?! Why can't \nI register?[pause]\\x02\\x03I have the Blue \nCard![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Huh?! What?! This \nisn't the Blue \nCard![pause]\\x02\\x03The B is an 8! \nThis is a 8lue \nCard![pause]\\x02\\x03Hey, this is a \nfake! I've been\ntricked![pause]",
+]

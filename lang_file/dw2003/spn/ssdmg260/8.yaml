@@ -1,9 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07Sr. Smith\\x02\\x07¡Es tu oportunidad![pause]\\x02\\x03¡El artículo principal![pause]\\x02\\x03¡La Guarda de Tirador! \n¡Admirado por todos![pause]\\x02\\x03El escudo de Monmon\nsaldrá a 800BIT.[pause]"
-  - '\x02\x07Abel el Tendero\x02\x07¡1100 BIT![pause]'
-  - '\x02\x07Jefe Milly\x02\x07¡1300 BIT![pause]'
-  - '\x02\x07Masao RPG\x02\x07¡1500 BIT![pause]'
-  - |-
-    \x02\x07\x02\x09\x023Ummm 1600 BIT
-    ummm[pause]

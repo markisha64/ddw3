@@ -1,0 +1,4 @@
+strings = [
+	"",
+	"\\x02\\x07Attacker\\x02\\x07I won't let anyone get \npast here! I won't let\nanyone get in the way![pause]\\x02\\x03Our beautiful world is \ngoing to come to life\nsoon![pause]",
+]

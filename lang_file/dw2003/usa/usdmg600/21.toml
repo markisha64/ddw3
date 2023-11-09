@@ -1,0 +1,13 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023That's weird.\nNumemon isn't\naround.[pause]",
+	"Aaaaaaaah![pause]\\x02\\x03Someone\nhelp me![pause]",
+	"\\x02\\x07\\x02\\x09\\x023What? What\nwas that?[pause]",
+	"\\x02\\x07WaruMonzaemon\\x02\\x07You're sooo cute!\nMarry me![pause]",
+	"\\x02\\x07Lisa\\x02\\x07No! I don't like \nfreaks![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh, oh...\nthat's um...\nLisa![pause]",
+	"\\x02\\x07Lisa\\x02\\x07...Hey, hey! You're \n\\x02\\x08\\x01\\x02\\x05\\x01, right?![pause]\\x02\\x03Please! Help this cute \ndamsel in distress![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh, OK.\nYou got it![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hey, WaruMonzaemon!\nPick on someone\nyour own size![pause]",
+	"\\x02\\x07WaruMonzaemon\\x02\\x07......\nWho are you?[pause]\\x02\\x03Get out of my\nway![pause]",
+]

@@ -1,9 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07Mr. Smith\\x02\\x07Now's your chance!\nFinally, our main item![pause]\\x02\\x03Divine Barrier, admired \nby all members![pause]\\x02\\x03The Patamon exclusive \nshield will start at\n400 BIT![pause]"
-  - '\x02\x07Dealer Abel\x02\x07500 BIT![pause]'
-  - '\x02\x07Chief Milly\x02\x07600 BIT![pause]'
-  - '\x02\x07RPG Fan Masao\x02\x07700 BIT![pause]'
-  - |-
-    \x02\x07\x02\x09\x023Hmm... 800 BIT
-    ...hmmm...[pause]

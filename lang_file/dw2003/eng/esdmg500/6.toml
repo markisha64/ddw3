@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Hey \nNumemon![pause]",
+	"\\x02\\x07Numemon\\x02\\x07It's you.\nWhy did you \nreturn?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023There's something \nI want to ask \nyou. So...[pause]",
+	"\\x02\\x07Numemon\\x02\\x07There's nothing \nto tell you![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hey, wait![pause]",
+]

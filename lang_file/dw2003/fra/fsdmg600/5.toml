@@ -1,0 +1,15 @@
+strings = [
+	"",
+	"\\x02\\x07Lisa\\x02\\x07Oh, \\x02\\x08\\x01\\x02\\x05\\x01\nTu es si fort ![pause]\\x02\\x03Je suis \nimpressionnée ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ah ?! Oh,\neuh...Oui\nmerci.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ah, au fait,\nque fais-tu\nici, Lisa ?[pause]",
+	"\\x02\\x07Lisa\\x02\\x07C'est mon\nproblème.[pause]\\x02\\x03Et toi, que\nfais-tu ici ?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023... Moi ?\nEuh, je...[pause]",
+	"Vous voulez\ntous les deux\nme parler ?![pause]",
+	"\\x02\\x07Lisa\\x02\\x07Aaaah\nNu...nu...\nNumemon ![pause]",
+	"\\x02\\x07Numemon\\x02\\x07Du calme,\nc'est moi.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Quoi ?!\nNumemon\nest humain ?[pause]",
+	"\\x02\\x07Lisa\\x02\\x07Oh, je vois.[pause]\\x02\\x03Ne me fais pas\npeur comme ça,\nLucky Mouse ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Quoi ?! C'est\nLucky Mouse ?[pause]\\x02\\x03Alors... ce\nNumemon est...[pause]",
+	"\\x02\\x07Lucky Mouse\\x02\\x07Hm. Lisa c'est une\nchose, mais je t'ai dit\nde ne pas venir ici.[pause]\\x02\\x03C'est dangereux, ici.\nAllons dans ma cachette\npour le moment ![pause]",
+]

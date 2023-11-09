@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Seiya Informat.\\x02\\x07Qu'est-ce qui\nse passe ?![pause]",
+	"\\x02\\x07Saki le Branché\\x02\\x07Chut ! Je\nn'entends plus\nmon portable ![pause]",
+	"\\x02\\x07Teruko le Chaland\\x02\\x07Quoi ?!! Que\ndois-je faire ?[pause]",
+	"\\x02\\x07Teruko le Chaland\\x02\\x07Où est\nla police ?[pause]",
+]

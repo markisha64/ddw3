@@ -1,0 +1,12 @@
+strings = [
+	"",
+	"\\x02\\x07Domatore Heinrich\\x02\\x07Aspetta! Senza la\npassword non ti\nfarò entrare![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Eh, una\npassword?\nUhm...[pause]",
+	"\\x02\\x07???\\x02\\x07Ehi, tu sei\n\\x02\\x08\\x01\\x02\\x05\\x01![pause]",
+	"\\x02\\x07Kenny\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01,\nsono io,\nKenny![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ehi, Kenny!\nStai bene?[pause]",
+	"\\x02\\x07Kenny\\x02\\x07Sì. Mi sono unito\nalla Resistenza![pause]\\x02\\x03Questa è una base\ndella Resistenza![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Che forza,\nKenny![pause]",
+	"\\x02\\x07Kenny\\x02\\x07Vieni a conoscere\nil nostro capo![pause]\\x02\\x03Forse lui\npuò aiutarti.[pause]\\x02\\x03Da questa parte![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ehi, grazie![pause]",
+]

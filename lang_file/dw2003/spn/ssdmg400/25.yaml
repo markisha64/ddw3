@@ -1,9 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07\\x02\\x09\\x023Paildramon,\ntengo un favor que\npedirte.[pause]\\x02\\x03¿Puedes darme el \nDADN de Veemon de \ntu DADN?[pause]"
-  - "\\x02\\x07Paildramon\\x02\\x07¡Ni hablar! Te\nclavan una aguja\npara eso.[pause]\\x02\\x03¡A menos que me \nganes en batalla,\npuedes olvidarte![pause]"
-  - "\\x02\\x07\\x02\\x09\\x023De acuerdo,\nsólo tengo que \nganar, ¿no?[pause]"
-  - |-
-    \x02\x07Paildramon\x02\x07¡Sí, bueno,
-    inténtalo si
-    puedes![pause]

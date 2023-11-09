@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023¿Eh? Es raro.\nNo hay nadie\naquí.[pause]",
+	"\\x02\\x07Voz\\x02\\x07Uuhhhh[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿QQ.. Qué?[pause]",
+	"\\x02\\x07Voz\\x02\\x07... ¡Uuuhhh![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Qué es eso?\n¡Un fantasma![pause]",
+]

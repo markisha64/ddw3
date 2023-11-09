@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"Bip Bip...\nPATIENTEZ.\nCONTROLE DONNEES.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ca a marché !\nJe peux aller dans\nle Secteur Sud ![pause]",
+	"MERCI D'AVOIR ATTENDU.\nTU ES \\x02\\x08\\x01\\x02\\x05\\x01.[pause]\\x02\\x03DEMARRAGE SYSTEME.\nA PRESENT VA A\nLA BARGE.[pause]",
+]

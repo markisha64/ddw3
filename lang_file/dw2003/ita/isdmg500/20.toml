@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Cosa\nvuoi\ndire?[pause]",
+	"\\x02\\x07Seraphimon N\\x02\\x07Che dovrai\nlottare con me![pause]\\x02\\x03Se vincerai,\npasserai.[pause]\\x02\\x03Ma se perderai\nsarà la fine![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ho capito.\nLottiamo,\navanti![pause]",
+	"\\x02\\x07Seraphimon N\\x02\\x07Non potrai\nparlare ancora a\nlungo[pause]\\x02\\x03Farai meglio\na stare\nattento![pause]",
+]

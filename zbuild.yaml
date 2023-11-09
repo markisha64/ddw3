@@ -21,18 +21,18 @@ alias:
   # Other tools
   generate_psx_iso_deps   : tools/generate_psx_iso_deps.py
   generate_compare_deps   : tools/generate_compare_deps.py
-  mkpsexe_from_yaml       : tools/mkpsexe_from_yaml.py
-  mkpsexe_from_yaml_deps  : tools/mkpsexe_from_yaml_deps.py
-  mkraw_exe_from_yaml     : tools/mkraw_exe_from_yaml.py
-  mkraw_exe_from_yaml_deps: tools/mkraw_exe_from_yaml_deps.py
-  ld_from_yaml            : tools/ld_from_yaml.py
-  ld_from_yaml_deps       : tools/ld_from_yaml_deps.py
+  mkpsexe_from_toml       : tools/mkpsexe_from_toml.py
+  mkpsexe_from_toml_deps  : tools/mkpsexe_from_toml_deps.py
+  mkraw_exe_from_toml     : tools/mkraw_exe_from_toml.py
+  mkraw_exe_from_toml_deps: tools/mkraw_exe_from_toml_deps.py
+  ld_from_toml            : tools/ld_from_toml.py
+  ld_from_toml_deps       : tools/ld_from_toml_deps.py
   process_path            : tools/process_path.py
   mkpack_deps             : tools/mkpack_deps.py
   mkmap_deps              : tools/mkmap_deps.py
   mkmap_tile_deps         : tools/mkmap_tile_deps.py
-  mkrlen_from_yaml        : tools/mkrlen_from_yaml.py
-  mkrlen_from_yaml_deps   : tools/mkrlen_from_yaml_deps.py
+  mkrlen_from_toml        : tools/mkrlen_from_toml.py
+  mkrlen_from_toml_deps   : tools/mkrlen_from_toml_deps.py
 
   # Cargo tools
   mkpsexe    : $(build_rust_tool_dir)/ddw3-mkpsexe
@@ -98,12 +98,12 @@ alias:
   elf              : $(build_elf_dir)/^(path).elf
   elf_deps         : $(build_elf_dir)/^(path).d
   elf_linker_script: $(build_elf_dir)/^(path).ld
-  elf_yaml         : elf/^(path).yaml
+  elf_toml         : elf/^(path).toml
 
   # Psexe
   psexe     : $(build_psexe_dir)/^(path).psexe
   psexe_deps: $(build_psexe_dir)/^(path).d
-  psexe_yaml: psexe/^(path).yaml
+  psexe_toml: psexe/^(path).toml
 
   # Psexe remake
   remake_psexe     : $(build_remake_psexe_dir)/^(name).exe
@@ -112,37 +112,37 @@ alias:
   # Raw exe
   raw_exe     : $(build_raw_exe_dir)/^(path).bin
   raw_exe_deps: $(build_raw_exe_dir)/^(path).d
-  raw_exe_yaml: raw_exe/^(path).yaml
+  raw_exe_toml: raw_exe/^(path).toml
 
   # Lang
   lang_file     : $(build_lang_file_dir)/^(path).bin
-  lang_file_yaml: lang_file/^(path).yaml
+  lang_file_toml: lang_file/^(path).toml
 
   # Pack
   pack     : $(build_pack_dir)/^(path).bin
   pack_deps: $(build_pack_dir)/^(path).d
-  pack_yaml: pack/^(path).yaml
+  pack_toml: pack/^(path).toml
 
   # Tim
   tim     : $(build_tim_dir)/^(path).tim
   tim_img : tim/^(path).png
   tim_clut: tim/^(path).clut.png
-  tim_yaml: tim/^(path).yaml
+  tim_toml: tim/^(path).toml
 
   # Map
   map     : $(build_map_dir)/^(path).bin
   map_deps: $(build_map_dir)/^(path).d
-  map_yaml: map/^(path).yaml
+  map_toml: map/^(path).toml
 
   # Map tile
   map_tile     : $(build_map_tile_dir)/^(path).bin
   map_tile_deps: $(build_map_tile_dir)/^(path).d
-  map_tile_yaml: map-tile/^(path).yaml
+  map_tile_toml: map-tile/^(path).toml
 
   # Rlen
   rlen     : $(build_rlen_dir)/^(path).bin
   rlen_deps: $(build_rlen_dir)/^(path).d
-  rlen_yaml: rlen/^(path).yaml
+  rlen_toml: rlen/^(path).toml
 
   # Rust library
   rust_lib     : $(build_rust_dir)/^(name).a
@@ -265,15 +265,15 @@ rules:
   psexe:
     out: [$(psexe)]
     deps:
-      - $(psexe_yaml)
-      - $(mkpsexe_from_yaml)
+      - $(psexe_toml)
+      - $(mkpsexe_from_toml)
       - $(mkpsexe)
       - deps_file: $(psexe_deps)
       - static: $(psexe::dir_name)/
     exec:
       - - $(python3)
-        - $(mkpsexe_from_yaml)
-        - $(psexe_yaml)
+        - $(mkpsexe_from_toml)
+        - $(psexe_toml)
         - -o
         - $(psexe)
         - --mkpsexe-bin
@@ -283,13 +283,13 @@ rules:
   psexe_deps:
     out: [$(psexe_deps)]
     deps:
-      - $(psexe_yaml)
-      - $(mkpsexe_from_yaml_deps)
+      - $(psexe_toml)
+      - $(mkpsexe_from_toml_deps)
       - static: $(psexe_deps::dir_name)/
     exec:
       - - $(python3)
-        - $(mkpsexe_from_yaml_deps)
-        - $(psexe_yaml)
+        - $(mkpsexe_from_toml_deps)
+        - $(psexe_toml)
         - -o
         - $(psexe)
         - --deps
@@ -299,14 +299,14 @@ rules:
   raw_exe:
     out: [$(raw_exe)]
     deps:
-      - $(raw_exe_yaml)
-      - $(mkraw_exe_from_yaml)
+      - $(raw_exe_toml)
+      - $(mkraw_exe_from_toml)
       - deps_file: $(raw_exe_deps)
       - static: $(raw_exe::dir_name)/
     exec:
       - - $(python3)
-        - $(mkraw_exe_from_yaml)
-        - $(raw_exe_yaml)
+        - $(mkraw_exe_from_toml)
+        - $(raw_exe_toml)
         - -o
         - $(raw_exe)
         - --objcopy-bin
@@ -316,13 +316,13 @@ rules:
   raw_exe_deps:
     out: [$(raw_exe_deps)]
     deps:
-      - $(raw_exe_yaml)
-      - $(mkraw_exe_from_yaml_deps)
+      - $(raw_exe_toml)
+      - $(mkraw_exe_from_toml_deps)
       - static: $(raw_exe_deps::dir_name)/
     exec:
       - - $(python3)
-        - $(mkraw_exe_from_yaml_deps)
-        - $(raw_exe_yaml)
+        - $(mkraw_exe_from_toml_deps)
+        - $(raw_exe_toml)
         - -o
         - $(raw_exe)
         - --deps
@@ -332,51 +332,51 @@ rules:
   lang_file:
     out: [$(lang_file)]
     deps:
-      - $(lang_file_yaml)
+      - $(lang_file_toml)
       - $(mklang_file)
       - static: $(lang_file::dir_name)/
     exec:
       - - $(mklang_file)
-        - $(lang_file_yaml)
+        - $(lang_file_toml)
         - --output=$(lang_file)
 
   # Tim
   tim:
     out: [$(tim)]
     deps:
-      - $(tim_yaml)
+      - $(tim_toml)
       - $(mktim)
       - opt: $(tim_clut)
       - static: $(tim::dir_name)/
     exec:
       - - $(mktim)
-        - $(tim_yaml)
+        - $(tim_toml)
         - --output=$(tim)
 
   # Pack
   pack:
     out: [$(pack)]
     deps:
-      - $(pack_yaml)
+      - $(pack_toml)
       - $(mkpack)
       - deps_file: $(pack_deps)
       - static: $(pack::dir_name)/
     exec:
       - - $(mkpack)
-        - $(pack_yaml)
+        - $(pack_toml)
         - --output=$(pack)
 
   # Pack dependencies
   pack_deps:
     out: [$(pack_deps)]
     deps:
-      - $(pack_yaml)
+      - $(pack_toml)
       - $(mkpack_deps)
       - static: $(pack_deps::dir_name)/
     exec:
       - - $(python3)
         - $(mkpack_deps)
-        - $(pack_yaml)
+        - $(pack_toml)
         - -o
         - $(pack)
         - --deps
@@ -386,26 +386,26 @@ rules:
   map:
     out: [$(map)]
     deps:
-      - $(map_yaml)
+      - $(map_toml)
       - $(mkmap)
       - deps_file: $(map_deps)
       - static: $(map::dir_name)/
     exec:
       - - $(mkmap)
-        - $(map_yaml)
+        - $(map_toml)
         - --output=$(map)
 
   # Map dependencies
   map_deps:
     out: [$(map_deps)]
     deps:
-      - $(map_yaml)
+      - $(map_toml)
       - $(mkmap_deps)
       - static: $(map_deps::dir_name)/
     exec:
       - - $(python3)
         - $(mkmap_deps)
-        - $(map_yaml)
+        - $(map_toml)
         - -o
         - $(map)
         - --deps
@@ -415,26 +415,26 @@ rules:
   map_tile:
     out: [$(map_tile)]
     deps:
-      - $(map_tile_yaml)
+      - $(map_tile_toml)
       - $(mkmap_tile)
       - deps_file: $(map_tile_deps)
       - static: $(map_tile::dir_name)/
     exec:
       - - $(mkmap_tile)
-        - $(map_tile_yaml)
+        - $(map_tile_toml)
         - --output=$(map_tile)
 
   # Map tile dependencies
   map_tile_deps:
     out: [$(map_tile_deps)]
     deps:
-      - $(map_tile_yaml)
+      - $(map_tile_toml)
       - $(mkmap_tile_deps)
       - static: $(map_tile_deps::dir_name)/
     exec:
       - - $(python3)
         - $(mkmap_tile_deps)
-        - $(map_tile_yaml)
+        - $(map_tile_toml)
         - -o
         - $(map_tile)
         - --deps
@@ -444,15 +444,15 @@ rules:
   rlen:
     out: [$(rlen)]
     deps:
-      - $(rlen_yaml)
-      - $(mkrlen_from_yaml)
+      - $(rlen_toml)
+      - $(mkrlen_from_toml)
       - $(mkrlen)
       - deps_file: $(rlen_deps)
       - static: $(rlen::dir_name)/
     exec:
       - - $(python3)
-        - $(mkrlen_from_yaml)
-        - $(rlen_yaml)
+        - $(mkrlen_from_toml)
+        - $(rlen_toml)
         - -o
         - $(rlen)
         - --rlen-bin=$(mkrlen)
@@ -461,13 +461,13 @@ rules:
   rlen_deps:
     out: [$(rlen_deps)]
     deps:
-      - $(rlen_yaml)
-      - $(mkrlen_from_yaml_deps)
+      - $(rlen_toml)
+      - $(mkrlen_from_toml_deps)
       - static: $(rlen_deps::dir_name)/
     exec:
       - - $(python3)
-        - $(mkrlen_from_yaml_deps)
-        - $(rlen_yaml)
+        - $(mkrlen_from_toml_deps)
+        - $(rlen_toml)
         - -o
         - $(rlen)
         - --deps
@@ -477,14 +477,14 @@ rules:
   elf:
     out: [$(elf)]
     deps:
-      - $(elf_yaml)
-      - $(ld_from_yaml)
+      - $(elf_toml)
+      - $(ld_from_toml)
       - deps_file: $(elf_deps)
       - static: $(elf::dir_name)/
     exec:
       - - $(python3)
-        - $(ld_from_yaml)
-        - $(elf_yaml)
+        - $(ld_from_toml)
+        - $(elf_toml)
         - -o
         - $(elf)
         - --linker-script-output
@@ -496,13 +496,13 @@ rules:
   elf_deps:
     out: [$(elf_deps)]
     deps:
-      - $(elf_yaml)
-      - $(ld_from_yaml_deps)
+      - $(elf_toml)
+      - $(ld_from_toml_deps)
       - static: $(elf_deps::dir_name)/
     exec:
       - - $(python3)
-        - $(ld_from_yaml_deps)
-        - $(elf_yaml)
+        - $(ld_from_toml_deps)
+        - $(elf_toml)
         - -o
         - $(elf)
         - --deps

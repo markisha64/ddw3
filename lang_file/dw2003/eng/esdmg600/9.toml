@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07BK WarGrowlmon\\x02\\x07I lost, but\nit was fun.\nThanks![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Likewise.\nWell, I gotta go![pause]",
+	"\\x02\\x07BK WarGrowlmon\\x02\\x07Hey, wait a \nsec![pause]\\x02\\x03I'll give you \nthis as\nthanks![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Yeah! I got the\nHazard Armor![pause]",
+	"\\x02\\x07BK WarGrowlmon\\x02\\x07Heh heh, isn't it \ncool?![pause]\\x02\\x03It's my treasure, so \nplease take care \nof it![pause]",
+]

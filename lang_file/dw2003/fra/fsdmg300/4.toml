@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"a",
+	"\\x02\\x07Datamon\\x02\\x07Tu es venu\njusqu'ici pour\nme défier ?[pause]\\x02\\x03Je suis ton\nhomme !\nBattons-nous ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023D'accord !\nBattons-nous ![pause]",
+	"\\x02\\x07Datamon\\x02\\x07Tu ne peux\npas me copier ![pause]\\x02\\x03Tu dois arriver\navec ta propre\nligne ! Bip ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Quoi ? Hm, OK.\nAllons-y ![pause]",
+]

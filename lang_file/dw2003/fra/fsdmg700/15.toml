@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07Chevalier Ténèbres\\x02\\x07Tu as des\nmouvements que\nje n'ai jamais vus.[pause]",
+	"\\x02\\x07Chevalier Ténèbres\\x02\\x07Allez, va !\nTu es un grand\ndresseur ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Super,\nmerci ![pause]",
+]

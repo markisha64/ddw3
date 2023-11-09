@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Mr. Smith\\x02\\x07Now's your chance![pause]\\x02\\x03Finally, our main item![pause]\\x02\\x03Yin Yang Suit, admired \nby all members![pause]\\x02\\x03This Renamon exclusive \nclothe will start at\n10000 BIT![pause]",
+	"\\x02\\x07Dealer Abel\\x02\\x0710900 BIT![pause]",
+	"\\x02\\x07Chief Milly\\x02\\x0711200 BIT![pause]",
+	"\\x02\\x07RPG Fan Masao\\x02\\x0711400 BIT![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hmm. 11500 BIT\n...hmmm...[pause]",
+]

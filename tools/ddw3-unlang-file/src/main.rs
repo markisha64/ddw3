@@ -9,10 +9,7 @@ use {
 	args::Args,
 	clap::Parser,
 	ddw3_lang_file::LangFile,
-	std::{
-		fs,
-		io::{BufReader, BufWriter},
-	},
+	std::{fs, io::BufReader},
 };
 
 
@@ -30,10 +27,8 @@ fn main() -> Result<(), anyhow::Error> {
 	// Then read it
 	let lang_file = LangFile::parse(input_file).context("Unable to parse lang file")?;
 
-	let output = ddw3_util::create_output_file(args.output_file.as_deref()).context("Unable to create output file")?;
-	let output = BufWriter::new(output);
-
-	serde_yaml::to_writer(output, &lang_file).context("Unable to write output file")?;
+	let output = toml::to_string_pretty(&lang_file).context("Unable to write output toml file")?;
+	fs::write(args.output_file, output).context("Unable to write output toml file")?;
 
 	Ok(())
 }

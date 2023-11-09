@@ -1,0 +1,27 @@
+img = "/build/tim/dw2003/z_stage/S218PACK/23.tim"
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 0]
+img_offset = [0, 0]
+size = [128, 27]
+
+[[layers.objs]]
+world_offset = [0, 99]
+img_offset = [0, 27]
+size = [104, 29]
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [88, 0]
+img_offset = [128, 0]
+size = [40, 104]
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [78, 12]
+img_offset = [168, 0]
+size = [50, 116]

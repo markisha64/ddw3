@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Signore tenebre\\x02\\x07Mmm?\nChi sei tu?[pause]\\x02\\x03Sei venuto\na sfidarmi,\neh?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Sì!\nCombatterai\ncon me?[pause]",
+	"\\x02\\x07Signore tenebre\\x02\\x07Non sai cosa ti\naspetta.[pause]\\x02\\x03Va bene!\nNon combatto\nda molto tempo.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ti farò\nvedere cosa\nso fare![pause]",
+]

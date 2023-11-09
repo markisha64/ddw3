@@ -1,8 +1,0 @@
-strings:
-  - ''
-  - |-
-    \x02\x07\x02\x09\x023Mmm, non
-    trovo Veemon.[pause]\x02\x03Mmm...
-    Che faccio?
-    Mmm...[pause]
-  - "\\x02\\x07\\x02\\x09\\x023Non mi resta\nche lasciare la \nforesta.[pause]"

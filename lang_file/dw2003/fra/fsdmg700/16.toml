@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Chef de Genbu\\x02\\x07Un challenger\nà un moment\npareil ?!![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Chef de Genbu,\nj'ai une faveur\nà te demander :[pause]\\x02\\x03ton badge, pour\nretourner dans le\nMonde Réel...[pause]",
+	"\\x02\\x07Chef de Genbu\\x02\\x07Désolé, je ne peux\ndonner mon badge\ngratuitement.[pause]\\x02\\x03Ce sont les règles.[pause]\\x02\\x03Pour l'obtenir, tu\ndois me battre ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Très bien. Je\nme doutais de\nta réponse ![pause]\\x02\\x03Finissons-en ![pause]",
+]

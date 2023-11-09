@@ -66,25 +66,24 @@ fn main() -> Result<(), anyhow::Error> {
 		io::copy(&mut reader.by_ref().take(len), &mut output_file).context("Unable to write output file")?;
 	}
 
-	// Then output the yaml, if needed
-	if let Some(output_yaml) = args.output_yaml {
-		let output_yaml_parent = output_yaml
+	// Then output the toml, if needed
+	if let Some(output_toml) = args.output_toml {
+		let output_toml_parent = output_toml
 			.parent()
-			.context("Unable to get parent of output yaml file")?;
-		fs::create_dir_all(output_yaml_parent).context("Unable to create output yaml file directory")?;
-
-		let output_yaml = fs::File::create(&output_yaml).context("Unable to create output yaml file")?;
+			.context("Unable to get parent of output toml file")?;
+		fs::create_dir_all(output_toml_parent).context("Unable to create output toml file directory")?;
 
 		let entries = (0..entries.len())
 			.map(|idx| {
 				let output_path = args.output_dir.join(format!("{idx}")).with_extension("bin");
 
-				pathdiff::diff_paths(&output_path, output_yaml_parent)
+				pathdiff::diff_paths(&output_path, output_toml_parent)
 					.unwrap_or_else(|| Path::new("/").join(&output_path))
 			})
 			.collect();
 
-		serde_yaml::to_writer(output_yaml, &Output { entries }).context("Unable to write output yaml file")?;
+		let output = toml::to_string_pretty(&Output { entries }).context("Unable to write output toml file")?;
+		fs::write(output_toml, output).context("Unable to write output toml file")?;
 	}
 
 	Ok(())

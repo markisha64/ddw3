@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Hé ?! C'est qui\nle responsable ?\nVous êtes où ?[pause]",
+	"Bip bip...\nPOWER ON.\nREAMORCAGE ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hein,\nquoi ?![pause]",
+	"JE SUIS LE SYSTEME D'EXP. DE\nLA BARGE DE LA GRANDE CREVASSE.[pause]\\x02\\x03POUR ALLUMER LA BARGE PARTIE EN\nDIRECTION DU SECTEUR SUD...[pause]\\x02\\x03IL FAUT ENREGISTRER UN COMPTE\nAVEC UNE CARTE BLEUE.[pause]\\x02\\x03LES DIGIMONS NES D'UNE CARTE\nBLEUE LA POSSEDENT, TU PEUX\nL'OBTENIR AUPRES D'EUX.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Je vois. Digimons\nnés d'une carte\nbleue...[pause]\\x02\\x03Hmm. Cela doit\nêtre Guilmon.[pause]\\x02\\x03Je vais essayer\nde trouver Guilmon\ndans la ville.[pause]",
+]

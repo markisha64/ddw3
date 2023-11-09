@@ -1,0 +1,4 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Ja, es ist wirklich\ndie echte Welt![pause]\\x02\\x03Wow! Mein Körper\nist wirklich hier![pause]\\x02\\x03Tja, dafür habe ich\nleider keine Zeit![pause]\\x02\\x03Wir haben nur 180\nSekunden! Wir\nmüssen uns beeilen![pause]",
+]

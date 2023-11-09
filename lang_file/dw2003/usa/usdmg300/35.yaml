@@ -1,9 +1,0 @@
-strings:
-  - ''
-  - |-
-    \x02\x07BK MegaGargomon\x02\x07Wow, you won!
-    You're strong![pause]
-  - "\\x02\\x07\\x02\\x09\\x023Of course!\nI've been battling \neveryone![pause]"
-  - "\\x02\\x07BK MegaGargomon\\x02\\x07Wow, that's \namazing! I'll\ngive you this![pause]"
-  - "\\x02\\x07\\x02\\x09\\x023Yeah! I got\nthe Wild \nHelmet![pause]"
-  - "\\x02\\x07BK MegaGargomon\\x02\\x07Well, good luck.\nI'll be cheering \nfor you![pause]"

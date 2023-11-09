@@ -419,7 +419,7 @@ dependencies = [
  "ddw3-util",
  "either",
  "itertools",
- "serde_yaml",
+ "toml",
  "tracing",
 ]
 
@@ -435,7 +435,7 @@ dependencies = [
  "itertools",
  "pathdiff",
  "serde",
- "serde_yaml",
+ "toml",
  "tracing",
 ]
 
@@ -451,7 +451,7 @@ dependencies = [
  "itertools",
  "pathdiff",
  "serde",
- "serde_yaml",
+ "toml",
  "tracing",
 ]
 
@@ -467,7 +467,7 @@ dependencies = [
  "itertools",
  "pathdiff",
  "serde",
- "serde_yaml",
+ "toml",
  "tracing",
 ]
 
@@ -498,7 +498,7 @@ dependencies = [
  "itertools",
  "pathdiff",
  "serde",
- "serde_yaml",
+ "toml",
  "tracing",
 ]
 
@@ -517,8 +517,8 @@ dependencies = [
  "itertools",
  "pathdiff",
  "serde",
- "serde_yaml",
  "thiserror",
+ "toml",
  "tracing",
 ]
 
@@ -574,7 +574,7 @@ dependencies = [
  "derive_more",
  "int-conv",
  "serde",
- "serde_yaml",
+ "toml",
  "tracing",
  "xml-rs",
 ]
@@ -591,7 +591,7 @@ dependencies = [
  "ddw3-util",
  "either",
  "itertools",
- "serde_yaml",
+ "toml",
  "tracing",
 ]
 
@@ -606,7 +606,7 @@ dependencies = [
  "itertools",
  "pathdiff",
  "serde",
- "serde_yaml",
+ "toml",
  "tracing",
 ]
 
@@ -621,7 +621,7 @@ dependencies = [
  "itertools",
  "pathdiff",
  "serde",
- "serde_yaml",
+ "toml",
  "tracing",
 ]
 
@@ -636,7 +636,7 @@ dependencies = [
  "itertools",
  "pathdiff",
  "serde",
- "serde_yaml",
+ "toml",
  "tracing",
 ]
 
@@ -651,7 +651,7 @@ dependencies = [
  "itertools",
  "pathdiff",
  "serde",
- "serde_yaml",
+ "toml",
  "tracing",
 ]
 
@@ -669,8 +669,8 @@ dependencies = [
  "itertools",
  "pathdiff",
  "serde",
- "serde_yaml",
  "thiserror",
+ "toml",
  "tracing",
 ]
 
@@ -690,7 +690,7 @@ dependencies = [
  "pathdiff",
  "serde",
  "serde_with",
- "serde_yaml",
+ "toml",
  "tracing",
 ]
 
@@ -720,7 +720,7 @@ dependencies = [
  "itertools",
  "pathdiff",
  "serde",
- "serde_yaml",
+ "toml",
  "tracing",
 ]
 
@@ -1076,6 +1076,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "memchr"
+version = "2.6.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f665ee40bc4a3c5590afb1e9677db74a508659dfd71e126420da8274909a0167"
+
+[[package]]
 name = "memoffset"
 version = "0.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1400,6 +1406,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "serde_spanned"
+version = "0.6.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "12022b835073e5b11e90a14f86838ceb1c8fb0325b72416845c487ac0fa95e80"
+dependencies = [
+ "serde",
+]
+
+[[package]]
 name = "serde_with"
 version = "3.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1426,19 +1441,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn 2.0.29",
-]
-
-[[package]]
-name = "serde_yaml"
-version = "0.9.25"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1a49e178e4452f45cb61d0cd8cebc1b0fafd3e41929e996cef79aa3aca91f574"
-dependencies = [
- "indexmap 2.0.0",
- "itoa",
- "ryu",
- "serde",
- "unsafe-libyaml",
 ]
 
 [[package]]
@@ -1575,6 +1577,40 @@ dependencies = [
 ]
 
 [[package]]
+name = "toml"
+version = "0.8.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a1a195ec8c9da26928f773888e0742ca3ca1040c6cd859c919c9f59c1954ab35"
+dependencies = [
+ "serde",
+ "serde_spanned",
+ "toml_datetime",
+ "toml_edit",
+]
+
+[[package]]
+name = "toml_datetime"
+version = "0.6.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3550f4e9685620ac18a50ed434eb3aec30db8ba93b0287467bca5826ea25baf1"
+dependencies = [
+ "serde",
+]
+
+[[package]]
+name = "toml_edit"
+version = "0.21.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d34d383cd00a163b4a5b85053df514d45bc330f6de7737edfe0a93311d1eaa03"
+dependencies = [
+ "indexmap 2.0.0",
+ "serde",
+ "serde_spanned",
+ "toml_datetime",
+ "winnow",
+]
+
+[[package]]
 name = "tracing"
 version = "0.1.37"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1641,12 +1677,6 @@ name = "unicode-ident"
 version = "1.0.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "301abaae475aa91687eb82514b328ab47a211a533026cb25fc3e519b86adfc3c"
-
-[[package]]
-name = "unsafe-libyaml"
-version = "0.2.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f28467d3e1d3c6586d8f25fa243f544f5800fec42d97032474e17222c2b75cfa"
 
 [[package]]
 name = "utf8parse"
@@ -1822,6 +1852,15 @@ name = "windows_x86_64_msvc"
 version = "0.48.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b6ade45bc8bf02ae2aa34a9d54ba660a1a58204da34ba793c00d83ca3730b5f1"
+
+[[package]]
+name = "winnow"
+version = "0.5.19"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "829846f3e3db426d4cee4510841b71a8e58aa2a76b1132579487ae430ccd9c7b"
+dependencies = [
+ "memchr",
+]
 
 [[package]]
 name = "xml-rs"

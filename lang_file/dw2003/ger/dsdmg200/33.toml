@@ -1,0 +1,18 @@
+strings = [
+	"",
+	"\\x02\\x07Teddy\\x02\\x07Hey,\n\\x02\\x08\\x01\\x02\\x05\\x01![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Teddy, bist\ndu OK?[pause]",
+	"\\x02\\x07Teddy\\x02\\x07Ja, danke![pause]\\x02\\x03\\x02\\x08\\x01\\x02\\x05\\x01, MAGAMI\ngehört zu A.o.A.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ja, ich weiβ!\nAber wer sind die\nMitarbeiter dort?[pause]",
+	"\\x02\\x07Dr. Kadomatsu\\x02\\x07Wir gehören nicht\nzu den A.o.A.![pause]",
+	"\\x02\\x07DO-Operator\\x02\\x07Ach, MAGAMI und \nA.o.A. gehören \nzusammen?[pause]",
+	"\\x02\\x07DO-Wache\\x02\\x07Die Leader der Städte\nu. die meisten Mit-\narbeiter sind wie wir![pause]\\x02\\x03Nicht alle MAGAMI-\nMitarbeiter gehören\nzu den A.o.A![pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK. Ich werde\neuch allen helfen.\nHaltet durch![pause]\\x02\\x03Ich werde Game-\nmaster besiegen![pause]",
+	"\\x02\\x07DO-Operator\\x02\\x07Sei vorsichtig. Man\nsagt, im Meisterraum\nsei eine Falle![pause]",
+	"\\x02\\x07DO-Wache\\x02\\x07Das hörte ich auch!\nIrgendwo gibt es eine\nGeheimtür.[pause]",
+	"\\x02\\x07Dr. Kadomatsu\\x02\\x07Ja, auch ich hab\ndavon gehört.[pause]\\x02\\x03Der Schlüsselcode\nist \"MONSTER\".[pause]\\x02\\x03Keine Ahnung, \nwas das heiβt.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK, danke![pause]",
+	"\\x02\\x07Teddy\\x02\\x07Viel Glück,\n\\x02\\x08\\x01\\x02\\x05\\x01![pause]\\x02\\x03Besieg\ndie A.o.A.![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Keine Sorge\nÜberlass\ndas mir![pause]",
+	"\\x02\\x07\\x02\\x09\\x023...oh,\nTeddy![pause]",
+]

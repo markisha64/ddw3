@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Signore fuoco\\x02\\x07È molto pericoloso,\nqui. Torna\nindietro![pause]\\x02\\x03O vuoi lottare\ncon me per\npassare?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023È così! \nSono qui\nper questo![pause]",
+	"\\x02\\x07Signore fuoco\\x02\\x07Sei un\ndomatore\nfastidioso.[pause]\\x02\\x03Se vinci, puoi\npassare.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Inizia a\nbatterti![pause]",
+]

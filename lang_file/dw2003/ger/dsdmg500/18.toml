@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Hey Kyukimon.\nTu mir einen\nGefallen.[pause]\\x02\\x03Gibst du mir die\nKotemon-DDNA aus\ndeiner DDNA?[pause]",
+	"\\x02\\x07Kyukimon\\x02\\x07...mal sehen.\nJa, unter einer\nBedingung.[pause]\\x02\\x03Zuerst muss\ndu mit mir kämpfen\nund gewinnen.[pause]",
+]

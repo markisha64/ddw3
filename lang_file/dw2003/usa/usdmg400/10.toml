@@ -1,0 +1,12 @@
+strings = [
+	"",
+	"\\x02\\x07Voice\\x02\\x07Wooo...\n...wooo![pause]",
+	"\\x02\\x07\\x02\\x09\\x023You must be\nSepikmon.[pause]",
+	"\\x02\\x07Voice\\x02\\x07Wooo...\n...cough!\nCough![pause]\\x02\\x03...yeah,\nwhat do\nyou want?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hey, can you tell me \nhow to beat Zanbamon?[pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07I can, but first\nI have one request.[pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07I lost my precious\nmask somewhere![pause]\\x02\\x03If I don't have it, no \none can see me![pause]\\x02\\x03So if you find it I'll\ntell you what you \nwant to know.[pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07I had it when I was \nwith Baronmon...[pause]\\x02\\x03...so I must have\ndropped it after that! [pause]\\x02\\x03OK, thanks a lot![pause]",
+	"\\x02\\x07Voice\\x02\\x07...Yeah, what \ndo you want![pause]",
+	"\\x02\\x07\\x02\\x09\\x023All right, fine,\nI'll go and find\nyour mask.[pause]",
+]

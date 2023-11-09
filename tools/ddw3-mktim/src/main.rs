@@ -50,12 +50,12 @@ fn main() -> Result<(), anyhow::Error> {
 
 	// Read the input config
 	let config_parent = args
-		.input_yaml
+		.input_toml
 		.parent()
-		.context("Unable to get parent dir of input yaml")?;
+		.context("Unable to get parent dir of input toml")?;
 	let config = {
-		let config_file = fs::File::open(&args.input_yaml).context("Unable to open input yaml")?;
-		serde_yaml::from_reader::<_, Config>(config_file).context("Unable to open input yaml")?
+		let config = fs::read_to_string(&args.input_toml).context("Unable to read input toml")?;
+		toml::from_str::<Config>(&config).context("Unable to parse input toml")?
 	};
 	tracing::debug!(?config);
 
@@ -153,7 +153,9 @@ fn main() -> Result<(), anyhow::Error> {
 	output_file.write_all(&header_bytes).context("Unable to write header")?;
 
 	// Write the clut, if any and it should be included
-	if let Some(clut) = clut && clut.include {
+	if let Some(clut) = clut &&
+		clut.include
+	{
 		// && include_clut
 		// Convert the clut
 		let width = u16::try_from(clut.img.width()).context("Clut width didn't fit into a `u16`")?;

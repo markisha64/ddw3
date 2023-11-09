@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Suzaku Leader\\x02\\x07Oh no, my \nDigimon lost![pause]\\x02\\x03Oh well. What's \nyour name?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023It's \\x02\\x08\\x01\\x02\\x05\\x01![pause]",
+	"\\x02\\x07Suzaku Leader\\x02\\x07That's a cool \nname![pause]\\x02\\x03OK, I'll give \nyou this.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Yeah! I got\nthe Suzaku \nBadge![pause]\\x02\\x03Next I need\nto get the\nByakko Badge.[pause]",
+	"\\x02\\x07Suzaku Leader\\x02\\x07West Sector is across\nthe ocean, so it's \npretty hard to get to.[pause]\\x02\\x03There's only one way to \ngo there. You have to \ncall Submarimon.[pause]\\x02\\x03You need the Digi-Egg of \nSincerity to call \nSubmarimon.[pause]\\x02\\x03Ask around in this sector \nfor information about it.[pause]\\x02\\x03That's the only clue I \ncan give you. Well, good \nluck.[pause]",
+]

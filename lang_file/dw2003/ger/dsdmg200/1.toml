@@ -1,0 +1,18 @@
+strings = [
+	"",
+	"Digimon-On.",
+	"Ziel",
+	"Stadtfüh.",
+	"Feldführer",
+	"Kampftipps",
+	"Grundtraining",
+	"Statusbildsch.",
+	"Zurück",
+	"Digimon-Online wird auf 5 Servern[pause]\\x02\\x03gespielt: Amaterasu, Izumo, Asuka,\nYamato und Ikaruga.[pause]\\x02\\x03Auf jedem Server ist eine gleichnamige\nStadt (Asuka City), und alle Server\nsind auf gleiche Weise organisiert.[pause]\\x02\\x03Andere Server sind f. Spieler tabu,[pause]\\x02\\x03doch Server Champs können m. andern\num den World Champ-Titel kämpfen.[pause]",
+	"Ziel von Digimon-Online ist, von\nüber 200.000 Spielern der beste\nund damit World Champ zu werden.[pause]\\x02\\x03Nur Server Champs, Gewinner der\nServer-Turniere, können am World\nChamp-Turnier teilnehmen.[pause]\\x02\\x03Du musst die Leader der 4 Städte \nbesiegen, um am Server-Turnier\nteilzunehmen. Viel Glück![pause]",
+	"Auf d. Server gibt es auβer Asuka\nCity andere Städte. Halte in der\nnächsten Stadt deiner Reise an.[pause]\\x02\\x03Dort findest du Item-Shops u. Inns\nzur Erholung d. Digimon. Daten w.\nv. Guardromon i. d. Inns gespeic.[pause]\\x02\\x03Es gibt in jeder Stadt Sehensw.\nAsuka City hat das einz. Digimon-\nLab., das alle Dompteure besuchen.[pause]",
+	"Auβerhalb der Stadt kämpfst du\ngegen wilde Digimon. Sei vor der\nAbreise gut vorbereitet.[pause]\\x02\\x03Inns gibt es auch fern der Stadt.\nWird dein Partner-Digimon im\nKampf verletzt, lass es ausruhen.[pause]\\x02\\x03Gegenden mit starken Gegnern soll-\ntest du erst aufsuchen, wenn du\ndein Partner-Digimon trainiert hast.[pause]",
+	"Du reist mit 3 Partner-Digimon, von\ndenen jeweils nur eins kämpfen kann.\nDu kannst sie im Kampf austauschen.[pause]\\x02\\x03Im Kampf steuern Tamer ihre Digimon\nmit Befehlen. Wähle einen geeigneten\nBefehl für die Situation aus.[pause]\\x02\\x03Du hast auch spez. Techniken, die\nMP und sogar Items verwenden. Mehr\nInfos gibt es im Digimon-Labor.[pause]",
+	"Partner-Digimon sammeln im Kampf\nEXP (Erfahrung). Ihr Level ent-\nspricht der gewonnenen EXP.[pause]\\x02\\x03Je höh. der Level, desto stärk.\ndas Digi. u. seine Gegner. Je \nstärk. d. Gegner, desto mehr EXP.[pause]\\x02\\x03Die Digimon-Fähigkeiten können mit\nTraining verbessert werden. Mehr\nInfo zum Training im Digimon-Labor.[pause]",
+	"Unterwegs kannst du mit der START-\nTaste den Statusbildschirm von \ndeinem Satelliten öffnen.[pause]\\x02\\x03Im Statusbildschirm kannst du dein\nPartner-Digimon sehen, Items ver-\nwenden u. auf der Karte nachsehen.[pause]",
+]

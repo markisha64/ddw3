@@ -1,0 +1,14 @@
+strings = [
+	"",
+	"EXP",
+	"EXP ganada:\n\\x02\\x05\\x01 EXP[pause]",
+	"Nv",
+	"¡Nivel ganado![pause]",
+	"Técnica aprendida:\n\\x02\\x05\\x01[pause]",
+	"No puede apr. la téc.:\n\\x02\\x05\\x01[pause]",
+	"\\x02\\x05\\x01\n¡Nivel \\x02\\x05\\x02![pause]",
+	"Digievolución aprendida:\n\\x02\\x05\\x01[pause]",
+	"Indicador digiev. lleno.\nGuard. en Lab. Digimon.[pause]",
+	"BIT ganado:\n\\x02\\x05\\x01 BIT[pause]",
+	"Artículos ganados:\n\\x02\\x05\\x01[pause]",
+]

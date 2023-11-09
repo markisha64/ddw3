@@ -30,22 +30,22 @@ Executables are built from elf files, by using their `text` section as the `text
 
 > TODO: The stack pointer can't be currently customized, should we allow it? Either way the game sets the stack pointer itself, so it shouldn't matter.
 
-They are built by `ddw3-mkpsexe` from `yaml` header files, with the following structure:
+They are built by `ddw3-mkpsexe` from `toml` header files, with the following structure:
 
-```yaml
+```toml
 # The elf file
-elf: <elf path>
+elf = "<elf path>"
 
 # License
-license: <license path>
+license = "<license path>"
 
 # If the text section should be resized truncated / filled with zeroes
 # (Optional)
-resize_text: <text length>
+resize_text = <text length>
 ```
 
-Then using `build/tools/ddw3-mkpsexe <yaml> --output <psexe> --license <license> --resize-text <text length>`
-(The `zbuild` file automatically reads the yaml and passes the correct arguments)
+Then using `build/tools/ddw3-mkpsexe <toml> --output <psexe> --license <license> --resize-text <text length>`
+(The `zbuild` file automatically reads the toml and passes the correct arguments)
 
 > TODO: Although this _can_ be done in zbuild, maybe we should use an external python script, since it would yield better errors on missing fields, as well as be faster and simpler by not relying on invocations of `yq` and `tools/process_path.py`.
 
@@ -59,16 +59,16 @@ They are built using `objcopy --dump-section=.text=<raw-exe> <elf>`.
 
 Elf files are created from a list of object files. Each object files will have multiple sections that will be flattened into `text` using the provided order (with a linker script).
 
-They are built by `ddw3-mkpsexe` from `yaml` header files, with the following structure:
+They are built by `ddw3-mkpsexe` from `toml` header files, with the following structure:
 
-```yaml
-entry: <symbol to start at>
-start_addr: <start address>
-objs: <list of object files>
-sections: <list of ordered sections to include>
+```toml
+entry = <symbol to start at>
+start_addr = <start address>
+objs = <list of object files>
+sections = <list of ordered sections to include>
 ```
 
-Then using `tools/ld_from_yaml.py <yaml> -o <elf> --linker-script-output <linker-script> --ld-bin <ld binary path>`.
+Then using `tools/ld_from_toml.py <toml> -o <elf> --linker-script-output <linker-script> --ld-bin <ld binary path>`.
 
 ### Object files (assembly)
 

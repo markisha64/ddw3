@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Attention ! Ne\nviens pas me\nfaire d'ennuis ! [pause]\\x02\\x03Tiens ?\nSerait-ce... ?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Super ! J'ai le\nPasse blanc ![pause]\\x02\\x03Plus qu'un\nseul ! Vite ![pause]",
+]

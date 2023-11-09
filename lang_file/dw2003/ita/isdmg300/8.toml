@@ -1,0 +1,11 @@
+strings = [
+	"",
+	"\\x02\\x07???\\x02\\x07GUBIIIII![pause]\\x02\\x03Risposta Digimon,\nrisposta Digimon![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Cos'è? È un\nDigimon che non\nmai visto prima.[pause]",
+	"\\x02\\x07???\\x02\\x07GUBI?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Non sembra\nun Digimon\ncattivo...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ehi, apri.[pause]\\x02\\x03Devo sconfiggere\ni cattivi![pause]",
+	"\\x02\\x07???\\x02\\x07Cattivi?\nChi?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Umm, per\nfarla breve...[pause]",
+	"\\x02\\x07???\\x02\\x07Mangio Digimon!\nDivento\nforte![pause]\\x02\\x03GUBIIII![pause]",
+]

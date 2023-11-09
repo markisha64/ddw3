@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Hört auf\ndamit! Sofort\nstoppen![pause]\\x02\\x03Ich lasse euch\nnicht\ndavonkommen![pause]",
+	"\\x02\\x07Königl. Wache\\x02\\x07Ha ha ha ha! Der\nVerrückte sagt,\nanhalten![pause]\\x02\\x03Ein Kind kann uns\nnicht aufhalten![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Passt auf!\nIhr werdet \naufhören![pause]",
+	"\\x02\\x07Königl. Wache\\x02\\x07...ha ha ha.\nGlaubst du?[pause]\\x02\\x03Zeig, was\ndu kannst![pause]",
+	"\\x02\\x07Königl. Wache\\x02\\x07System ist bereit...\nDas war's![pause]",
+]

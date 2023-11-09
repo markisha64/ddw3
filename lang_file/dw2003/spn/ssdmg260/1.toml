@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023¡De acuerdo!\n¡Pujo por 800![pause]",
+	"\\x02\\x07Sr. Smith\\x02\\x07¡Uauu!\n¡800 BIT![pause]\\x02\\x03¿Alguien sobre\n800 BIT?[pause]",
+	"\\x02\\x07Sr. Smith\\x02\\x07Parece que no hay\nnadie más.[pause]\\x02\\x03¡Barrera Divina\nvendida, 800 BIT![pause]\\x02\\x03¡Felicidades\nal chico de ahí![pause]\\x02\\x03¡Estoy transfiriendo \nel artículo a\ntu satélite![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Sí!¡Tengo\nla Barrera\nDivina![pause]",
+	"\\x02\\x07Junior\\x02\\x07¡Sí!¡Tengo un\nartículo chulo! \nVámonos.[pause]",
+]

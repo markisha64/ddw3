@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Va bene!\n2700 BIT![pause]",
+	"\\x02\\x07Mr. Smith\\x02\\x07Wow!\n2700 BIT![pause]\\x02\\x03Nessuno offre\ndi più?[pause]",
+	"\\x02\\x07Mr. Smith\\x02\\x07E uno, e due,\ne tre![pause]\\x02\\x03Zanna del pericolo\nper 2700 BIT![pause]\\x02\\x03Congratulazioni\na te, laggiù![pause]\\x02\\x03Trasferirò \nl'oggetto al\nsatellite![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ho la zanna del\npericolo![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ora ho un oggetto\nprezioso. Vado\nvia![pause]",
+]

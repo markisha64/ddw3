@@ -1,0 +1,21 @@
+width = 5
+height = 3
+entries = [
+	"/map-tile/empty.bin",
+	"/build/rlen/dw2003/z_stage/S270PACK/1.bin",
+	"/build/rlen/dw2003/z_stage/S270PACK/2.bin",
+	"/build/rlen/dw2003/z_stage/S270PACK/3.bin",
+	"/build/rlen/dw2003/z_stage/S270PACK/4.bin",
+	"/build/rlen/dw2003/z_stage/S270PACK/5.bin",
+	"/build/rlen/dw2003/z_stage/S270PACK/6.bin",
+	"/build/rlen/dw2003/z_stage/S270PACK/7.bin",
+	"/build/rlen/dw2003/z_stage/S270PACK/8.bin",
+	"/build/rlen/dw2003/z_stage/S270PACK/9.bin",
+	"/build/rlen/dw2003/z_stage/S270PACK/10.bin",
+	"/build/rlen/dw2003/z_stage/S270PACK/11.bin",
+	"/build/rlen/dw2003/z_stage/S270PACK/12.bin",
+	"/map-tile/empty.bin",
+	"/map-tile/empty.bin",
+]
+override_entries_len = 12
+extra_padding = 16384

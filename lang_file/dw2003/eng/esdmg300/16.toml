@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Royal Guard\\x02\\x07We've been waiting!\nYou defeated our\nChiefs![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Come on. I'll \ntake you on![pause]",
+	"\\x02\\x07Royal Guard\\x02\\x07We are stronger \nthan the anything\nyou've faced yet.[pause]",
+	"\\x02\\x07Royal Guard\\x02\\x07With the pride of \nthe Royal Guard, \nI'll defeat you![pause]",
+]

@@ -1,0 +1,14 @@
+strings = [
+	"",
+	"\\x02\\x07Maestro de Juego\\x02\\x07¿Qué hacéis aquí?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Eh... Estamos \nbuscando a nuestro\namigo Teddy.[pause]",
+	"\\x02\\x07Maestro de Juego\\x02\\x07Ya veo... Siento \nsorprenderos.[pause]\\x02\\x03Yo también me\npreocupo por él. Ratón\nSuerte lo tendrá preso.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡¿Ratón\nSuerte?![pause]",
+	"\\x02\\x07Maestro de Juego\\x02\\x07¡Es malvado,\nintenta destruir\nDigimon Online![pause]\\x02\\x03¡Es la razón por la\nque tenemos problemas\nen el sistema![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Pero todo el mundo\ndisfruta de Digimon\nOnline...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡No puedo creerlo!\n¡Ratón Suerte![pause]",
+	"\\x02\\x07Kail\\x02\\x07.....[pause]",
+	"\\x02\\x07Maestro de Juego\\x02\\x07Todo nuestro personal\nestá buscando a\nRatón Suerte.[pause]\\x02\\x03¡Oh, ya sé!\n¿Nos ayudarías?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Por supuesto!\n¡Te ayudaremos![pause]",
+	"\\x02\\x07Maestro Jue.\\x02\\x07Gracias, \ncuento con\nvosotros.[pause]\\x02\\x03¡Hemos oído\nque fue al \nSector Oeste![pause]",
+]

@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07Kail\\x02\\x07Wie werden\nwir jetzt \nzu Digimon?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023He! Sieh mal,\nwas ich hier\nhabe![pause]",
+	"\\x02\\x07Kail\\x02\\x07Perfekt. Damit\nwäre das Problem\nwohl gelöst.[pause]\\x02\\x03Wir ziehen die \nAgumon-Anzüge an\nu. suchen Teddy![pause]",
+]

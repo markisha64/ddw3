@@ -1,0 +1,10 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Evviva! Ho\nbattuto Kurt![pause]",
+	"\\x02\\x07Kurt\\x02\\x07Congratulazioni,\n\\x02\\x08\\x01\\x02\\x05\\x01! Mi hai\nbattuto sul serio![pause]\\x02\\x03Ora sei tu il\nmiglior domatore![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Grazie![pause]",
+	"\\x02\\x07Kurt\\x02\\x07Digimon Online verrà\nriavviato. Come primo\nCampione del Mondo,[pause]\\x02\\x03dovrai affrontare gli\nsfidanti che vengono da\nogni angolo del globo.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Io? Il primo\nCampione del\nMondo?[pause]\\x02\\x03Cercherò di\nfare del mio\nmeglio![pause]",
+	"\\x02\\x07Kurt\\x02\\x07Conto su di te.\nMa hai ancora un\npo' di tempo.[pause]\\x02\\x03Combatti ancora\ne diventa sempre\npiù forte![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Tranquillo.\nDiventerò il più\nforte Campione[pause]\\x02\\x03del Mondo mai\nesistito![pause]",
+]

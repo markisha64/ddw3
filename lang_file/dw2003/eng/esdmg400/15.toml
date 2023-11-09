@@ -1,0 +1,9 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Hey Zanbamon!\nI'm going to go \nthru this time![pause]",
+	"\\x02\\x07Zanbamon\\x02\\x07Ha, ha, ha, ha!\nYou just don't\ngive up, do you?[pause]\\x02\\x03No matter how \nhard you try, you \njust can't win![pause]",
+	"\\x02\\x07\\x02\\x09\\x023We'll see about \nthat. Look at\nwhat I've got![pause]",
+	"\\x02\\x07Zanbamon\\x02\\x07Uhhh! Is-is \nthat a Smelly \nHerb!?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh yeah!\nNow I can go![pause]",
+	"\\x02\\x07Zanbamon\\x02\\x07I-I can't take it!\nAll right, I'll back\ndown this time![pause]\\x02\\x03...But I won't \nforget this kid![pause]",
+]

@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Allora\nti sfido![pause]",
+	"\\x02\\x07Pharaohmon\\x02\\x07Non hai\npaura![pause]\\x02\\x03Ti avverto:\nsono\npotente![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Voglio\nproprio\nvedere![pause]",
+	"\\x02\\x07Pharaohmon\\x02\\x07Bene,\nsei pronto.[pause]\\x02\\x03Massima\npotenza![pause]",
+]

@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"Bip Bip...\nATTENDERE.\nCONFERMA DATI.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Funziona!\nPosso andare al\nSettore Sud![pause]",
+	"GRAZIE PER L'ATTESA.\nTU SEI \\x02\\x08\\x01\\x02\\x05\\x01.[pause]\\x02\\x03IL SISTEMA È ATTIVO.\nPROCEDI VERSO\nLA GONDOLA.[pause]",
+]

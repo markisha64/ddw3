@@ -1,0 +1,18 @@
+strings = [
+	"",
+	"Digivol. Kotemon",
+	"Digivol. Monmon",
+	"Digivol. Kumamon",
+	"Digivol. Renamon",
+	"Digivol. Patamon",
+	"Digivol. Agumon",
+	"Digivol. Guilmon",
+	"Indietro",
+	"Impara i tipi Greymon e Veemon.\nDeve imparare Stingmon per andare\noltre ExVeemon. Se aumenti[pause]\\x02\\x03l'abilità di Greymon e la resistenza\nalle tenebre, impara SkullGreymon.\nNon posso dirti cosa c'è dopo.[pause]\\x02\\x03Se aumenti l'abilità di Kyukimon\ne la resistenza alle macchine, impara\nMetalMamemon. Poi usa[pause]\\x02\\x03le digivoluzioni delle macchine.[pause]",
+	"All'inizio impara ExVeemon. Impara\nle Macchine, Angemon e altri tipi\ndopo aver imparato Armormon.[pause]\\x02\\x03Se aumenti la sua resistenza alle\nmacchine, impara le digivoluzioni\ndelle macchine. Se aumenti la[pause]\\x02\\x03res. al vento impara i tipi di\nAngemon. Se aumenti l'abilità\ndi Armormon e la sua forza,[pause]\\x02\\x03impara Digitamamon e accede a\nmisteriose digivoluzioni.[pause]",
+	"Se aumenti l'abilità di Grizzmon\ne ne rinforzi lo spirito, impara\nKyubimon e si collega a Taomon.[pause]\\x02\\x03Se aumenti il livello di Grizzmon e\nla sua saggezza, impara Digitamamon\ne accede a misteriose[pause]\\x02\\x03digivoluzioni. Se aumenti il livello\ndi GrapLeomon e la sua resistenza\nalle macchine, accede alle[pause]\\x02\\x03digivoluzioni delle macchine.[pause]",
+	"Se aumenti il livello di Kyubimon e la\nsua forza, impara Stingmon e si\ncollega a insettoidi come[pause]\\x02\\x03Kabuterimon. Se aumenti il livello di\nKyubimon e la sua forza, impara\nAngewomon e si collega a[pause]\\x02\\x03Rosemon e ad altri tipi di recupero.\nSe aumenti il livello di Taomon e\nla sua resistenza al vento, impara[pause]\\x02\\x03ExVeemon. Se aumenti la sua\nresistenza alle macchine, impara\nMetalMamemon.[pause]",
+	"Se aumenti l'abilità di Angemon e\nla sua forza, oppure se addestri\nDigitamamon e aumenti la sua[pause]\\x02\\x03saggezza, impara Angewomon. Se\naumenti l'abilità di Angewomon,\nimpara Rosemon. Se aumenti[pause]\\x02\\x03l'abilità di Rosemon, impara\nHououmon. Aumentando l'abilità\ndi Holy Angewomon, impara[pause]\\x02\\x03Stingmon se aumenti anche la\nsua resistenza al tuono e Greymon\nse aumenti anche quella al fuoco.[pause]",
+	"All'inizio impara Growlmon. Imparerà\nnell'ordine i tipi di Growlmon man mano\nche ne aumenti l'abilità. Se aumenti[pause]\\x02\\x03la sua resistenza alle tenebre, impara \nSkullGreymon. Avviene qualcosa di\nspeciale se porti al massimo la[pause]\\x02\\x03sua abilità. Se aumenti l'abilità di\nMetalGreymon e potenzi il suo\nspirito, impara Kyubimon.[pause]",
+	"Se all'inizio aumenti la sua\nresistenza, impara Metalmon.\nPoi raggiungerà i tipi di metallo.[pause]\\x02\\x03Se aumenti il livello di Growlmon\ne la sua resistenza al tuono,\nimpara Stingmon e raggiunge[pause]\\x02\\x03gli insettoidi. Impara diverse\ndigivoluzioni da Megagroumon\nse potenzi il suo spirito e[pause]\\x02\\x03la resistenza alle tenebre e\nall'acqua.[pause]",
+]

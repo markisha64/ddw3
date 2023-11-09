@@ -1,9 +1,0 @@
-strings:
-  - ''
-  - |-
-    \x02\x07\x02\x09\x023Pannello acceso!
-    Dovrebbe eliminare
-    il blocco...[pause]
-  - |-
-    \x02\x07\x02\x09\x023Il blocco
-    è sparito?[pause]

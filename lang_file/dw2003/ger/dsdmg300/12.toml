@@ -1,0 +1,11 @@
+strings = [
+	"",
+	"\\x02\\x07Gamemaster\\x02\\x07Neeeiiin![pause]\\x02\\x03Pers. darf\nnt. verlier.[pause]",
+	"\\x02\\x07Lisa\\x02\\x07Ups, wir sind\nwohl zu spät.[pause]",
+	"\\x02\\x07Teddy\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01!\nBin ich froh,\nd. du OK bist![pause]",
+	"\\x02\\x07Nick\\x02\\x07Wir haben Beweise.\nGib auf,\nGamemaster![pause]\\x02\\x03Du bist von der\ninternat. Polizei\nS.A.P. verhaftet![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Was? Lisa und\nNick sind von \nder S.A.P.?[pause]",
+	"\\x02\\x07Nick\\x02\\x07Stimmt, und\nKeith auch.[pause]",
+	"\\x02\\x07Lisa\\x02\\x07Wir konnten es dir\nnicht eher sagen.[pause]\\x02\\x03Aber deinetwegen\nist der Fall \njetzt gelöst![pause]",
+	"\\x02\\x07Lisa\\x02\\x07Wir verhören Game-\nmaster und verwan-\ndeln Kurt zurück![pause]",
+]

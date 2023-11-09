@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023This is weird. \nThere's no one\nhere![pause]",
+	"\\x02\\x07\\x02\\x09\\x023I see! It's the same \nas Asuka's Game \nMaster Room![pause]\\x02\\x03It's a secret door![pause]\\x02\\x03...then what's the\ncode?[pause]\\x02\\x03Asuka was MONSTER\nso maybe it's DIGITAL\nhere...?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023!!\nIt opened by \nitself! Why?[pause]\\x02\\x03.......?!\nMaybe it wants me \nto come in...[pause]\\x02\\x03All right then!\nI'm coming in\nwhoever you are![pause]",
+]

@@ -1,7 +1,0 @@
-strings:
-  - ''
-  - '\x02\x07\x02\x09\x023¡Eh, eso...![pause]'
-  - |-
-    \x02\x07\x02\x09\x023¡Estupendo! Tengo
-    el Digih. de Seriedad![pause]
-  - "\\x02\\x07\\x02\\x09\\x023¡Ahora puedo llamar a \nSubmarimon y \ncruzar el mar![pause]"

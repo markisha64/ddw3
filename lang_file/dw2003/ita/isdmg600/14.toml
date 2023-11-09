@@ -1,0 +1,11 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Ehi,\nsono...?![pause]",
+	"\\x02\\x07Ab. Byakko?\\x02\\x07Eh? Forse si\nè mosso\nqualcosa.[pause]",
+	"\\x02\\x07Ab. di Byakko?\\x02\\x07Vedi qualche\ncosa da\nlì?[pause]",
+	"\\x02\\x07Ab. Byakko?\\x02\\x07Tutto OK\na ovest![pause]",
+	"\\x02\\x07Ab. Byakko?\\x02\\x07Niente a\nsud![pause]",
+	"\\x02\\x07Ab. di Byakko?\\x02\\x07Anche qui\ntutto OK![pause]",
+	"\\x02\\x07Ab. Byakko?\\x02\\x07Era solo\nimmaginazione.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Stanno\nall'erta.[pause]\\x02\\x03Non riuscirò\na entrare in\ncittà per un po'.[pause]",
+]

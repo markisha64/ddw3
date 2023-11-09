@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07Fire Master\\x02\\x07You're strong!\nI'm impressed![pause]\\x02\\x03I'll give this to \nyou. Use it![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Yeah! I got a\nMind Chip![pause]",
+	"\\x02\\x07Fire Master\\x02\\x07Our leader is \nbeyond here!\nHe's strong![pause]",
+]

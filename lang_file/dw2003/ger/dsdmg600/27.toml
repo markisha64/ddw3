@@ -1,0 +1,13 @@
+strings = [
+	"",
+	"\\x02\\x07General\\x02\\x07Dich haben wir neulich\ndoch schon gefangen![pause]\\x02\\x03Was willst du?\nNochmal geschnappt\nwerden?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Niemals![pause]\\x02\\x03Ich will wissen,\nwie ihr auf diesen\nServer gekommen seid![pause]",
+	"\\x02\\x07General\\x02\\x07Heh heh heh...\nIch sag's dir, wenn\ndu's wissen willst.[pause]\\x02\\x03Mit dem Transport-\nDigimon von den\nA.o.A...[pause]\\x02\\x03Wir sind mit Bulbmon\nvon Amaterasu auf\ndiesen Server gekommen![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Bulbmon?![pause]",
+	"\\x02\\x07General\\x02\\x07Ja, ein tolles Digi-\nmon, das zwischen \nServ. wechs. kann![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Verstehe nur\nBahnhof. Was\nbedeutet das?[pause]",
+	"\\x02\\x07General\\x02\\x07Lucky Mouse hat ein\nSchutzfeld eingerichtet![pause]\\x02\\x03Bulbmon brach zusam-\nmen u. warf uns raus![pause]\\x02\\x03Darum haben wir\nschnell Byakko\nCity angegriffen.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Moment mal.\nWo ist denn \ndann Bulbmon?[pause]",
+	"\\x02\\x07General\\x02\\x07Keine Ahnung![pause]\\x02\\x03Ich schätze, es \ngräbt noch ein \npaar riesige Löcher![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Dann sollte ich\nwohl nach Bulb-\nmon suchen...[pause]\\x02\\x03Aber ich glaube,\nich habe Bulbmon\nschon mal gesehen...[pause]",
+]

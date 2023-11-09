@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Caballero Fuego\\x02\\x07¡Un segundo! \nVienes en buena\nhora. Me aburro.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Aburrido? ¡No\ntengo tiempo![pause]",
+	"\\x02\\x07Caballero Fuego\\x02\\x07¿No te aburres?\n¡No me hagas reír![pause]\\x02\\x03Hoy los domadores \nson débiles...[pause]\\x02\\x03¡Pero tú pareces\nbueno, luchemos![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿?[pause]",
+	"\\x02\\x07Caballero Fuego\\x02\\x07¡Te mostraré el\npoder de mi Digimon!\n¡Fueeeego![pause]",
+]

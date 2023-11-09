@@ -1,7 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07\\x02\\x09\\x023Wait!\nI won't let you launch \nthe Juggernaut![pause]"
-  - |-
-    \x02\x07Mech Soldier\x02\x07GGzzz! GGzzz!
-    Intruder Alert!
-    Intruder Alert![pause]\x02\x03Deleting immediately![pause]

@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"Ha ha ha ha ha\nSei solo un piccolo insetto![pause]\\x02\\x03Io, Lord Megamorte, sono oltre\nil portale.[pause]\\x02\\x03Vieni, grande domatore!\nAffronta la mia potenza![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Si, va bene![pause]\\x02\\x03Parli, parli\ne non fai![pause]",
+]

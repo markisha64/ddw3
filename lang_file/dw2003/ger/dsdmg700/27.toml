@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Wofür ist diese\nSteuerung?[pause]\\x02\\x03Ich drücke ein-\nfach mal diese \nTaste![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Wozu die \nwohl gut ist?\nNa ja...[pause]",
+]

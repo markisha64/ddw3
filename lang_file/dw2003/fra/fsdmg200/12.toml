@@ -1,0 +1,11 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Gagné ![pause]",
+	"\\x02\\x07Dresseur Genji\\x02\\x07Pas mal, pour une\npremière fois.[pause]\\x02\\x03Tu as le potentiel\npour devenir\nchampion du monde.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023C'est mon\nrêve ![pause]",
+	"\\x02\\x07Dresseur Genji\\x02\\x07Pour cela, tu dois\napprendre des choses\nsur les Digimons.[pause]\\x02\\x03Va faire un tour au\nDigilabo avant\nde sortir de la ville.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Digilabo !\nOK, j'ai compris.\nMerci ![pause]",
+	"\\x02\\x07Dresseur Genji\\x02\\x07Au fait, as-tu\nune sacoche ?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Pour quoi\nfaire ?[pause]",
+	"\\x02\\x07Dresseur Genji\\x02\\x07Je vois. Tu ferais\nmieux d'aller au\nCroiseur Jaune.[pause]\\x02\\x03On te dira tout\nsur les combats\nde cartes.[pause]\\x02\\x03Et maintenant, va.\nJe compte sur toi,\npetit. Ho ho ho ![pause]",
+]

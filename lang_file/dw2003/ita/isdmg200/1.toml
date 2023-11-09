@@ -1,0 +1,18 @@
+strings = [
+	"",
+	"Digimon Onl.",
+	"Obiettivo",
+	"Guida città",
+	"Guida campo",
+	"Cons. batt.",
+	"Addestramento",
+	"Sch. stato",
+	"Esci",
+	"Digimon Online è gestito su 5\nserver: Amaterasu, Izumo, Asuka,\nYamato e Ikaruga.[pause]\\x02\\x03In ogni server c'è una città \nomonima. Tutte le città\nsono organizzate allo stesso modo.[pause]\\x02\\x03I giocatori non possono visitare\ngli altri server ma i Campioni\npossono combattere fra loro.[pause]",
+	"In Digimon Online, lo scopo è\nbattere 200.000 avversari per diventare \nil Campione del Mondo.[pause]\\x02\\x03Solo i campioni, i vincitori dei\ntornei dei server, combattono nel\nTorneo Mondiale. [pause]\\x02\\x03Per partecipare al Torneo di un\nserver, batti i 4 governatori\ndella città. Buona fortuna![pause]",
+	"Nel server ci sono altre città oltre\nad Asuka. Se ne trovi una, ti\nci puoi fermare.[pause]\\x02\\x03Nelle locande in città puoi salvare\ngrazie a Guardromon e curare\ni Digimon. Visita spesso i negozi.[pause]\\x02\\x03Ogni città ha luoghi unici. Asuka\nospita l'unico laboratorio Digimon,\nvisitato da tutti i domatori.[pause]",
+	"Fuori città dovrai lottare con dei\nDigimon selvaggi. Preparati prima\ndi andartene.[pause]\\x02\\x03Ci sono locande fuori città dove \nil Partner Digimon può essere\ncurato, se si è fatto male.[pause]\\x02\\x03All'inizio evita le aree con nemici\npotenti: addestra il tuo Partner\nDigimon, prima di entrarvi.[pause]",
+	"Viaggi con 3 Partner Digimon, ma\nne puoi usare solo uno alla volta,\nanche se puoi cambiarlo in battaglia.[pause]\\x02\\x03Per controllare i Digimon durante \nil combattimento, i domatori\nusano comandi adatti alla situazione.[pause]\\x02\\x03Esistono anche tecniche speciali che\nusano PM o anche oggetti. Vai al\nlaboratorio per saperne di più.[pause]",
+	"A seconda dell'esperienza (ESP) che\nacquisiscono in battaglia, i\nPartner Digimon passano di livello.[pause]\\x02\\x03Passando di livello, diventano più\nforti. Più forte è l'avversario, più\nesperienza si acquisisce.[pause]\\x02\\x03Le capacità di un Digimon si\nmigliorano con l'allenamento. Per\nsaperne di più vai al laboratorio.[pause]",
+	"In viaggio puoi accedere\nalla schermata di stato via\nsatellite premendo il tasto START.[pause]\\x02\\x03Puoi vedere i tuoi Partner Digimon,\nconsultare la mappa o usare\noggetti.[pause]",
+]

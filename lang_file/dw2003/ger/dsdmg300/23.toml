@@ -1,0 +1,15 @@
+strings = [
+	"",
+	"\\x02\\x07Teddy\\x02\\x07Oi!\nOi, oi, oin!\nOi, ooin, oooink![pause]",
+	"\\x02\\x07Lisa\\x02\\x07!\nOi, oi, oi, oi\nooiink, ooi![pause]",
+	"\\x02\\x07Nick\\x02\\x07Onk!\nOooink, oin, onkk!\nOi, ooinoinkoink![pause]",
+	"\\x02\\x07Keith \\x02\\x07Oin?\nOin, oi, oin??\nOooin, oioink![pause]",
+	"\\x02\\x07\\x02\\x09\\x023TeTeddy?!\nWas?! Lisa, Nick und\nKeith auch...[pause]",
+	"\\x02\\x07Teddy\\x02\\x07Oi, oionk, oink!\nOi, oioooin, oink\noioink, oionnk![pause]\\x02\\x03Oion, ooin, oink!\nOiin, oink ooin!\nOionknoink, oink?[pause]\\x02\\x03Oooinkninon?\nOinok, onnknon?\nOin, oinknkoin??[pause]\\x02\\x03Oin, oinok, oioninoo!\nOin, oooin, ooin\noinonk, oink, ooin![pause]\\x02\\x03Oin oinoink \noioin oino ioni oino\noinoin oinoinokon oink![pause]\\x02\\x03Ooinoin, oinoinoik!\nOoinoino, oinoinok\noioioinonoino oihoinonk![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Teddy, ich\nversteh nicht,\nwas du sagst.[pause]\\x02\\x03Warte einfach\nhier mit Lisa u.\nden anderen![pause]\\x02\\x03Ich werde etwas\nunternehmen![pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK, ich\ngehe! Wartet\neinfach hier![pause]",
+	"\\x02\\x07Teddy\\x02\\x07Oin, oin ooink!\nOion, oioinoink!\nOion, oin, ooooink![pause]",
+	"\\x02\\x07Lisa\\x02\\x07Ooin, oioinoin\noioino oioi oin\noooinkooink![pause]",
+	"\\x02\\x07Nick\\x02\\x07Oio, oioin\noioink, oioink!\nOion, oinno oinoink![pause]",
+	"\\x02\\x07Keith\\x02\\x07Ooionk oink\noionoon oioin\noooinkko![pause]",
+]

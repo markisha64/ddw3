@@ -1,0 +1,18 @@
+strings = [
+	"",
+	"Kotemon Digivolve",
+	"Monmon Digivolve",
+	"Kumamon Digivolve",
+	"Renamon Digivolve",
+	"Patamon Digivolve",
+	"Agumon Digivolve",
+	"Guilmon Digivolve",
+	"Return",
+	"Learn Greymon and Veemon\ntypes. He must learn Stingmon to rise\nabove ExVeemon. When you raise[pause]\\x02\\x03Greymon's skill and build up his Dark\nDefense, he'll learn SkullGreymon. I\ncan't tell you what comes after that.[pause]\\x02\\x03When you raise Kyukimon's skill and\nbuild up his Machine Defense, he'll \nlearn MetalMamemon. Then he'll[pause]\\x02\\x03connect to Machine type digivolutions.[pause]",
+	"Learn ExVeemon in the beginning..\nHe'll learn Machine, Angemon and\nother types after learning Armormon.[pause]\\x02\\x03When building his Machine Defense,\nhe'll learn Machine types. When\nbuilding his Wind Defense, he'll[pause]\\x02\\x03learn Angemon types. When you raise\nArmormon's skill and build up his\nStrength, he'll learn Digitamamon,[pause]\\x02\\x03linking him to mysterious \ntechnique digivolutions.[pause]",
+	"When you raise Grizzmon's skill and\nbuild up his Spirit, he'll learn\nKyubimon. Then he'll connect to[pause]\\x02\\x03Taomon and others from there. When\nyou raise Grizzmon's skill and build\nhis Wisdom, he'll learn Digitamon,[pause]\\x02\\x03linking him to mysterious technique\ndigivolutions. When you raise\nGrapLeomon's skill and build up his[pause]\\x02\\x03Machine Defense, he'll connect to\nMachine type digivolutions.[pause]",
+	"When you raise Kyubimon's skill and\nbuild her Strength, she'll learn\nStingmon. Then she'll connect to[pause]\\x02\\x03Insectoids like Kabuterimon. When\nyou raise Kyubimon's skill and build\nher Spirit, she'll learn Angewomon,[pause]\\x02\\x03linking her to Rosemon and other\nRecovery types. When you raise\nTaomon's skill and build his Wind[pause]\\x02\\x03Defense, he'll learn ExVeemon. If\nyou build his Machine Defense he'll\nlearn MetalMamemon.[pause]",
+	"When you raise Angemon's skill and\nbuild up his Strength or when you\nraise Digitamamon and build up his[pause]\\x02\\x03Wisdom, they'll learn Angewomon.\nWhen you raise Angewomon's skill,\nshe'll learn Rosemon. When you [pause]\\x02\\x03raise Rosemon's skill she'll learn\nHououmon. When you raise Holy\nAngewomon's skill, she'll learn[pause]\\x02\\x03Stingmon if you build her Lightning\nDefense, and Greymon if you\nbuild up her Fire Defense.[pause]",
+	"Learn Growlmon in the beginning.\nHe'll learn Growlmon types in order as\nyou raise his skill. When you build[pause]\\x02\\x03his Dark Defense, he'll learn \nSkullGreymon. Something special\nhappens when you raise his skill to[pause]\\x02\\x03the max. When you raise Metal\nGreymon's skill and build up his Spirit\nhe'll learn Kyubimon.[pause]",
+	"When you build up his Defense\nin the beginning he'll learn\nMetalmon. Then he'll link to Metal[pause]\\x02\\x03types. When you raise Growlmon's\nskill and build up his Lightning\nDefense, he'll learn Stingmon[pause]\\x02\\x03and link to Insectoids. He'll\nlearn various digivolutions from\nMegagroumon by building up his[pause]\\x02\\x03Spirit, Dark Defense and Water\nDefense.[pause]",
+]

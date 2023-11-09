@@ -1,0 +1,16 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Mach dir keine\nSorgen, Teddy. Da-\nrum kämpfen wir ja![pause]\\x02\\x03Wir werden die A.o.A\nschlagen![pause]",
+	"\\x02\\x07Teddy\\x02\\x07Ja, stimmt. Wir \nhaben's fast ge-\nschafft. Los![pause]",
+	"\\x02\\x07Nick\\x02\\x07Was, ihr seid\nnoch hier?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh, Nick![pause]",
+	"\\x02\\x07Teddy\\x02\\x07Nick, wie \nsieht's aus?[pause]",
+	"\\x02\\x07Nick\\x02\\x07Ha ha ha.\nGut sieht's aus![pause]\\x02\\x03Die A.o.A. in der \nStadt haben sich \nschnell ergeben![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Und\ndie Stadt?[pause]",
+	"\\x02\\x07Nick\\x02\\x07Wir haben sie\nzurück![pause]\\x02\\x03Dann fehlt\nnoch das \nAdmin-Center![pause]",
+	"\\x02\\x07\\x02\\x09\\x023...was?![pause]\\x02\\x03Dann haben wir\nkeine Chance,\nsie zu schlagen![pause]",
+	"\\x02\\x07Nick\\x02\\x07Ha ha ha.\nDarum sind wir\nzu dir gekommen.[pause]\\x02\\x03Du musst beim\nAngriff auf das\nCenter helfen![pause]",
+	"\\x02\\x07\\x02\\x09\\x023OK, über-\nlasst es mir!\nIch gewinne![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Teddy, ich\ngehe vor![pause]",
+	"\\x02\\x07Teddy\\x02\\x07Sei vorsichtig!\nIch bin gleich\nhinter dir![pause]",
+]

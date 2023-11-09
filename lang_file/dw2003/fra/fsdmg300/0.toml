@@ -1,0 +1,14 @@
+strings = [
+	"",
+	"\\x02\\x07Teddy\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01 !\nC'est fou !\nVraiment fou ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Quoi ?\nPourquoi es-tu\naussi pressé ?[pause]",
+	"\\x02\\x07Teddy\\x02\\x07Lucky Mouse !\nLucky Mouse\nest ici ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Quoi ?\nLucky Mouse ?[pause]",
+	"\\x02\\x07Teddy\\x02\\x07Tu n'es pas au\ncourant ? C'est\nun hacker génial ![pause]\\x02\\x03Il peut pirater\ntous les programmes ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ah, d'accord.[pause]",
+	"\\x02\\x07Teddy\\x02\\x07Je suis un de ses fans.\nJe dois absolument le\nrencontrer ![pause]",
+	"...ceci est une annonce pour tous\nles joueurs de Digimon Online.[pause]\\x02\\x03Nous devons procéder\nà une intervention d'urgence.[pause]\\x02\\x03Cette opération va vous empêcher de \nretourner dans le Monde Réel, mais\nrien ne vous sera facturé.[pause]\\x02\\x03...Je répète.\nVous pouvez tous jouer gratuitement ![pause]",
+	"\\x02\\x07Teddy\\x02\\x07Hé, vous avez\nentendu ?![pause]\\x02\\x03Je suis sûr que\nLucky Mouse y est\npour quelque chose ![pause]\\x02\\x03Je n'y tiens plus.\nIl faut que j'aille\nle trouver.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hé, hé...\nTeddy ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Il est parti.\n... ...[pause]\\x02\\x03Il est toujours\ncomme ça quand\nil est content.[pause]",
+]

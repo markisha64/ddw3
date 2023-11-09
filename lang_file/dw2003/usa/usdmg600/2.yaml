@@ -1,6 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07\\x02\\x09\\x023Huh? That's weird.\nThere isn't any \nbadge here.[pause]"
-  - '\x02\x07\x02\x09\x023What the?[pause]'
-  - "\\x02\\x07\\x02\\x09\\x023Wha-what's \ngoing on?![pause]"
-  - '\x02\x07\x02\x09\x023Whaaah![pause]'

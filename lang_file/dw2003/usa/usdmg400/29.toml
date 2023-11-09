@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023...Huh?! Who's in\ncharge here? \nWhere is everyone?[pause]",
+	"Beep Beep...\nPOWER ON. \nSYSTEM REBOOT![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Woah, \nwhat?![pause]",
+	"I AM THE OPERATING SYSTEM OF \nDEEPER CREVICE'S GONDOLA.[pause]\\x02\\x03TO TURN ON THE GONDOLA HEADED \nTOWARDS SOUTH SECTOR...[pause]\\x02\\x03ACCOUNT REGISTRATION WITH  \nA BLUE CARD IS REQUIRED.[pause]\\x02\\x03DIGIMON BORN FROM A BLUE CARD \nPOSSESS IT, THEREFORE OBTAIN IT\nFROM THOSE DIGIMON.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023I see...Digimon\nborn from a Blue \nCard...[pause]\\x02\\x03...hmm... I think \nthat's Guilmon...[pause]\\x02\\x03I should go ask\nGuilmon in the \ncity.[pause]",
+]

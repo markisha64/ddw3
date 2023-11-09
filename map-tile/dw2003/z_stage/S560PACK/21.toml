@@ -1,0 +1,28 @@
+img = "/build/tim/dw2003/z_stage/S560PACK/21.tim"
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 0]
+img_offset = [0, 0]
+size = [128, 10]
+
+[[layers.objs]]
+world_offset = [7, 15]
+img_offset = [0, 10]
+size = [120, 21]
+
+[[layers.objs]]
+world_offset = [0, 49]
+img_offset = [0, 31]
+size = [128, 79]
+
+[[layers]]
+objs = []
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 17]
+img_offset = [128, 0]
+size = [78, 84]

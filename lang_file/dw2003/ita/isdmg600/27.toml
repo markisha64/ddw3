@@ -1,0 +1,13 @@
+strings = [
+	"",
+	"\\x02\\x07Generale\\x02\\x07Mi ricordo di te,\nragazzo![pause]\\x02\\x03Cosa vuoi?\nEssere catturato\nuna seconda volta?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023No![pause]\\x02\\x03Voglio sapere come\nsiete entrati nel\nserver![pause]",
+	"\\x02\\x07Generale\\x02\\x07Heh heh heh!\nSe vuoi saperlo\nte lo dirò.[pause]\\x02\\x03Il Digimon da\ntrasporto\ndell'A.o.A...[pause]\\x02\\x03Siamo venuti da\nAmaterasu fin qui\ngrazie a Bulbmon![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Bulbmon?[pause]",
+	"\\x02\\x07Generale\\x02\\x07Si, un grande\nDigimon che si\nsposta fra i server![pause]\\x02\\x03Ma, giunto qui, ha\niniziato ad agire\nin modo strano![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Strano?\nChe vuol dire?[pause]",
+	"\\x02\\x07Generale\\x02\\x07Topo Fortunato eresse\nun campo protettivo![pause]\\x02\\x03Bulbmon si è guastato\ne ci ha buttati fuori![pause]\\x02\\x03Così abbiamo\nattaccato subito\nla città di Byakko.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Un momento.\nOra dov'è\nBulbmon?[pause]",
+	"\\x02\\x07Generale\\x02\\x07Non ho idea![pause]\\x02\\x03Starà scavando\nbuchi dimensionali![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Allora credo\nche dovrò\ncercarlo.[pause]\\x02\\x03Un momento! Credo\ndi averlo già\nvisto prima.[pause]",
+]

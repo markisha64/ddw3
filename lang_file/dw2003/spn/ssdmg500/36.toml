@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023¡Eso es!\n¡Venga!\n¡Luchemos![pause]",
+	"\\x02\\x07Zanbamon\\x02\\x07¡No eres rival\npara mí![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Oh, tienes miedo\nde perder![pause]",
+	"\\x02\\x07Zanbamon\\x02\\x07¡Q..Qué?\n¡No es verdad![pause]\\x02\\x03¡De acuerdo!\n¡Sí lo quieres,\nte lo mostraré![pause]",
+]

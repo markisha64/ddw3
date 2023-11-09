@@ -1,0 +1,11 @@
+strings = [
+	"",
+	"\\x02\\x07Teddy\\x02\\x07Oui  !\nOn a réussi,\n\\x02\\x08\\x01\\x02\\x05\\x01  ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oui, on\nl'a fait ![pause]",
+	"\\x02\\x07Nick\\x02\\x07Hé, bravo\nvous deux  ![pause]\\x02\\x03Je m'en vais\nraconter ça \naux autres  ![pause]",
+	"\\x02\\x07Teddy\\x02\\x07Oh, je suis\ncrevé... [pause]\\x02\\x03Quelle\njournée...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023C'était\ncool, non ?[pause]",
+	"\\x02\\x07Teddy\\x02\\x07Hé, allons dans la\nsalle de login ![pause]\\x02\\x03Je suis sûr que tout\nest redevenu normal ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oui  !\nRetournons dans le \nMonde Réel  ![pause]",
+	"\\x02\\x07Teddy\\x02\\x07Destromon s'est\narrêté, il est\nneutralisé ![pause]\\x02\\x03On a vaincu\nl'A.o.A  ![pause]",
+]

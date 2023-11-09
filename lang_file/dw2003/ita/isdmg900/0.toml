@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Eh?\nIvy e Teddy\nnon ci sono.[pause]\\x02\\x03Uffa! Secondo me\nsono andati avanti\nper conto loro.[pause]",
+	"\\x02\\x07Oper. turist.\\x02\\x07Sei \\x02\\x08\\x01\\x02\\x05\\x01, vero?\nBenvenuto a\nDigimon Online![pause]\\x02\\x03Oggi ti allenerai\nper prepararti\na cominciare.[pause]\\x02\\x03Puoi visitare solo\nil Settore Est e\nCentrale di Amaterasu.[pause]\\x02\\x03Comunque, ci sono\naltre zone di circuito\ne marittime.[pause]\\x02\\x03I dati Digimon\nvengono usati\ncome sai già.[pause]\\x02\\x03Anche le tecniche\ne le digivoluzioni\nsono le stesse.[pause]\\x02\\x03Vorrei eseguire\nun controllo dei dati\nper sicurezza.[pause]\\x02\\x03Prima di uscire,\nricorda di salvare\ncon Guardromon.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ma certo![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Certo!\nSarà uno\nspasso![pause]",
+]

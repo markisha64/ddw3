@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07Zanbamon\\x02\\x07Du kannst doch\nnicht einfach im\nKampf abhauen.[pause]\\x02\\x03Du bist kein \nwürdiger Gegner![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Was redest\ndu da?[pause]\\x02\\x03Wart's ab, ich\ngewinne. Bin\nsofort zurück![pause]",
+	"\\x02\\x07Zanbamon\\x02\\x07Alles nur\nGerede, Kid!\nHa ha ha ha![pause]",
+]

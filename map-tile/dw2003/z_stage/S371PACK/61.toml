@@ -1,0 +1,43 @@
+img = "/build/tim/dw2003/z_stage/S371PACK/61.tim"
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 0]
+img_offset = [0, 0]
+size = [100, 79]
+
+[[layers.objs]]
+world_offset = [0, 81]
+img_offset = [0, 79]
+size = [52, 16]
+
+[[layers.objs]]
+world_offset = [43, 100]
+img_offset = [0, 95]
+size = [4, 2]
+
+[[layers.objs]]
+world_offset = [15, 105]
+img_offset = [0, 97]
+size = [24, 3]
+
+[[layers.objs]]
+world_offset = [3, 109]
+img_offset = [0, 100]
+size = [32, 13]
+
+[[layers.objs]]
+world_offset = [2, 123]
+img_offset = [0, 113]
+size = [28, 5]
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 0]
+img_offset = [100, 0]
+size = [128, 128]
+
+[[layers]]
+objs = []

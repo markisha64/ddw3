@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07Kail\\x02\\x07C'est ennuyeux. On\nne peut pas entrer.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Il doit y\navoir une\nsolution⋯[pause]",
+	"\\x02\\x07Kail\\x02\\x07Bon, on n'a\npas le choix.[pause]\\x02\\x03Séparons-nous\net allons nous\nrenseigner.[pause]\\x02\\x03Va parler aux\nhabitants d'ici.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023D'accord ![pause]\\x02\\x03Je commence à\nm'inquiéter\npour Teddy.[pause]",
+]

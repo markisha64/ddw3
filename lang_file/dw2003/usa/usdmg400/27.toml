@@ -1,0 +1,7 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Sure! \nI'll take you \nanytime![pause]",
+	"\\x02\\x07BK Imperialdramon\\x02\\x07You've got \ncourage!\nI like you![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hey, I got \nstrength as well![pause]",
+	"\\x02\\x07BK Imperialdramon\\x02\\x07You've got lots \nof confidence![pause]\\x02\\x03Great. \nThis'll be a\ngood match![pause]",
+]

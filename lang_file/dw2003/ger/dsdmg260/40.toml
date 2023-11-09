@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Mr. Smith\\x02\\x07Das ist eure Chance![pause]\\x02\\x03Es geht um's Hauptitem![pause]\\x02\\x03Der kühne Helm.\nVon allen bewundert![pause]\\x02\\x03Das Mindestgebot für\nden Agumon-Helm\nliegt bei 7000 BIT![pause]",
+	"\\x02\\x07Händler Abel\\x02\\x078000 BIT![pause]",
+	"\\x02\\x07Chief Milly\\x02\\x078300 BIT![pause]",
+	"\\x02\\x07RPG-Fan Mas.\\x02\\x078600 BIT![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hmm..8700 BIT\n...hmmm...[pause]",
+]

@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07Mr. Smith\\x02\\x07Now's your chance![pause]\\x02\\x03Finally, our main item![pause]\\x02\\x03Ronin Armor, admired by\nall members![pause]\\x02\\x03This Kotemon exclusive \narmor will start at\n16000 BIT![pause]",
+	"\\x02\\x07Dealer Abel\\x02\\x0716900 BIT![pause]",
+	"\\x02\\x07Chief Milly\\x02\\x0717000 BIT![pause]",
+	"\\x02\\x07RPG Fan Masao\\x02\\x0717400 BIT![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hmm. 17500 BIT\n...hmmm...[pause]",
+]

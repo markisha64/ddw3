@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07HiAndromon\\x02\\x07...I respect your \ngreat strength.\nYou pass![pause]\\x02\\x03Numemon is in the \nSewers beyond\nthe Secret Stairs.[pause]\\x02\\x03I've unlocked the\ndoor to the Secret \nStairs.[pause]\\x02\\x03Go ahead, but\nbefore that, take\nthis Rusty Rifle.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Yeah! I got the\nRusty Rifle![pause]\\x02\\x03Well, HiAndromon, \nthanks! We're off![pause]",
+	"\\x02\\x07HiAndromon\\x02\\x07The enemy is \nstronger beyond \nhere. Be careful![pause]",
+]

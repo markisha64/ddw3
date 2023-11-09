@@ -1,7 +1,0 @@
-strings:
-  - ''
-  - '\x02\x07\x02\x09\x023Yeah, I won![pause]'
-  - |-
-    \x02\x07MagnaAngemon\x02\x07Oh, all right.
-    Take it with you.[pause]
-  - "\\x02\\x07\\x02\\x09\\x023Yeah! I got \nthe Patamon \nDDNA![pause]\\x02\\x03Thanks, \nMagnaAngemon![pause]"

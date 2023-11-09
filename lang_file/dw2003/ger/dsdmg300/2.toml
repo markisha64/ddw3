@@ -1,0 +1,10 @@
+strings = [
+	"",
+	"\\x02\\x07Schelmischer Mat\\x02\\x07Ich sagte doch, dass das\nEtemon, das ihr sucht,\nnicht hier ist.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ja, schon klar,\ndenn das Etemon\nbist du.[pause]",
+	"\\x02\\x07Schelmischer Mat\\x02\\x07...Was?![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ich hab dich durch-\nschaut. Du hattest\nden Etemon-Anzug an![pause]",
+	"\\x02\\x07Schelmischer Mat\\x02\\x07.........[pause]\\x02\\x03Das weiβt du?\nSo ein Mist![pause]\\x02\\x03Aber sag es bitte\nniemandem, OK?[pause]\\x02\\x03Dafür bekommst \ndu das von mir![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Spitze! Die \nAgumon-Anzüge.[pause]",
+	"\\x02\\x07Schelmischer Mat\\x02\\x07Das ist ein Ge-\nheimnis zwischen\ndir und mir, OK?[pause]",
+]

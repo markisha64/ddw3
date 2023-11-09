@@ -8,8 +8,8 @@ use std::path::PathBuf;
 #[derive(clap::Parser)]
 #[clap(author, version, about)]
 pub struct Args {
-	/// Input yaml
-	pub input_yaml: PathBuf,
+	/// Input toml
+	pub input_toml: PathBuf,
 
 	/// Output
 	#[clap(long = "output", short = 'o')]

@@ -1,0 +1,12 @@
+strings = [
+	"",
+	"\\x02\\x07Kail\\x02\\x07Gamemaster!\nVerstecken![pause]",
+	"\\x02\\x07Gamemaster\\x02\\x07Um Himmels wil-\nlen, was macht \nihr denn hier?![pause]\\x02\\x03Wir können nicht\nweitermachen![pause]",
+	"\\x02\\x07???\\x02\\x07...Verzeihung.\nWir intensivieren \nunsere Suche.[pause]",
+	"\\x02\\x07DO-Wache\\x02\\x07Wir werden ihn finden.\nEs ist nur eine Frage\nder Zeit.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hmmm, worüber\nreden die wohl?[pause]",
+	"\\x02\\x07DO-Wache\\x02\\x07Hey, warum laufen\nhier Digimon herum?[pause]",
+	"\\x02\\x07DO-Wache\\x02\\x07Sieht ver-\ndächtig aus.\nFang ihn![pause]",
+	"\\x02\\x07DO-Wache\\x02\\x07Dich kriegen\nwir![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Sie haben\nuns gefunden![pause]",
+]

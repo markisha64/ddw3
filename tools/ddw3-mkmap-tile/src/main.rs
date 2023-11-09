@@ -14,7 +14,7 @@ use {
 	clap::Parser,
 	std::{
 		fs,
-		io::{self, BufReader, BufWriter, Seek},
+		io::{self, BufWriter, Seek},
 		path::PathBuf,
 	},
 };
@@ -29,9 +29,10 @@ fn main() -> Result<(), anyhow::Error> {
 
 	// Read the input file
 	let input_parent = args.input.parent().context("Unable to get input file parent")?;
-	let input = fs::File::open(&args.input).context("Unable to open input file")?;
-	let input = BufReader::new(input);
-	let input = serde_yaml::from_reader::<_, Input>(input).context("Unable to read input file")?;
+	let input = {
+		let input = fs::read_to_string(&args.input).context("Unable to read input file")?;
+		toml::from_str::<Input>(&input).context("Unable to read input file")?
+	};
 
 	// Create the output file
 	let output = fs::File::create(&args.output).context("Unable to open output file")?;

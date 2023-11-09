@@ -1,0 +1,10 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Gewonnen!\nBin der\nGröβte![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Huch?! Da liegt\nwas auf dem\nBoden.[pause]\\x02\\x03Es ist eine\nVeemon-Waffe![pause]\\x02\\x03Yeah! Der\nDramon-Guard![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh, warte!\nDafür hab ich\nkeine Zeit![pause]\\x02\\x03Ich muss den\nJuggernaut-Start\nverhindern![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Hmmm, welche\nTaste?\nEs ist diese![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Huch? Nichts pas-\nsiert? Aber wenn die\nA.o.A. hier wären.[pause]\\x02\\x03Das sollte den\nJuggernaut-Start\nverhindern![pause]",
+	"NACHRICHT FÜR MAGASTA-MANNSCH.\nSSS CLASS KRIEGSSCHIFF JUGGER-\nNAUT HAT FAST VOLLE ENERGIE...[pause]\\x02\\x03MANNSCHAFT DER BASIS MUSS SICH \nIN SICHERHEIT BRINGEN...WIEDER-\nHOLE...SSS  C...KRIEG...NAUT.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023...wawas?![pause]\\x02\\x03Warum stoppt\nes nicht?![pause]\\x02\\x03...Das war\neine Falle![pause]\\x02\\x03...Dann sind die\nA.o.A. irgendwo![pause]",
+]

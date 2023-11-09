@@ -1,8 +1,0 @@
-strings:
-  - ''
-  - "\\x02\\x07\\x02\\x09\\x023Woah, what is \nthis room!?[pause]"
-  - "\\x02\\x07\\x02\\x09\\x023Hey,\nwho's that \nover there?[pause]"
-  - "\\x02\\x07\\x02\\x09\\x023It's the Game \nMaster! I'm\ngonna get her![pause]"
-  - "\\x02\\x07Guard A\\x02\\x07You're... that \nkid![pause]"
-  - "\\x02\\x07Guard B\\x02\\x07You're not \ngetting through\nhere![pause]"
-  - "\\x02\\x07Guard C\\x02\\x07Just give up and \ncome with us![pause]"

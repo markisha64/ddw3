@@ -1,0 +1,5 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Cos'è questo\npannello?[pause]\\x02\\x03C'è un pulsante\nqui. Lo premerò![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Chissà a\ncosa\nserviva?[pause]",
+]

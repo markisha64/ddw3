@@ -1,0 +1,6 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Ich hab\nArmormon\nbesiegt![pause]",
+	"\\x02\\x07Armormon\\x02\\x07Wie konntest du...[pause]\\x02\\x03Aber du hast ge-\nwonnen. Hier nimm sie[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Toll! Ich hab\ndie Monmon-\nDDNA![pause]\\x02\\x03Danke,\nArmormon![pause]",
+]

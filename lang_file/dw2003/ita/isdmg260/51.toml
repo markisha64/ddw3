@@ -1,0 +1,4 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Costa troppo,\ne c'è altra\nroba che voglio.[pause]\\x02\\x03Tornerò quando\navrò i soldi.[pause]",
+]

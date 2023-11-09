@@ -1,0 +1,33 @@
+width = 7
+height = 4
+entries = [
+	"/build/rlen/dw2003/z_stage/S506PACK/0.bin",
+	"/build/rlen/dw2003/z_stage/S506PACK/1.bin",
+	"/build/rlen/dw2003/z_stage/S506PACK/2.bin",
+	"/build/rlen/dw2003/z_stage/S506PACK/3.bin",
+	"/build/rlen/dw2003/z_stage/S506PACK/4.bin",
+	"/build/rlen/dw2003/z_stage/S506PACK/5.bin",
+	"/build/map-tile/dw2003/z_stage/S506PACK/6.bin",
+	"/build/rlen/dw2003/z_stage/S506PACK/7.bin",
+	"/build/rlen/dw2003/z_stage/S506PACK/8.bin",
+	"/build/rlen/dw2003/z_stage/S506PACK/9.bin",
+	"/build/rlen/dw2003/z_stage/S506PACK/10.bin",
+	"/build/rlen/dw2003/z_stage/S506PACK/11.bin",
+	"/build/rlen/dw2003/z_stage/S506PACK/12.bin",
+	"/build/map-tile/dw2003/z_stage/S506PACK/13.bin",
+	"/build/map-tile/dw2003/z_stage/S506PACK/14.bin",
+	"/build/map-tile/dw2003/z_stage/S506PACK/15.bin",
+	"/build/map-tile/dw2003/z_stage/S506PACK/16.bin",
+	"/build/rlen/dw2003/z_stage/S506PACK/17.bin",
+	"/build/rlen/dw2003/z_stage/S506PACK/18.bin",
+	"/build/rlen/dw2003/z_stage/S506PACK/19.bin",
+	"/build/map-tile/dw2003/z_stage/S506PACK/20.bin",
+	"/build/map-tile/dw2003/z_stage/S506PACK/21.bin",
+	"/build/map-tile/dw2003/z_stage/S506PACK/22.bin",
+	"/build/map-tile/dw2003/z_stage/S506PACK/23.bin",
+	"/build/map-tile/dw2003/z_stage/S506PACK/24.bin",
+	"/build/map-tile/dw2003/z_stage/S506PACK/25.bin",
+	"/build/map-tile/dw2003/z_stage/S506PACK/26.bin",
+	"/build/map-tile/dw2003/z_stage/S506PACK/27.bin",
+]
+extra_padding = 2048

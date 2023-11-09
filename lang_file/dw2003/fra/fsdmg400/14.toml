@@ -1,0 +1,16 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Sepikmon,\nJ'ai trouvé\nton masque.[pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07Ouah !\nMerci ![pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07......[pause]\\x02\\x03...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Qu'est-ce qu'il\ny a ? Mets-le\net sors.[pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07Euh... Tu\npeux te\nretourner ?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Oh... Ah...\nD'accord.[pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07Ah, enfin ! Je me\nsens bien mieux\ncomme ça ![pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07Tiens, je te\ndonne ça ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023C'est quoi\ncette Herbe\nFétide ?[pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07Zanbamon déteste \ncette odeur ![pause]\\x02\\x03Il va s'enfuir à\ntoutes jambes ![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Vraiment ?\nMerci, tu me\nsauves la vie ![pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07Merci à toi\naussi. Bonne\nchance ![pause]",
+	"\\x02\\x07Sepikmon\\x02\\x07Ce sac en\npapier n'a\npas suffi ![pause]",
+]

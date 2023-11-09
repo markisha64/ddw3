@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Ehi, Etemon, ho\nuna cosa da\nchiederti.[pause]",
+	"\\x02\\x07Etemon\\x02\\x07Si, cosa?\nTi dirò tutto ciò che\nso![pause]",
+	"\\x02\\x07\\x02\\x09\\x023La maschera di\nSepikmon ce l'hai\ntu?[pause]",
+	"\\x02\\x07Etemon\\x02\\x07I...io? Non so\ndi cosa\nparli![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Un momento![pause]\\x02\\x03Mi nasconde\nqualcosa![pause]",
+]

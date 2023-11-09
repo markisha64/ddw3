@@ -1,0 +1,37 @@
+img = "/build/tim/dw2003/z_stage/S481PACK/62.tim"
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 0]
+img_offset = [0, 0]
+size = [128, 128]
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 45]
+img_offset = [128, 0]
+size = [48, 59]
+
+[[layers.objs]]
+world_offset = [1, 106]
+img_offset = [128, 59]
+size = [2, 3]
+
+[[layers.objs]]
+world_offset = [0, 110]
+img_offset = [128, 62]
+size = [8, 18]
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [80, 0]
+img_offset = [128, 80]
+size = [12, 6]
+
+[[layers.objs]]
+world_offset = [5, 11]
+img_offset = [128, 86]
+size = [16, 10]

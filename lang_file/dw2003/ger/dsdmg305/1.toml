@@ -1,0 +1,14 @@
+strings = [
+	"",
+	"\\x02\\x07Gamemaster\\x02\\x07...was macht ihr\nbeiden denn hier?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Äh...äh... wir \nsuchen unseren\nFreund Teddy.[pause]",
+	"\\x02\\x07Gamemaster\\x02\\x07Tut mir leid, wenn\nich euch erschreckte.[pause]\\x02\\x03Ich sorge m. auch um\ne. Freund. L. Mouse \nhat ihn wohl als Geisel.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Lucky\nMouse?![pause]",
+	"\\x02\\x07Gamemaster\\x02\\x07Er ist schrecklich.\nEr versucht, Digimon-\nOnline zu zerstören![pause]\\x02\\x03Er ist die Ursache für\ndie Probleme, die wir\nmit dem System haben![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Aber alle haben so\nviel Spaβ mit Digimon-\nOnline...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Ich kann's nicht \nglauben, L. Mou.![pause]",
+	"\\x02\\x07Kail\\x02\\x07...[pause]",
+	"\\x02\\x07Gamemaster\\x02\\x07Jeder Mitarbeiter \nsucht momentan nach \nLucky Mouse.[pause]\\x02\\x03Da fällt mir ein...\nKönnt ihr uns helfen?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Natürlich!\nDas machen wir![pause]",
+	"\\x02\\x07Gamemaster\\x02\\x07Danke. Ich\nverlasse mich\nauf euch.[pause]\\x02\\x03Wir hörten, \ner wolle\nz. Westsek.![pause]",
+]

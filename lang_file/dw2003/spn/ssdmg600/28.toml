@@ -1,0 +1,13 @@
+strings = [
+	"",
+	"\\x02\\x07Líder Chuck\\x02\\x07Me he enterado \npor Kenny.[pause]\\x02\\x03¡Buena suerte \ncontra\nla A.o.A![pause]",
+	"\\x02\\x07\\x02\\x09\\x023Sí, buena \nsuerte también\na vosotros.[pause]",
+	"\\x02\\x07Líder Chuck\\x02\\x07Quiero ayudarte\ny luchar juntos.\nPero...[pause]\\x02\\x03Todo lo que podemos\nhacer es cuidar el\nfuerte.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Yo estoy bien.\n¡No te preocupes\npor mí![pause]",
+	"\\x02\\x07Líder Chuck\\x02\\x07Siento que vinieras\nhasta aquí.[pause]\\x02\\x03Si recuperamos Ciudad\nAmaterasu, seguro\nque podemos ayudarte.[pause]\\x02\\x03Pero no pensé que\nreprogramaran a \nKnightmon.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Knightmon...\n¿Algún consejo\npara vencerle?[pause]",
+	"\\x02\\x07Líder Chuck\\x02\\x07Una vez en movimiento,\nel modo de parar a \nKnightmon es...[pause]\\x02\\x03Necesitas los cuatro\nCódigos de los \nLíderes de Ciudad.[pause]\\x02\\x03Pero han capturado\na todos los Líderes,\nasí que no hay manera.[pause]\\x02\\x03Los Jefes de Ciudad de\nla A.o.A deben \nhaberlos capturado.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023...Ya veo.\n¡La A.o.A![pause]\\x02\\x03¡Nunca les perdonaré\nque utilicen a los\nDigimon para el mal![pause]",
+	"\\x02\\x07Líder Chuck\\x02\\x07¡Claro, aún no\nhemos abandonado![pause]\\x02\\x03Si hay oportunidad,\nnos levantaremos.\n¡Espera ese momento![pause]\\x02\\x03Bueno...\n¡Buena suerte![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¡Sí, señor![pause]",
+]

@@ -1,0 +1,15 @@
+strings = [
+	"",
+	"\\x02\\x07Lisa\\x02\\x07¡Uauu! \\x02\\x08\\x01\\x02\\x05\\x01.\n¡Eres muy bueno![pause]\\x02\\x03¡Estoy impactada![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Eh? Oh,\num, sí...\nGracias...[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Bueno...\n¿Qué haces \naquí, Lisa?[pause]",
+	"\\x02\\x07Lisa\\x02\\x07Eso digo yo.[pause]\\x02\\x03¿Qué haces\ntú aquí?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Yo?\nUm, yo...[pause]",
+	"Los dos estáis\naquí para hablar\nconmigo, ¿no?[pause]",
+	"\\x02\\x07Lisa\\x02\\x07¡Aahhh!\n¡Nu.Nu.\nNumemon![pause]",
+	"\\x02\\x07Numemon\\x02\\x07Tranquila, \nLisa soy yo.[pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Qué?\n¿Numemon es\nhumano?[pause]",
+	"\\x02\\x07Lisa\\x02\\x07Ah, ya veo.[pause]\\x02\\x03¡No me asustes\nasí, Ratón\nSuerte![pause]",
+	"\\x02\\x07\\x02\\x09\\x023¿Qué? ¿Él es\nRatón Suerte?[pause]\\x02\\x03Entonces, ¿quién es\nNumemon?[pause]",
+	"\\x02\\x07Ratón Suerte\\x02\\x07Um, Lisa es una cosa, \npero a ti te dije que \nno vinieras.[pause]\\x02\\x03Bueno, es peligroso\nestar aquí. ¡Vamos \na mi escondite![pause]",
+]

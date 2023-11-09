@@ -1,0 +1,8 @@
+strings = [
+	"",
+	"\\x02\\x07\\x02\\x09\\x023Hé, là ! Arrêtez\nle lancement tout\nde suite ![pause]\\x02\\x03Je ne vais pas\nvous laisser faire\nça ![pause]",
+	"\\x02\\x07Garde Royal\\x02\\x07Ha ha ha ! Ce\ngamin nous\ndit d'arrêter ![pause]\\x02\\x03Qu'est-ce que\ntu crois ?[pause]",
+	"\\x02\\x07\\x02\\x09\\x023Je vous\nforcerai à\narrêter ![pause]",
+	"\\x02\\x07Garde Royal\\x02\\x07Ha ha ha !\nTu es\nsérieux ?[pause]\\x02\\x03Essaie un peu\npour voir ![pause]",
+	"\\x02\\x07Garde Royal\\x02\\x07Système prêt... \nC'est parti ![pause]",
+]
