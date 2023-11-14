@@ -21,7 +21,6 @@ alias:
   # Other tools
   generate_psx_iso_deps   : tools/generate_psx_iso_deps.py
   generate_compare_deps   : tools/generate_compare_deps.py
-  mkpsexe_from_toml_deps  : tools/mkpsexe_from_toml_deps.py
   mkraw_exe_from_toml     : tools/mkraw_exe_from_toml.py
   mkraw_exe_from_toml_deps: tools/mkraw_exe_from_toml_deps.py
   ld_from_toml            : tools/ld_from_toml.py
@@ -34,13 +33,14 @@ alias:
   mkrlen_from_toml_deps   : tools/mkrlen_from_toml_deps.py
 
   # Cargo tools
-  mkpsexe    : $(build_rust_tool_dir)/mkpsexe
-  mklang_file: $(build_rust_tool_dir)/mklang-file
-  mkpack     : $(build_rust_tool_dir)/mkpack
-  mktim      : $(build_rust_tool_dir)/mktim
-  mkmap      : $(build_rust_tool_dir)/mkmap
-  mkmap_tile : $(build_rust_tool_dir)/mkmap-tile
-  mkrlen     : $(build_rust_tool_dir)/mkrlen
+  mkpsexe     : $(build_rust_tool_dir)/mkpsexe
+  mkpsexe_deps: $(build_rust_tool_dir)/mkpsexe-deps
+  mklang_file : $(build_rust_tool_dir)/mklang-file
+  mkpack      : $(build_rust_tool_dir)/mkpack
+  mktim       : $(build_rust_tool_dir)/mktim
+  mkmap       : $(build_rust_tool_dir)/mkmap
+  mkmap_tile  : $(build_rust_tool_dir)/mkmap-tile
+  mkrlen      : $(build_rust_tool_dir)/mkrlen
 
   # Directories
   build_dir  : build
@@ -278,16 +278,13 @@ rules:
     out: [$(psexe_deps)]
     deps:
       - $(psexe_toml)
-      - $(mkpsexe_from_toml_deps)
+      - $(mkpsexe_deps)
       - static: $(psexe_deps::dir_name)/
     exec:
-      - - $(python3)
-        - $(mkpsexe_from_toml_deps)
+      - - $(mkpsexe_deps)
         - $(psexe_toml)
-        - -o
-        - $(psexe)
-        - --deps
-        - $(psexe_deps)
+        - --output=$(psexe)
+        - --output-deps=$(psexe_deps)
 
   # Raw exe
   raw_exe:

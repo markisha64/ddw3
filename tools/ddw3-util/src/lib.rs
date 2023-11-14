@@ -3,12 +3,13 @@
 //! Most here might be moved to external creates if deemed worth it
 
 // Features
-#![feature(slice_index_methods, seek_stream_len)]
+#![feature(slice_index_methods, seek_stream_len, lint_reasons)]
 
 // Modules
 pub mod alphabet;
 pub mod ascii_str_arr;
 pub mod bcd;
+pub mod deps_file;
 pub mod io_slice;
 pub mod write_take;
 
@@ -17,6 +18,7 @@ pub use {
 	alphabet::{Alphabet, StrAlphabet, StrArrAlphabet, StringAlphabet},
 	ascii_str_arr::AsciiStrArr,
 	bcd::BcdU8,
+	deps_file::DepsFileWriter,
 	io_slice::IoSlice,
 	write_take::{WriteTake, WriteTakeExt},
 };
