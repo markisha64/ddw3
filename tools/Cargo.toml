@@ -13,31 +13,25 @@ members = [
 
 	# Psexe
 	"ddw3-psexe",
-	"ddw3-mkpsexe",
+	"ddw3-psexe-tools",
 
 	# Lang file
 	"ddw3-lang-file",
-	"ddw3-unlang-file",
-	"ddw3-mklang-file",
+	"ddw3-lang-file-tools",
 
 	# Tim
 	"ddw3-tim",
-	"ddw3-untim",
-	"ddw3-mktim",
+	"ddw3-tim-tools",
 
 	# Pack
-	"ddw3-unpack",
-	"ddw3-mkpack",
+	"ddw3-pack-tools",
 
 	# Map
-	"ddw3-unmap",
-	"ddw3-mkmap",
-	"ddw3-unmap-tile",
-	"ddw3-mkmap-tile",
+	"ddw3-map-tools",
+	"ddw3-map-tile-tools",
 
 	# RLen
-	"ddw3-unrlen",
-	"ddw3-mkrlen",
+	"ddw3-rlen-tools",
 
 	# Sound
 	"ddw3-vab-sep",
@@ -83,24 +77,18 @@ ddw3-bytes = { path = "ddw3-bytes" }
 ddw3-cdrom-xa = { path = "ddw3-cdrom-xa" }
 ddw3-iso9660 = { path = "ddw3-iso9660" }
 ddw3-lang-file = { path = "ddw3-lang-file" }
+ddw3-lang-file-tools = { path = "ddw3-lang-file-tools" }
 ddw3-logger = { path = "ddw3-logger" }
-ddw3-mklang-file = { path = "ddw3-mklang-file" }
-ddw3-mkmap = { path = "ddw3-mkmap" }
-ddw3-mkmap-tile = { path = "ddw3-mkmap-tile" }
-ddw3-mkpack = { path = "ddw3-mkpack" }
-ddw3-mkpsexe = { path = "ddw3-mkpsexe" }
-ddw3-mkrlen = { path = "ddw3-mkrlen" }
-ddw3-mktim = { path = "ddw3-untim" }
+ddw3-map-tile-tools = { path = "ddw3-map-tile-tools" }
+ddw3-map-tools = { path = "ddw3-map-tools" }
+ddw3-pack-tools = { path = "ddw3-pack-tools" }
 ddw3-psexe = { path = "ddw3-psexe" }
+ddw3-psexe-tools = { path = "ddw3-psexe-tools" }
+ddw3-rlen-tools = { path = "ddw3-rlen-tools" }
 ddw3-tim = { path = "ddw3-tim" }
+ddw3-tim-tools = { path = "ddw3-tim-tools" }
 ddw3-uncd = { path = "ddw3-uncd" }
 ddw3-uniso = { path = "ddw3-uniso" }
-ddw3-unlang-file = { path = "ddw3-unlang-file" }
-ddw3-unmap = { path = "ddw3-unmap" }
-ddw3-unmap-tile = { path = "ddw3-unmap-tile" }
-ddw3-unpack = { path = "ddw3-unpack" }
-ddw3-unrlen = { path = "ddw3-unrlen" }
-ddw3-untim = { path = "ddw3-untim" }
 ddw3-unvab-sep = { path = "ddw3-unvab-sep" }
 ddw3-util = { path = "ddw3-util" }
 ddw3-vab-sep = { path = "ddw3-vab-sep" }

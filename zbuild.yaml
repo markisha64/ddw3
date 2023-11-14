@@ -35,13 +35,13 @@ alias:
   mkrlen_from_toml_deps   : tools/mkrlen_from_toml_deps.py
 
   # Cargo tools
-  mkpsexe    : $(build_rust_tool_dir)/ddw3-mkpsexe
-  mklang_file: $(build_rust_tool_dir)/ddw3-mklang-file
-  mkpack     : $(build_rust_tool_dir)/ddw3-mkpack
-  mktim      : $(build_rust_tool_dir)/ddw3-mktim
-  mkmap      : $(build_rust_tool_dir)/ddw3-mkmap
-  mkmap_tile : $(build_rust_tool_dir)/ddw3-mkmap-tile
-  mkrlen     : $(build_rust_tool_dir)/ddw3-mkrlen
+  mkpsexe    : $(build_rust_tool_dir)/mkpsexe
+  mklang_file: $(build_rust_tool_dir)/mklang-file
+  mkpack     : $(build_rust_tool_dir)/mkpack
+  mktim      : $(build_rust_tool_dir)/mktim
+  mkmap      : $(build_rust_tool_dir)/mkmap
+  mkmap_tile : $(build_rust_tool_dir)/mkmap-tile
+  mkrlen     : $(build_rust_tool_dir)/mkrlen
 
   # Directories
   build_dir  : build
@@ -243,7 +243,7 @@ rules:
           - $(cargo)
           - build
           - --release
-          - --package=^(name)
+          - --bin=^(name)
           - -Z=unstable-options
           - --out-dir=../$(build_rust_tool_dir)
       - [$(cp), tools/target/release/^(name).d, $(rust_tool_deps)]

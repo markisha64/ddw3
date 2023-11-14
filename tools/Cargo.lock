@@ -399,16 +399,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "ddw3-logger"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "tracing",
- "tracing-subscriber",
-]
-
-[[package]]
-name = "ddw3-mklang-file"
+name = "ddw3-lang-file-tools"
 version = "0.1.0"
 dependencies = [
  "anyhow",
@@ -424,7 +415,16 @@ dependencies = [
 ]
 
 [[package]]
-name = "ddw3-mkmap"
+name = "ddw3-logger"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "tracing",
+ "tracing-subscriber",
+]
+
+[[package]]
+name = "ddw3-map-tile-tools"
 version = "0.1.0"
 dependencies = [
  "anyhow",
@@ -440,7 +440,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "ddw3-mkmap-tile"
+name = "ddw3-map-tools"
 version = "0.1.0"
 dependencies = [
  "anyhow",
@@ -456,7 +456,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "ddw3-mkpack"
+name = "ddw3-pack-tools"
 version = "0.1.0"
 dependencies = [
  "anyhow",
@@ -467,57 +467,6 @@ dependencies = [
  "itertools",
  "pathdiff",
  "serde",
- "toml",
- "tracing",
-]
-
-[[package]]
-name = "ddw3-mkpsexe"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "byteorder",
- "clap",
- "ddw3-bytes",
- "ddw3-logger",
- "ddw3-psexe",
- "goblin",
- "tracing",
-]
-
-[[package]]
-name = "ddw3-mkrlen"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "byteorder",
- "clap",
- "ddw3-logger",
- "ddw3-util",
- "hex-literal",
- "itertools",
- "pathdiff",
- "serde",
- "toml",
- "tracing",
-]
-
-[[package]]
-name = "ddw3-mktim"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "byteorder",
- "clap",
- "ddw3-bytes",
- "ddw3-logger",
- "ddw3-tim",
- "ddw3-util",
- "image",
- "itertools",
- "pathdiff",
- "serde",
- "thiserror",
  "toml",
  "tracing",
 ]
@@ -534,6 +483,37 @@ dependencies = [
 ]
 
 [[package]]
+name = "ddw3-psexe-tools"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "byteorder",
+ "clap",
+ "ddw3-bytes",
+ "ddw3-logger",
+ "ddw3-psexe",
+ "goblin",
+ "tracing",
+]
+
+[[package]]
+name = "ddw3-rlen-tools"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "byteorder",
+ "clap",
+ "ddw3-logger",
+ "ddw3-util",
+ "hex-literal",
+ "itertools",
+ "pathdiff",
+ "serde",
+ "toml",
+ "tracing",
+]
+
+[[package]]
 name = "ddw3-tim"
 version = "0.1.0"
 dependencies = [
@@ -545,6 +525,26 @@ dependencies = [
  "pathdiff",
  "serde",
  "thiserror",
+ "tracing",
+]
+
+[[package]]
+name = "ddw3-tim-tools"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "byteorder",
+ "clap",
+ "ddw3-bytes",
+ "ddw3-logger",
+ "ddw3-tim",
+ "ddw3-util",
+ "image",
+ "itertools",
+ "pathdiff",
+ "serde",
+ "thiserror",
+ "toml",
  "tracing",
 ]
 
@@ -577,101 +577,6 @@ dependencies = [
  "toml",
  "tracing",
  "xml-rs",
-]
-
-[[package]]
-name = "ddw3-unlang-file"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "byteorder",
- "clap",
- "ddw3-lang-file",
- "ddw3-logger",
- "ddw3-util",
- "either",
- "itertools",
- "toml",
- "tracing",
-]
-
-[[package]]
-name = "ddw3-unmap"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "byteorder",
- "clap",
- "ddw3-logger",
- "itertools",
- "pathdiff",
- "serde",
- "toml",
- "tracing",
-]
-
-[[package]]
-name = "ddw3-unmap-tile"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "byteorder",
- "clap",
- "ddw3-logger",
- "itertools",
- "pathdiff",
- "serde",
- "toml",
- "tracing",
-]
-
-[[package]]
-name = "ddw3-unpack"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "byteorder",
- "clap",
- "ddw3-logger",
- "itertools",
- "pathdiff",
- "serde",
- "toml",
- "tracing",
-]
-
-[[package]]
-name = "ddw3-unrlen"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "byteorder",
- "clap",
- "ddw3-logger",
- "itertools",
- "pathdiff",
- "serde",
- "toml",
- "tracing",
-]
-
-[[package]]
-name = "ddw3-untim"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "byteorder",
- "clap",
- "ddw3-bytes",
- "ddw3-logger",
- "ddw3-tim",
- "image",
- "itertools",
- "pathdiff",
- "serde",
- "thiserror",
- "toml",
- "tracing",
 ]
 
 [[package]]
