@@ -22,8 +22,10 @@ use {
 	anyhow::Context,
 	byteorder::{LittleEndian, WriteBytesExt},
 	clap::Parser,
+	ddw3_rlen_tools::Config,
 	hex_literal::hex,
 	std::{
+		borrow::Cow,
 		fs,
 		io::{self, BufWriter, Seek, Write},
 	},
@@ -37,31 +39,39 @@ fn main() -> Result<(), anyhow::Error> {
 	let args = Args::parse();
 	tracing::debug!(?args, "Arguments");
 
+	// Read the config
+	let config_parent = args.config_file.parent().context("Unable to get config file parent")?;
+	let config = {
+		let config = fs::read_to_string(&args.config_file).context("Unable to read config file")?;
+		toml::from_str::<Config>(&config).context("Unable to read config file")?
+	};
+
 	// Parse auto-compatibility
-	let explicit_compatibility = args.compatibility.is_some();
 	let compatibility = match args.auto_compatibility {
-		true => {
-			anyhow::ensure!(
-				args.compatibility.is_none(),
-				"Cannot specify `auto-compatibility` and `compatibility`"
-			);
+		true => match &config.compatibility {
+			Some(compatibility) => {
+				tracing::debug!(?compatibility, "Using explicit compatibility instead of auto-detecting");
+				Some(Cow::Borrowed(compatibility))
+			},
 
-			try {
-				let map = args.input.parent()?.file_name()?.to_str()?.strip_suffix("PACK")?;
-				let tile = args.input.file_prefix()?.to_str()?;
-				let compatibility = format!("{map}.{tile}");
+			None =>
+				try {
+					let map = config.src.parent()?.file_name()?.to_str()?.strip_suffix("PACK")?;
+					let tile = config.src.file_prefix()?.to_str()?;
+					let compatibility = format!("{map}.{tile}");
 
-				tracing::info!(?compatibility, "Found auto-compatibility");
-				compatibility
-			}
+					tracing::info!(?compatibility, "Found auto-compatibility");
+					Cow::Owned(compatibility)
+				},
 		},
-		false => args.compatibility,
+		false => config.compatibility.as_ref().map(Cow::Borrowed),
 	};
 
 	// Read the input file
 	// TODO: Stream the input instead of reading it all?
-	let input = fs::read(&args.input).context("Unable to read input file")?;
-	let input_len = input.len();
+	let src_path = ddw3_util::resolve_input_path(&config.src, config_parent);
+	let src = fs::read(src_path).context("Unable to read input file")?;
+	let src_len = src.len();
 
 	// Create the output file
 	let output = fs::File::create(&args.output).context("Unable to open output file")?;
@@ -72,7 +82,7 @@ fn main() -> Result<(), anyhow::Error> {
 		.seek(io::SeekFrom::Start(8))
 		.context("Unable to seek past header")?;
 
-	let mut input = &*input;
+	let mut input = &*src;
 	loop {
 		// If we're running in compatibility mode, manually output some parts
 		if let Some(compatibility) = &compatibility {
@@ -116,7 +126,7 @@ fn main() -> Result<(), anyhow::Error> {
 
 				_ => {
 					// If the compatibility was explicitly selected by the user, warn
-					if explicit_compatibility {
+					if config.compatibility.is_some() {
 						tracing::debug!(?compatibility, "Ignoring unknown compatibility");
 					}
 					None
@@ -170,9 +180,12 @@ fn main() -> Result<(), anyhow::Error> {
 			false => {
 				let len = match input[1..].array_windows().position(|&[b0, b1]| b0 == b1) {
 					Some(idx) => idx + 1,
-					None => match compatibility.as_deref() {
-						Some("S641.42") => input.len() - 1,
-						_ => input.len(),
+					None => match &compatibility {
+						Some(compatibility) => match compatibility.as_str() {
+							"S641.42" => input.len() - 1,
+							_ => input.len(),
+						},
+						None => input.len(),
 					},
 				};
 
@@ -198,7 +211,7 @@ fn main() -> Result<(), anyhow::Error> {
 	output
 		.write_u32::<LittleEndian>(u32::from_le_bytes(*b"RLEN"))
 		.context("Unable to write magic")?;
-	let total_size = u32::try_from(input_len).context("Total size didn't fit into `u32`")?;
+	let total_size = u32::try_from(src_len).context("Total size didn't fit into `u32`")?;
 	output
 		.write_u32::<LittleEndian>(total_size)
 		.context("Unable to write total size")?;

@@ -1,9 +1,8 @@
-//! Cli manager
+//! Arguments
 
 // Imports
 use std::path::PathBuf;
 
-/// Data from the command line
 #[derive(PartialEq, Eq, Clone, Debug)]
 #[derive(clap::Parser)]
 #[clap(author, version, about)]
@@ -11,11 +10,11 @@ pub struct Args {
 	/// Config file
 	pub config_file: PathBuf,
 
-	/// The output file
+	/// Output file
 	#[clap(long = "output", short = 'o')]
-	pub output: PathBuf,
+	pub output_file: PathBuf,
 
-	/// Auto-detects compatibility mode from input filename
-	#[clap(long = "auto-compatibility")]
-	pub auto_compatibility: bool,
+	/// Output dependency
+	#[clap(long = "output-deps", short = 'o')]
+	pub output_deps: PathBuf,
 }

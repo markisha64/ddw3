@@ -27,8 +27,6 @@ alias:
   ld_from_toml_deps       : tools/ld_from_toml_deps.py
   process_path            : tools/process_path.py
   mkpack_deps             : tools/mkpack_deps.py
-  mkrlen_from_toml        : tools/mkrlen_from_toml.py
-  mkrlen_from_toml_deps   : tools/mkrlen_from_toml_deps.py
 
   # Cargo tools
   mkpsexe        : $(build_rust_tool_dir)/mkpsexe
@@ -41,6 +39,7 @@ alias:
   mkmap_tile     : $(build_rust_tool_dir)/mkmap-tile
   mkmap_tile_deps: $(build_rust_tool_dir)/mkmap-tile-deps
   mkrlen         : $(build_rust_tool_dir)/mkrlen
+  mkrlen_deps    : $(build_rust_tool_dir)/mkrlen-deps
 
   # Directories
   build_dir  : build
@@ -430,33 +429,27 @@ rules:
     out: [$(rlen)]
     deps:
       - $(rlen_toml)
-      - $(mkrlen_from_toml)
       - $(mkrlen)
       - deps_file: $(rlen_deps)
       - static: $(rlen::dir_name)/
     exec:
-      - - $(python3)
-        - $(mkrlen_from_toml)
+      - - $(mkrlen)
         - $(rlen_toml)
-        - -o
-        - $(rlen)
-        - --rlen-bin=$(mkrlen)
+        - --output=$(rlen)
+        - --auto-compatibility
 
   # Rlen dependencies
   rlen_deps:
     out: [$(rlen_deps)]
     deps:
       - $(rlen_toml)
-      - $(mkrlen_from_toml_deps)
+      - $(mkrlen_deps)
       - static: $(rlen_deps::dir_name)/
     exec:
-      - - $(python3)
-        - $(mkrlen_from_toml_deps)
+      - - $(mkrlen_deps)
         - $(rlen_toml)
-        - -o
-        - $(rlen)
-        - --deps
-        - $(rlen_deps)
+        - --output=$(rlen)
+        - --output-deps=$(rlen_deps)
 
   # Elf
   elf:
