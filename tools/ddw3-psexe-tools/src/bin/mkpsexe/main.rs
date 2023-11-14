@@ -12,6 +12,7 @@ use {
 	args::Args,
 	clap::Parser,
 	ddw3_bytes::BytesWriteExt,
+	ddw3_psexe_tools::Config,
 	goblin::Object,
 	std::{
 		borrow::Cow,
@@ -30,12 +31,20 @@ fn main() -> Result<(), anyhow::Error> {
 	let args = Args::parse();
 	tracing::debug!(?args, "Arguments");
 
-	// Open the input file, parse it, and then get it as an elf
-	let input_contents = fs::read(args.input_elf_file).context("Unable to read input file")?;
-	let object = Object::parse(&input_contents).context("Unable to parse input file")?;
+	// Read the config
+	let config_parent = args.config_file.parent().context("Unable to get config file parent")?;
+	let config = {
+		let config = fs::read_to_string(&args.config_file).context("Unable to read config file")?;
+		toml::from_str::<Config>(&config).context("Unable to read config file")?
+	};
+
+	// Open the elf file, parse it, and then get it as an elf
+	let elf_path = ddw3_util::resolve_input_path(&config.elf, config_parent);
+	let elf_bytes = fs::read(elf_path).context("Unable to read elf file")?;
+	let object = Object::parse(&elf_bytes).context("Unable to parse elf file")?;
 	let elf = match object {
 		Object::Elf(elf) => elf,
-		object => anyhow::bail!("Expected elf input file, found {object:?}"),
+		object => anyhow::bail!("Expected elf file, found {object:?}"),
 	};
 	tracing::trace!(?elf.header);
 
@@ -62,9 +71,9 @@ fn main() -> Result<(), anyhow::Error> {
 		let text_range = text_header
 			.file_range()
 			.context("Unable to get `.text` section's span")?;
-		let text = &input_contents[text_range];
+		let text = &elf_bytes[text_range];
 
-		match args.resize_text {
+		match config.resize_text {
 			// If we do, truncate / extend the text
 			Some(size) => match size.cmp(&text.len()) {
 				Ordering::Less => Cow::Borrowed(&text[..size]),
@@ -109,19 +118,20 @@ fn main() -> Result<(), anyhow::Error> {
 
 	// Then go back and write the header
 	output_file.rewind().context("Unable to rewind output file")?;
-	let license_file = fs::read(args.license_file).context("Unable to read license file")?;
+	let license_path = ddw3_util::resolve_input_path(&config.license, config_parent);
+	let license = fs::read(license_path).context("Unable to read license file")?;
 	let header = ddw3_psexe::Header {
 		pc0,
 		text_base,
 		text_size: text.len().try_into().context("Text size didn't fit into a `u32`")?,
 		// TODO: Not hardcode these?
 		sp: 0x801ffff0,
-		license: match license_file.len() {
+		license: match license.len() {
 			len if len > ddw3_psexe::Header::LICENSE_SIZE =>
 				anyhow::bail!("License file was too big: {len}/{}", ddw3_psexe::Header::LICENSE_SIZE),
 			len => {
 				let mut license_bytes = [0; _];
-				license_bytes[..len].copy_from_slice(&license_file);
+				license_bytes[..len].copy_from_slice(&license);
 				license_bytes
 			},
 		},

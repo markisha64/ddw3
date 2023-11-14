@@ -21,7 +21,6 @@ alias:
   # Other tools
   generate_psx_iso_deps   : tools/generate_psx_iso_deps.py
   generate_compare_deps   : tools/generate_compare_deps.py
-  mkpsexe_from_toml       : tools/mkpsexe_from_toml.py
   mkpsexe_from_toml_deps  : tools/mkpsexe_from_toml_deps.py
   mkraw_exe_from_toml     : tools/mkraw_exe_from_toml.py
   mkraw_exe_from_toml_deps: tools/mkraw_exe_from_toml_deps.py
@@ -266,18 +265,13 @@ rules:
     out: [$(psexe)]
     deps:
       - $(psexe_toml)
-      - $(mkpsexe_from_toml)
       - $(mkpsexe)
       - deps_file: $(psexe_deps)
       - static: $(psexe::dir_name)/
     exec:
-      - - $(python3)
-        - $(mkpsexe_from_toml)
+      - - $(mkpsexe)
         - $(psexe_toml)
-        - -o
-        - $(psexe)
-        - --mkpsexe-bin
-        - $(mkpsexe)
+        - --output=$(psexe)
 
   # Psexe dependencies
   psexe_deps:

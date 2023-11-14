@@ -492,7 +492,10 @@ dependencies = [
  "ddw3-bytes",
  "ddw3-logger",
  "ddw3-psexe",
+ "ddw3-util",
  "goblin",
+ "serde",
+ "toml",
  "tracing",
 ]
 
