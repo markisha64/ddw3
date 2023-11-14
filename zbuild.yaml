@@ -27,20 +27,20 @@ alias:
   ld_from_toml_deps       : tools/ld_from_toml_deps.py
   process_path            : tools/process_path.py
   mkpack_deps             : tools/mkpack_deps.py
-  mkmap_deps              : tools/mkmap_deps.py
-  mkmap_tile_deps         : tools/mkmap_tile_deps.py
   mkrlen_from_toml        : tools/mkrlen_from_toml.py
   mkrlen_from_toml_deps   : tools/mkrlen_from_toml_deps.py
 
   # Cargo tools
-  mkpsexe     : $(build_rust_tool_dir)/mkpsexe
-  mkpsexe_deps: $(build_rust_tool_dir)/mkpsexe-deps
-  mklang_file : $(build_rust_tool_dir)/mklang-file
-  mkpack      : $(build_rust_tool_dir)/mkpack
-  mktim       : $(build_rust_tool_dir)/mktim
-  mkmap       : $(build_rust_tool_dir)/mkmap
-  mkmap_tile  : $(build_rust_tool_dir)/mkmap-tile
-  mkrlen      : $(build_rust_tool_dir)/mkrlen
+  mkpsexe        : $(build_rust_tool_dir)/mkpsexe
+  mkpsexe_deps   : $(build_rust_tool_dir)/mkpsexe-deps
+  mklang_file    : $(build_rust_tool_dir)/mklang-file
+  mkpack         : $(build_rust_tool_dir)/mkpack
+  mktim          : $(build_rust_tool_dir)/mktim
+  mkmap          : $(build_rust_tool_dir)/mkmap
+  mkmap_deps     : $(build_rust_tool_dir)/mkmap-deps
+  mkmap_tile     : $(build_rust_tool_dir)/mkmap-tile
+  mkmap_tile_deps: $(build_rust_tool_dir)/mkmap-tile-deps
+  mkrlen         : $(build_rust_tool_dir)/mkrlen
 
   # Directories
   build_dir  : build
@@ -394,13 +394,10 @@ rules:
       - $(mkmap_deps)
       - static: $(map_deps::dir_name)/
     exec:
-      - - $(python3)
-        - $(mkmap_deps)
+      - - $(mkmap_deps)
         - $(map_toml)
-        - -o
-        - $(map)
-        - --deps
-        - $(map_deps)
+        - --output=$(map)
+        - --output-deps=$(map_deps)
 
   # Map tile
   map_tile:
@@ -423,13 +420,10 @@ rules:
       - $(mkmap_tile_deps)
       - static: $(map_tile_deps::dir_name)/
     exec:
-      - - $(python3)
-        - $(mkmap_tile_deps)
+      - - $(mkmap_tile_deps)
         - $(map_tile_toml)
-        - -o
-        - $(map_tile)
-        - --deps
-        - $(map_tile_deps)
+        - --output=$(map_tile)
+        - --output-deps=$(map_tile_deps)
 
   # Rlen
   rlen:
