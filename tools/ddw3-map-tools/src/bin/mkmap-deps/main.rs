@@ -27,10 +27,7 @@ fn main() -> Result<(), anyhow::Error> {
 
 	// Read the config
 	let config_parent = args.config_file.parent().context("Unable to get config file parent")?;
-	let config = {
-		let config = fs::read_to_string(&args.config_file).context("Unable to read config file")?;
-		toml::from_str::<Config>(&config).context("Unable to read config file")?
-	};
+	let config = ddw3_util::read_toml::<Config, _>(&args.config_file).context("Unable to read config file")?;
 
 	// Create the deps file writer
 	let mut deps_file_writer = DepsFileWriter::new();

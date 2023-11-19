@@ -29,10 +29,7 @@ fn main() -> Result<(), anyhow::Error> {
 
 	// Read the input file
 	let config_parent = args.config_file.parent().context("Unable to get input file parent")?;
-	let config = {
-		let config = fs::read_to_string(&args.config_file).context("Unable to read input file")?;
-		toml::from_str::<Config>(&config).context("Unable to read input file")?
-	};
+	let config = ddw3_util::read_toml::<Config, _>(&args.config_file).context("Unable to read config file")?;
 
 	// Create the output file
 	let output = fs::File::create(&args.output).context("Unable to open output file")?;

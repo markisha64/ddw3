@@ -42,10 +42,7 @@ fn main() -> Result<(), anyhow::Error> {
 		.input_config
 		.parent()
 		.context("Unable to get parent dir of input config")?;
-	let config = {
-		let config = fs::read_to_string(&args.input_config).context("Unable to read input config")?;
-		toml::from_str::<Config>(&config).context("Unable to parse input config")?
-	};
+	let config = ddw3_util::read_toml::<Config, _>(&args.input_config).context("Unable to read config file")?;
 	tracing::debug!(?config);
 
 	// Read the input image

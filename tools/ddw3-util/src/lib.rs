@@ -24,7 +24,10 @@ pub use {
 };
 
 // Imports
-use std::{borrow::Cow, path::Path};
+use {
+	anyhow::Context,
+	std::{borrow::Cow, fs, path::Path},
+};
 
 
 /// Resolves an configuration path as relative to it's
@@ -81,4 +84,25 @@ where
 		<[T; N]>::try_from(items)
 			.map_err(|items| anyhow::anyhow!("Iterator has the wrong number of items: {} (expected {N})", items.len()))
 	}
+}
+
+/// Reads a toml file
+pub fn read_toml<T, P>(path: P) -> Result<T, anyhow::Error>
+where
+	T: serde::de::DeserializeOwned,
+	P: AsRef<Path>,
+{
+	let contents = fs::read_to_string(path).context("Unable to read toml file")?;
+	toml::from_str(&contents).context("Unable to parse toml file")
+}
+
+/// Writes a toml file
+pub fn write_toml<T, P>(path: P, value: &T) -> Result<(), anyhow::Error>
+where
+	T: serde::Serialize,
+	P: AsRef<Path>,
+{
+	let toml = toml::to_string_pretty(value).context("Unable to generate toml")?;
+	fs::write(path, toml).context("Unable to write toml file")?;
+	Ok(())
 }

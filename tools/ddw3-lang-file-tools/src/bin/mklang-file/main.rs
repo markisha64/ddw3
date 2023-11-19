@@ -21,10 +21,8 @@ fn main() -> Result<(), anyhow::Error> {
 	let args = Args::parse();
 
 	// Read the lang file and parse it
-	let lang_toml_file = {
-		let lang_toml_file = fs::read_to_string(args.lang_toml_file).context("Unable to read lang toml file")?;
-		toml::from_str::<LangFile>(&lang_toml_file).context("Unable to parse lang toml file")?
-	};
+	let lang_toml_file =
+		ddw3_util::read_toml::<LangFile, _>(args.lang_toml_file).context("Unable to read lang toml file")?;
 
 	// Open the output file
 	let output_lang_file = fs::File::create(args.output_lang_file).context("Unable to create output file")?;

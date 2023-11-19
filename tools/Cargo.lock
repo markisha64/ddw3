@@ -613,6 +613,7 @@ dependencies = [
  "ref-cast",
  "serde",
  "thiserror",
+ "toml",
 ]
 
 [[package]]
