@@ -30,7 +30,7 @@ pub trait BytesReadExt: io::Read {
 	}
 }
 
-impl<R: io::Read> BytesReadExt for R {}
+impl<R: ?Sized + io::Read> BytesReadExt for R {}
 
 /// Bytes write extension trait
 pub trait BytesWriteExt: io::Write {
