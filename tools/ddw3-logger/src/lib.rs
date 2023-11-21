@@ -6,7 +6,7 @@
 #![feature(array_chunks, array_windows)]
 
 // Imports
-use {std::env, tracing_subscriber::prelude::*};
+use {std::env, tracing::level_filters::LevelFilter, tracing_subscriber::prelude::*};
 
 /// Initializes logging
 pub fn init() -> Result<(), anyhow::Error> {
@@ -19,9 +19,11 @@ pub fn init() -> Result<(), anyhow::Error> {
 	// Then initialize the logger
 	tracing_subscriber::registry()
 		.with(
-			tracing_subscriber::fmt::layer()
-				.with_ansi(log_use_color)
-				.with_filter(tracing_subscriber::EnvFilter::from_default_env()),
+			tracing_subscriber::fmt::layer().with_ansi(log_use_color).with_filter(
+				tracing_subscriber::EnvFilter::builder()
+					.with_default_directive(LevelFilter::INFO.into())
+					.from_env_lossy(),
+			),
 		)
 		.init();
 
