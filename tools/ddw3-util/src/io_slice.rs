@@ -13,6 +13,7 @@ use {
 /// Io slice.
 ///
 /// Slices an inner value to only allow access to a range.
+// TODO: Now that `std::io::IoSlice` exists, maybe we should rename this?
 #[derive(Clone, Debug)]
 pub struct IoSlice<T> {
 	/// Inner value
@@ -25,9 +26,12 @@ pub struct IoSlice<T> {
 	end_pos: u64,
 }
 
-impl<T: Seek> IoSlice<T> {
+impl<T> IoSlice<T> {
 	/// Creates a new slice given a u64 range
-	pub fn new<R: RangeBounds<u64>>(mut inner: T, range: R) -> Result<Self, io::Error> {
+	pub fn new<R: RangeBounds<u64>>(mut inner: T, range: R) -> Result<Self, io::Error>
+	where
+		T: Seek,
+	{
 		// Get the start position and simplify the end bound
 		// TODO: Check if saturating on overflow is fine here, should be.
 		let start_pos = match range.start_bound().cloned() {
@@ -69,7 +73,10 @@ impl<T: Seek> IoSlice<T> {
 	}
 
 	/// Creates a new slice from an offset (from the start of the stream) and a length
-	pub fn new_with_offset_len(mut inner: T, start_pos: u64, len: u64) -> Result<Self, io::Error> {
+	pub fn new_with_offset_len(mut inner: T, start_pos: u64, len: u64) -> Result<Self, io::Error>
+	where
+		T: Seek,
+	{
 		// Get the end position
 		// TODO: Check if saturating add is good enough here? Use case is `size == usize::MAX`
 		let end_pos = start_pos.saturating_add(len);
@@ -85,9 +92,21 @@ impl<T: Seek> IoSlice<T> {
 	}
 
 	/// Creates a slice from the current position with at most `size` bytes.
-	pub fn new_take(mut inner: T, size: u64) -> Result<Self, io::Error> {
+	pub fn new_take(mut inner: T, size: u64) -> Result<Self, io::Error>
+	where
+		T: Seek,
+	{
 		let start_pos = inner.stream_position()?;
 		Self::new_with_offset_len(inner, start_pos, size)
+	}
+
+	/// Creates a `IoSlice<&T>` from an `&IoSlice<T>`
+	pub fn by_inner_ref(&self) -> IoSlice<&T> {
+		IoSlice {
+			inner:     &self.inner,
+			start_pos: self.start_pos,
+			end_pos:   self.end_pos,
+		}
 	}
 
 	/// Consumes this slice and returns the inner value
@@ -102,14 +121,20 @@ impl<T: Seek> IoSlice<T> {
 	}
 
 	/// Returns the current position of the slice
-	pub fn cur_pos(&mut self) -> Result<u64, io::Error> {
+	pub fn cur_pos(&mut self) -> Result<u64, io::Error>
+	where
+		T: Seek,
+	{
 		let inner_pos = self.inner.stream_position()?;
 
 		Ok(inner_pos - self.start_pos)
 	}
 
 	/// Returns the remaining length of the slice
-	pub fn remaining_len(&mut self) -> Result<u64, io::Error> {
+	pub fn remaining_len(&mut self) -> Result<u64, io::Error>
+	where
+		T: Seek,
+	{
 		Ok(self.end_pos - self.inner.stream_position()?)
 	}
 }
@@ -212,61 +237,82 @@ impl<T: Seek> Seek for IoSlice<T> {
 	}
 }
 
-
 // Impls for `&IoSlice<&T>`, such as `T = std::fs::File`
 impl<'a, T> Read for &'a IoSlice<T>
 where
-	for<'b> &'b mut &'a T: Read + Seek,
+	&'a T: Read + Seek,
 {
 	fn read(&mut self, buf: &mut [u8]) -> io::Result<usize> {
-		self::exec_as_ref_ref_mut(self, |mut slice| slice.read(buf))
+		self.by_inner_ref().read(buf)
 	}
 
 	fn read_vectored(&mut self, bufs: &mut [io::IoSliceMut<'_>]) -> io::Result<usize> {
-		self::exec_as_ref_ref_mut(self, |mut slice| slice.read_vectored(bufs))
+		self.by_inner_ref().read_vectored(bufs)
 	}
 
 	fn read_to_end(&mut self, buf: &mut Vec<u8>) -> io::Result<usize> {
-		self::exec_as_ref_ref_mut(self, |mut slice| slice.read_to_end(buf))
+		self.by_inner_ref().read_to_end(buf)
 	}
 
 	fn read_to_string(&mut self, buf: &mut String) -> io::Result<usize> {
-		self::exec_as_ref_ref_mut(self, |mut slice| slice.read_to_string(buf))
+		self.by_inner_ref().read_to_string(buf)
 	}
 
 	fn read_exact(&mut self, buf: &mut [u8]) -> io::Result<()> {
-		self::exec_as_ref_ref_mut(self, |mut slice| slice.read_exact(buf))
+		self.by_inner_ref().read_exact(buf)
 	}
 }
 
 impl<'a, T> Seek for &'a IoSlice<T>
 where
-	for<'b> &'b mut &'a T: Seek,
+	&'a T: Seek,
 {
 	fn seek(&mut self, pos: SeekFrom) -> io::Result<u64> {
-		self::exec_as_ref_ref_mut(self, |mut slice| slice.seek(pos))
+		self.by_inner_ref().seek(pos)
 	}
 
 	fn rewind(&mut self) -> io::Result<()> {
-		self::exec_as_ref_ref_mut(self, |mut slice| slice.rewind())
+		self.by_inner_ref().rewind()
 	}
 
 	fn stream_len(&mut self) -> io::Result<u64> {
-		self::exec_as_ref_ref_mut(self, |mut slice| slice.stream_len())
+		self.by_inner_ref().stream_len()
 	}
 
 	fn stream_position(&mut self) -> io::Result<u64> {
-		self::exec_as_ref_ref_mut(self, |mut slice| slice.stream_position())
+		self.by_inner_ref().stream_position()
 	}
 }
 
-/// Creates a `IoSlice<&mut &T>` from `&mut & IoSlice<T>` and runs `f` with it
-fn exec_as_ref_ref_mut<'a, 'b, T, O>(slice: &'b &'a IoSlice<T>, f: impl FnOnce(IoSlice<&'_ mut &'a T>) -> O) -> O {
-	let slice = IoSlice {
-		inner:     &mut &slice.inner,
-		start_pos: slice.start_pos,
-		end_pos:   slice.end_pos,
-	};
+impl<'a, T> Write for &'a IoSlice<T>
+where
+	&'a T: Write + Seek,
+{
+	fn write(&mut self, buf: &[u8]) -> Result<usize, io::Error> {
+		self.by_inner_ref().write(buf)
+	}
 
-	f(slice)
+	fn flush(&mut self) -> Result<(), io::Error> {
+		self.by_inner_ref().flush()
+	}
+
+	fn write_vectored(&mut self, bufs: &[std::io::IoSlice<'_>]) -> Result<usize, io::Error> {
+		self.by_inner_ref().write_vectored(bufs)
+	}
+
+	fn is_write_vectored(&self) -> bool {
+		self.by_inner_ref().is_write_vectored()
+	}
+
+	fn write_all(&mut self, buf: &[u8]) -> Result<(), io::Error> {
+		self.by_inner_ref().write_all(buf)
+	}
+
+	fn write_all_vectored(&mut self, bufs: &mut [std::io::IoSlice<'_>]) -> Result<(), io::Error> {
+		self.by_inner_ref().write_all_vectored(bufs)
+	}
+
+	fn write_fmt(&mut self, fmt: std::fmt::Arguments<'_>) -> Result<(), io::Error> {
+		self.by_inner_ref().write_fmt(fmt)
+	}
 }
