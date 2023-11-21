@@ -3,13 +3,13 @@
 // Modules
 mod error;
 
-use anyhow::Context;
 // Exports
 pub use error::FromReaderError;
 
 // Imports
 use {
 	crate::{entry, DirEntry},
+	anyhow::Context,
 	std::{io, iter},
 };
 
@@ -44,7 +44,7 @@ impl Dir {
 			if let Err(err) = try {
 				let input_pos = input.stream_position().context("Unable to get reader position")?;
 				if input_pos % 0x800 >= 0x800 - 0x21 {
-					tracing::debug!("Reached end of sector while reading directory, trying next sector.");
+					tracing::trace!("Reached end of sector while reading directory, trying next sector.");
 					input
 						.seek(io::SeekFrom::Current((0x800 - input_pos % 0x800) as i64))
 						.context("Unable to seek reader to next sector.")?;
