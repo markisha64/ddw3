@@ -7,7 +7,7 @@ pub mod file;
 // Exports
 pub use {
 	error::{FromReaderError, ReadDirError, ReadFileError, ToWriterError},
-	file::FileReader,
+	file::File,
 };
 
 // Imports
@@ -59,26 +59,19 @@ impl DirEntry {
 		!self.is_dir()
 	}
 
-	/// Reads a file from this entry
-	pub fn read_file<'a, R: io::Read + io::Seek>(&self, input: &'a mut R) -> Result<FileReader<'a, R>, ReadFileError> {
+	/// Gets this entry to a file
+	pub fn to_file(&self) -> Result<File, ReadFileError> {
 		// If this isn't a file, return Err
 		if !self.is_file() {
 			return Err(ReadFileError::NotAFile);
 		}
 
-		// Seek the file to the correct place
-		let sector_pos = u64::from(self.sector_pos);
-		input
-			.seek(io::SeekFrom::Start(sector_pos * 0x800))
-			.map_err(ReadFileError::SeekSector)?;
-
-		// And crate the file reader
-		let size = u64::from(self.size);
-		Ok(FileReader::new(input, sector_pos, size))
+		// Else create the file
+		Ok(File::new(self.sector_pos, self.size))
 	}
 
 	/// Reads a directory from this entry.
-	pub fn read_dir<R: io::Read + io::Seek>(&self, input: &mut R) -> Result<Dir, ReadDirError> {
+	pub fn read_dir<R: ?Sized + io::Read + io::Seek>(&self, input: &mut R) -> Result<Dir, ReadDirError> {
 		// If this isn't a directory, return Err
 		if !self.is_dir() {
 			return Err(ReadDirError::NotADirectory);
@@ -92,7 +85,7 @@ impl DirEntry {
 	}
 
 	/// Reads a directory entry from a reader
-	pub fn from_reader<R: io::Read>(reader: &mut R) -> Result<Self, FromReaderError> {
+	pub fn from_reader<R: ?Sized + io::Read>(reader: &mut R) -> Result<Self, FromReaderError> {
 		// Get the header
 		let mut header_bytes = [0; 0x21];
 		reader

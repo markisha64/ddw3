@@ -29,7 +29,7 @@ impl Dir {
 	}
 
 	/// Reads a directory.
-	pub fn from_reader<R: io::Read + io::Seek>(input: &mut R) -> Result<Dir, FromReaderError> {
+	pub fn from_reader<R: ?Sized + io::Read + io::Seek>(input: &mut R) -> Result<Dir, FromReaderError> {
 		let start_pos = input.stream_position().context("Unable to get reader position")?;
 		if start_pos % 0x800 != 0 {
 			return Err(anyhow::anyhow!(

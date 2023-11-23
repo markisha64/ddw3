@@ -23,16 +23,19 @@ pub use {
 // Imports
 use {self::volume_descriptor::PrimaryVolumeDescriptor, ddw3_bytes::BytesReadExt, std::io};
 
-/// A filesystem reader
+/// A filesystem
 #[derive(PartialEq, Eq, Clone, Debug)]
-pub struct FilesystemReader {
+pub struct Filesystem {
 	/// Primary volume descriptor
 	primary_volume_descriptor: PrimaryVolumeDescriptor,
 }
 
-impl FilesystemReader {
+impl Filesystem {
 	/// Reads the filesystem from a reader
-	pub fn new<R: io::Read + io::Seek>(reader: &mut R) -> Result<Self, NewError> {
+	pub fn new<R>(reader: &mut R) -> Result<Self, NewError>
+	where
+		R: ?Sized + io::Read + io::Seek,
+	{
 		// Skip the initial 32 KiB reserved area
 		reader
 			.seek(io::SeekFrom::Start(0x8000))

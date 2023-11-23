@@ -13,7 +13,7 @@ use {
 	self::args::Args,
 	anyhow::Context,
 	clap::Parser,
-	ddw3_iso9660::{path_table::PathTableReader, string::FileStrWithoutVersion, Dir, FilesystemReader},
+	ddw3_iso9660::{path_table::PathTableReader, string::FileStrWithoutVersion, Dir, Filesystem},
 	ddw3_util::IoSlice,
 	std::{
 		collections::HashMap,
@@ -44,7 +44,7 @@ fn main() -> Result<(), anyhow::Error> {
 	// Open the input file
 	let input_file = fs::File::open(&args.input_file).context("Unable to open input file")?;
 	let mut input_file = io::BufReader::new(input_file);
-	let fs_reader = FilesystemReader::new(&mut input_file).context("Unable to create filesystem reader")?;
+	let fs_reader = Filesystem::new(&mut input_file).context("Unable to create filesystem reader")?;
 
 	// Check if we should extract using the root directory or the path table
 	let mut extracted_root_dir = ExtractedDir::new();
@@ -94,7 +94,7 @@ fn main() -> Result<(), anyhow::Error> {
 
 fn create_mkpsxiso_xml(
 	xml_path: &Path,
-	fs_reader: &FilesystemReader,
+	fs_reader: &Filesystem,
 	extracted_root_dir: &ExtractedDir,
 ) -> Result<(), anyhow::Error> {
 	let primary_volume = fs_reader.primary_volume_descriptor();
@@ -287,7 +287,9 @@ fn extract_dir<R: io::Read + io::Seek>(
 		match entry.is_dir() {
 			// Recurse on directories if we should
 			true if recurse => {
-				let dir = entry.read_dir(input_file).context("Unable to read entry directory")?;
+				let dir = entry
+					.read_dir(&mut *input_file)
+					.context("Unable to read entry directory")?;
 				println!("{}/ ({} entries)", entry_path.display(), dir.entries.len());
 
 				// Extract the sub-directory
@@ -313,9 +315,13 @@ fn extract_dir<R: io::Read + io::Seek>(
 
 				// Extract the file, if not in a dry run
 				if !dry_run {
-					let mut iso_file = entry.read_file(input_file).context("Unable to read file")?;
+					let iso_file = entry.to_file().context("Entry was not a file")?;
+					let mut iso_file_slice = iso_file
+						.to_slice(&mut *input_file)
+						.context("Unable to create file reader")?;
+
 					let mut output_file = fs::File::create(&entry_path).context("Unable to open output file")?;
-					std::io::copy(&mut iso_file, &mut output_file)
+					std::io::copy(&mut iso_file_slice, &mut output_file)
 						.with_context(|| format!("Unable to write output file {entry_path:?}"))?;
 				}
 

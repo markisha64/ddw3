@@ -3,7 +3,7 @@
 // Imports
 use {super::volume_descriptor, ddw3_bytes::bytes_io_ext::ReadDeserializeError, std::io};
 
-/// Error type for [`FilesystemReader::new`](super::FilesystemReader::new)
+/// Error type for [`Filesystem::new`](super::Filesystem::new)
 #[derive(Debug, thiserror::Error)]
 pub enum NewError {
 	/// Unable to seek to volume descriptor set

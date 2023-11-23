@@ -1,7 +1,7 @@
 # ISO 9960 Implementation
 
 This crate implements the `ISO-9660` (ECMA-119) filesystem specification
-within the [`FilesystemReader`] struct.
+within the [`Filesystem`] struct.
 
 # Layout
 
