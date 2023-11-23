@@ -3,6 +3,8 @@
 // Features
 #![feature(seek_stream_len, lint_reasons)]
 
+use byteorder::WriteBytesExt;
+
 // Imports
 use {
 	anyhow::Context,
@@ -80,6 +82,58 @@ impl<R> PackReader<R> {
 
 		IoSlice::new(&mut self.reader, start..end).context("Unable to create io slice")
 	}
+}
+
+/// Writes a pack file of files `files`
+pub fn write_pack<I, RF, R, W>(files: I, writer: &mut W) -> Result<(), anyhow::Error>
+where
+	I: IntoIterator<Item = RF>,
+	I::IntoIter: ExactSizeIterator,
+	RF: FnOnce() -> Result<R, anyhow::Error>,
+	R: io::Read,
+	W: io::Write + io::Seek,
+{
+	// Skip past the header for now
+	let files = files.into_iter();
+	let boundaries_len = u32::try_from(files.len()).context("Number of files didn't fit into a `u32`")?;
+	let header_size = 4 * u64::from(boundaries_len);
+	writer
+		.seek(io::SeekFrom::Start(header_size))
+		.context("Unable to seek writer past header")?;
+
+	// Then write each file
+	let mut cur_pos = header_size;
+	let mut boundaries = Vec::with_capacity(files.len());
+	for file_creator in files {
+		let mut file = file_creator().context("Unable to create reader")?;
+
+		// Push our current position as a boundary
+		let boundary = u32::try_from(cur_pos).context("Boundary didn't fit into a `u32`")?;
+		boundaries.push(boundary);
+
+		// Then write the file
+		let file_len = io::copy(&mut file, writer).context("Unable to copy file to writer")?;
+		cur_pos += file_len;
+
+		// And pad the entry to word size
+		if cur_pos % 4 != 0 {
+			let remaining = 4 - (cur_pos % 4);
+			writer
+				.write_all(&[0u8; 4][..remaining as usize])
+				.context("Unable to pad output to word size")?;
+			cur_pos += remaining;
+		}
+	}
+
+	// Finally go back and write the header
+	writer.rewind().context("Unable to rewind writer")?;
+	for boundary in boundaries {
+		writer
+			.write_u32::<LittleEndian>(boundary)
+			.context("Unable to write boundary")?;
+	}
+
+	Ok(())
 }
 
 /// Reads a boundary from `R`
