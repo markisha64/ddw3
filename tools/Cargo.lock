@@ -456,6 +456,22 @@ dependencies = [
 ]
 
 [[package]]
+name = "ddw3-pack"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "byteorder",
+ "clap",
+ "ddw3-logger",
+ "ddw3-util",
+ "itertools",
+ "pathdiff",
+ "serde",
+ "toml",
+ "tracing",
+]
+
+[[package]]
 name = "ddw3-pack-tools"
 version = "0.1.0"
 dependencies = [
@@ -463,6 +479,7 @@ dependencies = [
  "byteorder",
  "clap",
  "ddw3-logger",
+ "ddw3-pack",
  "ddw3-util",
  "itertools",
  "pathdiff",
