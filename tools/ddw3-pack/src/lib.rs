@@ -65,7 +65,7 @@ impl<R> PackReader<R> {
 		let last_idx = self.boundaries.len();
 		let (start, end) = match idx {
 			// For index 0, start at 0 and go until the first boundary
-			0 => (0u64, u64::from(self.boundaries[1])),
+			0 if last_idx > 0 => (0u64, u64::from(self.boundaries[0])),
 
 			// For the last index, end at the file size
 			_ if idx == last_idx => (
