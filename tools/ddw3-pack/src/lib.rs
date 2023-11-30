@@ -26,7 +26,7 @@ impl<R> PackReader<R> {
 	/// Creates a new pack file reader
 	pub fn new(mut reader: R) -> Result<Self, anyhow::Error>
 	where
-		R: io::Read,
+		R: io::Read + io::Seek,
 	{
 		// Read the first boundary to get the size of the header
 		let first_boundary = self::read_boundary(&mut reader)?;
@@ -47,6 +47,12 @@ impl<R> PackReader<R> {
 
 			boundaries.push(boundary);
 		}
+		let reader_len = reader
+			.stream_len()
+			.context("Unable to get stream length")?
+			.try_into()
+			.context("Stream length didn't fit into a `u32`")?;
+		boundaries.push(reader_len);
 
 		Ok(Self { boundaries, reader })
 	}
@@ -54,7 +60,8 @@ impl<R> PackReader<R> {
 	/// Returns the number of files
 	#[expect(clippy::len_without_is_empty, reason = "We're never empty")]
 	pub fn len(&self) -> usize {
-		self.boundaries.len() + 1
+		// Note: We always have at least 2 boundaries
+		self.boundaries.len() - 1
 	}
 
 	/// Reads the `n`th file
@@ -62,24 +69,10 @@ impl<R> PackReader<R> {
 	where
 		R: io::Seek,
 	{
-		let last_idx = self.boundaries.len();
-		let (start, end) = match idx {
-			// For index 0, start at 0 and go until the first boundary
-			0 if last_idx > 0 => (0u64, u64::from(self.boundaries[0])),
-
-			// For the last index, end at the file size
-			_ if idx == last_idx => (
-				u64::from(self.boundaries[last_idx - 1]),
-				self.reader.stream_len().context("Unable to get length of reader")?,
-			),
-
-			// For invalid indexes, quit
-			_ if idx > last_idx => anyhow::bail!("Invalid index: {idx}"),
-
-			// Otherwise use the boundaries
-			_ => (u64::from(self.boundaries[idx - 1]), u64::from(self.boundaries[idx])),
-		};
-
+		let start = self.boundaries.get(idx).context("Invalid index")?;
+		let start = u64::from(*start);
+		let end = self.boundaries.get(idx + 1).context("Invalid index")?;
+		let end = u64::from(*end);
 		IoSlice::new(&mut self.reader, start..end).context("Unable to create io slice")
 	}
 }
