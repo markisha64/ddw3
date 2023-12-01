@@ -1,8 +1,8 @@
 entries = [
-    "s920tmpk/0.bin",
-    "s920tmpk/1.bin",
-    "s920tmpk/2.bin",
-    "s920tmpk/3.bin",
-    "s920tmpk/4.bin",
-    "s920tmpk/5.bin",
+    "/build/pack/dw2003/field/stage/s920tmpk/0.bin",
+    "/build/pack/dw2003/field/stage/s920tmpk/1.bin",
+    "/build/pack/dw2003/field/stage/s920tmpk/2.bin",
+    "/build/pack/dw2003/field/stage/s920tmpk/3.bin",
+    "/build/pack/dw2003/field/stage/s920tmpk/4.bin",
+    "/build/pack/dw2003/field/stage/s920tmpk/5.bin",
 ]

@@ -1,6 +1,6 @@
 entries = [
-    "s401tmpk/0.bin",
-    "s401tmpk/1.bin",
-    "s401tmpk/2.bin",
-    "s401tmpk/3.bin",
+    "/build/pack/dw2003/field/stage/s401tmpk/0.bin",
+    "/build/pack/dw2003/field/stage/s401tmpk/1.bin",
+    "/build/pack/dw2003/field/stage/s401tmpk/2.bin",
+    "/build/pack/dw2003/field/stage/s401tmpk/3.bin",
 ]

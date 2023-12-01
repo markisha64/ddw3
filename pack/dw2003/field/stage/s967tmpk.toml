@@ -1,10 +1,10 @@
 entries = [
-    "s967tmpk/0.bin",
-    "s967tmpk/1.bin",
-    "s967tmpk/2.bin",
-    "s967tmpk/3.bin",
-    "s967tmpk/4.bin",
-    "s967tmpk/5.bin",
-    "s967tmpk/6.bin",
-    "s967tmpk/7.bin",
+    "/build/pack/dw2003/field/stage/s967tmpk/0.bin",
+    "/build/pack/dw2003/field/stage/s967tmpk/1.bin",
+    "/build/pack/dw2003/field/stage/s967tmpk/2.bin",
+    "/build/pack/dw2003/field/stage/s967tmpk/3.bin",
+    "/build/pack/dw2003/field/stage/s967tmpk/4.bin",
+    "/build/pack/dw2003/field/stage/s967tmpk/5.bin",
+    "/build/pack/dw2003/field/stage/s967tmpk/6.bin",
+    "/build/pack/dw2003/field/stage/s967tmpk/7.bin",
 ]

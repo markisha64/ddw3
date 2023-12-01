@@ -1,7 +1,7 @@
 entries = [
-    "s810tmpk/0.bin",
-    "s810tmpk/1.bin",
-    "s810tmpk/2.bin",
-    "s810tmpk/3.bin",
-    "s810tmpk/4.bin",
+    "/build/pack/dw2003/field/stage/s810tmpk/0.bin",
+    "/build/pack/dw2003/field/stage/s810tmpk/1.bin",
+    "/build/pack/dw2003/field/stage/s810tmpk/2.bin",
+    "/build/pack/dw2003/field/stage/s810tmpk/3.bin",
+    "/build/pack/dw2003/field/stage/s810tmpk/4.bin",
 ]

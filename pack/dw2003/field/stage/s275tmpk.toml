@@ -1,5 +1,5 @@
 entries = [
-    "s275tmpk/0.bin",
-    "s275tmpk/1.bin",
-    "s275tmpk/2.bin",
+    "/build/pack/dw2003/field/stage/s275tmpk/0.bin",
+    "/build/pack/dw2003/field/stage/s275tmpk/1.bin",
+    "/build/pack/dw2003/field/stage/s275tmpk/2.bin",
 ]

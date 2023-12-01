@@ -26,6 +26,13 @@ impl<R> PackReader<R> {
 	where
 		R: io::Read + io::Seek,
 	{
+		// If the file is empty, return an empty pack reader
+		let reader_size = reader.stream_len().context("Unable to get reader size")?;
+		let reader_size = reader_size.try_into().context("Reader size didn't fit into a `u32`")?;
+		if reader_size == 0 {
+			return Ok(Self { slices: vec![], reader });
+		}
+
 		// Read the first non-null offset to get the size of the header
 		let mut null_starting_offsets = 0;
 		let mut first_non_null_offset = self::read_offset(&mut reader)?;
@@ -47,8 +54,6 @@ impl<R> PackReader<R> {
 		offsets.insert(null_starting_offsets, first_non_null_offset);
 
 		// And finally get all file slices
-		let reader_size = reader.seek(io::SeekFrom::End(0)).context("Unable to get reader size")?;
-		let reader_size = reader_size.try_into().context("Reader size didn't fit into a `u32`")?;
 		let slices = offsets
 			.iter()
 			.enumerate()
@@ -72,10 +77,13 @@ impl<R> PackReader<R> {
 	}
 
 	/// Returns the number of files
-	#[expect(clippy::len_without_is_empty, reason = "We're never empty")]
 	pub fn len(&self) -> usize {
-		// Note: We always have at least 1 slice
 		self.slices.len()
+	}
+
+	/// Returns if we have no files
+	pub fn is_empty(&self) -> bool {
+		self.slices.is_empty()
 	}
 
 	/// Reads the `n`th file
@@ -169,7 +177,10 @@ where
 	R: io::Read,
 {
 	let offset = reader.read_u32::<LittleEndian>().context("Unable to read offset")?;
-	anyhow::ensure!(offset % 4 == 0, "Expected offset to be aligned to word size");
+	anyhow::ensure!(
+		offset % 4 == 0,
+		"Expected offset to be aligned to word size: {offset:#x?}"
+	);
 
 	Ok(offset)
 }
