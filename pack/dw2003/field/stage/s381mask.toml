@@ -1,0 +1,5 @@
+entries = [
+    "s381mask/0.bin",
+    "s381mask/1.bin",
+    "s381mask/2.bin",
+]
