@@ -18,7 +18,7 @@ pub struct Args {
 	/// Output clut
 	///
 	/// If image has no clut, it is ignored
-	#[clap(long = "clut")]
+	#[clap(long = "output-clut")]
 	pub output_clut: Option<PathBuf>,
 
 	/// Output config

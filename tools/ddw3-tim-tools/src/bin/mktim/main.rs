@@ -142,7 +142,6 @@ fn main() -> Result<(), anyhow::Error> {
 	if let Some(clut) = clut &&
 		clut.include
 	{
-		// && include_clut
 		// Convert the clut
 		let width = u16::try_from(clut.img.width()).context("Clut width didn't fit into a `u16`")?;
 		let height = u16::try_from(clut.img.height()).context("Clut height didn't fit into a `u16`")?;

@@ -1,0 +1,5 @@
+bpp = "Color16"
+
+[img]
+pos = [0, 0]
+path = "1.png"

@@ -66,28 +66,28 @@ fn main() -> Result<(), anyhow::Error> {
 			.context("Unable to read clut")?;
 			tracing::debug!(clut_colors = img.colors.len());
 
-			// Adjust the clut by increasing duplicate colors
+			// Adjust the clut by increasing duplicate colors.
+			// Note: The colors within the image only have at most 5 bits, and we store
+			//       a `u16` for each channel, so we can have up to 11 bits of duplicates.
+			//       This should hopefully be enough.
 			let mut color_occurrences = HashMap::new();
-			for color_idx in 0..img.colors.len() {
-				let cur_color = img.colors[color_idx];
+			for color in img.colors.iter_mut() {
 				let prev_occurrences = *color_occurrences
-					.entry(cur_color)
+					.entry(*color)
 					.and_modify(|count| *count += 1)
 					.or_insert(0);
 
-				if prev_occurrences != 0 {
-					// Note: At most we have 256 colors, so this will never
-					//       overflow, as we have at least 11 bits of lenience (due to r5g5b5a1 format),
-					//       and we use 3 bits per duplicate
-					//       `cccccddd ddddd...`
-					//       c = original color (5 bits)
-					//       d = duplicate color (8 bits)
-					//       . = padding
-					// TODO: Make sure these are correct in terms of what the psx displays.
-					img.colors[color_idx].r += prev_occurrences << 3;
-					img.colors[color_idx].g += prev_occurrences << 3;
-					img.colors[color_idx].b += prev_occurrences << 3;
-				}
+				// TODO: Allow this by some other means?
+				anyhow::ensure!(
+					prev_occurrences < 2048,
+					"Too many duplicate colors to generate clut. Must be at most 2048"
+				);
+
+				// Note: The colors are stored at the most-significant 5 bits, so we won't interfere
+				//       with the color itself.
+				color.r |= prev_occurrences;
+				color.g |= prev_occurrences;
+				color.b |= prev_occurrences;
 			}
 
 			Some((header, img))
