@@ -1,5 +1,5 @@
 entries = [
-    "s676mask/0.bin",
-    "s676mask/1.bin",
-    "s676mask/2.bin",
+	"/build/rlen/dw2003/field/stage/s676mask/0.bin",
+	"/build/rlen/dw2003/field/stage/s676mask/1.bin",
+	"/pack/dw2003/field/stage/empty.bin",
 ]

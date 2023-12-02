@@ -1,4 +1,4 @@
 entries = [
-    "s238mask/0.bin",
-    "s238mask/1.bin",
+	"/build/rlen/dw2003/field/stage/s238mask/0.bin",
+	"/pack/dw2003/field/stage/empty.bin",
 ]
