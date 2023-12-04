@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Oh, qu'est-ce ? \nTu es un Numemon\ncoloré.[pause]",
-	"\\x02\\x07BK KingNumemon\\x02\\x07J'ai rien à voir avec \nles autres Numemons ![pause]\\x02\\x03Moi, BK KingNumemon,\nje leur suis bien\nsupérieur.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Supérieur, hein ?\nOn ne dirait pas, \npourtant ![pause]",
-	"\\x02\\x07BK KingNumemon\\x02\\x07Je vais te \nmontrer ![pause]",
+	"[name][player_name][name]Oh, qu'est-ce ? \nTu es un Numemon\ncoloré.[pause]",
+	"[name]BK KingNumemon[name]J'ai rien à voir avec \nles autres Numemons ![pause][clear]Moi, BK KingNumemon,\nje leur suis bien\nsupérieur.[pause]",
+	"[name][player_name][name]Supérieur, hein ?\nOn ne dirait pas, \npourtant ![pause]",
+	"[name]BK KingNumemon[name]Je vais te \nmontrer ![pause]",
 ]

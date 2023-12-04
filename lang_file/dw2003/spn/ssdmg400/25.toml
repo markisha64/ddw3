@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Paildramon,\ntengo un favor que\npedirte.[pause]\\x02\\x03¿Puedes darme el \nDADN de Veemon de \ntu DADN?[pause]",
-	"\\x02\\x07Paildramon\\x02\\x07¡Ni hablar! Te\nclavan una aguja\npara eso.[pause]\\x02\\x03¡A menos que me \nganes en batalla,\npuedes olvidarte![pause]",
-	"\\x02\\x07\\x02\\x09\\x023De acuerdo,\nsólo tengo que \nganar, ¿no?[pause]",
-	"\\x02\\x07Paildramon\\x02\\x07¡Sí, bueno,\ninténtalo si\npuedes![pause]",
+	"[name][player_name][name]Paildramon,\ntengo un favor que\npedirte.[pause][clear]¿Puedes darme el \nDADN de Veemon de \ntu DADN?[pause]",
+	"[name]Paildramon[name]¡Ni hablar! Te\nclavan una aguja\npara eso.[pause][clear]¡A menos que me \nganes en batalla,\npuedes olvidarte![pause]",
+	"[name][player_name][name]De acuerdo,\nsólo tengo que \nganar, ¿no?[pause]",
+	"[name]Paildramon[name]¡Sí, bueno,\ninténtalo si\npuedes![pause]",
 ]

@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07Nav. Digimon\\x02\\x07Ti mostrerò\ni dati\nsul satellite.[pause]",
-	"\"Kotemon\"\nImpara tecniche di Agumon e Veemon.\nSe aumenti la res. alle macchine...[pause]\\x02\\x03\"Monmon\"\nQuando ha appreso Ultimate, aumenta\nforza e resist. a macch. e vento.[pause]",
-	"\"Kumanon\"\nAumenta saggezza e spirito: sono\npiù impegnativi.[pause]\\x02\\x03\"Renamon\"\nPotenzia spirito o forza e resistenza.[pause]",
-	"\"Patamon\"\nAumenta la saggezza o la forza.[pause]\\x02\\x03\"Agumon\"\nCon la res. alle tenebre impara\nle digivoluzioni delle tenebre.[pause]",
-	"\"Guilmon\"\nHa alcuni parametri bassi:\nrinforza i suoi punti deboli.[pause]\\x02\\x03\"Veemon\"\nNon impara molto all'inizio, ma\nprova ad aumentare certi parametri.[pause]",
-	"\\x02\\x07Nav. digivoluzione\\x02\\x07Ora sai proprio\ntutto!\nBuona fortuna![pause]",
+	"[name]Nav. Digimon[name]Ti mostrerò\ni dati\nsul satellite.[pause]",
+	"\"Kotemon\"\nImpara tecniche di Agumon e Veemon.\nSe aumenti la res. alle macchine...[pause][clear]\"Monmon\"\nQuando ha appreso Ultimate, aumenta\nforza e resist. a macch. e vento.[pause]",
+	"\"Kumanon\"\nAumenta saggezza e spirito: sono\npiù impegnativi.[pause][clear]\"Renamon\"\nPotenzia spirito o forza e resistenza.[pause]",
+	"\"Patamon\"\nAumenta la saggezza o la forza.[pause][clear]\"Agumon\"\nCon la res. alle tenebre impara\nle digivoluzioni delle tenebre.[pause]",
+	"\"Guilmon\"\nHa alcuni parametri bassi:\nrinforza i suoi punti deboli.[pause][clear]\"Veemon\"\nNon impara molto all'inizio, ma\nprova ad aumentare certi parametri.[pause]",
+	"[name]Nav. digivoluzione[name]Ora sai proprio\ntutto!\nBuona fortuna![pause]",
 ]

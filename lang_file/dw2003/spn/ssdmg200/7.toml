@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07Servicio de Domador\\x02\\x07Comprendo.[pause]\\x02\\x03Si deseáis sacar  \nlos Digimon, venid\na verme.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Vamos a dar una\nvuelta por el \nvestíbulo![pause]",
+	"[name]Servicio de Domador[name]Comprendo.[pause][clear]Si deseáis sacar  \nlos Digimon, venid\na verme.[pause]",
+	"[name][player_name][name]¡Vamos a dar una\nvuelta por el \nvestíbulo![pause]",
 ]

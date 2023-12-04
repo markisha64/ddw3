@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Hurra!\nSieg über\nBulbmon![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hä?!\nDas Loch geht\nimmer weiter![pause]\\x02\\x03Vielleicht geht\nes zum Ama-\nterasu-Server...[pause]\\x02\\x03Ich finde es\nheraus![pause]",
+	"[name][player_name][name]Hurra!\nSieg über\nBulbmon![pause]",
+	"[name][player_name][name]Hä?!\nDas Loch geht\nimmer weiter![pause][clear]Vielleicht geht\nes zum Ama-\nterasu-Server...[pause][clear]Ich finde es\nheraus![pause]",
 ]

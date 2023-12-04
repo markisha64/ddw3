@@ -1,10 +1,10 @@
 strings = [
 	"",
-	"\\x02\\x07Numemon\\x02\\x07¿Vas a Ciudad\nByakko?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Sí, ese es  \nel plan.[pause]",
-	"\\x02\\x07Numemon\\x02\\x07Mejor que no.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¿Qué? \n¿Y eso?[pause]",
-	"\\x02\\x07Numemon\\x02\\x07¡Acabo de  \nvolver!\n¿Vale?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Eh, espera![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Se fue...[pause]\\x02\\x03¿Qué pasará \ncon Ciudad \nByakko?[pause]",
+	"[name]Numemon[name]¿Vas a Ciudad\nByakko?[pause]",
+	"[name][player_name][name]Sí, ese es  \nel plan.[pause]",
+	"[name]Numemon[name]Mejor que no.[pause]",
+	"[name][player_name][name]¿Qué? \n¿Y eso?[pause]",
+	"[name]Numemon[name]¡Acabo de  \nvolver!\n¿Vale?[pause]",
+	"[name][player_name][name]¡Eh, espera![pause]",
+	"[name][player_name][name]Se fue...[pause][clear]¿Qué pasará \ncon Ciudad \nByakko?[pause]",
 ]

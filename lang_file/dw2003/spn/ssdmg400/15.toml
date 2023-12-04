@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023¡Zanbamon!\n¡Esta vez voy\na pasar![pause]",
-	"\\x02\\x07Zanbamon\\x02\\x07¡Ja ja ja!\nNunca te cansas,\n¿verdad?[pause]\\x02\\x03No importa cómo lo\nintentes. ¡Nunca \nganarás![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Eso lo veremos.\n¡Mira lo\nque tengo![pause]",
-	"\\x02\\x07Zanbamon\\x02\\x07¡Ohhh! ¿Es,\nes eso una\nHierba Olor.?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Bien!¡Ya\npuedo ir![pause]",
-	"\\x02\\x07Zanbamon\\x02\\x07¡No lo soporto!\nEstá bien,\npasa esta vez.[pause]\\x02\\x03¡Pero no lo \nolvidaré, chico![pause]",
+	"[name][player_name][name]¡Zanbamon!\n¡Esta vez voy\na pasar![pause]",
+	"[name]Zanbamon[name]¡Ja ja ja!\nNunca te cansas,\n¿verdad?[pause][clear]No importa cómo lo\nintentes. ¡Nunca \nganarás![pause]",
+	"[name][player_name][name]Eso lo veremos.\n¡Mira lo\nque tengo![pause]",
+	"[name]Zanbamon[name]¡Ohhh! ¿Es,\nes eso una\nHierba Olor.?[pause]",
+	"[name][player_name][name]¡Bien!¡Ya\npuedo ir![pause]",
+	"[name]Zanbamon[name]¡No lo soporto!\nEstá bien,\npasa esta vez.[pause][clear]¡Pero no lo \nolvidaré, chico![pause]",
 ]

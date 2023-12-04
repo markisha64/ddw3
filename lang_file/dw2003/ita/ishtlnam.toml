@@ -16,7 +16,7 @@ strings = [
 	"Loc. Bai Hu",
 	"Loc. Xuan Wu",
 	"BIT",
-	"Ciascun Digimon\n\\x02\\x05\\x01 BIT",
+	"Ciascun Digimon\n{1} BIT",
 	"Resta nella locanda",
 	"Lascia la locanda",
 	"Non hai BIT sufficienti!",

@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Des secousses\nsismiques ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Que, qu'est-ce \nqu'il se passe ?![pause]",
+	"[name][player_name][name]Des secousses\nsismiques ![pause]",
+	"[name][player_name][name]Que, qu'est-ce \nqu'il se passe ?![pause]",
 ]

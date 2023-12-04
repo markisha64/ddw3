@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Oui !\nVictoire ![pause]",
-	"\\x02\\x07MetalGreymon\\x02\\x07Bien, je l'ai \npromis...\nFais-en bon usage ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Super, j'ai\nl'ADNN\nAgumon ![pause]\\x02\\x03Merci, \nMetalGreymon ![pause]",
+	"[name][player_name][name]Oui !\nVictoire ![pause]",
+	"[name]MetalGreymon[name]Bien, je l'ai \npromis...\nFais-en bon usage ![pause]",
+	"[name][player_name][name]Super, j'ai\nl'ADNN\nAgumon ![pause][clear]Merci, \nMetalGreymon ![pause]",
 ]

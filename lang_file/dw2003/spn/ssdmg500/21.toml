@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07BK Seraphimon\\x02\\x07Conozco tu fuerza \ny tu valor.[pause]\\x02\\x03Estaba probando\ntu valor...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Sí! ¡No \nperderé en esta\ncategoría![pause]",
-	"\\x02\\x07BK Seraphimon\\x02\\x07¡Esa es la idea![pause]\\x02\\x03Has pasado.\nTe daré esto\ncomo prueba.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Sí! ¡Tengo el\nTraje de Tirador![pause]",
-	"\\x02\\x07BK Seraphimon\\x02\\x07¡El pase será\nrevelado por\nvalor![pause]\\x02\\x03¡No cedas ante\nningún enemigo\ny resiste![pause]",
+	"[name]BK Seraphimon[name]Conozco tu fuerza \ny tu valor.[pause][clear]Estaba probando\ntu valor...[pause]",
+	"[name][player_name][name]¡Sí! ¡No \nperderé en esta\ncategoría![pause]",
+	"[name]BK Seraphimon[name]¡Esa es la idea![pause][clear]Has pasado.\nTe daré esto\ncomo prueba.[pause]",
+	"[name][player_name][name]¡Sí! ¡Tengo el\nTraje de Tirador![pause]",
+	"[name]BK Seraphimon[name]¡El pase será\nrevelado por\nvalor![pause][clear]¡No cedas ante\nningún enemigo\ny resiste![pause]",
 ]

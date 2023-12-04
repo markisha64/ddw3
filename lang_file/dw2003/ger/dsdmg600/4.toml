@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Was liegt vor dem Loch?\nEin groβer Stein?[pause]",
-	"\\x02\\x07???\\x02\\x07Bin kein Stein![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Was zum..\nWas?![pause]",
-	"\\x02\\x07Numemon\\x02\\x07Wie gesagt.\nByakko City ist\ngefährlich![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hey, du bist \ndoch Numemon![pause]",
-	"\\x02\\x07Numemon\\x02\\x07Richtig. Ich\nhelfe dir.\nKomm mit![pause]",
+	"[name][player_name][name]Was liegt vor dem Loch?\nEin groβer Stein?[pause]",
+	"[name]???[name]Bin kein Stein![pause]",
+	"[name][player_name][name]Was zum..\nWas?![pause]",
+	"[name]Numemon[name]Wie gesagt.\nByakko City ist\ngefährlich![pause]",
+	"[name][player_name][name]Hey, du bist \ndoch Numemon![pause]",
+	"[name]Numemon[name]Richtig. Ich\nhelfe dir.\nKomm mit![pause]",
 ]

@@ -1,4 +1,4 @@
 strings = [
 	"",
-	".....zzzzhh...gerade....\n....zzzzh.....Meer.....Basis\n....zzzzh....[pause]\\x02\\x03...Angriff...durch...Terroris...\n....Jugger....und...jetzt..\n...Stadt.....zzzh.....[pause]\\x02\\x03Zzhh...Notfall.....ist...\nLeute....in...Sicher....\n...und...flüchten...zzzhh[pause]",
+	".....zzzzhh...gerade....\n....zzzzh.....Meer.....Basis\n....zzzzh....[pause][clear]...Angriff...durch...Terroris...\n....Jugger....und...jetzt..\n...Stadt.....zzzh.....[pause][clear]Zzhh...Notfall.....ist...\nLeute....in...Sicher....\n...und...flüchten...zzzhh[pause]",
 ]

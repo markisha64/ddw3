@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Tja... hier\nist niemand.[pause]",
-	"\\x02\\x07Stimme\\x02\\x07Huu-uuu-uu[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Aah! Ein\nMonster![pause]",
+	"[name][player_name][name]Tja... hier\nist niemand.[pause]",
+	"[name]Stimme[name]Huu-uuu-uu[pause]",
+	"[name][player_name][name]Aah! Ein\nMonster![pause]",
 ]

@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Capo Qing Long\\x02\\x07Compagno!\nBenvenuto![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Capo di Qing Long,\ndov'è il digi-uovo\ndella sapienza?[pause]",
-	"\\x02\\x07Capo di Qing Long\\x02\\x07Non lo so. Perché\nme lo chiedi?[pause]\\x02\\x03Non sei uno di noi![pause]",
-	"\\x02\\x07\\x02\\x09\\x023No. E ora\ncosa intendi\nfare?[pause]",
-	"\\x02\\x07C. Qing Long\\x02\\x07Ti catturerò\ncome tutti\ngli altri![pause]",
+	"[name]Capo Qing Long[name]Compagno!\nBenvenuto![pause]",
+	"[name][player_name][name]Capo di Qing Long,\ndov'è il digi-uovo\ndella sapienza?[pause]",
+	"[name]Capo di Qing Long[name]Non lo so. Perché\nme lo chiedi?[pause][clear]Non sei uno di noi![pause]",
+	"[name][player_name][name]No. E ora\ncosa intendi\nfare?[pause]",
+	"[name]C. Qing Long[name]Ti catturerò\ncome tutti\ngli altri![pause]",
 ]

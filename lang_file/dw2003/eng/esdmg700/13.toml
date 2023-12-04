@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07Fire Knight\\x02\\x07Man, I lost!\nI lost this time.[pause]\\x02\\x03I need to blow off \nsteam... Let's do this \nagain sometime![pause]",
-	"\\x02\\x07Fire Knight\\x02\\x07Dark Dungeon is\nup ahead!\nBe careful![pause]",
+	"[name]Fire Knight[name]Man, I lost!\nI lost this time.[pause][clear]I need to blow off \nsteam... Let's do this \nagain sometime![pause]",
+	"[name]Fire Knight[name]Dark Dungeon is\nup ahead!\nBe careful![pause]",
 ]

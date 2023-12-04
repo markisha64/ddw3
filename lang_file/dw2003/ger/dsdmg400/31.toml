@@ -1,6 +1,6 @@
 strings = [
 	"",
 	"Beep Beep...\nBITTE WARTEN.\nDATENBESTÄTIGUNG.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hat funktioniert!\nJetzt kann ich\nin den Südsektor![pause]",
-	"DANKE FÜRS WARTEN.\nDU BIST \\x02\\x08\\x01\\x02\\x05\\x01.[pause]\\x02\\x03DAS SYSTEM WIRD GE-\nSTARTET. GEHE BITTE\nZUR GONDEL.[pause]",
+	"[name][player_name][name]Hat funktioniert!\nJetzt kann ich\nin den Südsektor![pause]",
+	"DANKE FÜRS WARTEN.\nDU BIST [player_name2].[pause][clear]DAS SYSTEM WIRD GE-\nSTARTET. GEHE BITTE\nZUR GONDEL.[pause]",
 ]

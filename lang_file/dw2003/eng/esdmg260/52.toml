@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Mr. Smith\\x02\\x07Now's your chance![pause]\\x02\\x03Finally, our main item![pause]\\x02\\x03Ronin Armor, admired by\nall members![pause]\\x02\\x03This Kotemon exclusive \narmor will start at\n16000 BIT![pause]",
-	"\\x02\\x07Dealer Abel\\x02\\x0716900 BIT![pause]",
-	"\\x02\\x07Chief Milly\\x02\\x0717000 BIT![pause]",
-	"\\x02\\x07RPG Fan Masao\\x02\\x0717400 BIT![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hmm. 17500 BIT\n...hmmm...[pause]",
+	"[name]Mr. Smith[name]Now's your chance![pause][clear]Finally, our main item![pause][clear]Ronin Armor, admired by\nall members![pause][clear]This Kotemon exclusive \narmor will start at\n16000 BIT![pause]",
+	"[name]Dealer Abel[name]16900 BIT![pause]",
+	"[name]Chief Milly[name]17000 BIT![pause]",
+	"[name]RPG Fan Masao[name]17400 BIT![pause]",
+	"[name][player_name][name]Hmm. 17500 BIT\n...hmmm...[pause]",
 ]

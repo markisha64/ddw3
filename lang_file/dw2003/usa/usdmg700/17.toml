@@ -1,10 +1,10 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Yeah, I won \nagainst Genbu \nLeader too![pause]",
-	"\\x02\\x07Genbu Leader\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01, I apologize \nfor making you fight.[pause]\\x02\\x03I wanted to see for\nmyself that...[pause]\\x02\\x03You can really fight\nagainst the A.o.A![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oh, I see...[pause]",
-	"\\x02\\x07Genbu Leader\\x02\\x07Now take this\nand stop the \nA.o.A's plans![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Yeah! I got \nthe Genbu \nBadge![pause]",
-	"\\x02\\x07Genbu Leader\\x02\\x07I think you're\nstrong enough \nto fight on.[pause]\\x02\\x03But they too are\nstrong, so keep \nyour guard up![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Thanks,\nGenbu Leader![pause]",
+	"[name][player_name][name]Yeah, I won \nagainst Genbu \nLeader too![pause]",
+	"[name]Genbu Leader[name][player_name2], I apologize \nfor making you fight.[pause][clear]I wanted to see for\nmyself that...[pause][clear]You can really fight\nagainst the A.o.A![pause]",
+	"[name][player_name][name]Oh, I see...[pause]",
+	"[name]Genbu Leader[name]Now take this\nand stop the \nA.o.A's plans![pause]",
+	"[name][player_name][name]Yeah! I got \nthe Genbu \nBadge![pause]",
+	"[name]Genbu Leader[name]I think you're\nstrong enough \nto fight on.[pause][clear]But they too are\nstrong, so keep \nyour guard up![pause]",
+	"[name][player_name][name]Thanks,\nGenbu Leader![pause]",
 ]

@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023All right then!\n8700 BIT![pause]",
-	"\\x02\\x07Mr. Smith\\x02\\x07Wow! \n8700 BIT![pause]\\x02\\x03Anyone above\n8700 BIT?[pause]",
-	"\\x02\\x07Mr. Smith\\x02\\x07Once, twice, \nSOLD![pause]\\x02\\x03Brave Helmet is \nsold at 8700 BIT![pause]\\x02\\x03Congratulations\nto you over there![pause]\\x02\\x03I'm transferring \nthe item to your\nsatellite now![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Yeah! I got the \nBrave Helmet![pause]",
-	"\\x02\\x07\\x02\\x09\\x023OK, I got a pretty \ncool item, so let's \nget out of here.[pause]",
+	"[name][player_name][name]All right then!\n8700 BIT![pause]",
+	"[name]Mr. Smith[name]Wow! \n8700 BIT![pause][clear]Anyone above\n8700 BIT?[pause]",
+	"[name]Mr. Smith[name]Once, twice, \nSOLD![pause][clear]Brave Helmet is \nsold at 8700 BIT![pause][clear]Congratulations\nto you over there![pause][clear]I'm transferring \nthe item to your\nsatellite now![pause]",
+	"[name][player_name][name]Yeah! I got the \nBrave Helmet![pause]",
+	"[name][player_name][name]OK, I got a pretty \ncool item, so let's \nget out of here.[pause]",
 ]

@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Etermon\\x02\\x07He perdido con \nesta Carpeta\nantes...[pause]\\x02\\x03¡Pero te ganaré \ncon mi Carpeta\nReal![pause]",
+	"[name]Etermon[name]He perdido con \nesta Carpeta\nantes...[pause][clear]¡Pero te ganaré \ncon mi Carpeta\nReal![pause]",
 ]

@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023¡De acuerdo!\n¡Por 1600![pause]",
-	"\\x02\\x07Sr. Smith\\x02\\x07¡Uauu!\n¡1600 BIT![pause]\\x02\\x03¿Alguien sobre\n1600 BIT?[pause]",
-	"\\x02\\x07Sr. Smith\\x02\\x07A la una, las dos\nadjudicado.[pause]\\x02\\x03¡Guarda de Tirador\nvendida, 1600 BIT![pause]\\x02\\x03¡Felicidades\nal chico de ahí![pause]\\x02\\x03¡Estoy transfiriendo \nel artículo a\ntu satélite![pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Sí!¡Tengo la \nGuarda de Tira.![pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Sí!¡Tengo un\nartículo chulo! \nHora de irse.[pause]",
+	"[name][player_name][name]¡De acuerdo!\n¡Por 1600![pause]",
+	"[name]Sr. Smith[name]¡Uauu!\n¡1600 BIT![pause][clear]¿Alguien sobre\n1600 BIT?[pause]",
+	"[name]Sr. Smith[name]A la una, las dos\nadjudicado.[pause][clear]¡Guarda de Tirador\nvendida, 1600 BIT![pause][clear]¡Felicidades\nal chico de ahí![pause][clear]¡Estoy transfiriendo \nel artículo a\ntu satélite![pause]",
+	"[name][player_name][name]¡Sí!¡Tengo la \nGuarda de Tira.![pause]",
+	"[name][player_name][name]¡Sí!¡Tengo un\nartículo chulo! \nHora de irse.[pause]",
 ]

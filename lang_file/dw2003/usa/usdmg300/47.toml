@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Etemon\\x02\\x07You're something![pause]\\x02\\x03Now I gotta \nrebuild my folder![pause]",
+	"[name]Etemon[name]You're something![pause][clear]Now I gotta \nrebuild my folder![pause]",
 ]

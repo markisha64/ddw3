@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07Dunkler Ritter\\x02\\x07Du kennst die\nunglaublichsten\nBewegungen.[pause]",
-	"\\x02\\x07Dunkler Ritter\\x02\\x07Geh jetzt!\nAus dir wird\nnoch etwas![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Super,\ndanke![pause]",
+	"[name]Dunkler Ritter[name]Du kennst die\nunglaublichsten\nBewegungen.[pause]",
+	"[name]Dunkler Ritter[name]Geh jetzt!\nAus dir wird\nnoch etwas![pause]",
+	"[name][player_name][name]Super,\ndanke![pause]",
 ]

@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Oui, c'est vraiment\nle Monde Réel ![pause]\\x02\\x03Ouah ! Mon corps\nest bien ici ![pause]\\x02\\x03... Oups ! Pas de\ntemps à perdre ![pause]\\x02\\x03Nous n'avons que\n180 secondes !\nDépêchons-nous ![pause]",
+	"[name][player_name][name]Oui, c'est vraiment\nle Monde Réel ![pause][clear]Ouah ! Mon corps\nest bien ici ![pause][clear]... Oups ! Pas de\ntemps à perdre ![pause][clear]Nous n'avons que\n180 secondes !\nDépêchons-nous ![pause]",
 ]

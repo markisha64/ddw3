@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Ouh, j'ai eu\npeur. Qu'est-\nce que c'était ?[pause]",
-	"\\x02\\x07???\\x02\\x07GUBIII ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023On dirait un Digimon\nDisciple... [pause]\\x02\\x03Il n'est sûrement pas\nde l'A.o.A. s'il ne\ndisparaît pas...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Attends !\nOù vas-\ntu ?[pause]",
+	"[name][player_name][name]Ouh, j'ai eu\npeur. Qu'est-\nce que c'était ?[pause]",
+	"[name]???[name]GUBIII ![pause]",
+	"[name][player_name][name]On dirait un Digimon\nDisciple... [pause][clear]Il n'est sûrement pas\nde l'A.o.A. s'il ne\ndisparaît pas...[pause]",
+	"[name][player_name][name]Attends !\nOù vas-\ntu ?[pause]",
 ]

@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Gagné !\nAlors ?[pause]",
-	"\\x02\\x07Keith\\x02\\x07Ha ! J'ai été\ngentil avec toi.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Je croyais que\ntu n'allais pas\nretenir tes coups.[pause]",
-	"\\x02\\x07Keith\\x02\\x07Je ne sais pas\nde quoi tu parles ![pause]\\x02\\x03Fais attention. Je\nne te raterai pas\nla prochaine fois ! [pause]\\x02\\x03Ne m'oublie pas !\nCiao, minable ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Peuh !\nC'est lui le\nminable ![pause]",
+	"[name][player_name][name]Gagné !\nAlors ?[pause]",
+	"[name]Keith[name]Ha ! J'ai été\ngentil avec toi.[pause]",
+	"[name][player_name][name]Je croyais que\ntu n'allais pas\nretenir tes coups.[pause]",
+	"[name]Keith[name]Je ne sais pas\nde quoi tu parles ![pause][clear]Fais attention. Je\nne te raterai pas\nla prochaine fois ! [pause][clear]Ne m'oublie pas !\nCiao, minable ![pause]",
+	"[name][player_name][name]Peuh !\nC'est lui le\nminable ![pause]",
 ]

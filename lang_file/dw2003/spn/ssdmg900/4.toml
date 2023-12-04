@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Así que,\neste es el estadio.[pause]\\x02\\x03Me pregunto quién\nes mi oponente. \n¡Listo![pause]",
-	"\\x02\\x07Kurt\\x02\\x07¡Oye\n\\x02\\x08\\x01\\x02\\x05\\x01![pause]\\x02\\x03Sabía que\nseguirías.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¿Eh?\n¿Kurt?[pause]\\x02\\x03¡No me digas\nque eres el\nmás fuerte![pause]",
-	"\\x02\\x07Kurt\\x02\\x07¡Está bien!\nMe alegro de que\nestés aquí. Siempre[pause]\\x02\\x03quise luchar\ncontigo.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Opino igual!\nNo hay un oponente\nmás valioso que tú.[pause]",
-	"\\x02\\x07Kurt\\x02\\x07¡Ja ja! Voy a\ngozar de esto.[pause]\\x02\\x03Que empiece la\ndiversión. No te\ncortes.[pause]",
+	"[name][player_name][name]Así que,\neste es el estadio.[pause][clear]Me pregunto quién\nes mi oponente. \n¡Listo![pause]",
+	"[name]Kurt[name]¡Oye\n[player_name2]![pause][clear]Sabía que\nseguirías.[pause]",
+	"[name][player_name][name]¿Eh?\n¿Kurt?[pause][clear]¡No me digas\nque eres el\nmás fuerte![pause]",
+	"[name]Kurt[name]¡Está bien!\nMe alegro de que\nestés aquí. Siempre[pause][clear]quise luchar\ncontigo.[pause]",
+	"[name][player_name][name]¡Opino igual!\nNo hay un oponente\nmás valioso que tú.[pause]",
+	"[name]Kurt[name]¡Ja ja! Voy a\ngozar de esto.[pause][clear]Que empiece la\ndiversión. No te\ncortes.[pause]",
 ]

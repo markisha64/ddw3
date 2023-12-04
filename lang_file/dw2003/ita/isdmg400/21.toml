@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023WarGrowlmon, ho un\nfavore da chiederti.[pause]\\x02\\x03Mi dai il DDNA di \nGuilmon dal tuo?[pause]",
-	"\\x02\\x07WarGrowlmon\\x02\\x07Mai! Se lo vuoi\ndevi prima\nsconfiggermi![pause]",
+	"[name][player_name][name]WarGrowlmon, ho un\nfavore da chiederti.[pause][clear]Mi dai il DDNA di \nGuilmon dal tuo?[pause]",
+	"[name]WarGrowlmon[name]Mai! Se lo vuoi\ndevi prima\nsconfiggermi![pause]",
 ]

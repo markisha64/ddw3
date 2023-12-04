@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023GrapLeomon, j'ai\nun service à te\ndemander.[pause]\\x02\\x03Je peux avoir l'ADNN\nKumamon depuis\nton ADNN ?[pause]",
-	"\\x02\\x07GrapLeomon\\x02\\x07Ha ha ha ha !\nT'es un p'tit\nrigolo, toi ![pause]\\x02\\x03Si tu peux me battre, \nil est à toi ![pause]",
+	"[name][player_name][name]GrapLeomon, j'ai\nun service à te\ndemander.[pause][clear]Je peux avoir l'ADNN\nKumamon depuis\nton ADNN ?[pause]",
+	"[name]GrapLeomon[name]Ha ha ha ha !\nT'es un p'tit\nrigolo, toi ![pause][clear]Si tu peux me battre, \nil est à toi ![pause]",
 ]

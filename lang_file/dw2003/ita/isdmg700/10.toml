@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Strega ghiaccio\\x02\\x07Un momento! Non\nposso far passare\nun ragazzo![pause]\\x02\\x03Vattene a\ncasa![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Stai scherzando,\nspero. Non ho\ntempo da perdere![pause]",
-	"\\x02\\x07Strega ghiaccio\\x02\\x07Sono la regina\ndella grotta del\nghiaccio! Bada![pause]\\x02\\x03Non ti perdonerò!\nSarai punito per\nquesto![pause]",
-	"\\x02\\x07\\x02\\x09\\x023?!?[pause]",
+	"[name]Strega ghiaccio[name]Un momento! Non\nposso far passare\nun ragazzo![pause][clear]Vattene a\ncasa![pause]",
+	"[name][player_name][name]Stai scherzando,\nspero. Non ho\ntempo da perdere![pause]",
+	"[name]Strega ghiaccio[name]Sono la regina\ndella grotta del\nghiaccio! Bada![pause][clear]Non ti perdonerò!\nSarai punito per\nquesto![pause]",
+	"[name][player_name][name]?!?[pause]",
 ]

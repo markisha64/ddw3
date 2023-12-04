@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Digievolución Navi\\x02\\x07Te mostraré consejos\npara enseñar a tu\nDigimon a digiev.[pause]\\x02\\x03Mostraré los datos en\ntu satélite.[pause]",
-	"\"Kotemon\"\nPuede aprender Agumon y Veemon\nsi entrenas la tolerancia a máquina.[pause]\\x02\\x03\"Monmon\"\nUna vez aprenda Ultimate, entrena\nsu fza. y tolerancia a máq. y vien.[pause]\\x02\\x03\"Kumamon\"\nEntrena sabiduría y espíritu,\nlas más difíciles de increm.[pause]",
-	"\"Renamon\" \nEntrena espíritu o fuerza y defensa.[pause]\\x02\\x03\"Patamon\"\nEntrena sabiduría o fuerza.[pause]",
-	"\"Agumon\"\nSi incrementa la tolerancia a osc. \naprenderá la digiev. osc.[pause]\\x02\\x03\"Guilmon\"\nLos parámetros son parciales,\nla clave, reforzar sus puntos déb.[pause]",
-	"\\x02\\x07Digiev. Navi.\\x02\\x07Esa es toda la \ninformación.\n¡Buena suerte![pause]",
+	"[name]Digievolución Navi[name]Te mostraré consejos\npara enseñar a tu\nDigimon a digiev.[pause][clear]Mostraré los datos en\ntu satélite.[pause]",
+	"\"Kotemon\"\nPuede aprender Agumon y Veemon\nsi entrenas la tolerancia a máquina.[pause][clear]\"Monmon\"\nUna vez aprenda Ultimate, entrena\nsu fza. y tolerancia a máq. y vien.[pause][clear]\"Kumamon\"\nEntrena sabiduría y espíritu,\nlas más difíciles de increm.[pause]",
+	"\"Renamon\" \nEntrena espíritu o fuerza y defensa.[pause][clear]\"Patamon\"\nEntrena sabiduría o fuerza.[pause]",
+	"\"Agumon\"\nSi incrementa la tolerancia a osc. \naprenderá la digiev. osc.[pause][clear]\"Guilmon\"\nLos parámetros son parciales,\nla clave, reforzar sus puntos déb.[pause]",
+	"[name]Digiev. Navi.[name]Esa es toda la \ninformación.\n¡Buena suerte![pause]",
 ]

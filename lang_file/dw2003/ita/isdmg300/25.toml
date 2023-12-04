@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"Il mio vero obiettivo era\nGunslinger: la Juggernaut era\nun'esca.[pause]\\x02\\x03L'Operazione Sigma si\nsta concludendo.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Concludendo?\nCosa stanno\nfacendo?[pause]",
+	"Il mio vero obiettivo era\nGunslinger: la Juggernaut era\nun'esca.[pause][clear]L'Operazione Sigma si\nsta concludendo.[pause]",
+	"[name][player_name][name]Concludendo?\nCosa stanno\nfacendo?[pause]",
 	"Lanceremo l'onda digitalizzante dal\nCannone Ragnarok su Gunslinger e\ntutti i terrestri diventeranno Oinkmon![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Co-cosa?!\nNon posso\npermetterlo![pause]",
-	"Allora raggiungi Gunslinger\ne affrontami.[pause]\\x02\\x03Non hai nulla da temere.\nAttraversa il portale\ne sarai su Gunslinger![pause]\\x02\\x03Sarà la battaglia finale![pause]\\x02\\x03La posta in gioco è\nil destino dell'umanità.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Va bene,\nLord Megamorte,\narrivo![pause]\\x02\\x03Sappi che ti\nbatterò![pause]",
+	"[name][player_name][name]Co-cosa?!\nNon posso\npermetterlo![pause]",
+	"Allora raggiungi Gunslinger\ne affrontami.[pause][clear]Non hai nulla da temere.\nAttraversa il portale\ne sarai su Gunslinger![pause][clear]Sarà la battaglia finale![pause][clear]La posta in gioco è\nil destino dell'umanità.[pause]",
+	"[name][player_name][name]Va bene,\nLord Megamorte,\narrivo![pause][clear]Sappi che ti\nbatterò![pause]",
 ]

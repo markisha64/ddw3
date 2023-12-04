@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07Caballero Oscuro\\x02\\x07Tienes algunos\nmovimientos que no\nhabía visto antes.[pause]",
-	"\\x02\\x07Caballero Oscuro\\x02\\x07¡Adelante!\n¡Vas a ser un\ngran domador![pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Sí, \ngracias![pause]",
+	"[name]Caballero Oscuro[name]Tienes algunos\nmovimientos que no\nhabía visto antes.[pause]",
+	"[name]Caballero Oscuro[name]¡Adelante!\n¡Vas a ser un\ngran domador![pause]",
+	"[name][player_name][name]¡Sí, \ngracias![pause]",
 ]

@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Va bene!\n17500 BIT![pause]",
-	"\\x02\\x07Mr. Smith\\x02\\x07Wow!\n17500 BIT![pause]\\x02\\x03Nessuno offre\ndi più?[pause]",
-	"\\x02\\x07Mr. Smith\\x02\\x07Sembra che\nnessuno osi.[pause]\\x02\\x03L'armatura Ronin\nper 17500 BIT![pause]\\x02\\x03Congratulazioni\na te, laggiù![pause]\\x02\\x03Trasferirò \nl'oggetto al\nsatellite![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ho l'armatura\nRonin![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ora ho un oggetto\nprezioso. Vediamo\ncome si comporta.[pause]",
+	"[name][player_name][name]Va bene!\n17500 BIT![pause]",
+	"[name]Mr. Smith[name]Wow!\n17500 BIT![pause][clear]Nessuno offre\ndi più?[pause]",
+	"[name]Mr. Smith[name]Sembra che\nnessuno osi.[pause][clear]L'armatura Ronin\nper 17500 BIT![pause][clear]Congratulazioni\na te, laggiù![pause][clear]Trasferirò \nl'oggetto al\nsatellite![pause]",
+	"[name][player_name][name]Ho l'armatura\nRonin![pause]",
+	"[name][player_name][name]Ora ho un oggetto\nprezioso. Vediamo\ncome si comporta.[pause]",
 ]

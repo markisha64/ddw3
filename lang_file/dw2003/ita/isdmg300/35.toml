@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07MegaGargomon N\\x02\\x07Hai vinto!\nSei forte![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Certo!\nHo combattuto\ncon tutti![pause]",
-	"\\x02\\x07MegaGargomon N\\x02\\x07Fantastico!\nTi darò\nquesto![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ho l'elmo\nselvaggio,\nwow![pause]",
-	"\\x02\\x07MegaGargom. N\\x02\\x07Buona fortuna!\nFarò il tifo\nper te![pause]",
+	"[name]MegaGargomon N[name]Hai vinto!\nSei forte![pause]",
+	"[name][player_name][name]Certo!\nHo combattuto\ncon tutti![pause]",
+	"[name]MegaGargomon N[name]Fantastico!\nTi darò\nquesto![pause]",
+	"[name][player_name][name]Ho l'elmo\nselvaggio,\nwow![pause]",
+	"[name]MegaGargom. N[name]Buona fortuna!\nFarò il tifo\nper te![pause]",
 ]

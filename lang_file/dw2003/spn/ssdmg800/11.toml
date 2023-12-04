@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"Ja ja ja ja.\n¿Qué puede hacer una\npequeña mosca como tú?[pause]\\x02\\x03Yo, Lord Megadeath, estoy \nmás allá de la Puerta Deformadora.[pause]\\x02\\x03Ahora ven, ¡domador máximo!\n¡Y siente mi fuerza![pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Sí, bien![pause]\\x02\\x03¡Mucho ruido y\npocas nueces![pause]",
+	"Ja ja ja ja.\n¿Qué puede hacer una\npequeña mosca como tú?[pause][clear]Yo, Lord Megadeath, estoy \nmás allá de la Puerta Deformadora.[pause][clear]Ahora ven, ¡domador máximo!\n¡Y siente mi fuerza![pause]",
+	"[name][player_name][name]¡Sí, bien![pause][clear]¡Mucho ruido y\npocas nueces![pause]",
 ]

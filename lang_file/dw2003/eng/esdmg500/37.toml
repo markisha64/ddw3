@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Zanbamon\\x02\\x07Wha-what...\nI lost...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023How was that?!\nI'm pretty strong \nain't I?[pause]",
-	"\\x02\\x07Zanbamon\\x02\\x07Oh, all right.\nI'll give you this,\nso forgive me![pause]",
-	"\\x02\\x07\\x02\\x09\\x023What? Rusty \nKatana?!\nOh, well...[pause]",
-	"\\x02\\x07Zanbamon\\x02\\x07I-I'm going to live\nin peace here...[pause]\\x02\\x03Please leave me \nalone![pause]",
+	"[name]Zanbamon[name]Wha-what...\nI lost...[pause]",
+	"[name][player_name][name]How was that?!\nI'm pretty strong \nain't I?[pause]",
+	"[name]Zanbamon[name]Oh, all right.\nI'll give you this,\nso forgive me![pause]",
+	"[name][player_name][name]What? Rusty \nKatana?!\nOh, well...[pause]",
+	"[name]Zanbamon[name]I-I'm going to live\nin peace here...[pause][clear]Please leave me \nalone![pause]",
 ]

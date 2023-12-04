@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Responsable Chambre\\x02\\x07Système Astral OK.\nAucune anomalie\ndans les données.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Je me demande ce\nqui se passe dans\nle Monde Réel... [pause]\\x02\\x03J'espère que tout\nva bien...[pause]",
+	"[name]Responsable Chambre[name]Système Astral OK.\nAucune anomalie\ndans les données.[pause]",
+	"[name][player_name][name]Je me demande ce\nqui se passe dans\nle Monde Réel... [pause][clear]J'espère que tout\nva bien...[pause]",
 	"DELAI ECOULE.\nNUMERISATION ENGAGEE.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Que faire ? Je\nn'ai pas arrêté\nle Juggernaut.[pause]\\x02\\x03J'y étais\npresque ![pause]",
+	"[name][player_name][name]Que faire ? Je\nn'ai pas arrêté\nle Juggernaut.[pause][clear]J'y étais\npresque ![pause]",
 ]

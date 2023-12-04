@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023...sie haben\nJuggernaut...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023..was wohl in der\nechten Welt\npassiert...[pause]\\x02\\x03Ich hoffe, alles\nist in Ordnung...[pause]",
+	"[name][player_name][name]...sie haben\nJuggernaut...[pause]",
+	"[name][player_name][name]..was wohl in der\nechten Welt\npassiert...[pause][clear]Ich hoffe, alles\nist in Ordnung...[pause]",
 ]

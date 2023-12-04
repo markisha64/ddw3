@@ -1,10 +1,10 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Byakko Lead.,\nich möchte dich\netwas fragen.[pause]",
-	"\\x02\\x07Byakko Leader\\x02\\x07...Du hast mich \nbereits gefunden![pause]\\x02\\x03Dann muss ich jetzt\nmit dir kämpfen![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Was?\nHey, Sekunde!\nWas ist d...!?[pause]",
-	"\\x02\\x07Byakko Leader\\x02\\x07Ruhe! Ich werde\nnicht gegen die\nA.o.A verlieren![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Wie bitte?\n...A.o.A.?[pause]",
-	"\\x02\\x07Byakko Leader\\x02\\x07Tu doch nicht so!\nKommt her, meine\nDigimon![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ich kann es nicht\nglauben! Na gut.[pause]\\x02\\x03OK, bringen wir\nes hinter uns![pause]",
+	"[name][player_name][name]Byakko Lead.,\nich möchte dich\netwas fragen.[pause]",
+	"[name]Byakko Leader[name]...Du hast mich \nbereits gefunden![pause][clear]Dann muss ich jetzt\nmit dir kämpfen![pause]",
+	"[name][player_name][name]Was?\nHey, Sekunde!\nWas ist d...!?[pause]",
+	"[name]Byakko Leader[name]Ruhe! Ich werde\nnicht gegen die\nA.o.A verlieren![pause]",
+	"[name][player_name][name]Wie bitte?\n...A.o.A.?[pause]",
+	"[name]Byakko Leader[name]Tu doch nicht so!\nKommt her, meine\nDigimon![pause]",
+	"[name][player_name][name]Ich kann es nicht\nglauben! Na gut.[pause][clear]OK, bringen wir\nes hinter uns![pause]",
 ]

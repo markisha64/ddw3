@@ -11,7 +11,7 @@ strings = [
 	"/",
 	"L1",
 	"R1",
-	"\\x02\\x05\\x01 BIT",
+	"{1} BIT",
 	"ACH.",
 	"NON",
 	"Ouvrir quel booster ?",

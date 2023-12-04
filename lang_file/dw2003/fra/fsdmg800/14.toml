@@ -1,1 +1,1 @@
-strings = ["", "\\x02\\x07\\x02\\x09\\x023Qu-qu'est \nce que ?[pause]"]
+strings = ["", "[name][player_name][name]Qu-qu'est \nce que ?[pause]"]

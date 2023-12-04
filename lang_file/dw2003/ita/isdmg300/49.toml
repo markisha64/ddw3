@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07KingDivermon\\x02\\x07Ti darò\nquesto trofeo\nAsuka![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Davvero? Grazie\nKingDivermon![pause]\\x02\\x03Ho vinto il\ntrofeo Asuka![pause]",
-	"\\x02\\x07KingDivermon\\x02\\x07Solo io li \nposso produrre,\nsai?[pause]\\x02\\x03È il simbolo del\nre delle carte\ndi Asuka.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Wow! È il\nsimbolo del re\ndelle carte![pause]",
-	"\\x02\\x07KingDivermon\\x02\\x07Fofofo, non\nabbassare la\nguardia![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Sì, diventerò\nmolto più\nforte![pause]\\x02\\x03OK, andiamo a\ncercare\navversari![pause]",
+	"[name]KingDivermon[name]Ti darò\nquesto trofeo\nAsuka![pause]",
+	"[name][player_name][name]Davvero? Grazie\nKingDivermon![pause][clear]Ho vinto il\ntrofeo Asuka![pause]",
+	"[name]KingDivermon[name]Solo io li \nposso produrre,\nsai?[pause][clear]È il simbolo del\nre delle carte\ndi Asuka.[pause]",
+	"[name][player_name][name]Wow! È il\nsimbolo del re\ndelle carte![pause]",
+	"[name]KingDivermon[name]Fofofo, non\nabbassare la\nguardia![pause]",
+	"[name][player_name][name]Sì, diventerò\nmolto più\nforte![pause][clear]OK, andiamo a\ncercare\navversari![pause]",
 ]

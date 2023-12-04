@@ -2,14 +2,13 @@
 
 // Imports
 use {
-	crate::util::CmpBytes,
 	anyhow::Context,
 	std::{fmt, io},
 };
 
 /// Macro to declare all codepoints
 macro decl_codepoints(
-	$Codepoint:ident, $Other1:ident, $Other2:ident, $Other3:ident, $decode:ident, $encode:ident, $len:ident, $parse:ident;
+	$Codepoint:ident, $Other:ident, $decode:ident, $encode:ident, $len:ident, $parse:ident;
 
 	$(
 		$( $byte:literal ),+ => $Variant:ident, $name:literal, $repr:literal;
@@ -25,34 +24,24 @@ macro decl_codepoints(
 			$Variant,
 		)*
 
-		$Other1([u8; 1]),
-		$Other2([u8; 2]),
-		$Other3([u8; 3]),
+		$Other(u8),
 	}
 
 	impl $Codepoint {
-		/// Decodes a code point
-		pub fn $decode<R>(reader: R) -> Result<Self, anyhow::Error>
-		where
-			R: io::Read,
-		{
-			let mut bytes = reader.bytes();
-			let next_byte = || bytes.next().context("Found eof")?.context("Unable to read byte");
-			let mut cmp_bytes = CmpBytes::new(next_byte);
-
+		/// Decodes a code point.
+		///
+		/// Returns the remaining bytes
+		pub fn $decode(bytes: &[u8]) -> Option<(Self, &[u8])> {
 			// Test all bytes
 			$(
-				if cmp_bytes( $($byte),* )? {
-					return Ok(Self::$Variant);
+				if let Some(rest) = bytes.strip_prefix( &[ $($byte),* ] ) {
+					return Some((Self::$Variant, rest));
 				}
 			)*
 
-			// Otherwise return raw bytes
-			match cmp_bytes.into_bytes() {
-				[Some(b0), None, None] => Ok(Self::$Other1([b0])),
-				[Some(b0), Some(b1), None] => Ok(Self::$Other2([b0, b1])),
-				[Some(b0), Some(b1), Some(b2)] => Ok(Self::$Other3([b0, b1, b2])),
-				_ => unreachable!(),
+			match bytes {
+				&[b, ref rest @ ..] => Some((Self::$Other(b), rest)),
+				[] => None,
 			}
 		}
 
@@ -66,9 +55,7 @@ macro decl_codepoints(
 					Self::$Variant => writer.write_all(&[ $($byte),* ])?,
 				)*
 
-				Self::$Other1([b0]) => writer.write_all(&[b0])?,
-				Self::$Other2([b0, b1]) => writer.write_all(&[b0, b1])?,
-				Self::$Other3([b0, b1, b2]) => writer.write_all(&[b0, b1, b2])?,
+				Self::$Other(b) => writer.write_all(&[b])?,
 			}
 
 			Ok(())
@@ -82,9 +69,7 @@ macro decl_codepoints(
 					Self::$Variant => [ $($byte),* ].len() as u8,
 				)*
 
-				Self::$Other1(_) => 1,
-				Self::$Other2(_) => 2,
-				Self::$Other3(_) => 3,
+				Self::$Other(_) => 1,
 			}
 		}
 
@@ -101,7 +86,7 @@ macro decl_codepoints(
 			if let Some(rest) = s.strip_prefix("\\x") {
 				let byte = rest.get(..2).context("Expected 2 hex characters after `\\x`")?;
 				let byte = u8::from_str_radix(byte, 16).context("Unable to parse byte")?;
-				return Ok((Self::$Other1([byte]), &rest[2..]));
+				return Ok((Self::$Other(byte), &rest[2..]));
 			}
 
 			anyhow::bail!("Unknown to parse codepoint from {s:?}");
@@ -115,9 +100,7 @@ macro decl_codepoints(
 					Self::$Variant => f.pad($repr),
 				)*
 
-				Self::$Other1([b0]) => write!(f, "\\x{b0:02x}"),
-				Self::$Other2([b0, b1]) => write!(f, "\\x{b0:02x}\\x{b1:02x}"),
-				Self::$Other3([b0, b1, b2]) => write!(f, "\\x{b0:02x}\\x{b1:02x}\\x{b2:02x}"),
+				Self::$Other(b) => write!(f, "\\x{b:02x}"),
 			}
 		}
 	}
@@ -127,7 +110,7 @@ macro decl_codepoints(
 // TODO: Some codepoints seem to be locale-dependent, for e.g.,
 //       [0x01, 0x3b] is `InvertedExclamationMark` in ENG and SPN, but
 //       seems to be `LatinCapitalLetterT` in ITA.
-decl_codepoints! { Codepoint, Other1, Other2, Other3, decode, encode, len, parse;
+decl_codepoints! { Codepoint, Other, decode, encode, len, parse;
 	0x00 => Null, "Null", "\\0";
 
 	0x03 => Unknown03, "Unknown03", "\\x03";
@@ -519,19 +502,36 @@ decl_codepoints! { Codepoint, Other1, Other2, Other3, decode, encode, len, parse
 
 	0x01, 0x72 => MasculineOrdinalIndicator, "Masculine ordinal indicator", "º";
 
+	// Softlocks when used in text.
+	// Displays empty text when used in title?
 	0x02, 0x00 => Unknown0200, "Unknown0200" , "\\x02\\x00";
 
 
 	0x02, 0x01 => EndOfLine, "End of line" , "\n";
 
-	// Seems to be carriage return or something nearby
-	0x02, 0x03 => Unknown0203, "Unknown0203" , "\\x02\\x03";
+	// Clears the text box
+	0x02, 0x03 => ClearTextBox, "Clear text box", "[clear]";
 
-	// Surrounds titles, might be a color?
-	0x02, 0x07 => Unknown0207, "Unknown0207" , "\\x02\\x07";
+	// Toggle edit name
+	// Note: *Must* be used as the first escape. If used after the title,
+	//       it clears the screen.
+	0x02, 0x07 => ToggleEditName, "Toggle edit name", "[name]";
 
-	// Seems to be a placeholder for a percentage?
-	0x02, 0x05, 0x01 => Unknown020501, "Unknown020501" , "\\x02\\x05\\x01";
+	// Player name.
+	// Note: First one only works on "titles", if used in normal text, it
+	//       softlocks the game.
+	// TODO: The second ones contain `{N}` at the end. Does this mean `02080N`
+	//       is some kind modifier? They're really common, so for now we just
+	//       gave it a name though
+	0x02, 0x09                         => PlayerName , "Player name"  , "[player_name]";
+	0x02, 0x08, 0x01, 0x02, 0x05, 0x01 => PlayerName2, "Player name 2", "[player_name2]";
+	0x02, 0x08, 0x02, 0x02, 0x05, 0x02 => PlayerName3, "Player name 3", "[player_name3]";
+	0x02, 0x08, 0x03, 0x02, 0x05, 0x03 => PlayerName4, "Player name 4", "[player_name4]";
+
+	// Placeholders.
+	0x02, 0x05, 0x01 => Placeholder1, "Placeholder 1" , "{1}";
+	0x02, 0x05, 0x02 => Placeholder2, "Placeholder 2" , "{2}";
+	0x02, 0x05, 0x03 => Placeholder3, "Placeholder 3" , "{3}";
 
 	0x02, 0x02, 0x02 => TextPauseAction, "Text pause action", "[pause]";
 }

@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07Maestro Oscuro\\x02\\x07Eres bueno.\nYo he sido un\npoco lento...[pause]\\x02\\x03Pero me has ganado.\nTe daré esto,\n¡tómalo![pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Sí! ¡Tengo\nun Adaptador \nEXP![pause]",
-	"\\x02\\x07Maestro Oscuro\\x02\\x07... Puedes \nser un gran\ngran domador.[pause]\\x02\\x03Buena suerte.[pause]",
+	"[name]Maestro Oscuro[name]Eres bueno.\nYo he sido un\npoco lento...[pause][clear]Pero me has ganado.\nTe daré esto,\n¡tómalo![pause]",
+	"[name][player_name][name]¡Sí! ¡Tengo\nun Adaptador \nEXP![pause]",
+	"[name]Maestro Oscuro[name]... Puedes \nser un gran\ngran domador.[pause][clear]Buena suerte.[pause]",
 ]

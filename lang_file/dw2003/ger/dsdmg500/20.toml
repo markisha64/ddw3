@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Wie meinst\ndu\ndas?[pause]",
-	"\\x02\\x07BK Seraphimon\\x02\\x07Das bedeutet, du\nkämpfst mit mir![pause]\\x02\\x03Gewinnst du, lass\nich dich gehen...[pause]\\x02\\x03Verlierst du, ist\nes dein Ende![pause]",
-	"\\x02\\x07\\x02\\x09\\x023OK, verstanden.\nAlso machen\nwir das![pause]",
-	"\\x02\\x07BK Seraphimon\\x02\\x07Wart's ab![pause]\\x02\\x03Mach dich\nauf etwas\ngefasst![pause]",
+	"[name][player_name][name]Wie meinst\ndu\ndas?[pause]",
+	"[name]BK Seraphimon[name]Das bedeutet, du\nkämpfst mit mir![pause][clear]Gewinnst du, lass\nich dich gehen...[pause][clear]Verlierst du, ist\nes dein Ende![pause]",
+	"[name][player_name][name]OK, verstanden.\nAlso machen\nwir das![pause]",
+	"[name]BK Seraphimon[name]Wart's ab![pause][clear]Mach dich\nauf etwas\ngefasst![pause]",
 ]

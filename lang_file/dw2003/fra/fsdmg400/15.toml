@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Hé Zanbamon.\nReprenons le\ncombat, OK ?[pause]",
-	"\\x02\\x07Zanbamon\\x02\\x07Ha ha ha ha !\nTu reviens à\nla charge ?[pause]\\x02\\x03Tu n'arriveras\njamais à me\nbattre ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023On verra bien.\nRegarde ce que\nj'ai apporté ![pause]",
-	"\\x02\\x07Zanbamon\\x02\\x07Ahh ! C'est\nune Herbe\nFétide ?!![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oui. Allez\non se bat ![pause]",
-	"\\x02\\x07Zanbamon\\x02\\x07Je ne peux\npas... Je me\nrends ![pause]\\x02\\x03... Mais je te\nrevaudrai ça ![pause]",
+	"[name][player_name][name]Hé Zanbamon.\nReprenons le\ncombat, OK ?[pause]",
+	"[name]Zanbamon[name]Ha ha ha ha !\nTu reviens à\nla charge ?[pause][clear]Tu n'arriveras\njamais à me\nbattre ![pause]",
+	"[name][player_name][name]On verra bien.\nRegarde ce que\nj'ai apporté ![pause]",
+	"[name]Zanbamon[name]Ahh ! C'est\nune Herbe\nFétide ?!![pause]",
+	"[name][player_name][name]Oui. Allez\non se bat ![pause]",
+	"[name]Zanbamon[name]Je ne peux\npas... Je me\nrends ![pause][clear]... Mais je te\nrevaudrai ça ![pause]",
 ]

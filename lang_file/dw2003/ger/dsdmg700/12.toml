@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Feuerritter\\x02\\x07Sekündchen! \nGutes Timing. Mir\nwar langweilig.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Langweilig? Keine\nZeit für so was![pause]",
-	"\\x02\\x07Feuerritter\\x02\\x07Ist dir n. langweil.?\nDa muss ich lachen![pause]\\x02\\x03Tamer sind heutzu-\ntage schwach...[pause]\\x02\\x03Aber du bist anders!\nLos, wir kämpfen![pause]",
-	"\\x02\\x07\\x02\\x09\\x023?![pause]",
-	"\\x02\\x07Feuerritter\\x02\\x07Ich zeig dir die\nKraft meiner Digimon!\nFeeuueeer!![pause]",
+	"[name]Feuerritter[name]Sekündchen! \nGutes Timing. Mir\nwar langweilig.[pause]",
+	"[name][player_name][name]Langweilig? Keine\nZeit für so was![pause]",
+	"[name]Feuerritter[name]Ist dir n. langweil.?\nDa muss ich lachen![pause][clear]Tamer sind heutzu-\ntage schwach...[pause][clear]Aber du bist anders!\nLos, wir kämpfen![pause]",
+	"[name][player_name][name]?![pause]",
+	"[name]Feuerritter[name]Ich zeig dir die\nKraft meiner Digimon!\nFeeuueeer!![pause]",
 ]

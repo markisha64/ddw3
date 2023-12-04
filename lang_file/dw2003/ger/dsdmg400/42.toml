@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Hurra, ich hab\nQing Long\nChief besiegt![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hä?!\nDa ist etwas auf\ndem Boden...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Aber keine \nSpur vom Digiei\ndes Wissens...[pause]\\x02\\x03Was passiert\nwohl in der\nechten Welt...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hä?\nWas ist das?\nID-Pass Blau?[pause]\\x02\\x03Vielleicht brauch \nich ihn.\nIch nehm ihn mit![pause]",
+	"[name][player_name][name]Hurra, ich hab\nQing Long\nChief besiegt![pause]",
+	"[name][player_name][name]Hä?!\nDa ist etwas auf\ndem Boden...[pause]",
+	"[name][player_name][name]Aber keine \nSpur vom Digiei\ndes Wissens...[pause][clear]Was passiert\nwohl in der\nechten Welt...[pause]",
+	"[name][player_name][name]Hä?\nWas ist das?\nID-Pass Blau?[pause][clear]Vielleicht brauch \nich ihn.\nIch nehm ihn mit![pause]",
 ]

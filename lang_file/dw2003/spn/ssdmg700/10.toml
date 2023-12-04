@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Bruja de hielo\\x02\\x07¡Un momento!\n¡No te voy a \ndejar pasar![pause]\\x02\\x03¡Vuélvete a casa![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Estás de broma, \n¿no? No tengo\ntiempo para esto.[pause]",
-	"\\x02\\x07Bruja de hielo\\x02\\x07¡Soy la Reina de la\nMazmorra de Hielo!\n¡Cuida los modales![pause]\\x02\\x03¡No te perdonaré!\n¡Serás castigado![pause]",
-	"\\x02\\x07\\x02\\x09\\x023¿?¿?[pause]",
+	"[name]Bruja de hielo[name]¡Un momento!\n¡No te voy a \ndejar pasar![pause][clear]¡Vuélvete a casa![pause]",
+	"[name][player_name][name]Estás de broma, \n¿no? No tengo\ntiempo para esto.[pause]",
+	"[name]Bruja de hielo[name]¡Soy la Reina de la\nMazmorra de Hielo!\n¡Cuida los modales![pause][clear]¡No te perdonaré!\n¡Serás castigado![pause]",
+	"[name][player_name][name]¿?¿?[pause]",
 ]

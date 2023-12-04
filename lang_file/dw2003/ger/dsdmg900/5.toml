@@ -1,10 +1,10 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Hurra, Kurt\nist besiegt![pause]",
-	"\\x02\\x07Kurt\\x02\\x07Meinen Glückwunsch,\n\\x02\\x08\\x01\\x02\\x05\\x01! Du hast\nzu Recht gewonnen![pause]\\x02\\x03Jetzt bist du der \nstärkste Tamer![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Vielen Dank![pause]",
-	"\\x02\\x07Kurt\\x02\\x07Bald ist Digimon-Online\nwiederhergestellt. Als\nerster Weltmeister [pause]\\x02\\x03solltest du es mit allen\nHerausforderern der\nganzen Welt aufnehmen.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ich?\nDer erste World\nChamp?[pause]\\x02\\x03Na, dann werde\nich mein Bestes\ngeben![pause]",
-	"\\x02\\x07Kurt\\x02\\x07Ich verlass' mich \nauf dich! Dir bleibt\nnoch etwas Zeit.[pause]\\x02\\x03Bis dahin solltest \ndu mehr kämpfen u.\nnoch stärk. werden![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Keine Sorge.\nIch werde \nder stärkste[pause]\\x02\\x03Weltmeister\naller Zeiten![pause]",
+	"[name][player_name][name]Hurra, Kurt\nist besiegt![pause]",
+	"[name]Kurt[name]Meinen Glückwunsch,\n[player_name2]! Du hast\nzu Recht gewonnen![pause][clear]Jetzt bist du der \nstärkste Tamer![pause]",
+	"[name][player_name][name]Vielen Dank![pause]",
+	"[name]Kurt[name]Bald ist Digimon-Online\nwiederhergestellt. Als\nerster Weltmeister [pause][clear]solltest du es mit allen\nHerausforderern der\nganzen Welt aufnehmen.[pause]",
+	"[name][player_name][name]Ich?\nDer erste World\nChamp?[pause][clear]Na, dann werde\nich mein Bestes\ngeben![pause]",
+	"[name]Kurt[name]Ich verlass' mich \nauf dich! Dir bleibt\nnoch etwas Zeit.[pause][clear]Bis dahin solltest \ndu mehr kämpfen u.\nnoch stärk. werden![pause]",
+	"[name][player_name][name]Keine Sorge.\nIch werde \nder stärkste[pause][clear]Weltmeister\naller Zeiten![pause]",
 ]

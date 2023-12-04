@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Qu'est-ce \nque tu \nveux dire ?[pause]",
-	"\\x02\\x07BK Seraphimon\\x02\\x07Que tu dois te\nbattre avec moi ![pause]\\x02\\x03Si tu l'emportes, \ntu pourras partir.[pause]\\x02\\x03Mais si tu perds, \nc'en est fait de toi.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Compris.\nAlors allons-\ny ![pause]",
-	"\\x02\\x07BK Seraphimon\\x02\\x07Tu ne vas pas \nfaire le fier bien\nlongtemps ![pause]\\x02\\x03Tu ferais mieux \nde te tenir \nprêt ![pause]",
+	"[name][player_name][name]Qu'est-ce \nque tu \nveux dire ?[pause]",
+	"[name]BK Seraphimon[name]Que tu dois te\nbattre avec moi ![pause][clear]Si tu l'emportes, \ntu pourras partir.[pause][clear]Mais si tu perds, \nc'en est fait de toi.[pause]",
+	"[name][player_name][name]Compris.\nAlors allons-\ny ![pause]",
+	"[name]BK Seraphimon[name]Tu ne vas pas \nfaire le fier bien\nlongtemps ![pause][clear]Tu ferais mieux \nde te tenir \nprêt ![pause]",
 ]

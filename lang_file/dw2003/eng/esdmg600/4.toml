@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Hmmm, what's blocking\nthe hole? A big rock?[pause]",
-	"\\x02\\x07???\\x02\\x07I'm no rock![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Woah, wha...\nWhat?![pause]",
-	"\\x02\\x07Numemon\\x02\\x07I told you.\nByakko City is\ndangerous![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hey, you're\nthat Numemon!?[pause]",
-	"\\x02\\x07Numemon\\x02\\x07That's right. \nI'll help you,\nso come on![pause]",
+	"[name][player_name][name]Hmmm, what's blocking\nthe hole? A big rock?[pause]",
+	"[name]???[name]I'm no rock![pause]",
+	"[name][player_name][name]Woah, wha...\nWhat?![pause]",
+	"[name]Numemon[name]I told you.\nByakko City is\ndangerous![pause]",
+	"[name][player_name][name]Hey, you're\nthat Numemon!?[pause]",
+	"[name]Numemon[name]That's right. \nI'll help you,\nso come on![pause]",
 ]

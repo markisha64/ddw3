@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023¡De acuerdo!\n¡32000 BIT![pause]",
-	"\\x02\\x07Sr. Smith\\x02\\x07Oink\n32000 BIT[pause]\\x02\\x03Oinoink, oink\n¿32000 BIT?[pause]",
-	"\\x02\\x07Sr. Smith\\x02\\x07Oin oink oioink\noink oioink oink.[pause]\\x02\\x03¡Oioi Oink nk\noionko 32000 BIT![pause]\\x02\\x03¡Oinkoinnnk\noi oink oi oiii![pause]\\x02\\x03¡Oi oinkoo\noinoiko oin\noioinnnk oink![pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Sí!¡Tengo el\nOioi Oink![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ya tengo un artículo\nchulo. Vamos a ver\nqué hace.[pause]",
+	"[name][player_name][name]¡De acuerdo!\n¡32000 BIT![pause]",
+	"[name]Sr. Smith[name]Oink\n32000 BIT[pause][clear]Oinoink, oink\n¿32000 BIT?[pause]",
+	"[name]Sr. Smith[name]Oin oink oioink\noink oioink oink.[pause][clear]¡Oioi Oink nk\noionko 32000 BIT![pause][clear]¡Oinkoinnnk\noi oink oi oiii![pause][clear]¡Oi oinkoo\noinoiko oin\noioinnnk oink![pause]",
+	"[name][player_name][name]¡Sí!¡Tengo el\nOioi Oink![pause]",
+	"[name][player_name][name]Ya tengo un artículo\nchulo. Vamos a ver\nqué hace.[pause]",
 ]

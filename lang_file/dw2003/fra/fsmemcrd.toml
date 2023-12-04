@@ -2,7 +2,7 @@ strings = [
 	"",
 	"SAUVEGARDER",
 	"SAUVEGARDE",
-	"\\x02\\x05\\x01",
+	"{1}",
 	"Vérification de la Carte Mémoire.\nNe pas retirer la Carte Mémoire.",
 	"Vérification du fichier.\nNe pas retirer la Carte Mémoire.",
 	"Sauvegarder ici ?\nTouche [cross] : sauvegarder Touche [triangle] : retour",
@@ -39,5 +39,5 @@ strings = [
 	"Echec de sauvegarde.",
 	"Erreur Carte Mémoire.\nVérifier Carte Mémoire.",
 	"Sauvegarde Digimon World 2003",
-	"Accès fente Carte Mémoire \\x02\\x05\\x01",
+	"Accès fente Carte Mémoire {1}",
 ]

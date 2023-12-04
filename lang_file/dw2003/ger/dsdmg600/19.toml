@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Hey, weiβt\ndu, wo \nNumemon ist?[pause]",
-	"\\x02\\x07HiAndromon\\x02\\x07Numemon?\nWas willst du\nvon ihm?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ich muss ihn un-\nbedingt etwas fragen.\nBitte, sag schon![pause]",
-	"\\x02\\x07HiAndromon\\x02\\x07Ich weiβ, wo er ist,\naber das kann ich dir\nnicht einfach sagen.[pause]\\x02\\x03Ab hier dürfen nur\ndie Starken weiter-\ngehen.[pause]\\x02\\x03Wenn du ihn trotzdem\nsehen willst, musst \ndu mich besiegen.[pause]",
+	"[name][player_name][name]Hey, weiβt\ndu, wo \nNumemon ist?[pause]",
+	"[name]HiAndromon[name]Numemon?\nWas willst du\nvon ihm?[pause]",
+	"[name][player_name][name]Ich muss ihn un-\nbedingt etwas fragen.\nBitte, sag schon![pause]",
+	"[name]HiAndromon[name]Ich weiβ, wo er ist,\naber das kann ich dir\nnicht einfach sagen.[pause][clear]Ab hier dürfen nur\ndie Starken weiter-\ngehen.[pause][clear]Wenn du ihn trotzdem\nsehen willst, musst \ndu mich besiegen.[pause]",
 ]

@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Imperialdramon N\\x02\\x07Ho perso.\nSei forte![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Certo!\nHo sempre vinto\nfinora![pause]",
-	"\\x02\\x07Imperialdramon N\\x02\\x07Sei davvero\nbravo![pause]\\x02\\x03Prendi, ti\ndarò\nquesto.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ho l'elmo del\npericolo,\nwow![pause]",
-	"\\x02\\x07Imperialdramon N\\x02\\x07Mi sono molto\ndivertito. \nTorna ancora![pause]",
+	"[name]Imperialdramon N[name]Ho perso.\nSei forte![pause]",
+	"[name][player_name][name]Certo!\nHo sempre vinto\nfinora![pause]",
+	"[name]Imperialdramon N[name]Sei davvero\nbravo![pause][clear]Prendi, ti\ndarò\nquesto.[pause]",
+	"[name][player_name][name]Ho l'elmo del\npericolo,\nwow![pause]",
+	"[name]Imperialdramon N[name]Mi sono molto\ndivertito. \nTorna ancora![pause]",
 ]

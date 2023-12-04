@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Feuermaster\\x02\\x07Es wird gefährlich!\nGeh besser\nzurück![pause]\\x02\\x03Oder willst du mich\nbesiegen u. weiter-\ngehen?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Genau, das\nstimmt. Darum \nbin ich hier![pause]",
-	"\\x02\\x07Feuermaster\\x02\\x07Du bist ein\nlästiger \nTamer...[pause]\\x02\\x03Wenn du ge-\nwinnst, kannst\ndu gehen.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023OK! Los\nkämpfe![pause]",
+	"[name]Feuermaster[name]Es wird gefährlich!\nGeh besser\nzurück![pause][clear]Oder willst du mich\nbesiegen u. weiter-\ngehen?[pause]",
+	"[name][player_name][name]Genau, das\nstimmt. Darum \nbin ich hier![pause]",
+	"[name]Feuermaster[name]Du bist ein\nlästiger \nTamer...[pause][clear]Wenn du ge-\nwinnst, kannst\ndu gehen.[pause]",
+	"[name][player_name][name]OK! Los\nkämpfe![pause]",
 ]

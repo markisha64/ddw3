@@ -1,11 +1,11 @@
 strings = [
 	"",
-	"\\x02\\x07Junior\\x02\\x07Wow! Das ist also\ndie Kammer?[pause]\\x02\\x03Jetzt kann das Spiel\nbeginnen...\nWie aufregend![pause]",
-	"\\x02\\x07Operator\\x02\\x07Mit welchem \nNamen seid ihr\nregistriert?[pause]",
-	"\\x02\\x07Junior\\x02\\x07Mit \\x02\\x08\\x01\\x02\\x05\\x01[pause]",
-	"\\x02\\x07Operator\\x02\\x07...Bestätigt.\nVielen Dank.[pause]\\x02\\x03Bitte betretet die\nKammerkapsel\ndort drüben.[pause]",
-	"\\x02\\x07Junior\\x02\\x07OK![pause]",
+	"[name]Junior[name]Wow! Das ist also\ndie Kammer?[pause][clear]Jetzt kann das Spiel\nbeginnen...\nWie aufregend![pause]",
+	"[name]Operator[name]Mit welchem \nNamen seid ihr\nregistriert?[pause]",
+	"[name]Junior[name]Mit [player_name2][pause]",
+	"[name]Operator[name]...Bestätigt.\nVielen Dank.[pause][clear]Bitte betretet die\nKammerkapsel\ndort drüben.[pause]",
+	"[name]Junior[name]OK![pause]",
 	"a",
-	"\\x02\\x07Ivy\\x02\\x07Hey! Gehst\ndu etwa \nohne uns![pause]",
-	"\\x02\\x07Teddy\\x02\\x07Junior, \nwarte![pause]",
+	"[name]Ivy[name]Hey! Gehst\ndu etwa \nohne uns![pause]",
+	"[name]Teddy[name]Junior, \nwarte![pause]",
 ]

@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Hmm...Ich kann\nnicht lange spielen[pause]",
-	"\\x02\\x07BK WarGrowlmon\\x02\\x07Ich weiβ.\nNur etwas.\nEin Kampf![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oh, in Ordnung!\nIch mach's dir\nnicht leicht![pause]",
-	"\\x02\\x07BK WarGrowlmon\\x02\\x07Das gefällt mir![pause]\\x02\\x03Wow, ich hab\nlange nicht\nmehr gekämpft![pause]",
+	"[name][player_name][name]Hmm...Ich kann\nnicht lange spielen[pause]",
+	"[name]BK WarGrowlmon[name]Ich weiβ.\nNur etwas.\nEin Kampf![pause]",
+	"[name][player_name][name]Oh, in Ordnung!\nIch mach's dir\nnicht leicht![pause]",
+	"[name]BK WarGrowlmon[name]Das gefällt mir![pause][clear]Wow, ich hab\nlange nicht\nmehr gekämpft![pause]",
 ]

@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07Jefe Xuen Wu\\x02\\x07Así que has venido.\nEl que se opone\na nosotros.[pause]\\x02\\x03¡Estoy aquí y no\nvoy a correr o \nesconderme![pause]\\x02\\x03¡Ahora hasta\naquí![pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Ya verás!\n¡Llegaré hasta\ndonde tú estás![pause]",
-	"\\x02\\x07Jefe Xuen Wu\\x02\\x07Ummm, así que has \nllegado...[pause]\\x02\\x03Debería haberlo\nsabido por la derrota\nde los otros...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Jefe Xuen Wu![pause]\\x02\\x03¡Tu tienes el\nPase ID Negro![pause]",
-	"\\x02\\x07Jefe Xuen Wu\\x02\\x07¡Sí, lo tengo!\n¿Lo quieres?[pause]\\x02\\x03¡Entonces lucha\nconmigo y quítamelo\nde mis manos![pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Sin duda!\n¡Eso es lo  \nque haré![pause]",
+	"[name]Jefe Xuen Wu[name]Así que has venido.\nEl que se opone\na nosotros.[pause][clear]¡Estoy aquí y no\nvoy a correr o \nesconderme![pause][clear]¡Ahora hasta\naquí![pause]",
+	"[name][player_name][name]¡Ya verás!\n¡Llegaré hasta\ndonde tú estás![pause]",
+	"[name]Jefe Xuen Wu[name]Ummm, así que has \nllegado...[pause][clear]Debería haberlo\nsabido por la derrota\nde los otros...[pause]",
+	"[name][player_name][name]¡Jefe Xuen Wu![pause][clear]¡Tu tienes el\nPase ID Negro![pause]",
+	"[name]Jefe Xuen Wu[name]¡Sí, lo tengo!\n¿Lo quieres?[pause][clear]¡Entonces lucha\nconmigo y quítamelo\nde mis manos![pause]",
+	"[name][player_name][name]¡Sin duda!\n¡Eso es lo  \nque haré![pause]",
 ]

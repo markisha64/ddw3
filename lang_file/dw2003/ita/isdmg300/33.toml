@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07WarGreymon N\\x02\\x07Prima non\nesageravi![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Certo! Non sei\nil primo con cui\ncombatto![pause]",
-	"\\x02\\x07WarGreymon N\\x02\\x07Ha ha ha, mi\npiaci! Prendi\nquesto![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ho l'ID platino,\nwow![pause]",
-	"\\x02\\x07WarGreymon N\\x02\\x07Diventa il\nmigliore![pause]\\x02\\x03Questo è\nil segreto dei\ndomatori![pause]",
+	"[name]WarGreymon N[name]Prima non\nesageravi![pause]",
+	"[name][player_name][name]Certo! Non sei\nil primo con cui\ncombatto![pause]",
+	"[name]WarGreymon N[name]Ha ha ha, mi\npiaci! Prendi\nquesto![pause]",
+	"[name][player_name][name]Ho l'ID platino,\nwow![pause]",
+	"[name]WarGreymon N[name]Diventa il\nmigliore![pause][clear]Questo è\nil segreto dei\ndomatori![pause]",
 ]

@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Divermon\\x02\\x07Dis-moi ce qui \ncloche avec mon \ndossier ![pause]\\x02\\x03Oh ? D'accord !\nJe peux gagner,\nmaintenant.[pause]",
+	"[name]Divermon[name]Dis-moi ce qui \ncloche avec mon \ndossier ![pause][clear]Oh ? D'accord !\nJe peux gagner,\nmaintenant.[pause]",
 ]

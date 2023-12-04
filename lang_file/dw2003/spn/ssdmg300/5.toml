@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Datamon\\x02\\x07Eres bueno si\npuedes ganarme.\n¡Tu recompensa![pause]\\x02\\x03Los Guantes Oxidados.\nEs un objeto raro,\nasí que cuídalo.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¿Eh? Vale\nlos guardaré.\nGracias...[pause]\\x02\\x03Los Guantes\nOxidados...\n¡Bien! Creo...[pause]",
-	"\\x02\\x07Datamon\\x02\\x07Las armaduras y \narmas viejas, tienen\nsecr. en Mundo Dig.[pause]\\x02\\x03Encuentra al Digimon \ndigiev. en armadura \npara conocerlos.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡De acuerdo!\n¡Encontraré esos\nDigimon digievolucion.![pause]",
+	"[name]Datamon[name]Eres bueno si\npuedes ganarme.\n¡Tu recompensa![pause][clear]Los Guantes Oxidados.\nEs un objeto raro,\nasí que cuídalo.[pause]",
+	"[name][player_name][name]¿Eh? Vale\nlos guardaré.\nGracias...[pause][clear]Los Guantes\nOxidados...\n¡Bien! Creo...[pause]",
+	"[name]Datamon[name]Las armaduras y \narmas viejas, tienen\nsecr. en Mundo Dig.[pause][clear]Encuentra al Digimon \ndigiev. en armadura \npara conocerlos.[pause]",
+	"[name][player_name][name]¡De acuerdo!\n¡Encontraré esos\nDigimon digievolucion.![pause]",
 ]

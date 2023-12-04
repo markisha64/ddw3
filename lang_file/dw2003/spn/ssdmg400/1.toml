@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07MasterTyranno\\x02\\x07¡Vaya, chico!\n¡Eres bueno![pause]\\x02\\x03Te daré esto \npor ganarme.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Bien! \n¡La Garra \nAntigua![pause]",
-	"\\x02\\x07Maestro Tyranno\\x02\\x07¡Llévala al Líder\nSeiryu![pause]\\x02\\x03Y él luchará\ncontigo.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Gracias,\nMasterTyrano![pause]",
-	"\\x02\\x07MasterTyranno\\x02\\x07El Líder Seiryu \nes muy bueno.\n¡Prepárate![pause]",
+	"[name]MasterTyranno[name]¡Vaya, chico!\n¡Eres bueno![pause][clear]Te daré esto \npor ganarme.[pause]",
+	"[name][player_name][name]¡Bien! \n¡La Garra \nAntigua![pause]",
+	"[name]Maestro Tyranno[name]¡Llévala al Líder\nSeiryu![pause][clear]Y él luchará\ncontigo.[pause]",
+	"[name][player_name][name]¡Gracias,\nMasterTyrano![pause]",
+	"[name]MasterTyranno[name]El Líder Seiryu \nes muy bueno.\n¡Prepárate![pause]",
 ]

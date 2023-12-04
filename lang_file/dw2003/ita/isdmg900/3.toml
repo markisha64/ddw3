@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Reception arena\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01, hai\nbattuto i quattro\ngovernatori![pause]\\x02\\x03Raggiungi pure\nl'Arena![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ma con chi mi devo\nbattere, ora?[pause]",
-	"\\x02\\x07Reception arena\\x02\\x07Heh heh heh!\nDevi solo aspettare\ne lo vedrai![pause]\\x02\\x03Avanti. Il tuo\navversario ti\nsta aspettando![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Va bene! Il\nmiglior\ndomatore![pause]",
+	"[name]Reception arena[name][player_name2], hai\nbattuto i quattro\ngovernatori![pause][clear]Raggiungi pure\nl'Arena![pause]",
+	"[name][player_name][name]Ma con chi mi devo\nbattere, ora?[pause]",
+	"[name]Reception arena[name]Heh heh heh!\nDevi solo aspettare\ne lo vedrai![pause][clear]Avanti. Il tuo\navversario ti\nsta aspettando![pause]",
+	"[name][player_name][name]Va bene! Il\nmiglior\ndomatore![pause]",
 ]

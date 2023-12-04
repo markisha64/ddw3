@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07Xuen Wu Chief\\x02\\x07Da bist du also.\nEiner, der gegen\nuns ist![pause]\\x02\\x03Ich bin hier u.\nrenne nicht weg\noder verstecke mich![pause]\\x02\\x03Jetzt kämpfe![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Schau!\nIch komme rüber\nzu dir![pause]",
-	"\\x02\\x07Xuen Wu Chief\\x02\\x07Hmpf, du hast es\nbis hier geschafft...[pause]\\x02\\x03Ich hätte es wissen\nmüssen, da die anderen\nbesiegt wurden![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Xuen Wu Chief!\nDu hast den\nschwarzen ID-Pass![pause]",
-	"\\x02\\x07Xuen Wu Chief\\x02\\x07Ja, habe ich!\nWillst du ihn?[pause]\\x02\\x03Dann kämpfe! Und\nnimm ihn mir aus\nder Hand![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Wetten!\nIch hol\nihn mir![pause]",
+	"[name]Xuen Wu Chief[name]Da bist du also.\nEiner, der gegen\nuns ist![pause][clear]Ich bin hier u.\nrenne nicht weg\noder verstecke mich![pause][clear]Jetzt kämpfe![pause]",
+	"[name][player_name][name]Schau!\nIch komme rüber\nzu dir![pause]",
+	"[name]Xuen Wu Chief[name]Hmpf, du hast es\nbis hier geschafft...[pause][clear]Ich hätte es wissen\nmüssen, da die anderen\nbesiegt wurden![pause]",
+	"[name][player_name][name]Xuen Wu Chief!\nDu hast den\nschwarzen ID-Pass![pause]",
+	"[name]Xuen Wu Chief[name]Ja, habe ich!\nWillst du ihn?[pause][clear]Dann kämpfe! Und\nnimm ihn mir aus\nder Hand![pause]",
+	"[name][player_name][name]Wetten!\nIch hol\nihn mir![pause]",
 ]

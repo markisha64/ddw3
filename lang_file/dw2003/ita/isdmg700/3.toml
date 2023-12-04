@@ -1,11 +1,11 @@
 strings = [
 	"",
-	"\\x02\\x07Junior\\x02\\x07Wow! Questo è\nil Salone?[pause]\\x02\\x03Posso cominciare\na giocare.\nCom'è eccitante![pause]",
-	"\\x02\\x07Operatore\\x02\\x07Posso avere\nil nome del tuo\naccount?[pause]",
-	"\\x02\\x07Junior\\x02\\x07È Junior![pause]",
-	"\\x02\\x07Operatore\\x02\\x07Confermato.\nGrazie.[pause]\\x02\\x03Entra in quella\ncapsula laggiù.[pause]",
-	"\\x02\\x07Junior\\x02\\x07Ok![pause]",
+	"[name]Junior[name]Wow! Questo è\nil Salone?[pause][clear]Posso cominciare\na giocare.\nCom'è eccitante![pause]",
+	"[name]Operatore[name]Posso avere\nil nome del tuo\naccount?[pause]",
+	"[name]Junior[name]È Junior![pause]",
+	"[name]Operatore[name]Confermato.\nGrazie.[pause][clear]Entra in quella\ncapsula laggiù.[pause]",
+	"[name]Junior[name]Ok![pause]",
 	"a",
-	"\\x02\\x07Ivy\\x02\\x07Ehi! Vai\nsenza di noi?[pause]",
-	"\\x02\\x07Teddy\\x02\\x07Aspettaci![pause]",
+	"[name]Ivy[name]Ehi! Vai\nsenza di noi?[pause]",
+	"[name]Teddy[name]Aspettaci![pause]",
 ]

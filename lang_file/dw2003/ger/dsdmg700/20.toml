@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07Eismaster\\x02\\x07Du bist gut.\nBeeindruckend![pause]\\x02\\x03Das ist ein Ge-\nschenk von mir.\nNimm es![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Wow! Ein\nMP-Chip![pause]",
-	"\\x02\\x07Eismaster\\x02\\x07Ab hier wird's\nhärter! Sieh\ndich vor![pause]",
+	"[name]Eismaster[name]Du bist gut.\nBeeindruckend![pause][clear]Das ist ein Ge-\nschenk von mir.\nNimm es![pause]",
+	"[name][player_name][name]Wow! Ein\nMP-Chip![pause]",
+	"[name]Eismaster[name]Ab hier wird's\nhärter! Sieh\ndich vor![pause]",
 ]

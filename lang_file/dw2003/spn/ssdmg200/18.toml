@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Servicio de Domador\\x02\\x07Cuando juegues, \nmira los consejos.[pause]\\x02\\x03Mostraré los datos\nen tu satélite.[pause]",
-	"\"Preparación para el Viaje\"\nSelecciona y decide sobre Digimon y \ndigiev. en el Laboratorio Digimon.[pause]\\x02\\x03Asegúrate de equipar tus \nDigimon con armas y armadura y \nalinéalos para la batalla.[pause]",
-	"\"Batalla de Cartas\"\nEn Digimon Online, también \nhay Batalla de Cartas.[pause]\\x02\\x03En Yellow Cruiser puedes obtener\ninformación detallada.[pause]\\x02\\x03\"Guardar\"\nSólo por si acaso,\nguarda la partida frecuentemente.[pause]\\x02\\x03Guardromon está a cargo de \nguardar, aparecerá en las posadas.\nGuardromon no guardará en batalla.[pause]",
-	"\"Fin del Juego\"\nEl juego termina cuando pierden\ntodos tus Digimon.[pause]\\x02\\x03Aléjate de batallas no razonables.[pause]\\x02\\x03\"Añadir Compañeros\"\nAparte de los tres que tienes\npuedes añadir más.[pause]\\x02\\x03Esto es todo lo que puedo decirte.[pause]",
-	"\\x02\\x07Servicio de Domador\\x02\\x07Esa es toda la \ninformación.\n¡Buena suerte![pause]",
+	"[name]Servicio de Domador[name]Cuando juegues, \nmira los consejos.[pause][clear]Mostraré los datos\nen tu satélite.[pause]",
+	"\"Preparación para el Viaje\"\nSelecciona y decide sobre Digimon y \ndigiev. en el Laboratorio Digimon.[pause][clear]Asegúrate de equipar tus \nDigimon con armas y armadura y \nalinéalos para la batalla.[pause]",
+	"\"Batalla de Cartas\"\nEn Digimon Online, también \nhay Batalla de Cartas.[pause][clear]En Yellow Cruiser puedes obtener\ninformación detallada.[pause][clear]\"Guardar\"\nSólo por si acaso,\nguarda la partida frecuentemente.[pause][clear]Guardromon está a cargo de \nguardar, aparecerá en las posadas.\nGuardromon no guardará en batalla.[pause]",
+	"\"Fin del Juego\"\nEl juego termina cuando pierden\ntodos tus Digimon.[pause][clear]Aléjate de batallas no razonables.[pause][clear]\"Añadir Compañeros\"\nAparte de los tres que tienes\npuedes añadir más.[pause][clear]Esto es todo lo que puedo decirte.[pause]",
+	"[name]Servicio de Domador[name]Esa es toda la \ninformación.\n¡Buena suerte![pause]",
 ]

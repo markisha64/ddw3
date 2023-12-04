@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Ja, klar.\nLos kämpfe![pause]",
-	"\\x02\\x07Zanbamon\\x02\\x07Du bist kein\nGegner für mich![pause]",
-	"\\x02\\x07\\x02\\x09\\x023...du hast doch nur\nAngst, zu verlieren![pause]",
-	"\\x02\\x07Zanbamon\\x02\\x07Wawas?!\nNicht wahr![pause]\\x02\\x03In Ordnung!\nWenn du willst,\nkämpfen wir![pause]",
+	"[name][player_name][name]Ja, klar.\nLos kämpfe![pause]",
+	"[name]Zanbamon[name]Du bist kein\nGegner für mich![pause]",
+	"[name][player_name][name]...du hast doch nur\nAngst, zu verlieren![pause]",
+	"[name]Zanbamon[name]Wawas?!\nNicht wahr![pause][clear]In Ordnung!\nWenn du willst,\nkämpfen wir![pause]",
 ]

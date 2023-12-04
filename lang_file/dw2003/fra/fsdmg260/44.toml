@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07M. Smith\\x02\\x07A vous de jouer ! \nLe clou de la vente ![pause]\\x02\\x03Le Heaume de Ronin \nadmiré par tous ![pause]\\x02\\x03Ce heaume exclusif  \nde Kotemon est proposé \nà 7000 BIT au départ ![pause]",
-	"\\x02\\x07Marchand Abel\\x02\\x078000 BIT ![pause]",
-	"\\x02\\x07Chef Milly\\x02\\x078300 \nBIT ![pause]",
-	"\\x02\\x07Masao Fan jeu\\x02\\x078600 BIT ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hmm. 8700 BIT\n...hmmm...[pause]",
+	"[name]M. Smith[name]A vous de jouer ! \nLe clou de la vente ![pause][clear]Le Heaume de Ronin \nadmiré par tous ![pause][clear]Ce heaume exclusif  \nde Kotemon est proposé \nà 7000 BIT au départ ![pause]",
+	"[name]Marchand Abel[name]8000 BIT ![pause]",
+	"[name]Chef Milly[name]8300 \nBIT ![pause]",
+	"[name]Masao Fan jeu[name]8600 BIT ![pause]",
+	"[name][player_name][name]Hmm. 8700 BIT\n...hmmm...[pause]",
 ]

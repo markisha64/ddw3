@@ -1,10 +1,10 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Was meinst du?\nJetzt sehe ich aus\nwie ein Digimon![pause]",
-	"\\x02\\x07Kail\\x02\\x07Still! Halt doch\nmal die Klappe![pause]\\x02\\x03Sie sollen doch \nnicht wissen, dass \nwir keine Dig. sind![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ach ja, klar. \nStimmt ja.\nVerstehe...[pause]",
-	"\\x02\\x07Kail\\x02\\x07Geh schon mal vor.\nIch muss noch etwas\nklären.[pause]\\x02\\x03\\x02\\x08\\x01\\x02\\x05\\x01, vergiss \nn., Teddy zu suchen.[pause]\\x02\\x03Sobald ich fertig bin,\nkomme ich nach.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023OK, aber\nsei bloβ\nvorsichtig.[pause]",
-	"\\x02\\x07Kail\\x02\\x07K. Sorge.\nIch bin n.\nwie du![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Was ist mit Kail?\nSeit wir hier sind,\nist sie komisch...[pause]\\x02\\x03Naja, ich muss\nTeddy finden![pause]",
+	"[name][player_name][name]Was meinst du?\nJetzt sehe ich aus\nwie ein Digimon![pause]",
+	"[name]Kail[name]Still! Halt doch\nmal die Klappe![pause][clear]Sie sollen doch \nnicht wissen, dass \nwir keine Dig. sind![pause]",
+	"[name][player_name][name]Ach ja, klar. \nStimmt ja.\nVerstehe...[pause]",
+	"[name]Kail[name]Geh schon mal vor.\nIch muss noch etwas\nklären.[pause][clear][player_name2], vergiss \nn., Teddy zu suchen.[pause][clear]Sobald ich fertig bin,\nkomme ich nach.[pause]",
+	"[name][player_name][name]OK, aber\nsei bloβ\nvorsichtig.[pause]",
+	"[name]Kail[name]K. Sorge.\nIch bin n.\nwie du![pause]",
+	"[name][player_name][name]Was ist mit Kail?\nSeit wir hier sind,\nist sie komisch...[pause][clear]Naja, ich muss\nTeddy finden![pause]",
 ]

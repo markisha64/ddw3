@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07Signore ghiaccio\\x02\\x07Sei bravo.\nSono colpito![pause]\\x02\\x03Questo è un\nmio\nregalo.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023È il chip\nPM![pause]",
-	"\\x02\\x07Signore ghiaccio\\x02\\x07Da qui in avanti\ndiventa più\ndifficile![pause]",
+	"[name]Signore ghiaccio[name]Sei bravo.\nSono colpito![pause][clear]Questo è un\nmio\nregalo.[pause]",
+	"[name][player_name][name]È il chip\nPM![pause]",
+	"[name]Signore ghiaccio[name]Da qui in avanti\ndiventa più\ndifficile![pause]",
 ]

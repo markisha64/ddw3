@@ -1,1 +1,1 @@
-strings = ["", "\\x02\\x07Guardromon\\x02\\x07PREPARE TO\nSAVE.[pause]"]
+strings = ["", "[name]Guardromon[name]PREPARE TO\nSAVE.[pause]"]

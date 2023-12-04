@@ -24,7 +24,7 @@ strings = [
 	"Account registrieren?",
 	"JA",
 	"NEIN",
-	"\\x02\\x05\\x01%",
+	"{1}%",
 	"Waffe, magische Angriffe und\nHeilkräfte. Gut für Teamwork.",
 	"Für Mutige, die Angriff für\ndie beste Verteidigung halten.",
 	"Sie sind alle etwas eigenwillig.\nNur auf Patamon ist Verlass.",

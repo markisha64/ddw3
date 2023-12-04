@@ -1,5 +1,5 @@
 strings = [
 	"",
 	"Gracias por esperar.\nVamos a continuar el\nfuncionamiento de góndola.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ah...\n¡Eh, espera![pause]\\x02\\x03¡Vaya, se fue![pause]",
+	"[name][player_name][name]Ah...\n¡Eh, espera![pause][clear]¡Vaya, se fue![pause]",
 ]

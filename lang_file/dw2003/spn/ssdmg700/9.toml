@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Maestro de hielo\\x02\\x07¡Espera!\n¡No puedes\npasar![pause]\\x02\\x03¡Si de verdad\nquieres, tienes\nque ganarme![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Vale, sólo \nluchar y ganar, \n¿verdad?[pause]",
-	"\\x02\\x07Maes. de hielo\\x02\\x07¡Eso es!\n¡Sabes de\nesto![pause]\\x02\\x03¡Comencemos![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Bueno...\n¡Vamos allá![pause]",
+	"[name]Maestro de hielo[name]¡Espera!\n¡No puedes\npasar![pause][clear]¡Si de verdad\nquieres, tienes\nque ganarme![pause]",
+	"[name][player_name][name]Vale, sólo \nluchar y ganar, \n¿verdad?[pause]",
+	"[name]Maes. de hielo[name]¡Eso es!\n¡Sabes de\nesto![pause][clear]¡Comencemos![pause]",
+	"[name][player_name][name]Bueno...\n¡Vamos allá![pause]",
 ]

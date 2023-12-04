@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07Feuermaster\\x02\\x07Du bist stark!\nBeeindruckend![pause]\\x02\\x03Ich gebe dir das.\nBenutze es![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Cool! Ein\nGeist-Chip![pause]",
-	"\\x02\\x07Feuermaster\\x02\\x07Unser Leader ist\nder Nächste! Er\nist stark![pause]",
+	"[name]Feuermaster[name]Du bist stark!\nBeeindruckend![pause][clear]Ich gebe dir das.\nBenutze es![pause]",
+	"[name][player_name][name]Cool! Ein\nGeist-Chip![pause]",
+	"[name]Feuermaster[name]Unser Leader ist\nder Nächste! Er\nist stark![pause]",
 ]

@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Knightmon\\x02\\x07Virus detected!\nVirus detected![pause]\\x02\\x03Deleting the virus \nnow![pause]",
-	"\\x02\\x07\\x02\\x09\\x023He-hey wait!\nI'm not a virus![pause]",
-	"\\x02\\x07Knightmon\\x02\\x07Virus confirmed!\nVirus confirmed![pause]\\x02\\x03Deleting the virus \nnow![pause]",
-	"\\x02\\x07\\x02\\x09\\x023It's no use. Knightmon \nwas reprogrammed by \nthe A.o.A![pause]\\x02\\x03Hmm... I guess I \nshould check out the\nother cities for now.[pause]",
+	"[name]Knightmon[name]Virus detected!\nVirus detected![pause][clear]Deleting the virus \nnow![pause]",
+	"[name][player_name][name]He-hey wait!\nI'm not a virus![pause]",
+	"[name]Knightmon[name]Virus confirmed!\nVirus confirmed![pause][clear]Deleting the virus \nnow![pause]",
+	"[name][player_name][name]It's no use. Knightmon \nwas reprogrammed by \nthe A.o.A![pause][clear]Hmm... I guess I \nshould check out the\nother cities for now.[pause]",
 ]

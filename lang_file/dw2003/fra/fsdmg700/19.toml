@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Ouais  ! J'ai\nvaincu le chef\nde Xuen Wu ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Et en plus, j'ai\nle Passe noir...[pause]\\x02\\x03Il ne reste plus que\nAmaterasu City  !\nEn route ![pause]",
+	"[name][player_name][name]Ouais  ! J'ai\nvaincu le chef\nde Xuen Wu ![pause]",
+	"[name][player_name][name]Et en plus, j'ai\nle Passe noir...[pause][clear]Il ne reste plus que\nAmaterasu City  !\nEn route ![pause]",
 ]

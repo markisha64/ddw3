@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Warte! Ich\nlasse Juggernaut\nnicht starten![pause]",
-	"\\x02\\x07Mech-Soldat\\x02\\x07GGzzz! GGzzz!\nEINDRINGLING-ALARM!\nEINDRINGLING-ALARM![pause]\\x02\\x03Sofort löschen![pause]",
+	"[name][player_name][name]Warte! Ich\nlasse Juggernaut\nnicht starten![pause]",
+	"[name]Mech-Soldat[name]GGzzz! GGzzz!\nEINDRINGLING-ALARM!\nEINDRINGLING-ALARM![pause][clear]Sofort löschen![pause]",
 ]

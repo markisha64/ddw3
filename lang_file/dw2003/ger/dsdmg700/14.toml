@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Dunkler Ritter\\x02\\x07Toll!\nSieht aus, als hast\ndu echt Mumm![pause]\\x02\\x03Dies ist das dunkle\nVerlies, das stärkste\ndes Asuka-Servers![pause]\\x02\\x03Ich bin der stärkste\nBoss, Dunkler Ritter![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ich bin der beste\nTamer, \\x02\\x08\\x01\\x02\\x05\\x01. \nDu stehst im Weg.[pause]",
-	"\\x02\\x07Dunkler Ritter\\x02\\x07Heh Kleiner!\nEin solches Programm\nhabe ich nicht![pause]\\x02\\x03Ich kann dich nicht\neinfach gehen lassen![pause]\\x02\\x03Wenn du durch willst,\nmusst du mich be-\nsiegen![pause]\\x02\\x03Wenn du es könntest.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023?![pause]",
+	"[name]Dunkler Ritter[name]Toll!\nSieht aus, als hast\ndu echt Mumm![pause][clear]Dies ist das dunkle\nVerlies, das stärkste\ndes Asuka-Servers![pause][clear]Ich bin der stärkste\nBoss, Dunkler Ritter![pause]",
+	"[name][player_name][name]Ich bin der beste\nTamer, [player_name2]. \nDu stehst im Weg.[pause]",
+	"[name]Dunkler Ritter[name]Heh Kleiner!\nEin solches Programm\nhabe ich nicht![pause][clear]Ich kann dich nicht\neinfach gehen lassen![pause][clear]Wenn du durch willst,\nmusst du mich be-\nsiegen![pause][clear]Wenn du es könntest.[pause]",
+	"[name][player_name][name]?![pause]",
 ]

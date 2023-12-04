@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Sepikmon\\x02\\x07¡Todos dicen que he \nestado gastando bromas  \nen Ciudad Asuka![pause]\\x02\\x03¡Ese debe tener mi\nmáscara![pause]\\x02\\x03Encuéntralo y traeme\nla máscara ¡Gracias![pause]",
+	"[name]Sepikmon[name]¡Todos dicen que he \nestado gastando bromas  \nen Ciudad Asuka![pause][clear]¡Ese debe tener mi\nmáscara![pause][clear]Encuéntralo y traeme\nla máscara ¡Gracias![pause]",
 ]

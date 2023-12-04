@@ -1,10 +1,10 @@
 strings = [
 	"",
-	"\\x02\\x07Mischievous Mat\\x02\\x07I told you the Etemon \nyou're looking for isn't \nhere.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Well, of course\nnot, because you\nare the Etemon.[pause]",
-	"\\x02\\x07Mischievous Mat\\x02\\x07...What?![pause]",
-	"\\x02\\x07\\x02\\x09\\x023I know your game.\nYou were wearing the \nEtemon Suit back there![pause]",
-	"\\x02\\x07Mischievous Mat\\x02\\x07.........[pause]\\x02\\x03Ah, you found \nout? That\nsucks![pause]\\x02\\x03Hey, just don't \ntell anyone, OK?[pause]\\x02\\x03I'll give you\nthis in return![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Right on! It's the \nAgumon Suits.[pause]",
-	"\\x02\\x07Mischievous Mat\\x02\\x07This is a secret,\nbetween you and \nme, all right?![pause]",
+	"[name]Mischievous Mat[name]I told you the Etemon \nyou're looking for isn't \nhere.[pause]",
+	"[name][player_name][name]Well, of course\nnot, because you\nare the Etemon.[pause]",
+	"[name]Mischievous Mat[name]...What?![pause]",
+	"[name][player_name][name]I know your game.\nYou were wearing the \nEtemon Suit back there![pause]",
+	"[name]Mischievous Mat[name].........[pause][clear]Ah, you found \nout? That\nsucks![pause][clear]Hey, just don't \ntell anyone, OK?[pause][clear]I'll give you\nthis in return![pause]",
+	"[name][player_name][name]Right on! It's the \nAgumon Suits.[pause]",
+	"[name]Mischievous Mat[name]This is a secret,\nbetween you and \nme, all right?![pause]",
 ]

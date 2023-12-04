@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Also\n24000 BIT![pause]",
-	"\\x02\\x07Mr. Smith\\x02\\x07Wow!\n24000 BIT![pause]\\x02\\x03Bietet jmd.\nmehr?[pause]",
-	"\\x02\\x07Mr. Smith\\x02\\x07Wenn niemand\nmehr bietet.[pause]\\x02\\x03Wildnisanzug \nfür 24000 BIT![pause]\\x02\\x03Gratulation![pause]\\x02\\x03Ich übertrage das\nItem jetzt an\nIhren Satelliten![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Cool! Der\nWildnisanzug![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ich hab jetzt ein\necht cooles Item.\nIch probier's aus.[pause]",
+	"[name][player_name][name]Also\n24000 BIT![pause]",
+	"[name]Mr. Smith[name]Wow!\n24000 BIT![pause][clear]Bietet jmd.\nmehr?[pause]",
+	"[name]Mr. Smith[name]Wenn niemand\nmehr bietet.[pause][clear]Wildnisanzug \nfür 24000 BIT![pause][clear]Gratulation![pause][clear]Ich übertrage das\nItem jetzt an\nIhren Satelliten![pause]",
+	"[name][player_name][name]Cool! Der\nWildnisanzug![pause]",
+	"[name][player_name][name]Ich hab jetzt ein\necht cooles Item.\nIch probier's aus.[pause]",
 ]

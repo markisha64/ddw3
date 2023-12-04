@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Vaya... Numemom\nes muy rápido...[pause]",
+	"[name][player_name][name]Vaya... Numemom\nes muy rápido...[pause]",
 ]

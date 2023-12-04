@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07Guardia DO\\x02\\x07Lo siento, sólo\npersonal \nautorizado.[pause]\\x02\\x03¿Qué? ¿Otra\nvez un Digimon?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Umm, sí.\nSoy... ¡Un\nDigimon perdido![pause]",
-	"\\x02\\x07Guardia DO\\x02\\x07Primero ese Agumon\nRosa y ahora tú...[pause]\\x02\\x03Puedes pasar, pero\nno molestes por \nahí.[pause]",
+	"[name]Guardia DO[name]Lo siento, sólo\npersonal \nautorizado.[pause][clear]¿Qué? ¿Otra\nvez un Digimon?[pause]",
+	"[name][player_name][name]Umm, sí.\nSoy... ¡Un\nDigimon perdido![pause]",
+	"[name]Guardia DO[name]Primero ese Agumon\nRosa y ahora tú...[pause][clear]Puedes pasar, pero\nno molestes por \nahí.[pause]",
 ]

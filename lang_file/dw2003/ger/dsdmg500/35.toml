@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Heh, was ist\ndenn das?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Toll! Ich habe\ndas Digiei\ndes Wissens![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Jetzt kann ich Di-\ngimon beschwören![pause]\\x02\\x03OK, zurück zum\nAsuka-Server u. \nzum Nordsektor![pause]",
+	"[name][player_name][name]Heh, was ist\ndenn das?[pause]",
+	"[name][player_name][name]Toll! Ich habe\ndas Digiei\ndes Wissens![pause]",
+	"[name][player_name][name]Jetzt kann ich Di-\ngimon beschwören![pause][clear]OK, zurück zum\nAsuka-Server u. \nzum Nordsektor![pause]",
 ]

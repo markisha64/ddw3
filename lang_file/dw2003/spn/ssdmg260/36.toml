@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Sr. Smith\\x02\\x07¡Es tu oportunidad![pause]\\x02\\x03¡El artículo principal![pause]\\x02\\x03¡La Corona Divina! \n¡Admirado por todos![pause]\\x02\\x03La Corona de Patamon\nsaldrá a 4000BIT.[pause]",
-	"\\x02\\x07Abel el Tendero\\x02\\x07¡4500BIT![pause]",
-	"\\x02\\x07Jefe Milly\\x02\\x07¡5500BIT![pause]",
-	"\\x02\\x07Masao RPG\\x02\\x07¡5900BIT![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Umm 6000 BIT\n...ummm...[pause]",
+	"[name]Sr. Smith[name]¡Es tu oportunidad![pause][clear]¡El artículo principal![pause][clear]¡La Corona Divina! \n¡Admirado por todos![pause][clear]La Corona de Patamon\nsaldrá a 4000BIT.[pause]",
+	"[name]Abel el Tendero[name]¡4500BIT![pause]",
+	"[name]Jefe Milly[name]¡5500BIT![pause]",
+	"[name]Masao RPG[name]¡5900BIT![pause]",
+	"[name][player_name][name]Umm 6000 BIT\n...ummm...[pause]",
 ]

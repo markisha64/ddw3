@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07MasterTyranno\\x02\\x07Wow! Sei\ndavvero bravo,\nsai?[pause]\\x02\\x03Poiché hai\nvinto, ti\ndarò questo.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ottimo!\nIl vecchio\nartiglio![pause]",
-	"\\x02\\x07MasterTyranno\\x02\\x07Portalo al governatore\ndi Seiryu![pause]\\x02\\x03Così si batterà\ncon te.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Grazie,\nMasterTyranno[pause]",
-	"\\x02\\x07MasterTyranno\\x02\\x07Il governatore è\nmolto forte. Fai\nattenzione![pause]",
+	"[name]MasterTyranno[name]Wow! Sei\ndavvero bravo,\nsai?[pause][clear]Poiché hai\nvinto, ti\ndarò questo.[pause]",
+	"[name][player_name][name]Ottimo!\nIl vecchio\nartiglio![pause]",
+	"[name]MasterTyranno[name]Portalo al governatore\ndi Seiryu![pause][clear]Così si batterà\ncon te.[pause]",
+	"[name][player_name][name]Grazie,\nMasterTyranno[pause]",
+	"[name]MasterTyranno[name]Il governatore è\nmolto forte. Fai\nattenzione![pause]",
 ]

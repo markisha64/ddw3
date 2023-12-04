@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07HiAndromon\\x02\\x07...ich respektiere\ndeine groβe Stärke.\nGeh durch![pause]\\x02\\x03Numemon ist in der\nKanalisation hinter\nd. geheimen Treppe.[pause]\\x02\\x03Ich habe die Tür zur\ngeheimen Treppe\naufgeschlossen.[pause]\\x02\\x03Geh weiter, aber \nnimm dieses rosti-\nge Gewehr mit.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Spitze! Das\nrostige Gewehr![pause]\\x02\\x03Danke HiAndromon!\nWeiter geht's![pause]",
-	"\\x02\\x07HiAndromon\\x02\\x07Ab hier ist der\nFeind stärker.\nSei vorsichtig![pause]",
+	"[name]HiAndromon[name]...ich respektiere\ndeine groβe Stärke.\nGeh durch![pause][clear]Numemon ist in der\nKanalisation hinter\nd. geheimen Treppe.[pause][clear]Ich habe die Tür zur\ngeheimen Treppe\naufgeschlossen.[pause][clear]Geh weiter, aber \nnimm dieses rosti-\nge Gewehr mit.[pause]",
+	"[name][player_name][name]Spitze! Das\nrostige Gewehr![pause][clear]Danke HiAndromon!\nWeiter geht's![pause]",
+	"[name]HiAndromon[name]Ab hier ist der\nFeind stärker.\nSei vorsichtig![pause]",
 ]

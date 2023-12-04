@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Rapper Mike\\x02\\x07Wir sind cool, ihr\nkönnt reinkommen![pause]",
+	"[name]Rapper Mike[name]Wir sind cool, ihr\nkönnt reinkommen![pause]",
 ]

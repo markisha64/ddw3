@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Mr. Smith\\x02\\x07Un'occasione!\nIl pezzo principale![pause]\\x02\\x03La barriera divina,\nmolto contesa![pause]\\x02\\x03Lo scudo esclusivo\ndi Patamon, si parte\nda 400 BIT![pause]",
-	"\\x02\\x07Cliente Abel\\x02\\x07500 BIT![pause]",
-	"\\x02\\x07Capo Milly\\x02\\x07600 BIT![pause]",
-	"\\x02\\x07Masao RPG\\x02\\x07700 BIT![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hmm... 800 BIT\nHmmm...[pause]",
+	"[name]Mr. Smith[name]Un'occasione!\nIl pezzo principale![pause][clear]La barriera divina,\nmolto contesa![pause][clear]Lo scudo esclusivo\ndi Patamon, si parte\nda 400 BIT![pause]",
+	"[name]Cliente Abel[name]500 BIT![pause]",
+	"[name]Capo Milly[name]600 BIT![pause]",
+	"[name]Masao RPG[name]700 BIT![pause]",
+	"[name][player_name][name]Hmm... 800 BIT\nHmmm...[pause]",
 ]

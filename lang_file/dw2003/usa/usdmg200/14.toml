@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07Digimon Navi\\x02\\x07Let's check to make \nsure you understand \nbattles and training.[pause]\\x02\\x03I will display data on\nyour satellite.[pause]",
+	"[name]Digimon Navi[name]Let's check to make \nsure you understand \nbattles and training.[pause][clear]I will display data on\nyour satellite.[pause]",
 	"[pause]",
 ]

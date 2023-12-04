@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023OK, ich hab\ndich gefunden.[pause]\\x02\\x03Diesmal kommst\ndu mir nicht\ndavon![pause]",
-	"\\x02\\x07Numemon\\x02\\x07Gib doch\nendlich auf![pause]",
+	"[name][player_name][name]OK, ich hab\ndich gefunden.[pause][clear]Diesmal kommst\ndu mir nicht\ndavon![pause]",
+	"[name]Numemon[name]Gib doch\nendlich auf![pause]",
 ]

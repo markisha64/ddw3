@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023¡Eh!\n¡Numemon![pause]",
-	"\\x02\\x07Numemon\\x02\\x07Eres tú.\n¿Por qué has\nvuelto?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Tengo algo que\npreguntarte. Así\nque...[pause]",
-	"\\x02\\x07Numemon\\x02\\x07¡No tengo nada\nque decirte![pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Espera![pause]",
+	"[name][player_name][name]¡Eh!\n¡Numemon![pause]",
+	"[name]Numemon[name]Eres tú.\n¿Por qué has\nvuelto?[pause]",
+	"[name][player_name][name]Tengo algo que\npreguntarte. Así\nque...[pause]",
+	"[name]Numemon[name]¡No tengo nada\nque decirte![pause]",
+	"[name][player_name][name]¡Espera![pause]",
 ]

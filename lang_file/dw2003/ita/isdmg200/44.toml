@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Mr. Smith\\x02\\x07Oh? È l'ID\nEl Dorado?[pause]\\x02\\x03Allora sei dei\nnostri! Vieni![pause]",
+	"[name]Mr. Smith[name]Oh? È l'ID\nEl Dorado?[pause][clear]Allora sei dei\nnostri! Vieni![pause]",
 ]

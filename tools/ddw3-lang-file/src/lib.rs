@@ -37,7 +37,7 @@ pub struct LangFile {
 
 impl LangFile {
 	/// Parses a lang file.
-	pub fn parse<R: io::Read + io::Seek>(mut reader: R) -> Result<Self, anyhow::Error> {
+	pub fn parse<R: io::BufRead + io::Seek>(mut reader: R) -> Result<Self, anyhow::Error> {
 		let start = reader.stream_position().context("Unable to get stream position")?;
 
 		// Read the entries

@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Che strano! Qui\nnon ci sono\nstemmi.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ma...?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Co-cosa\nsuccede?![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Uaaah![pause]",
+	"[name][player_name][name]Che strano! Qui\nnon ci sono\nstemmi.[pause]",
+	"[name][player_name][name]Ma...?[pause]",
+	"[name][player_name][name]Co-cosa\nsuccede?![pause]",
+	"[name][player_name][name]Uaaah![pause]",
 ]

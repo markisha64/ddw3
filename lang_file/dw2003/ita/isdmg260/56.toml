@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Mr. Smith\\x02\\x07Un'occasione![pause]\\x02\\x03Il pezzo principale![pause]\\x02\\x03La tuta selvaggia,\nfavolosa![pause]\\x02\\x03Quest'abito esclusivo\ndi Kumamon parte da\n23000 BIT![pause]",
-	"\\x02\\x07Cliente Abel\\x02\\x0723500 BIT![pause]",
-	"\\x02\\x07Capo Milly\\x02\\x0723800 BIT[pause]",
-	"\\x02\\x07Masao RPG\\x02\\x0723900 BIT![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hm, 24000 BIT\nMmmm...[pause]",
+	"[name]Mr. Smith[name]Un'occasione![pause][clear]Il pezzo principale![pause][clear]La tuta selvaggia,\nfavolosa![pause][clear]Quest'abito esclusivo\ndi Kumamon parte da\n23000 BIT![pause]",
+	"[name]Cliente Abel[name]23500 BIT![pause]",
+	"[name]Capo Milly[name]23800 BIT[pause]",
+	"[name]Masao RPG[name]23900 BIT![pause]",
+	"[name][player_name][name]Hm, 24000 BIT\nMmmm...[pause]",
 ]

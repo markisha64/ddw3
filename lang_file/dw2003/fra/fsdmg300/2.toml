@@ -1,10 +1,10 @@
 strings = [
 	"",
-	"\\x02\\x07Mat le Malicieux\\x02\\x07Je t'ai dit que\nl'Etemon que tu cherches\nn'était pas ici.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Bien sûr que non\npuisque c'est toi,\nl'Etemon.[pause]",
-	"\\x02\\x07Mat le Malicieux\\x02\\x07... Quoi ?![pause]",
-	"\\x02\\x07\\x02\\x09\\x023C'est bon. Tu portais\nla tenue de l'Etemon\nlà-bas ![pause]",
-	"\\x02\\x07Mat le Malicieux\\x02\\x07...[pause]\\x02\\x03Ah, tu as\ndécouvert ça ?\nMince ![pause]\\x02\\x03Tu gardes ça\npour toi, OK ?[pause]\\x02\\x03Je te donne ça\nen échange ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oh ! C'est la\ntenue d'Agumon.[pause]",
-	"\\x02\\x07Mat le malicieux\\x02\\x07C'est un secret\nentre toi et moi,\nOK ?[pause]",
+	"[name]Mat le Malicieux[name]Je t'ai dit que\nl'Etemon que tu cherches\nn'était pas ici.[pause]",
+	"[name][player_name][name]Bien sûr que non\npuisque c'est toi,\nl'Etemon.[pause]",
+	"[name]Mat le Malicieux[name]... Quoi ?![pause]",
+	"[name][player_name][name]C'est bon. Tu portais\nla tenue de l'Etemon\nlà-bas ![pause]",
+	"[name]Mat le Malicieux[name]...[pause][clear]Ah, tu as\ndécouvert ça ?\nMince ![pause][clear]Tu gardes ça\npour toi, OK ?[pause][clear]Je te donne ça\nen échange ![pause]",
+	"[name][player_name][name]Oh ! C'est la\ntenue d'Agumon.[pause]",
+	"[name]Mat le malicieux[name]C'est un secret\nentre toi et moi,\nOK ?[pause]",
 ]

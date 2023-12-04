@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Guardromon\\x02\\x07Ich greife jetzt auf\ndas Matrix-Drive zu.[pause]",
+	"[name]Guardromon[name]Ich greife jetzt auf\ndas Matrix-Drive zu.[pause]",
 ]

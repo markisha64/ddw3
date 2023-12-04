@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023La Signora del Gioco\nstava mandando Vemmon\nda qualche parte.[pause]\\x02\\x03Forse ci sono degli\nindizi! Investighiamo![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Cosa?![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Cosa?\nPerché Oinkmon è\nnel server Asuka?[pause]",
-	"\\x02\\x07Oinkmon\\x02\\x07Oioionk?\nOioinoink!\nOioinoink??[pause]",
-	"\\x02\\x07Oinkmon\\x02\\x07Oioin, oinnk?\nOioionoinkn!\nOin, oinoiknk![pause]",
-	"\\x02\\x07Oinkmon\\x02\\x07Oooin, oioink!\nOinoink, oink!\nOioin, oinnk![pause]",
+	"[name][player_name][name]La Signora del Gioco\nstava mandando Vemmon\nda qualche parte.[pause][clear]Forse ci sono degli\nindizi! Investighiamo![pause]",
+	"[name][player_name][name]Cosa?![pause]",
+	"[name][player_name][name]Cosa?\nPerché Oinkmon è\nnel server Asuka?[pause]",
+	"[name]Oinkmon[name]Oioionk?\nOioinoink!\nOioinoink??[pause]",
+	"[name]Oinkmon[name]Oioin, oinnk?\nOioionoinkn!\nOin, oinoiknk![pause]",
+	"[name]Oinkmon[name]Oooin, oioink!\nOinoink, oink!\nOioin, oinnk![pause]",
 ]

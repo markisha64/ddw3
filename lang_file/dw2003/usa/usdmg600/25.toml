@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Are you the\nBai Hu Chief!?[pause]",
-	"\\x02\\x07Bai Hu Chief\\x02\\x07That's right...\nWhat do you want?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Give me the \nWhite ID Pass\nthat you have![pause]",
-	"\\x02\\x07Bai Hu Chief\\x02\\x07I see.\nHeh heh heh![pause]\\x02\\x03No matter what you \ndo, victory will be\nours![pause]\\x02\\x03Now it's time to\nlearn your lesson![pause]",
+	"[name][player_name][name]Are you the\nBai Hu Chief!?[pause]",
+	"[name]Bai Hu Chief[name]That's right...\nWhat do you want?[pause]",
+	"[name][player_name][name]Give me the \nWhite ID Pass\nthat you have![pause]",
+	"[name]Bai Hu Chief[name]I see.\nHeh heh heh![pause][clear]No matter what you \ndo, victory will be\nours![pause][clear]Now it's time to\nlearn your lesson![pause]",
 ]

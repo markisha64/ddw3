@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Tu es le chef\nde Bai Hu ?[pause]",
-	"\\x02\\x07Chef de Bai Hu\\x02\\x07Oui... Que\nveux-tu ?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Je voudrais ton\nPasse blanc ![pause]",
-	"\\x02\\x07Chef de Bai Hu\\x02\\x07Je vois.\nHé hé hé ![pause]\\x02\\x03Quoi que tu\nfasses, nous\ntriompherons ![pause]\\x02\\x03Tu as besoin d'une\nbonne leçon ![pause]",
+	"[name][player_name][name]Tu es le chef\nde Bai Hu ?[pause]",
+	"[name]Chef de Bai Hu[name]Oui... Que\nveux-tu ?[pause]",
+	"[name][player_name][name]Je voudrais ton\nPasse blanc ![pause]",
+	"[name]Chef de Bai Hu[name]Je vois.\nHé hé hé ![pause][clear]Quoi que tu\nfasses, nous\ntriompherons ![pause][clear]Tu as besoin d'une\nbonne leçon ![pause]",
 ]

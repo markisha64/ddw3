@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Guarda Real\\x02\\x07¡Te esperábamos!\nTu venciste a \nnuestros jefes.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Venga. ¡También  \na vosotros![pause]",
-	"\\x02\\x07Guarda Real \\x02\\x07¡Somos mejores\nque a los que te\nhayas enfrentado![pause]",
-	"\\x02\\x07Guarda Real\\x02\\x07¡Con el orgullo\nde la Guarda Real\nte venceré![pause]",
+	"[name]Guarda Real[name]¡Te esperábamos!\nTu venciste a \nnuestros jefes.[pause]",
+	"[name][player_name][name]Venga. ¡También  \na vosotros![pause]",
+	"[name]Guarda Real [name]¡Somos mejores\nque a los que te\nhayas enfrentado![pause]",
+	"[name]Guarda Real[name]¡Con el orgullo\nde la Guarda Real\nte venceré![pause]",
 ]

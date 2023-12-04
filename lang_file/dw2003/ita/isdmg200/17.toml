@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Ponchomon\\x02\\x07Puoi avere info su\nquesti oggetti\nquando vuoi![pause]\\x02\\x03Te le mostrerò sul\nsatellite, amigo![pause]",
-	"\"Effetti equipaggiamento\"\nSono automatici quando li equipaggi\no li usi in un attacco.[pause]\\x02\\x03Gli effetti delle armi appaiono\nsolo in assenza di tecniche.[pause]\\x02\\x03\"Armi a una o a due mani\"\nQuelle a due mani sono più\npotenti, ma vietano le corazze.[pause]\\x02\\x03Due armi a una mano sono\npiù potenti di una a due mani,\nma costano anche di più.[pause]",
-	"\"Limite accessori\"\nPuoi averne fino a due, ma\nnon tutti lo permettono.[pause]\\x02\\x03\"Difese offensive\"\nSono difese per le mani e la\ntesta che permettono di attaccare.[pause]\\x02\\x03\"Armi specializzate\"\nLe armi più potenti possono\nessere usate solo da certi Digimon.[pause]",
-	"\"Equipaggiamento di serie\"\nCon certe armi o difese\npuoi aumentare i parametri.[pause]\\x02\\x03\"Chip\"\nGli aumenti permanenti di parametri\ndovuti ai chip dipendono dalla fortuna.[pause]",
-	"\\x02\\x07Ponchomon\\x02\\x07Non dirlo in giro!\nAdios amigo![pause]",
+	"[name]Ponchomon[name]Puoi avere info su\nquesti oggetti\nquando vuoi![pause][clear]Te le mostrerò sul\nsatellite, amigo![pause]",
+	"\"Effetti equipaggiamento\"\nSono automatici quando li equipaggi\no li usi in un attacco.[pause][clear]Gli effetti delle armi appaiono\nsolo in assenza di tecniche.[pause][clear]\"Armi a una o a due mani\"\nQuelle a due mani sono più\npotenti, ma vietano le corazze.[pause][clear]Due armi a una mano sono\npiù potenti di una a due mani,\nma costano anche di più.[pause]",
+	"\"Limite accessori\"\nPuoi averne fino a due, ma\nnon tutti lo permettono.[pause][clear]\"Difese offensive\"\nSono difese per le mani e la\ntesta che permettono di attaccare.[pause][clear]\"Armi specializzate\"\nLe armi più potenti possono\nessere usate solo da certi Digimon.[pause]",
+	"\"Equipaggiamento di serie\"\nCon certe armi o difese\npuoi aumentare i parametri.[pause][clear]\"Chip\"\nGli aumenti permanenti di parametri\ndovuti ai chip dipendono dalla fortuna.[pause]",
+	"[name]Ponchomon[name]Non dirlo in giro!\nAdios amigo![pause]",
 ]

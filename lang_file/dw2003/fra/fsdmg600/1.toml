@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Chef de Byakko\\x02\\x07Ha ha ha !\nTu es fort.\nTu me plais.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Bien, alors... [pause]\\x02\\x03Que sais-tu au\nsujet de ce fameux\nLucky Mouse...[pause]",
-	"\\x02\\x07Chef de Byakko\\x02\\x07Attends. Le Badge\nde Byakko est\ndans cette pièce.[pause]\\x02\\x03Je t'écouterai\nquand tu l'auras.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023D'accord, je\nreviens tout\nde suite ![pause]",
+	"[name]Chef de Byakko[name]Ha ha ha !\nTu es fort.\nTu me plais.[pause]",
+	"[name][player_name][name]Bien, alors... [pause][clear]Que sais-tu au\nsujet de ce fameux\nLucky Mouse...[pause]",
+	"[name]Chef de Byakko[name]Attends. Le Badge\nde Byakko est\ndans cette pièce.[pause][clear]Je t'écouterai\nquand tu l'auras.[pause]",
+	"[name][player_name][name]D'accord, je\nreviens tout\nde suite ![pause]",
 ]

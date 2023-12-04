@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Caballero oscuro\\x02\\x07¡Bien! \n¡Parece que tienes\ncoraje![pause]\\x02\\x03La Mazmorra Oscura.\nLa más fuerte del \nServidor Asuka.[pause]\\x02\\x03¡Soy el más fuerte,\nel Caballero Oscuro![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Soy el mejor dom.\n¡Junior! Perdona,\nestás en mi camino.[pause]",
-	"\\x02\\x07Caballero oscuro\\x02\\x07¡Eh, chico!\n¡Yo no tengo un \nprograma así![pause]\\x02\\x03¡No puedo dejar \npasar a nadie![pause]\\x02\\x03¡Si quieres pasar\ntienes que ganarme![pause]\\x02\\x03Si puedes...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¿?[pause]",
+	"[name]Caballero oscuro[name]¡Bien! \n¡Parece que tienes\ncoraje![pause][clear]La Mazmorra Oscura.\nLa más fuerte del \nServidor Asuka.[pause][clear]¡Soy el más fuerte,\nel Caballero Oscuro![pause]",
+	"[name][player_name][name]Soy el mejor dom.\n¡Junior! Perdona,\nestás en mi camino.[pause]",
+	"[name]Caballero oscuro[name]¡Eh, chico!\n¡Yo no tengo un \nprograma así![pause][clear]¡No puedo dejar \npasar a nadie![pause][clear]¡Si quieres pasar\ntienes que ganarme![pause][clear]Si puedes...[pause]",
+	"[name][player_name][name]¿?[pause]",
 ]

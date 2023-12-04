@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Byakko Civillian?\\x02\\x07Heh heh heh!\nWe've all been \nwaiting for you![pause]\\x02\\x03Hurry and go fight \nwith our leader![pause]",
+	"[name]Byakko Civillian?[name]Heh heh heh!\nWe've all been \nwaiting for you![pause][clear]Hurry and go fight \nwith our leader![pause]",
 ]

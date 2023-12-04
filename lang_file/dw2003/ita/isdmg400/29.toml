@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Eh? Chi\ncomanda qui?\nDove sono tutti?[pause]",
+	"[name][player_name][name]Eh? Chi\ncomanda qui?\nDove sono tutti?[pause]",
 	"Bip Bip.\nACCENSIONE.\nRIAVVIO![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Eh, \ncosa?![pause]",
-	"SONO IL SISTEMA OPERATIVO \nDELLA GONDOLA DEL CREPACCIO.[pause]\\x02\\x03PER ATTIVARE LA GONDOLA\nDIRETTA AL SETTORE SUD...[pause]\\x02\\x03È RICHIESTO UN ACCOUNT CON\nUNA CARTA BLU.[pause]\\x02\\x03CE L'HANNO I DIGIMON NATI DA\nUNA CARTA BLU: PRENDILA\nDA QUEI DIGIMON.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Mmm, Digimon\nnati da una carta\nblu...[pause]\\x02\\x03Mmm, forse\nGuilmon...[pause]\\x02\\x03Dovrei chiedere\na Guilmon\nin città.[pause]",
+	"[name][player_name][name]Eh, \ncosa?![pause]",
+	"SONO IL SISTEMA OPERATIVO \nDELLA GONDOLA DEL CREPACCIO.[pause][clear]PER ATTIVARE LA GONDOLA\nDIRETTA AL SETTORE SUD...[pause][clear]È RICHIESTO UN ACCOUNT CON\nUNA CARTA BLU.[pause][clear]CE L'HANNO I DIGIMON NATI DA\nUNA CARTA BLU: PRENDILA\nDA QUEI DIGIMON.[pause]",
+	"[name][player_name][name]Mmm, Digimon\nnati da una carta\nblu...[pause][clear]Mmm, forse\nGuilmon...[pause][clear]Dovrei chiedere\na Guilmon\nin città.[pause]",
 ]

@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07Zanbamon\\x02\\x07Quoi, tu t'enfuis\nau milieu du\ncombat ?[pause]\\x02\\x03Tu ne fais pas\nle poids ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hé, qu'est-ce\nqui se passe ![pause]\\x02\\x03Ecoute un peu,\nje vais gagner !\nJe reviendrai ![pause]",
-	"\\x02\\x07Zanbamon\\x02\\x07Tu te vantes\nbeaucoup, le\nmôme. Haha ![pause]",
+	"[name]Zanbamon[name]Quoi, tu t'enfuis\nau milieu du\ncombat ?[pause][clear]Tu ne fais pas\nle poids ![pause]",
+	"[name][player_name][name]Hé, qu'est-ce\nqui se passe ![pause][clear]Ecoute un peu,\nje vais gagner !\nJe reviendrai ![pause]",
+	"[name]Zanbamon[name]Tu te vantes\nbeaucoup, le\nmôme. Haha ![pause]",
 ]

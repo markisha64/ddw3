@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Sr. Smith\\x02\\x07¡Es tu oportunidad![pause]\\x02\\x03¡El artículo principal![pause]\\x02\\x03¡El Traje Yin Yang! \n¡Admirado por todos![pause]\\x02\\x03Esta prenda de Renamon\nsaldrá a 10000BIT.[pause]",
-	"\\x02\\x07Abel el Tendero\\x02\\x07¡10900BIT![pause]",
-	"\\x02\\x07Jefe Milly\\x02\\x07¡11200BIT![pause]",
-	"\\x02\\x07Masao RPG\\x02\\x07¡11400BIT![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Umm 11500 BIT\n...ummm...[pause]",
+	"[name]Sr. Smith[name]¡Es tu oportunidad![pause][clear]¡El artículo principal![pause][clear]¡El Traje Yin Yang! \n¡Admirado por todos![pause][clear]Esta prenda de Renamon\nsaldrá a 10000BIT.[pause]",
+	"[name]Abel el Tendero[name]¡10900BIT![pause]",
+	"[name]Jefe Milly[name]¡11200BIT![pause]",
+	"[name]Masao RPG[name]¡11400BIT![pause]",
+	"[name][player_name][name]Umm 11500 BIT\n...ummm...[pause]",
 ]

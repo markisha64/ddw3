@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07HiAndromon\\x02\\x07Ta force impose\nle respect. Je\nte laisse passer ![pause]\\x02\\x03Numemon est dans\nles Egouts, après\nl'Escalier Secret.[pause]\\x02\\x03J'ai ouvert la\nporte menant à\nl'Escalier Secret.[pause]\\x02\\x03Va, mais avant, \nprends ce\nFusil Rouillé.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Génial ! J'ai le\nFusil Rouillé ![pause]\\x02\\x03Merci beaucoup !\nJ'y vais ![pause]",
-	"\\x02\\x07HiAndromon\\x02\\x07L'ennemi est plus\npuissant à partir\nd'ici. Prudence ![pause]",
+	"[name]HiAndromon[name]Ta force impose\nle respect. Je\nte laisse passer ![pause][clear]Numemon est dans\nles Egouts, après\nl'Escalier Secret.[pause][clear]J'ai ouvert la\nporte menant à\nl'Escalier Secret.[pause][clear]Va, mais avant, \nprends ce\nFusil Rouillé.[pause]",
+	"[name][player_name][name]Génial ! J'ai le\nFusil Rouillé ![pause][clear]Merci beaucoup !\nJ'y vais ![pause]",
+	"[name]HiAndromon[name]L'ennemi est plus\npuissant à partir\nd'ici. Prudence ![pause]",
 ]

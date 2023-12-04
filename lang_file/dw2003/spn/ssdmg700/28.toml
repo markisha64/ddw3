@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"180 SEGUNDOS TERMINADOS\n180 SEGUNDOS TERMINADOS[pause]\\x02\\x03LA TRANSFERENCIA HA\nLLEGADO AL LÍMITE.\n¡FORZANDO DIGITALIZACIÓN![pause]",
-	"\\x02\\x07Oficial de Cámara\\x02\\x07Dispositivo Astral\ncorrecto. Datos\nnormales.[pause]\\x02\\x03¡Terminando digitali.![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oh... Se \nacabó el tiempo\ny he vuelto.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¿Qué hago?\n¡Van a lanzar el \nJuggernaut![pause]",
+	"180 SEGUNDOS TERMINADOS\n180 SEGUNDOS TERMINADOS[pause][clear]LA TRANSFERENCIA HA\nLLEGADO AL LÍMITE.\n¡FORZANDO DIGITALIZACIÓN![pause]",
+	"[name]Oficial de Cámara[name]Dispositivo Astral\ncorrecto. Datos\nnormales.[pause][clear]¡Terminando digitali.![pause]",
+	"[name][player_name][name]Oh... Se \nacabó el tiempo\ny he vuelto.[pause]",
+	"[name][player_name][name]¿Qué hago?\n¡Van a lanzar el \nJuggernaut![pause]",
 ]

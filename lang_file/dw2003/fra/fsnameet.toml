@@ -24,7 +24,7 @@ strings = [
 	"Enregistrer compte ?",
 	"OUI",
 	"NON",
-	"\\x02\\x05\\x01%",
+	"{1}%",
 	"Combine armes, magie et guérison. \nIdéal pour le travail en équipe.",
 	"Pour les sans-peur qui pensent que\n l'attaque est la meilleure défense.",
 	"Tous bizarres et compliqués. \nPatamon est la seule valeur sûre.",

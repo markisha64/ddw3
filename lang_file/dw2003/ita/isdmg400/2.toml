@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Governatore,\nho battuto\nMasterTyranno![pause]\\x02\\x03Combatterai\ncon me, ora?[pause]",
-	"\\x02\\x07Gov. di Seiryu\\x02\\x07Vedo che hai il\nvecchio artiglio.[pause]\\x02\\x03Bene, fai la\ntua mossa![pause]",
+	"[name][player_name][name]Governatore,\nho battuto\nMasterTyranno![pause][clear]Combatterai\ncon me, ora?[pause]",
+	"[name]Gov. di Seiryu[name]Vedo che hai il\nvecchio artiglio.[pause][clear]Bene, fai la\ntua mossa![pause]",
 ]

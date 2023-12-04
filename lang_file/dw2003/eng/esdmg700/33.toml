@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Computer Seiya\\x02\\x07...What?!\nWhat is going on?[pause]",
-	"\\x02\\x07Mail Lover Saki\\x02\\x07Shut up! I can't \nhear my cell \nphone![pause]",
-	"\\x02\\x07Shopper Teruko\\x02\\x07...whaaaaat?!\nWhat should I do?[pause]",
-	"\\x02\\x07Shopper Teruko\\x02\\x07Where's the \npolice?![pause]",
+	"[name]Computer Seiya[name]...What?!\nWhat is going on?[pause]",
+	"[name]Mail Lover Saki[name]Shut up! I can't \nhear my cell \nphone![pause]",
+	"[name]Shopper Teruko[name]...whaaaaat?!\nWhat should I do?[pause]",
+	"[name]Shopper Teruko[name]Where's the \npolice?![pause]",
 ]

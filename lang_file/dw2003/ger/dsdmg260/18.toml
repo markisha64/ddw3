@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Also\n2700 BIT![pause]",
-	"\\x02\\x07Mr. Smith\\x02\\x07Wow!\n2700 BIT![pause]\\x02\\x03Bietet jmd.\nmehr?[pause]",
-	"\\x02\\x07Mr. Smith\\x02\\x07Es bietet wohl\nkeiner mehr.[pause]\\x02\\x03Yin Yang-Stab \nfür 2700 BIT![pause]\\x02\\x03Gratulation![pause]\\x02\\x03Ich übertrage das\nItem jetzt an\ndeinen Satelliten![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Toll! Der\nYin Yang-Stab![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ich hab jetzt ein\necht cooles Item,\nich gehe.[pause]",
+	"[name][player_name][name]Also\n2700 BIT![pause]",
+	"[name]Mr. Smith[name]Wow!\n2700 BIT![pause][clear]Bietet jmd.\nmehr?[pause]",
+	"[name]Mr. Smith[name]Es bietet wohl\nkeiner mehr.[pause][clear]Yin Yang-Stab \nfür 2700 BIT![pause][clear]Gratulation![pause][clear]Ich übertrage das\nItem jetzt an\ndeinen Satelliten![pause]",
+	"[name][player_name][name]Toll! Der\nYin Yang-Stab![pause]",
+	"[name][player_name][name]Ich hab jetzt ein\necht cooles Item,\nich gehe.[pause]",
 ]

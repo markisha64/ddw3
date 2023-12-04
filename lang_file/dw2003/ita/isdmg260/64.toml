@@ -1,1 +1,1 @@
-strings = ["", "\\x02\\x07\\x02\\x09\\x023Ehi,\nl'ascensore\nsi muove![pause]"]
+strings = ["", "[name][player_name][name]Ehi,\nl'ascensore\nsi muove![pause]"]

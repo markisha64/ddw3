@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Chevalier Ténèbres\\x02\\x07Voyez-vous ça !\nTu as l'air bien\nhardi ![pause]\\x02\\x03Voici le Donjon des\nTénèbres, le + fort\ndu serveur Asuka ![pause]\\x02\\x03Je suis le Che-\nvalier des Ténèbres,\nle + fort de tous ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Et moi \\x02\\x08\\x01\\x02\\x05\\x01, \nle meilleur dresseur.\nTu me gênes là...[pause]",
-	"\\x02\\x07Chevalier des Ténèbres\\x02\\x07Quoi ?! Hé, le\nmôme, ça ne marche\npas comme ça ici ![pause]\\x02\\x03Je ne laisse pas\npasser n'importe qui ![pause]\\x02\\x03Tu dois d'abord\nme battre\npour passer ![pause]\\x02\\x03Tu peux essayer\ndu moins...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023?!?[pause]",
+	"[name]Chevalier Ténèbres[name]Voyez-vous ça !\nTu as l'air bien\nhardi ![pause][clear]Voici le Donjon des\nTénèbres, le + fort\ndu serveur Asuka ![pause][clear]Je suis le Che-\nvalier des Ténèbres,\nle + fort de tous ![pause]",
+	"[name][player_name][name]Et moi [player_name2], \nle meilleur dresseur.\nTu me gênes là...[pause]",
+	"[name]Chevalier des Ténèbres[name]Quoi ?! Hé, le\nmôme, ça ne marche\npas comme ça ici ![pause][clear]Je ne laisse pas\npasser n'importe qui ![pause][clear]Tu dois d'abord\nme battre\npour passer ![pause][clear]Tu peux essayer\ndu moins...[pause]",
+	"[name][player_name][name]?!?[pause]",
 ]

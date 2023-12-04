@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Très bien ! \n32000 BIT ![pause]",
-	"\\x02\\x07M. Smith\\x02\\x07Oink ! \n32000 BIT ![pause]\\x02\\x03Oinoink, oink \n32000 BIT ?[pause]",
-	"\\x02\\x07M. Smith\\x02\\x07Oin oink oioink\noink oioink oink.[pause]\\x02\\x03Oioi Oink nk\noionko 32000 BIT [pause]\\x02\\x03Oinkoinnnk\noi oink oi oiii ![pause]\\x02\\x03Oi oinkoo\noinoiko oin\noioinnnk oink ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oui ! J'ai \nl'Oioi Oink ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Bon, c'est un \nchouette objet, \nvoyons ça.[pause]",
+	"[name][player_name][name]Très bien ! \n32000 BIT ![pause]",
+	"[name]M. Smith[name]Oink ! \n32000 BIT ![pause][clear]Oinoink, oink \n32000 BIT ?[pause]",
+	"[name]M. Smith[name]Oin oink oioink\noink oioink oink.[pause][clear]Oioi Oink nk\noionko 32000 BIT [pause][clear]Oinkoinnnk\noi oink oi oiii ![pause][clear]Oi oinkoo\noinoiko oin\noioinnnk oink ![pause]",
+	"[name][player_name][name]Oui ! J'ai \nl'Oioi Oink ![pause]",
+	"[name][player_name][name]Bon, c'est un \nchouette objet, \nvoyons ça.[pause]",
 ]

@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"Bip. Bip.\nPATIENTEZ.\nCONTROLE DONNEES.[pause]\\x02\\x03... ... \nIMPOSSIBLE VALIDER\nCARTE BLEUE.[pause]\\x02\\x03ENREGISTREMENT\nDU COMPTE ANNULE[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Je ne peux pas\nm'enregistrer ?[pause]\\x02\\x03J'ai la Carte\nBleue pourtant ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hein ? Quoi ? Ce\nn'est pas la Carte\nBleue ![pause]\\x02\\x03Ce n'est pas un B\nmais un 8 ! C'est\nune Carte 8leue ![pause]\\x02\\x03Hé, c'est une\nfausse ! Je me\nsuis fait avoir ![pause]",
+	"Bip. Bip.\nPATIENTEZ.\nCONTROLE DONNEES.[pause][clear]... ... \nIMPOSSIBLE VALIDER\nCARTE BLEUE.[pause][clear]ENREGISTREMENT\nDU COMPTE ANNULE[pause]",
+	"[name][player_name][name]Je ne peux pas\nm'enregistrer ?[pause][clear]J'ai la Carte\nBleue pourtant ![pause]",
+	"[name][player_name][name]Hein ? Quoi ? Ce\nn'est pas la Carte\nBleue ![pause][clear]Ce n'est pas un B\nmais un 8 ! C'est\nune Carte 8leue ![pause][clear]Hé, c'est une\nfausse ! Je me\nsuis fait avoir ![pause]",
 ]

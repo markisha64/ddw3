@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023I'm going to \nget that\nLucky Mouse![pause]",
-	"\\x02\\x07Kail\\x02\\x07Sorry. I just\nremembered I've\ngot to go...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023...Huh?\nWhat's up with Kail?[pause]\\x02\\x03Oh, well. I've got\nDigimon that I can\ncount on![pause]\\x02\\x03OK, guys! We're going\nto West Sector![pause]",
+	"[name][player_name][name]I'm going to \nget that\nLucky Mouse![pause]",
+	"[name]Kail[name]Sorry. I just\nremembered I've\ngot to go...[pause]",
+	"[name][player_name][name]...Huh?\nWhat's up with Kail?[pause][clear]Oh, well. I've got\nDigimon that I can\ncount on![pause][clear]OK, guys! We're going\nto West Sector![pause]",
 ]

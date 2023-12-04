@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07Airdramon\\x02\\x07Zzzzzzzzzzz\nZzzzzzzzzzz[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hé, Airdramon.\nJ'ai un service à\nte demander[pause]",
-	"\\x02\\x07Airdramon\\x02\\x07Zzzzzzzzzzz\nZzzzzzzzzzz[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Peux-tu aller à\nQing Long City\net faire du vent ?[pause]\\x02\\x03On n'a pas assez de \npouvoir pour tous les \nretransformer...[pause]\\x02\\x03Airdramon, aide-les.\nAllez, réveille-toi  ![pause]",
-	"\\x02\\x07Airdramon\\x02\\x07Zzzzzzzzzzz\nZzzzzzzzzzz[pause]",
-	"\\x02\\x07\\x02\\x09\\x023J'imagine que \nce n'est pas\npossible...[pause]\\x02\\x03OK, je vais trouver\nun autre\nmoyen...[pause]",
+	"[name]Airdramon[name]Zzzzzzzzzzz\nZzzzzzzzzzz[pause]",
+	"[name][player_name][name]Hé, Airdramon.\nJ'ai un service à\nte demander[pause]",
+	"[name]Airdramon[name]Zzzzzzzzzzz\nZzzzzzzzzzz[pause]",
+	"[name][player_name][name]Peux-tu aller à\nQing Long City\net faire du vent ?[pause][clear]On n'a pas assez de \npouvoir pour tous les \nretransformer...[pause][clear]Airdramon, aide-les.\nAllez, réveille-toi  ![pause]",
+	"[name]Airdramon[name]Zzzzzzzzzzz\nZzzzzzzzzzz[pause]",
+	"[name][player_name][name]J'imagine que \nce n'est pas\npossible...[pause][clear]OK, je vais trouver\nun autre\nmoyen...[pause]",
 ]

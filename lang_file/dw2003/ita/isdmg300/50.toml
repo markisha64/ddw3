@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07KingEtemon\\x02\\x07Mi piaci, e così\nti darò il\ntrofeo del sole![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Grazie,\nKingEtemon![pause]\\x02\\x03Ho il \ntrofeo\ndel sole![pause]",
-	"\\x02\\x07KingEtemon\\x02\\x07È il simbolo del\nre delle carte\ndi Amaterasu.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Allora sono il\nmiglior giocatore\ndi Amaterasu![pause]",
-	"\\x02\\x07KingEtemon\\x02\\x07Eh?\nNooo! Sono\nio il numero 1![pause]\\x02\\x03Sei stato\nfortunato, e\nbasta![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Heh heh heh.\nBeh, ora \nvado![pause]\\x02\\x03Ciao KingEtemon![pause]",
+	"[name]KingEtemon[name]Mi piaci, e così\nti darò il\ntrofeo del sole![pause]",
+	"[name][player_name][name]Grazie,\nKingEtemon![pause][clear]Ho il \ntrofeo\ndel sole![pause]",
+	"[name]KingEtemon[name]È il simbolo del\nre delle carte\ndi Amaterasu.[pause]",
+	"[name][player_name][name]Allora sono il\nmiglior giocatore\ndi Amaterasu![pause]",
+	"[name]KingEtemon[name]Eh?\nNooo! Sono\nio il numero 1![pause][clear]Sei stato\nfortunato, e\nbasta![pause]",
+	"[name][player_name][name]Heh heh heh.\nBeh, ora \nvado![pause][clear]Ciao KingEtemon![pause]",
 ]

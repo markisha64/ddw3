@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Va bene!\n1600 BIT![pause]",
-	"\\x02\\x07Mr. Smith\\x02\\x07Wow!\n1600 BIT![pause]\\x02\\x03Nessuno offre\ndi più?[pause]",
-	"\\x02\\x07Mr. Smith\\x02\\x071600... 1600...\n1600![pause]\\x02\\x03Lo scudo di Dramon\nper 1600 BIT![pause]\\x02\\x03Congratulazioni\na te, laggiù![pause]\\x02\\x03Trasferirò \nl'oggetto al\nsatellite![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ho lo scudo\ndi Dramon![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ora che ho un così \nbell'oggetto, posso \nandarmene.[pause]",
+	"[name][player_name][name]Va bene!\n1600 BIT![pause]",
+	"[name]Mr. Smith[name]Wow!\n1600 BIT![pause][clear]Nessuno offre\ndi più?[pause]",
+	"[name]Mr. Smith[name]1600... 1600...\n1600![pause][clear]Lo scudo di Dramon\nper 1600 BIT![pause][clear]Congratulazioni\na te, laggiù![pause][clear]Trasferirò \nl'oggetto al\nsatellite![pause]",
+	"[name][player_name][name]Ho lo scudo\ndi Dramon![pause]",
+	"[name][player_name][name]Ora che ho un così \nbell'oggetto, posso \nandarmene.[pause]",
 ]

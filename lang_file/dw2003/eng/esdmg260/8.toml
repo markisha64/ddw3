@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Mr. Smith\\x02\\x07Now's your chance![pause]\\x02\\x03Finally, our main item![pause]\\x02\\x03Sniper Guard, admired \nby all members![pause]\\x02\\x03This Monmon exclusive \nshield will start at\n800 BIT![pause]",
-	"\\x02\\x07Dealer Abel\\x02\\x071100 BIT![pause]",
-	"\\x02\\x07Chief Milly\\x02\\x071300 BIT![pause]",
-	"\\x02\\x07RPG Fan Masao\\x02\\x071500 BIT![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hmm... 1600 BIT\n...hmmm...[pause]",
+	"[name]Mr. Smith[name]Now's your chance![pause][clear]Finally, our main item![pause][clear]Sniper Guard, admired \nby all members![pause][clear]This Monmon exclusive \nshield will start at\n800 BIT![pause]",
+	"[name]Dealer Abel[name]1100 BIT![pause]",
+	"[name]Chief Milly[name]1300 BIT![pause]",
+	"[name]RPG Fan Masao[name]1500 BIT![pause]",
+	"[name][player_name][name]Hmm... 1600 BIT\n...hmmm...[pause]",
 ]

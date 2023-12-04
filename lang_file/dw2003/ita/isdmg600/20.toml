@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07HiAndromon\\x02\\x07Rispetto la\ntua forza. Puoi\npassare![pause]\\x02\\x03Numemon è nelle\nfogne oltre\nle scale segrete.[pause]\\x02\\x03Ti ho aperto\nla porta per le\nscale segrete.[pause]\\x02\\x03Vai, ma prima\nprendi questo\nvecchio fucile.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ho il vecchio\nfucile! Wow![pause]\\x02\\x03Bene HiAndromon,\ngrazie! Vado![pause]",
-	"\\x02\\x07HiAndromon\\x02\\x07Il nemico sarà\npiù forte da qui\nin avanti![pause]",
+	"[name]HiAndromon[name]Rispetto la\ntua forza. Puoi\npassare![pause][clear]Numemon è nelle\nfogne oltre\nle scale segrete.[pause][clear]Ti ho aperto\nla porta per le\nscale segrete.[pause][clear]Vai, ma prima\nprendi questo\nvecchio fucile.[pause]",
+	"[name][player_name][name]Ho il vecchio\nfucile! Wow![pause][clear]Bene HiAndromon,\ngrazie! Vado![pause]",
+	"[name]HiAndromon[name]Il nemico sarà\npiù forte da qui\nin avanti![pause]",
 ]

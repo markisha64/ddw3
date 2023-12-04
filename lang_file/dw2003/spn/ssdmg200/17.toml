@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Ponchomon\\x02\\x07Hola, en estos eleme.\npodrás ver información\nen cualquier momento.[pause]\\x02\\x03¡Los mostraré en tu\nsatélite, amigo![pause]",
-	"\"Efectos de Equipo\"\nLos efectos son automáticos\ncuando se equipen o se usen.[pause]\\x02\\x03Los efectos de armas funcionan\ncuando no hay efectos de téc.[pause]\\x02\\x03\"A una Mano o a Dos\"\nLas armas a dos manos son más \npoderosas pero no permiten armadura.[pause]\\x02\\x03Si utilizas dos armas a una mano,\nresulta más potente, pero\nmás caro.[pause]",
-	"\"Límite de Accesorios\"\nDigimon puede equiparse con dos acc.\nPero no todos pueden equip. doble.[pause]\\x02\\x03\"Arma como Armadura\"\nExisten armas para la cabeza y\nescudos que pueden atacar.[pause]\\x02\\x03\"Armas Especializadas\"\nLas armas más pot. pueden\nutilizarlas sólo ciertos Digimon.[pause]",
-	"\"Equipo de Serie\"\nUtilizando ciertas armas y armaduras\npueden incrementarse los parámetros.[pause]\\x02\\x03\"Chip\"\nLos incre. permanentes de parámetro \npor Chip dependen de la suerte.[pause]",
-	"\\x02\\x07Ponchomon.\\x02\\x07¡No lo cuentes!\n¡Adiós amigo![pause]",
+	"[name]Ponchomon[name]Hola, en estos eleme.\npodrás ver información\nen cualquier momento.[pause][clear]¡Los mostraré en tu\nsatélite, amigo![pause]",
+	"\"Efectos de Equipo\"\nLos efectos son automáticos\ncuando se equipen o se usen.[pause][clear]Los efectos de armas funcionan\ncuando no hay efectos de téc.[pause][clear]\"A una Mano o a Dos\"\nLas armas a dos manos son más \npoderosas pero no permiten armadura.[pause][clear]Si utilizas dos armas a una mano,\nresulta más potente, pero\nmás caro.[pause]",
+	"\"Límite de Accesorios\"\nDigimon puede equiparse con dos acc.\nPero no todos pueden equip. doble.[pause][clear]\"Arma como Armadura\"\nExisten armas para la cabeza y\nescudos que pueden atacar.[pause][clear]\"Armas Especializadas\"\nLas armas más pot. pueden\nutilizarlas sólo ciertos Digimon.[pause]",
+	"\"Equipo de Serie\"\nUtilizando ciertas armas y armaduras\npueden incrementarse los parámetros.[pause][clear]\"Chip\"\nLos incre. permanentes de parámetro \npor Chip dependen de la suerte.[pause]",
+	"[name]Ponchomon.[name]¡No lo cuentes!\n¡Adiós amigo![pause]",
 ]

@@ -1,8 +1,8 @@
 strings = [
 	"",
 	"a",
-	"\\x02\\x07Datamon\\x02\\x07Sei venuto fin\nqui per\nsfidarmi?[pause]\\x02\\x03Io sono sempre\npronto!\nIn battaglia![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Va bene!\nIn battaglia![pause]",
-	"\\x02\\x07Datamon\\x02\\x07Bip! Non\ncopiarmi![pause]\\x02\\x03Devi essere\noriginale\nquando parli![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Cosa? Ah, OK.\nContinuiamo![pause]",
+	"[name]Datamon[name]Sei venuto fin\nqui per\nsfidarmi?[pause][clear]Io sono sempre\npronto!\nIn battaglia![pause]",
+	"[name][player_name][name]Va bene!\nIn battaglia![pause]",
+	"[name]Datamon[name]Bip! Non\ncopiarmi![pause][clear]Devi essere\noriginale\nquando parli![pause]",
+	"[name][player_name][name]Cosa? Ah, OK.\nContinuiamo![pause]",
 ]

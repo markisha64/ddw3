@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Ponchomon\\x02\\x07Hola, du kannst dir\njederzeit Infos zu\ndiesen Items ansehen![pause]\\x02\\x03Ich zeige sie auf dem\nSatelliten an, Amigo![pause]",
-	"\"Ausrüstungseffekte\"\nEffekte sind autom. bei Ausrüstung\noder werden im Angriff verwendet.[pause]\\x02\\x03Waffeneffekte gelten nur, wenn es\nkeine technischen Effekte gibt.[pause]\\x02\\x03\"Beidhändig und einhändig\"\nBeidhändige Waffen sind kraftvol-\nler, lassen aber keine Rüstung zu.[pause]\\x02\\x03Eine Ausrüstung mit zwei einhändigen\nWaffen ist kraftvoller als eine beid-\nhändige, aber auch teurer.[pause]",
-	"\"Zubehörbeschränkung\"\nHöchst 2 Zubehört., aber\njed. Zubehört. nur 1 x.[pause]\\x02\\x03\"Rüstungsähnliche Waffen\"\nEs gibt Waffen zur Ausrüstung des\nKopfs und Schilder, die angreifen.[pause]\\x02\\x03\"Spezialwaffen\"\nDie stärksten Waffen können nur von\nbestimmten Digimon verwendet werden.[pause]",
-	"\"Serienausrüstung\"\nAusrüst. m. best. Waffen u.\nRüstung erhöht Parameter.[pause]\\x02\\x03\"Chip\"\nDie ständige Parametererhöhung\ndurch Chip ist Glückssache.[pause]",
-	"\\x02\\x07Ponchomon\\x02\\x07Nicht weitersagen!\nAdios amigos![pause]",
+	"[name]Ponchomon[name]Hola, du kannst dir\njederzeit Infos zu\ndiesen Items ansehen![pause][clear]Ich zeige sie auf dem\nSatelliten an, Amigo![pause]",
+	"\"Ausrüstungseffekte\"\nEffekte sind autom. bei Ausrüstung\noder werden im Angriff verwendet.[pause][clear]Waffeneffekte gelten nur, wenn es\nkeine technischen Effekte gibt.[pause][clear]\"Beidhändig und einhändig\"\nBeidhändige Waffen sind kraftvol-\nler, lassen aber keine Rüstung zu.[pause][clear]Eine Ausrüstung mit zwei einhändigen\nWaffen ist kraftvoller als eine beid-\nhändige, aber auch teurer.[pause]",
+	"\"Zubehörbeschränkung\"\nHöchst 2 Zubehört., aber\njed. Zubehört. nur 1 x.[pause][clear]\"Rüstungsähnliche Waffen\"\nEs gibt Waffen zur Ausrüstung des\nKopfs und Schilder, die angreifen.[pause][clear]\"Spezialwaffen\"\nDie stärksten Waffen können nur von\nbestimmten Digimon verwendet werden.[pause]",
+	"\"Serienausrüstung\"\nAusrüst. m. best. Waffen u.\nRüstung erhöht Parameter.[pause][clear]\"Chip\"\nDie ständige Parametererhöhung\ndurch Chip ist Glückssache.[pause]",
+	"[name]Ponchomon[name]Nicht weitersagen!\nAdios amigos![pause]",
 ]

@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07KingEtemon\\x02\\x07Tu me plais, je \nvais te donner\nle Trophée Solaire.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Merci,\nKingEtemon![pause]\\x02\\x03Oui ! j'ai  \nle Trophée \nSolaire ![pause]",
-	"\\x02\\x07KingEtemon\\x02\\x07Voici le symbole  \ndu Roi des cartes\nd'Amaterasu ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Super ! Je suis \nle meilleur joueur \nd'Amaterasu ![pause]",
-	"\\x02\\x07KingEtemon\\x02\\x07Quoi ?\nNon ! C'est moi\nle meilleur ![pause]\\x02\\x03Tu as juste \neu de la\nchance ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hé hé hé.\nBon, je m'en\nvais ![pause]\\x02\\x03A plus, KingEtemon![pause]",
+	"[name]KingEtemon[name]Tu me plais, je \nvais te donner\nle Trophée Solaire.[pause]",
+	"[name][player_name][name]Merci,\nKingEtemon![pause][clear]Oui ! j'ai  \nle Trophée \nSolaire ![pause]",
+	"[name]KingEtemon[name]Voici le symbole  \ndu Roi des cartes\nd'Amaterasu ![pause]",
+	"[name][player_name][name]Super ! Je suis \nle meilleur joueur \nd'Amaterasu ![pause]",
+	"[name]KingEtemon[name]Quoi ?\nNon ! C'est moi\nle meilleur ![pause][clear]Tu as juste \neu de la\nchance ![pause]",
+	"[name][player_name][name]Hé hé hé.\nBon, je m'en\nvais ![pause][clear]A plus, KingEtemon![pause]",
 ]

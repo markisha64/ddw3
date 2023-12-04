@@ -1,10 +1,10 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Alors ? J'ai\nl'air d'un Digimon,\nmaintenant ![pause]",
-	"\\x02\\x07Kail\\x02\\x07Chut ! Tais-toi\nun peu ![pause]\\x02\\x03Ils ne doivent pas\nsavoir qu'on n'est\npas des Digimons ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oh... Ah...\nC'est vrai.\nJe comprends...[pause]",
-	"\\x02\\x07Kail\\x02\\x07J'ai quelque chose\nà vérifier. Je pars\nen avant.[pause]\\x02\\x03\\x02\\x08\\x01\\x02\\x05\\x01, continue\nà chercher Teddy.[pause]\\x02\\x03Dès que j'ai fini, je\nte rejoins.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oh, OK.\nSois\nprudente.[pause]",
-	"\\x02\\x07Kail\\x02\\x07Ne t'en\nfais pas\npour moi ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Qu'est-elle a ?\nJe la trouve bizarre\ndepuis qu'on est ici... [pause]\\x02\\x03Bon, je dois\nchercher Teddy.[pause]",
+	"[name][player_name][name]Alors ? J'ai\nl'air d'un Digimon,\nmaintenant ![pause]",
+	"[name]Kail[name]Chut ! Tais-toi\nun peu ![pause][clear]Ils ne doivent pas\nsavoir qu'on n'est\npas des Digimons ![pause]",
+	"[name][player_name][name]Oh... Ah...\nC'est vrai.\nJe comprends...[pause]",
+	"[name]Kail[name]J'ai quelque chose\nà vérifier. Je pars\nen avant.[pause][clear][player_name2], continue\nà chercher Teddy.[pause][clear]Dès que j'ai fini, je\nte rejoins.[pause]",
+	"[name][player_name][name]Oh, OK.\nSois\nprudente.[pause]",
+	"[name]Kail[name]Ne t'en\nfais pas\npour moi ![pause]",
+	"[name][player_name][name]Qu'est-elle a ?\nJe la trouve bizarre\ndepuis qu'on est ici... [pause][clear]Bon, je dois\nchercher Teddy.[pause]",
 ]

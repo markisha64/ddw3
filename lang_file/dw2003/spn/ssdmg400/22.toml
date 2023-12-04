@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023¡Bien!\n¡Gané![pause]",
-	"\\x02\\x07WarGrowlmon\\x02\\x07Un combate\nestupendo.[pause]\\x02\\x03¡Toma esto![pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Sí!¡Tengo\nel DADN de \nGuilmon![pause]\\x02\\x03¡Gracias,\nWarGrowlmon![pause]",
+	"[name][player_name][name]¡Bien!\n¡Gané![pause]",
+	"[name]WarGrowlmon[name]Un combate\nestupendo.[pause][clear]¡Toma esto![pause]",
+	"[name][player_name][name]¡Sí!¡Tengo\nel DADN de \nGuilmon![pause][clear]¡Gracias,\nWarGrowlmon![pause]",
 ]

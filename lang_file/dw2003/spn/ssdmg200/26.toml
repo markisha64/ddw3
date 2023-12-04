@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Kail,\\x02\\x07Vaya...\nNo podemos pasar.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Tiene que\nhaber una\nmanera.[pause]",
-	"\\x02\\x07Kail\\x02\\x07Bueno, no \ntiene sentido\nquejarse aquí.[pause]\\x02\\x03Separémonos\ny vayamos a \nechar un ojo.[pause]\\x02\\x03Habla a gente\nde la ciudad.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Vale, lo haré.[pause]\\x02\\x03Me empiezo a \npreocupar por \nTeddy.[pause]",
+	"[name]Kail,[name]Vaya...\nNo podemos pasar.[pause]",
+	"[name][player_name][name]Tiene que\nhaber una\nmanera.[pause]",
+	"[name]Kail[name]Bueno, no \ntiene sentido\nquejarse aquí.[pause][clear]Separémonos\ny vayamos a \nechar un ojo.[pause][clear]Habla a gente\nde la ciudad.[pause]",
+	"[name][player_name][name]Vale, lo haré.[pause][clear]Me empiezo a \npreocupar por \nTeddy.[pause]",
 ]

@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Yeah! \nI defeated \nBulbmon![pause]",
-	"\\x02\\x07\\x02\\x09\\x023...Huh?!\nThe hole just\nkeeps on going![pause]\\x02\\x03Maybe it goes to \nAmaterasu \nServer...[pause]\\x02\\x03Well, let's find \nout![pause]",
+	"[name][player_name][name]Yeah! \nI defeated \nBulbmon![pause]",
+	"[name][player_name][name]...Huh?!\nThe hole just\nkeeps on going![pause][clear]Maybe it goes to \nAmaterasu \nServer...[pause][clear]Well, let's find \nout![pause]",
 ]

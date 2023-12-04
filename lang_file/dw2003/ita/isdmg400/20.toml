@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Ho\nvinto![pause]",
-	"\\x02\\x07MetalGreymon\\x02\\x07Beh, te l'avevo\npromesso.\nUsalo bene![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Wow! Il DDNA\ndi Agumon è\nmio![pause]\\x02\\x03Grazie,\nMetalGreymon![pause]",
+	"[name][player_name][name]Ho\nvinto![pause]",
+	"[name]MetalGreymon[name]Beh, te l'avevo\npromesso.\nUsalo bene![pause]",
+	"[name][player_name][name]Wow! Il DDNA\ndi Agumon è\nmio![pause][clear]Grazie,\nMetalGreymon![pause]",
 ]

@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023C'est bizarre,\nje ne vois pas\nde badge ici.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Qu'est-ce\nque...?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Que se passe-\nt-il ?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ahhhhhh ![pause]",
+	"[name][player_name][name]C'est bizarre,\nje ne vois pas\nde badge ici.[pause]",
+	"[name][player_name][name]Qu'est-ce\nque...?[pause]",
+	"[name][player_name][name]Que se passe-\nt-il ?[pause]",
+	"[name][player_name][name]Ahhhhhh ![pause]",
 ]

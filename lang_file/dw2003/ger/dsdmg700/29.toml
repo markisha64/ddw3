@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Kammer-Offizier\\x02\\x07Sternengerät ist\nbereit. Keine\nabnormen Daten.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023...was passiert\nwohl in der\nechten Welt...[pause]\\x02\\x03Hoffentlich OK...[pause]",
+	"[name]Kammer-Offizier[name]Sternengerät ist\nbereit. Keine\nabnormen Daten.[pause]",
+	"[name][player_name][name]...was passiert\nwohl in der\nechten Welt...[pause][clear]Hoffentlich OK...[pause]",
 	"ÜBERTRAGUNGSGRENZE ERREICHT.\nDIGITATION ERZWINGEN.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Was soll ich tun?\nIch kann Jugger-\nnaut nicht stoppen.[pause]\\x02\\x03Ich war soooo nah\ndran![pause]",
+	"[name][player_name][name]Was soll ich tun?\nIch kann Jugger-\nnaut nicht stoppen.[pause][clear]Ich war soooo nah\ndran![pause]",
 ]

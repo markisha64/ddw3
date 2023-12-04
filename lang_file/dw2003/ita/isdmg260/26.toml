@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Va bene!\n4000 BIT![pause]",
-	"\\x02\\x07Mr. Smith\\x02\\x07Wow!\n4000 BIT![pause]\\x02\\x03Nessuno offre\ndi più?[pause]",
-	"\\x02\\x07Mr. Smith\\x02\\x07Sembra proprio\ndi no.[pause]\\x02\\x03Cannone di precis.\nper 4000 BIT![pause]\\x02\\x03Congratulazioni\na te, laggiù![pause]\\x02\\x03Trasferirò \nl'oggetto al\nsatellite![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ho il cannone\ndi precisione![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ora ho un oggetto\nprezioso. Vado\nvia![pause]",
+	"[name][player_name][name]Va bene!\n4000 BIT![pause]",
+	"[name]Mr. Smith[name]Wow!\n4000 BIT![pause][clear]Nessuno offre\ndi più?[pause]",
+	"[name]Mr. Smith[name]Sembra proprio\ndi no.[pause][clear]Cannone di precis.\nper 4000 BIT![pause][clear]Congratulazioni\na te, laggiù![pause][clear]Trasferirò \nl'oggetto al\nsatellite![pause]",
+	"[name][player_name][name]Ho il cannone\ndi precisione![pause]",
+	"[name][player_name][name]Ora ho un oggetto\nprezioso. Vado\nvia![pause]",
 ]

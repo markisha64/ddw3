@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Ho vinto!\nVisto?[pause]",
-	"\\x02\\x07Keith\\x02\\x07Ah! Non mi sono\nimpegnato![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Avevi detto\nche non avresti\nusato i pugni.[pause]",
-	"\\x02\\x07Keith\\x02\\x07Non so di cosa\nstai parlando![pause]\\x02\\x03La prossima\nvolta non mi\nbatterai![pause]\\x02\\x03Ricordati di me.\nSayonara, scemo![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ma sì, tanto\nè lui lo\nscemo![pause]",
+	"[name][player_name][name]Ho vinto!\nVisto?[pause]",
+	"[name]Keith[name]Ah! Non mi sono\nimpegnato![pause]",
+	"[name][player_name][name]Avevi detto\nche non avresti\nusato i pugni.[pause]",
+	"[name]Keith[name]Non so di cosa\nstai parlando![pause][clear]La prossima\nvolta non mi\nbatterai![pause][clear]Ricordati di me.\nSayonara, scemo![pause]",
+	"[name][player_name][name]Ma sì, tanto\nè lui lo\nscemo![pause]",
 ]

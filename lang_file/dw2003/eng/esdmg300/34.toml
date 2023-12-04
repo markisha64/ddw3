@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023All right,\nI'll fight \nyou![pause]",
-	"\\x02\\x07BK MegaGargomon\\x02\\x07Great! I was bored \nbecause no one \ncomes here.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023OK, let's \nbegin![pause]",
-	"\\x02\\x07BK MegaGargomon\\x02\\x07It won't \nbe that easy \nto beat me![pause]",
+	"[name][player_name][name]All right,\nI'll fight \nyou![pause]",
+	"[name]BK MegaGargomon[name]Great! I was bored \nbecause no one \ncomes here.[pause]",
+	"[name][player_name][name]OK, let's \nbegin![pause]",
+	"[name]BK MegaGargomon[name]It won't \nbe that easy \nto beat me![pause]",
 ]

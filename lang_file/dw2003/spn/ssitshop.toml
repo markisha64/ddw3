@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"No tienes \\x02\\x05\\x01",
+	"No tienes {1}",
 	"BIT",
 	"COMPRAR",
 	"VENDER",
@@ -17,7 +17,7 @@ strings = [
 	"Por nbre.",
 	"¿A quién equip.?",
 	"¿Cuántos?",
-	"\\x02\\x05\\x01 BIT",
+	"{1} BIT",
 	"Buy",
 	"No",
 	"¿Equipar?",

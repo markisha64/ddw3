@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Dunkelmaster\\x02\\x07...Hmm?!\nWer bist du...[pause]\\x02\\x03...du willst\nmich heraus-\nfordern...?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Klar!\nKämpfst du mit\nmir?[pause]",
-	"\\x02\\x07Dunkelmaster\\x02\\x07Du weiβt nicht, was\ndich erwartet...[pause]\\x02\\x03...OK. Ich hab\nschon lange keine\nTamer gesehen.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Wart's ab. Ich\nzeig dir, wer\nwas drauf hat![pause]",
+	"[name]Dunkelmaster[name]...Hmm?!\nWer bist du...[pause][clear]...du willst\nmich heraus-\nfordern...?[pause]",
+	"[name][player_name][name]Klar!\nKämpfst du mit\nmir?[pause]",
+	"[name]Dunkelmaster[name]Du weiβt nicht, was\ndich erwartet...[pause][clear]...OK. Ich hab\nschon lange keine\nTamer gesehen.[pause]",
+	"[name][player_name][name]Wart's ab. Ich\nzeig dir, wer\nwas drauf hat![pause]",
 ]

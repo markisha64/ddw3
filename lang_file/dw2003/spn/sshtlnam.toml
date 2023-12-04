@@ -16,7 +16,7 @@ strings = [
 	"Posada Bai Hu",
 	"Posada Xuan Wu",
 	"BIT",
-	"Cada Digimon\n\\x02\\x05\\x01 BIT",
+	"Cada Digimon\n{1} BIT",
 	"Qued. en la Pos.",
 	"No en la Pos.",
 	"¡BIT insuficientes!",

@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07M. Smith\\x02\\x07A vous de jouer ! Voici\nle clou de la vente ![pause]\\x02\\x03La Barrière Divine,\nadmirées par tous ![pause]\\x02\\x03Le bouclier exclusif de \nPatamon est proposé \nà 400 BIT au départ ![pause]",
-	"\\x02\\x07Marchand Abel\\x02\\x07500 BIT ![pause]",
-	"\\x02\\x07Chef Milly\\x02\\x07600 BIT ![pause]",
-	"\\x02\\x07Masao Fan jeu\\x02\\x07700 BIT ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hmm. 800 BIT\n...hmmm...[pause]",
+	"[name]M. Smith[name]A vous de jouer ! Voici\nle clou de la vente ![pause][clear]La Barrière Divine,\nadmirées par tous ![pause][clear]Le bouclier exclusif de \nPatamon est proposé \nà 400 BIT au départ ![pause]",
+	"[name]Marchand Abel[name]500 BIT ![pause]",
+	"[name]Chef Milly[name]600 BIT ![pause]",
+	"[name]Masao Fan jeu[name]700 BIT ![pause]",
+	"[name][player_name][name]Hmm. 800 BIT\n...hmmm...[pause]",
 ]

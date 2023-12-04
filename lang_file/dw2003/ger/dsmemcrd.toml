@@ -2,7 +2,7 @@ strings = [
 	"",
 	"SPEICHERN",
 	"Spieldaten werden gespeichert.",
-	"\\x02\\x05\\x01",
+	"{1}",
 	"MEMORY CARD wird überprüft.\nBerühre nicht die MEMORY CARD.",
 	"Datei wird überprüft.\nBerühre nicht die MEMORY CARD.",
 	"Hier speichern?\n[cross]-Taste: Speichern [triangle]-Taste: Zurück",
@@ -39,5 +39,5 @@ strings = [
 	"Speichern fehlgeschlagen.",
 	"MEMORY CARD Fehler.\nBitte überprüfe MEMORY CARD.",
 	"Digimon World 2003",
-	"Zugriff auf MEMORY CARD Steckplatz \\x02\\x05\\x01:",
+	"Zugriff auf MEMORY CARD Steckplatz {1}:",
 ]

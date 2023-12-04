@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"Beep. Beep.\nBITTE WARTEN.\nDATENBESTÄTIGUNG[pause]\\x02\\x03......\nBLAUE KARTE NICHT\nBESTÄTIGT.[pause]\\x02\\x03KONTOREGISTRIERUNG\nWIRD BEENDET...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Was? Warum\ngeht das nicht?[pause]\\x02\\x03Ich habe doch die\nblaue Karte![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Was ist los? Das\nist nicht die blaue\nKarte?[pause]\\x02\\x03Das B ist eine 8!\nDas ist eine 8laue\nKarte![pause]\\x02\\x03Sie ist gefälscht!\nIch wurde herein-\ngelegt![pause]",
+	"Beep. Beep.\nBITTE WARTEN.\nDATENBESTÄTIGUNG[pause][clear]......\nBLAUE KARTE NICHT\nBESTÄTIGT.[pause][clear]KONTOREGISTRIERUNG\nWIRD BEENDET...[pause]",
+	"[name][player_name][name]Was? Warum\ngeht das nicht?[pause][clear]Ich habe doch die\nblaue Karte![pause]",
+	"[name][player_name][name]Was ist los? Das\nist nicht die blaue\nKarte?[pause][clear]Das B ist eine 8!\nDas ist eine 8laue\nKarte![pause][clear]Sie ist gefälscht!\nIch wurde herein-\ngelegt![pause]",
 ]

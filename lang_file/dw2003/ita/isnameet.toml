@@ -24,7 +24,7 @@ strings = [
 	"Registri l'account?",
 	"SÌ",
 	"NO",
-	"\\x02\\x05\\x01%",
+	"{1}%",
 	"Armi, attacchi magici e cura.\nIdeale per lavori di squadra.",
 	"Per gli impavidi secondo cui\nl'attacco è la miglior difesa.",
 	"Sono tutti strambi e difficili.\nPuoi contare solo su Patamon.",

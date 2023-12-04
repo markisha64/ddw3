@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Knightmon\\x02\\x07Virus détecté !\nVirus détecté ![pause]\\x02\\x03Suppression du\nvirus...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hé ! Je ne suis\npas un virus ![pause]",
-	"\\x02\\x07Knightmon\\x02\\x07Virus confirmé !\nVirus confirmé ![pause]\\x02\\x03Supression du\nvirus...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Rien à faire. Il a\nété reprogrammé par\nl'AoA ![pause]\\x02\\x03Je devrais sans\ndoute explorer les\nautres villes.[pause]",
+	"[name]Knightmon[name]Virus détecté !\nVirus détecté ![pause][clear]Suppression du\nvirus...[pause]",
+	"[name][player_name][name]Hé ! Je ne suis\npas un virus ![pause]",
+	"[name]Knightmon[name]Virus confirmé !\nVirus confirmé ![pause][clear]Supression du\nvirus...[pause]",
+	"[name][player_name][name]Rien à faire. Il a\nété reprogrammé par\nl'AoA ![pause][clear]Je devrais sans\ndoute explorer les\nautres villes.[pause]",
 ]

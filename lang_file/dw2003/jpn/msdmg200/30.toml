@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023⋯あっ，しまった，\nまちがえた![pause]\\x02\\x03かんりセンターは\nあっちだったよな⋯[pause]",
+	"[name][player_name][name]⋯あっ，しまった，\nまちがえた![pause][clear]かんりセンターは\nあっちだったよな⋯[pause]",
 ]

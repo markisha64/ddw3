@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"Bip Bip.\nESPERE\nCONFIRMANDO DATOS[pause]\\x02\\x03......\nERROR EN \nLA CARTA AZUL.[pause]\\x02\\x03FINALIZAR REGISTRO\nDE CUENTA...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¿Qué? ¿Por qué\nno puedo entrar?[pause]\\x02\\x03¡Tengo la Carta\nAzul![pause]",
-	"\\x02\\x07\\x02\\x09\\x023¿Eh? ¿Qué? ¡no \nes la Carta \nAzul![pause]\\x02\\x03¡La A es un 8!\n¡Es la Carta \n8zul![pause]\\x02\\x03¡Es falsa!\n¡Me han \nengañado![pause]",
+	"Bip Bip.\nESPERE\nCONFIRMANDO DATOS[pause][clear]......\nERROR EN \nLA CARTA AZUL.[pause][clear]FINALIZAR REGISTRO\nDE CUENTA...[pause]",
+	"[name][player_name][name]¿Qué? ¿Por qué\nno puedo entrar?[pause][clear]¡Tengo la Carta\nAzul![pause]",
+	"[name][player_name][name]¿Eh? ¿Qué? ¡no \nes la Carta \nAzul![pause][clear]¡La A es un 8!\n¡Es la Carta \n8zul![pause][clear]¡Es falsa!\n¡Me han \nengañado![pause]",
 ]

@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023MagnaAgnemon. Tengo\nun favor que pedirte.[pause]\\x02\\x03¿Puedes darme DADN\nde Patamon del tuyo?[pause]",
-	"\\x02\\x07MagnaAngemon\\x02\\x07Lo siento, pero no\nes algo que se dé\ntan fácil.[pause]\\x02\\x03Si me derrotas, lo\npensaré...[pause]",
+	"[name][player_name][name]MagnaAgnemon. Tengo\nun favor que pedirte.[pause][clear]¿Puedes darme DADN\nde Patamon del tuyo?[pause]",
+	"[name]MagnaAngemon[name]Lo siento, pero no\nes algo que se dé\ntan fácil.[pause][clear]Si me derrotas, lo\npensaré...[pause]",
 ]

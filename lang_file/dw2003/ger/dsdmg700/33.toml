@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Computer-Seiya\\x02\\x07...Was?!\nWas ist denn los?[pause]",
-	"\\x02\\x07Mailfan Saki\\x02\\x07Ruhe! Ich kann\nmein Handy nicht\nhören![pause]",
-	"\\x02\\x07Shopper Teruko\\x02\\x07Waaaaas?!\nWas soll ich tun?[pause]",
-	"\\x02\\x07Shopper Teruko\\x02\\x07Wo ist die \nPolizei?![pause]",
+	"[name]Computer-Seiya[name]...Was?!\nWas ist denn los?[pause]",
+	"[name]Mailfan Saki[name]Ruhe! Ich kann\nmein Handy nicht\nhören![pause]",
+	"[name]Shopper Teruko[name]Waaaaas?!\nWas soll ich tun?[pause]",
+	"[name]Shopper Teruko[name]Wo ist die \nPolizei?![pause]",
 ]

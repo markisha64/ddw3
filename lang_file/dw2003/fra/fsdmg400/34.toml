@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Bon, je vais trouver  \nVeemon et prendre\nles Arbori-bottes ![pause]\\x02\\x03Je dois prendre garde\nà ne pas sortir de\nla Forêt Vive ![pause]",
+	"[name][player_name][name]Bon, je vais trouver  \nVeemon et prendre\nles Arbori-bottes ![pause][clear]Je dois prendre garde\nà ne pas sortir de\nla Forêt Vive ![pause]",
 ]

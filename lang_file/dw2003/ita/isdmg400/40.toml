@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023...\nMa quello è...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ottimo! Ho il digi-uovo\ndella fiducia![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Chiamerò\nSubmarimon per\nla traversata![pause]",
+	"[name][player_name][name]...\nMa quello è...[pause]",
+	"[name][player_name][name]Ottimo! Ho il digi-uovo\ndella fiducia![pause]",
+	"[name][player_name][name]Chiamerò\nSubmarimon per\nla traversata![pause]",
 ]

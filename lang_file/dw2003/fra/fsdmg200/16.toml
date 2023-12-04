@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07Navi Digimon\\x02\\x07Je vais afficher\nles données\nsur ton satellite.[pause]",
-	"\"Kotemon\"\nIl apprend les types Agumon/Veemon\navec l'entraînement tolérance machine.[pause]\\x02\\x03\"Monmon\"\nUne fois le nv Ultime appris, exerce\nsa tolérance force/machine/vent.[pause]",
-	"\"Kumamon\"\nExerce sa sagesse et son esprit,\nles plus difficiles à améliorer.[pause]\\x02\\x03\"Renamon\"\nExerce son esprit ou sa force et\nsa défense.[pause]",
-	"\"Patamon\"\nExerce sa sagesse ou sa force.[pause]\\x02\\x03\"Agumon\"\nAugm. sa tolérance aux ténèbres\npour une digivolution de type noir.[pause]",
-	"\"Guilmon\"\nSes param. étant partiaux, la clé\nest de renforcer ses faiblesses.[pause]\\x02\\x03\"Veemon\"\nApprend peu au début, mais si\ntu exerces certains paramètres...[pause]",
-	"\\x02\\x07Navi Digivolve\\x02\\x07Voilà toutes les infos\nque j'ai à te donner.\nBonne chance ![pause]",
+	"[name]Navi Digimon[name]Je vais afficher\nles données\nsur ton satellite.[pause]",
+	"\"Kotemon\"\nIl apprend les types Agumon/Veemon\navec l'entraînement tolérance machine.[pause][clear]\"Monmon\"\nUne fois le nv Ultime appris, exerce\nsa tolérance force/machine/vent.[pause]",
+	"\"Kumamon\"\nExerce sa sagesse et son esprit,\nles plus difficiles à améliorer.[pause][clear]\"Renamon\"\nExerce son esprit ou sa force et\nsa défense.[pause]",
+	"\"Patamon\"\nExerce sa sagesse ou sa force.[pause][clear]\"Agumon\"\nAugm. sa tolérance aux ténèbres\npour une digivolution de type noir.[pause]",
+	"\"Guilmon\"\nSes param. étant partiaux, la clé\nest de renforcer ses faiblesses.[pause][clear]\"Veemon\"\nApprend peu au début, mais si\ntu exerces certains paramètres...[pause]",
+	"[name]Navi Digivolve[name]Voilà toutes les infos\nque j'ai à te donner.\nBonne chance ![pause]",
 ]

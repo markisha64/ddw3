@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Sure, I'll \nfight you![pause]",
-	"\\x02\\x07BK WarGreymon\\x02\\x07You seem to \nhave guts![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Come on.\nI'll show you \nmy powers![pause]",
-	"\\x02\\x07BK WarGreymon\\x02\\x07Very well.\nLet's begin![pause]",
+	"[name][player_name][name]Sure, I'll \nfight you![pause]",
+	"[name]BK WarGreymon[name]You seem to \nhave guts![pause]",
+	"[name][player_name][name]Come on.\nI'll show you \nmy powers![pause]",
+	"[name]BK WarGreymon[name]Very well.\nLet's begin![pause]",
 ]

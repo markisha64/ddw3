@@ -1,10 +1,10 @@
 strings = [
 	"",
-	"\\x02\\x07Game Master\\x02\\x07...then Destromon \nshould be born \nabout now...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023What's this \nDestromon?[pause]",
-	"\\x02\\x07Game Master\\x02\\x07It's a Digimon born by \nfusing Vemmon and \nthe Juggernaut![pause]\\x02\\x03Destromon is the \nstrongest Digimon! No \nweapon can defeat it![pause]",
-	"\\x02\\x07Lisa\\x02\\x07...we've got no time \nto lose![pause]\\x02\\x03Let's get the president \nof MAGAMI to stop \nDestromon![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Yes ma'am![pause]",
-	"\\x02\\x07Teddy\\x02\\x07...y-yes![pause]",
-	"\\x02\\x07Nick\\x02\\x07Roger![pause]",
+	"[name]Game Master[name]...then Destromon \nshould be born \nabout now...[pause]",
+	"[name][player_name][name]What's this \nDestromon?[pause]",
+	"[name]Game Master[name]It's a Digimon born by \nfusing Vemmon and \nthe Juggernaut![pause][clear]Destromon is the \nstrongest Digimon! No \nweapon can defeat it![pause]",
+	"[name]Lisa[name]...we've got no time \nto lose![pause][clear]Let's get the president \nof MAGAMI to stop \nDestromon![pause]",
+	"[name][player_name][name]Yes ma'am![pause]",
+	"[name]Teddy[name]...y-yes![pause]",
+	"[name]Nick[name]Roger![pause]",
 ]

@@ -16,7 +16,7 @@ strings = [
 	"Auberge Bai Hu",
 	"Aub. Xuan Wu",
 	"BIT",
-	"Un Digimon =\n\\x02\\x05\\x01 BIT",
+	"Un Digimon =\n{1} BIT",
 	"Rester",
 	"Ne pas rester",
 	"Pas assez de BIT !",

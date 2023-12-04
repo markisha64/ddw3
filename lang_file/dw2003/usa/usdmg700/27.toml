@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023...What is this \ncontrol panel?[pause]\\x02\\x03Here's a button.\nI guess I'll push \nit![pause]",
-	"\\x02\\x07\\x02\\x09\\x023I wonder what \nit was for?\nOh, well...[pause]",
+	"[name][player_name][name]...What is this \ncontrol panel?[pause][clear]Here's a button.\nI guess I'll push \nit![pause]",
+	"[name][player_name][name]I wonder what \nit was for?\nOh, well...[pause]",
 ]

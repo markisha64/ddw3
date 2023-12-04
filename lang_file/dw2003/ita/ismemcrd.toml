@@ -2,7 +2,7 @@ strings = [
 	"",
 	"SALVA",
 	"SALVATAGGIO",
-	"\\x02\\x05\\x01",
+	"{1}",
 	"Controllo MEMORY CARD.\nNon toccare la MEMORY CARD.",
 	"Controllo del file.\nNon toccare la MEMORY CARD.",
 	"Vuoi salvare qui?\nTasto [cross]: conferma     Tasto [triangle]: indietro",
@@ -39,5 +39,5 @@ strings = [
 	"Salvataggio fallito.",
 	"Errore della MEMORY CARD.\nControlla la MEMORY CARD.",
 	"Dati di Digimon World 2003",
-	"Accesso alla MEMORY CARD nell'ingresso \\x02\\x05\\x01",
+	"Accesso alla MEMORY CARD nell'ingresso {1}",
 ]

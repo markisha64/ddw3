@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023¡Sí! ¡He\nganado a\nKyukimon![pause]",
-	"\\x02\\x07Kyukimon\\x02\\x07Tus Digimon son\nmuy fuertes para\nganarme.[pause]\\x02\\x03Me he divertido \nmucho contigo.\n¡Toma esto![pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Sí!¡Tengo\nel DADN de \nKatemon![pause]\\x02\\x03¡Gracias,\nKyukimon![pause]",
+	"[name][player_name][name]¡Sí! ¡He\nganado a\nKyukimon![pause]",
+	"[name]Kyukimon[name]Tus Digimon son\nmuy fuertes para\nganarme.[pause][clear]Me he divertido \nmucho contigo.\n¡Toma esto![pause]",
+	"[name][player_name][name]¡Sí!¡Tengo\nel DADN de \nKatemon![pause][clear]¡Gracias,\nKyukimon![pause]",
 ]

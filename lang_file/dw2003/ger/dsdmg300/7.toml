@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07Soldat\\x02\\x07Hier kommst\ndu nicht\nvorbei![pause]\\x02\\x03Mich besiegst\ndu nicht![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ach tatsächlich?[pause]\\x02\\x03Ihr denkt immer,\ndass ihr \ngewinnt![pause]",
+	"[name]Soldat[name]Hier kommst\ndu nicht\nvorbei![pause][clear]Mich besiegst\ndu nicht![pause]",
+	"[name][player_name][name]Ach tatsächlich?[pause][clear]Ihr denkt immer,\ndass ihr \ngewinnt![pause]",
 ]

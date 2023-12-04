@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Ho battuto\nil capo di\nQing Long![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Eh?\nC'è qualcosa\na terra.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ma non c'è traccia\ndel digi-uovo della\nsapienza.[pause]\\x02\\x03Chissà cosa sta\nsuccedendo nel\nMondo Reale.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Eh? Che\ncos'è? Il\npass blu?[pause]\\x02\\x03Può tornarmi\nutile. Lo terrò\ncon me![pause]",
+	"[name][player_name][name]Ho battuto\nil capo di\nQing Long![pause]",
+	"[name][player_name][name]Eh?\nC'è qualcosa\na terra.[pause]",
+	"[name][player_name][name]Ma non c'è traccia\ndel digi-uovo della\nsapienza.[pause][clear]Chissà cosa sta\nsuccedendo nel\nMondo Reale.[pause]",
+	"[name][player_name][name]Eh? Che\ncos'è? Il\npass blu?[pause][clear]Può tornarmi\nutile. Lo terrò\ncon me![pause]",
 ]

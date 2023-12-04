@@ -16,7 +16,7 @@ strings = [
 	"Bai Hu Inn",
 	"Xuan Wu Inn",
 	"BIT",
-	"Each Digimon\n\\x02\\x05\\x01 BIT",
+	"Each Digimon\n{1} BIT",
 	"Stay in Inn",
 	"Do not stay in Inn",
 	"You don't have enough BIT!",

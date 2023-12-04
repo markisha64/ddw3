@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Guardromon\\x02\\x07Ahora accederé a\nla Unidad Matriz.[pause]",
+	"[name]Guardromon[name]Ahora accederé a\nla Unidad Matriz.[pause]",
 ]

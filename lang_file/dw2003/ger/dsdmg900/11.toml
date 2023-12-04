@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Tamer Poemy\\x02\\x07Gehe dahin, groβer\nHeld! Stelle dich\ndeinem Schicksal![pause]\\x02\\x03Im Geiste werde ich\nimmer mit dir sein![pause]",
+	"[name]Tamer Poemy[name]Gehe dahin, groβer\nHeld! Stelle dich\ndeinem Schicksal![pause][clear]Im Geiste werde ich\nimmer mit dir sein![pause]",
 ]

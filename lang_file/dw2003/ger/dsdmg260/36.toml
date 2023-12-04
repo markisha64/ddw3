@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Mr. Smith\\x02\\x07Das ist eure Chance![pause]\\x02\\x03Es geht um's Hauptitem![pause]\\x02\\x03Die hlg. Krone.\nVon allen bewundert![pause]\\x02\\x03Das Mindestgebot für\ndie Patamon-Krone\nliegt bei 4000 BIT![pause]",
-	"\\x02\\x07Händler Abel\\x02\\x074500 BIT![pause]",
-	"\\x02\\x07Chief Milly\\x02\\x075500 BIT![pause]",
-	"\\x02\\x07RPG-Fan Mas.\\x02\\x075900 BIT![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hmm..6000 BIT\n...hmmm...[pause]",
+	"[name]Mr. Smith[name]Das ist eure Chance![pause][clear]Es geht um's Hauptitem![pause][clear]Die hlg. Krone.\nVon allen bewundert![pause][clear]Das Mindestgebot für\ndie Patamon-Krone\nliegt bei 4000 BIT![pause]",
+	"[name]Händler Abel[name]4500 BIT![pause]",
+	"[name]Chief Milly[name]5500 BIT![pause]",
+	"[name]RPG-Fan Mas.[name]5900 BIT![pause]",
+	"[name][player_name][name]Hmm..6000 BIT\n...hmmm...[pause]",
 ]

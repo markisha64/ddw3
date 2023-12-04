@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Sr. Wedge\\x02\\x07En ese caso ven\npor aquí, tengo\nbuenos artículos.[pause]",
+	"[name]Sr. Wedge[name]En ese caso ven\npor aquí, tengo\nbuenos artículos.[pause]",
 ]

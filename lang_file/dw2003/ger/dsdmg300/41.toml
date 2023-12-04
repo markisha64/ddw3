@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Divermon\\x02\\x07Oh, ich wollte\nunbedingt einen\nLacher kriegen![pause]\\x02\\x03Ich muss meine Kar-\nten besser wählen.[pause]",
+	"[name]Divermon[name]Oh, ich wollte\nunbedingt einen\nLacher kriegen![pause][clear]Ich muss meine Kar-\nten besser wählen.[pause]",
 ]

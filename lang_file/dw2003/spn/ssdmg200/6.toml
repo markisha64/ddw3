@@ -1,1 +1,1 @@
-strings = ["", "\\x02\\x07Servicio Doma.\\x02\\x07Comprendo.[pause]"]
+strings = ["", "[name]Servicio Doma.[name]Comprendo.[pause]"]

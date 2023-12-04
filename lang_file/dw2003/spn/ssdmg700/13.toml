@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07Caballero fuego\\x02\\x07¡He perdido!\nHe perdido el tiempo.[pause]\\x02\\x03Necesito soltar vapor.\n¡Hagamos esto \nde vez en cuando![pause]",
-	"\\x02\\x07Caballero Fuego\\x02\\x07¡La Mazmorra Osc.\nestá adelante!\n¡Tenga cuidado![pause]",
+	"[name]Caballero fuego[name]¡He perdido!\nHe perdido el tiempo.[pause][clear]Necesito soltar vapor.\n¡Hagamos esto \nde vez en cuando![pause]",
+	"[name]Caballero Fuego[name]¡La Mazmorra Osc.\nestá adelante!\n¡Tenga cuidado![pause]",
 ]

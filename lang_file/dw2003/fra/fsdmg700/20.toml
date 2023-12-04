@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07Maître des Glaces\\x02\\x07Tu es bon. \nImpressionnant ![pause]\\x02\\x03Je t'offre ce \ncadeau. \nPrends-le ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oui ! J'ai\nun Chip PM ![pause]",
-	"\\x02\\x07Maître des Glaces\\x02\\x07Cela se corse à\npartir d'ici !\nTiens-toi prêt ![pause]",
+	"[name]Maître des Glaces[name]Tu es bon. \nImpressionnant ![pause][clear]Je t'offre ce \ncadeau. \nPrends-le ![pause]",
+	"[name][player_name][name]Oui ! J'ai\nun Chip PM ![pause]",
+	"[name]Maître des Glaces[name]Cela se corse à\npartir d'ici !\nTiens-toi prêt ![pause]",
 ]

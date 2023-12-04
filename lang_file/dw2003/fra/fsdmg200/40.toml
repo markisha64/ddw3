@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Attaquant\\x02\\x07Personne ne passe \npar là ! Je ne laisse \npersonne passer ![pause]\\x02\\x03Bientôt naîtra notre \nmonde merveilleux ![pause]",
+	"[name]Attaquant[name]Personne ne passe \npar là ! Je ne laisse \npersonne passer ![pause][clear]Bientôt naîtra notre \nmonde merveilleux ![pause]",
 ]

@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Ve bene,\nlotterò con\nte![pause]",
-	"\\x02\\x07MegaGargomon N\\x02\\x07Finalmente! Mi\nannoiavo\nparecchio.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Cominciamo\nsubito[pause]",
-	"\\x02\\x07MegaGargom. N\\x02\\x07Non sarà\ncosì facile\nbattermi![pause]",
+	"[name][player_name][name]Ve bene,\nlotterò con\nte![pause]",
+	"[name]MegaGargomon N[name]Finalmente! Mi\nannoiavo\nparecchio.[pause]",
+	"[name][player_name][name]Cominciamo\nsubito[pause]",
+	"[name]MegaGargom. N[name]Non sarà\ncosì facile\nbattermi![pause]",
 ]

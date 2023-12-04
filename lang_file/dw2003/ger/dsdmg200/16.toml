@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07Digimon-Navig.\\x02\\x07Die Daten werden\nauf deinem Satelli-\nten angezeigt.[pause]",
-	"\"Kotemon\"\nKann Agumon-/Veemon-Typen lernen,\nwenn du Maschinentoleranz trainierst.[pause]\\x02\\x03\"Monmon\"\nWenn es Ultimativ kann, trainiere \nStärke, Maschinen- und Windtoleranz.[pause]",
-	"\"Kumamon\"\nTrainiere Weisheit und Geist, die\nam schwierigsten sind.[pause]\\x02\\x03\"Renamon\"\nTrainiere Geist o. Stärke u. Abwehr.[pause]",
-	"\"Patamon\"\nTrainiere Geist oder Stärke.[pause]\\x02\\x03\"Agumon\"\nWenn du Dunkelheittol. erhöhst,\nlernt es Dunkelheitsdigitation.[pause]",
-	"\"Guilmon\"\nDa dies Teilparameter sind, soll- \nten die Schwächen gestärkt werden.[pause]\\x02\\x03\"Veemon\"\nMuss zunächst wenig lernen, aber\nwenn du einige Param. trainierst...[pause]",
-	"\\x02\\x07Digitations-Navi.\\x02\\x07Das war schon\nalles. Viel Glück![pause]",
+	"[name]Digimon-Navig.[name]Die Daten werden\nauf deinem Satelli-\nten angezeigt.[pause]",
+	"\"Kotemon\"\nKann Agumon-/Veemon-Typen lernen,\nwenn du Maschinentoleranz trainierst.[pause][clear]\"Monmon\"\nWenn es Ultimativ kann, trainiere \nStärke, Maschinen- und Windtoleranz.[pause]",
+	"\"Kumamon\"\nTrainiere Weisheit und Geist, die\nam schwierigsten sind.[pause][clear]\"Renamon\"\nTrainiere Geist o. Stärke u. Abwehr.[pause]",
+	"\"Patamon\"\nTrainiere Geist oder Stärke.[pause][clear]\"Agumon\"\nWenn du Dunkelheittol. erhöhst,\nlernt es Dunkelheitsdigitation.[pause]",
+	"\"Guilmon\"\nDa dies Teilparameter sind, soll- \nten die Schwächen gestärkt werden.[pause][clear]\"Veemon\"\nMuss zunächst wenig lernen, aber\nwenn du einige Param. trainierst...[pause]",
+	"[name]Digitations-Navi.[name]Das war schon\nalles. Viel Glück![pause]",
 ]

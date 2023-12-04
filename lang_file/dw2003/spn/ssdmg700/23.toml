@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Maestro Oscuro\\x02\\x07Umm...\n¿Quién eres?[pause]\\x02\\x03¿Has venido a\ndesafiarme?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Sí!\n¡¿Lucharás \nconmigo, verdad?![pause]",
-	"\\x02\\x07Maestro Oscuro\\x02\\x07No sabes lo que \nestás pidiendo...[pause]\\x02\\x03De acuerdo.\nNo he visto un \ndomador en mucho.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Ya verás!\n¡Te mostraré\nquién es malo![pause]",
+	"[name]Maestro Oscuro[name]Umm...\n¿Quién eres?[pause][clear]¿Has venido a\ndesafiarme?[pause]",
+	"[name][player_name][name]¡Sí!\n¡¿Lucharás \nconmigo, verdad?![pause]",
+	"[name]Maestro Oscuro[name]No sabes lo que \nestás pidiendo...[pause][clear]De acuerdo.\nNo he visto un \ndomador en mucho.[pause]",
+	"[name][player_name][name]¡Ya verás!\n¡Te mostraré\nquién es malo![pause]",
 ]

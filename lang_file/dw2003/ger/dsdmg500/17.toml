@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Ich habe\nTaomon\nbesiegt![pause]",
-	"\\x02\\x07Taomon\\x02\\x07...Aha, du\nbist besser\nals ich dachte.[pause]\\x02\\x03Hier nimm sie\nmit.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Cool! Ich hab\ndie Renamon-\nDDNA?[pause]\\x02\\x03Danke Taomon![pause]",
+	"[name][player_name][name]Ich habe\nTaomon\nbesiegt![pause]",
+	"[name]Taomon[name]...Aha, du\nbist besser\nals ich dachte.[pause][clear]Hier nimm sie\nmit.[pause]",
+	"[name][player_name][name]Cool! Ich hab\ndie Renamon-\nDDNA?[pause][clear]Danke Taomon![pause]",
 ]

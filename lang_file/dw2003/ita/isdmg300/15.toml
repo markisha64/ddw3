@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Strano. Non\nc'è nessuno\nqui![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ci sono! È come la\nstanza della Signora\ndel Gioco ad Asuka![pause]\\x02\\x03Una porta segreta![pause]\\x02\\x03Quale sarà il\ncodice?[pause]\\x02\\x03Ad Asuka era\nMONSTER, forse\nqui è DIGITAL?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023!!\nSi è aperta\nda sola![pause]\\x02\\x03Forse\nvuole che\nentri.[pause]\\x02\\x03Bene, allora!\nEntrerò,\nchiunque tu sia![pause]",
+	"[name][player_name][name]Strano. Non\nc'è nessuno\nqui![pause]",
+	"[name][player_name][name]Ci sono! È come la\nstanza della Signora\ndel Gioco ad Asuka![pause][clear]Una porta segreta![pause][clear]Quale sarà il\ncodice?[pause][clear]Ad Asuka era\nMONSTER, forse\nqui è DIGITAL?[pause]",
+	"[name][player_name][name]!!\nSi è aperta\nda sola![pause][clear]Forse\nvuole che\nentri.[pause][clear]Bene, allora!\nEntrerò,\nchiunque tu sia![pause]",
 ]

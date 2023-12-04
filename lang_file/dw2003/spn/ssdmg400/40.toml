@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023¡Eh, eso...![pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Estupendo! Tengo\nel Digih. de Seriedad![pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Ahora puedo llamar a \nSubmarimon y \ncruzar el mar![pause]",
+	"[name][player_name][name]¡Eh, eso...![pause]",
+	"[name][player_name][name]¡Estupendo! Tengo\nel Digih. de Seriedad![pause]",
+	"[name][player_name][name]¡Ahora puedo llamar a \nSubmarimon y \ncruzar el mar![pause]",
 ]

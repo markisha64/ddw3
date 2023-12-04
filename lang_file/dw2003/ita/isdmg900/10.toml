@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Domatr. Haruka\\x02\\x07Va bene. Segui\nla tua strada\ncon coraggio.[pause]\\x02\\x03E rallegrati\nper la mia\ngenerosità![pause]",
+	"[name]Domatr. Haruka[name]Va bene. Segui\nla tua strada\ncon coraggio.[pause][clear]E rallegrati\nper la mia\ngenerosità![pause]",
 ]

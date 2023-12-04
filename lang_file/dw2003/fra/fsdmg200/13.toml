@@ -1,10 +1,10 @@
 strings = [
 	"",
-	"\\x02\\x07Navi Digimon\\x02\\x07Nous renseignons ici sur\nles combats et la manière\nde former les Digimons.[pause]\\x02\\x03Les données s'afficheront\nsur ton satellite.[pause]",
-	"\"Types d'attaques\"\nTu peux utiliser des techniques\nphysiques, magiques et de soutien.[pause]\\x02\\x03\"Attributs d'attaque\"\nAttaque avec des attributs appropriés\net utilise des attributs alliés.[pause]",
-	"\"Effets des techniques\"\nL'efficacité d'un poison, d'une para-\nlysie varie d'un Digimon à l'autre.[pause]\\x02\\x03\"Maladies de statut\"\nLes maladies disparaissent après le\ncombat, sauf \"fléau\" de Cardmon.[pause]",
-	"\"Digivolution ADN\"\nCrée un Digimon à partir de 2. Après \nla digivolution, les 2 s'échangeront.[pause]\\x02\\x03\"Distribution EXP\"\nTous les Digimons qui ont participé\nau combat recevront de l'EXP.[pause]",
-	"\"Entraînement\"\nUn Dig. s'entraîne dans un gym.\navec des PE (pts d'entraînement).[pause]\\x02\\x03\"Compétences Digivolution\"\nLes compétences sous forme\ndigivolvée augmentent avec l'EXP.[pause]",
+	"[name]Navi Digimon[name]Nous renseignons ici sur\nles combats et la manière\nde former les Digimons.[pause][clear]Les données s'afficheront\nsur ton satellite.[pause]",
+	"\"Types d'attaques\"\nTu peux utiliser des techniques\nphysiques, magiques et de soutien.[pause][clear]\"Attributs d'attaque\"\nAttaque avec des attributs appropriés\net utilise des attributs alliés.[pause]",
+	"\"Effets des techniques\"\nL'efficacité d'un poison, d'une para-\nlysie varie d'un Digimon à l'autre.[pause][clear]\"Maladies de statut\"\nLes maladies disparaissent après le\ncombat, sauf \"fléau\" de Cardmon.[pause]",
+	"\"Digivolution ADN\"\nCrée un Digimon à partir de 2. Après \nla digivolution, les 2 s'échangeront.[pause][clear]\"Distribution EXP\"\nTous les Digimons qui ont participé\nau combat recevront de l'EXP.[pause]",
+	"\"Entraînement\"\nUn Dig. s'entraîne dans un gym.\navec des PE (pts d'entraînement).[pause][clear]\"Compétences Digivolution\"\nLes compétences sous forme\ndigivolvée augmentent avec l'EXP.[pause]",
 	"a",
-	"\\x02\\x07Navi Digimon\\x02\\x07Voilà toutes les\ninfos disponibles.\nBonne chance ![pause]",
+	"[name]Navi Digimon[name]Voilà toutes les\ninfos disponibles.\nBonne chance ![pause]",
 ]

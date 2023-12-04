@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Eh, Etermon,\ntengo algo  \nque preguntar.[pause]",
-	"\\x02\\x07Etemon\\x02\\x07¿Sí? ¿Qué?\nTe diré todo lo que\nsé.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¿Eres tú el que\ntiene la máscara de \nSepikmon?[pause]",
-	"\\x02\\x07Etemon\\x02\\x07¡N-No sé de\nqué me hablas![pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Espera![pause]\\x02\\x03¡Oculta\nalgo![pause]",
+	"[name][player_name][name]Eh, Etermon,\ntengo algo  \nque preguntar.[pause]",
+	"[name]Etemon[name]¿Sí? ¿Qué?\nTe diré todo lo que\nsé.[pause]",
+	"[name][player_name][name]¿Eres tú el que\ntiene la máscara de \nSepikmon?[pause]",
+	"[name]Etemon[name]¡N-No sé de\nqué me hablas![pause]",
+	"[name][player_name][name]¡Espera![pause][clear]¡Oculta\nalgo![pause]",
 ]

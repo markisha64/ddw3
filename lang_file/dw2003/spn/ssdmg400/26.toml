@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023¡Sí!¡Gané![pause]\\x02\\x03¡Venga, \ndámelo![pause]",
-	"\\x02\\x07Paildramon\\x02\\x07De acuerdo...\nAquí tienes.\nTómalo. ¡Ahh![pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Sí! ¡Tengo\nel DADN de \nVeemon![pause]\\x02\\x03¡Gracias\nPaildramon![pause]",
-	"\\x02\\x07Paildramon\\x02\\x07Sí, sí, no voy \na hacer esto \nnunca más.[pause]",
+	"[name][player_name][name]¡Sí!¡Gané![pause][clear]¡Venga, \ndámelo![pause]",
+	"[name]Paildramon[name]De acuerdo...\nAquí tienes.\nTómalo. ¡Ahh![pause]",
+	"[name][player_name][name]¡Sí! ¡Tengo\nel DADN de \nVeemon![pause][clear]¡Gracias\nPaildramon![pause]",
+	"[name]Paildramon[name]Sí, sí, no voy \na hacer esto \nnunca más.[pause]",
 ]

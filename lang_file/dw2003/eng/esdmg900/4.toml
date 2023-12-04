@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023So,\nthis is the Arena.[pause]\\x02\\x03I wonder which guy's\nmy opponent? I'm\nready![pause]",
-	"\\x02\\x07Kurt\\x02\\x07Hey!\n\\x02\\x08\\x01\\x02\\x05\\x01![pause]\\x02\\x03I knew you'd\ngo all the way![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Huh?\nKurt?[pause]\\x02\\x03Don't tell me\nyou're the\nstrongest tamer![pause]",
-	"\\x02\\x07Kurt\\x02\\x07That's right!\nI'm glad to be facing\nyou here. I've always[pause]\\x02\\x03wanted to fight you\nall-out![pause]",
-	"\\x02\\x07\\x02\\x09\\x023I've felt the same!\nThere's no worthier\nopponent than you![pause]",
-	"\\x02\\x07Kurt\\x02\\x07Ha ha! I'm going\nto enjoy this![pause]\\x02\\x03Let the fun\nbegin! Don't hold\nback![pause]",
+	"[name][player_name][name]So,\nthis is the Arena.[pause][clear]I wonder which guy's\nmy opponent? I'm\nready![pause]",
+	"[name]Kurt[name]Hey!\n[player_name2]![pause][clear]I knew you'd\ngo all the way![pause]",
+	"[name][player_name][name]Huh?\nKurt?[pause][clear]Don't tell me\nyou're the\nstrongest tamer![pause]",
+	"[name]Kurt[name]That's right!\nI'm glad to be facing\nyou here. I've always[pause][clear]wanted to fight you\nall-out![pause]",
+	"[name][player_name][name]I've felt the same!\nThere's no worthier\nopponent than you![pause]",
+	"[name]Kurt[name]Ha ha! I'm going\nto enjoy this![pause][clear]Let the fun\nbegin! Don't hold\nback![pause]",
 ]

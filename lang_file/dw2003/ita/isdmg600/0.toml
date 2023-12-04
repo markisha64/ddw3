@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Governatore di Byakko\\x02\\x07Benvenuto, sfidante.\nCombattiamo![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ah, aspetta\nun po'.[pause]\\x02\\x03Prima ho\nuna\ndomanda.[pause]",
-	"\\x02\\x07Governat. di Byakko\\x02\\x07Prima combattiamo![pause]\\x02\\x03Se vinci ti\nrisponderò.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023OK, non\nriuscirai\na battermi![pause]",
+	"[name]Governatore di Byakko[name]Benvenuto, sfidante.\nCombattiamo![pause]",
+	"[name][player_name][name]Ah, aspetta\nun po'.[pause][clear]Prima ho\nuna\ndomanda.[pause]",
+	"[name]Governat. di Byakko[name]Prima combattiamo![pause][clear]Se vinci ti\nrisponderò.[pause]",
+	"[name][player_name][name]OK, non\nriuscirai\na battermi![pause]",
 ]

@@ -38,7 +38,7 @@ strings = [
 	"Can't change digivolve.",
 	"Can't load technique.",
 	"Choose a technique.",
-	"\\x02\\x05\\x01 digivolve",
+	"{1} digivolve",
 	"/4",
 	"L1",
 	"R1",

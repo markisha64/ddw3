@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07Airdramon\\x02\\x07Zzzzzzzzzzz\nZzzzzzzzzzz[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hey, Airdramon.\nI've got a favor to\nask.[pause]",
-	"\\x02\\x07Airdramon\\x02\\x07Zzzzzzzzzzz\nZzzzzzzzzzz[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Airdramon, can you go\nto Qing Long City and \nblow some wind?[pause]\\x02\\x03We don't have enough \npower to turn everyone\nback from Oinkmon...[pause]\\x02\\x03Airdramon, help them.\nCome on, wake up![pause]",
-	"\\x02\\x07Airdramon\\x02\\x07Zzzzzzzzzzz\nZzzzzzzzzzz[pause]",
-	"\\x02\\x07\\x02\\x09\\x023But I guess \nthat's not \npossible...[pause]\\x02\\x03OK, I'll find \nsome other \nway...[pause]",
+	"[name]Airdramon[name]Zzzzzzzzzzz\nZzzzzzzzzzz[pause]",
+	"[name][player_name][name]Hey, Airdramon.\nI've got a favor to\nask.[pause]",
+	"[name]Airdramon[name]Zzzzzzzzzzz\nZzzzzzzzzzz[pause]",
+	"[name][player_name][name]Airdramon, can you go\nto Qing Long City and \nblow some wind?[pause][clear]We don't have enough \npower to turn everyone\nback from Oinkmon...[pause][clear]Airdramon, help them.\nCome on, wake up![pause]",
+	"[name]Airdramon[name]Zzzzzzzzzzz\nZzzzzzzzzzz[pause]",
+	"[name][player_name][name]But I guess \nthat's not \npossible...[pause][clear]OK, I'll find \nsome other \nway...[pause]",
 ]

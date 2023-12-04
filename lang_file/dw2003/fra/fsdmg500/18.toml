@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Hé Kyukimon.\nJ'ai un service à\nte demander.[pause]\\x02\\x03Je peux avoir  \nl'ADNN Kotemon\ndepuis ton ADNN ?[pause]",
-	"\\x02\\x07Kyukimon\\x02\\x07Hé bien....\nOui, mais à\nune condition.[pause]\\x02\\x03Tu dois d'abord\nme battre.[pause]",
+	"[name][player_name][name]Hé Kyukimon.\nJ'ai un service à\nte demander.[pause][clear]Je peux avoir  \nl'ADNN Kotemon\ndepuis ton ADNN ?[pause]",
+	"[name]Kyukimon[name]Hé bien....\nOui, mais à\nune condition.[pause][clear]Tu dois d'abord\nme battre.[pause]",
 ]

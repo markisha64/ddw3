@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Hey \nNumemon![pause]",
-	"\\x02\\x07Numemon\\x02\\x07It's you.\nWhy did you \nreturn?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023There's something \nI want to ask \nyou. So...[pause]",
-	"\\x02\\x07Numemon\\x02\\x07There's nothing \nto tell you![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hey, wait![pause]",
+	"[name][player_name][name]Hey \nNumemon![pause]",
+	"[name]Numemon[name]It's you.\nWhy did you \nreturn?[pause]",
+	"[name][player_name][name]There's something \nI want to ask \nyou. So...[pause]",
+	"[name]Numemon[name]There's nothing \nto tell you![pause]",
+	"[name][player_name][name]Hey, wait![pause]",
 ]

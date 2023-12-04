@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"¡Mi verdadero objetivo\nera capturar Gunslinger! El\nJuggernaut era una trampa.[pause]\\x02\\x03La Operación Sigma de \nla A.o.A entra en la etapa final.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¿Etapas finales?\n¡¿Qué están\nhaciendo?![pause]",
+	"¡Mi verdadero objetivo\nera capturar Gunslinger! El\nJuggernaut era una trampa.[pause][clear]La Operación Sigma de \nla A.o.A entra en la etapa final.[pause]",
+	"[name][player_name][name]¿Etapas finales?\n¡¿Qué están\nhaciendo?![pause]",
 	"Lanzaremos la Onda Digital. Desde\nel Cañón Ragnark y convertiremos\ntoda forma vital de la Tierra en Oinkmon.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¿Q..Qué?\n¡No os dejaré\nhacerlo![pause]",
-	"Entonces, ¡ven al Gunslinger\ny derrótame![pause]\\x02\\x03No hay nada que temer.\nVe por la Puerta de salto y\nllegarás al Gunslinger.[pause]\\x02\\x03¡A la batalla final![pause]\\x02\\x03Con el destino de la humanidad\ncomo resultado...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023De acuerdo,\nLord Megadeath\n¡allá voy![pause]\\x02\\x03¡Te voy a \nderrotar![pause]",
+	"[name][player_name][name]¿Q..Qué?\n¡No os dejaré\nhacerlo![pause]",
+	"Entonces, ¡ven al Gunslinger\ny derrótame![pause][clear]No hay nada que temer.\nVe por la Puerta de salto y\nllegarás al Gunslinger.[pause][clear]¡A la batalla final![pause][clear]Con el destino de la humanidad\ncomo resultado...[pause]",
+	"[name][player_name][name]De acuerdo,\nLord Megadeath\n¡allá voy![pause][clear]¡Te voy a \nderrotar![pause]",
 ]

@@ -1,8 +1,8 @@
 strings = [
 	"",
 	"a",
-	"\\x02\\x07Datamon\\x02\\x07You came all the \nway here to \nbattle me?[pause]\\x02\\x03I'm good to go \nanytime!\nLet's battle![pause]",
-	"\\x02\\x07\\x02\\x09\\x023All right! \nLet's battle![pause]",
-	"\\x02\\x07Datamon\\x02\\x07...beep! You \ncan't copy me![pause]\\x02\\x03You have to \ncome up with \nyour own line![pause]",
-	"\\x02\\x07\\x02\\x09\\x023What? Umm... OK.\nLet's get it on![pause]",
+	"[name]Datamon[name]You came all the \nway here to \nbattle me?[pause][clear]I'm good to go \nanytime!\nLet's battle![pause]",
+	"[name][player_name][name]All right! \nLet's battle![pause]",
+	"[name]Datamon[name]...beep! You \ncan't copy me![pause][clear]You have to \ncome up with \nyour own line![pause]",
+	"[name][player_name][name]What? Umm... OK.\nLet's get it on![pause]",
 ]

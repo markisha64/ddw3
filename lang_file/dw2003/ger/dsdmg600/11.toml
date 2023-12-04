@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07BK KingNumemon\\x02\\x07Oh, nein...ich \nhabe verloren...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Aber du warst\nsehr gut.[pause]\\x02\\x03Du bist wirk-\nlich ein König![pause]",
-	"\\x02\\x07BK KingNumemon\\x02\\x07...wiwirklich?\nIch bin froh, dass\ndu das sagst.[pause]\\x02\\x03Bist ein guter Kerl!\nIch gebe dir das.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Yeah! Ich hab\nden BIT-\nAdapter![pause]",
-	"\\x02\\x07BK KingNumemon\\x02\\x07Vergiβ mich nie,\nden KingNumemon![pause]",
+	"[name]BK KingNumemon[name]Oh, nein...ich \nhabe verloren...[pause]",
+	"[name][player_name][name]Aber du warst\nsehr gut.[pause][clear]Du bist wirk-\nlich ein König![pause]",
+	"[name]BK KingNumemon[name]...wiwirklich?\nIch bin froh, dass\ndu das sagst.[pause][clear]Bist ein guter Kerl!\nIch gebe dir das.[pause]",
+	"[name][player_name][name]Yeah! Ich hab\nden BIT-\nAdapter![pause]",
+	"[name]BK KingNumemon[name]Vergiβ mich nie,\nden KingNumemon![pause]",
 ]

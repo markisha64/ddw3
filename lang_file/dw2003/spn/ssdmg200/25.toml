@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Guarda DO\\x02\\x07Lo siento, sólo\npersonal autorizado\ndesde aquí.[pause]",
+	"[name]Guarda DO[name]Lo siento, sólo\npersonal autorizado\ndesde aquí.[pause]",
 ]

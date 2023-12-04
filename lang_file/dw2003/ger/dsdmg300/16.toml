@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Königl. Wache\\x02\\x07Wir haben ge-\nwartet! Ihr habt\ndie Chiefs besiegt![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Komm schon. Euch\nkrieg ich auch![pause]",
-	"\\x02\\x07Königl. Wache\\x02\\x07Wir sind stärker\nals alle\nanderen.[pause]",
-	"\\x02\\x07Königl. Wache\\x02\\x07Im Namen der\nkönigl. Wachen\nbesiege ich dich![pause]",
+	"[name]Königl. Wache[name]Wir haben ge-\nwartet! Ihr habt\ndie Chiefs besiegt![pause]",
+	"[name][player_name][name]Komm schon. Euch\nkrieg ich auch![pause]",
+	"[name]Königl. Wache[name]Wir sind stärker\nals alle\nanderen.[pause]",
+	"[name]Königl. Wache[name]Im Namen der\nkönigl. Wachen\nbesiege ich dich![pause]",
 ]

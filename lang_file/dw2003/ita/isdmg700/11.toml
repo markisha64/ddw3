@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07Strega ghiaccio\\x02\\x07Mi hai battuta.\nLo riconosco.[pause]\\x02\\x03Secondo le regole,\npuoi proseguire.[pause]",
-	"\\x02\\x07Strega ghiaccio\\x02\\x07Vai. Mi auguro\nche tu possa\nvincere![pause]",
+	"[name]Strega ghiaccio[name]Mi hai battuta.\nLo riconosco.[pause][clear]Secondo le regole,\npuoi proseguire.[pause]",
+	"[name]Strega ghiaccio[name]Vai. Mi auguro\nche tu possa\nvincere![pause]",
 ]

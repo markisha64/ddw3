@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07Chef de Xuen Wu\\x02\\x07Te voilà enfin,\ntoi qui t'opposes\nà nous  ![pause]\\x02\\x03Je suis là. Et je \nne vais pas fuir ni\nme cacher  ![pause]\\x02\\x03Viens donc jusqu'à \nmoi si tu l'oses  ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Regarde bien  !\nJ'arrive tout\nde suite  ![pause]",
-	"\\x02\\x07Chef de Xuen Wu\\x02\\x07Hum, tu as donc\nréussi à venir \njusqu'ici ...[pause]\\x02\\x03J'aurais dû me \nméfier après la \ndéfaite des autres  ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Chef Xuen Wu  !\nTu as le Passe\nnoir  ![pause]",
-	"\\x02\\x07Chef Xuen Wu\\x02\\x07Oui, je l'ai  !\nTu le veux ?[pause]\\x02\\x03Tu devras venir\nle chercher ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ben tiens  !\nJ'arrive tout\nde suite  ![pause]",
+	"[name]Chef de Xuen Wu[name]Te voilà enfin,\ntoi qui t'opposes\nà nous  ![pause][clear]Je suis là. Et je \nne vais pas fuir ni\nme cacher  ![pause][clear]Viens donc jusqu'à \nmoi si tu l'oses  ![pause]",
+	"[name][player_name][name]Regarde bien  !\nJ'arrive tout\nde suite  ![pause]",
+	"[name]Chef de Xuen Wu[name]Hum, tu as donc\nréussi à venir \njusqu'ici ...[pause][clear]J'aurais dû me \nméfier après la \ndéfaite des autres  ![pause]",
+	"[name][player_name][name]Chef Xuen Wu  !\nTu as le Passe\nnoir  ![pause]",
+	"[name]Chef Xuen Wu[name]Oui, je l'ai  !\nTu le veux ?[pause][clear]Tu devras venir\nle chercher ![pause]",
+	"[name][player_name][name]Ben tiens  !\nJ'arrive tout\nde suite  ![pause]",
 ]

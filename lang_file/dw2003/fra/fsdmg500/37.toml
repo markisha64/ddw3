@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Zanbamon\\x02\\x07Qu-quoi ?\nJ'ai perdu.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Alors ?\nJe suis plutôt \nfort, non ?[pause]",
-	"\\x02\\x07Zanbamon\\x02\\x07Très bien.\nPrends ça, et\npardonne-moi![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Quoi ? le \nKatana\nRouillé ? Bien.[pause]",
-	"\\x02\\x07Zanbamon\\x02\\x07Je-je veux vivre \nen paix ici...[pause]\\x02\\x03Laisse-moi seul, \ns'il te plait ![pause]",
+	"[name]Zanbamon[name]Qu-quoi ?\nJ'ai perdu.[pause]",
+	"[name][player_name][name]Alors ?\nJe suis plutôt \nfort, non ?[pause]",
+	"[name]Zanbamon[name]Très bien.\nPrends ça, et\npardonne-moi![pause]",
+	"[name][player_name][name]Quoi ? le \nKatana\nRouillé ? Bien.[pause]",
+	"[name]Zanbamon[name]Je-je veux vivre \nen paix ici...[pause][clear]Laisse-moi seul, \ns'il te plait ![pause]",
 ]

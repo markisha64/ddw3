@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Ich kann Veemon\nnicht finden...[pause]\\x02\\x03Hmmm...\nWas soll ich\ntun...hmmm[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oh, wir ver-\nlassen einfach\nden Tretwald.[pause]",
+	"[name][player_name][name]Ich kann Veemon\nnicht finden...[pause][clear]Hmmm...\nWas soll ich\ntun...hmmm[pause]",
+	"[name][player_name][name]Oh, wir ver-\nlassen einfach\nden Tretwald.[pause]",
 ]

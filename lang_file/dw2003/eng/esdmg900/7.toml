@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Mr. Wedge\\x02\\x07If that's the case,\ncome this way. I've\nsome fine items![pause]",
+	"[name]Mr. Wedge[name]If that's the case,\ncome this way. I've\nsome fine items![pause]",
 ]

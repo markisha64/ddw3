@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Mr. Smith\\x02\\x07Das ist eure Chance![pause]\\x02\\x03Es geht um's Hauptitem![pause]\\x02\\x03Das Dramon-Schild.\nVon allen begehrt![pause]\\x02\\x03Das Mindestgebot für's\nVeemon-Schild liegt \nbei 800 BIT![pause]",
-	"\\x02\\x07Händler Abel\\x02\\x071100 BIT![pause]",
-	"\\x02\\x07Chief Milly\\x02\\x071300 BIT![pause]",
-	"\\x02\\x07RPG-Fan Mas.\\x02\\x071500 BIT![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hmm  1600 BIT\n...hmmm...[pause]",
+	"[name]Mr. Smith[name]Das ist eure Chance![pause][clear]Es geht um's Hauptitem![pause][clear]Das Dramon-Schild.\nVon allen begehrt![pause][clear]Das Mindestgebot für's\nVeemon-Schild liegt \nbei 800 BIT![pause]",
+	"[name]Händler Abel[name]1100 BIT![pause]",
+	"[name]Chief Milly[name]1300 BIT![pause]",
+	"[name]RPG-Fan Mas.[name]1500 BIT![pause]",
+	"[name][player_name][name]Hmm  1600 BIT\n...hmmm...[pause]",
 ]

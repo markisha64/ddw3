@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Il Sistema della\nMatrice dovrebbe\nessere qui.[pause]\\x02\\x03Ma non so bene\ncome farlo\nfunzionare.[pause]\\x02\\x03Vemmon è stato\ninviato da qui.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Cosa?![pause]",
-	"\\x02\\x07\\x02\\x09\\x023P-perché\nVemmon è qui?[pause]\\x02\\x03Forse...\nBene, lo\nseguirò![pause]",
+	"[name][player_name][name]Il Sistema della\nMatrice dovrebbe\nessere qui.[pause][clear]Ma non so bene\ncome farlo\nfunzionare.[pause][clear]Vemmon è stato\ninviato da qui.[pause]",
+	"[name][player_name][name]Cosa?![pause]",
+	"[name][player_name][name]P-perché\nVemmon è qui?[pause][clear]Forse...\nBene, lo\nseguirò![pause]",
 ]

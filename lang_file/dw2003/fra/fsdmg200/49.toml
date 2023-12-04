@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Navi Digimon\\x02\\x07Je comprends.[pause]\\x02\\x03Si tu veux plus \nd'informations, viens \nme voir.[pause]",
+	"[name]Navi Digimon[name]Je comprends.[pause][clear]Si tu veux plus \nd'informations, viens \nme voir.[pause]",
 ]

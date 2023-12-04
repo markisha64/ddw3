@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Hey, MetalGreymon.\nKannst du mir einen\nGefallen tun?[pause]\\x02\\x03Kann ich ein Agumon-\nDDNA-Muster von dei-\nner DDNA bekommen?[pause]",
-	"\\x02\\x07MetalGreymon\\x02\\x07Tschuldige, aber\nich kann sie dir\nnicht so geben.[pause]\\x02\\x03Wenn du es haben\nwillst, musst du \nes gewinnen![pause]",
+	"[name][player_name][name]Hey, MetalGreymon.\nKannst du mir einen\nGefallen tun?[pause][clear]Kann ich ein Agumon-\nDDNA-Muster von dei-\nner DDNA bekommen?[pause]",
+	"[name]MetalGreymon[name]Tschuldige, aber\nich kann sie dir\nnicht so geben.[pause][clear]Wenn du es haben\nwillst, musst du \nes gewinnen![pause]",
 ]

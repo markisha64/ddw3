@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Hein ?!\nIvy et Teddy\nne sont pas là.[pause]\\x02\\x03Pff ! Ils ont \ndû partir  \ndevant.[pause]",
-	"\\x02\\x07Guide\\x02\\x07M. \\x02\\x08\\x01\\x02\\x05\\x01 ?\nBienvenue sur\nDigimon Online ![pause]\\x02\\x03Aujourd'hui : entraî-\nnement afin de pré-\nparer votre départ.[pause]\\x02\\x03Vous devez rester\ndans les secteurs Est \net Centre d'Amaterasu.[pause]\\x02\\x03Toutefois, il y a\nplus d'espace Circuit\nImprimé et Fonds marins.[pause]\\x02\\x03Les digidonnées \ns'utilisent comme \npar le passé.[pause]\\x02\\x03Les techniques et les \ndigivolutions sont \négalement identiques.[pause]\\x02\\x03Je vérifierais bien \nles données, \njuste au cas où.[pause]\\x02\\x03Avant de sortir,\nveillez à sauvegarder\navec Guardromon.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023D'accord ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023D'accord !\nOn va bien\ns'amuser ![pause]",
+	"[name][player_name][name]Hein ?!\nIvy et Teddy\nne sont pas là.[pause][clear]Pff ! Ils ont \ndû partir  \ndevant.[pause]",
+	"[name]Guide[name]M. [player_name2] ?\nBienvenue sur\nDigimon Online ![pause][clear]Aujourd'hui : entraî-\nnement afin de pré-\nparer votre départ.[pause][clear]Vous devez rester\ndans les secteurs Est \net Centre d'Amaterasu.[pause][clear]Toutefois, il y a\nplus d'espace Circuit\nImprimé et Fonds marins.[pause][clear]Les digidonnées \ns'utilisent comme \npar le passé.[pause][clear]Les techniques et les \ndigivolutions sont \négalement identiques.[pause][clear]Je vérifierais bien \nles données, \njuste au cas où.[pause][clear]Avant de sortir,\nveillez à sauvegarder\navec Guardromon.[pause]",
+	"[name][player_name][name]D'accord ![pause]",
+	"[name][player_name][name]D'accord !\nOn va bien\ns'amuser ![pause]",
 ]

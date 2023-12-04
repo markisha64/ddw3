@@ -1,10 +1,10 @@
 strings = [
 	"",
-	"\\x02\\x07Gov. di Seiryu\\x02\\x07Sei proprio\nbravo. Come\nti chiami?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023\\x02\\x08\\x01\\x02\\x05\\x01. È\nstata una\nbella lotta![pause]",
-	"\\x02\\x07Gov. di Seiryu\\x02\\x07Bene, \\x02\\x08\\x01\\x02\\x05\\x01.\nPrendi questo\ncon te.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oh! Il tuo stemma\ne l'ID argento![pause]",
-	"\\x02\\x07Gov. di Seiryu\\x02\\x07Ne avrai\nbisogno\nin futuro.[pause]\\x02\\x03Sono oggetti\npreziosi, non\nperderli.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Grazie,\ngovernatore![pause]",
-	"\\x02\\x07Gov. di Seiryu\\x02\\x07Sfida la governatrice\ndi Suzaku nel Settore\nSud.[pause]\\x02\\x03Hai ancora molta\nstrada da fare,\nma buona fortuna![pause]",
+	"[name]Gov. di Seiryu[name]Sei proprio\nbravo. Come\nti chiami?[pause]",
+	"[name][player_name][name][player_name2]. È\nstata una\nbella lotta![pause]",
+	"[name]Gov. di Seiryu[name]Bene, [player_name2].\nPrendi questo\ncon te.[pause]",
+	"[name][player_name][name]Oh! Il tuo stemma\ne l'ID argento![pause]",
+	"[name]Gov. di Seiryu[name]Ne avrai\nbisogno\nin futuro.[pause][clear]Sono oggetti\npreziosi, non\nperderli.[pause]",
+	"[name][player_name][name]Grazie,\ngovernatore![pause]",
+	"[name]Gov. di Seiryu[name]Sfida la governatrice\ndi Suzaku nel Settore\nSud.[pause][clear]Hai ancora molta\nstrada da fare,\nma buona fortuna![pause]",
 ]

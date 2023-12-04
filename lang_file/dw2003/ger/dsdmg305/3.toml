@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Cool! Tatsächlich\neine Geheimtür![pause]\\x02\\x03Gamemaster\nmüsste direkt da\nvorne sein![pause]",
+	"[name][player_name][name]Cool! Tatsächlich\neine Geheimtür![pause][clear]Gamemaster\nmüsste direkt da\nvorne sein![pause]",
 ]

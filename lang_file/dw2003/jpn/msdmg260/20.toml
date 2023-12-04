@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07オーナー・スミス\\x02\\x07NOW\nGET A CHANCE!![pause]\\x02\\x03みなさん! いよいよ，\nこんかいのメインしょうひんの\nとうじょうです!![pause]\\x02\\x03アイテムきょうかいの\nみなさんの，あこがれ\n「ハザードファング」だ!![pause]\\x02\\x03うわさのギルモン\nせんようのぶきは，\n1600BITから![pause]",
-	"\\x02\\x07ディーラーのアベル\\x02\\x072000BIT!![pause]",
-	"\\x02\\x07チーフのミリィ\\x02\\x072300BIT!![pause]",
-	"\\x02\\x07RPGずきのマサオ\\x02\\x072600BIT!![pause]",
-	"\\x02\\x07\\x02\\x09\\x023うーーん，\n2700BITかぁ~\nどうしようかな⋯⋯[pause]",
+	"[name]オーナー・スミス[name]NOW\nGET A CHANCE!![pause][clear]みなさん! いよいよ，\nこんかいのメインしょうひんの\nとうじょうです!![pause][clear]アイテムきょうかいの\nみなさんの，あこがれ\n「ハザードファング」だ!![pause][clear]うわさのギルモン\nせんようのぶきは，\n1600BITから![pause]",
+	"[name]ディーラーのアベル[name]2000BIT!![pause]",
+	"[name]チーフのミリィ[name]2300BIT!![pause]",
+	"[name]RPGずきのマサオ[name]2600BIT!![pause]",
+	"[name][player_name][name]うーーん，\n2700BITかぁ~\nどうしようかな⋯⋯[pause]",
 ]

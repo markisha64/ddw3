@@ -1,1 +1,1 @@
-strings = ["", "\\x02\\x07\\x02\\x09\\x023ああっ，しまった!\n180びょう\nすぎちゃった!![pause]"]
+strings = ["", "[name][player_name][name]ああっ，しまった!\n180びょう\nすぎちゃった!![pause]"]

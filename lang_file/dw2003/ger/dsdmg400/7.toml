@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Hm. Seltsam.\nHier ist über-\nhaupt niemand.[pause]",
-	"\\x02\\x07Stimme\\x02\\x07...Huuuuu![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Waaaaas?![pause]",
-	"\\x02\\x07Stimme\\x02\\x07...Huuuuu![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Was ist das?!\n...ein Geist![pause]",
+	"[name][player_name][name]Hm. Seltsam.\nHier ist über-\nhaupt niemand.[pause]",
+	"[name]Stimme[name]...Huuuuu![pause]",
+	"[name][player_name][name]Waaaaas?![pause]",
+	"[name]Stimme[name]...Huuuuu![pause]",
+	"[name][player_name][name]Was ist das?!\n...ein Geist![pause]",
 ]

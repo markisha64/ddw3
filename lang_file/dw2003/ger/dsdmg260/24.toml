@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Mr. Smith\\x02\\x07Das ist eure Chance![pause]\\x02\\x03Es geht um's Hauptitem![pause]\\x02\\x03Die Sniper-Kanone.\nVon allen bewundert![pause]\\x02\\x03Das Mindestgebot für\ndie Monmon-Waffe\nliegt bei 2700 BIT![pause]",
-	"\\x02\\x07Händler Abel\\x02\\x073100 BIT![pause]",
-	"\\x02\\x07Chief Milly\\x02\\x073500 BIT![pause]",
-	"\\x02\\x07RPG-Fan Mas.\\x02\\x073900 BIT![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hmm..4000 BIT\n...hmmm...[pause]",
+	"[name]Mr. Smith[name]Das ist eure Chance![pause][clear]Es geht um's Hauptitem![pause][clear]Die Sniper-Kanone.\nVon allen bewundert![pause][clear]Das Mindestgebot für\ndie Monmon-Waffe\nliegt bei 2700 BIT![pause]",
+	"[name]Händler Abel[name]3100 BIT![pause]",
+	"[name]Chief Milly[name]3500 BIT![pause]",
+	"[name]RPG-Fan Mas.[name]3900 BIT![pause]",
+	"[name][player_name][name]Hmm..4000 BIT\n...hmmm...[pause]",
 ]

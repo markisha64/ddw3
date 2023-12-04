@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07KingDivermon\\x02\\x07Then I'll give \nyou this Asuka \nTrophy![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Really?! Thanks,\nKingDivermon![pause]\\x02\\x03Yeah! I got the \nAsuka Trophy![pause]",
-	"\\x02\\x07KingDivermon\\x02\\x07I'm the only one\nwho can produce \nit...[pause]\\x02\\x03It's a symbol for \nAsuka's Card \nKing![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Wow! Cool!\nIt's a symbol for \nCard King![pause]",
-	"\\x02\\x07KingDivermon\\x02\\x07Fofofo, but \ndon't let your\nguard down![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Yeah! I'm gonna \nget a lot \nstronger![pause]\\x02\\x03OK, let's go look \nfor a stronger \ncard player![pause]",
+	"[name]KingDivermon[name]Then I'll give \nyou this Asuka \nTrophy![pause]",
+	"[name][player_name][name]Really?! Thanks,\nKingDivermon![pause][clear]Yeah! I got the \nAsuka Trophy![pause]",
+	"[name]KingDivermon[name]I'm the only one\nwho can produce \nit...[pause][clear]It's a symbol for \nAsuka's Card \nKing![pause]",
+	"[name][player_name][name]Wow! Cool!\nIt's a symbol for \nCard King![pause]",
+	"[name]KingDivermon[name]Fofofo, but \ndon't let your\nguard down![pause]",
+	"[name][player_name][name]Yeah! I'm gonna \nget a lot \nstronger![pause][clear]OK, let's go look \nfor a stronger \ncard player![pause]",
 ]

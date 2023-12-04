@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Ordenador Seiya\\x02\\x07¿Qué?\n¿Qué pasa?[pause]",
-	"\\x02\\x07Saki amante de corr.\\x02\\x07¡Calla!, ¡no oigo\nel teléfono![pause]",
-	"\\x02\\x07Teruko el Compr.\\x02\\x07¿Quuuué?\n¿Qué hago ahora?[pause]",
-	"\\x02\\x07Teruko el compr.\\x02\\x07¿Dónde está la\npolicía?[pause]",
+	"[name]Ordenador Seiya[name]¿Qué?\n¿Qué pasa?[pause]",
+	"[name]Saki amante de corr.[name]¡Calla!, ¡no oigo\nel teléfono![pause]",
+	"[name]Teruko el Compr.[name]¿Quuuué?\n¿Qué hago ahora?[pause]",
+	"[name]Teruko el compr.[name]¿Dónde está la\npolicía?[pause]",
 ]

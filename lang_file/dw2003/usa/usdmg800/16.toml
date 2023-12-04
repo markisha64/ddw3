@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023So, Lord \nMegadeath![pause]\\x02\\x03You still think \nyou're all \nthat?[pause]",
-	"..Of course...\nThat was only a test...[pause]\\x02\\x03I still have the most \npowerful Digimon, \nSnatchmon...[pause]\\x02\\x03You will soon learn \nwhat true \nterror is...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hey, you're \nnot getting \naway![pause]",
+	"[name][player_name][name]So, Lord \nMegadeath![pause][clear]You still think \nyou're all \nthat?[pause]",
+	"..Of course...\nThat was only a test...[pause][clear]I still have the most \npowerful Digimon, \nSnatchmon...[pause][clear]You will soon learn \nwhat true \nterror is...[pause]",
+	"[name][player_name][name]Hey, you're \nnot getting \naway![pause]",
 ]

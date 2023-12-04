@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Noch\nein\nErdbeben?![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ich hatte Recht!\nEs ist Bulbmon![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Es hat durch sein\nLöchergraben das\nErdbeben verursacht![pause]\\x02\\x03Na warte.\nDiesmal werde ich\nes besiegen![pause]",
+	"[name][player_name][name]Noch\nein\nErdbeben?![pause]",
+	"[name][player_name][name]Ich hatte Recht!\nEs ist Bulbmon![pause]",
+	"[name][player_name][name]Es hat durch sein\nLöchergraben das\nErdbeben verursacht![pause][clear]Na warte.\nDiesmal werde ich\nes besiegen![pause]",
 ]

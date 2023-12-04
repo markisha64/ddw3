@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Divermon\\x02\\x07Schnell verloren![pause]\\x02\\x03Ich leg nie mehr\nnur meine Besten\nin den Ordner![pause]",
+	"[name]Divermon[name]Schnell verloren![pause][clear]Ich leg nie mehr\nnur meine Besten\nin den Ordner![pause]",
 ]

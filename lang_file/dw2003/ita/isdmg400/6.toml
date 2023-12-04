@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Finalmente il\nSettore Sud![pause]\\x02\\x03Mi chiedo che\nDigimon\nfosse.[pause]",
+	"[name][player_name][name]Finalmente il\nSettore Sud![pause][clear]Mi chiedo che\nDigimon\nfosse.[pause]",
 ]

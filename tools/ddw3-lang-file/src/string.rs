@@ -4,7 +4,7 @@
 use {
 	crate::Codepoint,
 	anyhow::Context,
-	std::{fmt, io, iter, str::FromStr},
+	std::{fmt, io, str::FromStr},
 };
 
 /// String of codepoints
@@ -22,14 +22,23 @@ impl String {
 	}
 
 	/// Parses a null-terminated.
-	pub fn parse_null_terminated<R: io::Read + io::Seek>(mut reader: R) -> Result<Self, anyhow::Error> {
-		iter::from_fn(|| match Codepoint::decode(&mut reader) {
-			Ok(Codepoint::Null) => None,
-			Ok(codepoint) => Some(Ok(codepoint)),
-			Err(err) => Some(Err(err).context("Unable to read codepoint")),
-		})
-		.collect::<Result<Self, anyhow::Error>>()
-		.context("Unable to read string")
+	pub fn parse_null_terminated<R: io::BufRead>(mut reader: R) -> Result<Self, anyhow::Error> {
+		// Read until null
+		let mut bytes = vec![];
+		reader
+			.read_until(b'\0', &mut bytes)
+			.context("Unable to read until null")?;
+
+		// Then decode all codepoints
+		let mut codepoints = vec![];
+		let mut bytes = bytes.as_slice();
+		while bytes.is_empty() {
+			let (codepoint, rest) = Codepoint::decode(bytes).expect("Bytes aren't empty");
+			codepoints.push(codepoint);
+			bytes = rest;
+		}
+
+		Ok(Self { codepoints })
 	}
 
 	/// Returns the length of this string

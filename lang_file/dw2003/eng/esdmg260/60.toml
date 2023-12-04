@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Mr. Smith\\x02\\x07Oin oink oooink![pause]\\x02\\x03Oink, oin, ooink![pause]\\x02\\x03Oin, ooink, ooin oi \noiin oinko![pause]\\x02\\x03Oi oinioi oinoink\noinnk oin oinkk oi\n30000 BIT![pause]",
-	"\\x02\\x07Dealer Abel\\x02\\x07Oioi!\n31000 BIT![pause]",
-	"\\x02\\x07Chief Milly\\x02\\x07Oioi\n31500 \nBIT![pause]",
-	"\\x02\\x07RPG Fan Masao\\x02\\x07Oin oi\n31900 BIT![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hmm. 32000 BIT\n...hmmm...[pause]",
+	"[name]Mr. Smith[name]Oin oink oooink![pause][clear]Oink, oin, ooink![pause][clear]Oin, ooink, ooin oi \noiin oinko![pause][clear]Oi oinioi oinoink\noinnk oin oinkk oi\n30000 BIT![pause]",
+	"[name]Dealer Abel[name]Oioi!\n31000 BIT![pause]",
+	"[name]Chief Milly[name]Oioi\n31500 \nBIT![pause]",
+	"[name]RPG Fan Masao[name]Oin oi\n31900 BIT![pause]",
+	"[name][player_name][name]Hmm. 32000 BIT\n...hmmm...[pause]",
 ]

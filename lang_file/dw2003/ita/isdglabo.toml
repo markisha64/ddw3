@@ -38,7 +38,7 @@ strings = [
 	"Imposs. cambiare Dig.",
 	"Imposs. caric. tecnica",
 	"Scegli una tecnica",
-	"Digivoluzione \\x02\\x05\\x01",
+	"Digivoluzione {1}",
 	"/4",
 	"L1",
 	"R1",

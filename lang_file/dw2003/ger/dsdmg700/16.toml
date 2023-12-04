@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Genbu Leader\\x02\\x07Hm, was? Ein\nHerausforderer\nin d. Zeiten?![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Genbu Leader,\nich bitte dich um\neinen Gefallen![pause]\\x02\\x03Brauch dein Abz,\num zur echten\nWelt zu kommen.[pause]",
-	"\\x02\\x07Genbu Leader\\x02\\x07Tja, leider kann\nich es dir nicht\neinfach so geben.[pause]\\x02\\x03Das sind die Regeln.[pause]\\x02\\x03Du musst mich be-\nsiegen, um es zu\nbekommen![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Also gut.\nIch hatte nichts\nanderes erwartet![pause]\\x02\\x03Bringen wir es\nhinter uns![pause]",
+	"[name]Genbu Leader[name]Hm, was? Ein\nHerausforderer\nin d. Zeiten?![pause]",
+	"[name][player_name][name]Genbu Leader,\nich bitte dich um\neinen Gefallen![pause][clear]Brauch dein Abz,\num zur echten\nWelt zu kommen.[pause]",
+	"[name]Genbu Leader[name]Tja, leider kann\nich es dir nicht\neinfach so geben.[pause][clear]Das sind die Regeln.[pause][clear]Du musst mich be-\nsiegen, um es zu\nbekommen![pause]",
+	"[name][player_name][name]Also gut.\nIch hatte nichts\nanderes erwartet![pause][clear]Bringen wir es\nhinter uns![pause]",
 ]

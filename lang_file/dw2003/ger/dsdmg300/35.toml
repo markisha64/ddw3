@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07BK MegaGargomon\\x02\\x07Wow, du hast\ngewonnen![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Na klar!\nIch habe mit\nallen gekämpft![pause]",
-	"\\x02\\x07BK MegaGargom.\\x02\\x07Wow, erstaun-\nlich! Ich gebe\ndir dies![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Toll! Ich hab\nden Wildnis-\nhelm![pause]",
-	"\\x02\\x07BK MegaGargo.\\x02\\x07Viel Glück.\nIch drück dir\ndie Daumen![pause]",
+	"[name]BK MegaGargomon[name]Wow, du hast\ngewonnen![pause]",
+	"[name][player_name][name]Na klar!\nIch habe mit\nallen gekämpft![pause]",
+	"[name]BK MegaGargom.[name]Wow, erstaun-\nlich! Ich gebe\ndir dies![pause]",
+	"[name][player_name][name]Toll! Ich hab\nden Wildnis-\nhelm![pause]",
+	"[name]BK MegaGargo.[name]Viel Glück.\nIch drück dir\ndie Daumen![pause]",
 ]

@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Pharaohmon\\x02\\x07Verloren! Du\nbist besser,\nals ich dachte![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Na klar![pause]",
-	"\\x02\\x07Pharaohmon\\x02\\x07Als Lob gebe\nich dir\ndies.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Super! Der\nalte Stab![pause]",
-	"\\x02\\x07Pharaohmon\\x02\\x07Du bist stark. \nUnsere Götter werden \nmit dir sein![pause]",
+	"[name]Pharaohmon[name]Verloren! Du\nbist besser,\nals ich dachte![pause]",
+	"[name][player_name][name]Na klar![pause]",
+	"[name]Pharaohmon[name]Als Lob gebe\nich dir\ndies.[pause]",
+	"[name][player_name][name]Super! Der\nalte Stab![pause]",
+	"[name]Pharaohmon[name]Du bist stark. \nUnsere Götter werden \nmit dir sein![pause]",
 ]

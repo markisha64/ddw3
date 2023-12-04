@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07MetalEtemon\\x02\\x07You, got skills \nto win against \nme![pause]\\x02\\x03Of course once I get \na stronger Folder, \nit'll be different![pause]",
+	"[name]MetalEtemon[name]You, got skills \nto win against \nme![pause][clear]Of course once I get \na stronger Folder, \nit'll be different![pause]",
 ]

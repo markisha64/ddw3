@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07Chef Suzaku\\x02\\x07Alors, es-tu\nprêt à entrer\ndans l'arène ?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oui,\nbien sûr ![pause]",
-	"\\x02\\x07Chef de Suzaku\\x02\\x07Tu m'as l'air bien\nsûr de toi ![pause]\\x02\\x03Ne me mésestime\npas parce que je\nsuis une fille ![pause]",
+	"[name]Chef Suzaku[name]Alors, es-tu\nprêt à entrer\ndans l'arène ?[pause]",
+	"[name][player_name][name]Oui,\nbien sûr ![pause]",
+	"[name]Chef de Suzaku[name]Tu m'as l'air bien\nsûr de toi ![pause][clear]Ne me mésestime\npas parce que je\nsuis une fille ![pause]",
 ]

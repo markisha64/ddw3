@@ -24,7 +24,7 @@ strings = [
 	"Register account?",
 	"YES",
 	"NO",
-	"\\x02\\x05\\x01%",
+	"{1}%",
 	"Weapon, magic attacks and\nhealing. Best pack for team work.",
 	"For the fearless who think that\noffense is the best defense.",
 	"They're all quirky and difficult.\nYou can only count on Patamon.",

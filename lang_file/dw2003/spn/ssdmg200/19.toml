@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Ken el Fanático\\x02\\x07El Dorado, donde vienen \nlos amantes de artículos.[pause]\\x02\\x03Eh, tú no eres miembro, \n¿verdad?[pause]\\x02\\x03Tus Digimon no parecen\ntan buenos tampoco.\nNo puedes ser miembro.[pause]",
+	"[name]Ken el Fanático[name]El Dorado, donde vienen \nlos amantes de artículos.[pause][clear]Eh, tú no eres miembro, \n¿verdad?[pause][clear]Tus Digimon no parecen\ntan buenos tampoco.\nNo puedes ser miembro.[pause]",
 ]

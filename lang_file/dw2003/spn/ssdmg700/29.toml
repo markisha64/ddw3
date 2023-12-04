@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Oficial de Cámara\\x02\\x07Dispositivo astral \nlimpio.\nDatos normales.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¿Qué estará \npasando\nen el Mundo Real?[pause]\\x02\\x03Espero que nada.[pause]",
+	"[name]Oficial de Cámara[name]Dispositivo astral \nlimpio.\nDatos normales.[pause]",
+	"[name][player_name][name]¿Qué estará \npasando\nen el Mundo Real?[pause][clear]Espero que nada.[pause]",
 	"LÍMITE TRANSFERENCIA ALCANZADO.\nFORZANDO DIGITALIZACIÓN.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¿Qué hago? No\npude parar al\nJuggernaut.[pause]\\x02\\x03Y estuve taaan \ncerca...[pause]",
+	"[name][player_name][name]¿Qué hago? No\npude parar al\nJuggernaut.[pause][clear]Y estuve taaan \ncerca...[pause]",
 ]

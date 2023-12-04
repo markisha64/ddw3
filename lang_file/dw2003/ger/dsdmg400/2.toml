@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Seiryu Leader,\nich habe Master-\nTyranno besiegt![pause]\\x02\\x03Wirst du mit\nmir kämpfen![pause]",
-	"\\x02\\x07Seiryu Leader\\x02\\x07Aha. Du hast \ndie alte Kralle.[pause]\\x02\\x03Also los. Fang\nan![pause]",
+	"[name][player_name][name]Seiryu Leader,\nich habe Master-\nTyranno besiegt![pause][clear]Wirst du mit\nmir kämpfen![pause]",
+	"[name]Seiryu Leader[name]Aha. Du hast \ndie alte Kralle.[pause][clear]Also los. Fang\nan![pause]",
 ]

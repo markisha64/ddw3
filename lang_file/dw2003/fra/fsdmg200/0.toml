@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Alors c'est ça,\nle monde de\nDigimon Online ?[pause]",
-	"\\x02\\x07Responsible Compte\\x02\\x07\\x02\\x08\\x01\\x02\\x05\\x01,\nbienvenue au \nserveur Asuka ![pause]\\x02\\x03Va retirer les\ndonnées Digimon\ndans le hall.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Les quoi ?[pause]\\x02\\x03Oh, d'accord.\nJ'y vais ![pause]",
+	"[name][player_name][name]Alors c'est ça,\nle monde de\nDigimon Online ?[pause]",
+	"[name]Responsible Compte[name][player_name2],\nbienvenue au \nserveur Asuka ![pause][clear]Va retirer les\ndonnées Digimon\ndans le hall.[pause]",
+	"[name][player_name][name]Les quoi ?[pause][clear]Oh, d'accord.\nJ'y vais ![pause]",
 ]

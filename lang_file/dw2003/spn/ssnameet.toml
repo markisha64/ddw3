@@ -24,7 +24,7 @@ strings = [
 	"¿Registrar cuenta?",
 	"SÍ",
 	"NO",
-	"\\x02\\x05\\x01%",
+	"{1}%",
 	"Armas, ataques mágicos y curac.\nEl mejor paquete para un equipo.",
 	"Para los temerarios que opinan que\nel ataque es la mejor defensa.",
 	"Todos extravag. y difíciles.\nSólo puedes contar con Patamon.",

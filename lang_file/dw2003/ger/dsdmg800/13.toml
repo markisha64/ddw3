@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Schnell! Wir müssen\nMegadeath besiegen\nu. alle zurückholen![pause]",
+	"[name][player_name][name]Schnell! Wir müssen\nMegadeath besiegen\nu. alle zurückholen![pause]",
 ]

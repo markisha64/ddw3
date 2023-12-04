@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023¿Qué es este\npanel de control?[pause]\\x02\\x03Aquí hay un botón.\nLo pulsaré a ver\nqué pasa.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¿Para qué \nsería?\nOh, bueno...[pause]",
+	"[name][player_name][name]¿Qué es este\npanel de control?[pause][clear]Aquí hay un botón.\nLo pulsaré a ver\nqué pasa.[pause]",
+	"[name][player_name][name]¿Para qué \nsería?\nOh, bueno...[pause]",
 ]

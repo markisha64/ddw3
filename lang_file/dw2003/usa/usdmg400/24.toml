@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Yeaaah, \nI won![pause]",
-	"\\x02\\x07GrapLeomon\\x02\\x07All right, I \nmust keep my \npromise.[pause]\\x02\\x03That is my \ncode of honor.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Yeah! I got \nthe Kumamon \nDDNA![pause]\\x02\\x03Thanks, \nGrapLeomon![pause]",
+	"[name][player_name][name]Yeaaah, \nI won![pause]",
+	"[name]GrapLeomon[name]All right, I \nmust keep my \npromise.[pause][clear]That is my \ncode of honor.[pause]",
+	"[name][player_name][name]Yeah! I got \nthe Kumamon \nDDNA![pause][clear]Thanks, \nGrapLeomon![pause]",
 ]

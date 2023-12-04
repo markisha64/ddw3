@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07BK WarGreymon\\x02\\x07Tu n'es sans \ndoute pas un\nvantard.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Que non ! Je me suis \ndéjà tiré de ce genre \nde situations ![pause]",
-	"\\x02\\x07BK WarGreymon\\x02\\x07Ha ha, je t'aime \nbien ! Prends,  \nc'est à toi ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oui ! J'ai le\npasse\nde platine ![pause]",
-	"\\x02\\x07BK WarGreymon\\x02\\x07Essaie de devenir \nle plus fort ! [pause]\\x02\\x03C'est le secret \npour être un\ngrand dresseur ![pause]",
+	"[name]BK WarGreymon[name]Tu n'es sans \ndoute pas un\nvantard.[pause]",
+	"[name][player_name][name]Que non ! Je me suis \ndéjà tiré de ce genre \nde situations ![pause]",
+	"[name]BK WarGreymon[name]Ha ha, je t'aime \nbien ! Prends,  \nc'est à toi ![pause]",
+	"[name][player_name][name]Oui ! J'ai le\npasse\nde platine ![pause]",
+	"[name]BK WarGreymon[name]Essaie de devenir \nle plus fort ! [pause][clear]C'est le secret \npour être un\ngrand dresseur ![pause]",
 ]

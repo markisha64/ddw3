@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Va bene!\n32000 BIT![pause]",
-	"\\x02\\x07Mr. Smith\\x02\\x07Oink!\n32000 BIT![pause]\\x02\\x03Oinoink, oink\n32000 BIT?[pause]",
-	"\\x02\\x07Mr. Smith\\x02\\x07Oin oink oioink\noink oioink oink.[pause]\\x02\\x03Oioi Oink nk\noionko 32000 BIT![pause]\\x02\\x03Oinkoinnnk\noi oink oi oiii![pause]\\x02\\x03Oi oinkoo\noinoiko oin\noioinnnk oink![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Wow! Ho la\nOioi Oink![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ora ho un oggetto\nprezioso. Vediamo\ndi provarlo.[pause]",
+	"[name][player_name][name]Va bene!\n32000 BIT![pause]",
+	"[name]Mr. Smith[name]Oink!\n32000 BIT![pause][clear]Oinoink, oink\n32000 BIT?[pause]",
+	"[name]Mr. Smith[name]Oin oink oioink\noink oioink oink.[pause][clear]Oioi Oink nk\noionko 32000 BIT![pause][clear]Oinkoinnnk\noi oink oi oiii![pause][clear]Oi oinkoo\noinoiko oin\noioinnnk oink![pause]",
+	"[name][player_name][name]Wow! Ho la\nOioi Oink![pause]",
+	"[name][player_name][name]Ora ho un oggetto\nprezioso. Vediamo\ndi provarlo.[pause]",
 ]

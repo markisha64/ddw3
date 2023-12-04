@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Ponchomon\\x02\\x07If you want to hear \nthe information, talk \nto me amigo![pause]",
+	"[name]Ponchomon[name]If you want to hear \nthe information, talk \nto me amigo![pause]",
 ]

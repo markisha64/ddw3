@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023MasterTyranno,\ncombattiamo![pause]",
-	"\\x02\\x07MasterTyranno\\x02\\x07Bene!\nSono sazio e pieno\ndi energie![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Bene! Così\ndimostrerò la\nmia forza.[pause]",
-	"\\x02\\x07MasterTyranno\\x02\\x07Sei molto\nottimista![pause]\\x02\\x03Ma ci vuole\nben altro per\nme![pause]",
+	"[name][player_name][name]MasterTyranno,\ncombattiamo![pause]",
+	"[name]MasterTyranno[name]Bene!\nSono sazio e pieno\ndi energie![pause]",
+	"[name][player_name][name]Bene! Così\ndimostrerò la\nmia forza.[pause]",
+	"[name]MasterTyranno[name]Sei molto\nottimista![pause][clear]Ma ci vuole\nben altro per\nme![pause]",
 ]

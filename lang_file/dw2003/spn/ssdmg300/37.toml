@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07Veemon\\x02\\x07Eh, no está mal\n¡Estoy impresionado![pause]\\x02\\x03¡Toma, las Botas\nÁrbol![pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Bien! Gracias\nVeemon.[pause]\\x02\\x03¡Sí! ¡Tengo\nlas Botas Árb.![pause]",
-	"\\x02\\x07Veemon\\x02\\x07¡Bien por ti!\n¡Me voy a casa a\ncomer![pause]\\x02\\x03¡Vuelve para \njugar otra vez![pause]",
+	"[name]Veemon[name]Eh, no está mal\n¡Estoy impresionado![pause][clear]¡Toma, las Botas\nÁrbol![pause]",
+	"[name][player_name][name]¡Bien! Gracias\nVeemon.[pause][clear]¡Sí! ¡Tengo\nlas Botas Árb.![pause]",
+	"[name]Veemon[name]¡Bien por ti!\n¡Me voy a casa a\ncomer![pause][clear]¡Vuelve para \njugar otra vez![pause]",
 ]

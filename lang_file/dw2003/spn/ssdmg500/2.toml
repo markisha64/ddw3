@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Líder Suzaku\\x02\\x07¡Oh, no! ¡Mi\nDigimon perdió![pause]\\x02\\x03Bueno, ¿cómo\nte llamas?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Soy \\x02\\x08\\x01\\x02\\x05\\x01![pause]",
-	"\\x02\\x07Líder Suzaku\\x02\\x07¡Bonito nombre![pause]\\x02\\x03De acuerdo, te \ndaré esto.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Sí! ¡Tengo\nel Pin \nSuzaku![pause]\\x02\\x03¡Ahora \nnecesito el \nPin Byakko![pause]",
-	"\\x02\\x07Líder Suzaku\\x02\\x07El Sector Oeste está\nal otro lado del mar, \nes muy difícil llegar.[pause]\\x02\\x03Sólo hay un camino.\nTienes que llamar a \nSubmarimon.[pause]\\x02\\x03Necesitas el Digihuevo de\nSeriedad para\nllamarlo.[pause]\\x02\\x03Pregunta en el sector\npara obtener información.[pause]\\x02\\x03Es lo único que puedo\ndecirte. Buena suerte.[pause]",
+	"[name]Líder Suzaku[name]¡Oh, no! ¡Mi\nDigimon perdió![pause][clear]Bueno, ¿cómo\nte llamas?[pause]",
+	"[name][player_name][name]¡Soy [player_name2]![pause]",
+	"[name]Líder Suzaku[name]¡Bonito nombre![pause][clear]De acuerdo, te \ndaré esto.[pause]",
+	"[name][player_name][name]¡Sí! ¡Tengo\nel Pin \nSuzaku![pause][clear]¡Ahora \nnecesito el \nPin Byakko![pause]",
+	"[name]Líder Suzaku[name]El Sector Oeste está\nal otro lado del mar, \nes muy difícil llegar.[pause][clear]Sólo hay un camino.\nTienes que llamar a \nSubmarimon.[pause][clear]Necesitas el Digihuevo de\nSeriedad para\nllamarlo.[pause][clear]Pregunta en el sector\npara obtener información.[pause][clear]Es lo único que puedo\ndecirte. Buena suerte.[pause]",
 ]

@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07BK Seraphimon\\x02\\x07Je connais ta\nforce... et ton\ncourage.[pause]\\x02\\x03Je voulais éprouver \nton courage...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Dans ce domaine,\nje ne crains\npersonne ![pause]",
-	"\\x02\\x07BK Seraphimon\\x02\\x07Bien dit ![pause]\\x02\\x03Tu as gagné.\nJe te donne ça\nen récompense ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ouais ! J'ai la\nTenue Sniper ![pause]",
-	"\\x02\\x07BK Seraphimon\\x02\\x07Le passe sera \nrévélé grâce à\nton courage.[pause]\\x02\\x03Tiens bon \nface à\nl'ennemi ![pause]",
+	"[name]BK Seraphimon[name]Je connais ta\nforce... et ton\ncourage.[pause][clear]Je voulais éprouver \nton courage...[pause]",
+	"[name][player_name][name]Dans ce domaine,\nje ne crains\npersonne ![pause]",
+	"[name]BK Seraphimon[name]Bien dit ![pause][clear]Tu as gagné.\nJe te donne ça\nen récompense ![pause]",
+	"[name][player_name][name]Ouais ! J'ai la\nTenue Sniper ![pause]",
+	"[name]BK Seraphimon[name]Le passe sera \nrévélé grâce à\nton courage.[pause][clear]Tiens bon \nface à\nl'ennemi ![pause]",
 ]

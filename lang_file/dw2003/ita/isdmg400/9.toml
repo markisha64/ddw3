@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07Zanbamon\\x02\\x07Che fai? Fuggi\nnel mezzo della\nbattaglia?[pause]\\x02\\x03Non sei alla\nmia altezza![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ma che\nsuccede![pause]\\x02\\x03Tornerò e\nti batterò!\nLo prometto![pause]",
-	"\\x02\\x07Zanbamon\\x02\\x07Parli troppo,\nragazzo!\nAh, ah, ah, ah![pause]",
+	"[name]Zanbamon[name]Che fai? Fuggi\nnel mezzo della\nbattaglia?[pause][clear]Non sei alla\nmia altezza![pause]",
+	"[name][player_name][name]Ma che\nsuccede![pause][clear]Tornerò e\nti batterò!\nLo prometto![pause]",
+	"[name]Zanbamon[name]Parli troppo,\nragazzo!\nAh, ah, ah, ah![pause]",
 ]

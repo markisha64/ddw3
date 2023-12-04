@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07Maître du Feu\\x02\\x07Tu es fort !\nImpressionnant ![pause]\\x02\\x03Prends ça, et\nutilise-le ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oui, j'ai un\nChip Esprit ![pause]",
-	"\\x02\\x07Maître du Feu\\x02\\x07Notre chef \nest là-bas !\nIl est fort ![pause]",
+	"[name]Maître du Feu[name]Tu es fort !\nImpressionnant ![pause][clear]Prends ça, et\nutilise-le ![pause]",
+	"[name][player_name][name]Oui, j'ai un\nChip Esprit ![pause]",
+	"[name]Maître du Feu[name]Notre chef \nest là-bas !\nIl est fort ![pause]",
 ]

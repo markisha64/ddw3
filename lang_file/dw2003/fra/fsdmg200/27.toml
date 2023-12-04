@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07Kail\\x02\\x07Alors comment\nse transforme-\nt-on en Digimon ?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hé ! Regarde\nun peu ce\nque j'ai là ![pause]",
-	"\\x02\\x07Kail\\x02\\x07Super, avec ça il\nne devrait pas y\navoir de problème.[pause]\\x02\\x03Nous allons mettre\nla tenue d'Agumon\net chercher Teddy.[pause]",
+	"[name]Kail[name]Alors comment\nse transforme-\nt-on en Digimon ?[pause]",
+	"[name][player_name][name]Hé ! Regarde\nun peu ce\nque j'ai là ![pause]",
+	"[name]Kail[name]Super, avec ça il\nne devrait pas y\navoir de problème.[pause][clear]Nous allons mettre\nla tenue d'Agumon\net chercher Teddy.[pause]",
 ]

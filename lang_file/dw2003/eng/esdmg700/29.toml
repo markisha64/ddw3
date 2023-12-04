@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Chamber Officer\\x02\\x07Astral Device is all \nclear. No abnormality\ndetected in the data.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023...I wonder what's \nhappening in the \nReal World...[pause]\\x02\\x03I hope it's OK...[pause]",
+	"[name]Chamber Officer[name]Astral Device is all \nclear. No abnormality\ndetected in the data.[pause]",
+	"[name][player_name][name]...I wonder what's \nhappening in the \nReal World...[pause][clear]I hope it's OK...[pause]",
 	"LIMIT OF REALIZE TRANSFER IS REACHED.\nFORCING DIGITIZATION.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023What should I do?\nI couldn't stop\nthe Juggernaut.[pause]\\x02\\x03And I was soooo \nclose![pause]",
+	"[name][player_name][name]What should I do?\nI couldn't stop\nthe Juggernaut.[pause][clear]And I was soooo \nclose![pause]",
 ]

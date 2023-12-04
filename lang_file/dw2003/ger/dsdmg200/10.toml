@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07DO-Wache\\x02\\x07He du! Ab hier\nhaben nur Mitar-\nbeiter Zutritt![pause]",
+	"[name]DO-Wache[name]He du! Ab hier\nhaben nur Mitar-\nbeiter Zutritt![pause]",
 ]

@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Soldat\\x02\\x07Ist das der ID-Pass\nBlau?![pause]\\x02\\x03Verzeihung. Wusste\nnicht, dass du Qing\nLong Chief bist![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Wie bitte?\nAch ja, klar![pause]\\x02\\x03Die Uniform fällt\nzu sehr auf. Ich bin\nin Zivil unterwegs![pause]\\x02\\x03Das bleibt aber unser\nGeheimnis, OK?[pause]",
-	"\\x02\\x07Soldat\\x02\\x07Du bist toll,\nChief! Du ar-\nbeitest hart![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oh Mann, um ein\nHaar...[pause]\\x02\\x03Aber jetzt kann \nich nach Zhu\nQue City.[pause]",
-	"\\x02\\x07Soldat\\x02\\x07Bitte, nur\nzu![pause]",
+	"[name]Soldat[name]Ist das der ID-Pass\nBlau?![pause][clear]Verzeihung. Wusste\nnicht, dass du Qing\nLong Chief bist![pause]",
+	"[name][player_name][name]Wie bitte?\nAch ja, klar![pause][clear]Die Uniform fällt\nzu sehr auf. Ich bin\nin Zivil unterwegs![pause][clear]Das bleibt aber unser\nGeheimnis, OK?[pause]",
+	"[name]Soldat[name]Du bist toll,\nChief! Du ar-\nbeitest hart![pause]",
+	"[name][player_name][name]Oh Mann, um ein\nHaar...[pause][clear]Aber jetzt kann \nich nach Zhu\nQue City.[pause]",
+	"[name]Soldat[name]Bitte, nur\nzu![pause]",
 ]

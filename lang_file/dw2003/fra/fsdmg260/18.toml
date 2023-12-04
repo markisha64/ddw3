@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Très bien ! \n2700 BIT ![pause]",
-	"\\x02\\x07M. Smith\\x02\\x07Ouah ! \n2700 BIT ![pause]\\x02\\x03Quelqu'un à \nplus de 2700 \nBIT ?[pause]",
-	"\\x02\\x07M. Smith\\x02\\x07Personne d'autre,\nsemble-t-il.[pause]\\x02\\x03Le Bâton YinYang \nest vendu \n2700 BIT ![pause]\\x02\\x03Félicitations au\nMonsieur là-bas ![pause]\\x02\\x03Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oui ! J'ai \nle Bâton \nYinYang ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Bon, c'est un \nchouette objet, \nsortons d'ici.[pause]",
+	"[name][player_name][name]Très bien ! \n2700 BIT ![pause]",
+	"[name]M. Smith[name]Ouah ! \n2700 BIT ![pause][clear]Quelqu'un à \nplus de 2700 \nBIT ?[pause]",
+	"[name]M. Smith[name]Personne d'autre,\nsemble-t-il.[pause][clear]Le Bâton YinYang \nest vendu \n2700 BIT ![pause][clear]Félicitations au\nMonsieur là-bas ![pause][clear]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]",
+	"[name][player_name][name]Oui ! J'ai \nle Bâton \nYinYang ![pause]",
+	"[name][player_name][name]Bon, c'est un \nchouette objet, \nsortons d'ici.[pause]",
 ]

@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Etemon\\x02\\x07I've lost with \nthis Folder\nbefore![pause]\\x02\\x03But I'll beat you \nup with my Real\nFolder![pause]",
+	"[name]Etemon[name]I've lost with \nthis Folder\nbefore![pause][clear]But I'll beat you \nup with my Real\nFolder![pause]",
 ]

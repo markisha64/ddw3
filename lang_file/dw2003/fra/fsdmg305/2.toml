@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Tiens ? Je ne\nl'ai pas tapé dans\nle bon ordre ?[pause]",
+	"[name][player_name][name]Tiens ? Je ne\nl'ai pas tapé dans\nle bon ordre ?[pause]",
 ]

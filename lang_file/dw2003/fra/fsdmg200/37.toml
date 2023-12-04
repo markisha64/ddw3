@@ -1,10 +1,10 @@
 strings = [
 	"",
-	"\\x02\\x07Maître de jeu\\x02\\x07... Destromon\ndevrait être né\nà l'heure qu'il est.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Qui est ce\nDestromon ?[pause]",
-	"\\x02\\x07Maître de jeu\\x02\\x07Un Digimon né de la\nfusion entre Vemmon\net le Juggernaut ![pause]\\x02\\x03Destromon est\nle plus fort ! Il est\ninvincible ![pause]",
-	"\\x02\\x07Lisa\\x02\\x07... pas de temps\nà perdre ![pause]\\x02\\x03Trouvons le président\nde MAGAMI pour\narrêter Destromon ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023D'accord.[pause]",
-	"\\x02\\x07Teddy\\x02\\x07...oui ![pause]",
-	"\\x02\\x07Nick\\x02\\x07OK ![pause]",
+	"[name]Maître de jeu[name]... Destromon\ndevrait être né\nà l'heure qu'il est.[pause]",
+	"[name][player_name][name]Qui est ce\nDestromon ?[pause]",
+	"[name]Maître de jeu[name]Un Digimon né de la\nfusion entre Vemmon\net le Juggernaut ![pause][clear]Destromon est\nle plus fort ! Il est\ninvincible ![pause]",
+	"[name]Lisa[name]... pas de temps\nà perdre ![pause][clear]Trouvons le président\nde MAGAMI pour\narrêter Destromon ![pause]",
+	"[name][player_name][name]D'accord.[pause]",
+	"[name]Teddy[name]...oui ![pause]",
+	"[name]Nick[name]OK ![pause]",
 ]

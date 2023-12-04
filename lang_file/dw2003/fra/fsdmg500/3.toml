@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Kail\\x02\\x07Salut \\x02\\x08\\x01\\x02\\x05\\x01 !\nBon timing.[pause]\\x02\\x03Cela fait un moment\nqu'on est ici. On\ny va, non ?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023J'ai battu les chefs\nde Seiryu et Suzaku,\nalors d'accord.[pause]\\x02\\x03Mais, et Teddy ? On\ndoit le retrouver ![pause]",
-	"\\x02\\x07Kail\\x02\\x07Il est dans le centre\nadministratif \nd'Asuka City.[pause]\\x02\\x03C'est là qu'il m'a dit\nqu'il allait la dernière\nfois que je l'ai vu.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oh, OK. Alors en\nroute pour Asuka\nCity ![pause]",
+	"[name]Kail[name]Salut [player_name2] !\nBon timing.[pause][clear]Cela fait un moment\nqu'on est ici. On\ny va, non ?[pause]",
+	"[name][player_name][name]J'ai battu les chefs\nde Seiryu et Suzaku,\nalors d'accord.[pause][clear]Mais, et Teddy ? On\ndoit le retrouver ![pause]",
+	"[name]Kail[name]Il est dans le centre\nadministratif \nd'Asuka City.[pause][clear]C'est là qu'il m'a dit\nqu'il allait la dernière\nfois que je l'ai vu.[pause]",
+	"[name][player_name][name]Oh, OK. Alors en\nroute pour Asuka\nCity ![pause]",
 ]

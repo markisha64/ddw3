@@ -1,10 +1,10 @@
 strings = [
 	"",
-	"\\x02\\x07Digimon Navi.\\x02\\x07Aquí encontrarás pistas\nsobre Digimon, lucha\ny cría.[pause]\\x02\\x03Mostraré los datos\nen el satélite.[pause]",
-	"\"Tipos de Ataque\"\nUtiliza técnicas físi., mági. \ny ayuda.[pause]\\x02\\x03\"Atributos de Ataque\"\nAtaca a los oponentes con atributos\nopuestos y utiliza a los aliados.[pause]",
-	"\"Efectos de Técnicas\"\nEfecto de veneno, parálisis\ny otros dependiendo del Digimon.[pause]\\x02\\x03\"Problemas de Estado\"\nTodos los problemas menos maldición\nde Cardmon desap. tras la batalla.[pause]",
-	"\"Digievolucionar ADN\"\nCombina dos Digimon en uno. Tras\ndigiev. el ADN, los dos se cambiarán.[pause]\\x02\\x03\"Distribución de EXP\"\nTodos los Digimon del combate\nrecibirán EXP.[pause]",
-	"\"Entrenamiento\"\nLos Digimon pueden entrenarse en\nun gimnasio usando TP.[pause]\\x02\\x03\"Habilidades de digiev.\"\nLas habilidades de digiev. \nIncrementarán con la EXP.[pause]",
+	"[name]Digimon Navi.[name]Aquí encontrarás pistas\nsobre Digimon, lucha\ny cría.[pause][clear]Mostraré los datos\nen el satélite.[pause]",
+	"\"Tipos de Ataque\"\nUtiliza técnicas físi., mági. \ny ayuda.[pause][clear]\"Atributos de Ataque\"\nAtaca a los oponentes con atributos\nopuestos y utiliza a los aliados.[pause]",
+	"\"Efectos de Técnicas\"\nEfecto de veneno, parálisis\ny otros dependiendo del Digimon.[pause][clear]\"Problemas de Estado\"\nTodos los problemas menos maldición\nde Cardmon desap. tras la batalla.[pause]",
+	"\"Digievolucionar ADN\"\nCombina dos Digimon en uno. Tras\ndigiev. el ADN, los dos se cambiarán.[pause][clear]\"Distribución de EXP\"\nTodos los Digimon del combate\nrecibirán EXP.[pause]",
+	"\"Entrenamiento\"\nLos Digimon pueden entrenarse en\nun gimnasio usando TP.[pause][clear]\"Habilidades de digiev.\"\nLas habilidades de digiev. \nIncrementarán con la EXP.[pause]",
 	"a",
-	"\\x02\\x07Digimon Navi\\x02\\x07Esa es toda la \ninformación.\n¡Buena suerte![pause]",
+	"[name]Digimon Navi[name]Esa es toda la \ninformación.\n¡Buena suerte![pause]",
 ]

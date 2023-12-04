@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Servizio domatori\\x02\\x07Cerca degli indizi\ndurante il gioco.[pause]\\x02\\x03Ti mostrerò i\ndati sul\nsatellite.[pause]",
-	"\"Preparazione al viaggio\"\nScegli il Digimon e decidi la\ndigivoluzione nel laboratorio.[pause]\\x02\\x03Equipaggia il Digimon con armi\ne difese e schiera i tuoi\nDigimon per la battaglia.[pause]",
-	"\"Battaglia a carte\"\nPuoi anche combattere con\nle carte.[pause]\\x02\\x03Troverai maggiori informazioni\nall'Incrociatore Giallo.[pause]\\x02\\x03\"Salva\"\nPer evitare problemi, salva\nspesso.[pause]\\x02\\x03Guardromon, che se ne occupa,\nsta in ogni locanda.\nNon si salva in battaglia![pause]",
-	"\"Fine partita\"\nAppare quando tutti i Partner\nDigimon sono sconfitti.[pause]\\x02\\x03Evita gli scontri irragionevoli.[pause]\\x02\\x03\"Aggiunta Partner\"\nPuoi aggiungere un Partner\nDigimon ai tre che già hai.[pause]\\x02\\x03Non posso dirti altro.[pause]",
-	"\\x02\\x07Servizio domatori\\x02\\x07Ora sai proprio\ntutto!\nBuona fortuna![pause]",
+	"[name]Servizio domatori[name]Cerca degli indizi\ndurante il gioco.[pause][clear]Ti mostrerò i\ndati sul\nsatellite.[pause]",
+	"\"Preparazione al viaggio\"\nScegli il Digimon e decidi la\ndigivoluzione nel laboratorio.[pause][clear]Equipaggia il Digimon con armi\ne difese e schiera i tuoi\nDigimon per la battaglia.[pause]",
+	"\"Battaglia a carte\"\nPuoi anche combattere con\nle carte.[pause][clear]Troverai maggiori informazioni\nall'Incrociatore Giallo.[pause][clear]\"Salva\"\nPer evitare problemi, salva\nspesso.[pause][clear]Guardromon, che se ne occupa,\nsta in ogni locanda.\nNon si salva in battaglia![pause]",
+	"\"Fine partita\"\nAppare quando tutti i Partner\nDigimon sono sconfitti.[pause][clear]Evita gli scontri irragionevoli.[pause][clear]\"Aggiunta Partner\"\nPuoi aggiungere un Partner\nDigimon ai tre che già hai.[pause][clear]Non posso dirti altro.[pause]",
+	"[name]Servizio domatori[name]Ora sai proprio\ntutto!\nBuona fortuna![pause]",
 ]

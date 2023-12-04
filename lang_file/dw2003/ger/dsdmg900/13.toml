@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Tamer Bomujii\\x02\\x07Du gehst also!\nMeistere die\nKunst der Karten![pause]",
+	"[name]Tamer Bomujii[name]Du gehst also!\nMeistere die\nKunst der Karten![pause]",
 ]

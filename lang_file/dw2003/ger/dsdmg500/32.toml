@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Wo mag das\nwohl gewe-\nsen sein?[pause]",
-	"\\x02\\x07Patamon\\x02\\x07Hm... Keine Ahnung.[pause]\\x02\\x03Aber ich hört ein\nseltsames Geräusch\naus dem Dschungel.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Komisches\nGeräusch?[pause]",
-	"\\x02\\x07Patamon\\x02\\x07Ja. Klang wie eine \nMaschine oder ein Di-\ngimon! Echt seltsam![pause]\\x02\\x03Leader hat es gehört \nu. ist abgehauen.[pause]\\x02\\x03Vielleicht\nist sie in Richtung\nDschungel![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Aha.\nVielen Dank![pause]",
+	"[name][player_name][name]Wo mag das\nwohl gewe-\nsen sein?[pause]",
+	"[name]Patamon[name]Hm... Keine Ahnung.[pause][clear]Aber ich hört ein\nseltsames Geräusch\naus dem Dschungel.[pause]",
+	"[name][player_name][name]Komisches\nGeräusch?[pause]",
+	"[name]Patamon[name]Ja. Klang wie eine \nMaschine oder ein Di-\ngimon! Echt seltsam![pause][clear]Leader hat es gehört \nu. ist abgehauen.[pause][clear]Vielleicht\nist sie in Richtung\nDschungel![pause]",
+	"[name][player_name][name]Aha.\nVielen Dank![pause]",
 ]

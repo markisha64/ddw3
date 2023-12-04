@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Signore tenebre\\x02\\x07Mmm?\nChi sei tu?[pause]\\x02\\x03Sei venuto\na sfidarmi,\neh?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Sì!\nCombatterai\ncon me?[pause]",
-	"\\x02\\x07Signore tenebre\\x02\\x07Non sai cosa ti\naspetta.[pause]\\x02\\x03Va bene!\nNon combatto\nda molto tempo.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ti farò\nvedere cosa\nso fare![pause]",
+	"[name]Signore tenebre[name]Mmm?\nChi sei tu?[pause][clear]Sei venuto\na sfidarmi,\neh?[pause]",
+	"[name][player_name][name]Sì!\nCombatterai\ncon me?[pause]",
+	"[name]Signore tenebre[name]Non sai cosa ti\naspetta.[pause][clear]Va bene!\nNon combatto\nda molto tempo.[pause]",
+	"[name][player_name][name]Ti farò\nvedere cosa\nso fare![pause]",
 ]

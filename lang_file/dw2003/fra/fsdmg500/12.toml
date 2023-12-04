@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Oui, très \nbien. Allez, \nbattons-nous ![pause]",
-	"\\x02\\x07Zanbamon\\x02\\x07Tu n'es pas\nde taille ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oh, tu as peur\nde perdre ?[pause]",
-	"\\x02\\x07Zanbamon\\x02\\x07Qu...quoi ?!\nPas du tout ![pause]\\x02\\x03Très bien ! \nSi tu y tiens, \nbattons-nous ![pause]",
+	"[name][player_name][name]Oui, très \nbien. Allez, \nbattons-nous ![pause]",
+	"[name]Zanbamon[name]Tu n'es pas\nde taille ![pause]",
+	"[name][player_name][name]Oh, tu as peur\nde perdre ?[pause]",
+	"[name]Zanbamon[name]Qu...quoi ?!\nPas du tout ![pause][clear]Très bien ! \nSi tu y tiens, \nbattons-nous ![pause]",
 ]

@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Ma che cosa tappa\nil buco? Un masso?[pause]",
-	"\\x02\\x07???\\x02\\x07Ma che masso![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Eeh?\nCosa?![pause]",
-	"\\x02\\x07Numemon\\x02\\x07Ti avevo detto\nche Byakko è\npericolosa![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ehi, tu sei\nquel Numemon?[pause]",
-	"\\x02\\x07Numemon\\x02\\x07Si. Ti \naiuterò,\nvieni![pause]",
+	"[name][player_name][name]Ma che cosa tappa\nil buco? Un masso?[pause]",
+	"[name]???[name]Ma che masso![pause]",
+	"[name][player_name][name]Eeh?\nCosa?![pause]",
+	"[name]Numemon[name]Ti avevo detto\nche Byakko è\npericolosa![pause]",
+	"[name][player_name][name]Ehi, tu sei\nquel Numemon?[pause]",
+	"[name]Numemon[name]Si. Ti \naiuterò,\nvieni![pause]",
 ]

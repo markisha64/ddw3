@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Certo!\nMi sarai\nd'aiuto![pause]",
-	"\\x02\\x07Imperialdram. N\\x02\\x07Hai del\nfegato!\nMi piaci![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Sono pure\npotente, ricorda![pause]",
-	"\\x02\\x07Imperialdramon N\\x02\\x07Sei molto sicuro\ndi te![pause]\\x02\\x03Sarà\nuna bella\nlotta![pause]",
+	"[name][player_name][name]Certo!\nMi sarai\nd'aiuto![pause]",
+	"[name]Imperialdram. N[name]Hai del\nfegato!\nMi piaci![pause]",
+	"[name][player_name][name]Sono pure\npotente, ricorda![pause]",
+	"[name]Imperialdramon N[name]Sei molto sicuro\ndi te![pause][clear]Sarà\nuna bella\nlotta![pause]",
 ]

@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"Non hai \\x02\\x05\\x01.",
+	"Non hai {1}.",
 	"BIT",
 	"COMPRA",
 	"VENDI",
@@ -17,7 +17,7 @@ strings = [
 	"Per nome",
 	"Equipaggiare chi?",
 	"Quantità?",
-	"\\x02\\x05\\x01 BIT",
+	"{1} BIT",
 	"Com",
 	"No",
 	"Equipagg.?",

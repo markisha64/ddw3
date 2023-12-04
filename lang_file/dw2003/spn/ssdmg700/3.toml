@@ -1,11 +1,11 @@
 strings = [
 	"",
-	"\\x02\\x07Junior\\x02\\x07¡Uauu! ¿Ésta es \nla S. de Cámara?[pause]\\x02\\x03Puedo empezar el \njuego...\n¡Qué emocionante![pause]",
-	"\\x02\\x07Operador.\\x02\\x07¿Cuál es vuestro \nnombre de cuenta\nregistrado?[pause]",
-	"\\x02\\x07Junior.\\x02\\x07¡Es \\x02\\x08\\x01\\x02\\x05\\x01![pause]",
-	"\\x02\\x07Operador.\\x02\\x07...Confirmado.\nGracias.[pause]\\x02\\x03Entrad en Cápsula \nde Cámara.\nPor aquí.[pause]",
-	"\\x02\\x07Junior\\x02\\x07¡Vale![pause]",
+	"[name]Junior[name]¡Uauu! ¿Ésta es \nla S. de Cámara?[pause][clear]Puedo empezar el \njuego...\n¡Qué emocionante![pause]",
+	"[name]Operador.[name]¿Cuál es vuestro \nnombre de cuenta\nregistrado?[pause]",
+	"[name]Junior.[name]¡Es [player_name2]![pause]",
+	"[name]Operador.[name]...Confirmado.\nGracias.[pause][clear]Entrad en Cápsula \nde Cámara.\nPor aquí.[pause]",
+	"[name]Junior[name]¡Vale![pause]",
 	"a",
-	"\\x02\\x07Ivy.\\x02\\x07¡Eh! ¿Te vas\nsin \nnosotros?[pause]",
-	"\\x02\\x07Teddy.\\x02\\x07¡Junior!\n¡Espera![pause]",
+	"[name]Ivy.[name]¡Eh! ¿Te vas\nsin \nnosotros?[pause]",
+	"[name]Teddy.[name]¡Junior!\n¡Espera![pause]",
 ]

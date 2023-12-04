@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Ho premuto\nnell'ordine giusto?[pause]",
+	"[name][player_name][name]Ho premuto\nnell'ordine giusto?[pause]",
 ]

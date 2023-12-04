@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Eh? C'è un\naltro pulsante.[pause]\\x02\\x03Beh, premerò\nanche questo,\nmi sa.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hmm, niente\ndi fatto.[pause]\\x02\\x03Devo trovare\nl'A.o.A. Presto![pause]",
+	"[name][player_name][name]Eh? C'è un\naltro pulsante.[pause][clear]Beh, premerò\nanche questo,\nmi sa.[pause]",
+	"[name][player_name][name]Hmm, niente\ndi fatto.[pause][clear]Devo trovare\nl'A.o.A. Presto![pause]",
 ]

@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023やったぁ~，\nタオモンに，\nかったぜ![pause]",
-	"\\x02\\x07タオモン\\x02\\x07⋯なるほど，\nおもったより\nやるようだな[pause]\\x02\\x03では，やくそくだ。\nこれを，おまえに\nあげよう[pause]",
-	"\\x02\\x07\\x02\\x09\\x023やった! \n「レナモンDDNA」を\nてにいれたぜ!![pause]\\x02\\x03ありがとう，\nタオモン![pause]",
+	"[name][player_name][name]やったぁ~，\nタオモンに，\nかったぜ![pause]",
+	"[name]タオモン[name]⋯なるほど，\nおもったより\nやるようだな[pause][clear]では，やくそくだ。\nこれを，おまえに\nあげよう[pause]",
+	"[name][player_name][name]やった! \n「レナモンDDNA」を\nてにいれたぜ!![pause][clear]ありがとう，\nタオモン![pause]",
 ]

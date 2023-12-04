@@ -1,10 +1,10 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023¡Lo hice!\nVencí a Kurt[pause]",
-	"\\x02\\x07Kurt\\x02\\x07¡Enhorabuena,\n\\x02\\x08\\x01\\x02\\x05\\x01! Me\nganaste justamente.[pause]\\x02\\x03Eres el domador más\nfuerte ahora.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Gracias![pause]",
-	"\\x02\\x07Kurt\\x02\\x07Pronto arreglarán\nDigimon Online. Como\nprimer Campeón  [pause]\\x02\\x03Mundial debes aceptar \na todos los que te \nreten en el mundo.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¿Yo?\n¿Primer Campeón\nMundial?[pause]\\x02\\x03Bueno, lo haré\nlo mejor que\npueda.[pause]",
-	"\\x02\\x07Kurt\\x02\\x07Cuento contigo.\nAunque aún tienes\ntiempo.[pause]\\x02\\x03Hasta entonces\nlucha y hazte \nmás fuerte.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Tranquilo\n¡voy a ser el \nCampeón [pause]\\x02\\x03Mundial más \nfuerte![pause]",
+	"[name][player_name][name]¡Lo hice!\nVencí a Kurt[pause]",
+	"[name]Kurt[name]¡Enhorabuena,\n[player_name2]! Me\nganaste justamente.[pause][clear]Eres el domador más\nfuerte ahora.[pause]",
+	"[name][player_name][name]¡Gracias![pause]",
+	"[name]Kurt[name]Pronto arreglarán\nDigimon Online. Como\nprimer Campeón  [pause][clear]Mundial debes aceptar \na todos los que te \nreten en el mundo.[pause]",
+	"[name][player_name][name]¿Yo?\n¿Primer Campeón\nMundial?[pause][clear]Bueno, lo haré\nlo mejor que\npueda.[pause]",
+	"[name]Kurt[name]Cuento contigo.\nAunque aún tienes\ntiempo.[pause][clear]Hasta entonces\nlucha y hazte \nmás fuerte.[pause]",
+	"[name][player_name][name]Tranquilo\n¡voy a ser el \nCampeón [pause][clear]Mundial más \nfuerte![pause]",
 ]

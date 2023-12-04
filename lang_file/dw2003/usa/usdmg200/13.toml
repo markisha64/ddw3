@@ -1,10 +1,10 @@
 strings = [
 	"",
-	"\\x02\\x07Digimon Navi\\x02\\x07Clues about Digimon \nBattle and raising Digimon \nare provided here.[pause]\\x02\\x03I will display the data \non your satellite.[pause]",
-	"\"Types of Attacks\"\nUse physical, magic and support\ntechniques as needed.[pause]\\x02\\x03\"Attack Attributes\"\nAttack opponents with opposing \nattributes and use ally attributes.[pause]",
-	"\"Technique Effects\"\nEffectiveness of poison, paralysis \nand others differ with Digimon.[pause]\\x02\\x03\"Status Ailments\"\nStatus ailments except \"curse\" by\nCardmon will go away after battle.[pause]",
-	"\"DNA Digivolve\"\nCombine two Digimon into one. After\nDNA digivolve, the two will switch.[pause]\\x02\\x03\"EXP Distribution\"\nAll Digimon that appeared in battle \nwill receive EXP.[pause]",
-	"\"Training\"\nDigimon can be trained at a gym \nby using TP (Training Points).[pause]\\x02\\x03\"Digivolution Skills\"\nDigivolved form skills will increase\nas you gain EXP.[pause]",
+	"[name]Digimon Navi[name]Clues about Digimon \nBattle and raising Digimon \nare provided here.[pause][clear]I will display the data \non your satellite.[pause]",
+	"\"Types of Attacks\"\nUse physical, magic and support\ntechniques as needed.[pause][clear]\"Attack Attributes\"\nAttack opponents with opposing \nattributes and use ally attributes.[pause]",
+	"\"Technique Effects\"\nEffectiveness of poison, paralysis \nand others differ with Digimon.[pause][clear]\"Status Ailments\"\nStatus ailments except \"curse\" by\nCardmon will go away after battle.[pause]",
+	"\"DNA Digivolve\"\nCombine two Digimon into one. After\nDNA digivolve, the two will switch.[pause][clear]\"EXP Distribution\"\nAll Digimon that appeared in battle \nwill receive EXP.[pause]",
+	"\"Training\"\nDigimon can be trained at a gym \nby using TP (Training Points).[pause][clear]\"Digivolution Skills\"\nDigivolved form skills will increase\nas you gain EXP.[pause]",
 	"a",
-	"\\x02\\x07Digimon Navi\\x02\\x07That's all of the \ninformation.\nWell, good luck![pause]",
+	"[name]Digimon Navi[name]That's all of the \ninformation.\nWell, good luck![pause]",
 ]

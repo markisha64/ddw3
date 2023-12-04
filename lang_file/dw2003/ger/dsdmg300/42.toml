@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Divermon\\x02\\x07Es war dumm, meine\nDeckung aufzugeben![pause]\\x02\\x03Mal sehen, wie ich\ndas nächste Mal meine\nKarten ablege![pause]",
+	"[name]Divermon[name]Es war dumm, meine\nDeckung aufzugeben![pause][clear]Mal sehen, wie ich\ndas nächste Mal meine\nKarten ablege![pause]",
 ]

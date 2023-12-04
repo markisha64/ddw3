@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023J'ai gagné \ncontre \nTaomon ![pause]",
-	"\\x02\\x07Taomon\\x02\\x07Tu es plus\nfort que tu\nn'en as l'air.[pause]\\x02\\x03Tiens,\nprends ça.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oui ! J'ai \nl'ADNN \nRenamon ![pause]\\x02\\x03Merci Taomon ![pause]",
+	"[name][player_name][name]J'ai gagné \ncontre \nTaomon ![pause]",
+	"[name]Taomon[name]Tu es plus\nfort que tu\nn'en as l'air.[pause][clear]Tiens,\nprends ça.[pause]",
+	"[name][player_name][name]Oui ! J'ai \nl'ADNN \nRenamon ![pause][clear]Merci Taomon ![pause]",
 ]

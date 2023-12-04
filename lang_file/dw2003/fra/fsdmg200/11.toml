@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07Dresseur Genji\\x02\\x07Ho ho ho.\nOn ne se\nconnaît pas.[pause]\\x02\\x03Tu es nouveau\nici ?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oui !\nJe viens d'avoir\nmes Digimons ![pause]",
-	"\\x02\\x07Dresseur Genji\\x02\\x07Alors je vais me\nbattre contre toi.[pause]\\x02\\x03Ne t'inquiète pas\nsi les règles ne\nsont pas claires.[pause]\\x02\\x03L'important est\nd'acquérir de\nl'expérience ![pause]",
+	"[name]Dresseur Genji[name]Ho ho ho.\nOn ne se\nconnaît pas.[pause][clear]Tu es nouveau\nici ?[pause]",
+	"[name][player_name][name]Oui !\nJe viens d'avoir\nmes Digimons ![pause]",
+	"[name]Dresseur Genji[name]Alors je vais me\nbattre contre toi.[pause][clear]Ne t'inquiète pas\nsi les règles ne\nsont pas claires.[pause][clear]L'important est\nd'acquérir de\nl'expérience ![pause]",
 ]

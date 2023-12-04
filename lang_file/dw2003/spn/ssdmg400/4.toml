@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023¿Eh? ¿Qué \nestá pasando?[pause]",
+	"[name][player_name][name]¿Eh? ¿Qué \nestá pasando?[pause]",
 	"¡Código Rojo!¡Código Rojo!\nVamos a parar unos instantes\npor motivos de seguridad[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Terremoto![pause]",
-	"\\x02\\x07\\x02\\x09\\x023¿Pero qué...?\n¿Es eso un\nDigimon?[pause]",
+	"[name][player_name][name]¡Terremoto![pause]",
+	"[name][player_name][name]¿Pero qué...?\n¿Es eso un\nDigimon?[pause]",
 ]

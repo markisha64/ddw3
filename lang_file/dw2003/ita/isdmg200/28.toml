@@ -1,10 +1,10 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Che succede?\nOra sembro un\nDigimon![pause]",
-	"\\x02\\x07Kail\\x02\\x07Silenzio! Chiudi la\nbocca![pause]\\x02\\x03Non devono capire\nche non siamo\nDigimon![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oh, ah, è\nvero!\nCapisco.[pause]",
-	"\\x02\\x07Kail\\x02\\x07C'è una cosa su cui\ndevo investigare.\nVado avanti.[pause]\\x02\\x03\\x02\\x08\\x01\\x02\\x05\\x01, tu cerca\nTeddy.[pause]\\x02\\x03Non appena finisco,\nti raggiungo![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oh, OK,\nma stai\nattenta.[pause]",
-	"\\x02\\x07Kail\\x02\\x07Non sono\nmica come\nte![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Che succede a Kail?\nÈ un po' strana da\nquando siamo qui.[pause]\\x02\\x03Ma devo trovare\nTeddy, ora![pause]",
+	"[name][player_name][name]Che succede?\nOra sembro un\nDigimon![pause]",
+	"[name]Kail[name]Silenzio! Chiudi la\nbocca![pause][clear]Non devono capire\nche non siamo\nDigimon![pause]",
+	"[name][player_name][name]Oh, ah, è\nvero!\nCapisco.[pause]",
+	"[name]Kail[name]C'è una cosa su cui\ndevo investigare.\nVado avanti.[pause][clear][player_name2], tu cerca\nTeddy.[pause][clear]Non appena finisco,\nti raggiungo![pause]",
+	"[name][player_name][name]Oh, OK,\nma stai\nattenta.[pause]",
+	"[name]Kail[name]Non sono\nmica come\nte![pause]",
+	"[name][player_name][name]Che succede a Kail?\nÈ un po' strana da\nquando siamo qui.[pause][clear]Ma devo trovare\nTeddy, ora![pause]",
 ]

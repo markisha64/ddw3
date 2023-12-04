@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"PRET POUR LE\nLANCEMENT ![pause]\\x02\\x03JUGGERNAUT\nLANCE ![pause]",
-	"\\x02\\x07Garde Royal\\x02\\x07Ha ha ha !\nC'est\nun succès ![pause]",
-	"\\x02\\x07Garde Royal\\x02\\x07Maintenant, va,\nJuggernaut ![pause]\\x02\\x03Sème la terreur et\nla destruction dans\nce monde absurde ![pause]",
-	"\\x02\\x07Garde Royal\\x02\\x07La barrière\nélectromagnétique\ndoit être levée ![pause]",
+	"PRET POUR LE\nLANCEMENT ![pause][clear]JUGGERNAUT\nLANCE ![pause]",
+	"[name]Garde Royal[name]Ha ha ha !\nC'est\nun succès ![pause]",
+	"[name]Garde Royal[name]Maintenant, va,\nJuggernaut ![pause][clear]Sème la terreur et\nla destruction dans\nce monde absurde ![pause]",
+	"[name]Garde Royal[name]La barrière\nélectromagnétique\ndoit être levée ![pause]",
 ]

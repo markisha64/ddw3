@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Qui\nnon c'è\nnessuno.[pause]",
-	"Sono Lord Megamorte, il\ndistruttore del Mondo\nReale e di quello Digitale.[pause]\\x02\\x03E diventerò un dio nel\nmondo che seguirà a \nquello distrutto.[pause]\\x02\\x03Ora vieni a me, \nre dei domatori.[pause]\\x02\\x03Ti aspetto presso il\nsatellite militare\nGunslinger![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Cosa?\nGunslinger?[pause]",
+	"[name][player_name][name]Qui\nnon c'è\nnessuno.[pause]",
+	"Sono Lord Megamorte, il\ndistruttore del Mondo\nReale e di quello Digitale.[pause][clear]E diventerò un dio nel\nmondo che seguirà a \nquello distrutto.[pause][clear]Ora vieni a me, \nre dei domatori.[pause][clear]Ti aspetto presso il\nsatellite militare\nGunslinger![pause]",
+	"[name][player_name][name]Cosa?\nGunslinger?[pause]",
 	"Sì. Ti mostrerò la sua\nfigura maestosa sospesa\nnello spazio.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Co-\ncosa?![pause]",
+	"[name][player_name][name]Co-\ncosa?![pause]",
 ]

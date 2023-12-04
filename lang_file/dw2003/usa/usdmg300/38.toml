@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07Tai Kong Wang\\x02\\x07I think I can make \nthe best fishing\npole ever...[pause]\\x02\\x03Of course, it's only \na matter of opinion![pause]\\x02\\x03Use this fishing pole\nI made, and you'll \ncatch big fishes!.[pause]\\x02\\x03Good luck catching \nthe big fishs! OK,\nhere you go, boy![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Huh?!\nThanks, Pops![pause]\\x02\\x03Yeah!\nI got the Fishing\nPole![pause]",
-	"\\x02\\x07Tai Kong Wang\\x02\\x07Ho ho ho ho ho\nWell, good luck.[pause]",
+	"[name]Tai Kong Wang[name]I think I can make \nthe best fishing\npole ever...[pause][clear]Of course, it's only \na matter of opinion![pause][clear]Use this fishing pole\nI made, and you'll \ncatch big fishes!.[pause][clear]Good luck catching \nthe big fishs! OK,\nhere you go, boy![pause]",
+	"[name][player_name][name]Huh?!\nThanks, Pops![pause][clear]Yeah!\nI got the Fishing\nPole![pause]",
+	"[name]Tai Kong Wang[name]Ho ho ho ho ho\nWell, good luck.[pause]",
 ]

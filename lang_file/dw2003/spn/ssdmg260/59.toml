@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023...Es demasiado...\nY hay otras cosas\nque quiero...[pause]\\x02\\x03Volveré cuando \ntenga más dinero.[pause]",
+	"[name][player_name][name]...Es demasiado...\nY hay otras cosas\nque quiero...[pause][clear]Volveré cuando \ntenga más dinero.[pause]",
 ]

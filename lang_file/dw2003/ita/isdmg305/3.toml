@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Wow! C'era davvero\nuna porta segreta![pause]\\x02\\x03La Signora del\nGioco sarà vicina![pause]",
+	"[name][player_name][name]Wow! C'era davvero\nuna porta segreta![pause][clear]La Signora del\nGioco sarà vicina![pause]",
 ]

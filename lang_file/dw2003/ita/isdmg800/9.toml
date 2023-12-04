@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07Soldato di metallo\\x02\\x07Bip, bip![pause]\\x02\\x03Allarme intruso!\nAllarme intruso![pause]\\x02\\x03Eliminarlo\ndall'edificio![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Uomo di\nlatta,\nti sfido![pause]",
+	"[name]Soldato di metallo[name]Bip, bip![pause][clear]Allarme intruso!\nAllarme intruso![pause][clear]Eliminarlo\ndall'edificio![pause]",
+	"[name][player_name][name]Uomo di\nlatta,\nti sfido![pause]",
 ]

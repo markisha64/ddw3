@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"Eigentlich will ich\nGunslinger besitzen! Juggernaut\nwar nur ein Köder![pause]\\x02\\x03Die A.o.A.-Operation Sigma\ngeht in die letzte Phase über...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023...letzte Phase?\nWas werden sie\ntun?[pause]",
+	"Eigentlich will ich\nGunslinger besitzen! Juggernaut\nwar nur ein Köder![pause][clear]Die A.o.A.-Operation Sigma\ngeht in die letzte Phase über...[pause]",
+	"[name][player_name][name]...letzte Phase?\nWas werden sie\ntun?[pause]",
 	"Wir starten die Digitierwelle von Ragnarok\nCannon aus auf Gunslinger und verwandeln\nalles Leben auf der Erde in Oinkmon![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Wawas?!\nDas lasse ich\nnicht zu![pause]",
-	"Dann komme nach Gunslinger\nund besiege mich![pause]\\x02\\x03Du brauchst keine Angst zu haben\nGehe durch's Warp-Tor, und\ndu bist bei Gun Slinger![pause]\\x02\\x03Da haben wir unseren Finalkampf.[pause]\\x02\\x03Das Schicksal der ganzen Mensch-\nheit wird entschieden...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023In Ordnung,\nLord Megadeath,\nich komme![pause]\\x02\\x03Ich werde dich\nbesiegen![pause]",
+	"[name][player_name][name]Wawas?!\nDas lasse ich\nnicht zu![pause]",
+	"Dann komme nach Gunslinger\nund besiege mich![pause][clear]Du brauchst keine Angst zu haben\nGehe durch's Warp-Tor, und\ndu bist bei Gun Slinger![pause][clear]Da haben wir unseren Finalkampf.[pause][clear]Das Schicksal der ganzen Mensch-\nheit wird entschieden...[pause]",
+	"[name][player_name][name]In Ordnung,\nLord Megadeath,\nich komme![pause][clear]Ich werde dich\nbesiegen![pause]",
 ]

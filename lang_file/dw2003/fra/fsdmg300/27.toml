@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Je veux te\ndéfier ![pause]",
-	"\\x02\\x07Pharaohmon\\x02\\x07Tu es bien\naudacieux ![pause]\\x02\\x03Je t'avertis\nque je suis\npuissant ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Cela reste \nà confirmer ![pause]",
-	"\\x02\\x07Pharaohmon\\x02\\x07Bon, tu es \nprêt.[pause]\\x02\\x03Je vais utiliser \nma force \nmaximale ![pause]",
+	"[name][player_name][name]Je veux te\ndéfier ![pause]",
+	"[name]Pharaohmon[name]Tu es bien\naudacieux ![pause][clear]Je t'avertis\nque je suis\npuissant ![pause]",
+	"[name][player_name][name]Cela reste \nà confirmer ![pause]",
+	"[name]Pharaohmon[name]Bon, tu es \nprêt.[pause][clear]Je vais utiliser \nma force \nmaximale ![pause]",
 ]

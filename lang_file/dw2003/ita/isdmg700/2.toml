@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Impieg.\\x02\\x07Procedura completata.\nDirigetevi verso\nil Salone.[pause]",
-	"\\x02\\x07Junior\\x02\\x07Ok, Teddy, Ivy!\nEntriamo nel\nMondo Digitale.[pause]",
-	"\\x02\\x07Ivy\\x02\\x07Junior!\nAspetta![pause]",
-	"\\x02\\x07Teddy\\x02\\x07Io devo\nancora finire![pause]",
+	"[name]Impieg.[name]Procedura completata.\nDirigetevi verso\nil Salone.[pause]",
+	"[name]Junior[name]Ok, Teddy, Ivy!\nEntriamo nel\nMondo Digitale.[pause]",
+	"[name]Ivy[name]Junior!\nAspetta![pause]",
+	"[name]Teddy[name]Io devo\nancora finire![pause]",
 ]

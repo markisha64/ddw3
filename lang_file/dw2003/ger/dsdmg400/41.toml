@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Qing Long Chief\\x02\\x07Kamerad! Herzlich\nwillkommen![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Qinq Long Chief,\nwo ist das Digiei\ndes Wissens?[pause]",
-	"\\x02\\x07Qing Long Chief\\x02\\x07Weiβ ich auch nicht,\naber warum fragst du?[pause]\\x02\\x03Du bist keiner von uns![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Na und,\nwas willst du\ndagegen tun?[pause]",
-	"\\x02\\x07Qing Long Ch\\x02\\x07Ich nehm dich\ngefangen wie\ndie anderen![pause]",
+	"[name]Qing Long Chief[name]Kamerad! Herzlich\nwillkommen![pause]",
+	"[name][player_name][name]Qinq Long Chief,\nwo ist das Digiei\ndes Wissens?[pause]",
+	"[name]Qing Long Chief[name]Weiβ ich auch nicht,\naber warum fragst du?[pause][clear]Du bist keiner von uns![pause]",
+	"[name][player_name][name]Na und,\nwas willst du\ndagegen tun?[pause]",
+	"[name]Qing Long Ch[name]Ich nehm dich\ngefangen wie\ndie anderen![pause]",
 ]

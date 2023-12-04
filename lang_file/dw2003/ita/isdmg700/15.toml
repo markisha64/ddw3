@@ -1,6 +1,6 @@
 strings = [
 	"",
-	"\\x02\\x07Cavaliere tenebre\\x02\\x07Fai delle\nmosse mai\nviste![pause]",
-	"\\x02\\x07Cavaliere tenebre\\x02\\x07Vai!\nSei un grande\ndomatore![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Si, \ngrazie![pause]",
+	"[name]Cavaliere tenebre[name]Fai delle\nmosse mai\nviste![pause]",
+	"[name]Cavaliere tenebre[name]Vai!\nSei un grande\ndomatore![pause]",
+	"[name][player_name][name]Si, \ngrazie![pause]",
 ]

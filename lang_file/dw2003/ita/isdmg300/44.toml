@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Etemon\\x02\\x07Acc! Ho\nperso![pause]\\x02\\x03Devo cambiare\nalcune carte\nnella cartella![pause]",
+	"[name]Etemon[name]Acc! Ho\nperso![pause][clear]Devo cambiare\nalcune carte\nnella cartella![pause]",
 ]

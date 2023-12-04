@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023De acuerdo, \ncoloco el Chip \nTNT aquí.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Hay un \nagujero en\nel muro![pause]\\x02\\x03¡Ya podemos\nentrar![pause]",
+	"[name][player_name][name]De acuerdo, \ncoloco el Chip \nTNT aquí.[pause]",
+	"[name][player_name][name]¡Hay un \nagujero en\nel muro![pause][clear]¡Ya podemos\nentrar![pause]",
 ]

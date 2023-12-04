@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Account Clerk\\x02\\x07Registration complete.\nPlease head to the\nChamber Room.[pause]",
-	"\\x02\\x07Junior\\x02\\x07OK, Teddy, Ivy!\nLet's go to the\nDigital World![pause]",
-	"\\x02\\x07Ivy\\x02\\x07H-hey! \nWait up Junior![pause]",
-	"\\x02\\x07Teddy\\x02\\x07I'm not done\nregistering![pause]",
+	"[name]Account Clerk[name]Registration complete.\nPlease head to the\nChamber Room.[pause]",
+	"[name]Junior[name]OK, Teddy, Ivy!\nLet's go to the\nDigital World![pause]",
+	"[name]Ivy[name]H-hey! \nWait up Junior![pause]",
+	"[name]Teddy[name]I'm not done\nregistering![pause]",
 ]

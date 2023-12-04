@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Cavaliere tenebre\\x02\\x07Oh sì! Pare che\ntu abbia fatto\nscintille![pause]\\x02\\x03Sei nella grotta\ndelle tenebre, la\npiù difficile di Asuka![pause]\\x02\\x03E io sono il boss più\npotente![pause]",
-	"\\x02\\x07\\x02\\x09\\x023E io sono il miglior\ndomatore!\nFammi passare.[pause]",
-	"\\x02\\x07Cavaliere tenebre\\x02\\x07Eh? Ragazzo!\nNon ho un programma\nsimile![pause]\\x02\\x03Non posso far\npassare lui![pause]\\x02\\x03Se vuoi procedere,\ndovrai\nbattermi![pause]\\x02\\x03E non ce la farai.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023?![pause]",
+	"[name]Cavaliere tenebre[name]Oh sì! Pare che\ntu abbia fatto\nscintille![pause][clear]Sei nella grotta\ndelle tenebre, la\npiù difficile di Asuka![pause][clear]E io sono il boss più\npotente![pause]",
+	"[name][player_name][name]E io sono il miglior\ndomatore!\nFammi passare.[pause]",
+	"[name]Cavaliere tenebre[name]Eh? Ragazzo!\nNon ho un programma\nsimile![pause][clear]Non posso far\npassare lui![pause][clear]Se vuoi procedere,\ndovrai\nbattermi![pause][clear]E non ce la farai.[pause]",
+	"[name][player_name][name]?![pause]",
 ]

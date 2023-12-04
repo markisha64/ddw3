@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Fire Knight\\x02\\x07Wait a sec! You\ncame at a great\ntime. I was bored.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Bored? I don't \nhave time for this![pause]",
-	"\\x02\\x07Fire Knight\\x02\\x07You're not bored?\nDon't make me laugh![pause]\\x02\\x03Tamers these days\nare weak...[pause]\\x02\\x03But you look good!\nCome on, let's fight![pause]",
-	"\\x02\\x07\\x02\\x09\\x023?![pause]",
-	"\\x02\\x07Fire Knight\\x02\\x07I'll show you the\npower of my Digimon!\nFireeeeeee!![pause]",
+	"[name]Fire Knight[name]Wait a sec! You\ncame at a great\ntime. I was bored.[pause]",
+	"[name][player_name][name]Bored? I don't \nhave time for this![pause]",
+	"[name]Fire Knight[name]You're not bored?\nDon't make me laugh![pause][clear]Tamers these days\nare weak...[pause][clear]But you look good!\nCome on, let's fight![pause]",
+	"[name][player_name][name]?![pause]",
+	"[name]Fire Knight[name]I'll show you the\npower of my Digimon!\nFireeeeeee!![pause]",
 ]

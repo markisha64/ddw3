@@ -1,10 +1,10 @@
 strings = [
 	"",
-	"\\x02\\x07Chef de Seiryu\\x02\\x07Tu n'es pas\nmauvais. Quel\nest ton nom ?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023\\x02\\x08\\x01\\x02\\x05\\x01. Tu\nt'es bien battu ![pause]",
-	"\\x02\\x07Chef de Seiryu\\x02\\x07Très bien,\n\\x02\\x08\\x01\\x02\\x05\\x01, \nprends ça.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023J'ai le badge de\nSeiryu et le\nTicket d'argent ![pause]",
-	"\\x02\\x07Chef de Seiryu\\x02\\x07Tu en auras\nbesoin lors des\nprochains combats.[pause]\\x02\\x03Ce sont des\nobjets précieux.\nGarde les bien.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Merci, chef de\nSeiryu ![pause]",
-	"\\x02\\x07Chef de Seiryu\\x02\\x07Tu va devoir défier\nle chef de Suzaku,\ndans le Secteur Sud.[pause]\\x02\\x03La route est encore\nlongue, mais tu peux\nréussir. Bonne chance.[pause]",
+	"[name]Chef de Seiryu[name]Tu n'es pas\nmauvais. Quel\nest ton nom ?[pause]",
+	"[name][player_name][name][player_name2]. Tu\nt'es bien battu ![pause]",
+	"[name]Chef de Seiryu[name]Très bien,\n[player_name2], \nprends ça.[pause]",
+	"[name][player_name][name]J'ai le badge de\nSeiryu et le\nTicket d'argent ![pause]",
+	"[name]Chef de Seiryu[name]Tu en auras\nbesoin lors des\nprochains combats.[pause][clear]Ce sont des\nobjets précieux.\nGarde les bien.[pause]",
+	"[name][player_name][name]Merci, chef de\nSeiryu ![pause]",
+	"[name]Chef de Seiryu[name]Tu va devoir défier\nle chef de Suzaku,\ndans le Secteur Sud.[pause][clear]La route est encore\nlongue, mais tu peux\nréussir. Bonne chance.[pause]",
 ]

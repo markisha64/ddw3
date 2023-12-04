@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Hold it right \nthere! Stop the \nlaunch now![pause]\\x02\\x03I'm not going to \nlet you guys get \naway with it![pause]",
-	"\\x02\\x07Royal Guard\\x02\\x07Ha ha ha ha! \nThis punk says we \nhave to stop![pause]\\x02\\x03You think a kid\nlike you can stop \nour plans![pause]",
-	"\\x02\\x07\\x02\\x09\\x023I'll make \nyou guys to \nstop it![pause]",
-	"\\x02\\x07Royal Guard\\x02\\x07...ha ha ha.\nAre you for \nreal?[pause]\\x02\\x03Try it if you \ncan![pause]",
-	"\\x02\\x07Royal Guard \\x02\\x07System all clear...\nThis is it![pause]",
+	"[name][player_name][name]Hold it right \nthere! Stop the \nlaunch now![pause][clear]I'm not going to \nlet you guys get \naway with it![pause]",
+	"[name]Royal Guard[name]Ha ha ha ha! \nThis punk says we \nhave to stop![pause][clear]You think a kid\nlike you can stop \nour plans![pause]",
+	"[name][player_name][name]I'll make \nyou guys to \nstop it![pause]",
+	"[name]Royal Guard[name]...ha ha ha.\nAre you for \nreal?[pause][clear]Try it if you \ncan![pause]",
+	"[name]Royal Guard [name]System all clear...\nThis is it![pause]",
 ]

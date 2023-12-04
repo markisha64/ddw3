@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Fermatevi!\nE fermate il\nlancio![pause]\\x02\\x03Non ve la farò\nfare franca,\ncriminali![pause]",
-	"\\x02\\x07Guardia reale\\x02\\x07Ha ha ha ha!\nIl marmocchio ci\nminaccia![pause]\\x02\\x03Un poppante\nnon può fermare\ni nostri piani![pause]",
-	"\\x02\\x07\\x02\\x09\\x023È quello\nche \nvedremo![pause]",
-	"\\x02\\x07Guardia reale\\x02\\x07...ha ha ha.\nMa che cosa\ndici?[pause]\\x02\\x03Provaci, se\nhai coraggio![pause]",
-	"\\x02\\x07Guardia reale\\x02\\x07Sistema a punto.\nCi siamo![pause]",
+	"[name][player_name][name]Fermatevi!\nE fermate il\nlancio![pause][clear]Non ve la farò\nfare franca,\ncriminali![pause]",
+	"[name]Guardia reale[name]Ha ha ha ha!\nIl marmocchio ci\nminaccia![pause][clear]Un poppante\nnon può fermare\ni nostri piani![pause]",
+	"[name][player_name][name]È quello\nche \nvedremo![pause]",
+	"[name]Guardia reale[name]...ha ha ha.\nMa che cosa\ndici?[pause][clear]Provaci, se\nhai coraggio![pause]",
+	"[name]Guardia reale[name]Sistema a punto.\nCi siamo![pause]",
 ]

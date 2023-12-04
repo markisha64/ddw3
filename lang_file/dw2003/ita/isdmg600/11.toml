@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07KingNumemon N\\x02\\x07Oh, no! Io, il re,\nho perso![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ma sei \nstato bravo.[pause]\\x02\\x03Sei davvero un\nre![pause]",
-	"\\x02\\x07KingNumemon N\\x02\\x07Davvero?\nMi rendi felice,\ncosì.[pause]\\x02\\x03Sei un brav'uomo!\nPrendi questo.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023L'adattatore\ndi BIT, wow![pause]",
-	"\\x02\\x07KingNumemon N\\x02\\x07Non dimenticarti\ndi me, ragazzo![pause]",
+	"[name]KingNumemon N[name]Oh, no! Io, il re,\nho perso![pause]",
+	"[name][player_name][name]Ma sei \nstato bravo.[pause][clear]Sei davvero un\nre![pause]",
+	"[name]KingNumemon N[name]Davvero?\nMi rendi felice,\ncosì.[pause][clear]Sei un brav'uomo!\nPrendi questo.[pause]",
+	"[name][player_name][name]L'adattatore\ndi BIT, wow![pause]",
+	"[name]KingNumemon N[name]Non dimenticarti\ndi me, ragazzo![pause]",
 ]

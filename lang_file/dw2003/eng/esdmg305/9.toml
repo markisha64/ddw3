@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Asuka's Game Master \nwas sending Vemmon \nsomewhere...[pause]\\x02\\x03Maybe there's some\nclue! Let's go in \nfurther![pause]",
-	"\\x02\\x07\\x02\\x09\\x023What!?[pause]",
-	"\\x02\\x07\\x02\\x09\\x023What?\nWhy is Oinkmon in\nAsuka Server?[pause]",
-	"\\x02\\x07Oinkmon\\x02\\x07Oioionk?\nOioinoink!\nOioinoink??[pause]",
-	"\\x02\\x07Oinkmon\\x02\\x07Oioin, oinnk?\nOioionoinkn!\nOin, oinoiknk![pause]",
-	"\\x02\\x07Oinkmon\\x02\\x07Oooin, oioink!\nOinoink, oink!\nOioin, oinnk![pause]",
+	"[name][player_name][name]Asuka's Game Master \nwas sending Vemmon \nsomewhere...[pause][clear]Maybe there's some\nclue! Let's go in \nfurther![pause]",
+	"[name][player_name][name]What!?[pause]",
+	"[name][player_name][name]What?\nWhy is Oinkmon in\nAsuka Server?[pause]",
+	"[name]Oinkmon[name]Oioionk?\nOioinoink!\nOioinoink??[pause]",
+	"[name]Oinkmon[name]Oioin, oinnk?\nOioionoinkn!\nOin, oinoiknk![pause]",
+	"[name]Oinkmon[name]Oooin, oioink!\nOinoink, oink!\nOioin, oinnk![pause]",
 ]

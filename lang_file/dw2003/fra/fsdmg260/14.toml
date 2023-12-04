@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Très bien ! \n1600 BIT ![pause]",
-	"\\x02\\x07M. Smith\\x02\\x07Ouah ! \n1600 BIT ![pause]\\x02\\x03Quelqu'un à \nplus de 1600 \nBIT ?[pause]",
-	"\\x02\\x07M. Smith\\x02\\x07Allons, allons...[pause]\\x02\\x03Le Bouclier  \nDramon est vendu  \n1600 BIT ![pause]\\x02\\x03Félicitations au\nMonsieur là-bas ![pause]\\x02\\x03Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Oui ! J'ai \nle Bouclier \nDramon ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Bon, c'est un \nchouette objet, \nje vais voir ça.[pause]",
+	"[name][player_name][name]Très bien ! \n1600 BIT ![pause]",
+	"[name]M. Smith[name]Ouah ! \n1600 BIT ![pause][clear]Quelqu'un à \nplus de 1600 \nBIT ?[pause]",
+	"[name]M. Smith[name]Allons, allons...[pause][clear]Le Bouclier  \nDramon est vendu  \n1600 BIT ![pause][clear]Félicitations au\nMonsieur là-bas ![pause][clear]Je transfère de\nsuite l'objet sur \nvotre satellite ![pause]",
+	"[name][player_name][name]Oui ! J'ai \nle Bouclier \nDramon ![pause]",
+	"[name][player_name][name]Bon, c'est un \nchouette objet, \nje vais voir ça.[pause]",
 ]

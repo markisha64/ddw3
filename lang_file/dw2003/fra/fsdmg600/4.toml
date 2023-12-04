@@ -1,9 +1,9 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Qu'est-ce qui bloque\nle trou ? Un rocher ?[pause]",
-	"\\x02\\x07???\\x02\\x07Mais non ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Quoi ?![pause]",
-	"\\x02\\x07Numemon\\x02\\x07Cette ville est\ndangereuse,\ncrois-moi ![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hé, mais tu\nes Numemon !?[pause]",
-	"\\x02\\x07Numemon\\x02\\x07Oui. Je vais\nt'aider, alors\nsuis-moi ![pause]",
+	"[name][player_name][name]Qu'est-ce qui bloque\nle trou ? Un rocher ?[pause]",
+	"[name]???[name]Mais non ![pause]",
+	"[name][player_name][name]Quoi ?![pause]",
+	"[name]Numemon[name]Cette ville est\ndangereuse,\ncrois-moi ![pause]",
+	"[name][player_name][name]Hé, mais tu\nes Numemon !?[pause]",
+	"[name]Numemon[name]Oui. Je vais\nt'aider, alors\nsuis-moi ![pause]",
 ]

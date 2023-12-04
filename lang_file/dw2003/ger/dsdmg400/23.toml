@@ -1,5 +1,5 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Hey GrapLeomon.\nTu mir einen\nGefallen.[pause]\\x02\\x03Kann ich die Kumamon-\nDDNA aus deiner\nDDNA haben?[pause]",
-	"\\x02\\x07GrapLeomon\\x02\\x07Ha ha ha ha!\nWie lustig du\nbist![pause]\\x02\\x03W. du mich besiegst,\nkannst du sie haben.[pause]",
+	"[name][player_name][name]Hey GrapLeomon.\nTu mir einen\nGefallen.[pause][clear]Kann ich die Kumamon-\nDDNA aus deiner\nDDNA haben?[pause]",
+	"[name]GrapLeomon[name]Ha ha ha ha!\nWie lustig du\nbist![pause][clear]W. du mich besiegst,\nkannst du sie haben.[pause]",
 ]

@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07Etemon\\x02\\x07How unlucky!\nI lost![pause]\\x02\\x03Well I just need \nto change some \ncards in my folder![pause]",
+	"[name]Etemon[name]How unlucky!\nI lost![pause][clear]Well I just need \nto change some \ncards in my folder![pause]",
 ]

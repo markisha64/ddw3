@@ -1,4 +1,4 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023OK, it's that room \nover there![pause]",
+	"[name][player_name][name]OK, it's that room \nover there![pause]",
 ]

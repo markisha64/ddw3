@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Mr. Smith\\x02\\x07Das ist eure Chance![pause]\\x02\\x03Es geht um's Hauptitem![pause]\\x02\\x03Der Wildnisanzug.\nVon allen bewundert![pause]\\x02\\x03Das Mindestgebot für\nden Kumamon-Anzug\nliegt bei 23000 BIT![pause]",
-	"\\x02\\x07Händler Abel\\x02\\x0723500 BIT![pause]",
-	"\\x02\\x07Chief Milly\\x02\\x0723800 BIT[pause]",
-	"\\x02\\x07RPG-Fan Mas.\\x02\\x0723900 BIT![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Hm. 24000 BIT\n...hmmm...[pause]",
+	"[name]Mr. Smith[name]Das ist eure Chance![pause][clear]Es geht um's Hauptitem![pause][clear]Der Wildnisanzug.\nVon allen bewundert![pause][clear]Das Mindestgebot für\nden Kumamon-Anzug\nliegt bei 23000 BIT![pause]",
+	"[name]Händler Abel[name]23500 BIT![pause]",
+	"[name]Chief Milly[name]23800 BIT[pause]",
+	"[name]RPG-Fan Mas.[name]23900 BIT![pause]",
+	"[name][player_name][name]Hm. 24000 BIT\n...hmmm...[pause]",
 ]

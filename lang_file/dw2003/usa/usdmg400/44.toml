@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Trooper\\x02\\x07...is that the Blue \nID Pass?![pause]\\x02\\x03I-I'm sorry. I \ndidn't know you were \nQing Long Chief![pause]",
-	"\\x02\\x07\\x02\\x09\\x023...what?!\nUh, ah, yeah![pause]\\x02\\x03That uniform is too\nobvious. I'm in disguise \nand on patrol![pause]\\x02\\x03Let's keep this a secret \nbetween the two of us, \nOK?[pause]",
-	"\\x02\\x07Trooper \\x02\\x07You're great, \nChief! You're a \nhard worker![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Phew, that was\nclose...[pause]\\x02\\x03But now I can\ngo into Zhu Que\nCity.[pause]",
-	"\\x02\\x07Trooper\\x02\\x07Oh, please go\nahead![pause]",
+	"[name]Trooper[name]...is that the Blue \nID Pass?![pause][clear]I-I'm sorry. I \ndidn't know you were \nQing Long Chief![pause]",
+	"[name][player_name][name]...what?!\nUh, ah, yeah![pause][clear]That uniform is too\nobvious. I'm in disguise \nand on patrol![pause][clear]Let's keep this a secret \nbetween the two of us, \nOK?[pause]",
+	"[name]Trooper [name]You're great, \nChief! You're a \nhard worker![pause]",
+	"[name][player_name][name]Phew, that was\nclose...[pause][clear]But now I can\ngo into Zhu Que\nCity.[pause]",
+	"[name]Trooper[name]Oh, please go\nahead![pause]",
 ]

@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"\\x02\\x07Líder Byakko\\x02\\x07Hola, desafiador.\nLuchemos.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023Ah, espera\nun momento.[pause]\\x02\\x03Primero \ntengo una\npregunta.[pause]",
-	"\\x02\\x07Líder Byakko\\x02\\x07¡Primero luchemos![pause]\\x02\\x03Si ganas, te diré\ntodo lo que sé.[pause]",
-	"\\x02\\x07\\x02\\x09\\x023¡Vale, no voy \na perder de\nninguna manera![pause]",
+	"[name]Líder Byakko[name]Hola, desafiador.\nLuchemos.[pause]",
+	"[name][player_name][name]Ah, espera\nun momento.[pause][clear]Primero \ntengo una\npregunta.[pause]",
+	"[name]Líder Byakko[name]¡Primero luchemos![pause][clear]Si ganas, te diré\ntodo lo que sé.[pause]",
+	"[name][player_name][name]¡Vale, no voy \na perder de\nninguna manera![pause]",
 ]

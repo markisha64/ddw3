@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07Qing Long Chief\\x02\\x07Comrade! Let me\nwelcome you![pause]",
-	"\\x02\\x07\\x02\\x09\\x023Qing Long Chief, \nwhere is the Digi-\nEgg of Knowledge?[pause]",
-	"\\x02\\x07Qing Long Chief\\x02\\x07I don't know that either,\nbut why are you asking?[pause]\\x02\\x03You are not one of us![pause]",
-	"\\x02\\x07\\x02\\x09\\x023And if I'm not,\nwhat are you\ngoing to do?[pause]",
-	"\\x02\\x07Qing Long Chief\\x02\\x07I'll capture \nyou like the \nothers![pause]",
+	"[name]Qing Long Chief[name]Comrade! Let me\nwelcome you![pause]",
+	"[name][player_name][name]Qing Long Chief, \nwhere is the Digi-\nEgg of Knowledge?[pause]",
+	"[name]Qing Long Chief[name]I don't know that either,\nbut why are you asking?[pause][clear]You are not one of us![pause]",
+	"[name][player_name][name]And if I'm not,\nwhat are you\ngoing to do?[pause]",
+	"[name]Qing Long Chief[name]I'll capture \nyou like the \nothers![pause]",
 ]

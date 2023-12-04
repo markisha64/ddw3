@@ -1,8 +1,8 @@
 strings = [
 	"",
-	"\\x02\\x07\\x02\\x09\\x023Häh?\nKeiner\nda...[pause]",
-	"Ich bin Lord Megadeath, der\nZerstörer der echten und\nder digitalen Welt.[pause]\\x02\\x03Und ich werde der Gott in\nder neuen Welt sein, wenn\nalles zerstört wurde...[pause]\\x02\\x03Jetzt komm zu mir, \nstärkster Tamer...[pause]\\x02\\x03Ich warte auf dich\nbeim Militärsatelliten\nGunslinger![pause]",
-	"\\x02\\x07\\x02\\x09\\x023...was?!\nGunslinger?![pause]",
+	"[name][player_name][name]Häh?\nKeiner\nda...[pause]",
+	"Ich bin Lord Megadeath, der\nZerstörer der echten und\nder digitalen Welt.[pause][clear]Und ich werde der Gott in\nder neuen Welt sein, wenn\nalles zerstört wurde...[pause][clear]Jetzt komm zu mir, \nstärkster Tamer...[pause][clear]Ich warte auf dich\nbeim Militärsatelliten\nGunslinger![pause]",
+	"[name][player_name][name]...was?!\nGunslinger?![pause]",
 	"Ich zeige dir die präch-\ntige, ruhmreiche Gestalt,\ndie im All schwebt...[pause]",
-	"\\x02\\x07\\x02\\x09\\x023...wawas?![pause]",
+	"[name][player_name][name]...wawas?![pause]",
 ]

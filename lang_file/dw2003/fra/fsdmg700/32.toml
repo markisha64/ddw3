@@ -1,7 +1,7 @@
 strings = [
 	"",
-	"...Communiqué. Le réseau\noptique est tombé en panne.[pause]\\x02\\x03La SAP pense qu'il s'agit d'un\nacte de cyberterrorisme.\nUne enquête a été ouverte.[pause]\\x02\\x03Une interruption prolongée\npourrait avoir de nombreuses\nconséquences...[pause]",
-	"\\x02\\x07Seiya l'Informaticien\\x02\\x07Quoi ?!\nDigimon Online\naussi ![pause]\\x02\\x03J'allais me\nconnecter ! Mais\ns'il y a une panne...[pause]",
-	"\\x02\\x07Hideki le Scientifique\\x02\\x07Une panne de réseau\nest un gros problème\npour Digimon Online.[pause]\\x02\\x03Le système Matrix\nn'a plus accès aux\nserveurs, c'est ça ?[pause]\\x02\\x03Cela signifie que\nvous ne pouvez\npas revenir ?[pause]",
-	"\\x02\\x07Kouta le Technicien\\x02\\x07... mais je me\ndemande qui est\nderrière ça.[pause]\\x02\\x03Je croyais qu'ils\navaient arrêté les\nchefs de l'AoA.[pause]",
+	"...Communiqué. Le réseau\noptique est tombé en panne.[pause][clear]La SAP pense qu'il s'agit d'un\nacte de cyberterrorisme.\nUne enquête a été ouverte.[pause][clear]Une interruption prolongée\npourrait avoir de nombreuses\nconséquences...[pause]",
+	"[name]Seiya l'Informaticien[name]Quoi ?!\nDigimon Online\naussi ![pause][clear]J'allais me\nconnecter ! Mais\ns'il y a une panne...[pause]",
+	"[name]Hideki le Scientifique[name]Une panne de réseau\nest un gros problème\npour Digimon Online.[pause][clear]Le système Matrix\nn'a plus accès aux\nserveurs, c'est ça ?[pause][clear]Cela signifie que\nvous ne pouvez\npas revenir ?[pause]",
+	"[name]Kouta le Technicien[name]... mais je me\ndemande qui est\nderrière ça.[pause][clear]Je croyais qu'ils\navaient arrêté les\nchefs de l'AoA.[pause]",
 ]
