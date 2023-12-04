@@ -1,2 +1,6 @@
 # Build directory
 build/
+
+# Logs
+*.log
+logs/
