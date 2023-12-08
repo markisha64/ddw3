@@ -169,6 +169,7 @@ rules:
     exec:
       - - $(python3)
         - $(format_all)
+      - [$(touch), $(format_ok)]
 
   # Format dependencies
   format-deps:
