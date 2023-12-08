@@ -1,0 +1,10 @@
+# TODO: Remove this from here.
+#       We have a `.gitignore` with `*` inside `build.bak`
+#       and `resources`, but prettier seems to ignore those and
+#       only cares about any top-level `.gitignore` and `.pretiterignore`.
+build.bak/
+resources/
+tools/target/
+tools/__pycache__
+rust/target/
+remake-rust/target/

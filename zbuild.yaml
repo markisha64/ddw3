@@ -1,4 +1,6 @@
 ---
+# TODO: When running a python script, get all the dependencies, since we do a few imports around.
+
 alias:
   # External tools
   # prettier-ignore
@@ -21,11 +23,13 @@ alias:
   # Other tools
   generate_psx_iso_deps   : tools/generate_psx_iso_deps.py
   generate_compare_deps   : tools/generate_compare_deps.py
+  generate_format_deps    : tools/generate_format_deps.py
   mkraw_exe_from_toml     : tools/mkraw_exe_from_toml.py
   mkraw_exe_from_toml_deps: tools/mkraw_exe_from_toml_deps.py
   ld_from_toml            : tools/ld_from_toml.py
   ld_from_toml_deps       : tools/ld_from_toml_deps.py
   process_path            : tools/process_path.py
+  format_all              : tools/format_all.py
 
   # Cargo tools
   mkpsexe        : $(build_rust_tool_dir)/mkpsexe
@@ -71,6 +75,10 @@ alias:
   compare_checksums: checksums.sha256
   compare_ok       : $(build_dir)/compare.ok
   compare_deps     : $(build_dir)/compare.d
+
+  # Format
+  format_ok  : $(build_dir)/format.ok
+  format_deps: $(build_dir)/format.d
 
   # Rust tool
   rust_tool     : $(build_rust_tool_dir)/^(name::non_empty)
@@ -154,10 +162,36 @@ default:
   - $(dw2003_remake_psx_iso)
 
 rules:
+  # Format
+  format:
+    out: [$(format_ok)]
+    deps: [$(format_all), deps_file: $(format_deps)]
+    exec:
+      - - $(python3)
+        - $(format_all)
+
+  # Format dependencies
+  format-deps:
+    out: [$(format_deps)]
+    deps:
+      - $(format_all) # Note: `generate_format_deps` depends on this
+      - $(generate_format_deps)
+      - static: $(format_deps::dir_name)/
+    exec:
+      - - $(python3)
+        - $(generate_format_deps)
+        - --format-output
+        - $(format_ok)
+        - --deps-file
+        - $(format_deps)
+
   # Compare
   compare:
     out: [$(compare_ok)]
-    deps: [$(compare_checksums), deps_file: $(compare_deps)]
+    deps:
+      - $(compare_checksums)
+      - deps_file: $(compare_deps)
+      - static: $(compare_ok::dir_name)/
     exec:
       - [$(sha256sum), --check, --quiet, $(compare_checksums)]
       - [$(touch), $(compare_ok)]
