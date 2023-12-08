@@ -1,5 +1,5 @@
 entries = [
-    "stwmp1cs/0.bin",
-    "stwmp1cs/1.bin",
-    "stwmp1cs/2.bin",
+	"/build/pack/dw2003/screen/stwmp1cs/0.bin",
+	"/build/pack/dw2003/screen/stwmp1cs/1.bin",
+	"/build/pack/dw2003/screen/stwmp1cs/2.bin",
 ]
