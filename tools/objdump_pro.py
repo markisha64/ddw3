@@ -243,7 +243,7 @@ def main(args):
 
 	# Then the raw exe toml
 	toml.dump(
-		{ "elf": f"/build/elf/dw2003/pro/{name}.elf" },
+		{"elf": f"/build/elf/dw2003/pro/{name}.elf"},
 		open(args.output_raw_exe_toml, "w", encoding="utf-8")
 	)
 
@@ -256,6 +256,7 @@ def main(args):
 		},
 		open(args.output_elf_toml, "w", encoding="utf-8")
 	)
+
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
