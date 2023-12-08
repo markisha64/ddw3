@@ -1,4 +1,4 @@
-//! `SPRT` extractor
+//! `PACK` extractor
 
 // Features
 #![feature(array_chunks, array_windows, seek_stream_len)]

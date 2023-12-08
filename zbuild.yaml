@@ -26,13 +26,13 @@ alias:
   ld_from_toml            : tools/ld_from_toml.py
   ld_from_toml_deps       : tools/ld_from_toml_deps.py
   process_path            : tools/process_path.py
-  mkpack_deps             : tools/mkpack_deps.py
 
   # Cargo tools
   mkpsexe        : $(build_rust_tool_dir)/mkpsexe
   mkpsexe_deps   : $(build_rust_tool_dir)/mkpsexe-deps
   mklang_file    : $(build_rust_tool_dir)/mklang-file
   mkpack         : $(build_rust_tool_dir)/mkpack
+  mkpack_deps    : $(build_rust_tool_dir)/mkpack-deps
   mktim          : $(build_rust_tool_dir)/mktim
   mkmap          : $(build_rust_tool_dir)/mkmap
   mkmap_deps     : $(build_rust_tool_dir)/mkmap-deps
@@ -364,13 +364,10 @@ rules:
       - $(mkpack_deps)
       - static: $(pack_deps::dir_name)/
     exec:
-      - - $(python3)
-        - $(mkpack_deps)
+      - - $(mkpack_deps)
         - $(pack_toml)
-        - -o
-        - $(pack)
-        - --deps
-        - $(pack_deps)
+        - --output=$(pack)
+        - --output-deps=$(pack_deps)
 
   # Map
   map:
