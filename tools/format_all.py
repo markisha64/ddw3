@@ -15,10 +15,10 @@ def get_dependencies() -> Iterator[str]:
 	exts = [".toml", ".yaml", ".json", ".py"]
 	deps = subprocess.check_output([
 		"git",
-		"ls-tree",
-		"-r",
-		"--name-only",
-		"HEAD"
+		"ls-files",
+		"--cached",
+		"--others",
+		"--exclude-standard"
 	])
 	deps = deps.decode("utf-8")
 	deps = map(str.strip, deps.split("\n"))
