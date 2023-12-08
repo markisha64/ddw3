@@ -1,4 +1,1 @@
-entries = [
-    "9/0.bin",
-    "9/1.bin",
-]
+entries = ["9/0.bin", "9/1.bin"]

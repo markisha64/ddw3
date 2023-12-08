@@ -1,4 +1,1 @@
-strings = [
-	"",
-	"[name]Guardromon[name]PREPARE-TOI\nA SAUVEGARDER[pause]",
-]
+strings = ["", "[name]Guardromon[name]PREPARE-TOI\nA SAUVEGARDER[pause]"]

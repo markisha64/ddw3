@@ -1,4 +1,1 @@
-strings = [
-	"",
-	"[name][player_name][name]Ehi, Numemon\nè molto\nveloce![pause]",
-]
+strings = ["", "[name][player_name][name]Ehi, Numemon\nè molto\nveloce![pause]"]

@@ -1,4 +1,1 @@
-strings = [
-	"",
-	"[name]Guardromon[name]Ora accedo\nall'Unità Matrice.[pause]",
-]
+strings = ["", "[name]Guardromon[name]Ora accedo\nall'Unità Matrice.[pause]"]
