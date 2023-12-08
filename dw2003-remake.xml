@@ -2024,29 +2024,29 @@
 					</dir>
 
 					<dir name="SCREEN">
-						<file name="CMNBGDCS.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/CMNBGDCS.BIN" />
-						<file name="CMNBGDTM.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/CMNBGDTM.BIN" />
-						<file name="END__ALL.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/END__ALL.BIN" />
-						<file name="NAMEDTCS.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/NAMEDTCS.BIN" />
-						<file name="NAMEDTTM.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/NAMEDTTM.BIN" />
-						<file name="STALBMCS.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/STALBMCS.BIN" />
-						<file name="STALBMTM.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/STALBMTM.BIN" />
-						<file name="STCDSPCS.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/STCDSPCS.BIN" />
-						<file name="STCDSPTM.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/STCDSPTM.BIN" />
-						<file name="STFRPTCS.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/STFRPTCS.BIN" />
-						<file name="STFRPTTM.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/STFRPTTM.BIN" />
-						<file name="STSHOPCS.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/STSHOPCS.BIN" />
-						<file name="STSHOPTM.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/STSHOPTM.BIN" />
-						<file name="STSTATCS.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/STSTATCS.BIN" />
-						<file name="STSTATTM.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/STSTATTM.BIN" />
-						<file name="STWMP0CS.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/STWMP0CS.BIN" />
-						<file name="STWMP0TM.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/STWMP0TM.BIN" />
-						<file name="STWMP1CS.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/STWMP1CS.BIN" />
-						<file name="STWMP1TM.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/STWMP1TM.BIN" />
-						<file name="TLOGOJPN.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/TLOGOJPN.BIN" />
-						<file name="TLOGOPAL.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/TLOGOPAL.BIN" />
-						<file name="TLOGOUSA.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/TLOGOUSA.BIN" />
-						<file name="TTCOMMPK.BIN" type="data" source="dw2003/AAA/DAT/SCREEN/TTCOMMPK.BIN" />
+						<file name="CMNBGDCS.BIN" type="data" source="build/pack/dw2003/screen/cmnbgdcs.bin" />
+						<file name="CMNBGDTM.BIN" type="data" source="build/pack/dw2003/screen/cmnbgdtm.bin" />
+						<file name="END__ALL.BIN" type="data" source="build/pack/dw2003/screen/end__all.bin" />
+						<file name="NAMEDTCS.BIN" type="data" source="build/pack/dw2003/screen/namedtcs.bin" />
+						<file name="NAMEDTTM.BIN" type="data" source="build/pack/dw2003/screen/namedttm.bin" />
+						<file name="STALBMCS.BIN" type="data" source="build/pack/dw2003/screen/stalbmcs.bin" />
+						<file name="STALBMTM.BIN" type="data" source="build/pack/dw2003/screen/stalbmtm.bin" />
+						<file name="STCDSPCS.BIN" type="data" source="build/pack/dw2003/screen/stcdspcs.bin" />
+						<file name="STCDSPTM.BIN" type="data" source="build/pack/dw2003/screen/stcdsptm.bin" />
+						<file name="STFRPTCS.BIN" type="data" source="build/pack/dw2003/screen/stfrptcs.bin" />
+						<file name="STFRPTTM.BIN" type="data" source="build/pack/dw2003/screen/stfrpttm.bin" />
+						<file name="STSHOPCS.BIN" type="data" source="build/pack/dw2003/screen/stshopcs.bin" />
+						<file name="STSHOPTM.BIN" type="data" source="build/pack/dw2003/screen/stshoptm.bin" />
+						<file name="STSTATCS.BIN" type="data" source="build/pack/dw2003/screen/ststatcs.bin" />
+						<file name="STSTATTM.BIN" type="data" source="build/pack/dw2003/screen/ststattm.bin" />
+						<file name="STWMP0CS.BIN" type="data" source="build/pack/dw2003/screen/stwmp0cs.bin" />
+						<file name="STWMP0TM.BIN" type="data" source="build/pack/dw2003/screen/stwmp0tm.bin" />
+						<file name="STWMP1CS.BIN" type="data" source="build/pack/dw2003/screen/stwmp1cs.bin" />
+						<file name="STWMP1TM.BIN" type="data" source="build/pack/dw2003/screen/stwmp1tm.bin" />
+						<file name="TLOGOJPN.BIN" type="data" source="build/pack/dw2003/screen/tlogojpn.bin" />
+						<file name="TLOGOPAL.BIN" type="data" source="build/pack/dw2003/screen/tlogopal.bin" />
+						<file name="TLOGOUSA.BIN" type="data" source="build/pack/dw2003/screen/tlogousa.bin" />
+						<file name="TTCOMMPK.BIN" type="data" source="build/pack/dw2003/screen/ttcommpk.bin" />
 					</dir>
 
 					<dir name="SOUND">
