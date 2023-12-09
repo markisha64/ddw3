@@ -1,0 +1,30 @@
+width = 5
+height = 5
+entries = [
+	"/build/rlen/dw2003/z_stage/s431pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/3.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/4.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/5.bin",
+	"/build/map-tile/dw2003/z_stage/s431pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/8.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/9.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/10.bin",
+	"/build/map-tile/dw2003/z_stage/s431pack/11.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/12.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/13.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/14.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/15.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/16.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/17.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/18.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/19.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/20.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/21.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/22.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/23.bin",
+	"/build/rlen/dw2003/z_stage/s431pack/24.bin",
+]
+extra_padding = 18432

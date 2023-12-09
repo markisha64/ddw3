@@ -1,0 +1,33 @@
+img = "/build/tim/dw2003/z_stage/s355pack/8.tim"
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [21, 0]
+img_offset = [0, 0]
+size = [108, 57]
+
+[[layers.objs]]
+world_offset = [126, 60]
+img_offset = [0, 57]
+size = [2, 2]
+
+[[layers.objs]]
+world_offset = [123, 64]
+img_offset = [0, 59]
+size = [6, 3]
+
+[[layers.objs]]
+world_offset = [43, 89]
+img_offset = [0, 62]
+size = [86, 39]
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 0]
+img_offset = [108, 0]
+size = [128, 128]
+
+[[layers]]
+objs = []

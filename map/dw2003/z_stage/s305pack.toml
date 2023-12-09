@@ -1,0 +1,26 @@
+width = 5
+height = 4
+entries = [
+	"/map-tile/empty.bin",
+	"/build/rlen/dw2003/z_stage/s305pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s305pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s305pack/3.bin",
+	"/build/rlen/dw2003/z_stage/s305pack/4.bin",
+	"/build/rlen/dw2003/z_stage/s305pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s305pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s305pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s305pack/8.bin",
+	"/build/rlen/dw2003/z_stage/s305pack/9.bin",
+	"/build/rlen/dw2003/z_stage/s305pack/10.bin",
+	"/build/rlen/dw2003/z_stage/s305pack/11.bin",
+	"/build/rlen/dw2003/z_stage/s305pack/12.bin",
+	"/build/rlen/dw2003/z_stage/s305pack/13.bin",
+	"/build/rlen/dw2003/z_stage/s305pack/14.bin",
+	"/build/rlen/dw2003/z_stage/s305pack/15.bin",
+	"/build/rlen/dw2003/z_stage/s305pack/16.bin",
+	"/build/rlen/dw2003/z_stage/s305pack/17.bin",
+	"/map-tile/empty.bin",
+	"/map-tile/empty.bin",
+]
+override_entries_len = 17
+extra_padding = 16384

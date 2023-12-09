@@ -1,0 +1,14 @@
+width = 3
+height = 3
+entries = [
+	"/build/rlen/dw2003/z_stage/s241pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s241pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s241pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s241pack/3.bin",
+	"/build/rlen/dw2003/z_stage/s241pack/4.bin",
+	"/build/rlen/dw2003/z_stage/s241pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s241pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s241pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s241pack/8.bin",
+]
+extra_padding = 14336

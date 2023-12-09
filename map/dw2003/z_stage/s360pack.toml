@@ -1,0 +1,26 @@
+width = 5
+height = 4
+entries = [
+	"/build/rlen/dw2003/z_stage/s360pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s360pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s360pack/2.bin",
+	"/build/map-tile/dw2003/z_stage/s360pack/3.bin",
+	"/map-tile/empty.bin",
+	"/build/rlen/dw2003/z_stage/s360pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s360pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s360pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s360pack/8.bin",
+	"/build/rlen/dw2003/z_stage/s360pack/9.bin",
+	"/map-tile/empty.bin",
+	"/build/rlen/dw2003/z_stage/s360pack/11.bin",
+	"/build/rlen/dw2003/z_stage/s360pack/12.bin",
+	"/build/rlen/dw2003/z_stage/s360pack/13.bin",
+	"/build/rlen/dw2003/z_stage/s360pack/14.bin",
+	"/map-tile/empty.bin",
+	"/build/rlen/dw2003/z_stage/s360pack/16.bin",
+	"/build/rlen/dw2003/z_stage/s360pack/17.bin",
+	"/build/rlen/dw2003/z_stage/s360pack/18.bin",
+	"/map-tile/empty.bin",
+]
+override_entries_len = 16
+extra_padding = 20480

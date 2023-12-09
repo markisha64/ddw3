@@ -1,0 +1,21 @@
+width = 5
+height = 3
+entries = [
+	"/build/rlen/dw2003/z_stage/s295pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s295pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s295pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s295pack/3.bin",
+	"/map-tile/empty.bin",
+	"/build/rlen/dw2003/z_stage/s295pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s295pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s295pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s295pack/8.bin",
+	"/build/rlen/dw2003/z_stage/s295pack/9.bin",
+	"/build/rlen/dw2003/z_stage/s295pack/10.bin",
+	"/build/rlen/dw2003/z_stage/s295pack/11.bin",
+	"/build/rlen/dw2003/z_stage/s295pack/12.bin",
+	"/build/rlen/dw2003/z_stage/s295pack/13.bin",
+	"/build/rlen/dw2003/z_stage/s295pack/14.bin",
+]
+override_entries_len = 14
+extra_padding = 6144

@@ -1,0 +1,22 @@
+width = 4
+height = 4
+entries = [
+	"/build/rlen/dw2003/z_stage/s261pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s261pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s261pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s261pack/3.bin",
+	"/build/rlen/dw2003/z_stage/s261pack/4.bin",
+	"/build/rlen/dw2003/z_stage/s261pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s261pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s261pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s261pack/8.bin",
+	"/build/rlen/dw2003/z_stage/s261pack/9.bin",
+	"/build/rlen/dw2003/z_stage/s261pack/10.bin",
+	"/build/rlen/dw2003/z_stage/s261pack/11.bin",
+	"/map-tile/empty.bin",
+	"/build/rlen/dw2003/z_stage/s261pack/13.bin",
+	"/build/rlen/dw2003/z_stage/s261pack/14.bin",
+	"/map-tile/empty.bin",
+]
+override_entries_len = 14
+extra_padding = 18432

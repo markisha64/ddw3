@@ -1,0 +1,26 @@
+width = 5
+height = 4
+entries = [
+	"/build/rlen/dw2003/z_stage/s586pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s586pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s586pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s586pack/3.bin",
+	"/map-tile/empty.bin",
+	"/build/map-tile/dw2003/z_stage/s586pack/5.bin",
+	"/build/map-tile/dw2003/z_stage/s586pack/6.bin",
+	"/build/map-tile/dw2003/z_stage/s586pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s586pack/8.bin",
+	"/build/map-tile/dw2003/z_stage/s586pack/9.bin",
+	"/build/map-tile/dw2003/z_stage/s586pack/10.bin",
+	"/build/rlen/dw2003/z_stage/s586pack/11.bin",
+	"/build/map-tile/dw2003/z_stage/s586pack/12.bin",
+	"/build/rlen/dw2003/z_stage/s586pack/13.bin",
+	"/build/rlen/dw2003/z_stage/s586pack/14.bin",
+	"/build/rlen/dw2003/z_stage/s586pack/15.bin",
+	"/build/rlen/dw2003/z_stage/s586pack/16.bin",
+	"/build/rlen/dw2003/z_stage/s586pack/17.bin",
+	"/build/rlen/dw2003/z_stage/s586pack/18.bin",
+	"/map-tile/empty.bin",
+]
+override_entries_len = 18
+extra_padding = 18432

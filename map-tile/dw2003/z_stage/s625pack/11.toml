@@ -1,0 +1,19 @@
+img = "/build/tim/dw2003/z_stage/s625pack/11.tim"
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 0]
+img_offset = [0, 0]
+size = [22, 13]
+
+[[layers.objs]]
+world_offset = [0, 15]
+img_offset = [0, 13]
+size = [82, 113]
+
+[[layers]]
+objs = []
+
+[[layers]]
+objs = []

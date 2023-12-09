@@ -1,0 +1,21 @@
+width = 4
+height = 4
+entries = [
+	"/build/rlen/dw2003/z_stage/s221pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s221pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s221pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s221pack/3.bin",
+	"/build/rlen/dw2003/z_stage/s221pack/4.bin",
+	"/build/rlen/dw2003/z_stage/s221pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s221pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s221pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s221pack/8.bin",
+	"/build/rlen/dw2003/z_stage/s221pack/9.bin",
+	"/build/rlen/dw2003/z_stage/s221pack/10.bin",
+	"/build/rlen/dw2003/z_stage/s221pack/11.bin",
+	"/build/rlen/dw2003/z_stage/s221pack/12.bin",
+	"/build/rlen/dw2003/z_stage/s221pack/13.bin",
+	"/build/rlen/dw2003/z_stage/s221pack/14.bin",
+	"/build/rlen/dw2003/z_stage/s221pack/15.bin",
+]
+extra_padding = 16384

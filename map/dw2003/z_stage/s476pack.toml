@@ -1,0 +1,15 @@
+width = 3
+height = 3
+entries = [
+	"/build/rlen/dw2003/z_stage/s476pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s476pack/1.bin",
+	"/map-tile/empty.bin",
+	"/build/rlen/dw2003/z_stage/s476pack/3.bin",
+	"/build/rlen/dw2003/z_stage/s476pack/4.bin",
+	"/build/rlen/dw2003/z_stage/s476pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s476pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s476pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s476pack/8.bin",
+]
+override_entries_len = 8
+extra_padding = 12288

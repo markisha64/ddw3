@@ -1,0 +1,21 @@
+width = 4
+height = 4
+entries = [
+	"/build/rlen/dw2003/z_stage/s220pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s220pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s220pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s220pack/3.bin",
+	"/build/rlen/dw2003/z_stage/s220pack/4.bin",
+	"/build/rlen/dw2003/z_stage/s220pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s220pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s220pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s220pack/8.bin",
+	"/build/rlen/dw2003/z_stage/s220pack/9.bin",
+	"/build/rlen/dw2003/z_stage/s220pack/10.bin",
+	"/build/rlen/dw2003/z_stage/s220pack/11.bin",
+	"/build/rlen/dw2003/z_stage/s220pack/12.bin",
+	"/build/rlen/dw2003/z_stage/s220pack/13.bin",
+	"/build/rlen/dw2003/z_stage/s220pack/14.bin",
+	"/build/rlen/dw2003/z_stage/s220pack/15.bin",
+]
+extra_padding = 16384

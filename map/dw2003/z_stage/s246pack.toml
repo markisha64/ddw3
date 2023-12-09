@@ -1,0 +1,25 @@
+width = 5
+height = 4
+entries = [
+	"/build/rlen/dw2003/z_stage/s246pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s246pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s246pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s246pack/3.bin",
+	"/build/rlen/dw2003/z_stage/s246pack/4.bin",
+	"/build/rlen/dw2003/z_stage/s246pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s246pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s246pack/7.bin",
+	"/build/map-tile/dw2003/z_stage/s246pack/8.bin",
+	"/build/rlen/dw2003/z_stage/s246pack/9.bin",
+	"/build/rlen/dw2003/z_stage/s246pack/10.bin",
+	"/build/rlen/dw2003/z_stage/s246pack/11.bin",
+	"/build/rlen/dw2003/z_stage/s246pack/12.bin",
+	"/build/map-tile/dw2003/z_stage/s246pack/13.bin",
+	"/build/rlen/dw2003/z_stage/s246pack/14.bin",
+	"/build/rlen/dw2003/z_stage/s246pack/15.bin",
+	"/build/rlen/dw2003/z_stage/s246pack/16.bin",
+	"/build/rlen/dw2003/z_stage/s246pack/17.bin",
+	"/build/rlen/dw2003/z_stage/s246pack/18.bin",
+	"/build/rlen/dw2003/z_stage/s246pack/19.bin",
+]
+extra_padding = 16384

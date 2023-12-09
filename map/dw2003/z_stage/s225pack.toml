@@ -1,0 +1,21 @@
+width = 4
+height = 4
+entries = [
+	"/build/rlen/dw2003/z_stage/s225pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s225pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s225pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s225pack/3.bin",
+	"/build/rlen/dw2003/z_stage/s225pack/4.bin",
+	"/build/rlen/dw2003/z_stage/s225pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s225pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s225pack/7.bin",
+	"/build/map-tile/dw2003/z_stage/s225pack/8.bin",
+	"/build/map-tile/dw2003/z_stage/s225pack/9.bin",
+	"/build/map-tile/dw2003/z_stage/s225pack/10.bin",
+	"/build/map-tile/dw2003/z_stage/s225pack/11.bin",
+	"/build/rlen/dw2003/z_stage/s225pack/12.bin",
+	"/build/map-tile/dw2003/z_stage/s225pack/13.bin",
+	"/build/map-tile/dw2003/z_stage/s225pack/14.bin",
+	"/build/map-tile/dw2003/z_stage/s225pack/15.bin",
+]
+extra_padding = 2048

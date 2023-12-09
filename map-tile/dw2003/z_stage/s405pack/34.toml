@@ -1,0 +1,28 @@
+img = "/build/tim/dw2003/z_stage/s405pack/34.tim"
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 0]
+img_offset = [0, 0]
+size = [128, 128]
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 24]
+img_offset = [128, 0]
+size = [12, 5]
+
+[[layers.objs]]
+world_offset = [0, 59]
+img_offset = [128, 5]
+size = [52, 32]
+
+[[layers.objs]]
+world_offset = [35, 99]
+img_offset = [128, 37]
+size = [88, 29]
+
+[[layers]]
+objs = []

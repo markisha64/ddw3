@@ -1,0 +1,14 @@
+img = "/build/tim/dw2003/z_stage/s238pack/1.tim"
+
+[[layers]]
+objs = []
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 21]
+img_offset = [0, 0]
+size = [128, 107]
+
+[[layers]]
+objs = []

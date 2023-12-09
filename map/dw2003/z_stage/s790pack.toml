@@ -1,0 +1,25 @@
+width = 5
+height = 4
+entries = [
+	"/build/rlen/dw2003/z_stage/s790pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s790pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s790pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s790pack/3.bin",
+	"/build/rlen/dw2003/z_stage/s790pack/4.bin",
+	"/build/rlen/dw2003/z_stage/s790pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s790pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s790pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s790pack/8.bin",
+	"/build/rlen/dw2003/z_stage/s790pack/9.bin",
+	"/build/rlen/dw2003/z_stage/s790pack/10.bin",
+	"/build/rlen/dw2003/z_stage/s790pack/11.bin",
+	"/build/rlen/dw2003/z_stage/s790pack/12.bin",
+	"/build/rlen/dw2003/z_stage/s790pack/13.bin",
+	"/build/rlen/dw2003/z_stage/s790pack/14.bin",
+	"/build/rlen/dw2003/z_stage/s790pack/15.bin",
+	"/build/rlen/dw2003/z_stage/s790pack/16.bin",
+	"/build/rlen/dw2003/z_stage/s790pack/17.bin",
+	"/build/map-tile/dw2003/z_stage/s790pack/18.bin",
+	"/build/map-tile/dw2003/z_stage/s790pack/19.bin",
+]
+extra_padding = 2048

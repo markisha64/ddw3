@@ -1,0 +1,15 @@
+width = 3
+height = 3
+entries = [
+	"/build/rlen/dw2003/z_stage/s236pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s236pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s236pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s236pack/3.bin",
+	"/build/rlen/dw2003/z_stage/s236pack/4.bin",
+	"/build/rlen/dw2003/z_stage/s236pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s236pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s236pack/7.bin",
+	"/map-tile/empty.bin",
+]
+override_entries_len = 8
+extra_padding = 16384

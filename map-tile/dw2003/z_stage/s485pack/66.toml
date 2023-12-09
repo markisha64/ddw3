@@ -1,0 +1,22 @@
+img = "/build/tim/dw2003/z_stage/s485pack/66.tim"
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 0]
+img_offset = [0, 0]
+size = [128, 128]
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [37, 0]
+img_offset = [128, 0]
+size = [40, 21]
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [62, 13]
+img_offset = [128, 21]
+size = [40, 21]

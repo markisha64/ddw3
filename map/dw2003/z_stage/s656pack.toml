@@ -1,0 +1,25 @@
+width = 5
+height = 4
+entries = [
+	"/build/rlen/dw2003/z_stage/s656pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s656pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s656pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s656pack/3.bin",
+	"/build/rlen/dw2003/z_stage/s656pack/4.bin",
+	"/build/rlen/dw2003/z_stage/s656pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s656pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s656pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s656pack/8.bin",
+	"/build/rlen/dw2003/z_stage/s656pack/9.bin",
+	"/build/rlen/dw2003/z_stage/s656pack/10.bin",
+	"/build/rlen/dw2003/z_stage/s656pack/11.bin",
+	"/build/rlen/dw2003/z_stage/s656pack/12.bin",
+	"/build/rlen/dw2003/z_stage/s656pack/13.bin",
+	"/build/rlen/dw2003/z_stage/s656pack/14.bin",
+	"/build/rlen/dw2003/z_stage/s656pack/15.bin",
+	"/build/rlen/dw2003/z_stage/s656pack/16.bin",
+	"/build/rlen/dw2003/z_stage/s656pack/17.bin",
+	"/build/rlen/dw2003/z_stage/s656pack/18.bin",
+	"/build/rlen/dw2003/z_stage/s656pack/19.bin",
+]
+extra_padding = 4096

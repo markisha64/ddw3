@@ -1,0 +1,25 @@
+width = 5
+height = 4
+entries = [
+	"/build/rlen/dw2003/z_stage/s233pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s233pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s233pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s233pack/3.bin",
+	"/build/rlen/dw2003/z_stage/s233pack/4.bin",
+	"/build/rlen/dw2003/z_stage/s233pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s233pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s233pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s233pack/8.bin",
+	"/build/rlen/dw2003/z_stage/s233pack/9.bin",
+	"/build/rlen/dw2003/z_stage/s233pack/10.bin",
+	"/build/rlen/dw2003/z_stage/s233pack/11.bin",
+	"/build/rlen/dw2003/z_stage/s233pack/12.bin",
+	"/build/rlen/dw2003/z_stage/s233pack/13.bin",
+	"/build/rlen/dw2003/z_stage/s233pack/14.bin",
+	"/build/rlen/dw2003/z_stage/s233pack/15.bin",
+	"/build/rlen/dw2003/z_stage/s233pack/16.bin",
+	"/build/rlen/dw2003/z_stage/s233pack/17.bin",
+	"/build/rlen/dw2003/z_stage/s233pack/18.bin",
+	"/build/rlen/dw2003/z_stage/s233pack/19.bin",
+]
+extra_padding = 4096

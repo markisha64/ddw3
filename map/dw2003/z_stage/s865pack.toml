@@ -1,0 +1,29 @@
+width = 6
+height = 4
+entries = [
+	"/build/rlen/dw2003/z_stage/s865pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/3.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/4.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/8.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/9.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/10.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/11.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/12.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/13.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/14.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/15.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/16.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/17.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/18.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/19.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/20.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/21.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/22.bin",
+	"/build/rlen/dw2003/z_stage/s865pack/23.bin",
+]
+extra_padding = 2048

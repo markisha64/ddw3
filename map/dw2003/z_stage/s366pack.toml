@@ -1,0 +1,36 @@
+width = 5
+height = 6
+entries = [
+	"/build/rlen/dw2003/z_stage/s366pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/3.bin",
+	"/map-tile/empty.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/8.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/9.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/10.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/11.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/12.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/13.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/14.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/15.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/16.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/17.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/18.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/19.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/20.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/21.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/22.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/23.bin",
+	"/map-tile/empty.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/25.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/26.bin",
+	"/build/rlen/dw2003/z_stage/s366pack/27.bin",
+	"/map-tile/empty.bin",
+	"/map-tile/empty.bin",
+]
+override_entries_len = 26
+extra_padding = 18432

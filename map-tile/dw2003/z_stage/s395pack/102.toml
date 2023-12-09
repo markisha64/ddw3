@@ -1,0 +1,23 @@
+img = "/build/tim/dw2003/z_stage/s395pack/102.tim"
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [43, 0]
+img_offset = [0, 0]
+size = [86, 59]
+
+[[layers.objs]]
+world_offset = [49, 66]
+img_offset = [0, 59]
+size = [46, 17]
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 0]
+img_offset = [86, 0]
+size = [128, 128]
+
+[[layers]]
+objs = []

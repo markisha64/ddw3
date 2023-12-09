@@ -1,0 +1,25 @@
+width = 5
+height = 4
+entries = [
+	"/build/rlen/dw2003/z_stage/s426pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s426pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s426pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s426pack/3.bin",
+	"/build/rlen/dw2003/z_stage/s426pack/4.bin",
+	"/build/rlen/dw2003/z_stage/s426pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s426pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s426pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s426pack/8.bin",
+	"/build/rlen/dw2003/z_stage/s426pack/9.bin",
+	"/build/rlen/dw2003/z_stage/s426pack/10.bin",
+	"/build/rlen/dw2003/z_stage/s426pack/11.bin",
+	"/build/rlen/dw2003/z_stage/s426pack/12.bin",
+	"/build/rlen/dw2003/z_stage/s426pack/13.bin",
+	"/build/rlen/dw2003/z_stage/s426pack/14.bin",
+	"/build/rlen/dw2003/z_stage/s426pack/15.bin",
+	"/build/rlen/dw2003/z_stage/s426pack/16.bin",
+	"/build/rlen/dw2003/z_stage/s426pack/17.bin",
+	"/build/rlen/dw2003/z_stage/s426pack/18.bin",
+	"/build/rlen/dw2003/z_stage/s426pack/19.bin",
+]
+extra_padding = 14336

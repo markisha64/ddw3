@@ -1,0 +1,30 @@
+width = 6
+height = 4
+entries = [
+	"/map-tile/empty.bin",
+	"/build/rlen/dw2003/z_stage/s471pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s471pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s471pack/3.bin",
+	"/build/rlen/dw2003/z_stage/s471pack/4.bin",
+	"/build/rlen/dw2003/z_stage/s471pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s471pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s471pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s471pack/8.bin",
+	"/build/rlen/dw2003/z_stage/s471pack/9.bin",
+	"/build/rlen/dw2003/z_stage/s471pack/10.bin",
+	"/build/rlen/dw2003/z_stage/s471pack/11.bin",
+	"/build/rlen/dw2003/z_stage/s471pack/12.bin",
+	"/build/rlen/dw2003/z_stage/s471pack/13.bin",
+	"/build/rlen/dw2003/z_stage/s471pack/14.bin",
+	"/build/rlen/dw2003/z_stage/s471pack/15.bin",
+	"/build/rlen/dw2003/z_stage/s471pack/16.bin",
+	"/build/rlen/dw2003/z_stage/s471pack/17.bin",
+	"/build/rlen/dw2003/z_stage/s471pack/18.bin",
+	"/build/rlen/dw2003/z_stage/s471pack/19.bin",
+	"/build/rlen/dw2003/z_stage/s471pack/20.bin",
+	"/build/rlen/dw2003/z_stage/s471pack/21.bin",
+	"/map-tile/empty.bin",
+	"/map-tile/empty.bin",
+]
+override_entries_len = 21
+extra_padding = 18432

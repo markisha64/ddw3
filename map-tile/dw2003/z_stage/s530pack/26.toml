@@ -1,0 +1,39 @@
+img = "/build/tim/dw2003/z_stage/s530pack/26.tim"
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 2]
+img_offset = [0, 0]
+size = [6, 46]
+
+[[layers.objs]]
+world_offset = [0, 55]
+img_offset = [0, 46]
+size = [16, 8]
+
+[[layers.objs]]
+world_offset = [0, 70]
+img_offset = [0, 54]
+size = [2, 11]
+
+[[layers.objs]]
+world_offset = [0, 86]
+img_offset = [0, 65]
+size = [2, 10]
+
+[[layers.objs]]
+world_offset = [0, 97]
+img_offset = [0, 75]
+size = [2, 27]
+
+[[layers.objs]]
+world_offset = [0, 126]
+img_offset = [0, 102]
+size = [2, 2]
+
+[[layers]]
+objs = []
+
+[[layers]]
+objs = []

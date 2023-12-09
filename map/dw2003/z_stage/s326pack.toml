@@ -1,0 +1,25 @@
+width = 5
+height = 4
+entries = [
+	"/build/rlen/dw2003/z_stage/s326pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s326pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s326pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s326pack/3.bin",
+	"/build/rlen/dw2003/z_stage/s326pack/4.bin",
+	"/build/rlen/dw2003/z_stage/s326pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s326pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s326pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s326pack/8.bin",
+	"/build/rlen/dw2003/z_stage/s326pack/9.bin",
+	"/build/rlen/dw2003/z_stage/s326pack/10.bin",
+	"/build/rlen/dw2003/z_stage/s326pack/11.bin",
+	"/build/rlen/dw2003/z_stage/s326pack/12.bin",
+	"/build/rlen/dw2003/z_stage/s326pack/13.bin",
+	"/build/rlen/dw2003/z_stage/s326pack/14.bin",
+	"/build/rlen/dw2003/z_stage/s326pack/15.bin",
+	"/build/rlen/dw2003/z_stage/s326pack/16.bin",
+	"/build/rlen/dw2003/z_stage/s326pack/17.bin",
+	"/build/rlen/dw2003/z_stage/s326pack/18.bin",
+	"/build/rlen/dw2003/z_stage/s326pack/19.bin",
+]
+extra_padding = 14336

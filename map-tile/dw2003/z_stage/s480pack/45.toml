@@ -1,0 +1,27 @@
+img = "/build/tim/dw2003/z_stage/s480pack/45.tim"
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 0]
+img_offset = [0, 0]
+size = [128, 128]
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [101, 21]
+img_offset = [128, 0]
+size = [2, 2]
+
+[[layers.objs]]
+world_offset = [86, 24]
+img_offset = [128, 2]
+size = [42, 104]
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 16]
+img_offset = [128, 106]
+size = [24, 22]

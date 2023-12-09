@@ -1,0 +1,36 @@
+width = 5
+height = 6
+entries = [
+	"/build/rlen/dw2003/z_stage/s365pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/3.bin",
+	"/map-tile/empty.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/8.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/9.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/10.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/11.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/12.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/13.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/14.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/15.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/16.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/17.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/18.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/19.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/20.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/21.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/22.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/23.bin",
+	"/map-tile/empty.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/25.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/26.bin",
+	"/build/rlen/dw2003/z_stage/s365pack/27.bin",
+	"/map-tile/empty.bin",
+	"/map-tile/empty.bin",
+]
+override_entries_len = 26
+extra_padding = 18432

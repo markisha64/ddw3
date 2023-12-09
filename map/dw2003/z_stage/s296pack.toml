@@ -1,0 +1,21 @@
+width = 5
+height = 3
+entries = [
+	"/build/rlen/dw2003/z_stage/s296pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s296pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s296pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s296pack/3.bin",
+	"/map-tile/empty.bin",
+	"/build/rlen/dw2003/z_stage/s296pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s296pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s296pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s296pack/8.bin",
+	"/build/rlen/dw2003/z_stage/s296pack/9.bin",
+	"/build/rlen/dw2003/z_stage/s296pack/10.bin",
+	"/build/rlen/dw2003/z_stage/s296pack/11.bin",
+	"/build/rlen/dw2003/z_stage/s296pack/12.bin",
+	"/build/rlen/dw2003/z_stage/s296pack/13.bin",
+	"/build/rlen/dw2003/z_stage/s296pack/14.bin",
+]
+override_entries_len = 14
+extra_padding = 6144

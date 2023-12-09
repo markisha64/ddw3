@@ -1,0 +1,19 @@
+img = "/build/tim/dw2003/z_stage/s810pack/22.tim"
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [80, 0]
+img_offset = [0, 0]
+size = [48, 96]
+
+[[layers.objs]]
+world_offset = [112, 104]
+img_offset = [0, 96]
+size = [16, 24]
+
+[[layers]]
+objs = []
+
+[[layers]]
+objs = []

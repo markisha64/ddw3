@@ -1,0 +1,25 @@
+width = 5
+height = 4
+entries = [
+	"/build/rlen/dw2003/z_stage/s425pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s425pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s425pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s425pack/3.bin",
+	"/build/rlen/dw2003/z_stage/s425pack/4.bin",
+	"/build/rlen/dw2003/z_stage/s425pack/5.bin",
+	"/build/map-tile/dw2003/z_stage/s425pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s425pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s425pack/8.bin",
+	"/build/rlen/dw2003/z_stage/s425pack/9.bin",
+	"/build/rlen/dw2003/z_stage/s425pack/10.bin",
+	"/build/rlen/dw2003/z_stage/s425pack/11.bin",
+	"/build/rlen/dw2003/z_stage/s425pack/12.bin",
+	"/build/rlen/dw2003/z_stage/s425pack/13.bin",
+	"/build/rlen/dw2003/z_stage/s425pack/14.bin",
+	"/build/rlen/dw2003/z_stage/s425pack/15.bin",
+	"/build/rlen/dw2003/z_stage/s425pack/16.bin",
+	"/build/rlen/dw2003/z_stage/s425pack/17.bin",
+	"/build/rlen/dw2003/z_stage/s425pack/18.bin",
+	"/build/rlen/dw2003/z_stage/s425pack/19.bin",
+]
+extra_padding = 16384

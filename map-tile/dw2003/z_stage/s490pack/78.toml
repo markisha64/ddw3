@@ -1,0 +1,28 @@
+img = "/build/tim/dw2003/z_stage/s490pack/78.tim"
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 0]
+img_offset = [0, 0]
+size = [128, 114]
+
+[[layers.objs]]
+world_offset = [0, 115]
+img_offset = [0, 114]
+size = [128, 13]
+
+[[layers]]
+
+[[layers.objs]]
+world_offset = [0, 0]
+img_offset = [128, 0]
+size = [6, 2]
+
+[[layers.objs]]
+world_offset = [0, 66]
+img_offset = [128, 2]
+size = [128, 62]
+
+[[layers]]
+objs = []

@@ -1,0 +1,30 @@
+width = 5
+height = 5
+entries = [
+	"/build/rlen/dw2003/z_stage/s430pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/3.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/4.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/5.bin",
+	"/build/map-tile/dw2003/z_stage/s430pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/8.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/9.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/10.bin",
+	"/build/map-tile/dw2003/z_stage/s430pack/11.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/12.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/13.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/14.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/15.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/16.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/17.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/18.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/19.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/20.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/21.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/22.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/23.bin",
+	"/build/rlen/dw2003/z_stage/s430pack/24.bin",
+]
+extra_padding = 18432

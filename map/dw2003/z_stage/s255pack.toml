@@ -1,0 +1,17 @@
+width = 4
+height = 3
+entries = [
+	"/build/rlen/dw2003/z_stage/s255pack/0.bin",
+	"/build/rlen/dw2003/z_stage/s255pack/1.bin",
+	"/build/rlen/dw2003/z_stage/s255pack/2.bin",
+	"/build/rlen/dw2003/z_stage/s255pack/3.bin",
+	"/build/rlen/dw2003/z_stage/s255pack/4.bin",
+	"/build/rlen/dw2003/z_stage/s255pack/5.bin",
+	"/build/rlen/dw2003/z_stage/s255pack/6.bin",
+	"/build/rlen/dw2003/z_stage/s255pack/7.bin",
+	"/build/rlen/dw2003/z_stage/s255pack/8.bin",
+	"/build/rlen/dw2003/z_stage/s255pack/9.bin",
+	"/build/rlen/dw2003/z_stage/s255pack/10.bin",
+	"/build/rlen/dw2003/z_stage/s255pack/11.bin",
+]
+extra_padding = 14336
