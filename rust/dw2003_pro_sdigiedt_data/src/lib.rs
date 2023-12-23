@@ -1,0 +1,13 @@
+//! `ddw3` `SDIGIEDT.PRO` data
+
+// Features
+#![feature(decl_macro)]
+#![no_std]
+// Lints
+#![allow(non_snake_case)]
+
+// Modules
+mod data;
+
+// Export
+pub use util::panic_handler;

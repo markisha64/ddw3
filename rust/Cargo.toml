@@ -7,6 +7,7 @@ members = [
 	"dw2003_exe_digimon_profiles",
 	"dw2003_pro_stfgtrep_data",
 	"dw2003_pro_stgtrain_data",
+	"dw2003_pro_sdigiedt_data",
 	"util",
 ]
 
@@ -17,4 +18,5 @@ dw2003_exe_data = { path = "dw2003_exe_data" }
 dw2003_exe_digimon_profiles = { path = "dw2003_exe_digimon_profiles" }
 dw2003_pro_stfgtrep_data = { path = "dw2003_pro_stfgtrep_data" }
 dw2003_pro_stgtrain_data = { path = "dw2003_pro_stgtrain_data" }
+dw2003_pro_sdigiedt_data = { path = "dw2003_pro_sdigiedt_data" }
 util = { path = "util" }
