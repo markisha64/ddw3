@@ -7041,8 +7041,8 @@ F0x80016a94:
 .L80016aec: sb $zr, 0x26d6($s0)
 .L80016af0: jal F0x80016bac
 .L80016af4: sw $v0, 0xc($s0)
-.L80016af8: lui $v0, %hi(D0x8004b600)
-.L80016afc: lw $v0, %lo(D0x8004dc0c)($v0)
+.L80016af8: lui $v0, %hi(RAND_U16)
+.L80016afc: lw $v0, %lo(RAND_U16)($v0)
 .L80016b00: nop
 .L80016b04: jalr $v0
 .L80016b08: nop
@@ -9763,27 +9763,35 @@ F0x80019224:
 .L80019324: jr $ra
 .L80019328: addiu $sp, 0x30
 
-.global F0x8001932c
-F0x8001932c:
-.L8001932c: lui $v0, %hi(D0x8004dc04)
-.L80019330: andi $a0, 0xfff
-.L80019334: jr $ra
-.L80019338: sw $a0, %lo(D0x8004dc04)($v0)
+# Sets the seed for `rand_u16`
+# `fn(seed: u16)`.
+.global rand_u16_set_seed
+rand_u16_set_seed:
+	lui $v0, %hi(RAND_TABLE_CUR_IDX)
+	andi $a0, 0xfff
+	jr $ra
+	sw $a0, %lo(RAND_TABLE_CUR_IDX)($v0)
 
-.global F0x8001933c
-F0x8001933c:
-.L8001933c: lui $v0, %hi(D0x8004dc04)
-.L80019340: lw $v1, %lo(D0x8004dc04)($v0)
-.L80019344: nop
-.L80019348: addiu $v1, 0x1
-.L8001934c: andi $v1, 0xfff
-.L80019350: sw $v1, %lo(D0x8004dc04)($v0)
-.L80019354: la_ $v0, D0x8004bc04
-.L8001935c: sll $v1, 0x1
-.L80019360: addu $v1, $v0
-.L80019364: lhu $v0, ($v1)
-.L80019368: jr $ra
-.L8001936c: nop
+# Returns a random `u16` between 0 and 0x1000 (exclusive).
+# `fn() -> u16`.
+.global rand_u16
+rand_u16:
+# `cur_idx = (RAND_TABLE_CUR_IDX + 1) & 0xfff`
+	lui $v0, %hi(RAND_TABLE_CUR_IDX)
+	lw $v1, %lo(RAND_TABLE_CUR_IDX)($v0)
+	nop
+# `RAND_TABLE_CUR_IDX = cur_idx`
+	addiu $v1, 0x1
+	andi $v1, 0xfff
+	sw $v1, %lo(RAND_TABLE_CUR_IDX)($v0)
+
+# Return `RAND_TABLE[cur_idx]`
+	la_ $v0, RAND_TABLE
+	sll $v1, 0x1
+	addu $v1, $v0
+	lhu $v0, ($v1)
+	jr $ra
+	nop
 
 .global F0x80019370
 F0x80019370:

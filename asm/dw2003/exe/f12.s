@@ -134,8 +134,8 @@ f12:
 	nop
 	jalr $v0
 	nop
-	lui $v0, %hi(D0x8004dc08)
-	lw $v0, %lo(D0x8004dc08)($v0)
+	lui $v0, %hi(RAND_U16_SET_SEED)
+	lw $v0, %lo(RAND_U16_SET_SEED)($v0)
 	nop
 	jalr $v0
 	move_ $a0, $zr
@@ -209,8 +209,8 @@ f12:
 	nop
 	jalr $v0
 	nop
-	lui $v0, %hi(D0x8004dc0c)
-	lw $v0, %lo(D0x8004dc0c)($v0)
+	lui $v0, %hi(RAND_U16)
+	lw $v0, %lo(RAND_U16)($v0)
 	nop
 	jalr $v0
 	nop
