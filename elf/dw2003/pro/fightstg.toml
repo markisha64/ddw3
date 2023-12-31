@@ -1,3 +1,13 @@
-start_addr = 0
-objs = ["/build/asm/dw2003/pro/fightstg.o"]
-sections = ["section_FIGHTSTG"]
+start_addr = 0x80082cb0
+objs = [
+	"/build/asm/dw2003/pro/fightstg.o",
+	"/build/asm/dw2003/pro/fightstg/check_move_cond.o",
+]
+sections = [
+	"section_FIGHTSTG_00",
+	"section_FIGHTSTG_check_move_cond_jump_table",
+	"section_FIGHTSTG_01",
+	"section_FIGHTSTG_check_move_cond",
+	"section_FIGHTSTG_1",
+]
+link_with = ["build/elf/dw2003/exe.elf"]
