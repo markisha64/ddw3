@@ -1,5 +1,8 @@
 //! Data;
 
+// Imports
+use core::ptr;
+
 util::decl_static! { "dw2003_exe_data0",
 	pub static mut D0x8003edcc: [u32; 44] = [
 		0x0000020a, // 0x8003edcc
@@ -15585,9 +15588,9 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8005bfd8: *const [*const u32; 8] = unsafe { &D0x8005bfb8 };
 
 	// Used by `f14`
-	pub static mut I_STAT_PTR_ADDR: *mut u16 = core::ptr::invalid_mut(0x1f801070);
-	pub static mut I_MASK_PTR_ADDR: *mut u32 = core::ptr::invalid_mut(0x1f801074);
-	pub static mut DPCR_PTR_ADDR  : *mut u32 = core::ptr::invalid_mut(0x1f8010f0);
+	pub static mut I_STAT_PTR_ADDR: *mut u16 = ptr::without_provenance_mut(0x1f801070);
+	pub static mut I_MASK_PTR_ADDR: *mut u32 = ptr::without_provenance_mut(0x1f801074);
+	pub static mut DPCR_PTR_ADDR  : *mut u32 = ptr::without_provenance_mut(0x1f8010f0);
 
 
 	//
