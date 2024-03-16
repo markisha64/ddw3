@@ -1463,7 +1463,7 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x80042b64: u32 = 0x00000000;
 	pub static mut D0x80042b68: u32 = 0x00000000;
 	pub static mut D0x80042b6c: u32 = 0x00000000;
-	pub static mut D0x80042b70: *const u32 = unsafe { &f4 };
+	pub static mut D0x80042b70: *const u32 = unsafe { ptr::addr_of!(f4) };
 
 	// Edited by `f4`
 	pub static mut D0x80042b74: [u16; 8] = [0x0; 8];
@@ -1473,10 +1473,10 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x80042b8c: u32 = 0x00000000;
 	pub static mut D0x80042b90: u32 = 0x00000000;
 	pub static mut D0x80042b94: u32 = 0x00000000;
-	pub static mut D0x80042b98: *const u32 = unsafe { &f5 };
-	pub static mut D0x80042b9c: *const u32 = unsafe { &f6 };
-	pub static mut D0x80042ba0: *const u32 = unsafe { &f7 };
-	pub static mut D0x80042ba4: *const u32 = unsafe { &f3 };
+	pub static mut D0x80042b98: *const u32 = unsafe { ptr::addr_of!(f5) };
+	pub static mut D0x80042b9c: *const u32 = unsafe { ptr::addr_of!(f6) };
+	pub static mut D0x80042ba0: *const u32 = unsafe { ptr::addr_of!(f7) };
+	pub static mut D0x80042ba4: *const u32 = unsafe { ptr::addr_of!(f3) };
 
 	pub static mut D0x80042ba8: [u8; 32] = [
 		0x4a, 0x4a, 0x4a, 0x4b,
@@ -1957,8 +1957,8 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x80044b24: u32 = 0x00000000; // Written / Loaded to by f9
 	pub static mut D0x80044b28: u32 = 0x00000000; // Loaded by f9
 	pub static mut D0x80044b2c: u32 = 0x00000000; // Loaded by f8
-	pub static mut D0x80044b30: *const u32 = unsafe { &F0x800138a8 };
-	pub static mut D0x80044b34: *const u32 = unsafe { &F0x80013914 };
+	pub static mut D0x80044b30: *const u32 = unsafe { ptr::addr_of!(F0x800138a8) };
+	pub static mut D0x80044b34: *const u32 = unsafe { ptr::addr_of!(F0x80013914) };
 	//
 	pub static mut D0x80044b38: u32 = 0x00000000;
 	//
@@ -2218,18 +2218,18 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x80044f30: u32 = 0x00000000;
 	pub static mut D0x80044f34: u32 = 0x00000000;
 	pub static mut D0x80044f38: u32 = 0x00000000;
-	pub static mut D0x80044f3c: *const u32 = unsafe { &F0x80013a6c };
-	pub static mut D0x80044f40: *const u32 = unsafe { &F0x80013be4 };
-	pub static mut D0x80044f44: *const u32 = unsafe { &F0x80013c30 };
-	pub static mut D0x80044f48: *const u32 = unsafe { &F0x80013cdc };
-	pub static mut D0x80044f4c: *const u32 = unsafe { &F0x80013e5c };
-	pub static mut D0x80044f50: *const u32 = unsafe { &F0x80013efc };
-	pub static mut D0x80044f54: *const u32 = unsafe { &F0x80013f60 };
-	pub static mut D0x80044f58: *const u32 = unsafe { &F0x80013ff4 };
-	pub static mut D0x80044f5c: *const u32 = unsafe { &F0x800140d8 };
-	pub static mut D0x80044f60: *const u32 = unsafe { &F0x80014110 };
-	pub static mut D0x80044f64: *const u32 = unsafe { &F0x80014128 };
-	pub static mut D0x80044f68: *const u32 = unsafe { &F0x80014170 };
+	pub static mut D0x80044f3c: *const u32 = unsafe { ptr::addr_of!(F0x80013a6c) };
+	pub static mut D0x80044f40: *const u32 = unsafe { ptr::addr_of!(F0x80013be4) };
+	pub static mut D0x80044f44: *const u32 = unsafe { ptr::addr_of!(F0x80013c30) };
+	pub static mut D0x80044f48: *const u32 = unsafe { ptr::addr_of!(F0x80013cdc) };
+	pub static mut D0x80044f4c: *const u32 = unsafe { ptr::addr_of!(F0x80013e5c) };
+	pub static mut D0x80044f50: *const u32 = unsafe { ptr::addr_of!(F0x80013efc) };
+	pub static mut D0x80044f54: *const u32 = unsafe { ptr::addr_of!(F0x80013f60) };
+	pub static mut D0x80044f58: *const u32 = unsafe { ptr::addr_of!(F0x80013ff4) };
+	pub static mut D0x80044f5c: *const u32 = unsafe { ptr::addr_of!(F0x800140d8) };
+	pub static mut D0x80044f60: *const u32 = unsafe { ptr::addr_of!(F0x80014110) };
+	pub static mut D0x80044f64: *const u32 = unsafe { ptr::addr_of!(F0x80014128) };
+	pub static mut D0x80044f68: *const u32 = unsafe { ptr::addr_of!(F0x80014170) };
 	//
 	pub static mut D0x80044f6c: [u32; 2382] = [
 		0x000006c3, 0x00000e2e, 0x0000107f, 0x000008fd, 0x00000a51, 0x00000cf7, 0x00000bab,
@@ -3769,10 +3769,10 @@ util::decl_static! { "dw2003_exe_data1",
 		0x46a8, 0x0016,
 	];
 	//
-	pub static mut D0x80048740: *const u32 = unsafe { &F0x800141e4 };
-	pub static mut D0x80048744: *const u32 = unsafe { &F0x80014200 };
-	pub static mut D0x80048748: *const u32 = unsafe { &F0x8001421c };
-	pub static mut D0x8004874c: *const u32 = unsafe { &F0x80014238 };
+	pub static mut D0x80048740: *const u32 = unsafe { ptr::addr_of!(F0x800141e4) };
+	pub static mut D0x80048744: *const u32 = unsafe { ptr::addr_of!(F0x80014200) };
+	pub static mut D0x80048748: *const u32 = unsafe { ptr::addr_of!(F0x8001421c) };
+	pub static mut D0x8004874c: *const u32 = unsafe { ptr::addr_of!(F0x80014238) };
 	//
 	pub static mut D0x80048750: u32 = 0x00000000;
 	pub static mut D0x80048754: u32 = 0x00000000;
@@ -3976,19 +3976,19 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x80048a6c: u32 = 0x00000000;
 	pub static mut D0x80048a70: u32 = 0x00000000;
 	pub static mut D0x80048a74: u32 = 0x00000000;
-	pub static mut D0x80048a78: *const u32 = unsafe { &F0x80014854 };
-	pub static mut D0x80048a7c: *const u32 = unsafe { &F0x800148c0 };
-	pub static mut D0x80048a80: *const u32 = unsafe { &F0x80014930 };
-	pub static mut D0x80048a84: *const u32 = unsafe { &F0x80014b44 };
-	pub static mut D0x80048a88: *const u32 = unsafe { &F0x80014c24 };
-	pub static mut D0x80048a8c: *const u32 = unsafe { &F0x80014d04 };
-	pub static mut D0x80048a90: *const u32 = unsafe { &F0x80014fc4 };
-	pub static mut D0x80048a94: *const u32 = unsafe { &F0x80015480 };
-	pub static mut D0x80048a98: *const u32 = unsafe { &F0x800154b8 };
-	pub static mut D0x80048a9c: *const u32 = unsafe { &F0x800154f0 };
-	pub static mut D0x80048aa0: *const u32 = unsafe { &F0x80015528 };
-	pub static mut D0x80048aa4: *const u32 = unsafe { &F0x80015530 };
-	pub static mut D0x80048aa8: *const u32 = unsafe { &F0x80015564 };
+	pub static mut D0x80048a78: *const u32 = unsafe { ptr::addr_of!(F0x80014854) };
+	pub static mut D0x80048a7c: *const u32 = unsafe { ptr::addr_of!(F0x800148c0) };
+	pub static mut D0x80048a80: *const u32 = unsafe { ptr::addr_of!(F0x80014930) };
+	pub static mut D0x80048a84: *const u32 = unsafe { ptr::addr_of!(F0x80014b44) };
+	pub static mut D0x80048a88: *const u32 = unsafe { ptr::addr_of!(F0x80014c24) };
+	pub static mut D0x80048a8c: *const u32 = unsafe { ptr::addr_of!(F0x80014d04) };
+	pub static mut D0x80048a90: *const u32 = unsafe { ptr::addr_of!(F0x80014fc4) };
+	pub static mut D0x80048a94: *const u32 = unsafe { ptr::addr_of!(F0x80015480) };
+	pub static mut D0x80048a98: *const u32 = unsafe { ptr::addr_of!(F0x800154b8) };
+	pub static mut D0x80048a9c: *const u32 = unsafe { ptr::addr_of!(F0x800154f0) };
+	pub static mut D0x80048aa0: *const u32 = unsafe { ptr::addr_of!(F0x80015528) };
+	pub static mut D0x80048aa4: *const u32 = unsafe { ptr::addr_of!(F0x80015530) };
+	pub static mut D0x80048aa8: *const u32 = unsafe { ptr::addr_of!(F0x80015564) };
 	//
 	pub static mut D0x80048aac: u32 = 0x00000007;
 	pub static mut D0x80048ab0: u32 = 0x00000008;
@@ -3997,11 +3997,11 @@ util::decl_static! { "dw2003_exe_data1",
 	//
 	pub static mut D0x80048abc: u32 = 0x00000000;
 	pub static mut D0x80048ac0: u32 = 0x00000000;
-	pub static mut D0x80048ac4: *const u32 = unsafe { &F0x80016924 };
-	pub static mut D0x80048ac8: *const u32 = unsafe { &F0x800165ac };
-	pub static mut D0x80048acc: *const u32 = unsafe { &F0x800163b0 };
-	pub static mut D0x80048ad0: *const u32 = unsafe { &F0x80016988 };
-	pub static mut D0x80048ad4: *const u32 = unsafe { &F0x800169e0 };
+	pub static mut D0x80048ac4: *const u32 = unsafe { ptr::addr_of!(F0x80016924) };
+	pub static mut D0x80048ac8: *const u32 = unsafe { ptr::addr_of!(F0x800165ac) };
+	pub static mut D0x80048acc: *const u32 = unsafe { ptr::addr_of!(F0x800163b0) };
+	pub static mut D0x80048ad0: *const u32 = unsafe { ptr::addr_of!(F0x80016988) };
+	pub static mut D0x80048ad4: *const u32 = unsafe { ptr::addr_of!(F0x800169e0) };
 	pub static mut D0x80048ad8: u32 = 0x9600003a;
 	pub static mut D0x80048adc: u32 = 0x10000001;
 	pub static mut D0x80048ae0: u32 = 0x01100100;
@@ -4707,30 +4707,30 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8004b424: u32 = 0x00000000;
 	pub static mut D0x8004b428: u32 = 0x00000000;
 	pub static mut D0x8004b42c: u32 = 0x00000000;
-	pub static mut D0x8004b430: *const u32 = unsafe { &F0x80016a94 };
-	pub static mut D0x8004b434: *const u32 = unsafe { &F0x80016b28 };
-	pub static mut D0x8004b438: *const u32 = unsafe { &F0x80016b68 };
-	pub static mut D0x8004b43c: *const u32 = unsafe { &F0x80016b78 };
-	pub static mut D0x8004b440: *const u32 = unsafe { &F0x80016b88 };
-	pub static mut D0x8004b444: *const u32 = unsafe { &F0x80016b9c };
-	pub static mut D0x8004b448: *const u32 = unsafe { &F0x80016b58 };
-	pub static mut D0x8004b44c: *const u32 = unsafe { &F0x80016d94 };
-	pub static mut D0x8004b450: *const u32 = unsafe { &F0x80016dc0 };
-	pub static mut D0x8004b454: *const u32 = unsafe { &F0x80016e2c };
-	pub static mut D0x8004b458: *const u32 = unsafe { &F0x80016e6c };
-	pub static mut D0x8004b45c: *const u32 = unsafe { &F0x80016fd8 };
-	pub static mut D0x8004b460: *const u32 = unsafe { &f11 };
-	pub static mut D0x8004b464: *const u32 = unsafe { &F0x800170c8 };
-	pub static mut D0x8004b468: *const u32 = unsafe { &F0x80017174 };
-	pub static mut D0x8004b46c: *const u32 = unsafe { &F0x800176ac };
-	pub static mut D0x8004b470: *const u32 = unsafe { &F0x800177d0 };
-	pub static mut D0x8004b474: *const u32 = unsafe { &F0x80017898 };
-	pub static mut D0x8004b478: *const u32 = unsafe { &F0x80017924 };
-	pub static mut D0x8004b47c: *const u32 = unsafe { &F0x80017a1c };
-	pub static mut D0x8004b480: *const u32 = unsafe { &F0x80017ab4 };
-	pub static mut D0x8004b484: *const u32 = unsafe { &F0x80017b4c };
-	pub static mut D0x8004b488: *const u32 = unsafe { &F0x80016f0c };
-	pub static mut D0x8004b48c: *const u32 = unsafe { &F0x80016f2c };
+	pub static mut D0x8004b430: *const u32 = unsafe { ptr::addr_of!(F0x80016a94) };
+	pub static mut D0x8004b434: *const u32 = unsafe { ptr::addr_of!(F0x80016b28) };
+	pub static mut D0x8004b438: *const u32 = unsafe { ptr::addr_of!(F0x80016b68) };
+	pub static mut D0x8004b43c: *const u32 = unsafe { ptr::addr_of!(F0x80016b78) };
+	pub static mut D0x8004b440: *const u32 = unsafe { ptr::addr_of!(F0x80016b88) };
+	pub static mut D0x8004b444: *const u32 = unsafe { ptr::addr_of!(F0x80016b9c) };
+	pub static mut D0x8004b448: *const u32 = unsafe { ptr::addr_of!(F0x80016b58) };
+	pub static mut D0x8004b44c: *const u32 = unsafe { ptr::addr_of!(F0x80016d94) };
+	pub static mut D0x8004b450: *const u32 = unsafe { ptr::addr_of!(F0x80016dc0) };
+	pub static mut D0x8004b454: *const u32 = unsafe { ptr::addr_of!(F0x80016e2c) };
+	pub static mut D0x8004b458: *const u32 = unsafe { ptr::addr_of!(F0x80016e6c) };
+	pub static mut D0x8004b45c: *const u32 = unsafe { ptr::addr_of!(F0x80016fd8) };
+	pub static mut D0x8004b460: *const u32 = unsafe { ptr::addr_of!(f11) };
+	pub static mut D0x8004b464: *const u32 = unsafe { ptr::addr_of!(F0x800170c8) };
+	pub static mut D0x8004b468: *const u32 = unsafe { ptr::addr_of!(F0x80017174) };
+	pub static mut D0x8004b46c: *const u32 = unsafe { ptr::addr_of!(F0x800176ac) };
+	pub static mut D0x8004b470: *const u32 = unsafe { ptr::addr_of!(F0x800177d0) };
+	pub static mut D0x8004b474: *const u32 = unsafe { ptr::addr_of!(F0x80017898) };
+	pub static mut D0x8004b478: *const u32 = unsafe { ptr::addr_of!(F0x80017924) };
+	pub static mut D0x8004b47c: *const u32 = unsafe { ptr::addr_of!(F0x80017a1c) };
+	pub static mut D0x8004b480: *const u32 = unsafe { ptr::addr_of!(F0x80017ab4) };
+	pub static mut D0x8004b484: *const u32 = unsafe { ptr::addr_of!(F0x80017b4c) };
+	pub static mut D0x8004b488: *const u32 = unsafe { ptr::addr_of!(F0x80016f0c) };
+	pub static mut D0x8004b48c: *const u32 = unsafe { ptr::addr_of!(F0x80016f2c) };
 	pub static mut D0x8004b490: u32 = 0x02070600;
 	pub static mut D0x8004b494: u32 = 0x05010603;
 	pub static mut D0x8004b498: u32 = 0x00000007;
@@ -4818,16 +4818,16 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8004b5dc: u32 = 0x00000000;
 	pub static mut D0x8004b5e0: u32 = 0x00000000;
 	pub static mut D0x8004b5e4: u32 = 0x00000000;
-	pub static mut D0x8004b5e8: *const u32 = unsafe { &F0x80017c5c };
-	pub static mut D0x8004b5ec: *const u32 = unsafe { &F0x80017b70 };
-	pub static mut D0x8004b5f0: *const u32 = unsafe { &F0x80017be4 };
-	pub static mut D0x8004b5f4: *const u32 = unsafe { &F0x80017e84 };
-	pub static mut D0x8004b5f8: *const u32 = unsafe { &F0x80017eec };
-	pub static mut D0x8004b5fc: *const u32 = unsafe { &F0x80017f54 };
-	pub static mut D0x8004b600: *const u32 = unsafe { &F0x80017cb0 };
-	pub static mut D0x8004b604: *const u32 = unsafe { &F0x80017d08 };
-	pub static mut D0x8004b608: *const u32 = unsafe { &F0x80017f94 };
-	pub static mut D0x8004b60c: *const u32 = unsafe { &F0x80017bdc };
+	pub static mut D0x8004b5e8: *const u32 = unsafe { ptr::addr_of!(F0x80017c5c) };
+	pub static mut D0x8004b5ec: *const u32 = unsafe { ptr::addr_of!(F0x80017b70) };
+	pub static mut D0x8004b5f0: *const u32 = unsafe { ptr::addr_of!(F0x80017be4) };
+	pub static mut D0x8004b5f4: *const u32 = unsafe { ptr::addr_of!(F0x80017e84) };
+	pub static mut D0x8004b5f8: *const u32 = unsafe { ptr::addr_of!(F0x80017eec) };
+	pub static mut D0x8004b5fc: *const u32 = unsafe { ptr::addr_of!(F0x80017f54) };
+	pub static mut D0x8004b600: *const u32 = unsafe { ptr::addr_of!(F0x80017cb0) };
+	pub static mut D0x8004b604: *const u32 = unsafe { ptr::addr_of!(F0x80017d08) };
+	pub static mut D0x8004b608: *const u32 = unsafe { ptr::addr_of!(F0x80017f94) };
+	pub static mut D0x8004b60c: *const u32 = unsafe { ptr::addr_of!(F0x80017bdc) };
 	//
 	pub static mut D0x8004b610: u32 = 0x00000000;
 	pub static mut D0x8004b614: u32 = 0x00000000;
@@ -4933,14 +4933,14 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8004b7a4: u32 = 0x00000000;
 	pub static mut D0x8004b7a8: u32 = 0x00000000;
 	pub static mut D0x8004b7ac: u32 = 0x00000000;
-	pub static mut D0x8004b7b0: *const u32 = unsafe { &F0x80017fb4 };
-	pub static mut D0x8004b7b4: *const u32 = unsafe { &F0x80017fdc };
-	pub static mut D0x8004b7b8: *const u32 = unsafe { &F0x80018014 };
-	pub static mut D0x8004b7bc: *const u32 = unsafe { &F0x8001810c };
-	pub static mut D0x8004b7c0: *const u32 = unsafe { &F0x8001804c };
-	pub static mut D0x8004b7c4: *const u32 = unsafe { &F0x80018230 };
-	pub static mut D0x8004b7c8: *const u32 = unsafe { &F0x8001829c };
-	pub static mut D0x8004b7cc: *const u32 = unsafe { &F0x800182c8 };
+	pub static mut D0x8004b7b0: *const u32 = unsafe { ptr::addr_of!(F0x80017fb4) };
+	pub static mut D0x8004b7b4: *const u32 = unsafe { ptr::addr_of!(F0x80017fdc) };
+	pub static mut D0x8004b7b8: *const u32 = unsafe { ptr::addr_of!(F0x80018014) };
+	pub static mut D0x8004b7bc: *const u32 = unsafe { ptr::addr_of!(F0x8001810c) };
+	pub static mut D0x8004b7c0: *const u32 = unsafe { ptr::addr_of!(F0x8001804c) };
+	pub static mut D0x8004b7c4: *const u32 = unsafe { ptr::addr_of!(F0x80018230) };
+	pub static mut D0x8004b7c8: *const u32 = unsafe { ptr::addr_of!(F0x8001829c) };
+	pub static mut D0x8004b7cc: *const u32 = unsafe { ptr::addr_of!(F0x800182c8) };
 	//
 	pub static mut D0x8004b7d0: u32 = 0x00000000;
 	//
@@ -5193,23 +5193,23 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8004bba4: u32 = 0x00000000;
 	pub static mut D0x8004bba8: u32 = 0x00000000;
 	pub static mut D0x8004bbac: u32 = 0x00000000;
-	pub static mut D0x8004bbb0: *const u32 = unsafe { &F0x80018310 };
-	pub static mut D0x8004bbb4: *const u32 = unsafe { &F0x8001843c };
-	pub static mut D0x8004bbb8: *const u32 = unsafe { &F0x8001851c };
-	pub static mut D0x8004bbbc: *const u32 = unsafe { &F0x800186e0 };
-	pub static mut D0x8004bbc0: *const u32 = unsafe { &F0x8001902c };
-	pub static mut D0x8004bbc4: *const u32 = unsafe { &F0x80018854 };
-	pub static mut D0x8004bbc8: *const u32 = unsafe { &F0x80018878 };
-	pub static mut D0x8004bbcc: *const u32 = unsafe { &F0x8001889c };
-	pub static mut D0x8004bbd0: *const u32 = unsafe { &F0x800188c0 };
-	pub static mut D0x8004bbd4: *const u32 = unsafe { &F0x80018928 };
-	pub static mut D0x8004bbd8: *const u32 = unsafe { &F0x80018980 };
-	pub static mut D0x8004bbdc: *const u32 = unsafe { &F0x800189a8 };
-	pub static mut D0x8004bbe0: *const u32 = unsafe { &F0x800189b0 };
-	pub static mut D0x8004bbe4: *const u32 = unsafe { &F0x800189b8 };
-	pub static mut D0x8004bbe8: *const u32 = unsafe { &F0x800189f0 };
-	pub static mut D0x8004bbec: *const u32 = unsafe { &F0x80018a64 };
-	pub static mut D0x8004bbf0: *const u32 = unsafe { &F0x80018aa0 };
+	pub static mut D0x8004bbb0: *const u32 = unsafe { ptr::addr_of!(F0x80018310) };
+	pub static mut D0x8004bbb4: *const u32 = unsafe { ptr::addr_of!(F0x8001843c) };
+	pub static mut D0x8004bbb8: *const u32 = unsafe { ptr::addr_of!(F0x8001851c) };
+	pub static mut D0x8004bbbc: *const u32 = unsafe { ptr::addr_of!(F0x800186e0) };
+	pub static mut D0x8004bbc0: *const u32 = unsafe { ptr::addr_of!(F0x8001902c) };
+	pub static mut D0x8004bbc4: *const u32 = unsafe { ptr::addr_of!(F0x80018854) };
+	pub static mut D0x8004bbc8: *const u32 = unsafe { ptr::addr_of!(F0x80018878) };
+	pub static mut D0x8004bbcc: *const u32 = unsafe { ptr::addr_of!(F0x8001889c) };
+	pub static mut D0x8004bbd0: *const u32 = unsafe { ptr::addr_of!(F0x800188c0) };
+	pub static mut D0x8004bbd4: *const u32 = unsafe { ptr::addr_of!(F0x80018928) };
+	pub static mut D0x8004bbd8: *const u32 = unsafe { ptr::addr_of!(F0x80018980) };
+	pub static mut D0x8004bbdc: *const u32 = unsafe { ptr::addr_of!(F0x800189a8) };
+	pub static mut D0x8004bbe0: *const u32 = unsafe { ptr::addr_of!(F0x800189b0) };
+	pub static mut D0x8004bbe4: *const u32 = unsafe { ptr::addr_of!(F0x800189b8) };
+	pub static mut D0x8004bbe8: *const u32 = unsafe { ptr::addr_of!(F0x800189f0) };
+	pub static mut D0x8004bbec: *const u32 = unsafe { ptr::addr_of!(F0x80018a64) };
+	pub static mut D0x8004bbf0: *const u32 = unsafe { ptr::addr_of!(F0x80018aa0) };
 	pub static mut D0x8004bbf4: u32 = 0x03020100;
 	pub static mut D0x8004bbf8: u32 = 0x07060504;
 	pub static mut D0x8004bbfc: u32 = 0x0b0a0908;
@@ -5516,27 +5516,27 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8004dc94: u32 = 0x00000000;
 	pub static mut D0x8004dc98: u32 = 0x00000000;
 	pub static mut D0x8004dc9c: u32 = 0x00000000;
-	pub static mut D0x8004dca0: *const u32 = unsafe { &F0x8001a6e8 };
-	pub static mut D0x8004dca4: *const u32 = unsafe { &F0x8001a73c };
-	pub static mut D0x8004dca8: *const u32 = unsafe { &F0x8001a82c };
-	pub static mut D0x8004dcac: *const u32 = unsafe { &F0x8001a8b4 };
-	pub static mut D0x8004dcb0: *const u32 = unsafe { &F0x8001aa08 };
-	pub static mut D0x8004dcb4: *const u32 = unsafe { &F0x8001aa10 };
-	pub static mut D0x8004dcb8: *const u32 = unsafe { &F0x8001ab30 };
-	pub static mut D0x8004dcbc: *const u32 = unsafe { &F0x8001a6e8 };
-	pub static mut D0x8004dcc0: *const u32 = unsafe { &F0x8001aba4 };
-	pub static mut D0x8004dcc4: *const u32 = unsafe { &F0x8001a6e8 };
+	pub static mut D0x8004dca0: *const u32 = unsafe { ptr::addr_of!(F0x8001a6e8) };
+	pub static mut D0x8004dca4: *const u32 = unsafe { ptr::addr_of!(F0x8001a73c) };
+	pub static mut D0x8004dca8: *const u32 = unsafe { ptr::addr_of!(F0x8001a82c) };
+	pub static mut D0x8004dcac: *const u32 = unsafe { ptr::addr_of!(F0x8001a8b4) };
+	pub static mut D0x8004dcb0: *const u32 = unsafe { ptr::addr_of!(F0x8001aa08) };
+	pub static mut D0x8004dcb4: *const u32 = unsafe { ptr::addr_of!(F0x8001aa10) };
+	pub static mut D0x8004dcb8: *const u32 = unsafe { ptr::addr_of!(F0x8001ab30) };
+	pub static mut D0x8004dcbc: *const u32 = unsafe { ptr::addr_of!(F0x8001a6e8) };
+	pub static mut D0x8004dcc0: *const u32 = unsafe { ptr::addr_of!(F0x8001aba4) };
+	pub static mut D0x8004dcc4: *const u32 = unsafe { ptr::addr_of!(F0x8001a6e8) };
 	pub static mut D0x8004dcc8: u32 = 0x00000000;
 	pub static mut D0x8004dccc: u32 = 0x0000000d;
 	pub static mut D0x8004dcd0: u32 = 0x0000000c;
 	pub static mut D0x8004dcd4: u32 = 0x0000000d;
 	pub static mut D0x8004dcd8: u32 = 0x0000000e;
 	pub static mut D0x8004dcdc: u32 = 0x0000000f;
-	pub static mut D0x8004dce0: *const u32 = unsafe { &D0x8005ccdc };
-	pub static mut D0x8004dce4: *const u32 = unsafe { &D0x8005ccd8 };
-	pub static mut D0x8004dce8: *const u32 = unsafe { &D0x8005ccd4 };
-	pub static mut D0x8004dcec: *const u32 = unsafe { &D0x8005ccd0 };
-	pub static mut D0x8004dcf0: *const u32 = unsafe { &D0x8005ccd4 };
+	pub static mut D0x8004dce0: *const u32 = unsafe { ptr::addr_of!(D0x8005ccdc) };
+	pub static mut D0x8004dce4: *const u32 = unsafe { ptr::addr_of!(D0x8005ccd8) };
+	pub static mut D0x8004dce8: *const u32 = unsafe { ptr::addr_of!(D0x8005ccd4) };
+	pub static mut D0x8004dcec: *const u32 = unsafe { ptr::addr_of!(D0x8005ccd0) };
+	pub static mut D0x8004dcf0: *const u32 = unsafe { ptr::addr_of!(D0x8005ccd4) };
 	//
 	pub static mut D0x8004dcf4: u32 = 0x00000003;
 	//
@@ -5580,22 +5580,22 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8004dd84: u32 = 0x00000000;
 	pub static mut D0x8004dd88: u32 = 0x00000000;
 	pub static mut D0x8004dd8c: u32 = 0x00000eff;
-	pub static mut D0x8004dd90: *const u32 = unsafe { &D0x8004e5a4 };
-	pub static mut D0x8004dd94: *const u32 = unsafe { &D0x8004ef88 };
-	pub static mut D0x8004dd98: *const u32 = unsafe { &D0x8004e010 };
-	pub static mut D0x8004dd9c: *const u32 = unsafe { &D0x8004e3bc };
+	pub static mut D0x8004dd90: *const u32 = unsafe { ptr::addr_of!(D0x8004e5a4) };
+	pub static mut D0x8004dd94: *const u32 = unsafe { ptr::addr_of!(D0x8004ef88) };
+	pub static mut D0x8004dd98: *const u32 = unsafe { ptr::addr_of!(D0x8004e010) };
+	pub static mut D0x8004dd9c: *const u32 = unsafe { ptr::addr_of!(D0x8004e3bc) };
 	pub static mut D0x8004dda0: u32 = 0x007200ea;
 	pub static mut D0x8004dda4: u32 = 0x00000bff;
-	pub static mut D0x8004dda8: *const u32 = unsafe { &D0x8004f470 };
-	pub static mut D0x8004ddac: *const u32 = unsafe { &D0x8004fe54 };
-	pub static mut D0x8004ddb0: *const u32 = unsafe { &D0x8004e010 };
-	pub static mut D0x8004ddb4: *const u32 = unsafe { &D0x8004e3bc };
+	pub static mut D0x8004dda8: *const u32 = unsafe { ptr::addr_of!(D0x8004f470) };
+	pub static mut D0x8004ddac: *const u32 = unsafe { ptr::addr_of!(D0x8004fe54) };
+	pub static mut D0x8004ddb0: *const u32 = unsafe { ptr::addr_of!(D0x8004e010) };
+	pub static mut D0x8004ddb4: *const u32 = unsafe { ptr::addr_of!(D0x8004e3bc) };
 	pub static mut D0x8004ddb8: u32 = 0x007200ea;
 	pub static mut D0x8004ddbc: u32 = 0x000009ff;
-	pub static mut D0x8004ddc0: *const u32 = unsafe { &D0x8005033c };
-	pub static mut D0x8004ddc4: *const u32 = unsafe { &D0x80050d20 };
-	pub static mut D0x8004ddc8: *const u32 = unsafe { &D0x8004e010 };
-	pub static mut D0x8004ddcc: *const u32 = unsafe { &D0x8004e3bc };
+	pub static mut D0x8004ddc0: *const u32 = unsafe { ptr::addr_of!(D0x8005033c) };
+	pub static mut D0x8004ddc4: *const u32 = unsafe { ptr::addr_of!(D0x80050d20) };
+	pub static mut D0x8004ddc8: *const u32 = unsafe { ptr::addr_of!(D0x8004e010) };
+	pub static mut D0x8004ddcc: *const u32 = unsafe { ptr::addr_of!(D0x8004e3bc) };
 	pub static mut D0x8004ddd0: u32 = 0x007200ea;
 	//
 	pub static mut D0x8004ddd4: u32 = 0x00000001;
@@ -5610,10 +5610,10 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8004ddf8: u32 = 0x00000002;
 	pub static mut D0x8004ddfc: u32 = 0x00000000;
 	//
-	pub static mut D0x8004de00: *const u32 = unsafe { &D0x8004dd74 };
-	pub static mut D0x8004de04: *const u32 = unsafe { &D0x8004ddd4 };
-	pub static mut D0x8004de08: *const u32 = unsafe { &F0x8001d1e4 };
-	pub static mut D0x8004de0c: *const u32 = unsafe { &F0x8001d264 };
+	pub static mut D0x8004de00: *const u32 = unsafe { ptr::addr_of!(D0x8004dd74) };
+	pub static mut D0x8004de04: *const u32 = unsafe { ptr::addr_of!(D0x8004ddd4) };
+	pub static mut D0x8004de08: *const u32 = unsafe { ptr::addr_of!(F0x8001d1e4) };
+	pub static mut D0x8004de0c: *const u32 = unsafe { ptr::addr_of!(F0x8001d264) };
 
 	// Function pointer array
 	// Used by `STFGTREP_f0`
@@ -5720,34 +5720,34 @@ util::decl_static! { "dw2003_exe_data1",
 		core::ptr::null(),
 		core::ptr::null(),
 		// Loaded by `CNTY_SEL.PRO`, `STITSHOP.PRO` and `STFGTREP_f0`
-		&F0x8001d714,
-		&F0x8001d7c4,
+		ptr::addr_of!(F0x8001d714),
+		ptr::addr_of!(F0x8001d7c4),
 	] };
 
 	pub static mut D0x8004df68: [*const u32; 1] = unsafe { [
-		&F0x8001d844,
+		ptr::addr_of!(F0x8001d844),
 	] };
 
 	pub static mut D0x8004df6c: [*const u32; 8] = unsafe { [
-		&F0x8001d854,
-		&F0x8001d860,
-		&F0x8001d4e0,
-		&F0x8001d504,
-		&F0x8001dbe0,
-		&F0x8001dc7c,
-		&F0x8001d8cc,
-		&F0x8001da00,
+		ptr::addr_of!(F0x8001d854),
+		ptr::addr_of!(F0x8001d860),
+		ptr::addr_of!(F0x8001d4e0),
+		ptr::addr_of!(F0x8001d504),
+		ptr::addr_of!(F0x8001dbe0),
+		ptr::addr_of!(F0x8001dc7c),
+		ptr::addr_of!(F0x8001d8cc),
+		ptr::addr_of!(F0x8001da00),
 	] };
 
 	pub static mut D0x8004df8c: [*const u32; 3] = unsafe { [
-		&F0x8001da84,
-		&F0x8001dd04,
-		&F0x8001d6e4,
+		ptr::addr_of!(F0x8001da84),
+		ptr::addr_of!(F0x8001dd04),
+		ptr::addr_of!(F0x8001d6e4),
 	] };
 
 	pub static mut D0x8004df98: [*const u32; 2] = unsafe { [
-		&F0x8001d6f4,
-		&F0x8001d704,
+		ptr::addr_of!(F0x8001d6f4),
+		ptr::addr_of!(F0x8001d704),
 	] };
 
 	//
@@ -7021,7 +7021,7 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8004f358: u32 = 0x010c0600;
 	pub static mut D0x8004f35c: u32 = 0xe830af48;
 	pub static mut D0x8004f360: u32 = 0x00000c08;
-	pub static mut D0x8004f364: *const u32 = unsafe { &D0x80010c06 };
+	pub static mut D0x8004f364: *const u32 = unsafe { ptr::addr_of!(D0x80010c06) };
 	pub static mut D0x8004f368: u32 = 0x08e830c1;
 	pub static mut D0x8004f36c: u32 = 0x0600000c;
 	pub static mut D0x8004f370: u32 = 0xa3a4010c;
@@ -9061,81 +9061,81 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8005189c: [u32; 6]= [0x0000089b, 0x0000089a, 0x089a0001, 0x089b0000, 0x089a0000, 0x00000000];
 	//
 	pub static mut D0x800518b4: u32 = 0x00000000;
-	pub static mut D0x800518b8: *const [u32; 7] = unsafe { &D0x80051208 };
-	pub static mut D0x800518bc: *const [u32; 6] = unsafe { &D0x80051224 };
-	pub static mut D0x800518c0: *const [u32; 6] = unsafe { &D0x8005123c };
-	pub static mut D0x800518c4: *const [u32; 6] = unsafe { &D0x80051254 };
-	pub static mut D0x800518c8: *const [u32; 6] = unsafe { &D0x8005126c };
-	pub static mut D0x800518cc: *const [u32; 6] = unsafe { &D0x80051284 };
-	pub static mut D0x800518d0: *const [u32; 6] = unsafe { &D0x8005129c };
-	pub static mut D0x800518d4: *const [u32; 6] = unsafe { &D0x800512b4 };
-	pub static mut D0x800518d8: *const [u32; 6] = unsafe { &D0x800512cc };
-	pub static mut D0x800518dc: *const [u32; 6] = unsafe { &D0x800512e4 };
-	pub static mut D0x800518e0: *const [u32; 6] = unsafe { &D0x800512fc };
-	pub static mut D0x800518e4: *const [u32; 6] = unsafe { &D0x80051314 };
-	pub static mut D0x800518e8: *const [u32; 6] = unsafe { &D0x8005132c };
-	pub static mut D0x800518ec: *const [u32; 6] = unsafe { &D0x80051344 };
-	pub static mut D0x800518f0: *const [u32; 6] = unsafe { &D0x8005135c };
-	pub static mut D0x800518f4: *const [u32; 6] = unsafe { &D0x80051374 };
-	pub static mut D0x800518f8: *const [u32; 6] = unsafe { &D0x8005138c };
-	pub static mut D0x800518fc: *const [u32; 6] = unsafe { &D0x800513a4 };
-	pub static mut D0x80051900: *const [u32; 6] = unsafe { &D0x800513bc };
-	pub static mut D0x80051904: *const [u32; 6] = unsafe { &D0x800513d4 };
-	pub static mut D0x80051908: *const [u32; 6] = unsafe { &D0x800513ec };
-	pub static mut D0x8005190c: *const [u32; 6] = unsafe { &D0x80051404 };
-	pub static mut D0x80051910: *const [u32; 6] = unsafe { &D0x8005141c };
-	pub static mut D0x80051914: *const [u32; 6] = unsafe { &D0x80051434 };
-	pub static mut D0x80051918: *const [u32; 6] = unsafe { &D0x8005144c };
-	pub static mut D0x8005191c: *const [u32; 6] = unsafe { &D0x80051464 };
-	pub static mut D0x80051920: *const [u32; 6] = unsafe { &D0x8005147c };
-	pub static mut D0x80051924: *const [u32; 6] = unsafe { &D0x80051494 };
-	pub static mut D0x80051928: *const [u32; 6] = unsafe { &D0x800514ac };
-	pub static mut D0x8005192c: *const [u32; 6] = unsafe { &D0x800514c4 };
-	pub static mut D0x80051930: *const [u32; 6] = unsafe { &D0x800514dc };
-	pub static mut D0x80051934: *const [u32; 6] = unsafe { &D0x800514f4 };
-	pub static mut D0x80051938: *const [u32; 6] = unsafe { &D0x8005150c };
-	pub static mut D0x8005193c: *const [u32; 6] = unsafe { &D0x80051524 };
-	pub static mut D0x80051940: *const [u32; 6] = unsafe { &D0x8005153c };
-	pub static mut D0x80051944: *const [u32; 6] = unsafe { &D0x80051554 };
-	pub static mut D0x80051948: *const [u32; 6] = unsafe { &D0x8005156c };
-	pub static mut D0x8005194c: *const [u32; 6] = unsafe { &D0x80051584 };
-	pub static mut D0x80051950: *const [u32; 6] = unsafe { &D0x8005159c };
-	pub static mut D0x80051954: *const [u32; 6] = unsafe { &D0x800515b4 };
-	pub static mut D0x80051958: *const [u32; 6] = unsafe { &D0x800515cc };
-	pub static mut D0x8005195c: *const [u32; 6] = unsafe { &D0x800515e4 };
-	pub static mut D0x80051960: *const [u32; 6] = unsafe { &D0x800515fc };
-	pub static mut D0x80051964: *const [u32; 6] = unsafe { &D0x80051614 };
-	pub static mut D0x80051968: *const [u32; 6] = unsafe { &D0x8005162c };
-	pub static mut D0x8005196c: *const [u32; 6] = unsafe { &D0x80051644 };
-	pub static mut D0x80051970: *const [u32; 6] = unsafe { &D0x8005165c };
-	pub static mut D0x80051974: *const [u32; 6] = unsafe { &D0x80051674 };
-	pub static mut D0x80051978: *const [u32; 6] = unsafe { &D0x8005168c };
-	pub static mut D0x8005197c: *const [u32; 6] = unsafe { &D0x800516a4 };
-	pub static mut D0x80051980: *const [u32; 6] = unsafe { &D0x800516bc };
-	pub static mut D0x80051984: *const [u32; 6] = unsafe { &D0x800516d4 };
-	pub static mut D0x80051988: *const [u32; 6] = unsafe { &D0x800516ec };
-	pub static mut D0x8005198c: *const [u32; 6] = unsafe { &D0x80051704 };
-	pub static mut D0x80051990: *const [u32; 6] = unsafe { &D0x8005171c };
-	pub static mut D0x80051994: *const [u32; 6] = unsafe { &D0x80051734 };
-	pub static mut D0x80051998: *const [u32; 6] = unsafe { &D0x8005174c };
-	pub static mut D0x8005199c: *const [u32; 6] = unsafe { &D0x80051764 };
-	pub static mut D0x800519a0: *const [u32; 6] = unsafe { &D0x8005177c };
-	pub static mut D0x800519a4: *const [u32; 6] = unsafe { &D0x80051794 };
-	pub static mut D0x800519a8: *const [u32; 6] = unsafe { &D0x800517ac };
-	pub static mut D0x800519ac: *const [u32; 6] = unsafe { &D0x800517c4 };
-	pub static mut D0x800519b0: *const [u32; 6] = unsafe { &D0x800517dc };
-	pub static mut D0x800519b4: *const [u32; 6] = unsafe { &D0x800517f4 };
-	pub static mut D0x800519b8: *const [u32; 6] = unsafe { &D0x8005180c };
-	pub static mut D0x800519bc: *const [u32; 6] = unsafe { &D0x80051824 };
-	pub static mut D0x800519c0: *const [u32; 6] = unsafe { &D0x8005183c };
-	pub static mut D0x800519c4: *const [u32; 6] = unsafe { &D0x80051854 };
-	pub static mut D0x800519c8: *const [u32; 6] = unsafe { &D0x8005186c };
-	pub static mut D0x800519cc: *const [u32; 6] = unsafe { &D0x80051884 };
-	pub static mut D0x800519d0: *const [u32; 6] = unsafe { &D0x8005189c };
+	pub static mut D0x800518b8: *const [u32; 7] = unsafe { ptr::addr_of!(D0x80051208) };
+	pub static mut D0x800518bc: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051224) };
+	pub static mut D0x800518c0: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005123c) };
+	pub static mut D0x800518c4: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051254) };
+	pub static mut D0x800518c8: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005126c) };
+	pub static mut D0x800518cc: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051284) };
+	pub static mut D0x800518d0: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005129c) };
+	pub static mut D0x800518d4: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800512b4) };
+	pub static mut D0x800518d8: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800512cc) };
+	pub static mut D0x800518dc: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800512e4) };
+	pub static mut D0x800518e0: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800512fc) };
+	pub static mut D0x800518e4: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051314) };
+	pub static mut D0x800518e8: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005132c) };
+	pub static mut D0x800518ec: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051344) };
+	pub static mut D0x800518f0: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005135c) };
+	pub static mut D0x800518f4: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051374) };
+	pub static mut D0x800518f8: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005138c) };
+	pub static mut D0x800518fc: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800513a4) };
+	pub static mut D0x80051900: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800513bc) };
+	pub static mut D0x80051904: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800513d4) };
+	pub static mut D0x80051908: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800513ec) };
+	pub static mut D0x8005190c: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051404) };
+	pub static mut D0x80051910: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005141c) };
+	pub static mut D0x80051914: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051434) };
+	pub static mut D0x80051918: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005144c) };
+	pub static mut D0x8005191c: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051464) };
+	pub static mut D0x80051920: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005147c) };
+	pub static mut D0x80051924: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051494) };
+	pub static mut D0x80051928: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800514ac) };
+	pub static mut D0x8005192c: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800514c4) };
+	pub static mut D0x80051930: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800514dc) };
+	pub static mut D0x80051934: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800514f4) };
+	pub static mut D0x80051938: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005150c) };
+	pub static mut D0x8005193c: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051524) };
+	pub static mut D0x80051940: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005153c) };
+	pub static mut D0x80051944: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051554) };
+	pub static mut D0x80051948: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005156c) };
+	pub static mut D0x8005194c: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051584) };
+	pub static mut D0x80051950: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005159c) };
+	pub static mut D0x80051954: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800515b4) };
+	pub static mut D0x80051958: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800515cc) };
+	pub static mut D0x8005195c: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800515e4) };
+	pub static mut D0x80051960: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800515fc) };
+	pub static mut D0x80051964: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051614) };
+	pub static mut D0x80051968: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005162c) };
+	pub static mut D0x8005196c: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051644) };
+	pub static mut D0x80051970: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005165c) };
+	pub static mut D0x80051974: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051674) };
+	pub static mut D0x80051978: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005168c) };
+	pub static mut D0x8005197c: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800516a4) };
+	pub static mut D0x80051980: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800516bc) };
+	pub static mut D0x80051984: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800516d4) };
+	pub static mut D0x80051988: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800516ec) };
+	pub static mut D0x8005198c: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051704) };
+	pub static mut D0x80051990: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005171c) };
+	pub static mut D0x80051994: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051734) };
+	pub static mut D0x80051998: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005174c) };
+	pub static mut D0x8005199c: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051764) };
+	pub static mut D0x800519a0: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005177c) };
+	pub static mut D0x800519a4: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051794) };
+	pub static mut D0x800519a8: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800517ac) };
+	pub static mut D0x800519ac: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800517c4) };
+	pub static mut D0x800519b0: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800517dc) };
+	pub static mut D0x800519b4: *const [u32; 6] = unsafe { ptr::addr_of!(D0x800517f4) };
+	pub static mut D0x800519b8: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005180c) };
+	pub static mut D0x800519bc: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051824) };
+	pub static mut D0x800519c0: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005183c) };
+	pub static mut D0x800519c4: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051854) };
+	pub static mut D0x800519c8: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005186c) };
+	pub static mut D0x800519cc: *const [u32; 6] = unsafe { ptr::addr_of!(D0x80051884) };
+	pub static mut D0x800519d0: *const [u32; 6] = unsafe { ptr::addr_of!(D0x8005189c) };
 
-	pub static mut D0x800519d4: *const [u32; 0x3800] = unsafe { &D0x8005cd38 };
-	pub static mut D0x800519d8: *const [u32; 0x2800] = unsafe { &D0x8006ad38 };
-	pub static mut D0x800519dc: *const [u32; 0x2800] = unsafe { &D0x80074d38 };
+	pub static mut D0x800519d4: *const [u32; 0x3800] = unsafe { ptr::addr_of!(D0x8005cd38) };
+	pub static mut D0x800519d8: *const [u32; 0x2800] = unsafe { ptr::addr_of!(D0x8006ad38) };
+	pub static mut D0x800519dc: *const [u32; 0x2800] = unsafe { ptr::addr_of!(D0x80074d38) };
 	pub static mut D0x800519e0: u32 = 0x00001010;
 	pub static mut D0x800519e4: u32 = 0x00049c10;
 	pub static mut D0x800519e8: u32 = 0x00062410;
@@ -9168,40 +9168,40 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x80055c38: u32 = 0x00000000;
 	pub static mut D0x80055c3c: u32 = 0x00000000;
 	pub static mut D0x80055c40: u32 = 0x00000000;
-	pub static mut D0x80055c44: *const u32 = unsafe { &F0x80020a10 };
-	pub static mut D0x80055c48: *const u32 = unsafe { &F0x8002006c };
-	pub static mut D0x80055c4c: *const u32 = unsafe { &F0x8002090c };
-	pub static mut D0x80055c50: *const u32 = unsafe { &F0x8002096c };
-	pub static mut D0x80055c54: *const u32 = unsafe { &F0x80020574 };
-	pub static mut D0x80055c58: *const u32 = unsafe { &F0x8002044c };
-	pub static mut D0x80055c5c: *const u32 = unsafe { &F0x800205f0 };
-	pub static mut D0x80055c60: *const u32 = unsafe { &F0x8002043c };
-	pub static mut D0x80055c64: *const u32 = unsafe { &F0x80020204 };
-	pub static mut D0x80055c68: *const u32 = unsafe { &F0x800202d4 };
-	pub static mut D0x80055c6c: *const u32 = unsafe { &F0x8002037c };
+	pub static mut D0x80055c44: *const u32 = unsafe { ptr::addr_of!(F0x80020a10) };
+	pub static mut D0x80055c48: *const u32 = unsafe { ptr::addr_of!(F0x8002006c) };
+	pub static mut D0x80055c4c: *const u32 = unsafe { ptr::addr_of!(F0x8002090c) };
+	pub static mut D0x80055c50: *const u32 = unsafe { ptr::addr_of!(F0x8002096c) };
+	pub static mut D0x80055c54: *const u32 = unsafe { ptr::addr_of!(F0x80020574) };
+	pub static mut D0x80055c58: *const u32 = unsafe { ptr::addr_of!(F0x8002044c) };
+	pub static mut D0x80055c5c: *const u32 = unsafe { ptr::addr_of!(F0x800205f0) };
+	pub static mut D0x80055c60: *const u32 = unsafe { ptr::addr_of!(F0x8002043c) };
+	pub static mut D0x80055c64: *const u32 = unsafe { ptr::addr_of!(F0x80020204) };
+	pub static mut D0x80055c68: *const u32 = unsafe { ptr::addr_of!(F0x800202d4) };
+	pub static mut D0x80055c6c: *const u32 = unsafe { ptr::addr_of!(F0x8002037c) };
 	pub static mut D0x80055c70: u32 = 0x00000000;
 	pub static mut D0x80055c74: u32 = 0x00000000;
-	pub static mut D0x80055c78: *const [u32; 0x1d5 ] = unsafe { &D0x80087580 };
-	pub static mut D0x80055c7c: *const [u32; 0x1d5 ] = unsafe { &D0x80087580 };
-	pub static mut D0x80055c80: *const [u32; 0xc   ] = unsafe { &D0x800832e8 };
-	pub static mut D0x80055c84: *const [u32; 0x74  ] = unsafe { &D0x80083118 };
-	pub static mut D0x80055c88: *const [u32; 0x108 ] = unsafe { &D0x80087160 };
-	pub static mut D0x80055c8c: *const [u32; 0x161e] = unsafe { &D0x80095e2c };
-	pub static mut D0x80055c90: *const [u32; 0x188 ] = unsafe { &D0x80084410 };
-	pub static mut D0x80055c94: *const [u32; 0x35  ] = unsafe { &D0x80082e98 };
-	pub static mut D0x80055c98: *const [u32; 0x44  ] = unsafe { &D0x80083ac0 };
-	pub static mut D0x80055c9c: *const [u32; 0x25  ] = unsafe { &D0x80083084 };
-	pub static mut D0x80055ca0: *const [u32; 0x31  ] = unsafe { &D0x80082dc8 };
-	pub static mut D0x80055ca4: *const [u32; 0x11  ] = unsafe { &D0x80083040 };
-	pub static mut D0x80055ca8: *const [u32; 0x6   ] = unsafe { &D0x80083028 };
-	pub static mut D0x80055cac: *const [u32; 0xcf  ] = unsafe { &D0x80083318 };
-	pub static mut D0x80055cb0: *const [u32; 0x11b ] = unsafe { &D0x80083654 };
+	pub static mut D0x80055c78: *const [u32; 0x1d5 ] = unsafe { ptr::addr_of!(D0x80087580) };
+	pub static mut D0x80055c7c: *const [u32; 0x1d5 ] = unsafe { ptr::addr_of!(D0x80087580) };
+	pub static mut D0x80055c80: *const [u32; 0xc   ] = unsafe { ptr::addr_of!(D0x800832e8) };
+	pub static mut D0x80055c84: *const [u32; 0x74  ] = unsafe { ptr::addr_of!(D0x80083118) };
+	pub static mut D0x80055c88: *const [u32; 0x108 ] = unsafe { ptr::addr_of!(D0x80087160) };
+	pub static mut D0x80055c8c: *const [u32; 0x161e] = unsafe { ptr::addr_of!(D0x80095e2c) };
+	pub static mut D0x80055c90: *const [u32; 0x188 ] = unsafe { ptr::addr_of!(D0x80084410) };
+	pub static mut D0x80055c94: *const [u32; 0x35  ] = unsafe { ptr::addr_of!(D0x80082e98) };
+	pub static mut D0x80055c98: *const [u32; 0x44  ] = unsafe { ptr::addr_of!(D0x80083ac0) };
+	pub static mut D0x80055c9c: *const [u32; 0x25  ] = unsafe { ptr::addr_of!(D0x80083084) };
+	pub static mut D0x80055ca0: *const [u32; 0x31  ] = unsafe { ptr::addr_of!(D0x80082dc8) };
+	pub static mut D0x80055ca4: *const [u32; 0x11  ] = unsafe { ptr::addr_of!(D0x80083040) };
+	pub static mut D0x80055ca8: *const [u32; 0x6   ] = unsafe { ptr::addr_of!(D0x80083028) };
+	pub static mut D0x80055cac: *const [u32; 0xcf  ] = unsafe { ptr::addr_of!(D0x80083318) };
+	pub static mut D0x80055cb0: *const [u32; 0x11b ] = unsafe { ptr::addr_of!(D0x80083654) };
 	pub static mut D0x80055cb4: u32 = 0x00000000;
-	pub static mut D0x80055cb8: *const [u32; 0x210 ] = unsafe { &D0x80083bd0 };
-	pub static mut D0x80055cbc: *const [u32; 0x52e ] = unsafe { &D0x80087cd4 };
-	pub static mut D0x80055cc0: *const [u32; 0x2f  ] = unsafe { &D0x80082f6c };
-	pub static mut D0x80055cc4: *const [u32; 0x9cc ] = unsafe { &D0x80084a30 };
-	pub static mut D0x80055cc8: *const [u32; 0x3   ] = unsafe { &D0x80082e8c };
+	pub static mut D0x80055cb8: *const [u32; 0x210 ] = unsafe { ptr::addr_of!(D0x80083bd0) };
+	pub static mut D0x80055cbc: *const [u32; 0x52e ] = unsafe { ptr::addr_of!(D0x80087cd4) };
+	pub static mut D0x80055cc0: *const [u32; 0x2f  ] = unsafe { ptr::addr_of!(D0x80082f6c) };
+	pub static mut D0x80055cc4: *const [u32; 0x9cc ] = unsafe { ptr::addr_of!(D0x80084a30) };
+	pub static mut D0x80055cc8: *const [u32; 0x3   ] = unsafe { ptr::addr_of!(D0x80082e8c) };
 	//
 	pub static mut D0x80055ccc: u32 = 0x00000000;
 	pub static mut D0x80055cd0: u32 = 0x00000000;
@@ -9228,8 +9228,8 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x80055d24: u32 = 0x00000165;
 	pub static mut D0x80055d28: u32 = 0x00000000;
 	pub static mut D0x80055d2c: u32 = 0x00000000;
-	pub static mut D0x80055d30: *const u32 = unsafe { &F0x80020c64 };
-	pub static mut D0x80055d34: *const u32 = unsafe { &F0x80020d10 };
+	pub static mut D0x80055d30: *const u32 = unsafe { ptr::addr_of!(F0x80020c64) };
+	pub static mut D0x80055d34: *const u32 = unsafe { ptr::addr_of!(F0x80020d10) };
 	pub static mut D0x80055d38: u32 = 0x1f801070;
 	pub static mut D0x80055d3c: u32 = 0x00000000;
 	pub static mut D0x80055d40: u32 = 0x00000000;
@@ -9273,8 +9273,8 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x80055dcc: u32 = 0xffffffff;
 	//
 	pub static mut D0x80055dd0: u32 = 0x00000000;
-	pub static mut D0x80055dd4: *const u32 = unsafe { &F0x80023274 };
-	pub static mut D0x80055dd8: *const u32 = unsafe { &F0x8002320c };
+	pub static mut D0x80055dd4: *const u32 = unsafe { ptr::addr_of!(F0x80023274) };
+	pub static mut D0x80055dd8: *const u32 = unsafe { ptr::addr_of!(F0x8002320c) };
 	pub static mut D0x80055ddc: u32 = 0x00000000;
 	pub static mut D0x80055de0: u32 = 0x00000000;
 	pub static mut D0x80055de4: u32 = 0x1f801070;
@@ -9282,11 +9282,11 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x80055dec: u32 = 0x00000000;
 	pub static mut D0x80055df0: u32 = 0x00000000;
 	pub static mut D0x80055df4: u32 = 0x00000000;
-	pub static mut D0x80055df8: *const u32 = unsafe { &F0x80024798 };
-	pub static mut D0x80055dfc: *const u32 = unsafe { &F0x800247e0 };
-	pub static mut D0x80055e00: *const u32 = unsafe { &F0x800248b8 };
-	pub static mut D0x80055e04: *const u32 = unsafe { &F0x80024964 };
-	pub static mut D0x80055e08: *const u32 = unsafe { &F0x80024a80 };
+	pub static mut D0x80055df8: *const u32 = unsafe { ptr::addr_of!(F0x80024798) };
+	pub static mut D0x80055dfc: *const u32 = unsafe { ptr::addr_of!(F0x800247e0) };
+	pub static mut D0x80055e00: *const u32 = unsafe { ptr::addr_of!(F0x800248b8) };
+	pub static mut D0x80055e04: *const u32 = unsafe { ptr::addr_of!(F0x80024964) };
+	pub static mut D0x80055e08: *const u32 = unsafe { ptr::addr_of!(F0x80024a80) };
 	pub static mut D0x80055e0c: u32 = 0x00000000;
 	pub static mut D0x80055e10: u32 = 0x00000000;
 	pub static mut D0x80055e14: u32 = 0x00000000;
@@ -9331,24 +9331,24 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x80055ea8: u32 = 0x00077350;
 	pub static mut D0x80055eac: u32 = 0x00470000;
 	//
-	pub static mut D0x80055eb0: *const u32 = unsafe { &D0x800102d8 };
-	pub static mut D0x80055eb4: *const u32 = unsafe { &F0x800275c0 };
-	pub static mut D0x80055eb8: *const u32 = unsafe { &F0x800275e4 };
-	pub static mut D0x80055ebc: *const u32 = unsafe { &F0x80026e00 };
-	pub static mut D0x80055ec0: *const u32 = unsafe { &F0x800274ec };
-	pub static mut D0x80055ec4: *const u32 = unsafe { &F0x80027508 };
-	pub static mut D0x80055ec8: *const u32 = unsafe { &F0x80027548 };
-	pub static mut D0x80055ecc: *const u32 = unsafe { &F0x8002726c };
-	pub static mut D0x80055ed0: *const u32 = unsafe { &F0x80027030 };
-	pub static mut D0x80055ed4: *const u32 = unsafe { &F0x80027894 };
-	pub static mut D0x80055ed8: *const u32 = unsafe { &F0x80027500 };
-	pub static mut D0x80055edc: *const u32 = unsafe { &F0x80026d20 };
-	pub static mut D0x80055ee0: *const u32 = unsafe { &F0x80027590 };
-	pub static mut D0x80055ee4: *const u32 = unsafe { &F0x80027af4 };
-	pub static mut D0x80055ee8: *const u32 = unsafe { &F0x80026d08 };
-	pub static mut D0x80055eec: *const u32 = unsafe { &F0x80027c30 };
-	pub static mut D0x80055ef0: *const *const u32 = unsafe { &D0x80055eb0 };
-	pub static mut D0x80055ef4: *const u32 = unsafe { &F0x800283fc };
+	pub static mut D0x80055eb0: *const u32 = unsafe { ptr::addr_of!(D0x800102d8) };
+	pub static mut D0x80055eb4: *const u32 = unsafe { ptr::addr_of!(F0x800275c0) };
+	pub static mut D0x80055eb8: *const u32 = unsafe { ptr::addr_of!(F0x800275e4) };
+	pub static mut D0x80055ebc: *const u32 = unsafe { ptr::addr_of!(F0x80026e00) };
+	pub static mut D0x80055ec0: *const u32 = unsafe { ptr::addr_of!(F0x800274ec) };
+	pub static mut D0x80055ec4: *const u32 = unsafe { ptr::addr_of!(F0x80027508) };
+	pub static mut D0x80055ec8: *const u32 = unsafe { ptr::addr_of!(F0x80027548) };
+	pub static mut D0x80055ecc: *const u32 = unsafe { ptr::addr_of!(F0x8002726c) };
+	pub static mut D0x80055ed0: *const u32 = unsafe { ptr::addr_of!(F0x80027030) };
+	pub static mut D0x80055ed4: *const u32 = unsafe { ptr::addr_of!(F0x80027894) };
+	pub static mut D0x80055ed8: *const u32 = unsafe { ptr::addr_of!(F0x80027500) };
+	pub static mut D0x80055edc: *const u32 = unsafe { ptr::addr_of!(F0x80026d20) };
+	pub static mut D0x80055ee0: *const u32 = unsafe { ptr::addr_of!(F0x80027590) };
+	pub static mut D0x80055ee4: *const u32 = unsafe { ptr::addr_of!(F0x80027af4) };
+	pub static mut D0x80055ee8: *const u32 = unsafe { ptr::addr_of!(F0x80026d08) };
+	pub static mut D0x80055eec: *const u32 = unsafe { ptr::addr_of!(F0x80027c30) };
+	pub static mut D0x80055ef0: *const *const u32 = unsafe { ptr::addr_of!(D0x80055eb0) };
+	pub static mut D0x80055ef4: *const u32 = unsafe { ptr::addr_of!(F0x800283fc) };
 	//
 	pub static mut D0x80055ef8: u8 = 0x00;
 	//
@@ -14256,47 +14256,47 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8005ab3e: u16 = 0x0000;
 	pub static mut D0x8005ab40: u32 = 0x00000000;
 	//
-	pub static mut D0x8005ab44: *const u32 = unsafe { &D0x800108fc };
-	pub static mut D0x8005ab48: *const u32 = unsafe { &D0x800108f4 };
-	pub static mut D0x8005ab4c: *const u32 = unsafe { &D0x800108e8 };
-	pub static mut D0x8005ab50: *const u32 = unsafe { &D0x800108e0 };
-	pub static mut D0x8005ab54: *const u32 = unsafe { &D0x800108d4 };
-	pub static mut D0x8005ab58: *const u32 = unsafe { &D0x800108c8 };
-	pub static mut D0x8005ab5c: *const u32 = unsafe { &D0x800108bc };
-	pub static mut D0x8005ab60: *const u32 = unsafe { &D0x800108b0 };
-	pub static mut D0x8005ab64: *const u32 = unsafe { &D0x800108a8 };
-	pub static mut D0x8005ab68: *const u32 = unsafe { &D0x8001089c };
-	pub static mut D0x8005ab6c: *const u32 = unsafe { &D0x80010890 };
-	pub static mut D0x8005ab70: *const u32 = unsafe { &D0x80010888 };
-	pub static mut D0x8005ab74: *const u32 = unsafe { &D0x8001087c };
-	pub static mut D0x8005ab78: *const u32 = unsafe { &D0x8001086c };
-	pub static mut D0x8005ab7c: *const u32 = unsafe { &D0x80010860 };
-	pub static mut D0x8005ab80: *const u32 = unsafe { &D0x8001085c };
-	pub static mut D0x8005ab84: *const u32 = unsafe { &D0x80010850 };
-	pub static mut D0x8005ab88: *const u32 = unsafe { &D0x80010844 };
-	pub static mut D0x8005ab8c: *const u32 = unsafe { &D0x8001085c };
-	pub static mut D0x8005ab90: *const u32 = unsafe { &D0x80010838 };
-	pub static mut D0x8005ab94: *const u32 = unsafe { &D0x8001082c };
-	pub static mut D0x8005ab98: *const u32 = unsafe { &D0x80010820 };
-	pub static mut D0x8005ab9c: *const u32 = unsafe { &D0x80010814 };
-	pub static mut D0x8005aba0: *const u32 = unsafe { &D0x8001085c };
-	pub static mut D0x8005aba4: *const u32 = unsafe { &D0x8001085c };
-	pub static mut D0x8005aba8: *const u32 = unsafe { &D0x8001085c };
-	pub static mut D0x8005abac: *const u32 = unsafe { &D0x8001085c };
-	pub static mut D0x8005abb0: *const u32 = unsafe { &D0x80010808 };
-	pub static mut D0x8005abb4: *const u32 = unsafe { &D0x8001085c };
-	pub static mut D0x8005abb8: *const u32 = unsafe { &D0x8001085c };
-	pub static mut D0x8005abbc: *const u32 = unsafe { &D0x8001085c };
-	pub static mut D0x8005abc0: *const u32 = unsafe { &D0x8001085c };
+	pub static mut D0x8005ab44: *const u32 = unsafe { ptr::addr_of!(D0x800108fc) };
+	pub static mut D0x8005ab48: *const u32 = unsafe { ptr::addr_of!(D0x800108f4) };
+	pub static mut D0x8005ab4c: *const u32 = unsafe { ptr::addr_of!(D0x800108e8) };
+	pub static mut D0x8005ab50: *const u32 = unsafe { ptr::addr_of!(D0x800108e0) };
+	pub static mut D0x8005ab54: *const u32 = unsafe { ptr::addr_of!(D0x800108d4) };
+	pub static mut D0x8005ab58: *const u32 = unsafe { ptr::addr_of!(D0x800108c8) };
+	pub static mut D0x8005ab5c: *const u32 = unsafe { ptr::addr_of!(D0x800108bc) };
+	pub static mut D0x8005ab60: *const u32 = unsafe { ptr::addr_of!(D0x800108b0) };
+	pub static mut D0x8005ab64: *const u32 = unsafe { ptr::addr_of!(D0x800108a8) };
+	pub static mut D0x8005ab68: *const u32 = unsafe { ptr::addr_of!(D0x8001089c) };
+	pub static mut D0x8005ab6c: *const u32 = unsafe { ptr::addr_of!(D0x80010890) };
+	pub static mut D0x8005ab70: *const u32 = unsafe { ptr::addr_of!(D0x80010888) };
+	pub static mut D0x8005ab74: *const u32 = unsafe { ptr::addr_of!(D0x8001087c) };
+	pub static mut D0x8005ab78: *const u32 = unsafe { ptr::addr_of!(D0x8001086c) };
+	pub static mut D0x8005ab7c: *const u32 = unsafe { ptr::addr_of!(D0x80010860) };
+	pub static mut D0x8005ab80: *const u32 = unsafe { ptr::addr_of!(D0x8001085c) };
+	pub static mut D0x8005ab84: *const u32 = unsafe { ptr::addr_of!(D0x80010850) };
+	pub static mut D0x8005ab88: *const u32 = unsafe { ptr::addr_of!(D0x80010844) };
+	pub static mut D0x8005ab8c: *const u32 = unsafe { ptr::addr_of!(D0x8001085c) };
+	pub static mut D0x8005ab90: *const u32 = unsafe { ptr::addr_of!(D0x80010838) };
+	pub static mut D0x8005ab94: *const u32 = unsafe { ptr::addr_of!(D0x8001082c) };
+	pub static mut D0x8005ab98: *const u32 = unsafe { ptr::addr_of!(D0x80010820) };
+	pub static mut D0x8005ab9c: *const u32 = unsafe { ptr::addr_of!(D0x80010814) };
+	pub static mut D0x8005aba0: *const u32 = unsafe { ptr::addr_of!(D0x8001085c) };
+	pub static mut D0x8005aba4: *const u32 = unsafe { ptr::addr_of!(D0x8001085c) };
+	pub static mut D0x8005aba8: *const u32 = unsafe { ptr::addr_of!(D0x8001085c) };
+	pub static mut D0x8005abac: *const u32 = unsafe { ptr::addr_of!(D0x8001085c) };
+	pub static mut D0x8005abb0: *const u32 = unsafe { ptr::addr_of!(D0x80010808) };
+	pub static mut D0x8005abb4: *const u32 = unsafe { ptr::addr_of!(D0x8001085c) };
+	pub static mut D0x8005abb8: *const u32 = unsafe { ptr::addr_of!(D0x8001085c) };
+	pub static mut D0x8005abbc: *const u32 = unsafe { ptr::addr_of!(D0x8001085c) };
+	pub static mut D0x8005abc0: *const u32 = unsafe { ptr::addr_of!(D0x8001085c) };
 	//
-	pub static mut D0x8005abc4: *const u32 = unsafe { &D0x8001093c };
-	pub static mut D0x8005abc8: *const u32 = unsafe { &D0x80010930 };
-	pub static mut D0x8005abcc: *const u32 = unsafe { &D0x80010924 };
-	pub static mut D0x8005abd0: *const u32 = unsafe { &D0x80010918 };
-	pub static mut D0x8005abd4: *const u32 = unsafe { &D0x80010910 };
-	pub static mut D0x8005abd8: *const u32 = unsafe { &D0x80010904 };
-	pub static mut D0x8005abdc: *const u32 = unsafe { &D0x8001085c };
-	pub static mut D0x8005abe0: *const u32 = unsafe { &D0x8001085c };
+	pub static mut D0x8005abc4: *const u32 = unsafe { ptr::addr_of!(D0x8001093c) };
+	pub static mut D0x8005abc8: *const u32 = unsafe { ptr::addr_of!(D0x80010930) };
+	pub static mut D0x8005abcc: *const u32 = unsafe { ptr::addr_of!(D0x80010924) };
+	pub static mut D0x8005abd0: *const u32 = unsafe { ptr::addr_of!(D0x80010918) };
+	pub static mut D0x8005abd4: *const u32 = unsafe { ptr::addr_of!(D0x80010910) };
+	pub static mut D0x8005abd8: *const u32 = unsafe { ptr::addr_of!(D0x80010904) };
+	pub static mut D0x8005abdc: *const u32 = unsafe { ptr::addr_of!(D0x8001085c) };
+	pub static mut D0x8005abe0: *const u32 = unsafe { ptr::addr_of!(D0x8001085c) };
 	pub static mut D0x8005abe4: u32 = 0x00000000;
 	pub static mut D0x8005abe8: u32 = 0x00000000;
 	pub static mut D0x8005abec: u32 = 0x00000000;
@@ -14436,12 +14436,12 @@ util::decl_static! { "dw2003_exe_data1",
 	//
 	pub static mut D0x8005adfd: u8 = 0x00;
 	pub static mut D0x8005adfe: u16 = 0x0000;
-	pub static mut D0x8005ae00: *const u8 = unsafe { &D0x8005adfc };
-	pub static mut D0x8005ae04: *const u32 = unsafe { &D0x800814b8 };
-	pub static mut D0x8005ae08: *const u8 = unsafe { &D0x8005ab3d };
-	pub static mut D0x8005ae0c: *const u32 = unsafe { &D0x8005ab2c };
-	pub static mut D0x8005ae10: *const u32 = unsafe { &D0x8005ab38 };
-	pub static mut D0x8005ae14: *const u32 = unsafe { &D0x80010a00 };
+	pub static mut D0x8005ae00: *const u8 = unsafe { ptr::addr_of!(D0x8005adfc) };
+	pub static mut D0x8005ae04: *const u32 = unsafe { ptr::addr_of!(D0x800814b8) };
+	pub static mut D0x8005ae08: *const u8 = unsafe { ptr::addr_of!(D0x8005ab3d) };
+	pub static mut D0x8005ae0c: *const u32 = unsafe { ptr::addr_of!(D0x8005ab2c) };
+	pub static mut D0x8005ae10: *const u32 = unsafe { ptr::addr_of!(D0x8005ab38) };
+	pub static mut D0x8005ae14: *const u32 = unsafe { ptr::addr_of!(D0x80010a00) };
 	pub static mut D0x8005ae18: u32 = 0x1f8010b8;
 	pub static mut D0x8005ae1c: u32 = 0x00000000;
 	pub static mut D0x8005ae20: u32 = 0x00000000;
@@ -15574,18 +15574,18 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8005bfb4: u32 = 0x00000000;
 	//
 	pub static mut D0x8005bfb8: [*const u32; 8] = unsafe { [
-		&D0x80010a88,
+		ptr::addr_of!(D0x80010a88),
 		core::ptr::null(), // Set by `f14` to `F0x8002f2cc()`
-		&F0x8002ee58,
-		&f14,
-		&F0x8002efa0,
+		ptr::addr_of!(F0x8002ee58),
+		ptr::addr_of!(f14),
+		ptr::addr_of!(F0x8002efa0),
 		core::ptr::null(), // Set by `f14` to `F0x8002f1ac()`?
-		&F0x8002f040,
+		ptr::addr_of!(F0x8002f040),
 		// TODO: Is this correct?
-		(&D0x8005af50 as *const u16).cast::<u32>(),
+		ptr::addr_of!(D0x8005af50).cast::<u32>(),
 	] };
 
-	pub static mut D0x8005bfd8: *const [*const u32; 8] = unsafe { &D0x8005bfb8 };
+	pub static mut D0x8005bfd8: *const [*const u32; 8] = unsafe { ptr::addr_of!(D0x8005bfb8) };
 
 	// Used by `f14`
 	pub static mut I_STAT_PTR_ADDR: *mut u16 = ptr::without_provenance_mut(0x1f801070);
@@ -15648,7 +15648,7 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8005c0a0: u32 = 0x0000003c;
 	//
 	pub static mut D0x8005c0a4: u32 = 0x00000001;
-	pub static mut D0x8005c0a8: *const u32 = unsafe { &F0x8002f59c };
+	pub static mut D0x8005c0a8: *const u32 = unsafe { ptr::addr_of!(F0x8002f59c) };
 	//
 	pub static mut D0x8005c0ac: u32 = 0x00000000;
 	//
@@ -16439,7 +16439,7 @@ util::decl_static! { "dw2003_exe_data1",
 		0x00000004,
 	];
 
-	pub static mut D0x8005cca0: *const u32 = unsafe { &f0 };
+	pub static mut D0x8005cca0: *const u32 = unsafe { ptr::addr_of!(f0) };
 	pub static mut D0x8005cca4: u32 = 0x0000094e;
 	pub static mut D0x8005cca8: u32 = 0x00000002;
 
