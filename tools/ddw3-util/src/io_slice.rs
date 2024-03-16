@@ -4,7 +4,6 @@
 use {
 	crate::write_take::WriteTakeExt,
 	std::{
-		convert::TryFrom,
 		io::{self, Read, Seek, SeekFrom, Write},
 		ops::{Bound, RangeBounds},
 	},

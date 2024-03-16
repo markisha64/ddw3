@@ -15,7 +15,7 @@ use {
 	super::string::FileString,
 	crate::Dir,
 	byteorder::{BigEndian, ByteOrder, LittleEndian},
-	std::{convert::TryInto, io},
+	std::io,
 };
 
 /// A directory entry.

@@ -3,7 +3,6 @@
 // Imports
 use std::{
 	assert_matches::debug_assert_matches,
-	convert::TryFrom,
 	io::{self, Read, Seek, SeekFrom, Write},
 };
 

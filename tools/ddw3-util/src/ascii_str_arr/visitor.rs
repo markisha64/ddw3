@@ -1,11 +1,7 @@
 //! Visitor for [`AsciiStrArr`]
 
 // Imports
-use {
-	super::AsciiStrArr,
-	ascii::AsciiStr,
-	std::{convert::TryFrom, fmt},
-};
+use {super::AsciiStrArr, ascii::AsciiStr, std::fmt};
 
 /// Visitor implementation
 pub(super) struct DeserializerVisitor<const N: usize>;

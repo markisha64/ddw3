@@ -15,7 +15,6 @@ use {
 	ascii::AsciiStr,
 	std::{
 		cmp::Ordering,
-		convert::TryFrom,
 		fmt,
 		hash::Hash,
 		ops::{self, Range},

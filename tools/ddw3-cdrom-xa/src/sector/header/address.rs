@@ -7,10 +7,7 @@ mod error;
 pub use self::error::{DeserializeBytesError, FromSectorPosError, SerializeBytesError};
 
 // Imports
-use {
-	ddw3_util::BcdU8,
-	std::{convert::TryFrom, ops::Range},
-};
+use {ddw3_util::BcdU8, std::ops::Range};
 
 /// Sector address
 // TODO: All of these are BCD, read and write them them as such.
