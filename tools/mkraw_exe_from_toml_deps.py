@@ -1,4 +1,3 @@
-#!/bin/env python3
 """
 Generates dependencies for creating a `raw_exe` from a `toml` manifest.
 """

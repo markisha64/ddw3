@@ -1,4 +1,3 @@
-#!/bin/env python3
 """
 Calls the `raw_exe` linker using a `toml` manifest
 """

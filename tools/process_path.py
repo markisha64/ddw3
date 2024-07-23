@@ -1,4 +1,3 @@
-#!/bin/env python3
 """
 Processes a path
 """

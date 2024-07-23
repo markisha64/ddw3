@@ -1,4 +1,3 @@
-#!/bin/env python3
 """
 Stitches a map file into one big image.
 """

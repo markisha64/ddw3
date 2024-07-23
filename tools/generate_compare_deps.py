@@ -1,4 +1,3 @@
-#!/bin/env python3
 """
 Generates dependencies for the compare rule.
 """

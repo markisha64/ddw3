@@ -1,4 +1,3 @@
-#!/bin/env python3
 """
 Calls the `ld` linker using a `toml` manifest
 """
