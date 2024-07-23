@@ -2,36 +2,36 @@
 
 /// Unknown0
 #[repr(C)]
-struct Unknown0 {
-	pad0: [u8; 0x58], // 0x00
-	a17:  u32,        // 0x58
-	a16:  u32,        // 0x5c
-	a15:  u32,        // 0x60
-	a14:  u32,        // 0x64
-	a13:  u32,        // 0x68
-	a12:  u32,        // 0x6c
-	a11:  u32,        // 0x70
-	a10:  u32,        // 0x74
-	a9:   u32,        // 0x78
-	a8:   u32,        // 0x7c
-	a0:   *mut u16,   // 0x80
-	a1:   u16,        // 0x84
-	a2:   u16,        // 0x86
-	a3:   u32,        // 0x88
-	a4:   *mut u16,   // 0x8c
-	a5:   u32,        // 0x90
-	a6:   u32,        // 0x94
-	a7:   u32,        // 0x98
-	a18:  u32,        // 0x9c
-	a19:  u32,        // 0xa0
-	a20:  u32,        // 0xa4
-	a21:  u32,        // 0xa8
-	a22:  u32,        // 0xac
-	a23:  u32,        // 0xb0
-	a24:  u32,        // 0xb4
-	a25:  u16,        // 0xb8
-	a26:  u16,        // 0xba
-	a27:  u16,        // 0xbc
+pub struct Unknown0 {
+	pub pad0: [u8; 0x58], // 0x00
+	pub a17:  u32,        // 0x58
+	pub a16:  u32,        // 0x5c
+	pub a15:  u32,        // 0x60
+	pub a14:  u32,        // 0x64
+	pub a13:  u32,        // 0x68
+	pub a12:  u32,        // 0x6c
+	pub a11:  u32,        // 0x70
+	pub a10:  u32,        // 0x74
+	pub a9:   u32,        // 0x78
+	pub a8:   u32,        // 0x7c
+	pub a0:   *mut u16,   // 0x80
+	pub a1:   u16,        // 0x84
+	pub a2:   u16,        // 0x86
+	pub a3:   u32,        // 0x88
+	pub a4:   *mut u16,   // 0x8c
+	pub a5:   u32,        // 0x90
+	pub a6:   u32,        // 0x94
+	pub a7:   u32,        // 0x98
+	pub a18:  u32,        // 0x9c
+	pub a19:  u32,        // 0xa0
+	pub a20:  u32,        // 0xa4
+	pub a21:  u32,        // 0xa8
+	pub a22:  u32,        // 0xac
+	pub a23:  u32,        // 0xb0
+	pub a24:  u32,        // 0xb4
+	pub a25:  u16,        // 0xb8
+	pub a26:  u16,        // 0xba
+	pub a27:  u16,        // 0xbc
 }
 
 util::decl_static! { "dw2003_pro_STGTRAIN_data",

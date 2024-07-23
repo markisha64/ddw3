@@ -63,8 +63,8 @@ pub enum DigimonId {
 /// Evolution level requirement
 #[repr(C)]
 pub struct EvoReqLevel {
-	evo:   DigimonId,
-	level: u16,
+	pub evo:   DigimonId,
+	pub level: u16,
 }
 
 impl EvoReqLevel {
@@ -106,12 +106,12 @@ impl EvoReqExtra {
 /// Evolution
 #[repr(C)]
 pub struct Evolution {
-	to:  DigimonId,
-	un0: u16,
+	pub to:  DigimonId,
+	pub un0: u16,
 
 	/// Requirements
-	req_level: [EvoReqLevel; 2],
-	req_extra: EvoReqExtra,
+	pub req_level: [EvoReqLevel; 2],
+	pub req_extra: EvoReqExtra,
 }
 
 impl Evolution {

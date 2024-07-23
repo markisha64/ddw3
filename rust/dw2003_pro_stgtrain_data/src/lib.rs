@@ -7,7 +7,7 @@
 #![allow(non_snake_case)]
 
 // Modules
-mod data;
+pub mod data;
 
 // Export
 pub use util::panic_handler;

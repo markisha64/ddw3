@@ -2,11 +2,11 @@
 
 #[repr(C)]
 pub struct Encounter {
-	digimon_id: u32,
-	level:      u16,
-	max_hp:     u16,
-	max_mp:     u16,
-	multiplier: u16,
+	pub digimon_id: u32,
+	pub level:      u16,
+	pub max_hp:     u16,
+	pub max_mp:     u16,
+	pub multiplier: u16,
 }
 
 util::decl_static! { "dw2003_pro_FIELDSTG_data",

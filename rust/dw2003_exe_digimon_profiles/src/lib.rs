@@ -5,7 +5,7 @@
 #![no_std]
 
 // Modules
-mod digimon_profile;
+pub mod digimon_profile;
 
 // Exports
 pub use util::panic_handler;
