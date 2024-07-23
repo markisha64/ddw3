@@ -67,7 +67,6 @@ alias:
   build_map_dir         : $(build_dir)/map
   build_map_tile_dir    : $(build_dir)/map-tile
   build_rlen_dir        : $(build_dir)/rlen
-  build_remake_psexe_dir: $(build_dir)/remake-psexe
 
   # Licenses
   license_psx_iso : licenses/psx-bin.dat
@@ -93,7 +92,6 @@ alias:
 
   # Psx iso
   dw2003_psx_iso       : $(build_psx_iso_dir)/dw2003.bin
-  dw2003_remake_psx_iso: $(build_psx_iso_dir)/dw2003-remake.bin
   dw3_psx_iso          : $(build_psx_iso_dir)/dw3.bin
   psx_iso              : $(build_psx_iso_dir)/^(path).bin
   psx_iso_cue          : $(build_psx_iso_dir)/^(path).cue
@@ -116,10 +114,6 @@ alias:
   psexe     : $(build_psexe_dir)/^(path).psexe
   psexe_deps: $(build_psexe_dir)/^(path).d
   psexe_toml: psexe/^(path).toml
-
-  # Psexe remake
-  remake_psexe     : $(build_remake_psexe_dir)/^(name).exe
-  remake_psexe_deps: $(build_remake_psexe_dir)/^(name).d
 
   # Raw exe
   raw_exe     : $(build_raw_exe_dir)/^(path).bin
@@ -165,7 +159,6 @@ alias:
 default:
   - $(dw3_psx_iso)
   - $(dw2003_psx_iso)
-  - $(dw2003_remake_psx_iso)
 
 rules:
   # Format
@@ -229,7 +222,6 @@ rules:
       - [$(rm), -rf, $(python3_venv)/]
       - [$(rm), -rf, tools/target/]
       - [$(rm), -rf, rust/target/]
-      - [$(rm), -rf, remake-rust/target/]
 
   # Directories
   mkdir:
@@ -621,30 +613,3 @@ rules:
         - -e
         - 's,rust/$(build_target_dir)/lib^(name).a,$(build_rust_dir)/^(name).a,g'
         - $(rust_lib_deps)
-
-  # psexe (remake)
-  remake_psexe:
-    alias:
-      build_target_dir: target/mipsel-sony-psx/release
-    out:
-      - $(remake_psexe)
-      - deps_file: $(remake_psexe_deps)
-    deps:
-      - static: $(remake_psexe::dir_name)/
-    exec:
-      # Build the crate
-      - cwd: remake-rust/
-        args:
-          - $(cargo)
-          - build
-          - --release
-          - --package=^(name)
-      - [$(cp), remake-rust/$(build_target_dir)/^(name).exe, $(remake_psexe)]
-
-      # Then copy the dependency file and adjust the references
-      - [$(cp), remake-rust/$(build_target_dir)/^(name).d, $(remake_psexe_deps)]
-      - - sed
-        - -i
-        - -e
-        - 's,remake-rust/$(build_target_dir)/^(name).exe,$(build_remake_psexe_dir)/^(name).exe,g'
-        - $(remake_psexe_deps)

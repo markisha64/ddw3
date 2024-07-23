@@ -1,8 +1,0 @@
-[package]
-name = "dw2003"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-
-psx = { version = "0.1.6", features = ["EU_region", "heap"] }

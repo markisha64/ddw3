@@ -7,4 +7,3 @@ resources/
 tools/target/
 tools/__pycache__
 rust/target/
-remake-rust/target/
