@@ -5,6 +5,7 @@ Generates dependencies for creating an `elf` from a `toml` manifest.
 # Import
 import argparse
 from pathlib import Path
+
 import toml
 import util
 

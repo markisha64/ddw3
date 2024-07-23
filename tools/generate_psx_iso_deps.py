@@ -3,8 +3,8 @@ Generates dependencies for a `psx` `ISO` file.
 """
 
 # Imports
-import xml.etree.ElementTree as ET
 import argparse
+import xml.etree.ElementTree as ET
 
 
 def main(args):

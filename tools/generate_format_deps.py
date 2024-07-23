@@ -4,6 +4,7 @@ Generates dependencies for the format rule.
 
 # Imports
 import argparse
+
 import format_all
 
 

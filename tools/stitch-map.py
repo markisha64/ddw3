@@ -6,9 +6,9 @@ import argparse
 from dataclasses import dataclass
 from pathlib import Path
 
-from PIL import Image
-import util
 import toml
+import util
+from PIL import Image
 
 
 @dataclass

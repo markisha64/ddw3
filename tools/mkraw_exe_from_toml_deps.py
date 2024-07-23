@@ -5,6 +5,7 @@ Generates dependencies for creating a `raw_exe` from a `toml` manifest.
 # Import
 import argparse
 from pathlib import Path
+
 import toml
 import util
 

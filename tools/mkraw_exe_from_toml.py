@@ -4,10 +4,11 @@ Calls the `raw_exe` linker using a `toml` manifest
 
 # Import
 import argparse
-from pathlib import Path
-import subprocess
-import shutil
 import os
+import shutil
+import subprocess
+from pathlib import Path
+
 import toml
 import util
 

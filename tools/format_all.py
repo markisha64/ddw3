@@ -43,6 +43,10 @@ def main(_args):
 	print(f"Prettier ({len(prettier_deps)} files)")
 	subprocess.run(["prettier", "--write"] + prettier_deps, check=True)
 	print(f"ruff ({len(python_deps)} files)")
+	# Note: `ruff format` doesn't sort imports, so we need to do that with `check`.
+	subprocess.run(
+		["ruff", "check", "--select", "I", "--fix"] + python_deps, check=True
+	)
 	subprocess.run(["ruff", "format"] + python_deps, check=True)
 
 
