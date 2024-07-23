@@ -17,6 +17,7 @@ class LayerObj:
 	"""
 	Layer object
 	"""
+
 	world_offset: tuple[int, int]
 	img_offset: tuple[int, int]
 	size: tuple[int, int]
@@ -27,6 +28,7 @@ class Layer:
 	"""
 	Layer
 	"""
+
 	objs: list[LayerObj]
 
 
@@ -35,6 +37,7 @@ class Tile:
 	"""
 	Tile
 	"""
+
 	img: Path | None
 	layers: list[Layer]
 
@@ -53,10 +56,7 @@ def parse_entry(entry_path: str) -> Tile:
 
 	# If it's `map-tile/empty.bin` return an empty tile
 	if str(entry_path) == "map-tile/empty.bin":
-		return Tile(
-			img=None,
-			layers=[]
-		)
+		return Tile(img=None, layers=[])
 
 	# Then, if it isn't built in `map-tile`, stop
 	if not str(entry_path).startswith("build/map-tile"):
@@ -66,24 +66,34 @@ def parse_entry(entry_path: str) -> Tile:
 	map_tile_config = toml.load(open(map_tile_config_path, encoding="utf-8"))
 
 	# If the map image isn't a `tim`, stop
-	map_tim_path = util.process_path(map_tile_config["img"], map_tile_config_path.parent)
+	map_tim_path = util.process_path(
+		map_tile_config["img"], map_tile_config_path.parent
+	)
 	if not str(map_tim_path).startswith("build/tim"):
 		raise RuntimeError(f"Entry {entry_path}'s image was not built in `build/tim`")
 
 	map_tim_config_path = map_tim_path.relative_to("build/").with_suffix(".toml")
 	map_tim_config = toml.load(open(map_tim_config_path, encoding="utf-8"))
 
-	map_img_path = util.process_path(map_tim_config["img"]["path"], map_tim_config_path.parent)
+	map_img_path = util.process_path(
+		map_tim_config["img"]["path"], map_tim_config_path.parent
+	)
 
 	return Tile(
 		img=map_img_path,
-		layers=[Layer(
-			objs=[LayerObj(
-				world_offset=layer_obj['world_offset'],
-				img_offset=layer_obj['img_offset'],
-				size=layer_obj['size'],
-			) for layer_obj in layer['objs']]
-		) for layer in map_tile_config['layers']]
+		layers=[
+			Layer(
+				objs=[
+					LayerObj(
+						world_offset=layer_obj["world_offset"],
+						img_offset=layer_obj["img_offset"],
+						size=layer_obj["size"],
+					)
+					for layer_obj in layer["objs"]
+				]
+			)
+			for layer in map_tile_config["layers"]
+		],
 	)
 
 
@@ -93,12 +103,12 @@ def main(args):
 	"""
 	map_config = toml.load(open(args.input_toml, encoding="utf-8"))
 
-	map_width: int = map_config['width']
-	map_height: int = map_config['height']
+	map_width: int = map_config["width"]
+	map_height: int = map_config["height"]
 
 	print(f"Map: {map_width}x{map_height}")
 
-	entries = map_config['entries']
+	entries = map_config["entries"]
 	entries = map(parse_entry, entries)
 	tiles = [[next(entries) for _ in range(map_width)] for _ in range(map_height)]
 
@@ -120,16 +130,21 @@ def main(args):
 			tile_img = Image.open(tile.img)
 			for layer in tile.layers:
 				for obj in layer.objs:
-					obj_img = tile_img.crop((
-						obj.img_offset[0],
-						obj.img_offset[1],
-						obj.img_offset[0] + obj.size[0],
-						obj.img_offset[1] + obj.size[1],
-					))
-					output_img.alpha_composite(obj_img, (
-						offset[0] + obj.world_offset[0],
-						offset[1] + obj.world_offset[1],
-					))
+					obj_img = tile_img.crop(
+						(
+							obj.img_offset[0],
+							obj.img_offset[1],
+							obj.img_offset[0] + obj.size[0],
+							obj.img_offset[1] + obj.size[1],
+						)
+					)
+					output_img.alpha_composite(
+						obj_img,
+						(
+							offset[0] + obj.world_offset[0],
+							offset[1] + obj.world_offset[1],
+						),
+					)
 
 	output_img.save(args.output)
 

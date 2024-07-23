@@ -1,7 +1,6 @@
-[tool.autopep8]
-max_line_length = 120
-ignore = [
-	# Use tabs
-	"E101",
-	"E111",
-]
+[tool.ruff.lint]
+ignore = ["E731"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "tab"

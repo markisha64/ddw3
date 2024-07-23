@@ -17,7 +17,7 @@ def main(args):
 	root = tree.getroot()
 	files = list(root.iter("file"))
 	files = map(lambda file: file.get("source"), files)
-	files = ' '.join(files)
+	files = " ".join(files)
 
 	with open(args.deps_file, "w", encoding="utf-8") as deps_file:
 		deps_file.write(f"{args.iso}: {files}")

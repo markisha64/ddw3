@@ -28,7 +28,10 @@ def main(args):
 	#       date after running objcopy?
 	tmp_elf_path = str(elf_path) + ".tmp"
 	shutil.copy(elf_path, tmp_elf_path)
-	subprocess.run([args.objcopy_bin, tmp_elf_path, f"--dump-section=.text={args.output}"], check=True)
+	subprocess.run(
+		[args.objcopy_bin, tmp_elf_path, f"--dump-section=.text={args.output}"],
+		check=True,
+	)
 	os.remove(tmp_elf_path)
 
 
