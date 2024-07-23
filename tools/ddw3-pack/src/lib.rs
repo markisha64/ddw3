@@ -1,7 +1,7 @@
 //! `PACK` files
 
 // Features
-#![feature(seek_stream_len, lint_reasons, array_windows, stmt_expr_attributes)]
+#![feature(seek_stream_len,  array_windows, stmt_expr_attributes)]
 
 // Imports
 use {

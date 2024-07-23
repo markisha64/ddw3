@@ -7,7 +7,7 @@
 	seek_stream_len,
 	let_chains,
 	generic_arg_infer,
-	lint_reasons,
+
 	decl_macro,
 	try_blocks,
 	path_file_prefix

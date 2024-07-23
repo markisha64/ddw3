@@ -131,4 +131,5 @@ impl FromIterator<Codepoint> for String {
 }
 
 /// Iterator type for [`String`]
-pub type Iter<'a> = impl Iterator<Item = &'a Codepoint> + 'a;
+// TODO: Use custom iterator/newtype for this
+pub type Iter<'a> = std::slice::Iter<'a, Codepoint>;

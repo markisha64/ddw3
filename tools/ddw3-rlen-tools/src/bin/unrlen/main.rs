@@ -1,7 +1,7 @@
 //! `RLEN` extractor
 
 // Features
-#![feature(array_chunks, array_windows, seek_stream_len, exclusive_range_pattern)]
+#![feature(array_chunks, array_windows, seek_stream_len)]
 
 // Modules
 mod args;

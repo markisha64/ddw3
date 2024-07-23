@@ -6,8 +6,7 @@
 	array_windows,
 	seek_stream_len,
 	try_blocks,
-	array_try_from_fn,
-	lint_reasons
+	array_try_from_fn
 )]
 
 // Modules
