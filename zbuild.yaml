@@ -1,6 +1,4 @@
 ---
-# TODO: When running a python script, get all the dependencies, since we do a few imports around.
-
 alias:
   # External tools
   # prettier-ignore
