@@ -44,11 +44,11 @@ DPCR_PTR=$v0
 
 	# If `DPCR_PTR != NULL`, call `F0x8002ec88`
 	# TODO: Why would `DPCR_PTR_ADDR` ever be defined as null?
-	beqz DPCR_PTR, .0
+	beqz DPCR_PTR, .L0
 	nop
 	jal F0x8002ec88
 	nop
-.0:
+.L0:
 
 
 	# SetCustomExitFromException(D0x8005af88)
