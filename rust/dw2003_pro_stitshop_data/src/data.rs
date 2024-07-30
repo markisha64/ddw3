@@ -1,7 +1,21 @@
 //! Data
 
+// Imports
+use core::ptr;
+use types::ItemId;
+
+/// Shop
+#[repr(C)]
+pub struct Shop {
+	/// Number of items
+	len: u32,
+
+	/// Items
+	items: *const ItemId,
+}
+
 util::decl_static! { "dw2003_pro_STITSHOP_data",
-	pub static mut STITSHOP_D0x00009df8: [u32; 460] = [
+	pub static mut STITSHOP_D0x00009df8: [u32; 68] = [
 		0x00000001, // 0x00009df8
 		0x00000002, // 0x00009dfc
 		0x00000003, // 0x00009e00
@@ -70,397 +84,785 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		0x0000000f, // 0x00009efc
 		0x00000016, // 0x00009f00
 		0x0000000a, // 0x00009f04
-		0x006a005c, // 0x00009f08
-		0x00a7009d, // 0x00009f0c
-		0x00d700be, // 0x00009f10
-		0x00ec00e2, // 0x00009f14
-		0x010600f9, // 0x00009f18
-		0x00000113, // 0x00009f1c
-		0x01260124, // 0x00009f20
-		0x012a0128, // 0x00009f24
-		0x012e012c, // 0x00009f28
-		0x01310130, // 0x00009f2c
-		0x01330132, // 0x00009f30
-		0x01350134, // 0x00009f34
-		0x01370136, // 0x00009f38
-		0x01390138, // 0x00009f3c
-		0x013b013a, // 0x00009f40
-		0x00000000, // 0x00009f44
-		0x0042002b, // 0x00009f48
-		0x00450043, // 0x00009f4c
-		0x00470046, // 0x00009f50
-		0x00490048, // 0x00009f54
-		0x004b004a, // 0x00009f58
-		0x004d004c, // 0x00009f5c
-		0x004f004e, // 0x00009f60
-		0x00510050, // 0x00009f64
-		0x00530052, // 0x00009f68
-		0x00000054, // 0x00009f6c
-		0x006e0060, // 0x00009f70
-		0x0086007a, // 0x00009f74
-		0x00a10093, // 0x00009f78
-		0x00b200ab, // 0x00009f7c
-		0x00c200b9, // 0x00009f80
-		0x00d100c9, // 0x00009f84
-		0x00e600db, // 0x00009f88
-		0x00fd00f0, // 0x00009f8c
-		0x0117010a, // 0x00009f90
-		0x00000000, // 0x00009f94
-		0x002c002b, // 0x00009f98
-		0x00000000, // 0x00009f9c
-		0x006b005d, // 0x00009fa0
-		0x00a8009e, // 0x00009fa4
-		0x00d800bf, // 0x00009fa8
-		0x00ed00e3, // 0x00009fac
-		0x010700fa, // 0x00009fb0
-		0x00000114, // 0x00009fb4
-		0x0042002b, // 0x00009fb8
-		0x00450043, // 0x00009fbc
-		0x00470046, // 0x00009fc0
-		0x00490048, // 0x00009fc4
-		0x004b004a, // 0x00009fc8
-		0x004d004c, // 0x00009fcc
-		0x004f004e, // 0x00009fd0
-		0x00510050, // 0x00009fd4
-		0x00530052, // 0x00009fd8
-		0x00000054, // 0x00009fdc
-		0x006c005e, // 0x00009fe0
-		0x00a9009f, // 0x00009fe4
-		0x00d900c0, // 0x00009fe8
-		0x00ee00e4, // 0x00009fec
-		0x010800fb, // 0x00009ff0
-		0x00000115, // 0x00009ff4
-		0x01260124, // 0x00009ff8
-		0x012a0128, // 0x00009ffc
-		0x012e012c, // 0x0000a000
-		0x01310130, // 0x0000a004
-		0x01330132, // 0x0000a008
-		0x01350134, // 0x0000a00c
-		0x01370136, // 0x0000a010
-		0x01390138, // 0x0000a014
-		0x013b013a, // 0x0000a018
-		0x00000000, // 0x0000a01c
-		0x0042002b, // 0x0000a020
-		0x00450043, // 0x0000a024
-		0x00470046, // 0x0000a028
-		0x00490048, // 0x0000a02c
-		0x004b004a, // 0x0000a030
-		0x004d004c, // 0x0000a034
-		0x004f004e, // 0x0000a038
-		0x00510050, // 0x0000a03c
-		0x00530052, // 0x0000a040
-		0x00000054, // 0x0000a044
-		0x006d005f, // 0x0000a048
-		0x00840078, // 0x0000a04c
-		0x00a00091, // 0x0000a050
-		0x00b000aa, // 0x0000a054
-		0x00c100b7, // 0x0000a058
-		0x00cf00c7, // 0x0000a05c
-		0x00e500da, // 0x0000a060
-		0x00fc00ef, // 0x0000a064
-		0x01160109, // 0x0000a068
-		0x00000000, // 0x0000a06c
-		0x006d005f, // 0x0000a070
-		0x00840078, // 0x0000a074
-		0x00a00091, // 0x0000a078
-		0x00b000aa, // 0x0000a07c
-		0x00c100b7, // 0x0000a080
-		0x00cf00c7, // 0x0000a084
-		0x00e500da, // 0x0000a088
-		0x00fc00ef, // 0x0000a08c
-		0x01160109, // 0x0000a090
-		0x00000000, // 0x0000a094
-		0x002c002b, // 0x0000a098
-		0x00430042, // 0x0000a09c
-		0x00460045, // 0x0000a0a0
-		0x00480047, // 0x0000a0a4
-		0x004a0049, // 0x0000a0a8
-		0x004c004b, // 0x0000a0ac
-		0x004e004d, // 0x0000a0b0
-		0x0050004f, // 0x0000a0b4
-		0x00520051, // 0x0000a0b8
-		0x00540053, // 0x0000a0bc
-		0x00000000, // 0x0000a0c0
-		0x006f0061, // 0x0000a0c4
-		0x0087007b, // 0x0000a0c8
-		0x00a20094, // 0x0000a0cc
-		0x00b300ac, // 0x0000a0d0
-		0x00c300ba, // 0x0000a0d4
-		0x00d200ca, // 0x0000a0d8
-		0x00e700dc, // 0x0000a0dc
-		0x00fe00f1, // 0x0000a0e0
-		0x0118010b, // 0x0000a0e4
-		0x00000000, // 0x0000a0e8
-		0x002c002b, // 0x0000a0ec
-		0x00430042, // 0x0000a0f0
-		0x00460045, // 0x0000a0f4
-		0x00480047, // 0x0000a0f8
-		0x004a0049, // 0x0000a0fc
-		0x004c004b, // 0x0000a100
-		0x004e004d, // 0x0000a104
-		0x0050004f, // 0x0000a108
-		0x00520051, // 0x0000a10c
-		0x00540053, // 0x0000a110
-		0x00000000, // 0x0000a114
-		0x00730065, // 0x0000a118
-		0x008c007f, // 0x0000a11c
-		0x00a60098, // 0x0000a120
-		0x00b600af, // 0x0000a124
-		0x00c600bd, // 0x0000a128
-		0x00d600ce, // 0x0000a12c
-		0x00eb00e1, // 0x0000a130
-		0x010500f8, // 0x0000a134
-		0x01230112, // 0x0000a138
-		0x00000000, // 0x0000a13c
-		0x01270125, // 0x0000a140
-		0x012b0129, // 0x0000a144
-		0x012f012d, // 0x0000a148
-		0x01310130, // 0x0000a14c
-		0x01330132, // 0x0000a150
-		0x01350134, // 0x0000a154
-		0x01370136, // 0x0000a158
-		0x01390138, // 0x0000a15c
-		0x013b013a, // 0x0000a160
-		0x00000000, // 0x0000a164
-		0x002c002b, // 0x0000a168
-		0x0042002d, // 0x0000a16c
-		0x00450043, // 0x0000a170
-		0x00470046, // 0x0000a174
-		0x00490048, // 0x0000a178
-		0x004b004a, // 0x0000a17c
-		0x004d004c, // 0x0000a180
-		0x004f004e, // 0x0000a184
-		0x00510050, // 0x0000a188
-		0x00530052, // 0x0000a18c
-		0x00000054, // 0x0000a190
-		0x00700062, // 0x0000a194
-		0x0088007c, // 0x0000a198
-		0x00950089, // 0x0000a19c
-		0x00cb00a3, // 0x0000a1a0
-		0x00dd00d3, // 0x0000a1a4
-		0x00e800de, // 0x0000a1a8
-		0x00f300f2, // 0x0000a1ac
-		0x00f500f4, // 0x0000a1b0
-		0x010000ff, // 0x0000a1b4
-		0x01020101, // 0x0000a1b8
-		0x010d010c, // 0x0000a1bc
-		0x010f010e, // 0x0000a1c0
-		0x011a0119, // 0x0000a1c4
-		0x011c011b, // 0x0000a1c8
-		0x011e011d, // 0x0000a1cc
-		0x0120011f, // 0x0000a1d0
-		0x00000000, // 0x0000a1d4
-		0x0030002f, // 0x0000a1d8
-		0x00320031, // 0x0000a1dc
-		0x00340033, // 0x0000a1e0
-		0x00360035, // 0x0000a1e4
-		0x00380037, // 0x0000a1e8
-		0x003a0039, // 0x0000a1ec
-		0x003c003b, // 0x0000a1f0
-		0x0000003d, // 0x0000a1f4
-		0x006e0060, // 0x0000a1f8
-		0x0086007a, // 0x0000a1fc
-		0x00a10093, // 0x0000a200
-		0x00b200ab, // 0x0000a204
-		0x00c200b9, // 0x0000a208
-		0x00d100c9, // 0x0000a20c
-		0x00e600db, // 0x0000a210
-		0x00fd00f0, // 0x0000a214
-		0x0117010a, // 0x0000a218
-		0x00000000, // 0x0000a21c
-		0x002c002b, // 0x0000a220
-		0x00430042, // 0x0000a224
-		0x00460045, // 0x0000a228
-		0x00480047, // 0x0000a22c
-		0x004a0049, // 0x0000a230
-		0x004c004b, // 0x0000a234
-		0x004e004d, // 0x0000a238
-		0x0050004f, // 0x0000a23c
-		0x00520051, // 0x0000a240
-		0x00540053, // 0x0000a244
-		0x00000000, // 0x0000a248
-		0x006f0061, // 0x0000a24c
-		0x0087007b, // 0x0000a250
-		0x00a20094, // 0x0000a254
-		0x00b300ac, // 0x0000a258
-		0x00c300ba, // 0x0000a25c
-		0x00d200ca, // 0x0000a260
-		0x00e700dc, // 0x0000a264
-		0x00fe00f1, // 0x0000a268
-		0x0118010b, // 0x0000a26c
-		0x00000000, // 0x0000a270
-		0x01260124, // 0x0000a274
-		0x012a0128, // 0x0000a278
-		0x012e012c, // 0x0000a27c
-		0x01310130, // 0x0000a280
-		0x01330132, // 0x0000a284
-		0x01350134, // 0x0000a288
-		0x01370136, // 0x0000a28c
-		0x01390138, // 0x0000a290
-		0x013b013a, // 0x0000a294
-		0x00000000, // 0x0000a298
-		0x002c002b, // 0x0000a29c
-		0x00430042, // 0x0000a2a0
-		0x00460045, // 0x0000a2a4
-		0x00480047, // 0x0000a2a8
-		0x004a0049, // 0x0000a2ac
-		0x004c004b, // 0x0000a2b0
-		0x004e004d, // 0x0000a2b4
-		0x0050004f, // 0x0000a2b8
-		0x00520051, // 0x0000a2bc
-		0x00540053, // 0x0000a2c0
-		0x00000000, // 0x0000a2c4
-		0x00710063, // 0x0000a2c8
-		0x008a007d, // 0x0000a2cc
-		0x00a40096, // 0x0000a2d0
-		0x00b400ad, // 0x0000a2d4
-		0x00c400bb, // 0x0000a2d8
-		0x00d400cc, // 0x0000a2dc
-		0x00e900df, // 0x0000a2e0
-		0x010300f6, // 0x0000a2e4
-		0x01210110, // 0x0000a2e8
-		0x00000000, // 0x0000a2ec
-		0x00720064, // 0x0000a2f0
-		0x008b007e, // 0x0000a2f4
-		0x00a50097, // 0x0000a2f8
-		0x00b500ae, // 0x0000a2fc
-		0x00c500bc, // 0x0000a300
-		0x00d500cd, // 0x0000a304
-		0x00ea00e0, // 0x0000a308
-		0x010400f7, // 0x0000a30c
-		0x01220111, // 0x0000a310
-		0x00000000, // 0x0000a314
-		0x002c002b, // 0x0000a318
-		0x00430042, // 0x0000a31c
-		0x00460045, // 0x0000a320
-		0x00480047, // 0x0000a324
-		0x004a0049, // 0x0000a328
-		0x004c004b, // 0x0000a32c
-		0x004e004d, // 0x0000a330
-		0x0050004f, // 0x0000a334
-		0x00520051, // 0x0000a338
-		0x00540053, // 0x0000a33c
-		0x00000000, // 0x0000a340
-		0x00720064, // 0x0000a344
-		0x008b007e, // 0x0000a348
-		0x00a50097, // 0x0000a34c
-		0x00b500ae, // 0x0000a350
-		0x00c500bc, // 0x0000a354
-		0x00d500cd, // 0x0000a358
-		0x00ea00e0, // 0x0000a35c
-		0x010400f7, // 0x0000a360
-		0x01220111, // 0x0000a364
-		0x00000000, // 0x0000a368
-		0x002c002b, // 0x0000a36c
-		0x00430042, // 0x0000a370
-		0x00460045, // 0x0000a374
-		0x00480047, // 0x0000a378
-		0x004a0049, // 0x0000a37c
-		0x004c004b, // 0x0000a380
-		0x004e004d, // 0x0000a384
-		0x0050004f, // 0x0000a388
-		0x00520051, // 0x0000a38c
-		0x00540053, // 0x0000a390
-		0x00000000, // 0x0000a394
-		0x00020001, // 0x0000a398
-		0x00040003, // 0x0000a39c
-		0x00060005, // 0x0000a3a0
-		0x00080007, // 0x0000a3a4
-		0x000a0009, // 0x0000a3a8
-		0x000c000b, // 0x0000a3ac
-		0x000e000d, // 0x0000a3b0
-		0x0010000f, // 0x0000a3b4
-		0x00120011, // 0x0000a3b8
-		0x00140013, // 0x0000a3bc
-		0x00160015, // 0x0000a3c0
-		0x00180017, // 0x0000a3c4
-		0x001a0019, // 0x0000a3c8
-		0x001c001b, // 0x0000a3cc
-		0x001e001d, // 0x0000a3d0
-		0x0020001f, // 0x0000a3d4
-		0x00220021, // 0x0000a3d8
-		0x00240023, // 0x0000a3dc
-		0x00260025, // 0x0000a3e0
-		0x00280027, // 0x0000a3e4
-		0x002a0029, // 0x0000a3e8
-		0x018a0168, // 0x0000a3ec
-		0x018c018b, // 0x0000a3f0
-		0x018e018d, // 0x0000a3f4
-		0x0190018f, // 0x0000a3f8
-		0x01920191, // 0x0000a3fc
-		0x00000000, // 0x0000a400
-		0x0000000b, // 0x0000a404
-		0x8008cbb8, // 0x0000a408
-		0x00000012, // 0x0000a40c
-		0x8008cbd0, // 0x0000a410
-		0x00000013, // 0x0000a414
-		0x8008cbf8, // 0x0000a418
-		0x00000012, // 0x0000a41c
-		0x8008cc20, // 0x0000a420
-		0x00000002, // 0x0000a424
-		0x8008cc48, // 0x0000a428
-		0x0000000b, // 0x0000a42c
-		0x8008cc50, // 0x0000a430
-		0x00000013, // 0x0000a434
-		0x8008cc68, // 0x0000a438
-		0x0000000b, // 0x0000a43c
-		0x8008cc90, // 0x0000a440
-		0x00000012, // 0x0000a444
-		0x8008cca8, // 0x0000a448
-		0x00000013, // 0x0000a44c
-		0x8008ccd0, // 0x0000a450
-		0x00000012, // 0x0000a454
-		0x8008ccf8, // 0x0000a458
-		0x00000012, // 0x0000a45c
-		0x8008cd20, // 0x0000a460
-		0x00000014, // 0x0000a464
-		0x8008cd48, // 0x0000a468
-		0x00000012, // 0x0000a46c
-		0x8008cd74, // 0x0000a470
-		0x00000014, // 0x0000a474
-		0x8008cd9c, // 0x0000a478
-		0x00000012, // 0x0000a47c
-		0x8008cdc8, // 0x0000a480
-		0x00000012, // 0x0000a484
-		0x8008cdf0, // 0x0000a488
-		0x00000015, // 0x0000a48c
-		0x8008ce18, // 0x0000a490
-		0x00000020, // 0x0000a494
-		0x8008ce44, // 0x0000a498
-		0x0000000f, // 0x0000a49c
-		0x8008ce88, // 0x0000a4a0
-		0x00000012, // 0x0000a4a4
-		0x8008cea8, // 0x0000a4a8
-		0x00000014, // 0x0000a4ac
-		0x8008ced0, // 0x0000a4b0
-		0x00000012, // 0x0000a4b4
-		0x8008cefc, // 0x0000a4b8
-		0x00000012, // 0x0000a4bc
-		0x8008cf24, // 0x0000a4c0
-		0x00000014, // 0x0000a4c4
-		0x8008cf4c, // 0x0000a4c8
-		0x00000012, // 0x0000a4cc
-		0x8008cf78, // 0x0000a4d0
-		0x00000012, // 0x0000a4d4
-		0x8008cfa0, // 0x0000a4d8
-		0x00000014, // 0x0000a4dc
-		0x8008cfc8, // 0x0000a4e0
-		0x00000012, // 0x0000a4e4
-		0x8008cff4, // 0x0000a4e8
-		0x00000014, // 0x0000a4ec
-		0x8008d01c, // 0x0000a4f0
-		0x00000034, // 0x0000a4f4
-		0x8008d048, // 0x0000a4f8
-		0x00000000, // 0x0000a4fc
-		0x8008c17c, // 0x0000a500
-		0x8008c238, // 0x0000a504
-		0x8008c2dc, // 0x0000a508
-		0x8008c370, // 0x0000a50c
-		0x8008c3dc, // 0x0000a510
-		0x8008c41c, // 0x0000a514
-		0x8008c488, // 0x0000a518
-		0x8008c4cc, // 0x0000a51c
-		0x8008c510, // 0x0000a520
-		0x8008c800, // 0x0000a524
+	];
+
+	pub static mut STITSHOP_ITEMS_0: [ItemId; 12] = [
+		ItemId::ShortSword,
+		ItemId::LeatherGlove,
+		ItemId::Dagger,
+		ItemId::BambooSpear,
+		ItemId::LongBow,
+		ItemId::Bandanna,
+		ItemId::Ribbon,
+		ItemId::HideHelmet,
+		ItemId::LeatherCoat,
+		ItemId::LeatherMail,
+		ItemId::Buckler,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_1: [ItemId; 20] = [
+		ItemId::PowerGem,
+		ItemId::GuardGem,
+		ItemId::SpiritGem,
+		ItemId::WisdomGem,
+		ItemId::BoostGem,
+		ItemId::CharismaGem,
+		ItemId::FlameRing,
+		ItemId::WaterRing,
+		ItemId::IceRing,
+		ItemId::WindRing,
+		ItemId::ThunderRing,
+		ItemId::MachineRing,
+		ItemId::DarkRing,
+		ItemId::AntidoteRing,
+		ItemId::ReviveRing,
+		ItemId::AwakeRing,
+		ItemId::SoberRing,
+		ItemId::PrayerRing,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_2: [ItemId; 20] = [
+		ItemId::PowerCharge,
+		ItemId::AntidoteDisk,
+		ItemId::ReviveDisk,
+		ItemId::EnergyDisk,
+		ItemId::LifeDisk,
+		ItemId::LifePlug,
+		ItemId::MachPlug,
+		ItemId::PowerPlug,
+		ItemId::GuardPlug,
+		ItemId::AuraPlug,
+		ItemId::DVPlug,
+		ItemId::FlameField,
+		ItemId::WaterField,
+		ItemId::IceField,
+		ItemId::WindField,
+		ItemId::ThunderField,
+		ItemId::MachineField,
+		ItemId::DarkField,
+		ItemId::UnknownField,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_3: [ItemId; 20] = [
+		ItemId::Shiratorimaru,
+		ItemId::PowerArm,
+		ItemId::Shotgun,
+		ItemId::BoneRod,
+		ItemId::CerberusFang,
+		ItemId::WingSword,
+		ItemId::DivineLance,
+		ItemId::Zweihander,
+		ItemId::Berdys,
+		ItemId::RavenBow,
+		ItemId::MetalGuard,
+		ItemId::KabuteriHorn,
+		ItemId::WoolCap,
+		ItemId::MagicalCrown,
+		ItemId::WingHelmet,
+		ItemId::DarkCloak,
+		ItemId::DarkArmor,
+		ItemId::GuardBarrier,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_4: [ItemId; 4] = [
+		ItemId::PowerCharge,
+		ItemId::SuperCharge,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_5: [ItemId; 12] = [
+		ItemId::ZandenSword,
+		ItemId::CatGlove,
+		ItemId::Shishioumaru,
+		ItemId::Spear,
+		ItemId::Shuriken,
+		ItemId::SunVisor,
+		ItemId::CatEars,
+		ItemId::TinHelmet,
+		ItemId::GymSuit,
+		ItemId::TinMail,
+		ItemId::TinShield,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_6: [ItemId; 20] = [
+		ItemId::PowerCharge,
+		ItemId::AntidoteDisk,
+		ItemId::ReviveDisk,
+		ItemId::EnergyDisk,
+		ItemId::LifeDisk,
+		ItemId::LifePlug,
+		ItemId::MachPlug,
+		ItemId::PowerPlug,
+		ItemId::GuardPlug,
+		ItemId::AuraPlug,
+		ItemId::DVPlug,
+		ItemId::FlameField,
+		ItemId::WaterField,
+		ItemId::IceField,
+		ItemId::WindField,
+		ItemId::ThunderField,
+		ItemId::MachineField,
+		ItemId::DarkField,
+		ItemId::UnknownField,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_7: [ItemId; 12] = [
+		ItemId::CrimsonBlade,
+		ItemId::IronGlove,
+		ItemId::LongSword,
+		ItemId::FairyTale,
+		ItemId::Crossbow,
+		ItemId::BaseballCap,
+		ItemId::Headband,
+		ItemId::IronHelmet,
+		ItemId::PriestRobe,
+		ItemId::IronArmor,
+		ItemId::IronShield,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_8: [ItemId; 20] = [
+		ItemId::PowerGem,
+		ItemId::GuardGem,
+		ItemId::SpiritGem,
+		ItemId::WisdomGem,
+		ItemId::BoostGem,
+		ItemId::CharismaGem,
+		ItemId::FlameRing,
+		ItemId::WaterRing,
+		ItemId::IceRing,
+		ItemId::WindRing,
+		ItemId::ThunderRing,
+		ItemId::MachineRing,
+		ItemId::DarkRing,
+		ItemId::AntidoteRing,
+		ItemId::ReviveRing,
+		ItemId::AwakeRing,
+		ItemId::SoberRing,
+		ItemId::PrayerRing,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_9: [ItemId; 20] = [
+		ItemId::PowerCharge,
+		ItemId::AntidoteDisk,
+		ItemId::ReviveDisk,
+		ItemId::EnergyDisk,
+		ItemId::LifeDisk,
+		ItemId::LifePlug,
+		ItemId::MachPlug,
+		ItemId::PowerPlug,
+		ItemId::GuardPlug,
+		ItemId::AuraPlug,
+		ItemId::DVPlug,
+		ItemId::FlameField,
+		ItemId::WaterField,
+		ItemId::IceField,
+		ItemId::WindField,
+		ItemId::ThunderField,
+		ItemId::MachineField,
+		ItemId::DarkField,
+		ItemId::UnknownField,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_10: [ItemId; 20] = [
+		ItemId::MightyBlade,
+		ItemId::NeedleGlove,
+		ItemId::Handgun,
+		ItemId::WoodenRod,
+		ItemId::WolfFang,
+		ItemId::Shamshir,
+		ItemId::Partisan,
+		ItemId::Claymore,
+		ItemId::Halberd,
+		ItemId::AngelBow,
+		ItemId::MiniGuard,
+		ItemId::MetalHorn,
+		ItemId::SchoolCap,
+		ItemId::MythrilCrown,
+		ItemId::KnightHelmet,
+		ItemId::RubberSuit,
+		ItemId::DigitamaMail,
+		ItemId::KnightShield,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_11: [ItemId; 20] = [
+		ItemId::MightyBlade,
+		ItemId::NeedleGlove,
+		ItemId::Handgun,
+		ItemId::WoodenRod,
+		ItemId::WolfFang,
+		ItemId::Shamshir,
+		ItemId::Partisan,
+		ItemId::Claymore,
+		ItemId::Halberd,
+		ItemId::AngelBow,
+		ItemId::MiniGuard,
+		ItemId::MetalHorn,
+		ItemId::SchoolCap,
+		ItemId::MythrilCrown,
+		ItemId::KnightHelmet,
+		ItemId::RubberSuit,
+		ItemId::DigitamaMail,
+		ItemId::KnightShield,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_12: [ItemId; 22] = [
+		ItemId::PowerCharge,
+		ItemId::SuperCharge,
+		ItemId::AntidoteDisk,
+		ItemId::ReviveDisk,
+		ItemId::EnergyDisk,
+		ItemId::LifeDisk,
+		ItemId::LifePlug,
+		ItemId::MachPlug,
+		ItemId::PowerPlug,
+		ItemId::GuardPlug,
+		ItemId::AuraPlug,
+		ItemId::DVPlug,
+		ItemId::FlameField,
+		ItemId::WaterField,
+		ItemId::IceField,
+		ItemId::WindField,
+		ItemId::ThunderField,
+		ItemId::MachineField,
+		ItemId::DarkField,
+		ItemId::UnknownField,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_13: [ItemId; 20] = [
+		ItemId::ShineBlade,
+		ItemId::TigerGlove,
+		ItemId::PsychoBlaster,
+		ItemId::MistyRod,
+		ItemId::EvilFang,
+		ItemId::KulonSword,
+		ItemId::Trent,
+		ItemId::Flamberge,
+		ItemId::SoulChopper,
+		ItemId::LightningBow,
+		ItemId::MightyGuard,
+		ItemId::ShockHorn,
+		ItemId::KungFuCap,
+		ItemId::ShamanMask,
+		ItemId::KulonHelmet,
+		ItemId::DownJacket,
+		ItemId::KulonArmor,
+		ItemId::KulonShield,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_14: [ItemId; 22] = [
+		ItemId::PowerCharge,
+		ItemId::SuperCharge,
+		ItemId::AntidoteDisk,
+		ItemId::ReviveDisk,
+		ItemId::EnergyDisk,
+		ItemId::LifeDisk,
+		ItemId::LifePlug,
+		ItemId::MachPlug,
+		ItemId::PowerPlug,
+		ItemId::GuardPlug,
+		ItemId::AuraPlug,
+		ItemId::DVPlug,
+		ItemId::FlameField,
+		ItemId::WaterField,
+		ItemId::IceField,
+		ItemId::WindField,
+		ItemId::ThunderField,
+		ItemId::MachineField,
+		ItemId::DarkField,
+		ItemId::UnknownField,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_15: [ItemId; 20] = [
+		ItemId::FuujinBlade,
+		ItemId::RaijinFist,
+		ItemId::SuijinCannon,
+		ItemId::Millenium,
+		ItemId::BelialFang,
+		ItemId::FenrirSword,
+		ItemId::OrochiSpear,
+		ItemId::GulfSword,
+		ItemId::OmegaHalberd,
+		ItemId::PositronCannon,
+		ItemId::DeusGuard,
+		ItemId::GloriousHorn,
+		ItemId::RedCap,
+		ItemId::GoddessCrown,
+		ItemId::MugenHelmet,
+		ItemId::KingsMantle,
+		ItemId::CrimsonMail,
+		ItemId::Apocalypse,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_16: [ItemId; 20] = [
+		ItemId::PowerRing,
+		ItemId::GuardRing,
+		ItemId::SpiritRing,
+		ItemId::WisdomRing,
+		ItemId::BoostRing,
+		ItemId::CharismaRing,
+		ItemId::FlameRing,
+		ItemId::WaterRing,
+		ItemId::IceRing,
+		ItemId::WindRing,
+		ItemId::ThunderRing,
+		ItemId::MachineRing,
+		ItemId::DarkRing,
+		ItemId::AntidoteRing,
+		ItemId::ReviveRing,
+		ItemId::AwakeRing,
+		ItemId::SoberRing,
+		ItemId::PrayerRing,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_17: [ItemId; 22] = [
+		ItemId::PowerCharge,
+		ItemId::SuperCharge,
+		ItemId::UltraCharge,
+		ItemId::AntidoteDisk,
+		ItemId::ReviveDisk,
+		ItemId::EnergyDisk,
+		ItemId::LifeDisk,
+		ItemId::LifePlug,
+		ItemId::MachPlug,
+		ItemId::PowerPlug,
+		ItemId::GuardPlug,
+		ItemId::AuraPlug,
+		ItemId::DVPlug,
+		ItemId::FlameField,
+		ItemId::WaterField,
+		ItemId::IceField,
+		ItemId::WindField,
+		ItemId::ThunderField,
+		ItemId::MachineField,
+		ItemId::DarkField,
+		ItemId::UnknownField,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_18: [ItemId; 34] = [
+		ItemId::RoninBlade,
+		ItemId::WildGlove,
+		ItemId::SniperCannon,
+		ItemId::DivineRod,
+		ItemId::YinYangWand,
+		ItemId::HazardFang,
+		ItemId::BraveSword,
+		ItemId::DramonGuard,
+		ItemId::DramonHorn,
+		ItemId::YinYangHat,
+		ItemId::SniperGoggle,
+		ItemId::DivineCrown,
+		ItemId::WildHelmet,
+		ItemId::RoninHelmet,
+		ItemId::BraveHelmet,
+		ItemId::HazardHelmet,
+		ItemId::DivineRobe,
+		ItemId::SniperSuit,
+		ItemId::YinYangSuit,
+		ItemId::WildSuit,
+		ItemId::DramonArmor,
+		ItemId::RoninArmor,
+		ItemId::HazardArmor,
+		ItemId::BraveArmor,
+		ItemId::DivineBarrier,
+		ItemId::SniperShield,
+		ItemId::YinYangWard,
+		ItemId::RoninShield,
+		ItemId::WildShield,
+		ItemId::BraveShield,
+		ItemId::HazardShield,
+		ItemId::DramonShield,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_19: [ItemId; 16] = [
+		ItemId::HPChip,
+		ItemId::MPChip,
+		ItemId::PowerChip,
+		ItemId::ArmorChip,
+		ItemId::MindChip,
+		ItemId::WisdomChip,
+		ItemId::BoostChip,
+		ItemId::CharismaChip,
+		ItemId::FireChip,
+		ItemId::WaterChip,
+		ItemId::IceChip,
+		ItemId::WindChip,
+		ItemId::ThunderChip,
+		ItemId::MetalChip,
+		ItemId::DevilChip,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_20: [ItemId; 20] = [
+		ItemId::Shiratorimaru,
+		ItemId::PowerArm,
+		ItemId::Shotgun,
+		ItemId::BoneRod,
+		ItemId::CerberusFang,
+		ItemId::WingSword,
+		ItemId::DivineLance,
+		ItemId::Zweihander,
+		ItemId::Berdys,
+		ItemId::RavenBow,
+		ItemId::MetalGuard,
+		ItemId::KabuteriHorn,
+		ItemId::WoolCap,
+		ItemId::MagicalCrown,
+		ItemId::WingHelmet,
+		ItemId::DarkCloak,
+		ItemId::DarkArmor,
+		ItemId::GuardBarrier,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_21: [ItemId; 22] = [
+		ItemId::PowerCharge,
+		ItemId::SuperCharge,
+		ItemId::AntidoteDisk,
+		ItemId::ReviveDisk,
+		ItemId::EnergyDisk,
+		ItemId::LifeDisk,
+		ItemId::LifePlug,
+		ItemId::MachPlug,
+		ItemId::PowerPlug,
+		ItemId::GuardPlug,
+		ItemId::AuraPlug,
+		ItemId::DVPlug,
+		ItemId::FlameField,
+		ItemId::WaterField,
+		ItemId::IceField,
+		ItemId::WindField,
+		ItemId::ThunderField,
+		ItemId::MachineField,
+		ItemId::DarkField,
+		ItemId::UnknownField,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_22: [ItemId; 20] = [
+		ItemId::ShineBlade,
+		ItemId::TigerGlove,
+		ItemId::PsychoBlaster,
+		ItemId::MistyRod,
+		ItemId::EvilFang,
+		ItemId::KulonSword,
+		ItemId::Trent,
+		ItemId::Flamberge,
+		ItemId::SoulChopper,
+		ItemId::LightningBow,
+		ItemId::MightyGuard,
+		ItemId::ShockHorn,
+		ItemId::KungFuCap,
+		ItemId::ShamanMask,
+		ItemId::KulonHelmet,
+		ItemId::DownJacket,
+		ItemId::KulonArmor,
+		ItemId::KulonShield,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_23: [ItemId; 20] = [
+		ItemId::PowerGem,
+		ItemId::GuardGem,
+		ItemId::SpiritGem,
+		ItemId::WisdomGem,
+		ItemId::BoostGem,
+		ItemId::CharismaGem,
+		ItemId::FlameRing,
+		ItemId::WaterRing,
+		ItemId::IceRing,
+		ItemId::WindRing,
+		ItemId::ThunderRing,
+		ItemId::MachineRing,
+		ItemId::DarkRing,
+		ItemId::AntidoteRing,
+		ItemId::ReviveRing,
+		ItemId::AwakeRing,
+		ItemId::SoberRing,
+		ItemId::PrayerRing,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_24: [ItemId; 22] = [
+		ItemId::PowerCharge,
+		ItemId::SuperCharge,
+		ItemId::AntidoteDisk,
+		ItemId::ReviveDisk,
+		ItemId::EnergyDisk,
+		ItemId::LifeDisk,
+		ItemId::LifePlug,
+		ItemId::MachPlug,
+		ItemId::PowerPlug,
+		ItemId::GuardPlug,
+		ItemId::AuraPlug,
+		ItemId::DVPlug,
+		ItemId::FlameField,
+		ItemId::WaterField,
+		ItemId::IceField,
+		ItemId::WindField,
+		ItemId::ThunderField,
+		ItemId::MachineField,
+		ItemId::DarkField,
+		ItemId::UnknownField,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_25: [ItemId; 20] = [
+		ItemId::Onimaru,
+		ItemId::KaiserFist,
+		ItemId::ClusterCannon,
+		ItemId::Khakkhara,
+		ItemId::SaberFang,
+		ItemId::Excalibur,
+		ItemId::VampireLance,
+		ItemId::RockBreaker,
+		ItemId::Ryuuzanmaru,
+		ItemId::SeraphicBow,
+		ItemId::MachGuard,
+		ItemId::ScissorHorn,
+		ItemId::NightVision,
+		ItemId::AngelRing,
+		ItemId::DTamaHelmet,
+		ItemId::BodyArmor,
+		ItemId::BeamArmor,
+		ItemId::BeamShield,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_26: [ItemId; 20] = [
+		ItemId::Tenjinmaru,
+		ItemId::TempestArm,
+		ItemId::LaserCannon,
+		ItemId::CrystalRod,
+		ItemId::VenomFang,
+		ItemId::GreySword,
+		ItemId::RoyalSpear,
+		ItemId::AtlasBuster,
+		ItemId::GaeaHalberd,
+		ItemId::GaruruCannon,
+		ItemId::MegaGuard,
+		ItemId::Trihorn,
+		ItemId::Beret,
+		ItemId::RoyalCrown,
+		ItemId::MatrixHelmet,
+		ItemId::MirageRobe,
+		ItemId::MistyArmor,
+		ItemId::HighSecurity,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_27: [ItemId; 22] = [
+		ItemId::PowerCharge,
+		ItemId::SuperCharge,
+		ItemId::AntidoteDisk,
+		ItemId::ReviveDisk,
+		ItemId::EnergyDisk,
+		ItemId::LifeDisk,
+		ItemId::LifePlug,
+		ItemId::MachPlug,
+		ItemId::PowerPlug,
+		ItemId::GuardPlug,
+		ItemId::AuraPlug,
+		ItemId::DVPlug,
+		ItemId::FlameField,
+		ItemId::WaterField,
+		ItemId::IceField,
+		ItemId::WindField,
+		ItemId::ThunderField,
+		ItemId::MachineField,
+		ItemId::DarkField,
+		ItemId::UnknownField,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_28: [ItemId; 20] = [
+		ItemId::Tenjinmaru,
+		ItemId::TempestArm,
+		ItemId::LaserCannon,
+		ItemId::CrystalRod,
+		ItemId::VenomFang,
+		ItemId::GreySword,
+		ItemId::RoyalSpear,
+		ItemId::AtlasBuster,
+		ItemId::GaeaHalberd,
+		ItemId::GaruruCannon,
+		ItemId::MegaGuard,
+		ItemId::Trihorn,
+		ItemId::Beret,
+		ItemId::RoyalCrown,
+		ItemId::MatrixHelmet,
+		ItemId::MirageRobe,
+		ItemId::MistyArmor,
+		ItemId::HighSecurity,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_29: [ItemId; 22] = [
+		ItemId::PowerCharge,
+		ItemId::SuperCharge,
+		ItemId::AntidoteDisk,
+		ItemId::ReviveDisk,
+		ItemId::EnergyDisk,
+		ItemId::LifeDisk,
+		ItemId::LifePlug,
+		ItemId::MachPlug,
+		ItemId::PowerPlug,
+		ItemId::GuardPlug,
+		ItemId::AuraPlug,
+		ItemId::DVPlug,
+		ItemId::FlameField,
+		ItemId::WaterField,
+		ItemId::IceField,
+		ItemId::WindField,
+		ItemId::ThunderField,
+		ItemId::MachineField,
+		ItemId::DarkField,
+		ItemId::UnknownField,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	pub static mut STITSHOP_ITEMS_30: [ItemId; 54] = [
+		ItemId::BalancedPack,
+		ItemId::PowerfulPack,
+		ItemId::ManiacPack,
+		ItemId::TreeBoots,
+		ItemId::FishingPole,
+		ItemId::AgumonDDNA,
+		ItemId::RedSnapper,
+		ItemId::ElDoradoID,
+		ItemId::SeiryuBadge,
+		ItemId::SuzakuBadge,
+		ItemId::ByakkoBadge,
+		ItemId::GenbuBadge,
+		ItemId::SmellyHerb,
+		ItemId::TNTChip,
+		ItemId::AgumonSuit,
+		ItemId::DESincerity,
+		ItemId::DEKnowledge,
+		ItemId::AsukaTrophy,
+		ItemId::KotemonDDNA,
+		ItemId::SunTrophy,
+		ItemId::SepikMask,
+		ItemId::BlueIDPass,
+		ItemId::RedIDPass,
+		ItemId::WhiteIDPass,
+		ItemId::BlackIDPass,
+		ItemId::セイリュウÁタグ,
+		ItemId::スザクÁタグ,
+		ItemId::ビャッコÁタグ,
+		ItemId::ゲンブÁタグ,
+		ItemId::チンロンÁタグ,
+		ItemId::スーツェイÁタグ,
+		ItemId::バイフーÁタグ,
+		ItemId::シェンウーÁタグ,
+		ItemId::GuilmonDDNA,
+		ItemId::VeemonDDNA,
+		ItemId::KocTrophy,
+		ItemId::PlatinumCard,
+		ItemId::RenamonDDNA,
+		ItemId::PatamonDDNA,
+		ItemId::SilverID,
+		ItemId::GoldID,
+		ItemId::PlatinumID,
+		ItemId::MonmonDDNA,
+		ItemId::RBooster05,
+		ItemId::KumamonDDNA,
+		ItemId::CronyID,
+		ItemId::EtemonsMike,
+		ItemId::BlueCard,
+		ItemId::_8lueCard,
+		ItemId::リカバリーCD3,
+		ItemId::StaffPass,
+		ItemId::FolderBag,
+		ItemId::Null,
+		ItemId::Null,
+	];
+
+	// 0x0000a404
+	pub static mut STITSHOP_SHOPS: [Shop; 31] = [
+		Shop { len: 0x0000000b, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_0 [0]) } },
+		Shop { len: 0x00000012, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_1 [0]) } },
+		Shop { len: 0x00000013, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_2 [0]) } },
+		Shop { len: 0x00000012, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_3 [0]) } },
+		Shop { len: 0x00000002, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_4 [0]) } },
+		Shop { len: 0x0000000b, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_5 [0]) } },
+		Shop { len: 0x00000013, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_6 [0]) } },
+		Shop { len: 0x0000000b, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_7 [0]) } },
+		Shop { len: 0x00000012, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_8 [0]) } },
+		Shop { len: 0x00000013, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_9 [0]) } },
+		Shop { len: 0x00000012, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_10[0]) } },
+		Shop { len: 0x00000012, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_11[0]) } },
+		Shop { len: 0x00000014, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_12[0]) } },
+		Shop { len: 0x00000012, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_13[0]) } },
+		Shop { len: 0x00000014, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_14[0]) } },
+		Shop { len: 0x00000012, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_15[0]) } },
+		Shop { len: 0x00000012, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_16[0]) } },
+		Shop { len: 0x00000015, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_17[0]) } },
+		Shop { len: 0x00000020, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_18[0]) } },
+		Shop { len: 0x0000000f, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_19[0]) } },
+		Shop { len: 0x00000012, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_20[0]) } },
+		Shop { len: 0x00000014, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_21[0]) } },
+		Shop { len: 0x00000012, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_22[0]) } },
+		Shop { len: 0x00000012, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_23[0]) } },
+		Shop { len: 0x00000014, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_24[0]) } },
+		Shop { len: 0x00000012, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_25[0]) } },
+		Shop { len: 0x00000012, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_26[0]) } },
+		Shop { len: 0x00000014, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_27[0]) } },
+		Shop { len: 0x00000012, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_28[0]) } },
+		Shop { len: 0x00000014, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_29[0]) } },
+		Shop { len: 0x00000034, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_30[0]) } },
+	];
+
+	pub static mut STITSHOP_D0x0000a4fc: [u32; 11] = [
+		0x00000000,
+		0x8008c17c,
+		0x8008c238,
+		0x8008c2dc,
+		0x8008c370,
+		0x8008c3dc,
+		0x8008c41c,
+		0x8008c488,
+		0x8008c4cc,
+		0x8008c510,
+		0x8008c800,
 	];
 }
