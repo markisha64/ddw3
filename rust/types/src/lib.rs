@@ -8,6 +8,7 @@
 
 // Modules
 pub mod digimon_id;
+pub mod enemy_id;
 
 // Exports
-pub use self::digimon_id::DigimonId;
+pub use self::{digimon_id::DigimonId, enemy_id::EnemyId};

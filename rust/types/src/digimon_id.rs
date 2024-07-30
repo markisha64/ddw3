@@ -1,6 +1,6 @@
 //! Digimon id
 
-// Digimon ids
+/// Digimon ids
 #[derive(Clone, Copy)]
 #[repr(u16)]
 pub enum DigimonId {
@@ -198,7 +198,7 @@ pub enum DigimonId {
 	Numemon4,
 	Numemon5,
 	Numemon6,
-	Raremon7,
+	Raremon2,
 	Cyclonemon2,
 	Tankmon2,
 	Musyamon2,
