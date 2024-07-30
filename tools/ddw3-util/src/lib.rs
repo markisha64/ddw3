@@ -3,7 +3,7 @@
 //! Most here might be moved to external creates if deemed worth it
 
 // Features
-#![feature(slice_index_methods, seek_stream_len,  can_vector, write_all_vectored)]
+#![feature(slice_index_methods, seek_stream_len, can_vector, write_all_vectored)]
 
 // Modules
 pub mod alphabet;

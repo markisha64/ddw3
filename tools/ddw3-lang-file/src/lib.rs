@@ -3,7 +3,6 @@
 // Features
 #![feature(
 	decl_macro,
-
 	unboxed_closures,
 	fn_traits,
 	tuple_trait,

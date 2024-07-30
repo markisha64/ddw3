@@ -1,8 +1,7 @@
 //! Data
 
 // Imports
-use core::ptr;
-use types::ItemId;
+use {core::ptr, types::ItemId};
 
 /// Shop
 #[repr(C)]
