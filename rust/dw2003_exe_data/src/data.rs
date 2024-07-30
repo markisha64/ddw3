@@ -1,5 +1,9 @@
 //! Data;
 
+// Lints
+// TODO: Remove this once `rust-analyzer` doesn't display the error
+#![expect(unused_unsafe, reason = "`rust-analyzer` displays an error of unsafe operation")]
+
 // Imports
 use core::ptr;
 
