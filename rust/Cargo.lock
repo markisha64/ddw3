@@ -34,6 +34,7 @@ dependencies = [
 name = "dw2003_pro_stfgtrep_data"
 version = "0.1.0"
 dependencies = [
+ "types",
  "util",
 ]
 
@@ -43,6 +44,10 @@ version = "0.1.0"
 dependencies = [
  "util",
 ]
+
+[[package]]
+name = "types"
+version = "0.1.0"
 
 [[package]]
 name = "util"
