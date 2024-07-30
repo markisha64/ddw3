@@ -9,16 +9,16 @@ alias:
   ld         : mips-elf-ld      # GNU assembler (GNU Binutils) 2.39
   objcopy    : mips-elf-objcopy # GNU assembler (GNU Binutils) 2.39
   mkpsxiso   : mkpsxiso         # MKPSXISO 2.02
-  cargo      : cargo            # cargo 1.72.0-nightly (f7b95e316 2023-05-30)
+  cargo      : cargo            # cargo 1.82.0-nightly (b5d44db1d 2024-07-26)
   sed        : sed              # sed (GNU sed) 4.9
-  sha256sum  : sha256sum        # sha256sum (GNU coreutils) 9.3
-  rm         : rm               # rm        (GNU coreutils) 9.3
-  mkdir      : mkdir            # mkdir     (GNU coreutils) 9.3
-  cp         : cp               # cp        (GNU coreutils) 9.3
-  touch      : touch            # touch     (GNU coreutils) 9.3
-  truncate   : truncate         # truncate  (GNU coreutils) 9.3
-  python3-sys: python3          # Python 3.11.3
-  yq         : yq               # yq 3.2.2
+  sha256sum  : sha256sum        # sha256sum (GNU coreutils) 9.5
+  rm         : rm               # rm        (GNU coreutils) 9.5
+  mkdir      : mkdir            # mkdir     (GNU coreutils) 9.5
+  cp         : cp               # cp        (GNU coreutils) 9.5
+  touch      : touch            # touch     (GNU coreutils) 9.5
+  truncate   : truncate         # truncate  (GNU coreutils) 9.5
+  python3-sys: python3          # Python 3.12.4
+  yq         : yq               # yq 3.4.3
 
   # Other tools
   generate_psx_iso_deps   : tools/generate_psx_iso_deps.py
