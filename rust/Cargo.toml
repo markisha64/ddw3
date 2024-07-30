@@ -9,6 +9,7 @@ members = [
 	"dw2003_pro_stgtrain_data",
 	"dw2003_pro_sdigiedt_data",
 	"dw2003_pro_fieldstg_data",
+	"dw2003_pro_stitshop_data",
 	"types",
 	"util",
 ]
@@ -22,5 +23,6 @@ dw2003_pro_stfgtrep_data = { path = "dw2003_pro_stfgtrep_data" }
 dw2003_pro_stgtrain_data = { path = "dw2003_pro_stgtrain_data" }
 dw2003_pro_sdigiedt_data = { path = "dw2003_pro_sdigiedt_data" }
 dw2003_pro_fieldstg_data = { path = "dw2003_pro_fieldstg_data" }
+dw2003_pro_stitshop_data = { path = "dw2003_pro_stitshop_data" }
 types = { path = "types" }
 util = { path = "util" }

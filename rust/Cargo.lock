@@ -48,6 +48,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "dw2003_pro_stitshop_data"
+version = "0.1.0"
+dependencies = [
+ "util",
+]
+
+[[package]]
 name = "types"
 version = "0.1.0"
 
