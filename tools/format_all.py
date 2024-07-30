@@ -11,7 +11,7 @@ from typing import Iterator
 def get_dependencies() -> Iterator[str]:
 	"Gets all dependencies"
 
-	exts = [".toml", ".yaml", ".json", ".py"]
+	exts = [".toml", ".yaml", ".json", ".py", ".rs"]
 	deps = subprocess.check_output(
 		["git", "ls-files", "--cached", "--others", "--exclude-standard"]
 	)
@@ -35,6 +35,7 @@ def main(_args):
 		dep for dep in deps if dep.endswith(".yaml") or dep.endswith(".json")
 	]
 	python_deps = [dep for dep in deps if dep.endswith(".py")]
+	rust_deps = [dep for dep in deps if dep.endswith(".rs")]
 
 	# Then format all
 	# TODO: Do these in parallel?
@@ -48,6 +49,17 @@ def main(_args):
 		["ruff", "check", "--select", "I", "--fix"] + python_deps, check=True
 	)
 	subprocess.run(["ruff", "format"] + python_deps, check=True)
+
+	# TODO: This is somewhat cheating, since we're not using `rust_deps`.
+	#       Should we try to find the `Cargo.toml` of each one, then call
+	#       call `cargo fmt` on each found manifest path?
+	#       We shouldn't use `rustfmt` directly because skips all the configuration
+	#       passed by cargo.
+	print(f"rustfmt ({len(rust_deps)} files)")
+	for manifest in ["rust/Cargo.toml", "tools/Cargo.toml"]:
+		subprocess.run(
+			["cargo", "fmt", f"--manifest-path={manifest}", "--all"], check=True
+		)
 
 
 if __name__ == "__main__":
