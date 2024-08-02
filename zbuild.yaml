@@ -109,12 +109,14 @@ alias:
   elf              : $(build_elf_dir)/^(path).elf
   elf_deps         : $(build_elf_dir)/^(path).d
   elf_linker_script: $(build_elf_dir)/^(path).ld
+  elf_map          : $(build_elf_dir)/^(path).map
   elf_toml         : elf/^(path).toml
 
   # Library
   lib              : $(build_lib_dir)/^(path).elf
   lib_deps         : $(build_lib_dir)/^(path).d
   lib_linker_script: $(build_lib_dir)/^(path).ld
+  lib_map          : $(build_lib_dir)/^(path).map
   lib_toml         : lib/^(path).toml
 
   # Psexe
@@ -519,6 +521,8 @@ rules:
         - $(elf)
         - --linker-script-output
         - $(elf_linker_script)
+        - --map-output
+        - $(elf_map)
         - --ld-bin
         - $(ld)
 
@@ -541,7 +545,7 @@ rules:
 
   # Lib
   lib:
-    out: [$(lib), $(lib_linker_script)]
+    out: [$(lib), $(lib_map), $(lib_linker_script)]
     deps:
       - $(python3)
       - $(lib_toml)
@@ -556,6 +560,8 @@ rules:
         - $(lib)
         - --linker-script-output
         - $(lib_linker_script)
+        - --map-output
+        - $(lib_map)
         - --ld-bin
         - $(ld)
 

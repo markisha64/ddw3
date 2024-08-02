@@ -69,6 +69,8 @@ ENTRY({entry})""")
 		"--omagic",
 		"--script",
 		args.linker_script_output,
+		"-Map",
+		args.map_output,
 		"--warn-section-align",
 		"--no-warn-mismatch",  # TODO: Might be worth considering some mismatches?
 		"--warn-common",
@@ -83,6 +85,7 @@ if __name__ == "__main__":
 	parser.add_argument(
 		"--linker-script-output", dest="linker_script_output", type=str, required=True
 	)
+	parser.add_argument("--map-output", dest="map_output", type=str, required=True)
 	parser.add_argument("--ld-bin", dest="ld_bin", type=str, required=True)
 
 	args = parser.parse_args()
