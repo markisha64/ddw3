@@ -25,4 +25,3 @@ sections = [
 	"section_STGTRAIN_1",
 	"dw2003_pro_STGTRAIN_data",
 ]
-link_with = ["build/elf/dw2003/exe.elf"]

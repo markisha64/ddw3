@@ -36,7 +36,7 @@ fn main() -> Result<(), anyhow::Error> {
 	let config = ddw3_util::read_toml::<Config, _>(&args.config_file).context("Unable to read config file")?;
 
 	// Open the elf file, parse it, and then get it as an elf
-	let elf_path = ddw3_util::resolve_input_path(&config.elf, config_parent);
+	let elf_path = ddw3_util::resolve_input_path(&config.lib, config_parent);
 	let elf_bytes = fs::read(elf_path).context("Unable to read elf file")?;
 	let object = Object::parse(&elf_bytes).context("Unable to parse elf file")?;
 	let elf = match object {

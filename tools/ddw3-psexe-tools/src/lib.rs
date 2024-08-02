@@ -7,8 +7,8 @@ use std::path::PathBuf;
 #[derive(Debug)]
 #[derive(serde::Serialize, serde::Deserialize)]
 pub struct Config {
-	/// Elf file
-	pub elf: PathBuf,
+	/// Lib file
+	pub lib: PathBuf,
 
 	/// License file
 	pub license: PathBuf,

@@ -1,0 +1,2 @@
+elf = "/build/elf/dw2003/pro/fightstg.elf"
+link_with = ["/build/elf/dw2003/exe.elf"]

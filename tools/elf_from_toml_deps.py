@@ -24,10 +24,6 @@ def main(args):
 		obj_path = util.process_path(obj_path, input_dir)
 		deps_file.write(f"{obj_path} ")
 
-	for link_path in config.get("link_with") or []:
-		obj_path = util.process_path(link_path, input_dir)
-		deps_file.write(f"{link_path} ")
-
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description="`ld` dependency creator")

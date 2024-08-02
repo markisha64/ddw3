@@ -1,0 +1,2 @@
+elf = "/build/elf/dw2003/exe.elf"
+entry = "start"

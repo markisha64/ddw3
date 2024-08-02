@@ -10,4 +10,3 @@ sections = [
 	"section_FIGHTSTG_check_move_cond",
 	"section_FIGHTSTG_1",
 ]
-link_with = ["build/elf/dw2003/exe.elf"]

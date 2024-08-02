@@ -33,7 +33,7 @@ fn main() -> Result<(), anyhow::Error> {
 	let mut deps_file_writer = DepsFileWriter::new();
 	deps_file_writer
 		.target_mut(args.output_file)
-		.add_dep(ddw3_util::resolve_input_path(&config.elf, config_parent))
+		.add_dep(ddw3_util::resolve_input_path(&config.lib, config_parent))
 		.add_dep(ddw3_util::resolve_input_path(&config.license, config_parent));
 
 	let deps_file = fs::File::create(args.output_deps).context("Unable to create output dependency file")?;

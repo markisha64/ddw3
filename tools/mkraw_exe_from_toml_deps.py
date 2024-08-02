@@ -20,8 +20,8 @@ def main(args):
 	deps_file = open(args.deps_file, "w", encoding="utf-8")
 	deps_file.write(f"{args.output}: ")
 
-	elf_path = util.process_path(config["elf"], input_dir)
-	deps_file.write(f"{elf_path} ")
+	lib_path = util.process_path(config["lib"], input_dir)
+	deps_file.write(f"{lib_path} ")
 
 
 if __name__ == "__main__":

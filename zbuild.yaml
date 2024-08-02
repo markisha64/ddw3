@@ -24,8 +24,10 @@ alias:
   generate_format_deps    : tools/generate_format_deps.py
   mkraw_exe_from_toml     : tools/mkraw_exe_from_toml.py
   mkraw_exe_from_toml_deps: tools/mkraw_exe_from_toml_deps.py
-  ld_from_toml            : tools/ld_from_toml.py
-  ld_from_toml_deps       : tools/ld_from_toml_deps.py
+  elf_from_toml           : tools/elf_from_toml.py
+  elf_from_toml_deps      : tools/elf_from_toml_deps.py
+  lib_from_toml           : tools/lib_from_toml.py
+  lib_from_toml_deps      : tools/lib_from_toml_deps.py
   process_path            : tools/process_path.py
   format_all              : tools/format_all.py
 
@@ -56,6 +58,7 @@ alias:
   build_psx_iso_dir     : $(build_dir)/iso
   build_asm_dir         : $(build_dir)/asm
   build_elf_dir         : $(build_dir)/elf
+  build_lib_dir         : $(build_dir)/lib
   build_psexe_dir       : $(build_dir)/psexe
   build_rust_dir        : $(build_dir)/rust
   build_raw_exe_dir     : $(build_dir)/raw_exe
@@ -107,6 +110,12 @@ alias:
   elf_deps         : $(build_elf_dir)/^(path).d
   elf_linker_script: $(build_elf_dir)/^(path).ld
   elf_toml         : elf/^(path).toml
+
+  # Library
+  lib              : $(build_lib_dir)/^(path).elf
+  lib_deps         : $(build_lib_dir)/^(path).d
+  lib_linker_script: $(build_lib_dir)/^(path).ld
+  lib_toml         : lib/^(path).toml
 
   # Psexe
   psexe     : $(build_psexe_dir)/^(path).psexe
@@ -495,16 +504,16 @@ rules:
 
   # Elf
   elf:
-    out: [$(elf)]
+    out: [$(elf), $(elf_linker_script)]
     deps:
       - $(python3)
       - $(elf_toml)
-      - $(ld_from_toml)
+      - $(elf_from_toml)
       - deps_file: $(elf_deps)
       - static: $(elf::dir_name)/
     exec:
       - - $(python3)
-        - $(ld_from_toml)
+        - $(elf_from_toml)
         - $(elf_toml)
         - -o
         - $(elf)
@@ -519,16 +528,53 @@ rules:
     deps:
       - $(python3)
       - $(elf_toml)
-      - $(ld_from_toml_deps)
+      - $(elf_from_toml_deps)
       - static: $(elf_deps::dir_name)/
     exec:
       - - $(python3)
-        - $(ld_from_toml_deps)
+        - $(elf_from_toml_deps)
         - $(elf_toml)
         - -o
         - $(elf)
         - --deps
         - $(elf_deps)
+
+  # Lib
+  lib:
+    out: [$(lib), $(lib_linker_script)]
+    deps:
+      - $(python3)
+      - $(lib_toml)
+      - $(lib_from_toml)
+      - deps_file: $(lib_deps)
+      - static: $(lib::dir_name)/
+    exec:
+      - - $(python3)
+        - $(lib_from_toml)
+        - $(lib_toml)
+        - -o
+        - $(lib)
+        - --linker-script-output
+        - $(lib_linker_script)
+        - --ld-bin
+        - $(ld)
+
+  # Lib dependencies
+  lib_deps:
+    out: [$(lib_deps)]
+    deps:
+      - $(python3)
+      - $(lib_toml)
+      - $(lib_from_toml_deps)
+      - static: $(lib_deps::dir_name)/
+    exec:
+      - - $(python3)
+        - $(lib_from_toml_deps)
+        - $(lib_toml)
+        - -o
+        - $(lib)
+        - --deps
+        - $(lib_deps)
 
   # Assembly
   asm:
