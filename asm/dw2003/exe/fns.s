@@ -9744,7 +9744,7 @@ F0x80019224:
 .L800192d8: addu $v0, $s4
 .L800192dc: sh $zr, 0x6c($s0)
 .L800192e0: sb $zr, 0x3c8($v0)
-.L800192e4: addiu $a1, %lo(0x8004bb98)
+.L800192e4: addiu $a1, %lo(D0x8004bb98)
 .L800192e8: andi $a0, $s3, 0xff
 .L800192ec: addu $a1, $s2, $a1
 .L800192f0: jal F0x80020d8c
