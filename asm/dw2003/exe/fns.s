@@ -29098,6 +29098,9 @@ F0x8002b41c:
 .L0x8002b450: sh $t1, 0x4($a1)
 .L0x8002b454: jr $ra
 .L0x8002b458: sh $t2, 0x10($a1)
+
+.global F0x8002b45c
+F0x8002b45c:
 .L0x8002b45c: lh $t0, 0x4($a0)
 .L0x8002b460: or $v0, $zr, $a1
 .L0x8002b464: la_ $v1, D0x80056a28
