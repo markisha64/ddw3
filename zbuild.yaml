@@ -30,6 +30,7 @@ alias:
   lib_from_toml_deps      : tools/lib_from_toml_deps.py
   process_path            : tools/process_path.py
   format_all              : tools/format_all.py
+  get_elf_symbols         : tools/get_elf_symbols.sh
 
   # Python
   python3_venv: tools/.venv
@@ -110,6 +111,7 @@ alias:
   elf_deps         : $(build_elf_dir)/^(path).d
   elf_linker_script: $(build_elf_dir)/^(path).ld
   elf_map          : $(build_elf_dir)/^(path).map
+  elf_symbols      : $(build_elf_dir)/^(path).syms
   elf_toml         : elf/^(path).toml
 
   # Library
@@ -525,6 +527,18 @@ rules:
         - $(elf_map)
         - --ld-bin
         - $(ld)
+
+  # Elf symbols
+  elf_syms:
+    out: [$(elf_symbols)]
+    deps:
+      - $(get_elf_symbols)
+      - $(elf)
+      - static: $(elf_symbols::dir_name)/
+    exec:
+      - - $(get_elf_symbols)
+        - $(elf)
+        - $(elf_symbols)
 
   # Elf dependencies
   elf_deps:

@@ -1,2 +1,2 @@
 elf = "/build/elf/dw2003/pro/stfgtrep.elf"
-link_with = ["/build/elf/dw2003/exe.elf"]
+link_with = ["/build/elf/dw2003/exe.syms"]
