@@ -39,12 +39,12 @@ stack_ptr_kuseg=$v0
 	subu $a1, stack_ptr_kuseg, $v1
 	subu $a1, $a0
 	or $a0, $t0
-	sw $ra, 0x8005cce8
+	sw $ra, D0x8005cce8
 	la_ $gp, D0x8005cb50
 	move_ $s8, $sp
 	jal InitHeap
 	addi $a0, 0x4
-	lw $ra, 0x8005cce8
+	lw $ra, D0x8005cce8
 	nop
 
 # Enter the main loop

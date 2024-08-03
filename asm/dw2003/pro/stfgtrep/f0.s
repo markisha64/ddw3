@@ -72,7 +72,7 @@ STFGTREP_f0:
 	move_ $a3, $a1
 
 	# args: ()
-	jal 0x80085b24
+	jal D0x80085b24
 	nop
 	sw $v0, ($s2)
 
