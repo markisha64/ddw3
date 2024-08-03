@@ -23252,6 +23252,9 @@ F0x80025b14:
 .L0x80025c80: lw $s0, 0x10($sp)
 .L0x80025c84: jr $ra
 .L0x80025c88: addiu $sp, 0x20
+
+.global F0x80025c8c
+F0x80025c8c:
 .L0x80025c8c: lui $v0, %hi(D0x80055efa)
 .L0x80025c90: lbu $v0, %lo(D0x80055efa)($v0)
 .L0x80025c94: addiu $sp, -0x20
@@ -26523,6 +26526,9 @@ F0x80028c28:
 .L0x80028d80: lw $s0, 0x10($sp)
 .L0x80028d84: jr $ra
 .L0x80028d88: addiu $sp, 0x18
+
+.global F0x80028d8c
+F0x80028d8c:
 .L0x80028d8c: lui $a0, %hi(D0x80056060)
 .L0x80028d90: lw $a0, %lo(D0x80056060)($a0)
 .L0x80028d94: addiu $sp, -0x8
@@ -26560,6 +26566,9 @@ F0x80028c28:
 .L0x80028e14: lw $v0, ($sp)
 .L0x80028e18: jr $ra
 .L0x80028e1c: addiu $sp, 0x8
+
+.global F0x80028e20
+F0x80028e20:
 .L0x80028e20: lui $a2, %hi(D0x80056068)
 .L0x80028e24: lw $a2, %lo(D0x80056068)($a2)
 .L0x80028e28: move_ $a1, $zr
@@ -26584,6 +26593,9 @@ F0x80028c28:
 .L0x80028e74: move_ $v0, $zr
 .L0x80028e78: jr $ra
 .L0x80028e7c: nop
+
+.global F0x80028e80
+F0x80028e80:
 .L0x80028e80: addiu $sp, -0x20
 .L0x80028e84: sw $s0, 0x10($sp)
 .L0x80028e88: move_ $s0, $a0
@@ -26788,6 +26800,9 @@ F0x8002915c:
 .L0x80029180: jr $ra
 .L0x80029184: sw $v0, 0x4($a0)
 .L0x80029188: nop
+
+.global F0x8002918c
+F0x8002918c:
 .L0x8002918c: move_ $t0, $a0
 .L0x80029190: lh $v0, 0x4($a1)
 .L0x80029194: nop
@@ -27309,6 +27324,9 @@ F0x8002998c:
 .L0x800299a0: addiu $sp, 0x18
 .L0x800299a4: jr $ra
 .L0x800299a8: nop
+
+.global F0x800299ac
+F0x800299ac:
 .L0x800299ac: addiu $sp, -0x90
 .L0x800299b0: sw $s1, 0x7c($sp)
 .L0x800299b4: move_ $s1, $a0
@@ -27658,6 +27676,9 @@ F0x80029ec8:
 .L0x80029f10: sw $v1, 0x1c($a0)
 .L0x80029f14: nop
 .L0x80029f18: nop
+
+.global F0x80029f1c
+F0x80029f1c:
 .L0x80029f1c: addiu $sp, -0x18
 .L0x80029f20: move_ $a1, $a0
 .L0x80029f24: li $v0, 0x1
@@ -27842,6 +27863,9 @@ F0x8002a19c:
 .L0x8002a1a0: nop
 .L0x8002a1a4: nop
 .L0x8002a1a8: nop
+
+.global F0x8002a1ac
+F0x8002a1ac:
 .L0x8002a1ac: addiu $sp, -0xc0
 .L0x8002a1b0: sw $s4, 0xb0($sp)
 .L0x8002a1b4: move_ $s4, $a0
@@ -29042,6 +29066,9 @@ F0x8002b37c:
 .L0x8002b3a0: ctc2 $t4, $20
 .L0x8002b3a4: jr $ra
 .L0x8002b3a8: nop
+
+.global F0x8002b3ac
+F0x8002b3ac:
 .L0x8002b3ac: sll $a0, 0x4
 .L0x8002b3b0: sll $a1, 0x4
 .L0x8002b3b4: sll $a2, 0x4
