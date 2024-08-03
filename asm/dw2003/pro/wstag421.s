@@ -91,7 +91,7 @@ WSTAG421:
 .L0x00000150: li $a1, 0x54                        # .word 0x24050054
 .L0x00000154: li $a2, 0x4                         # .word 0x24060004
 .L0x00000158: sw $ra, 0x18($sp)                   # .word 0xafbf0018
-.L0x0000015c: jal 0x80014504                      # .word 0x0c005141
+.L0x0000015c: jal F0x80014504                      # .word 0x0c005141
 .L0x00000160: sw $s0, 0x10($sp)                   # .word 0xafb00010
 .L0x00000164: move_ $s0, $v0                      # .word 0x00408021
 .L0x00000168: lui $v0, 0x800a                     # .word 0x3c02800a

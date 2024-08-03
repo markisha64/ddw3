@@ -19450,7 +19450,7 @@ CARDGAME:
 .L0x00012fcc: nop                                 # .word 0x00000000
 .L0x00012fd0: jalr $v0                            # .word 0x0040f809
 .L0x00012fd4: move_ $a3, $a2                      # .word 0x00c03821
-.L0x00012fd8: jal 0x8001ffa8                      # .word 0x0c007fea
+.L0x00012fd8: jal F0x8001ffa8                      # .word 0x0c007fea
 .L0x00012fdc: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00012fe0: li $a0, 0x280                       # .word 0x24040280
 .L0x00012fe4: lw $v0, 0x34($sp)                   # .word 0x8fa20034
@@ -19560,7 +19560,7 @@ CARDGAME:
 .L0x00013184: addiu $a0, 0x5bfc                   # .word 0x24845bfc
 .L0x00013188: li $a1, 0x50                        # .word 0x24050050
 .L0x0001318c: sw $ra, 0x10($sp)                   # .word 0xafbf0010
-.L0x00013190: jal 0x80014504                      # .word 0x0c005141
+.L0x00013190: jal F0x80014504                      # .word 0x0c005141
 .L0x00013194: li $a2, 0x4                         # .word 0x24060004
 .L0x00013198: lw $ra, 0x10($sp)                   # .word 0x8fbf0010
 .L0x0001319c: nop                                 # .word 0x00000000
@@ -19578,7 +19578,7 @@ CARDGAME:
 .L0x000131cc: nop                                 # .word 0x00000000
 .L0x000131d0: beqz $v0, .L0x000132f4              # .word 0x10400048
 .L0x000131d4: nop                                 # .word 0x00000000
-.L0x000131d8: jal 0x8001f648                      # .word 0x0c007d92
+.L0x000131d8: jal F0x8001f648                      # .word 0x0c007d92
 .L0x000131dc: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x000131e0: lh $a0, 0x54($s0)                   # .word 0x86040054
 .L0x000131e4: lh $a1, 0x56($s0)                   # .word 0x86050056
@@ -19777,7 +19777,7 @@ CARDGAME:
 .L0x000134e8: addiu $a0, 0x5fb4                   # .word 0x24845fb4
 .L0x000134ec: li $a1, 0x74                        # .word 0x24050074
 .L0x000134f0: sw $ra, 0x18($sp)                   # .word 0xafbf0018
-.L0x000134f4: jal 0x80014504                      # .word 0x0c005141
+.L0x000134f4: jal F0x80014504                      # .word 0x0c005141
 .L0x000134f8: move_ $a2, $zr                      # .word 0x00003021
 .L0x000134fc: lui $v1, 0x8009                     # .word 0x3c038009
 .L0x00013500: addiu $v1, 0x6144                   # .word 0x24636144
@@ -19828,7 +19828,7 @@ CARDGAME:
 .L0x000135b4: nop                                 # .word 0x00000000
 .L0x000135b8: beqz $v0, .L0x00013754              # .word 0x10400066
 .L0x000135bc: nop                                 # .word 0x00000000
-.L0x000135c0: jal 0x8001f648                      # .word 0x0c007d92
+.L0x000135c0: jal F0x8001f648                      # .word 0x0c007d92
 .L0x000135c4: addiu $a0, $sp, 0x20                # .word 0x27a40020
 .L0x000135c8: lh $a0, 0x58($s0)                   # .word 0x86040058
 .L0x000135cc: lh $a1, 0x5a($s0)                   # .word 0x8605005a
@@ -19865,7 +19865,7 @@ CARDGAME:
 .L0x00013648: nop                                 # .word 0x00000000
 .L0x0001364c: jalr $v0                            # .word 0x0040f809
 .L0x00013650: li $a1, 0x45                        # .word 0x24050045
-.L0x00013654: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00013654: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00013658: addiu $a0, $sp, 0xc0                # .word 0x27a400c0
 .L0x0001365c: lh $a0, 0x58($s0)                   # .word 0x86040058
 .L0x00013660: lh $a1, 0x5a($s0)                   # .word 0x8605005a
@@ -19968,7 +19968,7 @@ CARDGAME:
 .L0x000137e4: li $v0, 0x1000                      # .word 0x24021000
 .L0x000137e8: sb $zr, 0x66($s3)                   # .word 0xa2600066
 .L0x000137ec: sh $v0, 0x5e($s3)                   # .word 0xa662005e
-.L0x000137f0: jal 0x8001ae38                      # .word 0x0c006b8e
+.L0x000137f0: jal F0x8001ae38                      # .word 0x0c006b8e
 .L0x000137f4: sh $zr, 0x5c($s3)                   # .word 0xa660005c
 .L0x000137f8: move_ $a0, $v0                      # .word 0x00402021
 .L0x000137fc: li $a2, -0x1                        # .word 0x2406ffff
@@ -20002,7 +20002,7 @@ CARDGAME:
 .L0x0001386c: li $a0, 0x100                       # .word 0x24040100
 .L0x00013870: li $a1, 0x1                         # .word 0x24050001
 .L0x00013874: move_ $a2, $zr                      # .word 0x00003021
-.L0x00013878: jal 0x8001ae38                      # .word 0x0c006b8e
+.L0x00013878: jal F0x8001ae38                      # .word 0x0c006b8e
 .L0x0001387c: move_ $a3, $a2                      # .word 0x00c03821
 .L0x00013880: move_ $a0, $v0                      # .word 0x00402021
 .L0x00013884: sw $a0, 0x4($s0)                    # .word 0xae040004
@@ -20211,7 +20211,7 @@ CARDGAME:
 .L0x00013bb0: lui $a0, 0x8009                     # .word 0x3c048009
 .L0x00013bb4: addiu $a0, 0x6418                   # .word 0x24846418
 .L0x00013bb8: li $a1, 0x74                        # .word 0x24050074
-.L0x00013bbc: jal 0x80014504                      # .word 0x0c005141
+.L0x00013bbc: jal F0x80014504                      # .word 0x0c005141
 .L0x00013bc0: li $a2, 0x1c                        # .word 0x2406001c
 .L0x00013bc4: li $s0, 0x5                         # .word 0x24100005
 .L0x00013bc8: move_ $s2, $v0                      # .word 0x00409021
@@ -20273,7 +20273,7 @@ CARDGAME:
 .L0x00013ca8: move_ $s0, $a0                      # .word 0x00808021
 .L0x00013cac: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00013cb0: sw $ra, 0xb8($sp)                   # .word 0xafbf00b8
-.L0x00013cb4: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00013cb4: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00013cb8: sw $s1, 0xb4($sp)                   # .word 0xafb100b4
 .L0x00013cbc: li $a0, 0x100                       # .word 0x24040100
 .L0x00013cc0: li $a1, 0x2                         # .word 0x24050002
@@ -20359,7 +20359,7 @@ CARDGAME:
 .L0x00013e00: sw $s5, 0xc4($sp)                   # .word 0xafb500c4
 .L0x00013e04: sw $s4, 0xc0($sp)                   # .word 0xafb400c0
 .L0x00013e08: sw $s2, 0xb8($sp)                   # .word 0xafb200b8
-.L0x00013e0c: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00013e0c: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00013e10: sw $s1, 0xb4($sp)                   # .word 0xafb100b4
 .L0x00013e14: lbu $a1, 0x10($s3)                  # .word 0x92650010
 .L0x00013e18: lw $v0, 0x8c($sp)                   # .word 0x8fa2008c
@@ -20454,7 +20454,7 @@ CARDGAME:
 .L0x00013f7c: sw $s1, 0xb4($sp)                   # .word 0xafb100b4
 .L0x00013f80: move_ $s1, $a3                      # .word 0x00e08821
 .L0x00013f84: sw $ra, 0xb8($sp)                   # .word 0xafbf00b8
-.L0x00013f88: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00013f88: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00013f8c: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00013f90: li $a0, 0x100                       # .word 0x24040100
 .L0x00013f94: lw $v0, 0x8c($sp)                   # .word 0x8fa2008c
@@ -20672,7 +20672,7 @@ CARDGAME:
 .L0x000142e4: sh $v0, 0x18($sp)                   # .word 0xa7a20018
 .L0x000142e8: jal 0x80096a94                      # .word 0x0c025aa5
 .L0x000142ec: sh $v1, 0x16($sp)                   # .word 0xa7a30016
-.L0x000142f0: jal 0x8001f648                      # .word 0x0c007d92
+.L0x000142f0: jal F0x8001f648                      # .word 0x0c007d92
 .L0x000142f4: addiu $a0, $sp, 0x28                # .word 0x27a40028
 .L0x000142f8: li $a0, 0x100                       # .word 0x24040100
 .L0x000142fc: lw $v0, 0xa4($sp)                   # .word 0x8fa200a4
@@ -20734,7 +20734,7 @@ CARDGAME:
 .L0x000143dc: li $v0, 0x2                         # .word 0x24020002
 .L0x000143e0: bne $v1, $v0, .L0x00014490          # .word 0x1462002b
 .L0x000143e4: nop                                 # .word 0x00000000
-.L0x000143e8: jal 0x8001f648                      # .word 0x0c007d92
+.L0x000143e8: jal F0x8001f648                      # .word 0x0c007d92
 .L0x000143ec: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x000143f0: li $a0, 0x100                       # .word 0x24040100
 .L0x000143f4: lw $v0, 0x8c($sp)                   # .word 0x8fa2008c
@@ -20776,7 +20776,7 @@ CARDGAME:
 .L0x00014484: lw $v0, 0x4f5c($v0)                 # .word 0x8c424f5c
 .L0x00014488: j 0x800971e4                        # .word 0x08025c79
 .L0x0001448c: ori $a0, 0x3                        # .word 0x34840003
-.L0x00014490: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00014490: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00014494: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00014498: li $a0, 0x100                       # .word 0x24040100
 .L0x0001449c: lw $v0, 0x8c($sp)                   # .word 0x8fa2008c
@@ -20966,7 +20966,7 @@ CARDGAME:
 .L0x0001477c: nop                                 # .word 0x00000000
 .L0x00014780: jalr $v1                            # .word 0x0060f809
 .L0x00014784: move_ $a1, $v0                      # .word 0x00402821
-.L0x00014788: jal 0x8001fcc0                      # .word 0x0c007f30
+.L0x00014788: jal F0x8001fcc0                      # .word 0x0c007f30
 .L0x0001478c: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00014790: lw $a1, 0x50($s0)                   # .word 0x8e050050
 .L0x00014794: lh $a2, 0xb4($s0)                   # .word 0x860600b4
@@ -21302,7 +21302,7 @@ CARDGAME:
 .L0x00014cbc: sw $s2, 0xb8($sp)                   # .word 0xafb200b8
 .L0x00014cc0: lw $s2, 0xd0($sp)                   # .word 0x8fb200d0
 .L0x00014cc4: sw $ra, 0xbc($sp)                   # .word 0xafbf00bc
-.L0x00014cc8: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00014cc8: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00014ccc: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00014cd0: li $a0, 0x100                       # .word 0x24040100
 .L0x00014cd4: lw $v0, 0x8c($sp)                   # .word 0x8fa2008c
@@ -21351,7 +21351,7 @@ CARDGAME:
 .L0x00014d80: sw $s1, 0xb4($sp)                   # .word 0xafb100b4
 .L0x00014d84: move_ $s1, $a3                      # .word 0x00e08821
 .L0x00014d88: sw $ra, 0xb8($sp)                   # .word 0xafbf00b8
-.L0x00014d8c: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00014d8c: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00014d90: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00014d94: li $a0, 0x100                       # .word 0x24040100
 .L0x00014d98: lw $v0, 0x8c($sp)                   # .word 0x8fa2008c
@@ -21715,7 +21715,7 @@ CARDGAME:
 .L0x00015330: sll $a2, 0x10                       # .word 0x00063400
 .L0x00015334: jalr $v0                            # .word 0x0040f809
 .L0x00015338: sra $a2, 0x10                       # .word 0x00063403
-.L0x0001533c: jal 0x8001fcc0                      # .word 0x0c007f30
+.L0x0001533c: jal F0x8001fcc0                      # .word 0x0c007f30
 .L0x00015340: addiu $a0, $sp, 0x18                # .word 0x27a40018
 .L0x00015344: li $s2, 0x12                        # .word 0x24120012
 .L0x00015348: lw $a0, 0x34($s4)                   # .word 0x8e840034
@@ -21869,7 +21869,7 @@ CARDGAME:
 .L0x00015598: sra $a0, 0x1f                       # .word 0x000427c3
 .L0x0001559c: mfhi $t0                            # .word 0x00004010
 .L0x000155a0: sra $v0, $t0, 0x3                   # .word 0x000810c3
-.L0x000155a4: jal 0x8002abcc                      # .word 0x0c00aaf3
+.L0x000155a4: jal F0x8002abcc                      # .word 0x0c00aaf3
 .L0x000155a8: subu $a0, $v0, $a0                  # .word 0x00442023
 .L0x000155ac: bgez $v0, .L0x000155b8              # .word 0x04410002
 .L0x000155b0: nop                                 # .word 0x00000000
@@ -22019,7 +22019,7 @@ CARDGAME:
 .L0x000157f0: sw $s2, 0xb8($sp)                   # .word 0xafb200b8
 .L0x000157f4: lw $s2, 0xd0($sp)                   # .word 0x8fb200d0
 .L0x000157f8: sw $ra, 0xbc($sp)                   # .word 0xafbf00bc
-.L0x000157fc: jal 0x8001f648                      # .word 0x0c007d92
+.L0x000157fc: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00015800: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00015804: li $a0, 0x100                       # .word 0x24040100
 .L0x00015808: lw $v0, 0x8c($sp)                   # .word 0x8fa2008c
@@ -22163,7 +22163,7 @@ CARDGAME:
 .L0x00015a30: sra $a0, 0x1f                       # .word 0x000427c3
 .L0x00015a34: mfhi $t0                            # .word 0x00004010
 .L0x00015a38: sra $v0, $t0, 0x3                   # .word 0x000810c3
-.L0x00015a3c: jal 0x8002abcc                      # .word 0x0c00aaf3
+.L0x00015a3c: jal F0x8002abcc                      # .word 0x0c00aaf3
 .L0x00015a40: subu $a0, $v0, $a0                  # .word 0x00442023
 .L0x00015a44: bgez $v0, .L0x00015a50              # .word 0x04410002
 .L0x00015a48: nop                                 # .word 0x00000000
@@ -22309,7 +22309,7 @@ CARDGAME:
 .L0x00015c78: sll $v0, $s1, 0x3                   # .word 0x001110c0
 .L0x00015c7c: addu $v0, $s1                       # .word 0x00511021
 .L0x00015c80: sll $v0, 0x2                        # .word 0x00021080
-.L0x00015c84: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00015c84: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00015c88: subu $s1, $a1, $v0                  # .word 0x00a28823
 .L0x00015c8c: li $a0, 0x100                       # .word 0x24040100
 .L0x00015c90: lw $v0, 0x8c($sp)                   # .word 0x8fa2008c
@@ -22514,7 +22514,7 @@ CARDGAME:
 .L0x00015fac: sll $v0, $s0, 0x1                   # .word 0x00101040
 .L0x00015fb0: addu $v0, $s0                       # .word 0x00501021
 .L0x00015fb4: sll $v0, 0x3                        # .word 0x000210c0
-.L0x00015fb8: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00015fb8: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00015fbc: subu $s0, $a1, $v0                  # .word 0x00a28023
 .L0x00015fc0: li $a0, 0x100                       # .word 0x24040100
 .L0x00015fc4: lw $v0, 0x12c($sp)                  # .word 0x8fa2012c
@@ -22725,7 +22725,7 @@ CARDGAME:
 .L0x000162f8: move_ $a1, $zr                      # .word 0x00002821
 .L0x000162fc: jal 0x80096a94                      # .word 0x0c025aa5
 .L0x00016300: sh $v0, 0x150($sp)                  # .word 0xa7a20150
-.L0x00016304: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00016304: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00016308: addiu $a0, $sp, 0x168               # .word 0x27a40168
 .L0x0001630c: li $a0, 0x100                       # .word 0x24040100
 .L0x00016310: lw $v0, 0x1e4($sp)                  # .word 0x8fa201e4
@@ -23402,7 +23402,7 @@ CARDGAME:
 .L0x00016d8c: nop                                 # .word 0x00000000
 .L0x00016d90: beqz $v0, .L0x00016e50              # .word 0x1040002f
 .L0x00016d94: nop                                 # .word 0x00000000
-.L0x00016d98: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00016d98: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00016d9c: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00016da0: li $a0, 0x100                       # .word 0x24040100
 .L0x00016da4: lw $v0, 0x8c($sp)                   # .word 0x8fa2008c
@@ -23638,7 +23638,7 @@ CARDGAME:
 .L0x0001713c: sw $s0, 0xb0($sp)                   # .word 0xafb000b0
 .L0x00017140: move_ $s0, $a0                      # .word 0x00808021
 .L0x00017144: sw $ra, 0xb4($sp)                   # .word 0xafbf00b4
-.L0x00017148: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00017148: jal F0x8001f648                      # .word 0x0c007d92
 .L0x0001714c: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00017150: li $a0, 0x100                       # .word 0x24040100
 .L0x00017154: lw $v0, 0x8c($sp)                   # .word 0x8fa2008c
@@ -23961,7 +23961,7 @@ CARDGAME:
 .L0x00017648: subu $a2, $a1                       # .word 0x00c53023
 .L0x0001764c: sw $a2, ($s1)                       # .word 0xae260000
 .L0x00017650: subu $v0, $v1                       # .word 0x00431023
-.L0x00017654: jal 0x8002abcc                      # .word 0x0c00aaf3
+.L0x00017654: jal F0x8002abcc                      # .word 0x0c00aaf3
 .L0x00017658: sw $v0, 0x4($s1)                    # .word 0xae220004
 .L0x0001765c: sll $v1, $v0, 0x3                   # .word 0x000218c0
 .L0x00017660: subu $v1, $v0                       # .word 0x00621823
@@ -24069,7 +24069,7 @@ CARDGAME:
 .L0x000177f8: sw $v0, ($s0)                       # .word 0xae020000
 .L0x000177fc: mfhi $a2                            # .word 0x00003010
 .L0x00017800: sra $a0, $a2, 0x2                   # .word 0x00062083
-.L0x00017804: jal 0x8002abcc                      # .word 0x0c00aaf3
+.L0x00017804: jal F0x8002abcc                      # .word 0x0c00aaf3
 .L0x00017808: subu $a0, $a1                       # .word 0x00852023
 .L0x0001780c: bgez $v0, .L0x00017818              # .word 0x04410002
 .L0x00017810: nop                                 # .word 0x00000000
@@ -24201,7 +24201,7 @@ CARDGAME:
 .L0x00017a08: sw $v0, 0x4($s1)                    # .word 0xae220004
 .L0x00017a0c: mfhi $a2                            # .word 0x00003010
 .L0x00017a10: sra $v0, $a2, 0x2                   # .word 0x00061083
-.L0x00017a14: jal 0x8002abcc                      # .word 0x0c00aaf3
+.L0x00017a14: jal F0x8002abcc                      # .word 0x0c00aaf3
 .L0x00017a18: subu $a0, $v0, $a0                  # .word 0x00442023
 .L0x00017a1c: bgez $v0, .L0x00017a28              # .word 0x04410002
 .L0x00017a20: nop                                 # .word 0x00000000
@@ -24252,7 +24252,7 @@ CARDGAME:
 .L0x00017ad4: sra $a0, 0x1f                       # .word 0x000427c3
 .L0x00017ad8: mfhi $a2                            # .word 0x00003010
 .L0x00017adc: sra $v0, $a2, 0x2                   # .word 0x00061083
-.L0x00017ae0: jal 0x8002abcc                      # .word 0x0c00aaf3
+.L0x00017ae0: jal F0x8002abcc                      # .word 0x0c00aaf3
 .L0x00017ae4: subu $a0, $v0, $a0                  # .word 0x00442023
 .L0x00017ae8: li $v1, 0x1000                      # .word 0x24031000
 .L0x00017aec: subu $v1, $v0                       # .word 0x00621823
@@ -24333,7 +24333,7 @@ CARDGAME:
 .L0x00017c18: sh $a1, ($v1)                       # .word 0xa4650000
 .L0x00017c1c: sh $zr, 0x8($v1)                    # .word 0xa4600008
 .L0x00017c20: sh $v0, 0xa($v1)                    # .word 0xa462000a
-.L0x00017c24: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00017c24: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00017c28: sh $a3, 0xc($v1)                    # .word 0xa467000c
 .L0x00017c2c: lui $v1, 0x1000                     # .word 0x3c031000
 .L0x00017c30: lw $v0, 0x18($s0)                   # .word 0x8e020018
@@ -24395,7 +24395,7 @@ CARDGAME:
 .L0x00017d10: nop                                 # .word 0x00000000
 .L0x00017d14: beqz $v0, .L0x00017fe8              # .word 0x104000b4
 .L0x00017d18: nop                                 # .word 0x00000000
-.L0x00017d1c: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00017d1c: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00017d20: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00017d24: lui $v1, 0x1000                     # .word 0x3c031000
 .L0x00017d28: lw $v0, 0x18($s0)                   # .word 0x8e020018
@@ -24593,7 +24593,7 @@ CARDGAME:
 .L0x00018028: andi $v0, 0x6                       # .word 0x30420006
 .L0x0001802c: beqz $v0, .L0x00018150              # .word 0x10400048
 .L0x00018030: nop                                 # .word 0x00000000
-.L0x00018034: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00018034: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00018038: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x0001803c: lbu $v0, 0x48($s0)                  # .word 0x92020048
 .L0x00018040: nop                                 # .word 0x00000000
@@ -24669,7 +24669,7 @@ CARDGAME:
 .L0x00018158: andi $v0, 0x1                       # .word 0x30420001
 .L0x0001815c: beqz $v0, .L0x00018264              # .word 0x10400041
 .L0x00018160: nop                                 # .word 0x00000000
-.L0x00018164: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00018164: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00018168: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x0001816c: lw $v1, 0x58($s1)                   # .word 0x8e230058
 .L0x00018170: lui $v0, 0xaaaa                     # .word 0x3c02aaaa
@@ -24750,7 +24750,7 @@ CARDGAME:
 .L0x0001829c: nop                                 # .word 0x00000000
 .L0x000182a0: beqz $v0, .L0x00018368              # .word 0x10400031
 .L0x000182a4: nop                                 # .word 0x00000000
-.L0x000182a8: jal 0x8001f648                      # .word 0x0c007d92
+.L0x000182a8: jal F0x8001f648                      # .word 0x0c007d92
 .L0x000182ac: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x000182b0: lui $v1, 0x1000                     # .word 0x3c031000
 .L0x000182b4: lw $v0, 0x18($s0)                   # .word 0x8e020018
@@ -24821,7 +24821,7 @@ CARDGAME:
 .L0x000183b8: nop                                 # .word 0x00000000
 .L0x000183bc: beqz $v0, .L0x0001848c              # .word 0x10400033
 .L0x000183c0: nop                                 # .word 0x00000000
-.L0x000183c4: jal 0x8001f648                      # .word 0x0c007d92
+.L0x000183c4: jal F0x8001f648                      # .word 0x0c007d92
 .L0x000183c8: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x000183cc: lui $v1, 0x1000                     # .word 0x3c031000
 .L0x000183d0: lw $v0, 0x18($s0)                   # .word 0x8e020018
@@ -24968,7 +24968,7 @@ CARDGAME:
 .L0x00018604: li $a1, 0x1                         # .word 0x24050001
 .L0x00018608: jal 0x80096a94                      # .word 0x0c025aa5
 .L0x0001860c: sh $v0, 0x18($sp)                   # .word 0xa7a20018
-.L0x00018610: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00018610: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00018614: addiu $a0, $sp, 0x28                # .word 0x27a40028
 .L0x00018618: lui $v1, 0x1000                     # .word 0x3c031000
 .L0x0001861c: lw $v0, 0x18($s0)                   # .word 0x8e020018
@@ -25013,7 +25013,7 @@ CARDGAME:
 .L0x000186b8: sra $a2, 0x8                        # .word 0x00063203
 .L0x000186bc: j 0x8009b424                        # .word 0x08026d09
 .L0x000186c0: addiu $a2, 0x12                     # .word 0x24c60012
-.L0x000186c4: jal 0x8001f648                      # .word 0x0c007d92
+.L0x000186c4: jal F0x8001f648                      # .word 0x0c007d92
 .L0x000186c8: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x000186cc: lui $v1, 0x1000                     # .word 0x3c031000
 .L0x000186d0: lw $v0, 0x18($s0)                   # .word 0x8e020018
@@ -25060,7 +25060,7 @@ CARDGAME:
 .L0x00018774: sra $a3, 0x8                        # .word 0x00073a03
 .L0x00018778: jalr $v0                            # .word 0x0040f809
 .L0x0001877c: addiu $a3, 0x21                     # .word 0x24e70021
-.L0x00018780: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00018780: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00018784: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00018788: lui $v1, 0x1000                     # .word 0x3c031000
 .L0x0001878c: lw $v0, 0x18($s0)                   # .word 0x8e020018
@@ -25114,7 +25114,7 @@ CARDGAME:
 .L0x0001884c: move_ $a0, $s0                      # .word 0x02002021
 .L0x00018850: j 0x8009b668                        # .word 0x08026d9a
 .L0x00018854: nop                                 # .word 0x00000000
-.L0x00018858: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00018858: jal F0x8001f648                      # .word 0x0c007d92
 .L0x0001885c: addiu $a0, $sp, 0xc8                # .word 0x27a400c8
 .L0x00018860: lui $v1, 0x1000                     # .word 0x3c031000
 .L0x00018864: lw $v0, 0x18($s0)                   # .word 0x8e020018
@@ -25157,7 +25157,7 @@ CARDGAME:
 .L0x000188f8: lw $v0, 0x14c($sp)                  # .word 0x8fa2014c
 .L0x000188fc: j 0x8009b65c                        # .word 0x08026d97
 .L0x00018900: li $a1, 0x10                        # .word 0x24050010
-.L0x00018904: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00018904: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00018908: addiu $a0, $sp, 0x168               # .word 0x27a40168
 .L0x0001890c: lui $v1, 0x1000                     # .word 0x3c031000
 .L0x00018910: lw $v0, 0x18($s0)                   # .word 0x8e020018
@@ -25218,7 +25218,7 @@ CARDGAME:
 .L0x000189ec: nop                                 # .word 0x00000000
 .L0x000189f0: beqz $v0, .L0x00018aac              # .word 0x1040002e
 .L0x000189f4: nop                                 # .word 0x00000000
-.L0x000189f8: jal 0x8001f648                      # .word 0x0c007d92
+.L0x000189f8: jal F0x8001f648                      # .word 0x0c007d92
 .L0x000189fc: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00018a00: lui $v1, 0x1000                     # .word 0x3c031000
 .L0x00018a04: lw $v0, 0x18($s0)                   # .word 0x8e020018
@@ -25279,7 +25279,7 @@ CARDGAME:
 .L0x00018ae0: nop                                 # .word 0x00000000
 .L0x00018ae4: bne $v1, $v0, .L0x00018bd0          # .word 0x1462003a
 .L0x00018ae8: nop                                 # .word 0x00000000
-.L0x00018aec: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00018aec: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00018af0: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00018af4: lui $a0, 0x6666                     # .word 0x3c046666
 .L0x00018af8: lw $v0, 0x2c($s0)                   # .word 0x8e02002c
@@ -25559,7 +25559,7 @@ CARDGAME:
 .L0x00018f40: li $a0, 0x100                       # .word 0x24040100
 .L0x00018f44: move_ $a1, $zr                      # .word 0x00002821
 .L0x00018f48: move_ $a2, $a1                      # .word 0x00a03021
-.L0x00018f4c: jal 0x8001b364                      # .word 0x0c006cd9
+.L0x00018f4c: jal F0x8001b364                      # .word 0x0c006cd9
 .L0x00018f50: move_ $a3, $a1                      # .word 0x00a03821
 .L0x00018f54: move_ $a0, $v0                      # .word 0x00402021
 .L0x00018f58: sw $a0, ($s1)                       # .word 0xae240000
@@ -25570,43 +25570,43 @@ CARDGAME:
 .L0x00018f6c: li $a0, 0x100                       # .word 0x24040100
 .L0x00018f70: li $a1, 0x1                         # .word 0x24050001
 .L0x00018f74: move_ $a2, $zr                      # .word 0x00003021
-.L0x00018f78: jal 0x8001ae38                      # .word 0x0c006b8e
+.L0x00018f78: jal F0x8001ae38                      # .word 0x0c006b8e
 .L0x00018f7c: move_ $a3, $a2                      # .word 0x00c03821
 .L0x00018f80: li $a0, 0x100                       # .word 0x24040100
 .L0x00018f84: li $a1, 0x1                         # .word 0x24050001
 .L0x00018f88: move_ $a2, $zr                      # .word 0x00003021
 .L0x00018f8c: move_ $a3, $a2                      # .word 0x00c03821
-.L0x00018f90: jal 0x8001ae38                      # .word 0x0c006b8e
+.L0x00018f90: jal F0x8001ae38                      # .word 0x0c006b8e
 .L0x00018f94: sw $v0, 0x4($s1)                    # .word 0xae220004
 .L0x00018f98: li $a0, 0x100                       # .word 0x24040100
 .L0x00018f9c: li $a1, 0x1                         # .word 0x24050001
 .L0x00018fa0: move_ $a2, $zr                      # .word 0x00003021
 .L0x00018fa4: move_ $a3, $a2                      # .word 0x00c03821
-.L0x00018fa8: jal 0x8001ae38                      # .word 0x0c006b8e
+.L0x00018fa8: jal F0x8001ae38                      # .word 0x0c006b8e
 .L0x00018fac: sw $v0, 0x8($s1)                    # .word 0xae220008
 .L0x00018fb0: li $a0, 0x100                       # .word 0x24040100
 .L0x00018fb4: li $a1, 0x1                         # .word 0x24050001
 .L0x00018fb8: move_ $a2, $zr                      # .word 0x00003021
 .L0x00018fbc: move_ $a3, $a2                      # .word 0x00c03821
-.L0x00018fc0: jal 0x8001ae38                      # .word 0x0c006b8e
+.L0x00018fc0: jal F0x8001ae38                      # .word 0x0c006b8e
 .L0x00018fc4: sw $v0, 0xc($s1)                    # .word 0xae22000c
 .L0x00018fc8: li $a0, 0x100                       # .word 0x24040100
 .L0x00018fcc: li $a1, 0x1                         # .word 0x24050001
 .L0x00018fd0: move_ $a2, $zr                      # .word 0x00003021
 .L0x00018fd4: move_ $a3, $a2                      # .word 0x00c03821
-.L0x00018fd8: jal 0x8001ae38                      # .word 0x0c006b8e
+.L0x00018fd8: jal F0x8001ae38                      # .word 0x0c006b8e
 .L0x00018fdc: sw $v0, 0x10($s1)                   # .word 0xae220010
 .L0x00018fe0: li $a0, 0x100                       # .word 0x24040100
 .L0x00018fe4: li $a1, 0x1                         # .word 0x24050001
 .L0x00018fe8: move_ $a2, $zr                      # .word 0x00003021
 .L0x00018fec: move_ $a3, $a2                      # .word 0x00c03821
-.L0x00018ff0: jal 0x8001ae38                      # .word 0x0c006b8e
+.L0x00018ff0: jal F0x8001ae38                      # .word 0x0c006b8e
 .L0x00018ff4: sw $v0, 0x14($s1)                   # .word 0xae220014
 .L0x00018ff8: li $a0, 0x100                       # .word 0x24040100
 .L0x00018ffc: li $a1, 0x1                         # .word 0x24050001
 .L0x00019000: move_ $a2, $zr                      # .word 0x00003021
 .L0x00019004: move_ $a3, $a2                      # .word 0x00c03821
-.L0x00019008: jal 0x8001ae38                      # .word 0x0c006b8e
+.L0x00019008: jal F0x8001ae38                      # .word 0x0c006b8e
 .L0x0001900c: sw $v0, 0x18($s1)                   # .word 0xae220018
 .L0x00019010: move_ $a0, $v0                      # .word 0x00402021
 .L0x00019014: sw $a0, 0x1c($s1)                   # .word 0xae24001c
@@ -25617,25 +25617,25 @@ CARDGAME:
 .L0x00019028: li $a0, 0x100                       # .word 0x24040100
 .L0x0001902c: li $a1, 0x1                         # .word 0x24050001
 .L0x00019030: move_ $a2, $zr                      # .word 0x00003021
-.L0x00019034: jal 0x8001ae38                      # .word 0x0c006b8e
+.L0x00019034: jal F0x8001ae38                      # .word 0x0c006b8e
 .L0x00019038: move_ $a3, $a2                      # .word 0x00c03821
 .L0x0001903c: li $a0, 0x100                       # .word 0x24040100
 .L0x00019040: li $a1, 0x1                         # .word 0x24050001
 .L0x00019044: move_ $a2, $zr                      # .word 0x00003021
 .L0x00019048: move_ $a3, $a2                      # .word 0x00c03821
-.L0x0001904c: jal 0x8001ae38                      # .word 0x0c006b8e
+.L0x0001904c: jal F0x8001ae38                      # .word 0x0c006b8e
 .L0x00019050: sw $v0, 0x20($s1)                   # .word 0xae220020
 .L0x00019054: li $a0, 0x100                       # .word 0x24040100
 .L0x00019058: li $a1, 0x1                         # .word 0x24050001
 .L0x0001905c: move_ $a2, $zr                      # .word 0x00003021
 .L0x00019060: move_ $a3, $a2                      # .word 0x00c03821
-.L0x00019064: jal 0x8001ae38                      # .word 0x0c006b8e
+.L0x00019064: jal F0x8001ae38                      # .word 0x0c006b8e
 .L0x00019068: sw $v0, 0x24($s1)                   # .word 0xae220024
 .L0x0001906c: li $a0, 0x100                       # .word 0x24040100
 .L0x00019070: li $a1, 0x1                         # .word 0x24050001
 .L0x00019074: move_ $a2, $zr                      # .word 0x00003021
 .L0x00019078: move_ $a3, $a2                      # .word 0x00c03821
-.L0x0001907c: jal 0x8001ae38                      # .word 0x0c006b8e
+.L0x0001907c: jal F0x8001ae38                      # .word 0x0c006b8e
 .L0x00019080: sw $v0, 0x28($s1)                   # .word 0xae220028
 .L0x00019084: move_ $a0, $v0                      # .word 0x00402021
 .L0x00019088: sw $a0, 0x2c($s1)                   # .word 0xae24002c
@@ -25646,7 +25646,7 @@ CARDGAME:
 .L0x0001909c: li $a0, 0x100                       # .word 0x24040100
 .L0x000190a0: li $a1, 0x1                         # .word 0x24050001
 .L0x000190a4: move_ $a2, $zr                      # .word 0x00003021
-.L0x000190a8: jal 0x8001ae38                      # .word 0x0c006b8e
+.L0x000190a8: jal F0x8001ae38                      # .word 0x0c006b8e
 .L0x000190ac: move_ $a3, $a2                      # .word 0x00c03821
 .L0x000190b0: move_ $a0, $v0                      # .word 0x00402021
 .L0x000190b4: sw $a0, 0x30($s1)                   # .word 0xae240030
@@ -25657,7 +25657,7 @@ CARDGAME:
 .L0x000190c8: li $a0, 0x100                       # .word 0x24040100
 .L0x000190cc: li $a1, 0x1                         # .word 0x24050001
 .L0x000190d0: move_ $a2, $zr                      # .word 0x00003021
-.L0x000190d4: jal 0x8001ae38                      # .word 0x0c006b8e
+.L0x000190d4: jal F0x8001ae38                      # .word 0x0c006b8e
 .L0x000190d8: move_ $a3, $a2                      # .word 0x00c03821
 .L0x000190dc: move_ $a0, $v0                      # .word 0x00402021
 .L0x000190e0: sw $a0, 0x34($s1)                   # .word 0xae240034
@@ -26940,7 +26940,7 @@ CARDGAME:
 .L0x0001a4d4: sw $s2, 0xa8($sp)                   # .word 0xafb200a8
 .L0x0001a4d8: jal 0x8001ebf8                      # .word 0x0c007afe
 .L0x0001a4dc: sw $s1, 0xa4($sp)                   # .word 0xafb100a4
-.L0x0001a4e0: jal 0x8001ffa8                      # .word 0x0c007fea
+.L0x0001a4e0: jal F0x8001ffa8                      # .word 0x0c007fea
 .L0x0001a4e4: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x0001a4e8: move_ $s1, $zr                      # .word 0x00008821
 .L0x0001a4ec: move_ $s2, $s4                      # .word 0x02809021
@@ -27043,7 +27043,7 @@ CARDGAME:
 .L0x0001a670: addiu $a0, -0x4458                  # .word 0x2484bba8
 .L0x0001a674: li $a1, 0xf48                       # .word 0x24050f48
 .L0x0001a678: sw $ra, 0x14($sp)                   # .word 0xafbf0014
-.L0x0001a67c: jal 0x80014504                      # .word 0x0c005141
+.L0x0001a67c: jal F0x80014504                      # .word 0x0c005141
 .L0x0001a680: li $a2, 0x38                        # .word 0x24060038
 .L0x0001a684: lui $v1, 0x800a                     # .word 0x3c03800a
 .L0x0001a688: addiu $v1, -0x3520                  # .word 0x2463cae0
@@ -27274,7 +27274,7 @@ CARDGAME:
 .L0x0001aa0c: addiu $a0, -0x2ac0                  # .word 0x2484d540
 .L0x0001aa10: li $a1, 0x58                        # .word 0x24050058
 .L0x0001aa14: sw $ra, 0x10($sp)                   # .word 0xafbf0010
-.L0x0001aa18: jal 0x80014504                      # .word 0x0c005141
+.L0x0001aa18: jal F0x80014504                      # .word 0x0c005141
 .L0x0001aa1c: move_ $a2, $zr                      # .word 0x00003021
 .L0x0001aa20: lw $ra, 0x10($sp)                   # .word 0x8fbf0010
 .L0x0001aa24: nop                                 # .word 0x00000000
@@ -32974,7 +32974,7 @@ CARDGAME:
 .L0x0002031c: lw $v1, 0x18($s1)                   # .word 0x8e230018
 .L0x00020320: lbu $v0, 0x2e8($s2)                 # .word 0x924202e8
 .L0x00020324: addiu $a0, $sp, 0x18                # .word 0x27a40018
-.L0x00020328: jal 0x8001ffa8                      # .word 0x0c007fea
+.L0x00020328: jal F0x8001ffa8                      # .word 0x0c007fea
 .L0x0002032c: sh $v0, 0x5c($v1)                   # .word 0xa462005c
 .L0x00020330: li $a0, 0x280                       # .word 0x24040280
 .L0x00020334: lw $v0, 0x3c($sp)                   # .word 0x8fa2003c
@@ -33136,7 +33136,7 @@ CARDGAME:
 .L0x000205a4: li $a1, 0x824                       # .word 0x24050824
 .L0x000205a8: li $a2, 0x1c                        # .word 0x2406001c
 .L0x000205ac: sw $ra, 0x18($sp)                   # .word 0xafbf0018
-.L0x000205b0: jal 0x80014504                      # .word 0x0c005141
+.L0x000205b0: jal F0x80014504                      # .word 0x0c005141
 .L0x000205b4: sw $s0, 0x10($sp)                   # .word 0xafb00010
 .L0x000205b8: move_ $s0, $v0                      # .word 0x00408021
 .L0x000205bc: lui $v0, 0x800a                     # .word 0x3c02800a
@@ -33406,7 +33406,7 @@ CARDGAME:
 .L0x000209dc: addiu $a0, 0x35bc                   # .word 0x248435bc
 .L0x000209e0: li $a1, 0x78                        # .word 0x24050078
 .L0x000209e4: sw $ra, 0x14($sp)                   # .word 0xafbf0014
-.L0x000209e8: jal 0x80014504                      # .word 0x0c005141
+.L0x000209e8: jal F0x80014504                      # .word 0x0c005141
 .L0x000209ec: li $a2, 0x4                         # .word 0x24060004
 .L0x000209f0: lui $v1, 0x800a                     # .word 0x3c03800a
 .L0x000209f4: addiu $v1, 0x3548                   # .word 0x24633548

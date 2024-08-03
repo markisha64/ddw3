@@ -48,7 +48,7 @@ WSTAG820:
 .L0x000000a4: beq $v1, $v0, .L0x000000bc          # .word 0x10620005
 .L0x000000a8: move_ $a0, $s0                      # .word 0x02002021
 .L0x000000ac: move_ $a1, $s2                      # .word 0x02402821
-.L0x000000b0: jal 0x800a5de0                      # .word 0x0c029778
+.L0x000000b0: jal D0x800a5de0                      # .word 0x0c029778
 .L0x000000b4: addiu $a2, $s3, 0x1                 # .word 0x26660001
 .L0x000000b8: lh $v0, ($s1)                       # .word 0x86220000
 .L0x000000bc: lw $ra, 0x20($sp)                   # .word 0x8fbf0020
@@ -103,7 +103,7 @@ WSTAG820:
 .L0x00000180: addiu $a1, 0x711c                   # .word 0x24a5711c
 .L0x00000184: lw $s0, 0x50($s1)                   # .word 0x8e300050
 .L0x00000188: move_ $a2, $zr                      # .word 0x00003021
-.L0x0000018c: jal 0x800a5de0                      # .word 0x0c029778
+.L0x0000018c: jal D0x800a5de0                      # .word 0x0c029778
 .L0x00000190: sb $v1, ($s0)                       # .word 0xa2030000
 .L0x00000194: move_ $v1, $v0                      # .word 0x00401821
 .L0x00000198: li $v0, 0xff                        # .word 0x240200ff
@@ -128,7 +128,7 @@ WSTAG820:
 .L0x000001e4: li $a1, 0x58                        # .word 0x24050058
 .L0x000001e8: move_ $a2, $zr                      # .word 0x00003021
 .L0x000001ec: sw $ra, 0x14($sp)                   # .word 0xafbf0014
-.L0x000001f0: jal 0x800143dc                      # .word 0x0c0050f7
+.L0x000001f0: jal F0x800143dc                      # .word 0x0c0050f7
 .L0x000001f4: sw $s0, 0x10($sp)                   # .word 0xafb00010
 .L0x000001f8: lui $a0, 0x4                        # .word 0x3c040004
 .L0x000001fc: ori $a0, 0x1d                       # .word 0x3484001d
@@ -236,7 +236,7 @@ WSTAG820:
 .L0x00000394: li $a1, 0x54                        # .word 0x24050054
 .L0x00000398: li $a2, 0x14                        # .word 0x24060014
 .L0x0000039c: sw $ra, 0x18($sp)                   # .word 0xafbf0018
-.L0x000003a0: jal 0x80014504                      # .word 0x0c005141
+.L0x000003a0: jal F0x80014504                      # .word 0x0c005141
 .L0x000003a4: sw $s0, 0x10($sp)                   # .word 0xafb00010
 .L0x000003a8: move_ $s0, $v0                      # .word 0x00408021
 .L0x000003ac: lui $v0, 0x800a                     # .word 0x3c02800a
@@ -342,7 +342,7 @@ WSTAG820:
 .L0x0000053c: j 0x800a6328                        # .word 0x080298ca
 .L0x00000540: li $s0, 0x4                         # .word 0x24100004
 .L0x00000544: li $s0, 0x6                         # .word 0x24100006
-.L0x00000548: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00000548: jal F0x8001f648                      # .word 0x0c007d92
 .L0x0000054c: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00000550: li $a0, 0x140                       # .word 0x24040140
 .L0x00000554: lw $v0, 0x84($sp)                   # .word 0x8fa20084
@@ -606,7 +606,7 @@ WSTAG820:
 .L0x0000095c: li $a1, 0x6c                        # .word 0x2405006c
 .L0x00000960: move_ $a2, $zr                      # .word 0x00003021
 .L0x00000964: sw $ra, 0x1c($sp)                   # .word 0xafbf001c
-.L0x00000968: jal 0x800143dc                      # .word 0x0c0050f7
+.L0x00000968: jal F0x800143dc                      # .word 0x0c0050f7
 .L0x0000096c: li $a3, 0x17                        # .word 0x24070017
 .L0x00000970: sw $s0, 0x54($v0)                   # .word 0xac500054
 .L0x00000974: sw $s1, 0x58($v0)                   # .word 0xac510058
@@ -623,7 +623,7 @@ WSTAG820:
 .L0x000009a0: addiu $a0, 0x6488                   # .word 0x24846488
 .L0x000009a4: li $a1, 0x6c                        # .word 0x2405006c
 .L0x000009a8: sw $ra, 0x10($sp)                   # .word 0xafbf0010
-.L0x000009ac: jal 0x800143dc                      # .word 0x0c0050f7
+.L0x000009ac: jal F0x800143dc                      # .word 0x0c0050f7
 .L0x000009b0: move_ $a2, $zr                      # .word 0x00003021
 .L0x000009b4: li $v1, 0x1cc                       # .word 0x240301cc
 .L0x000009b8: sw $v1, 0x54($v0)                   # .word 0xac430054

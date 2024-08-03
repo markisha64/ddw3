@@ -60,7 +60,7 @@ WSTAG756:
 .L0x000000d4: li $a1, 0x54                        # .word 0x24050054
 .L0x000000d8: li $a2, 0x4                         # .word 0x24060004
 .L0x000000dc: sw $ra, 0x18($sp)                   # .word 0xafbf0018
-.L0x000000e0: jal 0x80014504                      # .word 0x0c005141
+.L0x000000e0: jal F0x80014504                      # .word 0x0c005141
 .L0x000000e4: sw $s0, 0x10($sp)                   # .word 0xafb00010
 .L0x000000e8: move_ $s0, $v0                      # .word 0x00408021
 .L0x000000ec: lui $v0, 0x800a                     # .word 0x3c02800a

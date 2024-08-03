@@ -35,7 +35,7 @@ WSTAG335:
 .L0x00000070: li $a1, 0x54                        # .word 0x24050054
 .L0x00000074: li $a2, 0x38                        # .word 0x24060038
 .L0x00000078: sw $ra, 0x18($sp)                   # .word 0xafbf0018
-.L0x0000007c: jal 0x80014504                      # .word 0x0c005141
+.L0x0000007c: jal F0x80014504                      # .word 0x0c005141
 .L0x00000080: sw $s0, 0x10($sp)                   # .word 0xafb00010
 .L0x00000084: move_ $s0, $v0                      # .word 0x00408021
 .L0x00000088: lui $v0, 0x800a                     # .word 0x3c02800a

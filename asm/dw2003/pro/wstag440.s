@@ -40,7 +40,7 @@ WSTAG440:
 .L0x00000084: li $a1, 0x54                        # .word 0x24050054
 .L0x00000088: li $a2, 0x4                         # .word 0x24060004
 .L0x0000008c: sw $ra, 0x18($sp)                   # .word 0xafbf0018
-.L0x00000090: jal 0x80014504                      # .word 0x0c005141
+.L0x00000090: jal F0x80014504                      # .word 0x0c005141
 .L0x00000094: sw $s0, 0x10($sp)                   # .word 0xafb00010
 .L0x00000098: move_ $s0, $v0                      # .word 0x00408021
 .L0x0000009c: lui $v0, 0x800a                     # .word 0x3c02800a

@@ -51,7 +51,7 @@ STGTRAIN_f11:
 	nop
 	# Why the hell is this an absolute jump?
 	# This code is supposed to be position independent.
-	j 0x80083850
+	j D0x80083850
 	sw $v0, 0x98($s4)
 
 .L1:
@@ -160,10 +160,10 @@ STGTRAIN_f11:
 	sw $t7, 0x5c($sp)
 	addiu $a0, $s4, 0xb8
 	addiu $s0, $s4, 0xc0
-	jal 0x8002b65c
+	jal F0x8002b65c
 	move_ $a1, $s0
 	move_ $a0, $s0
-	jal 0x8002b23c
+	jal F0x8002b23c
 	addiu $a1, $s4, 0xa8
 .L11:
 	lui $s0, 0x8005
@@ -272,7 +272,7 @@ STGTRAIN_f11:
 	sw $t3, 0x74($sp)
 	sw $t4, 0x78($sp)
 	sw $t5, 0x7c($sp)
-	jal 0x8002915c
+	jal F0x8002915c
 	sw $t6, 0x80($sp)
 	addiu $s0, 0x8
 	sh $s1, 0x58($sp)
@@ -400,7 +400,7 @@ STGTRAIN_f11:
 	sw $t1, 0x6c($sp)
 	sw $t2, 0x70($sp)
 	sw $t5, 0x7c($sp)
-	jal 0x8002b1dc
+	jal F0x8002b1dc
 	sw $t6, 0x80($sp)
 	lhu $v0, 0x10($sp)
 	lhu $v1, 0xa0($s4)
@@ -469,7 +469,7 @@ STGTRAIN_f11:
 	move_ $a1, $zr
 	lhu $t7, 0x50($sp)
 	li $a2, 0x1
-	jal 0x8002915c
+	jal F0x8002915c
 	move_ $a3, $t7
 	lui $a0, 0xff
 	ori $a0, 0xffff

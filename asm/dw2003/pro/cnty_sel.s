@@ -60,7 +60,7 @@ CNTY_SEL:
 .L0x000000d4: nop                                 # .word 0x00000000
 .L0x000000d8: jalr $v0                            # .word 0x0040f809
 .L0x000000dc: move_ $a3, $a2                      # .word 0x00c03821
-.L0x000000e0: jal 0x8001ffa8                      # .word 0x0c007fea
+.L0x000000e0: jal F0x8001ffa8                      # .word 0x0c007fea
 .L0x000000e4: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x000000e8: li $a0, 0x280                       # .word 0x24040280
 .L0x000000ec: lw $v0, 0x34($sp)                   # .word 0x8fa20034
@@ -135,7 +135,7 @@ CNTY_SEL:
 .L0x00000200: lui $a0, 0x8008                     # .word 0x3c048008
 .L0x00000204: addiu $a0, 0x2ce8                   # .word 0x24842ce8
 .L0x00000208: li $a1, 0x50                        # .word 0x24050050
-.L0x0000020c: jal 0x80014504                      # .word 0x0c005141
+.L0x0000020c: jal F0x80014504                      # .word 0x0c005141
 .L0x00000210: li $a2, 0x4                         # .word 0x24060004
 .L0x00000214: li $a0, 0x21                        # .word 0x24040021
 .L0x00000218: lui $v1, 0x8005                     # .word 0x3c038005
@@ -152,7 +152,7 @@ CNTY_SEL:
 .L0x00000244: sw $s0, 0xb0($sp)                   # .word 0xafb000b0
 .L0x00000248: move_ $s0, $a0                      # .word 0x00808021
 .L0x0000024c: sw $ra, 0xb4($sp)                   # .word 0xafbf00b4
-.L0x00000250: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00000250: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00000254: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00000258: li $a0, 0x100                       # .word 0x24040100
 .L0x0000025c: lw $v0, 0x8c($sp)                   # .word 0x8fa2008c
@@ -403,7 +403,7 @@ CNTY_SEL:
 .L0x00000630: addiu $a0, 0x3184                   # .word 0x24843184
 .L0x00000634: li $a1, 0x54                        # .word 0x24050054
 .L0x00000638: sw $ra, 0x10($sp)                   # .word 0xafbf0010
-.L0x0000063c: jal 0x80014504                      # .word 0x0c005141
+.L0x0000063c: jal F0x80014504                      # .word 0x0c005141
 .L0x00000640: move_ $a2, $zr                      # .word 0x00003021
 .L0x00000644: lw $ra, 0x10($sp)                   # .word 0x8fbf0010
 .L0x00000648: nop                                 # .word 0x00000000
@@ -467,7 +467,7 @@ CNTY_SEL:
 .L0x00000730: sw $s0, 0xb0($sp)                   # .word 0xafb000b0
 .L0x00000734: move_ $s0, $a0                      # .word 0x00808021
 .L0x00000738: sw $ra, 0xb4($sp)                   # .word 0xafbf00b4
-.L0x0000073c: jal 0x8001f648                      # .word 0x0c007d92
+.L0x0000073c: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00000740: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00000744: li $a0, 0x100                       # .word 0x24040100
 .L0x00000748: lw $v0, 0x8c($sp)                   # .word 0x8fa2008c
@@ -578,7 +578,7 @@ CNTY_SEL:
 .L0x000008ec: addiu $a0, 0x347c                   # .word 0x2484347c
 .L0x000008f0: li $a1, 0x60                        # .word 0x24050060
 .L0x000008f4: sw $ra, 0x10($sp)                   # .word 0xafbf0010
-.L0x000008f8: jal 0x80014504                      # .word 0x0c005141
+.L0x000008f8: jal F0x80014504                      # .word 0x0c005141
 .L0x000008fc: move_ $a2, $zr                      # .word 0x00003021
 .L0x00000900: lui $v1, 0x8008                     # .word 0x3c038008
 .L0x00000904: addiu $v1, 0x3474                   # .word 0x24633474
@@ -616,7 +616,7 @@ CNTY_SEL:
 .L0x00000984: sw $s0, 0xb0($sp)                   # .word 0xafb000b0
 .L0x00000988: move_ $s0, $a0                      # .word 0x00808021
 .L0x0000098c: sw $ra, 0xb4($sp)                   # .word 0xafbf00b4
-.L0x00000990: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00000990: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00000994: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00000998: li $a0, 0x100                       # .word 0x24040100
 .L0x0000099c: lw $v0, 0x8c($sp)                   # .word 0x8fa2008c
@@ -734,7 +734,7 @@ CNTY_SEL:
 .L0x00000b5c: addiu $a0, 0x36dc                   # .word 0x248436dc
 .L0x00000b60: li $a1, 0x58                        # .word 0x24050058
 .L0x00000b64: sw $ra, 0x10($sp)                   # .word 0xafbf0010
-.L0x00000b68: jal 0x80014504                      # .word 0x0c005141
+.L0x00000b68: jal F0x80014504                      # .word 0x0c005141
 .L0x00000b6c: move_ $a2, $zr                      # .word 0x00003021
 .L0x00000b70: lw $ra, 0x10($sp)                   # .word 0x8fbf0010
 .L0x00000b74: nop                                 # .word 0x00000000
@@ -769,7 +769,7 @@ CNTY_SEL:
 .L0x00000be8: sw $s0, 0xb0($sp)                   # .word 0xafb000b0
 .L0x00000bec: move_ $s0, $a0                      # .word 0x00808021
 .L0x00000bf0: sw $ra, 0xb4($sp)                   # .word 0xafbf00b4
-.L0x00000bf4: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00000bf4: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00000bf8: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00000bfc: li $a0, 0x100                       # .word 0x24040100
 .L0x00000c00: lw $v0, 0x8c($sp)                   # .word 0x8fa2008c
@@ -887,7 +887,7 @@ CNTY_SEL:
 .L0x00000dc0: addiu $a0, 0x3940                   # .word 0x24843940
 .L0x00000dc4: li $a1, 0x58                        # .word 0x24050058
 .L0x00000dc8: sw $ra, 0x10($sp)                   # .word 0xafbf0010
-.L0x00000dcc: jal 0x80014504                      # .word 0x0c005141
+.L0x00000dcc: jal F0x80014504                      # .word 0x0c005141
 .L0x00000dd0: move_ $a2, $zr                      # .word 0x00003021
 .L0x00000dd4: lw $ra, 0x10($sp)                   # .word 0x8fbf0010
 .L0x00000dd8: nop                                 # .word 0x00000000
@@ -924,7 +924,7 @@ CNTY_SEL:
 .L0x00000e54: sw $s0, 0xb0($sp)                   # .word 0xafb000b0
 .L0x00000e58: move_ $s0, $a0                      # .word 0x00808021
 .L0x00000e5c: sw $ra, 0xb4($sp)                   # .word 0xafbf00b4
-.L0x00000e60: jal 0x8001f648                      # .word 0x0c007d92
+.L0x00000e60: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00000e64: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00000e68: li $a0, 0x100                       # .word 0x24040100
 .L0x00000e6c: lw $v0, 0x8c($sp)                   # .word 0x8fa2008c
@@ -1048,7 +1048,7 @@ CNTY_SEL:
 .L0x00001044: addiu $a0, 0x3bc0                   # .word 0x24843bc0
 .L0x00001048: li $a1, 0x58                        # .word 0x24050058
 .L0x0000104c: sw $ra, 0x10($sp)                   # .word 0xafbf0010
-.L0x00001050: jal 0x80014504                      # .word 0x0c005141
+.L0x00001050: jal F0x80014504                      # .word 0x0c005141
 .L0x00001054: move_ $a2, $zr                      # .word 0x00003021
 .L0x00001058: lw $ra, 0x10($sp)                   # .word 0x8fbf0010
 .L0x0000105c: nop                                 # .word 0x00000000
@@ -1474,7 +1474,7 @@ CNTY_SEL:
 .L0x000016ec: addiu $a0, 0x3d18                   # .word 0x24843d18
 .L0x000016f0: li $a1, 0x54                        # .word 0x24050054
 .L0x000016f4: sw $ra, 0x10($sp)                   # .word 0xafbf0010
-.L0x000016f8: jal 0x80014504                      # .word 0x0c005141
+.L0x000016f8: jal F0x80014504                      # .word 0x0c005141
 .L0x000016fc: li $a2, 0x14                        # .word 0x24060014
 .L0x00001700: lw $ra, 0x10($sp)                   # .word 0x8fbf0010
 .L0x00001704: nop                                 # .word 0x00000000

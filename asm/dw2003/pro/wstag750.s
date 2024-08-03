@@ -48,7 +48,7 @@ WSTAG750:
 .L0x000000a4: beq $v1, $v0, .L0x000000bc          # .word 0x10620005
 .L0x000000a8: move_ $a0, $s0                      # .word 0x02002021
 .L0x000000ac: move_ $a1, $s2                      # .word 0x02402821
-.L0x000000b0: jal 0x800a5de0                      # .word 0x0c029778
+.L0x000000b0: jal D0x800a5de0                      # .word 0x0c029778
 .L0x000000b4: addiu $a2, $s3, 0x1                 # .word 0x26660001
 .L0x000000b8: lh $v0, ($s1)                       # .word 0x86220000
 .L0x000000bc: lw $ra, 0x20($sp)                   # .word 0x8fbf0020
@@ -179,7 +179,7 @@ WSTAG750:
 .L0x000002b0: addu $a0, $s5, $s2                  # .word 0x02b22021
 .L0x000002b4: lw $a1, ($s3)                       # .word 0x8e650000
 .L0x000002b8: lw $s0, 0x58($s1)                   # .word 0x8e300058
-.L0x000002bc: jal 0x800a5de0                      # .word 0x0c029778
+.L0x000002bc: jal D0x800a5de0                      # .word 0x0c029778
 .L0x000002c0: move_ $a2, $zr                      # .word 0x00003021
 .L0x000002c4: move_ $v1, $v0                      # .word 0x00401821
 .L0x000002c8: li $v0, 0xff                        # .word 0x240200ff
@@ -258,7 +258,7 @@ WSTAG750:
 .L0x000003ec: addiu $a0, 0x5ef0                   # .word 0x24845ef0
 .L0x000003f0: li $a1, 0x70                        # .word 0x24050070
 .L0x000003f4: sw $ra, 0x10($sp)                   # .word 0xafbf0010
-.L0x000003f8: jal 0x800143dc                      # .word 0x0c0050f7
+.L0x000003f8: jal F0x800143dc                      # .word 0x0c0050f7
 .L0x000003fc: move_ $a2, $zr                      # .word 0x00003021
 .L0x00000400: lw $ra, 0x10($sp)                   # .word 0x8fbf0010
 .L0x00000404: nop                                 # .word 0x00000000
@@ -413,7 +413,7 @@ WSTAG750:
 .L0x00000658: li $a1, 0x54                        # .word 0x24050054
 .L0x0000065c: li $a2, 0xc                         # .word 0x2406000c
 .L0x00000660: sw $ra, 0x18($sp)                   # .word 0xafbf0018
-.L0x00000664: jal 0x80014504                      # .word 0x0c005141
+.L0x00000664: jal F0x80014504                      # .word 0x0c005141
 .L0x00000668: sw $s0, 0x10($sp)                   # .word 0xafb00010
 .L0x0000066c: move_ $s0, $v0                      # .word 0x00408021
 .L0x00000670: lui $v0, 0x800a                     # .word 0x3c02800a
@@ -519,7 +519,7 @@ WSTAG750:
 .L0x00000800: j 0x800a65ec                        # .word 0x0802997b
 .L0x00000804: li $s0, 0x4                         # .word 0x24100004
 .L0x00000808: li $s0, 0x6                         # .word 0x24100006
-.L0x0000080c: jal 0x8001f648                      # .word 0x0c007d92
+.L0x0000080c: jal F0x8001f648                      # .word 0x0c007d92
 .L0x00000810: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00000814: li $a0, 0x140                       # .word 0x24040140
 .L0x00000818: lw $v0, 0x84($sp)                   # .word 0x8fa20084
@@ -783,7 +783,7 @@ WSTAG750:
 .L0x00000c20: li $a1, 0x6c                        # .word 0x2405006c
 .L0x00000c24: move_ $a2, $zr                      # .word 0x00003021
 .L0x00000c28: sw $ra, 0x1c($sp)                   # .word 0xafbf001c
-.L0x00000c2c: jal 0x800143dc                      # .word 0x0c0050f7
+.L0x00000c2c: jal F0x800143dc                      # .word 0x0c0050f7
 .L0x00000c30: li $a3, 0x17                        # .word 0x24070017
 .L0x00000c34: sw $s0, 0x54($v0)                   # .word 0xac500054
 .L0x00000c38: sw $s1, 0x58($v0)                   # .word 0xac510058

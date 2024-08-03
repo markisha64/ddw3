@@ -1,1 +1,2 @@
 elf = "/build/elf/dw2003/pro/wstag581.elf"
+link_with = ["/build/elf/dw2003/exe.syms"]
