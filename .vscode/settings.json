@@ -1,5 +1,6 @@
 {
 	"cSpell.words": [
+		"addrs",
 		"ADPCM",
 		"adsr",
 		"Agumon",
@@ -144,6 +145,8 @@
 		"Masamune",
 		"Megadramon",
 		"MegaGargomon",
+		"memchr",
+		"memmem",
 		"Meramon",
 		"MetalGarurumon",
 		"MetalGreymon",

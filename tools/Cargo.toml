@@ -42,6 +42,9 @@ members = [
 	"ddw3-bytes",
 	"ddw3-util",
 	"ddw3-logger",
+
+	# Misc
+	"replace-bytes",
 ]
 
 [workspace.dependencies]
@@ -63,10 +66,13 @@ hound = "3.5.1"
 image = "0.24.7"
 int-conv = "0.1.4"
 itertools = "0.11.0"
+memchr = "2.7.4"
 pathdiff = "0.2.1"
 ref-cast = "1.0.20"
 serde = { version = "1.0.188", features = ["derive"] }
 serde_with = { version = "3.3.0", features = ["hex"] }
+serde_yaml = "0.9.34"
+serde-tuple-vec-map = "1.0.1"
 thiserror = "1.0.47"
 toml = "0.8.8"
 tracing = "0.1.37"
