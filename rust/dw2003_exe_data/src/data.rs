@@ -9232,7 +9232,7 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x80055d24: u32 = 0x00000165;
 	pub static mut D0x80055d28: u32 = 0x00000000;
 	pub static mut D0x80055d2c: u32 = 0x00000000;
-	pub static mut D0x80055d30: *const u32 = unsafe { ptr::addr_of!(F0x80020c64) };
+	pub static mut D0x80055d30: *const u32 = unsafe { ptr::addr_of!(f15) };
 	pub static mut D0x80055d34: *const u32 = unsafe { ptr::addr_of!(F0x80020d10) };
 	pub static mut D0x80055d38: u32 = 0x1f801070;
 	pub static mut D0x80055d3c: u32 = 0x00000000;
@@ -20899,7 +20899,7 @@ extern "C" {
 	static mut F0x8002090c: u32;
 	static mut F0x8002096c: u32;
 	static mut F0x80020a10: u32;
-	static mut F0x80020c64: u32;
+	static mut f15: u32;
 	static mut F0x80020d10: u32;
 	static mut F0x8002320c: u32;
 	static mut F0x80023274: u32;
