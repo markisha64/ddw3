@@ -241,7 +241,7 @@ STCRDABM:
 .L0x000003a8: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x000003ac: sw $ra, 0x74($sp)                   # .word 0xafbf0074
 .L0x000003b0: sw $s2, 0x70($sp)                   # .word 0xafb20070
-.L0x000003b4: jal 0x8001ebf8                      # .word 0x0c007afe
+.L0x000003b4: jal F0x8001ebf8                      # .word 0x0c007afe
 .L0x000003b8: sw $s1, 0x6c($sp)                   # .word 0xafb1006c
 .L0x000003bc: li $a0, 0x140                       # .word 0x24040140
 .L0x000003c0: li $a1, 0x100                       # .word 0x24050100
@@ -335,7 +335,7 @@ STCRDABM:
 .L0x00000520: nop                                 # .word 0x00000000
 .L0x00000524: jalr $v0                            # .word 0x0040f809
 .L0x00000528: move_ $a1, $zr                      # .word 0x00002821
-.L0x0000052c: jal 0x8001ebf8                      # .word 0x0c007afe
+.L0x0000052c: jal F0x8001ebf8                      # .word 0x0c007afe
 .L0x00000530: addiu $a0, $sp, 0xb0                # .word 0x27a400b0
 .L0x00000534: li $a0, 0x140                       # .word 0x24040140
 .L0x00000538: lw $v0, 0xec($sp)                   # .word 0x8fa200ec
@@ -1309,7 +1309,7 @@ STCRDABM:
 .L0x00001458: move_ $s0, $a1                      # .word 0x00a08021
 .L0x0000145c: beqz $a2, .L0x00001740              # .word 0x10c000b8
 .L0x00001460: nop                                 # .word 0x00000000
-.L0x00001464: jal 0x8001ebf8                      # .word 0x0c007afe
+.L0x00001464: jal F0x8001ebf8                      # .word 0x0c007afe
 .L0x00001468: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x0000146c: lw $a0, 0x78($s1)                   # .word 0x8e240078
 .L0x00001470: lw $v0, 0x3c($sp)                   # .word 0x8fa2003c
@@ -1826,7 +1826,7 @@ STCRDABM:
 .L0x00001c6c: nop                                 # .word 0x00000000
 .L0x00001c70: beqz $v0, .L0x00001efc              # .word 0x104000a2
 .L0x00001c74: nop                                 # .word 0x00000000
-.L0x00001c78: jal 0x8001ebf8                      # .word 0x0c007afe
+.L0x00001c78: jal F0x8001ebf8                      # .word 0x0c007afe
 .L0x00001c7c: addiu $a0, $sp, 0xb0                # .word 0x27a400b0
 .L0x00001c80: lw $a0, 0x78($s1)                   # .word 0x8e240078
 .L0x00001c84: lw $v0, 0xdc($sp)                   # .word 0x8fa200dc

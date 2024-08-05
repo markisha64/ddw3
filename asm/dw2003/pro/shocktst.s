@@ -1507,7 +1507,7 @@ SHOCKTST:
 .L0x0000176c: .word 0xafa40048 # sw $a0, 0x48($sp)
 .L0x00001770: .word 0x8c910054 # lw $s1, 0x54($a0)
 .L0x00001774: .word 0x8c900050 # lw $s0, 0x50($a0)
-.L0x00001778: .word 0x0c0094c3 # jal 0x8002530c
+.L0x00001778: .word 0x0c0094c3 # jal F0x8002530c
 .L0x0000177c: .word 0x02202021 # move_ $a0, $s1
 .L0x00001780: .word 0xafa20018 # sw $v0, 0x18($sp)
 .L0x00001784: .word 0x92230000 # lbu $v1, ($s1)
@@ -1590,7 +1590,7 @@ SHOCKTST:
 .L0x000018b8: .word 0x0c009477 # jal 0x800251dc
 .L0x000018bc: .word 0x24e52d40 # addiu $a1, $a3, 0x2d40
 .L0x000018c0: .word 0x00408021 # move_ $s0, $v0
-.L0x000018c4: .word 0x0c0094c3 # jal 0x8002530c
+.L0x000018c4: .word 0x0c0094c3 # jal F0x8002530c
 .L0x000018c8: .word 0x02202021 # move_ $a0, $s1
 .L0x000018cc: .word 0x02308821 # addu $s1, $s0
 .L0x000018d0: .word 0x92230000 # lbu $v1, ($s1)
@@ -1612,7 +1612,7 @@ SHOCKTST:
 .L0x00001910: .word 0x0c009477 # jal 0x800251dc
 .L0x00001914: .word 0x24e52d44 # addiu $a1, $a3, 0x2d44
 .L0x00001918: .word 0x00408021 # move_ $s0, $v0
-.L0x0000191c: .word 0x0c0094c3 # jal 0x8002530c
+.L0x0000191c: .word 0x0c0094c3 # jal F0x8002530c
 .L0x00001920: .word 0x02202021 # move_ $a0, $s1
 .L0x00001924: .word 0x02308821 # addu $s1, $s0
 .L0x00001928: .word 0x03b21821 # addu $v1, $sp, $s2

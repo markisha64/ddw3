@@ -3,7 +3,7 @@
 .section "section_SMDLDATA"
 .global SMDLDATA
 SMDLDATA:
-.L0x00000000: .word 0x80082cb0 # lb $t0, 0x2cb0($zr)
+.L0x00000000: .word D0x80082cb0 # lb $t0, 0x2cb0($zr)
 .L0x00000004: .word 0x00000010 # mfhi $zr
 .L0x00000008: .word 0x00002458 # 0x2458
 .L0x0000000c: .word 0x00004e74 # 0x4e74

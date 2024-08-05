@@ -717,7 +717,7 @@ STCRDSHP:
 .L0x00000b18: move_ $s0, $a1                      # .word 0x00a08021
 .L0x00000b1c: beqz $a2, .L0x00000de8              # .word 0x10c000b2
 .L0x00000b20: nop                                 # .word 0x00000000
-.L0x00000b24: jal 0x8001ebf8                      # .word 0x0c007afe
+.L0x00000b24: jal F0x8001ebf8                      # .word 0x0c007afe
 .L0x00000b28: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00000b2c: lw $v0, 0x3c($sp)                   # .word 0x8fa2003c
 .L0x00000b30: nop                                 # .word 0x00000000
@@ -1251,7 +1251,7 @@ STCRDSHP:
 .L0x00001370: sll $v0, 0x2                        # .word 0x00021080
 .L0x00001374: addu $v0, $s3, $v0                  # .word 0x02621021
 .L0x00001378: lw $s2, 0x70($v0)                   # .word 0x8c520070
-.L0x0000137c: jal 0x8001ebf8                      # .word 0x0c007afe
+.L0x0000137c: jal F0x8001ebf8                      # .word 0x0c007afe
 .L0x00001380: addiu $a0, $sp, 0xb0                # .word 0x27a400b0
 .L0x00001384: lw $v0, 0xdc($sp)                   # .word 0x8fa200dc
 .L0x00001388: nop                                 # .word 0x00000000
@@ -2683,7 +2683,7 @@ STCRDSHP:
 .L0x000029d0: move_ $s0, $a0                      # .word 0x00808021
 .L0x000029d4: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x000029d8: sw $ra, 0x70($sp)                   # .word 0xafbf0070
-.L0x000029dc: jal 0x8001ebf8                      # .word 0x0c007afe
+.L0x000029dc: jal F0x8001ebf8                      # .word 0x0c007afe
 .L0x000029e0: sw $s1, 0x6c($sp)                   # .word 0xafb1006c
 .L0x000029e4: li $a0, 0x140                       # .word 0x24040140
 .L0x000029e8: li $a1, 0x100                       # .word 0x24050100
@@ -2782,7 +2782,7 @@ STCRDSHP:
 .L0x00002b5c: nop                                 # .word 0x00000000
 .L0x00002b60: jalr $v0                            # .word 0x0040f809
 .L0x00002b64: move_ $a1, $zr                      # .word 0x00002821
-.L0x00002b68: jal 0x8001ebf8                      # .word 0x0c007afe
+.L0x00002b68: jal F0x8001ebf8                      # .word 0x0c007afe
 .L0x00002b6c: addiu $a0, $sp, 0xb0                # .word 0x27a400b0
 .L0x00002b70: li $a0, 0x140                       # .word 0x24040140
 .L0x00002b74: lw $v0, 0xec($sp)                   # .word 0x8fa200ec
@@ -3467,7 +3467,7 @@ STCRDSHP:
 .L0x00003610: lh $s1, ($v0)                       # .word 0x84510000
 .L0x00003614: beqz $a2, .L0x00003960              # .word 0x10c000d2
 .L0x00003618: move_ $s0, $a1                      # .word 0x00a08021
-.L0x0000361c: jal 0x8001ebf8                      # .word 0x0c007afe
+.L0x0000361c: jal F0x8001ebf8                      # .word 0x0c007afe
 .L0x00003620: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00003624: lw $v0, 0x3c($sp)                   # .word 0x8fa2003c
 .L0x00003628: nop                                 # .word 0x00000000
@@ -3790,7 +3790,7 @@ STCRDSHP:
 .L0x00003b1c: lh $s3, ($v0)                       # .word 0x84530000
 .L0x00003b20: beqz $v1, .L0x00003df0              # .word 0x106000b3
 .L0x00003b24: nop                                 # .word 0x00000000
-.L0x00003b28: jal 0x8001ebf8                      # .word 0x0c007afe
+.L0x00003b28: jal F0x8001ebf8                      # .word 0x0c007afe
 .L0x00003b2c: addiu $a0, $sp, 0xb0                # .word 0x27a400b0
 .L0x00003b30: lw $v0, 0xdc($sp)                   # .word 0x8fa200dc
 .L0x00003b34: nop                                 # .word 0x00000000
@@ -4527,7 +4527,7 @@ STCRDSHP:
 .L0x000046a0: andi $s0, 0x1                       # .word 0x32100001
 .L0x000046a4: beqz $s0, .L0x0000479c              # .word 0x1200003d
 .L0x000046a8: nop                                 # .word 0x00000000
-.L0x000046ac: jal 0x8001ebf8                      # .word 0x0c007afe
+.L0x000046ac: jal F0x8001ebf8                      # .word 0x0c007afe
 .L0x000046b0: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x000046b4: lw $v1, 0x6c($s2)                   # .word 0x8e43006c
 .L0x000046b8: lw $a0, 0xa8($s2)                   # .word 0x8e4400a8

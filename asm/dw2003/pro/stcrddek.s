@@ -614,7 +614,7 @@ STCRDDEK:
 .L0x0000097c: nop                                 # .word 0x00000000
 .L0x00000980: jalr $v0                            # .word 0x0040f809
 .L0x00000984: move_ $s4, $zr                      # .word 0x0000a021
-.L0x00000988: jal 0x8001ebf8                      # .word 0x0c007afe
+.L0x00000988: jal F0x8001ebf8                      # .word 0x0c007afe
 .L0x0000098c: addiu $a0, $sp, 0xb0                # .word 0x27a400b0
 .L0x00000990: li $a0, 0x140                       # .word 0x24040140
 .L0x00000994: lw $v0, 0xec($sp)                   # .word 0x8fa200ec
@@ -724,7 +724,7 @@ STCRDDEK:
 .L0x00000b34: li $v0, 0x28                        # .word 0x24020028
 .L0x00000b38: j 0x800838b4                        # .word 0x08020e2d
 .L0x00000b3c: sw $v0, 0x5c($s0)                   # .word 0xae02005c
-.L0x00000b40: jal 0x8001ebf8                      # .word 0x0c007afe
+.L0x00000b40: jal F0x8001ebf8                      # .word 0x0c007afe
 .L0x00000b44: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x00000b48: lui $a1, 0x8005                     # .word 0x3c058005
 .L0x00000b4c: addiu $a1, -0x72cc                  # .word 0x24a58d34
@@ -1173,7 +1173,7 @@ STCRDDEK:
 .L0x00001238: nop                                 # .word 0x00000000
 .L0x0000123c: beqz $v0, .L0x00001500              # .word 0x104000b0
 .L0x00001240: nop                                 # .word 0x00000000
-.L0x00001244: jal 0x8001ebf8                      # .word 0x0c007afe
+.L0x00001244: jal F0x8001ebf8                      # .word 0x0c007afe
 .L0x00001248: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x0000124c: lw $v0, 0x3c($sp)                   # .word 0x8fa2003c
 .L0x00001250: nop                                 # .word 0x00000000
@@ -1541,7 +1541,7 @@ STCRDDEK:
 .L0x000017f8: nop                                 # .word 0x00000000
 .L0x000017fc: jalr $v0                            # .word 0x0040f809
 .L0x00001800: move_ $a2, $s0                      # .word 0x02003021
-.L0x00001804: jal 0x8001ebf8                      # .word 0x0c007afe
+.L0x00001804: jal F0x8001ebf8                      # .word 0x0c007afe
 .L0x00001808: addiu $a0, $sp, 0x10                # .word 0x27a40010
 .L0x0000180c: lw $v0, 0x3c($sp)                   # .word 0x8fa2003c
 .L0x00001810: nop                                 # .word 0x00000000
@@ -1879,7 +1879,7 @@ STCRDDEK:
 .L0x00001d40: nop                                 # .word 0x00000000
 .L0x00001d44: jalr $v0                            # .word 0x0040f809
 .L0x00001d48: li $a1, 0x25                        # .word 0x24050025
-.L0x00001d4c: jal 0x8001ebf8                      # .word 0x0c007afe
+.L0x00001d4c: jal F0x8001ebf8                      # .word 0x0c007afe
 .L0x00001d50: addiu $a0, $sp, 0xb0                # .word 0x27a400b0
 .L0x00001d54: lui $a1, 0x8005                     # .word 0x3c058005
 .L0x00001d58: addiu $a1, -0x72cc                  # .word 0x24a58d34
@@ -2061,7 +2061,7 @@ STCRDDEK:
 .L0x00002018: j 0x80084f04                        # .word 0x080213c1
 .L0x0000201c: lui $v0, 0x8004                     # .word 0x3c028004
 .L0x00002020: move_ $s2, $zr                      # .word 0x00009021
-.L0x00002024: jal 0x8001ebf8                      # .word 0x0c007afe
+.L0x00002024: jal F0x8001ebf8                      # .word 0x0c007afe
 .L0x00002028: addiu $a0, $sp, 0xb0                # .word 0x27a400b0
 .L0x0000202c: lui $v0, 0x8004                     # .word 0x3c028004
 .L0x00002030: addiu $s4, $v0, 0x4b38              # .word 0x24544b38
@@ -2227,7 +2227,7 @@ STCRDDEK:
 .L0x000022b0: nop                                 # .word 0x00000000
 .L0x000022b4: jalr $v0                            # .word 0x0040f809
 .L0x000022b8: li $a1, 0x25                        # .word 0x24050025
-.L0x000022bc: jal 0x8001ebf8                      # .word 0x0c007afe
+.L0x000022bc: jal F0x8001ebf8                      # .word 0x0c007afe
 .L0x000022c0: addiu $a0, $sp, 0xb0                # .word 0x27a400b0
 .L0x000022c4: lw $v0, 0x78($s3)                   # .word 0x8e620078
 .L0x000022c8: lw $v1, 0x74($s3)                   # .word 0x8e630074
@@ -6518,7 +6518,7 @@ STCRDDEK:
 .L0x000065bc: sw $s3, 0x74($sp)                   # .word 0xafb30074
 .L0x000065c0: sw $s2, 0x70($sp)                   # .word 0xafb20070
 .L0x000065c4: sw $s1, 0x6c($sp)                   # .word 0xafb1006c
-.L0x000065c8: jal 0x8001ebf8                      # .word 0x0c007afe
+.L0x000065c8: jal F0x8001ebf8                      # .word 0x0c007afe
 .L0x000065cc: sw $s0, 0x68($sp)                   # .word 0xafb00068
 .L0x000065d0: move_ $s5, $zr                      # .word 0x0000a821
 .L0x000065d4: lui $v0, 0x8005                     # .word 0x3c028005

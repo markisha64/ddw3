@@ -130,7 +130,7 @@ CNTY_SEL:
 .L0x000001ec: move_ $a2, $a1                      # .word 0x00a03021
 .L0x000001f0: move_ $a3, $a1                      # .word 0x00a03821
 .L0x000001f4: sw $ra, 0x14($sp)                   # .word 0xafbf0014
-.L0x000001f8: jal 0x80025a7c                      # .word 0x0c00969f
+.L0x000001f8: jal F0x80025a7c                      # .word 0x0c00969f
 .L0x000001fc: sw $s0, 0x10($sp)                   # .word 0xafb00010
 .L0x00000200: lui $a0, 0x8008                     # .word 0x3c048008
 .L0x00000204: addiu $a0, 0x2ce8                   # .word 0x24842ce8
