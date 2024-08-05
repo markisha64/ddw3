@@ -1,6 +1,6 @@
 start_addr = 0x80082cb0
 objs = [
 	"/build/asm/dw2003/pro/stitshop.o",
-	"/build/rust/dw2003_pro_stitshop_data.o",
+	"/build/rust/dw2003_pro_stitshop_data.a",
 ]
 sections = ["section_STITSHOP", "dw2003_pro_STITSHOP_data"]

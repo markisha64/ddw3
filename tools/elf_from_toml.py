@@ -47,6 +47,7 @@ SECTIONS {{
 		"-EL",
 		"--omagic",
 		"--relocatable",
+		"--whole-archive",
 		"--script",
 		args.linker_script_output,
 		"-Map",

@@ -3,13 +3,19 @@
 resolver = "2"
 
 members = [
+	# Executable
+	"dw2003_exe",
 	"dw2003_exe_data",
 	"dw2003_exe_digimon_profiles",
+
+	# Libraries
 	"dw2003_pro_stfgtrep_data",
 	"dw2003_pro_stgtrain_data",
 	"dw2003_pro_sdigiedt_data",
 	"dw2003_pro_fieldstg_data",
 	"dw2003_pro_stitshop_data",
+
+	# Utilities
 	"types",
 	"util",
 ]
@@ -17,6 +23,7 @@ members = [
 [workspace.dependencies]
 
 # Workspace
+dw2003_exe = { path = "dw2003_exe" }
 dw2003_exe_data = { path = "dw2003_exe_data" }
 dw2003_exe_digimon_profiles = { path = "dw2003_exe_digimon_profiles" }
 dw2003_pro_stfgtrep_data = { path = "dw2003_pro_stfgtrep_data" }

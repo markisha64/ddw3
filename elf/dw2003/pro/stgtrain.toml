@@ -6,7 +6,7 @@ objs = [
 	"/build/asm/dw2003/pro/stgtrain/f9.o",
 	"/build/asm/dw2003/pro/stgtrain/f10.o",
 	"/build/asm/dw2003/pro/stgtrain/f11.o",
-	"/build/rust/dw2003_pro_stgtrain_data.o",
+	"/build/rust/dw2003_pro_stgtrain_data.a",
 ]
 sections = [
 	"section_STGTRAIN_0",

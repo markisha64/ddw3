@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "dw2003_exe"
+version = "0.1.0"
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+
+dw2003_exe_data = { workspace = true }
+dw2003_exe_digimon_profiles = { workspace = true }
+util = { workspace = true }

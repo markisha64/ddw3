@@ -1,6 +1,6 @@
 start_addr = 0x80000000 # TODO: Placeholder, replace
 objs = [
 	"/build/asm/dw2003/pro/sdigiedt.o",
-	"/build/rust/dw2003_pro_sdigiedt_data.o",
+	"/build/rust/dw2003_pro_sdigiedt_data.a",
 ]
 sections = ["section_SDIGIEDT", "dw2003_pro_SDIGIEDT_data"]

@@ -3,7 +3,6 @@ alias:
   # External tools
   # prettier-ignore
   as         : mips-elf-as      # GNU assembler (GNU Binutils) 2.39
-  ar         : mips-elf-ar      # GNU assembler (GNU Binutils) 2.39
   ld         : mips-elf-ld      # GNU assembler (GNU Binutils) 2.39
   objcopy    : mips-elf-objcopy # GNU assembler (GNU Binutils) 2.39
   mkpsxiso   : mkpsxiso         # MKPSXISO 2.02
@@ -163,7 +162,6 @@ alias:
 
   # Rust library
   rust_lib     : $(build_rust_dir)/^(name).a
-  rust_lib_obj : $(build_rust_dir)/^(name).o
   rust_lib_deps: $(build_rust_dir)/^(name).d
 
 # By default built the final `iso`s
@@ -631,7 +629,6 @@ rules:
       build_target_dir: target/mipsel-sony-psx/release
     out:
       - $(rust_lib)
-      - $(rust_lib_obj)
       - deps_file: $(rust_lib_deps)
     deps:
       - static: $(rust_lib::dir_name)/
@@ -645,30 +642,6 @@ rules:
           - --package=^(name)
           - -Z=unstable-options
       - [$(cp), rust/$(build_target_dir)/lib^(name).a, $(rust_lib)]
-
-      # Extract the `.a` and turn it into a `.o`
-      # Note: Sometimes the linker doesn't like object files being
-      #       within an archive and will ignore them unless they're
-      #       extracted.
-      # TODO: Fix the linker and remove this. Currently this only extracts
-      #       the crate itself and not any of it's dependencies. This is
-      #       *currently* all we need, but in the future we might need to
-      #       use the dependencies.
-      - [$(mkdir), -p, $(rust_lib).extracted]
-      - [$(ar), x, $(rust_lib), --output, $(rust_lib).extracted]
-      - [
-          find,
-          $(rust_lib).extracted,
-          -type,
-          f,
-          -name,
-          '*^(name)*',
-          -exec,
-          mv,
-          '{}',
-          $(rust_lib_obj),
-          ';',
-        ]
 
       # Then copy the dependency file and adjust the references
       - [$(cp), rust/$(build_target_dir)/lib^(name).d, $(rust_lib_deps)]

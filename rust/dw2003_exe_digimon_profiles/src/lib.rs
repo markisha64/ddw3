@@ -7,9 +7,6 @@
 // Modules
 pub mod digimon_profile;
 
-// Exports
-pub use util::panic_handler;
-
 // Imports
 use digimon_profile::DigimonProfile;
 

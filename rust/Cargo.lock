@@ -3,6 +3,15 @@
 version = 3
 
 [[package]]
+name = "dw2003_exe"
+version = "0.1.0"
+dependencies = [
+ "dw2003_exe_data",
+ "dw2003_exe_digimon_profiles",
+ "util",
+]
+
+[[package]]
 name = "dw2003_exe_data"
 version = "0.1.0"
 dependencies = [
