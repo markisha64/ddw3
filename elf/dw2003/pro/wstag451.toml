@@ -1,3 +1,3 @@
-start_addr = 0x80000000 # TODO: Placeholder, replace
+start_addr = 0x80000000                     # TODO: Placeholder, replace
 objs = ["/build/asm/dw2003/pro/wstag451.o"]
 sections = ["section_WSTAG451"]
