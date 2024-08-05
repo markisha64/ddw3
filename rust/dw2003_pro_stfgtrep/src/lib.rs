@@ -1,4 +1,4 @@
-//! `ddw3` `FIELDSTG.PRO` data
+//! `ddw3` `STFGTREP.PRO`
 
 // Features
 #![feature(decl_macro)]

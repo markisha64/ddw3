@@ -1,4 +1,4 @@
-//! `ddw3` `STGTRAIN.PRO` data
+//! `ddw3` `STGTRAIN.PRO`
 
 // Features
 #![feature(decl_macro)]

@@ -1,6 +1,6 @@
 [package]
 edition = "2021"
-name = "dw2003_pro_sdigiedt_data"
+name = "dw2003_pro_stfgtrep"
 version = "0.1.0"
 
 [lib]

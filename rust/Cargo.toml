@@ -9,11 +9,11 @@ members = [
 	"dw2003_exe_digimon_profiles",
 
 	# Libraries
-	"dw2003_pro_stfgtrep_data",
-	"dw2003_pro_stgtrain_data",
-	"dw2003_pro_sdigiedt_data",
-	"dw2003_pro_fieldstg_data",
-	"dw2003_pro_stitshop_data",
+	"dw2003_pro_stfgtrep",
+	"dw2003_pro_stgtrain",
+	"dw2003_pro_sdigiedt",
+	"dw2003_pro_fieldstg",
+	"dw2003_pro_stitshop",
 
 	# Utilities
 	"types",
@@ -26,10 +26,10 @@ members = [
 dw2003_exe = { path = "dw2003_exe" }
 dw2003_exe_data = { path = "dw2003_exe_data" }
 dw2003_exe_digimon_profiles = { path = "dw2003_exe_digimon_profiles" }
-dw2003_pro_stfgtrep_data = { path = "dw2003_pro_stfgtrep_data" }
-dw2003_pro_stgtrain_data = { path = "dw2003_pro_stgtrain_data" }
-dw2003_pro_sdigiedt_data = { path = "dw2003_pro_sdigiedt_data" }
-dw2003_pro_fieldstg_data = { path = "dw2003_pro_fieldstg_data" }
-dw2003_pro_stitshop_data = { path = "dw2003_pro_stitshop_data" }
+dw2003_pro_stfgtrep = { path = "dw2003_pro_stfgtrep" }
+dw2003_pro_stgtrain = { path = "dw2003_pro_stgtrain" }
+dw2003_pro_sdigiedt = { path = "dw2003_pro_sdigiedt" }
+dw2003_pro_fieldstg = { path = "dw2003_pro_fieldstg" }
+dw2003_pro_stitshop = { path = "dw2003_pro_stitshop" }
 types = { path = "types" }
 util = { path = "util" }

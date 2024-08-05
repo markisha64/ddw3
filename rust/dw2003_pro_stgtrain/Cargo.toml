@@ -1,6 +1,6 @@
 [package]
 edition = "2021"
-name = "dw2003_pro_stitshop_data"
+name = "dw2003_pro_stgtrain"
 version = "0.1.0"
 
 [lib]
@@ -8,5 +8,4 @@ crate-type = ["staticlib"]
 
 [dependencies]
 
-types = { workspace = true }
 util = { workspace = true }
