@@ -4697,6 +4697,8 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8004b3ec: u32 = 0x00000000;
 	pub static mut D0x8004b3f0: u32 = 0x00000000;
 	pub static mut D0x8004b3f4: u32 = 0x00000000;
+
+	// Used by `f15`, `load_D0x8004b3f8`
 	pub static mut D0x8004b3f8: u32 = 0x00000000;
 	pub static mut D0x8004b3fc: u32 = 0x00000000;
 	pub static mut D0x8004b400: u32 = 0x00000000;
@@ -4713,7 +4715,7 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x8004b42c: u32 = 0x00000000;
 	pub static mut D0x8004b430: *const u32 = unsafe { ptr::addr_of!(F0x80016a94) };
 	pub static mut D0x8004b434: *const u32 = unsafe { ptr::addr_of!(F0x80016b28) };
-	pub static mut D0x8004b438: *const u32 = unsafe { ptr::addr_of!(F0x80016b68) };
+	pub static mut D0x8004b438: *const u32 = unsafe { ptr::addr_of!(load_D0x8004b3f8) };
 	pub static mut D0x8004b43c: *const u32 = unsafe { ptr::addr_of!(F0x80016b78) };
 	pub static mut D0x8004b440: *const u32 = unsafe { ptr::addr_of!(F0x80016b88) };
 	pub static mut D0x8004b444: *const u32 = unsafe { ptr::addr_of!(F0x80016b9c) };
@@ -9230,8 +9232,14 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x80055d1c: u32 = 0x000001d1;
 	pub static mut D0x80055d20: u32 = 0x00000184;
 	pub static mut D0x80055d24: u32 = 0x00000165;
+
+	// Used by `f15`.
+	//
+	// Used to store the value of `D0x8004b3f8`
 	pub static mut D0x80055d28: u32 = 0x00000000;
+
 	pub static mut D0x80055d2c: u32 = 0x00000000;
+
 	pub static mut D0x80055d30: *const u32 = unsafe { ptr::addr_of!(f15) };
 	pub static mut D0x80055d34: *const u32 = unsafe { ptr::addr_of!(F0x80020d10) };
 	pub static mut D0x80055d38: u32 = 0x1f801070;
@@ -20804,7 +20812,7 @@ extern "C" {
 	static mut F0x80016a94: u32;
 	static mut F0x80016b28: u32;
 	static mut F0x80016b58: u32;
-	static mut F0x80016b68: u32;
+	static mut load_D0x8004b3f8: u32;
 	static mut F0x80016b78: u32;
 	static mut F0x80016b88: u32;
 	static mut F0x80016b9c: u32;

@@ -7079,8 +7079,8 @@ F0x80016b58:
 .L0x80016b60: jr $ra
 .L0x80016b64: nop
 
-.global F0x80016b68
-F0x80016b68:
+.global load_D0x8004b3f8
+load_D0x8004b3f8:
 .L0x80016b68: lui $v0, %hi(D0x8004b3f8)
 .L0x80016b6c: lw $v0, %lo(D0x8004b3f8)($v0)
 .L0x80016b70: jr $ra
