@@ -45,6 +45,7 @@ members = [
 
 	# Misc
 	"replace-bytes",
+	"find-bytes",
 ]
 
 [workspace.dependencies]

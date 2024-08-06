@@ -1,0 +1,12 @@
+[package]
+edition = "2021"
+name = "find-bytes"
+version = "0.1.0"
+
+[dependencies]
+
+anyhow = { workspace = true }
+clap = { workspace = true, features = ["derive"] }
+ddw3-logger = { workspace = true }
+memchr = { workspace = true }
+tracing = { workspace = true }

@@ -721,6 +721,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "find-bytes"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "ddw3-logger",
+ "memchr",
+ "tracing",
+]
+
+[[package]]
 name = "flate2"
 version = "1.0.27"
 source = "registry+https://github.com/rust-lang/crates.io-index"
