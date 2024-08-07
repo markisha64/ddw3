@@ -7,6 +7,7 @@ version = "0.1.0"
 
 anyhow = { workspace = true }
 clap = { workspace = true, features = ["derive"] }
+clap-num = { workspace = true }
 ddw3-logger = { workspace = true }
 memchr = { workspace = true }
 tracing = { workspace = true }

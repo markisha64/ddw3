@@ -14,6 +14,7 @@ for RAM_DUMP in "$RAM_DUMPS"; do
 	printf "$RAM_DUMP:\n"
 	tools/target/release/find-bytes \
 		"$RAM_DUMP" \
+		--input-start=0x00080000 \
 		--fuzzy-score=1024 \
 		$RAW_EXES
 done

@@ -12,7 +12,15 @@ use {
 	anyhow::Context,
 	clap::Parser,
 	memchr::memmem,
-	std::{cmp, fs, iter, path::Path, sync::Mutex, thread},
+	std::{
+		cmp,
+		fs,
+		io::{self, Read, Seek},
+		iter,
+		path::Path,
+		sync::Mutex,
+		thread,
+	},
 };
 
 fn main() -> Result<(), anyhow::Error> {
@@ -32,7 +40,37 @@ fn main() -> Result<(), anyhow::Error> {
 	tracing::info!(%jobs, "Using jobs");
 
 	// Read the input file
-	let input = fs::read(&args.input_file).context("Unable to read input file")?;
+	let (input_start, input) = {
+		let mut input = vec![];
+		let mut input_file = fs::File::open(&args.input_file).context("Unable to open input file")?;
+
+		// Get the starting position (`0` if none specified)
+		let start = match args.input_file_range.start {
+			Some(start) => {
+				input_file
+					.seek(io::SeekFrom::Start(start))
+					.context("Unable to seek input file")?;
+				start
+			},
+			None => 0,
+		};
+
+		// Then get the size, either via the `end` flag, or the `size` flag.
+		// If none are specified, use `None`.
+		let size = match args.input_file_range.end {
+			Some(end) => Some(end - start),
+			None => args.input_file_range.size,
+		};
+
+		// Then if we have a size, limit it and read to end, otherwise just read.
+		match size {
+			Some(size) => input_file.take(size).read_to_end(&mut input),
+			None => input_file.read_to_end(&mut input),
+		}
+		.context("Unable to read input file")?;
+
+		(start, input)
+	};
 
 	let file_needles = Mutex::new(args.file_needles);
 	thread::scope(|s| {
@@ -44,7 +82,7 @@ fn main() -> Result<(), anyhow::Error> {
 
 				let res = match args.fuzzy_score {
 					Some(max_score) => self::find_file_needle_fuzzy(&input, &file_needle, max_score),
-					None => self::find_file_needle(&input, &file_needle),
+					None => self::find_file_needle_exact(&input, &file_needle),
 				};
 
 				match res {
@@ -55,9 +93,11 @@ fn main() -> Result<(), anyhow::Error> {
 							},
 						false =>
 							for FindResult { score, pos } in results {
+								let pos = u64::try_from(pos).expect("Offset didn't fit into a `u64`");
+								let input_pos = input_start + pos;
 								match args.fuzzy_score.is_some() {
-									true => println!("{file_needle:?}: {pos:#x} ({score})"),
-									false => println!("{file_needle:?}: {pos:#x}"),
+									true => println!("{file_needle:?}: {input_pos:#x} ({score})"),
+									false => println!("{file_needle:?}: {input_pos:#x}"),
 								}
 							},
 					},
@@ -78,7 +118,7 @@ struct FindResult {
 	/// For non-fuzzy searching, always 0.
 	score: usize,
 
-	/// Position
+	/// Relative position to the input
 	pos: usize,
 }
 
@@ -104,7 +144,7 @@ impl Ord for FindResult {
 
 
 /// Finds `file_needle` in `input`.
-fn find_file_needle(input: &[u8], file_needle: &Path) -> Result<Vec<FindResult>, anyhow::Error> {
+fn find_file_needle_exact(input: &[u8], file_needle: &Path) -> Result<Vec<FindResult>, anyhow::Error> {
 	let needle = fs::read(file_needle).context("Unable to read needle")?;
 	let results = memmem::find_iter(input, &needle)
 		.map(|pos| FindResult { score: 0, pos })
