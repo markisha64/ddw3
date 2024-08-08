@@ -89,15 +89,15 @@ fn main() -> Result<(), anyhow::Error> {
 					Ok(results) => match results.is_empty() {
 						true =>
 							if !args.only_matching {
-								println!("{file_needle:?}: <not found>")
+								println!("{}: <not found>", file_needle.display())
 							},
 						false =>
 							for FindResult { score, pos } in results {
 								let pos = u64::try_from(pos).expect("Offset didn't fit into a `u64`");
 								let input_pos = input_start + pos;
 								match args.fuzzy_score.is_some() {
-									true => println!("{file_needle:?}: {input_pos:#x} ({score})"),
-									false => println!("{file_needle:?}: {input_pos:#x}"),
+									true => println!("{}: {input_pos:#x} ({score})", file_needle.display()),
+									false => println!("{}: {input_pos:#x}", file_needle.display()),
 								}
 							},
 					},
