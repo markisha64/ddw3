@@ -4494,8 +4494,8 @@ F0x80014170:
 .L0x800141dc: jr $ra
 .L0x800141e0: addiu $sp, 0x18
 
-# Returns the lba of the `idx`th file.
-# `fn F0x800141e4(idx: u32) -> u32`
+# Returns if the `idx`th LBA is null.
+# `fn F0x800141e4(idx: u32) -> bool`
 .global F0x800141e4
 F0x800141e4:
 .L0x800141e4: la_ $v0, LBA_LIST
@@ -4503,7 +4503,7 @@ F0x800141e4:
 .L0x800141f0: addu $a0, $v0
 .L0x800141f4: lw $v0, ($a0)
 .L0x800141f8: jr $ra
-.L0x800141fc: sltu $v0, $zr, $v0
+.L0x800141fc: sltu $v0, $zr, $v0 # ?? $zr != $v0
 
 .global F0x80014200
 F0x80014200:
@@ -4514,6 +4514,8 @@ F0x80014200:
 .L0x80014214: jr $ra
 .L0x80014218: nop
 
+# Returns the LBA of the `idx`th file.
+# `fn F0x8001421c(idx: u32) -> u32`
 .global F0x8001421c
 F0x8001421c:
 .L0x8001421c: la_ $v0, LBA_LIST
@@ -4523,6 +4525,8 @@ F0x8001421c:
 .L0x80014230: jr $ra
 .L0x80014234: nop
 
+# Calls `F0x8002e10c(LBA_LIST[idx] + offset, arg2)`
+# `fn F0x8001421c(idx: u32, offset: u32, arg2: u32) -> ???`
 .global F0x80014238
 F0x80014238:
 .L0x80014238: addiu $sp, -0x18
