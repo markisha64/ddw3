@@ -1,7 +1,7 @@
 //! Utility for finding bytes
 
 // Features
-#![feature(iterator_try_reduce)]
+#![feature(iterator_try_reduce, if_let_guard, let_chains)]
 
 // Modules
 mod args;
@@ -11,6 +11,7 @@ use {
 	self::args::Args,
 	anyhow::Context,
 	clap::Parser,
+	itertools::Itertools,
 	memchr::memmem,
 	std::{
 		cmp,
@@ -39,75 +40,142 @@ fn main() -> Result<(), anyhow::Error> {
 	};
 	tracing::info!(%jobs, "Using jobs");
 
-	// Read the input file
-	let (input_start, input) = {
-		let mut input = vec![];
-		let mut input_file = fs::File::open(&args.input_file).context("Unable to open input file")?;
+	// Read the haystacks
+	let haystacks = args
+		.haystacks
+		.iter()
+		.map(Haystack::parse_from_args)
+		.zip(&args.haystacks)
+		.map(|(res, haystack)| res.with_context(|| format!("Unable to read haystack {}", haystack.path.display())))
+		.collect::<Result<Vec<_>, anyhow::Error>>()
+		.context("Unable to read all haystacks")?;
 
-		// Get the starting position (`0` if none specified)
-		let start = match args.input_file_range.start {
-			Some(start) => {
-				input_file
-					.seek(io::SeekFrom::Start(start))
-					.context("Unable to seek input file")?;
-				start
-			},
-			None => 0,
-		};
+	// Read the needles
+	let needles = args
+		.needles
+		.iter()
+		.map(Needle::parse_from_args)
+		.zip(&args.needles)
+		.map(|(res, needle)| res.with_context(|| format!("Unable to read needle {}", needle.path.display())))
+		.collect::<Result<Vec<_>, anyhow::Error>>()
+		.context("Unable to read all needles")?;
 
-		// Then get the size, either via the `end` flag, or the `size` flag.
-		// If none are specified, use `None`.
-		let size = match args.input_file_range.end {
-			Some(end) => Some(end - start),
-			None => args.input_file_range.size,
-		};
+	// Then bundle them for searching
+	let searches = haystacks.iter().cartesian_product(needles.iter()).collect::<Vec<_>>();
+	let searches = Mutex::new(searches);
 
-		// Then if we have a size, limit it and read to end, otherwise just read.
-		match size {
-			Some(size) => input_file.take(size).read_to_end(&mut input),
-			None => input_file.read_to_end(&mut input),
-		}
-		.context("Unable to read input file")?;
-
-		(start, input)
-	};
-
-	let file_needles = Mutex::new(args.file_needles);
+	// And spawn all the jobs for searching
 	thread::scope(|s| {
 		for _ in 0..jobs {
 			s.spawn(|| loop {
-				let Some(file_needle) = file_needles.lock().expect("Poisoned").pop() else {
+				// Get the next search, if any, else stop
+				let Some((haystack, needle)) = searches.lock().expect("Poisoned").pop() else {
 					break;
 				};
 
-				let res = match args.fuzzy_score {
-					Some(max_score) => self::find_file_needle_fuzzy(&input, &file_needle, max_score),
-					None => self::find_file_needle_exact(&input, &file_needle),
+				// Then try to find it
+				let res = match needle.fuzzy_score {
+					Some(max_score) => self::find_needle_fuzzy(&haystack.contents, &needle.contents, max_score),
+					None => self::find_needle_exact(&haystack.contents, &needle.contents),
 				};
 
 				match res {
 					Ok(results) => match results.is_empty() {
 						true =>
 							if !args.only_matching {
-								println!("{}: <not found>", file_needle.display())
+								println!("{} @ {}: <not found>", needle.path.display(), haystack.path.display())
 							},
 						false =>
 							for FindResult { score, pos } in results {
 								let pos = u64::try_from(pos).expect("Offset didn't fit into a `u64`");
-								let input_pos = input_start + pos;
-								match args.fuzzy_score.is_some() {
-									true => println!("{}: {input_pos:#x} ({score})", file_needle.display()),
-									false => println!("{}: {input_pos:#x}", file_needle.display()),
+								let haystack_pos = haystack.start + pos;
+								match needle.fuzzy_score {
+									Some(max_score) => println!(
+										"{} @ {}: {haystack_pos:#x} ({score} / {max_score})",
+										needle.path.display(),
+										haystack.path.display()
+									),
+									None => println!(
+										"{} @ {}: {haystack_pos:#x}",
+										needle.path.display(),
+										haystack.path.display()
+									),
 								}
 							},
 					},
-					Err(err) => tracing::warn!(needle=?file_needle, ?err, "Unable to search needle"),
+					Err(err) => tracing::warn!(needle=?needle.path, ?err, "Unable to search needle"),
 				}
 			});
 		}
 	});
 
 	Ok(())
+}
+
+struct Haystack<'a> {
+	path:     &'a Path,
+	contents: Vec<u8>,
+	start:    u64,
+}
+
+impl<'a> Haystack<'a> {
+	/// Parses a haystack from arguments
+	fn parse_from_args(haystack: &'a args::Haystack) -> Result<Self, anyhow::Error> {
+		let mut contents = vec![];
+		let mut file = fs::File::open(&haystack.path).context("Unable to open haystack file")?;
+
+		// Get the starting position (`0` if none specified and both `end` and `size` aren't specified).
+		let start = match haystack.start {
+			Some(start) => {
+				file.seek(io::SeekFrom::Start(start))
+					.context("Unable to seek haystack file")?;
+				start
+			},
+			None if let Some(end) = haystack.end &&
+				let Some(size) = haystack.size =>
+				end.checked_sub(size).context("Size cannot be greater than `end`")?,
+			None => 0,
+		};
+
+		// Then get the size, either via the `end` flag, or the `size` flag.
+		// If none are specified, use `None`.
+		let size = match haystack.end {
+			Some(end) => Some(end - start),
+			None => haystack.size,
+		};
+
+		// Then if we have a size, limit it and read to end, otherwise just read.
+		match size {
+			Some(size) => file.take(size).read_to_end(&mut contents),
+			None => file.read_to_end(&mut contents),
+		}
+		.context("Unable to read haystack file")?;
+
+		Ok(Self {
+			path: &haystack.path,
+			contents,
+			start,
+		})
+	}
+}
+
+struct Needle<'a> {
+	path:        &'a Path,
+	contents:    Vec<u8>,
+	fuzzy_score: Option<usize>,
+}
+
+impl<'a> Needle<'a> {
+	/// Parses a needle from arguments
+	fn parse_from_args(needle: &'a args::Needle) -> Result<Self, anyhow::Error> {
+		let contents = fs::read(&needle.path).context("Unable to read needle file")?;
+
+		Ok(Self {
+			path: &needle.path,
+			contents,
+			fuzzy_score: needle.fuzzy_score,
+		})
+	}
 }
 
 /// A result, ordered by score
@@ -118,7 +186,7 @@ struct FindResult {
 	/// For non-fuzzy searching, always 0.
 	score: usize,
 
-	/// Relative position to the input
+	/// Relative position to the haystack start
 	pos: usize,
 }
 
@@ -143,33 +211,26 @@ impl Ord for FindResult {
 }
 
 
-/// Finds `file_needle` in `input`.
-fn find_file_needle_exact(input: &[u8], file_needle: &Path) -> Result<Vec<FindResult>, anyhow::Error> {
-	let needle = fs::read(file_needle).context("Unable to read needle")?;
-	let results = memmem::find_iter(input, &needle)
+/// Finds `needle` in `haystack`.
+fn find_needle_exact(haystack: &[u8], needle: &[u8]) -> Result<Vec<FindResult>, anyhow::Error> {
+	let results = memmem::find_iter(haystack, &needle)
 		.map(|pos| FindResult { score: 0, pos })
 		.collect();
 
 	Ok(results)
 }
 
-/// Finds `file_needle` in `input` using fuzzy searching with at most `max_score` score.
-fn find_file_needle_fuzzy(
-	input: &[u8],
-	file_needle: &Path,
-	max_score: usize,
-) -> Result<Vec<FindResult>, anyhow::Error> {
-	let needle = fs::read(file_needle).context("Unable to read needle")?;
-
+/// Finds `needle` in `haystack` using fuzzy searching with at most `max_score` score.
+fn find_needle_fuzzy(haystack: &[u8], needle: &[u8], max_score: usize) -> Result<Vec<FindResult>, anyhow::Error> {
 	if needle.is_empty() {
 		return Ok(vec![]);
 	}
 
-	let mut results = input
+	let mut results = haystack
 		.windows(needle.len())
 		.enumerate()
-		.flat_map(|(pos, input_window)| {
-			let score = iter::zip(input_window, &needle)
+		.flat_map(|(pos, haystack_window)| {
+			let score = iter::zip(haystack_window, needle)
 				.filter(|(lhs, rhs)| lhs != rhs)
 				.try_fold(0, |cur_score, _| match cur_score >= max_score {
 					true => None,

@@ -6,8 +6,10 @@ version = "0.1.0"
 [dependencies]
 
 anyhow = { workspace = true }
-clap = { workspace = true, features = ["derive"] }
+clap = { workspace = true, features = ["derive", "cargo"] }
 clap-num = { workspace = true }
 ddw3-logger = { workspace = true }
+itertools = { workspace = true }
 memchr = { workspace = true }
+num = { workspace = true }
 tracing = { workspace = true }

@@ -69,6 +69,7 @@ image = "0.24.7"
 int-conv = "0.1.4"
 itertools = "0.11.0"
 memchr = "2.7.4"
+num = "0.4.3"
 pathdiff = "0.2.1"
 ref-cast = "1.0.20"
 serde = { version = "1.0.188", features = ["derive"] }
