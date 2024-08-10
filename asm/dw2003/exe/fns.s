@@ -4525,8 +4525,8 @@ F0x8001421c:
 .L0x80014230: jr $ra
 .L0x80014234: nop
 
-# Calls `F0x8002e10c(LBA_LIST[idx] + offset, arg2)`
-# `fn F0x8001421c(idx: u32, offset: u32, arg2: u32) -> ???`
+# Calls `f16(LBA_LIST[idx] + offset, arg2)`
+# `fn F0x8001421c(idx: u32, offset: u32, arg2: *mut u8)`
 .global F0x80014238
 F0x80014238:
 .L0x80014238: addiu $sp, -0x18
@@ -4537,7 +4537,7 @@ F0x80014238:
 .L0x80014250: lw $a0, ($a0)
 .L0x80014254: nop
 .L0x80014258: addu $a0, $a1
-.L0x8001425c: jal F0x8002e10c
+.L0x8001425c: jal f16
 .L0x80014260: move_ $a1, $a2
 .L0x80014264: lw $ra, 0x10($sp)
 .L0x80014268: nop
@@ -17958,7 +17958,7 @@ F0x80020c38:
 .L0x80020c5c: jr $ra
 .L0x80020c60: addiu $sp, 0x18
 
-.section "fns3_01"
+.section "fns3_010"
 
 .global F0x80020d10
 F0x80020d10:
@@ -29817,7 +29817,7 @@ F0x8002bd78:
 .L0x8002bd98: jal F0x8002badc
 .L0x8002bd9c: addiu $a0, %lo(D0x80081490)
 .L0x8002bda0: addiu $a0, $v0, 0x1
-.L0x8002bda4: jal F0x8002e10c
+.L0x8002bda4: jal f16
 .L0x8002bda8: move_ $a1, $s0
 .L0x8002bdac: lui $v0, %hi(D0x80081494)
 .L0x8002bdb0: lw $v0, %lo(D0x80081494)($v0)
@@ -32110,73 +32110,7 @@ F0x8002e0ac:
 .L0x8002e104: nop
 .L0x8002e108: nop
 
-.global F0x8002e10c
-F0x8002e10c:
-.L0x8002e10c: li $v1, 0x1b4e81b5
-.L0x8002e114: addiu $a0, 0x96
-.L0x8002e118: mult $a0, $v1
-.L0x8002e11c: move_ $v0, $a1
-.L0x8002e120: li $a1, 0x88888889
-.L0x8002e128: mfhi $v1
-.L0x8002e12c: sra $a3, $v1, 0x3
-.L0x8002e130: sra $v1, $a0, 0x1f
-.L0x8002e134: subu $a3, $v1
-.L0x8002e138: mult $a3, $a1
-.L0x8002e13c: li $t1, 0x66666667
-.L0x8002e144: sll $a1, $a3, 0x2
-.L0x8002e148: addu $a1, $a3
-.L0x8002e14c: sll $v1, $a1, 0x4
-.L0x8002e150: mfhi $a2
-.L0x8002e154: subu $v1, $a1
-.L0x8002e158: subu $a0, $v1
-.L0x8002e15c: mult $a0, $t1
-.L0x8002e160: sra $v1, $a3, 0x1f
-.L0x8002e164: addu $t0, $a2, $a3
-.L0x8002e168: sra $t0, 0x5
-.L0x8002e16c: subu $t0, $v1
-.L0x8002e170: sll $v1, $t0, 0x4
-.L0x8002e174: subu $v1, $t0
-.L0x8002e178: mfhi $a1
-.L0x8002e17c: sll $v1, 0x2
-.L0x8002e180: subu $a3, $v1
-.L0x8002e184: mult $a3, $t1
-.L0x8002e188: sra $v1, $a0, 0x1f
-.L0x8002e18c: sra $a1, 0x2
-.L0x8002e190: subu $a1, $v1
-.L0x8002e194: sll $a2, $a1, 0x4
-.L0x8002e198: sll $v1, $a1, 0x2
-.L0x8002e19c: addu $v1, $a1
-.L0x8002e1a0: sll $v1, 0x1
-.L0x8002e1a4: subu $a0, $v1
-.L0x8002e1a8: mfhi $t3
-.L0x8002e1ac: addu $a2, $a0
-.L0x8002e1b0: sra $v1, $a3, 0x1f
-.L0x8002e1b4: mult $t0, $t1
-.L0x8002e1b8: sb $a2, 0x2($v0)
-.L0x8002e1bc: sra $a0, $t3, 0x2
-.L0x8002e1c0: subu $a0, $v1
-.L0x8002e1c4: sll $a1, $a0, 0x4
-.L0x8002e1c8: sll $v1, $a0, 0x2
-.L0x8002e1cc: addu $v1, $a0
-.L0x8002e1d0: sll $v1, 0x1
-.L0x8002e1d4: subu $a3, $v1
-.L0x8002e1d8: addu $a1, $a3
-.L0x8002e1dc: sra $v1, $t0, 0x1f
-.L0x8002e1e0: sb $a1, 0x1($v0)
-.L0x8002e1e4: mfhi $t1
-.L0x8002e1e8: sra $a0, $t1, 0x2
-.L0x8002e1ec: subu $a0, $v1
-.L0x8002e1f0: sll $a1, $a0, 0x4
-.L0x8002e1f4: sll $v1, $a0, 0x2
-.L0x8002e1f8: addu $v1, $a0
-.L0x8002e1fc: sll $v1, 0x1
-.L0x8002e200: subu $t0, $v1
-.L0x8002e204: addu $a1, $t0
-.L0x8002e208: jr $ra
-.L0x8002e20c: sb $a1, ($v0)
-.L0x8002e210: nop
-.L0x8002e214: nop
-.L0x8002e218: nop
+.section "fns3_011"
 
 .global F0x8002e21c
 F0x8002e21c:

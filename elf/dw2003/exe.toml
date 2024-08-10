@@ -18,6 +18,7 @@ objs = [
 	"/build/asm/dw2003/exe/f13.o",
 	"/build/asm/dw2003/exe/f14.o",
 	"/build/asm/dw2003/exe/f15.o",
+	"/build/asm/dw2003/exe/f16.o",
 	"/build/asm/dw2003/exe/loading.o",
 	"/build/rust/dw2003_exe.a",
 ]
@@ -44,7 +45,9 @@ sections = [
 	"section_f11",
 	"fns3_00",
 	"section_f15",
-	"fns3_01",
+	"fns3_010",
+	"section_f16",
+	"fns3_011",
 	"section_f14",
 	"fns3_1",
 	"dw2003_exe_data0",
