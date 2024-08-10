@@ -7,14 +7,12 @@ SMDLDATA:
 .L0x00000004: .word 0x00000010 # mfhi $zr
 .L0x00000008: .word 0x00002458 # 0x2458
 .L0x0000000c: .word 0x00004e74 # 0x4e74
-# Start of code
-.L0x00000010: ori $zr, $t0, 0x1d4                 # .word 0x350001d4
-.L0x00000014: b_ .L0x00000024                     # .word 0x04010003
-.L0x00000018: bne $t0, $v0, .L0x00000634          # .word 0x15020186
-.L0x0000001c: addiu $v1, $t0, 0x94                # .word 0x25030094
-.L0x00000020: andi $a0, $s0, 0x17d                # .word 0x3204017d
-.L0x00000024: sltiu $a1, $zr, 0x167               # .word 0x2c050167
-# End of code
+.L0x00000010: .word 0x350001d4 # ori $zr, $t0, 0x1d4
+.L0x00000014: .word 0x04010003 # b_ .L0x00000024
+.L0x00000018: .word 0x15020186 # bne $t0, $v0, .L0x00000634
+.L0x0000001c: .word 0x25030094 # addiu $v1, $t0, 0x94
+.L0x00000020: .word 0x3204017d # andi $a0, $s0, 0x17d
+.L0x00000024: .word 0x2c050167 # sltiu $a1, $zr, 0x167
 .L0x00000028: .word 0x1d060042 # 0x1d060042
 .L0x0000002c: .word 0x240700d5 # li $a3, 0xd5
 .L0x00000030: .word 0x0d080103 # jal 0x8420040c
