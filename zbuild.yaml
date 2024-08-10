@@ -18,18 +18,19 @@ alias:
   yq         : yq               # yq 3.4.3
 
   # Other tools
-  generate_psx_iso_deps   : tools/generate_psx_iso_deps.py
-  generate_compare_deps   : tools/generate_compare_deps.py
-  generate_format_deps    : tools/generate_format_deps.py
-  mkraw_exe_from_toml     : tools/mkraw_exe_from_toml.py
-  mkraw_exe_from_toml_deps: tools/mkraw_exe_from_toml_deps.py
-  elf_from_toml           : tools/elf_from_toml.py
-  elf_from_toml_deps      : tools/elf_from_toml_deps.py
-  lib_from_toml           : tools/lib_from_toml.py
-  lib_from_toml_deps      : tools/lib_from_toml_deps.py
-  process_path            : tools/process_path.py
-  format_all              : tools/format_all.py
-  get_elf_symbols         : tools/get_elf_symbols.sh
+  generate_psx_iso_deps    : tools/generate_psx_iso_deps.py
+  generate_psx_iso_lba_syms: tools/generate_psx_iso_lba_syms.py
+  generate_compare_deps    : tools/generate_compare_deps.py
+  generate_format_deps     : tools/generate_format_deps.py
+  mkraw_exe_from_toml      : tools/mkraw_exe_from_toml.py
+  mkraw_exe_from_toml_deps : tools/mkraw_exe_from_toml_deps.py
+  elf_from_toml            : tools/elf_from_toml.py
+  elf_from_toml_deps       : tools/elf_from_toml_deps.py
+  lib_from_toml            : tools/lib_from_toml.py
+  lib_from_toml_deps       : tools/lib_from_toml_deps.py
+  process_path             : tools/process_path.py
+  format_all               : tools/format_all.py
+  get_elf_symbols          : tools/get_elf_symbols.sh
 
   # Python
   python3_venv: tools/.venv
@@ -96,9 +97,11 @@ alias:
   dw3_psx_iso          : $(build_psx_iso_dir)/dw3.bin
   psx_iso              : $(build_psx_iso_dir)/^(path).bin
   psx_iso_cue          : $(build_psx_iso_dir)/^(path).cue
+  psx_iso_deps         : $(build_psx_iso_dir)/^(path).bin.d
   psx_iso_lba          : $(build_psx_iso_dir)/^(path).lba
   psx_iso_lba_c        : $(build_psx_iso_dir)/^(path).lba.c
-  psx_iso_deps         : $(build_psx_iso_dir)/^(path).d
+  psx_iso_lba_deps     : $(build_psx_iso_dir)/^(path).lba.d
+  psx_iso_lba_syms     : $(build_psx_iso_dir)/^(path).lba.syms
   psx_iso_xml          : ^(path).xml
 
   # Assembly
@@ -252,7 +255,7 @@ rules:
 
   # Psx iso
   mkpsxiso:
-    out: [$(psx_iso), $(psx_iso_cue), $(psx_iso_lba), $(psx_iso_lba_c)]
+    out: [$(psx_iso), $(psx_iso_cue)]
     deps:
       - $(psx_iso_xml)
       - $(license_psx_iso)
@@ -269,24 +272,64 @@ rules:
         - $(psx_iso)
         - --cuefile
         - $(psx_iso_cue)
-        - -lba
-        - $(psx_iso_lba)
-        - -lbahead
-        - $(psx_iso_lba_c)
 
   # Pxs iso dependencies
   mkpsxiso-deps:
     out: [$(psx_iso_deps)]
-    deps: [$(python3), $(psx_iso_xml), static: $(psx_iso_deps::dir_name)/]
+    deps: [$(python3), $(generate_psx_iso_deps), $(psx_iso_xml), static: $(psx_iso_deps::dir_name)/]
     exec:
       - - $(python3)
         - $(generate_psx_iso_deps)
-        - --iso
+        - --output
         - $(psx_iso)
         - --xml
         - $(psx_iso_xml)
         - --deps-file
         - $(psx_iso_deps)
+
+  # Psx iso (lba only)
+  mkpsxiso-lba:
+    out: [$(psx_iso_lba), $(psx_iso_lba_c)]
+    deps:
+      - $(psx_iso_xml)
+      - $(license_psx_iso)
+      - deps_file: $(psx_iso_lba_deps)
+      - static: $(psx_iso::dir_name)/
+    exec:
+      - - $(mkpsxiso)
+        - $(psx_iso_xml)
+        - --quiet
+        - -noisogen
+        - -lba
+        - $(psx_iso_lba)
+        - -lbahead
+        - $(psx_iso_lba_c)
+
+  # Pxs iso (lba only) dependencies
+  mkpsxiso-lba-deps:
+    out: [$(psx_iso_lba_deps)]
+    deps: [$(python3), $(generate_psx_iso_deps), $(psx_iso_xml), static: $(psx_iso_lba_deps::dir_name)/]
+    exec:
+      - - $(python3)
+        - $(generate_psx_iso_deps)
+        - --output
+        - $(psx_iso_lba)
+        - --xml
+        - $(psx_iso_xml)
+        - --deps-file
+        - $(psx_iso_lba_deps)
+
+  # Psx iso lba syms
+  mkpsxiso-lba-syms:
+    out: [$(psx_iso_lba_syms)]
+    deps: [$(python3), $(generate_psx_iso_lba_syms), $(psx_iso_lba_c), static: $(psx_iso_lba_syms::dir_name)/]
+    exec:
+      - - $(python3)
+        - $(generate_psx_iso_lba_syms)
+        - --output
+        - $(psx_iso_lba_syms)
+        - --lba-c
+        - $(psx_iso_lba_c)
 
   # Cargo tools
   cargo-tool:

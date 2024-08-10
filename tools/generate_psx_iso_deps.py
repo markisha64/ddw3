@@ -19,12 +19,12 @@ def main(args):
 	files = " ".join(files)
 
 	with open(args.deps_file, "w", encoding="utf-8") as deps_file:
-		deps_file.write(f"{args.iso}: {files}")
+		deps_file.write(f"{args.output}: {files}")
 
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
-	parser.add_argument("--iso", dest="iso", type=str, required=True)
+	parser.add_argument("--output", dest="output", type=str, required=True)
 	parser.add_argument("--xml", dest="xml", type=str, required=True)
 	parser.add_argument("--deps-file", dest="deps_file", type=str, required=True)
 
