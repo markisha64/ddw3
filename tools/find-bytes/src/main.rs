@@ -1,7 +1,7 @@
 //! Utility for finding bytes
 
 // Features
-#![feature(iterator_try_reduce, if_let_guard, let_chains)]
+#![feature(iterator_try_reduce, if_let_guard, let_chains, array_chunks)]
 
 // Modules
 mod args;
@@ -230,11 +230,14 @@ fn find_needle_fuzzy(haystack: &[u8], needle: &[u8], max_score: usize) -> Result
 		.windows(needle.len())
 		.enumerate()
 		.flat_map(|(pos, haystack_window)| {
-			let score = iter::zip(haystack_window, needle)
-				.filter(|(lhs, rhs)| lhs != rhs)
-				.try_fold(0, |cur_score, _| match cur_score >= max_score {
+			// TODO: Adjust for compile target. 32 seems to be the sweet spot due to
+			//       likely using 256 bit simd vectors.
+			const N: usize = 32;
+			let score = iter::zip(haystack_window.array_chunks::<N>(), needle.array_chunks::<N>())
+				.map(|(lhs, rhs)| iter::zip(lhs, rhs).filter(|(lhs, rhs)| lhs != rhs).count())
+				.try_fold(0, |cur_score, diffs| match cur_score >= max_score {
 					true => None,
-					false => Some(cur_score + 1),
+					false => Some(cur_score + diffs),
 				})?;
 
 			Some(FindResult { score, pos })
