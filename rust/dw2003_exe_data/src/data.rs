@@ -2235,2388 +2235,2392 @@ util::decl_static! { "dw2003_exe_data1",
 	pub static mut D0x80044f64: *const u32 = unsafe { ptr::addr_of!(F0x80014128) };
 	pub static mut D0x80044f68: *const u32 = unsafe { ptr::addr_of!(F0x80014170) };
 	//
-	pub static mut LBA_NONE_____BIN: *const u8 = unsafe { ptr::addr_of!(LBA_NONE_____BIN_IMPL) };
-	pub static mut LBA_MSAMTMAP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSAMTMAP_BIN_IMPL) };
-	pub static mut LBA_USAMTMAP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USAMTMAP_BIN_IMPL) };
-	pub static mut LBA_ESAMTMAP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESAMTMAP_BIN_IMPL) };
-	pub static mut LBA_FSAMTMAP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSAMTMAP_BIN_IMPL) };
-	pub static mut LBA_ISAMTMAP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISAMTMAP_BIN_IMPL) };
-	pub static mut LBA_DSAMTMAP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSAMTMAP_BIN_IMPL) };
-	pub static mut LBA_SSAMTMAP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSAMTMAP_BIN_IMPL) };
-	pub static mut LBA_MSASKMAP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSASKMAP_BIN_IMPL) };
-	pub static mut LBA_USASKMAP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USASKMAP_BIN_IMPL) };
-	pub static mut LBA_ESASKMAP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESASKMAP_BIN_IMPL) };
-	pub static mut LBA_FSASKMAP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSASKMAP_BIN_IMPL) };
-	pub static mut LBA_ISASKMAP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISASKMAP_BIN_IMPL) };
-	pub static mut LBA_DSASKMAP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSASKMAP_BIN_IMPL) };
-	pub static mut LBA_SSASKMAP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSASKMAP_BIN_IMPL) };
-	pub static mut LBA_MSCARDGM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSCARDGM_BIN_IMPL) };
-	pub static mut LBA_USCARDGM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USCARDGM_BIN_IMPL) };
-	pub static mut LBA_ESCARDGM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESCARDGM_BIN_IMPL) };
-	pub static mut LBA_FSCARDGM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSCARDGM_BIN_IMPL) };
-	pub static mut LBA_ISCARDGM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISCARDGM_BIN_IMPL) };
-	pub static mut LBA_DSCARDGM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSCARDGM_BIN_IMPL) };
-	pub static mut LBA_SSCARDGM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSCARDGM_BIN_IMPL) };
-	pub static mut LBA_MSCARDNM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSCARDNM_BIN_IMPL) };
-	pub static mut LBA_USCARDNM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USCARDNM_BIN_IMPL) };
-	pub static mut LBA_ESCARDNM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESCARDNM_BIN_IMPL) };
-	pub static mut LBA_FSCARDNM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSCARDNM_BIN_IMPL) };
-	pub static mut LBA_ISCARDNM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISCARDNM_BIN_IMPL) };
-	pub static mut LBA_DSCARDNM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSCARDNM_BIN_IMPL) };
-	pub static mut LBA_SSCARDNM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSCARDNM_BIN_IMPL) };
-	pub static mut LBA_MSCARDST_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSCARDST_BIN_IMPL) };
-	pub static mut LBA_USCARDST_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USCARDST_BIN_IMPL) };
-	pub static mut LBA_ESCARDST_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESCARDST_BIN_IMPL) };
-	pub static mut LBA_FSCARDST_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSCARDST_BIN_IMPL) };
-	pub static mut LBA_ISCARDST_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISCARDST_BIN_IMPL) };
-	pub static mut LBA_DSCARDST_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSCARDST_BIN_IMPL) };
-	pub static mut LBA_SSCARDST_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSCARDST_BIN_IMPL) };
-	pub static mut LBA_MSCRDABM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSCRDABM_BIN_IMPL) };
-	pub static mut LBA_USCRDABM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USCRDABM_BIN_IMPL) };
-	pub static mut LBA_ESCRDABM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESCRDABM_BIN_IMPL) };
-	pub static mut LBA_FSCRDABM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSCRDABM_BIN_IMPL) };
-	pub static mut LBA_ISCRDABM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISCRDABM_BIN_IMPL) };
-	pub static mut LBA_DSCRDABM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSCRDABM_BIN_IMPL) };
-	pub static mut LBA_SSCRDABM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSCRDABM_BIN_IMPL) };
-	pub static mut LBA_MSCRDDEK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSCRDDEK_BIN_IMPL) };
-	pub static mut LBA_USCRDDEK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USCRDDEK_BIN_IMPL) };
-	pub static mut LBA_ESCRDDEK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESCRDDEK_BIN_IMPL) };
-	pub static mut LBA_FSCRDDEK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSCRDDEK_BIN_IMPL) };
-	pub static mut LBA_ISCRDDEK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISCRDDEK_BIN_IMPL) };
-	pub static mut LBA_DSCRDDEK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSCRDDEK_BIN_IMPL) };
-	pub static mut LBA_SSCRDDEK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSCRDDEK_BIN_IMPL) };
-	pub static mut LBA_MSCRDSHP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSCRDSHP_BIN_IMPL) };
-	pub static mut LBA_USCRDSHP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USCRDSHP_BIN_IMPL) };
-	pub static mut LBA_ESCRDSHP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESCRDSHP_BIN_IMPL) };
-	pub static mut LBA_FSCRDSHP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSCRDSHP_BIN_IMPL) };
-	pub static mut LBA_ISCRDSHP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISCRDSHP_BIN_IMPL) };
-	pub static mut LBA_DSCRDSHP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSCRDSHP_BIN_IMPL) };
-	pub static mut LBA_SSCRDSHP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSCRDSHP_BIN_IMPL) };
-	pub static mut LBA_MSDGLABO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSDGLABO_BIN_IMPL) };
-	pub static mut LBA_USDGLABO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USDGLABO_BIN_IMPL) };
-	pub static mut LBA_ESDGLABO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESDGLABO_BIN_IMPL) };
-	pub static mut LBA_FSDGLABO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSDGLABO_BIN_IMPL) };
-	pub static mut LBA_ISDGLABO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISDGLABO_BIN_IMPL) };
-	pub static mut LBA_DSDGLABO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSDGLABO_BIN_IMPL) };
-	pub static mut LBA_SSDGLABO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSDGLABO_BIN_IMPL) };
-	pub static mut LBA_MSDGNMET_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSDGNMET_BIN_IMPL) };
-	pub static mut LBA_USDGNMET_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USDGNMET_BIN_IMPL) };
-	pub static mut LBA_ESDGNMET_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESDGNMET_BIN_IMPL) };
-	pub static mut LBA_FSDGNMET_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSDGNMET_BIN_IMPL) };
-	pub static mut LBA_ISDGNMET_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISDGNMET_BIN_IMPL) };
-	pub static mut LBA_DSDGNMET_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSDGNMET_BIN_IMPL) };
-	pub static mut LBA_SSDGNMET_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSDGNMET_BIN_IMPL) };
-	pub static mut LBA_MSDIGINF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSDIGINF_BIN_IMPL) };
-	pub static mut LBA_USDIGINF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USDIGINF_BIN_IMPL) };
-	pub static mut LBA_ESDIGINF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESDIGINF_BIN_IMPL) };
-	pub static mut LBA_FSDIGINF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSDIGINF_BIN_IMPL) };
-	pub static mut LBA_ISDIGINF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISDIGINF_BIN_IMPL) };
-	pub static mut LBA_DSDIGINF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSDIGINF_BIN_IMPL) };
-	pub static mut LBA_SSDIGINF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSDIGINF_BIN_IMPL) };
-	pub static mut LBA_MSDIGNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSDIGNAM_BIN_IMPL) };
-	pub static mut LBA_USDIGNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USDIGNAM_BIN_IMPL) };
-	pub static mut LBA_ESDIGNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESDIGNAM_BIN_IMPL) };
-	pub static mut LBA_FSDIGNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSDIGNAM_BIN_IMPL) };
-	pub static mut LBA_ISDIGNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISDIGNAM_BIN_IMPL) };
-	pub static mut LBA_DSDIGNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSDIGNAM_BIN_IMPL) };
-	pub static mut LBA_SSDIGNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSDIGNAM_BIN_IMPL) };
-	pub static mut LBA_MSFGTRPT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSFGTRPT_BIN_IMPL) };
-	pub static mut LBA_USFGTRPT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USFGTRPT_BIN_IMPL) };
-	pub static mut LBA_ESFGTRPT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESFGTRPT_BIN_IMPL) };
-	pub static mut LBA_FSFGTRPT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSFGTRPT_BIN_IMPL) };
-	pub static mut LBA_ISFGTRPT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISFGTRPT_BIN_IMPL) };
-	pub static mut LBA_DSFGTRPT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSFGTRPT_BIN_IMPL) };
-	pub static mut LBA_SSFGTRPT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSFGTRPT_BIN_IMPL) };
-	pub static mut LBA_MSHTLNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSHTLNAM_BIN_IMPL) };
-	pub static mut LBA_USHTLNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USHTLNAM_BIN_IMPL) };
-	pub static mut LBA_ESHTLNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESHTLNAM_BIN_IMPL) };
-	pub static mut LBA_FSHTLNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSHTLNAM_BIN_IMPL) };
-	pub static mut LBA_ISHTLNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISHTLNAM_BIN_IMPL) };
-	pub static mut LBA_DSHTLNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSHTLNAM_BIN_IMPL) };
-	pub static mut LBA_SSHTLNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSHTLNAM_BIN_IMPL) };
-	pub static mut LBA_MSITMINF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSITMINF_BIN_IMPL) };
-	pub static mut LBA_USITMINF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USITMINF_BIN_IMPL) };
-	pub static mut LBA_ESITMINF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESITMINF_BIN_IMPL) };
-	pub static mut LBA_FSITMINF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSITMINF_BIN_IMPL) };
-	pub static mut LBA_ISITMINF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISITMINF_BIN_IMPL) };
-	pub static mut LBA_DSITMINF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSITMINF_BIN_IMPL) };
-	pub static mut LBA_SSITMINF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSITMINF_BIN_IMPL) };
-	pub static mut LBA_MSITMNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSITMNAM_BIN_IMPL) };
-	pub static mut LBA_USITMNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USITMNAM_BIN_IMPL) };
-	pub static mut LBA_ESITMNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESITMNAM_BIN_IMPL) };
-	pub static mut LBA_FSITMNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSITMNAM_BIN_IMPL) };
-	pub static mut LBA_ISITMNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISITMNAM_BIN_IMPL) };
-	pub static mut LBA_DSITMNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSITMNAM_BIN_IMPL) };
-	pub static mut LBA_SSITMNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSITMNAM_BIN_IMPL) };
-	pub static mut LBA_MSITSHOP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSITSHOP_BIN_IMPL) };
-	pub static mut LBA_USITSHOP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USITSHOP_BIN_IMPL) };
-	pub static mut LBA_ESITSHOP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESITSHOP_BIN_IMPL) };
-	pub static mut LBA_FSITSHOP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSITSHOP_BIN_IMPL) };
-	pub static mut LBA_ISITSHOP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISITSHOP_BIN_IMPL) };
-	pub static mut LBA_DSITSHOP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSITSHOP_BIN_IMPL) };
-	pub static mut LBA_SSITSHOP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSITSHOP_BIN_IMPL) };
-	pub static mut LBA_MSMEMCRD_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSMEMCRD_BIN_IMPL) };
-	pub static mut LBA_USMEMCRD_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USMEMCRD_BIN_IMPL) };
-	pub static mut LBA_ESMEMCRD_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESMEMCRD_BIN_IMPL) };
-	pub static mut LBA_FSMEMCRD_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSMEMCRD_BIN_IMPL) };
-	pub static mut LBA_ISMEMCRD_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISMEMCRD_BIN_IMPL) };
-	pub static mut LBA_DSMEMCRD_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSMEMCRD_BIN_IMPL) };
-	pub static mut LBA_SSMEMCRD_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSMEMCRD_BIN_IMPL) };
-	pub static mut LBA_MSMFIGHT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSMFIGHT_BIN_IMPL) };
-	pub static mut LBA_USMFIGHT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USMFIGHT_BIN_IMPL) };
-	pub static mut LBA_ESMFIGHT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESMFIGHT_BIN_IMPL) };
-	pub static mut LBA_FSMFIGHT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSMFIGHT_BIN_IMPL) };
-	pub static mut LBA_ISMFIGHT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISMFIGHT_BIN_IMPL) };
-	pub static mut LBA_DSMFIGHT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSMFIGHT_BIN_IMPL) };
-	pub static mut LBA_SSMFIGHT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSMFIGHT_BIN_IMPL) };
-	pub static mut LBA_MSNAMEDT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSNAMEDT_BIN_IMPL) };
-	pub static mut LBA_USNAMEDT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USNAMEDT_BIN_IMPL) };
-	pub static mut LBA_ESNAMEDT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESNAMEDT_BIN_IMPL) };
-	pub static mut LBA_FSNAMEDT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSNAMEDT_BIN_IMPL) };
-	pub static mut LBA_ISNAMEDT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISNAMEDT_BIN_IMPL) };
-	pub static mut LBA_DSNAMEDT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSNAMEDT_BIN_IMPL) };
-	pub static mut LBA_SSNAMEDT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSNAMEDT_BIN_IMPL) };
-	pub static mut LBA_MSNAMEET_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSNAMEET_BIN_IMPL) };
-	pub static mut LBA_USNAMEET_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USNAMEET_BIN_IMPL) };
-	pub static mut LBA_ESNAMEET_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESNAMEET_BIN_IMPL) };
-	pub static mut LBA_FSNAMEET_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSNAMEET_BIN_IMPL) };
-	pub static mut LBA_ISNAMEET_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISNAMEET_BIN_IMPL) };
-	pub static mut LBA_DSNAMEET_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSNAMEET_BIN_IMPL) };
-	pub static mut LBA_SSNAMEET_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSNAMEET_BIN_IMPL) };
-	pub static mut LBA_MSSHPNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSSHPNAM_BIN_IMPL) };
-	pub static mut LBA_USSHPNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USSHPNAM_BIN_IMPL) };
-	pub static mut LBA_ESSHPNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESSHPNAM_BIN_IMPL) };
-	pub static mut LBA_FSSHPNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSSHPNAM_BIN_IMPL) };
-	pub static mut LBA_ISSHPNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISSHPNAM_BIN_IMPL) };
-	pub static mut LBA_DSSHPNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSSHPNAM_BIN_IMPL) };
-	pub static mut LBA_SSSHPNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSSHPNAM_BIN_IMPL) };
-	pub static mut LBA_MSSKLINF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSSKLINF_BIN_IMPL) };
-	pub static mut LBA_USSKLINF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USSKLINF_BIN_IMPL) };
-	pub static mut LBA_ESSKLINF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESSKLINF_BIN_IMPL) };
-	pub static mut LBA_FSSKLINF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSSKLINF_BIN_IMPL) };
-	pub static mut LBA_ISSKLINF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISSKLINF_BIN_IMPL) };
-	pub static mut LBA_DSSKLINF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSSKLINF_BIN_IMPL) };
-	pub static mut LBA_SSSKLINF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSSKLINF_BIN_IMPL) };
-	pub static mut LBA_MSSKLNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSSKLNAM_BIN_IMPL) };
-	pub static mut LBA_USSKLNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USSKLNAM_BIN_IMPL) };
-	pub static mut LBA_ESSKLNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESSKLNAM_BIN_IMPL) };
-	pub static mut LBA_FSSKLNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSSKLNAM_BIN_IMPL) };
-	pub static mut LBA_ISSKLNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISSKLNAM_BIN_IMPL) };
-	pub static mut LBA_DSSKLNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSSKLNAM_BIN_IMPL) };
-	pub static mut LBA_SSSKLNAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSSKLNAM_BIN_IMPL) };
-	pub static mut LBA_MSSTAREA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSSTAREA_BIN_IMPL) };
-	pub static mut LBA_USSTAREA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USSTAREA_BIN_IMPL) };
-	pub static mut LBA_ESSTAREA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESSTAREA_BIN_IMPL) };
-	pub static mut LBA_FSSTAREA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSSTAREA_BIN_IMPL) };
-	pub static mut LBA_ISSTAREA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISSTAREA_BIN_IMPL) };
-	pub static mut LBA_DSSTAREA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSSTAREA_BIN_IMPL) };
-	pub static mut LBA_SSSTAREA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSSTAREA_BIN_IMPL) };
-	pub static mut LBA_MSSTATUS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSSTATUS_BIN_IMPL) };
-	pub static mut LBA_USSTATUS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USSTATUS_BIN_IMPL) };
-	pub static mut LBA_ESSTATUS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESSTATUS_BIN_IMPL) };
-	pub static mut LBA_FSSTATUS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSSTATUS_BIN_IMPL) };
-	pub static mut LBA_ISSTATUS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISSTATUS_BIN_IMPL) };
-	pub static mut LBA_DSSTATUS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSSTATUS_BIN_IMPL) };
-	pub static mut LBA_SSSTATUS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSSTATUS_BIN_IMPL) };
-	pub static mut LBA_MSSTNAME_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSSTNAME_BIN_IMPL) };
-	pub static mut LBA_USSTNAME_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USSTNAME_BIN_IMPL) };
-	pub static mut LBA_ESSTNAME_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESSTNAME_BIN_IMPL) };
-	pub static mut LBA_FSSTNAME_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSSTNAME_BIN_IMPL) };
-	pub static mut LBA_ISSTNAME_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISSTNAME_BIN_IMPL) };
-	pub static mut LBA_DSSTNAME_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSSTNAME_BIN_IMPL) };
-	pub static mut LBA_SSSTNAME_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSSTNAME_BIN_IMPL) };
-	pub static mut LBA_MSSYSTEM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSSYSTEM_BIN_IMPL) };
-	pub static mut LBA_USSYSTEM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USSYSTEM_BIN_IMPL) };
-	pub static mut LBA_ESSYSTEM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESSYSTEM_BIN_IMPL) };
-	pub static mut LBA_FSSYSTEM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSSYSTEM_BIN_IMPL) };
-	pub static mut LBA_ISSYSTEM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISSYSTEM_BIN_IMPL) };
-	pub static mut LBA_DSSYSTEM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSSYSTEM_BIN_IMPL) };
-	pub static mut LBA_SSSYSTEM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSSYSTEM_BIN_IMPL) };
-	pub static mut LBA_MSTALK00_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSTALK00_BIN_IMPL) };
-	pub static mut LBA_USTALK00_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USTALK00_BIN_IMPL) };
-	pub static mut LBA_ESTALK00_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESTALK00_BIN_IMPL) };
-	pub static mut LBA_FSTALK00_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSTALK00_BIN_IMPL) };
-	pub static mut LBA_ISTALK00_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISTALK00_BIN_IMPL) };
-	pub static mut LBA_DSTALK00_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSTALK00_BIN_IMPL) };
-	pub static mut LBA_SSTALK00_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSTALK00_BIN_IMPL) };
-	pub static mut LBA_MSTALK01_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSTALK01_BIN_IMPL) };
-	pub static mut LBA_USTALK01_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USTALK01_BIN_IMPL) };
-	pub static mut LBA_ESTALK01_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESTALK01_BIN_IMPL) };
-	pub static mut LBA_FSTALK01_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSTALK01_BIN_IMPL) };
-	pub static mut LBA_ISTALK01_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISTALK01_BIN_IMPL) };
-	pub static mut LBA_DSTALK01_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSTALK01_BIN_IMPL) };
-	pub static mut LBA_SSTALK01_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSTALK01_BIN_IMPL) };
-	pub static mut LBA_MSTALK02_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSTALK02_BIN_IMPL) };
-	pub static mut LBA_USTALK02_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USTALK02_BIN_IMPL) };
-	pub static mut LBA_ESTALK02_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESTALK02_BIN_IMPL) };
-	pub static mut LBA_FSTALK02_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSTALK02_BIN_IMPL) };
-	pub static mut LBA_ISTALK02_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISTALK02_BIN_IMPL) };
-	pub static mut LBA_DSTALK02_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSTALK02_BIN_IMPL) };
-	pub static mut LBA_SSTALK02_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSTALK02_BIN_IMPL) };
-	pub static mut LBA_MSTALK03_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSTALK03_BIN_IMPL) };
-	pub static mut LBA_USTALK03_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USTALK03_BIN_IMPL) };
-	pub static mut LBA_ESTALK03_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESTALK03_BIN_IMPL) };
-	pub static mut LBA_FSTALK03_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSTALK03_BIN_IMPL) };
-	pub static mut LBA_ISTALK03_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISTALK03_BIN_IMPL) };
-	pub static mut LBA_DSTALK03_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSTALK03_BIN_IMPL) };
-	pub static mut LBA_SSTALK03_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSTALK03_BIN_IMPL) };
-	pub static mut LBA_MSTALK04_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSTALK04_BIN_IMPL) };
-	pub static mut LBA_USTALK04_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USTALK04_BIN_IMPL) };
-	pub static mut LBA_ESTALK04_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESTALK04_BIN_IMPL) };
-	pub static mut LBA_FSTALK04_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSTALK04_BIN_IMPL) };
-	pub static mut LBA_ISTALK04_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISTALK04_BIN_IMPL) };
-	pub static mut LBA_DSTALK04_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSTALK04_BIN_IMPL) };
-	pub static mut LBA_SSTALK04_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSTALK04_BIN_IMPL) };
-	pub static mut LBA_MSTALK05_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSTALK05_BIN_IMPL) };
-	pub static mut LBA_USTALK05_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USTALK05_BIN_IMPL) };
-	pub static mut LBA_ESTALK05_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESTALK05_BIN_IMPL) };
-	pub static mut LBA_FSTALK05_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSTALK05_BIN_IMPL) };
-	pub static mut LBA_ISTALK05_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISTALK05_BIN_IMPL) };
-	pub static mut LBA_DSTALK05_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSTALK05_BIN_IMPL) };
-	pub static mut LBA_SSTALK05_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSTALK05_BIN_IMPL) };
-	pub static mut LBA_MSTALK06_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSTALK06_BIN_IMPL) };
-	pub static mut LBA_USTALK06_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USTALK06_BIN_IMPL) };
-	pub static mut LBA_ESTALK06_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESTALK06_BIN_IMPL) };
-	pub static mut LBA_FSTALK06_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSTALK06_BIN_IMPL) };
-	pub static mut LBA_ISTALK06_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISTALK06_BIN_IMPL) };
-	pub static mut LBA_DSTALK06_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSTALK06_BIN_IMPL) };
-	pub static mut LBA_SSTALK06_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSTALK06_BIN_IMPL) };
-	pub static mut LBA_MSTALK07_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSTALK07_BIN_IMPL) };
-	pub static mut LBA_USTALK07_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USTALK07_BIN_IMPL) };
-	pub static mut LBA_ESTALK07_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESTALK07_BIN_IMPL) };
-	pub static mut LBA_FSTALK07_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSTALK07_BIN_IMPL) };
-	pub static mut LBA_ISTALK07_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISTALK07_BIN_IMPL) };
-	pub static mut LBA_DSTALK07_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSTALK07_BIN_IMPL) };
-	pub static mut LBA_SSTALK07_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSTALK07_BIN_IMPL) };
-	pub static mut LBA_MSTALK08_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSTALK08_BIN_IMPL) };
-	pub static mut LBA_USTALK08_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USTALK08_BIN_IMPL) };
-	pub static mut LBA_ESTALK08_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESTALK08_BIN_IMPL) };
-	pub static mut LBA_FSTALK08_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSTALK08_BIN_IMPL) };
-	pub static mut LBA_ISTALK08_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISTALK08_BIN_IMPL) };
-	pub static mut LBA_DSTALK08_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSTALK08_BIN_IMPL) };
-	pub static mut LBA_SSTALK08_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSTALK08_BIN_IMPL) };
-	pub static mut LBA_MSTALK09_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSTALK09_BIN_IMPL) };
-	pub static mut LBA_USTALK09_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USTALK09_BIN_IMPL) };
-	pub static mut LBA_ESTALK09_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESTALK09_BIN_IMPL) };
-	pub static mut LBA_FSTALK09_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSTALK09_BIN_IMPL) };
-	pub static mut LBA_ISTALK09_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISTALK09_BIN_IMPL) };
-	pub static mut LBA_DSTALK09_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSTALK09_BIN_IMPL) };
-	pub static mut LBA_SSTALK09_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSTALK09_BIN_IMPL) };
-	pub static mut LBA_MSTRAINI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSTRAINI_BIN_IMPL) };
-	pub static mut LBA_USTRAINI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USTRAINI_BIN_IMPL) };
-	pub static mut LBA_ESTRAINI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESTRAINI_BIN_IMPL) };
-	pub static mut LBA_FSTRAINI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSTRAINI_BIN_IMPL) };
-	pub static mut LBA_ISTRAINI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISTRAINI_BIN_IMPL) };
-	pub static mut LBA_DSTRAINI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSTRAINI_BIN_IMPL) };
-	pub static mut LBA_SSTRAINI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSTRAINI_BIN_IMPL) };
-	pub static mut LBA_MSDMG200_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSDMG200_BIN_IMPL) };
-	pub static mut LBA_USDMG200_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USDMG200_BIN_IMPL) };
-	pub static mut LBA_ESDMG200_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESDMG200_BIN_IMPL) };
-	pub static mut LBA_FSDMG200_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSDMG200_BIN_IMPL) };
-	pub static mut LBA_ISDMG200_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISDMG200_BIN_IMPL) };
-	pub static mut LBA_DSDMG200_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSDMG200_BIN_IMPL) };
-	pub static mut LBA_SSDMG200_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSDMG200_BIN_IMPL) };
-	pub static mut LBA_MSDMG260_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSDMG260_BIN_IMPL) };
-	pub static mut LBA_USDMG260_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USDMG260_BIN_IMPL) };
-	pub static mut LBA_ESDMG260_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESDMG260_BIN_IMPL) };
-	pub static mut LBA_FSDMG260_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSDMG260_BIN_IMPL) };
-	pub static mut LBA_ISDMG260_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISDMG260_BIN_IMPL) };
-	pub static mut LBA_DSDMG260_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSDMG260_BIN_IMPL) };
-	pub static mut LBA_SSDMG260_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSDMG260_BIN_IMPL) };
-	pub static mut LBA_MSDMG270_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSDMG270_BIN_IMPL) };
-	pub static mut LBA_USDMG270_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USDMG270_BIN_IMPL) };
-	pub static mut LBA_ESDMG270_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESDMG270_BIN_IMPL) };
-	pub static mut LBA_FSDMG270_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSDMG270_BIN_IMPL) };
-	pub static mut LBA_ISDMG270_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISDMG270_BIN_IMPL) };
-	pub static mut LBA_DSDMG270_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSDMG270_BIN_IMPL) };
-	pub static mut LBA_SSDMG270_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSDMG270_BIN_IMPL) };
-	pub static mut LBA_MSDMG300_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSDMG300_BIN_IMPL) };
-	pub static mut LBA_USDMG300_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USDMG300_BIN_IMPL) };
-	pub static mut LBA_ESDMG300_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESDMG300_BIN_IMPL) };
-	pub static mut LBA_FSDMG300_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSDMG300_BIN_IMPL) };
-	pub static mut LBA_ISDMG300_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISDMG300_BIN_IMPL) };
-	pub static mut LBA_DSDMG300_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSDMG300_BIN_IMPL) };
-	pub static mut LBA_SSDMG300_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSDMG300_BIN_IMPL) };
-	pub static mut LBA_MSDMG305_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSDMG305_BIN_IMPL) };
-	pub static mut LBA_USDMG305_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USDMG305_BIN_IMPL) };
-	pub static mut LBA_ESDMG305_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESDMG305_BIN_IMPL) };
-	pub static mut LBA_FSDMG305_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSDMG305_BIN_IMPL) };
-	pub static mut LBA_ISDMG305_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISDMG305_BIN_IMPL) };
-	pub static mut LBA_DSDMG305_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSDMG305_BIN_IMPL) };
-	pub static mut LBA_SSDMG305_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSDMG305_BIN_IMPL) };
-	pub static mut LBA_MSDMG400_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSDMG400_BIN_IMPL) };
-	pub static mut LBA_USDMG400_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USDMG400_BIN_IMPL) };
-	pub static mut LBA_ESDMG400_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESDMG400_BIN_IMPL) };
-	pub static mut LBA_FSDMG400_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSDMG400_BIN_IMPL) };
-	pub static mut LBA_ISDMG400_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISDMG400_BIN_IMPL) };
-	pub static mut LBA_DSDMG400_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSDMG400_BIN_IMPL) };
-	pub static mut LBA_SSDMG400_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSDMG400_BIN_IMPL) };
-	pub static mut LBA_MSDMG500_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSDMG500_BIN_IMPL) };
-	pub static mut LBA_USDMG500_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USDMG500_BIN_IMPL) };
-	pub static mut LBA_ESDMG500_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESDMG500_BIN_IMPL) };
-	pub static mut LBA_FSDMG500_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSDMG500_BIN_IMPL) };
-	pub static mut LBA_ISDMG500_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISDMG500_BIN_IMPL) };
-	pub static mut LBA_DSDMG500_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSDMG500_BIN_IMPL) };
-	pub static mut LBA_SSDMG500_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSDMG500_BIN_IMPL) };
-	pub static mut LBA_MSDMG600_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSDMG600_BIN_IMPL) };
-	pub static mut LBA_USDMG600_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USDMG600_BIN_IMPL) };
-	pub static mut LBA_ESDMG600_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESDMG600_BIN_IMPL) };
-	pub static mut LBA_FSDMG600_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSDMG600_BIN_IMPL) };
-	pub static mut LBA_ISDMG600_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISDMG600_BIN_IMPL) };
-	pub static mut LBA_DSDMG600_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSDMG600_BIN_IMPL) };
-	pub static mut LBA_SSDMG600_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSDMG600_BIN_IMPL) };
-	pub static mut LBA_MSDMG700_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSDMG700_BIN_IMPL) };
-	pub static mut LBA_USDMG700_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USDMG700_BIN_IMPL) };
-	pub static mut LBA_ESDMG700_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESDMG700_BIN_IMPL) };
-	pub static mut LBA_FSDMG700_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSDMG700_BIN_IMPL) };
-	pub static mut LBA_ISDMG700_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISDMG700_BIN_IMPL) };
-	pub static mut LBA_DSDMG700_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSDMG700_BIN_IMPL) };
-	pub static mut LBA_SSDMG700_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSDMG700_BIN_IMPL) };
-	pub static mut LBA_MSDMG800_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSDMG800_BIN_IMPL) };
-	pub static mut LBA_USDMG800_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USDMG800_BIN_IMPL) };
-	pub static mut LBA_ESDMG800_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESDMG800_BIN_IMPL) };
-	pub static mut LBA_FSDMG800_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSDMG800_BIN_IMPL) };
-	pub static mut LBA_ISDMG800_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISDMG800_BIN_IMPL) };
-	pub static mut LBA_DSDMG800_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSDMG800_BIN_IMPL) };
-	pub static mut LBA_SSDMG800_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSDMG800_BIN_IMPL) };
-	pub static mut LBA_MSDMG900_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MSDMG900_BIN_IMPL) };
-	pub static mut LBA_USDMG900_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_USDMG900_BIN_IMPL) };
-	pub static mut LBA_ESDMG900_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ESDMG900_BIN_IMPL) };
-	pub static mut LBA_FSDMG900_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FSDMG900_BIN_IMPL) };
-	pub static mut LBA_ISDMG900_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_ISDMG900_BIN_IMPL) };
-	pub static mut LBA_DSDMG900_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_DSDMG900_BIN_IMPL) };
-	pub static mut LBA_SSDMG900_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSDMG900_BIN_IMPL) };
-	pub static mut LBA_M039SCUM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M039SCUM_BIN_IMPL) };
-	pub static mut LBA_FIELDCOM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_FIELDCOM_BIN_IMPL) };
-	pub static mut LBA_CARDGAME_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_CARDGAME_PRO_IMPL) };
-	pub static mut LBA_STDGNAME_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_STDGNAME_PRO_IMPL) };
-	pub static mut LBA_M115MUGE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M115MUGE_BIN_IMPL) };
-	pub static mut LBA_M366GIRU_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M366GIRU_BIN_IMPL) };
-	pub static mut LBA_CNTY_SEL_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_CNTY_SEL_PRO_IMPL) };
-	pub static mut LBA_FIELDSTG_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_FIELDSTG_PRO_IMPL) };
-	pub static mut LBA_FIGHTSTG_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_FIGHTSTG_PRO_IMPL) };
-	pub static mut LBA_SHOCKTST_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_SHOCKTST_PRO_IMPL) };
-	pub static mut LBA_SOUNDTST_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_SOUNDTST_PRO_IMPL) };
-	pub static mut LBA_MPBATL00_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBATL00_BIN_IMPL) };
-	pub static mut LBA_MPBGM001_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM001_BIN_IMPL) };
-	pub static mut LBA_MPBGM002_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM002_BIN_IMPL) };
-	pub static mut LBA_MPBGM004_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM004_BIN_IMPL) };
-	pub static mut LBA_MPBGM005_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM005_BIN_IMPL) };
-	pub static mut LBA_MPBGM007_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM007_BIN_IMPL) };
-	pub static mut LBA_MPBGM009_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM009_BIN_IMPL) };
-	pub static mut LBA_MPBGM010_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM010_BIN_IMPL) };
-	pub static mut LBA_MPBGM025_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM025_BIN_IMPL) };
-	pub static mut LBA_MPCOMMON_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPCOMMON_BIN_IMPL) };
-	pub static mut LBA_MPENV001_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV001_BIN_IMPL) };
-	pub static mut LBA_MPENV005_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV005_BIN_IMPL) };
-	pub static mut LBA_MPENV010_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV010_BIN_IMPL) };
-	pub static mut LBA_MVBATL00_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBATL00_BIN_IMPL) };
-	pub static mut LBA_MVBGM001_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM001_BIN_IMPL) };
-	pub static mut LBA_MVBGM002_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM002_BIN_IMPL) };
-	pub static mut LBA_MVBGM004_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM004_BIN_IMPL) };
-	pub static mut LBA_MVBGM005_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM005_BIN_IMPL) };
-	pub static mut LBA_MVBGM007_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM007_BIN_IMPL) };
-	pub static mut LBA_MVBGM009_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM009_BIN_IMPL) };
-	pub static mut LBA_MVBGM010_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM010_BIN_IMPL) };
-	pub static mut LBA_MVBGM025_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM025_BIN_IMPL) };
-	pub static mut LBA_MVCOMMON_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVCOMMON_BIN_IMPL) };
-	pub static mut LBA_MVENV001_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV001_BIN_IMPL) };
-	pub static mut LBA_MVENV005_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV005_BIN_IMPL) };
-	pub static mut LBA_MVENV010_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV010_BIN_IMPL) };
-	pub static mut LBA_STAGSLCT_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_STAGSLCT_PRO_IMPL) };
-	pub static mut LBA_STCRDABM_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_STCRDABM_PRO_IMPL) };
-	pub static mut LBA_P001PLAY_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P001PLAY_BIN_IMPL) };
-	pub static mut LBA_P002PLAY_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P002PLAY_BIN_IMPL) };
-	pub static mut LBA_P003PKEN_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P003PKEN_BIN_IMPL) };
-	pub static mut LBA_P004KOGU_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P004KOGU_BIN_IMPL) };
-	pub static mut LBA_P005KOET_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P005KOET_BIN_IMPL) };
-	pub static mut LBA_P006AGUM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P006AGUM_BIN_IMPL) };
-	pub static mut LBA_P007VMON_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P007VMON_BIN_IMPL) };
-	pub static mut LBA_P008GIRU_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P008GIRU_BIN_IMPL) };
-	pub static mut LBA_P009RENA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P009RENA_BIN_IMPL) };
-	pub static mut LBA_P010PATA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P010PATA_BIN_IMPL) };
-	pub static mut LBA_P011MINO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P011MINO_BIN_IMPL) };
-	pub static mut LBA_P013TAKU_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P013TAKU_BIN_IMPL) };
-	pub static mut LBA_P044OPFS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P044OPFS_BIN_IMPL) };
-	pub static mut LBA_P065JKSI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P065JKSI_BIN_IMPL) };
-	pub static mut LBA_P146OPFE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P146OPFE_BIN_IMPL) };
-	pub static mut LBA_P147OPFW_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P147OPFW_BIN_IMPL) };
-	pub static mut LBA_S200PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S200PACK_BIN_IMPL) };
-	pub static mut LBA_S200TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S200TMPK_BIN_IMPL) };
-	pub static mut LBA_S205PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S205PACK_BIN_IMPL) };
-	pub static mut LBA_S205TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S205TMPK_BIN_IMPL) };
-	pub static mut LBA_S210PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S210PACK_BIN_IMPL) };
-	pub static mut LBA_S210TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S210TMPK_BIN_IMPL) };
-	pub static mut LBA_S220PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S220PACK_BIN_IMPL) };
-	pub static mut LBA_S220TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S220TMPK_BIN_IMPL) };
-	pub static mut LBA_S225PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S225PACK_BIN_IMPL) };
-	pub static mut LBA_S225TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S225TMPK_BIN_IMPL) };
-	pub static mut LBA_S230PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S230PACK_BIN_IMPL) };
-	pub static mut LBA_S230TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S230TMPK_BIN_IMPL) };
-	pub static mut LBA_S235PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S235PACK_BIN_IMPL) };
-	pub static mut LBA_S235TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S235TMPK_BIN_IMPL) };
-	pub static mut LBA_S240PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S240PACK_BIN_IMPL) };
-	pub static mut LBA_S240TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S240TMPK_BIN_IMPL) };
-	pub static mut LBA_S245PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S245PACK_BIN_IMPL) };
-	pub static mut LBA_S245TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S245TMPK_BIN_IMPL) };
-	pub static mut LBA_S250PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S250PACK_BIN_IMPL) };
-	pub static mut LBA_S250TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S250TMPK_BIN_IMPL) };
-	pub static mut LBA_S255PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S255PACK_BIN_IMPL) };
-	pub static mut LBA_S255TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S255TMPK_BIN_IMPL) };
-	pub static mut LBA_S260PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S260PACK_BIN_IMPL) };
-	pub static mut LBA_S260TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S260TMPK_BIN_IMPL) };
-	pub static mut LBA_S270PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S270PACK_BIN_IMPL) };
-	pub static mut LBA_S270TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S270TMPK_BIN_IMPL) };
-	pub static mut LBA_S275PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S275PACK_BIN_IMPL) };
-	pub static mut LBA_S275TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S275TMPK_BIN_IMPL) };
-	pub static mut LBA_S280PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S280PACK_BIN_IMPL) };
-	pub static mut LBA_S280TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S280TMPK_BIN_IMPL) };
-	pub static mut LBA_S330PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S330PACK_BIN_IMPL) };
-	pub static mut LBA_S330TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S330TMPK_BIN_IMPL) };
-	pub static mut LBA_S335PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S335PACK_BIN_IMPL) };
-	pub static mut LBA_S335TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S335TMPK_BIN_IMPL) };
-	pub static mut LBA_S350PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S350PACK_BIN_IMPL) };
-	pub static mut LBA_S350TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S350TMPK_BIN_IMPL) };
-	pub static mut LBA_S355PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S355PACK_BIN_IMPL) };
-	pub static mut LBA_S355TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S355TMPK_BIN_IMPL) };
-	pub static mut LBA_S370PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S370PACK_BIN_IMPL) };
-	pub static mut LBA_S370TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S370TMPK_BIN_IMPL) };
-	pub static mut LBA_S375PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S375PACK_BIN_IMPL) };
-	pub static mut LBA_S375TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S375TMPK_BIN_IMPL) };
-	pub static mut LBA_S435PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S435PACK_BIN_IMPL) };
-	pub static mut LBA_S435TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S435TMPK_BIN_IMPL) };
-	pub static mut LBA_S465PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S465PACK_BIN_IMPL) };
-	pub static mut LBA_S465TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S465TMPK_BIN_IMPL) };
-	pub static mut LBA_S780PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S780PACK_BIN_IMPL) };
-	pub static mut LBA_S780TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S780TMPK_BIN_IMPL) };
-	pub static mut LBA_S785PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S785PACK_BIN_IMPL) };
-	pub static mut LBA_S785TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S785TMPK_BIN_IMPL) };
-	pub static mut LBA_S790PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S790PACK_BIN_IMPL) };
-	pub static mut LBA_S790TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S790TMPK_BIN_IMPL) };
-	pub static mut LBA_STCRDDEK_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_STCRDDEK_PRO_IMPL) };
-	pub static mut LBA_SFSTDATA_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_SFSTDATA_PRO_IMPL) };
-	pub static mut LBA_SMDLDATA_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_SMDLDATA_PRO_IMPL) };
-	pub static mut LBA_M069FLAR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M069FLAR_BIN_IMPL) };
-	pub static mut LBA_STCRDSHP_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_STCRDSHP_PRO_IMPL) };
-	pub static mut LBA_SDIGIEDT_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_SDIGIEDT_PRO_IMPL) };
-	pub static mut LBA_STDWTITL_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_STDWTITL_PRO_IMPL) };
-	pub static mut LBA_STFGTREP_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_STFGTREP_PRO_IMPL) };
-	pub static mut LBA_WSTAG200_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG200_PRO_IMPL) };
-	pub static mut LBA_WSTAG205_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG205_PRO_IMPL) };
-	pub static mut LBA_WSTAG210_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG210_PRO_IMPL) };
-	pub static mut LBA_WSTAG220_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG220_PRO_IMPL) };
-	pub static mut LBA_WSTAG225_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG225_PRO_IMPL) };
-	pub static mut LBA_WSTAG230_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG230_PRO_IMPL) };
-	pub static mut LBA_WSTAG235_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG235_PRO_IMPL) };
-	pub static mut LBA_WSTAG240_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG240_PRO_IMPL) };
-	pub static mut LBA_WSTAG245_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG245_PRO_IMPL) };
-	pub static mut LBA_WSTAG250_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG250_PRO_IMPL) };
-	pub static mut LBA_WSTAG255_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG255_PRO_IMPL) };
-	pub static mut LBA_WSTAG260_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG260_PRO_IMPL) };
-	pub static mut LBA_WSTAG270_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG270_PRO_IMPL) };
-	pub static mut LBA_WSTAG275_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG275_PRO_IMPL) };
-	pub static mut LBA_WSTAG280_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG280_PRO_IMPL) };
-	pub static mut LBA_WSTAG330_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG330_PRO_IMPL) };
-	pub static mut LBA_WSTAG335_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG335_PRO_IMPL) };
-	pub static mut LBA_WSTAG350_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG350_PRO_IMPL) };
-	pub static mut LBA_WSTAG355_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG355_PRO_IMPL) };
-	pub static mut LBA_WSTAG370_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG370_PRO_IMPL) };
-	pub static mut LBA_WSTAG375_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG375_PRO_IMPL) };
-	pub static mut LBA_WSTAG435_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG435_PRO_IMPL) };
-	pub static mut LBA_WSTAG465_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG465_PRO_IMPL) };
-	pub static mut LBA_WSTAG780_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG780_PRO_IMPL) };
-	pub static mut LBA_WSTAG785_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG785_PRO_IMPL) };
-	pub static mut LBA_WSTAG790_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG790_PRO_IMPL) };
-	pub static mut LBA_STGDGLAB_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_STGDGLAB_PRO_IMPL) };
-	pub static mut LBA_WSTAG395_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG395_PRO_IMPL) };
-	pub static mut LBA_STGMCARD_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_STGMCARD_PRO_IMPL) };
-	pub static mut LBA_WSTAG360_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG360_PRO_IMPL) };
-	pub static mut LBA_WSTAG430_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG430_PRO_IMPL) };
-	pub static mut LBA_WSTAG475_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG475_PRO_IMPL) };
-	pub static mut LBA_STGTRAIN_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_STGTRAIN_PRO_IMPL) };
-	pub static mut LBA_M003AGUM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M003AGUM_BIN_IMPL) };
-	pub static mut LBA_M010SEAD_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M010SEAD_BIN_IMPL) };
-	pub static mut LBA_M013MAME_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M013MAME_BIN_IMPL) };
-	pub static mut LBA_M126BRAK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M126BRAK_BIN_IMPL) };
-	pub static mut LBA_M148IPDR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M148IPDR_BIN_IMPL) };
-	pub static mut LBA_M175KRSR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M175KRSR_BIN_IMPL) };
-	pub static mut LBA_M176TDBL_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M176TDBL_BIN_IMPL) };
-	pub static mut LBA_M213WGRE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M213WGRE_BIN_IMPL) };
-	pub static mut LBA_M217PDEV_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M217PDEV_BIN_IMPL) };
-	pub static mut LBA_M230GKWA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M230GKWA_BIN_IMPL) };
-	pub static mut LBA_M236VVND_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M236VVND_BIN_IMPL) };
-	pub static mut LBA_M251APKR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M251APKR_BIN_IMPL) };
-	pub static mut LBA_M373RENA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M373RENA_BIN_IMPL) };
-	pub static mut LBA_M381IPDP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M381IPDP_BIN_IMPL) };
-	pub static mut LBA_MPBGM030_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM030_BIN_IMPL) };
-	pub static mut LBA_MPENV011_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV011_BIN_IMPL) };
-	pub static mut LBA_MVBGM030_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM030_BIN_IMPL) };
-	pub static mut LBA_MVENV011_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV011_BIN_IMPL) };
-	pub static mut LBA_STITSHOP_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_STITSHOP_PRO_IMPL) };
-	pub static mut LBA_STPLNMET_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_STPLNMET_PRO_IMPL) };
-	pub static mut LBA_STSTATUS_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_STSTATUS_PRO_IMPL) };
-	pub static mut LBA_WFIGHTMN_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WFIGHTMN_PRO_IMPL) };
-	pub static mut LBA_WFIGHTTS_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WFIGHTTS_PRO_IMPL) };
-	pub static mut LBA_WSTAG201_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG201_PRO_IMPL) };
-	pub static mut LBA_WSTAG202_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG202_PRO_IMPL) };
-	pub static mut LBA_WSTAG203_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG203_PRO_IMPL) };
-	pub static mut LBA_WSTAG206_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG206_PRO_IMPL) };
-	pub static mut LBA_M145VMON_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M145VMON_BIN_IMPL) };
-	pub static mut LBA_MPBGM003_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM003_BIN_IMPL) };
-	pub static mut LBA_MPBGM029_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM029_BIN_IMPL) };
-	pub static mut LBA_MVBGM003_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM003_BIN_IMPL) };
-	pub static mut LBA_MVBGM029_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM029_BIN_IMPL) };
-	pub static mut LBA_MPBGM020_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM020_BIN_IMPL) };
-	pub static mut LBA_MVBGM020_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM020_BIN_IMPL) };
-	pub static mut LBA_WSTAG470_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG470_PRO_IMPL) };
-	pub static mut LBA_MPBGM008_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM008_BIN_IMPL) };
-	pub static mut LBA_WSTAG211_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG211_PRO_IMPL) };
-	pub static mut LBA_WSTAG212_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG212_PRO_IMPL) };
-	pub static mut LBA_MVBGM008_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM008_BIN_IMPL) };
-	pub static mut LBA_S395PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S395PACK_BIN_IMPL) };
-	pub static mut LBA_S395TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S395TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG505_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG505_PRO_IMPL) };
-	pub static mut LBA_WSTAG365_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG365_PRO_IMPL) };
-	pub static mut LBA_S360PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S360PACK_BIN_IMPL) };
-	pub static mut LBA_S360TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S360TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG555_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG555_PRO_IMPL) };
-	pub static mut LBA_S430PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S430PACK_BIN_IMPL) };
-	pub static mut LBA_S430TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S430TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG520_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG520_PRO_IMPL) };
-	pub static mut LBA_M076TANK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M076TANK_BIN_IMPL) };
-	pub static mut LBA_MPBGM011_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM011_BIN_IMPL) };
-	pub static mut LBA_M196MGAR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M196MGAR_BIN_IMPL) };
-	pub static mut LBA_MPBGM022_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM022_BIN_IMPL) };
-	pub static mut LBA_MPBOSS00_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBOSS00_BIN_IMPL) };
-	pub static mut LBA_MPENV004_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV004_BIN_IMPL) };
-	pub static mut LBA_MPENV204_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV204_BIN_IMPL) };
-	pub static mut LBA_MVBGM011_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM011_BIN_IMPL) };
-	pub static mut LBA_MVBGM022_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM022_BIN_IMPL) };
-	pub static mut LBA_MVBOSS00_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBOSS00_BIN_IMPL) };
-	pub static mut LBA_MVENV004_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV004_BIN_IMPL) };
-	pub static mut LBA_MVENV204_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV204_BIN_IMPL) };
-	pub static mut LBA_WSTAG218_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG218_PRO_IMPL) };
-	pub static mut LBA_S475PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S475PACK_BIN_IMPL) };
-	pub static mut LBA_S475TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S475TMPK_BIN_IMPL) };
-	pub static mut LBA_S470PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S470PACK_BIN_IMPL) };
-	pub static mut LBA_WSTAG219_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG219_PRO_IMPL) };
-	pub static mut LBA_S470TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S470TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG425_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG425_PRO_IMPL) };
-	pub static mut LBA_MPBGM012_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM012_BIN_IMPL) };
-	pub static mut LBA_MVBGM012_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM012_BIN_IMPL) };
-	pub static mut LBA_S365PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S365PACK_BIN_IMPL) };
-	pub static mut LBA_S365TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S365TMPK_BIN_IMPL) };
-	pub static mut LBA_S505PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S505PACK_BIN_IMPL) };
-	pub static mut LBA_S505TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S505TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG405_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG405_PRO_IMPL) };
-	pub static mut LBA_WSTAG545_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG545_PRO_IMPL) };
-	pub static mut LBA_M259EXVM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M259EXVM_BIN_IMPL) };
-	pub static mut LBA_M260STNG_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M260STNG_BIN_IMPL) };
-	pub static mut LBA_MPBGM013_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM013_BIN_IMPL) };
-	pub static mut LBA_MVBGM013_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM013_BIN_IMPL) };
-	pub static mut LBA_S555PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S555PACK_BIN_IMPL) };
-	pub static mut LBA_S555TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S555TMPK_BIN_IMPL) };
-	pub static mut LBA_M384KOET_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M384KOET_BIN_IMPL) };
-	pub static mut LBA_MPBGM014_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM014_BIN_IMPL) };
-	pub static mut LBA_MVBGM014_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM014_BIN_IMPL) };
-	pub static mut LBA_M053NANI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M053NANI_BIN_IMPL) };
-	pub static mut LBA_M385KOGU_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M385KOGU_BIN_IMPL) };
-	pub static mut LBA_S520PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S520PACK_BIN_IMPL) };
-	pub static mut LBA_S520TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S520TMPK_BIN_IMPL) };
-	pub static mut LBA_S425PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S425PACK_BIN_IMPL) };
-	pub static mut LBA_WSTAG530_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG530_PRO_IMPL) };
-	pub static mut LBA_WSTAG221_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG221_PRO_IMPL) };
-	pub static mut LBA_M031PATA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M031PATA_BIN_IMPL) };
-	pub static mut LBA_WSTAG226_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG226_PRO_IMPL) };
-	pub static mut LBA_WSTAG231_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG231_PRO_IMPL) };
-	pub static mut LBA_WSTAG232_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG232_PRO_IMPL) };
-	pub static mut LBA_WSTAG233_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG233_PRO_IMPL) };
-	pub static mut LBA_S425TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S425TMPK_BIN_IMPL) };
-	pub static mut LBA_M012MTGR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M012MTGR_BIN_IMPL) };
-	pub static mut LBA_S405PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S405PACK_BIN_IMPL) };
-	pub static mut LBA_S405TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S405TMPK_BIN_IMPL) };
-	pub static mut LBA_M041GIRO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M041GIRO_BIN_IMPL) };
-	pub static mut LBA_M254PLDR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M254PLDR_BIN_IMPL) };
-	pub static mut LBA_MPBGM015_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM015_BIN_IMPL) };
-	pub static mut LBA_MVBGM015_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM015_BIN_IMPL) };
-	pub static mut LBA_M150OMGM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M150OMGM_BIN_IMPL) };
-	pub static mut LBA_CARDDATA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_CARDDATA_BIN_IMPL) };
-	pub static mut LBA_TRANIN00_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_TRANIN00_BIN_IMPL) };
-	pub static mut LBA_CARDPACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_CARDPACK_BIN_IMPL) };
-	pub static mut LBA_MPBGM016_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM016_BIN_IMPL) };
-	pub static mut LBA_MVBGM016_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM016_BIN_IMPL) };
-	pub static mut LBA_M014MONZ_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M014MONZ_BIN_IMPL) };
-	pub static mut LBA_M032KUNE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M032KUNE_BIN_IMPL) };
-	pub static mut LBA_M023YUKI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M023YUKI_BIN_IMPL) };
-	pub static mut LBA_M034OGRE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M034OGRE_BIN_IMPL) };
-	pub static mut LBA_M037BAKE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M037BAKE_BIN_IMPL) };
-	pub static mut LBA_M035SHEL_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M035SHEL_BIN_IMPL) };
-	pub static mut LBA_M049SIRA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M049SIRA_BIN_IMPL) };
-	pub static mut LBA_M050COCA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M050COCA_BIN_IMPL) };
-	pub static mut LBA_M051KUWA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M051KUWA_BIN_IMPL) };
-	pub static mut LBA_M052MOJA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M052MOJA_BIN_IMPL) };
-	pub static mut LBA_M110GECO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M110GECO_BIN_IMPL) };
-	pub static mut LBA_M004BETA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M004BETA_BIN_IMPL) };
-	pub static mut LBA_M006DEVI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M006DEVI_BIN_IMPL) };
-	pub static mut LBA_M135DVDR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M135DVDR_BIN_IMPL) };
-	pub static mut LBA_WSTAG236_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG236_PRO_IMPL) };
-	pub static mut LBA_M367GRAW_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M367GRAW_BIN_IMPL) };
-	pub static mut LBA_M132GIZA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M132GIZA_BIN_IMPL) };
-	pub static mut LBA_MPBGM018_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM018_BIN_IMPL) };
-	pub static mut LBA_MVBGM018_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM018_BIN_IMPL) };
-	pub static mut LBA_S545PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S545PACK_BIN_IMPL) };
-	pub static mut LBA_S545TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S545TMPK_BIN_IMPL) };
-	pub static mut LBA_M203TRCR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M203TRCR_BIN_IMPL) };
-	pub static mut LBA_S530PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S530PACK_BIN_IMPL) };
-	pub static mut LBA_S530TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S530TMPK_BIN_IMPL) };
-	pub static mut LBA_M026SKUL_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M026SKUL_BIN_IMPL) };
-	pub static mut LBA_MPBGM027_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM027_BIN_IMPL) };
-	pub static mut LBA_MVBGM027_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM027_BIN_IMPL) };
-	pub static mut LBA_M005GREY_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M005GREY_BIN_IMPL) };
-	pub static mut LBA_M122HAGU_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M122HAGU_BIN_IMPL) };
-	pub static mut LBA_WSTAG237_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG237_PRO_IMPL) };
-	pub static mut LBA_TRANIN02_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_TRANIN02_BIN_IMPL) };
-	pub static mut LBA_TRANIN03_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_TRANIN03_BIN_IMPL) };
-	pub static mut LBA_TRANIN04_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_TRANIN04_BIN_IMPL) };
-	pub static mut LBA_TRANIN10_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_TRANIN10_BIN_IMPL) };
-	pub static mut LBA_TRANIN14_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_TRANIN14_BIN_IMPL) };
-	pub static mut LBA_TRANIN15_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_TRANIN15_BIN_IMPL) };
-	pub static mut LBA_CMFONTCS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_CMFONTCS_BIN_IMPL) };
-	pub static mut LBA_CMFONTTM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_CMFONTTM_BIN_IMPL) };
-	pub static mut LBA_STDGNMCS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STDGNMCS_BIN_IMPL) };
-	pub static mut LBA_STDGNMTM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STDGNMTM_BIN_IMPL) };
-	pub static mut LBA_STNMETCS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STNMETCS_BIN_IMPL) };
-	pub static mut LBA_STNMETTM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STNMETTM_BIN_IMPL) };
-	pub static mut LBA_STTRNGCS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STTRNGCS_BIN_IMPL) };
-	pub static mut LBA_STTRNGTM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STTRNGTM_BIN_IMPL) };
-	pub static mut LBA_M134CYCL_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M134CYCL_BIN_IMPL) };
-	pub static mut LBA_M136TUSK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M136TUSK_BIN_IMPL) };
-	pub static mut LBA_S256PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S256PACK_BIN_IMPL) };
-	pub static mut LBA_S256TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S256TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG256_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG256_PRO_IMPL) };
-	pub static mut LBA_S535PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S535PACK_BIN_IMPL) };
-	pub static mut LBA_S535TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S535TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG535_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG535_PRO_IMPL) };
-	pub static mut LBA_M138DELT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M138DELT_BIN_IMPL) };
-	pub static mut LBA_M008TYRA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M008TYRA_BIN_IMPL) };
-	pub static mut LBA_MPBGM017_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM017_BIN_IMPL) };
-	pub static mut LBA_MVBGM017_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM017_BIN_IMPL) };
-	pub static mut LBA_M139RARE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M139RARE_BIN_IMPL) };
-	pub static mut LBA_WSTAG238_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG238_PRO_IMPL) };
-	pub static mut LBA_M027MTMA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M027MTMA_BIN_IMPL) };
-	pub static mut LBA_STMCRDCS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STMCRDCS_BIN_IMPL) };
-	pub static mut LBA_STMCRDTM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STMCRDTM_BIN_IMPL) };
-	pub static mut LBA_M119TONO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M119TONO_BIN_IMPL) };
-	pub static mut LBA_WSTAG241_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG241_PRO_IMPL) };
-	pub static mut LBA_M067YANM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M067YANM_BIN_IMPL) };
-	pub static mut LBA_M173MSHA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M173MSHA_BIN_IMPL) };
-	pub static mut LBA_S320PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S320PACK_BIN_IMPL) };
-	pub static mut LBA_S320TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S320TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG320_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG320_PRO_IMPL) };
-	pub static mut LBA_M080GOBR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M080GOBR_BIN_IMPL) };
-	pub static mut LBA_S710PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S710PACK_BIN_IMPL) };
-	pub static mut LBA_S710TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S710TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG710_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG710_PRO_IMPL) };
-	pub static mut LBA_M059HOUO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M059HOUO_BIN_IMPL) };
-	pub static mut LBA_S290PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S290PACK_BIN_IMPL) };
-	pub static mut LBA_S290TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S290TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG290_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG290_PRO_IMPL) };
-	pub static mut LBA_M222WOOD_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M222WOOD_BIN_IMPL) };
-	pub static mut LBA_S560PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S560PACK_BIN_IMPL) };
-	pub static mut LBA_S560TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S560TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG560_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG560_PRO_IMPL) };
-	pub static mut LBA_M137FLYM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M137FLYM_BIN_IMPL) };
-	pub static mut LBA_M234ANGW_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M234ANGW_BIN_IMPL) };
-	pub static mut LBA_S285PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S285PACK_BIN_IMPL) };
-	pub static mut LBA_S285TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S285TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG285_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG285_PRO_IMPL) };
-	pub static mut LBA_S237PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S237PACK_BIN_IMPL) };
-	pub static mut LBA_S237TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S237TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG246_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG246_PRO_IMPL) };
-	pub static mut LBA_S380PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S380PACK_BIN_IMPL) };
-	pub static mut LBA_S380TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S380TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG380_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG380_PRO_IMPL) };
-	pub static mut LBA_WSTAG251_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG251_PRO_IMPL) };
-	pub static mut LBA_WSTAG261_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG261_PRO_IMPL) };
-	pub static mut LBA_M028VEDA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M028VEDA_BIN_IMPL) };
-	pub static mut LBA_M388GRIZ_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M388GRIZ_BIN_IMPL) };
-	pub static mut LBA_M094ICEM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M094ICEM_BIN_IMPL) };
-	pub static mut LBA_S240MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S240MASK_BIN_IMPL) };
-	pub static mut LBA_S205MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S205MASK_BIN_IMPL) };
-	pub static mut LBA_CMNBGDCS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_CMNBGDCS_BIN_IMPL) };
-	pub static mut LBA_STDGLBCS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STDGLBCS_BIN_IMPL) };
-	pub static mut LBA_STDGLBTM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STDGLBTM_BIN_IMPL) };
-	pub static mut LBA_WSTAG271_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG271_PRO_IMPL) };
-	pub static mut LBA_MPBGM019_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM019_BIN_IMPL) };
-	pub static mut LBA_MPBGM023_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM023_BIN_IMPL) };
-	pub static mut LBA_MPBGM024_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM024_BIN_IMPL) };
-	pub static mut LBA_MPBGM028_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM028_BIN_IMPL) };
-	pub static mut LBA_MVBGM019_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM019_BIN_IMPL) };
-	pub static mut LBA_MVBGM023_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM023_BIN_IMPL) };
-	pub static mut LBA_MVBGM024_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM024_BIN_IMPL) };
-	pub static mut LBA_MVBGM028_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM028_BIN_IMPL) };
-	pub static mut LBA_M227GARB_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M227GARB_BIN_IMPL) };
-	pub static mut LBA_S375MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S375MASK_BIN_IMPL) };
-	pub static mut LBA_S335MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S335MASK_BIN_IMPL) };
-	pub static mut LBA_M042ETEM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M042ETEM_BIN_IMPL) };
-	pub static mut LBA_M211HANG_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M211HANG_BIN_IMPL) };
-	pub static mut LBA_S470MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S470MASK_BIN_IMPL) };
-	pub static mut LBA_S220MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S220MASK_BIN_IMPL) };
-	pub static mut LBA_M065MTET_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M065MTET_BIN_IMPL) };
-	pub static mut LBA_S275MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S275MASK_BIN_IMPL) };
-	pub static mut LBA_M267BKWG_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M267BKWG_BIN_IMPL) };
-	pub static mut LBA_M171GOKI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M171GOKI_BIN_IMPL) };
-	pub static mut LBA_M197GANI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M197GANI_BIN_IMPL) };
-	pub static mut LBA_M121JURE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M121JURE_BIN_IMPL) };
-	pub static mut LBA_M198KIWI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M198KIWI_BIN_IMPL) };
-	pub static mut LBA_MPBGM031_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM031_BIN_IMPL) };
-	pub static mut LBA_MVBGM031_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM031_BIN_IMPL) };
-	pub static mut LBA_M025VEGI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M025VEGI_BIN_IMPL) };
-	pub static mut LBA_M108GOLE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M108GOLE_BIN_IMPL) };
-	pub static mut LBA_P027SMTH_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P027SMTH_BIN_IMPL) };
-	pub static mut LBA_P036AMDK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P036AMDK_BIN_IMPL) };
-	pub static mut LBA_P020RDSZ_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P020RDSZ_BIN_IMPL) };
-	pub static mut LBA_P019RDSY_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P019RDSY_BIN_IMPL) };
-	pub static mut LBA_P021RDBK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P021RDBK_BIN_IMPL) };
-	pub static mut LBA_P022RDGB_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P022RDGB_BIN_IMPL) };
-	pub static mut LBA_P023RDET_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P023RDET_BIN_IMPL) };
-	pub static mut LBA_P026RDNT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P026RDNT_BIN_IMPL) };
-	pub static mut LBA_P024RDST_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P024RDST_BIN_IMPL) };
-	pub static mut LBA_P025RDWT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P025RDWT_BIN_IMPL) };
-	pub static mut LBA_P028WEDG_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P028WEDG_BIN_IMPL) };
-	pub static mut LBA_P030ASWT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P030ASWT_BIN_IMPL) };
-	pub static mut LBA_P031ASFM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P031ASFM_BIN_IMPL) };
-	pub static mut LBA_P029ASLR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P029ASLR_BIN_IMPL) };
-	pub static mut LBA_P032ASDK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P032ASDK_BIN_IMPL) };
-	pub static mut LBA_P034AMWT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P034AMWT_BIN_IMPL) };
-	pub static mut LBA_P033AMLR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P033AMLR_BIN_IMPL) };
-	pub static mut LBA_P035AMFM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P035AMFM_BIN_IMPL) };
-	pub static mut LBA_P037GRGO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P037GRGO_BIN_IMPL) };
-	pub static mut LBA_P039TAIL_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P039TAIL_BIN_IMPL) };
-	pub static mut LBA_P038WIZA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P038WIZA_BIN_IMPL) };
-	pub static mut LBA_P040PIKO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P040PIKO_BIN_IMPL) };
-	pub static mut LBA_P012MINT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P012MINT_BIN_IMPL) };
-	pub static mut LBA_P014TAKT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P014TAKT_BIN_IMPL) };
-	pub static mut LBA_P159NVMO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P159NVMO_BIN_IMPL) };
-	pub static mut LBA_P158NAGU_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P158NAGU_BIN_IMPL) };
-	pub static mut LBA_P160NGIR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P160NGIR_BIN_IMPL) };
-	pub static mut LBA_P161NREN_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P161NREN_BIN_IMPL) };
-	pub static mut LBA_P162NPAT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P162NPAT_BIN_IMPL) };
-	pub static mut LBA_M200BLSA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M200BLSA_BIN_IMPL) };
-	pub static mut LBA_M124TIRS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M124TIRS_BIN_IMPL) };
-	pub static mut LBA_M212MANM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M212MANM_BIN_IMPL) };
-	pub static mut LBA_TRANIN11_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_TRANIN11_BIN_IMPL) };
-	pub static mut LBA_TRANIN12_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_TRANIN12_BIN_IMPL) };
-	pub static mut LBA_TRANIN16_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_TRANIN16_BIN_IMPL) };
-	pub static mut LBA_P163JKST_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P163JKST_BIN_IMPL) };
-	pub static mut LBA_M202ANOM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M202ANOM_BIN_IMPL) };
-	pub static mut LBA_M215SMAN_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M215SMAN_BIN_IMPL) };
-	pub static mut LBA_M207HANU_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M207HANU_BIN_IMPL) };
-	pub static mut LBA_M206BAKU_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M206BAKU_BIN_IMPL) };
-	pub static mut LBA_P042LABO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P042LABO_BIN_IMPL) };
-	pub static mut LBA_P087TERS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P087TERS_BIN_IMPL) };
-	pub static mut LBA_P088GABS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P088GABS_BIN_IMPL) };
-	pub static mut LBA_P089PYOS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P089PYOS_BIN_IMPL) };
-	pub static mut LBA_P071OLYF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P071OLYF_BIN_IMPL) };
-	pub static mut LBA_P069OTKF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P069OTKF_BIN_IMPL) };
-	pub static mut LBA_P070FRTF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P070FRTF_BIN_IMPL) };
-	pub static mut LBA_P068SARM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P068SARM_BIN_IMPL) };
-	pub static mut LBA_P066FRTM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P066FRTM_BIN_IMPL) };
-	pub static mut LBA_P067OTKU_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P067OTKU_BIN_IMPL) };
-	pub static mut LBA_P063FRDF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P063FRDF_BIN_IMPL) };
-	pub static mut LBA_P064HSSM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P064HSSM_BIN_IMPL) };
-	pub static mut LBA_P062FRDM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P062FRDM_BIN_IMPL) };
-	pub static mut LBA_P047LEOM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P047LEOM_BIN_IMPL) };
-	pub static mut LBA_P048GDAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P048GDAM_BIN_IMPL) };
-	pub static mut LBA_P045AMST_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P045AMST_BIN_IMPL) };
-	pub static mut LBA_P046AW00_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P046AW00_BIN_IMPL) };
-	pub static mut LBA_P043OPMA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P043OPMA_BIN_IMPL) };
-	pub static mut LBA_P041GRDR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P041GRDR_BIN_IMPL) };
-	pub static mut LBA_S710MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S710MASK_BIN_IMPL) };
-	pub static mut LBA_S200MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S200MASK_BIN_IMPL) };
-	pub static mut LBA_S395MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S395MASK_BIN_IMPL) };
-	pub static mut LBA_S780MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S780MASK_BIN_IMPL) };
-	pub static mut LBA_S555MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S555MASK_BIN_IMPL) };
-	pub static mut LBA_S210MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S210MASK_BIN_IMPL) };
-	pub static mut LBA_S245MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S245MASK_BIN_IMPL) };
-	pub static mut LBA_S560MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S560MASK_BIN_IMPL) };
-	pub static mut LBA_S430MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S430MASK_BIN_IMPL) };
-	pub static mut LBA_S320MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S320MASK_BIN_IMPL) };
-	pub static mut LBA_P105KNGO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P105KNGO_BIN_IMPL) };
-	pub static mut LBA_S330MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S330MASK_BIN_IMPL) };
-	pub static mut LBA_WSTAG276_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG276_PRO_IMPL) };
-	pub static mut LBA_WSTAG281_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG281_PRO_IMPL) };
-	pub static mut LBA_M208TOTA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M208TOTA_BIN_IMPL) };
-	pub static mut LBA_S260MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S260MASK_BIN_IMPL) };
-	pub static mut LBA_S285MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S285MASK_BIN_IMPL) };
-	pub static mut LBA_S290MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S290MASK_BIN_IMPL) };
-	pub static mut LBA_S380MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S380MASK_BIN_IMPL) };
-	pub static mut LBA_S425MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S425MASK_BIN_IMPL) };
-	pub static mut LBA_S790MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S790MASK_BIN_IMPL) };
-	pub static mut LBA_M225DAGO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M225DAGO_BIN_IMPL) };
-	pub static mut LBA_MPBGM021_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM021_BIN_IMPL) };
-	pub static mut LBA_MVBGM021_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM021_BIN_IMPL) };
-	pub static mut LBA_M391GRPL_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M391GRPL_BIN_IMPL) };
-	pub static mut LBA_M210RUKA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M210RUKA_BIN_IMPL) };
-	pub static mut LBA_S202MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S202MASK_BIN_IMPL) };
-	pub static mut LBA_S202PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S202PACK_BIN_IMPL) };
-	pub static mut LBA_S202TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S202TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG286_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG286_PRO_IMPL) };
-	pub static mut LBA_S218MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S218MASK_BIN_IMPL) };
-	pub static mut LBA_S218PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S218PACK_BIN_IMPL) };
-	pub static mut LBA_S218TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S218TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG291_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG291_PRO_IMPL) };
-	pub static mut LBA_S237MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S237MASK_BIN_IMPL) };
-	pub static mut LBA_M226OKWA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M226OKWA_BIN_IMPL) };
-	pub static mut LBA_S310MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S310MASK_BIN_IMPL) };
-	pub static mut LBA_S310PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S310PACK_BIN_IMPL) };
-	pub static mut LBA_S310TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S310TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG310_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG310_PRO_IMPL) };
-	pub static mut LBA_S232MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S232MASK_BIN_IMPL) };
-	pub static mut LBA_S232PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S232PACK_BIN_IMPL) };
-	pub static mut LBA_S232TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S232TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG295_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG295_PRO_IMPL) };
-	pub static mut LBA_S305MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S305MASK_BIN_IMPL) };
-	pub static mut LBA_S305PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S305PACK_BIN_IMPL) };
-	pub static mut LBA_S305TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S305TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG305_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG305_PRO_IMPL) };
-	pub static mut LBA_S300MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S300MASK_BIN_IMPL) };
-	pub static mut LBA_S300PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S300PACK_BIN_IMPL) };
-	pub static mut LBA_S300TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S300TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG300_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG300_PRO_IMPL) };
-	pub static mut LBA_M359IPDF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M359IPDF_BIN_IMPL) };
-	pub static mut LBA_M229PUKU_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M229PUKU_BIN_IMPL) };
-	pub static mut LBA_P059AOAD_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P059AOAD_BIN_IMPL) };
-	pub static mut LBA_P060AOAE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P060AOAE_BIN_IMPL) };
-	pub static mut LBA_P057AOAB_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P057AOAB_BIN_IMPL) };
-	pub static mut LBA_P055GMGD_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P055GMGD_BIN_IMPL) };
-	pub static mut LBA_P058AOAC_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P058AOAC_BIN_IMPL) };
-	pub static mut LBA_P056AOAS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P056AOAS_BIN_IMPL) };
-	pub static mut LBA_P053SHAK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P053SHAK_BIN_IMPL) };
-	pub static mut LBA_P050FRDR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P050FRDR_BIN_IMPL) };
-	pub static mut LBA_P054MGNA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P054MGNA_BIN_IMPL) };
-	pub static mut LBA_P049TOGE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P049TOGE_BIN_IMPL) };
-	pub static mut LBA_P051PANG_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P051PANG_BIN_IMPL) };
-	pub static mut LBA_MPENV002_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV002_BIN_IMPL) };
-	pub static mut LBA_MPENV003_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV003_BIN_IMPL) };
-	pub static mut LBA_MVENV002_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV002_BIN_IMPL) };
-	pub static mut LBA_MVENV003_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV003_BIN_IMPL) };
-	pub static mut LBA_S460PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S460PACK_BIN_IMPL) };
-	pub static mut LBA_S460TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S460TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG460_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG460_PRO_IMPL) };
-	pub static mut LBA_S480PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S480PACK_BIN_IMPL) };
-	pub static mut LBA_S480TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S480TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG480_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG480_PRO_IMPL) };
-	pub static mut LBA_M040ANDR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M040ANDR_BIN_IMPL) };
-	pub static mut LBA_M223PHNT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M223PHNT_BIN_IMPL) };
-	pub static mut LBA_WSTAG296_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG296_PRO_IMPL) };
-	pub static mut LBA_WSTAG301_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG301_PRO_IMPL) };
-	pub static mut LBA_WSTAG306_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG306_PRO_IMPL) };
-	pub static mut LBA_WSTAG311_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG311_PRO_IMPL) };
-	pub static mut LBA_M270VIKI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M270VIKI_BIN_IMPL) };
-	pub static mut LBA_M193GRFO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M193GRFO_BIN_IMPL) };
-	pub static mut LBA_P084KETE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P084KETE_BIN_IMPL) };
-	pub static mut LBA_P085FLWR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P085FLWR_BIN_IMPL) };
-	pub static mut LBA_P083METE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P083METE_BIN_IMPL) };
-	pub static mut LBA_P081NMEM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P081NMEM_BIN_IMPL) };
-	pub static mut LBA_P082ETEM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P082ETEM_BIN_IMPL) };
-	pub static mut LBA_P079SPIC_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P079SPIC_BIN_IMPL) };
-	pub static mut LBA_P080BALM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P080BALM_BIN_IMPL) };
-	pub static mut LBA_P073GOBA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P073GOBA_BIN_IMPL) };
-	pub static mut LBA_P074JIJI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P074JIJI_BIN_IMPL) };
-	pub static mut LBA_P072GOZS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P072GOZS_BIN_IMPL) };
-	pub static mut LBA_P061AOAF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P061AOAF_BIN_IMPL) };
-	pub static mut LBA_S440MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S440MASK_BIN_IMPL) };
-	pub static mut LBA_S440PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S440PACK_BIN_IMPL) };
-	pub static mut LBA_S440TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S440TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG440_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG440_PRO_IMPL) };
-	pub static mut LBA_MPENV006_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV006_BIN_IMPL) };
-	pub static mut LBA_MPENV007_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV007_BIN_IMPL) };
-	pub static mut LBA_MVENV006_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV006_BIN_IMPL) };
-	pub static mut LBA_MVENV007_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV007_BIN_IMPL) };
-	pub static mut LBA_M089FUGA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M089FUGA_BIN_IMPL) };
-	pub static mut LBA_M060HKAB_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M060HKAB_BIN_IMPL) };
-	pub static mut LBA_P075BABA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P075BABA_BIN_IMPL) };
-	pub static mut LBA_P108PHAR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P108PHAR_BIN_IMPL) };
-	pub static mut LBA_P109MTHI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P109MTHI_BIN_IMPL) };
-	pub static mut LBA_P106PONT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P106PONT_BIN_IMPL) };
-	pub static mut LBA_P098YASH_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P098YASH_BIN_IMPL) };
-	pub static mut LBA_P102SHUR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P102SHUR_BIN_IMPL) };
-	pub static mut LBA_P090MGRM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P090MGRM_BIN_IMPL) };
-	pub static mut LBA_P093HANM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P093HANM_BIN_IMPL) };
-	pub static mut LBA_P091PDRM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P091PDRM_BIN_IMPL) };
-	pub static mut LBA_P092MGWM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P092MGWM_BIN_IMPL) };
-	pub static mut LBA_S455MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S455MASK_BIN_IMPL) };
-	pub static mut LBA_S455PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S455PACK_BIN_IMPL) };
-	pub static mut LBA_S455TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S455TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG455_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG455_PRO_IMPL) };
-	pub static mut LBA_M220GESO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M220GESO_BIN_IMPL) };
-	pub static mut LBA_M009MERA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M009MERA_BIN_IMPL) };
-	pub static mut LBA_M140MTRN_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M140MTRN_BIN_IMPL) };
-	pub static mut LBA_S230MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S230MASK_BIN_IMPL) };
-	pub static mut LBA_S450MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S450MASK_BIN_IMPL) };
-	pub static mut LBA_S450PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S450PACK_BIN_IMPL) };
-	pub static mut LBA_S450TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S450TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG450_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG450_PRO_IMPL) };
-	pub static mut LBA_S410MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S410MASK_BIN_IMPL) };
-	pub static mut LBA_S410PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S410PACK_BIN_IMPL) };
-	pub static mut LBA_S410TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S410TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG410_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG410_PRO_IMPL) };
-	pub static mut LBA_M374KYBI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M374KYBI_BIN_IMPL) };
-	pub static mut LBA_S340MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S340MASK_BIN_IMPL) };
-	pub static mut LBA_S340PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S340PACK_BIN_IMPL) };
-	pub static mut LBA_S340TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S340TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG340_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG340_PRO_IMPL) };
-	pub static mut LBA_S345MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S345MASK_BIN_IMPL) };
-	pub static mut LBA_S345PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S345PACK_BIN_IMPL) };
-	pub static mut LBA_S345TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S345TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG345_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG345_PRO_IMPL) };
-	pub static mut LBA_WSTAG315_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG315_PRO_IMPL) };
-	pub static mut LBA_WSTAG316_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG316_PRO_IMPL) };
-	pub static mut LBA_MPENV008_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV008_BIN_IMPL) };
-	pub static mut LBA_MPENV009_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV009_BIN_IMPL) };
-	pub static mut LBA_MPENV012_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV012_BIN_IMPL) };
-	pub static mut LBA_MPENV013_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV013_BIN_IMPL) };
-	pub static mut LBA_MPENV014_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV014_BIN_IMPL) };
-	pub static mut LBA_MVENV008_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV008_BIN_IMPL) };
-	pub static mut LBA_MVENV009_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV009_BIN_IMPL) };
-	pub static mut LBA_MVENV012_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV012_BIN_IMPL) };
-	pub static mut LBA_MVENV013_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV013_BIN_IMPL) };
-	pub static mut LBA_MVENV014_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV014_BIN_IMPL) };
-	pub static mut LBA_S485MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S485MASK_BIN_IMPL) };
-	pub static mut LBA_S485PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S485PACK_BIN_IMPL) };
-	pub static mut LBA_S485TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S485TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG485_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG485_PRO_IMPL) };
-	pub static mut LBA_M224MDEV_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M224MDEV_BIN_IMPL) };
-	pub static mut LBA_M221OCTA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M221OCTA_BIN_IMPL) };
-	pub static mut LBA_M054MGDR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M054MGDR_BIN_IMPL) };
-	pub static mut LBA_MPENV015_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV015_BIN_IMPL) };
-	pub static mut LBA_MPENV016_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV016_BIN_IMPL) };
-	pub static mut LBA_MPENV017_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV017_BIN_IMPL) };
-	pub static mut LBA_MVENV015_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV015_BIN_IMPL) };
-	pub static mut LBA_MVENV016_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV016_BIN_IMPL) };
-	pub static mut LBA_MVENV017_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV017_BIN_IMPL) };
-	pub static mut LBA_S525MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S525MASK_BIN_IMPL) };
-	pub static mut LBA_S525PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S525PACK_BIN_IMPL) };
-	pub static mut LBA_S525TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S525TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG525_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG525_PRO_IMPL) };
-	pub static mut LBA_S495MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S495MASK_BIN_IMPL) };
-	pub static mut LBA_S495PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S495PACK_BIN_IMPL) };
-	pub static mut LBA_S495TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S495TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG495_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG495_PRO_IMPL) };
-	pub static mut LBA_P002PLYD_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P002PLYD_BIN_IMPL) };
-	pub static mut LBA_P002PLYF_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P002PLYF_BIN_IMPL) };
-	pub static mut LBA_P002PLYK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P002PLYK_BIN_IMPL) };
-	pub static mut LBA_P002PLYL_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P002PLYL_BIN_IMPL) };
-	pub static mut LBA_S225MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S225MASK_BIN_IMPL) };
-	pub static mut LBA_S235MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S235MASK_BIN_IMPL) };
-	pub static mut LBA_S250MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S250MASK_BIN_IMPL) };
-	pub static mut LBA_S255MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S255MASK_BIN_IMPL) };
-	pub static mut LBA_S256MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S256MASK_BIN_IMPL) };
-	pub static mut LBA_S270MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S270MASK_BIN_IMPL) };
-	pub static mut LBA_S280MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S280MASK_BIN_IMPL) };
-	pub static mut LBA_S350MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S350MASK_BIN_IMPL) };
-	pub static mut LBA_S355MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S355MASK_BIN_IMPL) };
-	pub static mut LBA_S360MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S360MASK_BIN_IMPL) };
-	pub static mut LBA_S365MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S365MASK_BIN_IMPL) };
-	pub static mut LBA_S370MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S370MASK_BIN_IMPL) };
-	pub static mut LBA_S405MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S405MASK_BIN_IMPL) };
-	pub static mut LBA_S475MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S475MASK_BIN_IMPL) };
-	pub static mut LBA_S505MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S505MASK_BIN_IMPL) };
-	pub static mut LBA_S520MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S520MASK_BIN_IMPL) };
-	pub static mut LBA_S530MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S530MASK_BIN_IMPL) };
-	pub static mut LBA_S535MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S535MASK_BIN_IMPL) };
-	pub static mut LBA_S545MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S545MASK_BIN_IMPL) };
-	pub static mut LBA_S435MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S435MASK_BIN_IMPL) };
-	pub static mut LBA_S465MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S465MASK_BIN_IMPL) };
-	pub static mut LBA_S785MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S785MASK_BIN_IMPL) };
-	pub static mut LBA_P148SNAC_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P148SNAC_BIN_IMPL) };
-	pub static mut LBA_P121BWGM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P121BWGM_BIN_IMPL) };
-	pub static mut LBA_P122SBMM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P122SBMM_BIN_IMPL) };
-	pub static mut LBA_P123DIGM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P123DIGM_BIN_IMPL) };
-	pub static mut LBA_P118BSRM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P118BSRM_BIN_IMPL) };
-	pub static mut LBA_P119BGWM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P119BGWM_BIN_IMPL) };
-	pub static mut LBA_P117BIPD_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P117BIPD_BIN_IMPL) };
-	pub static mut LBA_P115KNIG_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P115KNIG_BIN_IMPL) };
-	pub static mut LBA_P116BSGM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P116BSGM_BIN_IMPL) };
-	pub static mut LBA_P113WARU_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P113WARU_BIN_IMPL) };
-	pub static mut LBA_P114NANO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P114NANO_BIN_IMPL) };
-	pub static mut LBA_P111ZANB_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P111ZANB_BIN_IMPL) };
-	pub static mut LBA_P112HAND_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P112HAND_BIN_IMPL) };
-	pub static mut LBA_MPENV018_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV018_BIN_IMPL) };
-	pub static mut LBA_MPENV019_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV019_BIN_IMPL) };
-	pub static mut LBA_MPENV020_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV020_BIN_IMPL) };
-	pub static mut LBA_MPENV021_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV021_BIN_IMPL) };
-	pub static mut LBA_MPENV022_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV022_BIN_IMPL) };
-	pub static mut LBA_MPENV023_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV023_BIN_IMPL) };
-	pub static mut LBA_MVENV018_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV018_BIN_IMPL) };
-	pub static mut LBA_MVENV019_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV019_BIN_IMPL) };
-	pub static mut LBA_MVENV020_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV020_BIN_IMPL) };
-	pub static mut LBA_MVENV021_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV021_BIN_IMPL) };
-	pub static mut LBA_MVENV022_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV022_BIN_IMPL) };
-	pub static mut LBA_MVENV023_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV023_BIN_IMPL) };
-	pub static mut LBA_P126ITMB_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P126ITMB_BIN_IMPL) };
-	pub static mut LBA_S490MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S490MASK_BIN_IMPL) };
-	pub static mut LBA_S490PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S490PACK_BIN_IMPL) };
-	pub static mut LBA_S490TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S490TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG490_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG490_PRO_IMPL) };
-	pub static mut LBA_P157OPFT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P157OPFT_BIN_IMPL) };
-	pub static mut LBA_STSHOPCS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STSHOPCS_BIN_IMPL) };
-	pub static mut LBA_STSHOPTM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STSHOPTM_BIN_IMPL) };
-	pub static mut LBA_STSTATCS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STSTATCS_BIN_IMPL) };
-	pub static mut LBA_STSTATTM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STSTATTM_BIN_IMPL) };
-	pub static mut LBA_WSTAG321_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG321_PRO_IMPL) };
-	pub static mut LBA_WSTAG325_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG325_PRO_IMPL) };
-	pub static mut LBA_S400MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S400MASK_BIN_IMPL) };
-	pub static mut LBA_S400PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S400PACK_BIN_IMPL) };
-	pub static mut LBA_S400TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S400TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG400_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG400_PRO_IMPL) };
-	pub static mut LBA_S500MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S500MASK_BIN_IMPL) };
-	pub static mut LBA_S500PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S500PACK_BIN_IMPL) };
-	pub static mut LBA_S500TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S500TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG500_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG500_PRO_IMPL) };
-	pub static mut LBA_M189DTMR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M189DTMR_BIN_IMPL) };
-	pub static mut LBA_P107SEAM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P107SEAM_BIN_IMPL) };
-	pub static mut LBA_P156BOOM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P156BOOM_BIN_IMPL) };
-	pub static mut LBA_P103DPTM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P103DPTM_BIN_IMPL) };
-	pub static mut LBA_P099SZIM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P099SZIM_BIN_IMPL) };
-	pub static mut LBA_P104KABM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P104KABM_BIN_IMPL) };
-	pub static mut LBA_P100SHDM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P100SHDM_BIN_IMPL) };
-	pub static mut LBA_P101NHEM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P101NHEM_BIN_IMPL) };
-	pub static mut LBA_P095KKIM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P095KKIM_BIN_IMPL) };
-	pub static mut LBA_P097ASTM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P097ASTM_BIN_IMPL) };
-	pub static mut LBA_P077HASM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P077HASM_BIN_IMPL) };
-	pub static mut LBA_P086AIRD_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P086AIRD_BIN_IMPL) };
-	pub static mut LBA_P052ASHM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P052ASHM_BIN_IMPL) };
-	pub static mut LBA_M104BLMR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M104BLMR_BIN_IMPL) };
-	pub static mut LBA_M020ANGE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M020ANGE_BIN_IMPL) };
-	pub static mut LBA_M237CHMR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M237CHMR_BIN_IMPL) };
-	pub static mut LBA_M383PKEN_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M383PKEN_BIN_IMPL) };
-	pub static mut LBA_M151DBLM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M151DBLM_BIN_IMPL) };
-	pub static mut LBA_S570PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S570PACK_BIN_IMPL) };
-	pub static mut LBA_S570MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S570MASK_BIN_IMPL) };
-	pub static mut LBA_S570TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S570TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG570_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG570_PRO_IMPL) };
-	pub static mut LBA_P076HANM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P076HANM_BIN_IMPL) };
-	pub static mut LBA_M369DUKE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M369DUKE_BIN_IMPL) };
-	pub static mut LBA_M395KUW2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M395KUW2_BIN_IMPL) };
-	pub static mut LBA_M398GOB2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M398GOB2_BIN_IMPL) };
-	pub static mut LBA_M281TIRO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M281TIRO_BIN_IMPL) };
-	pub static mut LBA_M402TRC2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M402TRC2_BIN_IMPL) };
-	pub static mut LBA_P096GREM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P096GREM_BIN_IMPL) };
-	pub static mut LBA_P094TAOM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P094TAOM_BIN_IMPL) };
-	pub static mut LBA_M405COC2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M405COC2_BIN_IMPL) };
-	pub static mut LBA_M409MAN2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M409MAN2_BIN_IMPL) };
-	pub static mut LBA_M418RAR2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M418RAR2_BIN_IMPL) };
-	pub static mut LBA_M419CYC2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M419CYC2_BIN_IMPL) };
-	pub static mut LBA_S301MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S301MASK_BIN_IMPL) };
-	pub static mut LBA_S301PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S301PACK_BIN_IMPL) };
-	pub static mut LBA_S301TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S301TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG326_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG326_PRO_IMPL) };
-	pub static mut LBA_MPBGM026_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBGM026_BIN_IMPL) };
-	pub static mut LBA_MPENV024_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV024_BIN_IMPL) };
-	pub static mut LBA_MVBGM026_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBGM026_BIN_IMPL) };
-	pub static mut LBA_MVENV024_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV024_BIN_IMPL) };
-	pub static mut LBA_M410VED2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M410VED2_BIN_IMPL) };
-	pub static mut LBA_M404PHN2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M404PHN2_BIN_IMPL) };
-	pub static mut LBA_M406TOT2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M406TOT2_BIN_IMPL) };
-	pub static mut LBA_M424BLS2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M424BLS2_BIN_IMPL) };
-	pub static mut LBA_TRANIN01_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_TRANIN01_BIN_IMPL) };
-	pub static mut LBA_TRANIN13_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_TRANIN13_BIN_IMPL) };
-	pub static mut LBA_M396YAN2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M396YAN2_BIN_IMPL) };
-	pub static mut LBA_M422KRS2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M422KRS2_BIN_IMPL) };
-	pub static mut LBA_M421MSH2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M421MSH2_BIN_IMPL) };
-	pub static mut LBA_M376SKYA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M376SKYA_BIN_IMPL) };
-	pub static mut LBA_M400FLY2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M400FLY2_BIN_IMPL) };
-	pub static mut LBA_M401WOO2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M401WOO2_BIN_IMPL) };
-	pub static mut LBA_M425JUR2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M425JUR2_BIN_IMPL) };
-	pub static mut LBA_M407TON2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M407TON2_BIN_IMPL) };
-	pub static mut LBA_M433ANO2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M433ANO2_BIN_IMPL) };
-	pub static mut LBA_M431VIK2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M431VIK2_BIN_IMPL) };
-	pub static mut LBA_M449MTG9_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M449MTG9_BIN_IMPL) };
-	pub static mut LBA_M456GRP9_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M456GRP9_BIN_IMPL) };
-	pub static mut LBA_WSTAG331_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG331_PRO_IMPL) };
-	pub static mut LBA_M450PLD9_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M450PLD9_BIN_IMPL) };
-	pub static mut LBA_M452HAN9_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M452HAN9_BIN_IMPL) };
-	pub static mut LBA_M368MGRW_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M368MGRW_BIN_IMPL) };
-	pub static mut LBA_M214SRPH_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M214SRPH_BIN_IMPL) };
-	pub static mut LBA_M390ASLT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M390ASLT_BIN_IMPL) };
-	pub static mut LBA_M231PINO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M231PINO_BIN_IMPL) };
-	pub static mut LBA_M420TAN2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M420TAN2_BIN_IMPL) };
-	pub static mut LBA_M448BKW9_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M448BKW9_BIN_IMPL) };
-	pub static mut LBA_PGFGTC00_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_PGFGTC00_BIN_IMPL) };
-	pub static mut LBA_PGFGTW00_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_PGFGTW00_BIN_IMPL) };
-	pub static mut LBA_M444IPD2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M444IPD2_BIN_IMPL) };
-	pub static mut LBA_M375TAOM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M375TAOM_BIN_IMPL) };
-	pub static mut LBA_M070WARU_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M070WARU_BIN_IMPL) };
-	pub static mut LBA_M447SRP2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M447SRP2_BIN_IMPL) };
-	pub static mut LBA_MPCBTL00_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPCBTL00_BIN_IMPL) };
-	pub static mut LBA_MVCBTL00_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVCBTL00_BIN_IMPL) };
-	pub static mut LBA_M451MGR9_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M451MGR9_BIN_IMPL) };
-	pub static mut LBA_M445MGR2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M445MGR2_BIN_IMPL) };
-	pub static mut LBA_S460MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S460MASK_BIN_IMPL) };
-	pub static mut LBA_WSTAG336_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG336_PRO_IMPL) };
-	pub static mut LBA_WSTAG341_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG341_PRO_IMPL) };
-	pub static mut LBA_WSTAG346_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG346_PRO_IMPL) };
-	pub static mut LBA_WSTAG351_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG351_PRO_IMPL) };
-	pub static mut LBA_M453TAO9_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M453TAO9_BIN_IMPL) };
-	pub static mut LBA_M455ASL9_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M455ASL9_BIN_IMPL) };
-	pub static mut LBA_M011NUME_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M011NUME_BIN_IMPL) };
-	pub static mut LBA_M228PIEM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M228PIEM_BIN_IMPL) };
-	pub static mut LBA_M312DETH_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M312DETH_BIN_IMPL) };
-	pub static mut LBA_M177LDDV_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M177LDDV_BIN_IMPL) };
-	pub static mut LBA_M024HOEE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M024HOEE_BIN_IMPL) };
-	pub static mut LBA_M061MGSD_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M061MGSD_BIN_IMPL) };
-	pub static mut LBA_S550MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S550MASK_BIN_IMPL) };
-	pub static mut LBA_S550PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S550PACK_BIN_IMPL) };
-	pub static mut LBA_S550TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S550TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG550_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG550_PRO_IMPL) };
-	pub static mut LBA_MPBATL10_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBATL10_BIN_IMPL) };
-	pub static mut LBA_MPBOSS01_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBOSS01_BIN_IMPL) };
-	pub static mut LBA_MVBATL10_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBATL10_BIN_IMPL) };
-	pub static mut LBA_MVBOSS01_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBOSS01_BIN_IMPL) };
-	pub static mut LBA_WSTAG356_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG356_PRO_IMPL) };
-	pub static mut LBA_M413NUM2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M413NUM2_BIN_IMPL) };
-	pub static mut LBA_M414NUM3_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M414NUM3_BIN_IMPL) };
-	pub static mut LBA_M415NUM4_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M415NUM4_BIN_IMPL) };
-	pub static mut LBA_M416NUM5_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M416NUM5_BIN_IMPL) };
-	pub static mut LBA_M417NUM6_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M417NUM6_BIN_IMPL) };
-	pub static mut LBA_M387PIRT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M387PIRT_BIN_IMPL) };
-	pub static mut LBA_M056DIGI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M056DIGI_BIN_IMPL) };
-	pub static mut LBA_M066VAND_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M066VAND_BIN_IMPL) };
-	pub static mut LBA_M204MSDR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M204MSDR_BIN_IMPL) };
-	pub static mut LBA_WSTAG361_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG361_PRO_IMPL) };
-	pub static mut LBA_S575MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S575MASK_BIN_IMPL) };
-	pub static mut LBA_S575PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S575PACK_BIN_IMPL) };
-	pub static mut LBA_S575TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S575TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG575_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG575_PRO_IMPL) };
-	pub static mut LBA_S605MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S605MASK_BIN_IMPL) };
-	pub static mut LBA_S605PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S605PACK_BIN_IMPL) };
-	pub static mut LBA_S605TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S605TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG605_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG605_PRO_IMPL) };
-	pub static mut LBA_S620MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S620MASK_BIN_IMPL) };
-	pub static mut LBA_S620PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S620PACK_BIN_IMPL) };
-	pub static mut LBA_S620TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S620TMPK_BIN_IMPL) };
-	pub static mut LBA_S625MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S625MASK_BIN_IMPL) };
-	pub static mut LBA_S625PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S625PACK_BIN_IMPL) };
-	pub static mut LBA_S625TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S625TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG620_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG620_PRO_IMPL) };
-	pub static mut LBA_WSTAG625_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG625_PRO_IMPL) };
-	pub static mut LBA_M408SEA2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M408SEA2_BIN_IMPL) };
-	pub static mut LBA_M427MGS2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M427MGS2_BIN_IMPL) };
-	pub static mut LBA_M432MSD2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M432MSD2_BIN_IMPL) };
-	pub static mut LBA_S630MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S630MASK_BIN_IMPL) };
-	pub static mut LBA_S630PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S630PACK_BIN_IMPL) };
-	pub static mut LBA_S630TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S630TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG630_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG630_PRO_IMPL) };
-	pub static mut LBA_S655PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S655PACK_BIN_IMPL) };
-	pub static mut LBA_S655TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S655TMPK_BIN_IMPL) };
-	pub static mut LBA_S655MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S655MASK_BIN_IMPL) };
-	pub static mut LBA_WSTAG655_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG655_PRO_IMPL) };
-	pub static mut LBA_S635MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S635MASK_BIN_IMPL) };
-	pub static mut LBA_S635PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S635PACK_BIN_IMPL) };
-	pub static mut LBA_S635TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S635TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG635_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG635_PRO_IMPL) };
-	pub static mut LBA_S640MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S640MASK_BIN_IMPL) };
-	pub static mut LBA_S640PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S640PACK_BIN_IMPL) };
-	pub static mut LBA_S640TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S640TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG640_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG640_PRO_IMPL) };
-	pub static mut LBA_S211MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S211MASK_BIN_IMPL) };
-	pub static mut LBA_S211PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S211PACK_BIN_IMPL) };
-	pub static mut LBA_S211TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S211TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG366_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG366_PRO_IMPL) };
-	pub static mut LBA_S645MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S645MASK_BIN_IMPL) };
-	pub static mut LBA_S645PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S645PACK_BIN_IMPL) };
-	pub static mut LBA_S645TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S645TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG645_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG645_PRO_IMPL) };
-	pub static mut LBA_S206MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S206MASK_BIN_IMPL) };
-	pub static mut LBA_S206PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S206PACK_BIN_IMPL) };
-	pub static mut LBA_S206TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S206TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG371_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG371_PRO_IMPL) };
-	pub static mut LBA_S675MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S675MASK_BIN_IMPL) };
-	pub static mut LBA_S675PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S675PACK_BIN_IMPL) };
-	pub static mut LBA_S675TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S675TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG675_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG675_PRO_IMPL) };
-	pub static mut LBA_S231MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S231MASK_BIN_IMPL) };
-	pub static mut LBA_S231PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S231PACK_BIN_IMPL) };
-	pub static mut LBA_S231TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S231TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG376_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG376_PRO_IMPL) };
-	pub static mut LBA_S226MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S226MASK_BIN_IMPL) };
-	pub static mut LBA_S226PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S226PACK_BIN_IMPL) };
-	pub static mut LBA_S226TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S226TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG381_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG381_PRO_IMPL) };
-	pub static mut LBA_S610PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S610PACK_BIN_IMPL) };
-	pub static mut LBA_M007AIRD_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M007AIRD_BIN_IMPL) };
-	pub static mut LBA_M426HOE2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M426HOE2_BIN_IMPL) };
-	pub static mut LBA_M019KABU_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M019KABU_BIN_IMPL) };
-	pub static mut LBA_M394MARS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M394MARS_BIN_IMPL) };
-	pub static mut LBA_S610MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S610MASK_BIN_IMPL) };
-	pub static mut LBA_S610TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S610TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG610_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG610_PRO_IMPL) };
-	pub static mut LBA_S685MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S685MASK_BIN_IMPL) };
-	pub static mut LBA_S685PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S685PACK_BIN_IMPL) };
-	pub static mut LBA_S685TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S685TMPK_BIN_IMPL) };
-	pub static mut LBA_S660MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S660MASK_BIN_IMPL) };
-	pub static mut LBA_S660PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S660PACK_BIN_IMPL) };
-	pub static mut LBA_S660TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S660TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG660_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG660_PRO_IMPL) };
-	pub static mut LBA_WSTAG685_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG685_PRO_IMPL) };
-	pub static mut LBA_MPCONFUS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPCONFUS_BIN_IMPL) };
-	pub static mut LBA_MVCONFUS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVCONFUS_BIN_IMPL) };
-	pub static mut LBA_S212MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S212MASK_BIN_IMPL) };
-	pub static mut LBA_S212PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S212PACK_BIN_IMPL) };
-	pub static mut LBA_S212TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S212TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG385_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG385_PRO_IMPL) };
-	pub static mut LBA_S238MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S238MASK_BIN_IMPL) };
-	pub static mut LBA_S238PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S238PACK_BIN_IMPL) };
-	pub static mut LBA_S238TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S238TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG386_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG386_PRO_IMPL) };
-	pub static mut LBA_WSTAG396_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG396_PRO_IMPL) };
-	pub static mut LBA_M141NANO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M141NANO_BIN_IMPL) };
-	pub static mut LBA_S236MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S236MASK_BIN_IMPL) };
-	pub static mut LBA_S236PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S236PACK_BIN_IMPL) };
-	pub static mut LBA_S236TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S236TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG401_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG401_PRO_IMPL) };
-	pub static mut LBA_S233MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S233MASK_BIN_IMPL) };
-	pub static mut LBA_S233PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S233PACK_BIN_IMPL) };
-	pub static mut LBA_S233TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S233TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG406_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG406_PRO_IMPL) };
-	pub static mut LBA_S221MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S221MASK_BIN_IMPL) };
-	pub static mut LBA_S221PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S221PACK_BIN_IMPL) };
-	pub static mut LBA_S221TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S221TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG411_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG411_PRO_IMPL) };
-	pub static mut LBA_S251MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S251MASK_BIN_IMPL) };
-	pub static mut LBA_S251PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S251PACK_BIN_IMPL) };
-	pub static mut LBA_S251TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S251TMPK_BIN_IMPL) };
-	pub static mut LBA_S246MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S246MASK_BIN_IMPL) };
-	pub static mut LBA_S246PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S246PACK_BIN_IMPL) };
-	pub static mut LBA_S246TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S246TMPK_BIN_IMPL) };
-	pub static mut LBA_S241MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S241MASK_BIN_IMPL) };
-	pub static mut LBA_S241PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S241PACK_BIN_IMPL) };
-	pub static mut LBA_S241TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S241TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG415_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG415_PRO_IMPL) };
-	pub static mut LBA_WSTAG420_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG420_PRO_IMPL) };
-	pub static mut LBA_WSTAG421_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG421_PRO_IMPL) };
-	pub static mut LBA_M403AIR2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M403AIR2_BIN_IMPL) };
-	pub static mut LBA_M273QTRU_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M273QTRU_BIN_IMPL) };
-	pub static mut LBA_P015LUMO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P015LUMO_BIN_IMPL) };
-	pub static mut LBA_P018MGCO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P018MGCO_BIN_IMPL) };
-	pub static mut LBA_P017ASGM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P017ASGM_BIN_IMPL) };
-	pub static mut LBA_P120BNMM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P120BNMM_BIN_IMPL) };
-	pub static mut LBA_P078HGMK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P078HGMK_BIN_IMPL) };
-	pub static mut LBA_P152KEIT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P152KEIT_BIN_IMPL) };
-	pub static mut LBA_P171BAGM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P171BAGM_BIN_IMPL) };
-	pub static mut LBA_S385MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S385MASK_BIN_IMPL) };
-	pub static mut LBA_S385TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S385TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG426_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG426_PRO_IMPL) };
-	pub static mut LBA_M165EBDR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M165EBDR_BIN_IMPL) };
-	pub static mut LBA_S291MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S291MASK_BIN_IMPL) };
-	pub static mut LBA_S291PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S291PACK_BIN_IMPL) };
-	pub static mut LBA_S291TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S291TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG431_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG431_PRO_IMPL) };
-	pub static mut LBA_S600MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S600MASK_BIN_IMPL) };
-	pub static mut LBA_S600PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S600PACK_BIN_IMPL) };
-	pub static mut LBA_S600TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S600TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG600_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG600_PRO_IMPL) };
-	pub static mut LBA_S585MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S585MASK_BIN_IMPL) };
-	pub static mut LBA_S585PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S585PACK_BIN_IMPL) };
-	pub static mut LBA_S585TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S585TMPK_BIN_IMPL) };
-	pub static mut LBA_S595MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S595MASK_BIN_IMPL) };
-	pub static mut LBA_S595PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S595PACK_BIN_IMPL) };
-	pub static mut LBA_S595TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S595TMPK_BIN_IMPL) };
-	pub static mut LBA_S590MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S590MASK_BIN_IMPL) };
-	pub static mut LBA_S590PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S590PACK_BIN_IMPL) };
-	pub static mut LBA_S590TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S590TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG585_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG585_PRO_IMPL) };
-	pub static mut LBA_WSTAG590_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG590_PRO_IMPL) };
-	pub static mut LBA_WSTAG595_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG595_PRO_IMPL) };
-	pub static mut LBA_S445MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S445MASK_BIN_IMPL) };
-	pub static mut LBA_S445PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S445PACK_BIN_IMPL) };
-	pub static mut LBA_S445TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S445TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG445_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG445_PRO_IMPL) };
-	pub static mut LBA_S385PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S385PACK_BIN_IMPL) };
-	pub static mut LBA_WSTAG436_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG436_PRO_IMPL) };
-	pub static mut LBA_S281MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S281MASK_BIN_IMPL) };
-	pub static mut LBA_S281PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S281PACK_BIN_IMPL) };
-	pub static mut LBA_S281TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S281TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG441_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG441_PRO_IMPL) };
-	pub static mut LBA_S565MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S565MASK_BIN_IMPL) };
-	pub static mut LBA_S565PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S565PACK_BIN_IMPL) };
-	pub static mut LBA_S565TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S565TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG565_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG565_PRO_IMPL) };
-	pub static mut LBA_S286MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S286MASK_BIN_IMPL) };
-	pub static mut LBA_S286PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S286PACK_BIN_IMPL) };
-	pub static mut LBA_S286TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S286TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG446_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG446_PRO_IMPL) };
-	pub static mut LBA_S201PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S201PACK_BIN_IMPL) };
-	pub static mut LBA_S201TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S201TMPK_BIN_IMPL) };
-	pub static mut LBA_S201MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S201MASK_BIN_IMPL) };
-	pub static mut LBA_WSTAG451_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG451_PRO_IMPL) };
-	pub static mut LBA_S261MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S261MASK_BIN_IMPL) };
-	pub static mut LBA_S261PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S261PACK_BIN_IMPL) };
-	pub static mut LBA_S261TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S261TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG456_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG456_PRO_IMPL) };
-	pub static mut LBA_S203MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S203MASK_BIN_IMPL) };
-	pub static mut LBA_S203PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S203PACK_BIN_IMPL) };
-	pub static mut LBA_S203TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S203TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG466_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG466_PRO_IMPL) };
-	pub static mut LBA_S276MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S276MASK_BIN_IMPL) };
-	pub static mut LBA_S276PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S276PACK_BIN_IMPL) };
-	pub static mut LBA_S276TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S276TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG471_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG471_PRO_IMPL) };
-	pub static mut LBA_S219MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S219MASK_BIN_IMPL) };
-	pub static mut LBA_S219PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S219PACK_BIN_IMPL) };
-	pub static mut LBA_S219TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S219TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG476_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG476_PRO_IMPL) };
-	pub static mut LBA_M170IVRU_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M170IVRU_BIN_IMPL) };
-	pub static mut LBA_M038DORI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M038DORI_BIN_IMPL) };
-	pub static mut LBA_M143CLOK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M143CLOK_BIN_IMPL) };
-	pub static mut LBA_S326MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S326MASK_BIN_IMPL) };
-	pub static mut LBA_S326PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S326PACK_BIN_IMPL) };
-	pub static mut LBA_S326TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S326TMPK_BIN_IMPL) };
-	pub static mut LBA_S311MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S311MASK_BIN_IMPL) };
-	pub static mut LBA_S311PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S311PACK_BIN_IMPL) };
-	pub static mut LBA_S311TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S311TMPK_BIN_IMPL) };
-	pub static mut LBA_S321MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S321MASK_BIN_IMPL) };
-	pub static mut LBA_S321PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S321PACK_BIN_IMPL) };
-	pub static mut LBA_S321TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S321TMPK_BIN_IMPL) };
-	pub static mut LBA_S296MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S296MASK_BIN_IMPL) };
-	pub static mut LBA_S296PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S296PACK_BIN_IMPL) };
-	pub static mut LBA_S296TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S296TMPK_BIN_IMPL) };
-	pub static mut LBA_S306MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S306MASK_BIN_IMPL) };
-	pub static mut LBA_S306PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S306PACK_BIN_IMPL) };
-	pub static mut LBA_S306TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S306TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG481_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG481_PRO_IMPL) };
-	pub static mut LBA_WSTAG486_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG486_PRO_IMPL) };
-	pub static mut LBA_WSTAG491_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG491_PRO_IMPL) };
-	pub static mut LBA_WSTAG496_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG496_PRO_IMPL) };
-	pub static mut LBA_WSTAG501_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG501_PRO_IMPL) };
-	pub static mut LBA_S650MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S650MASK_BIN_IMPL) };
-	pub static mut LBA_S650PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S650PACK_BIN_IMPL) };
-	pub static mut LBA_S650TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S650TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG650_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG650_PRO_IMPL) };
-	pub static mut LBA_WSTAG506_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG506_PRO_IMPL) };
-	pub static mut LBA_P150LISA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P150LISA_BIN_IMPL) };
-	pub static mut LBA_S537MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S537MASK_BIN_IMPL) };
-	pub static mut LBA_S537PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S537PACK_BIN_IMPL) };
-	pub static mut LBA_S537TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S537TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG537_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG537_PRO_IMPL) };
-	pub static mut LBA_M386DINO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M386DINO_BIN_IMPL) };
-	pub static mut LBA_M166DKGM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M166DKGM_BIN_IMPL) };
-	pub static mut LBA_M172MTAR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M172MTAR_BIN_IMPL) };
-	pub static mut LBA_M429IVR2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M429IVR2_BIN_IMPL) };
-	pub static mut LBA_M428EBD2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M428EBD2_BIN_IMPL) };
-	pub static mut LBA_S615MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S615MASK_BIN_IMPL) };
-	pub static mut LBA_S615PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S615PACK_BIN_IMPL) };
-	pub static mut LBA_S615TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S615TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG615_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG615_PRO_IMPL) };
-	pub static mut LBA_MPBOSS02_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBOSS02_BIN_IMPL) };
-	pub static mut LBA_MVBOSS02_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBOSS02_BIN_IMPL) };
-	pub static mut LBA_M399MTA2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M399MTA2_BIN_IMPL) };
-	pub static mut LBA_M397DKG2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M397DKG2_BIN_IMPL) };
-	pub static mut LBA_M430DOR2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M430DOR2_BIN_IMPL) };
-	pub static mut LBA_M190BOLT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M190BOLT_BIN_IMPL) };
-	pub static mut LBA_M077REDV_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M077REDV_BIN_IMPL) };
-	pub static mut LBA_M269VALK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M269VALK_BIN_IMPL) };
-	pub static mut LBA_S331MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S331MASK_BIN_IMPL) };
-	pub static mut LBA_S331PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S331PACK_BIN_IMPL) };
-	pub static mut LBA_S331TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S331TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG521_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG521_PRO_IMPL) };
-	pub static mut LBA_S316MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S316MASK_BIN_IMPL) };
-	pub static mut LBA_S316PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S316PACK_BIN_IMPL) };
-	pub static mut LBA_S316TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S316TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG526_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG526_PRO_IMPL) };
-	pub static mut LBA_S336MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S336MASK_BIN_IMPL) };
-	pub static mut LBA_S336PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S336PACK_BIN_IMPL) };
-	pub static mut LBA_S336TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S336TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG531_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG531_PRO_IMPL) };
-	pub static mut LBA_S341MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S341MASK_BIN_IMPL) };
-	pub static mut LBA_S341PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S341PACK_BIN_IMPL) };
-	pub static mut LBA_S341TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S341TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG538_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG538_PRO_IMPL) };
-	pub static mut LBA_S346MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S346MASK_BIN_IMPL) };
-	pub static mut LBA_S346PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S346PACK_BIN_IMPL) };
-	pub static mut LBA_S346TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S346TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG540_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG540_PRO_IMPL) };
-	pub static mut LBA_S471MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S471MASK_BIN_IMPL) };
-	pub static mut LBA_S471PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S471PACK_BIN_IMPL) };
-	pub static mut LBA_S471TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S471TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG551_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG551_PRO_IMPL) };
-	pub static mut LBA_S381MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S381MASK_BIN_IMPL) };
-	pub static mut LBA_S381PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S381PACK_BIN_IMPL) };
-	pub static mut LBA_S381TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S381TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG556_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG556_PRO_IMPL) };
-	pub static mut LBA_S366MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S366MASK_BIN_IMPL) };
-	pub static mut LBA_S366PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S366PACK_BIN_IMPL) };
-	pub static mut LBA_S366TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S366TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG561_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG561_PRO_IMPL) };
-	pub static mut LBA_S376MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S376MASK_BIN_IMPL) };
-	pub static mut LBA_S376PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S376PACK_BIN_IMPL) };
-	pub static mut LBA_S376TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S376TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG566_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG566_PRO_IMPL) };
-	pub static mut LBA_S386MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S386MASK_BIN_IMPL) };
-	pub static mut LBA_S386PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S386PACK_BIN_IMPL) };
-	pub static mut LBA_S386TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S386TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG571_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG571_PRO_IMPL) };
-	pub static mut LBA_S396MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S396MASK_BIN_IMPL) };
-	pub static mut LBA_S396PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S396PACK_BIN_IMPL) };
-	pub static mut LBA_S396TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S396TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG576_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG576_PRO_IMPL) };
-	pub static mut LBA_S361MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S361MASK_BIN_IMPL) };
-	pub static mut LBA_S361PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S361PACK_BIN_IMPL) };
-	pub static mut LBA_S361TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S361TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG580_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG580_PRO_IMPL) };
-	pub static mut LBA_WSTAG581_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG581_PRO_IMPL) };
-	pub static mut LBA_S401MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S401MASK_BIN_IMPL) };
-	pub static mut LBA_S401PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S401PACK_BIN_IMPL) };
-	pub static mut LBA_S401TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S401TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG586_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG586_PRO_IMPL) };
-	pub static mut LBA_S431MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S431MASK_BIN_IMPL) };
-	pub static mut LBA_S431PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S431PACK_BIN_IMPL) };
-	pub static mut LBA_S431TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S431TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG591_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG591_PRO_IMPL) };
-	pub static mut LBA_S426MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S426MASK_BIN_IMPL) };
-	pub static mut LBA_S426PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S426PACK_BIN_IMPL) };
-	pub static mut LBA_S426TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S426TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG596_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG596_PRO_IMPL) };
-	pub static mut LBA_S446MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S446MASK_BIN_IMPL) };
-	pub static mut LBA_S446PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S446PACK_BIN_IMPL) };
-	pub static mut LBA_S446TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S446TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG601_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG601_PRO_IMPL) };
-	pub static mut LBA_S436MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S436MASK_BIN_IMPL) };
-	pub static mut LBA_S436PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S436PACK_BIN_IMPL) };
-	pub static mut LBA_S436TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S436TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG606_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG606_PRO_IMPL) };
-	pub static mut LBA_S411MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S411MASK_BIN_IMPL) };
-	pub static mut LBA_S411PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S411PACK_BIN_IMPL) };
-	pub static mut LBA_S411TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S411TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG611_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG611_PRO_IMPL) };
-	pub static mut LBA_S466MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S466MASK_BIN_IMPL) };
-	pub static mut LBA_S466PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S466PACK_BIN_IMPL) };
-	pub static mut LBA_S466TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S466TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG616_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG616_PRO_IMPL) };
-	pub static mut LBA_S496MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S496MASK_BIN_IMPL) };
-	pub static mut LBA_S496PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S496PACK_BIN_IMPL) };
-	pub static mut LBA_S496TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S496TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG621_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG621_PRO_IMPL) };
-	pub static mut LBA_S491MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S491MASK_BIN_IMPL) };
-	pub static mut LBA_S491PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S491PACK_BIN_IMPL) };
-	pub static mut LBA_S491TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S491TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG631_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG631_PRO_IMPL) };
-	pub static mut LBA_S486MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S486MASK_BIN_IMPL) };
-	pub static mut LBA_S486PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S486PACK_BIN_IMPL) };
-	pub static mut LBA_S486TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S486TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG636_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG636_PRO_IMPL) };
-	pub static mut LBA_S506MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S506MASK_BIN_IMPL) };
-	pub static mut LBA_S506PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S506PACK_BIN_IMPL) };
-	pub static mut LBA_S506TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S506TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG641_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG641_PRO_IMPL) };
-	pub static mut LBA_S501MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S501MASK_BIN_IMPL) };
-	pub static mut LBA_S501PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S501PACK_BIN_IMPL) };
-	pub static mut LBA_S501TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S501TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG646_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG646_PRO_IMPL) };
-	pub static mut LBA_S521MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S521MASK_BIN_IMPL) };
-	pub static mut LBA_S521PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S521PACK_BIN_IMPL) };
-	pub static mut LBA_S521TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S521TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG651_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG651_PRO_IMPL) };
-	pub static mut LBA_S538MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S538MASK_BIN_IMPL) };
-	pub static mut LBA_S538PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S538PACK_BIN_IMPL) };
-	pub static mut LBA_S538TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S538TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG656_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG656_PRO_IMPL) };
-	pub static mut LBA_S551MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S551MASK_BIN_IMPL) };
-	pub static mut LBA_S551PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S551PACK_BIN_IMPL) };
-	pub static mut LBA_S551TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S551TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG661_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG661_PRO_IMPL) };
-	pub static mut LBA_S561MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S561MASK_BIN_IMPL) };
-	pub static mut LBA_S561PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S561PACK_BIN_IMPL) };
-	pub static mut LBA_S561TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S561TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG676_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG676_PRO_IMPL) };
-	pub static mut LBA_S571MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S571MASK_BIN_IMPL) };
-	pub static mut LBA_S571PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S571PACK_BIN_IMPL) };
-	pub static mut LBA_S571TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S571TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG680_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG680_PRO_IMPL) };
-	pub static mut LBA_S576MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S576MASK_BIN_IMPL) };
-	pub static mut LBA_S576PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S576PACK_BIN_IMPL) };
-	pub static mut LBA_S576TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S576TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG686_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG686_PRO_IMPL) };
-	pub static mut LBA_WSTAG690_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG690_PRO_IMPL) };
-	pub static mut LBA_S556MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S556MASK_BIN_IMPL) };
-	pub static mut LBA_S556PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S556PACK_BIN_IMPL) };
-	pub static mut LBA_S556TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S556TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG691_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG691_PRO_IMPL) };
-	pub static mut LBA_S591MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S591MASK_BIN_IMPL) };
-	pub static mut LBA_S591PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S591PACK_BIN_IMPL) };
-	pub static mut LBA_S591TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S591TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG695_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG695_PRO_IMPL) };
-	pub static mut LBA_S586MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S586MASK_BIN_IMPL) };
-	pub static mut LBA_S586PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S586PACK_BIN_IMPL) };
-	pub static mut LBA_S586TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S586TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG696_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG696_PRO_IMPL) };
-	pub static mut LBA_S601MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S601MASK_BIN_IMPL) };
-	pub static mut LBA_S601PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S601PACK_BIN_IMPL) };
-	pub static mut LBA_S601TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S601TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG700_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG700_PRO_IMPL) };
-	pub static mut LBA_S596MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S596MASK_BIN_IMPL) };
-	pub static mut LBA_S596PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S596PACK_BIN_IMPL) };
-	pub static mut LBA_S596TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S596TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG701_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG701_PRO_IMPL) };
-	pub static mut LBA_S451MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S451MASK_BIN_IMPL) };
-	pub static mut LBA_S451PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S451PACK_BIN_IMPL) };
-	pub static mut LBA_S451TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S451TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG705_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG705_PRO_IMPL) };
-	pub static mut LBA_S481MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S481MASK_BIN_IMPL) };
-	pub static mut LBA_S481PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S481PACK_BIN_IMPL) };
-	pub static mut LBA_S481TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S481TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG706_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG706_PRO_IMPL) };
-	pub static mut LBA_S686MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S686MASK_BIN_IMPL) };
-	pub static mut LBA_S686PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S686PACK_BIN_IMPL) };
-	pub static mut LBA_S686TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S686TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG711_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG711_PRO_IMPL) };
-	pub static mut LBA_S696MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S696MASK_BIN_IMPL) };
-	pub static mut LBA_S696PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S696PACK_BIN_IMPL) };
-	pub static mut LBA_S696TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S696TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG715_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG715_PRO_IMPL) };
-	pub static mut LBA_STALBMCS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STALBMCS_BIN_IMPL) };
-	pub static mut LBA_STALBMTM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STALBMTM_BIN_IMPL) };
-	pub static mut LBA_WSTAG716_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG716_PRO_IMPL) };
-	pub static mut LBA_WSTAG720_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG720_PRO_IMPL) };
-	pub static mut LBA_M178KNGT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M178KNGT_BIN_IMPL) };
-	pub static mut LBA_M377BLZB_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M377BLZB_BIN_IMPL) };
-	pub static mut LBA_M327RUNX_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M327RUNX_BIN_IMPL) };
-	pub static mut LBA_M337ZAMB_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M337ZAMB_BIN_IMPL) };
-	pub static mut LBA_S295MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S295MASK_BIN_IMPL) };
-	pub static mut LBA_S295PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S295PACK_BIN_IMPL) };
-	pub static mut LBA_S295TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S295TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG721_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG721_PRO_IMPL) };
-	pub static mut LBA_S606MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S606MASK_BIN_IMPL) };
-	pub static mut LBA_S606PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S606PACK_BIN_IMPL) };
-	pub static mut LBA_S606TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S606TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG725_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG725_PRO_IMPL) };
-	pub static mut LBA_S621MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S621MASK_BIN_IMPL) };
-	pub static mut LBA_S621PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S621PACK_BIN_IMPL) };
-	pub static mut LBA_S621TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S621TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG726_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG726_PRO_IMPL) };
-	pub static mut LBA_S611MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S611MASK_BIN_IMPL) };
-	pub static mut LBA_S611PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S611PACK_BIN_IMPL) };
-	pub static mut LBA_S611TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S611TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG730_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG730_PRO_IMPL) };
-	pub static mut LBA_S631MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S631MASK_BIN_IMPL) };
-	pub static mut LBA_S631PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S631PACK_BIN_IMPL) };
-	pub static mut LBA_S631TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S631TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG731_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG731_PRO_IMPL) };
-	pub static mut LBA_S616MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S616MASK_BIN_IMPL) };
-	pub static mut LBA_S616PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S616PACK_BIN_IMPL) };
-	pub static mut LBA_S616TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S616TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG735_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG735_PRO_IMPL) };
-	pub static mut LBA_S656MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S656MASK_BIN_IMPL) };
-	pub static mut LBA_S656PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S656PACK_BIN_IMPL) };
-	pub static mut LBA_S656TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S656TMPK_BIN_IMPL) };
-	pub static mut LBA_S691MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S691MASK_BIN_IMPL) };
-	pub static mut LBA_S646MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S646MASK_BIN_IMPL) };
-	pub static mut LBA_S646PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S646PACK_BIN_IMPL) };
-	pub static mut LBA_S646TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S646TMPK_BIN_IMPL) };
-	pub static mut LBA_S691PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S691PACK_BIN_IMPL) };
-	pub static mut LBA_S651MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S651MASK_BIN_IMPL) };
-	pub static mut LBA_S651PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S651PACK_BIN_IMPL) };
-	pub static mut LBA_S651TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S651TMPK_BIN_IMPL) };
-	pub static mut LBA_S691TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S691TMPK_BIN_IMPL) };
-	pub static mut LBA_S641MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S641MASK_BIN_IMPL) };
-	pub static mut LBA_S641PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S641PACK_BIN_IMPL) };
-	pub static mut LBA_S641TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S641TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG736_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG736_PRO_IMPL) };
-	pub static mut LBA_S636MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S636MASK_BIN_IMPL) };
-	pub static mut LBA_S636PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S636PACK_BIN_IMPL) };
-	pub static mut LBA_S636TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S636TMPK_BIN_IMPL) };
-	pub static mut LBA_S480MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S480MASK_BIN_IMPL) };
-	pub static mut LBA_MPENV025_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV025_BIN_IMPL) };
-	pub static mut LBA_MVENV025_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV025_BIN_IMPL) };
-	pub static mut LBA_S680MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S680MASK_BIN_IMPL) };
-	pub static mut LBA_S680PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S680PACK_BIN_IMPL) };
-	pub static mut LBA_S680TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S680TMPK_BIN_IMPL) };
-	pub static mut LBA_STCDSPCS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STCDSPCS_BIN_IMPL) };
-	pub static mut LBA_S690MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S690MASK_BIN_IMPL) };
-	pub static mut LBA_S690PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S690PACK_BIN_IMPL) };
-	pub static mut LBA_S690TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S690TMPK_BIN_IMPL) };
-	pub static mut LBA_STCDSPTM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STCDSPTM_BIN_IMPL) };
-	pub static mut LBA_S700MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S700MASK_BIN_IMPL) };
-	pub static mut LBA_S700PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S700PACK_BIN_IMPL) };
-	pub static mut LBA_S700TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S700TMPK_BIN_IMPL) };
-	pub static mut LBA_M382ARMG_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M382ARMG_BIN_IMPL) };
-	pub static mut LBA_S705MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S705MASK_BIN_IMPL) };
-	pub static mut LBA_S705PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S705PACK_BIN_IMPL) };
-	pub static mut LBA_S705TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S705TMPK_BIN_IMPL) };
-	pub static mut LBA_M272SHDR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M272SHDR_BIN_IMPL) };
-	pub static mut LBA_P151NICK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P151NICK_BIN_IMPL) };
-	pub static mut LBA_P167SAGM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P167SAGM_BIN_IMPL) };
-	pub static mut LBA_P169NSPM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P169NSPM_BIN_IMPL) };
-	pub static mut LBA_P168PAGM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P168PAGM_BIN_IMPL) };
-	pub static mut LBA_M247DEMN_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M247DEMN_BIN_IMPL) };
-	pub static mut LBA_M365ARCH_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M365ARCH_BIN_IMPL) };
-	pub static mut LBA_M437BAST_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M437BAST_BIN_IMPL) };
-	pub static mut LBA_M372SGRG_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M372SGRG_BIN_IMPL) };
-	pub static mut LBA_WSTAG740_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG740_PRO_IMPL) };
-	pub static mut LBA_WSTAG741_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG741_PRO_IMPL) };
-	pub static mut LBA_WSTAG745_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG745_PRO_IMPL) };
-	pub static mut LBA_WSTAG746_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG746_PRO_IMPL) };
-	pub static mut LBA_WSTAG750_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG750_PRO_IMPL) };
-	pub static mut LBA_WSTAG755_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG755_PRO_IMPL) };
-	pub static mut LBA_WSTAG756_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG756_PRO_IMPL) };
-	pub static mut LBA_WSTAG760_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG760_PRO_IMPL) };
-	pub static mut LBA_WSTAG761_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG761_PRO_IMPL) };
-	pub static mut LBA_S711MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S711MASK_BIN_IMPL) };
-	pub static mut LBA_S711PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S711PACK_BIN_IMPL) };
-	pub static mut LBA_S711TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S711TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG795_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG795_PRO_IMPL) };
-	pub static mut LBA_S676MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S676MASK_BIN_IMPL) };
-	pub static mut LBA_S676PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S676PACK_BIN_IMPL) };
-	pub static mut LBA_S676TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S676TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG800_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG800_PRO_IMPL) };
-	pub static mut LBA_S661MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S661MASK_BIN_IMPL) };
-	pub static mut LBA_S661PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S661PACK_BIN_IMPL) };
-	pub static mut LBA_S661TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S661TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG805_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG805_PRO_IMPL) };
-	pub static mut LBA_S701MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S701MASK_BIN_IMPL) };
-	pub static mut LBA_S701PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S701PACK_BIN_IMPL) };
-	pub static mut LBA_S701TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S701TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG810_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG810_PRO_IMPL) };
-	pub static mut LBA_S720MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S720MASK_BIN_IMPL) };
-	pub static mut LBA_S720PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S720PACK_BIN_IMPL) };
-	pub static mut LBA_S720TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S720TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG815_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG815_PRO_IMPL) };
-	pub static mut LBA_S805MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S805MASK_BIN_IMPL) };
-	pub static mut LBA_S805PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S805PACK_BIN_IMPL) };
-	pub static mut LBA_S805TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S805TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG820_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG820_PRO_IMPL) };
-	pub static mut LBA_S721MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S721MASK_BIN_IMPL) };
-	pub static mut LBA_S721PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S721PACK_BIN_IMPL) };
-	pub static mut LBA_S721TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S721TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG825_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG825_PRO_IMPL) };
-	pub static mut LBA_S730MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S730MASK_BIN_IMPL) };
-	pub static mut LBA_S730PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S730PACK_BIN_IMPL) };
-	pub static mut LBA_S730TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S730TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG830_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG830_PRO_IMPL) };
-	pub static mut LBA_M436VALV_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M436VALV_BIN_IMPL) };
-	pub static mut LBA_M443SGR2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M443SGR2_BIN_IMPL) };
-	pub static mut LBA_S716MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S716MASK_BIN_IMPL) };
-	pub static mut LBA_S716PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S716PACK_BIN_IMPL) };
-	pub static mut LBA_S716TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S716TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG835_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG835_PRO_IMPL) };
-	pub static mut LBA_S706MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S706MASK_BIN_IMPL) };
-	pub static mut LBA_S706PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S706PACK_BIN_IMPL) };
-	pub static mut LBA_S706TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S706TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG840_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG840_PRO_IMPL) };
-	pub static mut LBA_S726MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S726MASK_BIN_IMPL) };
-	pub static mut LBA_S726PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S726PACK_BIN_IMPL) };
-	pub static mut LBA_S726TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S726TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG845_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG845_PRO_IMPL) };
-	pub static mut LBA_S875MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S875MASK_BIN_IMPL) };
-	pub static mut LBA_S875PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S875PACK_BIN_IMPL) };
-	pub static mut LBA_S875TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S875TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG875_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG875_PRO_IMPL) };
-	pub static mut LBA_S880MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S880MASK_BIN_IMPL) };
-	pub static mut LBA_S880PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S880PACK_BIN_IMPL) };
-	pub static mut LBA_S880TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S880TMPK_BIN_IMPL) };
-	pub static mut LBA_S885MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S885MASK_BIN_IMPL) };
-	pub static mut LBA_S885PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S885PACK_BIN_IMPL) };
-	pub static mut LBA_S885TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S885TMPK_BIN_IMPL) };
-	pub static mut LBA_S890MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S890MASK_BIN_IMPL) };
-	pub static mut LBA_S890PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S890PACK_BIN_IMPL) };
-	pub static mut LBA_S890TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S890TMPK_BIN_IMPL) };
-	pub static mut LBA_S895MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S895MASK_BIN_IMPL) };
-	pub static mut LBA_S895PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S895PACK_BIN_IMPL) };
-	pub static mut LBA_S895TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S895TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG880_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG880_PRO_IMPL) };
-	pub static mut LBA_WSTAG885_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG885_PRO_IMPL) };
-	pub static mut LBA_WSTAG890_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG890_PRO_IMPL) };
-	pub static mut LBA_WSTAG895_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG895_PRO_IMPL) };
-	pub static mut LBA_S825MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S825MASK_BIN_IMPL) };
-	pub static mut LBA_S825PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S825PACK_BIN_IMPL) };
-	pub static mut LBA_S825TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S825TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG850_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG850_PRO_IMPL) };
-	pub static mut LBA_S725MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S725MASK_BIN_IMPL) };
-	pub static mut LBA_S725PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S725PACK_BIN_IMPL) };
-	pub static mut LBA_S725TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S725TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG855_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG855_PRO_IMPL) };
-	pub static mut LBA_S351MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S351MASK_BIN_IMPL) };
-	pub static mut LBA_S351PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S351PACK_BIN_IMPL) };
-	pub static mut LBA_S351TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S351TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG860_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG860_PRO_IMPL) };
-	pub static mut LBA_S356MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S356MASK_BIN_IMPL) };
-	pub static mut LBA_S356PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S356PACK_BIN_IMPL) };
-	pub static mut LBA_S356TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S356TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG865_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG865_PRO_IMPL) };
-	pub static mut LBA_S865MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S865MASK_BIN_IMPL) };
-	pub static mut LBA_S865PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S865PACK_BIN_IMPL) };
-	pub static mut LBA_S865TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S865TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG870_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG870_PRO_IMPL) };
-	pub static mut LBA_S870MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S870MASK_BIN_IMPL) };
-	pub static mut LBA_S870PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S870PACK_BIN_IMPL) };
-	pub static mut LBA_S870TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S870TMPK_BIN_IMPL) };
-	pub static mut LBA_M441RAIZ_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M441RAIZ_BIN_IMPL) };
-	pub static mut LBA_S526MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S526MASK_BIN_IMPL) };
-	pub static mut LBA_S526PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S526PACK_BIN_IMPL) };
-	pub static mut LBA_S526TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S526TMPK_BIN_IMPL) };
-	pub static mut LBA_S735MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S735MASK_BIN_IMPL) };
-	pub static mut LBA_S735PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S735PACK_BIN_IMPL) };
-	pub static mut LBA_S735TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S735TMPK_BIN_IMPL) };
-	pub static mut LBA_S371MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S371MASK_BIN_IMPL) };
-	pub static mut LBA_S371PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S371PACK_BIN_IMPL) };
-	pub static mut LBA_S371TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S371TMPK_BIN_IMPL) };
-	pub static mut LBA_S750MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S750MASK_BIN_IMPL) };
-	pub static mut LBA_S750PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S750PACK_BIN_IMPL) };
-	pub static mut LBA_S750TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S750TMPK_BIN_IMPL) };
-	pub static mut LBA_S566MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S566MASK_BIN_IMPL) };
-	pub static mut LBA_S566PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S566PACK_BIN_IMPL) };
-	pub static mut LBA_S566TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S566TMPK_BIN_IMPL) };
-	pub static mut LBA_S731MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S731MASK_BIN_IMPL) };
-	pub static mut LBA_S731PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S731PACK_BIN_IMPL) };
-	pub static mut LBA_S731TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S731TMPK_BIN_IMPL) };
-	pub static mut LBA_S736MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S736MASK_BIN_IMPL) };
-	pub static mut LBA_S736PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S736PACK_BIN_IMPL) };
-	pub static mut LBA_S736TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S736TMPK_BIN_IMPL) };
-	pub static mut LBA_M144ROSE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M144ROSE_BIN_IMPL) };
-	pub static mut LBA_M334MLDR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M334MLDR_BIN_IMPL) };
-	pub static mut LBA_S746MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S746MASK_BIN_IMPL) };
-	pub static mut LBA_S746PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S746PACK_BIN_IMPL) };
-	pub static mut LBA_S746TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S746TMPK_BIN_IMPL) };
-	pub static mut LBA_S755MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S755MASK_BIN_IMPL) };
-	pub static mut LBA_S755PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S755PACK_BIN_IMPL) };
-	pub static mut LBA_S755TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S755TMPK_BIN_IMPL) };
-	pub static mut LBA_S756MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S756MASK_BIN_IMPL) };
-	pub static mut LBA_S756PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S756PACK_BIN_IMPL) };
-	pub static mut LBA_S756TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S756TMPK_BIN_IMPL) };
-	pub static mut LBA_S761MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S761MASK_BIN_IMPL) };
-	pub static mut LBA_S761PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S761PACK_BIN_IMPL) };
-	pub static mut LBA_S761TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S761TMPK_BIN_IMPL) };
-	pub static mut LBA_E059HOUO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E059HOUO_BIN_IMPL) };
-	pub static mut LBA_MEFT1016_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1016_BIN_IMPL) };
-	pub static mut LBA_S740MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S740MASK_BIN_IMPL) };
-	pub static mut LBA_S740PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S740PACK_BIN_IMPL) };
-	pub static mut LBA_S740TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S740TMPK_BIN_IMPL) };
-	pub static mut LBA_MEFT1021_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1021_BIN_IMPL) };
-	pub static mut LBA_S850MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S850MASK_BIN_IMPL) };
-	pub static mut LBA_S850PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S850PACK_BIN_IMPL) };
-	pub static mut LBA_S850TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S850TMPK_BIN_IMPL) };
-	pub static mut LBA_MEFT1022_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1022_BIN_IMPL) };
-	pub static mut LBA_S835MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S835MASK_BIN_IMPL) };
-	pub static mut LBA_S835PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S835PACK_BIN_IMPL) };
-	pub static mut LBA_S835TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S835TMPK_BIN_IMPL) };
-	pub static mut LBA_M378BVND_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M378BVND_BIN_IMPL) };
-	pub static mut LBA_S456MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S456MASK_BIN_IMPL) };
-	pub static mut LBA_S456PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S456PACK_BIN_IMPL) };
-	pub static mut LBA_S456TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S456TMPK_BIN_IMPL) };
-	pub static mut LBA_S745MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S745MASK_BIN_IMPL) };
-	pub static mut LBA_S810MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S810MASK_BIN_IMPL) };
-	pub static mut LBA_S810PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S810PACK_BIN_IMPL) };
-	pub static mut LBA_S810TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S810TMPK_BIN_IMPL) };
-	pub static mut LBA_S745TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S745TMPK_BIN_IMPL) };
-	pub static mut LBA_S855MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S855MASK_BIN_IMPL) };
-	pub static mut LBA_S855PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S855PACK_BIN_IMPL) };
-	pub static mut LBA_S855TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S855TMPK_BIN_IMPL) };
-	pub static mut LBA_S795MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S795MASK_BIN_IMPL) };
-	pub static mut LBA_S860MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S860MASK_BIN_IMPL) };
-	pub static mut LBA_S860PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S860PACK_BIN_IMPL) };
-	pub static mut LBA_S860TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S860TMPK_BIN_IMPL) };
-	pub static mut LBA_S795TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S795TMPK_BIN_IMPL) };
-	pub static mut LBA_S540MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S540MASK_BIN_IMPL) };
-	pub static mut LBA_S540PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S540PACK_BIN_IMPL) };
-	pub static mut LBA_S540TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S540TMPK_BIN_IMPL) };
-	pub static mut LBA_S800MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S800MASK_BIN_IMPL) };
-	pub static mut LBA_S441MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S441MASK_BIN_IMPL) };
-	pub static mut LBA_S441PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S441PACK_BIN_IMPL) };
-	pub static mut LBA_S441TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S441TMPK_BIN_IMPL) };
-	pub static mut LBA_S800TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S800TMPK_BIN_IMPL) };
-	pub static mut LBA_S830MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S830MASK_BIN_IMPL) };
-	pub static mut LBA_S830PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S830PACK_BIN_IMPL) };
-	pub static mut LBA_S830TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S830TMPK_BIN_IMPL) };
-	pub static mut LBA_M238SNAI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M238SNAI_BIN_IMPL) };
-	pub static mut LBA_S845MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S845MASK_BIN_IMPL) };
-	pub static mut LBA_S845PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S845PACK_BIN_IMPL) };
-	pub static mut LBA_S845TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S845TMPK_BIN_IMPL) };
-	pub static mut LBA_M241HNGY_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M241HNGY_BIN_IMPL) };
-	pub static mut LBA_S271MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S271MASK_BIN_IMPL) };
-	pub static mut LBA_S271PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S271PACK_BIN_IMPL) };
-	pub static mut LBA_S271TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S271TMPK_BIN_IMPL) };
-	pub static mut LBA_MEFT1001_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1001_BIN_IMPL) };
-	pub static mut LBA_S476MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S476MASK_BIN_IMPL) };
-	pub static mut LBA_S476PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S476PACK_BIN_IMPL) };
-	pub static mut LBA_S476TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S476TMPK_BIN_IMPL) };
-	pub static mut LBA_MEFT1002_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1002_BIN_IMPL) };
-	pub static mut LBA_M244SKST_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M244SKST_BIN_IMPL) };
-	pub static mut LBA_S745PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S745PACK_BIN_IMPL) };
-	pub static mut LBA_M245INFR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M245INFR_BIN_IMPL) };
-	pub static mut LBA_MEFT1003_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1003_BIN_IMPL) };
-	pub static mut LBA_S820MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S820MASK_BIN_IMPL) };
-	pub static mut LBA_S820PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S820PACK_BIN_IMPL) };
-	pub static mut LBA_S820TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S820TMPK_BIN_IMPL) };
-	pub static mut LBA_MEFT1004_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1004_BIN_IMPL) };
-	pub static mut LBA_S760MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S760MASK_BIN_IMPL) };
-	pub static mut LBA_S760PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S760PACK_BIN_IMPL) };
-	pub static mut LBA_S760TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S760TMPK_BIN_IMPL) };
-	pub static mut LBA_MEFT1005_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1005_BIN_IMPL) };
-	pub static mut LBA_M250KGET_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M250KGET_BIN_IMPL) };
-	pub static mut LBA_M364MUMY_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M364MUMY_BIN_IMPL) };
-	pub static mut LBA_M465SNAT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M465SNAT_BIN_IMPL) };
-	pub static mut LBA_M277BARO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M277BARO_BIN_IMPL) };
-	pub static mut LBA_M439FUJI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M439FUJI_BIN_IMPL) };
-	pub static mut LBA_M302GAGO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M302GAGO_BIN_IMPL) };
-	pub static mut LBA_S795PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S795PACK_BIN_IMPL) };
-	pub static mut LBA_M356HAND_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M356HAND_BIN_IMPL) };
-	pub static mut LBA_MEFT1006_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1006_BIN_IMPL) };
-	pub static mut LBA_M358PHAR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M358PHAR_BIN_IMPL) };
-	pub static mut LBA_S800PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S800PACK_BIN_IMPL) };
-	pub static mut LBA_M360ANTR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M360ANTR_BIN_IMPL) };
-	pub static mut LBA_MEFT1007_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1007_BIN_IMPL) };
-	pub static mut LBA_M389KYKI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M389KYKI_BIN_IMPL) };
-	pub static mut LBA_M411MLD2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M411MLD2_BIN_IMPL) };
-	pub static mut LBA_M392SLAG_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M392SLAG_BIN_IMPL) };
-	pub static mut LBA_M440SIJN_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M440SIJN_BIN_IMPL) };
-	pub static mut LBA_M393CNND_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M393CNND_BIN_IMPL) };
-	pub static mut LBA_M438RIDN_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M438RIDN_BIN_IMPL) };
-	pub static mut LBA_M412GAR2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M412GAR2_BIN_IMPL) };
-	pub static mut LBA_M434ANT2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M434ANT2_BIN_IMPL) };
-	pub static mut LBA_MPEVO_00_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPEVO_00_BIN_IMPL) };
-	pub static mut LBA_MPJOG_00_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPJOG_00_BIN_IMPL) };
-	pub static mut LBA_MVEVO_00_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVEVO_00_BIN_IMPL) };
-	pub static mut LBA_MVJOG_00_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVJOG_00_BIN_IMPL) };
-	pub static mut LBA_S715MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S715MASK_BIN_IMPL) };
-	pub static mut LBA_S715PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S715PACK_BIN_IMPL) };
-	pub static mut LBA_S715TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S715TMPK_BIN_IMPL) };
-	pub static mut LBA_MEFT1008_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1008_BIN_IMPL) };
-	pub static mut LBA_M466RGN2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M466RGN2_BIN_IMPL) };
-	pub static mut LBA_M423SNA2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M423SNA2_BIN_IMPL) };
-	pub static mut LBA_M435GAR3_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M435GAR3_BIN_IMPL) };
-	pub static mut LBA_WSTAG920_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG920_PRO_IMPL) };
-	pub static mut LBA_P165SAGD_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P165SAGD_BIN_IMPL) };
-	pub static mut LBA_P166PAGD_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P166PAGD_BIN_IMPL) };
-	pub static mut LBA_P016RDMD_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P016RDMD_BIN_IMPL) };
-	pub static mut LBA_P173KBOY_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P173KBOY_BIN_IMPL) };
-	pub static mut LBA_P170GOMA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P170GOMA_BIN_IMPL) };
-	pub static mut LBA_M442RGN1_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M442RGN1_BIN_IMPL) };
-	pub static mut LBA_S406MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S406MASK_BIN_IMPL) };
-	pub static mut LBA_S406PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S406PACK_BIN_IMPL) };
-	pub static mut LBA_S406TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S406TMPK_BIN_IMPL) };
-	pub static mut LBA_MEFT1009_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1009_BIN_IMPL) };
-	pub static mut LBA_S315MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S315MASK_BIN_IMPL) };
-	pub static mut LBA_S315PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S315PACK_BIN_IMPL) };
-	pub static mut LBA_S315TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S315TMPK_BIN_IMPL) };
-	pub static mut LBA_S840MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S840MASK_BIN_IMPL) };
-	pub static mut LBA_S840PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S840PACK_BIN_IMPL) };
-	pub static mut LBA_S840TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S840TMPK_BIN_IMPL) };
-	pub static mut LBA_S531MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S531MASK_BIN_IMPL) };
-	pub static mut LBA_S531PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S531PACK_BIN_IMPL) };
-	pub static mut LBA_S531TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S531TMPK_BIN_IMPL) };
-	pub static mut LBA_S741MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S741MASK_BIN_IMPL) };
-	pub static mut LBA_S741PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S741PACK_BIN_IMPL) };
-	pub static mut LBA_S741TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S741TMPK_BIN_IMPL) };
-	pub static mut LBA_MEFT1010_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1010_BIN_IMPL) };
-	pub static mut LBA_MEFT1011_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1011_BIN_IMPL) };
-	pub static mut LBA_MEFT1012_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1012_BIN_IMPL) };
-	pub static mut LBA_MEFT1013_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1013_BIN_IMPL) };
-	pub static mut LBA_M446BKNM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M446BKNM_BIN_IMPL) };
-	pub static mut LBA_M454KYK9_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M454KYK9_BIN_IMPL) };
-	pub static mut LBA_M457CDC1_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M457CDC1_BIN_IMPL) };
-	pub static mut LBA_M458CDC2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M458CDC2_BIN_IMPL) };
-	pub static mut LBA_MEFT0093_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0093_BIN_IMPL) };
-	pub static mut LBA_M459CDU1_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M459CDU1_BIN_IMPL) };
-	pub static mut LBA_MEFT0094_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0094_BIN_IMPL) };
-	pub static mut LBA_MEFT1014_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1014_BIN_IMPL) };
-	pub static mut LBA_S415TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S415TMPK_BIN_IMPL) };
-	pub static mut LBA_S415MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S415MASK_BIN_IMPL) };
-	pub static mut LBA_MEFT1015_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1015_BIN_IMPL) };
-	pub static mut LBA_M460CDU2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M460CDU2_BIN_IMPL) };
-	pub static mut LBA_M461CDR1_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M461CDR1_BIN_IMPL) };
-	pub static mut LBA_S325MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S325MASK_BIN_IMPL) };
-	pub static mut LBA_S325PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S325PACK_BIN_IMPL) };
-	pub static mut LBA_S325TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S325TMPK_BIN_IMPL) };
-	pub static mut LBA_M462CDR2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M462CDR2_BIN_IMPL) };
-	pub static mut LBA_M463CDS1_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M463CDS1_BIN_IMPL) };
-	pub static mut LBA_M464CDS2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M464CDS2_BIN_IMPL) };
-	pub static mut LBA_S415BG01_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S415BG01_BIN_IMPL) };
-	pub static mut LBA_S415BG02_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S415BG02_BIN_IMPL) };
-	pub static mut LBA_M467RGN3_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M467RGN3_BIN_IMPL) };
-	pub static mut LBA_S695MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S695MASK_BIN_IMPL) };
-	pub static mut LBA_S695PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S695PACK_BIN_IMPL) };
-	pub static mut LBA_S695TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S695TMPK_BIN_IMPL) };
-	pub static mut LBA_MEFT0065_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0065_BIN_IMPL) };
-	pub static mut LBA_NAMEDTCS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_NAMEDTCS_BIN_IMPL) };
-	pub static mut LBA_NAMEDTTM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_NAMEDTTM_BIN_IMPL) };
-	pub static mut LBA_MEFT0095_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0095_BIN_IMPL) };
-	pub static mut LBA_E369DUKE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E369DUKE_BIN_IMPL) };
-	pub static mut LBA_S815MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S815MASK_BIN_IMPL) };
-	pub static mut LBA_S815BG01_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S815BG01_BIN_IMPL) };
-	pub static mut LBA_S815TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S815TMPK_BIN_IMPL) };
-	pub static mut LBA_MEFT1017_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1017_BIN_IMPL) };
-	pub static mut LBA_S581MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S581MASK_BIN_IMPL) };
-	pub static mut LBA_S581PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S581PACK_BIN_IMPL) };
-	pub static mut LBA_S581TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S581TMPK_BIN_IMPL) };
-	pub static mut LBA_MEFT1018_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1018_BIN_IMPL) };
-	pub static mut LBA_MEFT1055_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1055_BIN_IMPL) };
-	pub static mut LBA_MEFT0088_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0088_BIN_IMPL) };
-	pub static mut LBA_S580MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S580MASK_BIN_IMPL) };
-	pub static mut LBA_S580PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S580PACK_BIN_IMPL) };
-	pub static mut LBA_S580TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S580TMPK_BIN_IMPL) };
-	pub static mut LBA_MEFT1019_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1019_BIN_IMPL) };
-	pub static mut LBA_S420MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S420MASK_BIN_IMPL) };
-	pub static mut LBA_S420PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S420PACK_BIN_IMPL) };
-	pub static mut LBA_S420TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S420TMPK_BIN_IMPL) };
-	pub static mut LBA_S421MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S421MASK_BIN_IMPL) };
-	pub static mut LBA_S421PACK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S421PACK_BIN_IMPL) };
-	pub static mut LBA_S421TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S421TMPK_BIN_IMPL) };
-	pub static mut LBA_MEFT1020_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1020_BIN_IMPL) };
-	pub static mut LBA_E020ANGE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E020ANGE_BIN_IMPL) };
-	pub static mut LBA_E367GRAW_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E367GRAW_BIN_IMPL) };
-	pub static mut LBA_E006DEVI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E006DEVI_BIN_IMPL) };
-	pub static mut LBA_E144ROSE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E144ROSE_BIN_IMPL) };
-	pub static mut LBA_E230GKWA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E230GKWA_BIN_IMPL) };
-	pub static mut LBA_E234ANGW_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E234ANGW_BIN_IMPL) };
-	pub static mut LBA_E259EXVM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E259EXVM_BIN_IMPL) };
-	pub static mut LBA_E386DINO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E386DINO_BIN_IMPL) };
-	pub static mut LBA_MEFT1023_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1023_BIN_IMPL) };
-	pub static mut LBA_P178NBEA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P178NBEA_BIN_IMPL) };
-	pub static mut LBA_P179NKOE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P179NKOE_BIN_IMPL) };
-	pub static mut LBA_P180NKOT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P180NKOT_BIN_IMPL) };
-	pub static mut LBA_P153DGTM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P153DGTM_BIN_IMPL) };
-	pub static mut LBA_P154DGTB_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P154DGTB_BIN_IMPL) };
-	pub static mut LBA_MEFT1024_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1024_BIN_IMPL) };
-	pub static mut LBA_MEFT1025_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1025_BIN_IMPL) };
-	pub static mut LBA_STWMP0CS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STWMP0CS_BIN_IMPL) };
-	pub static mut LBA_STWMP0TM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STWMP0TM_BIN_IMPL) };
-	pub static mut LBA_STWMP1CS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STWMP1CS_BIN_IMPL) };
-	pub static mut LBA_STWMP1TM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STWMP1TM_BIN_IMPL) };
-	pub static mut LBA_E000COM1_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E000COM1_BIN_IMPL) };
-	pub static mut LBA_F000COM1_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_F000COM1_BIN_IMPL) };
-	pub static mut LBA_STFRPTCS_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STFRPTCS_BIN_IMPL) };
-	pub static mut LBA_STFRPTTM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_STFRPTTM_BIN_IMPL) };
-	pub static mut LBA_MPENV205_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV205_BIN_IMPL) };
-	pub static mut LBA_MVENV205_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV205_BIN_IMPL) };
-	pub static mut LBA_E000COM2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E000COM2_BIN_IMPL) };
-	pub static mut LBA_CARD_NPC_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_CARD_NPC_BIN_IMPL) };
-	pub static mut LBA_E211HANG_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E211HANG_BIN_IMPL) };
-	pub static mut LBA_M468AGNM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M468AGNM_BIN_IMPL) };
-	pub static mut LBA_P149SNCM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P149SNCM_BIN_IMPL) };
-	pub static mut LBA_P181SSPM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P181SSPM_BIN_IMPL) };
-	pub static mut LBA_P175SPMM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P175SPMM_BIN_IMPL) };
-	pub static mut LBA_P174PIYO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P174PIYO_BIN_IMPL) };
-	pub static mut LBA_MEFT1026_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1026_BIN_IMPL) };
-	pub static mut LBA_MPBOSS03_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBOSS03_BIN_IMPL) };
-	pub static mut LBA_P172FJJI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P172FJJI_BIN_IMPL) };
-	pub static mut LBA_F000COM2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_F000COM2_BIN_IMPL) };
-	pub static mut LBA_MEFT1027_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1027_BIN_IMPL) };
-	pub static mut LBA_MEFT1028_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1028_BIN_IMPL) };
-	pub static mut LBA_MEFT1029_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1029_BIN_IMPL) };
-	pub static mut LBA_MEFT1030_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1030_BIN_IMPL) };
-	pub static mut LBA_MEFT1031_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1031_BIN_IMPL) };
-	pub static mut LBA_MEFT1032_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1032_BIN_IMPL) };
-	pub static mut LBA_MEFT1033_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1033_BIN_IMPL) };
-	pub static mut LBA_MEFT1034_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1034_BIN_IMPL) };
-	pub static mut LBA_MEFT1035_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1035_BIN_IMPL) };
-	pub static mut LBA_MEFT1036_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1036_BIN_IMPL) };
-	pub static mut LBA_MEFT1037_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1037_BIN_IMPL) };
-	pub static mut LBA_MEFT1038_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1038_BIN_IMPL) };
-	pub static mut LBA_MEFT1039_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1039_BIN_IMPL) };
-	pub static mut LBA_MEFT1040_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1040_BIN_IMPL) };
-	pub static mut LBA_MEFT1041_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1041_BIN_IMPL) };
-	pub static mut LBA_MEFT1042_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1042_BIN_IMPL) };
-	pub static mut LBA_MEFT1043_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1043_BIN_IMPL) };
-	pub static mut LBA_MEFT1044_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1044_BIN_IMPL) };
-	pub static mut LBA_MEFT1045_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1045_BIN_IMPL) };
-	pub static mut LBA_MEFT1046_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1046_BIN_IMPL) };
-	pub static mut LBA_MEFT1047_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1047_BIN_IMPL) };
-	pub static mut LBA_MEFT1048_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1048_BIN_IMPL) };
-	pub static mut LBA_MEFT1049_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1049_BIN_IMPL) };
-	pub static mut LBA_MEFT1050_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1050_BIN_IMPL) };
-	pub static mut LBA_MPBOSS04_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPBOSS04_BIN_IMPL) };
-	pub static mut LBA_M469GARM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M469GARM_BIN_IMPL) };
-	pub static mut LBA_MEFT1051_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1051_BIN_IMPL) };
-	pub static mut LBA_MVBOSS03_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBOSS03_BIN_IMPL) };
-	pub static mut LBA_MVBOSS04_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVBOSS04_BIN_IMPL) };
-	pub static mut LBA_MEFT1052_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1052_BIN_IMPL) };
-	pub static mut LBA_MEFT1053_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1053_BIN_IMPL) };
-	pub static mut LBA_M470AGRY_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_M470AGRY_BIN_IMPL) };
-	pub static mut LBA_MEFT0221_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0221_BIN_IMPL) };
-	pub static mut LBA_P124SATE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P124SATE_BIN_IMPL) };
-	pub static mut LBA_P127SEID_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P127SEID_BIN_IMPL) };
-	pub static mut LBA_P128TISD_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P128TISD_BIN_IMPL) };
-	pub static mut LBA_P182BOMP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P182BOMP_BIN_IMPL) };
-	pub static mut LBA_P183BOMB_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P183BOMB_BIN_IMPL) };
-	pub static mut LBA_P184CBEM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P184CBEM_BIN_IMPL) };
-	pub static mut LBA_P185BEMG_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P185BEMG_BIN_IMPL) };
-	pub static mut LBA_P186BEMP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P186BEMP_BIN_IMPL) };
-	pub static mut LBA_MEFT0087_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0087_BIN_IMPL) };
-	pub static mut LBA_MEFT0108_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0108_BIN_IMPL) };
-	pub static mut LBA_MEFT0109_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0109_BIN_IMPL) };
-	pub static mut LBA_E145VMON_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E145VMON_BIN_IMPL) };
-	pub static mut LBA_E260STNG_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E260STNG_BIN_IMPL) };
-	pub static mut LBA_E374KYBI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E374KYBI_BIN_IMPL) };
-	pub static mut LBA_E375TAOM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E375TAOM_BIN_IMPL) };
-	pub static mut LBA_E383PKEN_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E383PKEN_BIN_IMPL) };
-	pub static mut LBA_E000COM3_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E000COM3_BIN_IMPL) };
-	pub static mut LBA_F000COM3_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_F000COM3_BIN_IMPL) };
-	pub static mut LBA_E000COM4_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E000COM4_BIN_IMPL) };
-	pub static mut LBA_F000COM4_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_F000COM4_BIN_IMPL) };
-	pub static mut LBA_MEFT0096_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0096_BIN_IMPL) };
-	pub static mut LBA_E056DIGI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E056DIGI_BIN_IMPL) };
-	pub static mut LBA_E066VAND_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E066VAND_BIN_IMPL) };
-	pub static mut LBA_E150OMGM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E150OMGM_BIN_IMPL) };
-	pub static mut LBA_E373RENA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E373RENA_BIN_IMPL) };
-	pub static mut LBA_E377BLZB_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E377BLZB_BIN_IMPL) };
-	pub static mut LBA_MOVIED01_STR: *const u8 = unsafe { ptr::addr_of!(LBA_MOVIED01_STR_IMPL) };
-	pub static mut LBA_MOVIED03_STR: *const u8 = unsafe { ptr::addr_of!(LBA_MOVIED03_STR_IMPL) };
-	pub static mut LBA_MOVIED04_STR: *const u8 = unsafe { ptr::addr_of!(LBA_MOVIED04_STR_IMPL) };
-	pub static mut LBA_MOVIED05_STR: *const u8 = unsafe { ptr::addr_of!(LBA_MOVIED05_STR_IMPL) };
-	pub static mut LBA_MOVIED06_STR: *const u8 = unsafe { ptr::addr_of!(LBA_MOVIED06_STR_IMPL) };
-	pub static mut LBA_MOVIED07_STR: *const u8 = unsafe { ptr::addr_of!(LBA_MOVIED07_STR_IMPL) };
-	pub static mut LBA_MOVIED08_STR: *const u8 = unsafe { ptr::addr_of!(LBA_MOVIED08_STR_IMPL) };
-	pub static mut LBA_MEFT1054_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT1054_BIN_IMPL) };
-	pub static mut LBA_MOVIED02_STR: *const u8 = unsafe { ptr::addr_of!(LBA_MOVIED02_STR_IMPL) };
-	pub static mut LBA_MOVIEE01_STR: *const u8 = unsafe { ptr::addr_of!(LBA_MOVIEE01_STR_IMPL) };
-	pub static mut LBA_MOVIEOPN_STR: *const u8 = unsafe { ptr::addr_of!(LBA_MOVIEOPN_STR_IMPL) };
-	pub static mut LBA_E000JOGL_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E000JOGL_BIN_IMPL) };
-	pub static mut LBA_CARDPAK0_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_CARDPAK0_BIN_IMPL) };
-	pub static mut LBA_CARDPAK1_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_CARDPAK1_BIN_IMPL) };
-	pub static mut LBA_CARDPAK2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_CARDPAK2_BIN_IMPL) };
-	pub static mut LBA_CARDPAK3_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_CARDPAK3_BIN_IMPL) };
-	pub static mut LBA_CARDPAK4_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_CARDPAK4_BIN_IMPL) };
-	pub static mut LBA_MEFT0089_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0089_BIN_IMPL) };
-	pub static mut LBA_MEFT0101_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0101_BIN_IMPL) };
-	pub static mut LBA_MEFT0102_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0102_BIN_IMPL) };
-	pub static mut LBA_MEFT0103_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0103_BIN_IMPL) };
-	pub static mut LBA_MEFT0106_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0106_BIN_IMPL) };
-	pub static mut LBA_MEFT0107_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0107_BIN_IMPL) };
-	pub static mut LBA_E381IPDP_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E381IPDP_BIN_IMPL) };
-	pub static mut LBA_E389KYKI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E389KYKI_BIN_IMPL) };
-	pub static mut LBA_E385KOGU_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E385KOGU_BIN_IMPL) };
-	pub static mut LBA_MEFT0097_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0097_BIN_IMPL) };
-	pub static mut LBA_E388GRIZ_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E388GRIZ_BIN_IMPL) };
-	pub static mut LBA_MEFT0098_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0098_BIN_IMPL) };
-	pub static mut LBA_MEFT0090_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0090_BIN_IMPL) };
-	pub static mut LBA_MEFT0091_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0091_BIN_IMPL) };
-	pub static mut LBA_MEFT0092_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0092_BIN_IMPL) };
-	pub static mut LBA_MEFT0099_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0099_BIN_IMPL) };
-	pub static mut LBA_MEFT0100_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0100_BIN_IMPL) };
-	pub static mut LBA_MEFT0113_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0113_BIN_IMPL) };
-	pub static mut LBA_MEFT0039_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0039_BIN_IMPL) };
-	pub static mut LBA_E014MONZ_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E014MONZ_BIN_IMPL) };
-	pub static mut LBA_E004BETA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E004BETA_BIN_IMPL) };
-	pub static mut LBA_E438RIDN_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E438RIDN_BIN_IMPL) };
-	pub static mut LBA_E110GECO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E110GECO_BIN_IMPL) };
-	pub static mut LBA_E193GRFO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E193GRFO_BIN_IMPL) };
-	pub static mut LBA_E302GAGO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E302GAGO_BIN_IMPL) };
-	pub static mut LBA_MEFT0066_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0066_BIN_IMPL) };
-	pub static mut LBA_P187STRI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P187STRI_BIN_IMPL) };
-	pub static mut LBA_MOVIEE04_STR: *const u8 = unsafe { ptr::addr_of!(LBA_MOVIEE04_STR_IMPL) };
-	pub static mut LBA_MOVIEE03_STR: *const u8 = unsafe { ptr::addr_of!(LBA_MOVIEE03_STR_IMPL) };
-	pub static mut LBA_E364MUMY_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E364MUMY_BIN_IMPL) };
-	pub static mut LBA_E229PUKU_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E229PUKU_BIN_IMPL) };
-	pub static mut LBA_E439FUJI_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E439FUJI_BIN_IMPL) };
-	pub static mut LBA_E365ARCH_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E365ARCH_BIN_IMPL) };
-	pub static mut LBA_E037BAKE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E037BAKE_BIN_IMPL) };
-	pub static mut LBA_E135DVDR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E135DVDR_BIN_IMPL) };
-	pub static mut LBA_MEFT0201_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0201_BIN_IMPL) };
-	pub static mut LBA_MEFT0202_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0202_BIN_IMPL) };
-	pub static mut LBA_MEFT0203_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0203_BIN_IMPL) };
-	pub static mut LBA_MEFT0204_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0204_BIN_IMPL) };
-	pub static mut LBA_MEFT0205_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0205_BIN_IMPL) };
-	pub static mut LBA_MEFT0206_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0206_BIN_IMPL) };
-	pub static mut LBA_MEFT0207_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0207_BIN_IMPL) };
-	pub static mut LBA_MEFT0208_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0208_BIN_IMPL) };
-	pub static mut LBA_MEFT0209_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0209_BIN_IMPL) };
-	pub static mut LBA_MEFT0210_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0210_BIN_IMPL) };
-	pub static mut LBA_MEFT0211_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0211_BIN_IMPL) };
-	pub static mut LBA_MEFT0212_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0212_BIN_IMPL) };
-	pub static mut LBA_MEFT0213_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0213_BIN_IMPL) };
-	pub static mut LBA_MEFT0214_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0214_BIN_IMPL) };
-	pub static mut LBA_MEFT0215_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0215_BIN_IMPL) };
-	pub static mut LBA_MEFT0216_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0216_BIN_IMPL) };
-	pub static mut LBA_MEFT0217_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0217_BIN_IMPL) };
-	pub static mut LBA_MEFT0218_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0218_BIN_IMPL) };
-	pub static mut LBA_MEFT0219_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0219_BIN_IMPL) };
-	pub static mut LBA_MEFT0220_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0220_BIN_IMPL) };
-	pub static mut LBA_MEFT0222_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0222_BIN_IMPL) };
-	pub static mut LBA_MEFT0223_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0223_BIN_IMPL) };
-	pub static mut LBA_MEFT0224_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0224_BIN_IMPL) };
-	pub static mut LBA_MEFT0225_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0225_BIN_IMPL) };
-	pub static mut LBA_MEFT0226_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0226_BIN_IMPL) };
-	pub static mut LBA_MPENV206_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPENV206_BIN_IMPL) };
-	pub static mut LBA_MVENV206_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVENV206_BIN_IMPL) };
-	pub static mut LBA_P188BLOK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P188BLOK_BIN_IMPL) };
-	pub static mut LBA_MEFT0085_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0085_BIN_IMPL) };
-	pub static mut LBA_MEFT0086_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0086_BIN_IMPL) };
-	pub static mut LBA_MEFT0301_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0301_BIN_IMPL) };
-	pub static mut LBA_E372SGRG_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E372SGRG_BIN_IMPL) };
-	pub static mut LBA_MEFT0302_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0302_BIN_IMPL) };
-	pub static mut LBA_MEFT0303_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0303_BIN_IMPL) };
-	pub static mut LBA_MEFT0306_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0306_BIN_IMPL) };
-	pub static mut LBA_MEFT0307_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0307_BIN_IMPL) };
-	pub static mut LBA_MEFT0308_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0308_BIN_IMPL) };
-	pub static mut LBA_MEFT0309_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0309_BIN_IMPL) };
-	pub static mut LBA_MEFT0375_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0375_BIN_IMPL) };
-	pub static mut LBA_MEFT0310_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0310_BIN_IMPL) };
-	pub static mut LBA_MEFT0311_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0311_BIN_IMPL) };
-	pub static mut LBA_MEFT0312_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0312_BIN_IMPL) };
-	pub static mut LBA_MEFT0313_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0313_BIN_IMPL) };
-	pub static mut LBA_MEFT0314_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0314_BIN_IMPL) };
-	pub static mut LBA_MEFT0315_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0315_BIN_IMPL) };
-	pub static mut LBA_MEFT0316_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0316_BIN_IMPL) };
-	pub static mut LBA_MEFT0317_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0317_BIN_IMPL) };
-	pub static mut LBA_MEFT0318_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0318_BIN_IMPL) };
-	pub static mut LBA_MEFT0319_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0319_BIN_IMPL) };
-	pub static mut LBA_MEFT0320_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0320_BIN_IMPL) };
-	pub static mut LBA_MEFT0321_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0321_BIN_IMPL) };
-	pub static mut LBA_MEFT0322_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0322_BIN_IMPL) };
-	pub static mut LBA_MEFT0323_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0323_BIN_IMPL) };
-	pub static mut LBA_MEFT0324_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0324_BIN_IMPL) };
-	pub static mut LBA_MEFT0325_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0325_BIN_IMPL) };
-	pub static mut LBA_MEFT0326_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0326_BIN_IMPL) };
-	pub static mut LBA_MEFT0327_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0327_BIN_IMPL) };
-	pub static mut LBA_MEFT0328_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0328_BIN_IMPL) };
-	pub static mut LBA_MEFT0329_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0329_BIN_IMPL) };
-	pub static mut LBA_MEFT0330_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0330_BIN_IMPL) };
-	pub static mut LBA_MEFT0331_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0331_BIN_IMPL) };
-	pub static mut LBA_MEFT0332_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0332_BIN_IMPL) };
-	pub static mut LBA_MEFT0333_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0333_BIN_IMPL) };
-	pub static mut LBA_MEFT0334_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0334_BIN_IMPL) };
-	pub static mut LBA_MEFT0335_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0335_BIN_IMPL) };
-	pub static mut LBA_MEFT0336_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0336_BIN_IMPL) };
-	pub static mut LBA_MEFT0337_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0337_BIN_IMPL) };
-	pub static mut LBA_MEFT0338_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0338_BIN_IMPL) };
-	pub static mut LBA_MEFT0339_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0339_BIN_IMPL) };
-	pub static mut LBA_MEFT0340_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0340_BIN_IMPL) };
-	pub static mut LBA_MEFT0341_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0341_BIN_IMPL) };
-	pub static mut LBA_MEFT0342_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0342_BIN_IMPL) };
-	pub static mut LBA_MEFT0343_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0343_BIN_IMPL) };
-	pub static mut LBA_MEFT0344_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0344_BIN_IMPL) };
-	pub static mut LBA_MEFT0345_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0345_BIN_IMPL) };
-	pub static mut LBA_MEFT0346_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0346_BIN_IMPL) };
-	pub static mut LBA_MEFT0347_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0347_BIN_IMPL) };
-	pub static mut LBA_MEFT0348_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0348_BIN_IMPL) };
-	pub static mut LBA_MEFT0349_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0349_BIN_IMPL) };
-	pub static mut LBA_MEFT0350_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0350_BIN_IMPL) };
-	pub static mut LBA_MEFT0351_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0351_BIN_IMPL) };
-	pub static mut LBA_MEFT0352_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0352_BIN_IMPL) };
-	pub static mut LBA_MEFT0353_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0353_BIN_IMPL) };
-	pub static mut LBA_MEFT0354_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0354_BIN_IMPL) };
-	pub static mut LBA_MEFT0355_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0355_BIN_IMPL) };
-	pub static mut LBA_MEFT0356_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0356_BIN_IMPL) };
-	pub static mut LBA_MEFT0357_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0357_BIN_IMPL) };
-	pub static mut LBA_MEFT0358_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0358_BIN_IMPL) };
-	pub static mut LBA_MEFT0359_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0359_BIN_IMPL) };
-	pub static mut LBA_MEFT0360_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0360_BIN_IMPL) };
-	pub static mut LBA_MEFT0361_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0361_BIN_IMPL) };
-	pub static mut LBA_MEFT0362_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0362_BIN_IMPL) };
-	pub static mut LBA_MEFT0363_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0363_BIN_IMPL) };
-	pub static mut LBA_MEFT0364_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0364_BIN_IMPL) };
-	pub static mut LBA_MEFT0365_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0365_BIN_IMPL) };
-	pub static mut LBA_MEFT0366_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0366_BIN_IMPL) };
-	pub static mut LBA_MEFT0367_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0367_BIN_IMPL) };
-	pub static mut LBA_MEFT0368_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0368_BIN_IMPL) };
-	pub static mut LBA_MEFT0369_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0369_BIN_IMPL) };
-	pub static mut LBA_MEFT0370_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0370_BIN_IMPL) };
-	pub static mut LBA_MEFT0371_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0371_BIN_IMPL) };
-	pub static mut LBA_MEFT0372_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0372_BIN_IMPL) };
-	pub static mut LBA_MEFT0374_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0374_BIN_IMPL) };
-	pub static mut LBA_MEFT0114_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0114_BIN_IMPL) };
-	pub static mut LBA_TLOGOJPN_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_TLOGOJPN_BIN_IMPL) };
-	pub static mut LBA_TTCOMMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_TTCOMMPK_BIN_IMPL) };
-	pub static mut LBA_E433ANO2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E433ANO2_BIN_IMPL) };
-	pub static mut LBA_E430DOR2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E430DOR2_BIN_IMPL) };
-	pub static mut LBA_E431VIK2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E431VIK2_BIN_IMPL) };
-	pub static mut LBA_E434ANT2_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E434ANT2_BIN_IMPL) };
-	pub static mut LBA_SSUBDEMO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SSUBDEMO_BIN_IMPL) };
-	pub static mut LBA_SDIGDEMO_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_SDIGDEMO_BIN_IMPL) };
-	pub static mut LBA_MEFT0115_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0115_BIN_IMPL) };
-	pub static mut LBA_MEFT0116_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0116_BIN_IMPL) };
-	pub static mut LBA_E390ASLT_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E390ASLT_BIN_IMPL) };
-	pub static mut LBA_P189PKEL_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P189PKEL_BIN_IMPL) };
-	pub static mut LBA_P190KOGL_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P190KOGL_BIN_IMPL) };
-	pub static mut LBA_P191KOEL_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P191KOEL_BIN_IMPL) };
-	pub static mut LBA_P192AGUL_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P192AGUL_BIN_IMPL) };
-	pub static mut LBA_P194GIRL_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P194GIRL_BIN_IMPL) };
-	pub static mut LBA_P195RENL_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P195RENL_BIN_IMPL) };
-	pub static mut LBA_P196PATL_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P196PATL_BIN_IMPL) };
-	pub static mut LBA_S815BG02_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S815BG02_BIN_IMPL) };
-	pub static mut LBA_P193VMOL_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P193VMOL_BIN_IMPL) };
-	pub static mut LBA_MPTTLBGM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MPTTLBGM_BIN_IMPL) };
-	pub static mut LBA_MVTTLBGM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MVTTLBGM_BIN_IMPL) };
-	pub static mut LBA_P197BLXE_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P197BLXE_BIN_IMPL) };
-	pub static mut LBA_E245INFR_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E245INFR_BIN_IMPL) };
-	pub static mut LBA_MEFT0377_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0377_BIN_IMPL) };
-	pub static mut LBA_MEFT0378_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0378_BIN_IMPL) };
-	pub static mut LBA_P198ADME_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_P198ADME_BIN_IMPL) };
-	pub static mut LBA_MEFT0376_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_MEFT0376_BIN_IMPL) };
-	pub static mut LBA_E000EVOL_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_E000EVOL_BIN_IMPL) };
-	pub static mut LBA_CNTSELWN_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_CNTSELWN_BIN_IMPL) };
-	pub static mut LBA_TLOGOUSA_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_TLOGOUSA_BIN_IMPL) };
-	pub static mut LBA_MOVIEE02_STR: *const u8 = unsafe { ptr::addr_of!(LBA_MOVIEE02_STR_IMPL) };
-	pub static mut LBA_END__ALL_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_END__ALL_BIN_IMPL) };
-	pub static mut LBA_CMNBGDTM_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_CMNBGDTM_BIN_IMPL) };
-	pub static mut LBA_S920MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S920MASK_BIN_IMPL) };
-	pub static mut LBA_WSTAG921_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG921_PRO_IMPL) };
-	pub static mut LBA_S920TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S920TMPK_BIN_IMPL) };
-	pub static mut LBA_WSTAG922_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG922_PRO_IMPL) };
-	pub static mut LBA_WSTAG923_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG923_PRO_IMPL) };
-	pub static mut LBA_WSTAG924_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG924_PRO_IMPL) };
-	pub static mut LBA_WSTAG925_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG925_PRO_IMPL) };
-	pub static mut LBA_WSTAG926_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG926_PRO_IMPL) };
-	pub static mut LBA_WSTAG927_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG927_PRO_IMPL) };
-	pub static mut LBA_WSTAG928_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG928_PRO_IMPL) };
-	pub static mut LBA_WSTAG929_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG929_PRO_IMPL) };
-	pub static mut LBA_WSTAG930_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG930_PRO_IMPL) };
-	pub static mut LBA_WSTAG931_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG931_PRO_IMPL) };
-	pub static mut LBA_WSTAG932_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG932_PRO_IMPL) };
-	pub static mut LBA_WSTAG933_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG933_PRO_IMPL) };
-	pub static mut LBA_WSTAG934_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG934_PRO_IMPL) };
-	pub static mut LBA_WSTAG935_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG935_PRO_IMPL) };
-	pub static mut LBA_WSTAG936_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG936_PRO_IMPL) };
-	pub static mut LBA_WSTAG937_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG937_PRO_IMPL) };
-	pub static mut LBA_WSTAG938_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG938_PRO_IMPL) };
-	pub static mut LBA_WSTAG939_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG939_PRO_IMPL) };
-	pub static mut LBA_WSTAG940_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG940_PRO_IMPL) };
-	pub static mut LBA_WSTAG941_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG941_PRO_IMPL) };
-	pub static mut LBA_WSTAG942_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG942_PRO_IMPL) };
-	pub static mut LBA_WSTAG943_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG943_PRO_IMPL) };
-	pub static mut LBA_WSTAG944_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG944_PRO_IMPL) };
-	pub static mut LBA_WSTAG945_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG945_PRO_IMPL) };
-	pub static mut LBA_WSTAG946_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG946_PRO_IMPL) };
-	pub static mut LBA_WSTAG947_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG947_PRO_IMPL) };
-	pub static mut LBA_WSTAG948_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG948_PRO_IMPL) };
-	pub static mut LBA_WSTAG949_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG949_PRO_IMPL) };
-	pub static mut LBA_WSTAG950_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG950_PRO_IMPL) };
-	pub static mut LBA_WSTAG951_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG951_PRO_IMPL) };
-	pub static mut LBA_WSTAG952_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG952_PRO_IMPL) };
-	pub static mut LBA_WSTAG953_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG953_PRO_IMPL) };
-	pub static mut LBA_WSTAG954_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG954_PRO_IMPL) };
-	pub static mut LBA_WSTAG955_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG955_PRO_IMPL) };
-	pub static mut LBA_WSTAG956_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG956_PRO_IMPL) };
-	pub static mut LBA_WSTAG957_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG957_PRO_IMPL) };
-	pub static mut LBA_WSTAG958_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG958_PRO_IMPL) };
-	pub static mut LBA_WSTAG959_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG959_PRO_IMPL) };
-	pub static mut LBA_WSTAG960_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG960_PRO_IMPL) };
-	pub static mut LBA_WSTAG961_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG961_PRO_IMPL) };
-	pub static mut LBA_WSTAG962_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG962_PRO_IMPL) };
-	pub static mut LBA_WSTAG963_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG963_PRO_IMPL) };
-	pub static mut LBA_WSTAG964_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG964_PRO_IMPL) };
-	pub static mut LBA_WSTAG965_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG965_PRO_IMPL) };
-	pub static mut LBA_WSTAG966_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG966_PRO_IMPL) };
-	pub static mut LBA_WSTAG967_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG967_PRO_IMPL) };
-	pub static mut LBA_WSTAG968_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG968_PRO_IMPL) };
-	pub static mut LBA_WSTAG969_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG969_PRO_IMPL) };
-	pub static mut LBA_WSTAG970_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG970_PRO_IMPL) };
-	pub static mut LBA_WSTAG971_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG971_PRO_IMPL) };
-	pub static mut LBA_WSTAG972_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG972_PRO_IMPL) };
-	pub static mut LBA_WSTAG973_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG973_PRO_IMPL) };
-	pub static mut LBA_WSTAG974_PRO: *const u8 = unsafe { ptr::addr_of!(LBA_WSTAG974_PRO_IMPL) };
-	pub static mut LBA_S923MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S923MASK_BIN_IMPL) };
-	pub static mut LBA_S921MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S921MASK_BIN_IMPL) };
-	pub static mut LBA_S923TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S923TMPK_BIN_IMPL) };
-	pub static mut LBA_S921TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S921TMPK_BIN_IMPL) };
-	pub static mut LBA_S922MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S922MASK_BIN_IMPL) };
-	pub static mut LBA_S924MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S924MASK_BIN_IMPL) };
-	pub static mut LBA_S922TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S922TMPK_BIN_IMPL) };
-	pub static mut LBA_S924TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S924TMPK_BIN_IMPL) };
-	pub static mut LBA_S925MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S925MASK_BIN_IMPL) };
-	pub static mut LBA_S925TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S925TMPK_BIN_IMPL) };
-	pub static mut LBA_S926MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S926MASK_BIN_IMPL) };
-	pub static mut LBA_S926TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S926TMPK_BIN_IMPL) };
-	pub static mut LBA_S927MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S927MASK_BIN_IMPL) };
-	pub static mut LBA_S927TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S927TMPK_BIN_IMPL) };
-	pub static mut LBA_S928MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S928MASK_BIN_IMPL) };
-	pub static mut LBA_S928TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S928TMPK_BIN_IMPL) };
-	pub static mut LBA_S929MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S929MASK_BIN_IMPL) };
-	pub static mut LBA_S929TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S929TMPK_BIN_IMPL) };
-	pub static mut LBA_S930MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S930MASK_BIN_IMPL) };
-	pub static mut LBA_S930TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S930TMPK_BIN_IMPL) };
-	pub static mut LBA_S931MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S931MASK_BIN_IMPL) };
-	pub static mut LBA_S931TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S931TMPK_BIN_IMPL) };
-	pub static mut LBA_S932MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S932MASK_BIN_IMPL) };
-	pub static mut LBA_S932TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S932TMPK_BIN_IMPL) };
-	pub static mut LBA_S933MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S933MASK_BIN_IMPL) };
-	pub static mut LBA_S933TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S933TMPK_BIN_IMPL) };
-	pub static mut LBA_S934MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S934MASK_BIN_IMPL) };
-	pub static mut LBA_S934TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S934TMPK_BIN_IMPL) };
-	pub static mut LBA_S935MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S935MASK_BIN_IMPL) };
-	pub static mut LBA_S935TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S935TMPK_BIN_IMPL) };
-	pub static mut LBA_S936MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S936MASK_BIN_IMPL) };
-	pub static mut LBA_S936TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S936TMPK_BIN_IMPL) };
-	pub static mut LBA_S937MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S937MASK_BIN_IMPL) };
-	pub static mut LBA_S937TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S937TMPK_BIN_IMPL) };
-	pub static mut LBA_S938MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S938MASK_BIN_IMPL) };
-	pub static mut LBA_S938TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S938TMPK_BIN_IMPL) };
-	pub static mut LBA_S939MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S939MASK_BIN_IMPL) };
-	pub static mut LBA_S939TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S939TMPK_BIN_IMPL) };
-	pub static mut LBA_S940MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S940MASK_BIN_IMPL) };
-	pub static mut LBA_S940TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S940TMPK_BIN_IMPL) };
-	pub static mut LBA_S941MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S941MASK_BIN_IMPL) };
-	pub static mut LBA_S941TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S941TMPK_BIN_IMPL) };
-	pub static mut LBA_S942MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S942MASK_BIN_IMPL) };
-	pub static mut LBA_S942TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S942TMPK_BIN_IMPL) };
-	pub static mut LBA_S943MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S943MASK_BIN_IMPL) };
-	pub static mut LBA_S943TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S943TMPK_BIN_IMPL) };
-	pub static mut LBA_S944MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S944MASK_BIN_IMPL) };
-	pub static mut LBA_S944TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S944TMPK_BIN_IMPL) };
-	pub static mut LBA_S945MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S945MASK_BIN_IMPL) };
-	pub static mut LBA_S945TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S945TMPK_BIN_IMPL) };
-	pub static mut LBA_S946MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S946MASK_BIN_IMPL) };
-	pub static mut LBA_S946TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S946TMPK_BIN_IMPL) };
-	pub static mut LBA_S947TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S947TMPK_BIN_IMPL) };
-	pub static mut LBA_S947MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S947MASK_BIN_IMPL) };
-	pub static mut LBA_S948MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S948MASK_BIN_IMPL) };
-	pub static mut LBA_S948TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S948TMPK_BIN_IMPL) };
-	pub static mut LBA_S949MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S949MASK_BIN_IMPL) };
-	pub static mut LBA_S949TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S949TMPK_BIN_IMPL) };
-	pub static mut LBA_S950MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S950MASK_BIN_IMPL) };
-	pub static mut LBA_S950TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S950TMPK_BIN_IMPL) };
-	pub static mut LBA_S951MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S951MASK_BIN_IMPL) };
-	pub static mut LBA_S951TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S951TMPK_BIN_IMPL) };
-	pub static mut LBA_S952MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S952MASK_BIN_IMPL) };
-	pub static mut LBA_S952TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S952TMPK_BIN_IMPL) };
-	pub static mut LBA_S953MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S953MASK_BIN_IMPL) };
-	pub static mut LBA_S953TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S953TMPK_BIN_IMPL) };
-	pub static mut LBA_S954MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S954MASK_BIN_IMPL) };
-	pub static mut LBA_S954TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S954TMPK_BIN_IMPL) };
-	pub static mut LBA_S955MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S955MASK_BIN_IMPL) };
-	pub static mut LBA_S955TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S955TMPK_BIN_IMPL) };
-	pub static mut LBA_S956MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S956MASK_BIN_IMPL) };
-	pub static mut LBA_S956TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S956TMPK_BIN_IMPL) };
-	pub static mut LBA_S957MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S957MASK_BIN_IMPL) };
-	pub static mut LBA_S957TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S957TMPK_BIN_IMPL) };
-	pub static mut LBA_S958MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S958MASK_BIN_IMPL) };
-	pub static mut LBA_S958TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S958TMPK_BIN_IMPL) };
-	pub static mut LBA_S959MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S959MASK_BIN_IMPL) };
-	pub static mut LBA_S959TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S959TMPK_BIN_IMPL) };
-	pub static mut LBA_S960MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S960MASK_BIN_IMPL) };
-	pub static mut LBA_S960TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S960TMPK_BIN_IMPL) };
-	pub static mut LBA_S961MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S961MASK_BIN_IMPL) };
-	pub static mut LBA_S961TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S961TMPK_BIN_IMPL) };
-	pub static mut LBA_S962MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S962MASK_BIN_IMPL) };
-	pub static mut LBA_S962TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S962TMPK_BIN_IMPL) };
-	pub static mut LBA_S963MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S963MASK_BIN_IMPL) };
-	pub static mut LBA_S963TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S963TMPK_BIN_IMPL) };
-	pub static mut LBA_S964MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S964MASK_BIN_IMPL) };
-	pub static mut LBA_S964TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S964TMPK_BIN_IMPL) };
-	pub static mut LBA_S965MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S965MASK_BIN_IMPL) };
-	pub static mut LBA_S965TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S965TMPK_BIN_IMPL) };
-	pub static mut LBA_S966MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S966MASK_BIN_IMPL) };
-	pub static mut LBA_S966TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S966TMPK_BIN_IMPL) };
-	pub static mut LBA_S967MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S967MASK_BIN_IMPL) };
-	pub static mut LBA_S967TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S967TMPK_BIN_IMPL) };
-	pub static mut LBA_S968MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S968MASK_BIN_IMPL) };
-	pub static mut LBA_S968TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S968TMPK_BIN_IMPL) };
-	pub static mut LBA_S969MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S969MASK_BIN_IMPL) };
-	pub static mut LBA_S969TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S969TMPK_BIN_IMPL) };
-	pub static mut LBA_S970MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S970MASK_BIN_IMPL) };
-	pub static mut LBA_S970TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S970TMPK_BIN_IMPL) };
-	pub static mut LBA_S971MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S971MASK_BIN_IMPL) };
-	pub static mut LBA_S971TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S971TMPK_BIN_IMPL) };
-	pub static mut LBA_S972MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S972MASK_BIN_IMPL) };
-	pub static mut LBA_S972TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S972TMPK_BIN_IMPL) };
-	pub static mut LBA_S973MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S973MASK_BIN_IMPL) };
-	pub static mut LBA_S973TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S973TMPK_BIN_IMPL) };
-	pub static mut LBA_S974MASK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S974MASK_BIN_IMPL) };
-	pub static mut LBA_S974TMPK_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_S974TMPK_BIN_IMPL) };
-	pub static mut LBA_MOVIEOP2_STR: *const u8 = unsafe { ptr::addr_of!(LBA_MOVIEOP2_STR_IMPL) };
-	pub static mut LBA_TLOGOPAL_BIN: *const u8 = unsafe { ptr::addr_of!(LBA_TLOGOPAL_BIN_IMPL) };
+	pub static mut LBA_LIST: [*const u8; 2382] = unsafe { [
+		ptr::addr_of!(LBA_NONE_____BIN_IMPL),
+		ptr::addr_of!(LBA_MSAMTMAP_BIN_IMPL),
+		ptr::addr_of!(LBA_USAMTMAP_BIN_IMPL),
+		ptr::addr_of!(LBA_ESAMTMAP_BIN_IMPL),
+		ptr::addr_of!(LBA_FSAMTMAP_BIN_IMPL),
+		ptr::addr_of!(LBA_ISAMTMAP_BIN_IMPL),
+		ptr::addr_of!(LBA_DSAMTMAP_BIN_IMPL),
+		ptr::addr_of!(LBA_SSAMTMAP_BIN_IMPL),
+		ptr::addr_of!(LBA_MSASKMAP_BIN_IMPL),
+		ptr::addr_of!(LBA_USASKMAP_BIN_IMPL),
+		ptr::addr_of!(LBA_ESASKMAP_BIN_IMPL),
+		ptr::addr_of!(LBA_FSASKMAP_BIN_IMPL),
+		ptr::addr_of!(LBA_ISASKMAP_BIN_IMPL),
+		ptr::addr_of!(LBA_DSASKMAP_BIN_IMPL),
+		ptr::addr_of!(LBA_SSASKMAP_BIN_IMPL),
+		ptr::addr_of!(LBA_MSCARDGM_BIN_IMPL),
+		ptr::addr_of!(LBA_USCARDGM_BIN_IMPL),
+		ptr::addr_of!(LBA_ESCARDGM_BIN_IMPL),
+		ptr::addr_of!(LBA_FSCARDGM_BIN_IMPL),
+		ptr::addr_of!(LBA_ISCARDGM_BIN_IMPL),
+		ptr::addr_of!(LBA_DSCARDGM_BIN_IMPL),
+		ptr::addr_of!(LBA_SSCARDGM_BIN_IMPL),
+		ptr::addr_of!(LBA_MSCARDNM_BIN_IMPL),
+		ptr::addr_of!(LBA_USCARDNM_BIN_IMPL),
+		ptr::addr_of!(LBA_ESCARDNM_BIN_IMPL),
+		ptr::addr_of!(LBA_FSCARDNM_BIN_IMPL),
+		ptr::addr_of!(LBA_ISCARDNM_BIN_IMPL),
+		ptr::addr_of!(LBA_DSCARDNM_BIN_IMPL),
+		ptr::addr_of!(LBA_SSCARDNM_BIN_IMPL),
+		ptr::addr_of!(LBA_MSCARDST_BIN_IMPL),
+		ptr::addr_of!(LBA_USCARDST_BIN_IMPL),
+		ptr::addr_of!(LBA_ESCARDST_BIN_IMPL),
+		ptr::addr_of!(LBA_FSCARDST_BIN_IMPL),
+		ptr::addr_of!(LBA_ISCARDST_BIN_IMPL),
+		ptr::addr_of!(LBA_DSCARDST_BIN_IMPL),
+		ptr::addr_of!(LBA_SSCARDST_BIN_IMPL),
+		ptr::addr_of!(LBA_MSCRDABM_BIN_IMPL),
+		ptr::addr_of!(LBA_USCRDABM_BIN_IMPL),
+		ptr::addr_of!(LBA_ESCRDABM_BIN_IMPL),
+		ptr::addr_of!(LBA_FSCRDABM_BIN_IMPL),
+		ptr::addr_of!(LBA_ISCRDABM_BIN_IMPL),
+		ptr::addr_of!(LBA_DSCRDABM_BIN_IMPL),
+		ptr::addr_of!(LBA_SSCRDABM_BIN_IMPL),
+		ptr::addr_of!(LBA_MSCRDDEK_BIN_IMPL),
+		ptr::addr_of!(LBA_USCRDDEK_BIN_IMPL),
+		ptr::addr_of!(LBA_ESCRDDEK_BIN_IMPL),
+		ptr::addr_of!(LBA_FSCRDDEK_BIN_IMPL),
+		ptr::addr_of!(LBA_ISCRDDEK_BIN_IMPL),
+		ptr::addr_of!(LBA_DSCRDDEK_BIN_IMPL),
+		ptr::addr_of!(LBA_SSCRDDEK_BIN_IMPL),
+		ptr::addr_of!(LBA_MSCRDSHP_BIN_IMPL),
+		ptr::addr_of!(LBA_USCRDSHP_BIN_IMPL),
+		ptr::addr_of!(LBA_ESCRDSHP_BIN_IMPL),
+		ptr::addr_of!(LBA_FSCRDSHP_BIN_IMPL),
+		ptr::addr_of!(LBA_ISCRDSHP_BIN_IMPL),
+		ptr::addr_of!(LBA_DSCRDSHP_BIN_IMPL),
+		ptr::addr_of!(LBA_SSCRDSHP_BIN_IMPL),
+		ptr::addr_of!(LBA_MSDGLABO_BIN_IMPL),
+		ptr::addr_of!(LBA_USDGLABO_BIN_IMPL),
+		ptr::addr_of!(LBA_ESDGLABO_BIN_IMPL),
+		ptr::addr_of!(LBA_FSDGLABO_BIN_IMPL),
+		ptr::addr_of!(LBA_ISDGLABO_BIN_IMPL),
+		ptr::addr_of!(LBA_DSDGLABO_BIN_IMPL),
+		ptr::addr_of!(LBA_SSDGLABO_BIN_IMPL),
+		ptr::addr_of!(LBA_MSDGNMET_BIN_IMPL),
+		ptr::addr_of!(LBA_USDGNMET_BIN_IMPL),
+		ptr::addr_of!(LBA_ESDGNMET_BIN_IMPL),
+		ptr::addr_of!(LBA_FSDGNMET_BIN_IMPL),
+		ptr::addr_of!(LBA_ISDGNMET_BIN_IMPL),
+		ptr::addr_of!(LBA_DSDGNMET_BIN_IMPL),
+		ptr::addr_of!(LBA_SSDGNMET_BIN_IMPL),
+		ptr::addr_of!(LBA_MSDIGINF_BIN_IMPL),
+		ptr::addr_of!(LBA_USDIGINF_BIN_IMPL),
+		ptr::addr_of!(LBA_ESDIGINF_BIN_IMPL),
+		ptr::addr_of!(LBA_FSDIGINF_BIN_IMPL),
+		ptr::addr_of!(LBA_ISDIGINF_BIN_IMPL),
+		ptr::addr_of!(LBA_DSDIGINF_BIN_IMPL),
+		ptr::addr_of!(LBA_SSDIGINF_BIN_IMPL),
+		ptr::addr_of!(LBA_MSDIGNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_USDIGNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_ESDIGNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_FSDIGNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_ISDIGNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_DSDIGNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_SSDIGNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_MSFGTRPT_BIN_IMPL),
+		ptr::addr_of!(LBA_USFGTRPT_BIN_IMPL),
+		ptr::addr_of!(LBA_ESFGTRPT_BIN_IMPL),
+		ptr::addr_of!(LBA_FSFGTRPT_BIN_IMPL),
+		ptr::addr_of!(LBA_ISFGTRPT_BIN_IMPL),
+		ptr::addr_of!(LBA_DSFGTRPT_BIN_IMPL),
+		ptr::addr_of!(LBA_SSFGTRPT_BIN_IMPL),
+		ptr::addr_of!(LBA_MSHTLNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_USHTLNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_ESHTLNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_FSHTLNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_ISHTLNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_DSHTLNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_SSHTLNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_MSITMINF_BIN_IMPL),
+		ptr::addr_of!(LBA_USITMINF_BIN_IMPL),
+		ptr::addr_of!(LBA_ESITMINF_BIN_IMPL),
+		ptr::addr_of!(LBA_FSITMINF_BIN_IMPL),
+		ptr::addr_of!(LBA_ISITMINF_BIN_IMPL),
+		ptr::addr_of!(LBA_DSITMINF_BIN_IMPL),
+		ptr::addr_of!(LBA_SSITMINF_BIN_IMPL),
+		ptr::addr_of!(LBA_MSITMNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_USITMNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_ESITMNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_FSITMNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_ISITMNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_DSITMNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_SSITMNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_MSITSHOP_BIN_IMPL),
+		ptr::addr_of!(LBA_USITSHOP_BIN_IMPL),
+		ptr::addr_of!(LBA_ESITSHOP_BIN_IMPL),
+		ptr::addr_of!(LBA_FSITSHOP_BIN_IMPL),
+		ptr::addr_of!(LBA_ISITSHOP_BIN_IMPL),
+		ptr::addr_of!(LBA_DSITSHOP_BIN_IMPL),
+		ptr::addr_of!(LBA_SSITSHOP_BIN_IMPL),
+		ptr::addr_of!(LBA_MSMEMCRD_BIN_IMPL),
+		ptr::addr_of!(LBA_USMEMCRD_BIN_IMPL),
+		ptr::addr_of!(LBA_ESMEMCRD_BIN_IMPL),
+		ptr::addr_of!(LBA_FSMEMCRD_BIN_IMPL),
+		ptr::addr_of!(LBA_ISMEMCRD_BIN_IMPL),
+		ptr::addr_of!(LBA_DSMEMCRD_BIN_IMPL),
+		ptr::addr_of!(LBA_SSMEMCRD_BIN_IMPL),
+		ptr::addr_of!(LBA_MSMFIGHT_BIN_IMPL),
+		ptr::addr_of!(LBA_USMFIGHT_BIN_IMPL),
+		ptr::addr_of!(LBA_ESMFIGHT_BIN_IMPL),
+		ptr::addr_of!(LBA_FSMFIGHT_BIN_IMPL),
+		ptr::addr_of!(LBA_ISMFIGHT_BIN_IMPL),
+		ptr::addr_of!(LBA_DSMFIGHT_BIN_IMPL),
+		ptr::addr_of!(LBA_SSMFIGHT_BIN_IMPL),
+		ptr::addr_of!(LBA_MSNAMEDT_BIN_IMPL),
+		ptr::addr_of!(LBA_USNAMEDT_BIN_IMPL),
+		ptr::addr_of!(LBA_ESNAMEDT_BIN_IMPL),
+		ptr::addr_of!(LBA_FSNAMEDT_BIN_IMPL),
+		ptr::addr_of!(LBA_ISNAMEDT_BIN_IMPL),
+		ptr::addr_of!(LBA_DSNAMEDT_BIN_IMPL),
+		ptr::addr_of!(LBA_SSNAMEDT_BIN_IMPL),
+		ptr::addr_of!(LBA_MSNAMEET_BIN_IMPL),
+		ptr::addr_of!(LBA_USNAMEET_BIN_IMPL),
+		ptr::addr_of!(LBA_ESNAMEET_BIN_IMPL),
+		ptr::addr_of!(LBA_FSNAMEET_BIN_IMPL),
+		ptr::addr_of!(LBA_ISNAMEET_BIN_IMPL),
+		ptr::addr_of!(LBA_DSNAMEET_BIN_IMPL),
+		ptr::addr_of!(LBA_SSNAMEET_BIN_IMPL),
+		ptr::addr_of!(LBA_MSSHPNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_USSHPNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_ESSHPNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_FSSHPNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_ISSHPNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_DSSHPNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_SSSHPNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_MSSKLINF_BIN_IMPL),
+		ptr::addr_of!(LBA_USSKLINF_BIN_IMPL),
+		ptr::addr_of!(LBA_ESSKLINF_BIN_IMPL),
+		ptr::addr_of!(LBA_FSSKLINF_BIN_IMPL),
+		ptr::addr_of!(LBA_ISSKLINF_BIN_IMPL),
+		ptr::addr_of!(LBA_DSSKLINF_BIN_IMPL),
+		ptr::addr_of!(LBA_SSSKLINF_BIN_IMPL),
+		ptr::addr_of!(LBA_MSSKLNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_USSKLNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_ESSKLNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_FSSKLNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_ISSKLNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_DSSKLNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_SSSKLNAM_BIN_IMPL),
+		ptr::addr_of!(LBA_MSSTAREA_BIN_IMPL),
+		ptr::addr_of!(LBA_USSTAREA_BIN_IMPL),
+		ptr::addr_of!(LBA_ESSTAREA_BIN_IMPL),
+		ptr::addr_of!(LBA_FSSTAREA_BIN_IMPL),
+		ptr::addr_of!(LBA_ISSTAREA_BIN_IMPL),
+		ptr::addr_of!(LBA_DSSTAREA_BIN_IMPL),
+		ptr::addr_of!(LBA_SSSTAREA_BIN_IMPL),
+		ptr::addr_of!(LBA_MSSTATUS_BIN_IMPL),
+		ptr::addr_of!(LBA_USSTATUS_BIN_IMPL),
+		ptr::addr_of!(LBA_ESSTATUS_BIN_IMPL),
+		ptr::addr_of!(LBA_FSSTATUS_BIN_IMPL),
+		ptr::addr_of!(LBA_ISSTATUS_BIN_IMPL),
+		ptr::addr_of!(LBA_DSSTATUS_BIN_IMPL),
+		ptr::addr_of!(LBA_SSSTATUS_BIN_IMPL),
+		ptr::addr_of!(LBA_MSSTNAME_BIN_IMPL),
+		ptr::addr_of!(LBA_USSTNAME_BIN_IMPL),
+		ptr::addr_of!(LBA_ESSTNAME_BIN_IMPL),
+		ptr::addr_of!(LBA_FSSTNAME_BIN_IMPL),
+		ptr::addr_of!(LBA_ISSTNAME_BIN_IMPL),
+		ptr::addr_of!(LBA_DSSTNAME_BIN_IMPL),
+		ptr::addr_of!(LBA_SSSTNAME_BIN_IMPL),
+		ptr::addr_of!(LBA_MSSYSTEM_BIN_IMPL),
+		ptr::addr_of!(LBA_USSYSTEM_BIN_IMPL),
+		ptr::addr_of!(LBA_ESSYSTEM_BIN_IMPL),
+		ptr::addr_of!(LBA_FSSYSTEM_BIN_IMPL),
+		ptr::addr_of!(LBA_ISSYSTEM_BIN_IMPL),
+		ptr::addr_of!(LBA_DSSYSTEM_BIN_IMPL),
+		ptr::addr_of!(LBA_SSSYSTEM_BIN_IMPL),
+		ptr::addr_of!(LBA_MSTALK00_BIN_IMPL),
+		ptr::addr_of!(LBA_USTALK00_BIN_IMPL),
+		ptr::addr_of!(LBA_ESTALK00_BIN_IMPL),
+		ptr::addr_of!(LBA_FSTALK00_BIN_IMPL),
+		ptr::addr_of!(LBA_ISTALK00_BIN_IMPL),
+		ptr::addr_of!(LBA_DSTALK00_BIN_IMPL),
+		ptr::addr_of!(LBA_SSTALK00_BIN_IMPL),
+		ptr::addr_of!(LBA_MSTALK01_BIN_IMPL),
+		ptr::addr_of!(LBA_USTALK01_BIN_IMPL),
+		ptr::addr_of!(LBA_ESTALK01_BIN_IMPL),
+		ptr::addr_of!(LBA_FSTALK01_BIN_IMPL),
+		ptr::addr_of!(LBA_ISTALK01_BIN_IMPL),
+		ptr::addr_of!(LBA_DSTALK01_BIN_IMPL),
+		ptr::addr_of!(LBA_SSTALK01_BIN_IMPL),
+		ptr::addr_of!(LBA_MSTALK02_BIN_IMPL),
+		ptr::addr_of!(LBA_USTALK02_BIN_IMPL),
+		ptr::addr_of!(LBA_ESTALK02_BIN_IMPL),
+		ptr::addr_of!(LBA_FSTALK02_BIN_IMPL),
+		ptr::addr_of!(LBA_ISTALK02_BIN_IMPL),
+		ptr::addr_of!(LBA_DSTALK02_BIN_IMPL),
+		ptr::addr_of!(LBA_SSTALK02_BIN_IMPL),
+		ptr::addr_of!(LBA_MSTALK03_BIN_IMPL),
+		ptr::addr_of!(LBA_USTALK03_BIN_IMPL),
+		ptr::addr_of!(LBA_ESTALK03_BIN_IMPL),
+		ptr::addr_of!(LBA_FSTALK03_BIN_IMPL),
+		ptr::addr_of!(LBA_ISTALK03_BIN_IMPL),
+		ptr::addr_of!(LBA_DSTALK03_BIN_IMPL),
+		ptr::addr_of!(LBA_SSTALK03_BIN_IMPL),
+		ptr::addr_of!(LBA_MSTALK04_BIN_IMPL),
+		ptr::addr_of!(LBA_USTALK04_BIN_IMPL),
+		ptr::addr_of!(LBA_ESTALK04_BIN_IMPL),
+		ptr::addr_of!(LBA_FSTALK04_BIN_IMPL),
+		ptr::addr_of!(LBA_ISTALK04_BIN_IMPL),
+		ptr::addr_of!(LBA_DSTALK04_BIN_IMPL),
+		ptr::addr_of!(LBA_SSTALK04_BIN_IMPL),
+		ptr::addr_of!(LBA_MSTALK05_BIN_IMPL),
+		ptr::addr_of!(LBA_USTALK05_BIN_IMPL),
+		ptr::addr_of!(LBA_ESTALK05_BIN_IMPL),
+		ptr::addr_of!(LBA_FSTALK05_BIN_IMPL),
+		ptr::addr_of!(LBA_ISTALK05_BIN_IMPL),
+		ptr::addr_of!(LBA_DSTALK05_BIN_IMPL),
+		ptr::addr_of!(LBA_SSTALK05_BIN_IMPL),
+		ptr::addr_of!(LBA_MSTALK06_BIN_IMPL),
+		ptr::addr_of!(LBA_USTALK06_BIN_IMPL),
+		ptr::addr_of!(LBA_ESTALK06_BIN_IMPL),
+		ptr::addr_of!(LBA_FSTALK06_BIN_IMPL),
+		ptr::addr_of!(LBA_ISTALK06_BIN_IMPL),
+		ptr::addr_of!(LBA_DSTALK06_BIN_IMPL),
+		ptr::addr_of!(LBA_SSTALK06_BIN_IMPL),
+		ptr::addr_of!(LBA_MSTALK07_BIN_IMPL),
+		ptr::addr_of!(LBA_USTALK07_BIN_IMPL),
+		ptr::addr_of!(LBA_ESTALK07_BIN_IMPL),
+		ptr::addr_of!(LBA_FSTALK07_BIN_IMPL),
+		ptr::addr_of!(LBA_ISTALK07_BIN_IMPL),
+		ptr::addr_of!(LBA_DSTALK07_BIN_IMPL),
+		ptr::addr_of!(LBA_SSTALK07_BIN_IMPL),
+		ptr::addr_of!(LBA_MSTALK08_BIN_IMPL),
+		ptr::addr_of!(LBA_USTALK08_BIN_IMPL),
+		ptr::addr_of!(LBA_ESTALK08_BIN_IMPL),
+		ptr::addr_of!(LBA_FSTALK08_BIN_IMPL),
+		ptr::addr_of!(LBA_ISTALK08_BIN_IMPL),
+		ptr::addr_of!(LBA_DSTALK08_BIN_IMPL),
+		ptr::addr_of!(LBA_SSTALK08_BIN_IMPL),
+		ptr::addr_of!(LBA_MSTALK09_BIN_IMPL),
+		ptr::addr_of!(LBA_USTALK09_BIN_IMPL),
+		ptr::addr_of!(LBA_ESTALK09_BIN_IMPL),
+		ptr::addr_of!(LBA_FSTALK09_BIN_IMPL),
+		ptr::addr_of!(LBA_ISTALK09_BIN_IMPL),
+		ptr::addr_of!(LBA_DSTALK09_BIN_IMPL),
+		ptr::addr_of!(LBA_SSTALK09_BIN_IMPL),
+		ptr::addr_of!(LBA_MSTRAINI_BIN_IMPL),
+		ptr::addr_of!(LBA_USTRAINI_BIN_IMPL),
+		ptr::addr_of!(LBA_ESTRAINI_BIN_IMPL),
+		ptr::addr_of!(LBA_FSTRAINI_BIN_IMPL),
+		ptr::addr_of!(LBA_ISTRAINI_BIN_IMPL),
+		ptr::addr_of!(LBA_DSTRAINI_BIN_IMPL),
+		ptr::addr_of!(LBA_SSTRAINI_BIN_IMPL),
+		ptr::addr_of!(LBA_MSDMG200_BIN_IMPL),
+		ptr::addr_of!(LBA_USDMG200_BIN_IMPL),
+		ptr::addr_of!(LBA_ESDMG200_BIN_IMPL),
+		ptr::addr_of!(LBA_FSDMG200_BIN_IMPL),
+		ptr::addr_of!(LBA_ISDMG200_BIN_IMPL),
+		ptr::addr_of!(LBA_DSDMG200_BIN_IMPL),
+		ptr::addr_of!(LBA_SSDMG200_BIN_IMPL),
+		ptr::addr_of!(LBA_MSDMG260_BIN_IMPL),
+		ptr::addr_of!(LBA_USDMG260_BIN_IMPL),
+		ptr::addr_of!(LBA_ESDMG260_BIN_IMPL),
+		ptr::addr_of!(LBA_FSDMG260_BIN_IMPL),
+		ptr::addr_of!(LBA_ISDMG260_BIN_IMPL),
+		ptr::addr_of!(LBA_DSDMG260_BIN_IMPL),
+		ptr::addr_of!(LBA_SSDMG260_BIN_IMPL),
+		ptr::addr_of!(LBA_MSDMG270_BIN_IMPL),
+		ptr::addr_of!(LBA_USDMG270_BIN_IMPL),
+		ptr::addr_of!(LBA_ESDMG270_BIN_IMPL),
+		ptr::addr_of!(LBA_FSDMG270_BIN_IMPL),
+		ptr::addr_of!(LBA_ISDMG270_BIN_IMPL),
+		ptr::addr_of!(LBA_DSDMG270_BIN_IMPL),
+		ptr::addr_of!(LBA_SSDMG270_BIN_IMPL),
+		ptr::addr_of!(LBA_MSDMG300_BIN_IMPL),
+		ptr::addr_of!(LBA_USDMG300_BIN_IMPL),
+		ptr::addr_of!(LBA_ESDMG300_BIN_IMPL),
+		ptr::addr_of!(LBA_FSDMG300_BIN_IMPL),
+		ptr::addr_of!(LBA_ISDMG300_BIN_IMPL),
+		ptr::addr_of!(LBA_DSDMG300_BIN_IMPL),
+		ptr::addr_of!(LBA_SSDMG300_BIN_IMPL),
+		ptr::addr_of!(LBA_MSDMG305_BIN_IMPL),
+		ptr::addr_of!(LBA_USDMG305_BIN_IMPL),
+		ptr::addr_of!(LBA_ESDMG305_BIN_IMPL),
+		ptr::addr_of!(LBA_FSDMG305_BIN_IMPL),
+		ptr::addr_of!(LBA_ISDMG305_BIN_IMPL),
+		ptr::addr_of!(LBA_DSDMG305_BIN_IMPL),
+		ptr::addr_of!(LBA_SSDMG305_BIN_IMPL),
+		ptr::addr_of!(LBA_MSDMG400_BIN_IMPL),
+		ptr::addr_of!(LBA_USDMG400_BIN_IMPL),
+		ptr::addr_of!(LBA_ESDMG400_BIN_IMPL),
+		ptr::addr_of!(LBA_FSDMG400_BIN_IMPL),
+		ptr::addr_of!(LBA_ISDMG400_BIN_IMPL),
+		ptr::addr_of!(LBA_DSDMG400_BIN_IMPL),
+		ptr::addr_of!(LBA_SSDMG400_BIN_IMPL),
+		ptr::addr_of!(LBA_MSDMG500_BIN_IMPL),
+		ptr::addr_of!(LBA_USDMG500_BIN_IMPL),
+		ptr::addr_of!(LBA_ESDMG500_BIN_IMPL),
+		ptr::addr_of!(LBA_FSDMG500_BIN_IMPL),
+		ptr::addr_of!(LBA_ISDMG500_BIN_IMPL),
+		ptr::addr_of!(LBA_DSDMG500_BIN_IMPL),
+		ptr::addr_of!(LBA_SSDMG500_BIN_IMPL),
+		ptr::addr_of!(LBA_MSDMG600_BIN_IMPL),
+		ptr::addr_of!(LBA_USDMG600_BIN_IMPL),
+		ptr::addr_of!(LBA_ESDMG600_BIN_IMPL),
+		ptr::addr_of!(LBA_FSDMG600_BIN_IMPL),
+		ptr::addr_of!(LBA_ISDMG600_BIN_IMPL),
+		ptr::addr_of!(LBA_DSDMG600_BIN_IMPL),
+		ptr::addr_of!(LBA_SSDMG600_BIN_IMPL),
+		ptr::addr_of!(LBA_MSDMG700_BIN_IMPL),
+		ptr::addr_of!(LBA_USDMG700_BIN_IMPL),
+		ptr::addr_of!(LBA_ESDMG700_BIN_IMPL),
+		ptr::addr_of!(LBA_FSDMG700_BIN_IMPL),
+		ptr::addr_of!(LBA_ISDMG700_BIN_IMPL),
+		ptr::addr_of!(LBA_DSDMG700_BIN_IMPL),
+		ptr::addr_of!(LBA_SSDMG700_BIN_IMPL),
+		ptr::addr_of!(LBA_MSDMG800_BIN_IMPL),
+		ptr::addr_of!(LBA_USDMG800_BIN_IMPL),
+		ptr::addr_of!(LBA_ESDMG800_BIN_IMPL),
+		ptr::addr_of!(LBA_FSDMG800_BIN_IMPL),
+		ptr::addr_of!(LBA_ISDMG800_BIN_IMPL),
+		ptr::addr_of!(LBA_DSDMG800_BIN_IMPL),
+		ptr::addr_of!(LBA_SSDMG800_BIN_IMPL),
+		ptr::addr_of!(LBA_MSDMG900_BIN_IMPL),
+		ptr::addr_of!(LBA_USDMG900_BIN_IMPL),
+		ptr::addr_of!(LBA_ESDMG900_BIN_IMPL),
+		ptr::addr_of!(LBA_FSDMG900_BIN_IMPL),
+		ptr::addr_of!(LBA_ISDMG900_BIN_IMPL),
+		ptr::addr_of!(LBA_DSDMG900_BIN_IMPL),
+		ptr::addr_of!(LBA_SSDMG900_BIN_IMPL),
+		ptr::addr_of!(LBA_M039SCUM_BIN_IMPL),
+		ptr::addr_of!(LBA_FIELDCOM_BIN_IMPL),
+		ptr::addr_of!(LBA_CARDGAME_PRO_IMPL),
+		ptr::addr_of!(LBA_STDGNAME_PRO_IMPL),
+		ptr::addr_of!(LBA_M115MUGE_BIN_IMPL),
+		ptr::addr_of!(LBA_M366GIRU_BIN_IMPL),
+		ptr::addr_of!(LBA_CNTY_SEL_PRO_IMPL),
+		ptr::addr_of!(LBA_FIELDSTG_PRO_IMPL),
+		ptr::addr_of!(LBA_FIGHTSTG_PRO_IMPL),
+		ptr::addr_of!(LBA_SHOCKTST_PRO_IMPL),
+		ptr::addr_of!(LBA_SOUNDTST_PRO_IMPL),
+		ptr::addr_of!(LBA_MPBATL00_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM001_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM002_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM004_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM005_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM007_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM009_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM010_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM025_BIN_IMPL),
+		ptr::addr_of!(LBA_MPCOMMON_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV001_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV005_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV010_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBATL00_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM001_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM002_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM004_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM005_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM007_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM009_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM010_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM025_BIN_IMPL),
+		ptr::addr_of!(LBA_MVCOMMON_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV001_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV005_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV010_BIN_IMPL),
+		ptr::addr_of!(LBA_STAGSLCT_PRO_IMPL),
+		ptr::addr_of!(LBA_STCRDABM_PRO_IMPL),
+		ptr::addr_of!(LBA_P001PLAY_BIN_IMPL),
+		ptr::addr_of!(LBA_P002PLAY_BIN_IMPL),
+		ptr::addr_of!(LBA_P003PKEN_BIN_IMPL),
+		ptr::addr_of!(LBA_P004KOGU_BIN_IMPL),
+		ptr::addr_of!(LBA_P005KOET_BIN_IMPL),
+		ptr::addr_of!(LBA_P006AGUM_BIN_IMPL),
+		ptr::addr_of!(LBA_P007VMON_BIN_IMPL),
+		ptr::addr_of!(LBA_P008GIRU_BIN_IMPL),
+		ptr::addr_of!(LBA_P009RENA_BIN_IMPL),
+		ptr::addr_of!(LBA_P010PATA_BIN_IMPL),
+		ptr::addr_of!(LBA_P011MINO_BIN_IMPL),
+		ptr::addr_of!(LBA_P013TAKU_BIN_IMPL),
+		ptr::addr_of!(LBA_P044OPFS_BIN_IMPL),
+		ptr::addr_of!(LBA_P065JKSI_BIN_IMPL),
+		ptr::addr_of!(LBA_P146OPFE_BIN_IMPL),
+		ptr::addr_of!(LBA_P147OPFW_BIN_IMPL),
+		ptr::addr_of!(LBA_S200PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S200TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S205PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S205TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S210PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S210TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S220PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S220TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S225PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S225TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S230PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S230TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S235PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S235TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S240PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S240TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S245PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S245TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S250PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S250TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S255PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S255TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S260PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S260TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S270PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S270TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S275PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S275TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S280PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S280TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S330PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S330TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S335PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S335TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S350PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S350TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S355PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S355TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S370PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S370TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S375PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S375TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S435PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S435TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S465PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S465TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S780PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S780TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S785PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S785TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S790PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S790TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_STCRDDEK_PRO_IMPL),
+		ptr::addr_of!(LBA_SFSTDATA_PRO_IMPL),
+		ptr::addr_of!(LBA_SMDLDATA_PRO_IMPL),
+		ptr::addr_of!(LBA_M069FLAR_BIN_IMPL),
+		ptr::addr_of!(LBA_STCRDSHP_PRO_IMPL),
+		ptr::addr_of!(LBA_SDIGIEDT_PRO_IMPL),
+		ptr::addr_of!(LBA_STDWTITL_PRO_IMPL),
+		ptr::addr_of!(LBA_STFGTREP_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG200_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG205_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG210_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG220_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG225_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG230_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG235_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG240_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG245_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG250_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG255_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG260_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG270_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG275_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG280_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG330_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG335_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG350_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG355_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG370_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG375_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG435_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG465_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG780_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG785_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG790_PRO_IMPL),
+		ptr::addr_of!(LBA_STGDGLAB_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG395_PRO_IMPL),
+		ptr::addr_of!(LBA_STGMCARD_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG360_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG430_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG475_PRO_IMPL),
+		ptr::addr_of!(LBA_STGTRAIN_PRO_IMPL),
+		ptr::addr_of!(LBA_M003AGUM_BIN_IMPL),
+		ptr::addr_of!(LBA_M010SEAD_BIN_IMPL),
+		ptr::addr_of!(LBA_M013MAME_BIN_IMPL),
+		ptr::addr_of!(LBA_M126BRAK_BIN_IMPL),
+		ptr::addr_of!(LBA_M148IPDR_BIN_IMPL),
+		ptr::addr_of!(LBA_M175KRSR_BIN_IMPL),
+		ptr::addr_of!(LBA_M176TDBL_BIN_IMPL),
+		ptr::addr_of!(LBA_M213WGRE_BIN_IMPL),
+		ptr::addr_of!(LBA_M217PDEV_BIN_IMPL),
+		ptr::addr_of!(LBA_M230GKWA_BIN_IMPL),
+		ptr::addr_of!(LBA_M236VVND_BIN_IMPL),
+		ptr::addr_of!(LBA_M251APKR_BIN_IMPL),
+		ptr::addr_of!(LBA_M373RENA_BIN_IMPL),
+		ptr::addr_of!(LBA_M381IPDP_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM030_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV011_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM030_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV011_BIN_IMPL),
+		ptr::addr_of!(LBA_STITSHOP_PRO_IMPL),
+		ptr::addr_of!(LBA_STPLNMET_PRO_IMPL),
+		ptr::addr_of!(LBA_STSTATUS_PRO_IMPL),
+		ptr::addr_of!(LBA_WFIGHTMN_PRO_IMPL),
+		ptr::addr_of!(LBA_WFIGHTTS_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG201_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG202_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG203_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG206_PRO_IMPL),
+		ptr::addr_of!(LBA_M145VMON_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM003_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM029_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM003_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM029_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM020_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM020_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG470_PRO_IMPL),
+		ptr::addr_of!(LBA_MPBGM008_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG211_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG212_PRO_IMPL),
+		ptr::addr_of!(LBA_MVBGM008_BIN_IMPL),
+		ptr::addr_of!(LBA_S395PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S395TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG505_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG365_PRO_IMPL),
+		ptr::addr_of!(LBA_S360PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S360TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG555_PRO_IMPL),
+		ptr::addr_of!(LBA_S430PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S430TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG520_PRO_IMPL),
+		ptr::addr_of!(LBA_M076TANK_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM011_BIN_IMPL),
+		ptr::addr_of!(LBA_M196MGAR_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM022_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBOSS00_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV004_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV204_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM011_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM022_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBOSS00_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV004_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV204_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG218_PRO_IMPL),
+		ptr::addr_of!(LBA_S475PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S475TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S470PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG219_PRO_IMPL),
+		ptr::addr_of!(LBA_S470TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG425_PRO_IMPL),
+		ptr::addr_of!(LBA_MPBGM012_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM012_BIN_IMPL),
+		ptr::addr_of!(LBA_S365PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S365TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S505PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S505TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG405_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG545_PRO_IMPL),
+		ptr::addr_of!(LBA_M259EXVM_BIN_IMPL),
+		ptr::addr_of!(LBA_M260STNG_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM013_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM013_BIN_IMPL),
+		ptr::addr_of!(LBA_S555PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S555TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_M384KOET_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM014_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM014_BIN_IMPL),
+		ptr::addr_of!(LBA_M053NANI_BIN_IMPL),
+		ptr::addr_of!(LBA_M385KOGU_BIN_IMPL),
+		ptr::addr_of!(LBA_S520PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S520TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S425PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG530_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG221_PRO_IMPL),
+		ptr::addr_of!(LBA_M031PATA_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG226_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG231_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG232_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG233_PRO_IMPL),
+		ptr::addr_of!(LBA_S425TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_M012MTGR_BIN_IMPL),
+		ptr::addr_of!(LBA_S405PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S405TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_M041GIRO_BIN_IMPL),
+		ptr::addr_of!(LBA_M254PLDR_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM015_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM015_BIN_IMPL),
+		ptr::addr_of!(LBA_M150OMGM_BIN_IMPL),
+		ptr::addr_of!(LBA_CARDDATA_BIN_IMPL),
+		ptr::addr_of!(LBA_TRANIN00_BIN_IMPL),
+		ptr::addr_of!(LBA_CARDPACK_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM016_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM016_BIN_IMPL),
+		ptr::addr_of!(LBA_M014MONZ_BIN_IMPL),
+		ptr::addr_of!(LBA_M032KUNE_BIN_IMPL),
+		ptr::addr_of!(LBA_M023YUKI_BIN_IMPL),
+		ptr::addr_of!(LBA_M034OGRE_BIN_IMPL),
+		ptr::addr_of!(LBA_M037BAKE_BIN_IMPL),
+		ptr::addr_of!(LBA_M035SHEL_BIN_IMPL),
+		ptr::addr_of!(LBA_M049SIRA_BIN_IMPL),
+		ptr::addr_of!(LBA_M050COCA_BIN_IMPL),
+		ptr::addr_of!(LBA_M051KUWA_BIN_IMPL),
+		ptr::addr_of!(LBA_M052MOJA_BIN_IMPL),
+		ptr::addr_of!(LBA_M110GECO_BIN_IMPL),
+		ptr::addr_of!(LBA_M004BETA_BIN_IMPL),
+		ptr::addr_of!(LBA_M006DEVI_BIN_IMPL),
+		ptr::addr_of!(LBA_M135DVDR_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG236_PRO_IMPL),
+		ptr::addr_of!(LBA_M367GRAW_BIN_IMPL),
+		ptr::addr_of!(LBA_M132GIZA_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM018_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM018_BIN_IMPL),
+		ptr::addr_of!(LBA_S545PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S545TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_M203TRCR_BIN_IMPL),
+		ptr::addr_of!(LBA_S530PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S530TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_M026SKUL_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM027_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM027_BIN_IMPL),
+		ptr::addr_of!(LBA_M005GREY_BIN_IMPL),
+		ptr::addr_of!(LBA_M122HAGU_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG237_PRO_IMPL),
+		ptr::addr_of!(LBA_TRANIN02_BIN_IMPL),
+		ptr::addr_of!(LBA_TRANIN03_BIN_IMPL),
+		ptr::addr_of!(LBA_TRANIN04_BIN_IMPL),
+		ptr::addr_of!(LBA_TRANIN10_BIN_IMPL),
+		ptr::addr_of!(LBA_TRANIN14_BIN_IMPL),
+		ptr::addr_of!(LBA_TRANIN15_BIN_IMPL),
+		ptr::addr_of!(LBA_CMFONTCS_BIN_IMPL),
+		ptr::addr_of!(LBA_CMFONTTM_BIN_IMPL),
+		ptr::addr_of!(LBA_STDGNMCS_BIN_IMPL),
+		ptr::addr_of!(LBA_STDGNMTM_BIN_IMPL),
+		ptr::addr_of!(LBA_STNMETCS_BIN_IMPL),
+		ptr::addr_of!(LBA_STNMETTM_BIN_IMPL),
+		ptr::addr_of!(LBA_STTRNGCS_BIN_IMPL),
+		ptr::addr_of!(LBA_STTRNGTM_BIN_IMPL),
+		ptr::addr_of!(LBA_M134CYCL_BIN_IMPL),
+		ptr::addr_of!(LBA_M136TUSK_BIN_IMPL),
+		ptr::addr_of!(LBA_S256PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S256TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG256_PRO_IMPL),
+		ptr::addr_of!(LBA_S535PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S535TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG535_PRO_IMPL),
+		ptr::addr_of!(LBA_M138DELT_BIN_IMPL),
+		ptr::addr_of!(LBA_M008TYRA_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM017_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM017_BIN_IMPL),
+		ptr::addr_of!(LBA_M139RARE_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG238_PRO_IMPL),
+		ptr::addr_of!(LBA_M027MTMA_BIN_IMPL),
+		ptr::addr_of!(LBA_STMCRDCS_BIN_IMPL),
+		ptr::addr_of!(LBA_STMCRDTM_BIN_IMPL),
+		ptr::addr_of!(LBA_M119TONO_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG241_PRO_IMPL),
+		ptr::addr_of!(LBA_M067YANM_BIN_IMPL),
+		ptr::addr_of!(LBA_M173MSHA_BIN_IMPL),
+		ptr::addr_of!(LBA_S320PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S320TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG320_PRO_IMPL),
+		ptr::addr_of!(LBA_M080GOBR_BIN_IMPL),
+		ptr::addr_of!(LBA_S710PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S710TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG710_PRO_IMPL),
+		ptr::addr_of!(LBA_M059HOUO_BIN_IMPL),
+		ptr::addr_of!(LBA_S290PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S290TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG290_PRO_IMPL),
+		ptr::addr_of!(LBA_M222WOOD_BIN_IMPL),
+		ptr::addr_of!(LBA_S560PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S560TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG560_PRO_IMPL),
+		ptr::addr_of!(LBA_M137FLYM_BIN_IMPL),
+		ptr::addr_of!(LBA_M234ANGW_BIN_IMPL),
+		ptr::addr_of!(LBA_S285PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S285TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG285_PRO_IMPL),
+		ptr::addr_of!(LBA_S237PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S237TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG246_PRO_IMPL),
+		ptr::addr_of!(LBA_S380PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S380TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG380_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG251_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG261_PRO_IMPL),
+		ptr::addr_of!(LBA_M028VEDA_BIN_IMPL),
+		ptr::addr_of!(LBA_M388GRIZ_BIN_IMPL),
+		ptr::addr_of!(LBA_M094ICEM_BIN_IMPL),
+		ptr::addr_of!(LBA_S240MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S205MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_CMNBGDCS_BIN_IMPL),
+		ptr::addr_of!(LBA_STDGLBCS_BIN_IMPL),
+		ptr::addr_of!(LBA_STDGLBTM_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG271_PRO_IMPL),
+		ptr::addr_of!(LBA_MPBGM019_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM023_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM024_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM028_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM019_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM023_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM024_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM028_BIN_IMPL),
+		ptr::addr_of!(LBA_M227GARB_BIN_IMPL),
+		ptr::addr_of!(LBA_S375MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S335MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_M042ETEM_BIN_IMPL),
+		ptr::addr_of!(LBA_M211HANG_BIN_IMPL),
+		ptr::addr_of!(LBA_S470MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S220MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_M065MTET_BIN_IMPL),
+		ptr::addr_of!(LBA_S275MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_M267BKWG_BIN_IMPL),
+		ptr::addr_of!(LBA_M171GOKI_BIN_IMPL),
+		ptr::addr_of!(LBA_M197GANI_BIN_IMPL),
+		ptr::addr_of!(LBA_M121JURE_BIN_IMPL),
+		ptr::addr_of!(LBA_M198KIWI_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM031_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM031_BIN_IMPL),
+		ptr::addr_of!(LBA_M025VEGI_BIN_IMPL),
+		ptr::addr_of!(LBA_M108GOLE_BIN_IMPL),
+		ptr::addr_of!(LBA_P027SMTH_BIN_IMPL),
+		ptr::addr_of!(LBA_P036AMDK_BIN_IMPL),
+		ptr::addr_of!(LBA_P020RDSZ_BIN_IMPL),
+		ptr::addr_of!(LBA_P019RDSY_BIN_IMPL),
+		ptr::addr_of!(LBA_P021RDBK_BIN_IMPL),
+		ptr::addr_of!(LBA_P022RDGB_BIN_IMPL),
+		ptr::addr_of!(LBA_P023RDET_BIN_IMPL),
+		ptr::addr_of!(LBA_P026RDNT_BIN_IMPL),
+		ptr::addr_of!(LBA_P024RDST_BIN_IMPL),
+		ptr::addr_of!(LBA_P025RDWT_BIN_IMPL),
+		ptr::addr_of!(LBA_P028WEDG_BIN_IMPL),
+		ptr::addr_of!(LBA_P030ASWT_BIN_IMPL),
+		ptr::addr_of!(LBA_P031ASFM_BIN_IMPL),
+		ptr::addr_of!(LBA_P029ASLR_BIN_IMPL),
+		ptr::addr_of!(LBA_P032ASDK_BIN_IMPL),
+		ptr::addr_of!(LBA_P034AMWT_BIN_IMPL),
+		ptr::addr_of!(LBA_P033AMLR_BIN_IMPL),
+		ptr::addr_of!(LBA_P035AMFM_BIN_IMPL),
+		ptr::addr_of!(LBA_P037GRGO_BIN_IMPL),
+		ptr::addr_of!(LBA_P039TAIL_BIN_IMPL),
+		ptr::addr_of!(LBA_P038WIZA_BIN_IMPL),
+		ptr::addr_of!(LBA_P040PIKO_BIN_IMPL),
+		ptr::addr_of!(LBA_P012MINT_BIN_IMPL),
+		ptr::addr_of!(LBA_P014TAKT_BIN_IMPL),
+		ptr::addr_of!(LBA_P159NVMO_BIN_IMPL),
+		ptr::addr_of!(LBA_P158NAGU_BIN_IMPL),
+		ptr::addr_of!(LBA_P160NGIR_BIN_IMPL),
+		ptr::addr_of!(LBA_P161NREN_BIN_IMPL),
+		ptr::addr_of!(LBA_P162NPAT_BIN_IMPL),
+		ptr::addr_of!(LBA_M200BLSA_BIN_IMPL),
+		ptr::addr_of!(LBA_M124TIRS_BIN_IMPL),
+		ptr::addr_of!(LBA_M212MANM_BIN_IMPL),
+		ptr::addr_of!(LBA_TRANIN11_BIN_IMPL),
+		ptr::addr_of!(LBA_TRANIN12_BIN_IMPL),
+		ptr::addr_of!(LBA_TRANIN16_BIN_IMPL),
+		ptr::addr_of!(LBA_P163JKST_BIN_IMPL),
+		ptr::addr_of!(LBA_M202ANOM_BIN_IMPL),
+		ptr::addr_of!(LBA_M215SMAN_BIN_IMPL),
+		ptr::addr_of!(LBA_M207HANU_BIN_IMPL),
+		ptr::addr_of!(LBA_M206BAKU_BIN_IMPL),
+		ptr::addr_of!(LBA_P042LABO_BIN_IMPL),
+		ptr::addr_of!(LBA_P087TERS_BIN_IMPL),
+		ptr::addr_of!(LBA_P088GABS_BIN_IMPL),
+		ptr::addr_of!(LBA_P089PYOS_BIN_IMPL),
+		ptr::addr_of!(LBA_P071OLYF_BIN_IMPL),
+		ptr::addr_of!(LBA_P069OTKF_BIN_IMPL),
+		ptr::addr_of!(LBA_P070FRTF_BIN_IMPL),
+		ptr::addr_of!(LBA_P068SARM_BIN_IMPL),
+		ptr::addr_of!(LBA_P066FRTM_BIN_IMPL),
+		ptr::addr_of!(LBA_P067OTKU_BIN_IMPL),
+		ptr::addr_of!(LBA_P063FRDF_BIN_IMPL),
+		ptr::addr_of!(LBA_P064HSSM_BIN_IMPL),
+		ptr::addr_of!(LBA_P062FRDM_BIN_IMPL),
+		ptr::addr_of!(LBA_P047LEOM_BIN_IMPL),
+		ptr::addr_of!(LBA_P048GDAM_BIN_IMPL),
+		ptr::addr_of!(LBA_P045AMST_BIN_IMPL),
+		ptr::addr_of!(LBA_P046AW00_BIN_IMPL),
+		ptr::addr_of!(LBA_P043OPMA_BIN_IMPL),
+		ptr::addr_of!(LBA_P041GRDR_BIN_IMPL),
+		ptr::addr_of!(LBA_S710MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S200MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S395MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S780MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S555MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S210MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S245MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S560MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S430MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S320MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_P105KNGO_BIN_IMPL),
+		ptr::addr_of!(LBA_S330MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG276_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG281_PRO_IMPL),
+		ptr::addr_of!(LBA_M208TOTA_BIN_IMPL),
+		ptr::addr_of!(LBA_S260MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S285MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S290MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S380MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S425MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S790MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_M225DAGO_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBGM021_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM021_BIN_IMPL),
+		ptr::addr_of!(LBA_M391GRPL_BIN_IMPL),
+		ptr::addr_of!(LBA_M210RUKA_BIN_IMPL),
+		ptr::addr_of!(LBA_S202MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S202PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S202TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG286_PRO_IMPL),
+		ptr::addr_of!(LBA_S218MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S218PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S218TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG291_PRO_IMPL),
+		ptr::addr_of!(LBA_S237MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_M226OKWA_BIN_IMPL),
+		ptr::addr_of!(LBA_S310MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S310PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S310TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG310_PRO_IMPL),
+		ptr::addr_of!(LBA_S232MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S232PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S232TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG295_PRO_IMPL),
+		ptr::addr_of!(LBA_S305MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S305PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S305TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG305_PRO_IMPL),
+		ptr::addr_of!(LBA_S300MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S300PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S300TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG300_PRO_IMPL),
+		ptr::addr_of!(LBA_M359IPDF_BIN_IMPL),
+		ptr::addr_of!(LBA_M229PUKU_BIN_IMPL),
+		ptr::addr_of!(LBA_P059AOAD_BIN_IMPL),
+		ptr::addr_of!(LBA_P060AOAE_BIN_IMPL),
+		ptr::addr_of!(LBA_P057AOAB_BIN_IMPL),
+		ptr::addr_of!(LBA_P055GMGD_BIN_IMPL),
+		ptr::addr_of!(LBA_P058AOAC_BIN_IMPL),
+		ptr::addr_of!(LBA_P056AOAS_BIN_IMPL),
+		ptr::addr_of!(LBA_P053SHAK_BIN_IMPL),
+		ptr::addr_of!(LBA_P050FRDR_BIN_IMPL),
+		ptr::addr_of!(LBA_P054MGNA_BIN_IMPL),
+		ptr::addr_of!(LBA_P049TOGE_BIN_IMPL),
+		ptr::addr_of!(LBA_P051PANG_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV002_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV003_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV002_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV003_BIN_IMPL),
+		ptr::addr_of!(LBA_S460PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S460TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG460_PRO_IMPL),
+		ptr::addr_of!(LBA_S480PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S480TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG480_PRO_IMPL),
+		ptr::addr_of!(LBA_M040ANDR_BIN_IMPL),
+		ptr::addr_of!(LBA_M223PHNT_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG296_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG301_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG306_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG311_PRO_IMPL),
+		ptr::addr_of!(LBA_M270VIKI_BIN_IMPL),
+		ptr::addr_of!(LBA_M193GRFO_BIN_IMPL),
+		ptr::addr_of!(LBA_P084KETE_BIN_IMPL),
+		ptr::addr_of!(LBA_P085FLWR_BIN_IMPL),
+		ptr::addr_of!(LBA_P083METE_BIN_IMPL),
+		ptr::addr_of!(LBA_P081NMEM_BIN_IMPL),
+		ptr::addr_of!(LBA_P082ETEM_BIN_IMPL),
+		ptr::addr_of!(LBA_P079SPIC_BIN_IMPL),
+		ptr::addr_of!(LBA_P080BALM_BIN_IMPL),
+		ptr::addr_of!(LBA_P073GOBA_BIN_IMPL),
+		ptr::addr_of!(LBA_P074JIJI_BIN_IMPL),
+		ptr::addr_of!(LBA_P072GOZS_BIN_IMPL),
+		ptr::addr_of!(LBA_P061AOAF_BIN_IMPL),
+		ptr::addr_of!(LBA_S440MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S440PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S440TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG440_PRO_IMPL),
+		ptr::addr_of!(LBA_MPENV006_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV007_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV006_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV007_BIN_IMPL),
+		ptr::addr_of!(LBA_M089FUGA_BIN_IMPL),
+		ptr::addr_of!(LBA_M060HKAB_BIN_IMPL),
+		ptr::addr_of!(LBA_P075BABA_BIN_IMPL),
+		ptr::addr_of!(LBA_P108PHAR_BIN_IMPL),
+		ptr::addr_of!(LBA_P109MTHI_BIN_IMPL),
+		ptr::addr_of!(LBA_P106PONT_BIN_IMPL),
+		ptr::addr_of!(LBA_P098YASH_BIN_IMPL),
+		ptr::addr_of!(LBA_P102SHUR_BIN_IMPL),
+		ptr::addr_of!(LBA_P090MGRM_BIN_IMPL),
+		ptr::addr_of!(LBA_P093HANM_BIN_IMPL),
+		ptr::addr_of!(LBA_P091PDRM_BIN_IMPL),
+		ptr::addr_of!(LBA_P092MGWM_BIN_IMPL),
+		ptr::addr_of!(LBA_S455MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S455PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S455TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG455_PRO_IMPL),
+		ptr::addr_of!(LBA_M220GESO_BIN_IMPL),
+		ptr::addr_of!(LBA_M009MERA_BIN_IMPL),
+		ptr::addr_of!(LBA_M140MTRN_BIN_IMPL),
+		ptr::addr_of!(LBA_S230MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S450MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S450PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S450TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG450_PRO_IMPL),
+		ptr::addr_of!(LBA_S410MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S410PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S410TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG410_PRO_IMPL),
+		ptr::addr_of!(LBA_M374KYBI_BIN_IMPL),
+		ptr::addr_of!(LBA_S340MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S340PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S340TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG340_PRO_IMPL),
+		ptr::addr_of!(LBA_S345MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S345PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S345TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG345_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG315_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG316_PRO_IMPL),
+		ptr::addr_of!(LBA_MPENV008_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV009_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV012_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV013_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV014_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV008_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV009_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV012_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV013_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV014_BIN_IMPL),
+		ptr::addr_of!(LBA_S485MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S485PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S485TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG485_PRO_IMPL),
+		ptr::addr_of!(LBA_M224MDEV_BIN_IMPL),
+		ptr::addr_of!(LBA_M221OCTA_BIN_IMPL),
+		ptr::addr_of!(LBA_M054MGDR_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV015_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV016_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV017_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV015_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV016_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV017_BIN_IMPL),
+		ptr::addr_of!(LBA_S525MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S525PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S525TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG525_PRO_IMPL),
+		ptr::addr_of!(LBA_S495MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S495PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S495TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG495_PRO_IMPL),
+		ptr::addr_of!(LBA_P002PLYD_BIN_IMPL),
+		ptr::addr_of!(LBA_P002PLYF_BIN_IMPL),
+		ptr::addr_of!(LBA_P002PLYK_BIN_IMPL),
+		ptr::addr_of!(LBA_P002PLYL_BIN_IMPL),
+		ptr::addr_of!(LBA_S225MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S235MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S250MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S255MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S256MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S270MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S280MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S350MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S355MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S360MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S365MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S370MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S405MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S475MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S505MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S520MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S530MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S535MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S545MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S435MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S465MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S785MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_P148SNAC_BIN_IMPL),
+		ptr::addr_of!(LBA_P121BWGM_BIN_IMPL),
+		ptr::addr_of!(LBA_P122SBMM_BIN_IMPL),
+		ptr::addr_of!(LBA_P123DIGM_BIN_IMPL),
+		ptr::addr_of!(LBA_P118BSRM_BIN_IMPL),
+		ptr::addr_of!(LBA_P119BGWM_BIN_IMPL),
+		ptr::addr_of!(LBA_P117BIPD_BIN_IMPL),
+		ptr::addr_of!(LBA_P115KNIG_BIN_IMPL),
+		ptr::addr_of!(LBA_P116BSGM_BIN_IMPL),
+		ptr::addr_of!(LBA_P113WARU_BIN_IMPL),
+		ptr::addr_of!(LBA_P114NANO_BIN_IMPL),
+		ptr::addr_of!(LBA_P111ZANB_BIN_IMPL),
+		ptr::addr_of!(LBA_P112HAND_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV018_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV019_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV020_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV021_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV022_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV023_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV018_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV019_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV020_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV021_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV022_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV023_BIN_IMPL),
+		ptr::addr_of!(LBA_P126ITMB_BIN_IMPL),
+		ptr::addr_of!(LBA_S490MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S490PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S490TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG490_PRO_IMPL),
+		ptr::addr_of!(LBA_P157OPFT_BIN_IMPL),
+		ptr::addr_of!(LBA_STSHOPCS_BIN_IMPL),
+		ptr::addr_of!(LBA_STSHOPTM_BIN_IMPL),
+		ptr::addr_of!(LBA_STSTATCS_BIN_IMPL),
+		ptr::addr_of!(LBA_STSTATTM_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG321_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG325_PRO_IMPL),
+		ptr::addr_of!(LBA_S400MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S400PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S400TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG400_PRO_IMPL),
+		ptr::addr_of!(LBA_S500MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S500PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S500TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG500_PRO_IMPL),
+		ptr::addr_of!(LBA_M189DTMR_BIN_IMPL),
+		ptr::addr_of!(LBA_P107SEAM_BIN_IMPL),
+		ptr::addr_of!(LBA_P156BOOM_BIN_IMPL),
+		ptr::addr_of!(LBA_P103DPTM_BIN_IMPL),
+		ptr::addr_of!(LBA_P099SZIM_BIN_IMPL),
+		ptr::addr_of!(LBA_P104KABM_BIN_IMPL),
+		ptr::addr_of!(LBA_P100SHDM_BIN_IMPL),
+		ptr::addr_of!(LBA_P101NHEM_BIN_IMPL),
+		ptr::addr_of!(LBA_P095KKIM_BIN_IMPL),
+		ptr::addr_of!(LBA_P097ASTM_BIN_IMPL),
+		ptr::addr_of!(LBA_P077HASM_BIN_IMPL),
+		ptr::addr_of!(LBA_P086AIRD_BIN_IMPL),
+		ptr::addr_of!(LBA_P052ASHM_BIN_IMPL),
+		ptr::addr_of!(LBA_M104BLMR_BIN_IMPL),
+		ptr::addr_of!(LBA_M020ANGE_BIN_IMPL),
+		ptr::addr_of!(LBA_M237CHMR_BIN_IMPL),
+		ptr::addr_of!(LBA_M383PKEN_BIN_IMPL),
+		ptr::addr_of!(LBA_M151DBLM_BIN_IMPL),
+		ptr::addr_of!(LBA_S570PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S570MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S570TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG570_PRO_IMPL),
+		ptr::addr_of!(LBA_P076HANM_BIN_IMPL),
+		ptr::addr_of!(LBA_M369DUKE_BIN_IMPL),
+		ptr::addr_of!(LBA_M395KUW2_BIN_IMPL),
+		ptr::addr_of!(LBA_M398GOB2_BIN_IMPL),
+		ptr::addr_of!(LBA_M281TIRO_BIN_IMPL),
+		ptr::addr_of!(LBA_M402TRC2_BIN_IMPL),
+		ptr::addr_of!(LBA_P096GREM_BIN_IMPL),
+		ptr::addr_of!(LBA_P094TAOM_BIN_IMPL),
+		ptr::addr_of!(LBA_M405COC2_BIN_IMPL),
+		ptr::addr_of!(LBA_M409MAN2_BIN_IMPL),
+		ptr::addr_of!(LBA_M418RAR2_BIN_IMPL),
+		ptr::addr_of!(LBA_M419CYC2_BIN_IMPL),
+		ptr::addr_of!(LBA_S301MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S301PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S301TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG326_PRO_IMPL),
+		ptr::addr_of!(LBA_MPBGM026_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV024_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBGM026_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV024_BIN_IMPL),
+		ptr::addr_of!(LBA_M410VED2_BIN_IMPL),
+		ptr::addr_of!(LBA_M404PHN2_BIN_IMPL),
+		ptr::addr_of!(LBA_M406TOT2_BIN_IMPL),
+		ptr::addr_of!(LBA_M424BLS2_BIN_IMPL),
+		ptr::addr_of!(LBA_TRANIN01_BIN_IMPL),
+		ptr::addr_of!(LBA_TRANIN13_BIN_IMPL),
+		ptr::addr_of!(LBA_M396YAN2_BIN_IMPL),
+		ptr::addr_of!(LBA_M422KRS2_BIN_IMPL),
+		ptr::addr_of!(LBA_M421MSH2_BIN_IMPL),
+		ptr::addr_of!(LBA_M376SKYA_BIN_IMPL),
+		ptr::addr_of!(LBA_M400FLY2_BIN_IMPL),
+		ptr::addr_of!(LBA_M401WOO2_BIN_IMPL),
+		ptr::addr_of!(LBA_M425JUR2_BIN_IMPL),
+		ptr::addr_of!(LBA_M407TON2_BIN_IMPL),
+		ptr::addr_of!(LBA_M433ANO2_BIN_IMPL),
+		ptr::addr_of!(LBA_M431VIK2_BIN_IMPL),
+		ptr::addr_of!(LBA_M449MTG9_BIN_IMPL),
+		ptr::addr_of!(LBA_M456GRP9_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG331_PRO_IMPL),
+		ptr::addr_of!(LBA_M450PLD9_BIN_IMPL),
+		ptr::addr_of!(LBA_M452HAN9_BIN_IMPL),
+		ptr::addr_of!(LBA_M368MGRW_BIN_IMPL),
+		ptr::addr_of!(LBA_M214SRPH_BIN_IMPL),
+		ptr::addr_of!(LBA_M390ASLT_BIN_IMPL),
+		ptr::addr_of!(LBA_M231PINO_BIN_IMPL),
+		ptr::addr_of!(LBA_M420TAN2_BIN_IMPL),
+		ptr::addr_of!(LBA_M448BKW9_BIN_IMPL),
+		ptr::addr_of!(LBA_PGFGTC00_BIN_IMPL),
+		ptr::addr_of!(LBA_PGFGTW00_BIN_IMPL),
+		ptr::addr_of!(LBA_M444IPD2_BIN_IMPL),
+		ptr::addr_of!(LBA_M375TAOM_BIN_IMPL),
+		ptr::addr_of!(LBA_M070WARU_BIN_IMPL),
+		ptr::addr_of!(LBA_M447SRP2_BIN_IMPL),
+		ptr::addr_of!(LBA_MPCBTL00_BIN_IMPL),
+		ptr::addr_of!(LBA_MVCBTL00_BIN_IMPL),
+		ptr::addr_of!(LBA_M451MGR9_BIN_IMPL),
+		ptr::addr_of!(LBA_M445MGR2_BIN_IMPL),
+		ptr::addr_of!(LBA_S460MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG336_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG341_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG346_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG351_PRO_IMPL),
+		ptr::addr_of!(LBA_M453TAO9_BIN_IMPL),
+		ptr::addr_of!(LBA_M455ASL9_BIN_IMPL),
+		ptr::addr_of!(LBA_M011NUME_BIN_IMPL),
+		ptr::addr_of!(LBA_M228PIEM_BIN_IMPL),
+		ptr::addr_of!(LBA_M312DETH_BIN_IMPL),
+		ptr::addr_of!(LBA_M177LDDV_BIN_IMPL),
+		ptr::addr_of!(LBA_M024HOEE_BIN_IMPL),
+		ptr::addr_of!(LBA_M061MGSD_BIN_IMPL),
+		ptr::addr_of!(LBA_S550MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S550PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S550TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG550_PRO_IMPL),
+		ptr::addr_of!(LBA_MPBATL10_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBOSS01_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBATL10_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBOSS01_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG356_PRO_IMPL),
+		ptr::addr_of!(LBA_M413NUM2_BIN_IMPL),
+		ptr::addr_of!(LBA_M414NUM3_BIN_IMPL),
+		ptr::addr_of!(LBA_M415NUM4_BIN_IMPL),
+		ptr::addr_of!(LBA_M416NUM5_BIN_IMPL),
+		ptr::addr_of!(LBA_M417NUM6_BIN_IMPL),
+		ptr::addr_of!(LBA_M387PIRT_BIN_IMPL),
+		ptr::addr_of!(LBA_M056DIGI_BIN_IMPL),
+		ptr::addr_of!(LBA_M066VAND_BIN_IMPL),
+		ptr::addr_of!(LBA_M204MSDR_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG361_PRO_IMPL),
+		ptr::addr_of!(LBA_S575MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S575PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S575TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG575_PRO_IMPL),
+		ptr::addr_of!(LBA_S605MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S605PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S605TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG605_PRO_IMPL),
+		ptr::addr_of!(LBA_S620MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S620PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S620TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S625MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S625PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S625TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG620_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG625_PRO_IMPL),
+		ptr::addr_of!(LBA_M408SEA2_BIN_IMPL),
+		ptr::addr_of!(LBA_M427MGS2_BIN_IMPL),
+		ptr::addr_of!(LBA_M432MSD2_BIN_IMPL),
+		ptr::addr_of!(LBA_S630MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S630PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S630TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG630_PRO_IMPL),
+		ptr::addr_of!(LBA_S655PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S655TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S655MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG655_PRO_IMPL),
+		ptr::addr_of!(LBA_S635MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S635PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S635TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG635_PRO_IMPL),
+		ptr::addr_of!(LBA_S640MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S640PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S640TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG640_PRO_IMPL),
+		ptr::addr_of!(LBA_S211MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S211PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S211TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG366_PRO_IMPL),
+		ptr::addr_of!(LBA_S645MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S645PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S645TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG645_PRO_IMPL),
+		ptr::addr_of!(LBA_S206MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S206PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S206TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG371_PRO_IMPL),
+		ptr::addr_of!(LBA_S675MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S675PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S675TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG675_PRO_IMPL),
+		ptr::addr_of!(LBA_S231MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S231PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S231TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG376_PRO_IMPL),
+		ptr::addr_of!(LBA_S226MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S226PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S226TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG381_PRO_IMPL),
+		ptr::addr_of!(LBA_S610PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_M007AIRD_BIN_IMPL),
+		ptr::addr_of!(LBA_M426HOE2_BIN_IMPL),
+		ptr::addr_of!(LBA_M019KABU_BIN_IMPL),
+		ptr::addr_of!(LBA_M394MARS_BIN_IMPL),
+		ptr::addr_of!(LBA_S610MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S610TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG610_PRO_IMPL),
+		ptr::addr_of!(LBA_S685MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S685PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S685TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S660MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S660PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S660TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG660_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG685_PRO_IMPL),
+		ptr::addr_of!(LBA_MPCONFUS_BIN_IMPL),
+		ptr::addr_of!(LBA_MVCONFUS_BIN_IMPL),
+		ptr::addr_of!(LBA_S212MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S212PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S212TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG385_PRO_IMPL),
+		ptr::addr_of!(LBA_S238MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S238PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S238TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG386_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG396_PRO_IMPL),
+		ptr::addr_of!(LBA_M141NANO_BIN_IMPL),
+		ptr::addr_of!(LBA_S236MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S236PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S236TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG401_PRO_IMPL),
+		ptr::addr_of!(LBA_S233MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S233PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S233TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG406_PRO_IMPL),
+		ptr::addr_of!(LBA_S221MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S221PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S221TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG411_PRO_IMPL),
+		ptr::addr_of!(LBA_S251MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S251PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S251TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S246MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S246PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S246TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S241MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S241PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S241TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG415_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG420_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG421_PRO_IMPL),
+		ptr::addr_of!(LBA_M403AIR2_BIN_IMPL),
+		ptr::addr_of!(LBA_M273QTRU_BIN_IMPL),
+		ptr::addr_of!(LBA_P015LUMO_BIN_IMPL),
+		ptr::addr_of!(LBA_P018MGCO_BIN_IMPL),
+		ptr::addr_of!(LBA_P017ASGM_BIN_IMPL),
+		ptr::addr_of!(LBA_P120BNMM_BIN_IMPL),
+		ptr::addr_of!(LBA_P078HGMK_BIN_IMPL),
+		ptr::addr_of!(LBA_P152KEIT_BIN_IMPL),
+		ptr::addr_of!(LBA_P171BAGM_BIN_IMPL),
+		ptr::addr_of!(LBA_S385MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S385TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG426_PRO_IMPL),
+		ptr::addr_of!(LBA_M165EBDR_BIN_IMPL),
+		ptr::addr_of!(LBA_S291MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S291PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S291TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG431_PRO_IMPL),
+		ptr::addr_of!(LBA_S600MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S600PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S600TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG600_PRO_IMPL),
+		ptr::addr_of!(LBA_S585MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S585PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S585TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S595MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S595PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S595TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S590MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S590PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S590TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG585_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG590_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG595_PRO_IMPL),
+		ptr::addr_of!(LBA_S445MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S445PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S445TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG445_PRO_IMPL),
+		ptr::addr_of!(LBA_S385PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG436_PRO_IMPL),
+		ptr::addr_of!(LBA_S281MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S281PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S281TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG441_PRO_IMPL),
+		ptr::addr_of!(LBA_S565MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S565PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S565TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG565_PRO_IMPL),
+		ptr::addr_of!(LBA_S286MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S286PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S286TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG446_PRO_IMPL),
+		ptr::addr_of!(LBA_S201PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S201TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S201MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG451_PRO_IMPL),
+		ptr::addr_of!(LBA_S261MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S261PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S261TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG456_PRO_IMPL),
+		ptr::addr_of!(LBA_S203MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S203PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S203TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG466_PRO_IMPL),
+		ptr::addr_of!(LBA_S276MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S276PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S276TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG471_PRO_IMPL),
+		ptr::addr_of!(LBA_S219MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S219PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S219TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG476_PRO_IMPL),
+		ptr::addr_of!(LBA_M170IVRU_BIN_IMPL),
+		ptr::addr_of!(LBA_M038DORI_BIN_IMPL),
+		ptr::addr_of!(LBA_M143CLOK_BIN_IMPL),
+		ptr::addr_of!(LBA_S326MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S326PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S326TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S311MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S311PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S311TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S321MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S321PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S321TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S296MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S296PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S296TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S306MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S306PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S306TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG481_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG486_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG491_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG496_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG501_PRO_IMPL),
+		ptr::addr_of!(LBA_S650MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S650PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S650TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG650_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG506_PRO_IMPL),
+		ptr::addr_of!(LBA_P150LISA_BIN_IMPL),
+		ptr::addr_of!(LBA_S537MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S537PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S537TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG537_PRO_IMPL),
+		ptr::addr_of!(LBA_M386DINO_BIN_IMPL),
+		ptr::addr_of!(LBA_M166DKGM_BIN_IMPL),
+		ptr::addr_of!(LBA_M172MTAR_BIN_IMPL),
+		ptr::addr_of!(LBA_M429IVR2_BIN_IMPL),
+		ptr::addr_of!(LBA_M428EBD2_BIN_IMPL),
+		ptr::addr_of!(LBA_S615MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S615PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S615TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG615_PRO_IMPL),
+		ptr::addr_of!(LBA_MPBOSS02_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBOSS02_BIN_IMPL),
+		ptr::addr_of!(LBA_M399MTA2_BIN_IMPL),
+		ptr::addr_of!(LBA_M397DKG2_BIN_IMPL),
+		ptr::addr_of!(LBA_M430DOR2_BIN_IMPL),
+		ptr::addr_of!(LBA_M190BOLT_BIN_IMPL),
+		ptr::addr_of!(LBA_M077REDV_BIN_IMPL),
+		ptr::addr_of!(LBA_M269VALK_BIN_IMPL),
+		ptr::addr_of!(LBA_S331MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S331PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S331TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG521_PRO_IMPL),
+		ptr::addr_of!(LBA_S316MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S316PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S316TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG526_PRO_IMPL),
+		ptr::addr_of!(LBA_S336MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S336PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S336TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG531_PRO_IMPL),
+		ptr::addr_of!(LBA_S341MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S341PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S341TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG538_PRO_IMPL),
+		ptr::addr_of!(LBA_S346MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S346PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S346TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG540_PRO_IMPL),
+		ptr::addr_of!(LBA_S471MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S471PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S471TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG551_PRO_IMPL),
+		ptr::addr_of!(LBA_S381MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S381PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S381TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG556_PRO_IMPL),
+		ptr::addr_of!(LBA_S366MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S366PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S366TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG561_PRO_IMPL),
+		ptr::addr_of!(LBA_S376MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S376PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S376TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG566_PRO_IMPL),
+		ptr::addr_of!(LBA_S386MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S386PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S386TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG571_PRO_IMPL),
+		ptr::addr_of!(LBA_S396MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S396PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S396TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG576_PRO_IMPL),
+		ptr::addr_of!(LBA_S361MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S361PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S361TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG580_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG581_PRO_IMPL),
+		ptr::addr_of!(LBA_S401MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S401PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S401TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG586_PRO_IMPL),
+		ptr::addr_of!(LBA_S431MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S431PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S431TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG591_PRO_IMPL),
+		ptr::addr_of!(LBA_S426MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S426PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S426TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG596_PRO_IMPL),
+		ptr::addr_of!(LBA_S446MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S446PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S446TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG601_PRO_IMPL),
+		ptr::addr_of!(LBA_S436MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S436PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S436TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG606_PRO_IMPL),
+		ptr::addr_of!(LBA_S411MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S411PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S411TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG611_PRO_IMPL),
+		ptr::addr_of!(LBA_S466MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S466PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S466TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG616_PRO_IMPL),
+		ptr::addr_of!(LBA_S496MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S496PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S496TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG621_PRO_IMPL),
+		ptr::addr_of!(LBA_S491MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S491PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S491TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG631_PRO_IMPL),
+		ptr::addr_of!(LBA_S486MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S486PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S486TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG636_PRO_IMPL),
+		ptr::addr_of!(LBA_S506MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S506PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S506TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG641_PRO_IMPL),
+		ptr::addr_of!(LBA_S501MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S501PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S501TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG646_PRO_IMPL),
+		ptr::addr_of!(LBA_S521MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S521PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S521TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG651_PRO_IMPL),
+		ptr::addr_of!(LBA_S538MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S538PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S538TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG656_PRO_IMPL),
+		ptr::addr_of!(LBA_S551MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S551PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S551TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG661_PRO_IMPL),
+		ptr::addr_of!(LBA_S561MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S561PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S561TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG676_PRO_IMPL),
+		ptr::addr_of!(LBA_S571MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S571PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S571TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG680_PRO_IMPL),
+		ptr::addr_of!(LBA_S576MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S576PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S576TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG686_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG690_PRO_IMPL),
+		ptr::addr_of!(LBA_S556MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S556PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S556TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG691_PRO_IMPL),
+		ptr::addr_of!(LBA_S591MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S591PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S591TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG695_PRO_IMPL),
+		ptr::addr_of!(LBA_S586MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S586PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S586TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG696_PRO_IMPL),
+		ptr::addr_of!(LBA_S601MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S601PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S601TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG700_PRO_IMPL),
+		ptr::addr_of!(LBA_S596MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S596PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S596TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG701_PRO_IMPL),
+		ptr::addr_of!(LBA_S451MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S451PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S451TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG705_PRO_IMPL),
+		ptr::addr_of!(LBA_S481MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S481PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S481TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG706_PRO_IMPL),
+		ptr::addr_of!(LBA_S686MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S686PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S686TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG711_PRO_IMPL),
+		ptr::addr_of!(LBA_S696MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S696PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S696TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG715_PRO_IMPL),
+		ptr::addr_of!(LBA_STALBMCS_BIN_IMPL),
+		ptr::addr_of!(LBA_STALBMTM_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG716_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG720_PRO_IMPL),
+		ptr::addr_of!(LBA_M178KNGT_BIN_IMPL),
+		ptr::addr_of!(LBA_M377BLZB_BIN_IMPL),
+		ptr::addr_of!(LBA_M327RUNX_BIN_IMPL),
+		ptr::addr_of!(LBA_M337ZAMB_BIN_IMPL),
+		ptr::addr_of!(LBA_S295MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S295PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S295TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG721_PRO_IMPL),
+		ptr::addr_of!(LBA_S606MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S606PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S606TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG725_PRO_IMPL),
+		ptr::addr_of!(LBA_S621MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S621PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S621TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG726_PRO_IMPL),
+		ptr::addr_of!(LBA_S611MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S611PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S611TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG730_PRO_IMPL),
+		ptr::addr_of!(LBA_S631MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S631PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S631TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG731_PRO_IMPL),
+		ptr::addr_of!(LBA_S616MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S616PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S616TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG735_PRO_IMPL),
+		ptr::addr_of!(LBA_S656MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S656PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S656TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S691MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S646MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S646PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S646TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S691PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S651MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S651PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S651TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S691TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S641MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S641PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S641TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG736_PRO_IMPL),
+		ptr::addr_of!(LBA_S636MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S636PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S636TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S480MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV025_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV025_BIN_IMPL),
+		ptr::addr_of!(LBA_S680MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S680PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S680TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_STCDSPCS_BIN_IMPL),
+		ptr::addr_of!(LBA_S690MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S690PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S690TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_STCDSPTM_BIN_IMPL),
+		ptr::addr_of!(LBA_S700MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S700PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S700TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_M382ARMG_BIN_IMPL),
+		ptr::addr_of!(LBA_S705MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S705PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S705TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_M272SHDR_BIN_IMPL),
+		ptr::addr_of!(LBA_P151NICK_BIN_IMPL),
+		ptr::addr_of!(LBA_P167SAGM_BIN_IMPL),
+		ptr::addr_of!(LBA_P169NSPM_BIN_IMPL),
+		ptr::addr_of!(LBA_P168PAGM_BIN_IMPL),
+		ptr::addr_of!(LBA_M247DEMN_BIN_IMPL),
+		ptr::addr_of!(LBA_M365ARCH_BIN_IMPL),
+		ptr::addr_of!(LBA_M437BAST_BIN_IMPL),
+		ptr::addr_of!(LBA_M372SGRG_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG740_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG741_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG745_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG746_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG750_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG755_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG756_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG760_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG761_PRO_IMPL),
+		ptr::addr_of!(LBA_S711MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S711PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S711TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG795_PRO_IMPL),
+		ptr::addr_of!(LBA_S676MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S676PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S676TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG800_PRO_IMPL),
+		ptr::addr_of!(LBA_S661MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S661PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S661TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG805_PRO_IMPL),
+		ptr::addr_of!(LBA_S701MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S701PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S701TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG810_PRO_IMPL),
+		ptr::addr_of!(LBA_S720MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S720PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S720TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG815_PRO_IMPL),
+		ptr::addr_of!(LBA_S805MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S805PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S805TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG820_PRO_IMPL),
+		ptr::addr_of!(LBA_S721MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S721PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S721TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG825_PRO_IMPL),
+		ptr::addr_of!(LBA_S730MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S730PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S730TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG830_PRO_IMPL),
+		ptr::addr_of!(LBA_M436VALV_BIN_IMPL),
+		ptr::addr_of!(LBA_M443SGR2_BIN_IMPL),
+		ptr::addr_of!(LBA_S716MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S716PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S716TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG835_PRO_IMPL),
+		ptr::addr_of!(LBA_S706MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S706PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S706TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG840_PRO_IMPL),
+		ptr::addr_of!(LBA_S726MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S726PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S726TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG845_PRO_IMPL),
+		ptr::addr_of!(LBA_S875MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S875PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S875TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG875_PRO_IMPL),
+		ptr::addr_of!(LBA_S880MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S880PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S880TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S885MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S885PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S885TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S890MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S890PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S890TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S895MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S895PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S895TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG880_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG885_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG890_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG895_PRO_IMPL),
+		ptr::addr_of!(LBA_S825MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S825PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S825TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG850_PRO_IMPL),
+		ptr::addr_of!(LBA_S725MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S725PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S725TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG855_PRO_IMPL),
+		ptr::addr_of!(LBA_S351MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S351PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S351TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG860_PRO_IMPL),
+		ptr::addr_of!(LBA_S356MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S356PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S356TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG865_PRO_IMPL),
+		ptr::addr_of!(LBA_S865MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S865PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S865TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG870_PRO_IMPL),
+		ptr::addr_of!(LBA_S870MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S870PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S870TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_M441RAIZ_BIN_IMPL),
+		ptr::addr_of!(LBA_S526MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S526PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S526TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S735MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S735PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S735TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S371MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S371PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S371TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S750MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S750PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S750TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S566MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S566PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S566TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S731MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S731PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S731TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S736MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S736PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S736TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_M144ROSE_BIN_IMPL),
+		ptr::addr_of!(LBA_M334MLDR_BIN_IMPL),
+		ptr::addr_of!(LBA_S746MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S746PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S746TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S755MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S755PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S755TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S756MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S756PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S756TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S761MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S761PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S761TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_E059HOUO_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1016_BIN_IMPL),
+		ptr::addr_of!(LBA_S740MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S740PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S740TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1021_BIN_IMPL),
+		ptr::addr_of!(LBA_S850MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S850PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S850TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1022_BIN_IMPL),
+		ptr::addr_of!(LBA_S835MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S835PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S835TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_M378BVND_BIN_IMPL),
+		ptr::addr_of!(LBA_S456MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S456PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S456TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S745MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S810MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S810PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S810TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S745TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S855MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S855PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S855TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S795MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S860MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S860PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S860TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S795TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S540MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S540PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S540TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S800MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S441MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S441PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S441TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S800TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S830MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S830PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S830TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_M238SNAI_BIN_IMPL),
+		ptr::addr_of!(LBA_S845MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S845PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S845TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_M241HNGY_BIN_IMPL),
+		ptr::addr_of!(LBA_S271MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S271PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S271TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1001_BIN_IMPL),
+		ptr::addr_of!(LBA_S476MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S476PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S476TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1002_BIN_IMPL),
+		ptr::addr_of!(LBA_M244SKST_BIN_IMPL),
+		ptr::addr_of!(LBA_S745PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_M245INFR_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1003_BIN_IMPL),
+		ptr::addr_of!(LBA_S820MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S820PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S820TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1004_BIN_IMPL),
+		ptr::addr_of!(LBA_S760MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S760PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S760TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1005_BIN_IMPL),
+		ptr::addr_of!(LBA_M250KGET_BIN_IMPL),
+		ptr::addr_of!(LBA_M364MUMY_BIN_IMPL),
+		ptr::addr_of!(LBA_M465SNAT_BIN_IMPL),
+		ptr::addr_of!(LBA_M277BARO_BIN_IMPL),
+		ptr::addr_of!(LBA_M439FUJI_BIN_IMPL),
+		ptr::addr_of!(LBA_M302GAGO_BIN_IMPL),
+		ptr::addr_of!(LBA_S795PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_M356HAND_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1006_BIN_IMPL),
+		ptr::addr_of!(LBA_M358PHAR_BIN_IMPL),
+		ptr::addr_of!(LBA_S800PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_M360ANTR_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1007_BIN_IMPL),
+		ptr::addr_of!(LBA_M389KYKI_BIN_IMPL),
+		ptr::addr_of!(LBA_M411MLD2_BIN_IMPL),
+		ptr::addr_of!(LBA_M392SLAG_BIN_IMPL),
+		ptr::addr_of!(LBA_M440SIJN_BIN_IMPL),
+		ptr::addr_of!(LBA_M393CNND_BIN_IMPL),
+		ptr::addr_of!(LBA_M438RIDN_BIN_IMPL),
+		ptr::addr_of!(LBA_M412GAR2_BIN_IMPL),
+		ptr::addr_of!(LBA_M434ANT2_BIN_IMPL),
+		ptr::addr_of!(LBA_MPEVO_00_BIN_IMPL),
+		ptr::addr_of!(LBA_MPJOG_00_BIN_IMPL),
+		ptr::addr_of!(LBA_MVEVO_00_BIN_IMPL),
+		ptr::addr_of!(LBA_MVJOG_00_BIN_IMPL),
+		ptr::addr_of!(LBA_S715MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S715PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S715TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1008_BIN_IMPL),
+		ptr::addr_of!(LBA_M466RGN2_BIN_IMPL),
+		ptr::addr_of!(LBA_M423SNA2_BIN_IMPL),
+		ptr::addr_of!(LBA_M435GAR3_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG920_PRO_IMPL),
+		ptr::addr_of!(LBA_P165SAGD_BIN_IMPL),
+		ptr::addr_of!(LBA_P166PAGD_BIN_IMPL),
+		ptr::addr_of!(LBA_P016RDMD_BIN_IMPL),
+		ptr::addr_of!(LBA_P173KBOY_BIN_IMPL),
+		ptr::addr_of!(LBA_P170GOMA_BIN_IMPL),
+		ptr::addr_of!(LBA_M442RGN1_BIN_IMPL),
+		ptr::addr_of!(LBA_S406MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S406PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S406TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1009_BIN_IMPL),
+		ptr::addr_of!(LBA_S315MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S315PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S315TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S840MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S840PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S840TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S531MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S531PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S531TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S741MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S741PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S741TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1010_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1011_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1012_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1013_BIN_IMPL),
+		ptr::addr_of!(LBA_M446BKNM_BIN_IMPL),
+		ptr::addr_of!(LBA_M454KYK9_BIN_IMPL),
+		ptr::addr_of!(LBA_M457CDC1_BIN_IMPL),
+		ptr::addr_of!(LBA_M458CDC2_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0093_BIN_IMPL),
+		ptr::addr_of!(LBA_M459CDU1_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0094_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1014_BIN_IMPL),
+		ptr::addr_of!(LBA_S415TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S415MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1015_BIN_IMPL),
+		ptr::addr_of!(LBA_M460CDU2_BIN_IMPL),
+		ptr::addr_of!(LBA_M461CDR1_BIN_IMPL),
+		ptr::addr_of!(LBA_S325MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S325PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S325TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_M462CDR2_BIN_IMPL),
+		ptr::addr_of!(LBA_M463CDS1_BIN_IMPL),
+		ptr::addr_of!(LBA_M464CDS2_BIN_IMPL),
+		ptr::addr_of!(LBA_S415BG01_BIN_IMPL),
+		ptr::addr_of!(LBA_S415BG02_BIN_IMPL),
+		ptr::addr_of!(LBA_M467RGN3_BIN_IMPL),
+		ptr::addr_of!(LBA_S695MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S695PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S695TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0065_BIN_IMPL),
+		ptr::addr_of!(LBA_NAMEDTCS_BIN_IMPL),
+		ptr::addr_of!(LBA_NAMEDTTM_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0095_BIN_IMPL),
+		ptr::addr_of!(LBA_E369DUKE_BIN_IMPL),
+		ptr::addr_of!(LBA_S815MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S815BG01_BIN_IMPL),
+		ptr::addr_of!(LBA_S815TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1017_BIN_IMPL),
+		ptr::addr_of!(LBA_S581MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S581PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S581TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1018_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1055_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0088_BIN_IMPL),
+		ptr::addr_of!(LBA_S580MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S580PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S580TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1019_BIN_IMPL),
+		ptr::addr_of!(LBA_S420MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S420PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S420TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S421MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S421PACK_BIN_IMPL),
+		ptr::addr_of!(LBA_S421TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1020_BIN_IMPL),
+		ptr::addr_of!(LBA_E020ANGE_BIN_IMPL),
+		ptr::addr_of!(LBA_E367GRAW_BIN_IMPL),
+		ptr::addr_of!(LBA_E006DEVI_BIN_IMPL),
+		ptr::addr_of!(LBA_E144ROSE_BIN_IMPL),
+		ptr::addr_of!(LBA_E230GKWA_BIN_IMPL),
+		ptr::addr_of!(LBA_E234ANGW_BIN_IMPL),
+		ptr::addr_of!(LBA_E259EXVM_BIN_IMPL),
+		ptr::addr_of!(LBA_E386DINO_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1023_BIN_IMPL),
+		ptr::addr_of!(LBA_P178NBEA_BIN_IMPL),
+		ptr::addr_of!(LBA_P179NKOE_BIN_IMPL),
+		ptr::addr_of!(LBA_P180NKOT_BIN_IMPL),
+		ptr::addr_of!(LBA_P153DGTM_BIN_IMPL),
+		ptr::addr_of!(LBA_P154DGTB_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1024_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1025_BIN_IMPL),
+		ptr::addr_of!(LBA_STWMP0CS_BIN_IMPL),
+		ptr::addr_of!(LBA_STWMP0TM_BIN_IMPL),
+		ptr::addr_of!(LBA_STWMP1CS_BIN_IMPL),
+		ptr::addr_of!(LBA_STWMP1TM_BIN_IMPL),
+		ptr::addr_of!(LBA_E000COM1_BIN_IMPL),
+		ptr::addr_of!(LBA_F000COM1_BIN_IMPL),
+		ptr::addr_of!(LBA_STFRPTCS_BIN_IMPL),
+		ptr::addr_of!(LBA_STFRPTTM_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV205_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV205_BIN_IMPL),
+		ptr::addr_of!(LBA_E000COM2_BIN_IMPL),
+		ptr::addr_of!(LBA_CARD_NPC_BIN_IMPL),
+		ptr::addr_of!(LBA_E211HANG_BIN_IMPL),
+		ptr::addr_of!(LBA_M468AGNM_BIN_IMPL),
+		ptr::addr_of!(LBA_P149SNCM_BIN_IMPL),
+		ptr::addr_of!(LBA_P181SSPM_BIN_IMPL),
+		ptr::addr_of!(LBA_P175SPMM_BIN_IMPL),
+		ptr::addr_of!(LBA_P174PIYO_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1026_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBOSS03_BIN_IMPL),
+		ptr::addr_of!(LBA_P172FJJI_BIN_IMPL),
+		ptr::addr_of!(LBA_F000COM2_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1027_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1028_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1029_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1030_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1031_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1032_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1033_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1034_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1035_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1036_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1037_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1038_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1039_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1040_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1041_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1042_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1043_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1044_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1045_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1046_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1047_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1048_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1049_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1050_BIN_IMPL),
+		ptr::addr_of!(LBA_MPBOSS04_BIN_IMPL),
+		ptr::addr_of!(LBA_M469GARM_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1051_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBOSS03_BIN_IMPL),
+		ptr::addr_of!(LBA_MVBOSS04_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1052_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT1053_BIN_IMPL),
+		ptr::addr_of!(LBA_M470AGRY_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0221_BIN_IMPL),
+		ptr::addr_of!(LBA_P124SATE_BIN_IMPL),
+		ptr::addr_of!(LBA_P127SEID_BIN_IMPL),
+		ptr::addr_of!(LBA_P128TISD_BIN_IMPL),
+		ptr::addr_of!(LBA_P182BOMP_BIN_IMPL),
+		ptr::addr_of!(LBA_P183BOMB_BIN_IMPL),
+		ptr::addr_of!(LBA_P184CBEM_BIN_IMPL),
+		ptr::addr_of!(LBA_P185BEMG_BIN_IMPL),
+		ptr::addr_of!(LBA_P186BEMP_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0087_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0108_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0109_BIN_IMPL),
+		ptr::addr_of!(LBA_E145VMON_BIN_IMPL),
+		ptr::addr_of!(LBA_E260STNG_BIN_IMPL),
+		ptr::addr_of!(LBA_E374KYBI_BIN_IMPL),
+		ptr::addr_of!(LBA_E375TAOM_BIN_IMPL),
+		ptr::addr_of!(LBA_E383PKEN_BIN_IMPL),
+		ptr::addr_of!(LBA_E000COM3_BIN_IMPL),
+		ptr::addr_of!(LBA_F000COM3_BIN_IMPL),
+		ptr::addr_of!(LBA_E000COM4_BIN_IMPL),
+		ptr::addr_of!(LBA_F000COM4_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0096_BIN_IMPL),
+		ptr::addr_of!(LBA_E056DIGI_BIN_IMPL),
+		ptr::addr_of!(LBA_E066VAND_BIN_IMPL),
+		ptr::addr_of!(LBA_E150OMGM_BIN_IMPL),
+		ptr::addr_of!(LBA_E373RENA_BIN_IMPL),
+		ptr::addr_of!(LBA_E377BLZB_BIN_IMPL),
+		ptr::addr_of!(LBA_MOVIED01_STR_IMPL),
+		ptr::addr_of!(LBA_MOVIED03_STR_IMPL),
+		ptr::addr_of!(LBA_MOVIED04_STR_IMPL),
+		ptr::addr_of!(LBA_MOVIED05_STR_IMPL),
+		ptr::addr_of!(LBA_MOVIED06_STR_IMPL),
+		ptr::addr_of!(LBA_MOVIED07_STR_IMPL),
+		ptr::addr_of!(LBA_MOVIED08_STR_IMPL),
+		ptr::addr_of!(LBA_MEFT1054_BIN_IMPL),
+		ptr::addr_of!(LBA_MOVIED02_STR_IMPL),
+		ptr::addr_of!(LBA_MOVIEE01_STR_IMPL),
+		ptr::addr_of!(LBA_MOVIEOPN_STR_IMPL),
+		ptr::addr_of!(LBA_E000JOGL_BIN_IMPL),
+		ptr::addr_of!(LBA_CARDPAK0_BIN_IMPL),
+		ptr::addr_of!(LBA_CARDPAK1_BIN_IMPL),
+		ptr::addr_of!(LBA_CARDPAK2_BIN_IMPL),
+		ptr::addr_of!(LBA_CARDPAK3_BIN_IMPL),
+		ptr::addr_of!(LBA_CARDPAK4_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0089_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0101_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0102_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0103_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0106_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0107_BIN_IMPL),
+		ptr::addr_of!(LBA_E381IPDP_BIN_IMPL),
+		ptr::addr_of!(LBA_E389KYKI_BIN_IMPL),
+		ptr::addr_of!(LBA_E385KOGU_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0097_BIN_IMPL),
+		ptr::addr_of!(LBA_E388GRIZ_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0098_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0090_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0091_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0092_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0099_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0100_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0113_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0039_BIN_IMPL),
+		ptr::addr_of!(LBA_E014MONZ_BIN_IMPL),
+		ptr::addr_of!(LBA_E004BETA_BIN_IMPL),
+		ptr::addr_of!(LBA_E438RIDN_BIN_IMPL),
+		ptr::addr_of!(LBA_E110GECO_BIN_IMPL),
+		ptr::addr_of!(LBA_E193GRFO_BIN_IMPL),
+		ptr::addr_of!(LBA_E302GAGO_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0066_BIN_IMPL),
+		ptr::addr_of!(LBA_P187STRI_BIN_IMPL),
+		ptr::addr_of!(LBA_MOVIEE04_STR_IMPL),
+		ptr::addr_of!(LBA_MOVIEE03_STR_IMPL),
+		ptr::addr_of!(LBA_E364MUMY_BIN_IMPL),
+		ptr::addr_of!(LBA_E229PUKU_BIN_IMPL),
+		ptr::addr_of!(LBA_E439FUJI_BIN_IMPL),
+		ptr::addr_of!(LBA_E365ARCH_BIN_IMPL),
+		ptr::addr_of!(LBA_E037BAKE_BIN_IMPL),
+		ptr::addr_of!(LBA_E135DVDR_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0201_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0202_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0203_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0204_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0205_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0206_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0207_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0208_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0209_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0210_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0211_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0212_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0213_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0214_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0215_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0216_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0217_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0218_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0219_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0220_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0222_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0223_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0224_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0225_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0226_BIN_IMPL),
+		ptr::addr_of!(LBA_MPENV206_BIN_IMPL),
+		ptr::addr_of!(LBA_MVENV206_BIN_IMPL),
+		ptr::addr_of!(LBA_P188BLOK_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0085_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0086_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0301_BIN_IMPL),
+		ptr::addr_of!(LBA_E372SGRG_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0302_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0303_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0306_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0307_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0308_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0309_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0375_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0310_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0311_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0312_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0313_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0314_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0315_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0316_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0317_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0318_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0319_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0320_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0321_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0322_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0323_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0324_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0325_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0326_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0327_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0328_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0329_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0330_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0331_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0332_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0333_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0334_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0335_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0336_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0337_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0338_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0339_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0340_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0341_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0342_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0343_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0344_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0345_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0346_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0347_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0348_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0349_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0350_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0351_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0352_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0353_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0354_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0355_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0356_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0357_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0358_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0359_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0360_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0361_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0362_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0363_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0364_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0365_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0366_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0367_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0368_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0369_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0370_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0371_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0372_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0374_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0114_BIN_IMPL),
+		ptr::addr_of!(LBA_TLOGOJPN_BIN_IMPL),
+		ptr::addr_of!(LBA_TTCOMMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_E433ANO2_BIN_IMPL),
+		ptr::addr_of!(LBA_E430DOR2_BIN_IMPL),
+		ptr::addr_of!(LBA_E431VIK2_BIN_IMPL),
+		ptr::addr_of!(LBA_E434ANT2_BIN_IMPL),
+		ptr::addr_of!(LBA_SSUBDEMO_BIN_IMPL),
+		ptr::addr_of!(LBA_SDIGDEMO_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0115_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0116_BIN_IMPL),
+		ptr::addr_of!(LBA_E390ASLT_BIN_IMPL),
+		ptr::addr_of!(LBA_P189PKEL_BIN_IMPL),
+		ptr::addr_of!(LBA_P190KOGL_BIN_IMPL),
+		ptr::addr_of!(LBA_P191KOEL_BIN_IMPL),
+		ptr::addr_of!(LBA_P192AGUL_BIN_IMPL),
+		ptr::addr_of!(LBA_P194GIRL_BIN_IMPL),
+		ptr::addr_of!(LBA_P195RENL_BIN_IMPL),
+		ptr::addr_of!(LBA_P196PATL_BIN_IMPL),
+		ptr::addr_of!(LBA_S815BG02_BIN_IMPL),
+		ptr::addr_of!(LBA_P193VMOL_BIN_IMPL),
+		ptr::addr_of!(LBA_MPTTLBGM_BIN_IMPL),
+		ptr::addr_of!(LBA_MVTTLBGM_BIN_IMPL),
+		ptr::addr_of!(LBA_P197BLXE_BIN_IMPL),
+		ptr::addr_of!(LBA_E245INFR_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0377_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0378_BIN_IMPL),
+		ptr::addr_of!(LBA_P198ADME_BIN_IMPL),
+		ptr::addr_of!(LBA_MEFT0376_BIN_IMPL),
+		ptr::addr_of!(LBA_E000EVOL_BIN_IMPL),
+		ptr::addr_of!(LBA_CNTSELWN_BIN_IMPL),
+		ptr::addr_of!(LBA_TLOGOUSA_BIN_IMPL),
+		ptr::addr_of!(LBA_MOVIEE02_STR_IMPL),
+		ptr::addr_of!(LBA_END__ALL_BIN_IMPL),
+		ptr::addr_of!(LBA_CMNBGDTM_BIN_IMPL),
+		ptr::addr_of!(LBA_S920MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG921_PRO_IMPL),
+		ptr::addr_of!(LBA_S920TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_WSTAG922_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG923_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG924_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG925_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG926_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG927_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG928_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG929_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG930_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG931_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG932_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG933_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG934_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG935_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG936_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG937_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG938_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG939_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG940_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG941_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG942_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG943_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG944_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG945_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG946_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG947_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG948_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG949_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG950_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG951_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG952_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG953_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG954_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG955_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG956_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG957_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG958_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG959_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG960_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG961_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG962_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG963_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG964_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG965_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG966_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG967_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG968_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG969_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG970_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG971_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG972_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG973_PRO_IMPL),
+		ptr::addr_of!(LBA_WSTAG974_PRO_IMPL),
+		ptr::addr_of!(LBA_S923MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S921MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S923TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S921TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S922MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S924MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S922TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S924TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S925MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S925TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S926MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S926TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S927MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S927TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S928MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S928TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S929MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S929TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S930MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S930TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S931MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S931TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S932MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S932TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S933MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S933TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S934MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S934TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S935MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S935TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S936MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S936TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S937MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S937TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S938MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S938TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S939MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S939TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S940MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S940TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S941MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S941TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S942MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S942TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S943MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S943TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S944MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S944TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S945MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S945TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S946MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S946TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S947TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S947MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S948MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S948TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S949MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S949TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S950MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S950TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S951MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S951TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S952MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S952TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S953MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S953TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S954MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S954TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S955MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S955TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S956MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S956TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S957MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S957TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S958MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S958TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S959MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S959TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S960MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S960TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S961MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S961TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S962MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S962TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S963MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S963TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S964MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S964TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S965MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S965TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S966MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S966TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S967MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S967TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S968MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S968TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S969MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S969TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S970MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S970TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S971MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S971TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S972MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S972TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S973MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S973TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_S974MASK_BIN_IMPL),
+		ptr::addr_of!(LBA_S974TMPK_BIN_IMPL),
+		ptr::addr_of!(LBA_MOVIEOP2_STR_IMPL),
+		ptr::addr_of!(LBA_TLOGOPAL_BIN_IMPL),
+	] };
+
+
 
 	//
 	pub static mut D0x800474a4: [u16; 2382] = [
