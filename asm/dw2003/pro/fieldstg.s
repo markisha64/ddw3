@@ -3350,12 +3350,12 @@ FIELDSTG:
 .L0x0000343c: lui $v0, 0x800a                     # .word 0x3c02800a
 .L0x00003440: addiu $s6, $v0, -0x6280             # .word 0x24569d80
 .L0x00003444: addiu $s0, $s1, 0xe                 # .word 0x2630000e
-.L0x00003448: jal 0x8002913c                      # .word 0x0c00a44f
+.L0x00003448: jal F0x8002913c                      # .word 0x0c00a44f
 .L0x0000344c: move_ $a0, $s1                      # .word 0x02202021
 .L0x00003450: li $v0, 0xff                        # .word 0x240200ff
 .L0x00003454: beq $s5, $v0, .L0x00003464          # .word 0x12a20003
 .L0x00003458: move_ $a0, $s1                      # .word 0x02202021
-.L0x0000345c: jal 0x8002910c                      # .word 0x0c00a443
+.L0x0000345c: jal F0x8002910c                      # .word 0x0c00a443
 .L0x00003460: li $a1, 0x1                         # .word 0x24050001
 .L0x00003464: andi $v0, $s4, 0x1                  # .word 0x32820001
 .L0x00003468: sb $s5, -0x8($s0)                   # .word 0xa215fff8
@@ -3389,7 +3389,7 @@ FIELDSTG:
 .L0x000034d8: nop                                 # .word 0x00000000
 .L0x000034dc: lh $a0, 0x1c($v0)                   # .word 0x8444001c
 .L0x000034e0: lh $a1, 0x1e($v0)                   # .word 0x8445001e
-.L0x000034e4: jal 0x800290ec                      # .word 0x0c00a43b
+.L0x000034e4: jal F0x800290ec                      # .word 0x0c00a43b
 .L0x000034e8: addiu $s4, 0x1                      # .word 0x26940001
 .L0x000034ec: sh $v0, ($s0)                       # .word 0xa6020000
 .L0x000034f0: addiu $s0, 0x14                     # .word 0x26100014
@@ -3410,7 +3410,7 @@ FIELDSTG:
 .L0x0000352c: addiu $s0, 0x8                      # .word 0x26100008
 .L0x00003530: lh $a2, 0x10($v0)                   # .word 0x84460010
 .L0x00003534: lh $a3, 0x12($v0)                   # .word 0x84470012
-.L0x00003538: jal 0x800290ac                      # .word 0x0c00a42b
+.L0x00003538: jal F0x800290ac                      # .word 0x0c00a42b
 .L0x0000353c: addiu $s1, 0x14                     # .word 0x26310014
 .L0x00003540: move_ $a0, $s1                      # .word 0x02202021
 .L0x00003544: move_ $a1, $zr                      # .word 0x00002821
@@ -4243,7 +4243,7 @@ FIELDSTG:
 .L0x00004230: nop                                 # .word 0x00000000
 .L0x00004234: beqz $v0, .L0x0000434c              # .word 0x10400045
 .L0x00004238: nop                                 # .word 0x00000000
-.L0x0000423c: jal 0x8002913c                      # .word 0x0c00a44f
+.L0x0000423c: jal F0x8002913c                      # .word 0x0c00a44f
 .L0x00004240: move_ $a0, $s1                      # .word 0x02202021
 .L0x00004244: li $v0, 0x2                         # .word 0x24020002
 .L0x00004248: beq $s7, $v0, .L0x00004260          # .word 0x12e20005
@@ -4325,7 +4325,7 @@ FIELDSTG:
 .L0x00004378: sw $t0, 0x1c($sp)                   # .word 0xafa8001c
 .L0x0000437c: lw $a2, 0x74($s6)                   # .word 0x8ec60074
 .L0x00004380: lw $a3, 0x78($s6)                   # .word 0x8ec70078
-.L0x00004384: jal 0x800290ac                      # .word 0x0c00a42b
+.L0x00004384: jal F0x800290ac                      # .word 0x0c00a42b
 .L0x00004388: addu $s7, $a0                       # .word 0x02e4b821
 .L0x0000438c: move_ $a0, $s1                      # .word 0x02202021
 .L0x00004390: move_ $a1, $zr                      # .word 0x00002821
@@ -13093,7 +13093,7 @@ FIELDSTG:
 .L0x0000cc78: sw $v0, ($s4)                       # .word 0xae820000
 .L0x0000cc7c: lh $a2, ($a3)                       # .word 0x84e60000
 .L0x0000cc80: lh $a3, 0x2($a3)                    # .word 0x84e70002
-.L0x0000cc84: jal 0x800290ac                      # .word 0x0c00a42b
+.L0x0000cc84: jal F0x800290ac                      # .word 0x0c00a42b
 .L0x0000cc88: addiu $s0, 0x14                     # .word 0x26100014
 .L0x0000cc8c: move_ $a0, $s0                      # .word 0x02002021
 .L0x0000cc90: move_ $a1, $zr                      # .word 0x00002821

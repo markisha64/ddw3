@@ -597,7 +597,7 @@ STDWTITL:
 .L0x00000934: li $s0, 0x7d0
 .L0x00000938: sw $ra, 0x20($sp)
 .L0x0000093c: addiu $a0, $sp, 0x10
-.L0x00000940: jal 0x8002bf5c
+.L0x00000940: jal F0x8002bf5c
 .L0x00000944: addiu $a1, $sp, 0x14
 .L0x00000948: beqz $v0, .L0x00000960
 .L0x0000094c: addiu $s0, -0x1
@@ -676,7 +676,7 @@ STDWTITL:
 .L0x00000a70: lw $a1, ($v0)
 .L0x00000a74: jal 0x8008780c
 .L0x00000a78: move_ $a0, $s0
-.L0x00000a7c: jal 0x8002be6c
+.L0x00000a7c: jal F0x8002be6c
 .L0x00000a80: move_ $a0, $s0
 .L0x00000a84: j 0x80083748
 .L0x00000a88: move_ $v0, $zr

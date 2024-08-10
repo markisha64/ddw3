@@ -1555,7 +1555,7 @@ SHOCKTST:
 .L0x0000182c: .word 0x26f50002 # addiu $s5, $s7, 0x2
 .L0x00001830: .word 0x02202021 # move_ $a0, $s1
 .L0x00001834: .word 0x3c078008 # lui $a3, 0x8008
-.L0x00001838: .word 0x0c009477 # jal 0x800251dc
+.L0x00001838: .word 0x0c009477 # jal F0x800251dc
 .L0x0000183c: .word 0x24e52d40 # addiu $a1, $a3, 0x2d40
 .L0x00001840: .word 0x02228821 # addu $s1, $v0
 .L0x00001844: .word 0x92220000 # lbu $v0, ($s1)
@@ -1571,7 +1571,7 @@ SHOCKTST:
 .L0x0000186c: .word 0x2631ffff # addiu $s1, -0x1
 .L0x00001870: .word 0x02202021 # move_ $a0, $s1
 .L0x00001874: .word 0x3c078008 # lui $a3, 0x8008
-.L0x00001878: .word 0x0c009477 # jal 0x800251dc
+.L0x00001878: .word 0x0c009477 # jal F0x800251dc
 .L0x0000187c: .word 0x24e52d40 # addiu $a1, $a3, 0x2d40
 .L0x00001880: .word 0x02228821 # addu $s1, $v0
 .L0x00001884: .word 0x92220000 # lbu $v0, ($s1)
@@ -1587,7 +1587,7 @@ SHOCKTST:
 .L0x000018ac: .word 0x2631ffff # addiu $s1, -0x1
 .L0x000018b0: .word 0x02202021 # move_ $a0, $s1
 .L0x000018b4: .word 0x3c078008 # lui $a3, 0x8008
-.L0x000018b8: .word 0x0c009477 # jal 0x800251dc
+.L0x000018b8: .word 0x0c009477 # jal F0x800251dc
 .L0x000018bc: .word 0x24e52d40 # addiu $a1, $a3, 0x2d40
 .L0x000018c0: .word 0x00408021 # move_ $s0, $v0
 .L0x000018c4: .word 0x0c0094c3 # jal F0x8002530c
@@ -1609,7 +1609,7 @@ SHOCKTST:
 .L0x00001904: .word 0x02202021 # move_ $a0, $s1
 .L0x00001908: .word 0x00009021 # move_ $s2, $zr
 .L0x0000190c: .word 0x3c078008 # lui $a3, 0x8008
-.L0x00001910: .word 0x0c009477 # jal 0x800251dc
+.L0x00001910: .word 0x0c009477 # jal F0x800251dc
 .L0x00001914: .word 0x24e52d44 # addiu $a1, $a3, 0x2d44
 .L0x00001918: .word 0x00408021 # move_ $s0, $v0
 .L0x0000191c: .word 0x0c0094c3 # jal F0x8002530c
@@ -1646,7 +1646,7 @@ SHOCKTST:
 .L0x00001998: .word 0x080211a3 # j 0x8008468c
 .L0x0000199c: .word 0x26d60002 # addiu $s6, 0x2
 .L0x000019a0: .word 0x3c058008 # lui $a1, 0x8008
-.L0x000019a4: .word 0x0c009477 # jal 0x800251dc
+.L0x000019a4: .word 0x0c009477 # jal F0x800251dc
 .L0x000019a8: .word 0x24a52d48 # addiu $a1, 0x2d48
 .L0x000019ac: .word 0x02228821 # addu $s1, $v0
 .L0x000019b0: .word 0x92230000 # lbu $v1, ($s1)
