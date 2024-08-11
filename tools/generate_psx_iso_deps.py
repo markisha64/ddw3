@@ -5,6 +5,7 @@ Generates dependencies for a `psx` `ISO` file.
 # Imports
 import argparse
 import xml.etree.ElementTree as ET
+from itertools import chain
 
 
 def main(args):
@@ -14,8 +15,12 @@ def main(args):
 	# Parse the xml file
 	tree = ET.parse(args.xml)
 	root = tree.getroot()
-	files = list(root.iter("file"))
-	files = map(lambda file: file.get("source"), files)
+	files = filter(
+		lambda source: source is not None,
+		map(
+			lambda file: file.get("source"), chain(root.iter("file"), root.iter("dir"))
+		),
+	)
 	files = " ".join(files)
 
 	with open(args.deps_file, "w", encoding="utf-8") as deps_file:

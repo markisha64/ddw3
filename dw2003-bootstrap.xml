@@ -13,8 +13,8 @@
 			<file name="SYSTEM.CNF" type="data" source="dw2003/SYSTEM.CNF" />
 			<file name="SLES_039.36" type="data" source="build/psexe/dw2003/exe-bootstrap.psexe" />
 
-			<dir name="AAA">
-				<dir name="PRO">
+			<dir name="AAA" source="build/iso/empty-dir/">
+				<dir name="PRO" source="build/iso/empty-dir/">
 					<file name="CARDGAME.PRO" type="data" source="build/raw_exe/dw2003/pro/cardgame.bin" />
 					<file name="CNTY_SEL.PRO" type="data" source="build/raw_exe/dw2003/pro/cnty_sel.bin" />
 					<file name="FIELDSTG.PRO" type="data" source="build/raw_exe/dw2003/pro/fieldstg.bin" />
@@ -335,10 +335,10 @@
 					<file name="WSTAG974.PRO" type="data" source="build/raw_exe/dw2003/pro/wstag974.bin" />
 				</dir>
 
-				<dir name="DAT">
+				<dir name="DAT" source="build/iso/empty-dir/">
 					<file name="NONE____.BIN" type="data" source="dw2003/AAA/DAT/NONE____.BIN" />
 
-					<dir name="CARD">
+					<dir name="CARD" source="build/iso/empty-dir/">
 						<file name="CARDDATA.BIN" type="data" source="build/pack/dw2003/card/carddata.bin" />
 						<file name="CARDPACK.BIN" type="data" source="dw2003/AAA/DAT/CARD/CARDPACK.BIN" />
 						<file name="CARDPAK0.BIN" type="data" source="dw2003/AAA/DAT/CARD/CARDPAK0.BIN" />
@@ -349,12 +349,12 @@
 						<file name="CARD_NPC.BIN" type="data" source="dw2003/AAA/DAT/CARD/CARD_NPC.BIN" />
 					</dir>
 
-					<dir name="COUNTRY">
+					<dir name="COUNTRY" source="build/iso/empty-dir/">
 						<file name="CMFONTCS.BIN" type="data" source="dw2003/AAA/DAT/COUNTRY/CMFONTCS.BIN" />
 						<file name="CMFONTTM.BIN" type="data" source="dw2003/AAA/DAT/COUNTRY/CMFONTTM.BIN" />
 						<file name="CNTSELWN.BIN" type="data" source="dw2003/AAA/DAT/COUNTRY/CNTSELWN.BIN" />
 
-						<dir name="ENG">
+						<dir name="ENG" source="build/iso/empty-dir/">
 							<file name="ESAMTMAP.BIN" type="data" source="build/lang_file/dw2003/eng/esamtmap.bin" />
 							<file name="ESASKMAP.BIN" type="data" source="build/lang_file/dw2003/eng/esaskmap.bin" />
 							<file name="ESCARDGM.BIN" type="data" source="build/lang_file/dw2003/eng/escardgm.bin" />
@@ -407,7 +407,7 @@
 							<file name="ESTRAINI.BIN" type="data" source="build/lang_file/dw2003/eng/estraini.bin" />
 						</dir>
 
-						<dir name="FRA">
+						<dir name="FRA" source="build/iso/empty-dir/">
 							<file name="FSAMTMAP.BIN" type="data" source="build/lang_file/dw2003/fra/fsamtmap.bin" />
 							<file name="FSASKMAP.BIN" type="data" source="build/lang_file/dw2003/fra/fsaskmap.bin" />
 							<file name="FSCARDGM.BIN" type="data" source="build/lang_file/dw2003/fra/fscardgm.bin" />
@@ -460,7 +460,7 @@
 							<file name="FSTRAINI.BIN" type="data" source="build/lang_file/dw2003/fra/fstraini.bin" />
 						</dir>
 
-						<dir name="GER">
+						<dir name="GER" source="build/iso/empty-dir/">
 							<file name="DSAMTMAP.BIN" type="data" source="build/lang_file/dw2003/ger/dsamtmap.bin" />
 							<file name="DSASKMAP.BIN" type="data" source="build/lang_file/dw2003/ger/dsaskmap.bin" />
 							<file name="DSCARDGM.BIN" type="data" source="build/lang_file/dw2003/ger/dscardgm.bin" />
@@ -513,7 +513,7 @@
 							<file name="DSTRAINI.BIN" type="data" source="build/lang_file/dw2003/ger/dstraini.bin" />
 						</dir>
 
-						<dir name="ITA">
+						<dir name="ITA" source="build/iso/empty-dir/">
 							<file name="ISAMTMAP.BIN" type="data" source="build/lang_file/dw2003/ita/isamtmap.bin" />
 							<file name="ISASKMAP.BIN" type="data" source="build/lang_file/dw2003/ita/isaskmap.bin" />
 							<file name="ISCARDGM.BIN" type="data" source="build/lang_file/dw2003/ita/iscardgm.bin" />
@@ -566,7 +566,7 @@
 							<file name="ISTRAINI.BIN" type="data" source="build/lang_file/dw2003/ita/istraini.bin" />
 						</dir>
 
-						<dir name="JPN">
+						<dir name="JPN" source="build/iso/empty-dir/">
 							<file name="MSAMTMAP.BIN" type="data" source="build/lang_file/dw2003/jpn/msamtmap.bin" />
 							<file name="MSASKMAP.BIN" type="data" source="build/lang_file/dw2003/jpn/msaskmap.bin" />
 							<file name="MSCARDGM.BIN" type="data" source="build/lang_file/dw2003/jpn/mscardgm.bin" />
@@ -619,7 +619,7 @@
 							<file name="MSTRAINI.BIN" type="data" source="build/lang_file/dw2003/jpn/mstraini.bin" />
 						</dir>
 
-						<dir name="SPN">
+						<dir name="SPN" source="build/iso/empty-dir/">
 							<file name="SSAMTMAP.BIN" type="data" source="build/lang_file/dw2003/spn/ssamtmap.bin" />
 							<file name="SSASKMAP.BIN" type="data" source="build/lang_file/dw2003/spn/ssaskmap.bin" />
 							<file name="SSCARDGM.BIN" type="data" source="build/lang_file/dw2003/spn/sscardgm.bin" />
@@ -672,7 +672,7 @@
 							<file name="SSTRAINI.BIN" type="data" source="build/lang_file/dw2003/spn/sstraini.bin" />
 						</dir>
 
-						<dir name="USA">
+						<dir name="USA" source="build/iso/empty-dir/">
 							<file name="USAMTMAP.BIN" type="data" source="build/lang_file/dw2003/usa/usamtmap.bin" />
 							<file name="USASKMAP.BIN" type="data" source="build/lang_file/dw2003/usa/usaskmap.bin" />
 							<file name="USCARDGM.BIN" type="data" source="build/lang_file/dw2003/usa/uscardgm.bin" />
@@ -728,14 +728,14 @@
 						</dir>
 					</dir>
 
-					<dir name="DGLB">
+					<dir name="DGLB" source="build/iso/empty-dir/">
 						<file name="STDGLBCS.BIN" type="data" source="dw2003/AAA/DAT/DGLB/STDGLBCS.BIN" />
 						<file name="STDGLBTM.BIN" type="data" source="dw2003/AAA/DAT/DGLB/STDGLBTM.BIN" />
 					</dir>
 
-					<dir name="FIELD">
+					<dir name="FIELD" source="build/iso/empty-dir/">
 						<file name="FIELDCOM.BIN" type="data" source="dw2003/AAA/DAT/FIELD/FIELDCOM.BIN" />
-						<dir name="SPRT">
+						<dir name="SPRT" source="build/iso/empty-dir/">
 							<file name="P001PLAY.BIN" type="data" source="build/pack/dw2003/field/sprite/p001play.bin" />
 							<file name="P002PLAY.BIN" type="data" source="build/pack/dw2003/field/sprite/p002play.bin" />
 							<file name="P002PLYD.BIN" type="data" source="build/pack/dw2003/field/sprite/p002plyd.bin" />
@@ -917,7 +917,7 @@
 							<file name="P198ADME.BIN" type="data" source="build/pack/dw2003/field/sprite/p198adme.bin" />
 						</dir>
 
-						<dir name="STAGE">
+						<dir name="STAGE" source="build/iso/empty-dir/">
 							<file name="S200MASK.BIN" type="data" source="build/pack/dw2003/field/stage/s200mask.bin" />
 							<file name="S200TMPK.BIN" type="data" source="build/pack/dw2003/field/stage/s200tmpk.bin" />
 							<file name="S201MASK.BIN" type="data" source="build/pack/dw2003/field/stage/s201mask.bin" />
@@ -1515,7 +1515,7 @@
 						</dir>
 					</dir>
 
-					<dir name="FIGHT">
+					<dir name="FIGHT" source="build/iso/empty-dir/">
 						<file name="F000COM1.BIN" type="data" source="dw2003/AAA/DAT/FIGHT/F000COM1.BIN" />
 						<file name="F000COM2.BIN" type="data" source="dw2003/AAA/DAT/FIGHT/F000COM2.BIN" />
 						<file name="F000COM3.BIN" type="data" source="dw2003/AAA/DAT/FIGHT/F000COM3.BIN" />
@@ -1523,7 +1523,7 @@
 						<file name="PGFGTC00.BIN" type="data" source="dw2003/AAA/DAT/FIGHT/PGFGTC00.BIN" />
 						<file name="PGFGTW00.BIN" type="data" source="dw2003/AAA/DAT/FIGHT/PGFGTW00.BIN" />
 
-						<dir name="EFFECT">
+						<dir name="EFFECT" source="build/iso/empty-dir/">
 							<file name="E000COM1.BIN" type="data" source="build/pack/dw2003/fight/effect/e000com1.bin" />
 							<file name="E000COM2.BIN" type="data" source="build/pack/dw2003/fight/effect/e000com2.bin" />
 							<file name="E000COM3.BIN" type="data" source="build/pack/dw2003/fight/effect/e000com3.bin" />
@@ -1765,7 +1765,7 @@
 							<file name="MEFT1055.BIN" type="data" source="build/pack/dw2003/fight/effect/meft1055.bin" />
 						</dir>
 
-						<dir name="MODEL">
+						<dir name="MODEL" source="build/iso/empty-dir/">
 							<file name="M003AGUM.BIN" type="data" source="build/pack/dw2003/fight/model/m003agum.bin" />
 							<file name="M004BETA.BIN" type="data" source="build/pack/dw2003/fight/model/m004beta.bin" />
 							<file name="M005GREY.BIN" type="data" source="build/pack/dw2003/fight/model/m005grey.bin" />
@@ -2014,19 +2014,19 @@
 						</dir>
 					</dir>
 
-					<dir name="MCARD">
+					<dir name="MCARD" source="build/iso/empty-dir/">
 						<file name="STMCRDCS.BIN" type="data" source="dw2003/AAA/DAT/MCARD/STMCRDCS.BIN" />
 						<file name="STMCRDTM.BIN" type="data" source="dw2003/AAA/DAT/MCARD/STMCRDTM.BIN" />
 					</dir>
 
-					<dir name="NAMEENT">
+					<dir name="NAMEENT" source="build/iso/empty-dir/">
 						<file name="STDGNMCS.BIN" type="data" source="dw2003/AAA/DAT/NAMEENT/STDGNMCS.BIN" />
 						<file name="STDGNMTM.BIN" type="data" source="dw2003/AAA/DAT/NAMEENT/STDGNMTM.BIN" />
 						<file name="STNMETCS.BIN" type="data" source="dw2003/AAA/DAT/NAMEENT/STNMETCS.BIN" />
 						<file name="STNMETTM.BIN" type="data" source="dw2003/AAA/DAT/NAMEENT/STNMETTM.BIN" />
 					</dir>
 
-					<dir name="SCREEN">
+					<dir name="SCREEN" source="build/iso/empty-dir/">
 						<file name="CMNBGDCS.BIN" type="data" source="build/pack/dw2003/screen/cmnbgdcs.bin" />
 						<file name="CMNBGDTM.BIN" type="data" source="build/pack/dw2003/screen/cmnbgdtm.bin" />
 						<file name="END__ALL.BIN" type="data" source="build/pack/dw2003/screen/end__all.bin" />
@@ -2052,294 +2052,294 @@
 						<file name="TTCOMMPK.BIN" type="data" source="build/pack/dw2003/screen/ttcommpk.bin" />
 					</dir>
 
-					<dir name="SOUND">
-						<dir name="BATL00">
+					<dir name="SOUND" source="build/iso/empty-dir/">
+						<dir name="BATL00" source="build/iso/empty-dir/">
 							<file name="MPBATL00.BIN" type="data" source="build/pack/dw2003/sound/batl00/mpbatl00.bin" />
 							<file name="MVBATL00.BIN" type="data" source="build/pack/dw2003/sound/batl00/mvbatl00.bin" />
 						</dir>
-						<dir name="BATL10">
+						<dir name="BATL10" source="build/iso/empty-dir/">
 							<file name="MPBATL10.BIN" type="data" source="build/pack/dw2003/sound/batl10/mpbatl10.bin" />
 							<file name="MVBATL10.BIN" type="data" source="build/pack/dw2003/sound/batl10/mvbatl10.bin" />
 						</dir>
-						<dir name="BGM001">
+						<dir name="BGM001" source="build/iso/empty-dir/">
 							<file name="MPBGM001.BIN" type="data" source="build/pack/dw2003/sound/bgm001/mpbgm001.bin" />
 							<file name="MVBGM001.BIN" type="data" source="build/pack/dw2003/sound/bgm001/mvbgm001.bin" />
 						</dir>
-						<dir name="BGM002">
+						<dir name="BGM002" source="build/iso/empty-dir/">
 							<file name="MPBGM002.BIN" type="data" source="build/pack/dw2003/sound/bgm002/mpbgm002.bin" />
 							<file name="MVBGM002.BIN" type="data" source="build/pack/dw2003/sound/bgm002/mvbgm002.bin" />
 						</dir>
-						<dir name="BGM003">
+						<dir name="BGM003" source="build/iso/empty-dir/">
 							<file name="MPBGM003.BIN" type="data" source="build/pack/dw2003/sound/bgm003/mpbgm003.bin" />
 							<file name="MVBGM003.BIN" type="data" source="build/pack/dw2003/sound/bgm003/mvbgm003.bin" />
 						</dir>
-						<dir name="BGM004">
+						<dir name="BGM004" source="build/iso/empty-dir/">
 							<file name="MPBGM004.BIN" type="data" source="build/pack/dw2003/sound/bgm004/mpbgm004.bin" />
 							<file name="MVBGM004.BIN" type="data" source="build/pack/dw2003/sound/bgm004/mvbgm004.bin" />
 						</dir>
-						<dir name="BGM005">
+						<dir name="BGM005" source="build/iso/empty-dir/">
 							<file name="MPBGM005.BIN" type="data" source="build/pack/dw2003/sound/bgm005/mpbgm005.bin" />
 							<file name="MVBGM005.BIN" type="data" source="build/pack/dw2003/sound/bgm005/mvbgm005.bin" />
 						</dir>
-						<dir name="BGM007">
+						<dir name="BGM007" source="build/iso/empty-dir/">
 							<file name="MPBGM007.BIN" type="data" source="build/pack/dw2003/sound/bgm007/mpbgm007.bin" />
 							<file name="MVBGM007.BIN" type="data" source="build/pack/dw2003/sound/bgm007/mvbgm007.bin" />
 						</dir>
-						<dir name="BGM008">
+						<dir name="BGM008" source="build/iso/empty-dir/">
 							<file name="MPBGM008.BIN" type="data" source="build/pack/dw2003/sound/bgm008/mpbgm008.bin" />
 							<file name="MVBGM008.BIN" type="data" source="build/pack/dw2003/sound/bgm008/mvbgm008.bin" />
 						</dir>
-						<dir name="BGM009">
+						<dir name="BGM009" source="build/iso/empty-dir/">
 							<file name="MPBGM009.BIN" type="data" source="build/pack/dw2003/sound/bgm009/mpbgm009.bin" />
 							<file name="MVBGM009.BIN" type="data" source="build/pack/dw2003/sound/bgm009/mvbgm009.bin" />
 						</dir>
-						<dir name="BGM010">
+						<dir name="BGM010" source="build/iso/empty-dir/">
 							<file name="MPBGM010.BIN" type="data" source="build/pack/dw2003/sound/bgm010/mpbgm010.bin" />
 							<file name="MVBGM010.BIN" type="data" source="build/pack/dw2003/sound/bgm010/mvbgm010.bin" />
 						</dir>
-						<dir name="BGM011">
+						<dir name="BGM011" source="build/iso/empty-dir/">
 							<file name="MPBGM011.BIN" type="data" source="build/pack/dw2003/sound/bgm011/mpbgm011.bin" />
 							<file name="MVBGM011.BIN" type="data" source="build/pack/dw2003/sound/bgm011/mvbgm011.bin" />
 						</dir>
-						<dir name="BGM012">
+						<dir name="BGM012" source="build/iso/empty-dir/">
 							<file name="MPBGM012.BIN" type="data" source="build/pack/dw2003/sound/bgm012/mpbgm012.bin" />
 							<file name="MVBGM012.BIN" type="data" source="build/pack/dw2003/sound/bgm012/mvbgm012.bin" />
 						</dir>
-						<dir name="BGM013">
+						<dir name="BGM013" source="build/iso/empty-dir/">
 							<file name="MPBGM013.BIN" type="data" source="build/pack/dw2003/sound/bgm013/mpbgm013.bin" />
 							<file name="MVBGM013.BIN" type="data" source="build/pack/dw2003/sound/bgm013/mvbgm013.bin" />
 						</dir>
-						<dir name="BGM014">
+						<dir name="BGM014" source="build/iso/empty-dir/">
 							<file name="MPBGM014.BIN" type="data" source="build/pack/dw2003/sound/bgm014/mpbgm014.bin" />
 							<file name="MVBGM014.BIN" type="data" source="build/pack/dw2003/sound/bgm014/mvbgm014.bin" />
 						</dir>
-						<dir name="BGM015">
+						<dir name="BGM015" source="build/iso/empty-dir/">
 							<file name="MPBGM015.BIN" type="data" source="build/pack/dw2003/sound/bgm015/mpbgm015.bin" />
 							<file name="MVBGM015.BIN" type="data" source="build/pack/dw2003/sound/bgm015/mvbgm015.bin" />
 						</dir>
-						<dir name="BGM016">
+						<dir name="BGM016" source="build/iso/empty-dir/">
 							<file name="MPBGM016.BIN" type="data" source="build/pack/dw2003/sound/bgm016/mpbgm016.bin" />
 							<file name="MVBGM016.BIN" type="data" source="build/pack/dw2003/sound/bgm016/mvbgm016.bin" />
 						</dir>
-						<dir name="BGM017">
+						<dir name="BGM017" source="build/iso/empty-dir/">
 							<file name="MPBGM017.BIN" type="data" source="build/pack/dw2003/sound/bgm017/mpbgm017.bin" />
 							<file name="MVBGM017.BIN" type="data" source="build/pack/dw2003/sound/bgm017/mvbgm017.bin" />
 						</dir>
-						<dir name="BGM018">
+						<dir name="BGM018" source="build/iso/empty-dir/">
 							<file name="MPBGM018.BIN" type="data" source="build/pack/dw2003/sound/bgm018/mpbgm018.bin" />
 							<file name="MVBGM018.BIN" type="data" source="build/pack/dw2003/sound/bgm018/mvbgm018.bin" />
 						</dir>
-						<dir name="BGM019">
+						<dir name="BGM019" source="build/iso/empty-dir/">
 							<file name="MPBGM019.BIN" type="data" source="build/pack/dw2003/sound/bgm019/mpbgm019.bin" />
 							<file name="MVBGM019.BIN" type="data" source="build/pack/dw2003/sound/bgm019/mvbgm019.bin" />
 						</dir>
-						<dir name="BGM020">
+						<dir name="BGM020" source="build/iso/empty-dir/">
 							<file name="MPBGM020.BIN" type="data" source="build/pack/dw2003/sound/bgm020/mpbgm020.bin" />
 							<file name="MVBGM020.BIN" type="data" source="build/pack/dw2003/sound/bgm020/mvbgm020.bin" />
 						</dir>
-						<dir name="BGM021">
+						<dir name="BGM021" source="build/iso/empty-dir/">
 							<file name="MPBGM021.BIN" type="data" source="build/pack/dw2003/sound/bgm021/mpbgm021.bin" />
 							<file name="MVBGM021.BIN" type="data" source="build/pack/dw2003/sound/bgm021/mvbgm021.bin" />
 						</dir>
-						<dir name="BGM022">
+						<dir name="BGM022" source="build/iso/empty-dir/">
 							<file name="MPBGM022.BIN" type="data" source="build/pack/dw2003/sound/bgm022/mpbgm022.bin" />
 							<file name="MVBGM022.BIN" type="data" source="build/pack/dw2003/sound/bgm022/mvbgm022.bin" />
 						</dir>
-						<dir name="BGM023">
+						<dir name="BGM023" source="build/iso/empty-dir/">
 							<file name="MPBGM023.BIN" type="data" source="build/pack/dw2003/sound/bgm023/mpbgm023.bin" />
 							<file name="MVBGM023.BIN" type="data" source="build/pack/dw2003/sound/bgm023/mvbgm023.bin" />
 						</dir>
-						<dir name="BGM024">
+						<dir name="BGM024" source="build/iso/empty-dir/">
 							<file name="MPBGM024.BIN" type="data" source="build/pack/dw2003/sound/bgm024/mpbgm024.bin" />
 							<file name="MVBGM024.BIN" type="data" source="build/pack/dw2003/sound/bgm024/mvbgm024.bin" />
 						</dir>
-						<dir name="BGM025">
+						<dir name="BGM025" source="build/iso/empty-dir/">
 							<file name="MPBGM025.BIN" type="data" source="build/pack/dw2003/sound/bgm025/mpbgm025.bin" />
 							<file name="MVBGM025.BIN" type="data" source="build/pack/dw2003/sound/bgm025/mvbgm025.bin" />
 						</dir>
-						<dir name="BGM026">
+						<dir name="BGM026" source="build/iso/empty-dir/">
 							<file name="MPBGM026.BIN" type="data" source="build/pack/dw2003/sound/bgm026/mpbgm026.bin" />
 							<file name="MVBGM026.BIN" type="data" source="build/pack/dw2003/sound/bgm026/mvbgm026.bin" />
 						</dir>
-						<dir name="BGM027">
+						<dir name="BGM027" source="build/iso/empty-dir/">
 							<file name="MPBGM027.BIN" type="data" source="build/pack/dw2003/sound/bgm027/mpbgm027.bin" />
 							<file name="MVBGM027.BIN" type="data" source="build/pack/dw2003/sound/bgm027/mvbgm027.bin" />
 						</dir>
-						<dir name="BGM028">
+						<dir name="BGM028" source="build/iso/empty-dir/">
 							<file name="MPBGM028.BIN" type="data" source="build/pack/dw2003/sound/bgm028/mpbgm028.bin" />
 							<file name="MVBGM028.BIN" type="data" source="build/pack/dw2003/sound/bgm028/mvbgm028.bin" />
 						</dir>
-						<dir name="BGM029">
+						<dir name="BGM029" source="build/iso/empty-dir/">
 							<file name="MPBGM029.BIN" type="data" source="build/pack/dw2003/sound/bgm029/mpbgm029.bin" />
 							<file name="MVBGM029.BIN" type="data" source="build/pack/dw2003/sound/bgm029/mvbgm029.bin" />
 						</dir>
-						<dir name="BGM030">
+						<dir name="BGM030" source="build/iso/empty-dir/">
 							<file name="MPBGM030.BIN" type="data" source="build/pack/dw2003/sound/bgm030/mpbgm030.bin" />
 							<file name="MVBGM030.BIN" type="data" source="build/pack/dw2003/sound/bgm030/mvbgm030.bin" />
 						</dir>
-						<dir name="BGM031">
+						<dir name="BGM031" source="build/iso/empty-dir/">
 							<file name="MPBGM031.BIN" type="data" source="build/pack/dw2003/sound/bgm031/mpbgm031.bin" />
 							<file name="MVBGM031.BIN" type="data" source="build/pack/dw2003/sound/bgm031/mvbgm031.bin" />
 						</dir>
-						<dir name="BOSS00">
+						<dir name="BOSS00" source="build/iso/empty-dir/">
 							<file name="MPBOSS00.BIN" type="data" source="build/pack/dw2003/sound/boss00/mpboss00.bin" />
 							<file name="MVBOSS00.BIN" type="data" source="build/pack/dw2003/sound/boss00/mvboss00.bin" />
 						</dir>
-						<dir name="BOSS01">
+						<dir name="BOSS01" source="build/iso/empty-dir/">
 							<file name="MPBOSS01.BIN" type="data" source="build/pack/dw2003/sound/boss01/mpboss01.bin" />
 							<file name="MVBOSS01.BIN" type="data" source="build/pack/dw2003/sound/boss01/mvboss01.bin" />
 						</dir>
-						<dir name="BOSS02">
+						<dir name="BOSS02" source="build/iso/empty-dir/">
 							<file name="MPBOSS02.BIN" type="data" source="build/pack/dw2003/sound/boss02/mpboss02.bin" />
 							<file name="MVBOSS02.BIN" type="data" source="build/pack/dw2003/sound/boss02/mvboss02.bin" />
 						</dir>
-						<dir name="BOSS03">
+						<dir name="BOSS03" source="build/iso/empty-dir/">
 							<file name="MPBOSS03.BIN" type="data" source="build/pack/dw2003/sound/boss03/mpboss03.bin" />
 							<file name="MVBOSS03.BIN" type="data" source="build/pack/dw2003/sound/boss03/mvboss03.bin" />
 						</dir>
-						<dir name="BOSS04">
+						<dir name="BOSS04" source="build/iso/empty-dir/">
 							<file name="MPBOSS04.BIN" type="data" source="build/pack/dw2003/sound/boss04/mpboss04.bin" />
 							<file name="MVBOSS04.BIN" type="data" source="build/pack/dw2003/sound/boss04/mvboss04.bin" />
 						</dir>
-						<dir name="CBTL00">
+						<dir name="CBTL00" source="build/iso/empty-dir/">
 							<file name="MPCBTL00.BIN" type="data" source="build/pack/dw2003/sound/cbtl00/mpcbtl00.bin" />
 							<file name="MVCBTL00.BIN" type="data" source="build/pack/dw2003/sound/cbtl00/mvcbtl00.bin" />
 						</dir>
-						<dir name="COMMON">
+						<dir name="COMMON" source="build/iso/empty-dir/">
 							<file name="MPCOMMON.BIN" type="data" source="build/pack/dw2003/sound/common/mpcommon.bin" />
 							<file name="MVCOMMON.BIN" type="data" source="build/pack/dw2003/sound/common/mvcommon.bin" />
 						</dir>
-						<dir name="CONFUS">
+						<dir name="CONFUS" source="build/iso/empty-dir/">
 							<file name="MPCONFUS.BIN" type="data" source="build/pack/dw2003/sound/confus/mpconfus.bin" />
 							<file name="MVCONFUS.BIN" type="data" source="build/pack/dw2003/sound/confus/mvconfus.bin" />
 						</dir>
-						<dir name="ENV001">
+						<dir name="ENV001" source="build/iso/empty-dir/">
 							<file name="MPENV001.BIN" type="data" source="build/pack/dw2003/sound/env001/mpenv001.bin" />
 							<file name="MVENV001.BIN" type="data" source="build/pack/dw2003/sound/env001/mvenv001.bin" />
 						</dir>
-						<dir name="ENV002">
+						<dir name="ENV002" source="build/iso/empty-dir/">
 							<file name="MPENV002.BIN" type="data" source="build/pack/dw2003/sound/env002/mpenv002.bin" />
 							<file name="MVENV002.BIN" type="data" source="build/pack/dw2003/sound/env002/mvenv002.bin" />
 						</dir>
-						<dir name="ENV003">
+						<dir name="ENV003" source="build/iso/empty-dir/">
 							<file name="MPENV003.BIN" type="data" source="build/pack/dw2003/sound/env003/mpenv003.bin" />
 							<file name="MVENV003.BIN" type="data" source="build/pack/dw2003/sound/env003/mvenv003.bin" />
 						</dir>
-						<dir name="ENV004">
+						<dir name="ENV004" source="build/iso/empty-dir/">
 							<file name="MPENV004.BIN" type="data" source="build/pack/dw2003/sound/env004/mpenv004.bin" />
 							<file name="MVENV004.BIN" type="data" source="build/pack/dw2003/sound/env004/mvenv004.bin" />
 						</dir>
-						<dir name="ENV005">
+						<dir name="ENV005" source="build/iso/empty-dir/">
 							<file name="MPENV005.BIN" type="data" source="build/pack/dw2003/sound/env005/mpenv005.bin" />
 							<file name="MVENV005.BIN" type="data" source="build/pack/dw2003/sound/env005/mvenv005.bin" />
 						</dir>
-						<dir name="ENV006">
+						<dir name="ENV006" source="build/iso/empty-dir/">
 							<file name="MPENV006.BIN" type="data" source="build/pack/dw2003/sound/env006/mpenv006.bin" />
 							<file name="MVENV006.BIN" type="data" source="build/pack/dw2003/sound/env006/mvenv006.bin" />
 						</dir>
-						<dir name="ENV007">
+						<dir name="ENV007" source="build/iso/empty-dir/">
 							<file name="MPENV007.BIN" type="data" source="build/pack/dw2003/sound/env007/mpenv007.bin" />
 							<file name="MVENV007.BIN" type="data" source="build/pack/dw2003/sound/env007/mvenv007.bin" />
 						</dir>
-						<dir name="ENV008">
+						<dir name="ENV008" source="build/iso/empty-dir/">
 							<file name="MPENV008.BIN" type="data" source="build/pack/dw2003/sound/env008/mpenv008.bin" />
 							<file name="MVENV008.BIN" type="data" source="build/pack/dw2003/sound/env008/mvenv008.bin" />
 						</dir>
-						<dir name="ENV009">
+						<dir name="ENV009" source="build/iso/empty-dir/">
 							<file name="MPENV009.BIN" type="data" source="build/pack/dw2003/sound/env009/mpenv009.bin" />
 							<file name="MVENV009.BIN" type="data" source="build/pack/dw2003/sound/env009/mvenv009.bin" />
 						</dir>
-						<dir name="ENV010">
+						<dir name="ENV010" source="build/iso/empty-dir/">
 							<file name="MPENV010.BIN" type="data" source="build/pack/dw2003/sound/env010/mpenv010.bin" />
 							<file name="MVENV010.BIN" type="data" source="build/pack/dw2003/sound/env010/mvenv010.bin" />
 						</dir>
-						<dir name="ENV011">
+						<dir name="ENV011" source="build/iso/empty-dir/">
 							<file name="MPENV011.BIN" type="data" source="build/pack/dw2003/sound/env011/mpenv011.bin" />
 							<file name="MVENV011.BIN" type="data" source="build/pack/dw2003/sound/env011/mvenv011.bin" />
 						</dir>
-						<dir name="ENV012">
+						<dir name="ENV012" source="build/iso/empty-dir/">
 							<file name="MPENV012.BIN" type="data" source="build/pack/dw2003/sound/env012/mpenv012.bin" />
 							<file name="MVENV012.BIN" type="data" source="build/pack/dw2003/sound/env012/mvenv012.bin" />
 						</dir>
-						<dir name="ENV013">
+						<dir name="ENV013" source="build/iso/empty-dir/">
 							<file name="MPENV013.BIN" type="data" source="build/pack/dw2003/sound/env013/mpenv013.bin" />
 							<file name="MVENV013.BIN" type="data" source="build/pack/dw2003/sound/env013/mvenv013.bin" />
 						</dir>
-						<dir name="ENV014">
+						<dir name="ENV014" source="build/iso/empty-dir/">
 							<file name="MPENV014.BIN" type="data" source="build/pack/dw2003/sound/env014/mpenv014.bin" />
 							<file name="MVENV014.BIN" type="data" source="build/pack/dw2003/sound/env014/mvenv014.bin" />
 						</dir>
-						<dir name="ENV015">
+						<dir name="ENV015" source="build/iso/empty-dir/">
 							<file name="MPENV015.BIN" type="data" source="build/pack/dw2003/sound/env015/mpenv015.bin" />
 							<file name="MVENV015.BIN" type="data" source="build/pack/dw2003/sound/env015/mvenv015.bin" />
 						</dir>
-						<dir name="ENV016">
+						<dir name="ENV016" source="build/iso/empty-dir/">
 							<file name="MPENV016.BIN" type="data" source="build/pack/dw2003/sound/env016/mpenv016.bin" />
 							<file name="MVENV016.BIN" type="data" source="build/pack/dw2003/sound/env016/mvenv016.bin" />
 						</dir>
-						<dir name="ENV017">
+						<dir name="ENV017" source="build/iso/empty-dir/">
 							<file name="MPENV017.BIN" type="data" source="build/pack/dw2003/sound/env017/mpenv017.bin" />
 							<file name="MVENV017.BIN" type="data" source="build/pack/dw2003/sound/env017/mvenv017.bin" />
 						</dir>
-						<dir name="ENV018">
+						<dir name="ENV018" source="build/iso/empty-dir/">
 							<file name="MPENV018.BIN" type="data" source="build/pack/dw2003/sound/env018/mpenv018.bin" />
 							<file name="MVENV018.BIN" type="data" source="build/pack/dw2003/sound/env018/mvenv018.bin" />
 						</dir>
-						<dir name="ENV019">
+						<dir name="ENV019" source="build/iso/empty-dir/">
 							<file name="MPENV019.BIN" type="data" source="build/pack/dw2003/sound/env019/mpenv019.bin" />
 							<file name="MVENV019.BIN" type="data" source="build/pack/dw2003/sound/env019/mvenv019.bin" />
 						</dir>
-						<dir name="ENV020">
+						<dir name="ENV020" source="build/iso/empty-dir/">
 							<file name="MPENV020.BIN" type="data" source="build/pack/dw2003/sound/env020/mpenv020.bin" />
 							<file name="MVENV020.BIN" type="data" source="build/pack/dw2003/sound/env020/mvenv020.bin" />
 						</dir>
-						<dir name="ENV021">
+						<dir name="ENV021" source="build/iso/empty-dir/">
 							<file name="MPENV021.BIN" type="data" source="build/pack/dw2003/sound/env021/mpenv021.bin" />
 							<file name="MVENV021.BIN" type="data" source="build/pack/dw2003/sound/env021/mvenv021.bin" />
 						</dir>
-						<dir name="ENV022">
+						<dir name="ENV022" source="build/iso/empty-dir/">
 							<file name="MPENV022.BIN" type="data" source="build/pack/dw2003/sound/env022/mpenv022.bin" />
 							<file name="MVENV022.BIN" type="data" source="build/pack/dw2003/sound/env022/mvenv022.bin" />
 						</dir>
-						<dir name="ENV023">
+						<dir name="ENV023" source="build/iso/empty-dir/">
 							<file name="MPENV023.BIN" type="data" source="build/pack/dw2003/sound/env023/mpenv023.bin" />
 							<file name="MVENV023.BIN" type="data" source="build/pack/dw2003/sound/env023/mvenv023.bin" />
 						</dir>
-						<dir name="ENV024">
+						<dir name="ENV024" source="build/iso/empty-dir/">
 							<file name="MPENV024.BIN" type="data" source="build/pack/dw2003/sound/env024/mpenv024.bin" />
 							<file name="MVENV024.BIN" type="data" source="build/pack/dw2003/sound/env024/mvenv024.bin" />
 						</dir>
-						<dir name="ENV025">
+						<dir name="ENV025" source="build/iso/empty-dir/">
 							<file name="MPENV025.BIN" type="data" source="build/pack/dw2003/sound/env025/mpenv025.bin" />
 							<file name="MVENV025.BIN" type="data" source="build/pack/dw2003/sound/env025/mvenv025.bin" />
 						</dir>
-						<dir name="ENV204">
+						<dir name="ENV204" source="build/iso/empty-dir/">
 							<file name="MPENV204.BIN" type="data" source="build/pack/dw2003/sound/env204/mpenv204.bin" />
 							<file name="MVENV204.BIN" type="data" source="build/pack/dw2003/sound/env204/mvenv204.bin" />
 						</dir>
-						<dir name="ENV205">
+						<dir name="ENV205" source="build/iso/empty-dir/">
 							<file name="MPENV205.BIN" type="data" source="build/pack/dw2003/sound/env205/mpenv205.bin" />
 							<file name="MVENV205.BIN" type="data" source="build/pack/dw2003/sound/env205/mvenv205.bin" />
 						</dir>
-						<dir name="ENV206">
+						<dir name="ENV206" source="build/iso/empty-dir/">
 							<file name="MPENV206.BIN" type="data" source="build/pack/dw2003/sound/env206/mpenv206.bin" />
 							<file name="MVENV206.BIN" type="data" source="build/pack/dw2003/sound/env206/mvenv206.bin" />
 						</dir>
-						<dir name="EVO_00">
+						<dir name="EVO_00" source="build/iso/empty-dir/">
 							<file name="MPEVO_00.BIN" type="data" source="build/pack/dw2003/sound/evo_00/mpevo_00.bin" />
 							<file name="MVEVO_00.BIN" type="data" source="build/pack/dw2003/sound/evo_00/mvevo_00.bin" />
 						</dir>
-						<dir name="JOG_00">
+						<dir name="JOG_00" source="build/iso/empty-dir/">
 							<file name="MPJOG_00.BIN" type="data" source="build/pack/dw2003/sound/jog_00/mpjog_00.bin" />
 							<file name="MVJOG_00.BIN" type="data" source="build/pack/dw2003/sound/jog_00/mvjog_00.bin" />
 						</dir>
-						<dir name="TTLBGM">
+						<dir name="TTLBGM" source="build/iso/empty-dir/">
 							<file name="MPTTLBGM.BIN" type="data" source="build/pack/dw2003/sound/ttlbgm/mpttlbgm.bin" />
 							<file name="MVTTLBGM.BIN" type="data" source="build/pack/dw2003/sound/ttlbgm/mvttlbgm.bin" />
 						</dir>
 					</dir>
 
-					<dir name="TRAINING">
+					<dir name="TRAINING" source="build/iso/empty-dir/">
 						<file name="STTRNGCS.BIN" type="data" source="dw2003/AAA/DAT/TRAINING/STTRNGCS.BIN" />
 						<file name="STTRNGTM.BIN" type="data" source="dw2003/AAA/DAT/TRAINING/STTRNGTM.BIN" />
 						<file name="TRANIN00.BIN" type="data" source="dw2003/AAA/DAT/TRAINING/TRANIN00.BIN" />
@@ -2356,7 +2356,7 @@
 						<file name="TRANIN16.BIN" type="data" source="dw2003/AAA/DAT/TRAINING/TRANIN16.BIN" />
 					</dir>
 
-					<dir name="Z_STAGE">
+					<dir name="Z_STAGE" source="build/iso/empty-dir/">
 						<file name="S200PACK.BIN" type="data" source="build/map/dw2003/z_stage/s200pack.bin" />
 						<file name="S201PACK.BIN" type="data" source="build/map/dw2003/z_stage/s201pack.bin" />
 						<file name="S202PACK.BIN" type="data" source="build/map/dw2003/z_stage/s202pack.bin" />
@@ -2596,7 +2596,7 @@
 						<file name="S895PACK.BIN" type="data" source="build/map/dw2003/z_stage/s895pack.bin" />
 					</dir>
 				</dir>
-				<dir name="STR">
+				<dir name="STR" source="build/iso/empty-dir/">
 					<file name="MOVIED01.STR" type="mixed" source="dw2003/AAA/STR/MOVIED01.STR" />
 					<file name="MOVIED02.STR" type="mixed" source="dw2003/AAA/STR/MOVIED02.STR" />
 					<file name="MOVIED03.STR" type="mixed" source="dw2003/AAA/STR/MOVIED03.STR" />
