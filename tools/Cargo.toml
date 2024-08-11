@@ -46,6 +46,7 @@ members = [
 	# Misc
 	"replace-bytes",
 	"find-bytes",
+	"mips-sim",
 ]
 
 [workspace.dependencies]
@@ -55,6 +56,7 @@ arrayref = "0.3.7"
 ascii = "1.1.0"
 binrw = "0.13.1"
 bitflags = "2.4.0"
+bitmatch = "0.1.1"
 bytemuck = "1.13.1"
 byteorder = "1.4.3"
 clap = { version = "4.4.1", features = ["derive"] }

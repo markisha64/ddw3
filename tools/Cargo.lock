@@ -150,6 +150,28 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b4682ae6287fcf752ecaabbfcc7b6f9b72aa33933dc23a554d853aea8eea8635"
 
 [[package]]
+name = "bitmatch"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6a53e105d41966c9b4594b8e3b7cf8e81ae63cc83664880b049af8a11381a3ad"
+dependencies = [
+ "boolean_expression",
+ "proc-macro2",
+ "quote",
+ "syn 1.0.109",
+]
+
+[[package]]
+name = "boolean_expression"
+version = "0.3.11"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7c33ef624481a2d2252fd352266c050e83203343d0884622f7ba09782abbfa83"
+dependencies = [
+ "itertools 0.9.0",
+ "smallvec",
+]
+
+[[package]]
 name = "bumpalo"
 version = "3.13.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -402,7 +424,7 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "byteorder",
- "itertools",
+ "itertools 0.11.0",
  "serde",
  "serde_with",
  "tracing",
@@ -419,7 +441,7 @@ dependencies = [
  "ddw3-logger",
  "ddw3-util",
  "either",
- "itertools",
+ "itertools 0.11.0",
  "toml",
  "tracing",
 ]
@@ -442,7 +464,7 @@ dependencies = [
  "clap",
  "ddw3-logger",
  "ddw3-util",
- "itertools",
+ "itertools 0.11.0",
  "pathdiff",
  "serde",
  "toml",
@@ -458,7 +480,7 @@ dependencies = [
  "clap",
  "ddw3-logger",
  "ddw3-util",
- "itertools",
+ "itertools 0.11.0",
  "pathdiff",
  "serde",
  "toml",
@@ -474,7 +496,7 @@ dependencies = [
  "clap",
  "ddw3-logger",
  "ddw3-util",
- "itertools",
+ "itertools 0.11.0",
  "pathdiff",
  "serde",
  "toml",
@@ -491,7 +513,7 @@ dependencies = [
  "ddw3-logger",
  "ddw3-pack",
  "ddw3-util",
- "itertools",
+ "itertools 0.11.0",
  "pathdiff",
  "serde",
  "toml",
@@ -536,7 +558,7 @@ dependencies = [
  "ddw3-logger",
  "ddw3-util",
  "hex-literal",
- "itertools",
+ "itertools 0.11.0",
  "pathdiff",
  "serde",
  "toml",
@@ -551,7 +573,7 @@ dependencies = [
  "byteorder",
  "ddw3-bytes",
  "image",
- "itertools",
+ "itertools 0.11.0",
  "pathdiff",
  "serde",
  "thiserror",
@@ -570,7 +592,7 @@ dependencies = [
  "ddw3-tim",
  "ddw3-util",
  "image",
- "itertools",
+ "itertools 0.11.0",
  "pathdiff",
  "serde",
  "thiserror",
@@ -621,7 +643,7 @@ dependencies = [
  "ddw3-util",
  "ddw3-vab-sep",
  "hound",
- "itertools",
+ "itertools 0.11.0",
  "pathdiff",
  "serde",
  "serde_with",
@@ -653,7 +675,7 @@ dependencies = [
  "ddw3-logger",
  "ddw3-util",
  "hound",
- "itertools",
+ "itertools 0.11.0",
  "pathdiff",
  "serde",
  "toml",
@@ -738,7 +760,7 @@ dependencies = [
  "clap",
  "clap-num",
  "ddw3-logger",
- "itertools",
+ "itertools 0.11.0",
  "memchr",
  "num",
  "tracing",
@@ -951,6 +973,15 @@ dependencies = [
 
 [[package]]
 name = "itertools"
+version = "0.9.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "284f18f85651fe11e8a991b2adb42cb078325c996ed026d994719efcfca1d54b"
+dependencies = [
+ "either",
+]
+
+[[package]]
+name = "itertools"
 version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b1c173a5686ce8bfa551b3563d0c2170bf24ca44da99c7ca4bfdab5418c3fe57"
@@ -1048,6 +1079,18 @@ checksum = "e7810e0be55b428ada41041c41f32c9f1a42817901b4ccf45fa3d4b6561e74c7"
 dependencies = [
  "adler",
  "simd-adler32",
+]
+
+[[package]]
+name = "mips-sim"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "bitmatch",
+ "clap",
+ "clap-num",
+ "ddw3-logger",
+ "tracing",
 ]
 
 [[package]]
