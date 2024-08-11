@@ -1,8 +1,8 @@
 # ddw3
 
-This is a full decompilation project of the PS1 video games "Digimon World 3" / "Digimon World 2003".
+This is a full decompilation project of the PS1 video game "Digimon World 2003".
 
-The name stands for "Decompilation - Digimon World 3/2003"
+The name stands for "Decompilation - Digimon World 2003"
 
 # Status
 
@@ -11,13 +11,6 @@ Currently the following is done:
 - ✅: Done
 - 🚧: In work
 - 🛑: Not started
-
-| Project            | Status | Comments                                                                                                              |
-| ------------------ | ------ | --------------------------------------------------------------------------------------------------------------------- |
-| Digimon world 3    | 🛑     | For now, 2003 is receiving the main focus. It should be easy to make it catch up to it, but it will require some time |
-| Digimon world 2003 | 🚧     | See [this section](#2003)                                                                                             |
-
-## 2003
 
 | Project                                                       | Status  | Comments                                                                                                                                                                                                    |
 | ------------------------------------------------------------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

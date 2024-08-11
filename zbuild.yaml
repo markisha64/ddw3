@@ -94,7 +94,6 @@ alias:
 
   # Psx iso
   dw2003_psx_iso       : $(build_psx_iso_dir)/dw2003.bin
-  dw3_psx_iso          : $(build_psx_iso_dir)/dw3.bin
   psx_iso              : $(build_psx_iso_dir)/^(path).bin
   psx_iso_cue          : $(build_psx_iso_dir)/^(path).cue
   psx_iso_deps         : $(build_psx_iso_dir)/^(path).bin.d
@@ -168,9 +167,8 @@ alias:
   rust_lib     : $(build_rust_dir)/^(name).a
   rust_lib_deps: $(build_rust_dir)/^(name).d
 
-# By default built the final `iso`s
+# By default built the final `iso`
 default:
-  - $(dw3_psx_iso)
   - $(dw2003_psx_iso)
 
 rules:
