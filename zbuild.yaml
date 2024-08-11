@@ -5,7 +5,7 @@ alias:
   as         : mips-elf-as      # GNU assembler (GNU Binutils) 2.39
   ld         : mips-elf-ld      # GNU assembler (GNU Binutils) 2.39
   objcopy    : mips-elf-objcopy # GNU assembler (GNU Binutils) 2.39
-  mkpsxiso   : mkpsxiso         # MKPSXISO 2.02
+  mkpsxiso   : mkpsxiso         # MKPSXISO 2.04
   cargo      : cargo            # cargo 1.82.0-nightly (b5d44db1d 2024-07-26)
   sed        : sed              # sed (GNU sed) 4.9
   sha256sum  : sha256sum        # sha256sum (GNU coreutils) 9.5
@@ -264,7 +264,6 @@ rules:
     exec:
       - - $(mkpsxiso)
         - $(psx_iso_xml)
-        - -nolimit
         - -noxa
         - -y
         - --quiet
