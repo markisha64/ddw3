@@ -264,7 +264,6 @@ rules:
     exec:
       - - $(mkpsxiso)
         - $(psx_iso_xml)
-        - -noxa
         - -y
         - --quiet
         - --output

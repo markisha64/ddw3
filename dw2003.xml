@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- TODO: Create dummy directories to use as a source (for modification dates) and also set the correct modification dates on the other files -->
+
 <iso_project>
 	<track type="data">
 		<identifiers system="PLAYSTATION" application="PLAYSTATION" volume="DMW3" volume_set="" publisher="BANDAI" data_preparer="BANDAI" copyright="BANDAI" />
 
 		<license file="licenses/psx-bin.dat" />
 
+		<default_attributes gmt_offs="36" xa_attrib="16" xa_perm="1365" xa_gid="0" xa_uid="0"/>
 		<directory_tree>
 			<file name="SYSTEM.CNF" type="data" source="dw2003/SYSTEM.CNF" />
 			<file name="SLES_039.36" type="data" source="build/psexe/dw2003/exe.psexe" />
@@ -2594,20 +2597,20 @@
 					</dir>
 				</dir>
 				<dir name="STR">
-					<file name="MOVIED01.STR" type="data" source="dw2003/AAA/STR/MOVIED01.STR" />
-					<file name="MOVIED02.STR" type="data" source="dw2003/AAA/STR/MOVIED02.STR" />
-					<file name="MOVIED03.STR" type="data" source="dw2003/AAA/STR/MOVIED03.STR" />
-					<file name="MOVIED04.STR" type="data" source="dw2003/AAA/STR/MOVIED04.STR" />
-					<file name="MOVIED05.STR" type="data" source="dw2003/AAA/STR/MOVIED05.STR" />
-					<file name="MOVIED06.STR" type="data" source="dw2003/AAA/STR/MOVIED06.STR" />
-					<file name="MOVIED07.STR" type="data" source="dw2003/AAA/STR/MOVIED07.STR" />
-					<file name="MOVIED08.STR" type="data" source="dw2003/AAA/STR/MOVIED08.STR" />
-					<file name="MOVIEE01.STR" type="data" source="dw2003/AAA/STR/MOVIEE01.STR" />
-					<file name="MOVIEE02.STR" type="data" source="dw2003/AAA/STR/MOVIEE02.STR" />
-					<file name="MOVIEE03.STR" type="data" source="dw2003/AAA/STR/MOVIEE03.STR" />
-					<file name="MOVIEE04.STR" type="data" source="dw2003/AAA/STR/MOVIEE04.STR" />
-					<file name="MOVIEOP2.STR" type="data" source="dw2003/AAA/STR/MOVIEOP2.STR" />
-					<file name="MOVIEOPN.STR" type="data" source="dw2003/AAA/STR/MOVIEOPN.STR" />
+					<file name="MOVIED01.STR" type="mixed" source="dw2003/AAA/STR/MOVIED01.STR" />
+					<file name="MOVIED02.STR" type="mixed" source="dw2003/AAA/STR/MOVIED02.STR" />
+					<file name="MOVIED03.STR" type="mixed" source="dw2003/AAA/STR/MOVIED03.STR" />
+					<file name="MOVIED04.STR" type="mixed" source="dw2003/AAA/STR/MOVIED04.STR" />
+					<file name="MOVIED05.STR" type="mixed" source="dw2003/AAA/STR/MOVIED05.STR" />
+					<file name="MOVIED06.STR" type="mixed" source="dw2003/AAA/STR/MOVIED06.STR" />
+					<file name="MOVIED07.STR" type="mixed" source="dw2003/AAA/STR/MOVIED07.STR" />
+					<file name="MOVIED08.STR" type="mixed" source="dw2003/AAA/STR/MOVIED08.STR" />
+					<file name="MOVIEE01.STR" type="mixed" source="dw2003/AAA/STR/MOVIEE01.STR" />
+					<file name="MOVIEE02.STR" type="mixed" source="dw2003/AAA/STR/MOVIEE02.STR" />
+					<file name="MOVIEE03.STR" type="mixed" source="dw2003/AAA/STR/MOVIEE03.STR" />
+					<file name="MOVIEE04.STR" type="mixed" source="dw2003/AAA/STR/MOVIEE04.STR" />
+					<file name="MOVIEOP2.STR" type="mixed" source="dw2003/AAA/STR/MOVIEOP2.STR" />
+					<file name="MOVIEOPN.STR" type="mixed" source="dw2003/AAA/STR/MOVIEOPN.STR" />
 				</dir>
 			</dir>
 
