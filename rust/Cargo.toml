@@ -7,6 +7,7 @@ members = [
 	"dw2003_exe",
 	"dw2003_exe_data",
 	"dw2003_exe_digimon_profiles",
+	"dw2003_exe_lba",
 
 	# Libraries
 	"dw2003_pro_stfgtrep",
@@ -26,6 +27,7 @@ members = [
 dw2003_exe = { path = "dw2003_exe" }
 dw2003_exe_data = { path = "dw2003_exe_data" }
 dw2003_exe_digimon_profiles = { path = "dw2003_exe_digimon_profiles" }
+dw2003_exe_lba = { path = "dw2003_exe_lba" }
 dw2003_pro_stfgtrep = { path = "dw2003_pro_stfgtrep" }
 dw2003_pro_stgtrain = { path = "dw2003_pro_stgtrain" }
 dw2003_pro_sdigiedt = { path = "dw2003_pro_sdigiedt" }

@@ -53,5 +53,7 @@ sections = [
 	"dw2003_exe_data0",
 	"dw2003_exe_digimon_profiles",
 	"dw2003_exe_data1",
+	"dw2003_exe_lba",
+	"dw2003_exe_data2",
 	"loading_img",
 ]

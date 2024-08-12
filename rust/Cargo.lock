@@ -8,6 +8,7 @@ version = "0.1.0"
 dependencies = [
  "dw2003_exe_data",
  "dw2003_exe_digimon_profiles",
+ "dw2003_exe_lba",
  "util",
 ]
 
@@ -20,6 +21,13 @@ dependencies = [
 
 [[package]]
 name = "dw2003_exe_digimon_profiles"
+version = "0.1.0"
+dependencies = [
+ "util",
+]
+
+[[package]]
+name = "dw2003_exe_lba"
 version = "0.1.0"
 dependencies = [
  "util",
