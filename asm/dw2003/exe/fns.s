@@ -1618,12 +1618,12 @@ F0x80011318:
 .L0x8001140c: lw $v0, 0x5c($s1)
 .L0x80011410: nop
 .L0x80011414: beq $s4, $v0, .L0x80011458
-.L0x80011418: lui $a0, %hi(LBA_LIST + 0x1d2)
+.L0x80011418: lui $a0, %hi(LBA_OFFSETS + 0x1d2)
 .L0x8001141c: lui $v0, %hi(D0x80055c48)
 .L0x80011420: lw $v0, %lo(D0x80055c48)($v0)
 .L0x80011424: nop
 .L0x80011428: jalr $v0
-.L0x8001142c: ori $a0, %lo(LBA_LIST + 0x1d2)
+.L0x8001142c: ori $a0, %lo(LBA_OFFSETS + 0x1d2)
 .L0x80011430: li $a1, 0xb8
 .L0x80011434: lw $a2, 0x5c($s1)
 .L0x80011438: lw $a0, 0x1c($s3)
@@ -1649,12 +1649,12 @@ F0x80011318:
 .L0x80011488: srav $s0, $s0, $v0
 .L0x8001148c: andi $s0, 0x1
 .L0x80011490: beqz $s0, .L0x80011510
-.L0x80011494: lui $a0, %hi(LBA_LIST + 0xd0)
+.L0x80011494: lui $a0, %hi(LBA_OFFSETS + 0xd0)
 .L0x80011498: lui $v0, %hi(D0x80055c48)
 .L0x8001149c: lw $v0, %lo(D0x80055c48)($v0)
 .L0x800114a0: nop
 .L0x800114a4: jalr $v0
-.L0x800114a8: ori $a0, %lo(LBA_LIST + 0xd0)
+.L0x800114a8: ori $a0, %lo(LBA_OFFSETS + 0xd0)
 .L0x800114ac: lw $v0, 0x5c($s1)
 .L0x800114b0: nop
 .L0x800114b4: bnez $v0, .L0x80011984
@@ -1693,12 +1693,12 @@ F0x80011318:
 .L0x80011538: srav $s0, $s0, $v0
 .L0x8001153c: andi $s0, 0x1
 .L0x80011540: beqz $s0, .L0x80011988
-.L0x80011544: lui $a0, %hi(LBA_LIST + 0x151)
+.L0x80011544: lui $a0, %hi(LBA_OFFSETS + 0x151)
 .L0x80011548: lui $v0, %hi(D0x80055c48)
 .L0x8001154c: lw $v0, %lo(D0x80055c48)($v0)
 .L0x80011550: nop
 .L0x80011554: jalr $v0
-.L0x80011558: ori $a0, %lo(LBA_LIST + 0x151)
+.L0x80011558: ori $a0, %lo(LBA_OFFSETS + 0x151)
 .L0x8001155c: j .L0x80011984
 .L0x80011560: li $v0, 0xa
 
@@ -3180,12 +3180,12 @@ F0x80012a44:
 .L0x80012b6c: lw $v0, 0x58($s1)
 .L0x80012b70: nop
 .L0x80012b74: beq $s3, $v0, .L0x80012bc0
-.L0x80012b78: lui $a0, %hi(LBA_LIST + 0x1d2)
+.L0x80012b78: lui $a0, %hi(LBA_OFFSETS + 0x1d2)
 .L0x80012b7c: lui $v0, %hi(D0x80055c48)
 .L0x80012b80: lw $v0, %lo(D0x80055c48)($v0)
 .L0x80012b84: nop
 .L0x80012b88: jalr $v0
-.L0x80012b8c: ori $a0, %lo(LBA_LIST + 0x1d2)
+.L0x80012b8c: ori $a0, %lo(LBA_OFFSETS + 0x1d2)
 .L0x80012b90: li $a1, 0xb0
 .L0x80012b94: lw $v0, 0x58($s1)
 .L0x80012b98: lw $a0, 0x24($s4)
@@ -3214,12 +3214,12 @@ F0x80012a44:
 .L0x80012bf4: srav $s0, $s0, $v0
 .L0x80012bf8: andi $s0, 0x1
 .L0x80012bfc: beqz $s0, .L0x80012c74
-.L0x80012c00: lui $a0, %hi(LBA_LIST + 0xd0)
+.L0x80012c00: lui $a0, %hi(LBA_OFFSETS + 0xd0)
 .L0x80012c04: lui $v0, %hi(D0x80055c48)
 .L0x80012c08: lw $v0, %lo(D0x80055c48)($v0)
 .L0x80012c0c: nop
 .L0x80012c10: jalr $v0
-.L0x80012c14: ori $a0, %lo(LBA_LIST + 0xd0)
+.L0x80012c14: ori $a0, %lo(LBA_OFFSETS + 0xd0)
 .L0x80012c18: lw $v0, 0x64($s1)
 .L0x80012c1c: nop
 .L0x80012c20: bnez $v0, .L0x80012c38
@@ -3256,12 +3256,12 @@ F0x80012a44:
 .L0x80012c9c: srav $s0, $s0, $v0
 .L0x80012ca0: andi $s0, 0x1
 .L0x80012ca4: beqz $s0, .L0x80012cec
-.L0x80012ca8: lui $a0, %hi(LBA_LIST + 0x151)
+.L0x80012ca8: lui $a0, %hi(LBA_OFFSETS + 0x151)
 .L0x80012cac: lui $v0, %hi(D0x80055c48)
 .L0x80012cb0: lw $v0, %lo(D0x80055c48)($v0)
 .L0x80012cb4: nop
 .L0x80012cb8: jalr $v0
-.L0x80012cbc: ori $a0, %lo(LBA_LIST + 0x151)
+.L0x80012cbc: ori $a0, %lo(LBA_OFFSETS + 0x151)
 .L0x80012cc0: lui $v0, %hi(D0x8004b438)
 .L0x80012cc4: lw $v0, %lo(D0x8004b438)($v0)
 .L0x80012cc8: nop
@@ -4494,43 +4494,45 @@ F0x80014170:
 .L0x800141dc: jr $ra
 .L0x800141e0: addiu $sp, 0x18
 
-# Returns if the `idx`th LBA is null.
+# Returns if the `idx`th LBA offset is null.
 # `fn F0x800141e4(idx: u32) -> bool`
 .global F0x800141e4
 F0x800141e4:
-.L0x800141e4: la_ $v0, LBA_LIST
+.L0x800141e4: la_ $v0, LBA_OFFSETS
 .L0x800141ec: sll $a0, 0x2
 .L0x800141f0: addu $a0, $v0
 .L0x800141f4: lw $v0, ($a0)
 .L0x800141f8: jr $ra
 .L0x800141fc: sltu $v0, $zr, $v0 # ?? $zr != $v0
 
+# Returns the LBA sector size of the `idx`th file.
+# `fn F0x80014200(idx: u32) -> u32`
 .global F0x80014200
 F0x80014200:
-.L0x80014200: la_ $v0, D0x800474a4
+.L0x80014200: la_ $v0, LBA_LEN_SECTORS
 .L0x80014208: sll $a0, 0x1
 .L0x8001420c: addu $a0, $v0
 .L0x80014210: lhu $v0, ($a0)
 .L0x80014214: jr $ra
 .L0x80014218: nop
 
-# Returns the LBA of the `idx`th file.
+# Returns the LBA offset of the `idx`th file.
 # `fn F0x8001421c(idx: u32) -> u32`
 .global F0x8001421c
 F0x8001421c:
-.L0x8001421c: la_ $v0, LBA_LIST
+.L0x8001421c: la_ $v0, LBA_OFFSETS
 .L0x80014224: sll $a0, 0x2
 .L0x80014228: addu $a0, $v0
 .L0x8001422c: lw $v0, ($a0)
 .L0x80014230: jr $ra
 .L0x80014234: nop
 
-# Calls `f16(LBA_LIST[idx] + offset, arg2)`
+# Calls `f16(LBA_OFFSETS[idx] + offset, arg2)`
 # `fn F0x8001421c(idx: u32, offset: u32, arg2: *mut u8)`
 .global F0x80014238
 F0x80014238:
 .L0x80014238: addiu $sp, -0x18
-.L0x8001423c: la_ $v0, LBA_LIST
+.L0x8001423c: la_ $v0, LBA_OFFSETS
 .L0x80014244: sll $a0, 0x2
 .L0x80014248: addu $a0, $v0
 .L0x8001424c: sw $ra, 0x10($sp)

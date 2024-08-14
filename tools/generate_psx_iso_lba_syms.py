@@ -4,6 +4,44 @@ Generates lba symbols file.
 
 # Imports
 import argparse
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Self
+
+import toml
+
+
+# Symbol
+@dataclass
+class Symbol:
+	ty: str
+	name: str
+	len_sectors: int | None
+	lba: int
+	timecode: str
+	len_bytes: int | None
+	src: Path | None
+
+	@staticmethod
+	def from_line(line: str) -> Self:
+		"Parses a symbol from an lba line."
+
+		(ty, name, len_sectors, lba, timecode, len_bytes, src) = line.split()
+		name = name.strip().rstrip(";1").replace(".", "_")
+		len_sectors = int(len_sectors.strip())
+		lba = int(lba.strip())
+		timecode = timecode.strip()
+		len_bytes = int(len_bytes.strip())
+		src = Path(src.strip())
+
+		# Note: `mkpsxiso` currently has a bug where the len in sectors is calculated
+		#       using the wrong sector size for XA files, so we rectify that here
+		# TODO: Remove once `https://github.com/Lameguy64/mkpsxiso/pull/55` is merged
+		#       and a new release happens.
+		if ty == "XA":
+			len_sectors = len_bytes // 2336
+
+		return Symbol(ty, name, len_sectors, lba, timecode, len_bytes, src)
 
 
 def main(args):
@@ -11,29 +49,54 @@ def main(args):
 	Main function
 	"""
 
-	syms = {}
+	lba_list = toml.load(open(args.lba_list, encoding="utf-8"))
+	lba_list: list[str] = lba_list["lbas"]
 
-	with open(args.lba_c, "r") as lba_c_file:
-		for line in lba_c_file:
-			line = line.rstrip("\n")
-			if not line.startswith("#define LBA_"):
+	if len(lba_list) % 2 != 0:
+		raise ValueError(f"Cannot pack an odd number of LBAs: {len(lba_list)}")
+
+	# Symbols, by name
+	all_syms: dict[str, Symbol] = {}
+
+	with open(args.lba, "r") as lba_file:
+		# Skip the first 8 lines (header)
+		for _ in range(8):
+			next(lba_file)
+
+		# Then read them all
+		for line in lba_file:
+			# Skip directories and directory ends.
+			if line.strip().startswith("Dir") or line.strip().startswith("End"):
 				continue
-			line = line.lstrip("#define ")
 
-			sym, lba = line.split(" ", 1)
-			sym = sym.strip()
-			lba = lba.strip()
-			syms[sym] = lba
+			symbol = Symbol.from_line(line)
+			all_syms[symbol.name] = symbol
+
+	for sym_name in lba_list:
+		if sym_name not in all_syms:
+			raise ValueError(f"Lba not found: {sym_name}")
 
 	with open(args.output, "w", encoding="utf-8") as output_file:
-		for sym, lba in syms.items():
-			output_file.write(f"{sym}_IMPL = {lba};\n")
+		for sym_name in lba_list:
+			sym = all_syms[sym_name]
+			output_file.write(f"LBA_IMPL_{sym.name}_OFFSET = {sym.lba};\n")
+
+		# TODO: Don't join them once we can properly use `R_MIPS_16` relocations
+		for sym_name_lhs, sym_name_rhs in zip(lba_list[::2], lba_list[1::2]):
+			sym_lhs = all_syms[sym_name_lhs]
+			sym_rhs = all_syms[sym_name_rhs]
+
+			lba = sym_lhs.len_sectors | (sym_rhs.len_sectors << 16)
+			output_file.write(
+				f"LBA_IMPL_{sym_lhs.name}_{sym_rhs.name}_LEN_SECTORS = {lba};\n"
+			)
 
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
 	parser.add_argument("--output", dest="output", type=str, required=True)
-	parser.add_argument("--lba-c", dest="lba_c", type=str, required=True)
+	parser.add_argument("--lba", dest="lba", type=str, required=True)
+	parser.add_argument("--lba-list", dest="lba_list", type=str, required=True)
 
 	args = parser.parse_args()
 	main(args)

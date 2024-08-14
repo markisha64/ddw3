@@ -98,10 +98,10 @@ alias:
   psx_iso_cue          : $(build_psx_iso_dir)/^(path).cue
   psx_iso_deps         : $(build_psx_iso_dir)/^(path).bin.d
   psx_iso_lba          : $(build_psx_iso_dir)/^(path).lba
-  psx_iso_lba_c        : $(build_psx_iso_dir)/^(path).lba.c
   psx_iso_lba_deps     : $(build_psx_iso_dir)/^(path).lba.d
   psx_iso_lba_syms     : $(build_psx_iso_dir)/^(path).lba.syms
   psx_iso_xml          : ^(path).xml
+  psx_iso_lba_list     : iso/^(path)/lbas.toml
 
   # Assembly
   asm_obj     : $(build_asm_dir)/^(path).o
@@ -285,7 +285,7 @@ rules:
 
   # Psx iso (lba only)
   mkpsxiso-lba:
-    out: [$(psx_iso_lba), $(psx_iso_lba_c)]
+    out: [$(psx_iso_lba)]
     deps:
       - $(psx_iso_xml)
       - $(license_psx_iso)
@@ -298,8 +298,6 @@ rules:
         - -noisogen
         - -lba
         - $(psx_iso_lba)
-        - -lbahead
-        - $(psx_iso_lba_c)
 
   # Pxs iso (lba only) dependencies
   mkpsxiso-lba-deps:
@@ -318,14 +316,16 @@ rules:
   # Psx iso lba syms
   mkpsxiso-lba-syms:
     out: [$(psx_iso_lba_syms)]
-    deps: [$(python3), $(generate_psx_iso_lba_syms), $(psx_iso_lba_c), static: $(psx_iso_lba_syms::dir_name)/]
+    deps: [$(python3), $(generate_psx_iso_lba_syms), $(psx_iso_lba), $(psx_iso_lba_list), static: $(psx_iso_lba_syms::dir_name)/]
     exec:
       - - $(python3)
         - $(generate_psx_iso_lba_syms)
         - --output
         - $(psx_iso_lba_syms)
-        - --lba-c
-        - $(psx_iso_lba_c)
+        - --lba
+        - $(psx_iso_lba)
+        - --lba-list
+        - $(psx_iso_lba_list)
 
   # Cargo tools
   cargo-tool:

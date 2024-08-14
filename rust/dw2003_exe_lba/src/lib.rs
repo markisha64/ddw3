@@ -7,4959 +7,7168 @@
 // Imports
 use core::ptr;
 
-// TODO: Rename to `LBA_OFFSETS`.
 #[no_mangle]
 #[link_section = "dw2003_exe_lba"]
-pub static mut LBA_LIST: [*const u8; 2382] = unsafe {
-	[
-		ptr::addr_of!(LBA_NONE_____BIN_IMPL),
-		ptr::addr_of!(LBA_MSAMTMAP_BIN_IMPL),
-		ptr::addr_of!(LBA_USAMTMAP_BIN_IMPL),
-		ptr::addr_of!(LBA_ESAMTMAP_BIN_IMPL),
-		ptr::addr_of!(LBA_FSAMTMAP_BIN_IMPL),
-		ptr::addr_of!(LBA_ISAMTMAP_BIN_IMPL),
-		ptr::addr_of!(LBA_DSAMTMAP_BIN_IMPL),
-		ptr::addr_of!(LBA_SSAMTMAP_BIN_IMPL),
-		ptr::addr_of!(LBA_MSASKMAP_BIN_IMPL),
-		ptr::addr_of!(LBA_USASKMAP_BIN_IMPL),
-		ptr::addr_of!(LBA_ESASKMAP_BIN_IMPL),
-		ptr::addr_of!(LBA_FSASKMAP_BIN_IMPL),
-		ptr::addr_of!(LBA_ISASKMAP_BIN_IMPL),
-		ptr::addr_of!(LBA_DSASKMAP_BIN_IMPL),
-		ptr::addr_of!(LBA_SSASKMAP_BIN_IMPL),
-		ptr::addr_of!(LBA_MSCARDGM_BIN_IMPL),
-		ptr::addr_of!(LBA_USCARDGM_BIN_IMPL),
-		ptr::addr_of!(LBA_ESCARDGM_BIN_IMPL),
-		ptr::addr_of!(LBA_FSCARDGM_BIN_IMPL),
-		ptr::addr_of!(LBA_ISCARDGM_BIN_IMPL),
-		ptr::addr_of!(LBA_DSCARDGM_BIN_IMPL),
-		ptr::addr_of!(LBA_SSCARDGM_BIN_IMPL),
-		ptr::addr_of!(LBA_MSCARDNM_BIN_IMPL),
-		ptr::addr_of!(LBA_USCARDNM_BIN_IMPL),
-		ptr::addr_of!(LBA_ESCARDNM_BIN_IMPL),
-		ptr::addr_of!(LBA_FSCARDNM_BIN_IMPL),
-		ptr::addr_of!(LBA_ISCARDNM_BIN_IMPL),
-		ptr::addr_of!(LBA_DSCARDNM_BIN_IMPL),
-		ptr::addr_of!(LBA_SSCARDNM_BIN_IMPL),
-		ptr::addr_of!(LBA_MSCARDST_BIN_IMPL),
-		ptr::addr_of!(LBA_USCARDST_BIN_IMPL),
-		ptr::addr_of!(LBA_ESCARDST_BIN_IMPL),
-		ptr::addr_of!(LBA_FSCARDST_BIN_IMPL),
-		ptr::addr_of!(LBA_ISCARDST_BIN_IMPL),
-		ptr::addr_of!(LBA_DSCARDST_BIN_IMPL),
-		ptr::addr_of!(LBA_SSCARDST_BIN_IMPL),
-		ptr::addr_of!(LBA_MSCRDABM_BIN_IMPL),
-		ptr::addr_of!(LBA_USCRDABM_BIN_IMPL),
-		ptr::addr_of!(LBA_ESCRDABM_BIN_IMPL),
-		ptr::addr_of!(LBA_FSCRDABM_BIN_IMPL),
-		ptr::addr_of!(LBA_ISCRDABM_BIN_IMPL),
-		ptr::addr_of!(LBA_DSCRDABM_BIN_IMPL),
-		ptr::addr_of!(LBA_SSCRDABM_BIN_IMPL),
-		ptr::addr_of!(LBA_MSCRDDEK_BIN_IMPL),
-		ptr::addr_of!(LBA_USCRDDEK_BIN_IMPL),
-		ptr::addr_of!(LBA_ESCRDDEK_BIN_IMPL),
-		ptr::addr_of!(LBA_FSCRDDEK_BIN_IMPL),
-		ptr::addr_of!(LBA_ISCRDDEK_BIN_IMPL),
-		ptr::addr_of!(LBA_DSCRDDEK_BIN_IMPL),
-		ptr::addr_of!(LBA_SSCRDDEK_BIN_IMPL),
-		ptr::addr_of!(LBA_MSCRDSHP_BIN_IMPL),
-		ptr::addr_of!(LBA_USCRDSHP_BIN_IMPL),
-		ptr::addr_of!(LBA_ESCRDSHP_BIN_IMPL),
-		ptr::addr_of!(LBA_FSCRDSHP_BIN_IMPL),
-		ptr::addr_of!(LBA_ISCRDSHP_BIN_IMPL),
-		ptr::addr_of!(LBA_DSCRDSHP_BIN_IMPL),
-		ptr::addr_of!(LBA_SSCRDSHP_BIN_IMPL),
-		ptr::addr_of!(LBA_MSDGLABO_BIN_IMPL),
-		ptr::addr_of!(LBA_USDGLABO_BIN_IMPL),
-		ptr::addr_of!(LBA_ESDGLABO_BIN_IMPL),
-		ptr::addr_of!(LBA_FSDGLABO_BIN_IMPL),
-		ptr::addr_of!(LBA_ISDGLABO_BIN_IMPL),
-		ptr::addr_of!(LBA_DSDGLABO_BIN_IMPL),
-		ptr::addr_of!(LBA_SSDGLABO_BIN_IMPL),
-		ptr::addr_of!(LBA_MSDGNMET_BIN_IMPL),
-		ptr::addr_of!(LBA_USDGNMET_BIN_IMPL),
-		ptr::addr_of!(LBA_ESDGNMET_BIN_IMPL),
-		ptr::addr_of!(LBA_FSDGNMET_BIN_IMPL),
-		ptr::addr_of!(LBA_ISDGNMET_BIN_IMPL),
-		ptr::addr_of!(LBA_DSDGNMET_BIN_IMPL),
-		ptr::addr_of!(LBA_SSDGNMET_BIN_IMPL),
-		ptr::addr_of!(LBA_MSDIGINF_BIN_IMPL),
-		ptr::addr_of!(LBA_USDIGINF_BIN_IMPL),
-		ptr::addr_of!(LBA_ESDIGINF_BIN_IMPL),
-		ptr::addr_of!(LBA_FSDIGINF_BIN_IMPL),
-		ptr::addr_of!(LBA_ISDIGINF_BIN_IMPL),
-		ptr::addr_of!(LBA_DSDIGINF_BIN_IMPL),
-		ptr::addr_of!(LBA_SSDIGINF_BIN_IMPL),
-		ptr::addr_of!(LBA_MSDIGNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_USDIGNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_ESDIGNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_FSDIGNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_ISDIGNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_DSDIGNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_SSDIGNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_MSFGTRPT_BIN_IMPL),
-		ptr::addr_of!(LBA_USFGTRPT_BIN_IMPL),
-		ptr::addr_of!(LBA_ESFGTRPT_BIN_IMPL),
-		ptr::addr_of!(LBA_FSFGTRPT_BIN_IMPL),
-		ptr::addr_of!(LBA_ISFGTRPT_BIN_IMPL),
-		ptr::addr_of!(LBA_DSFGTRPT_BIN_IMPL),
-		ptr::addr_of!(LBA_SSFGTRPT_BIN_IMPL),
-		ptr::addr_of!(LBA_MSHTLNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_USHTLNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_ESHTLNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_FSHTLNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_ISHTLNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_DSHTLNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_SSHTLNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_MSITMINF_BIN_IMPL),
-		ptr::addr_of!(LBA_USITMINF_BIN_IMPL),
-		ptr::addr_of!(LBA_ESITMINF_BIN_IMPL),
-		ptr::addr_of!(LBA_FSITMINF_BIN_IMPL),
-		ptr::addr_of!(LBA_ISITMINF_BIN_IMPL),
-		ptr::addr_of!(LBA_DSITMINF_BIN_IMPL),
-		ptr::addr_of!(LBA_SSITMINF_BIN_IMPL),
-		ptr::addr_of!(LBA_MSITMNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_USITMNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_ESITMNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_FSITMNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_ISITMNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_DSITMNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_SSITMNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_MSITSHOP_BIN_IMPL),
-		ptr::addr_of!(LBA_USITSHOP_BIN_IMPL),
-		ptr::addr_of!(LBA_ESITSHOP_BIN_IMPL),
-		ptr::addr_of!(LBA_FSITSHOP_BIN_IMPL),
-		ptr::addr_of!(LBA_ISITSHOP_BIN_IMPL),
-		ptr::addr_of!(LBA_DSITSHOP_BIN_IMPL),
-		ptr::addr_of!(LBA_SSITSHOP_BIN_IMPL),
-		ptr::addr_of!(LBA_MSMEMCRD_BIN_IMPL),
-		ptr::addr_of!(LBA_USMEMCRD_BIN_IMPL),
-		ptr::addr_of!(LBA_ESMEMCRD_BIN_IMPL),
-		ptr::addr_of!(LBA_FSMEMCRD_BIN_IMPL),
-		ptr::addr_of!(LBA_ISMEMCRD_BIN_IMPL),
-		ptr::addr_of!(LBA_DSMEMCRD_BIN_IMPL),
-		ptr::addr_of!(LBA_SSMEMCRD_BIN_IMPL),
-		ptr::addr_of!(LBA_MSMFIGHT_BIN_IMPL),
-		ptr::addr_of!(LBA_USMFIGHT_BIN_IMPL),
-		ptr::addr_of!(LBA_ESMFIGHT_BIN_IMPL),
-		ptr::addr_of!(LBA_FSMFIGHT_BIN_IMPL),
-		ptr::addr_of!(LBA_ISMFIGHT_BIN_IMPL),
-		ptr::addr_of!(LBA_DSMFIGHT_BIN_IMPL),
-		ptr::addr_of!(LBA_SSMFIGHT_BIN_IMPL),
-		ptr::addr_of!(LBA_MSNAMEDT_BIN_IMPL),
-		ptr::addr_of!(LBA_USNAMEDT_BIN_IMPL),
-		ptr::addr_of!(LBA_ESNAMEDT_BIN_IMPL),
-		ptr::addr_of!(LBA_FSNAMEDT_BIN_IMPL),
-		ptr::addr_of!(LBA_ISNAMEDT_BIN_IMPL),
-		ptr::addr_of!(LBA_DSNAMEDT_BIN_IMPL),
-		ptr::addr_of!(LBA_SSNAMEDT_BIN_IMPL),
-		ptr::addr_of!(LBA_MSNAMEET_BIN_IMPL),
-		ptr::addr_of!(LBA_USNAMEET_BIN_IMPL),
-		ptr::addr_of!(LBA_ESNAMEET_BIN_IMPL),
-		ptr::addr_of!(LBA_FSNAMEET_BIN_IMPL),
-		ptr::addr_of!(LBA_ISNAMEET_BIN_IMPL),
-		ptr::addr_of!(LBA_DSNAMEET_BIN_IMPL),
-		ptr::addr_of!(LBA_SSNAMEET_BIN_IMPL),
-		ptr::addr_of!(LBA_MSSHPNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_USSHPNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_ESSHPNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_FSSHPNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_ISSHPNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_DSSHPNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_SSSHPNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_MSSKLINF_BIN_IMPL),
-		ptr::addr_of!(LBA_USSKLINF_BIN_IMPL),
-		ptr::addr_of!(LBA_ESSKLINF_BIN_IMPL),
-		ptr::addr_of!(LBA_FSSKLINF_BIN_IMPL),
-		ptr::addr_of!(LBA_ISSKLINF_BIN_IMPL),
-		ptr::addr_of!(LBA_DSSKLINF_BIN_IMPL),
-		ptr::addr_of!(LBA_SSSKLINF_BIN_IMPL),
-		ptr::addr_of!(LBA_MSSKLNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_USSKLNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_ESSKLNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_FSSKLNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_ISSKLNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_DSSKLNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_SSSKLNAM_BIN_IMPL),
-		ptr::addr_of!(LBA_MSSTAREA_BIN_IMPL),
-		ptr::addr_of!(LBA_USSTAREA_BIN_IMPL),
-		ptr::addr_of!(LBA_ESSTAREA_BIN_IMPL),
-		ptr::addr_of!(LBA_FSSTAREA_BIN_IMPL),
-		ptr::addr_of!(LBA_ISSTAREA_BIN_IMPL),
-		ptr::addr_of!(LBA_DSSTAREA_BIN_IMPL),
-		ptr::addr_of!(LBA_SSSTAREA_BIN_IMPL),
-		ptr::addr_of!(LBA_MSSTATUS_BIN_IMPL),
-		ptr::addr_of!(LBA_USSTATUS_BIN_IMPL),
-		ptr::addr_of!(LBA_ESSTATUS_BIN_IMPL),
-		ptr::addr_of!(LBA_FSSTATUS_BIN_IMPL),
-		ptr::addr_of!(LBA_ISSTATUS_BIN_IMPL),
-		ptr::addr_of!(LBA_DSSTATUS_BIN_IMPL),
-		ptr::addr_of!(LBA_SSSTATUS_BIN_IMPL),
-		ptr::addr_of!(LBA_MSSTNAME_BIN_IMPL),
-		ptr::addr_of!(LBA_USSTNAME_BIN_IMPL),
-		ptr::addr_of!(LBA_ESSTNAME_BIN_IMPL),
-		ptr::addr_of!(LBA_FSSTNAME_BIN_IMPL),
-		ptr::addr_of!(LBA_ISSTNAME_BIN_IMPL),
-		ptr::addr_of!(LBA_DSSTNAME_BIN_IMPL),
-		ptr::addr_of!(LBA_SSSTNAME_BIN_IMPL),
-		ptr::addr_of!(LBA_MSSYSTEM_BIN_IMPL),
-		ptr::addr_of!(LBA_USSYSTEM_BIN_IMPL),
-		ptr::addr_of!(LBA_ESSYSTEM_BIN_IMPL),
-		ptr::addr_of!(LBA_FSSYSTEM_BIN_IMPL),
-		ptr::addr_of!(LBA_ISSYSTEM_BIN_IMPL),
-		ptr::addr_of!(LBA_DSSYSTEM_BIN_IMPL),
-		ptr::addr_of!(LBA_SSSYSTEM_BIN_IMPL),
-		ptr::addr_of!(LBA_MSTALK00_BIN_IMPL),
-		ptr::addr_of!(LBA_USTALK00_BIN_IMPL),
-		ptr::addr_of!(LBA_ESTALK00_BIN_IMPL),
-		ptr::addr_of!(LBA_FSTALK00_BIN_IMPL),
-		ptr::addr_of!(LBA_ISTALK00_BIN_IMPL),
-		ptr::addr_of!(LBA_DSTALK00_BIN_IMPL),
-		ptr::addr_of!(LBA_SSTALK00_BIN_IMPL),
-		ptr::addr_of!(LBA_MSTALK01_BIN_IMPL),
-		ptr::addr_of!(LBA_USTALK01_BIN_IMPL),
-		ptr::addr_of!(LBA_ESTALK01_BIN_IMPL),
-		ptr::addr_of!(LBA_FSTALK01_BIN_IMPL),
-		ptr::addr_of!(LBA_ISTALK01_BIN_IMPL),
-		ptr::addr_of!(LBA_DSTALK01_BIN_IMPL),
-		ptr::addr_of!(LBA_SSTALK01_BIN_IMPL),
-		ptr::addr_of!(LBA_MSTALK02_BIN_IMPL),
-		ptr::addr_of!(LBA_USTALK02_BIN_IMPL),
-		ptr::addr_of!(LBA_ESTALK02_BIN_IMPL),
-		ptr::addr_of!(LBA_FSTALK02_BIN_IMPL),
-		ptr::addr_of!(LBA_ISTALK02_BIN_IMPL),
-		ptr::addr_of!(LBA_DSTALK02_BIN_IMPL),
-		ptr::addr_of!(LBA_SSTALK02_BIN_IMPL),
-		ptr::addr_of!(LBA_MSTALK03_BIN_IMPL),
-		ptr::addr_of!(LBA_USTALK03_BIN_IMPL),
-		ptr::addr_of!(LBA_ESTALK03_BIN_IMPL),
-		ptr::addr_of!(LBA_FSTALK03_BIN_IMPL),
-		ptr::addr_of!(LBA_ISTALK03_BIN_IMPL),
-		ptr::addr_of!(LBA_DSTALK03_BIN_IMPL),
-		ptr::addr_of!(LBA_SSTALK03_BIN_IMPL),
-		ptr::addr_of!(LBA_MSTALK04_BIN_IMPL),
-		ptr::addr_of!(LBA_USTALK04_BIN_IMPL),
-		ptr::addr_of!(LBA_ESTALK04_BIN_IMPL),
-		ptr::addr_of!(LBA_FSTALK04_BIN_IMPL),
-		ptr::addr_of!(LBA_ISTALK04_BIN_IMPL),
-		ptr::addr_of!(LBA_DSTALK04_BIN_IMPL),
-		ptr::addr_of!(LBA_SSTALK04_BIN_IMPL),
-		ptr::addr_of!(LBA_MSTALK05_BIN_IMPL),
-		ptr::addr_of!(LBA_USTALK05_BIN_IMPL),
-		ptr::addr_of!(LBA_ESTALK05_BIN_IMPL),
-		ptr::addr_of!(LBA_FSTALK05_BIN_IMPL),
-		ptr::addr_of!(LBA_ISTALK05_BIN_IMPL),
-		ptr::addr_of!(LBA_DSTALK05_BIN_IMPL),
-		ptr::addr_of!(LBA_SSTALK05_BIN_IMPL),
-		ptr::addr_of!(LBA_MSTALK06_BIN_IMPL),
-		ptr::addr_of!(LBA_USTALK06_BIN_IMPL),
-		ptr::addr_of!(LBA_ESTALK06_BIN_IMPL),
-		ptr::addr_of!(LBA_FSTALK06_BIN_IMPL),
-		ptr::addr_of!(LBA_ISTALK06_BIN_IMPL),
-		ptr::addr_of!(LBA_DSTALK06_BIN_IMPL),
-		ptr::addr_of!(LBA_SSTALK06_BIN_IMPL),
-		ptr::addr_of!(LBA_MSTALK07_BIN_IMPL),
-		ptr::addr_of!(LBA_USTALK07_BIN_IMPL),
-		ptr::addr_of!(LBA_ESTALK07_BIN_IMPL),
-		ptr::addr_of!(LBA_FSTALK07_BIN_IMPL),
-		ptr::addr_of!(LBA_ISTALK07_BIN_IMPL),
-		ptr::addr_of!(LBA_DSTALK07_BIN_IMPL),
-		ptr::addr_of!(LBA_SSTALK07_BIN_IMPL),
-		ptr::addr_of!(LBA_MSTALK08_BIN_IMPL),
-		ptr::addr_of!(LBA_USTALK08_BIN_IMPL),
-		ptr::addr_of!(LBA_ESTALK08_BIN_IMPL),
-		ptr::addr_of!(LBA_FSTALK08_BIN_IMPL),
-		ptr::addr_of!(LBA_ISTALK08_BIN_IMPL),
-		ptr::addr_of!(LBA_DSTALK08_BIN_IMPL),
-		ptr::addr_of!(LBA_SSTALK08_BIN_IMPL),
-		ptr::addr_of!(LBA_MSTALK09_BIN_IMPL),
-		ptr::addr_of!(LBA_USTALK09_BIN_IMPL),
-		ptr::addr_of!(LBA_ESTALK09_BIN_IMPL),
-		ptr::addr_of!(LBA_FSTALK09_BIN_IMPL),
-		ptr::addr_of!(LBA_ISTALK09_BIN_IMPL),
-		ptr::addr_of!(LBA_DSTALK09_BIN_IMPL),
-		ptr::addr_of!(LBA_SSTALK09_BIN_IMPL),
-		ptr::addr_of!(LBA_MSTRAINI_BIN_IMPL),
-		ptr::addr_of!(LBA_USTRAINI_BIN_IMPL),
-		ptr::addr_of!(LBA_ESTRAINI_BIN_IMPL),
-		ptr::addr_of!(LBA_FSTRAINI_BIN_IMPL),
-		ptr::addr_of!(LBA_ISTRAINI_BIN_IMPL),
-		ptr::addr_of!(LBA_DSTRAINI_BIN_IMPL),
-		ptr::addr_of!(LBA_SSTRAINI_BIN_IMPL),
-		ptr::addr_of!(LBA_MSDMG200_BIN_IMPL),
-		ptr::addr_of!(LBA_USDMG200_BIN_IMPL),
-		ptr::addr_of!(LBA_ESDMG200_BIN_IMPL),
-		ptr::addr_of!(LBA_FSDMG200_BIN_IMPL),
-		ptr::addr_of!(LBA_ISDMG200_BIN_IMPL),
-		ptr::addr_of!(LBA_DSDMG200_BIN_IMPL),
-		ptr::addr_of!(LBA_SSDMG200_BIN_IMPL),
-		ptr::addr_of!(LBA_MSDMG260_BIN_IMPL),
-		ptr::addr_of!(LBA_USDMG260_BIN_IMPL),
-		ptr::addr_of!(LBA_ESDMG260_BIN_IMPL),
-		ptr::addr_of!(LBA_FSDMG260_BIN_IMPL),
-		ptr::addr_of!(LBA_ISDMG260_BIN_IMPL),
-		ptr::addr_of!(LBA_DSDMG260_BIN_IMPL),
-		ptr::addr_of!(LBA_SSDMG260_BIN_IMPL),
-		ptr::addr_of!(LBA_MSDMG270_BIN_IMPL),
-		ptr::addr_of!(LBA_USDMG270_BIN_IMPL),
-		ptr::addr_of!(LBA_ESDMG270_BIN_IMPL),
-		ptr::addr_of!(LBA_FSDMG270_BIN_IMPL),
-		ptr::addr_of!(LBA_ISDMG270_BIN_IMPL),
-		ptr::addr_of!(LBA_DSDMG270_BIN_IMPL),
-		ptr::addr_of!(LBA_SSDMG270_BIN_IMPL),
-		ptr::addr_of!(LBA_MSDMG300_BIN_IMPL),
-		ptr::addr_of!(LBA_USDMG300_BIN_IMPL),
-		ptr::addr_of!(LBA_ESDMG300_BIN_IMPL),
-		ptr::addr_of!(LBA_FSDMG300_BIN_IMPL),
-		ptr::addr_of!(LBA_ISDMG300_BIN_IMPL),
-		ptr::addr_of!(LBA_DSDMG300_BIN_IMPL),
-		ptr::addr_of!(LBA_SSDMG300_BIN_IMPL),
-		ptr::addr_of!(LBA_MSDMG305_BIN_IMPL),
-		ptr::addr_of!(LBA_USDMG305_BIN_IMPL),
-		ptr::addr_of!(LBA_ESDMG305_BIN_IMPL),
-		ptr::addr_of!(LBA_FSDMG305_BIN_IMPL),
-		ptr::addr_of!(LBA_ISDMG305_BIN_IMPL),
-		ptr::addr_of!(LBA_DSDMG305_BIN_IMPL),
-		ptr::addr_of!(LBA_SSDMG305_BIN_IMPL),
-		ptr::addr_of!(LBA_MSDMG400_BIN_IMPL),
-		ptr::addr_of!(LBA_USDMG400_BIN_IMPL),
-		ptr::addr_of!(LBA_ESDMG400_BIN_IMPL),
-		ptr::addr_of!(LBA_FSDMG400_BIN_IMPL),
-		ptr::addr_of!(LBA_ISDMG400_BIN_IMPL),
-		ptr::addr_of!(LBA_DSDMG400_BIN_IMPL),
-		ptr::addr_of!(LBA_SSDMG400_BIN_IMPL),
-		ptr::addr_of!(LBA_MSDMG500_BIN_IMPL),
-		ptr::addr_of!(LBA_USDMG500_BIN_IMPL),
-		ptr::addr_of!(LBA_ESDMG500_BIN_IMPL),
-		ptr::addr_of!(LBA_FSDMG500_BIN_IMPL),
-		ptr::addr_of!(LBA_ISDMG500_BIN_IMPL),
-		ptr::addr_of!(LBA_DSDMG500_BIN_IMPL),
-		ptr::addr_of!(LBA_SSDMG500_BIN_IMPL),
-		ptr::addr_of!(LBA_MSDMG600_BIN_IMPL),
-		ptr::addr_of!(LBA_USDMG600_BIN_IMPL),
-		ptr::addr_of!(LBA_ESDMG600_BIN_IMPL),
-		ptr::addr_of!(LBA_FSDMG600_BIN_IMPL),
-		ptr::addr_of!(LBA_ISDMG600_BIN_IMPL),
-		ptr::addr_of!(LBA_DSDMG600_BIN_IMPL),
-		ptr::addr_of!(LBA_SSDMG600_BIN_IMPL),
-		ptr::addr_of!(LBA_MSDMG700_BIN_IMPL),
-		ptr::addr_of!(LBA_USDMG700_BIN_IMPL),
-		ptr::addr_of!(LBA_ESDMG700_BIN_IMPL),
-		ptr::addr_of!(LBA_FSDMG700_BIN_IMPL),
-		ptr::addr_of!(LBA_ISDMG700_BIN_IMPL),
-		ptr::addr_of!(LBA_DSDMG700_BIN_IMPL),
-		ptr::addr_of!(LBA_SSDMG700_BIN_IMPL),
-		ptr::addr_of!(LBA_MSDMG800_BIN_IMPL),
-		ptr::addr_of!(LBA_USDMG800_BIN_IMPL),
-		ptr::addr_of!(LBA_ESDMG800_BIN_IMPL),
-		ptr::addr_of!(LBA_FSDMG800_BIN_IMPL),
-		ptr::addr_of!(LBA_ISDMG800_BIN_IMPL),
-		ptr::addr_of!(LBA_DSDMG800_BIN_IMPL),
-		ptr::addr_of!(LBA_SSDMG800_BIN_IMPL),
-		ptr::addr_of!(LBA_MSDMG900_BIN_IMPL),
-		ptr::addr_of!(LBA_USDMG900_BIN_IMPL),
-		ptr::addr_of!(LBA_ESDMG900_BIN_IMPL),
-		ptr::addr_of!(LBA_FSDMG900_BIN_IMPL),
-		ptr::addr_of!(LBA_ISDMG900_BIN_IMPL),
-		ptr::addr_of!(LBA_DSDMG900_BIN_IMPL),
-		ptr::addr_of!(LBA_SSDMG900_BIN_IMPL),
-		ptr::addr_of!(LBA_M039SCUM_BIN_IMPL),
-		ptr::addr_of!(LBA_FIELDCOM_BIN_IMPL),
-		ptr::addr_of!(LBA_CARDGAME_PRO_IMPL),
-		ptr::addr_of!(LBA_STDGNAME_PRO_IMPL),
-		ptr::addr_of!(LBA_M115MUGE_BIN_IMPL),
-		ptr::addr_of!(LBA_M366GIRU_BIN_IMPL),
-		ptr::addr_of!(LBA_CNTY_SEL_PRO_IMPL),
-		ptr::addr_of!(LBA_FIELDSTG_PRO_IMPL),
-		ptr::addr_of!(LBA_FIGHTSTG_PRO_IMPL),
-		ptr::addr_of!(LBA_SHOCKTST_PRO_IMPL),
-		ptr::addr_of!(LBA_SOUNDTST_PRO_IMPL),
-		ptr::addr_of!(LBA_MPBATL00_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM001_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM002_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM004_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM005_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM007_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM009_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM010_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM025_BIN_IMPL),
-		ptr::addr_of!(LBA_MPCOMMON_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV001_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV005_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV010_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBATL00_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM001_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM002_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM004_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM005_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM007_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM009_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM010_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM025_BIN_IMPL),
-		ptr::addr_of!(LBA_MVCOMMON_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV001_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV005_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV010_BIN_IMPL),
-		ptr::addr_of!(LBA_STAGSLCT_PRO_IMPL),
-		ptr::addr_of!(LBA_STCRDABM_PRO_IMPL),
-		ptr::addr_of!(LBA_P001PLAY_BIN_IMPL),
-		ptr::addr_of!(LBA_P002PLAY_BIN_IMPL),
-		ptr::addr_of!(LBA_P003PKEN_BIN_IMPL),
-		ptr::addr_of!(LBA_P004KOGU_BIN_IMPL),
-		ptr::addr_of!(LBA_P005KOET_BIN_IMPL),
-		ptr::addr_of!(LBA_P006AGUM_BIN_IMPL),
-		ptr::addr_of!(LBA_P007VMON_BIN_IMPL),
-		ptr::addr_of!(LBA_P008GIRU_BIN_IMPL),
-		ptr::addr_of!(LBA_P009RENA_BIN_IMPL),
-		ptr::addr_of!(LBA_P010PATA_BIN_IMPL),
-		ptr::addr_of!(LBA_P011MINO_BIN_IMPL),
-		ptr::addr_of!(LBA_P013TAKU_BIN_IMPL),
-		ptr::addr_of!(LBA_P044OPFS_BIN_IMPL),
-		ptr::addr_of!(LBA_P065JKSI_BIN_IMPL),
-		ptr::addr_of!(LBA_P146OPFE_BIN_IMPL),
-		ptr::addr_of!(LBA_P147OPFW_BIN_IMPL),
-		ptr::addr_of!(LBA_S200PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S200TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S205PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S205TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S210PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S210TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S220PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S220TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S225PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S225TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S230PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S230TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S235PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S235TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S240PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S240TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S245PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S245TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S250PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S250TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S255PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S255TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S260PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S260TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S270PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S270TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S275PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S275TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S280PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S280TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S330PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S330TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S335PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S335TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S350PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S350TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S355PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S355TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S370PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S370TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S375PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S375TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S435PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S435TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S465PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S465TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S780PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S780TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S785PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S785TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S790PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S790TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_STCRDDEK_PRO_IMPL),
-		ptr::addr_of!(LBA_SFSTDATA_PRO_IMPL),
-		ptr::addr_of!(LBA_SMDLDATA_PRO_IMPL),
-		ptr::addr_of!(LBA_M069FLAR_BIN_IMPL),
-		ptr::addr_of!(LBA_STCRDSHP_PRO_IMPL),
-		ptr::addr_of!(LBA_SDIGIEDT_PRO_IMPL),
-		ptr::addr_of!(LBA_STDWTITL_PRO_IMPL),
-		ptr::addr_of!(LBA_STFGTREP_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG200_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG205_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG210_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG220_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG225_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG230_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG235_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG240_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG245_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG250_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG255_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG260_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG270_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG275_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG280_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG330_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG335_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG350_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG355_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG370_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG375_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG435_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG465_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG780_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG785_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG790_PRO_IMPL),
-		ptr::addr_of!(LBA_STGDGLAB_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG395_PRO_IMPL),
-		ptr::addr_of!(LBA_STGMCARD_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG360_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG430_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG475_PRO_IMPL),
-		ptr::addr_of!(LBA_STGTRAIN_PRO_IMPL),
-		ptr::addr_of!(LBA_M003AGUM_BIN_IMPL),
-		ptr::addr_of!(LBA_M010SEAD_BIN_IMPL),
-		ptr::addr_of!(LBA_M013MAME_BIN_IMPL),
-		ptr::addr_of!(LBA_M126BRAK_BIN_IMPL),
-		ptr::addr_of!(LBA_M148IPDR_BIN_IMPL),
-		ptr::addr_of!(LBA_M175KRSR_BIN_IMPL),
-		ptr::addr_of!(LBA_M176TDBL_BIN_IMPL),
-		ptr::addr_of!(LBA_M213WGRE_BIN_IMPL),
-		ptr::addr_of!(LBA_M217PDEV_BIN_IMPL),
-		ptr::addr_of!(LBA_M230GKWA_BIN_IMPL),
-		ptr::addr_of!(LBA_M236VVND_BIN_IMPL),
-		ptr::addr_of!(LBA_M251APKR_BIN_IMPL),
-		ptr::addr_of!(LBA_M373RENA_BIN_IMPL),
-		ptr::addr_of!(LBA_M381IPDP_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM030_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV011_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM030_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV011_BIN_IMPL),
-		ptr::addr_of!(LBA_STITSHOP_PRO_IMPL),
-		ptr::addr_of!(LBA_STPLNMET_PRO_IMPL),
-		ptr::addr_of!(LBA_STSTATUS_PRO_IMPL),
-		ptr::addr_of!(LBA_WFIGHTMN_PRO_IMPL),
-		ptr::addr_of!(LBA_WFIGHTTS_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG201_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG202_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG203_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG206_PRO_IMPL),
-		ptr::addr_of!(LBA_M145VMON_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM003_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM029_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM003_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM029_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM020_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM020_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG470_PRO_IMPL),
-		ptr::addr_of!(LBA_MPBGM008_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG211_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG212_PRO_IMPL),
-		ptr::addr_of!(LBA_MVBGM008_BIN_IMPL),
-		ptr::addr_of!(LBA_S395PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S395TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG505_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG365_PRO_IMPL),
-		ptr::addr_of!(LBA_S360PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S360TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG555_PRO_IMPL),
-		ptr::addr_of!(LBA_S430PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S430TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG520_PRO_IMPL),
-		ptr::addr_of!(LBA_M076TANK_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM011_BIN_IMPL),
-		ptr::addr_of!(LBA_M196MGAR_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM022_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBOSS00_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV004_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV204_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM011_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM022_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBOSS00_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV004_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV204_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG218_PRO_IMPL),
-		ptr::addr_of!(LBA_S475PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S475TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S470PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG219_PRO_IMPL),
-		ptr::addr_of!(LBA_S470TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG425_PRO_IMPL),
-		ptr::addr_of!(LBA_MPBGM012_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM012_BIN_IMPL),
-		ptr::addr_of!(LBA_S365PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S365TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S505PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S505TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG405_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG545_PRO_IMPL),
-		ptr::addr_of!(LBA_M259EXVM_BIN_IMPL),
-		ptr::addr_of!(LBA_M260STNG_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM013_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM013_BIN_IMPL),
-		ptr::addr_of!(LBA_S555PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S555TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_M384KOET_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM014_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM014_BIN_IMPL),
-		ptr::addr_of!(LBA_M053NANI_BIN_IMPL),
-		ptr::addr_of!(LBA_M385KOGU_BIN_IMPL),
-		ptr::addr_of!(LBA_S520PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S520TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S425PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG530_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG221_PRO_IMPL),
-		ptr::addr_of!(LBA_M031PATA_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG226_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG231_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG232_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG233_PRO_IMPL),
-		ptr::addr_of!(LBA_S425TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_M012MTGR_BIN_IMPL),
-		ptr::addr_of!(LBA_S405PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S405TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_M041GIRO_BIN_IMPL),
-		ptr::addr_of!(LBA_M254PLDR_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM015_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM015_BIN_IMPL),
-		ptr::addr_of!(LBA_M150OMGM_BIN_IMPL),
-		ptr::addr_of!(LBA_CARDDATA_BIN_IMPL),
-		ptr::addr_of!(LBA_TRANIN00_BIN_IMPL),
-		ptr::addr_of!(LBA_CARDPACK_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM016_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM016_BIN_IMPL),
-		ptr::addr_of!(LBA_M014MONZ_BIN_IMPL),
-		ptr::addr_of!(LBA_M032KUNE_BIN_IMPL),
-		ptr::addr_of!(LBA_M023YUKI_BIN_IMPL),
-		ptr::addr_of!(LBA_M034OGRE_BIN_IMPL),
-		ptr::addr_of!(LBA_M037BAKE_BIN_IMPL),
-		ptr::addr_of!(LBA_M035SHEL_BIN_IMPL),
-		ptr::addr_of!(LBA_M049SIRA_BIN_IMPL),
-		ptr::addr_of!(LBA_M050COCA_BIN_IMPL),
-		ptr::addr_of!(LBA_M051KUWA_BIN_IMPL),
-		ptr::addr_of!(LBA_M052MOJA_BIN_IMPL),
-		ptr::addr_of!(LBA_M110GECO_BIN_IMPL),
-		ptr::addr_of!(LBA_M004BETA_BIN_IMPL),
-		ptr::addr_of!(LBA_M006DEVI_BIN_IMPL),
-		ptr::addr_of!(LBA_M135DVDR_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG236_PRO_IMPL),
-		ptr::addr_of!(LBA_M367GRAW_BIN_IMPL),
-		ptr::addr_of!(LBA_M132GIZA_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM018_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM018_BIN_IMPL),
-		ptr::addr_of!(LBA_S545PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S545TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_M203TRCR_BIN_IMPL),
-		ptr::addr_of!(LBA_S530PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S530TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_M026SKUL_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM027_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM027_BIN_IMPL),
-		ptr::addr_of!(LBA_M005GREY_BIN_IMPL),
-		ptr::addr_of!(LBA_M122HAGU_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG237_PRO_IMPL),
-		ptr::addr_of!(LBA_TRANIN02_BIN_IMPL),
-		ptr::addr_of!(LBA_TRANIN03_BIN_IMPL),
-		ptr::addr_of!(LBA_TRANIN04_BIN_IMPL),
-		ptr::addr_of!(LBA_TRANIN10_BIN_IMPL),
-		ptr::addr_of!(LBA_TRANIN14_BIN_IMPL),
-		ptr::addr_of!(LBA_TRANIN15_BIN_IMPL),
-		ptr::addr_of!(LBA_CMFONTCS_BIN_IMPL),
-		ptr::addr_of!(LBA_CMFONTTM_BIN_IMPL),
-		ptr::addr_of!(LBA_STDGNMCS_BIN_IMPL),
-		ptr::addr_of!(LBA_STDGNMTM_BIN_IMPL),
-		ptr::addr_of!(LBA_STNMETCS_BIN_IMPL),
-		ptr::addr_of!(LBA_STNMETTM_BIN_IMPL),
-		ptr::addr_of!(LBA_STTRNGCS_BIN_IMPL),
-		ptr::addr_of!(LBA_STTRNGTM_BIN_IMPL),
-		ptr::addr_of!(LBA_M134CYCL_BIN_IMPL),
-		ptr::addr_of!(LBA_M136TUSK_BIN_IMPL),
-		ptr::addr_of!(LBA_S256PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S256TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG256_PRO_IMPL),
-		ptr::addr_of!(LBA_S535PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S535TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG535_PRO_IMPL),
-		ptr::addr_of!(LBA_M138DELT_BIN_IMPL),
-		ptr::addr_of!(LBA_M008TYRA_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM017_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM017_BIN_IMPL),
-		ptr::addr_of!(LBA_M139RARE_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG238_PRO_IMPL),
-		ptr::addr_of!(LBA_M027MTMA_BIN_IMPL),
-		ptr::addr_of!(LBA_STMCRDCS_BIN_IMPL),
-		ptr::addr_of!(LBA_STMCRDTM_BIN_IMPL),
-		ptr::addr_of!(LBA_M119TONO_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG241_PRO_IMPL),
-		ptr::addr_of!(LBA_M067YANM_BIN_IMPL),
-		ptr::addr_of!(LBA_M173MSHA_BIN_IMPL),
-		ptr::addr_of!(LBA_S320PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S320TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG320_PRO_IMPL),
-		ptr::addr_of!(LBA_M080GOBR_BIN_IMPL),
-		ptr::addr_of!(LBA_S710PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S710TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG710_PRO_IMPL),
-		ptr::addr_of!(LBA_M059HOUO_BIN_IMPL),
-		ptr::addr_of!(LBA_S290PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S290TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG290_PRO_IMPL),
-		ptr::addr_of!(LBA_M222WOOD_BIN_IMPL),
-		ptr::addr_of!(LBA_S560PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S560TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG560_PRO_IMPL),
-		ptr::addr_of!(LBA_M137FLYM_BIN_IMPL),
-		ptr::addr_of!(LBA_M234ANGW_BIN_IMPL),
-		ptr::addr_of!(LBA_S285PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S285TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG285_PRO_IMPL),
-		ptr::addr_of!(LBA_S237PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S237TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG246_PRO_IMPL),
-		ptr::addr_of!(LBA_S380PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S380TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG380_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG251_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG261_PRO_IMPL),
-		ptr::addr_of!(LBA_M028VEDA_BIN_IMPL),
-		ptr::addr_of!(LBA_M388GRIZ_BIN_IMPL),
-		ptr::addr_of!(LBA_M094ICEM_BIN_IMPL),
-		ptr::addr_of!(LBA_S240MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S205MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_CMNBGDCS_BIN_IMPL),
-		ptr::addr_of!(LBA_STDGLBCS_BIN_IMPL),
-		ptr::addr_of!(LBA_STDGLBTM_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG271_PRO_IMPL),
-		ptr::addr_of!(LBA_MPBGM019_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM023_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM024_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM028_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM019_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM023_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM024_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM028_BIN_IMPL),
-		ptr::addr_of!(LBA_M227GARB_BIN_IMPL),
-		ptr::addr_of!(LBA_S375MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S335MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_M042ETEM_BIN_IMPL),
-		ptr::addr_of!(LBA_M211HANG_BIN_IMPL),
-		ptr::addr_of!(LBA_S470MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S220MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_M065MTET_BIN_IMPL),
-		ptr::addr_of!(LBA_S275MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_M267BKWG_BIN_IMPL),
-		ptr::addr_of!(LBA_M171GOKI_BIN_IMPL),
-		ptr::addr_of!(LBA_M197GANI_BIN_IMPL),
-		ptr::addr_of!(LBA_M121JURE_BIN_IMPL),
-		ptr::addr_of!(LBA_M198KIWI_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM031_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM031_BIN_IMPL),
-		ptr::addr_of!(LBA_M025VEGI_BIN_IMPL),
-		ptr::addr_of!(LBA_M108GOLE_BIN_IMPL),
-		ptr::addr_of!(LBA_P027SMTH_BIN_IMPL),
-		ptr::addr_of!(LBA_P036AMDK_BIN_IMPL),
-		ptr::addr_of!(LBA_P020RDSZ_BIN_IMPL),
-		ptr::addr_of!(LBA_P019RDSY_BIN_IMPL),
-		ptr::addr_of!(LBA_P021RDBK_BIN_IMPL),
-		ptr::addr_of!(LBA_P022RDGB_BIN_IMPL),
-		ptr::addr_of!(LBA_P023RDET_BIN_IMPL),
-		ptr::addr_of!(LBA_P026RDNT_BIN_IMPL),
-		ptr::addr_of!(LBA_P024RDST_BIN_IMPL),
-		ptr::addr_of!(LBA_P025RDWT_BIN_IMPL),
-		ptr::addr_of!(LBA_P028WEDG_BIN_IMPL),
-		ptr::addr_of!(LBA_P030ASWT_BIN_IMPL),
-		ptr::addr_of!(LBA_P031ASFM_BIN_IMPL),
-		ptr::addr_of!(LBA_P029ASLR_BIN_IMPL),
-		ptr::addr_of!(LBA_P032ASDK_BIN_IMPL),
-		ptr::addr_of!(LBA_P034AMWT_BIN_IMPL),
-		ptr::addr_of!(LBA_P033AMLR_BIN_IMPL),
-		ptr::addr_of!(LBA_P035AMFM_BIN_IMPL),
-		ptr::addr_of!(LBA_P037GRGO_BIN_IMPL),
-		ptr::addr_of!(LBA_P039TAIL_BIN_IMPL),
-		ptr::addr_of!(LBA_P038WIZA_BIN_IMPL),
-		ptr::addr_of!(LBA_P040PIKO_BIN_IMPL),
-		ptr::addr_of!(LBA_P012MINT_BIN_IMPL),
-		ptr::addr_of!(LBA_P014TAKT_BIN_IMPL),
-		ptr::addr_of!(LBA_P159NVMO_BIN_IMPL),
-		ptr::addr_of!(LBA_P158NAGU_BIN_IMPL),
-		ptr::addr_of!(LBA_P160NGIR_BIN_IMPL),
-		ptr::addr_of!(LBA_P161NREN_BIN_IMPL),
-		ptr::addr_of!(LBA_P162NPAT_BIN_IMPL),
-		ptr::addr_of!(LBA_M200BLSA_BIN_IMPL),
-		ptr::addr_of!(LBA_M124TIRS_BIN_IMPL),
-		ptr::addr_of!(LBA_M212MANM_BIN_IMPL),
-		ptr::addr_of!(LBA_TRANIN11_BIN_IMPL),
-		ptr::addr_of!(LBA_TRANIN12_BIN_IMPL),
-		ptr::addr_of!(LBA_TRANIN16_BIN_IMPL),
-		ptr::addr_of!(LBA_P163JKST_BIN_IMPL),
-		ptr::addr_of!(LBA_M202ANOM_BIN_IMPL),
-		ptr::addr_of!(LBA_M215SMAN_BIN_IMPL),
-		ptr::addr_of!(LBA_M207HANU_BIN_IMPL),
-		ptr::addr_of!(LBA_M206BAKU_BIN_IMPL),
-		ptr::addr_of!(LBA_P042LABO_BIN_IMPL),
-		ptr::addr_of!(LBA_P087TERS_BIN_IMPL),
-		ptr::addr_of!(LBA_P088GABS_BIN_IMPL),
-		ptr::addr_of!(LBA_P089PYOS_BIN_IMPL),
-		ptr::addr_of!(LBA_P071OLYF_BIN_IMPL),
-		ptr::addr_of!(LBA_P069OTKF_BIN_IMPL),
-		ptr::addr_of!(LBA_P070FRTF_BIN_IMPL),
-		ptr::addr_of!(LBA_P068SARM_BIN_IMPL),
-		ptr::addr_of!(LBA_P066FRTM_BIN_IMPL),
-		ptr::addr_of!(LBA_P067OTKU_BIN_IMPL),
-		ptr::addr_of!(LBA_P063FRDF_BIN_IMPL),
-		ptr::addr_of!(LBA_P064HSSM_BIN_IMPL),
-		ptr::addr_of!(LBA_P062FRDM_BIN_IMPL),
-		ptr::addr_of!(LBA_P047LEOM_BIN_IMPL),
-		ptr::addr_of!(LBA_P048GDAM_BIN_IMPL),
-		ptr::addr_of!(LBA_P045AMST_BIN_IMPL),
-		ptr::addr_of!(LBA_P046AW00_BIN_IMPL),
-		ptr::addr_of!(LBA_P043OPMA_BIN_IMPL),
-		ptr::addr_of!(LBA_P041GRDR_BIN_IMPL),
-		ptr::addr_of!(LBA_S710MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S200MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S395MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S780MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S555MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S210MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S245MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S560MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S430MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S320MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_P105KNGO_BIN_IMPL),
-		ptr::addr_of!(LBA_S330MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG276_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG281_PRO_IMPL),
-		ptr::addr_of!(LBA_M208TOTA_BIN_IMPL),
-		ptr::addr_of!(LBA_S260MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S285MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S290MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S380MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S425MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S790MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_M225DAGO_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBGM021_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM021_BIN_IMPL),
-		ptr::addr_of!(LBA_M391GRPL_BIN_IMPL),
-		ptr::addr_of!(LBA_M210RUKA_BIN_IMPL),
-		ptr::addr_of!(LBA_S202MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S202PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S202TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG286_PRO_IMPL),
-		ptr::addr_of!(LBA_S218MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S218PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S218TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG291_PRO_IMPL),
-		ptr::addr_of!(LBA_S237MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_M226OKWA_BIN_IMPL),
-		ptr::addr_of!(LBA_S310MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S310PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S310TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG310_PRO_IMPL),
-		ptr::addr_of!(LBA_S232MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S232PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S232TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG295_PRO_IMPL),
-		ptr::addr_of!(LBA_S305MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S305PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S305TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG305_PRO_IMPL),
-		ptr::addr_of!(LBA_S300MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S300PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S300TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG300_PRO_IMPL),
-		ptr::addr_of!(LBA_M359IPDF_BIN_IMPL),
-		ptr::addr_of!(LBA_M229PUKU_BIN_IMPL),
-		ptr::addr_of!(LBA_P059AOAD_BIN_IMPL),
-		ptr::addr_of!(LBA_P060AOAE_BIN_IMPL),
-		ptr::addr_of!(LBA_P057AOAB_BIN_IMPL),
-		ptr::addr_of!(LBA_P055GMGD_BIN_IMPL),
-		ptr::addr_of!(LBA_P058AOAC_BIN_IMPL),
-		ptr::addr_of!(LBA_P056AOAS_BIN_IMPL),
-		ptr::addr_of!(LBA_P053SHAK_BIN_IMPL),
-		ptr::addr_of!(LBA_P050FRDR_BIN_IMPL),
-		ptr::addr_of!(LBA_P054MGNA_BIN_IMPL),
-		ptr::addr_of!(LBA_P049TOGE_BIN_IMPL),
-		ptr::addr_of!(LBA_P051PANG_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV002_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV003_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV002_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV003_BIN_IMPL),
-		ptr::addr_of!(LBA_S460PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S460TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG460_PRO_IMPL),
-		ptr::addr_of!(LBA_S480PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S480TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG480_PRO_IMPL),
-		ptr::addr_of!(LBA_M040ANDR_BIN_IMPL),
-		ptr::addr_of!(LBA_M223PHNT_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG296_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG301_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG306_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG311_PRO_IMPL),
-		ptr::addr_of!(LBA_M270VIKI_BIN_IMPL),
-		ptr::addr_of!(LBA_M193GRFO_BIN_IMPL),
-		ptr::addr_of!(LBA_P084KETE_BIN_IMPL),
-		ptr::addr_of!(LBA_P085FLWR_BIN_IMPL),
-		ptr::addr_of!(LBA_P083METE_BIN_IMPL),
-		ptr::addr_of!(LBA_P081NMEM_BIN_IMPL),
-		ptr::addr_of!(LBA_P082ETEM_BIN_IMPL),
-		ptr::addr_of!(LBA_P079SPIC_BIN_IMPL),
-		ptr::addr_of!(LBA_P080BALM_BIN_IMPL),
-		ptr::addr_of!(LBA_P073GOBA_BIN_IMPL),
-		ptr::addr_of!(LBA_P074JIJI_BIN_IMPL),
-		ptr::addr_of!(LBA_P072GOZS_BIN_IMPL),
-		ptr::addr_of!(LBA_P061AOAF_BIN_IMPL),
-		ptr::addr_of!(LBA_S440MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S440PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S440TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG440_PRO_IMPL),
-		ptr::addr_of!(LBA_MPENV006_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV007_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV006_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV007_BIN_IMPL),
-		ptr::addr_of!(LBA_M089FUGA_BIN_IMPL),
-		ptr::addr_of!(LBA_M060HKAB_BIN_IMPL),
-		ptr::addr_of!(LBA_P075BABA_BIN_IMPL),
-		ptr::addr_of!(LBA_P108PHAR_BIN_IMPL),
-		ptr::addr_of!(LBA_P109MTHI_BIN_IMPL),
-		ptr::addr_of!(LBA_P106PONT_BIN_IMPL),
-		ptr::addr_of!(LBA_P098YASH_BIN_IMPL),
-		ptr::addr_of!(LBA_P102SHUR_BIN_IMPL),
-		ptr::addr_of!(LBA_P090MGRM_BIN_IMPL),
-		ptr::addr_of!(LBA_P093HANM_BIN_IMPL),
-		ptr::addr_of!(LBA_P091PDRM_BIN_IMPL),
-		ptr::addr_of!(LBA_P092MGWM_BIN_IMPL),
-		ptr::addr_of!(LBA_S455MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S455PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S455TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG455_PRO_IMPL),
-		ptr::addr_of!(LBA_M220GESO_BIN_IMPL),
-		ptr::addr_of!(LBA_M009MERA_BIN_IMPL),
-		ptr::addr_of!(LBA_M140MTRN_BIN_IMPL),
-		ptr::addr_of!(LBA_S230MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S450MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S450PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S450TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG450_PRO_IMPL),
-		ptr::addr_of!(LBA_S410MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S410PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S410TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG410_PRO_IMPL),
-		ptr::addr_of!(LBA_M374KYBI_BIN_IMPL),
-		ptr::addr_of!(LBA_S340MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S340PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S340TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG340_PRO_IMPL),
-		ptr::addr_of!(LBA_S345MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S345PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S345TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG345_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG315_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG316_PRO_IMPL),
-		ptr::addr_of!(LBA_MPENV008_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV009_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV012_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV013_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV014_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV008_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV009_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV012_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV013_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV014_BIN_IMPL),
-		ptr::addr_of!(LBA_S485MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S485PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S485TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG485_PRO_IMPL),
-		ptr::addr_of!(LBA_M224MDEV_BIN_IMPL),
-		ptr::addr_of!(LBA_M221OCTA_BIN_IMPL),
-		ptr::addr_of!(LBA_M054MGDR_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV015_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV016_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV017_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV015_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV016_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV017_BIN_IMPL),
-		ptr::addr_of!(LBA_S525MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S525PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S525TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG525_PRO_IMPL),
-		ptr::addr_of!(LBA_S495MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S495PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S495TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG495_PRO_IMPL),
-		ptr::addr_of!(LBA_P002PLYD_BIN_IMPL),
-		ptr::addr_of!(LBA_P002PLYF_BIN_IMPL),
-		ptr::addr_of!(LBA_P002PLYK_BIN_IMPL),
-		ptr::addr_of!(LBA_P002PLYL_BIN_IMPL),
-		ptr::addr_of!(LBA_S225MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S235MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S250MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S255MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S256MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S270MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S280MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S350MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S355MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S360MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S365MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S370MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S405MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S475MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S505MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S520MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S530MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S535MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S545MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S435MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S465MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S785MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_P148SNAC_BIN_IMPL),
-		ptr::addr_of!(LBA_P121BWGM_BIN_IMPL),
-		ptr::addr_of!(LBA_P122SBMM_BIN_IMPL),
-		ptr::addr_of!(LBA_P123DIGM_BIN_IMPL),
-		ptr::addr_of!(LBA_P118BSRM_BIN_IMPL),
-		ptr::addr_of!(LBA_P119BGWM_BIN_IMPL),
-		ptr::addr_of!(LBA_P117BIPD_BIN_IMPL),
-		ptr::addr_of!(LBA_P115KNIG_BIN_IMPL),
-		ptr::addr_of!(LBA_P116BSGM_BIN_IMPL),
-		ptr::addr_of!(LBA_P113WARU_BIN_IMPL),
-		ptr::addr_of!(LBA_P114NANO_BIN_IMPL),
-		ptr::addr_of!(LBA_P111ZANB_BIN_IMPL),
-		ptr::addr_of!(LBA_P112HAND_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV018_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV019_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV020_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV021_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV022_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV023_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV018_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV019_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV020_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV021_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV022_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV023_BIN_IMPL),
-		ptr::addr_of!(LBA_P126ITMB_BIN_IMPL),
-		ptr::addr_of!(LBA_S490MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S490PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S490TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG490_PRO_IMPL),
-		ptr::addr_of!(LBA_P157OPFT_BIN_IMPL),
-		ptr::addr_of!(LBA_STSHOPCS_BIN_IMPL),
-		ptr::addr_of!(LBA_STSHOPTM_BIN_IMPL),
-		ptr::addr_of!(LBA_STSTATCS_BIN_IMPL),
-		ptr::addr_of!(LBA_STSTATTM_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG321_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG325_PRO_IMPL),
-		ptr::addr_of!(LBA_S400MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S400PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S400TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG400_PRO_IMPL),
-		ptr::addr_of!(LBA_S500MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S500PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S500TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG500_PRO_IMPL),
-		ptr::addr_of!(LBA_M189DTMR_BIN_IMPL),
-		ptr::addr_of!(LBA_P107SEAM_BIN_IMPL),
-		ptr::addr_of!(LBA_P156BOOM_BIN_IMPL),
-		ptr::addr_of!(LBA_P103DPTM_BIN_IMPL),
-		ptr::addr_of!(LBA_P099SZIM_BIN_IMPL),
-		ptr::addr_of!(LBA_P104KABM_BIN_IMPL),
-		ptr::addr_of!(LBA_P100SHDM_BIN_IMPL),
-		ptr::addr_of!(LBA_P101NHEM_BIN_IMPL),
-		ptr::addr_of!(LBA_P095KKIM_BIN_IMPL),
-		ptr::addr_of!(LBA_P097ASTM_BIN_IMPL),
-		ptr::addr_of!(LBA_P077HASM_BIN_IMPL),
-		ptr::addr_of!(LBA_P086AIRD_BIN_IMPL),
-		ptr::addr_of!(LBA_P052ASHM_BIN_IMPL),
-		ptr::addr_of!(LBA_M104BLMR_BIN_IMPL),
-		ptr::addr_of!(LBA_M020ANGE_BIN_IMPL),
-		ptr::addr_of!(LBA_M237CHMR_BIN_IMPL),
-		ptr::addr_of!(LBA_M383PKEN_BIN_IMPL),
-		ptr::addr_of!(LBA_M151DBLM_BIN_IMPL),
-		ptr::addr_of!(LBA_S570PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S570MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S570TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG570_PRO_IMPL),
-		ptr::addr_of!(LBA_P076HANM_BIN_IMPL),
-		ptr::addr_of!(LBA_M369DUKE_BIN_IMPL),
-		ptr::addr_of!(LBA_M395KUW2_BIN_IMPL),
-		ptr::addr_of!(LBA_M398GOB2_BIN_IMPL),
-		ptr::addr_of!(LBA_M281TIRO_BIN_IMPL),
-		ptr::addr_of!(LBA_M402TRC2_BIN_IMPL),
-		ptr::addr_of!(LBA_P096GREM_BIN_IMPL),
-		ptr::addr_of!(LBA_P094TAOM_BIN_IMPL),
-		ptr::addr_of!(LBA_M405COC2_BIN_IMPL),
-		ptr::addr_of!(LBA_M409MAN2_BIN_IMPL),
-		ptr::addr_of!(LBA_M418RAR2_BIN_IMPL),
-		ptr::addr_of!(LBA_M419CYC2_BIN_IMPL),
-		ptr::addr_of!(LBA_S301MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S301PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S301TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG326_PRO_IMPL),
-		ptr::addr_of!(LBA_MPBGM026_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV024_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBGM026_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV024_BIN_IMPL),
-		ptr::addr_of!(LBA_M410VED2_BIN_IMPL),
-		ptr::addr_of!(LBA_M404PHN2_BIN_IMPL),
-		ptr::addr_of!(LBA_M406TOT2_BIN_IMPL),
-		ptr::addr_of!(LBA_M424BLS2_BIN_IMPL),
-		ptr::addr_of!(LBA_TRANIN01_BIN_IMPL),
-		ptr::addr_of!(LBA_TRANIN13_BIN_IMPL),
-		ptr::addr_of!(LBA_M396YAN2_BIN_IMPL),
-		ptr::addr_of!(LBA_M422KRS2_BIN_IMPL),
-		ptr::addr_of!(LBA_M421MSH2_BIN_IMPL),
-		ptr::addr_of!(LBA_M376SKYA_BIN_IMPL),
-		ptr::addr_of!(LBA_M400FLY2_BIN_IMPL),
-		ptr::addr_of!(LBA_M401WOO2_BIN_IMPL),
-		ptr::addr_of!(LBA_M425JUR2_BIN_IMPL),
-		ptr::addr_of!(LBA_M407TON2_BIN_IMPL),
-		ptr::addr_of!(LBA_M433ANO2_BIN_IMPL),
-		ptr::addr_of!(LBA_M431VIK2_BIN_IMPL),
-		ptr::addr_of!(LBA_M449MTG9_BIN_IMPL),
-		ptr::addr_of!(LBA_M456GRP9_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG331_PRO_IMPL),
-		ptr::addr_of!(LBA_M450PLD9_BIN_IMPL),
-		ptr::addr_of!(LBA_M452HAN9_BIN_IMPL),
-		ptr::addr_of!(LBA_M368MGRW_BIN_IMPL),
-		ptr::addr_of!(LBA_M214SRPH_BIN_IMPL),
-		ptr::addr_of!(LBA_M390ASLT_BIN_IMPL),
-		ptr::addr_of!(LBA_M231PINO_BIN_IMPL),
-		ptr::addr_of!(LBA_M420TAN2_BIN_IMPL),
-		ptr::addr_of!(LBA_M448BKW9_BIN_IMPL),
-		ptr::addr_of!(LBA_PGFGTC00_BIN_IMPL),
-		ptr::addr_of!(LBA_PGFGTW00_BIN_IMPL),
-		ptr::addr_of!(LBA_M444IPD2_BIN_IMPL),
-		ptr::addr_of!(LBA_M375TAOM_BIN_IMPL),
-		ptr::addr_of!(LBA_M070WARU_BIN_IMPL),
-		ptr::addr_of!(LBA_M447SRP2_BIN_IMPL),
-		ptr::addr_of!(LBA_MPCBTL00_BIN_IMPL),
-		ptr::addr_of!(LBA_MVCBTL00_BIN_IMPL),
-		ptr::addr_of!(LBA_M451MGR9_BIN_IMPL),
-		ptr::addr_of!(LBA_M445MGR2_BIN_IMPL),
-		ptr::addr_of!(LBA_S460MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG336_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG341_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG346_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG351_PRO_IMPL),
-		ptr::addr_of!(LBA_M453TAO9_BIN_IMPL),
-		ptr::addr_of!(LBA_M455ASL9_BIN_IMPL),
-		ptr::addr_of!(LBA_M011NUME_BIN_IMPL),
-		ptr::addr_of!(LBA_M228PIEM_BIN_IMPL),
-		ptr::addr_of!(LBA_M312DETH_BIN_IMPL),
-		ptr::addr_of!(LBA_M177LDDV_BIN_IMPL),
-		ptr::addr_of!(LBA_M024HOEE_BIN_IMPL),
-		ptr::addr_of!(LBA_M061MGSD_BIN_IMPL),
-		ptr::addr_of!(LBA_S550MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S550PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S550TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG550_PRO_IMPL),
-		ptr::addr_of!(LBA_MPBATL10_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBOSS01_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBATL10_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBOSS01_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG356_PRO_IMPL),
-		ptr::addr_of!(LBA_M413NUM2_BIN_IMPL),
-		ptr::addr_of!(LBA_M414NUM3_BIN_IMPL),
-		ptr::addr_of!(LBA_M415NUM4_BIN_IMPL),
-		ptr::addr_of!(LBA_M416NUM5_BIN_IMPL),
-		ptr::addr_of!(LBA_M417NUM6_BIN_IMPL),
-		ptr::addr_of!(LBA_M387PIRT_BIN_IMPL),
-		ptr::addr_of!(LBA_M056DIGI_BIN_IMPL),
-		ptr::addr_of!(LBA_M066VAND_BIN_IMPL),
-		ptr::addr_of!(LBA_M204MSDR_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG361_PRO_IMPL),
-		ptr::addr_of!(LBA_S575MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S575PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S575TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG575_PRO_IMPL),
-		ptr::addr_of!(LBA_S605MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S605PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S605TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG605_PRO_IMPL),
-		ptr::addr_of!(LBA_S620MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S620PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S620TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S625MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S625PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S625TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG620_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG625_PRO_IMPL),
-		ptr::addr_of!(LBA_M408SEA2_BIN_IMPL),
-		ptr::addr_of!(LBA_M427MGS2_BIN_IMPL),
-		ptr::addr_of!(LBA_M432MSD2_BIN_IMPL),
-		ptr::addr_of!(LBA_S630MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S630PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S630TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG630_PRO_IMPL),
-		ptr::addr_of!(LBA_S655PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S655TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S655MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG655_PRO_IMPL),
-		ptr::addr_of!(LBA_S635MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S635PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S635TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG635_PRO_IMPL),
-		ptr::addr_of!(LBA_S640MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S640PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S640TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG640_PRO_IMPL),
-		ptr::addr_of!(LBA_S211MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S211PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S211TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG366_PRO_IMPL),
-		ptr::addr_of!(LBA_S645MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S645PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S645TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG645_PRO_IMPL),
-		ptr::addr_of!(LBA_S206MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S206PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S206TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG371_PRO_IMPL),
-		ptr::addr_of!(LBA_S675MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S675PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S675TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG675_PRO_IMPL),
-		ptr::addr_of!(LBA_S231MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S231PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S231TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG376_PRO_IMPL),
-		ptr::addr_of!(LBA_S226MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S226PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S226TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG381_PRO_IMPL),
-		ptr::addr_of!(LBA_S610PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_M007AIRD_BIN_IMPL),
-		ptr::addr_of!(LBA_M426HOE2_BIN_IMPL),
-		ptr::addr_of!(LBA_M019KABU_BIN_IMPL),
-		ptr::addr_of!(LBA_M394MARS_BIN_IMPL),
-		ptr::addr_of!(LBA_S610MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S610TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG610_PRO_IMPL),
-		ptr::addr_of!(LBA_S685MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S685PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S685TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S660MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S660PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S660TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG660_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG685_PRO_IMPL),
-		ptr::addr_of!(LBA_MPCONFUS_BIN_IMPL),
-		ptr::addr_of!(LBA_MVCONFUS_BIN_IMPL),
-		ptr::addr_of!(LBA_S212MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S212PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S212TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG385_PRO_IMPL),
-		ptr::addr_of!(LBA_S238MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S238PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S238TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG386_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG396_PRO_IMPL),
-		ptr::addr_of!(LBA_M141NANO_BIN_IMPL),
-		ptr::addr_of!(LBA_S236MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S236PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S236TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG401_PRO_IMPL),
-		ptr::addr_of!(LBA_S233MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S233PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S233TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG406_PRO_IMPL),
-		ptr::addr_of!(LBA_S221MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S221PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S221TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG411_PRO_IMPL),
-		ptr::addr_of!(LBA_S251MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S251PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S251TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S246MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S246PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S246TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S241MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S241PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S241TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG415_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG420_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG421_PRO_IMPL),
-		ptr::addr_of!(LBA_M403AIR2_BIN_IMPL),
-		ptr::addr_of!(LBA_M273QTRU_BIN_IMPL),
-		ptr::addr_of!(LBA_P015LUMO_BIN_IMPL),
-		ptr::addr_of!(LBA_P018MGCO_BIN_IMPL),
-		ptr::addr_of!(LBA_P017ASGM_BIN_IMPL),
-		ptr::addr_of!(LBA_P120BNMM_BIN_IMPL),
-		ptr::addr_of!(LBA_P078HGMK_BIN_IMPL),
-		ptr::addr_of!(LBA_P152KEIT_BIN_IMPL),
-		ptr::addr_of!(LBA_P171BAGM_BIN_IMPL),
-		ptr::addr_of!(LBA_S385MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S385TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG426_PRO_IMPL),
-		ptr::addr_of!(LBA_M165EBDR_BIN_IMPL),
-		ptr::addr_of!(LBA_S291MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S291PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S291TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG431_PRO_IMPL),
-		ptr::addr_of!(LBA_S600MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S600PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S600TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG600_PRO_IMPL),
-		ptr::addr_of!(LBA_S585MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S585PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S585TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S595MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S595PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S595TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S590MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S590PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S590TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG585_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG590_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG595_PRO_IMPL),
-		ptr::addr_of!(LBA_S445MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S445PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S445TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG445_PRO_IMPL),
-		ptr::addr_of!(LBA_S385PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG436_PRO_IMPL),
-		ptr::addr_of!(LBA_S281MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S281PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S281TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG441_PRO_IMPL),
-		ptr::addr_of!(LBA_S565MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S565PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S565TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG565_PRO_IMPL),
-		ptr::addr_of!(LBA_S286MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S286PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S286TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG446_PRO_IMPL),
-		ptr::addr_of!(LBA_S201PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S201TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S201MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG451_PRO_IMPL),
-		ptr::addr_of!(LBA_S261MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S261PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S261TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG456_PRO_IMPL),
-		ptr::addr_of!(LBA_S203MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S203PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S203TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG466_PRO_IMPL),
-		ptr::addr_of!(LBA_S276MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S276PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S276TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG471_PRO_IMPL),
-		ptr::addr_of!(LBA_S219MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S219PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S219TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG476_PRO_IMPL),
-		ptr::addr_of!(LBA_M170IVRU_BIN_IMPL),
-		ptr::addr_of!(LBA_M038DORI_BIN_IMPL),
-		ptr::addr_of!(LBA_M143CLOK_BIN_IMPL),
-		ptr::addr_of!(LBA_S326MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S326PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S326TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S311MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S311PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S311TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S321MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S321PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S321TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S296MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S296PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S296TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S306MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S306PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S306TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG481_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG486_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG491_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG496_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG501_PRO_IMPL),
-		ptr::addr_of!(LBA_S650MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S650PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S650TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG650_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG506_PRO_IMPL),
-		ptr::addr_of!(LBA_P150LISA_BIN_IMPL),
-		ptr::addr_of!(LBA_S537MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S537PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S537TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG537_PRO_IMPL),
-		ptr::addr_of!(LBA_M386DINO_BIN_IMPL),
-		ptr::addr_of!(LBA_M166DKGM_BIN_IMPL),
-		ptr::addr_of!(LBA_M172MTAR_BIN_IMPL),
-		ptr::addr_of!(LBA_M429IVR2_BIN_IMPL),
-		ptr::addr_of!(LBA_M428EBD2_BIN_IMPL),
-		ptr::addr_of!(LBA_S615MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S615PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S615TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG615_PRO_IMPL),
-		ptr::addr_of!(LBA_MPBOSS02_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBOSS02_BIN_IMPL),
-		ptr::addr_of!(LBA_M399MTA2_BIN_IMPL),
-		ptr::addr_of!(LBA_M397DKG2_BIN_IMPL),
-		ptr::addr_of!(LBA_M430DOR2_BIN_IMPL),
-		ptr::addr_of!(LBA_M190BOLT_BIN_IMPL),
-		ptr::addr_of!(LBA_M077REDV_BIN_IMPL),
-		ptr::addr_of!(LBA_M269VALK_BIN_IMPL),
-		ptr::addr_of!(LBA_S331MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S331PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S331TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG521_PRO_IMPL),
-		ptr::addr_of!(LBA_S316MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S316PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S316TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG526_PRO_IMPL),
-		ptr::addr_of!(LBA_S336MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S336PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S336TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG531_PRO_IMPL),
-		ptr::addr_of!(LBA_S341MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S341PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S341TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG538_PRO_IMPL),
-		ptr::addr_of!(LBA_S346MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S346PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S346TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG540_PRO_IMPL),
-		ptr::addr_of!(LBA_S471MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S471PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S471TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG551_PRO_IMPL),
-		ptr::addr_of!(LBA_S381MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S381PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S381TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG556_PRO_IMPL),
-		ptr::addr_of!(LBA_S366MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S366PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S366TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG561_PRO_IMPL),
-		ptr::addr_of!(LBA_S376MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S376PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S376TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG566_PRO_IMPL),
-		ptr::addr_of!(LBA_S386MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S386PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S386TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG571_PRO_IMPL),
-		ptr::addr_of!(LBA_S396MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S396PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S396TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG576_PRO_IMPL),
-		ptr::addr_of!(LBA_S361MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S361PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S361TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG580_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG581_PRO_IMPL),
-		ptr::addr_of!(LBA_S401MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S401PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S401TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG586_PRO_IMPL),
-		ptr::addr_of!(LBA_S431MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S431PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S431TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG591_PRO_IMPL),
-		ptr::addr_of!(LBA_S426MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S426PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S426TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG596_PRO_IMPL),
-		ptr::addr_of!(LBA_S446MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S446PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S446TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG601_PRO_IMPL),
-		ptr::addr_of!(LBA_S436MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S436PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S436TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG606_PRO_IMPL),
-		ptr::addr_of!(LBA_S411MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S411PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S411TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG611_PRO_IMPL),
-		ptr::addr_of!(LBA_S466MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S466PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S466TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG616_PRO_IMPL),
-		ptr::addr_of!(LBA_S496MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S496PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S496TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG621_PRO_IMPL),
-		ptr::addr_of!(LBA_S491MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S491PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S491TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG631_PRO_IMPL),
-		ptr::addr_of!(LBA_S486MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S486PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S486TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG636_PRO_IMPL),
-		ptr::addr_of!(LBA_S506MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S506PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S506TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG641_PRO_IMPL),
-		ptr::addr_of!(LBA_S501MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S501PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S501TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG646_PRO_IMPL),
-		ptr::addr_of!(LBA_S521MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S521PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S521TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG651_PRO_IMPL),
-		ptr::addr_of!(LBA_S538MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S538PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S538TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG656_PRO_IMPL),
-		ptr::addr_of!(LBA_S551MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S551PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S551TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG661_PRO_IMPL),
-		ptr::addr_of!(LBA_S561MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S561PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S561TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG676_PRO_IMPL),
-		ptr::addr_of!(LBA_S571MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S571PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S571TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG680_PRO_IMPL),
-		ptr::addr_of!(LBA_S576MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S576PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S576TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG686_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG690_PRO_IMPL),
-		ptr::addr_of!(LBA_S556MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S556PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S556TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG691_PRO_IMPL),
-		ptr::addr_of!(LBA_S591MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S591PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S591TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG695_PRO_IMPL),
-		ptr::addr_of!(LBA_S586MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S586PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S586TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG696_PRO_IMPL),
-		ptr::addr_of!(LBA_S601MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S601PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S601TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG700_PRO_IMPL),
-		ptr::addr_of!(LBA_S596MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S596PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S596TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG701_PRO_IMPL),
-		ptr::addr_of!(LBA_S451MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S451PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S451TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG705_PRO_IMPL),
-		ptr::addr_of!(LBA_S481MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S481PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S481TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG706_PRO_IMPL),
-		ptr::addr_of!(LBA_S686MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S686PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S686TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG711_PRO_IMPL),
-		ptr::addr_of!(LBA_S696MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S696PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S696TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG715_PRO_IMPL),
-		ptr::addr_of!(LBA_STALBMCS_BIN_IMPL),
-		ptr::addr_of!(LBA_STALBMTM_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG716_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG720_PRO_IMPL),
-		ptr::addr_of!(LBA_M178KNGT_BIN_IMPL),
-		ptr::addr_of!(LBA_M377BLZB_BIN_IMPL),
-		ptr::addr_of!(LBA_M327RUNX_BIN_IMPL),
-		ptr::addr_of!(LBA_M337ZAMB_BIN_IMPL),
-		ptr::addr_of!(LBA_S295MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S295PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S295TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG721_PRO_IMPL),
-		ptr::addr_of!(LBA_S606MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S606PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S606TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG725_PRO_IMPL),
-		ptr::addr_of!(LBA_S621MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S621PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S621TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG726_PRO_IMPL),
-		ptr::addr_of!(LBA_S611MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S611PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S611TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG730_PRO_IMPL),
-		ptr::addr_of!(LBA_S631MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S631PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S631TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG731_PRO_IMPL),
-		ptr::addr_of!(LBA_S616MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S616PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S616TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG735_PRO_IMPL),
-		ptr::addr_of!(LBA_S656MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S656PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S656TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S691MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S646MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S646PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S646TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S691PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S651MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S651PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S651TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S691TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S641MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S641PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S641TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG736_PRO_IMPL),
-		ptr::addr_of!(LBA_S636MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S636PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S636TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S480MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV025_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV025_BIN_IMPL),
-		ptr::addr_of!(LBA_S680MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S680PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S680TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_STCDSPCS_BIN_IMPL),
-		ptr::addr_of!(LBA_S690MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S690PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S690TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_STCDSPTM_BIN_IMPL),
-		ptr::addr_of!(LBA_S700MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S700PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S700TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_M382ARMG_BIN_IMPL),
-		ptr::addr_of!(LBA_S705MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S705PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S705TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_M272SHDR_BIN_IMPL),
-		ptr::addr_of!(LBA_P151NICK_BIN_IMPL),
-		ptr::addr_of!(LBA_P167SAGM_BIN_IMPL),
-		ptr::addr_of!(LBA_P169NSPM_BIN_IMPL),
-		ptr::addr_of!(LBA_P168PAGM_BIN_IMPL),
-		ptr::addr_of!(LBA_M247DEMN_BIN_IMPL),
-		ptr::addr_of!(LBA_M365ARCH_BIN_IMPL),
-		ptr::addr_of!(LBA_M437BAST_BIN_IMPL),
-		ptr::addr_of!(LBA_M372SGRG_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG740_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG741_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG745_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG746_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG750_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG755_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG756_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG760_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG761_PRO_IMPL),
-		ptr::addr_of!(LBA_S711MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S711PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S711TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG795_PRO_IMPL),
-		ptr::addr_of!(LBA_S676MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S676PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S676TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG800_PRO_IMPL),
-		ptr::addr_of!(LBA_S661MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S661PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S661TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG805_PRO_IMPL),
-		ptr::addr_of!(LBA_S701MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S701PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S701TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG810_PRO_IMPL),
-		ptr::addr_of!(LBA_S720MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S720PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S720TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG815_PRO_IMPL),
-		ptr::addr_of!(LBA_S805MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S805PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S805TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG820_PRO_IMPL),
-		ptr::addr_of!(LBA_S721MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S721PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S721TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG825_PRO_IMPL),
-		ptr::addr_of!(LBA_S730MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S730PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S730TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG830_PRO_IMPL),
-		ptr::addr_of!(LBA_M436VALV_BIN_IMPL),
-		ptr::addr_of!(LBA_M443SGR2_BIN_IMPL),
-		ptr::addr_of!(LBA_S716MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S716PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S716TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG835_PRO_IMPL),
-		ptr::addr_of!(LBA_S706MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S706PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S706TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG840_PRO_IMPL),
-		ptr::addr_of!(LBA_S726MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S726PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S726TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG845_PRO_IMPL),
-		ptr::addr_of!(LBA_S875MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S875PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S875TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG875_PRO_IMPL),
-		ptr::addr_of!(LBA_S880MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S880PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S880TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S885MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S885PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S885TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S890MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S890PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S890TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S895MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S895PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S895TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG880_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG885_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG890_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG895_PRO_IMPL),
-		ptr::addr_of!(LBA_S825MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S825PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S825TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG850_PRO_IMPL),
-		ptr::addr_of!(LBA_S725MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S725PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S725TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG855_PRO_IMPL),
-		ptr::addr_of!(LBA_S351MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S351PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S351TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG860_PRO_IMPL),
-		ptr::addr_of!(LBA_S356MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S356PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S356TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG865_PRO_IMPL),
-		ptr::addr_of!(LBA_S865MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S865PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S865TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG870_PRO_IMPL),
-		ptr::addr_of!(LBA_S870MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S870PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S870TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_M441RAIZ_BIN_IMPL),
-		ptr::addr_of!(LBA_S526MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S526PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S526TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S735MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S735PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S735TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S371MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S371PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S371TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S750MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S750PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S750TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S566MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S566PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S566TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S731MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S731PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S731TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S736MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S736PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S736TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_M144ROSE_BIN_IMPL),
-		ptr::addr_of!(LBA_M334MLDR_BIN_IMPL),
-		ptr::addr_of!(LBA_S746MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S746PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S746TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S755MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S755PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S755TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S756MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S756PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S756TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S761MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S761PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S761TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_E059HOUO_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1016_BIN_IMPL),
-		ptr::addr_of!(LBA_S740MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S740PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S740TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1021_BIN_IMPL),
-		ptr::addr_of!(LBA_S850MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S850PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S850TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1022_BIN_IMPL),
-		ptr::addr_of!(LBA_S835MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S835PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S835TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_M378BVND_BIN_IMPL),
-		ptr::addr_of!(LBA_S456MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S456PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S456TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S745MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S810MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S810PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S810TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S745TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S855MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S855PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S855TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S795MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S860MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S860PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S860TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S795TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S540MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S540PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S540TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S800MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S441MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S441PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S441TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S800TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S830MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S830PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S830TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_M238SNAI_BIN_IMPL),
-		ptr::addr_of!(LBA_S845MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S845PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S845TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_M241HNGY_BIN_IMPL),
-		ptr::addr_of!(LBA_S271MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S271PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S271TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1001_BIN_IMPL),
-		ptr::addr_of!(LBA_S476MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S476PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S476TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1002_BIN_IMPL),
-		ptr::addr_of!(LBA_M244SKST_BIN_IMPL),
-		ptr::addr_of!(LBA_S745PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_M245INFR_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1003_BIN_IMPL),
-		ptr::addr_of!(LBA_S820MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S820PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S820TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1004_BIN_IMPL),
-		ptr::addr_of!(LBA_S760MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S760PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S760TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1005_BIN_IMPL),
-		ptr::addr_of!(LBA_M250KGET_BIN_IMPL),
-		ptr::addr_of!(LBA_M364MUMY_BIN_IMPL),
-		ptr::addr_of!(LBA_M465SNAT_BIN_IMPL),
-		ptr::addr_of!(LBA_M277BARO_BIN_IMPL),
-		ptr::addr_of!(LBA_M439FUJI_BIN_IMPL),
-		ptr::addr_of!(LBA_M302GAGO_BIN_IMPL),
-		ptr::addr_of!(LBA_S795PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_M356HAND_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1006_BIN_IMPL),
-		ptr::addr_of!(LBA_M358PHAR_BIN_IMPL),
-		ptr::addr_of!(LBA_S800PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_M360ANTR_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1007_BIN_IMPL),
-		ptr::addr_of!(LBA_M389KYKI_BIN_IMPL),
-		ptr::addr_of!(LBA_M411MLD2_BIN_IMPL),
-		ptr::addr_of!(LBA_M392SLAG_BIN_IMPL),
-		ptr::addr_of!(LBA_M440SIJN_BIN_IMPL),
-		ptr::addr_of!(LBA_M393CNND_BIN_IMPL),
-		ptr::addr_of!(LBA_M438RIDN_BIN_IMPL),
-		ptr::addr_of!(LBA_M412GAR2_BIN_IMPL),
-		ptr::addr_of!(LBA_M434ANT2_BIN_IMPL),
-		ptr::addr_of!(LBA_MPEVO_00_BIN_IMPL),
-		ptr::addr_of!(LBA_MPJOG_00_BIN_IMPL),
-		ptr::addr_of!(LBA_MVEVO_00_BIN_IMPL),
-		ptr::addr_of!(LBA_MVJOG_00_BIN_IMPL),
-		ptr::addr_of!(LBA_S715MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S715PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S715TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1008_BIN_IMPL),
-		ptr::addr_of!(LBA_M466RGN2_BIN_IMPL),
-		ptr::addr_of!(LBA_M423SNA2_BIN_IMPL),
-		ptr::addr_of!(LBA_M435GAR3_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG920_PRO_IMPL),
-		ptr::addr_of!(LBA_P165SAGD_BIN_IMPL),
-		ptr::addr_of!(LBA_P166PAGD_BIN_IMPL),
-		ptr::addr_of!(LBA_P016RDMD_BIN_IMPL),
-		ptr::addr_of!(LBA_P173KBOY_BIN_IMPL),
-		ptr::addr_of!(LBA_P170GOMA_BIN_IMPL),
-		ptr::addr_of!(LBA_M442RGN1_BIN_IMPL),
-		ptr::addr_of!(LBA_S406MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S406PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S406TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1009_BIN_IMPL),
-		ptr::addr_of!(LBA_S315MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S315PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S315TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S840MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S840PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S840TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S531MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S531PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S531TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S741MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S741PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S741TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1010_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1011_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1012_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1013_BIN_IMPL),
-		ptr::addr_of!(LBA_M446BKNM_BIN_IMPL),
-		ptr::addr_of!(LBA_M454KYK9_BIN_IMPL),
-		ptr::addr_of!(LBA_M457CDC1_BIN_IMPL),
-		ptr::addr_of!(LBA_M458CDC2_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0093_BIN_IMPL),
-		ptr::addr_of!(LBA_M459CDU1_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0094_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1014_BIN_IMPL),
-		ptr::addr_of!(LBA_S415TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S415MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1015_BIN_IMPL),
-		ptr::addr_of!(LBA_M460CDU2_BIN_IMPL),
-		ptr::addr_of!(LBA_M461CDR1_BIN_IMPL),
-		ptr::addr_of!(LBA_S325MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S325PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S325TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_M462CDR2_BIN_IMPL),
-		ptr::addr_of!(LBA_M463CDS1_BIN_IMPL),
-		ptr::addr_of!(LBA_M464CDS2_BIN_IMPL),
-		ptr::addr_of!(LBA_S415BG01_BIN_IMPL),
-		ptr::addr_of!(LBA_S415BG02_BIN_IMPL),
-		ptr::addr_of!(LBA_M467RGN3_BIN_IMPL),
-		ptr::addr_of!(LBA_S695MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S695PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S695TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0065_BIN_IMPL),
-		ptr::addr_of!(LBA_NAMEDTCS_BIN_IMPL),
-		ptr::addr_of!(LBA_NAMEDTTM_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0095_BIN_IMPL),
-		ptr::addr_of!(LBA_E369DUKE_BIN_IMPL),
-		ptr::addr_of!(LBA_S815MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S815BG01_BIN_IMPL),
-		ptr::addr_of!(LBA_S815TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1017_BIN_IMPL),
-		ptr::addr_of!(LBA_S581MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S581PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S581TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1018_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1055_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0088_BIN_IMPL),
-		ptr::addr_of!(LBA_S580MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S580PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S580TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1019_BIN_IMPL),
-		ptr::addr_of!(LBA_S420MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S420PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S420TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S421MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S421PACK_BIN_IMPL),
-		ptr::addr_of!(LBA_S421TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1020_BIN_IMPL),
-		ptr::addr_of!(LBA_E020ANGE_BIN_IMPL),
-		ptr::addr_of!(LBA_E367GRAW_BIN_IMPL),
-		ptr::addr_of!(LBA_E006DEVI_BIN_IMPL),
-		ptr::addr_of!(LBA_E144ROSE_BIN_IMPL),
-		ptr::addr_of!(LBA_E230GKWA_BIN_IMPL),
-		ptr::addr_of!(LBA_E234ANGW_BIN_IMPL),
-		ptr::addr_of!(LBA_E259EXVM_BIN_IMPL),
-		ptr::addr_of!(LBA_E386DINO_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1023_BIN_IMPL),
-		ptr::addr_of!(LBA_P178NBEA_BIN_IMPL),
-		ptr::addr_of!(LBA_P179NKOE_BIN_IMPL),
-		ptr::addr_of!(LBA_P180NKOT_BIN_IMPL),
-		ptr::addr_of!(LBA_P153DGTM_BIN_IMPL),
-		ptr::addr_of!(LBA_P154DGTB_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1024_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1025_BIN_IMPL),
-		ptr::addr_of!(LBA_STWMP0CS_BIN_IMPL),
-		ptr::addr_of!(LBA_STWMP0TM_BIN_IMPL),
-		ptr::addr_of!(LBA_STWMP1CS_BIN_IMPL),
-		ptr::addr_of!(LBA_STWMP1TM_BIN_IMPL),
-		ptr::addr_of!(LBA_E000COM1_BIN_IMPL),
-		ptr::addr_of!(LBA_F000COM1_BIN_IMPL),
-		ptr::addr_of!(LBA_STFRPTCS_BIN_IMPL),
-		ptr::addr_of!(LBA_STFRPTTM_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV205_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV205_BIN_IMPL),
-		ptr::addr_of!(LBA_E000COM2_BIN_IMPL),
-		ptr::addr_of!(LBA_CARD_NPC_BIN_IMPL),
-		ptr::addr_of!(LBA_E211HANG_BIN_IMPL),
-		ptr::addr_of!(LBA_M468AGNM_BIN_IMPL),
-		ptr::addr_of!(LBA_P149SNCM_BIN_IMPL),
-		ptr::addr_of!(LBA_P181SSPM_BIN_IMPL),
-		ptr::addr_of!(LBA_P175SPMM_BIN_IMPL),
-		ptr::addr_of!(LBA_P174PIYO_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1026_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBOSS03_BIN_IMPL),
-		ptr::addr_of!(LBA_P172FJJI_BIN_IMPL),
-		ptr::addr_of!(LBA_F000COM2_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1027_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1028_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1029_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1030_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1031_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1032_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1033_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1034_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1035_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1036_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1037_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1038_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1039_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1040_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1041_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1042_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1043_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1044_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1045_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1046_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1047_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1048_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1049_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1050_BIN_IMPL),
-		ptr::addr_of!(LBA_MPBOSS04_BIN_IMPL),
-		ptr::addr_of!(LBA_M469GARM_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1051_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBOSS03_BIN_IMPL),
-		ptr::addr_of!(LBA_MVBOSS04_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1052_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT1053_BIN_IMPL),
-		ptr::addr_of!(LBA_M470AGRY_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0221_BIN_IMPL),
-		ptr::addr_of!(LBA_P124SATE_BIN_IMPL),
-		ptr::addr_of!(LBA_P127SEID_BIN_IMPL),
-		ptr::addr_of!(LBA_P128TISD_BIN_IMPL),
-		ptr::addr_of!(LBA_P182BOMP_BIN_IMPL),
-		ptr::addr_of!(LBA_P183BOMB_BIN_IMPL),
-		ptr::addr_of!(LBA_P184CBEM_BIN_IMPL),
-		ptr::addr_of!(LBA_P185BEMG_BIN_IMPL),
-		ptr::addr_of!(LBA_P186BEMP_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0087_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0108_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0109_BIN_IMPL),
-		ptr::addr_of!(LBA_E145VMON_BIN_IMPL),
-		ptr::addr_of!(LBA_E260STNG_BIN_IMPL),
-		ptr::addr_of!(LBA_E374KYBI_BIN_IMPL),
-		ptr::addr_of!(LBA_E375TAOM_BIN_IMPL),
-		ptr::addr_of!(LBA_E383PKEN_BIN_IMPL),
-		ptr::addr_of!(LBA_E000COM3_BIN_IMPL),
-		ptr::addr_of!(LBA_F000COM3_BIN_IMPL),
-		ptr::addr_of!(LBA_E000COM4_BIN_IMPL),
-		ptr::addr_of!(LBA_F000COM4_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0096_BIN_IMPL),
-		ptr::addr_of!(LBA_E056DIGI_BIN_IMPL),
-		ptr::addr_of!(LBA_E066VAND_BIN_IMPL),
-		ptr::addr_of!(LBA_E150OMGM_BIN_IMPL),
-		ptr::addr_of!(LBA_E373RENA_BIN_IMPL),
-		ptr::addr_of!(LBA_E377BLZB_BIN_IMPL),
-		ptr::addr_of!(LBA_MOVIED01_STR_IMPL),
-		ptr::addr_of!(LBA_MOVIED03_STR_IMPL),
-		ptr::addr_of!(LBA_MOVIED04_STR_IMPL),
-		ptr::addr_of!(LBA_MOVIED05_STR_IMPL),
-		ptr::addr_of!(LBA_MOVIED06_STR_IMPL),
-		ptr::addr_of!(LBA_MOVIED07_STR_IMPL),
-		ptr::addr_of!(LBA_MOVIED08_STR_IMPL),
-		ptr::addr_of!(LBA_MEFT1054_BIN_IMPL),
-		ptr::addr_of!(LBA_MOVIED02_STR_IMPL),
-		ptr::addr_of!(LBA_MOVIEE01_STR_IMPL),
-		ptr::addr_of!(LBA_MOVIEOPN_STR_IMPL),
-		ptr::addr_of!(LBA_E000JOGL_BIN_IMPL),
-		ptr::addr_of!(LBA_CARDPAK0_BIN_IMPL),
-		ptr::addr_of!(LBA_CARDPAK1_BIN_IMPL),
-		ptr::addr_of!(LBA_CARDPAK2_BIN_IMPL),
-		ptr::addr_of!(LBA_CARDPAK3_BIN_IMPL),
-		ptr::addr_of!(LBA_CARDPAK4_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0089_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0101_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0102_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0103_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0106_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0107_BIN_IMPL),
-		ptr::addr_of!(LBA_E381IPDP_BIN_IMPL),
-		ptr::addr_of!(LBA_E389KYKI_BIN_IMPL),
-		ptr::addr_of!(LBA_E385KOGU_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0097_BIN_IMPL),
-		ptr::addr_of!(LBA_E388GRIZ_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0098_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0090_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0091_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0092_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0099_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0100_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0113_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0039_BIN_IMPL),
-		ptr::addr_of!(LBA_E014MONZ_BIN_IMPL),
-		ptr::addr_of!(LBA_E004BETA_BIN_IMPL),
-		ptr::addr_of!(LBA_E438RIDN_BIN_IMPL),
-		ptr::addr_of!(LBA_E110GECO_BIN_IMPL),
-		ptr::addr_of!(LBA_E193GRFO_BIN_IMPL),
-		ptr::addr_of!(LBA_E302GAGO_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0066_BIN_IMPL),
-		ptr::addr_of!(LBA_P187STRI_BIN_IMPL),
-		ptr::addr_of!(LBA_MOVIEE04_STR_IMPL),
-		ptr::addr_of!(LBA_MOVIEE03_STR_IMPL),
-		ptr::addr_of!(LBA_E364MUMY_BIN_IMPL),
-		ptr::addr_of!(LBA_E229PUKU_BIN_IMPL),
-		ptr::addr_of!(LBA_E439FUJI_BIN_IMPL),
-		ptr::addr_of!(LBA_E365ARCH_BIN_IMPL),
-		ptr::addr_of!(LBA_E037BAKE_BIN_IMPL),
-		ptr::addr_of!(LBA_E135DVDR_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0201_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0202_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0203_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0204_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0205_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0206_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0207_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0208_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0209_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0210_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0211_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0212_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0213_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0214_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0215_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0216_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0217_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0218_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0219_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0220_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0222_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0223_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0224_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0225_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0226_BIN_IMPL),
-		ptr::addr_of!(LBA_MPENV206_BIN_IMPL),
-		ptr::addr_of!(LBA_MVENV206_BIN_IMPL),
-		ptr::addr_of!(LBA_P188BLOK_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0085_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0086_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0301_BIN_IMPL),
-		ptr::addr_of!(LBA_E372SGRG_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0302_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0303_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0306_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0307_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0308_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0309_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0375_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0310_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0311_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0312_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0313_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0314_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0315_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0316_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0317_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0318_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0319_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0320_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0321_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0322_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0323_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0324_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0325_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0326_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0327_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0328_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0329_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0330_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0331_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0332_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0333_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0334_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0335_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0336_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0337_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0338_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0339_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0340_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0341_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0342_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0343_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0344_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0345_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0346_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0347_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0348_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0349_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0350_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0351_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0352_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0353_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0354_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0355_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0356_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0357_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0358_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0359_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0360_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0361_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0362_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0363_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0364_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0365_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0366_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0367_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0368_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0369_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0370_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0371_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0372_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0374_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0114_BIN_IMPL),
-		ptr::addr_of!(LBA_TLOGOJPN_BIN_IMPL),
-		ptr::addr_of!(LBA_TTCOMMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_E433ANO2_BIN_IMPL),
-		ptr::addr_of!(LBA_E430DOR2_BIN_IMPL),
-		ptr::addr_of!(LBA_E431VIK2_BIN_IMPL),
-		ptr::addr_of!(LBA_E434ANT2_BIN_IMPL),
-		ptr::addr_of!(LBA_SSUBDEMO_BIN_IMPL),
-		ptr::addr_of!(LBA_SDIGDEMO_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0115_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0116_BIN_IMPL),
-		ptr::addr_of!(LBA_E390ASLT_BIN_IMPL),
-		ptr::addr_of!(LBA_P189PKEL_BIN_IMPL),
-		ptr::addr_of!(LBA_P190KOGL_BIN_IMPL),
-		ptr::addr_of!(LBA_P191KOEL_BIN_IMPL),
-		ptr::addr_of!(LBA_P192AGUL_BIN_IMPL),
-		ptr::addr_of!(LBA_P194GIRL_BIN_IMPL),
-		ptr::addr_of!(LBA_P195RENL_BIN_IMPL),
-		ptr::addr_of!(LBA_P196PATL_BIN_IMPL),
-		ptr::addr_of!(LBA_S815BG02_BIN_IMPL),
-		ptr::addr_of!(LBA_P193VMOL_BIN_IMPL),
-		ptr::addr_of!(LBA_MPTTLBGM_BIN_IMPL),
-		ptr::addr_of!(LBA_MVTTLBGM_BIN_IMPL),
-		ptr::addr_of!(LBA_P197BLXE_BIN_IMPL),
-		ptr::addr_of!(LBA_E245INFR_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0377_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0378_BIN_IMPL),
-		ptr::addr_of!(LBA_P198ADME_BIN_IMPL),
-		ptr::addr_of!(LBA_MEFT0376_BIN_IMPL),
-		ptr::addr_of!(LBA_E000EVOL_BIN_IMPL),
-		ptr::addr_of!(LBA_CNTSELWN_BIN_IMPL),
-		ptr::addr_of!(LBA_TLOGOUSA_BIN_IMPL),
-		ptr::addr_of!(LBA_MOVIEE02_STR_IMPL),
-		ptr::addr_of!(LBA_END__ALL_BIN_IMPL),
-		ptr::addr_of!(LBA_CMNBGDTM_BIN_IMPL),
-		ptr::addr_of!(LBA_S920MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG921_PRO_IMPL),
-		ptr::addr_of!(LBA_S920TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_WSTAG922_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG923_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG924_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG925_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG926_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG927_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG928_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG929_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG930_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG931_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG932_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG933_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG934_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG935_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG936_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG937_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG938_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG939_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG940_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG941_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG942_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG943_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG944_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG945_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG946_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG947_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG948_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG949_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG950_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG951_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG952_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG953_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG954_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG955_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG956_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG957_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG958_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG959_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG960_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG961_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG962_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG963_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG964_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG965_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG966_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG967_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG968_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG969_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG970_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG971_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG972_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG973_PRO_IMPL),
-		ptr::addr_of!(LBA_WSTAG974_PRO_IMPL),
-		ptr::addr_of!(LBA_S923MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S921MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S923TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S921TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S922MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S924MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S922TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S924TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S925MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S925TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S926MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S926TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S927MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S927TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S928MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S928TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S929MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S929TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S930MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S930TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S931MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S931TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S932MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S932TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S933MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S933TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S934MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S934TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S935MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S935TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S936MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S936TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S937MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S937TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S938MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S938TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S939MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S939TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S940MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S940TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S941MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S941TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S942MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S942TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S943MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S943TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S944MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S944TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S945MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S945TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S946MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S946TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S947TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S947MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S948MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S948TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S949MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S949TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S950MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S950TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S951MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S951TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S952MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S952TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S953MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S953TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S954MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S954TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S955MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S955TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S956MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S956TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S957MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S957TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S958MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S958TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S959MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S959TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S960MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S960TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S961MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S961TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S962MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S962TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S963MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S963TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S964MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S964TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S965MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S965TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S966MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S966TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S967MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S967TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S968MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S968TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S969MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S969TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S970MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S970TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S971MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S971TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S972MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S972TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S973MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S973TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_S974MASK_BIN_IMPL),
-		ptr::addr_of!(LBA_S974TMPK_BIN_IMPL),
-		ptr::addr_of!(LBA_MOVIEOP2_STR_IMPL),
-		ptr::addr_of!(LBA_TLOGOPAL_BIN_IMPL),
-	]
-};
+pub static mut LBA_OFFSETS: [*const u8; 2382] = [
+	ptr::addr_of!(LBA_IMPL_NONE_____BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSAMTMAP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USAMTMAP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESAMTMAP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSAMTMAP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISAMTMAP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSAMTMAP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSAMTMAP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSASKMAP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USASKMAP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESASKMAP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSASKMAP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISASKMAP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSASKMAP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSASKMAP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSCARDGM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USCARDGM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESCARDGM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSCARDGM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISCARDGM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSCARDGM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSCARDGM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSCARDNM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USCARDNM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESCARDNM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSCARDNM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISCARDNM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSCARDNM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSCARDNM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSCARDST_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USCARDST_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESCARDST_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSCARDST_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISCARDST_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSCARDST_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSCARDST_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSCRDABM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USCRDABM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESCRDABM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSCRDABM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISCRDABM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSCRDABM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSCRDABM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSCRDDEK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USCRDDEK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESCRDDEK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSCRDDEK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISCRDDEK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSCRDDEK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSCRDDEK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSCRDSHP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USCRDSHP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESCRDSHP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSCRDSHP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISCRDSHP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSCRDSHP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSCRDSHP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSDGLABO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USDGLABO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESDGLABO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSDGLABO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISDGLABO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSDGLABO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSDGLABO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSDGNMET_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USDGNMET_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESDGNMET_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSDGNMET_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISDGNMET_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSDGNMET_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSDGNMET_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSDIGINF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USDIGINF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESDIGINF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSDIGINF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISDIGINF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSDIGINF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSDIGINF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSDIGNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USDIGNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESDIGNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSDIGNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISDIGNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSDIGNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSDIGNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSFGTRPT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USFGTRPT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESFGTRPT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSFGTRPT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISFGTRPT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSFGTRPT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSFGTRPT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSHTLNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USHTLNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESHTLNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSHTLNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISHTLNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSHTLNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSHTLNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSITMINF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USITMINF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESITMINF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSITMINF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISITMINF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSITMINF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSITMINF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSITMNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USITMNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESITMNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSITMNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISITMNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSITMNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSITMNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSITSHOP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USITSHOP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESITSHOP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSITSHOP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISITSHOP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSITSHOP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSITSHOP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSMEMCRD_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USMEMCRD_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESMEMCRD_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSMEMCRD_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISMEMCRD_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSMEMCRD_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSMEMCRD_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSMFIGHT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USMFIGHT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESMFIGHT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSMFIGHT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISMFIGHT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSMFIGHT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSMFIGHT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSNAMEDT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USNAMEDT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESNAMEDT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSNAMEDT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISNAMEDT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSNAMEDT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSNAMEDT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSNAMEET_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USNAMEET_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESNAMEET_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSNAMEET_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISNAMEET_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSNAMEET_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSNAMEET_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSSHPNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USSHPNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESSHPNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSSHPNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISSHPNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSSHPNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSSHPNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSSKLINF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USSKLINF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESSKLINF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSSKLINF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISSKLINF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSSKLINF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSSKLINF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSSKLNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USSKLNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESSKLNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSSKLNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISSKLNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSSKLNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSSKLNAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSSTAREA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USSTAREA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESSTAREA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSSTAREA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISSTAREA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSSTAREA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSSTAREA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSSTATUS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USSTATUS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESSTATUS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSSTATUS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISSTATUS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSSTATUS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSSTATUS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSSTNAME_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USSTNAME_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESSTNAME_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSSTNAME_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISSTNAME_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSSTNAME_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSSTNAME_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSSYSTEM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USSYSTEM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESSYSTEM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSSYSTEM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISSYSTEM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSSYSTEM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSSYSTEM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSTALK00_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USTALK00_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESTALK00_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSTALK00_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISTALK00_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSTALK00_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSTALK00_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSTALK01_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USTALK01_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESTALK01_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSTALK01_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISTALK01_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSTALK01_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSTALK01_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSTALK02_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USTALK02_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESTALK02_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSTALK02_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISTALK02_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSTALK02_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSTALK02_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSTALK03_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USTALK03_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESTALK03_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSTALK03_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISTALK03_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSTALK03_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSTALK03_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSTALK04_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USTALK04_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESTALK04_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSTALK04_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISTALK04_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSTALK04_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSTALK04_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSTALK05_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USTALK05_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESTALK05_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSTALK05_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISTALK05_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSTALK05_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSTALK05_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSTALK06_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USTALK06_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESTALK06_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSTALK06_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISTALK06_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSTALK06_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSTALK06_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSTALK07_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USTALK07_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESTALK07_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSTALK07_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISTALK07_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSTALK07_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSTALK07_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSTALK08_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USTALK08_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESTALK08_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSTALK08_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISTALK08_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSTALK08_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSTALK08_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSTALK09_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USTALK09_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESTALK09_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSTALK09_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISTALK09_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSTALK09_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSTALK09_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSTRAINI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USTRAINI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESTRAINI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSTRAINI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISTRAINI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSTRAINI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSTRAINI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSDMG200_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USDMG200_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESDMG200_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSDMG200_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISDMG200_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSDMG200_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSDMG200_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSDMG260_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USDMG260_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESDMG260_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSDMG260_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISDMG260_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSDMG260_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSDMG260_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSDMG270_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USDMG270_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESDMG270_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSDMG270_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISDMG270_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSDMG270_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSDMG270_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSDMG300_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USDMG300_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESDMG300_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSDMG300_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISDMG300_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSDMG300_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSDMG300_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSDMG305_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USDMG305_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESDMG305_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSDMG305_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISDMG305_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSDMG305_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSDMG305_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSDMG400_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USDMG400_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESDMG400_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSDMG400_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISDMG400_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSDMG400_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSDMG400_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSDMG500_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USDMG500_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESDMG500_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSDMG500_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISDMG500_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSDMG500_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSDMG500_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSDMG600_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USDMG600_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESDMG600_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSDMG600_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISDMG600_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSDMG600_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSDMG600_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSDMG700_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USDMG700_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESDMG700_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSDMG700_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISDMG700_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSDMG700_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSDMG700_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSDMG800_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USDMG800_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESDMG800_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSDMG800_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISDMG800_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSDMG800_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSDMG800_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MSDMG900_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_USDMG900_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ESDMG900_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FSDMG900_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_ISDMG900_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_DSDMG900_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSDMG900_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M039SCUM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FIELDCOM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_CARDGAME_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STDGNAME_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M115MUGE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M366GIRU_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_CNTY_SEL_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FIELDSTG_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_FIGHTSTG_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SHOCKTST_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SOUNDTST_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBATL00_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM001_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM002_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM004_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM005_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM007_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM009_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM010_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM025_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPCOMMON_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV001_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV005_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV010_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBATL00_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM001_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM002_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM004_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM005_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM007_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM009_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM010_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM025_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVCOMMON_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV001_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV005_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV010_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STAGSLCT_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STCRDABM_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P001PLAY_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P002PLAY_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P003PKEN_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P004KOGU_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P005KOET_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P006AGUM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P007VMON_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P008GIRU_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P009RENA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P010PATA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P011MINO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P013TAKU_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P044OPFS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P065JKSI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P146OPFE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P147OPFW_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S200PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S200TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S205PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S205TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S210PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S210TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S220PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S220TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S225PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S225TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S230PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S230TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S235PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S235TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S240PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S240TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S245PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S245TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S250PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S250TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S255PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S255TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S260PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S260TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S270PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S270TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S275PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S275TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S280PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S280TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S330PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S330TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S335PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S335TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S350PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S350TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S355PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S355TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S370PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S370TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S375PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S375TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S435PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S435TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S465PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S465TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S780PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S780TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S785PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S785TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S790PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S790TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STCRDDEK_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SFSTDATA_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SMDLDATA_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M069FLAR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STCRDSHP_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SDIGIEDT_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STDWTITL_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STFGTREP_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG200_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG205_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG210_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG220_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG225_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG230_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG235_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG240_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG245_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG250_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG255_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG260_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG270_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG275_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG280_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG330_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG335_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG350_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG355_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG370_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG375_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG435_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG465_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG780_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG785_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG790_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STGDGLAB_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG395_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STGMCARD_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG360_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG430_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG475_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STGTRAIN_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M003AGUM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M010SEAD_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M013MAME_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M126BRAK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M148IPDR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M175KRSR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M176TDBL_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M213WGRE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M217PDEV_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M230GKWA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M236VVND_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M251APKR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M373RENA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M381IPDP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM030_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV011_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM030_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV011_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STITSHOP_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STPLNMET_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STSTATUS_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WFIGHTMN_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WFIGHTTS_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG201_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG202_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG203_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG206_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M145VMON_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM003_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM029_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM003_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM029_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM020_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM020_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG470_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM008_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG211_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG212_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM008_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S395PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S395TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG505_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG365_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S360PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S360TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG555_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S430PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S430TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG520_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M076TANK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM011_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M196MGAR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM022_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBOSS00_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV004_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV204_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM011_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM022_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBOSS00_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV004_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV204_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG218_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S475PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S475TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S470PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG219_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S470TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG425_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM012_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM012_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S365PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S365TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S505PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S505TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG405_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG545_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M259EXVM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M260STNG_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM013_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM013_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S555PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S555TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M384KOET_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM014_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM014_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M053NANI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M385KOGU_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S520PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S520TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S425PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG530_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG221_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M031PATA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG226_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG231_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG232_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG233_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S425TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M012MTGR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S405PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S405TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M041GIRO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M254PLDR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM015_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM015_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M150OMGM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_CARDDATA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_TRANIN00_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_CARDPACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM016_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM016_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M014MONZ_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M032KUNE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M023YUKI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M034OGRE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M037BAKE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M035SHEL_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M049SIRA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M050COCA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M051KUWA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M052MOJA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M110GECO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M004BETA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M006DEVI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M135DVDR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG236_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M367GRAW_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M132GIZA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM018_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM018_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S545PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S545TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M203TRCR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S530PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S530TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M026SKUL_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM027_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM027_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M005GREY_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M122HAGU_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG237_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_TRANIN02_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_TRANIN03_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_TRANIN04_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_TRANIN10_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_TRANIN14_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_TRANIN15_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_CMFONTCS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_CMFONTTM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STDGNMCS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STDGNMTM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STNMETCS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STNMETTM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STTRNGCS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STTRNGTM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M134CYCL_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M136TUSK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S256PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S256TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG256_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S535PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S535TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG535_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M138DELT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M008TYRA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM017_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM017_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M139RARE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG238_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M027MTMA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STMCRDCS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STMCRDTM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M119TONO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG241_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M067YANM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M173MSHA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S320PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S320TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG320_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M080GOBR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S710PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S710TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG710_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M059HOUO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S290PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S290TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG290_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M222WOOD_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S560PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S560TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG560_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M137FLYM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M234ANGW_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S285PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S285TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG285_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S237PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S237TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG246_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S380PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S380TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG380_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG251_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG261_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M028VEDA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M388GRIZ_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M094ICEM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S240MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S205MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_CMNBGDCS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STDGLBCS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STDGLBTM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG271_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM019_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM023_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM024_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM028_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM019_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM023_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM024_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM028_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M227GARB_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S375MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S335MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M042ETEM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M211HANG_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S470MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S220MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M065MTET_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S275MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M267BKWG_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M171GOKI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M197GANI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M121JURE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M198KIWI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM031_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM031_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M025VEGI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M108GOLE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P027SMTH_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P036AMDK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P020RDSZ_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P019RDSY_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P021RDBK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P022RDGB_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P023RDET_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P026RDNT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P024RDST_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P025RDWT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P028WEDG_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P030ASWT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P031ASFM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P029ASLR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P032ASDK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P034AMWT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P033AMLR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P035AMFM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P037GRGO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P039TAIL_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P038WIZA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P040PIKO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P012MINT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P014TAKT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P159NVMO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P158NAGU_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P160NGIR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P161NREN_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P162NPAT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M200BLSA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M124TIRS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M212MANM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_TRANIN11_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_TRANIN12_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_TRANIN16_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P163JKST_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M202ANOM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M215SMAN_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M207HANU_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M206BAKU_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P042LABO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P087TERS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P088GABS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P089PYOS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P071OLYF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P069OTKF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P070FRTF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P068SARM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P066FRTM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P067OTKU_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P063FRDF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P064HSSM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P062FRDM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P047LEOM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P048GDAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P045AMST_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P046AW00_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P043OPMA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P041GRDR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S710MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S200MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S395MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S780MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S555MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S210MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S245MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S560MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S430MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S320MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P105KNGO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S330MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG276_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG281_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M208TOTA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S260MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S285MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S290MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S380MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S425MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S790MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M225DAGO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM021_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM021_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M391GRPL_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M210RUKA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S202MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S202PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S202TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG286_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S218MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S218PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S218TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG291_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S237MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M226OKWA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S310MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S310PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S310TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG310_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S232MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S232PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S232TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG295_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S305MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S305PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S305TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG305_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S300MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S300PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S300TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG300_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M359IPDF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M229PUKU_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P059AOAD_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P060AOAE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P057AOAB_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P055GMGD_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P058AOAC_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P056AOAS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P053SHAK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P050FRDR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P054MGNA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P049TOGE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P051PANG_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV002_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV003_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV002_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV003_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S460PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S460TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG460_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S480PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S480TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG480_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M040ANDR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M223PHNT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG296_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG301_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG306_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG311_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M270VIKI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M193GRFO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P084KETE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P085FLWR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P083METE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P081NMEM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P082ETEM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P079SPIC_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P080BALM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P073GOBA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P074JIJI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P072GOZS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P061AOAF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S440MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S440PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S440TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG440_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV006_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV007_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV006_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV007_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M089FUGA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M060HKAB_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P075BABA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P108PHAR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P109MTHI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P106PONT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P098YASH_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P102SHUR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P090MGRM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P093HANM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P091PDRM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P092MGWM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S455MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S455PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S455TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG455_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M220GESO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M009MERA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M140MTRN_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S230MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S450MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S450PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S450TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG450_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S410MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S410PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S410TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG410_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M374KYBI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S340MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S340PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S340TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG340_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S345MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S345PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S345TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG345_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG315_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG316_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV008_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV009_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV012_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV013_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV014_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV008_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV009_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV012_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV013_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV014_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S485MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S485PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S485TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG485_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M224MDEV_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M221OCTA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M054MGDR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV015_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV016_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV017_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV015_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV016_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV017_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S525MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S525PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S525TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG525_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S495MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S495PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S495TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG495_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P002PLYD_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P002PLYF_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P002PLYK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P002PLYL_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S225MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S235MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S250MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S255MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S256MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S270MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S280MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S350MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S355MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S360MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S365MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S370MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S405MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S475MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S505MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S520MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S530MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S535MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S545MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S435MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S465MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S785MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P148SNAC_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P121BWGM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P122SBMM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P123DIGM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P118BSRM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P119BGWM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P117BIPD_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P115KNIG_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P116BSGM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P113WARU_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P114NANO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P111ZANB_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P112HAND_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV018_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV019_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV020_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV021_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV022_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV023_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV018_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV019_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV020_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV021_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV022_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV023_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P126ITMB_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S490MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S490PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S490TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG490_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P157OPFT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STSHOPCS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STSHOPTM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STSTATCS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STSTATTM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG321_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG325_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S400MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S400PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S400TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG400_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S500MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S500PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S500TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG500_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M189DTMR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P107SEAM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P156BOOM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P103DPTM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P099SZIM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P104KABM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P100SHDM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P101NHEM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P095KKIM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P097ASTM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P077HASM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P086AIRD_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P052ASHM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M104BLMR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M020ANGE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M237CHMR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M383PKEN_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M151DBLM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S570PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S570MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S570TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG570_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P076HANM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M369DUKE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M395KUW2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M398GOB2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M281TIRO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M402TRC2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P096GREM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P094TAOM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M405COC2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M409MAN2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M418RAR2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M419CYC2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S301MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S301PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S301TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG326_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBGM026_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV024_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBGM026_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV024_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M410VED2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M404PHN2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M406TOT2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M424BLS2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_TRANIN01_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_TRANIN13_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M396YAN2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M422KRS2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M421MSH2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M376SKYA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M400FLY2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M401WOO2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M425JUR2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M407TON2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M433ANO2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M431VIK2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M449MTG9_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M456GRP9_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG331_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M450PLD9_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M452HAN9_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M368MGRW_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M214SRPH_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M390ASLT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M231PINO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M420TAN2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M448BKW9_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_PGFGTC00_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_PGFGTW00_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M444IPD2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M375TAOM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M070WARU_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M447SRP2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPCBTL00_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVCBTL00_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M451MGR9_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M445MGR2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S460MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG336_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG341_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG346_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG351_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M453TAO9_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M455ASL9_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M011NUME_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M228PIEM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M312DETH_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M177LDDV_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M024HOEE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M061MGSD_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S550MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S550PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S550TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG550_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBATL10_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBOSS01_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBATL10_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBOSS01_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG356_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M413NUM2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M414NUM3_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M415NUM4_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M416NUM5_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M417NUM6_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M387PIRT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M056DIGI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M066VAND_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M204MSDR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG361_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S575MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S575PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S575TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG575_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S605MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S605PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S605TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG605_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S620MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S620PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S620TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S625MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S625PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S625TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG620_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG625_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M408SEA2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M427MGS2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M432MSD2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S630MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S630PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S630TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG630_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S655PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S655TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S655MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG655_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S635MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S635PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S635TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG635_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S640MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S640PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S640TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG640_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S211MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S211PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S211TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG366_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S645MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S645PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S645TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG645_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S206MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S206PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S206TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG371_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S675MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S675PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S675TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG675_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S231MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S231PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S231TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG376_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S226MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S226PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S226TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG381_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S610PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M007AIRD_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M426HOE2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M019KABU_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M394MARS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S610MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S610TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG610_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S685MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S685PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S685TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S660MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S660PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S660TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG660_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG685_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPCONFUS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVCONFUS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S212MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S212PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S212TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG385_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S238MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S238PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S238TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG386_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG396_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M141NANO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S236MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S236PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S236TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG401_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S233MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S233PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S233TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG406_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S221MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S221PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S221TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG411_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S251MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S251PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S251TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S246MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S246PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S246TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S241MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S241PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S241TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG415_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG420_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG421_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M403AIR2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M273QTRU_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P015LUMO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P018MGCO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P017ASGM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P120BNMM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P078HGMK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P152KEIT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P171BAGM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S385MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S385TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG426_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M165EBDR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S291MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S291PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S291TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG431_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S600MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S600PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S600TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG600_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S585MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S585PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S585TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S595MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S595PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S595TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S590MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S590PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S590TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG585_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG590_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG595_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S445MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S445PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S445TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG445_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S385PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG436_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S281MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S281PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S281TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG441_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S565MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S565PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S565TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG565_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S286MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S286PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S286TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG446_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S201PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S201TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S201MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG451_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S261MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S261PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S261TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG456_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S203MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S203PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S203TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG466_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S276MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S276PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S276TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG471_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S219MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S219PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S219TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG476_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M170IVRU_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M038DORI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M143CLOK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S326MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S326PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S326TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S311MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S311PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S311TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S321MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S321PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S321TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S296MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S296PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S296TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S306MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S306PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S306TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG481_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG486_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG491_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG496_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG501_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S650MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S650PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S650TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG650_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG506_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P150LISA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S537MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S537PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S537TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG537_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M386DINO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M166DKGM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M172MTAR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M429IVR2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M428EBD2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S615MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S615PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S615TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG615_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBOSS02_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBOSS02_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M399MTA2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M397DKG2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M430DOR2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M190BOLT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M077REDV_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M269VALK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S331MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S331PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S331TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG521_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S316MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S316PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S316TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG526_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S336MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S336PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S336TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG531_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S341MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S341PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S341TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG538_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S346MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S346PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S346TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG540_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S471MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S471PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S471TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG551_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S381MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S381PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S381TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG556_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S366MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S366PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S366TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG561_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S376MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S376PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S376TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG566_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S386MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S386PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S386TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG571_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S396MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S396PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S396TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG576_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S361MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S361PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S361TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG580_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG581_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S401MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S401PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S401TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG586_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S431MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S431PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S431TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG591_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S426MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S426PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S426TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG596_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S446MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S446PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S446TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG601_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S436MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S436PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S436TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG606_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S411MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S411PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S411TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG611_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S466MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S466PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S466TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG616_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S496MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S496PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S496TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG621_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S491MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S491PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S491TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG631_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S486MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S486PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S486TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG636_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S506MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S506PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S506TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG641_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S501MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S501PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S501TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG646_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S521MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S521PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S521TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG651_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S538MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S538PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S538TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG656_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S551MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S551PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S551TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG661_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S561MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S561PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S561TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG676_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S571MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S571PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S571TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG680_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S576MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S576PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S576TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG686_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG690_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S556MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S556PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S556TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG691_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S591MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S591PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S591TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG695_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S586MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S586PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S586TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG696_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S601MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S601PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S601TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG700_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S596MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S596PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S596TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG701_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S451MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S451PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S451TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG705_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S481MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S481PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S481TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG706_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S686MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S686PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S686TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG711_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S696MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S696PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S696TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG715_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STALBMCS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STALBMTM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG716_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG720_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M178KNGT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M377BLZB_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M327RUNX_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M337ZAMB_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S295MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S295PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S295TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG721_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S606MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S606PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S606TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG725_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S621MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S621PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S621TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG726_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S611MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S611PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S611TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG730_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S631MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S631PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S631TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG731_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S616MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S616PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S616TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG735_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S656MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S656PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S656TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S691MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S646MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S646PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S646TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S691PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S651MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S651PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S651TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S691TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S641MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S641PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S641TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG736_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S636MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S636PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S636TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S480MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV025_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV025_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S680MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S680PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S680TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STCDSPCS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S690MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S690PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S690TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STCDSPTM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S700MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S700PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S700TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M382ARMG_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S705MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S705PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S705TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M272SHDR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P151NICK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P167SAGM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P169NSPM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P168PAGM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M247DEMN_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M365ARCH_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M437BAST_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M372SGRG_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG740_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG741_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG745_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG746_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG750_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG755_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG756_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG760_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG761_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S711MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S711PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S711TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG795_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S676MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S676PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S676TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG800_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S661MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S661PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S661TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG805_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S701MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S701PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S701TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG810_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S720MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S720PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S720TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG815_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S805MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S805PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S805TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG820_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S721MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S721PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S721TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG825_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S730MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S730PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S730TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG830_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M436VALV_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M443SGR2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S716MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S716PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S716TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG835_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S706MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S706PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S706TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG840_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S726MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S726PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S726TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG845_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S875MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S875PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S875TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG875_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S880MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S880PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S880TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S885MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S885PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S885TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S890MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S890PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S890TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S895MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S895PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S895TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG880_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG885_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG890_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG895_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S825MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S825PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S825TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG850_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S725MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S725PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S725TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG855_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S351MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S351PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S351TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG860_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S356MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S356PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S356TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG865_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S865MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S865PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S865TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG870_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S870MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S870PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S870TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M441RAIZ_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S526MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S526PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S526TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S735MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S735PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S735TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S371MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S371PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S371TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S750MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S750PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S750TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S566MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S566PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S566TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S731MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S731PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S731TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S736MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S736PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S736TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M144ROSE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M334MLDR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S746MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S746PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S746TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S755MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S755PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S755TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S756MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S756PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S756TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S761MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S761PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S761TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E059HOUO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1016_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S740MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S740PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S740TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1021_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S850MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S850PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S850TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1022_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S835MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S835PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S835TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M378BVND_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S456MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S456PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S456TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S745MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S810MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S810PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S810TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S745TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S855MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S855PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S855TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S795MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S860MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S860PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S860TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S795TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S540MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S540PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S540TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S800MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S441MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S441PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S441TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S800TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S830MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S830PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S830TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M238SNAI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S845MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S845PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S845TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M241HNGY_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S271MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S271PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S271TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1001_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S476MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S476PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S476TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1002_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M244SKST_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S745PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M245INFR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1003_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S820MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S820PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S820TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1004_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S760MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S760PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S760TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1005_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M250KGET_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M364MUMY_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M465SNAT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M277BARO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M439FUJI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M302GAGO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S795PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M356HAND_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1006_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M358PHAR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S800PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M360ANTR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1007_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M389KYKI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M411MLD2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M392SLAG_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M440SIJN_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M393CNND_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M438RIDN_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M412GAR2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M434ANT2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPEVO_00_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPJOG_00_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVEVO_00_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVJOG_00_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S715MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S715PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S715TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1008_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M466RGN2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M423SNA2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M435GAR3_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG920_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P165SAGD_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P166PAGD_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P016RDMD_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P173KBOY_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P170GOMA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M442RGN1_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S406MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S406PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S406TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1009_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S315MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S315PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S315TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S840MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S840PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S840TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S531MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S531PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S531TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S741MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S741PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S741TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1010_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1011_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1012_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1013_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M446BKNM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M454KYK9_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M457CDC1_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M458CDC2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0093_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M459CDU1_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0094_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1014_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S415TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S415MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1015_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M460CDU2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M461CDR1_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S325MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S325PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S325TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M462CDR2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M463CDS1_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M464CDS2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S415BG01_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S415BG02_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M467RGN3_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S695MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S695PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S695TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0065_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_NAMEDTCS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_NAMEDTTM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0095_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E369DUKE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S815MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S815BG01_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S815TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1017_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S581MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S581PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S581TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1018_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1055_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0088_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S580MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S580PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S580TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1019_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S420MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S420PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S420TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S421MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S421PACK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S421TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1020_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E020ANGE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E367GRAW_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E006DEVI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E144ROSE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E230GKWA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E234ANGW_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E259EXVM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E386DINO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1023_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P178NBEA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P179NKOE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P180NKOT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P153DGTM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P154DGTB_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1024_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1025_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STWMP0CS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STWMP0TM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STWMP1CS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STWMP1TM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E000COM1_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_F000COM1_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STFRPTCS_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_STFRPTTM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV205_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV205_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E000COM2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_CARD_NPC_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E211HANG_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M468AGNM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P149SNCM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P181SSPM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P175SPMM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P174PIYO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1026_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBOSS03_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P172FJJI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_F000COM2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1027_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1028_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1029_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1030_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1031_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1032_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1033_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1034_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1035_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1036_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1037_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1038_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1039_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1040_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1041_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1042_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1043_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1044_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1045_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1046_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1047_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1048_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1049_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1050_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPBOSS04_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M469GARM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1051_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBOSS03_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVBOSS04_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1052_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1053_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_M470AGRY_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0221_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P124SATE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P127SEID_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P128TISD_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P182BOMP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P183BOMB_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P184CBEM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P185BEMG_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P186BEMP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0087_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0108_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0109_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E145VMON_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E260STNG_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E374KYBI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E375TAOM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E383PKEN_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E000COM3_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_F000COM3_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E000COM4_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_F000COM4_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0096_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E056DIGI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E066VAND_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E150OMGM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E373RENA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E377BLZB_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MOVIED01_STR_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MOVIED03_STR_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MOVIED04_STR_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MOVIED05_STR_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MOVIED06_STR_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MOVIED07_STR_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MOVIED08_STR_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT1054_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MOVIED02_STR_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MOVIEE01_STR_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MOVIEOPN_STR_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E000JOGL_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_CARDPAK0_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_CARDPAK1_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_CARDPAK2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_CARDPAK3_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_CARDPAK4_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0089_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0101_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0102_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0103_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0106_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0107_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E381IPDP_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E389KYKI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E385KOGU_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0097_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E388GRIZ_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0098_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0090_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0091_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0092_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0099_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0100_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0113_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0039_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E014MONZ_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E004BETA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E438RIDN_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E110GECO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E193GRFO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E302GAGO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0066_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P187STRI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MOVIEE04_STR_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MOVIEE03_STR_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E364MUMY_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E229PUKU_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E439FUJI_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E365ARCH_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E037BAKE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E135DVDR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0201_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0202_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0203_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0204_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0205_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0206_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0207_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0208_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0209_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0210_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0211_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0212_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0213_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0214_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0215_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0216_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0217_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0218_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0219_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0220_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0222_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0223_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0224_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0225_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0226_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPENV206_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVENV206_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P188BLOK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0085_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0086_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0301_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E372SGRG_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0302_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0303_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0306_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0307_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0308_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0309_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0375_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0310_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0311_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0312_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0313_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0314_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0315_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0316_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0317_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0318_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0319_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0320_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0321_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0322_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0323_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0324_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0325_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0326_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0327_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0328_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0329_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0330_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0331_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0332_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0333_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0334_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0335_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0336_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0337_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0338_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0339_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0340_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0341_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0342_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0343_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0344_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0345_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0346_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0347_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0348_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0349_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0350_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0351_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0352_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0353_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0354_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0355_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0356_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0357_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0358_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0359_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0360_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0361_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0362_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0363_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0364_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0365_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0366_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0367_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0368_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0369_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0370_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0371_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0372_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0374_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0114_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_TLOGOJPN_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_TTCOMMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E433ANO2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E430DOR2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E431VIK2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E434ANT2_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SSUBDEMO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_SDIGDEMO_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0115_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0116_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E390ASLT_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P189PKEL_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P190KOGL_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P191KOEL_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P192AGUL_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P194GIRL_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P195RENL_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P196PATL_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S815BG02_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P193VMOL_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MPTTLBGM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MVTTLBGM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P197BLXE_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E245INFR_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0377_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0378_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_P198ADME_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MEFT0376_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_E000EVOL_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_CNTSELWN_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_TLOGOUSA_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MOVIEE02_STR_OFFSET),
+	ptr::addr_of!(LBA_IMPL_END__ALL_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_CMNBGDTM_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S920MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG921_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S920TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG922_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG923_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG924_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG925_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG926_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG927_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG928_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG929_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG930_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG931_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG932_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG933_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG934_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG935_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG936_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG937_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG938_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG939_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG940_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG941_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG942_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG943_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG944_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG945_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG946_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG947_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG948_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG949_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG950_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG951_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG952_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG953_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG954_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG955_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG956_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG957_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG958_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG959_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG960_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG961_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG962_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG963_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG964_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG965_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG966_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG967_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG968_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG969_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG970_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG971_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG972_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG973_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_WSTAG974_PRO_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S923MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S921MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S923TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S921TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S922MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S924MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S922TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S924TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S925MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S925TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S926MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S926TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S927MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S927TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S928MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S928TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S929MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S929TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S930MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S930TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S931MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S931TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S932MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S932TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S933MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S933TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S934MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S934TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S935MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S935TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S936MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S936TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S937MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S937TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S938MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S938TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S939MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S939TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S940MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S940TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S941MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S941TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S942MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S942TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S943MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S943TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S944MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S944TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S945MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S945TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S946MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S946TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S947TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S947MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S948MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S948TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S949MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S949TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S950MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S950TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S951MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S951TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S952MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S952TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S953MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S953TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S954MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S954TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S955MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S955TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S956MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S956TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S957MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S957TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S958MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S958TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S959MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S959TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S960MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S960TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S961MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S961TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S962MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S962TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S963MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S963TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S964MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S964TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S965MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S965TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S966MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S966TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S967MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S967TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S968MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S968TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S969MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S969TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S970MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S970TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S971MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S971TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S972MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S972TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S973MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S973TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S974MASK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_S974TMPK_BIN_OFFSET),
+	ptr::addr_of!(LBA_IMPL_MOVIEOP2_STR_OFFSET),
+	ptr::addr_of!(LBA_IMPL_TLOGOPAL_BIN_OFFSET),
+];
 
-
-// LBA sizes?
+// LBA sector lens
+// TODO: Once we can do `R_MIPS_16` relocations, use `[u16; 2382]` instead of this hack.
 #[no_mangle]
 #[link_section = "dw2003_exe_lba"]
-pub static mut D0x800474a4: [u16; 2382] = [
-	0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001,
-	0x0001, 0x0001, 0x0001, 0x0001, 0x0002, 0x0001, 0x0001, 0x0002, 0x0003, 0x0003, 0x0003, 0x0003, 0x0003, 0x0003,
-	0x0003, 0x0002, 0x0003, 0x0003, 0x0003, 0x0003, 0x0003, 0x0003, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001,
-	0x0001, 0x0001, 0x0002, 0x0002, 0x0002, 0x0002, 0x0002, 0x0002, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001,
-	0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001,
-	0x0001, 0x0001, 0x0002, 0x0002, 0x0002, 0x0002, 0x0002, 0x0002, 0x0002, 0x0002, 0x0002, 0x0002, 0x0002, 0x0002,
-	0x0002, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001,
-	0x0001, 0x0005, 0x0008, 0x0008, 0x0008, 0x0008, 0x0007, 0x0008, 0x0003, 0x0004, 0x0004, 0x0004, 0x0004, 0x0004,
-	0x0004, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001,
-	0x0001, 0x0002, 0x0002, 0x0002, 0x0002, 0x0002, 0x0002, 0x0002, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001,
-	0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001,
-	0x0001, 0x0003, 0x0004, 0x0004, 0x0004, 0x0004, 0x0004, 0x0004, 0x0003, 0x0003, 0x0003, 0x0003, 0x0003, 0x0003,
-	0x0003, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0002, 0x0002, 0x0002, 0x0002, 0x0002,
-	0x0002, 0x0001, 0x0002, 0x0002, 0x0002, 0x0002, 0x0002, 0x0002, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0001,
-	0x0001, 0x000f, 0x0013, 0x0013, 0x0013, 0x0011, 0x0012, 0x0012, 0x000e, 0x0012, 0x0012, 0x0012, 0x0010, 0x0011,
-	0x0011, 0x0011, 0x0015, 0x0015, 0x0016, 0x0013, 0x0014, 0x0013, 0x000e, 0x0012, 0x0012, 0x0013, 0x0010, 0x0011,
-	0x0011, 0x000d, 0x0010, 0x0010, 0x0010, 0x000e, 0x0010, 0x000f, 0x0010, 0x0015, 0x0015, 0x0015, 0x0013, 0x0015,
-	0x0014, 0x0013, 0x0018, 0x0018, 0x0018, 0x0015, 0x0017, 0x0017, 0x0014, 0x0018, 0x0018, 0x0018, 0x0016, 0x0017,
-	0x0017, 0x0006, 0x0001, 0x0009, 0x0009, 0x0009, 0x0009, 0x0009, 0x000f, 0x0001, 0x0015, 0x0016, 0x0014, 0x0015,
-	0x0015, 0x0002, 0x0002, 0x0002, 0x0002, 0x0002, 0x0002, 0x0002, 0x000b, 0x000f, 0x0010, 0x0010, 0x000e, 0x0010,
-	0x000f, 0x0008, 0x0009, 0x0009, 0x000a, 0x0008, 0x0009, 0x0009, 0x0003, 0x0005, 0x0005, 0x0005, 0x0004, 0x0005,
-	0x0004, 0x000a, 0x000e, 0x000e, 0x000e, 0x000c, 0x000d, 0x000d, 0x0004, 0x0005, 0x0005, 0x0005, 0x0004, 0x0005,
-	0x0005, 0x0006, 0x0007, 0x0007, 0x0007, 0x0006, 0x0007, 0x0007, 0x0006, 0x0007, 0x0007, 0x0007, 0x0006, 0x0007,
-	0x0007, 0x0007, 0x000a, 0x000a, 0x000a, 0x0009, 0x000a, 0x0009, 0x0006, 0x0008, 0x0008, 0x0009, 0x0007, 0x0008,
-	0x0008, 0x0003, 0x0004, 0x0004, 0x0004, 0x0004, 0x0004, 0x0004, 0x0005, 0x0001, 0x0007, 0x0007, 0x0007, 0x0007,
-	0x0007, 0x0011, 0x0013, 0x0047, 0x000d, 0x001e, 0x001b, 0x0003, 0x0032, 0x0044, 0x0004, 0x0006, 0x000f, 0x000e,
-	0x000c, 0x0009, 0x0009, 0x000b, 0x0014, 0x0009, 0x000a, 0x001c, 0x0006, 0x0003, 0x0003, 0x0018, 0x0029, 0x0028,
-	0x0011, 0x0014, 0x0025, 0x002b, 0x0029, 0x001f, 0x0092, 0x0028, 0x001c, 0x0024, 0x0009, 0x0006, 0x0023, 0x001b,
-	0x001b, 0x0016, 0x0016, 0x001c, 0x001b, 0x001a, 0x001c, 0x0028, 0x0023, 0x0023, 0x0010, 0x000c, 0x000b, 0x000b,
-	0x02bd, 0x0008, 0x0227, 0x000a, 0x013c, 0x0008, 0x0091, 0x0005, 0x00a1, 0x0004, 0x0091, 0x0004, 0x0049, 0x0006,
-	0x0052, 0x0004, 0x00b5, 0x0004, 0x00b5, 0x0003, 0x006d, 0x0004, 0x00a1, 0x0007, 0x0079, 0x0003, 0x0119, 0x0004,
-	0x0088, 0x0003, 0x0515, 0x0017, 0x01a5, 0x0004, 0x02d1, 0x000a, 0x0231, 0x000d, 0x0303, 0x000c, 0x044d, 0x000e,
-	0x00b5, 0x0004, 0x0295, 0x000a, 0x0088, 0x0002, 0x00d9, 0x0003, 0x00c9, 0x0002, 0x0012, 0x0003, 0x0011, 0x0013,
-	0x0015, 0x0007, 0x000d, 0x000d, 0x0005, 0x0004, 0x0009, 0x0005, 0x0002, 0x0002, 0x0002, 0x0001, 0x0005, 0x0002,
-	0x0002, 0x0009, 0x0006, 0x0001, 0x0004, 0x0005, 0x0003, 0x0003, 0x0004, 0x0002, 0x0003, 0x0001, 0x0003, 0x0007,
-	0x0004, 0x0002, 0x001b, 0x0003, 0x000c, 0x0002, 0x0002, 0x0002, 0x0015, 0x001b, 0x0012, 0x000f, 0x0015, 0x0022,
-	0x0019, 0x0010, 0x0023, 0x0013, 0x001f, 0x001e, 0x001b, 0x001f, 0x0029, 0x000b, 0x0004, 0x0026, 0x000f, 0x0015,
-	0x000e, 0x0032, 0x000b, 0x0008, 0x0003, 0x0005, 0x0002, 0x0003, 0x001b, 0x0006, 0x000b, 0x002c, 0x002c, 0x000b,
-	0x0024, 0x0002, 0x000c, 0x0003, 0x0007, 0x001d, 0x04ed, 0x001c, 0x0001, 0x0001, 0x00c9, 0x0006, 0x0002, 0x00fb,
-	0x0007, 0x0003, 0x0014, 0x000f, 0x0023, 0x0008, 0x000b, 0x0003, 0x0009, 0x0029, 0x0019, 0x0028, 0x001c, 0x001a,
-	0x0002, 0x005b, 0x0003, 0x00d9, 0x0001, 0x0006, 0x0002, 0x0008, 0x0020, 0x010f, 0x0004, 0x0119, 0x0003, 0x0003,
-	0x0003, 0x0022, 0x001d, 0x0007, 0x0028, 0x0508, 0x0023, 0x001c, 0x0008, 0x002b, 0x0012, 0x001f, 0x00d9, 0x0008,
-	0x00c9, 0x0002, 0x0002, 0x001d, 0x0002, 0x0001, 0x0002, 0x0002, 0x0005, 0x001e, 0x044d, 0x000b, 0x000d, 0x0028,
-	0x000a, 0x0030, 0x0021, 0x0012, 0x0068, 0x00f4, 0x0011, 0x0027, 0x000c, 0x0011, 0x000d, 0x0015, 0x000c, 0x0010,
-	0x0013, 0x0014, 0x0016, 0x0014, 0x0016, 0x0011, 0x0021, 0x0020, 0x0001, 0x0020, 0x0015, 0x0008, 0x001c, 0x032b,
-	0x0006, 0x0019, 0x021d, 0x0009, 0x001d, 0x000f, 0x0020, 0x001b, 0x000f, 0x0001, 0x0043, 0x0064, 0x005f, 0x005e,
-	0x0054, 0x005a, 0x0007, 0x0016, 0x0001, 0x0009, 0x0002, 0x0011, 0x0005, 0x001c, 0x001a, 0x0018, 0x006d, 0x0004,
-	0x0002, 0x01c3, 0x0008, 0x0002, 0x001a, 0x0017, 0x0010, 0x002c, 0x0018, 0x0001, 0x0017, 0x0002, 0x000e, 0x0016,
-	0x0001, 0x0016, 0x0022, 0x0277, 0x0009, 0x0003, 0x0016, 0x0303, 0x0011, 0x0003, 0x001f, 0x015f, 0x0007, 0x0002,
-	0x0017, 0x012d, 0x000a, 0x0002, 0x001a, 0x0029, 0x01f9, 0x0007, 0x0002, 0x006a, 0x0003, 0x0001, 0x0321, 0x000d,
-	0x0003, 0x0001, 0x0002, 0x0011, 0x001d, 0x0012, 0x0001, 0x001c, 0x0001, 0x0003, 0x0034, 0x0002, 0x000a, 0x000f,
-	0x000c, 0x000b, 0x0029, 0x002b, 0x0028, 0x0026, 0x0015, 0x0004, 0x0005, 0x0017, 0x002a, 0x0012, 0x0009, 0x0016,
-	0x000e, 0x0024, 0x001a, 0x0018, 0x001c, 0x0015, 0x000b, 0x001f, 0x0011, 0x001b, 0x0009, 0x000a, 0x000a, 0x0009,
-	0x0009, 0x000a, 0x0009, 0x000a, 0x000a, 0x0009, 0x0008, 0x0007, 0x0007, 0x0007, 0x000a, 0x0007, 0x0007, 0x0007,
-	0x0009, 0x0004, 0x0005, 0x000b, 0x0008, 0x0008, 0x000e, 0x000f, 0x000c, 0x000f, 0x0018, 0x0018, 0x0017, 0x001d,
-	0x0047, 0x0054, 0x0075, 0x0006, 0x0018, 0x0017, 0x0015, 0x0018, 0x0009, 0x0002, 0x0002, 0x0001, 0x0007, 0x0006,
-	0x0007, 0x0007, 0x0008, 0x0007, 0x0006, 0x0007, 0x0006, 0x0004, 0x0006, 0x0004, 0x000a, 0x0008, 0x0016, 0x0013,
-	0x0021, 0x0010, 0x0022, 0x0010, 0x001b, 0x001b, 0x0019, 0x0015, 0x0010, 0x0003, 0x0010, 0x0001, 0x0002, 0x0018,
-	0x001d, 0x000f, 0x000f, 0x000c, 0x000d, 0x0016, 0x0017, 0x000f, 0x002b, 0x0024, 0x0010, 0x0015, 0x0141, 0x0007,
-	0x0002, 0x000f, 0x0141, 0x0004, 0x0002, 0x0004, 0x001b, 0x0012, 0x010f, 0x0004, 0x0006, 0x0015, 0x00b5, 0x0002,
-	0x0002, 0x0010, 0x00a1, 0x0004, 0x0008, 0x000e, 0x0227, 0x000b, 0x0003, 0x0027, 0x0015, 0x0008, 0x000d, 0x0007,
-	0x0007, 0x0007, 0x0008, 0x000a, 0x0005, 0x0004, 0x0004, 0x0004, 0x0003, 0x0003, 0x0009, 0x000b, 0x0079, 0x0003,
-	0x0004, 0x0529, 0x0021, 0x0005, 0x0011, 0x0015, 0x0001, 0x0002, 0x0002, 0x0006, 0x001b, 0x001b, 0x0008, 0x0003,
-	0x0006, 0x000c, 0x0006, 0x0004, 0x0003, 0x0007, 0x0007, 0x0007, 0x000b, 0x0004, 0x00fb, 0x0003, 0x0002, 0x0004,
-	0x0003, 0x0010, 0x0011, 0x0015, 0x0016, 0x0006, 0x0003, 0x0002, 0x0002, 0x0003, 0x0003, 0x0008, 0x0007, 0x0007,
-	0x0008, 0x000f, 0x0303, 0x000a, 0x0003, 0x0017, 0x0012, 0x0016, 0x0006, 0x0008, 0x0461, 0x0015, 0x0004, 0x0005,
-	0x0141, 0x0004, 0x0002, 0x0027, 0x000d, 0x01a5, 0x000b, 0x0002, 0x0012, 0x0321, 0x0015, 0x0003, 0x0002, 0x0002,
-	0x0003, 0x0003, 0x0003, 0x0003, 0x0003, 0x0011, 0x000a, 0x001d, 0x0020, 0x0023, 0x000b, 0x041b, 0x0011, 0x0003,
-	0x0019, 0x0017, 0x0016, 0x0003, 0x0003, 0x0003, 0x001b, 0x0017, 0x001b, 0x0012, 0x021d, 0x0009, 0x0003, 0x0005,
-	0x01e1, 0x0007, 0x0002, 0x0003, 0x0015, 0x0008, 0x0005, 0x0009, 0x0008, 0x000c, 0x0007, 0x0008, 0x000e, 0x000a,
-	0x0005, 0x000b, 0x0007, 0x0006, 0x0012, 0x000e, 0x0002, 0x0007, 0x0009, 0x0004, 0x000c, 0x0018, 0x0005, 0x000e,
-	0x000d, 0x000a, 0x0006, 0x000f, 0x0023, 0x0007, 0x0008, 0x0008, 0x0004, 0x0007, 0x0003, 0x0003, 0x000a, 0x0003,
-	0x0004, 0x0003, 0x0003, 0x0003, 0x0003, 0x0003, 0x0018, 0x000f, 0x000f, 0x001f, 0x0013, 0x0012, 0x0004, 0x001c,
-	0x0385, 0x000c, 0x0003, 0x0005, 0x0002, 0x0005, 0x0003, 0x000b, 0x0002, 0x0002, 0x000f, 0x0691, 0x0028, 0x0005,
-	0x000a, 0x0371, 0x000c, 0x0004, 0x0016, 0x0002, 0x000b, 0x0003, 0x0004, 0x0003, 0x0004, 0x0003, 0x0005, 0x0004,
-	0x0008, 0x0004, 0x0008, 0x0012, 0x002c, 0x0020, 0x001a, 0x001e, 0x01eb, 0x0018, 0x000b, 0x0002, 0x0006, 0x0025,
-	0x0016, 0x0015, 0x0016, 0x0018, 0x0004, 0x0005, 0x0014, 0x001d, 0x0017, 0x001a, 0x000e, 0x0227, 0x000a, 0x0002,
-	0x0011, 0x0005, 0x0028, 0x001c, 0x0011, 0x0014, 0x0018, 0x0018, 0x0056, 0x005e, 0x0016, 0x001b, 0x0022, 0x002a,
-	0x001b, 0x0017, 0x001c, 0x0019, 0x0018, 0x001b, 0x001d, 0x0023, 0x0004, 0x0026, 0x0029, 0x0022, 0x0024, 0x0021,
-	0x0019, 0x0014, 0x0023, 0x0002, 0x0007, 0x0020, 0x002e, 0x000f, 0x0026, 0x000a, 0x002b, 0x0021, 0x0022, 0x000e,
-	0x0002, 0x0002, 0x0002, 0x0002, 0x002d, 0x0020, 0x0018, 0x0018, 0x001b, 0x001d, 0x000e, 0x0013, 0x0013, 0x0385,
-	0x0012, 0x0003, 0x000b, 0x000c, 0x0027, 0x0025, 0x0002, 0x0018, 0x0018, 0x0018, 0x0018, 0x0018, 0x0019, 0x0013,
-	0x0022, 0x0017, 0x0001, 0x000b, 0x021d, 0x000b, 0x0002, 0x0005, 0x017b, 0x0005, 0x0002, 0x0005, 0x00d9, 0x0005,
-	0x0005, 0x00d9, 0x0005, 0x0005, 0x0002, 0x0011, 0x0013, 0x0017, 0x0008, 0x01b1, 0x000c, 0x0002, 0x00a1, 0x0005,
-	0x0003, 0x0002, 0x0010, 0x0289, 0x0016, 0x0003, 0x000e, 0x0289, 0x0014, 0x0002, 0x001c, 0x013c, 0x0007, 0x0001,
-	0x0009, 0x017b, 0x000a, 0x0002, 0x001c, 0x0227, 0x000a, 0x0001, 0x000e, 0x013c, 0x0009, 0x0003, 0x0006, 0x0091,
-	0x0004, 0x0002, 0x0008, 0x0091, 0x0004, 0x0002, 0x0169, 0x0011, 0x000e, 0x001e, 0x0020, 0x000e, 0x0007, 0x0001,
-	0x0009, 0x01c3, 0x000a, 0x001e, 0x0439, 0x000a, 0x0003, 0x0002, 0x0007, 0x0019, 0x0019, 0x00b5, 0x0003, 0x0005,
-	0x0004, 0x006a, 0x0003, 0x0004, 0x0002, 0x001f, 0x0008, 0x0049, 0x0006, 0x0003, 0x0015, 0x00a1, 0x0002, 0x0002,
-	0x000a, 0x0091, 0x0005, 0x0001, 0x0008, 0x00b5, 0x0003, 0x0015, 0x00b5, 0x0004, 0x0001, 0x0052, 0x0004, 0x0004,
-	0x0005, 0x0003, 0x0011, 0x0013, 0x000a, 0x0007, 0x0007, 0x0003, 0x0002, 0x000c, 0x001b, 0x000c, 0x0010, 0x0001,
-	0x001c, 0x000f, 0x013c, 0x0007, 0x0002, 0x0008, 0x00b5, 0x0002, 0x0001, 0x0008, 0x00b5, 0x0002, 0x0008, 0x00b5,
-	0x0002, 0x0008, 0x00b5, 0x0002, 0x0001, 0x0001, 0x0001, 0x0009, 0x012d, 0x0009, 0x0003, 0x0385, 0x0001, 0x0007,
-	0x0088, 0x0003, 0x0001, 0x000d, 0x0508, 0x0013, 0x0002, 0x000e, 0x01c1, 0x0007, 0x0002, 0x02bd, 0x0008, 0x001b,
-	0x0002, 0x0014, 0x0091, 0x0006, 0x0002, 0x0012, 0x0141, 0x0007, 0x0002, 0x000a, 0x0119, 0x0004, 0x0002, 0x0010,
-	0x0141, 0x0004, 0x0001, 0x0016, 0x0012, 0x0018, 0x0002, 0x00a1, 0x0003, 0x0014, 0x010f, 0x0004, 0x0010, 0x0277,
-	0x0008, 0x0002, 0x0088, 0x0002, 0x000f, 0x00a1, 0x0004, 0x0003, 0x0002, 0x0002, 0x0001, 0x0003, 0x0007, 0x0145,
-	0x000c, 0x0002, 0x0001, 0x000f, 0x0002, 0x01c3, 0x0008, 0x0003, 0x0021, 0x001a, 0x001b, 0x0016, 0x001c, 0x000f,
-	0x0277, 0x0007, 0x0003, 0x000c, 0x002b, 0x001a, 0x001a, 0x0013, 0x0018, 0x0012, 0x001a, 0x000e, 0x0515, 0x0018,
-	0x0002, 0x000e, 0x0231, 0x0007, 0x0005, 0x0003, 0x01a5, 0x0004, 0x0002, 0x000b, 0x01a5, 0x000c, 0x0002, 0x0009,
-	0x0321, 0x0015, 0x0002, 0x0007, 0x00d9, 0x0006, 0x0002, 0x000a, 0x0321, 0x000c, 0x0002, 0x0006, 0x010f, 0x0006,
-	0x0001, 0x0001, 0x044d, 0x000d, 0x0002, 0x000d, 0x0385, 0x0010, 0x0002, 0x000e, 0x04ed, 0x001c, 0x0002, 0x0007,
-	0x00c9, 0x0006, 0x0003, 0x0002, 0x000c, 0x0691, 0x0028, 0x0001, 0x0005, 0x00fb, 0x0007, 0x0001, 0x000d, 0x00b5,
-	0x0005, 0x0001, 0x0006, 0x012d, 0x0009, 0x0001, 0x0005, 0x00b5, 0x0004, 0x0002, 0x0005, 0x0141, 0x0004, 0x0001,
-	0x000a, 0x0295, 0x000a, 0x0002, 0x0004, 0x01e1, 0x0007, 0x0001, 0x0019, 0x0385, 0x000c, 0x0002, 0x000a, 0x041b,
-	0x0010, 0x0002, 0x0007, 0x0119, 0x0004, 0x0002, 0x000a, 0x0371, 0x000b, 0x0002, 0x0009, 0x00d9, 0x0008, 0x0003,
-	0x000c, 0x01c3, 0x0008, 0x0002, 0x0007, 0x0385, 0x0012, 0x0002, 0x0018, 0x012d, 0x000a, 0x0002, 0x0009, 0x01eb,
-	0x000b, 0x0002, 0x000b, 0x021d, 0x000a, 0x0001, 0x0002, 0x000d, 0x0508, 0x0022, 0x0002, 0x0001, 0x00b5, 0x0002,
-	0x0002, 0x0002, 0x00b5, 0x0002, 0x0002, 0x0001, 0x00b5, 0x0002, 0x0001, 0x0001, 0x00b5, 0x0002, 0x0001, 0x0006,
-	0x0461, 0x0014, 0x0002, 0x0015, 0x0529, 0x0021, 0x0002, 0x0009, 0x01c3, 0x0009, 0x0002, 0x000e, 0x0238, 0x000e,
-	0x0002, 0x0001, 0x0005, 0x0002, 0x0003, 0x0020, 0x002e, 0x0014, 0x0023, 0x0002, 0x0088, 0x0003, 0x0003, 0x0005,
-	0x017b, 0x0005, 0x0002, 0x0005, 0x00d9, 0x0005, 0x0002, 0x000f, 0x0169, 0x0007, 0x0002, 0x0005, 0x01b1, 0x000c,
-	0x0002, 0x000a, 0x0277, 0x0006, 0x0003, 0x0003, 0x00a1, 0x0005, 0x0009, 0x0006, 0x017b, 0x000a, 0x0303, 0x0007,
-	0x0145, 0x000c, 0x0012, 0x000a, 0x0289, 0x0014, 0x0003, 0x000a, 0x02d1, 0x0015, 0x0019, 0x0004, 0x001e, 0x0011,
-	0x0031, 0x0002, 0x0003, 0x000b, 0x0303, 0x0012, 0x0009, 0x0003, 0x0061, 0x0002, 0x001d, 0x0004, 0x03df, 0x0011,
-	0x0017, 0x000c, 0x001b, 0x0003, 0x001b, 0x001b, 0x0018, 0x0023, 0x0028, 0x0003, 0x0003, 0x0003, 0x0003, 0x0004,
-	0x0002, 0x0002, 0x0002, 0x0003, 0x0010, 0x0303, 0x0011, 0x0003, 0x000c, 0x013c, 0x0008, 0x0005, 0x001c, 0x0439,
-	0x000a, 0x0004, 0x0003, 0x0061, 0x0002, 0x0005, 0x0018, 0x01a5, 0x000b, 0x0003, 0x0008, 0x00d9, 0x0004, 0x0004,
-	0x0008, 0x01a5, 0x000b, 0x0004, 0x000b, 0x00a3, 0x0002, 0x0002, 0x0021, 0x0028, 0x0008, 0x0191, 0x000e, 0x0005,
-	0x0002, 0x037c, 0x0011, 0x0004, 0x0009, 0x0191, 0x0009, 0x0004, 0x0001, 0x00f1, 0x0002, 0x0007, 0x0001, 0x0145,
-	0x0003, 0x0001, 0x0196, 0x0003, 0x0001, 0x0196, 0x0003, 0x0001, 0x01e7, 0x0004, 0x0009, 0x0009, 0x0009, 0x0009,
-	0x0018, 0x00f1, 0x0007, 0x0002, 0x0008, 0x0191, 0x0009, 0x0004, 0x0003, 0x02d1, 0x000a, 0x0002, 0x000b, 0x0231,
-	0x000d, 0x000a, 0x0003, 0x00d9, 0x0003, 0x0006, 0x0003, 0x00d9, 0x0003, 0x0021, 0x000c, 0x021d, 0x0009, 0x0009,
-	0x02b6, 0x0014, 0x0012, 0x0303, 0x0010, 0x000d, 0x00fb, 0x0005, 0x000b, 0x0493, 0x0013, 0x000b, 0x00a3, 0x0002,
-	0x0009, 0x02b6, 0x0014, 0x0027, 0x001e, 0x0007, 0x0277, 0x0012, 0x0012, 0x0321, 0x0009, 0x0012, 0x0321, 0x0009,
-	0x0007, 0x0319, 0x000a, 0x000a, 0x0013, 0x000f, 0x0238, 0x000e, 0x001c, 0x000b, 0x0169, 0x0004, 0x0017, 0x0011,
-	0x0141, 0x0005, 0x0029, 0x000c, 0x0303, 0x000a, 0x0007, 0x0012, 0x0319, 0x0017, 0x0010, 0x001e, 0x0259, 0x0008,
-	0x000a, 0x0007, 0x00f1, 0x0004, 0x000a, 0x000d, 0x05ce, 0x0012, 0x0011, 0x0004, 0x00e2, 0x0003, 0x000f, 0x0011,
-	0x0169, 0x0004, 0x0020, 0x0011, 0x0141, 0x0005, 0x001c, 0x000f, 0x006a, 0x0003, 0x0010, 0x0002, 0x005b, 0x0002,
-	0x0014, 0x001e, 0x0277, 0x0018, 0x000f, 0x0006, 0x013c, 0x0007, 0x0018, 0x0007, 0x0371, 0x000a, 0x0012, 0x001c,
-	0x0021, 0x0014, 0x0018, 0x001d, 0x001b, 0x0439, 0x001d, 0x0016, 0x001b, 0x041e, 0x0018, 0x0014, 0x0022, 0x001e,
-	0x0026, 0x0025, 0x0024, 0x0022, 0x0012, 0x0019, 0x0008, 0x0009, 0x002a, 0x002c, 0x000a, 0x0191, 0x000e, 0x001b,
-	0x0019, 0x001f, 0x0012, 0x0002, 0x000e, 0x000e, 0x000e, 0x0007, 0x0002, 0x0017, 0x000b, 0x044d, 0x000b, 0x0016,
-	0x000e, 0x0231, 0x0007, 0x0018, 0x0161, 0x0006, 0x0004, 0x021d, 0x0009, 0x000f, 0x0238, 0x000e, 0x0014, 0x0017,
-	0x001f, 0x0019, 0x0014, 0x0021, 0x0005, 0x0005, 0x0009, 0x0006, 0x0009, 0x001b, 0x0002, 0x0019, 0x0017, 0x0006,
-	0x0006, 0x0017, 0x00b5, 0x0003, 0x0007, 0x0006, 0x0006, 0x0062, 0x0062, 0x0023, 0x0010, 0x0238, 0x000d, 0x0003,
-	0x0002, 0x000c, 0x0008, 0x0004, 0x0024, 0x0052, 0x000d, 0x0017, 0x0013, 0x03df, 0x0013, 0x000f, 0x0014, 0x0004,
-	0x0014, 0x03df, 0x0015, 0x001a, 0x0017, 0x0259, 0x0006, 0x0017, 0x0259, 0x0007, 0x0010, 0x000a, 0x0005, 0x0009,
-	0x0004, 0x0006, 0x0007, 0x000a, 0x0009, 0x0010, 0x000c, 0x000c, 0x000e, 0x0002, 0x0001, 0x0019, 0x0018, 0x0002,
-	0x0056, 0x0002, 0x0042, 0x0027, 0x0011, 0x0001, 0x0008, 0x0006, 0x0010, 0x000a, 0x0012, 0x000a, 0x0023, 0x0019,
-	0x0004, 0x0001, 0x0001, 0x0010, 0x000f, 0x0008, 0x000a, 0x0019, 0x0007, 0x001a, 0x000f, 0x0007, 0x000a, 0x000c,
-	0x0012, 0x000a, 0x000b, 0x0011, 0x000a, 0x000c, 0x0013, 0x0009, 0x000b, 0x000d, 0x0009, 0x000b, 0x0010, 0x0019,
-	0x000c, 0x0012, 0x0001, 0x000f, 0x0024, 0x000c, 0x0027, 0x0028, 0x0011, 0x0014, 0x0024, 0x0003, 0x0002, 0x0003,
-	0x0003, 0x000b, 0x000b, 0x0004, 0x0001, 0x0005, 0x000e, 0x000b, 0x000e, 0x0004, 0x0005, 0x0009, 0x0004, 0x0004,
-	0x000f, 0x000e, 0x0006, 0x000a, 0x0009, 0x000b, 0x0007, 0x0006, 0x0009, 0x0006, 0x12c8, 0x2628, 0x1690, 0x1a70,
-	0x0968, 0x0dd0, 0x11a0, 0x0010, 0x0ea8, 0x1a38, 0x46a8, 0x000e, 0x0032, 0x0032, 0x0032, 0x0032, 0x002f, 0x0003,
-	0x0003, 0x0003, 0x0003, 0x0007, 0x0006, 0x0009, 0x000a, 0x0004, 0x0004, 0x0003, 0x0006, 0x0004, 0x0003, 0x0004,
-	0x0006, 0x0003, 0x0004, 0x0005, 0x000b, 0x0005, 0x0009, 0x000b, 0x0005, 0x0005, 0x0002, 0x0001, 0x410a, 0x410a,
-	0x0004, 0x0003, 0x0003, 0x0007, 0x0003, 0x0006, 0x0003, 0x0003, 0x0003, 0x0003, 0x0003, 0x0003, 0x0003, 0x0003,
-	0x0003, 0x0003, 0x0003, 0x0003, 0x0003, 0x0003, 0x0003, 0x0003, 0x0003, 0x0003, 0x0003, 0x0003, 0x0003, 0x0003,
-	0x0003, 0x0003, 0x0003, 0x0005, 0x0027, 0x0009, 0x0004, 0x0005, 0x0005, 0x0003, 0x0004, 0x0002, 0x0001, 0x0003,
-	0x0003, 0x0002, 0x0011, 0x0003, 0x0002, 0x0003, 0x0003, 0x0003, 0x0004, 0x0002, 0x0002, 0x0002, 0x0006, 0x0004,
-	0x0002, 0x0002, 0x0002, 0x0002, 0x0001, 0x0002, 0x0007, 0x0004, 0x0005, 0x0005, 0x0004, 0x0004, 0x0006, 0x0006,
-	0x0004, 0x0007, 0x0003, 0x0003, 0x0002, 0x0005, 0x0004, 0x0004, 0x0004, 0x0003, 0x0003, 0x0003, 0x0001, 0x0002,
-	0x0006, 0x0009, 0x0006, 0x0005, 0x0004, 0x0006, 0x0004, 0x0005, 0x0006, 0x0004, 0x0004, 0x0005, 0x0007, 0x0005,
-	0x0006, 0x000e, 0x0008, 0x0003, 0x0003, 0x0003, 0x0004, 0x0005, 0x0002, 0x0002, 0x0006, 0x0005, 0x0010, 0x0032,
-	0x0004, 0x0008, 0x0009, 0x0009, 0x0012, 0x000c, 0x0004, 0x0004, 0x0005, 0x0006, 0x0005, 0x0005, 0x0006, 0x0005,
-	0x0006, 0x000e, 0x0052, 0x0006, 0x000e, 0x0027, 0x0001, 0x0008, 0x0013, 0x0017, 0x0001, 0x000a, 0x001c, 0x0009,
-	0x0012, 0x410a, 0x0003, 0x0002, 0x0021, 0x0002, 0x0008, 0x0002, 0x0002, 0x0004, 0x0002, 0x0001, 0x0002, 0x0001,
-	0x0001, 0x0001, 0x0001, 0x0001, 0x0001, 0x0002, 0x0004, 0x0001, 0x0001, 0x0002, 0x0001, 0x0003, 0x0002, 0x0002,
-	0x0002, 0x0002, 0x0002, 0x0001, 0x0001, 0x0001, 0x0002, 0x0002, 0x0004, 0x0002, 0x0003, 0x0002, 0x0001, 0x0002,
-	0x0001, 0x0001, 0x0001, 0x0002, 0x0002, 0x0001, 0x0002, 0x0003, 0x0001, 0x0003, 0x0002, 0x0002, 0x0002, 0x0004,
-	0x0003, 0x0006, 0x0004, 0x0005, 0x001b, 0x0014, 0x0005, 0x0007, 0x001c, 0x0009, 0x0009, 0x0005, 0x0008, 0x0004,
-	0x0006, 0x0004, 0x0015, 0x0002, 0x0008, 0x0006, 0x0004, 0x0003, 0x0001, 0x0004, 0x001b, 0x0004, 0x000c, 0x0003,
-	0x0007, 0x0004, 0x001c, 0x0006, 0x000d, 0x0003, 0x000e, 0x0004, 0x000a, 0x0003, 0x0010, 0x0008, 0x0017, 0x0003,
-	0x0010, 0x0017, 0x0005, 0x0004, 0x000d, 0x000b, 0x0012, 0x0014, 0x0005, 0x0009, 0x000b, 0x000d, 0x0007, 0x0006,
-	0x0004, 0x0006, 0x0012, 0x000c, 0x0004, 0x000e, 0x000c, 0x000c, 0x000c, 0x0010, 0x0010, 0x001c, 0x000f, 0x0027,
-	0x000e, 0x000b, 0x0005, 0x0004, 0x0017, 0x0006, 0x000d, 0x0005, 0x0015, 0x0007, 0x0005, 0x0004, 0x0018, 0x0007,
-	0x0011, 0x0004, 0x0011, 0x0005, 0x0018, 0x0006, 0x0011, 0x0005, 0x000b, 0x0004, 0x001e, 0x0008, 0x0007, 0x0004,
-	0x0003, 0x0003, 0x0003, 0x0003, 0x0001, 0x0002, 0x0001, 0x0003, 0x0001, 0x0003, 0x0001, 0x0003, 0x0001, 0x0004,
-	0x46a8, 0x0016,
+pub static mut LBA_LEN_SECTORS: [*const u8; 2382 / 2] = [
+	ptr::addr_of!(LBA_IMPL_NONE_____BIN_MSAMTMAP_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USAMTMAP_BIN_ESAMTMAP_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSAMTMAP_BIN_ISAMTMAP_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSAMTMAP_BIN_SSAMTMAP_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSASKMAP_BIN_USASKMAP_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESASKMAP_BIN_FSASKMAP_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISASKMAP_BIN_DSASKMAP_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSASKMAP_BIN_MSCARDGM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USCARDGM_BIN_ESCARDGM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSCARDGM_BIN_ISCARDGM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSCARDGM_BIN_SSCARDGM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSCARDNM_BIN_USCARDNM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESCARDNM_BIN_FSCARDNM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISCARDNM_BIN_DSCARDNM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSCARDNM_BIN_MSCARDST_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USCARDST_BIN_ESCARDST_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSCARDST_BIN_ISCARDST_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSCARDST_BIN_SSCARDST_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSCRDABM_BIN_USCRDABM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESCRDABM_BIN_FSCRDABM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISCRDABM_BIN_DSCRDABM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSCRDABM_BIN_MSCRDDEK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USCRDDEK_BIN_ESCRDDEK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSCRDDEK_BIN_ISCRDDEK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSCRDDEK_BIN_SSCRDDEK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSCRDSHP_BIN_USCRDSHP_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESCRDSHP_BIN_FSCRDSHP_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISCRDSHP_BIN_DSCRDSHP_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSCRDSHP_BIN_MSDGLABO_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USDGLABO_BIN_ESDGLABO_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSDGLABO_BIN_ISDGLABO_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSDGLABO_BIN_SSDGLABO_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSDGNMET_BIN_USDGNMET_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESDGNMET_BIN_FSDGNMET_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISDGNMET_BIN_DSDGNMET_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSDGNMET_BIN_MSDIGINF_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USDIGINF_BIN_ESDIGINF_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSDIGINF_BIN_ISDIGINF_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSDIGINF_BIN_SSDIGINF_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSDIGNAM_BIN_USDIGNAM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESDIGNAM_BIN_FSDIGNAM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISDIGNAM_BIN_DSDIGNAM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSDIGNAM_BIN_MSFGTRPT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USFGTRPT_BIN_ESFGTRPT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSFGTRPT_BIN_ISFGTRPT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSFGTRPT_BIN_SSFGTRPT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSHTLNAM_BIN_USHTLNAM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESHTLNAM_BIN_FSHTLNAM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISHTLNAM_BIN_DSHTLNAM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSHTLNAM_BIN_MSITMINF_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USITMINF_BIN_ESITMINF_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSITMINF_BIN_ISITMINF_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSITMINF_BIN_SSITMINF_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSITMNAM_BIN_USITMNAM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESITMNAM_BIN_FSITMNAM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISITMNAM_BIN_DSITMNAM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSITMNAM_BIN_MSITSHOP_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USITSHOP_BIN_ESITSHOP_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSITSHOP_BIN_ISITSHOP_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSITSHOP_BIN_SSITSHOP_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSMEMCRD_BIN_USMEMCRD_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESMEMCRD_BIN_FSMEMCRD_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISMEMCRD_BIN_DSMEMCRD_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSMEMCRD_BIN_MSMFIGHT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USMFIGHT_BIN_ESMFIGHT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSMFIGHT_BIN_ISMFIGHT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSMFIGHT_BIN_SSMFIGHT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSNAMEDT_BIN_USNAMEDT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESNAMEDT_BIN_FSNAMEDT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISNAMEDT_BIN_DSNAMEDT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSNAMEDT_BIN_MSNAMEET_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USNAMEET_BIN_ESNAMEET_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSNAMEET_BIN_ISNAMEET_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSNAMEET_BIN_SSNAMEET_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSSHPNAM_BIN_USSHPNAM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESSHPNAM_BIN_FSSHPNAM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISSHPNAM_BIN_DSSHPNAM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSSHPNAM_BIN_MSSKLINF_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USSKLINF_BIN_ESSKLINF_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSSKLINF_BIN_ISSKLINF_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSSKLINF_BIN_SSSKLINF_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSSKLNAM_BIN_USSKLNAM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESSKLNAM_BIN_FSSKLNAM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISSKLNAM_BIN_DSSKLNAM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSSKLNAM_BIN_MSSTAREA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USSTAREA_BIN_ESSTAREA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSSTAREA_BIN_ISSTAREA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSSTAREA_BIN_SSSTAREA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSSTATUS_BIN_USSTATUS_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESSTATUS_BIN_FSSTATUS_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISSTATUS_BIN_DSSTATUS_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSSTATUS_BIN_MSSTNAME_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USSTNAME_BIN_ESSTNAME_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSSTNAME_BIN_ISSTNAME_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSSTNAME_BIN_SSSTNAME_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSSYSTEM_BIN_USSYSTEM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESSYSTEM_BIN_FSSYSTEM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISSYSTEM_BIN_DSSYSTEM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSSYSTEM_BIN_MSTALK00_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USTALK00_BIN_ESTALK00_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSTALK00_BIN_ISTALK00_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSTALK00_BIN_SSTALK00_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSTALK01_BIN_USTALK01_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESTALK01_BIN_FSTALK01_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISTALK01_BIN_DSTALK01_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSTALK01_BIN_MSTALK02_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USTALK02_BIN_ESTALK02_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSTALK02_BIN_ISTALK02_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSTALK02_BIN_SSTALK02_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSTALK03_BIN_USTALK03_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESTALK03_BIN_FSTALK03_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISTALK03_BIN_DSTALK03_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSTALK03_BIN_MSTALK04_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USTALK04_BIN_ESTALK04_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSTALK04_BIN_ISTALK04_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSTALK04_BIN_SSTALK04_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSTALK05_BIN_USTALK05_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESTALK05_BIN_FSTALK05_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISTALK05_BIN_DSTALK05_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSTALK05_BIN_MSTALK06_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USTALK06_BIN_ESTALK06_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSTALK06_BIN_ISTALK06_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSTALK06_BIN_SSTALK06_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSTALK07_BIN_USTALK07_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESTALK07_BIN_FSTALK07_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISTALK07_BIN_DSTALK07_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSTALK07_BIN_MSTALK08_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USTALK08_BIN_ESTALK08_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSTALK08_BIN_ISTALK08_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSTALK08_BIN_SSTALK08_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSTALK09_BIN_USTALK09_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESTALK09_BIN_FSTALK09_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISTALK09_BIN_DSTALK09_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSTALK09_BIN_MSTRAINI_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USTRAINI_BIN_ESTRAINI_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSTRAINI_BIN_ISTRAINI_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSTRAINI_BIN_SSTRAINI_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSDMG200_BIN_USDMG200_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESDMG200_BIN_FSDMG200_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISDMG200_BIN_DSDMG200_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSDMG200_BIN_MSDMG260_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USDMG260_BIN_ESDMG260_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSDMG260_BIN_ISDMG260_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSDMG260_BIN_SSDMG260_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSDMG270_BIN_USDMG270_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESDMG270_BIN_FSDMG270_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISDMG270_BIN_DSDMG270_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSDMG270_BIN_MSDMG300_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USDMG300_BIN_ESDMG300_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSDMG300_BIN_ISDMG300_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSDMG300_BIN_SSDMG300_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSDMG305_BIN_USDMG305_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESDMG305_BIN_FSDMG305_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISDMG305_BIN_DSDMG305_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSDMG305_BIN_MSDMG400_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USDMG400_BIN_ESDMG400_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSDMG400_BIN_ISDMG400_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSDMG400_BIN_SSDMG400_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSDMG500_BIN_USDMG500_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESDMG500_BIN_FSDMG500_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISDMG500_BIN_DSDMG500_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSDMG500_BIN_MSDMG600_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USDMG600_BIN_ESDMG600_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSDMG600_BIN_ISDMG600_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSDMG600_BIN_SSDMG600_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSDMG700_BIN_USDMG700_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESDMG700_BIN_FSDMG700_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISDMG700_BIN_DSDMG700_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSDMG700_BIN_MSDMG800_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_USDMG800_BIN_ESDMG800_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FSDMG800_BIN_ISDMG800_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_DSDMG800_BIN_SSDMG800_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MSDMG900_BIN_USDMG900_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ESDMG900_BIN_FSDMG900_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_ISDMG900_BIN_DSDMG900_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSDMG900_BIN_M039SCUM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FIELDCOM_BIN_CARDGAME_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STDGNAME_PRO_M115MUGE_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M366GIRU_BIN_CNTY_SEL_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_FIELDSTG_PRO_FIGHTSTG_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SHOCKTST_PRO_SOUNDTST_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPBATL00_BIN_MPBGM001_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPBGM002_BIN_MPBGM004_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPBGM005_BIN_MPBGM007_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPBGM009_BIN_MPBGM010_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPBGM025_BIN_MPCOMMON_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPENV001_BIN_MPENV005_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPENV010_BIN_MVBATL00_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVBGM001_BIN_MVBGM002_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVBGM004_BIN_MVBGM005_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVBGM007_BIN_MVBGM009_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVBGM010_BIN_MVBGM025_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVCOMMON_BIN_MVENV001_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVENV005_BIN_MVENV010_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STAGSLCT_PRO_STCRDABM_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P001PLAY_BIN_P002PLAY_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P003PKEN_BIN_P004KOGU_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P005KOET_BIN_P006AGUM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P007VMON_BIN_P008GIRU_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P009RENA_BIN_P010PATA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P011MINO_BIN_P013TAKU_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P044OPFS_BIN_P065JKSI_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P146OPFE_BIN_P147OPFW_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S200PACK_BIN_S200TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S205PACK_BIN_S205TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S210PACK_BIN_S210TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S220PACK_BIN_S220TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S225PACK_BIN_S225TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S230PACK_BIN_S230TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S235PACK_BIN_S235TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S240PACK_BIN_S240TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S245PACK_BIN_S245TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S250PACK_BIN_S250TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S255PACK_BIN_S255TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S260PACK_BIN_S260TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S270PACK_BIN_S270TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S275PACK_BIN_S275TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S280PACK_BIN_S280TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S330PACK_BIN_S330TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S335PACK_BIN_S335TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S350PACK_BIN_S350TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S355PACK_BIN_S355TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S370PACK_BIN_S370TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S375PACK_BIN_S375TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S435PACK_BIN_S435TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S465PACK_BIN_S465TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S780PACK_BIN_S780TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S785PACK_BIN_S785TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S790PACK_BIN_S790TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STCRDDEK_PRO_SFSTDATA_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SMDLDATA_PRO_M069FLAR_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STCRDSHP_PRO_SDIGIEDT_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STDWTITL_PRO_STFGTREP_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG200_PRO_WSTAG205_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG210_PRO_WSTAG220_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG225_PRO_WSTAG230_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG235_PRO_WSTAG240_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG245_PRO_WSTAG250_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG255_PRO_WSTAG260_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG270_PRO_WSTAG275_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG280_PRO_WSTAG330_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG335_PRO_WSTAG350_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG355_PRO_WSTAG370_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG375_PRO_WSTAG435_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG465_PRO_WSTAG780_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG785_PRO_WSTAG790_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STGDGLAB_PRO_WSTAG395_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STGMCARD_PRO_WSTAG360_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG430_PRO_WSTAG475_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STGTRAIN_PRO_M003AGUM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M010SEAD_BIN_M013MAME_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M126BRAK_BIN_M148IPDR_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M175KRSR_BIN_M176TDBL_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M213WGRE_BIN_M217PDEV_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M230GKWA_BIN_M236VVND_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M251APKR_BIN_M373RENA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M381IPDP_BIN_MPBGM030_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPENV011_BIN_MVBGM030_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVENV011_BIN_STITSHOP_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STPLNMET_PRO_STSTATUS_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WFIGHTMN_PRO_WFIGHTTS_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG201_PRO_WSTAG202_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG203_PRO_WSTAG206_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M145VMON_BIN_MPBGM003_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPBGM029_BIN_MVBGM003_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVBGM029_BIN_MPBGM020_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVBGM020_BIN_WSTAG470_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPBGM008_BIN_WSTAG211_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG212_PRO_MVBGM008_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S395PACK_BIN_S395TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG505_PRO_WSTAG365_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S360PACK_BIN_S360TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG555_PRO_S430PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S430TMPK_BIN_WSTAG520_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M076TANK_BIN_MPBGM011_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M196MGAR_BIN_MPBGM022_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPBOSS00_BIN_MPENV004_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPENV204_BIN_MVBGM011_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVBGM022_BIN_MVBOSS00_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVENV004_BIN_MVENV204_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG218_PRO_S475PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S475TMPK_BIN_S470PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG219_PRO_S470TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG425_PRO_MPBGM012_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVBGM012_BIN_S365PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S365TMPK_BIN_S505PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S505TMPK_BIN_WSTAG405_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG545_PRO_M259EXVM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M260STNG_BIN_MPBGM013_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVBGM013_BIN_S555PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S555TMPK_BIN_M384KOET_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPBGM014_BIN_MVBGM014_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M053NANI_BIN_M385KOGU_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S520PACK_BIN_S520TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S425PACK_BIN_WSTAG530_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG221_PRO_M031PATA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG226_PRO_WSTAG231_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG232_PRO_WSTAG233_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S425TMPK_BIN_M012MTGR_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S405PACK_BIN_S405TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M041GIRO_BIN_M254PLDR_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPBGM015_BIN_MVBGM015_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M150OMGM_BIN_CARDDATA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_TRANIN00_BIN_CARDPACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPBGM016_BIN_MVBGM016_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M014MONZ_BIN_M032KUNE_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M023YUKI_BIN_M034OGRE_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M037BAKE_BIN_M035SHEL_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M049SIRA_BIN_M050COCA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M051KUWA_BIN_M052MOJA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M110GECO_BIN_M004BETA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M006DEVI_BIN_M135DVDR_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG236_PRO_M367GRAW_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M132GIZA_BIN_MPBGM018_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVBGM018_BIN_S545PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S545TMPK_BIN_M203TRCR_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S530PACK_BIN_S530TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M026SKUL_BIN_MPBGM027_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVBGM027_BIN_M005GREY_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M122HAGU_BIN_WSTAG237_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_TRANIN02_BIN_TRANIN03_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_TRANIN04_BIN_TRANIN10_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_TRANIN14_BIN_TRANIN15_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_CMFONTCS_BIN_CMFONTTM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STDGNMCS_BIN_STDGNMTM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STNMETCS_BIN_STNMETTM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STTRNGCS_BIN_STTRNGTM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M134CYCL_BIN_M136TUSK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S256PACK_BIN_S256TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG256_PRO_S535PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S535TMPK_BIN_WSTAG535_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M138DELT_BIN_M008TYRA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPBGM017_BIN_MVBGM017_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M139RARE_BIN_WSTAG238_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M027MTMA_BIN_STMCRDCS_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STMCRDTM_BIN_M119TONO_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG241_PRO_M067YANM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M173MSHA_BIN_S320PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S320TMPK_BIN_WSTAG320_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M080GOBR_BIN_S710PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S710TMPK_BIN_WSTAG710_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M059HOUO_BIN_S290PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S290TMPK_BIN_WSTAG290_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M222WOOD_BIN_S560PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S560TMPK_BIN_WSTAG560_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M137FLYM_BIN_M234ANGW_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S285PACK_BIN_S285TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG285_PRO_S237PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S237TMPK_BIN_WSTAG246_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S380PACK_BIN_S380TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG380_PRO_WSTAG251_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG261_PRO_M028VEDA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M388GRIZ_BIN_M094ICEM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S240MASK_BIN_S205MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_CMNBGDCS_BIN_STDGLBCS_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STDGLBTM_BIN_WSTAG271_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPBGM019_BIN_MPBGM023_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPBGM024_BIN_MPBGM028_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVBGM019_BIN_MVBGM023_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVBGM024_BIN_MVBGM028_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M227GARB_BIN_S375MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S335MASK_BIN_M042ETEM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M211HANG_BIN_S470MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S220MASK_BIN_M065MTET_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S275MASK_BIN_M267BKWG_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M171GOKI_BIN_M197GANI_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M121JURE_BIN_M198KIWI_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPBGM031_BIN_MVBGM031_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M025VEGI_BIN_M108GOLE_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P027SMTH_BIN_P036AMDK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P020RDSZ_BIN_P019RDSY_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P021RDBK_BIN_P022RDGB_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P023RDET_BIN_P026RDNT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P024RDST_BIN_P025RDWT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P028WEDG_BIN_P030ASWT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P031ASFM_BIN_P029ASLR_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P032ASDK_BIN_P034AMWT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P033AMLR_BIN_P035AMFM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P037GRGO_BIN_P039TAIL_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P038WIZA_BIN_P040PIKO_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P012MINT_BIN_P014TAKT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P159NVMO_BIN_P158NAGU_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P160NGIR_BIN_P161NREN_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P162NPAT_BIN_M200BLSA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M124TIRS_BIN_M212MANM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_TRANIN11_BIN_TRANIN12_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_TRANIN16_BIN_P163JKST_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M202ANOM_BIN_M215SMAN_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M207HANU_BIN_M206BAKU_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P042LABO_BIN_P087TERS_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P088GABS_BIN_P089PYOS_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P071OLYF_BIN_P069OTKF_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P070FRTF_BIN_P068SARM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P066FRTM_BIN_P067OTKU_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P063FRDF_BIN_P064HSSM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P062FRDM_BIN_P047LEOM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P048GDAM_BIN_P045AMST_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P046AW00_BIN_P043OPMA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P041GRDR_BIN_S710MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S200MASK_BIN_S395MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S780MASK_BIN_S555MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S210MASK_BIN_S245MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S560MASK_BIN_S430MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S320MASK_BIN_P105KNGO_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S330MASK_BIN_WSTAG276_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG281_PRO_M208TOTA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S260MASK_BIN_S285MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S290MASK_BIN_S380MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S425MASK_BIN_S790MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M225DAGO_BIN_MPBGM021_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVBGM021_BIN_M391GRPL_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M210RUKA_BIN_S202MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S202PACK_BIN_S202TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG286_PRO_S218MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S218PACK_BIN_S218TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG291_PRO_S237MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M226OKWA_BIN_S310MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S310PACK_BIN_S310TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG310_PRO_S232MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S232PACK_BIN_S232TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG295_PRO_S305MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S305PACK_BIN_S305TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG305_PRO_S300MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S300PACK_BIN_S300TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG300_PRO_M359IPDF_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M229PUKU_BIN_P059AOAD_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P060AOAE_BIN_P057AOAB_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P055GMGD_BIN_P058AOAC_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P056AOAS_BIN_P053SHAK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P050FRDR_BIN_P054MGNA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P049TOGE_BIN_P051PANG_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPENV002_BIN_MPENV003_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVENV002_BIN_MVENV003_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S460PACK_BIN_S460TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG460_PRO_S480PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S480TMPK_BIN_WSTAG480_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M040ANDR_BIN_M223PHNT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG296_PRO_WSTAG301_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG306_PRO_WSTAG311_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M270VIKI_BIN_M193GRFO_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P084KETE_BIN_P085FLWR_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P083METE_BIN_P081NMEM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P082ETEM_BIN_P079SPIC_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P080BALM_BIN_P073GOBA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P074JIJI_BIN_P072GOZS_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P061AOAF_BIN_S440MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S440PACK_BIN_S440TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG440_PRO_MPENV006_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPENV007_BIN_MVENV006_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVENV007_BIN_M089FUGA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M060HKAB_BIN_P075BABA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P108PHAR_BIN_P109MTHI_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P106PONT_BIN_P098YASH_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P102SHUR_BIN_P090MGRM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P093HANM_BIN_P091PDRM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P092MGWM_BIN_S455MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S455PACK_BIN_S455TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG455_PRO_M220GESO_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M009MERA_BIN_M140MTRN_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S230MASK_BIN_S450MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S450PACK_BIN_S450TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG450_PRO_S410MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S410PACK_BIN_S410TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG410_PRO_M374KYBI_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S340MASK_BIN_S340PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S340TMPK_BIN_WSTAG340_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S345MASK_BIN_S345PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S345TMPK_BIN_WSTAG345_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG315_PRO_WSTAG316_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPENV008_BIN_MPENV009_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPENV012_BIN_MPENV013_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPENV014_BIN_MVENV008_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVENV009_BIN_MVENV012_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVENV013_BIN_MVENV014_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S485MASK_BIN_S485PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S485TMPK_BIN_WSTAG485_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M224MDEV_BIN_M221OCTA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M054MGDR_BIN_MPENV015_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPENV016_BIN_MPENV017_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVENV015_BIN_MVENV016_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVENV017_BIN_S525MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S525PACK_BIN_S525TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG525_PRO_S495MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S495PACK_BIN_S495TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG495_PRO_P002PLYD_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P002PLYF_BIN_P002PLYK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P002PLYL_BIN_S225MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S235MASK_BIN_S250MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S255MASK_BIN_S256MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S270MASK_BIN_S280MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S350MASK_BIN_S355MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S360MASK_BIN_S365MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S370MASK_BIN_S405MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S475MASK_BIN_S505MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S520MASK_BIN_S530MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S535MASK_BIN_S545MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S435MASK_BIN_S465MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S785MASK_BIN_P148SNAC_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P121BWGM_BIN_P122SBMM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P123DIGM_BIN_P118BSRM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P119BGWM_BIN_P117BIPD_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P115KNIG_BIN_P116BSGM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P113WARU_BIN_P114NANO_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P111ZANB_BIN_P112HAND_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPENV018_BIN_MPENV019_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPENV020_BIN_MPENV021_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPENV022_BIN_MPENV023_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVENV018_BIN_MVENV019_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVENV020_BIN_MVENV021_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVENV022_BIN_MVENV023_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P126ITMB_BIN_S490MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S490PACK_BIN_S490TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG490_PRO_P157OPFT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STSHOPCS_BIN_STSHOPTM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STSTATCS_BIN_STSTATTM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG321_PRO_WSTAG325_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S400MASK_BIN_S400PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S400TMPK_BIN_WSTAG400_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S500MASK_BIN_S500PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S500TMPK_BIN_WSTAG500_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M189DTMR_BIN_P107SEAM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P156BOOM_BIN_P103DPTM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P099SZIM_BIN_P104KABM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P100SHDM_BIN_P101NHEM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P095KKIM_BIN_P097ASTM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P077HASM_BIN_P086AIRD_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P052ASHM_BIN_M104BLMR_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M020ANGE_BIN_M237CHMR_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M383PKEN_BIN_M151DBLM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S570PACK_BIN_S570MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S570TMPK_BIN_WSTAG570_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P076HANM_BIN_M369DUKE_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M395KUW2_BIN_M398GOB2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M281TIRO_BIN_M402TRC2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P096GREM_BIN_P094TAOM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M405COC2_BIN_M409MAN2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M418RAR2_BIN_M419CYC2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S301MASK_BIN_S301PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S301TMPK_BIN_WSTAG326_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPBGM026_BIN_MPENV024_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVBGM026_BIN_MVENV024_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M410VED2_BIN_M404PHN2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M406TOT2_BIN_M424BLS2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_TRANIN01_BIN_TRANIN13_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M396YAN2_BIN_M422KRS2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M421MSH2_BIN_M376SKYA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M400FLY2_BIN_M401WOO2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M425JUR2_BIN_M407TON2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M433ANO2_BIN_M431VIK2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M449MTG9_BIN_M456GRP9_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG331_PRO_M450PLD9_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M452HAN9_BIN_M368MGRW_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M214SRPH_BIN_M390ASLT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M231PINO_BIN_M420TAN2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M448BKW9_BIN_PGFGTC00_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_PGFGTW00_BIN_M444IPD2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M375TAOM_BIN_M070WARU_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M447SRP2_BIN_MPCBTL00_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVCBTL00_BIN_M451MGR9_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M445MGR2_BIN_S460MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG336_PRO_WSTAG341_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG346_PRO_WSTAG351_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M453TAO9_BIN_M455ASL9_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M011NUME_BIN_M228PIEM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M312DETH_BIN_M177LDDV_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M024HOEE_BIN_M061MGSD_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S550MASK_BIN_S550PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S550TMPK_BIN_WSTAG550_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPBATL10_BIN_MPBOSS01_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVBATL10_BIN_MVBOSS01_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG356_PRO_M413NUM2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M414NUM3_BIN_M415NUM4_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M416NUM5_BIN_M417NUM6_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M387PIRT_BIN_M056DIGI_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M066VAND_BIN_M204MSDR_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG361_PRO_S575MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S575PACK_BIN_S575TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG575_PRO_S605MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S605PACK_BIN_S605TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG605_PRO_S620MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S620PACK_BIN_S620TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S625MASK_BIN_S625PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S625TMPK_BIN_WSTAG620_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG625_PRO_M408SEA2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M427MGS2_BIN_M432MSD2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S630MASK_BIN_S630PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S630TMPK_BIN_WSTAG630_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S655PACK_BIN_S655TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S655MASK_BIN_WSTAG655_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S635MASK_BIN_S635PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S635TMPK_BIN_WSTAG635_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S640MASK_BIN_S640PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S640TMPK_BIN_WSTAG640_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S211MASK_BIN_S211PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S211TMPK_BIN_WSTAG366_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S645MASK_BIN_S645PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S645TMPK_BIN_WSTAG645_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S206MASK_BIN_S206PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S206TMPK_BIN_WSTAG371_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S675MASK_BIN_S675PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S675TMPK_BIN_WSTAG675_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S231MASK_BIN_S231PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S231TMPK_BIN_WSTAG376_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S226MASK_BIN_S226PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S226TMPK_BIN_WSTAG381_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S610PACK_BIN_M007AIRD_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M426HOE2_BIN_M019KABU_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M394MARS_BIN_S610MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S610TMPK_BIN_WSTAG610_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S685MASK_BIN_S685PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S685TMPK_BIN_S660MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S660PACK_BIN_S660TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG660_PRO_WSTAG685_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPCONFUS_BIN_MVCONFUS_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S212MASK_BIN_S212PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S212TMPK_BIN_WSTAG385_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S238MASK_BIN_S238PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S238TMPK_BIN_WSTAG386_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG396_PRO_M141NANO_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S236MASK_BIN_S236PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S236TMPK_BIN_WSTAG401_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S233MASK_BIN_S233PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S233TMPK_BIN_WSTAG406_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S221MASK_BIN_S221PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S221TMPK_BIN_WSTAG411_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S251MASK_BIN_S251PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S251TMPK_BIN_S246MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S246PACK_BIN_S246TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S241MASK_BIN_S241PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S241TMPK_BIN_WSTAG415_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG420_PRO_WSTAG421_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M403AIR2_BIN_M273QTRU_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P015LUMO_BIN_P018MGCO_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P017ASGM_BIN_P120BNMM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P078HGMK_BIN_P152KEIT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P171BAGM_BIN_S385MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S385TMPK_BIN_WSTAG426_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M165EBDR_BIN_S291MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S291PACK_BIN_S291TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG431_PRO_S600MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S600PACK_BIN_S600TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG600_PRO_S585MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S585PACK_BIN_S585TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S595MASK_BIN_S595PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S595TMPK_BIN_S590MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S590PACK_BIN_S590TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG585_PRO_WSTAG590_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG595_PRO_S445MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S445PACK_BIN_S445TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG445_PRO_S385PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG436_PRO_S281MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S281PACK_BIN_S281TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG441_PRO_S565MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S565PACK_BIN_S565TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG565_PRO_S286MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S286PACK_BIN_S286TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG446_PRO_S201PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S201TMPK_BIN_S201MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG451_PRO_S261MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S261PACK_BIN_S261TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG456_PRO_S203MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S203PACK_BIN_S203TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG466_PRO_S276MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S276PACK_BIN_S276TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG471_PRO_S219MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S219PACK_BIN_S219TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG476_PRO_M170IVRU_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M038DORI_BIN_M143CLOK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S326MASK_BIN_S326PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S326TMPK_BIN_S311MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S311PACK_BIN_S311TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S321MASK_BIN_S321PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S321TMPK_BIN_S296MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S296PACK_BIN_S296TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S306MASK_BIN_S306PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S306TMPK_BIN_WSTAG481_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG486_PRO_WSTAG491_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG496_PRO_WSTAG501_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S650MASK_BIN_S650PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S650TMPK_BIN_WSTAG650_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG506_PRO_P150LISA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S537MASK_BIN_S537PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S537TMPK_BIN_WSTAG537_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M386DINO_BIN_M166DKGM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M172MTAR_BIN_M429IVR2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M428EBD2_BIN_S615MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S615PACK_BIN_S615TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG615_PRO_MPBOSS02_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVBOSS02_BIN_M399MTA2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M397DKG2_BIN_M430DOR2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M190BOLT_BIN_M077REDV_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M269VALK_BIN_S331MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S331PACK_BIN_S331TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG521_PRO_S316MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S316PACK_BIN_S316TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG526_PRO_S336MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S336PACK_BIN_S336TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG531_PRO_S341MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S341PACK_BIN_S341TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG538_PRO_S346MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S346PACK_BIN_S346TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG540_PRO_S471MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S471PACK_BIN_S471TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG551_PRO_S381MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S381PACK_BIN_S381TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG556_PRO_S366MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S366PACK_BIN_S366TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG561_PRO_S376MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S376PACK_BIN_S376TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG566_PRO_S386MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S386PACK_BIN_S386TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG571_PRO_S396MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S396PACK_BIN_S396TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG576_PRO_S361MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S361PACK_BIN_S361TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG580_PRO_WSTAG581_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S401MASK_BIN_S401PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S401TMPK_BIN_WSTAG586_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S431MASK_BIN_S431PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S431TMPK_BIN_WSTAG591_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S426MASK_BIN_S426PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S426TMPK_BIN_WSTAG596_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S446MASK_BIN_S446PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S446TMPK_BIN_WSTAG601_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S436MASK_BIN_S436PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S436TMPK_BIN_WSTAG606_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S411MASK_BIN_S411PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S411TMPK_BIN_WSTAG611_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S466MASK_BIN_S466PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S466TMPK_BIN_WSTAG616_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S496MASK_BIN_S496PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S496TMPK_BIN_WSTAG621_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S491MASK_BIN_S491PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S491TMPK_BIN_WSTAG631_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S486MASK_BIN_S486PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S486TMPK_BIN_WSTAG636_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S506MASK_BIN_S506PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S506TMPK_BIN_WSTAG641_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S501MASK_BIN_S501PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S501TMPK_BIN_WSTAG646_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S521MASK_BIN_S521PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S521TMPK_BIN_WSTAG651_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S538MASK_BIN_S538PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S538TMPK_BIN_WSTAG656_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S551MASK_BIN_S551PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S551TMPK_BIN_WSTAG661_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S561MASK_BIN_S561PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S561TMPK_BIN_WSTAG676_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S571MASK_BIN_S571PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S571TMPK_BIN_WSTAG680_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S576MASK_BIN_S576PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S576TMPK_BIN_WSTAG686_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG690_PRO_S556MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S556PACK_BIN_S556TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG691_PRO_S591MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S591PACK_BIN_S591TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG695_PRO_S586MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S586PACK_BIN_S586TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG696_PRO_S601MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S601PACK_BIN_S601TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG700_PRO_S596MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S596PACK_BIN_S596TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG701_PRO_S451MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S451PACK_BIN_S451TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG705_PRO_S481MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S481PACK_BIN_S481TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG706_PRO_S686MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S686PACK_BIN_S686TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG711_PRO_S696MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S696PACK_BIN_S696TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG715_PRO_STALBMCS_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STALBMTM_BIN_WSTAG716_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG720_PRO_M178KNGT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M377BLZB_BIN_M327RUNX_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M337ZAMB_BIN_S295MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S295PACK_BIN_S295TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG721_PRO_S606MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S606PACK_BIN_S606TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG725_PRO_S621MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S621PACK_BIN_S621TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG726_PRO_S611MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S611PACK_BIN_S611TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG730_PRO_S631MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S631PACK_BIN_S631TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG731_PRO_S616MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S616PACK_BIN_S616TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG735_PRO_S656MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S656PACK_BIN_S656TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S691MASK_BIN_S646MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S646PACK_BIN_S646TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S691PACK_BIN_S651MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S651PACK_BIN_S651TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S691TMPK_BIN_S641MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S641PACK_BIN_S641TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG736_PRO_S636MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S636PACK_BIN_S636TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S480MASK_BIN_MPENV025_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVENV025_BIN_S680MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S680PACK_BIN_S680TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STCDSPCS_BIN_S690MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S690PACK_BIN_S690TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STCDSPTM_BIN_S700MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S700PACK_BIN_S700TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M382ARMG_BIN_S705MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S705PACK_BIN_S705TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M272SHDR_BIN_P151NICK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P167SAGM_BIN_P169NSPM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P168PAGM_BIN_M247DEMN_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M365ARCH_BIN_M437BAST_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M372SGRG_BIN_WSTAG740_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG741_PRO_WSTAG745_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG746_PRO_WSTAG750_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG755_PRO_WSTAG756_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG760_PRO_WSTAG761_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S711MASK_BIN_S711PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S711TMPK_BIN_WSTAG795_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S676MASK_BIN_S676PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S676TMPK_BIN_WSTAG800_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S661MASK_BIN_S661PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S661TMPK_BIN_WSTAG805_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S701MASK_BIN_S701PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S701TMPK_BIN_WSTAG810_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S720MASK_BIN_S720PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S720TMPK_BIN_WSTAG815_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S805MASK_BIN_S805PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S805TMPK_BIN_WSTAG820_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S721MASK_BIN_S721PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S721TMPK_BIN_WSTAG825_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S730MASK_BIN_S730PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S730TMPK_BIN_WSTAG830_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M436VALV_BIN_M443SGR2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S716MASK_BIN_S716PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S716TMPK_BIN_WSTAG835_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S706MASK_BIN_S706PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S706TMPK_BIN_WSTAG840_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S726MASK_BIN_S726PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S726TMPK_BIN_WSTAG845_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S875MASK_BIN_S875PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S875TMPK_BIN_WSTAG875_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S880MASK_BIN_S880PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S880TMPK_BIN_S885MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S885PACK_BIN_S885TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S890MASK_BIN_S890PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S890TMPK_BIN_S895MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S895PACK_BIN_S895TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG880_PRO_WSTAG885_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG890_PRO_WSTAG895_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S825MASK_BIN_S825PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S825TMPK_BIN_WSTAG850_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S725MASK_BIN_S725PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S725TMPK_BIN_WSTAG855_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S351MASK_BIN_S351PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S351TMPK_BIN_WSTAG860_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S356MASK_BIN_S356PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S356TMPK_BIN_WSTAG865_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S865MASK_BIN_S865PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S865TMPK_BIN_WSTAG870_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S870MASK_BIN_S870PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S870TMPK_BIN_M441RAIZ_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S526MASK_BIN_S526PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S526TMPK_BIN_S735MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S735PACK_BIN_S735TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S371MASK_BIN_S371PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S371TMPK_BIN_S750MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S750PACK_BIN_S750TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S566MASK_BIN_S566PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S566TMPK_BIN_S731MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S731PACK_BIN_S731TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S736MASK_BIN_S736PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S736TMPK_BIN_M144ROSE_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M334MLDR_BIN_S746MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S746PACK_BIN_S746TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S755MASK_BIN_S755PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S755TMPK_BIN_S756MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S756PACK_BIN_S756TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S761MASK_BIN_S761PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S761TMPK_BIN_E059HOUO_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1016_BIN_S740MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S740PACK_BIN_S740TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1021_BIN_S850MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S850PACK_BIN_S850TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1022_BIN_S835MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S835PACK_BIN_S835TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M378BVND_BIN_S456MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S456PACK_BIN_S456TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S745MASK_BIN_S810MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S810PACK_BIN_S810TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S745TMPK_BIN_S855MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S855PACK_BIN_S855TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S795MASK_BIN_S860MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S860PACK_BIN_S860TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S795TMPK_BIN_S540MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S540PACK_BIN_S540TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S800MASK_BIN_S441MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S441PACK_BIN_S441TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S800TMPK_BIN_S830MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S830PACK_BIN_S830TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M238SNAI_BIN_S845MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S845PACK_BIN_S845TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M241HNGY_BIN_S271MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S271PACK_BIN_S271TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1001_BIN_S476MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S476PACK_BIN_S476TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1002_BIN_M244SKST_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S745PACK_BIN_M245INFR_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1003_BIN_S820MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S820PACK_BIN_S820TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1004_BIN_S760MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S760PACK_BIN_S760TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1005_BIN_M250KGET_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M364MUMY_BIN_M465SNAT_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M277BARO_BIN_M439FUJI_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M302GAGO_BIN_S795PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M356HAND_BIN_MEFT1006_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M358PHAR_BIN_S800PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M360ANTR_BIN_MEFT1007_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M389KYKI_BIN_M411MLD2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M392SLAG_BIN_M440SIJN_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M393CNND_BIN_M438RIDN_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M412GAR2_BIN_M434ANT2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPEVO_00_BIN_MPJOG_00_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVEVO_00_BIN_MVJOG_00_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S715MASK_BIN_S715PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S715TMPK_BIN_MEFT1008_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M466RGN2_BIN_M423SNA2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M435GAR3_BIN_WSTAG920_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P165SAGD_BIN_P166PAGD_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P016RDMD_BIN_P173KBOY_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P170GOMA_BIN_M442RGN1_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S406MASK_BIN_S406PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S406TMPK_BIN_MEFT1009_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S315MASK_BIN_S315PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S315TMPK_BIN_S840MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S840PACK_BIN_S840TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S531MASK_BIN_S531PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S531TMPK_BIN_S741MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S741PACK_BIN_S741TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1010_BIN_MEFT1011_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1012_BIN_MEFT1013_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M446BKNM_BIN_M454KYK9_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M457CDC1_BIN_M458CDC2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0093_BIN_M459CDU1_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0094_BIN_MEFT1014_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S415TMPK_BIN_S415MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1015_BIN_M460CDU2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M461CDR1_BIN_S325MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S325PACK_BIN_S325TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M462CDR2_BIN_M463CDS1_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M464CDS2_BIN_S415BG01_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S415BG02_BIN_M467RGN3_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S695MASK_BIN_S695PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S695TMPK_BIN_MEFT0065_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_NAMEDTCS_BIN_NAMEDTTM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0095_BIN_E369DUKE_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S815MASK_BIN_S815BG01_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S815TMPK_BIN_MEFT1017_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S581MASK_BIN_S581PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S581TMPK_BIN_MEFT1018_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1055_BIN_MEFT0088_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S580MASK_BIN_S580PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S580TMPK_BIN_MEFT1019_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S420MASK_BIN_S420PACK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S420TMPK_BIN_S421MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S421PACK_BIN_S421TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1020_BIN_E020ANGE_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_E367GRAW_BIN_E006DEVI_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_E144ROSE_BIN_E230GKWA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_E234ANGW_BIN_E259EXVM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_E386DINO_BIN_MEFT1023_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P178NBEA_BIN_P179NKOE_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P180NKOT_BIN_P153DGTM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P154DGTB_BIN_MEFT1024_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1025_BIN_STWMP0CS_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STWMP0TM_BIN_STWMP1CS_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STWMP1TM_BIN_E000COM1_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_F000COM1_BIN_STFRPTCS_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_STFRPTTM_BIN_MPENV205_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVENV205_BIN_E000COM2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_CARD_NPC_BIN_E211HANG_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M468AGNM_BIN_P149SNCM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P181SSPM_BIN_P175SPMM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P174PIYO_BIN_MEFT1026_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPBOSS03_BIN_P172FJJI_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_F000COM2_BIN_MEFT1027_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1028_BIN_MEFT1029_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1030_BIN_MEFT1031_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1032_BIN_MEFT1033_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1034_BIN_MEFT1035_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1036_BIN_MEFT1037_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1038_BIN_MEFT1039_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1040_BIN_MEFT1041_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1042_BIN_MEFT1043_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1044_BIN_MEFT1045_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1046_BIN_MEFT1047_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1048_BIN_MEFT1049_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1050_BIN_MPBOSS04_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M469GARM_BIN_MEFT1051_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVBOSS03_BIN_MVBOSS04_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT1052_BIN_MEFT1053_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_M470AGRY_BIN_MEFT0221_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P124SATE_BIN_P127SEID_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P128TISD_BIN_P182BOMP_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P183BOMB_BIN_P184CBEM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P185BEMG_BIN_P186BEMP_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0087_BIN_MEFT0108_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0109_BIN_E145VMON_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_E260STNG_BIN_E374KYBI_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_E375TAOM_BIN_E383PKEN_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_E000COM3_BIN_F000COM3_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_E000COM4_BIN_F000COM4_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0096_BIN_E056DIGI_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_E066VAND_BIN_E150OMGM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_E373RENA_BIN_E377BLZB_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MOVIED01_STR_MOVIED03_STR_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MOVIED04_STR_MOVIED05_STR_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MOVIED06_STR_MOVIED07_STR_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MOVIED08_STR_MEFT1054_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MOVIED02_STR_MOVIEE01_STR_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MOVIEOPN_STR_E000JOGL_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_CARDPAK0_BIN_CARDPAK1_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_CARDPAK2_BIN_CARDPAK3_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_CARDPAK4_BIN_MEFT0089_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0101_BIN_MEFT0102_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0103_BIN_MEFT0106_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0107_BIN_E381IPDP_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_E389KYKI_BIN_E385KOGU_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0097_BIN_E388GRIZ_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0098_BIN_MEFT0090_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0091_BIN_MEFT0092_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0099_BIN_MEFT0100_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0113_BIN_MEFT0039_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_E014MONZ_BIN_E004BETA_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_E438RIDN_BIN_E110GECO_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_E193GRFO_BIN_E302GAGO_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0066_BIN_P187STRI_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MOVIEE04_STR_MOVIEE03_STR_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_E364MUMY_BIN_E229PUKU_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_E439FUJI_BIN_E365ARCH_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_E037BAKE_BIN_E135DVDR_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0201_BIN_MEFT0202_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0203_BIN_MEFT0204_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0205_BIN_MEFT0206_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0207_BIN_MEFT0208_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0209_BIN_MEFT0210_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0211_BIN_MEFT0212_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0213_BIN_MEFT0214_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0215_BIN_MEFT0216_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0217_BIN_MEFT0218_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0219_BIN_MEFT0220_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0222_BIN_MEFT0223_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0224_BIN_MEFT0225_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0226_BIN_MPENV206_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MVENV206_BIN_P188BLOK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0085_BIN_MEFT0086_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0301_BIN_E372SGRG_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0302_BIN_MEFT0303_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0306_BIN_MEFT0307_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0308_BIN_MEFT0309_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0375_BIN_MEFT0310_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0311_BIN_MEFT0312_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0313_BIN_MEFT0314_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0315_BIN_MEFT0316_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0317_BIN_MEFT0318_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0319_BIN_MEFT0320_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0321_BIN_MEFT0322_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0323_BIN_MEFT0324_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0325_BIN_MEFT0326_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0327_BIN_MEFT0328_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0329_BIN_MEFT0330_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0331_BIN_MEFT0332_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0333_BIN_MEFT0334_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0335_BIN_MEFT0336_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0337_BIN_MEFT0338_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0339_BIN_MEFT0340_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0341_BIN_MEFT0342_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0343_BIN_MEFT0344_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0345_BIN_MEFT0346_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0347_BIN_MEFT0348_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0349_BIN_MEFT0350_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0351_BIN_MEFT0352_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0353_BIN_MEFT0354_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0355_BIN_MEFT0356_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0357_BIN_MEFT0358_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0359_BIN_MEFT0360_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0361_BIN_MEFT0362_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0363_BIN_MEFT0364_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0365_BIN_MEFT0366_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0367_BIN_MEFT0368_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0369_BIN_MEFT0370_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0371_BIN_MEFT0372_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0374_BIN_MEFT0114_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_TLOGOJPN_BIN_TTCOMMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_E433ANO2_BIN_E430DOR2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_E431VIK2_BIN_E434ANT2_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_SSUBDEMO_BIN_SDIGDEMO_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0115_BIN_MEFT0116_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_E390ASLT_BIN_P189PKEL_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P190KOGL_BIN_P191KOEL_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P192AGUL_BIN_P194GIRL_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P195RENL_BIN_P196PATL_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S815BG02_BIN_P193VMOL_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MPTTLBGM_BIN_MVTTLBGM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P197BLXE_BIN_E245INFR_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MEFT0377_BIN_MEFT0378_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_P198ADME_BIN_MEFT0376_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_E000EVOL_BIN_CNTSELWN_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_TLOGOUSA_BIN_MOVIEE02_STR_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_END__ALL_BIN_CMNBGDTM_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S920MASK_BIN_WSTAG921_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S920TMPK_BIN_WSTAG922_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG923_PRO_WSTAG924_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG925_PRO_WSTAG926_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG927_PRO_WSTAG928_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG929_PRO_WSTAG930_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG931_PRO_WSTAG932_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG933_PRO_WSTAG934_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG935_PRO_WSTAG936_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG937_PRO_WSTAG938_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG939_PRO_WSTAG940_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG941_PRO_WSTAG942_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG943_PRO_WSTAG944_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG945_PRO_WSTAG946_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG947_PRO_WSTAG948_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG949_PRO_WSTAG950_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG951_PRO_WSTAG952_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG953_PRO_WSTAG954_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG955_PRO_WSTAG956_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG957_PRO_WSTAG958_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG959_PRO_WSTAG960_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG961_PRO_WSTAG962_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG963_PRO_WSTAG964_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG965_PRO_WSTAG966_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG967_PRO_WSTAG968_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG969_PRO_WSTAG970_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG971_PRO_WSTAG972_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_WSTAG973_PRO_WSTAG974_PRO_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S923MASK_BIN_S921MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S923TMPK_BIN_S921TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S922MASK_BIN_S924MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S922TMPK_BIN_S924TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S925MASK_BIN_S925TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S926MASK_BIN_S926TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S927MASK_BIN_S927TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S928MASK_BIN_S928TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S929MASK_BIN_S929TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S930MASK_BIN_S930TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S931MASK_BIN_S931TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S932MASK_BIN_S932TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S933MASK_BIN_S933TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S934MASK_BIN_S934TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S935MASK_BIN_S935TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S936MASK_BIN_S936TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S937MASK_BIN_S937TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S938MASK_BIN_S938TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S939MASK_BIN_S939TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S940MASK_BIN_S940TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S941MASK_BIN_S941TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S942MASK_BIN_S942TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S943MASK_BIN_S943TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S944MASK_BIN_S944TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S945MASK_BIN_S945TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S946MASK_BIN_S946TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S947TMPK_BIN_S947MASK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S948MASK_BIN_S948TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S949MASK_BIN_S949TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S950MASK_BIN_S950TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S951MASK_BIN_S951TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S952MASK_BIN_S952TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S953MASK_BIN_S953TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S954MASK_BIN_S954TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S955MASK_BIN_S955TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S956MASK_BIN_S956TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S957MASK_BIN_S957TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S958MASK_BIN_S958TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S959MASK_BIN_S959TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S960MASK_BIN_S960TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S961MASK_BIN_S961TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S962MASK_BIN_S962TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S963MASK_BIN_S963TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S964MASK_BIN_S964TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S965MASK_BIN_S965TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S966MASK_BIN_S966TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S967MASK_BIN_S967TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S968MASK_BIN_S968TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S969MASK_BIN_S969TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S970MASK_BIN_S970TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S971MASK_BIN_S971TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S972MASK_BIN_S972TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S973MASK_BIN_S973TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_S974MASK_BIN_S974TMPK_BIN_LEN_SECTORS),
+	ptr::addr_of!(LBA_IMPL_MOVIEOP2_STR_TLOGOPAL_BIN_LEN_SECTORS),
 ];
 
 // LBAs
 extern "C" {
-	static mut LBA_SYSTEM_CNF_IMPL: u8; // 23
-	static mut LBA_SLES_039_36_IMPL: u8; // 24
-	static mut LBA_DUMMY_IMPL: u8; // 276901
-	static mut LBA_CARDGAME_PRO_IMPL: u8; // 486
-	static mut LBA_CNTY_SEL_PRO_IMPL: u8; // 557
-	static mut LBA_FIELDSTG_PRO_IMPL: u8; // 560
-	static mut LBA_FIGHTSTG_PRO_IMPL: u8; // 610
-	static mut LBA_SDIGIEDT_PRO_IMPL: u8; // 678
-	static mut LBA_SFSTDATA_PRO_IMPL: u8; // 685
-	static mut LBA_SHOCKTST_PRO_IMPL: u8; // 688
-	static mut LBA_SMDLDATA_PRO_IMPL: u8; // 692
-	static mut LBA_SOUNDTST_PRO_IMPL: u8; // 709
-	static mut LBA_STAGSLCT_PRO_IMPL: u8; // 715
-	static mut LBA_STCRDABM_PRO_IMPL: u8; // 724
-	static mut LBA_STCRDDEK_PRO_IMPL: u8; // 730
-	static mut LBA_STCRDSHP_PRO_IMPL: u8; // 748
-	static mut LBA_STDGNAME_PRO_IMPL: u8; // 769
-	static mut LBA_STDWTITL_PRO_IMPL: u8; // 782
-	static mut LBA_STFGTREP_PRO_IMPL: u8; // 795
-	static mut LBA_STGDGLAB_PRO_IMPL: u8; // 808
-	static mut LBA_STGMCARD_PRO_IMPL: u8; // 835
-	static mut LBA_STGTRAIN_PRO_IMPL: u8; // 847
-	static mut LBA_STITSHOP_PRO_IMPL: u8; // 868
-	static mut LBA_STPLNMET_PRO_IMPL: u8; // 889
-	static mut LBA_STSTATUS_PRO_IMPL: u8; // 903
-	static mut LBA_WFIGHTMN_PRO_IMPL: u8; // 953
-	static mut LBA_WFIGHTTS_PRO_IMPL: u8; // 964
-	static mut LBA_WSTAG200_PRO_IMPL: u8; // 972
-	static mut LBA_WSTAG201_PRO_IMPL: u8; // 977
-	static mut LBA_WSTAG202_PRO_IMPL: u8; // 980
-	static mut LBA_WSTAG203_PRO_IMPL: u8; // 985
-	static mut LBA_WSTAG205_PRO_IMPL: u8; // 987
-	static mut LBA_WSTAG206_PRO_IMPL: u8; // 991
-	static mut LBA_WSTAG210_PRO_IMPL: u8; // 994
-	static mut LBA_WSTAG211_PRO_IMPL: u8; // 1003
-	static mut LBA_WSTAG212_PRO_IMPL: u8; // 1006
-	static mut LBA_WSTAG218_PRO_IMPL: u8; // 1013
-	static mut LBA_WSTAG219_PRO_IMPL: u8; // 1015
-	static mut LBA_WSTAG220_PRO_IMPL: u8; // 1016
-	static mut LBA_WSTAG221_PRO_IMPL: u8; // 1021
-	static mut LBA_WSTAG225_PRO_IMPL: u8; // 1023
-	static mut LBA_WSTAG226_PRO_IMPL: u8; // 1025
-	static mut LBA_WSTAG230_PRO_IMPL: u8; // 1027
-	static mut LBA_WSTAG231_PRO_IMPL: u8; // 1029
-	static mut LBA_WSTAG232_PRO_IMPL: u8; // 1030
-	static mut LBA_WSTAG233_PRO_IMPL: u8; // 1032
-	static mut LBA_WSTAG235_PRO_IMPL: u8; // 1034
-	static mut LBA_WSTAG236_PRO_IMPL: u8; // 1036
-	static mut LBA_WSTAG237_PRO_IMPL: u8; // 1037
-	static mut LBA_WSTAG238_PRO_IMPL: u8; // 1038
-	static mut LBA_WSTAG240_PRO_IMPL: u8; // 1039
-	static mut LBA_WSTAG241_PRO_IMPL: u8; // 1040
-	static mut LBA_WSTAG245_PRO_IMPL: u8; // 1041
-	static mut LBA_WSTAG246_PRO_IMPL: u8; // 1046
-	static mut LBA_WSTAG250_PRO_IMPL: u8; // 1047
-	static mut LBA_WSTAG251_PRO_IMPL: u8; // 1049
-	static mut LBA_WSTAG255_PRO_IMPL: u8; // 1050
-	static mut LBA_WSTAG256_PRO_IMPL: u8; // 1052
-	static mut LBA_WSTAG260_PRO_IMPL: u8; // 1054
-	static mut LBA_WSTAG261_PRO_IMPL: u8; // 1063
-	static mut LBA_WSTAG270_PRO_IMPL: u8; // 1065
-	static mut LBA_WSTAG271_PRO_IMPL: u8; // 1071
-	static mut LBA_WSTAG275_PRO_IMPL: u8; // 1073
-	static mut LBA_WSTAG276_PRO_IMPL: u8; // 1074
-	static mut LBA_WSTAG280_PRO_IMPL: u8; // 1075
-	static mut LBA_WSTAG281_PRO_IMPL: u8; // 1079
-	static mut LBA_WSTAG285_PRO_IMPL: u8; // 1081
-	static mut LBA_WSTAG286_PRO_IMPL: u8; // 1083
-	static mut LBA_WSTAG290_PRO_IMPL: u8; // 1085
-	static mut LBA_WSTAG291_PRO_IMPL: u8; // 1087
-	static mut LBA_WSTAG295_PRO_IMPL: u8; // 1089
-	static mut LBA_WSTAG296_PRO_IMPL: u8; // 1091
-	static mut LBA_WSTAG300_PRO_IMPL: u8; // 1092
-	static mut LBA_WSTAG301_PRO_IMPL: u8; // 1095
-	static mut LBA_WSTAG305_PRO_IMPL: u8; // 1097
-	static mut LBA_WSTAG306_PRO_IMPL: u8; // 1105
-	static mut LBA_WSTAG310_PRO_IMPL: u8; // 1107
-	static mut LBA_WSTAG311_PRO_IMPL: u8; // 1113
-	static mut LBA_WSTAG315_PRO_IMPL: u8; // 1119
-	static mut LBA_WSTAG316_PRO_IMPL: u8; // 1121
-	static mut LBA_WSTAG320_PRO_IMPL: u8; // 1123
-	static mut LBA_WSTAG321_PRO_IMPL: u8; // 1126
-	static mut LBA_WSTAG325_PRO_IMPL: u8; // 1128
-	static mut LBA_WSTAG326_PRO_IMPL: u8; // 1130
-	static mut LBA_WSTAG330_PRO_IMPL: u8; // 1132
-	static mut LBA_WSTAG331_PRO_IMPL: u8; // 1137
-	static mut LBA_WSTAG335_PRO_IMPL: u8; // 1141
-	static mut LBA_WSTAG336_PRO_IMPL: u8; // 1144
-	static mut LBA_WSTAG340_PRO_IMPL: u8; // 1146
-	static mut LBA_WSTAG341_PRO_IMPL: u8; // 1148
-	static mut LBA_WSTAG345_PRO_IMPL: u8; // 1150
-	static mut LBA_WSTAG346_PRO_IMPL: u8; // 1153
-	static mut LBA_WSTAG350_PRO_IMPL: u8; // 1155
-	static mut LBA_WSTAG351_PRO_IMPL: u8; // 1158
-	static mut LBA_WSTAG355_PRO_IMPL: u8; // 1160
-	static mut LBA_WSTAG356_PRO_IMPL: u8; // 1164
-	static mut LBA_WSTAG360_PRO_IMPL: u8; // 1166
-	static mut LBA_WSTAG361_PRO_IMPL: u8; // 1168
-	static mut LBA_WSTAG365_PRO_IMPL: u8; // 1169
-	static mut LBA_WSTAG366_PRO_IMPL: u8; // 1170
-	static mut LBA_WSTAG370_PRO_IMPL: u8; // 1171
-	static mut LBA_WSTAG371_PRO_IMPL: u8; // 1173
-	static mut LBA_WSTAG375_PRO_IMPL: u8; // 1174
-	static mut LBA_WSTAG376_PRO_IMPL: u8; // 1177
-	static mut LBA_WSTAG380_PRO_IMPL: u8; // 1179
-	static mut LBA_WSTAG381_PRO_IMPL: u8; // 1182
-	static mut LBA_WSTAG385_PRO_IMPL: u8; // 1184
-	static mut LBA_WSTAG386_PRO_IMPL: u8; // 1189
-	static mut LBA_WSTAG395_PRO_IMPL: u8; // 1193
-	static mut LBA_WSTAG396_PRO_IMPL: u8; // 1196
-	static mut LBA_WSTAG400_PRO_IMPL: u8; // 1198
-	static mut LBA_WSTAG401_PRO_IMPL: u8; // 1203
-	static mut LBA_WSTAG405_PRO_IMPL: u8; // 1206
-	static mut LBA_WSTAG406_PRO_IMPL: u8; // 1209
-	static mut LBA_WSTAG410_PRO_IMPL: u8; // 1211
-	static mut LBA_WSTAG411_PRO_IMPL: u8; // 1213
-	static mut LBA_WSTAG415_PRO_IMPL: u8; // 1214
-	static mut LBA_WSTAG420_PRO_IMPL: u8; // 1218
-	static mut LBA_WSTAG421_PRO_IMPL: u8; // 1223
-	static mut LBA_WSTAG425_PRO_IMPL: u8; // 1226
-	static mut LBA_WSTAG426_PRO_IMPL: u8; // 1228
-	static mut LBA_WSTAG430_PRO_IMPL: u8; // 1229
-	static mut LBA_WSTAG431_PRO_IMPL: u8; // 1231
-	static mut LBA_WSTAG435_PRO_IMPL: u8; // 1233
-	static mut LBA_WSTAG436_PRO_IMPL: u8; // 1234
-	static mut LBA_WSTAG440_PRO_IMPL: u8; // 1235
-	static mut LBA_WSTAG441_PRO_IMPL: u8; // 1237
-	static mut LBA_WSTAG445_PRO_IMPL: u8; // 1238
-	static mut LBA_WSTAG446_PRO_IMPL: u8; // 1241
-	static mut LBA_WSTAG450_PRO_IMPL: u8; // 1243
-	static mut LBA_WSTAG451_PRO_IMPL: u8; // 1247
-	static mut LBA_WSTAG455_PRO_IMPL: u8; // 1249
-	static mut LBA_WSTAG456_PRO_IMPL: u8; // 1252
-	static mut LBA_WSTAG460_PRO_IMPL: u8; // 1254
-	static mut LBA_WSTAG465_PRO_IMPL: u8; // 1258
-	static mut LBA_WSTAG466_PRO_IMPL: u8; // 1261
-	static mut LBA_WSTAG470_PRO_IMPL: u8; // 1263
-	static mut LBA_WSTAG471_PRO_IMPL: u8; // 1265
-	static mut LBA_WSTAG475_PRO_IMPL: u8; // 1267
-	static mut LBA_WSTAG476_PRO_IMPL: u8; // 1269
-	static mut LBA_WSTAG480_PRO_IMPL: u8; // 1270
-	static mut LBA_WSTAG481_PRO_IMPL: u8; // 1275
-	static mut LBA_WSTAG485_PRO_IMPL: u8; // 1278
-	static mut LBA_WSTAG486_PRO_IMPL: u8; // 1281
-	static mut LBA_WSTAG490_PRO_IMPL: u8; // 1283
-	static mut LBA_WSTAG491_PRO_IMPL: u8; // 1286
-	static mut LBA_WSTAG495_PRO_IMPL: u8; // 1288
-	static mut LBA_WSTAG496_PRO_IMPL: u8; // 1290
-	static mut LBA_WSTAG500_PRO_IMPL: u8; // 1291
-	static mut LBA_WSTAG501_PRO_IMPL: u8; // 1295
-	static mut LBA_WSTAG505_PRO_IMPL: u8; // 1298
-	static mut LBA_WSTAG506_PRO_IMPL: u8; // 1299
-	static mut LBA_WSTAG520_PRO_IMPL: u8; // 1300
-	static mut LBA_WSTAG521_PRO_IMPL: u8; // 1303
-	static mut LBA_WSTAG525_PRO_IMPL: u8; // 1305
-	static mut LBA_WSTAG526_PRO_IMPL: u8; // 1308
-	static mut LBA_WSTAG530_PRO_IMPL: u8; // 1313
-	static mut LBA_WSTAG531_PRO_IMPL: u8; // 1315
-	static mut LBA_WSTAG535_PRO_IMPL: u8; // 1317
-	static mut LBA_WSTAG537_PRO_IMPL: u8; // 1319
-	static mut LBA_WSTAG538_PRO_IMPL: u8; // 1322
-	static mut LBA_WSTAG540_PRO_IMPL: u8; // 1324
-	static mut LBA_WSTAG545_PRO_IMPL: u8; // 1326
-	static mut LBA_WSTAG550_PRO_IMPL: u8; // 1329
-	static mut LBA_WSTAG551_PRO_IMPL: u8; // 1332
-	static mut LBA_WSTAG555_PRO_IMPL: u8; // 1334
-	static mut LBA_WSTAG556_PRO_IMPL: u8; // 1336
-	static mut LBA_WSTAG560_PRO_IMPL: u8; // 1338
-	static mut LBA_WSTAG561_PRO_IMPL: u8; // 1340
-	static mut LBA_WSTAG565_PRO_IMPL: u8; // 1341
-	static mut LBA_WSTAG566_PRO_IMPL: u8; // 1343
-	static mut LBA_WSTAG570_PRO_IMPL: u8; // 1345
-	static mut LBA_WSTAG571_PRO_IMPL: u8; // 1347
-	static mut LBA_WSTAG575_PRO_IMPL: u8; // 1349
-	static mut LBA_WSTAG576_PRO_IMPL: u8; // 1351
-	static mut LBA_WSTAG580_PRO_IMPL: u8; // 1353
-	static mut LBA_WSTAG581_PRO_IMPL: u8; // 1356
-	static mut LBA_WSTAG585_PRO_IMPL: u8; // 1358
-	static mut LBA_WSTAG586_PRO_IMPL: u8; // 1359
-	static mut LBA_WSTAG590_PRO_IMPL: u8; // 1360
-	static mut LBA_WSTAG591_PRO_IMPL: u8; // 1361
-	static mut LBA_WSTAG595_PRO_IMPL: u8; // 1362
-	static mut LBA_WSTAG596_PRO_IMPL: u8; // 1363
-	static mut LBA_WSTAG600_PRO_IMPL: u8; // 1364
-	static mut LBA_WSTAG601_PRO_IMPL: u8; // 1365
-	static mut LBA_WSTAG605_PRO_IMPL: u8; // 1366
-	static mut LBA_WSTAG606_PRO_IMPL: u8; // 1368
-	static mut LBA_WSTAG610_PRO_IMPL: u8; // 1370
-	static mut LBA_WSTAG611_PRO_IMPL: u8; // 1371
-	static mut LBA_WSTAG615_PRO_IMPL: u8; // 1372
-	static mut LBA_WSTAG616_PRO_IMPL: u8; // 1375
-	static mut LBA_WSTAG620_PRO_IMPL: u8; // 1377
-	static mut LBA_WSTAG621_PRO_IMPL: u8; // 1382
-	static mut LBA_WSTAG625_PRO_IMPL: u8; // 1383
-	static mut LBA_WSTAG630_PRO_IMPL: u8; // 1385
-	static mut LBA_WSTAG631_PRO_IMPL: u8; // 1387
-	static mut LBA_WSTAG635_PRO_IMPL: u8; // 1389
-	static mut LBA_WSTAG636_PRO_IMPL: u8; // 1392
-	static mut LBA_WSTAG640_PRO_IMPL: u8; // 1394
-	static mut LBA_WSTAG641_PRO_IMPL: u8; // 1396
-	static mut LBA_WSTAG645_PRO_IMPL: u8; // 1398
-	static mut LBA_WSTAG646_PRO_IMPL: u8; // 1400
-	static mut LBA_WSTAG650_PRO_IMPL: u8; // 1402
-	static mut LBA_WSTAG651_PRO_IMPL: u8; // 1404
-	static mut LBA_WSTAG655_PRO_IMPL: u8; // 1407
-	static mut LBA_WSTAG656_PRO_IMPL: u8; // 1409
-	static mut LBA_WSTAG660_PRO_IMPL: u8; // 1411
-	static mut LBA_WSTAG661_PRO_IMPL: u8; // 1414
-	static mut LBA_WSTAG675_PRO_IMPL: u8; // 1416
-	static mut LBA_WSTAG676_PRO_IMPL: u8; // 1419
-	static mut LBA_WSTAG680_PRO_IMPL: u8; // 1421
-	static mut LBA_WSTAG685_PRO_IMPL: u8; // 1423
-	static mut LBA_WSTAG686_PRO_IMPL: u8; // 1425
-	static mut LBA_WSTAG690_PRO_IMPL: u8; // 1426
-	static mut LBA_WSTAG691_PRO_IMPL: u8; // 1428
-	static mut LBA_WSTAG695_PRO_IMPL: u8; // 1430
-	static mut LBA_WSTAG696_PRO_IMPL: u8; // 1432
-	static mut LBA_WSTAG700_PRO_IMPL: u8; // 1434
-	static mut LBA_WSTAG701_PRO_IMPL: u8; // 1435
-	static mut LBA_WSTAG705_PRO_IMPL: u8; // 1436
-	static mut LBA_WSTAG706_PRO_IMPL: u8; // 1438
-	static mut LBA_WSTAG710_PRO_IMPL: u8; // 1440
-	static mut LBA_WSTAG711_PRO_IMPL: u8; // 1443
-	static mut LBA_WSTAG715_PRO_IMPL: u8; // 1445
-	static mut LBA_WSTAG716_PRO_IMPL: u8; // 1447
-	static mut LBA_WSTAG720_PRO_IMPL: u8; // 1449
-	static mut LBA_WSTAG721_PRO_IMPL: u8; // 1452
-	static mut LBA_WSTAG725_PRO_IMPL: u8; // 1455
-	static mut LBA_WSTAG726_PRO_IMPL: u8; // 1457
-	static mut LBA_WSTAG730_PRO_IMPL: u8; // 1459
-	static mut LBA_WSTAG731_PRO_IMPL: u8; // 1461
-	static mut LBA_WSTAG735_PRO_IMPL: u8; // 1463
-	static mut LBA_WSTAG736_PRO_IMPL: u8; // 1466
-	static mut LBA_WSTAG740_PRO_IMPL: u8; // 1469
-	static mut LBA_WSTAG741_PRO_IMPL: u8; // 1472
-	static mut LBA_WSTAG745_PRO_IMPL: u8; // 1475
-	static mut LBA_WSTAG746_PRO_IMPL: u8; // 1478
-	static mut LBA_WSTAG750_PRO_IMPL: u8; // 1481
-	static mut LBA_WSTAG755_PRO_IMPL: u8; // 1485
-	static mut LBA_WSTAG756_PRO_IMPL: u8; // 1487
-	static mut LBA_WSTAG760_PRO_IMPL: u8; // 1489
-	static mut LBA_WSTAG761_PRO_IMPL: u8; // 1491
-	static mut LBA_WSTAG780_PRO_IMPL: u8; // 1494
-	static mut LBA_WSTAG785_PRO_IMPL: u8; // 1501
-	static mut LBA_WSTAG790_PRO_IMPL: u8; // 1505
-	static mut LBA_WSTAG795_PRO_IMPL: u8; // 1507
-	static mut LBA_WSTAG800_PRO_IMPL: u8; // 1510
-	static mut LBA_WSTAG805_PRO_IMPL: u8; // 1515
-	static mut LBA_WSTAG810_PRO_IMPL: u8; // 1519
-	static mut LBA_WSTAG815_PRO_IMPL: u8; // 1524
-	static mut LBA_WSTAG820_PRO_IMPL: u8; // 1527
-	static mut LBA_WSTAG825_PRO_IMPL: u8; // 1531
-	static mut LBA_WSTAG830_PRO_IMPL: u8; // 1535
-	static mut LBA_WSTAG835_PRO_IMPL: u8; // 1537
-	static mut LBA_WSTAG840_PRO_IMPL: u8; // 1542
-	static mut LBA_WSTAG845_PRO_IMPL: u8; // 1546
-	static mut LBA_WSTAG850_PRO_IMPL: u8; // 1550
-	static mut LBA_WSTAG855_PRO_IMPL: u8; // 1552
-	static mut LBA_WSTAG860_PRO_IMPL: u8; // 1556
-	static mut LBA_WSTAG865_PRO_IMPL: u8; // 1558
-	static mut LBA_WSTAG870_PRO_IMPL: u8; // 1568
-	static mut LBA_WSTAG875_PRO_IMPL: u8; // 1574
-	static mut LBA_WSTAG880_PRO_IMPL: u8; // 1581
-	static mut LBA_WSTAG885_PRO_IMPL: u8; // 1590
-	static mut LBA_WSTAG890_PRO_IMPL: u8; // 1599
-	static mut LBA_WSTAG895_PRO_IMPL: u8; // 1608
-	static mut LBA_WSTAG920_PRO_IMPL: u8; // 1617
-	static mut LBA_WSTAG921_PRO_IMPL: u8; // 1619
-	static mut LBA_WSTAG922_PRO_IMPL: u8; // 1621
-	static mut LBA_WSTAG923_PRO_IMPL: u8; // 1623
-	static mut LBA_WSTAG924_PRO_IMPL: u8; // 1625
-	static mut LBA_WSTAG925_PRO_IMPL: u8; // 1629
-	static mut LBA_WSTAG926_PRO_IMPL: u8; // 1631
-	static mut LBA_WSTAG927_PRO_IMPL: u8; // 1632
-	static mut LBA_WSTAG928_PRO_IMPL: u8; // 1634
-	static mut LBA_WSTAG929_PRO_IMPL: u8; // 1635
-	static mut LBA_WSTAG930_PRO_IMPL: u8; // 1636
-	static mut LBA_WSTAG931_PRO_IMPL: u8; // 1637
-	static mut LBA_WSTAG932_PRO_IMPL: u8; // 1638
-	static mut LBA_WSTAG933_PRO_IMPL: u8; // 1639
-	static mut LBA_WSTAG934_PRO_IMPL: u8; // 1640
-	static mut LBA_WSTAG935_PRO_IMPL: u8; // 1642
-	static mut LBA_WSTAG936_PRO_IMPL: u8; // 1646
-	static mut LBA_WSTAG937_PRO_IMPL: u8; // 1647
-	static mut LBA_WSTAG938_PRO_IMPL: u8; // 1648
-	static mut LBA_WSTAG939_PRO_IMPL: u8; // 1650
-	static mut LBA_WSTAG940_PRO_IMPL: u8; // 1651
-	static mut LBA_WSTAG941_PRO_IMPL: u8; // 1654
-	static mut LBA_WSTAG942_PRO_IMPL: u8; // 1656
-	static mut LBA_WSTAG943_PRO_IMPL: u8; // 1658
-	static mut LBA_WSTAG944_PRO_IMPL: u8; // 1660
-	static mut LBA_WSTAG945_PRO_IMPL: u8; // 1662
-	static mut LBA_WSTAG946_PRO_IMPL: u8; // 1664
-	static mut LBA_WSTAG947_PRO_IMPL: u8; // 1665
-	static mut LBA_WSTAG948_PRO_IMPL: u8; // 1666
-	static mut LBA_WSTAG949_PRO_IMPL: u8; // 1667
-	static mut LBA_WSTAG950_PRO_IMPL: u8; // 1669
-	static mut LBA_WSTAG951_PRO_IMPL: u8; // 1671
-	static mut LBA_WSTAG952_PRO_IMPL: u8; // 1675
-	static mut LBA_WSTAG953_PRO_IMPL: u8; // 1677
-	static mut LBA_WSTAG954_PRO_IMPL: u8; // 1680
-	static mut LBA_WSTAG955_PRO_IMPL: u8; // 1682
-	static mut LBA_WSTAG956_PRO_IMPL: u8; // 1683
-	static mut LBA_WSTAG957_PRO_IMPL: u8; // 1685
-	static mut LBA_WSTAG958_PRO_IMPL: u8; // 1686
-	static mut LBA_WSTAG959_PRO_IMPL: u8; // 1687
-	static mut LBA_WSTAG960_PRO_IMPL: u8; // 1688
-	static mut LBA_WSTAG961_PRO_IMPL: u8; // 1690
-	static mut LBA_WSTAG962_PRO_IMPL: u8; // 1692
-	static mut LBA_WSTAG963_PRO_IMPL: u8; // 1693
-	static mut LBA_WSTAG964_PRO_IMPL: u8; // 1695
-	static mut LBA_WSTAG965_PRO_IMPL: u8; // 1698
-	static mut LBA_WSTAG966_PRO_IMPL: u8; // 1699
-	static mut LBA_WSTAG967_PRO_IMPL: u8; // 1702
-	static mut LBA_WSTAG968_PRO_IMPL: u8; // 1704
-	static mut LBA_WSTAG969_PRO_IMPL: u8; // 1706
-	static mut LBA_WSTAG970_PRO_IMPL: u8; // 1708
-	static mut LBA_WSTAG971_PRO_IMPL: u8; // 1712
-	static mut LBA_WSTAG972_PRO_IMPL: u8; // 1715
-	static mut LBA_WSTAG973_PRO_IMPL: u8; // 1721
-	static mut LBA_WSTAG974_PRO_IMPL: u8; // 1725
-	static mut LBA_NONE_____BIN_IMPL: u8; // 1731
-	static mut LBA_CARDDATA_BIN_IMPL: u8; // 1733
-	static mut LBA_CARDPACK_BIN_IMPL: u8; // 1751
-	static mut LBA_CARDPAK0_BIN_IMPL: u8; // 1995
-	static mut LBA_CARDPAK1_BIN_IMPL: u8; // 2045
-	static mut LBA_CARDPAK2_BIN_IMPL: u8; // 2095
-	static mut LBA_CARDPAK3_BIN_IMPL: u8; // 2145
-	static mut LBA_CARDPAK4_BIN_IMPL: u8; // 2195
-	static mut LBA_CARD_NPC_BIN_IMPL: u8; // 2242
-	static mut LBA_CMFONTCS_BIN_IMPL: u8; // 2261
-	static mut LBA_CMFONTTM_BIN_IMPL: u8; // 2268
-	static mut LBA_CNTSELWN_BIN_IMPL: u8; // 2290
-	static mut LBA_ESAMTMAP_BIN_IMPL: u8; // 2301
-	static mut LBA_ESASKMAP_BIN_IMPL: u8; // 2302
-	static mut LBA_ESCARDGM_BIN_IMPL: u8; // 2303
-	static mut LBA_ESCARDNM_BIN_IMPL: u8; // 2304
-	static mut LBA_ESCARDST_BIN_IMPL: u8; // 2307
-	static mut LBA_ESCRDABM_BIN_IMPL: u8; // 2310
-	static mut LBA_ESCRDDEK_BIN_IMPL: u8; // 2311
-	static mut LBA_ESCRDSHP_BIN_IMPL: u8; // 2313
-	static mut LBA_ESDGLABO_BIN_IMPL: u8; // 2314
-	static mut LBA_ESDGNMET_BIN_IMPL: u8; // 2315
-	static mut LBA_ESDIGINF_BIN_IMPL: u8; // 2316
-	static mut LBA_ESDIGNAM_BIN_IMPL: u8; // 2318
-	static mut LBA_ESDMG200_BIN_IMPL: u8; // 2320
-	static mut LBA_ESDMG260_BIN_IMPL: u8; // 2336
-	static mut LBA_ESDMG270_BIN_IMPL: u8; // 2345
-	static mut LBA_ESDMG300_BIN_IMPL: u8; // 2350
-	static mut LBA_ESDMG305_BIN_IMPL: u8; // 2364
-	static mut LBA_ESDMG400_BIN_IMPL: u8; // 2369
-	static mut LBA_ESDMG500_BIN_IMPL: u8; // 2376
-	static mut LBA_ESDMG600_BIN_IMPL: u8; // 2383
-	static mut LBA_ESDMG700_BIN_IMPL: u8; // 2393
-	static mut LBA_ESDMG800_BIN_IMPL: u8; // 2401
-	static mut LBA_ESDMG900_BIN_IMPL: u8; // 2405
-	static mut LBA_ESFGTRPT_BIN_IMPL: u8; // 2412
-	static mut LBA_ESHTLNAM_BIN_IMPL: u8; // 2413
-	static mut LBA_ESITMINF_BIN_IMPL: u8; // 2414
-	static mut LBA_ESITMNAM_BIN_IMPL: u8; // 2422
-	static mut LBA_ESITSHOP_BIN_IMPL: u8; // 2426
-	static mut LBA_ESMEMCRD_BIN_IMPL: u8; // 2427
-	static mut LBA_ESMFIGHT_BIN_IMPL: u8; // 2428
-	static mut LBA_ESNAMEDT_BIN_IMPL: u8; // 2430
-	static mut LBA_ESNAMEET_BIN_IMPL: u8; // 2431
-	static mut LBA_ESSHPNAM_BIN_IMPL: u8; // 2432
-	static mut LBA_ESSKLINF_BIN_IMPL: u8; // 2433
-	static mut LBA_ESSKLNAM_BIN_IMPL: u8; // 2437
-	static mut LBA_ESSTAREA_BIN_IMPL: u8; // 2440
-	static mut LBA_ESSTATUS_BIN_IMPL: u8; // 2441
-	static mut LBA_ESSTNAME_BIN_IMPL: u8; // 2443
-	static mut LBA_ESSYSTEM_BIN_IMPL: u8; // 2445
-	static mut LBA_ESTALK00_BIN_IMPL: u8; // 2446
-	static mut LBA_ESTALK01_BIN_IMPL: u8; // 2465
-	static mut LBA_ESTALK02_BIN_IMPL: u8; // 2483
-	static mut LBA_ESTALK03_BIN_IMPL: u8; // 2504
-	static mut LBA_ESTALK04_BIN_IMPL: u8; // 2522
-	static mut LBA_ESTALK05_BIN_IMPL: u8; // 2538
-	static mut LBA_ESTALK06_BIN_IMPL: u8; // 2559
-	static mut LBA_ESTALK07_BIN_IMPL: u8; // 2583
-	static mut LBA_ESTALK08_BIN_IMPL: u8; // 2607
-	static mut LBA_ESTALK09_BIN_IMPL: u8; // 2616
-	static mut LBA_ESTRAINI_BIN_IMPL: u8; // 2637
-	static mut LBA_FSAMTMAP_BIN_IMPL: u8; // 2641
-	static mut LBA_FSASKMAP_BIN_IMPL: u8; // 2642
-	static mut LBA_FSCARDGM_BIN_IMPL: u8; // 2643
-	static mut LBA_FSCARDNM_BIN_IMPL: u8; // 2645
-	static mut LBA_FSCARDST_BIN_IMPL: u8; // 2648
-	static mut LBA_FSCRDABM_BIN_IMPL: u8; // 2651
-	static mut LBA_FSCRDDEK_BIN_IMPL: u8; // 2652
-	static mut LBA_FSCRDSHP_BIN_IMPL: u8; // 2654
-	static mut LBA_FSDGLABO_BIN_IMPL: u8; // 2655
-	static mut LBA_FSDGNMET_BIN_IMPL: u8; // 2656
-	static mut LBA_FSDIGINF_BIN_IMPL: u8; // 2657
-	static mut LBA_FSDIGNAM_BIN_IMPL: u8; // 2659
-	static mut LBA_FSDMG200_BIN_IMPL: u8; // 2661
-	static mut LBA_FSDMG260_BIN_IMPL: u8; // 2677
-	static mut LBA_FSDMG270_BIN_IMPL: u8; // 2687
-	static mut LBA_FSDMG300_BIN_IMPL: u8; // 2692
-	static mut LBA_FSDMG305_BIN_IMPL: u8; // 2706
-	static mut LBA_FSDMG400_BIN_IMPL: u8; // 2711
-	static mut LBA_FSDMG500_BIN_IMPL: u8; // 2718
-	static mut LBA_FSDMG600_BIN_IMPL: u8; // 2725
-	static mut LBA_FSDMG700_BIN_IMPL: u8; // 2735
-	static mut LBA_FSDMG800_BIN_IMPL: u8; // 2744
-	static mut LBA_FSDMG900_BIN_IMPL: u8; // 2748
-	static mut LBA_FSFGTRPT_BIN_IMPL: u8; // 2755
-	static mut LBA_FSHTLNAM_BIN_IMPL: u8; // 2756
-	static mut LBA_FSITMINF_BIN_IMPL: u8; // 2757
-	static mut LBA_FSITMNAM_BIN_IMPL: u8; // 2765
-	static mut LBA_FSITSHOP_BIN_IMPL: u8; // 2769
-	static mut LBA_FSMEMCRD_BIN_IMPL: u8; // 2770
-	static mut LBA_FSMFIGHT_BIN_IMPL: u8; // 2771
-	static mut LBA_FSNAMEDT_BIN_IMPL: u8; // 2773
-	static mut LBA_FSNAMEET_BIN_IMPL: u8; // 2774
-	static mut LBA_FSSHPNAM_BIN_IMPL: u8; // 2775
-	static mut LBA_FSSKLINF_BIN_IMPL: u8; // 2776
-	static mut LBA_FSSKLNAM_BIN_IMPL: u8; // 2780
-	static mut LBA_FSSTAREA_BIN_IMPL: u8; // 2783
-	static mut LBA_FSSTATUS_BIN_IMPL: u8; // 2784
-	static mut LBA_FSSTNAME_BIN_IMPL: u8; // 2786
-	static mut LBA_FSSYSTEM_BIN_IMPL: u8; // 2788
-	static mut LBA_FSTALK00_BIN_IMPL: u8; // 2789
-	static mut LBA_FSTALK01_BIN_IMPL: u8; // 2808
-	static mut LBA_FSTALK02_BIN_IMPL: u8; // 2826
-	static mut LBA_FSTALK03_BIN_IMPL: u8; // 2848
-	static mut LBA_FSTALK04_BIN_IMPL: u8; // 2867
-	static mut LBA_FSTALK05_BIN_IMPL: u8; // 2883
-	static mut LBA_FSTALK06_BIN_IMPL: u8; // 2904
-	static mut LBA_FSTALK07_BIN_IMPL: u8; // 2928
-	static mut LBA_FSTALK08_BIN_IMPL: u8; // 2952
-	static mut LBA_FSTALK09_BIN_IMPL: u8; // 2961
-	static mut LBA_FSTRAINI_BIN_IMPL: u8; // 2983
-	static mut LBA_DSAMTMAP_BIN_IMPL: u8; // 2987
-	static mut LBA_DSASKMAP_BIN_IMPL: u8; // 2988
-	static mut LBA_DSCARDGM_BIN_IMPL: u8; // 2989
-	static mut LBA_DSCARDNM_BIN_IMPL: u8; // 2990
-	static mut LBA_DSCARDST_BIN_IMPL: u8; // 2993
-	static mut LBA_DSCRDABM_BIN_IMPL: u8; // 2996
-	static mut LBA_DSCRDDEK_BIN_IMPL: u8; // 2997
-	static mut LBA_DSCRDSHP_BIN_IMPL: u8; // 2999
-	static mut LBA_DSDGLABO_BIN_IMPL: u8; // 3000
-	static mut LBA_DSDGNMET_BIN_IMPL: u8; // 3001
-	static mut LBA_DSDIGINF_BIN_IMPL: u8; // 3002
-	static mut LBA_DSDIGNAM_BIN_IMPL: u8; // 3004
-	static mut LBA_DSDMG200_BIN_IMPL: u8; // 3006
-	static mut LBA_DSDMG260_BIN_IMPL: u8; // 3022
-	static mut LBA_DSDMG270_BIN_IMPL: u8; // 3031
-	static mut LBA_DSDMG300_BIN_IMPL: u8; // 3036
-	static mut LBA_DSDMG305_BIN_IMPL: u8; // 3049
-	static mut LBA_DSDMG400_BIN_IMPL: u8; // 3054
-	static mut LBA_DSDMG500_BIN_IMPL: u8; // 3061
-	static mut LBA_DSDMG600_BIN_IMPL: u8; // 3068
-	static mut LBA_DSDMG700_BIN_IMPL: u8; // 3078
-	static mut LBA_DSDMG800_BIN_IMPL: u8; // 3086
-	static mut LBA_DSDMG900_BIN_IMPL: u8; // 3090
-	static mut LBA_DSFGTRPT_BIN_IMPL: u8; // 3097
-	static mut LBA_DSHTLNAM_BIN_IMPL: u8; // 3098
-	static mut LBA_DSITMINF_BIN_IMPL: u8; // 3099
-	static mut LBA_DSITMNAM_BIN_IMPL: u8; // 3106
-	static mut LBA_DSITSHOP_BIN_IMPL: u8; // 3110
-	static mut LBA_DSMEMCRD_BIN_IMPL: u8; // 3111
-	static mut LBA_DSMFIGHT_BIN_IMPL: u8; // 3112
-	static mut LBA_DSNAMEDT_BIN_IMPL: u8; // 3114
-	static mut LBA_DSNAMEET_BIN_IMPL: u8; // 3115
-	static mut LBA_DSSHPNAM_BIN_IMPL: u8; // 3116
-	static mut LBA_DSSKLINF_BIN_IMPL: u8; // 3117
-	static mut LBA_DSSKLNAM_BIN_IMPL: u8; // 3121
-	static mut LBA_DSSTAREA_BIN_IMPL: u8; // 3124
-	static mut LBA_DSSTATUS_BIN_IMPL: u8; // 3125
-	static mut LBA_DSSTNAME_BIN_IMPL: u8; // 3127
-	static mut LBA_DSSYSTEM_BIN_IMPL: u8; // 3129
-	static mut LBA_DSTALK00_BIN_IMPL: u8; // 3130
-	static mut LBA_DSTALK01_BIN_IMPL: u8; // 3148
-	static mut LBA_DSTALK02_BIN_IMPL: u8; // 3165
-	static mut LBA_DSTALK03_BIN_IMPL: u8; // 3185
-	static mut LBA_DSTALK04_BIN_IMPL: u8; // 3202
-	static mut LBA_DSTALK05_BIN_IMPL: u8; // 3218
-	static mut LBA_DSTALK06_BIN_IMPL: u8; // 3239
-	static mut LBA_DSTALK07_BIN_IMPL: u8; // 3262
-	static mut LBA_DSTALK08_BIN_IMPL: u8; // 3285
-	static mut LBA_DSTALK09_BIN_IMPL: u8; // 3294
-	static mut LBA_DSTRAINI_BIN_IMPL: u8; // 3315
-	static mut LBA_ISAMTMAP_BIN_IMPL: u8; // 3319
-	static mut LBA_ISASKMAP_BIN_IMPL: u8; // 3320
-	static mut LBA_ISCARDGM_BIN_IMPL: u8; // 3321
-	static mut LBA_ISCARDNM_BIN_IMPL: u8; // 3322
-	static mut LBA_ISCARDST_BIN_IMPL: u8; // 3325
-	static mut LBA_ISCRDABM_BIN_IMPL: u8; // 3328
-	static mut LBA_ISCRDDEK_BIN_IMPL: u8; // 3329
-	static mut LBA_ISCRDSHP_BIN_IMPL: u8; // 3331
-	static mut LBA_ISDGLABO_BIN_IMPL: u8; // 3332
-	static mut LBA_ISDGNMET_BIN_IMPL: u8; // 3333
-	static mut LBA_ISDIGINF_BIN_IMPL: u8; // 3334
-	static mut LBA_ISDIGNAM_BIN_IMPL: u8; // 3336
-	static mut LBA_ISDMG200_BIN_IMPL: u8; // 3338
-	static mut LBA_ISDMG260_BIN_IMPL: u8; // 3352
-	static mut LBA_ISDMG270_BIN_IMPL: u8; // 3360
-	static mut LBA_ISDMG300_BIN_IMPL: u8; // 3364
-	static mut LBA_ISDMG305_BIN_IMPL: u8; // 3376
-	static mut LBA_ISDMG400_BIN_IMPL: u8; // 3380
-	static mut LBA_ISDMG500_BIN_IMPL: u8; // 3386
-	static mut LBA_ISDMG600_BIN_IMPL: u8; // 3392
-	static mut LBA_ISDMG700_BIN_IMPL: u8; // 3401
-	static mut LBA_ISDMG800_BIN_IMPL: u8; // 3408
-	static mut LBA_ISDMG900_BIN_IMPL: u8; // 3412
-	static mut LBA_ISFGTRPT_BIN_IMPL: u8; // 3419
-	static mut LBA_ISHTLNAM_BIN_IMPL: u8; // 3420
-	static mut LBA_ISITMINF_BIN_IMPL: u8; // 3421
-	static mut LBA_ISITMNAM_BIN_IMPL: u8; // 3429
-	static mut LBA_ISITSHOP_BIN_IMPL: u8; // 3433
-	static mut LBA_ISMEMCRD_BIN_IMPL: u8; // 3434
-	static mut LBA_ISMFIGHT_BIN_IMPL: u8; // 3435
-	static mut LBA_ISNAMEDT_BIN_IMPL: u8; // 3437
-	static mut LBA_ISNAMEET_BIN_IMPL: u8; // 3438
-	static mut LBA_ISSHPNAM_BIN_IMPL: u8; // 3439
-	static mut LBA_ISSKLINF_BIN_IMPL: u8; // 3440
-	static mut LBA_ISSKLNAM_BIN_IMPL: u8; // 3444
-	static mut LBA_ISSTAREA_BIN_IMPL: u8; // 3447
-	static mut LBA_ISSTATUS_BIN_IMPL: u8; // 3448
-	static mut LBA_ISSTNAME_BIN_IMPL: u8; // 3450
-	static mut LBA_ISSYSTEM_BIN_IMPL: u8; // 3452
-	static mut LBA_ISTALK00_BIN_IMPL: u8; // 3453
-	static mut LBA_ISTALK01_BIN_IMPL: u8; // 3470
-	static mut LBA_ISTALK02_BIN_IMPL: u8; // 3486
-	static mut LBA_ISTALK03_BIN_IMPL: u8; // 3505
-	static mut LBA_ISTALK04_BIN_IMPL: u8; // 3521
-	static mut LBA_ISTALK05_BIN_IMPL: u8; // 3535
-	static mut LBA_ISTALK06_BIN_IMPL: u8; // 3554
-	static mut LBA_ISTALK07_BIN_IMPL: u8; // 3575
-	static mut LBA_ISTALK08_BIN_IMPL: u8; // 3597
-	static mut LBA_ISTALK09_BIN_IMPL: u8; // 3606
-	static mut LBA_ISTRAINI_BIN_IMPL: u8; // 3626
-	static mut LBA_MSAMTMAP_BIN_IMPL: u8; // 3630
-	static mut LBA_MSASKMAP_BIN_IMPL: u8; // 3631
-	static mut LBA_MSCARDGM_BIN_IMPL: u8; // 3632
-	static mut LBA_MSCARDNM_BIN_IMPL: u8; // 3633
-	static mut LBA_MSCARDST_BIN_IMPL: u8; // 3636
-	static mut LBA_MSCRDABM_BIN_IMPL: u8; // 3638
-	static mut LBA_MSCRDDEK_BIN_IMPL: u8; // 3639
-	static mut LBA_MSCRDSHP_BIN_IMPL: u8; // 3640
-	static mut LBA_MSDGLABO_BIN_IMPL: u8; // 3641
-	static mut LBA_MSDGNMET_BIN_IMPL: u8; // 3642
-	static mut LBA_MSDIGINF_BIN_IMPL: u8; // 3643
-	static mut LBA_MSDIGNAM_BIN_IMPL: u8; // 3644
-	static mut LBA_MSDMG200_BIN_IMPL: u8; // 3646
-	static mut LBA_MSDMG260_BIN_IMPL: u8; // 3657
-	static mut LBA_MSDMG270_BIN_IMPL: u8; // 3665
-	static mut LBA_MSDMG300_BIN_IMPL: u8; // 3668
-	static mut LBA_MSDMG305_BIN_IMPL: u8; // 3678
-	static mut LBA_MSDMG400_BIN_IMPL: u8; // 3682
-	static mut LBA_MSDMG500_BIN_IMPL: u8; // 3688
-	static mut LBA_MSDMG600_BIN_IMPL: u8; // 3694
-	static mut LBA_MSDMG700_BIN_IMPL: u8; // 3701
-	static mut LBA_MSDMG800_BIN_IMPL: u8; // 3707
-	static mut LBA_MSDMG900_BIN_IMPL: u8; // 3710
-	static mut LBA_MSFGTRPT_BIN_IMPL: u8; // 3715
-	static mut LBA_MSHTLNAM_BIN_IMPL: u8; // 3716
-	static mut LBA_MSITMINF_BIN_IMPL: u8; // 3717
-	static mut LBA_MSITMNAM_BIN_IMPL: u8; // 3722
-	static mut LBA_MSITSHOP_BIN_IMPL: u8; // 3725
-	static mut LBA_MSMEMCRD_BIN_IMPL: u8; // 3726
-	static mut LBA_MSMFIGHT_BIN_IMPL: u8; // 3727
-	static mut LBA_MSNAMEDT_BIN_IMPL: u8; // 3729
-	static mut LBA_MSNAMEET_BIN_IMPL: u8; // 3730
-	static mut LBA_MSSHPNAM_BIN_IMPL: u8; // 3731
-	static mut LBA_MSSKLINF_BIN_IMPL: u8; // 3732
-	static mut LBA_MSSKLNAM_BIN_IMPL: u8; // 3735
-	static mut LBA_MSSTAREA_BIN_IMPL: u8; // 3738
-	static mut LBA_MSSTATUS_BIN_IMPL: u8; // 3739
-	static mut LBA_MSSTNAME_BIN_IMPL: u8; // 3740
-	static mut LBA_MSSYSTEM_BIN_IMPL: u8; // 3741
-	static mut LBA_MSTALK00_BIN_IMPL: u8; // 3742
-	static mut LBA_MSTALK01_BIN_IMPL: u8; // 3757
-	static mut LBA_MSTALK02_BIN_IMPL: u8; // 3771
-	static mut LBA_MSTALK03_BIN_IMPL: u8; // 3788
-	static mut LBA_MSTALK04_BIN_IMPL: u8; // 3802
-	static mut LBA_MSTALK05_BIN_IMPL: u8; // 3815
-	static mut LBA_MSTALK06_BIN_IMPL: u8; // 3831
-	static mut LBA_MSTALK07_BIN_IMPL: u8; // 3850
-	static mut LBA_MSTALK08_BIN_IMPL: u8; // 3870
-	static mut LBA_MSTALK09_BIN_IMPL: u8; // 3876
-	static mut LBA_MSTRAINI_BIN_IMPL: u8; // 3891
-	static mut LBA_SSAMTMAP_BIN_IMPL: u8; // 3895
-	static mut LBA_SSASKMAP_BIN_IMPL: u8; // 3896
-	static mut LBA_SSCARDGM_BIN_IMPL: u8; // 3897
-	static mut LBA_SSCARDNM_BIN_IMPL: u8; // 3899
-	static mut LBA_SSCARDST_BIN_IMPL: u8; // 3902
-	static mut LBA_SSCRDABM_BIN_IMPL: u8; // 3905
-	static mut LBA_SSCRDDEK_BIN_IMPL: u8; // 3906
-	static mut LBA_SSCRDSHP_BIN_IMPL: u8; // 3908
-	static mut LBA_SSDGLABO_BIN_IMPL: u8; // 3909
-	static mut LBA_SSDGNMET_BIN_IMPL: u8; // 3910
-	static mut LBA_SSDIGINF_BIN_IMPL: u8; // 3911
-	static mut LBA_SSDIGNAM_BIN_IMPL: u8; // 3913
-	static mut LBA_SSDMG200_BIN_IMPL: u8; // 3915
-	static mut LBA_SSDMG260_BIN_IMPL: u8; // 3930
-	static mut LBA_SSDMG270_BIN_IMPL: u8; // 3939
-	static mut LBA_SSDMG300_BIN_IMPL: u8; // 3943
-	static mut LBA_SSDMG305_BIN_IMPL: u8; // 3956
-	static mut LBA_SSDMG400_BIN_IMPL: u8; // 3961
-	static mut LBA_SSDMG500_BIN_IMPL: u8; // 3968
-	static mut LBA_SSDMG600_BIN_IMPL: u8; // 3975
-	static mut LBA_SSDMG700_BIN_IMPL: u8; // 3984
-	static mut LBA_SSDMG800_BIN_IMPL: u8; // 3992
-	static mut LBA_SSDMG900_BIN_IMPL: u8; // 3996
-	static mut LBA_SSFGTRPT_BIN_IMPL: u8; // 4003
-	static mut LBA_SSHTLNAM_BIN_IMPL: u8; // 4004
-	static mut LBA_SSITMINF_BIN_IMPL: u8; // 4005
-	static mut LBA_SSITMNAM_BIN_IMPL: u8; // 4013
-	static mut LBA_SSITSHOP_BIN_IMPL: u8; // 4017
-	static mut LBA_SSMEMCRD_BIN_IMPL: u8; // 4018
-	static mut LBA_SSMFIGHT_BIN_IMPL: u8; // 4019
-	static mut LBA_SSNAMEDT_BIN_IMPL: u8; // 4021
-	static mut LBA_SSNAMEET_BIN_IMPL: u8; // 4022
-	static mut LBA_SSSHPNAM_BIN_IMPL: u8; // 4023
-	static mut LBA_SSSKLINF_BIN_IMPL: u8; // 4024
-	static mut LBA_SSSKLNAM_BIN_IMPL: u8; // 4028
-	static mut LBA_SSSTAREA_BIN_IMPL: u8; // 4031
-	static mut LBA_SSSTATUS_BIN_IMPL: u8; // 4032
-	static mut LBA_SSSTNAME_BIN_IMPL: u8; // 4034
-	static mut LBA_SSSYSTEM_BIN_IMPL: u8; // 4036
-	static mut LBA_SSTALK00_BIN_IMPL: u8; // 4037
-	static mut LBA_SSTALK01_BIN_IMPL: u8; // 4055
-	static mut LBA_SSTALK02_BIN_IMPL: u8; // 4072
-	static mut LBA_SSTALK03_BIN_IMPL: u8; // 4091
-	static mut LBA_SSTALK04_BIN_IMPL: u8; // 4108
-	static mut LBA_SSTALK05_BIN_IMPL: u8; // 4123
-	static mut LBA_SSTALK06_BIN_IMPL: u8; // 4143
-	static mut LBA_SSTALK07_BIN_IMPL: u8; // 4166
-	static mut LBA_SSTALK08_BIN_IMPL: u8; // 4189
-	static mut LBA_SSTALK09_BIN_IMPL: u8; // 4198
-	static mut LBA_SSTRAINI_BIN_IMPL: u8; // 4219
-	static mut LBA_USAMTMAP_BIN_IMPL: u8; // 4223
-	static mut LBA_USASKMAP_BIN_IMPL: u8; // 4224
-	static mut LBA_USCARDGM_BIN_IMPL: u8; // 4225
-	static mut LBA_USCARDNM_BIN_IMPL: u8; // 4226
-	static mut LBA_USCARDST_BIN_IMPL: u8; // 4229
-	static mut LBA_USCRDABM_BIN_IMPL: u8; // 4232
-	static mut LBA_USCRDDEK_BIN_IMPL: u8; // 4233
-	static mut LBA_USCRDSHP_BIN_IMPL: u8; // 4235
-	static mut LBA_USDGLABO_BIN_IMPL: u8; // 4236
-	static mut LBA_USDGNMET_BIN_IMPL: u8; // 4237
-	static mut LBA_USDIGINF_BIN_IMPL: u8; // 4238
-	static mut LBA_USDIGNAM_BIN_IMPL: u8; // 4240
-	static mut LBA_USDMG200_BIN_IMPL: u8; // 4242
-	static mut LBA_USDMG260_BIN_IMPL: u8; // 4257
-	static mut LBA_USDMG270_BIN_IMPL: u8; // 4266
-	static mut LBA_USDMG300_BIN_IMPL: u8; // 4271
-	static mut LBA_USDMG305_BIN_IMPL: u8; // 4285
-	static mut LBA_USDMG400_BIN_IMPL: u8; // 4290
-	static mut LBA_USDMG500_BIN_IMPL: u8; // 4297
-	static mut LBA_USDMG600_BIN_IMPL: u8; // 4304
-	static mut LBA_USDMG700_BIN_IMPL: u8; // 4314
-	static mut LBA_USDMG800_BIN_IMPL: u8; // 4322
-	static mut LBA_USDMG900_BIN_IMPL: u8; // 4326
-	static mut LBA_USFGTRPT_BIN_IMPL: u8; // 4327
-	static mut LBA_USHTLNAM_BIN_IMPL: u8; // 4328
-	static mut LBA_USITMINF_BIN_IMPL: u8; // 4329
-	static mut LBA_USITMNAM_BIN_IMPL: u8; // 4337
-	static mut LBA_USITSHOP_BIN_IMPL: u8; // 4341
-	static mut LBA_USMEMCRD_BIN_IMPL: u8; // 4342
-	static mut LBA_USMFIGHT_BIN_IMPL: u8; // 4343
-	static mut LBA_USNAMEDT_BIN_IMPL: u8; // 4345
-	static mut LBA_USNAMEET_BIN_IMPL: u8; // 4346
-	static mut LBA_USSHPNAM_BIN_IMPL: u8; // 4347
-	static mut LBA_USSKLINF_BIN_IMPL: u8; // 4348
-	static mut LBA_USSKLNAM_BIN_IMPL: u8; // 4352
-	static mut LBA_USSTAREA_BIN_IMPL: u8; // 4355
-	static mut LBA_USSTATUS_BIN_IMPL: u8; // 4356
-	static mut LBA_USSTNAME_BIN_IMPL: u8; // 4358
-	static mut LBA_USSYSTEM_BIN_IMPL: u8; // 4360
-	static mut LBA_USTALK00_BIN_IMPL: u8; // 4361
-	static mut LBA_USTALK01_BIN_IMPL: u8; // 4380
-	static mut LBA_USTALK02_BIN_IMPL: u8; // 4398
-	static mut LBA_USTALK03_BIN_IMPL: u8; // 4419
-	static mut LBA_USTALK04_BIN_IMPL: u8; // 4437
-	static mut LBA_USTALK05_BIN_IMPL: u8; // 4453
-	static mut LBA_USTALK06_BIN_IMPL: u8; // 4474
-	static mut LBA_USTALK07_BIN_IMPL: u8; // 4498
-	static mut LBA_USTALK08_BIN_IMPL: u8; // 4522
-	static mut LBA_USTALK09_BIN_IMPL: u8; // 4523
-	static mut LBA_USTRAINI_BIN_IMPL: u8; // 4524
-	static mut LBA_STDGLBCS_BIN_IMPL: u8; // 4527
-	static mut LBA_STDGLBTM_BIN_IMPL: u8; // 4530
-	static mut LBA_FIELDCOM_BIN_IMPL: u8; // 4583
-	static mut LBA_P001PLAY_BIN_IMPL: u8; // 4608
-	static mut LBA_P002PLAY_BIN_IMPL: u8; // 4643
-	static mut LBA_P002PLYD_BIN_IMPL: u8; // 4670
-	static mut LBA_P002PLYF_BIN_IMPL: u8; // 4673
-	static mut LBA_P002PLYK_BIN_IMPL: u8; // 4694
-	static mut LBA_P002PLYL_BIN_IMPL: u8; // 4702
-	static mut LBA_P003PKEN_BIN_IMPL: u8; // 4707
-	static mut LBA_P004KOGU_BIN_IMPL: u8; // 4734
-	static mut LBA_P005KOET_BIN_IMPL: u8; // 4756
-	static mut LBA_P006AGUM_BIN_IMPL: u8; // 4778
-	static mut LBA_P007VMON_BIN_IMPL: u8; // 4806
-	static mut LBA_P008GIRU_BIN_IMPL: u8; // 4833
-	static mut LBA_P009RENA_BIN_IMPL: u8; // 4859
-	static mut LBA_P010PATA_BIN_IMPL: u8; // 4887
-	static mut LBA_P011MINO_BIN_IMPL: u8; // 4927
-	static mut LBA_P012MINT_BIN_IMPL: u8; // 4962
-	static mut LBA_P013TAKU_BIN_IMPL: u8; // 4970
-	static mut LBA_P014TAKT_BIN_IMPL: u8; // 5005
-	static mut LBA_P015LUMO_BIN_IMPL: u8; // 5013
-	static mut LBA_P016RDMD_BIN_IMPL: u8; // 5023
-	static mut LBA_P017ASGM_BIN_IMPL: u8; // 5037
-	static mut LBA_P018MGCO_BIN_IMPL: u8; // 5044
-	static mut LBA_P019RDSY_BIN_IMPL: u8; // 5051
-	static mut LBA_P020RDSZ_BIN_IMPL: u8; // 5060
-	static mut LBA_P021RDBK_BIN_IMPL: u8; // 5070
-	static mut LBA_P022RDGB_BIN_IMPL: u8; // 5079
-	static mut LBA_P023RDET_BIN_IMPL: u8; // 5089
-	static mut LBA_P024RDST_BIN_IMPL: u8; // 5098
-	static mut LBA_P025RDWT_BIN_IMPL: u8; // 5108
-	static mut LBA_P026RDNT_BIN_IMPL: u8; // 5117
-	static mut LBA_P027SMTH_BIN_IMPL: u8; // 5127
-	static mut LBA_P028WEDG_BIN_IMPL: u8; // 5136
-	static mut LBA_P029ASLR_BIN_IMPL: u8; // 5144
-	static mut LBA_P030ASWT_BIN_IMPL: u8; // 5151
-	static mut LBA_P031ASFM_BIN_IMPL: u8; // 5158
-	static mut LBA_P032ASDK_BIN_IMPL: u8; // 5165
-	static mut LBA_P033AMLR_BIN_IMPL: u8; // 5175
-	static mut LBA_P034AMWT_BIN_IMPL: u8; // 5182
-	static mut LBA_P035AMFM_BIN_IMPL: u8; // 5189
-	static mut LBA_P036AMDK_BIN_IMPL: u8; // 5196
-	static mut LBA_P037GRGO_BIN_IMPL: u8; // 5206
-	static mut LBA_P038WIZA_BIN_IMPL: u8; // 5215
-	static mut LBA_P039TAIL_BIN_IMPL: u8; // 5220
-	static mut LBA_P040PIKO_BIN_IMPL: u8; // 5224
-	static mut LBA_P041GRDR_BIN_IMPL: u8; // 5235
-	static mut LBA_P042LABO_BIN_IMPL: u8; // 5257
-	static mut LBA_P043OPMA_BIN_IMPL: u8; // 5266
-	static mut LBA_P044OPFS_BIN_IMPL: u8; // 5274
-	static mut LBA_P045AMST_BIN_IMPL: u8; // 5290
-	static mut LBA_P046AW00_BIN_IMPL: u8; // 5294
-	static mut LBA_P047LEOM_BIN_IMPL: u8; // 5304
-	static mut LBA_P048GDAM_BIN_IMPL: u8; // 5308
-	static mut LBA_P049TOGE_BIN_IMPL: u8; // 5314
-	static mut LBA_P050FRDR_BIN_IMPL: u8; // 5318
-	static mut LBA_P051PANG_BIN_IMPL: u8; // 5323
-	static mut LBA_P052ASHM_BIN_IMPL: u8; // 5327
-	static mut LBA_P053SHAK_BIN_IMPL: u8; // 5335
-	static mut LBA_P054MGNA_BIN_IMPL: u8; // 5345
-	static mut LBA_P055GMGD_BIN_IMPL: u8; // 5349
-	static mut LBA_P056AOAS_BIN_IMPL: u8; // 5356
-	static mut LBA_P057AOAB_BIN_IMPL: u8; // 5364
-	static mut LBA_P058AOAC_BIN_IMPL: u8; // 5371
-	static mut LBA_P059AOAD_BIN_IMPL: u8; // 5378
-	static mut LBA_P060AOAE_BIN_IMPL: u8; // 5386
-	static mut LBA_P061AOAF_BIN_IMPL: u8; // 5399
-	static mut LBA_P062FRDM_BIN_IMPL: u8; // 5410
-	static mut LBA_P063FRDF_BIN_IMPL: u8; // 5416
-	static mut LBA_P064HSSM_BIN_IMPL: u8; // 5422
-	static mut LBA_P065JKSI_BIN_IMPL: u8; // 5429
-	static mut LBA_P066FRTM_BIN_IMPL: u8; // 5441
-	static mut LBA_P067OTKU_BIN_IMPL: u8; // 5449
-	static mut LBA_P068SARM_BIN_IMPL: u8; // 5456
-	static mut LBA_P069OTKF_BIN_IMPL: u8; // 5463
-	static mut LBA_P070FRTF_BIN_IMPL: u8; // 5469
-	static mut LBA_P071OLYF_BIN_IMPL: u8; // 5476
-	static mut LBA_P072GOZS_BIN_IMPL: u8; // 5483
-	static mut LBA_P073GOBA_BIN_IMPL: u8; // 5490
-	static mut LBA_P074JIJI_BIN_IMPL: u8; // 5497
-	static mut LBA_P075BABA_BIN_IMPL: u8; // 5504
-	static mut LBA_P076HANM_BIN_IMPL: u8; // 5510
-	static mut LBA_P077HASM_BIN_IMPL: u8; // 5516
-	static mut LBA_P078HGMK_BIN_IMPL: u8; // 5524
-	static mut LBA_P079SPIC_BIN_IMPL: u8; // 5526
-	static mut LBA_P080BALM_BIN_IMPL: u8; // 5530
-	static mut LBA_P081NMEM_BIN_IMPL: u8; // 5533
-	static mut LBA_P082ETEM_BIN_IMPL: u8; // 5545
-	static mut LBA_P083METE_BIN_IMPL: u8; // 5551
-	static mut LBA_P084KETE_BIN_IMPL: u8; // 5557
-	static mut LBA_P085FLWR_BIN_IMPL: u8; // 5565
-	static mut LBA_P086AIRD_BIN_IMPL: u8; // 5568
-	static mut LBA_P087TERS_BIN_IMPL: u8; // 5572
-	static mut LBA_P088GABS_BIN_IMPL: u8; // 5574
-	static mut LBA_P089PYOS_BIN_IMPL: u8; // 5576
-	static mut LBA_P090MGRM_BIN_IMPL: u8; // 5577
-	static mut LBA_P091PDRM_BIN_IMPL: u8; // 5585
-	static mut LBA_P092MGWM_BIN_IMPL: u8; // 5592
-	static mut LBA_P093HANM_BIN_IMPL: u8; // 5600
-	static mut LBA_P094TAOM_BIN_IMPL: u8; // 5607
-	static mut LBA_P095KKIM_BIN_IMPL: u8; // 5612
-	static mut LBA_P096GREM_BIN_IMPL: u8; // 5617
-	static mut LBA_P097ASTM_BIN_IMPL: u8; // 5621
-	static mut LBA_P098YASH_BIN_IMPL: u8; // 5625
-	static mut LBA_P099SZIM_BIN_IMPL: u8; // 5628
-	static mut LBA_P100SHDM_BIN_IMPL: u8; // 5632
-	static mut LBA_P101NHEM_BIN_IMPL: u8; // 5636
-	static mut LBA_P102SHUR_BIN_IMPL: u8; // 5639
-	static mut LBA_P103DPTM_BIN_IMPL: u8; // 5642
-	static mut LBA_P104KABM_BIN_IMPL: u8; // 5645
-	static mut LBA_P105KNGO_BIN_IMPL: u8; // 5648
-	static mut LBA_P106PONT_BIN_IMPL: u8; // 5651
-	static mut LBA_P107SEAM_BIN_IMPL: u8; // 5653
-	static mut LBA_P108PHAR_BIN_IMPL: u8; // 5655
-	static mut LBA_P109MTHI_BIN_IMPL: u8; // 5658
-	static mut LBA_P111ZANB_BIN_IMPL: u8; // 5660
-	static mut LBA_P112HAND_BIN_IMPL: u8; // 5670
-	static mut LBA_P113WARU_BIN_IMPL: u8; // 5673
-	static mut LBA_P114NANO_BIN_IMPL: u8; // 5676
-	static mut LBA_P115KNIG_BIN_IMPL: u8; // 5679
-	static mut LBA_P116BSGM_BIN_IMPL: u8; // 5683
-	static mut LBA_P117BIPD_BIN_IMPL: u8; // 5690
-	static mut LBA_P118BSRM_BIN_IMPL: u8; // 5698
-	static mut LBA_P119BGWM_BIN_IMPL: u8; // 5705
-	static mut LBA_P120BNMM_BIN_IMPL: u8; // 5713
-	static mut LBA_P121BWGM_BIN_IMPL: u8; // 5716
-	static mut LBA_P122SBMM_BIN_IMPL: u8; // 5722
-	static mut LBA_P123DIGM_BIN_IMPL: u8; // 5737
-	static mut LBA_P124SATE_BIN_IMPL: u8; // 5772
-	static mut LBA_P126ITMB_BIN_IMPL: u8; // 5774
-	static mut LBA_P127SEID_BIN_IMPL: u8; // 5778
-	static mut LBA_P128TISD_BIN_IMPL: u8; // 5781
-	static mut LBA_P146OPFE_BIN_IMPL: u8; // 5784
-	static mut LBA_P147OPFW_BIN_IMPL: u8; // 5795
-	static mut LBA_P148SNAC_BIN_IMPL: u8; // 5806
-	static mut LBA_P149SNCM_BIN_IMPL: u8; // 5816
-	static mut LBA_P150LISA_BIN_IMPL: u8; // 5841
-	static mut LBA_P151NICK_BIN_IMPL: u8; // 5856
-	static mut LBA_P152KEIT_BIN_IMPL: u8; // 5868
-	static mut LBA_P153DGTM_BIN_IMPL: u8; // 5880
-	static mut LBA_P154DGTB_BIN_IMPL: u8; // 5882
-	static mut LBA_P156BOOM_BIN_IMPL: u8; // 5883
-	static mut LBA_P157OPFT_BIN_IMPL: u8; // 5894
-	static mut LBA_P158NAGU_BIN_IMPL: u8; // 5899
-	static mut LBA_P159NVMO_BIN_IMPL: u8; // 5914
-	static mut LBA_P160NGIR_BIN_IMPL: u8; // 5928
-	static mut LBA_P161NREN_BIN_IMPL: u8; // 5940
-	static mut LBA_P162NPAT_BIN_IMPL: u8; // 5955
-	static mut LBA_P163JKST_BIN_IMPL: u8; // 5979
-	static mut LBA_P165SAGD_BIN_IMPL: u8; // 5985
-	static mut LBA_P166PAGD_BIN_IMPL: u8; // 5999
-	static mut LBA_P167SAGM_BIN_IMPL: u8; // 6013
-	static mut LBA_P168PAGM_BIN_IMPL: u8; // 6040
-	static mut LBA_P169NSPM_BIN_IMPL: u8; // 6067
-	static mut LBA_P170GOMA_BIN_IMPL: u8; // 6070
-	static mut LBA_P171BAGM_BIN_IMPL: u8; // 6072
-	static mut LBA_P172FJJI_BIN_IMPL: u8; // 6099
-	static mut LBA_P173KBOY_BIN_IMPL: u8; // 6107
-	static mut LBA_P174PIYO_BIN_IMPL: u8; // 6114
-	static mut LBA_P175SPMM_BIN_IMPL: u8; // 6115
-	static mut LBA_P178NBEA_BIN_IMPL: u8; // 6116
-	static mut LBA_P179NKOE_BIN_IMPL: u8; // 6128
-	static mut LBA_P180NKOT_BIN_IMPL: u8; // 6140
-	static mut LBA_P181SSPM_BIN_IMPL: u8; // 6154
-	static mut LBA_P182BOMP_BIN_IMPL: u8; // 6158
-	static mut LBA_P183BOMB_BIN_IMPL: u8; // 6169
-	static mut LBA_P184CBEM_BIN_IMPL: u8; // 6180
-	static mut LBA_P185BEMG_BIN_IMPL: u8; // 6184
-	static mut LBA_P186BEMP_BIN_IMPL: u8; // 6185
-	static mut LBA_P187STRI_BIN_IMPL: u8; // 6190
-	static mut LBA_P188BLOK_BIN_IMPL: u8; // 6191
-	static mut LBA_P189PKEL_BIN_IMPL: u8; // 6200
-	static mut LBA_P190KOGL_BIN_IMPL: u8; // 6206
-	static mut LBA_P191KOEL_BIN_IMPL: u8; // 6211
-	static mut LBA_P192AGUL_BIN_IMPL: u8; // 6216
-	static mut LBA_P193VMOL_BIN_IMPL: u8; // 6222
-	static mut LBA_P194GIRL_BIN_IMPL: u8; // 6228
-	static mut LBA_P195RENL_BIN_IMPL: u8; // 6233
-	static mut LBA_P196PATL_BIN_IMPL: u8; // 6239
-	static mut LBA_P197BLXE_BIN_IMPL: u8; // 6253
-	static mut LBA_P198ADME_BIN_IMPL: u8; // 6254
-	static mut LBA_S200MASK_BIN_IMPL: u8; // 6274
-	static mut LBA_S200TMPK_BIN_IMPL: u8; // 6307
-	static mut LBA_S201MASK_BIN_IMPL: u8; // 6315
-	static mut LBA_S201TMPK_BIN_IMPL: u8; // 6342
-	static mut LBA_S202MASK_BIN_IMPL: u8; // 6350
-	static mut LBA_S202TMPK_BIN_IMPL: u8; // 6371
-	static mut LBA_S203MASK_BIN_IMPL: u8; // 6378
-	static mut LBA_S203TMPK_BIN_IMPL: u8; // 6396
-	static mut LBA_S205MASK_BIN_IMPL: u8; // 6403
-	static mut LBA_S205TMPK_BIN_IMPL: u8; // 6431
-	static mut LBA_S206MASK_BIN_IMPL: u8; // 6441
-	static mut LBA_S206TMPK_BIN_IMPL: u8; // 6469
-	static mut LBA_S210MASK_BIN_IMPL: u8; // 6479
-	static mut LBA_S210TMPK_BIN_IMPL: u8; // 6506
-	static mut LBA_S211MASK_BIN_IMPL: u8; // 6514
-	static mut LBA_S211TMPK_BIN_IMPL: u8; // 6542
-	static mut LBA_S212MASK_BIN_IMPL: u8; // 6549
-	static mut LBA_S212TMPK_BIN_IMPL: u8; // 6574
-	static mut LBA_S218MASK_BIN_IMPL: u8; // 6577
-	static mut LBA_S218TMPK_BIN_IMPL: u8; // 6592
-	static mut LBA_S219MASK_BIN_IMPL: u8; // 6596
-	static mut LBA_S219TMPK_BIN_IMPL: u8; // 6612
-	static mut LBA_S220MASK_BIN_IMPL: u8; // 6616
-	static mut LBA_S220TMPK_BIN_IMPL: u8; // 6625
-	static mut LBA_S221MASK_BIN_IMPL: u8; // 6630
-	static mut LBA_S221TMPK_BIN_IMPL: u8; // 6640
-	static mut LBA_S225MASK_BIN_IMPL: u8; // 6645
-	static mut LBA_S225TMPK_BIN_IMPL: u8; // 6654
-	static mut LBA_S226MASK_BIN_IMPL: u8; // 6658
-	static mut LBA_S226TMPK_BIN_IMPL: u8; // 6666
-	static mut LBA_S230MASK_BIN_IMPL: u8; // 6670
-	static mut LBA_S230TMPK_BIN_IMPL: u8; // 6676
-	static mut LBA_S231MASK_BIN_IMPL: u8; // 6680
-	static mut LBA_S231TMPK_BIN_IMPL: u8; // 6686
-	static mut LBA_S232MASK_BIN_IMPL: u8; // 6690
-	static mut LBA_S232TMPK_BIN_IMPL: u8; // 6711
-	static mut LBA_S233MASK_BIN_IMPL: u8; // 6713
-	static mut LBA_S233TMPK_BIN_IMPL: u8; // 6734
-	static mut LBA_S235MASK_BIN_IMPL: u8; // 6736
-	static mut LBA_S235TMPK_BIN_IMPL: u8; // 6744
-	static mut LBA_S236MASK_BIN_IMPL: u8; // 6750
-	static mut LBA_S236TMPK_BIN_IMPL: u8; // 6758
-	static mut LBA_S237MASK_BIN_IMPL: u8; // 6764
-	static mut LBA_S237TMPK_BIN_IMPL: u8; // 6768
-	static mut LBA_S238MASK_BIN_IMPL: u8; // 6771
-	static mut LBA_S238TMPK_BIN_IMPL: u8; // 6775
-	static mut LBA_S240MASK_BIN_IMPL: u8; // 6778
-	static mut LBA_S240TMPK_BIN_IMPL: u8; // 6779
-	static mut LBA_S241MASK_BIN_IMPL: u8; // 6783
-	static mut LBA_S241TMPK_BIN_IMPL: u8; // 6784
-	static mut LBA_S245MASK_BIN_IMPL: u8; // 6788
-	static mut LBA_S245TMPK_BIN_IMPL: u8; // 6815
-	static mut LBA_S246MASK_BIN_IMPL: u8; // 6819
-	static mut LBA_S246TMPK_BIN_IMPL: u8; // 6840
-	static mut LBA_S250MASK_BIN_IMPL: u8; // 6844
-	static mut LBA_S250TMPK_BIN_IMPL: u8; // 6856
-	static mut LBA_S251MASK_BIN_IMPL: u8; // 6859
-	static mut LBA_S251TMPK_BIN_IMPL: u8; // 6867
-	static mut LBA_S255MASK_BIN_IMPL: u8; // 6870
-	static mut LBA_S255TMPK_BIN_IMPL: u8; // 6877
-	static mut LBA_S256MASK_BIN_IMPL: u8; // 6881
-	static mut LBA_S256TMPK_BIN_IMPL: u8; // 6889
-	static mut LBA_S260MASK_BIN_IMPL: u8; // 6893
-	static mut LBA_S260TMPK_BIN_IMPL: u8; // 6922
-	static mut LBA_S261MASK_BIN_IMPL: u8; // 6929
-	static mut LBA_S261TMPK_BIN_IMPL: u8; // 6949
-	static mut LBA_S270MASK_BIN_IMPL: u8; // 6955
-	static mut LBA_S270TMPK_BIN_IMPL: u8; // 6969
-	static mut LBA_S271MASK_BIN_IMPL: u8; // 6972
-	static mut LBA_S271TMPK_BIN_IMPL: u8; // 6987
-	static mut LBA_S275MASK_BIN_IMPL: u8; // 6990
-	static mut LBA_S275TMPK_BIN_IMPL: u8; // 7004
-	static mut LBA_S276MASK_BIN_IMPL: u8; // 7008
-	static mut LBA_S276TMPK_BIN_IMPL: u8; // 7018
-	static mut LBA_S280MASK_BIN_IMPL: u8; // 7022
-	static mut LBA_S280TMPK_BIN_IMPL: u8; // 7032
-	static mut LBA_S281MASK_BIN_IMPL: u8; // 7035
-	static mut LBA_S281TMPK_BIN_IMPL: u8; // 7042
-	static mut LBA_S285MASK_BIN_IMPL: u8; // 7045
-	static mut LBA_S285TMPK_BIN_IMPL: u8; // 7060
-	static mut LBA_S286MASK_BIN_IMPL: u8; // 7067
-	static mut LBA_S286TMPK_BIN_IMPL: u8; // 7081
-	static mut LBA_S290MASK_BIN_IMPL: u8; // 7088
-	static mut LBA_S290TMPK_BIN_IMPL: u8; // 7103
-	static mut LBA_S291MASK_BIN_IMPL: u8; // 7110
-	static mut LBA_S291TMPK_BIN_IMPL: u8; // 7125
-	static mut LBA_S295MASK_BIN_IMPL: u8; // 7132
-	static mut LBA_S295TMPK_BIN_IMPL: u8; // 7134
-	static mut LBA_S296MASK_BIN_IMPL: u8; // 7137
-	static mut LBA_S296TMPK_BIN_IMPL: u8; // 7139
-	static mut LBA_S300MASK_BIN_IMPL: u8; // 7141
-	static mut LBA_S300TMPK_BIN_IMPL: u8; // 7155
-	static mut LBA_S301MASK_BIN_IMPL: u8; // 7166
-	static mut LBA_S301TMPK_BIN_IMPL: u8; // 7180
-	static mut LBA_S305MASK_BIN_IMPL: u8; // 7190
-	static mut LBA_S305TMPK_BIN_IMPL: u8; // 7206
-	static mut LBA_S306MASK_BIN_IMPL: u8; // 7210
-	static mut LBA_S306TMPK_BIN_IMPL: u8; // 7225
-	static mut LBA_S310MASK_BIN_IMPL: u8; // 7229
-	static mut LBA_S310TMPK_BIN_IMPL: u8; // 7247
-	static mut LBA_S311MASK_BIN_IMPL: u8; // 7251
-	static mut LBA_S311TMPK_BIN_IMPL: u8; // 7271
-	static mut LBA_S315MASK_BIN_IMPL: u8; // 7275
-	static mut LBA_S315TMPK_BIN_IMPL: u8; // 7289
-	static mut LBA_S316MASK_BIN_IMPL: u8; // 7296
-	static mut LBA_S316TMPK_BIN_IMPL: u8; // 7310
-	static mut LBA_S320MASK_BIN_IMPL: u8; // 7317
-	static mut LBA_S320TMPK_BIN_IMPL: u8; // 7333
-	static mut LBA_S321MASK_BIN_IMPL: u8; // 7342
-	static mut LBA_S321TMPK_BIN_IMPL: u8; // 7358
-	static mut LBA_S325MASK_BIN_IMPL: u8; // 7366
-	static mut LBA_S325TMPK_BIN_IMPL: u8; // 7389
-	static mut LBA_S326MASK_BIN_IMPL: u8; // 7392
-	static mut LBA_S326TMPK_BIN_IMPL: u8; // 7394
-	static mut LBA_S330MASK_BIN_IMPL: u8; // 7397
-	static mut LBA_S330TMPK_BIN_IMPL: u8; // 7413
-	static mut LBA_S331MASK_BIN_IMPL: u8; // 7436
-	static mut LBA_S331TMPK_BIN_IMPL: u8; // 7450
-	static mut LBA_S335MASK_BIN_IMPL: u8; // 7474
-	static mut LBA_S335TMPK_BIN_IMPL: u8; // 7479
-	static mut LBA_S336MASK_BIN_IMPL: u8; // 7483
-	static mut LBA_S336TMPK_BIN_IMPL: u8; // 7486
-	static mut LBA_S340MASK_BIN_IMPL: u8; // 7490
-	static mut LBA_S340TMPK_BIN_IMPL: u8; // 7503
-	static mut LBA_S341MASK_BIN_IMPL: u8; // 7514
-	static mut LBA_S341TMPK_BIN_IMPL: u8; // 7525
-	static mut LBA_S345MASK_BIN_IMPL: u8; // 7537
-	static mut LBA_S345TMPK_BIN_IMPL: u8; // 7555
-	static mut LBA_S346MASK_BIN_IMPL: u8; // 7576
-	static mut LBA_S346TMPK_BIN_IMPL: u8; // 7585
-	static mut LBA_S350MASK_BIN_IMPL: u8; // 7606
-	static mut LBA_S350TMPK_BIN_IMPL: u8; // 7611
-	static mut LBA_S351MASK_BIN_IMPL: u8; // 7621
-	static mut LBA_S351TMPK_BIN_IMPL: u8; // 7624
-	static mut LBA_S355MASK_BIN_IMPL: u8; // 7634
-	static mut LBA_S355TMPK_BIN_IMPL: u8; // 7645
-	static mut LBA_S356MASK_BIN_IMPL: u8; // 7658
-	static mut LBA_S356TMPK_BIN_IMPL: u8; // 7669
-	static mut LBA_S360MASK_BIN_IMPL: u8; // 7682
-	static mut LBA_S360TMPK_BIN_IMPL: u8; // 7689
-	static mut LBA_S361MASK_BIN_IMPL: u8; // 7695
-	static mut LBA_S361TMPK_BIN_IMPL: u8; // 7702
-	static mut LBA_S365MASK_BIN_IMPL: u8; // 7708
-	static mut LBA_S365TMPK_BIN_IMPL: u8; // 7714
-	static mut LBA_S366MASK_BIN_IMPL: u8; // 7718
-	static mut LBA_S366TMPK_BIN_IMPL: u8; // 7724
-	static mut LBA_S370MASK_BIN_IMPL: u8; // 7730
-	static mut LBA_S370TMPK_BIN_IMPL: u8; // 7748
-	static mut LBA_S371MASK_BIN_IMPL: u8; // 7760
-	static mut LBA_S371TMPK_BIN_IMPL: u8; // 7778
-	static mut LBA_S375MASK_BIN_IMPL: u8; // 7794
-	static mut LBA_S375TMPK_BIN_IMPL: u8; // 7798
-	static mut LBA_S376MASK_BIN_IMPL: u8; // 7812
-	static mut LBA_S376TMPK_BIN_IMPL: u8; // 7813
-	static mut LBA_S380MASK_BIN_IMPL: u8; // 7826
-	static mut LBA_S380TMPK_BIN_IMPL: u8; // 7838
-	static mut LBA_S381MASK_BIN_IMPL: u8; // 7851
-	static mut LBA_S381TMPK_BIN_IMPL: u8; // 7861
-	static mut LBA_S385MASK_BIN_IMPL: u8; // 7873
-	static mut LBA_S385TMPK_BIN_IMPL: u8; // 7885
-	static mut LBA_S386MASK_BIN_IMPL: u8; // 7901
-	static mut LBA_S386TMPK_BIN_IMPL: u8; // 7914
-	static mut LBA_S395MASK_BIN_IMPL: u8; // 7930
-	static mut LBA_S395TMPK_BIN_IMPL: u8; // 7946
-	static mut LBA_S396MASK_BIN_IMPL: u8; // 7974
-	static mut LBA_S396TMPK_BIN_IMPL: u8; // 7988
-	static mut LBA_S400MASK_BIN_IMPL: u8; // 8016
-	static mut LBA_S400TMPK_BIN_IMPL: u8; // 8031
-	static mut LBA_S401MASK_BIN_IMPL: u8; // 8071
-	static mut LBA_S401TMPK_BIN_IMPL: u8; // 8083
-	static mut LBA_S405MASK_BIN_IMPL: u8; // 8123
-	static mut LBA_S405TMPK_BIN_IMPL: u8; // 8137
-	static mut LBA_S406MASK_BIN_IMPL: u8; // 8148
-	static mut LBA_S406TMPK_BIN_IMPL: u8; // 8159
-	static mut LBA_S410MASK_BIN_IMPL: u8; // 8170
-	static mut LBA_S410TMPK_BIN_IMPL: u8; // 8175
-	static mut LBA_S411MASK_BIN_IMPL: u8; // 8179
-	static mut LBA_S411TMPK_BIN_IMPL: u8; // 8184
-	static mut LBA_S415BG01_BIN_IMPL: u8; // 8188
-	static mut LBA_S415BG02_BIN_IMPL: u8; // 8286
-	static mut LBA_S415MASK_BIN_IMPL: u8; // 8384
-	static mut LBA_S415TMPK_BIN_IMPL: u8; // 8409
-	static mut LBA_S420MASK_BIN_IMPL: u8; // 8411
-	static mut LBA_S420TMPK_BIN_IMPL: u8; // 8434
-	static mut LBA_S421MASK_BIN_IMPL: u8; // 8440
-	static mut LBA_S421TMPK_BIN_IMPL: u8; // 8463
-	static mut LBA_S425MASK_BIN_IMPL: u8; // 8470
-	static mut LBA_S425TMPK_BIN_IMPL: u8; // 8483
-	static mut LBA_S426MASK_BIN_IMPL: u8; // 8488
-	static mut LBA_S426TMPK_BIN_IMPL: u8; // 8501
-	static mut LBA_S430MASK_BIN_IMPL: u8; // 8506
-	static mut LBA_S430TMPK_BIN_IMPL: u8; // 8527
-	static mut LBA_S431MASK_BIN_IMPL: u8; // 8534
-	static mut LBA_S431TMPK_BIN_IMPL: u8; // 8539
-	static mut LBA_S435MASK_BIN_IMPL: u8; // 8546
-	static mut LBA_S435TMPK_BIN_IMPL: u8; // 8551
-	static mut LBA_S436MASK_BIN_IMPL: u8; // 8555
-	static mut LBA_S436TMPK_BIN_IMPL: u8; // 8560
-	static mut LBA_S440MASK_BIN_IMPL: u8; // 8564
-	static mut LBA_S440TMPK_BIN_IMPL: u8; // 8568
-	static mut LBA_S441MASK_BIN_IMPL: u8; // 8571
-	static mut LBA_S441TMPK_BIN_IMPL: u8; // 8575
-	static mut LBA_S445MASK_BIN_IMPL: u8; // 8578
-	static mut LBA_S445TMPK_BIN_IMPL: u8; // 8587
-	static mut LBA_S446MASK_BIN_IMPL: u8; // 8596
-	static mut LBA_S446TMPK_BIN_IMPL: u8; // 8602
-	static mut LBA_S450MASK_BIN_IMPL: u8; // 8611
-	static mut LBA_S450TMPK_BIN_IMPL: u8; // 8619
-	static mut LBA_S451MASK_BIN_IMPL: u8; // 8640
-	static mut LBA_S451TMPK_BIN_IMPL: u8; // 8646
-	static mut LBA_S455MASK_BIN_IMPL: u8; // 8666
-	static mut LBA_S455TMPK_BIN_IMPL: u8; // 8681
-	static mut LBA_S456MASK_BIN_IMPL: u8; // 8691
-	static mut LBA_S456TMPK_BIN_IMPL: u8; // 8703
-	static mut LBA_S460MASK_BIN_IMPL: u8; // 8713
-	static mut LBA_S460TMPK_BIN_IMPL: u8; // 8727
-	static mut LBA_S465MASK_BIN_IMPL: u8; // 8730
-	static mut LBA_S465TMPK_BIN_IMPL: u8; // 8744
-	static mut LBA_S466MASK_BIN_IMPL: u8; // 8754
-	static mut LBA_S466TMPK_BIN_IMPL: u8; // 8764
-	static mut LBA_S470MASK_BIN_IMPL: u8; // 8774
-	static mut LBA_S470TMPK_BIN_IMPL: u8; // 8792
-	static mut LBA_S471MASK_BIN_IMPL: u8; // 8798
-	static mut LBA_S471TMPK_BIN_IMPL: u8; // 8805
-	static mut LBA_S475MASK_BIN_IMPL: u8; // 8811
-	static mut LBA_S475TMPK_BIN_IMPL: u8; // 8813
-	static mut LBA_S476MASK_BIN_IMPL: u8; // 8816
-	static mut LBA_S476TMPK_BIN_IMPL: u8; // 8818
-	static mut LBA_S480MASK_BIN_IMPL: u8; // 8820
-	static mut LBA_S480TMPK_BIN_IMPL: u8; // 8845
-	static mut LBA_S481MASK_BIN_IMPL: u8; // 8878
-	static mut LBA_S481TMPK_BIN_IMPL: u8; // 8899
-	static mut LBA_S485MASK_BIN_IMPL: u8; // 8932
-	static mut LBA_S485TMPK_BIN_IMPL: u8; // 8943
-	static mut LBA_S486MASK_BIN_IMPL: u8; // 8960
-	static mut LBA_S486TMPK_BIN_IMPL: u8; // 8970
-	static mut LBA_S490MASK_BIN_IMPL: u8; // 8986
-	static mut LBA_S490TMPK_BIN_IMPL: u8; // 9014
-	static mut LBA_S491MASK_BIN_IMPL: u8; // 9026
-	static mut LBA_S491TMPK_BIN_IMPL: u8; // 9051
-	static mut LBA_S495MASK_BIN_IMPL: u8; // 9063
-	static mut LBA_S495TMPK_BIN_IMPL: u8; // 9068
-	static mut LBA_S496MASK_BIN_IMPL: u8; // 9075
-	static mut LBA_S496TMPK_BIN_IMPL: u8; // 9079
-	static mut LBA_S500MASK_BIN_IMPL: u8; // 9086
-	static mut LBA_S500TMPK_BIN_IMPL: u8; // 9096
-	static mut LBA_S501MASK_BIN_IMPL: u8; // 9108
-	static mut LBA_S501TMPK_BIN_IMPL: u8; // 9118
-	static mut LBA_S505MASK_BIN_IMPL: u8; // 9129
-	static mut LBA_S505TMPK_BIN_IMPL: u8; // 9136
-	static mut LBA_S506MASK_BIN_IMPL: u8; // 9139
-	static mut LBA_S506TMPK_BIN_IMPL: u8; // 9146
-	static mut LBA_S520MASK_BIN_IMPL: u8; // 9150
-	static mut LBA_S520TMPK_BIN_IMPL: u8; // 9159
-	static mut LBA_S521MASK_BIN_IMPL: u8; // 9167
-	static mut LBA_S521TMPK_BIN_IMPL: u8; // 9176
-	static mut LBA_S525MASK_BIN_IMPL: u8; // 9184
-	static mut LBA_S525TMPK_BIN_IMPL: u8; // 9202
-	static mut LBA_S526MASK_BIN_IMPL: u8; // 9211
-	static mut LBA_S526TMPK_BIN_IMPL: u8; // 9223
-	static mut LBA_S530MASK_BIN_IMPL: u8; // 9232
-	static mut LBA_S530TMPK_BIN_IMPL: u8; // 9236
-	static mut LBA_S531MASK_BIN_IMPL: u8; // 9245
-	static mut LBA_S531TMPK_BIN_IMPL: u8; // 9249
-	static mut LBA_S535MASK_BIN_IMPL: u8; // 9258
-	static mut LBA_S535TMPK_BIN_IMPL: u8; // 9270
-	static mut LBA_S537MASK_BIN_IMPL: u8; // 9278
-	static mut LBA_S537TMPK_BIN_IMPL: u8; // 9280
-	static mut LBA_S538MASK_BIN_IMPL: u8; // 9288
-	static mut LBA_S538TMPK_BIN_IMPL: u8; // 9300
-	static mut LBA_S540MASK_BIN_IMPL: u8; // 9308
-	static mut LBA_S540TMPK_BIN_IMPL: u8; // 9321
-	static mut LBA_S545MASK_BIN_IMPL: u8; // 9339
-	static mut LBA_S545TMPK_BIN_IMPL: u8; // 9363
-	static mut LBA_S550MASK_BIN_IMPL: u8; // 9369
-	static mut LBA_S550TMPK_BIN_IMPL: u8; // 9388
-	static mut LBA_S551MASK_BIN_IMPL: u8; // 9406
-	static mut LBA_S551TMPK_BIN_IMPL: u8; // 9413
-	static mut LBA_S555MASK_BIN_IMPL: u8; // 9431
-	static mut LBA_S555TMPK_BIN_IMPL: u8; // 9447
-	static mut LBA_S556MASK_BIN_IMPL: u8; // 9482
-	static mut LBA_S556TMPK_BIN_IMPL: u8; // 9495
-	static mut LBA_S560MASK_BIN_IMPL: u8; // 9529
-	static mut LBA_S560TMPK_BIN_IMPL: u8; // 9554
-	static mut LBA_S561MASK_BIN_IMPL: u8; // 9564
-	static mut LBA_S561TMPK_BIN_IMPL: u8; // 9588
-	static mut LBA_S565MASK_BIN_IMPL: u8; // 9598
-	static mut LBA_S565TMPK_BIN_IMPL: u8; // 9611
-	static mut LBA_S566MASK_BIN_IMPL: u8; // 9630
-	static mut LBA_S566TMPK_BIN_IMPL: u8; // 9641
-	static mut LBA_S570MASK_BIN_IMPL: u8; // 9660
-	static mut LBA_S570TMPK_BIN_IMPL: u8; // 9684
-	static mut LBA_S571MASK_BIN_IMPL: u8; // 9695
-	static mut LBA_S571TMPK_BIN_IMPL: u8; // 9704
-	static mut LBA_S575MASK_BIN_IMPL: u8; // 9715
-	static mut LBA_S575TMPK_BIN_IMPL: u8; // 9726
-	static mut LBA_S576MASK_BIN_IMPL: u8; // 9737
-	static mut LBA_S576TMPK_BIN_IMPL: u8; // 9748
-	static mut LBA_S580MASK_BIN_IMPL: u8; // 9758
-	static mut LBA_S580TMPK_BIN_IMPL: u8; // 9778
-	static mut LBA_S581MASK_BIN_IMPL: u8; // 9799
-	static mut LBA_S581TMPK_BIN_IMPL: u8; // 9818
-	static mut LBA_S585MASK_BIN_IMPL: u8; // 9837
-	static mut LBA_S585TMPK_BIN_IMPL: u8; // 9845
-	static mut LBA_S586MASK_BIN_IMPL: u8; // 9847
-	static mut LBA_S586TMPK_BIN_IMPL: u8; // 9849
-	static mut LBA_S590MASK_BIN_IMPL: u8; // 9851
-	static mut LBA_S590TMPK_BIN_IMPL: u8; // 9859
-	static mut LBA_S591MASK_BIN_IMPL: u8; // 9861
-	static mut LBA_S591TMPK_BIN_IMPL: u8; // 9862
-	static mut LBA_S595MASK_BIN_IMPL: u8; // 9864
-	static mut LBA_S595TMPK_BIN_IMPL: u8; // 9872
-	static mut LBA_S596MASK_BIN_IMPL: u8; // 9874
-	static mut LBA_S596TMPK_BIN_IMPL: u8; // 9875
-	static mut LBA_S600MASK_BIN_IMPL: u8; // 9877
-	static mut LBA_S600TMPK_BIN_IMPL: u8; // 9885
-	static mut LBA_S601MASK_BIN_IMPL: u8; // 9887
-	static mut LBA_S601TMPK_BIN_IMPL: u8; // 9888
-	static mut LBA_S605MASK_BIN_IMPL: u8; // 9890
-	static mut LBA_S605TMPK_BIN_IMPL: u8; // 9895
-	static mut LBA_S606MASK_BIN_IMPL: u8; // 9900
-	static mut LBA_S606TMPK_BIN_IMPL: u8; // 9905
-	static mut LBA_S610MASK_BIN_IMPL: u8; // 9910
-	static mut LBA_S610TMPK_BIN_IMPL: u8; // 9924
-	static mut LBA_S611MASK_BIN_IMPL: u8; // 9931
-	static mut LBA_S611TMPK_BIN_IMPL: u8; // 9946
-	static mut LBA_S615MASK_BIN_IMPL: u8; // 9953
-	static mut LBA_S615TMPK_BIN_IMPL: u8; // 9968
-	static mut LBA_S616MASK_BIN_IMPL: u8; // 9975
-	static mut LBA_S616TMPK_BIN_IMPL: u8; // 9985
-	static mut LBA_S620MASK_BIN_IMPL: u8; // 9991
-	static mut LBA_S620TMPK_BIN_IMPL: u8; // 9996
-	static mut LBA_S621MASK_BIN_IMPL: u8; // 10001
-	static mut LBA_S621TMPK_BIN_IMPL: u8; // 10006
-	static mut LBA_S625MASK_BIN_IMPL: u8; // 10011
-	static mut LBA_S625TMPK_BIN_IMPL: u8; // 10016
-	static mut LBA_S630MASK_BIN_IMPL: u8; // 10021
-	static mut LBA_S630TMPK_BIN_IMPL: u8; // 10029
-	static mut LBA_S631MASK_BIN_IMPL: u8; // 10041
-	static mut LBA_S631TMPK_BIN_IMPL: u8; // 10046
-	static mut LBA_S635MASK_BIN_IMPL: u8; // 10058
-	static mut LBA_S635TMPK_BIN_IMPL: u8; // 10074
-	static mut LBA_S636MASK_BIN_IMPL: u8; // 10096
-	static mut LBA_S636TMPK_BIN_IMPL: u8; // 10106
-	static mut LBA_S640MASK_BIN_IMPL: u8; // 10127
-	static mut LBA_S640TMPK_BIN_IMPL: u8; // 10141
-	static mut LBA_S641MASK_BIN_IMPL: u8; // 10161
-	static mut LBA_S641TMPK_BIN_IMPL: u8; // 10171
-	static mut LBA_S645MASK_BIN_IMPL: u8; // 10191
-	static mut LBA_S645TMPK_BIN_IMPL: u8; // 10200
-	static mut LBA_S646MASK_BIN_IMPL: u8; // 10210
-	static mut LBA_S646TMPK_BIN_IMPL: u8; // 10216
-	static mut LBA_S650MASK_BIN_IMPL: u8; // 10226
-	static mut LBA_S650TMPK_BIN_IMPL: u8; // 10233
-	static mut LBA_S651MASK_BIN_IMPL: u8; // 10245
-	static mut LBA_S651TMPK_BIN_IMPL: u8; // 10252
-	static mut LBA_S655MASK_BIN_IMPL: u8; // 10264
-	static mut LBA_S655TMPK_BIN_IMPL: u8; // 10267
-	static mut LBA_S656MASK_BIN_IMPL: u8; // 10272
-	static mut LBA_S656TMPK_BIN_IMPL: u8; // 10275
-	static mut LBA_S660MASK_BIN_IMPL: u8; // 10280
-	static mut LBA_S660TMPK_BIN_IMPL: u8; // 10310
-	static mut LBA_S661MASK_BIN_IMPL: u8; // 10320
-	static mut LBA_S661TMPK_BIN_IMPL: u8; // 10348
-	static mut LBA_S675MASK_BIN_IMPL: u8; // 10358
-	static mut LBA_S675TMPK_BIN_IMPL: u8; // 10372
-	static mut LBA_S676MASK_BIN_IMPL: u8; // 10381
-	static mut LBA_S676TMPK_BIN_IMPL: u8; // 10393
-	static mut LBA_S680MASK_BIN_IMPL: u8; // 10401
-	static mut LBA_S680TMPK_BIN_IMPL: u8; // 10418
-	static mut LBA_S685MASK_BIN_IMPL: u8; // 10420
-	static mut LBA_S685TMPK_BIN_IMPL: u8; // 10429
-	static mut LBA_S686MASK_BIN_IMPL: u8; // 10439
-	static mut LBA_S686TMPK_BIN_IMPL: u8; // 10448
-	static mut LBA_S690MASK_BIN_IMPL: u8; // 10457
-	static mut LBA_S690TMPK_BIN_IMPL: u8; // 10468
-	static mut LBA_S691MASK_BIN_IMPL: u8; // 10486
-	static mut LBA_S691TMPK_BIN_IMPL: u8; // 10495
-	static mut LBA_S695MASK_BIN_IMPL: u8; // 10513
-	static mut LBA_S695TMPK_BIN_IMPL: u8; // 10529
-	static mut LBA_S696MASK_BIN_IMPL: u8; // 10542
-	static mut LBA_S696TMPK_BIN_IMPL: u8; // 10556
-	static mut LBA_S700MASK_BIN_IMPL: u8; // 10570
-	static mut LBA_S700TMPK_BIN_IMPL: u8; // 10573
-	static mut LBA_S701MASK_BIN_IMPL: u8; // 10575
-	static mut LBA_S701TMPK_BIN_IMPL: u8; // 10578
-	static mut LBA_S705MASK_BIN_IMPL: u8; // 10580
-	static mut LBA_S705TMPK_BIN_IMPL: u8; // 10584
-	static mut LBA_S706MASK_BIN_IMPL: u8; // 10601
-	static mut LBA_S706TMPK_BIN_IMPL: u8; // 10603
-	static mut LBA_S710MASK_BIN_IMPL: u8; // 10620
-	static mut LBA_S710TMPK_BIN_IMPL: u8; // 10639
-	static mut LBA_S711MASK_BIN_IMPL: u8; // 10656
-	static mut LBA_S711TMPK_BIN_IMPL: u8; // 10672
-	static mut LBA_S715MASK_BIN_IMPL: u8; // 10689
-	static mut LBA_S715TMPK_BIN_IMPL: u8; // 10699
-	static mut LBA_S716MASK_BIN_IMPL: u8; // 10713
-	static mut LBA_S716TMPK_BIN_IMPL: u8; // 10721
-	static mut LBA_S720MASK_BIN_IMPL: u8; // 10735
-	static mut LBA_S720TMPK_BIN_IMPL: u8; // 10759
-	static mut LBA_S721MASK_BIN_IMPL: u8; // 10770
-	static mut LBA_S721TMPK_BIN_IMPL: u8; // 10778
-	static mut LBA_S725MASK_BIN_IMPL: u8; // 10789
-	static mut LBA_S725TMPK_BIN_IMPL: u8; // 10797
-	static mut LBA_S726MASK_BIN_IMPL: u8; // 10806
-	static mut LBA_S726TMPK_BIN_IMPL: u8; // 10815
-	static mut LBA_S730MASK_BIN_IMPL: u8; // 10824
-	static mut LBA_S730TMPK_BIN_IMPL: u8; // 10835
-	static mut LBA_S731MASK_BIN_IMPL: u8; // 10837
-	static mut LBA_S731TMPK_BIN_IMPL: u8; // 10848
-	static mut LBA_S735MASK_BIN_IMPL: u8; // 10850
-	static mut LBA_S735TMPK_BIN_IMPL: u8; // 10859
-	static mut LBA_S736MASK_BIN_IMPL: u8; // 10879
-	static mut LBA_S736TMPK_BIN_IMPL: u8; // 10888
-	static mut LBA_S740MASK_BIN_IMPL: u8; // 10908
-	static mut LBA_S740TMPK_BIN_IMPL: u8; // 10923
-	static mut LBA_S741MASK_BIN_IMPL: u8; // 10937
-	static mut LBA_S741TMPK_BIN_IMPL: u8; // 10952
-	static mut LBA_S745MASK_BIN_IMPL: u8; // 10966
-	static mut LBA_S745TMPK_BIN_IMPL: u8; // 10973
-	static mut LBA_S746MASK_BIN_IMPL: u8; // 10989
-	static mut LBA_S746TMPK_BIN_IMPL: u8; // 10996
-	static mut LBA_S750MASK_BIN_IMPL: u8; // 11014
-	static mut LBA_S750TMPK_BIN_IMPL: u8; // 11027
-	static mut LBA_S755MASK_BIN_IMPL: u8; // 11032
-	static mut LBA_S755TMPK_BIN_IMPL: u8; // 11050
-	static mut LBA_S756MASK_BIN_IMPL: u8; // 11059
-	static mut LBA_S756TMPK_BIN_IMPL: u8; // 11077
-	static mut LBA_S760MASK_BIN_IMPL: u8; // 11086
-	static mut LBA_S760TMPK_BIN_IMPL: u8; // 11093
-	static mut LBA_S761MASK_BIN_IMPL: u8; // 11103
-	static mut LBA_S761TMPK_BIN_IMPL: u8; // 11110
-	static mut LBA_S780MASK_BIN_IMPL: u8; // 11120
-	static mut LBA_S780TMPK_BIN_IMPL: u8; // 11154
-	static mut LBA_S785MASK_BIN_IMPL: u8; // 11156
-	static mut LBA_S785TMPK_BIN_IMPL: u8; // 11169
-	static mut LBA_S790MASK_BIN_IMPL: u8; // 11172
-	static mut LBA_S790TMPK_BIN_IMPL: u8; // 11194
-	static mut LBA_S795MASK_BIN_IMPL: u8; // 11196
-	static mut LBA_S795TMPK_BIN_IMPL: u8; // 11206
-	static mut LBA_S800MASK_BIN_IMPL: u8; // 11216
-	static mut LBA_S800TMPK_BIN_IMPL: u8; // 11233
-	static mut LBA_S805MASK_BIN_IMPL: u8; // 11248
-	static mut LBA_S805TMPK_BIN_IMPL: u8; // 11256
-	static mut LBA_S810MASK_BIN_IMPL: u8; // 11260
-	static mut LBA_S810TMPK_BIN_IMPL: u8; // 11278
-	static mut LBA_S815BG01_BIN_IMPL: u8; // 11301
-	static mut LBA_S815BG02_BIN_IMPL: u8; // 11383
-	static mut LBA_S815MASK_BIN_IMPL: u8; // 11465
-	static mut LBA_S815TMPK_BIN_IMPL: u8; // 11501
-	static mut LBA_S820MASK_BIN_IMPL: u8; // 11514
-	static mut LBA_S820TMPK_BIN_IMPL: u8; // 11520
-	static mut LBA_S825MASK_BIN_IMPL: u8; // 11527
-	static mut LBA_S825TMPK_BIN_IMPL: u8; // 11551
-	static mut LBA_S830MASK_BIN_IMPL: u8; // 11558
-	static mut LBA_S830TMPK_BIN_IMPL: u8; // 11575
-	static mut LBA_S835MASK_BIN_IMPL: u8; // 11579
-	static mut LBA_S835TMPK_BIN_IMPL: u8; // 11596
-	static mut LBA_S840MASK_BIN_IMPL: u8; // 11601
-	static mut LBA_S840TMPK_BIN_IMPL: u8; // 11625
-	static mut LBA_S845MASK_BIN_IMPL: u8; // 11631
-	static mut LBA_S845TMPK_BIN_IMPL: u8; // 11648
-	static mut LBA_S850MASK_BIN_IMPL: u8; // 11653
-	static mut LBA_S850TMPK_BIN_IMPL: u8; // 11664
-	static mut LBA_S855MASK_BIN_IMPL: u8; // 11668
-	static mut LBA_S855TMPK_BIN_IMPL: u8; // 11698
-	static mut LBA_S860MASK_BIN_IMPL: u8; // 11706
-	static mut LBA_S860TMPK_BIN_IMPL: u8; // 11713
-	static mut LBA_S865MASK_BIN_IMPL: u8; // 11717
-	static mut LBA_S865TMPK_BIN_IMPL: u8; // 11720
-	static mut LBA_S870MASK_BIN_IMPL: u8; // 11723
-	static mut LBA_S870TMPK_BIN_IMPL: u8; // 11726
-	static mut LBA_S875MASK_BIN_IMPL: u8; // 11729
-	static mut LBA_S875TMPK_BIN_IMPL: u8; // 11730
-	static mut LBA_S880MASK_BIN_IMPL: u8; // 11732
-	static mut LBA_S880TMPK_BIN_IMPL: u8; // 11733
-	static mut LBA_S885MASK_BIN_IMPL: u8; // 11736
-	static mut LBA_S885TMPK_BIN_IMPL: u8; // 11737
-	static mut LBA_S890MASK_BIN_IMPL: u8; // 11740
-	static mut LBA_S890TMPK_BIN_IMPL: u8; // 11741
-	static mut LBA_S895MASK_BIN_IMPL: u8; // 11744
-	static mut LBA_S895TMPK_BIN_IMPL: u8; // 11745
-	static mut LBA_S920MASK_BIN_IMPL: u8; // 11749
-	static mut LBA_S920TMPK_BIN_IMPL: u8; // 11782
-	static mut LBA_S921MASK_BIN_IMPL: u8; // 11790
-	static mut LBA_S921TMPK_BIN_IMPL: u8; // 11810
-	static mut LBA_S922MASK_BIN_IMPL: u8; // 11817
-	static mut LBA_S922TMPK_BIN_IMPL: u8; // 11845
-	static mut LBA_S923MASK_BIN_IMPL: u8; // 11854
-	static mut LBA_S923TMPK_BIN_IMPL: u8; // 11881
-	static mut LBA_S924MASK_BIN_IMPL: u8; // 11886
-	static mut LBA_S924TMPK_BIN_IMPL: u8; // 11895
-	static mut LBA_S925MASK_BIN_IMPL: u8; // 11900
-	static mut LBA_S925TMPK_BIN_IMPL: u8; // 11908
-	static mut LBA_S926MASK_BIN_IMPL: u8; // 11912
-	static mut LBA_S926TMPK_BIN_IMPL: u8; // 11918
-	static mut LBA_S927MASK_BIN_IMPL: u8; // 11922
-	static mut LBA_S927TMPK_BIN_IMPL: u8; // 11943
-	static mut LBA_S928MASK_BIN_IMPL: u8; // 11945
-	static mut LBA_S928TMPK_BIN_IMPL: u8; // 11953
-	static mut LBA_S929MASK_BIN_IMPL: u8; // 11959
-	static mut LBA_S929TMPK_BIN_IMPL: u8; // 11963
-	static mut LBA_S930MASK_BIN_IMPL: u8; // 11966
-	static mut LBA_S930TMPK_BIN_IMPL: u8; // 11967
-	static mut LBA_S931MASK_BIN_IMPL: u8; // 11971
-	static mut LBA_S931TMPK_BIN_IMPL: u8; // 11998
-	static mut LBA_S932MASK_BIN_IMPL: u8; // 12002
-	static mut LBA_S932TMPK_BIN_IMPL: u8; // 12014
-	static mut LBA_S933MASK_BIN_IMPL: u8; // 12017
-	static mut LBA_S933TMPK_BIN_IMPL: u8; // 12024
-	static mut LBA_S934MASK_BIN_IMPL: u8; // 12028
-	static mut LBA_S934TMPK_BIN_IMPL: u8; // 12056
-	static mut LBA_S935MASK_BIN_IMPL: u8; // 12062
-	static mut LBA_S935TMPK_BIN_IMPL: u8; // 12075
-	static mut LBA_S936MASK_BIN_IMPL: u8; // 12078
-	static mut LBA_S936TMPK_BIN_IMPL: u8; // 12092
-	static mut LBA_S937MASK_BIN_IMPL: u8; // 12096
-	static mut LBA_S937TMPK_BIN_IMPL: u8; // 12106
-	static mut LBA_S938MASK_BIN_IMPL: u8; // 12109
-	static mut LBA_S938TMPK_BIN_IMPL: u8; // 12125
-	static mut LBA_S939MASK_BIN_IMPL: u8; // 12133
-	static mut LBA_S939TMPK_BIN_IMPL: u8; // 12156
-	static mut LBA_S940MASK_BIN_IMPL: u8; // 12159
-	static mut LBA_S940TMPK_BIN_IMPL: u8; // 12175
-	static mut LBA_S941MASK_BIN_IMPL: u8; // 12198
-	static mut LBA_S941TMPK_BIN_IMPL: u8; // 12203
-	static mut LBA_S942MASK_BIN_IMPL: u8; // 12207
-	static mut LBA_S942TMPK_BIN_IMPL: u8; // 12220
-	static mut LBA_S943MASK_BIN_IMPL: u8; // 12231
-	static mut LBA_S943TMPK_BIN_IMPL: u8; // 12249
-	static mut LBA_S944MASK_BIN_IMPL: u8; // 12269
-	static mut LBA_S944TMPK_BIN_IMPL: u8; // 12274
-	static mut LBA_S945MASK_BIN_IMPL: u8; // 12283
-	static mut LBA_S945TMPK_BIN_IMPL: u8; // 12294
-	static mut LBA_S946MASK_BIN_IMPL: u8; // 12307
-	static mut LBA_S946TMPK_BIN_IMPL: u8; // 12314
-	static mut LBA_S947MASK_BIN_IMPL: u8; // 12320
-	static mut LBA_S947TMPK_BIN_IMPL: u8; // 12326
-	static mut LBA_S948MASK_BIN_IMPL: u8; // 12330
-	static mut LBA_S948TMPK_BIN_IMPL: u8; // 12348
-	static mut LBA_S949MASK_BIN_IMPL: u8; // 12360
-	static mut LBA_S949TMPK_BIN_IMPL: u8; // 12364
-	static mut LBA_S950MASK_BIN_IMPL: u8; // 12378
-	static mut LBA_S950TMPK_BIN_IMPL: u8; // 12390
-	static mut LBA_S951MASK_BIN_IMPL: u8; // 12402
-	static mut LBA_S951TMPK_BIN_IMPL: u8; // 12414
-	static mut LBA_S952MASK_BIN_IMPL: u8; // 12430
-	static mut LBA_S952TMPK_BIN_IMPL: u8; // 12446
-	static mut LBA_S953MASK_BIN_IMPL: u8; // 12474
-	static mut LBA_S953TMPK_BIN_IMPL: u8; // 12489
-	static mut LBA_S954MASK_BIN_IMPL: u8; // 12528
-	static mut LBA_S954TMPK_BIN_IMPL: u8; // 12542
-	static mut LBA_S955MASK_BIN_IMPL: u8; // 12553
-	static mut LBA_S955TMPK_BIN_IMPL: u8; // 12558
-	static mut LBA_S956MASK_BIN_IMPL: u8; // 12562
-	static mut LBA_S956TMPK_BIN_IMPL: u8; // 12585
-	static mut LBA_S957MASK_BIN_IMPL: u8; // 12591
-	static mut LBA_S957TMPK_BIN_IMPL: u8; // 12604
-	static mut LBA_S958MASK_BIN_IMPL: u8; // 12609
-	static mut LBA_S958TMPK_BIN_IMPL: u8; // 12630
-	static mut LBA_S959MASK_BIN_IMPL: u8; // 12637
-	static mut LBA_S959TMPK_BIN_IMPL: u8; // 12642
-	static mut LBA_S960MASK_BIN_IMPL: u8; // 12646
-	static mut LBA_S960TMPK_BIN_IMPL: u8; // 12670
-	static mut LBA_S961MASK_BIN_IMPL: u8; // 12677
-	static mut LBA_S961TMPK_BIN_IMPL: u8; // 12694
-	static mut LBA_S962MASK_BIN_IMPL: u8; // 12698
-	static mut LBA_S962TMPK_BIN_IMPL: u8; // 12715
-	static mut LBA_S963MASK_BIN_IMPL: u8; // 12720
-	static mut LBA_S963TMPK_BIN_IMPL: u8; // 12744
-	static mut LBA_S964MASK_BIN_IMPL: u8; // 12750
-	static mut LBA_S964TMPK_BIN_IMPL: u8; // 12767
-	static mut LBA_S965MASK_BIN_IMPL: u8; // 12772
-	static mut LBA_S965TMPK_BIN_IMPL: u8; // 12783
-	static mut LBA_S966MASK_BIN_IMPL: u8; // 12787
-	static mut LBA_S966TMPK_BIN_IMPL: u8; // 12817
-	static mut LBA_S967MASK_BIN_IMPL: u8; // 12825
-	static mut LBA_S967TMPK_BIN_IMPL: u8; // 12832
-	static mut LBA_S968MASK_BIN_IMPL: u8; // 12836
-	static mut LBA_S968TMPK_BIN_IMPL: u8; // 12839
-	static mut LBA_S969MASK_BIN_IMPL: u8; // 12842
-	static mut LBA_S969TMPK_BIN_IMPL: u8; // 12845
-	static mut LBA_S970MASK_BIN_IMPL: u8; // 12848
-	static mut LBA_S970TMPK_BIN_IMPL: u8; // 12849
-	static mut LBA_S971MASK_BIN_IMPL: u8; // 12851
-	static mut LBA_S971TMPK_BIN_IMPL: u8; // 12852
-	static mut LBA_S972MASK_BIN_IMPL: u8; // 12855
-	static mut LBA_S972TMPK_BIN_IMPL: u8; // 12856
-	static mut LBA_S973MASK_BIN_IMPL: u8; // 12859
-	static mut LBA_S973TMPK_BIN_IMPL: u8; // 12860
-	static mut LBA_S974MASK_BIN_IMPL: u8; // 12863
-	static mut LBA_S974TMPK_BIN_IMPL: u8; // 12864
-	static mut LBA_SDIGDEMO_BIN_IMPL: u8; // 12868
-	static mut LBA_SSUBDEMO_BIN_IMPL: u8; // 12880
-	static mut LBA_F000COM1_BIN_IMPL: u8; // 12899
-	static mut LBA_F000COM2_BIN_IMPL: u8; // 12916
-	static mut LBA_F000COM3_BIN_IMPL: u8; // 12926
-	static mut LBA_F000COM4_BIN_IMPL: u8; // 12940
-	static mut LBA_PGFGTC00_BIN_IMPL: u8; // 12950
-	static mut LBA_PGFGTW00_BIN_IMPL: u8; // 12952
-	static mut LBA_E000COM1_BIN_IMPL: u8; // 12967
-	static mut LBA_E000COM2_BIN_IMPL: u8; // 13006
-	static mut LBA_E000COM3_BIN_IMPL: u8; // 13016
-	static mut LBA_E000COM4_BIN_IMPL: u8; // 13031
-	static mut LBA_E000EVOL_BIN_IMPL: u8; // 13037
-	static mut LBA_E000JOGL_BIN_IMPL: u8; // 13065
-	static mut LBA_E004BETA_BIN_IMPL: u8; // 13079
-	static mut LBA_E006DEVI_BIN_IMPL: u8; // 13084
-	static mut LBA_E014MONZ_BIN_IMPL: u8; // 13093
-	static mut LBA_E020ANGE_BIN_IMPL: u8; // 13104
-	static mut LBA_E037BAKE_BIN_IMPL: u8; // 13114
-	static mut LBA_E056DIGI_BIN_IMPL: u8; // 13117
-	static mut LBA_E059HOUO_BIN_IMPL: u8; // 13128
-	static mut LBA_E066VAND_BIN_IMPL: u8; // 13138
-	static mut LBA_E110GECO_BIN_IMPL: u8; // 13145
-	static mut LBA_E135DVDR_BIN_IMPL: u8; // 13156
-	static mut LBA_E144ROSE_BIN_IMPL: u8; // 13162
-	static mut LBA_E145VMON_BIN_IMPL: u8; // 13166
-	static mut LBA_E150OMGM_BIN_IMPL: u8; // 13170
-	static mut LBA_E193GRFO_BIN_IMPL: u8; // 13176
-	static mut LBA_E211HANG_BIN_IMPL: u8; // 13181
-	static mut LBA_E229PUKU_BIN_IMPL: u8; // 13191
-	static mut LBA_E230GKWA_BIN_IMPL: u8; // 13194
-	static mut LBA_E234ANGW_BIN_IMPL: u8; // 13200
-	static mut LBA_E245INFR_BIN_IMPL: u8; // 13207
-	static mut LBA_E259EXVM_BIN_IMPL: u8; // 13215
-	static mut LBA_E260STNG_BIN_IMPL: u8; // 13225
-	static mut LBA_E302GAGO_BIN_IMPL: u8; // 13230
-	static mut LBA_E364MUMY_BIN_IMPL: u8; // 13235
-	static mut LBA_E365ARCH_BIN_IMPL: u8; // 13239
-	static mut LBA_E367GRAW_BIN_IMPL: u8; // 13246
-	static mut LBA_E369DUKE_BIN_IMPL: u8; // 13251
-	static mut LBA_E372SGRG_BIN_IMPL: u8; // 13255
-	static mut LBA_E373RENA_BIN_IMPL: u8; // 13258
-	static mut LBA_E374KYBI_BIN_IMPL: u8; // 13267
-	static mut LBA_E375TAOM_BIN_IMPL: u8; // 13276
-	static mut LBA_E377BLZB_BIN_IMPL: u8; // 13280
-	static mut LBA_E381IPDP_BIN_IMPL: u8; // 13286
-	static mut LBA_E383PKEN_BIN_IMPL: u8; // 13295
-	static mut LBA_E385KOGU_BIN_IMPL: u8; // 13299
-	static mut LBA_E386DINO_BIN_IMPL: u8; // 13303
-	static mut LBA_E388GRIZ_BIN_IMPL: u8; // 13312
-	static mut LBA_E389KYKI_BIN_IMPL: u8; // 13315
-	static mut LBA_E390ASLT_BIN_IMPL: u8; // 13325
-	static mut LBA_E430DOR2_BIN_IMPL: u8; // 13330
-	static mut LBA_E431VIK2_BIN_IMPL: u8; // 13338
-	static mut LBA_E433ANO2_BIN_IMPL: u8; // 13347
-	static mut LBA_E434ANT2_BIN_IMPL: u8; // 13351
-	static mut LBA_E438RIDN_BIN_IMPL: u8; // 13360
-	static mut LBA_E439FUJI_BIN_IMPL: u8; // 13369
-	static mut LBA_M468AGNM_BIN_IMPL: u8; // 13372
-	static mut LBA_M469GARM_BIN_IMPL: u8; // 13407
-	static mut LBA_M470AGRY_BIN_IMPL: u8; // 13443
-	static mut LBA_MEFT0039_BIN_IMPL: u8; // 13479
-	static mut LBA_MEFT0065_BIN_IMPL: u8; // 13484
-	static mut LBA_MEFT0066_BIN_IMPL: u8; // 13487
-	static mut LBA_MEFT0085_BIN_IMPL: u8; // 13489
-	static mut LBA_MEFT0086_BIN_IMPL: u8; // 13493
-	static mut LBA_MEFT0087_BIN_IMPL: u8; // 13498
-	static mut LBA_MEFT0088_BIN_IMPL: u8; // 13512
-	static mut LBA_MEFT0089_BIN_IMPL: u8; // 13516
-	static mut LBA_MEFT0090_BIN_IMPL: u8; // 13519
-	static mut LBA_MEFT0091_BIN_IMPL: u8; // 13523
-	static mut LBA_MEFT0092_BIN_IMPL: u8; // 13526
-	static mut LBA_MEFT0093_BIN_IMPL: u8; // 13530
-	static mut LBA_MEFT0094_BIN_IMPL: u8; // 13539
-	static mut LBA_MEFT0095_BIN_IMPL: u8; // 13548
-	static mut LBA_MEFT0096_BIN_IMPL: u8; // 13556
-	static mut LBA_MEFT0097_BIN_IMPL: u8; // 13565
-	static mut LBA_MEFT0098_BIN_IMPL: u8; // 13569
-	static mut LBA_MEFT0099_BIN_IMPL: u8; // 13575
-	static mut LBA_MEFT0100_BIN_IMPL: u8; // 13581
-	static mut LBA_MEFT0101_BIN_IMPL: u8; // 13584
-	static mut LBA_MEFT0102_BIN_IMPL: u8; // 13587
-	static mut LBA_MEFT0103_BIN_IMPL: u8; // 13590
-	static mut LBA_MEFT0106_BIN_IMPL: u8; // 13593
-	static mut LBA_MEFT0107_BIN_IMPL: u8; // 13600
-	static mut LBA_MEFT0108_BIN_IMPL: u8; // 13606
-	static mut LBA_MEFT0109_BIN_IMPL: u8; // 13617
-	static mut LBA_MEFT0113_BIN_IMPL: u8; // 13631
-	static mut LBA_MEFT0114_BIN_IMPL: u8; // 13635
-	static mut LBA_MEFT0115_BIN_IMPL: u8; // 13640
-	static mut LBA_MEFT0116_BIN_IMPL: u8; // 13644
-	static mut LBA_MEFT0201_BIN_IMPL: u8; // 13648
-	static mut LBA_MEFT0202_BIN_IMPL: u8; // 13651
-	static mut LBA_MEFT0203_BIN_IMPL: u8; // 13654
-	static mut LBA_MEFT0204_BIN_IMPL: u8; // 13657
-	static mut LBA_MEFT0205_BIN_IMPL: u8; // 13660
-	static mut LBA_MEFT0206_BIN_IMPL: u8; // 13663
-	static mut LBA_MEFT0207_BIN_IMPL: u8; // 13666
-	static mut LBA_MEFT0208_BIN_IMPL: u8; // 13669
-	static mut LBA_MEFT0209_BIN_IMPL: u8; // 13672
-	static mut LBA_MEFT0210_BIN_IMPL: u8; // 13675
-	static mut LBA_MEFT0211_BIN_IMPL: u8; // 13678
-	static mut LBA_MEFT0212_BIN_IMPL: u8; // 13681
-	static mut LBA_MEFT0213_BIN_IMPL: u8; // 13684
-	static mut LBA_MEFT0214_BIN_IMPL: u8; // 13687
-	static mut LBA_MEFT0215_BIN_IMPL: u8; // 13690
-	static mut LBA_MEFT0216_BIN_IMPL: u8; // 13693
-	static mut LBA_MEFT0217_BIN_IMPL: u8; // 13696
-	static mut LBA_MEFT0218_BIN_IMPL: u8; // 13699
-	static mut LBA_MEFT0219_BIN_IMPL: u8; // 13702
-	static mut LBA_MEFT0220_BIN_IMPL: u8; // 13705
-	static mut LBA_MEFT0221_BIN_IMPL: u8; // 13708
-	static mut LBA_MEFT0222_BIN_IMPL: u8; // 13711
-	static mut LBA_MEFT0223_BIN_IMPL: u8; // 13714
-	static mut LBA_MEFT0224_BIN_IMPL: u8; // 13717
-	static mut LBA_MEFT0225_BIN_IMPL: u8; // 13720
-	static mut LBA_MEFT0226_BIN_IMPL: u8; // 13723
-	static mut LBA_MEFT0301_BIN_IMPL: u8; // 13726
-	static mut LBA_MEFT0302_BIN_IMPL: u8; // 13731
-	static mut LBA_MEFT0303_BIN_IMPL: u8; // 13735
-	static mut LBA_MEFT0306_BIN_IMPL: u8; // 13737
-	static mut LBA_MEFT0307_BIN_IMPL: u8; // 13738
-	static mut LBA_MEFT0308_BIN_IMPL: u8; // 13741
-	static mut LBA_MEFT0309_BIN_IMPL: u8; // 13744
-	static mut LBA_MEFT0310_BIN_IMPL: u8; // 13746
-	static mut LBA_MEFT0311_BIN_IMPL: u8; // 13749
-	static mut LBA_MEFT0312_BIN_IMPL: u8; // 13751
-	static mut LBA_MEFT0313_BIN_IMPL: u8; // 13754
-	static mut LBA_MEFT0314_BIN_IMPL: u8; // 13757
-	static mut LBA_MEFT0315_BIN_IMPL: u8; // 13760
-	static mut LBA_MEFT0316_BIN_IMPL: u8; // 13764
-	static mut LBA_MEFT0317_BIN_IMPL: u8; // 13766
-	static mut LBA_MEFT0318_BIN_IMPL: u8; // 13768
-	static mut LBA_MEFT0319_BIN_IMPL: u8; // 13770
-	static mut LBA_MEFT0320_BIN_IMPL: u8; // 13776
-	static mut LBA_MEFT0321_BIN_IMPL: u8; // 13780
-	static mut LBA_MEFT0322_BIN_IMPL: u8; // 13782
-	static mut LBA_MEFT0323_BIN_IMPL: u8; // 13784
-	static mut LBA_MEFT0324_BIN_IMPL: u8; // 13786
-	static mut LBA_MEFT0325_BIN_IMPL: u8; // 13788
-	static mut LBA_MEFT0326_BIN_IMPL: u8; // 13789
-	static mut LBA_MEFT0327_BIN_IMPL: u8; // 13791
-	static mut LBA_MEFT0328_BIN_IMPL: u8; // 13798
-	static mut LBA_MEFT0329_BIN_IMPL: u8; // 13802
-	static mut LBA_MEFT0330_BIN_IMPL: u8; // 13807
-	static mut LBA_MEFT0331_BIN_IMPL: u8; // 13812
-	static mut LBA_MEFT0332_BIN_IMPL: u8; // 13816
-	static mut LBA_MEFT0333_BIN_IMPL: u8; // 13820
-	static mut LBA_MEFT0334_BIN_IMPL: u8; // 13826
-	static mut LBA_MEFT0335_BIN_IMPL: u8; // 13832
-	static mut LBA_MEFT0336_BIN_IMPL: u8; // 13836
-	static mut LBA_MEFT0337_BIN_IMPL: u8; // 13843
-	static mut LBA_MEFT0338_BIN_IMPL: u8; // 13846
-	static mut LBA_MEFT0339_BIN_IMPL: u8; // 13849
-	static mut LBA_MEFT0340_BIN_IMPL: u8; // 13851
-	static mut LBA_MEFT0341_BIN_IMPL: u8; // 13856
-	static mut LBA_MEFT0342_BIN_IMPL: u8; // 13860
-	static mut LBA_MEFT0343_BIN_IMPL: u8; // 13864
-	static mut LBA_MEFT0344_BIN_IMPL: u8; // 13868
-	static mut LBA_MEFT0345_BIN_IMPL: u8; // 13871
-	static mut LBA_MEFT0346_BIN_IMPL: u8; // 13874
-	static mut LBA_MEFT0347_BIN_IMPL: u8; // 13877
-	static mut LBA_MEFT0348_BIN_IMPL: u8; // 13878
-	static mut LBA_MEFT0349_BIN_IMPL: u8; // 13880
-	static mut LBA_MEFT0350_BIN_IMPL: u8; // 13886
-	static mut LBA_MEFT0351_BIN_IMPL: u8; // 13895
-	static mut LBA_MEFT0352_BIN_IMPL: u8; // 13901
-	static mut LBA_MEFT0353_BIN_IMPL: u8; // 13906
-	static mut LBA_MEFT0354_BIN_IMPL: u8; // 13910
-	static mut LBA_MEFT0355_BIN_IMPL: u8; // 13916
-	static mut LBA_MEFT0356_BIN_IMPL: u8; // 13920
-	static mut LBA_MEFT0357_BIN_IMPL: u8; // 13925
-	static mut LBA_MEFT0358_BIN_IMPL: u8; // 13931
-	static mut LBA_MEFT0359_BIN_IMPL: u8; // 13935
-	static mut LBA_MEFT0360_BIN_IMPL: u8; // 13939
-	static mut LBA_MEFT0361_BIN_IMPL: u8; // 13944
-	static mut LBA_MEFT0362_BIN_IMPL: u8; // 13951
-	static mut LBA_MEFT0363_BIN_IMPL: u8; // 13956
-	static mut LBA_MEFT0364_BIN_IMPL: u8; // 13962
-	static mut LBA_MEFT0365_BIN_IMPL: u8; // 13976
-	static mut LBA_MEFT0366_BIN_IMPL: u8; // 13984
-	static mut LBA_MEFT0367_BIN_IMPL: u8; // 13987
-	static mut LBA_MEFT0368_BIN_IMPL: u8; // 13990
-	static mut LBA_MEFT0369_BIN_IMPL: u8; // 13993
-	static mut LBA_MEFT0370_BIN_IMPL: u8; // 13997
-	static mut LBA_MEFT0371_BIN_IMPL: u8; // 14002
-	static mut LBA_MEFT0372_BIN_IMPL: u8; // 14004
-	static mut LBA_MEFT0374_BIN_IMPL: u8; // 14006
-	static mut LBA_MEFT0375_BIN_IMPL: u8; // 14012
-	static mut LBA_MEFT0376_BIN_IMPL: u8; // 14029
-	static mut LBA_MEFT0377_BIN_IMPL: u8; // 14039
-	static mut LBA_MEFT0378_BIN_IMPL: u8; // 14058
-	static mut LBA_MEFT1001_BIN_IMPL: u8; // 14081
-	static mut LBA_MEFT1002_BIN_IMPL: u8; // 14097
-	static mut LBA_MEFT1003_BIN_IMPL: u8; // 14117
-	static mut LBA_MEFT1004_BIN_IMPL: u8; // 14132
-	static mut LBA_MEFT1005_BIN_IMPL: u8; // 14156
-	static mut LBA_MEFT1006_BIN_IMPL: u8; // 14174
-	static mut LBA_MEFT1007_BIN_IMPL: u8; // 14196
-	static mut LBA_MEFT1008_BIN_IMPL: u8; // 14216
-	static mut LBA_MEFT1009_BIN_IMPL: u8; // 14243
-	static mut LBA_MEFT1010_BIN_IMPL: u8; // 14265
-	static mut LBA_MEFT1011_BIN_IMPL: u8; // 14285
-	static mut LBA_MEFT1012_BIN_IMPL: u8; // 14308
-	static mut LBA_MEFT1013_BIN_IMPL: u8; // 14339
-	static mut LBA_MEFT1014_BIN_IMPL: u8; // 14364
-	static mut LBA_MEFT1015_BIN_IMPL: u8; // 14391
-	static mut LBA_MEFT1016_BIN_IMPL: u8; // 14414
-	static mut LBA_MEFT1017_BIN_IMPL: u8; // 14433
-	static mut LBA_MEFT1018_BIN_IMPL: u8; // 14456
-	static mut LBA_MEFT1019_BIN_IMPL: u8; // 14471
-	static mut LBA_MEFT1020_BIN_IMPL: u8; // 14497
-	static mut LBA_MEFT1021_BIN_IMPL: u8; // 14513
-	static mut LBA_MEFT1022_BIN_IMPL: u8; // 14541
-	static mut LBA_MEFT1023_BIN_IMPL: u8; // 14564
-	static mut LBA_MEFT1024_BIN_IMPL: u8; // 14580
-	static mut LBA_MEFT1025_BIN_IMPL: u8; // 14605
-	static mut LBA_MEFT1026_BIN_IMPL: u8; // 14629
-	static mut LBA_MEFT1027_BIN_IMPL: u8; // 14645
-	static mut LBA_MEFT1028_BIN_IMPL: u8; // 14670
-	static mut LBA_MEFT1029_BIN_IMPL: u8; // 14677
-	static mut LBA_MEFT1030_BIN_IMPL: u8; // 14703
-	static mut LBA_MEFT1031_BIN_IMPL: u8; // 14718
-	static mut LBA_MEFT1032_BIN_IMPL: u8; // 14725
-	static mut LBA_MEFT1033_BIN_IMPL: u8; // 14735
-	static mut LBA_MEFT1034_BIN_IMPL: u8; // 14747
-	static mut LBA_MEFT1035_BIN_IMPL: u8; // 14765
-	static mut LBA_MEFT1036_BIN_IMPL: u8; // 14775
-	static mut LBA_MEFT1037_BIN_IMPL: u8; // 14786
-	static mut LBA_MEFT1038_BIN_IMPL: u8; // 14803
-	static mut LBA_MEFT1039_BIN_IMPL: u8; // 14813
-	static mut LBA_MEFT1040_BIN_IMPL: u8; // 14825
-	static mut LBA_MEFT1041_BIN_IMPL: u8; // 14844
-	static mut LBA_MEFT1042_BIN_IMPL: u8; // 14853
-	static mut LBA_MEFT1043_BIN_IMPL: u8; // 14864
-	static mut LBA_MEFT1044_BIN_IMPL: u8; // 14877
-	static mut LBA_MEFT1045_BIN_IMPL: u8; // 14886
-	static mut LBA_MEFT1046_BIN_IMPL: u8; // 14897
-	static mut LBA_MEFT1047_BIN_IMPL: u8; // 14913
-	static mut LBA_MEFT1048_BIN_IMPL: u8; // 14938
-	static mut LBA_MEFT1049_BIN_IMPL: u8; // 14950
-	static mut LBA_MEFT1050_BIN_IMPL: u8; // 14968
-	static mut LBA_MEFT1051_BIN_IMPL: u8; // 14969
-	static mut LBA_MEFT1052_BIN_IMPL: u8; // 14981
-	static mut LBA_MEFT1053_BIN_IMPL: u8; // 14998
-	static mut LBA_MEFT1054_BIN_IMPL: u8; // 15018
-	static mut LBA_MEFT1055_BIN_IMPL: u8; // 15034
-	static mut LBA_M003AGUM_BIN_IMPL: u8; // 15062
-	static mut LBA_M004BETA_BIN_IMPL: u8; // 15089
-	static mut LBA_M005GREY_BIN_IMPL: u8; // 15106
-	static mut LBA_M006DEVI_BIN_IMPL: u8; // 15133
-	static mut LBA_M007AIRD_BIN_IMPL: u8; // 15166
-	static mut LBA_M008TYRA_BIN_IMPL: u8; // 15183
-	static mut LBA_M009MERA_BIN_IMPL: u8; // 15206
-	static mut LBA_M010SEAD_BIN_IMPL: u8; // 15224
-	static mut LBA_M011NUME_BIN_IMPL: u8; // 15242
-	static mut LBA_M012MTGR_BIN_IMPL: u8; // 15266
-	static mut LBA_M013MAME_BIN_IMPL: u8; // 15296
-	static mut LBA_M014MONZ_BIN_IMPL: u8; // 15311
-	static mut LBA_M019KABU_BIN_IMPL: u8; // 15323
-	static mut LBA_M020ANGE_BIN_IMPL: u8; // 15353
-	static mut LBA_M023YUKI_BIN_IMPL: u8; // 15397
-	static mut LBA_M024HOEE_BIN_IMPL: u8; // 15410
-	static mut LBA_M025VEGI_BIN_IMPL: u8; // 15424
-	static mut LBA_M026SKUL_BIN_IMPL: u8; // 15441
-	static mut LBA_M027MTMA_BIN_IMPL: u8; // 15470
-	static mut LBA_M028VEDA_BIN_IMPL: u8; // 15493
-	static mut LBA_M031PATA_BIN_IMPL: u8; // 15510
-	static mut LBA_M032KUNE_BIN_IMPL: u8; // 15539
-	static mut LBA_M034OGRE_BIN_IMPL: u8; // 15556
-	static mut LBA_M035SHEL_BIN_IMPL: u8; // 15577
-	static mut LBA_M037BAKE_BIN_IMPL: u8; // 15593
-	static mut LBA_M038DORI_BIN_IMPL: u8; // 15605
-	static mut LBA_M039SCUM_BIN_IMPL: u8; // 15623
-	static mut LBA_M040ANDR_BIN_IMPL: u8; // 15640
-	static mut LBA_M041GIRO_BIN_IMPL: u8; // 15657
-	static mut LBA_M042ETEM_BIN_IMPL: u8; // 15670
-	static mut LBA_M049SIRA_BIN_IMPL: u8; // 15693
-	static mut LBA_M050COCA_BIN_IMPL: u8; // 15712
-	static mut LBA_M051KUWA_BIN_IMPL: u8; // 15732
-	static mut LBA_M052MOJA_BIN_IMPL: u8; // 15754
-	static mut LBA_M053NANI_BIN_IMPL: u8; // 15774
-	static mut LBA_M054MGDR_BIN_IMPL: u8; // 15792
-	static mut LBA_M056DIGI_BIN_IMPL: u8; // 15814
-	static mut LBA_M059HOUO_BIN_IMPL: u8; // 15833
-	static mut LBA_M060HKAB_BIN_IMPL: u8; // 15864
-	static mut LBA_M061MGSD_BIN_IMPL: u8; // 15886
-	static mut LBA_M065MTET_BIN_IMPL: u8; // 15905
-	static mut LBA_M066VAND_BIN_IMPL: u8; // 15927
-	static mut LBA_M067YANM_BIN_IMPL: u8; // 15961
-	static mut LBA_M069FLAR_BIN_IMPL: u8; // 15983
-	static mut LBA_M070WARU_BIN_IMPL: u8; // 16002
-	static mut LBA_M076TANK_BIN_IMPL: u8; // 16017
-	static mut LBA_M077REDV_BIN_IMPL: u8; // 16037
-	static mut LBA_M080GOBR_BIN_IMPL: u8; // 16055
-	static mut LBA_M089FUGA_BIN_IMPL: u8; // 16077
-	static mut LBA_M094ICEM_BIN_IMPL: u8; // 16098
-	static mut LBA_M104BLMR_BIN_IMPL: u8; // 16116
-	static mut LBA_M108GOLE_BIN_IMPL: u8; // 16134
-	static mut LBA_M110GECO_BIN_IMPL: u8; // 16161
-	static mut LBA_M115MUGE_BIN_IMPL: u8; // 16183
-	static mut LBA_M119TONO_BIN_IMPL: u8; // 16213
-	static mut LBA_M121JURE_BIN_IMPL: u8; // 16235
-	static mut LBA_M122HAGU_BIN_IMPL: u8; // 16263
-	static mut LBA_M124TIRS_BIN_IMPL: u8; // 16278
-	static mut LBA_M126BRAK_BIN_IMPL: u8; // 16301
-	static mut LBA_M132GIZA_BIN_IMPL: u8; // 16322
-	static mut LBA_M134CYCL_BIN_IMPL: u8; // 16343
-	static mut LBA_M135DVDR_BIN_IMPL: u8; // 16369
-	static mut LBA_M136TUSK_BIN_IMPL: u8; // 16401
-	static mut LBA_M137FLYM_BIN_IMPL: u8; // 16425
-	static mut LBA_M138DELT_BIN_IMPL: u8; // 16451
-	static mut LBA_M139RARE_BIN_IMPL: u8; // 16477
-	static mut LBA_M140MTRN_BIN_IMPL: u8; // 16501
-	static mut LBA_M141NANO_BIN_IMPL: u8; // 16523
-	static mut LBA_M143CLOK_BIN_IMPL: u8; // 16554
-	static mut LBA_M144ROSE_BIN_IMPL: u8; // 16578
-	static mut LBA_M145VMON_BIN_IMPL: u8; // 16617
-	static mut LBA_M148IPDR_BIN_IMPL: u8; // 16644
-	static mut LBA_M150OMGM_BIN_IMPL: u8; // 16678
-	static mut LBA_M151DBLM_BIN_IMPL: u8; // 16711
-	static mut LBA_M165EBDR_BIN_IMPL: u8; // 16741
-	static mut LBA_M166DKGM_BIN_IMPL: u8; // 16769
-	static mut LBA_M170IVRU_BIN_IMPL: u8; // 16795
-	static mut LBA_M171GOKI_BIN_IMPL: u8; // 16817
-	static mut LBA_M172MTAR_BIN_IMPL: u8; // 16843
-	static mut LBA_M173MSHA_BIN_IMPL: u8; // 16870
-	static mut LBA_M175KRSR_BIN_IMPL: u8; // 16904
-	static mut LBA_M176TDBL_BIN_IMPL: u8; // 16929
-	static mut LBA_M177LDDV_BIN_IMPL: u8; // 16945
-	static mut LBA_M178KNGT_BIN_IMPL: u8; // 16974
-	static mut LBA_M189DTMR_BIN_IMPL: u8; // 17006
-	static mut LBA_M190BOLT_BIN_IMPL: u8; // 17028
-	static mut LBA_M193GRFO_BIN_IMPL: u8; // 17052
-	static mut LBA_M196MGAR_BIN_IMPL: u8; // 17079
-	static mut LBA_M197GANI_BIN_IMPL: u8; // 17114
-	static mut LBA_M198KIWI_BIN_IMPL: u8; // 17138
-	static mut LBA_M200BLSA_BIN_IMPL: u8; // 17159
-	static mut LBA_M202ANOM_BIN_IMPL: u8; // 17183
-	static mut LBA_M203TRCR_BIN_IMPL: u8; // 17207
-	static mut LBA_M204MSDR_BIN_IMPL: u8; // 17232
-	static mut LBA_M206BAKU_BIN_IMPL: u8; // 17255
-	static mut LBA_M207HANU_BIN_IMPL: u8; // 17279
-	static mut LBA_M208TOTA_BIN_IMPL: u8; // 17300
-	static mut LBA_M210RUKA_BIN_IMPL: u8; // 17324
-	static mut LBA_M211HANG_BIN_IMPL: u8; // 17340
-	static mut LBA_M212MANM_BIN_IMPL: u8; // 17382
-	static mut LBA_M213WGRE_BIN_IMPL: u8; // 17411
-	static mut LBA_M214SRPH_BIN_IMPL: u8; // 17446
-	static mut LBA_M215SMAN_BIN_IMPL: u8; // 17482
-	static mut LBA_M217PDEV_BIN_IMPL: u8; // 17505
-	static mut LBA_M220GESO_BIN_IMPL: u8; // 17524
-	static mut LBA_M221OCTA_BIN_IMPL: u8; // 17547
-	static mut LBA_M222WOOD_BIN_IMPL: u8; // 17570
-	static mut LBA_M223PHNT_BIN_IMPL: u8; // 17593
-	static mut LBA_M224MDEV_BIN_IMPL: u8; // 17614
-	static mut LBA_M225DAGO_BIN_IMPL: u8; // 17639
-	static mut LBA_M226OKWA_BIN_IMPL: u8; // 17662
-	static mut LBA_M227GARB_BIN_IMPL: u8; // 17689
-	static mut LBA_M228PIEM_BIN_IMPL: u8; // 17710
-	static mut LBA_M229PUKU_BIN_IMPL: u8; // 17734
-	static mut LBA_M230GKWA_BIN_IMPL: u8; // 17755
-	static mut LBA_M231PINO_BIN_IMPL: u8; // 17786
-	static mut LBA_M234ANGW_BIN_IMPL: u8; // 17811
-	static mut LBA_M236VVND_BIN_IMPL: u8; // 17852
-	static mut LBA_M237CHMR_BIN_IMPL: u8; // 17882
-	static mut LBA_M238SNAI_BIN_IMPL: u8; // 17914
-	static mut LBA_M241HNGY_BIN_IMPL: u8; // 17946
-	static mut LBA_M244SKST_BIN_IMPL: u8; // 17974
-	static mut LBA_M245INFR_BIN_IMPL: u8; // 18004
-	static mut LBA_M247DEMN_BIN_IMPL: u8; // 18028
-	static mut LBA_M250KGET_BIN_IMPL: u8; // 18055
-	static mut LBA_M251APKR_BIN_IMPL: u8; // 18083
-	static mut LBA_M254PLDR_BIN_IMPL: u8; // 18110
-	static mut LBA_M259EXVM_BIN_IMPL: u8; // 18150
-	static mut LBA_M260STNG_BIN_IMPL: u8; // 18184
-	static mut LBA_M267BKWG_BIN_IMPL: u8; // 18213
-	static mut LBA_M269VALK_BIN_IMPL: u8; // 18249
-	static mut LBA_M270VIKI_BIN_IMPL: u8; // 18275
-	static mut LBA_M272SHDR_BIN_IMPL: u8; // 18302
-	static mut LBA_M273QTRU_BIN_IMPL: u8; // 18325
-	static mut LBA_M277BARO_BIN_IMPL: u8; // 18344
-	static mut LBA_M281TIRO_BIN_IMPL: u8; // 18368
-	static mut LBA_M302GAGO_BIN_IMPL: u8; // 18390
-	static mut LBA_M312DETH_BIN_IMPL: u8; // 18417
-	static mut LBA_M327RUNX_BIN_IMPL: u8; // 18444
-	static mut LBA_M334MLDR_BIN_IMPL: u8; // 18464
-	static mut LBA_M337ZAMB_BIN_IMPL: u8; // 18494
-	static mut LBA_M356HAND_BIN_IMPL: u8; // 18529
-	static mut LBA_M358PHAR_BIN_IMPL: u8; // 18558
-	static mut LBA_M359IPDF_BIN_IMPL: u8; // 18585
-	static mut LBA_M360ANTR_BIN_IMPL: u8; // 18624
-	static mut LBA_M364MUMY_BIN_IMPL: u8; // 18648
-	static mut LBA_M365ARCH_BIN_IMPL: u8; // 18681
-	static mut LBA_M366GIRU_BIN_IMPL: u8; // 18705
-	static mut LBA_M367GRAW_BIN_IMPL: u8; // 18732
-	static mut LBA_M368MGRW_BIN_IMPL: u8; // 18764
-	static mut LBA_M369DUKE_BIN_IMPL: u8; // 18798
-	static mut LBA_M372SGRG_BIN_IMPL: u8; // 18835
-	static mut LBA_M373RENA_BIN_IMPL: u8; // 18875
-	static mut LBA_M374KYBI_BIN_IMPL: u8; // 18906
-	static mut LBA_M375TAOM_BIN_IMPL: u8; // 18945
-	static mut LBA_M376SKYA_BIN_IMPL: u8; // 18991
-	static mut LBA_M377BLZB_BIN_IMPL: u8; // 19033
-	static mut LBA_M378BVND_BIN_IMPL: u8; // 19079
-	static mut LBA_M381IPDP_BIN_IMPL: u8; // 19120
-	static mut LBA_M382ARMG_BIN_IMPL: u8; // 19161
-	static mut LBA_M383PKEN_BIN_IMPL: u8; // 19190
-	static mut LBA_M384KOET_BIN_IMPL: u8; // 19216
-	static mut LBA_M385KOGU_BIN_IMPL: u8; // 19244
-	static mut LBA_M386DINO_BIN_IMPL: u8; // 19275
-	static mut LBA_M387PIRT_BIN_IMPL: u8; // 19308
-	static mut LBA_M388GRIZ_BIN_IMPL: u8; // 19333
-	static mut LBA_M389KYKI_BIN_IMPL: u8; // 19362
-	static mut LBA_M390ASLT_BIN_IMPL: u8; // 19396
-	static mut LBA_M391GRPL_BIN_IMPL: u8; // 19429
-	static mut LBA_M392SLAG_BIN_IMPL: u8; // 19465
-	static mut LBA_M393CNND_BIN_IMPL: u8; // 19503
-	static mut LBA_M394MARS_BIN_IMPL: u8; // 19539
-	static mut LBA_M395KUW2_BIN_IMPL: u8; // 19571
-	static mut LBA_M396YAN2_BIN_IMPL: u8; // 19593
-	static mut LBA_M397DKG2_BIN_IMPL: u8; // 19615
-	static mut LBA_M398GOB2_BIN_IMPL: u8; // 19641
-	static mut LBA_M399MTA2_BIN_IMPL: u8; // 19662
-	static mut LBA_M400FLY2_BIN_IMPL: u8; // 19688
-	static mut LBA_M401WOO2_BIN_IMPL: u8; // 19715
-	static mut LBA_M402TRC2_BIN_IMPL: u8; // 19738
-	static mut LBA_M403AIR2_BIN_IMPL: u8; // 19762
-	static mut LBA_M404PHN2_BIN_IMPL: u8; // 19779
-	static mut LBA_M405COC2_BIN_IMPL: u8; // 19799
-	static mut LBA_M406TOT2_BIN_IMPL: u8; // 19819
-	static mut LBA_M407TON2_BIN_IMPL: u8; // 19843
-	static mut LBA_M408SEA2_BIN_IMPL: u8; // 19868
-	static mut LBA_M409MAN2_BIN_IMPL: u8; // 19885
-	static mut LBA_M410VED2_BIN_IMPL: u8; // 19914
-	static mut LBA_M411MLD2_BIN_IMPL: u8; // 19931
-	static mut LBA_M412GAR2_BIN_IMPL: u8; // 19961
-	static mut LBA_M413NUM2_BIN_IMPL: u8; // 19979
-	static mut LBA_M414NUM3_BIN_IMPL: u8; // 20003
-	static mut LBA_M415NUM4_BIN_IMPL: u8; // 20027
-	static mut LBA_M416NUM5_BIN_IMPL: u8; // 20051
-	static mut LBA_M417NUM6_BIN_IMPL: u8; // 20075
-	static mut LBA_M418RAR2_BIN_IMPL: u8; // 20099
-	static mut LBA_M419CYC2_BIN_IMPL: u8; // 20122
-	static mut LBA_M420TAN2_BIN_IMPL: u8; // 20148
-	static mut LBA_M421MSH2_BIN_IMPL: u8; // 20168
-	static mut LBA_M422KRS2_BIN_IMPL: u8; // 20202
-	static mut LBA_M423SNA2_BIN_IMPL: u8; // 20229
-	static mut LBA_M424BLS2_BIN_IMPL: u8; // 20260
-	static mut LBA_M425JUR2_BIN_IMPL: u8; // 20284
-	static mut LBA_M426HOE2_BIN_IMPL: u8; // 20312
-	static mut LBA_M427MGS2_BIN_IMPL: u8; // 20326
-	static mut LBA_M428EBD2_BIN_IMPL: u8; // 20345
-	static mut LBA_M429IVR2_BIN_IMPL: u8; // 20373
-	static mut LBA_M430DOR2_BIN_IMPL: u8; // 20395
-	static mut LBA_M431VIK2_BIN_IMPL: u8; // 20414
-	static mut LBA_M432MSD2_BIN_IMPL: u8; // 20441
-	static mut LBA_M433ANO2_BIN_IMPL: u8; // 20464
-	static mut LBA_M434ANT2_BIN_IMPL: u8; // 20488
-	static mut LBA_M435GAR3_BIN_IMPL: u8; // 20513
-	static mut LBA_M436VALV_BIN_IMPL: u8; // 20531
-	static mut LBA_M437BAST_BIN_IMPL: u8; // 20564
-	static mut LBA_M438RIDN_BIN_IMPL: u8; // 20599
-	static mut LBA_M439FUJI_BIN_IMPL: u8; // 20633
-	static mut LBA_M440SIJN_BIN_IMPL: u8; // 20662
-	static mut LBA_M441RAIZ_BIN_IMPL: u8; // 20699
-	static mut LBA_M442RGN1_BIN_IMPL: u8; // 20732
-	static mut LBA_M443SGR2_BIN_IMPL: u8; // 20755
-	static mut LBA_M444IPD2_BIN_IMPL: u8; // 20795
-	static mut LBA_M445MGR2_BIN_IMPL: u8; // 20827
-	static mut LBA_M446BKNM_BIN_IMPL: u8; // 20861
-	static mut LBA_M447SRP2_BIN_IMPL: u8; // 20881
-	static mut LBA_M448BKW9_BIN_IMPL: u8; // 20919
-	static mut LBA_M449MTG9_BIN_IMPL: u8; // 20954
-	static mut LBA_M450PLD9_BIN_IMPL: u8; // 20983
-	static mut LBA_M451MGR9_BIN_IMPL: u8; // 21021
-	static mut LBA_M452HAN9_BIN_IMPL: u8; // 21054
-	static mut LBA_M453TAO9_BIN_IMPL: u8; // 21095
-	static mut LBA_M454KYK9_BIN_IMPL: u8; // 21140
-	static mut LBA_M455ASL9_BIN_IMPL: u8; // 21173
-	static mut LBA_M456GRP9_BIN_IMPL: u8; // 21205
-	static mut LBA_M457CDC1_BIN_IMPL: u8; // 21240
-	static mut LBA_M458CDC2_BIN_IMPL: u8; // 21245
-	static mut LBA_M459CDU1_BIN_IMPL: u8; // 21250
-	static mut LBA_M460CDU2_BIN_IMPL: u8; // 21256
-	static mut LBA_M461CDR1_BIN_IMPL: u8; // 21262
-	static mut LBA_M462CDR2_BIN_IMPL: u8; // 21268
-	static mut LBA_M463CDS1_BIN_IMPL: u8; // 21275
-	static mut LBA_M464CDS2_BIN_IMPL: u8; // 21281
-	static mut LBA_M465SNAT_BIN_IMPL: u8; // 21287
-	static mut LBA_M466RGN2_BIN_IMPL: u8; // 21307
-	static mut LBA_M467RGN3_BIN_IMPL: u8; // 21332
-	static mut LBA_STMCRDCS_BIN_IMPL: u8; // 21368
-	static mut LBA_STMCRDTM_BIN_IMPL: u8; // 21370
-	static mut LBA_STDGNMCS_BIN_IMPL: u8; // 21385
-	static mut LBA_STDGNMTM_BIN_IMPL: u8; // 21386
-	static mut LBA_STNMETCS_BIN_IMPL: u8; // 21395
-	static mut LBA_STNMETTM_BIN_IMPL: u8; // 21397
-	static mut LBA_CMNBGDCS_BIN_IMPL: u8; // 21415
-	static mut LBA_CMNBGDTM_BIN_IMPL: u8; // 21416
-	static mut LBA_END__ALL_BIN_IMPL: u8; // 21418
-	static mut LBA_NAMEDTCS_BIN_IMPL: u8; // 21421
-	static mut LBA_NAMEDTTM_BIN_IMPL: u8; // 21423
-	static mut LBA_STALBMCS_BIN_IMPL: u8; // 21435
-	static mut LBA_STALBMTM_BIN_IMPL: u8; // 21436
-	static mut LBA_STCDSPCS_BIN_IMPL: u8; // 21441
-	static mut LBA_STCDSPTM_BIN_IMPL: u8; // 21444
-	static mut LBA_STFRPTCS_BIN_IMPL: u8; // 21453
-	static mut LBA_STFRPTTM_BIN_IMPL: u8; // 21454
-	static mut LBA_STSHOPCS_BIN_IMPL: u8; // 21462
-	static mut LBA_STSHOPTM_BIN_IMPL: u8; // 21464
-	static mut LBA_STSTATCS_BIN_IMPL: u8; // 21469
-	static mut LBA_STSTATTM_BIN_IMPL: u8; // 21472
-	static mut LBA_STWMP0CS_BIN_IMPL: u8; // 21483
-	static mut LBA_STWMP0TM_BIN_IMPL: u8; // 21485
-	static mut LBA_STWMP1CS_BIN_IMPL: u8; // 21571
-	static mut LBA_STWMP1TM_BIN_IMPL: u8; // 21573
-	static mut LBA_TLOGOJPN_BIN_IMPL: u8; // 21639
-	static mut LBA_TLOGOPAL_BIN_IMPL: u8; // 21655
-	static mut LBA_TLOGOUSA_BIN_IMPL: u8; // 21677
-	static mut LBA_TTCOMMPK_BIN_IMPL: u8; // 21695
-	static mut LBA_MPBATL00_BIN_IMPL: u8; // 21748
-	static mut LBA_MVBATL00_BIN_IMPL: u8; // 21763
-	static mut LBA_MPBATL10_BIN_IMPL: u8; // 21788
-	static mut LBA_MVBATL10_BIN_IMPL: u8; // 21799
-	static mut LBA_MPBGM001_BIN_IMPL: u8; // 21839
-	static mut LBA_MVBGM001_BIN_IMPL: u8; // 21853
-	static mut LBA_MPBGM002_BIN_IMPL: u8; // 21895
-	static mut LBA_MVBGM002_BIN_IMPL: u8; // 21907
-	static mut LBA_MPBGM003_BIN_IMPL: u8; // 21948
-	static mut LBA_MVBGM003_BIN_IMPL: u8; // 21954
-	static mut LBA_MPBGM004_BIN_IMPL: u8; // 21999
-	static mut LBA_MVBGM004_BIN_IMPL: u8; // 22008
-	static mut LBA_MPBGM005_BIN_IMPL: u8; // 22026
-	static mut LBA_MVBGM005_BIN_IMPL: u8; // 22035
-	static mut LBA_MPBGM007_BIN_IMPL: u8; // 22056
-	static mut LBA_MVBGM007_BIN_IMPL: u8; // 22067
-	static mut LBA_MPBGM008_BIN_IMPL: u8; // 22105
-	static mut LBA_MVBGM008_BIN_IMPL: u8; // 22117
-	static mut LBA_MPBGM009_BIN_IMPL: u8; // 22147
-	static mut LBA_MVBGM009_BIN_IMPL: u8; // 22167
-	static mut LBA_MPBGM010_BIN_IMPL: u8; // 22211
-	static mut LBA_MVBGM010_BIN_IMPL: u8; // 22220
-	static mut LBA_MPBGM011_BIN_IMPL: u8; // 22262
-	static mut LBA_MVBGM011_BIN_IMPL: u8; // 22277
-	static mut LBA_MPBGM012_BIN_IMPL: u8; // 22319
-	static mut LBA_MVBGM012_BIN_IMPL: u8; // 22327
-	static mut LBA_MPBGM013_BIN_IMPL: u8; // 22360
-	static mut LBA_MVBGM013_BIN_IMPL: u8; // 22367
-	static mut LBA_MPBGM014_BIN_IMPL: u8; // 22408
-	static mut LBA_MVBGM014_BIN_IMPL: u8; // 22416
-	static mut LBA_MPBGM015_BIN_IMPL: u8; // 22460
-	static mut LBA_MVBGM015_BIN_IMPL: u8; // 22470
-	static mut LBA_MPBGM016_BIN_IMPL: u8; // 22519
-	static mut LBA_MVBGM016_BIN_IMPL: u8; // 22536
-	static mut LBA_MPBGM017_BIN_IMPL: u8; // 22576
-	static mut LBA_MVBGM017_BIN_IMPL: u8; // 22592
-	static mut LBA_MPBGM018_BIN_IMPL: u8; // 22637
-	static mut LBA_MVBGM018_BIN_IMPL: u8; // 22645
-	static mut LBA_MPBGM019_BIN_IMPL: u8; // 22674
-	static mut LBA_MVBGM019_BIN_IMPL: u8; // 22684
-	static mut LBA_MPBGM020_BIN_IMPL: u8; // 22726
-	static mut LBA_MVBGM020_BIN_IMPL: u8; // 22737
-	static mut LBA_MPBGM021_BIN_IMPL: u8; // 22774
-	static mut LBA_MVBGM021_BIN_IMPL: u8; // 22789
-	static mut LBA_MPBGM022_BIN_IMPL: u8; // 22833
-	static mut LBA_MVBGM022_BIN_IMPL: u8; // 22841
-	static mut LBA_MPBGM023_BIN_IMPL: u8; // 22867
-	static mut LBA_MVBGM023_BIN_IMPL: u8; // 22882
-	static mut LBA_MPBGM024_BIN_IMPL: u8; // 22926
-	static mut LBA_MVBGM024_BIN_IMPL: u8; // 22938
-	static mut LBA_MPBGM025_BIN_IMPL: u8; // 22979
-	static mut LBA_MVBGM025_BIN_IMPL: u8; // 22989
-	static mut LBA_MPBGM026_BIN_IMPL: u8; // 23021
-	static mut LBA_MVBGM026_BIN_IMPL: u8; // 23038
-	static mut LBA_MPBGM027_BIN_IMPL: u8; // 23079
-	static mut LBA_MVBGM027_BIN_IMPL: u8; // 23094
-	static mut LBA_MPBGM028_BIN_IMPL: u8; // 23127
-	static mut LBA_MVBGM028_BIN_IMPL: u8; // 23138
-	static mut LBA_MPBGM029_BIN_IMPL: u8; // 23177
-	static mut LBA_MVBGM029_BIN_IMPL: u8; // 23188
-	static mut LBA_MPBGM030_BIN_IMPL: u8; // 23233
-	static mut LBA_MVBGM030_BIN_IMPL: u8; // 23244
-	static mut LBA_MPBGM031_BIN_IMPL: u8; // 23283
-	static mut LBA_MVBGM031_BIN_IMPL: u8; // 23294
-	static mut LBA_MPBOSS00_BIN_IMPL: u8; // 23326
-	static mut LBA_MVBOSS00_BIN_IMPL: u8; // 23337
-	static mut LBA_MPBOSS01_BIN_IMPL: u8; // 23378
-	static mut LBA_MVBOSS01_BIN_IMPL: u8; // 23390
-	static mut LBA_MPBOSS02_BIN_IMPL: u8; // 23428
-	static mut LBA_MVBOSS02_BIN_IMPL: u8; // 23440
-	static mut LBA_MPBOSS03_BIN_IMPL: u8; // 23484
-	static mut LBA_MVBOSS03_BIN_IMPL: u8; // 23499
-	static mut LBA_MPBOSS04_BIN_IMPL: u8; // 23539
-	static mut LBA_MVBOSS04_BIN_IMPL: u8; // 23554
-	static mut LBA_MPCBTL00_BIN_IMPL: u8; // 23595
-	static mut LBA_MVCBTL00_BIN_IMPL: u8; // 23605
-	static mut LBA_MPCOMMON_BIN_IMPL: u8; // 23649
-	static mut LBA_MVCOMMON_BIN_IMPL: u8; // 23677
-	static mut LBA_MPCONFUS_BIN_IMPL: u8; // 23824
-	static mut LBA_MVCONFUS_BIN_IMPL: u8; // 23831
-	static mut LBA_MPENV001_BIN_IMPL: u8; // 23857
-	static mut LBA_MVENV001_BIN_IMPL: u8; // 23863
-	static mut LBA_MPENV002_BIN_IMPL: u8; // 23904
-	static mut LBA_MVENV002_BIN_IMPL: u8; // 23907
-	static mut LBA_MPENV003_BIN_IMPL: u8; // 23917
-	static mut LBA_MVENV003_BIN_IMPL: u8; // 23920
-	static mut LBA_MPENV004_BIN_IMPL: u8; // 23932
-	static mut LBA_MVENV004_BIN_IMPL: u8; // 23935
-	static mut LBA_MPENV005_BIN_IMPL: u8; // 23964
-	static mut LBA_MVENV005_BIN_IMPL: u8; // 23967
-	static mut LBA_MPENV006_BIN_IMPL: u8; // 23996
-	static mut LBA_MVENV006_BIN_IMPL: u8; // 24000
-	static mut LBA_MPENV007_BIN_IMPL: u8; // 24017
-	static mut LBA_MVENV007_BIN_IMPL: u8; // 24020
-	static mut LBA_MPENV008_BIN_IMPL: u8; // 24038
-	static mut LBA_MVENV008_BIN_IMPL: u8; // 24041
-	static mut LBA_MPENV009_BIN_IMPL: u8; // 24059
-	static mut LBA_MVENV009_BIN_IMPL: u8; // 24062
-	static mut LBA_MPENV010_BIN_IMPL: u8; // 24073
-	static mut LBA_MVENV010_BIN_IMPL: u8; // 24076
-	static mut LBA_MPENV011_BIN_IMPL: u8; // 24113
-	static mut LBA_MVENV011_BIN_IMPL: u8; // 24117
-	static mut LBA_MPENV012_BIN_IMPL: u8; // 24133
-	static mut LBA_MVENV012_BIN_IMPL: u8; // 24136
-	static mut LBA_MPENV013_BIN_IMPL: u8; // 24166
-	static mut LBA_MVENV013_BIN_IMPL: u8; // 24169
-	static mut LBA_MPENV014_BIN_IMPL: u8; // 24202
-	static mut LBA_MVENV014_BIN_IMPL: u8; // 24205
-	static mut LBA_MPENV015_BIN_IMPL: u8; // 24241
-	static mut LBA_MVENV015_BIN_IMPL: u8; // 24244
-	static mut LBA_MPENV016_BIN_IMPL: u8; // 24272
-	static mut LBA_MVENV016_BIN_IMPL: u8; // 24275
-	static mut LBA_MPENV017_BIN_IMPL: u8; // 24299
-	static mut LBA_MVENV017_BIN_IMPL: u8; // 24302
-	static mut LBA_MPENV018_BIN_IMPL: u8; // 24330
-	static mut LBA_MVENV018_BIN_IMPL: u8; // 24334
-	static mut LBA_MPENV019_BIN_IMPL: u8; // 24359
-	static mut LBA_MVENV019_BIN_IMPL: u8; // 24362
-	static mut LBA_MPENV020_BIN_IMPL: u8; // 24378
-	static mut LBA_MVENV020_BIN_IMPL: u8; // 24381
-	static mut LBA_MPENV021_BIN_IMPL: u8; // 24397
-	static mut LBA_MVENV021_BIN_IMPL: u8; // 24400
-	static mut LBA_MPENV022_BIN_IMPL: u8; // 24432
-	static mut LBA_MVENV022_BIN_IMPL: u8; // 24435
-	static mut LBA_MPENV023_BIN_IMPL: u8; // 24455
-	static mut LBA_MVENV023_BIN_IMPL: u8; // 24458
-	static mut LBA_MPENV024_BIN_IMPL: u8; // 24477
-	static mut LBA_MVENV024_BIN_IMPL: u8; // 24482
-	static mut LBA_MPENV025_BIN_IMPL: u8; // 24511
-	static mut LBA_MVENV025_BIN_IMPL: u8; // 24515
-	static mut LBA_MPENV204_BIN_IMPL: u8; // 24546
-	static mut LBA_MVENV204_BIN_IMPL: u8; // 24555
-	static mut LBA_MPENV205_BIN_IMPL: u8; // 24582
-	static mut LBA_MVENV205_BIN_IMPL: u8; // 24588
-	static mut LBA_MPENV206_BIN_IMPL: u8; // 24605
-	static mut LBA_MVENV206_BIN_IMPL: u8; // 24610
-	static mut LBA_MPEVO_00_BIN_IMPL: u8; // 24650
-	static mut LBA_MVEVO_00_BIN_IMPL: u8; // 24658
-	static mut LBA_MPJOG_00_BIN_IMPL: u8; // 24701
-	static mut LBA_MVJOG_00_BIN_IMPL: u8; // 24710
-	static mut LBA_MPTTLBGM_BIN_IMPL: u8; // 24755
-	static mut LBA_MVTTLBGM_BIN_IMPL: u8; // 24769
-	static mut LBA_STTRNGCS_BIN_IMPL: u8; // 24809
-	static mut LBA_STTRNGTM_BIN_IMPL: u8; // 24814
-	static mut LBA_TRANIN00_BIN_IMPL: u8; // 24842
-	static mut LBA_TRANIN01_BIN_IMPL: u8; // 24946
-	static mut LBA_TRANIN02_BIN_IMPL: u8; // 25032
-	static mut LBA_TRANIN03_BIN_IMPL: u8; // 25099
-	static mut LBA_TRANIN04_BIN_IMPL: u8; // 25199
-	static mut LBA_TRANIN10_BIN_IMPL: u8; // 25294
-	static mut LBA_TRANIN11_BIN_IMPL: u8; // 25388
-	static mut LBA_TRANIN12_BIN_IMPL: u8; // 25459
-	static mut LBA_TRANIN13_BIN_IMPL: u8; // 25543
-	static mut LBA_TRANIN14_BIN_IMPL: u8; // 25637
-	static mut LBA_TRANIN15_BIN_IMPL: u8; // 25721
-	static mut LBA_TRANIN16_BIN_IMPL: u8; // 25811
-	static mut LBA_S200PACK_BIN_IMPL: u8; // 25936
-	static mut LBA_S201PACK_BIN_IMPL: u8; // 26637
-	static mut LBA_S202PACK_BIN_IMPL: u8; // 27338
-	static mut LBA_S203PACK_BIN_IMPL: u8; // 27659
-	static mut LBA_S205PACK_BIN_IMPL: u8; // 27980
-	static mut LBA_S206PACK_BIN_IMPL: u8; // 28531
-	static mut LBA_S210PACK_BIN_IMPL: u8; // 29082
-	static mut LBA_S211PACK_BIN_IMPL: u8; // 29398
-	static mut LBA_S212PACK_BIN_IMPL: u8; // 29714
-	static mut LBA_S218PACK_BIN_IMPL: u8; // 29895
-	static mut LBA_S219PACK_BIN_IMPL: u8; // 30216
-	static mut LBA_S220PACK_BIN_IMPL: u8; // 30537
-	static mut LBA_S221PACK_BIN_IMPL: u8; // 30682
-	static mut LBA_S225PACK_BIN_IMPL: u8; // 30827
-	static mut LBA_S226PACK_BIN_IMPL: u8; // 30988
-	static mut LBA_S230PACK_BIN_IMPL: u8; // 31133
-	static mut LBA_S231PACK_BIN_IMPL: u8; // 31278
-	static mut LBA_S232PACK_BIN_IMPL: u8; // 31423
-	static mut LBA_S233PACK_BIN_IMPL: u8; // 31604
-	static mut LBA_S235PACK_BIN_IMPL: u8; // 31765
-	static mut LBA_S236PACK_BIN_IMPL: u8; // 31838
-	static mut LBA_S237PACK_BIN_IMPL: u8; // 31911
-	static mut LBA_S238PACK_BIN_IMPL: u8; // 32017
-	static mut LBA_S240PACK_BIN_IMPL: u8; // 32123
-	static mut LBA_S241PACK_BIN_IMPL: u8; // 32205
-	static mut LBA_S245PACK_BIN_IMPL: u8; // 32287
-	static mut LBA_S246PACK_BIN_IMPL: u8; // 32468
-	static mut LBA_S250PACK_BIN_IMPL: u8; // 32649
-	static mut LBA_S251PACK_BIN_IMPL: u8; // 32830
-	static mut LBA_S255PACK_BIN_IMPL: u8; // 33011
-	static mut LBA_S256PACK_BIN_IMPL: u8; // 33120
-	static mut LBA_S260PACK_BIN_IMPL: u8; // 33229
-	static mut LBA_S261PACK_BIN_IMPL: u8; // 33390
-	static mut LBA_S270PACK_BIN_IMPL: u8; // 33535
-	static mut LBA_S271PACK_BIN_IMPL: u8; // 33656
-	static mut LBA_S275PACK_BIN_IMPL: u8; // 33762
-	static mut LBA_S276PACK_BIN_IMPL: u8; // 34043
-	static mut LBA_S280PACK_BIN_IMPL: u8; // 34324
-	static mut LBA_S281PACK_BIN_IMPL: u8; // 34460
-	static mut LBA_S285PACK_BIN_IMPL: u8; // 34596
-	static mut LBA_S286PACK_BIN_IMPL: u8; // 35101
-	static mut LBA_S290PACK_BIN_IMPL: u8; // 35550
-	static mut LBA_S291PACK_BIN_IMPL: u8; // 35901
-	static mut LBA_S295PACK_BIN_IMPL: u8; // 36217
-	static mut LBA_S296PACK_BIN_IMPL: u8; // 36353
-	static mut LBA_S300PACK_BIN_IMPL: u8; // 36489
-	static mut LBA_S301PACK_BIN_IMPL: u8; // 37040
-	static mut LBA_S305PACK_BIN_IMPL: u8; // 37591
-	static mut LBA_S306PACK_BIN_IMPL: u8; // 37752
-	static mut LBA_S310PACK_BIN_IMPL: u8; // 37913
-	static mut LBA_S311PACK_BIN_IMPL: u8; // 38184
-	static mut LBA_S315PACK_BIN_IMPL: u8; // 38455
-	static mut LBA_S316PACK_BIN_IMPL: u8; // 39016
-	static mut LBA_S320PACK_BIN_IMPL: u8; // 39577
-	static mut LBA_S321PACK_BIN_IMPL: u8; // 40208
-	static mut LBA_S325PACK_BIN_IMPL: u8; // 40839
-	static mut LBA_S326PACK_BIN_IMPL: u8; // 41020
-	static mut LBA_S330PACK_BIN_IMPL: u8; // 41181
-	static mut LBA_S331PACK_BIN_IMPL: u8; // 42482
-	static mut LBA_S335PACK_BIN_IMPL: u8; // 43783
-	static mut LBA_S336PACK_BIN_IMPL: u8; // 44204
-	static mut LBA_S340PACK_BIN_IMPL: u8; // 44625
-	static mut LBA_S341PACK_BIN_IMPL: u8; // 45046
-	static mut LBA_S345PACK_BIN_IMPL: u8; // 45467
-	static mut LBA_S346PACK_BIN_IMPL: u8; // 46268
-	static mut LBA_S350PACK_BIN_IMPL: u8; // 47069
-	static mut LBA_S351PACK_BIN_IMPL: u8; // 47790
-	static mut LBA_S355PACK_BIN_IMPL: u8; // 48511
-	static mut LBA_S356PACK_BIN_IMPL: u8; // 49072
-	static mut LBA_S360PACK_BIN_IMPL: u8; // 49633
-	static mut LBA_S361PACK_BIN_IMPL: u8; // 49834
-	static mut LBA_S365PACK_BIN_IMPL: u8; // 50035
-	static mut LBA_S366PACK_BIN_IMPL: u8; // 50306
-	static mut LBA_S370PACK_BIN_IMPL: u8; // 50577
-	static mut LBA_S371PACK_BIN_IMPL: u8; // 51348
-	static mut LBA_S375PACK_BIN_IMPL: u8; // 52119
-	static mut LBA_S376PACK_BIN_IMPL: u8; // 53220
-	static mut LBA_S380PACK_BIN_IMPL: u8; // 54321
-	static mut LBA_S381PACK_BIN_IMPL: u8; // 55122
-	static mut LBA_S385PACK_BIN_IMPL: u8; // 55923
-	static mut LBA_S386PACK_BIN_IMPL: u8; // 56824
-	static mut LBA_S395PACK_BIN_IMPL: u8; // 57725
-	static mut LBA_S396PACK_BIN_IMPL: u8; // 58986
-	static mut LBA_S400PACK_BIN_IMPL: u8; // 60247
-	static mut LBA_S401PACK_BIN_IMPL: u8; // 61928
-	static mut LBA_S405PACK_BIN_IMPL: u8; // 63609
-	static mut LBA_S406PACK_BIN_IMPL: u8; // 64710
-	static mut LBA_S410PACK_BIN_IMPL: u8; // 65811
-	static mut LBA_S411PACK_BIN_IMPL: u8; // 66132
-	static mut LBA_S420PACK_BIN_IMPL: u8; // 66453
-	static mut LBA_S421PACK_BIN_IMPL: u8; // 67054
-	static mut LBA_S425PACK_BIN_IMPL: u8; // 67655
-	static mut LBA_S426PACK_BIN_IMPL: u8; // 67856
-	static mut LBA_S430PACK_BIN_IMPL: u8; // 68037
-	static mut LBA_S431PACK_BIN_IMPL: u8; // 68288
-	static mut LBA_S435PACK_BIN_IMPL: u8; // 68539
-	static mut LBA_S436PACK_BIN_IMPL: u8; // 68720
-	static mut LBA_S440PACK_BIN_IMPL: u8; // 68901
-	static mut LBA_S441PACK_BIN_IMPL: u8; // 69152
-	static mut LBA_S445PACK_BIN_IMPL: u8; // 69378
-	static mut LBA_S446PACK_BIN_IMPL: u8; // 69679
-	static mut LBA_S450PACK_BIN_IMPL: u8; // 69980
-	static mut LBA_S451PACK_BIN_IMPL: u8; // 71101
-	static mut LBA_S455PACK_BIN_IMPL: u8; // 72222
-	static mut LBA_S456PACK_BIN_IMPL: u8; // 72993
-	static mut LBA_S460PACK_BIN_IMPL: u8; // 73764
-	static mut LBA_S465PACK_BIN_IMPL: u8; // 73885
-	static mut LBA_S466PACK_BIN_IMPL: u8; // 74546
-	static mut LBA_S470PACK_BIN_IMPL: u8; // 75207
-	static mut LBA_S471PACK_BIN_IMPL: u8; // 75424
-	static mut LBA_S475PACK_BIN_IMPL: u8; // 75641
-	static mut LBA_S476PACK_BIN_IMPL: u8; // 75732
-	static mut LBA_S480PACK_BIN_IMPL: u8; // 75823
-	static mut LBA_S481PACK_BIN_IMPL: u8; // 77144
-	static mut LBA_S485PACK_BIN_IMPL: u8; // 78465
-	static mut LBA_S486PACK_BIN_IMPL: u8; // 79516
-	static mut LBA_S490PACK_BIN_IMPL: u8; // 80567
-	static mut LBA_S491PACK_BIN_IMPL: u8; // 81468
-	static mut LBA_S495PACK_BIN_IMPL: u8; // 82369
-	static mut LBA_S496PACK_BIN_IMPL: u8; // 82850
-	static mut LBA_S500PACK_BIN_IMPL: u8; // 83331
-	static mut LBA_S501PACK_BIN_IMPL: u8; // 84212
-	static mut LBA_S505PACK_BIN_IMPL: u8; // 85093
-	static mut LBA_S506PACK_BIN_IMPL: u8; // 85374
-	static mut LBA_S520PACK_BIN_IMPL: u8; // 85655
-	static mut LBA_S521PACK_BIN_IMPL: u8; // 85872
-	static mut LBA_S525PACK_BIN_IMPL: u8; // 86089
-	static mut LBA_S526PACK_BIN_IMPL: u8; // 86630
-	static mut LBA_S530PACK_BIN_IMPL: u8; // 87171
-	static mut LBA_S531PACK_BIN_IMPL: u8; // 87712
-	static mut LBA_S535PACK_BIN_IMPL: u8; // 88253
-	static mut LBA_S537PACK_BIN_IMPL: u8; // 88704
-	static mut LBA_S538PACK_BIN_IMPL: u8; // 89155
-	static mut LBA_S540PACK_BIN_IMPL: u8; // 89606
-	static mut LBA_S545PACK_BIN_IMPL: u8; // 91092
-	static mut LBA_S550PACK_BIN_IMPL: u8; // 91903
-	static mut LBA_S551PACK_BIN_IMPL: u8; // 92804
-	static mut LBA_S555PACK_BIN_IMPL: u8; // 93705
-	static mut LBA_S556PACK_BIN_IMPL: u8; // 94993
-	static mut LBA_S560PACK_BIN_IMPL: u8; // 96281
-	static mut LBA_S561PACK_BIN_IMPL: u8; // 96582
-	static mut LBA_S565PACK_BIN_IMPL: u8; // 96883
-	static mut LBA_S566PACK_BIN_IMPL: u8; // 98171
-	static mut LBA_S570PACK_BIN_IMPL: u8; // 99342
-	static mut LBA_S571PACK_BIN_IMPL: u8; // 99833
-	static mut LBA_S575PACK_BIN_IMPL: u8; // 100324
-	static mut LBA_S576PACK_BIN_IMPL: u8; // 100865
-	static mut LBA_S580PACK_BIN_IMPL: u8; // 101406
-	static mut LBA_S581PACK_BIN_IMPL: u8; // 102397
-	static mut LBA_S585PACK_BIN_IMPL: u8; // 103388
-	static mut LBA_S586PACK_BIN_IMPL: u8; // 103569
-	static mut LBA_S590PACK_BIN_IMPL: u8; // 103750
-	static mut LBA_S591PACK_BIN_IMPL: u8; // 103931
-	static mut LBA_S595PACK_BIN_IMPL: u8; // 104112
-	static mut LBA_S596PACK_BIN_IMPL: u8; // 104293
-	static mut LBA_S600PACK_BIN_IMPL: u8; // 104474
-	static mut LBA_S601PACK_BIN_IMPL: u8; // 104655
-	static mut LBA_S605PACK_BIN_IMPL: u8; // 104836
-	static mut LBA_S606PACK_BIN_IMPL: u8; // 105215
-	static mut LBA_S610PACK_BIN_IMPL: u8; // 105594
-	static mut LBA_S611PACK_BIN_IMPL: u8; // 105955
-	static mut LBA_S615PACK_BIN_IMPL: u8; // 106316
-	static mut LBA_S616PACK_BIN_IMPL: u8; // 106947
-	static mut LBA_S620PACK_BIN_IMPL: u8; // 107578
-	static mut LBA_S621PACK_BIN_IMPL: u8; // 107795
-	static mut LBA_S625PACK_BIN_IMPL: u8; // 108012
-	static mut LBA_S630PACK_BIN_IMPL: u8; // 108229
-	static mut LBA_S631PACK_BIN_IMPL: u8; // 108662
-	static mut LBA_S635PACK_BIN_IMPL: u8; // 109095
-	static mut LBA_S636PACK_BIN_IMPL: u8; // 109744
-	static mut LBA_S640PACK_BIN_IMPL: u8; // 110465
-	static mut LBA_S641PACK_BIN_IMPL: u8; // 111114
-	static mut LBA_S645PACK_BIN_IMPL: u8; // 111763
-	static mut LBA_S646PACK_BIN_IMPL: u8; // 112142
-	static mut LBA_S650PACK_BIN_IMPL: u8; // 112521
-	static mut LBA_S651PACK_BIN_IMPL: u8; // 112846
-	static mut LBA_S655PACK_BIN_IMPL: u8; // 113171
-	static mut LBA_S656PACK_BIN_IMPL: u8; // 113332
-	static mut LBA_S660PACK_BIN_IMPL: u8; // 113493
-	static mut LBA_S661PACK_BIN_IMPL: u8; // 114574
-	static mut LBA_S675PACK_BIN_IMPL: u8; // 115655
-	static mut LBA_S676PACK_BIN_IMPL: u8; // 115971
-	static mut LBA_S680PACK_BIN_IMPL: u8; // 116287
-	static mut LBA_S685PACK_BIN_IMPL: u8; // 116336
-	static mut LBA_S686PACK_BIN_IMPL: u8; // 116787
-	static mut LBA_S690PACK_BIN_IMPL: u8; // 117238
-	static mut LBA_S691PACK_BIN_IMPL: u8; // 118009
-	static mut LBA_S695PACK_BIN_IMPL: u8; // 118780
-	static mut LBA_S696PACK_BIN_IMPL: u8; // 119348
-	static mut LBA_S700PACK_BIN_IMPL: u8; // 119916
-	static mut LBA_S701PACK_BIN_IMPL: u8; // 120013
-	static mut LBA_S705PACK_BIN_IMPL: u8; // 120110
-	static mut LBA_S706PACK_BIN_IMPL: u8; // 121101
-	static mut LBA_S710PACK_BIN_IMPL: u8; // 121993
-	static mut LBA_S711PACK_BIN_IMPL: u8; // 122764
-	static mut LBA_S715PACK_BIN_IMPL: u8; // 123535
-	static mut LBA_S716PACK_BIN_IMPL: u8; // 123936
-	static mut LBA_S720PACK_BIN_IMPL: u8; // 124337
-	static mut LBA_S721PACK_BIN_IMPL: u8; // 124758
-	static mut LBA_S725PACK_BIN_IMPL: u8; // 125179
-	static mut LBA_S726PACK_BIN_IMPL: u8; // 125580
-	static mut LBA_S730PACK_BIN_IMPL: u8; // 125981
-	static mut LBA_S731PACK_BIN_IMPL: u8; // 126144
-	static mut LBA_S735PACK_BIN_IMPL: u8; // 126307
-	static mut LBA_S736PACK_BIN_IMPL: u8; // 127001
-	static mut LBA_S740PACK_BIN_IMPL: u8; // 127695
-	static mut LBA_S741PACK_BIN_IMPL: u8; // 128263
-	static mut LBA_S745PACK_BIN_IMPL: u8; // 128831
-	static mut LBA_S746PACK_BIN_IMPL: u8; // 129462
-	static mut LBA_S750PACK_BIN_IMPL: u8; // 130093
-	static mut LBA_S755PACK_BIN_IMPL: u8; // 130344
-	static mut LBA_S756PACK_BIN_IMPL: u8; // 131145
-	static mut LBA_S760PACK_BIN_IMPL: u8; // 131946
-	static mut LBA_S761PACK_BIN_IMPL: u8; // 132827
-	static mut LBA_S780PACK_BIN_IMPL: u8; // 133620
-	static mut LBA_S785PACK_BIN_IMPL: u8; // 133756
-	static mut LBA_S790PACK_BIN_IMPL: u8; // 133973
-	static mut LBA_S795PACK_BIN_IMPL: u8; // 134174
-	static mut LBA_S800PACK_BIN_IMPL: u8; // 135255
-	static mut LBA_S805PACK_BIN_IMPL: u8; // 136309
-	static mut LBA_S810PACK_BIN_IMPL: u8; // 136526
-	static mut LBA_S820PACK_BIN_IMPL: u8; // 137319
-	static mut LBA_S825PACK_BIN_IMPL: u8; // 137635
-	static mut LBA_S830PACK_BIN_IMPL: u8; // 137876
-	static mut LBA_S835PACK_BIN_IMPL: u8; // 138237
-	static mut LBA_S840PACK_BIN_IMPL: u8; // 138558
-	static mut LBA_S845PACK_BIN_IMPL: u8; // 138911
-	static mut LBA_S850PACK_BIN_IMPL: u8; // 139232
-	static mut LBA_S855PACK_BIN_IMPL: u8; // 139593
-	static mut LBA_S860PACK_BIN_IMPL: u8; // 140194
-	static mut LBA_S865PACK_BIN_IMPL: u8; // 140435
-	static mut LBA_S870PACK_BIN_IMPL: u8; // 140652
-	static mut LBA_S875PACK_BIN_IMPL: u8; // 140869
-	static mut LBA_S880PACK_BIN_IMPL: u8; // 141110
-	static mut LBA_S885PACK_BIN_IMPL: u8; // 141435
-	static mut LBA_S890PACK_BIN_IMPL: u8; // 141841
-	static mut LBA_S895PACK_BIN_IMPL: u8; // 142247
-	static mut LBA_MOVIED01_STR_IMPL: u8; // 142735
-	static mut LBA_MOVIED02_STR_IMPL: u8; // 147543
-	static mut LBA_MOVIED03_STR_IMPL: u8; // 151295
-	static mut LBA_MOVIED04_STR_IMPL: u8; // 161063
-	static mut LBA_MOVIED05_STR_IMPL: u8; // 166839
-	static mut LBA_MOVIED06_STR_IMPL: u8; // 173607
-	static mut LBA_MOVIED07_STR_IMPL: u8; // 176015
-	static mut LBA_MOVIED08_STR_IMPL: u8; // 179551
-	static mut LBA_MOVIEE01_STR_IMPL: u8; // 184063
-	static mut LBA_MOVIEE02_STR_IMPL: u8; // 190775
-	static mut LBA_MOVIEE03_STR_IMPL: u8; // 207425
-	static mut LBA_MOVIEE04_STR_IMPL: u8; // 224075
-	static mut LBA_MOVIEOP2_STR_IMPL: u8; // 240725
-	static mut LBA_MOVIEOPN_STR_IMPL: u8; // 258813
+	static mut LBA_IMPL_SYSTEM_CNF_OFFSET: u8;
+	static mut LBA_IMPL_SLES_039_36_OFFSET: u8;
+	static mut LBA_IMPL_DUMMY_OFFSET: u8;
+	static mut LBA_IMPL_CARDGAME_PRO_OFFSET: u8;
+	static mut LBA_IMPL_CNTY_SEL_PRO_OFFSET: u8;
+	static mut LBA_IMPL_FIELDSTG_PRO_OFFSET: u8;
+	static mut LBA_IMPL_FIGHTSTG_PRO_OFFSET: u8;
+	static mut LBA_IMPL_SDIGIEDT_PRO_OFFSET: u8;
+	static mut LBA_IMPL_SFSTDATA_PRO_OFFSET: u8;
+	static mut LBA_IMPL_SHOCKTST_PRO_OFFSET: u8;
+	static mut LBA_IMPL_SMDLDATA_PRO_OFFSET: u8;
+	static mut LBA_IMPL_SOUNDTST_PRO_OFFSET: u8;
+	static mut LBA_IMPL_STAGSLCT_PRO_OFFSET: u8;
+	static mut LBA_IMPL_STCRDABM_PRO_OFFSET: u8;
+	static mut LBA_IMPL_STCRDDEK_PRO_OFFSET: u8;
+	static mut LBA_IMPL_STCRDSHP_PRO_OFFSET: u8;
+	static mut LBA_IMPL_STDGNAME_PRO_OFFSET: u8;
+	static mut LBA_IMPL_STDWTITL_PRO_OFFSET: u8;
+	static mut LBA_IMPL_STFGTREP_PRO_OFFSET: u8;
+	static mut LBA_IMPL_STGDGLAB_PRO_OFFSET: u8;
+	static mut LBA_IMPL_STGMCARD_PRO_OFFSET: u8;
+	static mut LBA_IMPL_STGTRAIN_PRO_OFFSET: u8;
+	static mut LBA_IMPL_STITSHOP_PRO_OFFSET: u8;
+	static mut LBA_IMPL_STPLNMET_PRO_OFFSET: u8;
+	static mut LBA_IMPL_STSTATUS_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WFIGHTMN_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WFIGHTTS_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG200_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG201_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG202_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG203_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG205_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG206_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG210_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG211_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG212_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG218_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG219_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG220_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG221_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG225_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG226_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG230_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG231_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG232_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG233_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG235_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG236_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG237_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG238_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG240_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG241_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG245_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG246_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG250_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG251_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG255_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG256_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG260_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG261_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG270_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG271_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG275_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG276_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG280_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG281_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG285_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG286_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG290_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG291_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG295_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG296_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG300_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG301_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG305_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG306_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG310_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG311_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG315_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG316_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG320_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG321_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG325_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG326_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG330_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG331_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG335_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG336_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG340_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG341_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG345_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG346_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG350_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG351_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG355_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG356_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG360_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG361_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG365_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG366_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG370_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG371_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG375_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG376_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG380_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG381_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG385_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG386_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG395_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG396_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG400_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG401_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG405_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG406_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG410_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG411_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG415_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG420_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG421_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG425_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG426_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG430_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG431_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG435_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG436_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG440_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG441_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG445_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG446_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG450_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG451_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG455_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG456_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG460_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG465_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG466_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG470_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG471_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG475_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG476_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG480_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG481_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG485_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG486_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG490_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG491_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG495_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG496_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG500_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG501_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG505_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG506_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG520_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG521_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG525_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG526_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG530_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG531_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG535_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG537_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG538_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG540_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG545_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG550_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG551_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG555_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG556_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG560_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG561_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG565_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG566_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG570_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG571_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG575_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG576_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG580_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG581_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG585_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG586_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG590_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG591_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG595_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG596_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG600_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG601_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG605_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG606_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG610_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG611_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG615_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG616_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG620_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG621_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG625_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG630_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG631_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG635_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG636_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG640_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG641_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG645_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG646_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG650_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG651_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG655_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG656_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG660_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG661_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG675_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG676_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG680_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG685_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG686_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG690_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG691_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG695_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG696_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG700_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG701_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG705_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG706_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG710_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG711_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG715_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG716_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG720_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG721_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG725_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG726_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG730_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG731_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG735_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG736_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG740_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG741_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG745_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG746_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG750_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG755_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG756_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG760_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG761_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG780_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG785_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG790_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG795_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG800_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG805_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG810_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG815_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG820_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG825_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG830_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG835_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG840_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG845_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG850_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG855_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG860_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG865_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG870_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG875_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG880_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG885_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG890_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG895_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG920_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG921_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG922_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG923_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG924_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG925_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG926_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG927_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG928_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG929_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG930_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG931_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG932_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG933_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG934_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG935_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG936_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG937_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG938_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG939_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG940_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG941_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG942_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG943_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG944_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG945_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG946_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG947_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG948_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG949_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG950_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG951_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG952_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG953_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG954_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG955_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG956_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG957_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG958_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG959_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG960_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG961_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG962_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG963_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG964_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG965_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG966_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG967_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG968_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG969_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG970_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG971_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG972_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG973_PRO_OFFSET: u8;
+	static mut LBA_IMPL_WSTAG974_PRO_OFFSET: u8;
+	static mut LBA_IMPL_NONE_____BIN_OFFSET: u8;
+	static mut LBA_IMPL_CARDDATA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_CARDPACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_CARDPAK0_BIN_OFFSET: u8;
+	static mut LBA_IMPL_CARDPAK1_BIN_OFFSET: u8;
+	static mut LBA_IMPL_CARDPAK2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_CARDPAK3_BIN_OFFSET: u8;
+	static mut LBA_IMPL_CARDPAK4_BIN_OFFSET: u8;
+	static mut LBA_IMPL_CARD_NPC_BIN_OFFSET: u8;
+	static mut LBA_IMPL_CMFONTCS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_CMFONTTM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_CNTSELWN_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESAMTMAP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESASKMAP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESCARDGM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESCARDNM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESCARDST_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESCRDABM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESCRDDEK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESCRDSHP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESDGLABO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESDGNMET_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESDIGINF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESDIGNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESDMG200_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESDMG260_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESDMG270_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESDMG300_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESDMG305_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESDMG400_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESDMG500_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESDMG600_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESDMG700_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESDMG800_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESDMG900_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESFGTRPT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESHTLNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESITMINF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESITMNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESITSHOP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESMEMCRD_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESMFIGHT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESNAMEDT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESNAMEET_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESSHPNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESSKLINF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESSKLNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESSTAREA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESSTATUS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESSTNAME_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESSYSTEM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESTALK00_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESTALK01_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESTALK02_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESTALK03_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESTALK04_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESTALK05_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESTALK06_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESTALK07_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESTALK08_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESTALK09_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ESTRAINI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSAMTMAP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSASKMAP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSCARDGM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSCARDNM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSCARDST_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSCRDABM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSCRDDEK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSCRDSHP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSDGLABO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSDGNMET_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSDIGINF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSDIGNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSDMG200_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSDMG260_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSDMG270_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSDMG300_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSDMG305_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSDMG400_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSDMG500_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSDMG600_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSDMG700_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSDMG800_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSDMG900_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSFGTRPT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSHTLNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSITMINF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSITMNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSITSHOP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSMEMCRD_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSMFIGHT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSNAMEDT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSNAMEET_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSSHPNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSSKLINF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSSKLNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSSTAREA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSSTATUS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSSTNAME_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSSYSTEM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSTALK00_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSTALK01_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSTALK02_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSTALK03_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSTALK04_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSTALK05_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSTALK06_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSTALK07_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSTALK08_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSTALK09_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FSTRAINI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSAMTMAP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSASKMAP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSCARDGM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSCARDNM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSCARDST_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSCRDABM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSCRDDEK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSCRDSHP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSDGLABO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSDGNMET_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSDIGINF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSDIGNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSDMG200_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSDMG260_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSDMG270_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSDMG300_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSDMG305_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSDMG400_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSDMG500_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSDMG600_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSDMG700_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSDMG800_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSDMG900_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSFGTRPT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSHTLNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSITMINF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSITMNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSITSHOP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSMEMCRD_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSMFIGHT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSNAMEDT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSNAMEET_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSSHPNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSSKLINF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSSKLNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSSTAREA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSSTATUS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSSTNAME_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSSYSTEM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSTALK00_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSTALK01_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSTALK02_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSTALK03_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSTALK04_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSTALK05_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSTALK06_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSTALK07_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSTALK08_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSTALK09_BIN_OFFSET: u8;
+	static mut LBA_IMPL_DSTRAINI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISAMTMAP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISASKMAP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISCARDGM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISCARDNM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISCARDST_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISCRDABM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISCRDDEK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISCRDSHP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISDGLABO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISDGNMET_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISDIGINF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISDIGNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISDMG200_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISDMG260_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISDMG270_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISDMG300_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISDMG305_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISDMG400_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISDMG500_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISDMG600_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISDMG700_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISDMG800_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISDMG900_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISFGTRPT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISHTLNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISITMINF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISITMNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISITSHOP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISMEMCRD_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISMFIGHT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISNAMEDT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISNAMEET_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISSHPNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISSKLINF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISSKLNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISSTAREA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISSTATUS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISSTNAME_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISSYSTEM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISTALK00_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISTALK01_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISTALK02_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISTALK03_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISTALK04_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISTALK05_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISTALK06_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISTALK07_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISTALK08_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISTALK09_BIN_OFFSET: u8;
+	static mut LBA_IMPL_ISTRAINI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSAMTMAP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSASKMAP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSCARDGM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSCARDNM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSCARDST_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSCRDABM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSCRDDEK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSCRDSHP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSDGLABO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSDGNMET_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSDIGINF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSDIGNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSDMG200_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSDMG260_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSDMG270_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSDMG300_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSDMG305_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSDMG400_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSDMG500_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSDMG600_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSDMG700_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSDMG800_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSDMG900_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSFGTRPT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSHTLNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSITMINF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSITMNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSITSHOP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSMEMCRD_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSMFIGHT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSNAMEDT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSNAMEET_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSSHPNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSSKLINF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSSKLNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSSTAREA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSSTATUS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSSTNAME_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSSYSTEM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSTALK00_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSTALK01_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSTALK02_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSTALK03_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSTALK04_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSTALK05_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSTALK06_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSTALK07_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSTALK08_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSTALK09_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MSTRAINI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSAMTMAP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSASKMAP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSCARDGM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSCARDNM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSCARDST_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSCRDABM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSCRDDEK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSCRDSHP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSDGLABO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSDGNMET_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSDIGINF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSDIGNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSDMG200_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSDMG260_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSDMG270_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSDMG300_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSDMG305_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSDMG400_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSDMG500_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSDMG600_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSDMG700_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSDMG800_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSDMG900_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSFGTRPT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSHTLNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSITMINF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSITMNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSITSHOP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSMEMCRD_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSMFIGHT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSNAMEDT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSNAMEET_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSSHPNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSSKLINF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSSKLNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSSTAREA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSSTATUS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSSTNAME_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSSYSTEM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSTALK00_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSTALK01_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSTALK02_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSTALK03_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSTALK04_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSTALK05_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSTALK06_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSTALK07_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSTALK08_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSTALK09_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSTRAINI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USAMTMAP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USASKMAP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USCARDGM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USCARDNM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USCARDST_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USCRDABM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USCRDDEK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USCRDSHP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USDGLABO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USDGNMET_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USDIGINF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USDIGNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USDMG200_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USDMG260_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USDMG270_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USDMG300_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USDMG305_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USDMG400_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USDMG500_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USDMG600_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USDMG700_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USDMG800_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USDMG900_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USFGTRPT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USHTLNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USITMINF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USITMNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USITSHOP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USMEMCRD_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USMFIGHT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USNAMEDT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USNAMEET_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USSHPNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USSKLINF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USSKLNAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USSTAREA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USSTATUS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USSTNAME_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USSYSTEM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USTALK00_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USTALK01_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USTALK02_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USTALK03_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USTALK04_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USTALK05_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USTALK06_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USTALK07_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USTALK08_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USTALK09_BIN_OFFSET: u8;
+	static mut LBA_IMPL_USTRAINI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STDGLBCS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STDGLBTM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_FIELDCOM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P001PLAY_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P002PLAY_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P002PLYD_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P002PLYF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P002PLYK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P002PLYL_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P003PKEN_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P004KOGU_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P005KOET_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P006AGUM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P007VMON_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P008GIRU_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P009RENA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P010PATA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P011MINO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P012MINT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P013TAKU_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P014TAKT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P015LUMO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P016RDMD_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P017ASGM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P018MGCO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P019RDSY_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P020RDSZ_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P021RDBK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P022RDGB_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P023RDET_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P024RDST_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P025RDWT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P026RDNT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P027SMTH_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P028WEDG_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P029ASLR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P030ASWT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P031ASFM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P032ASDK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P033AMLR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P034AMWT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P035AMFM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P036AMDK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P037GRGO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P038WIZA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P039TAIL_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P040PIKO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P041GRDR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P042LABO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P043OPMA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P044OPFS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P045AMST_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P046AW00_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P047LEOM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P048GDAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P049TOGE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P050FRDR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P051PANG_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P052ASHM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P053SHAK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P054MGNA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P055GMGD_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P056AOAS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P057AOAB_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P058AOAC_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P059AOAD_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P060AOAE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P061AOAF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P062FRDM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P063FRDF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P064HSSM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P065JKSI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P066FRTM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P067OTKU_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P068SARM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P069OTKF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P070FRTF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P071OLYF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P072GOZS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P073GOBA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P074JIJI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P075BABA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P076HANM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P077HASM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P078HGMK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P079SPIC_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P080BALM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P081NMEM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P082ETEM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P083METE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P084KETE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P085FLWR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P086AIRD_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P087TERS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P088GABS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P089PYOS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P090MGRM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P091PDRM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P092MGWM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P093HANM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P094TAOM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P095KKIM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P096GREM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P097ASTM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P098YASH_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P099SZIM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P100SHDM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P101NHEM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P102SHUR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P103DPTM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P104KABM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P105KNGO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P106PONT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P107SEAM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P108PHAR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P109MTHI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P111ZANB_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P112HAND_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P113WARU_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P114NANO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P115KNIG_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P116BSGM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P117BIPD_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P118BSRM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P119BGWM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P120BNMM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P121BWGM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P122SBMM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P123DIGM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P124SATE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P126ITMB_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P127SEID_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P128TISD_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P146OPFE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P147OPFW_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P148SNAC_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P149SNCM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P150LISA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P151NICK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P152KEIT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P153DGTM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P154DGTB_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P156BOOM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P157OPFT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P158NAGU_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P159NVMO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P160NGIR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P161NREN_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P162NPAT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P163JKST_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P165SAGD_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P166PAGD_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P167SAGM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P168PAGM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P169NSPM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P170GOMA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P171BAGM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P172FJJI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P173KBOY_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P174PIYO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P175SPMM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P178NBEA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P179NKOE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P180NKOT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P181SSPM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P182BOMP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P183BOMB_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P184CBEM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P185BEMG_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P186BEMP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P187STRI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P188BLOK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P189PKEL_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P190KOGL_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P191KOEL_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P192AGUL_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P193VMOL_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P194GIRL_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P195RENL_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P196PATL_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P197BLXE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_P198ADME_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S200MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S200TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S201MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S201TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S202MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S202TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S203MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S203TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S205MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S205TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S206MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S206TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S210MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S210TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S211MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S211TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S212MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S212TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S218MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S218TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S219MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S219TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S220MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S220TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S221MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S221TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S225MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S225TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S226MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S226TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S230MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S230TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S231MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S231TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S232MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S232TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S233MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S233TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S235MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S235TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S236MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S236TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S237MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S237TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S238MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S238TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S240MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S240TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S241MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S241TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S245MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S245TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S246MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S246TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S250MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S250TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S251MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S251TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S255MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S255TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S256MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S256TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S260MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S260TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S261MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S261TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S270MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S270TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S271MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S271TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S275MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S275TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S276MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S276TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S280MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S280TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S281MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S281TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S285MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S285TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S286MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S286TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S290MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S290TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S291MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S291TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S295MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S295TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S296MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S296TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S300MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S300TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S301MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S301TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S305MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S305TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S306MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S306TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S310MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S310TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S311MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S311TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S315MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S315TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S316MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S316TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S320MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S320TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S321MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S321TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S325MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S325TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S326MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S326TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S330MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S330TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S331MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S331TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S335MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S335TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S336MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S336TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S340MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S340TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S341MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S341TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S345MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S345TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S346MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S346TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S350MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S350TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S351MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S351TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S355MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S355TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S356MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S356TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S360MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S360TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S361MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S361TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S365MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S365TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S366MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S366TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S370MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S370TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S371MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S371TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S375MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S375TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S376MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S376TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S380MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S380TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S381MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S381TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S385MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S385TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S386MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S386TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S395MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S395TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S396MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S396TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S400MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S400TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S401MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S401TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S405MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S405TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S406MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S406TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S410MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S410TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S411MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S411TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S415BG01_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S415BG02_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S415MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S415TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S420MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S420TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S421MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S421TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S425MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S425TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S426MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S426TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S430MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S430TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S431MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S431TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S435MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S435TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S436MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S436TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S440MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S440TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S441MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S441TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S445MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S445TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S446MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S446TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S450MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S450TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S451MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S451TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S455MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S455TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S456MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S456TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S460MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S460TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S465MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S465TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S466MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S466TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S470MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S470TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S471MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S471TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S475MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S475TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S476MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S476TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S480MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S480TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S481MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S481TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S485MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S485TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S486MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S486TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S490MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S490TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S491MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S491TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S495MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S495TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S496MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S496TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S500MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S500TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S501MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S501TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S505MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S505TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S506MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S506TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S520MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S520TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S521MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S521TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S525MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S525TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S526MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S526TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S530MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S530TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S531MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S531TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S535MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S535TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S537MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S537TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S538MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S538TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S540MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S540TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S545MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S545TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S550MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S550TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S551MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S551TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S555MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S555TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S556MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S556TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S560MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S560TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S561MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S561TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S565MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S565TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S566MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S566TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S570MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S570TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S571MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S571TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S575MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S575TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S576MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S576TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S580MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S580TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S581MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S581TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S585MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S585TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S586MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S586TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S590MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S590TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S591MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S591TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S595MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S595TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S596MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S596TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S600MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S600TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S601MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S601TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S605MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S605TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S606MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S606TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S610MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S610TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S611MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S611TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S615MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S615TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S616MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S616TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S620MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S620TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S621MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S621TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S625MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S625TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S630MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S630TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S631MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S631TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S635MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S635TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S636MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S636TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S640MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S640TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S641MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S641TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S645MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S645TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S646MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S646TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S650MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S650TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S651MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S651TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S655MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S655TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S656MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S656TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S660MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S660TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S661MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S661TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S675MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S675TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S676MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S676TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S680MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S680TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S685MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S685TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S686MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S686TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S690MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S690TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S691MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S691TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S695MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S695TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S696MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S696TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S700MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S700TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S701MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S701TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S705MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S705TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S706MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S706TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S710MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S710TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S711MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S711TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S715MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S715TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S716MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S716TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S720MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S720TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S721MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S721TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S725MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S725TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S726MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S726TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S730MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S730TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S731MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S731TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S735MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S735TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S736MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S736TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S740MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S740TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S741MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S741TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S745MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S745TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S746MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S746TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S750MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S750TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S755MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S755TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S756MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S756TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S760MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S760TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S761MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S761TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S780MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S780TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S785MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S785TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S790MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S790TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S795MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S795TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S800MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S800TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S805MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S805TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S810MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S810TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S815BG01_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S815BG02_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S815MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S815TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S820MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S820TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S825MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S825TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S830MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S830TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S835MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S835TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S840MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S840TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S845MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S845TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S850MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S850TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S855MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S855TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S860MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S860TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S865MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S865TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S870MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S870TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S875MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S875TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S880MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S880TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S885MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S885TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S890MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S890TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S895MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S895TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S920MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S920TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S921MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S921TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S922MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S922TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S923MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S923TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S924MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S924TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S925MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S925TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S926MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S926TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S927MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S927TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S928MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S928TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S929MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S929TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S930MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S930TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S931MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S931TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S932MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S932TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S933MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S933TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S934MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S934TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S935MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S935TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S936MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S936TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S937MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S937TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S938MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S938TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S939MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S939TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S940MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S940TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S941MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S941TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S942MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S942TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S943MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S943TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S944MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S944TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S945MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S945TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S946MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S946TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S947MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S947TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S948MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S948TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S949MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S949TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S950MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S950TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S951MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S951TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S952MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S952TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S953MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S953TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S954MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S954TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S955MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S955TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S956MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S956TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S957MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S957TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S958MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S958TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S959MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S959TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S960MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S960TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S961MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S961TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S962MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S962TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S963MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S963TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S964MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S964TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S965MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S965TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S966MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S966TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S967MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S967TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S968MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S968TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S969MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S969TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S970MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S970TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S971MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S971TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S972MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S972TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S973MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S973TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S974MASK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S974TMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SDIGDEMO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_SSUBDEMO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_F000COM1_BIN_OFFSET: u8;
+	static mut LBA_IMPL_F000COM2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_F000COM3_BIN_OFFSET: u8;
+	static mut LBA_IMPL_F000COM4_BIN_OFFSET: u8;
+	static mut LBA_IMPL_PGFGTC00_BIN_OFFSET: u8;
+	static mut LBA_IMPL_PGFGTW00_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E000COM1_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E000COM2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E000COM3_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E000COM4_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E000EVOL_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E000JOGL_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E004BETA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E006DEVI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E014MONZ_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E020ANGE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E037BAKE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E056DIGI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E059HOUO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E066VAND_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E110GECO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E135DVDR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E144ROSE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E145VMON_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E150OMGM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E193GRFO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E211HANG_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E229PUKU_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E230GKWA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E234ANGW_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E245INFR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E259EXVM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E260STNG_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E302GAGO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E364MUMY_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E365ARCH_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E367GRAW_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E369DUKE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E372SGRG_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E373RENA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E374KYBI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E375TAOM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E377BLZB_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E381IPDP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E383PKEN_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E385KOGU_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E386DINO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E388GRIZ_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E389KYKI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E390ASLT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E430DOR2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E431VIK2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E433ANO2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E434ANT2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E438RIDN_BIN_OFFSET: u8;
+	static mut LBA_IMPL_E439FUJI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M468AGNM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M469GARM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M470AGRY_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0039_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0065_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0066_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0085_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0086_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0087_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0088_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0089_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0090_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0091_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0092_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0093_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0094_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0095_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0096_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0097_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0098_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0099_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0100_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0101_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0102_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0103_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0106_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0107_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0108_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0109_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0113_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0114_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0115_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0116_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0201_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0202_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0203_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0204_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0205_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0206_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0207_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0208_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0209_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0210_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0211_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0212_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0213_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0214_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0215_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0216_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0217_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0218_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0219_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0220_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0221_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0222_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0223_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0224_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0225_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0226_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0301_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0302_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0303_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0306_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0307_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0308_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0309_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0310_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0311_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0312_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0313_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0314_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0315_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0316_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0317_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0318_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0319_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0320_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0321_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0322_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0323_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0324_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0325_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0326_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0327_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0328_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0329_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0330_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0331_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0332_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0333_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0334_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0335_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0336_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0337_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0338_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0339_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0340_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0341_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0342_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0343_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0344_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0345_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0346_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0347_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0348_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0349_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0350_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0351_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0352_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0353_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0354_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0355_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0356_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0357_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0358_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0359_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0360_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0361_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0362_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0363_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0364_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0365_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0366_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0367_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0368_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0369_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0370_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0371_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0372_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0374_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0375_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0376_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0377_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT0378_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1001_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1002_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1003_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1004_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1005_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1006_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1007_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1008_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1009_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1010_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1011_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1012_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1013_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1014_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1015_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1016_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1017_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1018_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1019_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1020_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1021_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1022_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1023_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1024_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1025_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1026_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1027_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1028_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1029_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1030_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1031_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1032_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1033_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1034_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1035_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1036_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1037_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1038_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1039_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1040_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1041_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1042_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1043_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1044_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1045_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1046_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1047_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1048_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1049_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1050_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1051_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1052_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1053_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1054_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MEFT1055_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M003AGUM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M004BETA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M005GREY_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M006DEVI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M007AIRD_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M008TYRA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M009MERA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M010SEAD_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M011NUME_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M012MTGR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M013MAME_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M014MONZ_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M019KABU_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M020ANGE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M023YUKI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M024HOEE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M025VEGI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M026SKUL_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M027MTMA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M028VEDA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M031PATA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M032KUNE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M034OGRE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M035SHEL_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M037BAKE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M038DORI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M039SCUM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M040ANDR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M041GIRO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M042ETEM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M049SIRA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M050COCA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M051KUWA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M052MOJA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M053NANI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M054MGDR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M056DIGI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M059HOUO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M060HKAB_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M061MGSD_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M065MTET_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M066VAND_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M067YANM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M069FLAR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M070WARU_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M076TANK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M077REDV_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M080GOBR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M089FUGA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M094ICEM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M104BLMR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M108GOLE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M110GECO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M115MUGE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M119TONO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M121JURE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M122HAGU_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M124TIRS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M126BRAK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M132GIZA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M134CYCL_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M135DVDR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M136TUSK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M137FLYM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M138DELT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M139RARE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M140MTRN_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M141NANO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M143CLOK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M144ROSE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M145VMON_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M148IPDR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M150OMGM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M151DBLM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M165EBDR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M166DKGM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M170IVRU_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M171GOKI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M172MTAR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M173MSHA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M175KRSR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M176TDBL_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M177LDDV_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M178KNGT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M189DTMR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M190BOLT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M193GRFO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M196MGAR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M197GANI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M198KIWI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M200BLSA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M202ANOM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M203TRCR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M204MSDR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M206BAKU_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M207HANU_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M208TOTA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M210RUKA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M211HANG_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M212MANM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M213WGRE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M214SRPH_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M215SMAN_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M217PDEV_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M220GESO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M221OCTA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M222WOOD_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M223PHNT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M224MDEV_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M225DAGO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M226OKWA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M227GARB_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M228PIEM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M229PUKU_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M230GKWA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M231PINO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M234ANGW_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M236VVND_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M237CHMR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M238SNAI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M241HNGY_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M244SKST_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M245INFR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M247DEMN_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M250KGET_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M251APKR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M254PLDR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M259EXVM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M260STNG_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M267BKWG_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M269VALK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M270VIKI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M272SHDR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M273QTRU_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M277BARO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M281TIRO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M302GAGO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M312DETH_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M327RUNX_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M334MLDR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M337ZAMB_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M356HAND_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M358PHAR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M359IPDF_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M360ANTR_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M364MUMY_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M365ARCH_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M366GIRU_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M367GRAW_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M368MGRW_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M369DUKE_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M372SGRG_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M373RENA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M374KYBI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M375TAOM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M376SKYA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M377BLZB_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M378BVND_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M381IPDP_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M382ARMG_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M383PKEN_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M384KOET_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M385KOGU_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M386DINO_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M387PIRT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M388GRIZ_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M389KYKI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M390ASLT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M391GRPL_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M392SLAG_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M393CNND_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M394MARS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M395KUW2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M396YAN2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M397DKG2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M398GOB2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M399MTA2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M400FLY2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M401WOO2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M402TRC2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M403AIR2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M404PHN2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M405COC2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M406TOT2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M407TON2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M408SEA2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M409MAN2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M410VED2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M411MLD2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M412GAR2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M413NUM2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M414NUM3_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M415NUM4_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M416NUM5_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M417NUM6_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M418RAR2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M419CYC2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M420TAN2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M421MSH2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M422KRS2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M423SNA2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M424BLS2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M425JUR2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M426HOE2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M427MGS2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M428EBD2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M429IVR2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M430DOR2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M431VIK2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M432MSD2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M433ANO2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M434ANT2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M435GAR3_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M436VALV_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M437BAST_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M438RIDN_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M439FUJI_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M440SIJN_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M441RAIZ_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M442RGN1_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M443SGR2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M444IPD2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M445MGR2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M446BKNM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M447SRP2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M448BKW9_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M449MTG9_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M450PLD9_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M451MGR9_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M452HAN9_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M453TAO9_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M454KYK9_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M455ASL9_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M456GRP9_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M457CDC1_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M458CDC2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M459CDU1_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M460CDU2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M461CDR1_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M462CDR2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M463CDS1_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M464CDS2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M465SNAT_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M466RGN2_BIN_OFFSET: u8;
+	static mut LBA_IMPL_M467RGN3_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STMCRDCS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STMCRDTM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STDGNMCS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STDGNMTM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STNMETCS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STNMETTM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_CMNBGDCS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_CMNBGDTM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_END__ALL_BIN_OFFSET: u8;
+	static mut LBA_IMPL_NAMEDTCS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_NAMEDTTM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STALBMCS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STALBMTM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STCDSPCS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STCDSPTM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STFRPTCS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STFRPTTM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STSHOPCS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STSHOPTM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STSTATCS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STSTATTM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STWMP0CS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STWMP0TM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STWMP1CS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STWMP1TM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_TLOGOJPN_BIN_OFFSET: u8;
+	static mut LBA_IMPL_TLOGOPAL_BIN_OFFSET: u8;
+	static mut LBA_IMPL_TLOGOUSA_BIN_OFFSET: u8;
+	static mut LBA_IMPL_TTCOMMPK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBATL00_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBATL00_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBATL10_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBATL10_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM001_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM001_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM002_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM002_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM003_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM003_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM004_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM004_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM005_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM005_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM007_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM007_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM008_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM008_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM009_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM009_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM010_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM010_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM011_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM011_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM012_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM012_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM013_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM013_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM014_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM014_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM015_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM015_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM016_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM016_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM017_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM017_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM018_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM018_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM019_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM019_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM020_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM020_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM021_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM021_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM022_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM022_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM023_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM023_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM024_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM024_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM025_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM025_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM026_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM026_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM027_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM027_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM028_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM028_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM029_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM029_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM030_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM030_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBGM031_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBGM031_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBOSS00_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBOSS00_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBOSS01_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBOSS01_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBOSS02_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBOSS02_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBOSS03_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBOSS03_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPBOSS04_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVBOSS04_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPCBTL00_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVCBTL00_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPCOMMON_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVCOMMON_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPCONFUS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVCONFUS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV001_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV001_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV002_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV002_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV003_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV003_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV004_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV004_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV005_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV005_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV006_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV006_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV007_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV007_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV008_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV008_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV009_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV009_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV010_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV010_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV011_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV011_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV012_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV012_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV013_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV013_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV014_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV014_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV015_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV015_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV016_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV016_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV017_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV017_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV018_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV018_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV019_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV019_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV020_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV020_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV021_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV021_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV022_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV022_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV023_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV023_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV024_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV024_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV025_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV025_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV204_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV204_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV205_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV205_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPENV206_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVENV206_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPEVO_00_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVEVO_00_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPJOG_00_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVJOG_00_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MPTTLBGM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MVTTLBGM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STTRNGCS_BIN_OFFSET: u8;
+	static mut LBA_IMPL_STTRNGTM_BIN_OFFSET: u8;
+	static mut LBA_IMPL_TRANIN00_BIN_OFFSET: u8;
+	static mut LBA_IMPL_TRANIN01_BIN_OFFSET: u8;
+	static mut LBA_IMPL_TRANIN02_BIN_OFFSET: u8;
+	static mut LBA_IMPL_TRANIN03_BIN_OFFSET: u8;
+	static mut LBA_IMPL_TRANIN04_BIN_OFFSET: u8;
+	static mut LBA_IMPL_TRANIN10_BIN_OFFSET: u8;
+	static mut LBA_IMPL_TRANIN11_BIN_OFFSET: u8;
+	static mut LBA_IMPL_TRANIN12_BIN_OFFSET: u8;
+	static mut LBA_IMPL_TRANIN13_BIN_OFFSET: u8;
+	static mut LBA_IMPL_TRANIN14_BIN_OFFSET: u8;
+	static mut LBA_IMPL_TRANIN15_BIN_OFFSET: u8;
+	static mut LBA_IMPL_TRANIN16_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S200PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S201PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S202PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S203PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S205PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S206PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S210PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S211PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S212PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S218PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S219PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S220PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S221PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S225PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S226PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S230PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S231PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S232PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S233PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S235PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S236PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S237PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S238PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S240PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S241PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S245PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S246PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S250PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S251PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S255PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S256PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S260PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S261PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S270PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S271PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S275PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S276PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S280PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S281PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S285PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S286PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S290PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S291PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S295PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S296PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S300PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S301PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S305PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S306PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S310PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S311PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S315PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S316PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S320PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S321PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S325PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S326PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S330PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S331PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S335PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S336PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S340PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S341PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S345PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S346PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S350PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S351PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S355PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S356PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S360PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S361PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S365PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S366PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S370PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S371PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S375PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S376PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S380PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S381PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S385PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S386PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S395PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S396PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S400PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S401PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S405PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S406PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S410PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S411PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S420PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S421PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S425PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S426PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S430PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S431PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S435PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S436PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S440PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S441PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S445PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S446PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S450PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S451PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S455PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S456PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S460PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S465PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S466PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S470PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S471PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S475PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S476PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S480PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S481PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S485PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S486PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S490PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S491PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S495PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S496PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S500PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S501PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S505PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S506PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S520PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S521PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S525PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S526PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S530PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S531PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S535PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S537PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S538PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S540PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S545PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S550PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S551PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S555PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S556PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S560PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S561PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S565PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S566PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S570PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S571PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S575PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S576PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S580PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S581PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S585PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S586PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S590PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S591PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S595PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S596PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S600PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S601PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S605PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S606PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S610PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S611PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S615PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S616PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S620PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S621PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S625PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S630PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S631PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S635PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S636PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S640PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S641PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S645PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S646PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S650PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S651PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S655PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S656PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S660PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S661PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S675PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S676PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S680PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S685PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S686PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S690PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S691PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S695PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S696PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S700PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S701PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S705PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S706PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S710PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S711PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S715PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S716PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S720PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S721PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S725PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S726PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S730PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S731PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S735PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S736PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S740PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S741PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S745PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S746PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S750PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S755PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S756PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S760PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S761PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S780PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S785PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S790PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S795PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S800PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S805PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S810PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S820PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S825PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S830PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S835PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S840PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S845PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S850PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S855PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S860PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S865PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S870PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S875PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S880PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S885PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S890PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_S895PACK_BIN_OFFSET: u8;
+	static mut LBA_IMPL_MOVIED01_STR_OFFSET: u8;
+	static mut LBA_IMPL_MOVIED02_STR_OFFSET: u8;
+	static mut LBA_IMPL_MOVIED03_STR_OFFSET: u8;
+	static mut LBA_IMPL_MOVIED04_STR_OFFSET: u8;
+	static mut LBA_IMPL_MOVIED05_STR_OFFSET: u8;
+	static mut LBA_IMPL_MOVIED06_STR_OFFSET: u8;
+	static mut LBA_IMPL_MOVIED07_STR_OFFSET: u8;
+	static mut LBA_IMPL_MOVIED08_STR_OFFSET: u8;
+	static mut LBA_IMPL_MOVIEE01_STR_OFFSET: u8;
+	static mut LBA_IMPL_MOVIEE02_STR_OFFSET: u8;
+	static mut LBA_IMPL_MOVIEE03_STR_OFFSET: u8;
+	static mut LBA_IMPL_MOVIEE04_STR_OFFSET: u8;
+	static mut LBA_IMPL_MOVIEOP2_STR_OFFSET: u8;
+	static mut LBA_IMPL_MOVIEOPN_STR_OFFSET: u8;
+
+	static mut LBA_IMPL_NONE_____BIN_MSAMTMAP_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USAMTMAP_BIN_ESAMTMAP_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSAMTMAP_BIN_ISAMTMAP_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSAMTMAP_BIN_SSAMTMAP_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSASKMAP_BIN_USASKMAP_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESASKMAP_BIN_FSASKMAP_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISASKMAP_BIN_DSASKMAP_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSASKMAP_BIN_MSCARDGM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USCARDGM_BIN_ESCARDGM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSCARDGM_BIN_ISCARDGM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSCARDGM_BIN_SSCARDGM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSCARDNM_BIN_USCARDNM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESCARDNM_BIN_FSCARDNM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISCARDNM_BIN_DSCARDNM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSCARDNM_BIN_MSCARDST_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USCARDST_BIN_ESCARDST_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSCARDST_BIN_ISCARDST_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSCARDST_BIN_SSCARDST_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSCRDABM_BIN_USCRDABM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESCRDABM_BIN_FSCRDABM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISCRDABM_BIN_DSCRDABM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSCRDABM_BIN_MSCRDDEK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USCRDDEK_BIN_ESCRDDEK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSCRDDEK_BIN_ISCRDDEK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSCRDDEK_BIN_SSCRDDEK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSCRDSHP_BIN_USCRDSHP_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESCRDSHP_BIN_FSCRDSHP_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISCRDSHP_BIN_DSCRDSHP_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSCRDSHP_BIN_MSDGLABO_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USDGLABO_BIN_ESDGLABO_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSDGLABO_BIN_ISDGLABO_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSDGLABO_BIN_SSDGLABO_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSDGNMET_BIN_USDGNMET_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESDGNMET_BIN_FSDGNMET_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISDGNMET_BIN_DSDGNMET_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSDGNMET_BIN_MSDIGINF_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USDIGINF_BIN_ESDIGINF_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSDIGINF_BIN_ISDIGINF_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSDIGINF_BIN_SSDIGINF_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSDIGNAM_BIN_USDIGNAM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESDIGNAM_BIN_FSDIGNAM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISDIGNAM_BIN_DSDIGNAM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSDIGNAM_BIN_MSFGTRPT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USFGTRPT_BIN_ESFGTRPT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSFGTRPT_BIN_ISFGTRPT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSFGTRPT_BIN_SSFGTRPT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSHTLNAM_BIN_USHTLNAM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESHTLNAM_BIN_FSHTLNAM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISHTLNAM_BIN_DSHTLNAM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSHTLNAM_BIN_MSITMINF_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USITMINF_BIN_ESITMINF_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSITMINF_BIN_ISITMINF_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSITMINF_BIN_SSITMINF_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSITMNAM_BIN_USITMNAM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESITMNAM_BIN_FSITMNAM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISITMNAM_BIN_DSITMNAM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSITMNAM_BIN_MSITSHOP_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USITSHOP_BIN_ESITSHOP_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSITSHOP_BIN_ISITSHOP_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSITSHOP_BIN_SSITSHOP_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSMEMCRD_BIN_USMEMCRD_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESMEMCRD_BIN_FSMEMCRD_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISMEMCRD_BIN_DSMEMCRD_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSMEMCRD_BIN_MSMFIGHT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USMFIGHT_BIN_ESMFIGHT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSMFIGHT_BIN_ISMFIGHT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSMFIGHT_BIN_SSMFIGHT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSNAMEDT_BIN_USNAMEDT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESNAMEDT_BIN_FSNAMEDT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISNAMEDT_BIN_DSNAMEDT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSNAMEDT_BIN_MSNAMEET_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USNAMEET_BIN_ESNAMEET_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSNAMEET_BIN_ISNAMEET_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSNAMEET_BIN_SSNAMEET_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSSHPNAM_BIN_USSHPNAM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESSHPNAM_BIN_FSSHPNAM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISSHPNAM_BIN_DSSHPNAM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSSHPNAM_BIN_MSSKLINF_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USSKLINF_BIN_ESSKLINF_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSSKLINF_BIN_ISSKLINF_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSSKLINF_BIN_SSSKLINF_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSSKLNAM_BIN_USSKLNAM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESSKLNAM_BIN_FSSKLNAM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISSKLNAM_BIN_DSSKLNAM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSSKLNAM_BIN_MSSTAREA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USSTAREA_BIN_ESSTAREA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSSTAREA_BIN_ISSTAREA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSSTAREA_BIN_SSSTAREA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSSTATUS_BIN_USSTATUS_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESSTATUS_BIN_FSSTATUS_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISSTATUS_BIN_DSSTATUS_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSSTATUS_BIN_MSSTNAME_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USSTNAME_BIN_ESSTNAME_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSSTNAME_BIN_ISSTNAME_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSSTNAME_BIN_SSSTNAME_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSSYSTEM_BIN_USSYSTEM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESSYSTEM_BIN_FSSYSTEM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISSYSTEM_BIN_DSSYSTEM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSSYSTEM_BIN_MSTALK00_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USTALK00_BIN_ESTALK00_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSTALK00_BIN_ISTALK00_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSTALK00_BIN_SSTALK00_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSTALK01_BIN_USTALK01_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESTALK01_BIN_FSTALK01_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISTALK01_BIN_DSTALK01_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSTALK01_BIN_MSTALK02_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USTALK02_BIN_ESTALK02_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSTALK02_BIN_ISTALK02_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSTALK02_BIN_SSTALK02_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSTALK03_BIN_USTALK03_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESTALK03_BIN_FSTALK03_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISTALK03_BIN_DSTALK03_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSTALK03_BIN_MSTALK04_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USTALK04_BIN_ESTALK04_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSTALK04_BIN_ISTALK04_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSTALK04_BIN_SSTALK04_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSTALK05_BIN_USTALK05_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESTALK05_BIN_FSTALK05_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISTALK05_BIN_DSTALK05_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSTALK05_BIN_MSTALK06_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USTALK06_BIN_ESTALK06_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSTALK06_BIN_ISTALK06_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSTALK06_BIN_SSTALK06_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSTALK07_BIN_USTALK07_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESTALK07_BIN_FSTALK07_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISTALK07_BIN_DSTALK07_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSTALK07_BIN_MSTALK08_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USTALK08_BIN_ESTALK08_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSTALK08_BIN_ISTALK08_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSTALK08_BIN_SSTALK08_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSTALK09_BIN_USTALK09_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESTALK09_BIN_FSTALK09_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISTALK09_BIN_DSTALK09_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSTALK09_BIN_MSTRAINI_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USTRAINI_BIN_ESTRAINI_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSTRAINI_BIN_ISTRAINI_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSTRAINI_BIN_SSTRAINI_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSDMG200_BIN_USDMG200_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESDMG200_BIN_FSDMG200_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISDMG200_BIN_DSDMG200_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSDMG200_BIN_MSDMG260_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USDMG260_BIN_ESDMG260_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSDMG260_BIN_ISDMG260_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSDMG260_BIN_SSDMG260_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSDMG270_BIN_USDMG270_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESDMG270_BIN_FSDMG270_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISDMG270_BIN_DSDMG270_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSDMG270_BIN_MSDMG300_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USDMG300_BIN_ESDMG300_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSDMG300_BIN_ISDMG300_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSDMG300_BIN_SSDMG300_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSDMG305_BIN_USDMG305_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESDMG305_BIN_FSDMG305_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISDMG305_BIN_DSDMG305_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSDMG305_BIN_MSDMG400_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USDMG400_BIN_ESDMG400_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSDMG400_BIN_ISDMG400_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSDMG400_BIN_SSDMG400_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSDMG500_BIN_USDMG500_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESDMG500_BIN_FSDMG500_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISDMG500_BIN_DSDMG500_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSDMG500_BIN_MSDMG600_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USDMG600_BIN_ESDMG600_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSDMG600_BIN_ISDMG600_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSDMG600_BIN_SSDMG600_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSDMG700_BIN_USDMG700_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESDMG700_BIN_FSDMG700_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISDMG700_BIN_DSDMG700_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSDMG700_BIN_MSDMG800_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_USDMG800_BIN_ESDMG800_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FSDMG800_BIN_ISDMG800_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_DSDMG800_BIN_SSDMG800_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MSDMG900_BIN_USDMG900_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ESDMG900_BIN_FSDMG900_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_ISDMG900_BIN_DSDMG900_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSDMG900_BIN_M039SCUM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FIELDCOM_BIN_CARDGAME_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STDGNAME_PRO_M115MUGE_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M366GIRU_BIN_CNTY_SEL_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_FIELDSTG_PRO_FIGHTSTG_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SHOCKTST_PRO_SOUNDTST_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPBATL00_BIN_MPBGM001_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPBGM002_BIN_MPBGM004_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPBGM005_BIN_MPBGM007_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPBGM009_BIN_MPBGM010_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPBGM025_BIN_MPCOMMON_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPENV001_BIN_MPENV005_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPENV010_BIN_MVBATL00_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVBGM001_BIN_MVBGM002_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVBGM004_BIN_MVBGM005_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVBGM007_BIN_MVBGM009_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVBGM010_BIN_MVBGM025_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVCOMMON_BIN_MVENV001_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVENV005_BIN_MVENV010_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STAGSLCT_PRO_STCRDABM_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P001PLAY_BIN_P002PLAY_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P003PKEN_BIN_P004KOGU_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P005KOET_BIN_P006AGUM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P007VMON_BIN_P008GIRU_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P009RENA_BIN_P010PATA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P011MINO_BIN_P013TAKU_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P044OPFS_BIN_P065JKSI_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P146OPFE_BIN_P147OPFW_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S200PACK_BIN_S200TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S205PACK_BIN_S205TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S210PACK_BIN_S210TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S220PACK_BIN_S220TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S225PACK_BIN_S225TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S230PACK_BIN_S230TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S235PACK_BIN_S235TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S240PACK_BIN_S240TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S245PACK_BIN_S245TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S250PACK_BIN_S250TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S255PACK_BIN_S255TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S260PACK_BIN_S260TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S270PACK_BIN_S270TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S275PACK_BIN_S275TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S280PACK_BIN_S280TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S330PACK_BIN_S330TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S335PACK_BIN_S335TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S350PACK_BIN_S350TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S355PACK_BIN_S355TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S370PACK_BIN_S370TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S375PACK_BIN_S375TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S435PACK_BIN_S435TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S465PACK_BIN_S465TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S780PACK_BIN_S780TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S785PACK_BIN_S785TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S790PACK_BIN_S790TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STCRDDEK_PRO_SFSTDATA_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SMDLDATA_PRO_M069FLAR_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STCRDSHP_PRO_SDIGIEDT_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STDWTITL_PRO_STFGTREP_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG200_PRO_WSTAG205_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG210_PRO_WSTAG220_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG225_PRO_WSTAG230_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG235_PRO_WSTAG240_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG245_PRO_WSTAG250_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG255_PRO_WSTAG260_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG270_PRO_WSTAG275_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG280_PRO_WSTAG330_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG335_PRO_WSTAG350_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG355_PRO_WSTAG370_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG375_PRO_WSTAG435_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG465_PRO_WSTAG780_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG785_PRO_WSTAG790_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STGDGLAB_PRO_WSTAG395_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STGMCARD_PRO_WSTAG360_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG430_PRO_WSTAG475_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STGTRAIN_PRO_M003AGUM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M010SEAD_BIN_M013MAME_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M126BRAK_BIN_M148IPDR_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M175KRSR_BIN_M176TDBL_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M213WGRE_BIN_M217PDEV_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M230GKWA_BIN_M236VVND_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M251APKR_BIN_M373RENA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M381IPDP_BIN_MPBGM030_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPENV011_BIN_MVBGM030_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVENV011_BIN_STITSHOP_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STPLNMET_PRO_STSTATUS_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WFIGHTMN_PRO_WFIGHTTS_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG201_PRO_WSTAG202_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG203_PRO_WSTAG206_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M145VMON_BIN_MPBGM003_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPBGM029_BIN_MVBGM003_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVBGM029_BIN_MPBGM020_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVBGM020_BIN_WSTAG470_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPBGM008_BIN_WSTAG211_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG212_PRO_MVBGM008_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S395PACK_BIN_S395TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG505_PRO_WSTAG365_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S360PACK_BIN_S360TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG555_PRO_S430PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S430TMPK_BIN_WSTAG520_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M076TANK_BIN_MPBGM011_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M196MGAR_BIN_MPBGM022_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPBOSS00_BIN_MPENV004_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPENV204_BIN_MVBGM011_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVBGM022_BIN_MVBOSS00_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVENV004_BIN_MVENV204_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG218_PRO_S475PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S475TMPK_BIN_S470PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG219_PRO_S470TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG425_PRO_MPBGM012_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVBGM012_BIN_S365PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S365TMPK_BIN_S505PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S505TMPK_BIN_WSTAG405_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG545_PRO_M259EXVM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M260STNG_BIN_MPBGM013_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVBGM013_BIN_S555PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S555TMPK_BIN_M384KOET_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPBGM014_BIN_MVBGM014_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M053NANI_BIN_M385KOGU_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S520PACK_BIN_S520TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S425PACK_BIN_WSTAG530_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG221_PRO_M031PATA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG226_PRO_WSTAG231_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG232_PRO_WSTAG233_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S425TMPK_BIN_M012MTGR_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S405PACK_BIN_S405TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M041GIRO_BIN_M254PLDR_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPBGM015_BIN_MVBGM015_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M150OMGM_BIN_CARDDATA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_TRANIN00_BIN_CARDPACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPBGM016_BIN_MVBGM016_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M014MONZ_BIN_M032KUNE_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M023YUKI_BIN_M034OGRE_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M037BAKE_BIN_M035SHEL_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M049SIRA_BIN_M050COCA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M051KUWA_BIN_M052MOJA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M110GECO_BIN_M004BETA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M006DEVI_BIN_M135DVDR_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG236_PRO_M367GRAW_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M132GIZA_BIN_MPBGM018_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVBGM018_BIN_S545PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S545TMPK_BIN_M203TRCR_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S530PACK_BIN_S530TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M026SKUL_BIN_MPBGM027_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVBGM027_BIN_M005GREY_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M122HAGU_BIN_WSTAG237_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_TRANIN02_BIN_TRANIN03_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_TRANIN04_BIN_TRANIN10_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_TRANIN14_BIN_TRANIN15_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_CMFONTCS_BIN_CMFONTTM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STDGNMCS_BIN_STDGNMTM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STNMETCS_BIN_STNMETTM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STTRNGCS_BIN_STTRNGTM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M134CYCL_BIN_M136TUSK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S256PACK_BIN_S256TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG256_PRO_S535PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S535TMPK_BIN_WSTAG535_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M138DELT_BIN_M008TYRA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPBGM017_BIN_MVBGM017_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M139RARE_BIN_WSTAG238_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M027MTMA_BIN_STMCRDCS_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STMCRDTM_BIN_M119TONO_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG241_PRO_M067YANM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M173MSHA_BIN_S320PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S320TMPK_BIN_WSTAG320_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M080GOBR_BIN_S710PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S710TMPK_BIN_WSTAG710_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M059HOUO_BIN_S290PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S290TMPK_BIN_WSTAG290_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M222WOOD_BIN_S560PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S560TMPK_BIN_WSTAG560_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M137FLYM_BIN_M234ANGW_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S285PACK_BIN_S285TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG285_PRO_S237PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S237TMPK_BIN_WSTAG246_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S380PACK_BIN_S380TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG380_PRO_WSTAG251_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG261_PRO_M028VEDA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M388GRIZ_BIN_M094ICEM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S240MASK_BIN_S205MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_CMNBGDCS_BIN_STDGLBCS_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STDGLBTM_BIN_WSTAG271_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPBGM019_BIN_MPBGM023_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPBGM024_BIN_MPBGM028_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVBGM019_BIN_MVBGM023_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVBGM024_BIN_MVBGM028_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M227GARB_BIN_S375MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S335MASK_BIN_M042ETEM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M211HANG_BIN_S470MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S220MASK_BIN_M065MTET_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S275MASK_BIN_M267BKWG_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M171GOKI_BIN_M197GANI_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M121JURE_BIN_M198KIWI_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPBGM031_BIN_MVBGM031_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M025VEGI_BIN_M108GOLE_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P027SMTH_BIN_P036AMDK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P020RDSZ_BIN_P019RDSY_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P021RDBK_BIN_P022RDGB_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P023RDET_BIN_P026RDNT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P024RDST_BIN_P025RDWT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P028WEDG_BIN_P030ASWT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P031ASFM_BIN_P029ASLR_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P032ASDK_BIN_P034AMWT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P033AMLR_BIN_P035AMFM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P037GRGO_BIN_P039TAIL_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P038WIZA_BIN_P040PIKO_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P012MINT_BIN_P014TAKT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P159NVMO_BIN_P158NAGU_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P160NGIR_BIN_P161NREN_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P162NPAT_BIN_M200BLSA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M124TIRS_BIN_M212MANM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_TRANIN11_BIN_TRANIN12_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_TRANIN16_BIN_P163JKST_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M202ANOM_BIN_M215SMAN_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M207HANU_BIN_M206BAKU_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P042LABO_BIN_P087TERS_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P088GABS_BIN_P089PYOS_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P071OLYF_BIN_P069OTKF_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P070FRTF_BIN_P068SARM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P066FRTM_BIN_P067OTKU_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P063FRDF_BIN_P064HSSM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P062FRDM_BIN_P047LEOM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P048GDAM_BIN_P045AMST_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P046AW00_BIN_P043OPMA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P041GRDR_BIN_S710MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S200MASK_BIN_S395MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S780MASK_BIN_S555MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S210MASK_BIN_S245MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S560MASK_BIN_S430MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S320MASK_BIN_P105KNGO_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S330MASK_BIN_WSTAG276_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG281_PRO_M208TOTA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S260MASK_BIN_S285MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S290MASK_BIN_S380MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S425MASK_BIN_S790MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M225DAGO_BIN_MPBGM021_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVBGM021_BIN_M391GRPL_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M210RUKA_BIN_S202MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S202PACK_BIN_S202TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG286_PRO_S218MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S218PACK_BIN_S218TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG291_PRO_S237MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M226OKWA_BIN_S310MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S310PACK_BIN_S310TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG310_PRO_S232MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S232PACK_BIN_S232TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG295_PRO_S305MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S305PACK_BIN_S305TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG305_PRO_S300MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S300PACK_BIN_S300TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG300_PRO_M359IPDF_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M229PUKU_BIN_P059AOAD_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P060AOAE_BIN_P057AOAB_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P055GMGD_BIN_P058AOAC_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P056AOAS_BIN_P053SHAK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P050FRDR_BIN_P054MGNA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P049TOGE_BIN_P051PANG_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPENV002_BIN_MPENV003_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVENV002_BIN_MVENV003_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S460PACK_BIN_S460TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG460_PRO_S480PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S480TMPK_BIN_WSTAG480_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M040ANDR_BIN_M223PHNT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG296_PRO_WSTAG301_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG306_PRO_WSTAG311_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M270VIKI_BIN_M193GRFO_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P084KETE_BIN_P085FLWR_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P083METE_BIN_P081NMEM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P082ETEM_BIN_P079SPIC_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P080BALM_BIN_P073GOBA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P074JIJI_BIN_P072GOZS_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P061AOAF_BIN_S440MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S440PACK_BIN_S440TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG440_PRO_MPENV006_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPENV007_BIN_MVENV006_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVENV007_BIN_M089FUGA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M060HKAB_BIN_P075BABA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P108PHAR_BIN_P109MTHI_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P106PONT_BIN_P098YASH_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P102SHUR_BIN_P090MGRM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P093HANM_BIN_P091PDRM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P092MGWM_BIN_S455MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S455PACK_BIN_S455TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG455_PRO_M220GESO_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M009MERA_BIN_M140MTRN_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S230MASK_BIN_S450MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S450PACK_BIN_S450TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG450_PRO_S410MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S410PACK_BIN_S410TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG410_PRO_M374KYBI_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S340MASK_BIN_S340PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S340TMPK_BIN_WSTAG340_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S345MASK_BIN_S345PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S345TMPK_BIN_WSTAG345_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG315_PRO_WSTAG316_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPENV008_BIN_MPENV009_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPENV012_BIN_MPENV013_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPENV014_BIN_MVENV008_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVENV009_BIN_MVENV012_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVENV013_BIN_MVENV014_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S485MASK_BIN_S485PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S485TMPK_BIN_WSTAG485_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M224MDEV_BIN_M221OCTA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M054MGDR_BIN_MPENV015_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPENV016_BIN_MPENV017_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVENV015_BIN_MVENV016_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVENV017_BIN_S525MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S525PACK_BIN_S525TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG525_PRO_S495MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S495PACK_BIN_S495TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG495_PRO_P002PLYD_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P002PLYF_BIN_P002PLYK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P002PLYL_BIN_S225MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S235MASK_BIN_S250MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S255MASK_BIN_S256MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S270MASK_BIN_S280MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S350MASK_BIN_S355MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S360MASK_BIN_S365MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S370MASK_BIN_S405MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S475MASK_BIN_S505MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S520MASK_BIN_S530MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S535MASK_BIN_S545MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S435MASK_BIN_S465MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S785MASK_BIN_P148SNAC_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P121BWGM_BIN_P122SBMM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P123DIGM_BIN_P118BSRM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P119BGWM_BIN_P117BIPD_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P115KNIG_BIN_P116BSGM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P113WARU_BIN_P114NANO_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P111ZANB_BIN_P112HAND_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPENV018_BIN_MPENV019_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPENV020_BIN_MPENV021_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPENV022_BIN_MPENV023_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVENV018_BIN_MVENV019_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVENV020_BIN_MVENV021_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVENV022_BIN_MVENV023_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P126ITMB_BIN_S490MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S490PACK_BIN_S490TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG490_PRO_P157OPFT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STSHOPCS_BIN_STSHOPTM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STSTATCS_BIN_STSTATTM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG321_PRO_WSTAG325_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S400MASK_BIN_S400PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S400TMPK_BIN_WSTAG400_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S500MASK_BIN_S500PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S500TMPK_BIN_WSTAG500_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M189DTMR_BIN_P107SEAM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P156BOOM_BIN_P103DPTM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P099SZIM_BIN_P104KABM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P100SHDM_BIN_P101NHEM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P095KKIM_BIN_P097ASTM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P077HASM_BIN_P086AIRD_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P052ASHM_BIN_M104BLMR_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M020ANGE_BIN_M237CHMR_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M383PKEN_BIN_M151DBLM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S570PACK_BIN_S570MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S570TMPK_BIN_WSTAG570_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P076HANM_BIN_M369DUKE_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M395KUW2_BIN_M398GOB2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M281TIRO_BIN_M402TRC2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P096GREM_BIN_P094TAOM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M405COC2_BIN_M409MAN2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M418RAR2_BIN_M419CYC2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S301MASK_BIN_S301PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S301TMPK_BIN_WSTAG326_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPBGM026_BIN_MPENV024_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVBGM026_BIN_MVENV024_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M410VED2_BIN_M404PHN2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M406TOT2_BIN_M424BLS2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_TRANIN01_BIN_TRANIN13_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M396YAN2_BIN_M422KRS2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M421MSH2_BIN_M376SKYA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M400FLY2_BIN_M401WOO2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M425JUR2_BIN_M407TON2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M433ANO2_BIN_M431VIK2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M449MTG9_BIN_M456GRP9_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG331_PRO_M450PLD9_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M452HAN9_BIN_M368MGRW_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M214SRPH_BIN_M390ASLT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M231PINO_BIN_M420TAN2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M448BKW9_BIN_PGFGTC00_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_PGFGTW00_BIN_M444IPD2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M375TAOM_BIN_M070WARU_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M447SRP2_BIN_MPCBTL00_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVCBTL00_BIN_M451MGR9_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M445MGR2_BIN_S460MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG336_PRO_WSTAG341_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG346_PRO_WSTAG351_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M453TAO9_BIN_M455ASL9_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M011NUME_BIN_M228PIEM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M312DETH_BIN_M177LDDV_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M024HOEE_BIN_M061MGSD_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S550MASK_BIN_S550PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S550TMPK_BIN_WSTAG550_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPBATL10_BIN_MPBOSS01_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVBATL10_BIN_MVBOSS01_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG356_PRO_M413NUM2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M414NUM3_BIN_M415NUM4_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M416NUM5_BIN_M417NUM6_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M387PIRT_BIN_M056DIGI_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M066VAND_BIN_M204MSDR_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG361_PRO_S575MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S575PACK_BIN_S575TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG575_PRO_S605MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S605PACK_BIN_S605TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG605_PRO_S620MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S620PACK_BIN_S620TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S625MASK_BIN_S625PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S625TMPK_BIN_WSTAG620_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG625_PRO_M408SEA2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M427MGS2_BIN_M432MSD2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S630MASK_BIN_S630PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S630TMPK_BIN_WSTAG630_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S655PACK_BIN_S655TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S655MASK_BIN_WSTAG655_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S635MASK_BIN_S635PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S635TMPK_BIN_WSTAG635_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S640MASK_BIN_S640PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S640TMPK_BIN_WSTAG640_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S211MASK_BIN_S211PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S211TMPK_BIN_WSTAG366_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S645MASK_BIN_S645PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S645TMPK_BIN_WSTAG645_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S206MASK_BIN_S206PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S206TMPK_BIN_WSTAG371_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S675MASK_BIN_S675PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S675TMPK_BIN_WSTAG675_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S231MASK_BIN_S231PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S231TMPK_BIN_WSTAG376_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S226MASK_BIN_S226PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S226TMPK_BIN_WSTAG381_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S610PACK_BIN_M007AIRD_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M426HOE2_BIN_M019KABU_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M394MARS_BIN_S610MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S610TMPK_BIN_WSTAG610_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S685MASK_BIN_S685PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S685TMPK_BIN_S660MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S660PACK_BIN_S660TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG660_PRO_WSTAG685_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPCONFUS_BIN_MVCONFUS_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S212MASK_BIN_S212PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S212TMPK_BIN_WSTAG385_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S238MASK_BIN_S238PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S238TMPK_BIN_WSTAG386_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG396_PRO_M141NANO_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S236MASK_BIN_S236PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S236TMPK_BIN_WSTAG401_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S233MASK_BIN_S233PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S233TMPK_BIN_WSTAG406_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S221MASK_BIN_S221PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S221TMPK_BIN_WSTAG411_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S251MASK_BIN_S251PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S251TMPK_BIN_S246MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S246PACK_BIN_S246TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S241MASK_BIN_S241PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S241TMPK_BIN_WSTAG415_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG420_PRO_WSTAG421_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M403AIR2_BIN_M273QTRU_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P015LUMO_BIN_P018MGCO_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P017ASGM_BIN_P120BNMM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P078HGMK_BIN_P152KEIT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P171BAGM_BIN_S385MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S385TMPK_BIN_WSTAG426_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M165EBDR_BIN_S291MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S291PACK_BIN_S291TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG431_PRO_S600MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S600PACK_BIN_S600TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG600_PRO_S585MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S585PACK_BIN_S585TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S595MASK_BIN_S595PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S595TMPK_BIN_S590MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S590PACK_BIN_S590TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG585_PRO_WSTAG590_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG595_PRO_S445MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S445PACK_BIN_S445TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG445_PRO_S385PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG436_PRO_S281MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S281PACK_BIN_S281TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG441_PRO_S565MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S565PACK_BIN_S565TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG565_PRO_S286MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S286PACK_BIN_S286TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG446_PRO_S201PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S201TMPK_BIN_S201MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG451_PRO_S261MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S261PACK_BIN_S261TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG456_PRO_S203MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S203PACK_BIN_S203TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG466_PRO_S276MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S276PACK_BIN_S276TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG471_PRO_S219MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S219PACK_BIN_S219TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG476_PRO_M170IVRU_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M038DORI_BIN_M143CLOK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S326MASK_BIN_S326PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S326TMPK_BIN_S311MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S311PACK_BIN_S311TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S321MASK_BIN_S321PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S321TMPK_BIN_S296MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S296PACK_BIN_S296TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S306MASK_BIN_S306PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S306TMPK_BIN_WSTAG481_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG486_PRO_WSTAG491_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG496_PRO_WSTAG501_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S650MASK_BIN_S650PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S650TMPK_BIN_WSTAG650_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG506_PRO_P150LISA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S537MASK_BIN_S537PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S537TMPK_BIN_WSTAG537_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M386DINO_BIN_M166DKGM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M172MTAR_BIN_M429IVR2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M428EBD2_BIN_S615MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S615PACK_BIN_S615TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG615_PRO_MPBOSS02_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVBOSS02_BIN_M399MTA2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M397DKG2_BIN_M430DOR2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M190BOLT_BIN_M077REDV_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M269VALK_BIN_S331MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S331PACK_BIN_S331TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG521_PRO_S316MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S316PACK_BIN_S316TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG526_PRO_S336MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S336PACK_BIN_S336TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG531_PRO_S341MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S341PACK_BIN_S341TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG538_PRO_S346MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S346PACK_BIN_S346TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG540_PRO_S471MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S471PACK_BIN_S471TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG551_PRO_S381MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S381PACK_BIN_S381TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG556_PRO_S366MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S366PACK_BIN_S366TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG561_PRO_S376MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S376PACK_BIN_S376TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG566_PRO_S386MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S386PACK_BIN_S386TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG571_PRO_S396MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S396PACK_BIN_S396TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG576_PRO_S361MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S361PACK_BIN_S361TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG580_PRO_WSTAG581_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S401MASK_BIN_S401PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S401TMPK_BIN_WSTAG586_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S431MASK_BIN_S431PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S431TMPK_BIN_WSTAG591_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S426MASK_BIN_S426PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S426TMPK_BIN_WSTAG596_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S446MASK_BIN_S446PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S446TMPK_BIN_WSTAG601_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S436MASK_BIN_S436PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S436TMPK_BIN_WSTAG606_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S411MASK_BIN_S411PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S411TMPK_BIN_WSTAG611_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S466MASK_BIN_S466PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S466TMPK_BIN_WSTAG616_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S496MASK_BIN_S496PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S496TMPK_BIN_WSTAG621_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S491MASK_BIN_S491PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S491TMPK_BIN_WSTAG631_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S486MASK_BIN_S486PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S486TMPK_BIN_WSTAG636_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S506MASK_BIN_S506PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S506TMPK_BIN_WSTAG641_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S501MASK_BIN_S501PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S501TMPK_BIN_WSTAG646_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S521MASK_BIN_S521PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S521TMPK_BIN_WSTAG651_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S538MASK_BIN_S538PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S538TMPK_BIN_WSTAG656_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S551MASK_BIN_S551PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S551TMPK_BIN_WSTAG661_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S561MASK_BIN_S561PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S561TMPK_BIN_WSTAG676_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S571MASK_BIN_S571PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S571TMPK_BIN_WSTAG680_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S576MASK_BIN_S576PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S576TMPK_BIN_WSTAG686_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG690_PRO_S556MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S556PACK_BIN_S556TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG691_PRO_S591MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S591PACK_BIN_S591TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG695_PRO_S586MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S586PACK_BIN_S586TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG696_PRO_S601MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S601PACK_BIN_S601TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG700_PRO_S596MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S596PACK_BIN_S596TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG701_PRO_S451MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S451PACK_BIN_S451TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG705_PRO_S481MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S481PACK_BIN_S481TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG706_PRO_S686MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S686PACK_BIN_S686TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG711_PRO_S696MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S696PACK_BIN_S696TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG715_PRO_STALBMCS_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STALBMTM_BIN_WSTAG716_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG720_PRO_M178KNGT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M377BLZB_BIN_M327RUNX_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M337ZAMB_BIN_S295MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S295PACK_BIN_S295TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG721_PRO_S606MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S606PACK_BIN_S606TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG725_PRO_S621MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S621PACK_BIN_S621TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG726_PRO_S611MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S611PACK_BIN_S611TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG730_PRO_S631MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S631PACK_BIN_S631TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG731_PRO_S616MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S616PACK_BIN_S616TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG735_PRO_S656MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S656PACK_BIN_S656TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S691MASK_BIN_S646MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S646PACK_BIN_S646TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S691PACK_BIN_S651MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S651PACK_BIN_S651TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S691TMPK_BIN_S641MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S641PACK_BIN_S641TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG736_PRO_S636MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S636PACK_BIN_S636TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S480MASK_BIN_MPENV025_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVENV025_BIN_S680MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S680PACK_BIN_S680TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STCDSPCS_BIN_S690MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S690PACK_BIN_S690TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STCDSPTM_BIN_S700MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S700PACK_BIN_S700TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M382ARMG_BIN_S705MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S705PACK_BIN_S705TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M272SHDR_BIN_P151NICK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P167SAGM_BIN_P169NSPM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P168PAGM_BIN_M247DEMN_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M365ARCH_BIN_M437BAST_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M372SGRG_BIN_WSTAG740_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG741_PRO_WSTAG745_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG746_PRO_WSTAG750_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG755_PRO_WSTAG756_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG760_PRO_WSTAG761_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S711MASK_BIN_S711PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S711TMPK_BIN_WSTAG795_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S676MASK_BIN_S676PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S676TMPK_BIN_WSTAG800_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S661MASK_BIN_S661PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S661TMPK_BIN_WSTAG805_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S701MASK_BIN_S701PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S701TMPK_BIN_WSTAG810_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S720MASK_BIN_S720PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S720TMPK_BIN_WSTAG815_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S805MASK_BIN_S805PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S805TMPK_BIN_WSTAG820_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S721MASK_BIN_S721PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S721TMPK_BIN_WSTAG825_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S730MASK_BIN_S730PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S730TMPK_BIN_WSTAG830_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M436VALV_BIN_M443SGR2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S716MASK_BIN_S716PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S716TMPK_BIN_WSTAG835_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S706MASK_BIN_S706PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S706TMPK_BIN_WSTAG840_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S726MASK_BIN_S726PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S726TMPK_BIN_WSTAG845_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S875MASK_BIN_S875PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S875TMPK_BIN_WSTAG875_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S880MASK_BIN_S880PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S880TMPK_BIN_S885MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S885PACK_BIN_S885TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S890MASK_BIN_S890PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S890TMPK_BIN_S895MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S895PACK_BIN_S895TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG880_PRO_WSTAG885_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG890_PRO_WSTAG895_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S825MASK_BIN_S825PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S825TMPK_BIN_WSTAG850_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S725MASK_BIN_S725PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S725TMPK_BIN_WSTAG855_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S351MASK_BIN_S351PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S351TMPK_BIN_WSTAG860_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S356MASK_BIN_S356PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S356TMPK_BIN_WSTAG865_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S865MASK_BIN_S865PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S865TMPK_BIN_WSTAG870_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S870MASK_BIN_S870PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S870TMPK_BIN_M441RAIZ_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S526MASK_BIN_S526PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S526TMPK_BIN_S735MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S735PACK_BIN_S735TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S371MASK_BIN_S371PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S371TMPK_BIN_S750MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S750PACK_BIN_S750TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S566MASK_BIN_S566PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S566TMPK_BIN_S731MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S731PACK_BIN_S731TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S736MASK_BIN_S736PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S736TMPK_BIN_M144ROSE_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M334MLDR_BIN_S746MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S746PACK_BIN_S746TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S755MASK_BIN_S755PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S755TMPK_BIN_S756MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S756PACK_BIN_S756TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S761MASK_BIN_S761PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S761TMPK_BIN_E059HOUO_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1016_BIN_S740MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S740PACK_BIN_S740TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1021_BIN_S850MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S850PACK_BIN_S850TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1022_BIN_S835MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S835PACK_BIN_S835TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M378BVND_BIN_S456MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S456PACK_BIN_S456TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S745MASK_BIN_S810MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S810PACK_BIN_S810TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S745TMPK_BIN_S855MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S855PACK_BIN_S855TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S795MASK_BIN_S860MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S860PACK_BIN_S860TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S795TMPK_BIN_S540MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S540PACK_BIN_S540TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S800MASK_BIN_S441MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S441PACK_BIN_S441TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S800TMPK_BIN_S830MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S830PACK_BIN_S830TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M238SNAI_BIN_S845MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S845PACK_BIN_S845TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M241HNGY_BIN_S271MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S271PACK_BIN_S271TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1001_BIN_S476MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S476PACK_BIN_S476TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1002_BIN_M244SKST_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S745PACK_BIN_M245INFR_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1003_BIN_S820MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S820PACK_BIN_S820TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1004_BIN_S760MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S760PACK_BIN_S760TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1005_BIN_M250KGET_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M364MUMY_BIN_M465SNAT_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M277BARO_BIN_M439FUJI_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M302GAGO_BIN_S795PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M356HAND_BIN_MEFT1006_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M358PHAR_BIN_S800PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M360ANTR_BIN_MEFT1007_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M389KYKI_BIN_M411MLD2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M392SLAG_BIN_M440SIJN_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M393CNND_BIN_M438RIDN_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M412GAR2_BIN_M434ANT2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPEVO_00_BIN_MPJOG_00_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVEVO_00_BIN_MVJOG_00_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S715MASK_BIN_S715PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S715TMPK_BIN_MEFT1008_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M466RGN2_BIN_M423SNA2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M435GAR3_BIN_WSTAG920_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P165SAGD_BIN_P166PAGD_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P016RDMD_BIN_P173KBOY_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P170GOMA_BIN_M442RGN1_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S406MASK_BIN_S406PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S406TMPK_BIN_MEFT1009_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S315MASK_BIN_S315PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S315TMPK_BIN_S840MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S840PACK_BIN_S840TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S531MASK_BIN_S531PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S531TMPK_BIN_S741MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S741PACK_BIN_S741TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1010_BIN_MEFT1011_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1012_BIN_MEFT1013_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M446BKNM_BIN_M454KYK9_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M457CDC1_BIN_M458CDC2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0093_BIN_M459CDU1_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0094_BIN_MEFT1014_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S415TMPK_BIN_S415MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1015_BIN_M460CDU2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M461CDR1_BIN_S325MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S325PACK_BIN_S325TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M462CDR2_BIN_M463CDS1_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M464CDS2_BIN_S415BG01_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S415BG02_BIN_M467RGN3_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S695MASK_BIN_S695PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S695TMPK_BIN_MEFT0065_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_NAMEDTCS_BIN_NAMEDTTM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0095_BIN_E369DUKE_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S815MASK_BIN_S815BG01_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S815TMPK_BIN_MEFT1017_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S581MASK_BIN_S581PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S581TMPK_BIN_MEFT1018_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1055_BIN_MEFT0088_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S580MASK_BIN_S580PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S580TMPK_BIN_MEFT1019_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S420MASK_BIN_S420PACK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S420TMPK_BIN_S421MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S421PACK_BIN_S421TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1020_BIN_E020ANGE_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_E367GRAW_BIN_E006DEVI_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_E144ROSE_BIN_E230GKWA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_E234ANGW_BIN_E259EXVM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_E386DINO_BIN_MEFT1023_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P178NBEA_BIN_P179NKOE_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P180NKOT_BIN_P153DGTM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P154DGTB_BIN_MEFT1024_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1025_BIN_STWMP0CS_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STWMP0TM_BIN_STWMP1CS_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STWMP1TM_BIN_E000COM1_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_F000COM1_BIN_STFRPTCS_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_STFRPTTM_BIN_MPENV205_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVENV205_BIN_E000COM2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_CARD_NPC_BIN_E211HANG_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M468AGNM_BIN_P149SNCM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P181SSPM_BIN_P175SPMM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P174PIYO_BIN_MEFT1026_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPBOSS03_BIN_P172FJJI_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_F000COM2_BIN_MEFT1027_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1028_BIN_MEFT1029_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1030_BIN_MEFT1031_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1032_BIN_MEFT1033_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1034_BIN_MEFT1035_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1036_BIN_MEFT1037_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1038_BIN_MEFT1039_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1040_BIN_MEFT1041_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1042_BIN_MEFT1043_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1044_BIN_MEFT1045_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1046_BIN_MEFT1047_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1048_BIN_MEFT1049_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1050_BIN_MPBOSS04_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M469GARM_BIN_MEFT1051_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVBOSS03_BIN_MVBOSS04_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT1052_BIN_MEFT1053_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_M470AGRY_BIN_MEFT0221_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P124SATE_BIN_P127SEID_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P128TISD_BIN_P182BOMP_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P183BOMB_BIN_P184CBEM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P185BEMG_BIN_P186BEMP_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0087_BIN_MEFT0108_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0109_BIN_E145VMON_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_E260STNG_BIN_E374KYBI_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_E375TAOM_BIN_E383PKEN_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_E000COM3_BIN_F000COM3_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_E000COM4_BIN_F000COM4_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0096_BIN_E056DIGI_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_E066VAND_BIN_E150OMGM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_E373RENA_BIN_E377BLZB_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MOVIED01_STR_MOVIED03_STR_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MOVIED04_STR_MOVIED05_STR_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MOVIED06_STR_MOVIED07_STR_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MOVIED08_STR_MEFT1054_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MOVIED02_STR_MOVIEE01_STR_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MOVIEOPN_STR_E000JOGL_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_CARDPAK0_BIN_CARDPAK1_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_CARDPAK2_BIN_CARDPAK3_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_CARDPAK4_BIN_MEFT0089_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0101_BIN_MEFT0102_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0103_BIN_MEFT0106_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0107_BIN_E381IPDP_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_E389KYKI_BIN_E385KOGU_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0097_BIN_E388GRIZ_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0098_BIN_MEFT0090_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0091_BIN_MEFT0092_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0099_BIN_MEFT0100_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0113_BIN_MEFT0039_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_E014MONZ_BIN_E004BETA_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_E438RIDN_BIN_E110GECO_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_E193GRFO_BIN_E302GAGO_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0066_BIN_P187STRI_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MOVIEE04_STR_MOVIEE03_STR_LEN_SECTORS: u8;
+	static mut LBA_IMPL_E364MUMY_BIN_E229PUKU_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_E439FUJI_BIN_E365ARCH_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_E037BAKE_BIN_E135DVDR_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0201_BIN_MEFT0202_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0203_BIN_MEFT0204_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0205_BIN_MEFT0206_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0207_BIN_MEFT0208_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0209_BIN_MEFT0210_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0211_BIN_MEFT0212_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0213_BIN_MEFT0214_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0215_BIN_MEFT0216_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0217_BIN_MEFT0218_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0219_BIN_MEFT0220_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0222_BIN_MEFT0223_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0224_BIN_MEFT0225_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0226_BIN_MPENV206_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MVENV206_BIN_P188BLOK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0085_BIN_MEFT0086_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0301_BIN_E372SGRG_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0302_BIN_MEFT0303_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0306_BIN_MEFT0307_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0308_BIN_MEFT0309_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0375_BIN_MEFT0310_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0311_BIN_MEFT0312_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0313_BIN_MEFT0314_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0315_BIN_MEFT0316_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0317_BIN_MEFT0318_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0319_BIN_MEFT0320_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0321_BIN_MEFT0322_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0323_BIN_MEFT0324_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0325_BIN_MEFT0326_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0327_BIN_MEFT0328_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0329_BIN_MEFT0330_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0331_BIN_MEFT0332_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0333_BIN_MEFT0334_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0335_BIN_MEFT0336_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0337_BIN_MEFT0338_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0339_BIN_MEFT0340_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0341_BIN_MEFT0342_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0343_BIN_MEFT0344_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0345_BIN_MEFT0346_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0347_BIN_MEFT0348_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0349_BIN_MEFT0350_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0351_BIN_MEFT0352_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0353_BIN_MEFT0354_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0355_BIN_MEFT0356_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0357_BIN_MEFT0358_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0359_BIN_MEFT0360_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0361_BIN_MEFT0362_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0363_BIN_MEFT0364_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0365_BIN_MEFT0366_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0367_BIN_MEFT0368_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0369_BIN_MEFT0370_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0371_BIN_MEFT0372_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0374_BIN_MEFT0114_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_TLOGOJPN_BIN_TTCOMMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_E433ANO2_BIN_E430DOR2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_E431VIK2_BIN_E434ANT2_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_SSUBDEMO_BIN_SDIGDEMO_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0115_BIN_MEFT0116_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_E390ASLT_BIN_P189PKEL_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P190KOGL_BIN_P191KOEL_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P192AGUL_BIN_P194GIRL_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P195RENL_BIN_P196PATL_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S815BG02_BIN_P193VMOL_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MPTTLBGM_BIN_MVTTLBGM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P197BLXE_BIN_E245INFR_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MEFT0377_BIN_MEFT0378_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_P198ADME_BIN_MEFT0376_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_E000EVOL_BIN_CNTSELWN_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_TLOGOUSA_BIN_MOVIEE02_STR_LEN_SECTORS: u8;
+	static mut LBA_IMPL_END__ALL_BIN_CMNBGDTM_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S920MASK_BIN_WSTAG921_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S920TMPK_BIN_WSTAG922_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG923_PRO_WSTAG924_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG925_PRO_WSTAG926_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG927_PRO_WSTAG928_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG929_PRO_WSTAG930_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG931_PRO_WSTAG932_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG933_PRO_WSTAG934_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG935_PRO_WSTAG936_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG937_PRO_WSTAG938_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG939_PRO_WSTAG940_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG941_PRO_WSTAG942_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG943_PRO_WSTAG944_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG945_PRO_WSTAG946_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG947_PRO_WSTAG948_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG949_PRO_WSTAG950_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG951_PRO_WSTAG952_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG953_PRO_WSTAG954_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG955_PRO_WSTAG956_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG957_PRO_WSTAG958_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG959_PRO_WSTAG960_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG961_PRO_WSTAG962_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG963_PRO_WSTAG964_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG965_PRO_WSTAG966_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG967_PRO_WSTAG968_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG969_PRO_WSTAG970_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG971_PRO_WSTAG972_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_WSTAG973_PRO_WSTAG974_PRO_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S923MASK_BIN_S921MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S923TMPK_BIN_S921TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S922MASK_BIN_S924MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S922TMPK_BIN_S924TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S925MASK_BIN_S925TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S926MASK_BIN_S926TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S927MASK_BIN_S927TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S928MASK_BIN_S928TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S929MASK_BIN_S929TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S930MASK_BIN_S930TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S931MASK_BIN_S931TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S932MASK_BIN_S932TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S933MASK_BIN_S933TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S934MASK_BIN_S934TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S935MASK_BIN_S935TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S936MASK_BIN_S936TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S937MASK_BIN_S937TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S938MASK_BIN_S938TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S939MASK_BIN_S939TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S940MASK_BIN_S940TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S941MASK_BIN_S941TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S942MASK_BIN_S942TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S943MASK_BIN_S943TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S944MASK_BIN_S944TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S945MASK_BIN_S945TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S946MASK_BIN_S946TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S947TMPK_BIN_S947MASK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S948MASK_BIN_S948TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S949MASK_BIN_S949TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S950MASK_BIN_S950TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S951MASK_BIN_S951TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S952MASK_BIN_S952TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S953MASK_BIN_S953TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S954MASK_BIN_S954TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S955MASK_BIN_S955TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S956MASK_BIN_S956TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S957MASK_BIN_S957TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S958MASK_BIN_S958TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S959MASK_BIN_S959TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S960MASK_BIN_S960TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S961MASK_BIN_S961TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S962MASK_BIN_S962TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S963MASK_BIN_S963TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S964MASK_BIN_S964TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S965MASK_BIN_S965TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S966MASK_BIN_S966TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S967MASK_BIN_S967TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S968MASK_BIN_S968TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S969MASK_BIN_S969TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S970MASK_BIN_S970TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S971MASK_BIN_S971TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S972MASK_BIN_S972TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S973MASK_BIN_S973TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_S974MASK_BIN_S974TMPK_BIN_LEN_SECTORS: u8;
+	static mut LBA_IMPL_MOVIEOP2_STR_TLOGOPAL_BIN_LEN_SECTORS: u8;
 }
