@@ -1,7 +1,11 @@
 [build]
 dep-info-basedir = ".."
 target = "mipsel-sony-psx"
-rustflags = ["-Crelocation-model=static", "-Cdefault-linker-libraries=no"]
+rustflags = [
+	"-Crelocation-model=static",
+	"-Cdefault-linker-libraries=no",
+	"-Ztrap-unreachable=no",
+]
 
 [target."mipsel-sony-psx"]
 linker = "mips-elf-ld"

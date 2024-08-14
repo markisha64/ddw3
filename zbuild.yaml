@@ -671,6 +671,7 @@ rules:
       build_target_dir: target/mipsel-sony-psx/release
     out:
       - $(rust_lib)
+      - rust/.cargo/config.toml
       - deps_file: $(rust_lib_deps)
     deps:
       - static: $(rust_lib::dir_name)/
