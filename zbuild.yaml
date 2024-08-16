@@ -275,7 +275,11 @@ rules:
   # Pxs iso dependencies
   mkpsxiso-deps:
     out: [$(psx_iso_deps)]
-    deps: [$(python3), $(generate_psx_iso_deps), $(psx_iso_xml), static: $(psx_iso_deps::dir_name)/]
+    deps:
+      - $(python3)
+      - $(generate_psx_iso_deps)
+      - $(psx_iso_xml)
+      - static: $(psx_iso_deps::dir_name)/
     exec:
       - - $(python3)
         - $(generate_psx_iso_deps)
@@ -305,7 +309,11 @@ rules:
   # Pxs iso (lba only) dependencies
   mkpsxiso-lba-deps:
     out: [$(psx_iso_lba_deps)]
-    deps: [$(python3), $(generate_psx_iso_deps), $(psx_iso_xml), static: $(psx_iso_lba_deps::dir_name)/]
+    deps:
+      - $(python3)
+      - $(generate_psx_iso_deps)
+      - $(psx_iso_xml)
+      - static: $(psx_iso_lba_deps::dir_name)/
     exec:
       - - $(python3)
         - $(generate_psx_iso_deps)
