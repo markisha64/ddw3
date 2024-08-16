@@ -6,7 +6,9 @@ Calls the `ld` linker using a `toml` manifest
 import argparse
 import subprocess
 from pathlib import Path
+from tempfile import NamedTemporaryFile
 
+import elftools
 import toml
 import util
 from elftools.elf.elffile import ELFFile
@@ -29,19 +31,35 @@ def main(args):
 	link_with = map(lambda file: util.process_path(file, input_dir), link_with)
 	link_with = list(map(lambda file: f"--just-symbols={file}", link_with))
 
+	syms_replace = config.get("syms_replace") or {}
+	syms_replace = {
+		sym: util.process_path(bin, input_dir) for sym, bin in syms_replace.items()
+	}
+
 	# Get the elf's `.text` base
 	# TODO: Not have to do this? For some reason the default linker script
 	#       discards the existing addresses.
 	start_addr = None
+	sym_addrs: dict[str, int] | None = None
 	with open(elf, "rb") as elf_file:
 		elf_file = ELFFile(elf_file)
 
-		for section in elf_file.iter_sections():
-			if section.name != ".text":
+		for sym in elf_file.iter_sections():
+			if sym.name != ".text":
 				continue
 
-			start_addr = section.header.sh_addr
+			start_addr = sym.header.sh_addr
 			break
+
+		# If we have symbols to replace, get all symbol addresses
+		if len(syms_replace) != 0:
+			sym_addrs = {
+				sym.name: start_addr + sym.entry["st_value"]
+				for section in elf_file.iter_sections()
+				if isinstance(section, elftools.elf.sections.SymbolTableSection)
+				for sym in section.iter_symbols()
+			}
+
 	if start_addr is None:
 		raise RuntimeError("Unable to determine input elf's `.text` `sh_addr`")
 
@@ -60,7 +78,8 @@ SECTIONS {{
 
 ENTRY({entry})""")
 
-	args = [
+	# Then run the linker
+	ld_args = [
 		args.ld_bin,  #
 		"-o",
 		args.output,
@@ -75,7 +94,42 @@ ENTRY({entry})""")
 		"--no-warn-mismatch",  # TODO: Might be worth considering some mismatches?
 		"--warn-common",
 	] + link_with
-	subprocess.run(args, check=True)
+	subprocess.run(ld_args, check=True)
+
+	# If we have any syms to update, also update them
+	if len(syms_replace) != 0:
+		lib_contents = NamedTemporaryFile()
+
+		# Dump the `.text` section
+		subprocess.run(
+			[
+				args.objcopy_bin,
+				args.output,
+				f"--dump-section=.text={lib_contents.name}",
+			],
+			check=True,
+		)
+
+		# Then for each symbol, find it's address and replace it
+		with open(lib_contents.name, "rb+") as lib_contents_file:
+			for sym, sym_bin in syms_replace.items():
+				# Find the address
+				sym_addr = sym_addrs.get(sym)
+				if sym_addr is None:
+					raise ValueError(f"Unknown symbol: {sym}")
+
+				lib_contents_file.seek(sym_addr - start_addr)
+				lib_contents_file.write(open(sym_bin, "rb").read())
+
+		# Finally replace the `.text` section
+		subprocess.run(
+			[
+				args.objcopy_bin,
+				args.output,
+				f"--update-section=.text={lib_contents.name}",
+			],
+			check=True,
+		)
 
 
 if __name__ == "__main__":
@@ -87,6 +141,7 @@ if __name__ == "__main__":
 	)
 	parser.add_argument("--map-output", dest="map_output", type=str, required=True)
 	parser.add_argument("--ld-bin", dest="ld_bin", type=str, required=True)
+	parser.add_argument("--objcopy-bin", dest="objcopy_bin", type=str, required=True)
 
 	args = parser.parse_args()
 	main(args)

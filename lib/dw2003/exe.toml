@@ -1,3 +1,6 @@
 elf = "/build/elf/dw2003/exe.elf"
 entry = "start"
-link_with = ["/build/iso/dw2003-bootstrap.lba.syms"]
+
+[syms_replace]
+"LBA_OFFSETS" = "/build/iso/dw2003-bootstrap.lba-offsets"
+"LBA_LEN_SECTORS" = "/build/iso/dw2003-bootstrap.lba-len-sectors"

@@ -30,7 +30,7 @@ See [`docs/index.MD`](docs/index.md) for an introduction to the repository.
 
 # Building
 
-The project is built using [`zbuild`](https://github.com/Zenithsiz/zbuild). (zbuild 0.1.1).
+The project is built using [`zbuild`](https://github.com/Zenithsiz/zbuild). (zbuild 0.1.8).
 
 You can run `zbuild` (without arguments) to build the game's bin/cue files. The result will be in `build/iso/`.
 

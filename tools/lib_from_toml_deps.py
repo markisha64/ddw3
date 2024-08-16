@@ -28,6 +28,10 @@ def main(args):
 		link_path = util.process_path(link_path, input_dir)
 		deps_file.write(f"{link_path} ")
 
+	for sym_bin in (config.get("syms_replace") or {}).values():
+		sym_bin = util.process_path(sym_bin, input_dir)
+		deps_file.write(f"{sym_bin} ")
+
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description="`ld` dependency creator")

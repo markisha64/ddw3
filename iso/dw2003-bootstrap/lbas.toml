@@ -1,4 +1,3 @@
-# TODO: Remove this list once we can do `R_MIPS_16` relocations
 lbas = [
 	"NONE_____BIN",
 	"MSAMTMAP_BIN",

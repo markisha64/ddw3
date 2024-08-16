@@ -76,25 +76,27 @@ def main(args):
 		if sym_name not in all_syms:
 			raise ValueError(f"Lba not found: {sym_name}")
 
-	with open(args.output, "w", encoding="utf-8") as output_file:
+	with open(args.output_offsets, "wb") as output_offsets_file:
 		for sym_name in lba_list:
 			sym = all_syms[sym_name]
-			output_file.write(f"LBA_IMPL_{sym.name}_OFFSET = {sym.lba};\n")
+			lba = sym.lba.to_bytes(4, byteorder="little", signed=False)
+			output_offsets_file.write(lba)
 
-		# TODO: Don't join them once we can properly use `R_MIPS_16` relocations
-		for sym_name_lhs, sym_name_rhs in zip(lba_list[::2], lba_list[1::2]):
-			sym_lhs = all_syms[sym_name_lhs]
-			sym_rhs = all_syms[sym_name_rhs]
-
-			lba = sym_lhs.len_sectors | (sym_rhs.len_sectors << 16)
-			output_file.write(
-				f"LBA_IMPL_{sym_lhs.name}_{sym_rhs.name}_LEN_SECTORS = {lba};\n"
-			)
+	with open(args.output_len_sectors, "wb") as output_len_sectors_file:
+		for sym_name in lba_list:
+			sym = all_syms[sym_name]
+			len_sectors = sym.len_sectors.to_bytes(2, byteorder="little", signed=False)
+			output_len_sectors_file.write(len_sectors)
 
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
-	parser.add_argument("--output", dest="output", type=str, required=True)
+	parser.add_argument(
+		"--output-offsets", dest="output_offsets", type=str, required=True
+	)
+	parser.add_argument(
+		"--output-len-sectors", dest="output_len_sectors", type=str, required=True
+	)
 	parser.add_argument("--lba", dest="lba", type=str, required=True)
 	parser.add_argument("--lba-list", dest="lba_list", type=str, required=True)
 

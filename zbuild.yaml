@@ -18,19 +18,19 @@ alias:
   yq         : yq               # yq 3.4.3
 
   # Other tools
-  generate_psx_iso_deps    : tools/generate_psx_iso_deps.py
-  generate_psx_iso_lba_syms: tools/generate_psx_iso_lba_syms.py
-  generate_compare_deps    : tools/generate_compare_deps.py
-  generate_format_deps     : tools/generate_format_deps.py
-  mkraw_exe_from_toml      : tools/mkraw_exe_from_toml.py
-  mkraw_exe_from_toml_deps : tools/mkraw_exe_from_toml_deps.py
-  elf_from_toml            : tools/elf_from_toml.py
-  elf_from_toml_deps       : tools/elf_from_toml_deps.py
-  lib_from_toml            : tools/lib_from_toml.py
-  lib_from_toml_deps       : tools/lib_from_toml_deps.py
-  process_path             : tools/process_path.py
-  format_all               : tools/format_all.py
-  get_elf_symbols          : tools/get_elf_symbols.sh
+  generate_psx_iso_deps   : tools/generate_psx_iso_deps.py
+  generate_psx_iso_lba_bin: tools/generate_psx_iso_lba_bin.py
+  generate_compare_deps   : tools/generate_compare_deps.py
+  generate_format_deps    : tools/generate_format_deps.py
+  mkraw_exe_from_toml     : tools/mkraw_exe_from_toml.py
+  mkraw_exe_from_toml_deps: tools/mkraw_exe_from_toml_deps.py
+  elf_from_toml           : tools/elf_from_toml.py
+  elf_from_toml_deps      : tools/elf_from_toml_deps.py
+  lib_from_toml           : tools/lib_from_toml.py
+  lib_from_toml_deps      : tools/lib_from_toml_deps.py
+  process_path            : tools/process_path.py
+  format_all              : tools/format_all.py
+  get_elf_symbols         : tools/get_elf_symbols.sh
 
   # Python
   python3_venv: tools/.venv
@@ -93,15 +93,18 @@ alias:
   rust_tool_src : tools/^(name)
 
   # Psx iso
-  dw2003_psx_iso       : $(build_psx_iso_dir)/dw2003.bin
-  psx_iso              : $(build_psx_iso_dir)/^(path).bin
-  psx_iso_cue          : $(build_psx_iso_dir)/^(path).cue
-  psx_iso_deps         : $(build_psx_iso_dir)/^(path).bin.d
-  psx_iso_lba          : $(build_psx_iso_dir)/^(path).lba
-  psx_iso_lba_deps     : $(build_psx_iso_dir)/^(path).lba.d
-  psx_iso_lba_syms     : $(build_psx_iso_dir)/^(path).lba.syms
-  psx_iso_xml          : ^(path).xml
-  psx_iso_lba_list     : iso/^(path)/lbas.toml
+  # TODO: Move all LBA files to their own directory to remove
+  #       the need to name with weird extensions.
+  dw2003_psx_iso         : $(build_psx_iso_dir)/dw2003.bin
+  psx_iso                : $(build_psx_iso_dir)/^(path).bin
+  psx_iso_cue            : $(build_psx_iso_dir)/^(path).cue
+  psx_iso_deps           : $(build_psx_iso_dir)/^(path).bin.d
+  psx_iso_lba            : $(build_psx_iso_dir)/^(path).lba
+  psx_iso_lba_deps       : $(build_psx_iso_dir)/^(path).lba.d
+  psx_iso_lba_offsets    : $(build_psx_iso_dir)/^(path).lba-offsets
+  psx_iso_lba_len_sectors: $(build_psx_iso_dir)/^(path).lba-len-sectors
+  psx_iso_xml            : ^(path).xml
+  psx_iso_lba_list       : iso/^(path)/lbas.toml
 
   # Assembly
   asm_obj     : $(build_asm_dir)/^(path).o
@@ -313,15 +316,23 @@ rules:
         - --deps-file
         - $(psx_iso_lba_deps)
 
-  # Psx iso lba syms
-  mkpsxiso-lba-syms:
-    out: [$(psx_iso_lba_syms)]
-    deps: [$(python3), $(generate_psx_iso_lba_syms), $(psx_iso_lba), $(psx_iso_lba_list), static: $(psx_iso_lba_syms::dir_name)/]
+  # Psx iso lba bin
+  mkpsxiso-lba-bin:
+    out: [$(psx_iso_lba_offsets), $(psx_iso_lba_len_sectors)]
+    deps:
+      - $(python3)
+      - $(generate_psx_iso_lba_bin)
+      - $(psx_iso_lba)
+      - $(psx_iso_lba_list)
+      - static: $(psx_iso_lba_offsets::dir_name)/
+      - static: $(psx_iso_lba_len_sectors::dir_name)/
     exec:
       - - $(python3)
-        - $(generate_psx_iso_lba_syms)
-        - --output
-        - $(psx_iso_lba_syms)
+        - $(generate_psx_iso_lba_bin)
+        - --output-offsets
+        - $(psx_iso_lba_offsets)
+        - --output-len-sectors
+        - $(psx_iso_lba_len_sectors)
         - --lba
         - $(psx_iso_lba)
         - --lba-list
@@ -618,6 +629,8 @@ rules:
         - $(lib_map)
         - --ld-bin
         - $(ld)
+        - --objcopy-bin
+        - $(objcopy)
 
   # Lib dependencies
   lib_deps:
