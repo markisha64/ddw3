@@ -358,7 +358,7 @@ rules:
           - --release
           - --bin=^(name)
           - -Z=unstable-options
-          - --out-dir=../$(build_rust_tool_dir)
+          - --artifact-dir=../$(build_rust_tool_dir)
       - [$(cp), tools/target/release/^(name).d, $(rust_tool_deps)]
       - - $(sed)
         - -i
