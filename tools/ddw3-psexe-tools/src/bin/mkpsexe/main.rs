@@ -15,8 +15,6 @@ use {
 	ddw3_psexe_tools::Config,
 	goblin::Object,
 	std::{
-		borrow::Cow,
-		cmp::Ordering,
 		fs,
 		io::{Seek, SeekFrom, Write},
 	},
@@ -68,23 +66,7 @@ fn main() -> Result<(), anyhow::Error> {
 		let text_range = text_header
 			.file_range()
 			.context("Unable to get `.text` section's span")?;
-		let text = &elf_bytes[text_range];
-
-		match config.resize_text {
-			// If we do, truncate / extend the text
-			Some(size) => match size.cmp(&text.len()) {
-				Ordering::Less => Cow::Borrowed(&text[..size]),
-				Ordering::Equal => Cow::Borrowed(text),
-				Ordering::Greater => {
-					let mut text = text.to_vec();
-					text.resize(size, 0);
-					Cow::Owned(text)
-				},
-			},
-
-			// If we don't have an exact size, just use `text`
-			None => Cow::Borrowed(text),
-		}
+		&elf_bytes[text_range]
 	};
 
 	let pc0 = elf.entry.try_into().context("Start address didn't fit into a `u32`")?;
@@ -103,7 +85,7 @@ fn main() -> Result<(), anyhow::Error> {
 		.context("Unable to seek past header")?;
 
 	// Write all content and pad to `0x800`
-	output_file.write_all(&text).context("Unable to write all data")?;
+	output_file.write_all(text).context("Unable to write all data")?;
 	let file_size = output_file.stream_len().context("Unable to get output file length")?;
 	if file_size % 0x800 != 0 {
 		let new_file_size = (file_size + 0x7ff) / 0x800 * 0x800;

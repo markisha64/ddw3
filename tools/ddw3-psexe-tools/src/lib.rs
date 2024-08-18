@@ -12,10 +12,4 @@ pub struct Config {
 
 	/// License file
 	pub license: PathBuf,
-
-	/// `.text` resize
-	///
-	/// Resize (truncates / zero-extends) the `.text` section to this amount of bytes,
-	#[serde(default, skip_serializing_if = "Option::is_none")]
-	pub resize_text: Option<usize>,
 }

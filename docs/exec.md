@@ -38,10 +38,6 @@ elf = "<elf path>"
 
 # License
 license = "<license path>"
-
-# If the text section should be resized truncated / filled with zeroes
-# (Optional)
-resize_text = <text length>
 ```
 
 Then using `build/tools/ddw3-mkpsexe <toml> --output <psexe> --license <license> --resize-text <text length>`

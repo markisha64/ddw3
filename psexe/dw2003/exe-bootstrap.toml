@@ -1,3 +1,2 @@
 lib = "/build/lib/dw2003/exe-bootstrap.elf"
 license = "/licenses/psexe-eu.dat"
-resize_text = 0xe1000
