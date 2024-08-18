@@ -17956,6 +17956,8 @@ b6604fa59773a70822b84ae995b962ff1b1a5886e8f94f8a5d0e66fad183c344  build/raw_exe/
 f666e9c7ef50a9762e13085b15893244accc8033cbd4a5b223549123ee5c7815  build/raw_exe/dw2003/pro/wstag972.bin
 4595680443a284fb0242feb4804abaa03baefdf1c2b3febd199f9d9f96acf081  build/raw_exe/dw2003/pro/wstag973.bin
 9f1da401494cd26e14c9881dfefc54827bc93900f787bbdd4b62c71b53c5c3bd  build/raw_exe/dw2003/pro/wstag974.bin
+b47f58a7325ee8c7ef6798af6dc79f64c52de2d8af53243402f5fe88aebcb68d  build/rlen/dw2003/card/carddata/0/0.bin
+645c9393031ca70687cb2be236ea5b1bac4142ecee8b9d0d992d85ed60898128  build/rlen/dw2003/card/carddata/1/0.bin
 9df038df32c30aa0ba92a6249788d804f4cfc7254ebff6675bac8693dd53fd08  build/rlen/dw2003/z_stage/s200pack/0.bin
 7e9d08b3fed0411234e08a0149a5eca84da786d312d87b51260bd212ea5fe46c  build/rlen/dw2003/z_stage/s200pack/10.bin
 0424e6728c038be925a75e3b724fd590f667b69c72f0aace4e51e3a70f05b8ad  build/rlen/dw2003/z_stage/s200pack/12.bin
@@ -25298,6 +25300,8 @@ ae0d5d3ed6d80ced069be471c5ce133c348f5297b8a10513ec4dac09298e54f8  build/rlen/dw2
 8c2095456821252645f0bccce851c5bee5c6e6ec752b6a89389171f5c4c775b9  build/rlen/dw2003/z_stage/s895pack/7.bin
 ad7f8b32b67fc22f408b706dc95b48df3583e0bc83d0d638535dd339ef6da681  build/rlen/dw2003/z_stage/s895pack/8.bin
 f9d7fe4371485992230a645ba9f1c146e1f1fb351d5a8257da72ac2c854a2c33  build/rlen/dw2003/z_stage/s895pack/9.bin
+6f3bbf28021414f3f2c24792062454232a2de7565f0570f7740294ecdddd00a7  build/tim/dw2003/card/carddata/0/0.tim
+a1a4d5ffcf0e8b48794e2f18cfa6365378f574260ee894f6e67001ca52a15d1d  build/tim/dw2003/card/carddata/1/0.tim
 fe593ea064a5ed08129ae369f7d5464c208c803c41b3baf36a43234c84e0956d  build/tim/dw2003/field/sprite/p001play/0.tim
 0f790cd5ba5f601d37380b71f35a53dfeeb1e190dc2213f45be3a7b7ebd2147a  build/tim/dw2003/field/sprite/p001play/100.tim
 73887ee95b3f6420ebb30919cddedaf689b4bcea59f522b6d150b1fc7a53d2ac  build/tim/dw2003/field/sprite/p001play/101.tim

@@ -54,12 +54,16 @@ fn main() -> Result<(), anyhow::Error> {
 			None =>
 			// TODO: Specify compatibility in the config?
 				try {
-					let rel_path = config.src.parent()?.to_str()?.strip_prefix("/build/map-tile/dw2003/")?;
-					let compatibility = match rel_path {
-						rel_path if rel_path.starts_with("z_stage/") => {
+					let compatibility = match config.src.to_str()? {
+						src if src.starts_with("/build/map-tile/dw2003/z_stage/") => {
 							let map = config.src.parent()?.file_name()?.to_str()?.strip_suffix("pack")?;
 							let tile = config.src.file_prefix()?.to_str()?;
 							format!("{map}.{tile}")
+						},
+						src if src.starts_with("/build/tim/dw2003/card/carddata/") => {
+							let lhs = config.src.parent()?.file_prefix()?.to_str()?;
+							let rhs = config.src.file_prefix()?.to_str()?;
+							format!("carddata.{lhs}.{rhs}")
 						},
 						_ => do yeet,
 					};
@@ -134,6 +138,9 @@ fn main() -> Result<(), anyhow::Error> {
 					if_eq_then!("840088e073e073e073e073e073e07300a421ac63b8a4c0e6cc28d9c000c000c000c000c000c000c000c000c000c000c000c000c000c000c000c000" => "3a840088e073e073e073e073e073e07300a421ac63b8a4c0e6cc28d9c000c000c000c000c000c000c000c000c000c000c000c000c000c000c000c08100"),
 				"s455mask.0" =>
 					if_eq_then!("08a1e79cac50ac50ac50ac50ac50ac50ac50ac50ac50ac50ac50ac50ac501000100010001000100010001000100010001000100010001000100010001000" => "3d08a1e79cac50ac50ac50ac50ac50ac50ac50ac50ac50ac50ac50ac50ac50100010001000100010001000100010001000100010001000100010001000108100"),
+				"carddata.0.0" =>
+					if_eq_then!("0000734eff7f734eff7f734eff7f734eff7f734eff7f734eff7f734eff7f0004" => "82001e734eff7f734eff7f734eff7f734eff7f734eff7f734eff7f734eff7f000400"),
+				"carddata.1.0" => if_eq_then!("00000000000000000000000000000000" => "900000"),
 
 				_ => {
 					// If the compatibility was explicitly selected by the user, warn
