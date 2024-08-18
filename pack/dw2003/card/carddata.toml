@@ -1,6 +1,6 @@
 entries = [
-	"carddata/0.bin",
-	"carddata/1.bin",
+	"/build/pack/dw2003/card/carddata/0.bin",
+	"/build/pack/dw2003/card/carddata/1.bin",
 	"carddata/2.bin",
 	"carddata/3.bin",
 ]
