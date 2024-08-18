@@ -9,7 +9,8 @@
 	generic_arg_infer,
 	decl_macro,
 	try_blocks,
-	path_file_prefix
+	path_file_prefix,
+	yeet_expr
 )]
 
 // Modules
@@ -51,10 +52,18 @@ fn main() -> Result<(), anyhow::Error> {
 			},
 
 			None =>
+			// TODO: Specify compatibility in the config?
 				try {
-					let map = config.src.parent()?.file_name()?.to_str()?.strip_suffix("pack")?;
-					let tile = config.src.file_prefix()?.to_str()?;
-					let compatibility = format!("{map}.{tile}");
+					let rel_path = config.src.parent()?.to_str()?.strip_prefix("/build/map-tile/dw2003/")?;
+					let compatibility = match rel_path {
+						rel_path if rel_path.starts_with("z_stage/") => {
+							let map = config.src.parent()?.file_name()?.to_str()?.strip_suffix("pack")?;
+							let tile = config.src.file_prefix()?.to_str()?;
+							format!("{map}.{tile}")
+						},
+						_ => do yeet,
+					};
+
 
 					tracing::info!(?compatibility, "Found auto-compatibility");
 					Cow::Owned(compatibility)
