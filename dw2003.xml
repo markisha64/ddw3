@@ -352,7 +352,7 @@
 					<dir name="COUNTRY" source="build/iso/empty-dir/">
 						<file name="CMFONTCS.BIN" type="data" source="dw2003/AAA/DAT/COUNTRY/CMFONTCS.BIN" />
 						<file name="CMFONTTM.BIN" type="data" source="dw2003/AAA/DAT/COUNTRY/CMFONTTM.BIN" />
-						<file name="CNTSELWN.BIN" type="data" source="dw2003/AAA/DAT/COUNTRY/CNTSELWN.BIN" />
+						<file name="CNTSELWN.BIN" type="data" source="build/pack/dw2003/country/cntselwn.bin" />
 
 						<dir name="ENG" source="build/iso/empty-dir/">
 							<file name="ESAMTMAP.BIN" type="data" source="build/lang_file/dw2003/eng/esamtmap.bin" />
