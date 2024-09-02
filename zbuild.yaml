@@ -678,13 +678,6 @@ rules:
         - -I./
         - -I$(asm_src::dir_name)
         - --strip-local-absolute
-      # Zbuild doesn't support `\\\n` yet
-      - - $(sed)
-        - -z
-        - -i
-        - -e
-        - 's/\\\n/ /g'
-        - $(asm_obj_deps)
 
   # Rust library
   rust_lib:
