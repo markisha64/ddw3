@@ -2020,10 +2020,10 @@
 					</dir>
 
 					<dir name="NAMEENT" source="build/iso/empty-dir/">
-						<file name="STDGNMCS.BIN" type="data" source="dw2003/AAA/DAT/NAMEENT/STDGNMCS.BIN" />
-						<file name="STDGNMTM.BIN" type="data" source="dw2003/AAA/DAT/NAMEENT/STDGNMTM.BIN" />
-						<file name="STNMETCS.BIN" type="data" source="dw2003/AAA/DAT/NAMEENT/STNMETCS.BIN" />
-						<file name="STNMETTM.BIN" type="data" source="dw2003/AAA/DAT/NAMEENT/STNMETTM.BIN" />
+						<file name="STDGNMCS.BIN" type="data" source="build/pack/dw2003/nameent/stdgnmcs.bin" />
+						<file name="STDGNMTM.BIN" type="data" source="build/pack/dw2003/nameent/stdgnmtm.bin" />
+						<file name="STNMETCS.BIN" type="data" source="build/pack/dw2003/nameent/stnmetcs.bin" />
+						<file name="STNMETTM.BIN" type="data" source="build/pack/dw2003/nameent/stnmettm.bin" />
 					</dir>
 
 					<dir name="SCREEN" source="build/iso/empty-dir/">
