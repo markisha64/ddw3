@@ -1,1 +1,6 @@
-entries = ["0/0.bin", "0/1.bin", "0/2.bin", "0/3.bin"]
+entries = [
+	"/build/rlen/dw2003/nameent/stnmettm/0/0.bin",
+	"/build/rlen/dw2003/nameent/stnmettm/0/1.bin",
+	"/build/rlen/dw2003/nameent/stnmettm/0/2.bin",
+	"0/3.bin",
+]

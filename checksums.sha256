@@ -17976,6 +17976,10 @@ b47f58a7325ee8c7ef6798af6dc79f64c52de2d8af53243402f5fe88aebcb68d  build/rlen/dw2
 0edfddc535f126a0e4b2f924dbc19668a101cbb5976e72e2cae28531a9065a76  build/rlen/dw2003/country/cmfonttm/0/0.bin
 b8a7b0a7df284f1698d8324d1fd849686388a5b0ba1f662fbc6e8f126dfab253  build/rlen/dw2003/country/cmfonttm/0/1.bin
 d08d3790666752608d28e338cc7298ea279f66346ef5a19c4028d0462e4f178f  build/rlen/dw2003/country/cntselwn/1/0.bin
+c97706b563a7fbdc8bc4f694b907ea3b959ae3a92a0b845ab5d40227997c4311  build/rlen/dw2003/nameent/stdgnmtm/0/0.bin
+c193a8cc1c604f7cf75ac2ff71e1895d9e9675e25852e2c241f1c6b580868a4f  build/rlen/dw2003/nameent/stnmettm/0/0.bin
+8026046e75dfefc8ff2e40ea8215c6645c27fdf6487180760b6f6649f1952a89  build/rlen/dw2003/nameent/stnmettm/0/1.bin
+4deb4bba482a0d086eeeeeac85395815a641dfaa424de3785bb5b50e5f916f5c  build/rlen/dw2003/nameent/stnmettm/0/2.bin
 9df038df32c30aa0ba92a6249788d804f4cfc7254ebff6675bac8693dd53fd08  build/rlen/dw2003/z_stage/s200pack/0.bin
 7e9d08b3fed0411234e08a0149a5eca84da786d312d87b51260bd212ea5fe46c  build/rlen/dw2003/z_stage/s200pack/10.bin
 0424e6728c038be925a75e3b724fd590f667b69c72f0aace4e51e3a70f05b8ad  build/rlen/dw2003/z_stage/s200pack/12.bin
@@ -30648,6 +30652,10 @@ e207aec421f51b69cff7edc5d5952e301727e7322d16e03be80afa2f78381f3e  build/tim/dw20
 16ce8441fcdda1182b0197bf4cc5cc9914ae6c2aeb9a64423ace9182281e7962  build/tim/dw2003/field/stage/s971mask/0.tim
 c17355df4e72efdcf5a898a77981ad46e7767b450de9622192d215f42e3fbd70  build/tim/dw2003/field/stage/s972mask/0.tim
 3dd1904b92a253929554695fd3ef26877001810ba1eacbe4aafe100e2455d3b8  build/tim/dw2003/field/stage/s973mask/0.tim
+f3423d5b0bae129354c04f1c844d9d578cd33526652f23302548fcf6368acbe9  build/tim/dw2003/nameent/stdgnmtm/0/0.tim
+42b02ecf6c5fe548ba133e0286417ba23208eb5c065500a99fe28fad8ad4e675  build/tim/dw2003/nameent/stnmettm/0/0.tim
+c45a0fbd7c9399a06617760b61602526cfcf8c98f0ab43372ec321cb40733fe8  build/tim/dw2003/nameent/stnmettm/0/1.tim
+6c1dc428dafb2377572b56053daea7c6f5602c43d6200f163b798b89ab02471d  build/tim/dw2003/nameent/stnmettm/0/2.tim
 7710f11d5d06dccd8d9d3fa9827e91e1b39441be198b27b60ea7508692fc7420  licenses/psexe-eu.dat
 c2ee9fda78272c71db65d1309749941bc5530382fb8448ad8042bceb14ff9793  licenses/psexe-na.dat
 b6205d4efbf9b4522aa12dbe3bc3219e8957c95820843c939145719f7802bb36  licenses/psx-bin.dat
