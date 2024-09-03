@@ -65,6 +65,12 @@ fn main() -> Result<(), anyhow::Error> {
 							let rhs = config.src.file_prefix()?.to_str()?;
 							format!("carddata.{lhs}.{rhs}")
 						},
+						src if src.starts_with("/build/tim/dw2003/country/") => {
+							let a = config.src.parent()?.parent()?.file_prefix()?.to_str()?;
+							let b = config.src.parent()?.file_prefix()?.to_str()?;
+							let c = config.src.file_prefix()?.to_str()?;
+							format!("{a}.{b}.{c}")
+						},
 						_ => do yeet,
 					};
 
@@ -141,7 +147,9 @@ fn main() -> Result<(), anyhow::Error> {
 				"carddata.0.0" =>
 					if_eq_then!("0000734eff7f734eff7f734eff7f734eff7f734eff7f734eff7f734eff7f0004" => "82001e734eff7f734eff7f734eff7f734eff7f734eff7f734eff7f734eff7f000400"),
 				"carddata.1.0" => if_eq_then!("00000000000000000000000000000000" => "900000"),
-
+				"cmfonttm.0.1" => if_eq_then!(
+					"ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff" => "ffffc5ff000000"
+				),
 				_ => {
 					// If the compatibility was explicitly selected by the user, warn
 					if config.compatibility.is_some() {

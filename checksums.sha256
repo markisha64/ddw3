@@ -17964,6 +17964,8 @@ f666e9c7ef50a9762e13085b15893244accc8033cbd4a5b223549123ee5c7815  build/raw_exe/
 9f1da401494cd26e14c9881dfefc54827bc93900f787bbdd4b62c71b53c5c3bd  build/raw_exe/dw2003/pro/wstag974.bin
 b47f58a7325ee8c7ef6798af6dc79f64c52de2d8af53243402f5fe88aebcb68d  build/rlen/dw2003/card/carddata/0/0.bin
 645c9393031ca70687cb2be236ea5b1bac4142ecee8b9d0d992d85ed60898128  build/rlen/dw2003/card/carddata/1/0.bin
+0edfddc535f126a0e4b2f924dbc19668a101cbb5976e72e2cae28531a9065a76  build/rlen/dw2003/country/cmfonttm/0/0.bin
+b8a7b0a7df284f1698d8324d1fd849686388a5b0ba1f662fbc6e8f126dfab253  build/rlen/dw2003/country/cmfonttm/0/1.bin
 d08d3790666752608d28e338cc7298ea279f66346ef5a19c4028d0462e4f178f  build/rlen/dw2003/country/cntselwn/1/0.bin
 9df038df32c30aa0ba92a6249788d804f4cfc7254ebff6675bac8693dd53fd08  build/rlen/dw2003/z_stage/s200pack/0.bin
 7e9d08b3fed0411234e08a0149a5eca84da786d312d87b51260bd212ea5fe46c  build/rlen/dw2003/z_stage/s200pack/10.bin
@@ -25309,6 +25311,9 @@ ad7f8b32b67fc22f408b706dc95b48df3583e0bc83d0d638535dd339ef6da681  build/rlen/dw2
 f9d7fe4371485992230a645ba9f1c146e1f1fb351d5a8257da72ac2c854a2c33  build/rlen/dw2003/z_stage/s895pack/9.bin
 6f3bbf28021414f3f2c24792062454232a2de7565f0570f7740294ecdddd00a7  build/tim/dw2003/card/carddata/0/0.tim
 a1a4d5ffcf0e8b48794e2f18cfa6365378f574260ee894f6e67001ca52a15d1d  build/tim/dw2003/card/carddata/1/0.tim
+0eb025dc4764b319775d1571fe682fc6fa4aadca9a1b7c419f10eff8132f8950  build/tim/dw2003/country/cmfonttm/0/0.tim
+7806f87420ddcc257eb0590675fc64648d9ec8755831517da217e84ded56fd8f  build/tim/dw2003/country/cmfonttm/0/1.tim
+36029bd75869090849b189993a8cf79800b6d438f06a296882b1c3d3cab850cd  build/tim/dw2003/country/cntselwn/1/0.tim
 fe593ea064a5ed08129ae369f7d5464c208c803c41b3baf36a43234c84e0956d  build/tim/dw2003/field/sprite/p001play/0.tim
 0f790cd5ba5f601d37380b71f35a53dfeeb1e190dc2213f45be3a7b7ebd2147a  build/tim/dw2003/field/sprite/p001play/100.tim
 73887ee95b3f6420ebb30919cddedaf689b4bcea59f522b6d150b1fc7a53d2ac  build/tim/dw2003/field/sprite/p001play/101.tim
