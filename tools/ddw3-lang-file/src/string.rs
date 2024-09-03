@@ -33,7 +33,7 @@ impl String {
 		let mut codepoints = vec![];
 		let mut bytes = bytes.as_slice();
 		while bytes.is_empty() {
-			let (codepoint, rest) = Codepoint::decode(bytes).expect("Bytes aren't empty");
+			let (codepoint, rest) = Codepoint::decode(bytes).context("Unable to parse bytes")?;
 			codepoints.push(codepoint);
 			bytes = rest;
 		}
