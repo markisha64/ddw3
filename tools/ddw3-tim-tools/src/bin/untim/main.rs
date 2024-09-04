@@ -12,7 +12,7 @@ use {
 	anyhow::Context,
 	clap::Parser,
 	ddw3_bytes::BytesReadExt,
-	ddw3_tim::{Bpp, ColorBpp, ColorImg, Image, ImgHeader, TimHeader},
+	ddw3_tim::{Bpp, Color, ColorBpp, ColorImg, Image, ImgHeader, TimHeader},
 	ddw3_tim_tools::{Config, ConfigClut, ConfigClutKind, ConfigImg},
 	std::{
 		collections::HashMap,
@@ -38,12 +38,88 @@ fn main() -> Result<(), anyhow::Error> {
 		.read_deserialize::<TimHeader, Result<_, anyhow::Error>>()
 		.context("Unable to read header")?;
 	tracing::debug!(?header);
+	let bpp = args.override_bpp.unwrap_or(header.bpp);
 
 	// Read the clut, if any
 	let clut = match header.has_clut {
 		false => {
 			tracing::debug!("No clut");
-			None
+
+			// If the user specified a colored bpp with a clut, error.
+			if matches!(bpp, Bpp::Color16 | Bpp::Color24) &&
+				(args.override_clut.is_some() || args.override_clut_raw.is_some())
+			{
+				anyhow::bail!("Cannot specify override clut for color image");
+			}
+
+			// Otherwise, grab the clut
+			// TODO: Is it fine to specify `[0, 0]` for the position here, or should we have another override for it?
+			match (&args.override_clut, &args.override_clut_raw) {
+				// Image clut
+				(Some(clut), None) => {
+					let clut_img = image::open(clut).context("Unable to read clut")?.into_rgba16();
+					let colors = clut_img.pixels().map(|pixel| Color::from_rgba(pixel.0)).collect();
+					let clut = ColorImg { colors };
+
+					let header = ImgHeader {
+						total_size: 12 +
+							u32::try_from(clut.colors.len())
+								.context("Number of colors in clut didn't fit into a `u32`")? *
+								2,
+						pos_x:      0,
+						pos_y:      0,
+						width:      u16::try_from(clut_img.width()).context("Clut width didn't fit into a `u16`")?,
+						height:     u16::try_from(clut_img.height()).context("Clut height didn't fit into a `u16`")?,
+					};
+
+					Some((header, clut))
+				},
+
+				// Raw clut
+				(None, Some(clut)) => {
+					let colors = fs::read(clut)
+						.context("Unable to read clut")?
+						.into_iter()
+						.array_chunks::<2>()
+						.map(u16::from_le_bytes)
+						.map(Color::from_r5g5b5a1)
+						.collect();
+					let clut = ColorImg { colors };
+
+					let (width, height) = match bpp {
+						Bpp::Indexed4 => {
+							anyhow::ensure!(
+								clut.colors.len() % 16 == 0,
+								"Expected clut to have a multiple of 16 pixels"
+							);
+							(16, clut.colors.len() / 16)
+						},
+						Bpp::Indexed8 => {
+							anyhow::ensure!(
+								clut.colors.len() % 256 == 0,
+								"Expected clut to have a multiple of 256 pixels"
+							);
+							(256, clut.colors.len() / 256)
+						},
+						Bpp::Color16 | Bpp::Color24 => unreachable!("Cannot specify clut with color bpp"),
+					};
+					let header = ImgHeader {
+						total_size: 12 +
+							u32::try_from(clut.colors.len())
+								.context("Number of colors in clut didn't fit into a `u32`")? *
+								2,
+						pos_x:      0,
+						pos_y:      0,
+						width:      u16::try_from(width).context("Clut width didn't fit into a `u16`")?,
+						height:     u16::try_from(height).context("Clut height didn't fit into a `u16`")?,
+					};
+
+					Some((header, clut))
+				},
+				// Note: This should have been handled by `clap`.
+				(Some(_), Some(_)) => unreachable!("Cannot specify clut override raw and non-raw"),
+				(None, None) => None,
+			}
 		},
 		true => {
 			// Read the header
@@ -109,7 +185,7 @@ fn main() -> Result<(), anyhow::Error> {
 
 	// Parse the image
 	let img = Image::read(
-		header.bpp,
+		bpp,
 		input
 			.by_ref()
 			// Note: Some `tim`s are missing parts of their image, so we fill them with 0s.
@@ -129,7 +205,7 @@ fn main() -> Result<(), anyhow::Error> {
 			// TODO: Allow external clut?
 			let (_, clut_img) = clut.as_ref().context("Unable to find clut on indexed image")?;
 
-			let (img_width, img_height) = match header.bpp {
+			let (img_width, img_height) = match bpp {
 				Bpp::Indexed4 => (img_header.width * 4, img_header.height),
 				Bpp::Indexed8 => (img_header.width * 2, img_header.height),
 				_ => unreachable!(),
@@ -139,7 +215,7 @@ fn main() -> Result<(), anyhow::Error> {
 				.context("Unable to convert image")?
 		},
 		Image::Color(img) => {
-			let (img_width, img_height) = match header.bpp {
+			let (img_width, img_height) = match bpp {
 				Bpp::Color16 => (img_header.width, img_header.height),
 				Bpp::Color24 => ((img_header.width * 3) / 2, img_header.height),
 				_ => unreachable!(),
@@ -175,7 +251,7 @@ fn main() -> Result<(), anyhow::Error> {
 			.context("Output config file had no parent directory")?;
 
 		let config = Config {
-			bpp:  header.bpp,
+			bpp,
 			clut: clut.as_ref().map(|(clut_header, _)| ConfigClut {
 				pos:  [clut_header.pos_x, clut_header.pos_y],
 				kind: match &args.output_clut {
@@ -186,7 +262,7 @@ fn main() -> Result<(), anyhow::Error> {
 					None => ConfigClutKind::Auto,
 				},
 			}),
-			img:  ConfigImg {
+			img: ConfigImg {
 				pos:  [img_header.pos_x, img_header.pos_y],
 				path: pathdiff::diff_paths(&args.output, output_config_parent)
 					.unwrap_or_else(|| Path::new("/").join(&args.output)),
