@@ -8,6 +8,7 @@ version = "0.1.0"
 anyhow = { workspace = true }
 byteorder = { workspace = true }
 ddw3-bytes = { workspace = true }
+derive_more = { workspace = true, features = ["full"] }
 image = { workspace = true }
 itertools = { workspace = true }
 pathdiff = { workspace = true }

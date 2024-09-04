@@ -24,10 +24,18 @@ impl TimHeader {
 /// Bits per pixel
 #[derive(PartialEq, Eq, Clone, Copy, Debug)]
 #[derive(serde::Serialize, serde::Deserialize)]
+#[derive(derive_more::Display, derive_more::FromStr)]
 pub enum Bpp {
+	#[display("indexed4")]
 	Indexed4,
+
+	#[display("indexed8")]
 	Indexed8,
+
+	#[display("color16")]
 	Color16,
+
+	#[display("color24")]
 	Color24,
 }
 
