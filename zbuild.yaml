@@ -45,6 +45,7 @@ alias:
   mkpack         : $(build_rust_tool_dir)/mkpack
   mkpack_deps    : $(build_rust_tool_dir)/mkpack-deps
   mktim          : $(build_rust_tool_dir)/mktim
+  mktim_deps     : $(build_rust_tool_dir)/mktim-deps
   mkmap          : $(build_rust_tool_dir)/mkmap
   mkmap_deps     : $(build_rust_tool_dir)/mkmap-deps
   mkmap_tile     : $(build_rust_tool_dir)/mkmap-tile
@@ -147,8 +148,7 @@ alias:
 
   # Tim
   tim     : $(build_tim_dir)/^(path).tim
-  tim_img : tim/^(path).png
-  tim_clut: tim/^(path).clut.png
+  tim_deps: $(build_tim_dir)/^(path).d
   tim_toml: tim/^(path).toml
 
   # Map
@@ -453,12 +453,25 @@ rules:
     deps:
       - $(tim_toml)
       - $(mktim)
-      - opt: $(tim_clut)
+      - deps_file: $(tim_deps)
       - static: $(tim::dir_name)/
     exec:
       - - $(mktim)
         - $(tim_toml)
         - --output=$(tim)
+
+  # Tim deps
+  tim_deps:
+    out: [$(tim_deps)]
+    deps:
+      - $(tim_toml)
+      - $(mktim_deps)
+      - static: $(tim_deps::dir_name)/
+    exec:
+      - - $(mktim_deps)
+        - $(tim_toml)
+        - --output=$(tim)
+        - --output-deps=$(tim_deps)
 
   # Pack
   pack:
