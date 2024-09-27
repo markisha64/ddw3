@@ -5,5 +5,15 @@ version = "0.1.0"
 
 [dependencies]
 
-util = { workspace = true }
+# Workspace
 panic_handler = { workspace = true }
+types = { workspace = true }
+util = { workspace = true }
+
+[build-dependencies]
+
+# Workspace
+types = { workspace = true }
+
+serde = { workspace = true }
+toml = { workspace = true }

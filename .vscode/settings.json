@@ -326,6 +326,6 @@
 		"Zanden",
 		"Zweihander"
 	],
-	"rust-analyzer.linkedProjects": ["tools/Cargo.toml"],
+	"rust-analyzer.linkedProjects": ["tools/Cargo.toml", "rust/Cargo.toml"],
 	"rust-analyzer.check.allTargets": false
 }

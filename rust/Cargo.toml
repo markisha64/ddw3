@@ -37,3 +37,6 @@ dw2003_pro_stitshop = { path = "dw2003_pro_stitshop" }
 types = { path = "types" }
 util = { path = "util" }
 panic_handler = { path = "panic_handler" }
+
+serde = { version = "1.0.210", default-features = false }
+toml = "0.8.19"

@@ -2,6 +2,8 @@
 
 /// A digimon profile
 #[repr(C)]
+#[derive(Clone, Copy)]
+#[derive(serde::Deserialize)]
 pub struct DigimonProfile {
 	pub value0: u16,
 
