@@ -5,4 +5,5 @@ version = "0.1.0"
 
 [dependencies]
 
+panic_handler = { workspace = true }
 util = { workspace = true }

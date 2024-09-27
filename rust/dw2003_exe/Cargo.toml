@@ -11,4 +11,5 @@ crate-type = ["staticlib"]
 dw2003_exe_data = { workspace = true }
 dw2003_exe_digimon_profiles = { workspace = true }
 dw2003_exe_lba = { workspace = true }
+panic_handler = { workspace = true }
 util = { workspace = true }

@@ -8,5 +8,6 @@ crate-type = ["staticlib"]
 
 [dependencies]
 
+panic_handler = { workspace = true }
 types = { workspace = true }
 util = { workspace = true }

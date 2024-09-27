@@ -9,6 +9,7 @@ dependencies = [
  "dw2003_exe_data",
  "dw2003_exe_digimon_profiles",
  "dw2003_exe_lba",
+ "panic_handler",
  "util",
 ]
 
@@ -16,6 +17,7 @@ dependencies = [
 name = "dw2003_exe_data"
 version = "0.1.0"
 dependencies = [
+ "panic_handler",
  "util",
 ]
 
@@ -23,6 +25,7 @@ dependencies = [
 name = "dw2003_exe_digimon_profiles"
 version = "0.1.0"
 dependencies = [
+ "panic_handler",
  "util",
 ]
 
@@ -30,6 +33,7 @@ dependencies = [
 name = "dw2003_exe_lba"
 version = "0.1.0"
 dependencies = [
+ "panic_handler",
  "util",
 ]
 
@@ -37,6 +41,7 @@ dependencies = [
 name = "dw2003_pro_fieldstg"
 version = "0.1.0"
 dependencies = [
+ "panic_handler",
  "types",
  "util",
 ]
@@ -45,6 +50,7 @@ dependencies = [
 name = "dw2003_pro_sdigiedt"
 version = "0.1.0"
 dependencies = [
+ "panic_handler",
  "types",
  "util",
 ]
@@ -53,6 +59,7 @@ dependencies = [
 name = "dw2003_pro_stfgtrep"
 version = "0.1.0"
 dependencies = [
+ "panic_handler",
  "types",
  "util",
 ]
@@ -61,6 +68,7 @@ dependencies = [
 name = "dw2003_pro_stgtrain"
 version = "0.1.0"
 dependencies = [
+ "panic_handler",
  "util",
 ]
 
@@ -68,9 +76,14 @@ dependencies = [
 name = "dw2003_pro_stitshop"
 version = "0.1.0"
 dependencies = [
+ "panic_handler",
  "types",
  "util",
 ]
+
+[[package]]
+name = "panic_handler"
+version = "0.1.0"
 
 [[package]]
 name = "types"

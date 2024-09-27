@@ -19,6 +19,7 @@ members = [
 	# Utilities
 	"types",
 	"util",
+	"panic_handler",
 ]
 
 [workspace.dependencies]
@@ -35,3 +36,4 @@ dw2003_pro_fieldstg = { path = "dw2003_pro_fieldstg" }
 dw2003_pro_stitshop = { path = "dw2003_pro_stitshop" }
 types = { path = "types" }
 util = { path = "util" }
+panic_handler = { path = "panic_handler" }
