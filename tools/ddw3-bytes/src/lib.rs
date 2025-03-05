@@ -1,7 +1,7 @@
 //! Helper crate for working with raws bytes.
 
 // Features
-#![feature(decl_macro, try_trait_v2, never_type)]
+#![feature(decl_macro, try_trait_v2, never_type, macro_metavar_expr)]
 
 // Modules
 mod array_split;

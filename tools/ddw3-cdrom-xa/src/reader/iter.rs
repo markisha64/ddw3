@@ -21,7 +21,7 @@ impl<'a, R: io::Read> SectorsRangeIter<'a, R> {
 }
 
 
-impl<'a, R: io::Read> Iterator for SectorsRangeIter<'a, R> {
+impl<R: io::Read> Iterator for SectorsRangeIter<'_, R> {
 	type Item = Result<Sector, reader::ReadSectorError>;
 
 	fn next(&mut self) -> Option<Self::Item> {

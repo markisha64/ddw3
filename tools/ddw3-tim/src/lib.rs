@@ -1,7 +1,7 @@
 //! `TIM` manipulation
 
 // Features
-#![feature(array_chunks, array_windows, never_type, iter_array_chunks)]
+#![feature(array_chunks, array_windows, never_type, iter_array_chunks, macro_metavar_expr)]
 
 // Modules
 pub mod header;

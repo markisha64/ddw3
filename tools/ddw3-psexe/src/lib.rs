@@ -1,7 +1,7 @@
 //! `Psexe` manipulation
 
 // Features
-#![feature(never_type)]
+#![feature(never_type, macro_metavar_expr)]
 
 // Imports
 use {

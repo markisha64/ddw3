@@ -22,9 +22,9 @@ pub macro array_split
 			$(
 				pub $name:
 
-				$( &'a [T; $arr_size], )?
-				$( &'a T, #[cfg(invalid)] __field: [u8; $val_size], )?
-			)*
+				$( &'a [T; $arr_size] )?
+				$( &'a T ${ignore($val_size)} )?
+			),*
 		}
 
 		// Get everything from `array_refs`
@@ -74,11 +74,9 @@ pub macro array_split_mut(
 			$(
 				pub $name:
 
-				$( &'a mut [T; $arr_size], )?
-				// Note: This `cfg` is simply done so that `__field` never appears.
-				//       The `__field` serves to identify when this part should be written.
-				$( &'a mut T, #[cfg(invalid)] __field: [u8; $val_size], )?
-			)*
+				$( &'a mut [T; $arr_size] )?
+				$( &'a mut T ${ignore($val_size)} )?
+			),*
 		}
 
 		// Get everything from `mut_array_refs`

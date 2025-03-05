@@ -1,7 +1,7 @@
 //! `ddw3` data
 
 // Features
-#![feature(decl_macro, strict_provenance)]
+#![feature(decl_macro)]
 #![no_std]
 
 // Modules

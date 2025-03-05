@@ -6,7 +6,7 @@ use {super::AsciiStrArr, ascii::AsciiStr, std::fmt};
 /// Visitor implementation
 pub(super) struct DeserializerVisitor<const N: usize>;
 
-impl<'de, const N: usize> serde::de::Visitor<'de> for DeserializerVisitor<N> {
+impl<const N: usize> serde::de::Visitor<'_> for DeserializerVisitor<N> {
 	type Value = AsciiStrArr<N>;
 
 	fn expecting(&self, f: &mut fmt::Formatter) -> fmt::Result {
