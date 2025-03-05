@@ -1,0 +1,24 @@
+pat asm_path;
+
+alias asm_obj      = "build/asm/{asm_path}.o";
+alias asm_obj_deps = "build/asm/{asm_path}.d";
+alias asm_src      = "asm/{asm_path}.s";
+
+rule asm {
+	out asm_obj;
+	out deps_file asm_obj_deps;
+
+	dep asm_src;
+	dep static "{asm_obj.dir_name}/";
+
+	exec as
+		"-EL" "-mabi=32" "-mips1"
+		"-march=r3000" "-msoft-float" "-g"
+		"--strip-local-absolute"
+		asm_src
+		"-o" asm_obj
+		"-MD" asm_obj_deps
+		"-Iasm/"
+		"-I./"
+		"-Iasm_src.dir_name";
+}

@@ -1,0 +1,78 @@
+# External tools
+alias as          = "mips-elf-as";      # GNU assembler (GNU Binutils) 2.39
+alias ld          = "mips-elf-ld";      # GNU assembler (GNU Binutils) 2.39
+alias objcopy     = "mips-elf-objcopy"; # GNU assembler (GNU Binutils) 2.39
+alias mkpsxiso    = "mkpsxiso";         # MKPSXISO 2.04
+alias cargo       = "cargo";            # cargo 1.82.0-nightly (b5d44db1d 2024-07-26)
+alias sed         = "sed";              # sed (GNU sed) 4.9
+alias sha256sum   = "sha256sum";        # sha256sum (GNU coreutils) 9.5
+alias rm          = "rm";               # rm        (GNU coreutils) 9.5
+alias mkdir       = "mkdir";            # mkdir     (GNU coreutils) 9.5
+alias cp          = "cp";               # cp        (GNU coreutils) 9.5
+alias touch       = "touch";            # touch     (GNU coreutils) 9.5
+alias truncate    = "truncate";         # truncate  (GNU coreutils) 9.5
+alias python3_sys = "python3";          # Python 3.12.4
+alias yq          = "yq";               # yq 3.4.3
+
+# Bundled tools
+alias generate_psx_iso_deps    = "tools/generate_psx_iso_deps.py";
+alias generate_psx_iso_lba_bin = "tools/generate_psx_iso_lba_bin.py";
+alias generate_compare_deps    = "tools/generate_compare_deps.py";
+alias generate_format_deps     = "tools/generate_format_deps.py";
+alias mkraw_exe_from_toml      = "tools/mkraw_exe_from_toml.py";
+alias mkraw_exe_from_toml_deps = "tools/mkraw_exe_from_toml_deps.py";
+alias elf_from_toml            = "tools/elf_from_toml.py";
+alias elf_from_toml_deps       = "tools/elf_from_toml_deps.py";
+alias lib_from_toml            = "tools/lib_from_toml.py";
+alias lib_from_toml_deps       = "tools/lib_from_toml_deps.py";
+alias process_path             = "tools/process_path.py";
+alias format_all               = "tools/format_all.py";
+alias get_elf_symbols          = "tools/get_elf_symbols.sh";
+
+# Cargo tools
+alias mkpsexe         = "build/tools/mkpsexe";
+alias mkpsexe_deps    = "build/tools/mkpsexe-deps";
+alias mklang_file     = "build/tools/mklang-file";
+alias mkpack          = "build/tools/mkpack";
+alias mkpack_deps     = "build/tools/mkpack-deps";
+alias mktim           = "build/tools/mktim";
+alias mktim_deps      = "build/tools/mktim-deps";
+alias mkmap           = "build/tools/mkmap";
+alias mkmap_deps      = "build/tools/mkmap-deps";
+alias mkmap_tile      = "build/tools/mkmap-tile";
+alias mkmap_tile_deps = "build/tools/mkmap-tile-deps";
+alias mkrlen          = "build/tools/mkrlen";
+alias mkrlen_deps     = "build/tools/mkrlen-deps";
+
+# Licenses
+alias license_psx_iso  = "licenses/psx-bin.dat";
+alias license_psexe_eu = "licenses/psexe-eu.dat";
+alias license_psexe_na = "licenses/psexe-na.dat";
+
+# By default, build the final iso.
+alias dw2003_psx_iso = "build/iso/dw2003.bin";
+default dw2003_psx_iso;
+
+# Operations
+include "zbuild/format.zb";
+include "zbuild/compare.zb";
+include "zbuild/clean.zb";
+
+# Rules
+include "zbuild/mkdir.zb";
+include "zbuild/python_venv.zb";
+include "zbuild/mkpsxiso.zb";
+include "zbuild/cargo_tool.zb";
+include "zbuild/dummy_buffer.zb";
+include "zbuild/psexe.zb";
+include "zbuild/raw_exe.zb";
+include "zbuild/lang_file.zb";
+include "zbuild/tim.zb";
+include "zbuild/pack.zb";
+include "zbuild/map.zb";
+include "zbuild/map_tile.zb";
+include "zbuild/rlen.zb";
+include "zbuild/elf.zb";
+include "zbuild/lib.zb";
+include "zbuild/asm.zb";
+include "zbuild/rust_lib.zb";

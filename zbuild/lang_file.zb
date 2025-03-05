@@ -1,0 +1,15 @@
+pat lang_file_path;
+
+alias lang_file      = "build/lang_file/{lang_file_path}.bin";
+alias lang_file_toml = "lang_file/{lang_file_path}.toml";
+
+rule lang_file {
+	out lang_file;
+
+	dep lang_file_toml;
+	dep mklang_file;
+	dep static "{lang_file.dir_name}/";
+
+	exec mklang_file lang_file_toml
+		"--output" lang_file;
+}

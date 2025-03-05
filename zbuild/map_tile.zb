@@ -1,0 +1,29 @@
+pat map_tile_path;
+
+alias map_tile      = "build/map-tile/{map_tile_path}.bin";
+alias map_tile_deps = "build/map-tile/{map_tile_path}.d";
+alias map_tile_toml = "map-tile/{map_tile_path}.toml";
+
+rule map_tile {
+	out map_tile;
+
+	dep map_tile_toml;
+	dep mkmap_tile;
+	dep deps_file map_tile_deps;
+	dep static "{map_tile.dir_name}/";
+
+	exec mkmap_tile map_tile_toml
+		"--output" map_tile;
+}
+
+rule map_tile_deps {
+	out map_tile_deps;
+
+	dep map_tile_toml;
+	dep mkmap_tile_deps;
+	dep static "{map_tile_deps.dir_name}/";
+
+	exec mkmap_tile_deps map_tile_toml
+		"--output" map_tile
+		"--output-deps" map_tile_deps;
+}

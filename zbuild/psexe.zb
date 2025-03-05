@@ -1,0 +1,28 @@
+pat psexe_path;
+
+alias psexe      = "build/psexe/{psexe_path}.psexe";
+alias psexe_deps = "build/psexe/{psexe_path}.d";
+alias psexe_toml = "psexe/{psexe_path}.toml";
+
+rule psexe {
+	out psexe;
+
+	dep psexe_toml;
+	dep mkpsexe;
+	dep deps_file psexe_deps;
+	dep static "{psexe.dir_name}/";
+
+	exec mkpsexe psexe_toml "--output" psexe;
+}
+
+rule psexe_deps {
+	out psexe_deps;
+
+	dep psexe_toml;
+	dep mkpsexe_deps;
+	dep static "{psexe_deps.dir_name}/";
+
+	exec mkpsexe_deps psexe_toml
+		"--output" psexe
+		"--output-deps" psexe_deps;
+}

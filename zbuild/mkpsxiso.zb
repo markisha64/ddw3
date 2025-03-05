@@ -1,0 +1,86 @@
+# TODO: Move all LBA files to their own directory to remove
+#       the need to name with weird extensions.
+
+pat psx_iso_path;
+
+alias psx_iso                 = "build/iso/{psx_iso_path}.bin";
+alias psx_iso_cue             = "build/iso/{psx_iso_path}.cue";
+alias psx_iso_deps            = "build/iso/{psx_iso_path}.bin.d";
+alias psx_iso_lba             = "build/iso/{psx_iso_path}.lba";
+alias psx_iso_lba_deps        = "build/iso/{psx_iso_path}.lba.d";
+alias psx_iso_lba_offsets     = "build/iso/{psx_iso_path}.lba-offsets";
+alias psx_iso_lba_len_sectors = "build/iso/{psx_iso_path}.lba-len-sectors";
+alias psx_iso_xml             = "{psx_iso_path}.xml";
+alias psx_iso_lba_list        = "iso/{psx_iso_path}/lbas.toml";
+
+rule mkpsxiso {
+	out psx_iso;
+	out psx_iso_cue;
+
+	dep psx_iso_xml;
+	dep license_psx_iso;
+	dep deps_file psx_iso_deps;
+	dep static "{psx_iso.dir_name}/";
+
+	exec mkpsxiso psx_iso_xml "-y" "--quiet"
+		"--output" psx_iso
+		"--cuefile" psx_iso_cue;
+}
+
+rule mkpsxiso_deps {
+	out psx_iso_deps;
+
+	dep python3;
+	dep generate_psx_iso_deps;
+	dep psx_iso_xml;
+	dep static "{psx_iso_deps.dir_name}/";
+
+	exec python3 generate_psx_iso_deps
+		"--output" psx_iso
+		"--xml" psx_iso_xml
+		"--deps-file" psx_iso_deps;
+}
+
+rule mkpsxiso_lba {
+	out psx_iso_lba;
+
+	dep psx_iso_xml;
+	dep license_psx_iso;
+	dep deps_file psx_iso_lba_deps;
+	dep static "{psx_iso.dir_name}/";
+
+	exec mkpsxiso psx_iso_xml "--quiet" "-noisogen"
+		"-lba" psx_iso_lba;
+}
+
+rule mkpsxiso_lba_deps {
+	out psx_iso_lba_deps;
+
+	dep python3;
+	dep generate_psx_iso_deps;
+	dep psx_iso_xml;
+	dep static "{psx_iso_lba_deps.dir_name}/";
+
+	exec python3 generate_psx_iso_deps
+		"--output" psx_iso_lba
+		"--xml" psx_iso_xml
+		"--deps-file" psx_iso_lba_deps;
+}
+
+rule mkpsxiso_lba_bin {
+	out psx_iso_lba_offsets;
+	out psx_iso_lba_len_sectors;
+
+	dep python3;
+	dep generate_psx_iso_lba_bin;
+	dep psx_iso_lba;
+	dep psx_iso_lba_list;
+	dep static "{psx_iso_lba_offsets.dir_name}/";
+	dep static "{psx_iso_lba_len_sectors.dir_name}/";
+
+	exec python3 generate_psx_iso_lba_bin
+		"--output-offsets" psx_iso_lba_offsets
+		"--output-len-sectors" psx_iso_lba_len_sectors
+		"--lba" psx_iso_lba
+		"--lba-list" psx_iso_lba_list;
+}

@@ -1,0 +1,28 @@
+alias compare_checksums = "checksums.sha256";
+alias compare_ok   = "build/compare.ok";
+alias compare_deps = "build/compare.d";
+
+rule compare {
+	out compare_ok;
+
+	dep compare_checksums;
+	dep deps_file compare_deps;
+	dep static "{compare_ok.dir_name}/";
+
+	exec sha256sum "--check" "--quiet" compare_checksums;
+	exec touch compare_ok;
+}
+
+rule compare_deps {
+	out compare_deps;
+
+	dep python3;
+	dep compare_checksums;
+	dep generate_compare_deps;
+	dep static "{compare_deps.dir_name}/";
+
+	exec python3 generate_compare_deps
+		"--checksums" compare_checksums
+		"--compare-output" compare_ok
+		"--deps-file" compare_deps;
+}

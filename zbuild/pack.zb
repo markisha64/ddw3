@@ -1,0 +1,28 @@
+pat pack_path;
+
+alias pack      = "build/pack/{pack_path}.bin";
+alias pack_deps = "build/pack/{pack_path}.d";
+alias pack_toml = "pack/{pack_path}.toml";
+
+rule pack {
+	out pack;
+
+	dep pack_toml;
+	dep mkpack;
+	dep deps_file pack_deps;
+	dep static "{pack.dir_name}/";
+
+	exec mkpack pack_toml "--output" pack;
+}
+
+rule pack_deps {
+	out pack_deps;
+
+	dep pack_toml;
+	dep mkpack_deps;
+	dep static "{pack_deps.dir_name}/";
+
+	exec mkpack_deps pack_toml
+		"--output" pack
+		"--output-deps" pack_deps;
+}

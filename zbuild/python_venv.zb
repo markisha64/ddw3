@@ -1,0 +1,14 @@
+alias python3_venv = "tools/.venv";
+alias python3_reqs = "tools/requirements.txt";
+alias python3      = "{python3_venv}/bin/python3";
+alias python3_pip  = "{python3_venv}/bin/pip3";
+
+rule python_venv {
+	out python3;
+	out python3_pip;
+
+	dep python3_reqs;
+
+	exec python3_sys "-m" "venv" python3_venv;
+	exec python3_pip "install" "-r" python3_reqs;
+}

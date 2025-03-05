@@ -1,0 +1,24 @@
+pat non_empty rust_tool_name;
+
+alias rust_tool      = "build/tools/{rust_tool_name}";
+alias rust_tool_deps = "build/tools/{rust_tool_name}.d";
+alias rust_tool_src  = "tools/{rust_tool_name}";
+
+rule cargo_tool {
+	out rust_tool;
+	out deps_file rust_tool_deps;
+
+	dep static "{rust_tool.dir_name}/";
+
+	exec {
+		cwd "tools/";
+		args cargo "build"
+			"--release"
+			"--bin" rust_tool_name
+			"-Z=unstable-options"
+			"--artifact-dir" "../build/tools";
+	};
+
+	exec cp "tools/target/release/{rust_tool_name}.d" rust_tool_deps;
+	exec sed "-i" "-e" "s,tools/target/release/,build/tools/,g" rust_tool_deps;
+}

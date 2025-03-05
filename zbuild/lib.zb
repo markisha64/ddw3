@@ -1,0 +1,39 @@
+pat lib_path;
+
+alias lib               = "build/lib/{lib_path}.elf";
+alias lib_deps          = "build/lib/{lib_path}.d";
+alias lib_linker_script = "build/lib/{lib_path}.ld";
+alias lib_map           = "build/lib/{lib_path}.map";
+alias lib_toml          = "lib/{lib_path}.toml";
+
+rule lib {
+	out lib;
+	out lib_map;
+	out lib_linker_script;
+
+	dep python3;
+	dep lib_toml;
+	dep lib_from_toml;
+	dep deps_file lib_deps;
+	dep static "{lib.dir_name}/";
+
+	exec python3 lib_from_toml lib_toml
+		"-o" lib
+		"--linker-script-output" lib_linker_script
+		"--map-output" lib_map
+		"--ld-bin" ld
+		"--objcopy-bin" objcopy;
+}
+
+rule lib_deps {
+	out lib_deps;
+
+	dep python3;
+	dep lib_toml;
+	dep lib_from_toml_deps;
+	dep static "{lib_deps.dir_name}/";
+
+	exec python3 lib_from_toml_deps lib_toml
+		"-o" lib
+		"--deps" lib_deps;
+}

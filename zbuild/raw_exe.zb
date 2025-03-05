@@ -1,0 +1,32 @@
+pat raw_exe_path;
+
+alias raw_exe      = "build/raw_exe/{raw_exe_path}.bin";
+alias raw_exe_deps = "build/raw_exe/{raw_exe_path}.d";
+alias raw_exe_toml = "raw_exe/{raw_exe_path}.toml";
+
+rule raw_exe {
+	out raw_exe;
+
+	dep python3;
+	dep raw_exe_toml;
+	dep mkraw_exe_from_toml;
+	dep deps_file raw_exe_deps;
+	dep static "{raw_exe.dir_name}/";
+
+	exec python3 mkraw_exe_from_toml raw_exe_toml
+		"-o" raw_exe
+		"--objcopy-bin" objcopy;
+}
+
+rule raw_exe_deps {
+	out raw_exe_deps;
+
+	dep python3;
+	dep raw_exe_toml;
+	dep mkraw_exe_from_toml_deps;
+	dep static "{raw_exe_deps.dir_name}/";
+
+	exec python3 mkraw_exe_from_toml_deps raw_exe_toml
+		"-o" raw_exe
+		"--deps" raw_exe_deps;
+}

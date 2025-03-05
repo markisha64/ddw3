@@ -1,0 +1,26 @@
+pat tim_path;
+
+alias tim      = "build/tim/{tim_path}.tim";
+alias tim_deps = "build/tim/{tim_path}.d";
+alias tim_toml = "tim/{tim_path}.toml";
+
+rule tim {
+	out tim;
+
+	dep tim_toml;
+	dep mktim;
+	dep deps_file tim_deps;
+	dep static "{tim.dir_name}/";
+
+	exec mktim tim_toml "--output" tim;
+}
+
+rule tim_deps {
+	out tim_deps;
+
+	dep tim_toml;
+	dep mktim_deps;
+	dep static "{tim_deps.dir_name}/";
+
+	exec mktim_deps tim_toml "--output" tim "--output-deps" tim_deps;
+}

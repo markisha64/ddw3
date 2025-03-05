@@ -1,0 +1,8 @@
+rule mkdir {
+	pat dir_path;
+	alias dir = "build{dir_path}/";
+
+	out dir;
+
+	exec mkdir "-p" dir;
+}

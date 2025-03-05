@@ -1,0 +1,10 @@
+alias dummy_buffer = "build/misc/dummy";
+
+rule dummy_buffer {
+	out dummy_buffer;
+
+	dep static "{dummy_buffer.dir_name}/";
+
+	exec touch dummy_buffer;
+	exec truncate "--size=35283682" dummy_buffer;
+}

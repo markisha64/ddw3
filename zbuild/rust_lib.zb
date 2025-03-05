@@ -1,0 +1,29 @@
+pat rust_lib_name;
+
+alias rust_lib      = "build/rust/{rust_lib_name}.a";
+alias rust_lib_deps = "build/rust/{rust_lib_name}.d";
+
+rule rust_lib {
+	alias build_target_dir = "target/mipsel-sony-psx/release";
+
+	out rust_lib;
+	out deps_file rust_lib_deps;
+
+	dep "rust/.cargo/config.toml";
+	dep static "{rust_lib.dir_name}/";
+
+	# Build the crate and copy the finished library
+	exec {
+		cwd "rust/";
+		args cargo
+			"build"
+			"--release"
+			"--package" rust_lib_name
+			"-Z=unstable-options";
+	};
+	exec cp "rust/{build_target_dir}/lib{rust_lib_name}.a" rust_lib;
+
+	# Then copy the dependency file and adjust the references
+	exec cp "rust/{build_target_dir}/lib{rust_lib_name}.d" rust_lib_deps;
+	exec sed "-i" "-e" "s,rust/{build_target_dir}/lib{rust_lib_name}.a,build/rust/{rust_lib_name}.a,g" rust_lib_deps;
+}

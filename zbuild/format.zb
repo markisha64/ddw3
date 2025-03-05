@@ -1,0 +1,27 @@
+alias format_ok   = "build/format.ok";
+alias format_deps = "build/format.d";
+
+rule format {
+	out format_ok;
+
+	dep python3;
+	dep format_all;
+	dep deps_file format_deps;
+
+	exec python3 format_all;
+	exec touch format_ok;
+}
+
+rule format_deps {
+	out format_deps;
+
+	dep python3;
+	# Note: `generate_format_deps` depends on this;
+	dep format_all;
+	dep generate_format_deps;
+	dep static "{format_deps.dir_name}/";
+
+	exec python3 generate_format_deps
+		"--format-output" format_ok
+		"--deps-file" format_deps;
+}

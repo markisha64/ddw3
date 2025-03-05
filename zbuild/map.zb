@@ -1,0 +1,29 @@
+pat map_path;
+
+alias map      = "build/map/{map_path}.bin";
+alias map_deps = "build/map/{map_path}.d";
+alias map_toml = "map/{map_path}.toml";
+
+rule map {
+	out map;
+
+	dep map_toml;
+	dep mkmap;
+	dep deps_file map_deps;
+	dep static "{map.dir_name}/";
+
+	exec mkmap map_toml
+		"--output" map;
+}
+
+rule map_deps {
+	out map_deps;
+
+	dep map_toml;
+	dep mkmap_deps;
+	dep static "{map_deps.dir_name}/";
+
+	exec mkmap_deps map_toml
+		"--output" map
+		"--output-deps" map_deps;
+}

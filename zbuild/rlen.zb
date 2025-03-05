@@ -1,0 +1,30 @@
+pat rlen_path;
+
+alias rlen      = "build/rlen/{rlen_path}.bin";
+alias rlen_deps = "build/rlen/{rlen_path}.d";
+alias rlen_toml = "rlen/{rlen_path}.toml";
+
+rule rlen {
+	out rlen;
+
+	dep rlen_toml;
+	dep mkrlen;
+	dep deps_file rlen_deps;
+	dep static "{rlen.dir_name}/";
+
+	exec mkrlen rlen_toml
+		"--output" rlen
+		"--auto-compatibility";
+}
+
+rule rlen_deps {
+	out rlen_deps;
+
+	dep rlen_toml;
+	dep mkrlen_deps;
+	dep static "{rlen_deps.dir_name}/";
+
+	exec mkrlen_deps rlen_toml
+		"--output" rlen
+		"--output-deps" rlen_deps;
+}

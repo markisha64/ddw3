@@ -1,0 +1,48 @@
+pat elf_path;
+
+alias elf               = "build/elf/{elf_path}.elf";
+alias elf_deps          = "build/elf/{elf_path}.d";
+alias elf_linker_script = "build/elf/{elf_path}.ld";
+alias elf_map           = "build/elf/{elf_path}.map";
+alias elf_symbols       = "build/elf/{elf_path}.syms";
+alias elf_toml          = "elf/{elf_path}.toml";
+
+rule elf {
+	out elf;
+	out elf_linker_script;
+
+	dep python3;
+	dep elf_toml;
+	dep elf_from_toml;
+	dep deps_file elf_deps;
+	dep static "{elf.dir_name}/";
+
+	exec python3 elf_from_toml elf_toml
+		"-o" elf
+		"--linker-script-output" elf_linker_script
+		"--map-output" elf_map
+		"--ld-bin" ld;
+}
+
+rule elf_syms {
+	out elf_symbols;
+
+	dep get_elf_symbols;
+	dep elf;
+	dep static "{elf_symbols.dir_name}/";
+
+	exec get_elf_symbols elf elf_symbols;
+}
+
+rule elf_deps {
+	out elf_deps;
+
+	dep python3;
+	dep elf_toml;
+	dep elf_from_toml_deps;
+	dep static "{elf_deps.dir_name}/";
+
+	exec python3 elf_from_toml_deps elf_toml
+		"-o" elf
+		"--deps" elf_deps;
+}
