@@ -1,6 +1,6 @@
 rule clean {
 	exec rm "-rf" "build/";
-	exec rm "-rf" "{python_venv}/";
+	exec rm "-rf" "{python3_venv}/";
 	exec rm "-rf" "tools/target";
 	exec rm "-rf" "rust/target";
 }
