@@ -11,4 +11,6 @@ rule python_venv {
 
 	exec python3_sys "-m" "venv" python3_venv;
 	exec python3_pip "install" "-r" python3_reqs;
+
+	exec touch "-h" python3 python3_pip;
 }
