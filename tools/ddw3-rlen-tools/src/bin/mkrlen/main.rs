@@ -1,17 +1,7 @@
 //! `RLEN` creator
 
 // Features
-#![feature(
-	array_chunks,
-	array_windows,
-	seek_stream_len,
-	let_chains,
-	generic_arg_infer,
-	decl_macro,
-	try_blocks,
-	path_file_prefix,
-	yeet_expr
-)]
+#![feature(seek_stream_len, decl_macro, try_blocks, path_file_prefix, yeet_expr, array_windows)]
 
 // Modules
 mod args;

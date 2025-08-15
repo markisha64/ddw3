@@ -1,7 +1,7 @@
 //! `PACK` creator
 
 // Features
-#![feature(array_chunks, array_windows, seek_stream_len)]
+#![feature(array_windows, seek_stream_len)]
 
 // Modules
 mod args;

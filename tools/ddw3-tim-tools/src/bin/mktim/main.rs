@@ -1,14 +1,7 @@
 //! `TIM` creator
 
 // Features
-#![feature(
-	array_chunks,
-	array_windows,
-	never_type,
-	iter_array_chunks,
-	unwrap_infallible,
-	let_chains
-)]
+#![feature(array_windows, never_type, iter_array_chunks, unwrap_infallible)]
 
 // Modules
 mod args;
@@ -240,7 +233,7 @@ fn generate_rev_clut(clut_img: &image::ImageBuffer<image::Rgba<u16>, Vec<u16>>) 
 	clut_img
 		.pixels()
 		.enumerate()
-		.unique_by(|(_, &color)| color)
+		.unique_by(|&(_, color)| color)
 		.map(|(idx, &color)| (color, idx))
 		.collect::<HashMap<_, _>>()
 }

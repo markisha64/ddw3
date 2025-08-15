@@ -76,12 +76,13 @@ impl IndexedImg {
 		match bpp {
 			// TODO: What to do with leftover chunks?
 			IndexBpp::Four => {
+				let (idxs, rest) = self.idxs.as_chunks::<2>();
 				anyhow::ensure!(
-					self.idxs.len() % 2 == 0,
-					"Cannot have an odd number of indexes on a bpp-4 image"
+					rest.is_empty(),
+					"Cannot have an odd number of indexes on a bpp-4 image, found rest {rest:?}"
 				);
 
-				for &[idx0, idx1] in self.idxs.array_chunks::<2>() {
+				for &[idx0, idx1] in idxs {
 					anyhow::ensure!(idx0 <= 16, "Found index over 16 on bpp-4 image");
 					anyhow::ensure!(idx1 <= 16, "Found index over 16 on bpp-4 image");
 					writer.write_all(&[idx0 | (idx1 << 4)]).context("Unable to write")?;

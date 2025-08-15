@@ -11,8 +11,8 @@ pub macro decl_static($section:literal,
 	)*
 ) {
 	$(
-		#[no_mangle]
-		#[link_section = $section]
+		#[unsafe(no_mangle)]
+		#[unsafe(link_section = $section)]
 		$( #[$meta] )*
 		$vis static mut $NAME: $T = $value;
 	)*

@@ -1,7 +1,7 @@
 //! Utility for finding bytes
 
 // Features
-#![feature(iterator_try_reduce, if_let_guard, let_chains, array_chunks)]
+#![feature(iterator_try_reduce, if_let_guard, array_chunks)]
 
 // Modules
 mod args;

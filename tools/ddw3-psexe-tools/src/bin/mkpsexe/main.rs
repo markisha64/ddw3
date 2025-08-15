@@ -1,7 +1,7 @@
 //! `.psexe` packer
 
 // Features
-#![feature(seek_stream_len, generic_arg_infer)]
+#![feature(seek_stream_len)]
 
 // Modules
 mod args;
@@ -87,8 +87,8 @@ fn main() -> Result<(), anyhow::Error> {
 	// Write all content and pad to `0x800`
 	output_file.write_all(text).context("Unable to write all data")?;
 	let file_size = output_file.stream_len().context("Unable to get output file length")?;
-	if file_size % 0x800 != 0 {
-		let new_file_size = (file_size + 0x7ff) / 0x800 * 0x800;
+	if !file_size.is_multiple_of(0x800) {
+		let new_file_size = file_size.next_multiple_of(0x800);
 		tracing::debug!("Padding output file of length {file_size:#x} to {new_file_size:#x}");
 		output_file
 			.set_len(new_file_size)

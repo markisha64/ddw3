@@ -1,7 +1,7 @@
 //! `ddw3` data
 
 // Features
-#![feature(decl_macro, generic_arg_infer)]
+#![feature(decl_macro)]
 #![no_std]
 
 include!(concat!(env!("OUT_DIR"), "/digimon_profiles.rs"));

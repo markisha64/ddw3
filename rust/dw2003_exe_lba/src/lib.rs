@@ -11,11 +11,11 @@
 #![no_std]
 
 /// LBA offsets
-#[no_mangle]
-#[link_section = "dw2003_exe_lba"]
+#[unsafe(no_mangle)]
+#[unsafe(link_section = "dw2003_exe_lba")]
 pub static mut LBA_OFFSETS: [u32; 2382] = [0; 2382];
 
 // LBA sector lens
-#[no_mangle]
-#[link_section = "dw2003_exe_lba"]
+#[unsafe(no_mangle)]
+#[unsafe(link_section = "dw2003_exe_lba")]
 pub static mut LBA_LEN_SECTORS: [u16; 2382] = [0; 2382];

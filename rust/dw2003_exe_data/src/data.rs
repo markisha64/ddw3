@@ -19197,7 +19197,7 @@ util::decl_static! { "dw2003_exe_data2",
 	pub static mut D0x8009b6a4: [u32; 0x29cf] = [0x00000000; 0x29cf];
 }
 
-extern "C" {
+unsafe extern "C" {
 	static mut f0: u32;
 	static mut f3: u32;
 	static mut f4: u32;

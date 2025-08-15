@@ -1,7 +1,7 @@
 //! `.psexe` packer dependencies
 
 // Features
-#![feature(seek_stream_len, generic_arg_infer)]
+#![feature(seek_stream_len)]
 
 // Modules
 mod args;

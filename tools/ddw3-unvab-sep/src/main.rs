@@ -5,7 +5,7 @@
 //       what file format supports midi + samples...
 
 // Features
-#![feature(array_chunks, array_windows, seek_stream_len, try_blocks)]
+#![feature(array_windows, seek_stream_len, try_blocks)]
 
 // Modules
 mod args;

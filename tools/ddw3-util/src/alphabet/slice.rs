@@ -43,7 +43,7 @@ impl<A: Alphabet> StrAlphabet<A> {
 
 	/// Returns this string as a lossy `str`
 	#[must_use]
-	pub fn as_lossy_str(&self) -> Cow<str> {
+	pub fn as_lossy_str(&self) -> Cow<'_, str> {
 		String::from_utf8_lossy(self.as_bytes())
 	}
 
