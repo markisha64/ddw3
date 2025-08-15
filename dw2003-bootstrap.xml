@@ -3,7 +3,7 @@
 <!-- TODO: Create dummy directories to use as a source (for modification dates) and also set the correct modification dates on the other files -->
 
 <iso_project>
-	<track type="data">
+	<track type="data" new_type="false">
 		<identifiers system="PLAYSTATION" application="PLAYSTATION" volume="DMW3" volume_set="" publisher="BANDAI" data_preparer="BANDAI" copyright="BANDAI" />
 
 		<license file="licenses/psx-bin.dat" />
