@@ -89,14 +89,14 @@ fn main() -> Result<(), anyhow::Error> {
 					let (width, height) = match bpp {
 						Bpp::Indexed4 => {
 							anyhow::ensure!(
-								clut.colors.len() % 16 == 0,
+								clut.colors.len().is_multiple_of(16),
 								"Expected clut to have a multiple of 16 pixels"
 							);
 							(16, clut.colors.len() / 16)
 						},
 						Bpp::Indexed8 => {
 							anyhow::ensure!(
-								clut.colors.len() % 256 == 0,
+								clut.colors.len().is_multiple_of(256),
 								"Expected clut to have a multiple of 256 pixels"
 							);
 							(256, clut.colors.len() / 256)

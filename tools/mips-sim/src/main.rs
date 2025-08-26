@@ -1,7 +1,7 @@
 //! Mips simulator
 
 // Features
-#![feature(unsigned_is_multiple_of, bigint_helper_methods)]
+#![feature(bigint_helper_methods)]
 
 // Modules
 mod args;

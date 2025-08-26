@@ -52,6 +52,10 @@ pub struct IndexedImg {
 
 impl IndexedImg {
 	/// Reads a indexed image from a stream
+	#[expect(
+		clippy::unbuffered_bytes,
+		reason = "TODO: Should we buffer them or required them buffered?"
+	)]
 	pub fn read<R: io::Read>(bpp: IndexBpp, reader: R) -> Result<Self, anyhow::Error> {
 		// Read all indices
 		let idxs = match bpp {
@@ -135,6 +139,10 @@ pub struct ColorImg {
 
 impl ColorImg {
 	/// Reads a color image from a stream
+	#[expect(
+		clippy::unbuffered_bytes,
+		reason = "TODO: Should we buffer them or required them buffered?"
+	)]
 	pub fn read<R: io::Read>(bpp: ColorBpp, reader: R) -> Result<Self, anyhow::Error> {
 		// Read all colors
 		let colors = match bpp {
@@ -174,7 +182,7 @@ impl ColorImg {
 					writer.write_all(&color_bytes).context("Unable to write")?;
 				}
 
-				if self.colors.len() % 2 != 0 {
+				if !self.colors.len().is_multiple_of(2) {
 					writer.write_all(&[0]).context("Unable to write padding")?;
 				}
 			},

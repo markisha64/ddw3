@@ -1,8 +1,5 @@
 //! Utility for replacing bytes
 
-// Features
-#![feature(unsigned_signed_diff)]
-
 // Modules
 mod args;
 

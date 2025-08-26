@@ -7,7 +7,7 @@ mod error;
 pub use error::ValidateFileAlphabetError;
 
 // Imports
-use ddw3_util::{alphabet::OnlyValidCharsAlphabet, Alphabet, StrAlphabet, StrArrAlphabet, StringAlphabet};
+use ddw3_util::{Alphabet, StrAlphabet, StrArrAlphabet, StringAlphabet, alphabet::OnlyValidCharsAlphabet};
 
 /// A-character alphabet
 ///
@@ -130,6 +130,7 @@ pub type FileStr = StrAlphabet<FileAlphabet>;
 #[extend::ext(pub, name = FileStrWithoutVersion)]
 impl FileStr {
 	/// Returns this filename without the version
+	#[allow(unused_attributes, reason = "Only used in the impl, not the decl")]
 	#[must_use]
 	fn without_version(&self) -> &str {
 		let s = std::str::from_utf8(self.as_bytes()).expect("File string had invalid utf8 characters");

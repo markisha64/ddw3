@@ -63,7 +63,7 @@ impl<R: Read> CdRomReader<R> {
 	}
 
 	/// Returns an iterator over the next sectors
-	pub fn read_sectors(&mut self) -> SectorsRangeIter<R> {
+	pub fn read_sectors(&mut self) -> SectorsRangeIter<'_, R> {
 		SectorsRangeIter::new(self)
 	}
 }

@@ -77,7 +77,8 @@ impl Vag {
 		let mut hist = [0i16; 2];
 
 		// TODO: Not collect all samples into a vector?
-		let samples = self.bytes.array_chunks::<0x10>().copied().collect::<Vec<_>>();
+		let (samples, rest) = self.bytes.as_chunks::<0x10>();
+		assert!(rest.is_empty(), "Bytes had leftover chunk of size {}", rest.len());
 		loop {
 			// Read the current sample
 			let cur_sample = samples[cur_sample_idx];

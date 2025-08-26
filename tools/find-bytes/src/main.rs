@@ -1,7 +1,7 @@
 //! Utility for finding bytes
 
 // Features
-#![feature(iterator_try_reduce, if_let_guard, array_chunks)]
+#![feature(iterator_try_reduce, if_let_guard)]
 
 // Modules
 mod args;
@@ -67,43 +67,45 @@ fn main() -> Result<(), anyhow::Error> {
 	// And spawn all the jobs for searching
 	thread::scope(|s| {
 		for _ in 0..jobs {
-			s.spawn(|| loop {
-				// Get the next search, if any, else stop
-				let Some((haystack, needle)) = searches.lock().expect("Poisoned").pop() else {
-					break;
-				};
+			s.spawn(|| {
+				loop {
+					// Get the next search, if any, else stop
+					let Some((haystack, needle)) = searches.lock().expect("Poisoned").pop() else {
+						break;
+					};
 
-				// Then try to find it
-				let res = match needle.fuzzy_score {
-					Some(max_score) => self::find_needle_fuzzy(&haystack.contents, &needle.contents, max_score),
-					None => self::find_needle_exact(&haystack.contents, &needle.contents),
-				};
+					// Then try to find it
+					let res = match needle.fuzzy_score {
+						Some(max_score) => self::find_needle_fuzzy(&haystack.contents, &needle.contents, max_score),
+						None => self::find_needle_exact(&haystack.contents, &needle.contents),
+					};
 
-				match res {
-					Ok(results) => match results.is_empty() {
-						true =>
-							if !args.only_matching {
-								println!("{} @ {}: <not found>", needle.path.display(), haystack.path.display())
-							},
-						false =>
-							for FindResult { score, pos } in results {
-								let pos = u64::try_from(pos).expect("Offset didn't fit into a `u64`");
-								let haystack_pos = haystack.start + pos;
-								match needle.fuzzy_score {
-									Some(max_score) => println!(
-										"{} @ {}: {haystack_pos:#x} ({score} / {max_score})",
-										needle.path.display(),
-										haystack.path.display()
-									),
-									None => println!(
-										"{} @ {}: {haystack_pos:#x}",
-										needle.path.display(),
-										haystack.path.display()
-									),
-								}
-							},
-					},
-					Err(err) => tracing::warn!(needle=?needle.path, ?err, "Unable to search needle"),
+					match res {
+						Ok(results) => match results.is_empty() {
+							true =>
+								if !args.only_matching {
+									println!("{} @ {}: <not found>", needle.path.display(), haystack.path.display())
+								},
+							false =>
+								for FindResult { score, pos } in results {
+									let pos = u64::try_from(pos).expect("Offset didn't fit into a `u64`");
+									let haystack_pos = haystack.start + pos;
+									match needle.fuzzy_score {
+										Some(max_score) => println!(
+											"{} @ {}: {haystack_pos:#x} ({score} / {max_score})",
+											needle.path.display(),
+											haystack.path.display()
+										),
+										None => println!(
+											"{} @ {}: {haystack_pos:#x}",
+											needle.path.display(),
+											haystack.path.display()
+										),
+									}
+								},
+						},
+						Err(err) => tracing::warn!(needle=?needle.path, ?err, "Unable to search needle"),
+					}
 				}
 			});
 		}
@@ -232,8 +234,11 @@ fn find_needle_fuzzy(haystack: &[u8], needle: &[u8], max_score: usize) -> Result
 		.flat_map(|(pos, haystack_window)| {
 			// TODO: Adjust for compile target. 32 seems to be the sweet spot due to
 			//       likely using 256 bit simd vectors.
+			// TODO: Handle the remainders?
 			const N: usize = 32;
-			let score = iter::zip(haystack_window.array_chunks::<N>(), needle.array_chunks::<N>())
+			let (haystack_windows, _haystack_window_rest) = haystack_window.as_chunks::<N>();
+			let (needles, _needle_rest) = needle.as_chunks::<N>();
+			let score = iter::zip(haystack_windows, needles)
 				.map(|(lhs, rhs)| iter::zip(lhs, rhs).filter(|(lhs, rhs)| lhs != rhs).count())
 				.try_fold(0, |cur_score, diffs| match cur_score >= max_score {
 					true => None,
