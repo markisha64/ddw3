@@ -1,7 +1,7 @@
 .include "macros.s"
 
 # `fn f16()`
-.section section_f16
+.section "section_f16.0x8002e10c"
 .global f16
 f16:
 	li $v1, 0x1b4e81b5

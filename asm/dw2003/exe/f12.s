@@ -1,7 +1,7 @@
 .include "macros.s"
 
 # `fn f12()`
-.section section_f12
+.section "section_f12.0x80014524"
 .global f12
 f12:
 	addiu $sp, -0x58

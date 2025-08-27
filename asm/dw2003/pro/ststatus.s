@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_STSTATUS"
+.section "section_STSTATUS.0x80000000"
 .global STSTATUS
 STSTATUS:
 .L0x00000000: .word 0x8008428c # lb $t0, 0x428c($zr)

@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_WSTAG855"
+.section "section_WSTAG855.0x80000000"
 .global WSTAG855
 WSTAG855:
 # Start of code

@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_STAGSLCT"
+.section "section_STAGSLCT.0x80000000"
 .global STAGSLCT
 STAGSLCT:
 # Start of code

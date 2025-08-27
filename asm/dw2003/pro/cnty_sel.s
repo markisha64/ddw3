@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_CNTY_SEL"
+.section "section_CNTY_SEL.0x80000000"
 .global CNTY_SEL
 CNTY_SEL:
 .L0x00000000: .word 0x80083dc0 # lb $t0, 0x3dc0($zr)

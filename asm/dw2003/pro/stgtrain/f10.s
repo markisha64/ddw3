@@ -4,7 +4,7 @@
 #
 # If `set_bit`, sets and returns `arg0.a9 |= 0x8000_0000`.
 # Else sets and returns `arg0.a9 &= 0x7fff_ffff`.
-.section "section_STGTRAIN_f10"
+.section "section_STGTRAIN_f10.0x80000470"
 .global STGTRAIN_f10
 STGTRAIN_f10:
 	beqz $a1, .L0

@@ -1,7 +1,7 @@
 .include "macros.s"
 
 # `fn f9(arg0: i32)`
-.section section_f9
+.section "section_f9.0x800136f4"
 .global f9
 f9:
 	addiu $sp, -0x18

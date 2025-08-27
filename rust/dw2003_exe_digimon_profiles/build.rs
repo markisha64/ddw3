@@ -36,7 +36,7 @@ use types::DigimonProfile;
 
 /// Digimon profiles
 #[unsafe(no_mangle)]
-#[unsafe(link_section = "dw2003_exe_digimon_profiles")]
+#[unsafe(link_section = "dw2003_exe_digimon_profiles.0x8003ef5c")]
 pub static mut DIGIMON_PROFILES: [DigimonProfile; {len}] = [
 "#,
 	)

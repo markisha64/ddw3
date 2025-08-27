@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_STCRDSHP"
+.section "section_STCRDSHP.0x80000000"
 .global STCRDSHP
 STCRDSHP:
 .L0x00000000: .word 0x8008451c # lb $t0, 0x451c($zr)

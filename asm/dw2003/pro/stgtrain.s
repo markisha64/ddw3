@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_STGTRAIN_0"
+.section "section_STGTRAIN_0.0x80000000"
 .global STGTRAIN_0
 STGTRAIN_0:
 .L0x00000000: .word 0x800851d0 # lb $t0, 0x51d0($zr)
@@ -240,7 +240,7 @@ STGTRAIN_0:
 # Start of code
 
 # `fn f2(arg0: *mut Unknown0, arg1: u32, arg2: u32)`
-.section "section_STGTRAIN_f2"
+.section "section_STGTRAIN_f2.0x800003f0"
 .global STGTRAIN_f2
 STGTRAIN_f2:
 	sw $a1, 0x58($a0) # arg0.a17 = arg1
@@ -248,7 +248,7 @@ STGTRAIN_f2:
 	sw $a2, 0x5c($a0) # arg0.a16 = arg2
 
 # `fn f3(arg0: *mut Unknown0, arg1: u32, arg2: u32)`
-.section "section_STGTRAIN_f3"
+.section "section_STGTRAIN_f3.0x800003fc"
 .global STGTRAIN_f3
 STGTRAIN_f3:
 	sw $a1, 0x60($a0) # arg0.a15 = arg1
@@ -256,7 +256,7 @@ STGTRAIN_f3:
 	sw $a2, 0x64($a0) # arg0.a14 = arg2
 
 # `fn f4(arg0: *mut Unknown0, arg1: u32, arg2: u32)`
-.section "section_STGTRAIN_f4"
+.section "section_STGTRAIN_f4.0x80000408"
 .global STGTRAIN_f4
 STGTRAIN_f4:
 	sw $a1, 0x68($a0) # arg0.a13 = arg1
@@ -264,7 +264,7 @@ STGTRAIN_f4:
 	sw $a2, 0x6c($a0) # arg0.a12 = arg2
 
 # `fn f5(arg0: *mut Unknown0, arg1: u32, arg2: u32)`
-.section "section_STGTRAIN_f5"
+.section "section_STGTRAIN_f5.0x80000414"
 .global STGTRAIN_f5
 STGTRAIN_f5:
 	sw $a1, 0x70($a0) # arg0.a11 = arg1
@@ -272,7 +272,7 @@ STGTRAIN_f5:
 	sw $a2, 0x74($a0) # arg0.a10 = arg2
 
 # `fn f6(arg0: *mut Unknown0, arg1: u32, arg2: u32, arg3: u32)`
-.section "section_STGTRAIN_f6"
+.section "section_STGTRAIN_f6.0x80000420"
 .global STGTRAIN_f6
 STGTRAIN_f6:
 	li $v0, 0x1
@@ -283,7 +283,7 @@ STGTRAIN_f6:
 	sw $v0, 0x9c($a0) # arg0.a18 = 1
 
 # `fn f7(arg0: *mut Unknown0, arg1: u32, arg2: u32)`
-.section "section_STGTRAIN_f7"
+.section "section_STGTRAIN_f7.0x80000438"
 .global STGTRAIN_f7
 STGTRAIN_f7:
 	sw $a1, 0xa0($a0) # arg0.a19 = arg1
@@ -291,7 +291,7 @@ STGTRAIN_f7:
 	sw $a2, 0xa4($a0) # arg0.a20 = arg2
 
 # `fn f8(arg0: *mut Unknown0, arg1: u16, arg2: u16, arg3: u16)`
-.section "section_STGTRAIN_f8"
+.section "section_STGTRAIN_f8.0x80000444"
 .global STGTRAIN_f8
 STGTRAIN_f8:
 	li $v0, 0x1
@@ -301,7 +301,7 @@ STGTRAIN_f8:
 	jr $ra
 	sw $v0, 0x9c($a0) # arg0.a18 = 1
 
-.section "section_STGTRAIN_1"
+.section "section_STGTRAIN_1.0x80000bd0"
 .global STGTRAIN_1
 STGTRAIN_1:
 .L0x00000bd0: addiu $sp, -0x18                    # .word 0x27bdffe8

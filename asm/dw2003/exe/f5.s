@@ -2,7 +2,7 @@
 
 # Returns `&D0x80041844[idx + 0x1]`
 # `fn f5(idx: i32) -> *Unknown1`
-.section section_f5
+.section "section_f5.0x8001355c"
 .global f5
 f5:
 idx=$a0

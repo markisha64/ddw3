@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_STITSHOP"
+.section "section_STITSHOP.0x80082cb0"
 .global STITSHOP
 STITSHOP:
 .L0x00000000: .word 0x80083f04 # lb $t0, 0x3f04($zr)

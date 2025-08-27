@@ -1,7 +1,7 @@
 .include "macros.s"
 
 # fn f11(arg0: i32, stat_idx: i32, value: i32)
-.section "section_f11"
+.section "section_f11.0x80017028"
 .global f11
 f11:
 offset=$a0

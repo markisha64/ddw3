@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_STGMCARD"
+.section "section_STGMCARD.0x80000000"
 .global STGMCARD
 STGMCARD:
 .L0x00000000: .word 0x8008477c # lb $t0, 0x477c($zr)

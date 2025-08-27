@@ -1,7 +1,7 @@
 .include "macros.s"
 
 # `fn f8()`
-.section section_f8
+.section "section_f8.0x80013694"
 .global f8
 f8:
 	addiu $sp, -0x18

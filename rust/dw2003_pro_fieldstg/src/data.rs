@@ -14,7 +14,7 @@ pub struct Encounter {
 }
 
 util::decl_static! { "dw2003_pro_FIELDSTG_data",
-	pub static mut ENEMY_ENCOUNTERS: [Encounter; 522] = [
+	pub static mut ENEMY_ENCOUNTERS @ "0x80010158": [Encounter; 522] = [
 		Encounter {
 			enemy_id: EnemyId::Pharaohmon,
 			un0: 0,
@@ -4193,7 +4193,7 @@ util::decl_static! { "dw2003_pro_FIELDSTG_data",
 		},
 	];
 
-	pub static mut FIELDSTG_D0x00010158: [u32; 7474] = [
+	pub static mut FIELDSTG_D0x00010158 @ "0x800119d0": [u32; 7474] = [
 		0x80092dfc, // 0x000119d0
 		0x80092dfc, // 0x000119d4
 		0x80092dfc, // 0x000119d8

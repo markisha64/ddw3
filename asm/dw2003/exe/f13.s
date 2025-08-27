@@ -14,7 +14,7 @@
 # }
 # return ptr[1]; // ?
 # ```
-.section section_f13
+.section "section_f13.0x80010f4c"
 .global f13
 f13:
 	addiu $sp, -0x18

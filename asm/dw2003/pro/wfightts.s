@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_WFIGHTTS"
+.section "section_WFIGHTTS.0x80000000"
 .global WFIGHTTS
 WFIGHTTS:
 .L0x00000000: .word 0x800a6e3c # lb $t2, 0x6e3c($zr)

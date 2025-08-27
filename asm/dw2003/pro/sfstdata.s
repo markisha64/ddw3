@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_SFSTDATA"
+.section "section_SFSTDATA.0x80000000"
 .global SFSTDATA
 SFSTDATA:
 # Start of code

@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_f2"
+.section "section_f2.0x8001345c"
 .global f2
 f2:
 var_a=$s0

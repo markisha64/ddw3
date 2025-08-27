@@ -2,7 +2,7 @@
 
 # Returns `D0x80041844[idx + 0x1].f3 ^ mask < 0x1`
 # `fn f7(idx: i32, mask: i32) -> bool`
-.section section_f7
+.section "section_f7.0x800135b8"
 .global f7
 f7:
 	addiu $sp, -0x18

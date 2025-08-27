@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_STDWTITL"
+.section "section_STDWTITL.0x80000000"
 .global STDWTITL
 STDWTITL:
 .L0x00000000: .word 0x80084584 # lb $t0, 0x4584($zr)

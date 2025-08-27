@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_STGDGLAB"
+.section "section_STGDGLAB.0x80000000"
 .global STGDGLAB
 STGDGLAB:
 .L0x00000000: .word 0x80084650 # lb $t0, 0x4650($zr)

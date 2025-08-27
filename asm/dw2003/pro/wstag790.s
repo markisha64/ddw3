@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_WSTAG790"
+.section "section_WSTAG790.0x80000000"
 .global WSTAG790
 WSTAG790:
 .L0x00000000: .word 0x800a5ea4 # lb $t2, 0x5ea4($zr)

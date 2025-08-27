@@ -1,7 +1,7 @@
 .include "macros.s"
 
 # `fn f0(arg0: *mut Unknown0, arg1: *u16, arg2: u32) -> u16`
-.section "section_STGTRAIN_f0"
+.section "section_STGTRAIN_f0.0x800003a8"
 .global STGTRAIN_f0
 STGTRAIN_f0:
 	sw $a1, 0x80($a0) # arg0.a0 = arg1

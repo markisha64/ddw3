@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_SOUNDTST"
+.section "section_SOUNDTST.0x80000000"
 .global SOUNDTST
 SOUNDTST:
 .L0x00000000: .word 0x00000000 # nop

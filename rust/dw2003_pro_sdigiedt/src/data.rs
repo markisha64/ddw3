@@ -59,7 +59,8 @@ impl Moves {
 }
 
 util::decl_static! { "dw2003_pro_SDIGIEDT_data",
-	pub static mut ENEMY_DIGIMON_STATS: [EnemyStats; 194] = [
+	// TODO: Fix this address
+	pub static mut ENEMY_DIGIMON_STATS @ "0x80000000": [EnemyStats; 194] = [
 		EnemyStats {
 			enemy_id:       EnemyId::Kunemon,
 			droppable_item: ItemId::Null,

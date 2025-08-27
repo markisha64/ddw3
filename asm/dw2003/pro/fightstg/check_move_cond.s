@@ -1,7 +1,7 @@
 .include "macros.s"
 
 # Jump table for `FIGHTSTG_check_move_cond`
-.section "section_FIGHTSTG_check_move_cond_jump_table"
+.section "section_FIGHTSTG_check_move_cond_jump_table.0x80082d58"
 .global FIGHTSTG_check_move_cond_jump_table
 FIGHTSTG_check_move_cond_jump_table:
 	.word .Lexit_true
@@ -27,7 +27,7 @@ FIGHTSTG_check_move_cond_jump_table:
 	.word 0x00000000
 
 # `fn(cond: u8, cmp_value: i16) -> bool`
-.section "section_FIGHTSTG_check_move_cond"
+.section "section_FIGHTSTG_check_move_cond.0x80088c2c"
 .global FIGHTSTG_check_move_cond
 FIGHTSTG_check_move_cond:
 	addiu $sp, -0x20

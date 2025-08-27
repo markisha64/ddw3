@@ -2,7 +2,7 @@
 
 # Returns `D0x80042ba8[D0x80041844[idx + 0x1].f4]`
 # `fn f6(idx: i32) -> u8`
-.section section_f6
+.section "section_f6.0x80013584"
 .global f6
 f6:
 	addiu $sp, -0x18

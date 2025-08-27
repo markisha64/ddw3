@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_FIELDSTG"
+.section "section_FIELDSTG.0x80000000"
 .global FIELDSTG
 FIELDSTG:
 .L0x00000000: .word 0x800839c4 # lb $t0, 0x39c4($zr)

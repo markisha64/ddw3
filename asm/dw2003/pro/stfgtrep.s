@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_STFGTREP_0"
+.section "section_STFGTREP_0.0x80082cb0"
 .global STFGTREP_0
 STFGTREP_0:
 .L0x00000000: .word 0x8008488c # lb $t0, 0x488c($zr)
@@ -117,7 +117,7 @@ STFGTREP_0:
 .L0x000001bc: .word 0x800857b4 # lb $t0, 0x57b4($zr)
 # Start of code
 
-.section "section_STFGTREP_1"
+.section "section_STFGTREP_1.0x80082f6c"
 .global STFGTREP_1
 STFGTREP_1:
 .L0x000002bc: addiu $sp, -0x18                    # .word 0x27bdffe8

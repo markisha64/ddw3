@@ -35,7 +35,7 @@ pub struct Unknown0 {
 }
 
 util::decl_static! { "dw2003_pro_STGTRAIN_data",
-	pub static mut STGTRAIN_D0x00009574: [u32; 1081] = [
+	pub static mut STGTRAIN_D0x00009574 @ "0x80009574": [u32; 1081] = [
 		0x00000007, // 0x00009574
 		0x00000008, // 0x00009578
 		0x00000009, // 0x0000957c

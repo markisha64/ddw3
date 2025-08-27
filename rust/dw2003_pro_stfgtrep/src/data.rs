@@ -117,7 +117,7 @@ impl Evolution {
 }
 
 util::decl_static! { "dw2003_pro_STFGTREP_data",
-	pub static mut STFGTREP_D0x00003dd8: [u32; 1005] = [
+	pub static mut STFGTREP_D0x00003dd8 @ "0x80086a88": [u32; 1005] = [
 		0x00000000, // 0x00003dd8
 		0x00000000, // 0x00003ddc
 		0x00000000, // 0x00003de0
@@ -1125,7 +1125,9 @@ util::decl_static! { "dw2003_pro_STFGTREP_data",
 		0x000001d6, // 0x00004d88
 	];
 
-	pub static mut STFGTREP_EVOS_KOTEMON: [Evolution; 44] = [
+	// TODO: Fix these addresses
+
+	pub static mut STFGTREP_EVOS_KOTEMON @ "0x80087a3c": [Evolution; 44] = [
 		Evolution::rookie(5, DigimonId::Dinohumon),
 		Evolution::standard(DigimonId::Growlmon, 20, DigimonId::Hookmon),
 		Evolution::standard_extra(DigimonId::Growlmon, 30, DigimonId::Grizzmon, EvoReqExtra::StatSpeed(280)),
@@ -1172,7 +1174,7 @@ util::decl_static! { "dw2003_pro_STFGTREP_data",
 		Evolution::dna(DigimonId::GranKuwagamon, 99, DigimonId::BKWarGreymon, 99, DigimonId::Diaboromon),
 	];
 
-	pub static mut STFGTREP_EVOS_KUMAMON: [Evolution; 44] = [
+	pub static mut STFGTREP_EVOS_KUMAMON @ "0x80087cfc": [Evolution; 44] = [
 		Evolution::standard(DigimonId::MetalGreymon, 30, DigimonId::Dinohumon),
 		Evolution::standard(DigimonId::Kabuterimon, 20, DigimonId::Hookmon),
 		Evolution::rookie(5, DigimonId::Grizzmon),
@@ -1219,7 +1221,7 @@ util::decl_static! { "dw2003_pro_STFGTREP_data",
 		Evolution::dna(DigimonId::GranKuwagamon, 99, DigimonId::BKWarGreymon, 99, DigimonId::Diaboromon),
 	];
 
-	pub static mut STFGTREP_EVOS_MONMON: [Evolution; 44] = [
+	pub static mut STFGTREP_EVOS_MONMON @ "0x80087fbc": [Evolution; 44] = [
 		Evolution::standard_extra(DigimonId::MetalGreymon, 20, DigimonId::Dinohumon, EvoReqExtra::StatStrength(250)),
 		Evolution::rookie(5, DigimonId::Hookmon),
 		Evolution::standard_extra(DigimonId::Growlmon, 20, DigimonId::Grizzmon, EvoReqExtra::StatDefense(460)),
@@ -1266,7 +1268,7 @@ util::decl_static! { "dw2003_pro_STFGTREP_data",
 		Evolution::dna(DigimonId::GranKuwagamon, 99, DigimonId::BKWarGreymon, 99, DigimonId::Diaboromon),
 	];
 
-	pub static mut STFGTREP_EVOS_AGUMON: [Evolution; 44] = [
+	pub static mut STFGTREP_EVOS_AGUMON @ "0x8008827c": [Evolution; 44] = [
 		Evolution::standard(DigimonId::WarGreymon, 20, DigimonId::Dinohumon),
 		Evolution::standard(DigimonId::WarGrowlmon, 30, DigimonId::Hookmon),
 		Evolution::standard_extra(DigimonId::MetalGarurumon, 30, DigimonId::Grizzmon, EvoReqExtra::StatDefense(400)),
@@ -1313,7 +1315,7 @@ util::decl_static! { "dw2003_pro_STFGTREP_data",
 		Evolution::dna(DigimonId::GranKuwagamon, 99, DigimonId::BKWarGreymon, 99, DigimonId::Diaboromon),
 	];
 
-	pub static mut STFGTREP_EVOS_VEEMON: [Evolution; 44] = [
+	pub static mut STFGTREP_EVOS_VEEMON @ "0x8008853c": [Evolution; 44] = [
 		Evolution::standard(DigimonId::Imperialdramon, 30, DigimonId::Dinohumon),
 		Evolution::standard_extra(DigimonId::Imperialdramon, 35, DigimonId::Hookmon, EvoReqExtra::StatMachine(160)),
 		Evolution::standard_extra(DigimonId::Imperialdramon, 45, DigimonId::Grizzmon, EvoReqExtra::StatDefense(200)),
@@ -1360,7 +1362,7 @@ util::decl_static! { "dw2003_pro_STFGTREP_data",
 		Evolution::dna(DigimonId::GranKuwagamon, 99, DigimonId::BKWarGreymon, 99, DigimonId::Diaboromon),
 	];
 
-	pub static mut STFGTREP_EVOS_GUILMON: [Evolution; 44] = [
+	pub static mut STFGTREP_EVOS_GUILMON @ "0x800887fc": [Evolution; 44] = [
 		Evolution::standard_extra(DigimonId::MetalGreymon, 20, DigimonId::Dinohumon, EvoReqExtra::StatStrength(400)),
 		Evolution::standard(DigimonId::Dinohumon, 20, DigimonId::Hookmon),
 		Evolution::standard(DigimonId::Gallantmon, 10, DigimonId::Grizzmon),
@@ -1407,7 +1409,7 @@ util::decl_static! { "dw2003_pro_STFGTREP_data",
 		Evolution::dna(DigimonId::GranKuwagamon, 99, DigimonId::BKWarGreymon, 99, DigimonId::Diaboromon),
 	];
 
-	pub static mut STFGTREP_EVOS_RENAMON: [Evolution; 44] = [
+	pub static mut STFGTREP_EVOS_RENAMON @ "0x80088abc": [Evolution; 44] = [
 		Evolution::standard(DigimonId::Grizzmon, 20, DigimonId::Dinohumon),
 		Evolution::standard(DigimonId::Kyukimon, 20, DigimonId::Hookmon),
 		Evolution::standard_extra(DigimonId::Myotismon, 20, DigimonId::Grizzmon, EvoReqExtra::StatStrength(300)),
@@ -1454,7 +1456,7 @@ util::decl_static! { "dw2003_pro_STFGTREP_data",
 		Evolution::dna(DigimonId::GranKuwagamon, 99, DigimonId::BKWarGreymon, 99, DigimonId::Diaboromon),
 	];
 
-	pub static mut STFGTREP_EVOS_PATAMON: [Evolution; 44] = [
+	pub static mut STFGTREP_EVOS_PATAMON @ "0x80088d7c": [Evolution; 44] = [
 		Evolution::standard(DigimonId::Growlmon, 20, DigimonId::Dinohumon),
 		Evolution::standard(DigimonId::Seraphimon, 10, DigimonId::Hookmon),
 		Evolution::standard_extra(DigimonId::Growlmon, 40, DigimonId::Grizzmon, EvoReqExtra::StatStrength(240)),
@@ -1501,7 +1503,7 @@ util::decl_static! { "dw2003_pro_STFGTREP_data",
 		Evolution::dna(DigimonId::GranKuwagamon, 99, DigimonId::BKWarGreymon, 99, DigimonId::Diaboromon),
 	];
 
-	pub static mut STFGTREP_D0x0000638c: [u32; 155] = [
+	pub static mut STFGTREP_D0x0000638c @ "0x8008903c": [u32; 155] = [
 		0x80087a3c, // 0x0000638c
 		0x80087cfc, // 0x00006390
 		0x80087fbc, // 0x00006394

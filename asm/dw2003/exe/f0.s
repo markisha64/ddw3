@@ -2,7 +2,7 @@
 
 # Returns the pointer to the current digimon stat
 # `fn f0(value: u32) -> *u32`
-.section "section_f0"
+.section "section_f0.0x800134e8"
 .global f0
 f0:
 	addiu $sp, -0x18

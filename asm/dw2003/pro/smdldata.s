@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_SMDLDATA"
+.section "section_SMDLDATA.0x80000000"
 .global SMDLDATA
 SMDLDATA:
 .L0x00000000: .word D0x80082cb0 # lb $t0, 0x2cb0($zr)

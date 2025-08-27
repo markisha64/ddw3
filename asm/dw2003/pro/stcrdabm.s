@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_STCRDABM"
+.section "section_STCRDABM.0x80000000"
 .global STCRDABM
 STCRDABM:
 .L0x00000000: .word 0x80084c8c # lb $t0, 0x4c8c($zr)

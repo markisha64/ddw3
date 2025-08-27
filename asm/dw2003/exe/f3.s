@@ -1,7 +1,7 @@
 .include "macros.s"
 
 # `fn f1(idx: i32, dst: *mut i16) -> u32`
-.section "section_f3"
+.section "section_f3.0x800135e8"
 .global f3
 f3:
 dst=$a1        # *mut i16

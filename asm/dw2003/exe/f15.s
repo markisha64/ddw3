@@ -6,7 +6,7 @@
 # D0x80055ccc: List of loaded libraries?
 
 # `fn f15()`
-.section section_f15
+.section "section_f15.0x80020c64"
 .global f15
 f15:
 	# `$v0 == &D0x8004b438 == load_D0x8004b3f8`

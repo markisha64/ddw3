@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_WSTAG206"
+.section "section_WSTAG206.0x80000000"
 .global WSTAG206
 WSTAG206:
 .L0x00000000: .word 0x00808080 # 0x808080

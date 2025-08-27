@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_STCRDDEK"
+.section "section_STCRDDEK.0x80000000"
 .global STCRDDEK
 STCRDDEK:
 .L0x00000000: .word 0x80085268 # lb $t0, 0x5268($zr)

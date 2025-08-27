@@ -1,3 +1,4 @@
+ar==1.0.0
 pillow==10.4.0
 pyelftools==0.31
 toml==0.10.2

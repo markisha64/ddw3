@@ -2,7 +2,7 @@
 
 # Returns the digimon stat index of the first digimon with `value0 = value`
 # `fn f1(value: u32) -> i32`
-.section "section_f1"
+.section "section_f1.0x800134ac"
 .global f1
 f1:
 cur_idx=$v1

@@ -1,7 +1,7 @@
 .include "macros.s"
 
 # `fn f0(src: *u32, dst: *u32)`
-.section "section_STFGTREP_f0"
+.section "section_STFGTREP_f0.0x80082e70"
 .global STFGTREP_f0
 STFGTREP_f0:
 	addiu $sp, -0x28

@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_WSTAG969"
+.section "section_WSTAG969.0x80000000"
 .global WSTAG969
 WSTAG969:
 # Start of code

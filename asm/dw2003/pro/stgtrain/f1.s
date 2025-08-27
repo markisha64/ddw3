@@ -1,7 +1,7 @@
 .include "macros.s"
 
 # `fn f1(arg0: *mut Unknown0, arg1: *u16)`
-.section "section_STGTRAIN_f1"
+.section "section_STGTRAIN_f1.0x800003c8"
 .global STGTRAIN_f1
 STGTRAIN_f1:
 	beqz $a1, .L0 # if arg1 == 0 { return; }

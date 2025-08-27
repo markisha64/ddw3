@@ -3,7 +3,7 @@
 # `fn f9(arg0: *mut Unknown0) -> u32`
 #
 # Returns `arg0.a9 & 0x7fff_ffff`
-.section "section_STGTRAIN_f9"
+.section "section_STGTRAIN_f9.0x8000045c"
 .global STGTRAIN_f9
 STGTRAIN_f9:
 	lui $v1, 0x7fff

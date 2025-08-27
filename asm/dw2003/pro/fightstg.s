@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_FIGHTSTG_00"
+.section "section_FIGHTSTG_00.0x80082cb0"
 .global FIGHTSTG_00
 FIGHTSTG_00:
 .L0x80082cb0: .word 0x80085390
@@ -46,7 +46,7 @@ FIGHTSTG_00:
 .L0x80082d50: .word 0x80088bb8
 .L0x80082d54: .word 0x00000000
 
-.section "section_FIGHTSTG_01"
+.section "section_FIGHTSTG_01.0x80082da8"
 .global FIGHTSTG_01
 FIGHTSTG_01:
 .L0x80082da8: .word 0x800891b8
@@ -381,6 +381,7 @@ FIGHTSTG_01:
 .L0x800832cc: .word 0x800a2318
 
 # Start of code
+.section "section_FIGHTSTG_01.0x800832d0"
 .global FIGHTSTG_F0x800832d0
 FIGHTSTG_F0x800832d0:
 .L0x800832d0: addiu $sp, -0x50
@@ -6265,10 +6266,11 @@ FIGHTSTG_F0x80088c00:
 .L0x80088c24: jr $ra
 .L0x80088c28: addiu $sp, 0x18
 
-.section "section_FIGHTSTG_1"
+.section "section_FIGHTSTG_1.0x80089148"
 .global FIGHTSTG_1
 FIGHTSTG_1:
 
+.section "section_FIGHTSTG_1.0x80089148"
 .global FIGHTSTG_F0x80089148
 FIGHTSTG_F0x80089148:
 .L0x80089148: addiu $sp, -0x20

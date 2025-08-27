@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_STPLNMET"
+.section "section_STPLNMET.0x80000000"
 .global STPLNMET
 STPLNMET:
 .L0x00000000: .word 0x800845b4 # lb $t0, 0x45b4($zr)

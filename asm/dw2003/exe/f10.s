@@ -1,7 +1,7 @@
 .include "macros.s"
 
 # fn f10(offset: u32, item_idx: u32) -> bool
-.section "section_f10"
+.section "section_f10.0x80016124"
 .global f10
 f10:
 offset=$a0

@@ -14,7 +14,7 @@ pub struct Shop {
 }
 
 util::decl_static! { "dw2003_pro_STITSHOP_data",
-	pub static mut STITSHOP_D0x00009df8: [u32; 68] = [
+	pub static mut STITSHOP_D0x00009df8 @ "0x8008caa8": [u32; 68] = [
 		0x00000001, // 0x00009df8
 		0x00000002, // 0x00009dfc
 		0x00000003, // 0x00009e00
@@ -85,7 +85,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		0x0000000a, // 0x00009f04
 	];
 
-	pub static mut STITSHOP_ITEMS_0: [ItemId; 12] = [
+	pub static mut STITSHOP_ITEMS_0 @ "0x8008cbb8": [ItemId; 12] = [
 		ItemId::ShortSword,
 		ItemId::LeatherGlove,
 		ItemId::Dagger,
@@ -100,7 +100,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_1: [ItemId; 20] = [
+	pub static mut STITSHOP_ITEMS_1 @ "0x8008cbd0": [ItemId; 20] = [
 		ItemId::PowerGem,
 		ItemId::GuardGem,
 		ItemId::SpiritGem,
@@ -123,7 +123,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_2: [ItemId; 20] = [
+	pub static mut STITSHOP_ITEMS_2 @ "0x8008cbf8": [ItemId; 20] = [
 		ItemId::PowerCharge,
 		ItemId::AntidoteDisk,
 		ItemId::ReviveDisk,
@@ -146,7 +146,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_3: [ItemId; 20] = [
+	pub static mut STITSHOP_ITEMS_3 @ "0x8008cc20": [ItemId; 20] = [
 		ItemId::Shiratorimaru,
 		ItemId::PowerArm,
 		ItemId::Shotgun,
@@ -169,14 +169,14 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_4: [ItemId; 4] = [
+	pub static mut STITSHOP_ITEMS_4 @ "0x8008cc48": [ItemId; 4] = [
 		ItemId::PowerCharge,
 		ItemId::SuperCharge,
 		ItemId::Null,
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_5: [ItemId; 12] = [
+	pub static mut STITSHOP_ITEMS_5 @ "0x8008cc50": [ItemId; 12] = [
 		ItemId::ZandenSword,
 		ItemId::CatGlove,
 		ItemId::Shishioumaru,
@@ -191,7 +191,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_6: [ItemId; 20] = [
+	pub static mut STITSHOP_ITEMS_6 @ "0x8008cc68": [ItemId; 20] = [
 		ItemId::PowerCharge,
 		ItemId::AntidoteDisk,
 		ItemId::ReviveDisk,
@@ -214,7 +214,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_7: [ItemId; 12] = [
+	pub static mut STITSHOP_ITEMS_7 @ "0x8008cc90": [ItemId; 12] = [
 		ItemId::CrimsonBlade,
 		ItemId::IronGlove,
 		ItemId::LongSword,
@@ -229,7 +229,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_8: [ItemId; 20] = [
+	pub static mut STITSHOP_ITEMS_8 @ "0x8008cca8": [ItemId; 20] = [
 		ItemId::PowerGem,
 		ItemId::GuardGem,
 		ItemId::SpiritGem,
@@ -252,7 +252,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_9: [ItemId; 20] = [
+	pub static mut STITSHOP_ITEMS_9 @ "0x8008ccd0": [ItemId; 20] = [
 		ItemId::PowerCharge,
 		ItemId::AntidoteDisk,
 		ItemId::ReviveDisk,
@@ -275,7 +275,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_10: [ItemId; 20] = [
+	pub static mut STITSHOP_ITEMS_10 @ "0x8008ccf8": [ItemId; 20] = [
 		ItemId::MightyBlade,
 		ItemId::NeedleGlove,
 		ItemId::Handgun,
@@ -298,7 +298,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_11: [ItemId; 20] = [
+	pub static mut STITSHOP_ITEMS_11 @ "0x8008cd20": [ItemId; 20] = [
 		ItemId::MightyBlade,
 		ItemId::NeedleGlove,
 		ItemId::Handgun,
@@ -321,7 +321,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_12: [ItemId; 22] = [
+	pub static mut STITSHOP_ITEMS_12 @ "0x8008cd48": [ItemId; 22] = [
 		ItemId::PowerCharge,
 		ItemId::SuperCharge,
 		ItemId::AntidoteDisk,
@@ -346,7 +346,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_13: [ItemId; 20] = [
+	pub static mut STITSHOP_ITEMS_13 @ "0x8008cd74": [ItemId; 20] = [
 		ItemId::ShineBlade,
 		ItemId::TigerGlove,
 		ItemId::PsychoBlaster,
@@ -369,7 +369,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_14: [ItemId; 22] = [
+	pub static mut STITSHOP_ITEMS_14 @ "0x8008cd9c": [ItemId; 22] = [
 		ItemId::PowerCharge,
 		ItemId::SuperCharge,
 		ItemId::AntidoteDisk,
@@ -394,7 +394,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_15: [ItemId; 20] = [
+	pub static mut STITSHOP_ITEMS_15 @ "0x8008cdc8": [ItemId; 20] = [
 		ItemId::FuujinBlade,
 		ItemId::RaijinFist,
 		ItemId::SuijinCannon,
@@ -417,7 +417,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_16: [ItemId; 20] = [
+	pub static mut STITSHOP_ITEMS_16 @ "0x8008cdf0": [ItemId; 20] = [
 		ItemId::PowerRing,
 		ItemId::GuardRing,
 		ItemId::SpiritRing,
@@ -440,7 +440,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_17: [ItemId; 22] = [
+	pub static mut STITSHOP_ITEMS_17 @ "0x8008ce18": [ItemId; 22] = [
 		ItemId::PowerCharge,
 		ItemId::SuperCharge,
 		ItemId::UltraCharge,
@@ -465,7 +465,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_18: [ItemId; 34] = [
+	pub static mut STITSHOP_ITEMS_18 @ "0x8008ce44": [ItemId; 34] = [
 		ItemId::RoninBlade,
 		ItemId::WildGlove,
 		ItemId::SniperCannon,
@@ -502,7 +502,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_19: [ItemId; 16] = [
+	pub static mut STITSHOP_ITEMS_19 @ "0x8008ce88": [ItemId; 16] = [
 		ItemId::HPChip,
 		ItemId::MPChip,
 		ItemId::PowerChip,
@@ -521,7 +521,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_20: [ItemId; 20] = [
+	pub static mut STITSHOP_ITEMS_20 @ "0x8008cea8": [ItemId; 20] = [
 		ItemId::Shiratorimaru,
 		ItemId::PowerArm,
 		ItemId::Shotgun,
@@ -544,7 +544,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_21: [ItemId; 22] = [
+	pub static mut STITSHOP_ITEMS_21 @ "0x8008ced0": [ItemId; 22] = [
 		ItemId::PowerCharge,
 		ItemId::SuperCharge,
 		ItemId::AntidoteDisk,
@@ -569,7 +569,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_22: [ItemId; 20] = [
+	pub static mut STITSHOP_ITEMS_22 @ "0x8008cefc": [ItemId; 20] = [
 		ItemId::ShineBlade,
 		ItemId::TigerGlove,
 		ItemId::PsychoBlaster,
@@ -592,7 +592,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_23: [ItemId; 20] = [
+	pub static mut STITSHOP_ITEMS_23 @ "0x8008cf24": [ItemId; 20] = [
 		ItemId::PowerGem,
 		ItemId::GuardGem,
 		ItemId::SpiritGem,
@@ -615,7 +615,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_24: [ItemId; 22] = [
+	pub static mut STITSHOP_ITEMS_24 @ "0x8008cf4c": [ItemId; 22] = [
 		ItemId::PowerCharge,
 		ItemId::SuperCharge,
 		ItemId::AntidoteDisk,
@@ -640,7 +640,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_25: [ItemId; 20] = [
+	pub static mut STITSHOP_ITEMS_25 @ "0x8008cf78": [ItemId; 20] = [
 		ItemId::Onimaru,
 		ItemId::KaiserFist,
 		ItemId::ClusterCannon,
@@ -663,7 +663,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_26: [ItemId; 20] = [
+	pub static mut STITSHOP_ITEMS_26 @ "0x8008cfa0": [ItemId; 20] = [
 		ItemId::Tenjinmaru,
 		ItemId::TempestArm,
 		ItemId::LaserCannon,
@@ -686,7 +686,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_27: [ItemId; 22] = [
+	pub static mut STITSHOP_ITEMS_27 @ "0x8008cfc8": [ItemId; 22] = [
 		ItemId::PowerCharge,
 		ItemId::SuperCharge,
 		ItemId::AntidoteDisk,
@@ -711,7 +711,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_28: [ItemId; 20] = [
+	pub static mut STITSHOP_ITEMS_28 @ "0x8008cff4": [ItemId; 20] = [
 		ItemId::Tenjinmaru,
 		ItemId::TempestArm,
 		ItemId::LaserCannon,
@@ -734,7 +734,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_29: [ItemId; 22] = [
+	pub static mut STITSHOP_ITEMS_29 @ "0x8008d01c": [ItemId; 22] = [
 		ItemId::PowerCharge,
 		ItemId::SuperCharge,
 		ItemId::AntidoteDisk,
@@ -759,7 +759,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		ItemId::Null,
 	];
 
-	pub static mut STITSHOP_ITEMS_30: [ItemId; 54] = [
+	pub static mut STITSHOP_ITEMS_30 @ "0x8008d048": [ItemId; 54] = [
 		ItemId::BalancedPack,
 		ItemId::PowerfulPack,
 		ItemId::ManiacPack,
@@ -817,7 +817,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 	];
 
 	// 0x0000a404
-	pub static mut STITSHOP_SHOPS: [Shop; 31] = [
+	pub static mut STITSHOP_SHOPS @ "0x8008d0b4": [Shop; 31] = [
 		Shop { len: 0x0000000b, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_0 [0]) } },
 		Shop { len: 0x00000012, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_1 [0]) } },
 		Shop { len: 0x00000013, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_2 [0]) } },
@@ -851,7 +851,7 @@ util::decl_static! { "dw2003_pro_STITSHOP_data",
 		Shop { len: 0x00000034, items: unsafe { ptr::addr_of!(STITSHOP_ITEMS_30[0]) } },
 	];
 
-	pub static mut STITSHOP_D0x0000a4fc: [u32; 11] = [
+	pub static mut STITSHOP_D0x0000a4fc @ "0x8008d1ac": [u32; 11] = [
 		0x00000000,
 		0x8008c17c,
 		0x8008c238,

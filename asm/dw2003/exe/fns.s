@@ -1,7 +1,6 @@
 .include "macros.s"
 
-.section "fns0_0"
-
+.section "fns0_0.0x80010000"
 .global D0x80010000
 D0x80010000:
 .L0x80010000: .word F0x80011134
@@ -38,6 +37,7 @@ D0x80010000:
 .L0x8001007c: .word F0x800118e4
 .L0x80010080: .word F0x80011968
 
+.section "fns0_0.0x80010084"
 .global D0x80010084
 D0x80010084:
 .L0x80010084: .word F0x80012838
@@ -49,6 +49,7 @@ D0x80010084:
 .L0x8001009c: .word F0x80012e5c
 .L0x800100a0: .word 0x00000000
 
+.section "fns0_0.0x800100a4"
 .global D0x800100a4
 D0x800100a4:
 .L0x800100a4: .word F0x800131e0
@@ -60,14 +61,17 @@ D0x800100a4:
 .L0x800100bc: .word F0x800132e0
 .L0x800100c0: .word F0x80013350
 
+.section "fns0_0.0x800100c4"
 .global D0x800100c4
 D0x800100c4:
 .L0x800100c4: .word D0x80082cb0 # `STFGTREP` location
 
+.section "fns0_0.0x800100c8"
 .global D0x800100c8
 D0x800100c8:
 .L0x800100c8: .word D0x800a5de0
 
+.section "fns0_0.0x800100cc"
 .global D0x800100cc
 D0x800100cc:
 .L0x800100cc: .word 0x4c534942
@@ -77,6 +81,7 @@ D0x800100cc:
 .L0x800100dc: .word 0x4e504a2d
 .L0x800100e0: .word 0x00000000
 
+.section "fns0_0.0x800100e4"
 .global D0x800100e4
 D0x800100e4:
 .L0x800100e4: .word 0x4c534142
@@ -86,6 +91,7 @@ D0x800100e4:
 .L0x800100f4: .word 0x4153552d
 .L0x800100f8: .word 0x00000000
 
+.section "fns0_0.0x800100fc"
 .global D0x800100fc
 D0x800100fc:
 .L0x800100fc: .word 0x4c534542
@@ -95,6 +101,7 @@ D0x800100fc:
 .L0x8001010c: .word 0x5255452d
 .L0x80010110: .word 0x00000000
 
+.section "fns0_0.0x80010114"
 .global D0x80010114
 D0x80010114:
 .L0x80010114: .word F0x800148f4
@@ -106,6 +113,7 @@ D0x80010114:
 .L0x8001012c: .word F0x8001491c
 .L0x80010130: .word 0x00000000
 
+.section "fns0_0.0x80010134"
 .global D0x80010134
 D0x80010134:
 .L0x80010134: .word F0x80014dc8
@@ -115,6 +123,7 @@ D0x80010134:
 .L0x80010144: .word F0x80014e44
 .L0x80010148: .word 0x00000000
 
+.section "fns0_0.0x8001014c"
 .global D0x8001014c
 D0x8001014c:
 .L0x8001014c: .word F0x80015088
@@ -123,6 +132,7 @@ D0x8001014c:
 .L0x80010158: .word F0x800150dc
 .L0x8001015c: .word F0x80015108
 
+.section "fns0_0.0x80010160"
 .global D0x80010160
 D0x80010160:
 .L0x80010160: .word F0x800157a0
@@ -136,6 +146,7 @@ D0x80010160:
 .L0x80010180: .word F0x80015990
 .L0x80010184: .word F0x800159fc
 
+.section "fns0_0.0x80010188"
 .global D0x80010188
 D0x80010188:
 .L0x80010188: .word F0x80018b28
@@ -146,6 +157,7 @@ D0x80010188:
 .L0x8001019c: .word F0x80018bac
 .L0x800101a0: .word F0x80018b5c
 
+.section "fns0_0.0x800101a4"
 .global D0x800101a4
 D0x800101a4:
 .L0x800101a4: .word 0x95826d82
@@ -158,6 +170,7 @@ D0x800101a4:
 .L0x800101c0: .word 0xb582dc82
 .L0x800101c4: .word 0x0000bd82
 
+.section "fns0_0.0x800101c8"
 .global D0x800101c8
 D0x800101c8:
 .L0x800101c8: .word 0x89826382
@@ -174,6 +187,7 @@ D0x800101c8:
 .L0x800101f4: .word 0xa882a282
 .L0x800101f8: .word 0x0000a482
 
+.section "fns0_0.0x800101fc"
 .global D0x800101fc
 D0x800101fc:
 .L0x800101fc: .word 0x98826482
@@ -191,6 +205,7 @@ D0x800101fc:
 .L0x8001022c: .word 0xa882a282
 .L0x80010230: .word 0x0000a482
 
+.section "fns0_0.0x80010234"
 .global D0x80010234
 D0x80010234:
 .L0x80010234: .word 0x62838183
@@ -204,6 +219,7 @@ D0x80010234:
 .L0x80010254: .word 0x0000f182
 .L0x80010258: .word 0x00000000
 
+.section "fns0_0.0x8001025c"
 .global D0x8001025c
 D0x8001025c:
 .L0x8001025c: .word F0x80019f68
@@ -213,6 +229,7 @@ D0x8001025c:
 .L0x8001026c: .word F0x8001999c
 .L0x80010270: .word 0x00000000
 
+.section "fns0_0.0x80010274"
 .global D0x80010274
 D0x80010274:
 .L0x80010274: .word F0x8001a344
@@ -221,6 +238,7 @@ D0x80010274:
 .L0x80010280: .word F0x8001a344
 .L0x80010284: .word F0x8001a3f4
 
+.section "fns0_0.0x80010288"
 .global D0x80010288
 D0x80010288:
 .L0x80010288: .word 0x00000001
@@ -228,12 +246,14 @@ D0x80010288:
 .L0x80010290: .word 0x00000000
 .L0x80010294: .word 0x00000002
 
+.section "fns0_0.0x80010298"
 .global D0x80010298
 D0x80010298:
 .L0x80010298: .word 0x00000000
 .L0x8001029c: .word 0x00000002
 .L0x800102a0: .word 0x00000004
 
+.section "fns0_0.0x800102a4"
 .global D0x800102a4
 D0x800102a4:
 .L0x800102a4: .word F0x8001f830
@@ -242,6 +262,7 @@ D0x800102a4:
 .L0x800102b0: .word F0x8001f980
 .L0x800102b4: .word F0x8001f9dc
 
+.section "fns0_0.0x800102b8"
 .global D0x800102b8
 D0x800102b8:
 .L0x800102b8: .word F0x800212ec
@@ -253,6 +274,7 @@ D0x800102b8:
 .L0x800102d0: .word 0x00000000
 .L0x800102d4: .word 0x00000000
 
+.section "fns0_0.0x800102d8"
 .global D0x800102d8
 D0x800102d8:
 .L0x800102d8: .word 0x3a644924
@@ -270,6 +292,7 @@ D0x800102d8:
 .L0x80010308: .word 0x20736f79
 .L0x8001030c: .word 0x00000024
 
+.section "fns0_0.0x80010310"
 .global D0x80010310
 D0x80010310:
 .L0x80010310: .word 0x65736552
@@ -281,6 +304,7 @@ D0x80010310:
 .L0x80010328: .word 0x78383025
 .L0x8001032c: .word 0x0000000a
 
+.section "fns0_0.0x80010330"
 .global D0x80010330
 D0x80010330:
 .L0x80010330: .word 0x65736552
@@ -289,6 +313,7 @@ D0x80010330:
 .L0x8001033c: .word 0x2e2e2964
 .L0x80010340: .word 0x00000a2e
 
+.section "fns0_0.0x80010344"
 .global D0x80010344
 D0x80010344:
 .L0x80010344: .word 0x47746553
@@ -303,6 +328,7 @@ D0x80010344:
 .L0x80010368: .word 0x253a6573
 .L0x8001036c: .word 0x00000a64
 
+.section "fns0_0.0x80010370"
 .global D0x80010370
 D0x80010370:
 .L0x80010370: .word 0x47746553
@@ -311,6 +337,7 @@ D0x80010370:
 .L0x8001037c: .word 0x2e2e2964
 .L0x80010380: .word 0x00000a2e
 
+.section "fns0_0.0x80010384"
 .global D0x80010384
 D0x80010384:
 .L0x80010384: .word 0x77617244
@@ -321,6 +348,7 @@ D0x80010384:
 .L0x80010398: .word 0x2e2e2978
 .L0x8001039c: .word 0x00000a2e
 
+.section "fns0_0.0x800103a0"
 .global D0x800103a0
 D0x800103a0:
 .L0x800103a0: .word 0x44746553
@@ -329,6 +357,7 @@ D0x800103a0:
 .L0x800103ac: .word 0x2e296425
 .L0x800103b0: .word 0x000a2e2e
 
+.section "fns0_0.0x800103b4"
 .global D0x800103b4
 D0x800103b4:
 .L0x800103b4: .word 0x77617244
@@ -337,12 +366,14 @@ D0x800103b4:
 .L0x800103c0: .word 0x0a2e2e2e
 .L0x800103c4: .word 0x00000000
 
+.section "fns0_0.0x800103c8"
 .global D0x800103c8
 D0x800103c8:
 .L0x800103c8: .word 0x623a7325
 .L0x800103cc: .word 0x52206461
 .L0x800103d0: .word 0x00544345
 
+.section "fns0_0.0x800103d4"
 .global D0x800103d4
 D0x800103d4:
 .L0x800103d4: .word 0x2c642528
@@ -351,40 +382,47 @@ D0x800103d4:
 .L0x800103e0: .word 0x0a296425
 .L0x800103e4: .word 0x00000000
 
+.section "fns0_0.0x800103e8"
 .global D0x800103e8
 D0x800103e8:
 .L0x800103e8: .word 0x003a7325
 
+.section "fns0_0.0x800103ec"
 .global D0x800103ec
 D0x800103ec:
 .L0x800103ec: .word 0x61656c43
 .L0x800103f0: .word 0x616d4972
 .L0x800103f4: .word 0x00006567
 
+.section "fns0_0.0x800103f8"
 .global D0x800103f8
 D0x800103f8:
 .L0x800103f8: .word 0x61656c43
 .L0x800103fc: .word 0x616d4972
 .L0x80010400: .word 0x00326567
 
+.section "fns0_0.0x80010404"
 .global D0x80010404
 D0x80010404:
 .L0x80010404: .word 0x64616f4c
 .L0x80010408: .word 0x67616d49
 .L0x8001040c: .word 0x00000065
 
+.section "fns0_0.0x80010410"
 .global D0x80010410
 D0x80010410:
 .L0x80010410: .word 0x726f7453
 .L0x80010414: .word 0x616d4965
 .L0x80010418: .word 0x00006567
 
+.section "fns0_0.0x8001041c"
 .global D0x8001041c
 D0x8001041c:
 .L0x8001041c: .word 0x65766f4d
 .L0x80010420: .word 0x67616d49
 .L0x80010424: .word 0x00000065
 
+.section "fns0_0.0x80010428"
 .global D0x80010428
 D0x80010428:
 .L0x80010428: .word 0x61656c43
@@ -394,6 +432,7 @@ D0x80010428:
 .L0x80010438: .word 0x2e2e2964
 .L0x8001043c: .word 0x00000a2e
 
+.section "fns0_0.0x80010440"
 .global D0x80010440
 D0x80010440:
 .L0x80010440: .word 0x61656c43
@@ -403,6 +442,7 @@ D0x80010440:
 .L0x80010450: .word 0x2e296425
 .L0x80010454: .word 0x000a2e2e
 
+.section "fns0_0.0x80010458"
 .global D0x80010458
 D0x80010458:
 .L0x80010458: .word 0x77617244
@@ -411,6 +451,7 @@ D0x80010458:
 .L0x80010464: .word 0x2e2e2978
 .L0x80010468: .word 0x00000a2e
 
+.section "fns0_0.0x8001046c"
 .global D0x8001046c
 D0x8001046c:
 .L0x8001046c: .word 0x44747550
@@ -420,6 +461,7 @@ D0x8001046c:
 .L0x8001047c: .word 0x0a2e2e2e
 .L0x80010480: .word 0x00000000
 
+.section "fns0_0.0x80010484"
 .global D0x80010484
 D0x80010484:
 .L0x80010484: .word 0x77617244
@@ -430,6 +472,7 @@ D0x80010484:
 .L0x80010498: .word 0x2e2e2978
 .L0x8001049c: .word 0x00000a2e
 
+.section "fns0_0.0x800104a0"
 .global D0x800104a0
 D0x800104a0:
 .L0x800104a0: .word 0x44747550
@@ -439,6 +482,7 @@ D0x800104a0:
 .L0x800104b0: .word 0x0a2e2e2e
 .L0x800104b4: .word 0x00000000
 
+.section "fns0_0.0x800104b8"
 .global D0x800104b8
 D0x800104b8:
 .L0x800104b8: .word 0x20555047
@@ -455,12 +499,14 @@ D0x800104b8:
 .L0x800104e4: .word 0x78383025
 .L0x800104e8: .word 0x0000000a
 
+.section "fns0_0.0x800104ec"
 .global D0x800104ec
 D0x800104ec:
 .L0x800104ec: .word 0x64616f4c
 .L0x800104f0: .word 0x67616d49
 .L0x800104f4: .word 0x00003265
 
+.section "fns0_0.0x800104f8"
 .global D0x800104f8
 D0x800104f8:
 .L0x800104f8: .word 0x33323130
@@ -469,11 +515,13 @@ D0x800104f8:
 .L0x80010504: .word 0x66656463
 .L0x80010508: .word 0x00000000
 
+.section "fns0_0.0x8001050c"
 .global D0x8001050c
 D0x8001050c:
 .L0x8001050c: .word 0x6c756e28
 .L0x80010510: .word 0x0000296c
 
+.section "fns0_0.0x80010514"
 .global D0x80010514
 D0x80010514:
 .L0x80010514: .word 0x33323130
@@ -482,6 +530,7 @@ D0x80010514:
 .L0x80010520: .word 0x46454443
 .L0x80010524: .word 0x00000000
 
+.section "fns0_0.0x80010528"
 .global D0x80010528
 D0x80010528:
 .L0x80010528: .word F0x80028a6c
@@ -609,6 +658,7 @@ D0x80010528:
 .L0x80010710: .word 0x00000000
 .L0x80010714: .word 0x00000000
 
+.section "fns0_0.0x80010718"
 .global D0x80010718
 D0x80010718:
 .L0x80010718: .word 0x20746f6e
@@ -620,6 +670,7 @@ D0x80010718:
 .L0x80010730: .word 0x0a642520
 .L0x80010734: .word 0x00000000
 
+.section "fns0_0.0x80010738"
 .global D0x80010738
 D0x80010738:
 .L0x80010738: .word F0x8002a158
@@ -659,6 +710,7 @@ D0x80010738:
 .L0x800107c0: .word F0x8002a188
 .L0x800107c4: .word 0x00000000
 
+.section "fns0_0.0x800107c8"
 .global D0x800107c8
 D0x800107c8:
 .L0x800107c8: .word 0x6e496443
@@ -670,6 +722,7 @@ D0x800107c8:
 .L0x800107e0: .word 0x00000000
 .L0x800107e4: .word 0x00000000
 
+.section "fns0_0.0x800107e8"
 .global D0x800107e8
 D0x800107e8:
 .L0x800107e8: .word 0x20414d44
@@ -681,58 +734,68 @@ D0x800107e8:
 .L0x80010800: .word 0x00000000
 .L0x80010804: .word 0x00000000
 
+.section "fns0_0.0x80010808"
 .global D0x80010808
 D0x80010808:
 .L0x80010808: .word 0x526c6443
 .L0x8001080c: .word 0x53646165
 .L0x80010810: .word 0x00000000
 
+.section "fns0_0.0x80010814"
 .global D0x80010814
 D0x80010814:
 .L0x80010814: .word 0x536c6443
 .L0x80010818: .word 0x506b6565
 .L0x8001081c: .word 0x00000000
 
+.section "fns0_0.0x80010820"
 .global D0x80010820
 D0x80010820:
 .L0x80010820: .word 0x536c6443
 .L0x80010824: .word 0x4c6b6565
 .L0x80010828: .word 0x00000000
 
+.section "fns0_0.0x8001082c"
 .global D0x8001082c
 D0x8001082c:
 .L0x8001082c: .word 0x476c6443
 .L0x80010830: .word 0x44547465
 .L0x80010834: .word 0x00000000
 
+.section "fns0_0.0x80010838"
 .global D0x80010838
 D0x80010838:
 .L0x80010838: .word 0x476c6443
 .L0x8001083c: .word 0x4e547465
 .L0x80010840: .word 0x00000000
 
+.section "fns0_0.0x80010844"
 .global D0x80010844
 D0x80010844:
 .L0x80010844: .word 0x476c6443
 .L0x80010848: .word 0x6f6c7465
 .L0x8001084c: .word 0x00005063
 
+.section "fns0_0.0x80010850"
 .global D0x80010850
 D0x80010850:
 .L0x80010850: .word 0x476c6443
 .L0x80010854: .word 0x6f6c7465
 .L0x80010858: .word 0x00004c63
 
+.section "fns0_0.0x8001085c"
 .global D0x8001085c
 D0x8001085c:
 .L0x8001085c: .word 0x0000003f
 
+.section "fns0_0.0x80010860"
 .global D0x80010860
 D0x80010860:
 .L0x80010860: .word 0x536c6443
 .L0x80010864: .word 0x6f6d7465
 .L0x80010868: .word 0x00006564
 
+.section "fns0_0.0x8001086c"
 .global D0x8001086c
 D0x8001086c:
 .L0x8001086c: .word 0x536c6443
@@ -740,113 +803,133 @@ D0x8001086c:
 .L0x80010874: .word 0x7265746c
 .L0x80010878: .word 0x00000000
 
+.section "fns0_0.0x8001087c"
 .global D0x8001087c
 D0x8001087c:
 .L0x8001087c: .word 0x446c6443
 .L0x80010880: .word 0x74756d65
 .L0x80010884: .word 0x00000065
 
+.section "fns0_0.0x80010888"
 .global D0x80010888
 D0x80010888:
 .L0x80010888: .word 0x4d6c6443
 .L0x8001088c: .word 0x00657475
 
+.section "fns0_0.0x80010890"
 .global D0x80010890
 D0x80010890:
 .L0x80010890: .word 0x526c6443
 .L0x80010894: .word 0x74657365
 .L0x80010898: .word 0x00000000
 
+.section "fns0_0.0x8001089c"
 .global D0x8001089c
 D0x8001089c:
 .L0x8001089c: .word 0x506c6443
 .L0x800108a0: .word 0x65737561
 .L0x800108a4: .word 0x00000000
 
+.section "fns0_0.0x800108a8"
 .global D0x800108a8
 D0x800108a8:
 .L0x800108a8: .word 0x536c6443
 .L0x800108ac: .word 0x00706f74
 
+.section "fns0_0.0x800108b0"
 .global D0x800108b0
 D0x800108b0:
 .L0x800108b0: .word 0x536c6443
 .L0x800108b4: .word 0x646e6174
 .L0x800108b8: .word 0x00007962
 
+.section "fns0_0.0x800108bc"
 .global D0x800108bc
 D0x800108bc:
 .L0x800108bc: .word 0x526c6443
 .L0x800108c0: .word 0x4e646165
 .L0x800108c4: .word 0x00000000
 
+.section "fns0_0.0x800108c8"
 .global D0x800108c8
 D0x800108c8:
 .L0x800108c8: .word 0x426c6443
 .L0x800108cc: .word 0x776b6361
 .L0x800108d0: .word 0x00647261
 
+.section "fns0_0.0x800108d4"
 .global D0x800108d4
 D0x800108d4:
 .L0x800108d4: .word 0x466c6443
 .L0x800108d8: .word 0x6177726f
 .L0x800108dc: .word 0x00006472
 
+.section "fns0_0.0x800108e0"
 .global D0x800108e0
 D0x800108e0:
 .L0x800108e0: .word 0x506c6443
 .L0x800108e4: .word 0x0079616c
 
+.section "fns0_0.0x800108e8"
 .global D0x800108e8
 D0x800108e8:
 .L0x800108e8: .word 0x536c6443
 .L0x800108ec: .word 0x6f6c7465
 .L0x800108f0: .word 0x00000063
 
+.section "fns0_0.0x800108f4"
 .global D0x800108f4
 D0x800108f4:
 .L0x800108f4: .word 0x4e6c6443
 .L0x800108f8: .word 0x0000706f
 
+.section "fns0_0.0x800108fc"
 .global D0x800108fc
 D0x800108fc:
 .L0x800108fc: .word 0x536c6443
 .L0x80010900: .word 0x00636e79
 
+.section "fns0_0.0x80010904"
 .global D0x80010904
 D0x80010904:
 .L0x80010904: .word 0x6b736944
 .L0x80010908: .word 0x6f727245
 .L0x8001090c: .word 0x00000072
 
+.section "fns0_0.0x80010910"
 .global D0x80010910
 D0x80010910:
 .L0x80010910: .word 0x61746144
 .L0x80010914: .word 0x00646e45
 
+.section "fns0_0.0x80010918"
 .global D0x80010918
 D0x80010918:
 .L0x80010918: .word 0x6e6b6341
 .L0x8001091c: .word 0x656c776f
 .L0x80010920: .word 0x00656764
 
+.section "fns0_0.0x80010924"
 .global D0x80010924
 D0x80010924:
 .L0x80010924: .word 0x706d6f43
 .L0x80010928: .word 0x6574656c
 .L0x8001092c: .word 0x00000000
 
+.section "fns0_0.0x80010930"
 .global D0x80010930
 D0x80010930:
 .L0x80010930: .word 0x61746144
 .L0x80010934: .word 0x64616552
 .L0x80010938: .word 0x00000079
 
+.section "fns0_0.0x8001093c"
 .global D0x8001093c
 D0x8001093c:
 .L0x8001093c: .word 0x6e496f4e
 .L0x80010940: .word 0x00007274
 
+.section "fns0_0.0x80010944"
 .global D0x80010944
 D0x80010944:
 .L0x80010944: .word 0x74204443
@@ -854,6 +937,7 @@ D0x80010944:
 .L0x8001094c: .word 0x203a7475
 .L0x80010950: .word 0x00000000
 
+.section "fns0_0.0x80010954"
 .global D0x80010954
 D0x80010954:
 .L0x80010954: .word 0x283a7325
@@ -864,12 +948,14 @@ D0x80010954:
 .L0x80010968: .word 0x253d7964
 .L0x8001096c: .word 0x00000a73
 
+.section "fns0_0.0x80010970"
 .global D0x80010970
 D0x80010970:
 .L0x80010970: .word 0x6b736944
 .L0x80010974: .word 0x6f727245
 .L0x80010978: .word 0x00203a72
 
+.section "fns0_0.0x8001097c"
 .global D0x8001097c
 D0x8001097c:
 .L0x8001097c: .word 0x3d6d6f63
@@ -880,6 +966,7 @@ D0x8001097c:
 .L0x80010990: .word 0x0a297832
 .L0x80010994: .word 0x00000000
 
+.section "fns0_0.0x80010998"
 .global D0x80010998
 D0x80010998:
 .L0x80010998: .word 0x4f524443
@@ -888,12 +975,14 @@ D0x80010998:
 .L0x800109a4: .word 0x69206e77
 .L0x800109a8: .word 0x0072746e
 
+.section "fns0_0.0x800109ac"
 .global D0x800109ac
 D0x800109ac:
 .L0x800109ac: .word 0x29642528
 .L0x800109b0: .word 0x0000000a
 .L0x800109b4: .word 0x00000000
 
+.section "fns0_0.0x800109b8"
 .global D0x800109b8
 D0x800109b8:
 .L0x800109b8: .word F0x8002cedc
@@ -902,22 +991,26 @@ D0x800109b8:
 .L0x800109c4: .word F0x8002cf5c
 .L0x800109c8: .word F0x8002cfdc
 
+.section "fns0_0.0x800109cc"
 .global D0x800109cc
 D0x800109cc:
 .L0x800109cc: .word 0x735f4443
 .L0x800109d0: .word 0x00636e79
 
+.section "fns0_0.0x800109d4"
 .global D0x800109d4
 D0x800109d4:
 .L0x800109d4: .word 0x725f4443
 .L0x800109d8: .word 0x79646165
 .L0x800109dc: .word 0x00000000
 
+.section "fns0_0.0x800109e0"
 .global D0x800109e0
 D0x800109e0:
 .L0x800109e0: .word 0x2e2e7325
 .L0x800109e4: .word 0x00000a2e
 
+.section "fns0_0.0x800109e8"
 .global D0x800109e8
 D0x800109e8:
 .L0x800109e8: .word 0x203a7325
@@ -925,11 +1018,13 @@ D0x800109e8:
 .L0x800109f0: .word 0x6d617261
 .L0x800109f4: .word 0x0000000a
 
+.section "fns0_0.0x800109f8"
 .global D0x800109f8
 D0x800109f8:
 .L0x800109f8: .word 0x635f4443
 .L0x800109fc: .word 0x00000077
 
+.section "fns0_0.0x80010a00"
 .global D0x80010a00
 D0x80010a00:
 .L0x80010a00: .word 0x3a644924
@@ -947,18 +1042,21 @@ D0x80010a00:
 .L0x80010a30: .word 0x6f792070
 .L0x80010a34: .word 0x00242073
 
+.section "fns0_0.0x80010a38"
 .global D0x80010a38
 D0x80010a38:
 .L0x80010a38: .word 0x695f4443
 .L0x80010a3c: .word 0x3a74696e
 .L0x80010a40: .word 0x00000000
 
+.section "fns0_0.0x80010a44"
 .global D0x80010a44
 D0x80010a44:
 .L0x80010a44: .word 0x72646461
 .L0x80010a48: .word 0x3830253d
 .L0x80010a4c: .word 0x00000a78
 
+.section "fns0_0.0x80010a50"
 .global D0x80010a50
 D0x80010a50:
 .L0x80010a50: .word 0x645f4443
@@ -968,6 +1066,7 @@ D0x80010a50:
 .L0x80010a60: .word 0x00000000
 .L0x80010a64: .word 0x00000000
 
+.section "fns0_0.0x80010a68"
 .global D0x80010a68
 D0x80010a68:
 .L0x80010a68: .word 0x4c554e3c
@@ -975,6 +1074,7 @@ D0x80010a68:
 .L0x80010a70: .word 0x00000000
 .L0x80010a74: .word 0x00000000
 
+.section "fns0_0.0x80010a78"
 .global D0x80010a78
 D0x80010a78:
 .L0x80010a78: .word 0x6e795356
@@ -982,6 +1082,7 @@ D0x80010a78:
 .L0x80010a80: .word 0x6f656d69
 .L0x80010a84: .word 0x000a7475
 
+.section "fns0_0.0x80010a88"
 .global D0x80010a88
 D0x80010a88:
 .L0x80010a88: .word 0x3a644924
@@ -998,6 +1099,7 @@ D0x80010a88:
 .L0x80010ab4: .word 0x7845206f
 .L0x80010ab8: .word 0x00242070
 
+.section "fns0_0.0x80010abc"
 .global D0x80010abc
 D0x80010abc:
 .L0x80010abc: .word 0x78656e75
@@ -1008,6 +1110,7 @@ D0x80010abc:
 .L0x80010ad0: .word 0x34302528
 .L0x80010ad4: .word 0x000a2978
 
+.section "fns0_0.0x80010ad8"
 .global D0x80010ad8
 D0x80010ad8:
 .L0x80010ad8: .word 0x72746e69
@@ -1019,6 +1122,7 @@ D0x80010ad8:
 .L0x80010af0: .word 0x00000000
 .L0x80010af4: .word 0x00000000
 
+.section "fns0_0.0x80010af8"
 .global D0x80010af8
 D0x80010af8:
 .L0x80010af8: .word 0x20414d44
@@ -1029,6 +1133,7 @@ D0x80010af8:
 .L0x80010b0c: .word 0x78383025
 .L0x80010b10: .word 0x0000000a
 
+.section "fns0_0.0x80010b14"
 .global D0x80010b14
 D0x80010b14:
 .L0x80010b14: .word 0x5244414d
@@ -1037,6 +1142,7 @@ D0x80010b14:
 .L0x80010b20: .word 0x00000a78
 .L0x80010b24: .word 0x00000000
 
+.section "fns0_0.0x80010b28"
 .global D0x80010b28
 D0x80010b28:
 .L0x80010b28: .word 0x276e6143
@@ -1052,6 +1158,7 @@ D0x80010b28:
 .L0x80010b50: .word 0x00000000
 .L0x80010b54: .word 0x00000000
 
+.section "fns0_0.0x80010b58"
 .global D0x80010b58
 D0x80010b58:
 .L0x80010b58: .word 0x73696854
@@ -1063,6 +1170,7 @@ D0x80010b58:
 .L0x80010b70: .word 0x00000000
 .L0x80010b74: .word 0x00000000
 
+.section "fns0_0.0x80010b78"
 .global D0x80010b78
 D0x80010b78:
 .L0x80010b78: .word F0x80033a1c
@@ -1074,6 +1182,7 @@ D0x80010b78:
 .L0x80010b90: .word 0x00000000
 .L0x80010b94: .word 0x00000000
 
+.section "fns0_0.0x80010b98"
 .global D0x80010b98
 D0x80010b98:
 .L0x80010b98: .word 0x3a555053
@@ -1081,6 +1190,7 @@ D0x80010b98:
 .L0x80010ba0: .word 0x5d73255b
 .L0x80010ba4: .word 0x0000000a
 
+.section "fns0_0.0x80010ba8"
 .global D0x80010ba8
 D0x80010ba8:
 .L0x80010ba8: .word 0x74696177
@@ -1088,6 +1198,7 @@ D0x80010ba8:
 .L0x80010bb0: .word 0x29746573
 .L0x80010bb4: .word 0x00000000
 
+.section "fns0_0.0x80010bb8"
 .global D0x80010bb8
 D0x80010bb8:
 .L0x80010bb8: .word 0x74696177
@@ -1096,6 +1207,7 @@ D0x80010bb8:
 .L0x80010bc4: .word 0x203e2d20
 .L0x80010bc8: .word 0x0000294c
 
+.section "fns0_0.0x80010bcc"
 .global D0x80010bcc
 D0x80010bcc:
 .L0x80010bcc: .word 0x74696177
@@ -1106,6 +1218,7 @@ D0x80010bcc:
 .L0x80010be0: .word 0x00000000
 .L0x80010be4: .word 0x00000000
 
+.section "fns0_0.0x80010be8"
 .global D0x80010be8
 D0x80010be8:
 .L0x80010be8: .word F0x8003ab08
@@ -1117,10 +1230,12 @@ D0x80010be8:
 .L0x80010c00: .word F0x8003ab38
 .L0x80010c04: .half 0x0000
 
+.section "fns0_0.0x80010c06"
 .global D0x80010c06
 D0x80010c06:
 .L0x80010c06: .half 0x0000
 
+.section "fns0_0.0x80010c08"
 .global D0x80010c08
 D0x80010c08:
 .L0x80010c08: .word F0x8003abe8
@@ -1132,6 +1247,7 @@ D0x80010c08:
 .L0x80010c20: .word F0x8003ac18
 .L0x80010c24: .word 0x00000000
 
+.section "fns0_0.0x80010c28"
 .global D0x80010c28
 D0x80010c28:
 .L0x80010c28: .word F0x8003b27c
@@ -1143,6 +1259,7 @@ D0x80010c28:
 .L0x80010c40: .word F0x8003b26c
 .L0x80010c44: .word F0x8003b274
 
+.section "fns0_0.0x80010c48"
 .global D0x80010c48
 D0x80010c48:
 .L0x80010c48: .word F0x8003b33c
@@ -1154,6 +1271,7 @@ D0x80010c48:
 .L0x80010c60: .word F0x8003b32c
 .L0x80010c64: .word F0x8003b334
 
+.section "fns0_0.0x80010c68"
 .global D0x80010c68
 D0x80010c68:
 .L0x80010c68: .word 0x65636341
@@ -1167,11 +1285,13 @@ D0x80010c68:
 .L0x80010c88: .word 0x6e65706f
 .L0x80010c8c: .word 0x0000000a
 
+.section "fns0_0.0x80010c90"
 .global D0x80010c90
 D0x80010c90:
 .L0x80010c90: .word 0x6f727265
 .L0x80010c94: .word 0x00000072
 
+.section "fns0_0.0x80010c98"
 .global D0x80010c98
 D0x80010c98:
 .L0x80010c98: .word F0x8003c2a4
@@ -1226,6 +1346,7 @@ D0x80010c98:
 .L0x80010d5c: .word F0x8003c4f4
 .L0x80010d60: .word F0x8003c4ac
 
+.section "fns0_0.0x80010d64"
 .global D0x80010d64
 D0x80010d64:
 .L0x80010d64: .word 0x65636341
@@ -1239,6 +1360,7 @@ D0x80010d64:
 .L0x80010d84: .word 0x0a2e6e65
 .L0x80010d88: .word 0x00000000
 
+.section "fns0_0.0x80010d8c"
 .global D0x80010d8c
 D0x80010d8c:
 .L0x80010d8c: .word 0x65636341
@@ -1251,6 +1373,7 @@ D0x80010d8c:
 .L0x80010da8: .word 0x0a2e6e65
 .L0x80010dac: .word 0x00000000
 
+.section "fns0_0.0x80010db0"
 .global D0x80010db0
 D0x80010db0:
 .L0x80010db0: .word 0x65636341
@@ -1265,6 +1388,7 @@ D0x80010db0:
 .L0x80010dd4: .word 0x6e67696c
 .L0x80010dd8: .word 0x0000000a
 
+.section "fns0_0.0x80010ddc"
 .global D0x80010ddc
 D0x80010ddc:
 .L0x80010ddc: .word 0x65636341
@@ -1280,6 +1404,7 @@ D0x80010ddc:
 .L0x80010e04: .word 0x0a6e6769
 .L0x80010e08: .word 0x00000000
 
+.section "fns0_0.0x80010e0c"
 .global D0x80010e0c
 D0x80010e0c:
 .L0x80010e0c: .word 0x65636341
@@ -1291,12 +1416,14 @@ D0x80010e0c:
 .L0x80010e24: .word 0x79737562
 .L0x80010e28: .word 0x0000000a
 
+.section "fns0_0.0x80010e2c"
 .global D0x80010e2c
 D0x80010e2c:
 .L0x80010e2c: .word 0x30307562
 .L0x80010e30: .word 0x0000003a
 .L0x80010e34: .word 0x00000000
 
+.section "fns0_0.0x80010e38"
 .global D0x80010e38
 D0x80010e38:
 .L0x80010e38: .word 0x6d62696c
@@ -1308,6 +1435,7 @@ D0x80010e38:
 .L0x80010e50: .word 0x00000000
 .L0x80010e54: .word 0x00000000
 
+.section "fns0_0.0x80010e58"
 .global D0x80010e58
 D0x80010e58:
 .L0x80010e58: .word 0x5d73255b
@@ -1315,6 +1443,7 @@ D0x80010e58:
 .L0x80010e60: .word 0x00000a5d
 .L0x80010e64: .word 0x00000000
 
+.section "fns0_0.0x80010e68"
 .global D0x80010e68
 D0x80010e68:
 .L0x80010e68: .word 0x65636341
@@ -1326,13 +1455,13 @@ D0x80010e68:
 .L0x80010e80: .word 0x79737562
 .L0x80010e84: .word 0x0000000a
 
+.section "fns0_0.0x80010e88"
 .global F0x80010e88
 F0x80010e88:
 .L0x80010e88: jr $ra
 .L0x80010e8c: nop
 
-.section "fns0_1"
-
+.section "fns0_1.0x80010fe0"
 .global F0x80010fe0
 F0x80010fe0:
 .L0x80010fe0: move_ $a1, $a0
@@ -1363,6 +1492,7 @@ F0x80010fe0:
 .L0x80011044: jr $ra
 .L0x80011048: nop
 
+.section "fns0_1.0x8001104c"
 .global F0x8001104c
 F0x8001104c:
 .L0x8001104c: addiu $sp, -0x20
@@ -1403,6 +1533,7 @@ F0x8001104c:
 .L0x800110d8: jr $ra
 .L0x800110dc: addiu $sp, 0x20
 
+.section "fns0_1.0x800110e0"
 .global F0x800110e0
 F0x800110e0:
 .L0x800110e0: addiu $sp, -0x28
@@ -1426,6 +1557,7 @@ F0x800110e0:
 .L0x8001112c: jr $v0
 .L0x80011130: nop
 
+.section "fns0_1.0x80011134"
 .global F0x80011134
 F0x80011134:
 .L0x80011134: addiu $a0, $s1, 0x6c
@@ -1435,6 +1567,7 @@ F0x80011134:
 .L0x80011144: j .L0x80011984
 .L0x80011148: addiu $v0, 0x1
 
+.section "fns0_1.0x8001114c"
 .global F0x8001114c
 F0x8001114c:
 .L0x8001114c: jal F0x80010fe0
@@ -1490,6 +1623,7 @@ F0x8001114c:
 .L0x8001121c: j .L0x80011984
 .L0x80011220: addiu $v0, 0x1
 
+.section "fns0_1.0x80011224"
 .global F0x80011224
 F0x80011224:
 .L0x80011224: jal F0x80010fe0
@@ -1552,6 +1686,7 @@ F0x80011224:
 .L0x80011310: j .L0x80011984
 .L0x80011314: addiu $v0, 0x1
 
+.section "fns0_1.0x80011318"
 .global F0x80011318
 F0x80011318:
 .L0x80011318: lui $v0, %hi(D0x8004b7d0)
@@ -1702,6 +1837,7 @@ F0x80011318:
 .L0x8001155c: j .L0x80011984
 .L0x80011560: li $v0, 0xa
 
+.section "fns0_1.0x80011564"
 .global F0x80011564
 F0x80011564:
 .L0x80011564: addiu $a0, $s1, 0x7c
@@ -1735,6 +1871,7 @@ F0x80011564:
 .L0x800115d4: j .L0x80011984
 .L0x800115d8: addiu $v0, 0x1
 
+.section "fns0_1.0x800115dc"
 .global F0x800115dc
 F0x800115dc:
 .L0x800115dc: jal F0x80010fe0
@@ -1774,6 +1911,7 @@ F0x800115dc:
 .L0x80011664: j .L0x80011984
 .L0x80011668: addiu $v0, 0x1
 
+.section "fns0_1.0x8001166c"
 .global F0x8001166c
 F0x8001166c:
 .L0x8001166c: jal F0x80010fe0
@@ -1783,6 +1921,7 @@ F0x8001166c:
 .L0x8001167c: j .L0x80011988
 .L0x80011680: sw $v0, 0xc($s1)
 
+.section "fns0_1.0x80011684"
 .global F0x80011684
 F0x80011684:
 .L0x80011684: la_ $s0, D0x800519ec
@@ -1814,6 +1953,7 @@ F0x80011684:
 .L0x800116f0: j .L0x80011984
 .L0x800116f4: addiu $v0, 0x1
 
+.section "fns0_1.0x800116f8"
 .global F0x800116f8
 F0x800116f8:
 .L0x800116f8: lw $v0, ($s3)
@@ -1885,6 +2025,7 @@ F0x800116f8:
 .L0x80011804: j .L0x80011984
 .L0x80011808: addiu $v0, 0x1
 
+.section "fns0_1.0x8001180c"
 .global F0x8001180c
 F0x8001180c:
 .L0x8001180c: lui $v0, %hi(D0x8004de10 + 0x62 * 0x4)
@@ -1908,6 +2049,7 @@ F0x8001180c:
 .L0x80011854: j .L0x80011984
 .L0x80011858: addiu $v0, 0x1
 
+.section "fns0_1.0x8001185c"
 .global F0x8001185c
 F0x8001185c:
 .L0x8001185c: lw $v0, ($s3)
@@ -1925,6 +2067,7 @@ F0x8001185c:
 .L0x8001188c: j .L0x80011988
 .L0x80011890: sw $v0, 0xc($s1)
 
+.section "fns0_1.0x80011894"
 .global F0x80011894
 F0x80011894:
 .L0x80011894: jal F0x80010fe0
@@ -1948,6 +2091,7 @@ F0x80011894:
 .L0x800118dc: j .L0x80011984
 .L0x800118e0: addiu $v0, 0x1
 
+.section "fns0_1.0x800118e4"
 .global F0x800118e4
 F0x800118e4:
 .L0x800118e4: la_ $s0, D0x8004b7d0
@@ -1983,6 +2127,7 @@ F0x800118e4:
 .L0x80011960: j .L0x80011984
 .L0x80011964: addiu $v0, 0x1
 
+.section "fns0_1.0x80011968"
 .global F0x80011968
 F0x80011968:
 .L0x80011968: jal F0x80010fe0
@@ -2002,6 +2147,7 @@ F0x80011968:
 .L0x800119a0: jr $ra
 .L0x800119a4: addiu $sp, 0x28
 
+.section "fns0_1.0x800119a8"
 .global F0x800119a8
 F0x800119a8:
 .L0x800119a8: addiu $sp, -0xc8
@@ -2262,6 +2408,7 @@ F0x800119a8:
 .L0x80011da4: jr $ra
 .L0x80011da8: addiu $sp, 0xc8
 
+.section "fns0_1.0x80011dac"
 .global F0x80011dac
 F0x80011dac:
 .L0x80011dac: addiu $sp, -0x18
@@ -2280,6 +2427,7 @@ F0x80011dac:
 .L0x80011de4: jr $ra
 .L0x80011de8: addiu $sp, 0x18
 
+.section "fns0_1.0x80011dec"
 .global F0x80011dec
 F0x80011dec:
 .L0x80011dec: addiu $sp, -0x20
@@ -2317,6 +2465,7 @@ F0x80011dec:
 .L0x80011e6c: jr $ra
 .L0x80011e70: addiu $sp, 0x20
 
+.section "fns0_1.0x80011e74"
 .global F0x80011e74
 F0x80011e74:
 .L0x80011e74: addiu $sp, -0x20
@@ -2400,6 +2549,7 @@ F0x80011e74:
 .L0x80011fb0: jr $ra
 .L0x80011fb4: addiu $sp, 0x20
 
+.section "fns0_1.0x80011fb8"
 .global F0x80011fb8
 F0x80011fb8:
 .L0x80011fb8: addiu $sp, -0x18
@@ -2448,6 +2598,7 @@ F0x80011fb8:
 .L0x80012064: jr $ra
 .L0x80012068: addiu $sp, 0x18
 
+.section "fns0_1.0x8001206c"
 .global F0x8001206c
 F0x8001206c:
 .L0x8001206c: addiu $sp, -0x18
@@ -2467,6 +2618,7 @@ F0x8001206c:
 .L0x800120ac: jr $ra
 .L0x800120b0: addiu $sp, 0x18
 
+.section "fns0_1.0x800120b4"
 .global F0x800120b4
 F0x800120b4:
 .L0x800120b4: addiu $sp, -0x18
@@ -2507,6 +2659,7 @@ F0x800120b4:
 .L0x80012140: jr $ra
 .L0x80012144: addiu $sp, 0x18
 
+.section "fns0_1.0x80012148"
 .global F0x80012148
 F0x80012148:
 .L0x80012148: move_ $a1, $a0
@@ -2537,6 +2690,7 @@ F0x80012148:
 .L0x800121ac: jr $ra
 .L0x800121b0: nop
 
+.section "fns0_1.0x800121b4"
 .global F0x800121b4
 F0x800121b4:
 .L0x800121b4: addiu $sp, -0x38
@@ -2677,6 +2831,7 @@ F0x800121b4:
 .L0x800123d8: jr $ra
 .L0x800123dc: addiu $sp, 0x38
 
+.section "fns0_1.0x800123e0"
 .global F0x800123e0
 F0x800123e0:
 .L0x800123e0: addiu $sp, -0x60
@@ -2856,6 +3011,7 @@ F0x800123e0:
 .L0x800126a0: jr $ra
 .L0x800126a4: addiu $sp, 0x60
 
+.section "fns0_1.0x800126a8"
 .global F0x800126a8
 F0x800126a8:
 .L0x800126a8: addiu $sp, -0x18
@@ -2884,6 +3040,7 @@ F0x800126a8:
 .L0x80012704: jr $ra
 .L0x80012708: addiu $sp, 0x18
 
+.section "fns0_1.0x8001270c"
 .global F0x8001270c
 F0x8001270c:
 .L0x8001270c: addiu $sp, -0x170
@@ -2961,6 +3118,7 @@ F0x8001270c:
 .L0x80012830: jr $v0
 .L0x80012834: nop
 
+.section "fns0_1.0x80012838"
 .global F0x80012838
 F0x80012838:
 .L0x80012838: jal F0x80012148
@@ -2990,6 +3148,7 @@ F0x80012838:
 .L0x80012898: j .L0x80012e40
 .L0x8001289c: ori $a0, 0x19
 
+.section "fns0_1.0x800128a0"
 .global F0x800128a0
 F0x800128a0:
 .L0x800128a0: jal F0x80012148
@@ -3056,6 +3215,7 @@ F0x800128a0:
 .L0x80012994: j .L0x80012e48
 .L0x80012998: nop
 
+.section "fns0_1.0x8001299c"
 .global F0x8001299c
 F0x8001299c:
 .L0x8001299c: jal F0x80012148
@@ -3101,6 +3261,7 @@ F0x8001299c:
 .L0x80012a3c: j .L0x80012e48
 .L0x80012a40: nop
 
+.section "fns0_1.0x80012a44"
 .global F0x80012a44
 F0x80012a44:
 .L0x80012a44: lui $v0, %hi(D0x80048da0)
@@ -3310,6 +3471,7 @@ F0x80012a44:
 .L0x80012d74: j .L0x80012e48
 .L0x80012d78: nop
 
+.section "fns0_1.0x80012d7c"
 .global F0x80012d7c
 F0x80012d7c:
 .L0x80012d7c: jal F0x80012148
@@ -3344,6 +3506,7 @@ F0x80012d7c:
 .L0x80012df0: j .L0x80012e38
 .L0x80012df4: lui $v0, %hi(D0x80055c48)
 
+.section "fns0_1.0x80012df8"
 .global F0x80012df8
 F0x80012df8:
 .L0x80012df8: jal F0x80012148
@@ -3372,6 +3535,7 @@ F0x80012df8:
 .L0x80012e54: j .L0x80012ec0
 .L0x80012e58: sw $v0, 0x10($s1)
 
+.section "fns0_1.0x80012e5c"
 .global F0x80012e5c
 F0x80012e5c:
 .L0x80012e5c: jal F0x80012148
@@ -3599,6 +3763,7 @@ F0x80012e5c:
 .L0x800131d8: jalr $v0
 .L0x800131dc: li $a1, 0x2
 
+.section "fns0_1.0x800131e0"
 .global F0x800131e0
 F0x800131e0:
 .L0x800131e0: lui $v0, %hi(D0x8004de10)
@@ -3632,6 +3797,7 @@ F0x800131e0:
 .L0x80013250: j F0x80013350
 .L0x80013254: sw $zr, 0x68($s1)
 
+.section "fns0_1.0x80013258"
 .global F0x80013258
 F0x80013258:
 .L0x80013258: lui $v0, %hi(D0x8004de10)
@@ -3669,6 +3835,7 @@ F0x80013258:
 .L0x800132d8: j F0x80013350
 .L0x800132dc: sw $v0, 0x68($s1)
 
+.section "fns0_1.0x800132e0"
 .global F0x800132e0
 F0x800132e0:
 .L0x800132e0: lui $v0, %hi(D0x80048d34)
@@ -3700,6 +3867,7 @@ F0x800132e0:
 .L0x80013348: addiu $v0, 0x1
 .L0x8001334c: sw $v0, 0x10($s1)
 
+.section "fns0_1.0x80013350"
 .global F0x80013350
 F0x80013350:
 .L0x80013350: jal F0x8001f648
@@ -3770,9 +3938,7 @@ F0x80013350:
 .L0x80013454: jr $ra
 .L0x80013458: addiu $sp, 0x170
 
-.section "fns1_0"
-
-
+.section "fns1_0.0x80013780"
 .global F0x80013780
 F0x80013780:
 .L0x80013780: addiu $sp, -0x20
@@ -3850,6 +4016,7 @@ F0x80013780:
 .L0x800138a0: jr $ra
 .L0x800138a4: addiu $sp, 0x20
 
+.section "fns1_0.0x800138a8"
 .global F0x800138a8
 F0x800138a8:
 .L0x800138a8: lui $v0, %hi(D0x80044b04)
@@ -3857,6 +4024,7 @@ F0x800138a8:
 .L0x800138b0: jr $ra
 .L0x800138b4: sltu $v0, $zr, $v0
 
+.section "fns1_0.0x800138b8"
 .global F0x800138b8
 F0x800138b8:
 .L0x800138b8: addiu $sp, -0x18
@@ -3882,6 +4050,7 @@ F0x800138b8:
 .L0x8001390c: jr $ra
 .L0x80013910: addiu $sp, 0x18
 
+.section "fns1_0.0x80013914"
 .global F0x80013914
 F0x80013914:
 .L0x80013914: addiu $sp, -0x30
@@ -3941,6 +4110,7 @@ F0x80013914:
 .L0x800139f4: jr $ra
 .L0x800139f8: addiu $sp, 0x30
 
+.section "fns1_0.0x800139fc"
 .global F0x800139fc
 F0x800139fc:
 .L0x800139fc: lui $v0, %hi(D0x80044b3c)
@@ -3958,6 +4128,7 @@ F0x800139fc:
 .L0x80013a2c: jr $ra
 .L0x80013a30: move_ $v0, $zr
 
+.section "fns1_0.0x80013a34"
 .global F0x80013a34
 F0x80013a34:
 .L0x80013a34: lui $v0, %hi(D0x80044b3c)
@@ -3975,6 +4146,7 @@ F0x80013a34:
 .L0x80013a64: jr $ra
 .L0x80013a68: move_ $v0, $zr
 
+.section "fns1_0.0x80013a6c"
 .global F0x80013a6c
 F0x80013a6c:
 .L0x80013a6c: addiu $sp, -0x20
@@ -4006,6 +4178,7 @@ F0x80013a6c:
 .L0x80013ad4: jr $ra
 .L0x80013ad8: addiu $sp, 0x20
 
+.section "fns1_0.0x80013adc"
 .global F0x80013adc
 F0x80013adc:
 .L0x80013adc: lui $v0, %hi(D0x8004de10 + 0x62 * 0x4)
@@ -4075,6 +4248,7 @@ F0x80013adc:
 .L0x80013bdc: jr $ra
 .L0x80013be0: addiu $sp, 0x30
 
+.section "fns1_0.0x80013be4"
 .global F0x80013be4
 F0x80013be4:
 .L0x80013be4: addiu $sp, -0x18
@@ -4097,6 +4271,7 @@ F0x80013be4:
 .L0x80013c28: jr $ra
 .L0x80013c2c: addiu $sp, 0x18
 
+.section "fns1_0.0x80013c30"
 .global F0x80013c30
 F0x80013c30:
 .L0x80013c30: addiu $sp, -0x20
@@ -4143,6 +4318,7 @@ F0x80013c30:
 .L0x80013cd4: jr $ra
 .L0x80013cd8: addiu $sp, 0x20
 
+.section "fns1_0.0x80013cdc"
 .global F0x80013cdc
 F0x80013cdc:
 .L0x80013cdc: lui $v0, %hi(D0x80044b38)
@@ -4227,6 +4403,7 @@ F0x80013cdc:
 .L0x80013e18: jr $ra
 .L0x80013e1c: addiu $sp, 0x40
 
+.section "fns1_0.0x80013e20"
 .global F0x80013e20
 F0x80013e20:
 .L0x80013e20: addiu $sp, -0x18
@@ -4245,6 +4422,7 @@ F0x80013e20:
 .L0x80013e54: jr $ra
 .L0x80013e58: addiu $sp, 0x18
 
+.section "fns1_0.0x80013e5c"
 .global F0x80013e5c
 F0x80013e5c:
 .L0x80013e5c: addiu $sp, -0x20
@@ -4288,6 +4466,7 @@ F0x80013e5c:
 .L0x80013ef4: jr $ra
 .L0x80013ef8: addiu $sp, 0x20
 
+.section "fns1_0.0x80013efc"
 .global F0x80013efc
 F0x80013efc:
 .L0x80013efc: addiu $sp, -0x18
@@ -4316,6 +4495,7 @@ F0x80013efc:
 .L0x80013f58: jr $ra
 .L0x80013f5c: addiu $sp, 0x18
 
+.section "fns1_0.0x80013f60"
 .global F0x80013f60
 F0x80013f60:
 .L0x80013f60: addiu $sp, -0x28
@@ -4356,6 +4536,7 @@ F0x80013f60:
 .L0x80013fec: jr $ra
 .L0x80013ff0: addiu $sp, 0x28
 
+.section "fns1_0.0x80013ff4"
 .global F0x80013ff4
 F0x80013ff4:
 .L0x80013ff4: addiu $sp, -0x30
@@ -4416,6 +4597,7 @@ F0x80013ff4:
 .L0x800140d0: jr $ra
 .L0x800140d4: addiu $sp, 0x30
 
+.section "fns1_0.0x800140d8"
 .global F0x800140d8
 F0x800140d8:
 .L0x800140d8: addiu $sp, -0x18
@@ -4433,6 +4615,7 @@ F0x800140d8:
 .L0x80014108: jr $ra
 .L0x8001410c: addiu $sp, 0x18
 
+.section "fns1_0.0x80014110"
 .global F0x80014110
 F0x80014110:
 .L0x80014110: andi $a0, 0xffff
@@ -4442,6 +4625,7 @@ F0x80014110:
 .L0x80014120: jr $ra
 .L0x80014124: addu $v0, $a1
 
+.section "fns1_0.0x80014128"
 .global F0x80014128
 F0x80014128:
 .L0x80014128: move_ $a0, $zr
@@ -4462,6 +4646,7 @@ F0x80014128:
 .L0x80014168: jr $ra
 .L0x8001416c: nop
 
+.section "fns1_0.0x80014170"
 .global F0x80014170
 F0x80014170:
 .L0x80014170: addiu $sp, -0x18
@@ -4496,6 +4681,7 @@ F0x80014170:
 
 # Returns if the `idx`th LBA offset is null.
 # `fn F0x800141e4(idx: u32) -> bool`
+.section "fns1_0.0x800141e4"
 .global F0x800141e4
 F0x800141e4:
 .L0x800141e4: la_ $v0, LBA_OFFSETS
@@ -4507,6 +4693,7 @@ F0x800141e4:
 
 # Returns the LBA sector size of the `idx`th file.
 # `fn F0x80014200(idx: u32) -> u32`
+.section "fns1_0.0x80014200"
 .global F0x80014200
 F0x80014200:
 .L0x80014200: la_ $v0, LBA_LEN_SECTORS
@@ -4518,6 +4705,7 @@ F0x80014200:
 
 # Returns the LBA offset of the `idx`th file.
 # `fn F0x8001421c(idx: u32) -> u32`
+.section "fns1_0.0x8001421c"
 .global F0x8001421c
 F0x8001421c:
 .L0x8001421c: la_ $v0, LBA_OFFSETS
@@ -4529,6 +4717,7 @@ F0x8001421c:
 
 # Calls `f16(LBA_OFFSETS[idx] + offset, arg2)`
 # `fn F0x8001421c(idx: u32, offset: u32, arg2: *mut u8)`
+.section "fns1_0.0x80014238"
 .global F0x80014238
 F0x80014238:
 .L0x80014238: addiu $sp, -0x18
@@ -4546,6 +4735,7 @@ F0x80014238:
 .L0x8001426c: jr $ra
 .L0x80014270: addiu $sp, 0x18
 
+.section "fns1_0.0x80014274"
 .global F0x80014274
 F0x80014274:
 .L0x80014274: sw $a1, 0xc($a0)
@@ -4554,6 +4744,7 @@ F0x80014274:
 .L0x80014280: jr $ra
 .L0x80014284: sw $zr, 0x18($a0)
 
+.section "fns1_0.0x80014288"
 .global F0x80014288
 F0x80014288:
 .L0x80014288: sw $a1, 0x10($a0)
@@ -4561,17 +4752,20 @@ F0x80014288:
 .L0x80014290: jr $ra
 .L0x80014294: sw $zr, 0x18($a0)
 
+.section "fns1_0.0x80014298"
 .global F0x80014298
 F0x80014298:
 .L0x80014298: sw $a1, 0x14($a0)
 .L0x8001429c: jr $ra
 .L0x800142a0: sw $zr, 0x18($a0)
 
+.section "fns1_0.0x800142a4"
 .global F0x800142a4
 F0x800142a4:
 .L0x800142a4: jr $ra
 .L0x800142a8: sw $a1, 0x18($a0)
 
+.section "fns1_0.0x800142ac"
 .global F0x800142ac
 F0x800142ac:
 .L0x800142ac: lw $v0, 0xc($a0)
@@ -4582,6 +4776,7 @@ F0x800142ac:
 .L0x800142c0: jr $ra
 .L0x800142c4: sw $v0, 0xc($a0)
 
+.section "fns1_0.0x800142c8"
 .global F0x800142c8
 F0x800142c8:
 .L0x800142c8: lw $v0, 0x10($a0)
@@ -4591,6 +4786,7 @@ F0x800142c8:
 .L0x800142d8: jr $ra
 .L0x800142dc: sw $v0, 0x10($a0)
 
+.section "fns1_0.0x800142e0"
 .global F0x800142e0
 F0x800142e0:
 .L0x800142e0: lw $v0, 0x14($a0)
@@ -4599,6 +4795,7 @@ F0x800142e0:
 .L0x800142ec: jr $ra
 .L0x800142f0: sw $v0, 0x14($a0)
 
+.section "fns1_0.0x800142f4"
 .global F0x800142f4
 F0x800142f4:
 .L0x800142f4: lw $v0, 0x18($a0)
@@ -4607,6 +4804,7 @@ F0x800142f4:
 .L0x80014300: jr $ra
 .L0x80014304: sw $v0, 0x18($a0)
 
+.section "fns1_0.0x80014308"
 .global F0x80014308
 F0x80014308:
 .L0x80014308: addiu $sp, -0x28
@@ -4663,6 +4861,7 @@ F0x80014308:
 .L0x800143d4: jr $ra
 .L0x800143d8: addiu $sp, 0x28
 
+.section "fns1_0.0x800143dc"
 .global F0x800143dc
 F0x800143dc:
 .L0x800143dc: addiu $sp, -0x28
@@ -4731,6 +4930,7 @@ F0x800143dc:
 .L0x800144fc: jr $ra
 .L0x80014500: addiu $sp, 0x28
 
+.section "fns1_0.0x80014504"
 .global F0x80014504
 F0x80014504:
 .L0x80014504: addiu $sp, -0x18
@@ -4742,9 +4942,8 @@ F0x80014504:
 .L0x8001451c: jr $ra
 .L0x80014520: addiu $sp, 0x18
 
-.section "fns1_1"
 
-
+.section "fns1_1.0x80014854"
 .global F0x80014854
 F0x80014854:
 .L0x80014854: addiu $sp, -0x18
@@ -4774,6 +4973,7 @@ F0x80014854:
 .L0x800148b8: jr $ra
 .L0x800148bc: addiu $sp, 0x18
 
+.section "fns1_1.0x800148c0"
 .global F0x800148c0
 F0x800148c0:
 .L0x800148c0: lui $v1, %hi(D0x8005cca8)
@@ -4789,6 +4989,7 @@ F0x800148c0:
 .L0x800148ec: jr $v0
 .L0x800148f0: nop
 
+.section "fns1_1.0x800148f4"
 .global F0x800148f4
 F0x800148f4:
 .L0x800148f4: lui $v1, %hi(D0x8004875c)
@@ -4796,6 +4997,7 @@ F0x800148f4:
 .L0x80014900: jr $ra
 .L0x80014904: sw $v0, %lo(D0x8004875c)($v1)
 
+.section "fns1_1.0x80014908"
 .global F0x80014908
 F0x80014908:
 .L0x80014908: lui $v1, %hi(D0x8004875c)
@@ -4803,6 +5005,7 @@ F0x80014908:
 .L0x80014914: jr $ra
 .L0x80014918: sw $v0, %lo(D0x8004875c)($v1)
 
+.section "fns1_1.0x8001491c"
 .global F0x8001491c
 F0x8001491c:
 .L0x8001491c: lui $v1, %hi(D0x8004875c)
@@ -4810,6 +5013,7 @@ F0x8001491c:
 .L0x80014928: jr $ra
 .L0x8001492c: sw $v0, %lo(D0x8004875c)($v1)
 
+.section "fns1_1.0x80014930"
 .global F0x80014930
 F0x80014930:
 .L0x80014930: addiu $sp, -0x28
@@ -4907,6 +5111,7 @@ F0x80014930:
 .L0x80014aa0: jr $ra
 .L0x80014aa4: addiu $sp, 0x28
 
+.section "fns1_1.0x80014aa8"
 .global F0x80014aa8
 F0x80014aa8:
 .L0x80014aa8: addiu $sp, -0x20
@@ -4949,6 +5154,7 @@ F0x80014aa8:
 .L0x80014b3c: jr $ra
 .L0x80014b40: addiu $sp, 0x20
 
+.section "fns1_1.0x80014b44"
 .global F0x80014b44
 F0x80014b44:
 .L0x80014b44: addiu $sp, -0x20
@@ -5008,6 +5214,7 @@ F0x80014b44:
 .L0x80014c1c: jr $ra
 .L0x80014c20: addiu $sp, 0x20
 
+.section "fns1_1.0x80014c24"
 .global F0x80014c24
 F0x80014c24:
 .L0x80014c24: addiu $sp, -0x20
@@ -5067,6 +5274,7 @@ F0x80014c24:
 .L0x80014cfc: jr $ra
 .L0x80014d00: addiu $sp, 0x20
 
+.section "fns1_1.0x80014d04"
 .global F0x80014d04
 F0x80014d04:
 .L0x80014d04: addiu $sp, -0x38
@@ -5118,12 +5326,14 @@ F0x80014d04:
 .L0x80014dc0: jr $v0
 .L0x80014dc4: nop
 
+.section "fns1_1.0x80014dc8"
 .global F0x80014dc8
 F0x80014dc8:
 .L0x80014dc8: lui $v0, %hi(D0x80048a54)
 .L0x80014dcc: j .L0x80014e70
 .L0x80014dd0: sw $zr, %lo(D0x80048a54)($v0)
 
+.section "fns1_1.0x80014dd4"
 .global F0x80014dd4
 F0x80014dd4:
 .L0x80014dd4: la_ $v1, D0x80048750
@@ -5134,6 +5344,7 @@ F0x80014dd4:
 .L0x80014dec: j .L0x80014e70
 .L0x80014df0: sw $v0, 0x304($v1)
 
+.section "fns1_1.0x80014df4"
 .global F0x80014df4
 F0x80014df4:
 .L0x80014df4: la_ $a0, D0x80048750
@@ -5145,6 +5356,7 @@ F0x80014df4:
 .L0x80014e10: j .L0x80014e70
 .L0x80014e14: sw $v1, 0x304($a0)
 
+.section "fns1_1.0x80014e18"
 .global F0x80014e18
 F0x80014e18:
 .L0x80014e18: la_ $a0, D0x80048750
@@ -5158,6 +5370,7 @@ F0x80014e18:
 .L0x80014e3c: j .L0x80014e70
 .L0x80014e40: sw $v0, 0x304($a0)
 
+.section "fns1_1.0x80014e44"
 .global F0x80014e44
 F0x80014e44:
 .L0x80014e44: la_ $a1, D0x80048750
@@ -5256,6 +5469,7 @@ F0x80014e44:
 .L0x80014fbc: jr $ra
 .L0x80014fc0: addiu $sp, 0x38
 
+.section "fns1_1.0x80014fc4"
 .global F0x80014fc4
 F0x80014fc4:
 .L0x80014fc4: addiu $sp, -0x38
@@ -5307,6 +5521,7 @@ F0x80014fc4:
 .L0x80015080: jr $v0
 .L0x80015084: nop
 
+.section "fns1_1.0x80015088"
 .global F0x80015088
 F0x80015088:
 .L0x80015088: lui $v1, %hi(D0x80048a54)
@@ -5314,6 +5529,7 @@ F0x80015088:
 .L0x80015090: j .L0x80015134
 .L0x80015094: sw $v0, %lo(D0x80048a54)($v1)
 
+.section "fns1_1.0x80015098"
 .global F0x80015098
 F0x80015098:
 .L0x80015098: la_ $v1, D0x80048750
@@ -5324,6 +5540,7 @@ F0x80015098:
 .L0x800150b0: j .L0x80015134
 .L0x800150b4: sw $v0, 0x304($v1)
 
+.section "fns1_1.0x800150b8"
 .global F0x800150b8
 F0x800150b8:
 .L0x800150b8: la_ $a0, D0x80048750
@@ -5335,6 +5552,7 @@ F0x800150b8:
 .L0x800150d4: j .L0x80015134
 .L0x800150d8: sw $v1, 0x304($a0)
 
+.section "fns1_1.0x800150dc"
 .global F0x800150dc
 F0x800150dc:
 .L0x800150dc: la_ $a0, D0x80048750
@@ -5348,6 +5566,7 @@ F0x800150dc:
 .L0x80015100: j .L0x80015134
 .L0x80015104: sw $v0, 0x304($a0)
 
+.section "fns1_1.0x80015108"
 .global F0x80015108
 F0x80015108:
 .L0x80015108: la_ $a1, D0x80048750
@@ -5446,6 +5665,7 @@ F0x80015108:
 .L0x80015280: jr $ra
 .L0x80015284: addiu $sp, 0x38
 
+.section "fns1_1.0x80015288"
 .global F0x80015288
 F0x80015288:
 .L0x80015288: addiu $sp, -0x30
@@ -5573,6 +5793,7 @@ F0x80015288:
 .L0x80015478: jr $ra
 .L0x8001547c: addiu $sp, 0x30
 
+.section "fns1_1.0x80015480"
 .global F0x80015480
 F0x80015480:
 .L0x80015480: addiu $sp, -0x18
@@ -5590,6 +5811,7 @@ F0x80015480:
 .L0x800154b0: jr $ra
 .L0x800154b4: addiu $sp, 0x18
 
+.section "fns1_1.0x800154b8"
 .global F0x800154b8
 F0x800154b8:
 .L0x800154b8: addiu $sp, -0x18
@@ -5607,6 +5829,7 @@ F0x800154b8:
 .L0x800154e8: jr $ra
 .L0x800154ec: addiu $sp, 0x18
 
+.section "fns1_1.0x800154f0"
 .global F0x800154f0
 F0x800154f0:
 .L0x800154f0: addiu $sp, -0x18
@@ -5624,11 +5847,13 @@ F0x800154f0:
 .L0x80015520: jr $ra
 .L0x80015524: addiu $sp, 0x18
 
+.section "fns1_1.0x80015528"
 .global F0x80015528
 F0x80015528:
 .L0x80015528: jr $ra
 .L0x8001552c: li $v0, 0x2
 
+.section "fns1_1.0x80015530"
 .global F0x80015530
 F0x80015530:
 .L0x80015530: move_ $a3, $zr
@@ -5645,6 +5870,7 @@ F0x80015530:
 .L0x8001555c: jr $ra
 .L0x80015560: sltiu $v0, 0x1
 
+.section "fns1_1.0x80015564"
 .global F0x80015564
 F0x80015564:
 .L0x80015564: move_ $a2, $zr
@@ -5659,6 +5885,7 @@ F0x80015564:
 .L0x80015588: jr $ra
 .L0x8001558c: andi $v0, $a2, 0xff
 
+.section "fns1_1.0x80015590"
 .global F0x80015590
 F0x80015590:
 .L0x80015590: sra $v1, $a1, 0x3
@@ -5679,6 +5906,7 @@ F0x80015590:
 .L0x800155cc: jr $ra
 .L0x800155d0: sltu $v0, $zr, $v0
 
+.section "fns1_1.0x800155d4"
 .global F0x800155d4
 F0x800155d4:
 .L0x800155d4: move_ $v1, $a0
@@ -5700,6 +5928,7 @@ F0x800155d4:
 .L0x80015614: jr $ra
 .L0x80015618: sb $v1, ($v0)
 
+.section "fns1_1.0x8001561c"
 .global F0x8001561c
 F0x8001561c:
 .L0x8001561c: beqz $a0, .L0x80015638
@@ -5781,6 +6010,7 @@ F0x8001561c:
 .L0x8001574c: jr $ra
 .L0x80015750: nop
 
+.section "fns1_1.0x80015754"
 .global F0x80015754
 F0x80015754:
 .L0x80015754: addiu $sp, -0x28
@@ -5802,6 +6032,7 @@ F0x80015754:
 .L0x80015798: jr $v0
 .L0x8001579c: nop
 
+.section "fns1_1.0x800157a0"
 .global F0x800157a0
 F0x800157a0:
 .L0x800157a0: lui $v0, %hi(DIGIMON_CUR_STATS + 0x3dc * 0x8 - 0x8)
@@ -5812,6 +6043,7 @@ F0x800157a0:
 .L0x800157b4: j .L0x80015a88
 .L0x800157b8: li $s4, 0x1
 
+.section "fns1_1.0x800157bc"
 .global F0x800157bc
 F0x800157bc:
 .L0x800157bc: la_ $v0, D0x80048d34
@@ -5825,6 +6057,7 @@ F0x800157bc:
 .L0x800157e0: j .L0x80015a78
 .L0x800157e4: nop
 
+.section "fns1_1.0x800157e8"
 .global F0x800157e8
 F0x800157e8:
 .L0x800157e8: move_ $s0, $zr
@@ -5842,6 +6075,7 @@ F0x800157e8:
 .L0x80015818: j .L0x80015a8c
 .L0x8001581c: nop
 
+.section "fns1_1.0x80015820"
 .global F0x80015820
 F0x80015820:
 .L0x80015820: la_ $v0, D0x80048d34
@@ -5855,6 +6089,7 @@ F0x80015820:
 .L0x80015844: j .L0x80015a84
 .L0x80015848: sw $v0, 0x760($v1)
 
+.section "fns1_1.0x8001584c"
 .global F0x8001584c
 F0x8001584c:
 .L0x8001584c: la_ $v0, D0x80048d34
@@ -5876,6 +6111,7 @@ F0x8001584c:
 .L0x80015890: j .L0x80015a88
 .L0x80015894: li $s4, 0x1
 
+.section "fns1_1.0x80015898"
 .global F0x80015898
 F0x80015898:
 .L0x80015898: move_ $s1, $zr
@@ -5908,6 +6144,7 @@ F0x80015898:
 .L0x80015904: j .L0x80015a88
 .L0x80015908: li $s4, 0x1
 
+.section "fns1_1.0x8001590c"
 .global F0x8001590c
 F0x8001590c:
 .L0x8001590c: la_ $v0, D0x80048d34
@@ -5924,6 +6161,7 @@ F0x8001590c:
 .L0x8001593c: j .L0x80015a88
 .L0x80015940: li $s4, 0x1
 
+.section "fns1_1.0x80015944"
 .global F0x80015944
 F0x80015944:
 .L0x80015944: li $s4, 0x1
@@ -5946,6 +6184,7 @@ F0x80015944:
 .L0x80015988: j .L0x80015a8c
 .L0x8001598c: move_ $v0, $s4
 
+.section "fns1_1.0x80015990"
 .global F0x80015990
 F0x80015990:
 .L0x80015990: move_ $s0, $zr
@@ -5976,6 +6215,7 @@ F0x80015990:
 .L0x800159f4: j .L0x80015a88
 .L0x800159f8: move_ $s4, $zr
 
+.section "fns1_1.0x800159fc"
 .global F0x800159fc
 F0x800159fc:
 .L0x800159fc: lui $v0, %hi(D0x80048d34)
@@ -6023,6 +6263,7 @@ F0x800159fc:
 .L0x80015aa4: jr $ra
 .L0x80015aa8: addiu $sp, 0x28
 
+.section "fns1_1.0x80015aac"
 .global F0x80015aac
 F0x80015aac:
 .L0x80015aac: li $v0, 0x1
@@ -6083,6 +6324,7 @@ F0x80015aac:
 .L0x80015b94: jr $ra
 .L0x80015b98: nop
 
+.section "fns1_1.0x80015b9c"
 .global F0x80015b9c
 F0x80015b9c:
 .L0x80015b9c: lui $v1, %hi(DIGIMON_CUR_STATS + 0x3dc * 0x8 - 0xc)
@@ -6100,6 +6342,7 @@ F0x80015b9c:
 .L0x80015bd0: jr $ra
 .L0x80015bd4: move_ $v0, $a0
 
+.section "fns1_1.0x80015bd8"
 .global F0x80015bd8
 F0x80015bd8:
 .L0x80015bd8: addiu $sp, -0x30
@@ -6196,6 +6439,7 @@ F0x80015bd8:
 .L0x80015d44: jr $ra
 .L0x80015d48: addiu $sp, 0x30
 
+.section "fns1_1.0x80015d4c"
 .global F0x80015d4c
 F0x80015d4c:
 .L0x80015d4c: addiu $sp, -0x18
@@ -6216,6 +6460,7 @@ F0x80015d4c:
 .L0x80015d88: jr $ra
 .L0x80015d8c: addiu $sp, 0x18
 
+.section "fns1_1.0x80015d90"
 .global F0x80015d90
 F0x80015d90:
 .L0x80015d90: addiu $sp, -0x18
@@ -6297,6 +6542,7 @@ F0x80015d90:
 .L0x80015ec0: jr $ra
 .L0x80015ec4: addiu $sp, 0x18
 
+.section "fns1_1.0x80015ec8"
 .global F0x80015ec8
 F0x80015ec8:
 .L0x80015ec8: beqz $a1, .L0x80015ee8
@@ -6315,6 +6561,7 @@ F0x80015ec8:
 .L0x80015efc: jr $ra
 .L0x80015f00: nop
 
+.section "fns1_1.0x80015f04"
 .global F0x80015f04
 F0x80015f04:
 .L0x80015f04: beqz $a1, .L0x80015f3c
@@ -6344,6 +6591,7 @@ F0x80015f04:
 .L0x80015f68: jr $ra
 .L0x80015f6c: nop
 
+.section "fns1_1.0x80015f70"
 .global F0x80015f70
 F0x80015f70:
 .L0x80015f70: beqz $a1, .L0x80015f98
@@ -6365,6 +6613,7 @@ F0x80015f70:
 .L0x80015fb4: jr $ra
 .L0x80015fb8: nop
 
+.section "fns1_1.0x80015fbc"
 .global F0x80015fbc
 F0x80015fbc:
 .L0x80015fbc: addiu $sp, -0x58
@@ -6425,6 +6674,7 @@ F0x80015fbc:
 .L0x800160a0: jr $ra
 .L0x800160a4: addiu $sp, 0x58
 
+.section "fns1_1.0x800160a8"
 .global F0x800160a8
 F0x800160a8:
 .L0x800160a8: move_ $a2, $a0
@@ -6459,8 +6709,7 @@ F0x800160a8:
 .L0x8001611c: jr $ra
 .L0x80016120: nop
 
-.section "fns2"
-
+.section "fns2.0x800161d8"
 .global F0x800161d8
 F0x800161d8:
 .L0x800161d8: addiu $sp, -0x20
@@ -6542,6 +6791,7 @@ F0x800161d8:
 .L0x8001630c: jr $ra
 .L0x80016310: addiu $sp, 0x20
 
+.section "fns2.0x80016314"
 .global F0x80016314
 F0x80016314:
 .L0x80016314: addiu $sp, -0x18
@@ -6569,6 +6819,7 @@ F0x80016314:
 .L0x80016370: jr $ra
 .L0x80016374: addiu $sp, 0x18
 
+.section "fns2.0x80016378"
 .global F0x80016378
 F0x80016378:
 .L0x80016378: addiu $sp, -0x20
@@ -6586,6 +6837,7 @@ F0x80016378:
 .L0x800163a8: jr $ra
 .L0x800163ac: addiu $sp, 0x20
 
+.section "fns2.0x800163b0"
 .global F0x800163b0
 F0x800163b0:
 .L0x800163b0: addiu $sp, -0x18
@@ -6715,6 +6967,7 @@ F0x800163b0:
 .L0x800165a4: jr $ra
 .L0x800165a8: addiu $sp, 0x18
 
+.section "fns2.0x800165ac"
 .global F0x800165ac
 F0x800165ac:
 .L0x800165ac: addiu $sp, -0x30
@@ -6926,6 +7179,7 @@ F0x800165ac:
 .L0x8001691c: jr $ra
 .L0x80016920: addiu $sp, 0x30
 
+.section "fns2.0x80016924"
 .global F0x80016924
 F0x80016924:
 .L0x80016924: addiu $sp, -0x20
@@ -6954,6 +7208,7 @@ F0x80016924:
 .L0x80016980: jr $ra
 .L0x80016984: addiu $sp, 0x20
 
+.section "fns2.0x80016988"
 .global F0x80016988
 F0x80016988:
 .L0x80016988: addiu $sp, -0x20
@@ -6979,6 +7234,7 @@ F0x80016988:
 .L0x800169d8: jr $ra
 .L0x800169dc: addiu $sp, 0x20
 
+.section "fns2.0x800169e0"
 .global F0x800169e0
 F0x800169e0:
 .L0x800169e0: lui $v0, %hi(D0x8004b40c)
@@ -7026,6 +7282,7 @@ F0x800169e0:
 .L0x80016a8c: jr $ra
 .L0x80016a90: addiu $sp, 0x18
 
+.section "fns2.0x80016a94"
 .global F0x80016a94
 F0x80016a94:
 .L0x80016a94: addiu $sp, -0x18
@@ -7065,6 +7322,7 @@ F0x80016a94:
 .L0x80016b20: jr $ra
 .L0x80016b24: addiu $sp, 0x18
 
+.section "fns2.0x80016b28"
 .global F0x80016b28
 F0x80016b28:
 .L0x80016b28: lui $v0, %hi(D0x80048d34)
@@ -7080,6 +7338,7 @@ F0x80016b28:
 .L0x80016b50: jr $ra
 .L0x80016b54: nop
 
+.section "fns2.0x80016b58"
 .global F0x80016b58
 F0x80016b58:
 .L0x80016b58: lui $v0, %hi(D0x8004b400)
@@ -7087,6 +7346,7 @@ F0x80016b58:
 .L0x80016b60: jr $ra
 .L0x80016b64: nop
 
+.section "fns2.0x80016b68"
 .global load_D0x8004b3f8
 load_D0x8004b3f8:
 .L0x80016b68: lui $v0, %hi(D0x8004b3f8)
@@ -7094,6 +7354,7 @@ load_D0x8004b3f8:
 .L0x80016b70: jr $ra
 .L0x80016b74: nop
 
+.section "fns2.0x80016b78"
 .global F0x80016b78
 F0x80016b78:
 .L0x80016b78: lui $v0, %hi(D0x8004b404)
@@ -7101,6 +7362,7 @@ F0x80016b78:
 .L0x80016b80: jr $ra
 .L0x80016b84: nop
 
+.section "fns2.0x80016b88"
 .global F0x80016b88
 F0x80016b88:
 .L0x80016b88: la_ $v0, D0x80048d34
@@ -7108,6 +7370,7 @@ F0x80016b88:
 .L0x80016b94: jr $ra
 .L0x80016b98: sw $a1, 0x26d0($v0)
 
+.section "fns2.0x80016b9c"
 .global F0x80016b9c
 F0x80016b9c:
 .L0x80016b9c: lui $v0, %hi(D0x8004b3fc)
@@ -7115,6 +7378,7 @@ F0x80016b9c:
 .L0x80016ba4: jr $ra
 .L0x80016ba8: sltu $v0, $zr, $v0
 
+.section "fns2.0x80016bac"
 .global F0x80016bac
 F0x80016bac:
 .L0x80016bac: addiu $sp, -0x40
@@ -7237,6 +7501,7 @@ F0x80016bac:
 .L0x80016d8c: jr $ra
 .L0x80016d90: addiu $sp, 0x40
 
+.section "fns2.0x80016d94"
 .global F0x80016d94
 F0x80016d94:
 .L0x80016d94: sltiu $v0, $a0, 0x3
@@ -7250,6 +7515,7 @@ F0x80016d94:
 .L0x80016db8: jr $ra
 .L0x80016dbc: li $v0, -0x1
 
+.section "fns2.0x80016dc0"
 .global F0x80016dc0
 F0x80016dc0:
 .L0x80016dc0: move_ $a2, $zr
@@ -7280,6 +7546,7 @@ F0x80016dc0:
 .L0x80016e24: jr $ra
 .L0x80016e28: sw $a0, %lo(DIGIMON_CUR_STATS + 0x3dc * 0x8 - 0x8)($v0)
 
+.section "fns2.0x80016e2c"
 .global F0x80016e2c
 F0x80016e2c:
 .L0x80016e2c: la_ $v0, D0x80048d34
@@ -7298,6 +7565,7 @@ F0x80016e2c:
 .L0x80016e64: jr $ra
 .L0x80016e68: nop
 
+.section "fns2.0x80016e6c"
 .global F0x80016e6c
 F0x80016e6c:
 .L0x80016e6c: addiu $sp, -0x20
@@ -7341,6 +7609,7 @@ F0x80016e6c:
 .L0x80016f04: jr $ra
 .L0x80016f08: addiu $sp, 0x20
 
+.section "fns2.0x80016f0c"
 .global F0x80016f0c
 F0x80016f0c:
 .L0x80016f0c: la_ $v0, D0x80048d34
@@ -7351,6 +7620,7 @@ F0x80016f0c:
 .L0x80016f24: jr $ra
 .L0x80016f28: sw $zr, 0x48($v0)
 
+.section "fns2.0x80016f2c"
 .global F0x80016f2c
 F0x80016f2c:
 .L0x80016f2c: lui $v0, %hi(D0x80048d34)
@@ -7397,6 +7667,7 @@ F0x80016f2c:
 .L0x80016fd0: jr $ra
 .L0x80016fd4: nop
 
+.section "fns2.0x80016fd8"
 .global F0x80016fd8
 F0x80016fd8:
 .L0x80016fd8: move_ $v1, $a0
@@ -7419,10 +7690,7 @@ F0x80016fd8:
 .L0x80017020: jr $ra
 .L0x80017024: li $v0, -0x1
 
-.section "fns3_00"
-
-
-
+.section "fns3_00.0x800170c8"
 .global F0x800170c8
 F0x800170c8:
 .L0x800170c8: sll $v0, $a0, 0x5
@@ -7468,6 +7736,7 @@ F0x800170c8:
 .L0x8001716c: jr $ra
 .L0x80017170: nop
 
+.section "fns3_00.0x80017174"
 .global F0x80017174
 F0x80017174:
 .L0x80017174: addiu $sp, -0x38
@@ -7726,6 +7995,7 @@ F0x80017174:
 .L0x80017570: jr $ra
 .L0x80017574: addiu $sp, 0x38
 
+.section "fns3_00.0x80017578"
 .global F0x80017578
 F0x80017578:
 .L0x80017578: li $v0, 0x7
@@ -7782,6 +8052,7 @@ F0x80017578:
 .L0x80017644: jr $ra
 .L0x80017648: nop
 
+.section "fns3_00.0x8001764c"
 .global F0x8001764c
 F0x8001764c:
 .L0x8001764c: move_ $a2, $zr
@@ -7809,6 +8080,7 @@ F0x8001764c:
 .L0x800176a4: jr $ra
 .L0x800176a8: nop
 
+.section "fns3_00.0x800176ac"
 .global F0x800176ac
 F0x800176ac:
 .L0x800176ac: addiu $sp, -0x38
@@ -7885,6 +8157,7 @@ F0x800176ac:
 .L0x800177c8: jr $ra
 .L0x800177cc: addiu $sp, 0x38
 
+.section "fns3_00.0x800177d0"
 .global F0x800177d0
 F0x800177d0:
 .L0x800177d0: addiu $sp, -0x30
@@ -7938,6 +8211,7 @@ F0x800177d0:
 .L0x80017890: jr $ra
 .L0x80017894: addiu $sp, 0x30
 
+.section "fns3_00.0x80017898"
 .global F0x80017898
 F0x80017898:
 .L0x80017898: move_ $t0, $zr
@@ -7976,6 +8250,7 @@ F0x80017898:
 .L0x8001791c: jr $ra
 .L0x80017920: move_ $v0, $v1
 
+.section "fns3_00.0x80017924"
 .global F0x80017924
 F0x80017924:
 .L0x80017924: addiu $sp, -0x20
@@ -8040,6 +8315,7 @@ F0x80017924:
 .L0x80017a14: jr $ra
 .L0x80017a18: addiu $sp, 0x20
 
+.section "fns3_00.0x80017a1c"
 .global F0x80017a1c
 F0x80017a1c:
 .L0x80017a1c: addiu $sp, -0x20
@@ -8080,6 +8356,7 @@ F0x80017a1c:
 .L0x80017aac: jr $ra
 .L0x80017ab0: addiu $sp, 0x20
 
+.section "fns3_00.0x80017ab4"
 .global F0x80017ab4
 F0x80017ab4:
 .L0x80017ab4: addiu $sp, -0x20
@@ -8120,6 +8397,7 @@ F0x80017ab4:
 .L0x80017b44: jr $ra
 .L0x80017b48: addiu $sp, 0x20
 
+.section "fns3_00.0x80017b4c"
 .global F0x80017b4c
 F0x80017b4c:
 .L0x80017b4c: sll $v0, $a0, 0x5
@@ -8131,6 +8409,7 @@ F0x80017b4c:
 .L0x80017b68: jr $ra
 .L0x80017b6c: addu $v0, $v1
 
+.section "fns3_00.0x80017b70"
 .global F0x80017b70
 F0x80017b70:
 .L0x80017b70: beqz $a0, .L0x80017bd4
@@ -8161,11 +8440,13 @@ F0x80017b70:
 .L0x80017bd4: jr $ra
 .L0x80017bd8: nop
 
+.section "fns3_00.0x80017bdc"
 .global F0x80017bdc
 F0x80017bdc:
 .L0x80017bdc: jr $ra
 .L0x80017be0: nop
 
+.section "fns3_00.0x80017be4"
 .global F0x80017be4
 F0x80017be4:
 .L0x80017be4: addiu $sp, -0x20
@@ -8199,6 +8480,7 @@ F0x80017be4:
 .L0x80017c54: jr $ra
 .L0x80017c58: addiu $sp, 0x20
 
+.section "fns3_00.0x80017c5c"
 .global F0x80017c5c
 F0x80017c5c:
 .L0x80017c5c: li $v1, 0x801ff000
@@ -8221,6 +8503,7 @@ F0x80017c5c:
 .L0x80017ca8: jr $ra
 .L0x80017cac: sw $v1, 0x4($a1)
 
+.section "fns3_00.0x80017cb0"
 .global F0x80017cb0
 F0x80017cb0:
 .L0x80017cb0: andi $v0, $a1, 0x3
@@ -8246,6 +8529,7 @@ F0x80017cb0:
 .L0x80017d00: jr $ra
 .L0x80017d04: nop
 
+.section "fns3_00.0x80017d08"
 .global F0x80017d08
 F0x80017d08:
 .L0x80017d08: blez $a2, .L0x80017d24
@@ -8258,6 +8542,7 @@ F0x80017d08:
 .L0x80017d24: jr $ra
 .L0x80017d28: nop
 
+.section "fns3_00.0x80017d2c"
 .global F0x80017d2c
 F0x80017d2c:
 .L0x80017d2c: lui $v0, %hi(D0x8004b5e0)
@@ -8305,6 +8590,7 @@ F0x80017d2c:
 .L0x80017dd4: jr $ra
 .L0x80017dd8: move_ $v0, $zr
 
+.section "fns3_00.0x80017ddc"
 .global F0x80017ddc
 F0x80017ddc:
 .L0x80017ddc: lui $v0, %hi(D0x8004b5dc)
@@ -8350,6 +8636,7 @@ F0x80017ddc:
 .L0x80017e7c: jr $ra
 .L0x80017e80: move_ $v0, $zr
 
+.section "fns3_00.0x80017e84"
 .global F0x80017e84
 F0x80017e84:
 .L0x80017e84: addiu $sp, -0x20
@@ -8379,6 +8666,7 @@ F0x80017e84:
 .L0x80017ee4: jr $ra
 .L0x80017ee8: addiu $sp, 0x20
 
+.section "fns3_00.0x80017eec"
 .global F0x80017eec
 F0x80017eec:
 .L0x80017eec: addiu $sp, -0x20
@@ -8408,6 +8696,7 @@ F0x80017eec:
 .L0x80017f4c: jr $ra
 .L0x80017f50: addiu $sp, 0x20
 
+.section "fns3_00.0x80017f54"
 .global F0x80017f54
 F0x80017f54:
 .L0x80017f54: addiu $sp, -0x20
@@ -8427,6 +8716,7 @@ F0x80017f54:
 .L0x80017f8c: jr $ra
 .L0x80017f90: addiu $sp, 0x20
 
+.section "fns3_00.0x80017f94"
 .global F0x80017f94
 F0x80017f94:
 .L0x80017f94: beqz $a1, .L0x80017fa8
@@ -8438,6 +8728,7 @@ F0x80017f94:
 .L0x80017fac: jr $ra
 .L0x80017fb0: sw $v0, 0x8($a0)
 
+.section "fns3_00.0x80017fb4"
 .global F0x80017fb4
 F0x80017fb4:
 .L0x80017fb4: li $v1, 0x63
@@ -8450,6 +8741,7 @@ F0x80017fb4:
 .L0x80017fd4: jr $ra
 .L0x80017fd8: nop
 
+.section "fns3_00.0x80017fdc"
 .global F0x80017fdc
 F0x80017fdc:
 .L0x80017fdc: move_ $a1, $zr
@@ -8467,6 +8759,7 @@ F0x80017fdc:
 .L0x8001800c: jr $ra
 .L0x80018010: nop
 
+.section "fns3_00.0x80018014"
 .global F0x80018014
 F0x80018014:
 .L0x80018014: move_ $a1, $zr
@@ -8484,6 +8777,7 @@ F0x80018014:
 .L0x80018044: jr $ra
 .L0x80018048: nop
 
+.section "fns3_00.0x8001804c"
 .global F0x8001804c
 F0x8001804c:
 .L0x8001804c: lui $v0, %hi(D0x8004b610)
@@ -8535,6 +8829,7 @@ F0x8001804c:
 .L0x80018104: jr $ra
 .L0x80018108: move_ $v0, $zr
 
+.section "fns3_00.0x8001810c"
 .global F0x8001810c
 F0x8001810c:
 .L0x8001810c: addiu $sp, -0x18
@@ -8550,6 +8845,7 @@ F0x8001810c:
 .L0x80018138: jr $ra
 .L0x8001813c: addiu $sp, 0x18
 
+.section "fns3_00.0x80018140"
 .global F0x80018140
 F0x80018140:
 .L0x80018140: addiu $sp, -0x20
@@ -8613,6 +8909,7 @@ F0x80018140:
 .L0x80018228: jr $ra
 .L0x8001822c: addiu $sp, 0x20
 
+.section "fns3_00.0x80018230"
 .global F0x80018230
 F0x80018230:
 .L0x80018230: addiu $sp, -0x20
@@ -8643,6 +8940,7 @@ F0x80018230:
 .L0x80018294: jr $ra
 .L0x80018298: addiu $sp, 0x20
 
+.section "fns3_00.0x8001829c"
 .global F0x8001829c
 F0x8001829c:
 .L0x8001829c: addiu $sp, -0x18
@@ -8657,6 +8955,7 @@ F0x8001829c:
 .L0x800182c0: jr $ra
 .L0x800182c4: addiu $sp, 0x18
 
+.section "fns3_00.0x800182c8"
 .global F0x800182c8
 F0x800182c8:
 .L0x800182c8: addiu $sp, -0x18
@@ -8678,6 +8977,7 @@ F0x800182c8:
 .L0x80018308: jr $ra
 .L0x8001830c: addiu $sp, 0x18
 
+.section "fns3_00.0x80018310"
 .global F0x80018310
 F0x80018310:
 .L0x80018310: addiu $sp, -0x28
@@ -8752,6 +9052,7 @@ F0x80018310:
 .L0x80018434: jr $ra
 .L0x80018438: addiu $sp, 0x28
 
+.section "fns3_00.0x8001843c"
 .global F0x8001843c
 F0x8001843c:
 .L0x8001843c: addiu $sp, -0x18
@@ -8764,6 +9065,7 @@ F0x8001843c:
 .L0x80018458: jr $ra
 .L0x8001845c: addiu $sp, 0x18
 
+.section "fns3_00.0x80018460"
 .global F0x80018460
 F0x80018460:
 .L0x80018460: addiu $sp, -0x20
@@ -8795,6 +9097,7 @@ F0x80018460:
 .L0x800184c8: jr $ra
 .L0x800184cc: addiu $sp, 0x20
 
+.section "fns3_00.0x800184d0"
 .global F0x800184d0
 F0x800184d0:
 .L0x800184d0: addiu $sp, -0x18
@@ -8816,6 +9119,7 @@ F0x800184d0:
 .L0x80018514: jr $ra
 .L0x80018518: addiu $sp, 0x18
 
+.section "fns3_00.0x8001851c"
 .global F0x8001851c
 F0x8001851c:
 .L0x8001851c: addiu $sp, -0x40
@@ -8932,6 +9236,7 @@ F0x8001851c:
 .L0x800186d8: jr $ra
 .L0x800186dc: addiu $sp, 0x40
 
+.section "fns3_00.0x800186e0"
 .global F0x800186e0
 F0x800186e0:
 .L0x800186e0: addiu $sp, -0x30
@@ -9027,6 +9332,7 @@ F0x800186e0:
 .L0x8001884c: jr $ra
 .L0x80018850: addiu $sp, 0x30
 
+.section "fns3_00.0x80018854"
 .global F0x80018854
 F0x80018854:
 .L0x80018854: la_ $v1, D0x8004b7d0
@@ -9038,6 +9344,7 @@ F0x80018854:
 .L0x80018870: jr $ra
 .L0x80018874: nop
 
+.section "fns3_00.0x80018878"
 .global F0x80018878
 F0x80018878:
 .L0x80018878: la_ $v1, D0x8004b7d0
@@ -9049,6 +9356,7 @@ F0x80018878:
 .L0x80018894: jr $ra
 .L0x80018898: nop
 
+.section "fns3_00.0x8001889c"
 .global F0x8001889c
 F0x8001889c:
 .L0x8001889c: la_ $v1, D0x8004b7d0
@@ -9060,6 +9368,7 @@ F0x8001889c:
 .L0x800188b8: jr $ra
 .L0x800188bc: nop
 
+.section "fns3_00.0x800188c0"
 .global F0x800188c0
 F0x800188c0:
 .L0x800188c0: move_ $a1, $zr
@@ -9089,6 +9398,7 @@ F0x800188c0:
 .L0x80018920: jr $ra
 .L0x80018924: nop
 
+.section "fns3_00.0x80018928"
 .global F0x80018928
 F0x80018928:
 .L0x80018928: la_ $a3, D0x8004b7d0
@@ -9113,6 +9423,7 @@ F0x80018928:
 .L0x80018978: jr $ra
 .L0x8001897c: sb $v1, 0xa4($a2)
 
+.section "fns3_00.0x80018980"
 .global F0x80018980
 F0x80018980:
 .L0x80018980: la_ $v0, D0x8004b7d0
@@ -9125,16 +9436,19 @@ F0x80018980:
 .L0x800189a0: jr $ra
 .L0x800189a4: nop
 
+.section "fns3_00.0x800189a8"
 .global F0x800189a8
 F0x800189a8:
 .L0x800189a8: jr $ra
 .L0x800189ac: move_ $v0, $zr
 
+.section "fns3_00.0x800189b0"
 .global F0x800189b0
 F0x800189b0:
 .L0x800189b0: jr $ra
 .L0x800189b4: nop
 
+.section "fns3_00.0x800189b8"
 .global F0x800189b8
 F0x800189b8:
 .L0x800189b8: lui $v0, %hi(D0x8004b7d0)
@@ -9152,6 +9466,7 @@ F0x800189b8:
 .L0x800189e8: jr $ra
 .L0x800189ec: nop
 
+.section "fns3_00.0x800189f0"
 .global F0x800189f0
 F0x800189f0:
 .L0x800189f0: addiu $sp, -0x18
@@ -9184,6 +9499,7 @@ F0x800189f0:
 .L0x80018a5c: jr $ra
 .L0x80018a60: addiu $sp, 0x18
 
+.section "fns3_00.0x80018a64"
 .global F0x80018a64
 F0x80018a64:
 .L0x80018a64: lui $a0, %hi(D0x8004b7d0)
@@ -9201,6 +9517,7 @@ F0x80018a64:
 .L0x80018a98: jr $ra
 .L0x80018a9c: nop
 
+.section "fns3_00.0x80018aa0"
 .global F0x80018aa0
 F0x80018aa0:
 .L0x80018aa0: lui $v0, %hi(D0x8004b7d0)
@@ -9218,6 +9535,7 @@ F0x80018aa0:
 .L0x80018ad0: jr $ra
 .L0x80018ad4: nop
 
+.section "fns3_00.0x80018ad8"
 .global F0x80018ad8
 F0x80018ad8:
 .L0x80018ad8: addiu $sp, -0x28
@@ -9240,6 +9558,7 @@ F0x80018ad8:
 .L0x80018b20: jr $v0
 .L0x80018b24: nop
 
+.section "fns3_00.0x80018b28"
 .global F0x80018b28
 F0x80018b28:
 .L0x80018b28: li $a3, 0xf3ffffff
@@ -9255,6 +9574,7 @@ F0x80018b28:
 .L0x80018b54: j .L0x80018bb0
 .L0x80018b58: sw $v1, %lo(D0x8004b7d0)($a2)
 
+.section "fns3_00.0x80018b5c"
 .global F0x80018b5c
 F0x80018b5c:
 .L0x80018b5c: lui $s2, %hi(D0x8004b7d0)
@@ -9276,11 +9596,13 @@ F0x80018b5c:
 .L0x80018b9c: or $v0, $s3
 .L0x80018ba0: sw $v0, %lo(D0x8004b7d0)($s2)
 
+.section "fns3_00.0x80018ba4"
 .global F0x80018ba4
 F0x80018ba4:
 .L0x80018ba4: j .L0x80018bb0
 .L0x80018ba8: move_ $v0, $s1
 
+.section "fns3_00.0x80018bac"
 .global F0x80018bac
 F0x80018bac:
 .L0x80018bac: move_ $v0, $zr
@@ -9292,6 +9614,7 @@ F0x80018bac:
 .L0x80018bc4: jr $ra
 .L0x80018bc8: addiu $sp, 0x28
 
+.section "fns3_00.0x80018bcc"
 .global F0x80018bcc
 F0x80018bcc:
 .L0x80018bcc: addiu $sp, -0x38
@@ -9516,6 +9839,7 @@ F0x80018bcc:
 .L0x80018f3c: jr $ra
 .L0x80018f40: addiu $sp, 0x38
 
+.section "fns3_00.0x80018f44"
 .global F0x80018f44
 F0x80018f44:
 .L0x80018f44: addiu $sp, -0x28
@@ -9576,6 +9900,7 @@ F0x80018f44:
 .L0x80019024: jr $ra
 .L0x80019028: addiu $sp, 0x28
 
+.section "fns3_00.0x8001902c"
 .global F0x8001902c
 F0x8001902c:
 .L0x8001902c: addiu $sp, -0x20
@@ -9649,6 +9974,7 @@ F0x8001902c:
 .L0x80019140: jr $ra
 .L0x80019144: addiu $sp, 0x20
 
+.section "fns3_00.0x80019148"
 .global F0x80019148
 F0x80019148:
 .L0x80019148: addiu $sp, -0x30
@@ -9706,6 +10032,7 @@ F0x80019148:
 .L0x8001921c: jr $ra
 .L0x80019220: addiu $sp, 0x30
 
+.section "fns3_00.0x80019224"
 .global F0x80019224
 F0x80019224:
 .L0x80019224: addiu $sp, -0x30
@@ -9776,6 +10103,7 @@ F0x80019224:
 
 # Sets the seed for `rand_u16`
 # `fn(seed: u16)`.
+.section "fns3_00.0x8001932c"
 .global rand_u16_set_seed
 rand_u16_set_seed:
 	lui $v0, %hi(RAND_TABLE_CUR_IDX)
@@ -9785,6 +10113,7 @@ rand_u16_set_seed:
 
 # Returns a random `u16` between 0 and 0x1000 (exclusive).
 # `fn() -> u16`.
+.section "fns3_00.0x8001933c"
 .global rand_u16
 rand_u16:
 # `cur_idx = (RAND_TABLE_CUR_IDX + 1) & 0xfff`
@@ -9804,6 +10133,7 @@ rand_u16:
 	jr $ra
 	nop
 
+.section "fns3_00.0x80019370"
 .global F0x80019370
 F0x80019370:
 .L0x80019370: addiu $sp, -0x20
@@ -9892,6 +10222,7 @@ F0x80019370:
 .L0x800194bc: jr $ra
 .L0x800194c0: addiu $sp, 0x20
 
+.section "fns3_00.0x800194c4"
 .global F0x800194c4
 F0x800194c4:
 .L0x800194c4: addiu $sp, -0x18
@@ -9904,6 +10235,7 @@ F0x800194c4:
 .L0x800194e0: jr $ra
 .L0x800194e4: addiu $sp, 0x18
 
+.section "fns3_00.0x800194e8"
 .global F0x800194e8
 F0x800194e8:
 .L0x800194e8: addiu $sp, -0x18
@@ -9915,6 +10247,7 @@ F0x800194e8:
 .L0x80019500: jr $ra
 .L0x80019504: addiu $sp, 0x18
 
+.section "fns3_00.0x80019508"
 .global F0x80019508
 F0x80019508:
 .L0x80019508: bgtz $a1, .L0x8001951c
@@ -9960,6 +10293,7 @@ F0x80019508:
 .L0x800195a8: jr $ra
 .L0x800195ac: nop
 
+.section "fns3_00.0x800195b0"
 .global F0x800195b0
 F0x800195b0:
 .L0x800195b0: addiu $sp, -0x30
@@ -10018,6 +10352,7 @@ F0x800195b0:
 .L0x80019684: jr $ra
 .L0x80019688: addiu $sp, 0x30
 
+.section "fns3_00.0x8001968c"
 .global F0x8001968c
 F0x8001968c:
 .L0x8001968c: addiu $sp, -0x18
@@ -10043,6 +10378,7 @@ F0x8001968c:
 .L0x800196dc: jr $ra
 .L0x800196e0: addiu $sp, 0x18
 
+.section "fns3_00.0x800196e4"
 .global F0x800196e4
 F0x800196e4:
 .L0x800196e4: addiu $sp, -0x38
@@ -10094,6 +10430,7 @@ F0x800196e4:
 .L0x8001979c: jr $ra
 .L0x800197a0: addiu $sp, 0x38
 
+.section "fns3_00.0x800197a4"
 .global F0x800197a4
 F0x800197a4:
 .L0x800197a4: addiu $sp, -0xa0
@@ -10218,16 +10555,19 @@ F0x800197a4:
 .L0x8001998c: jr $v0
 .L0x80019990: nop
 
+.section "fns3_00.0x80019994"
 .global F0x80019994
 F0x80019994:
 .L0x80019994: j F0x800199a4
 .L0x80019998: addiu $s4, 0x1
 
+.section "fns3_00.0x8001999c"
 .global F0x8001999c
 F0x8001999c:
 .L0x8001999c: j F0x80019ed0
 .L0x800199a0: addiu $s4, 0x1
 
+.section "fns3_00.0x800199a4"
 .global F0x800199a4
 F0x800199a4:
 .L0x800199a4: lw $v0, 0x1c($sp)
@@ -10562,6 +10902,7 @@ F0x800199a4:
 .L0x80019ec8: addu $v1, $v0
 .L0x80019ecc: sh $v1, 0xb8($s2)
 
+.section "fns3_00.0x80019ed0"
 .global F0x80019ed0
 F0x80019ed0:
 .L0x80019ed0: lh $v0, 0xa4($s2)
@@ -10603,6 +10944,7 @@ F0x80019ed0:
 .L0x80019f60: addiu $v0, 0x8
 .L0x80019f64: sw $v0, 0x10($sp)
 
+.section "fns3_00.0x80019f68"
 .global F0x80019f68
 F0x80019f68:
 .L0x80019f68: lui $v0, %hi(D0x8004df6c)
@@ -10624,6 +10966,7 @@ F0x80019f68:
 .L0x80019fa8: jr $ra
 .L0x80019fac: addiu $sp, 0xa0
 
+.section "fns3_00.0x80019fb0"
 .global F0x80019fb0
 F0x80019fb0:
 .L0x80019fb0: addiu $sp, -0x30
@@ -10743,6 +11086,7 @@ F0x80019fb0:
 .L0x8001a178: jr $ra
 .L0x8001a17c: addiu $sp, 0x30
 
+.section "fns3_00.0x8001a180"
 .global F0x8001a180
 F0x8001a180:
 .L0x8001a180: addiu $v0, $a1, -0x1
@@ -10760,6 +11104,7 @@ F0x8001a180:
 .L0x8001a1b0: jr $ra
 .L0x8001a1b4: sb $v0, 0xbe($a0)
 
+.section "fns3_00.0x8001a1b8"
 .global F0x8001a1b8
 F0x8001a1b8:
 .L0x8001a1b8: bgtz $a1, .L0x8001a1d4
@@ -10775,22 +11120,26 @@ F0x8001a1b8:
 .L0x8001a1e0: jr $ra
 .L0x8001a1e4: sh $zr, 0xa6($a0)
 
+.section "fns3_00.0x8001a1e8"
 .global F0x8001a1e8
 F0x8001a1e8:
 .L0x8001a1e8: sh $a1, 0xb0($a0)
 .L0x8001a1ec: jr $ra
 .L0x8001a1f0: sh $a2, 0xb2($a0)
 
+.section "fns3_00.0x8001a1f4"
 .global F0x8001a1f4
 F0x8001a1f4:
 .L0x8001a1f4: jr $ra
 .L0x8001a1f8: sb $a1, 0xc0($a0)
 
+.section "fns3_00.0x8001a1fc"
 .global F0x8001a1fc
 F0x8001a1fc:
 .L0x8001a1fc: jr $ra
 .L0x8001a200: sb $a1, 0xbe($a0)
 
+.section "fns3_00.0x8001a204"
 .global F0x8001a204
 F0x8001a204:
 .L0x8001a204: sll $v0, $a1, 0x10
@@ -10808,6 +11157,7 @@ F0x8001a204:
 .L0x8001a234: jr $ra
 .L0x8001a238: sh $zr, 0xb6($a0)
 
+.section "fns3_00.0x8001a23c"
 .global F0x8001a23c
 F0x8001a23c:
 .L0x8001a23c: lh $v0, 0x62($a0)
@@ -10819,6 +11169,7 @@ F0x8001a23c:
 .L0x8001a254: jr $ra
 .L0x8001a258: sb $a1, 0xc1($a0)
 
+.section "fns3_00.0x8001a25c"
 .global F0x8001a25c
 F0x8001a25c:
 .L0x8001a25c: addiu $sp, -0x28
@@ -10842,6 +11193,7 @@ F0x8001a25c:
 .L0x8001a2a4: jr $ra
 .L0x8001a2a8: addiu $sp, 0x28
 
+.section "fns3_00.0x8001a2ac"
 .global F0x8001a2ac
 F0x8001a2ac:
 .L0x8001a2ac: addiu $sp, -0x30
@@ -10883,6 +11235,7 @@ F0x8001a2ac:
 .L0x8001a33c: jr $v0
 .L0x8001a340: nop
 
+.section "fns3_00.0x8001a344"
 .global F0x8001a344
 F0x8001a344:
 .L0x8001a344: lh $v0, 0xa($s2)
@@ -10890,6 +11243,7 @@ F0x8001a344:
 .L0x8001a34c: beqz $v0, .L0x8001a35c
 .L0x8001a350: nop
 
+.section "fns3_00.0x8001a354"
 .global F0x8001a354
 F0x8001a354:
 .L0x8001a354: j .L0x8001a3e0
@@ -10897,6 +11251,7 @@ F0x8001a354:
 .L0x8001a35c: j .L0x8001a3e0
 .L0x8001a360: addiu $s1, 0x1
 
+.section "fns3_00.0x8001a364"
 .global F0x8001a364
 F0x8001a364:
 .L0x8001a364: lw $v0, ($s2)
@@ -10936,6 +11291,7 @@ F0x8001a364:
 .L0x8001a3ec: bnez $v0, .L0x8001a300
 .L0x8001a3f0: nop
 
+.section "fns3_00.0x8001a3f4"
 .global F0x8001a3f4
 F0x8001a3f4:
 .L0x8001a3f4: lw $ra, 0x28($sp)
@@ -10948,11 +11304,13 @@ F0x8001a3f4:
 .L0x8001a410: jr $ra
 .L0x8001a414: addiu $sp, 0x30
 
+.section "fns3_00.0x8001a418"
 .global F0x8001a418
 F0x8001a418:
 .L0x8001a418: jr $ra
 .L0x8001a41c: sw $a1, 0xc8($a0)
 
+.section "fns3_00.0x8001a420"
 .global F0x8001a420
 F0x8001a420:
 .L0x8001a420: li $v0, 0x1000
@@ -10963,39 +11321,46 @@ F0x8001a420:
 .L0x8001a434: jr $ra
 .L0x8001a438: sw $v0, 0xcc($a0)
 
+.section "fns3_00.0x8001a43c"
 .global F0x8001a43c
 F0x8001a43c:
 .L0x8001a43c: sw $a1, 0xe0($a0)
 .L0x8001a440: jr $ra
 .L0x8001a444: sw $a2, 0xe4($a0)
 
+.section "fns3_00.0x8001a448"
 .global F0x8001a448
 F0x8001a448:
 .L0x8001a448: jr $ra
 .L0x8001a44c: sw $a1, 0x58($a0)
 
+.section "fns3_00.0x8001a450"
 .global F0x8001a450
 F0x8001a450:
 .L0x8001a450: jr $ra
 .L0x8001a454: sb $a1, 0xbf($a0)
 
+.section "fns3_00.0x8001a458"
 .global F0x8001a458
 F0x8001a458:
 .L0x8001a458: jr $ra
 .L0x8001a45c: sb $a1, 0xc4($a0)
 
+.section "fns3_00.0x8001a460"
 .global F0x8001a460
 F0x8001a460:
 .L0x8001a460: lbu $v0, 0xc3($a0)
 .L0x8001a464: jr $ra
 .L0x8001a468: nop
 
+.section "fns3_00.0x8001a46c"
 .global F0x8001a46c
 F0x8001a46c:
 .L0x8001a46c: lbu $v0, 0xc1($a0)
 .L0x8001a470: jr $ra
 .L0x8001a474: nop
 
+.section "fns3_00.0x8001a478"
 .global F0x8001a478
 F0x8001a478:
 .L0x8001a478: lw $v0, 0x10($a0)
@@ -11004,6 +11369,7 @@ F0x8001a478:
 .L0x8001a484: jr $ra
 .L0x8001a488: sltiu $v0, 0x1
 
+.section "fns3_00.0x8001a48c"
 .global F0x8001a48c
 F0x8001a48c:
 .L0x8001a48c: addiu $sp, -0x20
@@ -11157,6 +11523,7 @@ F0x8001a48c:
 .L0x8001a6e0: jr $ra
 .L0x8001a6e4: addiu $sp, 0x20
 
+.section "fns3_00.0x8001a6e8"
 .global F0x8001a6e8
 F0x8001a6e8:
 .L0x8001a6e8: addiu $sp, -0x18
@@ -11181,6 +11548,7 @@ F0x8001a6e8:
 .L0x8001a734: jr $ra
 .L0x8001a738: addiu $sp, 0x18
 
+.section "fns3_00.0x8001a73c"
 .global F0x8001a73c
 F0x8001a73c:
 .L0x8001a73c: addiu $sp, -0x18
@@ -11244,6 +11612,7 @@ F0x8001a73c:
 .L0x8001a824: jr $ra
 .L0x8001a828: addiu $sp, 0x18
 
+.section "fns3_00.0x8001a82c"
 .global F0x8001a82c
 F0x8001a82c:
 .L0x8001a82c: lh $v0, 0x8($a1)
@@ -11281,6 +11650,7 @@ F0x8001a82c:
 .L0x8001a8ac: jr $ra
 .L0x8001a8b0: li $v0, 0x8003
 
+.section "fns3_00.0x8001a8b4"
 .global F0x8001a8b4
 F0x8001a8b4:
 .L0x8001a8b4: addiu $sp, -0x20
@@ -11369,11 +11739,13 @@ F0x8001a8b4:
 .L0x8001aa00: jr $ra
 .L0x8001aa04: addiu $sp, 0x20
 
+.section "fns3_00.0x8001aa08"
 .global F0x8001aa08
 F0x8001aa08:
 .L0x8001aa08: jr $ra
 .L0x8001aa0c: li $v0, 0x8003
 
+.section "fns3_00.0x8001aa10"
 .global F0x8001aa10
 F0x8001aa10:
 .L0x8001aa10: addiu $sp, -0x20
@@ -11449,6 +11821,7 @@ F0x8001aa10:
 .L0x8001ab28: jr $ra
 .L0x8001ab2c: addiu $sp, 0x20
 
+.section "fns3_00.0x8001ab30"
 .global F0x8001ab30
 F0x8001ab30:
 .L0x8001ab30: lh $v0, 0x8($a1)
@@ -11481,6 +11854,7 @@ F0x8001ab30:
 .L0x8001ab9c: jr $ra
 .L0x8001aba0: sh $zr, 0xa8($a2)
 
+.section "fns3_00.0x8001aba4"
 .global F0x8001aba4
 F0x8001aba4:
 .L0x8001aba4: addiu $sp, -0x18
@@ -11511,6 +11885,7 @@ F0x8001aba4:
 .L0x8001ac0c: jr $ra
 .L0x8001ac10: addiu $sp, 0x18
 
+.section "fns3_00.0x8001ac14"
 .global F0x8001ac14
 F0x8001ac14:
 .L0x8001ac14: addiu $sp, -0x28
@@ -11651,6 +12026,7 @@ F0x8001ac14:
 .L0x8001ae30: jr $ra
 .L0x8001ae34: addiu $sp, 0x28
 
+.section "fns3_00.0x8001ae38"
 .global F0x8001ae38
 F0x8001ae38:
 .L0x8001ae38: addiu $sp, -0x28
@@ -11761,6 +12137,7 @@ F0x8001ae38:
 .L0x8001b044: jr $ra
 .L0x8001b048: addiu $sp, 0x28
 
+.section "fns3_00.0x8001b04c"
 .global F0x8001b04c
 F0x8001b04c:
 .L0x8001b04c: bnez $a1, .L0x8001b05c
@@ -11771,6 +12148,7 @@ F0x8001b04c:
 .L0x8001b060: jr $ra
 .L0x8001b064: sw $v0, 0x68($a0)
 
+.section "fns3_00.0x8001b068"
 .global F0x8001b068
 F0x8001b068:
 .L0x8001b068: li $v0, 0x1
@@ -11779,6 +12157,7 @@ F0x8001b068:
 .L0x8001b074: jr $ra
 .L0x8001b078: sw $v0, 0x68($a0)
 
+.section "fns3_00.0x8001b07c"
 .global F0x8001b07c
 F0x8001b07c:
 .L0x8001b07c: li $v0, 0x1
@@ -11786,21 +12165,25 @@ F0x8001b07c:
 .L0x8001b084: jr $ra
 .L0x8001b088: sw $v0, 0x68($a0)
 
+.section "fns3_00.0x8001b08c"
 .global F0x8001b08c
 F0x8001b08c:
 .L0x8001b08c: jr $ra
 .L0x8001b090: sw $a1, 0x74($a0)
 
+.section "fns3_00.0x8001b094"
 .global F0x8001b094
 F0x8001b094:
 .L0x8001b094: jr $ra
 .L0x8001b098: sw $a1, 0x78($a0)
 
+.section "fns3_00.0x8001b09c"
 .global F0x8001b09c
 F0x8001b09c:
 .L0x8001b09c: jr $ra
 .L0x8001b0a0: sw $a1, 0x7c($a0)
 
+.section "fns3_00.0x8001b0a4"
 .global F0x8001b0a4
 F0x8001b0a4:
 .L0x8001b0a4: addiu $sp, -0x28
@@ -11980,6 +12363,7 @@ F0x8001b0a4:
 .L0x8001b35c: jr $ra
 .L0x8001b360: addiu $sp, 0x28
 
+.section "fns3_00.0x8001b364"
 .global F0x8001b364
 F0x8001b364:
 .L0x8001b364: addiu $sp, -0x28
@@ -12032,6 +12416,7 @@ F0x8001b364:
 .L0x8001b43c: jr $ra
 .L0x8001b440: addiu $sp, 0x28
 
+.section "fns3_00.0x8001b444"
 .global F0x8001b444
 F0x8001b444:
 .L0x8001b444: addiu $sp, -0x18
@@ -12053,6 +12438,7 @@ F0x8001b444:
 .L0x8001b484: jr $ra
 .L0x8001b488: addiu $sp, 0x18
 
+.section "fns3_00.0x8001b48c"
 .global F0x8001b48c
 F0x8001b48c:
 .L0x8001b48c: lui $v1, 0x4e45
@@ -12072,6 +12458,7 @@ F0x8001b48c:
 .L0x8001b4c4: jr $ra
 .L0x8001b4c8: sw $a1, 0x68($a0)
 
+.section "fns3_00.0x8001b4cc"
 .global F0x8001b4cc
 F0x8001b4cc:
 .L0x8001b4cc: addiu $sp, -0x18
@@ -12109,6 +12496,7 @@ F0x8001b4cc:
 .L0x8001b54c: jr $ra
 .L0x8001b550: addiu $sp, 0x18
 
+.section "fns3_00.0x8001b554"
 .global F0x8001b554
 F0x8001b554:
 .L0x8001b554: addiu $sp, -0x18
@@ -12170,6 +12558,7 @@ F0x8001b554:
 .L0x8001b634: jr $ra
 .L0x8001b638: addiu $sp, 0x18
 
+.section "fns3_00.0x8001b63c"
 .global F0x8001b63c
 F0x8001b63c:
 .L0x8001b63c: addiu $sp, -0x20
@@ -12196,6 +12585,7 @@ F0x8001b63c:
 .L0x8001b690: jr $ra
 .L0x8001b694: addiu $sp, 0x20
 
+.section "fns3_00.0x8001b698"
 .global F0x8001b698
 F0x8001b698:
 .L0x8001b698: addiu $sp, -0x18
@@ -12220,6 +12610,7 @@ F0x8001b698:
 .L0x8001b6e4: jr $ra
 .L0x8001b6e8: addiu $sp, 0x18
 
+.section "fns3_00.0x8001b6ec"
 .global F0x8001b6ec
 F0x8001b6ec:
 .L0x8001b6ec: lw $v0, 0x10($a0)
@@ -12237,6 +12628,7 @@ F0x8001b6ec:
 .L0x8001b71c: jr $ra
 .L0x8001b720: nop
 
+.section "fns3_00.0x8001b724"
 .global F0x8001b724
 F0x8001b724:
 .L0x8001b724: addiu $sp, -0x18
@@ -12277,6 +12669,7 @@ F0x8001b724:
 .L0x8001b7b0: jr $ra
 .L0x8001b7b4: addiu $sp, 0x18
 
+.section "fns3_00.0x8001b7b8"
 .global F0x8001b7b8
 F0x8001b7b8:
 .L0x8001b7b8: addiu $sp, -0x18
@@ -12298,6 +12691,7 @@ F0x8001b7b8:
 .L0x8001b80c: jr $ra
 .L0x8001b810: addiu $sp, 0x18
 
+.section "fns3_00.0x8001b814"
 .global F0x8001b814
 F0x8001b814:
 .L0x8001b814: addiu $sp, -0xc8
@@ -12372,6 +12766,7 @@ F0x8001b814:
 .L0x8001b928: jr $ra
 .L0x8001b92c: addiu $sp, 0xc8
 
+.section "fns3_00.0x8001b930"
 .global F0x8001b930
 F0x8001b930:
 .L0x8001b930: addiu $sp, -0xc0
@@ -12438,6 +12833,7 @@ F0x8001b930:
 .L0x8001ba24: jr $ra
 .L0x8001ba28: addiu $sp, 0xc0
 
+.section "fns3_00.0x8001ba2c"
 .global F0x8001ba2c
 F0x8001ba2c:
 .L0x8001ba2c: addiu $sp, -0x20
@@ -12528,6 +12924,7 @@ F0x8001ba2c:
 .L0x8001bb80: jr $ra
 .L0x8001bb84: addiu $sp, 0x20
 
+.section "fns3_00.0x8001bb88"
 .global F0x8001bb88
 F0x8001bb88:
 .L0x8001bb88: addiu $sp, -0x20
@@ -12554,6 +12951,7 @@ F0x8001bb88:
 .L0x8001bbe0: jr $ra
 .L0x8001bbe4: addiu $sp, 0x20
 
+.section "fns3_00.0x8001bbe8"
 .global F0x8001bbe8
 F0x8001bbe8:
 .L0x8001bbe8: addiu $sp, -0x28
@@ -12690,6 +13088,7 @@ F0x8001bbe8:
 .L0x8001bdf8: jr $ra
 .L0x8001bdfc: addiu $sp, 0x28
 
+.section "fns3_00.0x8001be00"
 .global F0x8001be00
 F0x8001be00:
 .L0x8001be00: addiu $sp, -0x28
@@ -12751,6 +13150,7 @@ F0x8001be00:
 .L0x8001bee4: jr $ra
 .L0x8001bee8: addiu $sp, 0x28
 
+.section "fns3_00.0x8001beec"
 .global F0x8001beec
 F0x8001beec:
 .L0x8001beec: addiu $sp, -0xd0
@@ -12843,6 +13243,7 @@ F0x8001beec:
 .L0x8001c048: jr $ra
 .L0x8001c04c: addiu $sp, 0xd0
 
+.section "fns3_00.0x8001c050"
 .global F0x8001c050
 F0x8001c050:
 .L0x8001c050: addiu $sp, -0xf8
@@ -13098,6 +13499,7 @@ F0x8001c050:
 .L0x8001c440: jr $ra
 .L0x8001c444: addiu $sp, 0xf8
 
+.section "fns3_00.0x8001c448"
 .global F0x8001c448
 F0x8001c448:
 .L0x8001c448: addiu $sp, -0x18
@@ -13128,6 +13530,7 @@ F0x8001c448:
 .L0x8001c4ac: jr $ra
 .L0x8001c4b0: addiu $sp, 0x18
 
+.section "fns3_00.0x8001c4b4"
 .global F0x8001c4b4
 F0x8001c4b4:
 .L0x8001c4b4: addiu $sp, -0x18
@@ -13144,6 +13547,7 @@ F0x8001c4b4:
 .L0x8001c4e4: jr $ra
 .L0x8001c4e8: addiu $sp, 0x18
 
+.section "fns3_00.0x8001c4ec"
 .global F0x8001c4ec
 F0x8001c4ec:
 .L0x8001c4ec: addiu $sp, -0x78
@@ -13334,6 +13738,7 @@ F0x8001c4ec:
 .L0x8001c7d0: jr $ra
 .L0x8001c7d4: addiu $sp, 0x78
 
+.section "fns3_00.0x8001c7d8"
 .global F0x8001c7d8
 F0x8001c7d8:
 .L0x8001c7d8: addiu $sp, -0x18
@@ -13370,6 +13775,7 @@ F0x8001c7d8:
 .L0x8001c854: jr $ra
 .L0x8001c858: addiu $sp, 0x18
 
+.section "fns3_00.0x8001c85c"
 .global F0x8001c85c
 F0x8001c85c:
 .L0x8001c85c: addiu $sp, -0x30
@@ -13430,6 +13836,7 @@ F0x8001c85c:
 .L0x8001c940: jr $ra
 .L0x8001c944: addiu $sp, 0x30
 
+.section "fns3_00.0x8001c948"
 .global F0x8001c948
 F0x8001c948:
 .L0x8001c948: addiu $sp, -0x20
@@ -13521,6 +13928,7 @@ F0x8001c948:
 .L0x8001caa8: jr $ra
 .L0x8001caac: addiu $sp, 0x20
 
+.section "fns3_00.0x8001cab0"
 .global F0x8001cab0
 F0x8001cab0:
 .L0x8001cab0: addiu $sp, -0x38
@@ -13752,6 +14160,7 @@ F0x8001cab0:
 .L0x8001ce3c: jr $ra
 .L0x8001ce40: addiu $sp, 0x38
 
+.section "fns3_00.0x8001ce44"
 .global F0x8001ce44
 F0x8001ce44:
 .L0x8001ce44: addiu $sp, -0x68
@@ -13985,6 +14394,7 @@ F0x8001ce44:
 .L0x8001d1dc: jr $ra
 .L0x8001d1e0: addiu $sp, 0x68
 
+.section "fns3_00.0x8001d1e4"
 .global F0x8001d1e4
 F0x8001d1e4:
 .L0x8001d1e4: addiu $sp, -0x50
@@ -14019,6 +14429,7 @@ F0x8001d1e4:
 .L0x8001d25c: jr $ra
 .L0x8001d260: addiu $sp, 0x50
 
+.section "fns3_00.0x8001d264"
 .global F0x8001d264
 F0x8001d264:
 .L0x8001d264: lbu $v1, ($a0)
@@ -14122,6 +14533,7 @@ F0x8001d264:
 .L0x8001d3ec: jr $ra
 .L0x8001d3f0: nop
 
+.section "fns3_00.0x8001d3f4"
 .global F0x8001d3f4
 F0x8001d3f4:
 .L0x8001d3f4: lui $v0, %hi(D0x8005ccac)
@@ -14182,6 +14594,7 @@ F0x8001d3f4:
 .L0x8001d4d8: jr $ra
 .L0x8001d4dc: addiu $sp, 0x18
 
+.section "fns3_00.0x8001d4e0"
 .global F0x8001d4e0
 F0x8001d4e0:
 .L0x8001d4e0: addiu $sp, -0x18
@@ -14194,6 +14607,7 @@ F0x8001d4e0:
 .L0x8001d4fc: jr $ra
 .L0x8001d500: addiu $sp, 0x18
 
+.section "fns3_00.0x8001d504"
 .global F0x8001d504
 F0x8001d504:
 .L0x8001d504: addiu $sp, -0x20
@@ -14316,6 +14730,7 @@ F0x8001d504:
 .L0x8001d6dc: jr $ra
 .L0x8001d6e0: addiu $sp, 0x20
 
+.section "fns3_00.0x8001d6e4"
 .global F0x8001d6e4
 F0x8001d6e4:
 .L0x8001d6e4: lui $v0, %hi(D0x8004de18)
@@ -14323,6 +14738,7 @@ F0x8001d6e4:
 .L0x8001d6ec: jr $ra
 .L0x8001d6f0: nop
 
+.section "fns3_00.0x8001d6f4"
 .global F0x8001d6f4
 F0x8001d6f4:
 .L0x8001d6f4: lui $v0, %hi(D0x8004de20)
@@ -14330,6 +14746,7 @@ F0x8001d6f4:
 .L0x8001d6fc: jr $ra
 .L0x8001d700: nop
 
+.section "fns3_00.0x8001d704"
 .global F0x8001d704
 F0x8001d704:
 .L0x8001d704: lui $v0, %hi(D0x8004de28)
@@ -14337,6 +14754,7 @@ F0x8001d704:
 .L0x8001d70c: jr $ra
 .L0x8001d710: nop
 
+.section "fns3_00.0x8001d714"
 .global F0x8001d714
 F0x8001d714:
 .L0x8001d714: lw $v0, 0x190($gp)
@@ -14382,6 +14800,7 @@ F0x8001d714:
 .L0x8001d7bc: jr $ra
 .L0x8001d7c0: addiu $sp, 0x20
 
+.section "fns3_00.0x8001d7c4"
 .global F0x8001d7c4
 F0x8001d7c4:
 .L0x8001d7c4: addiu $sp, -0x20
@@ -14416,6 +14835,7 @@ F0x8001d7c4:
 .L0x8001d83c: jr $ra
 .L0x8001d840: addiu $sp, 0x20
 
+.section "fns3_00.0x8001d844"
 .global F0x8001d844
 F0x8001d844:
 .L0x8001d844: lui $v0, %hi(D0x8004de30)
@@ -14423,12 +14843,14 @@ F0x8001d844:
 .L0x8001d84c: jr $ra
 .L0x8001d850: nop
 
+.section "fns3_00.0x8001d854"
 .global F0x8001d854
 F0x8001d854:
 .L0x8001d854: lui $v0, %hi(D0x8004de30)
 .L0x8001d858: jr $ra
 .L0x8001d85c: sw $a0, %lo(D0x8004de30)($v0)
 
+.section "fns3_00.0x8001d860"
 .global F0x8001d860
 F0x8001d860:
 .L0x8001d860: addiu $sp, -0x18
@@ -14459,6 +14881,7 @@ F0x8001d860:
 .L0x8001d8c4: jr $ra
 .L0x8001d8c8: addiu $sp, 0x18
 
+.section "fns3_00.0x8001d8cc"
 .global F0x8001d8cc
 F0x8001d8cc:
 .L0x8001d8cc: addiu $sp, -0x28
@@ -14536,6 +14959,7 @@ F0x8001d8cc:
 .L0x8001d9f8: jr $ra
 .L0x8001d9fc: addiu $sp, 0x28
 
+.section "fns3_00.0x8001da00"
 .global F0x8001da00
 F0x8001da00:
 .L0x8001da00: addiu $sp, -0x30
@@ -14571,6 +14995,7 @@ F0x8001da00:
 .L0x8001da7c: jr $ra
 .L0x8001da80: addiu $sp, 0x30
 
+.section "fns3_00.0x8001da84"
 .global F0x8001da84
 F0x8001da84:
 .L0x8001da84: move_ $a2, $zr
@@ -14593,6 +15018,7 @@ F0x8001da84:
 .L0x8001dac8: jr $ra
 .L0x8001dacc: move_ $v0, $zr
 
+.section "fns3_00.0x8001dad0"
 .global F0x8001dad0
 F0x8001dad0:
 .L0x8001dad0: move_ $a1, $zr
@@ -14621,6 +15047,7 @@ F0x8001dad0:
 .L0x8001db2c: jr $ra
 .L0x8001db30: li $v0, -0x1
 
+.section "fns3_00.0x8001db34"
 .global F0x8001db34
 F0x8001db34:
 .L0x8001db34: move_ $a1, $a0
@@ -14644,6 +15071,7 @@ F0x8001db34:
 .L0x8001db7c: jr $ra
 .L0x8001db80: nop
 
+.section "fns3_00.0x8001db84"
 .global F0x8001db84
 F0x8001db84:
 .L0x8001db84: move_ $t0, $a0
@@ -14669,6 +15097,7 @@ F0x8001db84:
 .L0x8001dbd8: jr $ra
 .L0x8001dbdc: sw $a2, 0xd8($v0)
 
+.section "fns3_00.0x8001dbe0"
 .global F0x8001dbe0
 F0x8001dbe0:
 .L0x8001dbe0: addiu $sp, -0x90
@@ -14710,6 +15139,7 @@ F0x8001dbe0:
 .L0x8001dc74: jr $ra
 .L0x8001dc78: addiu $sp, 0x90
 
+.section "fns3_00.0x8001dc7c"
 .global F0x8001dc7c
 F0x8001dc7c:
 .L0x8001dc7c: addiu $sp, -0x20
@@ -14747,6 +15177,7 @@ F0x8001dc7c:
 .L0x8001dcfc: jr $ra
 .L0x8001dd00: addiu $sp, 0x20
 
+.section "fns3_00.0x8001dd04"
 .global F0x8001dd04
 F0x8001dd04:
 .L0x8001dd04: addiu $sp, -0x28
@@ -14788,6 +15219,7 @@ F0x8001dd04:
 .L0x8001dd98: jr $ra
 .L0x8001dd9c: addiu $sp, 0x28
 
+.section "fns3_00.0x8001dda0"
 .global F0x8001dda0
 F0x8001dda0:
 .L0x8001dda0: addiu $sp, -0x18
@@ -14806,6 +15238,7 @@ F0x8001dda0:
 .L0x8001ddd4: jr $ra
 .L0x8001ddd8: addiu $sp, 0x18
 
+.section "fns3_00.0x8001dddc"
 .global F0x8001dddc
 F0x8001dddc:
 .L0x8001dddc: lui $a2, 0xff
@@ -14844,6 +15277,7 @@ F0x8001dddc:
 .L0x8001de60: jr $ra
 .L0x8001de64: nop
 
+.section "fns3_00.0x8001de68"
 .global F0x8001de68
 F0x8001de68:
 .L0x8001de68: addiu $sp, -0x88
@@ -14927,6 +15361,7 @@ F0x8001de68:
 .L0x8001dfa0: jr $ra
 .L0x8001dfa4: addiu $sp, 0x88
 
+.section "fns3_00.0x8001dfa8"
 .global F0x8001dfa8
 F0x8001dfa8:
 .L0x8001dfa8: lui $v0, %hi(D0x8004de44)
@@ -14939,6 +15374,7 @@ F0x8001dfa8:
 .L0x8001dfc4: jr $ra
 .L0x8001dfc8: addu $v0, $a1
 
+.section "fns3_00.0x8001dfcc"
 .global F0x8001dfcc
 F0x8001dfcc:
 .L0x8001dfcc: lw $v0, 0x68($a0)
@@ -14954,6 +15390,7 @@ F0x8001dfcc:
 .L0x8001dff4: jr $ra
 .L0x8001dff8: addu $v0, $a1
 
+.section "fns3_00.0x8001dffc"
 .global F0x8001dffc
 F0x8001dffc:
 .L0x8001dffc: lui $v0, %hi(D0x8004de44)
@@ -14965,12 +15402,14 @@ F0x8001dffc:
 .L0x8001e014: jr $ra
 .L0x8001e018: nop
 
+.section "fns3_00.0x8001e01c"
 .global F0x8001e01c
 F0x8001e01c:
 .L0x8001e01c: lw $v0, 0x68($a0)
 .L0x8001e020: jr $ra
 .L0x8001e024: nop
 
+.section "fns3_00.0x8001e028"
 .global F0x8001e028
 F0x8001e028:
 .L0x8001e028: sb $a1, 0x19($a0)
@@ -14986,12 +15425,14 @@ F0x8001e028:
 .L0x8001e050: jr $ra
 .L0x8001e054: sb $zr, 0x18($a0)
 
+.section "fns3_00.0x8001e058"
 .global F0x8001e058
 F0x8001e058:
 .L0x8001e058: sh $a1, 0x6c($a0)
 .L0x8001e05c: jr $ra
 .L0x8001e060: sh $a2, 0x6e($a0)
 
+.section "fns3_00.0x8001e064"
 .global F0x8001e064
 F0x8001e064:
 .L0x8001e064: lw $v0, 0x70($a0)
@@ -15004,12 +15445,14 @@ F0x8001e064:
 .L0x8001e080: jr $ra
 .L0x8001e084: sw $v0, 0x4($a1)
 
+.section "fns3_00.0x8001e088"
 .global F0x8001e088
 F0x8001e088:
 .L0x8001e088: sw $a1, 0x70($a0)
 .L0x8001e08c: jr $ra
 .L0x8001e090: sw $a2, 0x74($a0)
 
+.section "fns3_00.0x8001e094"
 .global F0x8001e094
 F0x8001e094:
 .L0x8001e094: lw $v0, 0x70($a0)
@@ -15020,18 +15463,21 @@ F0x8001e094:
 .L0x8001e0a8: jr $ra
 .L0x8001e0ac: sw $v1, 0x74($a0)
 
+.section "fns3_00.0x8001e0b0"
 .global F0x8001e0b0
 F0x8001e0b0:
 .L0x8001e0b0: sh $a1, ($a0)
 .L0x8001e0b4: jr $ra
 .L0x8001e0b8: sh $a2, 0x2($a0)
 
+.section "fns3_00.0x8001e0bc"
 .global F0x8001e0bc
 F0x8001e0bc:
 .L0x8001e0bc: sh $a1, 0x4($a0)
 .L0x8001e0c0: jr $ra
 .L0x8001e0c4: sh $a2, 0x6($a0)
 
+.section "fns3_00.0x8001e0c8"
 .global F0x8001e0c8
 F0x8001e0c8:
 .L0x8001e0c8: lhu $v1, ($a0)
@@ -15055,6 +15501,7 @@ F0x8001e0c8:
 .L0x8001e110: jr $ra
 .L0x8001e114: sh $v0, 0x6($a1)
 
+.section "fns3_00.0x8001e118"
 .global F0x8001e118
 F0x8001e118:
 .L0x8001e118: addiu $sp, -0x20
@@ -15091,6 +15538,7 @@ F0x8001e118:
 .L0x8001e194: jr $ra
 .L0x8001e198: addiu $sp, 0x20
 
+.section "fns3_00.0x8001e19c"
 .global F0x8001e19c
 F0x8001e19c:
 .L0x8001e19c: lui $v1, 0x7fff
@@ -15113,6 +15561,7 @@ F0x8001e19c:
 .L0x8001e1e0: jr $ra
 .L0x8001e1e4: sw $v0, 0x7c($a0)
 
+.section "fns3_00.0x8001e1e8"
 .global F0x8001e1e8
 F0x8001e1e8:
 .L0x8001e1e8: addiu $sp, -0x20
@@ -15138,6 +15587,7 @@ F0x8001e1e8:
 .L0x8001e238: jr $ra
 .L0x8001e23c: addiu $sp, 0x20
 
+.section "fns3_00.0x8001e240"
 .global F0x8001e240
 F0x8001e240:
 .L0x8001e240: lw $t0, 0x7c($a0)
@@ -15198,6 +15648,7 @@ F0x8001e240:
 .L0x8001e31c: jr $ra
 .L0x8001e320: nop
 
+.section "fns3_00.0x8001e324"
 .global F0x8001e324
 F0x8001e324:
 .L0x8001e324: lw $v1, 0x7c($a0)
@@ -15227,6 +15678,7 @@ F0x8001e324:
 .L0x8001e384: jr $ra
 .L0x8001e388: nop
 
+.section "fns3_00.0x8001e38c"
 .global F0x8001e38c
 F0x8001e38c:
 .L0x8001e38c: addiu $sp, -0x20
@@ -15260,6 +15712,7 @@ F0x8001e38c:
 .L0x8001e3fc: jr $ra
 .L0x8001e400: addiu $sp, 0x20
 
+.section "fns3_00.0x8001e404"
 .global F0x8001e404
 F0x8001e404:
 .L0x8001e404: beqz $a1, .L0x8001e468
@@ -15290,6 +15743,7 @@ F0x8001e404:
 .L0x8001e468: jr $ra
 .L0x8001e46c: nop
 
+.section "fns3_00.0x8001e470"
 .global F0x8001e470
 F0x8001e470:
 .L0x8001e470: addiu $sp, -0x18
@@ -15326,6 +15780,7 @@ F0x8001e470:
 .L0x8001e4ec: jr $ra
 .L0x8001e4f0: addiu $sp, 0x18
 
+.section "fns3_00.0x8001e4f4"
 .global F0x8001e4f4
 F0x8001e4f4:
 .L0x8001e4f4: beqz $a1, .L0x8001e554
@@ -15355,6 +15810,7 @@ F0x8001e4f4:
 .L0x8001e554: jr $ra
 .L0x8001e558: nop
 
+.section "fns3_00.0x8001e55c"
 .global F0x8001e55c
 F0x8001e55c:
 .L0x8001e55c: lui $v0, %hi(D0x8004de44)
@@ -15382,6 +15838,7 @@ F0x8001e55c:
 .L0x8001e5b4: jr $ra
 .L0x8001e5b8: nop
 
+.section "fns3_00.0x8001e5bc"
 .global F0x8001e5bc
 F0x8001e5bc:
 .L0x8001e5bc: addiu $sp, -0x20
@@ -15498,12 +15955,14 @@ F0x8001e5bc:
 .L0x8001e7d8: jr $ra
 .L0x8001e7dc: addiu $sp, 0x20
 
+.section "fns3_00.0x8001e7e0"
 .global F0x8001e7e0
 F0x8001e7e0:
 .L0x8001e7e0: sw $a0, 0x1b8($gp)
 .L0x8001e7e4: jr $ra
 .L0x8001e7e8: nop
 
+.section "fns3_00.0x8001e7ec"
 .global F0x8001e7ec
 F0x8001e7ec:
 .L0x8001e7ec: addiu $sp, -0x18
@@ -15547,6 +16006,7 @@ F0x8001e7ec:
 .L0x8001e888: jr $ra
 .L0x8001e88c: addiu $sp, 0x18
 
+.section "fns3_00.0x8001e890"
 .global F0x8001e890
 F0x8001e890:
 .L0x8001e890: addiu $sp, -0x50
@@ -15592,6 +16052,7 @@ F0x8001e890:
 .L0x8001e930: jr $ra
 .L0x8001e934: addiu $sp, 0x50
 
+.section "fns3_00.0x8001e938"
 .global F0x8001e938
 F0x8001e938:
 .L0x8001e938: lui $v0, %hi(D0x8004df8c)
@@ -15616,6 +16077,7 @@ F0x8001e938:
 .L0x8001e984: jr $ra
 .L0x8001e988: addiu $sp, 0x18
 
+.section "fns3_00.0x8001e98c"
 .global F0x8001e98c
 F0x8001e98c:
 .L0x8001e98c: lw $v0, 0x1b8($gp)
@@ -15624,6 +16086,7 @@ F0x8001e98c:
 .L0x8001e998: jr $ra
 .L0x8001e99c: sw $a1, 0x8($v0)
 
+.section "fns3_00.0x8001e9a0"
 .global F0x8001e9a0
 F0x8001e9a0:
 .L0x8001e9a0: lw $v0, 0x1b8($gp)
@@ -15632,6 +16095,7 @@ F0x8001e9a0:
 .L0x8001e9ac: jr $ra
 .L0x8001e9b0: sw $a1, 0x10($v0)
 
+.section "fns3_00.0x8001e9b4"
 .global F0x8001e9b4
 F0x8001e9b4:
 .L0x8001e9b4: lw $v0, 0x1b8($gp)
@@ -15640,18 +16104,21 @@ F0x8001e9b4:
 .L0x8001e9c0: jr $ra
 .L0x8001e9c4: sw $a1, 0x18($v0)
 
+.section "fns3_00.0x8001e9c8"
 .global F0x8001e9c8
 F0x8001e9c8:
 .L0x8001e9c8: lw $v0, 0x1b8($gp)
 .L0x8001e9cc: jr $ra
 .L0x8001e9d0: sw $a0, 0x1c($v0)
 
+.section "fns3_00.0x8001e9d4"
 .global F0x8001e9d4
 F0x8001e9d4:
 .L0x8001e9d4: lw $v0, 0x1b8($gp)
 .L0x8001e9d8: jr $ra
 .L0x8001e9dc: sw $a0, 0x20($v0)
 
+.section "fns3_00.0x8001e9e0"
 .global F0x8001e9e0
 F0x8001e9e0:
 .L0x8001e9e0: addiu $sp, -0x28
@@ -15778,6 +16245,7 @@ F0x8001e9e0:
 .L0x8001ebc4: jr $ra
 .L0x8001ebc8: addiu $sp, 0x28
 
+.section "fns3_00.0x8001ebcc"
 .global F0x8001ebcc
 F0x8001ebcc:
 .L0x8001ebcc: lw $v0, 0x1b8($gp)
@@ -15792,6 +16260,7 @@ F0x8001ebcc:
 .L0x8001ebf0: jr $ra
 .L0x8001ebf4: nop
 
+.section "fns3_00.0x8001ebf8"
 .global F0x8001ebf8
 F0x8001ebf8:
 .L0x8001ebf8: addiu $sp, -0x18
@@ -15831,12 +16300,14 @@ F0x8001ebf8:
 .L0x8001eca8: jr $ra
 .L0x8001ecac: addiu $sp, 0x18
 
+.section "fns3_00.0x8001ecb0"
 .global F0x8001ecb0
 F0x8001ecb0:
 .L0x8001ecb0: sw $a0, 0x1c0($gp)
 .L0x8001ecb4: jr $ra
 .L0x8001ecb8: nop
 
+.section "fns3_00.0x8001ecbc"
 .global F0x8001ecbc
 F0x8001ecbc:
 .L0x8001ecbc: lw $v0, 0x1c0($gp)
@@ -15847,6 +16318,7 @@ F0x8001ecbc:
 .L0x8001ecd0: jr $ra
 .L0x8001ecd4: sw $a1, 0x14($v0)
 
+.section "fns3_00.0x8001ecd8"
 .global F0x8001ecd8
 F0x8001ecd8:
 .L0x8001ecd8: lw $v0, 0x1c0($gp)
@@ -15855,12 +16327,14 @@ F0x8001ecd8:
 .L0x8001ece4: jr $ra
 .L0x8001ece8: sw $a1, 0x1c($v0)
 
+.section "fns3_00.0x8001ecec"
 .global F0x8001ecec
 F0x8001ecec:
 .L0x8001ecec: lw $v0, 0x1c0($gp)
 .L0x8001ecf0: jr $ra
 .L0x8001ecf4: sw $a0, 0x20($v0)
 
+.section "fns3_00.0x8001ecf8"
 .global F0x8001ecf8
 F0x8001ecf8:
 .L0x8001ecf8: lw $v0, 0x1c0($gp)
@@ -15879,6 +16353,7 @@ F0x8001ecf8:
 .L0x8001ed2c: jr $ra
 .L0x8001ed30: addiu $sp, 0x18
 
+.section "fns3_00.0x8001ed34"
 .global F0x8001ed34
 F0x8001ed34:
 .L0x8001ed34: lui $v0, %hi(D0x8004df8c)
@@ -15896,6 +16371,7 @@ F0x8001ed34:
 .L0x8001ed64: jr $ra
 .L0x8001ed68: addiu $sp, 0x18
 
+.section "fns3_00.0x8001ed6c"
 .global F0x8001ed6c
 F0x8001ed6c:
 .L0x8001ed6c: addiu $sp, -0x88
@@ -16436,6 +16912,7 @@ F0x8001ed6c:
 .L0x8001f5c8: jr $ra
 .L0x8001f5cc: addiu $sp, 0x88
 
+.section "fns3_00.0x8001f5d0"
 .global F0x8001f5d0
 F0x8001f5d0:
 .L0x8001f5d0: lw $v0, 0x1c0($gp)
@@ -16446,6 +16923,7 @@ F0x8001f5d0:
 .L0x8001f5e4: jr $ra
 .L0x8001f5e8: sw $v1, 0x2c($v0)
 
+.section "fns3_00.0x8001f5ec"
 .global F0x8001f5ec
 F0x8001f5ec:
 .L0x8001f5ec: lw $v0, 0x1c0($gp)
@@ -16456,6 +16934,7 @@ F0x8001f5ec:
 .L0x8001f600: jr $ra
 .L0x8001f604: sw $v1, 0x2c($v0)
 
+.section "fns3_00.0x8001f608"
 .global F0x8001f608
 F0x8001f608:
 .L0x8001f608: lw $v0, 0x1c0($gp)
@@ -16464,12 +16943,14 @@ F0x8001f608:
 .L0x8001f614: jr $ra
 .L0x8001f618: sw $a1, 0x34($v0)
 
+.section "fns3_00.0x8001f61c"
 .global F0x8001f61c
 F0x8001f61c:
 .L0x8001f61c: lw $v0, 0x1c0($gp)
 .L0x8001f620: jr $ra
 .L0x8001f624: sw $a0, 0x24($v0)
 
+.section "fns3_00.0x8001f628"
 .global F0x8001f628
 F0x8001f628:
 .L0x8001f628: lw $v0, 0x1c0($gp)
@@ -16481,6 +16962,7 @@ F0x8001f628:
 .L0x8001f640: jr $ra
 .L0x8001f644: nop
 
+.section "fns3_00.0x8001f648"
 .global F0x8001f648
 F0x8001f648:
 .L0x8001f648: addiu $sp, -0x18
@@ -16532,12 +17014,14 @@ F0x8001f648:
 .L0x8001f730: jr $ra
 .L0x8001f734: addiu $sp, 0x18
 
+.section "fns3_00.0x8001f738"
 .global F0x8001f738
 F0x8001f738:
 .L0x8001f738: sw $a0, 0x1c8($gp)
 .L0x8001f73c: jr $ra
 .L0x8001f740: nop
 
+.section "fns3_00.0x8001f744"
 .global F0x8001f744
 F0x8001f744:
 .L0x8001f744: lw $v0, ($a0)
@@ -16552,6 +17036,7 @@ F0x8001f744:
 .L0x8001f768: jr $ra
 .L0x8001f76c: addu $v0, $a0, $v0
 
+.section "fns3_00.0x8001f770"
 .global F0x8001f770
 F0x8001f770:
 .L0x8001f770: addiu $sp, -0x38
@@ -16602,6 +17087,7 @@ F0x8001f770:
 .L0x8001f828: jr $v0
 .L0x8001f82c: nop
 
+.section "fns3_00.0x8001f830"
 .global F0x8001f830
 F0x8001f830:
 .L0x8001f830: beqz $s3, .L0x8001f840
@@ -16628,6 +17114,7 @@ F0x8001f830:
 .L0x8001f884: j .L0x8001f9c8
 .L0x8001f888: addiu $s2, 0x1
 
+.section "fns3_00.0x8001f88c"
 .global F0x8001f88c
 F0x8001f88c:
 .L0x8001f88c: lh $v0, 0x16($s6)
@@ -16654,6 +17141,7 @@ F0x8001f88c:
 .L0x8001f8e0: j .L0x8001f9bc
 .L0x8001f8e4: addu $s0, $v1
 
+.section "fns3_00.0x8001f8e8"
 .global F0x8001f8e8
 F0x8001f8e8:
 .L0x8001f8e8: lw $v0, ($s5)
@@ -16695,6 +17183,7 @@ F0x8001f8e8:
 .L0x8001f978: j .L0x8001f9c8
 .L0x8001f97c: addu $s2, $v0
 
+.section "fns3_00.0x8001f980"
 .global F0x8001f980
 F0x8001f980:
 .L0x8001f980: beqz $s3, .L0x8001f990
@@ -16721,6 +17210,7 @@ F0x8001f980:
 .L0x8001f9d4: bnez $v0, .L0x8001f7e4
 .L0x8001f9d8: move_ $a2, $s6
 
+.section "fns3_00.0x8001f9dc"
 .global F0x8001f9dc
 F0x8001f9dc:
 .L0x8001f9dc: move_ $v0, $s0
@@ -16741,6 +17231,7 @@ F0x8001f9dc:
 .L0x8001fa18: jr $ra
 .L0x8001fa1c: addiu $sp, 0x38
 
+.section "fns3_00.0x8001fa20"
 .global F0x8001fa20
 F0x8001fa20:
 .L0x8001fa20: addiu $sp, -0x20
@@ -16912,6 +17403,7 @@ F0x8001fa20:
 .L0x8001fcb8: jr $ra
 .L0x8001fcbc: addiu $sp, 0x20
 
+.section "fns3_00.0x8001fcc0"
 .global F0x8001fcc0
 F0x8001fcc0:
 .L0x8001fcc0: addiu $sp, -0x18
@@ -16935,12 +17427,14 @@ F0x8001fcc0:
 .L0x8001fd14: jr $ra
 .L0x8001fd18: addiu $sp, 0x18
 
+.section "fns3_00.0x8001fd1c"
 .global F0x8001fd1c
 F0x8001fd1c:
 .L0x8001fd1c: sw $a0, 0x1d0($gp)
 .L0x8001fd20: jr $ra
 .L0x8001fd24: nop
 
+.section "fns3_00.0x8001fd28"
 .global F0x8001fd28
 F0x8001fd28:
 .L0x8001fd28: lw $v0, 0x1d0($gp)
@@ -16949,6 +17443,7 @@ F0x8001fd28:
 .L0x8001fd34: jr $ra
 .L0x8001fd38: sw $a1, 0xc($v0)
 
+.section "fns3_00.0x8001fd3c"
 .global F0x8001fd3c
 F0x8001fd3c:
 .L0x8001fd3c: lw $v0, 0x1d0($gp)
@@ -16957,6 +17452,7 @@ F0x8001fd3c:
 .L0x8001fd48: jr $ra
 .L0x8001fd4c: sw $a1, 0x14($v0)
 
+.section "fns3_00.0x8001fd50"
 .global F0x8001fd50
 F0x8001fd50:
 .L0x8001fd50: addiu $sp, -0x28
@@ -17018,6 +17514,7 @@ F0x8001fd50:
 .L0x8001fe30: jr $ra
 .L0x8001fe34: addiu $sp, 0x28
 
+.section "fns3_00.0x8001fe38"
 .global F0x8001fe38
 F0x8001fe38:
 .L0x8001fe38: addiu $sp, -0x28
@@ -17109,12 +17606,14 @@ F0x8001fe38:
 .L0x8001ff94: jr $ra
 .L0x8001ff98: addiu $sp, 0x28
 
+.section "fns3_00.0x8001ff9c"
 .global F0x8001ff9c
 F0x8001ff9c:
 .L0x8001ff9c: lw $v0, 0x1d0($gp)
 .L0x8001ffa0: jr $ra
 .L0x8001ffa4: sw $a0, 0x18($v0)
 
+.section "fns3_00.0x8001ffa8"
 .global F0x8001ffa8
 F0x8001ffa8:
 .L0x8001ffa8: addiu $sp, -0x18
@@ -17146,6 +17645,7 @@ F0x8001ffa8:
 .L0x80020028: jr $ra
 .L0x8002002c: addiu $sp, 0x18
 
+.section "fns3_00.0x80020030"
 .global F0x80020030
 F0x80020030:
 .L0x80020030: move_ $v1, $zr
@@ -17164,6 +17664,7 @@ F0x80020030:
 .L0x80020064: jr $ra
 .L0x80020068: nop
 
+.section "fns3_00.0x8002006c"
 .global F0x8002006c
 F0x8002006c:
 .L0x8002006c: addiu $sp, -0x50
@@ -17267,6 +17768,7 @@ F0x8002006c:
 .L0x800201fc: jr $ra
 .L0x80020200: addiu $sp, 0x50
 
+.section "fns3_00.0x80020204"
 .global F0x80020204
 F0x80020204:
 .L0x80020204: addiu $sp, -0x30
@@ -17322,6 +17824,7 @@ F0x80020204:
 .L0x800202cc: jr $ra
 .L0x800202d0: addiu $sp, 0x30
 
+.section "fns3_00.0x800202d4"
 .global F0x800202d4
 F0x800202d4:
 .L0x800202d4: addiu $sp, -0x28
@@ -17367,6 +17870,7 @@ F0x800202d4:
 .L0x80020374: jr $ra
 .L0x80020378: addiu $sp, 0x28
 
+.section "fns3_00.0x8002037c"
 .global F0x8002037c
 F0x8002037c:
 .L0x8002037c: addiu $sp, -0x28
@@ -17418,6 +17922,7 @@ F0x8002037c:
 .L0x80020434: jr $ra
 .L0x80020438: addiu $sp, 0x28
 
+.section "fns3_00.0x8002043c"
 .global F0x8002043c
 F0x8002043c:
 .L0x8002043c: lui $v0, %hi(D0x80055c40)
@@ -17425,6 +17930,7 @@ F0x8002043c:
 .L0x80020444: jr $ra
 .L0x80020448: sltu $v0, $zr, $v0
 
+.section "fns3_00.0x8002044c"
 .global F0x8002044c
 F0x8002044c:
 .L0x8002044c: addiu $sp, -0x30
@@ -17500,6 +18006,7 @@ F0x8002044c:
 .L0x8002056c: jr $ra
 .L0x80020570: addiu $sp, 0x30
 
+.section "fns3_00.0x80020574"
 .global F0x80020574
 F0x80020574:
 .L0x80020574: addiu $sp, -0x20
@@ -17534,6 +18041,7 @@ F0x80020574:
 .L0x800205e8: jr $ra
 .L0x800205ec: addiu $sp, 0x20
 
+.section "fns3_00.0x800205f0"
 .global F0x800205f0
 F0x800205f0:
 .L0x800205f0: addiu $sp, -0x30
@@ -17736,6 +18244,7 @@ F0x800205f0:
 .L0x80020904: jr $ra
 .L0x80020908: addiu $sp, 0x30
 
+.section "fns3_00.0x8002090c"
 .global F0x8002090c
 F0x8002090c:
 .L0x8002090c: addiu $sp, -0x28
@@ -17762,6 +18271,7 @@ F0x8002090c:
 .L0x80020964: jr $ra
 .L0x80020968: addiu $sp, 0x28
 
+.section "fns3_00.0x8002096c"
 .global F0x8002096c
 F0x8002096c:
 .L0x8002096c: addiu $sp, -0x30
@@ -17805,6 +18315,7 @@ F0x8002096c:
 .L0x80020a08: jr $ra
 .L0x80020a0c: addiu $sp, 0x30
 
+.section "fns3_00.0x80020a10"
 .global F0x80020a10
 F0x80020a10:
 .L0x80020a10: addiu $sp, -0x18
@@ -17888,6 +18399,7 @@ F0x80020a10:
 .L0x80020b50: jr $ra
 .L0x80020b54: addiu $sp, 0x18
 
+.section "fns3_00.0x80020b58"
 .global F0x80020b58
 F0x80020b58:
 .L0x80020b58: addiu $sp, -0x20
@@ -17947,6 +18459,7 @@ F0x80020b58:
 .L0x80020c30: jr $ra
 .L0x80020c34: addiu $sp, 0x20
 
+.section "fns3_00.0x80020c38"
 .global F0x80020c38
 F0x80020c38:
 .L0x80020c38: addiu $sp, -0x18
@@ -17960,8 +18473,7 @@ F0x80020c38:
 .L0x80020c5c: jr $ra
 .L0x80020c60: addiu $sp, 0x18
 
-.section "fns3_010"
-
+.section "fns3_010.0x80020d10"
 .global F0x80020d10
 F0x80020d10:
 .L0x80020d10: addiu $sp, -0x20
@@ -17996,6 +18508,7 @@ F0x80020d10:
 .L0x80020d84: jr $ra
 .L0x80020d88: addiu $sp, 0x20
 
+.section "fns3_010.0x80020d8c"
 .global F0x80020d8c
 F0x80020d8c:
 .L0x80020d8c: lui $v0, %hi(D0x80055d84)
@@ -18015,6 +18528,7 @@ F0x80020d8c:
 .L0x80020dc4: jr $ra
 .L0x80020dc8: addiu $sp, 0x20
 
+.section "fns3_010.0x80020dcc"
 .global F0x80020dcc
 F0x80020dcc:
 .L0x80020dcc: lui $v0, %hi(D0x80055d84)
@@ -18047,6 +18561,7 @@ F0x80020dcc:
 .L0x80020e40: jr $ra
 .L0x80020e44: addiu $sp, 0x20
 
+.section "fns3_010.0x80020e48"
 .global F0x80020e48
 F0x80020e48:
 .L0x80020e48: addiu $sp, -0x18
@@ -18060,6 +18575,7 @@ F0x80020e48:
 .L0x80020e68: jr $ra
 .L0x80020e6c: nop
 
+.section "fns3_010.0x80020e70"
 .global F0x80020e70
 F0x80020e70:
 .L0x80020e70: lbu $v0, 0xe9($a0)
@@ -18114,6 +18630,7 @@ F0x80020e70:
 .L0x80020f34: move_ $v0, $zr
 .L0x80020f38: nop
 
+.section "fns3_010.0x80020f3c"
 .global F0x80020f3c
 F0x80020f3c:
 .L0x80020f3c: lui $v0, %hi(D0x80055d84)
@@ -18154,6 +18671,7 @@ F0x80020f3c:
 .L0x80020fd0: jr $ra
 .L0x80020fd4: addiu $sp, 0x20
 
+.section "fns3_010.0x80020fd8"
 .global F0x80020fd8
 F0x80020fd8:
 .L0x80020fd8: addiu $sp, -0x18
@@ -18179,6 +18697,7 @@ F0x80020fd8:
 .L0x80021028: jr $ra
 .L0x8002102c: nop
 
+.section "fns3_010.0x80021030"
 .global F0x80021030
 F0x80021030:
 .L0x80021030: addiu $sp, -0x18
@@ -18209,6 +18728,7 @@ F0x80021030:
 .L0x80021094: nop
 .L0x80021098: nop
 
+.section "fns3_010.0x8002109c"
 .global F0x8002109c
 F0x8002109c:
 .L0x8002109c: lui $v0, %hi(D0x80055d84)
@@ -18264,6 +18784,7 @@ F0x8002109c:
 .L0x80021164: nop
 .L0x80021168: nop
 
+.section "fns3_010.0x8002116c"
 .global F0x8002116c
 F0x8002116c:
 .L0x8002116c: lui $v0, %hi(D0x80055d84)
@@ -18331,6 +18852,7 @@ F0x8002116c:
 .L0x80021264: nop
 .L0x80021268: nop
 
+.section "fns3_010.0x8002126c"
 .global F0x8002126c
 F0x8002126c:
 .L0x8002126c: lui $v0, %hi(D0x80055d84)
@@ -18366,30 +18888,35 @@ F0x8002126c:
 .L0x800212e4: jr $v0
 .L0x800212e8: nop
 
+.section "fns3_010.0x800212ec"
 .global F0x800212ec
 F0x800212ec:
 .L0x800212ec: lbu $v0, ($v1)
 .L0x800212f0: j .L0x8002132c
 .L0x800212f4: nop
 
+.section "fns3_010.0x800212f8"
 .global F0x800212f8
 F0x800212f8:
 .L0x800212f8: lbu $v0, 0x1($v1)
 .L0x800212fc: j .L0x8002132c
 .L0x80021300: nop
 
+.section "fns3_010.0x80021304"
 .global F0x80021304
 F0x80021304:
 .L0x80021304: lbu $v0, 0x2($v1)
 .L0x80021308: j .L0x8002132c
 .L0x8002130c: nop
 
+.section "fns3_010.0x80021310"
 .global F0x80021310
 F0x80021310:
 .L0x80021310: lbu $v0, 0x3($v1)
 .L0x80021314: j .L0x8002132c
 .L0x80021318: nop
 
+.section "fns3_010.0x8002131c"
 .global F0x8002131c
 F0x8002131c:
 .L0x8002131c: lbu $v0, 0x4($v1)
@@ -18405,6 +18932,7 @@ F0x8002131c:
 .L0x80021344: nop
 .L0x80021348: nop
 
+.section "fns3_010.0x8002134c"
 .global F0x8002134c
 F0x8002134c:
 .L0x8002134c: addiu $sp, -0x18
@@ -18457,6 +18985,7 @@ F0x8002134c:
 .L0x80021410: jr $ra
 .L0x80021414: addiu $sp, 0x18
 
+.section "fns3_010.0x80021418"
 .global F0x80021418
 F0x80021418:
 .L0x80021418: addiu $sp, -0x18
@@ -18476,6 +19005,7 @@ F0x80021418:
 .L0x80021454: jr $ra
 .L0x80021458: nop
 
+.section "fns3_010.0x8002145c"
 .global F0x8002145c
 F0x8002145c:
 .L0x8002145c: lui $v0, %hi(D0x80055de0)
@@ -18487,6 +19017,7 @@ F0x8002145c:
 .L0x80021474: nop
 .L0x80021478: nop
 
+.section "fns3_010.0x8002147c"
 .global F0x8002147c
 F0x8002147c:
 .L0x8002147c: addiu $sp, -0x20
@@ -18534,6 +19065,7 @@ F0x8002147c:
 .L0x80021524: jr $ra
 .L0x80021528: addiu $sp, 0x20
 
+.section "fns3_010.0x8002152c"
 .global F0x8002152c
 F0x8002152c:
 .L0x8002152c: addiu $sp, -0x20
@@ -18624,6 +19156,7 @@ F0x8002152c:
 .L0x80021684: nop
 .L0x80021688: nop
 
+.section "fns3_010.0x8002168c"
 .global F0x8002168c
 F0x8002168c:
 .L0x8002168c: addiu $sp, -0x18
@@ -18675,6 +19208,7 @@ F0x8002168c:
 .L0x80021774: jr $ra
 .L0x80021778: addiu $sp, 0x18
 
+.section "fns3_010.0x8002177c"
 .global F0x8002177c
 F0x8002177c:
 .L0x8002177c: lbu $v0, 0x49($a0)
@@ -18704,6 +19238,7 @@ F0x8002177c:
 .L0x800217dc: jr $ra
 .L0x800217e0: nop
 
+.section "fns3_010.0x800217e4"
 .global F0x800217e4
 F0x800217e4:
 .L0x800217e4: addiu $sp, -0x28
@@ -18766,6 +19301,7 @@ F0x800217e4:
 .L0x800218d0: jr $ra
 .L0x800218d4: addiu $sp, 0x28
 
+.section "fns3_010.0x800218d8"
 .global F0x800218d8
 F0x800218d8:
 .L0x800218d8: lbu $v0, 0x37($a0)
@@ -18773,6 +19309,7 @@ F0x800218d8:
 .L0x800218e0: jr $ra
 .L0x800218e4: sb $v0, 0x38($a0)
 
+.section "fns3_010.0x800218e8"
 .global F0x800218e8
 F0x800218e8:
 .L0x800218e8: lbu $v0, 0x45($a0)
@@ -18823,6 +19360,7 @@ F0x800218e8:
 .L0x8002199c: jr $ra
 .L0x800219a0: nop
 
+.section "fns3_010.0x800219a4"
 .global F0x800219a4
 F0x800219a4:
 .L0x800219a4: addiu $sp, -0x18
@@ -18985,6 +19523,7 @@ F0x800219a4:
 .L0x80021c18: jr $ra
 .L0x80021c1c: addiu $sp, 0x18
 
+.section "fns3_010.0x80021c20"
 .global F0x80021c20
 F0x80021c20:
 .L0x80021c20: la_ $v0, D0x8007ed38
@@ -18995,6 +19534,7 @@ F0x80021c20:
 .L0x80021c38: jr $ra
 .L0x80021c3c: nop
 
+.section "fns3_010.0x80021c40"
 .global F0x80021c40
 F0x80021c40:
 .L0x80021c40: addiu $sp, -0x18
@@ -19066,6 +19606,7 @@ F0x80021c40:
 .L0x80021d48: jr $ra
 .L0x80021d4c: addiu $sp, 0x18
 
+.section "fns3_010.0x80021d50"
 .global F0x80021d50
 F0x80021d50:
 .L0x80021d50: addiu $sp, -0x18
@@ -19224,6 +19765,7 @@ F0x80021d50:
 .L0x80021fb4: jr $ra
 .L0x80021fb8: addiu $sp, 0x18
 
+.section "fns3_010.0x80021fbc"
 .global F0x80021fbc
 F0x80021fbc:
 .L0x80021fbc: addiu $sp, -0x18
@@ -19283,6 +19825,7 @@ F0x80021fbc:
 .L0x80022094: jr $ra
 .L0x80022098: addiu $sp, 0x18
 
+.section "fns3_010.0x8002209c"
 .global F0x8002209c
 F0x8002209c:
 .L0x8002209c: lhu $v0, 0xe6($a0)
@@ -19298,6 +19841,7 @@ F0x8002209c:
 .L0x800220c4: nop
 .L0x800220c8: nop
 
+.section "fns3_010.0x800220cc"
 .global F0x800220cc
 F0x800220cc:
 .L0x800220cc: addiu $sp, -0x20
@@ -19358,6 +19902,7 @@ F0x800220cc:
 .L0x800221dc: jr $ra
 .L0x800221e0: addiu $sp, 0x20
 
+.section "fns3_010.0x800221e4"
 .global F0x800221e4
 F0x800221e4:
 .L0x800221e4: lbu $v0, 0x49($a0)
@@ -19390,6 +19935,7 @@ F0x800221e4:
 .L0x80022250: jr $ra
 .L0x80022254: nop
 
+.section "fns3_010.0x80022258"
 .global F0x80022258
 F0x80022258:
 .L0x80022258: addiu $sp, -0x28
@@ -19460,6 +20006,7 @@ F0x80022258:
 .L0x80022368: jr $ra
 .L0x8002236c: addiu $sp, 0x28
 
+.section "fns3_010.0x80022370"
 .global F0x80022370
 F0x80022370:
 .L0x80022370: lbu $v1, 0x37($a0)
@@ -19480,6 +20027,7 @@ F0x80022370:
 .L0x800223ac: jr $ra
 .L0x800223b0: nop
 
+.section "fns3_010.0x800223b4"
 .global F0x800223b4
 F0x800223b4:
 .L0x800223b4: lbu $v0, 0x45($a0)
@@ -19551,6 +20099,7 @@ F0x800223b4:
 .L0x800224bc: jr $ra
 .L0x800224c0: nop
 
+.section "fns3_010.0x800224c4"
 .global F0x800224c4
 F0x800224c4:
 .L0x800224c4: addiu $sp, -0x18
@@ -19713,6 +20262,7 @@ F0x800224c4:
 .L0x80022738: jr $ra
 .L0x8002273c: addiu $sp, 0x18
 
+.section "fns3_010.0x80022740"
 .global F0x80022740
 F0x80022740:
 .L0x80022740: la_ $a1, D0x8007efa8
@@ -19743,6 +20293,7 @@ F0x80022740:
 .L0x800227a8: jr $ra
 .L0x800227ac: move_ $v0, $a1
 
+.section "fns3_010.0x800227b0"
 .global F0x800227b0
 F0x800227b0:
 .L0x800227b0: addiu $sp, -0x18
@@ -19902,6 +20453,7 @@ F0x800227b0:
 .L0x80022a18: jr $ra
 .L0x80022a1c: nop
 
+.section "fns3_010.0x80022a20"
 .global F0x80022a20
 F0x80022a20:
 .L0x80022a20: addiu $sp, -0x18
@@ -20155,6 +20707,7 @@ F0x80022a20:
 .L0x80022e00: jr $ra
 .L0x80022e04: addiu $sp, 0x18
 
+.section "fns3_010.0x80022e08"
 .global F0x80022e08
 F0x80022e08:
 .L0x80022e08: addiu $sp, -0x28
@@ -20369,6 +20922,7 @@ F0x80022e08:
 .L0x8002314c: jr $ra
 .L0x80023150: addiu $sp, 0x28
 
+.section "fns3_010.0x80023154"
 .global F0x80023154
 F0x80023154:
 .L0x80023154: lhu $v0, 0xe6($a0)
@@ -20418,6 +20972,7 @@ F0x80023154:
 .L0x80023204: nop
 .L0x80023208: nop
 
+.section "fns3_010.0x8002320c"
 .global F0x8002320c
 F0x8002320c:
 .L0x8002320c: lui $v1, %hi(D0x80055de4)
@@ -20447,6 +21002,7 @@ F0x8002320c:
 .L0x8002326c: jr $ra
 .L0x80023270: nop
 
+.section "fns3_010.0x80023274"
 .global F0x80023274
 F0x80023274:
 .L0x80023274: lui $v1, %hi(D0x80055de8)
@@ -20548,6 +21104,7 @@ F0x80023274:
 .L0x800233fc: jr $ra
 .L0x80023400: addiu $sp, 0x18
 
+.section "fns3_010.0x80023404"
 .global F0x80023404
 F0x80023404:
 .L0x80023404: addiu $sp, -0x20
@@ -20755,6 +21312,7 @@ F0x80023404:
 .L0x80023730: jr $ra
 .L0x80023734: addiu $sp, 0x20
 
+.section "fns3_010.0x80023738"
 .global F0x80023738
 F0x80023738:
 .L0x80023738: addiu $sp, -0x18
@@ -20817,6 +21375,7 @@ F0x80023738:
 .L0x80023820: jr $ra
 .L0x80023824: addiu $sp, 0x18
 
+.section "fns3_010.0x80023828"
 .global F0x80023828
 F0x80023828:
 .L0x80023828: addiu $sp, -0x28
@@ -20956,6 +21515,7 @@ F0x80023828:
 .L0x80023a44: jr $ra
 .L0x80023a48: addiu $sp, 0x28
 
+.section "fns3_010.0x80023a4c"
 .global F0x80023a4c
 F0x80023a4c:
 .L0x80023a4c: addiu $sp, -0x28
@@ -21115,6 +21675,7 @@ F0x80023a4c:
 .L0x80023cc0: jr $ra
 .L0x80023cc4: addiu $sp, 0x28
 
+.section "fns3_010.0x80023cc8"
 .global F0x80023cc8
 F0x80023cc8:
 .L0x80023cc8: addiu $sp, -0x18
@@ -21154,6 +21715,7 @@ F0x80023cc8:
 .L0x80023d50: jr $ra
 .L0x80023d54: nop
 
+.section "fns3_010.0x80023d58"
 .global F0x80023d58
 F0x80023d58:
 .L0x80023d58: lui $v1, %hi(D0x80055de8)
@@ -21167,6 +21729,7 @@ F0x80023d58:
 .L0x80023d78: jr $ra
 .L0x80023d7c: nop
 
+.section "fns3_010.0x80023d80"
 .global F0x80023d80
 F0x80023d80:
 .L0x80023d80: sb $a1, 0x37($a0)
@@ -21174,6 +21737,7 @@ F0x80023d80:
 .L0x80023d88: jr $ra
 .L0x80023d8c: sb $a3, 0x36($a0)
 
+.section "fns3_010.0x80023d90"
 .global F0x80023d90
 F0x80023d90:
 .L0x80023d90: addiu $sp, -0x18
@@ -21210,6 +21774,7 @@ F0x80023d90:
 .L0x80023e0c: jr $ra
 .L0x80023e10: nop
 
+.section "fns3_010.0x80023e14"
 .global F0x80023e14
 F0x80023e14:
 .L0x80023e14: addiu $sp, -0x18
@@ -21369,6 +21934,7 @@ F0x80023e14:
 .L0x8002407c: jr $ra
 .L0x80024080: addiu $sp, 0x18
 
+.section "fns3_010.0x80024084"
 .global F0x80024084
 F0x80024084:
 .L0x80024084: lbu $v0, 0xe3($a0)
@@ -21386,6 +21952,7 @@ F0x80024084:
 .L0x800240b4: jr $ra
 .L0x800240b8: addu $v0, $a0
 
+.section "fns3_010.0x800240bc"
 .global F0x800240bc
 F0x800240bc:
 .L0x800240bc: addiu $sp, -0x20
@@ -21440,6 +22007,7 @@ F0x800240bc:
 .L0x80024188: jr $ra
 .L0x8002418c: addiu $sp, 0x20
 
+.section "fns3_010.0x80024190"
 .global F0x80024190
 F0x80024190:
 .L0x80024190: addiu $sp, -0x18
@@ -21485,6 +22053,7 @@ F0x80024190:
 .L0x80024230: jr $ra
 .L0x80024234: nop
 
+.section "fns3_010.0x80024238"
 .global F0x80024238
 F0x80024238:
 .L0x80024238: move_ $a1, $a0
@@ -21741,6 +22310,7 @@ F0x80024238:
 .L0x80024628: jr $ra
 .L0x8002462c: nop
 
+.section "fns3_010.0x80024630"
 .global F0x80024630
 F0x80024630:
 .L0x80024630: li $v0, 0x43
@@ -21752,6 +22322,7 @@ F0x80024630:
 .L0x80024648: jr $ra
 .L0x8002464c: sb $v0, 0x36($a0)
 
+.section "fns3_010.0x80024650"
 .global F0x80024650
 F0x80024650:
 .L0x80024650: li $v0, 0x45
@@ -21760,6 +22331,7 @@ F0x80024650:
 .L0x8002465c: jr $ra
 .L0x80024660: sb $zr, 0x36($a0)
 
+.section "fns3_010.0x80024664"
 .global F0x80024664
 F0x80024664:
 .L0x80024664: li $v0, 0x4c
@@ -21771,6 +22343,7 @@ F0x80024664:
 .L0x8002467c: jr $ra
 .L0x80024680: sb $v0, 0x36($a0)
 
+.section "fns3_010.0x80024684"
 .global F0x80024684
 F0x80024684:
 .L0x80024684: li $v0, 0x46
@@ -21782,6 +22355,7 @@ F0x80024684:
 .L0x8002469c: jr $ra
 .L0x800246a0: sb $v0, 0x36($a0)
 
+.section "fns3_010.0x800246a4"
 .global F0x800246a4
 F0x800246a4:
 .L0x800246a4: li $v0, 0x47
@@ -21793,6 +22367,7 @@ F0x800246a4:
 .L0x800246bc: jr $ra
 .L0x800246c0: sb $v0, 0x36($a0)
 
+.section "fns3_010.0x800246c4"
 .global F0x800246c4
 F0x800246c4:
 .L0x800246c4: li $v0, 0x4b
@@ -21801,6 +22376,7 @@ F0x800246c4:
 .L0x800246d0: jr $ra
 .L0x800246d4: sb $zr, 0x36($a0)
 
+.section "fns3_010.0x800246d8"
 .global F0x800246d8
 F0x800246d8:
 .L0x800246d8: li $v0, 0x1f801120
@@ -21811,6 +22387,7 @@ F0x800246d8:
 .L0x800246f0: jr $ra
 .L0x800246f4: sw $v0, %lo(D0x8007f99c)($at)
 
+.section "fns3_010.0x800246f8"
 .global F0x800246f8
 F0x800246f8:
 .L0x800246f8: li $v0, 0x1f801120
@@ -21852,6 +22429,7 @@ F0x800246f8:
 .L0x80024790: jr $ra
 .L0x80024794: xori $v0, 0x1
 
+.section "fns3_010.0x80024798"
 .global F0x80024798
 F0x80024798:
 .L0x80024798: addiu $sp, -0x18
@@ -21873,6 +22451,7 @@ F0x80024798:
 .L0x800247d8: jr $ra
 .L0x800247dc: addiu $sp, 0x18
 
+.section "fns3_010.0x800247e0"
 .global F0x800247e0
 F0x800247e0:
 .L0x800247e0: lui $v1, %hi(D0x80055db0)
@@ -21930,6 +22509,7 @@ F0x800247e0:
 .L0x800248b0: jr $ra
 .L0x800248b4: addiu $sp, 0x18
 
+.section "fns3_010.0x800248b8"
 .global F0x800248b8
 F0x800248b8:
 .L0x800248b8: lui $v0, %hi(D0x80055df0)
@@ -21976,6 +22556,7 @@ F0x800248b8:
 .L0x8002495c: jr $ra
 .L0x80024960: addiu $sp, 0x18
 
+.section "fns3_010.0x80024964"
 .global F0x80024964
 F0x80024964:
 .L0x80024964: addiu $sp, -0x18
@@ -22050,6 +22631,7 @@ F0x80024964:
 .L0x80024a78: jr $ra
 .L0x80024a7c: addiu $sp, 0x18
 
+.section "fns3_010.0x80024a80"
 .global F0x80024a80
 F0x80024a80:
 .L0x80024a80: lui $v0, %hi(D0x80055df4)
@@ -22434,10 +23016,12 @@ F0x80024a80:
 
 # fn(addr: *u32, size: u32)
 # Calls `A(0x39)`
+.section "fns3_010.0x8002507c"
 .global InitHeap
 InitHeap:
 	bios_jump 0xa0, 0x39
 
+.section "fns3_010.0x8002508c"
 .global EnterCriticalSection
 EnterCriticalSection:
 .L0x8002508c: li $a0, 0x1
@@ -22445,6 +23029,7 @@ EnterCriticalSection:
 .L0x80025094: jr $ra
 .L0x80025098: nop
 
+.section "fns3_010.0x8002509c"
 .global ExitCriticalSection
 ExitCriticalSection:
 .L0x8002509c: li $a0, 0x2
@@ -22452,34 +23037,42 @@ ExitCriticalSection:
 .L0x800250a4: jr $ra
 .L0x800250a8: nop
 
+.section "fns3_010.0x800250ac"
 .global fopen
 fopen:
 	bios_jump 0xb0, 0x32
 
+.section "fns3_010.0x800250bc"
 .global fread
 fread:
 	bios_jump 0xb0, 0x34
 
+.section "fns3_010.0x800250cc"
 .global fwrite
 fwrite:
 	bios_jump 0xb0, 0x35
 
+.section "fns3_010.0x800250dc"
 .global fclose
 fclose:
 	bios_jump 0xb0, 0x36
 
+.section "fns3_010.0x800250ec"
 .global SysEnqIntRP
 SysEnqIntRP:
 	bios_jump 0xc0, 0x02
 
+.section "fns3_010.0x800250fc"
 .global SysDeqIntRP
 SysDeqIntRP:
 	bios_jump 0xc0, 0x03
 
+.section "fns3_010.0x8002510c"
 .global ChangeClearRCnt
 ChangeClearRCnt:
 	bios_jump 0xc0, 0x0a
 
+.section "fns3_010.0x8002511c"
 .global F0x8002511c
 F0x8002511c:
 .L0x8002511c: beqz $a0, .L0x80025144
@@ -22495,6 +23088,7 @@ F0x8002511c:
 .L0x80025144: jr $ra
 .L0x80025148: nop
 
+.section "fns3_010.0x8002514c"
 .global F0x8002514c
 F0x8002514c:
 .L0x8002514c: beqz $a0, .L0x80025178
@@ -22514,6 +23108,7 @@ F0x8002514c:
 .L0x80025184: nop
 .L0x80025188: nop
 
+.section "fns3_010.0x8002518c"
 .global F0x8002518c
 F0x8002518c:
 .L0x8002518c: beqz $a0, .L0x800251c8
@@ -22537,6 +23132,7 @@ F0x8002518c:
 .L0x800251d4: nop
 .L0x800251d8: nop
 
+.section "fns3_010.0x800251dc"
 .global F0x800251dc
 F0x800251dc:
 .L0x800251dc: lb $v0, ($a0)
@@ -22572,6 +23168,7 @@ F0x800251dc:
 .L0x80025254: nop
 .L0x80025258: nop
 
+.section "fns3_010.0x8002525c"
 .global F0x8002525c
 F0x8002525c:
 .L0x8002525c: move_ $v1, $zr
@@ -22591,6 +23188,7 @@ F0x8002525c:
 .L0x80025294: nop
 .L0x80025298: nop
 
+.section "fns3_010.0x8002529c"
 .global F0x8002529c
 F0x8002529c:
 .L0x8002529c: beqz $a0, .L0x80025304
@@ -22622,6 +23220,7 @@ F0x8002529c:
 .L0x80025304: jr $ra
 .L0x80025308: nop
 
+.section "fns3_010.0x8002530c"
 .global F0x8002530c
 F0x8002530c:
 .L0x8002530c: addiu $sp, -0x28
@@ -22701,6 +23300,7 @@ F0x8002530c:
 .L0x80025434: addiu $sp, 0x28
 .L0x80025438: nop
 
+.section "fns3_010.0x8002543c"
 .global F0x8002543c
 F0x8002543c:
 .L0x8002543c: addiu $sp, -0x18
@@ -22732,6 +23332,7 @@ F0x8002543c:
 .L0x800254a4: jr $ra
 .L0x800254a8: nop
 
+.section "fns3_010.0x800254ac"
 .global F0x800254ac
 F0x800254ac:
 .L0x800254ac: move_ $v1, $a0
@@ -22751,6 +23352,7 @@ F0x800254ac:
 .L0x800254e4: nop
 .L0x800254e8: nop
 
+.section "fns3_010.0x800254ec"
 .global F0x800254ec
 F0x800254ec:
 .L0x800254ec: addiu $sp, -0x20
@@ -22843,6 +23445,7 @@ F0x800254ec:
 .L0x80025658: jr $ra
 .L0x8002565c: addiu $sp, 0x20
 
+.section "fns3_010.0x80025660"
 .global F0x80025660
 F0x80025660:
 .L0x80025660: addiu $sp, -0x18
@@ -22868,6 +23471,7 @@ F0x80025660:
 .L0x800256b4: jr $ra
 .L0x800256b8: addiu $sp, 0x18
 
+.section "fns3_010.0x800256bc"
 .global F0x800256bc
 F0x800256bc:
 .L0x800256bc: addiu $sp, -0x20
@@ -22914,6 +23518,7 @@ F0x800256bc:
 .L0x80025768: jr $ra
 .L0x8002576c: nop
 
+.section "fns3_010.0x80025770"
 .global F0x80025770
 F0x80025770:
 .L0x80025770: addiu $sp, -0x20
@@ -22939,6 +23544,7 @@ F0x80025770:
 .L0x800257c8: jr $ra
 .L0x800257cc: addiu $sp, 0x20
 
+.section "fns3_010.0x800257d0"
 .global F0x800257d0
 F0x800257d0:
 .L0x800257d0: addiu $sp, -0x20
@@ -22978,6 +23584,7 @@ F0x800257d0:
 .L0x80025860: jr $ra
 .L0x80025864: addiu $sp, 0x20
 
+.section "fns3_010.0x80025868"
 .global F0x80025868
 F0x80025868:
 .L0x80025868: lui $v0, %hi(D0x80055efa)
@@ -23006,6 +23613,7 @@ F0x80025868:
 .L0x800258c8: jr $ra
 .L0x800258cc: addiu $sp, 0x18
 
+.section "fns3_010.0x800258d0"
 .global F0x800258d0
 F0x800258d0:
 .L0x800258d0: addiu $sp, -0x20
@@ -23077,6 +23685,7 @@ F0x800258d0:
 .L0x800259e4: jr $ra
 .L0x800259e8: addiu $sp, 0x20
 
+.section "fns3_010.0x800259ec"
 .global F0x800259ec
 F0x800259ec:
 .L0x800259ec: addiu $sp, -0x28
@@ -23115,6 +23724,7 @@ F0x800259ec:
 .L0x80025a74: jr $ra
 .L0x80025a78: addiu $sp, 0x28
 
+.section "fns3_010.0x80025a7c"
 .global F0x80025a7c
 F0x80025a7c:
 .L0x80025a7c: addiu $sp, -0x28
@@ -23155,6 +23765,7 @@ F0x80025a7c:
 .L0x80025b0c: jr $ra
 .L0x80025b10: addiu $sp, 0x28
 
+.section "fns3_010.0x80025b14"
 .global F0x80025b14
 F0x80025b14:
 .L0x80025b14: addiu $sp, -0x20
@@ -23181,6 +23792,7 @@ F0x80025b14:
 .L0x80025b6c: jr $ra
 .L0x80025b70: addiu $sp, 0x20
 
+.section "fns3_010.0x80025b74"
 .global F0x80025b74
 F0x80025b74:
 .L0x80025b74: addiu $sp, -0x20
@@ -23207,6 +23819,7 @@ F0x80025b74:
 .L0x80025bcc: jr $ra
 .L0x80025bd0: addiu $sp, 0x20
 
+.section "fns3_010.0x80025bd4"
 .global F0x80025bd4
 F0x80025bd4:
 .L0x80025bd4: addiu $sp, -0x20
@@ -23254,6 +23867,7 @@ F0x80025bd4:
 .L0x80025c84: jr $ra
 .L0x80025c88: addiu $sp, 0x20
 
+.section "fns3_010.0x80025c8c"
 .global F0x80025c8c
 F0x80025c8c:
 .L0x80025c8c: lui $v0, %hi(D0x80055efa)
@@ -23304,6 +23918,7 @@ F0x80025c8c:
 .L0x80025d4c: jr $ra
 .L0x80025d50: addiu $sp, 0x20
 
+.section "fns3_010.0x80025d54"
 .global F0x80025d54
 F0x80025d54:
 .L0x80025d54: lui $v0, %hi(D0x80055efa)
@@ -23347,6 +23962,7 @@ F0x80025d54:
 .L0x80025df8: jr $ra
 .L0x80025dfc: addiu $sp, 0x20
 
+.section "fns3_010.0x80025e00"
 .global F0x80025e00
 F0x80025e00:
 .L0x80025e00: addiu $sp, -0x20
@@ -23373,6 +23989,7 @@ F0x80025e00:
 .L0x80025e54: jr $ra
 .L0x80025e58: addiu $sp, 0x20
 
+.section "fns3_010.0x80025e5c"
 .global F0x80025e5c
 F0x80025e5c:
 .L0x80025e5c: lui $v0, %hi(D0x80055efa)
@@ -23403,6 +24020,7 @@ F0x80025e5c:
 .L0x80025ec4: jr $ra
 .L0x80025ec8: addiu $sp, 0x18
 
+.section "fns3_010.0x80025ecc"
 .global F0x80025ecc
 F0x80025ecc:
 .L0x80025ecc: addiu $sp, -0x20
@@ -23452,6 +24070,7 @@ F0x80025ecc:
 .L0x80025f84: jr $ra
 .L0x80025f88: addiu $sp, 0x20
 
+.section "fns3_010.0x80025f8c"
 .global F0x80025f8c
 F0x80025f8c:
 .L0x80025f8c: addiu $sp, -0x28
@@ -23507,6 +24126,7 @@ F0x80025f8c:
 .L0x8002605c: jr $ra
 .L0x80026060: addiu $sp, 0x28
 
+.section "fns3_010.0x80026064"
 .global F0x80026064
 F0x80026064:
 .L0x80026064: addiu $sp, -0x18
@@ -23522,6 +24142,7 @@ F0x80026064:
 .L0x80026090: jr $ra
 .L0x80026094: addiu $sp, 0x18
 
+.section "fns3_010.0x80026098"
 .global F0x80026098
 F0x80026098:
 .L0x80026098: addiu $sp, -0x20
@@ -23839,6 +24460,7 @@ F0x80026098:
 .L0x80026588: jr $ra
 .L0x8002658c: addiu $sp, 0x20
 
+.section "fns3_010.0x80026590"
 .global F0x80026590
 F0x80026590:
 .L0x80026590: addiu $sp, -0x18
@@ -23854,6 +24476,7 @@ F0x80026590:
 .L0x800265bc: jr $ra
 .L0x800265c0: addiu $sp, 0x18
 
+.section "fns3_010.0x800265c4"
 .global F0x800265c4
 F0x800265c4:
 .L0x800265c4: lui $v0, %hi(D0x80055ef0)
@@ -23869,6 +24492,7 @@ F0x800265c4:
 .L0x800265ec: jr $ra
 .L0x800265f0: addiu $sp, 0x18
 
+.section "fns3_010.0x800265f4"
 .global F0x800265f4
 F0x800265f4:
 .L0x800265f4: addiu $sp, -0x20
@@ -23904,6 +24528,7 @@ F0x800265f4:
 .L0x8002666c: jr $ra
 .L0x80026670: addiu $sp, 0x20
 
+.section "fns3_010.0x80026674"
 .global F0x80026674
 F0x80026674:
 .L0x80026674: addiu $sp, -0x18
@@ -23923,6 +24548,7 @@ F0x80026674:
 .L0x800266ac: jr $ra
 .L0x800266b0: addiu $sp, 0x18
 
+.section "fns3_010.0x800266b4"
 .global F0x800266b4
 F0x800266b4:
 .L0x800266b4: addiu $sp, -0x28
@@ -24052,6 +24678,7 @@ F0x800266b4:
 .L0x800268a4: jr $ra
 .L0x800268a8: addiu $sp, 0x28
 
+.section "fns3_010.0x800268ac"
 .global F0x800268ac
 F0x800268ac:
 .L0x800268ac: addiu $sp, -0x28
@@ -24211,6 +24838,7 @@ F0x800268ac:
 .L0x80026b14: jr $ra
 .L0x80026b18: addiu $sp, 0x28
 
+.section "fns3_010.0x80026b1c"
 .global F0x80026b1c
 F0x80026b1c:
 .L0x80026b1c: beqz $a1, .L0x80026b28
@@ -24222,6 +24850,7 @@ F0x80026b1c:
 .L0x80026b34: jr $ra
 .L0x80026b38: or $v0, $v1, $v0
 
+.section "fns3_010.0x80026b3c"
 .global F0x80026b3c
 F0x80026b3c:
 .L0x80026b3c: sll $v0, $a0, 0x10
@@ -24263,6 +24892,7 @@ F0x80026b3c:
 .L0x80026bcc: jr $ra
 .L0x80026bd0: or $v0, $v1, $v0
 
+.section "fns3_010.0x80026bd4"
 .global F0x80026bd4
 F0x80026bd4:
 .L0x80026bd4: sll $v0, $a0, 0x10
@@ -24304,6 +24934,7 @@ F0x80026bd4:
 .L0x80026c64: jr $ra
 .L0x80026c68: or $v0, $v1, $v0
 
+.section "fns3_010.0x80026c6c"
 .global F0x80026c6c
 F0x80026c6c:
 .L0x80026c6c: andi $a1, 0x7ff
@@ -24314,6 +24945,7 @@ F0x80026c6c:
 .L0x80026c80: jr $ra
 .L0x80026c84: or $v0, $a1, $v0
 
+.section "fns3_010.0x80026c88"
 .global F0x80026c88
 F0x80026c88:
 .L0x80026c88: bnez $a0, .L0x80026c98
@@ -24349,6 +24981,7 @@ F0x80026c88:
 .L0x80026d00: jr $ra
 .L0x80026d04: addiu $sp, 0x10
 
+.section "fns3_010.0x80026d08"
 .global F0x80026d08
 F0x80026d08:
 .L0x80026d08: lui $v0, %hi(D0x80056000)
@@ -24358,6 +24991,7 @@ F0x80026d08:
 .L0x80026d18: jr $ra
 .L0x80026d1c: nop
 
+.section "fns3_010.0x80026d20"
 .global F0x80026d20
 F0x80026d20:
 .L0x80026d20: addiu $sp, -0x20
@@ -24417,6 +25051,7 @@ F0x80026d20:
 .L0x80026df8: jr $ra
 .L0x80026dfc: addiu $sp, 0x20
 
+.section "fns3_010.0x80026e00"
 .global F0x80026e00
 F0x80026e00:
 .L0x80026e00: addiu $sp, -0x20
@@ -24556,6 +25191,7 @@ F0x80026e00:
 .L0x80027028: jr $ra
 .L0x8002702c: addiu $sp, 0x20
 
+.section "fns3_010.0x80027030"
 .global F0x80027030
 F0x80027030:
 .L0x80027030: addiu $sp, -0x30
@@ -24702,6 +25338,7 @@ F0x80027030:
 .L0x80027264: jr $ra
 .L0x80027268: addiu $sp, 0x30
 
+.section "fns3_010.0x8002726c"
 .global F0x8002726c
 F0x8002726c:
 .L0x8002726c: addiu $sp, -0x28
@@ -24865,6 +25502,7 @@ F0x8002726c:
 .L0x800274e4: jr $ra
 .L0x800274e8: addiu $sp, 0x28
 
+.section "fns3_010.0x800274ec"
 .global F0x800274ec
 F0x800274ec:
 .L0x800274ec: lui $v0, %hi(D0x80056000)
@@ -24873,11 +25511,13 @@ F0x800274ec:
 .L0x800274f8: jr $ra
 .L0x800274fc: sw $a0, ($v0)
 
+.section "fns3_010.0x80027500"
 .global F0x80027500
 F0x80027500:
 .L0x80027500: jr $ra
 .L0x80027504: nop
 
+.section "fns3_010.0x80027508"
 .global F0x80027508
 F0x80027508:
 .L0x80027508: addiu $a2, $a1, -0x1
@@ -24897,6 +25537,7 @@ F0x80027508:
 .L0x80027540: jr $ra
 .L0x80027544: move_ $v0, $zr
 
+.section "fns3_010.0x80027548"
 .global F0x80027548
 F0x80027548:
 .L0x80027548: lui $v1, 0x400
@@ -24918,6 +25559,7 @@ F0x80027548:
 .L0x80027588: jr $ra
 .L0x8002758c: sw $v1, ($v0)
 
+.section "fns3_010.0x80027590"
 .global F0x80027590
 F0x80027590:
 .L0x80027590: lui $v0, 0x1000
@@ -24933,6 +25575,7 @@ F0x80027590:
 .L0x800275b8: jr $ra
 .L0x800275bc: and $v0, $v1
 
+.section "fns3_010.0x800275c0"
 .global F0x800275c0
 F0x800275c0:
 .L0x800275c0: addiu $sp, -0x18
@@ -24945,6 +25588,7 @@ F0x800275c0:
 .L0x800275dc: jr $ra
 .L0x800275e0: nop
 
+.section "fns3_010.0x800275e4"
 .global F0x800275e4
 F0x800275e4:
 .L0x800275e4: addiu $sp, -0x28
@@ -25116,6 +25760,7 @@ F0x800275e4:
 .L0x8002788c: jr $ra
 .L0x80027890: addiu $sp, 0x28
 
+.section "fns3_010.0x80027894"
 .global F0x80027894
 F0x80027894:
 .L0x80027894: lui $v0, %hi(D0x8005600c)
@@ -25270,6 +25915,7 @@ F0x80027894:
 .L0x80027aec: jr $ra
 .L0x80027af0: addiu $sp, 0x20
 
+.section "fns3_010.0x80027af4"
 .global F0x80027af4
 F0x80027af4:
 .L0x80027af4: addiu $sp, -0x18
@@ -25351,6 +25997,7 @@ F0x80027af4:
 .L0x80027c28: jr $ra
 .L0x80027c2c: addiu $sp, 0x18
 
+.section "fns3_010.0x80027c30"
 .global F0x80027c30
 F0x80027c30:
 .L0x80027c30: addiu $sp, -0x18
@@ -25433,6 +26080,7 @@ F0x80027c30:
 .L0x80027d64: jr $ra
 .L0x80027d68: addiu $sp, 0x18
 
+.section "fns3_010.0x80027d6c"
 .global F0x80027d6c
 F0x80027d6c:
 .L0x80027d6c: addiu $sp, -0x18
@@ -25449,6 +26097,7 @@ F0x80027d6c:
 .L0x80027d98: jr $ra
 .L0x80027d9c: nop
 
+.section "fns3_010.0x80027da0"
 .global F0x80027da0
 F0x80027da0:
 .L0x80027da0: addiu $sp, -0x20
@@ -25531,6 +26180,7 @@ F0x80027da0:
 .L0x80027edc: jr $ra
 .L0x80027ee0: nop
 
+.section "fns3_010.0x80027ee4"
 .global F0x80027ee4
 F0x80027ee4:
 .L0x80027ee4: lui $v1, 0x1000
@@ -25574,6 +26224,7 @@ F0x80027ee4:
 .L0x80027f7c: jr $ra
 .L0x80027f80: nop
 
+.section "fns3_010.0x80027f84"
 .global F0x80027f84
 F0x80027f84:
 .L0x80027f84: addiu $sp, -0x20
@@ -25634,6 +26285,7 @@ F0x80027f84:
 .L0x80028068: jr $ra
 .L0x8002806c: addiu $sp, 0x20
 
+.section "fns3_010.0x80028070"
 .global F0x80028070
 F0x80028070:
 .L0x80028070: addiu $sp, -0x20
@@ -25694,6 +26346,7 @@ F0x80028070:
 .L0x80028154: jr $ra
 .L0x80028158: addiu $sp, 0x20
 
+.section "fns3_010.0x8002815c"
 .global F0x8002815c
 F0x8002815c:
 .L0x8002815c: addiu $sp, -0x20
@@ -25775,6 +26428,7 @@ F0x8002815c:
 .L0x80028298: jr $ra
 .L0x8002829c: addiu $sp, 0x20
 
+.section "fns3_010.0x800282a0"
 .global F0x800282a0
 F0x800282a0:
 .L0x800282a0: lui $v0, %hi(D0x80055efa)
@@ -25839,6 +26493,7 @@ F0x800282a0:
 .L0x80028394: jr $ra
 .L0x80028398: addiu $sp, 0x18
 
+.section "fns3_010.0x8002839c"
 .global F0x8002839c
 F0x8002839c:
 .L0x8002839c: addiu $sp, -0x18
@@ -25851,6 +26506,7 @@ F0x8002839c:
 .L0x800283bc: jr $ra
 .L0x800283c0: nop
 
+.section "fns3_010.0x800283c4"
 .global F0x800283c4
 F0x800283c4:
 .L0x800283c4: beqz $a2, .L0x800283e0
@@ -25864,10 +26520,12 @@ F0x800283c4:
 .L0x800283e4: nop
 .L0x800283e8: nop
 
+.section "fns3_010.0x800283ec"
 .global GPU_cw
 GPU_cw:
 	bios_jump 0xa0, 0x49
 
+.section "fns3_010.0x800283fc"
 .global F0x800283fc
 F0x800283fc:
 .L0x800283fc: addiu $sp, -0x18
@@ -25887,6 +26545,7 @@ F0x800283fc:
 .L0x80028434: nop
 .L0x80028438: nop
 
+.section "fns3_010.0x8002843c"
 .global F0x8002843c
 F0x8002843c:
 .L0x8002843c: addiu $sp, -0x78
@@ -25932,6 +26591,7 @@ F0x8002843c:
 .L0x800284e0: jr $v0
 .L0x800284e4: nop
 
+.section "fns3_010.0x800284e8"
 .global F0x800284e8
 F0x800284e8:
 .L0x800284e8: bnez $s8, .L0x800284b8
@@ -25939,11 +26599,13 @@ F0x800284e8:
 .L0x800284f0: j .L0x800284b8
 .L0x800284f4: li $s8, 0x20
 
+.section "fns3_010.0x800284f8"
 .global F0x800284f8
 F0x800284f8:
 .L0x800284f8: j .L0x800284b8
 .L0x800284fc: ori $s3, 0x8
 
+.section "fns3_010.0x80028500"
 .global F0x80028500
 F0x80028500:
 .L0x80028500: addiu $s1, 0x4
@@ -25954,16 +26616,19 @@ F0x80028500:
 .L0x80028514: negu $a3, $a3
 .L0x80028518: sw $a3, 0x44($sp)
 
+.section "fns3_010.0x8002851c"
 .global F0x8002851c
 F0x8002851c:
 .L0x8002851c: j .L0x800284b8
 .L0x80028520: ori $s3, 0x10
 
+.section "fns3_010.0x80028524"
 .global F0x80028524
 F0x80028524:
 .L0x80028524: j .L0x800284b8
 .L0x80028528: li $s8, 0x2b
 
+.section "fns3_010.0x8002852c"
 .global F0x8002852c
 F0x8002852c:
 .L0x8002852c: addiu $s7, 0x1
@@ -26001,11 +26666,13 @@ F0x8002852c:
 .L0x800285ac: j .L0x800284b8
 .L0x800285b0: li $s4, -0x1
 
+.section "fns3_010.0x800285b4"
 .global F0x800285b4
 F0x800285b4:
 .L0x800285b4: j .L0x800284b8
 .L0x800285b8: ori $s3, 0x20
 
+.section "fns3_010.0x800285bc"
 .global F0x800285bc
 F0x800285bc:
 .L0x800285bc: move_ $s0, $zr
@@ -26032,21 +26699,25 @@ F0x800285bc:
 .L0x80028610: j .L0x800284b8
 .L0x80028614: addiu $s7, -0x1
 
+.section "fns3_010.0x80028618"
 .global F0x80028618
 F0x80028618:
 .L0x80028618: j .L0x800284b8
 .L0x8002861c: ori $s3, 0x2
 
+.section "fns3_010.0x80028620"
 .global F0x80028620
 F0x80028620:
 .L0x80028620: j .L0x800284b8
 .L0x80028624: ori $s3, 0x4
 
+.section "fns3_010.0x80028628"
 .global F0x80028628
 F0x80028628:
 .L0x80028628: j .L0x800284b8
 .L0x8002862c: ori $s3, 0x1
 
+.section "fns3_010.0x80028630"
 .global F0x80028630
 F0x80028630:
 .L0x80028630: addiu $s2, $sp, 0x10
@@ -26057,10 +26728,12 @@ F0x80028630:
 .L0x80028644: j .L0x800288a8
 .L0x80028648: sb $v0, 0x10($sp)
 
+.section "fns3_010.0x8002864c"
 .global F0x8002864c
 F0x8002864c:
 .L0x8002864c: ori $s3, 0x1
 
+.section "fns3_010.0x80028650"
 .global F0x80028650
 F0x80028650:
 .L0x80028650: andi $v0, $s3, 0x1
@@ -26081,6 +26754,7 @@ F0x80028650:
 .L0x8002868c: j .L0x80028808
 .L0x80028690: li $s8, 0x2d
 
+.section "fns3_010.0x80028694"
 .global F0x80028694
 F0x80028694:
 .L0x80028694: andi $v0, $s3, 0x1
@@ -26099,10 +26773,12 @@ F0x80028694:
 .L0x800286c8: j .L0x80028a98
 .L0x800286cc: sw $a3, ($v0)
 
+.section "fns3_010.0x800286d0"
 .global F0x800286d0
 F0x800286d0:
 .L0x800286d0: ori $s3, 0x1
 
+.section "fns3_010.0x800286d4"
 .global F0x800286d4
 F0x800286d4:
 .L0x800286d4: andi $v0, $s3, 0x1
@@ -26119,6 +26795,7 @@ F0x800286d4:
 .L0x80028700: j .L0x80028804
 .L0x80028704: li $a1, 0x8
 
+.section "fns3_010.0x80028708"
 .global F0x80028708
 F0x80028708:
 .L0x80028708: addiu $s1, 0x4
@@ -26126,6 +26803,7 @@ F0x80028708:
 .L0x80028710: j .L0x80028804
 .L0x80028714: li $a1, 0x10
 
+.section "fns3_010.0x80028718"
 .global F0x80028718
 F0x80028718:
 .L0x80028718: addiu $s1, 0x4
@@ -26152,10 +26830,12 @@ F0x80028718:
 .L0x80028770: j .L0x800288a8
 .L0x80028774: move_ $s8, $zr
 
+.section "fns3_010.0x80028778"
 .global F0x80028778
 F0x80028778:
 .L0x80028778: ori $s3, 0x1
 
+.section "fns3_010.0x8002877c"
 .global F0x8002877c
 F0x8002877c:
 .L0x8002877c: andi $v0, $s3, 0x1
@@ -26172,11 +26852,13 @@ F0x8002877c:
 .L0x800287a8: j .L0x80028804
 .L0x800287ac: li $a1, 0xa
 
+.section "fns3_010.0x800287b0"
 .global F0x800287b0
 F0x800287b0:
 .L0x800287b0: la_ $a3, D0x80010514
 .L0x800287b8: sw $a3, 0x48($sp)
 
+.section "fns3_010.0x800287bc"
 .global F0x800287bc
 F0x800287bc:
 .L0x800287bc: andi $v0, $s3, 0x1
@@ -26351,6 +27033,7 @@ F0x800287bc:
 .L0x80028a64: j .L0x80028a98
 .L0x80028a68: sw $a3, 0x38($sp)
 
+.section "fns3_010.0x80028a6c"
 .global F0x80028a6c
 F0x80028a6c:
 .L0x80028a6c: jal F0x80028c28
@@ -26359,6 +27042,7 @@ F0x80028a6c:
 .L0x80028a78: j .L0x80028aa0
 .L0x80028a7c: nop
 
+.section "fns3_010.0x80028a80"
 .global F0x80028a80
 F0x80028a80:
 .L0x80028a80: lw $a3, 0x38($sp)
@@ -26385,6 +27069,7 @@ F0x80028a80:
 .L0x80028ad4: nop
 .L0x80028ad8: nop
 
+.section "fns3_010.0x80028adc"
 .global F0x80028adc
 F0x80028adc:
 .L0x80028adc: beqz $a0, .L0x80028b24
@@ -26408,6 +27093,7 @@ F0x80028adc:
 .L0x80028b24: jr $ra
 .L0x80028b28: nop
 
+.section "fns3_010.0x80028b2c"
 .global F0x80028b2c
 F0x80028b2c:
 .L0x80028b2c: addiu $sp, -0x18
@@ -26472,6 +27158,7 @@ F0x80028b2c:
 .L0x80028c20: jr $ra
 .L0x80028c24: addiu $sp, 0x18
 
+.section "fns3_010.0x80028c28"
 .global F0x80028c28
 F0x80028c28:
 .L0x80028c28: lui $a2, %hi(D0x8005604c)
@@ -26489,6 +27176,7 @@ F0x80028c28:
 .L0x80028c5c: jr $ra
 .L0x80028c60: nop
 
+.section "fns3_010.0x80028c64"
 .global F0x80028c64
 F0x80028c64:
 .L0x80028c64: addiu $sp, -0x18
@@ -26564,6 +27252,7 @@ F0x80028c64:
 .L0x80028d84: jr $ra
 .L0x80028d88: addiu $sp, 0x18
 
+.section "fns3_010.0x80028d8c"
 .global F0x80028d8c
 F0x80028d8c:
 .L0x80028d8c: lui $a0, %hi(D0x80056060)
@@ -26604,6 +27293,7 @@ F0x80028d8c:
 .L0x80028e18: jr $ra
 .L0x80028e1c: addiu $sp, 0x8
 
+.section "fns3_010.0x80028e20"
 .global F0x80028e20
 F0x80028e20:
 .L0x80028e20: lui $a2, %hi(D0x80056068)
@@ -26631,6 +27321,7 @@ F0x80028e20:
 .L0x80028e78: jr $ra
 .L0x80028e7c: nop
 
+.section "fns3_010.0x80028e80"
 .global F0x80028e80
 F0x80028e80:
 .L0x80028e80: addiu $sp, -0x20
@@ -26709,6 +27400,7 @@ F0x80028e80:
 .L0x80028fa4: nop
 .L0x80028fa8: nop
 
+.section "fns3_010.0x80028fac"
 .global F0x80028fac
 F0x80028fac:
 .L0x80028fac: addiu $sp, -0x28
@@ -26760,6 +27452,7 @@ F0x80028fac:
 .L0x80029064: nop
 .L0x80029068: nop
 
+.section "fns3_010.0x8002906c"
 .global F0x8002906c
 F0x8002906c:
 .L0x8002906c: lw $v1, 0x10($sp)
@@ -26779,6 +27472,7 @@ F0x8002906c:
 .L0x800290a4: sh $v1, 0x6($v0)
 .L0x800290a8: nop
 
+.section "fns3_010.0x800290ac"
 .global F0x800290ac
 F0x800290ac:
 .L0x800290ac: andi $v0, $a0, 0x3
@@ -26798,6 +27492,7 @@ F0x800290ac:
 .L0x800290e4: or $v0, $a3
 .L0x800290e8: nop
 
+.section "fns3_010.0x800290ec"
 .global F0x800290ec
 F0x800290ec:
 .L0x800290ec: sll $v0, $a1, 0x6
@@ -26809,6 +27504,7 @@ F0x800290ec:
 .L0x80029104: nop
 .L0x80029108: nop
 
+.section "fns3_010.0x8002910c"
 .global F0x8002910c
 F0x8002910c:
 .L0x8002910c: beqz $a1, .L0x80029120
@@ -26824,6 +27520,7 @@ F0x8002910c:
 .L0x80029134: nop
 .L0x80029138: nop
 
+.section "fns3_010.0x8002913c"
 .global F0x8002913c
 F0x8002913c:
 .L0x8002913c: li $v0, 0x4
@@ -26835,6 +27532,7 @@ F0x8002913c:
 .L0x80029154: nop
 .L0x80029158: nop
 
+.section "fns3_010.0x8002915c"
 .global F0x8002915c
 F0x8002915c:
 .L0x8002915c: li $v0, 0x1
@@ -26850,6 +27548,7 @@ F0x8002915c:
 .L0x80029184: sw $v0, 0x4($a0)
 .L0x80029188: nop
 
+.section "fns3_010.0x8002918c"
 .global F0x8002918c
 F0x8002918c:
 .L0x8002918c: move_ $t0, $a0
@@ -26877,6 +27576,7 @@ F0x8002918c:
 .L0x800291e4: jr $ra
 .L0x800291e8: sw $v0, 0x14($t0)
 
+.section "fns3_010.0x800291ec"
 .global F0x800291ec
 F0x800291ec:
 .L0x800291ec: addiu $sp, -0x28
@@ -26909,6 +27609,7 @@ F0x800291ec:
 .L0x80029258: jr $ra
 .L0x8002925c: addiu $sp, 0x28
 
+.section "fns3_010.0x80029260"
 .global F0x80029260
 F0x80029260:
 .L0x80029260: addiu $sp, -0x30
@@ -26981,6 +27682,7 @@ F0x80029260:
 .L0x80029374: jr $ra
 .L0x80029378: addiu $sp, 0x30
 
+.section "fns3_010.0x8002937c"
 .global F0x8002937c
 F0x8002937c:
 .L0x8002937c: addiu $sp, -0x18
@@ -27008,6 +27710,7 @@ F0x8002937c:
 .L0x800293dc: jr $ra
 .L0x800293e0: nop
 
+.section "fns3_010.0x800293e4"
 .global F0x800293e4
 F0x800293e4:
 .L0x800293e4: andi $a0, 0xffff
@@ -27137,6 +27840,7 @@ F0x800293e4:
 .L0x800295fc: jr $ra
 .L0x80029600: sh $a0, 0x6($a1)
 
+.section "fns3_010.0x80029604"
 .global F0x80029604
 F0x80029604:
 .L0x80029604: lui $v0, %hi(D0x800812dc)
@@ -27217,6 +27921,7 @@ F0x80029604:
 .L0x80029734: jr $ra
 .L0x80029738: nop
 
+.section "fns3_010.0x8002973c"
 .global F0x8002973c
 F0x8002973c:
 .L0x8002973c: lui $a2, 0xff
@@ -27236,6 +27941,7 @@ F0x8002973c:
 .L0x80029774: sw $v0, ($a0)
 .L0x80029778: nop
 
+.section "fns3_010.0x8002977c"
 .global F0x8002977c
 F0x8002977c:
 .L0x8002977c: lui $v0, %hi(D0x800812de)
@@ -27302,6 +28008,7 @@ F0x8002977c:
 .L0x80029884: nop
 .L0x80029888: nop
 
+.section "fns3_010.0x8002988c"
 .global F0x8002988c
 F0x8002988c:
 .L0x8002988c: addiu $sp, -0x18
@@ -27335,6 +28042,7 @@ F0x8002988c:
 .L0x80029904: nop
 .L0x80029908: nop
 
+.section "fns3_010.0x8002990c"
 .global F0x8002990c
 F0x8002990c:
 .L0x8002990c: addiu $sp, -0x18
@@ -27369,6 +28077,7 @@ F0x8002990c:
 .L0x80029984: nop
 .L0x80029988: nop
 
+.section "fns3_010.0x8002998c"
 .global F0x8002998c
 F0x8002998c:
 .L0x8002998c: addiu $sp, -0x18
@@ -27380,6 +28089,7 @@ F0x8002998c:
 .L0x800299a4: jr $ra
 .L0x800299a8: nop
 
+.section "fns3_010.0x800299ac"
 .global F0x800299ac
 F0x800299ac:
 .L0x800299ac: addiu $sp, -0x90
@@ -27682,6 +28392,7 @@ F0x800299ac:
 .L0x80029e5c: jr $ra
 .L0x80029e60: addiu $sp, 0x90
 
+.section "fns3_010.0x80029e64"
 .global F0x80029e64
 F0x80029e64:
 .L0x80029e64: addiu $sp, -0x18
@@ -27709,6 +28420,7 @@ F0x80029e64:
 .L0x80029ec0: jr $ra
 .L0x80029ec4: nop
 
+.section "fns3_010.0x80029ec8"
 .global F0x80029ec8
 F0x80029ec8:
 .L0x80029ec8: la_ $a2, D0x80081318
@@ -27732,6 +28444,7 @@ F0x80029ec8:
 .L0x80029f14: nop
 .L0x80029f18: nop
 
+.section "fns3_010.0x80029f1c"
 .global F0x80029f1c
 F0x80029f1c:
 .L0x80029f1c: addiu $sp, -0x18
@@ -27767,6 +28480,7 @@ F0x80029f1c:
 .L0x80029f94: nop
 .L0x80029f98: nop
 
+.section "fns3_010.0x80029f9c"
 .global F0x80029f9c
 F0x80029f9c:
 .L0x80029f9c: addiu $sp, -0x18
@@ -27790,6 +28504,7 @@ F0x80029f9c:
 .L0x80029fe4: nop
 .L0x80029fe8: nop
 
+.section "fns3_010.0x80029fec"
 .global F0x80029fec
 F0x80029fec:
 .L0x80029fec: lw $v0, ($a0)
@@ -27853,6 +28568,7 @@ F0x80029fec:
 .L0x8002a0d4: nop
 .L0x8002a0d8: nop
 
+.section "fns3_010.0x8002a0dc"
 .global F0x8002a0dc
 F0x8002a0dc:
 .L0x8002a0dc: move_ $t1, $a0
@@ -27886,6 +28602,7 @@ F0x8002a0dc:
 .L0x8002a150: jr $v0
 .L0x8002a154: nop
 
+.section "fns3_010.0x8002a158"
 .global F0x8002a158
 F0x8002a158:
 .L0x8002a158: negu $v0, $a1
@@ -27895,6 +28612,7 @@ F0x8002a158:
 .L0x8002a168: j F0x8002a19c
 .L0x8002a16c: sh $a1, 0xe($t1)
 
+.section "fns3_010.0x8002a170"
 .global F0x8002a170
 F0x8002a170:
 .L0x8002a170: negu $v0, $a1
@@ -27904,6 +28622,7 @@ F0x8002a170:
 .L0x8002a180: j F0x8002a19c
 .L0x8002a184: sh $v0, 0xc($t1)
 
+.section "fns3_010.0x8002a188"
 .global F0x8002a188
 F0x8002a188:
 .L0x8002a188: negu $v0, $a1
@@ -27912,6 +28631,7 @@ F0x8002a188:
 .L0x8002a194: sh $v0, 0x2($t1)
 .L0x8002a198: sh $a1, 0x6($t1)
 
+.section "fns3_010.0x8002a19c"
 .global F0x8002a19c
 F0x8002a19c:
 .L0x8002a19c: jr $ra
@@ -27919,6 +28639,7 @@ F0x8002a19c:
 .L0x8002a1a4: nop
 .L0x8002a1a8: nop
 
+.section "fns3_010.0x8002a1ac"
 .global F0x8002a1ac
 F0x8002a1ac:
 .L0x8002a1ac: addiu $sp, -0xc0
@@ -28163,6 +28884,7 @@ F0x8002a1ac:
 .L0x8002a574: jr $ra
 .L0x8002a578: addiu $sp, 0xc0
 
+.section "fns3_010.0x8002a57c"
 .global F0x8002a57c
 F0x8002a57c:
 .L0x8002a57c: addiu $sp, -0x20
@@ -28225,6 +28947,7 @@ F0x8002a57c:
 .L0x8002a660: jr $ra
 .L0x8002a664: addiu $sp, 0x20
 
+.section "fns3_010.0x8002a668"
 .global F0x8002a668
 F0x8002a668:
 .L0x8002a668: lw $v0, ($a0)
@@ -28278,6 +29001,7 @@ F0x8002a668:
 .L0x8002a728: jr $ra
 .L0x8002a72c: move_ $v0, $a1
 
+.section "fns3_010.0x8002a730"
 .global F0x8002a730
 F0x8002a730:
 .L0x8002a730: blez $a0, .L0x8002a744
@@ -28288,6 +29012,7 @@ F0x8002a730:
 .L0x8002a744: jr $ra
 .L0x8002a748: nop
 
+.section "fns3_010.0x8002a74c"
 .global F0x8002a74c
 F0x8002a74c:
 .L0x8002a74c: addiu $sp, -0x30
@@ -28323,6 +29048,7 @@ F0x8002a74c:
 .L0x8002a7c4: jr $ra
 .L0x8002a7c8: addiu $sp, 0x30
 
+.section "fns3_010.0x8002a7cc"
 .global F0x8002a7cc
 F0x8002a7cc:
 .L0x8002a7cc: addiu $sp, -0x40
@@ -28373,6 +29099,7 @@ F0x8002a7cc:
 .L0x8002a884: nop
 .L0x8002a888: nop
 
+.section "fns3_010.0x8002a88c"
 .global F0x8002a88c
 F0x8002a88c:
 .L0x8002a88c: addiu $sp, -0x20
@@ -28550,6 +29277,7 @@ F0x8002a88c:
 .L0x8002ab44: nop
 .L0x8002ab48: nop
 
+.section "fns3_010.0x8002ab4c"
 .global F0x8002ab4c
 F0x8002ab4c:
 .L0x8002ab4c: addiu $sp, -0x30
@@ -28585,6 +29313,7 @@ F0x8002ab4c:
 .L0x8002abc4: jr $ra
 .L0x8002abc8: addiu $sp, 0x30
 
+.section "fns3_010.0x8002abcc"
 .global F0x8002abcc
 F0x8002abcc:
 .L0x8002abcc: addiu $sp, -0x18
@@ -28603,6 +29332,7 @@ F0x8002abcc:
 .L0x8002ac00: jr $ra
 .L0x8002ac04: nop
 
+.section "fns3_010.0x8002ac08"
 .global F0x8002ac08
 F0x8002ac08:
 .L0x8002ac08: slti $v0, $a0, 0x801
@@ -28643,6 +29373,7 @@ F0x8002ac08:
 .L0x8002ac94: nop
 .L0x8002ac98: nop
 
+.section "fns3_010.0x8002ac9c"
 .global F0x8002ac9c
 F0x8002ac9c:
 .L0x8002ac9c: bgez $a0, .L0x8002aca8
@@ -28688,6 +29419,7 @@ F0x8002ac9c:
 .L0x8002ad3c: .word 0x97350
 .L0x8002ad40: .word 0x470000
 
+.section "fns3_010.0x8002ad44"
 .global F0x8002ad44
 F0x8002ad44:
 .L0x8002ad44: lui $at, %hi(D0x80056898)
@@ -28725,6 +29457,7 @@ F0x8002ad44:
 .L0x8002adc4: nop
 .L0x8002adc8: nop
 
+.section "fns3_010.0x8002adcc"
 .global F0x8002adcc
 F0x8002adcc:
 .L0x8002adcc: mtc2 $a0, $30
@@ -28764,6 +29497,7 @@ F0x8002adcc:
 .L0x8002ae54: nop
 .L0x8002ae58: nop
 
+.section "fns3_010.0x8002ae5c"
 .global F0x8002ae5c
 F0x8002ae5c:
 .L0x8002ae5c: lw $t0, ($a0)
@@ -28855,6 +29589,7 @@ F0x8002ae5c:
 .L0x8002afb4: jr $ra
 .L0x8002afb8: move_ $v0, $a2
 
+.section "fns3_010.0x8002afbc"
 .global F0x8002afbc
 F0x8002afbc:
 .L0x8002afbc: lw $t0, ($a0)
@@ -28926,6 +29661,7 @@ F0x8002afbc:
 .L0x8002b0c4: nop
 .L0x8002b0c8: nop
 
+.section "fns3_010.0x8002b0cc"
 .global F0x8002b0cc
 F0x8002b0cc:
 .L0x8002b0cc: lw $t0, ($a0)
@@ -28997,6 +29733,7 @@ F0x8002b0cc:
 .L0x8002b1d4: nop
 .L0x8002b1d8: nop
 
+.section "fns3_010.0x8002b1dc"
 .global F0x8002b1dc
 F0x8002b1dc:
 .L0x8002b1dc: lw $t0, ($a0)
@@ -29024,6 +29761,7 @@ F0x8002b1dc:
 .L0x8002b234: nop
 .L0x8002b238: nop
 
+.section "fns3_010.0x8002b23c"
 .global F0x8002b23c
 F0x8002b23c:
 .L0x8002b23c: lw $t3, ($a1)
@@ -29107,6 +29845,7 @@ F0x8002b23c:
 .L0x8002b374: nop
 .L0x8002b378: nop
 
+.section "fns3_010.0x8002b37c"
 .global F0x8002b37c
 F0x8002b37c:
 .L0x8002b37c: lw $t0, ($a0)
@@ -29122,6 +29861,7 @@ F0x8002b37c:
 .L0x8002b3a4: jr $ra
 .L0x8002b3a8: nop
 
+.section "fns3_010.0x8002b3ac"
 .global F0x8002b3ac
 F0x8002b3ac:
 .L0x8002b3ac: sll $a0, 0x4
@@ -29133,6 +29873,7 @@ F0x8002b3ac:
 .L0x8002b3c4: jr $ra
 .L0x8002b3c8: nop
 
+.section "fns3_010.0x8002b3cc"
 .global F0x8002b3cc
 F0x8002b3cc:
 .L0x8002b3cc: sll $a0, 0x4
@@ -29144,6 +29885,7 @@ F0x8002b3cc:
 .L0x8002b3e4: jr $ra
 .L0x8002b3e8: nop
 
+.section "fns3_010.0x8002b3ec"
 .global F0x8002b3ec
 F0x8002b3ec:
 .L0x8002b3ec: sll $a0, 0x10
@@ -29155,6 +29897,7 @@ F0x8002b3ec:
 .L0x8002b404: nop
 .L0x8002b408: nop
 
+.section "fns3_010.0x8002b40c"
 .global F0x8002b40c
 F0x8002b40c:
 .L0x8002b40c: ctc2 $a0, $26
@@ -29162,6 +29905,7 @@ F0x8002b40c:
 .L0x8002b414: nop
 .L0x8002b418: nop
 
+.section "fns3_010.0x8002b41c"
 .global F0x8002b41c
 F0x8002b41c:
 .L0x8002b41c: move_ $v0, $a1
@@ -29181,6 +29925,7 @@ F0x8002b41c:
 .L0x8002b454: jr $ra
 .L0x8002b458: sh $t2, 0x10($a1)
 
+.section "fns3_010.0x8002b45c"
 .global F0x8002b45c
 F0x8002b45c:
 .L0x8002b45c: lh $t0, 0x4($a0)
@@ -29311,6 +30056,7 @@ F0x8002b45c:
 .L0x8002b654: sw $t6, 0x8($v0)
 .L0x8002b658: nop
 
+.section "fns3_010.0x8002b65c"
 .global F0x8002b65c
 F0x8002b65c:
 .L0x8002b65c: lh $t0, 0x4($a0)
@@ -29441,6 +30187,7 @@ F0x8002b65c:
 .L0x8002b854: sw $t4, 0xc($v0)
 .L0x8002b858: nop
 
+.section "fns3_010.0x8002b85c"
 .global F0x8002b85c
 F0x8002b85c:
 .L0x8002b85c: lui $at, %hi(D0x80081438)
@@ -29480,6 +30227,7 @@ F0x8002b85c:
 .L0x8002b900: jr $ra
 .L0x8002b904: nop
 
+.section "fns3_010.0x8002b908"
 .global F0x8002b908
 F0x8002b908:
 .L0x8002b908: sw $at, 0x4($k0)
@@ -29489,6 +30237,7 @@ F0x8002b908:
 .L0x8002b918: .word 0x40037000
 .L0x8002b91c: nop
 
+.section "fns3_010.0x8002b920"
 .global F0x8002b920
 F0x8002b920:
 .L0x8002b920: sw $at, 0x4($k0)
@@ -29498,15 +30247,18 @@ F0x8002b920:
 .L0x8002b930: .word 0x40037000
 .L0x8002b934: sw $ra, 0x7c($k0)
 
+.section "fns3_010.0x8002b938"
 .global F0x8002b938
 F0x8002b938:
 .L0x8002b938: nop
 
+.section "fns3_010.0x8002b93c"
 .global FlushCache
 FlushCache:
 	bios_jump 0xa0, 0x44
 
 
+.section "fns3_010.0x8002b94c"
 .global F0x8002b94c
 F0x8002b94c:
 .L0x8002b94c: addiu $sp, -0x18
@@ -29522,6 +30274,7 @@ F0x8002b94c:
 .L0x8002b974: nop
 .L0x8002b978: nop
 
+.section "fns3_010.0x8002b97c"
 .global F0x8002b97c
 F0x8002b97c:
 .L0x8002b97c: addiu $sp, -0x18
@@ -29558,6 +30311,7 @@ F0x8002b97c:
 .L0x8002ba04: jr $ra
 .L0x8002ba08: addiu $sp, 0x18
 
+.section "fns3_010.0x8002ba0c"
 .global F0x8002ba0c
 F0x8002ba0c:
 .L0x8002ba0c: addiu $sp, -0x18
@@ -29576,6 +30330,7 @@ F0x8002ba0c:
 .L0x8002ba40: jr $ra
 .L0x8002ba44: nop
 
+.section "fns3_010.0x8002ba48"
 .global F0x8002ba48
 F0x8002ba48:
 .L0x8002ba48: addiu $sp, -0x18
@@ -29589,6 +30344,7 @@ F0x8002ba48:
 .L0x8002ba68: jr $ra
 .L0x8002ba6c: nop
 
+.section "fns3_010.0x8002ba70"
 .global F0x8002ba70
 F0x8002ba70:
 .L0x8002ba70: addiu $sp, -0x18
@@ -29602,6 +30358,7 @@ F0x8002ba70:
 .L0x8002ba90: jr $ra
 .L0x8002ba94: nop
 
+.section "fns3_010.0x8002ba98"
 .global F0x8002ba98
 F0x8002ba98:
 .L0x8002ba98: addiu $sp, -0x18
@@ -29618,10 +30375,12 @@ F0x8002ba98:
 .L0x8002bac4: nop
 .L0x8002bac8: nop
 
+.section "fns3_010.0x8002bacc"
 .global DeliverEvent
 DeliverEvent:
 	bios_jump 0xb0, 0x07
 
+.section "fns3_010.0x8002badc"
 .global F0x8002badc
 F0x8002badc:
 .L0x8002badc: lbu $v1, ($a0)
@@ -29657,6 +30416,7 @@ F0x8002badc:
 .L0x8002bb54: jr $ra
 .L0x8002bb58: addiu $v0, -0x96
 
+.section "fns3_010.0x8002bb5c"
 .global F0x8002bb5c
 F0x8002bb5c:
 .L0x8002bb5c: addiu $sp, -0x20
@@ -29693,6 +30453,7 @@ F0x8002bb5c:
 .L0x8002bbd8: jr $ra
 .L0x8002bbdc: addiu $sp, 0x20
 
+.section "fns3_010.0x8002bbe0"
 .global F0x8002bbe0
 F0x8002bbe0:
 .L0x8002bbe0: addiu $sp, -0x18
@@ -29707,6 +30468,7 @@ F0x8002bbe0:
 .L0x8002bc04: nop
 .L0x8002bc08: nop
 
+.section "fns3_010.0x8002bc0c"
 .global F0x8002bc0c
 F0x8002bc0c:
 .L0x8002bc0c: addiu $sp, -0x18
@@ -29734,6 +30496,7 @@ F0x8002bc0c:
 .L0x8002bc64: jr $ra
 .L0x8002bc68: nop
 
+.section "fns3_010.0x8002bc6c"
 .global F0x8002bc6c
 F0x8002bc6c:
 .L0x8002bc6c: addiu $sp, -0x18
@@ -29769,6 +30532,7 @@ F0x8002bc6c:
 .L0x8002bce4: jr $ra
 .L0x8002bce8: nop
 
+.section "fns3_010.0x8002bcec"
 .global F0x8002bcec
 F0x8002bcec:
 .L0x8002bcec: lui $v0, %hi(D0x80081470)
@@ -29806,6 +30570,7 @@ F0x8002bcec:
 .L0x8002bd70: jr $ra
 .L0x8002bd74: nop
 
+.section "fns3_010.0x8002bd78"
 .global F0x8002bd78
 F0x8002bd78:
 .L0x8002bd78: lui $v0, %hi(D0x800814e8)
@@ -29834,6 +30599,7 @@ F0x8002bd78:
 .L0x8002bdd4: nop
 .L0x8002bdd8: nop
 
+.section "fns3_010.0x8002bddc"
 .global F0x8002bddc
 F0x8002bddc:
 .L0x8002bddc: addiu $sp, -0x20
@@ -29873,6 +30639,7 @@ F0x8002bddc:
 .L0x8002be64: nop
 .L0x8002be68: nop
 
+.section "fns3_010.0x8002be6c"
 .global F0x8002be6c
 F0x8002be6c:
 .L0x8002be6c: li $a1, 0x82082083
@@ -29919,6 +30686,7 @@ F0x8002be6c:
 .L0x8002bf14: nop
 .L0x8002bf18: nop
 
+.section "fns3_010.0x8002bf1c"
 .global F0x8002bf1c
 F0x8002bf1c:
 .L0x8002bf1c: beqz $a1, .L0x8002bf48
@@ -29938,6 +30706,7 @@ F0x8002bf1c:
 .L0x8002bf54: nop
 .L0x8002bf58: nop
 
+.section "fns3_010.0x8002bf5c"
 .global F0x8002bf5c
 F0x8002bf5c:
 .L0x8002bf5c: move_ $a3, $a0
@@ -29989,6 +30758,7 @@ F0x8002bf5c:
 .L0x8002c014: nop
 .L0x8002c018: nop
 
+.section "fns3_010.0x8002c01c"
 .global F0x8002c01c
 F0x8002c01c:
 .L0x8002c01c: lui $at, %hi(D0x80081480)
@@ -30000,6 +30770,7 @@ F0x8002c01c:
 .L0x8002c034: sw $a2, %lo(D0x8008147c)($at)
 .L0x8002c038: nop
 
+.section "fns3_010.0x8002c03c"
 .global F0x8002c03c
 F0x8002c03c:
 .L0x8002c03c: addiu $sp, -0x40
@@ -30586,6 +31357,7 @@ F0x8002c03c:
 .L0x8002c950: jr $ra
 .L0x8002c954: nop
 
+.section "fns3_010.0x8002c958"
 .global F0x8002c958
 F0x8002c958:
 .L0x8002c958: beqz $a2, .L0x8002c97c
@@ -30600,6 +31372,7 @@ F0x8002c958:
 .L0x8002c97c: jr $ra
 .L0x8002c980: nop
 
+.section "fns3_010.0x8002c984"
 .global F0x8002c984
 F0x8002c984:
 .L0x8002c984: addiu $sp, -0x30
@@ -30708,6 +31481,7 @@ F0x8002c984:
 .L0x8002cb24: jr $ra
 .L0x8002cb28: addiu $sp, 0x30
 
+.section "fns3_010.0x8002cb2c"
 .global F0x8002cb2c
 F0x8002cb2c:
 .L0x8002cb2c: addiu $sp, -0x30
@@ -30864,6 +31638,7 @@ F0x8002cb2c:
 .L0x8002cd88: jr $v0
 .L0x8002cd8c: nop
 
+.section "fns3_010.0x8002cd90"
 .global F0x8002cd90
 F0x8002cd90:
 .L0x8002cd90: beqz $s1, .L0x8002cddc
@@ -30925,6 +31700,7 @@ F0x8002cd90:
 .L0x8002ce88: j .L0x8002d07c
 .L0x8002ce8c: li $v0, 0x2
 
+.section "fns3_010.0x8002ce90"
 .global F0x8002ce90
 F0x8002ce90:
 .L0x8002ce90: beqz $s1, .L0x8002ce9c
@@ -30946,6 +31722,7 @@ F0x8002ce90:
 .L0x8002ced4: j .L0x8002d07c
 .L0x8002ced8: li $v0, 0x2
 
+.section "fns3_010.0x8002cedc"
 .global F0x8002cedc
 F0x8002cedc:
 .L0x8002cedc: beqz $s1, .L0x8002cef0
@@ -30979,6 +31756,7 @@ F0x8002cedc:
 .L0x8002cf54: j .L0x8002d07c
 .L0x8002cf58: sb $zr, ($v1)
 
+.section "fns3_010.0x8002cf5c"
 .global F0x8002cf5c
 F0x8002cf5c:
 .L0x8002cf5c: la_ $a0, D0x800814c8
@@ -31011,6 +31789,7 @@ F0x8002cf5c:
 .L0x8002cfd4: j .L0x8002d07c
 .L0x8002cfd8: li $v0, 0x4
 
+.section "fns3_010.0x8002cfdc"
 .global F0x8002cfdc
 F0x8002cfdc:
 .L0x8002cfdc: la_ $a0, D0x800814b8
@@ -31056,6 +31835,7 @@ F0x8002cfdc:
 .L0x8002d088: jr $ra
 .L0x8002d08c: addiu $sp, 0x30
 
+.section "fns3_010.0x8002d090"
 .global F0x8002d090
 F0x8002d090:
 .L0x8002d090: addiu $sp, -0x40
@@ -31214,6 +31994,7 @@ F0x8002d090:
 .L0x8002d308: jr $ra
 .L0x8002d30c: addiu $sp, 0x40
 
+.section "fns3_010.0x8002d310"
 .global F0x8002d310
 F0x8002d310:
 .L0x8002d310: addiu $sp, -0x40
@@ -31389,6 +32170,7 @@ F0x8002d310:
 .L0x8002d5d0: jr $ra
 .L0x8002d5d4: addiu $sp, 0x40
 
+.section "fns3_010.0x8002d5d8"
 .global F0x8002d5d8
 F0x8002d5d8:
 .L0x8002d5d8: lui $v0, %hi(D0x8005ab28)
@@ -31678,6 +32460,7 @@ F0x8002d5d8:
 .L0x8002da64: jr $ra
 .L0x8002da68: move_ $v0, $zr
 
+.section "fns3_010.0x8002da6c"
 .global F0x8002da6c
 F0x8002da6c:
 .L0x8002da6c: lui $v1, %hi(D0x8005ade4)
@@ -31733,6 +32516,7 @@ F0x8002da6c:
 .L0x8002db38: jr $ra
 .L0x8002db3c: sw $v0, ($v1)
 
+.section "fns3_010.0x8002db40"
 .global F0x8002db40
 F0x8002db40:
 .L0x8002db40: lui $v1, %hi(D0x8005adf8)
@@ -31796,6 +32580,7 @@ F0x8002db40:
 .L0x8002dc28: jr $ra
 .L0x8002dc2c: addiu $sp, 0x8
 
+.section "fns3_010.0x8002dc30"
 .global F0x8002dc30
 F0x8002dc30:
 .L0x8002dc30: addiu $sp, -0x18
@@ -31817,6 +32602,7 @@ F0x8002dc30:
 .L0x8002dc74: jr $ra
 .L0x8002dc78: nop
 
+.section "fns3_010.0x8002dc7c"
 .global F0x8002dc7c
 F0x8002dc7c:
 .L0x8002dc7c: addiu $sp, -0x18
@@ -31936,6 +32722,7 @@ F0x8002dc7c:
 .L0x8002de54: jr $ra
 .L0x8002de58: nop
 
+.section "fns3_010.0x8002de5c"
 .global F0x8002de5c
 F0x8002de5c:
 .L0x8002de5c: addiu $sp, -0x30
@@ -32028,6 +32815,7 @@ F0x8002de5c:
 .L0x8002dfc8: jr $ra
 .L0x8002dfcc: sw $a0, %lo(D0x8005adc8)($at)
 
+.section "fns3_010.0x8002dfd0"
 .global F0x8002dfd0
 F0x8002dfd0:
 .L0x8002dfd0: lui $v0, %hi(D0x8005ade4)
@@ -32085,6 +32873,7 @@ F0x8002dfd0:
 .L0x8002e0a4: addiu $sp, 0x28
 .L0x8002e0a8: nop
 
+.section "fns3_010.0x8002e0ac"
 .global F0x8002e0ac
 F0x8002e0ac:
 .L0x8002e0ac: addiu $sp, -0x18
@@ -32112,8 +32901,7 @@ F0x8002e0ac:
 .L0x8002e104: nop
 .L0x8002e108: nop
 
-.section "fns3_011"
-
+.section "fns3_011.0x8002e21c"
 .global F0x8002e21c
 F0x8002e21c:
 .L0x8002e21c: lui $v0, %hi(D0x8005ab28)
@@ -32125,6 +32913,7 @@ F0x8002e21c:
 .L0x8002e234: nop
 .L0x8002e238: nop
 
+.section "fns3_011.0x8002e23c"
 .global F0x8002e23c
 F0x8002e23c:
 .L0x8002e23c: addiu $sp, -0x18
@@ -32136,6 +32925,7 @@ F0x8002e23c:
 .L0x8002e254: jr $ra
 .L0x8002e258: nop
 
+.section "fns3_011.0x8002e25c"
 .global F0x8002e25c
 F0x8002e25c:
 .L0x8002e25c: lui $v0, %hi(D0x8005ab20)
@@ -32147,6 +32937,7 @@ F0x8002e25c:
 .L0x8002e274: nop
 .L0x8002e278: nop
 
+.section "fns3_011.0x8002e27c"
 .global F0x8002e27c
 F0x8002e27c:
 .L0x8002e27c: lui $v0, %hi(D0x8005ab24)
@@ -32158,6 +32949,7 @@ F0x8002e27c:
 .L0x8002e294: nop
 .L0x8002e298: nop
 
+.section "fns3_011.0x8002e29c"
 .global F0x8002e29c
 F0x8002e29c:
 .L0x8002e29c: addiu $sp, -0x38
@@ -32239,6 +33031,7 @@ F0x8002e29c:
 .L0x8002e3d0: jr $ra
 .L0x8002e3d4: addiu $sp, 0x38
 
+.section "fns3_011.0x8002e3d8"
 .global F0x8002e3d8
 F0x8002e3d8:
 .L0x8002e3d8: addiu $sp, -0x38
@@ -32318,6 +33111,7 @@ F0x8002e3d8:
 .L0x8002e504: jr $ra
 .L0x8002e508: addiu $sp, 0x38
 
+.section "fns3_011.0x8002e50c"
 .global F0x8002e50c
 F0x8002e50c:
 .L0x8002e50c: addiu $sp, -0x38
@@ -32404,6 +33198,7 @@ F0x8002e50c:
 .L0x8002e654: addiu $sp, 0x38
 .L0x8002e658: nop
 
+.section "fns3_011.0x8002e65c"
 .global F0x8002e65c
 F0x8002e65c:
 .L0x8002e65c: addiu $sp, -0x18
@@ -32415,6 +33210,7 @@ F0x8002e65c:
 .L0x8002e674: jr $ra
 .L0x8002e678: addiu $sp, 0x18
 
+.section "fns3_011.0x8002e67c"
 .global F0x8002e67c
 F0x8002e67c:
 .L0x8002e67c: lui $v0, %hi(D0x8005aeb8)
@@ -32482,6 +33278,7 @@ F0x8002e67c:
 .L0x8002e774: jr $ra
 .L0x8002e778: move_ $v0, $zr
 
+.section "fns3_011.0x8002e77c"
 .global F0x8002e77c
 F0x8002e77c:
 .L0x8002e77c: addiu $sp, -0x18
@@ -32497,6 +33294,7 @@ F0x8002e77c:
 .L0x8002e7a4: nop
 .L0x8002e7a8: nop
 
+.section "fns3_011.0x8002e7ac"
 .global F0x8002e7ac
 F0x8002e7ac:
 .L0x8002e7ac: la_ $v1, D0x800814f4
@@ -32507,6 +33305,7 @@ F0x8002e7ac:
 .L0x8002e7c4: nop
 .L0x8002e7c8: nop
 
+.section "fns3_011.0x8002e7cc"
 .global F0x8002e7cc
 F0x8002e7cc:
 .L0x8002e7cc: addiu $sp, -0x18
@@ -32522,6 +33321,7 @@ F0x8002e7cc:
 .L0x8002e7f4: nop
 .L0x8002e7f8: nop
 
+.section "fns3_011.0x8002e7fc"
 .global F0x8002e7fc
 F0x8002e7fc:
 .L0x8002e7fc: lui $v0, %hi(D0x8005aee0)
@@ -32619,6 +33419,7 @@ F0x8002e7fc:
 .L0x8002e96c: jr $ra
 .L0x8002e970: addiu $sp, 0x28
 
+.section "fns3_011.0x8002e974"
 .global F0x8002e974
 F0x8002e974:
 .L0x8002e974: addiu $sp, -0x20
@@ -32660,11 +33461,13 @@ F0x8002e974:
 .L0x8002ea04: jr $ra
 .L0x8002ea08: nop
 
+.section "fns3_011.0x8002ea0c"
 .global ChangeClearPad
 ChangeClearPad:
 	bios_jump 0xb0, 0x5b
 
 # Calls `D0x8005bfd8[3]` (i.e. `f14`)
+.section "fns3_011.0x8002ea1c"
 .global F0x8002ea1c
 F0x8002ea1c:
 .L0x8002ea1c: lui $v0, %hi(D0x8005bfd8)
@@ -32680,6 +33483,7 @@ F0x8002ea1c:
 .L0x8002ea44: jr $ra
 .L0x8002ea48: nop
 
+.section "fns3_011.0x8002ea4c"
 .global F0x8002ea4c
 F0x8002ea4c:
 .L0x8002ea4c: lui $v0, %hi(D0x8005bfd8)
@@ -32695,6 +33499,7 @@ F0x8002ea4c:
 .L0x8002ea74: jr $ra
 .L0x8002ea78: nop
 
+.section "fns3_011.0x8002ea7c"
 .global F0x8002ea7c
 F0x8002ea7c:
 .L0x8002ea7c: lui $v0, %hi(D0x8005bfd8)
@@ -32710,6 +33515,7 @@ F0x8002ea7c:
 .L0x8002eaa4: jr $ra
 .L0x8002eaa8: nop
 
+.section "fns3_011.0x8002eaac"
 .global F0x8002eaac
 F0x8002eaac:
 .L0x8002eaac: addiu $sp, -0x18
@@ -32726,6 +33532,7 @@ F0x8002eaac:
 .L0x8002ead8: jr $ra
 .L0x8002eadc: nop
 
+.section "fns3_011.0x8002eae0"
 .global F0x8002eae0
 F0x8002eae0:
 .L0x8002eae0: lui $v0, %hi(D0x8005bfd8)
@@ -32741,6 +33548,7 @@ F0x8002eae0:
 .L0x8002eb08: jr $ra
 .L0x8002eb0c: nop
 
+.section "fns3_011.0x8002eb10"
 .global F0x8002eb10
 F0x8002eb10:
 .L0x8002eb10: lui $v0, %hi(D0x8005bfd8)
@@ -32756,6 +33564,7 @@ F0x8002eb10:
 .L0x8002eb38: jr $ra
 .L0x8002eb3c: nop
 
+.section "fns3_011.0x8002eb40"
 .global F0x8002eb40
 F0x8002eb40:
 .L0x8002eb40: lui $v0, %hi(D0x8005bfd8)
@@ -32771,6 +33580,7 @@ F0x8002eb40:
 .L0x8002eb68: jr $ra
 .L0x8002eb6c: nop
 
+.section "fns3_011.0x8002eb70"
 .global F0x8002eb70
 F0x8002eb70:
 .L0x8002eb70: lui $v0, %hi(D0x8005af52)
@@ -32784,6 +33594,7 @@ F0x8002eb70:
 .L0x8002eb90: jr $ra
 .L0x8002eb94: nop
 
+.section "fns3_011.0x8002eb98"
 .global F0x8002eb98
 F0x8002eb98:
 .L0x8002eb98: lui $v1, %hi(I_MASK_PTR_ADDR)
@@ -32793,8 +33604,7 @@ F0x8002eb98:
 .L0x8002eba8: jr $ra
 .L0x8002ebac: sh $a0, ($v1)
 
-.section "fns3_1"
-
+.section "fns3_1.0x8002ec88"
 .global F0x8002ec88
 F0x8002ec88:
 .L0x8002ec88: addiu $sp, -0x28
@@ -32911,6 +33721,7 @@ F0x8002ec88:
 .L0x8002ee50: jr $ra
 .L0x8002ee54: addiu $sp, 0x28
 
+.section "fns3_1.0x8002ee58"
 .global F0x8002ee58
 F0x8002ee58:
 .L0x8002ee58: addiu $sp, -0x28
@@ -32995,6 +33806,7 @@ F0x8002ee58:
 .L0x8002ef98: jr $ra
 .L0x8002ef9c: addiu $sp, 0x28
 
+.section "fns3_1.0x8002efa0"
 .global F0x8002efa0
 F0x8002efa0:
 .L0x8002efa0: addiu $sp, -0x18
@@ -33037,6 +33849,7 @@ F0x8002efa0:
 .L0x8002f038: jr $ra
 .L0x8002f03c: addiu $sp, 0x18
 
+.section "fns3_1.0x8002f040"
 .global F0x8002f040
 F0x8002f040:
 .L0x8002f040: addiu $sp, -0x18
@@ -33069,6 +33882,7 @@ F0x8002f040:
 .L0x8002f0b0: jr $ra
 .L0x8002f0b4: addiu $sp, 0x18
 
+.section "fns3_1.0x8002f0b8"
 .global F0x8002f0b8
 F0x8002f0b8:
 .L0x8002f0b8: beqz $a1, .L0x8002f0d4
@@ -33083,24 +33897,29 @@ F0x8002f0b8:
 .L0x8002f0dc: .word 0x7350
 .L0x8002f0e0: .word 0x470000
 
+.section "fns3_1.0x8002f0e4"
 .global CdRemove
 CdRemove:
 	bios_jump 0xa0, 0x72
 	nop
 	nop
 
+.section "fns3_1.0x8002f0fc"
 .global ReturnFromException
 ReturnFromException:
 	bios_jump 0xb0, 0x17
 
+.section "fns3_1.0x8002f10c"
 .global SetDefaultExitFromException
 SetDefaultExitFromException:
 	bios_jump 0xb0, 0x18
 
+.section "fns3_1.0x8002f11c"
 .global SetCustomExitFromException
 SetCustomExitFromException:
 	bios_jump 0xb0, 0x19
 
+.section "fns3_1.0x8002f12c"
 .global F0x8002f12c
 F0x8002f12c:
 .L0x8002f12c: sw $ra, ($a0)
@@ -33137,6 +33956,7 @@ F0x8002f12c:
 .L0x8002f1a8: nop
 
 # Returns `F0x8002f270`
+.section "fns3_1.0x8002f1ac"
 .global F0x8002f1ac
 F0x8002f1ac:
 .L0x8002f1ac: addiu $sp, -0x18
@@ -33159,6 +33979,7 @@ F0x8002f1ac:
 .L0x8002f1fc: jr $ra
 .L0x8002f200: nop
 
+.section "fns3_1.0x8002f204"
 .global F0x8002f204
 F0x8002f204:
 .L0x8002f204: lui $v0, %hi(D0x8005c018)
@@ -33188,6 +34009,7 @@ F0x8002f204:
 .L0x8002f268: jr $ra
 .L0x8002f26c: addiu $sp, 0x20
 
+.section "fns3_1.0x8002f270"
 .global F0x8002f270
 F0x8002f270:
 .L0x8002f270: la_ $v0, D0x8005bff8
@@ -33201,6 +34023,7 @@ F0x8002f270:
 .L0x8002f294: jr $ra
 .L0x8002f298: nop
 
+.section "fns3_1.0x8002f29c"
 .global F0x8002f29c
 F0x8002f29c:
 .L0x8002f29c: beqz $a1, .L0x8002f2b8
@@ -33217,6 +34040,7 @@ F0x8002f29c:
 .L0x8002f2c8: nop
 
 # Returns `F0x8002f498`?
+.section "fns3_1.0x8002f2cc"
 .global F0x8002f2cc
 F0x8002f2cc:
 .L0x8002f2cc: addiu $sp, -0x18
@@ -33236,6 +34060,7 @@ F0x8002f2cc:
 .L0x8002f310: jr $ra
 .L0x8002f314: nop
 
+.section "fns3_1.0x8002f318"
 .global F0x8002f318
 F0x8002f318:
 .L0x8002f318: lui $v0, %hi(D0x8005c028)
@@ -33332,6 +34157,7 @@ F0x8002f318:
 .L0x8002f490: jr $ra
 .L0x8002f494: addiu $sp, 0x30
 
+.section "fns3_1.0x8002f498"
 .global F0x8002f498
 F0x8002f498:
 .L0x8002f498: move_ $a2, $a0
@@ -33377,6 +34203,7 @@ F0x8002f498:
 .L0x8002f53c: jr $ra
 .L0x8002f540: nop
 
+.section "fns3_1.0x8002f544"
 .global F0x8002f544
 F0x8002f544:
 .L0x8002f544: beqz $a1, .L0x8002f560
@@ -33392,6 +34219,7 @@ F0x8002f544:
 
 # `fn set_D0x8005c058(value: u32) -> u32`
 # Sets `D0x8005c058` to `value` and returns the previous value
+.section "fns3_1.0x8002f56c"
 .global set_D0x8005c058
 set_D0x8005c058:
 .L0x8002f56c: lui $v0, %hi(D0x8005c058)
@@ -33402,6 +34230,7 @@ set_D0x8005c058:
 
 # `fn get_D0x8005c058() -> u32`
 # Loads `D0x8005c058`
+.section "fns3_1.0x8002f580"
 .global get_D0x8005c058
 get_D0x8005c058:
 .L0x8002f580: lui $v0, %hi(D0x8005c058)
@@ -33412,6 +34241,7 @@ get_D0x8005c058:
 .L0x8002f594: nop
 .L0x8002f598: nop
 
+.section "fns3_1.0x8002f59c"
 .global F0x8002f59c
 F0x8002f59c:
 .L0x8002f59c: addiu $sp, -0x38
@@ -33570,6 +34400,7 @@ F0x8002f59c:
 .L0x8002f804: jr $ra
 .L0x8002f808: addiu $sp, 0x38
 
+.section "fns3_1.0x8002f80c"
 .global F0x8002f80c
 F0x8002f80c:
 .L0x8002f80c: addiu $sp, -0x38
@@ -33704,6 +34535,7 @@ F0x8002f80c:
 .L0x8002fa14: nop
 .L0x8002fa18: nop
 
+.section "fns3_1.0x8002fa1c"
 .global F0x8002fa1c
 F0x8002fa1c:
 .L0x8002fa1c: addiu $sp, -0x20
@@ -33746,6 +34578,7 @@ F0x8002fa1c:
 .L0x8002fab4: nop
 .L0x8002fab8: nop
 
+.section "fns3_1.0x8002fabc"
 .global F0x8002fabc
 F0x8002fabc:
 .L0x8002fabc: addiu $sp, -0x18
@@ -33761,6 +34594,7 @@ F0x8002fabc:
 .L0x8002fae4: nop
 .L0x8002fae8: nop
 
+.section "fns3_1.0x8002faec"
 .global F0x8002faec
 F0x8002faec:
 .L0x8002faec: addiu $sp, -0x28
@@ -33827,6 +34661,7 @@ F0x8002faec:
 .L0x8002fbe0: jr $ra
 .L0x8002fbe4: addiu $sp, 0x28
 
+.section "fns3_1.0x8002fbe8"
 .global F0x8002fbe8
 F0x8002fbe8:
 .L0x8002fbe8: addiu $sp, -0x20
@@ -33974,6 +34809,7 @@ F0x8002fbe8:
 .L0x8002fe24: jr $ra
 .L0x8002fe28: addiu $sp, 0x20
 
+.section "fns3_1.0x8002fe2c"
 .global F0x8002fe2c
 F0x8002fe2c:
 .L0x8002fe2c: addiu $sp, -0x30
@@ -34212,6 +35048,7 @@ F0x8002fe2c:
 .L0x800301d4: addiu $sp, 0x30
 .L0x800301d8: nop
 
+.section "fns3_1.0x800301dc"
 .global F0x800301dc
 F0x800301dc:
 .L0x800301dc: sll $a0, 0x10
@@ -34259,6 +35096,7 @@ F0x800301dc:
 .L0x80030284: nop
 .L0x80030288: nop
 
+.section "fns3_1.0x8003028c"
 .global F0x8003028c
 F0x8003028c:
 .L0x8003028c: sll $a0, 0x10
@@ -34325,6 +35163,7 @@ F0x8003028c:
 .L0x80030384: sw $v0, 0x98($a2)
 .L0x80030388: nop
 
+.section "fns3_1.0x8003038c"
 .global F0x8003038c
 F0x8003038c:
 .L0x8003038c: sll $a0, 0x10
@@ -34351,6 +35190,7 @@ F0x8003038c:
 .L0x800303e4: jr $ra
 .L0x800303e8: sw $v1, 0x98($v0)
 
+.section "fns3_1.0x800303ec"
 .global F0x800303ec
 F0x800303ec:
 .L0x800303ec: addiu $sp, -0x18
@@ -34448,6 +35288,7 @@ F0x800303ec:
 .L0x80030560: jr $ra
 .L0x80030564: addiu $sp, 0x18
 
+.section "fns3_1.0x80030568"
 .global F0x80030568
 F0x80030568:
 .L0x80030568: addiu $sp, -0x18
@@ -34460,6 +35301,7 @@ F0x80030568:
 .L0x80030584: jr $ra
 .L0x80030588: nop
 
+.section "fns3_1.0x8003058c"
 .global F0x8003058c
 F0x8003058c:
 .L0x8003058c: addiu $sp, -0x18
@@ -34475,6 +35317,7 @@ F0x8003058c:
 .L0x800305b4: nop
 .L0x800305b8: nop
 
+.section "fns3_1.0x800305bc"
 .global F0x800305bc
 F0x800305bc:
 .L0x800305bc: addiu $sp, -0x20
@@ -34518,6 +35361,7 @@ F0x800305bc:
 .L0x80030658: jr $ra
 .L0x8003065c: addiu $sp, 0x20
 
+.section "fns3_1.0x80030660"
 .global F0x80030660
 F0x80030660:
 .L0x80030660: addiu $sp, -0x18
@@ -34552,6 +35396,7 @@ F0x80030660:
 .L0x800306d8: jr $ra
 .L0x800306dc: addiu $sp, 0x18
 
+.section "fns3_1.0x800306e0"
 .global F0x800306e0
 F0x800306e0:
 .L0x800306e0: addiu $sp, -0x20
@@ -34597,6 +35442,7 @@ F0x800306e0:
 .L0x80030784: nop
 .L0x80030788: nop
 
+.section "fns3_1.0x8003078c"
 .global F0x8003078c
 F0x8003078c:
 .L0x8003078c: addiu $sp, -0x18
@@ -34637,6 +35483,7 @@ F0x8003078c:
 .L0x80030824: jr $ra
 .L0x80030828: nop
 
+.section "fns3_1.0x8003082c"
 .global F0x8003082c
 F0x8003082c:
 .L0x8003082c: addiu $sp, -0x18
@@ -34656,6 +35503,7 @@ F0x8003082c:
 .L0x80030864: nop
 .L0x80030868: nop
 
+.section "fns3_1.0x8003086c"
 .global F0x8003086c
 F0x8003086c:
 .L0x8003086c: addiu $sp, -0x30
@@ -34813,6 +35661,7 @@ F0x8003086c:
 .L0x80030b64: nop
 .L0x80030b68: nop
 
+.section "fns3_1.0x80030b6c"
 .global F0x80030b6c
 F0x80030b6c:
 .L0x80030b6c: addiu $sp, -0x18
@@ -34848,6 +35697,7 @@ F0x80030b6c:
 .L0x80030be4: nop
 .L0x80030be8: nop
 
+.section "fns3_1.0x80030bec"
 .global F0x80030bec
 F0x80030bec:
 .L0x80030bec: addiu $sp, -0xa0
@@ -35075,6 +35925,7 @@ F0x80030bec:
 .L0x80030f64: addiu $sp, 0xa0
 .L0x80030f68: nop
 
+.section "fns3_1.0x80030f6c"
 .global F0x80030f6c
 F0x80030f6c:
 .L0x80030f6c: addiu $sp, -0x30
@@ -35130,6 +35981,7 @@ F0x80030f6c:
 .L0x80031034: addiu $sp, 0x30
 .L0x80031038: nop
 
+.section "fns3_1.0x8003103c"
 .global F0x8003103c
 F0x8003103c:
 .L0x8003103c: addiu $sp, -0x30
@@ -35185,6 +36037,7 @@ F0x8003103c:
 .L0x80031104: addiu $sp, 0x30
 .L0x80031108: nop
 
+.section "fns3_1.0x8003110c"
 .global F0x8003110c
 F0x8003110c:
 .L0x8003110c: addiu $sp, -0x38
@@ -35248,6 +36101,7 @@ F0x8003110c:
 .L0x800311f4: nop
 .L0x800311f8: nop
 
+.section "fns3_1.0x800311fc"
 .global F0x800311fc
 F0x800311fc:
 .L0x800311fc: addiu $sp, -0x20
@@ -35295,6 +36149,7 @@ F0x800311fc:
 .L0x800312a4: nop
 .L0x800312a8: nop
 
+.section "fns3_1.0x800312ac"
 .global F0x800312ac
 F0x800312ac:
 .L0x800312ac: addiu $sp, -0x20
@@ -35334,6 +36189,7 @@ F0x800312ac:
 .L0x80031334: nop
 .L0x80031338: nop
 
+.section "fns3_1.0x8003133c"
 .global F0x8003133c
 F0x8003133c:
 .L0x8003133c: addiu $sp, -0x28
@@ -35400,6 +36256,7 @@ F0x8003133c:
 .L0x80031434: jr $ra
 .L0x80031438: addiu $sp, 0x28
 
+.section "fns3_1.0x8003143c"
 .global F0x8003143c
 F0x8003143c:
 .L0x8003143c: addiu $sp, -0x18
@@ -35483,6 +36340,7 @@ F0x8003143c:
 .L0x80031574: nop
 .L0x80031578: nop
 
+.section "fns3_1.0x8003157c"
 .global F0x8003157c
 F0x8003157c:
 .L0x8003157c: addiu $sp, -0x18
@@ -35514,6 +36372,7 @@ F0x8003157c:
 .L0x800315e4: addiu $sp, 0x18
 .L0x800315e8: nop
 
+.section "fns3_1.0x800315ec"
 .global F0x800315ec
 F0x800315ec:
 .L0x800315ec: addiu $sp, -0x18
@@ -35545,6 +36404,7 @@ F0x800315ec:
 .L0x80031654: addiu $sp, 0x18
 .L0x80031658: nop
 
+.section "fns3_1.0x8003165c"
 .global F0x8003165c
 F0x8003165c:
 .L0x8003165c: addiu $sp, -0x20
@@ -35596,6 +36456,7 @@ F0x8003165c:
 .L0x80031714: nop
 .L0x80031718: nop
 
+.section "fns3_1.0x8003171c"
 .global F0x8003171c
 F0x8003171c:
 .L0x8003171c: addiu $sp, -0x28
@@ -35635,6 +36496,7 @@ F0x8003171c:
 .L0x800317a4: addiu $sp, 0x28
 .L0x800317a8: nop
 
+.section "fns3_1.0x800317ac"
 .global F0x800317ac
 F0x800317ac:
 .L0x800317ac: addiu $sp, -0x28
@@ -35686,6 +36548,7 @@ F0x800317ac:
 .L0x80031864: nop
 .L0x80031868: nop
 
+.section "fns3_1.0x8003186c"
 .global F0x8003186c
 F0x8003186c:
 .L0x8003186c: addiu $sp, -0x28
@@ -35725,6 +36588,7 @@ F0x8003186c:
 .L0x800318f4: addiu $sp, 0x28
 .L0x800318f8: nop
 
+.section "fns3_1.0x800318fc"
 .global F0x800318fc
 F0x800318fc:
 .L0x800318fc: addiu $sp, -0x28
@@ -35764,6 +36628,7 @@ F0x800318fc:
 .L0x80031984: addiu $sp, 0x28
 .L0x80031988: nop
 
+.section "fns3_1.0x8003198c"
 .global F0x8003198c
 F0x8003198c:
 .L0x8003198c: addiu $sp, -0x40
@@ -35811,6 +36676,7 @@ F0x8003198c:
 .L0x80031a34: jr $ra
 .L0x80031a38: addiu $sp, 0x40
 
+.section "fns3_1.0x80031a3c"
 .global F0x80031a3c
 F0x80031a3c:
 .L0x80031a3c: andi $v0, $a0, 0x8000
@@ -35837,6 +36703,7 @@ F0x80031a3c:
 .L0x80031a90: jr $ra
 .L0x80031a94: sh $a1, 0x8($a2)
 
+.section "fns3_1.0x80031a98"
 .global F0x80031a98
 F0x80031a98:
 .L0x80031a98: move_ $a3, $a0
@@ -35881,6 +36748,7 @@ F0x80031a98:
 .L0x80031b34: jr $ra
 .L0x80031b38: sh $v0, ($a2)
 
+.section "fns3_1.0x80031b3c"
 .global F0x80031b3c
 F0x80031b3c:
 .L0x80031b3c: addiu $sp, -0x40
@@ -35932,6 +36800,7 @@ F0x80031b3c:
 .L0x80031bf4: nop
 .L0x80031bf8: nop
 
+.section "fns3_1.0x80031bfc"
 .global F0x80031bfc
 F0x80031bfc:
 .L0x80031bfc: addiu $sp, -0x40
@@ -35979,6 +36848,7 @@ F0x80031bfc:
 .L0x80031ca4: addiu $sp, 0x40
 .L0x80031ca8: nop
 
+.section "fns3_1.0x80031cac"
 .global F0x80031cac
 F0x80031cac:
 .L0x80031cac: addiu $sp, -0x40
@@ -36026,6 +36896,7 @@ F0x80031cac:
 .L0x80031d54: addiu $sp, 0x40
 .L0x80031d58: nop
 
+.section "fns3_1.0x80031d5c"
 .global F0x80031d5c
 F0x80031d5c:
 .L0x80031d5c: addiu $sp, -0x40
@@ -36073,6 +36944,7 @@ F0x80031d5c:
 .L0x80031e04: jr $ra
 .L0x80031e08: addiu $sp, 0x40
 
+.section "fns3_1.0x80031e0c"
 .global F0x80031e0c
 F0x80031e0c:
 .L0x80031e0c: addiu $sp, -0x40
@@ -36124,6 +36996,7 @@ F0x80031e0c:
 .L0x80031ec4: nop
 .L0x80031ec8: nop
 
+.section "fns3_1.0x80031ecc"
 .global F0x80031ecc
 F0x80031ecc:
 .L0x80031ecc: addiu $sp, -0x40
@@ -36171,6 +37044,7 @@ F0x80031ecc:
 .L0x80031f74: jr $ra
 .L0x80031f78: addiu $sp, 0x40
 
+.section "fns3_1.0x80031f7c"
 .global F0x80031f7c
 F0x80031f7c:
 .L0x80031f7c: addiu $sp, -0x40
@@ -36218,6 +37092,7 @@ F0x80031f7c:
 .L0x80032024: nop
 .L0x80032028: nop
 
+.section "fns3_1.0x8003202c"
 .global F0x8003202c
 F0x8003202c:
 .L0x8003202c: addiu $sp, -0x40
@@ -36277,6 +37152,7 @@ F0x8003202c:
 .L0x80032104: nop
 .L0x80032108: nop
 
+.section "fns3_1.0x8003210c"
 .global F0x8003210c
 F0x8003210c:
 .L0x8003210c: addiu $sp, -0x40
@@ -36320,6 +37196,7 @@ F0x8003210c:
 .L0x800321a4: addiu $sp, 0x40
 .L0x800321a8: nop
 
+.section "fns3_1.0x800321ac"
 .global F0x800321ac
 F0x800321ac:
 .L0x800321ac: addiu $sp, -0x40
@@ -36363,6 +37240,7 @@ F0x800321ac:
 .L0x80032244: addiu $sp, 0x40
 .L0x80032248: nop
 
+.section "fns3_1.0x8003224c"
 .global F0x8003224c
 F0x8003224c:
 .L0x8003224c: addiu $sp, -0x18
@@ -36378,6 +37256,7 @@ F0x8003224c:
 .L0x80032274: nop
 .L0x80032278: nop
 
+.section "fns3_1.0x8003227c"
 .global F0x8003227c
 F0x8003227c:
 .L0x8003227c: addiu $sp, -0x18
@@ -36393,6 +37272,7 @@ F0x8003227c:
 .L0x800322a4: nop
 .L0x800322a8: nop
 
+.section "fns3_1.0x800322ac"
 .global F0x800322ac
 F0x800322ac:
 .L0x800322ac: addiu $sp, -0x18
@@ -36408,6 +37288,7 @@ F0x800322ac:
 .L0x800322d4: nop
 .L0x800322d8: nop
 
+.section "fns3_1.0x800322dc"
 .global F0x800322dc
 F0x800322dc:
 .L0x800322dc: addiu $sp, -0x18
@@ -36423,6 +37304,7 @@ F0x800322dc:
 .L0x80032304: nop
 .L0x80032308: nop
 
+.section "fns3_1.0x8003230c"
 .global F0x8003230c
 F0x8003230c:
 .L0x8003230c: addiu $sp, -0x18
@@ -36438,6 +37320,7 @@ F0x8003230c:
 .L0x80032334: nop
 .L0x80032338: nop
 
+.section "fns3_1.0x8003233c"
 .global F0x8003233c
 F0x8003233c:
 .L0x8003233c: addiu $sp, -0x20
@@ -36485,6 +37368,7 @@ F0x8003233c:
 .L0x800323e4: jr $ra
 .L0x800323e8: addiu $sp, 0x20
 
+.section "fns3_1.0x800323ec"
 .global F0x800323ec
 F0x800323ec:
 .L0x800323ec: addiu $sp, -0x18
@@ -36628,6 +37512,7 @@ F0x800323ec:
 .L0x80032614: addiu $sp, 0x18
 .L0x80032618: nop
 
+.section "fns3_1.0x8003261c"
 .global F0x8003261c
 F0x8003261c:
 .L0x8003261c: addiu $sp, -0x18
@@ -36747,6 +37632,7 @@ F0x8003261c:
 .L0x800327e4: nop
 .L0x800327e8: nop
 
+.section "fns3_1.0x800327ec"
 .global F0x800327ec
 F0x800327ec:
 .L0x800327ec: addiu $sp, -0x20
@@ -36806,6 +37692,7 @@ F0x800327ec:
 .L0x800328c4: nop
 .L0x800328c8: nop
 
+.section "fns3_1.0x800328cc"
 .global F0x800328cc
 F0x800328cc:
 .L0x800328cc: addiu $sp, -0x18
@@ -36837,6 +37724,7 @@ F0x800328cc:
 .L0x80032934: addiu $sp, 0x18
 .L0x80032938: nop
 
+.section "fns3_1.0x8003293c"
 .global F0x8003293c
 F0x8003293c:
 .L0x8003293c: addiu $sp, -0x20
@@ -37088,6 +37976,7 @@ F0x8003293c:
 .L0x80032d14: addiu $sp, 0x20
 .L0x80032d18: nop
 
+.section "fns3_1.0x80032d1c"
 .global F0x80032d1c
 F0x80032d1c:
 .L0x80032d1c: addiu $sp, -0x18
@@ -37107,6 +37996,7 @@ F0x80032d1c:
 .L0x80032d54: nop
 .L0x80032d58: nop
 
+.section "fns3_1.0x80032d5c"
 .global F0x80032d5c
 F0x80032d5c:
 .L0x80032d5c: addiu $sp, -0x18
@@ -37181,6 +38071,7 @@ F0x80032d5c:
 .L0x80032e74: nop
 .L0x80032e78: nop
 
+.section "fns3_1.0x80032e7c"
 .global F0x80032e7c
 F0x80032e7c:
 .L0x80032e7c: addiu $sp, -0x40
@@ -37232,6 +38123,7 @@ F0x80032e7c:
 .L0x80032f34: jr $ra
 .L0x80032f38: nop
 
+.section "fns3_1.0x80032f3c"
 .global F0x80032f3c
 F0x80032f3c:
 .L0x80032f3c: addiu $sp, -0x40
@@ -37255,6 +38147,7 @@ F0x80032f3c:
 .L0x80032f84: jr $ra
 .L0x80032f88: nop
 
+.section "fns3_1.0x80032f8c"
 .global F0x80032f8c
 F0x80032f8c:
 .L0x80032f8c: addiu $sp, -0x20
@@ -37394,6 +38287,7 @@ F0x80032f8c:
 .L0x800331b4: jr $ra
 .L0x800331b8: addiu $sp, 0x20
 
+.section "fns3_1.0x800331bc"
 .global F0x800331bc
 F0x800331bc:
 .L0x800331bc: addiu $sp, -0x18
@@ -37405,6 +38299,7 @@ F0x800331bc:
 .L0x800331d4: jr $ra
 .L0x800331d8: nop
 
+.section "fns3_1.0x800331dc"
 .global F0x800331dc
 F0x800331dc:
 .L0x800331dc: addiu $sp, -0x18
@@ -37416,6 +38311,7 @@ F0x800331dc:
 .L0x800331f4: jr $ra
 .L0x800331f8: nop
 
+.section "fns3_1.0x800331fc"
 .global F0x800331fc
 F0x800331fc:
 .L0x800331fc: addiu $sp, -0x18
@@ -37437,6 +38333,7 @@ F0x800331fc:
 .L0x80033240: jr $ra
 .L0x80033244: addiu $sp, 0x18
 
+.section "fns3_1.0x80033248"
 .global F0x80033248
 F0x80033248:
 .L0x80033248: lui $v0, %hi(D0x8005c0b4)
@@ -37461,6 +38358,7 @@ F0x80033248:
 .L0x80033294: nop
 .L0x80033298: nop
 
+.section "fns3_1.0x8003329c"
 .global F0x8003329c
 F0x8003329c:
 .L0x8003329c: andi $t0, $a0, 0xffff
@@ -37542,6 +38440,7 @@ F0x8003329c:
 .L0x800333cc: jr $ra
 .L0x800333d0: sw $v1, 0x4($a1)
 
+.section "fns3_1.0x800333d4"
 .global F0x800333d4
 F0x800333d4:
 .L0x800333d4: andi $v1, $a0, 0xffff
@@ -37559,6 +38458,7 @@ F0x800333d4:
 .L0x80033404: nop
 .L0x80033408: nop
 
+.section "fns3_1.0x8003340c"
 .global F0x8003340c
 F0x8003340c:
 .L0x8003340c: addiu $sp, -0x18
@@ -37657,6 +38557,7 @@ F0x8003340c:
 .L0x80033584: jr $ra
 .L0x80033588: addiu $sp, 0x18
 
+.section "fns3_1.0x8003358c"
 .global F0x8003358c
 F0x8003358c:
 .L0x8003358c: addiu $sp, -0x18
@@ -37670,6 +38571,7 @@ F0x8003358c:
 .L0x800335ac: jr $ra
 .L0x800335b0: nop
 
+.section "fns3_1.0x800335b4"
 .global F0x800335b4
 F0x800335b4:
 .L0x800335b4: addiu $sp, -0x18
@@ -37687,6 +38589,7 @@ F0x800335b4:
 .L0x800335e4: nop
 .L0x800335e8: nop
 
+.section "fns3_1.0x800335ec"
 .global F0x800335ec
 F0x800335ec:
 .L0x800335ec: addiu $sp, -0x40
@@ -37758,6 +38661,7 @@ F0x800335ec:
 .L0x800336f4: nop
 .L0x800336f8: nop
 
+.section "fns3_1.0x800336fc"
 .global F0x800336fc
 F0x800336fc:
 .L0x800336fc: move_ $t1, $a1
@@ -37895,6 +38799,7 @@ F0x800336fc:
 .L0x80033914: nop
 .L0x80033918: nop
 
+.section "fns3_1.0x8003391c"
 .global F0x8003391c
 F0x8003391c:
 .L0x8003391c: addiu $sp, -0x18
@@ -37929,6 +38834,7 @@ F0x8003391c:
 .L0x80033998: jr $v0
 .L0x8003399c: nop
 
+.section "fns3_1.0x800339a0"
 .global F0x800339a0
 F0x800339a0:
 .L0x800339a0: li $v1, 0x32
@@ -37941,6 +38847,7 @@ F0x800339a0:
 .L0x800339bc: j .L0x80033a54
 .L0x800339c0: sw $v1, %lo(D0x8005c0a0)($at)
 
+.section "fns3_1.0x800339c4"
 .global F0x800339c4
 F0x800339c4:
 .L0x800339c4: li $v0, 0x3c
@@ -37952,6 +38859,7 @@ F0x800339c4:
 .L0x800339dc: j .L0x80033a54
 .L0x800339e0: sw $v0, %lo(D0x8005c0a0)($at)
 
+.section "fns3_1.0x800339e4"
 .global F0x800339e4
 F0x800339e4:
 .L0x800339e4: li $v0, 0x78
@@ -37959,6 +38867,7 @@ F0x800339e4:
 .L0x800339ec: j .L0x80033a54
 .L0x800339f0: sw $v0, %lo(D0x8008159c)($at)
 
+.section "fns3_1.0x800339f4"
 .global F0x800339f4
 F0x800339f4:
 .L0x800339f4: li $v0, 0xf0
@@ -37966,6 +38875,7 @@ F0x800339f4:
 .L0x800339fc: j .L0x80033a54
 .L0x80033a00: sw $v0, %lo(D0x8008159c)($at)
 
+.section "fns3_1.0x80033a04"
 .global F0x80033a04
 F0x80033a04:
 .L0x80033a04: beqz $a0, .L0x80033a3c
@@ -37975,6 +38885,7 @@ F0x80033a04:
 .L0x80033a14: j .L0x80033a40
 .L0x80033a18: nop
 
+.section "fns3_1.0x80033a1c"
 .global F0x80033a1c
 F0x80033a1c:
 .L0x80033a1c: beqz $a0, .L0x80033a3c
@@ -37998,6 +38909,7 @@ F0x80033a1c:
 .L0x80033a64: nop
 .L0x80033a68: nop
 
+.section "fns3_1.0x80033a6c"
 .global F0x80033a6c
 F0x80033a6c:
 .L0x80033a6c: addiu $sp, -0x18
@@ -38037,6 +38949,7 @@ F0x80033a6c:
 .L0x80033af4: jr $ra
 .L0x80033af8: nop
 
+.section "fns3_1.0x80033afc"
 .global F0x80033afc
 F0x80033afc:
 .L0x80033afc: addiu $sp, -0x18
@@ -38066,6 +38979,7 @@ F0x80033afc:
 .L0x80033b5c: jr $ra
 .L0x80033b60: nop
 
+.section "fns3_1.0x80033b64"
 .global F0x80033b64
 F0x80033b64:
 .L0x80033b64: addiu $sp, -0x18
@@ -38107,6 +39021,7 @@ F0x80033b64:
 .L0x80033bf4: nop
 .L0x80033bf8: nop
 
+.section "fns3_1.0x80033bfc"
 .global F0x80033bfc
 F0x80033bfc:
 .L0x80033bfc: sll $v0, $a0, 0x10
@@ -38244,6 +39159,7 @@ F0x80033bfc:
 .L0x80033e14: nop
 .L0x80033e18: nop
 
+.section "fns3_1.0x80033e1c"
 .global F0x80033e1c
 F0x80033e1c:
 .L0x80033e1c: sll $a0, 0x10
@@ -38275,6 +39191,7 @@ F0x80033e1c:
 .L0x80033e84: jr $ra
 .L0x80033e88: nop
 
+.section "fns3_1.0x80033e8c"
 .global F0x80033e8c
 F0x80033e8c:
 .L0x80033e8c: addiu $sp, -0x68
@@ -38362,6 +39279,7 @@ F0x80033e8c:
 .L0x80033fd4: nop
 .L0x80033fd8: nop
 
+.section "fns3_1.0x80033fdc"
 .global F0x80033fdc
 F0x80033fdc:
 .L0x80033fdc: addiu $sp, -0x20
@@ -38433,6 +39351,7 @@ F0x80033fdc:
 .L0x800340e4: nop
 .L0x800340e8: nop
 
+.section "fns3_1.0x800340ec"
 .global F0x800340ec
 F0x800340ec:
 .L0x800340ec: addiu $sp, -0x20
@@ -38580,6 +39499,7 @@ F0x800340ec:
 .L0x80034324: nop
 .L0x80034328: nop
 
+.section "fns3_1.0x8003432c"
 .global F0x8003432c
 F0x8003432c:
 .L0x8003432c: addiu $sp, -0x38
@@ -38800,6 +39720,7 @@ F0x8003432c:
 .L0x80034690: jr $ra
 .L0x80034694: addiu $sp, 0x38
 
+.section "fns3_1.0x80034698"
 .global F0x80034698
 F0x80034698:
 .L0x80034698: addiu $sp, -0x18
@@ -38884,6 +39805,7 @@ F0x80034698:
 .L0x800347d4: addiu $sp, 0x18
 .L0x800347d8: nop
 
+.section "fns3_1.0x800347dc"
 .global F0x800347dc
 F0x800347dc:
 .L0x800347dc: addiu $sp, -0x18
@@ -38902,6 +39824,7 @@ F0x800347dc:
 .L0x80034814: nop
 .L0x80034818: nop
 
+.section "fns3_1.0x8003481c"
 .global F0x8003481c
 F0x8003481c:
 .L0x8003481c: lui $v0, 0x8102
@@ -38940,6 +39863,7 @@ F0x8003481c:
 .L0x800348a4: nop
 .L0x800348a8: nop
 
+.section "fns3_1.0x800348ac"
 .global F0x800348ac
 F0x800348ac:
 .L0x800348ac: addiu $sp, -0x18
@@ -38982,6 +39906,7 @@ F0x800348ac:
 .L0x80034944: addiu $sp, 0x18
 .L0x80034948: nop
 
+.section "fns3_1.0x8003494c"
 .global F0x8003494c
 F0x8003494c:
 .L0x8003494c: addiu $sp, -0x18
@@ -39000,6 +39925,7 @@ F0x8003494c:
 .L0x80034984: nop
 .L0x80034988: nop
 
+.section "fns3_1.0x8003498c"
 .global F0x8003498c
 F0x8003498c:
 .L0x8003498c: addiu $sp, -0x18
@@ -39011,6 +39937,7 @@ F0x8003498c:
 .L0x800349a4: jr $ra
 .L0x800349a8: nop
 
+.section "fns3_1.0x800349ac"
 .global F0x800349ac
 F0x800349ac:
 .L0x800349ac: addiu $sp, -0x18
@@ -39022,6 +39949,7 @@ F0x800349ac:
 .L0x800349c4: jr $ra
 .L0x800349c8: nop
 
+.section "fns3_1.0x800349cc"
 .global F0x800349cc
 F0x800349cc:
 .L0x800349cc: addiu $sp, -0x20
@@ -39141,6 +40069,7 @@ F0x800349cc:
 .L0x80034b94: nop
 .L0x80034b98: nop
 
+.section "fns3_1.0x80034b9c"
 .global F0x80034b9c
 F0x80034b9c:
 .L0x80034b9c: li $t3, 0x63
@@ -39300,6 +40229,7 @@ F0x80034b9c:
 .L0x80034e04: jr $ra
 .L0x80034e08: andi $v0, $t3, 0xff
 
+.section "fns3_1.0x80034e0c"
 .global F0x80034e0c
 F0x80034e0c:
 .L0x80034e0c: move_ $a1, $zr
@@ -39414,6 +40344,7 @@ F0x80034e0c:
 .L0x80034fd4: nop
 .L0x80034fd8: nop
 
+.section "fns3_1.0x80034fdc"
 .global F0x80034fdc
 F0x80034fdc:
 .L0x80034fdc: lui $at, %hi(D0x80082600)
@@ -39421,6 +40352,7 @@ F0x80034fdc:
 .L0x80034fe4: sh $zr, %lo(D0x80082600)($at)
 .L0x80034fe8: nop
 
+.section "fns3_1.0x80034fec"
 .global F0x80034fec
 F0x80034fec:
 .L0x80034fec: li $v0, 0x2
@@ -39428,6 +40360,7 @@ F0x80034fec:
 .L0x80034ff4: jr $ra
 .L0x80034ff8: sh $v0, %lo(D0x80082600)($at)
 
+.section "fns3_1.0x80034ffc"
 .global F0x80034ffc
 F0x80034ffc:
 .L0x80034ffc: lui $v0, %hi(D0x8008251c)
@@ -39733,6 +40666,7 @@ F0x80034ffc:
 .L0x800354c4: nop
 .L0x800354c8: nop
 
+.section "fns3_1.0x800354cc"
 .global F0x800354cc
 F0x800354cc:
 .L0x800354cc: addiu $sp, -0x70
@@ -39945,6 +40879,7 @@ F0x800354cc:
 .L0x80035814: jr $ra
 .L0x80035818: addiu $sp, 0x70
 
+.section "fns3_1.0x8003581c"
 .global F0x8003581c
 F0x8003581c:
 .L0x8003581c: addiu $sp, -0x148
@@ -40273,6 +41208,7 @@ F0x8003581c:
 .L0x80035d30: jr $ra
 .L0x80035d34: addiu $sp, 0x148
 
+.section "fns3_1.0x80035d38"
 .global F0x80035d38
 F0x80035d38:
 .L0x80035d38: lui $v0, %hi(D0x8008265c)
@@ -40364,6 +41300,7 @@ F0x80035d38:
 .L0x80035e90: jr $ra
 .L0x80035e94: addiu $sp, 0x30
 
+.section "fns3_1.0x80035e98"
 .global F0x80035e98
 F0x80035e98:
 .L0x80035e98: addiu $sp, -0x20
@@ -40426,6 +41363,7 @@ F0x80035e98:
 .L0x80035f7c: jr $ra
 .L0x80035f80: nop
 
+.section "fns3_1.0x80035f84"
 .global F0x80035f84
 F0x80035f84:
 .L0x80035f84: addiu $sp, -0x18
@@ -40443,6 +41381,7 @@ F0x80035f84:
 .L0x80035fb4: nop
 .L0x80035fb8: nop
 
+.section "fns3_1.0x80035fbc"
 .global F0x80035fbc
 F0x80035fbc:
 .L0x80035fbc: addiu $sp, -0x18
@@ -40464,6 +41403,7 @@ F0x80035fbc:
 .L0x80036000: jr $ra
 .L0x80036004: addiu $sp, 0x18
 
+.section "fns3_1.0x80036008"
 .global F0x80036008
 F0x80036008:
 .L0x80036008: addiu $sp, -0x18
@@ -40492,6 +41432,7 @@ F0x80036008:
 .L0x80036068: jr $ra
 .L0x8003606c: addiu $sp, 0x18
 
+.section "fns3_1.0x80036070"
 .global F0x80036070
 F0x80036070:
 .L0x80036070: andi $a3, 0xff
@@ -40569,6 +41510,7 @@ F0x80036070:
 .L0x80036194: nop
 .L0x80036198: nop
 
+.section "fns3_1.0x8003619c"
 .global F0x8003619c
 F0x8003619c:
 .L0x8003619c: addiu $sp, -0x28
@@ -40917,6 +41859,7 @@ F0x8003619c:
 .L0x80036704: nop
 .L0x80036708: nop
 
+.section "fns3_1.0x8003670c"
 .global F0x8003670c
 F0x8003670c:
 .L0x8003670c: andi $a0, 0xff
@@ -40936,6 +41879,7 @@ F0x8003670c:
 .L0x80036744: nop
 .L0x80036748: nop
 
+.section "fns3_1.0x8003674c"
 .global F0x8003674c
 F0x8003674c:
 .L0x8003674c: lui $a0, %hi(D0x80082680)
@@ -40987,6 +41931,7 @@ F0x8003674c:
 .L0x80036804: jr $ra
 .L0x80036808: sh $v0, %lo(D0x80081e2a)($at)
 
+.section "fns3_1.0x8003680c"
 .global F0x8003680c
 F0x8003680c:
 .L0x8003680c: lui $v0, %hi(D0x80082654)
@@ -41295,6 +42240,7 @@ F0x8003680c:
 .L0x80036cd4: nop
 .L0x80036cd8: nop
 
+.section "fns3_1.0x80036cdc"
 .global F0x80036cdc
 F0x80036cdc:
 .L0x80036cdc: addiu $sp, -0x18
@@ -41419,6 +42365,7 @@ F0x80036cdc:
 .L0x80036ec0: jr $ra
 .L0x80036ec4: addiu $sp, 0x18
 
+.section "fns3_1.0x80036ec8"
 .global F0x80036ec8
 F0x80036ec8:
 .L0x80036ec8: addiu $sp, -0x38
@@ -41479,6 +42426,7 @@ F0x80036ec8:
 .L0x80036fa4: nop
 .L0x80036fa8: nop
 
+.section "fns3_1.0x80036fac"
 .global F0x80036fac
 F0x80036fac:
 .L0x80036fac: addiu $sp, -0x20
@@ -41510,6 +42458,7 @@ F0x80036fac:
 .L0x80037014: jr $ra
 .L0x80037018: addiu $sp, 0x20
 
+.section "fns3_1.0x8003701c"
 .global F0x8003701c
 F0x8003701c:
 .L0x8003701c: addiu $sp, -0x40
@@ -41856,6 +42805,7 @@ F0x8003701c:
 .L0x80037580: jr $ra
 .L0x80037584: addiu $sp, 0x40
 
+.section "fns3_1.0x80037588"
 .global F0x80037588
 F0x80037588:
 .L0x80037588: andi $v0, $a0, 0xff
@@ -41883,6 +42833,7 @@ F0x80037588:
 .L0x800375e4: jr $ra
 .L0x800375e8: nop
 
+.section "fns3_1.0x800375ec"
 .global F0x800375ec
 F0x800375ec:
 .L0x800375ec: lui $v0, %hi(D0x8008265c)
@@ -41930,6 +42881,7 @@ F0x800375ec:
 .L0x80037694: jr $ra
 .L0x80037698: addiu $sp, 0x20
 
+.section "fns3_1.0x8003769c"
 .global F0x8003769c
 F0x8003769c:
 .L0x8003769c: move_ $t1, $a0
@@ -41984,6 +42936,7 @@ F0x8003769c:
 .L0x80037764: nop
 .L0x80037768: nop
 
+.section "fns3_1.0x8003776c"
 .global F0x8003776c
 F0x8003776c:
 .L0x8003776c: addiu $sp, -0x40
@@ -42345,6 +43298,7 @@ F0x8003776c:
 .L0x80037d04: jr $ra
 .L0x80037d08: addiu $sp, 0x40
 
+.section "fns3_1.0x80037d0c"
 .global F0x80037d0c
 F0x80037d0c:
 .L0x80037d0c: move_ $a3, $a0
@@ -42395,6 +43349,7 @@ F0x80037d0c:
 .L0x80037dc4: jr $ra
 .L0x80037dc8: nop
 
+.section "fns3_1.0x80037dcc"
 .global F0x80037dcc
 F0x80037dcc:
 .L0x80037dcc: addiu $sp, -0x18
@@ -42442,6 +43397,7 @@ F0x80037dcc:
 .L0x80037e74: nop
 .L0x80037e78: nop
 
+.section "fns3_1.0x80037e7c"
 .global F0x80037e7c
 F0x80037e7c:
 .L0x80037e7c: addiu $sp, -0x18
@@ -42457,6 +43413,7 @@ F0x80037e7c:
 .L0x80037ea8: jr $ra
 .L0x80037eac: addiu $sp, 0x18
 
+.section "fns3_1.0x80037eb0"
 .global F0x80037eb0
 F0x80037eb0:
 .L0x80037eb0: addiu $sp, -0x18
@@ -42472,11 +43429,13 @@ F0x80037eb0:
 .L0x80037edc: jr $ra
 .L0x80037ee0: addiu $sp, 0x18
 
+.section "fns3_1.0x80037ee4"
 .global F0x80037ee4
 F0x80037ee4:
 .L0x80037ee4: jr $ra
 .L0x80037ee8: move_ $v0, $a1
 
+.section "fns3_1.0x80037eec"
 .global F0x80037eec
 F0x80037eec:
 .L0x80037eec: addiu $sp, -0x430
@@ -42732,6 +43691,7 @@ F0x80037eec:
 .L0x800382d4: addiu $sp, 0x430
 .L0x800382d8: nop
 
+.section "fns3_1.0x800382dc"
 .global F0x800382dc
 F0x800382dc:
 .L0x800382dc: addiu $sp, -0x28
@@ -42783,6 +43743,7 @@ F0x800382dc:
 .L0x80038394: jr $ra
 .L0x80038398: addiu $sp, 0x28
 
+.section "fns3_1.0x8003839c"
 .global F0x8003839c
 F0x8003839c:
 .L0x8003839c: addiu $sp, -0x18
@@ -42798,6 +43759,7 @@ F0x8003839c:
 .L0x800383c4: nop
 .L0x800383c8: nop
 
+.section "fns3_1.0x800383cc"
 .global F0x800383cc
 F0x800383cc:
 .L0x800383cc: addiu $sp, -0x18
@@ -42809,6 +43771,7 @@ F0x800383cc:
 .L0x800383e4: jr $ra
 .L0x800383e8: nop
 
+.section "fns3_1.0x800383ec"
 .global F0x800383ec
 F0x800383ec:
 .L0x800383ec: addiu $sp, -0x18
@@ -42868,6 +43831,7 @@ F0x800383ec:
 .L0x800384cc: jr $ra
 .L0x800384d0: addiu $sp, 0x18
 
+.section "fns3_1.0x800384d4"
 .global F0x800384d4
 F0x800384d4:
 .L0x800384d4: lui $v0, %hi(D0x8005c270)
@@ -42901,14 +43865,17 @@ F0x800384d4:
 .L0x80038544: nop
 .L0x80038548: nop
 
+.section "fns3_1.0x8003854c"
 .global OpenEvent
 OpenEvent:
 	bios_jump 0xb0, 0x08
 
+.section "fns3_1.0x8003855c"
 .global EnableEvent
 EnableEvent:
 	bios_jump 0xb0, 0x0c
 
+.section "fns3_1.0x8003856c"
 .global F0x8003856c
 F0x8003856c:
 .L0x8003856c: addiu $sp, -0x20
@@ -43069,6 +44036,7 @@ F0x8003856c:
 .L0x800387e4: jr $ra
 .L0x800387e8: addiu $sp, 0x20
 
+.section "fns3_1.0x800387ec"
 .global F0x800387ec
 F0x800387ec:
 .L0x800387ec: lui $v0, %hi(D0x8005c280)
@@ -43182,6 +44150,7 @@ F0x800387ec:
 .L0x800389a4: jr $ra
 .L0x800389a8: addiu $sp, 0x28
 
+.section "fns3_1.0x800389ac"
 .global F0x800389ac
 F0x800389ac:
 .L0x800389ac: lui $v0, %hi(D0x8005c2d0)
@@ -43232,6 +44201,7 @@ F0x800389ac:
 .L0x80038a60: jr $ra
 .L0x80038a64: nop
 
+.section "fns3_1.0x80038a68"
 .global F0x80038a68
 F0x80038a68:
 .L0x80038a68: lui $v0, %hi(D0x8005c280)
@@ -43277,6 +44247,7 @@ F0x80038a68:
 .L0x80038b08: jr $ra
 .L0x80038b0c: addiu $sp, 0x20
 
+.section "fns3_1.0x80038b10"
 .global F0x80038b10
 F0x80038b10:
 .L0x80038b10: sw $a0, ($sp)
@@ -43440,6 +44411,7 @@ F0x80038b10:
 .L0x80038d88: jr $ra
 .L0x80038d8c: addiu $sp, 0x18
 
+.section "fns3_1.0x80038d90"
 .global F0x80038d90
 F0x80038d90:
 .L0x80038d90: lui $v0, %hi(D0x8005c29c)
@@ -43476,6 +44448,7 @@ F0x80038d90:
 .L0x80038e0c: jr $ra
 .L0x80038e10: addiu $sp, 0x20
 
+.section "fns3_1.0x80038e14"
 .global F0x80038e14
 F0x80038e14:
 .L0x80038e14: addiu $sp, -0x20
@@ -43504,6 +44477,7 @@ F0x80038e14:
 .L0x80038e70: jr $ra
 .L0x80038e74: addiu $sp, 0x20
 
+.section "fns3_1.0x80038e78"
 .global F0x80038e78
 F0x80038e78:
 .L0x80038e78: bnez $a2, .L0x80038e98
@@ -43524,6 +44498,7 @@ F0x80038e78:
 .L0x80038eb4: jr $ra
 .L0x80038eb8: nop
 
+.section "fns3_1.0x80038ebc"
 .global F0x80038ebc
 F0x80038ebc:
 .L0x80038ebc: lui $v0, %hi(D0x8005c2a4)
@@ -43605,6 +44580,7 @@ F0x80038ebc:
 .L0x80038fec: jr $ra
 .L0x80038ff0: sw $v1, ($v0)
 
+.section "fns3_1.0x80038ff4"
 .global F0x80038ff4
 F0x80038ff4:
 .L0x80038ff4: lui $a0, %hi(D0x8005c294)
@@ -43618,6 +44594,7 @@ F0x80038ff4:
 .L0x80039014: jr $ra
 .L0x80039018: sw $v0, ($a0)
 
+.section "fns3_1.0x8003901c"
 .global F0x8003901c
 F0x8003901c:
 .L0x8003901c: lui $a0, %hi(D0x8005c294)
@@ -43631,6 +44608,7 @@ F0x8003901c:
 .L0x8003903c: jr $ra
 .L0x80039040: sw $v0, ($a0)
 
+.section "fns3_1.0x80039044"
 .global F0x80039044
 F0x80039044:
 .L0x80039044: addiu $sp, -0x8
@@ -43660,6 +44638,7 @@ F0x80039044:
 .L0x800390a4: nop
 .L0x800390a8: nop
 
+.section "fns3_1.0x800390ac"
 .global F0x800390ac
 F0x800390ac:
 .L0x800390ac: addiu $sp, -0x18
@@ -43675,6 +44654,7 @@ F0x800390ac:
 .L0x800390d4: nop
 .L0x800390d8: nop
 
+.section "fns3_1.0x800390dc"
 .global F0x800390dc
 F0x800390dc:
 .L0x800390dc: move_ $v0, $a0
@@ -43702,6 +44682,7 @@ F0x800390dc:
 .L0x80039134: nop
 .L0x80039138: nop
 
+.section "fns3_1.0x8003913c"
 .global F0x8003913c
 F0x8003913c:
 .L0x8003913c: addiu $sp, -0x18
@@ -43737,6 +44718,7 @@ F0x8003913c:
 .L0x800391b4: nop
 .L0x800391b8: nop
 
+.section "fns3_1.0x800391bc"
 .global F0x800391bc
 F0x800391bc:
 .L0x800391bc: lui $v0, %hi(D0x8005c2e4)
@@ -43930,6 +44912,7 @@ F0x800391bc:
 .L0x800394b4: jr $ra
 .L0x800394b8: nop
 
+.section "fns3_1.0x800394bc"
 .global F0x800394bc
 F0x800394bc:
 .L0x800394bc: addiu $sp, -0x18
@@ -43945,6 +44928,7 @@ F0x800394bc:
 .L0x800394e4: nop
 .L0x800394e8: nop
 
+.section "fns3_1.0x800394ec"
 .global F0x800394ec
 F0x800394ec:
 .L0x800394ec: move_ $t1, $a0
@@ -44120,6 +45104,7 @@ F0x800394ec:
 .L0x800397a4: and $v0, $t2, $v0
 .L0x800397a8: nop
 
+.section "fns3_1.0x800397ac"
 .global F0x800397ac
 F0x800397ac:
 .L0x800397ac: addiu $sp, -0x18
@@ -44135,6 +45120,7 @@ F0x800397ac:
 .L0x800397d4: nop
 .L0x800397d8: nop
 
+.section "fns3_1.0x800397dc"
 .global F0x800397dc
 F0x800397dc:
 .L0x800397dc: sll $a1, 0x1
@@ -44150,6 +45136,7 @@ F0x800397dc:
 .L0x80039804: jr $ra
 .L0x80039808: or $v0, $v1, $v0
 
+.section "fns3_1.0x8003980c"
 .global F0x8003980c
 F0x8003980c:
 .L0x8003980c: move_ $v0, $a0
@@ -44173,6 +45160,7 @@ F0x8003980c:
 .L0x80039854: nop
 .L0x80039858: nop
 
+.section "fns3_1.0x8003985c"
 .global F0x8003985c
 F0x8003985c:
 .L0x8003985c: addiu $sp, -0x18
@@ -44267,6 +45255,7 @@ F0x8003985c:
 .L0x800399c4: jr $ra
 .L0x800399c8: nop
 
+.section "fns3_1.0x800399cc"
 .global F0x800399cc
 F0x800399cc:
 .L0x800399cc: lui $v0, %hi(D0x8005c2a8)
@@ -44306,6 +45295,7 @@ F0x800399cc:
 .L0x80039a54: nop
 .L0x80039a58: nop
 
+.section "fns3_1.0x80039a5c"
 .global F0x80039a5c
 F0x80039a5c:
 .L0x80039a5c: addiu $sp, -0x88
@@ -44615,6 +45605,7 @@ F0x80039a5c:
 .L0x80039f34: nop
 .L0x80039f38: nop
 
+.section "fns3_1.0x80039f3c"
 .global F0x80039f3c
 F0x80039f3c:
 .L0x80039f3c: lw $a1, ($a0)
@@ -44926,6 +45917,7 @@ F0x80039f3c:
 .L0x8003a404: jr $ra
 .L0x8003a408: nop
 
+.section "fns3_1.0x8003a40c"
 .global F0x8003a40c
 F0x8003a40c:
 .L0x8003a40c: addiu $sp, -0x18
@@ -44941,6 +45933,7 @@ F0x8003a40c:
 .L0x8003a434: nop
 .L0x8003a438: nop
 
+.section "fns3_1.0x8003a43c"
 .global F0x8003a43c
 F0x8003a43c:
 .L0x8003a43c: addiu $sp, -0x18
@@ -44956,6 +45949,7 @@ F0x8003a43c:
 .L0x8003a464: nop
 .L0x8003a468: nop
 
+.section "fns3_1.0x8003a46c"
 .global F0x8003a46c
 F0x8003a46c:
 .L0x8003a46c: addiu $sp, -0x38
@@ -45061,10 +46055,12 @@ F0x8003a46c:
 .L0x8003a604: nop
 .L0x8003a608: nop
 
+.section "fns3_1.0x8003a60c"
 .global WaitEvent
 WaitEvent:
 	bios_jump 0xb0, 0x0a
 
+.section "fns3_1.0x8003a61c"
 .global F0x8003a61c
 F0x8003a61c:
 .L0x8003a61c: lui $v0, 0xff
@@ -45178,6 +46174,7 @@ F0x8003a61c:
 .L0x8003a7d4: nop
 .L0x8003a7d8: nop
 
+.section "fns3_1.0x8003a7dc"
 .global F0x8003a7dc
 F0x8003a7dc:
 .L0x8003a7dc: addiu $sp, -0x18
@@ -45205,6 +46202,7 @@ F0x8003a7dc:
 .L0x8003a834: addiu $sp, 0x18
 .L0x8003a838: nop
 
+.section "fns3_1.0x8003a83c"
 .global F0x8003a83c
 F0x8003a83c:
 .L0x8003a83c: addiu $sp, -0x18
@@ -45232,6 +46230,7 @@ F0x8003a83c:
 .L0x8003a894: nop
 .L0x8003a898: nop
 
+.section "fns3_1.0x8003a89c"
 .global F0x8003a89c
 F0x8003a89c:
 .L0x8003a89c: beqz $a0, .L0x8003a8b4
@@ -45247,6 +46246,7 @@ F0x8003a89c:
 .L0x8003a8c4: jr $ra
 .L0x8003a8c8: sw $v0, %lo(D0x8005c29c)($at)
 
+.section "fns3_1.0x8003a8cc"
 .global F0x8003a8cc
 F0x8003a8cc:
 .L0x8003a8cc: lui $v0, %hi(D0x8005c210)
@@ -45294,10 +46294,12 @@ F0x8003a8cc:
 .L0x8003a974: nop
 .L0x8003a978: nop
 
+.section "fns3_1.0x8003a97c"
 .global TestEvent
 TestEvent:
 	bios_jump 0xb0, 0x0b
 
+.section "fns3_1.0x8003a98c"
 .global F0x8003a98c
 F0x8003a98c:
 .L0x8003a98c: li $v0, 0x1
@@ -45311,6 +46313,7 @@ F0x8003a98c:
 .L0x8003a9ac: jr $ra
 .L0x8003a9b0: nop
 
+.section "fns3_1.0x8003a9b4"
 .global F0x8003a9b4
 F0x8003a9b4:
 .L0x8003a9b4: lui $v0, %hi(D0x8005c2b4)
@@ -45320,6 +46323,7 @@ F0x8003a9b4:
 .L0x8003a9c4: jr $ra
 .L0x8003a9c8: sltu $v0, $zr, $v0
 
+.section "fns3_1.0x8003a9cc"
 .global F0x8003a9cc
 F0x8003a9cc:
 .L0x8003a9cc: addiu $sp, -0x38
@@ -45401,36 +46405,43 @@ F0x8003a9cc:
 .L0x8003ab00: jr $v0
 .L0x8003ab04: nop
 
+.section "fns3_1.0x8003ab08"
 .global F0x8003ab08
 F0x8003ab08:
 .L0x8003ab08: j .L0x8003ab3c
 .L0x8003ab0c: li $a0, 0x8000
 
+.section "fns3_1.0x8003ab10"
 .global F0x8003ab10
 F0x8003ab10:
 .L0x8003ab10: j .L0x8003ab3c
 .L0x8003ab14: li $a0, 0x9000
 
+.section "fns3_1.0x8003ab18"
 .global F0x8003ab18
 F0x8003ab18:
 .L0x8003ab18: j .L0x8003ab3c
 .L0x8003ab1c: li $a0, 0xa000
 
+.section "fns3_1.0x8003ab20"
 .global F0x8003ab20
 F0x8003ab20:
 .L0x8003ab20: j .L0x8003ab3c
 .L0x8003ab24: li $a0, 0xb000
 
+.section "fns3_1.0x8003ab28"
 .global F0x8003ab28
 F0x8003ab28:
 .L0x8003ab28: j .L0x8003ab3c
 .L0x8003ab2c: li $a0, 0xc000
 
+.section "fns3_1.0x8003ab30"
 .global F0x8003ab30
 F0x8003ab30:
 .L0x8003ab30: j .L0x8003ab3c
 .L0x8003ab34: li $a0, 0xd000
 
+.section "fns3_1.0x8003ab38"
 .global F0x8003ab38
 F0x8003ab38:
 .L0x8003ab38: li $a0, 0xe000
@@ -45478,36 +46489,43 @@ F0x8003ab38:
 .L0x8003abe0: jr $v0
 .L0x8003abe4: nop
 
+.section "fns3_1.0x8003abe8"
 .global F0x8003abe8
 F0x8003abe8:
 .L0x8003abe8: j .L0x8003ac1c
 .L0x8003abec: li $a0, 0x8000
 
+.section "fns3_1.0x8003abf0"
 .global F0x8003abf0
 F0x8003abf0:
 .L0x8003abf0: j .L0x8003ac1c
 .L0x8003abf4: li $a0, 0x9000
 
+.section "fns3_1.0x8003abf8"
 .global F0x8003abf8
 F0x8003abf8:
 .L0x8003abf8: j .L0x8003ac1c
 .L0x8003abfc: li $a0, 0xa000
 
+.section "fns3_1.0x8003ac00"
 .global F0x8003ac00
 F0x8003ac00:
 .L0x8003ac00: j .L0x8003ac1c
 .L0x8003ac04: li $a0, 0xb000
 
+.section "fns3_1.0x8003ac08"
 .global F0x8003ac08
 F0x8003ac08:
 .L0x8003ac08: j .L0x8003ac1c
 .L0x8003ac0c: li $a0, 0xc000
 
+.section "fns3_1.0x8003ac10"
 .global F0x8003ac10
 F0x8003ac10:
 .L0x8003ac10: j .L0x8003ac1c
 .L0x8003ac14: li $a0, 0xd000
 
+.section "fns3_1.0x8003ac18"
 .global F0x8003ac18
 F0x8003ac18:
 .L0x8003ac18: li $a0, 0xe000
@@ -45748,6 +46766,7 @@ F0x8003ac18:
 .L0x8003afc4: nop
 .L0x8003afc8: nop
 
+.section "fns3_1.0x8003afcc"
 .global F0x8003afcc
 F0x8003afcc:
 .L0x8003afcc: addu $a3, $a1
@@ -45876,6 +46895,7 @@ F0x8003afcc:
 .L0x8003b1c4: jr $ra
 .L0x8003b1c8: or $v0, $a0
 
+.section "fns3_1.0x8003b1cc"
 .global F0x8003b1cc
 F0x8003b1cc:
 .L0x8003b1cc: lui $v0, %hi(D0x8005c280)
@@ -45887,6 +46907,7 @@ F0x8003b1cc:
 .L0x8003b1e4: sh $v0, ($a1)
 .L0x8003b1e8: nop
 
+.section "fns3_1.0x8003b1ec"
 .global F0x8003b1ec
 F0x8003b1ec:
 .L0x8003b1ec: move_ $a2, $zr
@@ -45912,41 +46933,49 @@ F0x8003b1ec:
 .L0x8003b23c: jr $v0
 .L0x8003b240: nop
 
+.section "fns3_1.0x8003b244"
 .global F0x8003b244
 F0x8003b244:
 .L0x8003b244: j .L0x8003b284
 .L0x8003b248: li $a1, 0x8000
 
+.section "fns3_1.0x8003b24c"
 .global F0x8003b24c
 F0x8003b24c:
 .L0x8003b24c: j .L0x8003b284
 .L0x8003b250: li $a1, 0x9000
 
+.section "fns3_1.0x8003b254"
 .global F0x8003b254
 F0x8003b254:
 .L0x8003b254: j .L0x8003b284
 .L0x8003b258: li $a1, 0xa000
 
+.section "fns3_1.0x8003b25c"
 .global F0x8003b25c
 F0x8003b25c:
 .L0x8003b25c: j .L0x8003b284
 .L0x8003b260: li $a1, 0xb000
 
+.section "fns3_1.0x8003b264"
 .global F0x8003b264
 F0x8003b264:
 .L0x8003b264: j .L0x8003b284
 .L0x8003b268: li $a1, 0xc000
 
+.section "fns3_1.0x8003b26c"
 .global F0x8003b26c
 F0x8003b26c:
 .L0x8003b26c: j .L0x8003b284
 .L0x8003b270: li $a1, 0xd000
 
+.section "fns3_1.0x8003b274"
 .global F0x8003b274
 F0x8003b274:
 .L0x8003b274: j .L0x8003b284
 .L0x8003b278: li $a1, 0xe000
 
+.section "fns3_1.0x8003b27c"
 .global F0x8003b27c
 F0x8003b27c:
 .L0x8003b27c: lhu $a2, 0x4($a0)
@@ -45984,41 +47013,49 @@ F0x8003b27c:
 .L0x8003b2fc: jr $v0
 .L0x8003b300: nop
 
+.section "fns3_1.0x8003b304"
 .global F0x8003b304
 F0x8003b304:
 .L0x8003b304: j .L0x8003b344
 .L0x8003b308: li $a1, 0x8000
 
+.section "fns3_1.0x8003b30c"
 .global F0x8003b30c
 F0x8003b30c:
 .L0x8003b30c: j .L0x8003b344
 .L0x8003b310: li $a1, 0x9000
 
+.section "fns3_1.0x8003b314"
 .global F0x8003b314
 F0x8003b314:
 .L0x8003b314: j .L0x8003b344
 .L0x8003b318: li $a1, 0xa000
 
+.section "fns3_1.0x8003b31c"
 .global F0x8003b31c
 F0x8003b31c:
 .L0x8003b31c: j .L0x8003b344
 .L0x8003b320: li $a1, 0xb000
 
+.section "fns3_1.0x8003b324"
 .global F0x8003b324
 F0x8003b324:
 .L0x8003b324: j .L0x8003b344
 .L0x8003b328: li $a1, 0xc000
 
+.section "fns3_1.0x8003b32c"
 .global F0x8003b32c
 F0x8003b32c:
 .L0x8003b32c: j .L0x8003b344
 .L0x8003b330: li $a1, 0xd000
 
+.section "fns3_1.0x8003b334"
 .global F0x8003b334
 F0x8003b334:
 .L0x8003b334: j .L0x8003b344
 .L0x8003b338: li $a1, 0xe000
 
+.section "fns3_1.0x8003b33c"
 .global F0x8003b33c
 F0x8003b33c:
 .L0x8003b33c: lhu $t0, 0x6($a0)
@@ -46162,6 +47199,7 @@ F0x8003b33c:
 .L0x8003b564: nop
 .L0x8003b568: nop
 
+.section "fns3_1.0x8003b56c"
 .global F0x8003b56c
 F0x8003b56c:
 .L0x8003b56c: addiu $sp, -0x18
@@ -46177,6 +47215,7 @@ F0x8003b56c:
 .L0x8003b594: jr $ra
 .L0x8003b598: nop
 
+.section "fns3_1.0x8003b59c"
 .global F0x8003b59c
 F0x8003b59c:
 .L0x8003b59c: addiu $sp, -0x18
@@ -46188,10 +47227,12 @@ F0x8003b59c:
 .L0x8003b5b4: jr $ra
 .L0x8003b5b8: nop
 
+.section "fns3_1.0x8003b5bc"
 .global _bu_init
 _bu_init:
 	bios_jump 0xa0, 0x70
 
+.section "fns3_1.0x8003b5cc"
 .global F0x8003b5cc
 F0x8003b5cc:
 .L0x8003b5cc: addiu $sp, -0x20
@@ -46231,6 +47272,7 @@ F0x8003b5cc:
 .L0x8003b654: jr $ra
 .L0x8003b658: addiu $sp, 0x20
 
+.section "fns3_1.0x8003b65c"
 .global F0x8003b65c
 F0x8003b65c:
 .L0x8003b65c: addiu $sp, -0x18
@@ -46252,6 +47294,7 @@ F0x8003b65c:
 .L0x8003b69c: jr $ra
 .L0x8003b6a0: addiu $sp, 0x18
 
+.section "fns3_1.0x8003b6a4"
 .global F0x8003b6a4
 F0x8003b6a4:
 .L0x8003b6a4: addiu $sp, -0x18
@@ -46268,6 +47311,7 @@ F0x8003b6a4:
 .L0x8003b6d0: jr $ra
 .L0x8003b6d4: sw $a0, %lo(D0x8005cb10)($at)
 
+.section "fns3_1.0x8003b6d8"
 .global F0x8003b6d8
 F0x8003b6d8:
 .L0x8003b6d8: lui $v0, %hi(D0x8005cb10)
@@ -46275,6 +47319,7 @@ F0x8003b6d8:
 .L0x8003b6e0: jr $ra
 .L0x8003b6e4: nop
 
+.section "fns3_1.0x8003b6e8"
 .global F0x8003b6e8
 F0x8003b6e8:
 .L0x8003b6e8: addiu $sp, -0x28
@@ -46314,6 +47359,7 @@ F0x8003b6e8:
 .L0x8003b770: jr $ra
 .L0x8003b774: addiu $sp, 0x28
 
+.section "fns3_1.0x8003b778"
 .global F0x8003b778
 F0x8003b778:
 .L0x8003b778: addiu $sp, -0x28
@@ -46353,6 +47399,7 @@ F0x8003b778:
 .L0x8003b800: jr $ra
 .L0x8003b804: addiu $sp, 0x28
 
+.section "fns3_1.0x8003b808"
 .global F0x8003b808
 F0x8003b808:
 .L0x8003b808: addiu $sp, -0x18
@@ -46368,6 +47415,7 @@ F0x8003b808:
 .L0x8003b830: jr $ra
 .L0x8003b834: addiu $sp, 0x18
 
+.section "fns3_1.0x8003b838"
 .global F0x8003b838
 F0x8003b838:
 .L0x8003b838: addiu $sp, -0x18
@@ -46398,6 +47446,7 @@ F0x8003b838:
 .L0x8003b8a8: jr $ra
 .L0x8003b8ac: addiu $sp, 0x18
 
+.section "fns3_1.0x8003b8b0"
 .global F0x8003b8b0
 F0x8003b8b0:
 .L0x8003b8b0: lui $v0, %hi(D0x8005cb14)
@@ -46427,6 +47476,7 @@ F0x8003b8b0:
 .L0x8003b910: jr $ra
 .L0x8003b914: nop
 
+.section "fns3_1.0x8003b918"
 .global F0x8003b918
 F0x8003b918:
 .L0x8003b918: lui $v1, %hi(D0x8005cb18)
@@ -46447,18 +47497,22 @@ F0x8003b918:
 .L0x8003b954: nop
 .L0x8003b958: nop
 
+.section "fns3_1.0x8003b95c"
 .global InitPad
 InitPad:
 	bios_jump 0xb0, 0x12
 
+.section "fns3_1.0x8003b96c"
 .global StartPad
 StartPad:
 	bios_jump 0xb0, 0x13
 
+.section "fns3_1.0x8003b97c"
 .global OutdatedPadInitAndStart
 OutdatedPadInitAndStart:
 	bios_jump 0xb0, 0x15
 
+.section "fns3_1.0x8003b98c"
 .global F0x8003b98c
 F0x8003b98c:
 .L0x8003b98c: lui $t1, %hi(D0x80082868)
@@ -46472,6 +47526,7 @@ F0x8003b98c:
 .L0x8003b9ac: jr $t1
 .L0x8003b9b0: nop
 
+.section "fns3_1.0x8003b9b4"
 .global F0x8003b9b4
 F0x8003b9b4:
 .L0x8003b9b4: lui $at, %hi(D0x80082860)
@@ -46502,6 +47557,7 @@ F0x8003b9b4:
 .L0x8003ba24: nop
 .L0x8003ba28: nop
 
+.section "fns3_1.0x8003ba2c"
 .global F0x8003ba2c
 F0x8003ba2c:
 .L0x8003ba2c: lui $at, %hi(D0x80082870)
@@ -46530,18 +47586,22 @@ F0x8003ba2c:
 .L0x8003ba94: nop
 .L0x8003ba98: nop
 
+.section "fns3_1.0x8003ba9c"
 .global InitCard
 InitCard:
 	bios_jump 0xb0, 0x4a
 
+.section "fns3_1.0x8003baac"
 .global StartCard
 StartCard:
 	bios_jump 0xb0, 0x4b
 
+.section "fns3_1.0x8003babc"
 .global StopCard
 StopCard:
 	bios_jump 0xb0, 0x4c
 
+.section "fns3_1.0x8003bacc"
 .global F0x8003bacc
 F0x8003bacc:
 .L0x8003bacc: lui $at, %hi(D0x80082880)
@@ -46559,6 +47619,7 @@ F0x8003bacc:
 .L0x8003bb08: jr $ra
 .L0x8003bb0c: nop
 
+.section "fns3_1.0x8003bb10"
 .global F0x8003bb10
 F0x8003bb10:
 .L0x8003bb10: lhu $t7, 0xa($v1)
@@ -46590,6 +47651,7 @@ F0x8003bb10:
 .L0x8003bb78: jr $ra
 .L0x8003bb7c: nop
 
+.section "fns3_1.0x8003bb80"
 .global F0x8003bb80
 F0x8003bb80:
 .L0x8003bb80: la_ $v0, 0xa000dfac
@@ -46597,6 +47659,7 @@ F0x8003bb80:
 .L0x8003bb8c: nop
 .L0x8003bb90: nop
 
+.section "fns3_1.0x8003bb94"
 .global F0x8003bb94
 F0x8003bb94:
 .L0x8003bb94: la_ $t0, 0xa000df80
@@ -46604,6 +47667,7 @@ F0x8003bb94:
 .L0x8003bba0: nop
 .L0x8003bba4: nop
 
+.section "fns3_1.0x8003bba8"
 .global F0x8003bba8
 F0x8003bba8:
 .L0x8003bba8: lui $at, %hi(D0x80082880)
@@ -46639,6 +47703,7 @@ F0x8003bba8:
 .L0x8003bc34: jr $ra
 .L0x8003bc38: nop
 
+.section "fns3_1.0x8003bc3c"
 .global F0x8003bc3c
 F0x8003bc3c:
 .L0x8003bc3c: lui $at, %hi(D0x80082880)
@@ -46665,6 +47730,7 @@ F0x8003bc3c:
 .L0x8003bca4: jr $ra
 .L0x8003bca8: nop
 
+.section "fns3_1.0x8003bcac"
 .global F0x8003bcac
 F0x8003bcac:
 .L0x8003bcac: li $v0, 0xdf80
@@ -46682,6 +47748,7 @@ F0x8003bcac:
 .L0x8003bce4: nop
 .L0x8003bce8: nop
 
+.section "fns3_1.0x8003bcec"
 .global F0x8003bcec
 F0x8003bcec:
 .L0x8003bcec: lui $at, %hi(D0x80082890)
@@ -46708,6 +47775,7 @@ F0x8003bcec:
 .L0x8003bd54: jr $ra
 .L0x8003bd58: nop
 
+.section "fns3_1.0x8003bd5c"
 .global D0x8003bd5c
 D0x8003bd5c:
 .L0x8003bd5c: nop
@@ -46715,6 +47783,7 @@ D0x8003bd5c:
 .L0x8003bd64: nop
 .L0x8003bd68: nop
 
+.section "fns3_1.0x8003bd6c"
 .global F0x8003bd6c
 F0x8003bd6c:
 .L0x8003bd6c: addiu $sp, -0x18
@@ -46728,6 +47797,7 @@ F0x8003bd6c:
 .L0x8003bd8c: jr $ra
 .L0x8003bd90: nop
 
+.section "fns3_1.0x8003bd94"
 .global F0x8003bd94
 F0x8003bd94:
 .L0x8003bd94: lui $a0, %hi(D0x80082928)
@@ -46741,12 +47811,14 @@ F0x8003bd94:
 .L0x8003bdb4: jr $ra
 .L0x8003bdb8: nop
 
+.section "fns3_1.0x8003bdbc"
 .global F0x8003bdbc
 F0x8003bdbc:
 .L0x8003bdbc: lui $v0, %hi(D0x800828d0)
 .L0x8003bdc0: jr $ra
 .L0x8003bdc4: addiu $v0, %lo(D0x800828d0)
 
+.section "fns3_1.0x8003bdc8"
 .global F0x8003bdc8
 F0x8003bdc8:
 .L0x8003bdc8: addiu $sp, -0x18
@@ -46776,6 +47848,7 @@ F0x8003bdc8:
 .L0x8003be30: jr $ra
 .L0x8003be34: addiu $sp, 0x18
 
+.section "fns3_1.0x8003be38"
 .global F0x8003be38
 F0x8003be38:
 .L0x8003be38: addiu $sp, -0x18
@@ -46794,6 +47867,7 @@ F0x8003be38:
 .L0x8003be70: jr $ra
 .L0x8003be74: nop
 
+.section "fns3_1.0x8003be78"
 .global F0x8003be78
 F0x8003be78:
 .L0x8003be78: addiu $sp, -0x18
@@ -46821,6 +47895,7 @@ F0x8003be78:
 .L0x8003bed8: jr $ra
 .L0x8003bedc: nop
 
+.section "fns3_1.0x8003bee0"
 .global F0x8003bee0
 F0x8003bee0:
 .L0x8003bee0: addiu $sp, -0x28
@@ -47019,6 +48094,7 @@ F0x8003bee0:
 .L0x8003c1f4: jr $ra
 .L0x8003c1f8: addiu $sp, 0x28
 
+.section "fns3_1.0x8003c1fc"
 .global F0x8003c1fc
 F0x8003c1fc:
 .L0x8003c1fc: addiu $sp, -0x18
@@ -47046,6 +48122,7 @@ F0x8003c1fc:
 .L0x8003c25c: jr $ra
 .L0x8003c260: nop
 
+.section "fns3_1.0x8003c264"
 .global F0x8003c264
 F0x8003c264:
 .L0x8003c264: addiu $sp, -0x20
@@ -47065,6 +48142,7 @@ F0x8003c264:
 .L0x8003c29c: jr $v0
 .L0x8003c2a0: nop
 
+.section "fns3_1.0x8003c2a4"
 .global F0x8003c2a4
 F0x8003c2a4:
 .L0x8003c2a4: lui $at, %hi(D0x800828ac)
@@ -47082,6 +48160,7 @@ F0x8003c2a4:
 .L0x8003c2d4: addiu $v0, 0x1
 .L0x8003c2d8: sw $v0, ($s0)
 
+.section "fns3_1.0x8003c2dc"
 .global F0x8003c2dc
 F0x8003c2dc:
 .L0x8003c2dc: lui $a0, %hi(F0x8003bee0)
@@ -47090,6 +48169,7 @@ F0x8003c2dc:
 .L0x8003c2e8: j .L0x8003c4f0
 .L0x8003c2ec: li $v0, 0xa
 
+.section "fns3_1.0x8003c2f0"
 .global F0x8003c2f0
 F0x8003c2f0:
 .L0x8003c2f0: la_ $s1, D0x800828d4
@@ -47122,6 +48202,7 @@ F0x8003c2f0:
 .L0x8003c360: j .L0x8003c4f0
 .L0x8003c364: li $v0, 0x1e
 
+.section "fns3_1.0x8003c368"
 .global F0x8003c368
 F0x8003c368:
 .L0x8003c368: jal F0x8003e230
@@ -47133,6 +48214,7 @@ F0x8003c368:
 .L0x8003c380: li $v0, 0x1e
 .L0x8003c384: sw $v0, ($s0)
 
+.section "fns3_1.0x8003c388"
 .global F0x8003c388
 F0x8003c388:
 .L0x8003c388: jal F0x8003df3c
@@ -47145,6 +48227,7 @@ F0x8003c388:
 .L0x8003c3a4: j .L0x8003c4f0
 .L0x8003c3a8: addiu $v0, 0x1
 
+.section "fns3_1.0x8003c3ac"
 .global F0x8003c3ac
 F0x8003c3ac:
 .L0x8003c3ac: jal F0x8003e1f4
@@ -47210,6 +48293,7 @@ F0x8003c3ac:
 .L0x8003c4a4: j .L0x8003c4f8
 .L0x8003c4a8: sw $a0, 0x4($v1)
 
+.section "fns3_1.0x8003c4ac"
 .global F0x8003c4ac
 F0x8003c4ac:
 .L0x8003c4ac: jal F0x8003e1f4
@@ -47230,6 +48314,7 @@ F0x8003c4ac:
 .L0x8003c4ec: li $v0, 0x1
 .L0x8003c4f0: sw $v0, ($s0)
 
+.section "fns3_1.0x8003c4f4"
 .global F0x8003c4f4
 F0x8003c4f4:
 .L0x8003c4f4: move_ $v0, $zr
@@ -47239,6 +48324,7 @@ F0x8003c4f4:
 .L0x8003c504: jr $ra
 .L0x8003c508: addiu $sp, 0x20
 
+.section "fns3_1.0x8003c50c"
 .global F0x8003c50c
 F0x8003c50c:
 .L0x8003c50c: addiu $sp, -0x38
@@ -47338,6 +48424,7 @@ F0x8003c50c:
 .L0x8003c68c: jr $ra
 .L0x8003c690: addiu $sp, 0x38
 
+.section "fns3_1.0x8003c694"
 .global F0x8003c694
 F0x8003c694:
 .L0x8003c694: addiu $sp, -0x18
@@ -47357,6 +48444,7 @@ F0x8003c694:
 .L0x8003c6d0: jr $ra
 .L0x8003c6d4: addiu $sp, 0x18
 
+.section "fns3_1.0x8003c6d8"
 .global F0x8003c6d8
 F0x8003c6d8:
 .L0x8003c6d8: addiu $sp, -0x18
@@ -47403,6 +48491,7 @@ F0x8003c6d8:
 .L0x8003c788: jr $ra
 .L0x8003c78c: nop
 
+.section "fns3_1.0x8003c790"
 .global F0x8003c790
 F0x8003c790:
 .L0x8003c790: addiu $sp, -0x20
@@ -47510,6 +48599,7 @@ F0x8003c790:
 .L0x8003c938: jr $ra
 .L0x8003c93c: addiu $sp, 0x20
 
+.section "fns3_1.0x8003c940"
 .global F0x8003c940
 F0x8003c940:
 .L0x8003c940: addiu $sp, -0x18
@@ -47556,6 +48646,7 @@ F0x8003c940:
 .L0x8003c9f0: jr $ra
 .L0x8003c9f4: nop
 
+.section "fns3_1.0x8003c9f8"
 .global F0x8003c9f8
 F0x8003c9f8:
 .L0x8003c9f8: addiu $sp, -0x20
@@ -47662,6 +48753,7 @@ F0x8003c9f8:
 .L0x8003cb9c: jr $ra
 .L0x8003cba0: addiu $sp, 0x20
 
+.section "fns3_1.0x8003cba4"
 .global F0x8003cba4
 F0x8003cba4:
 .L0x8003cba4: addiu $sp, -0x30
@@ -47732,6 +48824,7 @@ F0x8003cba4:
 .L0x8003ccb4: jr $ra
 .L0x8003ccb8: addiu $sp, 0x30
 
+.section "fns3_1.0x8003ccbc"
 .global F0x8003ccbc
 F0x8003ccbc:
 .L0x8003ccbc: addiu $sp, -0x20
@@ -47797,6 +48890,7 @@ F0x8003ccbc:
 .L0x8003cdbc: jr $ra
 .L0x8003cdc0: addiu $sp, 0x20
 
+.section "fns3_1.0x8003cdc4"
 .global F0x8003cdc4
 F0x8003cdc4:
 .L0x8003cdc4: addiu $sp, -0x30
@@ -47867,6 +48961,7 @@ F0x8003cdc4:
 .L0x8003ced4: jr $ra
 .L0x8003ced8: addiu $sp, 0x30
 
+.section "fns3_1.0x8003cedc"
 .global F0x8003cedc
 F0x8003cedc:
 .L0x8003cedc: addiu $sp, -0x20
@@ -47932,6 +49027,7 @@ F0x8003cedc:
 .L0x8003cfdc: jr $ra
 .L0x8003cfe0: addiu $sp, 0x20
 
+.section "fns3_1.0x8003cfe4"
 .global F0x8003cfe4
 F0x8003cfe4:
 .L0x8003cfe4: addiu $sp, -0x90
@@ -48084,6 +49180,7 @@ F0x8003cfe4:
 .L0x8003d238: jr $ra
 .L0x8003d23c: addiu $sp, 0x90
 
+.section "fns3_1.0x8003d240"
 .global F0x8003d240
 F0x8003d240:
 .L0x8003d240: la_ $v1, D0x80082914
@@ -48091,6 +49188,7 @@ F0x8003d240:
 .L0x8003d24c: jr $ra
 .L0x8003d250: sw $a0, ($v1)
 
+.section "fns3_1.0x8003d254"
 .global F0x8003d254
 F0x8003d254:
 .L0x8003d254: la_ $v1, D0x800828d0
@@ -48159,6 +49257,7 @@ F0x8003d254:
 .L0x8003d368: jr $ra
 .L0x8003d36c: nop
 
+.section "fns3_1.0x8003d370"
 .global F0x8003d370
 F0x8003d370:
 .L0x8003d370: addiu $sp, -0x48
@@ -48224,6 +49323,7 @@ F0x8003d370:
 .L0x8003d464: jr $ra
 .L0x8003d468: addiu $sp, 0x48
 
+.section "fns3_1.0x8003d46c"
 .global F0x8003d46c
 F0x8003d46c:
 .L0x8003d46c: addiu $sp, -0x18
@@ -48255,6 +49355,7 @@ F0x8003d46c:
 .L0x8003d4d8: jr $ra
 .L0x8003d4dc: nop
 
+.section "fns3_1.0x8003d4e0"
 .global F0x8003d4e0
 F0x8003d4e0:
 .L0x8003d4e0: li $v0, 0x1
@@ -48279,6 +49380,7 @@ F0x8003d4e0:
 .L0x8003d52c: jr $ra
 .L0x8003d530: move_ $v0, $v1
 
+.section "fns3_1.0x8003d534"
 .global F0x8003d534
 F0x8003d534:
 .L0x8003d534: addiu $sp, -0x18
@@ -48322,6 +49424,7 @@ F0x8003d534:
 .L0x8003d5d8: jr $ra
 .L0x8003d5dc: nop
 
+.section "fns3_1.0x8003d5e0"
 .global F0x8003d5e0
 F0x8003d5e0:
 .L0x8003d5e0: move_ $a2, $a0
@@ -48347,14 +49450,17 @@ F0x8003d5e0:
 .L0x8003d634: jr $ra
 .L0x8003d638: sb $v0, 0x3($a3)
 
+.section "fns3_1.0x8003d63c"
 .global fseek
 fseek:
 	bios_jump 0xb0, 0x33
 
+.section "fns3_1.0x8003d64c"
 .global nextfile
 nextfile:
 	bios_jump 0xb0, 0x43
 
+.section "fns3_1.0x8003d65c"
 .global F0x8003d65c
 F0x8003d65c:
 .L0x8003d65c: addiu $sp, -0x28
@@ -48457,6 +49563,7 @@ F0x8003d65c:
 .L0x8003d7f0: jr $ra
 .L0x8003d7f4: addiu $sp, 0x28
 
+.section "fns3_1.0x8003d7f8"
 .global F0x8003d7f8
 F0x8003d7f8:
 .L0x8003d7f8: addiu $sp, -0x30
@@ -48524,10 +49631,12 @@ F0x8003d7f8:
 .L0x8003d8f4: addiu $sp, 0x30
 .L0x8003d8f8: nop
 
+.section "fns3_1.0x8003d8fc"
 .global firstfile
 firstfile:
 	bios_jump 0xb0, 0x42
 
+.section "fns3_1.0x8003d90c"
 .global F0x8003d90c
 F0x8003d90c:
 .L0x8003d90c: addiu $sp, -0x20
@@ -48575,6 +49684,7 @@ F0x8003d90c:
 .L0x8003d9b4: nop
 .L0x8003d9b8: nop
 
+.section "fns3_1.0x8003d9bc"
 .global F0x8003d9bc
 F0x8003d9bc:
 .L0x8003d9bc: beqz $a0, .L0x8003d9cc
@@ -48606,14 +49716,17 @@ F0x8003d9bc:
 .L0x8003da24: nop
 .L0x8003da28: nop
 
+.section "fns3_1.0x8003da2c"
 .global _card_info
 _card_info:
 	bios_jump 0xa0, 0xab
 
+.section "fns3_1.0x8003da3c"
 .global _card_async_load_directory
 _card_async_load_directory:
 	bios_jump 0xa0, 0xac
 
+.section "fns3_1.0x8003da4c"
 .global F0x8003da4c
 F0x8003da4c:
 .L0x8003da4c: addiu $sp, -0x18
@@ -48633,14 +49746,17 @@ F0x8003da4c:
 .L0x8003da84: nop
 .L0x8003da88: nop
 
+.section "fns3_1.0x8003da8c"
 .global write_card_sector
 write_card_sector:
 	bios_jump 0xb0, 0x4e
 
+.section "fns3_1.0x8003da9c"
 .global allow_new_card
 allow_new_card:
 	bios_jump 0xb0, 0x50
 
+.section "fns3_1.0x8003daac"
 .global F0x8003daac
 F0x8003daac:
 .L0x8003daac: li $v0, -0x1
@@ -48648,6 +49764,7 @@ F0x8003daac:
 .L0x8003dab4: jr $ra
 .L0x8003dab8: sw $v0, %lo(D0x8005cb40)($at)
 
+.section "fns3_1.0x8003dabc"
 .global F0x8003dabc
 F0x8003dabc:
 .L0x8003dabc: lui $v0, %hi(D0x8005cb40)
@@ -48681,6 +49798,7 @@ F0x8003dabc:
 .L0x8003db30: jr $ra
 .L0x8003db34: nop
 
+.section "fns3_1.0x8003db38"
 .global F0x8003db38
 F0x8003db38:
 .L0x8003db38: lui $v1, %hi(D0x8005cb40)
@@ -48710,6 +49828,7 @@ F0x8003db38:
 .L0x8003db9c: jr $ra
 .L0x8003dba0: nop
 
+.section "fns3_1.0x8003dba4"
 .global F0x8003dba4
 F0x8003dba4:
 .L0x8003dba4: lui $v0, %hi(D0x8005cb40)
@@ -48719,6 +49838,7 @@ F0x8003dba4:
 .L0x8003dbb4: nop
 .L0x8003dbb8: nop
 
+.section "fns3_1.0x8003dbbc"
 .global F0x8003dbbc
 F0x8003dbbc:
 .L0x8003dbbc: li $v0, 0x1
@@ -48727,6 +49847,7 @@ F0x8003dbbc:
 .L0x8003dbc8: jr $ra
 .L0x8003dbcc: move_ $v0, $zr
 
+.section "fns3_1.0x8003dbd0"
 .global F0x8003dbd0
 F0x8003dbd0:
 .L0x8003dbd0: li $v0, 0x1
@@ -48735,6 +49856,7 @@ F0x8003dbd0:
 .L0x8003dbdc: jr $ra
 .L0x8003dbe0: move_ $v0, $zr
 
+.section "fns3_1.0x8003dbe4"
 .global F0x8003dbe4
 F0x8003dbe4:
 .L0x8003dbe4: li $v0, 0x1
@@ -48743,6 +49865,7 @@ F0x8003dbe4:
 .L0x8003dbf0: jr $ra
 .L0x8003dbf4: move_ $v0, $zr
 
+.section "fns3_1.0x8003dbf8"
 .global F0x8003dbf8
 F0x8003dbf8:
 .L0x8003dbf8: li $v0, 0x1
@@ -48751,6 +49874,7 @@ F0x8003dbf8:
 .L0x8003dc04: jr $ra
 .L0x8003dc08: move_ $v0, $zr
 
+.section "fns3_1.0x8003dc0c"
 .global F0x8003dc0c
 F0x8003dc0c:
 .L0x8003dc0c: li $v0, 0x1
@@ -48759,6 +49883,7 @@ F0x8003dc0c:
 .L0x8003dc18: jr $ra
 .L0x8003dc1c: move_ $v0, $zr
 
+.section "fns3_1.0x8003dc20"
 .global F0x8003dc20
 F0x8003dc20:
 .L0x8003dc20: li $v0, 0x1
@@ -48767,6 +49892,7 @@ F0x8003dc20:
 .L0x8003dc2c: jr $ra
 .L0x8003dc30: move_ $v0, $zr
 
+.section "fns3_1.0x8003dc34"
 .global F0x8003dc34
 F0x8003dc34:
 .L0x8003dc34: li $v0, 0x1
@@ -48775,6 +49901,7 @@ F0x8003dc34:
 .L0x8003dc40: jr $ra
 .L0x8003dc44: move_ $v0, $zr
 
+.section "fns3_1.0x8003dc48"
 .global F0x8003dc48
 F0x8003dc48:
 .L0x8003dc48: li $v0, 0x1
@@ -48783,6 +49910,7 @@ F0x8003dc48:
 .L0x8003dc54: jr $ra
 .L0x8003dc58: move_ $v0, $zr
 
+.section "fns3_1.0x8003dc5c"
 .global F0x8003dc5c
 F0x8003dc5c:
 .L0x8003dc5c: addiu $sp, -0x18
@@ -48798,6 +49926,7 @@ F0x8003dc5c:
 .L0x8003dc84: jr $ra
 .L0x8003dc88: nop
 
+.section "fns3_1.0x8003dc8c"
 .global F0x8003dc8c
 F0x8003dc8c:
 .L0x8003dc8c: addiu $sp, -0x18
@@ -48912,6 +50041,7 @@ F0x8003dc8c:
 .L0x8003de60: jr $ra
 .L0x8003de64: addiu $sp, 0x18
 
+.section "fns3_1.0x8003de68"
 .global F0x8003de68
 F0x8003de68:
 .L0x8003de68: addiu $sp, -0x18
@@ -48923,6 +50053,7 @@ F0x8003de68:
 .L0x8003de80: jr $ra
 .L0x8003de84: nop
 
+.section "fns3_1.0x8003de88"
 .global F0x8003de88
 F0x8003de88:
 .L0x8003de88: addiu $sp, -0x18
@@ -48971,6 +50102,7 @@ F0x8003de88:
 .L0x8003df34: jr $ra
 .L0x8003df38: addiu $sp, 0x18
 
+.section "fns3_1.0x8003df3c"
 .global F0x8003df3c
 F0x8003df3c:
 .L0x8003df3c: lui $a0, %hi(D0x800829b0)
@@ -49040,6 +50172,7 @@ F0x8003df3c:
 .L0x8003e03c: jr $ra
 .L0x8003e040: nop
 
+.section "fns3_1.0x8003e044"
 .global F0x8003e044
 F0x8003e044:
 .L0x8003e044: addiu $sp, -0x18
@@ -49097,6 +50230,7 @@ F0x8003e044:
 .L0x8003e114: jr $ra
 .L0x8003e118: addiu $sp, 0x18
 
+.section "fns3_1.0x8003e11c"
 .global F0x8003e11c
 F0x8003e11c:
 .L0x8003e11c: addiu $sp, -0x18
@@ -49154,6 +50288,7 @@ F0x8003e11c:
 .L0x8003e1ec: jr $ra
 .L0x8003e1f0: addiu $sp, 0x18
 
+.section "fns3_1.0x8003e1f4"
 .global F0x8003e1f4
 F0x8003e1f4:
 .L0x8003e1f4: lui $v0, %hi(D0x800829d4)
@@ -49172,6 +50307,7 @@ F0x8003e1f4:
 .L0x8003e228: jr $ra
 .L0x8003e22c: addu $v0, $a0, $v0
 
+.section "fns3_1.0x8003e230"
 .global F0x8003e230
 F0x8003e230:
 .L0x8003e230: lui $v0, %hi(D0x800829e4)
@@ -49190,10 +50326,12 @@ F0x8003e230:
 .L0x8003e264: jr $ra
 .L0x8003e268: addu $v0, $a0, $v0
 
+.section "fns3_1.0x8003e26c"
 .global CloseEvent
 CloseEvent:
 	bios_jump 0xb0, 0x09
 
+.section "fns3_1.0x8003e27c"
 .global F0x8003e27c
 F0x8003e27c:
 .L0x8003e27c: addiu $sp, -0x38
@@ -49433,6 +50571,7 @@ F0x8003e27c:
 .L0x8003e644: jr $ra
 .L0x8003e648: addiu $sp, 0x38
 
+.section "fns3_1.0x8003e64c"
 .global F0x8003e64c
 F0x8003e64c:
 .L0x8003e64c: addiu $sp, -0x48
@@ -49855,10 +50994,12 @@ F0x8003e64c:
 .L0x8003ed04: nop
 .L0x8003ed08: nop
 
+.section "fns3_1.0x8003ed0c"
 .global read_card_sector
 read_card_sector:
 	bios_jump 0xb0, 0x4f
 
+.section "fns3_1.0x8003ed1c"
 .global F0x8003ed1c
 F0x8003ed1c:
 .L0x8003ed1c: addiu $sp, -0xa0

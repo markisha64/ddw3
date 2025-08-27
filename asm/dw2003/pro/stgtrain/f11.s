@@ -1,7 +1,7 @@
 .include "macros.s"
 
 # `fn f11(arg0: *u32)`
-.section "section_STGTRAIN_f11"
+.section "section_STGTRAIN_f11.0x800004a0"
 .global STGTRAIN_f11
 STGTRAIN_f11:
 	# Setup stack and save registers

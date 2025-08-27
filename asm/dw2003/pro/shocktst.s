@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_SHOCKTST"
+.section "section_SHOCKTST.0x80000000"
 .global SHOCKTST
 SHOCKTST:
 .L0x00000000: .word 0x80082ff4 # lb $t0, 0x2ff4($zr)

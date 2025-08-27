@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_CARDGAME"
+.section "section_CARDGAME.0x80000000"
 .global CARDGAME
 CARDGAME:
 .L0x00000000: .word 0x80083e60 # lb $t0, 0x3e60($zr)

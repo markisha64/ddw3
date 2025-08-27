@@ -1,7 +1,7 @@
 .include "macros.s"
 .set at
 
-.section "section_start"
+.section "section_start.0x80010e90"
 .global start
 start:
 

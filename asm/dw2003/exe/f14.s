@@ -1,7 +1,7 @@
 .include "macros.s"
 
 # `fn f14()`
-.section section_f14
+.section "section_f14.0x8002ebb0"
 .global f14
 f14:
 	addiu $sp, -0x18

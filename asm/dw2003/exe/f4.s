@@ -2,7 +2,7 @@
 
 
 # Zeroes out `D0x80042b74..`
-.section section_f4
+.section "section_f4.0x80013534"
 .global f4
 f4:
 arr_len=0x8

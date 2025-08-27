@@ -1,6 +1,6 @@
 .include "macros.s"
 
-.section "section_STDGNAME"
+.section "section_STDGNAME.0x80000000"
 .global STDGNAME
 STDGNAME:
 .L0x00000000: .word 0x80083bbc # lb $t0, 0x3bbc($zr)
