@@ -44,12 +44,8 @@ def main(args):
 	with open(elf, "rb") as elf_file:
 		elf_file = ELFFile(elf_file)
 
-		for sym in elf_file.iter_sections():
-			if sym.name != ".text":
-				continue
-
-			start_addr = sym.header.sh_addr
-			break
+		text_section = elf_file.get_section_by_name(".text")
+		start_addr = text_section.header.sh_addr
 
 		# If we have symbols to replace, get all symbol addresses
 		if len(syms_replace) != 0:
