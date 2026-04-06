@@ -1,7 +1,7 @@
 //! `RLEN` creator
 
 // Features
-#![feature(seek_stream_len, decl_macro, try_blocks, yeet_expr, array_windows)]
+#![feature(seek_stream_len, decl_macro, try_blocks, yeet_expr)]
 
 // Modules
 mod args;

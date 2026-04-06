@@ -5,7 +5,7 @@
 //       what file format supports midi + samples...
 
 // Features
-#![feature(seek_stream_len, try_blocks)]
+#![feature(seek_stream_len, try_blocks, try_blocks_heterogeneous)]
 
 // Modules
 mod args;
@@ -95,7 +95,7 @@ fn main() -> Result<(), anyhow::Error> {
 			sep.seqs
 				.iter()
 				.enumerate()
-				.map(|(seq_idx, seq)| try {
+				.map(|(seq_idx, seq)| try bikeshed Result<_, anyhow::Error> {
 					let output_path = seqs_path.join(format!("{seq_idx}.midi"));
 					let output_file = fs::File::create(&output_path).context("Unable to create output file")?;
 					let mut output_file = BufWriter::new(output_file);

@@ -50,7 +50,7 @@ impl Dir {
 						.context("Unable to seek reader to next sector.")?;
 				}
 			} {
-				return Some(Err(err));
+				return Some(Err(FromReaderError::Other(err)));
 			}
 
 			match DirEntry::from_reader(input) {

@@ -2,7 +2,7 @@
 
 // Imports
 use std::{
-	assert_matches::debug_assert_matches,
+	debug_assert_matches,
 	io::{self, Read, Seek, SeekFrom, Write},
 };
 

@@ -1,8 +1,5 @@
 //! VAB
 
-// Lints
-#![expect(clippy::unnecessary_fallible_conversions)] // `binrw` emits this
-
 // Imports
 use {anyhow::Context, binrw::BinRead, ddw3_util::CollectArray, std::io};
 

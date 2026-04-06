@@ -229,7 +229,7 @@ fn main() -> Result<(), anyhow::Error> {
 	// Write the image to the output
 	// TODO: Deduce from extension the output format?
 	let mut output = fs::File::create(&args.output).context("Unable to create output file")?;
-	img.write_to(&mut output, image::ImageOutputFormat::Png)
+	img.write_to(&mut output, image::ImageFormat::Png)
 		.context("Unable to write image to output file")?;
 
 	// Write the clut, if any
@@ -240,7 +240,7 @@ fn main() -> Result<(), anyhow::Error> {
 
 		let mut clut_output = fs::File::create(output_clut).context("Unable to create output clut file")?;
 		clut_img
-			.write_to(&mut clut_output, image::ImageOutputFormat::Png)
+			.write_to(&mut clut_output, image::ImageFormat::Png)
 			.context("Unable to write clut to output file")?;
 	}
 
