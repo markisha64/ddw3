@@ -2,9 +2,6 @@
 //!
 //! Used for all other binaries to implement consistent logging
 
-// Features
-#![feature(array_windows)]
-
 // Imports
 use {std::env, tracing::level_filters::LevelFilter, tracing_subscriber::prelude::*};
 

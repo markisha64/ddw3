@@ -1,7 +1,7 @@
 //! `MAP` tile extractor
 
 // Features
-#![feature(array_windows, seek_stream_len, try_blocks)]
+#![feature(seek_stream_len, try_blocks)]
 
 // Modules
 mod args;

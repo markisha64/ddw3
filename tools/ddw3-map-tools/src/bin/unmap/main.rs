@@ -1,7 +1,7 @@
 //! `MAP` extractor
 
 // Features
-#![feature(array_windows, seek_stream_len)]
+#![feature(seek_stream_len)]
 
 // Modules
 mod args;

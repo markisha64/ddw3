@@ -1,7 +1,7 @@
 //! `PACK` files
 
 // Features
-#![feature(seek_stream_len, array_windows, stmt_expr_attributes)]
+#![feature(seek_stream_len, stmt_expr_attributes)]
 
 // Imports
 use {
@@ -150,13 +150,13 @@ where
 
 	// Finally pad, if there were no empty files
 	// TODO: Why is it like this?
+	#[expect(unused_assignments, reason = "It might be used in the future")]
 	if offsets.iter().all(|&offset| offset != 0) && cur_pos % 4 != 0 {
 		let remaining = 4 - (cur_pos % 4);
 		writer
 			.write_all(&[0u8; 4][..remaining as usize])
 			.context("Unable to pad output to word size")?;
 
-		#[expect(unused_assignments, reason = "It might be used in the future")]
 		cur_pos += remaining;
 	}
 

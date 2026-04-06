@@ -22,24 +22,21 @@ class Symbol:
 	len_bytes: int | None
 	src: Path | None
 
+	# TODO: The LBA is a human readable file, so we shouldn't be
+	#       parsing it, but the only other output (C header) doesn't
+	#       contain the sizes, and although we could compute them, it
+	#       would complicate things.
 	@staticmethod
 	def from_line(line: str) -> Self:
 		"Parses a symbol from an lba line."
 
-		(ty, name, len_sectors, lba, timecode, len_bytes, src) = line.split()
-		name = name.strip().rstrip(";1").replace(".", "_")
+		(ty, name, len_sectors, lba, timecode, len_bytes, src) = line.split('|')
+		name = name.strip().replace(".", "_")
 		len_sectors = int(len_sectors.strip())
 		lba = int(lba.strip())
 		timecode = timecode.strip()
 		len_bytes = int(len_bytes.strip())
 		src = Path(src.strip())
-
-		# Note: `mkpsxiso` currently has a bug where the len in sectors is calculated
-		#       using the wrong sector size for XA files, so we rectify that here
-		# TODO: Remove once `https://github.com/Lameguy64/mkpsxiso/pull/55` is merged
-		#       and a new release happens.
-		if ty == "XA":
-			len_sectors = len_bytes // 2336
 
 		return Symbol(ty, name, len_sectors, lba, timecode, len_bytes, src)
 

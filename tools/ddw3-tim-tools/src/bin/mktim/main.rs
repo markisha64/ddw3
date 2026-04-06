@@ -1,7 +1,7 @@
 //! `TIM` creator
 
 // Features
-#![feature(array_windows, never_type, iter_array_chunks, unwrap_infallible)]
+#![feature(never_type, iter_array_chunks, unwrap_infallible)]
 
 // Modules
 mod args;

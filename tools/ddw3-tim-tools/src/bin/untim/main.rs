@@ -1,7 +1,7 @@
 //! `TIM` extractor
 
 // Features
-#![feature(array_windows, never_type, iter_array_chunks)]
+#![feature(never_type, iter_array_chunks)]
 
 // Modules
 mod args;
