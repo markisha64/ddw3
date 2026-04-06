@@ -3264,7 +3264,7 @@ F0x8001299c:
 .section "fns0_1.0x80012a44"
 .global F0x80012a44
 F0x80012a44:
-.L0x80012a44: lui $v0, %hi(D0x80048da0)
+.L0x80012a44: lui $v0, %hi(D0x8004b7d0)
 .L0x80012a48: addiu $s2, $v0, %lo(D0x8004b7d0)
 .L0x80012a4c: lw $v0, 0x3f4($s2)
 .L0x80012a50: lw $s3, 0x58($s1)
